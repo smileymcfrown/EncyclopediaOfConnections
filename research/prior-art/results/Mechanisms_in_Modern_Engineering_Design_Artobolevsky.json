@@ -37,7 +37,7 @@
     "file_formats": "Printed book. Unofficial scans exist online as PDF/DjVu; no CAD, STL or data files",
     "terminology_value": "medium. Good for systematic English names of mechanism families and functional groups (via the translator's standard terms), and for Russian-English equivalents through the parallel editions. Some terms are Soviet-translation style (e.g. 'linkwork', 'flexible-link mechanisms', 'inversors') and differ from modern Western or maker usage",
     "decision_support": "Partial. The functional classification (Table 2) lets a designer look up mechanisms by the job they must do, and Table 1 by structure. There is no flow chart, filter or comparison of pros and cons",
-    "derived_from_or_overlaps": "Revised and enlarged successor of Artobolevsky's own 'Mechanisms' (1947-1952), compiled from textbooks, journals and patents (sources not listed). Its theory rests on the Assur-Artobolevsky structural classification and on Reuleaux's kinematic pairs. Overlaps heavily with Jones' 'Ingenious Mechanisms for Designers and Inventors', Sclater's 'Mechanisms and Mechanical Devices Sourcebook', Hiscox's '1800 Mechanical Movements' and '507 Mechanical Movements' for the classic items. Its drawings feed the 2024 'Dataset for Mechanical Mechanisms' (together with DMG-Lib videos and Nguyen Duc Thang's animations). DMG-Lib catalogues all its editions (English, Russian, French)"
+    "derived_from_or_overlaps": "Revised and enlarged successor of Artobolevsky's own 'Mechanisms' (1947-1952), compiled from textbooks, journals and patents (sources not listed). Its theory rests on the Assur-Artobolevsky structural classification and on Reuleaux's kinematic pairs. Probably overlaps heavily [uncertain] with Jones' 'Ingenious Mechanisms for Designers and Inventors', Sclater's 'Mechanisms and Mechanical Devices Sourcebook', Hiscox's '1800 Mechanical Movements' and '507 Mechanical Movements' for the classic items. Its drawings feed the 2024 'Dataset for Mechanical Mechanisms' (together with DMG-Lib videos and Nguyen Duc Thang's animations). DMG-Lib catalogues all its editions (English, Russian, French)"
   },
   "sources": [
     "https://mirtitles.org/2018/10/13/mechanisms-in-modern-engineering-design-artobolevsky/ (Mir Books blog: preface extract, 7 books in 5 volumes, volume titles, translator Nicholas Weinstein, first published by Mir 1976, reprinted 1979)",
@@ -64,6 +64,7 @@
     "example_types",
     "item_count",
     "special_behaviours_covered",
-    "design_rules_given"
+    "design_rules_given",
+    "derived_from_or_overlaps"
   ]
 }
