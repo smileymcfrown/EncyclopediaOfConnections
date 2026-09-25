@@ -1,0 +1,92 @@
+# Starting field definitions for the connection-types research.
+# When /research asks "do you have an existing field definition file?", point it here.
+# Format required by .claude/skills/research/validate_json.py:
+#   fields: {<category>: [{name, description, detail_level}]}
+# Output JSON may be flat (all fields at top level) or nested under these category names.
+# Every field must be present. Use "[uncertain]" when a value can't be verified.
+# Writing style: plain English first, proper engineering term in brackets.
+
+fields:
+  identity:
+    - name: plain_name
+      description: How a beginner with no engineering vocabulary would describe it, e.g. "a clip that clicks shut but can be pried open"
+      detail_level: brief
+    - name: term
+      description: The proper / most widely used name, e.g. "cantilever snap fit"
+      detail_level: brief
+    - name: aliases
+      description: List of other names, including regional, trade and industry synonyms
+      detail_level: brief
+    - name: family
+      description: "Family it belongs to, e.g. snap & clip fits, threaded, press/interference fits, bonded/fused, hinges & pivots, sliders & linear guides, rotary (bearings/shafts/couplings), flexures & compliant mechanisms, linkages, locks/latches/detents, quick-release, adjustable/tensioning, seals & gaskets, cable/tube/wire, 3D-printing-specific"
+      detail_level: brief
+    - name: one_liner
+      description: One plain-English sentence saying what it is and what it does
+      detail_level: brief
+    - name: how_it_works
+      description: 2-4 plain sentences explaining the mechanism
+      detail_level: moderate
+
+  finder_attributes:
+    - name: motion
+      description: "One of: none / rotate / slide / rotate+slide / flex / multiple. Add the range of motion if relevant (e.g. 'rotate, up to 180°')"
+      detail_level: brief
+    - name: degrees_of_freedom
+      description: Number of independent ways the parts can move relative to each other (0-6), with a short plain explanation
+      detail_level: brief
+    - name: removability
+      description: "One of: permanent / semi-permanent (can be undone but may damage parts) / removable / tool-free quick release"
+      detail_level: brief
+    - name: reuse_cycles
+      description: "Roughly how many times it can be taken apart and put back together: once / a few times / many times / effectively unlimited"
+      detail_level: brief
+    - name: tools_needed
+      description: Tools needed to assemble or take apart (none / screwdriver / soldering iron / press / glue, etc.)
+      detail_level: brief
+    - name: seal
+      description: "One of: none / loose / dust-resistant / watertight / airtight or pressure. Say what makes it seal, if anything"
+      detail_level: brief
+    - name: load
+      description: "Rough load capacity: light / medium / heavy, and in which directions it is strong or weak (pull, shear, twist)"
+      detail_level: brief
+    - name: adjustable
+      description: Whether position or tension can be adjusted after assembly (yes/no, and how)
+      detail_level: brief
+
+  making:
+    - name: processes
+      description: "Which making methods suit it: 3D print (FDM), 3D print (resin), CNC, laser cut, woodwork, sheet metal, off-the-shelf part"
+      detail_level: brief
+    - name: making_tips_3d_printing
+      description: "Practical 3D-printing advice: print orientation, layer direction, clearances/tolerances, material choice, typical failures. Write 'not applicable' if it can't be 3D printed"
+      detail_level: detailed
+    - name: off_the_shelf_parts
+      description: Off-the-shelf parts involved or available (with proper names so they can be searched in supplier catalogues)
+      detail_level: moderate
+    - name: rules_of_thumb
+      description: Key dimensions, ratios or limits from reputable design guides, each with its source cited
+      detail_level: moderate
+
+  guidance:
+    - name: when_to_use
+      description: Situations where this is a good choice, in plain language
+      detail_level: moderate
+    - name: when_not_to_use
+      description: Situations where it's a poor choice, and what to use instead
+      detail_level: moderate
+    - name: common_failures
+      description: How it typically fails or goes wrong, and how to avoid it
+      detail_level: moderate
+    - name: related
+      description: List of similar or alternative connection types, each with how it differs
+      detail_level: moderate
+
+  media:
+    - name: links
+      description: "2-5 verified URLs (opened, not guessed) that show images, diagrams, animations or video. Each as {url, title, shows, license}"
+      detail_level: detailed
+    - name: diagram_idea
+      description: One sentence describing the simple diagram or animation that would explain it best (for the encyclopedia's own future illustrations)
+      detail_level: brief
+
+uncertain: []

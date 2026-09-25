@@ -9,5 +9,17 @@
   },
   "enabledPlugins": {
     "dev-tools@jezweb-skills": true
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c 'import yaml' 2>/dev/null || pip install -q pyyaml || pip install -q --user pyyaml || true"
+          }
+        ]
+      }
+    ]
   }
 }
