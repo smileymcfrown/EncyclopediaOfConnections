@@ -38,11 +38,15 @@ connector** (even if it's made of several smaller parts). Examples of what's wan
 - things that tighten or drive to a set torque, then slip or click (torque limiters, slip clutches)
 - things that hold under load but release by hand (self-locking, cam cleats, over-centre latches)
 - one-way mechanisms, indexing detents, bayonet/twist-lock mounts, compliant mechanisms,
-  print-in-place joints, simple motion converters (Geneva drive, scotch yoke, cams)
+  print-in-place joints, motion converters (Geneva drive, scotch yoke, cams)
+- **gear trains, gearboxes and similar transmissions**, as types (e.g. planetary, worm,
+  strain-wave/harmonic, cycloidal, belt and chain drives, differentials)
+- **powered / active connectors** (e.g. electromagnets and electro-permanent magnets,
+  solenoid latches, motorised locks, shape-memory-alloy actuators used as latches)
 
 **Out of scope (for now):** catalogues of standard hardware (manufacturers' ranges of
 screws, bolts, nuts, rivets, etc.), since other resources already cover them, and whole
-machines. Each family may have one generic "baseline" entry (e.g. "ordinary screw joint") so
+machines (e.g. a complete robot arm). Components like gearboxes and powered latches are in. Each family may have one generic "baseline" entry (e.g. "ordinary screw joint") so
 the flow chart has something to compare against. Standard hardware might be added later.
 
 **Build on what exists.** There are existing encyclopedias, wikis, digital libraries and repos
@@ -77,6 +81,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R7 | 2026-09-25 | Look for a better research plugin/skill (skills.sh) | Done: chose Weizhena/Deep-Research-skills |
 | R8 | 2026-09-25 | Switch to Weizhena/Deep-Research-skills and rewrite the prompts for it | Done: `.claude/skills/`, `research/prompts/` |
 | R9 | 2026-09-25 | **Priority:** find existing research, encyclopedias, wikis and repos first | Done: run 1 is now `01-prior-art.md`, and run 2 builds on its results |
+| R11 | 2026-09-25 | **Scope:** include powered connectors, and gear trains, gearboxes and similar transmissions | Done: Scope, prompts and fields updated (`power` field) |
 | R10 | 2026-09-25 | **Scope:** focus on unusual/clever connection and mechanism *types* (e.g. torque limiting, hand-release-only locking), from simple connections to semi-complex mechanisms that act as one unit. Not standard hardware catalogues | Done: Scope section added. Prompts and fields updated (`special_behaviour`, `complexity`) |
 
 ---
@@ -88,6 +93,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | The status doc lives in the repo (`PROJECT.md`) | Future Claude sessions can read and update it automatically |
 | 2026-09-25 | Research runs in stages: prior art → connection types → flow chart & format, then expand families as needed | One giant run would be shallow on every category and hard to review. Prior art comes first so the catalogue builds on existing collections (R9) |
 | 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family | Owner clarification (R10) |
+| 2026-09-25 | Powered/active connectors and gear trains/gearboxes/transmissions are in scope (as types). Added a `power` finder field (passive / powered) | Owner clarification (R11) |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
 | 2026-09-25 | Research recommends the final format (static site vs markdown, etc.) | Owner has no preference yet. A free static host is the working assumption |
 | 2026-09-25 | Priority order for making methods: 3D printing, then robotics/mechanisms, then everyday hardware | Owner preference |
@@ -137,7 +143,6 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 ## 6. Open questions
 - Should CNC / laser / woodworking joinery be in scope from day one, or added later? (For now: a short list of interlocking joints only)
-- Scope edge cases, not yet confirmed: are powered/active connectors in (electromagnets, solenoid latches, motorised locks)? Are gear trains and transmissions in, or only single-stage motion converters?
 - Project name / domain for the published site?
 - License for the project's own content (e.g. CC BY-SA)?
 
@@ -150,3 +155,4 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Project set up. Added this plan, the research prompts, `CLAUDE.md`, and plugin settings |
 | 2026-09-25 | Switched research to Weizhena/Deep-Research-skills (copied into `.claude/`, paths patched, maker search module added). Added the field definitions in `research/fields/` and rewrote the prompts as runs 1–3 plus expand-a-family. skills.sh itself is blocked by this environment's network policy, so it was searched via web search and GitHub |
 | 2026-09-25 | Owner set priority (prior art first) and scope (unusual/clever types that act as one unit, not standard hardware). Run 1 became `01-prior-art.md`. Run 2 and the field lists were refocused, adding `special_behaviour` and `complexity` |
+| 2026-09-25 | Owner confirmed powered connectors and gear trains/gearboxes are in scope. Updated Scope, prompts 01/02, and fields (`power`) |

@@ -19,7 +19,8 @@ Context for building the outline:
   mechanisms that act as one unit. It focuses on **unusual and clever ones**, not standard
   hardware: things like torque limiters, ratcheting dial/reel closures (a knob that tightens
   straps, locks, and only releases when turned by hand), self-locking and one-way mechanisms,
-  over-centre latches, compliant mechanisms, indexing detents, and so on. It's for hobbyist makers
+  over-centre latches, compliant mechanisms, indexing detents, gear trains and gearboxes,
+  and powered connectors (electromagnets, solenoid latches, motorised locks), and so on. It's for hobbyist makers
   (3D printing first, then robotics/mechanisms) who don't know the engineering terms.
 - **Items** = existing collections that catalogue or classify many connection or mechanism
   types. Aim for **30–50 items**, in this priority order:

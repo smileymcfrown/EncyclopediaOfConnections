@@ -40,6 +40,9 @@ fields:
     - name: special_behaviour
       description: "List of the clever things it does, from: torque-limiting (slips or clicks at a set force/torque) / self-locking (holds under load, won't back-drive) / hand-release only (locks under load, releases when a person operates it) / one-way (moves freely one way, locks the other) / indexing (clicks into set positions) / over-centre (snaps past a point and stays) / self-aligning or self-centring / quick-release / fail-safe or breakaway / tensioning (takes up slack and holds) / motion conversion (e.g. rotary to linear) / none. Explain each in plain words"
       detail_level: moderate
+    - name: power
+      description: "passive (no power needed) / powered (needs electricity or another energy source to work or to release, e.g. electromagnet, solenoid, motor, shape-memory alloy). If powered: what happens when power is lost (stays locked, releases, or keeps its last state)"
+      detail_level: brief
     - name: removability
       description: "One of: permanent / semi-permanent (can be undone but may damage parts) / removable / tool-free quick release"
       detail_level: brief

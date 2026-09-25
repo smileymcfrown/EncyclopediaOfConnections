@@ -13,7 +13,7 @@ Then produce the following and save it to `research/flowchart-and-format.md`.
 
 ## 1. Flow-chart / finder design
 - The **questions** that best tell connection types apart, written in **plain language** with
-  answer options for each. Start from the finder fields in the data (`special_behaviour`, `motion`,
+  answer options for each. Start from the finder fields in the data (`special_behaviour`, `power`, `motion`,
   `removability`, `reuse_cycles`, `tools_needed`, `seal`, `load`, `adjustable`,
   `processes`), and add any others the data shows are needed.
 - A recommended **question order**, and how each answer narrows the entries. Test it

@@ -29,9 +29,14 @@ Context for building the outline:
     over-centre latches)
   - one-way mechanisms (ratchet and pawl, sprag clutch, wrap-spring clutch)
   - indexing detents, bayonet and twist-lock mounts, compliant mechanisms, print-in-place
-    joints, and simple motion converters (e.g. Geneva drive, scotch yoke, cam and follower)
+    joints, and motion converters (e.g. Geneva drive, scotch yoke, cam and follower)
+  - gear trains, gearboxes and similar transmissions, as types (planetary, worm,
+    strain-wave/harmonic, cycloidal, rack and pinion, belt/chain drives, differentials)
+  - powered / active connectors (electromagnets, electro-permanent magnets, solenoid
+    latches, motorised locks, shape-memory-alloy latches)
 - **Out of scope:** catalogues of standard hardware (screw/bolt/nut/rivet ranges,
-  manufacturer part lists) and whole machines. At most, include **one generic baseline entry
+  manufacturer part lists) and whole machines (e.g. a complete robot arm). Gearboxes and
+  powered latches count as components, so they're in. At most, include **one generic baseline entry
   per family** (e.g. "ordinary screw joint") so the flow chart has something to compare against.
 - **Items** = individual *types* (not products or brands). Aim for **150+ items**. Give each
   a `category` (its family) and a one-line `description`. Families to start from (improve
@@ -41,7 +46,8 @@ Context for building the outline:
   indexing & detents · quick-release & tool-free (bayonet, twist-lock, quarter-turn, push-button) ·
   snap & clip fits · compliant mechanisms & flexures · print-in-place & 3D-printing-specific joints ·
   hinges & pivots (unusual variants) · sliding & telescoping locks · clutches & couplings ·
-  motion conversion (cams, Geneva, scotch yoke, linkages) · magnetic & friction connections ·
+  motion conversion (cams, Geneva, scotch yoke, linkages) · gear trains, gearboxes &
+  transmissions · powered & active connectors · magnetic & friction connections ·
   cord, strap & webbing hardware (cam buckles, ladder locks, cord locks) ·
   interlocking joints (dovetail, puzzle, and a short list of woodwork/CNC joinery).
 - **Order the items list by priority**: unusual types that can be 3D printed or are useful in
