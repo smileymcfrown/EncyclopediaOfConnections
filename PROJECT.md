@@ -5,8 +5,8 @@
 > **Every working session should read this first and update it before finishing.**
 
 **Last updated:** 2026-09-25
-**Current phase:** Phase 0 — Research (not started)
-**Next action:** Run `research/prompts/01-prior-art.md` (find existing encyclopedias, wikis and repos first), then run 2
+**Current phase:** Phase 0 — Research (run 1 done; run 2 next)
+**Next action:** Owner reviews `research/prior-art/summary.md` (especially the type list in section 2 and the two suggested extra families), then run `research/prompts/02-connection-types.md`, starting from that list
 
 ---
 
@@ -112,7 +112,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 ### Phase 0 — Research
 - [x] Choose the research tool and set it up (Weizhena/Deep-Research-skills, copied into the repo)
-- [ ] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names
+- [x] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names (54 collections; done 2026-09-25)
 - [ ] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/`
 - [ ] Review run 2 with the owner. Confirm the families and fields
 - [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
@@ -139,8 +139,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
-| 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` | Not started |
-| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` | Not started (needs run 1) |
+| 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25. 54 of 54 items researched and validated (34 fields each) |
+| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` | Not started. Ready: start from `research/prior-art/summary.md` section 2 |
 | 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
 
 ---
@@ -148,7 +148,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 ## 6. Open questions
 - Should CNC / laser / woodworking joinery be in scope from day one, or added later? (For now: a short list of interlocking joints only)
 - Project name / domain for the published site?
-- License for the project's own content (e.g. CC BY-SA)?
+- License for the project's own content (e.g. CC BY-SA)? Run 1 found that the main reusable sources (Wikipedia, most of Wikimedia Commons, WikiHouse) are CC BY-SA, so CC BY-SA is the simplest fit. See `research/prior-art/summary.md` section 4
+- Add the two families run 1 suggested (locating & alignment; springs / energy storage), or fold them into others?
 
 ---
 
@@ -160,3 +161,4 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Switched research to Weizhena/Deep-Research-skills (copied into `.claude/`, paths patched, maker search module added). Added the field definitions in `research/fields/` and rewrote the prompts as runs 1–3 plus expand-a-family. skills.sh itself is blocked by this environment's network policy, so it was searched via web search and GitHub |
 | 2026-09-25 | Owner set priority (prior art first) and scope (unusual/clever types that act as one unit, not standard hardware). Run 1 became `01-prior-art.md`. Run 2 and the field lists were refocused, adding `special_behaviour` and `complexity` |
 | 2026-09-25 | Owner confirmed powered connectors and gear trains/gearboxes are in scope. Updated Scope, prompts 01/02, and fields (`power`) |
+| 2026-09-25 | Ran run 1 (prior art). Outline of 54 collections with 34 fields (15 new fields merged into `research/fields/prior-art.fields.yaml`); owner added adhesive types to scope (R12). 27 research agents wrote and validated 54 JSON files; `report.md` generated (TOC shows resource_type, scope_match, reusable_data). `summary.md` covers the top 10 collections, a merged type list in 21 families plus 2 suggested ones, classification schemes and flow-chart ideas, and licensing. Environment note: network access had to be widened for the agents; github.com pages stay blocked (READMEs read via raw.githubusercontent.com), and some sites (Zhihu, Wayback Machine, Printables web, Xometry) could not be opened, so those facts are marked `[uncertain]` |
