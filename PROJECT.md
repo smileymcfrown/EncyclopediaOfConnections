@@ -43,6 +43,8 @@ connector** (even if it's made of several smaller parts). Examples of what's wan
   strain-wave/harmonic, cycloidal, belt and chain drives, differentials)
 - **powered / active connectors** (e.g. electromagnets and electro-permanent magnets,
   solenoid latches, motorised locks, shape-memory-alloy actuators used as latches)
+- **adhesive types**, by material and use (e.g. cyanoacrylate/superglue vs PVA wood glue vs
+  two-part epoxy vs contact adhesive vs solvent cement). Types only, not brand lists
 
 **Out of scope (for now):** catalogues of standard hardware (manufacturers' ranges of
 screws, bolts, nuts, rivets, etc.), since other resources already cover them, and whole
@@ -83,6 +85,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R9 | 2026-09-25 | **Priority:** find existing research, encyclopedias, wikis and repos first | Done: run 1 is now `01-prior-art.md`, and run 2 builds on its results |
 | R11 | 2026-09-25 | **Scope:** include powered connectors, and gear trains, gearboxes and similar transmissions | Done: Scope, prompts and fields updated (`power` field) |
 | R10 | 2026-09-25 | **Scope:** focus on unusual/clever connection and mechanism *types* (e.g. torque limiting, hand-release-only locking), from simple connections to semi-complex mechanisms that act as one unit. Not standard hardware catalogues | Done: Scope section added. Prompts and fields updated (`special_behaviour`, `complexity`) |
+| R12 | 2026-09-25 | **Scope:** include adhesives, as types for different materials and uses (cyanoacrylate vs PVA vs two-part epoxy vs contact adhesive …), not an exhaustive list of brands | Done: Scope, run 1 outline (4 adhesive items), run 2 prompt and prior-art fields updated |
 
 ---
 
@@ -94,6 +97,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Research runs in stages: prior art → connection types → flow chart & format, then expand families as needed | One giant run would be shallow on every category and hard to review. Prior art comes first so the catalogue builds on existing collections (R9) |
 | 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family | Owner clarification (R10) |
 | 2026-09-25 | Powered/active connectors and gear trains/gearboxes/transmissions are in scope (as types). Added a `power` finder field (passive / powered) | Owner clarification (R11) |
+| 2026-09-25 | Adhesive *types* are in scope, compared by material and use. Brand lists are out | Owner clarification (R12) |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
 | 2026-09-25 | Research recommends the final format (static site vs markdown, etc.) | Owner has no preference yet. A free static host is the working assumption |
 | 2026-09-25 | Priority order for making methods: 3D printing, then robotics/mechanisms, then everyday hardware | Owner preference |

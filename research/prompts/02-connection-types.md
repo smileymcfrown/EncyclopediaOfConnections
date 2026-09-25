@@ -34,6 +34,8 @@ Context for building the outline:
     strain-wave/harmonic, cycloidal, rack and pinion, belt/chain drives, differentials)
   - powered / active connectors (electromagnets, electro-permanent magnets, solenoid
     latches, motorised locks, shape-memory-alloy latches)
+  - adhesive types, by material and use (e.g. cyanoacrylate vs PVA vs two-part epoxy vs
+    contact adhesive vs hot melt vs solvent cement). Types only, not brand lists
 - **Out of scope:** catalogues of standard hardware (screw/bolt/nut/rivet ranges,
   manufacturer part lists) and whole machines (e.g. a complete robot arm). Gearboxes and
   powered latches count as components, so they're in. At most, include **one generic baseline entry
@@ -48,6 +50,7 @@ Context for building the outline:
   hinges & pivots (unusual variants) · sliding & telescoping locks · clutches & couplings ·
   motion conversion (cams, Geneva, scotch yoke, linkages) · gear trains, gearboxes &
   transmissions · powered & active connectors · magnetic & friction connections ·
+  adhesives & bonding (types by material and use) ·
   cord, strap & webbing hardware (cam buckles, ladder locks, cord locks) ·
   interlocking joints (dovetail, puzzle, and a short list of woodwork/CNC joinery).
 - **Order the items list by priority**: unusual types that can be 3D printed or are useful in

@@ -1,0 +1,190 @@
+# Run 1: prior art. Items are existing collections that catalogue or classify many
+# connection or mechanism types. Ordered by the priority in research/prompts/01-prior-art.md.
+# Built from model knowledge plus one web-search supplement pass (2026-09-25).
+# Left out on purpose: standard-hardware catalogues (Bolt Depot, NASA RP-1228 fastener manual,
+# FreeCAD Fasteners Workbench, Engineers Edge) and material-joining families that are outside
+# the Scope (knots, welding). DIN 8593 is kept only as a classification scheme.
+# Adhesives were added at the owner's request (R12): TYPES of adhesive by material and use
+# (cyanoacrylate vs PVA vs two-part epoxy vs contact adhesive ...), not brand lists.
+
+topic: Existing encyclopedias, wikis, databases and repositories of mechanical connections and mechanisms
+
+items:
+  # ---- 1. Encyclopedias, wikis and digital libraries ----
+  - name: DMG-Lib (Digital Mechanism and Gear Library)
+    category: Encyclopedia / digital library
+    description: TU Ilmenau-led digital library of mechanisms, gears, historic books and physical models, with animations and a mechanism catalogue (German/English)
+  - name: KMODDL (Cornell Kinematic Models for Design Digital Library)
+    category: Encyclopedia / digital library
+    description: Photos, videos and simulations of Cornell's Reuleaux kinematic model collection, plus digitised historic texts
+  - name: 507 Mechanical Movements (Henry T. Brown) and 507movements.com
+    category: Encyclopedia / digital library
+    description: 1868 illustrated catalogue of 507 numbered movements (public domain) and the animated website built from it
+  - name: Nguyen Duc Thang animated mechanisms (thang010146)
+    category: Encyclopedia / digital library
+    description: YouTube channel and PDF books of 2,000+ CAD-animated mechanisms, indexed by DT Online's "2100 Animated Mechanical Mechanisms" page
+  - name: BYU Compliant Mechanisms Research (CMR)
+    category: Encyclopedia / digital library
+    description: BYU research group site with a compliant mechanism library, flexure elements, lamina-emergent and origami-inspired mechanisms
+  - name: Wikipedia category trees for mechanisms and connections
+    category: Encyclopedia / wiki
+    description: Category:Mechanisms (engineering), Mechanical power transmission, Kinematic pairs, Couplings, Clutches, List of mechanical components; also German Wikipedia's Fügen tree
+  - name: Wikimedia Commons mechanism animation categories
+    category: Encyclopedia / wiki
+    description: Category:Animations of mechanisms and related image categories; openly licensed images and GIFs
+  - name: Hiscox 1800 Mechanical Movements, Devices and Appliances
+    category: Encyclopedia / digital library
+    description: Gardner D. Hiscox's 1899+ illustrated catalogue grouped by field; public domain scans on the Internet Archive
+  - name: Mecapedia (Universitat Jaume I)
+    category: Encyclopedia / wiki
+    description: Spanish-language mechanical engineering encyclopedia started in 2006, with a Catalogos section; a direct counterpart to this project
+  - name: Mechanical Design 101 (J. Michael McCarthy)
+    category: Encyclopedia / wiki
+    description: UC Irvine professor's hub of linkage animations, lecture notes and links to other mechanism collections
+  - name: Interactive mechanism demo sites (Wolfram Demonstrations, Colorado State video demos, MechSimulator)
+    category: Encyclopedia / digital library
+    description: Interactive and video demonstrations of linkages, cams, gear trains and Geneva drives (Wolfram demos are CC BY-NC-SA)
+  - name: RoyMech
+    category: Encyclopedia / wiki
+    description: UK engineering reference site covering couplings, clutches, brakes, gears, springs, keys and locking devices
+  - name: Free and public-domain machine design textbooks (Slocum FUNdaMENTALs of Design, UArk open textbook, US Navy Basic Machines)
+    category: Encyclopedia / digital library
+    description: MIT's free FUNdaMENTALs of Design, University of Arkansas' CC BY-NC open textbook, and the public-domain US Navy NAVPERS 10624 Basic Machines
+  - name: Robotics competition mechanism wikis (Game Manual 0, FRCDesign.org, Unofficial FRC Mechanism Encyclopedia)
+    category: Encyclopedia / wiki
+    description: Maker-level FTC/FRC guides to drivetrains, linear slides, intakes, gearboxes and mechanism examples, organised by function
+  - name: School and hobby mechanism education (DT Online wiki, NotesandSketches, Rob Ives paper automata)
+    category: Encyclopedia / wiki
+    description: UK Design & Technology mechanism teaching material and paper automata mechanism packs aimed at beginners
+  - name: Chinese mechanism collections (HUANGYAN920/Mechanical, XAUAT typical mechanisms 3D library, Zhihu GIF compilations)
+    category: Encyclopedia / digital library
+    description: Chinese-language mechanism animation libraries and an MIT-licensed HTML showcase of 257 mechanisms in 11 categories
+
+  # ---- 2. Open repositories and datasets ----
+  - name: BOSL2 (Belfry OpenSCAD Library v2)
+    category: CAD library
+    description: OpenSCAD library with hinges, snap pins, dovetails, joiners, gears, threading, rabbit clips and more
+  - name: OpenSCAD libraries list (MCAD, NopSCADlib and others)
+    category: CAD library
+    description: The official openscad.org list of libraries and the notable mechanism/joint libraries in it
+  - name: GitHub awesome lists (awesome-openscad, awesome-3d-printing, awesome-mechanical-engineering, awesome-robotics)
+    category: GitHub repo or dataset
+    description: Curated link lists that may point to mechanism and joint libraries
+  - name: Other parametric CAD libraries (cq_warehouse / bd_warehouse, Onshape FeatureScript libraries)
+    category: CAD library
+    description: CadQuery/build123d part libraries and Onshape custom features that generate snap hooks, lip joints, gears and chains
+  - name: Boxes.py
+    category: CAD library
+    description: Open-source laser-cut generator with finger and dovetail joints, flex cuts, living hinges, hinges, gears and pulleys
+  - name: HCI fabrication research on joints (Joinery by Zheng, SpringFit, kyub, Metamaterial Mechanisms)
+    category: GitHub repo or dataset
+    description: Research tools and catalogues of laser-cut joints and cell-based metamaterial mechanisms (e.g. a one-piece door latch)
+  - name: CAD assembly joint datasets (Fusion 360 Gallery Assembly / JoinABLe, AutoMate, Assemble Them All)
+    category: GitHub repo or dataset
+    description: Research datasets of joints and mates between CAD parts, with joint-type labels
+  - name: PartNet-Mobility / SAPIEN
+    category: GitHub repo or dataset
+    description: 2,346 articulated objects with hinge, slider and screw joints annotated; on Hugging Face
+  - name: Linkage and mechanism datasets (LINKS, 3M planar linkage dataset, MechBench, MechVerse)
+    category: GitHub repo or dataset
+    description: Large datasets of planar linkages and mechanism assemblies from 2022-2026 research papers
+  - name: Model repository collections (Printables, Thingiverse, MakerWorld, GrabCAD)
+    category: Model library
+    description: Tags and collections of print-in-place, compliant, snap-fit and mechanism models and test prints
+  - name: Hackaday articles and collections on mechanisms
+    category: Encyclopedia / wiki
+    description: Hackaday blog and hackaday.io coverage of compliant, print-in-place and clever mechanisms
+
+  # ---- 3. Books and classification systems ----
+  - name: Mechanisms and Mechanical Devices Sourcebook (Sclater and Chironis)
+    category: Book
+    description: Illustrated sourcebook of about 2,000 mechanisms and devices, grouped by function, in several editions
+  - name: Mechanisms in Modern Engineering Design (Artobolevsky)
+    category: Book / classification system
+    description: 5-volume (7-book) Soviet catalogue of about 4,000 mechanisms with a formal classification
+  - name: Reuleaux, The Kinematics of Machinery
+    category: Classification system
+    description: 1875 book that founded the classification of kinematic pairs and chains; the basis of the KMODDL models
+  - name: Ingenious Mechanisms for Designers and Inventors (Jones)
+    category: Book
+    description: 4-volume collection (1930-1967) of mechanisms submitted by practising engineers, grouped by type
+  - name: Handbook of Compliant Mechanisms (Howell et al.)
+    category: Book
+    description: Book with a library of compliant mechanism types and elements, from the BYU group
+  - name: Flexure and exact-constraint references (Smith's Flexures, Hopkins' FACT, Blanding's Exact Constraint)
+    category: Book / classification system
+    description: Books and a classification method for flexures, constraint patterns and kinematic mounts
+  - name: Roth design catalogues / VDI 2222 (Konstruieren mit Konstruktionskatalogen)
+    category: Classification system
+    description: German systematic design catalogues, including catalogues of connections and joints organised by principle
+  - name: DIN 8593 joining process classification
+    category: Classification system
+    description: German standard that groups every joining method (assembling, joining by mechanical means, forming, welding, bonding and so on)
+  - name: Snap-fit and integral attachment books (Bonenberger's The First Snap-Fit Handbook, Messler's Integral Mechanical Attachment)
+    category: Book / classification system
+    description: Books that classify snap fits and integral locks, with design rules
+  - name: Japanese joinery catalogues and tools (Sato and Nakahara, The Joinery animations, Tsugite)
+    category: Book / classification system
+    description: Books cataloguing Japanese wood joints, the widely shared The Joinery 3D animations, and the Tsugite research tool
+  - name: Digital joinery catalogues (Jochen Gros 50 Digital Wood Joints, WikiHouse, IBOIS EPFL tools)
+    category: Book / classification system
+    description: Catalogues and open systems of CNC-cut interlocking joints
+  - name: Making Things Move (Dustyn Roberts)
+    category: Book
+    description: Beginner book on mechanisms, couplings, gears and motors for non-engineers
+  - name: Robot Mechanisms and Mechanical Devices Illustrated (Sandin)
+    category: Book
+    description: "Illustrated book of robot mechanisms: drivetrains, arms, grippers and sensors"
+  - name: LEGO Technic references (Isogawa's Technic Idea Books, Sariel's Unofficial LEGO Technic Builder's Guide)
+    category: Book
+    description: Picture-led catalogues of gear, linkage, differential and steering mechanisms built from LEGO
+  - name: IFToMM terminology for mechanism and machine science
+    category: Classification system
+    description: The international standard vocabulary of mechanism terms, with multilingual equivalents
+  - name: Functional Basis and the Oregon State Design Repository
+    category: Classification system
+    description: Function-based taxonomy of what components do (couple, guide, transmit, lock) and a repository of products classified with it
+
+  # ---- 4. Design guides and illustrated collections ----
+  - name: Plastics makers' snap-fit design guides (Covestro/Bayer, BASF, DuPont)
+    category: PDF design guide
+    description: Manufacturer manuals on cantilever, torsional and annular snap fits, with design equations
+  - name: 3D printing service design guides (Hubs, Protolabs, Xometry, Formlabs, Prusa)
+    category: PDF design guide
+    description: Web guides on snap fits, living hinges, print-in-place joints, threads and inserts for 3D printing
+  - name: Gear type references (KHK gear technical reference, SDP/SI Elements of Metric Gear Technology)
+    category: PDF design guide
+    description: Gear makers' guides that classify gear types and gear trains
+  - name: Supplier catalogues as a vocabulary source (McMaster-Carr, MISUMI, igus)
+    category: Supplier catalogue
+    description: Catalogues that name clever off-the-shelf mechanisms (torque limiters, index plungers, toggle clamps, solenoid latches) and their variants
+
+  # ---- 5. Tools ----
+  - name: Mechanism design apps (MotionGen, Linkage, PMKS+, geargenerator.com)
+    category: Interactive tool
+    description: Free apps for designing and animating linkages and gear trains
+  - name: Joining and selection tools (TWI, Swift and Booker, Granta EduPack)
+    category: Interactive tool
+    description: Selectors and decision aids for choosing joining methods; models for the project's finder
+  - name: TRIZ effects database (Oxford Creativity)
+    category: Interactive tool
+    description: Free function-based lookup ("how do I hold / move / join ...") built from patents
+
+  # ---- 6. Adhesive types (added at the owner's request, R12) ----
+  - name: thisTOthat adhesive selector
+    category: Interactive tool
+    description: "Beginner \"glue this to that\" selector: pick two materials, get recommended adhesive types; a model decision tool"
+  - name: Adhesive manufacturers' selection and design guides (Henkel/Loctite, 3M, Permabond)
+    category: PDF design guide
+    description: Guides that classify adhesive chemistries (cyanoacrylate, epoxy, acrylic, polyurethane, silicone, anaerobic, hot melt, contact) by substrate and use, e.g. the Loctite Design Guide for Bonding Plastics
+  - name: Adhesive reference works and classifications (Petrie's Handbook of Adhesives and Sealants, Adhesive and Sealant Council, Wikipedia adhesive types)
+    category: Book / classification system
+    description: Reference books, industry bodies and wiki pages that classify adhesive types by chemistry and curing (reactive, evaporative, pressure-sensitive, hot melt)
+  - name: Maker adhesive guides and tests for 3D prints and hobby materials (Prusa knowledge base, CNC Kitchen glue tests, woodworking glue guides)
+    category: Encyclopedia / wiki
+    description: Hobbyist-level comparisons of glues for PLA, PETG, ABS, resin, wood and mixed materials, with test results
+
+execution:
+  batch_size: 5
+  items_per_agent: 2
+  output_dir: research/prior-art/results

@@ -20,6 +20,21 @@ fields:
     - name: license
       description: License of its text and images (e.g. CC BY-SA, public domain, all rights reserved), and what that means for linking or reusing images
       detail_level: brief
+    - name: language
+      description: Main language(s) of the content (e.g. English, German, Spanish, Chinese)
+      detail_level: brief
+    - name: year
+      description: Year first published, and year of the latest edition or update
+      detail_level: brief
+    - name: access_barrier
+      description: "What stands between a reader and the content: none / free login / membership / paywall / desktop install / academic licence"
+      detail_level: brief
+    - name: image_license
+      description: License of its images, animations and videos, if different from the text (e.g. Commons CC BY-SA, public domain scans, all rights reserved)
+      detail_level: brief
+    - name: authority_level
+      description: "Who is behind it: official standard / manufacturer / academic peer-reviewed / educator / community or unvetted"
+      detail_level: brief
 
   coverage:
     - name: covers
@@ -39,6 +54,18 @@ fields:
       detail_level: moderate
     - name: making_methods
       description: Which making methods it's aimed at (3D printing, CNC, robotics, general engineering, woodwork …)
+      detail_level: brief
+    - name: item_count
+      description: Approximate number of entries, models or mechanisms (e.g. 507, about 2,100, 2,346 objects)
+      detail_level: brief
+    - name: special_behaviours_covered
+      description: "Which of the project's special behaviours and in-scope families it covers: torque-limiting, self-locking, hand-release only, one-way/ratchet, indexing/detent, over-centre, compliant, print-in-place, gear trains/gearboxes, powered connectors (electromagnets, solenoid latches, motorised locks), and adhesive types (which chemistries, for which materials and uses)"
+      detail_level: moderate
+    - name: entry_structure
+      description: What a typical entry contains (name, figure, animation, description, degrees of freedom, design rules, CAD file, how-to)
+      detail_level: brief
+    - name: audience_level
+      description: "Who it's written for: school / hobbyist / competition robotics / undergraduate / professional / research"
       detail_level: brief
 
   usefulness:
@@ -66,5 +93,23 @@ fields:
     - name: ideas_to_borrow
       description: Presentation or organisation ideas worth copying for the encyclopedia and its flow chart
       detail_level: moderate
+    - name: design_rules_given
+      description: Whether it gives numbers (clearances, strain limits, fits, torque) and for which types
+      detail_level: brief
+    - name: generator_or_parametric
+      description: Whether it generates custom geometry (OpenSCAD/CadQuery modules, web generators, parametric models)
+      detail_level: brief
+    - name: file_formats
+      description: Formats it offers (STL, STEP, SCAD, SVG/DXF, JSON/URDF, video, GIF, PDF)
+      detail_level: brief
+    - name: terminology_value
+      description: Whether it is a good authority for proper names, aliases and translations of mechanism terms
+      detail_level: brief
+    - name: decision_support
+      description: Whether it has selector logic, a flow chart, filters or comparison tables, and how they work
+      detail_level: moderate
+    - name: derived_from_or_overlaps
+      description: Upstream source it copies or builds on, and major overlaps with other items (to avoid double counting and to find the original to cite)
+      detail_level: brief
 
 uncertain: []
