@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "jezweb-skills": {
+      "source": {
+        "source": "github",
+        "repo": "jezweb/claude-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "dev-tools@jezweb-skills": true
+  }
+}
