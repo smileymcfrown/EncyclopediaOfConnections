@@ -1,0 +1,50 @@
+{
+  "basics": {
+    "name": "Mechanical Design 101 (J. Michael McCarthy, UC Irvine)",
+    "url": "https://mechanicaldesign101.com/ (linkage animations category: https://mechanicaldesign101.com/category/linkage-animation/; Linkage Designs: https://mechanicaldesign101.com/linkage-designs/)",
+    "resource_type": "encyclopedia/wiki in the project's list, but in practice an educator's WordPress blog and resource hub (posts, videos, lecture notes, a shop for books and apps)",
+    "cost": "Free to read; the site also sells McCarthy's books and software (e.g. 21st Century Kinematics $159.00, Geometric Design of Linkages $44.99, Kinematic Synthesis of Mechanisms print $29.95, Introduction to Theoretical Kinematics $9.99)",
+    "license": "'(c) Copyright - Mechanical Design 101' in the footer; no open licence found, so all rights reserved: fine to link to posts, not to copy images or text",
+    "language": "English",
+    "year": "Oldest posts seen date from 2012 (e.g. 'Mechanism Generator 2.0', 6 January 2012; student linkage projects December 2012); newest post seen 24 February 2025 ('Innovative Car Door Linkage'). Exact launch year not stated [uncertain]",
+    "access_barrier": "none (logging in only needed to comment)",
+    "image_license": "All rights reserved (site copyright); many animations are embedded YouTube videos under their uploaders' terms [uncertain]",
+    "authority_level": "educator (a UC Irvine Distinguished Professor, ASME Fellow and former editor of the ASME Journal of Mechanical Design and Journal of Mechanisms and Robotics); blog posts are not peer-reviewed but often summarise his group's published research"
+  },
+  "coverage": {
+    "covers": "Mainly linkages (bar mechanisms): the 'Linkage Animations' category holds 101 posts of animated four-bar, six-bar, eight-bar, spherical and spatial linkages, many designed by his students for real tasks (car doors, bookcases, monitor arms, spoilers, ailerons, retractable handle, folding structures, flapping wings, walking-robot legs, curve-drawing linkages). Other categories: Kinematic Synthesis (50), Robotics Information (56), Lecture Notes (31), Engineering Data (26), Student Projects (39), Racecar Engineering (28), plus fiction ('Creative') and Arduino tutorials ('The Bored Robot'). Lecture notes cover DC motor torque and power, four-bar analysis, slider-crank, elementary robotics, cam and follower systems and GD&T",
+    "organisation": "Blog categories and date order (newest first), with top-menu sections (Machine Design, Linkage Designs, Energy and Environment, Design Innovation, Robotics, Lecture Notes, Creative) and a search box. There is no index by mechanism type or by what a mechanism does, so a beginner has to scroll through posts; post titles often name the application ('Retractable handle', 'Open a door') which helps a little",
+    "scope_match": "low: the content is almost all planar and spatial linkages designed with research-level synthesis methods, and many posts show whole machines (walking robots, racecars) that the project leaves out; nothing on joints, fasteners, snap fits, clutches, latches or adhesives. Useful only as inspiration for clever linkage motions",
+    "taxonomy_used": "No formal mechanism taxonomy. Posts are grouped by blog category (about 22 categories, e.g. Linkage Animations, Kinematic Synthesis, Kinematics, Lecture Notes, Engineering Data). Within linkages, posts use the standard research names: 4R four-bar, slider-crank, Watt I and Stephenson II/III six-bars, eight-bars, spherical and spatial (RSSR, RPR-2SS) chains, and task names from linkage synthesis (function generator, path generator, rigid-body guidance)",
+    "example_types": "Four-bar function generator (door opener); slider-crank; Watt I six-bar with a translating (rectilinear) output link; Stephenson II six-bar function generator; Stephenson III six-bar (ballistic function); rectilinear eight-bar linkage; eight-bar motion amplifier; spherical four-bar; spherical Watt I six-bar (car door); spatial RSSR car-door linkage; spatial RPR-2SS six-bar (valve); Jansen-type leg mechanism and wing mechanism; Kempe translational (straight-line platform) linkages; contra-parallelogram curve-drawing linkage (trifolium); Bezier curve-drawing linkages; six-bar folding / deploying linkage; eight-bar port closure tool; tensegrity linkage; skew pantograph; cam and follower (lecture notes)",
+    "making_methods": "Robotics and mechanism design with CAD (SolidWorks, GeoGebra); some student prototypes are 3D printed in PLA (e.g. the 2025 car-door linkage driven by a DC gear motor through a crank-rocker)",
+    "item_count": "101 posts in the 'Linkage Animations' category (about 50 more under 'Kinematic Synthesis', many overlapping); plus 6 lecture-note PDFs linked from the Lecture Notes page",
+    "special_behaviours_covered": "Mostly none of the project's special behaviours. Straight-line / parallel (rectilinear) motion and folding / deploying motion are covered; gear trains appear only as the drive trains inside student walking robots (six-leg walkers driven by gear trains of up to 18 gears), not as explained types. No torque-limiting, self-locking, ratchet, detent, over-centre, compliant, print-in-place, powered-latch or adhesive content found",
+    "entry_structure": "A blog post: title, date, author, one or two paragraphs describing the linkage and who designed it, an embedded video or GIF-style animation (often GeoGebra, SolidWorks or CATIA renders), sometimes a photo of a prototype, tags and related posts. No degrees-of-freedom tables, design rules or CAD downloads",
+    "audience_level": "undergraduate / graduate and research (kinematic synthesis); a few Arduino and robotics posts aimed at hobbyists"
+  },
+  "usefulness": {
+    "beginner_friendliness": "low: posts assume kinematics vocabulary (coupler curve, function generator, curvature theory, Watt I / Stephenson II) and explain little; the animations are the most accessible part",
+    "has_images": "yes: renders, screenshots and photos of student prototypes; quality varies from good to small low-resolution screenshots",
+    "has_animations": "yes: the main strength; about 101 posts with linkage animation videos (GeoGebra, SolidWorks Motion, CATIA) mostly embedded from YouTube, plus videos of working walking robots",
+    "gaps": "No index by type or function, no plain-English explanations, no design rules or tolerances, no CAD files to download, nothing on everyday joints, latches, clutches, snap fits or adhesives; heavy mixing of mechanism content with racing, fiction and news posts",
+    "good_for_entry_links": "moderately: posts have stable dated permalinks, e.g. https://mechanicaldesign101.com/2014/01/20/six-bar-linkage-with-rectilinear-moving-link/, good as 'see an animation' links for specific linkage entries (straight-line six-bar, car-door linkage, Jansen leg); but each post is about one design, not a general type",
+    "reusable_data": "scrape-only (WordPress blog with category pages; a feed link is present in the page header but was not opened [uncertain]); all rights reserved, so the list and media cannot be reused, only linked",
+    "maintained": "yes, but slowing: posts continue into 2024-2025 (latest seen 24 February 2025); the lecture-note PDFs are hosted on synthetica.eng.uci.edu, which could not be reached from this environment, so their availability is unverified [uncertain]",
+    "ideas_to_borrow": "(1) Name linkages by the everyday job they do ('opens a door', 'lifts a car door up and over', 'retractable handle', 'folds a structure') next to the proper term; this is exactly the plain-English-first approach the encyclopedia needs. (2) Short looping animation per mechanism as the main content. (3) Point readers onward to bigger collections (it links DMG-Lib and AnimatedEngines rather than duplicating them). (4) Pair each concept with a free interactive tool (MotionGen app, GeoGebra books) so readers can play with it",
+    "design_rules_given": "No practical numbers for makers; lecture notes give analysis formulas (four-bar and slider-crank position analysis, DC motor torque/power, cam follower motion) rather than clearances or fits [uncertain]",
+    "generator_or_parametric": "Points to linkage-design software from his group and collaborators (MechGen / Mechanism Generator for SolidWorks sketches, MechGen Suspension iPad app, Synthetica and Sphinx for spatial and spherical linkages, the MotionGen four-bar synthesis app); GeoGebra books with adjustable four-bar models. Not a geometry generator for 3D printing",
+    "file_formats": "Web pages, embedded YouTube video, images (JPG/PNG), PDF lecture notes; software and apps sold or linked separately",
+    "terminology_value": "medium: authoritative for linkage synthesis terms (Watt I, Stephenson II/III, RSSR, function vs path generator, rigid-body guidance, rectilinear linkage) but not for general connection or mechanism names, and no aliases or translations",
+    "decision_support": "None: no selector, flow chart, filters or comparison tables",
+    "derived_from_or_overlaps": "Original work of McCarthy's UC Irvine group and students, drawing on his books (Geometric Design of Linkages; Kinematic Synthesis of Mechanisms; Design of Mechanical Walking Robots) and classic sources (e.g. Dijksman's Motion Geometry of Mechanisms for the rectilinear six-bar, Kempe, Jansen's Strandbeest). Links out to DMG-Lib and AnimatedEngines.com. A separate 'Linkage Animations' page exists on synthetica.eng.uci.edu (found in search but could not be opened) [uncertain]"
+  },
+  "uncertain": [
+    "year",
+    "image_license",
+    "reusable_data",
+    "maintained",
+    "design_rules_given",
+    "derived_from_or_overlaps"
+  ]
+}
