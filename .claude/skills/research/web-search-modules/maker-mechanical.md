@@ -6,6 +6,10 @@
 bearings, linkages, compliant mechanisms, or 3D-printing / CNC / robotics design techniques.
 
 ## Sources (roughly in priority order)
+- **Existing encyclopedias, wikis and digital libraries of mechanisms**: e.g. the Digital
+  Mechanism and Gear Library (DMG-Lib), Cornell KMODDL (Reuleaux models), *507 Mechanical
+  Movements*, Wikipedia category trees, and GitHub repos, datasets and CAD/OpenSCAD libraries of
+  joints and mechanisms. Check these first, because they often already list and illustrate the type.
 - **Manufacturer & service design guides**: plastics makers' snap-fit and design manuals
   (e.g. Covestro/Bayer, BASF, DuPont), 3D-printing and machining services (Prusa knowledge
   base, Formlabs, Protolabs, Xometry, Hubs), fastener/insert makers (e.g. heat-set insert

@@ -19,13 +19,13 @@ this repo has them. Nothing needs installing.
 
 | # | Prompt | Skill(s) | Produces |
 |---|--------|----------|----------|
-| 1 | `01-resources.md` | `/research` → `/research-deep` → `/research-report` | Table of the best existing reference resources (used as link sources later) |
+| 1 | `01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | Existing encyclopedias, wikis, digital libraries, repos and books that already catalogue mechanisms and connections, plus a merged list of type names to build on |
 | 2 | `02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | One JSON file per connection type: the encyclopedia's core data |
 | 3 | `03-flowchart-and-format.md` | none (normal session) | Flow-chart questions, draft Mermaid chart, glossary, format/tech recommendation |
 | any | `expand-a-family.md` | `/research-add-items` → `/research-deep` | Fills in gaps in one family after reviewing run 2 |
 
-Runs 1 and 2 are independent, so they can be done in either order. Run 3 needs run 2.
+**Do run 1 first.** Run 2 starts from the type names and sources that run 1 finds. Run 3 needs run 2.
 
 **Tip:** `/research-deep` launches one agent for every few items, so a run of 150+ items
-is large. The outline is ordered by priority (3D printing first), so you can stop after a few
+is large. The outline is ordered by priority (unusual, 3D-printable and robotics types first), so you can stop after a few
 batches, review, and carry on later. It skips anything already done.

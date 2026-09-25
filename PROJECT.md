@@ -6,7 +6,7 @@
 
 **Last updated:** 2026-09-25
 **Current phase:** Phase 0 — Research (not started)
-**Next action:** Run `research/prompts/01-resources.md` and/or `research/prompts/02-connection-types.md` (see `research/prompts/README.md`)
+**Next action:** Run `research/prompts/01-prior-art.md` (find existing encyclopedias, wikis and repos first), then run 2
 
 ---
 
@@ -29,6 +29,26 @@ and ends up with a shortlist of options, each with its proper name so they can l
 - How much load? Does it need to be adjustable?
 - How will it be made? 3D printed, machined, or bought off the shelf?
 
+### Scope
+**In scope: the *types* of unusual and clever connections and mechanisms.** These range from simple
+clever joints up to semi-complex mechanisms, as long as each one works as **one unit or
+connector** (even if it's made of several smaller parts). Examples of what's wanted:
+- a knob that tightens two straps together, locks, and only releases when turned by hand
+  (ratcheting dial / reel closure)
+- things that tighten or drive to a set torque, then slip or click (torque limiters, slip clutches)
+- things that hold under load but release by hand (self-locking, cam cleats, over-centre latches)
+- one-way mechanisms, indexing detents, bayonet/twist-lock mounts, compliant mechanisms,
+  print-in-place joints, simple motion converters (Geneva drive, scotch yoke, cams)
+
+**Out of scope (for now):** catalogues of standard hardware (manufacturers' ranges of
+screws, bolts, nuts, rivets, etc.), since other resources already cover them, and whole
+machines. Each family may have one generic "baseline" entry (e.g. "ordinary screw joint") so
+the flow chart has something to compare against. Standard hardware might be added later.
+
+**Build on what exists.** There are existing encyclopedias, wikis, digital libraries and repos
+that catalogue mechanisms. Find them first, link to them, reuse their classifications where
+it helps, and fill in the gaps for beginners.
+
 ### Audience
 - The project owner, plus other hobbyist makers.
 - Assume no engineering vocabulary. Lead with plain English and give the proper term
@@ -37,7 +57,7 @@ and ends up with a shortlist of options, each with its proper name so they can l
 ### Priorities (by making method)
 1. **3D printing** (FDM/resin): snap fits, print-in-place, heat-set inserts, compliant mechanisms, etc.
 2. **Robotics & mechanisms**: bearings, shafts, gears, linkages, motor couplings, etc.
-3. **Everyday hardware**: off-the-shelf fasteners, clips, hinges, adhesives, etc.
+3. **Everyday hardware**: clever off-the-shelf connectors (e.g. cam buckles, cord locks, quick-release pins), not standard fastener catalogues
 4. *(Later / lower priority)* CNC, laser cutting, woodworking joinery, sheet metal.
 
 ---
@@ -56,6 +76,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R6 | 2026-09-25 | Write a prompt for `/dev-tools:deep-research` to do the research | Replaced by R8 |
 | R7 | 2026-09-25 | Look for a better research plugin/skill (skills.sh) | Done: chose Weizhena/Deep-Research-skills |
 | R8 | 2026-09-25 | Switch to Weizhena/Deep-Research-skills and rewrite the prompts for it | Done: `.claude/skills/`, `research/prompts/` |
+| R9 | 2026-09-25 | **Priority:** find existing research, encyclopedias, wikis and repos first | Done: run 1 is now `01-prior-art.md`, and run 2 builds on its results |
+| R10 | 2026-09-25 | **Scope:** focus on unusual/clever connection and mechanism *types* (e.g. torque limiting, hand-release-only locking), from simple connections to semi-complex mechanisms that act as one unit. Not standard hardware catalogues | Done: Scope section added. Prompts and fields updated (`special_behaviour`, `complexity`) |
 
 ---
 
@@ -64,7 +86,9 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | Date | Decision | Why |
 |------|----------|-----|
 | 2026-09-25 | The status doc lives in the repo (`PROJECT.md`) | Future Claude sessions can read and update it automatically |
-| 2026-09-25 | Research runs in stages: resources → connection types → flow chart & format, then expand families as needed | One giant run would be shallow on every category and hard to review |
+| 2026-09-25 | Research runs in stages: prior art → connection types → flow chart & format, then expand families as needed | One giant run would be shallow on every category and hard to review. Prior art comes first so the catalogue builds on existing collections (R9) |
+| 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family | Owner clarification (R10) |
+| 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
 | 2026-09-25 | Research recommends the final format (static site vs markdown, etc.) | Owner has no preference yet. A free static host is the working assumption |
 | 2026-09-25 | Priority order for making methods: 3D printing, then robotics/mechanisms, then everyday hardware | Owner preference |
 | 2026-09-25 | ~~The `dev-tools@jezweb-skills` plugin is used for research~~ Superseded below. The plugin stays enabled for its other tools | |
@@ -78,8 +102,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 ### Phase 0 — Research
 - [x] Choose the research tool and set it up (Weizhena/Deep-Research-skills, copied into the repo)
-- [ ] **Run 1:** existing reference resources → `research/resources/`
-- [ ] **Run 2:** connection types (150+, ordered by priority) → `research/connection-types/`
+- [ ] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names
+- [ ] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/`
 - [ ] Review run 2 with the owner. Confirm the families and fields
 - [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
 - [ ] Expand families where there are gaps (`research/prompts/expand-a-family.md`)
@@ -105,14 +129,15 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
-| 1 | `research/prompts/01-resources.md` | `/research` → `/research-deep` → `/research-report` | `research/resources/` | Not started |
-| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` | Not started |
+| 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` | Not started |
+| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` | Not started (needs run 1) |
 | 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
 
 ---
 
 ## 6. Open questions
-- Should CNC / laser / woodworking joinery be in scope from day one, or added later?
+- Should CNC / laser / woodworking joinery be in scope from day one, or added later? (For now: a short list of interlocking joints only)
+- Scope edge cases, not yet confirmed: are powered/active connectors in (electromagnets, solenoid latches, motorised locks)? Are gear trains and transmissions in, or only single-stage motion converters?
 - Project name / domain for the published site?
 - License for the project's own content (e.g. CC BY-SA)?
 
@@ -124,3 +149,4 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 |------|---------|
 | 2026-09-25 | Project set up. Added this plan, the research prompts, `CLAUDE.md`, and plugin settings |
 | 2026-09-25 | Switched research to Weizhena/Deep-Research-skills (copied into `.claude/`, paths patched, maker search module added). Added the field definitions in `research/fields/` and rewrote the prompts as runs 1–3 plus expand-a-family. skills.sh itself is blocked by this environment's network policy, so it was searched via web search and GitHub |
+| 2026-09-25 | Owner set priority (prior art first) and scope (unusual/clever types that act as one unit, not standard hardware). Run 1 became `01-prior-art.md`. Run 2 and the field lists were refocused, adding `special_behaviour` and `complexity` |

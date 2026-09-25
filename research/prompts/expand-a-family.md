@@ -9,8 +9,9 @@ Read `PROJECT.md` and the existing results in `research/connection-types/results
 **<family name, e.g. snap & clip fits>** family.
 
 Run `/research-add-items` on the `research/connection-types/` outline. Use a web search
-to find **types and variants in this family that are still missing**, especially ones a
-3D-printing or robotics hobbyist would run into. <Optional: specific items I want added>.
+to find **types and variants in this family that are still missing**, especially unusual or clever ones a
+3D-printing or robotics hobbyist would find useful. Check the prior-art collections in
+`research/prior-art/` first. Stay within the **Scope** in `PROJECT.md` (types, not standard hardware catalogues). <Optional: specific items I want added>.
 Show me the proposed additions before saving.
 
 <Optional: run `/research-add-fields` to add these fields: …>
