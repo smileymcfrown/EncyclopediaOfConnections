@@ -184,6 +184,26 @@ items:
     category: Encyclopedia / wiki
     description: Hobbyist-level comparisons of glues for PLA, PETG, ABS, resin, wood and mixed materials, with test results
 
+  # ---- 7. Joinery top-up (added 2026-09-26 after R15: CNC, laser, woodwork and sheet-metal joinery in scope) ----
+  - name: Woodworking joint books (Noll's The Joint Book, Rogowski's Complete Illustrated Guide to Joinery)
+    category: Book / classification system
+    description: Western woodworking joint catalogues grouped into joint families (edge, lap, housed, mortise and tenon, mitre, dovetail, dowel and biscuit, knock-down)
+  - name: Online woodworking joint references (Wikipedia woodworking joints, Wood Magazine and Fine Woodworking joint guides)
+    category: Encyclopedia / wiki
+    description: Web lists and illustrated guides of wood joints, with which joint suits which job
+  - name: Knock-down and flat-pack furniture connectors (cam-lock / Minifix, Lamello Clamex and Tenso, Hafele and Blum catalogues, IKEA wedge dowel)
+    category: Supplier catalogue
+    description: Clever tool-free or hidden connectors for panels and furniture, and how their makers classify them
+  - name: Sheet-metal joining design guides (Protolabs, SendCutSend, Xometry, PEM self-clinching, TOX clinching)
+    category: PDF design guide
+    description: Guides to joining sheet metal without welding - tab and slot, lanced and formed tabs, hems, clinching, self-clinching fasteners
+  - name: Laser-cutting joint guides and generators (MakerCase, kerf-bending living hinge patterns, Ponoko and Obrary guides)
+    category: CAD library
+    description: Maker guides and web tools for laser-cut joints - finger and T-slot joints, press fits and kerf, living hinges, snap tabs
+  - name: CNC furniture joinery for makers (Design for CNC book, Opendesk, AtFAB, dogbone fillet tools)
+    category: Book / classification system
+    description: Books, open furniture libraries and CAD add-ins that catalogue CNC-cut sheet joints for makers
+
 execution:
   batch_size: 5
   items_per_agent: 2
