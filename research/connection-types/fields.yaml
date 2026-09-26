@@ -14,6 +14,8 @@ research_rules:
   - "Writing style: plain English first, with the proper engineering term in brackets, e.g. 'a clip that clicks shut (cantilever snap fit)'. Assume the reader knows no engineering vocabulary."
   - Only record URLs you actually opened in this session. Never build or guess a URL. Put every URL you used for facts in `sources`.
   - Prefer pages with images, diagrams, animations or video. Record each image or animation's licence when you can see it (Wikimedia Commons files show one).
+  - "Printables and MakerWorld pages usually block automated access (403). Read Printables models through its public API (https://api.printables.com/graphql/). Record a model page URL only if you opened it or it appeared in search results; if you write a page URL from the API's id and slug without opening it, add '(URL from Printables API, page not opened)' to that link's title so it can be checked later."
+  - "firgelliauto.com mechanism pages are vendor explainers with no citations: don't use their numbers unless a second, reputable source agrees."
   - Mark anything you could not verify on an opened page with [uncertain] and list that field in the `uncertain` array.
   - Use exactly the answer options given for fixed-choice fields (motion, special_behaviour, power, removability, reuse_cycles, seal, job, holding_principle, maker_difficulty, print_in_place, access_needed), adding a short plain explanation after each choice.
   - "Write the JSON nested under the category names below (identity, finder_attributes, making, guidance, media), with `uncertain` as a top-level list. `family` is the item's category from outline.yaml."
