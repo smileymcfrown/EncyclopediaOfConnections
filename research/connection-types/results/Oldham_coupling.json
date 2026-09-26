@@ -186,5 +186,12 @@
       "https://help.prusa3d.com/article/petg_2059"
     ]
   },
-  "uncertain": []
+  "uncertain": [
+    "input_output",
+    "load",
+    "processes",
+    "making_tips_3d_printing",
+    "environment_limits",
+    "safety_notes"
+  ]
 }

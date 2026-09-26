@@ -48,3 +48,7 @@ break validation; they are clean-ups for the report step or Phase 1.
 - Blocked or unreadable for agents: Printables and MakerWorld pages, Thingiverse (JavaScript),
   Cults3D, MyMiniFactory, BYU CMR site, ResearchGate, ScienceDirect, ASME, Eng-Tips, github.com
   HTML pages (raw files work), some forums.
+
+## Possible extra items (suggested by agents; add with `/research-add-items` if wanted)
+- **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
+  but it works differently (a sleeve twisted shut, no blades).
