@@ -24,8 +24,7 @@
   "finder_attributes": {
     "job": [
       "join and hold: a sealed-in nut gives strong metal threads for a bolt; a sealed-in magnet makes a hidden magnetic catch or mount",
-      "let it move (turn, slide or bend): a bearing or ring of steel balls trapped in a printed wheel or race lets it spin (Printables '608 Bearing using BBs')",
-      "other (not in the list): adds weight or stiffness, e.g. steel weights, carbon-fibre rods or bolts sealed inside to make a print heavier or up to 10 times stronger (JanTec Engineering via Hackaday) [uncertain]"
+      "let it move (turn, slide or bend): a bearing or ring of steel balls trapped in a printed wheel or race lets it spin (Printables '608 Bearing using BBs')"
     ],
     "motion": "none for embedded nuts, magnets and weights; rotate (unlimited) for embedded bearings and ball races",
     "degrees_of_freedom": "0 for a sealed-in nut or magnet (it is locked in place); 1 (turning) for an embedded bearing or ball race",
@@ -39,10 +38,10 @@
     "input_output": "not applicable (an embedded bearing lets a part spin but does not change speed or motion)",
     "power": "passive (no power needed)",
     "removability": "permanent: the insert can only be removed by cutting or breaking the print; parts with embedded electronics can't be recovered if the electronics fail (Additive Inn). A bolt screwed into an embedded nut can still be undone.",
-    "reuse_cycles": "once for the embedding itself; a bolt in an embedded nut can be undone many times because the threads are metal on metal (Thomas Sanladerer rates nut-based threads 5 of 5 for durability)",
+    "reuse_cycles": "once for the embedding itself; a bolt in an embedded nut can be undone many times because the threads are metal on metal (Thomas Sanladerer rates inserted nuts 5 of 5 for durability)",
     "tools_needed": "a slicer that can insert a pause (PrusaSlicer, Cura, Bambu Studio); tweezers or pliers to place parts; a marker to mark magnet poles (Rapid Elevation); optionally superglue (cyanoacrylate) to hold inserts still (Prusa; Hubs); a bolt to screw into the finished nut",
     "seal": "none: it is not a sealing method; the insert is covered but the part is only as watertight as the print itself [uncertain]",
-    "load": "medium: a nut backed by solid plastic resists being pulled out far better than threads in plastic. In CNC Kitchen's M3 tests in PETG (4 perimeters, 100% infill) a nut seated in a pocket and loaded against the plastic held about 166 kg before tearing a crater out, against 86 kg for a nut in a side slot and 118 kg for a screw straight into plastic; turning force was limited to about 2 N m by the plastic crushing. Magnets hold only as hard as the magnet allows, weakened by the plastic skin between them; bearings carry what the plastic housing allows.",
+    "load": "medium: a nut backed by solid plastic resists being pulled out far better than threads in plastic. In CNC Kitchen's M3 tests in PETG (4 perimeters, 100% infill) a nut seated in a pocket and loaded against the plastic (pushed in, not embedded mid-print, but loaded the same way as an embedded nut) held about 166 kg before tearing a crater out, against 86 kg for a nut in a side slot and 118 kg for a screw straight into plastic; turning force was limited to about 2 N m by the plastic crushing. Magnets hold only as hard as the magnet allows, weakened by the plastic skin between them; bearings carry what the plastic housing allows.",
     "adjustable": "no: position is fixed by the pocket once printed over",
     "play_and_precision": "small: the pocket needs about 0.1-0.3 mm of clearance so the insert drops in (Hubs; DPHacks; Rapid Elevation), so the insert can rattle slightly unless it is a tight fit or glued; its position is otherwise set as accurately as the printer prints the pocket",
     "access_needed": "not applicable for fitting (it is done during printing, from above); in use, a bolt reaches an embedded nut from one side only (blind)",
@@ -71,12 +70,12 @@
   },
   "guidance": {
     "everyday_examples": [
-      "3D-printed signs, figures and bins with magnets hidden inside so they stick to a fridge or baseplate (Printables 'WiFi QR code sign - embedded magnet version', 'Gridfinity embedded magnet base plates')",
+      "3D-printed signs, figures and storage bins with magnets hidden inside so they stick to a fridge or baseplate (Printables models such as 'WiFi QR code sign - embedded magnet version' and 'Gridfinity embedded magnet base plates', found through the Printables API) [uncertain]",
       "Magnetic building tiles for children, where the magnets are sealed inside the plastic [uncertain]",
       "Plastic parts and knobs with a metal nut moulded inside (insert moulding) [uncertain]",
-      "Printed skateboard-style or filament-spool rollers with bearings or steel balls trapped inside (Printables '608 Bearing using BBs')"
+      "Filament-spool rollers made with printed bearings whose steel BBs were dropped in during a pause (Printables '608 Bearing using BBs')"
     ],
-    "when_to_use": "Use mid-print embedding when an insert must never fall out or be seen: hidden magnets for lids, catches and wall mounts; nuts deep inside a part where a side slot would weaken it or where there is no room for a heat-set insert; ball bearings or balls that must be trapped in a printed wheel or race; weights, steel rods or carbon rods to make a print heavier or stiffer; and LEDs or small electronics sealed into a shape. It gives strong metal threads without the weak slot of an ordinary nut trap (Thomas Sanladerer).",
+    "when_to_use": "Use mid-print embedding when an insert must never fall out or be seen: hidden magnets for lids, catches and wall mounts; nuts deep inside a part where a side slot would weaken it or where there is no room for a heat-set insert; ball bearings or balls that must be trapped in a printed wheel or race; weights, steel rods or carbon-fibre rods to make a print heavier or stronger (JanTec Engineering reports up to 10 times stronger prints, via Hackaday); and LEDs or small electronics sealed into a shape. It gives strong metal threads without the weak slot of an ordinary nut trap (Thomas Sanladerer).",
     "when_not_to_use": "Avoid it when you can't stay with the printer, when printing many copies or a whole plate at once (each pause needs a person), when the insert may need replacing (electronics, batteries) or when the part may be recycled; use a captive nut pocket with a side slot, a heat-set insert, a press-fit or glued magnet pocket (e.g. crush ribs) instead. Don't embed strong magnets if your nozzle or hotend is magnetic or your print sheet is magnetic without testing. Don't use it for parts that must survive high heat, because the magnet or the plastic may give up first.",
     "environment_limits": "The plastic around the insert limits it: PLA begins to soften at about 60 °C, PETG at 80 °C and ASA at 110 °C (CNC Kitchen oven test), so an embedded nut in PLA can pull or twist loose in a hot car. N-grade neodymium magnets start to lose strength permanently above about 80 °C and corrode if exposed (Wikipedia 'Neodymium magnet'); sealing them in plastic may protect them from moisture [uncertain]. Steel and plastic expand differently with temperature, so repeated heating and cooling can loosen inserts [uncertain].",
     "safety_notes": "The nozzle and bed stay hot during the pause (Prusa), so use tweezers and keep fingers clear. Small neodymium magnets are dangerous if swallowed, especially two or more, and strong magnets can pinch skin or shatter when they snap together (Wikipedia 'Neodymium magnet'); keep loose magnets away from children and seal them in well. A magnet that jumps onto a steel nozzle or a strong magnet near a magnetic bed can damage the printer (Hackaday/Lost In Tech).",
@@ -183,7 +182,6 @@
   },
   "uncertain": [
     "aliases",
-    "job",
     "seal",
     "processes",
     "making_tips_3d_printing",
