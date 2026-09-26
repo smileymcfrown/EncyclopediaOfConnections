@@ -13,6 +13,11 @@ break validation; they are clean-ups for the report step or Phase 1.
   was confirmed, `make_it_yourself` entries point at the API URL with the model ID in the title
   (*Friction slip clutch*, *Shear-pin coupling*, *Torque-limiting gear*). Replace each with the
   model's page URL (`printables.com/model/<id>-<slug>`) after opening it in a browser.
+- **Printables page URLs built from API data**: some agents (e.g. batch 2, *Eccentric cam
+  lever*, *Bistable compliant mechanism*, *Push-push latch*) wrote model page URLs as
+  `printables.com/model/<id>-<slug>` from the ID and slug the API returned, without opening the
+  page (it returns 403). Others used only URLs seen in search results. Before publishing, open
+  every `printables.com/model/` link in a browser and fix any that don't resolve.
 - **YouTube videos** were confirmed by title and channel through YouTube's oEmbed service, not watched.
 - **Firgelli (firgelliauto.com)** is a vendor explainer blog; agents labelled any number taken
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.

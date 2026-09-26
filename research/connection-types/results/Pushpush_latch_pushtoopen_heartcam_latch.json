@@ -15,7 +15,7 @@
       "push-push locking bolt or indexing plunger with push-push lock (industrial standard part, e.g. GN 514)",
       "ballpoint-pen principle (German 'Kugelschreiberprinzip')",
       "Herzkurve (German: heart curve)",
-      "TIP-ON (Blum, brand) for push-to-open furniture fittings"
+      "Tip-On (brand) for piston-type push-to-open furniture fittings (Deslaurier)"
     ],
     "family": "locks, latches & catches",
     "other_families": [
@@ -60,7 +60,7 @@
       "off-the-shelf part (push-to-open cabinet latches, push-push card connectors, latching push-button switches, push-push locking bolts)",
       "3D print (FDM): body, slider and track, with a metal spring and wire follower",
       "3D print (resin): finer tracks and steps [uncertain]",
-      "CNC: milled metal heart-cam latches (This Old Tony; 'Push-Push Cardioid Curve Latch' video)"
+      "CNC: machined metal heart-cam latches [uncertain] (videos 'PUSH LATCH Mechanisms (DIY!)' by This Old Tony and 'Push-Push Cardioid Curve Latch' suggest home-machined versions; content not viewed)"
     ],
     "print_in_place": "partly: the body and track print well but most reliable designs add a metal compression or pen spring and often a steel wire follower (Printables 496329, 1601839); fully printed versions with printed springs exist but their springs and arms creep when left latched for days (Printables 534635, 376606)",
     "making_tips_3d_printing": "Split the part into a body and a cap that carries the track, so the heart groove is an open channel on a flat face with no internal overhangs (Kapy CAD). The steps in the groove floor that force one-way travel are the mechanism, not decoration: make them several full layers tall, about 0.5 to 1.5 mm, with the blocking face printed vertical so it stays sharp (Kapy CAD). Use a real metal spring with enough force across the whole stroke; printed springs relax and give inconsistent latching (Kapy CAD); one fully printed latch worked many times but its printed springs deformed permanently after being held compressed for several days (Printables 534635). A printed follower arm left bent in the latched position deformed until the case stopped opening, so the designer changed the track so the arm is not bent when closed (Printables 376606, which also recommends PETG for the arm and spring); a bent steel paperclip as the follower is more durable, more precise and allows a smaller mechanism (Printables 1601839, 12 mm x 10 mm with a pen spring). Aim for a free but not loose fit between pin and groove, measure the printed groove, and deepen the track if the pin derails (Kapy CAD). A 0.4 mm nozzle rounds the heart's sharp corners; consider a finer nozzle for small tracks (Kapy CAD). Proven printable examples use PETG with a standard ballpoint pen spring (Printables 496329) or PLA with two small compression springs in a unit about 30 mm x 30 mm (Printables 273742).",
@@ -188,7 +188,6 @@
     "play_and_precision",
     "processes",
     "environment_limits",
-    "safety_notes",
-    "aliases"
+    "safety_notes"
   ]
 }

@@ -21,7 +21,7 @@
       "snap & clip fits"
     ],
     "one_liner": "A notched wheel or track plus a springy arm made as part of the plastic (or a thin steel jumper spring) that drops into each notch, giving a turning or sliding part positive click positions without separate springs, balls or pins.",
-    "complexity": "Single piece (print-in-place knobs) or a few parts: a notched wheel, ring or strip (the star or detent wheel), and a springy arm, beam or ring with a rounded or V-shaped tip, moulded or printed as part of the other component. Watch and clock versions: star wheel, steel jumper spring, and the post or screw it pivots on, often an eccentric post for adjustment (AWCI). Snap-together printed knobs: knob, base and printed spring (Printables 'Clicker Knob').",
+    "complexity": "Single piece (print-in-place knobs) or a few parts: a notched wheel, ring or strip (the star or detent wheel), and a springy arm, beam or ring with a rounded or V-shaped tip, moulded or printed as part of the other component. Watch and clock versions: star wheel, steel jumper spring, and the post or screw it pivots on, often an eccentric post for adjustment (AWCI); a single stamped jumper with two springy arms can hold both the day and date wheels (Suwa Seikosha patent US3688490A, 1972). Snap-together printed knobs: knob, base and printed spring (Printables 'Clicker Knob').",
     "how_it_works": "The springy arm presses its tip against the notched wheel or track. As you turn or slide the part, a tooth pushes the tip outwards and bends the arm; once the tip passes the tooth's crest it springs back into the next notch, which you feel and hear as a click, and it then holds the part there until you push hard enough to bend the arm again (Wikipedia 'Detent'; Shape-Haptics, Zheng et al. 2022). The sideways force needed to leave a notch grows with the arm's spring force and the steepness of the notch sides (Engineers Edge: R = P tan α). In clocks and watches the same pair is called a star wheel and jumper: the jumper sits in the V between two star points and keeps a date, day or counter wheel in exact position between jumps, then lets it snap forward one tooth at a time (Horopedia; AWCI). If the notches are saw-shaped (steep on one side, gentle on the other), the same arm lets the part turn one way only and becomes a ratchet."
   },
   "finder_attributes": {
@@ -181,7 +181,8 @@
       "https://api.printables.com/graphql/",
       "https://www.printables.com/model/274563-print-in-place-rotary-fidget-detent-knob-with-dete",
       "https://www.printables.com/model/902861-clicker-knob",
-      "https://www.printables.com/model/280920-clicky-knob"
+      "https://www.printables.com/model/280920-clicky-knob",
+      "https://www.printables.com/model/308024-super-clicky-fidget-knob"
     ]
   },
   "uncertain": [
