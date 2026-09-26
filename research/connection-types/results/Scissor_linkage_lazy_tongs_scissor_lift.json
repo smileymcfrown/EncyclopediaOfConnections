@@ -51,13 +51,13 @@
     "adjustable": "yes: the height or reach can be set anywhere in the stroke by the drive; hand-set designs are held by tightening a pivot bolt or adding a latch; the total stroke is set by the number of stages and the arm length",
     "play_and_precision": "Noticeable: every pin has its own clearance and the errors add up along the chain and are multiplied at the far end, so the tip of long lazy tongs or the top of a tall lift wobbles ('all the slop in the many, many joints compound', Chief Delphi). Tight-fitting shoulder bolts or bushings, fewer stages and a wide base help. It tolerates little difference between the two side stacks of a lift: both sides must move in near-perfect unison or it leans and binds (Purdue SIGBots). The lift is not linear: the same drive movement gives more height change low down than high up, which a controller has to allow for (Hackaday commenters on a scissor-lift Z axis).",
     "access_needed": "both sides: each pivot pin or bolt passes through the stacked bars and is secured on the far side with a nut, clip or snap-pin head",
-    "materials": "Steel channel or box section (industrial lift tables, aerial work platforms, car jacks), aluminium, and wood (the wooden Nuremberg scissors demonstration models at Halle University; wooden folding trellises and gates). 3D printed: PLA arms at 15% infill with M12 bolts (EDGeProjects), an ABS car jack with an M12 threaded rod (Hans Fouche, via Hackaday), rigid PETG arms inside a flexible TPU skin (Hackaday 2026), PETG recommended for printed snap-pins and PLA for the links (Miloslav Brozek). Pivots: steel bolts, shoulder screws, pins and washers.",
+    "materials": "Steel channel or box section (industrial lift tables, aerial work platforms, car jacks), aluminium, and wood (e.g. the wooden Nuremberg scissors teaching models in Halle University's model collection). 3D printed: PLA arms at 15% infill with M12 bolts (EDGeProjects), an ABS car jack with an M12 threaded rod (Hans Fouche, via Hackaday), rigid PETG arms inside a flexible TPU skin (Hackaday 2026), PETG recommended for printed snap-pins and PLA for the links (Miloslav Brozek). Pivots: steel bolts, shoulder screws, pins and washers.",
     "maker_difficulty": "moderate: the arms are simple flat bars that print or cut easily, but a stiff, play-free result needs accurate, tight pivots and good bracing, and a powered lift needs a strong drive because the force needed near the bottom is very large"
   },
   "making": {
     "processes": [
       "3D print (FDM): arms printed flat and joined with bolts or printed snap-pins; fully print-in-place models exist",
-      "woodwork: wooden lazy tongs, demonstration models, folding trellises and gates",
+      "woodwork: wooden lazy tongs and teaching models such as the Nuremberg scissors set in Halle University's collection",
       "sheet metal / metal fabrication: steel arms for lift tables and jacks",
       "off-the-shelf part: scissor jacks, lift tables, scissor lifts, laboratory jacks and extending mirror arms"
     ],
