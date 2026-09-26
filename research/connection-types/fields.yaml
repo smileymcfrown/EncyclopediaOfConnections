@@ -10,12 +10,12 @@
 research_rules:
   - Before searching, load the search module .claude/skills/research/web-search-modules/maker-mechanical.md (and general-web.md if useful).
   - Check the collections in research/connection-types/preferred-sources.md first; they were chosen in run 1 as the best sources for pictures, animations, design rules and printable models.
-  - Research the TYPE, not a product or brand. Brand or trade names may appear only as aliases a beginner might search for.
+  - Research the TYPE, not a product or brand. Brand or trade names may appear only as aliases a beginner might search for, marked as brands, e.g. 'Velcro (brand)'. If the item has `notes`, cover those variants inside this entry.
   - "Writing style: plain English first, with the proper engineering term in brackets, e.g. 'a clip that clicks shut (cantilever snap fit)'. Assume the reader knows no engineering vocabulary."
   - Only record URLs you actually opened in this session. Never build or guess a URL. Put every URL you used for facts in `sources`.
   - Prefer pages with images, diagrams, animations or video. Record each image or animation's licence when you can see it (Wikimedia Commons files show one).
   - Mark anything you could not verify on an opened page with [uncertain] and list that field in the `uncertain` array.
-  - Use exactly the answer options given for fixed-choice fields (motion, special_behaviour, power, removability, reuse_cycles, seal, job, holding_principle, maker_difficulty), adding a short plain explanation after each choice.
+  - Use exactly the answer options given for fixed-choice fields (motion, special_behaviour, power, removability, reuse_cycles, seal, job, holding_principle, maker_difficulty, print_in_place, access_needed), adding a short plain explanation after each choice.
   - "Write the JSON nested under the category names below (identity, finder_attributes, making, guidance, media), with `uncertain` as a top-level list. `family` is the item's category from outline.yaml."
 
 fields:
@@ -47,7 +47,7 @@ fields:
 
   finder_attributes:
     - name: job
-      description: "NEW. List of the plain jobs it does, chosen from: join and hold / let it move (turn, slide or bend) / stop it moving back (one-way) / slip or let go when overloaded / click into set positions / lock, and release by hand / change speed or turning force / change the kind of motion / hold or release using power / glue or bond / tighten and hold tension / line parts up exactly / store energy or cushion movement. These answer the flow chart's first question, 'What do you need it to do?'"
+      description: "NEW. List of the plain jobs it does, chosen from: join and hold / let it move (turn, slide or bend) / stop it moving back (one-way) / slip or let go when overloaded / click into set positions / lock, and release by hand / change speed or turning force / change the kind of motion / hold or release using power / glue or bond / tighten and hold tension / line parts up exactly / store energy / slow it, stop it or keep its speed steady / seal it, or pass cables or fluid through. These answer the flow chart's first question, 'What do you need it to do?'"
       detail_level: brief
     - name: motion
       description: "One of: none / rotate / slide / rotate+slide / flex / multiple. Add the range of motion if relevant (e.g. 'rotate, up to 180°')"
@@ -59,10 +59,10 @@ fields:
       description: "List of the clever things it does, from: torque-limiting (slips or clicks at a set force/torque) / self-locking (holds under load, won't back-drive) / hand-release only (locks under load, releases when a person operates it) / one-way (moves freely one way, locks the other) / indexing (clicks into set positions) / over-centre (snaps past a point and stays) / self-aligning or self-centring / quick-release / fail-safe or breakaway / tensioning (takes up slack and holds) / motion conversion (e.g. rotary to linear) / none. Explain each in plain words"
       detail_level: moderate
     - name: holding_principle
-      description: "NEW. How it holds, one or more of: shape (the parts interlock; form-fit) / friction or clamping (force-fit) / material bond (glue, solvent or melting) / magnetic / suction or air pressure / powered hold / not a holding joint (it moves or passes on motion). From DIN 8593's form-fit, force-fit and material-bond split"
+      description: "NEW. How it holds, one or more of: shape (the parts interlock; form-fit) / friction or clamping (force-fit) / material bond (glue, solvent or melting) / magnetic / suction or air pressure / spring force (a spring or springy part presses it in place) / jamming (grains or a braid lock up under load) / powered hold / not a holding joint (it moves or passes on motion). From DIN 8593's form-fit, force-fit and material-bond split"
       detail_level: brief
     - name: input_output
-      description: "NEW. For motion converters, transmissions, clutches and couplings: input motion -> output motion (e.g. 'continuous rotation -> stepped rotation'), typical ratio or range, and shaft arrangement (parallel / intersecting / crossed / in line). Write 'not applicable' for joints that don't pass motion on"
+      description: "NEW. For motion converters, transmissions, clutches and couplings: input motion -> output motion (e.g. 'continuous rotation -> stepped rotation'), typical ratio or range, rough efficiency, shaft arrangement (parallel / intersecting / crossed / in line), and whether the output can drive the input backwards (back-drivable: yes / no / only when vibrated). Write 'not applicable' for joints that don't pass motion on"
       detail_level: brief
     - name: power
       description: "passive (no power needed) / powered (needs electricity or another energy source to work or to release, e.g. electromagnet, solenoid, motor, shape-memory alloy). If powered: what happens when power is lost (stays locked, releases, or keeps its last state)"
@@ -85,6 +85,12 @@ fields:
     - name: adjustable
       description: Whether position or tension can be adjusted after assembly (yes/no, and how)
       detail_level: brief
+    - name: play_and_precision
+      description: "NEW. How much play or backlash it has (none / small / noticeable), how repeatably it returns to the same position, and how much misalignment it tolerates (sideways offset, angle, end float). Write 'not applicable' if it doesn't locate or pass on motion"
+      detail_level: brief
+    - name: access_needed
+      description: "NEW. Where you need to reach to fit or undo it: one side only (blind) / both sides / end of a tube or shaft / not applicable. Matters when the back of a panel or tube can't be reached"
+      detail_level: brief
     - name: materials
       description: "NEW. What it is usually made from, and which materials it suits or can join. For adhesives: which materials it bonds well (e.g. PLA, PETG, ABS, resin prints, wood, metal, glass, rubber, fabric) and which it doesn't (e.g. PE, PP, silicone)"
       detail_level: brief
@@ -95,6 +101,9 @@ fields:
   making:
     - name: processes
       description: "Which making methods suit it: 3D print (FDM), 3D print (resin), CNC, laser cut, woodwork, sheet metal, off-the-shelf part"
+      detail_level: brief
+    - name: print_in_place
+      description: "NEW. yes (prints already assembled and working) / partly (prints in place but needs an added part such as a spring, pin, magnet or bearing) / no (printed as separate parts and assembled, or can't be printed). Explain briefly"
       detail_level: brief
     - name: making_tips_3d_printing
       description: "Practical 3D-printing advice: print orientation, layer direction, clearances/tolerances, material choice, typical failures. Write 'not applicable' if it can't be 3D printed"
@@ -117,7 +126,10 @@ fields:
       description: Situations where it's a poor choice, and what to use instead
       detail_level: moderate
     - name: environment_limits
-      description: "NEW. Heat, cold, water, sunlight (UV), chemical and vibration limits that matter to a maker (e.g. 'hot glue softens in a hot car'; 'PLA parts creep under constant load'). Cite a source for any number"
+      description: "NEW. Heat, cold, water, sunlight (UV), chemical and vibration limits that matter to a maker, and whether it loses grip or force over time (creep, spring relaxation, magnets weakening with heat), e.g. 'hot glue softens in a hot car'; 'PLA parts creep under constant load'. Cite a source for any number"
+      detail_level: brief
+    - name: safety_notes
+      description: "NEW. Hazards a beginner should know about, e.g. stored spring energy, pinch points, small magnets that can be swallowed, solvent or glue fumes, a lock that can't be opened if power fails. 'None known' if none"
       detail_level: brief
     - name: common_failures
       description: How it typically fails or goes wrong, and how to avoid it
