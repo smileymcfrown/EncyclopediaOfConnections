@@ -28,7 +28,7 @@
     "job": [
       "let it move (turn, slide or bend): a small, smooth, play-free rotation",
       "line parts up exactly: it returns to the same spot every time, so it is used for precise alignment in instruments (Wikipedia 'Flexure')",
-      "store energy: the bent section is a spring that returns the part to centre (a pendulum's suspension spring gives back almost all its energy each swing)"
+      "store energy: the bent section is a spring that returns the part to centre"
     ],
     "motion": "flex (rotates by bending), over a small angle: aluminium notch hinges only a few degrees (Linss et al., IntechOpen); printed PLA notch hinges in the OpenFlexure microscope are limited to about 6 degrees (Sharkey et al. 2016); bought crossed-spring pivots from plus or minus 3.7 degrees to plus or minus 15 degrees for unlimited life and up to plus or minus 30 degrees before damage (C-Flex design guide), or up to 60 degrees in total (Riverhawk)",
     "degrees_of_freedom": "1: rotation about the hinge axis, with the other directions held by the stiffness of the section. A notch flexure holds five directions and leaves one rotation free; a single thin blade holds only three, so it also bends sideways and twists easily (Wikipedia 'Flexure'), which is why blades are crossed or stacked to make a true one-axis pivot.",
@@ -186,7 +186,6 @@
       "https://www.printables.com/model/576067-cross-axis-flexure-pivot",
       "https://www.printables.com/model/569143-flexlinks-cross-axis-flexural-pivot",
       "https://www.printables.com/model/77081-xy-flexure-translation-stage",
-      "https://www.printables.com/model/532767-tri-bookbind-linear-flexure",
       "https://scholarsarchive.byu.edu/facpub/6578",
       "https://www.youtube.com/watch?v=97t7Xj_iBv0",
       "https://www.youtube.com/watch?v=rUH3cDmeXC4",
