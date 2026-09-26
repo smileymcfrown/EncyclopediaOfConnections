@@ -1,0 +1,143 @@
+# Field definitions for run 2: connection and mechanism TYPES.
+# Merged from research/fields/connection-types.fields.yaml (all its fields and allowed values
+# kept unchanged, apart from `family` now pointing at the family list in outline.yaml) plus
+# new fields suggested by /research on 2026-09-26 (marked "NEW").
+# Format required by .claude/skills/research/validate_json.py:
+#   fields: {<category>: [{name, description, detail_level}]}
+# Every field must be present in every JSON file. Use "[uncertain]" when a value can't be
+# verified, and "not applicable" when a field doesn't apply to this type.
+
+research_rules:
+  - Before searching, load the search module .claude/skills/research/web-search-modules/maker-mechanical.md (and general-web.md if useful).
+  - Check the collections in research/connection-types/preferred-sources.md first; they were chosen in run 1 as the best sources for pictures, animations, design rules and printable models.
+  - Research the TYPE, not a product or brand. Brand or trade names may appear only as aliases a beginner might search for.
+  - "Writing style: plain English first, with the proper engineering term in brackets, e.g. 'a clip that clicks shut (cantilever snap fit)'. Assume the reader knows no engineering vocabulary."
+  - Only record URLs you actually opened in this session. Never build or guess a URL. Put every URL you used for facts in `sources`.
+  - Prefer pages with images, diagrams, animations or video. Record each image or animation's licence when you can see it (Wikimedia Commons files show one).
+  - Mark anything you could not verify on an opened page with [uncertain] and list that field in the `uncertain` array.
+  - Use exactly the answer options given for fixed-choice fields (motion, special_behaviour, power, removability, reuse_cycles, seal, job, holding_principle, maker_difficulty), adding a short plain explanation after each choice.
+  - "Write the JSON nested under the category names below (identity, finder_attributes, making, guidance, media), with `uncertain` as a top-level list. `family` is the item's category from outline.yaml."
+
+fields:
+  identity:
+    - name: plain_name
+      description: How a beginner with no engineering vocabulary would describe it, e.g. "a clip that clicks shut but can be pried open"
+      detail_level: brief
+    - name: term
+      description: The proper / most widely used name, e.g. "cantilever snap fit"
+      detail_level: brief
+    - name: aliases
+      description: List of other names, including regional, trade and industry synonyms
+      detail_level: brief
+    - name: family
+      description: "Family it belongs to: the item's `category`, one of the family keys in research/connection-types/outline.yaml (e.g. torque limiting & slip, one-way & ratchet, self-locking & anti-back-drive, tensioning, reels & take-up, over-centre, toggle & cam clamps, indexing & detents, snap & clip fits, compliant mechanisms & flexures)"
+      detail_level: brief
+    - name: other_families
+      description: "NEW. List of other family keys from outline.yaml that this type also fits, e.g. a cam cleat is in 'cord, strap & webbing hardware' but also 'self-locking & anti-back-drive'. Empty list if none"
+      detail_level: brief
+    - name: one_liner
+      description: One plain-English sentence saying what it is and what it does
+      detail_level: brief
+    - name: complexity
+      description: "single piece / a few parts / a small assembly that acts as one unit. List the parts in plain words (e.g. 'dial, ratchet ring, pawls, spool, lace')"
+      detail_level: brief
+    - name: how_it_works
+      description: 2-4 plain sentences explaining the mechanism
+      detail_level: moderate
+
+  finder_attributes:
+    - name: job
+      description: "NEW. List of the plain jobs it does, chosen from: join and hold / let it move (turn, slide or bend) / stop it moving back (one-way) / slip or let go when overloaded / click into set positions / lock, and release by hand / change speed or turning force / change the kind of motion / hold or release using power / glue or bond / tighten and hold tension / line parts up exactly / store energy or cushion movement. These answer the flow chart's first question, 'What do you need it to do?'"
+      detail_level: brief
+    - name: motion
+      description: "One of: none / rotate / slide / rotate+slide / flex / multiple. Add the range of motion if relevant (e.g. 'rotate, up to 180°')"
+      detail_level: brief
+    - name: degrees_of_freedom
+      description: Number of independent ways the parts can move relative to each other (0-6), with a short plain explanation
+      detail_level: brief
+    - name: special_behaviour
+      description: "List of the clever things it does, from: torque-limiting (slips or clicks at a set force/torque) / self-locking (holds under load, won't back-drive) / hand-release only (locks under load, releases when a person operates it) / one-way (moves freely one way, locks the other) / indexing (clicks into set positions) / over-centre (snaps past a point and stays) / self-aligning or self-centring / quick-release / fail-safe or breakaway / tensioning (takes up slack and holds) / motion conversion (e.g. rotary to linear) / none. Explain each in plain words"
+      detail_level: moderate
+    - name: holding_principle
+      description: "NEW. How it holds, one or more of: shape (the parts interlock; form-fit) / friction or clamping (force-fit) / material bond (glue, solvent or melting) / magnetic / suction or air pressure / powered hold / not a holding joint (it moves or passes on motion). From DIN 8593's form-fit, force-fit and material-bond split"
+      detail_level: brief
+    - name: input_output
+      description: "NEW. For motion converters, transmissions, clutches and couplings: input motion -> output motion (e.g. 'continuous rotation -> stepped rotation'), typical ratio or range, and shaft arrangement (parallel / intersecting / crossed / in line). Write 'not applicable' for joints that don't pass motion on"
+      detail_level: brief
+    - name: power
+      description: "passive (no power needed) / powered (needs electricity or another energy source to work or to release, e.g. electromagnet, solenoid, motor, shape-memory alloy). If powered: what happens when power is lost (stays locked, releases, or keeps its last state)"
+      detail_level: brief
+    - name: removability
+      description: "One of: permanent / semi-permanent (can be undone but may damage parts) / removable / tool-free quick release"
+      detail_level: brief
+    - name: reuse_cycles
+      description: "Roughly how many times it can be taken apart and put back together: once / a few times / many times / effectively unlimited"
+      detail_level: brief
+    - name: tools_needed
+      description: Tools needed to assemble or take apart (none / screwdriver / soldering iron / press / glue, etc.)
+      detail_level: brief
+    - name: seal
+      description: "One of: none / loose / dust-resistant / watertight / airtight or pressure. Say what makes it seal, if anything"
+      detail_level: brief
+    - name: load
+      description: "Rough load capacity: light / medium / heavy, and in which directions it is strong or weak (pull, shear, twist)"
+      detail_level: brief
+    - name: adjustable
+      description: Whether position or tension can be adjusted after assembly (yes/no, and how)
+      detail_level: brief
+    - name: materials
+      description: "NEW. What it is usually made from, and which materials it suits or can join. For adhesives: which materials it bonds well (e.g. PLA, PETG, ABS, resin prints, wood, metal, glass, rubber, fabric) and which it doesn't (e.g. PE, PP, silicone)"
+      detail_level: brief
+    - name: maker_difficulty
+      description: "NEW. easy / moderate / hard for a hobbyist to make or fit at home, with the main reason (e.g. 'easy: prints in one piece', 'hard: needs precise machining, so buy one')"
+      detail_level: brief
+
+  making:
+    - name: processes
+      description: "Which making methods suit it: 3D print (FDM), 3D print (resin), CNC, laser cut, woodwork, sheet metal, off-the-shelf part"
+      detail_level: brief
+    - name: making_tips_3d_printing
+      description: "Practical 3D-printing advice: print orientation, layer direction, clearances/tolerances, material choice, typical failures. Write 'not applicable' if it can't be 3D printed"
+      detail_level: detailed
+    - name: off_the_shelf_parts
+      description: Off-the-shelf parts involved or available (with proper names so they can be searched in supplier catalogues)
+      detail_level: moderate
+    - name: rules_of_thumb
+      description: Key dimensions, ratios or limits from reputable design guides, each with its source cited
+      detail_level: moderate
+
+  guidance:
+    - name: everyday_examples
+      description: "NEW. 2-4 everyday objects where a beginner has probably already seen it (e.g. a cable tie for a linear ratchet, a ketchup-bottle lid for a living hinge)"
+      detail_level: brief
+    - name: when_to_use
+      description: Situations where this is a good choice, in plain language
+      detail_level: moderate
+    - name: when_not_to_use
+      description: Situations where it's a poor choice, and what to use instead
+      detail_level: moderate
+    - name: environment_limits
+      description: "NEW. Heat, cold, water, sunlight (UV), chemical and vibration limits that matter to a maker (e.g. 'hot glue softens in a hot car'; 'PLA parts creep under constant load'). Cite a source for any number"
+      detail_level: brief
+    - name: common_failures
+      description: How it typically fails or goes wrong, and how to avoid it
+      detail_level: moderate
+    - name: related
+      description: List of similar or alternative connection types, each with how it differs
+      detail_level: moderate
+
+  media:
+    - name: links
+      description: "2-5 verified URLs (opened, not guessed) that show images, diagrams, animations or video. Each as {url, title, shows, license}"
+      detail_level: detailed
+    - name: make_it_yourself
+      description: "NEW. Verified links (opened, not guessed) for making or trying it: printable demo or test models (Printables, Thingiverse, MakerWorld), parametric generators or CAD library modules (e.g. BOSL2, Boxes.py, Gear Generator, PMKS+, HUANGYAN920). Each as {url, title, what_it_is, license}. Empty list if none found"
+      detail_level: moderate
+    - name: diagram_idea
+      description: One sentence describing the simple diagram or animation that would explain it best (for the encyclopedia's own future illustrations)
+      detail_level: brief
+    - name: sources
+      description: "NEW. List of every URL you opened and used for facts in this entry. Rules of thumb must cite one of these"
+      detail_level: brief
+
+uncertain: []

@@ -1,0 +1,755 @@
+# Run 2: connection and mechanism TYPES (the encyclopedia's core catalogue).
+# Built from research/prior-art/summary.md section 2 (run 1's merged type list), model
+# knowledge, and one web-search supplement pass (2026-09-26).
+#
+# Order = research priority (research-deep works top to bottom):
+#   Tier 1: unusual/clever types that can be 3D printed or are useful in robotics
+#   Tier 2: other unusual types (joinery for wood, sheet and panels last, as it is the
+#           lowest-priority making method)
+#   Tier 3: generic baseline entries (one per family at most) for the flow chart to compare against
+# Each item's `category` is its main family (the `family` field). Families are listed at the end.
+# Types only: no brands or product ranges (brand names appear only as aliases a beginner may search for).
+
+topic: Types of unusual and clever connections and mechanisms for hobbyist makers
+
+items:
+  # ======================= TIER 1: unusual + 3D-printable or robotics =======================
+  # ---- the owner's headline examples ----
+  - name: Ratcheting reel closure (dial lacing system)
+    category: tensioning, reels & take-up
+    description: A knob that winds a lace or cable onto a spool to pull two sides together, clicks as it tightens, stays locked, and releases only when you pull or turn the knob by hand (as on snowboard boots and cycling shoes)
+  - name: Ratchet-tooth torque limiter (clicking torque-limiting cap or knob)
+    category: torque limiting & slip
+    description: A cap, knob or screwdriver handle with sloped spring-loaded teeth that turns the part until a set tightness, then clicks and slips so you can't over-tighten (fuel caps, torque-limiting screwdrivers)
+  - name: Ball-detent torque limiter
+    category: torque limiting & slip
+    description: Spring-loaded balls sit in dimples between two plates and carry the drive until the load gets too high, then pop out so the drive slips instead of breaking something
+  - name: Friction slip clutch (slip coupling, slipper clutch)
+    category: torque limiting & slip
+    description: Spring-pressed friction discs pass turning force until a set torque, then slip smoothly; protects gears in robot arms, RC cars and filament spool holders
+  - name: Torque-limiting gear with flexing spring arms (compliant slip hub)
+    category: torque limiting & slip
+    description: A one-piece plastic gear or hub whose built-in springy arms grip the shaft and let it slip when overloaded, with no separate parts
+  - name: Shear-pin coupling (breakaway link)
+    category: torque limiting & slip
+    description: A deliberately weak pin or link that snaps at a set load, sacrificing itself to protect the rest of the machine; replaced after it breaks
+  - name: Ratchet and pawl (incl. reversible ratchet)
+    category: one-way & ratchet
+    description: A toothed wheel and a hinged catch (pawl) that lets the wheel turn one way with a click and stops it turning back; a switchable pawl reverses the direction
+  - name: Linear ratchet (cable-tie ratchet)
+    category: one-way & ratchet
+    description: A toothed strip and a catch that let it slide one way only, as in a cable tie, a quick-release bar clamp or a ratchet strap
+  - name: Face ratchet (star ratchet, face-engagement ratchet)
+    category: one-way & ratchet
+    description: Two discs with sloped teeth on their faces, pressed together by a spring, that drive one way and ride over each other the other way (bicycle hubs, printed ratcheting joints)
+  - name: Sprag clutch
+    category: one-way & ratchet
+    description: A ring of tilted wedges (sprags) between two rings that jam instantly when turned one way and slide freely the other way, with no clicking
+  - name: Roller clutch (one-way bearing)
+    category: one-way & ratchet
+    description: Rollers sit in ramped pockets and wedge tight when the shaft turns one way, but roll free the other way; sold as a ready-made one-way needle bearing
+  - name: Wrap-spring clutch (spring clutch)
+    category: one-way & ratchet
+    description: A coiled spring wrapped around a shaft that grips tighter when turned one way and loosens the other way; also used as an on/off clutch
+  - name: Compliant ratchet and overrunning clutch (flexure pawl)
+    category: one-way & ratchet
+    description: One-piece printed ratchets and one-way clutches whose pawls are springy arms, so there are no pins or separate springs
+  - name: Binding-plate lock (tilting friction plate)
+    category: one-way & ratchet
+    description: A plate with a hole slides along a bar, then tilts and bites when pushed the other way, as in caulking guns and quick-grip bar clamps
+  - name: Bidirectional anti-back-drive clutch (reverse-input blocking clutch)
+    category: self-locking & anti-back-drive
+    description: A clutch that lets the input shaft turn the output either way, but locks if the output tries to turn the input, so a load can't drive the motor backwards
+  - name: Worm drive (worm and worm wheel)
+    category: gear trains, gearboxes & transmissions
+    description: A screw-like gear turning a gear wheel at right angles for a big speed reduction; many designs can't be turned backwards from the wheel (self-locking)
+  - name: Lead screw and nut (incl. anti-backlash nut)
+    category: motion conversion
+    description: A threaded rod turning inside a nut to push something in a straight line; low-friction versions can be back-driven, fine-pitch ones hold their place
+  # ---- over-centre, latches, clicks ----
+  - name: Over-centre linkage (toggle linkage)
+    category: over-centre, toggle & cam clamps
+    description: Two links that push past a straight line and lock there, so a load pushes the joint harder into its locked position instead of opening it
+  - name: Toggle clamp
+    category: over-centre, toggle & cam clamps
+    description: A lever clamp that snaps past centre to hold work down firmly and releases with a flick; horizontal, vertical, push-pull and squeeze styles
+  - name: Draw latch (over-centre latch)
+    category: over-centre, toggle & cam clamps
+    description: A lever on one part hooks a catch on the other and pulls them tightly together as it snaps shut, as on toolboxes and cases
+  - name: Eccentric cam lever (cam clamp, quick-release skewer)
+    category: over-centre, toggle & cam clamps
+    description: A lever with an off-centre cam that squeezes or clamps when flipped over and releases when flipped back, as on bike wheel skewers and seat posts
+  - name: Bistable compliant mechanism (snap-through switch or hinge)
+    category: compliant mechanisms & flexures
+    description: A one-piece springy part with two stable positions that snaps from one to the other, like a hair clip or a snap bracelet
+  - name: Push-push latch (push-to-open, heart-cam latch)
+    category: locks, latches & catches
+    description: Push once to latch, push again to release; a pin follows a heart-shaped track that holds it on alternate pushes (cabinet doors, SD card slots)
+  - name: Click-pen mechanism (rotating-cam push-push indexer)
+    category: indexing & detents
+    description: The retractable-pen mechanism, where each push turns a toothed cam one step so it alternately holds the tip out and lets it back in
+  - name: Sear and trigger (trip release mechanism)
+    category: locks, latches & catches
+    description: A small catch holds back a large stored force (spring, weight) and a light touch on the trigger releases it, as in mousetraps, crossbows and launchers
+  - name: Compliant one-piece latch (flexure latch)
+    category: locks, latches & catches
+    description: A latch made as one springy printed part, where bending the handle pulls the catch back, with no pins or separate springs
+  - name: Push-and-turn child-resistant cap
+    category: locks, latches & catches
+    description: A cap that only unscrews when pushed down while turning, because its lugs slip over ratchet teeth unless pressed into them
+  - name: Ball detent (spring plunger)
+    category: indexing & detents
+    description: A spring-loaded ball presses into dimples so a part clicks into set positions and holds there until pushed on with enough force
+  - name: Indexing plunger (pull-knob index pin)
+    category: indexing & detents
+    description: A spring-loaded pin that you pull out, move the part to a new hole, and let snap back in to lock the position
+  - name: Compliant detent (flexure click arm)
+    category: indexing & detents
+    description: A springy printed arm or bump that clicks into notches, giving positive click positions in knobs, dials and hinges without any metal parts
+  - name: Detent hinge (click hinge, position hinge)
+    category: indexing & detents
+    description: A hinge that clicks and holds at set angles, like a laptop stand or folding table leg
+  - name: Hirth joint (face-spline coupling)
+    category: indexing & detents
+    description: Two faces with radial teeth that mesh to lock parts at a chosen angle; loosen, turn to the next tooth, tighten (adjustable arms, camera mounts)
+  - name: Geneva drive (Maltese cross)
+    category: motion conversion
+    description: A pin on a steadily turning wheel steps a slotted wheel round by a fixed amount, then holds it still until the next step
+  - name: Intermittent gear (mutilated or part-toothed gear)
+    category: motion conversion
+    description: A gear with teeth only on part of its rim, so the gear it drives moves in steps with pauses between them
+  # ---- tool-free and snap connections ----
+  - name: Bayonet mount (push-and-twist lock)
+    category: quick-release & tool-free
+    description: Push in and twist a short way so pins or lugs slide under ledges and lock; used on camera lenses, light bulbs and lids
+  - name: Interrupted-screw lock (interrupted thread, breech lock)
+    category: quick-release & tool-free
+    description: A thread with gaps cut in it, so the parts push together and lock with a fraction of a turn instead of many turns
+  - name: Quarter-turn fastener (Dzus-type)
+    category: quick-release & tool-free
+    description: A stud that locks a panel in place with a quarter turn, by a spiral slot riding over a spring or a cross pin
+  - name: Quick-release pin (ball-lock pin)
+    category: quick-release & tool-free
+    description: A pin with small balls near its tip that lock it in a hole until you press a button on the end to let the balls retract
+  - name: Quick-release plate (camera plate, dovetail clamp)
+    category: quick-release & tool-free
+    description: A plate with angled edges slides or drops into a matching clamp and is locked by a lever or knob, as on camera tripods
+  - name: Hang-on mounts (keyhole slot, French cleat)
+    category: quick-release & tool-free
+    description: A head slides into a keyhole-shaped slot, or two bevelled rails hook together, so things hang securely and lift off without tools
+  - name: Cantilever snap fit
+    category: snap & clip fits
+    description: A flexible arm with a hook on the end bends as parts push together, then springs back to catch a ledge; the most common snap fit (includes U- and L-shaped arms)
+  - name: Annular snap fit
+    category: snap & clip fits
+    description: A round bead or groove all the way around a part snaps over a matching lip, like a pen cap or a bottle lid clicking on
+  - name: Torsional snap fit
+    category: snap & clip fits
+    description: A catch on a twisting bar; press one end and the other end lifts to release, so it can be opened again and again
+  - name: Snap pin (split-leg push-in pin, rabbit clip)
+    category: snap & clip fits
+    description: A pin with split, springy legs and a barb that squeezes through a hole and springs open to hold two parts together
+  - name: Push-in plastic rivet (fir-tree clip, push rivet)
+    category: snap & clip fits
+    description: A ribbed or expanding plastic pin that pushes into a hole and grips, as used for car trim and panels
+  # ---- compliant ----
+  - name: Living hinge
+    category: compliant mechanisms & flexures
+    description: A thin, flexible strip of the same material joining two parts so they fold, like the lid of a ketchup bottle or a tic-tac box
+  - name: Flexure hinge (notch, leaf-spring and cross-axis pivots)
+    category: compliant mechanisms & flexures
+    description: A pivot made by a thin or crossed springy section that bends instead of rubbing, giving smooth, backlash-free rotation over a small angle
+  - name: Parallel leaf-spring flexure (linear flexure stage)
+    category: compliant mechanisms & flexures
+    description: Two or more parallel springy blades that let a platform slide a short way in a straight line with no sliding friction or play
+  - name: Compliant gripper and force amplifier
+    category: compliant mechanisms & flexures
+    description: One-piece bending mechanisms that multiply or redirect a force, such as printed grippers, pliers and crimpers
+  - name: Fin-ray gripper (fin ray effect finger)
+    category: compliant mechanisms & flexures
+    description: A flexible triangular finger with cross ribs that wraps around an object when pressed, instead of pushing it away; popular for soft robot grippers
+  # ---- made for 3D printing ----
+  - name: Print-in-place hinge
+    category: print-in-place & 3D-printing joints
+    description: A hinge printed already assembled, with cone-shaped pins and a small gap so it moves straight off the print bed
+  - name: Heat-set threaded insert
+    category: print-in-place & 3D-printing joints
+    description: A knurled brass insert pressed into a plastic hole with a hot soldering iron, giving strong, reusable metal threads in a printed part
+  - name: Captive nut pocket (nut trap)
+    category: print-in-place & 3D-printing joints
+    description: A hexagonal pocket or side slot in a printed part that holds a nut so a bolt can be tightened without a spanner
+  - name: Printed screw thread
+    category: print-in-place & 3D-printing joints
+    description: Threads modelled and printed directly into the parts, for jar lids, caps and coarse screws, with extra clearance so they turn
+  - name: Crush ribs and spring-fit features (compliant press fit)
+    category: print-in-place & 3D-printing joints
+    description: Small ribs or springy tabs that squash or flex as a part is pushed in, giving a tight fit even when printer or laser sizes vary
+  - name: Mid-print embedding (captive nuts, magnets and bearings)
+    category: print-in-place & 3D-printing joints
+    description: Pausing a print to drop in a nut, magnet or bearing and then printing over it, so the part is trapped inside for good
+  - name: Heat staking (melted plastic rivet)
+    category: print-in-place & 3D-printing joints
+    description: A plastic post pushed through a hole and melted over with heat to form a rivet head that holds the parts together
+  - name: Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins)
+    category: print-in-place & 3D-printing joints
+    description: Ways to cut a model too big for the printer into pieces that slide, lock or peg back together accurately
+  # ---- hinges and pivots ----
+  - name: Geared hinge (continuous gear hinge)
+    category: hinges & pivots
+    description: A hinge where two meshing gear-toothed edges roll on each other, so both leaves move together evenly; can be printed in place
+  - name: Friction hinge (torque hinge)
+    category: hinges & pivots
+    description: A hinge with built-in friction that stays at any angle you leave it, like a laptop screen
+  - name: Ball-and-socket joint (lockable ball head)
+    category: hinges & pivots
+    description: A ball held in a cup that can swivel in any direction, sometimes with a clamp to lock it; can be printed in place
+  # ---- sliding and telescoping ----
+  - name: Telescoping tube twist lock (cam or collet twist lock)
+    category: sliding, telescoping & linear motion
+    description: Tubes that slide inside each other and lock at any length when you twist a section, by squeezing a split collet or turning a cam
+  - name: Telescoping tube lever lock (flip lock)
+    category: sliding, telescoping & linear motion
+    description: A clamp collar with a flip lever that squeezes an outer tube onto an inner one, as on tripod legs and trekking poles
+  - name: Spring button lock (snap button, push-button tube lock)
+    category: sliding, telescoping & linear motion
+    description: A spring-loaded button in an inner tube pops out through holes in the outer tube to lock set lengths; press it to slide
+  # ---- couplings and clutches ----
+  - name: Oldham coupling
+    category: clutches & couplings
+    description: Three discs with tongue-and-groove slots at right angles that join two shafts which are slightly out of line, while still passing turning force
+  - name: Jaw coupling (spider coupling)
+    category: clutches & couplings
+    description: Two hubs with interlocking claws and a rubbery spider between them, joining two shafts while soaking up shocks and small misalignment
+  - name: Flexible beam coupling (helical-slot coupling)
+    category: clutches & couplings
+    description: A one-piece coupling with a spiral slot cut round it so it bends to join slightly misaligned shafts without backlash (common on 3D-printer leadscrews)
+  - name: Universal joint (Hooke's joint, Cardan joint)
+    category: clutches & couplings
+    description: A cross-shaped piece between two forks that lets one shaft drive another at an angle
+  - name: Dog clutch (claw clutch)
+    category: clutches & couplings
+    description: Two parts with interlocking teeth or lugs that slide together to lock drive and apart to disconnect it, with no slipping
+  - name: Servo horn and spline hub
+    category: clutches & couplings
+    description: The toothed output shaft (spline) of a hobby servo and the arm or disc that pushes onto it and is held by a screw; how most robot parts attach to a servo
+  # ---- motion conversion ----
+  - name: Cam and follower (plate, barrel and face cams)
+    category: motion conversion
+    description: A shaped wheel or drum turns and pushes a follower up and down or side to side in a planned pattern
+  - name: Scotch yoke
+    category: motion conversion
+    description: A pin on a turning wheel slides in a slot in a sliding bar, turning rotation into smooth back-and-forth straight-line motion
+  - name: Slider-crank
+    category: motion conversion
+    description: A crank and connecting rod that turn rotation into back-and-forth sliding, or the reverse, as in an engine piston
+  - name: Four-bar linkage (incl. parallelogram linkage)
+    category: motion conversion
+    description: Four bars joined in a loop by pivots, which turns one motion into another shaped motion; the basic building block of most linkages
+  - name: Rack and pinion
+    category: motion conversion
+    description: A gear (pinion) meshing with a toothed straight bar (rack) to turn rotation into straight-line motion or the reverse
+  - name: Scissor linkage (lazy tongs, scissor lift)
+    category: motion conversion
+    description: Crossed bars pinned in the middle and at their ends that stretch out a long way from a small movement, as in scissor lifts and extending mirrors
+  - name: Iris mechanism
+    category: motion conversion
+    description: Curved blades that swing in together as a ring turns, closing a round opening evenly like a camera aperture
+  # ---- gears and transmissions ----
+  - name: Planetary gear set (epicyclic gearing)
+    category: gear trains, gearboxes & transmissions
+    description: A central sun gear, planet gears around it and an outer ring gear, giving a compact, strong speed reduction with input and output on the same line
+  - name: Compound planetary gearbox (split-ring or Wolfrom planetary)
+    category: gear trains, gearboxes & transmissions
+    description: A planetary set with two ring gears of slightly different tooth counts, giving a very high reduction in one stage; popular in 3D-printed robot actuators
+  - name: Strain-wave gear (harmonic drive)
+    category: gear trains, gearboxes & transmissions
+    description: An oval part flexes a thin toothed ring inside a slightly larger ring gear, giving a large, backlash-free reduction in a flat package
+  - name: Cycloidal drive (cycloidal reducer)
+    category: gear trains, gearboxes & transmissions
+    description: A lobed disc wobbles around inside a ring of pins, turning slowly as it goes, giving a large, shock-resistant reduction
+  - name: Differential (bevel gear differential)
+    category: gear trains, gearboxes & transmissions
+    description: A gear set that lets two output shafts turn at different speeds while sharing the drive, as between the wheels of a car
+  - name: Bevel gears (incl. mitre and crown gears)
+    category: gear trains, gearboxes & transmissions
+    description: Cone-shaped gears that pass turning force round a corner, usually at a right angle
+  - name: Herringbone and helical gears
+    category: gear trains, gearboxes & transmissions
+    description: Gears with slanted teeth that mesh more smoothly and quietly than straight teeth; herringbone (V-shaped) teeth cancel sideways push and print well
+  - name: Belt drives (timing, round and V-belt)
+    category: gear trains, gearboxes & transmissions
+    description: A loop of belt around two pulleys that passes rotation between shafts; toothed timing belts don't slip, round and V-belts can
+  - name: Capstan cable drive (tendon drive)
+    category: gear trains, gearboxes & transmissions
+    description: A cable wrapped several turns around a small drum and anchored to a larger drum, giving a smooth, zero-backlash reduction for robot joints
+  - name: Bowden cable (push-pull cable)
+    category: gear trains, gearboxes & transmissions
+    description: An inner wire sliding inside a flexible outer sleeve that carries a pull or push around bends, as in bike brakes and 3D-printer extruders
+  # ---- powered and active ----
+  - name: Holding electromagnet (maglock)
+    category: powered & active connectors
+    description: A coil that holds steel firmly while powered and lets go when the power is cut, as in magnetic door locks and robot tool holders
+  - name: Electro-permanent magnet
+    category: powered & active connectors
+    description: A magnet that is switched on or off by a short electric pulse and then holds (or stays released) with no power at all
+  - name: Solenoid latch (solenoid lock, electric strike)
+    category: powered & active connectors
+    description: An electric coil pulls a spring-loaded bolt or catch back when powered, used to unlock doors, boxes and release mechanisms
+  - name: Servo or motorised latch
+    category: powered & active connectors
+    description: A small motor or hobby servo turns a cam, hook or bolt to lock or release, holding its position when power is off
+  - name: Shape-memory-alloy wire latch (nitinol muscle wire)
+    category: powered & active connectors
+    description: A thin nickel-titanium wire that shortens when heated by an electric current, pulling a catch to release a latch silently
+  - name: Electromagnetic brake (power-off, spring-applied)
+    category: powered & active connectors
+    description: Springs clamp a brake on a motor shaft whenever power is off and a coil pulls it free when powered, so robot joints hold if power fails
+  - name: Vacuum (suction) gripper
+    category: powered & active connectors
+    description: A soft cup connected to a vacuum pump or generator that grips smooth objects by suction and lets go when the vacuum is released
+  # ---- clamping, magnetic, friction ----
+  - name: Magnet joint (embedded magnets, magnetic catch)
+    category: clamping, magnetic & friction connections
+    description: Pairs of magnets, or a magnet and a steel plate, set into parts so they snap together, align themselves and pull apart by hand
+  - name: Switchable permanent magnet (rotary magnetic base)
+    category: clamping, magnetic & friction connections
+    description: A magnet that is turned on and off by hand with a knob, by rotating one magnet against another, so it holds strongly with no power
+  # ---- locating ----
+  - name: Kinematic coupling (balls in V-grooves)
+    category: locating & alignment
+    description: Three balls sitting in three V-grooves so a part drops back into exactly the same position every time; used in tool changers and removable print beds
+  - name: Self-centring cone and socket (taper locator)
+    category: locating & alignment
+    description: A cone or tapered pin sliding into a matching socket, which guides two parts into line and centres them as they come together
+  # ---- springs ----
+  - name: Constant-force spring (spring-return reel)
+    category: springs, dampers & energy storage
+    description: A tightly curled steel strip that pulls with nearly the same force however far it is unrolled, used in tape measures, badge reels and counterweights
+  - name: Ortho-planar spring
+    category: springs, dampers & energy storage
+    description: A flat, one-piece spring cut or printed from sheet whose centre moves in and out of the plane; easy to 3D print or laser cut
+  - name: Spring balancer (gravity compensation)
+    category: springs, dampers & energy storage
+    description: Springs arranged so they cancel the weight of an arm at any angle, making it feel weightless, as in an anglepoise lamp or a robot arm
+  # ---- cord, strap and webbing (a gap in every existing collection) ----
+  - name: Cam cleat
+    category: cord, strap & webbing hardware
+    description: Two spring-loaded toothed cams that let a rope pull through one way and grip it the other way; lift the rope up and out to release
+  - name: Clam cleat (grooved V-cleat)
+    category: cord, strap & webbing hardware
+    description: A block with ridged V-shaped grooves that jams a rope pulled into it and releases when the rope is lifted out; no moving parts
+  - name: Cam buckle (webbing cam buckle)
+    category: cord, strap & webbing hardware
+    description: A buckle with a toothed, spring-loaded cam that grips a strap after you pull it tight; press the lever to release
+  - name: Ladder lock buckle (tension lock, tri-glide)
+    category: cord, strap & webbing hardware
+    description: A slotted buckle that locks a strap by friction when it is loaded and slides when you tilt it; tri-glides are the simpler non-locking version
+  - name: Side-release buckle
+    category: cord, strap & webbing hardware
+    description: A plastic buckle whose two springy arms snap into a housing and release when you squeeze both sides, as on backpacks
+  - name: Cord lock (spring toggle)
+    category: cord, strap & webbing hardware
+    description: A spring-loaded plunger in a small barrel that grips a cord passing through it; squeeze to slide and adjust
+  - name: Magnetic-assisted buckle (magnet guides, catch locks)
+    category: cord, strap & webbing hardware
+    description: A buckle where magnets pull the two halves together and line them up, then a mechanical catch locks them so the magnet doesn't carry the load
+  # ---- tensioning ----
+  - name: Belt tensioner (spring-loaded idler)
+    category: tensioning, reels & take-up
+    description: A pulley or roller pushed against a belt or chain by a spring or screw to keep it tight as it stretches
+  - name: Eccentric adjuster (eccentric nut, spacer or bushing)
+    category: tensioning, reels & take-up
+    description: An off-centre spacer or bushing that moves a wheel, pulley or shaft sideways as you turn it, for setting tension or taking up play
+  # ---- adhesives most used on 3D prints and in robotics ----
+  - name: Cyanoacrylate (superglue)
+    category: adhesives & bonding
+    description: A runny or gel glue that sets in seconds by reacting with moisture; strong on tight-fitting plastics, metal and wood but brittle and weak in peel
+  - name: Two-part epoxy
+    category: adhesives & bonding
+    description: A resin and hardener mixed together that set into a strong, gap-filling solid; slow or fast types, for metal, wood, most plastics and composites
+  - name: Solvent welding (solvent cement)
+    category: adhesives & bonding
+    description: A solvent that softens the surfaces of certain plastics so they fuse together as it evaporates, like acetone on ABS or cement on acrylic and PVC
+  - name: UV-curing adhesive (incl. resin used as glue)
+    category: adhesives & bonding
+    description: A liquid that stays wet until hardened in seconds by ultraviolet light, useful for clear parts and for gluing resin prints with the same resin
+  - name: Hot-melt adhesive (glue gun)
+    category: adhesives & bonding
+    description: A plastic stick melted in a glue gun that sticks as it cools; quick and gap-filling but weak and softens with heat
+  - name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
+    category: adhesives & bonding
+    description: A tape with sticky foam that grips on contact and stays flexible, mounting parts without drilling; pressure-sensitive adhesive (PSA)
+
+  # ======================= TIER 2: other unusual types =======================
+  - name: Magnetic coupling and magnetic gear
+    category: torque limiting & slip
+    description: Magnets on two parts pass turning force through a gap or a wall without touching, and simply slip if overloaded
+  - name: Centrifugal clutch
+    category: clutches & couplings
+    description: Weights on a spinning hub fly outwards as speed rises and press against a drum to engage drive automatically, as in go-karts and chainsaws
+  - name: Self-locking wedge (wedge clamp, taper key)
+    category: self-locking & anti-back-drive
+    description: A shallow wedge driven into a gap that stays put by friction, holding parts tightly until tapped back out
+  - name: Inertia-locking reel (seat-belt lock, centrifugal catch)
+    category: self-locking & anti-back-drive
+    description: A reel that pays out freely when pulled slowly but locks instantly when jerked, by a swinging weight or flyweight catching a ratchet
+  - name: Rope grab and ascender (cam rope clamp)
+    category: cord, strap & webbing hardware
+    description: A toothed cam that lets a clamp slide up a rope but grips hard when loaded downwards, used for climbing and hauling
+  - name: Turnbuckle
+    category: tensioning, reels & take-up
+    description: A threaded sleeve with left- and right-hand threads at its ends, so turning it pulls two rods or cables together to tighten them
+  - name: Capstan and windlass (incl. differential windlass)
+    category: tensioning, reels & take-up
+    description: A drum turned by a crank that winds in rope with a big force; rope wrapped round a drum also holds a large load with a small pull
+  - name: Ratchet tie-down strap (ratchet buckle)
+    category: cord, strap & webbing hardware
+    description: A lever with a ratchet that winds webbing onto a slotted spool to tighten a load strap, and releases with a trigger
+  - name: Guy-line slider (friction line tensioner)
+    category: cord, strap & webbing hardware
+    description: A small plate with holes that a cord threads through so it holds by friction under load but slides to adjust when unloaded, as on tent lines
+  - name: Quick-release hooks (pelican hook, three-ring release)
+    category: cord, strap & webbing hardware
+    description: Hooks and ring stacks that hold a heavy load on a rope or strap but let it go with a small pull on a pin, lever or cord
+  - name: Spring-gate hook (carabiner, snap hook, lobster clasp)
+    category: cord, strap & webbing hardware
+    description: A hook with a spring-loaded gate that snaps shut behind a ring or rope, sometimes with a screw or twist lock on the gate
+  - name: Hook-and-loop fastener
+    category: cord, strap & webbing hardware
+    description: Two fabric strips, one with tiny hooks and one with loops, that stick together when pressed and peel apart
+  - name: Zipper (slide fastener)
+    category: cord, strap & webbing hardware
+    description: Two rows of teeth that a slider meshes together or separates as it moves, closing a long opening in one pull
+  - name: Cam latch (quarter-turn cam lock)
+    category: locks, latches & catches
+    description: A knob or key turns a flat arm (cam) behind a panel so it hooks over the frame and holds a door or lid shut
+  - name: Mechanical interlock
+    category: locks, latches & catches
+    description: A blocking part that stops one action while another is happening, such as a lid that can't open while a machine runs
+  - name: Pin-tumbler lock (and other tumbler locks)
+    category: locks, latches & catches
+    description: A key lifts spring-loaded pins or levers to exactly the right heights so a plug can turn; the everyday door lock
+  - name: Combination lock (wheel pack)
+    category: locks, latches & catches
+    description: Several wheels with notches that line up only when each is turned to the right number, letting a bar or shackle move
+  - name: Quick couplers for tubes and hoses (push-to-connect, sleeve lock)
+    category: quick-release & tool-free
+    description: Fittings that grip a tube when it is pushed in and release when a collar is pressed or a sleeve is pulled back
+  - name: DIN-rail clip (top-hat rail snap mount)
+    category: quick-release & tool-free
+    description: A spring clip that hooks over one edge of a standard metal rail and snaps onto the other, so modules click on and off
+  - name: Press stud (snap fastener, popper)
+    category: snap & clip fits
+    description: A small metal or plastic stud that snaps into a socket with a springy ring, as on clothing and bags
+  - name: Lamina emergent torsional joint (LET joint)
+    category: compliant mechanisms & flexures
+    description: A pattern of cuts in flat sheet that lets part of it twist out of the plane like a hinge, for laser-cut or printed flat mechanisms
+  - name: Rolling-contact joint (CORE, Jacob's-ladder hinge)
+    category: compliant mechanisms & flexures
+    description: Two curved surfaces held together by straps or bands so they roll on each other instead of rubbing, giving a low-friction hinge
+  - name: Mechanical metamaterial mechanism (shear-cell hinge arrays)
+    category: compliant mechanisms & flexures
+    description: A block made of a repeating grid of tiny cells that bend in a planned way, so the whole block works like a mechanism
+  - name: Press-fit and expanding inserts (tap-in insert)
+    category: print-in-place & 3D-printing joints
+    description: Threaded inserts that are pushed or tapped into a hole and held by barbs, or expand as the screw goes in, as an alternative to heat-set inserts
+  - name: Gimbal
+    category: hinges & pivots
+    description: Rings pivoted at right angles to each other so the object in the middle can tilt freely in two or three directions, as in camera stabilisers
+  - name: Clip-on concealed hinge (cup hinge)
+    category: hinges & pivots
+    description: A hidden cabinet hinge that sits in a round pocket in the door and clips on and off its mounting plate without tools, with adjusting screws
+  - name: Invisible barrel hinge (Soss-type)
+    category: hinges & pivots
+    description: A hinge made of folding links that hides completely inside the edges of the door and frame when closed
+  - name: Virtual-pivot linkage (remote centre of motion)
+    category: hinges & pivots
+    description: A linkage that makes a part rotate about a point in empty space where there is no actual pin, as in some robot wrists and folding mechanisms
+  - name: Drawer slide (telescopic ball-bearing slide)
+    category: sliding, telescoping & linear motion
+    description: Nested metal channels with ball bearings that let a drawer or robot lift extend smoothly, sometimes with a lock-out or soft close
+  - name: Ball screw
+    category: sliding, telescoping & linear motion
+    description: A screw and nut with balls rolling between them, turning rotation into straight-line motion with very low friction; it can be back-driven
+  - name: Differential screw (fine adjustment screw)
+    category: sliding, telescoping & linear motion
+    description: One screw with two slightly different thread pitches, so each turn moves the part by only the small difference, for very fine adjustment
+  - name: Rigid chain actuator (zip chain, push chain)
+    category: sliding, telescoping & linear motion
+    description: A chain whose links lock into a stiff column as they come out of a housing, so it can push as well as pull and packs away small
+  - name: Spline shaft (sliding spline)
+    category: clutches & couplings
+    description: A shaft with lengthwise ridges fitting a matching hub, passing turning force while letting the hub slide along the shaft
+  - name: Constant-velocity joint (CV joint)
+    category: clutches & couplings
+    description: A joint that drives a shaft at an angle without the speed wobble of a simple universal joint, using balls in curved tracks
+  - name: Friction clutch (plate or cone clutch)
+    category: clutches & couplings
+    description: Friction surfaces pressed together to connect drive and pulled apart to disconnect it, able to slip gently while engaging
+  - name: Keyless locking bush (taper-lock bush, shaft locking device)
+    category: clutches & couplings
+    description: Tapered rings squeezed by screws that grip a smooth shaft and hub by friction, fixing a pulley or gear without keys or flats
+  - name: Quick-return mechanism (Whitworth, crank and slotted lever)
+    category: motion conversion
+    description: A crank driving a slotted lever so the working stroke is slow and the return stroke is fast, as in shaping machines
+  - name: Straight-line linkages (Watt, Chebyshev, Peaucellier)
+    category: motion conversion
+    description: Linkages of pivoted bars arranged so one point moves in a straight or nearly straight line without any slide
+  - name: Escapement (anchor or verge escapement)
+    category: motion conversion
+    description: A rocking catch that lets a spring- or weight-driven wheel advance one tooth at a time in a steady rhythm, as in clocks
+  - name: Motion rectifier (two-way to one-way drive)
+    category: one-way & ratchet
+    description: Gearing with two one-way clutches that turns back-and-forth motion into rotation in one direction only, as in self-winding watches
+  - name: Anti-backlash gear (split scissor gear)
+    category: gear trains, gearboxes & transmissions
+    description: A gear made of two halves sprung against each other so its teeth fill the gaps of the mating gear, removing play
+  - name: Chain and sprocket drive
+    category: gear trains, gearboxes & transmissions
+    description: A roller chain running on toothed wheels (sprockets) to pass strong, non-slipping rotation between shafts some distance apart
+  - name: Non-circular gears
+    category: gear trains, gearboxes & transmissions
+    description: Oval or oddly shaped gears that mesh while turning, so the output speeds up and slows down during each turn
+  - name: Lantern gear (pin gear)
+    category: gear trains, gearboxes & transmissions
+    description: A gear made of pins between two discs, easy to make from dowels or laser-cut sheet, used in mills and simple machines
+  - name: Continuously variable transmission (CVT, friction variator)
+    category: gear trains, gearboxes & transmissions
+    description: A drive that changes its ratio smoothly rather than in steps, using cones, discs, balls or belts on variable pulleys
+  - name: Electromagnetic clutch
+    category: powered & active connectors
+    description: A coil that pulls two plates together to connect a drive when powered and lets them separate when switched off
+  - name: Thermal actuators (bimetal strip, wax motor)
+    category: powered & active connectors
+    description: Parts that move when heated, a strip of two bonded metals that bends or a capsule of wax that expands, used to trip or open a latch
+  - name: Burn-wire and fusible-link release (one-shot thermal release)
+    category: powered & active connectors
+    description: A cord or low-melting link that holds something until an electric current or heat melts or cuts it, as in satellite and balloon releases
+  - name: Suction cup
+    category: clamping, magnetic & friction connections
+    description: A soft rubber cup pressed onto a smooth surface so air pressure holds it on; some have a lever to increase the suction
+  - name: Taper fit (Morse taper)
+    category: clamping, magnetic & friction connections
+    description: A slightly tapered shaft pushed into a matching tapered hole that locks by friction and is knocked apart with a wedge, as in drill chucks
+  - name: Press fit (interference fit)
+    category: clamping, magnetic & friction connections
+    description: A part pushed into a hole that is slightly too small for it, so it is held by the squeeze alone (bearings, pins, printed parts)
+  - name: Collet (and keyless chuck)
+    category: clamping, magnetic & friction connections
+    description: A slotted sleeve squeezed by a nut or taper so it closes evenly around a round shaft or tool, gripping it centred
+  - name: PVA wood glue (white and yellow glue)
+    category: adhesives & bonding
+    description: A water-based glue that dries by soaking into porous materials like wood, paper and cork; strong on wood, with water-resistant grades
+  - name: Contact adhesive (contact cement)
+    category: adhesives & bonding
+    description: A rubbery glue spread on both surfaces, left to dry until tacky, then pressed together to bond instantly; good for sheets, rubber, fabric and leather
+  - name: Polyurethane glue (foaming moisture-cure glue)
+    category: adhesives & bonding
+    description: A glue that cures by reacting with moisture and foams as it sets, filling gaps; bonds wood, stone, metal, foam and some plastics
+  - name: Structural acrylic and low-surface-energy plastic adhesives (for PE and PP)
+    category: adhesives & bonding
+    description: Two-part acrylic glues, and primers used with superglue, that bond tough slippery plastics like polyethylene and polypropylene which most glues can't
+  - name: Silicone and MS-polymer adhesive sealants
+    category: adhesives & bonding
+    description: Rubbery glues that cure from moisture in the air into a flexible, waterproof bond that also seals gaps
+  - name: Elastomeric solvent glue (flexible craft glue)
+    category: adhesives & bonding
+    description: Thick, clear, rubbery solvent-based glues that stay flexible, for bonding dissimilar materials, fabric, shoes and jewellery
+  - name: Anaerobic adhesive (threadlocker, retaining compound)
+    category: adhesives & bonding
+    description: A liquid that hardens only when shut off from air between close-fitting metal parts, used to stop screws loosening or to fix bearings on shafts
+  - name: Stretch-release adhesive strips
+    category: adhesives & bonding
+    description: Sticky strips that hold firmly but come away cleanly when you pull the tab slowly along the wall, leaving no residue
+  - name: Hide glue (animal glue)
+    category: adhesives & bonding
+    description: A traditional glue made from animal collagen that can be undone later with heat and moisture, used in instrument making and furniture repair
+  - name: Elastic averaging (many-feature alignment)
+    category: locating & alignment
+    description: Many small springy features (ribs, bumps, teeth) that each flex a little so their errors average out, locating parts accurately and repeatably
+  - name: Locating pins and hole-and-slot
+    category: locating & alignment
+    description: One pin in a round hole and one in a slot, so parts line up in exactly one position without jamming when sizes vary a little
+  - name: Exact-constraint mounting (3-2-1 locating)
+    category: locating & alignment
+    description: Holding a part with exactly as many contact points as it needs (three on a face, two on an edge, one on an end), so it sits the same way every time without strain
+  - name: Wave and disc springs (compact axial springs)
+    category: springs, dampers & energy storage
+    description: Wavy flat rings or dished washers that give a strong spring force in a very short height, used to preload bearings and take up play
+  - name: Gas spring (incl. lockable gas spring)
+    category: springs, dampers & energy storage
+    description: A sealed cylinder of pressurised gas whose rod pushes out with a steady force, holding up lids and hatches; lockable types hold at any length
+  - name: Spiral power spring (clock spring)
+    category: springs, dampers & energy storage
+    description: A flat strip coiled into a spiral that stores energy when wound and releases it as it unwinds, as in clockwork and retracting cords
+  - name: Dampers (rotary and linear soft-close dampers)
+    category: springs, dampers & energy storage
+    description: Parts filled with oil or air that slow a movement down, so lids, drawers and doors close gently instead of slamming
+  # ---- joinery for wood, sheet and panels (lowest priority by making method) ----
+  - name: Tab-and-slot joint (self-fixturing sheet joint)
+    category: interlocking joints & joinery
+    description: Tabs on one flat part fit through slots in another so the parts hold each other in place, for laser-cut, CNC and sheet-metal assemblies
+  - name: T-slot joint (captive nut and bolt joint)
+    category: interlocking joints & joinery
+    description: A T-shaped cut-out in the edge of a sheet holds a square nut so a bolt through the other part can clamp them together; common in laser-cut boxes
+  - name: Snap-lock sheet joint (barbed or spring finger)
+    category: interlocking joints & joinery
+    description: Sheet tabs with barbs or springy fingers that click into slots and stay put with no glue or screws
+  - name: Cross-halving slot joint (egg-crate joint)
+    category: interlocking joints & joinery
+    description: Two flat parts each slotted halfway so they slide together into a cross, used for grids, dividers and slot-together furniture
+  - name: Finger joint (box joint)
+    category: interlocking joints & joinery
+    description: Interlocking rectangular fingers along two edges that join at a corner, as in laser-cut boxes and wooden drawers
+  - name: Kerf bending (laser-cut living hinge)
+    category: interlocking joints & joinery
+    description: A pattern of cuts that lets stiff sheet like plywood or acrylic bend around curves or fold like a hinge
+  - name: Dovetail joint (through and half-blind)
+    category: interlocking joints & joinery
+    description: Flared tails and pins that interlock so the joint can't be pulled apart in one direction; the classic drawer corner
+  - name: Sliding dovetail
+    category: interlocking joints & joinery
+    description: A flared tongue that slides along a matching flared groove, locking against pull-out while still sliding lengthwise
+  - name: Mortise and tenon (incl. wedged, drawbored and tusk tenons)
+    category: interlocking joints & joinery
+    description: A tongue (tenon) on one part fits a hole (mortise) in the other; wedges, offset pegs or a removable tusk wedge lock it
+  - name: Butterfly key (bow-tie key)
+    category: interlocking joints & joinery
+    description: A bow-tie-shaped insert set into both parts across a joint or crack so they can't pull apart; also used as a CNC sheet connector
+  - name: Japanese interlocking joints (splices and three-way corners)
+    category: interlocking joints & joinery
+    description: Traditional wood joints like the gooseneck splice and the three-way corner that lock together by shape alone, often with wedges or pegs
+  - name: Knock-down cam-lock and cross-dowel connectors
+    category: interlocking joints & joinery
+    description: Flat-pack fittings where a turning cam grabs a bolt head, or a barrel nut takes a bolt through the other panel, so furniture can be taken apart
+  - name: Wedge dowel (click-in grooved dowel)
+    category: interlocking joints & joinery
+    description: A ribbed dowel that clicks into a groove and wedges the panels tightly together, with no screws or tools
+  - name: Lever-cam panel connector (self-clamping click connector)
+    category: interlocking joints & joinery
+    description: A hidden fitting set into a slot that is locked with a turn of a key or clicks shut by itself, pulling panels together; releasable
+  - name: Folded seam (hem, lock seam, Pittsburgh lock)
+    category: interlocking joints & joinery
+    description: Sheet-metal edges folded over each other and pressed flat so they lock together without welding or fasteners
+  - name: Bent or twisted tab through a slot (lanced tab)
+    category: interlocking joints & joinery
+    description: A tab on one sheet-metal part goes through a slot in the other and is bent over or twisted to lock them together
+  - name: Clinching (press joining without rivets)
+    category: interlocking joints & joinery
+    description: A punch and die press two metal sheets into a button shape that locks them together, with no rivet, screw or heat
+  - name: Self-clinching fastener (press-in nut or stud)
+    category: interlocking joints & joinery
+    description: A nut, stud or standoff pressed into a hole in thin sheet metal so the metal flows into its grooves and holds it for good
+
+  # ======================= TIER 3: generic baseline entries (one per family at most) =======================
+  - name: Ordinary screw joint (bolt and nut, machine screw)
+    category: clamping, magnetic & friction connections
+    description: A bolt through the parts into a nut or tapped thread, clamping them together; the baseline everything else is compared with
+  - name: Self-tapping screw into plastic (thread-forming screw)
+    category: print-in-place & 3D-printing joints
+    description: A screw that cuts or forms its own thread in a plain hole in a printed or moulded part; simple but wears out after a few uses
+  - name: Retaining ring (circlip, E-clip)
+    category: snap & clip fits
+    description: A springy metal ring that snaps into a groove on a shaft or in a hole to stop parts sliding off
+  - name: Thread-locking hardware (nylon-insert nut, lock washer, split pin)
+    category: self-locking & anti-back-drive
+    description: Nuts, washers and pins that stop threaded joints shaking loose by friction, springiness or a physical block
+  - name: Tool-free fasteners (thumbscrew, wing nut, hitch pin and R-clip)
+    category: quick-release & tool-free
+    description: Ordinary fasteners shaped to be done up by hand, as a simple quick-release baseline
+  - name: Basic latches (spring latch, slide bolt, hook and eye)
+    category: locks, latches & catches
+    description: The everyday door latch with a sloped spring bolt, a sliding bolt, and a hook in an eye; the latch baseline
+  - name: Knuckle hinge (butt hinge)
+    category: hinges & pivots
+    description: Two leaves joined by a pin through interlocking knuckles; the ordinary door hinge
+  - name: Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing)
+    category: hinges & pivots
+    description: A shaft or pin turning in a hole, or in a ball bearing, as the basic way to make something rotate
+  - name: Linear guides (bushings on rods, wheels or carriages on rails)
+    category: sliding, telescoping & linear motion
+    description: The standard ways to make something slide in a straight line, from plastic bushings on steel rods to wheels and carriages on rails
+  - name: Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
+    category: clutches & couplings
+    description: The ordinary ways to fix a gear, pulley or wheel to a shaft, or join two shafts rigidly end to end
+  - name: Spur gear pair and gear train (simple, compound, idler)
+    category: gear trains, gearboxes & transmissions
+    description: Straight-toothed gears on parallel shafts, alone or in chains, as the baseline way to change speed and turning force
+  - name: Coil spring (compression, extension, torsion)
+    category: springs, dampers & energy storage
+    description: Wire wound into a coil that pushes, pulls or twists back; the baseline spring
+  - name: Glued joint design (butt, lap and scarf joints; peel vs shear)
+    category: adhesives & bonding
+    description: How the shape of a glued joint decides its strength, since most glues are strong in shear and weak when peeled or pulled straight apart
+  - name: Butt and lap wood joints (screwed, pocket-hole, half-lap)
+    category: interlocking joints & joinery
+    description: Simple wood joints where parts meet end to face or overlap, held by screws, glue or angled pocket screws; the joinery baseline
+  - name: Dowel and biscuit joints
+    category: interlocking joints & joinery
+    description: Round wooden pins or flat oval wafers glued into matching holes or slots in both parts to align and strengthen a joint
+  - name: Blind rivet (pop rivet)
+    category: interlocking joints & joinery
+    description: A hollow rivet set from one side with a hand tool that pulls a mandrel to swell the far end; the sheet-metal baseline
+
+execution:
+  batch_size: 6
+  items_per_agent: 3
+  output_dir: research/connection-types/results
+
+# Families (the `family` field), with a plain-English label. Order roughly follows the flow
+# chart's first question "What do you need it to do?". Changes from the starting list in
+# research/prompts/02-connection-types.md, based on run 1's classification schemes:
+# - "sliding & telescoping locks" -> "sliding, telescoping & linear motion" (also holds screws and slides)
+# - "magnetic & friction connections" -> "clamping, magnetic & friction connections" (DIN 8593's
+#   force-fit group: clamping, press and taper fits, suction; holds the screw-joint baseline)
+# - "springs & energy storage" -> "springs, dampers & energy storage" (dampers had no home)
+# - "motion conversion" explicitly includes stepping (intermittent) motion: Geneva, escapements
+# - Cross-cutting axes from run 1 (by job, by holding principle) are new finder fields
+#   (`job`, `holding_principle`) rather than extra families.
+families:
+  - key: torque limiting & slip
+    label: Slips or lets go when overloaded
+  - key: one-way & ratchet
+    label: Moves one way only
+  - key: self-locking & anti-back-drive
+    label: Holds against a load until you release it
+  - key: tensioning, reels & take-up
+    label: Tightens and holds tension
+  - key: over-centre, toggle & cam clamps
+    label: Snaps past a dead point and stays
+  - key: locks, latches & catches
+    label: Latches, catches and locks
+  - key: indexing & detents
+    label: Clicks into set positions
+  - key: quick-release & tool-free
+    label: Joins and comes apart without tools
+  - key: snap & clip fits
+    label: Snaps or clips together
+  - key: compliant mechanisms & flexures
+    label: Bends instead of hinging
+  - key: print-in-place & 3D-printing joints
+    label: Made for 3D printing
+  - key: hinges & pivots
+    label: Unusual hinges and pivots
+  - key: sliding, telescoping & linear motion
+    label: Slides, telescopes and locks in place
+  - key: clutches & couplings
+    label: Connects shafts, or engages and disengages drive
+  - key: motion conversion
+    label: Changes one kind of motion into another (cams, linkages, stepping motion)
+  - key: gear trains, gearboxes & transmissions
+    label: Changes speed or turning force
+  - key: powered & active connectors
+    label: Needs power to hold or to let go
+  - key: clamping, magnetic & friction connections
+    label: Held by clamping, friction, suction or magnets
+  - key: adhesives & bonding
+    label: Glues (types, by material and use)
+  - key: cord, strap & webbing hardware
+    label: Rope, cord, strap and webbing hardware
+  - key: interlocking joints & joinery
+    label: Joints for wood, sheet and panels
+  - key: locating & alignment
+    label: Locates parts exactly
+  - key: springs, dampers & energy storage
+    label: Stores energy or cushions movement
