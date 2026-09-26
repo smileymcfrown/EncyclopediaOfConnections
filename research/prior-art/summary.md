@@ -1,6 +1,6 @@
 # Run 1 summary: what already exists, and what to build on
 
-**Date:** 2026-09-25 · **Inputs:** 54 collections researched (`results/*.json`, full detail in
+**Date:** 2026-09-25, joinery top-up 2026-09-26 · **Inputs:** 60 collections researched (54, plus 6 joinery items added after R15) (`results/*.json`, full detail in
 `report.md`) · **Scope:** the Scope section of `PROJECT.md` (clever connection and mechanism
 *types* that act as one unit, gear trains, powered connectors and adhesive types; not
 standard-hardware catalogues).
@@ -48,6 +48,14 @@ catalogues** (McMaster-Carr, MISUMI, igus: the trade names for torque limiters, 
 toggle clamps, position hinges, solenoids and electromagnetic locks) and the **Wolfram
 Demonstrations** (interactive models whose preview snapshots are MIT-licensed).
 
+For **joinery** (in scope from day one after R15, lowest priority), the best sources are
+Wikipedia's woodworking-joint articles (CC BY-SA, one picture and one plain line per joint,
+reusable), Noll's *The Joint Book* and Rogowski's *Complete Illustrated Guide to Joinery*
+(joint families, a "joint selector"), WOOD Magazine and Fine Woodworking strength tests, Gros's
+*50 Digital Wood Joints* and WikiHouse for CNC, Boxes.py and Ponoko's kerf guides for laser
+cutting, Obrary's living-hinge swatches (CC BY-SA), Lamello and Häfele for clever knock-down
+connectors, and SendCutSend, PEM and TOX for sheet metal.
+
 Lower value than expected: the GitHub "awesome" lists (they only point elsewhere), the CAD
 joint datasets (Fusion 360 Gallery, AutoMate) and PartNet-Mobility (only generic hinge / slider
 / screw joints), the linkage research datasets, Mechanical Design 101 (research linkages) and
@@ -57,7 +65,7 @@ the Functional Basis repository (its web interface is gone, though the vocabular
 
 ## 2. Merged list of type names (run 2's starting list)
 
-Every connection or mechanism *type* named across the 54 collections that fits the Scope,
+Every connection or mechanism *type* named across the 60 collections that fits the Scope,
 de-duplicated and grouped into the families from `research/prompts/02-connection-types.md`
 (plus two families the research suggested and the owner approved: locating/alignment and springs/energy storage).
 Names are given as **proper term (aliases)**; run 2 adds the plain-English description for
@@ -264,16 +272,54 @@ one baseline line per family, as the Scope asks.
 - **Gaps:** ladder locks, cam buckles for webbing, side-release buckles and cord locks are barely covered by any collection (only maker models and shop catalogues). Run 2 will need outdoor-gear and sewing sources for these
 - Found in: Printables, Hackaday, Handbook of Compliant Mechanisms, Navy, Wikimedia Commons
 
-### 2.20 Interlocking joints (puzzle, dovetail, woodwork and CNC joinery)
-- Dovetail (straight, tapered, sliding, shouldered, double); jigsaw / puzzle joint; hooked jigsaw halving
-- Finger (box) joint incl. spring, barb and snap finger styles; angled finger joint
-- Mortise and tenon; loose (inserted) tenon; pegged or draw-key-locked tenon; hammer tenon; catch tenon (detachable)
-- Halving (lap) joints; scarf joints (hooked scarf, scarf with dovetail keys); bow-tie (butterfly) key
-- Japanese joints: gooseneck splice (*kama tsugi*), dovetail splice (*ari tsugi*), four-way tenon splice, pegs (*sen*), wedges (*kusabi*) and draw keys (*shachi-sen*)
-- CNC and flat-pack joints: tab-and-slot, slotting (tool-free shelf) joint, knock-down (KD) fittings, WikiHouse bow-tie connector, dogbone and T-bone corner reliefs
-- Laser-cut sheet joints: loop-insert, hem, tab-insert, interlocking flaps, cantilever-spring finger / cross / T joints (SpringFit)
-- Interlocking partition seams (jigsaw, hammerhead, sawtooth); Hirth joint
-- Found in: Gros's *50 Digital Wood Joints*, Japanese joinery books and The Joinery animations, Tsugite, WikiHouse, IBOIS, Boxes.py, Joinery (Zheng), SpringFit, BOSL2, Hubs/Formlabs (printed interlocking joints)
+### 2.20 Joints for wood, sheet and panels (joinery: woodwork, CNC, laser cut, sheet metal)
+In scope from day one (R15), lowest priority by making method. Clever ones (self-locking,
+wedged, keyed, knock-down, sliding) first.
+
+**Woodwork joints**
+- Dovetail: through, half-blind, secret mitred, sliding (locks one way), shouldered, double, tapered; wedged half-dovetail mortise
+- Mortise and tenon: through, haunched, wedged through-tenon, tusk tenon (removable wedge, knock-down), drawbored (offset peg pulls it tight), pegged / pinned, loose (floating) tenon incl. Domino, hammer-headed tenon, catch tenon; bridle joint (open mortise)
+- Lap and housed joints: half-lap, cross-lap, dado (housing), shouldered dado, dado rabbet; birdsmouth
+- Edge and end joints: tongue and groove, loose tongue (spline), scarf (plain, hooked, with dovetail keys), splined and keyed mitre, cope-and-stick
+- Drawer joints: drawer lock, lock-rabbet, lock-mitre, pin-and-crescent (Knapp joint)
+- Keys and small locking parts: butterfly (bow-tie) key, Edmund key, Ortman key; Phoenician joint†
+- Finger (box) joint; biscuit and dowel joints; pocket-hole joint (baseline); stitch and glue
+- Japanese joints: gooseneck splice (*kama tsugi*), dovetail splice (*ari tsugi*), four-way tenon splice, pegs (*sen*), wedges (*kusabi*), draw keys (*shachi-sen*)
+
+**Knock-down and flat-pack connectors**
+- Cam-lock connector (cam and bolt, eccentric connector), incl. spreading-bolt and one-piece CNC face-drilled versions
+- Lever-cam groove connector (detachable biscuit-style connector); self-clamping spring connector; self-clamping hammer-in biscuit; slide-in self-clamping shelf connector
+- Magnet-driven hidden connector (turned through the panel by an outside magnet)
+- Wedge dowel (grooved click-in dowel that pulls parts together); one-time push-in snap dowel
+- Cross dowel and barrel nut; bed bolts; hidden-bolt slip-tenon bed joint; Confirmat screw (baseline)
+- Push-in and hang-on panel fittings (release without tools); bail-clip bed fitting; hook-in (Berliner) bed plate; keyhole plate; turn-bolt locking connector; worktop (dog-bone) connector
+- Clip-on concealed hinge (doors snap on and off)
+
+**CNC-cut sheet joints**
+- Tab-and-slot; slot (cross-halving / egg-crate) joint; slotting tool-free shelf joint; hook (drop-in) joint; tooth joint; beam joint; S/Z joint†; tab, hanger and corner assemblies
+- Wedged through-tenon; v-clip locking joint; snap-finger joint; press-fit knock-down joints without hardware; WikiHouse bow-tie connector
+- CNC-cut plywood hinge; pocket (part-depth) joints
+- Corner reliefs for round router bits: dogbone, minimal dogbone, T-bone, mortise-side dogbone
+- Gros's catalogue: hooked jigsaw halving, jigsaw cross halving, stop lap with jigsaw key, clip tenons, hammer tenons, lengthening with meander key, locked leg framing
+
+**Laser-cut sheet joints**
+- Finger joint (incl. spring, barb and snap finger styles); T-slot joint (captive nut and bolt); angled finger joint
+- Kerf-compensated press fit; slot with crush nodes (kerf-tolerant friction fit); slot with corner radii (for acrylic); slot allowance cuts
+- Interlocking cross-slot (slice-form) joint; laser-cut clip (sheet snap tab); stacking tabs; sliding lid in grooves
+- Living hinges by cut pattern: straight, diamond and cross lattice; double-curvature ("fabric") spiral pattern; kerf-bent rounded corners
+- Research joints: loop-insert, hem, tab-insert, interlocking flaps (Joinery); cantilever-spring finger / cross / T joints (SpringFit); kerf-canceling bearing
+
+**Sheet-metal joints (without welding)**
+- Tab and slot (self-fixturing), keyed or varied-width tabs (only fit one way), bent (folded) tab through a slot, twisted tab†, hook and slot, key-and-tab with a wedge key
+- Hems (open, flat, tear-drop), curl (rolled edge), offset / joggle
+- Clinching (press-joining without rivets): round, flat, split-die, twin-point, through a pre-punched hole
+- Self-clinching (press-in) fasteners: nut, stud, standoff, floating nut, captive panel screw, locking nut, right-angle fastener (replaces bent tabs)
+- Blind (POP) rivet (baseline); dimple-formed countersink
+- **Gap:** lanced (cut-and-formed) tabs, louver locks and lock seams (Pittsburgh lock, standing seam) are barely covered by these guides
+
+**Other interlocking joints**
+- Jigsaw / puzzle joint; interlocking partition seams (jigsaw, hammerhead, sawtooth); Hirth joint
+- Found in: Noll, Rogowski, Wikipedia (woodworking joints), WOOD Magazine and Fine Woodworking tests, Japanese joinery books and The Joinery animations, Tsugite, Lamello, Häfele, Blum, IKEA, *Design for CNC*, Opendesk, AtFAB, Gros, WikiHouse, IBOIS, MakerCase, Ponoko, Obrary, Boxes.py, Joinery (Zheng), SpringFit, SendCutSend, Protolabs, Xometry, PEM, TOX, BOSL2, Hubs/Formlabs
 
 ### 2.21 Glues (adhesive types, by how they harden)
 - Cyanoacrylate (superglue, instant adhesive): extra-thin (capillary), thin, gel, rubber-toughened, odourless / foam-safe, surface-insensitive (for wood and leather), with polyolefin primer (for PE/PP), UV-cure; CA debonder (undoes it)
@@ -334,7 +380,8 @@ back later as baseline entries or new families if the owner wants them.
 | **By function verbs** (couple, join, guide, allow DOF, secure, position, stop, transmit, change) | Functional Basis (NIST), TRIZ effects | By verb + flow | Good wording source for finder questions and synonyms |
 | **By material pair** (this × that) and **how the glue hardens** (dries, cools, stays tacky, reacts: two-part, moisture, no air, UV, heat) | thisTOthat, manufacturer guides (chemistry × substrate), ASC / Wikipedia | By materials, then chemistry | Excellent for the adhesive branch |
 | **Snap-fit shape** (cantilever, U/L, torsion, annular) and lock style (Bonenberger's 5) | Covestro, BASF, DuPont, Bonenberger | By what flexes | Good inside the snap-fit family |
-| **Joint position** (frame / board / carcass × lengthening / corner / cross / T / slot); Japanese *tsugite* vs *shiguchi* | Gros, Japanese joinery | By what meets what | Good inside the joinery family |
+| **Joint position** (frame / board / carcass × lengthening / corner / cross / T / slot); Japanese *tsugite* vs *shiguchi*; Rogowski's carcase / frame / edge joinery; *Design for CNC*'s "joint conditions" (overlap, edge to edge, end to face, through, three-way, four-way) | Gros, Japanese joinery, Rogowski, *Design for CNC* | By what meets what | Good inside the joinery family: "are you joining boards side by side, making a box corner, or a frame corner?" |
+| **Connector function labels** (detachable, invisible, self-clamping, slide-in) and **by the hole you can make** (biscuit groove, drilled hole, CNC face drilling) | Lamello, Häfele | By job and by tool | Good for the knock-down branch |
 | **Freedom and constraint** (FACT's 50 types; exact constraint) | Hopkins, Blanding | By wanted motion | Idea good ("which directions should it move?"), maths too hard |
 
 ### 3.2 Ideas to use in the beginner flow chart
@@ -409,6 +456,9 @@ example, link the SDP/SI gear handbook on sdp-si.com, not the mirror it was read
 | Boxes.py | GPL-3 (code); generated drawings not covered | Drawings we generate | Code reuse must stay GPL |
 | Game Manual 0, DT Online, UArk open textbook, Gros's *50 Digital Wood Joints* | CC BY-NC (gm0 2.0; UArk, version unverified); CC BY-NC-SA (DT Online 3.0, Gros 3.0/4.0) | Text and images, non-commercially | Credit; non-commercial; share-alike where stated. Only safe if the encyclopedia stays non-commercial |
 | WikiHouse | CC BY-SA 4.0 | Joint drawings and guides | Credit; share-alike |
+| Obrary living-hinge swatches; koFAKTORlab fabric hinge pattern | CC BY-SA 4.0 | Laser-cut hinge patterns and swatch files | Credit; share-alike |
+| Wikipedia woodworking-joint articles | CC BY-SA 4.0 | Joint list, one-line definitions, Commons pictures | As for Wikipedia above |
+| Opendesk furniture files | Per designer, often CC non-commercial | Joint drawings, non-commercially | Check each design's licence |
 | AutoMate dataset; awesome-openscad and awesome-3d-printing | CC0 | Anything | None |
 | MechVerse dataset | CC BY 4.0 | Clips and data | Credit, say what changed |
 | Printables / Thingiverse models | Per model | Only models under CC or similar | Follow each model's licence; credit the designer |
@@ -419,7 +469,10 @@ Chironis, Sandin, Bonenberger, Messler, Roth, Smith, Blanding, Howell, Petrie, L
 *Making Things Move*), all manufacturer and service guides (Covestro, BASF, DuPont, Hubs,
 Protolabs, Formlabs, Henkel, 3M, Permabond, KHK, SDP/SI), supplier catalogues, RoyMech,
 Mecapedia, Mechanical Design 101, Hackaday, thisTOthat, Slocum's *FUNdaMENTALs*, IFToMM
-dictionary, DIN standards, FRCDesign.org, The Joinery GIFs, MotionGen and Gear Generator.
+dictionary, DIN standards, FRCDesign.org, The Joinery GIFs, MotionGen and Gear Generator; for
+joinery, Noll, Rogowski, WOOD Magazine, Fine Woodworking, *Design for CNC*, MakerCase, Ponoko,
+Lamello, Häfele, Blum, IKEA, SendCutSend, Protolabs, Xometry, PEM and TOX (AtFAB's licence is
+unverified).
 
 **Facts are free.** Type names, numbers from design guides (clearances, strain limits), which
 glue suits which material, and classification ideas can be restated in our own words with a
@@ -439,13 +492,15 @@ also tie the project to non-commercial use, so prefer linking to them over copyi
   lock, side-release), cord locks, motorised locks and electric strikes, and solenoid latches
   as latches. No collection covers these as types, so they are the encyclopedia's clearest
   gap to fill. Run 2 will need outdoor-gear, sewing and access-control sources for them.
-- **Joinery scope changed after this run (R15, 2026-09-26):** CNC, laser-cut, woodwork and
-  sheet-metal joinery is now a full family (still lowest priority), not "a short list". The
-  joinery items here (Japanese joinery, Gros, WikiHouse, IBOIS, Boxes.py, HPI/Zheng) were rated
-  `scope_match` low to medium under the old brief, so read those ratings as higher. Not covered
-  by run 1: Western woodworking joint references (e.g. *The Joint Book*), sheet-metal joining
-  guides (lanced and folded tabs, clinching, self-clinching fasteners) and laser-cutting design
-  guides. A small top-up with `/research-add-items` would fill this.
+- **Joinery scope changed after the first 54 items (R15, 2026-09-26):** CNC, laser-cut,
+  woodwork and sheet-metal joinery is now a full family (still lowest priority), not "a short
+  list". Six joinery items were added (Western woodworking books and web guides, knock-down
+  connectors, sheet-metal, laser-cut and CNC guides). The earlier joinery items (Japanese
+  joinery, Gros, WikiHouse, IBOIS, Boxes.py, HPI/Zheng) were rated `scope_match` low to medium
+  under the old brief, so read those ratings as higher. Remaining joinery gaps: no neutral,
+  cross-brand classification of knock-down connectors; no comparison of them by strength, reuse
+  or tools; lanced tabs and lock seams in sheet metal; few numbers for laser-cut snap tabs and
+  press fits; almost nothing on 3D-printed versions of wood and sheet joints
 - **Adhesives for 3D-printing plastics** (PLA, PETG, resin) are only covered by maker guides
   (Prusa, CNC Kitchen), not by the industry references.
 - **No existing finder** chooses between mechanical connection types for beginners. The real

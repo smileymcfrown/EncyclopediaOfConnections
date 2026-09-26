@@ -88,7 +88,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R12 | 2026-09-25 | **Scope:** include adhesives, as types for different materials and uses (cyanoacrylate vs PVA vs two-part epoxy vs contact adhesive …), not an exhaustive list of brands | Done: Scope, run 1 outline (4 adhesive items), run 2 prompt and prior-art fields updated |
 | R13 | 2026-09-26 | Add the two extra families suggested by run 1: locating & alignment, and springs / energy storage | Done: run 2 prompt family list updated |
 | R14 | 2026-09-26 | License the project's own content as CC BY-SA, as run 1 suggested | Decided (recorded below). Add a LICENSE file when content is published |
-| R15 | 2026-09-26 | **Scope:** CNC, laser-cut, woodworking and sheet-metal joinery are in scope from day one (they were never out, just lowest priority) | Done: Priorities, run 2 prompt updated. Run 1 covered these only partly (see decisions) |
+| R15 | 2026-09-26 | **Scope:** CNC, laser-cut, woodworking and sheet-metal joinery are in scope from day one (they were never out, just lowest priority) | Done: Priorities and run 2 prompt updated; run 1 topped up with 6 joinery items and `summary.md` section 2.20 rewritten |
 | R16 | 2026-09-26 | Working title is *The Encyclopaedia of Connections*; no final name or domain yet | Recorded |
 
 ---
@@ -120,7 +120,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 ### Phase 0 — Research
 - [x] Choose the research tool and set it up (Weizhena/Deep-Research-skills, copied into the repo)
-- [x] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names (54 collections; done 2026-09-25)
+- [x] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names (54 collections done 2026-09-25; 6 joinery items added 2026-09-26)
 - [ ] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/`
 - [ ] Review run 2 with the owner. Confirm the families and fields
 - [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
@@ -147,7 +147,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
-| 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25. 54 of 54 items researched and validated (34 fields each) |
+| 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25; joinery top-up 2026-09-26. 60 of 60 items researched and validated (34 fields each) |
 | 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` | Not started. Ready: start from `research/prior-art/summary.md` section 2 |
 | 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
 
@@ -169,3 +169,4 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Ran run 1 (prior art). Outline of 54 collections with 34 fields (15 new fields merged into `research/fields/prior-art.fields.yaml`); owner added adhesive types to scope (R12). 27 research agents wrote and validated 54 JSON files; `report.md` generated (TOC shows resource_type, scope_match, reusable_data). `summary.md` covers the top 10 collections, a merged type list in 21 families plus 2 suggested ones, classification schemes and flow-chart ideas, and licensing. Environment note: network access had to be widened for the agents; github.com pages stay blocked (READMEs read via raw.githubusercontent.com), and some sites (Zhihu, Wayback Machine, Printables web, Xometry) could not be opened, so those facts are marked `[uncertain]` |
 | 2026-09-26 | Owner approved the two extra families (R13) and chose CC BY-SA for the project's content (R14). Updated decisions, run 2 prompt family list, summary.md and next action |
 | 2026-09-26 | Owner put CNC / laser / woodwork / sheet-metal joinery in scope from day one (R15) and set the working title (R16). Updated Priorities, open questions, decisions and the run 2 prompt |
+| 2026-09-26 | Topped up run 1 with 6 joinery items (woodworking books and web guides, knock-down connectors, sheet-metal, laser-cut and CNC guides) via `/research-add-items` and 3 agents; all 60 results validate. Rebuilt `report.md`; `summary.md` now has a full joinery family (2.20: woodwork, knock-down, CNC, laser-cut and sheet-metal joints), extra joinery sources, schemes and licences, and the remaining joinery gaps |
