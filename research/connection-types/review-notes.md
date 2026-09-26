@@ -14,6 +14,9 @@ break validation; they are clean-ups for the report step or Phase 1.
   (`cs448m.github.io/lectures/machines/doc/*.pdf`). Thang gives them away free, but when
   publishing prefer his own download link (run 1: DT Online's index page and the MediaFire
   zip) or the individual YouTube videos.
+- **Paper read from a course-site copy**: Pratt & Williamson, *Series Elastic Actuators* (IROS
+  1995) was read from fab.cba.mit.edu (*Series-elastic coupling*). Cite it by DOI
+  10.1109/IROS.1995.525827 when publishing.
 - **Printables models cited through the API**: printables.com model pages return 403 to the
   agents, so they read models through `https://api.printables.com/graphql/`. Where no page URL
   was confirmed, `make_it_yourself` entries point at the API URL with the model ID in the title
@@ -29,6 +32,8 @@ break validation; they are clean-ups for the report step or Phase 1.
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.
 
 ## Content corrections found by the agents
+- *Series-elastic coupling*: the OpenSEA paper's spring table doesn't add up (0.015 N·m/° ×
+  ±20° = 0.3 N·m, not the ±3 N·m it states). The entry quotes ±3 N·m in `load` only; check it.
 - *Ball-detent torque limiter* quotes Firgelli's detent formula (release force = spring force
   × tan(α/2 + φ)). The *Ball detent* entry found this conflicts with S&W Manufacturing's formula
   (side force = end force / tan(half the countersink angle)), which matches the physics. Re-check
