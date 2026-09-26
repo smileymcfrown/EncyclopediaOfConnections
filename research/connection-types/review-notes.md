@@ -4,10 +4,12 @@ Collected from the research agents' hand-back reports during `/research-deep`. N
 break validation; they are clean-ups for the report step or Phase 1.
 
 ## Sources and links
-- **Machinery's Handbook read from an unofficial PDF** (theswissbay.ch), listed in `sources`
-  of *Ratchet and pawl* and *Linear ratchet*. It is not in `links`. When publishing, cite the
-  book by edition and page (27th ed., pp. 2088–2089) and drop the URL, following run 1's rule
-  of not linking unauthorised copies.
+- **Books read from unofficial PDF copies** (listed in `sources`, not in `links`): *Machinery's
+  Handbook* 27th ed. from theswissbay.ch (*Ratchet and pawl*, *Linear ratchet*, pp. 2088–2089)
+  and Sclater's *Mechanisms and Mechanical Devices Sourcebook* 4th ed. from rexresearch1.com
+  (*Over-centre linkage*, *Toggle clamp*, *Draw latch*, pp. 106–107 and 230–233). When
+  publishing, cite the books by edition and page and drop these URLs (run 1's rule: don't link
+  unauthorised copies). From batch 3 on, `research_rules` tells agents not to use such copies.
 - **Printables models cited through the API**: printables.com model pages return 403 to the
   agents, so they read models through `https://api.printables.com/graphql/`. Where no page URL
   was confirmed, `make_it_yourself` entries point at the API URL with the model ID in the title
