@@ -33,7 +33,7 @@
       "slip or let go when overloaded: protects plastic gear teeth, small motors and servos",
       "join and hold: it also holds the gear on its shaft, with no key or set screw"
     ],
-    "motion": "rotate: 1:1 rotation while gripping; unlimited slipping rotation when overloaded. Servo saver: rotate, a limited give of some degrees that springs back to centre [uncertain on the exact angle]",
+    "motion": "rotate: 1:1 rotation while gripping; unlimited slipping rotation when overloaded. Servo saver: rotate, a limited give of some degrees that springs back to centre (exact angle not found [uncertain])",
     "degrees_of_freedom": "0 while gripping (gear and shaft turn together); 1 while slipping (the gear turns relative to the shaft). Servo saver: 1 (the arm can turn a little relative to the servo shaft against a spring)",
     "special_behaviour": [
       "torque-limiting: slips (or gives, for a servo saver) at a torque set by the stiffness and pre-bend of its arms",
