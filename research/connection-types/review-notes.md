@@ -18,6 +18,10 @@ break validation; they are clean-ups for the report step or Phase 1.
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.
 
 ## Content corrections found by the agents
+- *Ball-detent torque limiter* quotes Firgelli's detent formula (release force = spring force
+  × tan(α/2 + φ)). The *Ball detent* entry found this conflicts with S&W Manufacturing's formula
+  (side force = end force / tan(half the countersink angle)), which matches the physics. Re-check
+  and replace with the S&W form.
 - *Linear ratchet*: tie-down ratchet straps wind webbing on a spool with a rotary ratchet,
   so they are not linear ratchets; most quick-grip bar clamps have no teeth and use a tilting
   binding plate (see *Binding-plate lock*). The entry explains this; the outline description
