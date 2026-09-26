@@ -15,6 +15,7 @@ research_rules:
   - Only record URLs you actually opened in this session. Never build or guess a URL. Put every URL you used for facts in `sources`.
   - Prefer pages with images, diagrams, animations or video. Record each image or animation's licence when you can see it (Wikimedia Commons files show one).
   - "Printables and MakerWorld pages usually block automated access (403). Read Printables models through its public API (https://api.printables.com/graphql/). Record a model page URL only if you opened it or it appeared in search results; if you write a page URL from the API's id and slug without opening it, add '(URL from Printables API, page not opened)' to that link's title so it can be checked later."
+  - "Never put personal details (names, email addresses or usernames from git config, the environment or anywhere else) in requests, User-Agent headers or files. If an API asks for contact details in the User-Agent, use a generic one such as 'EncyclopediaOfConnections-research/1.0' or skip that API."
   - "Don't read or cite unofficial copies of books that are still in copyright (e.g. handbook PDFs on mirror or file-sharing sites). Use publisher pages, official previews (Google Books, Internet Archive lending) or other sources, and cite a book by title, edition and page."
   - "firgelliauto.com mechanism pages are vendor explainers with no citations: don't use their numbers unless a second, reputable source agrees."
   - Mark anything you could not verify on an opened page with [uncertain] and list that field in the `uncertain` array.
