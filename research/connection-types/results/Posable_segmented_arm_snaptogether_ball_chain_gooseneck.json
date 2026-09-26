@@ -35,7 +35,7 @@
     "motion": "multiple: each joint swivels and tilts a limited amount (a few tens of degrees), and many joints add up to any curve, including turning back on itself (Alex Rich, hackaday.io); length changes by adding or removing segments",
     "degrees_of_freedom": "3 per joint (each ball-and-socket joint turns about three axes), so an arm of n joints has 3n in total; in practice it behaves like a bendable rod that can take any curve. A cable-locked arm has 0 when locked. A metal gooseneck bends in any direction but hardly twists.",
     "special_behaviour": [
-      "none: the basic arm has no clever action; it simply holds any shape by friction in every joint and stays there 'without any spring back' (Loc-Line)",
+      "none: the basic arm has no clever action; it simply holds any shape by friction in every joint and stays there 'without any spring back' (modularhose.com, a Loc-Line distributor)",
       "hand-release only (locks under load, releases when a person operates it): cable-locked arms go rigid when a knob pulls the cable tight and floppy when it is released (US6730020); locking-nut arms lock each joint separately (Alex Rich)"
     ],
     "holding_principle": [
@@ -49,7 +49,7 @@
     "reuse_cycles": "many times: can be re-shaped endlessly and taken apart and rebuilt; segments that are pulled apart and re-snapped often, or bent many times on a vibrating machine, loosen and should be replaced (AIMS)",
     "tools_needed": "none for small (1/4 in) segments and most printed ones; hose assembly pliers for 1/2 in and especially 3/4 in modular hose (AIMS; Loc-Line catalogue); a spanner for locking-nut joints",
     "seal": "loose: the tight ball-in-socket contact seals well enough to carry low-pressure coolant, air or vacuum (Loc-Line 1/4 in: 30-50 psi; 1/2 in: 20-30 psi; 3/4 in: 10-20 psi, Loc-Line catalogue); not for high pressure and may weep at joints [uncertain]. Spherical pipe joints for higher pressure add a gasket (Thang, 'Pipe movable connection 1', Part 3, p. 166).",
-    "load": "light: meant for nozzles, lamps, phones, magnifiers and small parts. A printed PLA helping-hands arm with twist-lock joints was 'at the edge of that limit' holding an 83.5 g magnifying glass, although ten joints hung in a chain could carry a drill in tension (Hackaday 2018); an original GorillaPod (brand) was rated for cameras up to 275 g (webBikeWorld); a fully printed phone arm of a different, screw-tightened design holds about 500 g (FunkyArt, Printables). The joint nearest the base carries the most bending, so longer arms hold less and sag or wobble more (Mountguys). Weak when pulled apart lengthwise: unlocked ball chains 'pop apart too easily' (Alex Rich).",
+    "load": "light: meant for nozzles, lamps, phones, magnifiers and small parts. A printed PLA helping-hands arm with twist-lock joints was 'at the edge of that limit' holding an 83.5 g magnifying glass, although ten joints hung in a chain could carry a drill in tension (Hackaday 2018); an original GorillaPod (brand) was rated for cameras up to 275 g (webBikeWorld); a fully printed phone arm of a different, screw-tightened design holds about 500 g (FunkyArt, Printables). Longer arms move and wobble more (Mountguys), and the joint nearest the base carries the most bending, so it slips first [uncertain]. Weak when pulled apart lengthwise: unlocked ball chains 'pop apart too easily' (Alex Rich).",
     "adjustable": "yes: re-shape by hand at any time; length adjusted by adding or removing segments ('fully hand adjustable in both position and length', Loc-Line); stiffness by choosing tighter or looser segments (Daniel Vitanza's 'light' and 'hard' printed versions) or by tightening locking nuts, which have several positions to take up wear (Alex Rich).",
     "play_and_precision": "noticeable: it is for rough aiming, not precise positioning. Maker claims differ: Loc-Line says it 'stays in position' and 'creep due to machine vibration is eliminated' (Loc-Line catalogue), while a distributor warns of drift and pop-off from vibration and repeated adjustment on high-cycle machines (AIMS). A heavy load at the end makes it sag slightly [uncertain].",
     "access_needed": "end of a tube or shaft: it attaches by its ends, screwing or snapping onto a base fitting at one end and a nozzle or holder at the other",
@@ -206,6 +206,7 @@
   },
   "uncertain": [
     "seal",
+    "load",
     "play_and_precision",
     "processes",
     "making_tips_3d_printing",
