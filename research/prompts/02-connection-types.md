@@ -52,7 +52,9 @@ Context for building the outline:
   transmissions · powered & active connectors · magnetic & friction connections ·
   adhesives & bonding (types by material and use) ·
   cord, strap & webbing hardware (cam buckles, ladder locks, cord locks) ·
-  interlocking joints (dovetail, puzzle, and a short list of woodwork/CNC joinery) ·
+  interlocking joints & joinery (dovetail, puzzle, finger, mortise and tenon, Japanese joints, and
+  joints for CNC, laser-cut sheet, woodwork and sheet metal: tab-and-slot, kerf bending, knock-down
+  fittings, lanced and folded tabs; in scope from day one but lowest priority) ·
   locating & alignment (kinematic couplings, elastic averaging, locators) ·
   springs & energy storage (constant-force, wave, ortho-planar, gas springs).
   Run 1's `research/prior-art/summary.md` section 2 lists the type names already found for

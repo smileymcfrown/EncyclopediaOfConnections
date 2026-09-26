@@ -439,6 +439,13 @@ also tie the project to non-commercial use, so prefer linking to them over copyi
   lock, side-release), cord locks, motorised locks and electric strikes, and solenoid latches
   as latches. No collection covers these as types, so they are the encyclopedia's clearest
   gap to fill. Run 2 will need outdoor-gear, sewing and access-control sources for them.
+- **Joinery scope changed after this run (R15, 2026-09-26):** CNC, laser-cut, woodwork and
+  sheet-metal joinery is now a full family (still lowest priority), not "a short list". The
+  joinery items here (Japanese joinery, Gros, WikiHouse, IBOIS, Boxes.py, HPI/Zheng) were rated
+  `scope_match` low to medium under the old brief, so read those ratings as higher. Not covered
+  by run 1: Western woodworking joint references (e.g. *The Joint Book*), sheet-metal joining
+  guides (lanced and folded tabs, clinching, self-clinching fasteners) and laser-cutting design
+  guides. A small top-up with `/research-add-items` would fill this.
 - **Adhesives for 3D-printing plastics** (PLA, PETG, resin) are only covered by maker guides
   (Prusa, CNC Kitchen), not by the industry references.
 - **No existing finder** chooses between mechanical connection types for beginners. The real

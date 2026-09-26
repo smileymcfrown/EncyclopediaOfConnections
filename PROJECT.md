@@ -1,4 +1,4 @@
-# Encyclopedia of Connections — Project Plan & Status
+# The Encyclopaedia of Connections (working title) — Project Plan & Status
 
 > This is the single source of truth for what the project is, what has been asked for,
 > what has been decided, and where things currently stand.
@@ -64,7 +64,7 @@ it helps, and fill in the gaps for beginners.
 1. **3D printing** (FDM/resin): snap fits, print-in-place, heat-set inserts, compliant mechanisms, etc.
 2. **Robotics & mechanisms**: bearings, shafts, gears, linkages, motor couplings, etc.
 3. **Everyday hardware**: clever off-the-shelf connectors (e.g. cam buckles, cord locks, quick-release pins), not standard fastener catalogues
-4. *(Later / lower priority)* CNC, laser cutting, woodworking joinery, sheet metal.
+4. CNC, laser cutting, woodworking joinery and sheet metal. In scope from day one, but the lowest priority (R15).
 
 ---
 
@@ -88,6 +88,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R12 | 2026-09-25 | **Scope:** include adhesives, as types for different materials and uses (cyanoacrylate vs PVA vs two-part epoxy vs contact adhesive …), not an exhaustive list of brands | Done: Scope, run 1 outline (4 adhesive items), run 2 prompt and prior-art fields updated |
 | R13 | 2026-09-26 | Add the two extra families suggested by run 1: locating & alignment, and springs / energy storage | Done: run 2 prompt family list updated |
 | R14 | 2026-09-26 | License the project's own content as CC BY-SA, as run 1 suggested | Decided (recorded below). Add a LICENSE file when content is published |
+| R15 | 2026-09-26 | **Scope:** CNC, laser-cut, woodworking and sheet-metal joinery are in scope from day one (they were never out, just lowest priority) | Done: Priorities, run 2 prompt updated. Run 1 covered these only partly (see decisions) |
+| R16 | 2026-09-26 | Working title is *The Encyclopaedia of Connections*; no final name or domain yet | Recorded |
 
 ---
 
@@ -102,6 +104,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Adhesive *types* are in scope, compared by material and use. Brand lists are out | Owner clarification (R12) |
 | 2026-09-26 | Families now include **locating & alignment** (kinematic couplings, elastic averaging, locators) and **springs / energy storage** | Suggested by run 1 (`research/prior-art/summary.md` 2.22-2.23), approved by owner (R13) |
 | 2026-09-26 | The project's own content will be licensed **CC BY-SA** (version to confirm when publishing; 4.0 matches Wikipedia) | Lets entries reuse Wikipedia text, most Wikimedia Commons media and WikiHouse material with credit. Non-commercial sources (gm0, DT Online, Gros, Wolfram demos) are linked, not copied (R14) |
+| 2026-09-26 | Joinery for CNC, laser cutting, woodwork and sheet metal is a full family from day one, still ranked last by making method | Owner clarification (R15). Run 1 covered Japanese and digital (CNC) wood joints, laser-cut joint research and Boxes.py, but not Western woodworking joint references or sheet-metal and laser-cut design guides; a small top-up of run 1 can fill that |
+| 2026-09-26 | Working title: *The Encyclopaedia of Connections* (British spelling). Repo, file names and other docs keep "Encyclopedia" for now | Owner (R16). Final name and domain still open |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
 | 2026-09-25 | Research recommends the final format (static site vs markdown, etc.) | Owner has no preference yet. A free static host is the working assumption |
 | 2026-09-25 | Priority order for making methods: 3D printing, then robotics/mechanisms, then everyday hardware | Owner preference |
@@ -150,8 +154,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 ---
 
 ## 6. Open questions
-- Should CNC / laser / woodworking joinery be in scope from day one, or added later? (For now: a short list of interlocking joints only)
-- Project name / domain for the published site?
+- Domain for the published site? (Working title: *The Encyclopaedia of Connections*; no final name or domain yet)
 
 ---
 
@@ -165,3 +168,4 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Owner confirmed powered connectors and gear trains/gearboxes are in scope. Updated Scope, prompts 01/02, and fields (`power`) |
 | 2026-09-25 | Ran run 1 (prior art). Outline of 54 collections with 34 fields (15 new fields merged into `research/fields/prior-art.fields.yaml`); owner added adhesive types to scope (R12). 27 research agents wrote and validated 54 JSON files; `report.md` generated (TOC shows resource_type, scope_match, reusable_data). `summary.md` covers the top 10 collections, a merged type list in 21 families plus 2 suggested ones, classification schemes and flow-chart ideas, and licensing. Environment note: network access had to be widened for the agents; github.com pages stay blocked (READMEs read via raw.githubusercontent.com), and some sites (Zhihu, Wayback Machine, Printables web, Xometry) could not be opened, so those facts are marked `[uncertain]` |
 | 2026-09-26 | Owner approved the two extra families (R13) and chose CC BY-SA for the project's content (R14). Updated decisions, run 2 prompt family list, summary.md and next action |
+| 2026-09-26 | Owner put CNC / laser / woodwork / sheet-metal joinery in scope from day one (R15) and set the working title (R16). Updated Priorities, open questions, decisions and the run 2 prompt |
