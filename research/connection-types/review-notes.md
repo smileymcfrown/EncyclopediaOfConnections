@@ -10,6 +10,10 @@ break validation; they are clean-ups for the report step or Phase 1.
   (*Over-centre linkage*, *Toggle clamp*, *Draw latch*, pp. 106–107 and 230–233). When
   publishing, cite the books by edition and page and drop these URLs (run 1's rule: don't link
   unauthorised copies). From batch 3 on, `research_rules` tells agents not to use such copies.
+- **Thang's mechanism index PDFs** are cited from copies on a Stanford course site
+  (`cs448m.github.io/lectures/machines/doc/*.pdf`). Thang gives them away free, but when
+  publishing prefer his own download link (run 1: DT Online's index page and the MediaFire
+  zip) or the individual YouTube videos.
 - **Printables models cited through the API**: printables.com model pages return 403 to the
   agents, so they read models through `https://api.printables.com/graphql/`. Where no page URL
   was confirmed, `make_it_yourself` entries point at the API URL with the model ID in the title
