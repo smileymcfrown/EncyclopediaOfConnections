@@ -5,6 +5,13 @@ Research uses the **deep-research skills** copied into this repo from
 `.claude/skills/research/VENDORED.md`). They're part of the repo, so any Claude Code session on
 this repo has them. Nothing needs installing.
 
+## How to use these files
+
+Each prompt file has two parts:
+- **"For you"**: when to run it, the steps, and what to expect. Don't paste this part.
+- **"The prompt"**: the text inside the box. Copy all of it and paste it as the first
+  message of a new Claude Code session on this repo.
+
 ## How the skills work
 
 | Command | What it does |

@@ -1,0 +1,115 @@
+# Starting field definitions for the prior-art research (existing encyclopedias, wikis,
+# databases, repos, books and guides that catalogue connections and mechanisms).
+# When /research asks "do you have an existing field definition file?", point it here.
+# Same format rules as connection-types.fields.yaml.
+
+fields:
+  basics:
+    - name: name
+      description: Name of the resource
+      detail_level: brief
+    - name: url
+      description: Main URL (opened and checked, never guessed)
+      detail_level: brief
+    - name: resource_type
+      description: "encyclopedia/wiki / digital library / GitHub repo or dataset / CAD library / book / classification system / PDF design guide / video channel / interactive tool / model library / forum"
+      detail_level: brief
+    - name: cost
+      description: Free / free with account / paid (with rough price)
+      detail_level: brief
+    - name: license
+      description: License of its text and images (e.g. CC BY-SA, public domain, all rights reserved), and what that means for linking or reusing images
+      detail_level: brief
+    - name: language
+      description: Main language(s) of the content (e.g. English, German, Spanish, Chinese)
+      detail_level: brief
+    - name: year
+      description: Year first published, and year of the latest edition or update
+      detail_level: brief
+    - name: access_barrier
+      description: "What stands between a reader and the content: none / free login / membership / paywall / desktop install / academic licence"
+      detail_level: brief
+    - name: image_license
+      description: License of its images, animations and videos, if different from the text (e.g. Commons CC BY-SA, public domain scans, all rights reserved)
+      detail_level: brief
+    - name: authority_level
+      description: "Who is behind it: official standard / manufacturer / academic peer-reviewed / educator / community or unvetted"
+      detail_level: brief
+
+  coverage:
+    - name: covers
+      description: Which kinds of connections/mechanisms it covers, and roughly how many entries
+      detail_level: moderate
+    - name: organisation
+      description: How it's organised (alphabetical, by function, by motion, by process, decision tree, search …) and how well that works for someone who doesn't know the terms
+      detail_level: moderate
+    - name: scope_match
+      description: "How well it matches the project's scope (unusual/clever connection and mechanism TYPES, not standard hardware catalogues): high / medium / low, with a reason"
+      detail_level: brief
+    - name: taxonomy_used
+      description: The classification scheme it uses (e.g. Reuleaux's, by function, by motion conversion, by joint type) and how many top-level groups it has
+      detail_level: moderate
+    - name: example_types
+      description: 10-20 example connection/mechanism type names it covers that fit the project's scope, especially unusual ones
+      detail_level: moderate
+    - name: making_methods
+      description: Which making methods it's aimed at (3D printing, CNC, robotics, general engineering, woodwork …)
+      detail_level: brief
+    - name: item_count
+      description: Approximate number of entries, models or mechanisms (e.g. 507, about 2,100, 2,346 objects)
+      detail_level: brief
+    - name: special_behaviours_covered
+      description: "Which of the project's special behaviours and in-scope families it covers: torque-limiting, self-locking, hand-release only, one-way/ratchet, indexing/detent, over-centre, compliant, print-in-place, gear trains/gearboxes, powered connectors (electromagnets, solenoid latches, motorised locks), and adhesive types (which chemistries, for which materials and uses)"
+      detail_level: moderate
+    - name: entry_structure
+      description: What a typical entry contains (name, figure, animation, description, degrees of freedom, design rules, CAD file, how-to)
+      detail_level: brief
+    - name: audience_level
+      description: "Who it's written for: school / hobbyist / competition robotics / undergraduate / professional / research"
+      detail_level: brief
+
+  usefulness:
+    - name: beginner_friendliness
+      description: "low / medium / high, with a reason: jargon level, explanations, examples"
+      detail_level: brief
+    - name: has_images
+      description: Whether it has photos or diagrams (yes/no, and their quality)
+      detail_level: brief
+    - name: has_animations
+      description: Whether it has animations, video or interactive models (yes/no, and what kind)
+      detail_level: brief
+    - name: gaps
+      description: What it lacks for a beginner maker trying to find the right connection
+      detail_level: moderate
+    - name: good_for_entry_links
+      description: Whether individual pages are good to link from single encyclopedia entries (stable per-item URLs?), with an example URL
+      detail_level: brief
+    - name: reusable_data
+      description: "Whether its list or data can be built on: structured/exportable (API, dataset, repo, wiki category tree), scrape-only, or not reusable. Include the license terms for reusing the list itself"
+      detail_level: brief
+    - name: maintained
+      description: Whether it's still maintained or online (last update, archived or dead links, Wayback Machine copies)
+      detail_level: brief
+    - name: ideas_to_borrow
+      description: Presentation or organisation ideas worth copying for the encyclopedia and its flow chart
+      detail_level: moderate
+    - name: design_rules_given
+      description: Whether it gives numbers (clearances, strain limits, fits, torque) and for which types
+      detail_level: brief
+    - name: generator_or_parametric
+      description: Whether it generates custom geometry (OpenSCAD/CadQuery modules, web generators, parametric models)
+      detail_level: brief
+    - name: file_formats
+      description: Formats it offers (STL, STEP, SCAD, SVG/DXF, JSON/URDF, video, GIF, PDF)
+      detail_level: brief
+    - name: terminology_value
+      description: Whether it is a good authority for proper names, aliases and translations of mechanism terms
+      detail_level: brief
+    - name: decision_support
+      description: Whether it has selector logic, a flow chart, filters or comparison tables, and how they work
+      detail_level: moderate
+    - name: derived_from_or_overlaps
+      description: Upstream source it copies or builds on, and major overlaps with other items (to avoid double counting and to find the original to cite)
+      detail_level: brief
+
+uncertain: []
