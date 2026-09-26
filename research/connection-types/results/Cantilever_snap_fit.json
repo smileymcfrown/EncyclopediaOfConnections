@@ -7,7 +7,7 @@
       "clip, plastic clip, latch tab, catch",
       "snap arm, snap finger, snap lug, cantilever lug (DuPont term)",
       "U-shaped snap fit: the arm is folded back on itself for more flex in a small space (Covestro; HP)",
-      "L-shaped snap fit: a slot at the arm's root makes it longer and more flexible (HP MJF handbook; BASF manual)",
+      "L-shaped snap fit: a slot at the arm's root makes it longer and more flexible (HP MJF handbook)",
       "discontinuous (slotted or segmented) annular snap: a ring split into fingers, designed as cantilevers (Covestro)",
       "separable (releasable) snap fit vs inseparable (permanent) snap fit",
       "clip-on / clip-off feature, push-fit clip"
@@ -21,8 +21,7 @@
     ],
     "one_liner": "A flexible arm made as part of one part, with a hook at its tip that bends aside as the parts are pushed together and springs back behind a ledge (undercut) on the other part, locking them together without screws or glue.",
     "complexity": "Single piece on each side: a springy arm (the beam) with a hook at its tip (the overhang, with a sloped lead-in face and a retaining face) moulded or printed on one part, and a ledge, hole or slot (the undercut) on the other; usually paired with rigid locating lugs or pins that line the parts up and carry sideways loads (Covestro Fig. 2; Hubs).",
-    "how_it_works": "As you push the parts together, the sloped front face of the hook (lead angle) rides over the edge of the other part and bends the arm sideways by the depth of the hook (the undercut). Once the hook passes the edge, the arm springs back straight and the back face of the hook (return angle) catches behind the ledge; after joining, the arm should be back in a stress-free state (Covestro p. 3). How hard it is to push together depends on the arm's stiffness, the hook depth and the lead angle; whether it can be pulled apart again depends on the return angle: a 90° back face 'can never be disassembled' by pulling, while one as sloped as the lead face needs the same force in both directions (HP MJF handbook). U- and L-shaped arms work the same way but fold the arm back or slot it at the root, making it longer and more flexible in a small space (HP MJF handbook).",
-    "wikipedia_note_placeholder": null
+    "how_it_works": "As you push the parts together, the sloped front face of the hook (lead angle) rides over the edge of the other part and bends the arm sideways by the depth of the hook (the undercut). Once the hook passes the edge, the arm springs back straight and the back face of the hook (return angle) catches behind the ledge; after joining, the arm should be back in a stress-free state (Covestro p. 3). How hard it is to push together depends on the arm's stiffness, the hook depth and the lead angle; whether it can be pulled apart again depends on the return angle: a 90° back face 'can never be disassembled' by pulling, while one as sloped as the lead face needs the same force in both directions (HP MJF handbook). U- and L-shaped arms work the same way but fold the arm back or slot it at the root, making it longer and more flexible in a small space (HP MJF handbook)."
   },
   "finder_attributes": {
     "job": [
@@ -83,7 +82,7 @@
       "The battery cover on a TV remote or toy, which clicks shut with a springy tab (Wikipedia 'Snap-fit'; HP MJF handbook, for U-shaped arms on battery lids)",
       "Plastic housings of chargers, lamps and electronics that click together with no screws, including 3D-printed Raspberry Pi cases (Covestro; Formlabs; Printables 'Malolo's screw-less / snap fit Raspberry Pi case')",
       "Plastic buckles on backpacks and bags (Formlabs), which use two cantilever snaps (see the separate side-release buckle entry)",
-      "Car dashboard and control-panel modules held in their openings by four hooks (Covestro Fig. 1) [uncertain for cars specifically]"
+      "Control-panel modules held in their openings by four hooks yet still removable, and traffic-light housings whose parts all snap together (Covestro Figs. 1 and 7)"
     ],
     "when_to_use": "Use a cantilever snap fit whenever you want two plastic parts to click together quickly without screws, glue or extra parts: lids, covers, battery doors, enclosures, cases, clips and toy kits. It is the most common and most flexible type of snap fit (Wikipedia; HP): it works on any shape, can be made permanent or releasable, needs only a push to assemble, and costs nothing extra in a 3D print. Choose U- or L-shaped arms when there isn't room for a long straight arm or when parts must be pulled apart often (HP).",
     "when_not_to_use": "Avoid it when the joint must carry high or continuous loads (use screws into heat-set inserts or a bolted joint), when it must seal (use a gasket, O-ring or annular snap on a round part), when it will be opened hundreds of times in a brittle material such as PLA or standard resin (use screws, magnets or a purpose-made latch), in parts that get hot (PLA in a car), or when the arm would have to stay bent in service, because plastics creep and the grip fades. For round lids and caps an annular snap fit is usually stronger and neater; for frequent quick opening a torsional snap fit, magnet joint or latch may suit better.",
@@ -192,18 +191,12 @@
       "https://formlabs.com/blog/designing-3d-printed-snap-fit-enclosures/",
       "https://aarontyleranderson.com/wp-content/uploads/2022/02/SnapFit_Quick_Guide.pdf",
       "https://www.machinedesign.com/fastening-joining/article/21834620/fundamentals-of-annular-snap-fit-joints",
-      "https://hackaday.com/2022/11/11/oh-snap-3d-printing-snapping-parts-without-breakage/",
       "https://hackaday.com/2022/03/14/3d-printing-snap-fit-joints/",
-      "https://hackaday.com/2015/06/03/some-snap-fits-for-thought/",
-      "https://www.youtube.com/watch?v=-jgbd8RUhhY",
       "https://www.youtube.com/watch?v=9wTnYj_vOvY",
-      "https://www.youtube.com/watch?v=rsfZgT3ZEI8",
       "https://commons.wikimedia.org/wiki/Category:Snap-fit",
       "https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif",
       "https://commons.wikimedia.org/wiki/File:Snapfit_principle.svg",
       "https://commons.wikimedia.org/wiki/File:Snapfit_principe_reversibilite.svg",
-      "https://www.dsource.in/course/designing-plastic-products-injection-moulding/assembly-techniques-plastics/snap-fits",
-      "https://api.semanticscholar.org/graph/v1/paper/be0a33e9890b718042067d24d79862da3b36f888?fields=title,abstract,authors,year,venue,openAccessPdf,externalIds",
       "https://www.cnckitchen.com/blog/stop-printing-flat-the-45-secret-for-stronger-parts",
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "http://thrinter.com/creep-abs-pla-petg-alloy-910/",
@@ -223,7 +216,6 @@
     "processes",
     "making_tips_3d_printing",
     "off_the_shelf_parts",
-    "everyday_examples",
     "environment_limits",
     "safety_notes"
   ]
