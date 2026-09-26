@@ -52,7 +52,11 @@ Context for building the outline:
   transmissions · powered & active connectors · magnetic & friction connections ·
   adhesives & bonding (types by material and use) ·
   cord, strap & webbing hardware (cam buckles, ladder locks, cord locks) ·
-  interlocking joints (dovetail, puzzle, and a short list of woodwork/CNC joinery).
+  interlocking joints (dovetail, puzzle, and a short list of woodwork/CNC joinery) ·
+  locating & alignment (kinematic couplings, elastic averaging, locators) ·
+  springs & energy storage (constant-force, wave, ortho-planar, gas springs).
+  Run 1's `research/prior-art/summary.md` section 2 lists the type names already found for
+  each family: start from it.
 - **Order the items list by priority**: unusual types that can be 3D printed or are useful in
   robotics come first, then other unusual types, then the generic baseline entries. That way the
   first batches of `/research-deep` cover what matters most.

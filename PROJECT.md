@@ -4,9 +4,9 @@
 > what has been decided, and where things currently stand.
 > **Every working session should read this first and update it before finishing.**
 
-**Last updated:** 2026-09-25
+**Last updated:** 2026-09-26
 **Current phase:** Phase 0 — Research (run 1 done; run 2 next)
-**Next action:** Owner reviews `research/prior-art/summary.md` (especially the type list in section 2 and the two suggested extra families), then run `research/prompts/02-connection-types.md`, starting from that list
+**Next action:** Run `research/prompts/02-connection-types.md`, starting from the type list in `research/prior-art/summary.md` section 2 (all 23 families, including the two added in R13)
 
 ---
 
@@ -86,6 +86,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R11 | 2026-09-25 | **Scope:** include powered connectors, and gear trains, gearboxes and similar transmissions | Done: Scope, prompts and fields updated (`power` field) |
 | R10 | 2026-09-25 | **Scope:** focus on unusual/clever connection and mechanism *types* (e.g. torque limiting, hand-release-only locking), from simple connections to semi-complex mechanisms that act as one unit. Not standard hardware catalogues | Done: Scope section added. Prompts and fields updated (`special_behaviour`, `complexity`) |
 | R12 | 2026-09-25 | **Scope:** include adhesives, as types for different materials and uses (cyanoacrylate vs PVA vs two-part epoxy vs contact adhesive …), not an exhaustive list of brands | Done: Scope, run 1 outline (4 adhesive items), run 2 prompt and prior-art fields updated |
+| R13 | 2026-09-26 | Add the two extra families suggested by run 1: locating & alignment, and springs / energy storage | Done: run 2 prompt family list updated |
+| R14 | 2026-09-26 | License the project's own content as CC BY-SA, as run 1 suggested | Decided (recorded below). Add a LICENSE file when content is published |
 
 ---
 
@@ -98,6 +100,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family | Owner clarification (R10) |
 | 2026-09-25 | Powered/active connectors and gear trains/gearboxes/transmissions are in scope (as types). Added a `power` finder field (passive / powered) | Owner clarification (R11) |
 | 2026-09-25 | Adhesive *types* are in scope, compared by material and use. Brand lists are out | Owner clarification (R12) |
+| 2026-09-26 | Families now include **locating & alignment** (kinematic couplings, elastic averaging, locators) and **springs / energy storage** | Suggested by run 1 (`research/prior-art/summary.md` 2.22-2.23), approved by owner (R13) |
+| 2026-09-26 | The project's own content will be licensed **CC BY-SA** (version to confirm when publishing; 4.0 matches Wikipedia) | Lets entries reuse Wikipedia text, most Wikimedia Commons media and WikiHouse material with credit. Non-commercial sources (gm0, DT Online, Gros, Wolfram demos) are linked, not copied (R14) |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
 | 2026-09-25 | Research recommends the final format (static site vs markdown, etc.) | Owner has no preference yet. A free static host is the working assumption |
 | 2026-09-25 | Priority order for making methods: 3D printing, then robotics/mechanisms, then everyday hardware | Owner preference |
@@ -148,8 +152,6 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 ## 6. Open questions
 - Should CNC / laser / woodworking joinery be in scope from day one, or added later? (For now: a short list of interlocking joints only)
 - Project name / domain for the published site?
-- License for the project's own content (e.g. CC BY-SA)? Run 1 found that the main reusable sources (Wikipedia, most of Wikimedia Commons, WikiHouse) are CC BY-SA, so CC BY-SA is the simplest fit. See `research/prior-art/summary.md` section 4
-- Add the two families run 1 suggested (locating & alignment; springs / energy storage), or fold them into others?
 
 ---
 
@@ -162,3 +164,4 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Owner set priority (prior art first) and scope (unusual/clever types that act as one unit, not standard hardware). Run 1 became `01-prior-art.md`. Run 2 and the field lists were refocused, adding `special_behaviour` and `complexity` |
 | 2026-09-25 | Owner confirmed powered connectors and gear trains/gearboxes are in scope. Updated Scope, prompts 01/02, and fields (`power`) |
 | 2026-09-25 | Ran run 1 (prior art). Outline of 54 collections with 34 fields (15 new fields merged into `research/fields/prior-art.fields.yaml`); owner added adhesive types to scope (R12). 27 research agents wrote and validated 54 JSON files; `report.md` generated (TOC shows resource_type, scope_match, reusable_data). `summary.md` covers the top 10 collections, a merged type list in 21 families plus 2 suggested ones, classification schemes and flow-chart ideas, and licensing. Environment note: network access had to be widened for the agents; github.com pages stay blocked (READMEs read via raw.githubusercontent.com), and some sites (Zhihu, Wayback Machine, Printables web, Xometry) could not be opened, so those facts are marked `[uncertain]` |
+| 2026-09-26 | Owner approved the two extra families (R13) and chose CC BY-SA for the project's content (R14). Updated decisions, run 2 prompt family list, summary.md and next action |

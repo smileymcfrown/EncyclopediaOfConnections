@@ -59,7 +59,7 @@ the Functional Basis repository (its web interface is gone, though the vocabular
 
 Every connection or mechanism *type* named across the 54 collections that fits the Scope,
 de-duplicated and grouped into the families from `research/prompts/02-connection-types.md`
-(plus two families the research suggested: locating/alignment and springs/energy storage).
+(plus two families the research suggested and the owner approved: locating/alignment and springs/energy storage).
 Names are given as **proper term (aliases)**; run 2 adds the plain-English description for
 each. "Found in" names the main sources per family, so run 2 knows where to look first.
 Items marked † were only found in one source or only in older books, so check the name.
@@ -298,17 +298,17 @@ one baseline line per family, as the Scope asks.
 - Joint shapes for glued joints: butt, lap, scarf, single and double strap
 - Found in: Henkel/Loctite, 3M, Permabond guides; ASC and the ASC-CATIA-FEICA classification manual; Wikipedia ("Adhesive", "List of glues"); thisTOthat; RoyMech; Prusa; CNC Kitchen; Woodcraft and Rockler glue guides; DT Online; Slocum; McMaster-Carr
 
-### 2.22 Suggested extra family: locates parts exactly (locating & alignment)
+### 2.22 Locates parts exactly (locating & alignment) — added by the owner, R13
 - Kinematic coupling (three-groove), quasi-kinematic coupling, kinematic mount
 - Elastic averaging (many small compliant features averaging out errors)
 - Exact-constraint design; nesting force (what holds a part against its locating points)
 - Locating features: dowel pin, locating lug and tab, cone, V-guide, jig pin
 - Found in: Slocum, Blanding's *Exact Constraint*, Hopkins' FACT, BYU, Bonenberger (locators), Functional Basis ("guide", "position")
 
-### 2.23 Suggested extra family: stores energy (springs as parts of mechanisms)
+### 2.23 Stores energy (springs & energy storage) — added by the owner, R13
 - Constant-force spring; ortho-planar spring; wave spring; torsion spring; leaf spring; gas spring; volute and disc springs
 - Moulded-in plastic springs (on ratchet wheels, snap arms)
-- Found in: Slocum, BYU, Hiscox, McMaster-Carr, DuPont, RoyMech. Probably better as a sub-part of other entries than a family of its own
+- Found in: Slocum, BYU, Hiscox, McMaster-Carr, DuPont, RoyMech
 
 ### Types that are in the collections but outside the Scope
 Whole machines (walking robots, drivetrains with wheel counts, suspensions, pinsetters,
@@ -426,9 +426,9 @@ glue suits which material, and classification ideas can be restated in our own w
 citation, whatever the source's licence. What we must not do is copy the wording, tables or
 pictures.
 
-**Implication for the project licence (an open question in `PROJECT.md`):** if the encyclopedia
-uses CC BY-SA material (Wikipedia, most of Commons, WikiHouse), CC BY-SA for our own content is
-the simplest fit. Using the non-commercial sources (gm0, DT Online, Gros, Wolfram demos) would
+**Project licence (decided 2026-09-26: CC BY-SA, R14):** since the encyclopedia will
+use CC BY-SA material (Wikipedia, most of Commons, WikiHouse), CC BY-SA for our own content is
+the right fit. Using the non-commercial sources (gm0, DT Online, Gros, Wolfram demos) would
 also tie the project to non-commercial use, so prefer linking to them over copying.
 
 ---
