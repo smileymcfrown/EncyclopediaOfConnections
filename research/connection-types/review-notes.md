@@ -17,6 +17,9 @@ break validation; they are clean-ups for the report step or Phase 1.
 - **Paper read from a course-site copy**: Pratt & Williamson, *Series Elastic Actuators* (IROS
   1995) was read from fab.cba.mit.edu (*Series-elastic coupling*). Cite it by DOI
   10.1109/IROS.1995.525827 when publishing.
+- **Parker O-Ring Handbook (ORD 5700A)** was read from a University of Arizona course-site copy
+  (*O-ring seal*). It is a free manufacturer handbook, but cite it by name and edition (or
+  parker.com) when publishing.
 - **Printables models cited through the API**: printables.com model pages return 403 to the
   agents, so they read models through `https://api.printables.com/graphql/`. Where no page URL
   was confirmed, `make_it_yourself` entries point at the API URL with the model ID in the title
