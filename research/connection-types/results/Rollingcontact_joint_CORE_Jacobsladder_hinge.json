@@ -149,14 +149,14 @@
         "license": "CC BY-NC"
       },
       {
-        "url": "https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints (URL from Printables API, page not opened)",
-        "title": "Roll gelenk / rolling contact joints (Studi_Ha, Printables)",
+        "url": "https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints",
+        "title": "Roll gelenk / rolling contact joints (Studi_Ha, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Simplified knee-like rolling-contact joint from stacked PETG layers with thin integral bands and press-in axles; assembly steps explain how the bands wrap the radii; STEP files included (description in German)",
         "license": "CC BY"
       },
       {
-        "url": "https://www.printables.com/model/510296-jacobs-ladder-toy-print-in-place-model (URL from Printables API, page not opened)",
-        "title": "Jacobs Ladder Toy (Print-in-Place Model) (MeasureOnce, Printables)",
+        "url": "https://www.printables.com/model/510296-jacobs-ladder-toy-print-in-place-model",
+        "title": "Jacobs Ladder Toy (Print-in-Place Model) (MeasureOnce, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Print-in-place Jacob's ladder toy with 0.4 mm joint clearance (do not scale); imitates the toy's flipping action, but whether it uses true rolling contact or printed pin joints is not stated [uncertain]",
         "license": "CC BY-NC"
       },
@@ -170,8 +170,6 @@
     "diagram_idea": "Side view of two round-ended blocks touching at one point with two crossed straps drawn in contrasting colours (one wrapping over the top of the left block and under the right, the other the reverse), shown in three frames as the right block rolls around the left, with a dot marking how the contact point (the moving pivot) travels.",
     "sources": [
       "https://www.nature.com/articles/s41467-018-07073-5",
-      "https://www.pnas.org/doi/10.1073/pnas.2521406123",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12890850/",
       "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12890850/fullTextXML",
       "http://www.its.caltech.edu/~sslab/PUBLICATIONS/Tape-spring%20rolling%20hinges%202002.pdf",
       "https://www.printables.com/model/598201-developable-compliant-rolling-contact-element-d-co",
