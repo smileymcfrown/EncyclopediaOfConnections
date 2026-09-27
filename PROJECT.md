@@ -155,7 +155,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
 | 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25; joinery top-up 2026-09-26. 60 of 60 items researched and validated (34 fields each) |
-| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | In progress: 144 of 274 items researched and validated; **tier 1 (items 1-142) complete**; batch 9 running. Interim report: `research/connection-types/report.md` (index) + `report/` (one page per family) |
+| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | In progress: 159 of 274 items researched and validated; **tier 1 (items 1-142) complete**; tier 2 running (the usage limit has interrupted the run four times so far; each time the cut-off agents were relaunched). Interim report: `research/connection-types/report.md` (index) + `report/` (one page per family) |
 | 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
 
 ---
