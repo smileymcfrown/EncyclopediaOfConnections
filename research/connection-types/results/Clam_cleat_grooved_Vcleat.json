@@ -9,7 +9,7 @@
       "grooved cleat",
       "rope cleat",
       "Kammklemme (German)",
-      "Line-Lok and Loop cleat (Clamcleat brands: in-line versions for tensioning guy lines)",
+      "Loop cleat and Line-Lok (Clamcleat brands: versions for tensioning guy lines; Line-Lok seen only in search results)",
       "fender cleat (in-line version for fender lines)",
       "Jiffy Tie (Clamcleat brand: a small tie for light loads)"
     ],
@@ -80,7 +80,7 @@
   "guidance": {
     "everyday_examples": [
       "Sailing dinghies and yachts: small control lines and halyards held in black nylon or aluminium clam cleats (Ronstan; Wikimedia Commons photo)",
-      "Sunshades, awnings, tents and marquees: guy lines tensioned with clam-type cleats ('one use is for tensioning sunshades', Premium Ropes; Clamcleat Loop and Line-Lok tensioners, Mastrant)",
+      "Sunshades, awnings, tents and antenna masts: guy lines tensioned with clam-type cleats ('one use is for tensioning sunshades', Premium Ropes; Mastrant, which makes guying rope for antenna masts, sells Clamcleat tensioners)",
       "Boat fender lines held in an in-line fender cleat (McSail's Printables fender cleat)",
       "Light-pull cords: the first Clamcleat grew out of a 1963 idea for attaching a knob to a light pull-cord (Rope44)"
     ],
@@ -184,6 +184,7 @@
     "play_and_precision",
     "processes",
     "making_tips_3d_printing",
+    "off_the_shelf_parts",
     "safety_notes",
     "links"
   ]
