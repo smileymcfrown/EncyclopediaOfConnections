@@ -74,3 +74,4 @@ break validation; they are clean-ups for the report step or Phase 1.
   but it works differently (a sleeve twisted shut, no blades).
 - **Twisted-and-coiled polymer muscles** (heat-driven fishing-line actuators): listed under
   *Twisted-string actuator* → `related`; could be its own powered-connector item.
+- **Bernoulli (non-contact) gripper**: listed under *Vacuum (suction) gripper* → `related`; a distinct powered gripper type.
