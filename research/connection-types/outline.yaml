@@ -48,7 +48,7 @@ items:
   # 8
   - name: Linear ratchet (cable-tie ratchet)
     category: one-way & ratchet
-    description: A toothed strip and a catch that let it slide one way only, as in a cable tie, a quick-release bar clamp or a ratchet strap
+    description: A toothed strip and a catch that let it slide one way only, as in a cable tie or the ladder strap on a snowboard binding (ratchet tie-down straps use a rotary ratchet, and most quick-grip clamps use a binding plate instead)
   # 9
   - name: Face ratchet (star ratchet, face-engagement ratchet)
     category: one-way & ratchet
@@ -494,7 +494,7 @@ items:
   # 117
   - name: Constant-force spring (spring-return reel)
     category: springs & energy storage
-    description: A tightly curled steel strip that pulls with nearly the same force however far it is unrolled, used in tape measures, badge reels and counterweights
+    description: A tightly curled steel strip that pulls with nearly the same force however far it is unrolled, used in sash-window counterbalances, motor brush holders and cable or hose retractors (tape measures and badge reels mostly use spiral power springs instead)
   # 118
   - name: Ortho-planar spring
     category: springs & energy storage

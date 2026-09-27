@@ -32,6 +32,9 @@ break validation; they are clean-ups for the report step or Phase 1.
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.
 
 ## Content corrections found by the agents
+- *Constant-force spring*: tape measures, dog leads, seat belts and badge reels use spiral **power**
+  springs (Lee Spring), not constant-force springs. Outline description corrected 2026-09-27;
+  the *Linear ratchet* description was corrected at the same time.
 - *Planetary gear set*: HowToMechatronics states "20 N at 10 cm = 200 Nm"; it is 2 N·m
   (200 N·cm). The entry uses the corrected value.
 - **WebFetch summaries can invent numbers** (found in batch 6: the summary of the Roozing cycloidal
