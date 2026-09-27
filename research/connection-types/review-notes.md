@@ -32,6 +32,16 @@ break validation; they are clean-ups for the report step or Phase 1.
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.
 
 ## Content corrections found by the agents
+- **WebFetch summaries can invent numbers** (found in batch 6: the summary of the Roozing cycloidal
+  paper gave a wrong ratio and made-up figures; the agent used the PDF text instead). From batch 7
+  on, `research_rules` requires checking numbers against raw page text. Before publishing,
+  spot-check the `rules_of_thumb` numbers in batches 1-6 (items 1-108) against their sources.
+- *Compound planetary gearbox*: output direction conflict: the COMPAct formula says the output
+  turns the same way as the motor when the output ring has more teeth; the CoolEpicyclicGearing
+  README says the opposite. Flagged in `input_output`.
+- Conflicting figures recorded side by side (check which to lead with): cycloidal efficiency
+  (Wikipedia 93% vs KHK 98%), helix angle ranges (RoyMech 6-20°, others 15-45°), helical
+  efficiency (KHK 98-99.5% vs 90-99.5%), Oldham misalignment angle (0.5° vs 3-5°).
 - *Series-elastic coupling*: the OpenSEA paper's spring table doesn't add up (0.015 N·m/° ×
   ±20° = 0.3 N·m, not the ±3 N·m it states). The entry quotes ±3 N·m in `load` only; check it.
 - *Ball-detent torque limiter* quotes Firgelli's detent formula (release force = spring force
