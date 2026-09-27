@@ -32,6 +32,8 @@ break validation; they are clean-ups for the report step or Phase 1.
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.
 
 ## Content corrections found by the agents
+- *Planetary gear set*: HowToMechatronics states "20 N at 10 cm = 200 Nm"; it is 2 N·m
+  (200 N·cm). The entry uses the corrected value.
 - **WebFetch summaries can invent numbers** (found in batch 6: the summary of the Roozing cycloidal
   paper gave a wrong ratio and made-up figures; the agent used the PDF text instead). From batch 7
   on, `research_rules` requires checking numbers against raw page text. Before publishing,
@@ -67,3 +69,5 @@ break validation; they are clean-ups for the report step or Phase 1.
 ## Possible extra items (suggested by agents; add with `/research-add-items` if wanted)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
   but it works differently (a sleeve twisted shut, no blades).
+- **Twisted-and-coiled polymer muscles** (heat-driven fishing-line actuators): listed under
+  *Twisted-string actuator* → `related`; could be its own powered-connector item.
