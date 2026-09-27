@@ -174,7 +174,6 @@
   "uncertain": [
     "aliases",
     "processes",
-    "off_the_shelf_parts",
-    "make_it_yourself"
+    "off_the_shelf_parts"
   ]
 }
