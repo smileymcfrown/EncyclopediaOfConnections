@@ -105,7 +105,8 @@
    "Dog clutch (claw clutch): its sliding ring runs on a spline or hex section",
    "Keyless locking bush (taper-lock bush): clamps a hub to a plain round shaft with no teeth, play-free, but does not slide",
    "Lobed (polygon) shaft and hub, or an interference fit: other ways to lock a hub without keys (Slocum)",
-   "Telescoping tube with a slot and pin or a square tube: simpler non-round sliding joints for slow, light drives"
+   "Telescoping tube with a slot and pin or a square tube: simpler non-round sliding joints for slow, light drives",
+   "LEGO Technic (brand) driving ring on a ridged axle joiner: a toy-scale sliding spline that slides along to engage or disengage functions (Technicopedia)"
   ]
  },
  "media": {
@@ -194,7 +195,6 @@
   "diagram_idea": "A cut-away of a splined shaft and hub: first an end view showing the teeth locked in the grooves with arrows showing turning force passing across the tooth sides, then a side view with the hub sliding along the shaft, followed by small end-view thumbnails comparing a straight-sided spline, an involute spline, a hex shaft and a LEGO cross axle.",
   "sources": [
    "https://en.wikipedia.org/wiki/Spline_(mechanical)",
-   "https://en.wikipedia.org/wiki/Lego_Technic",
    "https://commons.wikimedia.org/wiki/Category:Spline_shafts",
    "https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif",
    "https://commons.wikimedia.org/wiki/File:Zahnwelle.jpg",
@@ -219,7 +219,6 @@
    "https://help.prusa3d.com/article/pla_2062",
    "https://help.prusa3d.com/article/petg_2059",
    "https://medesign.seas.upenn.edu/uploads/Courses/TECHNIC_101.pdf",
-   "https://brickset.com/article/42357/a-history-of-technic-axles-(1)",
    "https://www.technicopedia.com/fundamentals.html",
    "https://forums.ldraw.org/thread-28663.html",
    "https://www.pololu.com/product/1011",
