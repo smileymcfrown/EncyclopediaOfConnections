@@ -60,7 +60,7 @@
       "A good tumbler must block when lifted too far as well as too little (double-acting detainer, Barron 1778; Wikipedia, Lever tumbler lock, https://en.wikipedia.org/wiki/Lever_tumbler_lock). Early single-pin locks could be opened by lifting everything high.",
       "UK insurers usually ask for a five-lever mortice lock to BS 3621 on wooden outside doors; BS 3621:2007 requires a 20 mm bolt throw (Wikipedia, Lever tumbler lock).",
       "Lubricate locks sparingly with a PTFE lock lubricant every 3-6 months (every 3 months in dusty or corrosive places) and never with dry graphite or silicone (Master Lock care guide, https://www.masterlock.com/cms/locker/care).",
-      "For printed locks, weak springs work best: 0.25 N/mm, 4 mm OD, 20 mm free length pen-type springs worked in Rocco's printed pin-tumbler vault, while stronger ones made the key hard to insert (https://www.printables.com/model/820936-vault-with-pin-tumbler-lock, read via the Printables API).",
+      "For printed locks, weak springs work best: 0.25 N/mm, 4 mm OD, 20 mm free length pen-type springs worked in Rocco's printed pin-tumbler vault, while stronger ones made the key hard to insert (https://www.printables.com/model/820936-vault-with-pin-tumbler-lock, URL from Printables API, page not opened; details read via the API).",
       "Start with at least 0.3 mm clearance for printed parts that must move (Prusa, https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135)."
     ]
   },
