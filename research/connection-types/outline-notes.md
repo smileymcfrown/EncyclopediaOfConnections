@@ -1,6 +1,6 @@
 # Run 2 outline: how it was built
 
-**Date:** 2026-09-26 · **Files:** `outline.yaml` (274 items, 25 families), `fields.yaml`
+**Date:** 2026-09-26, items 275-299 added 2026-09-29 · **Files:** `outline.yaml` (299 items, 25 families), `fields.yaml`
 (41 fields), `preferred-sources.md` (run 1's collections for the research agents)
 
 ## Steps
@@ -21,6 +21,7 @@
 | 1 | 1-142 | Unusual types that can be 3D printed or are useful in robotics |
 | 2 | 143-256 | Other unusual types; joinery (wood, sheet, panels) last |
 | 3 | 257-274 | One generic baseline entry per family |
+| added | 275-299 | Added 2026-09-29 with `/research-add-items`: tier 1 types first (275-290), then tier 2 (291-299, joinery last) |
 
 At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 items take 16.
 
@@ -56,6 +57,26 @@ At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 
   rail and cold shoe, star-wheel detent, counterweight, hex shaft and cross axle, pantograph,
   Tusi couple, shaft collar, ball differential, motion rectifier; friction-wheel drive was
   merged with the CVT entry.
+
+## Added on 2026-09-29 (`/research-add-items`)
+- **Suggested by the run 2 agents** (`review-notes.md`): iris valve (twisted-sleeve valve),
+  twisted-and-coiled polymer muscle, Bernoulli gripper (items 275-277).
+- **Found by a web-search gap pass** (one agent; Wikipedia's mechanism categories, Thang's four
+  index PDFs, *507 Mechanical Movements*; checked against all 274 result files): 22 types, all
+  added (items 278-299): tendon-driven joint, walking linkage, magnetic detent, multi-material
+  interlock, elastic band springs, soft pneumatic actuator, scroll mechanism, multi-turn rotation
+  limiter, genderless connector, gearless right-angle drive, pneumatic artificial muscle, check
+  valve, bellows boot, anti-twister, weight-activated tongs, variable-radius pulley, tuned mass
+  damper, radial lip seal, knife-edge and jewel pivots, hand-mouldable thermoplastic, reciprocal
+  frame, housing and rebate joints. Details, sources and the near-misses it rejected are in
+  `gap-search-2026-09-29.md`.
+- **Notes added**: pinch valve (in *Iris valve*), festoon cable system (in *Cable carrier*) and
+  twistlock (in *Quarter-turn fastener*). *Cable carrier* and *Quarter-turn fastener* were
+  already researched, so their entries only cover these if redone.
+- **Not added**: a *Motion conversion* baseline (owner's choice; the family already has basic
+  entries such as slider-crank and cam and follower). Check valve, soft pneumatic actuator and
+  pneumatic muscle need an air or water supply; run 1 had put hydraulic and pneumatic circuits
+  out of scope, but the owner chose to include these single components.
 
 ## Suggested but left out (easy to add later with `/research-add-items`)
 - **Borderline scope (owner to decide):** electrical joints (crimp terminals, conductive

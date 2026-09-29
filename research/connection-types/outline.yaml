@@ -177,6 +177,7 @@ items:
   - name: Quarter-turn fastener (Dzus-type)
     category: quick-release & tool-free
     description: A stud that locks a panel in place with a quarter turn, by a spiral slot riding over a spring or a cross pin
+    notes: Also covers the twistlock (a shaped head dropped through a slot and turned to lock, as on shipping-container corners and drop-in T-nuts)
   # 40
   - name: Quick-release pin (ball-lock pin)
     category: quick-release & tool-free
@@ -573,6 +574,7 @@ items:
   - name: Cable carrier (drag chain, energy chain)
     category: seals & pass-throughs
     description: A chain of hinged hollow links that carries cables and hoses neatly along a moving axis without kinking; one of the most printed functional parts
+    notes: Also covers the festoon cable system (cables hung in loops from trolleys running along a track)
   # 137
   - name: Cyanoacrylate (superglue)
     category: adhesives & bonding
@@ -1150,6 +1152,120 @@ items:
   - name: Blind rivet (pop rivet)
     category: interlocking joints & joinery
     description: A hollow rivet set from one side with a hand tool that pulls a mandrel to swell the far end; the sheet-metal baseline
+
+  # ==================== ADDED 2026-09-29 (/research-add-items) ====================
+  # Three items suggested by the run 2 agents (review-notes.md), then 22 found by a web-search
+  # gap pass (outline-notes.md). Kept in priority order: tier 1 (275-290), then tier 2 (291-299,
+  # joinery last). Numbered after 274 so existing item numbers and file names don't change.
+  # 275
+  - name: Iris valve (twisted-sleeve valve)
+    category: seals & pass-throughs
+    description: A fabric or rubber sleeve held between two rings that twists shut like a drawstring when one ring is turned, closing a tube or hopper opening without any blades
+    notes: Different from the Iris mechanism, which uses sliding blades. Also covers the pinch valve (a soft tube squeezed shut from outside)
+  # 276
+  - name: Twisted-and-coiled polymer muscle (fishing-line artificial muscle)
+    category: powered & active connectors
+    description: Nylon fishing line or sewing thread twisted until it coils like a spring, so it shortens and pulls when heated (by a wrapped heating wire or warm air) and relaxes as it cools
+    notes: A heat-driven cousin of the Twisted-string actuator, which needs a motor
+  # 277
+  - name: Bernoulli gripper (non-contact air gripper)
+    category: powered & active connectors
+    description: A pad that blows a thin, fast stream of air outwards so the low pressure draws a flat part close and holds it on a cushion of air, for thin wafers, glass, film or fabric
+    notes: Unlike the Vacuum (suction) gripper it has no seal and barely touches the part
+  # 278
+  - name: Tendon-driven joint (cable-pulled finger or tentacle)
+    category: motion conversion
+    description: A string pulled from a distance bends a chain of hinged or flexible segments, as in printed robot hands and tentacles, with elastic cord or a second string pulling them back
+    notes: Different from the Bowden cable (only the sleeve) and the Posable segmented arm (not driven)
+  # 279
+  - name: Walking linkage (Jansen and Klann leg mechanisms)
+    category: motion conversion
+    description: A linkage of bars driven by one turning crank whose foot traces a flat stride and then lifts, so a machine walks instead of rolling (as in Theo Jansen's wind-walking sculptures)
+  # 280
+  - name: Magnetic detent (magnet click stops)
+    category: indexing & detents
+    description: Small magnets that pull a knob, dial or slider into set positions, giving a click feel without any parts rubbing or wearing
+  # 281
+  - name: Multi-material interlock (co-printed rigid and flexible parts)
+    category: print-in-place & 3D-printing joints
+    description: Two plastics that don't stick to each other, such as soft TPU and rigid PLA, printed together with small interwoven beams or dovetails across the seam so they lock by shape
+    notes: Now a slicer setting in some slicers; also covers hand-designed interlocking features between materials
+  # 282
+  - name: Elastic band and elastic cord springs (elastomer springs)
+    category: springs & energy storage
+    description: Rubber bands, elastic cord or rubber tubing used as stretchy springs, for example to pull a printed finger straight again; they stretch much further than steel springs but creep and perish
+  # 283
+  - name: Soft pneumatic bending actuator (air-powered soft finger)
+    category: powered & active connectors
+    description: A rubbery finger cast in silicone or printed in TPU with air chambers along one side, so it curls to grip when pumped full of air and straightens when the air is let out
+    notes: Also known by the research name PneuNet (pneumatic network)
+  # 284
+  - name: Scroll mechanism (self-centring scroll chuck, spiral-slot plate)
+    category: clamping, magnetic & friction connections
+    description: Turning one plate with a spiral groove or spiral slots moves three or more jaws in or out together, so they always grip a part centred
+  # 285
+  - name: Multi-turn rotation limiter (travelling-nut and stacked-ring stops)
+    category: hinges & pivots
+    description: A hard stop that lets a shaft turn more than one full turn and then halts it, for example so a robot turret can't wind its cables off
+    notes: Also covers stop work on clock mainsprings; the Geneva stop is covered under Geneva drive
+  # 286
+  - name: Genderless connector (hermaphroditic coupling)
+    category: quick-release & tool-free
+    description: "A coupling whose two halves are identical, so any two pieces mate: fire-hose (Storz-type) couplings, modular robot docking ports, or a printed hinge made from two copies of one part"
+  # 287
+  - name: Gearless right-angle drive (Hobson's joint, elbow mechanism)
+    category: clutches & couplings
+    description: Bent rods sliding in holes in two hubs carry rotation round a corner, often 90 degrees, without any gears
+    notes: Also covers the gearless right-angle socket adapter
+  # 288
+  - name: Pneumatic artificial muscle (McKibben muscle)
+    category: powered & active connectors
+    description: A rubber tube inside a woven sleeve that gets fatter and shorter when pumped with air, pulling hard like a muscle
+  # 289
+  - name: "Check valve (one-way valve: flap, ball or duckbill)"
+    category: seals & pass-throughs
+    description: A valve that lets air or liquid flow one way only, closed by a flap, a spring-loaded ball or a rubber beak that any backflow presses shut
+  # 290
+  - name: Bellows boot and way cover (gaiter)
+    category: seals & pass-throughs
+    description: A folded concertina cover that stretches and squashes as a joint, rod, screw or rail moves, keeping dust and water out; can be printed in TPU
+  # 291
+  - name: Anti-twister mechanism (twist-free cable feed)
+    category: seals & pass-throughs
+    description: A loop of cable carried round at exactly half the speed of a spinning part, so power or signals can pass to it through endless turns without a slip ring and without the cable twisting
+  # 292
+  - name: Weight-activated gripping tongs (lifting tongs, lewis)
+    category: self-locking & anti-back-drive
+    description: Scissor-like tongs, or a wedged plug in a stone (a lewis), whose grip tightens as the load hangs from them, so the heavier the load the harder they bite
+  # 293
+  - name: Variable-radius pulley (fusee, compound-bow cam)
+    category: springs & energy storage
+    description: A pulley or cam whose radius changes as it turns, evening out a spring's pull (a clock's fusee) or easing the pull at full draw (a compound bow's let-off)
+  # 294
+  - name: Tuned mass damper (vibration absorber)
+    category: brakes, dampers & speed control
+    description: A weight on a spring tuned to the same shaking rate as the part it hangs on, so it swings the opposite way and cancels the vibration
+  # 295
+  - name: Radial lip seal (rotary shaft seal, oil seal)
+    category: seals & pass-throughs
+    description: A rubber ring with a springy lip pressed against a spinning shaft, keeping oil in and dirt out where an O-ring would wear through
+  # 296
+  - name: Knife-edge and jewel pivots (low-friction point pivots)
+    category: hinges & pivots
+    description: A hard sharp edge, or a pointed pin in a hard cup (a jewel), that lets a part rock or turn with almost no friction, as in balance scales and meters
+  # 297
+  - name: Hand-mouldable thermoplastic (polycaprolactone)
+    category: adhesives & bonding
+    description: Plastic pellets that go soft in hot water at about 60 °C, are shaped by hand into grips, fixings or repairs, set hard as they cool, and can be reheated and reused
+    notes: Sold as Polymorph (brand) and similar
+  # 298
+  - name: Reciprocal frame (self-supporting stick bridge)
+    category: interlocking joints & joinery
+    description: Short sticks or beams laid so each one rests on the next in a closed ring, holding each other up with no joints or fixings, as in the stick 'Leonardo bridge'
+  # 299
+  - name: Housing and rebate joints (dado, rabbet)
+    category: interlocking joints & joinery
+    description: A groove cut across a board (housing or dado) or a step cut along its edge (rebate or rabbet) that another board fits into, as in bookshelves and cabinet backs
 
 execution:
   batch_size: 6
