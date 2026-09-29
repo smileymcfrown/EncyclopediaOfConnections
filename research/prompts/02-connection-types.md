@@ -109,3 +109,54 @@ motion in the table of contents.
 When done, update PROJECT.md (research-runs table, roadmap ticks, current phase, next action,
 session log), then commit and push.
 ```
+
+---
+
+# Continuing run 2 (items added later with `/research-add-items`)
+
+## For you (not part of the prompt)
+
+**Use this when** the outline has items that aren't researched yet. That is now the case:
+items 275-299 were added on 2026-09-29 (see `research/connection-types/outline-notes.md`).
+
+**Steps**
+1. Make sure everything is merged into `main`, then start a new Claude Code session on this repo.
+2. Copy **everything inside the box** below, paste it as your first message and send it.
+
+**What to expect**
+- 25 items at 3 per agent is 9 agents: one batch of 6, then 3 more. `/research-deep` skips
+  every item that already has a results file.
+- If the usage limit stops the agents, wait for it to reset and say "continue". Files written
+  before the cut-off are checked and kept if complete.
+- At the end it regenerates the report, updates PROJECT.md and opens a pull request.
+
+## The prompt
+
+```text
+/research-deep
+
+Continue run 2 of research/connection-types/outline.yaml. Only items 275-299
+(added 2026-09-29) are still to do; /research-deep skips items that already
+have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
+
+- Research agents follow fields.yaml (the research_rules) and should also use
+  research/connection-types/gap-search-2026-09-29.md, which lists pages the
+  search agent opened for each new item.
+- After each agent finishes: validate its JSON files with
+  .claude/skills/research/validate_json.py, then commit and push, so progress
+  isn't lost if the session ends.
+- If the usage limit stops the agents: after it resets, check any files they
+  had already written (they must validate, and every field marked [uncertain]
+  must be listed in the file's `uncertain` array). Keep the complete ones and
+  relaunch only the unfinished items.
+- Add anything the agents flag for fixing before publishing (blocked sources,
+  conflicting figures, errors in sources) to
+  research/connection-types/review-notes.md.
+
+When all 299 items are done: run /research-report with family,
+special_behaviour and motion in the table of contents (the existing
+research/connection-types/generate_report.py already does this). Then update
+PROJECT.md: tick the "Research the 25 items added on 2026-09-29" roadmap item,
+update the research-runs row, current phase, next action (owner reviews run 2,
+then run 3) and session log. Commit, push and open a pull request into main.
+```
