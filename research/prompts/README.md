@@ -36,3 +36,6 @@ Each prompt file has two parts:
 **Tip:** `/research-deep` launches one agent for every few items, so a run of 150+ items
 is large. The outline is ordered by priority (unusual, 3D-printable and robotics types first), so you can stop after a few
 batches, review, and carry on later. It skips anything already done.
+
+**Items added later:** after `/research-add-items`, use the "Continuing run 2" prompt at the
+end of `02-connection-types.md` to research just the new items.
