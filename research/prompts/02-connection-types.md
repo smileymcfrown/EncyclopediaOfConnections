@@ -124,7 +124,7 @@ items 275-299 were added on 2026-09-29 (see `research/connection-types/outline-n
 2. Copy **everything inside the box** below, paste it as your first message and send it.
 
 **What to expect**
-- 25 items at 3 per agent is 9 agents: one batch of 6, then 3 more. `/research-deep` skips
+- The 24 items still to do (276-299) at 3 per agent is 8 agents: one batch of 6, then 2 more. `/research-deep` skips
   every item that already has a results file.
 - If the usage limit stops the agents, wait for it to reset and say "continue". Files written
   before the cut-off are checked and kept if complete.
@@ -135,9 +135,9 @@ items 275-299 were added on 2026-09-29 (see `research/connection-types/outline-n
 ```text
 /research-deep
 
-Continue run 2 of research/connection-types/outline.yaml. Only items 275-299
-(added 2026-09-29) are still to do; /research-deep skips items that already
-have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
+Continue run 2 of research/connection-types/outline.yaml. Only the items
+added on 2026-09-29 (275-299) are still to do, apart from 275, which is done;
+/research-deep skips items that already have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
 
 - Research agents follow fields.yaml (the research_rules) and should also use
   research/connection-types/gap-search-2026-09-29.md, which lists pages the
