@@ -37,7 +37,7 @@
     "motion": "slide: straight-line travel along the track; travel is limited by the rod or rail length for recirculating ball bushings, plain bushings, wheels and carriages (Wikipedia); non-recirculating slides (e.g. crossed-roller slides) have a stroke limited by their own length",
     "degrees_of_freedom": "1 for a complete guide (two parallel rods, a V-slot bar with wheels on both sides, or a profile rail): the carriage can only slide along the track. A single round bushing on a single round rod has 2 (it can slide and also spin around the rod), which is why round-rod guides use two rods or add an anti-rotation feature; gm0 notes this spin can be useful where a slide also has to rotate on the same axis.",
     "special_behaviour": [
-      "self-aligning or self-centring (only some versions): 'floating' plastic bushings with extra clearance on the second rail absorb small misalignment between two rails (igus drylin fixed/floating bearings), and wheels pinched either side of a V-slot bar centre themselves in the groove",
+      "self-aligning or self-centring (only some versions): 'floating' plastic bushings with extra clearance on the second rail absorb small angular misalignment between two rails (igus drylin fixed/floating bearings)",
       "none of the holding behaviours: a linear guide does not lock, click or hold a position by itself; add a lead screw, brake, clamp or detent if the carriage must stay put"
     ],
     "holding_principle": [

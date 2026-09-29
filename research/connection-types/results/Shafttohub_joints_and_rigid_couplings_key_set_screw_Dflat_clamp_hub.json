@@ -8,8 +8,8 @@
       "shear key (a deliberately weak key, e.g. brass, that breaks on overload)",
       "set screw / grub screw / blind screw / setscrew (cup, cone, flat, dog and knurled-cup points)",
       "D-shaft / D-flat / flatted shaft / D-profile shaft / D-bore",
-      "double-D shaft [uncertain]",
-      "hex shaft / hex bore (common in robotics kits: 5 mm, 1/2 in, 3/8 in)",
+      "double-D / double-flat shaft (round shaft with two flats; Shaft Buddy generator supports one or two flats)",
+      "hex shaft / hex bore (common in robotics kits, e.g. 5 mm hex, gm0; 1/2 in hex)",
       "rounded-hex shaft (hex shaft turned round where it runs in bearings, gm0)",
       "clamp hub / clamping hub / split hub / clamp-style bore",
       "pinned hub / cross-pinned shaft / roll pin or spring pin through hub and shaft; Scotch key / Dutch pin",
@@ -66,12 +66,12 @@
     "processes": [
       "off-the-shelf part: set-screw and clamp shaft collars, clamping hubs, rigid couplings (one-, two- and three-piece, step-bore), pre-keyed shafts, keys and D- or hex shafts",
       "3D print (FDM): hubs with D-flat, hex or square bores, captive-nut set-screw hubs, printed clamp collars and couplers (usually with metal screws and nuts)",
-      "3D print (resin): small hubs and knobs with D-flat bores (tight tolerances help, but resin is brittle under clamp screws)",
+      "3D print (resin): small hubs and knobs with D-flat bores [uncertain]",
       "CNC: turning hubs, milling flats and keyways, drilling cross-pin holes",
       "woodwork: wooden wheels and hubs pinned or wedged onto dowel axles (pinned shape lock)"
     ],
     "print_in_place": "no: the hub is printed as part of the gear, pulley or wheel and then fitted to a metal shaft with a screw, nut or pin; printed collars and couplers are assembled with metal screws (one printed clamp-collar kit on Printables is a print-in-place hinge-and-screw collar, but it still needs a bolt)",
-    "making_tips_3d_printing": "1) Prefer shape over friction: a D-flat, double flat, hex or square bore transmits torque far better than a round hole with a screw; a plain press fit on a smooth printed bore loosens as the plastic creeps (EngineerDog). 2) Holes print undersize: oversize the bore by about 0.13 mm (0.005 in) across, or ream it (EngineerDog); test-print a short ring first. 3) Set screws: don't thread a set screw straight into plastic (the thread strips); trap a nut in a square or hex pocket beside the bore, or use a heat-set insert, and make the hub wall thick, because tightening the screw can split the hub (EngineerDog). An M3 screw and nut are typical for 5 mm stepper-motor shafts (Matthew Mead captive-nut technique). 4) Aim the set screw at the shaft's flat; Machine Design notes a flat adds little holding but locates the screw, and two screws in line along the shaft almost double the grip, while two screws 60 degrees apart give about 1.75 times. 5) Clamp hubs print well: slot the hub and squeeze it with a screw and nut placed across the slot; keep the screw axis parallel to the layers so it compresses the layers rather than pulling them apart (km98's three-bolt and one-bolt printed collets on hackaday.io). 6) For shafts that came with a pressed-on metal pinion, print a gear-shaped socket with zero clearance and press it over the pinion (hackaday.io). 7) For high torque on a motor shaft, fit one half of a metal jaw (spider) coupling and model a matching socket into the printed part (Hackaday). 8) Use thread-locker on set screws (gm0), but check it is safe for the plastic. 9) PLA hubs soften above 60 C and PETG is fine below 80 C (Prusa), so avoid PLA hubs on warm motors.",
+    "making_tips_3d_printing": "1) Prefer shape over friction: a D-flat, double flat, hex or square bore transmits torque far better than a round hole with a screw; a plain press fit on a smooth printed bore loosens as the plastic creeps (EngineerDog). 2) Holes print undersize: oversize the bore by about 0.13 mm (0.005 in) across, or ream it (EngineerDog); test-print a short ring first. 3) Set screws: don't thread a set screw straight into plastic (the thread strips); trap a nut in a square or hex pocket beside the bore, or use a heat-set insert, and make the hub wall thick, because tightening the screw can split the hub (EngineerDog). Matthew Mead's captive-nut hub for a stepper-motor GT2 gear used an M3 set screw: he measured the nut at 5.44 mm across flats, 6.18 mm across corners and 2.24 mm thick, made the pocket 5.8 x 6.6 x 2.6 mm (about 0.4 mm extra in width and height, 0.2 mm in depth) and the screw hole 3.6 mm, then paused the print to drop the nut in (keep it level with or below the top surface so the nozzle cannot hit it). 4) Aim the set screw at the shaft's flat; Machine Design notes a flat adds little holding but locates the screw, and two screws in line along the shaft almost double the grip, while two screws 60 degrees apart give about 1.75 times. 5) Clamp hubs print well: slot the hub and squeeze it with a screw and nut placed across the slot; keep the screw axis parallel to the layers so it compresses the layers rather than pulling them apart (km98's three-bolt and one-bolt printed collets on hackaday.io). 6) For shafts that came with a pressed-on metal pinion, print a gear-shaped socket with zero clearance and press it over the pinion (hackaday.io). 7) For high torque on a motor shaft, fit one half of a metal jaw (spider) coupling and model a matching socket into the printed part (Hackaday). 8) Use thread-locker on set screws (gm0), but check it is safe for the plastic. 9) PLA hubs soften above 60 C and PETG is fine below 80 C (Prusa), so avoid PLA hubs on warm motors.",
     "off_the_shelf_parts": "Set-screw shaft collars and one-piece, two-piece and quick-clamping (lever) clamp collars, including D-bore and hex-bore collars (Wikipedia 'Shaft collar'); clamping hubs (robotics kits: goBILDA, Actobotics, REV (brands), gm0); rigid couplings: set-screw, one-piece clamp, two-piece clamp, three-piece and step-bore couplings, and double-wide collars used as couplings (PIB Sales; Ruland (brand)); socket set screws (grub screws) with cup, cone, flat, dog and knurled-cup points (ISO 4029 for knurled cup, Wikipedia); parallel keys, Woodruff keys and key stock; keyed shafts, D-shafts and hex or rounded-hex shafts (gm0 glossary); spring (roll) pins and dowel pins; keyless locking bushes and taper-lock bushes (see those entries).",
     "rules_of_thumb": [
       "Set screw size: diameter about half the shaft diameter (Machine Design, 'Setscrews').",
@@ -193,6 +193,7 @@
       "https://gm0.org/en/latest/_sources/docs/common-mechanisms/power-transmission/shaft-retention.rst.txt",
       "https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html",
       "https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/",
+      "http://matthewtmead.com/blog/captive-nut-technique/",
       "https://hackaday.io/project/174013-stepper-motor-shafts-connecting-gearspulleys",
       "https://hackaday.com/2019/09/02/misuse-this-part-to-attach-3d-printed-stuff-to-a-shaft/",
       "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions",
@@ -203,9 +204,8 @@
     ]
   },
   "uncertain": [
-    "aliases",
+    "processes",
     "rules_of_thumb",
-    "environment_limits",
-    "making_tips_3d_printing"
+    "environment_limits"
   ]
 }
