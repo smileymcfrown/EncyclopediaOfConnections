@@ -27,7 +27,7 @@
     "job": [
       "slow it, stop it or keep its speed steady: slows a closing lid, drawer or door so it arrives gently and quietly, and soaks up bumps at the end of travel"
     ],
-    "motion": "rotate (rotary dampers: vane types typically limited to about 110 to 120 degrees, continuous types turn endlessly; TOK) or slide (linear dampers, a stroke of a few millimetres to several centimetres); a rotary damper with a gear on a rack also damps sliding motion (TOK)",
+    "motion": "rotate (rotary dampers: vane or partial-angle types work over a limited swing, basically 110 degrees for toilet-seat dampers, with other models up to 180 to 290 degrees; continuous types turn endlessly; TOK) or slide (linear dampers); a rotary damper with a gear on a rack also damps sliding motion (TOK)",
     "degrees_of_freedom": "1: the shaft turns or the rod slides along its axis; the damper only resists speed, it does not add or remove a way of moving",
     "special_behaviour": [
       "one-way (moves freely one way, locks the other): many versions damp only one direction, using a check valve (linear) or a one-way clutch (rotary), so the lid lifts or the door opens with no extra effort and only the closing is slowed (Wikipedia 'Dashpot'; TOK one-way rotary damper; Airpot push or pull dampers). It never locks: it only slows.",
@@ -64,7 +64,7 @@
       "Torque for a lid: T = (L / 2) x W x cos(theta), where L is the lid length from the pivot, W its weight and theta its angle above horizontal; the worst case is the horizontal position (ACE rotary damper catalogue p. 5; ACE FDT instructions; TOK torque calculator).",
       "Choose by speed as well as torque: if the lid closes too fast pick the next higher torque, if too slow the next lower (ACE catalogue p. 5). Rated torques are measured at 20 rpm and 23 °C; torque rises with speed and falls as temperature rises (ACE).",
       "Two dampers on one lid should have equal torque, or split the torque by the centre-of-gravity position (a lid whose centre of gravity is 50 mm off-centre on a 300 mm width: 4 N·m and 2 N·m instead of 3 and 3), or the lid twists (TOK).",
-      "Gearing a continuous-rotation damper: torque multiplies and speed divides by the gear ratio (TOK: an 11-tooth pinion on a 22-tooth segment gear turns a 30 mN·m damper into about 58 mN·m at the lid).",
+      "Gearing a continuous-rotation damper: torque multiplies and speed divides by the gear ratio (TOK example: a small lid needing about 57.6 mN·m uses an 11-tooth pinion on a 22-tooth segment gear, so a damper of about 28.8 mN·m is enough; they chose a 30 mN·m model, and the lid closes at half the damper's speed).",
       "Vane (partial-angle) dampers give higher torque in a smaller size but only over a limited angle (toilet-seat types about 110 degrees); continuous types spin endlessly but give less torque for their size (TOK).",
       "Air dashpot pull damping works by vacuum, so it can never exceed atmospheric pressure (14.7 psi) x piston area, e.g. 4.5 lbf for a 0.309 in² piston (Airpot FAQ).",
       "Never use a damper as a stop; leave clearance at both ends of travel, at least 1 mm for Airpot's Airpel (Airpot FAQ).",
@@ -132,7 +132,7 @@
         "url": "https://www.printables.com/model/1637307-rotary-damper-v10-for-mark-aytons-speedbrake-and-f",
         "title": "Rotary Damper v1.0 for Mark Ayton's Speedbrake and Flaps mechanism (Günther Tomschik, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Printed silicone-oil rotary damper with a gear: PLA housing and rotor, 8 x 1.5 mm O-ring, about 3 ml of RC shock oil (30,000 to 500,000 cSt), lid superglued on",
-        "license": "CC0 (Creative Commons Public Domain)"
+        "license": "Creative Commons Public Domain (as listed by Printables)"
       },
       {
         "url": "https://www.printables.com/model/623995-soft-close-door-damper-settable-resistance",
@@ -179,9 +179,6 @@
       "https://cabinotch.us/media/wysiwyg/FAQ/BlumHingeSpecifications.pdf",
       "https://help.prusa3d.com/article/watertight-prints_112324",
       "https://api.printables.com/graphql/",
-      "https://www.printables.com/model/1637307-rotary-damper-v10-for-mark-aytons-speedbrake-and-f",
-      "https://www.printables.com/model/623995-soft-close-door-damper-settable-resistance",
-      "https://www.printables.com/model/993876-soft-close-drawers-replacement-actuator",
       "https://www.thingiverse.com/thing:4761649",
       "https://huangyan920.github.io/Mechanical/",
       "https://commons.wikimedia.org/wiki/File:Dashpot.svg",
