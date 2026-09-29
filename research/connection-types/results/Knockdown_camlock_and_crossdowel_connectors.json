@@ -49,7 +49,7 @@
     "reuse_cycles": "many times in solid wood with cross dowels and metal threads; a few to many times in particleboard or MDF, where the screw thread of the cam bolt and the board around the fittings wear and crumble with each cycle [uncertain].",
     "tools_needed": "To assemble or take apart: one driver, usually a hex (Allen) key or screwdriver (Wikipedia); Hettich cams take a flat-blade screwdriver, PZ3 Pozidriv or a 4 mm Allen key. To install: drill with depth stop, 15 mm Forstner bit, 8 mm and 5 mm bits and a drilling jig for cams (Furnica); 9/32 inch and 25/64 inch bits and a cross-dowel jig for inch-size cross dowels (Rockler). A drill press helps keep holes square (House of Hacks).",
     "seal": "none",
-    "load": "Medium. In tests on 18 mm particleboard L-shaped corners, standard eccentric cam joints with beech dowels carried average bending moments of about 15-19 N·m, and a version with a metal-capped bolt reached 31 N·m (opening) and 47 N·m (closing); failure came from the chipboard surface cracking or the bolt head crushing into the board, not the metal parts breaking (Janíková et al. 2025, Materials 18(9):2114). Strong in straight pull; the cam itself 'cannot withstand shear loads', so dowels are always added (Furnica). Weak against racking of tall cabinets unless a back panel is fitted [uncertain]. Cross dowels in solid wood carry heavier loads, e.g. bed rails [uncertain].",
+    "load": "Medium. In tests on 18 mm particleboard L-shaped corners, standard eccentric cam joints with beech dowels carried average bending moments of about 14-19 N·m, and a version with a metal-capped bolt reached 31 N·m in the tension test and 47 N·m in the compression test; failure came from the chipboard surface cracking or the bolt head crushing into the board, not the metal parts breaking (Janíková et al. 2025, Materials 18(9):2114). Strong in straight pull; the cam itself 'cannot withstand shear loads', so dowels are always added (Furnica). Weak against racking of tall cabinets unless a back panel is fitted [uncertain]. Cross dowels in solid wood carry heavier loads, e.g. bed rails [uncertain].",
     "adjustable": "Slightly: a loose cam can be turned tighter, and the Hettich cam can close a gap of up to 4 mm (Hettich). Positions are fixed by the drilled holes.",
     "play_and_precision": "No play once tight. Accuracy depends entirely on drilling: 'An offset of just one millimetre inevitably leads to uneven joints or cracking in the panel material' (Furnica); Hettich's drilling drawings allow +0.5/-0.3 mm on the 24 or 34 mm hole distance. The dowels do the precise locating; the cam only pulls (Furnica). Cross dowels tolerate a little error because the barrel can be rotated to meet the bolt (Wikipedia 'Barrel nut').",
     "access_needed": "one side only (blind) for a cam lock: all holes are on the inside face and in the edges, leaving nothing visible outside (Furnica), but you must reach the inside face to turn the cam. Both sides for a cross dowel: the bolt head is on the outside of one part and the barrel is put in from the inside or underside of the other.",
@@ -73,7 +73,7 @@
       "Turn the cam roughly 180-210 degrees clockwise to lock and back half a turn to release; screw the bolt in until its collar sits flush, because a bolt left too high or too deep won't engage properly (Furnica).",
       "Inch version: 5/8 inch Forstner for the cam, centred 1-5/16 inch from the edge; 5/16 inch edge hole; 3/16 inch pilot for the post. 'If it's too far from the edge, the cam won't engage and if it's too close to the edge the cam won't tighten against the wood' (House of Hacks).",
       "Cross dowels in 3/4 inch stock: 9/32 inch hole for the connector bolt and 25/64 inch hole for the cross dowel, bolts 2 to 4-3/4 inch long (Rockler Cross Dowel Drilling Jig).",
-      "In 18 mm particleboard corner tests, a cam with a metal-capped bolt gave 147% higher bending moment capacity (closing) than a standard cam with a Euro-screw bolt (Janíková et al. 2025)."
+      "In 18 mm particleboard corner tests, a cam with a metal-capped bolt gave 147% higher bending moment capacity under compression than a standard cam with a Euro-screw bolt (Janíková et al. 2025)."
     ]
   },
   "guidance": {
@@ -140,19 +140,19 @@
         "license": "CC BY-NC-SA"
       },
       {
-        "url": "https://www.printables.com/model/1848618-drilling-jig-for-cam-lock-connectors (URL from Printables API, page not opened)",
+        "url": "https://www.printables.com/model/1848618-drilling-jig-for-cam-lock-connectors",
         "title": "Drilling jig for cam lock connectors (k4mk4l, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Parametric FreeCAD jig with an edge stop: 15 mm cam hole 34 mm from the edge, 8 mm dowel holes 32 mm apart, using a pipe reducer and 608 bearing races as drill bushings",
         "license": "CC BY-NC-SA"
       },
       {
-        "url": "https://www.printables.com/model/638080-parametric-cross-dowell-barrel-nut-for-furniture (URL from Printables API, page not opened)",
+        "url": "https://www.printables.com/model/638080-parametric-cross-dowell-barrel-nut-for-furniture",
         "title": "Parametric Cross Dowell Barrel Nut for furniture (Rusty Phillips, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Parametric Fusion 360 cross dowel (default 5/8-18 thread, 1/2 inch barrel), printed in PETG at 100% infill and tapped, made to replace missing bunk-bed parts",
         "license": "CC0 (public domain)"
       },
       {
-        "url": "https://www.printables.com/model/956800-cam-lock-connector (URL from Printables API, page not opened)",
+        "url": "https://www.printables.com/model/956800-cam-lock-connector",
         "title": "Cam Lock Connector (firstgizmo, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Printable replacement for common furniture cam locks; print at 0.2 mm layers with many perimeters, in PETG rather than PLA",
         "license": "CC BY-NC"
