@@ -1180,11 +1180,250 @@
 
 *print-in-place & 3D-printing joints.* Threaded inserts that are pushed or tapped into a hole and held by barbs, or expand as the screw goes in, as an alternative to heat-set inserts
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A small ridged or barbed metal sleeve with a screw thread inside that you push, squeeze or tap cold into a plain hole, so a plastic or wooden part gets metal threads without heating anything; some types are split and spread outwards to grip harder when the screw goes in
+- **term**: Press-in threaded insert (press-fit insert), including the expansion insert (screw-to-expand insert) and the tap-in or hammer-in insert
+- **aliases**: 
+  - press-fit insert, press-in insert (Wikipedia 'Threaded insert'; PEM; McMaster-Carr)
+  - cold-pressed insert, cold-press insert (PEM; SPIROL)
+  - expansion insert, slotted press-in insert (PEM 'Four Ways To Tackle Threaded Inserts For Plastics'; Stratasys)
+  - screw-to-expand insert, screw-to-expand press-in threaded insert (Formlabs; Protolabs; McMaster-Carr)
+  - tap-in insert (Hubs 'How to assemble 3D printed parts with threaded fasteners')
+  - hammer-in insert nut, knock-in nut (for wood and particle board; Wikipedia 'Threaded insert')
+  - hammer-in tee nut, prong nut (four-pronged flange for wood; McMaster-Carr; Hackaday 2024)
+  - barbed press-in insert, hex press-in insert, twist-resistant press-in insert, strong-grip screw-to-expand insert (catalogue variants; McMaster-Carr; PEM)
+  - E-Z Press (brand) insert (E-Z LOK)
+- **family**: print-in-place & 3D-printing joints
+- **other_families**: clamping, magnetic & friction connections, interlocking joints & joinery
+- **one_liner**: A metal threaded sleeve pushed or tapped cold into a slightly smaller hole, held by its barbs or knurls biting into the wall, and sometimes spread wider by the screw, to give a plastic or wooden part reusable metal threads without heat.
+- **complexity**: A few parts: the insert (a short brass, aluminium or stainless steel sleeve, threaded inside, with knurls, barbs, fins or a hex shape outside; expansion types have a slot down the side), the part with a plain hole sized for it, and the screw that later goes into it. Installing it needs only an arbor press, vice or hammer.
+- **how_it_works**: The hole is slightly smaller than the outside of the insert, so pushing it in makes a tight interference fit, and its knurls or barbs dig into the hole wall so it can't turn or pull out (PEM; Wikipedia 'Threaded insert'). Because nothing melts, this pressure alone holds it, which is why it is weaker than a heat-set insert and why too much force can crack the plastic (PEM 'Press-In Inserts'). Expansion inserts have a slot, so they squeeze inwards and go in easily, even with finger pressure; when the screw is threaded in it forces the sides back out and pushes the knurls into the hole wall, much like an expanding wall anchor (PEM 'Four Ways'; E-Z LOK). Tap-in and hammer-in inserts for wood work the same way, with barbs or prongs that are driven in with a hammer (Hubs; Wikipedia).
+
+### Finder attributes
+
+- **job**: join and hold: gives a plastic, printed or wooden part a strong, reusable metal screw thread so another part can be bolted on and taken off again, without a soldering iron
+- **motion**: none
+- **degrees_of_freedom**: 0: once pressed in (and, for expansion types, once the screw is in), the insert cannot move, and the screw clamps the parts together rigidly
+- **special_behaviour**: 
+  - grips harder when screwed: in expansion (screw-to-expand) inserts the screw spreads the slotted sleeve outwards (PEM; E-Z LOK); SPIROL's helical knurls are angled so that tightening the screw tends to drive the insert further into the hole, not twist it out (SPIROL design guide, p. 3) *(unverified parts omitted)*
+- **holding_principle**: 
+  - friction or clamping (force-fit): the insert is a tight interference fit in the hole, and press-in inserts 'rely entirely on the interference fit to provide pull-out and torque-out resistance' (PEM 'Press-In Inserts'); expansion inserts add outward pressure when the screw goes in
+  - shape (the parts interlock; form-fit): knurls, barbs, fins, undercuts or a hex body bite into the hole wall so the insert can't turn or pull out (PEM 'SI Threaded Inserts for Plastic'; McMaster-Carr)
+- **input_output**: not applicable
+- **power**: passive (no power needed); nothing needs heating, only a press, vice or hammer to install it
+- **removability**: removable: the screw can be taken out and put back many times, which is the point of the insert (PEM 'Press-In Inserts': metal threads 'can still be reliably disassembled and reassembled'). *(unverified parts omitted)*
+- **reuse_cycles**: many times for the screw (metal threads, so the plastic thread does not wear; Hubs; PEM). *(unverified parts omitted)*
+- **tools_needed**: a drill (to open printed or moulded holes to an accurate size; Hubs, Stratasys) and an arbor press, a bench vice or a hammer with a flat punch to push or tap it in flush (Stratasys; SPIROL; Hubs; Accu). Expansion inserts can be pushed in by hand (PEM). Afterwards a screwdriver or hex key for the screw.
+- **seal**: none: it doesn't seal; water or air can pass along the thread and around the knurls
+- **load**: light to medium: weaker than heat-set or moulded-in inserts but still gives metal threads that take normal tightening. SPIROL's catalogue values in nylon 6/6 for M3 (4-40) inserts: press-in about 330 N pull-out and 2 N m torque, against about 1,000-2,000 N and 3-4 N m for heat or ultrasonic inserts and about 2,650 N pull-out for self-tapping inserts (SPIROL design guide, p. 21; 'a general comparative guide' only). PEM: cold pressed-in inserts 'may not perform as well' as heat-staked, ultrasonic or moulded-in inserts, and press-in inserts are 'not as secure' but quick and cheap. Formlabs rates screw-to-expand inserts as a 'very good hold' in 3D prints, with heat-set inserts giving 'improved security and strength'. Longer inserts resist pulling out better and wider ones resist twisting better (PEM 'Four Ways'). *(unverified parts omitted)*
+- **adjustable**: no: it is a fixed threaded anchor; any adjustment comes from the screw or the parts being joined
+- **play_and_precision**: small: the metal thread fits screws like any nut. The main precision issue is getting the insert in straight and flush: a pilot on the insert 'only slightly smaller than the hole' helps it go in straight (SPIROL, p. 3), the insert should be pressed with a flat tool so it sits square (Stratasys), and it should end up flush, because an insert left below the surface can be pulled up ('jack-out') when the screw is tightened (SPIROL, p. 5).
+- **access_needed**: one side only (blind): press-in, expansion and tap-in inserts go into a hole from its open face and the screw goes in from the same side. *(unverified parts omitted)*
+- **materials**: Inserts: usually brass; lead-free aluminium for light parts; stainless steel for hex-bodied types (too stiff for slotted ones) (PEM 'Press-In Inserts'). Hammer-in insert nuts for wood are steel, brass or nylon (Wikipedia). Host materials: softer plastics (SPIROL), thermosets, where heat-set and ultrasonic inserts can't be used (PEM), both thermoplastics and thermosets for slotted expansion inserts (E-Z LOK), FDM nylon 12 as the best printed material for interference-fit inserts, while polycarbonate prints keep surface stress and suit glue or heat-set better (Stratasys), resin (SLA) and SLS prints with screw-to-expand inserts (Formlabs; Protolabs, which set them in epoxy), wood and particle board for hammer-in insert nuts (Wikipedia), soft metals such as aluminium and dense composites with special press-in inserts (McMaster-Carr).
+- **maker_difficulty**: easy: needs only a drill and a vice, press or hammer, with no heat; the only skill is getting the hole size right, so test in a scrap piece first (E-Z LOK)
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): print the hole slightly undersize and drill or ream it to the insert maker's size, then press the insert in (Hubs; Stratasys)
+  - 3D print (resin): screw-to-expand inserts in SLA and SLS parts, fitted before post-curing or set in epoxy (Formlabs; Protolabs)
+  - woodwork: hammer-in insert nuts and tee nuts in wood and particle board (Wikipedia; McMaster-Carr)
+  - injection-moulded parts: pressed into moulded holes, the industrial use (PEM; SPIROL)
+  - off-the-shelf part: the insert itself is always bought *(unverified parts omitted)*
+- **print_in_place**: partly: the part prints with a plain hole ready for the insert, and the bought metal insert is pressed or tapped in afterwards
+- **making_tips_3d_printing**: 1) Hole size is everything: 'A hole that is too large will allow the insert to spin... A hole that is too small will compress the insert so much that the fastener cannot be installed' (E-Z LOK), and in solid-body inserts an undersized hole can crack the plastic (SPIROL, p. 5). Use the insert maker's hole size, and because printed holes are not exact, print slightly small and drill or ream to size (Hubs: 'an accurate pilot hole is required, so drilling is recommended'; Stratasys: 'Drill or ream the hole'). Test in scrap first (E-Z LOK), for example with a printed graduated-hole test block. 2) Hole depth: make it deeper than the insert, at least the insert length plus two thread pitches, so the screw never bottoms out and pushes the insert up (SPIROL, p. 5). 3) Walls: SPIROL's optimum boss diameter is 2-3 times the insert diameter, and cold-pressed inserts need even thicker walls because pressing them in stresses the plastic more (SPIROL, pp. 5-6); Hubs' minimum for any threaded hole in a print is a wall as thick as the screw diameter. 4) Pressing: line the insert up with its pilot in the hole, then push it in with an arbor press, a vice or a drill press used as a press, using a flat surface so it goes in square, until it is flush (Stratasys; Accu); tap-in inserts are tapped in gently with a hammer (Hubs). Don't press at an angle (Accu). Expansion inserts are pushed in by hand until flush, then the screw is tightened slowly to spread them (PEM; Accu). 7) For more grip, add a drop of superglue (CA) or epoxy when pressing in; Formlabs says this works in thermoplastic prints 'but won't have as strong a hold as a true heat-set installation'. In CNC Kitchen's tests, knurled brass (heat-set type) inserts glued cold into resin prints with thick CA held 52 kg on average ('How To use Threaded Inserts in Resin 3D Prints'). 8) Resin (SLA) prints: install screw-to-expand inserts after washing but before post-curing, with a screw in place, to reduce the chance of cracking the resin (Formlabs); Protolabs sets them in epoxy. 9) Avoid tapered inserts in thin walls or where the load pulls the insert through the part; they can crack the plastic (SPIROL, p. 6). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search supplier catalogues for 'press-in threaded inserts for plastic', 'press-fit inserts', 'screw-to-expand inserts', 'expansion inserts', 'tap-in inserts' or, for wood, 'hammer-in insert nuts', 'knock-in nuts' and 'tee nuts'. McMaster-Carr variants: screw-to-expand press-in inserts (also a flanged through-hole version), strong-grip screw-to-expand inserts with fins, twist-resistant hex-body press-in inserts, barbed press-in inserts, press-in inserts for soft metal and for composites, and hammer-in tee nuts with a four-pronged flange. PEM families: NFPA/NFPC hexagonal press-in inserts; PPA/PPB slotted brass; PFLA/PFLB flange-head slotted brass; PKA/PKB straight-knurl slotted brass. SPIROL Series 50 (symmetrical, with pilot) and Series 51 (headed) press-in inserts. E-Z Press (brand) slotted inserts (E-Z LOK). Screws: ordinary machine screws. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Hole size is critical: larger holes lower the holding strength, smaller holes cause stress and cracks; for plastics with 15% or more filler make the hole 0.08 mm larger, and 0.15 mm larger at 35% or more (SPIROL Inserts for Plastics design guide, p. 5).
+  - Optimum boss diameter or wall: 2-3 times the insert diameter, the multiple falling as the insert gets bigger; cold-pressed inserts need bigger bosses or thicker walls than heat-installed ones (SPIROL design guide, pp. 5-6).
+  - Minimum hole depth for pressed or heat-installed inserts: insert length plus two thread pitches (1.2 times the length for self-tapping inserts); the screw must never bottom out (SPIROL design guide, p. 5).
+  - Install flush: no more than 0.13 mm (0.005 in) standing proud, and not below flush, which invites jack-out (SPIROL design guide, p. 5).
+  - M3 comparative values in nylon 6/6: press-in 330 N pull-out and 2 N m torque; heat or ultrasonic 1,000-2,000 N and 3-4 N m; self-tapping 2,650 N pull-out (SPIROL design guide, p. 21, 'a general comparative guide' only).
+  - Knurl choice: straight knurls resist twisting best, grooves between knurl bands resist pulling out, diamond knurls resist both; longer inserts resist pull-out more and wider inserts resist torque more (PEM 'Four Ways To Tackle Threaded Inserts For Plastics').
+  - Minimum wall around any threaded hole in a 3D print equal to the screw diameter, e.g. 5 mm for M5 (Hubs 'How to assemble 3D printed parts with threaded fasteners').
+  - For FDM parts, drill or ream the hole before press-fitting, and prefer nylon 12 for interference-fit inserts; avoid them in polycarbonate (Stratasys 'FDM Best Practice: Inserting Hardware Post-Build').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Car dashboard and centre-console electronics, where lightweight aluminium press-in inserts hold buttons, screens and circuit boards to plastic or composite frames (PEM 'Press-In Inserts')
+  - An expanding wall plug or sleeve anchor, which works the same way as an expansion insert (PEM compares expansion inserts to 'the sheathed lag bolts you'd find at the hardware store') *(unverified parts omitted)*
+- **when_to_use**: Use a press-in or expansion insert when you want metal threads in a plastic, resin or wooden part but have no soldering iron or can't use heat: resin (SLA) prints and other thermosets that won't melt, parts that would warp near a hot iron, wood and particle board, or quick jobs where a vice or hammer is all you have. They suit screws that are taken in and out several times but don't carry big loads, such as covers, lids, electronics mounts and light brackets.
+- **when_not_to_use**: For strong or heavily loaded joints in thermoplastic prints (PLA, PETG, ABS, nylon), a heat-set insert holds several times better (SPIROL; PEM; Formlabs). Avoid tight press-fit inserts in thin walls, brittle plastics or polycarbonate prints, which can crack (SPIROL; Stratasys); use a heat-set insert, a glued insert or a captive nut pocket instead. Avoid them where the part gets hot, as screw-to-expand inserts may loosen at high temperatures (Formlabs). For screws fitted only once or twice, a self-tapping screw straight into the plastic is simpler; for the highest pull-out strength after moulding or printing, self-tapping (screw-in) inserts are stronger (SPIROL).
+- **environment_limits**: The insert holds only as well as the plastic gripping it. Formlabs warns that screw-to-expand inserts 'may loosen at elevated temperatures'. PLA starts to give at about 60 degrees C, PETG at 80 and ASA at 110 (CNC Kitchen oven test), so an insert in a PLA part in a hot car or near a motor can loosen. Brass itself is unaffected by normal temperatures and damp. *(unverified parts omitted)*
+- **safety_notes**: Some brass contains lead, and makers now offer lead-free brass, aluminium or stainless inserts (PEM; *(unverified parts omitted)*
+- **common_failures**: 2) The screw won't go in or binds: the hole was so small that it squeezed an expansion insert shut (E-Z LOK). 3) The plastic cracks or bulges around the insert: hole too small, walls too thin, a tapered insert in a thin boss, or a brittle material (SPIROL, pp. 5-6; PEM; Stratasys). 4) The insert pulls up out of the hole when tightening ('jack-out'): it was left below the surface, or the screw bottomed out in a hole that was too shallow (SPIROL, p. 5). 5) The insert went in crooked: use the insert's pilot, a press or vice, and a flat surface to push it square (SPIROL; Stratasys; Accu). 6) It works loose over time or in heat: an interference fit relies on the plastic staying tight (Formlabs); use a heat-set or glued insert for hot or vibrating parts. 7) Resin part cracks when the screw expands the insert: install the insert and screw before post-curing (Formlabs). *(unverified parts omitted)*
+- **related**: 
+  - Heat-set threaded insert: melted in with a soldering iron; holds several times better in thermoplastic prints but needs heat and doesn't work in resin
+  - Captive nut pocket (nut trap): an ordinary nut in a printed hex pocket; no special insert needed, strong when the nut is pulled against solid plastic
+  - Self-tapping (screw-in) threaded insert: has an outside thread that cuts into the hole; SPIROL rates it the strongest insert fitted after moulding
+  - Thread repair coil (helical insert, e.g. Helicoil (brand)): needs a tapped hole
+  - Rivet nut (rivnut): a threaded insert squeezed from one side to clamp a thin sheet
+  - Crush ribs and spring-fit features (compliant press fit): printed ribs that crush to hold a part in a hole without an insert
+  - Mid-print embedding (captive nuts, magnets and bearings): drop a nut in during a print pause so it is trapped for good
+  - Self-tapping screw into plastic (thread-forming screw): simplest, but plastic threads wear out after a few uses
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Press-in Insert (Wikimedia Commons, by Dhruvvasoya91)](https://commons.wikimedia.org/wiki/File:Press-in_Insert.png): Photo of a knurled press-in threaded insert machined from free-cutting brass *(licence: CC BY-SA 4.0)*
+  - [Press-In Threaded Inserts (PEM / PennEngineering)](https://www.pemnet.com/products-overview/products-threaded-inserts/threaded-inserts-press-in-inserts/): Vendor page with an animation of the press-in installation process and pictures of slotted, flanged and hex press-in inserts *(licence: link only)*
+  - [SPIROL Inserts for Plastics design guide (PDF)](https://www.spirol.com/assets/files/SPIROL-Inserts-for-Plastics-us.pdf): Drawings of press-in, heat, self-tapping and moulded-in inserts, knurl types, correct and incorrect installation depth, and boss and hole design, plus comparative pull-out and torque tables *(licence: link only)*
+  - [FDM Best Practice: Inserting Hardware Post-Build (Stratasys, PDF)](https://www.sys-uk.com/wp-content/uploads/2016/01/BP_FDM_InsertingHardwarePostBuild.pdf): Photos of knurled and expansion inserts in FDM parts and pressing with an arbor press, with step-by-step press-fit, glue and heat-set methods *(licence: link only)*
+  - [These threaded inserts aren't made for 3D prints (but work amazingly well) (YouTube, Made with Layers (Thomas Sanladerer))](https://www.youtube.com/watch?v=lYXTiJo_FQQ): Video comparing M5 rivet nuts, hex-socket wood inserts, helical inserts, self-tapping inserts and tee nuts (prong nuts) in 3D prints (as described by Hackaday, April 2024); title and channel confirmed via YouTube oEmbed, video not watched *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Heat-Set Insert Test Block with Graduated Hole Sizes (Vladimir Gamalyan, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1444127-heat-set-insert-test-block-with-graduated-hole-siz): Parametric OpenSCAD block with a row of holes stepping up in 0.1 mm increments and guide tubes; its description lists 'testing hole tolerance for press-fit or interference-fit parts'. Print flat with 100% infill. Read through the Printables public API. *(licence: Creative Commons Public Domain)* *(unverified parts omitted)*
+- **diagram_idea**: Side-by-side cut-away views: (1) a solid knurled insert above a slightly smaller hole, then pressed flush by a vice jaw, with small arrows where the knurls bite into the wall; (2) a slotted expansion insert pushed in loosely, then a screw going in and arrows showing the slotted sides spreading outwards; (3) a hammer-in tee nut in wood from the back face with its prongs; plus a small 'wrong' inset showing a crack from a hole that is too small and a spinning insert in a hole that is too big.
+- **sources**: 
+  - https://www.pemnet.com/products/engineering-guides/four-ways-to-tackle-threaded-inserts-for-plastics/
+  - https://www.pemnet.com/products-overview/products-threaded-inserts/threaded-inserts-press-in-inserts/
+  - https://www.pemnet.com/products/engineering-guides/si-threaded-inserts-for-plastic/
+  - https://www.spirol.com/assets/files/SPIROL-Inserts-for-Plastics-us.pdf
+  - https://www.sys-uk.com/wp-content/uploads/2016/01/BP_FDM_InsertingHardwarePostBuild.pdf
+  - https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/
+  - https://www.protolabs.com/resources/blog/threading-and-inserts-for-3d-printing/
+  - https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/
+  - https://www.ezlok.com/e-z-press-insert-installation
+  - https://www.accu.co.uk/p/486-threaded-inserts-fasteners-for-plastics-and-3d-printing
+  - https://www.mcmaster.com/products/threaded-inserts/
+  - https://www.mcmaster.com/products/threaded-inserts/thread-size~m3/
+  - https://en.wikipedia.org/wiki/Threaded_insert
+  - https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
+  - https://www.cnckitchen.com/blog/how-to-use-threaded-inserts-in-resin-3d-prints
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://hackaday.com/2024/04/15/alternate-threaded-inserts-for-3d-prints/
+  - https://www.youtube.com/watch?v=lYXTiJo_FQQ
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** access_needed, common_failures, environment_limits, everyday_examples, load, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, processes, removability, reuse_cycles, safety_notes, special_behaviour
 
 ## 258 Self-tapping screw into plastic (thread-forming screw)
 
 *print-in-place & 3D-printing joints.* A screw that cuts or forms its own thread in a plain hole in a printed or moulded part; simple but wears out after a few uses
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A pointed or coarse-threaded metal screw driven straight into a plain, slightly-too-small hole in a plastic or 3D-printed part, so the screw makes its own thread as it goes in; quick and cheap, but the plastic thread wears out if you undo it many times
+- **term**: Self-tapping screw into plastic (thread-forming or thread-cutting screw for plastics, driven into a pilot hole or screw boss)
+- **aliases**: 
+  - self-tapping screw, self-tapper (Wikipedia 'Self-tapping screw'; Hackaday)
+  - thread-forming screw (pushes the plastic aside, no chips) and thread-cutting screw (has a cutting flute, removes material) (Wikipedia 'Self-tapping screw'; Assembly Magazine)
+  - screw for plastics, plastic screw, PT screw; brand names include EJOT DELTA PT (brand), Plastite (brand) and Taptite (brand) (a trilobular thread-forming screw) (ATF/EJOT brochure; Assembly Magazine; Wikipedia 'Pentalobular screw thread')
+  - sheet-metal screw, PK screw (after Parker-Kalon (brand)), type B (blunt-tip) tapping screw (Wikipedia 'Self-tapping screw')
+  - screwing a machine screw directly into an undersized printed hole ('self tap' hole in BOSL2; 'direct screwing' in CNC Kitchen tests)
+  - screw boss (the moulded post with a hole that the screw goes into) (Assembly Magazine; EJOT)
+  - lobular or trilobular screw; self-forming thread with three lobes in the hole (Wikipedia 'Pentalobular screw thread'; Hackaday on Thomas Sanladerer)
+- **family**: print-in-place & 3D-printing joints
+- **other_families**: clamping, magnetic & friction connections
+- **one_liner**: A hardened screw with a sharp, widely spaced thread forms or cuts its own mating thread in a plain pilot hole in plastic, clamping a part on without any nut, insert or tapping, at the cost of a thread that wears each time it is undone.
+- **complexity**: A few parts: the screw (usually case-hardened steel, often with a coarse thread and a pointed or blunt tip) and a plain pilot hole in the plastic part, usually in a thick-walled post (screw boss); a washer or large head spreads the load (Wikipedia 'Self-tapping screw'; EJOT/ATF brochure).
+- **how_it_works**: The pilot hole is smaller than the screw's thread, so as the screw is turned its thread pushes the plastic aside (thread-forming) or shaves it away (thread-cutting) and leaves a matching thread in the hole wall (Wikipedia 'Self-tapping screw'). Screws made for plastics have a narrower thread angle (about 30-48 degrees instead of 60) so they push less outwards on the boss and are less likely to split it (Assembly Magazine). Once the head is down, tightening stretches the screw and clamps the parts together as in any screw joint, but the clamping force is limited by the strength of the plastic thread, which strips if over-tightened (Kolver). Each time the screw is removed and driven again, the plastic thread is worn or a new one is cut, so it gradually loosens (Hubs; Hackaday).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: fastens a lid, cover, bracket or circuit board to a plastic or printed part without a nut or insert
+  - tighten and hold tension: clamps the parts together, up to what the plastic thread can take (Kolver)
+- **motion**: none: the parts are clamped and don't move.
+- **degrees_of_freedom**: 0 when tightened.
+- **special_behaviour**: none: it simply clamps. (Screws made for plastics resist vibration loosening better than standard ones because of their thread shape, but that is not a special behaviour) (ATF/EJOT brochure)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the screw thread sits in the thread it formed in the plastic
+  - friction or clamping (force-fit): the tightened screw clamps the parts; a formed thread also grips the screw tightly (Kolver; Assembly Magazine)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable, but the plastic thread wears each time: Hubs says self-tapping screws are 'not suited for applications where parts will regularly be assembled/disassembled'; thread-cutting screws 'cannot be installed and removed repeatably' (Assembly Magazine).
+- **reuse_cycles**: a few times: CNC Kitchen calls direct screwing 'a viable option if you want to connect something only once'; Thomas Sanladerer uses three-lobed self-forming holes for parts screwed down 'once or twice' (Hackaday 2025). *(unverified parts omitted)*
+- **tools_needed**: screwdriver (manual or powered, ideally with a torque limit or clutch); optionally a drill to open the pilot hole to size after printing (Hubs). Industry uses torque-controlled electric screwdrivers at about 300-1000 rpm (Kolver; ATF/EJOT brochure).
+- **load**: Light to medium. Pull-out can be surprisingly good: M3 screws driven into slightly undersized holes in printed PETG held 118 kg on average, about the same as a heat-set insert (119 kg), and in an earlier PLA test 142 kg (CNC Kitchen). Weak in twisting: the plastic thread stripped at about 1 Nm of tightening torque on M3, against 3-4 Nm for a heat-set insert, though 1 Nm already gives more than 1500 N of clamping force (CNC Kitchen). Clamping force is limited by the plastic's stripping strength and falls over time as the plastic relaxes (Kolver; ATF/EJOT brochure). Bosses next to walls or in corners resist pull-out better than free-standing ones (Assembly Magazine).
+- **adjustable**: no: only the tightness can be changed, and re-tightening risks stripping the thread.
+- **play_and_precision**: No play in the thread once formed. Location of the clamped part depends on its clearance hole, as for any screw joint. A screw driven in at an angle cuts a crooked thread, so drive it straight (Hubs). *(unverified parts omitted)*
+- **access_needed**: one side only (blind): the screw is driven into a hole in the far part from the near side.
+- **materials**: Screws: hard steel, often case-hardened, with a thread running the full length (Wikipedia 'Self-tapping screw'). Suitable plastics: tough, ductile thermoplastics suit thread-forming screws (Assembly Magazine: plastics with a flexural modulus up to about 200,000 psi (about 1.4 GPa), or up to 400,000 psi with a larger hole); hard, brittle or glass-filled plastics and thermosets need thread-cutting screws or they crack (Assembly Magazine). Works in FDM prints (PLA, PETG, ABS, nylon, PC) and resin prints (Lost In Tech pilot-hole calculator lists these materials). Related screw types exist for wood (wood screws) and thin sheet metal (sheet-metal screws) (Wikipedia 'Self-tapping screw').
+- **maker_difficulty**: easy: design a slightly undersized hole, then drive the screw in; the only skill is finding the right hole size for your printer and material with a quick test print (Hubs; Hackaday).
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): the most common maker use; print the pilot hole into the part (Hubs; Hackaday)
+  - off-the-shelf part: moulded plastic housings with screw bosses, and the screws themselves
+  - woodwork: the same idea with wood screws, which are technically self-tapping (Wikipedia 'Self-tapping screw')
+  - sheet metal: sheet-metal self-tapping screws in punched or drilled holes (Wikipedia 'Self-tapping screw') *(unverified parts omitted)*
+- **print_in_place**: no: the screw is added after printing; the printed part only needs a plain pilot hole.
+- **making_tips_3d_printing**: 1) Hole size: printed holes come out undersized, so test first (CNC Kitchen; Hubs). A simple start from Hackaday is to make the lower hole the diameter of the screw's core (shaft without thread) and the upper part's hole big enough for the thread to pass. Screws for plastics are usually given a hole of about 0.8 x the thread diameter (EJOT/ATF brochure). For a machine screw driven straight into a print, BOSL2's 'self tap' hole is the nominal diameter minus about 0.72 x the pitch (e.g. about 2.64 mm for M3) and has a bevelled top to help the screw start. 2) Depth: give at least 1-1.5 x the screw diameter of thread engagement, more in plastics (Lost In Tech calculator; Field Fastener); moulding guides use 2 x (EJOT) to 2-3 x (Assembly Magazine). 3) Wall: make the wall around the hole at least one screw diameter thick (Hubs), i.e. a boss about 2-3 x the screw diameter across (EJOT; Assembly Magazine); thin walls bulge, split or delaminate (Hubs). More perimeters around the hole help; CNC Kitchen's test parts used four perimeters and 100% infill. 5) Add a small counterbore or chamfer (about screw diameter) at the entry so the edge doesn't crack and the screw starts straight (EJOT; Assembly Magazine; BOSL2). 6) Three lobes: a hole with three small ribs that the screw forms into lowers the stress on the part (Thomas Sanladerer, via Hackaday). 7) Drive slowly and straight and stop as soon as it is snug; don't use a pointed countersunk head, which wedges the plastic apart (Hubs; Assembly Magazine). 8) To reuse, turn the screw backwards until it drops into the old thread before tightening (Kolver). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Thread-forming screws for plastics (e.g. 30-degree 'PT' style or trilobular screws; brands include EJOT DELTA PT (brand), Plastite (brand) and Taptite (brand)) (ATF/EJOT brochure; Assembly Magazine; Wikipedia 'Pentalobular screw thread'); DIN 7981 tapping screws, which a Hackaday reader recommends as a consistent standard to buy; type B (blunt-tip) tapping screws for pilot holes; ordinary M2-M4 machine screws driven into undersized holes (CNC Kitchen; BOSL2); washers or flanged heads to spread the load (Wikipedia 'Self-tapping screw'; ATF/EJOT brochure; Hackaday).
+- **rules_of_thumb**: 
+  - Screws for thermoplastics: pilot hole 0.8 x the screw's nominal diameter (up to 0.88 x for filled or stronger plastics), boss outside diameter 2 x, screw engagement depth 2 x, and a counterbore of 1.05 x diameter at the entry; keep draft in the core hole below 0.5 degrees per side (ATF / EJOT DELTA PT brochure, 2017, p. 11).
+  - Boss outside diameter 2-3 x the screw thread diameter; thread engagement 2-3 x the screw diameter; add a relief bore equal to the screw's outside diameter; thread-forming screws suit plastics with a flexural modulus up to 200,000 psi (up to 400,000 psi with a larger hole), harder plastics need thread-cutting screws; avoid conical (countersunk and oval) heads (Assembly Magazine 'Beware the Boss', 2004).
+  - If the screw maker gives no pilot-hole size, aim for 75-80% thread engagement; wall thickness around the hole at least the screw diameter (e.g. 5 mm for M5) (Hubs 'How to assemble 3D printed parts with threaded fasteners').
+  - Engagement length at least 1 x the screw diameter, 1.5 x recommended for plastics; pilot diameter = major diameter x material factor x engagement correction, divided by your printer's hole shrinkage (Lost In Tech 'FDM pilot hole calculator').
+  - Thread-forming screws need at least 1-1.5 x the screw diameter engaged even in steel, and more in softer materials such as plastic (Field Fastener 'Rules of Thumb for Thread Engagement').
+  - For a machine screw driven straight into plastic, make the hole the nominal diameter minus 0.72 x pitch for pitches below 1 mm, minus 0.6 x pitch above 1.5 mm (BOSL2 screws.scad, 'self tap' tolerance).
+  - M3 screw straight into a slightly undersized printed hole: pull-out 118 kg in PETG (142 kg in an earlier PLA test), but it strips at about 1 Nm; a heat-set insert takes 3-4 Nm (CNC Kitchen).
+  - Tightening torque when fastening into plastic: the lower of 3 x the seating torque or halfway between seating and stripping torque; start at about 300 rpm if the screw maker gives no speed; when re-tightening into an existing thread, turn the screw backwards until it drops into the thread, engage about a quarter turn by hand, and use a lower torque (Kolver 'Fastening into Plastics').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Printed project enclosures and camera mounts held together with self-tappers instead of heat-set inserts (Hackaday, Jenny List's turret camera project)
+  - Screwing into wood (wood screws) and thin sheet metal (sheet-metal screws) uses the same idea (Wikipedia 'Self-tapping screw') *(unverified parts omitted)*
+- **when_to_use**: Use it for printed or moulded plastic parts that are put together once, or opened only occasionally (for repair or battery changes): enclosures, lids, brackets, mounting a circuit board or a small motor. It needs no nut, insert, soldering iron or tap, and goes in from one side, so it is the quickest and cheapest way to fasten into plastic (Hubs; Hackaday). Pull-out strength can match heat-set inserts (CNC Kitchen).
+- **when_not_to_use**: Avoid it when the part will be taken apart often, when you need high tightening torque or clamping force, or when the joint must stay tight at high temperature: use heat-set inserts, a captive nut or a bolt and nut instead (Hubs; CNC Kitchen). *(unverified parts omitted)*
+- **environment_limits**: Plastic around the screw relaxes and creeps, so the clamping force drops over time, faster when warm (Kolver; ATF/EJOT brochure; filamentspecs). In one test an M6 bolt clamping printed PETG lost about 11.5% of its undoing torque in a week at room temperature, PLA about 3% (Amza et al. 2021, bolted joint rather than self-tapper). PLA softens above about 60 °C, so screws in PLA can loosen in a hot car or near a heater (Prusa knowledge base). Vibration can loosen screws in plastic; screws designed for plastics resist this better (ATF/EJOT brochure).
+- **safety_notes**: Otherwise none known. *(unverified parts omitted)*
+- **common_failures**: Stripped thread from over-tightening or using a power driver without a clutch; stop when snug, or set a torque below the stripping torque (Hackaday; Kolver). Cracked or bulging boss, or layers splitting, from a hole that is too small, a wall that is too thin or a screw that is too aggressive for the plastic; enlarge the hole, thicken the wall, add a counterbore, or use a screw made for plastics (Hubs; Assembly Magazine; EJOT). Loose screw after reassembly because it cut a new thread; turn it backwards until it drops into the old thread first (Kolver; Hackaday comments). Joint slowly loosening from creep and stress relaxation; use a larger head or washer, lower torque, or an insert (Kolver; filamentspecs). Hole too big so the thread doesn't grip; test-print hole sizes (Hackaday; Lost In Tech).
+- **related**: 
+  - Heat-set threaded insert: a brass insert melted into the hole; takes 3-4 times the torque and can be reused many times, but needs a soldering iron
+  - Captive nut pocket (nut trap): a standard nut in a printed pocket; stronger and reusable, but needs space and access for the nut
+  - Press-fit and expanding inserts (tap-in insert): metal threads pushed or tapped in cold
+  - Printed screw thread: threads printed straight into the part; only practical above about M5 (Hubs)
+  - Ordinary screw joint (bolt and nut, machine screw): the baseline, reusable almost without limit
+  - Push-in plastic rivet (fir-tree clip, push rivet): no thread at all, pushed in by hand
+  - Heat staking (melted plastic rivet): a plastic post melted over, permanent
+  - Blind threaded fixings (rivet nut, well nut): give a reusable thread in thin sheet or panels
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Screw types.jpg (Wikimedia Commons, by Ssawka)](https://commons.wikimedia.org/wiki/File:Screw_types.jpg): Photo of several screw types including self-drilling and self-tapping screws beside wood screws *(licence: CC BY-SA 3.0)*
+  - [Závitořezný.png (thread-cutting screw) (Wikimedia Commons, by Juniperbushman)](https://commons.wikimedia.org/wiki/File:Z%C3%A1vito%C5%99ezn%C3%BD.png): Drawing of a thread-cutting self-tapping screw *(licence: CC BY-SA 4.0)*
+  - [Well, it turns out you CAN use screws in 3D Prints! But... (YouTube, Lost In Tech)](https://www.youtube.com/watch?v=8F4G-OyXHJs): Video comparing screw types for plastics in 3D-printed parts, with thermal-camera shots and torque tests (per Hackaday's write-up; title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [A better way to add threads to your 3D prints (YouTube, Made with Layers (Thomas Sanladerer))](https://www.youtube.com/watch?v=HgEEtk85rAY): Video comparing ways to add threads to prints, including self-tapping screws and three-lobed self-forming holes (per Hackaday's write-up; title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [No Need For Inserts If You're Prepared To Use Self-Tappers (Hackaday, Jenny List, 2025)](https://hackaday.com/2025/09/02/no-need-for-inserts-if-youre-prepared-to-use-self-tappers/): Photo of a printed camera project using self-tappers, and a render and OpenSCAD code for the two-hole design *(licence: link only)*
+- **make_it_yourself**: 
+  - [Metric self tap hole test - M2/M2.5/M3/M4 (1 to 5 mm) (PPat, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1338667-metric-self-tap-hole-test-m2m25m3m4-1-to-5-mm): Test print with a range of hole sizes from 1 to 5 mm to find which hole suits M2-M4 screws on your printer; parametric Fusion file included *(licence: Creative Commons Attribution)*
+  - [Screw hole tests and sizing tests (lostintech, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1629282-screw-hole-tests-and-sizing-tests): The 3.5 mm screw test parts used in Lost In Tech's screws-in-3D-prints video *(licence: Creative Commons Public Domain)*
+  - [BOSL2 screws.scad, screw_hole(tolerance="self tap") (OpenSCAD library)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/screws.scad): Makes a correctly undersized, bevelled hole for driving a machine screw straight into a printed part *(licence: BSD 2-Clause)* *(unverified parts omitted)*
+- **diagram_idea**: A cut-away of a printed screw post (boss) before and after driving the screw: a plain pilot hole about 0.8 x the screw diameter with a small entry counterbore, then the screw in place with the plastic pushed into a thread around it, labels for boss diameter (about 2 x screw) and engagement depth (about 2 x screw), and a small inset showing a stripped thread from over-tightening.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Self-tapping_screw
+  - https://en.wikipedia.org/wiki/Pentalobular_screw_thread
+  - https://en.wikipedia.org/wiki/Screw
+  - https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/
+  - https://www.cnckitchen.com/blog/helicoils-threaded-insets-and-embedded-nuts-in-3d-prints-strength-amp-strength-assessment
+  - https://www.cnckitchen.com/blog/threaded-inserts-for-3d-prints-cheap-vs-expensive
+  - https://www.assemblymag.com/articles/83662-beware-the-boss
+  - https://www.ejot-atf.com/wp-content/uploads/2017/02/ATFDELTAPT2017LowRes.pdf
+  - https://kolver.com/us/blog-detail/fastening-into-plastics
+  - https://www.fieldfastener.com/blog/2018/03/13/rules-of-thumb-for-thread-engagement
+  - https://hackaday.com/2025/09/02/no-need-for-inserts-if-youre-prepared-to-use-self-tappers/
+  - https://hackaday.com/2025/01/11/comparing-ways-to-add-threads-to-your-3d-prints/
+  - https://hackaday.com/2026/04/10/using-metal-screws-in-plastic-parts/
+  - https://lostintech3d.github.io/fdm-pilothole/pilot_hole_calc.html
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/screws.scad
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8659210/fullTextXML
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://commons.wikimedia.org/wiki/File:Screw_types.jpg
+  - https://commons.wikimedia.org/wiki/File:Z%C3%A1vito%C5%99ezn%C3%BD.png
+  - https://www.youtube.com/watch?v=8F4G-OyXHJs
+  - https://www.youtube.com/watch?v=HgEEtk85rAY
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** everyday_examples, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, play_and_precision, processes, reuse_cycles, safety_notes, seal, when_not_to_use
 

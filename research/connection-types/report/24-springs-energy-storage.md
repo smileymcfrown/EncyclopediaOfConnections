@@ -511,23 +511,549 @@
 
 *springs & energy storage.* Wavy flat rings or dished washers that give a strong spring force in a very short height, used to preload bearings and take up play
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Springy washers (a flat ring bent into gentle waves, or a washer pressed into a shallow cone) that push back hard when squashed while taking up almost no height; used to press bearings, clutch plates and bolted joints together and take out rattle
+- **term**: Wave springs and disc springs (Belleville washers): compact axial springs
+- **aliases**: 
+  - disc spring, Belleville spring, Belleville washer, coned-disc spring, conical spring washer, cupped spring washer (Wikipedia)
+  - Tellerfeder (German); DIN EN 16983 (formerly DIN 2093) disc springs, Series A, B and C
+  - conical spring washer for bolted joints, DIN 6796 (German: Spannscheibe)
+  - wave washer (single-turn wave washer); curved disc spring or curved spring washer (bent one way only, four contact points)
+  - wave spring, coiled wave spring, flat-wire wave spring, edge-wound wave spring, multi-turn wave spring, nested wave spring, single-turn gap or overlap wave spring, linear wave spring
+  - bearing preload spring, preload washer, slotted disc spring
+  - drag spring washer (fishing reels)
+  - Crest-to-Crest and Spirawave (brands, Smalley); scrowave spring (trade term listed by Wikipedia)
+- **family**: springs & energy storage
+- **other_families**: tensioning, reels & take-up, clamping, magnetic & friction connections
+- **one_liner**: Washer-shaped springs, either wavy flat rings (wave springs) or shallow cones (disc or Belleville springs), that give a strong, steady push along a shaft or bolt in a very short height, used to preload bearings, keep bolted joints tight and take up play.
+- **complexity**: Single piece (one wave washer or one disc spring), or a small stack of identical pieces arranged by the user; a multi-turn wave spring is one continuous coil of wavy flat wire. It needs something to guide it (a shaft or rod through the middle, or a bore around it) and something to hold it at its working height (a shoulder, nut, circlip or the parts it presses on).
+- **how_it_works**: A disc spring is a washer shaped like a very shallow cone: pressing it towards flat bends the whole ring, which takes a large force over a small movement, so it stores a lot of energy in very little height. How its force rises depends on the cone height compared with the thickness: shallow cones behave almost like an ordinary spring, taller ones level off so the force stays almost constant over part of the travel (handy for taking up wear), and very tall ones can snap through. A wave spring is a flat ring, or a coil of flat wire, formed with waves; squashing it flattens the waves, which bend like small beams between the high and low points, and a multi-turn wave spring does the job of a stack of wave washers in one piece. Stacking disc springs the same way up (in parallel) multiplies the force; stacking them alternately (in series) multiplies the travel.
+
+### Finder attributes
+
+- **job**: store energy: a stiff, compact push along an axis, tighten and hold tension: keeps a bearing, bolted joint, clutch or drag stack pressed together and takes up play, wear, settling and heat growth
+- **motion**: flex: squashes along its axis (compression only); travel is small (a single disc should move no more than 75% of its cone height), and longer travel comes from stacking discs in series or using a multi-turn wave spring
+- **degrees_of_freedom**: 1: it compresses and springs back along the shaft or bolt axis; the shaft or bore keeps it centred, and it is not meant to take sideways loads
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): keeps a nearly steady push on a bearing or bolted joint while parts wear, settle or grow with heat; spring preload 'remains practically constant' despite thermal elongation (SKF material in Design World), and busbar Belleville washers accommodate thermal cycling (EC&M)
+  - over-centre (only in tall, thin disc springs): with a cone height more than about 1.5 to 2 times the thickness the disc can push through or invert when taken towards flat, so it must be supported (SPIROL); this is normally a failure to design out, not a feature
+  - none of the other listed behaviours; discs stacked the same way up also rub on each other, which damps vibration (hysteresis) (SPIROL; Wikipedia)
+- **holding_principle**: spring force (it pushes on the parts it sits between; it does not hold anything by itself)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: it slips over a shaft or drops into a bore and comes out when the assembly is taken apart; it is usually trapped by a circlip, nut, shoulder or the parts it presses on
+- **reuse_cycles**: many times, if it has not been flattened too far, cracked or taken a set: steel disc springs sized with enough preload and limited travel are rated for millions of load cycles (SPIROL fatigue charts run to 2 million cycles), but a Belleville washer on an electrical joint gives less clamping force if it is backed off and flattened a second time (EC&M), and fishing-reel drag washers can eventually stay flat and need replacing (Mike's Reel Repair)
+- **tools_needed**: none to fit a loose wave or disc spring; circlip pliers or a spanner for whatever retains it; a torque wrench for Belleville washers on bolted joints (tighten until the washer just goes flat, as specified by the maker, EC&M); a vice, press or long bolt to compress a stack safely during assembly
+- **seal**: none
+- **load**: Disc springs: heavy for their size, supporting very large loads in a small space (Wikipedia; SPIROL 'high load capacity with small deflection'). Wave springs: light to medium; a wave washer gives less force than a Belleville washer of the same size (Wikipedia 'Washer'), while multi-turn, nested and round-wire wave springs carry more. Axial compression only: they cannot pull or twist, and sideways loads push them off-centre.
+- **adjustable**: Yes, by the way they are fitted: add or remove discs, change the parallel/series arrangement (e.g. eight identical discs stacked 2-3-1-2 give 3/7 of one disc's rate, 4-4 gives twice it; Wikipedia), add shims, or tighten a nut or knob to squash the spring further (e.g. a fishing-reel drag). A given spring's force at a given height is fixed.
+- **play_and_precision**: Removes play rather than locating: a spring-preloaded bearing has its axial and radial play taken out, and the wave spring helps keep the shaft centred (Smalley). It tolerates end float, tolerance stack-up and heat growth. Force is predictable only up to about 75% of a disc's cone height (SPIROL); wave springs are specified as a load at a working height (Smalley). Both types change diameter as they are squashed, so they need a guiding shaft or bore with clearance, and misaligned stacks load unevenly (SPIROL).
+- **access_needed**: end of a tube or shaft: slid over the end of a shaft or bolt, or dropped into the open end of a bore
+- **materials**: Disc springs: spring steels C67S (carbon) and 51CrV4 (alloy) with a zinc-phosphate-and-oil finish, 301 stainless for corrosion resistance, precipitation-hardening stainless for corrosion plus fatigue (SPIROL); Lee Spring's standard Bellevilles are 300-series stainless. Wave springs: carbon steel (standard), stainless steel, beryllium copper, Inconel and Elgiloy (Wikipedia 'Wave spring'). Plastic (e.g. PETG) printed wave springs for light, short-term use. They press on any material, but on soft materials (aluminium, plastic, wood) put a hardened or flat washer under them so the edge does not dig in (SPIROL; EC&M).
+- **maker_difficulty**: easy to fit: standard steel wave washers, wave springs and DIN disc springs are cheap and easy to buy; hard to make yourself in metal (needs spring steel and heat treatment); printed plastic wave springs are easy to print but weak and lose force over time
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the usual choice (DIN disc springs, conical spring washers, wave washers, single- and multi-turn wave springs, bearing preload springs)
+  - 3D print (FDM): plastic wave springs from parametric models or special g-code, for light, low-cycle jobs
+  - CNC: machining the bore, shaft or pocket that guides the spring and sets its working height
+- **print_in_place**: yes, but only for plastic wave springs: a printed wave spring comes off the printer as one working piece with no supports (e.g. the OpenSCAD wave spring generator, printed in PETG); steel wave and disc springs are bought, and plastic versions creep
+- **making_tips_3d_printing**: For anything that must keep its force for weeks or months, design the printed parts around a bought steel wave washer or disc spring: plastics creep and relax under constant load (Thrinter's creep test), and PLA in particular 'makes for a very poor spring material' (Hackaday, 2026). Design a proper spring pocket: set the gap so the spring sits at its intended working height, never flat; for a disc spring stay at or below 75% of its cone height (SPIROL). Guide the spring on a printed shaft or in a printed bore, and leave radial clearance because both types change diameter as they compress (SPIROL; Smalley 'wave springs expand during compression'). To preload a pair of ball bearings in a printed housing, put the wave spring against the outer ring of one bearing and give that bearing's outer ring a sliding fit so it can move along its seat (SKF material in Design World). Where a steel spring presses on plastic, add a flat or hardened washer so it does not dig in (SPIROL). If you do print a wave spring: the OpenSCAD 'Parametric Wave Spring' prints in PETG without supports, and its author warns not to add solid flat rings on the top and bottom, because the spring expands outwards as it compresses and solid rings stop it working; leave room around it for that growth. A 'midair' g-code method prints rectangular wave springs by bridging slowly so the plastic cools in the air (Printables 'Midair Rectangular Wave Spring'). Keep printed springs away from heat (PLA starts to give at about 60 °C and PETG at about 80 °C, CNC Kitchen). A steel Belleville washer under a screw that clamps a printed part may keep some clamping force as the plastic creeps; *(unverified parts omitted)*
+- **off_the_shelf_parts**: Disc springs to DIN EN 16983 (formerly DIN 2093) in Series A, B and C, Groups 1-3; conical spring washers to DIN 6796 for bolted joints; stainless Belleville disc washers; slotted disc springs; bearing preload springs (e.g. disc-type 'K' series, Schnorr; single-turn wave 'SSB' series, Smalley; brands); wave washers; curved disc springs (curved washers); single-turn gap and overlap wave springs; multi-turn wave springs with plain or shim ends; nested wave springs; round-wire and linear wave springs; pre-assembled disc spring stacks; hardened guide rods or sleeves and hardened thrust washers; retaining rings (circlips) to hold them.
+- **rules_of_thumb**: 
+  - DIN EN 16983 disc spring series by approximate ratios: Series A outside diameter/thickness about 18 and cone height/thickness about 0.4 (almost straight-line force); Series B about 28 and 0.75; Series C about 40 and 1.3 (SPIROL, 'Standard product range', https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf).
+  - Do not deflect a disc spring more than 75% of its cone height: beyond that the force rises sharply and no longer follows the calculation; choose a disc that gives the maximum force needed below 75% deflection (SPIROL, 'Deflection and load characteristics' and 'Design guidelines', https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf).
+  - Cone height/thickness up to 1.5: safe to take flat; about 1.5: nearly flat force curve over a long range, good for wear compensation; above 1.5: the force falls off and the disc can push through, so support it fully; above 2: it may invert (SPIROL, https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf).
+  - Stacking: in parallel the force multiplies by the number of discs at the same deflection; in series the deflection multiplies at the same force; keep stacks no taller than three times the outside diameter or ten discs, and no more than four discs in parallel; allow 2-3% friction per sliding surface (SPIROL, https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf; Wikipedia, https://en.wikipedia.org/wiki/Belleville_washer; Lee Spring, https://www.leespring.com/learn-about-belleville-washers).
+  - For repeated loading, keep a minimum preload of about 15-20% of the disc's maximum rating at all times (otherwise it tends to crack at the top inner edge), prefer larger, lighter discs (Series B or C) over small heavy ones, pick the largest outside diameter that fits, and use an outside/inside diameter ratio of 1.7-2.2 (SPIROL, 'Fatigue life' and 'Design guidelines', https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf).
+  - Temperature: standard disc spring steels begin to creep (take a set) above about 100 °C and are no longer viable at 150-200 °C; stainless grades work to about 300 °C (SPIROL, https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf); Lee Spring rates its 300-series stainless Bellevilles to 260 °C (https://www.leespring.com/learn-about-belleville-washers).
+  - A wave spring gives the same force and deflection as a coil spring in up to 50% less height; it is for compression only and is not the right choice for long travel with high load, such as a pogo stick (Smalley, https://www.smalley.com/blog/wave-spring-vs-coil-spring).
+  - Spring preload for a pair of deep-groove ball bearings: F = k x d, with F in kN and d the bore diameter in mm; k = 0.005-0.01 for small electric motors, k = 0.02 if the preload mainly protects stationary bearings from vibration (SKF material quoted in Design World, https://www.designworldonline.com/what-are-the-best-methods-for-preload-in-a-bearing-system/). Worked example (own calculation): an 8 mm bore bearing gives 0.04-0.08 kN, i.e. about 40-80 N.
+  - Spring preload is not suitable where high stiffness is needed, where the axial load changes direction, or where large unpredictable peak loads occur; use solid preload with shims, nuts or matched bearings instead (SKF material quoted in Design World, https://www.designworldonline.com/what-are-the-best-methods-for-preload-in-a-bearing-system/).
+  - Belleville washers on bolts are for maintaining a uniform bolt tension, not for locking; unless serrated they have no significant locking capability (NASA RP-1228 Fastener Design Manual, 1990, PDF p. 13, https://ntrs.nasa.gov/api/citations/19900009424/downloads/19900009424.pdf). DIN 6796 conical spring washers are matched to property class 8.8-10.9 bolts; ordinary DIN 2093 disc springs are much softer and unsuitable for that job (German Wikipedia 'Spannscheibe', https://de.wikipedia.org/wiki/Spannscheibe).
+  - On electrical busbar joints, mount the Belleville washer so its cup points toward the connection (away from the bolt head or nut), never let it overhang the connection pad, and tighten until it just goes flat (EC&M, https://www.ecmweb.com/content/article/20890080/how-to-use-belleville-washers-correctly).
+  - Guide stacks on a rod through the middle (preferred) or in a sleeve, case-hardened to about 58 HRC and ground; lubricate parallel stacks (e.g. molybdenum disulfide); avoid electroplated finishes on hard discs because of hydrogen embrittlement (SPIROL, https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the drag knob on a fishing reel, where a pair of dished 'drag spring washers' lets the drag be set gradually instead of jumping from loose to locked (Mike's Reel Repair)
+  - heavy electrical busbar and cable connections, which use Belleville washers under the nuts to stay tight as the joint heats and cools (EC&M)
+  - a thin wavy washer behind a ball bearing in a small electric motor, which takes out play, vibration and noise (SKF material in Design World on small electric motors; Smalley on noise)
+- **when_to_use**: When you need a strong, steady push in very little height: preloading ball bearings so they do not rattle or hum; taking up end float on a shaft or wheel; keeping a bolted joint tight when parts settle, creep or expand (aluminium, busbars, dissimilar metals); setting the squeeze on friction stacks such as clutches and fishing-reel drags; and adding a little cushioning or damping (parallel disc stacks). Choose disc springs for high force with small travel, and wave springs for lighter, more even force with a little more travel, especially around bearings and shafts where the space is thin and ring-shaped.
+- **when_not_to_use**: Not for long travel (use a coil spring) or for pulling and twisting (use extension or torsion springs; wave springs work in compression only, Smalley). Not as a lock washer to stop nuts shaking loose under side-to-side vibration: they keep tension but do not lock (NASA; German Wikipedia 'Spannscheibe'); use a nylon-insert nut, thread-locking adhesive or a wedge-locking washer. Not for bearings that need high stiffness or see reversing axial loads (use solid preload with shims or locknuts, SKF material in Design World). Not in printed plastic where the force must last: buy a steel spring.
+- **environment_limits**: Heat: standard disc spring steels start to take a set above about 100 °C and lose their strength at 150-200 °C; stainless grades go to about 260-300 °C (SPIROL; Lee Spring); Inconel wave springs suit high temperatures (Wikipedia 'Wave spring'). Printed plastic springs soften far lower (PLA about 60 °C, PETG about 80 °C, CNC Kitchen) and creep under steady load. Water and chemicals: the standard zinc-phosphate-and-oil finish only protects against humidity and occasional moisture; use stainless, beryllium copper or Elgiloy in wet or marine places (SPIROL; Wikipedia). Avoid electroplated hard springs: hydrogen can make them brittle so they shatter under impact or vibration (EC&M; SPIROL). Springs lose force over time if over-stressed; as long as the permissible stress is not exceeded, disc springs show no impermissible relaxation (Wikipedia, citing the Schnorr handbook).
+- **safety_notes**: Stored energy: a compressed disc stack can push very hard, so release it gradually (back off the nut, or use a press or long threaded rod) rather than prising it apart. Tall, thin discs can snap through suddenly. Small wavy washers and the circlips that hold them can spring out when removed; wear eye protection. Hard electroplated washers can break into pieces from hydrogen embrittlement (EC&M). On electrical busbar joints, isolate the supply before work and check each washer is flat and not cracked before switching back on (EC&M).
+- **common_failures**: (1) Squashed too far or overloaded: taken past about 75% of its cone height, or flat, the disc takes a permanent set and loses force; fishing-reel drag washers can end up flat and 'mushy' and need replacing (SPIROL; Mike's Reel Repair). (2) Fitted upside down or in the wrong order: a busbar Belleville with its cup the wrong way adds little clamping force, and stack ends should rest on the discs' outer edges (EC&M; SPIROL). (3) Wrong size: a washer overhanging the connection pad gives much less clamping force, and a big flat washer under it just bends (EC&M). (4) Fatigue cracks at the inner edge in repeated loading when no minimum preload is kept; keep 15-20% preload and limit travel (SPIROL). (5) Binding: wave washers pushed too far into their cavity can bind and give unpredictable load (Smalley), and springs rub on the shaft or bore if no room is left for their change in diameter. (6) Long stacks deflect unevenly because of friction; keep stacks short, guided and lubricated (SPIROL). (7) Discs digging into soft seats; add hardened washers (SPIROL). (8) Corrosion or hydrogen embrittlement from the wrong finish. (9) Plastic springs creeping and losing their push.
+- **related**: 
+  - Coil spring (compression, extension, torsion): the baseline spring; much longer travel, but can need up to about twice the height of a wave spring for the same force and deflection (Smalley)
+  - Ortho-planar spring: a flat, one-piece spring cut or printed from sheet whose centre moves out of the plane; the easiest compact axial spring to 3D print or laser cut
+  - Printed leaf spring (flat cantilever spring): a springy printed strip; easy to make but plastic creeps
+  - Split (helical) spring lock washer: a cheap spring washer often used to 'lock' nuts, though NASA calls it useless for locking; Belleville washers keep bolt tension better
+  - Torque limiters and friction clutches: set their slipping force with a spring; fishing-reel drags use a pair of Belleville washers for exactly this (Mike's Reel Repair)
+  - Crush ribs and spring-fit features (compliant press fit): printed features that take up play by bending once, rather than by a separate spring
+  - Constant-force spring and gas spring: other ways of giving a nearly steady force, over much longer travel
+  - Ball detent (spring plunger): a coil-spring-loaded ball that clicks into positions; uses a spring's push for indexing instead of preload
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Washerstack.png (Wikimedia Commons, SammusWikiDude)](https://commons.wikimedia.org/wiki/File:Washerstack.png): Belleville spring stacking configurations: single, parallel, series and series-parallel *(licence: CC0)*
+  - [Disc spring load-deflection characteristic curve.svg (Wikimedia Commons, Yapparina)](https://commons.wikimedia.org/wiki/File:Disc_spring_load-deflection_characteristic_curve.svg): Force against deflection curves for disc springs with different cone-height to thickness ratios, calculated with the Almen-Laszlo formula *(licence: CC0)*
+  - [Single turn wave spring.png (Wikimedia Commons, Slashme)](https://commons.wikimedia.org/wiki/File:Single_turn_wave_spring.png): Rendered 3D model of a single-turn wave spring with a gap; companion files show multi-turn and nested wave springs *(licence: CC BY-SA 4.0)*
+  - [Crest-to-Crest Wave Springs (Smalley, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=-VdQ8pqu7Zs): Manufacturer's video of multi-turn wave springs compressing, compared with round-wire coil springs *(licence: link only)*
+  - [Belleville Disc Spring Stacking Demo (BelleFlexTech, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=QhODuFC3BFc): Demonstration of stacking Belleville disc springs in series and parallel *(licence: link only)*
+- **make_it_yourself**: 
+  - [Parametric Wave Spring by PrintyMcPrintFace (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1510812-parametric-wave-spring): OpenSCAD wave spring generator (wire width and height, diameter, wave count, layers, wave height); the included STL printed on a Prusa MK4 in PETG without supports *(licence: CC BY-NC-SA)*
+  - [Stacked wave spring by aiber (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/241564-stacked-wave-spring): Parametric SolidWorks model of a stacked (multi-layer) wave spring with configurable diameters, section height, overlap and number of waves *(licence: CC BY-NC)*
+  - [Stacked Wave Disc Plastic Springs by Mechanical Stuff (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/352444-stacked-wave-disc-plastic-springs): Printable plastic wave disc springs with several rows of waves for higher loads *(licence: CC BY-NC)*
+  - [Wave Spring Fusion 360 Parametric Model by Maker (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1588728-wave-spring-fusion-360-parametric-model): Fusion 360 wave spring model driven by user parameters *(licence: Public Domain)*
+  - [Midair Rectangular Wave Spring (g-code hack) by Makefast Workshop (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1069910-midair-rectangular-wave-spring-g-code-hack): Open-source g-code generator that prints rectangular wave springs partly in mid-air (tested in PETG on Prusa MK3/MK3S printers) *(licence: Public Domain)*
+- **diagram_idea**: Side-by-side cutaways at the same scale: a coil spring, a multi-turn wave spring and a stack of disc springs all giving the same push, showing how much shorter the wave spring and disc stack are; below, a disc spring pair drawn 'in series' ( )( ) and 'in parallel' (( ) with arrows showing 'more travel' and 'more force', and a wave washer squeezed between a bearing's outer ring and a housing shoulder.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Belleville_washer (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Wave_spring (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Washer_(hardware) (read as raw wikitext)
+  - https://de.wikipedia.org/wiki/Spannscheibe (read as raw wikitext)
+  - https://www.spirol.com/assets/files/dsc-disc-spring-design-guide-us.pdf (SPIROL, 'Disc Springs' design guide, US edition)
+  - https://www.smalley.com/blog/wave-spring-vs-coil-spring
+  - https://www.smalley.com/blog/how-and-why-you-should-use-wave-spring-bearing-preload
+  - https://www.smalley.com/wave-springs/bearing-preload
+  - https://www.smalley.com/spring-design
+  - https://www.rotorclip.com/post/key-design-differences-between-wave-springs-and-coil-springs/
+  - https://www.designworldonline.com/what-are-the-best-methods-for-preload-in-a-bearing-system/ (Design World, 'What are the best methods for preload in a bearing system?', M. Santora, 12 Dec 2019, reproducing SKF material)
+  - https://www.schnorr-group.com/en/products/disc-springs/bearing-preload-springs/
+  - https://www.schnorr-group.com/en/expertise-technologies/disc-springs
+  - https://www.leespring.com/learn-about-belleville-washers
+  - https://ntrs.nasa.gov/api/citations/19900009424/downloads/19900009424.pdf (Barrett, R. T., NASA Reference Publication 1228, 'Fastener Design Manual', 1990)
+  - https://www.ecmweb.com/content/article/20890080/how-to-use-belleville-washers-correctly
+  - https://www.mikesreelrepair.com/10ew3-drag-spring-washer-8l-bnt1613-tgt0358/
+  - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://commons.wikimedia.org/wiki/File:Washerstack.png
+  - https://commons.wikimedia.org/wiki/File:Disc_spring_load-deflection_characteristic_curve.svg
+  - https://commons.wikimedia.org/wiki/File:Single_turn_wave_spring.png
+  - https://commons.wikimedia.org/wiki/File:Nested_Wave_Spring.png
+  - https://commons.wikimedia.org/wiki/File:Multi-turn_wave_spring_with_shim_ends.png
+  - https://commons.wikimedia.org/wiki/File:Belleville_washer_stack_illustration.png
+  - https://www.youtube.com/watch?v=-VdQ8pqu7Zs (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=QhODuFC3BFc (verified via YouTube oEmbed)
+  - https://api.printables.com/graphql/ (Printables models 1510812, 241564, 352444, 1588728 and 1069910 read via the public API)
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing
 
 ## 237 Gas spring (incl. lockable gas spring)
 
 *springs & energy storage.* A sealed cylinder of pressurised gas whose rod pushes out with a steady force, holding up lids and hatches; lockable types hold at any length
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A sealed metal tube with a shiny rod sticking out that always tries to push itself longer, so it holds a lid or hatch up for you and lowers it gently; a 'lockable' one can be stopped and held at any length by pressing a small button or lever
+- **term**: Gas spring (gas strut); lockable gas spring (locking gas spring)
+- **aliases**: 
+  - gas strut, gas damper (Wikipedia 'Gas spring')
+  - industrial gas spring, push-type gas spring (ACE catalogue)
+  - traction gas spring, pull-type gas spring, pulling gas spring (versions that pull instead of push) (ACE catalogue; McMaster-Carr)
+  - adjustable-force gas spring (has a bleed valve so the force can be lowered once) (McMaster-Carr; ACE)
+  - locking gas spring, lockable gas spring, remote-release gas spring, adjustment element (Stabilus; Suspa; McMaster-Carr; Bansbach)
+  - elastic-locking (spring-locking) and rigid-locking gas springs (Suspa; Stabilus; Bansbach)
+  - office chair gas lift, gas cylinder, chair gas spring (a lockable gas spring used as a seat-height column) (Wikimedia Commons 'Chair gaslift.jpg'; Stabilus)
+  - BLOC-O-LIFT, KOMBI-LIFT, STAB-O-MAT (brands, Stabilus); easylift (brand, Bansbach) - lockable gas spring product ranges
+  - nitrogen gas spring (die springs used in press tools; heavy-duty industrial relative) (Wikipedia 'Gas spring') *(unverified parts omitted)*
+- **family**: springs & energy storage
+- **other_families**: brakes, dampers & speed control, self-locking & anti-back-drive, sliding, telescoping & linear motion
+- **one_liner**: A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.
+- **complexity**: A small sealed assembly that acts as one unit (it cannot be opened): steel pressure tube, piston rod, piston with a tiny hole (orifice) or valve, rod seal and guide bushing, nitrogen gas, a little oil, and threaded ends that take swap-on end fittings (ball sockets, eyes, clevises) plus ball studs or brackets on the frame and lid (Wikipedia 'Gas spring'; ACE catalogue). A lockable gas spring adds a valve in the piston, a release pin sticking out of the rod end, and a release head, lever or Bowden cable to press it (Suspa; Stabilus).
+- **how_it_works**: The tube is filled with nitrogen at high pressure; the gas presses on both sides of the piston, but the rod takes up area on one side, so there is more force pushing the rod out than in, and the push equals the gas pressure times the rod's cross-section area (F = p x A) (ACE catalogue; explainthatstuff). Pushing the rod in makes the rod take up more room inside, so the gas is squeezed a bit more and the force rises by roughly 20-60 percent over the stroke (called progression) (ACE catalogue). Gas has to squeeze through a small hole in the piston, and oil at the rod end cushions the last few millimetres, so the rod moves at a controlled speed and stops gently (end-position damping) when mounted rod-down (ACE catalogue). In a lockable gas spring, a valve in the piston separates the two chambers: press the release pin and the valve opens so the rod can move (with the gas helping to carry the load); let go and the valve shuts, trapping gas (elastic locking, slightly springy) or oil (rigid locking) so the rod holds its position (Stabilus BLOC-O-LIFT; Suspa).
+
+### Finder attributes
+
+- **job**: 
+  - store energy: the compressed gas stores energy that lifts or counterbalances a lid, hatch, seat or arm
+  - slow it, stop it or keep its speed steady: the piston orifice and oil give a controlled opening speed and a soft stop at the end (ACE catalogue)
+  - lock, and release by hand: a lockable gas spring holds at any length until someone presses the release pin, lever or Bowden cable (Suspa; Stabilus)
+  - let it move (turn, slide or bend): the rod slides in and out, and the end fittings let it swing as the lid pivots
+- **motion**: slide: the rod telescopes in and out of the tube (stroke typically about 10 mm up to several hundred mm; Bansbach lists 10-800 mm for lockable types), while pivoting end fittings let the whole strut swing as the lid turns on its hinge.
+- **degrees_of_freedom**: 1 that matters: the rod sliding in and out along the tube's axis (it can also spin about its own axis, which does nothing useful). Mounted between two ball joints or pivots it acts as a push-rod that can also swing, so it must not be asked to resist sideways or bending loads (ACE catalogue). A locked lockable gas spring has 0 (rigid type) or a little springy give (elastic type).
+- **special_behaviour**: 
+  - hand-release only (locks under load, releases when a person operates it): a lockable gas spring holds its position until the release pin is pressed, directly, by a lever or via a Bowden cable; the Stabilus standard slide valve needs 2.5 mm of pin travel and a poppet valve only 1 mm (Stabilus BLOC-O-LIFT)
+  - self-locking (holds under load, won't back-drive): a locked rigid-locking gas spring traps oil so it will not move when pushed or pulled; an elastic-locking one traps gas so it holds but gives slightly and rebounds, which is wanted in chair backrests (Suspa; Stabilus). Some 'locking gas springs' instead latch automatically when fully extended so a lid can't close until released (McMaster-Carr)
+  - over-centre (snaps past a point and stays): not built in, but if the moving mount is placed so the strut's line passes the hinge when the lid is shut, the strut pulls the lid closed instead of popping it open (Camloc 'Gas strut mounting positions')
+  - none of the other listed behaviours; its own trick is a nearly steady push over a long stroke, with built-in speed control and a soft end stop (ACE catalogue)
+- **holding_principle**: 
+  - spring force (a spring or springy part presses it in place): the gas pushes the rod out and holds the lid or hatch up
+  - suction or air pressure: the force comes from compressed nitrogen; in a lockable type a closed valve traps gas or oil so the rod cannot move (Suspa; Stabilus)
+- **input_output**: Not a transmission, so mostly not applicable. For reference: it turns stored gas pressure into a straight push along the rod (F = p x A), which the mounting geometry turns into a turning force (moment) about the lid hinge. Push force rises from fully extended to fully compressed by the 'progression', about 20 to 95 percent depending on the model and stroke (ACE catalogue). Friction in the seals means the force when being pushed in is higher than when extending (ACE catalogue). Back-drivable: yes for a standard gas spring (you can push it in by hand); no for a locked rigid-locking type; slightly (springy) for a locked elastic type (Suspa).
+- **power**: passive (no power needed). A lockable gas spring is released by hand through a pin, lever or Bowden cable, so losing electrical power does not matter; hydraulic remote-release systems also exist (Bansbach).
+- **removability**: removable: the end fittings clip or screw onto ball studs or bolt through eyes, so the strut can be swapped (ACE says fit it fully extended and support the lid while doing so). The strut itself is a sealed, permanent unit that must never be opened (ACE catalogue).
+- **reuse_cycles**: many times: fitting and removing the strut can be repeated freely; the strut's own life is set by its seals. ACE gas springs are generally tested to 70,000 strokes (about 2-10 km of rod travel), and some applications reach 500,000 strokes or more (ACE catalogue).
+- **tools_needed**: A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid'). *(unverified parts omitted)*
+- **seal**: none as a connection (it doesn't seal anything else). Inside, it is an airtight pressure vessel sealed by the rod seal and guide; up to 300 bar internal pressure (ACE catalogue).
+- **load**: Light to heavy: stock industrial gas springs range from about 10 N to 13,000 N of push, in body diameters from 8 mm to 70 mm (ACE catalogue); lockable types about 50-2,600 N (Bansbach) or 200-1,000 N (Suspa). Strong only along its own axis in push (or pull, for traction types); it must not take tilting, side or bending loads, which bend the rod and wear the seals (ACE catalogue). Long, thin, high-force struts are the least stable; ACE advises avoiding 'small diameter + long stroke + high force'.
+- **adjustable**: Partly. Force is fixed for a plain gas spring, but valve types let you bleed gas out to lower the force permanently (McMaster-Carr 'Adjustable-Force Gas Springs'; ACE 'The valve allows the force to be adjusted'); if too much is released it must be replaced (Wikipedia). The lifting feel can be tuned by moving the mounting points (Camloc; Engineer Live). A lockable gas spring can be set and locked at any length along its stroke (Bansbach).
+- **play_and_precision**: It does not locate parts precisely: installation length tolerance is about +/-2 mm and force tolerance +/-7 percent (ACE catalogue). Pivoting end fittings tolerate the angle changes of a swinging lid, but it must not be loaded sideways (ACE). A locked elastic lockable spring gives slightly and rebounds; a rigid one does not (Stabilus; Suspa). *(unverified parts omitted)*
+- **access_needed**: not applicable: it is fitted between two mounting points (one on the frame, one on the lid or moving part) and you need to reach both ends; nothing has to be reached from behind unless the brackets are through-bolted.
+- **materials**: Steel pressure tube (usually painted or black coated), hardened chrome or stainless steel piston rod (ACE uses 303 stainless rods), nitrogen gas and oil inside; stainless steel versions (V4A/316) for boats and food machinery (ACE; Bansbach). End fittings are steel or plastic; brackets can be steel, aluminium or strong 3D-printed plastic. It suits wood, metal and plastic lids as long as the brackets are firmly anchored.
+- **maker_difficulty**: easy to fit, not something to make: buy the strut (it is a high-pressure vessel) and screw on bought or printed brackets. The hard part is choosing the force and mounting points, which a free online calculator can do (Gasspringsshop calculator).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the gas spring itself, end fittings, ball studs and mounting brackets
+  - 3D print (FDM): mounting brackets, stand-offs and adapters (e.g. printer-enclosure lid struts on Printables)
+  - sheet metal: bent steel brackets
+  - CNC: machined brackets and ball studs *(unverified parts omitted)*
+- **print_in_place**: no: the gas spring must be bought; only its brackets and adapters are printed, as separate parts.
+- **making_tips_3d_printing**: 1) Print only the brackets, never anything that holds pressure. 2) Use a tough, heat-resistant plastic: one enclosure-lid design says 'Print with PETG, 3 walls and 20% infill. PLA will soften in the enclosure' (Printables 'Gas Struts for Prusa XL Enclosure Lid'); another maker found the original light mounts bent under a heavy lid and redesigned them for ABS, ASA, PC-CF or PA-CF at 25 percent infill or more (Printables 'Gas struts Mount/Stabilizer'). 3) Let metal carry the load where you can: screw a steel ball stud into a heat-set insert or through a nut, and bolt the bracket to the frame with several screws, rather than relying on printed threads (the Mount/Stabilizer design uses M6 heat inserts, drop-in nuts and nyloc nuts). 5) Remember the bracket feels the full strut force (often 100-400 N) and the lid hinge feels more; a small move of the mount point changes the forces a lot, so test with the lid supported (Engineer Live; ACE). 6) Choose the strut force by test or calculation: in one enclosure design 30-40 N struts worked and 20 N was not strong enough (Printables Prusa XL lid). 7) Keep the strut rod-down when the lid is closed and leave about 10 mm of unused stroke so it doesn't bottom out (Camloc). 8) Never paint, sand or scratch the rod near printed parts (ACE). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'gas spring', 'gas strut', 'lift support', 'add-a-fitting gas spring' (threaded ends for swap-on fittings), 'pulling gas spring' or 'traction gas spring', 'adjustable-force gas spring' (bleed valve), 'high-temperature gas spring', 'corrosion-resistant' or 'stainless steel gas spring', 'locking gas spring' and 'remote-release gas spring' (McMaster-Carr catalogue names); 'lockable gas spring' with 'elastic' or 'rigid' locking, 'release head', 'release lever', 'Bowden cable release' (Stabilus BLOC-O-LIFT, Suspa, Bansbach easylift - brands); end fittings: 'ball socket', 'angle ball joint', 'swivel eye', 'eyelet', 'clevis', 'ball stud' (commonly a 10 mm ball with an M6 thread on small struts: Thingiverse 'Gas Strut End, Ball joint Cup 10mm, M6x1'); 'gas spring mounting bracket'. Related: 'gas-spring-style mechanical springs' (no seals to leak) (McMaster-Carr).
+- **rules_of_thumb**: 
+  - Push force F = p x A (gas pressure times rod area); force tolerance +/-7 percent; force rises about 3.4 percent for every 10 °C warmer (nominal force F1 is quoted at 20 °C); standard seals work from -20 °C to +80 °C, special seals from -45 °C to 200 °C (ACE Industrial Gas Springs catalogue, p. 2 and 5).
+  - Force 'progression' (rise from extended to compressed) is roughly 20-60 percent for most push types and up to 95 percent for some; installation length tolerance +/-2 mm; don't combine small diameter, long stroke and high force (ACE catalogue, p. 2 and 5).
+  - Mount rod-down (rod pointing down when the lid is closed) so the oil lubricates the main seal and damps the end of the stroke; Camloc prefers the 'push up' layout, where the moving mount is closer to the hinge than the fixed mount (Camloc 'Gas strut positioning'; ACE catalogue).
+  - Start with the moving mount about 1/3 of the lid length from the hinge; the crossover point (where the strut takes over lifting) is often 10-30° from fully closed; allow about 10 mm of unused stroke so it doesn't bottom out before the lid shuts; an over-centre mount position stops the lid springing open (Camloc 'Gas strut mounting positions').
+  - Force needed per strut: F1 = mass of lid x g x distance from hinge to centre of gravity / (distance from hinge to strut line x number of struts); aim for hand forces of 60 N or less to open and close (Camloc Motion Control in Engineer Live 'How to specify gas struts accurately').
+  - Life: generally tested to 70,000 strokes, equal to about 2-10 km of rod travel; 500,000 strokes or more in some applications (ACE catalogue, p. 2).
+  - Rigid-locking (oil-filled) lockable springs must be mounted roughly vertical: rod down to lock against extension, rod up to lock against compression; the standard slide-valve release needs 2.5 mm of pin travel, a poppet valve 1 mm (Stabilus BLOC-O-LIFT page).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The struts that hold up a hatchback's tailgate or a car bonnet (Wikipedia 'Gas spring'; Wikimedia Commons 'Heckklappendämpfer.JPG')
+  - An office chair's height column (gas lift), which is a lockable gas spring released by the lever under the seat (Wikimedia Commons 'Chair gaslift.jpg'; Stabilus)
+  - Lift-up lids on toolboxes, storage chests, fold-away beds and machine guards (ACE application list)
+  - Hospital beds and height-adjustable tables that lock at any height (Stabilus; Lesjöfors)
+- **when_to_use**: Use a gas spring to lift, hold open or counterbalance a hinged lid, hatch, door, seat, screen or arm so it feels light and doesn't slam, especially where a coil spring would be too long or its force would change too much over the travel (ACE; explainthatstuff). The built-in damping gives a smooth opening speed and soft stop (ACE). Use a lockable gas spring when something must be adjusted and then stay put at any position, such as seat and backrest height, table height, bed sections, or a work surface angle (Stabilus; Suspa; Lesjöfors). Choose rigid locking where no movement is allowed when locked (operating tables, wheelchair recline) and elastic locking where a little give feels comfortable (chair backrests) (Stabilus; Lesjöfors). Popular with makers for 3D-printer enclosure lids (Printables).
+- **when_not_to_use**: Avoid it where it would be loaded sideways or used as a structural brace, because side loads bend the rod and ruin the seal (ACE); for very cold places where the force drops, or near heat above its seal rating (ACE). For small, light lids a friction or torque hinge, a lid stay or a self-closing hinge is simpler. For a steady pull over a long distance in a small space use a constant-force spring; for a holding brake with no pressure vessel use a friction hinge or ratchet stay; if it must last millions of cycles or never leak, consider a gas-spring-style mechanical spring (McMaster-Carr 'no seals to fail or gas to leak'). A counterweight gives truly constant force but is heavy. *(unverified parts omitted)*
+- **environment_limits**: Temperature changes the force: about 3.4 percent per 10 °C, so a lid that stays up in summer may sag in winter; standard seals -20 °C to +80 °C, special seals -45 °C to 200 °C; never put it over heat or in fire (ACE catalogue). High-temperature types rated to 392 °F (200 °C) exist (McMaster-Carr). Use stainless versions in damp, salty or food environments (ACE; Bansbach). Keep dirt, paint and scratches off the rod because rod damage destroys the seal and lets gas out (ACE). After long storage it may stick at first (breakaway 'stiction') but should not have lost pressure (ACE). With use, seals wear and gas slowly escapes, so force drops and lids begin to sag (Wikipedia lists leakage, failing to hold the load and sagging as signs of failure). Printed brackets in warm enclosures should not be PLA (Printables Prusa XL lid).
+- **safety_notes**: It is a pressure vessel: internal pressure can be up to 300 bar (4,350 psi); do not open, cut, crush, puncture, heat or modify it (ACE; Camloc). To scrap one, it must first be depressurised by slowly drilling a 2-3 mm hole 15-20 mm from the closed end while wearing safety glasses, ear plugs and protective clothing, because oil and metal fragments can spray out; never cut or put it in a lathe before depressurising (Camloc disposal advice). A strut can push a lid or door open hard and fast, so support the lid while fitting or removing struts and fit them fully extended (ACE). Wikipedia reports a cheaply made office-chair gas spring exploding and ejecting its rod; buy from reputable makers. *(unverified parts omitted)*
+- **common_failures**: Losing gas through worn or damaged seals, so the lid sags or won't stay open; caused by scratched, dirty or painted rods, side loads and mounting rod-up so the seal runs dry (ACE; Camloc). Bent rod from side or tilting loads; use ball joints or pivoting end fittings so it only sees straight push (ACE). Wrong force: too strong and the lid won't stay shut or flies open, too weak and it drops; use the moment calculation or a calculator and an over-centre closed position (Camloc; Engineer Live; Gasspringsshop). Bottoming out before the lid is closed, fixed by leaving about 10 mm of spare stroke (Camloc). Weak in the cold (ACE). Stiff first movement after storage (ACE). Printed or light brackets bending or cracking under the strut force; one maker's original mounts 'bent' and a strut 'ripped' (Printables 'Gas struts Mount/Stabilizer'). Lockable types: elastic ones creep or bounce under heavy external loads, so use rigid locking where no movement is allowed (Stabilus; Lesjöfors).
+- **related**: 
+  - Coil spring (compression): cheap and simple, but its force rises steeply as it is squashed and it has no built-in damping
+  - Constant-force spring: a coiled steel strip that pulls with nearly the same force over a long distance; pulls instead of pushes and has no damping
+  - Dampers (rotary and linear soft-close dampers): control speed like a gas spring but give no lifting force of their own
+  - Friction hinge (torque hinge) and lid stays: hold a lid at any angle by friction instead of pushing it up
+  - Spring balancer (gravity compensation): springs arranged to cancel a weight at every angle, as in an anglepoise lamp
+  - Over-centre linkage (toggle): a mounting geometry that can make a gas-sprung lid pull itself shut
+  - Spring button lock and indexing plunger: lock a telescoping tube at set holes instead of at any length like a lockable gas spring
+  - Counterweight: gives a truly constant force with no seals, but is heavy and bulky
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Gas-spring simplified numbered 120.png (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png): Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston and flow-restriction orifice (used in Wikipedia's 'Gas spring' article) *(licence: CC BY-SA 2.5)*
+  - [Chair gas spring disassembled.jpg (Wikimedia Commons, by ASDFS)](https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg): Photo of an office-chair gas spring (a lockable gas spring) taken apart, showing its tubes and internal parts *(licence: CC BY-SA 4.0)*
+  - [How do gas springs work? (Explain that Stuff)](https://www.explainthatstuff.com/gassprings.html): Plain-English explanation with an animation of the piston moving, a force diagram, a gas-and-oil cutaway and a seal diagram *(licence: link only)*
+  - [busting open a gas spring and how they work. (YouTube, daveknowshow)](https://www.youtube.com/watch?v=zNp5qmd650M): Video of a gas spring being opened up and its parts explained (title and channel checked via YouTube oEmbed; not watched). Do not try this yourself: the spring must be depressurised first *(licence: link only (standard YouTube licence))*
+  - [Locking Gas Springs (YouTube, Easylift GasSprings)](https://www.youtube.com/watch?v=HojDjwwRZ04): Video of locking gas springs and the assembly of a Bowden-wire release system (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Gas spring calculator (Gasspringsshop)](https://www.gasspringsshop.com/gas-spring-calculator/): Free online calculator: enter the lid size, weight, angles, pivot position, temperature and hand force, and it suggests gas springs, mounting points, force graphs and a 3D simulation *(licence: link only (free web tool from a gas-spring seller))*
+  - [Gas Struts for Prusa XL Enclosure Lid (krayft, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1042648-gas-struts-for-prusa-xl-enclosure-lid): Printed brackets for adding two 30-40 N gas struts to a 3D-printer enclosure lid, with two opening heights; printed in PETG. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Gas struts Mount/Stabilizer (RohDruck, Printables)](https://www.printables.com/model/254676-gas-struts-mountstabilizer): Stronger printed gas-strut mounts for an enclosure lid, redesigned after the original light mounts bent; uses M6 heat inserts, drop-in nuts and struts with M6 threads. Appeared in web search results; details read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))* *(unverified parts omitted)*
+- **diagram_idea**: A side view of a lid on a hinge with a gas strut drawn as a cutaway tube (gas shown as dots, a small oil pool at the rod end, a tiny hole in the piston), arrows showing the gas pushing on the larger inner face of the piston, the moving mount about a third of the way along the lid, and an inset showing a lockable version's valve open (rod moves) and closed (rod held).
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Gas_spring
+  - https://www.ace-ace.com/media/acedownloads/ACE_Catalog_GasSprings_US_2012.pdf
+  - https://camloc.com/us/help-centre/installing-gas-struts/understanding-gas-strut-mounting-points/
+  - https://camloc.com/us/help-centre/installing-gas-struts/gas-strut-positioning/
+  - https://camloc.com/us/help-centre/which-standards-apply-to-gas-struts/gas-strut-disposal-advice/
+  - https://www.engineerlive.com/content/how-mount-gas-springs-effectively
+  - https://www.explainthatstuff.com/gassprings.html
+  - https://www.lesjofors.com/en/technology/insights/gas-spring-locking-mechanism/
+  - https://www.suspa.com/us/products/lockable-gas-springs/
+  - https://www.stabilus.com/products/lockable-gas-springs/bloc-o-lift-and-kombi-lift
+  - https://group.stabilus.com/technologies-and-innovations/mechanical-solutions/locking-gas-springs
+  - https://www.bansbach.com/en/products/gas-springs/lockable-gas-springs/
+  - https://www.mcmaster.com/products/gas-springs/
+  - https://www.gasspringsshop.com/gas-spring-calculator/
+  - https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png
+  - https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg
+  - https://commons.wikimedia.org/wiki/File:Chair_gaslift.jpg
+  - https://commons.wikimedia.org/wiki/File:Heckklappend%C3%A4mpfer.JPG
+  - https://api.printables.com/graphql/
+  - https://www.thingiverse.com/thing:2381580
+  - https://www.youtube.com/watch?v=zNp5qmd650M
+  - https://www.youtube.com/watch?v=HojDjwwRZ04
+
+### Other info
+
+- **Fields with unverified parts:** aliases, make_it_yourself, making_tips_3d_printing, play_and_precision, processes, safety_notes, tools_needed, when_not_to_use
 
 ## 238 Spiral power spring (clock spring)
 
 *springs & energy storage.* A flat strip coiled into a spiral that stores energy when wound and releases it as it unwinds, as in clockwork and retracting cords
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A long ribbon of springy steel rolled up like a snail shell, usually inside a round case: wind it up and it stores energy, then it turns things as it unwinds, like the spring in a wind-up toy or the one that pulls a tape measure back in
+- **term**: Spiral power spring (power spring, clock spring, mainspring)
+- **aliases**: 
+  - power spring, clock spring (John Evans' Sons: 'Power springs (also referred to as clock springs)')
+  - mainspring (the spiral spring that powers clockwork watches, clocks and wind-up toys) (Wikipedia 'Mainspring')
+  - spiral torsion spring (Lesjöfors says there is 'no real difference' from a clock spring; John Evans' Sons uses the name for open-wound springs that turn less than one revolution)
+  - flat spiral spring, spiral spring (Tokai Spring; RoyMech)
+  - rotor spring (McMaster-Carr catalogue name: 'Wind to store power, then release to create rotary motion')
+  - spring motor, wind-up motor, clockwork motor (a power spring with a ratchet and gears) (Printables 'Duplo wind-up motor'; Wikipedia 'Mainspring')
+  - pre-stressed power spring, Conpower (brand, Vulcan Spring)
+  - retractor spring, tape-measure spring, reel spring (products built around it) (Vulcan Spring: seat belts, dog leashes, badge reels; Lee Spring: seat belt webbing, tape measures, dog leads, seat recliners, window regulators)
+  - hairspring or balance spring: a tiny open-wound spiral used for timekeeping, not for storing power (Wikipedia 'Spring (device)')
+  - Not to be confused with a car's 'clockspring', a spiral flat cable in the steering wheel that carries electrical signals (Wikipedia 'Clockspring')
+- **family**: springs & energy storage
+- **other_families**: tensioning, reels & take-up
+- **one_liner**: A flat strip of spring steel coiled into a spiral between a centre shaft and an outer case, which stores energy as it is wound tighter and gives it back as turning force as it unwinds, powering clockwork and pulling cords, tapes and belts back into reels.
+- **complexity**: A few parts working as one unit: the spiral steel strip, a centre shaft (arbor) with a hook or slot for the inner end, and an outer case (barrel, housing or retaining ring) or post for the outer end (John Evans' Sons; Wikipedia 'Mainspring'). Clockwork adds a ratchet wheel and pawl (called the 'click') to stop it unwinding while you wind, a winding key or knob, and a gear train; reels add a drum and cord, tape or belt (Wikipedia 'Mainspring').
+- **how_it_works**: The strip's inner end is hooked to the centre shaft and its outer end to the case or a fixed post. Turning the shaft wraps the strip tighter around it, bending every coil more, and the bent steel pushes back as a turning force (torque) that grows the more it is wound (John Evans' Sons; Wikipedia 'Mainspring'). Let go and it turns the shaft or the case back, driving a gear train or pulling a cord onto a reel; in a watch's 'going barrel' the spring winds by the shaft and drives through gear teeth on the case, and a ratchet 'click' stops the shaft slipping back (Wikipedia 'Mainspring'). Tightly wound 'power springs' in a case can turn many times (about 15-25 turns, more when pre-stressed), while open-wound 'spiral torsion springs' with gaps between coils turn less than one revolution and spring back to centre (Vulcan Spring; John Evans' Sons).
+
+### Finder attributes
+
+- **job**: 
+  - store energy: wound up by hand, by a pulled cord or by a motor, it gives the energy back as turning force (clockwork, wind-up toys, timers)
+  - tighten and hold tension: in retracting reels it keeps a cord, tape, lead, hose or seat belt pulled back and takes up slack (Vulcan Spring; John Evans' Sons)
+- **motion**: rotate: many turns for a cased power spring (Vulcan: up to about 20-25 turns; John Evans' Sons: pre-stressing raises useful turns from about 15 to up to 35); less than one turn (360°, 270° preferred maximum) for an open-wound spiral torsion spring (John Evans' Sons). With a drum and cord it gives a straight-line pull.
+- **degrees_of_freedom**: 1: the centre shaft turns relative to the case. The spring itself does not guide anything, so the shaft needs its own bearings or bushings and the spring should be kept flat in its case.
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): in retracting reels it pulls the cord, tape or belt back in and keeps it taut (Vulcan Spring: seat belts, dog leashes, badge reels, canister vacuum cleaners)
+  - none of the other listed behaviours on its own: the one-way hold while winding comes from a separate ratchet and click (pawl), and the steady running speed of a clock comes from an escapement, not the spring (Wikipedia 'Mainspring')
+- **holding_principle**: 
+  - spring force (a spring or springy part presses it in place): the wound strip provides the turning force
+  - not a holding joint (it moves or passes on motion): it is an energy store; its ends are simply hooked, pinned or clamped to the shaft and case (John Evans' Sons: 'hubs or collets, tabs and keyways, hooks and pin, hook and slot')
+- **input_output**: Winding rotation in -> torque out (or a straight pull, via a drum and cord). Torque rises as it is wound; for a free (open) spring it falls roughly in a straight line to zero as it unwinds (Wikipedia 'Mainspring', torque-curve figure), while cased power springs have a non-linear curve because the amount of active strip changes and the coils rub (John Evans' Sons). Friction means it takes more torque to wind than it gives back (hysteresis) (Vulcan Spring). Designers usually leave the first and last 20 percent of the turns unused because torque rises steeply there (Vulcan Spring). Arrangements such as a pre-coiled spring in a going barrel, a fusee (cone pulley) or stopwork give a flatter torque (Wikipedia 'Mainspring'). Back-drivable: yes, it always drives back unless a ratchet and click hold it.
+- **power**: passive (no power needed); it is wound by hand, by pulling the cord or tape out, or occasionally by a motor.
+- **removability**: removable: the ends are hooked, pinned or slotted so the spring can be replaced (Wikipedia: watch mainsprings attach by 'small hooks or tabs' through square holes 'so it can be easily replaced'), but only with care and the right tools because of the stored energy.
+- **reuse_cycles**: many times: a cycle is one full wind and unwind; power springs 'rarely have life cycles exceeding 200,000 winds and will likely be under 100,000 if space and torque are optimized' (Vulcan Spring); spiral torsion springs range from several thousand to over a million cycles depending on material and use (John Evans' Sons).
+- **tools_needed**: None to use a spring already in its case. Fitting a loose spring needs a mainspring winder or a retaining ring to wind it into its case, a let-down key to release a wound clock spring safely, pliers, gloves and eye protection (Wikipedia 'Mainspring': 'mainspring winder', 'mainspring clamps'; YouTube 'Clock Mainspring - How to let down the power... Safely!').
+- **seal**: none
+- **load**: Light to medium turning force: stock and custom spiral springs range from about 0.02 to 700 in-lb (about 0.002-79 N·m) of torque (Lesjöfors). It only gives torque about the shaft; bearings must carry any side loads. The more energy stored, the more violent a failure (Wikipedia 'Mainspring' hazards).
+- **adjustable**: Partly: the starting tension (preload) can be set by winding extra turns before fixing the ratchet or anchoring the case, but the torque curve is fixed by the strip's width, thickness and length; change it with a different spring or with gearing (Vulcan Spring; *(unverified parts omitted)*
+- **play_and_precision**: not applicable (it does not locate parts). Its torque changes as it winds and unwinds, and friction between coils adds hysteresis (John Evans' Sons; Vulcan Spring).
+- **access_needed**: end of a tube or shaft: the inner end must be hooked to the centre shaft and the outer end to the case, usually during assembly of the housing; winding is done from the shaft end by a key or knob.
+- **materials**: Spring steel strip: 1074 and 1095 high-carbon steel, 301 and 302 stainless steel, and Inconel (Lesjöfors); strip from about 0.002 inch (0.05 mm) to 0.080 inch (2 mm) thick (John Evans' Sons). Modern watch mainsprings use stainless 'white metal' alloys (iron, nickel, chromium with cobalt, molybdenum or beryllium) that resist setting and breaking (Wikipedia 'Mainspring'). Printed plastic spiral springs work in PETG, nylon or PLA for light toys, but plastics lose force when left wound (Printables 'Spring Material Test'; Hackaday).
+- **maker_difficulty**: moderate: easy to use a bought or salvaged steel spring in a printed case and add a ratchet, but hard to make a good steel one at home; a printed plastic spiral is easy to make but weak and loses force if left wound (Printables 'Duplo wind-up motor'; Printables 'Spring Material Test').
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: power springs, spiral torsion springs, clock mainsprings and ready-made spring motors or retracting reels
+  - 3D print (FDM): cases, arbors, drums, ratchets and gears; also whole plastic spiral springs for light wind-up toys and return springs
+  - CNC: steel arbors and cases *(unverified parts omitted)*
+- **print_in_place**: partly: a plastic spiral spring can be printed as one piece with its hub and outer arm (e.g. 'Triple Spiral Compliant Torsion Spring', about 120° of travel), but a usable wind-up motor also needs a ratchet, case and gears assembled around it, and a steel spring is always a bought part.
+- **making_tips_3d_printing**: 1) Plastic spirals: PETG is the usual choice; 'PLA makes for a very poor spring material' (Hackaday), although a Duplo wind-up motor worked in PLA with 3 perimeters for the spring and a 4:1 gear reduction to tame its torque (Printables 'Duplo wind-up motor'). 2) Expect creep: in one test, printed springs held stretched for 8 hours at 25-30 °C all deformed, PETG least (about 5-10 percent), and PLA worst; the tester concluded no filament he tried works as a spring under constant load (Printables 'Spring Material Test'). So don't store a printed spring wound, and use steel for anything that must hold tension. 4) For a printed mainspring, one clock maker printed it with 3 walls and 20 percent infill in PETG and greased the axles (Printables 'Fully 3D Printed Mechanical Clock'). 5) For a steel spring in a printed case: size the case so the spring strip fills only about 40-50 percent of the free space, or turns are lost (Vulcan Spring), and make the arbor 15-25 times the strip thickness in diameter (John Evans' Sons). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'power spring', 'clock spring', 'spiral torsion spring', 'flat spiral spring' (John Evans' Sons, Lesjöfors, Vulcan Spring, Tokai Spring); 'rotor springs' (McMaster-Carr catalogue name for wind-up spiral springs); 'Conpower' (brand, Vulcan Spring) pre-stressed power springs; 'clock mainspring' and 'mainspring winder' (clock parts suppliers); 'spring motor', 'wind-up motor' or 'clockwork motor' (toy movements); 'retractable reel', 'badge reel', 'cord reel' or 'tape measure spring' to salvage; 'constant torque spring' or 'spring motor A-type / B-type' when a flatter torque is needed (see constant-force spring).
+- **rules_of_thumb**: 
+  - The spring strip should fill only about 40-50 percent of the free space in its case; power springs give at most about 20-25 turns (pre-stressed Conpower springs more); keep the first 20 percent and last 20 percent of available turns unused because torque rises steeply there; life rarely exceeds 200,000 winds and is often under 100,000 (Vulcan Spring 'Custom Spring Design for Power vs. Conpower Requirements').
+  - Total turns are greatest when the strip's side area (thickness x length) equals half the area inside the case minus the shaft's area (Hayamizu Hatsujo 'About Design', contact-type spiral spring); in their worked example, a stress range of about 600 MPa is a guideline for 100,000 uses, and a spring with a pinned (not clamped) outer end deflects about 25 percent more and has twice the bending stress for the same torque.
+  - Strip length should be less than 15,000 times its thickness; arbor diameter 15-25 times the thickness to limit coil friction and stress; pre-stressing can raise useful turns from about 15 to up to 35 (John Evans' Sons 'Power Springs').
+  - Open-wound spiral torsion springs suit high torque over less than 360° of rotation, with 270° the preferred maximum; when over-wound the coils 'close out' and rub, making torque rise sharply (John Evans' Sons 'Spring Types and Their Applications'; 'Spiral Torsion Springs').
+  - A watch mainspring is a strip about 20-30 cm long and 0.05-0.2 mm thick; a typical going barrel turns once every 8 hours, so a 40-hour spring needs about 5 turns (Wikipedia 'Mainspring'). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Wind-up clocks, mechanical watches, music boxes, kitchen timers and wind-up toys (Wikipedia 'Mainspring')
+  - A retractable tape measure pulling its blade back in (Lee Spring: 'Power springs are used for retracting applications such as seat belt webbing, tape measures and dog leads, seat recliner, window regulator mechanisms'; Wikipedia 'Tape measure': spring-return tape measures)
+  - Seat belts, retractable dog leads, badge reels and the cord reel in a canister vacuum cleaner (Vulcan Spring)
+- **when_to_use**: Use a spiral power spring when you need to store turning energy compactly and release it over many turns without electricity, such as a wind-up motor for a toy or kinetic sculpture, a timer, or a music box (Wikipedia 'Mainspring'). It is the usual choice for self-retracting reels that wind a cord, tape, hose, lead or belt back in (Vulcan Spring; John Evans' Sons), and for counterbalancing rotating parts such as covers, hatches or arms (John Evans' Sons). Use an open-wound spiral torsion spring for strong 'return to centre' action over less than a turn, such as a joystick or a spring-return knob (John Evans' Sons).
+- **when_not_to_use**: Don't use it when you need an even force over a long straight pull (use a constant-force spring) or even torque over many turns (use a constant-torque spring motor or add a fusee or stopwork) (Wikipedia 'Mainspring'). For a strong push on a lid use a gas spring; for a small spring-back over part of a turn a wire torsion spring is cheaper. For large amounts of energy or long running times, a falling weight or a battery and motor is safer and more even. Avoid plastic spiral springs anywhere they must stay wound under load, because printed plastic creeps (Printables 'Spring Material Test'). Avoid very high cycle counts (beyond roughly 100,000-200,000 winds) without a proper spring design (Vulcan Spring).
+- **environment_limits**: Carbon steel springs rust and need oil or grease; stainless and special alloys resist corrosion and heat better; high or low temperatures change elasticity, torque and fatigue life, and lubrication reduces wear (John Evans' Sons 'Spiral Torsion Springs'; Lesjöfors). Before modern alloys, a fully wound watch spring could break loose when cold made it contract, and changes in the weather brought 'a rash of watches with broken mainsprings' (Wikipedia 'Mainspring'). Springs slowly lose force by permanently bending ('set' or 'tired' springs) (Wikipedia 'Mainspring'). *(unverified parts omitted)*
+- **safety_notes**: A wound spiral spring stores a lot of energy and can release suddenly, 'causing potentially serious injury'; even a 'let down' spring and a going barrel keep dangerous tension, so clockmakers let springs down slowly with a key while holding back the click, and use mainspring winders and clamps to fit and remove them (Wikipedia 'Mainspring'). A broken spring can spin the barrel backwards hard enough to wreck gears (Wikipedia 'Mainspring': motor or safety barrel). *(unverified parts omitted)*
+- **common_failures**: Fatigue cracks and breaks, most often at the inner end where it hooks to the shaft and bending stress is highest, or at the end of winding when the coils are tight (Wikipedia 'Mainspring'). The spring taking a permanent 'set' and losing torque (Wikipedia 'Mainspring'). Over-winding so the drive is too strong ('knocking'), prevented by stopwork or a click with a little recoil (Wikipedia 'Mainspring'). Too much spring for the case, or the wrong arbor size, cutting the number of turns and torque (Vulcan Spring). Friction between coils (hysteresis), reduced by lubrication and a larger arbor (John Evans' Sons). Anchor hooks tearing out of printed parts, and printed plastic springs creeping so they no longer retract fully (Printables 'Spring Material Test').
+- **related**: 
+  - Constant-force spring: a pre-curled strip that pulls in a straight line with nearly the same force; the constant-torque 'spring motor' version gives even turning force, unlike a power spring whose torque rises as it winds
+  - Coil spring (torsion): a wire coil that twists back over part of a turn; cheaper and simpler for small angles
+  - Hairspring (balance spring): a very fine open spiral that sets the timing of a watch's balance wheel rather than powering it
+  - Ratchet and pawl: the 'click' that holds a wound mainspring while it is being wound
+  - Escapement (anchor or verge): lets a clock's spring unwind a little at a time at a steady rate
+  - Spring balancer (gravity compensation): uses springs, sometimes spiral ones, to cancel a weight at every angle
+  - Tape-spring hinge: a curved steel tape that flips and holds, a different use of flat spring strip *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Alarm clock mainspring.JPG (Wikimedia Commons, by Chetvorno)](https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG): Photo of an open (not cased) mainspring in a 1950s alarm clock, with its outer end hooked to a post and the winding arbor at the centre *(licence: CC0 (public domain dedication))*
+  - [Going barrel.png (Wikimedia Commons, drawing by Frederick J. Britten)](https://commons.wikimedia.org/wiki/File:Going_barrel.png): Cross-section drawing of a watch going barrel with the mainspring fully wound around the arbor inside its toothed case *(licence: Public domain)*
+  - [Free mainspring torque curve.svg (Wikimedia Commons, by Chetvorno)](https://commons.wikimedia.org/wiki/File:Free_mainspring_torque_curve.svg): Graph of a mainspring's torque falling in a straight line as it unwinds *(licence: Public domain)*
+  - [Watch mainsprings.png (Wikimedia Commons, Elgin National Watch Co., about 1910)](https://commons.wikimedia.org/wiki/File:Watch_mainsprings.png): Photos of the three relaxed mainspring shapes: plain spiral, semi-reverse and reverse *(licence: Public domain)*
+  - [Spring Driven Mechanical Clocks: The Mainspring Explained (YouTube, Scottie's Clock World)](https://www.youtube.com/watch?v=CHKZcGKcE24): Video explaining how a clock mainspring works and how its dimensions relate to its power (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Duplo wind-up motor (gertvv, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/291477-duplo-wind-up-motor): A printed wind-up spring motor with a printed spiral spring, ratchet pawl and 4:1 gear reduction, sized like Duplo bricks; printed in PLA with 3 perimeters for the spring. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Spiral Torsion Spring Optimizer v4 (zbuser, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/485731-spiral-torsion-spring-optimizer-v4): A Python optimizer plus parametric FreeCAD model that sizes and generates a printable spiral torsion spring. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Triple Spiral Compliant Torsion Spring (Panegyr, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1291166-triple-spiral-compliant-torsion-spring): A one-piece printed spiral return spring with about 120° of travel and a 1/4 inch square centre hole; FreeCAD file included. Read through the Printables public API. *(licence: Creative Commons Public Domain (as listed by Printables))*
+  - [Fully 3D Printed Mechanical Clock (iceman2511, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/588221-fully-3d-printed-mechanical-clock): A pendulum clock printed in PETG, driven by a printed mainspring and ratchet; the maker notes it runs only about 5 minutes because of friction, which shows the limits of plastic springs. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- **diagram_idea**: Two round cases side by side: on the left a loosely coiled steel strip with its inner end hooked to a centre shaft and outer end to the case, on the right the same strip wound tight around the shaft with a curved arrow showing the turning force, plus a ratchet wheel and click beside the shaft and a small graph of torque rising as the number of turns increases.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Mainspring
+  - https://en.wikipedia.org/wiki/Spring_(device)
+  - https://en.wikipedia.org/wiki/Clockspring
+  - https://en.wikipedia.org/wiki/Tape_measure
+  - https://www.leespring.com/learn-about-constant-force-springs
+  - https://springcompany.com/products/power-springs/
+  - https://springcompany.com/products/spiral-torsion-springs/
+  - https://springcompany.com/blog/types-of-springs-and-applications/
+  - https://www.vulcanspring.com/power-spring-vs-conpower-spring-design-requirements-and-calculations/
+  - https://www.lesjofors.com/en/products/flat-springs/spiral-torsion-springs/
+  - https://www.hayamizu-hatsujo.co.jp/english/technology/formula/
+  - https://www.tokaibane.com/en/spring-design/flat-spiral-springs-calculation-examples
+  - https://roymech.org/Useful_Tables/Springs/Springs_Spiral.html
+  - https://www.mcmaster.com/products/spiral-torsion-springs/
+  - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
+  - https://api.printables.com/graphql/
+  - https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG
+  - https://commons.wikimedia.org/wiki/File:Going_barrel.png
+  - https://commons.wikimedia.org/wiki/File:Free_mainspring_torque_curve.svg
+  - https://commons.wikimedia.org/wiki/File:Watch_mainsprings.png
+  - https://www.youtube.com/watch?v=CHKZcGKcE24
+  - https://www.youtube.com/watch?v=VfqbIIk6YKs
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, environment_limits, making_tips_3d_printing, processes, related, rules_of_thumb, safety_notes
 
 ## 268 Coil spring (compression, extension, torsion)
 
 *springs & energy storage.* Wire wound into a coil that pushes, pulls or twists back; the baseline spring
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A springy wire wound into a spiral (like a small, stiff Slinky) that pushes back when you squash it, pulls back when you stretch it, or twists back when you turn its arms; the ordinary spring inside pens, clothes pegs, mousetraps and garage doors
+- **term**: Helical coil spring: compression spring, extension (tension) spring and helical torsion spring
+- **aliases**: 
+  - coil spring, helical spring (Wikipedia 'Coil spring' and 'Spring (device)')
+  - compression spring, push spring; open-coil helical spring (Lee Spring)
+  - extension spring, tension spring, pull spring; close-wound spring with hooks or loops (Wikipedia; Lee Spring)
+  - torsion spring, helical torsion spring; double torsion spring (one left-hand and one right-hand coil joined in the middle) (Wikipedia 'Torsion spring'; Lee Spring)
+  - shapes: conical spring, hourglass (concave) spring, barrel (convex) spring, volute spring (Lee Spring; Wikipedia)
+  - arc spring, bow spring; garter spring (an arc spring bent into a full circle) (Wikipedia 'Spring (device)')
+  - drawbar spring (an extension-style spring that is actually squashed by loops passing through its middle) (Lee Spring)
+  - continuous-length extension spring (cut to length) (Lee Spring)
+  - pen spring, ballpoint pen spring (Wikimedia Commons category 'Ballpen springs')
+  - music wire spring, piano wire spring (named after the usual spring steel wire)
+  - Schraubenfeder (German, from the German Wikipedia link on 'Coil spring')
+- **family**: springs & energy storage
+- **other_families**: tensioning, reels & take-up
+- **one_liner**: A length of springy wire wound into a helix that stores energy when it is squashed (compression spring), stretched (extension spring) or twisted by its arms (torsion spring), and gives it back as a push, a pull or a turning force roughly in proportion to how far it was moved.
+- **complexity**: Single piece: one wound wire. A compression spring has plain, ground or closed ends that sit flat; an extension spring has close-wound coils with a hook or loop at each end; a torsion spring has a close-wound body with two straight or bent arms (legs). In use it needs the parts it works against: a seat, pocket, guide rod or hole for a compression spring, two anchor points (posts, holes or pins) for an extension spring, and a supporting rod (mandrel) plus two stops or slots for the legs of a torsion spring.
+- **how_it_works**: Squashing or stretching a coil spring does not bend the wire much; it twists the wire along its length, so the steel acts like a long torsion bar wound into a small space, and the force rises steadily with the movement (Hooke's law) (Wikipedia 'Coil spring'). A torsion spring works the other way round: turning its arms bends the wire, winding the coils tighter so the coil diameter shrinks and the body gets longer (Wikipedia 'Torsion spring'; Lee Spring). An extension spring is wound with its coils pressed together (initial tension), so it does not stretch at all until you pull harder than that built-in force (RoyMech; MW Components). How stiff a spring is depends mostly on the wire thickness, the coil diameter and the number of working coils: thicker wire makes it much stiffer, while a wider coil or more coils make it softer (Engineers Edge).
+
+### Finder attributes
+
+- **job**: 
+  - store energy: pushes back (compression), pulls back (extension) or twists back (torsion) and returns parts to a rest position, e.g. the return spring in a button, latch, lever or hinge
+  - tighten and hold tension: an extension or compression spring keeps a belt, cable, lid or clamp pressed or pulled with a steady force and takes up slack or wear
+- **motion**: flex: a compression spring shortens along its axis until the coils touch (solid height); an extension spring lengthens along its axis; a torsion spring's arms rotate about the coil axis through part of a turn (stock torsion springs are sold with the arms at free angles from 90° to 360° apart, Lee Spring)
+- **degrees_of_freedom**: 1 in intended use: along the axis for compression and extension springs, rotation about the axis for torsion springs. An unguided compression spring can also bend sideways (buckle) and an extension spring can swing on its hooks, which is why compression springs are often put over a rod or in a hole (Lee Spring)
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): an extension or compression spring keeps a belt, cable, latch or lid under a steady force as parts move or wear
+  - none of the other listed behaviours by itself: a coil spring is the 'engine' inside many clever mechanisms (click pens, ratchet pawls, detents, over-centre toggles, torque limiters, spring-applied brakes) but on its own it only pushes, pulls or twists back
+  - extension springs have a built-in threshold (initial tension): nothing moves until the pull exceeds it, which helps hold things firmly shut (RoyMech; MW Components)
+- **holding_principle**: spring force (it presses, pulls or twists the parts it sits between; it does not hold anything by itself unless something else, such as a latch or pawl, uses its force)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: a compression spring drops into a pocket or over a rod; an extension spring hooks onto posts or holes; a torsion spring slides over a rod with its legs in slots. It is usually trapped by the parts around it
+- **reuse_cycles**: effectively unlimited, as long as it is not over-stressed: a correctly sized steel spring does not wear out from being fitted and removed. Its working life is limited by fatigue from loading cycles, e.g. Century Spring's stock extension springs list a suggested maximum stretch for an average life of around 50,000 cycles (MW Components), and garage door torsion springs are typically rated for 10,000-30,000 open-and-close cycles (Wikipedia 'Garage door')
+- **tools_needed**: usually none; long-nose or looping pliers to stretch an extension spring onto its hooks (Lee Spring notes looping pliers for forming ends on cut-to-length springs), a spring hook or puller for strong extension springs, and a vice or clamp to squash a strong compression spring during assembly. Wire cutters or a cutting disc, a mandrel and a winding jig if you wind your own springs
+- **seal**: none
+- **load**: Light to heavy, depending on size: from tiny pen springs to car suspension and garage door springs that balance a door of 400 lb (about 180 kg) or more (Wikipedia 'Garage door'). Each type works in one direction only: compression springs take a push along the axis, extension springs a pull along the axis, torsion springs a twist that winds the coils tighter. They are weak sideways: a long compression spring buckles, extension spring hooks bend and break first, and a torsion spring loaded the wrong way (unwinding) is over-stressed (Lee Spring; MW Components)
+- **adjustable**: Yes, by the way it is fitted: pre-compress a compression spring with a screw, nut or shims; move an extension spring's anchor point or add a tensioning screw; set a torsion spring's starting angle (preload). On the spring itself only by cutting coils off a compression spring (makes it stiffer and shorter) or cutting a continuous-length extension spring to size (Lee Spring). The rate (stiffness) of a given spring is fixed
+- **play_and_precision**: not applicable as a locating part: it does not locate anything precisely, it only applies force. Force is predictable only between its free length and solid height; stock spring rates are typically held to about ±10% and extension spring initial tension is only a reference value (MW Components). Compression springs grow in diameter as they are squashed and torsion springs shrink in diameter and grow in length as they wind up, so both need clearance (Lee Spring). Standard squareness of a compression spring's ends is 3° (Lee Spring white paper)
+- **access_needed**: not applicable: it sits between the parts it acts on and is fitted as they are assembled (a compression spring usually goes over the end of a rod or into a blind hole)
+- **materials**: Usually spring steel wire: music wire (ASTM A228, high-carbon, the most common for small springs), oil-tempered and hard-drawn carbon steel, chrome-silicon and chrome-vanadium alloy steels for shock loads, stainless steel 302/304, 316 (marine) and 17-7 for corrosion and heat, and phosphor bronze or beryllium copper where the spring must carry electric current or be non-magnetic (Lee Spring 'Spring Material Options'; Wikipedia 'Spring (device)'). Plastic coil springs can be 3D printed from PETG or similar, but PLA makes a very poor spring (Hackaday, 2026) and all plastics lose force over time. Steel springs work against any material, but press on soft materials (plastic, wood) through a flat seat or washer so they do not dig in.
+- **maker_difficulty**: easy: stock steel springs and assortment kits are cheap and easy to fit into printed or wooden parts. Moderate: winding your own from music wire on a printed jig works for small springs (Spring Factory, torsion spring winders). Printing a plastic coil spring is easy, but it will be weak and will creep
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the usual choice (stock compression, extension and torsion springs, assortment kits, cut-to-length extension spring)
+  - 3D print (FDM): the housings, pockets, guide pins, posts and leg slots that hold a bought spring; plastic coil springs for light, occasional use (PETG, not PLA)
+  - hand-wound from spring wire on a mandrel or printed winding jig (e.g. Spring Factory, torsion spring winders)
+  - woodwork, laser cut and CNC: spring seats, anchor holes and pivot posts in wood, acrylic or metal parts
+- **print_in_place**: partly: a printed part can be designed around a pocket that a bought steel spring drops into (or is inserted during a pause), but the steel spring itself is never printed; plastic coil springs print as one piece (e.g. PETG coil springs on Printables) but are weak and creep, so they are not a substitute for steel
+- **making_tips_3d_printing**: Buy the spring and print the parts around it: plastic 'always permanently deforms under tension' over time and PLA makes a very poor spring material, while a steel spring costs pennies (Hackaday, 2026, article and comments). Design rules for the printed parts: (1) Compression springs: put the spring in a hole or over a guide pin; make the hole larger than the spring's outside diameter plus its tolerance and the growth in diameter as it is squashed, and the pin smaller than the inside diameter but not so small that it no longer stops buckling (Lee Spring). Always use a guide if the free length is more than about 4 times the mean coil diameter (Compression Spring Store). Add a hard stop so the spring never reaches solid height (all coils touching) in use (Lee Spring white paper). Buy springs with closed or closed-and-ground ends for a flat, square seat; plain ends are not recommended for heavily loaded or precise jobs (RoyMech). (2) Extension springs: anchor the hooks on round posts or pins with smooth, rounded edges, and keep the pull in line with the spring's axis; the hook is where an over-stressed extension spring breaks first (MW Components). (3) Torsion springs: support the coil on a rod about 90% of the spring's inside diameter at full wind-up, not much smaller (Lee Spring), give the legs slots or stops, load it so it winds tighter, and leave room for the body to get longer as it winds (Lee Spring). A steel pin or screw makes a better arbor than a thin printed peg. (4) If you must print a coil spring: PETG with 100% infill worked for a 20 cm PETG coil spring on Printables; printing the spring with support along its whole length helped one designer print PETG springs consistently (Printables 'Parametric Supported Spring', 0.4 mm nozzle, 0.15 mm layers, 3 perimeters); a special g-code method can print springs in mid-air, but they are 'functional, albeit not very strong' (Hackaday, 2018). Plastic springs are best where they rest unloaded and are only occasionally compressed (Hackaday 2026 comment). (5) To make your own steel springs, print a winding jig: the Spring Factory uses a threaded mandrel for even coil spacing and takes piano wire of about 0.8-1.2 mm (Hackaday, 2022); torsion-spring winders use a drill-bit shank as the mandrel. Springs spring open after winding, so the finished coil is larger than the mandrel (Printables 'Extension spring jig' and 'Torsion Spring Winding Jig', which points to a spring mandrel calculator). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Stock compression springs (music wire, stainless steel 302/304, chrome silicon; plain, ground, closed or closed-and-ground ends; conical, hourglass and barrel shapes); stock extension springs with machine hooks, crossover-centre loops, full loops, extended or reduced eyes and threaded-insert ends; continuous-length extension spring (cut to length and form your own loops); drawbar springs; stock torsion springs with straight legs at 90°, 120°, 180°, 210°, 270°, 300° or 360° free leg angles, left-hand or right-hand wind, and double torsion springs; micro springs for small devices (all from Lee Spring's catalogue pages); spring assortment kits (compression, extension and torsion; Lee Spring 'Spring Kits', generic mixed kits); spring wire (music wire ASTM A228, stainless 302/304, 316, 17-7 PH) for winding your own; guide rods, shoulder bolts and dowel pins as spring guides and anchors.
+- **rules_of_thumb**: 
+  - Spring rate (stiffness) of a compression or extension spring: k = G d^4 / (8 n D^3), with G the shear modulus of the wire, d the wire diameter, n the number of active coils and D the mean coil diameter (outside diameter minus wire diameter) (Engineers Edge, https://www.engineersedge.com/spring_comp_calc_k.htm). So doubling the wire thickness makes the spring 16 times stiffer, while doubling the coil diameter makes it 8 times softer. Worked example (own calculation, using G = 11.5 x 10^6 psi, about 79 GPa, for music wire from Lee Spring, https://www.leespring.com/spring-materials): 1 mm wire, 9 mm mean diameter, 10 active coils gives about 1.4 N per mm.
+  - Keep the spring index C (mean coil diameter / wire diameter) between about 3 and 12 for most helical springs (RoyMech, https://roymech.org/Useful_Tables/Springs/Springs_helical.html); very tight coils are hard to wind and highly stressed, and very open ones are floppy. The Lee Spring white paper also says to check the index and that the pitch must not exceed the outside diameter (https://www.leespring.com/sites/default/files/pdf/Lee%20Spring%20-%20WhitePaper%20-%20Spring%20Design%20General%20Consideration_US.pdf).
+  - A compression spring whose free length is more than about 4 times its mean coil diameter is likely to buckle; fix it with a larger diameter, shorter length, more coils, or by running it over a rod or in a hole (Compression Spring Store, https://www.compressionspring.com/slenderness-ratio-making-your-spring-buckle.html).
+  - Make a guide hole larger than the spring's outside diameter, allowing for tolerance and for the diameter growing as it is compressed; make a guide rod smaller than the inside diameter but not so small that it stops preventing buckling (Lee Spring, https://www.leespring.com/learn-about-compression-springs and white paper https://www.leespring.com/sites/default/files/pdf/Lee%20Spring%20-%20WhitePaper%20-%20Spring%20Design%20General%20Consideration_US.pdf).
+  - Every working height must be above solid height (all coils touching); allow 5% on the nominal solid height. Total coils = active coils for open ends, +1 for open-and-ground ends, +2 for closed or closed-and-ground ends (Lee Spring white paper, https://www.leespring.com/sites/default/files/pdf/Lee%20Spring%20-%20WhitePaper%20-%20Spring%20Design%20General%20Consideration_US.pdf; RoyMech end-design table).
+  - Stress: for general-purpose springs a maximum of about 40% of the wire's tensile strength may be used (RoyMech). If the stress at a working height is above 40% of tensile strength the spring will take a permanent set unless it is pre-set; above 60% it must be redesigned (Lee Spring white paper).
+  - Torsion springs: always load them in the direction that makes the coil diameter smaller (winds them tighter); the residual stresses from forming help in that direction and hurt in the other. Support them on a rod about 90% of the inside diameter at full deflection, not much smaller, and allow for the body getting longer as it winds up. Specify the direction of wind (Lee Spring, https://www.leespring.com/learn-about-torsion-springs). If the loaded inside diameter shrinks onto the shaft, the spring will fail (RoyMech, https://roymech.org/Useful_Tables/Springs/Springs_Torsion.html).
+  - Extension springs: the force at any stretch = initial tension + rate x stretch; the initial tension must be overcome before the spring starts to stretch. Stresses are highest where the last coil turns into the hook, so an over-stressed extension spring fails at the hook first; the suggested body stress is 30-45% of the wire's minimum tensile strength (MW Components / Century Spring, https://www.mwcomponents.com/how-to-select-an-extension-spring).
+  - Springs in parallel add their stiffnesses; springs in series add their softness (compliance), so two identical springs end to end are half as stiff (Wikipedia 'Spring (device)', https://en.wikipedia.org/wiki/Spring_(device)).
+  - Maximum operating temperatures for common spring wires: music wire and carbon steels about 250 °F (121 °C); oil-tempered chrome silicon 475 °F (246 °C); stainless 302/304 and 316 about 550 °F (288 °C); 17-7 PH stainless 650 °F (343 °C); phosphor bronze 200 °F (93 °C) (Lee Spring, https://www.leespring.com/spring-materials).
+  - Extension springs that balance heavy things (e.g. garage doors) should always have a safety cable running through the middle, tied to solid points at both ends, so a broken spring cannot fly (Wikipedia 'Garage door', https://en.wikipedia.org/wiki/Garage_door).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the compression spring inside a click ballpoint pen (Wikimedia Commons has a whole category of 'Ballpen springs')
+  - the torsion spring in a wooden clothes peg and in a classic snap mousetrap (Wikipedia 'Torsion spring')
+  - the extension springs around the edge of a trampoline and on the side of an up-and-over garage door (Lee Spring; Wikipedia 'Garage door')
+  - the coiled battery contact spring in a TV remote or torch (Wikipedia 'Spring (device)')
+- **when_to_use**: Whenever something needs to spring back by itself: return buttons, triggers, levers, latches and lids to their rest position; keep a belt, cable or clamp under steady tension; press a detent ball, pawl or friction pad into place; balance a hinged part; or cushion a bump. Choose a compression spring for a push (it is also safest, because when it breaks the pieces are still trapped between the parts), an extension spring for a pull between two points (it needs no guide and its initial tension holds things firmly shut), and a torsion spring to turn something back about a hinge pin, such as a spring-loaded lid, door or clip. For a maker, a bought steel spring is almost always better than a printed or improvised one.
+- **when_not_to_use**: Not where there is very little height: use wave springs or disc (Belleville) springs, which give the same force in much less space. Not for long travel with nearly constant force: use a constant-force spring or a gas spring. Not for long-lasting force made from printed plastic: plastic creeps and relaxes, so use a steel spring or at least PETG and accept a short life; for a printed one-piece spring a flat leaf spring or ortho-planar spring prints better than a coil. Not for twisting a torsion spring the 'opening' way: turn it round or use a spring wound the other hand. Not as a shock absorber on its own: a spring stores and returns energy and will bounce, so add a damper. Not for precise positioning: a spring only gives force, so use a stop, detent or locating feature to set the position.
+- **environment_limits**: Heat: music wire and carbon-steel springs are rated to about 121 °C (250 °F), stainless 302/304 and 316 to about 288 °C, 17-7 PH stainless to about 343 °C and phosphor bronze to about 93 °C (Lee Spring); above these they take a set and lose force. Water and corrosion: bare music wire rusts (it is sold uncoated, or zinc or cadmium plated; Lee Spring), so use stainless steel outdoors and 316 in salt water (Lee Spring notes it resists chloride attack); humid coastal air noticeably shortens garage door spring life (Wikipedia 'Garage door'). Fatigue: springs that cycle a lot must be stressed less; stock extension spring maximum loads are set for about 50,000 cycles (MW Components). Over-stress: a spring squashed or stretched too far takes a permanent set (gets shorter or longer) and loses force (Lee Spring). Printed plastic springs creep under steady load and lose most of their springiness over months (Hackaday, 2026, reader comments), and soften at much lower temperatures than steel.
+- **safety_notes**: Stored energy: large springs, especially garage door torsion springs, are extremely dangerous; many people have been injured or killed adjusting them, and a broken spring or failed part can fly off or let a heavy door fall (Wikipedia 'Garage door'); leave these to trained people. Extension springs on doors and heavy balances need a safety cable through the middle (Wikipedia). Winding or cutting spring wire: the wire whips or stabs when tension is released and cut ends are sharp; wear eye protection and cut-resistant gloves (warnings on the Printables 'Extension spring jig' and 'Metal Torsion Spring Maker' pages). Small compression springs can shoot out when a part is taken apart; point it away from your face. Pinch points between coils of extension springs and between a torsion spring's legs.
+- **common_failures**: (1) Buckling: a long, thin compression spring bows sideways and can pop out; guide it on a rod or in a hole, or use a shorter, fatter spring (Compression Spring Store; Lee Spring). (2) Binding: the spring rubs or jams because its diameter grows (compression) or shrinks (torsion) under load; leave clearance (Lee Spring; RoyMech). (3) Bottoming out (going solid) and taking a set: squashed until all coils touch, it gets permanently shorter and weaker; add a hard stop or pick a spring with more travel (Lee Spring white paper). (4) Broken hooks on extension springs: the hook is the most stressed point; keep the pull in line and choose a spring with a lower stress or a better end (MW Components). (5) Torsion spring loaded the wrong way (unwinding), or a mandrel that is too big: over-stress and early breakage; check the direction of wind and size the rod to about 90% of the loaded inside diameter (Lee Spring). (6) Fatigue cracks after many cycles, and corrosion; use stainless or coated springs and keep stresses low. (7) Plastic springs slowly losing their push (creep); replace with steel.
+- **related**: 
+  - Wave and disc springs (compact axial springs): give the same push as a coil spring in much less height, but with shorter travel
+  - Constant-force spring (spring-return reel): a rolled steel strip that pulls with almost the same force over a long distance, unlike a coil spring whose force rises as it stretches
+  - Spiral power spring (clock spring): a flat strip wound in a flat spiral that gives a fairly steady turning force over large angles or several whole turns (Wikipedia 'Torsion spring'); a helical torsion spring is for smaller angles
+  - Gas spring: a sealed cylinder of compressed gas that pushes over long travel with nearly steady force and some built-in damping
+  - Printed leaf spring (flat cantilever spring) and ortho-planar spring: springs that are easy to 3D print or laser cut in one piece, instead of a wound wire
+  - Ball detent (spring plunger) and self-closing (spring) hinges: ready-made parts that use a coil spring inside for clicking or closing
+  - Wrap-spring clutch: uses a close-wound coil spring gripping a shaft as a one-way clutch rather than as an energy store
+  - Spring balancer (gravity compensation): arranges coil springs so they cancel the weight of an arm or lid at every angle
+  - Shock-corded sectional pole and elastic cord: rubber is a softer, cheaper tension spring that also damps, but it ages and creeps faster than steel
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Helical compression spring parameters.svg (Wikimedia Commons, Yapparina)](https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg): Labelled diagram of a helical compression spring and its main dimensions and symbols *(licence: CC0 1.0 (public domain dedication))*
+  - [Solid height of helical compression spring.svg (Wikimedia Commons, Yapparina)](https://commons.wikimedia.org/wiki/File:Solid_height_of_helical_compression_spring.svg): Diagram of a compression spring squashed until its coils touch (solid height) *(licence: CC0 1.0 (public domain dedication))*
+  - [Ressort de traction.svg (Wikimedia Commons, M00tty)](https://commons.wikimedia.org/wiki/File:Ressort_de_traction.svg): Drawing of a helical extension (tension) spring with its end loops *(licence: CC BY-SA 3.0 / GFDL 1.2 (dual licensed))*
+  - [Long arm helical torsion spring.svg (Wikimedia Commons, Yapparina)](https://commons.wikimedia.org/wiki/File:Long_arm_helical_torsion_spring.svg): Diagram of a helical torsion spring with long straight arms (legs) *(licence: CC0 1.0 (public domain dedication))*
+  - [Compare the Parts: Compression Spring v. Extension Spring v. Torsion Spring (Radwell International, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=GuV63yW01TY): Video comparing the three coil spring types and what each is used for *(licence: link only)*
+- **make_it_yourself**: 
+  - [Spring Factory 1.2 by vbaillet (Thingiverse)](https://www.thingiverse.com/thing:5171637): Two-part printed jig with a threaded mandrel for hand-winding evenly spaced steel compression springs of about 9 mm diameter from 0.8-1.2 mm piano wire (featured on Hackaday, 2022) *(licence: CC BY-NC 4.0)*
+  - [Spring Factory (Parametric) by jshessen (Printables)](https://www.printables.com/model/138561-spring-factory-parametric): OpenSCAD remix of the Spring Factory in which the dimensions can be changed for other spring and wire sizes (uses the BOSL library) *(licence: CC BY-NC)*
+  - [Metal Torsion Spring Maker by adjective (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1004393-metal-torsion-spring-maker): Printed handle with steel pins for bending your own steel torsion springs from 0.8-1.6 mm stainless spring wire; includes safety warnings *(licence: CC BY)*
+  - [Extension spring jig by Kabacis (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/468530-extension-spring-jig): Jig for winding small close-wound extension springs (tested with 0.8 mm wire and about 3 mm inside diameter before springback) *(licence: CC BY)*
+  - [3D Printed Coil Spring (PETG) by Ruda (Printables)](https://www.printables.com/model/625029-3d-printed-coil-spring-petg): A fully printed 20 cm long, 2 cm diameter coil spring printed in PETG at 100% infill, to feel how a plastic coil spring behaves *(licence: CC BY-SA)*
+  - [Parametric Supported Spring by random.ae (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/831166-parametric-supported-spring): OpenSCAD coil spring with built-in support along its length, designed to print consistently in PETG *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Three springs side by side with arrows: a compression spring being pushed shorter between two plates (with a guide rod and a note 'never let the coils touch'), an extension spring being pulled longer between two hooks (with the hook highlighted as the weak point), and a torsion spring on a rod whose arm is turned so the coils wind tighter (with a green arrow for the right way and a red arrow for the wrong way).
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Coil_spring (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Spring_(device) (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Torsion_spring (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Garage_door (read as raw wikitext)
+  - https://www.leespring.com/sites/default/files/pdf/Lee%20Spring%20-%20WhitePaper%20-%20Spring%20Design%20General%20Consideration_US.pdf (Lee Spring white paper 'Compression Spring Design and General Considerations')
+  - https://www.leespring.com/learn-about-compression-springs
+  - https://www.leespring.com/learn-about-extension-springs
+  - https://www.leespring.com/learn-about-torsion-springs
+  - https://www.leespring.com/spring-materials
+  - https://roymech.org/Useful_Tables/Springs/Springs_helical.html
+  - https://roymech.org/Useful_Tables/Springs/Springs_Torsion.html
+  - https://www.engineersedge.com/spring_comp_calc_k.htm
+  - https://www.compressionspring.com/slenderness-ratio-making-your-spring-buckle.html
+  - https://www.mwcomponents.com/how-to-select-an-extension-spring (MW Components / Century Spring, 'How to Select an Extension Spring')
+  - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
+  - https://hackaday.com/2018/11/14/3d-print-springs-with-hacked-gcode/
+  - https://hackaday.com/2022/01/28/3d-printed-jig-makes-custom-springs-a-snap/
+  - https://www.thingiverse.com/thing:5171637
+  - https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://commons.wikimedia.org/wiki/File:Solid_height_of_helical_compression_spring.svg
+  - https://commons.wikimedia.org/wiki/File:Ressort_de_traction.svg
+  - https://commons.wikimedia.org/wiki/File:Long_arm_helical_torsion_spring.svg
+  - https://commons.wikimedia.org/wiki/Category:Coil_springs
+  - https://www.youtube.com/watch?v=GuV63yW01TY (verified via YouTube oEmbed)
+  - https://api.printables.com/graphql/ (Printables models 625029, 138561, 1004393, 468530, 110017 and 831166 read via the public API)
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing
 

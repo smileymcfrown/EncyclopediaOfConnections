@@ -951,47 +951,1092 @@
 
 *hinges & pivots.* Rings pivoted at right angles to each other so the object in the middle can tilt freely in two or three directions, as in camera stabilisers
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Rings inside rings, each on a pair of pivots set at right angles to the next, so the thing in the middle can tilt any way, or stay level while its holder rocks about
+- **term**: Gimbal (Cardan suspension)
+- **aliases**: 
+  - Cardan suspension, gimbal suspension (named after Gerolamo Cardano; Wikipedia 'Gimbal')
+  - gimbal mount, gimbal ring, gimbaled mount
+  - two-axis gimbal / three-axis gimbal (by number of rings or motor axes; Wikipedia; Appropedia)
+  - handheld stabiliser, camera gimbal, 3-axis gimbal stabiliser, brushless gimbal (motorised camera versions; Wikipedia; Hackaday; Oscar Liang)
+  - gimbal head (a single-axis telephoto lens mount that swings the lens about its centre of gravity; Wikipedia)
+  - Steadicam (brand; a mechanical camera stabiliser that pivots at a gimbal; Wikipedia) *(unverified parts omitted)*
+- **family**: hinges & pivots
+- **other_families**: powered & active connectors
+- **one_liner**: A set of two or three nested pivots at right angles to each other, so the object in the middle can tilt freely about each axis, or stay level while whatever holds it rocks.
+- **complexity**: A small assembly that acts as one unit: an outer frame or ring fixed to the holder, one or two inner rings, the object (payload) in the middle, and a pair of pivots between each ring and the next (pins, cone points in dimples, or ball bearings on shafts). Motorised camera gimbals add a motor on each axis, a motion sensor (IMU) and a controller board.
+- **how_it_works**: Each ring can only turn about one axis on its pair of pivots, and each ring's axis is at right angles to the next one's, so the rotations stack up: two rings let the middle tilt in two directions (pitch and roll), and a third ring adds turning (yaw) (Wikipedia 'Gimbal'). With free pivots, a bottom-heavy object hangs level whatever the holder does, which is why ships' compasses, stoves and drink holders are gimbaled (Wikipedia). A motorised stabiliser instead balances the camera on the pivot axes and uses a motor on each axis, driven by a motion sensor, to hold the camera steady while the operator moves (Wikipedia; Hackaday 2015). If two of the three axes swing into line, the gimbal loses one direction of movement for that moment ('gimbal lock'), although nothing is actually locked (Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): lets an object tilt freely about two or three crossing axes
+  - line parts up exactly: keeps an object level or pointing one way while its support rocks (Wikipedia 'Gimbal')
+  - hold or release using power: motorised stabilisers use a motor on each axis to hold a camera steady (Wikipedia; Hackaday)
+- **degrees_of_freedom**: 2 or 3: each ring adds one rotation, so two rings give two (pitch and roll) and three give three (pitch, roll and yaw) (Wikipedia 'Gimbal'); with three rings, one direction is lost whenever two axes line up (gimbal lock; Wikipedia)
+- **special_behaviour**: 
+  - self-aligning or self-centring: an object whose weight sits below the pivots hangs level by itself however its support tilts, as with ships' compasses, stoves and drink holders; the Steadicam stays upright by making its bottom slightly heavier than its top (Wikipedia 'Gimbal')
+  - none of the locking or clicking behaviours: plain gimbals turn freely. Friction can be added so it stays where it is set, e.g. printed bumpers on a lamp gimbal (Pinshape '2 Axis Gimbal for Directional Lighting')
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): the pivots guide rotation rather than hold it
+  - friction or clamping (force-fit): only in versions meant to stay where they are set, e.g. rubbing bumpers or tightened pivots (Pinshape)
+  - powered hold: motorised stabilisers hold the camera angle with motors (Wikipedia)
+- **input_output**: not applicable: a gimbal lets the middle tilt but does not pass motion on from one shaft to another (that is the job of the universal joint, which uses the same crossed pivots). In motorised stabilisers each axis is turned directly by its own brushless motor (Wikipedia); a balanced payload can be moved by hand when the power is off (DroneTrest), so it is back-drivable.
+- **power**: passive (no power needed) for ordinary gimbals. Powered camera stabilisers use three brushless motors with an IMU and control algorithms (Wikipedia 'Gimbal'). If power is lost, the motors stop holding and the camera swings freely: a well-balanced camera stays roughly where it was, while an unbalanced one flops over (DroneTrest balancing guide).
+- **removability**: removable: gimbals with pins, bolts or bearings at the pivots can be taken apart and re-assembled; print-in-place gimbals are one captive piece and can't be separated without breaking them
+- **reuse_cycles**: many times for gimbals with bolted or pinned pivots; once for print-in-place gimbals, which are never taken apart
+- **tools_needed**: none for a print-in-place gimbal (just work the joints loose; Printables 'Universal Travel Coffee Gimbal'); a screwdriver, hex keys or spanner for gimbals assembled with bolts or pins; for motorised camera gimbals also a soldering iron and a computer to set up and tune the controller (Oscar Liang; Hackaday 2019)
+- **load**: light to medium for maker builds: loads go through the small pivot pins in shear and bending, so the pivots and the rings' stiffness set the limit. Printed passive gimbals comfortably carry drink cups and coffee cups (Printables models), and a printed stepper-driven dual-axis gimbal carried optical samples (Appropedia). Industrial gimbals carry heavy loads such as rocket engines, which are mounted on a pair of gimbals to steer their thrust (Wikipedia). *(unverified parts omitted)*
+- **adjustable**: Yes, in several ways: the payload can usually be slid on its mount to balance it on the pivot axes (Oscar Liang; DroneTrest); friction can be added or sanded away so the angle stays set (Pinshape); motorised gimbals are tuned in software (PID settings; Hackaday 2015).
+- **play_and_precision**: small to noticeable, depending on the pivots: bearings or tight pins have little play, while print-in-place pivots need a gap of at least about 0.3 mm (Prusa), which gives some wobble. A 3D-printed stepper-driven two-axis gimbal measured 2.827 degrees accuracy, 1.585 degrees repeatability and 1.237 degrees backlash (Appropedia '3D printed dual axis gimbal system'). For smooth stabilisation, the camera lens must sit on the roll and pitch motor axes (Oscar Liang; Hackaday 2015).
+- **access_needed**: not applicable
+- **materials**: Rings and frames: metal or plastic; 3D-printed PLA or PETG for passive and light motorised gimbals (the Gimbalotl joystick gimbal used PETG with 4 perimeters and 20% infill; Printables); plywood and styrene sheet with metal brackets for a hand-built camera gimbal (Oscar Liang). *(unverified parts omitted)*
+- **maker_difficulty**: easy for a passive print-in-place gimbal such as a cup holder or desk toy (prints in one piece); moderate for a bolted gimbal with bearings; hard for a motorised camera stabiliser, which needs careful balancing, electronics and PID tuning
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): print-in-place gimbals (cup holders, lamp mounts, toys) or printed rings and arms bolted together with motors (Printables; Pinshape; Hackaday 2019)
+  - woodwork: plywood frames with metal brackets (Oscar Liang's hand-held camera gimbal)
+  - off-the-shelf part: complete handheld stabilisers and drone gimbals, gimbal heads for long lenses, gimbal motors and controller boards (Wikipedia; Hackaday) *(unverified parts omitted)*
+- **print_in_place**: yes for passive gimbals: print-in-place gimbals print already assembled with captive rings, e.g. drink holders and desk toys (Printables; DesignMakeTeach); no for motorised camera gimbals, which are printed as separate arms and bolted to the motors (Hackaday 2019)
+- **making_tips_3d_printing**: 1) Print-in-place layout: print the rings nested and lying flat, with the pivots on the rings' horizontal axes. A common pivot is a small cone on the inner ring sitting in a dimple in the next ring, with a gap so the parts don't touch; the inner ring is trapped but free to spin (DesignMakeTeach, describing Bluebie's 'Parametric Gimbal'). Prusa suggests starting with a gap of at least 0.3 mm between parts that must move. 2) Supports: avoid supports inside the gimbal rings, which would glue the joints; the 'Universal Travel Coffee Gimbal' says not to use supports on the gimbal section and to work it back and forth until the joints click loose, and recommends 4 perimeters. The 'Drink Gimbal' prints with its top flat on the bed and only a little support, placed with support enforcers, under the base of the can holder (Printables). A lamp gimbal avoids supports by printing bridges that are snipped off afterwards (Pinshape). 3) Friction: if the gimbal should stay where it is set, add small bumpers that rub, and sand them to tune the friction (Pinshape). 4) Balance: design the payload holder so the object can slide to find its balance point, because weight is hard to predict (Oscar Liang). For a self-levelling holder (cups, compasses), keep the weight below the pivot axes; for a camera gimbal, put the camera's centre of gravity on the axes and the lens in line with the roll and pitch motor shafts (Wikipedia; Oscar Liang; DroneTrest). 5) Stiffness: rings flex under load; thicker rings and more perimeters help, e.g. PETG, 4 perimeters and 20% infill survived rough use in the Gimbalotl joystick gimbal (Printables). 6) Heat: PLA starts to give at about 60 degrees C (CNC Kitchen), so a PLA cup gimbal in a hot car or holding hot drinks may sag; *(unverified parts omitted)*
+- **off_the_shelf_parts**: Motorised camera gimbals: brushless gimbal motors (low-kV, e.g. 2206 140 kV; Oscar Liang), a brushless gimbal controller (BGC) such as STorM32 (brand) boards (Hackaday 2019) or Quanum (brand) controllers (Oscar Liang), and an IMU board mounted with the camera (Hackaday 2015). Complete products: handheld 3-axis stabilisers for phones and cameras, drone camera gimbals, gimbal heads for telephoto lenses, and pan-tilt heads. Stepper-driven gimbals: stepper motors and an Arduino-type controller (Appropedia). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - The pivot axes of successive rings must be at right angles (orthogonal); three rings are needed to isolate an object in all three rotations (Wikipedia 'Gimbal').
+  - Avoid running a three-ring gimbal where two axes line up: at that point it loses one degree of freedom (gimbal lock; Wikipedia 'Gimbal').
+  - Self-levelling: make the payload slightly bottom-heavy below the pivots, as a Steadicam does, so its centre of gravity stays under the gimbal (Wikipedia 'Gimbal').
+  - Motorised camera gimbal: balance before powering on or tuning; a balanced camera stays wherever you point it with the power off (DroneTrest), and should face forward, level and upright at rest (Oscar Liang).
+  - Put the camera lens in line with the roll and pitch motor shafts for stable video (Oscar Liang; Hackaday 2015).
+  - Rebalance whenever the camera's centre of gravity changes, e.g. a zoom lens; fit the battery and memory card before balancing; 14-35 mm lenses suit gimbals (DroneTrest).
+  - Start with at least 0.3 mm clearance between moving printed parts (Prusa knowledge base 'Modeling with 3D printing in mind').
+  - What to expect from a printed stepper gimbal: about 2.8 degrees accuracy, 1.6 degrees repeatability and 1.2 degrees backlash (Appropedia '3D printed dual axis gimbal system', Bihari et al. 2018).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A handheld phone or camera stabiliser, and the camera under a drone (Wikipedia 'Gimbal')
+  - A ship's compass, stove or drink holder that stays level while the boat rolls (Wikipedia 'Gimbal')
+  - A gyroscope toy, or a print-in-place gyroscope fidget made of nested rings (Printables) *(unverified parts omitted)*
+- **when_to_use**: Use a gimbal when something must tilt freely in two or three directions about one fixed point, or stay level or pointing the same way while its support moves: cup holders on bikes, prams, cars and boats, compasses and spirit-level instruments, lamps and cameras you want to aim, sensor or test mounts, joysticks, and motorised camera stabilisers. It is also good when the tilting part must stay open in the middle (a cup or camera sits inside the rings).
+- **when_not_to_use**: If you need to pass turning motion from one shaft to another at an angle, use a universal (Hooke's) joint instead. If you only need something to tilt and lock in place, a ball-and-socket joint or lockable ball head is more compact. If only one tilt direction is needed, a single hinge or trunnion is simpler. Avoid a three-ring gimbal where two axes may line up (gimbal lock). *(unverified parts omitted)*
+- **environment_limits**: Printed PLA gimbals soften from about 60 degrees C (CNC Kitchen), so a PLA cup holder left in a hot car may sag; PETG and ASA last longer. *(unverified parts omitted)*
+- **safety_notes**: Otherwise, none known. *(unverified parts omitted)*
+- **common_failures**: 1) Print-in-place pivots fused solid: the gap was too small or supports got inside the joint; use at least about 0.3 mm gap, no supports in the gimbal section, and work the joints loose (Prusa; Printables 'Universal Travel Coffee Gimbal'). 2) The payload won't stay level: its weight is not below (passive) or on (motorised) the pivot axes; slide it to balance (Oscar Liang; DroneTrest). 3) A motorised gimbal jitters or drifts: unbalanced camera or poor PID tuning; balance first, then tune (Oscar Liang; Hackaday 2015). 4) The angle won't stay set: add friction bumpers or tighten the pivots (Pinshape). 5) Sudden loss of control when two axes line up: gimbal lock; keep the working range away from that position (Wikipedia). *(unverified parts omitted)*
+- **related**: 
+  - Universal joint (Hooke's joint, Cardan joint): the same two crossed pivots, but used to pass rotation between two shafts at an angle
+  - Ball-and-socket joint (lockable ball head): tilts in all directions in one compact joint, but relies on friction and has a limited angle
+  - Trunnion and clevis pivots: a single pivot axis; one ring of a gimbal is essentially a trunnion mount
+  - Pan-tilt mount: two stacked motorised pivots used to aim cameras or lights; a gimbal without the rings
+  - Slip ring and rotary union: passes power or signals through a joint that turns all the way round
+  - Canfield joint: a parallel-link joint for pointing things, listed by Wikipedia alongside the gimbal *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Gimbal 3 axes rotation.gif (Wikimedia Commons, by Lookang)](https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif): Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed *(licence: CC BY-SA 3.0)*
+  - [Gimbal Lock Plane.gif (Wikimedia Commons, by Drummyfish)](https://commons.wikimedia.org/wiki/File:Gimbal_Lock_Plane.gif): Animation of an aircraft in colour-coded roll, pitch and yaw gimbal rings, showing two axes lining up (gimbal lock) *(licence: CC0 1.0 (public domain))*
+  - [Gimbal (Wikipedia)](https://en.wikipedia.org/wiki/Gimbal): Definition, history (Philo of Byzantium, Ding Huan's incense burner, Villard de Honnecourt's sketch) and uses, with the animations above and photos of a smartphone gimbal and camera stabiliser *(licence: CC BY-SA 4.0 (text); images per file)*
+  - [DIY Brushless Camera Gimbal - Handheld & Mini Quadcopter (Oscar Liang)](https://oscarliang.com/build-brushless-camera-gimbal-handheld-quadcopter/): Photos and video of a hand-made two-axis brushless camera gimbal in plywood, with notes on aligning the lens with the motor axes and balancing *(licence: link only)*
+  - [2 Axis Gimbal for Directional Lighting (Pinshape, by Barry Maxwell)](https://pinshape.com/items/54386-3d-printed-2-axis-gimbal-for-directional-lighting): Printable two-axis gimbal with print-in-place joints and friction bumpers, holding a GU10 lamp socket *(licence: CC BY)*
+- **make_it_yourself**: 
+  - [Drink Gimbal - no spill can holder - print in place (Caleb Kraft, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/48659-drink-gimbal-no-spill-can-holder-print-in-place): Print-in-place gimbal can holder; print with the top flat on the bed and a little support under the base. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Universal Travel Coffee Gimbal (mobiobi, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/129329-universal-travel-coffee-gimbal): Fully printed gimbaled to-go cup holder that clamps to a 20-30 mm bar; no supports on the gimbal section, work the joints loose; STEP and Fusion 360 files included for editing. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [2 Axis Gimbal for Directional Lighting (Barry Maxwell, Pinshape)](https://pinshape.com/items/54386-3d-printed-2-axis-gimbal-for-directional-lighting): Print-in-place two-axis lamp gimbal with sandable friction bumpers; one version prints without supports using snip-off bridges *(licence: CC BY)*
+  - [3D Design: Personalize a Gimbal (DesignMakeTeach, Tinkercad tutorial)](http://designmaketeach.com/2014/05/06/3d-design-personalize-a-gimbal/): Beginner tutorial for customising Bluebie's print-in-place 'Parametric Gimbal' in Tinkercad, with a cut-away view of the cone-and-dimple pivots; the resulting 'MOM Gimbal' is on Printables (model 294480, CC BY-SA) *(licence: link only (tutorial); model CC BY-SA)*
+  - [3D printed dual axis gimbal system (Appropedia; Bihari, Dash, Dhankani and Pearce 2018)](https://www.appropedia.org/3D_printed_dual_axis_gimbal_system): Open-source, 3D-printable two-axis gimbal driven by two stepper motors and an Arduino-based controller, for optical measurements; links to the STL files, CAD and source code *(licence: CC BY-SA 3.0)*
+- **diagram_idea**: An exploded then assembled view of a two-ring gimbal: the fixed outer frame with a horizontal pivot axis (arrow A), the middle ring with a vertical axis at right angles (arrow B), and a cup in the centre; then the frame tilted 30 degrees while the cup stays level, with a dot marking the cup's centre of gravity below the pivots.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Gimbal
+  - https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
+  - https://commons.wikimedia.org/wiki/File:Gimbal_Lock_Plane.gif
+  - https://oscarliang.com/build-brushless-camera-gimbal-handheld-quadcopter/
+  - https://www.dronetrest.com/t/balancing-your-brushless-gimbal/55
+  - https://hackaday.com/2015/03/28/resourceful-diy-brushless-hand-held-camera-gimbal/
+  - https://hackaday.com/2019/08/19/diy-gimbal-for-the-raspberry-pi-camera/
+  - https://www.appropedia.org/3D_printed_dual_axis_gimbal_system
+  - https://pinshape.com/items/54386-3d-printed-2-axis-gimbal-for-directional-lighting
+  - http://designmaketeach.com/2014/05/06/3d-design-personalize-a-gimbal/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, load, making_tips_3d_printing, materials, motion, off_the_shelf_parts, processes, related, safety_notes, seal, when_not_to_use
 
 ## 181 Clip-on concealed hinge (cup hinge)
 
 *hinges & pivots.* A hidden cabinet hinge that sits in a round pocket in the door and clips on and off its mounting plate without tools, with adjusting screws
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The hidden kitchen-cupboard hinge: a round metal cup sunk into the back of the door, joined by a folding arm to a plate on the cabinet side, that clicks on and off without tools and has little screws for lining the door up
+- **term**: Concealed hinge (cup hinge, European or Euro hinge), clip-on type
+- **aliases**: 
+  - cup hinge
+  - Euro hinge / European hinge (developed in Europe and uses metric installation standards; Wikipedia 'Hinge')
+  - concealed hinge / hidden hinge / invisible cabinet hinge
+  - 35 mm hinge (after the usual cup-hole diameter)
+  - pot hinge (translation of German 'Topfscharnier' or 'Topfband')
+  - four-joint or multi-joint cup hinge (German 'Viergelenk-Topfscharnier'; the usual kind)
+  - clip-on hinge / clip hinge / tool-free hinge (the clip-on version, as opposed to slide-on or screw-on versions)
+  - soft-close hinge (versions with a built-in damper)
+  - full overlay / half overlay (cranked, twin) / inset hinge (the three main door positions)
+  - face-frame hinge vs frameless (Euro-style) cabinet hinge
+  - CLIP top, CLIP top BLUMOTION (Blum (brand)); Sensys (Hettich (brand)); Salice and Grass (brands)
+- **family**: hinges & pivots
+- **other_families**: quick-release & tool-free, over-centre, toggle & cam clamps, motion conversion
+- **one_liner**: A cabinet-door hinge that hides inside a 35 mm round pocket drilled in the back of the door, clips onto a plate on the cabinet so the door can be lifted off without tools, and has three screws to shift the door sideways, up and down, and in and out until the gaps line up.
+- **complexity**: A small assembly that acts as one unit, in two separable halves. 1) The hinge: a cup (sunk into the door), a hinge arm, two links joining cup and arm in a four-bar (four-pivot) linkage, a closing spring, often a soft-close damper in the cup, a side-adjusting screw and a depth-adjusting cam screw, and a spring-loaded clip catch with a release lever. 2) The mounting plate on the cabinet side (screwed, or pressed in with plastic dowels), often with a height-adjusting cam. Plus wood screws or pre-fitted dowels (Wikipedia 'Hinge': cup and arm plus mounting plate; Blum H002 kit and spec sheet; German Wikipedia 'Scharnier').
+- **how_it_works**: The cup sits in a flat-bottomed 35 mm hole bored into the back of the door, so the hinge's pivots are sunk into the door's thickness and nothing shows from the front when it is closed (German Wikipedia 'Scharnier'; Rockler). Most cup hinges are four-bar linkages: two pivots in the cup and two on the arm, joined by two links, so the door edge does not swing on a simple circle but moves out and away from the cabinet as it opens; this lets doors sit only a few millimetres from their neighbours without colliding (German Wikipedia 'Scharnier'). The arm hooks over the front of the mounting plate and you press its back down until a spring catch clicks; pulling a small release lever lets it come off again (Blum H002). A spring pulls the door shut and, past a certain angle, helps hold it open, and screws or cams on the arm and plate move the door about 2 mm each way sideways and up or down, and in or out, so the gaps can be evened up after fitting (German Wikipedia; Blum H002).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): it is the pivot for a cupboard door, flap or lid
+  - lock, and release by hand: the arm clips onto its mounting plate and a release lever lets the door come off without tools (Blum H002)
+  - line parts up exactly: three adjusting screws or cams move the door sideways, up/down and in/out to even out the gaps (Blum H002)
+  - slow it, stop it or keep its speed steady: soft-close versions have a damper in the cup so the door does not slam (Blum spec sheet; Woodcraft)
+- **motion**: rotate: most cup hinges open 105° to 120°, wide-angle ones up to 170° (Woodcraft); Blum CLIP top is offered at 107°, 110°, 120° and 170° (Blum product page), and a clip can limit a 110° hinge to 86° (Blum spec sheet). Because it is a four-bar linkage, the door also moves outward as it swings (German Wikipedia 'Scharnier').
+- **degrees_of_freedom**: 1: the door can only swing; the four links force the swing and the small outward movement to happen together, so there is still only one independent motion (German Wikipedia 'Scharnier'). The adjusting screws are set-and-forget position changes, not free movements.
+- **special_behaviour**: 
+  - quick-release: the hinge arm clips onto the mounting plate and comes off by pulling a release lever, so doors can be removed for cleaning or refinishing without tools (Blum H002; Rockler; Blum: 'Doors can be attached and removed quickly without tools - they snap on and off')
+  - over-centre (snaps past a point and stays): the built-in spring holds the door shut; past a certain opening angle the spring's pull changes direction and helps hold the door open, and on closing the door pulls itself shut after a certain angle (German Wikipedia 'Scharnier', describing a leaf-spring cup hinge)
+  - motion conversion: the four-bar makes the door move out and away from the cabinet as it swings, so its edge clears neighbouring doors even with small gaps (German Wikipedia 'Scharnier') *(unverified parts omitted)*
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the arm hooks over the mounting plate and a catch snaps behind it; Blum says three-point contact keeps them firmly connected (Blum spec sheet)
+  - spring force (a spring or springy part presses it in place): the clip catch is spring-loaded, and a closing spring holds the door shut (German Wikipedia 'Scharnier')
+  - friction or clamping (force-fit): wood screws (or expanding dowels) clamp the cup into the door and the plate onto the cabinet
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: the door unclips from the mounting plates by hand (Blum H002); the cup and plate themselves are screwed in and removable with a screwdriver
+- **reuse_cycles**: many times: the clip is made for repeated removal; Blum cycle-tests all CLIP hinges to 200,000 opening and closing cycles (Blum spec sheet). Screw holes in MDF or particleboard wear out if screws are repeatedly removed and re-driven (Woodcraft; This Old House).
+- **tools_needed**: To fit: drill with a 35 mm Forstner (flat-bottomed) bit, ideally in a drill press or with a jig; a 1/8 in (3 mm) bit for pilot holes; #2 Phillips or Pozidriv screwdriver (Blum H002; Wikipedia 'Concealed hinge jig'). Press-in versions need a knock-in tool or press (Blum spec sheet). To remove or refit the door: none. To adjust: a #2 Phillips or Pozidriv screwdriver.
+- **seal**: none
+- **load**: medium, for cabinet-sized doors: Blum suggests 2 hinges for doors of 4-6 kg and 3 hinges for 6-12 kg, for doors up to 600 mm wide (Blum EASY ASSEMBLY blog). Blum's tests include a 67 lb (30 kg) static load applied ten times at 45° opening and an 11 lb (5 kg) extra weight for 100,000 cycles (Blum spec sheet). *(unverified parts omitted)*
+- **adjustable**: yes: side adjustment (front screw, about ±2 mm), height adjustment (cam on the mounting plate, about ±2 mm) and depth adjustment (rear cam screw, +3 mm/-2 mm) on Blum CLIP top (Blum H002). Blum's depth cam gives 5 mm of travel in 1¾ turns without loosening a fixing screw, and its side screw gives 4 mm with a stop so it can't be screwed out (Blum spec sheet). Face-frame cup hinges often adjust only sideways and up/down (Woodcraft).
+- **play_and_precision**: The adjusters absorb small drilling errors of about 2 mm (Blum H002), but the cup hole must still be bored square to the door, which is why jigs are used (Wikipedia 'Concealed hinge jig'). *(unverified parts omitted)*
+- **access_needed**: one side only (blind): the cup and the mounting plate both screw on from the inside of the door and cabinet, and nothing goes through to the front face
+- **materials**: They fit wood, plywood, MDF and particleboard doors; in MDF and particleboard use versions with pre-fitted plastic dowels or inserts, because ordinary screws hold poorly there (Woodcraft; Blum spec sheet). 26 mm cup versions exist for glass doors and small doors (German Wikipedia 'Scharnier'). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: buy the hinge (you can't practically make one); fitting is easy with a jig, but the 35 mm cup hole must be drilled square, to the right depth and at the right distance from the edge, and you have to pick the right overlay type
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the hinge itself is always bought (Blum, Hettich, Salice, Grass and generic makes)
+  - woodwork: bore the 35 mm cup hole with a Forstner bit, ideally in a drill press or with a hinge jig; screw the plate to the cabinet side (Woodcraft; Blum H002)
+  - 3D print (FDM): drilling jigs and templates, spacers, angle-limiting clips, and printed doors or blocks with the cup pocket modelled in; fully printed concealed four-bar hinges also exist *(unverified parts omitted)*
+- **print_in_place**: no: real clip-on cup hinges are metal parts you buy. As a printed alternative, SigmaT4's 'Print in place concealed hinge mechanism' prints its linkage already assembled (small built-in support pillars snap free on first use) and press-fits onto two screwed-on mounts, but it is not a clip-on cup hinge (Printables).
+- **making_tips_3d_printing**: 1) Don't try to print the hinge; print the tools and parts around it. Printed drilling jigs are popular: e.g. Agustin Bonini's 'Drill Jig for 35mm Hinge' puts the hole centre 22 mm from the door edge (public domain), Uenbzsto's parametric OpenSCAD drill guide aligns the cup hole, door screws and carcass screws and has STLs for several Blum hinges, and SimonM's parametric template handles inset doors of different thicknesses (all on Printables). Check the jig's centre distance against your hinge's table: Blum's cup centre runs from 20.5 mm to 24.5 mm from the door edge depending on the overlay (Blum H002). 2) Fitting a cup hinge to a printed door or panel: model the 35 mm pocket, 13 mm deep, instead of drilling it; Blum rates CLIP top BLUMOTION for doors 16 to 26 mm thick, so a printed door needs at least that thickness at the hinge, or a printed boss there (Blum H002). 4) Doors too thin for a 13 mm deep cup: Billiam's printed 1.5 mm spacer lets Blum CLIP top soft-close hinges go on doors that can't be drilled 13 mm deep (Printables). 5) To stop a door hitting a wall, print an angle-restriction clip: Erik Stenborg's copy of Blum part 74.1103 limits a 107° hinge to 86° and worked in PLA; print it with the flat J-shaped side down (Printables). 6) If you want a fully printed hidden hinge for a printed box or enclosure, use a design made for printing: SigmaT4's print-in-place concealed linkage hinge (left-hand files, mirror for right; allows up to 21 mm of overlap), or ragnarokpw's 180° concealed hinge printed in PETG with pieces of 1.75 mm filament as pins (Printables). For any printed moving joint, start with at least 0.3 mm clearance (Prusa). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'concealed hinge 35mm', 'cup hinge', 'European hinge', 'clip-on hinge', 'soft close hinge', and the door position: 'full overlay', 'half overlay' (also 'twin' or 'cranked'), 'inset' hinge; 'face frame' vs 'frameless' hinge; opening angle ('110°', '170° wide angle'); 'mini hinge 26mm' for small or thin doors; 'glass door hinge'. Mounting plates: 'mounting plate 0 mm / 3 mm' (plate height changes overlay), 'wing' or 'cruciform' plate, 'inline' plate, 'face frame adapter plate', 'cam height adjustable plate'; fixings: 'screw-on', 'press-in (Ø8 dowels)', 'EXPANDO', 'INSERTA' (Blum (brand) expanding dowels). Accessories: 'angle restriction clip' (e.g. 86°), 'hinge cover cap', 'soft close adapter' or 'BLUMOTION add-on' (Blum (brand)), 'push-to-open' hinges. Tools: '35mm Forstner bit', 'concealed hinge jig' or 'hinge boring jig' (Blum spec sheet; Woodcraft; Rockler; Wikipedia 'Concealed hinge jig').
+- **rules_of_thumb**: 
+  - Cup hole: 35 mm diameter, 13 mm (1/2 in) deep, for doors 16 to 26 mm thick (Blum H002 kit instructions for CLIP top BLUMOTION 110°). Other cup sizes exist: 40, 32 and 26 mm, with 26 mm used for glass doors (German Wikipedia 'Scharnier').
+  - Hole position is set by the boring distance, measured from the rim of the hole to the door edge, not the centre (Woodcraft). Blum: cup centre 20.5 to 24.5 mm from the edge for overlays of 14 to 18 mm (Blum H002); overlay = fixed distance + boring distance - mounting-plate height (Blum spec sheet).
+  - Mounting plate on a frameless cabinet: centreline 37 mm back from the front edge of the cabinet side, screws 16 mm above and below the plate centreline, 3 mm (1/8 in) pilot holes (Blum H002).
+  - Keep the cup centre at least 3 to 4 in (about 75 to 100 mm) from the top and bottom of the door (Blum H002); a common choice is 3 in from top and bottom (Woodcraft).
+  - The distance between the top and bottom hinges must be greater than the width of the door (Blum H002; Blum spec sheet); doors should be taller than they are wide (Blum EASY ASSEMBLY blog).
+  - Number of hinges: 2 for doors of 4-6 kg, 3 for 6-12 kg, valid for widths up to 600 mm; add a hinge for doors up to 650 mm wide; count handles in the weight; use 3 on tall narrow doors for stability (Blum EASY ASSEMBLY blog).
+  - Adjustment range to expect: side ±2 mm, height ±2 mm, depth +3/-2 mm (Blum H002).
+  - Half-overlay doors cover a little under half the side panel (typically 5/16 in), so two doors on a 3/4 in partition leave a 1/8 in gap (Rockler).
+  - Most cup hinges open 105° to 120°; choose up to 170° for corner cupboards, or an angle-limiting hinge or clip where the door would hit a wall (Woodcraft; Blum spec sheet).
+  - In MDF or particleboard, choose hinges and plates with barbed plastic inserts or pre-fitted dowels, because ordinary screws lose strength there (Woodcraft; Blum spec sheet).
+  - Blum's soft-close (BLUMOTION) closes best between 65 and 85 °F (about 18 to 29 °C); colder or hotter only changes the closing speed (Blum spec sheet).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Kitchen cupboard doors (the round cup is visible on the back of the door when it is open)
+  - Bathroom vanity and wardrobe doors
+  - Flat-pack furniture doors that you adjust with a screwdriver after assembly
+  - Built-in fridge and freezer doors hidden behind a cabinet panel use related multi-joint hinges (German Wikipedia 'Scharnier')
+- **when_to_use**: Use cup hinges for cupboard, wardrobe, cabinet and enclosure doors where you want no hinge visible from the front, doors that sit close to their neighbours, and the ability to line up the gaps after fitting. They suit flat panel doors 16 to 26 mm thick in wood, plywood, MDF or particleboard (Blum H002), let you lift doors off for cleaning or painting (Rockler), and come in versions for full-overlay, half-overlay and inset doors, face-frame or frameless cabinets, wide opening angles, soft close and push-to-open. Makers use them on wooden 3D-printer enclosures and workshop cabinets.
+- **when_not_to_use**: Avoid them on thin doors or lids that can't take a 13 mm deep, 35 mm hole (use a 26 mm mini cup hinge, a butt or knuckle hinge, a print-in-place hinge, or an invisible barrel (Soss-type) hinge for thicker lids); on heavy full-height room doors (use door hinges or Soss-type invisible hinges); outdoors, because Blum designs its concealed hinges for indoor use (Blum spec sheet; use stainless or marine hardware instead); where you need the door to open a full 180° flat (most open 105-120°; use a 170° cup hinge, a Soss-type hinge or a piano hinge); and on doors with no room for the cup behind the front (glass: use a glass-door hinge). For a fully 3D-printed box, a printed hinge is simpler than fitting metal cup hinges.
+- **environment_limits**: Designed for indoor use (Blum spec sheet). Soft-close dampers slow down in the cold and speed up in the heat; Blum quotes 65-85 °F (about 18-29 °C) for best action, with no damage outside that range (Blum spec sheet). Woodcraft for re-screwing). *(unverified parts omitted)*
+- **safety_notes**: Pinch point between door and cabinet edge as the spring pulls the door shut; keep fingers clear, especially with non-soft-close hinges. A door that isn't fully clipped on can drop off the plates: check each arm clicks home (Blum H002). The loose parts are a choking hazard for small children (Blum kit warning). Take the weight of a large door before unclipping the last hinge.
+- **common_failures**: Door sags or gaps go uneven as screws loosen with use; re-tighten and re-adjust the three screws (This Old House; Blum H002). Screws strip out of particleboard or MDF, often after repeated removal; repair by gluing in wood slivers or toothpicks and re-driving the screw (This Old House), or use hinges with plastic dowel inserts (Woodcraft). Door falls off because the arm was not pushed on until it clicked (Blum H002: make contact at the front point, then press until it clips). Cup hole drilled off-square, too deep, or at the wrong distance from the edge, which spoils the door face or the gaps: use a jig and a depth stop, and check the boring-distance table for your overlay (Wikipedia 'Concealed hinge jig'; Blum H002). Wrong hinge type (overlay vs inset, face frame vs frameless) so the door won't sit right (Rockler; Woodcraft). Soft-close too slow in a cold room (Blum spec sheet). Door hits a wall or appliance: fit an angle-restriction clip (Blum spec sheet).
+- **related**: 
+  - Knuckle hinge (butt hinge): a simple visible pin hinge on the outside; cheaper and thinner, but no adjustment and not hidden
+  - Invisible barrel hinge (Soss-type): also hidden, but sunk into the door edge and frame edge rather than the back face; opens 180° and suits thicker doors and lids; no adjustment or clip-off
+  - Self-closing hinges (spring hinge, rising butt hinge): hinges whose main job is swinging the door shut; cup hinges usually include a closing spring too
+  - Dampers (rotary and linear soft-close dampers): the soft-close part on its own, which can be added to ordinary cup hinges
+  - Push-push latch (push-to-open): pairs with no-spring cup hinges for handle-less doors
+  - Four-bar linkage: the mechanism inside a multi-joint cup hinge
+  - Virtual-pivot linkage (remote centre of motion): the idea behind the cup hinge's moving pivot, where the door turns about a point with no pin
+  - Lift-off hinges and knock-down fittings: other ways to make doors or panels removable, but with tools or with visible hardware
+  - Print-in-place hinge: a printed alternative for small printed boxes and lids
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Scharnier 06.gif: 'Topfscharnier als Mehrgelenkscharnier' (Manfredgoellner, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Scharnier_06.gif): Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens *(licence: CC BY-SA 4.0)*
+  - [Topfscharnier.jpg (Pavel Krok, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Topfscharnier.jpg): Photo of a cup hinge with its mounting plate (German Wikipedia caption: multi-joint cup hinge, adjustable in three axes) *(licence: CC BY-SA 2.5)*
+  - [KIT INSTRUCTIONS - H002 CLIP top BLUMOTION 110° (soft close) hinge (Blum)](https://d2.blum.com/services/BEC003/cme198264_ma_dok_bus_$sen-us_$aof_$v1.pdf): Step-by-step drawings: boring the 35 mm x 13 mm cup hole, positioning the mounting plate 37 mm from the front edge, clipping on and off with the release lever, and the three adjustment screws *(licence: link only)*
+  - [Cup Hinges: How to Choose, Install & Adjust (Woodcraft)](https://www.woodcraft.com/blogs/cabinetry-furniture-making/try-cup-hinges-for-your-next-cabinets-learn-how-to-choose-install-and-adjust-these-engineered-marvels): Photos and drawings of cup hinges in frameless and face-frame cabinets, boring with a Forstner bit in a drill press, a marking jig, and arrows for each adjustment direction *(licence: link only)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Drill Jig for 35mm Hinge (Agustin Bonini, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1276350-drill-jig-for-35mm-hinge): A printed drilling jig for 35 mm cup holes with the hole centre 22 mm from the door edge. Read through the Printables public API. *(licence: Public domain (Printables: 'Creative Commons — Public Domain'))*
+  - [Universal Customizable Euro Cabinet Hinge Drill Guide (Uenbzsto, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/271058-universal-customizable-euro-cabinet-hinge-drill-gu): OpenSCAD parametric drill guide that aligns the cup hole, door screws and carcass screws; self-aligning dovetails, prints flat without supports; STLs for nine Blum hinge types. Read through the Printables public API. *(licence: CC BY)*
+  - [Parametric Blum hinge template (SimonM, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/61793-parametric-blum-hinge-template): OpenSCAD drilling template for Blum inset hinges; adjust the 'inset' variable for door thickness; STLs for 18 and 22 mm doors. Read through the Printables public API. *(licence: CC BY-SA)*
+  - [Blum hinge spacer (1.5mm) (Billiam, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/5066-blum-hinge-spacer-15mm): A 1.5 mm printed spacer for Blum CLIP top soft-close hinges on doors too thin to drill 13 mm deep. Read through the Printables public API. *(licence: CC BY)*
+  - [Blum Hinge Angle Limiter 86 deg (Erik Stenborg, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1124557-blum-hinge-angle-limiter-86-deg): A printed copy of Blum part 74.1103 that limits a 107° hinge to 86°; printed fine in PLA. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+  - [Print in place concealed hinge mechanism + fidget toy (SigmaT4, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1176854-print-in-place-concealed-hinge-mechanism-fidget-to): A fully printed, print-in-place concealed linkage hinge that press-fits onto two screwed-on trapezoid mounts; allows up to 21 mm overlap; left-hand files (mirror for right). Read through the Printables public API. *(licence: CC BY-SA)*
+- **diagram_idea**: Top view of a cabinet corner with the door closed, then half open, then fully open: the cup sunk in the back of the door, two crossing links to the arm clipped on the plate, and a dotted curve showing the door edge moving out and away from the cabinet instead of on a circle; inset labels for the 35 mm x 13 mm cup hole, the boring distance from the door edge, and the three adjustment arrows (sideways, up/down, in/out).
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Hinge
+  - https://de.wikipedia.org/wiki/Topfscharnier
+  - https://de.wikipedia.org/wiki/Scharnier
+  - https://commons.wikimedia.org/wiki/File:Scharnier_06.gif
+  - https://commons.wikimedia.org/wiki/File:Topfscharnier.jpg
+  - https://en.wikipedia.org/wiki/Concealed_hinge_jig
+  - https://www.woodcraft.com/blogs/cabinetry-furniture-making/try-cup-hinges-for-your-next-cabinets-learn-how-to-choose-install-and-adjust-these-engineered-marvels
+  - https://www.rockler.com/learn/choosing-the-right-hinge-for-your-project
+  - https://ea.blum.com/en/number-of-hinges/
+  - https://www.blum.com/us/en/products/hingesystems/clip-top/programme/
+  - https://cabinotch.us/media/wysiwyg/FAQ/BlumHingeSpecifications.pdf
+  - https://d2.blum.com/services/BEC003/cme198264_ma_dok_bus_$sen-us_$aof_$v1.pdf
+  - https://www.thisoldhouse.com/cabinets/21097094/how-to-fix-loose-cabinet-door-hinges
+  - https://www.youtube.com/watch?v=wmHhg8WvFT4
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, links, load, making_tips_3d_printing, materials, play_and_precision, processes, special_behaviour
 
 ## 182 Invisible barrel hinge (Soss-type)
 
 *hinges & pivots.* A hinge made of folding links that hides completely inside the edges of the door and frame when closed
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A hinge that disappears completely when the door is shut: its two halves sit in deep slots cut into the edge of the door and the edge of the frame, and a stack of folding metal links between them unfolds as the door opens
+- **term**: Invisible hinge (Soss-type concealed hinge, crossed-link hinge); drilled cylindrical version: invisible barrel hinge
+- **aliases**: 
+  - Soss hinge (after SOSS (brand), the original maker, from 1903)
+  - invisible hinge / concealed invisible hinge / hidden hinge
+  - cross hinge (translation of German 'Kreuzscharnier')
+  - hidden door hinge / secret door hinge / bookcase door hinge (maker and trade wording)
+  - invisible barrel hinge / concealed barrel hinge / barrel hinge (the small cylindrical, drilled-in version for boxes and lids)
+  - wrap-around invisible hinge (SOSS 500 series (brand), stops at 92°, for hidden doors)
+  - invisible closer hinge (spring-closing version, SOSS (brand))
+  - Hercules hinge (SOSS (brand) heavy-duty steel version) *(unverified parts omitted)*
+- **family**: hinges & pivots
+- **other_families**: motion conversion
+- **one_liner**: A hinge made of two metal bodies sunk into matching pockets in the door edge and the frame, joined by folding links, so that when the door is shut nothing at all shows on either side and when it opens it swings a full 180°.
+- **complexity**: A small assembly that acts as one unit: two hinge bodies (each sunk into a stepped pocket, or mortise), two pairs of flat, roughly triangular links stacked alternately and joined in the middle by a pivot pin, two end pivot pins that hold one end of each link pair to a body, and two guide pins that slide in slots in the bodies, plus wood or machine screws (US patent 4,875,252). German references describe it as a five-joint hinge with two sliding joints, usually two stacked pairs of arms made of stacked stampings (German Wikipedia 'Scharnier', Kreuzscharnier). The drilled 'invisible barrel hinge' is simpler: two metal cylinders pushed into drilled holes, joined by brass links, with screws that expand the cylinders to lock them in (SOSS barrel hinge page; Family Handyman).
+- **how_it_works**: Each half of the hinge is a metal body that fits into a deep pocket cut into the door edge and the frame edge, so both halves face each other when the door is shut (SOSS catalogue). Between them, two pairs of flat links cross like an X and are pinned together in the middle; one end of each pair pivots on a pin in one body, and the other end carries a pin that slides along slots in the other body (US 4,875,252). As the door closes, the links fold together into the pockets of the two bodies, so nothing is visible from either side; as it opens, they unfold out of the pockets and the door can swing to 180° (US 4,875,252; SOSS FAQ). The door turns about a pivot point that moves inside the hinge during the swing rather than about a fixed pin, which also means there is no pinch point on the hinge side of the door (SOSS catalogue; Hardware Source).
+
+### Finder attributes
+
+- **job**: let it move (turn, slide or bend): a door, lid, flap or panel swings up to 180° with the hinge completely hidden when closed (SOSS FAQ)
+- **motion**: rotate, up to 180° in one direction only (SOSS FAQ); SOSS 500-series wrap-around hinges stop at 92° (SOSS catalogue p. 27). The door also shifts slightly as it swings, because the pivot moves inside the hinge.
+- **degrees_of_freedom**: 1: the door can only swing; the links and sliding pins make the swing and the small shift of the pivot happen together
+- **special_behaviour**: 
+  - none: the standard hinge just swings. Variants add behaviour: the SOSS Invisible Closer is a spring hinge with an adjustable spring that swings the door shut (but does not cushion it), and SOSS makes power-transfer versions that carry wires (SOSS FAQ PDF)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it lets the door swing
+  - shape (the parts interlock; form-fit): each body sits in a deep, full mortise that helps the screws carry the door, giving a stiffer installation (Hardware Source); the drilled barrel version is locked in its hole by expanding the cylinder with a screw (Family Handyman)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: screwed into the door edge and jamb (SOSS instructions), but the screws are only reachable with the door open, and the riveted hinge pin can't be removed, so the door can't be lifted off the hinges (SOSS catalogue)
+- **reuse_cycles**: many times as a hinge (long-lived: SOSS says the hinges never need adjusting and cites century-old installations; *(unverified parts omitted)*
+- **tools_needed**: Router with a guide bushing and a hinge router template, extra-long router bits and a drill (SOSS instructions), or by hand with a drill, Forstner bits and a chisel (Rockler video with Michael Alm); screwdriver to fit. The drilled barrel type needs a drill with an exact metric bit and a small screwdriver to expand the barrels (Family Handyman).
+- **seal**: none
+- **load**: light to heavy depending on size: tiny models suit jewellery boxes, large ones full-size entrance doors (SOSS catalogue). SOSS gives no load rating per hinge; the number and size of hinges come from the door's width, weight and thickness, e.g. a wood door 30 in wide, 200 lb and 1-3/4 in thick needs four #218 hinges (SOSS FAQ; catalogue p. 45). Heavy-duty steel 'Hercules' versions halve the count: a 150 lb, 80 x 36 x 1-3/4 in door needs four #218 or two #218H (catalogue p. 29). The drilled barrel type is 'not recommended for vertical or load bearing applications', i.e. use it for lids and fold-down flaps rather than hanging doors (SOSS barrel hinge page; Family Handyman).
+- **adjustable**: no: SOSS invisible hinges have no adjustment (SOSS adjustment guide: 'don't have pins and never need adjusting'); fit is set entirely by how accurately the mortises are cut. Drilled barrel hinges likewise have 'no opportunity to adjust the hinges for fit' (Family Handyman). Only the spring-closer version has an adjusting screw (for spring tension) (SOSS FAQ PDF).
+- **play_and_precision**: small play when well made (the door's weight rests on a stack of interlocking steel plates; SOSS adjustment guide), but the installation tolerates almost no error: the door edge passes within about 1/64 in (0.4 mm) of the frame as it opens (SOSS catalogue p. 39), so mortises must be accurately placed and the right depth. Material added to the door face beyond the hinge's 'E' dimension makes the door bind, or open only 90° (SOSS FAQ PDF).
+- **access_needed**: one side only (blind): everything is fitted from the door edge and the face of the frame; no access to the back of the frame is needed, but the screws can only be reached with the door open
+- **materials**: SOSS invisible hinges: die-cast metal bodies with stacked steel links (SOSS adjustment guide; Hercules versions have solid alloy-steel links and bodies (catalogue p. 29); invisible barrel hinges are solid brass with brass links (SOSS barrel hinge page). They suit solid wood, stave-core and solid-core doors and metal doors (SOSS FAQ PDF; steel door brackets are sold); hollow-core doors are not recommended (Reeb). Printed versions: PETG, ASA or carbon-fibre PC links with 3 mm steel pins (Printables, Michal Fanta). *(unverified parts omitted)*
+- **maker_difficulty**: moderate to hard: buying the hinge is easy, but the stepped mortises must be cut very accurately (router with a template, or careful drilling and chiselling) and there is no adjustment to correct mistakes; printed versions are moderate if you can ream pin holes accurately
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: SOSS and many generic invisible hinges and barrel hinges
+  - woodwork: stepped mortises cut with a router and template, or drilled and chiselled by hand (SOSS instructions; Rockler)
+  - sheet metal: SOSS sells steel brackets for fitting the hinges to metal doors and small models for metal cabinets (SOSS FAQ PDF)
+  - 3D print (FDM): printed Soss-style link hinges with steel pins, and printed router templates for cutting the mortises *(unverified parts omitted)*
+- **print_in_place**: no: printed Soss-style hinges are printed as separate links and bodies and assembled with steel pins (Michal Fanta's '180° Stealth Concealed Hinge') or fitted together from zero-tolerance parts (BPengu's '180° Concealed Barrel Hinge') (Printables).
+- **making_tips_3d_printing**: 1) Use metal pins, not printed ones: Michal Fanta's '180° Stealth Concealed Hinge' (Printables, very popular) uses 3 mm steel dowel pins (one 14.4 mm, two 18 mm, two 40-58 mm long), and the holes must be reamed to exactly 3 mm. It can be scaled down 33.3% for 2 mm pins or 66.7% for 1 mm pins, at the cost of stiffness. 2) Material and settings from the same designer: PETG, ASA or carbon-fibre-filled PC; 3-4 wall loops (walls matter more than infill around pin holes); 20% or more infill; no supports needed. His simpler 'Concealed Hinge for Folding Table Tops' recommends PETG (PLA only for light duty), 0.2 mm layers, 4+ perimeters, 30-50% infill, printing flat as oriented, and hole compensation or reaming if holes print tight (Printables). 3) Leave a small gap between the two panels so they don't rub as they rotate, and use several hinges spaced out for bigger panels (Michal Fanta, Printables). 4) BPengu's '180° Concealed Barrel Hinge' is modelled with zero tolerance, so expect to sand or deburr to fit, print in PETG with at least 20% infill, and lubricate once assembled (Printables). For your own designs, start with at least 0.3 mm clearance between moving printed parts (Prusa). 5) Print the pocket into the printed part: model a pocket to house each hinge body and fix it with screws (Fanta's simple version uses 4 mounting screws). Printed pockets avoid the hardest part of the woodworking job, the accurate stepped mortise. 6) For real SOSS hinges in wood, print a router template: Zdeněk's set on Printables covers every standard SOSS size, with depth gauges for the shallow (leaf) and deep (barrel) cuts, for a 17 mm bushing and 8 mm bit or a 16 mm bushing and 8 mm bit; he prints it in PLA because it bends less than PETG. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'invisible hinge', 'Soss hinge' (SOSS (brand) model numbers such as #101, #203, #204, #208, #212, #216, #218, #220), 'concealed invisible hinge', 'hidden door hinge', 'secret door hinge', 'wrap-around invisible hinge' (hides the reveal line of a secret door), 'invisible closer hinge' (spring closing), 'fire-rated invisible hinge' (20-180 minutes), 'power transfer hinge' (carries wires), 'Hercules hinge' (heavy duty); for boxes: 'invisible barrel hinge' or 'barrel hinge' in metric sizes (e.g. SOSS BH085 to BH244, 8 to 24 mm diameter), 'mini barrel hinge'. Tools: 'SOSS router guide template' (e.g. 204IT, 218IT), 'router guide system', 'template guide bushing', long 3/8 in or 1/2 in router bits (SOSS catalogue; SOSS instructions; SOSS FAQ PDF). Printed alternatives use 'steel dowel pin' or 'cylindrical pin' 3 mm.
+- **rules_of_thumb**: 
+  - Pick by door thickness first: each hinge has a minimum material thickness, e.g. #101: 1/2 in (12.7 mm); #203 and #204: 3/4 in (19 mm); #208: 1 in (25.4 mm); #212: 1-1/8 in; #216: 1-3/8 in; #218: 1-3/4 in; #220: 2 in (SOSS 2024 catalogue pp. 33-34; SOSS FAQ PDF).
+  - Use the largest hinge model that the door thickness allows, and at least one hinge for every 30 in (762 mm) of door height: a 90 in door needs three, a 91 in door four; heavier or wider doors need more per the sizing chart (SOSS catalogue p. 45).
+  - There is no load rating per hinge: size from width, weight and thickness, e.g. a wood door 30 in wide, 200 lb, 1-3/4 in thick takes four #218 (SOSS FAQ PDF; catalogue p. 45).
+  - Hinge spacing: put the 'centre' hinge halfway between the middle of the door and the top hinge, and with more than four hinges put more in the upper half, because the top hinge carries extra leverage (SOSS router guide instructions).
+  - Mortise depths come from the maker's table, e.g. #204: 3/8 in starter hole 27/32 in deep, shallow mortise 1/4 in, deep mortise 25/32 in; #218: shallow 13/32 in, deep 1-21/32 in (SOSS router guide instructions, tables A-C). With a template, 'the only critical dimension is the depth of the shallow mortise' (SOSS catalogue p. 42).
+  - The mortise is not centred in the door's thickness: its thin side goes to the inside face of the door (SOSS router guide instructions).
+  - Don't add facing material (laminate, mirror, trim) beyond the hinge's 'E' dimension, or the door will not open, or only to 90° (SOSS FAQ PDF; catalogue p. 39).
+  - Don't mix SOSS hinges with other hinge types, or the spring closer with non-SOSS hinges, on one door, because their swing radius differs (SOSS FAQ PDF).
+  - Drilled barrel hinges: drill an exact metric hole to match the barrel, e.g. 14 mm barrel for a 3/4 in door, and use them for lids and flaps, not load-bearing or vertically hung doors (SOSS barrel hinge page; Family Handyman).
+  - Practise on scrap of the same wood before routing the real door (SOSS router guide instructions).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Hidden 'secret' doors behind bookcases or wall panels (SOSS catalogue)
+  - Jewellery boxes and small wooden boxes with lids that show no hinge (SOSS catalogue; Family Handyman)
+  - Flush floor and wall access panels, and fold-down tray tables on trains (SOSS catalogue)
+  - Flush interior doors in modern or high-end buildings, e.g. Frank Lloyd Wright's Fallingwater (SOSS catalogue)
+- **when_to_use**: Use it when no hinge may show from either side: flush 'invisible' doors, secret doors, flush access panels, fine boxes and lids, fold-out table leaves and desks, and cabinet doors in solid wood. It opens a full 180° so a lid or leaf can fold right back (SOSS FAQ PDF), it can't be tampered with or unpinned from outside (SOSS catalogue), and it has no external pinch point on the hinge side (Hardware Source). Printed versions suit printed boxes and enclosure doors where a visible knuckle would spoil the look.
+- **when_not_to_use**: Avoid it on thin doors and lids (below the minimum thickness, e.g. under 1/2 in for the smallest; SOSS catalogue), on hollow-core doors (Reeb), and where you can't cut accurate mortises or may need to adjust the door later (no adjustment: use clip-on cup hinges, which have three-way adjustment, or ordinary butt hinges which can be shimmed). For heavy doors, don't use the small drilled barrel hinges, which are not for load-bearing or vertical use (SOSS; Family Handyman). Where a thick facing or mirror is added to the door front, check the 'E' dimension or choose a wrap-around or special model (SOSS FAQ PDF). For quick, cheap, removable doors, use lift-off or cup hinges instead.
+- **environment_limits**: Fire-rated versions are rated 20 to 180 minutes for doors 1-3/8 in to 2 in thick (SOSS FAQ PDF). Wood swelling and shrinking with humidity can make a tightly fitted door bind because the gap at the hinge side is tiny (about 1/64 in near closing; Printed hinges: PLA creeps and softens when warm; use PETG or ASA (Michal Fanta recommends PETG, ASA or PCCF). *(unverified parts omitted)*
+- **safety_notes**: No pinch point on the hinge side, because the pivot stays inside the hinge (SOSS catalogue), but the leading edge of the door still pinches like any door. Large invisible hinges on heavy doors: routing deep mortises needs eye protection and SOSS recommends 1/2 in shank router bits unless using its specified bits (SOSS router guide instructions). *(unverified parts omitted)*
+- **common_failures**: Door binds or won't close because a mortise is too deep, too shallow or out of position (the hinge body must sit flush: 'If the hinge body extends above the jamb ... verify that the mortises have been routed to the proper depths'; SOSS router guide instructions). Door won't open fully after a laminate, mirror or trim is added to its face (exceeds the 'E' dimension; SOSS FAQ PDF). Too few or too small hinges for the door, so they wear and the door drops; follow the sizing chart and use the largest model the door allows (SOSS catalogue). Screws pull out of hollow-core doors (Reeb: not recommended). Drilled barrel hinges fail when used as load-bearing door hinges, or bind when holes are drilled to the wrong depth, since nothing can be adjusted afterwards (Family Handyman). Printed hinges: loose pins or wobbly links from oversize holes (ream to size), cracking at pin holes (use 3-4 walls), stiffness from zero-tolerance parts (sand and lubricate) (Printables designers).
+- **related**: 
+  - Clip-on concealed hinge (cup hinge): hidden behind the door instead of in its edge; adjustable in three directions and removable without tools, but usually opens 105-120° and needs a 35 mm pocket in the back face
+  - Knuckle hinge (butt hinge): the ordinary visible hinge; easy to fit and shim, but the knuckle shows and it can be unpinned
+  - Print-in-place hinge: printed ready-assembled; simpler but visible
+  - Living hinge: a thin bendy strip; invisible-looking on boxes but only in plastic and with limited life
+  - Geared hinge (continuous gear hinge): a heavy-duty full-length hinge, visible along the edge
+  - Virtual-pivot linkage (remote centre of motion): the general idea of a door turning about a pivot that moves or lies outside the hardware
+  - Concealed four-bar door hinges (German 'verdecktes Viergelenkscharnier'): another hidden hinge for flush doors, built as a four-bar linkage (German Wikipedia 'Scharnier')
+  - Self-closing hinges: add a spring; the SOSS Invisible Closer is the spring version of this type
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Scharnier 11.gif: 'Funktionsprinzip eines Kreuzscharniers' (Manfredgoellner, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Scharnier_11.gif): Animation of how a cross hinge (Soss-type) works: two crossing arms with sliding pins fold into the door and frame *(licence: CC BY-SA 4.0)*
+  - [SOSS Door Hardware 2024 catalogue (PDF hosted by a distributor)](https://static.charlesmcmurray.com/publications/vendor/PDF/2024%20SOSS%20Catalog.pdf): Photos of invisible hinges open and closed, dimension drawings, sizing charts, installed examples in secret doors and access panels, and door path and clearance diagrams *(licence: link only)*
+  - [Instructions for Prepping an Opening for SOSS Invisible Hinges (SOSS)](https://www.soss.com/wp-content/uploads/2015/01/Router-Guide-Installation-Instructions-2015.pdf): Figures of the router guide template on door and jamb, hinge spacing on the door, and tables of drill sizes and mortise depths *(licence: link only)*
+  - [Installing INVISIBLE HINGES with Hand Tools | SOSS (YouTube, Michael Alm (ALM FAB))](https://www.youtube.com/watch?v=kua6rANnTYo): Fitting SOSS hinges with a drill, Forstner bits and chisel (title confirmed via YouTube oEmbed; steps summarised on Rockler's page for the same video) *(licence: link only (standard YouTube licence))* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [180° Stealth Concealed Hinge (Michal Fanta, Printables) (page appeared in search results; details read through the Printables public API)](https://www.printables.com/model/1533729-180deg-stealth-concealed-hinge): A printed Soss-style link hinge that hides inside the material and opens 180°; four printed arms and two bodies, assembled with 3 mm steel pins; support-free *(licence: CC BY-NC)*
+  - [Simple Concealed Hinge for Folding Table Tops / Panels (Low-Profile) (Michal Fanta, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1558489-simple-concealed-hinge-for-folding-table-tops-pane): A simpler printed concealed hinge that sits in a pocket for folding table leaves, desks and lids; two 3 mm x 30 mm pins and four screws. Read through the Printables public API. *(licence: CC BY-NC)*
+  - [180° Concealed Barrel Hinge (BPengu, Printables) (page appeared in search results; details read through the Printables public API)](https://www.printables.com/model/198679-180deg-concealed-barrel-hinge): Printed hidden barrel hinges, invisible from either side when closed, 180° range, scalable; zero-tolerance parts that need sanding and lubrication *(licence: CC BY)*
+  - [Stronger_180° Stealth Concealed Hinge (Андрей Никитин, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1556151-stronger_180deg-stealth-concealed-hinge): A remix with doubled working parts and built-in support, assembled with 3 mm wire trimmed to length. Read through the Printables public API. *(licence: CC BY-NC)*
+  - [SOSS Hidden Hinge Mortise Router Template – All sizes! (Zdeněk, Printables) (page appeared in search results; details read through the Printables public API)](https://www.printables.com/model/1341292-soss-hidden-hinge-mortise-router-template-all-size): Printed router jigs with depth gauges for every standard SOSS hinge size, for 17 mm or 16 mm guide bushings and an 8 mm bit *(licence: CC BY)*
+- **diagram_idea**: Three top-view frames of a door edge meeting a frame: closed (two hinge bodies face to face in their pockets, links folded flat and hidden), half open (the X of links swinging out, guide pins sliding in their slots), and fully open at 180°; with a side inset of the stepped mortise showing the shallow cut for the face plate and the deep cut for the body.
+- **sources**: 
+  - https://www.soss.com/product/barrel-hinge/
+  - https://www.soss.com/invisible-hinge-product-overview/
+  - https://www.soss.com/the-joseph-soss-story/
+  - https://static.charlesmcmurray.com/publications/vendor/PDF/2024%20SOSS%20Catalog.pdf
+  - https://www.soss.com/wp-content/uploads/2015/01/Router-Guide-Installation-Instructions-2015.pdf
+  - https://www.soss.com/wp-content/uploads/2018/05/SOSS_Invisible_Hinges_FAQ.pdf
+  - https://www.soss.com/faqs/
+  - https://www.soss.com/guide-how-to-adjust-door-hinges/
+  - https://learn.reeb.com/knowledge-base/soss-hinges/
+  - https://www.hardwaresource.com/a/blog/post/all-about-soss-invisible-hinges
+  - https://www.rockler.com/learn/video-installing-soss-hinges
+  - https://www.familyhandyman.com/article/everything-to-know-about-barrel-hinges/
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4875252
+  - https://de.wikipedia.org/wiki/Scharnier
+  - https://commons.wikimedia.org/wiki/File:Scharnier_11.gif
+  - https://commons.wikimedia.org/wiki/File:Scharnier_18.gif
+  - https://www.youtube.com/watch?v=kua6rANnTYo
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, links, making_tips_3d_printing, materials, processes, reuse_cycles, safety_notes
 
 ## 183 Virtual-pivot linkage (remote centre of motion)
 
 *hinges & pivots.* A linkage that makes a part rotate about a point in empty space where there is no actual pin, as in some robot wrists and folding mechanisms
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: An arrangement of arms and pivots that makes a part swing around a point where there is nothing at all, as if an invisible hinge pin floated in the air beside it
+- **term**: Virtual-pivot linkage; remote centre of motion (RCM) mechanism when the point stays fixed
+- **aliases**: 
+  - remote center of motion (US spelling); RCM mechanism
+  - virtual pivot / virtual pivot point / virtual centre of rotation
+  - instant centre (instantaneous centre of rotation, ICR) of a linkage; the path it moves along is the centrode (Wikipedia 'Instant centre of rotation')
+  - imaginary axis (German 'gedachte Achse', for multi-joint furniture and fridge hinges)
+  - polycentric joint / four-bar knee (prosthetic and orthotic knees)
+  - double-parallelogram RCM (surgical robots)
+  - circular-arc (curved-rail) guide / goniometer stage / goniometric stage (rotates about a point above the stage)
+  - remote centre compliance, RCC (a springy version used in robot wrists for peg-in-hole assembly)
+  - crossed-flexure or cross-axis flexural pivot (a bendy version whose pivot is where the blades cross) *(unverified parts omitted)*
+- **family**: hinges & pivots
+- **other_families**: motion conversion, compliant mechanisms & flexures, locating & alignment
+- **one_liner**: A set of links, a curved track or bending strips arranged so that a part rotates about a point out in empty space, such as a surgeon's incision, the tip of a peg, a person's knee or the corner of a folding door, where no real pin could be placed.
+- **complexity**: A small assembly that acts as one unit. Linkage versions: a base, two or more links, pins or bearings, and the moving part (a four-bar has four links including the base; a double-parallelogram RCM has two linked parallelograms, i.e. about six to eight links). Track version: a curved rail and a carriage (goniometer stage). Springy versions: crossed flexure blades, or angled elastomer-and-metal shear pads between two plates (RCC device) (Zhou et al. 2018; Taylor et al. US 5,397,323; PFA RCC manual).
+- **how_it_works**: In any four-bar linkage the moving part (the coupler) is, at each instant, turning about the point where the lines drawn through the two side links cross (Wikipedia 'Instant centre of rotation'). Angle the side links so those lines meet away from the parts, and the part swings about that empty point; as the linkage moves, the point drifts along a curve, which is fine for knees, bike suspension and cabinet or fridge hinges whose door edges swing about 'imaginary axes' (Wikipedia 'Instant centre of rotation'; German Wikipedia 'Scharnier'; BikeRadar). When the point must stay put over the whole movement, as for a surgical tool pivoting at the incision, designers use two linked parallelograms, a curved rail whose centre is the pivot, or a spherical linkage whose axes all pass through one point (Zhou et al. 2018; Taylor et al. US 5,397,323). Springy versions do the same by bending: crossed flexure blades pivot about their crossing point, which shifts slightly as they bend (C-Flex design guide), and a remote centre compliance (RCC) device uses angled rubber-and-metal pads so that a gripped peg tilts and slides about a point at its tip and slips into a hole instead of jamming (PFA RCC manual; Wikipedia 'Remote center compliance').
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): a part rotates about a point where no pin can go
+  - line parts up exactly: goniometer stages tilt a sample about a fixed point, and RCC wrists let a peg self-align into a hole (linearmotiontips; PFA RCC manual)
+  - change the kind of motion: with a moving pivot, the part swings and shifts at once, e.g. a cabinet door that moves outward as it opens, or a bike axle path (German Wikipedia 'Scharnier'; BikeRadar)
+- **motion**: rotate about a remote point, usually through a limited arc: goniometer stages from a few arc-seconds up to about 90° (linearmotiontips); linkages are limited by links colliding at extreme angles (Zhou et al. 2018). Surgical RCM mechanisms give two rotations (pitch and yaw) about the same point, often plus an in-out slide, i.e. multiple (Zhou et al. 2018).
+- **degrees_of_freedom**: Usually 1 for a single planar virtual-pivot linkage, crossed flexure or goniometer; 2 rotations about one point for surgical RCM mechanisms (stacked goniometers do the same; linearmotiontips), with the instrument having 4 in total (pitch, yaw, roll and in-out; Zhou et al. 2018); an RCC device floats a little in several directions, held by springs (PFA RCC manual)
+- **special_behaviour**: 
+  - self-aligning or self-centring: an RCC places the centre of compliance at the peg's tip so contact forces steer the peg into the hole instead of jamming it (Wikipedia 'Remote center compliance'; PFA RCC manual)
+  - motion conversion: in moving-pivot designs the part rotates and translates together along a designed path (e.g. four-bar knees place the instant centre where it keeps the knee stable; Phoengsongkhro et al. 2023)
+  - none: a pure double-parallelogram or arc-guide RCM just rotates about its fixed point
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion)
+  - spring force (a spring or springy part presses it in place): only the compliant versions (flexures, RCC shear pads) spring back to their rest position
+- **input_output**: rotation of an input link, or travel of a carriage along a curved rail -> rotation of the output about a remote point. Axes are parallel for planar linkages and all pass through one point for spherical linkages (Zhou et al. 2018). *(unverified parts omitted)*
+- **power**: passive (no power needed) as a mechanism; robots drive it with motors. A mechanical RCM keeps the pivot constraint even if power or electronics fail, which is why surgical robots prefer it over a software 'virtual RCM' (Zhou et al. 2018).
+- **removability**: removable: linkages are pinned or bolted together and can be taken apart; RCC devices and goniometer stages bolt on as units
+- **reuse_cycles**: effectively unlimited as a moving joint if the pins or bearings don't wear; RCC elastomer devices are quoted at 3 to 6 million operating cycles with no lubrication (PFA RCC manual)
+- **tools_needed**: hex keys or screwdrivers for bolted pivots; a reamer or drill to size pin holes in printed links; none to operate
+- **seal**: none
+- **load**: light to medium: the long reach to the remote point turns small forces there into large twisting loads on the pins. Parallelogram RCMs are rigid but bulky; circular-arc and spherical ones are compact but less rigid and mainly carry light instruments (Zhou et al. 2018). An RCC with soft CR35 pads carries about 25 lb (11 kg) hanging vertically and only about 3 lb (1.4 kg) sideways, 60 lb and 8 lb with stiffer CR55 pads (PFA RCC manual).
+- **adjustable**: Depends on design: adjusting link lengths moves the remote point and working radius (Taylor et al. US 5,397,323 uses links adjustable in length); in four-bars, changing pivot positions moves the instant centre and its path; RCC devices are chosen or ordered so the centre of compliance lands at the part's tip (PFA RCC manual).
+- **play_and_precision**: noticeable unless well made: any play in the pins is magnified at the distant pivot point, and link-length errors make the point wander. A research RCM prototype kept its pivot within 2 mm, with the remaining error mainly from backlash in the hinge points due to machining and assembly errors (Zhou et al. 2018). Moving-pivot four-bars drift by design (Wikipedia 'Instant centre of rotation'), and crossed-flexure pivots shift more the further they turn, with no shift at their centre position (C-Flex design guide).
+- **access_needed**: not applicable
+- **materials**: 3D-printed PLA or PETG links with metal screws, nylon-insert lock nuts and small ball bearings for maker builds (e.g. M3 screws and 693ZZ bearings in Digirig's virtual-pivot Morse key); spring steel or printed PETG for flexure versions; neoprene, natural rubber or silicone laminated with metal for RCC shear pads (PFA RCC manual). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: a four-bar whose pivot is in empty space is easy to print and bolt together, but a pivot point that truly stays fixed needs exact, equal link lengths and low-play bearings, so plan it in a linkage simulator first
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): links, flexures and demonstrators, with metal pins, bolts or small bearings at the joints
+  - off-the-shelf part: goniometer stages, RCC devices and cup hinges already contain these mechanisms *(unverified parts omitted)*
+- **print_in_place**: partly: compliant versions and some linkage hinges print in place, e.g. SigmaT4's print-in-place concealed linkage hinge, and BYU's cross-axis flexure pivot is two printed parts clipped together (Printables); most pinned linkages are printed as separate links and joined with bolts, pins or bearings.
+- **making_tips_3d_printing**: 1) Design it first in a free linkage simulator: PMKS+ runs in the browser and is free and open source; Linkage (rectorsquid) is free for Windows and can draw the path of any joint during simulation. Draw lines through the two side links: where they cross is the instant pivot (Wikipedia 'Instant centre of rotation'), so you can see how far it drifts over the stroke. 2) Precision is everything, because play at the pins is multiplied at the distant pivot (Zhou et al. 2018 blamed backlash from machining and assembly errors for most of their error). Use metal pins, shoulder bolts or small ball bearings rather than printed pins: Digirig's printed 'Virtual Pivot Point Straight Morse Key' uses M3 socket screws, nylon-insert lock nuts, thin washers and 693ZZ (3 x 8 x 4 mm) bearings at the link pivots (Printables). 5) Check for collisions at the extreme angles: parallelogram bars close up and overlap near their limits, so they must be spaced apart, which makes the mechanism bulky (Zhou et al. 2018). 6) For a springy version, print crossed flexure blades in PETG (BYU's cross-axis flexure pivot on Printables; a double-parallelogram flexure demo recommends PETG with at least two continuous perimeters so the hinges don't crack), and keep the rotation small, since the pivot shifts more as it turns (C-Flex design guide). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'goniometer stage' or 'goniometric stage' (tilts about a point above the stage; stack two for two axes), 'tilt stage', 'curved rail' or 'arc guide', 'remote center compliance' or 'RCC compliance device' (e.g. PFA Accommodator (brand)), 'compliance unit', 'cross-axis flexural pivot' or 'flexural pivot bearing' (e.g. C-Flex (brand)), 'polycentric knee joint' (prosthetics and knee braces). For DIY linkages: 'shoulder bolt', '693ZZ bearing', 'flanged ball bearing', 'nylon-insert lock nut', 'dowel pin', 'rod end'.
+- **rules_of_thumb**: 
+  - A four-bar's moving part turns, at each instant, about the point where the lines through its two side links cross; as the linkage moves this point traces a curve (the centrode) (Wikipedia 'Instant centre of rotation'). In bike suspension this 'virtual pivot' moves through the travel (BikeRadar).
+  - For a pivot that stays fixed, use a double parallelogram, a circular arc or a spherical linkage. Parallelograms: large range, simple, rigid, but bulky, and the RCM position depends on the relative positions of the bars. Arcs and spherical linkages: compact but need high machining and assembly precision and are less rigid (Zhou et al. 2018).
+  - Expect some wander: a research RCM prototype held its pivot within 2 mm, limited mainly by backlash from machining and assembly errors (Zhou et al. 2018).
+  - Crossed-flexure pivots: the pivot shift grows with rotation angle and with the size of the pivot, and is zero at the centre position (C-Flex design guide).
+  - RCC for insertion: put the centre of compliance at the leading edge of the part being inserted, where contact first occurs, and make the chamfer bigger than the expected sideways misalignment (PFA RCC manual).
+  - Goniometers: stack two stages designed to share the same centre height to rotate about one point in two axes (linearmotiontips).
+  - Prosthetic four-bar knees are designed to place the instant centre in a 'stability zone', which makes them more stable than single-axis knees (Phoengsongkhro et al., Sci. Rep. 2023).
+  - Mechanical RCM keeps patients safe if power or control fails, unlike a software-generated 'virtual RCM' (Zhou et al. 2018).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Kitchen cabinet cup hinges and built-in fridge door hinges, whose doors swing about imaginary axes so they clear their neighbours (German Wikipedia 'Scharnier')
+  - Full-suspension mountain bikes with linkage rear suspension (virtual pivot / instant centre) (BikeRadar)
+  - Four-bar (polycentric) prosthetic knees (Phoengsongkhro et al. 2023)
+  - Surgical robot arms, such as the da Vinci system, that pivot instruments about the incision (Zhou et al. 2018)
+- **when_to_use**: Use a virtual-pivot linkage when the natural turning point is somewhere you can't put a pin: inside a person's joint (a knee brace, or a Morse key knob that follows the wrist), at an incision or opening that a tool passes through, at the tip of a peg being inserted (RCC), at a sample or lens that must tilt without moving sideways (goniometer), or at the corner of a door or panel that must fold without hitting its neighbour (cabinet and fridge hinges). Also use it when a hinge must be hidden behind a panel, or when you want a part to follow a special path (rotate and shift at once).
+- **when_not_to_use**: If a real pin can go at the pivot, use a plain pivot or knuckle hinge: it is simpler, stiffer and more precise. For large angles (beyond roughly 90-120°) linkages run into their limits and links collide (Zhou et al. 2018): use a real axle, a ring bearing or a gimbal. For heavy loads at long reach, the long levers make it flexible and wear the pins; use a curved rail with rollers or a real bearing. For exact positions without play, use a flexure (small angles) or a goniometer stage. If a small drift of the pivot doesn't matter, a simple four-bar is enough; if it must not move, use a double parallelogram or arc.
+- **environment_limits**: Elastomer RCC pads have temperature limits: neoprene about -29 to 82 °C, natural rubber -40 to 82 °C, silicone -54 to 177 °C; severe cutting fluids can degrade them (PFA RCC manual). Gear-based RCMs need lubrication, which conflicts with sterilisation (Zhou et al. 2018). *(unverified parts omitted)*
+- **safety_notes**: Parallelogram and four-bar links close together like scissors: keep fingers out of the gaps between moving links. In robotics, a mechanical RCM stays safe if power fails, whereas a software RCM does not (Zhou et al. 2018). *(unverified parts omitted)*
+- **common_failures**: Pivot point wanders because link lengths are unequal or pins have play (magnified at the remote point); fix with bearings, reamed holes and identical links (Zhou et al. 2018). Links collide at the ends of travel; space parallelogram bars apart or limit the angle (Zhou et al. 2018). Crossed flexures crack when over-rotated, and their pivot shifts at large angles; add hard stops (C-Flex design guide). RCC insertion still jams if parts have no chamfer or the misalignment is larger than the chamfer, or if the payload is over the pads' rating (PFA RCC manual). A four-bar designed without checking its centrode swings about the wrong point for part of its travel; simulate first (Wikipedia 'Instant centre of rotation').
+- **related**: 
+  - Plain pivot and rolling bearing: a real pin at the pivot; use it whenever you can reach the pivot point
+  - Four-bar linkage (incl. parallelogram linkage): the basic building block; its coupler turns about a moving virtual pivot
+  - Flexure hinge (cross-axis pivot): a bending joint whose pivot is the point where its blades cross, with no pin
+  - Rolling-contact joint (CORE, Jacob's-ladder hinge): two curved surfaces rolling on each other, so the pivot moves along the contact point
+  - Gimbal: two real crossed axes that meet at one point; an RCM gives similar motion with nothing at the centre
+  - Ball-and-socket joint: a real sphere at the centre of rotation
+  - Clip-on concealed hinge (cup hinge): an everyday four-bar with a moving virtual pivot
+  - Invisible barrel hinge (Soss-type): a hidden hinge whose pivot moves inside the hinge during the swing
+  - Scissor linkage and straight-line linkages: other multi-bar linkages that shape a path rather than a rotation point
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Scharnier 02.gif: 'Animation eines Mehrgelenkscharniers für einen Kühlschrank' (Manfredgoellner, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Scharnier_02.gif): Animation of a built-in fridge's multi-joint hinge; the door and panel edges swing about imaginary axes where there is no pin *(licence: CC BY-SA 4.0)*
+  - [Mechanism analysis.png (VanBuren, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Mechanism_analysis.png): Diagram of a four-bar linkage with velocity arrows and the instant centre P where the lines through the two side links cross *(licence: CC BY-SA 3.0 or GFDL 1.2+)*
+  - [Remote Center of Compliance.svg (Arne Nordmann, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Remote_Center_of_Compliance.svg): Diagram of a remote centre compliance device yielding to tilt and sideways offset during a peg-in-hole insertion *(licence: CC BY-SA 3.0/2.5/2.0/1.0 or GFDL 1.2+)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Virtual Pivot Point Straight Morse Key (Digirig, design by K0TX, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1853041-virtual-pivot-point-straight-morse-key): A printed Morse key whose knob follows the natural path of the wrist using a virtual-pivot linkage; M3 screws, nylon lock nuts and 693ZZ bearings; build video https://www.youtube.com/watch?v=miGSeoow_kU. Read through the Printables public API. *(licence: CC BY-NC-SA 4.0)*
+  - [Cross-Axis Flexure Pivot (BYU CMR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/576067-cross-axis-flexure-pivot): Two printed parts clipped together to make crossed flexures that rotate about their crossing point without a pin. Read through the Printables public API. *(licence: CC BY-NC)*
+  - [Print in place concealed hinge mechanism + fidget toy (SigmaT4, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1176854-print-in-place-concealed-hinge-mechanism-fidget-to): A print-in-place concealed linkage hinge whose door turns about a moving virtual pivot; a working version and a fidget toy. Read through the Printables public API. *(licence: CC BY-SA)*
+  - [PMKS+ (planar linkage designer and simulator)](https://pmksplus.com/): Free, open-source, browser-based tool for designing and simulating planar linkages, with kinematic and force analysis *(licence: free and open source (licence not stated on the page))*
+  - [Linkage – Mechanism Designer and Simulator (rectorsquid)](https://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/): Free Windows program for prototyping linkages; can draw the path of any joint during simulation *(licence: free (licence type not stated))*
+- **diagram_idea**: Side view of a crossed four-bar: a fixed base, two angled links and a moving plate, with the two links extended as dashed lines that meet at a star in empty space above the plate; ghosted copies of the plate at several angles all turning about the star (and the star drifting slightly); beside it, a double parallelogram arm whose tool line always passes through a fixed star at a 'doorway' in a wall.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Instant_centre_of_rotation
+  - https://en.wikipedia.org/wiki/Remote_center_compliance
+  - https://en.wikipedia.org/wiki/Positioning_goniometer
+  - https://de.wikipedia.org/wiki/Scharnier
+  - https://commons.wikimedia.org/wiki/File:Scharnier_02.gif
+  - https://commons.wikimedia.org/wiki/File:Mechanism_analysis.png
+  - https://commons.wikimedia.org/wiki/File:Remote_Center_of_Compliance.svg
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC6245885/
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6245885/fullTextXML
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10739707/fullTextXML
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5397323
+  - https://www.pfa-inc.com/user-guides/remote-center-compliance-application-manual.pdf
+  - https://c-flex.com/wp-content/uploads/2024/10/DESIGN-GUIDE.pdf
+  - https://www.linearmotiontips.com/what-are-goniometer-stages-and-where-are-they-used/
+  - https://www.bikeradar.com/advice/buyers-guides/the-ultimate-guide-to-mountain-bike-rear-suspension-systems
+  - https://www.youtube.com/watch?v=yBJPLY4xukU
+  - https://www.youtube.com/watch?v=miGSeoow_kU
+  - https://pmksplus.com/
+  - https://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, input_output, links, making_tips_3d_printing, materials, processes, safety_notes
 
 ## 184 Self-closing hinges (spring hinge, rising butt hinge)
 
 *hinges & pivots.* Hinges that swing a door or lid shut by themselves, using a spring or a sloping knuckle that lifts the door as it opens
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A hinge that swings a door, gate or lid shut by itself after you let go, either with a spring hidden in the hinge or with a sloping hinge knuckle that lifts the door as it opens so the door's own weight brings it back down
+- **term**: Self-closing hinge: spring hinge (spring-loaded hinge) and rising butt hinge (cam-lift hinge)
+- **aliases**: 
+  - self-closing hinge
+  - spring hinge / spring-loaded hinge / spring-loaded door hinge
+  - single-action spring hinge (the door swings one way only)
+  - double-action spring hinge / double-acting hinge / saloon hinge / cafe door hinge (swings both ways and springs back to the middle; IQS Directory)
+  - Bommer hinge (brand; Dutch 'Bommerveerscharnier', a double-acting spring hinge with two axes; Dutch Wikipedia 'Scharnier')
+  - closer hinge / door closer hinge / hydraulic self-closing hinge (a spring hinge with a built-in speed brake or oil damper, e.g. Waterson (brand))
+  - rising butt hinge / rising butt / rising hinge / rise-and-fall hinge (UK names)
+  - cam-lift hinge (US name)
+  - spring-less self-closing hinge / gravity-closing hinge (descriptive wording, e.g. the Wikimedia Commons photo title)
+  - hinge cam riser / door-closing cam (on refrigerator doors)
+  - self-closing gate hinge / pool gate hinge
+- **family**: hinges & pivots
+- **other_families**: springs & energy storage, brakes, dampers & speed control
+- **one_liner**: A hinge that stores some of the effort you use to open a door, in a coiled spring or by lifting the door up a sloping knuckle, and gives it back to swing the door shut when you let go.
+- **complexity**: A small assembly that acts as one unit. Spring hinge: two leaves whose knuckles form a barrel, a hinge pin, a coiled spring inside the barrel with one end held by one leaf and the other by an adjusting collar at the top, and a small tension pin that locks the collar in one of several holes (Doorware adjustment guide; Wikipedia 'Door closer'). Closer hinges add a speed brake or oil (hydraulic) damper at one end of the barrel and sometimes a hold-open catch (Waterson). Rising butt: just two leaves whose knuckles meet on a sloping spiral face, and a pin (Cooke Brothers; DoorwaysPlus). Maker versions: printed knuckles, a steel pin or bolt and a bought metal torsion spring, or a printed springy arm.
+- **how_it_works**: Spring hinge: opening the door winds up a coiled spring in the hinge barrel, and the spring pushes back with a turning force that grows the further it is twisted (a torsion spring's torque is proportional to its twist; Wikipedia 'Torsion spring'), so when you let go it swings the door shut. The spring is wound a few extra notches while the door is shut (preload) so there is still enough push at the end to close and latch it (Doorware; Family Handyman). Rising butt: the two halves of the knuckle meet on a spiral ramp, so as the door swings open it climbs the ramp and rises a few millimetres; when you let go, the door's own weight slides it back down the ramp, which turns it shut (Cooke Brothers; DoorwaysPlus). Closer hinges add a friction brake or oil damper so the door closes at a controlled speed instead of slamming (Waterson; Wikipedia 'Hinge').
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): it is a hinge the door or lid swings on
+  - store energy: the spring (or the door lifted up the ramp) stores the opening effort and uses it to close the door
+  - slow it, stop it or keep its speed steady: closer hinges have a friction brake or oil damper that sets the closing and latching speed (Waterson)
+- **motion**: rotate: single-action spring hinges swing one way (about 90 to 180 degrees depending on the door), double-action hinges up to 90 degrees each way, 180 degrees in all (IQS Directory). Rising butts: rotate+slide, because the door rises a few millimetres as it swings (Cooke Brothers)
+- **degrees_of_freedom**: 1: the door can only swing about the pin. In a rising butt the lift is tied to the swing, like a screw thread, so it is still one movement, not two
+- **special_behaviour**: 
+  - self-aligning or self-centring: the hinge always returns the door to one rest position; double-action spring hinges bring the door back to the middle from either side (IQS Directory; Dutch Wikipedia 'Scharnier')
+  - motion conversion (e.g. rotary to linear): a rising butt turns part of the swing into a small upward lift, which clears carpets and stores the energy that closes the door (Cooke Brothers)
+  - fail-safe or breakaway: only in the sense that the door returns to shut when released, which is why self-closing gates are required round pools (Wikipedia 'Pool fence'); note that a rising butt is not accepted as a fire-door closer (Express Doors Direct; Direct Doors; DoorwaysPlus)
+  - indexing (clicks into set positions): only hold-open versions, e.g. Waterson's SB type holds the door open at 85 degrees (Waterson), and fridge-door hinge cams that hold the door partly open and pull it shut once nearly closed (Printables 'Fridge door hinge cam riser')
+- **holding_principle**: 
+  - spring force (a spring or springy part presses it in place): the spring keeps pushing the door shut and holds it against its stop
+  - shape (form-fit): like any knuckle hinge, the pin through the interlocking knuckles holds the two leaves together
+  - not a holding joint (it moves or passes on motion): a rising butt keeps the door shut only by the door's own weight (gravity), which is not a positive hold
+- **input_output**: not applicable (it does not pass motion on to anything else); inside a rising butt the swing is turned into a lift of a few millimetres (Cooke Brothers)
+- **power**: passive (no power needed): the person opening the door supplies the energy
+- **removability**: removable: screwed on like an ordinary hinge, usually set into shallow recesses (mortises) in the door edge and frame
+- **reuse_cycles**: many times: can be unscrewed and refitted; springs do wear out, but that can take many years (Family Handyman)
+- **tools_needed**: screwdriver, and a chisel to cut the hinge recesses; for spring hinges a tension lever tool or hex (Allen) key to wind the spring and pliers for the tension pin, where a 2 to 3 in (50 to 75 mm) finishing nail can stand in for the lever tool (Doorware; Family Handyman); for rising butts a plane to bevel (ease) the top edge of the door on the hinge side (Era product page; DIY Doctor forum)
+- **seal**: none
+- **load**: light to heavy depending on size: from small spring hinges for cabinet doors and box lids to commercial door hinges; the most durable self-closing hinges handle doors up to 440 lb (about 200 kg) (Wikipedia 'Door closer'), and Waterson's closer hinges start at 4 x 4 in. Rising butts suit lighter internal doors (Cooke Brothers); US guidance for cam-lift hinges is at least 4 x 4 in for doors up to 200 lb and 4 1/2 x 4 1/2 in for 201 to 400 lb, with a door closer for anything heavier (DoorwaysPlus). Like any hinge it is strong against the door's weight hanging on the pin (shear); its closing force is small and can be overcome by wind or a hand
+- **adjustable**: Spring hinges: yes; the spring tension is changed by turning the adjusting collar at the top of the barrel with a lever tool or hex key and locking it with the pin in the next hole (Doorware; Family Handyman); closer hinges also have separate adjusters for swing speed (from 90 to 20 degrees) and latch speed (from 20 to 0 degrees) (Waterson). Rising butts: no; the closing force comes from the door's weight and the slope of the ramp
+- **play_and_precision**: small, like any butt hinge; the door's closed position is set by the door stop and latch, not by the hinge. All hinges on a door must turn about one line: rising butts must be fitted exactly in line (co-axially) with all hinges sharing the load, or they bind (Era product page), and mixing rising and standard hinges on one door causes binding, uneven wear and poor latching (DoorwaysPlus)
+- **access_needed**: one side only (blind): the leaves screw into the door edge and the frame, reached with the door open; spring tension is adjusted from the top of the barrel, so spring hinges must be fitted with the adjuster at the top (Doorware)
+- **materials**: Steel, stainless steel, brass and bronze leaves (IQS Directory), with a coiled steel spring inside spring hinges. Stainless steel is preferred for rising (cam-lift) hinges in damp places, because plated steel can pit or flake in the cam area and start to bind (DoorwaysPlus). Maker versions: PETG, ASA or nylon printed knuckles with a steel pin and a metal torsion spring; plastic springs only for light or occasional loads (DuPont design guide, p. 36)
+- **maker_difficulty**: easy to buy and fit (like any hinge, plus setting the spring tension); moderate to make: printing knuckles around a bought torsion spring works well, but a printed plastic spring that is always held wound up slowly loses force (DuPont design guide, p. *(unverified parts omitted)*
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: single- and double-action spring hinges, closer hinges, rising butt or cam-lift hinges, self-closing gate hinges, self-closing cabinet hinges
+  - woodwork: fitting hinges to doors, gates and box lids (cutting the recesses; easing the top of the door for rising butts)
+  - 3D print (FDM): printed knuckles with a metal torsion spring or a printed springy arm (flexure); printed replacement cams (Printables) *(unverified parts omitted)*
+- **print_in_place**: partly: a print-in-place hinge can have printed springy arms that return it to the centre (Jack's 'Spring hinge' on Printables, public domain), but a hinge that is held wound up all the time needs a metal spring, which means printing the knuckles as separate parts and assembling them round the spring (DuPont design guide, p. 36)
+- **making_tips_3d_printing**: 1) Use a metal spring for the closing force. DuPont's design guide says springs under constant load or deflection should be made of spring steel, because plastics creep and relax (p. 36), and a self-closing hinge's spring stays partly wound even when the lid is shut. PLA creeps most and PETG less (thrinter creep test); the designer of a printed-spring lens cap recommends ASA for the spring for the same reason (Printables 'Camera lens lid with 3D printed springs'). 2) Buy a small torsion spring or wind your own from spring-steel wire on a printed jig (Printables 'Metal Torsion Spring Maker', which uses 2.5 mm stainless rod; wear eye and cut-resistant hand protection). Give each spring leg a slot or hole in its own leaf, and add a stop so the spring is already slightly wound when the lid is shut (preload), so it still pushes at the closed position. 3) Use a steel pin (a bolt, nail or length of rod) through printed knuckles, with at least 0.3 mm clearance for moving parts (Prusa knowledge base). 4) Orient the knuckles so the spring's twisting load doesn't try to split the layers apart: printed layers bond at only about half of the flat-printed strength (PLA 55% and PETG 46% in CNC Kitchen's hook test). 5) Heat: PLA starts to give way at about 60 C and PETG at about 80 C (CNC Kitchen), and springs creep faster when warm, so avoid PLA near a printer enclosure or in a car. 6) A spring-less (gravity) version needs a helical ramp between the knuckles with smooth, hard, low-friction faces; one maker's printed fridge-door cam failed straight away, and the real cam profile turned out not to be a simple sine curve (Printables 'Fridge door hinge cam riser'). 7) A flexible TPU part can be the spring on a dual-material printer (Printables 'Spring clamp (Print in-place with built in hinge and spring)'), but expect it to be weak. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Parts for DIY versions: 'torsion spring' (chosen by leg angle, wire size and wind direction), 'music wire' or 'spring steel wire', 'shoulder bolt' or 'clevis pin' for the pivot. Brands a beginner may meet: Waterson, Bommer (brands) *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Spring hinge tension: install with the adjuster at the top, set tension with the door shut, and don't wind more than 3 holes of tension for a door that swings 180 degrees or 4 holes for a 90-degree swing (Doorware single-action spring hinge guide).
+  - Adjust in small steps and test after each: too loose and the door won't close or latch, too tight and it slams (Family Handyman; Doorware).
+  - Closer hinge placement (Waterson): the top and bottom hinges 5 in +/- 1/8 in (127 +/- 3 mm) from the door edges; a third hinge goes next to the top one, with pivot centres at least 10.95 in (278 mm) apart; a purely mechanical system uses three hinges.
+  - Rising butts: all hinges on the door must be rising type, because mixing them with standard hinges causes binding (DoorwaysPlus); they are handed (left or right, clockwise or anticlockwise) (Cooke Brothers; Express Doors Direct).
+  - Rising butts: place about 150 mm from the top and bottom of the door (Express Doors Direct); three per door is recommended to reduce warping (Era product page).
+  - Rising butts: the top of the door must be bevelled (eased) on the hinge side so it clears the frame head as it rises (Era product page; Direct Doors); forum advice is a bevel from nothing to about 3 mm or more across the top on the rebate side (DIY Doctor forum, unverified by a manufacturer).
+  - Cam-lift hinge sizing (DoorwaysPlus): at least 4 x 4 in for doors up to 200 lb, 4 1/2 x 4 1/2 in for 201 to 400 lb, and a door closer for heavier doors; hinge count 2 for doors up to 60 in tall, 3 for 61 to 90 in, 4 for 91 to 120 in.
+  - Rising butts are not a fire-door closer: UK building regulations don't allow them on fire doors or escape routes (Express Doors Direct), and in the US they are not listed closers under NFPA 80 (DoorwaysPlus).
+  - Hydraulic closer hinges can be damaged if the door is pushed beyond 120 degrees (Waterson).
+  - Springs under constant load or deflection should be spring steel; plastics creep and relax (DuPont design guide, p. 36).
+  - Printed moving parts: start with at least 0.3 mm clearance (Prusa knowledge base).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Screen and storm doors that swing shut by themselves (DoorwaysPlus; Wikipedia 'Door closer')
+  - Swinging cafe, saloon and restaurant-kitchen doors that swing both ways and return to the middle (IQS Directory)
+  - Pool-fence gates, which must close and latch by themselves (Wikipedia 'Pool fence')
+  - A fridge door that pulls itself shut once nearly closed, thanks to a cam on the bottom hinge (Printables 'Fridge door hinge cam riser')
+  - Toilet-cubicle doors and cottage doors on rising butts that lift clear of the carpet (Cooke Brothers)
+- **when_to_use**: Use a self-closing hinge when a door, gate or lid should always end up shut without anyone remembering to close it: gates that keep pets or children in, screen doors, cupboard and cabinet doors, access flaps and printer-enclosure doors, and box lids that should snap shut. A spring hinge is the compact choice when there is no room for a separate door closer, and its force can be adjusted; pick a double-action hinge for a door that swings both ways, and a closer hinge (with a speed brake) where slamming matters. Use rising butts on light internal doors that must clear a carpet or uneven floor and should drift shut gently, without visible springs (Cooke Brothers).
+- **when_not_to_use**: Avoid it where the door or lid should stay open (use a friction hinge, detent hinge or lid stay instead); for heavy or fire-rated doors, which need a rated door closer or listed hardware (rising butts are not accepted on fire doors; DoorwaysPlus, Express Doors Direct, Direct Doors); on busy doors that cycle hundreds of times a day, where cam-lift surfaces wear quickly (DoorwaysPlus); where the closing must be slow and controlled (add a damper, or use a door closer or soft-close hinge); and where small children could trap fingers in a door that closes by itself. For a printed project, don't rely on a plastic spring that is held wound up all the time; use a metal spring (DuPont).
+- **environment_limits**: Outdoors or in damp places use stainless steel or other corrosion-resistant hinges; plated steel can pit in a rising hinge's cam area and start to bind (DoorwaysPlus). Hinges squeak and wear without occasional lubrication (IQS Directory). A rising butt's closing force is small and inconsistent, so draughts, wind or pressure differences can stop it closing fully (Direct Doors). Printed parts: PLA gives way at about 60 C and PETG at about 80 C (CNC Kitchen); plastic springs held under load creep and lose force over time, faster when warm (DuPont design guide, p. 36; thrinter creep test). Metal springs slowly tire (spring hinges wear out, but that can take many years; Family Handyman).
+- **safety_notes**: A door that closes by itself is a pinch and slam hazard at both the hinge side and the closing edge, especially for small children's fingers; set the tension no higher than needed, or add a damper. When winding a spring hinge, the spring pushes hard on the lever tool or hex key; keep a firm grip and fit the tension pin before letting go (Doorware steps). Don't treat a self-closing hinge as fire-safety hardware unless it is listed or rated for that use (DoorwaysPlus; Direct Doors). A spring-closed lid on a printed box can snap onto fingers.
+- **common_failures**: Spring too loose, so the door stops short of the latch, or too tight, so it slams (Family Handyman); fix by adjusting one notch at a time. Uneven tension between hinges, or a missing tension pin. The door still won't close after adjusting because it is badly hung in the frame (Family Handyman). Rising butts: the door jams against the frame head because the top wasn't bevelled (Era product page; Direct Doors); binding because rising and plain hinges were mixed (DoorwaysPlus); cam faces worn by heavy traffic, or dented by hitting the knuckles with a hammer, which destroys the closing action (DoorwaysPlus). Squeaking and stiffness from lack of lubrication (IQS Directory). Printed versions: plastic springs creep and lose their push, and knuckles split along layer lines; use a metal spring and a steel pin.
+- **related**: 
+  - Knuckle hinge (butt hinge): the plain version, which swings freely with no closing force
+  - Friction hinge: holds a lid at any angle instead of closing it
+  - Detent hinge (click hinge): clicks into set angles and holds there
+  - Lid and flap stays: hold a lid or flap open rather than closing it
+  - Dampers (rotary and linear soft-close dampers): slow a closing door; closer hinges build one in
+  - Door closer (overhead arm, floor spring): a separate spring-and-oil unit that does the same job for heavier doors (Wikipedia 'Door closer')
+  - Gas spring: pushes a lid open or holds it up, the opposite job
+  - Clip-on concealed hinge (cup hinge): cabinet hinges often have a spring that pulls the door shut or holds it fully open (Wikipedia 'Hinge' gallery)
+  - Living hinge: a bent plastic hinge also springs back a little, but can lose force over time (Protolabs)
+  - Torsion spring and other springs (springs & energy storage family): the spring parts themselves
+  - Spring-open hinge: the reverse, pushes a lid open (Cooke Brothers lists 'sprung open' hinges)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Door hinge with spring less self closing mechanism (Tobias ToMar Maier, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg): Photo of a rising (spiral-knuckle) hinge on a door in Augsburg; description: the door closes on its own because the hinge has a spiral shape that turns under gravity *(licence: CC0 1.0 (public domain dedication))*
+  - [Self closer hinge on arch-top (SevenH, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Self_closer_hinge_on_arch-top.jpg): Photo of a self-closing (closer) hinge fitted on an arch-top door, used in Wikipedia's 'Door closer' article *(licence: CC BY-SA 4.0)*
+  - [Bommerscharnier (Sindala, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG): Close-up photo of a double-acting spring hinge (Bommer type), used in Dutch Wikipedia's hinge article *(licence: Public domain)*
+  - [Rising Butt Door Hinge Dimensions & Drawings (Dimensions.com)](https://www.dimensions.com/element/rising-butt-door-hinge): Dimensioned drawings of a rising butt hinge open and closed, with typical sizes *(licence: link only)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Spring hinge (Jack, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/759250-spring-hinge): A print-in-place hinge with printed springs that returns to the centre position (or can be made bistable); low clearance, so scale up if needed; spray with silicone oil or PTFE. Read through the Printables public API. *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [Camera lens lid with 3D printed springs (Enijat, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/873841-camera-lens-lid-with-3d-printed-springs): A spring-closed lens cap for a 54 mm lens with a printed spring; the designer recommends printing the spring in ASA because it creeps less under constant load. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+  - [Fridge door hinge cam riser (Ryan Steele, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/540830-fridge-door-hinge-cam-riser): Customisable OpenSCAD model of the pair of cams on a fridge's lower hinge pin that hold the door open at one point and pull it shut once nearly closed; the designer notes his printed version failed quickly, a useful lesson in cam wear. Read through the Printables public API. *(licence: CC BY)*
+  - [Metal Torsion Spring Maker (adjective, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1004393-metal-torsion-spring-maker): A printed handle-and-jig for bending your own torsion springs from spring-steel or stainless rod, for putting a real metal spring into a printed hinge; warns to wear eye and hand protection. Read through the Printables public API. *(licence: CC BY)* *(unverified parts omitted)*
+- **diagram_idea**: Two side-by-side cutaways: on the left a spring hinge barrel with a coiled spring, one end fixed to the lower knuckle and the other to a notched collar held by a pin, with an arrow showing the spring winding up as the door opens; on the right a rising butt whose two knuckles meet on a spiral ramp, showing the door leaf climbing a few millimetres as it opens and sliding back down under its own weight.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Hinge
+  - https://en.wikipedia.org/wiki/Door_closer
+  - https://en.wikipedia.org/wiki/Torsion_spring
+  - https://en.wikipedia.org/wiki/Pool_fence
+  - https://nl.wikipedia.org/wiki/Scharnier
+  - https://www.cookebrothers.co.uk/latest-news/2025/09/30/benefits-of-rising-butt-hinges/
+  - https://www.doorwaysplus.com/blog/our-blog-1/cam-lift-hinges-and-the-self-closing-door-problem-when-the-hinge-does-the-work-instead-of-the-closer-463
+  - https://www.familyhandyman.com/article/how-to-adjust-a-self-closing-spring-hinge-yourself/
+  - https://www.doorware.com/specials/help-center/adjusting-spring-hinges.cfm
+  - https://www.iqsdirectory.com/articles/hinges/spring-hinges.html
+  - https://watersonusa.com/self-closing-hinge/door-closer-mechanism
+  - https://www.directdoors.com/blogs/news/are-there-any-issues-using-rising-butt-hinges
+  - https://www.expressdoorsdirect.co.uk/internal-doors/rising-door-hinges-what-why-and-how
+  - https://forums.diydoctor.org.uk/fitting-rising-butt-hinges-t14286.html
+  - https://www.eraeverywhere.com/default/door-components/entrance-doors/door-hinges/traditional-butt-hinges/rising/rising-door-butt-hinge-right-hand/
+  - https://www.dimensions.com/element/rising-butt-door-hinge
+  - https://commons.wikimedia.org/wiki/Category:Door_hinges
+  - https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg
+  - https://commons.wikimedia.org/wiki/File:Self_closer_hinge_on_arch-top.jpg
+  - https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
+  - https://www.youtube.com/watch?v=MB7sd8PkYwc
+  - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+  - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.protolabs.com/resources/design-tips/how-to-design-3d-printed-hinges/
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** links, make_it_yourself, maker_difficulty, making_tips_3d_printing, off_the_shelf_parts, processes
 
 ## 185 Lid and flap stays (folding stay, friction stay)
 
 *hinges & pivots.* Arms that hold a lid or flap open: a folding stay locks just past straight, a sliding stay holds by adjustable friction
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: An arm fitted inside a box, desk or window that props a lid or flap open so it can't fall shut: either an arm with an elbow that folds and locks when it goes straight, or a bar that slides through a clamp and holds by rubbing
+- **term**: Lid stay (lid support, flap stay): folding stay and sliding (friction) stay
+- **aliases**: 
+  - lid stay / lid support / lid support hinge
+  - flap stay / drop-front support / fall-front support / desk flap stay (holds a writing flap level)
+  - folding stay / folding lid stay / knuckle stay (two arms with an elbow joint, like a folding ruler)
+  - sliding stay / friction stay / friction lid stay / adjustable friction stay (a slotted bar sliding through a block with a screw)
+  - telescopic friction stay (tube sliding inside a tube; historically the 'Monarch casement stay')
+  - casement stay / peg stay / peg-and-bar stay (a bar with holes dropped over a peg, for windows)
+  - window friction stay / friction hinge (a four-bar window hinge with an adjustable friction slider)
+  - restrictor stay (limits how far a window opens)
+  - soft-down stay / soft-close lid stay (with an oil or air damper)
+  - lift-assist stay / piston stay / gas strut lid support (see 'Gas spring')
+  - torque lid stay / free-stop lid stay (friction holds the lid at any angle)
+  - locking lid stay (locks when fully open; lift the lid or press a button to release)
+  - toy box lid support / toy chest lid hinge (spring-loaded, holds the lid in any position)
+  - lid chain or cord (the simplest stay)
+- **family**: hinges & pivots
+- **other_families**: over-centre, toggle & cam clamps, clamping, magnetic & friction connections, brakes, dampers & speed control, locks, latches & catches
+- **one_liner**: A folding or sliding arm between a lid (or flap, or window) and its box or frame that holds the lid open, either by locking straight just past its dead point or by squeezing a sliding bar so friction holds it at any angle.
+- **complexity**: A few parts. Folding stay: two flat arms riveted together at an offset 'elbow' joint, with a swivelling mounting foot at each end (Whitechapel). Sliding stay: a bar (often slotted) with a pivoting foot at one end and a stop rivet at the other, plus a second pivoting foot that the bar slides through, with a friction screw or thumbscrew (Whitechapel; Rockler). Telescopic stay: a tube sliding in a tube, held by friction blocks (Wikipedia 'Casement stay'). Window friction stay: a track, several arms, and a plastic slider shoe with a friction adjustment screw (Era; Mila). Soft-down and lift-assist stays add a rotary damper, a spring or a gas strut (Sugatsune catalogue; Rockler).
+- **how_it_works**: Folding stay: the two arms are hinged in the middle like an elbow; as the lid opens the arm straightens, and the offset joint lets it open slightly more than 180 degrees against a stop (Whitechapel). Once just past straight, the lid's weight pushes the joint harder against its stop instead of folding it (over-centre), so the lid stays up until someone pushes or pulls the joint back through straight (Whitechapel; Rockler). Sliding (friction) stay: a bar fixed to the lid slides through a pivoting block on the box; a screw squeezes the bar so friction holds the lid wherever you leave it, and loosening it slightly lets the lid sink slowly (Rockler); a stop rivet at the bar's end sets the maximum opening. Window friction stays work the same way, with a screw in the slider setting the friction (Era).
+
+### Finder attributes
+
+- **job**: 
+  - lock, and release by hand: a folding stay locks the lid open until you nudge the joint; locking stays release when you lift the lid, press a button or slide a lever (Whitechapel; Sugatsune catalogue)
+  - slow it, stop it or keep its speed steady: friction stays hold a lid at any angle and let it down gently; soft-down stays use a damper to stop slamming (Rockler; Sugatsune catalogue)
+  - click into set positions: peg-and-bar casement stays hold a window at a few set openings (Wikipedia 'Casement stay')
+  - store energy: lift-assist stays use a spring or gas strut to help lift the lid (Rockler)
+- **motion**: multiple: the arms turn at their pivots and, in sliding stays, the bar also slides (rotate+slide). The lid itself turns on its own hinges, typically to a little more than 90 degrees for a chest lid or to level for a desk flap (Whitechapel); bent-arm window friction stays can let a window open to 180 degrees (Wikipedia 'Casement stay')
+- **degrees_of_freedom**: Installed with the lid's hinges, the lid, stay and box move together with 1 degree of freedom (the lid's swing); a locked folding stay or a tightened friction stay takes that to 0. A sliding stay on its own has 2 (the bar slides and pivots); a folding stay's two arms have 1 between their feet
+- **special_behaviour**: 
+  - over-centre (snaps past a point and stays): a folding stay opens slightly past straight so the lid's weight holds it locked (Whitechapel; Rockler)
+  - hand-release only (locks under load, releases when a person operates it): folding stays and locking lid stays hold until you push the joint, lift the lid, press a button or slide a lever (Whitechapel; Sugatsune catalogue pp. 143-145)
+  - torque-limiting (slips or clicks at a set force/torque): a friction stay is a slip joint; it holds until pushed harder than its set friction, then slides smoothly (Rockler)
+  - one-way (moves freely one way, locks the other): some torque lid stays have friction only in the closing direction, so the lid opens freely but stays where it is left (Sugatsune catalogue p. 136); they resist rather than lock
+  - indexing (clicks into set positions): peg-and-bar window stays set a few fixed openings (Wikipedia 'Casement stay')
+- **holding_principle**: 
+  - shape (form-fit): a locked folding stay holds because its joint sits against a stop just past straight; peg stays hold by a peg in a hole
+  - friction or clamping (force-fit): sliding, telescopic and window friction stays hold by a screw or friction blocks squeezing the sliding part (Rockler; Wikipedia 'Casement stay'; Era)
+  - spring force (a spring or springy part presses it in place): spring-loaded toy-box lid supports and lift-assist stays (CPSC; Rockler)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: screwed to the underside of the lid and the inside of the box or frame (Whitechapel; HingeOutlet)
+- **reuse_cycles**: many times: can be unscrewed and refitted; commercial damper stays are recognised by LGA for 30,000 to 40,000 cycles (Sugatsune catalogue pp. 106, 112 and 117)
+- **tools_needed**: screwdriver and drill or bradawl to fit; a combination square to line the stay up square to the back of the box (HingeOutlet); a screwdriver to adjust friction on sliding and window friction stays (Rockler; Era)
+- **seal**: none (telescopic tube stays do keep dirt and water out of the sliding parts; Wikipedia 'Casement stay')
+- **load**: light to medium. Chosen by the lid's turning load (moment): lid depth x lid weight / 2, in inch-pounds (Rockler), e.g. a 25 in deep, 14 lb lid needs about 175 in-lb (HingeOutlet); Sugatsune writes the same formula as door height x 1/2 x door weight, and one friction lid stay holds 0 to 71 kgf-cm (0 to 61.7 lbf-in) per piece (Sugatsune catalogue pp. 111 and 136). The arm is strong along its length (propping the lid) but weak sideways and in twist, and folding stays can be released by a bump; heavy lids and overhead doors need gas (piston) stays (Rockler)
+- **adjustable**: Sliding friction stays: yes, a screw sets the friction; tighten to hold the lid anywhere, loosen slightly for a slow soft-down (Rockler). Window friction stays: yes, a screw in the slider, in quarter turns (Era). Some soft-down stays have an adjustable speed (Sugatsune catalogue p. 111). Folding stays: no, they lock at one opening. Peg stays: choose a hole (Wikipedia 'Casement stay')
+- **play_and_precision**: noticeable: riveted pivots have some play, and peg stays rattle in the wind (Wikipedia 'Casement stay'). A folding stay always locks at the same opening; a friction stay holds anywhere but can creep as the friction fades (Rockler). Mounting must be precise: a badly placed folding stay contorts or won't lock (Whitechapel), and stays must be square to the back and parallel to the side wall (HingeOutlet; Sugatsune catalogue p. 145)
+- **access_needed**: one side only (blind): everything is screwed on from inside the open box, desk or window
+- **materials**: Steel, brass, zinc alloy, nickel-plated and aluminium arms and bars (Wikipedia 'Casement stay'); traditional folding stays in solid or plated brass (Rockler; Whitechapel); commercial stays in zinc-alloy bodies with steel arms, or 304 stainless steel (Sugatsune catalogue pp. 136 and 143); window friction stays in steel with a plastic slider shoe (Era; Mila). Printed stays: PLA or PETG arms with a metal pin, e.g. 3.15 mm welding wire as the axle (Printables 'Creality K1 MAX folding lid support')
+- **maker_difficulty**: easy to buy and fit, as long as the stay is placed precisely (Whitechapel); easy to moderate to print a simple prop or folding stay with a metal pin; moderate to make a friction stay that keeps its grip, because squeezed plastic relaxes (DuPont design guide, p. 36)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: folding, sliding, telescopic, locking, soft-down and lift-assist lid stays; window friction stays
+  - woodwork: fitting stays to chests, toy boxes, desks and cabinets
+  - 3D print (FDM): props, folding stays and locking stays for boxes and printer-enclosure lids (Printables) *(unverified parts omitted)*
+- **print_in_place**: no: printed stays are printed as separate arms and joined with a metal pin or screw (e.g. 'Simple Lid Stay' is split into its parts in the slicer; the K1 MAX folding lid support uses a welding-wire axle; Printables)
+- **making_tips_3d_printing**: 1) Print the arms lying flat so the layers run along the arm; bending across layer lines is weak (vertically printed PLA hooks held 55% and PETG 46% of the flat-printed load; CNC Kitchen). 2) Use a metal pin for every pivot (a bolt with a nylon-insert lock nut, a clevis pin or a piece of steel wire; the K1 MAX folding lid support uses 3.15 mm welding wire; Printables) and leave at least 0.3 mm clearance for moving parts (Prusa knowledge base). 3) For a folding stay, design a stop face at the elbow so the joint stops a few degrees past straight (slightly over 180 degrees, like commercial folding stays; Whitechapel); the lid's weight then holds it locked. Test that it releases with a light push and that the stop is thick enough to take a bump. 4) For a friction (sliding) stay, don't rely on a tight printed fit: plastic held squeezed slowly relaxes (DuPont design guide, p. 36; thrinter creep test). Use a screw with a spring washer or rubber washer to keep the squeeze on, and expect to re-tighten it now and then, as with bought friction stays (Rockler; CPSC). 5) Material: printer-enclosure lids get warm; PLA starts to give way at about 60 C and PETG at about 80 C under load (CNC Kitchen), so use PETG or ASA there. 7) Commercial stays are handed (left or right); mirror a printed design for the other side (Rockler; Printables 'Flashforge 5M Pro Small Folding Lid Prop'). 8) Heavier printed enclosure lids are better lifted by gas springs on printed brackets (Printables 'Hinged lid with gas spring for Original Prusa Enclosure' uses two 120 N gas springs, M6 pivot screws with nylon-insert nuts and aluminium profiles to stiffen the lid). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'lid stay', 'lid support', 'folding lid stay', 'sliding lid stay' or 'friction lid stay', 'telescopic friction stay', 'drop front support' or 'flap stay', 'soft-down lid stay' or 'soft close lid support', 'lift assist lid stay', 'torque lid stay' or 'free stop lid stay', 'locking lid stay', 'toy box lid support' (spring-loaded, holds the lid in any position), 'casement stay' and 'window friction stay' / 'friction hinge' (by stack height, 13 or 17 mm, and length; Mila), 'gas strut' with 'ball stud' ends. Makers a beginner may see: Sugatsune, Rockler, Whitechapel (brands)
+- **rules_of_thumb**: 
+  - Size a lid stay by the lid's moment: inch-pounds = lid depth (in) x lid weight (lb) / 2, measured front to back for a chest lid or the closed height for an upward-opening door (Rockler); e.g. 25 in x 14 lb / 2 = 175 in-lb (HingeOutlet). Sugatsune writes it as torque = door height x 1/2 x door weight (Sugatsune 'Lid Supports' catalogue, p. 111).
+  - A too-weak stay can't hold the lid; a too-strong one makes the lid hard to close (HingeOutlet).
+  - Folding stays are made to open slightly more than 180 degrees, which is what locks them (Whitechapel).
+  - Small folding stays should fold away from the hinges (forward-folding); on a slant-front desk a folding stay only works if the desk front is at 60 degrees or steeper (Whitechapel).
+  - Sliding stays need clear space inside the box for the arm's whole travel (Rockler; Whitechapel); folding stays need no more room than their closed size (Whitechapel).
+  - Lockable sliding stays are a poor choice for chest lids because they can release unexpectedly; use them for setting angles, e.g. drafting tables and windows (Whitechapel).
+  - A lid near children needs a support that holds the lid open in any position, and it must be checked and re-tightened periodically (CPSC Publication 5099).
+  - Window friction stays: turn the adjustment screw a quarter turn at a time, never more than three quarter turns in total, and adjust top and bottom stays equally (Era Horizon friction stay instructions); standard stack heights are 13 mm and 17 mm (Mila fitting instructions).
+  - Telescopic friction stays typically extend from 11 to 16 in (Wikipedia 'Casement stay').
+  - Commercial damper (soft-down) stays are designed for room temperature, 0 to 40 C (Sugatsune catalogue, pp. 106 and 112).
+  - Mount stays square to the back of the box and parallel to the side wall (HingeOutlet; Sugatsune catalogue p. 145).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Toy chests and blanket chests with a support that stops the lid falling (CPSC; Rockler)
+  - Drop-front (secretary) desks whose writing flap is held level by stays (Rockler; Whitechapel)
+  - Upward-opening kitchen cabinet doors held open by a stay (Rockler)
+  - Casement windows held open by a peg stay or a friction stay (Wikipedia 'Casement stay'; Era)
+  - 3D-printer enclosure lids propped open by a folding stay (Printables 'Creality K1 MAX folding lid support')
+- **when_to_use**: Use a stay when a hinged lid, flap or window must stay open by itself and must not fall: chest and toy-box lids (so they can't drop on hands or heads), drop-front desk flaps that must hold weight level, overhead cabinet doors, printer-enclosure lids, tool-case lids and casement windows. Choose a folding stay for a compact, positive lock at one opening, especially where space inside is tight (fall-front desks; Whitechapel). Choose a friction (sliding or telescopic) stay to hold any angle and let the lid down softly, which is the safer choice around children (Whitechapel; CPSC). Choose a soft-down or lift-assist stay for heavier lids, and a gas stay for large overhead doors (Rockler).
+- **when_not_to_use**: Avoid folding stays where small children could release them by accident and have the lid fall (Whitechapel); use a friction stay or a spring-loaded lid support that holds at any position (CPSC). Avoid lockable sliding stays on chest lids (Whitechapel). Don't use a stay alone for very heavy lids or overhead doors that could lift out of reach; use gas stays or lift-assist hardware (Rockler). For small jewellery boxes, a 90-degree stop hinge or quadrant hinge is simpler (Rockler). If the lid should hold at any angle with no visible arm, use a friction (torque) hinge instead; if it should close by itself, use a self-closing hinge or a soft-down stay.
+- **environment_limits**: Mostly for indoor furniture; damper (soft-down) stays are designed for 0 to 40 C (Sugatsune catalogue). Window friction stays live outdoors: lubricate the moving parts with light, non-acidic mineral oil twice a year and keep them clean (Era). Friction stays lose grip over time and need periodic tightening (Rockler; CPSC). Printed stays: PLA starts to give way at about 60 C and PETG at about 80 C (CNC Kitchen), and squeezed plastic friction parts relax, faster when warm (DuPont design guide, p. 36).
+- **safety_notes**: Falling lids are a real hazard: the US CPSC knows of children killed or brain-damaged when toy-chest lids fell on their heads or necks, and recommends a lid support that holds the lid open in any position, checked and re-tightened regularly (CPSC Publication 5099). Folding stays have a pinch point at the elbow and can be released accidentally (Rockler; Whitechapel). Overhead doors that lift out of reach need a stay that holds the position you leave them in (Rockler). Over-turning a window friction stay's adjustment screw strips its thread and damages the hinge (Era), and replacing stays means handling heavy sashes and glass (Mila).
+- **common_failures**: The friction fades, so the lid drifts down or drops; re-tighten the screw regularly (Rockler; CPSC). A folding stay is fitted in slightly the wrong place, so it twists, won't lock or won't fold (Whitechapel). A sliding stay's arm hits things inside the box because there wasn't enough clearance (Rockler). The wrong hand (left or right) was bought (Rockler; Mila). The stay was undersized for the lid's weight and depth, or so strong the lid is hard to close (HingeOutlet). The stay isn't square or parallel, so it binds (HingeOutlet; Sugatsune catalogue). A window friction stay's screw is over-tightened and strips (Era). Printed versions: arms snap along layer lines, plastic pivot holes wear oval, and friction parts relax.
+- **related**: 
+  - Friction hinge: puts the friction inside the hinge itself, so no separate arm is needed
+  - Gas spring (gas strut): lifts and holds heavier lids; lockable types hold at any length
+  - Dampers (rotary and linear soft-close dampers): the part inside a soft-down stay that stops slamming
+  - Self-closing hinges: close a lid or door instead of holding it open
+  - Over-centre linkage (toggle linkage): the principle that locks a folding stay just past straight
+  - Detent hinge: holds a lid at set click positions inside the hinge
+  - Telescoping tube locks (twist lock, lever lock): lock a telescoping tube at any length, like a lockable telescopic stay
+  - Stop hinge or quadrant hinge: a hinge with a built-in stop, enough for light jewellery-box lids (Rockler)
+  - Torsion lid hinge: a hinge with a built-in spring that holds the lid where you leave it (Rockler)
+  - Chain or cord stay: the simplest way to stop a lid falling backwards (Whitechapel; Rockler)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Lid Support/Lid Stay Buying Guide (Rockler)](https://www.rockler.com/learn/lid-support-lid-stay-buying-guide): Photos and explanations of folding, sliding (friction) and piston lid stays, their uses on chests, drop-front desks and overhead doors, and the inch-pound sizing formula *(licence: link only)*
+  - [Stays (Whitechapel Ltd)](https://whitechapel-ltd.com/stays): Pictures and descriptions of folding, sliding, telescoping friction and casement (peg) stays, with safety advice for chests *(licence: link only)*
+  - [Folding Lid Stays: installation (Whitechapel Ltd)](https://whitechapel-ltd.com/folding-lid-stays): Installation drawings of folding stays on a chest lid and on fall-front desks, and why they lock slightly past 180 degrees *(licence: link only)*
+  - [Horizon Friction Stay Adjustment Instructions (ERA, PDF)](https://www.eraeverywhere.com/globalassets/era/data-sheets/10757_adjustment-instructions.pdf): Diagrams of a window friction stay with and without friction applied, and where the adjustment screw sits in the slider *(licence: link only)*
+  - [George H. Johnson & Fred Bottner Trunk Lid Support, 1871 patent drawing (US National Archives via Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:George_H._Johnson_%26_Fred_Bottner_Trunk_Lid_Support_-_DPLA_-_c52e19270d05551ecae0e6621daffa03_(page_1).jpg): A historic US patent drawing of a trunk lid support *(licence: Public domain in the United States)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Simple Lid Stay (Stached, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/321117-simple-lid-stay): A very simple printed stay to hold a chest or box lid open; split into its parts in the slicer; printed in PLA with 4 perimeters and 20% infill. Read through the Printables public API. *(licence: CC BY)*
+  - [Chest/Trunk Lid Stay (oublue, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/648577-chesttrunk-lid-stay): A pair of printed stays that stop a chest lid opening too far; one catches automatically when fully open to stop the lid falling on fingers, and is lifted to release; fixed with #6 wood screws. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+  - [Creality K1 MAX folding lid support (Jan Kurek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/993062-creality-k1-max-folding-lid-support): A folding support that locks a printer's lid lifted at 132 mm and flips up out of the way when closed; printed in PETG with a 3.15 mm welding-wire axle. Read through the Printables public API. *(licence: CC BY-NC)*
+  - [Hinged lid with gas spring for Original Prusa Enclosure (MW, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/563065-hinged-lid-with-gas-spring-for-original-prusa-encl): Printed brackets that lift an enclosure lid with two 120 N gas springs, pivoting on M6 screws with nylon-insert nuts; shows the piston-stay alternative. Read through the Printables public API. *(licence: GNU GPL v3.0)*
+- **diagram_idea**: Side view of an open chest: a folding stay with its elbow shown a few degrees past straight and an arrow showing the lid's weight pressing the joint into its stop (locked), next to a sliding friction stay whose bar passes through a pivoting block with a friction screw, with the inch-pound formula (lid depth x weight / 2) beside the lid.
+- **sources**: 
+  - https://www.rockler.com/learn/lid-support-lid-stay-buying-guide
+  - https://whitechapel-ltd.com/stays
+  - https://whitechapel-ltd.com/folding-lid-stays
+  - https://en.wikipedia.org/wiki/Casement_stay
+  - https://en.wikipedia.org/wiki/Casement_window
+  - https://www.cpsc.gov/s3fs-public/5099.pdf
+  - https://www.hingeoutlet.com/blogs/news/how-to-install-lid-support-hinges-and-stays
+  - https://www.sugatsune.com/content/page-files/product-literature/catalog-300-099-157-lid-supports.pdf
+  - https://www.eraeverywhere.com/globalassets/era/data-sheets/10757_adjustment-instructions.pdf
+  - https://www.milasecure.com/uk/en/documents/fitting-instructions/window-hardware/friction-stay-fitting-instructions/Standard%20Friction%20Stay%20Fitting%20Instructions.pdf
+  - https://commons.wikimedia.org/wiki/File:George_H._Johnson_%26_Fred_Bottner_Trunk_Lid_Support_-_DPLA_-_c52e19270d05551ecae0e6621daffa03_(page_1).jpg
+  - https://www.youtube.com/watch?v=j6s0zpPYchw
+  - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+  - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** links, making_tips_3d_printing, processes
 
 ## 263 Knuckle hinge (butt hinge)
 
 *hinges & pivots.* Two leaves joined by a pin through interlocking knuckles; the ordinary door hinge
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The ordinary door hinge: two flat plates, one screwed to the door and one to the frame, joined along one edge by a row of rings with a pin through them, so the door can swing
+- **term**: Butt hinge (knuckle hinge; called a mortise hinge when it is set into shallow recesses)
+- **aliases**: 
+  - knuckle hinge
+  - mortise hinge, half-mortise hinge (only one leaf set into a recess) (Wikipedia, Hinge)
+  - barrel hinge (a sectional barrel, the knuckle, turning on a pin; Wikipedia says most hinges work this way)
+  - loose-pin hinge and fixed-pin hinge (whether the pin can be taken out; Popular Woodworking)
+  - swaged and non-swaged butts (leaves bent in toward the barrel, or flat and in line with it; Popular Woodworking)
+  - ball-bearing hinge (standard weight with 2 bearings, heavy weight with 4) and plain-bearing hinge (I Dig Hardware)
+  - NRP hinge (non-removable pin, locked by a set screw) and security-stud hinge (DoorwaysPlus)
+  - lift-off hinge or flag hinge (one leaf carries the pin, the other has the hole, so the door lifts off; Wikipedia)
+  - continuous hinge or piano hinge (a knuckle hinge running the full length of a lid or door; Wikipedia)
+  - case hinge (a small, decorative butt hinge for boxes and cases; Wikipedia)
+  - butterfly hinge or applied hinge (a decorative knuckle hinge screwed onto the surface, not recessed; Popular Woodworking)
+  - pin also called a pintle; leaf, knuckle, gauge, end play, pitch (Wikipedia hinge terminology)
+  - revolute joint, pin joint or hinge joint (the engineering name for any one-axis turning joint; Wikipedia) *(unverified parts omitted)*
+- **family**: hinges & pivots
+- **other_families**: print-in-place & 3D-printing joints
+- **one_liner**: Two leaves with interlocking rings (knuckles) along one edge share a single pin, so a door, lid or flap can swing about that pin while the hinge carries its weight.
+- **complexity**: A few parts: two leaves (flat plates with screw holes), the knuckles (rolled or cast rings along one edge of each leaf that interleave), one pin through all the knuckles, and screws. Some add ball bearings between knuckles (I Dig Hardware), decorative tips (finials) on the pin, or a set screw that locks the pin in (DoorwaysPlus).
+- **how_it_works**: Each leaf has knuckles along one edge; the knuckles of the two leaves alternate and interlock, and a pin runs through all of them, so the leaves can only turn about the pin: one degree of freedom (Wikipedia, Hinge). One leaf is screwed to the frame and the other to the door, usually each set into a shallow recess (mortise) so the door closes with a small, even gap; how deep the recesses are sets that gap (Popular Woodworking). The door's weight rests on the knuckle ends and the pin, and because that weight hangs out to one side, the top hinge is pulled away from the frame and the bottom hinge pushed into it (FineWoodworking forum). Heavy commercial and fire doors use ball-bearing hinges, with bearings in 2 or 4 of the knuckles (I Dig Hardware).
+
+### Finder attributes
+
+- **job**: let it move (turn, slide or bend): lets a door, lid, flap or panel swing, join and hold: carries the door's weight on its frame and keeps it in line
+- **motion**: rotate: usually somewhere between 90 and 180°, limited by where the leaves, door and frame meet; a parametric printed butt hinge is modelled from +180° (folded shut) to -90° (Printables 307580).
+- **degrees_of_freedom**: 1: turning about the pin (Wikipedia, Hinge). Unwanted extra movement comes from end play (the leaves sliding along the pin through the gaps between knuckles) and from clearance between pin and knuckles, which lets the leaves wobble (Wikipedia calls loose angular movement 'doorstop'). Loose-pin and lift-off hinges let the door come off entirely.
+- **special_behaviour**: 
+  - none: an ordinary butt hinge swings freely and holds no particular position (spring, rising, friction and detent hinges are separate entries)
+  - quick-release: loose-pin hinges come apart when the pin is tapped out, and lift-off (flag) hinges when the door is lifted, so doors can be taken off without unscrewing (Wikipedia; Popular Woodworking)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the pin through the interleaved knuckles keeps the two leaves together
+  - not a holding joint (it moves or passes on motion): its job is to let the door turn; screws in the leaves hold it to the door and frame
+- **input_output**: not applicable: a hinge lets a door or lid turn; it does not pass motion on.
+- **power**: passive (no power needed)
+- **removability**: removable: unscrew the leaves, or tap out a loose pin; a non-removable-pin (NRP) hinge's set screw can only be reached with the door open, so it comes apart only from the inside (DoorwaysPlus)
+- **reuse_cycles**: effectively unlimited: hinges swing hundreds of thousands of times; hinges on fire doors that are not ball-bearing types must pass at least 350,000 cycles to ANSI/BHMA A156.1 (I Dig Hardware). *(unverified parts omitted)*
+- **tools_needed**: Screwdriver and drill for pilot holes; marking gauge, knife and chisel (or a router with a hinge jig) to cut the recesses (Popular Woodworking); a screwdriver and mallet, or a hammer and punch, to tap out a loose pin (Popular Woodworking; DoorwaysPlus).
+- **seal**: none
+- **load**: Medium to heavy for its size in the direction it is built for: carrying the weight of a door, shared between two or more hinges (NFPA 80, via I Dig Hardware: two hinges for doors up to 60 in tall, plus one for every extra 30 in). The pin carries the weight across it (in shear) and the knuckle ends take the downward push. Weak against the door being levered away from the frame, because the top hinge's screws are pulled out, and against twisting; the screws in the wood are usually the weak point (FineWoodworking forum worked example: a 50 lb, 3 ft wide door makes a 75 ft-lb turning effect, which with hinges 6 ft apart pulls the top hinge out with about 12 lb; a 150 lb person swinging on the door raises this to about 87 lb).
+- **adjustable**: Not built in: the door's position is set by how deep the recesses are cut, which sets the gap around the door (Popular Woodworking), by packing thin shims behind a leaf, or, on surface-mounted butterfly hinges, by moving a screw to the spare third hole to pull the door up or down (Popular Woodworking). Unlike concealed cup hinges, butt hinges have no adjusting screws.
+- **play_and_precision**: small: the pin needs a little clearance in the knuckles and there is end play between knuckles, so a door can drop slightly; Popular Woodworking notes that many surface-mounted butterfly hinges have sloppy-fitting pins, one with 'a lot of vertical play' that had to be allowed for when fitting the screws. Printed hinges have more play, since they need 0.3 to 0.5 mm clearance (Printables 307580). *(unverified parts omitted)*
+- **access_needed**: one side only (blind): each leaf is screwed on from its own face, so nothing has to reach through; you need the door open to reach the screws. On a door that swings outward the pin ends face the outside, where they can be tapped out unless NRP hinges or security studs are used (DoorwaysPlus).
+- **materials**: Steel (plain, plated or stainless), solid brass and bronze; quality hinges are extruded and machined rather than cheap stamped ones (Popular Woodworking); standard-weight commercial hinges are 0.134 in thick and heavy-weight ones 0.180 in (I Dig Hardware). Printed hinges in PLA, PETG or ASA with a metal pin, a screw or a length of 1.75 mm filament as the pin (BOSL2). Joins wood, metal, plastic and printed parts.
+- **maker_difficulty**: moderate: screwing on a hinge is easy, but lining several hinges up on one straight axis, cutting neat recesses and getting an even gap round the door takes care (Popular Woodworking); printed hinges need a clearance test print first (Printables 894447).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: butt, ball-bearing, loose-pin, lift-off, piano (continuous) and case hinges
+  - woodwork: hinges mortised into doors, cabinets and boxes (Popular Woodworking)
+  - 3D print (FDM): separate leaves with a filament, screw or metal pin, or print-in-place versions with a fused pin or interlocking cones (BOSL2; Printables 307580, 484877) *(unverified parts omitted)*
+- **print_in_place**: yes: print-in-place versions work straight off the bed, either with a pin fused to one leaf (Printables 307580, which prints in one step by default) or with interlocking cones instead of a pin (BOSL2 knuckle_hinge with in_place=true); many makers instead print the two leaves separately and push in a separate pin for strength, which is not print-in-place.
+- **making_tips_3d_printing**: 1) Clearance: a popular parametric butt hinge recommends 0.3 mm between parts for a tight fit up to 0.5 mm for easier movement; below 0.3 mm it often locks up so the leaves break before the knuckles free, while 0.4 mm or more releases easily (Printables 307580). A tolerance test with gaps from 0.1 to 0.5 mm worked at 0.2 and 0.3 mm on one printer, fused at 0.1 mm and was too loose at 0.4 mm and above (Printables 894447). Prusa's starting point for moving parts is at least 0.3 mm. Print a test on your own printer first. 2) Pin: BOSL2's knuckle_hinge() defaults to a piece of 1.75 mm filament as the pin, a 4 mm knuckle diameter and a 0.2 mm gap between segments; it can instead make a clearance hole for a screw (e.g. M3) through most knuckles with a self-tapping hole in the last one (BOSL2 hinges.scad). A metal pin is stronger: the parametric hinge lets you leave out its fused pin 'in the case where a metal pin is preferred for the sake of strength' (Printables 307580). Pins thinner than 5 mm print weakly, so use an off-the-shelf pin in a drilled hole (Hubs). 3) Holes: holes printed upright come out undersized; print them small and drill to size (Hubs). For holes lying flat, use a teardrop or octagonal hole so the top prints without support (BOSL2). 4) Closing fully: raise the pin axis by a layer or two (BOSL2 'clearance', default 0.15 mm) so the leaves don't rub at the edge, or cut a curved recess for the other part's knuckles (BOSL2 knuckle_clearance). 5) Orientation: printed flat, the pin axis lies horizontal; printed standing up, set the hinge partly closed (about 120°) so it stays stable (Printables 307580). One vertically printed hinge uses 4 perimeters and 50% infill and needs working back and forth to free it (Printables 334697). 6) Strength: add gussets where the knuckles meet the leaves (Printables 307580); an odd number of segments puts the outer leaf's knuckles at both ends (BOSL2 example). 7) Material: PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen), so use PETG or ASA for anything warm or outdoors.
+- **off_the_shelf_parts**: Search for: 'butt hinge' (sizes such as 3-1/2, 4 and 4-1/2 in), 'mortise hinge', 'ball bearing hinge' (standard weight, 2 bearings; heavy weight, 4 bearings; I Dig Hardware), 'plain bearing hinge', 'loose pin hinge' or 'fixed pin hinge', 'NRP hinge' (non-removable pin) and 'security stud hinge' (DoorwaysPlus), 'swaged' or 'non-swaged' butt, 'ball-tip hinge' (a finial on the pin; Popular Woodworking), 'lift-off hinge' or 'flag hinge', 'rising butt hinge', 'continuous hinge' or 'piano hinge', 'case hinge' or 'box hinge', 'H hinge' (Wikipedia), 'hinge pin', 'hinge mortise jig' or template.
+- **rules_of_thumb**: 
+  - Number of hinges: two for a door up to 60 in (1.52 m) tall, plus one more for each extra 30 in (0.76 m) or part of it, e.g. three for a 90 in door (NFPA 80, explained by I Dig Hardware).
+  - Size: a steel hinge on a 3 ft x 7 ft fire door must be at least 4-1/2 in high and 0.134 in thick (NFPA 80 table, via I Dig Hardware); heavy-weight hinges are 0.180 in thick with 4 bearing housings instead of 2 (I Dig Hardware).
+  - Non-swaged butts set into both door and frame: cut each recess just under half the barrel's thickness; however far the gauge stops short of the pin's centre is half the gap you'll get around the door (Popular Woodworking).
+  - Swaged loose-pin hinges: recess each to the thickness of one leaf, with the whole barrel clear of the door edge so the pin can be tapped out, and fit them so the pin drops in from above (Popular Woodworking).
+  - Cabinet doors: pick a hinge about as tall as the door's bottom rail and line it up with the rail's inside edge (Popular Woodworking).
+  - Brass screws: drive a steel screw of the same size first, because steel is stronger and less likely to break (Popular Woodworking).
+  - Printed hinges: 0.3 mm (tight) to 0.5 mm (easy) clearance (Printables 307580); BOSL2's defaults are a 0.2 mm gap between knuckles and a 1.75 mm filament pin (BOSL2 hinges.scad).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Ordinary room doors, usually hung on two or three butt hinges (NFPA 80 counts, via I Dig Hardware)
+  - Doors on older cupboards and furniture with hinges set into the door edge (Popular Woodworking)
+  - Small brass hinges on a wooden jewellery or keepsake box (case hinges; Wikipedia)
+  - Long piano hinges on piano lids, toolbox lids and fold-down flaps (Wikipedia)
+- **when_to_use**: Use a knuckle (butt) hinge whenever a door, lid or flap simply needs to swing about one edge: room doors, cupboard doors, box lids, access panels, folding flaps. It is cheap, strong for its size, carries a door's weight well when two or more are used, and is easy to understand and replace. Choose a long piano hinge to spread the load along a lid, loose-pin or lift-off hinges when the door must come off easily, and ball-bearing hinges for heavy or busy doors (fire doors must have them unless another tested anti-friction type is used; I Dig Hardware). In 3D printing it is the go-to hinge for boxes and enclosures, either with a metal pin or printed in place.
+- **when_not_to_use**: When the hinge must be invisible, use a concealed cup hinge or an invisible barrel (Soss-type) hinge. When the lid must stay at any angle, use a friction hinge or a lid stay; at set angles, a detent hinge. When it must close itself, use a self-closing (spring or rising butt) hinge. On an outward-opening door where security matters, don't use plain loose-pin hinges; use NRP hinges or security studs (DoorwaysPlus). For thin one-piece plastic lids, a living hinge avoids the pin altogether; for a printed box you don't want to assemble, use a print-in-place hinge; where both leaves must move evenly or carry heavy loads along a long edge, a geared continuous hinge.
+- **environment_limits**: Printed hinges: PLA starts to soften at about 60 °C and PETG at about 80 °C (CNC Kitchen), so a PLA hinge in a hot car or in sun can sag. Printed pins and knuckles wear, and plastic under a door's constant weight slowly creeps (Hubs: constant loading causes creep in plastics). Fire doors need ball-bearing hinges or a tested anti-friction type (I Dig Hardware). *(unverified parts omitted)*
+- **safety_notes**: Support a heavy door or lid before tapping out its pins, because it drops free once the last pin is out. On outward-opening doors, exposed pins can be knocked out to lift the door off and bypass the lock (DoorwaysPlus), so use NRP hinges or security studs where that matters. *(unverified parts omitted)*
+- **common_failures**: The door sags because the top hinge's screws strip or pull out of the frame; fit all the screws and use longer ones in the top hinge (FineWoodworking forum). Hinges with sloppy pins and vertical play let the door sag unless this is allowed for when fitting (Popular Woodworking, on butterfly hinges). Brass screws snap if driven without first cutting the thread with a steel screw (Popular Woodworking). Printed hinges fuse solid if the clearance is too small and the leaves break before they free (Printables 307580), crack where the knuckle meets the leaf (gussets help; Printables 307580), or sag in the heat (CNC Kitchen). *(unverified parts omitted)*
+- **related**: 
+  - Print-in-place hinge: a knuckle hinge printed already assembled, with no separate pin
+  - Living hinge: a thin flexible strip instead of knuckles and a pin; one piece, but only in suitable plastics
+  - Geared hinge (continuous gear hinge): the two leaves roll on meshing teeth so both move evenly
+  - Self-closing hinges (spring hinge, rising butt hinge): a knuckle hinge with a spring or sloping knuckle that closes the door
+  - Friction hinge (torque hinge): holds any angle you leave it at
+  - Detent hinge (click hinge): clicks into set angles
+  - Clip-on concealed hinge (cup hinge): hidden, adjustable cabinet hinge
+  - Invisible barrel hinge (Soss-type): folding links hidden inside the edges
+  - Clevis joint (fork-and-pin joint): the same fork-tongue-pin idea used as a single strong pivot
+  - Plain pivot and rolling bearing: the general pin-in-hole or ball-bearing way to make parts turn
+  - Lid and flap stays: added to a hinged lid to hold it open
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:Butt Hinge annotated.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg): An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint *(licence: CC BY-SA 4.0 (JonRichfield, from Hinge3P.jpg by Audrius Meskauskas))*
+  - [File:Basic hinge.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Basic_hinge.svg): Simple drawing of a basic hinge, used on Wikipedia next to the hinge terminology list *(licence: CC0 (A loose necktie))*
+  - [File:Hamburgerpaumelle.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Hamburgerpaumelle.JPG): A barrel (lift-off) door hinge, used on Wikipedia's Hinge article *(licence: Public domain (Sindala))*
+  - [How to fit a butt hinge - Easy Visual Fitting Tutorial (Cast in Style Ltd, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=bneQMFes-p4): Step-by-step fitting of a butt hinge to a door *(licence: link only (standard YouTube licence))*
+  - [Paul Sellers | Dovetail box (part 4 of 4) - setting hinges (YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=gcQATQLzDuw): Hand-tool fitting of small butt hinges on a wooden box *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [BOSL2 hinges.scad: knuckle_hinge() (OpenSCAD library)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad): Parametric knuckle hinges with a hole for a filament, pin or screw (self-tapping last knuckle), teardrop or octagonal holes, or print-in-place interlocking cones *(licence: BSD 2-Clause)*
+  - [Parametric hinge (FM, Printables; credits Thingiverse 'Parametric Hinge' by rohingosling) (URL from Printables API, page not opened)](https://www.printables.com/model/307580-parametric-hinge): OpenSCAD parametric butt hinge: prints in one step with a fused pin, or leave the pin out and use a metal one; clearance, knuckle gussets, throw angle and screw holes are all adjustable *(licence: CC BY)*
+  - [Hinge tolerance test (build-in-place) (Atoi, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/894447-hinge-tolerance-test-build-in-place): Print-in-place hinges with gaps from 0.1 to 0.5 mm, printed lying down and standing up, to find the gap your printer needs *(licence: CC BY-SA)*
+  - [Print In Place Butt Hinge (Fusion 360 File Included) (Andrew Nelson, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/484877-print-in-place-butt-hinge-fusion-360-file-included): A 40 x 50 mm print-in-place butt hinge with M4 countersunk holes, in 0.50 mm and 0.25 mm clearance versions, with the Fusion 360 file to change the gap *(licence: CC BY-SA)*
+  - [Parametric hinge (vertically printed) (sh, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/334697-parametric-hinge-vertically-printed): A tight, stable hinge printed standing up, in any length and width with any number of screw holes *(licence: CC BY-ND)* *(unverified parts omitted)*
+- **diagram_idea**: Exploded view of two leaves with alternating knuckles and a pin sliding down through them, then the assembled hinge swinging through 180° with a curved arrow; a small inset of a door on two hinges with arrows showing the top hinge pulled away from the frame and the bottom one pushed in.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Hinge
+  - https://en.wikipedia.org/wiki/Revolute_joint
+  - https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg
+  - https://commons.wikimedia.org/wiki/File:Basic_hinge.svg
+  - https://commons.wikimedia.org/wiki/File:Hinge3P.jpg
+  - https://commons.wikimedia.org/wiki/File:Hamburgerpaumelle.JPG
+  - https://idighardware.com/2016/07/decoded-nfpa-80-requirements-for-hinges/
+  - https://idighardware.com/2024/08/whats-that-ball-bearing-hinges/
+  - https://doorwaysplus.com/blog/our-blog-1/nrp-hinges-on-outswing-doors-when-the-pin-is-the-vulnerability-105
+  - https://www.popularwoodworking.com/techniques/how-to-install-butt-hinges/
+  - https://www.popularwoodworking.com/techniques/8-common-hinges/
+  - https://www.finewoodworking.com/forum/forces-on-a-door-hinge
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
+  - https://www.thingiverse.com/thing:2187167
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/
+  - https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://www.youtube.com/watch?v=bneQMFes-p4
+  - https://www.youtube.com/watch?v=gcQATQLzDuw
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, environment_limits, make_it_yourself, play_and_precision, processes, reuse_cycles, safety_notes
 
 ## 264 Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing)
 
 *hinges & pivots.* A shaft or pin turning in a hole, or in a ball bearing, as the basic way to make something rotate
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The basic way to make something turn: a pin, bolt or shaft through a hole, either rubbing straight on the hole (or on a slippery sleeve pushed into it), or running in a ball bearing, a ring with steel balls inside, so it spins more easily
+- **term**: Revolute joint (pin joint) made with a plain bearing (pin in a hole or bushing, shoulder bolt) or a rolling-element bearing (ball bearing)
+- **aliases**: 
+  - pin joint, hinge joint, turning pair (revolute joint; Wikipedia)
+  - pivot, pivot pin, axle, pintle
+  - plain bearing, sliding bearing, sleeve bearing, journal bearing, friction bearing ('simply a shaft rotating in a hole'; Wikipedia)
+  - bush or bushing, flanged bushing, split bushing; thrust washer (the flat version that takes end thrust) (Wikipedia, Plain bearing)
+  - oil-impregnated sintered bronze bushing, SAE 841 bronze, Oilite (brand) (Wikipedia)
+  - self-lubricating plastic bushing; iglidur and iglide (igus brands)
+  - shoulder bolt, shoulder screw, stripper bolt (Machine Design)
+  - rolling-element bearing, rolling bearing, anti-friction bearing (Wikipedia; I Dig Hardware uses 'antifriction bearing')
+  - ball bearing, deep-groove ball bearing, Conrad bearing (the usual construction; Wikipedia)
+  - 608 bearing or skateboard bearing (8 mm bore, 22 mm outside, 7 mm wide; Wikipedia, 123bearing)
+  - pillow block (a housing that holds a bushing or bearing; GM0) *(unverified parts omitted)*
+- **family**: hinges & pivots
+- **other_families**: print-in-place & 3D-printing joints
+- **one_liner**: A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.
+- **complexity**: A few parts for a plain pivot: a pin, bolt or shaft, the hole it turns in (often lined with a bushing), and something to stop it sliding out (a head and nut, a shoulder, a retaining ring or a shaft collar), usually with washers. A ball bearing is a small assembly that acts as one unit: inner ring, outer ring, balls, a cage that keeps them spaced, grease, and often shields or seals (Wikipedia, Rolling-element bearing and Ball bearing).
+- **how_it_works**: In a plain pivot the pin simply turns in the hole, sliding on its surface. The pin must be a little smaller than the hole to move, so it really touches along a line, and friction and wear depend on the two materials and on lubrication (Wikipedia, Revolute joint and Plain bearing). Pairing a hard, smooth pin with a softer, slippery sleeve (bronze, oil-filled sintered bronze, or a plastic such as nylon or acetal) makes it run smoothly and puts the wear on the cheap sleeve, which is replaced when worn (Wikipedia, Plain bearing). A ball bearing swaps sliding for rolling: balls roll between grooved inner and outer rings, so friction is much lower (Wikipedia, Rolling-element bearing; GM0). The ring that turns relative to the load is fitted tight on its shaft or in its housing so it can't slip round, and the other ring is a looser fit (NSK).
+
+### Finder attributes
+
+- **job**: let it move (turn, slide or bend): lets a lever, arm, wheel, pulley or shaft turn, join and hold: holds the turning part in place on its support, taking the load across the pin
+- **motion**: rotate: unlimited continuous turning (wheels, shafts, spools) or any part of a turn (levers, arms, linkages). A loose pin in a plain hole can also slide along its length unless a head, shoulder, collar or retaining ring stops it (rotate+slide).
+- **degrees_of_freedom**: 1 when the pin or shaft is held at both ends along its length: turning about its axis (Wikipedia, Revolute joint). A loose pin in a hole also lets the part slide along the pin (2) and wobble through the clearance. A single ball bearing allows a little tilt (Wikipedia, Ball bearing), so a shaft is normally held by two bearings spaced apart.
+- **special_behaviour**: 
+  - none: it just lets parts turn, with less friction when a ball bearing is used
+  - self-aligning or self-centring: only special self-aligning ball bearings, whose outer ring has a spherical track, tolerate a shaft that is not quite in line (Wikipedia, Ball bearing)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it lets parts turn
+  - shape (the parts interlock; form-fit): the pin through the hole stops every movement except turning; a head, nut, shoulder, collar or retaining ring stops it sliding out (GM0: retain the shaft in both directions)
+  - friction or clamping (force-fit): bearings and bushings are usually held by a press (interference) fit (NSK; igus)
+- **input_output**: not applicable: a pivot or bearing supports a turning part rather than changing motion. A shaft running in bearings passes rotation straight along itself (in line, 1:1). Ball bearings waste less energy than bushings (GM0).
+- **power**: passive (no power needed)
+- **removability**: removable: pull the pin or undo the bolt or shoulder screw; pressed-in bushings and bearings are harder to remove and may be damaged when pressed out
+- **tools_needed**: Hex key or spanner for a bolt or shoulder screw; circlip pliers for retaining rings; a vice, arbor press or clamp with a flat punch to press in bushings and bearings (igus: use a flat press, not a centring pin); a drill or reamer to bring printed holes to size (Hubs). None for a pin held by a clip.
+- **seal**: none: a pin in a hole does not seal. Bearings come with metal shields (2Z) or rubber seals (2RS) that keep dirt out of the bearing itself and hold its grease in; seals add friction (Wikipedia, Rolling-element bearing)
+- **load**: Light to heavy, depending on size and material. Plain bearings are the cheapest, most compact type and carry high loads for their size (Wikipedia, Plain bearing). A 608-2Z ball bearing is rated 3.45 kN dynamic and 1.37 kN static (SKF data via 123bearing). Strongest across the pin or shaft (radial load); deep-groove ball bearings also take some push along the shaft, about 50% of their radial rating, or 25% for small or light bearings (Wikipedia, citing SKF). Weak against tipping loads on a single bearing: a sideways twist can distort the outer ring until the balls escape (Wikipedia, Ball bearing), so use two bearings spaced apart. *(unverified parts omitted)*
+- **adjustable**: No for a basic pivot. End float is set with washers or shims; a pair of ball bearings can be preloaded against each other to take out their internal play (Wikipedia, Ball bearing). Eccentric bushings let a pivot's position be adjusted (see Eccentric adjuster).
+- **play_and_precision**: Plain pivot: small to noticeable play, because the clearance needed for movement means the pin only touches along a line (Wikipedia, Revolute joint); printed pins in printed holes need at least 0.3 mm clearance (Prusa) and so wobble noticeably, while precision shoulder screws are made 0.013 to 0.038 mm under size for a close but free fit in bearings and pulleys (Machine Design). Ball bearing: small play that can be removed by preloading a pair (Wikipedia), good repeatability, and some tolerance of misalignment (Wikipedia, Ball bearing), though self-aligning types are needed for more.
+- **access_needed**: both sides for a through-bolt with a nut; one side only (blind) for a shoulder screw or bolt screwed into a tapped hole or threaded insert; end of a tube or shaft for sliding a bearing, bushing, collar or retaining ring onto a shaft.
+- **materials**: Pins and shafts: steel, hardened and polished to run in bushings, or stainless steel (Wikipedia, Plain bearing). Bushings: bronze, oil-impregnated sintered bronze (SAE 841 / Oilite), cast iron, graphite, and plastics such as nylon, acetal, PTFE, UHMWPE and PEEK (Wikipedia, Plain bearing); even self-lubricating wood (lignum vitae) in clocks (Wikipedia). Ball bearings: chrome steel (608-2Z; 123bearing), stainless steel or plastic. Printed housings in PLA, PETG, ASA or wear-resistant 'tribo' filaments (igus claims up to 50 times the abrasion resistance of ordinary filament). Joins almost anything.
+- **maker_difficulty**: easy: a bolt through a drilled hole, or a ball bearing pressed into a printed pocket, is one of the first mechanisms most makers build; getting a snug bearing press fit in a print usually takes one or two test prints (Hackaday; Printables 1293573).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: ball bearings (608 and other ISO 15 sizes), bushings, thrust washers, shoulder screws, dowel pins, shafts, collars, retaining rings
+  - 3D print (FDM): printed housings with pressed-in bearings or bushings and metal pins, or fully printed bearings and bushings (Printables 276409, 693434)
+  - CNC: machined holes, shafts and bearing seats for accurate fits
+  - woodwork: dowel or bolt pivots in wood; piano keys pivot on centre pins in felt bushings (Wikipedia, Plain bearing) *(unverified parts omitted)*
+- **print_in_place**: partly: most printed pivots are a printed part plus an added bolt, pin, bushing or ball bearing. Whole 608-size bearings can be printed in place after calibrating two tolerances (Printables 276409; Hackaday), and ball-less printed bushings print as one piece and are squeezed free with pliers (Printables 693434).
+- **making_tips_3d_printing**: 1) Use metal for the pin: printed pins under 5 mm are weak, so insert an off-the-shelf pin into a drilled hole (Hubs). If a bolt is the pin, let its smooth shank, not its threads, sit in the hole; threads in the hole cause fretting wear (Wikipedia, Bolt). A shoulder screw is made for this: its shoulder is the pivot and the thread clamps it down (Machine Design). 2) Hole size: holes printed upright come out undersized, so print them slightly small and drill or ream to size (Hubs); for parts that move, start with at least 0.3 mm clearance (Prusa). 3) Bearing pockets: a 0.1 mm difference noticeably changes a press fit (Hackaday); crush ribs, small ridges inside the pocket that squash as the bearing goes in, make the fit far more forgiving (Hackaday). Print a quick tolerance tester at your final settings and scale up or down in 0.1 mm steps (Printables 1293573). To trap a bearing inside a part, see Mid-print embedding. 4) Printed bearings: calibrate the radial and 'tenon' tolerances by halving the range each test (binary search); the designer got the best results in PLA at 0.16 mm layers with grease, and warns against filling the bed with copies, which prints differently from one part (Hackaday; Printables 276409). 5) Hold the shaft in both directions, with a washer that touches only the bearing's inner ring so nothing rubs (GM0). 6) Use two bearings spaced apart for any shaft or arm with a sideways load; one bearing can be wrecked by tipping (Wikipedia, Ball bearing). 7) Lubricate printed bushings with a plastic-safe grease or spray such as PTFE or silicone (Hackaday; Printables 693434), or print sliding parts in a wear-resistant filament (igus, manufacturer's claim). *(unverified parts omitted)*
+- **off_the_shelf_parts**: 6 to 24 mm commercial shoulders; Machine Design), 'precision shoulder screw', 'dowel pin', 'clevis pin', 'shaft collar' (clamping or set-screw), 'retaining ring' or 'E-clip', 'pillow block' (GM0), 'shim washer'. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Pick a bushing material by PV (pressure on the projected area x sliding speed): maximum PV about 1.75 MPa·m/s for SAE 841 oil-impregnated bronze, 0.11 for nylon, 0.09 for acetal and 0.04 for plain PTFE (Wikipedia, Plain bearing, from McMaster-Carr catalogue data).
+  - Plastic plain bearings (igus): housing hole H7, shaft at least h9, press-fit oversize up to 2% of the inside diameter; press in with a flat punch, not a centring pin (igus iglidur tolerances).
+  - Deep-groove ball bearings take axial (end) loads of about 50% of their radial rating, or 25% for small or light bearings (Wikipedia, Ball bearing, citing SKF).
+  - Tight fit on the ring that turns relative to the load, looser fit on the other ring; too loose and the ring creeps round in its seat, too tight and it can crack or lose its internal clearance and overheat (NSK).
+  - 608 bearing: 8 mm bore, 22 mm outside diameter, 7 mm wide; SKF 608-2Z rated 3.45 kN dynamic, 1.37 kN static (123bearing); the usual skateboard wheel bearing (Wikipedia).
+  - Precision shoulder screws: shoulder 0.013 to 0.038 mm under nominal and shoulder length 0.013 to 0.063 mm over nominal (metric), so a part of nominal size turns freely; commercial shoulder lengths are only +/-0.125 mm, so a full-width part can bind (Machine Design).
+  - Bolt as a pivot: make the smooth (unthreaded) grip length about equal to the thickness of the parts and washers it passes through (Wikipedia, Bolt).
+  - Printed pivots: at least 0.3 mm clearance for moving parts (Prusa); drill critical upright holes to size, and use off-the-shelf pins below 5 mm diameter (Hubs).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Skateboard and inline-skate wheels, each running on two 608 ball bearings (Wikipedia, Ball bearing)
+  - Fidget spinners, built around ball bearings (Wikipedia, Ball bearing)
+  - The lever of a door handle turning on its spindle (Wikipedia, Revolute joint photo) *(unverified parts omitted)*
+- **when_to_use**: Use a plain pivot (a bolt, shoulder screw or pin in a hole, ideally with a bushing) for levers, arms, linkages, folding parts and anything that turns slowly, occasionally or back and forth: it is cheap, compact and strong for its size (Wikipedia, Plain bearing). A shoulder screw is the neat choice when a part must turn on a bolt without being clamped (Machine Design). Use ball bearings for anything that spins continuously or fast, such as wheels, pulleys, spools, fans and drive shafts, where low friction and accurate location matter; robotics guides recommend bearings for drivetrains and high speeds and bushings for low loads or tight budgets (GM0).
+- **when_not_to_use**: Don't run a plain printed pin in a printed hole fast and continuously under load: it heats and wears (see the PV limits); use a ball bearing or a bronze or plastic bushing. Don't hang a tipping load on a single ball bearing; use two spaced apart, or a turntable bearing for a wide, flat turning platform. Ball bearings that only rock back and forth over a small angle, or sit still while vibrating, suffer false brinelling (Wikipedia), so a bushing may be better there. For tiny angles with no play and no wear, use a flexure hinge; for straight-line motion, use linear guides; for a pivot that must also tilt, use a ball-and-socket joint or rod end.
+- **environment_limits**: Plastic bushings: nylon is listed for about -29 to 121 °C and acetal about -29 to 82 °C, while SAE 841 bronze is listed to about 104 °C (Wikipedia, Plain bearing table, converted from °F). Plastic bearings creep, expand with heat and soften when warm (Wikipedia, Plain bearing), and absorb moisture; igus sizes its bushings to cope with humidity up to 70% (igus). Printed PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen). Ball bearings: grit and water in the lubricant greatly shorten their life, and seals help but add friction (Wikipedia, Rolling-element bearing); vibration while standing still presses the grease out (false brinelling; Wikipedia). *(unverified parts omitted)*
+- **safety_notes**: Spinning parts on bearings can catch hair, loose clothing or fingers. *(unverified parts omitted)*
+- **common_failures**: Ball bearings: a ring fitted too loosely creeps round in its seat and wears it, and one fitted too tightly cracks or runs hot (NSK); dirt and water ruin them (Wikipedia); a single bearing under a sideways twist collapses (Wikipedia, Ball bearing). Printed parts: pockets come out too tight or too loose (Hackaday, crush ribs), and printed bearings fuse or bind unless their tolerances are calibrated (Printables 276409). *(unverified parts omitted)*
+- **related**: 
+  - Clevis joint (fork-and-pin joint): a pin supported on both sides by a fork, so it is loaded in double shear
+  - Knuckle hinge (butt hinge): a pin pivot spread along a door edge through interleaved knuckles
+  - Turntable bearing (lazy-Susan bearing, slewing ring): a thin, wide ring bearing for platforms and tipping loads
+  - Roller clutch (one-way bearing): a bearing that turns freely one way and locks the other
+  - Flexure hinge: bends instead of sliding or rolling; no play and no wear, but only a small angle
+  - Rolling-contact joint (CORE, Jacob's-ladder hinge): two curved surfaces roll on each other instead of turning on a pin
+  - Linear guides: bushings and bearings for straight-line motion
+  - Press fit (interference fit): how bearings and bushings are usually held in place
+  - Retaining ring (circlip, E-clip): stops a pin or shaft sliding out
+  - Shaft-to-hub joints (key, set screw, D-flat, clamp hub): fix a gear or wheel to the turning shaft
+  - Mid-print embedding: trapping a bearing inside a printed part
+  - Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:BallBearing.gif (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:BallBearing.gif): Animation of a ball bearing turning, with the balls rolling between the rings *(licence: CC BY-SA 3.0 (PlusMinus))*
+  - [File:Radial-deep-groove-ball-bearing din625-t1 2rs 120.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png): Cut-away drawing of a deep-groove ball bearing with rubber seals on both sides (2RS) and a riveted steel cage *(licence: CC BY 2.5 (Silberwolf))*
+  - [File:Revolute Pin Joint.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png): Cut-away view of a pin joint with shoulders (a pin turning in a hole) *(licence: CC BY-SA 4.0 (I.Elgamal))*
+  - [File:Bearing Spacer Proper Length - inline skate wheel assembly - with labels.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Bearing_Spacer_Proper_Length_-_inline_skate_wheel_assembly_-_with_labels.svg): Labelled cross-section of an inline-skate wheel on two ball bearings with a spacer between them *(licence: CC BY-SA 4.0 (Fred Hsu))*
+  - [How Ball Bearings Work | 3D Animation | Working Principle (saVRee, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=lIEHscqWJAk): 3D animation of the parts of a ball bearing and how they work *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Ultimate 608 Bearing with Calibration Kit V2 (Matvey Kukuy, Printables) (URL linked from the Hackaday article; page not opened, details read through the Printables API)](https://www.printables.com/model/276409-ultimate-608-bearing-with-calibration-kit): Print-in-place 608-size bearings plus 64 calibration models and a test tool to find the radial and tenon tolerances that work on your printer *(licence: CC0 (Creative Commons Public Domain))*
+  - [608 bearing tolerance tester (Handy Maker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1293573-608-bearing-tolerance-tester): Small test prints of a 608 bearing's outer and inner fits in 0.1 mm steps, to find how to scale your bearing pockets *(licence: CC BY-SA)*
+  - [3D Printed Bearing (without balls) / Bushings (SabLei, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/693434-3d-printed-bearing-without-balls-bushings): Print-in-place ball-less bearings (bushings) in many standard bearing sizes, freed by squeezing with pliers and lubricated with PTFE or silicone spray *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Side-by-side cut-aways of the same arm on a pivot: left, a shoulder screw through a bronze bushing with the sliding contact line highlighted; right, the arm on a ball bearing with the balls rolling between inner and outer rings, arrows showing the radial load, and a note that the ring turning relative to the load gets the tight fit.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Revolute_joint
+  - https://en.wikipedia.org/wiki/Plain_bearing
+  - https://en.wikipedia.org/wiki/SAE_841
+  - https://en.wikipedia.org/wiki/Rolling-element_bearing
+  - https://en.wikipedia.org/wiki/Ball_bearing
+  - https://en.wikipedia.org/wiki/Bolt_(fastener)
+  - https://commons.wikimedia.org/wiki/File:BallBearing.gif
+  - https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png
+  - https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png
+  - https://commons.wikimedia.org/wiki/File:Bearing_Spacer_Proper_Length_-_inline_skate_wheel_assembly_-_with_labels.svg
+  - https://commons.wikimedia.org/wiki/File:Deep_Groove_Ball_Bearing_Structure.png
+  - https://commons.wikimedia.org/wiki/File:Pivotement_charge_radiale.svg
+  - https://www.123bearing.com/bearing-housing/deep-groove-bearing/single-row/608-2z-skf
+  - https://www.nsk.com/tools-resources/abc-bearings/fits-and-internal-clearance/
+  - https://www.machinedesign.com/fastening-joining/article/21834322/the-basics-of-shoulder-screws
+  - https://www.igus.eu/plain-bearing/wiki/tolerances
+  - https://blog.igus.eu/tribo-filament-iglidur-i150-in-wear-test-test-video/
+  - https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html
+  - https://idighardware.com/2016/07/decoded-nfpa-80-requirements-for-hinges/
+  - https://hackaday.com/2022/09/17/3d-printable-bearings-that-actually-work-no-cad-tweaking-required/
+  - https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/
+  - https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://www.youtube.com/watch?v=lIEHscqWJAk
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, load, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, safety_notes
 

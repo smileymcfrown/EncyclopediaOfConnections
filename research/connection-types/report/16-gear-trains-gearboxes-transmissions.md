@@ -1529,41 +1529,974 @@
 
 *gear trains, gearboxes & transmissions.* A gear made of two halves sprung against each other so its teeth fill the gaps of the mating gear, removing play
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A gear made of two thin gears stacked side by side and twisted against each other by a spring, so their teeth grip both sides of the other gear's teeth and there is no wobble (play) when the drive changes direction
+- **term**: Anti-backlash gear (spring-loaded split gear, scissor gear)
+- **aliases**: 
+  - scissor gear / scissors gear (KHK Gear Technical Reference; engine trade)
+  - split gear / split anti-backlash gear (Wikipedia 'Backlash (engineering)')
+  - spring-loaded split gear (Machine Design)
+  - anti-backlash spur gear / no-backlash gear / zero-backlash gear (KG Stock Gears catalogue)
+  - camshaft scissor gear / preload gear (car-engine trade; Southside Cylinder Heads)
+  - anti-lash gear (wording used in some patent titles)
+  - control-backlash gear (a non-sprung version whose two halves are turned to close the gap and then bolted; KG ASG type)
+  - circular-arc-spring type and coil-spring type (the two spring layouts in KG's BS and BW types)
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: locating & alignment, compliant mechanisms & flexures
+- **one_liner**: A gear split into two side-by-side halves, one fixed to the shaft and one free to turn a little on it, pulled round against each other by springs so that together they fill the tooth gaps of the mating gear and remove the play (backlash) that otherwise shows up every time the drive reverses.
+- **complexity**: A small assembly that acts as one unit: a main gear half fixed to the shaft (usually with a long hub), a second 'free' gear half of the same tooth shape that can turn on that hub, one or more springs between the halves (compression springs in slots, tension springs hooked between pins, a curved 'circular-arc' spring or a torsion spring), and a snap ring (circlip) that keeps the free half on the hub. Engine versions also have a hole for a service bolt or pin that holds the spring wound up while the gear is fitted (Wikipedia 'Backlash (engineering)'; BrightHub Engineering; KG Stock Gears; Southside Cylinder Heads). The mating gear is an ordinary gear (KG).
+- **how_it_works**: Ordinary gears are made with a small gap between meshing teeth so they don't jam and have room for oil, and that gap (backlash) lets the output lag or rattle whenever the drive reverses (Wikipedia 'Backlash (engineering)'; KG Stock Gears). An anti-backlash gear is split into two halves, each half the thickness; one half is fixed to the shaft and the other can turn on it but is sprung round relative to the first (Wikipedia). Once meshed, the teeth of the fixed half press on one side of each mating tooth and the teeth of the free half press on the other side, pinching it like the blades of scissors, so the gap is filled (KG Stock Gears; KHK). As long as the turning force (torque) stays below the spring's torque the springs don't give and there is no play in either direction; a larger or sudden load pushes the spring back and the play returns (Wikipedia; KG 'Precaution of usage'; patent EP3230626B1).
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: it is still a gear, giving the same speed ratio as an ordinary gear pair
+  - line parts up exactly: it removes the lost motion (backlash) so the output returns to the same position when the drive reverses, as needed for a radio tuning dial (Wikipedia 'Backlash (engineering)')
+- **motion**: rotate: continuous rotation in both directions, like any gear pair; inside the gear the free half only moves a fraction of a tooth relative to the fixed half
+- **degrees_of_freedom**: 1: the output gear turns in step with the input. Inside the anti-backlash gear the free half also has a small, spring-loaded twist relative to the fixed half (part of one tooth spacing in use), which is what takes up the play
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): the springs keep the two halves pressed against opposite sides of the mating teeth, taking up the play; Machine Design notes that spring designs hold the gears at a constant (zero) backlash throughout their service life, unlike set-once adjustments that loosen as teeth wear
+  - none of the other listed behaviours: it doesn't slip, lock or index; above the spring torque it simply behaves like an ordinary gear with play (Wikipedia 'Backlash (engineering)')
+- **holding_principle**: 
+  - spring force (a spring or springy part presses it in place): springs twist the free half so its teeth stay pressed against the mating teeth
+  - shape (the parts interlock; form-fit): the torque itself is passed on by meshing teeth
+  - not a holding joint (it moves or passes on motion): it is a gear that passes on rotation
+- **input_output**: Continuous rotation -> continuous rotation at the tooth-count ratio of the pair, exactly as for an ordinary spur gear pair. Shafts: usually parallel (spur gears); KHK says splitting a gear into two adjustable parts works for most gear types, but the sprung zero-backlash version is not suitable for worm or screw gears, whose teeth slide a lot and can lose their lubricant film and wear (KHK Gear Technical Reference, section 6.5). Back-drivable: yes, like any spur gear pair. Play: none while the reversing torque stays below the spring torque; KG says its gears cannot completely remove backlash but greatly minimise it. *(unverified parts omitted)*
+- **power**: passive (no power needed): the preload comes from springs
+- **removability**: removable: the gear fits on its shaft with a set screw or key like any gear, and the two halves are held together by a snap ring and can be separated (KG 'Precaution of usage'); the spring preload must be reset each time it is refitted (Southside Cylinder Heads)
+- **reuse_cycles**: many times: it can be removed and refitted repeatedly as long as the preload is reset each time and the springs are not overstretched
+- **tools_needed**: Hex key or screwdriver for the set screw; snap-ring (circlip) pliers to take the halves apart; pliers or grips to twist the free half against its spring; and a pin or short bolt to hold the halves wound up while meshing. Southside Cylinder Heads says a 6 x 1 mm bolt 15-20 mm long, finger tight, fits many camshaft scissor gears
+- **seal**: none: it is an open gear. Keep dust out from between the two halves (KG 'Precaution of usage') and keep the teeth lubricated, because both tooth flanks are always in contact (KHK)
+- **load**: Light. The no-play effect only lasts up to the spring torque: KG's module 0.5-1 catalogue gears keep zero play up to roughly 7-161 N·cm (about 0.07-1.6 N·m), depending on size, material and how many teeth the halves are wound (KG catalogue KG3001, pp. 53-55). Machine Design says split gearing is 'generally used in light-load, low-speed applications'. Loads above the spring torque still get through, but with play in that direction (Wikipedia; EP3230626B1). *(unverified parts omitted)*
+- **adjustable**: Yes. On catalogue gears the preload (and so the torque up to which there is no play) is set at assembly by turning the free half until its teeth line up with the fixed half and then a chosen number of extra teeth (2 or more) before meshing (KG catalogue: 'shifting pitch n'). Non-sprung 'control backlash' versions are adjusted by loosening bolts, turning the halves to close the gap against the mating gear and tightening the bolts again (KG ASG type; Machine Design).
+- **play_and_precision**: None (zero backlash) while the torque stays below the spring torque; KG says its gears greatly minimise but cannot completely remove backlash. Reversal repeatability is good because there is no lost motion (Wikipedia: used where precise movements are needed both forwards and backwards). It tolerates small tooth errors and interference because the springs let the halves give (KG: it absorbs interference 'by stretching the spring mechanism'). It only removes the play at its own mesh: in a gear train backlash adds up at every stage (Wikipedia). *(unverified parts omitted)*
+- **access_needed**: end of a tube or shaft: the gear slides onto the end of its shaft; you also need room to wind and pin the two halves before meshing
+- **materials**: Catalogue gears: carbon steel (C45 / S45C, nitrided), chromium-molybdenum steel, aluminium alloy (AlMg5) and stainless steel (with a PTFE (Teflon) coating to stop scuffing), with steel springs (KG Stock Gears). Maker versions: 3D-printed halves in nylon, PLA, ABS or PETG with a metal spring, rubber band or printed flexing spokes; Instructables ranks printed gear materials nylon > PLA > ABS > PETG. *(unverified parts omitted)*
+- **maker_difficulty**: moderate: printing two matching gear halves is easy, but making a hub for the free half, fitting springs and winding the halves the right number of teeth before meshing takes care; for precision instruments buy a catalogue anti-backlash gear
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: catalogue anti-backlash (scissor) spur gears, e.g. KG's module 0.5-2 range
+  - 3D print (FDM): two printed gear halves plus a metal spring or rubber band, or a one-piece design with flexing spokes (Thingiverse 'Anti-Backlash Gear')
+  - CNC: machined halves with spring slots, as in industrial and engine gears *(unverified parts omitted)*
+- **print_in_place**: partly: the two halves are usually printed separately (or joined by printed flexing spokes that act as the spring), and must be wound against each other and pinned before meshing; most designs add a metal spring, rubber band or retaining clip (BrightHub; KG; Thingiverse 'Anti-Backlash Gear' description)
+- **making_tips_3d_printing**: 1) Generate both halves with the same gear tool so the teeth match exactly; BOSL2's gears.scad has a backlash setting that narrows the teeth, which is the gap the scissor action will take up. Only one gear of the pair needs to be split; the mating gear is ordinary (KG). 2) Split the gear into two halves each half the face width (Wikipedia). Give the fixed half a long hub that the free half turns on, and a snap ring, circlip or printed clip so the free half can't slide off (BrightHub; KG). 3) Springs: two compression springs in slots between tabs (BrightHub's layout), tension springs hooked between pins (KG BW type), a curved spring (KG BS type) or rubber bands. The spring torque must be larger than the torque the gear has to pass on; below that there is no play (KG 'Precaution of usage'; BrightHub). 4) Wind before meshing: turn the free half until its teeth line up with the fixed half, then at least 2 teeth further (KG catalogue); hold it with a pin through matching holes in both halves, mesh the gears, then pull the pin out (the service-bolt trick from Southside Cylinder Heads). Design those pin holes in. 5) Clearance: printed gears are usually drawn with about 0.4 mm clearance between meshing teeth to stop them locking (Instructables 'A Practical Guide to FDM 3D Printing Gears'); a scissor gear lets you keep that generous clearance and still have no play. Grease the teeth; Instructables suggests white lithium, PTFE or silicone grease. 8) Materials: nylon > PLA > ABS > PETG for printed gears; PLA softens at a low temperature, ABS is better above about 75 °C (Instructables). 10) Sudden jerks bigger than the spring force push the halves apart (Carlyle, 3dp-ideas group), so size the spring for the jerks your printer or robot makes, not just the steady load. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Anti-backlash spur gear (also sold as scissor gear, split gear or no-backlash gear; e.g. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - The spring torque must be larger than the torque the gear transmits; below it there is no play, above it the play comes back (KG 'Precaution of usage for Anti backlash spur gears'; Wikipedia 'Backlash (engineering)'; BrightHub: the springs should not compress under the normal operating torque).
+  - Set the preload by lining up the teeth of both halves and then winding the free half a further 2 or more teeth before meshing; more teeth give more preload (KG catalogue KG3001, p. 51).
+  - Catalogue example: a module 0.5, 60-tooth stainless anti-backlash gear keeps zero play up to 9.71 N·cm with a 2-tooth wind, while a module 1, 100-tooth steel one reaches 145.78 N·cm with a 5-tooth wind (KG catalogue KG3001, pp. 53-54).
+  - Use spring-loaded split gears for light-load, low-speed drives; for heavy reversing loads use fixed adjustments (shorter centre distance, bolted split gears, tapered gears) that are re-adjusted as the teeth wear (Machine Design, 'Methods to Minimize Gear Backlash').
+  - Don't use the sprung zero-backlash principle on worm or screw gears: their teeth slide a lot, the lubricant can be squeezed out and they wear (KHK Gear Technical Reference, section 6.5).
+  - Ordinary cut gears are given an average backlash of about 0.04 x module (0.03-0.05 x module), e.g. about 0.04 mm for module 1 (Wikipedia 'Backlash (engineering)'); printed gears are usually drawn with much more, about 0.4 mm clearance between teeth (Instructables).
+  - Backlash in a gear train adds up at every mesh (Wikipedia), so one anti-backlash gear only removes the play at its own mesh.
+  - Keep dust out from between the two halves, and don't machine an anti-backlash gear after assembly: deformation destroys the anti-backlash function (KG 'Precaution of usage').
+  - Engine scissor gears: hold the preload with a service bolt (often 6 x 1 mm, 15-20 mm long, finger tight) while fitting, and remove it before turning the engine over (Southside Cylinder Heads).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Analogue radio tuning dials and tuning capacitors, which must turn precisely back and forth (Wikipedia 'Backlash (engineering)'; Aaron Dahlen's tuning-capacitor video)
+  - Camshaft gears in many twin-cam car engines, where a scissor gear stops a ticking rattle (Southside Cylinder Heads)
+  - Diesel and other engine gear trains driving the fuel-injection pump or accessories, to stop gear rattle (patent EP3230626B1)
+- **when_to_use**: When a gear drive must reverse without lost motion and the loads are light: dials and pointers, instrument and positioning drives, small robot joints and machine axes with a gear stage between motor and output, and places where rattle from reversing or pulsing loads is a problem (engine gear trains). It is also a good fix for 3D-printed gears, whose generous tooth clearance otherwise adds noticeable play.
+- **when_not_to_use**: Heavy or shock loads, which overpower the springs: use fixed-adjusted gears, a strain-wave (harmonic) drive, a cycloidal drive or a preloaded ball screw instead (Machine Design). Worm and screw gears: use a duplex-lead worm adjusted by shims instead (KHK). If the load always pushes the same way, a weight, torsion spring or small motor loading the last gear preloads the whole train more simply (Machine Design, 'gear train preloading'). Where a little play doesn't matter, an ordinary gear is simpler and a little more efficient. For a stepper-driven screw axis, software backlash compensation or always approaching a position from the same direction may be enough (Wikipedia).
+- **environment_limits**: Metal gears and springs cope with normal workshop and engine temperatures; printed halves and printed flexing springs soften and creep with heat: PLA has a low heat distortion temperature and ABS is the better choice above about 75 °C (Instructables). Vibration and torque pulses that exceed the spring force bring the rattle back (EP3230626B1). Dirt between the halves stops the free half moving (KG). Needs lubrication, because both flanks are always in contact (KHK). *(unverified parts omitted)*
+- **safety_notes**: Pinch points between meshing gears. On engines, remove the service bolt before turning the engine over, or it will cause significant damage (Southside Cylinder Heads). *(unverified parts omitted)*
+- **common_failures**: 1) Loads or sudden jerks larger than the spring torque push the free half back and the play returns ('over-travel' on impulse loads: Carlyle, 3dp-ideas group; rattle under impulse loads: EP3230626B1); wind more teeth or use stiffer springs (KG). 2) Preload lost during servicing: camshafts refitted without the service bolt lose preload and tick like a noisy tappet (Southside Cylinder Heads). 4) Free half sticking on its hub because of dust or burrs (KG). 5) Service bolt or pin left in, locking the halves or damaging the engine (Southside Cylinder Heads). 7) Printed teeth too rough, so the preloaded mesh binds; clean teeth with a blade before use (Instructables). *(unverified parts omitted)*
+- **related**: 
+  - Lead screw and nut (incl. anti-backlash nut): the same idea for a screw thread, two nut halves pushed apart to press on opposite thread flanks (Wikipedia 'Backlash (engineering)')
+  - Spur gear train: the plain version, with backlash built in so it doesn't jam
+  - Gear train preloading: a torsion spring, weight or auxiliary motor on the last gear keeps all teeth loaded on one side; limited rotation unless a motor is used (Machine Design)
+  - Dual-path gear train: two identical gear trains wound against each other, so no special gears are needed but twice as many gears are (Machine Design)
+  - Strain-wave gear (harmonic drive): reduces backlash to 1 arc-minute or less, 10-15 arc-minutes more common (Machine Design)
+  - Cycloidal drive: preloaded rollers or pins; a printed version splits the housing and twists the halves against each other with a string, the same scissor idea (Hackaday.io 'Anti-Backlash 3D Printed Cycloidal BLDC Actuator')
+  - Compound planetary gearbox: printed ring gears made springy in the radial direction take out backlash (LoboCNC, Printables)
+  - Capstan cable drive: no teeth at all, so no backlash
+  - Herringbone and helical gears: helical gears can be shifted along their axis to adjust backlash (KHK)
+  - Worm drive: a duplex-lead worm is shifted along its axis to adjust backlash (KHK)
+  - Friction drive: no teeth and no backlash, but it can slip
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Gear Backlash, section 6.5 'Method of Reducing Backlash (Zero Backlash Gears)' (KHK Gear Technical Reference)](https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_backlash.html): Diagrams of a gear separated into two fixed parts (Fig. 6.4), tapered and duplex worm adjustments, and a scissors gear with coil springs (Fig. 6.8) *(licence: link only (KHK copyright))*
+  - [Anti (Non) Backlash Spur Gear Techniques: Gear Backlash Prevention Method, Scissor Gear (Bright Hub Engineering)](https://www.brighthubengineering.com/machine-design/65169-how-does-an-anti-backlash-gear-works/): Pictures of a CAD model of a scissor gear: a fixed gear with an extended hub, a free gear with tabs in slots, and two compression springs *(licence: link only)*
+  - [Eliminating backlash in gear drives 2 (Nguyen Duc Thang, thang010146, YouTube)](https://www.youtube.com/watch?v=c3bjt_8CdKw): CAD animation: a gear pivoted freely on the shaft of its twin and pulled round by a tension spring to eliminate tooth backlash (content from the search-result description; title and channel checked with YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+  - [How Split Gears Eliminate Backlash (Demo + Real Tuning Capacitor Example) (Aaron Dahlen, YouTube)](https://www.youtube.com/watch?v=7XxFrbyEJBM): Demonstration of a split gear removing backlash, with a real radio tuning-capacitor example (title and channel checked with YouTube oEmbed; video not watched) *(licence: link only (standard YouTube licence))*
+  - [Backlash.svg (Wikimedia Commons, by GearHeads and Slashme)](https://commons.wikimedia.org/wiki/File:Backlash.svg): Diagram of the gap (backlash) between meshing gear teeth, the problem an anti-backlash gear removes *(licence: CC BY-SA 3.0)*
+- **make_it_yourself**: 
+  - [BOSL2 gears.scad (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad): Parametric spur, helical, bevel and worm gear generator with a 'backlash' setting that narrows the teeth; use it to make two identical halves for a scissor gear *(licence: BSD 2-Clause)*
+  - [Anti-Backlash Compound Planetary Gearhead (LoboCNC, Printables) (URL appeared in search results; details from Printables API)](https://www.printables.com/model/132254-anti-backlash-compound-planetary-gearhead): Printed 38.4:1 compound planetary gearhead for a 35 mm stepper whose ring gears are springy in the radial direction but stiff in twist, taking out backlash: an alternative to scissor gears *(licence: CC BY-NC-SA)* *(unverified parts omitted)*
+- **diagram_idea**: Exploded side view of a gear split into a fixed half and a free half joined by a small coil spring, then a close-up of the mesh showing the fixed half's tooth pressing on the left side and the free half's tooth pressing on the right side of the mating tooth, with curved arrows showing the spring twisting the halves apart like scissors.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Backlash_(engineering)
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_backlash.html
+  - https://www.machinedesign.com/mechanical-motion-systems/article/21831618/methods-to-minimize-gear-backlash
+  - https://www.kggear.co.jp/en/kg-stock-gears/anti-backlash-spur-gears
+  - https://www.kggear.co.jp/wp-content/uploads/KG3001_web_0003.pdf
+  - https://www.kggear.co.jp/en/wp-content/themes/bizvektor-global-edition/pdf/2.4_Precaution-of-usage-for-Anti-backlash-spur-gears_TechnicalData_KGSTOCKGEARS.pdf
+  - https://www.brighthubengineering.com/machine-design/65169-how-does-an-anti-backlash-gear-works/
+  - https://ssch.com.au/camshaft-scissorpreload-gears/
+  - https://patents.google.com/patent/EP3230626B1/en
+  - https://groups.google.com/g/3dp-ideas/c/DYGXi_2EdY4
+  - https://www.instructables.com/A-Practical-Guide-to-FDM-3D-Printing-Gears/
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad
+  - https://hackaday.io/project/165592-anti-backlash-3d-printed-cycloidal-bldc-actuator
+  - https://www.thingiverse.com/thing:2328529
+  - https://www.printables.com/model/132254-anti-backlash-compound-planetary-gearhead
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/watch?v=6NcW02FxIEs
+  - https://www.youtube.com/watch?v=c3bjt_8CdKw
+  - https://www.youtube.com/watch?v=7XxFrbyEJBM
+  - https://commons.wikimedia.org/wiki/File:Backlash.svg
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, safety_notes
 
 ## 202 Chain and sprocket drive
 
 *gear trains, gearboxes & transmissions.* A roller chain running on toothed wheels (sprockets) to pass strong, non-slipping rotation between shafts some distance apart
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A bicycle-style chain looped round two toothed wheels, so that turning one wheel turns the other without ever slipping, even when the wheels are far apart
+- **term**: Roller chain drive (chain and sprocket drive)
+- **aliases**: 
+  - chain drive
+  - roller chain and sprockets, bush roller chain
+  - sprocket, sprocket wheel, chainwheel, chain wheel (the toothed wheels)
+  - chainring (a bicycle's front sprocket), cog or cassette (a bicycle's rear sprockets)
+  - ANSI #25 / #35 / #40 chain (US sizes: 1/4, 3/8 and 1/2 inch pitch)
+  - ISO 606 / BS 228 chain, e.g. 05B, 06B, 08B (European sizes, pitch in sixteenths of an inch)
+  - simplex, duplex, triplex chain (one, two or three strands side by side)
+  - bicycle chain, motorcycle chain (e.g. 420 chain)
+  - timing chain (the chain that drives the camshaft in a car engine)
+  - master link, connecting link, quick link (the removable joining link)
+  - Rollenkette (German, roller chain)
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: motion conversion
+- **one_liner**: A steel (or plastic) roller chain runs round toothed wheels called sprockets on two parallel shafts, passing strong rotation between them without slipping and changing speed according to the tooth counts.
+- **complexity**: A few parts: a driving sprocket, a driven sprocket, a loop of roller chain (made of outer plates, inner plates, pins, bushings and rollers), a way to join the chain (a riveted link or a removable master link), and a way to take up slack (slotted mounts, an adjustable shaft or an idler sprocket). Plus shafts and bearings to carry the sprockets.
+- **how_it_works**: The chain is a string of short links joined by pins, so it can bend round a wheel but not stretch. Each roller drops into the gap between two sprocket teeth, so when the driving sprocket turns, its teeth pull the chain along, and the chain's rollers push the teeth of the other sprocket round (a positive, non-slip drive). Both sprockets turn the same way, and the speed changes by the ratio of their tooth counts: a 12-tooth sprocket driving a 36-tooth one turns the output three times slower with about three times the turning force. Because the chain wraps a sprocket as a polygon rather than a circle, its speed ripples slightly as each link comes on (chordal action), which is worst on sprockets with few teeth.
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: passes rotation between parallel shafts that can be far apart, faster or slower according to the tooth counts
+  - change the kind of motion: a chain fixed to a carriage, lift or conveyor turns a sprocket's rotation into straight-line motion (e.g. continuous chain elevators on competition robots)
+- **motion**: rotate: continuous rotation in either direction with unlimited range; driver and driven sprockets turn the same way. A chain run fixed to a carriage can also drive it in a straight line (slide)
+- **degrees_of_freedom**: 1: the chain ties the two sprockets together, so turning one sets the position of the other (apart from a little slack and chain stretch)
+- **special_behaviour**: 
+  - motion conversion (rotary to linear): an open chain run clamped to a carriage, or a conveyor chain, turns rotation into straight-line motion
+  - none of the other clever behaviours: it does not slip on purpose (unlike a friction belt), it does not lock, and it can be driven backwards. A loose or worn chain can jump teeth under load, but that is a fault, not a safety slip
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it transmits rotation
+  - shape (the parts interlock; form-fit): the chain's rollers sit in the gaps between the sprocket teeth, so the drive cannot slip
+- **input_output**: Continuous rotation -> continuous rotation in the same direction (or rotation -> straight-line motion with a chain fixed to a carriage). Ratio = teeth on driven sprocket / teeth on driving sprocket. RoyMech gives a normal single-stage maximum of about 6:1 (up to 114 teeth on the big wheel with 19 on the small one); BSC's 'Chain and Sprockets 101' guide (Bearing Service Pty Ltd) says limit ratios to 7:1. Efficiency: about 98% for well-lubricated roller chain (Wikipedia 'Roller chain'; RoyMech uses 98%), and one bicycle-chain study measured up to 98.6% (Wikipedia 'Bicycle chain'). Shafts: parallel. Back-drivable: yes, the output can drive the input backwards, so a lifted load will run the motor backwards unless there is a brake or a self-locking stage.
+- **power**: passive (no power needed); it only passes on the motor's power. If the motor stops or loses power, nothing holds the output, and a load (such as a robot arm or lift) can back-drive the chain
+- **removability**: removable: sprockets are fixed to shafts with set screws, keys, hex bores or bolted hubs; the chain comes off by undoing a master link or pressing out a pin with a chain breaker
+- **reuse_cycles**: many times: chains and sprockets can be taken apart and refitted repeatedly; the chain itself wears (stretches) and is replaced as a consumable, and removable master links are the least reliable part (Game Manual 0)
+- **tools_needed**: A chain breaker (chain tool) to shorten or join chain, or pliers for a master link's spring clip; hex keys or a screwdriver for set screws and hub bolts; a straightedge or level to line up the sprockets; oil or chain lube. Game Manual 0 recommends a chain breaker over master links
+- **seal**: none: the chain and sprockets are open. Industrial drives run in closed oil-filled cases (RoyMech), and O-ring chains have rubber rings in each link that keep grease in and dirt out of the joints (Wikipedia 'Roller chain'), but the drive itself seals nothing
+- **load**: Medium to heavy: steel roller chain carries high torque in a compact space (RoyMech). Examples: #25 (1/4 inch) chain holds about 930 lb before breaking (Game Manual 0); a single-strand 08B (1/2 inch) chain has a breaking force of 18,000 N (RoyMech table from BS 228 / ISO 606). A chain only works in tension (pull): the tight side pulls the two shafts towards each other, loading their bearings sideways. It is weak against sideways misalignment and twisting, and chains usually fail by wear or fatigue, not by snapping (RoyMech)
+- **adjustable**: Yes. Tension: slide one shaft or the motor in slotted holes, or add an idler or spring-loaded tensioner sprocket on the slack side (RoyMech; Game Manual 0). Length: add or remove links with a chain breaker. Ratio: swap sprockets, or use a derailleur and several sprockets as on a bicycle
+- **play_and_precision**: Small backlash when properly tensioned (Game Manual 0: 'roller chain doesn't have very much slop'), but play grows as the chain stretches, so an adjustable tensioner is needed. Speed ripples slightly each time a link engages (chordal action): about 4% with an 11-tooth sprocket, 1% with 21 teeth and 0.5% with 30 teeth (BSC guide). Tolerates very little misalignment: the sprockets must be in the same plane and the shafts parallel, or the chain wears, runs rough or comes off (RoyMech; BSC guide)
+- **access_needed**: end of a tube or shaft: sprockets slide onto the shaft ends. The chain itself can be broken and rejoined in place, often without removing it from the machine (Game Manual 0)
+- **materials**: Chains: high-grade steel for power transmission (RoyMech), also stainless steel and plastic chains that need no oil but carry much less (RoyMech). Sprockets: steel (hardened teeth for small, highly loaded sprockets), cast iron or steel plate for large ones (RoyMech); robotics teams also use plastic and 3D-printed sprockets for light loads. 3D-printed chains and sprockets: PLA, PETG or nylon for light duty (LoboCNC chain; unionfab guide)
+- **maker_difficulty**: easy to moderate: chain, sprockets, tensioners and chain tools are cheap standard parts, and sprockets print or laser-cut well from free generators; the main skills are lining the sprockets up, getting the chain length and tension right, and joining the chain
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (roller chain, sprockets, idler sprockets, tensioners, master links)
+  - 3D print (FDM): sprockets for standard metal chain in light-duty uses, idler sprockets, and complete light-duty plastic chains
+  - laser cut or CNC: flat plate sprockets from a generated outline (metal, polycarbonate or plywood) *(unverified parts omitted)*
+- **print_in_place**: no: sprockets are printed separately and fitted to shafts; printed chains are printed as separate links that are snapped or bolted together (LoboCNC's chain links snap together; the 'Let's Print' chain used bolts and nuts)
+- **making_tips_3d_printing**: 1) Generate the teeth, don't draw them: kresty's OpenSCAD 'Roller Chain Sprockets' module (and Dallen Wilson's GitHub fork with keyways and set-screw holes) makes sprockets for ANSI #25 to #80, motorcycle and bicycle chain from the chain size and tooth count, with 'fudge' settings to loosen the bore and roller seats for your printer; cq_warehouse's Sprocket class has a clearance setting between rollers and teeth. 2) Print the sprocket flat, with the shaft axis vertical, so each layer traces the whole tooth outline (unionfab guide). 3) Make the teeth solid: set enough walls (perimeters) that the teeth have no infill at all (FRC team 3005, whose PLA sprocket survived a season in a low-torque joint); Engineerdog warns that tiny teeth can still have gaps inside at 100% infill. 4) Leave 0.1-0.3 mm clearance on the bore (unionfab) or at least 0.3 mm between moving parts (Prusa); bores tend to print small, so plan to ream or oversize them (Engineerdog). 5) Material: nylon or carbon-fibre nylon for working sprockets, PETG for prototypes; unionfab advises against PLA for loaded sprockets because it is brittle and softens with heat, and Prusa says PLA softens above about 60 C. 6) Fix the hub to the shaft firmly: a hex bore, a set screw on a flat, or a bolted metal hub, with a thick hub wall (Engineerdog). 7) Use at least about 17-19 teeth on the small sprocket where smoothness matters (RoyMech); very small printed sprockets wear the chain faster (Game Manual 0). 8) Printed chains: LoboCNC's 9 mm pitch PLA chain orients each link so the pull runs along the printed lines, prints at 0.2 mm layers, and is rated about 5 kgf working load (22 kgf theoretical yield); the 'Let's Print' tests found printed ABS, PLA and PETG chains worked, but only at minimal load (Hackaday). 9) Typical failures: teeth shearing off along layer lines, bores cracking or slipping on the shaft, and printed teeth wearing into hooks that let the chain jump.
+- **off_the_shelf_parts**: Roller chain (ANSI #25 1/4 inch, #35 3/8 inch, #40 1/2 inch; ISO 04B/05B/06B/08B; 8 mm pitch robotics chain as used in FTC); plate sprockets (flat, bolt-on), hub sprockets with set screw or keyway, idler sprockets with built-in bearings; chain tensioners (spring-loaded or screw-adjusted); master links / connecting links / half links (offset links); chain breaker tool (chain tool); O-ring or X-ring chain for dirty places; bicycle chainrings, cogs and cassettes; motorcycle chain and sprockets; chain guards. Search terms: 'roller chain', 'plate sprocket', 'idler sprocket', 'chain tensioner', 'connecting link', 'chain breaker'.
+- **rules_of_thumb**: 
+  - Speed ratio = teeth on driven sprocket / teeth on driving sprocket, so the ratio is changed by swapping sprocket sizes (Wikipedia 'Chain drive'); driver and driven turn the same way (DT Online 'Chain and Sprocket').
+  - Sprocket pitch diameter D = p / sin(180 degrees / z), where p is the chain pitch and z the number of teeth (RoyMech 'Roller chains').
+  - Smallest sprocket: about 9 teeth is possible, but normally at least 19, and 23 or more for smooth, fast drives; the big sprocket normally has at most 114 teeth (never more than 150), giving a normal maximum ratio of about 6:1 (RoyMech). BSC guide: limit ratios to 7:1 so a worn chain does not jump teeth on the big sprocket.
+  - Chordal speed ripple: about 4% with 11 teeth, 1% with 21 teeth and 0.5% with 30 teeth (BSC guide).
+  - Chain wrap on the small sprocket: more than 120 degrees (RoyMech); Game Manual 0 says at least 90 degrees and ideally 180 degrees or more.
+  - Centre distance: about 40 chain pitches is recommended (RoyMech); on 1:1 low-ratio drives keep the tooth counts of both sprockets adding up to no more than 50 (RoyMech).
+  - Chain length and centre distance: L = 2C/P + (N + n)/2 + P((N - n)/(2 pi))^2 / C, in pitches, where N and n are the tooth counts (Game Manual 0); round L up to a whole, preferably even, number of links, because a full link covers two pitches (RoyMech).
+  - Tension: slack-side sag of about 2-4% of the shaft centre distance (BSC guide); Game Manual 0's hand test is that the chain should move slightly under a gentle push without much resistance.
+  - Wear limit: replace chain at about 1.5-2% elongation in most industrial drives (Tsubaki); Wikipedia gives 3% on adjustable drives and 1.5% on fixed-centre drives. Bicycle chains: replace before 20 half-links measure 10 1/16 inch (256 mm) instead of 10 inch (Wikipedia 'Bicycle chain').
+  - Sizes: ANSI #25 = 1/4 inch, #35 = 3/8 inch, #40 = 1/2 inch pitch (Wikipedia 'Roller chain'); in ISO names like 06B the first two digits are the pitch in sixteenths of an inch (06 = 3/8 inch) and B means the European standard (RoyMech).
+  - Strength example: #25 chain breaks at about 930 lb (Game Manual 0); ISO 08B-1 breaks at 18,000 N (RoyMech table).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A bicycle: the pedals turn the front chainring, and the chain drives the rear sprocket (Wikipedia 'Sprocket')
+  - Motorcycles: most sporty motorcycles use a chain to the back wheel (Wikipedia 'Chain drive')
+  - Car engines: a timing chain turns the camshaft (Wikipedia 'Roller chain')
+  - Conveyors, farm machinery and printing presses (Wikipedia 'Roller chain'), and student competition robots (Game Manual 0)
+- **when_to_use**: Use a chain when you need strong, non-slipping rotation between parallel shafts that are too far apart for gears, especially where there is dirt, shock loads or heavy torque: robot drive trains and arms, go-karts, bikes, lifts and conveyors. It is easy to change the length or the ratio by breaking the chain and swapping sprockets, the parts are cheap and standard, and a chain keeps working for long periods even with little lubrication (RoyMech). It also handles higher power and longer centre distances than belts (RoyMech).
+- **when_not_to_use**: Avoid a chain where quiet, smooth, oil-free running matters (3D printers, camera sliders): use a toothed timing belt. Avoid it for precise positioning without a good tensioner, because the chain stretches and adds slop (Game Manual 0): use gears or a timing belt. Avoid it for shafts close together or for big reductions in small spaces, because sprockets are large (Game Manual 0): use spur, planetary or worm gears. Avoid it where the load must hold when the motor stops: add a brake, a worm drive or a lead screw. Avoid it for shafts that are not parallel: use bevel gears, a universal joint or a flexible shaft.
+- **environment_limits**: Steel chains need oil and rust if left wet unless they are stainless or coated; dirt mixed with oil speeds up wear, which is why O-ring chains keep dirt out of the joints (Wikipedia 'Roller chain'). RoyMech treats 0-80 C as normal and derates chain capacity above that. Chains stretch with wear over time, so tension must be re-checked (Game Manual 0). Printed plastic sprockets and chains: PLA softens above about 60 C and degrades in sunlight (Prusa); plastic parts under constant load can creep. Vibration can loosen set screws and master-link clips.
+- **safety_notes**: The point where the chain runs onto a sprocket is an in-running nip point that can catch fingers, hair, gloves or clothing (OSHA machine guarding eTool); OSHA requires sprockets and chains on powered machinery to be enclosed unless more than 7 feet above the floor. Unguarded chains can cause cuts, punctures and amputations. Switch off and unplug before touching or tensioning a chain, and keep a chain guard on bikes and machines. A chain that breaks under load can whip. Chain oil makes surfaces slippery.
+- **common_failures**: 1) Too loose: the chain skips teeth or falls off (Game Manual 0); fix with proper tension, an idler or a spring tensioner. 2) Too tight: burns out motors and wastes power (Game Manual 0). 3) Misaligned sprockets: rough running, side wear and derailing; line sprockets up with a straightedge or level (BSC guide). 4) Chain stretch from wear at the pins and bushings: the chain rides higher on the teeth and eventually jumps; replace chain at the wear limit, and sprockets too if their teeth have worn into hooks (Tsubaki; Wikipedia 'Roller chain'). 5) Master link coming undone: Game Manual 0 reports teams losing matches to failed master links; use a chain breaker and a permanent link where possible. 6) Too few teeth or too little wrap: faster stretch, rough running and skipping (RoyMech; Game Manual 0). 7) No lubrication on steel chain: faster wear and lower capacity (RoyMech). 8) Printed sprockets: teeth shearing off along layer lines, or the hub slipping on the shaft; make teeth solid and use a hex or keyed bore.
+- **related**: 
+  - Belt drives (timing belt, V-belt): quieter, lighter, no oil, and better for precise positioning; carry less torque and prefer clean places (see Belt drives entry)
+  - Spur gear pair: for shafts close together; stiffer and more compact, but no long reach
+  - Silent (inverted-tooth) chain: a chain with toothed plates that meshes like a gear; higher power and speed and smoother, but needs lubrication (RoyMech)
+  - Leaf chain: a chain of plates for lifting loads over a pulley, as on forklifts; it has no rollers and does not run on toothed sprockets (RoyMech)
+  - Lantern gear (pin gear): a wheel with pins meshing directly with a toothed wheel; a sprocket is shaped similarly but the chain wraps round it (Chief Delphi)
+  - Belt tensioner (spring-loaded idler): the usual way to keep a chain tight when the shafts can't move
+  - Cable carrier (drag chain): looks like a chain but only carries cables and hoses; it passes on no power
+  - Rigid chain actuator (push chain): a chain whose links lock into a column so it can push as well as pull
+  - Shaft drive: a spinning shaft with bevel gears, used on some bicycles and touring motorcycles instead of a chain (Wikipedia 'Chain drive')
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Chain.gif (Wikimedia Commons, OSHA)](https://commons.wikimedia.org/wiki/File:Chain.gif): Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet *(licence: Public domain (work of the US Department of Labor, OSHA))*
+  - [Roller Chain.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Roller_Chain.svg): Labelled diagram of a roller chain: outer plate, inner plate, pin, bushing and roller *(licence: Attribution (free use with credit to the copyright holder, M. Roeder; SVG by Hk kng))*
+  - [Rollenketten.gif (Wikimedia Commons, Kettentechnik Roeder GmbH)](https://commons.wikimedia.org/wiki/File:Rollenketten.gif): Animated roller chain *(licence: Public domain (released by the copyright holder))*
+  - [Roller chain (Wikipedia)](https://en.wikipedia.org/wiki/Roller_chain): Photos of roller chain and sprocket, chain construction, Leonardo da Vinci's roller chain sketch, and a layout diagram *(licence: Text CC BY-SA 4.0; images per file)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Roller Chain and Sprockets (LoboCNC, Printables)](https://www.printables.com/model/283151-roller-chain-and-sprockets): A fully printable 9 mm pitch roller chain whose links snap together, plus STL and STEP sprockets from 8 to 30 teeth; PLA recommended, about 5 kgf working load *(licence: CC BY-SA)*
+  - [420 roller chain, modular, with chain lock and sprockets (Hartvik Line, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/407208-420-roller-chain-modular-with-chain-lock-and-sproc): A printed copy of 420-size motorcycle chain with a chain lock, in several lengths, plus 9-48 tooth sprockets *(licence: CC BY-SA)*
+  - [Educational Gear Examples 3 - Lantern (osamutake, Printables)](https://www.printables.com/model/1451958-educational-gear-examples-3-lantern): A set of small printable demonstration models including a chain and sprocket, lantern gears and a pin rack, with an explanation of why sprocket teeth are shaped the way they are *(licence: CC BY)*
+  - [Roller Chain Sprockets OpenSCAD Module (kresty / Shawn Steele, Thingiverse) (from search results; page loads only with scripts)](https://www.thingiverse.com/thing:197896): OpenSCAD module that generates sprockets for ANSI #25-#80, motorcycle and bicycle chain from chain size, tooth count and bore *(licence: MS-PL (stated in the Sprockets.scad header))*
+  - [OpenSCAD-Sprockets (Dallen Wilson, GitHub)](https://github.com/dallenwilson/OpenSCAD-Sprockets): Fork of the Sprockets.scad module that adds keyways, set-screw holes and printer 'fudge' settings; tested with ANSI chain *(licence: Sprockets.scad MS-PL; threads.scad GPL-3)*
+  - [cq_warehouse sprocket (and chain) generator](https://cq-warehouse.readthedocs.io/en/latest/sprocket.html): Python/CadQuery classes that generate parametric sprockets (chain pitch, roller diameter, tooth count, clearance) and a chain wrapped round a set of sprockets, exportable to STEP *(licence: Apache 2.0)*
+- **diagram_idea**: A side view of a small sprocket driving a large one through a chain, with one roller highlighted dropping into a tooth gap, rev counters showing both wheels turning the same way at a 1:3 ratio, a sagging slack side and tight top side labelled, and an inset showing the polygon the chain makes on a small sprocket.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Roller_chain
+  - https://en.wikipedia.org/wiki/Chain_drive
+  - https://en.wikipedia.org/wiki/Sprocket
+  - https://en.wikipedia.org/wiki/Bicycle_chain
+  - https://roymech.org/Useful_Tables/Drive/Chain_Drives.html
+  - https://roymech.org/Useful_Tables/Drive/Roller_chain.html
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/chain.html
+  - https://raw.githubusercontent.com/gamemanual0/gm0/main/source/docs/common-mechanisms/power-transmission/chain.rst
+  - https://partners.bsc.com.au/Content/+2332
+  - https://www.ustsubaki.com/resources/knowledge-center/chain-wear-indicator-kit/
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.219
+  - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+  - https://wiki.dtonline.org/index.php/Chain_and_Sprocket
+  - https://507movements.com/mm_254.html
+  - https://hackaday.com/2021/05/15/putting-3d-printed-chain-through-its-paces/
+  - https://www.unionfab.com/blog/2025/06/3d-print-sprocket
+  - https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887
+  - https://www.chiefdelphi.com/t/geometry-correct-lantern-gears-in-onshape/473561
+  - https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://commons.wikimedia.org/wiki/Category:Roller_chains
+  - https://commons.wikimedia.org/wiki/File:Chain.gif
+  - https://commons.wikimedia.org/wiki/File:Roller_Chain.svg
+  - https://commons.wikimedia.org/wiki/File:Rollenketten.gif
+  - https://api.printables.com/graphql/
+  - https://raw.githubusercontent.com/dallenwilson/OpenSCAD-Sprockets/master/README.md
+  - https://raw.githubusercontent.com/dallenwilson/OpenSCAD-Sprockets/master/Sprockets.scad
+  - https://cq-warehouse.readthedocs.io/en/latest/sprocket.html
+  - https://cq-warehouse.readthedocs.io/en/latest/chain.html
+  - https://raw.githubusercontent.com/gumyr/cq_warehouse/main/LICENSE
+
+### Other info
+
+- **Fields with unverified parts:** links, processes
 
 ## 203 Non-circular gears
 
 *gear trains, gearboxes & transmissions.* Oval or oddly shaped gears that mesh while turning, so the output speeds up and slows down during each turn
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Oval or oddly shaped gears that stay meshed as they turn, so when you turn one at a steady speed the other speeds up and slows down during every turn
+- **term**: Non-circular gears (noncircular gears, NCG)
+- **aliases**: 
+  - oval gears
+  - elliptical gears, elliptic gears, elliptical spur gears
+  - eccentric gears (a round gear turning about an off-centre point)
+  - lobed gears (gears with two, three or more bulges)
+  - variable-ratio gears, variable-speed gears
+  - irregular gears, odd-shaped gears (square, triangular or heart-shaped gears)
+  - oval gear meter rotors (the gears inside an oval gear flow meter)
+  - oval chainring, Biopace (Shimano brand, 1983-1993) (a non-circular bicycle sprocket)
+  - Wild Gears (brand; non-circular drawing gears)
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: motion conversion
+- **one_liner**: A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes), designed to roll on each other without slipping so that a steady input turn becomes an output that repeatedly speeds up and slows down.
+- **complexity**: A few parts: two gears designed as a matched pair (a drive gear and its mating gear), two shafts or pins held at a fixed distance apart, and bearings or bushings; often a base plate or frame and clips (retaining rings) to hold the gears on their pins
+- **how_it_works**: Each gear rolls on an imaginary outline (pitch curve) instead of a circle. At every moment the distances from the two shafts to the point where the gears touch add up to the fixed distance between the shafts, and the output speed equals the input speed times the drive gear's distance divided by the driven gear's distance (Wikipedia 'Non-circular gear'). Because those distances change as the gears turn, the speed ratio changes all the time: where the drive gear reaches out far and the driven gear is 'short', the output races; half a turn later it crawls. The mating shape is worked out from the first gear so that the two roll together without slipping, and teeth are then added along each outline (piellardj; osamutake).
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: the speed ratio (and so the turning force) changes in a set pattern during every turn
+  - change the kind of motion: turns steady rotation into rotation that speeds up and slows down in a planned way, e.g. a slow working stroke and a fast return
+- **motion**: rotate: continuous rotation, unlimited range; an external pair turns in opposite directions like ordinary gears
+- **degrees_of_freedom**: 1: the output angle is fixed by the input angle through the gears' shapes
+- **special_behaviour**: 
+  - motion conversion: steady rotation in, non-steady (varying-speed) rotation out. Engineers use pairs designed for a chosen 'law of motion' so a machine part follows a set speed pattern (Maláková 2019; Litvin et al.)
+  - none of the locking, slipping or indexing behaviours: it does not slip, lock or stop; for stop-and-go motion use an intermittent gear or Geneva drive instead
+- **holding_principle**: not a holding joint (it moves or passes on motion): it transmits rotation, shape (the parts interlock; form-fit): the teeth mesh, so the gears cannot slip
+- **input_output**: Continuous rotation -> continuous rotation whose speed varies periodically. Ratio at any instant = driving radius / driven radius, with the two radii always adding up to the centre distance (Wikipedia). For two identical ellipses each turning about one focus (centre distance = the ellipse's long axis, Maláková), the output speed swings between (1 - e)/(1 + e) and (1 + e)/(1 - e) times the input, where e is the ellipse's eccentricity; e.g. e = 0.5 gives one third to three times input speed (worked out from the ellipse's geometry, not quoted from a source). Over a whole turn an equal-perimeter pair averages 1:1; other pairs can be designed so the driver makes N turns while the follower makes M (Otvinta). Shafts: parallel. Back-drivable: yes, like spur gears, but the turning force needed at the input changes through each turn. *(unverified parts omitted)*
+- **power**: passive (no power needed); it only passes on the motor's power. If the motor stops nothing holds the output
+- **removability**: removable: the gears slide off their pins or shafts once clips, set screws or hubs are undone
+- **reuse_cycles**: many times: the gears can be taken off and refitted as often as needed; refit them at the same relative angle (see tools_needed)
+- **tools_needed**: A screwdriver or hex key for hubs, or none for gears held on pins with snap-on retaining rings (osamutake's model needs no glue). Design software or an online generator is needed to make the pair. *(unverified parts omitted)*
+- **seal**: none: open gears. In an oval gear flow meter the gears run in a closely fitting chamber and the fluid is carried round in the pockets between gears and chamber wall, but that is the meter housing, not the gears (Silver Automation Instruments)
+- **load**: Light to medium: made accurately in metal they carry industrial loads (presses, hydraulic motors, pumps; Wikipedia), but home-made printed or laser-cut ones are for light loads, models and kinetic art. Teeth near the sharp ends of a pointed oval are small and undercut, so they are the weak spot (osamutake). Strong in twist (torque) along the direction of rotation; like other spur gears they push the shafts apart and need a stiff frame to keep the centre distance
+- **adjustable**: no: the speed pattern is fixed by the gears' shapes and the centre distance is fixed; to change the pattern you make a new pair (or change the relative starting angle, which shifts when the fast and slow parts happen)
+- **play_and_precision**: Small backlash, like spur gears, if made accurately. Very little tolerance for a wrong centre distance or phase: the shapes are matched only at one spacing and one relative angle (Wikipedia; Maláková). osamutake's printed model uses 0.15 mm radial clearance between gears and their shafts and warns that elephant's foot or stringing makes them bind. Repeatable: the output angle always returns to the same place for a given input angle
+- **access_needed**: end of a tube or shaft: the gears slide onto pins or shafts
+- **materials**: Industrial ones are steel or other metals, usually spur gears made by moulding or electrical discharge machining rather than normal gear cutting (Wikipedia). Maker versions: PETG (osamutake recommends well-dried PETG), PLA for toys, acrylic, MDF or plywood when laser cut (MyLaserTools exports layered SVG for laser cutting as well as STL/3MF)
+- **maker_difficulty**: moderate: easy to make once a generator has drawn the pair (print or laser-cut it), but hard to design by hand, because every tooth is a different shape and the mate has to be calculated
+
+### Making it
+
+- **processes**: 3D print (FDM), laser cut (acrylic, MDF, plywood), CNC or wire EDM (industrial metal gears; Wikipedia mentions moulding and electrical discharge machining) *(unverified parts omitted)*
+- **print_in_place**: no: the two gears are printed separately and fitted on pins or shafts, then clipped in place (osamutake's model uses snap-on retaining rings)
+- **making_tips_3d_printing**: 1) Use a generator: Otvinta's Non-Circular Gear Calculator takes a polar equation for gear 1, a turn ratio N/M and a tooth count and computes both outlines (N/M times the number of lobes must be a whole number, and the tooth count must divide by both N and M); MyLaserTools' free Gear Generator solves the mate of an ellipse numerically and exports SVG, STL and 3MF; piellardj's MIT-licensed web demo builds mates for ellipse, heart, triangle and other shapes. 2) Keep the shape gentle: the pitch curve should be smooth, closed and not cross itself (Otvinta); very pointed ellipses give tight curves where teeth are undercut and weak, and hollow (concave) stretches on the mate get teeth like an internal gear (osamutake). 3) Tooth shape: proper non-circular involute teeth change with the local curvature (osamutake), but for FDM Hirnschall suggests round (circular) teeth so every tooth is the same size, since printed gears are not highly loaded. 4) Print flat with the shaft axis vertical so each layer traces the full outline (Prusa's advice to orient parts for strength in the loaded direction). 5) osamutake's settings for smooth running: well-dried PETG for accuracy, 0.1 or 0.08 mm layers, slow overhangs, random seam position, and 0.15 mm radial clearance on the shafts; sand off stringing and file out elephant's foot if the gears feel tight. 6) Mark the meshing teeth before separating the gears, so you can reassemble them in phase. 7) For moving parts Prusa suggests starting at 0.3 mm clearance; PLA softens above about 60 C (Prusa).
+- **off_the_shelf_parts**: Mostly custom-made. Parts you can buy: steel pins or shoulder bolts as axles, ball bearings or bushings, retaining rings (e-clips), a base plate. Products that contain non-circular gears: oval gear flow meters (positive displacement meters), oval gear pumps, oval bicycle chainrings (e.g. Rotor Q-Rings, brand; Shimano Biopace, brand, discontinued), Wild Gears (brand) drawing sets
+- **rules_of_thumb**: 
+  - Fixed-shaft rule: the two contact radii always add up to the centre distance, r1 + r2 = a, and the gears roll without slipping, r1 dθ1 = r2 dθ2 (Wikipedia 'Non-circular gear').
+  - Identical elliptical gears turn about a focus, not the centre, and the centre distance equals the long (major) axis of the ellipse (Maláková 2019: the half major axis is half the axial distance).
+  - How much the speed varies is set by the ratio of the ellipse's long and short axes (507 Mechanical Movements no. 33); a rounder ellipse gives a gentler variation.
+  - For one turn of the driver to give exactly one turn of the follower, both pitch curves must have the same length (osamutake); more generally N/M times the number of lobes must be a whole number and the tooth count must divide by N and M (Otvinta).
+  - Pitch curves must be closed, smooth and non-self-intersecting (Otvinta), and should stay convex with a large enough radius of curvature to avoid undercut teeth (osamutake; Liu et al., Scientific Reports 2022, give convexity and undercut conditions for elliptical gears).
+  - Tooth shape depends only on the local curvature of the pitch curve, not on the distance from the shaft (osamutake).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Oval gear flow meters on fuel, oil and grease dispensers: two meshing oval gears pass a fixed volume of liquid per turn (Silver Automation Instruments)
+  - Oval bicycle chainrings such as Shimano's Biopace (brand), which change the effective gear during each pedal stroke (Wikipedia 'Biopace')
+  - Spirograph-style drawing toys with non-round gears, e.g. Wild Gears (brand)
+  - Printing presses, packaging machines and textile machines (Maláková 2019; Wikipedia)
+- **when_to_use**: Use non-circular gears when a constant-speed motor must drive something whose speed has to rise and fall in a set pattern every turn: a slow working stroke with a quick return, matching the speed of a cutter or printing roll to a moving web, or a positive-displacement pump or flow meter (Maláková 2019; Wikipedia). They are compact, need no springs or followers, and keep an exact angle relationship. They are also great for kinetic art, desk toys and teaching models, because the changing speed is easy to see.
+- **when_not_to_use**: Don't use them when you just need a constant speed change: use ordinary spur gears. If the output must stop and wait, use an intermittent gear or Geneva drive. If the ratio must be changed while running, use a friction drive or CVT. A four-bar linkage can give a very similar varying motion with simple bars and pins (an antiparallelogram linkage behaves like a pair of elliptical gears, Wikimedia Commons animation), and a cam gives freer control of a back-and-forth output. *(unverified parts omitted)*
+- **environment_limits**: The same limits as other gears of the same material: PLA softens and deforms above about 60 C and degrades in sunlight (Prusa); moisture in PETG filament spoils accuracy (osamutake recommends well-dried filament). Plastic gears wear, and the teeth near sharp ends wear or break first. Oval gear flow meters need clean liquids, because particles damage the closely fitting gears (Silver Automation Instruments).
+- **safety_notes**: Meshing gears form in-running nip points that can trap fingers, hair or clothing (OSHA machine guarding eTool); with non-circular gears the gap between the gears also opens and closes as they turn. Guard powered gears. Small printed gears and clips are a choking hazard for small children.
+- **common_failures**: 2) Undercut, weak teeth at the pointed ends of an oval break or skip (osamutake). 3) Printing faults: elephant's foot and stringing make gears tight on their shafts (osamutake). 4) A shape that is too extreme or has hollow sections that the generator cannot mesh properly (Otvinta requires closed, smooth, non-crossing curves). *(unverified parts omitted)*
+- **related**: 
+  - Spur gear pair and gear train: round gears with a constant speed ratio
+  - Intermittent gear (mutilated gear) and Geneva drive: give stop-and-go motion instead of smoothly varying speed
+  - Four-bar linkage (antiparallelogram): can give the same varying rotation with bars and pins (Wikimedia Commons 'Antiparallelogram and Elliptical Gears' animation)
+  - Cam and follower: another way to make a set motion pattern, usually back-and-forth rather than rotation
+  - Eccentric gear: a round gear turning off-centre, the simplest non-circular pair
+  - Chain and sprocket drive with an oval chainring: a non-circular sprocket gives a varying ratio through a chain
+  - Friction drives and CVTs: change the ratio smoothly while running, but by friction and on command rather than in a fixed pattern
+  - Scotch yoke and slider-crank: turn rotation into back-and-forth motion
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Antiparallelogram and Elliptical Gears.gif (Wikimedia Commons, Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif): Animation of two elliptical gears turning about their foci next to the equivalent antiparallelogram four-bar linkage *(licence: CC BY-SA 4.0)*
+  - [EllipticalGeard.gif (Wikimedia Commons, Sababer)](https://commons.wikimedia.org/wiki/File:EllipticalGeard.gif): Animation of an elliptical gear pair and its equivalent mechanism *(licence: CC BY-SA 4.0 and GFDL 1.2 or later)*
+  - [507 Mechanical Movements no. 33: Elliptical spur-gears](https://507movements.com/mm_033.html): Animated historic drawing of elliptical spur gears giving rotary motion of varying speed *(licence: Book public domain (1868); website animation link only)*
+  - [Non-circular gears (Jérémie Piellard, interactive web demo)](https://piellardj.github.io/non-circular-gears/): Live animation of an odd-shaped gear (ellipse, heart, triangle, square and more) with mating gears generated around it; you can add gears and show teeth *(licence: MIT (code))*
+  - [Non-Circular Gear Basics (Wild Gears, YouTube)](https://www.youtube.com/watch?v=SQXxEbdPU1Y): Video introduction to non-circular gears *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Educational Model of Non-circular Gears (osamutake, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1504479-educational-model-of-non-circular-gears): A printable 80 x 80 mm demonstration: an eccentric ellipse driving its calculated mate, with involute-style teeth, printing settings and a video (https://youtu.be/AjaNT3_8q5M) *(licence: CC BY)*
+  - [Elliptical gears (MarcinPaska, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/864137-elliptical-gears): A printable pair of elliptical gears *(licence: CC0 (public domain))*
+  - [Elliptical Gear with no center pivot (JGowins, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1533767-elliptical-gear-with-no-center-pivot): A remix of PerryT's elliptical gear set with the gears pivoting off-centre *(licence: CC BY-SA)*
+  - [non-circular-gears (Jérémie Piellard, GitHub)](https://github.com/piellardj/non-circular-gears): Source code of the interactive non-circular gear generator, with an explanation of the no-slip rolling principle and research references *(licence: MIT)* *(unverified parts omitted)*
+- **diagram_idea**: Two identical ellipses each pinned at one focus, shown at three moments of a turn with the contact point marked and the two contact distances drawn as coloured bars that always add up to the fixed centre distance, plus a small speed-over-one-turn graph showing the output racing and crawling while the input stays steady.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Non-circular_gear
+  - https://en.wikipedia.org/wiki/Biopace
+  - https://sjsutst.polsl.pl/archives/2019/vol104/095_SJSUTST104_2019_Malakova.htm
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9561629/
+  - https://arxiv.org/abs/1905.02642
+  - https://books.google.com/books/about/Noncircular_Gears.html?id=8DHzDAEACAAJ
+  - https://507movements.com/mm_033.html
+  - https://www.otvinta.com/noncircular.html
+  - https://www.mylasertools.com/gear-generator
+  - https://blog.hirnschall.net/gears-for-3d-printing/
+  - https://piellardj.github.io/non-circular-gears/
+  - https://raw.githubusercontent.com/piellardj/non-circular-gears/master/README.md
+  - https://raw.githubusercontent.com/piellardj/non-circular-gears/master/LICENSE
+  - https://www.silverinstruments.com/support/oval-gear-flow-meter-working-principle.html
+  - https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif
+  - https://commons.wikimedia.org/wiki/File:EllipticalGeard.gif
+  - https://www.youtube.com/watch?v=SQXxEbdPU1Y
+  - https://www.youtube.com/watch?v=AjaNT3_8q5M
+  - https://api.printables.com/graphql/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, input_output, make_it_yourself, processes, tools_needed, when_not_to_use
 
 ## 204 Lantern gear (pin gear)
 
 *gear trains, gearboxes & transmissions.* A gear made of pins between two discs, easy to make from dowels or laser-cut sheet, used in mills and simple machines
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A gear made of a ring of round pins (like dowels) held between two discs, like the bars of a round birdcage, which meshes with a toothed wheel
+- **term**: Lantern gear (lantern pinion, cage gear)
+- **aliases**: 
+  - lantern pinion
+  - cage gear
+  - pin gear, pin wheel, pinwheel gear
+  - trundle wheel, trundle gear (the pins are called trundles, staves or rungs)
+  - wallower (the lantern on a mill's upright shaft)
+  - lantern rack, pin rack (the straight version: a row of pins)
+  - roller pinion (a modern industrial version with pins on bearings; e.g. Nexen RPS, brand)
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: motion conversion
+- **one_liner**: A pinion whose 'teeth' are round pins set between two discs, driven by a wheel with specially shaped (cycloidal) teeth; it is easy to make by drilling holes and pushing in dowels or steel pins, and was used for centuries in mills and clocks.
+- **complexity**: A few parts: the lantern (two discs, a ring of pins or dowels between them, and a shaft or hub), and a mating wheel with teeth shaped for that exact number of pins (or a flat rack with such teeth). Optional: bushings or small bearings over the pins so they roll instead of slide
+- **how_it_works**: The pins sit on the lantern's pitch circle, and each tooth of the mating wheel pushes one pin at a time round, like a finger pushing the bars of a turning birdcage (Wikipedia 'Gear'). The wheel's tooth shape is the path the centre of a pin traces as the two pitch circles roll on each other (an epicycloid), moved inwards by the pin's radius, which gives smooth, steady motion (tec-science; Chief Delphi tutorial). Speed changes by the ratio of teeth to pins, as with any gear. Because each pin is held at both ends, even a lantern with very few pins is strong, and dirt can fall through between the pins instead of packing into tooth roots (Wikipedia; Chief Delphi).
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: a wheel with many teeth and a lantern with few pins gives a big reduction or step-up in one stage
+  - change the kind of motion: with a straight row of pins (pin rack) or a toothed rack it turns rotation into straight-line motion
+- **motion**: rotate: continuous rotation, unlimited range, as with ordinary gears; slide when a lantern pinion runs along a rack (or a toothed pinion along a pin rack)
+- **degrees_of_freedom**: 1: the output angle follows the input angle through the mesh
+- **special_behaviour**: 
+  - motion conversion (rotary to linear): with a pin rack or toothed rack; 507 Mechanical Movements no. 199 uses a part-pinned lantern to push a frame back and forth (a mangle rack)
+  - none of the other clever behaviours: it does not lock, slip or index by itself
+- **holding_principle**: not a holding joint (it moves or passes on motion): it transmits rotation, shape (the parts interlock; form-fit): the wheel's teeth push the pins
+- **input_output**: Continuous rotation -> continuous rotation (or rotation -> straight-line motion with a rack). Ratio = number of teeth on the wheel / number of pins on the lantern. Shafts: parallel with a spur-type wheel; at right angles when a wheel with teeth on its face or rim drives the lantern, as with a mill's pit wheel driving the wallower on the upright shaft (Wikipedia 'Glossary of mill machinery'; Pede's Mill). Contact ratio is fairly low, because the pins mesh mostly on one side of the pitch point (tec-science). Back-drivable: yes, though clock tradition says the lantern should be the driven part, not the driver (Wikipedia 'Gear'; Malcolm Wild via Model Engineer forum); other clockmakers call this rule 'likely a myth'. *(unverified parts omitted)*
+- **power**: passive (no power needed); it only passes on the power put into it. If the drive stops, nothing holds the output
+- **removability**: removable: the lantern and wheel slide off their shafts; pins can be knocked out and replaced one at a time
+- **reuse_cycles**: many times: the gears can be taken apart and refitted repeatedly, and worn pins (or worn wooden cogs on the mating wheel) can be replaced individually (Pede's Mill; NAWCC forum)
+- **tools_needed**: A drill (ideally a drill press with an indexing jig to space the pin holes evenly) and a saw, scroll saw, laser cutter or 3D printer for the discs and the mating wheel; a hammer or vice to press in pins; hex keys for set screws. NAWCC clockmakers note a lantern needs no special gear cutter, only the indexing fixture used to drill the holes
+- **seal**: none: it is open, and deliberately lets dirt fall through between the pins (Wikipedia 'Gear')
+- **load**: Light to heavy depending on material: wooden lanterns drove millstones, and modern lantern pinions with low-friction pins drive heavy, slow loads such as large telescopes (tec-science). Each pin is held at both ends and loaded in shear rather than bent like a gear tooth, so a lantern can have fewer 'teeth' than an involute pinion (Chief Delphi, CHAOS 131). Strong in twist (torque); the pins' joint with the discs and the thin tips of the mating wheel's teeth are the weak points. Best at low speeds; tec-science says it is not suitable for high-precision drives
+- **adjustable**: Partly: the centre distance (depthing) can be set by moving one shaft, and clockmakers correct it to bring the contact to the pitch point (AWCI). The ratio is fixed by the pin and tooth counts
+- **play_and_precision**: Noticeable backlash is common: Hessmer's builder follows a British horological standard with clearances that leave visible gaps, and the FRC tutorial notes that extra clearance prevents binding but adds backlash (Model Engineer forum; Chief Delphi). Speed is not perfectly smooth because of the low contact ratio (tec-science). Tolerant of depthing errors, wear and dirt, which is why it suited mills and turret clocks (NAWCC forum; Wikipedia), but the mating wheel's tooth shape only suits the pin count it was designed for (Chief Delphi, CHAOS 131)
+- **access_needed**: end of a tube or shaft: the lantern and wheel slide onto shafts; individual pins can be driven out from the side
+- **materials**: Historically wood (staves or trundles in wooden discs) and later cast-iron pins, often meshing with wooden cogs so only the cheap, replaceable wooden cogs wear (Pede's Mill); brass or steel rod in clocks (Model Engineer forum). For makers: hardwood dowels, steel dowel pins or shoulder bolts, bushings or small bearings over pins; discs of plywood, MDF, acrylic, aluminium plate or 3D-printed plastic (Chief Delphi; osamutake)
+- **maker_difficulty**: easy: the lantern is just two drilled discs and some dowels or pins, and free generators draw the mating wheel for laser cutting, CNC or printing; the only care needed is even hole spacing and the right centre distance
+
+### Making it
+
+- **processes**: 
+  - laser cut (discs and mating wheel from plywood, MDF or acrylic)
+  - woodwork (drilled discs with dowels; scroll-sawn mating wheel)
+  - 3D print (FDM): discs and mating wheel, with printed or metal pins
+  - CNC router or mill (aluminium or polycarbonate plate gears)
+  - off-the-shelf part: dowels, dowel pins, shoulder bolts and bearings for the pins; industrial roller pinions
+- **print_in_place**: no: the lantern and its mating wheel are separate parts fitted on shafts. The lantern itself can be printed as one piece with its pins, but many makers press steel dowel pins, shoulder bolts or bearings into printed or cut discs instead (Chief Delphi)
+- **making_tips_3d_printing**: 1) Generate the mating wheel: Rainer Hessmer's free Lantern Gear Builder (MIT licence) outputs SVG for CAD or Inkscape (then DXF); the Chief Delphi tutorial shows how to draw it by hand in CAD (trace the pin centre's epicycloid path, offset it by the pin radius), and team CHAOS 131 shared an Onshape generator for lantern gears, ring gears, racks and pin wheels. 2) Design the wheel for the exact number of pins on its lantern; a wheel for a 5-pin lantern will not run with a 15-pin one (Chief Delphi). 3) Use metal pins where you can: printed discs with pressed-in steel dowel pins are far stronger than printed pins, and bushings or small bearings over the pins make the mesh roll smoothly (Chief Delphi; osamutake notes rotating pins give pure rolling contact). 4) Print discs and the mating wheel flat, with the shaft axis vertical, so each layer traces the full outline (Prusa's guidance on orienting for strength). 5) Clearance: osamutake's printed lantern set uses 0.15 mm radial clearance on the shafts, well-dried PETG, 0.1 or 0.08 mm layers and a random seam; Prusa suggests starting at 0.3 mm between moving parts. The FRC tutorial adds a small extra offset to the tooth outline to prevent binding, at the cost of backlash. 6) Set the centre distance to the sum of the two pitch radii (AWCI) and check it by turning by hand. 7) Laser cutting: the kerf changes the tooth fit, so compensate or test first (Hackaday). 8) PLA softens above about 60 C (Prusa); for loaded mechanisms use PETG, nylon or cut plate with steel pins.
+- **off_the_shelf_parts**: Hardwood dowels; steel dowel pins (e.g. 1/8 inch or 3 mm); shoulder bolts; flanged bushings or miniature ball bearings to slip over pins as rollers; retaining rings (e-clips); shafts with set-screw hubs. Industrial versions: roller pinions and matching racks (e.g. Nexen Roller Pinion System, brand), pin racks and pin gear drives. Search terms: 'lantern pinion', 'pin gear', 'pin rack', 'roller pinion', 'dowel pin'.
+- **rules_of_thumb**: 
+  - Pins sit on the lantern's pitch circle; the mating tooth outline is the epicycloid traced by a pin centre, offset inwards by the pin radius (tec-science; Chief Delphi tutorial).
+  - Pitch diameters: D = number of pins (or teeth) x module, or number x pitch / pi, exactly as for ordinary gears (Chief Delphi tutorial).
+  - Centre distance = sum of the two pitch radii; contact should cross the line of centres at the pitch point, and depthing that is too shallow or too deep gives rough running (AWCI clockmaking standard).
+  - Clock practice for cycloidal lantern pinions: pin diameter about 1.05 x module for 10 pins or fewer, and 1.25 x module for more than 10 pins (Malcolm Wild's book, after W.O. Davis, quoted on the Model Engineer forum).
+  - The mating wheel's tooth shape depends on the lantern's pin count, so design each pair together (Chief Delphi, CHAOS 131).
+  - For CNC routing, the pins must be larger than the end mill used to cut the wheel's tooth gaps, and choose a pitch that makes the wheel's teeth about as thick as the pins (Chief Delphi, CHAOS 131).
+  - Lantern gears have a relatively low contact ratio (tec-science), so keep speeds low and don't expect precision.
+  - A straight 'rack' of pins driving a gear gives involute-shaped teeth on the gear (tec-science). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Old windmills and watermills: the wallower on the upright shaft, driven by the pit wheel (Wikimedia Commons 'Cage Gear.png' from Pantigo Windmill; Pede's Mill)
+  - Old turret clocks and cheap American clock movements (Wikipedia 'Gear'; Wikimedia Commons turret clock of 1608)
+  - Pascal's mechanical calculator of 1642 (Wikimedia Commons file description)
+  - Traditional water-lifting irrigation wheels (photos in Wikimedia Commons category 'Lantern gears')
+- **when_to_use**: Use a lantern gear when you want a gear you can make with a drill and some dowels or pins, without a gear cutter: laser-cut or woodwork projects, wooden clocks and automata, school models, and robot mechanisms cut from plate (Chief Delphi; NAWCC forum). It suits slow, strong drives, dirty or dusty places (dirt falls through the pins), very few 'teeth' on the small gear, and designs where worn pins or teeth should be easy to replace (Wikipedia; Pede's Mill; tec-science). With bearings on the pins it gives smooth rolling contact.
+- **when_not_to_use**: Avoid it for high speeds or precise positioning: it has a low contact ratio and usually some backlash (tec-science); use involute spur or helical gears, or a timing belt. Avoid it where you want to swap in stock gears, because each wheel is designed for one pin count; use standard spur gears. For a long reach between shafts use a chain and sprocket. For very large reductions in a small space use a worm drive or planetary gearbox.
+- **environment_limits**: Very tolerant of dirt and dust; millers ran wooden cogs against iron pins with little grease because grease would cause problems in a dusty mill (Pede's Mill). Printed plastic parts: PLA softens above about 60 C and degrades in sunlight (Prusa). Pins pressed into plastic or wood can work loose under vibration. *(unverified parts omitted)*
+- **safety_notes**: Meshing gears form in-running nip points that can trap fingers, hair or clothing (OSHA machine guarding eTool); the open cage of pins adds more places to catch fingers. Guard powered drives. Small pins and dowels are a choking hazard for small children.
+- **common_failures**: 1) Wrong centre distance (depthing): too shallow and the contact points never meet properly; too deep and the gears bind or run rough (AWCI). 2) Mating wheel designed for a different pin count: it jams or runs unevenly (Chief Delphi). 3) Pins loosening, bending or wearing grooves; use hard steel pins, support them at both ends, or fit bushings or bearings so they roll. 4) Wooden or plastic teeth wearing quickly; in mills the wooden cogs were meant to be the replaceable wearing part (Pede's Mill). 5) Uneven hole spacing: drill with an indexing jig or cut the holes by laser or CNC. 6) Laser kerf making teeth too thin or too fat (Hackaday). 7) Too much backlash from generous clearance; reduce the offset once the pair runs freely (Chief Delphi tutorial).
+- **related**: 
+  - Spur gear pair: involute teeth on both gears; smoother and interchangeable, but needs cut or generated teeth on both
+  - Cycloidal gearing: the lantern pinion is a special case of the cycloidal tooth form (tec-science)
+  - Chain and sprocket drive: a sprocket's teeth look like a lantern-mating wheel, but the chain wraps round it; a Chief Delphi user found #35 sprockets roughly compatible with a generated lantern gear
+  - Rack and pinion: a lantern pinion can run on a rack, or a toothed pinion on a pin rack (Chief Delphi; tec-science)
+  - Cycloidal drive: its fixed ring of pins or rollers works like an internal lantern gear
+  - Peg wheels (cog-and-rung gearing): pegs meshing with pegs or rungs; the oldest form of gear, tolerant but high-friction (NAWCC forum)
+  - Geneva drive and intermittent gears: also use pins, but to give stop-and-go motion
+  - Pin-wheel and slotted pinion (507 Mechanical Movements no. 208): pins on the face of a wheel drive a slotted pinion, giving three speeds by sliding the pinion between three circles of pins
+  - Roller pinion (e.g. Nexen RPS, brand): an industrial lantern pinion with rollers on bearings running on a special rack, with zero backlash (Linear Motion Tips)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Cage Gear.png (Wikimedia Commons, Historic American Buildings Survey)](https://commons.wikimedia.org/wiki/File:Cage_Gear.png): Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island *(licence: Public domain (US National Park Service work))*
+  - [Lantern gear - Turret clock from 1608.jpg (Wikimedia Commons, Ezrdr)](https://commons.wikimedia.org/wiki/File:Lantern_gear_-_Turret_clock_from_1608.jpg): Close-up of the lantern pinions in a turret clock of 1608 *(licence: CC BY-SA 3.0)*
+  - [Lantern pinion as a special case of cycloidal gear (tec-science)](https://www.tec-science.com/mechanical-power-transmission/cycloidal-gear/lantern-pinion/): Animations of a lantern pinion driving its wheel, how the wheel's tooth outline is constructed, the line of action, and a pin rack giving involute teeth *(licence: link only)*
+  - [507 Mechanical Movements no. 199: mangle-rack with lantern pinion](https://507movements.com/mm_199.html): Animated historic drawing of a part-pinned lantern pinion turning continuously and pushing a frame back and forth *(licence: Book public domain (1868); website animation link only)*
+  - [Category: Lantern gears (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Lantern_gears): 39 photos of lantern gears in windmills, watermills, clocks, irrigation wheels, a well pump and a mint *(licence: per file (Commons free licences))*
+- **make_it_yourself**: 
+  - [Lantern Gear Builder (Dr Rainer Hessmer)](http://hessmer.org/gears/LanternGearBuilder.html): Free online tool that generates a lantern pinion and its mating gear by simulating the pins cutting into the wheel; downloads SVG for CAD, Inkscape, laser cutting or 3D printing *(licence: MIT)*
+  - [Educational Gear Examples 3 - Lantern (osamutake, Printables)](https://www.printables.com/model/1451958-educational-gear-examples-3-lantern): Printable demonstration set with four kinds of lantern gears (external, rack, internal), a chain and sprocket, and a multiple trammel gear, with explanations and print settings *(licence: CC BY)*
+  - [Lantern Gear Design Tutorial (Chief Delphi forum)](https://www.chiefdelphi.com/t/lantern-gear-design-tutorial/394915): Step-by-step CAD method for drawing a lantern pinion and its mating gear, with the pitch formulas and a worked example using 1/8 inch steel dowel pins *(licence: link only)* *(unverified parts omitted)*
+- **diagram_idea**: A cut-away of a birdcage-like lantern (two discs, eight pins) meshing with a larger toothed wheel, with the dotted looping path of one pin's centre drawn on the wheel and the tooth outline shown as that path moved in by the pin's radius, plus labels for the two pitch circles touching at the pitch point.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Lantern_gear
+  - https://en.wikipedia.org/w/index.php?title=Gear&action=raw
+  - https://en.wikipedia.org/wiki/Glossary_of_mill_machinery
+  - https://www.tec-science.com/mechanical-power-transmission/cycloidal-gear/lantern-pinion/
+  - http://www.hessmer.org/blog/2017/02/19/online-lantern-gear-builder/
+  - http://hessmer.org/gears/LanternGearBuilder.html
+  - https://www.chiefdelphi.com/t/lantern-gear-design-tutorial/394915
+  - https://www.chiefdelphi.com/t/geometry-correct-lantern-gears-in-onshape/473561
+  - https://www.awci.com/clockmaking-standard/lantern-pinion-depthing/
+  - https://www.model-engineer.co.uk/forums/topic/lantern-pinion/
+  - https://mb.nawcc.org/threads/use-a-lantern-gear-in-modern-clocks.3053/
+  - https://mb.nawcc.org/threads/wooden-peg-gear-clocks.1229/
+  - http://www.pedesmolen.com/en_the_pit_wheel.php
+  - https://507movements.com/mm_199.html
+  - https://507movements.com/mm_208.html
+  - https://507movements.com/toc.html
+  - https://commons.wikimedia.org/wiki/Category:Lantern_gears
+  - https://commons.wikimedia.org/wiki/File:Cage_Gear.png
+  - https://commons.wikimedia.org/wiki/File:Lantern_gear_-_Turret_clock_from_1608.jpg
+  - https://hackaday.com/2018/08/02/lasercut-gears-a-learning-experience/
+  - https://www.linearmotiontips.com/enhanced-roller-pinion-system-from-nexen/
+  - https://api.printables.com/graphql/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, make_it_yourself, rules_of_thumb
 
 ## 205 Friction drives and CVTs (friction wheel, variator)
 
 *gear trains, gearboxes & transmissions.* A wheel or roller pressed against a disc, cone or another wheel that drives it by friction with no teeth, so it has no backlash, slips when overloaded and, on cones or discs, can change ratio smoothly
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A wheel, often with a rubber tyre, pressed hard against another wheel, a disc or a cone so it turns it by grip alone, with no teeth; slide the wheel across the disc or along the cone and the output speed changes smoothly
+- **term**: Friction drive (friction wheel drive, traction drive) and friction continuously variable transmission (CVT, variator)
+- **aliases**: 
+  - friction wheels / friction gearing (507 Mechanical Movements #32 and #45)
+  - friction roller drive / rolling-contact drive (Nguyen Duc Thang)
+  - traction drive (usually hardened steel rollers running in a special traction oil; Wikipedia 'Friction drive'; NASA/Loewenthal)
+  - idler-wheel drive / rim drive (record-player turntables; Korf Audio)
+  - bottle dynamo / sidewall dynamo (bicycle generator driven by a roller on the tyre)
+  - friction-disc transmission / disc-and-wheel drive (early cars such as the Lambert and Metz; snow blowers; Wikipedia)
+  - brush-wheels (a disc driving a wheel at a variable radius; 507 Mechanical Movements #28)
+  - ball-and-disk integrator (the same disc-and-wheel drive used as a mechanical calculator)
+  - cone drive / Evans friction cone / cone-ring transmission
+  - variator / speed variator / friction disk, cone, ball or sphere variator (Thang)
+  - toroidal CVT (e.g. Nissan Extroid (brand))
+  - tilting-ball variator / Kopp variator; NuVinci or Enviolo (brand) bicycle hub
+  - infinitely variable transmission (IVT), when the ratio range passes through zero
+  - belt CVT / variable-pulley drive / Variomatic (brand) (a V-belt between cone-shaped pulleys: a close relative covered under belt drives)
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: torque limiting & slip, clutches & couplings, motion conversion, clamping, magnetic & friction connections
+- **one_liner**: A wheel or roller pressed against a wheel, disc, cone, ring or ball passes on rotation purely by friction, so it is smooth, quiet and free of play (backlash), slips instead of breaking when overloaded and, when the contact point can be moved across a disc or cone, gives a smoothly variable speed ratio (a continuously variable transmission).
+- **complexity**: A few parts to a small assembly: a driving wheel or roller (often rubber-tyred or with an O-ring), the driven wheel, disc, cone, ring or ball, shafts and bearings, and something that presses them together (a spring, weight, screw or a load-sensing cam or pivot). A variator adds a slide, screw or tilting cage that moves the contact point; industrial traction drives use hardened steel rollers in a sealed case of traction oil (Thang, '2700 Animated Mechanical Mechanisms' sections 1.4 and 1.13; Wikipedia 'Friction drive'; Loewenthal, NASA).
+- **how_it_works**: Two smooth rolling surfaces are pressed together, and the grip (friction, or 'traction' when an oil film is involved) at the contact passes the turning force from one to the other; the most force it can pass on is the pressing force times the friction coefficient (Loewenthal, NASA; Wikipedia 'Friction drive'). The speed ratio is the ratio of the rolling radii at the contact, e.g. a 1 mm motor shaft driving a 50 mm rubber-rimmed disc gives 1:50 (Wikipedia). If a wheel presses on the flat face of a disc, the disc's surface moves faster the further out the wheel sits, so sliding the wheel along its shaft changes the ratio smoothly, to zero at the centre and into reverse beyond it; cones, rings, tilting balls and toroidal discs do the same thing with other shapes (Wikipedia 'Friction drive' and 'Continuously variable transmission'; Thang section 1.13). If the load gets too big the contact slips instead of breaking, and the surfaces always creep a little, so the output isn't exactly in step with the input (Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: a small roller driving a big wheel gives a large speed reduction without fine teeth (Wikipedia 'Friction drive')
+  - slip or let go when overloaded: the contact slips instead of breaking, which protects the mechanism (Wikipedia)
+  - change the kind of motion: a wheel rolling on a track or a rod turns rotation into straight movement (Wikipedia 'Friction drive', wheel and track)
+- **motion**: rotate: continuous rotation for fixed-ratio drives; rotate+slide for variators, where the wheel or ring slides across a disc or along a cone (or balls or rollers tilt) to change the ratio while running
+- **degrees_of_freedom**: 1 for a fixed-ratio drive: the output turns with the input (apart from small creep and slip). A variator adds a second, separate input (the position of the wheel or the tilt of the balls) that sets the ratio
+- **special_behaviour**: 
+  - torque-limiting (slips or clicks at a set force/torque): it slips when the load exceeds the grip, set by the pressing force (Wikipedia 'Friction drive'); but early friction drives were also vulnerable to slip damage in an overload, because their pressing force was fixed at assembly (Loewenthal)
+  - motion conversion (e.g. rotary to linear): a driven wheel pressed on a track, belt or smooth rod moves it in a straight line (Wikipedia, wheel and track)
+  - one-way (moves freely one way, locks the other): some wedge-loaded idler layouts drive only in one direction and freewheel in the other (Thang, 'Friction roller drive 6' and '7')
+  - quick-release: lifting the wheel away stops the drive, so it doubles as a clutch; a bicycle bottle dynamo can be completely disengaged (Wikipedia 'Bottle dynamo'; Thang 'Friction roller drive 8': 'can be used as a controllable clutch')
+- **holding_principle**: friction or clamping (force-fit): torque passes only through the grip at the pressed contact, not a holding joint (it moves or passes on motion): it is a drive, not a fastening
+- **input_output**: Continuous rotation -> continuous rotation (or rotation -> straight line for a wheel on a track or rod). Ratio: fixed, set by the rolling radii (e.g. 1:50 for a 1 mm shaft on a 50 mm rubber rim; Wikipedia), or continuously variable on disc, cone, ball and toroidal variators, including through zero to reverse on disc types (Wikipedia 'Continuously variable transmission'). Shafts: parallel (cylinders side by side), intersecting (wheel on a disc face or a cone), or in line (toroidal, ball and planetary traction drives). Back-drivable: yes for plain wheel pairs, since friction works both ways; wedge-loaded idler layouts drive only one way (Thang). *(unverified parts omitted)*
+- **power**: passive (no power needed) in itself; it is usually driven by a motor, and the ratio of a variator can be set by hand, by a screw or by a servo (James Bruton's ball CVT tilts its spheres with servos; Hackaday)
+- **removability**: removable: wheels, discs and cones sit on shafts with set screws, keys or press fits and can be taken apart; rubber tyres and O-rings are replaced when worn (Korf Audio)
+- **reuse_cycles**: many times for the rigid parts; the rubber or polyurethane tyre is a wear part that hardens, cracks and flattens with age and gets replaced (Korf Audio; Loewenthal)
+- **tools_needed**: Hex keys or screwdrivers for set screws and mounting; a way to set the pressing force (spring, adjusting screw or nut); for printed versions, bearings, bolts and O-rings pressed on by hand
+- **load**: Light to heavy depending on type. Dry drives with leather, rubber or plastic tyres are for light duty (record players, lawn mowers, hand tools, snow blowers) because the soft tyre's wear and heat limit the power; oil-lubricated hardened steel rollers carry at least ten times more (Loewenthal, NASA), up to e.g. a 373 kW traction reducer for a torpedo and a 75 kW planetary traction drive (Loewenthal). Strong only in the rolling direction; the pressing force loads the shafts and bearings sideways (Korf Audio), and misalignment turns part of the grip into useless side force (Loewenthal).
+- **adjustable**: Yes: the pressing force can be set with a spring, screw or nut (507 Mechanical Movements #413 squeezes a rubber disc outward with a nut to increase grip; Thang), and on variators the ratio is adjusted continuously while running by moving the wheel, ring or balls (Thang section 1.13).
+- **play_and_precision**: No play (backlash) at all, since there are no teeth (Loewenthal, NASA), and very smooth. But the contact always creeps slightly and slips when overloaded, so it can't be used for exact positioning unless a sensor measures the output (Wikipedia 'Friction drive'). Sensitive to misalignment: shafts that are not parallel cause scraping, side loads and lost grip (Korf Audio; Loewenthal). Out-of-round wheels cause speed flutter (Korf Audio).
+- **access_needed**: end of a tube or shaft: wheels, discs and cones slide onto shaft ends; you also need room for the pressing spring or adjuster
+- **materials**: Driving wheels faced with rubber, polyurethane, leather, fibre or (historically) paper, running on metal or plastic; 507 Mechanical Movements #32 recommends leather or, better, vulcanised rubber facing. Oil-lubricated traction drives use hardened bearing steel rollers with a traction fluid (Loewenthal). Maker versions: PLA or PETG hubs, discs and cones with an O-ring, rubber band, printed TPU tyre or cast polyurethane tyre (Hackaday tyre tests; Printables CVT models).
+- **maker_difficulty**: easy to moderate: a spring-pressed rubber-tyred wheel is easy to make and print; a smooth, reliable variable-ratio drive takes care with alignment, pressing force and tyre material; high-power traction drives are hard, so buy one
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): hubs, discs, cones and frames, with an O-ring, rubber band or TPU tyre for grip (Printables 'Beltless CVT', 'Simple Model CVT Transmission')
+  - off-the-shelf part: rubber-tyred drive wheels, O-rings, bottle dynamos, bike friction-drive kits, belt CVT pulleys, industrial variators and traction drives *(unverified parts omitted)*
+- **print_in_place**: no: the wheel, disc or cone are printed separately and assembled on shafts and bearings with a spring for pressure and an elastomer tyre for grip (Printables 'Beltless CVT' bill of materials: 608 bearings, linear bearings, a T8 lead screw and motors)
+- **making_tips_3d_printing**: 1) Don't rely on bare printed plastic for grip: slick printed plastic is useless for all but the most basic wheels (Hackaday, 2019). Give the driving wheel an elastomer tyre: an O-ring or rubber band in a groove, a printed TPU tyre, or a cast polyurethane tyre. 507 Mechanical Movements #32 gives the same advice: face one wheel with leather or, better, rubber. 2) Press the wheels together with a spring rather than a fixed screw: springs give fairly constant pressure despite manufacturing errors (Thang, 'Friction roller drive 1'). Better still, pivot the driving wheel so the load pulls it harder into contact (Thang, 'Friction roller drive 9'); industrial traction drives use a torque-sensing loading mechanism for the same reason (Loewenthal). 3) Carry the shafts on ball bearings (e.g. 608 skate bearings), because the pressing force pushes the shafts sideways (Printables 'Beltless CVT'; Korf Audio). 4) Keep shafts parallel or truly square: misalignment causes scraping, side loads and lost grip (Korf Audio; Loewenthal). 5) On disc and cone variators keep the wheel's contact edge narrow or rounded: the inner and outer edges of a wide wheel scrub on the disc, wearing it and wasting power (Wikipedia 'Friction drive'; Loewenthal on 'spin'). 6) Move the wheel with a lead screw or a slider on linear bearings (Printables 'Beltless CVT' uses a T8 lead screw, LM8UU bearings and a stepper motor; Thang's variators use a screw). 7) Make shafts strong: in 'Simple Model CVT Transmission' a printed cone shaft broke along the layer lines and the designer went to 4 walls; a steel shaft through the printed part is safer. 8) Keep the contact clean and dry: oil and grease cut friction (RoyMech's table lists leather on clean metal at 0.6 and on wet metal at 0.4), and many oil additives markedly reduce traction (Loewenthal). 9) Don't leave a rubber wheel pressed on when stopped for long: permanently loaded idler tyres develop flat spots (Korf Audio). 11) If it slips, replace a worn or hardened tyre rather than just pressing harder, which overloads bearings (Korf Audio). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - The largest force the contact can pass on = friction (traction) coefficient x pressing force; transmitted torque = that force x rolling radius (Loewenthal, NASA: traction coefficient = traction force / normal load). Example arithmetic: with a coefficient of 0.5 you need to press with at least 2 N for every 1 N of drive force.
+  - Design with a friction coefficient 20-30% below the highest measured value, as a margin against slip (Loewenthal, NASA).
+  - Speed ratio = ratio of the rolling radii at the contact; e.g. a 1 mm motor shaft on a 50 mm rubber-rimmed disc gives 1:50 (Wikipedia 'Friction drive'). On a disc, output speed is proportional to the wheel's distance from the disc centre, zero at the centre and reversed beyond it (Wikipedia 'Continuously variable transmission'; 'Ball-and-disk integrator').
+  - Don't over-press: the rolling-contact fatigue life falls with the cube of the contact load (Loewenthal, NASA).
+  - Oil-lubricated hardened steel rollers carry at least ten times the load of rubber or reinforced plastic running dry on cast iron (Loewenthal, NASA).
+  - For a wedge-type self-loading idler (a free roller wedged between input and output), it only drives if tan((a+b)/2) is less than the friction coefficient, where a and b are the wedge angles (Thang, 'Friction roller drive 6').
+  - Efficiency guide: traction contacts with little spin and misalignment can exceed 99% (Loewenthal, NASA); tilting-ball CVTs are typically 70-89% (Wikipedia 'NuVinci continuously variable transmission'); belt CVTs about 88% (Wikipedia 'Continuously variable transmission').
+  - Approximate dry friction coefficients: leather on clean metal about 0.6 (0.4 wet), polystyrene on steel 0.3-0.35, nylon on nylon 0.15-0.25; RoyMech warns these are guidance values only (RoyMech 'Coefficients of Friction').
+  - Never raise the pressing force to cure slip from a worn or glazed tyre; replace the tyre (Korf Audio).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A bicycle bottle dynamo, whose small roller is driven by the side of the tyre (Wikipedia 'Bottle dynamo')
+  - Old idler-wheel record players, where a rubber-tyred wheel links the motor shaft to the platter rim (Korf Audio; Loewenthal)
+  - Snow blowers and some self-propelled lawn mowers with a friction-disc drive (Wikipedia 'Continuously variable transmission'; Loewenthal)
+  - Motorised bicycles, where a rubber-coated roller on the motor drives the bike wheel, and friction-drive scooters such as Go-Peds (Wikipedia 'Friction drive')
+- **when_to_use**: When you want a smooth, quiet, backlash-free drive and don't need exact positioning: driving a turntable, a spool or a wheel from a small motor; big speed reductions from a small shaft without fine gears; drives that should slip rather than break when jammed (toys, feeders, winders); a clutch you can engage by pressing the wheels together; and when you want to change speed smoothly while running (disc, cone or ball variator) (Wikipedia 'Friction drive'; Loewenthal). It is also an easy way to drive something round with no shaft access, such as a tyre or a rim.
+- **when_not_to_use**: Where exact positioning or timing matters: use gears, a toothed timing belt or a chain instead, or add a sensor on the output (Wikipedia 'Friction drive'). Where high torque must pass through a small, dry printed drive: use gears. In wet, oily or dusty places that ruin grip: use gears or a toothed belt. For a stepped speed choice, step pulleys or a gearbox are simpler and more efficient than a variator. For high-power variable speed, a belt CVT or an electric motor speed controller is usually more practical than a home-made friction variator.
+- **environment_limits**: Water, oil and grease reduce grip (RoyMech: leather on metal about 0.6 dry, 0.4 wet), and many oil additives markedly reduce traction (Loewenthal). Rubber tyres age: they harden, crack, warp and lose grip, and last about a decade in record players (Korf Audio); soft friction materials lose flexibility and wear, and their heat and wear limits set the power (Loewenthal). Sustained overloads can break down the oil film in traction drives and cause failure (Loewenthal). *(unverified parts omitted)*
+- **safety_notes**: Pressing springs store energy. *(unverified parts omitted)*
+- **common_failures**: 1) Slip from a worn, glazed, hardened or oily tyre; replace the tyre rather than pressing harder (Korf Audio). 2) Flat spots on rubber tyres left pressed on while stopped (Korf Audio). 3) Scraping, squeaking and bearing wear from misaligned shafts or worn idler bearings (Korf Audio). 4) Worn, overheated edges on disc drives because the wheel's inner and outer edges scrub (Wikipedia 'Friction drive'). 5) Slip damage after an overload, because a pressing force set once at assembly can't follow the load (Loewenthal); fix with a load-sensing pivot or cam. 6) Pitting (surface fatigue) of hard rollers that are pressed too hard (Loewenthal). 7) Speed flutter from out-of-round wheels or platters (Korf Audio). 8) Printed shafts snapping along layer lines (Printables 'Simple Model CVT Transmission'). 9) A plastic belt or wheel slipping on smooth plastic cones (Hackaday, Lego CVT).
+- **related**: 
+  - Belt drives (timing, round and V-belt): pass rotation by friction too (except toothed belts), between shafts further apart; a belt CVT uses cone-shaped pulleys whose gap changes (Wikipedia 'Continuously variable transmission')
+  - Spur gear train: positive drive with no slip but with backlash and tooth noise
+  - Friction slip clutch (slip coupling): uses friction on purpose as an overload slip
+  - Friction clutch (plate or cone clutch): friction to connect and disconnect, not to change ratio
+  - Threadless ball screw (rolling-ring drive): tilted rolling rings pressed on a smooth shaft turn rotation into straight motion by friction
+  - Capstan cable drive: a zero-backlash drive using a cable wrapped on drums instead of pressed wheels
+  - Magnetic coupling and magnetic gear: pass torque with no contact at all
+  - Planetary gear set: used in 'eCVT' hybrid transmissions to vary the ratio with gears and a motor (Wikipedia)
+  - Anti-backlash gear: another way to remove backlash while keeping teeth
+  - Rack and pinion: the toothed way to make straight motion from rotation, where a roller on a bar can slip
+
+### Pictures, videos and models
+
+- **links**: 
+  - [TEZ-Reibradgetriebe 7271.JPG (Wikimedia Commons, by Karl Gruber)](https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG): Photo of a friction-wheel transmission (Reibradgetriebe) on a textile machine at the Textilzentrum Haslach, Austria *(licence: CC BY-SA 4.0)*
+  - [28. Brush-wheels (507 Mechanical Movements)](https://507movements.com/mm_028.html): 1868 drawing and animation of a wheel driven by the face of a disc, with the speed changed by moving the wheel towards or away from the centre; notes that facing with india-rubber increases grip *(licence: book public domain; website animation link only)*
+  - [Friction cone variator 1 (Nguyen Duc Thang, thang010146, YouTube)](https://www.youtube.com/watch?v=nCav0rm53uc): CAD animation of a spring-pressed roller moved along a friction cone by a screw to change output speed (description from Thang's '2700 Animated Mechanical Mechanisms' PDF, section 1.13) *(licence: link only (standard YouTube licence))*
+  - [Tilting ball variator.svg (Wikimedia Commons, by Sleske)](https://commons.wikimedia.org/wiki/File:Tilting_ball_variator.svg): Schematic of a tilting-ball variator, as used in a type of CVT *(licence: CC BY-SA 3.0)*
+  - [Evans friction cone - Hagley Aug 2009.jpg (Wikimedia Commons, by Ukexpat)](https://commons.wikimedia.org/wiki/File:Evans_friction_cone_-_Hagley_Aug_2009.jpg): Photo of an Evans friction cone speed changer: two opposed cones with a movable belt, driven from a water turbine in the Hagley Museum machine shop *(licence: CC BY-SA 3.0 (also GFDL 1.2 or later))*
+- **make_it_yourself**: 
+  - [Beltless CVT (cndewil, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1290012-beltless-cvt): Motorised CVT demo that uses a wheel instead of a belt, moved by a T8 lead screw on linear bearings, with 608 bearings, a DC gear motor and a NEMA 17 stepper *(licence: CC BY)*
+  - [Simple Model CVT Transmission (cakeman435, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1003262-simple-model-cvt-transmission): 99% printed hand- or drill-driven cone CVT: a rubber band between two opposed cones is slid up and down to change the output speed *(licence: CC BY-NC)*
+  - [Friction wheel for small stepper motor 24(28)-BYJ-48 (mnentwig, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1565754-friction-wheel-for-small-stepper-motor-2428-byj-48): Parametric friction wheel (FreeCAD Python macro included) to couple a small stepper motor loosely to another wheel *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [HUANGYAN920 Mechanical: interactive mechanism library (entries FRICTION-WHEEL no. 43 and FRICTION-DISK no. 97)](https://huangyan920.github.io/Mechanical/): Browser animations with sliders for a friction-wheel drive and a friction-disc variable-speed drive *(licence: MIT (code))*
+  - [Ball CVT Drives Robot From A Constant Speed Motor (Hackaday, about James Bruton's build)](https://hackaday.com/2021/06/29/ball-cvt-drives-robot-from-a-constant-speed-motor/): See-it-built article and video of a tilting-sphere CVT on an RC vehicle: 1:1 at 45 degrees, reverse by tilting the other way, and neutral through a hole in the sphere *(licence: link only)*
+- **diagram_idea**: A small rubber-tyred wheel pressing on the flat face of a large disc, shown in three positions (near the rim: fast; halfway: slower; at the centre: stopped; past the centre: reversed), with a spring pushing the wheel onto the disc and an arrow showing the slip that happens when the load is too big.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Friction_drive
+  - https://en.wikipedia.org/wiki/Continuously_variable_transmission
+  - https://en.wikipedia.org/wiki/Ball-and-disk_integrator
+  - https://en.wikipedia.org/wiki/Bottle_dynamo
+  - https://en.wikipedia.org/wiki/NuVinci_continuously_variable_transmission
+  - https://ntrs.nasa.gov/api/citations/19830011852/downloads/19830011852.pdf
+  - https://507movements.com/mm_028.html
+  - https://507movements.com/mm_032.html
+  - https://507movements.com/mm_045.html
+  - https://507movements.com/mm_413.html
+  - https://507movements.com/toc.html
+  - https://cs448m.github.io/lectures/machines/doc/1.pdf
+  - https://www.youtube.com/watch?v=nCav0rm53uc
+  - https://www.youtube.com/watch?v=HJutD78Av4A
+  - https://www.youtube.com/watch?v=V1Y7ayNun-4
+  - https://www.youtube.com/watch?v=HkjnM-g-dQ0
+  - https://www.youtube.com/watch?v=04jEqln4SRI
+  - https://www.youtube.com/watch?v=KXb1gDpeq-Y
+  - https://korfaudio.com/blog94
+  - https://roymech.org/Useful_Tables/Tribology/co_of_frict.html
+  - https://hackaday.com/2024/10/24/3d-printed-tires-by-the-numbers/
+  - https://hackaday.com/2019/01/30/3d-printed-wheels-get-some-much-needed-grip/
+  - https://hackaday.com/2021/06/29/ball-cvt-drives-robot-from-a-constant-speed-motor/
+  - https://hackaday.com/tag/cvt/
+  - https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG
+  - https://commons.wikimedia.org/wiki/File:Evans_friction_cone_-_Hagley_Aug_2009.jpg
+  - https://commons.wikimedia.org/wiki/File:Tilting_ball_variator.svg
+  - https://huangyan920.github.io/Mechanical/
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, making_tips_3d_printing, off_the_shelf_parts, processes, safety_notes, seal
 
 ## 206 Pulley system (block and tackle, differential hoist)
 
 *gear trains, gearboxes & transmissions.* Ropes running over several pulleys so a small pull lifts a big load; a differential chain hoist also holds the load by itself
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A rope run back and forth between two sets of pulley wheels, so pulling a long length of rope gently lifts a heavy load a short way; a chain version (chain hoist) holds the load by itself when you let go
+- **term**: Block and tackle (compound pulley system, tackle or purchase); differential chain hoist (Weston differential pulley)
+- **aliases**: 
+  - tackle / purchase / pulley system / compound pulley (Wikipedia 'Block and tackle')
+  - pulley block / block (a frame holding one or more pulley wheels, called sheaves)
+  - gun tackle (2:1), luff tackle (3:1), double tackle (4:1), gyn tackle (5:1), threefold purchase (6:1) (Wikipedia)
+  - haul system / mechanical advantage (MA) system, e.g. '3:1 haul system' (rope rescue and climbing; Petzl)
+  - snatch block / swing-cheek block (opens to take a rope in mid-line; Wikipedia)
+  - differential pulley / Weston differential pulley / differential hoist / chain fall / dumb pulley (Wikipedia 'Differential pulley')
+  - chain hoist / chain block / manual chain hoist (today usually geared, with a load brake; Global Industrial manual) *(unverified parts omitted)*
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: tensioning, reels & take-up, cord, strap, webbing & textile hardware, self-locking & anti-back-drive, one-way & ratchet, brakes, dampers & speed control
+- **one_liner**: Two blocks of pulleys with one rope threaded back and forth between them, so the load hangs on several rope parts and a pull of only a fraction of its weight lifts it (at the cost of pulling that many times more rope); the differential chain hoist uses two joined chain wheels of slightly different size to get a very large gain and, because its friction is high, holds the load by itself.
+- **complexity**: A small assembly: a fixed (standing) block and a moving (running) block, each with one or more sheaves (grooved pulley wheels) on an axle between side plates (cheeks), with a hook, shackle, eye or becket for tying the rope end, plus the rope itself. A differential hoist has an upper block with two chain wheels of slightly different size joined together, a lower block with one pulley and a hook, and an endless chain (Wikipedia 'Differential pulley'). A modern manual chain hoist has a hand chain and hand wheel, a gear reduction, a load-chain sprocket, welded load chain, hooks with latches, and a load brake made of friction plates, a ratchet disc and a pawl (Global Industrial manual chain hoist manual).
+- **how_it_works**: The rope tension is the same all along the rope, so if the moving block and its load hang from n parts of the rope, each part carries 1/n of the load and you only need to pull with 1/n of the weight; in exchange you pull n metres of rope for every metre the load rises (Wikipedia 'Block and tackle'; Petzl). Friction in each sheave eats some of this gain, so real tackles give less than n (Wikipedia; CMC). In a differential hoist an endless chain runs round a big and a slightly smaller chain wheel fixed together and down round a hanging pulley; each turn winds in chain on the big wheel while letting out almost as much from the small one, so the load rises only by half the difference, giving a gain of 2R/(R - r) (Wikipedia 'Differential pulley'). Because this gain comes with a lot of friction (efficiency below 50%), the load can't run the hoist backwards, so it stays put when you let go (Wikipedia; NPTEL 'Reversibility of a machine'). Modern chain hoists get the same result with gears and a load brake that clamps shut and catches on a ratchet whenever you stop pulling (Global Industrial manual).
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: trades a long, light pull for a short, strong one (the 'force' version of a speed change)
+  - tighten and hold tension: hauling lines and rigging tight, e.g. on boats (Wikipedia 'Block and tackle')
+  - stop it moving back (one-way): a differential hoist holds its load by friction, and a chain hoist's ratchet and pawl stop the load running down (Wikipedia 'Differential pulley'; Global Industrial manual)
+  - slow it, stop it or keep its speed steady: a chain hoist's load brake lets a load down under control (Global Industrial manual)
+- **motion**: rotate+slide: the sheaves (pulley wheels) turn while the rope or chain, the moving block and the load travel in straight lines; the moving block can travel until the two blocks meet
+- **degrees_of_freedom**: 1: the height of the load is tied to how much rope or chain has been pulled (ignoring rope stretch and the load swinging)
+- **special_behaviour**: 
+  - self-locking (holds under load, won't back-drive): a differential hoist whose pulley sizes are close enough keeps the load in place until the chain is pulled (Wikipedia 'Differential pulley'); any lifting machine with an efficiency below 50% is self-locking (NPTEL)
+  - one-way (moves freely one way, locks the other): in a geared chain hoist a pawl drops into the ratchet disc as soon as you stop pulling (Global Industrial manual)
+  - hand-release only (locks under load, releases when a person operates it): to lower, you pull the hand chain the other way, which releases the ratchet and friction plates (Global Industrial manual)
+  - tensioning (takes up slack and holds): a plain block and tackle only holds if the rope is tied off, cleated or caught by a rope grab ('progress capture'; Alpinesavvy)
+  - quick-release: a snatch (swing-cheek) block opens so it can be put on a rope in mid-line without threading the end (Wikipedia 'Block and tackle')
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it multiplies a pull
+  - friction or clamping (force-fit): the rope is held by a cleat, knot or rope clamp; a chain hoist's brake uses friction plates; a differential hoist holds by its own internal friction (Global Industrial manual; Wikipedia)
+  - shape (the parts interlock; form-fit): chain links sit in pockets of the chain wheels, and the pawl locks into ratchet teeth (Wikipedia 'Differential pulley'; Global Industrial manual)
+- **input_output**: Straight pull on the rope or hand chain -> straight lift or haul of the load (linear to linear). Ideal force gain = number of rope parts supporting the moving block, and the rope moves that many times faster than the load (Wikipedia 'Block and tackle'); common tackles give 2:1 to 6:1. Efficiency: every sheave loses some force; Petzl says pulley efficiencies range from about 50% to 98%, a carabiner used as a pulley is about 50% (CMC), and a 3:1 system with 85%-efficient pulleys really gives about 2.57:1 (CMC). Using Wikipedia's sheave friction factor K = 1.04 (roller-bearing sheaves) a 4:1 tackle works out about 91% efficient (real gain about 3.6); with K = 1.09 (plain-bearing sheaves, wire rope) about 81% (real gain about 3.2) (calculated from the Wikipedia formula). Differential hoist: ideal gain 2R/(R - r), e.g. 30:1 with 15- and 14-pocket chain wheels (Wikipedia 'Differential pulley'). Geared hand chain hoists: e.g. a 1 t hoist needs 310 N on the hand chain and a 5 t hoist 400 N (Global Industrial manual), an effective gain of roughly 32:1 and 120:1 (arithmetic). Shafts: not applicable; extra fixed pulleys change the direction of pull ('rove to disadvantage') at the cost of more friction (Wikipedia). Back-drivable: a plain block and tackle yes, the load runs back unless the rope is held (though a very high-friction tackle may not release easily; Wikipedia); a differential hoist no if its efficiency is below 50% (NPTEL; Wikipedia); a geared chain hoist no, its brake holds (Global Industrial manual).
+- **power**: passive (no power needed): pulled by hand; powered hoists (electric, air or hydraulic) do the same job (Wikipedia 'Hoist (device)')
+- **removability**: removable: blocks hang from hooks, shackles, carabiners or slings and the rope is tied or clipped on, so everything comes apart; a snatch block can be taken off without unthreading the rope (Wikipedia)
+- **reuse_cycles**: effectively unlimited for the blocks with inspection; ropes, chains and hooks wear and are inspected and replaced: retire a cut or heavily abraded rope (CERTEX), replace stretched, bent or worn chain and hooks, never repair the load chain (Global Industrial manual)
+- **tools_needed**: None to rig a rope tackle beyond knots (Printables 'Block and Tackle' uses a buntline hitch to tie the rope to the blocks); shackles, carabiners or slings to hang it; spanners for bolted or printed blocks; none to operate a chain hoist
+- **seal**: none: open sheaves and rope; chain hoists keep their brake dry inside a housing and oil only the chain (Global Industrial manual)
+- **load**: Light to heavy. Maker-printed blocks have been tested with about 50-120 kg (Printables 'Block and Tackle': 50 kg many times, noises at 100 kg; 'Strong Single and Double Pulley': tested with 120 kg); manual chain hoists are sold from 0.5 to 20 t (Global Industrial manual). Strong only in straight tension along the rope; avoid side pulls and off-centre loads and always lift vertically (Global Industrial manual). The anchor holding the fixed block carries the load plus the hauling force: a single pulley holding 100 kg with the rope pulled downwards carries 200 kg (Petzl).
+- **adjustable**: Yes: the load height or line tension is set by how much rope is hauled in; the force gain can be changed by re-reeving with more or fewer rope parts, or swapping which block is fixed ('rove to advantage' or 'to disadvantage') (Wikipedia 'Block and tackle').
+- **play_and_precision**: Not a precision device. Rope must run straight into the sheave groove: groove width at least 1.1 x rope diameter (ANSI/ASSP A10.48, via Inside Towers). On chain hoists pull the hand chain in the plane of the wheel, never at a slant, and lift vertically (Global Industrial manual). *(unverified parts omitted)*
+- **access_needed**: not applicable: it needs a strong anchor point above or ahead of the load and room for the rope; nothing has to reach through a panel
+- **materials**: Rope: polyester, nylon, polypropylene, aramid (Kevlar) or high-modulus polyethylene (Spectra) fibre rope, or steel wire rope (CERTEX; Mazzella). Blocks: wood, steel, aluminium or plastic, with sheaves on plain bushes or on ball or roller bearings (Wikipedia gives friction factors for both). Chain hoists: welded hardened steel load chain (Global Industrial manual). Maker versions: PLA or PETG printed blocks with 608 skate bearings and M5 or M8 bolts, with 4 mm paracord or 6-12 mm rope (Printables models).
+- **maker_difficulty**: easy: printed blocks with skate bearings and bolts work well for light loads such as garage storage or demonstrations; for lifting heavy things, or anything over people, buy rated blocks or a chain hoist
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): blocks, cheeks and sheaves, usually with 608 ball bearings and steel bolts (Printables 'Block and Tackle', 'Strong Single and Double Pulley')
+  - off-the-shelf part: pulley blocks, rescue pulleys, snatch blocks, manual chain hoists, lever hoists, rope and chain *(unverified parts omitted)*
+- **print_in_place**: partly: fully printed pulleys exist, such as a block and tackle with printed herringbone gear-bearing pulleys (Printables, DrJones) and a 100% printed pulley (Printables, Meister Edel), but they have more friction than ball-bearing sheaves; printed bearings were 'not effective for any meaningful loads' in one parametric design (Printables 'Block and Tackle'). Most designs use 608 bearings and bolts. *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Use real ball bearings in the sheaves: in Vincent Sanders' parametric 'Block and Tackle' (Printables) printed bearings worked but had very high friction, while 608 bearings let a 4:1 double tackle with 4 mm paracord hold 50 kg several times. DrJones's printed gear-bearing 4:1 tackle needed 5.1 kg of pull to lift 15 kg, only about 3:1 in practice (Printables). 2) Print strong: Sanders used PLA, 0.2 mm layers, 6 perimeters, 6 top and bottom layers and 15% cubic infill; floano's pulley (PETG, 0.2 mm layers, 5 walls) was tested with 120 kg; Meister Edel suggests about 6 perimeters and 100% infill (all Printables). 3) Let steel bolts take the load and make the plastic squeeze towards the bolt rather than tear out at the end of a hole (floano, Printables); print the side plates lying flat, which needs no supports. 4) Size the groove for the rope: the rope must sit fully inside the sheave (Sanders); groove width at least 1.1 x rope diameter, and sheave diameter at least 6 x rope diameter for double-braid and kernmantle rope or 10 x for three-strand rope (ANSI/ASSP A10.48, via Inside Towers). Sanders thinks a larger bearing (6002 or 6003) suits 6 mm rope better than a 608. 5) Reeve carefully: in a threefold purchase the blocks end up at 90 degrees to each other, which avoids wear and friction when they are pulled close together (Sanders). Add a sheave guard so the rope can't jump off (an option in Sanders' design). 6) For printed plain bearings add oil holes and use oil (Meister Edel used bike chain oil). 8) Tie off with a secure knot such as a buntline hitch (Sanders), remembering that knots reduce rope strength (CERTEX). 9) Printed blocks come with no guarantee: test them well above your load and never use them over people (Sanders; Global Industrial manual). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Ideal force gain = number of rope parts supporting the moving block; you pull that many metres of rope for each metre of lift (Wikipedia 'Block and tackle'; Petzl: 3 m of rope for 1 m of lift on a 3:1).
+  - Friction adds up with every sheave: efficiency = (K^N - 1) / (K^S x N x (K - 1)), with N the ideal gain, S the number of sheaves and K about 1.04 for roller-bearing sheaves or 1.09 for plain-bearing sheaves with wire rope (Wikipedia 'Block and tackle'). Adding sheaves beyond a point doesn't help (Wikipedia).
+  - Real pulleys are about 50-98% efficient (Petzl); a carabiner used instead of a pulley is about 50% (CMC); a 3:1 with 85% pulleys gives 2.57:1 (CMC).
+  - Differential hoist gain = 2R / (R - r) = 2 x P1 / (P1 - P2), where P1 and P2 are the pocket counts of the two chain wheels; 15 and 14 pockets give 30:1 (Wikipedia 'Differential pulley').
+  - A lifting machine holds its load by itself (self-locking) if its efficiency is below 50%, and runs back if it is above 50% (NPTEL 'Reversibility of a machine').
+  - Sheave pitch diameter at least 6 x rope diameter for double-braid and kernmantle rope, 10 x for three-strand; groove width at least 1.1 x rope diameter (ANSI/ASSP A10.48, via Inside Towers).
+  - Wire rope lasts much longer on bigger sheaves: raising D/d from 26 to 35 nearly doubles its bending life (relative life 17 to 32), and reverse bends between sheaves speed up fatigue (Mazzella).
+  - Rope safe working load = minimum breaking strength / safety factor, with factors of 5 to 12 for non-critical uses, reduced further for lifting over people, shock or sustained loads; knots lower the strength significantly (CERTEX, citing the Cordage Institute).
+  - The anchor for the fixed block carries the load plus your pull, e.g. 200 kg for a 100 kg load pulled down through one pulley (Petzl).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Sailing boats, where tackles trim sails and haul lines (Wikipedia 'Block and tackle')
+  - A garage chain hoist lifting a car engine (Wikipedia 'Differential pulley')
+  - A crane hook hanging from many parts of wire rope (Wikipedia 'Block and tackle': cranes and drilling rigs)
+  - Ceiling storage lifts and clothes airers raised by rope and pulleys (Printables 'Pulley system with drill powered winch -> ceiling storage')
+- **when_to_use**: When you need to lift or haul something much heavier than you can pull, slowly and over a short distance, and there is a strong anchor above or ahead of the load: lifting an engine, hauling a boat or a log, tensioning a line, raising storage or a hammock. Use a chain hoist when the load must stay put when you let go. Use a rope tackle with a cleat or rope grab when you want something light and portable, and ball-bearing pulleys to keep the friction low.
+- **when_not_to_use**: Don't lift people or loads over people with it unless it is rated equipment used by trained people (Global Industrial manual: never lift people; Petzl: specific training required). It is a poor choice for long lifts at high gain, because the rope length multiplies (Wikipedia), and for precise positioning (use a lead screw or rack instead). For long hauls a winch or windlass that stores the rope on a drum is easier; for pulling horizontally a lever hoist (come-along) is handy; for small tension adjustments a turnbuckle or ratchet strap is simpler.
+- **environment_limits**: All synthetic ropes degrade in sunlight, and polypropylene far more than polyester or nylon; store ropes out of direct sun and away from strong acids and alkalis (CERTEX). Keep a chain hoist's brake dry: no oil or grease on the friction surfaces (Global Industrial manual). Printed blocks: PLA only for short loads, PETG or stronger for loads that stay on (Printables, Meister Edel). Wire rope fatigues on small sheaves (Mazzella). *(unverified parts omitted)*
+- **safety_notes**: Never stand or walk under a suspended load, and never lift people with a hoist (Global Industrial manual). A rope that breaks under load snaps back at high speed; stay out of its path (CERTEX). The anchor carries more than the load (Petzl), so check it. Don't leave a load hanging in the air and check the brake before each lift (Global Industrial manual). Printed blocks carry no warranty (Printables, Sanders). *(unverified parts omitted)*
+- **common_failures**: 1) Too much friction, so the real gain is far below the rope count (printed bearings, carabiners as pulleys, many sheaves): use ball-bearing sheaves (Printables; CMC; Wikipedia). 2) Rope jumping off a sheave or rubbing on the cheeks from side pulls or a groove that's too narrow: add a sheave guard and size the groove (Printables, Sanders; ANSI/ASSP A10.48). 3) Rope wear and chafe when the blocks twist or are pulled together (chocked); reeve so the blocks sit at 90 degrees (Sanders). 4) Printed blocks cracking near their limit (noises at about 100 kg with 6 mm rope; Sanders). 5) Chain hoist brake slipping because the friction plates are oily, glazed or worn: keep the brake dry and check it for slippage before each use (Global Industrial manual). 6) Twisted chain or a jammed chain wheel from off-angle pulling or letting the load touch the hoist (Global Industrial manual). 7) Stretched or cracked hooks and worn or stretched chain (Global Industrial manual). 8) Knot slipping or weakening the rope (CERTEX). 9) Anchor failure from the extra load of the hauling force (Petzl).
+- **related**: 
+  - Capstan and windlass (incl. differential windlass): wind rope onto a drum instead of multiplying rope parts; the Chinese windlass is the rope version of the differential hoist (Wikipedia 'Differential pulley')
+  - Belt drives: pulleys used to pass rotation between shafts rather than to multiply a pull
+  - Cam cleat and clam cleat: hold the tail of the rope once the load is lifted
+  - Rope grab and ascender (cam rope clamp): 'progress capture' so a haul system doesn't slip back (Alpinesavvy)
+  - Ratchet and pawl: the one-way catch inside chain hoists
+  - Multistage slide rigging (cascade and continuous string rigging): uses the same pulley-and-cable principle to move telescoping slides
+  - Whippletree (load-equalising lever): shares a pull between several points, as a moving pulley shares the load between rope parts
+  - Spring balancer (gravity compensation): holds a load's weight with a spring instead of multiplying a pull
+  - Bowden cable: carries a pull round bends with a sleeve instead of pulleys *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Tackles.png (Wikimedia Commons, by Welkinridge)](https://commons.wikimedia.org/wiki/File:Tackles.png): Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase) *(licence: CC BY-SA 3.0 (also GFDL 1.2 or later))*
+  - [Chain hoist.svg (Wikimedia Commons, by Cmglee)](https://commons.wikimedia.org/wiki/File:Chain_hoist.svg): Diagram of the principle of a differential chain hoist, with the two joined chain wheels and the hanging pulley *(licence: CC BY-SA 3.0 (also GFDL 1.2 or later))*
+  - [Pulley system (Walter Fendt, Apps on Physics HTML5)](https://www.walter-fendt.de/html5/phen/pulleysystem_en.htm): Interactive simulation: choose the number of pulleys and the weight, raise the load with the mouse and see a spring balance show the rope tension *(licence: link only)*
+  - [Chain Hoists - How they work - Differential - Chain Fall - Lever/Roller Chain (Eight Wheels Rollin', YouTube)](https://www.youtube.com/watch?v=sC3jY-4E_A8): Video explaining differential chain falls and lever/roller-chain hoists (title and channel checked with YouTube oEmbed; video not watched) *(licence: link only (standard YouTube licence))*
+  - [Three snatch blocks.jpg (Wikimedia Commons, by DuaneDuane2)](https://commons.wikimedia.org/wiki/File:Three_snatch_blocks.jpg): Photo of three snatch blocks on the ship Star of India, one shown open to take a rope in mid-line *(licence: CC BY-SA 4.0)*
+- **make_it_yourself**: 
+  - [Block and Tackle (Vincent Sanders, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/612084-block-and-tackle): Parametric OpenSCAD block and tackle with standing and running blocks, sheaves on 608 bearings, sheave guards and a labelled nomenclature diagram; 4:1 and 6:1 examples tested to 50 and 100 kg *(licence: CC BY)*
+  - [pulley system (block and tackle) with gear bearing pulleys (DrJones, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/283735-pulley-system-block-and-tackle-with-gear-bearing-p): Fully printed 4:1 block and tackle with herringbone gear-bearing pulleys and printed screw bolts; lifting 15 kg took 5.1 kg of pull *(licence: CC BY)*
+  - [Strong Single and Double Pulley for rope (608 bearings) (floano, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/440677-strong-single-and-double-pulley-for-rope-608-beari): Single and double pulleys for rope up to 12 mm with two 608 bearings per wheel and M8 bolts; tested with 120 kg *(licence: CC BY-NC-SA)*
+  - [Project: Pulley systems V2 (Michal Fanta, Printables) (URL appeared in search results; details from Printables API)](https://www.printables.com/model/6380-project-pulley-systems-v2): Classroom project: parametric single or multiple printed pulleys with a planetary gear bearing, for demonstrating how pulley blocks change the force needed *(licence: CC BY)*
+  - [HUANGYAN920 Mechanical: interactive mechanism library (entry ROPE-PULLEY no. 225)](https://huangyan920.github.io/Mechanical/): Browser animation of a fixed and moving pulley set lifting a load *(licence: MIT (code))*
+- **diagram_idea**: Side-by-side drawings of a 1:1 single fixed pulley, a 2:1 moving pulley and a 4:1 double tackle, with each supporting rope part labelled with its share of the load (e.g. 25 kg each for 100 kg) and a ruler showing 4 m of rope pulled for 1 m of lift, plus an inset of a differential chain hoist's two joined chain wheels of slightly different size.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Block_and_tackle
+  - https://en.wikipedia.org/wiki/Pulley
+  - https://en.wikipedia.org/wiki/Differential_pulley
+  - https://en.wikipedia.org/wiki/Hoist_(device)
+  - https://www.petzl.com/US/en/Professional/How-to-calculate-mechanical-advantage?ActivityName=Technical-rescue
+  - https://www.cmcpro.com/actual-ma-systems/
+  - https://www.alpinesavvy.com/blog/introduction-to-ma-systems
+  - https://insidetowers.com/cell-tower-news-rope-and-rigging-compatibility-part-two-of-two/
+  - https://www.mazzellacompanies.com/learning-center/why-sheave-design-is-critical-to-wire-rope-service-life/
+  - https://www.certex.com/fiber-rope/general-information-rope-safety/
+  - https://static.globalindustrial.com/products/pdf/4615-global/241638_Manual.pdf
+  - https://archive.nptel.ac.in/content/storage2/courses/112103109/chap2/slides/lec3_slides/slide16.htm
+  - https://www.walter-fendt.de/html5/phen/pulleysystem_en.htm
+  - https://www.youtube.com/watch?v=sC3jY-4E_A8
+  - https://commons.wikimedia.org/wiki/File:Tackles.png
+  - https://commons.wikimedia.org/wiki/File:Chain_hoist.svg
+  - https://commons.wikimedia.org/wiki/File:Three_snatch_blocks.jpg
+  - https://www.printables.com/model/6380-project-pulley-systems-v2
+  - https://www.printables.com/model/677445-strong-pulley-100-3d-printable-scaleable-durable
+  - https://huangyan920.github.io/Mechanical/
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, making_tips_3d_printing, off_the_shelf_parts, play_and_precision, print_in_place, processes, related, safety_notes
 
 ## 267 Spur gear pair and gear train (simple, compound, idler)
 
 *gear trains, gearboxes & transmissions.* Straight-toothed gears on parallel shafts, alone or in chains, as the baseline way to change speed and turning force
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Two or more toothed wheels with straight teeth, on parallel shafts, that mesh so turning one turns the next: a small wheel driving a big one turns it slower but with more force, a big one driving a small one turns it faster with less force
+- **term**: Spur gear pair and spur gear train (simple, compound and idler gear trains)
+- **aliases**: 
+  - spur gears / straight-cut gears / straight-toothed gears (Wikipedia)
+  - gear pair / gear set / gear mesh
+  - pinion and wheel / pinion and gear (the smaller gear is the pinion, the larger the wheel)
+  - driver gear and driven gear / input gear and output gear
+  - cog / cogwheel (informal)
+  - gear reduction / reduction gear / step-down gearing; step-up gearing / overdrive
+  - simple gear train (one gear per shaft)
+  - compound gear train / double reduction gear / multi-stage reducer / cluster gear / layshaft or countershaft gearbox
+  - idler gear / intermediate gear / reverse idler
+  - wheel train / going train (clocks and watches: wheels, pinions and arbors)
+  - gearbox / gear reducer / speed reducer
+  - Stirnradgetriebe (German)
+- **family**: gear trains, gearboxes & transmissions
+- **one_liner**: Meshing gears with straight teeth pass rotation between parallel shafts, changing speed and turning force in proportion to their tooth counts, reversing direction at each mesh, and multiplying their ratios when several pairs are chained on shared shafts.
+- **complexity**: A few parts per stage: two gears, each fixed to a shaft (or turning on an axle), two or more bearings per shaft, and a frame or housing that holds the shafts parallel at the right distance. A compound train adds shared intermediate shafts carrying a large and a small gear fixed together; an idler adds one extra gear on its own axle.
+- **how_it_works**: Each gear's teeth are shaped (as involute curves) so the two gears behave like two circles (the pitch circles) rolling on each other without slipping (Wikipedia 'Gear train'; EngineerDog). The gear with fewer teeth turns faster: speed ratio = teeth on driven gear / teeth on driver, and the turning force (torque) is multiplied by the same ratio, minus a small friction loss (Wikipedia; DT Online). Two meshing outside gears turn in opposite directions (KHK). An idler gear in between makes the output turn the same way as the input without changing the ratio (Wikipedia; KHK); a compound train puts a big and a small gear together on a middle shaft (layshaft), so the stage ratios multiply (DT Online; KHK), e.g. two 3:1 stages give 9:1.
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: slows a fast, weak motor down to a slow, strong output (reduction) or speeds a slow input up (step-up)
+  - let it move (turn, slide or bend): passes rotation from one shaft to a parallel shaft, and can reverse or keep its direction (idler gear)
+- **motion**: rotate: continuous rotation in either direction, unlimited turns
+- **degrees_of_freedom**: 1: in any gear train all the gears' angles are tied together by the teeth, so choosing the angle of one gear fixes all the others (plus a little free play from backlash)
+- **special_behaviour**: 
+  - none: a spur gear train is not self-locking, one-way or torque-limiting; it simply passes motion in both directions. Very high compound ratios become practically impossible to turn from the output end (e.g. a 262,144:1 printed demonstration gearbox, 'The Engineering Teacher', Printables), but that is friction, not a true lock.
+- **holding_principle**: not a holding joint (it moves or passes on motion), shape (the parts interlock; form-fit): the teeth interlock, so the gears cannot slip relative to each other as a belt or friction wheel can
+- **input_output**: Continuous rotation -> continuous rotation. Ratio of one stage = driven teeth / driver teeth (e.g. 13 to 42 teeth gives 3.23:1, Wikipedia); compound trains multiply stage ratios (e.g. four 2:1 stages = 16:1, HowToMechatronics; nine 4:1 stages = 262,144:1, 'The Engineering Teacher'). Idler gears do not change the ratio. Direction: reversed at each external mesh; an idler or a two-stage train makes input and output turn the same way (KHK). Efficiency: 98.0-99.5% per spur mesh, not counting bearing and lubricant losses (KHK gear types table), so losses add up stage by stage. Shaft arrangement: parallel. Back-drivable: yes (you can turn the input by turning the output), though very high ratios become effectively stuck from the output side because of friction.
+- **power**: passive (no power needed); driven by a motor, crank or spring. If the motor loses power the train does not hold a load (it back-drives), unless the ratio is so high that friction holds it
+- **removability**: removable: gears come off their shafts by undoing set screws, clamp hubs, keys or retaining rings, and the housing comes apart
+- **reuse_cycles**: many times: gear trains are repeatedly disassembled for maintenance; limits are tooth wear and the hub-to-shaft joint (see the shaft-to-hub entry)
+- **seal**: none: the gears themselves seal nothing; a closed gearbox housing (often with shaft seals) keeps grease or oil in and dirt out
+- **load**: Light to heavy: from clock and toy gears to steel industrial gearboxes. Tooth strength rises with tooth size (module) and face width: doubling the width roughly doubles the strength (EngineerDog). Each tooth is loaded like a small cantilever and can snap at its root under shock loads (EngineerDog; KHK 'Damage to gears'). Spur gears create no axial (end) thrust (Wikipedia 'Gear'), but the tooth force pushes the two shafts apart, more so at higher pressure angles (BOSL2; EngineerDog), so shafts and housing must be stiff. Printed PLA spur gears of module 1.5 broke at about 117 N on a test arm (about 35 N·m) in one test (HowToMechatronics).
+- **adjustable**: no for the ratio of a given set (change gears to change ratio; 'change gears' and sliding-gear gearboxes do this); backlash can be adjusted by moving one shaft slightly closer or further (larger centre distance = more backlash, KHK) or by profile shifting in design
+- **play_and_precision**: Backlash: small to noticeable. Some backlash is necessary for smooth running (KHK); it increases if the centre distance grows and vanishes (gears jam) if it shrinks (KHK). Printed trains have noticeable play: a four-stage 16:1 printed spur gearbox measured about 151 arcminutes (about 2.5 degrees) of backlash at the output (HowToMechatronics). Precision: gears track rotation precisely apart from backlash, which is why they are used in watches (Wikipedia 'Gear'). Misalignment: low tolerance; shafts must be parallel and at the correct centre distance, or teeth contact only at one edge, causing noise, wear and breakage (KHK 'Mounting accuracy').
+- **access_needed**: end of a tube or shaft: gears slide onto their shafts from the free end, and the train is assembled by opening the frame or housing
+- **materials**: Steel, cast iron (quieter than steel, KHK), brass (clocks), and plastics: acetal (POM, Duracon) and nylon (MC Nylon) run with little or no lubrication but change size with heat and moisture (KHK 'Design of plastic gears'). Printed gears: EngineerDog ranks nylon > PLA > ABS > PETG; in HowToMechatronics' break test PLA and ASA were strongest and PETG and a poor nylon weakest; igus prints gears in self-lubricating iglide polymers that lasted five times longer than milled POM gears in its rack test (igus). Wood and plywood gears are made from printed templates (EngineerDog lists Matthias Wandel's gear template generator).
+- **maker_difficulty**: easy to moderate: free generators draw correct involute teeth and gears print flat without supports, but holding the shafts parallel at the exact centre distance, and fixing gears firmly to shafts, take care
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: metal and plastic spur gears bought by module (metric) or diametral pitch (inch), and complete gearmotors and gearboxes
+  - 3D print (FDM): gears of module about 1 and up, demonstration trains, reducers and toy gearboxes
+  - 3D print (SLS powder): wear-resistant printed gears (igus iglide)
+  - laser cut: flat gears from acrylic or plywood using a generated profile (e.g. Gear Generator exports)
+  - CNC: hobbing, shaping or milling metal gears; industrial gears are cut by generating tools such as hobs (Gear Solutions)
+  - woodwork: wooden gears cut from paper templates (EngineerDog links Matthias Wandel's gear template generator) *(unverified parts omitted)*
+- **print_in_place**: yes: print-in-place spur gear demonstrators exist (e.g. ForgeFiles' 'Gear Train Demonstration Kit, Print in Place, 4 Meshing Spur'), but working and load-bearing trains are usually printed as separate gears and mounted on metal shafts or pins
+- **making_tips_3d_printing**: 1) Don't draw teeth by hand: use a generator (BOSL2 spur_gear(), Onshape 'Spur Gear' FeatureScript, Gear Generator) so the involute shape is right; meshing gears must share the same module (tooth size) and pressure angle (KHK; BOSL2). 2) Centre distance = module x (teeth1 + teeth2) / 2 (KHK), e.g. module 3 with 12 and 24 teeth sits 54 mm apart; then add clearance by thinning teeth or offsetting the profile rather than guessing. HowToMechatronics used -0.15 mm horizontal expansion in the slicer and a 0.1 mm Z offset to stop 'elephant's foot' distorting the first layers. 3) Print gears flat on the bed with the axle vertical; holes print undersize, so oversize the bore about 0.13 mm (0.005 in) or ream it, and clean teeth with a blade (EngineerDog). 4) Make teeth big and wide: avoid tiny teeth (gaps appear inside them even at 100% infill), use at least 13 teeth at 20 degrees or 9 at 25 degrees (EngineerDog), face width 3-5 x circular pitch (EngineerDog), at least 35% infill and 5 or more walls (HowToMechatronics); its module tests (modules 1 to 2.5 at a fixed 50 mm centre distance) confirmed that bigger teeth and wider gears are stronger, and that old or damp filament can spoil the result (HowToMechatronics). 5) Choose 'hunting' tooth counts with no common factor (15 and 31 rather than 15 and 30) so wear spreads over all teeth (EngineerDog; Wikipedia 'Gear train'). 6) Support shafts close to the gears and use ball bearings; flexing mounts open up the centre distance and load only the tooth tips (HowToMechatronics saw bolts bend in its test rig). 7) Fix gears to shafts with a D-flat or hex bore, a captive-nut set screw or a clamp, not a press fit on a smooth bore (EngineerDog; see the shaft-to-hub entry). 8) Material: PLA is stiff and wears well but softens above 60 C (Prusa); PETG is fine below 80 C (Prusa) but softer; nylon wears best but absorbs water; grease loaded gears with lithium, PTFE or silicone grease (not WD-40) (EngineerDog). 9) Expect spur gears to be the loudest of the printed types (about 77 dB vs 74-75 dB for helical and herringbone in one test) but the most efficient, to vibrate more than helical or herringbone gears in a multi-stage reducer, and to have noticeable backlash (HowToMechatronics).
+- **off_the_shelf_parts**: Spur gears (steel, stainless, brass, plastic; plain bore, set-screw hub or clamp hub) by module, e.g. KHK (brand) stock gears; plastic spur gears in acetal (Duracon) and MC Nylon (KHK); internal gears; gear racks; hobby servo and gearmotor gearboxes (a small motor driving a train of reduction gears, Wikipedia 'Servo (radio control)'); clock wheel and pinion sets; school and construction-kit gear sets such as Meccano, K'Nex and Engino (brands; DT Online buyers' guide); shafts, bearings, spacers and retaining rings to mount them.
+- **rules_of_thumb**: 
+  - Gears only mesh if they have the same module (tooth size) and the same pressure angle; 20 degrees is standard, 14.5 is the old standard (KHK 'Involute gear profile'; BOSL2 gears.scad).
+  - Speed ratio = driven teeth / driver teeth; torque is multiplied by the same ratio (Wikipedia 'Gear train'; DT Online). Stage ratios multiply in a compound train; idler gears don't change the ratio but reverse direction (Wikipedia; KHK 'Gear trains').
+  - Standard spur gear dimensions (KHK Table 4.1): pitch diameter d = module x teeth; centre distance a = m(z1 + z2)/2; tip diameter = d + 2m; tooth depth = 2.25m; root diameter = d - 2.5m. Example: m = 3, 12 and 24 teeth gives a = 54 mm (KHK 'Calculation of gear dimensions').
+  - Undercut: at 20 degrees pressure angle a standard spur gear needs at least 17 teeth to avoid undercut, though 16 or fewer can still be usable; at 14.5 degrees it is 32 (Gear Solutions 'Addendum modification and undercut'; BOSL2 gears.scad). BOSL2 cites a rule of thumb that 14 teeth is fine at 20 degrees, and profile shifting fixes undercut on smaller pinions (BOSL2; KHK).
+  - Printed gears: at least 13 teeth at 20 degrees or 9 at 25 degrees; face width 3-5 x circular pitch; doubling width about doubles strength (EngineerDog).
+  - Efficiency of a spur mesh: 98.0-99.5% (not counting bearings and lubricant) (KHK 'Gear types and terminology', Table 1.1).
+  - Some backlash is required; a larger centre distance increases backlash and a smaller one can jam the gears (KHK 'Gear backlash' and 'Mounting accuracy of gears').
+  - Use tooth counts with no common factor (a hunting set, e.g. 15 and 31) to spread wear (EngineerDog; Wikipedia 'Gear train').
+  - Printed gear settings from one test series: horizontal expansion about -0.15 mm, infill at least 35%, 5 or more walls (HowToMechatronics; test your own printer).
+  - Plastic gears grow with heat and moisture: KHK's example uses MC Nylon's expansion coefficient of 9 x 10^-5 per C, so a 1010 mm nylon rack lengthens about 1.8 mm for a 20 C rise (about 0.09 mm per 100 mm per 10 C); nylon also swells as it absorbs water, so allow extra backlash (KHK 'Design of plastic gears').
+
+### When to use it
+
+- **everyday_examples**: 
+  - A mechanical clock or wind-up watch: its 'wheel train' of large wheels driving small pinions (Wikipedia 'Wheel train')
+  - A hobby servo or small gearmotor: a tiny fast motor driving a train of reduction gears (Wikipedia 'Servo (radio control)')
+  - A car's manual gearbox, where a reverse idler gear is slid in to make the car go backwards (Wikipedia 'Gear train')
+  - Construction and school gear kits such as Meccano, K'Nex or Engino gear sets (brands), used to build and feel gear trains (DT Online buyers' guide)
+- **when_to_use**: Use spur gears whenever you need a fixed, exact speed or torque change between parallel shafts: slowing a small motor down for a robot arm, winch, turntable or clock, speeding up a hand crank, keeping two shafts exactly in step, or reversing direction with an idler. They are the simplest, cheapest and most efficient gears (about 98-99.5% per mesh, KHK), easy to design with free generators, easy to print, and create no end thrust, so plain bearings or simple ball bearings are enough. Chain several stages (compound train) for big ratios in a small space.
+- **when_not_to_use**: Avoid spur gears for fast, quiet drives: they are noisy at high speed (Wikipedia 'Gear'); use helical or herringbone gears. For large reductions in one compact step use a planetary, worm, cycloidal or strain-wave gearbox; for a drive that must hold a load when the motor stops use a worm drive or add a brake; for shafts far apart use a belt or chain instead of a long chain of idlers (Wikipedia 'Gear train'); for zero backlash use anti-backlash gears or a strain-wave drive; for shafts at an angle use bevel or worm gears; if an overload must not break teeth, add a slip clutch.
+- **environment_limits**: Heat: printed PLA gears soften above 60 C; PETG is fine below 80 C (Prusa); ABS softens around 105 C (EngineerDog). Plastic gears in general lose strength as temperature rises, expand much more than steel with heat, change size when they absorb moisture (especially nylon), and become brittle at about -30 to -50 C (KHK 'Design of plastic gears'). Lubrication: metal gears need grease or oil; lack of lubrication causes wear and pitting (KHK 'Damage to gears'); dust in open gears speeds up wear. *(unverified parts omitted)*
+- **safety_notes**: Meshing gears create an in-running nip point that can catch fingers, hair and clothing (OSHA machine guarding); cover them, especially with motors. High-ratio gearboxes multiply a small motor's torque enough to crush fingers or break things at the output. A geared lift or arm can back-drive and drop its load when power is removed unless there is a brake. Breaking plastic teeth can fling small fragments.
+- **common_failures**: 1) Teeth skip or jam because the centre distance is wrong or the frame flexes: check centre distance = m(z1 + z2)/2 plus clearance, and stiffen supports (KHK; HowToMechatronics). 2) Broken teeth from shock loads, small teeth or too narrow a face: use a larger module, wider gears and more walls or infill (EngineerDog; HowToMechatronics). 3) Rapid wear, noise and heat from poor lubrication or bad alignment (KHK 'Damage to gears'; 'How to reduce gear noise'). 4) Rough, jerky meshing from badly drawn teeth or 'elephant's foot' on the first layers: use a generator and correct the first layer (EngineerDog; HowToMechatronics). 5) Undercut, weak teeth on small pinions: use at least 17 teeth at 20 degrees or a profile shift (Gear Solutions; BOSL2). 6) Gear slipping on its shaft (really a hub failure): use a D-flat, hex, clamp or key (EngineerDog). 7) Too much backlash in a multi-stage printed gearbox: fewer stages, bigger printed accuracy, or anti-backlash gears (HowToMechatronics). 8) Plastic gears binding when warm or damp: allow extra backlash (KHK).
+- **related**: 
+  - Herringbone and helical gears: slanted teeth, quieter and stronger at speed; helical gears push sideways along the shaft, herringbone cancels that
+  - Rack and pinion: a spur gear driving a straight toothed bar, turning rotation into sliding
+  - Bevel gears (incl. mitre and crown gears): for shafts that meet at an angle
+  - Worm drive (worm and worm wheel): large reduction in one step and usually not back-drivable, but less efficient
+  - Planetary gear set (epicyclic gearing): spur gears arranged around a sun gear for high ratios with input and output in line
+  - Compound planetary gearbox, cycloidal drive and strain-wave gear (harmonic drive): compact very-high-ratio reducers
+  - Belt drives and chain and sprocket drive: pass rotation between shafts that are far apart; belts can slip, chains stretch
+  - Friction drives and CVTs: smooth wheels pressed together; can slip, but ratio can vary
+  - Anti-backlash gear (split scissor gear): removes the backlash of a spur pair
+  - Intermittent gear and non-circular gears: special spur-like gears that give stop-go or varying speed
+  - Lantern gear (pin gear): a simple pin-and-disc gear that is easy to make from dowels
+  - Differential (bevel gear differential): lets two outputs turn at different speeds
+  - Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each gear is fixed to its shaft
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Animated two spur gears 1 2.gif (Wikimedia Commons, by Jahobr)](https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif): A 14-tooth gear driving a 28-tooth gear (2:1 ratio), turning in opposite directions *(licence: CC0 1.0 (public domain))*
+  - [Animated 3 Gear Row.gif (Wikimedia Commons, by Jahobr)](https://commons.wikimedia.org/wiki/File:Animated_3_Gear_Row.gif): Three gears in a row (14, 28 and 42 teeth), showing how the middle gear passes motion along and the speeds change *(licence: CC0 1.0 (public domain))*
+  - [Example of a Compound Gear Train.png (Wikimedia Commons, by Manuel Bieling)](https://commons.wikimedia.org/wiki/File:Example_of_a_Compound_Gear_Train.png): Diagram of connected gears in a gearbox forming a compound gear train *(licence: CC0 1.0 (public domain))*
+  - [Gear train (Wikipedia)](https://en.wikipedia.org/wiki/Gear_train): Gear ratio, torque, idler gears (with a worked farm-machinery example), double reduction and hunting gear sets, with animations *(licence: Text CC BY-SA 4.0; images per file on Commons)*
+  - [IDLER Spur Gear - Animation (Drivetrain Hub, YouTube; title verified via YouTube oEmbed)](https://www.youtube.com/watch?v=JTdSBcmtmsk): Animation of an idler gear between input and output spur gears *(licence: link only)*
+- **make_it_yourself**: 
+  - [BOSL2 gears.scad (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad): Parametric involute spur, helical and ring gears with automatic profile shifting, backlash and clearance settings, and gear_dist() to compute the centre distance *(licence: BSD 2-Clause)*
+  - [Gear Generator (Abel Vincze)](https://geargenerator.com/): Browser-based involute gear designer and simulator: set teeth and module, add gears to a train, animate it and export (EngineerDog notes STL/CSV export became paid) *(licence: free online tool; exports may require payment)*
+  - [Reduction Gearbox (262,144:1 Gear Ratio) (The Engineering Teacher, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1123635-reduction-gearbox-2621441-gear-ratio): Compound gear train of nine 32/8-tooth (4:1) compound gears with a crank at each end, to feel how ratios multiply; gears can be swapped for shims to lower the ratio *(licence: CC BY-NC)*
+  - [Gear Ratio Demonstration Gear Box (Jpxfrd, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1374188-gear-ratio-demonstration-gear-box): Printed 5:1 demonstration gearbox with handles, spacers and printed C-clips used as shaft collars *(licence: CC0 (public domain))*
+  - [Gear fidget + Trolerance test (EmilH, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/516218-gear-fidget-trolerance-test): Gear fidget that doubles as a tolerance test, to find the gear clearance your printer can manage *(licence: CC BY)*
+- **diagram_idea**: Three panels: a small gear driving a big one with pitch circles drawn and arrows showing opposite rotation and 'slower but stronger'; the same pair with an idler in between showing same-direction output and unchanged ratio; and a compound train where a big and a small gear share a middle shaft, with the stage ratios written as 3:1 x 3:1 = 9:1.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Gear_train
+  - https://en.wikipedia.org/wiki/Gear
+  - https://en.wikipedia.org/wiki/Wheel_train
+  - https://en.wikipedia.org/wiki/Servo_(radio_control)
+  - https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif
+  - https://commons.wikimedia.org/wiki/File:Animated_3_Gear_Row.gif
+  - https://commons.wikimedia.org/wiki/File:Example_of_a_Compound_Gear_Train.png
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear-trains.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_types_terminology.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/involute_gear_profile.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/calculation_gear_dimensions.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_backlash.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/mounting_accuracy_of_gears.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/design-of-plastic-gears.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/how_to_reduce_gear_noise.html
+  - https://khkgears.net/new/gear_knowledge/gear_technical_reference/damage_to_gears.html
+  - https://gearsolutions.com/departments/tooth-tips/addendum-modification-and-undercut/
+  - https://wiki.dtonline.org/index.php/Gear_Train
+  - https://wiki.dtonline.org/index.php/Idler_Gear
+  - https://www.notesandsketches.co.uk/Gears.html
+  - https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/
+  - https://howtomechatronics.com/how-it-works/how-to-3d-print-gears-the-ultimate-guide/
+  - https://www.igus.com/custom-parts-services/3d-printing/3d-printed-gear
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad
+  - https://geargenerator.com/
+  - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://www.youtube.com/watch?v=JTdSBcmtmsk
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, processes, tools_needed
 

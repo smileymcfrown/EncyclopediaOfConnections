@@ -203,6 +203,9 @@
     "processes",
     "print_in_place",
     "environment_limits",
-    "safety_notes"
+    "safety_notes",
+    "common_failures",
+    "making_tips_3d_printing",
+    "rules_of_thumb"
   ]
 }

@@ -937,19 +937,415 @@
 
 *cord, strap, webbing & textile hardware.* A toothed cam that lets a clamp slide up a rope but grips hard when loaded downwards, used for climbing and hauling
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A clamp that clips onto a rope and slides up it freely, but a spring-loaded toothed lever bites and locks onto the rope as soon as it is pulled downwards
+- **term**: Cam rope clamp (rope grab; ascender)
+- **aliases**: 
+  - ascender
+  - rope clamp, rope grab
+  - jumar, to jumar, jugging (from the Jümar, brand, sold from 1958)
+  - jammer, top jammer, chest jammer (caving)
+  - handled ascender; chest or ventral ascender (e.g. Croll, brand)
+  - mini or emergency ascender (e.g. Tibloc, Ropeman, brands)
+  - lever-cam ascender (e.g. Gibbs ascender, brand)
+  - progress capture device (PCD); progress-capture pulley (e.g. Micro Traxion, brand)
+  - fall arrester, guided-type fall arrester, back-up device (rope access and industrial fall protection)
+  - prusiker, brake-blocker (older caving terms, CavingUK)
+  - bloqueur (French), Seilklemme or Steigklemme (German)
+  - rope cam lock (maker term for light-duty printed versions)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: one-way & ratchet, self-locking & anti-back-drive, tensioning, reels & take-up, quick-release & tool-free
+- **one_liner**: A clamp with a spring-loaded, toothed, off-centre lever (cam) that slides up a rope in one direction but pinches the rope against its frame and locks when pulled the other way; used in pairs to climb a rope, to stop a hauled load slipping back, and on safety lines.
+- **complexity**: A small assembly that acts as one unit: a frame (shell) with a channel for the rope; a cam (a toothed lever on a pivot pin, usually with a self-cleaning slot so mud and ice can escape); a spring that holds the cam against the rope; a safety catch that stops the cam opening by accident; holes for carabiners; and on handled ascenders a moulded grip (Petzl ASCENSION, BASIC). Minimal versions (Petzl Tibloc) are just a bent stainless-steel body with teeth that uses a carabiner as the other jaw. Lever-cam types (Gibbs) have no spring and are held on by a clevis pin. Industrial fall arresters add a locking roller, a roller cam and a 'gravity lock' that stops them being fitted upside down (3M DBI-SALA).
+- **how_it_works**: The rope runs through a channel between the frame and a cam: a lever on a pivot whose face is off-centre (eccentric), so the gap narrows as the cam swings down. A light spring keeps the cam's teeth touching the rope. Sliding the clamp up drags the teeth upwards, which swings the cam open, so it glides; when the load pulls the clamp down, the rope drags the teeth the other way, the cam swings shut and pinches the rope against the frame, and the harder the pull, the harder it pinches. CavingUK sums it up: an eccentric cam clamps the rope 'when it moves through them in one direction, and release[s] it in the other', while the small teeth and spring just make sure the cam starts to turn reliably. To move it down or take it off you unload it and hold the cam open by hand.
+
+### Finder attributes
+
+- **job**: 
+  - stop it moving back (one-way): slides up a rope and locks against being pulled down
+  - lock, and release by hand: open the cam with a thumb (after the safety catch) to move it down or take it off
+  - tighten and hold tension: as the progress-capture part of a hauling system it holds each gain while you reset the pull
+  - join and hold: gives a quick attachment point anywhere along a rope
+- **motion**: slide: it moves along the rope in one direction only, with no fixed steps (stepless); the cam itself only rocks a little on its pivot
+- **degrees_of_freedom**: 1 along the rope, and only in the free direction while the cam is engaged; the cam turns on its own pivot (1). The clamp can also turn around the rope, which doesn't affect the grip.
+- **special_behaviour**: 
+  - one-way (moves freely one way, locks the other): slides up the rope, locks when pulled down
+  - self-locking (holds under load, won't back-drive): the load swings the cam tighter; Petzl says that once an ascender is on the rope and loaded it is nearly impossible to make it disengage or slip
+  - hand-release only (locks under load, releases when a person operates it): you must unload it and open the cam by hand to move it down; Petzl warns that 'unlocking under load requires skill in pulley hauling systems'
+  - quick-release: a safety catch lets you fit or remove it anywhere on the rope with one hand, even with gloves (Petzl ASCENSION)
+  - tensioning (takes up slack and holds): as a progress-capture device it keeps each length of rope gained in a haul
+- **holding_principle**: 
+  - friction or clamping (force-fit): the cam pinches the rope against the frame, harder as the load rises
+  - spring force (a spring or springy part presses it in place): a spring keeps the cam touching the rope so it catches straight away
+  - shape (the parts interlock; form-fit): partly, because the small teeth bite into the rope's sheath so the cam turns instead of slipping
+- **input_output**: not applicable: it holds a rope rather than passing motion on (back-drivable: no while the cam is engaged)
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: open the safety catch and cam to put it on or take it off anywhere along the rope, but only when it is unloaded (Petzl); lever-cam (Gibbs) types come off by pulling out a clevis pin (CavingUK)
+- **reuse_cycles**: effectively unlimited grip-and-release cycles; what wears is the teeth (worn teeth are one of Petzl's listed causes of slipping), the spring and the frame. A fall-arrest device that has held a fall or impact must be taken out of service (3M DBI-SALA).
+- **tools_needed**: none: it clips on by hand; a locking carabiner and a sling, foot loop or lanyard connect it to a harness or load (Petzl, Alpinesavvy)
+- **seal**: none: nothing makes it seal
+- **load**: Medium, as a steady pull along the rope only. Climbing ascenders are rated for one person: the EN 12841 type B test uses a 140 kg mass for the Petzl ASCENSION, BASIC and CROLL on ropes above 10 mm (Petzl). The limit is usually the rope, not the device: toothed cams start to tear the rope's sheath at a few kilonewtons (1 kN is about 100 kg-force): 6.5 kN on 13 mm kernmantle according to Petzl (quoted by Kane 2011), 5.3-6.4 kN for a Petzl BASIC on 11 mm rope in slow-pull tests (McCullar, USFA), and about 6-7 kN for a Tibloc (HowNOT2 tests, reported by Alpinesavvy). A single 8 mm Prusik loop held about 14 kN in the same USFA study. Weak against shock loads (falls) and against pulls from the side that can lever the rope out.
+- **adjustable**: yes: stepless; slide it up to any point on the rope, or open the cam (when unloaded) to move it down
+- **play_and_precision**: Under a shock load it can slide a long way while stripping the sheath: in drop tests with an 86 kg mass on arborist ropes the arrest distance was more than 2 m in 57 of 67 tests (Kane 2011). Each clamp fits a set rope diameter range (Petzl ASCENSION 8-13 mm; BASIC and TIBLOC 8-11 mm) and needs a round kernmantle rope (static EN 1891 or dynamic EN 892, Petzl notice). *(unverified parts omitted)*
+- **access_needed**: not applicable: it opens and clips onto the rope anywhere along its length, so no free end is needed (a Gibbs needs its pin removed, and some fall arresters are threaded on)
+- **materials**: Frame: aluminium alloy; cam: stainless steel for better corrosion resistance, with a self-cleaning slot; plus plastic, rubber and nylon for grips and catches (Petzl ASCENSION: aluminium, stainless steel, plastic, rubber, nylon; BASIC: aluminium, stainless steel, nylon); Tibloc: all stainless steel (Petzl). Industrial rope grabs are corrosion-resistant metal (3M). Ropes: kernmantle static or dynamic rope within the rated diameter (Petzl notice); in drop tests toothed ascenders cut or stripped several arborist climbing ropes that are not kernmantle (Kane 2011). Printed light-duty versions: PETG, carbon-fibre PETG or PC-CF with metal bolts (Printables).
+- **maker_difficulty**: moderate for light jobs (a printed toothed cam, a bolt as the pivot and a serrated anvil work for antenna, tarp and hoist lines); hard and never advisable for anything that holds people, so buy a certified one
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: certified ascenders, rope clamps, progress-capture pulleys and fall arresters (Petzl, Kong, CMC, 3M DBI-SALA and others)
+  - 3D print (FDM): light-duty cam locks for cord and rope, assembled with metal screws (Printables 'light rope cam lock' in PETG with M4 screws; 'Rocker Rope Grab' in PC-CF with an M6 bolt) *(unverified parts omitted)*
+- **print_in_place**: no: working printed versions are a printed body, toothed cam and anvil held together with metal screws or bolts as pivots (Printables 446750 and 212537). A geared-roller cam lock prints its main body in one piece but still needs its roller and knob fitted (Printables 1491121).
+- **making_tips_3d_printing**: 1) Never use a printed rope grab for people: Wiseone's design says 'NOT INTENDED AS A LIFE SAFETY DEVICE!' and interactive3 warns not to support people or anything heavy above people or animals. 2) Use metal pivots: Nikdfish's light rope cam lock uses stainless M4 cap screws (about 18-20 mm); Wiseone's Rocker Rope Grab is held by an M6 x 25 mm bolt with threadlocker or a nylon-insert lock nut. 3) Make the anvil stiff: Nikdfish offers a 'beefier' version 'to help deal with heavy loads causing anvil flex & over rotation of the cam'; he printed PETG with 6 walls and 6 top and bottom layers. Wiseone printed PC-CF at 0.2 mm layers and 100% infill, no supports. 4) Size it to one rope: Nikdfish's works for 3-7 mm line; Wiseone makes separate parts for 9 mm and 11 mm, spaced differently, and notes that kernmantle grips best because 'lesser grade rope can compress too much under load and potentially slip'. 5) Tune the grip: Nikdfish offers coarse- and fine-tooth cams and smooth or serrated anvils, so print both and test with your line; interactive3 prints in carbon-fibre PETG because the rough surface helps grab the rope. 8) Outdoors use PETG (below about 80 °C) or ASA (UV-resistant, up to 93 °C) rather than PLA, which has low UV and heat resistance (Prusa). 9) Typical failures: anvil flex, cam over-rotation, teeth wearing smooth, and rope too thin or too soft for the gap. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Handled ascenders (left- and right-hand), chest (ventral) ascenders, compact rope clamps (e.g. Petzl BASIC), mini emergency rope clamps (e.g. Tibloc, Ropeman, brands), progress-capture pulleys (e.g. Micro Traxion, Pro Traxion, brands), lever-cam ascenders (Gibbs, brand), rescue rope grabs (e.g. Rescucender, PMI/SMC Grip, brands), and industrial rope grabs or fall arresters for vertical lifelines. Look for EN 567 (mountaineering rope clamps), EN 12841 type B (rope-access ascenders; type A is the back-up device), NFPA 1983/2500 (rescue) or ANSI Z359.15 (vertical lifelines and fall arresters). Accessories: locking carabiners (rounded oval or HMS for the older Tibloc, Alpinesavvy), foot loops, lanyards, keeper cords.
+- **rules_of_thumb**: 
+  - Match the rope to the clamp: Petzl ASCENSION 8-13 mm, BASIC 8-11 mm, TIBLOC 8-11 mm (Petzl product pages), on kernmantle static (EN 1891) or dynamic (EN 892) rope (Petzl ASCENSION/BASIC notice).
+  - Rated for one person: the EN 12841 type B test uses a 140 kg mass for ASCENSION, BASIC and CROLL on ropes above 10 mm (Petzl, 'Using a single rope clamp?').
+  - Toothed cams damage the rope far below the rope's own strength: sheath cut at 6.5 kN on 13 mm rope (Petzl, quoted by Kane 2011); in slow pulls a Petzl BASIC desheathed 11 mm rope at 5.26-6.43 kN (series averages 5.6-5.9 kN) and in five pulls the BASIC itself broke at about 5.3-6.0 kN, a PMI/SMC Grip at about 7-9 kN on 11 mm and 10-11 kN on 12.5 mm, while a single 8 mm Prusik held about 14 kN (McCullar, 'Study of Breaking Strengths of Selected Progress Capture Devices', USFA).
+  - Keep slack out and never shock-load it: in drop tests with an 86 kg mass, ascenders on arborist ropes slid more than 2 m in 57 of 67 tests and some ropes were cut; ascenders are type B positioning devices, not type A fall arresters (Kane 2011, Arboriculture & Urban Forestry 37(4)).
+  - Always use two: 'A single ascender is not trustworthy; it is recommended to use two ascenders together and/or to use a backup belay system' (Petzl).
+  - Rescue standard test loads: ascenders are held for 30 s at 5 kN (technical use) or 11 kN (general use) under NFPA 1983 (as summarised by McCullar, USFA).
+  - Some rescue rope grabs are meant to slip before they damage the rope: the Rescucender holds about 4 kN on 11.1 mm rope and then begins to slip 'much like a Prusik' (Smith, quoted by McCullar, USFA).
+  - In a hauling system a carabiner used as the pulley is only about 50% efficient, while a progress-capture pulley such as the Petzl Micro or Pro Traxion is rated about 90% (Alpinesavvy).
+  - Industrial rope grab on a vertical lifeline: one user of 130-310 lb (59-140 kg), free fall at most 5 ft (1.52 m) under ANSI or 6 ft (1.83 m) under OSHA, an energy-absorbing lanyard of 2.5 ft (0.76 m) or less (ANSI), average arrest force 900 lbf (4 kN), on a 5/8 in (16 mm) rope lifeline with at least 5,000 lbf (22.2 kN) breaking strength (3M DBI-SALA user instructions 5902188).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Climbers, cavers and rope-access workers 'jumaring' up a fixed rope with a pair of ascenders (Wikipedia; CavingUK)
+  - The rope grab on a roofer's or tower climber's vertical safety line, which follows the worker and locks if they fall (3M DBI-SALA)
+  - Progress capture in a crevasse-rescue or hauling pulley system, e.g. a Tibloc as the 'tractor' (Alpinesavvy)
+  - A printed cam lock holding the haul-up line while raising a long wire antenna (Printables 'light rope cam lock')
+- **when_to_use**: When a rope must be climbed, hauled or held in one direction by a device that clips on anywhere, grips at once and slides the other way without being undone: ascending a fixed rope, capturing progress in a pulley hauling system, backing up a worker on a vertical lifeline (with a certified fall arrester), or on a smaller scale holding a hoist, haul or guy line while you reposition. Mechanical ascenders are 'faster, safer, and easier to use' than friction knots (Wikipedia).
+- **when_not_to_use**: Not where it could be shock-loaded by a fall: toothed cams can cut the sheath at about 5-7 kN (Kane 2011; McCullar); use a certified fall arrester or a dynamic belay. Not as the only thing holding a person: use two, or a backup (Petzl). Not on ropes outside the rated diameter or construction, or on flat webbing (use a cam buckle). Not where the load must be lowered under control (use a descender) or held at high static load on a boat (use a rope clutch or jammer). For light lines that need quick, frequent release, a cam cleat or cord lock is simpler; for a soft grab that slips before it damages the rope, use a Prusik or other friction hitch.
+- **environment_limits**: Mud, ice and grit can stop the cam biting: Petzl cams have a self-cleaning slot for 'frozen or dirty ropes', yet Petzl lists 'excessive mud or ice on the rope' and 'worn teeth' among causes of slipping, and lever-cam ascenders 'often fail to grip on muddy ropes' (CavingUK). A stainless-steel cam resists corrosion better (Petzl BASIC). Store industrial rope grabs 'in a cool, dry, clean environment out of direct sunlight' and inspect them for corrosion (3M). Printed versions: PETG suits outdoor use below about 80 °C, ASA resists UV up to 93 °C, and PLA has low UV and heat resistance (Prusa). *(unverified parts omitted)*
+- **safety_notes**: This is life-safety equipment: learn it from a qualified instructor (Petzl; Alpinesavvy). A single ascender can come off the rope while unloaded or moving: the safety catch can open by accident, branches, pack straps or clothing can hold the cam open, and a carabiner can open by rubbing (Petzl), so always stay connected by two points. Keep slack out between clamp and anchor: a fall onto a toothed cam can strip the sheath or cut the rope (Kane 2011). Replace any fall-arrest device that has held a fall (3M). Printed rope grabs are 'NOT INTENDED AS A LIFE SAFETY DEVICE' (Wiseone, Printables) and must not hold people or anything heavy above people or animals (interactive3, Printables). *(unverified parts omitted)*
+- **common_failures**: Slips: rope too thin, icy or muddy, teeth worn smooth, or the cam held open by a hand, strap or branch (Petzl). Comes off the rope: safety catch opened while climbing, or the device moved while unloaded (Petzl). Rope damaged or cut: a fall or shock load onto a toothed cam (Kane 2011), or teeth catching only part of the sheath, which the Tibloc avoids by pressing the carabiner against the rope (Petzl). Won't release: it is loaded; take the load off first, which may need a hauling system (Petzl notice). Frame bends after repeated impacts (Kane retired test ascenders when the frame beside the cam bent). Printed versions: the anvil flexes and the cam over-rotates under heavy load (Nikdfish, Printables).
+- **related**: 
+  - Friction hitch (Prusik knot): a cord loop that grips when loaded and slides when relaxed; slower but slips and fuses rather than shredding the rope, and held about 14 kN in the USFA tests
+  - Cam cleat: two toothed cams side by side hold a rope pulled through them; mounted in place instead of riding along the rope
+  - Clam cleat (grooved V-cleat): a grooved V with no moving parts that jams a rope
+  - Cam buckle (webbing cam buckle): the same toothed-cam idea for flat straps
+  - Binding-plate lock (tilting friction plate): a tipped plate wedges on a rod or bar instead of a cam on a rope
+  - Sprag clutch: wedge-shaped sprags lock between two rings in one direction, the rotary cousin of the cam
+  - Ratchet and pawl: one-way action with fixed teeth and steps, instead of stepless friction
+  - Inertia-locking reel (seat-belt lock): locks a strap when it is jerked, rather than whenever it is pulled one way
+  - Pulley system (block and tackle): the rope grab is the progress-capture part of most hauling systems
+  - Cord lock (spring toggle) and guy-line slider: much lighter ways to hold a thin cord at any point
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Ascenders-cams.jpg, Wikimedia Commons, photo by Luca Bergamasco](https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg): Close-up of the toothed cams of two chest ascenders (Petzl Croll and Kong Cam Clean) *(licence: CC BY 3.0)*
+  - [Petzl Ascenders (On Rope).jpg, Wikimedia Commons, photo by Climber.Ben.Johnson](https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg): A Petzl Ascension handled ascender clipped onto a rope *(licence: CC BY-SA 4.0)*
+  - [Tibloc3.jpg, Wikimedia Commons, photo by brain_bug](https://commons.wikimedia.org/wiki/File:Tibloc3.jpg): A Petzl Tibloc mini ascender with a rope in it: toothed body plus carabiner as the second jaw *(licence: Public domain (released by the author))*
+  - [Gibbs Ascender.jpg, Wikimedia Commons (Alan Silva collection, 1978 Gibbs ascender)](https://commons.wikimedia.org/wiki/File:Gibbs_Ascender.jpg): A springless lever-cam ascender: shell, cam and pin *(licence: Public domain (released by the author, Aglsilva))* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [light rope cam lock by Nikdfish, Printables](https://www.printables.com/model/446750-light-rope-cam-lock): A printed toothed cam pressing 3-7 mm line against an anvil, with coarse or fine teeth and smooth or serrated anvils, assembled with M4 screws; used to hold haul lines while raising a wire antenna. Details read through the Printables public API; the URL appeared in search results. *(licence: CC BY-NC-SA)*
+  - [Rocker Rope Grab by Wiseone, Printables](https://www.printables.com/model/212537-rocker-rope-grab): A printed rocker-type rope grab for tethering tools to a 9 mm or 11 mm kernmantle safety line, held together by an M6 bolt; printed in PC-CF; explicitly not for protecting people. Details read through the Printables public API; the URL appeared in search results. *(licence: CC BY-NC)*
+  - [Automatic Rope Cam Lock - Cord Tensioner by interactive3, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/1491121-automatic-rope-cam-lock-cord-tensioner): A one-sided rope lock with a geared rolling cam that wedges a 10 mm rope (scalable down to 5 mm cord); body prints in place, roller and knob are added; printed in carbon-fibre PETG *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Side section of a rope running between a frame and a toothed cam on a pivot: a green arrow shows the clamp sliding up and the cam swinging open, a red arrow shows the load pulling down and the cam swinging shut to pinch the rope against the frame, with the spring and safety catch labelled and a small inset of two ascenders used in turn to climb a rope.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Ascender_(climbing)
+  - https://www.cavinguk.co.uk/info/verticalterminologypart-ascender
+  - https://www.petzl.com/US/en/Operators/Rope-clamps/ASCENSION
+  - https://www.petzl.com/US/en/Professional/Rope-clamps/BASIC
+  - https://www.petzl.com/INT/en/Operators/Rope-Clamps/TIBLOC
+  - https://www.petzl.com/US/en/Professional/Using-a-single-rope-clamp-
+  - https://www.bmi.gv.at/202/Alpinpolizei/files/Petzl_ASCENSION_BASIC.pdf
+  - https://auf.isa-arbor.com/content/37/4/180
+  - https://apps.usfa.fema.gov/pdf/efop/efo49199.pdf
+  - https://www.alpinesavvy.com/blog/petzl-tibloc-everything-you-need-to-know
+  - https://caisafety.com/docs/rope-grab/IFU_5902188_ANSI_Rope-Grab.pdf
+  - https://commons.wikimedia.org/wiki/Category:Ascenders
+  - https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg
+  - https://commons.wikimedia.org/wiki/File:Ascenders-open.jpg
+  - https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg
+  - https://commons.wikimedia.org/wiki/File:Jumar_rope_ascender.png
+  - https://commons.wikimedia.org/wiki/File:Tibloc3.jpg
+  - https://commons.wikimedia.org/wiki/File:Gibbs_Ascender.jpg
+  - https://commons.wikimedia.org/wiki/File:Basic_ouvert.jpg
+  - https://www.youtube.com/watch?v=6K3F-_qWpNU
+  - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=6K3F-_qWpNU&format=json
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/446750-light-rope-cam-lock
+  - https://www.printables.com/model/212537-rocker-rope-grab
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/asa_1809
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, links, making_tips_3d_printing, play_and_precision, processes, safety_notes
 
 ## 153 Ratchet tie-down strap (ratchet buckle)
 
 *cord, strap, webbing & textile hardware.* A lever with a ratchet that winds webbing onto a slotted spool to tighten a load strap, and releases with a trigger
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A strap with a hinged lever on it: pump the lever and it winds the strap onto a little slotted reel, a click at a time, pulling the strap really tight over a load; pull a catch and flip the lever wide open to let it go
+- **term**: Ratchet tie-down strap (ratchet strap; ratchet buckle; web lashing with ratchet tensioner)
+- **aliases**: 
+  - ratchet strap / ratchet tie-down / ratchet tie down strap
+  - lashing strap / ratchet lashing (UK and Europe)
+  - web lashing assembly (the term used by EN 12195-2 and Wikipedia)
+  - cargo strap / tie-down strap / load strap
+  - ratchet buckle / ratchet tensioner / tensioning ratchet (the mechanism on its own)
+  - push (pressure) ratchet versus pull ratchet / long-lever 'ergo' ratchet (Konnex; SpanSet)
+  - loop strap (one-piece, endless) and two-piece strap (fixed end plus loose end) (Wikipedia 'Web lashing assembly'; SpanSet)
+  - Spanngurt mit Ratsche / Ratschen-Spanngurt (German)
+  - ErgoABS (SpanSet brand; long-lever pull ratchet that lets tension off gradually)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: tensioning, reels & take-up, one-way & ratchet, quick-release & tool-free
+- **one_liner**: A webbing strap whose loose end threads through a slotted spool in a steel ratchet: levering the handle back and forth winds the webbing onto the spool a tooth at a time to put a strong, locked-in tension on a load, and pulling a release catch and swinging the handle fully open frees the spool.
+- **complexity**: A small assembly that acts as one unit: a U-shaped steel frame (bracket) fixed to a short 'fixed end' of webbing; a slotted spool (slotted spindle or mandrel) with a ratchet wheel on each side; a hinged handle (ratchet lever) carrying a spring-loaded drive pawl; a spring-loaded locking pawl or slider on the frame; a release catch (function slider); the long 'loose end' of webbing; and end fittings such as J hooks, S hooks, flat hooks, snap hooks or E-track fittings (SpanSet; US 6,524,041; Wikipedia 'Web lashing assembly').
+- **how_it_works**: You pull the loose end of the webbing through the slot in the spool until it lies taut against the load. Each time you lever the handle up and back, a pawl on the handle pushes the ratchet wheels round a few teeth, winding the webbing onto the spool and onto itself; meanwhile a spring-loaded locking pawl on the frame drops into the teeth so the spool cannot turn back, and you hear it click (US 6,524,041; Wikipedia 'Ratchet (device)'). The first 1.5 turns of webbing wrapped on itself grip by friction, so the strap can't slide out of the slot, but more than 3 turns start to crush it (SpanSet). Closing the handle flat locks it. To release, you pull the release catch and swing the handle right through about 180 degrees to its stop; a cam lifts both pawls clear of the teeth, the spool spins freely and the tension lets go, often with a jolt (SpanSet; US 5,271,606).
+
+### Finder attributes
+
+- **job**: 
+  - tighten and hold tension: pulls a strap hard round or over a load and keeps it tight
+  - stop it moving back (one-way): the ratchet lets the spool wind in but not unwind
+  - lock, and release by hand: closed, it stays locked; a catch and a full swing of the handle let it go
+  - join and hold: ties a load to a trailer, roof rack, pallet or vehicle anchor points
+- **motion**: rotate: the spool turns one way in small steps while the handle swings back and forth (up to about 180 degrees to release); once closed nothing moves
+- **degrees_of_freedom**: 1 while tightening: the spool turns one way relative to the frame; 0 when the handle is closed and locked
+- **special_behaviour**: 
+  - one-way (moves freely one way, locks the other): the spool can only wind the webbing in; a locking pawl stops it unwinding
+  - tensioning (takes up slack and holds): winds up slack and puts a large pre-tension on the strap, e.g. about 350 daN from a 50 daN hand force on a common push ratchet (Tensys; Konnex)
+  - hand-release only (locks under load, releases when a person operates it): it only lets go when you pull the release catch and swing the handle to the open stop (SpanSet)
+  - quick-release: release takes seconds and needs no tools, though the tension comes off with a jolt unless the ratchet has a gradual-release feature (SpanSet ABS system)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): pawls sit in the ratchet-wheel teeth so the spool can't turn back
+  - friction or clamping (force-fit): the webbing wound 1.5-3 turns onto itself round the slotted spool grips by friction so it can't pull out of the slot (SpanSet)
+  - spring force (a spring or springy part presses it in place): springs keep the pawls pressed into the teeth
+- **input_output**: Back-and-forth handle strokes -> stepwise rotation of the spool -> straight pull on the webbing (oscillating lever to one-way rotation to linear). Force gain: a standard hand force of 50 daN on the handle gives a standard tension force (STF) of typically about 350 daN on a 50 mm push ratchet, roughly 7:1, and up to about 800 daN with long-lever pull ratchets, roughly 16:1 (Konnex; Tensys). EN 12195-2 puts the STF between 0.1 and 0.5 times the strap's lashing capacity (Konnex). Spool axis sits across the strap. Back-drivable: no; the locking pawl stops the spool unwinding until you release it. *(unverified parts omitted)*
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: pull the release catch, swing the handle fully open and pull the webbing out of the slot
+- **reuse_cycles**: many times: the ratchet lasts for years with cleaning and light lubrication, but the webbing is withdrawn when damaged, e.g. cuts deeper than 10% of the width at the edge, damaged stitching or heat damage, and hooks when widened by more than 5% (SpanSet)
+- **tools_needed**: none: tightened and released by hand; bars or levers to add force must not be used (SpanSet; Konnex)
+- **seal**: none
+- **load**: Heavy for its size. A typical 50 mm lorry strap has a minimum breaking force of 5,000 daN and a lashing capacity (LC, the safe straight pull) of 2,500 daN, a 2:1 safety factor (Tensys; Konnex); 25 mm straps are much lighter, with a hand force of 25 daN (SpanSet). US rules give synthetic webbing a working load limit by width if unmarked: 1 3/4 in 1,750 lb, 2 in 2,000 lb, 3 in 3,000 lb, 4 in 4,000 lb (eCFR 49 CFR 393.108). Strong only in a straight pull along the webbing; weak against cuts on sharp edges, crushing, knots and twisting, and hooks must not be loaded on their tips (SpanSet).
+- **adjustable**: Yes: length by pulling more or less webbing through the spool's slot before ratcheting, and tension by the number of handle strokes. It should be re-checked and re-tensioned after a short drive and during the trip because the load settles (SpanSet).
+- **play_and_precision**: not applicable: it does not locate parts. Tension rises in small steps of one ratchet tooth, the webbing stretches a little under load (its elongation is printed on EN 12195-2 labels; LoadLok), and tension falls as the load settles (SpanSet).
+- **access_needed**: not applicable: it wraps round or over the load and hooks to anchor points; you need room to swing the handle
+- **materials**: Webbing of polyester (most common; blue EN label), polyamide or nylon (green label) or polypropylene (brown label) (SpanSet; Tensys). Ratchet frame, spool, handle and pawls of pressed steel, usually zinc-plated; end fittings of steel (J hooks, S hooks, D hooks, E-track fittings, flat hooks, snap hooks) (Wikipedia 'Web lashing assembly'; Printed versions exist for light straps (Printables 'Strap Ratchet'). *(unverified parts omitted)*
+- **maker_difficulty**: hard to make safely at home: rated cargo straps use hardened steel ratchets and tested, labelled webbing, so buy them; printed ratchets are only suitable for light jobs such as bag or bundle straps (Printables 'Strap Ratchet no supports snaps together mountable')
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: complete ratchet straps, loose ratchet buckles and webbing sold by width and lashing capacity
+  - 3D print (FDM): light-duty strap ratchets and cord ratchet tensioners (Printables models), plus accessories such as corner protectors, winders and strap clips
+- **print_in_place**: no: printable strap ratchets are printed as separate parts that snap together (Printables 'Strap Ratchet no supports snaps together mountable') or are joined with a bolt and a rubber band as the spring (Printables 'Paracord Tensioner/Ratchet')
+- **making_tips_3d_printing**: 1) Only print ratchets for light loads such as bags, bundles, garden ties or model work; for cargo on a vehicle use a labelled steel ratchet strap (SpanSet; eCFR 393.108). 2) Use a strong, heat-tolerant plastic (PETG, ABS or ASA) with many walls: PLA softens in a hot car (Printables 'Ratchet strap reel', which recommends at least PETG with 4 walls and 5 top and bottom layers). 4) Give moving parts about 0.3 mm clearance to start with and adjust (Prusa). 5) Use a metal bolt as the spool axle and pivot, and a small spring or rubber band to push the pawl into the teeth (Printables 'Paracord Tensioner/Ratchet' uses an M3 bolt and a loom band). 6) Size the spool's slot and posts for your webbing's width and thickness; the 'Strap Ratchet' designer lengthened the spool posts for longer or thicker straps. 7) Wind at least about 1.5 turns but no more than about 3 turns, as on steel ratchets (SpanSet). 8) Round every edge the webbing wraps over so it isn't cut, but keep the gripping edges crisp where they must bite: the 'Strap tensioner - load optimized' deliberately has no chamfers on its biting edges and was load-tested to 120 kg in PLA and PETG (Printables). *(unverified parts omitted)*
+- **off_the_shelf_parts**: SpanSet); edge (corner) protectors and protective sleeves; anti-slip mats; tension force indicators (SpanSet); cam buckle straps for lighter loads. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Keep at least 1.5 and at most 3 turns of webbing on the slotted spool: fewer can let the webbing slip, more starts to crush it; SpanSet's gradual-release (ABS) ratchets need at least 2 turns (SpanSet lashing instructions).
+  - Standard hand force (SHF) on the handle is 50 daN (25 daN for 25 mm webbing); never add a bar or lever (SpanSet; LoadLok; Konnex).
+  - Standard tension force (STF) must lie between 0.1 and 0.5 times the lashing capacity (LC); e.g. a 50 mm ratchet with a 50 kN breaking strength has LC 25 kN and an STF between 250 and 1,250 daN (Konnex).
+  - Typical STF: about 350 daN for a 5,000 daN x 50 mm push-up ratchet strap, and about 500 daN with 'ergo' ratchets that pull down to tension (Tensys); long-lever pull ratchets reach up to about 800 daN (Konnex).
+  - Use the LC (straight-pull rating) for direct lashing and the STF for tie-down (friction) lashing; at least two straps are needed to lash a load down (SpanSet; LoadLok).
+  - US: the aggregate working load limit of the tie-downs must be at least half the weight of the cargo, counting half the WLL for a tie-down from the vehicle to the cargo (eCFR 49 CFR 393.106); unmarked synthetic webbing is rated 2,000 lb for 2 in width (393.108).
+  - An edge is 'sharp' for webbing if its radius is smaller than the webbing's thickness; use edge protectors there (SpanSet).
+  - Withdraw a strap if its edge is cut more than 10% of its width, its stitching is damaged, it is heat-deformed, or a hook has opened by more than 5% (SpanSet).
+  - Polyester and polyamide straps can be used from -40 to +100 degrees C; polypropylene straps up to +80 degrees C (SpanSet).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Strapping furniture, a motorbike or a kayak onto a trailer, van or roof rack
+  - Cargo on lorries, pallets and in containers (Wikipedia 'Web lashing assembly')
+  - Makers using a ratchet strap as a band clamp to pull a glued frame or box tight (Printables 'Picture Frame Wood Box Assembly Corner Clamp Ratchet Strap Repair Clamp')
+- **when_to_use**: When you need a strong, locked-in pull on a strap: holding a load down on a trailer, van or roof rack, stopping cargo sliding, bundling long items, or as a band clamp for large glue-ups. It gives far more tension than a cam buckle and holds it without knots, and releases in seconds.
+- **when_not_to_use**: Never for lifting: lashing straps are marked 'not for lifting' and have the wrong safety factor, so use rated lifting slings (LoadLok; Tensys; SpanSet). Not for stopping a moving load (SpanSet). Avoid over-tightening fragile items such as boats, bikes or cardboard boxes; a cam buckle strap limits the tension to what you can pull by hand. In diagonal lashing, tighten only enough to remove slack rather than pre-tensioning hard (SpanSet). *(unverified parts omitted)*
+- **environment_limits**: Polyester and polyamide webbing is fine from -40 to +100 degrees C and polypropylene up to +80 degrees C (SpanSet). Acids, alkalis and other chemicals weaken webbing; rinse and ask the maker (SpanSet). Vibration and the load settling reduce tension on the road, so re-check after a short distance (SpanSet). Ratchets rust and stiffen unless cleaned and lightly lubricated at the sprockets, but never where the webbing wraps, or it can slip (SpanSet). *(unverified parts omitted)*
+- **safety_notes**: The tension is released with a jolt when the ratchet opens; stand clear and make sure the load is stable before releasing (SpanSet). Never use a bar or extension on the handle (SpanSet). Never use it for lifting (LoadLok; SpanSet). Hook open hooks from the inside outwards so they can't drop out of the anchor, and watch for overhead cables when throwing straps over tall loads (SpanSet). *(unverified parts omitted)*
+- **common_failures**: 1) Webbing slips out because fewer than 1.5 turns are wound, or jams and is crushed because more than 3 turns are wound (SpanSet). 2) Webbing cut on a sharp edge: use edge protectors (SpanSet). 3) Twisted or knotted webbing, which loses strength (SpanSet). 4) Handle left open or not locked, so the strap is released by accident (US 6,524,041). 5) Strap loosens on the road as the load settles; re-tension (SpanSet). 6) Rusty or seized ratchet, worn sprockets, a deformed slotted spool or locking slider: clean and lightly lubricate, and withdraw a damaged ratchet (SpanSet). 7) Hooks opened or bent by tip loading (SpanSet). 8) Missing or unreadable label, so the strap's rating is unknown and it must not be used (LoadLok; SpanSet). *(unverified parts omitted)*
+- **related**: 
+  - Cam buckle (webbing cam buckle): hand-pull tightening held by a toothed cam; quicker and gentler, but much lower tension
+  - Ladder lock buckle (tension lock, tri-glide): slotted buckles that hold webbing by friction with no moving parts
+  - Ratchet and pawl (incl. reversible ratchet): the one-way mechanism inside the buckle
+  - Capstan and windlass (hand winch): a crank-driven rope drum, the larger relative of the ratchet spool
+  - Ratcheting reel closure (dial lacing system): a small ratchet that winds a lace onto a spool, released by hand
+  - Linear ratchet (cable-tie ratchet): a toothed strip that tightens one way, usually permanent
+  - Turnbuckle: tightens a rod or cable with a screw; slower but compact and permanent
+  - Trucker's hitch: a rope knot giving a pulley-like pull to tension a rope without hardware (Wikipedia 'Web lashing assembly' see-also)
+  - Bungee cord: elastic tie-down with little force and a snap-back hazard (Wikipedia 'Bungee cord')
+
+### Pictures, videos and models
+
+- **links**: 
+  - [SpanSet General Operating Instructions: handling of lashing straps (PDF)](https://www.spanset.com/legacy-uploads/cms-files/uk/lashing-instructions.pdf): Labelled drawings of the slotted shaft, ratchet lever, function slider and bracket, plus threading, tensioning, locking and releasing steps *(licence: link only)*
+  - [Ergo Ratsche mit langem Hebel (Wikimedia Commons, uploaded by SpanSet1966)](https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg): Photo of a long-lever pull ratchet on a lashing strap *(licence: CC BY-SA 4.0)*
+  - [How to Thread, Tighten, and Release a Ratchet Buckle Strap (Strapworks, YouTube)](https://www.youtube.com/watch?v=txtfapPi5yw): Video demonstration of threading the webbing through the spool, ratcheting it tight and releasing it *(licence: link only (standard YouTube licence))*
+  - [Web lashing assembly (Wikipedia)](https://en.wikipedia.org/wiki/Web_lashing_assembly): Article with photos of a ratchet tie-down strap, a custom-made strap and a strap securing a pallet *(licence: text CC BY-SA 4.0; images per file)*
+  - [Label Explanation (LoadLok)](https://loadlok.com/pages/label-explanation): Annotated EN 12195-2 strap label explaining LC, SHF, STF, elongation and 'not for lifting' *(licence: link only)*
+- **make_it_yourself**: 
+  - [Strap Ratchet no supports snaps together mountable (neotoy, Printables)](https://www.printables.com/model/1756442-strap-ratchet-no-supports-snaps-together-mountable (URL from Printables API, page not opened)): Printable snap-together strap ratchet with a spool and locking key; about 2 hours and 70 g of filament *(licence: Open Community License v1)*
+  - [Paracord Tensioner/Ratchet (Mountainstorm, Printables)](https://www.printables.com/model/1306457-paracord-tensionerratchet (URL from Printables API, page not opened)): Enclosed ratchet tensioner for paracord with a latch-open release; needs M3 bolts and a small rubber band as the pawl spring *(licence: Public domain (CC0))*
+  - [Ratchet wire tensioner Hex (Vivishka, Printables)](https://www.printables.com/model/723778-ratchet-wire-tensioner-hex (URL from Printables API, page not opened)): Tiny ratchet spool tensioner for Kevlar string, fishing line or fine wire, turned with a 1/4 in hex socket; lifts about 5 kg *(licence: CC BY-SA)*
+  - [Strap tensioner - load optimized (HD_Creator, Printables)](https://www.printables.com/model/121221-strap-tensioner-load-optimized (URL from Printables API, page not opened)): Printable 25 mm and 20 mm friction strap tensioner (not a ratchet), load-tested to 120 kg in PLA and PETG; useful to compare with a ratchet *(licence: Public domain (CC0))*
+- **diagram_idea**: Exploded side view of a ratchet buckle showing the frame, the slotted spool with its toothed wheel, the handle pawl pushing the teeth round on the up-stroke and the frame's locking pawl stopping it turning back, with the webbing wound 1.5-3 turns on the spool and a second view of the handle swung open 180 degrees lifting both pawls to release.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Web_lashing_assembly
+  - https://en.wikipedia.org/wiki/Ratchet_(device)
+  - https://en.wikipedia.org/wiki/Bungee_cord
+  - https://www.spanset.com/legacy-uploads/cms-files/uk/lashing-instructions.pdf
+  - https://konnex.group/en/products/terminology-in-cargo-securing/
+  - https://loadlok.com/pages/label-explanation
+  - https://www.tensysdirect.com/news/post/what-do-ratchet-strap-label-terms-mean
+  - https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-49?part=393&section=393.108
+  - https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-49?part=393&section=393.106
+  - https://patents.google.com/patent/US6524041B1/en
+  - https://www.freepatentsonline.com/5271606.html
+  - https://commons.wikimedia.org/wiki/Category:Tie_down_straps
+  - https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg
+  - https://www.youtube.com/watch?v=txtfapPi5yw
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, making_tips_3d_printing, materials, off_the_shelf_parts, safety_notes, when_not_to_use
 
 ## 154 Guy-line slider (friction line tensioner)
 
 *cord, strap, webbing & textile hardware.* A small plate with holes that a cord threads through so it holds by friction under load but slides to adjust when unloaded, as on tent lines
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A little plastic or metal tab with two or three holes that a tent cord is threaded through: slide it along to tighten the line, and once the line pulls tight it grips the cord and stays put
+- **term**: Guy-line runner (line tensioner, guyline adjuster)
+- **aliases**: 
+  - guy line tensioner / guyline tensioner
+  - guy rope runner / tent runner / line runner
+  - guyline adjuster / cord adjuster / rope adjuster
+  - line tightener / tent rope tightener
+  - cord runner / rope slide / guy slide
+  - three-hole (3-hole) tensioner; bar tensioner (the two-hole type)
+  - Leinenspanner (German) and linsträckare (Swedish), the names Hilleberg uses
+  - Line-Lok (Clamcleat brand), LineLoc 3 and Lineloc V (Nexus/Zpacks brand), Bar Tensioner (Lawson Equipment brand), Line Runner (Hilleberg brand)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: tensioning, reels & take-up, self-locking & anti-back-drive, clamping, magnetic & friction connections, quick-release & tool-free
+- **one_liner**: A small plate or block with holes (or a toothed groove) that a cord zig-zags through, so sliding it along the cord shortens or lengthens a loop, and the pull of the tight line makes it grip the cord by friction so the tension holds without a knot.
+- **complexity**: Single piece: one moulded, cut or drilled plate or bar with two or three holes, or a small body with a toothed V-groove (Line-Lok, LineLoc). Works together with the cord, a stopper knot in the cord's end, and the stake or loop the cord goes round. No springs or moving parts.
+- **how_it_works**: One end of the cord is tied to the tent; the other end goes round a stake (or through a loop), back up through the runner's holes, and is stopped with a knot (Hilleberg recommends an overhand knot; Lawson says thread one hole, then back through the other 'making a U. Tie a knot.'). Sliding the runner up the line makes the loop round the stake shorter, which tightens the line. When the line is loaded, the cord is bent sharply round the edges of the holes and pressed against the runner, and friction at each bend multiplies the grip (the capstan effect: resistance to slip grows exponentially with the angle of wrap and the friction coefficient, Wikipedia 'Capstan equation'), so the pull cannot drag the cord back through; a 1950 three-hole rope fastener patent puts it as 'the tighter the pull ... the greater will be the compression' (US 2,506,274). To loosen, you take the bends out by hand: Hilleberg says to 'pull the line from the Line Runner body', Litesmith's Line-Lok instructions say to 'pull the lines apart to release', and Lawson to 'twist the tensioner in the opposite direction'; the cord then slides freely. *(unverified parts omitted)*
+
+### Finder attributes
+
+- **job**: 
+  - tighten and hold tension: shortens a guy line and keeps it tight
+  - stop it moving back (one-way): once loaded, the line cannot pull back through, though you can push the runner further to tighten
+  - lock, and release by hand: pull the two strands apart or twist the runner to let the cord slide
+- **motion**: slide: the runner slides along the cord (or the cord through the runner) with no fixed steps; nothing moves once it is loaded
+- **degrees_of_freedom**: 1 while slack (the runner slides along the cord); effectively 0 once the line is loaded and the cord is jammed round the hole edges.
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): sliding it shortens the loop and it holds wherever you stop, with no knot to retie (Hilleberg; Litesmith on the Line-Lok)
+  - self-locking (holds under load, won't back-drive): the load itself presses the cord into the bends so it can't creep back (US 2,506,274)
+  - hand-release only (locks under load, releases when a person operates it): you straighten or twist the runner, or pull the two strands apart, to let it slide (Hilleberg; Litesmith on the Line-Lok; Lawson)
+  - one-way (moves freely one way, locks the other): only loosely; pushing it up the line tightens, while the line's pull only locks it harder
+- **holding_principle**: 
+  - friction or clamping (force-fit): the cord is bent round the hole edges and pinched against the plate; friction at each bend adds up (capstan effect); toothed versions also bite the cord with small teeth
+- **input_output**: not applicable: it holds a cord rather than passing motion on (back-drivable: no while loaded; yes once you take the bends out by hand)
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: loosen it by hand and slide it; it comes off the cord completely once the stopper knot is untied
+- **reuse_cycles**: effectively unlimited: the runner has no parts to wear out; the cord wears first, and some users find new, slick cord slips until its coating wears off (Hammock Forums)
+- **tools_needed**: none to use; a knife and a lighter to cut and seal the cord end before threading (Lawson: 'Cut and burn end of cord so it is not mushroomed')
+- **seal**: none: nothing makes it seal
+- **load**: Light: guy lines, tarp and awning lines. The cord usually sets the limit; Hilleberg's 2 mm guy line breaks at 60 kg (132 lb) and its 3 mm line at 85 kg (187 lb). Strong only as a pull along the cord; it slips under jerks or with thin or slick cord (Backpacking Light, Hammock Forums), much as the adjustable grip hitch it copies will 'slip when shock loaded until tension is relieved' (Wikipedia). *(unverified parts omitted)*
+- **adjustable**: yes: stepless; slide it up the line to tighten, or free the cord by hand and slide it back to slacken, any time the line is up
+- **play_and_precision**: No fixed positions (stepless), so there is no play as such, but it can creep a little under gusts or with slick or undersized cord (Backpacking Light; Hammock Forums). *(unverified parts omitted)*
+- **access_needed**: not applicable: it is threaded onto the free end of a cord; you only need to reach the line itself
+- **materials**: Runners: nylon (Clamcleat Line-Lok, per Trotac), other moulded plastics, and aluminium (Lawson's bar tensioners are 6061-T6 aluminium 'tumbled until they are silky smooth'; many three-hole runners are aluminium, e.g. Cord: suits braided cord of the right diameter (the mini Line-Lok sold by Litesmith 1.0-2.5 mm; Clamcleat CL260 2-5 mm; Zpacks Lineloc V 1-2 mm); slick cords such as Zing-It (Dyneema) slip in LineLoc 3s (Hammock Forums), and one user found '2mm line slips easily under tension' in a small tensioner advertised for thin line (Backpacking Light). Suits nylon or polyester tent fabric attachment points and any stake or tree. *(unverified parts omitted)*
+- **maker_difficulty**: easy: it is one small flat part with holes; print, laser-cut or drill one, then smooth the hole edges so they don't chafe the cord
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: supplied with most tents and sold in packs (plastic, nylon, aluminium)
+  - 3D print (FDM): prints flat in one piece in about 10 minutes (Vorpal's Printables model)
+  - CNC / sheet metal: drill or mill holes in aluminium plate or bar (Lawson's are machined 6061-T6 aluminium bar) *(unverified parts omitted)*
+- **print_in_place**: yes: it is a single solid part with nothing to assemble (e.g. Owen Grubb's CC BY Printables tensioner: 'No support needed')
+- **making_tips_3d_printing**: Print it lying flat, with the holes vertical, so the pull of the cord runs along the layers rather than trying to split them (FFF prints are 'stronger in one direction than another', Prusa). Size the holes to the cord: Lawson's machined runners use 3.2 mm (0.125 in) holes for 2-2.5 mm cord and 4.0 mm (0.156 in) holes for 3 mm cord, i.e. roughly 1.3-1.6 times the cord diameter; make a parametric model or print a few sizes and test on your actual cord (Vorpal's parametric FreeCAD model tested fine on ~4 mm 550 paracord and ~2 mm guyline). Smooth every edge the cord touches: Vorpal wet-sanded the outside with 180, 400 and 800 grit and ran a knife round the inside chamfer corners so the cord would not be damaged; chamfer the hole mouths rather than leaving sharp corners (Prusa notes chamfers print better than fillets on bed-facing edges). Use 100% infill for such a small, loaded part (Vorpal). Material: PETG or ASA for outdoor use; PLA 'gets soft and deforms at temperatures over 60 °C' and 'degrades under UV light', PETG suits outdoor use below 80 °C, and ASA resists UV and heat up to 93 °C (Prusa material pages). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Pair them with low-stretch guy cord of the matching size: e.g. Hilleberg's 2 mm and 3 mm Vectran/polyester guy line or reflective 3 mm cord. Related hardware sold alongside: stake loops, tarp ridgeline tensioners and elastic shock-cord tensioners. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Match the runner to the cord diameter: the mini Clamcleat Line-Lok sold by Litesmith takes 1.0-2.5 mm guylines; the CL260 Line-Lok takes 2-5 mm (Trotac, Premium Ropes); Zpacks Lineloc V 1-2 mm; Lawson 2 mm bar tensioner 'works best with 2-2.5mm cords', 3 mm version for 2-3 mm+ cords (maker and retailer pages).
+  - Hole size about 1.3-1.6 times the cord diameter: Lawson's runners use 0.125 in (3.2 mm) holes for 2-2.5 mm cord and 0.156 in (4.0 mm) holes for 3 mm cord (derived from Lawson Equipment's figures).
+  - Always finish the cord's end with a stopper knot so it cannot pull out of the runner: Hilleberg recommends an overhand knot; Lawson says 'Tie a knot.'
+  - Thin or slick cord slips: one user found '2mm line slips easily under tension' even in a tensioner advertised for thin line (Mole J, Backpacking Light, 2018); several users had Zing-It and 1.8 mm Reflect-It slip in LineLoc 3s while Lawson Glowire and 2 mm Zpacks Z-Line held, though others had no trouble (Hammock Forums, 2020-2022). Fix: use the runner's rated cord, or add 'a half hitch or slipped half hitch after adjusting' (Hammock Forums).
+  - More wrap means more grip but harder adjustment: holding power rises exponentially with the total angle the cord is wrapped through and the friction coefficient (Wikipedia, 'Capstan equation'), which is why the 1994 line-tensioner patent says earlier tighteners were 'rather difficult to adjust because of the frictional action of the rope in passing through the device' (US 5,351,367).
+  - Smooth all cord-contact edges: sand and deburr printed runners so they don't chafe the cord (Vorpal, Printables model 197700); Lawson tumbles its aluminium runners smooth.
+
+### When to use it
+
+- **everyday_examples**: 
+  - Tent guy lines: 'Most shelters, including tarps, come with tensioning hardware already' (Andrew Skurka's page); Hilleberg sells Line Runners sized for its 2 mm and 3 mm guy lines
+  - Tarp and hammock ridgelines and tie-outs (Hammock Forums; Zpacks LineLocs)
+  - Caravan awnings, gazebos, sports nets and radio-mast guys (Clamcleat Line-Lok uses, per Premium Ropes) *(unverified parts omitted)*
+- **when_to_use**: When a light line needs its length or tension adjusted often, quickly and without knots: tent and tarp guy lines, awnings, nets and small aerial masts. It is faster than retying a taut-line or adjustable grip hitch, works with gloves or mittens (Hilleberg, Litesmith), and lets you re-tension lines as fabric stretches or the weather changes. It is also a good first project to print or make, because it is one flat part.
+- **when_not_to_use**: Avoid it for heavy or safety-critical loads, or anything that must not slip under shock: it grips only by friction. Avoid it with cord that is thinner or slicker than it was made for, which slips (Backpacking Light; Hammock Forums). Where you want no hardware to lose, freeze or break, use knots such as the taut-line hitch, trucker's hitch or McCarthy hitch (Andrew Skurka dropped plastic tensioners because they 'froze up' in wet-and-freezing conditions, added weight and needed a specific cord width). For flat webbing use a ladder-lock buckle; for a quick one-handed grip on thicker rope use a cam cleat or clam cleat; for steel wire or rods use a turnbuckle.
+- **environment_limits**: Cold and ice: plastic runners can freeze up in wet-and-freezing weather (Andrew Skurka); Clamcleat says its nylon Line-Lok is made from 'a material that improves its performance the colder it gets' and was tested in winter in Greenland and summer in the Australian desert (Premium Ropes, Trotac). Heat and sunlight for printed runners: PLA softens above about 60 °C and degrades in UV; PETG is fine outdoors below about 80 °C; ASA resists UV up to 93 °C (Prusa). Cord effects matter more than the runner: new slick cord slips until its coating wears (Hammock Forums), and cord that stretches when wet loosens the line, so low-stretch cord helps (Hilleberg's guy line claims 'near zero stretch, minimal water absorption'). *(unverified parts omitted)*
+- **safety_notes**: Few hazards. A runner that slips lets a tent or tarp sag or flap in wind, so don't use one where a slipping line could drop something on people. Guy lines are hard to see at night and easy to trip over, which is why reflective guy cords are sold (e.g. Sharp-edged runners, especially cheap metal ones or unsanded prints, can fray cord until it breaks (Vorpal). *(unverified parts omitted)*
+- **common_failures**: Slipping: cord too thin or slick for the runner, or a brand-new coated cord (Backpacking Light; Hammock Forums); use the rated cord size, let new cord wear in, or add a half hitch. Cord pulls out: no stopper knot in the end (Hilleberg, Lawson); tie an overhand knot. Won't slide: cord too thick or fuzzy, or a burred hole; match sizes and smooth edges. Frayed cord: sharp hole edges (Vorpal); sand, chamfer or tumble them. Frozen or stuck in winter (Andrew Skurka); switch to knots or thaw it. Lost runner: without it you must fall back on knots. *(unverified parts omitted)*
+- **related**: 
+  - Taut-line hitch and adjustable grip hitch: knots that do the same job, sliding when slack and holding when loaded, with no hardware to lose, but slower to adjust and hard to make hold in slick modern fibres (Wikipedia)
+  - Trucker's hitch and McCarthy hitch: knots with a built-in pulley effect (mechanical advantage) for pulling a line much tighter, then tied off with a slipped half hitch; no hardware, but they use more cord (Andrew Skurka)
+  - Cord lock (spring toggle): a spring-loaded plunger pinches the cord; for drawstrings rather than tensioned lines
+  - Clam cleat and cam cleat (including the Line-Lok's toothed groove): grooves or spring cams that grip rope harder under load, for thicker rope and frequent one-handed release
+  - Ladder-lock buckle and tri-glide: the same slide-and-friction idea for flat webbing straps
+  - Binding-plate lock (tilting friction plate): a plate with a hole that tilts and bites on a rigid rod instead of a cord
+  - Turnbuckle: a threaded tensioner for wire and rods; stronger and finer, but slower
+  - Shock-cord (elastic) guy tensioner: stretches to keep lines tight as fabric moves, instead of holding a fixed length
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Hilleberg FAQ: How do I attach a line runner? / How do I use a line runner?](https://hilleberg.com/eng/resources/faqs/attach-linerunner): Six step photos of threading a triangular Line Runner (through the bottom hole, round the attachment point, through the top hole, overhand knot), plus two photos showing how to loosen it and lock the line into its channel *(licence: © Hilleberg the Tentmaker; link only)*
+  - [US 5,351,367: Line tensioner (Kennedy and Breeden, 1994), USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5351367): Drawings of a one-piece tensioner body with four bores that a line is looped through, and a background section on earlier line tighteners for guy ropes, tent ropes and sailing lines *(licence: US patent document; public domain in the US)*
+  - [US 2,506,274: Rope fastening device (Maxwell and Buchholtz, 1950), USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2506274): Drawings of a three-hole plate with ribs where a loop of rope pinches the other rope harder the harder it is pulled *(licence: US patent document; public domain in the US)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Tent guyline/paracord tensioner by Vorpal, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/197700-tent-guylineparacord-tensioner): A parametric FreeCAD runner whose hole sizes can be changed; tested on ~4 mm 550 paracord and ~2 mm guyline, printed in PETG at 100% infill in about 10 minutes, with advice on sanding edges smooth *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Guyline Tensioner by Owen Grubb, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/570465-guyline-tensioner): A simple one-piece tensioner for tents, tarps and ridgelines, 'Scalable to any diameter line you need', printed without supports *(licence: CC BY (Creative Commons Attribution))*
+  - [Camping Tent Rope Fastener Guyline Tensioner Lock 3 Holes by Soloo, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/275972-camping-tent-rope-fastener-guyline-tensioner-lock-): A printable copy of the classic three-hole rope tensioner *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Guyline cord tensioner hook by SaddamCZ, Printables](https://www.printables.com/model/39883-guyline-cord-tensioner-hook): A wrap-and-jam variant: the cord is hooked through, pulled tight, wrapped over the curved top and forced into a toothed slot; ideal for 3-4 mm cord at 100% scale (scaled to 75% for 2 mm), printed flat at 100% infill. Details read through the Printables public API; the URL appeared in search results. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))* *(unverified parts omitted)*
+- **diagram_idea**: Side view of a guy line running from the tent down round a stake and back up through a three-hole runner with a stopper knot, with an arrow showing the runner pushed up to shorten the loop, and a close-up showing the loaded cord bent sharply round the hole edges (red friction marks at each bend) versus the unloaded runner held straight so the cord slides.
+- **sources**: 
+  - https://hilleberg.com/eng/resources/faqs/attach-linerunner
+  - https://hilleberg.com/eng/products/accessories/guy-line
+  - https://www.lawsonequipment.com/products/bartensioners
+  - https://zpacks.com/products/lineloc-v-guy-line-adjuster
+  - https://www.litesmith.com/line-lok-guyline-adjusters/
+  - https://trotac.ca/clamcleat-cl260-line-lok/
+  - https://www.premiumropes.com/clam-cleat-260-clamcleat-line-lok-2-5mm-black-8st
+  - https://www.acecamp.com/3-hole-aluminum-guyline-adjusters/
+  - https://backpackinglight.com/forums/topic/guy-line-tensioner/
+  - https://www.hammockforums.net/forum/archive/index.php/t-160364.html
+  - https://andrewskurka.com/guyline-tension-system-backpacking-tents-tarps-hammocks/
+  - https://bushcraftuk.com/community/threads/guyline-tensioner-puzzle.160343/
+  - https://en.wikipedia.org/wiki/Capstan_equation
+  - https://en.wikipedia.org/wiki/Adjustable_grip_hitch
+  - https://en.wikipedia.org/wiki/Taut-line_hitch
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5351367
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/2506274
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/asa_1809
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/39883-guyline-cord-tensioner-hook
+  - https://www.thingiverse.com/thing:5669290
+  - https://www.youtube.com/watch?v=OI2Mg5BQ_mo
+  - https://www.youtube.com/watch?v=-tUnrz53Srg
+  - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=OI2Mg5BQ_mo&format=json
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, everyday_examples, how_it_works, links, load, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, safety_notes
 
 ## 155 Quick-release hooks (pelican hook, three-ring release)
 
@@ -957,29 +1353,663 @@
 
 *Also covers:* Also covers the snap shackle
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A hook or clip that holds a heavy pull on a rope, chain or strap, but lets go the moment you pull a pin, knock a ring, tug a lanyard or yank a cable, even while the load is still pulling
+- **term**: Quick-release hook (slip hook, release-under-load connector)
+- **aliases**: 
+  - pelican hook (named for its beak-like look); gate hook or lifeline pelican hook (the small pin-locked kind on yacht lifeline gates); pelican hook chain stopper
+  - Senhouse slip / slip hook (British names for the ring-held hinged hook)
+  - three-ring release / 3-ring release system / 3-ring riser release / cutaway system (skydiving); mini rings and large rings are its two sizes
+  - snap shackle / quick release snap shackle / spinnaker shackle (spring-plunger shackle opened by a pull ring or lanyard)
+  - trigger shackle / trigger snap shackle; Triggersnap (Ronstan brand)
+  - panic snap / quick-release snap (horse tack)
+  - tow release / tow hook / Tost release (glider launching; Tost is a brand)
+  - cargo hook / release hook / payload release / drop hook (drones and helicopters)
+  - on-load release hook (lifeboats)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: quick-release & tool-free, locks, latches & catches, self-locking & anti-back-drive, powered & active connectors
+- **one_liner**: A hinged hook, jaw or stack of rings that carries a big load through its strong parts while a small latch (a sliding ring, spring pin, trigger or cord loop) keeps it shut, so a small, deliberate pull on the latch releases the load instantly.
+- **complexity**: A few parts to a small assembly that acts as one unit. Pelican hook: a body with an eye, a hinged tongue (the 'beak'), a sliding ring (bail) that holds the tongue shut, and often a locking pin on a lanyard. Snap shackle: a body with a fixed or swivel eye, a hinged jaw, a spring-loaded plunger pin (piston) and a pull ring or lanyard; trigger types use a latch opened with a fid or release spike. Three-ring release: a large ring on the harness, a middle ring and a small ring sewn to the webbing riser, a cord loop, a grommet, and a semi-rigid release cable in a housing leading to a handle (Wikipedia).
+- **how_it_works**: The load is carried by the strong hinged part (tongue, jaw or ring) and the body, not by the latch; the latch only has to stop the hinged part swinging open. Because the hinge acts as a lever, the latch feels only a fraction of the load, so a small push or pull frees it. On a pelican hook the ring slides over the tip of the tongue; when the ring is knocked or slid off, the tongue flies open (Practical Boat Owner, 'Senhouse slip'; Wikipedia). On a snap shackle 'a piston and spring arrangement ... latches the hinged shackle closed' (Practical Sailor); pulling the lanyard draws the piston back and the jaw swings open. In a three-ring release each ring passes through the next larger one and folds back, so each ring acts as a lever on the next and 'multiplies the mechanical advantage'; the smallest ring is held by a cord loop, the loop by a thin cable, and pulling the cable out makes the whole stack 'cascade free' (Wikipedia). Well-designed releases make the release force nearly independent of the load: Pope's patent routes axial loads through 'heavy axial jaws and not ... directly to the locking pin' (US 4,613,180), and Tylaska's shapes the latch contact as a logarithmic spiral so the release force stays the same whatever the tension (US 5,195,223).
+
+### Finder attributes
+
+- **job**: 
+  - lock, and release by hand: holds a heavy load and lets it go when a person pulls a pin, ring, lanyard or cable
+  - join and hold: connects a rope, chain or strap to an eye, ring or harness
+  - hold or release using power: some versions are released by a servo or actuator, e.g. drone payload drops and RC glider tow hooks (Printables models)
+- **degrees_of_freedom**: 0 while latched (a swivel eye, where fitted, adds free turning about the pull line); after release the jaw or tongue has 1 (it swings on its hinge) and the load is free.
+- **special_behaviour**: 
+  - quick-release: one pull on a pin, ring, lanyard or cable frees the load instantly, even under full tension (pelican hooks and trigger shackles are 'capable of being released under load', Sea-Dog, Ronstan)
+  - hand-release only (locks under load, releases when a person operates it): it cannot open by itself under a straight pull; someone must operate the latch, sometimes from a distance through a lanyard or cable
+  - fail-safe or breakaway: some variants release automatically, e.g. Tost glider centre-of-gravity releases open at 'a defined cable angle' during winch launches, and Tylaska's patent describes a version that works as a reusable 'weak link' at a set tension (US 5,195,223)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): a closed hook, jaw or interlocked rings surround the ring, chain link or strap
+  - spring force (a spring or springy part presses it in place): snap shackles and panic snaps keep their latch closed with a spring
+  - powered hold: servo or solenoid releases hold the latch with an actuator *(unverified parts omitted)*
+- **input_output**: not applicable: it holds and releases a load rather than passing motion on (the latch is a lever that reduces the load it sees: 'Each ring in the series multiplies the mechanical advantage', Wikipedia on the 3-ring release)
+- **power**: passive (no power needed) for pelican hooks, snap shackles, three-ring releases and panic snaps. *(unverified parts omitted)*
+- **removability**: tool-free quick release: a pull on a ring, pin, lanyard or handle; large chain-stopper pelican hooks are knocked open with a maul (sledgehammer), and loaded trigger shackles are opened with a fid or release spike
+- **reuse_cycles**: many times: it is reset by closing the jaw and refitting the ring, pin or loop. Three-ring releases need the rings, loop and cable re-rigged and checked each time (Wikipedia); lifeboat hooks need careful resetting (Safety4sea); a printed PLA cargo hook cracked from the shock of one heavily loaded release (firstgizmo, Printables).
+- **tools_needed**: none for small hooks and shackles; a maul or sledgehammer for large pelican hooks (Wikipedia; US Navy Seaman training manual); a fid or release spike to open a loaded trigger shackle (Ronstan: 'always use a release spike when opening a loaded shackle'). Fitting may need a splice, shackle or sewing (three-ring risers).
+- **seal**: none: nothing makes it seal
+- **load**: Medium to very heavy, and strongest as a straight pull. Examples: a 70 mm Wichard HR snap shackle has a working load of 880 kg and a breaking load of 1,500 kg; the Tylaska T12 trigger shackle is rated for a '6,000-pound safe working load' (Practical Sailor); pelican hook chain stoppers range from 10 to 100 tonnes safe working load (Beaver Engineering); Tost glider releases take 14.1 kN of cable force. Weak points: side and twisting loads on snap shackles (Wikipedia 'Shackle': 'not as secure as any other form of shackle'), and anything that knocks or depresses the latch.
+- **adjustable**: no: it is either latched or released; length and tension are set by the chain, strap or rigging it is fitted to
+- **play_and_precision**: not applicable: it doesn't locate parts. Snap shackles and panic snaps usually have a swivel eye so the load can turn freely; a three-ring release depends on close tolerances in the riser webbing, and poorly made ones lose their mechanical advantage (Wikipedia)
+- **access_needed**: one side only (blind): the latch is worked from the outside, often from a distance by a lanyard, trip line, handle and cable, or servo
+- **materials**: Printed light-duty versions: PLA (firstgizmo's cargo hook), usually with a steel pin and a compression spring (Doormat_1's snap shackle). It connects to rope (spliced eyes), chain links, webbing loops, rings and eyebolts. *(unverified parts omitted)*
+- **maker_difficulty**: moderate: light-duty printed snap shackles and release hooks are simple to print and assemble with a spring, pin and screws, but anything that holds people or heavy, falling loads must be a rated, bought part
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the normal route for anything carrying real load (pelican hooks, snap shackles, trigger shackles, three-ring riser sets, glider tow releases)
+  - 3D print (FDM): light-duty snap shackles, pelican hooks and remote-release cargo hooks, assembled with metal pins, springs and screws (Printables models) *(unverified parts omitted)*
+- **print_in_place**: no: printed versions are separate parts assembled with a spring, a metal hinge pin or bolt, and a split ring or wire (Jackson's and Doormat_1's snap shackles; firstgizmo's cargo hook uses glue or M3 bolts)
+- **making_tips_3d_printing**: Design so the load runs through the body and hinge, not through the latch pin: that is what keeps the release force small and constant (Pope, US 4,613,180; Tylaska, US 5,195,223). Print loaded parts on their side so the layers run along the direction of pull: Jackson's printable snap shackle says 'Print all components on their side for strongest layer orientation' and uses 100% infill for the hinge pin and gate pin; Doormat_1 warns that a pin printed standing up 'can break apart along the layer lines' and suggests replacing it with M6 threaded rod. Use metal where you can: a steel hinge bolt, a compression spring on the gate pin (Doormat_1 used an 11 mm OD, 8 mm ID, 25 mm spring) and a split ring for the pull. Expect the release itself to be the hardest moment: firstgizmo's PLA cargo hook held about 50 kg of bricks for 15 minutes, but 'the violent release of tension cracked the hooks main body', so use more perimeters or a tougher material (PETG, nylon) and keep people clear of the load path. Supports are usually needed inside tubes and pockets (Doormat_1). PLA softens above about 60 °C and degrades in UV; use PETG or ASA outdoors (Prusa).
+- **off_the_shelf_parts**: Search for: 'pelican hook' (lifeline gate hook, 'machine swage lifeline pelican hook', 'pelican hook chain stopper'); 'snap shackle' (fixed eye, swivel eye, large bail, 'quick release snap shackle', 'HR snap shackle'); 'trigger shackle' or 'Triggersnap' plus a 'release spike' or fid; 'panic snap' (horse tack); '3-ring riser' / 'mini 3-ring' / 'cutaway handle and cable' (skydiving suppliers; for trained riggers only); 'tow release' (Tost E and G series for full-size gliders; servo tow releases for RC gliders); 'servo payload release' (drones). Related hardware: quick-release pins (ball-lock pins), D-shackles and soft shackles.
+- **rules_of_thumb**: 
+  - Keep the load off the latch: in a good design axial loads 'are supported by the heavy axial jaws and not transferred directly to the locking pin so that minimal release force is required even under heavy loads' (Pope, US 4,613,180); Tylaska's latch surface is a logarithmic spiral so 'the force necessary to release the mechanism is substantially independent of the tension' (US 5,195,223).
+  - Plain pelican hooks are hard to release under strong tension: the simple 'pelican' fitting 'is particularly difficult to release once under strong tension' (US 5,195,223); big ones are knocked open with a sledgehammer or maul (Wikipedia; US Navy manual).
+  - Take the load off the pin before pulling it on a lifeline pelican (gate) hook: 'Squeeze the Pelican Hook/ Gate Hook ... FIRST', because pulling the pin hard under load 'can cause the ring to break and the pin to come shooting out' (captnmike.com).
+  - Ordinary snap shackles are not meant for big loaded releases: used that way a snap shackle 'will work rather poorly (hard to release) and is likely to have the pin assembly or the split ring fail' (Wikipedia, 'Shackle'). Use a trigger shackle opened with a fid or release spike: Practical Sailor needed 'just 5 pounds of push to insert a fid' to open a Tylaska T12 'with 1,000 pounds of tension in the line'.
+  - Rated working load is roughly 60% of breaking load for marine snap shackles: Wichard HR 70 mm swivel snap shackle, working load 880 kg, breaking load 1,500 kg (Wichard product page).
+  - Maintain three-ring releases regularly: disconnect and flex the risers, check the rings for cracks or corrosion, and remove, clean and lubricate the cable, 'typically with silicone based lubricant' (Wikipedia).
+  - Where people's lives depend on it, add redundancy against accidental release: helicopter rescue systems use a belly band or dual hook so that 'two distinct actions [are] required to release the load' (Wikipedia, 'Helicopter flight rescue system'). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Yacht lifeline gates held shut by a small pelican (gate) hook with a pin on a lanyard (captnmike.com; Sea-Dog)
+  - Spinnaker sheets and halyards on sailing boats, clipped on with a quick-release snap shackle (Wichard, Practical Sailor)
+  - Horse trailer ties with a panic snap, which can be released even when a panicking horse is pulling back (Wikipedia, 'Panic snap')
+  - A skydiver's harness, where a three-ring release lets a malfunctioning main parachute be cut away with one pull (Wikipedia)
+- **when_to_use**: When a load must be let go fast, on purpose, while it is still pulling: cutting away a tangled parachute, dropping a tow line from a glider or a tug, releasing a sail or spinnaker, freeing an anchor chain, letting a panicking animal go, dropping a payload from a drone or model aircraft, or opening a lifeline gate. Also when the release has to happen from a distance, through a lanyard, cable or servo (Tylaska's patent lists gliders, barges and sails as typical uses).
+- **when_not_to_use**: Avoid it where an accidental release would be dangerous and a person could bump, snag or vibrate the latch: use a screw-pin shackle, locking carabiner or a knot instead, or add a second, independent attachment (helicopter rescue systems use a belly band or dual hook, Wikipedia). Don't use an ordinary spring-gate carabiner or snap hook when you need to open it under load; they cannot be opened while loaded. Don't use a plain snap shackle for releasing big loads; use a trigger shackle with a release spike (Ronstan, Practical Sailor). Don't use a printed release for people, heavy or falling loads.
+- **environment_limits**: Salt water: precipitation-hardened stainless steels used in snap shackles can suffer 'pitting, rust, and crevice corrosion' where imperfections break the passive layer (Practical Sailor); 'Rust should be polished clean and inspected with a magnifying lens' (Practical Sailor). Wear and poor adjustment: lifeboat on-load release hooks 'can become extremely unstable due to minor wear tolerances or poor adjustment of release cables which could trigger unexpected releases' (Safety4sea). Three-ring releases: stiff or twisted riser webbing and hard cable housings can jam a cutaway, and replacing Lolon-F cable coatings with Teflon compounds 'caused both cracking and cable stripping problems' (Wikipedia). Printed releases: PLA softens above about 60 °C and degrades in sunlight; PETG is fine outdoors below about 80 °C; ASA resists UV up to 93 °C (Prusa).
+- **safety_notes**: Stored energy: a line or chain under load leaps free when released, and 'leads or ropes under load can flail when freed' (Wikipedia, 'Panic snap'); stand clear of the load path, as in the US Navy anchor drill where the seaman with the maul 'knocks the bail off the tongue of the pelican hook and steps clear'. A pelican hook pin pulled under load can fly out, and a half-seated pin can let a lifeline gate 'pop open with no warning', risking someone going overboard (captnmike.com). Unexpected release of lifeboat hooks has caused deaths (Safety4sea). Opening a loaded trigger shackle with a finger is dangerous; use a fid or spike to keep fingers clear (Practical Sailor). Never trust a printed or unrated release with a person's weight or with anything that could fall on people.
+- **common_failures**: Won't release under load: plain pelican hooks and ordinary snap shackles jam when heavily loaded (US 5,195,223; Wikipedia 'Shackle'); choose a release designed to open under load and keep it lubricated. Pin or split ring breaks when forced (Wikipedia 'Shackle'; captnmike.com): take the load off first, or use a lanyard or spike. Opens by accident: ring or pin not fully seated (captnmike.com), wear or poor cable adjustment (Safety4sea), or a latch knocked or snagged; seat the latch fully and add a keeper or backup. Three-ring cutaway is hard or fails: mis-rigged rings, stiff or twisted risers, dirty or cracked cable (Wikipedia); flex, inspect and lubricate regularly. Corrosion and pitting in marine stainless (Practical Sailor). Printed release cracks from the shock of a heavy release (firstgizmo).
+- **related**: 
+  - Spring-gate hook (carabiner, snap hook): the same hook-and-gate idea, but the gate cannot be opened while loaded; for joining rather than releasing
+  - Screw-pin and bolt shackles (D-shackles): stronger and more secure, but need a pin unscrewed with the load off
+  - Quick-release pin (ball-lock pin): a push-button pin through a clevis; releases a pinned joint rather than a hook
+  - Toggle and becket, soft shackle: rope versions that can be undone by hand, usually without load
+  - Cam cleat and clam cleat: let a rope run free with one flick, but only for loads a person can hold
+  - Shear-pin coupling (breakaway link): lets go automatically at a set overload instead of on command
+  - Draw latch (over-centre latch): a lever that snaps shut and flips open, for lids and panels rather than rope loads
+  - Electropermanent magnet and solenoid latches: powered releases with no moving hook
+  - Capewell release: the older parachute riser release that Bill Booth's three-ring system largely replaced (Wikipedia, 'Cut-away' and 'Bill Booth')
+
+### Pictures, videos and models
+
+- **links**: 
+  - [3Ring release animation.gif, Wikimedia Commons (by Acodered; featured picture)](https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif): Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large rings cascading apart so the riser comes off the harness *(licence: CC BY-SA 3.0 or GFDL 1.2+ (choose one); credit Acodered)*
+  - [Nimitz Sailor Trips Pelican Hook During Resupply At Sea, Wikimedia Commons (US Navy photo)](https://commons.wikimedia.org/wiki/File:Nimitz_Sailor_Trips_Pelican_Hook_During_Resupply_At_Sea_(8857697).jpg): A sailor tripping (releasing) a large pelican hook during a replenishment at sea *(licence: Public domain (US federal government work))*
+  - [Splice on snap shackle.jpg, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Splice_on_snap_shackle.jpg): A brass snap shackle spliced to a line, showing the hinged jaw, plunger and pull ring *(licence: GFDL 1.2+ or CC BY-SA 3.0 / 2.5 / 2.0 / 1.0 (choose one))*
+  - [US 5,195,223: Quick release apparatus (Tylaska, 1993), USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5195223): Side-view drawing of a latch bar, spring-loaded latch holder and ground bar under tension, plus a background section comparing pelican fittings and snap shackles *(licence: US patent document; public domain in the US)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Cargo hook with quick release by firstgizmo, Printables](https://www.printables.com/model/295782-cargo-hook-with-quick-release): A printed hook released by turning a small side lever, remotely via a string; the maker says the release force is 'verry small and independent from the load'; designed for repeated 15 kg loads, held about 50 kg for 15 minutes, but cracked on a violent release. Details read through the Printables public API; the URL appeared in search results. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Snap Shackle by Jackson, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/470481-snap-shackle): A light-duty printed snap shackle with a spring on the gate pin and a wire or split ring to retain it; print on the side, 100% infill for the pins; 200% scale was a useful working size *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Quick Release Snap Shackle by Doormat_1, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/193865-quick-release-snap-shackle): Pull the pin and the latch opens; made to drop egg-drop experiments from a beam; uses an M6 bolt, nut, split ring and an 11 mm compression spring, with M6 threaded rod suggested if the printed pin is too weak *(licence: CC BY (Creative Commons Attribution))*
+  - [pelican hook (consolidated parts) by HeavyMetalGuy, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/483367-pelican-hook-consolidated-parts): A printable pelican hook for hanging things, remixed from a design by Kerrybg, with a nub that stops the ring sliding off *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [RC Glider Tow Release by Mr-J, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/11208-rc-glider-tow-release): A servo-operated tow release for 1-3 m wingspan RC gliders and tow planes: a printed body and pivot arm worked by a 9-12 g micro servo, with two short 1-2 mm steel wires and an M3 screw *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+- **diagram_idea**: Two side-by-side cut-aways: (1) a pelican hook whose hinged tongue is held by a sliding ring, with arrows showing the big load going through the hinge and body and only a small force on the ring, then the ring knocked off and the tongue swinging open; (2) a three-ring stack drawn as a chain of levers, with the force shrinking at each ring from the full load down to a tiny force on the cord loop held by the cable.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Pelican_hook
+  - https://en.wikipedia.org/wiki/3-ring_release_system
+  - https://en.wikipedia.org/wiki/Shackle
+  - https://en.wikipedia.org/wiki/Panic_snap
+  - https://en.wikipedia.org/wiki/Davit
+  - https://en.wikipedia.org/wiki/Helicopter_flight_rescue_system
+  - https://en.wikipedia.org/wiki/Bill_Booth
+  - https://en.wikipedia.org/wiki/Cut-away
+  - https://www.pbo.co.uk/nautical-almanac/glossary-of-nautical-terms/senhouse-slip-9616
+  - https://www.iala.int/wiki/dictionary/index.php/Senhouse_slip_(GB)
+  - https://navyadministration.tpub.com/14067/css/Letting-Go-86.htm
+  - https://captnmike.com/2014/06/23/pelican-hooks/
+  - https://sea-dog.com/groups/298-pelican-hook
+  - https://beavereng.com.au/mooring-equipment/pelican-hooks/
+  - https://www.practical-sailor.com/sails-rigging-deckgear/tylaska-tops-in-snap-shackles/
+  - https://www.ronstan.com/us/news/post/how-to-choose-triggersnap-or-snapshackle
+  - https://marine.wichard.com/en/stainless-steel-hardware/snap-hooks/quick-release-snap-shackles/with-swivel-eye/part-2673
+  - https://www.tost.de/tow-releases/?lang=en
+  - https://safety4sea.com/common-safety-errors-lifeboat-systems/
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5195223
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4613180
+  - https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif
+  - https://commons.wikimedia.org/wiki/File:Nimitz_Sailor_Trips_Pelican_Hook_During_Resupply_At_Sea_(8857697).jpg
+  - https://commons.wikimedia.org/wiki/File:Splice_on_snap_shackle.jpg
+  - https://www.youtube.com/watch?v=AWONTAEadH4
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/295782-cargo-hook-with-quick-release
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/asa_1809
+
+### Other info
+
+- **Fields with unverified parts:** holding_principle, links, materials, motion, power, processes, rules_of_thumb
 
 ## 156 Spring-gate hook (carabiner, snap hook, lobster clasp)
 
 *cord, strap, webbing & textile hardware.* A hook with a spring-loaded gate that snaps shut behind a ring or rope, sometimes with a screw or twist lock on the gate
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A metal (or plastic) hook or loop with a little springy door: push the door in to slip a ring, rope or strap inside, let go and it snaps shut so the thing can't fall out; some have a collar you screw or twist to lock the door
+- **term**: Spring-gate hook (carabiner, snap hook)
+- **aliases**: 
+  - carabiner / karabiner (from German Karabinerhaken, 'carbine hook'); biner, krab, crab; climbing clip; snap-link
+  - snap hook / spring snap / spring hook; locking snaphook (fall protection)
+  - locking carabiner: screwgate (screw-lock), twist-lock, push-lock, auto-locking, magnetic lever lock ('Magnetron', a brand name), double gate
+  - wire gate / wiregate, solid gate, straight gate, bent gate, keylock (keylock nose)
+  - D, offset-D, oval and pear / HMS carabiners (shapes)
+  - mini-carabiner / carabiner keyring / 'not for climbing' clip
+  - bolt snap / trigger snap / swivel snap / double-ended bolt snap (sliding-bolt gate, e.g. dog leads)
+  - lobster clasp / lobster hook / lobster claw / trigger clasp / bocklebee clasp (jewellery)
+  - piston hank (sail hank with a sliding piston gate)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: quick-release & tool-free, snap & clip fits, locks, latches & catches
+- **one_liner**: A closed loop or hook with a spring-loaded gate that swings or slides open to let a rope, ring or strap in and then springs shut to trap it, joining the two in a second without tools; a screw or twist collar can lock the gate.
+- **complexity**: A few parts: a one-piece body (spine, basket and nose); a gate (a solid bar with a coil spring and pin inside it, or a single bent spring-steel wire that is both gate and spring); a hinge rivet; and, on locking types, a screw or spring-loaded twist sleeve. A bolt snap has a hook body, a sliding bolt, a compression spring and usually a swivel ring (Wikipedia 'Bolt snap'). A lobster clasp has a curved body, a small lever and a tiny spring (Wikipedia 'Lobster clasp').
+- **how_it_works**: A spring holds the gate against the nose of the hook, closing the loop. The load is meant to run along the solid spine: an asymmetric D shape 'transfers the majority of the load on to the spine' (Wikipedia). With the gate closed and seated in the nose, the gate helps carry load, so climbing carabiners must hold at least 20 kN closed but only 7 kN with the gate open (EN 12275, via Wikipedia). Locking types add a sleeve that must be screwed, twisted or pushed before the gate can move, so a rope or snag cannot open it (Wikipedia; OSHA 1926.502). *(unverified parts omitted)*
+
+### Finder attributes
+
+- **job**: join and hold: clips a rope, sling, ring, strap or chain link to something else, lock, and release by hand: opens with one finger (or a twist of the locking sleeve) and cannot be opened by the load
+- **degrees_of_freedom**: The gate has 1 (it swings or slides). The clipped part is loosely captured: it can slide round the loop and turn freely, but cannot leave while the gate is shut; D shapes steer the load toward the spine (Wikipedia).
+- **special_behaviour**: 
+  - quick-release: clips on and off in a second, one-handed, with no tools
+  - hand-release only (locks under load, releases when a person operates it): a loaded hook can't be unclipped (a bolt snap 'cannot be removed under normal tensile load conditions even with the gate open', Wikipedia); locking types also need the sleeve undone first
+  - none of the other special behaviours: it does not slip, click, tension or release on its own
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the closed loop surrounds the ring or rope
+  - spring force (a spring or springy part presses it in place): a coil spring, the bent wire gate itself, or a compression spring behind a bolt keeps the gate shut
+- **input_output**: not applicable: it holds rather than passing motion on
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: push the gate (after unscrewing or twisting the lock, if fitted) and lift it off, once the load is off
+- **reuse_cycles**: effectively unlimited: until the gate spring weakens, the locking sleeve jams, or rope wear cuts grooves and sharp edges into the body (DMM; Wikipedia on spring fatigue in auto-locking sleeves)
+- **tools_needed**: none
+- **seal**: none: nothing makes it seal
+- **load**: From very light to heavy, depending on type. Jewellery lobster clasps and keyring clips are light-duty; bolt snaps 'are not generally load rated' and suit loads 'the user can lift' (Wikipedia). Certified climbing carabiners hold at least 20 kN along the spine with the gate closed, 7 kN gate open and 7 kN across the gate (minor axis) (EN 12275 and ASTM F1774, via Wikipedia); fall-protection snaphooks must hold 5,000 lb (22.2 kN) and be proof-tested to 3,600 lb (16 kN) (OSHA 1926.502). Strong only as a straight pull along the spine; weak when cross-loaded, pulled off-axis (about half strength in a Black Diamond test) or nose-hooked (can fail at 'less than 2 kN', Black Diamond).
+- **adjustable**: no: it only joins or unjoins; screw or twist locks set whether the gate can open, not position or tension
+- **play_and_precision**: not applicable: it is a loose, free-moving link; the clipped item can shift round the loop, which is why D shapes are used to keep the load near the spine (Wikipedia)
+- **access_needed**: one side only (blind): you only need to reach the hook and its gate; the thing it clips to needs no access from behind
+- **materials**: Climbing and rescue: aluminium alloy (lighter, most sport carabiners) or steel (heavier, industrial and rescue) (Wikipedia). Marine and diving bolt snaps: stainless steel or brass with a stainless spring; light-duty keyring and bag snaps: chrome-plated zinc or plastic (Wikipedia 'Bolt snap'). 3D-printed light-duty clips: PETG preferred for a springy gate, PLA works, nylon-carbon fibre is strongest (n.leinad's break tests). It clips to rope, webbing slings, rings, chain links, bolt hangers and D-rings. *(unverified parts omitted)*
+- **maker_difficulty**: easy for light-duty clips (many one-piece print-in-place designs exist); impossible to make safely at home for anything that holds a person, so buy certified hardware for that
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: by far the normal route; forged aluminium or steel carabiners, stamped or cast snap hooks and clasps
+  - 3D print (FDM): popular one-piece print-in-place clips with a flexing plastic gate, and multi-part screwgate designs
+  - 3D print (resin): possible, but weakest in n.leinad's break test (85 ± 20 kg) *(unverified parts omitted)*
+- **print_in_place**: yes: many printable carabiners print fully assembled with a springy plastic gate and nothing to add (e.g. Boo_Ray's and Bench's one-piece designs; Hugo's print-in-place screwgate); partly for designs that need a metal spring or a glued-on part
+- **making_tips_3d_printing**: Use a slightly flexible material for the gate: n.leinad's 'Suicide Carabiner' uses PETG as 'a good compromise between flexibility and strength'; PLA works but is not recommended. Don't print hotter than needed for good layer adhesion: n.leinad warns that higher temperatures reduce the plastic's elasticity and make the part brittle, which matters most at the gate's bending section. For strength use many perimeters, since stress is highest at the outer shells: n.leinad used a 0.6 mm nozzle, 0.3 mm layers, 10 perimeters, 4 top/bottom layers and 50% infill; Luvem Studio's screw-lock carabiner recommends five or more walls. Print the body lying flat so the loop is drawn round in each layer and the pull runs along the extrusions, not across layer lines (FFF prints are 'stronger in one direction than another', Prusa; a pin printed upright 'can break apart along the layer lines', Doormat_1). Tolerances don't scale: if you scale a design, the gate may need lengthening by about 2% with a one-axis scale to close properly (n.leinad); print-in-place screwgates need an accurate printer and good first-layer adhesion, perhaps a raft (Hugo). A little silicone grease helps the hinge (n.leinad). Break loads after six months' ageing for the same design: PLA 162 ± 2 kg, PETG 165 ± 4 kg, BASF PAHT-CF15 nylon-carbon 350 ± 5 kg, resin 85 ± 20 kg (n.leinad). Every such design is 'NOT FOR CLIMBING'. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'carabiner' (non-locking, screwgate, twist-lock / auto-lock, wire gate, keylock, HMS / pear, offset D; check for EN 12275 or UIAA marking); 'locking snap hook' or 'double-action snap hook' (fall protection, ANSI Z359 / EN 362); 'snap hook' / 'spring snap'; 'bolt snap' (single or double-ended, swivel eye, stainless or brass); 'lobster clasp' plus 'jump rings' (jewellery); 'mini carabiner keyring' (light use only). Related: 'quick link' / maillon (screw-closed link), 'swivel eye snap shackle', 'piston hank'.
+- **rules_of_thumb**: 
+  - Certified climbing carabiners: at least 20 kN along the spine with the gate closed and 7 kN with the gate open (EN 12275:1998), and 20 kN long axis / 7 kN short axis (ASTM F1774) (Wikipedia, 'Carabiner'). So open-gate and cross-loaded strength is only about a third of the rated closed strength.
+  - A nose-hooked carabiner 'can fail at less than 10% of its rated closed gate strength - that's less than 2 kN' (Black Diamond QC Lab); always check the gate is closed and the carabiner is seated.
+  - Off-axis loading roughly halves strength: a Black Diamond VaporLock broke at 21.8 kN loaded normally but at 10.63 kN when the sling was forced to the edge of the basket (Black Diamond QC Lab, off-axis loading).
+  - For work at height, 'only locking type snaphooks shall be used'; snaphooks must have 5,000 lb (22.2 kN) tensile strength and be proof-tested to 3,600 lb (16 kN), and must not be clipped to objects that could 'depress the snaphook keeper and release itself' (OSHA 29 CFR 1926.502(d)).
+  - Bolt snaps and keyring clips are for light loads: bolt snaps 'are not generally load rated' and suit loads 'the user can lift' (Wikipedia, 'Bolt snap'); mini-carabiners are usually stamped 'not for climbing' (Wikipedia, 'Carabiner').
+  - Lighter gates flutter less: wire gates, with less gate mass, are 'less prone to gate flutter' and icing (Wikipedia; WeighMyRack), and a locking carabiner removes the risk (WeighMyRack).
+  - Inspect and clean: the gate should spring back 'to a fully closed position with good nose/gate alignment' with 'no excessive side-to-side play'; wash in water at most 30 °C with mild detergent, hang 'with the gate opening uppermost' to drain, oil the hinge, and 'Do not use graphite powder' (DMM).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A carabiner keyring clipped to a belt loop or bag
+  - A dog lead's clip (usually a swivel bolt snap) on the collar ring (Wikipedia 'Bolt snap')
+  - The clasp on a necklace or bracelet (lobster clasp) (Wikipedia)
+  - Climbing quickdraws, and the snap hooks on bag straps and luggage (Wikipedia)
+- **when_to_use**: When you need to clip and unclip something often, quickly and one-handed, and the item only needs to be held captive rather than clamped: keys, bags, dog leads, gear on a harness or backpack, jewellery, tarp and hammock suspension, rope rigging and climbing (with certified hardware). Choose a locking type when an accidental opening would matter, a wire gate for light weight and less icing, and a bolt snap for small, one-handed marine or diving clips.
+- **when_not_to_use**: Avoid it when you must release the load while it is still pulling (use a snap shackle, pelican hook or other quick-release hook). Avoid non-locking gates wherever a rope, strap or edge could push the gate open or where the hook could be loaded across the gate or over an edge: use a locking carabiner, a screw-closed quick link (maillon) or a shackle. Never use a keyring, bolt snap or 3D-printed carabiner for climbing, lifting people or anything overhead. For a permanent or rigid joint, use a bolt, pin or shackle instead.
+- **environment_limits**: Dirt, sand, ice and salt make gates and locking sleeves stick; twist-locks are 'prone to both spring fatigue' and to becoming 'balky from dirt, ice, or other contamination', and twist-lock sleeves 'sometimes jam, getting stuck after being tightened under load' (Wikipedia). Wire gates are 'less prone to icing up' (Wikipedia). Clean in water at most 30 °C and dry gate-up so the spring chamber drains (DMM). Rope running over aluminium wears grooves that can become sharp edges (DMM checks for 'abrasion, excessive wear, sharp edges'). Printed clips: PLA softens above about 60 °C and degrades in sunlight; PETG suits outdoor use below about 80 °C; *(unverified parts omitted)*
+- **safety_notes**: Life-safety use needs certified hardware: mini-carabiners 'are not load-tested' and are usually stamped 'not for climbing' (Wikipedia), and printed ones are explicitly 'NOT FOR CLIMBING' (n.leinad). A hook can 'roll out' when the connected object presses the gate open (OSHA 1926.502 bans clipping to incompatible objects for this reason). Cross-loading, nose-hooking and off-axis pulls can break a carabiner at a small fraction of its rating (Black Diamond QC Lab). Gate flutter or 'shutter' can briefly open a non-locking gate during a fall (WeighMyRack). Retire any carabiner that is cracked, bent, badly worn or has a sticky gate: 'If you are in any doubt it should be taken out of service' (DMM). *(unverified parts omitted)*
+- **common_failures**: Gate sticks or doesn't close fully: dirt, grit or a tired spring; clean, oil the hinge and check it snaps shut (DMM). Twist-lock sleeve jammed after being tightened under load (Wikipedia). Accidental opening: a rope or edge pushes the gate (roll-out; OSHA), gate flutter or shutter (WeighMyRack), or a sleeve left unlocked; use lockers or orient the gate away from rock and edges. Breaks below its rating: cross-loaded, off-axis or nose-hooked (Black Diamond QC Lab). Worn grooves and sharp edges that damage rope (DMM). Cheap zinc or plastic snaps bend or break under loads they were never rated for (Wikipedia 'Bolt snap'). Printed clips: gate cracks at its flex point if printed too hot or in brittle material, or the body splits along layers if printed standing up (n.leinad; Doormat_1).
+- **related**: 
+  - Quick-release hooks (pelican hook, snap shackle, three-ring release): can be opened while the load is still pulling, which a spring-gate hook cannot
+  - Quick link (maillon): a screw-closed link that is stronger across its gate but slower to open (listed under 'See also' in Wikipedia's 'Carabiner')
+  - D-shackle and pin shackle: bolt-closed and stronger, needing a pin to be unscrewed
+  - S-hook and open hook: no gate at all, so things can fall off
+  - Cantilever snap fit: the same springy-latch idea moulded into plastic parts
+  - Side-release buckle: a springy plastic latch for joining two straps, released by squeezing
+  - Magnetic clasp: magnets instead of a spring gate, for light jewellery and bags
+  - Piston hank: a snap hook with a sliding piston gate for attaching sails to a stay (Wikipedia 'Bolt snap')
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Assorted Biners.jpg, Wikimedia Commons (by Zakabog)](https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg): Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength rating marking in the centre *(licence: CC BY-SA 3.0)*
+  - [Lobsterclasp.jpg, Wikimedia Commons (by Modulatum)](https://commons.wikimedia.org/wiki/File:Lobsterclasp.jpg): Close-up of a silver lobster clasp showing its lever *(licence: Public domain)*
+  - [Single end and double end bolt snaps, Wikimedia Commons (by Peter Southwood)](https://commons.wikimedia.org/wiki/File:Single_end_and_double_end_bolt_snaps_PA210120.jpg): A large swivel-ring single-ended bolt snap and a short double-ended bolt snap, showing the sliding bolt gates *(licence: CC BY-SA 4.0)*
+  - [QC Lab: Weakness of Nose-Hooked Carabiners (Black Diamond)](https://blackdiamondequipment.com/blogs/stories/qc-lab-weakness-of-nose-hooked-carabiners): Photos of carabiners broken in closed-gate, open-gate, minor-axis and nose-hooked tests, showing where each one fails *(licence: © Black Diamond; link only)* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [The Suicide Carabiner by n.leinad, Printables](https://www.printables.com/model/267210-the-suicide-carabiner): A climbing-inspired D carabiner designed for FDM printing, with a sliding, self-closing plastic gate; includes print settings and aged break-test results (PLA 162 kg, PETG 165 kg, PAHT-CF15 350 kg, resin 85 kg); explicitly not for climbing. Details read through the Printables public API; the URL appeared in search results. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Parametric One-piece Print-in-place Carabiner by Bench, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/1807048-parametric-one-piece-print-in-place-carabiner): An OpenSCAD Customizer model of a one-piece, support-free, print-in-place carabiner with a pre-tensioned printed spring gate, based on Boo_Ray's design *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Single & Dual Locking Carabiner (Parametric) by squinn, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/570851-single-dual-locking-carabiner-parametric): Parametric Fusion 360 model of standard and dual screwgate carabiners with a print-in-place pivot, in several sizes *(licence: CC BY (Creative Commons Attribution))*
+  - [Screw Lock Carabiner by Luvem Studio, Printables](https://www.printables.com/model/95972-screw-lock-carabiner): A very popular printable locking carabiner; the maker recommends five or more walls and supports in marked areas, and warns 'Do not use for climbing!'. Details read through the Printables public API; the URL appeared in search results. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Screwgate Carabiner (Print-in-place) by Hugo, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/565999-screwgate-carabiner-print-in-place): A print-in-place screwgate carabiner with spring-back gate action; needs an accurate printer and good bed adhesion *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+- **diagram_idea**: A D-shaped carabiner drawn three times: (1) a finger pushing the gate inward so a rope slips in, (2) the gate snapped shut against the nose with the load arrow running down the spine (green, 20 kN), and (3) the same carabiner cross-loaded and nose-hooked with red arrows and much smaller strength numbers, plus small insets of a bolt snap's sliding bolt and a lobster clasp's lever.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Carabiner
+  - https://en.wikipedia.org/wiki/Bolt_snap
+  - https://en.wikipedia.org/wiki/Lobster_clasp
+  - https://blackdiamondequipment.com/blogs/stories/qc-lab-weakness-of-nose-hooked-carabiners
+  - https://blackdiamondequipment.com/blogs/stories/qc-lab-off-axis-and-tri-quad-axial-loading
+  - https://blog.weighmyrack.com/gate-flutter-and-gate-shutter-explained/
+  - https://us.dmmwales.com/blogs/knowledge/carabiner-inspection-and-maintenance
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.502
+  - https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg
+  - https://commons.wikimedia.org/wiki/File:Lobsterclasp.jpg
+  - https://commons.wikimedia.org/wiki/File:Single_end_and_double_end_bolt_snaps_PA210120.jpg
+  - https://www.youtube.com/watch?v=_6EhzJGCA_s
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/267210-the-suicide-carabiner
+  - https://www.printables.com/model/95972-screw-lock-carabiner
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/asa_1809
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, how_it_works, links, making_tips_3d_printing, materials, motion, processes, safety_notes
 
 ## 157 Hook-and-loop fastener
 
 *cord, strap, webbing & textile hardware.* Two fabric strips, one with tiny hooks and one with loops, that stick together when pressed and peel apart
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Two fabric strips, one covered in tiny hooks and one in soft fuzzy loops, that grab each other when you press them together and rip apart when you peel them
+- **term**: Hook-and-loop fastener (touch fastener)
+- **aliases**: 
+  - Velcro (brand name of Velcro Companies, widely used as a generic name)
+  - hook-and-pile fastener
+  - touch fastener (the term used in ASTM test standards)
+  - hook and loop tape / hook and loop strips, dots or coins
+  - sew-on hook and loop; adhesive-backed or sticky-back hook and loop
+  - back-to-back hook and loop / wrap strap / cable-tie strap; ONE-WRAP (Velcro brand)
+  - Scotchmate (3M brand)
+  - mushroom-head reclosable fastener / snap-together fastener (the plastic-stem variant); Dual Lock (3M brand), Duotec (brand)
+  - Quiet Closures (silent version)
+  - Klettband / Klettverschluss (German)
+  - Metaklett (steel version)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: quick-release & tool-free, snap & clip fits
+- **one_liner**: A pair of strips, one with thousands of tiny springy hooks and one with a pile of soft loops, that cling together wherever they are pressed and can be peeled apart and closed again thousands of times.
+- **complexity**: A few parts: two mating tapes. The hook tape carries tiny springy hooks (woven nylon loops cut open into J-shaped hooks, or moulded plastic hooks); the loop tape carries a pile of soft loops (woven, knitted or non-woven). Each tape has a backing that is sewn on, stuck on with pressure-sensitive adhesive, or screwed, riveted or moulded on. Variants: back-to-back straps with hooks on one face and loops on the other, and 'mushroom' tapes with plastic stems whose caps snap into each other (both halves identical).
+- **how_it_works**: Pressing the two strips together pushes thousands of small hooks into the loop pile, and each hook catches a loop at random (there is no need to line them up). A single hook is weak, but spread over a large area they add up. Sliding the strips along each other (shear) loads many hooks at once, and hooks that slip can catch new loops, so it is strongest that way; pulling straight apart is weaker; and peeling from one edge loads only one row of hooks at a time, so it opens easily, with the typical ripping sound. The hooks bend open to let go and spring back, so it can be closed again many times.
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds fabric, foam, straps and light panels or objects together or onto a surface
+  - lock, and release by hand: press to close, peel to open, with no tools
+  - tighten and hold tension: a strap can be pulled to any length and pressed down (cable wraps, shoe straps, braces)
+- **motion**: none: it is a holding joint; the backings may bend, and opening is a peel
+- **degrees_of_freedom**: 0 once pressed together (the two strips can't slide or lift while engaged); before closing, the strips can be placed anywhere over each other, so position is set at closing time rather than by the part
+- **special_behaviour**: 
+  - quick-release (peels open by hand and closes again with a press)
+  - tensioning (on a strap, it holds at whatever length you pull it to; a strap wrapped through a slot and back halves the force on the strip, like a pulley, and puts the load in shear; Wikipedia)
+  - fail-safe or breakaway (under overload, especially a peel, it lets go instead of tearing the parts; tag rugby and flag football rely on this)
+- **holding_principle**: shape (the hooks catch the loops; form-fit), with spring force (the hooks and, in mushroom types, the stems flex to engage and spring back); the tapes themselves are fixed by sewing, adhesive (material bond) or screws
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: peels apart by hand; the tapes themselves are semi-permanent (sewn or glued on)
+- **reuse_cycles**: many times: 3M rates nylon hook to nylon loop at 5,000 closures before it loses half its peel strength; mushroom-head (Dual Lock) types are rated at 1,000 cycles to half strength (3M data sheets)
+- **tools_needed**: To use: none. To fit: scissors to cut it to length, plus a sewing machine (or needle and thread) for sew-on tape, or a clean surface, isopropyl alcohol and a roller for adhesive-backed tape; screws or rivets for some rigid types.
+- **seal**: none: it is open fabric and lets air, water and dust through
+- **load**: light: roughly 1 to 20 lb per square inch (about 0.07 to 1.4 kg per square centimetre) depending on direction, type and whether the load is brief or constant. Strong in sliding (shear), medium when pulled straight apart (tension or cleavage between rigid parts), weak in peel. Example for 3M nylon hook and loop: 15 lb/in² dynamic shear, 9 lb/in² straight pull apart, but only 1.0 lb per inch of width in a flexible-to-flexible peel (3M SJ3403/SJ3404). Mushroom-head types are much stronger in tension (about 43 lb/in² for 3M Dual Lock 250/250).
+- **adjustable**: yes: it holds wherever the pieces overlap, so position and strap tension can be changed each time it is closed; you can also add or remove area to change strength
+- **play_and_precision**: not applicable as a locator: it holds wherever it is pressed, so the parts don't return to exactly the same place; it tolerates large misalignment (any overlap engages); a soft pile has some give, so parts can shift slightly under load
+- **access_needed**: one side only (blind): each half is fixed to its own part, and it closes with a press and opens with a peel from the outside; adhesive-backed pieces can be stuck onto a surface you can only reach from the front
+- **materials**: Usually woven nylon hooks and loops (longest cycle life); polyester for outdoor and wet use (better UV resistance, works when wet, shorter cycle life; Halco); polypropylene low-profile hook on back-to-back straps; polyolefin stems on mushroom types (3M Dual Lock); special aerospace tapes with PTFE (Teflon) loops, polyester hooks and glass backing (Wikipedia); a steel version exists (Metaklett). Sew-on tape suits fabric, webbing and leather; adhesive-backed tape (for example with acrylic adhesive) needs clean, dry, smooth surfaces such as most rigid plastics, metal, glass, painted wood and 3D prints; highly textured, rough or porous surfaces, or surfaces with silicone mould release, may need light abrading, an adhesion promoter or a sealer, or a mechanical fixing (3M SJ60L data sheet).
+- **maker_difficulty**: easy: buy tape, cut it with scissors, then sew it, stick it or screw it on; printing your own hook-and-loop is moderate (it needs good layer adhesion and fine settings)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the usual choice (sew-on or adhesive-backed tape, dots, coins, straps and cable wraps)
+  - sewing (textiles): sew-on tape stitched onto fabric, webbing or leather
+  - 3D print (FDM): fully printed hook-and-loop-style pads (small posts that snag each other) in PETG, or printed parts with slots or flat pads for bought straps and tape
+  - woodwork, laser cut, CNC and sheet metal: make the rigid parts that adhesive-backed or screw-on tape is fixed to
+- **print_in_place**: no: printed hook-and-loop is two separate printed pads (each prints complete in one piece, without supports) that are pressed together after printing
+- **making_tips_3d_printing**: Attaching bought tape to prints: use adhesive-backed tape on a clean, flat, smooth face (wipe with isopropyl alcohol), apply with firm pressure (3M suggests about 310 g/cm² or 4.5 psi, e.g. with a roller) with parts at 20-38 °C, round the corners, roll the edges down, and recess the tape slightly or add a raised rim so the edges can't lift (3M SJ60L data sheet). Highly textured surfaces reduce adhesion (3M), so stick the tape to the smoothest face of the print, such as the face printed against the bed. For straps, design a slot the strap can loop through so the load is in sliding (shear) instead of peel. Printing the fastener itself: the best-tested designs use rows of tiny posts or towers with overhanging heads. Teaching Tech's parametric OpenSCAD model (a remix of MM Printing's and eried's designs) recommends PETG at 0.28-0.3 mm layers; a little stringing actually helps the halves grip, and interlayer strength must be good or the tiny towers snap off. Keep pads that must peel thin and flexible. In Teaching Tech's tests TPU didn't lock well and PETG worked best (Hackaday, 2023); MM Printing advises against TPU unless the base is PLA, PETG or ABS, and prints with no supports, 0.3 mm layers and 100% infill. Because the printed pattern is regular rather than random, the halves need lining up more carefully than fabric hook-and-loop. For flexible printed straps, soft PLA or TPU straps with printed hooks that catch a mesh also work (ElastoStraps, Nothing Labs).
+- **off_the_shelf_parts**: Hook and loop tape (sew-on / plain back; adhesive-backed with rubber or acrylic adhesive), hook and loop dots and coins, back-to-back hook and loop (cable wraps and ties, e.g. ONE-WRAP), hook and loop straps with buckles or D-rings, industrial reclosable fasteners (3M Scotchmate), mushroom-head reclosable fasteners (3M Dual Lock, in stem densities of about 170, 250 and 400 per square inch), flame-resistant, high-temperature and chemical-resistant grades, and polyester (outdoor/marine) grades. McMaster-Carr lists them as 'Hook and Loop', 'Hook and Loop Straps' and 'Snap-Together Fasteners' (mushroom heads). Search terms: 'hook and loop tape sew-on', 'adhesive back hook and loop', 'back-to-back hook and loop', 'reclosable fastener', 'mushroom head fastener'.
+- **rules_of_thumb**: 
+  - Design so the load slides the strips along each other (shear), not so it peels them from an edge: typical 3M nylon hook and loop takes about 15 lb/in² in dynamic shear and 9 lb/in² pulled straight apart between rigid parts, but only 1.0 lb per inch of width in a flexible-to-flexible 'T' peel, 2.7 lb/in in a 90° peel and 9.0 lb/in in cleavage between rigid parts (3M SJ3403/SJ3404 data sheet, https://multimedia.3m.com/mws/media/796373O/hook-and-loop-fasteners-sj3403-and-sj3404.pdf).
+  - For a long-term hanging load, count on much less than the dynamic figures: the same 3M pair held 2.2 lb/in² in static shear and 1.1 lb/in² in static tension for 10,000 minutes without failing, at room temperature and at 100 °F / 100% humidity (same 3M data sheet).
+  - Three ways to make a flexible join stronger: more area, force parallel to the strip (for example bending it round a corner or pulley), and more hooks and loops per unit area (Wikipedia, 'Velcro', Strength section, https://en.wikipedia.org/wiki/Velcro).
+  - Expect about 5,000 open-close cycles for nylon hook to nylon loop before peel strength halves (3M SJ60L data sheet, https://multimedia.3m.com/mws/media/2366389O/3m-loop-fastener-tape-sj60l.pdf) and about 1,000 for mushroom-head Dual Lock (3M SJ3550 data sheet, https://multimedia.3m.com/mws/media/2366370O/3M-Dual-Lock-Reclosable-Fastener-SJ3550.pdf).
+  - Adhesive-backed nylon tape is rated for long-term use up to about 82 °C (180 °F) (3M SJ60L); apply at about 310 g/cm² (4.5 psi) to clean surfaces between 20 and 38 °C, and round corners or roll edges down to stop edge lifting (same 3M data sheet).
+  - For mushroom-head Dual Lock, don't pair the lowest density with itself (too weak) or the highest with itself (so strong that stems and heads can rip out); 250 to 250 is the usual pairing (3M SJ3550 data sheet).
+  - Sew-on tape: use a 14/90 to 16/100 needle, polyester thread, 8-10 stitches per inch and a box stitch round all edges about 1/16 inch in; never sew adhesive-backed tape, as the glue gums up the needle (Velcro sew-on guide on iTapeStore, https://www.itapestore.com/sewing-guide-velcro-brand-hook-loop-sew-on/; Brother warns that thin 65/9-75/11 needles may bend or break, https://support.brother.com/g/b/faqend.aspx?c=us_ot&lang=en&prod=hf_cp100xeus&faqid=faqh00101524_000).
+  - Printed hook-and-loop: PETG at 0.28-0.3 mm layer height, with good interlayer strength (Teaching Tech, Printables model 568587, read via the Printables API).
+
+### When to use it
+
+- **everyday_examples**: children's shoes and trainers with hook-and-loop straps, reusable cable ties and cord wraps, orthopaedic braces, bag closures and jacket pocket flaps, guitar pedals held onto a pedalboard
+- **when_to_use**: When you want a join you can open and close by hand, quickly and often, without lining anything up: pockets, flaps, straps that need adjusting, wrapping cables, holding a remote, battery pack or controller onto a surface, removable covers and cushions, and light panels or trim. It suits fabric and flexible parts, fixes at any position, is quiet to fit (no holes needed with adhesive-backed tape) and gives way gently if overloaded.
+- **when_not_to_use**: Not for heavy or safety-critical loads, or where the join is pulled in peel (use a buckle, snap, clip or screws). Not where it must locate parts precisely (use pins or a keyed fit). Not in dusty, hairy or linty places or near knitwear, where the hooks clog or snag (use magnets, press studs or a zipper). Not for sealing (use a zipper with a sealed tape, or a gasket). For rigid parts that need a firm, rattle-free, click-shut join, a mushroom-head fastener (Dual Lock type) or magnets are better; for high temperatures use screws or a metal fastening.
+- **environment_limits**: Water: nylon absorbs water and doesn't fasten as well when wet; polyester works when wet (Halco). Sunlight: nylon withstands UV less well than polyester, so use polyester outdoors (Halco). Dirt: lint, hair and dust build up in the hooks over months and weaken it (Wikipedia). Wear: loops stretch or break with long use (Wikipedia). 3M's nylon pair held a static load for 10,000 minutes at 100 °F / 100% humidity without failing. Printed PETG versions share PETG's heat limit. *(unverified parts omitted)*
+- **safety_notes**: Nylon hook and loop burns: the Apollo 1 investigation cited almost 34 square feet of Velcro near the ignition source as part of the flammable material in the cabin fire (Wikipedia); use flame-resistant grades near heat or in oxygen-rich settings (McMaster-Carr lists flame-resistant types). The hook side snags hair, knitwear and loosely woven fabric, which can be damaged when pulled off (Wikipedia; Velcro advises keeping the hook side covered). Don't rely on it to hold anything that could fall and hurt someone.
+- **common_failures**: (1) Loaded in peel instead of shear, so it unzips from one edge: route straps through a slot or round a corner, or use a bigger area. (2) Hooks clogged with lint and hair: clean them with a stiff brush or another piece of hook, and close it before washing (Velcro care advice). (3) Loops worn flat or stretched after long use: replace the loop side (Wikipedia). (4) Adhesive backing peeling off, especially at corners, on rough or dirty surfaces or in heat: clean with isopropyl alcohol, press hard, round the corners, recess the tape or add screws or rivets at the corners (3M). (5) Sewing adhesive-backed tape gums up the machine needle: buy sew-on tape (Brother). (6) Printed hooks snapping off because of weak layer adhesion, or TPU versions not locking: print in PETG with well-tuned settings (Teaching Tech; MM Printing).
+- **related**: 
+  - Mushroom-head reclosable fastener (3M Dual Lock type): plastic stems with mushroom caps that snap together with an audible click; much stronger and more rattle-free on rigid parts, but fewer cycles (about 1,000)
+  - Zipper (slide fastener): closes a long opening edge to edge in one pull and resists peeling, but isn't adjustable in position
+  - Press stud (snap fastener): holds at fixed points only, doesn't clog with lint, and survives washing well
+  - Side-release buckle and ladder-lock buckle: for straps that carry real loads or must stay shut when pulled
+  - Magnet joint (embedded magnets, magnetic catch): for rigid parts that should snap into the same position every time, with no fibres to clog
+  - Double-sided foam tape: a near-permanent sticky bond instead of a reclosable one
+  - Hook-and-eye closure: the full-size ancestor, one hook to each eye, placed one by one (Wikipedia) *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Velcro Hooks.jpg (Wikimedia Commons, Alexander Klink, 2010)](https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg): Close-up photo of the hook side, showing the tiny J-shaped hooks *(licence: CC BY 3.0)*
+  - [Velcro Loops.jpg (Wikimedia Commons, Alexander Klink, 2010)](https://commons.wikimedia.org/wiki/File:Velcro_Loops.jpg): Close-up photo of the loop side, showing the soft pile of loops *(licence: CC BY 3.0)*
+  - [Micrograph of hook and loop fastener (Wikimedia Commons, Natural Philo, 2005)](https://commons.wikimedia.org/wiki/File:Micrograph_of_hook_and_loop_fastener,(Velcro_like).jpg): Low-power microscope photo of hooks caught in loops *(licence: CC BY-SA 3.0)*
+  - [3M Dual Lock.jpg (Wikimedia Commons, Stebanoid, 2013)](https://commons.wikimedia.org/wiki/File:3M_Dual_Lock.jpg): Photo of the mushroom-head variant, whose plastic stems snap into each other *(licence: CC BY-SA 3.0)*
+  - [3D printed velcro is something you have to try (Teaching Tech, YouTube; title and channel confirmed via YouTube oEmbed, not watched)](https://www.youtube.com/watch?v=5rzHbZ7zt-w): Video testing several fully 3D-printed hook-and-loop designs in PLA, PETG and TPU *(licence: link only)*
+- **make_it_yourself**: 
+  - [Parametric 3D printable velcro by TeachingTech (Printables 568587; URL seen in search results, details read via the Printables public API)](https://www.printables.com/model/568587-parametric-3d-printable-velcro): Fully printable hook-and-loop-style pads in OpenSCAD, with parameters for size, pattern, interference fit and base thickness; print in PETG at 0.28-0.3 mm layers *(licence: CC BY-NC)*
+  - [Printable Velcro by MM Printing (Printables 543802; link taken from the Teaching Tech model description read via the Printables API) (URL from Printables API, page not opened)](https://www.printables.com/model/543802-printable-velcro): The contest-winning printable hook-and-loop design, with a version that has mounting tabs for straps or screws; no supports, 0.3 mm layers *(licence: CC BY-NC)*
+  - [3d Printed Hook / Loop Fasteners (ElastoStraps) - Nothing Labs](https://nothinglabs.com/3d-printed-hook-loop-fasteners-elastostraps/): Stretchy printed straps with hooks that catch a mesh, made in OpenSCAD and customisable on Thingiverse (thing 178234) *(licence: not stated on the page)*
+  - [Hook & Loop Prints contest (Printables; URL seen in search results, not opened)](https://www.printables.com/contest/397-hook-loop-prints): Printables' hook-and-loop themed contest, in which MM Printing's printable hook-and-loop design was the winning entry (according to Teaching Tech's model description) *(licence: per model)*
+- **diagram_idea**: A side-view close-up in three frames: (1) a row of J-shaped hooks above a tangle of loops; (2) pressed together, with hooks caught in loops; (3) two arrows comparing a sideways slide (many hooks loaded, labelled 'strong: shear') with a peel from one edge (one row loaded, labelled 'weak: peel').
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Velcro (Hook-and-loop_fastener redirects here; read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Metaklett
+  - https://multimedia.3m.com/mws/media/796373O/hook-and-loop-fasteners-sj3403-and-sj3404.pdf
+  - https://multimedia.3m.com/mws/media/2366389O/3m-loop-fastener-tape-sj60l.pdf
+  - https://multimedia.3m.com/mws/media/2366370O/3M-Dual-Lock-Reclosable-Fastener-SJ3550.pdf
+  - https://www.velcro.com/news-and-blog/2023/02/how-do-velcro-brand-fasteners-work/
+  - https://www.velcro.com/business/product-care/
+  - https://www.velcro.com/products/electronics-organization/one-wrap-ties/
+  - https://www.halcousa.com/choosing-a-halco-nylon-or-polyester-hook-and-loop-fastener-for-outdoor-use/
+  - https://www.itapestore.com/sewing-guide-velcro-brand-hook-loop-sew-on/
+  - https://support.brother.com/g/b/faqend.aspx?c=us_ot&lang=en&prod=hf_cp100xeus&faqid=faqh00101524_000
+  - https://www.mcmaster.com/products/hook-and-loop/
+  - https://hackaday.com/2023/09/04/3d-printed-um-hook-and-loop-fasteners/
+  - https://nothinglabs.com/3d-printed-hook-loop-fasteners-elastostraps/
+  - https://www.printables.com/model/568587-parametric-3d-printable-velcro (read via https://api.printables.com/graphql/)
+  - https://www.printables.com/model/543802-printable-velcro (read via https://api.printables.com/graphql/)
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/watch?v=5rzHbZ7zt-w (title confirmed via YouTube oEmbed)
+  - https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg
+  - https://commons.wikimedia.org/wiki/File:Velcro_Loops.jpg
+  - https://commons.wikimedia.org/wiki/File:Micrograph_of_hook_and_loop_fastener,(Velcro_like).jpg
+  - https://commons.wikimedia.org/wiki/File:3M_Dual_Lock.jpg
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, related
 
 ## 158 Zipper (slide fastener)
 
 *cord, strap, webbing & textile hardware.* Two rows of teeth that a slider meshes together or separates as it moves, closing a long opening in one pull
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Two strips of fabric edged with rows of little teeth, and a sliding tab that locks the teeth together or unlocks them as you pull it along
+- **term**: Zipper (slide fastener, zip fastener)
+- **aliases**: 
+  - zip / zip fastener (UK)
+  - slide fastener (standards and trade term)
+  - clasp locker (Judson's original 1893 name) and hookless fastener (early Talon name)
+  - coil zipper / nylon zipper / spiral zipper (teeth formed by a plastic coil)
+  - molded plastic or injection-molded zipper; VISLON (YKK brand)
+  - metal zipper (brass, aluminium or nickel teeth)
+  - invisible or concealed zipper; reverse coil zipper
+  - separating or open-end zipper (with insertion pin and retainer box); two-way zipper
+  - waterproof, water-repellent, airtight or pressure-tight zipper (drysuits, spacesuits)
+  - zipper chain / zipper by the yard (the continuous teeth-and-tape without a slider); stringer (one half)
+  - Y-zipper / three-sided zipper (experimental 3D-printed version)
+  - Reißverschluss (German)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: quick-release & tool-free, seals & pass-throughs
+- **one_liner**: Two rows of interlocking teeth on fabric tapes, closed or opened in a single pull by a slider whose Y-shaped channel squeezes the teeth together one by one or wedges them apart.
+- **complexity**: A small assembly that acts as one unit: two stringers (each a fabric tape with a row of teeth, called elements, which are separate metal or plastic teeth or a continuous plastic coil); a slider (body with a Y-shaped channel, and a pull tab, sometimes with spring-loaded locking pins); top stops; and a bottom stop, or on a separating zipper an insertion pin and a retainer (pin) box instead.
+- **how_it_works**: Each tooth has a bump on one side and a hollow on the other, and the teeth on the two rows are staggered so they alternate. Pulling the slider to close funnels the two rows down its Y-shaped channel so that each tooth is pressed into the gap between two teeth opposite and springs slightly to nest its bump in their hollows (Sundback's 'contractible jaw'). Once nested, pulls across the zipper or along it can't unhook the teeth, so it holds. Pulling the slider the other way drives the wedge at the fork of the Y between the rows and unhooks them one at a time. Locking sliders have a pin on the pull or on a spring that drops between the teeth so the slider can't creep open.
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins two edges of fabric, leather, plastic sheet or a tarp along their whole length
+  - lock, and release by hand: opens and closes a long opening in one pull, with no tools
+  - seal it, or pass cables or fluid through: special coated or sheeted versions keep out water or hold air pressure (drysuits, survival suits, spacesuits)
+- **motion**: slide: the slider travels along the chain; the closed zipper stays flexible and can bend (coil zippers bend round curves best)
+- **degrees_of_freedom**: 1 for the slider (it slides along the chain). Once closed, the two rows can't pull apart or slide along each other (0), although the whole chain can still bend and twist with the fabric.
+- **special_behaviour**: 
+  - quick-release (a separating zipper comes completely apart, and any zipper opens in one pull)
+  - self-aligning or self-centring (the slider's Y-shaped channel guides each tooth into the right gap, so you don't line them up by hand)
+  - hand-release only (with a locking or auto-lock slider, the pins between the teeth stop the slider creeping open under load until someone lifts the pull; Wikipedia)
+- **holding_principle**: shape (the teeth interlock; form-fit), helped by spring force (the teeth flex slightly to snap into place, and auto-lock sliders use a small spring to push their locking pins between the teeth)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release to open and close; the tapes are usually sewn in, which is semi-permanent (replacing a zipper means unpicking and re-sewing)
+- **reuse_cycles**: many times: made to be opened thousands of times, but Wikipedia notes the zipper is often the least durable part of a garment, mostly because the slider wears; a 3D-printed Y-zipper test survived more than 18,000 zipping cycles before the teeth broke off their bridges (Li et al., CHI 2026)
+- **tools_needed**: To use: none. To fit: a sewing machine or needle and thread; some zippers are heat-welded or have adhesive backing (for tarps and plastic sheeting). To repair: pliers (to squeeze a worn slider), or a replacement slider or top stops.
+- **seal**: none for ordinary zippers: water and air pass through the chain. Water-repellent zippers with a laminated film resist splashes but are not waterproof (YKK's AquaGuard, 'water may leak through the slit'). Watertight and airtight or pressure zippers, used on drysuits and spacesuits, have waterproof sheeting on each row that is squeezed together above and below the teeth when closed (Wikipedia).
+- **load**: light to medium: strong across the closed chain (crosswise pull), since the teeth interlock; weaker at the ends, at a separating zipper's insertion pin and box, and wherever the slider is worn. Bigger chain sizes are stronger. It has no strength when open, and a slider without a lock can be pulled down by a crosswise load. The printed Y-zipper, as a rigid rod, carried about 11-18 kg in a bending test (Li et al., CHI 2026). *(unverified parts omitted)*
+- **adjustable**: partly: it can be left part-open at any point, and two-way zippers can open from either end (for example to sit down in a long coat); it doesn't adjust tension or fit
+- **play_and_precision**: not applicable as a locator: it joins edges but doesn't position parts precisely. The closed chain has little play across its width but stays flexible; coil zippers bend round curves best and molded-tooth zippers are stiffer and better for straight runs (Trivantage). If the two stringers have different tooth spacing (for example from mixing halves of different zippers), the closed zipper curves or ends up with uneven lengths (YKK).
+- **access_needed**: one side only (blind): you work it from the side the pull is on; sewing it in needs access to both sides of the fabric
+- **materials**: Teeth: polyester coil (formerly nylon), injection-moulded plastic (mostly polyacetal (POM), sometimes polyethylene), or metal (brass, aluminium, nickel alloys) (Wikipedia). Tapes: woven polyester or cotton. Sliders: die-cast metal (zinc per Trivantage; Wikipedia says often magnesium) or plastic. Joins fabric, leather, canvas, tarps and plastic sheeting. Printed zippers: PLA (stiffer, carries more load) or TPU (more pliable) (Li et al., CHI 2026); PETG, ABS or PLA for printed sliders and parts.
+- **maker_difficulty**: moderate: bought zippers are cheap, but sewing one in neatly takes a sewing machine and practice; printing a working zipper is hard (fine teeth and tight tolerances), while printing a replacement slider, pull or retainer box is moderate
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the usual choice (finished zippers, or continuous chain by the yard with matching sliders and stops)
+  - sewing (textiles): stitched into fabric, canvas or leather; some are heat-welded or have adhesive backing
+  - 3D print (FDM): replacement sliders, pulls and retainer boxes, whole printed zippers with holes for sewing, and research designs such as the Y-zipper, which can also be printed straight onto fabric
+- **print_in_place**: partly: in LoboCNC's 'Zippy Bag Clip' the two rows of pivoting teeth print in place but need 40 filament hinge pins and a separately printed slider; most other printed zippers (FunkyArt's zipper, the Y-zipper) print as flat strips plus a slider and are threaded together after printing
+- **making_tips_3d_printing**: Replacement slider (the most useful print): MisterJ's two-part slider fits onto the existing chain without unpicking the ends and comes in many chain widths for standard and reverse zippers. His second version prints the connecting pin upright so it no longer relies on layer adhesion (Hackaday notes the orientation puts the layer lines at right angles to the load). Print with a 0.4 mm nozzle, 0.2 mm layers (the model is designed in 0.2 mm steps), 3 walls and 5 top and bottom layers; if it doesn't fit, scale it in X in 0.1-0.2 mm steps; the pin may need light sanding. Whole printed zipper: FunkyArt's PLA zipper prints at 0.1-0.14 mm layers with a very slow first layer; don't press the halves together by hand, because that can break teeth; thread both halves into the slider from the upside-down end so they meet in the right curve. Print-in-place teeth: LoboCNC's bag clip uses a 0.2 mm vertical gap with 0.2 mm layers, and pins cut from 1.75 mm filament, because printed-in-place pins had too much slop. Y-zipper (MIT CSAIL): ball-and-socket tolerances of 0.2-0.8 mm gave reliable closure; ball diameters above 2.8 mm needed more than 15 N to zip; TPU bridges 0.4-2.0 mm thick balanced flexibility and strength (thicker bridges raised the bending load from about 11 kg to 18 kg); PLA was stiffer and carried more load, TPU was more pliable; the design can be printed straight onto fabric; failure came at the joint between teeth and bridges. Printed retainer box: one maker printed a replacement zipper box in ABS and fixed it with a dab of Duco cement (Hackaday, 2018).
+- **off_the_shelf_parts**: Finished zippers (closed-end, open-end/separating, two-way, invisible, reverse coil, water-repellent, waterproof and airtight), continuous zipper chain by the yard in coil (e.g. YKK Ziplon), molded plastic (e.g. YKK Vislon) or metal, with matching sliders (sized #3, #5, #8, #10 and so on; locking, non-locking, auto-lock, reversible, double-pull), pulls, top and bottom stops, pin-and-box sets, repair kits, and adhesive-back zippers for tarps and plastic sheeting (McMaster-Carr 'Zippers' and 'Adhesive-Back Zippers'). Search terms: 'zipper by the yard', '#5 coil zipper chain', '#10 molded tooth zipper', 'zipper slider #5', 'separating zipper', 'waterproof zipper', 'zipper repair kit'.
+- **rules_of_thumb**: 
+  - The size number is roughly the width of the closed chain in millimetres (a #5 chain is about 5 mm wide, wider than a #3), and the slider must match the chain's number and type, e.g. a #8 chain needs a #8 slider, and coil and molded-tooth chains need their own sliders (Trivantage zipper guide, https://www.trivantage.com/zipper-guide).
+  - Coil zippers bend well round curves (boat covers, U-shaped openings); molded-tooth zippers are stiffer and work better on straight runs; plastic teeth with plastic sliders are best for salt water, since metal zippers rust (same Trivantage guide).
+  - Iron zippers no hotter than about 160 °C for coil and 130 °C for YKK's molded Vislon type, with the zipper closed and a cloth on top; weld or iron water-repellent zippers below about 140-150 °C (YKK Zipper Usage Instruction Manual, pp. 04 and 21-22, https://ykkamericas.com/wp-content/uploads/2021/10/ykk-zipper-instruction-manual-compressed.pdf).
+  - Close zippers fully before washing: a part-open zipper pulled sideways in the machine can have its teeth torn off (YKK manual, p. 16).
+  - When sewing a coil zipper, fold the top tape extension at least 5 mm from the first tooth so a cut tooth end can't poke out and scratch someone; plastic top stops are recommended for children's clothes (YKK manual, p. 27).
+  - Plastic molded teeth turn brittle and can break on impact in very cold weather, and metal parts can stick to skin at about -40 °C; test zippers for very hot or very cold use (YKK manual, p. 04).
+  - Printed zippers: a ball-and-socket clearance of 0.2-0.8 mm on 1.0-2.8 mm features gave smooth, stable zipping in the Y-zipper tests (Li et al., 'Y-zipper', CHI 2026, https://groups.csail.mit.edu/hcie/files/research-projects/y-zipper/y-zipper.pdf).
+  - Printed replacement sliders: 0.4 mm nozzle, 0.2 mm layers, 3 walls, 5 top and bottom layers, and scale X by 0.1-0.2 mm to fine-tune the fit (MisterJ, Printables model 1570671, read via the Printables API).
+
+### When to use it
+
+- **everyday_examples**: the fly of a pair of jeans and the front of a jacket, backpacks, suitcases and pencil cases (often with two sliders), tent doors and sleeping bags, a diver's drysuit (a waterproof zipper)
+- **when_to_use**: When a long opening in fabric, canvas, leather or plastic sheet must close fully and quickly and stay shut under sideways pull: bags, cases, covers, tents, clothing, pouches and soft enclosures. Use a separating zipper when the two parts must come fully apart (jacket fronts, removable panels), a two-way zipper when you want to open it from either end, and a waterproof zipper when it must keep out water.
+- **when_not_to_use**: Not for joining rigid parts (use latches, clips or magnets). Not where it must adjust in length or tension (use hook-and-loop, a buckle or lacing). Not where a gap-free seal is needed unless you buy a proper waterproof or airtight zipper. For quick fitting by an unskilled sewer, hook-and-loop or press studs are easier to attach. *(unverified parts omitted)*
+- **environment_limits**: Heat: coil zippers can be ironed up to about 160 °C and YKK's molded Vislon up to about 130 °C; water-repellent laminated zippers can melt or bubble above about 150 °C (YKK). Cold: molded plastic teeth become brittle and can break on impact, and sliders get stiffer at about -40 °C (YKK). Water and salt: metal zippers rust, especially in salt water; plastic teeth and sliders don't (Trivantage). Diecast sliders can corrode once worn, and the corrosion salts jam the slider; vinegar can dissolve them (Wikipedia). Aluminium zippers are harmed by alkaline chemicals, wear quickly and leave grey marks (YKK). Sunlight can turn water-repellent zippers yellow (YKK). Printed PLA zippers soften in heat like any PLA part.
+- **safety_notes**: Zippers can trap skin as they close; zipper entrapment is the most common cause of penile injury in adults, with roughly 2,000 reported cases a year, and is also seen in small children (StatPearls). Keep the tape clear of skin when zipping, and never force a trapped zipper closed. Cut coil tooth ends at the top of a badly sewn zipper can scratch; use plastic top stops on children's clothing (YKK). Metal parts can stick to skin in extreme cold (YKK).
+- **common_failures**: (1) Worn or splayed slider that no longer squeezes the teeth, so the zipper splits open behind it: squeeze the back of the slider together a fraction of a millimetre at a time with pliers, or replace the slider (Wikipedia; a printed replacement slider fits without unpicking the ends). (2) Separating zipper splits because the insertion pin isn't pushed fully into the box: clear the box, push the pin right in and re-zip (iFixit). (3) Insertion pin or tape tearing off at the bottom of a separating zipper (Wikipedia). (4) Teeth torn off when a part-open zipper is washed (YKK): close it first. (5) Slider jammed by corrosion salts or grit: soak it in vinegar or clean it (Wikipedia). (6) Chain curved or ends uneven after mixing halves from different zippers (YKK). (7) Printed zippers: teeth break if the halves are pushed together by hand, and pins snap along layer lines; thread the halves through the slider and print pins upright (FunkyArt; MisterJ).
+- **related**: 
+  - Hook-and-loop fastener: closes at any position and adjusts length, but opens easily by peeling and collects lint
+  - Press-to-close zipper (resealable bag zipper): a moulded rib that presses into a groove, with no slider or teeth; the ridge seal is weak against pressure from inside (Wikipedia)
+  - Press studs, buttons and hooks-and-eyes: close at separate points rather than along the whole edge
+  - Drawstring and lacing: pull the edges together by tension in a cord, while a zipper locks tooth to tooth (Wikipedia contrasts the two)
+  - Magnetic zipper: a variant for one-handed closing, used in sportswear (Wikipedia)
+  - Y-zipper (three-sided zipper): three printed strips zip into a stiff triangular rod, turning something floppy into a beam and back (MIT CSAIL)
+  - Side-release buckle: joins two straps at one point, and quicker for load-carrying straps
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Zipper animated.gif (Wikimedia Commons, DemonDeLuxe (Dominique Toussaint), 2006)](https://commons.wikimedia.org/wiki/File:Zipper_animated.gif): Animation of the slider bringing the two rows of teeth together *(licence: CC BY-SA 3.0)*
+  - [Reissverschluss Teile 2 (fcm).jpg (Wikimedia Commons, Frank C. Müller and Rabensteiner, 2008)](https://commons.wikimedia.org/wiki/File:Reissverschluss_Teile_2_(fcm).jpg): Labelled photo of a zipper's parts: top stop, slider, puller, tape, chain, bottom stop, insertion pin and box *(licence: CC BY-SA 2.5)*
+  - [Coil plastic and metal zippers.jpg (Wikimedia Commons, Woodbine9, 2014)](https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg): Photo comparing coil, molded plastic and metal teeth *(licence: CC BY-SA 4.0)*
+  - [WP zip.jpg (Wikimedia Commons, Dhaluza, 2006)](https://commons.wikimedia.org/wiki/File:WP_zip.jpg): Close-up of a waterproof drysuit zipper, whose metal segments clamp waterproof sheeting over hidden teeth *(licence: Public domain)*
+  - [Y-Zipper: 3D Printing Flexible-Rigid Transitions in One Click (Jiaji Li, YouTube; title and channel confirmed via YouTube oEmbed, not watched)](https://www.youtube.com/watch?v=AWig98GVIno): Video of MIT CSAIL's 3D-printed three-sided zipper stiffening from flexible strips into rods, arches and coils *(licence: link only)*
+- **make_it_yourself**: 
+  - [Zipper Slider Replacement - V3 by MisterJ (Printables 1570671; URL seen in search results, details read via the Printables public API)](https://www.printables.com/model/1570671-zipper-slider-replacement-v3): Two-part printable replacement slider for standard and reverse zippers, fitted without unpicking the zipper ends; sizes for chains about 4.2 to 9.8 mm wide; STEP files *(licence: CC BY-NC-SA)*
+  - [Zipper by FunkyArt (Printables 582696; URL seen in search results, details read via the Printables public API)](https://www.printables.com/model/582696-zipper): A fully printable, working zipper (two toothed strips and a slider) in PLA, with holes for sewing; proof of concept *(licence: CC BY)*
+  - [Zippy Bag Clip (print-in-place-ish) by LoboCNC (Printables 237467; URL seen in search results, details read via the Printables public API)](https://www.printables.com/model/237467-zippy-bag-clip-print-in-place-ish): A working zipper used as a bag clip: two rows of pivoting teeth printed in place, pinned with bits of filament, plus a printed slider *(licence: CC BY-SA)*
+  - [Y-zipper: 3D Printing Flexible-Rigid Transition Mechanisms for Rapid and Reversible Assembly (MIT CSAIL HCI Engineering group project page)](https://hcie.csail.mit.edu/research/y-zipper/y-zipper.html): Research project page linking the paper (with FDM print settings and tolerance tests), slides and video; the design tool was built in Rhino and Grasshopper, and the page has no download link for design files *(licence: link only (paper published open access by ACM))*
+- **diagram_idea**: A top view of a slider cut open to show its Y-shaped channel: two separate rows of staggered teeth enter the two arms of the Y and leave as one meshed chain, with an arrow for 'pull up: teeth pressed together' and a second small frame showing the wedge at the fork pushing them apart for 'pull down: teeth unhooked'.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Zipper (read as raw wikitext)
+  - https://ykkamericas.com/wp-content/uploads/2021/10/ykk-zipper-instruction-manual-compressed.pdf
+  - https://www.trivantage.com/zipper-guide
+  - https://www.mcmaster.com/products/zippers/
+  - https://www.ifixit.com/Guide/Coil+Zipper+Issue+Diagnosis/19454
+  - https://www.ncbi.nlm.nih.gov/sites/books/NBK441886/ (StatPearls, Penile Zipper and Ring Injuries)
+  - https://news.mit.edu/2026/three-sided-y-zipper-design-0504
+  - https://hcie.csail.mit.edu/research/y-zipper/y-zipper.html
+  - https://groups.csail.mit.edu/hcie/files/research-projects/y-zipper/y-zipper.pdf (Li et al., CHI 2026, doi:10.1145/3772318.3790723)
+  - https://hackaday.com/2026/03/14/this-printed-zipper-repair-requires-no-unsewing/
+  - https://hackaday.com/2018/01/31/repairs-you-can-print-the-zipper-box/
+  - https://www.printables.com/model/1570671-zipper-slider-replacement-v3 (read via https://api.printables.com/graphql/)
+  - https://www.printables.com/model/582696-zipper (read via https://api.printables.com/graphql/)
+  - https://www.printables.com/model/237467-zippy-bag-clip-print-in-place-ish (read via https://api.printables.com/graphql/)
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/watch?v=AWig98GVIno (title confirmed via YouTube oEmbed)
+  - https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
+  - https://commons.wikimedia.org/wiki/File:Reissverschluss_Teile_2_(fcm).jpg
+  - https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg
+  - https://commons.wikimedia.org/wiki/File:WP_zip.jpg
+
+### Other info
+
+- **Fields with unverified parts:** load, when_not_to_use
 
 ## 269 Basic strap and garment closures (prong buckle, button, toggle and loop)
 
 *cord, strap, webbing & textile hardware.* The everyday belt buckle with a prong, buttons and toggles in loops; the strap and textile baseline
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The everyday ways to close a strap or a piece of clothing: a belt buckle whose little metal pin pokes through one of a row of holes in the strap, a button that slips through a slit or a loop, and a short bar (toggle) that is pushed endways through a loop and then turned sideways so it can't slip back
+- **term**: Prong (tongue) buckle, button and buttonhole (or button loop), and toggle-and-loop fastening
+- **aliases**: 
+  - prong buckle, tongue buckle, pin buckle, frame-and-prong buckle, conventional belt buckle; parts: frame, bar (centre bar, end bar), prong (tongue or pin), chape, keeper (Wikipedia 'Buckle')
+  - buckle trim or slide (a buckle frame with no prong) and clasp (two separate hook and loop pieces) (Wikipedia 'Buckle')
+  - belt keeper, keeper loop, belt loop (Wikipedia 'Belt (clothing)')
+  - flat button, sew-through button (two or four holes); shank button; self-shank button; thread shank (thread stem) (Wikipedia 'Button'; ISBE/CAERT 'Buttons and Buttonholes')
+  - stud button, push-through button, shirt stud, cufflink (Wikipedia 'Button')
+  - buttonhole: machine-made, hand-worked, bound, keyhole (Wikipedia 'Buttonhole'); button loop (ISBE/CAERT)
+  - toggle, toggle button, duffle-coat toggle, toggle-and-rope fastening (Wikipedia 'Button' and 'Duffel coat'); Knebelknopf (German, as used in a Printables model title)
+  - frog, frog closure, Chinese frog, pankou, decorative toggle; Chinese button knot or Chinese ball button with a loop; frogging (Wikipedia 'Frog (fastening)'; ISBE/CAERT)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: quick-release & tool-free
+- **one_liner**: The oldest and simplest ways to close a strap or garment by hand: a prong buckle, whose pin goes through a hole in the strap so the strap can be set to one of several lengths; a button, which is wider than the slit or loop it passes through; and a toggle, a short bar on a cord that goes endways through a loop and is then turned crossways.
+- **complexity**: A few parts. Prong buckle: frame, bar, prong (tongue) and sometimes a chape (the plate that holds the strap end), plus a strap with a row of holes and usually a keeper loop for the loose end (Wikipedia 'Buckle' and 'Belt (clothing)'). Button: button (sew-through or shank), sewing thread, and a stitched buttonhole or a loop of cord or fabric on the other side. Toggle and loop: a short bar of wood, horn or plastic with a cord attached at its middle, and a loop of cord, fabric or leather on the other side.
+- **how_it_works**: All three hold by shape: something is pushed through an opening and then can't pull back out while the strap or fabric is under tension. In a prong buckle the strap is threaded through the frame and the prong is pushed through a hole, so the pull of the strap presses the hole against the prong and the prong against the frame; to open it you first take the tension off, then lift the prong out (Wikipedia 'Buckle'). A button is wider than its slit: the pull on the closed garment drags the button to the end of the buttonhole nearest the edge, which is why tailored coats have a round 'keyhole' there for the button's shank (Wikipedia 'Buttonhole'); a short stem of wound thread (thread shank) lifts the button so the other layer of fabric fits underneath (ISBE/CAERT). A toggle is 'passed endways through a hole and then rotated sideways' (Wikipedia 'Button'), so it catches across the loop. A belt holding up trousers also works partly by friction and by squeezing the waist, which is narrower than the hips (Wikipedia 'Belt (clothing)').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: closes a strap into a loop or holds two edges of fabric together
+  - lock, and release by hand: opened and closed by hand with no tools, as often as needed
+  - tighten and hold tension: a prong buckle sets a strap to one of several lengths (one hole at a time)
+- **motion**: none once fastened; a prong buckle is adjusted in steps by moving the prong to another hole
+- **degrees_of_freedom**: 0 when fastened: the two ends are held together, although the fabric or strap itself stays flexible and a button or toggle can wobble a little in its hole or loop
+- **special_behaviour**: 
+  - quick-release: opens by hand in a second or two with no tools; large toggles on long cords were chosen for duffel coats so they could be done up and undone while wearing gloves (Wikipedia 'Duffel coat')
+  - indexing (clicks into set positions): a prong buckle only adjusts in fixed steps, one hole at a time, usually 1 inch (25 mm) apart (Art of Manliness)
+  - hand-release only: a prong buckle under load can't be undone until you pull the strap tighter to free the prong, then lift it out; the load itself keeps it shut
+  - none of the others: no one-way, self-locking or tensioning mechanism
+- **holding_principle**: shape (the prong, button or toggle interlocks with a hole or loop; form-fit); a belt also relies on friction and squeezing to stay in place on the body (Wikipedia 'Belt (clothing)')
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release for opening and closing; the buckle, buttons and toggles are attached semi-permanently (sewn, riveted or folded and stitched into the strap), and can be cut off and re-sewn or unscrewed if held with Chicago screws
+- **reuse_cycles**: effectively unlimited opening and closing; buttonholes, button thread and strap holes wear, stretch or fray after long use and can be repaired (re-sewing a button, sealing a buttonhole, punching a new hole)
+- **tools_needed**: none to fasten. To make or repair: needle, thread (double strand, heavy-duty thread for heavy garments) and a toothpick or pin as a spacer for buttons (ISBE/CAERT); a sewing machine buttonhole foot or hand stitching, pins and small scissors or a buttonhole cutter (NMSU); a rotary punch or 3/16 in (about 5 mm) hollow punch and mallet for belt holes, a knife, and a rivet setter or Chicago screws to fix the buckle (Art of Manliness); a hot punch, soldering iron or grommet press for holes in synthetic webbing (camowebbing.com)
+- **seal**: loose: buttonholes, loops and strap holes stay open; an overlapping button placket or flap only keeps out draughts, not water or dust
+- **load**: Light to medium. Strong along the strap or across the closure in the direction of pull, but limited by the weakest part: the strap hole tearing or stretching, the prong bending, the button thread breaking, or the loop stretching so a toggle slips out. Weak against being peeled or twisted open, which is how they are meant to be opened. *(unverified parts omitted)*
+- **adjustable**: Prong buckle: yes, in steps, by choosing a hole; more holes can be punched at the same spacing (Art of Manliness). Buttons and toggles: no, the position is fixed where they are sewn; move the button or add elastic to change the fit
+- **play_and_precision**: not applicable as a locating part; a prong buckle's steps are coarse (about 25 mm), and buttons and toggles sit loosely in their holes and loops
+- **access_needed**: both sides to fit (sewing, punching and riveting go through the material); one side (the outside) to fasten and undo
+- **materials**: Buckles: steel, brass, silver, white metal, pewter, zinc alloy, stainless steel; nylon and other plastics are now used for snap-fit buckles (Wikipedia 'Buckle'); straps of leather, heavy cloth, plastic or woven webbing (Wikipedia 'Belt (clothing)'). Buttons: most commonly hard plastic, seashell, metal and wood today, historically horn, bone, glass, vegetable ivory and many more (Wikipedia 'Button'). Toggles: wood or horn, now often imitation plastic buffalo horn, on leather or rope loops (Wikipedia 'Duffel coat'). Frogs: braid, cord, fabric or covered wire (Wikipedia 'Frog (fastening)'). All work on woven fabric, knits (stabilise with interfacing, NMSU), leather and webbing; holes in synthetic webbing need sealing or a grommet.
+- **maker_difficulty**: easy: sewing on a button, punching a belt hole or tying a toggle loop needs only hand tools; buttons, toggles and simple buckle frames also print easily in one piece
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: buckles, buttons, toggles, frogs, grommets and belt blanks are cheap and widely sold
+  - 3D print (FDM): buttons, toggles, buckle frames and prongs (PETG or TPU straps), and sewing helpers such as buttonhole spacing gauges
+  - woodwork: turned or carved wooden toggles and buttons (wood is one of the most common button materials today, Wikipedia 'Button')
+  - leatherwork and sewing: straps, keepers, buttonholes, button loops and frogs
+- **print_in_place**: no: buttons and toggles print as simple single pieces, and a printed prong buckle is printed as separate parts and assembled, often with a pin (e.g. a short length of 1.75 mm filament, Printables '20 mm watch strap and buckle'); nothing needs to move while printing
+- **making_tips_3d_printing**: Buttons: print flat, with no supports; one popular set uses 100% infill for strength and 2.5 mm holes in 12-25 mm buttons (Printables 'Sewing Buttons'); a parametric OpenSCAD button generator (needs BOSL2) sets diameter, thickness and the number and size of holes (Printables 'Button - Parametric customizable OpenSCAD'). Toggles: a simple printed toggle button uses very little filament (Printables 'Toggle Button for Fabrics'); Buckles: size the strap slot to the strap with a little clearance, e.g. a pin buckle for 20 mm strap has 0.5 mm clearance each side, a 2 mm axle hole and a 4 mm wide pin (Printables 'Pin Buckle for 20mm Strap'); a short piece of 1.75 mm filament with its ends heated and flattened makes a cheap buckle pin, and TPU works as a flexible watch strap about 1 mm thick (Printables '20 mm watch strap and buckle'); a whole belt can be printed in TPU (1.8 mm thick, 32 mm wide) with a rigid PLA or PETG buckle (Printables 'TPU belt & buckle'). For strap buckles PETG is 'clearly preferable due to its flexibility', printed with 4 perimeters and 100% infill (Printables 'Classic strap buckle', a side-release design). A metal buckle or a steel pin is still the better choice for anything that carries real load. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Chicago screws and rivets for fixing the buckle end (Art of Manliness); grommets and eyelets with setting dies, e.g. Sailrite HandyPress 5-hole belt punch (brand) for 5/8-2 in straps (Sailrite); rotary punches and hollow punches (3/16 in, #5 rotary tube) (Art of Manliness); buttons (sew-through 2-hole and 4-hole, shank, covered-button kits, stud buttons and cufflinks) sized in lignes (16L shirt, 32L suit jacket; Wikipedia 'Button'); buttonhole twist thread and heavy-duty thread (ISBE/CAERT); wooden, horn and plastic toggles with leather or rope loops; ready-made frog closures (pankou). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Buttonhole length = button diameter + button thickness + 1/8 in (about 3 mm) for the fabric; small buttons need less, and domed or ball buttons are measured with a string around the button folded in half (ISBE/CAERT 'Buttons and Buttonholes', https://www.isbe.net/CTEDocuments/FCS-720042.pdf). An equivalent method: half the button's circumference plus 1/8 in (NMSU Guide C-231, https://pubs.nmsu.edu/_c/C231/index.html).
+  - Always make a test buttonhole on a scrap with the same layers (fabric, interfacing, facing) first, interface both the button and buttonhole areas, and cut the hole open from the centre with pins at each end so you don't cut through the bar tacks (NMSU Guide C-231, https://pubs.nmsu.edu/_c/C231/index.html).
+  - Space buttonholes about 2 to 3 1/2 in (50-90 mm) apart; horizontal buttonholes extend 1/8 in (3 mm) past the centre line towards the edge; use keyhole buttonholes for heavy fabrics and shank or thick buttons, and don't pick a button more than 1/8 in larger or smaller than the pattern calls for (NMSU Guide C-231, https://pubs.nmsu.edu/_c/C231/index.html).
+  - Buttons that fasten (rather than decorate) are sewn with a thread shank: use a double strand of thread, lay a toothpick or heavy pin across the button, make five or six stitches, remove the spacer, lift the button and wind the thread round the stitches, then backstitch (ISBE/CAERT, https://www.isbe.net/CTEDocuments/FCS-720042.pdf). A shank button suits thick fabric (ISBE/CAERT), and flat buttons can be used on heavy fabric by working a thread shank (Wikipedia 'Button', https://en.wikipedia.org/wiki/Button).
+  - Button sizes are measured in lignes: 40 lignes = 1 inch; a man's shirt button is typically 16 lignes (10.16 mm) and a suit jacket button 32 lignes (20.32 mm) (Wikipedia 'Button', https://en.wikipedia.org/wiki/Button).
+  - Belt holes: space them 1 in (25 mm) centre to centre and punch five, with the first about 6 in (150 mm) from the tip; make round holes (3/16 in hollow punch or #5 rotary punch tube) rather than slits, because a rough puncture tears in use (Art of Manliness, https://www.artofmanliness.com/skills/manly-know-how/how-to-make-a-new-hole-in-a-leather-belt/ and https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/).
+  - Belt width is generally 1 to 1 1/2 in (25-38 mm) and must match the buckle; at the buckle end, thin thick leather to about half its thickness where it folds, cut a 1 in long slot for the prong, check the buckle is the right way up, and fix the fold with rivets or stitching (Art of Manliness, https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/).
+  - Holes in woven synthetic webbing: a heated punch melts and seals the cut yarn ends so they don't fray, but it does not restore the cut yarns or the strap's original strength; where possible use a sewn loop, a separate tab or a grommet with a washer or reinforcing patch instead (camowebbing.com, https://www.camowebbing.com/how-to-punch-holes-in-nylon-webbing/).
+
+### When to use it
+
+- **everyday_examples**: 
+  - a leather trouser belt with a prong buckle, a row of holes and a keeper loop (Wikipedia 'Belt (clothing)')
+  - the buttons and buttonholes on a shirt or coat (Wikipedia 'Button')
+  - the wooden or horn toggles and rope loops on a duffel coat (Wikipedia 'Duffel coat')
+  - the knotted frog closures on a cheongsam (qipao) dress (Wikipedia 'Frog (fastening)')
+- **when_to_use**: For straps and fabric that people open and close by hand many times: belts, watch straps, bag and case straps, collars, covers, cushions and clothing. A prong buckle is the simplest adjustable strap closure and 'the most reliable and easy-to-use closure for a belt' (Wikipedia 'Buckle'); it holds firmly under a steady pull and needs no tools. Buttons are neat, cheap and easy to sew on or replace; button loops and frogs let two edges meet without overlapping (Wikipedia 'Frog (fastening)'). Toggles are best where people wear gloves or have cold or clumsy hands, or for a rustic look (Wikipedia 'Duffel coat'). For makers, all three are easy to make from scrap: a printed button, a turned wooden toggle or a leather strap with punched holes.
+- **when_not_to_use**: Not for quick one-handed release or where the strap must open under load: use a side-release buckle or a quick-release hook. Not for fine, stepless adjustment of a strap: use a ladder lock (tri-glide), cam buckle or ratchet strap. Not where the closure must seal out wind, water or dust: use a zipper with a flap, hook-and-loop tape or a roll-top. Not for climbing, lifting or safety loads: use rated hardware. Avoid many small buttons where speed matters, and avoid small detachable buttons and toggles on clothes for babies and toddlers (choking hazard). On webbing, prong buckles need holes that weaken the strap; a ladder lock or cam buckle grips the webbing without holes.
+- **environment_limits**: Water and damp: buckles and parts containing iron rust if left damp (Wikipedia 'Buckle'); painted or plaster decoration on wooden buckles came off in the wash (Wikipedia 'Buckle'). Wear over time: leather belt holes stretch and tear if they are rough punctures rather than round holes (Art of Manliness); webbing holes can elongate under repeated load (camowebbing.com); buttonhole stitches fray if cut (NMSU). Stretchy knits distort unless stabilised with interfacing (NMSU). *(unverified parts omitted)*
+- **safety_notes**: Small buttons, toggles and buckle parts that come loose are a choking hazard for young children; in the US, children's clothing and buttons are actually excluded from the federal small-parts ban for under-3s (CPSC), so sew them on firmly and check them. Cutting and punching: hold a belt down firmly when drilling a hole, or the bit can catch and spin it, and put scrap wood under it (Art of Manliness); knives and hollow punches are sharp. Garment buckles and buttons are not safety equipment: don't use them to hold people or heavy loads. *(unverified parts omitted)*
+- **common_failures**: (1) Button comes off: thread wears through where it rubs, or the button was sewn flat with no shank; use a double strand and a thread shank (ISBE/CAERT). (2) Button too tight or falls out: buttonhole the wrong length; size it from diameter plus thickness plus 1/8 in and test on a scrap (ISBE/CAERT; NMSU). (3) Frayed or torn buttonhole: cut too far or not reinforced; bar tacks at the ends, interfacing, and a dot of seam sealant on cut stitches (NMSU; ISBE/CAERT). (4) Belt holes stretch or tear: holes made by simple puncturing; punch or ream round holes (Art of Manliness). (5) Webbing frays around a hole or the hole elongates: seal the edge and add a grommet, washer or patch, or avoid holes (camowebbing.com). (6) Buckle fitted upside down or prong bent: check before riveting (Art of Manliness); replace a bent prong. (7) Toggle slips out: the loop has stretched or is too big for the toggle; shorten the loop or use a longer toggle. (8) Printed buttons or buckles snap: PLA is brittle; print in PETG with more perimeters and infill (Printables 'Classic strap buckle').
+- **related**: 
+  - Side-release buckle: a snap-fit plastic buckle opened by squeezing two arms; quicker, one-handed and used on backpacks and harnesses, but not adjustable by itself
+  - Ladder lock buckle (tension lock, tri-glide) and double D-rings: adjust a strap to any length by friction, with no holes in the strap
+  - Cam buckle (webbing cam buckle) and ratchet tie-down strap: tighten a strap steplessly and hold it by a toothed cam or ratchet
+  - Hook-and-loop fastener: two fabric strips that grip anywhere along their length; adjustable and quick, but wears and collects fluff
+  - Press stud (snap fastener, popper): a two-part metal button pressed through the fabric; faster than a button and harder to pull off, but fixed in place (Wikipedia 'Button')
+  - Zipper (slide fastener): closes a long opening in one pull and seals better than buttons
+  - Cord lock (spring toggle): a sprung toggle that grips a drawcord at any point, instead of a fixed toggle and loop
+  - Spring-gate hook (carabiner, snap hook, lobster clasp) and basic latches (hook and eye): hook-type closures for straps and garments
+  - Magnetic-assisted buckle: magnets guide the parts together and a catch locks them; easier with one hand
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Buckle Showing various parts.svg (Wikimedia Commons, 20040302)](https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg): Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle') *(licence: CC BY-SA 3.0)*
+  - [Plastic & fabric buttons showing holes & shank.jpg (Wikimedia Commons, Richard Wheeler (Zephyris))](https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg): Three sew-through plastic buttons next to a fabric-covered shank button, showing the two ways buttons are attached *(licence: CC BY-SA 3.0 / GFDL 1.2 (dual licensed))*
+  - [Keyhole buttonhole.jpg (Wikimedia Commons, PKM)](https://commons.wikimedia.org/wiki/File:Keyhole_buttonhole.jpg): Close-up of a machine-stitched keyhole buttonhole with a bar tack *(licence: CC BY-SA 3.0 / GFDL 1.2 (dual licensed))*
+  - [Attaches de duffle-coat.jpg (Wikimedia Commons, DocteurCosmos)](https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg): Toggle-and-loop front fastenings on a duffle coat *(licence: CC BY-SA 3.0 / GFDL 1.2 (multi-licensed))*
+  - [How to Sew on a Button by Creating a Thread Shank, with Makers HQ (Seasalt Cornwall, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=LOP9oZqAFZ0): Video of sewing a button on by hand with a thread shank *(licence: link only)*
+- **make_it_yourself**: 
+  - [How to Make a Leather Belt (The Art of Manliness)](https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/): Illustrated step-by-step guide to cutting a leather strap, punching five buckle holes 1 in apart, cutting the prong slot and riveting on a prong buckle *(licence: link only)*
+  - [Pin Buckle for 20mm Strap by mathiaspl20 (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1410224-pin-buckle-for-20mm-strap): Printable prong (pin) buckle for 20 mm strap with 0.5 mm side clearance, a 2 mm axle hole and a 4 mm wide pin; includes a technical drawing *(licence: CC BY-SA)*
+  - [20 mm watch strap and buckle by robwhi (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/852754-20-mm-watch-strap-and-buckle): TPU watch strap with a printed pin buckle and latch, using 1.75 mm filament as the pins *(licence: CC BY)*
+  - [Button - Parametric customizable OpenSCAD (SCAD) clothes repair sewing buttons by hkern0 (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1128919-button-parametric-customizable-openscad-scad-cloth): OpenSCAD generator for sew-through buttons of any diameter, thickness and hole pattern (needs BOSL2) *(licence: CC BY-NC)*
+  - [Toggle Button for Fabrics by Prof.Enginerd (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/732593-toggle-button-for-fabrics): Simple printable toggle button for a cord loop *(licence: CC0 / Public Domain)*
+  - [Button Hole Measure - Sewing by Christer (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/878097-button-hole-measure-sewing): Expanding printed gauge that sets equal spacing for up to 8 buttons or buttonholes on a shirt (PETG) *(licence: CC BY-NC)*
+- **diagram_idea**: Three side-by-side cutaways: a strap threaded through a buckle frame with the prong through a hole and an arrow showing the strap's pull pressing the hole against the prong; a button on a thread shank passing through a buttonhole, with the fabric layer sitting under the raised button; and a toggle going endways through a loop, then turning 90° to lie across it.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Buckle (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Button (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Buttonhole (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Belt_(clothing) (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Duffel_coat (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Frog_(fastening) (read as raw wikitext)
+  - https://www.isbe.net/CTEDocuments/FCS-720042.pdf (Illinois State Board of Education / CAERT e-unit 'Buttons and Buttonholes')
+  - https://pubs.nmsu.edu/_c/C231/index.html (New Mexico State University Extension Guide C-231 'Machine Buttonholes Made Easy')
+  - https://www.artofmanliness.com/skills/manly-know-how/how-to-make-a-new-hole-in-a-leather-belt/
+  - https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/
+  - https://www.sailrite.com/HandyPress-Belt-5-Hole-Positioning-Punch
+  - https://www.camowebbing.com/how-to-punch-holes-in-nylon-webbing/
+  - https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Small-Parts-for-Toys-and-Childrens-Products (read via WebFetch)
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg
+  - https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg
+  - https://commons.wikimedia.org/wiki/File:Keyhole_buttonhole.jpg
+  - https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg
+  - https://www.youtube.com/watch?v=LOP9oZqAFZ0 (verified via YouTube oEmbed)
+  - https://api.printables.com/graphql/ (Printables models 1410224, 852754, 785324, 1128919, 732593, 878097, 799421 and 567383 read via the public API)
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, off_the_shelf_parts, safety_notes
 

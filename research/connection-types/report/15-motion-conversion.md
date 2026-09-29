@@ -721,7 +721,7 @@
 
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, materials, play_and_precision, print_in_place, processes, safety_notes
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, making_tips_3d_printing, materials, play_and_precision, print_in_place, processes, rules_of_thumb, safety_notes
 
 ## 86 Slider-crank
 
@@ -857,7 +857,7 @@
 
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, input_output, make_it_yourself, making_tips_3d_printing, play_and_precision, print_in_place, processes, removability, safety_notes
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, make_it_yourself, making_tips_3d_printing, materials, play_and_precision, print_in_place, processes, removability, safety_notes
 
 ## 87 Four-bar linkage (incl. parallelogram linkage)
 
@@ -1717,7 +1717,134 @@
 
 *motion conversion.* A crank driving a slotted lever so the working stroke is slow and the return stroke is fast, as in shaping machines
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A turning wheel with a pin that slides up and down in a slot of a swinging arm, so the arm pushes a tool forward slowly and pulls it back quickly
+- **term**: Quick-return mechanism (crank and slotted lever; Whitworth quick-return mechanism)
+- **aliases**: 
+  - quick-return motion
+  - crank and slotted lever mechanism / crank and slotted link mechanism
+  - slotted-link mechanism; rocker arm (the slotted lever's name on shaping machines)
+  - shaper mechanism / shaping-machine drive
+  - Whitworth quick-return mechanism / Whitworth quick return motion (strictly the version whose slotted link turns right round; many web pages and printed models use the name for the crank and slotted lever as well)
+  - coulisse mechanism (the name used in Nguyen Duc Thang's animations and on DT Online)
+  - offset slider-crank quick return (a different linkage that also returns faster)
+  - schwingende Kurbelschleife (crank and slotted lever) / umlaufende Kurbelschleife (Whitworth type) (German)
+  - 转动导杆急回机构 (Chinese, 'rotating guide-bar quick-return mechanism', the Whitworth type); 曲柄导杆刨床机构 (Chinese, 'crank and guide-bar shaper mechanism')
+- **family**: motion conversion
+- **other_families**: sliding, telescoping & linear motion
+- **one_liner**: A crank turning at steady speed drives a block that slides in a slotted lever, so the lever (and the tool slide, or ram, it pushes) moves slowly on the working stroke and returns quickly on the idle stroke, saving time on machines that only work in one direction.
+- **complexity**: A small assembly of about five or six parts: a crank (on machines, a large 'bull gear' with a crank pin on an adjustable radial slide); a sliding block on the crank pin; a slotted lever (rocker arm) pivoted to the frame; a short link from the top of the lever to the ram; and the ram (the sliding tool carrier) running in guides. The Whitworth type adds a second crank-like arm because its slotted link turns right round.
+- **how_it_works**: The crank turns at a steady speed and its pin, fitted with a sliding block, runs up and down the slot in the lever while swinging it from side to side. The two ends of the lever's swing happen where the lever just touches the crank-pin circle (is tangent to it), and those two points split each crank turn into a long part and a short part: the long part (more than half a turn) gives the slow forward, working stroke and the short part gives the fast return stroke. A short link turns the lever's swing into straight back-and-forth motion of a ram. In the Whitworth type the crank is longer than the distance between the two fixed pivots, so the slotted link turns right round and a connecting rod drives the ram; the uneven timing comes from the same offset idea (IIT Kharagpur virtual lab; Wikipedia 'Slider-crank linkage', inversions).
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: turns steady rotation into a back-and-forth swing or a back-and-forth straight stroke
+  - change speed or turning force: the working stroke is slow and strong, the return stroke fast
+- **degrees_of_freedom**: 1: the crank angle fixes the position of the block, lever and ram
+- **special_behaviour**: motion conversion (e.g. rotary to linear): steady rotation becomes back-and-forth motion whose forward stroke takes longer than its return stroke (quick return)
+- **holding_principle**: not a holding joint (it moves or passes on motion): it converts rotation into a back-and-forth stroke; the pin, block and slot stay together because they interlock (form-fit)
+- **input_output**: Continuous rotation -> back-and-forth (reciprocating) motion: a rocking lever, or a straight ram stroke when a link and slide are added. Time ratio (working time : return time) = crank angle during the working stroke / crank angle during the return stroke (IIT Kharagpur virtual lab); for the crank and slotted lever it is set by crank radius / distance between the fixed centres, e.g. 75 mm / 150 mm gives 240:120 degrees = 2:1 (ESE 2014 exam question on Testbook). Shafts: the crank shaft and the lever pivot are parallel. *(unverified parts omitted)*
+- **power**: passive (no power needed): it is driven by a motor, line shaft or hand crank; if the drive stops, the ram simply stops where it is
+- **removability**: removable: the crank, lever, links and ram are held by pins, screws or shafts and can be taken apart
+- **reuse_cycles**: many times: it can be dismantled and reassembled repeatedly; the limit is wear of the block, slot and pins, not the assembly
+- **tools_needed**: Screwdriver or hex key (and spanner) for pivot screws or shoulder bolts; small files or sandpaper to smooth printed slots; a soldering iron for heat-set inserts in some printed models; a little oil or grease for the slot and ram guides
+- **seal**: none: it is an open mechanism and does not seal anything
+- **load**: The crank pin, sliding block, slot walls and lever pivot carry the full working force, and the ram needs its own guides because the linkage also pushes it sideways. Wikipedia warns that forcing the machine to its maximum stress capacity will break it. *(unverified parts omitted)*
+- **adjustable**: Yes on shaping machines: moving the crank pin further out along the radial slide on the bull gear lengthens the stroke (ISRO 2022 exam question on Testbook; The Engineers Post describes the radial slide and sliding block). Because the timing depends on crank radius / centre distance, changing the crank radius also changes the time ratio (ESE formula). Printed models are usually fixed.
+- **play_and_precision**: The ends of the stroke repeat well because they are set by geometry, but the ram's speed changes throughout each stroke, so it is not used where steady speed or exact positioning matters. *(unverified parts omitted)*
+- **access_needed**: not applicable: it is a mechanism inside a frame, reached wherever the frame opens
+- **materials**: Printed models use PLA for all links with metal screws, pins or shoulder bolts as pivots: AjaxJones used a 3 mm bolt and a 10 mm outside-diameter bearing; WayTooManyHobbies used nylon shoulder bolts and heat-set inserts; Eng. Yehia used M4 screws, washers and spacers. *(unverified parts omitted)*
+- **maker_difficulty**: easy to moderate: only a handful of flat parts that print without supports, but the slot must be smooth, the pivots parallel and the ram guide low-friction (gzumwalt calls his model a low-precision print that still needs trimming and filing)
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): several free printable models (gzumwalt, Eng. Yehia, AjaxJones, WayTooManyHobbies)
+  - CNC: the traditional way for metal shaping machines
+  - off-the-shelf part: bearings, shoulder bolts, dowel pins, a linear slide for the ram and a gear motor or servo *(unverified parts omitted)*
+- **print_in_place**: no: printed models are printed as separate flat parts and assembled with screws, printed axles or shoulder bolts; no print-in-place version was found
+- **making_tips_3d_printing**: 1) Print the crank, lever and links flat on the bed; gzumwalt printed all parts at 0.15 mm layers, 20% infill and no supports. 2) Leave clearance for moving parts: Prusa suggests starting with at least 0.3 mm for movable parts and adjusting after a test print. 4) Make the slot walls smooth: file off build-plate 'ooze' (elephant's foot) and any seams, and test-fit, trim, file and sand moving surfaces until they move freely (gzumwalt). 5) Use metal pivots: M3-M4 screws with washers and spacers (Eng. Yehia), nylon shoulder bolts in heat-set inserts (WayTooManyHobbies), or a small bearing (AjaxJones). 6) The ram guide (rail) needs lubrication: Eng. Yehia uses a little machining oil so the rail slides smoothly. 7) Drive it with a slow motor: gzumwalt uses an N20 60 rpm gear motor on 3 V geared 2:1, about 15 rpm; Eng. Yehia uses a continuous-rotation servo. 8) AjaxJones suggests counterweighting the main wheel to balance the heavy connecting rod pivot. 9) PLA is fine for demonstrators; keep it below about 60 °C (Prusa). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Gear motor (e.g. 'N20 gear motor', 'TT gear motor') or continuous-rotation servo; ball bearings (e.g. 3 x 10 mm, flanged bearings); shoulder bolts (shoulder screws) or dowel pins as pivots; heat-set threaded inserts; a linear slide, linear guide rail or bushings on a rod for the ram (search 'miniature linear guide', 'linear bushing'); retaining rings (e-clips, circlips); washers and spacers. On old machine tools the parts are called bull gear, crank pin, sliding block, rocker arm and ram.
+- **rules_of_thumb**: 
+  - Time ratio = time of working (cutting) stroke / time of return stroke = crank angle during the working stroke / crank angle during the return stroke, because the crank turns at constant speed (IIT Kharagpur Mechanisms and Robotics virtual lab).
+  - Crank and slotted lever: cos(alpha/2) = crank radius / distance between the fixed centres, where alpha is the crank angle for the return stroke; the working stroke uses beta = 360 - alpha degrees. Example: 75 mm crank, 150 mm between centres gives alpha = 120 degrees, beta = 240 degrees, ratio 2:1 (ESE 2014 exam question, worked on Testbook).
+  - Stroke length = 2 x (slotted lever length) x cos(alpha/2) = 2 x lever length x crank radius / centre distance (Chutia, ADBU Journal of Engineering Technology 4(1), 2016: stroke = 2 AP sin(90 - alpha/2)). So a longer crank (crank pin further out) gives a longer stroke (ISRO 2022 exam question) and also a larger time ratio.
+  - The crank radius must be smaller than the centre distance for the lever to rock; if the crank is longer than the distance between the fixed pivots, the slotted link turns right round, which is the Whitworth (rotating) form (German Wikipedia 'Kurbelschleife': schwingende vs umlaufende Kurbelschleife; IIT Kharagpur).
+  - General quick-return linkages: time ratio Q = (180 + beta) / (180 - beta), where beta is the imbalance angle; rearranged, beta = 180 x (Q - 1)/(Q + 1) (Wikipedia 'Four-bar linkage', citing Myszka, Machines and Mechanisms).
+  - Keep a sliding block between crank pin and slot: wear is lower than with a bare pin in the slot (German Wikipedia 'Kurbelschleife').
+  - For printed moving parts start with at least 0.3 mm clearance and adjust after a test (Prusa, 'Modeling with 3D printing in mind'). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - The metal shaping machine (shaper) in a school or model-engineering workshop, whose ram cuts slowly forward and snaps back (Wikipedia 'Shaper')
+  - Slotting machines (vertical shapers) and some power-driven saws (Wikipedia 'Quick return mechanism'; IIT Kharagpur)
+  - Screw presses and other machines listed by Wikipedia that only do work in one direction
+  - Printed desk models and classroom demonstrators of the 'Whitworth' mechanism on Printables
+- **when_to_use**: Use it when a motor turns steadily but the useful work happens in only one direction of a back-and-forth stroke: pushing a cutter, scraper, punch or pusher slowly and firmly, then pulling it back fast to save time. Examples for makers: a desktop shaper or scraper, a pusher or feeder that moves parts one way (Wikipedia lists cutting machines and package-moving devices as quick-return uses), an automaton that strikes slowly and returns fast, or a classroom model showing why a crank's timing can be uneven. It is simple, all-mechanical, needs no electronics or limit switches, and the stroke length can be made adjustable by moving the crank pin.
+- **when_not_to_use**: Avoid it when you need the same speed in both directions (use a slider-crank or a Scotch yoke), a constant speed through the stroke or a pause at the ends (use a cam and follower), a long stroke or one that can stop anywhere and reverse on command (use a lead screw and nut, rack and pinion, belt or a linear actuator), or very quiet and play-free motion (the block sliding in the slot wears and rattles). For high forces with adjustable speed, modern shapers use hydraulic cylinders instead (Wikipedia 'Shaper'; The Engineers Post).
+- **environment_limits**: Printed PLA parts soften and deform above about 60 °C and degrade in UV light (Prusa PLA guide), so keep PLA models out of hot cars and sunny windows. Eng. Yehia oils the ram rail]. *(unverified parts omitted)*
+- **safety_notes**: Do not push the mechanism to its maximum stress or speed; Wikipedia warns the machine will break. *(unverified parts omitted)*
+- **common_failures**: 1) Wear and growing play where the pin or block rubs in the slot, causing knocking at each reversal: keep a sliding block (German Wikipedia), lubricate, or use a harder pin. 2) The ram binding in its guides: oil the rail (Eng. Yehia) and line the guides up with the lever. 3) Printed parts sticking because of first-layer 'ooze', seams or stringing: file edges and test-fit, trim and sand moving surfaces (gzumwalt). 4) The lever or crank pin breaking from overloading or running too fast (Wikipedia). *(unverified parts omitted)*
+- **related**: 
+  - Slider-crank (crank and connecting rod): same family (the quick-return mechanisms are inversions of the slider-crank chain), but an in-line slider-crank takes equal time each way; offsetting the slider line gives a milder quick return (Wikipedia 'Slider-crank linkage')
+  - Scotch yoke: also a crank pin in a slot, but the slotted yoke slides straight and gives equal, sine-wave strokes with no quick return
+  - Four-bar linkage (crank-rocker or drag-link): can also be laid out with an imbalance angle to give a quick return, using only pin joints (Wikipedia 'Four-bar linkage')
+  - Cam and follower: can give any motion shape, including a slow push, a fast return and a pause at the ends
+  - Rack and pinion, or lead screw and nut: long straight strokes that can stop anywhere and reverse on command
+  - Hydraulic or electric linear actuator: modern replacement on shapers, with adjustable speed and force
+  - Geneva drive and intermittent gears: other ways of getting uneven (stop-go) timing from steady rotation
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Quick Return Mechanism 1.gif (Wikimedia Commons, by Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism_1.gif): Animated quick-return linkage: the input crank (cyan) drives an output link (pink) that returns faster than it goes forward; the lead image of Wikipedia's article *(licence: CC BY-SA 4.0)*
+  - [Quick Return Mechanism 2.gif (Wikimedia Commons, by Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism_2.gif): Animated quick-return linkage captioned on Wikipedia as one of Whitworth's quick return mechanisms *(licence: CC BY-SA 4.0)*
+  - [Shaper.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Shaper.png): Diagram of a shaping machine's crank and slotted-lever drive; Wikipedia notes the drive arm turns through a smaller angle on the return stroke *(licence: CC BY-SA 3.0)*
+  - [Shaper with Coulisse mechanism 2 (Nguyen Duc Thang, YouTube thang010146)](https://www.youtube.com/watch?v=5cb7D9pLcq4): CAD animation of a shaping machine driven by a crank and slotted lever, working stroke slower than return *(licence: link only (standard YouTube licence))*
+  - [slow motion whitworth quick return mechanism (Narrow Minded Railworks, YouTube)](https://www.youtube.com/watch?v=CCfre2TgeTk): Slow-motion video of a small 3D-printed, motor-driven quick-return model (the video linked from AjaxJones' Printables model) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [A Simple 3D Printed Whitworth Quick Return Mechanism (gzumwalt, Printables)](https://www.printables.com/model/358710-a-simple-3d-printed-whitworth-quick-return-mechani): Motorised printed demonstrator (N20 gear motor, about 15 rpm) whose arm swings about 14 degrees each way, faster one way than the other; printed at 0.15 mm, no supports, with assembly notes *(licence: CC BY-NC-SA)*
+  - [Shaper Mechanism (quick return mechanism) (Eng. Yehia, Printables)](https://www.printables.com/model/202288-shaper-mechanism-quick-return-mechanism): Simple shaper prototype for a first-year mechanical engineering course, driven by a continuous-rotation servo, with M4 screws and SolidWorks files *(licence: CC BY)*
+  - [Whitworth quick return mechanism (AjaxJones, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/14205-whitworth-quick-return-mechanism): Small gear-motor-driven model using a 3 mm bolt and 10 mm OD bearing on the connecting rod; video linked above *(licence: CC BY)*
+  - [Whitworth mechanism (WayTooManyHobbies, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/263307-whitworth-mechanism): Printable hand-operated model using nylon shoulder bolts and heat-set inserts, with a drawing and STEP file *(licence: CC BY-NC-SA)*
+  - [HUANGYAN920/Mechanical interactive mechanism animations](https://huangyan920.github.io/Mechanical/): Browser animations with adjustable crank radius and pivot positions, including a rotating guide-bar quick-return (Whitworth type), an offset quick-return and a shaper mechanism (labels mostly in Chinese) *(licence: MIT (code))* *(unverified parts omitted)*
+- **diagram_idea**: A crank circle with the slotted lever drawn at its two extreme positions touching the circle, the crank arc shaded in two colours (long arc = slow working stroke, short arc = fast return), and a ram below with arrows of different lengths showing the slow push and fast return.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Quick_return_mechanism
+  - https://en.wikipedia.org/wiki/Shaper
+  - https://en.wikipedia.org/wiki/Four-bar_linkage
+  - https://en.wikipedia.org/wiki/Slider-crank_linkage
+  - https://de.wikipedia.org/wiki/Kurbelschleife
+  - https://mr-iitkgp.vlabs.ac.in/exp/quick-return-mechanism/theory.html
+  - https://mm2-nitk.vlabs.ac.in/exp/crank-slotted-mechanism/theory.html
+  - https://testbook.com/question-answer/in-a-crank-and-slotted-lever-quick-return-motion--5ef9d5d8551232229809e98a
+  - https://testbook.com/question-answer/stroke-length-of-ram-in-shaper-can-be-increased-by--6303476d26d8b0d9daacd182
+  - https://journals.dbuniversity.ac.in/ojs/index.php/AJET/article/download/195/pdf_33
+  - https://www.theengineerspost.com/shaper-machine-mechanism/
+  - https://wiki.dtonline.org/index.php/Whitworth_Quick_Return_Mechanism
+  - https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism_1.gif
+  - https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism_2.gif
+  - https://commons.wikimedia.org/wiki/File:Shaper.png
+  - https://www.youtube.com/watch?v=5cb7D9pLcq4
+  - https://www.youtube.com/watch?v=RvyKFLZi2SM
+  - https://www.youtube.com/watch?v=dqt1jkwLgs0
+  - https://www.youtube.com/watch?v=CCfre2TgeTk
+  - https://huangyan920.github.io/Mechanical/
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/358710-a-simple-3d-printed-whitworth-quick-return-mechani
+  - https://www.printables.com/model/202288-shaper-mechanism-quick-return-mechanism
+  - https://www.printables.com/model/14205-whitworth-quick-return-mechanism
+  - https://www.printables.com/model/263307-whitworth-mechanism
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, materials, motion, play_and_precision, processes, rules_of_thumb, safety_notes
 
 ## 197 Straight-line linkages (Watt, Chebyshev, Peaucellier)
 
@@ -1725,23 +1852,602 @@
 
 *Also covers:* Also covers the Tusi couple (a rolling-circle straight-line mechanism)
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A few bars joined by pivots and arranged so that one point on them travels in a straight (or very nearly straight) line, with no slide or rail to guide it
+- **term**: Straight-line linkage (straight-line mechanism): approximate types such as Watt's, Chebyshev's, Roberts' and Hoecken's linkages; exact types such as the Peaucellier-Lipkin linkage, Hart's inversors and the Sarrus linkage; and the rolling-circle Tusi couple (Cardan gear)
+- **aliases**: 
+  - straight-line mechanism
+  - parallel motion (the 18th- and 19th-century name, e.g. Watt's parallel motion)
+  - Watt's linkage
+  - Chebyshev (Tchebicheff) linkage; Chebyshev lambda linkage; Chebyshev's plantigrade machine
+  - Roberts linkage
+  - Hoecken (Hoekens) linkage
+  - Peaucellier-Lipkin linkage / Peaucellier cell / Peaucellier-Lipkin inversor
+  - Hart's inversor (Hart's W-frame or antiparallelogram; Hart's A-frame)
+  - Sarrus linkage (a folding 3D straight-line linkage)
+  - inversor, inversor cell (the exact straight-line linkages)
+  - Tusi couple (Tusi's mechanism)
+  - Cardan gear / Cardan's movement / hypocycloidal straight-line mechanism
+  - Lenkergeradführung (German, 'linkage straight-line guide')
+  - 直线机构 (Chinese, 'straight-line mechanism'), e.g. 瓦特直线导向机构 (Watt) and 切比雪夫直线机构 (Chebyshev)
+- **family**: motion conversion
+- **other_families**: sliding, telescoping & linear motion
+- **one_liner**: Pivoted bars (or, in the Tusi couple, a gear rolling inside a ring gear twice its size) are proportioned so that one point moves in a straight line, turning rotation or rocking into straight-line motion, or the reverse, without any sliding guide.
+- **complexity**: A few parts. Watt's, Chebyshev's, Roberts' and Hoecken's linkages are four-bar linkages: three moving bars plus the frame and four pivots. The Peaucellier linkage has seven bars (two long ones, a diamond (rhombus) of four equal short ones, and one extra bar) meeting at six pivot points, most shared by two or three bars; Hart's inversor needs five bars (Kempe, 1877). The Sarrus linkage is two plates joined by two pairs of hinged plates or bars. The Tusi couple / Cardan gear is a fixed ring gear, a gear half its size, and a crank arm carrying that gear.
+- **how_it_works**: In the approximate linkages two swinging arms move their ends along circles that curve in opposite directions, and a point halfway along the bar joining them has the two curves cancel out, so near the middle of its travel it moves almost straight (Kempe; Watt described it as 'a certain point in the connecting-lever which has very little sensible variation from a straight line'). A four-bar linkage can never give a perfectly straight line without a slide (Wikipedia 'Straight-line mechanism'). The exact linkages use geometric inversion: in the Peaucellier cell the product of two distances from the fixed pivot stays constant, so when one corner of the diamond is made to move on a circle passing through the fixed pivot, the opposite corner is forced along a perfectly straight line. In the Tusi couple a small circle rolls inside one twice its diameter, and every point on the small circle's rim moves back and forth along a diameter of the large one.
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: turns rotation or rocking into straight-line motion (or straight-line motion into rocking)
+  - let it move (turn, slide or bend): guides a point or a platform along a straight line using only pivots, instead of a slide or rail
+- **motion**: multiple: the bars rotate or rock through limited angles (for example the Chebyshev linkage's input bar works between about 37 and 102 degrees, per Wikipedia); the traced point slides along a straight line of limited length. The Tusi couple / Cardan gear takes continuous rotation and gives an endless back-and-forth straight stroke.
+- **degrees_of_freedom**: 1: one input angle fixes the whole linkage (the Sarrus linkage counts as 0 by the usual formula, but because its constraints overlap its top plate keeps 1 freedom to move straight up and down; Wikipedia 'Sarrus linkage')
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): rocking or rotation becomes straight-line motion, exactly (Peaucellier, Hart, Sarrus, Tusi couple) or approximately (Watt, Chebyshev, Roberts, Hoecken), and the reverse
+  - none of the other listed behaviours: it neither locks nor slips; it just guides
+- **holding_principle**: not a holding joint (it moves or passes on motion): it guides a point along a line, shape (the parts interlock; form-fit): each pivot pin sits in its hole, which is what constrains the path
+- **input_output**: Rocking or rotation -> straight-line motion, or straight-line motion -> rocking (Wikipedia: 'or vice versa'). Stroke is limited by the bar lengths; approximate linkages are only straight over part of their travel (for example the Chebyshev lambda linkage stays within 1% of a line for over half its cycle; Wikipedia). The Tusi couple / Cardan gear gives a stroke equal to the ring gear's pitch diameter and a pure sine-wave (simple harmonic) motion, which produces no second-order shaking forces and so is easy to balance (Wikipedia 'Straight-line mechanism'). Efficiency: high, since there are only turning pivots and no sliding guide; Shafts: all pivot axes parallel in the planar linkages; two sets of hinge axes at an angle in the Sarrus linkage. *(unverified parts omitted)*
+- **power**: passive (no power needed): it is moved by hand, a motor, a piston or the load; nothing happens when power is lost except that it stops
+- **removability**: removable: the bars are joined by pins, screws or shoulder bolts and can be taken apart
+- **reuse_cycles**: many times: it can be dismantled and reassembled repeatedly; the limit is wear of the pivot holes
+- **tools_needed**: Screwdriver or hex key for pivot screws; a drill bit used by hand to ream printed pivot holes to size (Ubrch); a vice or soft-jawed clamp to press in small ball bearings (Ubrch); pliers; a soldering iron to press nuts into printed parts (Namako's walker)
+- **seal**: none: it is an open mechanism and does not seal anything
+- **load**: Light to heavy depending on build: these linkages guided the piston rods of steam engines (Watt's parallel motion), locate the rear axles of some cars sideways (Watt's linkage) and carry the jibs of level-luffing dockside cranes (Chebyshev 'horse-head' design) (Wikipedia). Printed versions are light-duty guides (e.g. for a soldering iron in a heat-set insert press). *(unverified parts omitted)*
+- **adjustable**: Usually no: the bar lengths fix the path, and changing them makes the line curved. *(unverified parts omitted)*
+- **play_and_precision**: Approximate types have a built-in error that grows with stroke: the Watt linkage is only nearly straight near its middle position and traces a figure-8 overall (Kempe; Wikipedia); a Hoeken-type linkage optimised for straightness stays within 0.096% over half the crank's turn (Norton, Design of Machinery 3rd ed., Table 3-1). The pivots must be parallel; misaligned pivots bind. Kovács (kovzol) notes that even the pen refill's up-and-down play affects LEGO linkage drawings. *(unverified parts omitted)*
+- **access_needed**: not applicable: it is a mechanism in a frame, reached wherever the frame opens
+- **materials**: Historically cast and wrought iron and steel on steam engines. For models Kempe (1877) used cardboard links with catgut rivets, or tin-plate links with bootmaker's eyelets as pivots. LEGO Technic beams and pins (brand) work well (kovzol/lego-linkages). Printed versions use PLA or PLA-CF bars with 2 mm steel dowel pins and small ball bearings (Ubrch), or 1.75 mm filament as hinge pins (Illmilliner's Sarrus press). Tusi couples use printed involute gears (Kladrie: 64-tooth gear in a 128-tooth ring).
+- **maker_difficulty**: easy to moderate: Watt's, Chebyshev's and Roberts' linkages are just four bars and four pins; the Peaucellier and Hart linkages need more bars with accurate lengths and low-play pivots, and the Tusi couple needs a printed internal (ring) gear exactly twice the size of its partner
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): bars, frames and gears print flat; examples include heat-set insert presses based on the Peaucellier and Sarrus linkages, a Chebyshev walking robot and a Tusi couple toy
+  - woodwork: card, thin wood or tin-plate with eyelets as pivots (Kempe, 1877)
+  - CNC: metal links for heavy-duty uses such as vehicle suspension
+  - off-the-shelf part: LEGO Technic beams and pins (brand), shoulder bolts, dowel pins, small ball bearings, rod ends *(unverified parts omitted)*
+- **print_in_place**: no: printed straight-line linkages are printed as separate bars and joined with pins (steel dowels, screws or lengths of filament); the designer of a printed Sarrus insert press was considering a print-in-place version but had not released one
+- **making_tips_3d_printing**: 1) Get the proportions right first: sketch the linkage in a simulator (PMKS+, Linkage, or HUANGYAN920's animations) or build it from LEGO Technic or card and pins (kovzol; Kempe), then print. 2) Use real pins for pivots: Ubrch's Peaucellier insert press uses 2 mm steel dowels in interference-fit holes and small ball bearings; printed 2 mm holes were not accurate enough, so he reamed them by hand with a drill bit held in a chuck (a 5/64 in bit, slightly under 2 mm). 3) Ubrch prints the bars so the pivot holes run along the Z axis (vertical), adds extra walls on long load-bearing bars, uses a randomised seam position, and sands the undersides so the bars slide past each other smoothly. 4) Cheap pin option: Illmilliner's Sarrus insert press uses lengths of 1.75 mm filament as hinge pins. 6) Namako's Chebyshev walker uses M2 screws with washers and nuts pressed in with a soldering iron, and drills holes to size (2, 3 and 5 mm). 7) Tusi couple: Kladrie printed a 64-tooth gear running inside a 128-tooth ring gear in PLA at 0.2 mm layers without supports; the tooth counts must be exactly 1:2. 9) PLA softens above about 60 °C (Prusa), which matters for insert presses that hold a hot soldering iron nearby. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Dowel pins (e.g. 2 mm or 3 mm steel dowel pins); shoulder bolts (shoulder screws); miniature and flanged ball bearings; e-clips or retaining rings; rod ends (rose joints) for heavy-duty links such as a car's Watt's link; For long, stiff straight motion the off-the-shelf alternative is a linear guide or linear bushings on rods. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Watt's linkage: two equal swinging bars; the connecting bar's length is chosen so that when the swinging bars are parallel it is at right angles to them; the tracing point is halfway along the connecting bar. The path is only nearly straight close to the middle position (Kempe, How to Draw a Straight Line, 1877).
+  - Chebyshev's linkage: swinging bars 5 units long, fixed pivots 4 units apart, connecting bar 2 units, tracing point at its middle; the point moves parallel to the line between the fixed pivots, and is exactly on the line at the middle and above each fixed pivot (Kempe, 1877; Wikipedia 'Chebyshev linkage'). Input bar range about 36.9 to 101.5 degrees (Wikipedia).
+  - Roberts' linkage: equal swinging bars; fixed pivots twice as far apart as the two pivots on the moving piece; tracing point on the moving piece at a distance from those pivots equal to the swinging-bar length (Kempe, 1877).
+  - Chebyshev lambda linkage: crank 1, distance between fixed pivots 2, rocker 2.5, and a coupler 5 long with the tracing point at its far end (rocker joined at its middle); it stays within 1% of a straight line for over half the cycle, at nearly constant speed (Wikipedia 'Chebyshev lambda linkage').
+  - Hoeken-type four-bar (Norton, Design of Machinery 3rd ed., p. 134, Table 3-1): for a straight portion lasting half the crank's turn, ground link / crank = 2.2 and coupler / crank = 2.8 give 0.096% straightness error but 35% speed variation; for near-constant speed over 60 degrees of crank, 2.025 and 2.538 give 0.387% straightness error and 0.106% speed variation. You cannot have best straightness and steadiest speed at once.
+  - Peaucellier linkage: two equal long bars from the fixed pivot O to opposite corners of a diamond (rhombus) of four equal short bars; an extra bar, pivoted to the frame at a distance from O equal to its own length, makes a third corner move on a circle through O; the fourth corner then moves exactly straight (Kempe, 1877; Wikipedia). Distance(O, B) x distance(O, D) = long bar squared - short bar squared, a constant (Wikipedia).
+  - A four-bar linkage can only approximate a straight line; exact straight lines need at least a six-bar inversor (Peaucellier, Hart) or a slide (Wikipedia 'Straight-line mechanism'; Kempe: 'impossible to solve the problem with three moving links').
+  - Tusi couple / Cardan gear: the rolling gear's pitch diameter must be exactly half the ring gear's (tooth ratio 1:2); any point on the small gear's pitch circle then moves along a diameter of the ring gear, so the stroke equals the ring's pitch diameter (Wikipedia 'Straight-line mechanism'); points inside the pitch circle trace ellipses (Wikipedia 'Tusi couple').
+  - Tusi couple without a ring gear (Goodman's version): a fixed gear, an idler on a rotating arm, and an output gear with half the teeth of the fixed gear; an output arm of length d (equal to the distance between the fixed and output gears) moves its tip along a straight line of length 2d (Wikipedia 'Tusi couple').
+  - Scott Russell linkage: keep the slider well away from the short link's pivot; as they approach, the straight-line constraint weakens and sideways forces on the slider rise (Wikipedia 'Scott Russell linkage').
+
+### When to use it
+
+- **everyday_examples**: 
+  - The rear axle of some cars, held sideways by a Watt's linkage instead of a Panhard rod (Wikipedia 'Watt's linkage')
+  - Level-luffing dockside cranes with a 'horse-head' jib, which use a Chebyshev-type linkage to keep the load at a constant height (Wikipedia 'Chebyshev linkage')
+  - Beam engines in steam museums, whose piston rods are guided by Watt's parallel motion (Wikipedia; 507 Mechanical Movements no. 343)
+  - Maker-built heat-set insert presses that guide a soldering iron straight down with a Peaucellier or Sarrus linkage instead of a linear rail (Printables)
+- **when_to_use**: Use one when a point, pen, tool or platform must move in a straight line but a slide or rail would be expensive, hard to make straight, prone to wear, or poor when 3D printed: pivots are easy to make accurately and have little friction (Kempe explains that sliding guides must be made truly straight and suffer wear, friction and temperature distortion). Good uses: guiding a tool straight up and down (heat-set insert press, drill or punch guide), drawing or plotting straight lines, keeping an axle or piston rod moving straight, the feet of walking robots and rover wheels (the Chebyshev lambda linkage, per Wikipedia), a compact straight-lifting platform (Sarrus), or turning continuous rotation into a smooth, easily balanced straight stroke (Tusi couple / Cardan gear). Also a classic, satisfying desk demonstration.
+- **when_not_to_use**: Avoid them for long strokes, where the linkage becomes huge (use a linear guide, lead screw, rack and pinion or belt); for motion that must be stiff against side loads and twisting (use linear guides or bushings on rods); for very small, very precise motions (use a parallel leaf-spring flexure stage, which has no play at all); and for approximate types, whenever you need the line to stay straight beyond the linkage's good range (use an exact type or a slide). If you only need a platform to stay level while it moves, a parallelogram four-bar or scissor linkage is simpler.
+- **environment_limits**: Printed PLA softens and deforms above about 60 °C and degrades in UV light (Prusa PLA guide); keep printed insert-press linkages away from the hot soldering-iron tip. Kempe notes linkages avoid the temperature distortion that plagues long sliding guides. *(unverified parts omitted)*
+- **safety_notes**: Don't modify a vehicle's suspension linkage without proper engineering; it carries large loads. *(unverified parts omitted)*
+- **common_failures**: 1) Using an approximate linkage beyond its straight range, so the point wanders off the line (the Watt linkage traces a figure-8; Kempe). 2) Wrong proportions or inaccurate bar lengths, giving a curved path: lay it out in a simulator or with card first (Kempe; PMKS+). 3) Play in loose pivot holes adding up across many joints: ream holes to size and use steel dowels or bearings (Ubrch). 5) Locking up or pushing hard sideways near toggle positions where two bars line up (Wikipedia 'Scott Russell linkage'). *(unverified parts omitted)*
+- **related**: 
+  - Four-bar linkage (incl. parallelogram linkage): the parent mechanism of the approximate straight-line linkages; a parallelogram keeps a part level but does not move a point straight
+  - Linear guides (bushings on rods, wheels or carriages on rails) and dovetail slides: the usual way to get straight motion; longer strokes and stiffer, but they slide, need straight rails and wear
+  - Parallel leaf-spring flexure (linear flexure stage): nearly straight motion over tiny distances with no pivots and no play
+  - Scissor linkage (lazy tongs, scissor lift): a chain of crossed bars that also lifts a platform straight, with one sliding end
+  - Scotch yoke and slider-crank: turn rotation into straight motion but need a slide; the Scotch yoke's sine-wave motion matches the Tusi couple's, and both relate to the double-slider trammel (Wikipedia 'Straight-line mechanism')
+  - Rack and pinion, lead screw and nut: long straight strokes from rotation
+  - Virtual-pivot linkage (remote centre of motion): the rotary counterpart, a linkage whose part turns about a point in empty space
+  - Scott Russell linkage: turns a straight motion through a right angle; often combined with a straight-line linkage (Wikipedia)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Watts Linkage.gif (Wikimedia Commons, by Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif): Animated Watt's linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description *(licence: CC BY-SA 4.0)*
+  - [Peaucellier-Lipkin Inversor.gif (Wikimedia Commons, by Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Peaucellier-Lipkin_Inversor.gif): Animated Peaucellier-Lipkin linkage drawing an exact straight line, with bar lengths in the description *(licence: CC BY-SA 4.0)*
+  - [Chebyshev Lambda Linkage.gif (Wikimedia Commons, by Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Chebyshev_Lambda_Linkage.gif): Animated Chebyshev lambda linkage: crank 1, rocker 2.5, coupler 5, fixed pivots 2 apart, with a long flat section of its path *(licence: CC BY-SA 4.0)*
+  - [Cardano's hypocyclic gears.gif (Wikimedia Commons, by Bryllig)](https://commons.wikimedia.org/wiki/File:Cardano%27s_hypocyclic_gears.gif): Animated Cardan gear (Tusi couple made with gears): pins on a gear rolling inside a ring gear twice its size move back and forth along straight diameters *(licence: CC BY-SA 4.0)*
+  - [Sarrus Linkage.gif (Wikimedia Commons, by Arglin Kampling)](https://commons.wikimedia.org/wiki/File:Sarrus_Linkage.gif): Animated Sarrus linkage made of hinged plates: the top plate moves straight up and down *(licence: CC BY-SA 4.0)*
+- **make_it_yourself**: 
+  - [lego-linkages (Zoltán Kovács, GitHub), README](https://raw.githubusercontent.com/kovzol/lego-linkages/master/README.md): Building instructions for LEGO Technic linkages that draw with a pen refill: Watt's linkage, Chebyshev's linkage and lambda linkage, Peaucellier's linkage (with an optional 3D-printed 4-hole beam) and Hart's A-frame *(licence: GPL-3.0)*
+  - [Heat Set Insert Press, only weird and complicated (Ubrch, Printables)](https://www.printables.com/model/610004-heat-set-insert-press-only-weird-and-complicated): A working heat-set insert press whose soldering-iron holder is guided straight down by a Peaucellier-Lipkin linkage; detailed notes on 2 mm dowel pivots, reaming holes and print orientation *(licence: CC BY-NC-SA)*
+  - [Heat Set Insert Press (Sarrus Linkage) (Illmilliner, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1209178-heat-set-insert-press-sarrus-linkage): An almost all-printed insert press using a Sarrus linkage instead of rails, with 1.75 mm filament as hinge pins (work in progress) *(licence: CC BY-NC)*
+  - [Tusi Couple illusion mechanism (Kladrie, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1757607-tusi-couple-illusion-mechanism): Motorised Tusi couple: a 64-tooth gear inside a 128-tooth ring gear carries magnets that drag steel balls along straight lines *(licence: CC BY-SA)*
+  - [Chebyshev Linkage walker Unit for OTTO (Namako, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/427797-chebyshev-linkage-walker-unit-for-otto): Servo-driven walking unit for the OttoDIY robot using Chebyshev linkages (work in progress) *(licence: CC BY-NC-SA)*
+  - [HUANGYAN920/Mechanical interactive mechanism animations](https://huangyan920.github.io/Mechanical/): Browser animations with adjustable bar lengths, including Watt, Chebyshev, Roberts, Hart and a Peaucellier-type straight-line mechanism (labels mostly in Chinese; its Peaucellier entry is mislabelled as an ellipsograph) *(licence: MIT (code))* *(unverified parts omitted)*
+- **diagram_idea**: Side-by-side sketches of Watt's linkage (two arms curving opposite ways, midpoint staying straight) and the Peaucellier cell (diamond plus two long arms, one corner on a circle, the opposite corner on a line), each with its traced path drawn in colour, plus a small inset of a gear rolling inside a ring gear twice its size with one rim point sliding along a diameter.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Straight-line_mechanism
+  - https://en.wikipedia.org/wiki/Watt%27s_linkage
+  - https://en.wikipedia.org/wiki/Parallel_motion_linkage
+  - https://en.wikipedia.org/wiki/Chebyshev_linkage
+  - https://en.wikipedia.org/wiki/Chebyshev_lambda_linkage
+  - https://en.wikipedia.org/wiki/Roberts_linkage
+  - https://en.wikipedia.org/wiki/Hoecken_linkage
+  - https://en.wikipedia.org/wiki/Peaucellier%E2%80%93Lipkin_linkage
+  - https://en.wikipedia.org/wiki/Hart%27s_inversors
+  - https://en.wikipedia.org/wiki/Sarrus_linkage
+  - https://en.wikipedia.org/wiki/Scott_Russell_linkage
+  - https://en.wikipedia.org/wiki/Tusi_couple
+  - https://en.wikipedia.org/wiki/Murray%27s_Hypocycloidal_Engine
+  - https://de.wikipedia.org/wiki/Geradf%C3%BChrung
+  - https://www.gutenberg.org/files/25155/25155-pdf.pdf
+  - http://www.designofmachinery.com/DOM/Chap_03_3ed_p134.pdf
+  - https://507movements.com/mm_329.html
+  - https://507movements.com/mm_339.html
+  - https://507movements.com/mm_343.html
+  - https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif
+  - https://commons.wikimedia.org/wiki/File:Peaucellier-Lipkin_Inversor.gif
+  - https://commons.wikimedia.org/wiki/File:Chebyshev_Linkage.gif
+  - https://commons.wikimedia.org/wiki/File:Chebyshev_Lambda_Linkage.gif
+  - https://commons.wikimedia.org/wiki/File:Cardano%27s_hypocyclic_gears.gif
+  - https://commons.wikimedia.org/wiki/File:TusiCouple.gif
+  - https://commons.wikimedia.org/wiki/File:Goodman_Tusi_Couple.webm
+  - https://commons.wikimedia.org/wiki/File:Sarrus_Linkage.gif
+  - https://www.youtube.com/watch?v=P31fzSIGrl0
+  - https://raw.githubusercontent.com/kovzol/lego-linkages/master/README.md
+  - https://raw.githubusercontent.com/kovzol/lego-linkages/master/LICENSE
+  - https://makezine.com/article/maker-news/the-peaucelliers-cell-dra/
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/610004-heat-set-insert-press-only-weird-and-complicated
+  - https://www.printables.com/model/1209178-heat-set-insert-press-sarrus-linkage
+  - https://www.printables.com/model/1757607-tusi-couple-illusion-mechanism
+  - https://www.printables.com/model/427797-chebyshev-linkage-walker-unit-for-otto
+  - https://pmksplus.com/
+  - https://huangyan920.github.io/Mechanical/
+  - https://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, play_and_precision, processes, safety_notes
 
 ## 198 Escapement (anchor or verge escapement)
 
 *motion conversion.* A rocking catch that lets a spring- or weight-driven wheel advance one tooth at a time in a steady rhythm, as in clocks
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A rocking catch that lets a wound-up clock's toothed wheel slip forward one tooth at a time, in step with a swinging pendulum, which is what makes a clock tick
+- **term**: Escapement (anchor or recoil escapement, deadbeat or Graham escapement, verge or crown-wheel escapement)
+- **aliases**: 
+  - anchor escapement / recoil escapement
+  - deadbeat escapement / Graham escapement
+  - verge escapement / crown-wheel escapement / verge and foliot
+  - grasshopper escapement (John Harrison's low-friction version)
+  - pin-pallet, pin-lever or Roskopf escapement (cheap alarm clocks and kitchen timers)
+  - lever escapement / Swiss lever escapement (most mechanical watches)
+  - runaway escapement (no pendulum or hairspring: the rate is set only by the inertia of the rocking part; used in toys and simple timers)
+  - escape wheel and pallets; anchor; pallet fork
+  - Hemmung, Ankerhemmung (German); échappement (French)
+  - 擒纵机构 (Chinese)
+- **family**: motion conversion
+- **other_families**: brakes, dampers & speed control
+- **one_liner**: An escapement lets a spring- or weight-driven wheel turn only in small, regular steps, releasing one tooth at a time each time a pendulum or balance wheel swings, while giving that swinging part a small push to keep it going.
+- **complexity**: A few parts: an escape wheel with sloping, saw-like teeth; an anchor (or verge rod) carrying two pallets that catch the teeth; a crutch and fork linking the anchor to the pendulum; and the timekeeper itself (pendulum, balance wheel or foliot bar). It only works as part of a clock-like assembly with a power source (wound spring or hanging weight) and a gear train.
+- **how_it_works**: The spring or weight tries to spin the gear train, and the escape wheel at its end is blocked by one of the two pallets. As the pendulum swings, it rocks the anchor so that pallet lets go; the wheel jumps forward, and a tooth on the other side lands on the second pallet, which has just moved into its path. Each time a tooth slides off a pallet's sloping face it gives the pendulum a small push that replaces the energy lost to friction, and each sudden stop makes the 'tick'. In the anchor (recoil) type the pendulum pushes the wheel slightly backwards after each catch; in the deadbeat type the pallets have curved 'dead' faces centred on the anchor's pivot, so the wheel stays still until released; in the verge type two flag-like pallets on a rod work against a crown-shaped wheel, and the pendulum or foliot must swing widely (Wikipedia 'Escapement', 'Anchor escapement', 'Verge escapement').
+
+### Finder attributes
+
+- **job**: 
+  - slow it, stop it or keep its speed steady: lets a wound spring or falling weight run down slowly at a steady, countable rate
+  - change the kind of motion: turns a wheel's continuous urge to spin into regular step-by-step motion, and keeps a pendulum or balance swinging
+- **motion**: multiple: the escape wheel turns in small steps (half a tooth per tick; with a 30-tooth wheel and a seconds pendulum that is 6 degrees per tick and one turn per minute), while the anchor or verge rocks back and forth: the pendulum swings about 4 to 6 degrees with an anchor and 80 to 100 degrees with a verge (Wikipedia)
+- **degrees_of_freedom**: 1 while a pallet is touching the wheel (the pendulum's position controls the wheel); between release and catch the wheel briefly runs free for a small amount called the 'drop' (Goodrich, The Modern Clock, 1905)
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): a steady driving force becomes regular, step-by-step rotation, and in the other direction the wheel's pushes keep the oscillator swinging
+  - indexing (clicks into set positions): the wheel advances exactly one tooth for every full swing (half a tooth per tick), so the hands move by a fixed amount each time
+  - self-locking (holds under load, won't back-drive): between releases a pallet blocks the wheel, so the spring or weight cannot run away; the train moves only when the swinging pendulum lets it
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): a pallet sits in front of a tooth and physically blocks it (the 'lock')
+  - not a holding joint (it moves or passes on motion): its purpose is to meter motion, not to hold parts together
+- **input_output**: Input: steady torque from a wound spring or falling weight, passed through a gear train to the escape wheel (the lightest, fastest wheel in the clock). Output: step-by-step rotation of the escape wheel and small pushes (impulses) that keep the pendulum or balance swinging. Ratio: set by the tooth count and the swing rate; a seconds pendulum with a 30-tooth wheel turns the wheel once a minute (Wikipedia 'Anchor escapement'; Goodrich). Efficiency: low and not the point; the tiny energy per tick goes into friction and air drag; Steve Peterson calculated only about 0.035 oz (about 1 g) of force at his printed clock's escape wheel. Shafts: parallel for anchor, deadbeat and grasshopper types; crossed at right angles in the verge (crown-wheel axis at 90 degrees to the verge rod). Back-drivable: no, the pendulum cannot rewind the spring; but in recoil types (anchor and verge) the pendulum pushes the wheel and the whole train slightly backwards on every tick, while the deadbeat has no recoil (Wikipedia).
+- **power**: passive (no power needed): no electricity, but it needs stored energy from a wound spring or raised weight; when that runs out it simply stops. Anchor and deadbeat escapements are not self-starting, so the pendulum must be given a push to start; the watch lever escapement is self-starting (Wikipedia).
+- **removability**: removable: the escape wheel and anchor run on arbors or pins between frame plates and can be taken out for cleaning or adjustment
+- **reuse_cycles**: many times: clocks are routinely dismantled, cleaned, re-oiled and reassembled; wear of pallets and teeth is the limit
+- **tools_needed**: Screwdrivers; small files and fine sandpaper to finish printed pallets and teeth (tomas38 provides a printed pallet-shaping tool); a vice or press for fitting bearings; pliers and side cutters for steel pins; a spirit level for setting the beat; clock oil or dry PTFE lubricant
+- **seal**: none: it is an open mechanism; a clock case keeps dust off, but the escapement itself does not seal anything
+- **load**: Very light: it is a control device, not a load-carrying joint. Tooth forces are tiny (about the weight of a house fly at the escape wheel of Steve Peterson's 8-day printed clock), and tooth tips and pallet faces are delicate; if a clock is moved with its pendulum swinging freely, the pallets can hit the teeth hard, which is one reason anchor teeth slant backwards (Wikipedia 'Anchor escapement').
+- **adjustable**: Yes: the rate by the pendulum's length (a nut under the bob; lowering the bob slows the clock; SP1 notes: 0.025 in, about 0.6 mm, changes his clock by about a minute a day); the beat (even tick and tock) by rotating or bending the crutch relative to the anchor or by levelling the case (Wikipedia 'Pendulum clock'; SP1 notes; tomas38); in runaway escapements the rate by the rocking mass (Ticking Turn Timer: heavier coins tick slower). *(unverified parts omitted)*
+- **play_and_precision**: Working clearances matter: the 'drop' (free run between release and catch) should be as small as safe locking allows, and the 'lock' (how far a pallet overlaps a tooth) must be safe but not too deep (Goodrich; his seconds-pendulum layout allows 6 degrees of wheel drop). The anchor is tolerant of errors in its shape; the deadbeat is less tolerant of inaccuracy and wear (Wikipedia). Timekeeping: verge-and-foliot clocks erred by hours a day, pendulums improved this to minutes a day (Wikipedia 'Verge escapement'); printed deadbeat clocks keep about 1-2 minutes a week (Steve Peterson) or 30 seconds a week or better (tomas38). The clock must be level and 'in beat', or it may stop.
+- **access_needed**: not applicable: it sits between the clock's plates and is reached by opening the case or removing a plate
+- **materials**: Traditionally brass escape wheels and hardened steel pallets; precision clocks and watches use jewel pallets of synthetic sapphire or ruby, with only 10-20% of metal-on-metal friction (Wikipedia 'Escapement'); Harrison's grasshopper pallets were wood and needed no oil. 3D-printed clocks use PLA for wheels, frames and pallets with steel shafts (1/16 in steel rod, 1.4 mm steel pins or nails), brass or stainless bushings and 608 ball bearings (SP1 notes; tomas38); printed springs should be PETG or ABS because PLA creeps and takes a permanent set (Ticking Turn Timer; Piercet's ABS escapement spring).
+- **maker_difficulty**: moderate to hard: a ticking demonstrator is an easy print, but a clock that keeps running and keeps time needs very low friction through the whole gear train, carefully finished pallet faces, correct depth and a pendulum set in beat (tomas38; Steve Peterson's SP1 build notes)
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): many working printed clocks, escapement demonstrators and runaway-escapement toys
+  - 3D print (resin): tomas38 supplies an 'exact' pallet for SLA or machining, as FDM pallets need hand finishing
+  - laser cut: possible in plywood, but Elias Lundgaard's laser-cut clock never got its escapement running reliably within his project
+  - woodwork: wooden gear clocks are a traditional hobby project; Harrison made grasshopper pallets from wood
+  - CNC: metal escape wheels and pallets for precision clocks
+  - off-the-shelf part: complete mechanical clock movements, bearings, steel rod and pendulum suspension springs
+- **print_in_place**: no: escapements are printed as separate parts (escape wheel, anchor or pallets, frame, pendulum) and assembled on pins or shafts; even the no-hardware Ticking Turn Timer is seven printed parts snapped together
+- **making_tips_3d_printing**: 1) Start with a stand-alone escapement and pendulum before building a whole clock (jattie; Hackaday's 2018 escapement article). 2) Print gears and small parts at low layer heights (0.12 or 0.1 mm) and not too fast; check the toolpath so perimeters don't cross and cause stringing; turn off thin-wall detection if it spoils teeth; tune elephant's-foot compensation, because a squashed first layer changes tooth shape and adds friction (tomas38). 3) Make sure escape-wheel teeth are not wider at the tip; if the escapement won't work, thin or sharpen the teeth with a file (tomas38). 4) The pallet faces need real finishing: smooth, flat and burr-free; tomas38 provides a shaping tool, or print the 'exact' pallet in resin. 5) Friction is everything: SP1's 6.4 lb weight gives only about 0.035 oz at the escape wheel, so use steel axles instead of printed ones, brass or stainless bushings, and bearings with the grease cleaned out (SP1 notes; tomas38). 6) Lubrication: SP1 uses a tiny amount of dry PTFE (Teflon) lubricant on bushings and on the pallets, since oil holds dust that scrapes surfaces; test that a lubricant doesn't attack your filament. 7) Use at least 4-5 perimeters on frames so they don't bend under the weight, and at least 4 on printed pendulum springs (tomas38); print springs in PETG, not PLA, which creeps (Ticking Turn Timer), or replace a printed pendulum suspension with thin hardened steel (tomas38). 8) The two crutch pins that hold the pendulum rod must not leave a gap, or the crutch 'knocks' and wastes energy (tomas38). 9) Set the beat by ear ('tick...tock...' not 'tick-tock...pause') and give at least 3 degrees of swing each side for a margin against draughts; about 1 degree each way is the minimum to run (SP1). 10) Runaway (pendulum-less) escapements: if the wheel locks solid the pallet pins go too deep; if it free-runs they are too shallow; heavier rocking masses slow it down (Ticking Turn Timer). 11) Keep PLA clocks below about 60 °C and out of sunlight (Prusa).
+- **off_the_shelf_parts**: 608 ball bearings (with grease removed for low friction); miniature bearings (e.g. 3 x 8 x 3 mm, 1/8 x 3/8 in); steel rod or pins for arbors (e.g. 1/16 in or 1.4-2 mm); brass or stainless tube as bushings; nylon fishing line or cord and a weight (lead shot, steel balls, washers) for the drive; M6 threaded rod and nut for the pendulum rating nut; thin spring steel for the pendulum suspension spring; dry PTFE lubricant or clock oil; complete mechanical clock movements (search 'mechanical pendulum clock movement', 'regulator movement').
+- **rules_of_thumb**: 
+  - Pendulum length sets the rate: a 'seconds pendulum' (1 s per swing, 2 s period) is about 0.994 m (roughly 1 m from pivot to centre of bob); a half-second pendulum is about 25 cm (Wikipedia 'Pendulum clock'). Small-swing formula: period = 2 x pi x square root(length / g) (tomas38 uses it to set his pendulum).
+  - A 30-tooth escape wheel on a seconds pendulum turns once a minute, so the second hand can sit on its arbor (Wikipedia 'Anchor escapement'; Goodrich, The Modern Clock, 1905).
+  - Anchor layout: the pallets span about 7.5 teeth (90 degrees) of a 30-tooth wheel; with 90 degrees between the pallets the anchor's pivot sits about 1.4 x (square root of 2) the wheel radius from the wheel's centre (Wikipedia 'Anchor escapement'; Goodrich draws tangents from radii 45 degrees each side of the centre line).
+  - Deadbeat layout for a seconds pendulum (Goodrich): 4 degrees of pendulum swing is usual, giving 2 degrees of lift on each pallet; lifting planes at 60 degrees to the radii; about 6 degrees of drop left for safety; keep the drop as small as safe locking allows and never lock too deep.
+  - Keep the swing small: the anchor needs only about 4-6 degrees versus 80-100 degrees for a verge (Wikipedia); a change of amplitude from 4 to 3 degrees shortens the period by about 0.013%, a gain of about 12 s a day, so a steady driving force matters (Wikipedia 'Escapement').
+  - Verge: the crown wheel must have an odd number of teeth, or two opposite teeth hit the pallets at once and jam it; the pallets are usually 90-105 degrees apart (Wikipedia 'Verge escapement').
+  - Tooth shape: recoil (anchor) escape-wheel teeth slant backwards against the direction of rotation and the pallets are slightly convex; deadbeat teeth are radial or slant forwards (Wikipedia 'Anchor escapement'; Goodrich).
+  - Give the impulse evenly either side of the bottom of the swing (the clock is 'in beat'); impulses before or after the bottom make the rate depend on the driving force (Wikipedia, Airy condition).
+  - Printed clocks: aim for about 3 degrees of swing each side for reliability; about 1 degree is the minimum for the escapement to work (Steve Peterson, SP1 build notes).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A grandfather (longcase) clock, whose tick-tock and second hand come from an anchor or deadbeat escapement and a seconds pendulum (Wikipedia)
+  - A mechanical wristwatch, which uses a lever escapement and a balance wheel (Wikipedia 'Escapement')
+  - A wind-up kitchen timer or old alarm clock, which uses a cheap pin-pallet escapement (Wikipedia 'Pin-pallet escapement')
+  - A mechanical metronome, which runs from a spring-wound clockwork escapement; manual typewriters also used an escapement to step the carriage one letter at a time (Wikipedia)
+- **when_to_use**: Use it when a wound spring or falling weight must be let down slowly, steadily and in countable steps without electricity: a mechanical clock or timer, a metronome, a slow-moving automaton or a spring-driven toy car that should creep rather than race (gzumwalt's runaway-escapement car). It is also the right choice for a teaching model that shows how clocks keep time, and for anything that should advance one step per event with a stop in between (the typewriter carriage). With a pendulum or balance it gives surprisingly good timekeeping from purely printed parts.
+- **when_not_to_use**: Don't use it to transmit useful power: it passes only tiny forces. For precise timing, a quartz crystal or microcontroller is far more accurate and cheaper. For smooth, silent slowing of a spring or falling load, use a speed governor (fly fan or centrifugal governor) or a damper. For stepping driven by a motor, use a Geneva drive, ratchet and pawl or a stepper motor. If a wide swing is unacceptable, avoid the verge; if you can't make accurate parts, prefer the forgiving anchor over the deadbeat.
+- **environment_limits**: Heat lengthens a metal pendulum rod so the clock loses time in summer; wooden rods expand less, and precision clocks use compensated pendulums (Wikipedia 'Pendulum clock'). Moving a pendulum clock from sea level to 4000 ft makes it lose about 16 s a day (Wikipedia). Oil ages, dries and collects dust, changing the rate and eventually stopping the clock (Wikipedia 'Escapement'; Goodrich; SP1 notes). Printed PLA softens above about 60 °C and degrades in UV (Prusa), and PLA springs creep and take a permanent set under constant load (Ticking Turn Timer). A pendulum clock must stand level and steady; draughts, bumps and vibration can stop it, and non-self-starting escapements will not restart on their own.
+- **safety_notes**: Drive weights of 1.5-3 kg (tomas38; *(unverified parts omitted)*
+- **common_failures**: 1) Out of beat (uneven tick-tock), which easily stops the clock and is one of the most common reasons for repair calls: level the case or adjust the crutch (Wikipedia 'Pendulum clock'). 2) Runs a while then stops: too much friction or too light a weight; check every gear turns freely, add weight, or fix a crutch that knocks on the pendulum rod (tomas38). 3) Escapement won't work at all: teeth too wide or pallet shape wrong; thin the teeth with a file and check the pallet (tomas38); a first printed design that slipped teeth needed tighter tolerances (jattie). 4) Teeth butting on the pallets' sloping faces because the lock is too shallow or the drop too great (Goodrich). 5) Wear of tooth tips from recoil, and pallets worn into grooves (Wikipedia; Goodrich), which is why pallets were made convex. 6) Old oil drying or trapping dust: clean and re-lubricate; high-quality watch oils last over five years (Wikipedia). 7) Worn verge escapements run fast, sometimes by hours a day (Wikipedia 'Verge escapement'). 8) Runaway escapement locks solid (pallet pins too deep) or free-runs (too shallow) (Ticking Turn Timer).
+- **related**: 
+  - Geneva drive (Maltese cross): also gives step-by-step rotation, but driven by a turning crank rather than released by a swinging pendulum, and it locks the output between steps
+  - Ratchet and pawl: a toothed wheel and catch that allow motion one way only; an escapement is like a ratchet whose catch is rocked in and out by a pendulum to meter the motion
+  - Speed governor (fly fan, centrifugal governor): slows a spring or weight smoothly and silently, used in music boxes and chiming trains, but does not keep accurate time
+  - Dampers (rotary and linear soft-close dampers): slow motion smoothly without steps
+  - Intermittent gear (mutilated or part-toothed gear): stop-go motion from a steadily turning drive
+  - Stepper motor: electrical step-by-step rotation that can be commanded to any rate
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Anchor escapement animation 217x328px.gif (Wikimedia Commons, by Chetvorno)](https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif): Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia's Escapement article) *(licence: CC0 (public domain dedication))*
+  - [VergeEscapementCycle.gif (Wikimedia Commons, by AlienAtSystem)](https://commons.wikimedia.org/wiki/File:VergeEscapementCycle.gif): Animated verge escapement: a crown wheel stepping round as the verge rod's two pallets rock *(licence: CC BY-SA 4.0)*
+  - [Graham Escapement.svg (Wikimedia Commons, after F. J. Britten, derivative by McSush)](https://commons.wikimedia.org/wiki/File:Graham_Escapement.svg): Labelled drawing of a deadbeat (Graham) escapement with the concentric locking faces marked *(licence: Public domain)*
+  - [Grasshopper-escapement colored.gif (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Grasshopper-escapement_colored.gif): Animated grasshopper escapement, Harrison's low-friction design with hinged pallets *(licence: CC BY-SA 3.0)*
+  - [3D printed clock (Steve Peterson, YouTube)](https://www.youtube.com/watch?v=imYTm0Vh5TA): Video of Steve Peterson's 3D-printed 8-day pendulum clock with a deadbeat escapement running (linked from its Hackaday.io project page) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Pendulum Clock (tomas38, Printables)](https://www.printables.com/model/69659-pendulum-clock): Fully mechanical wall clock with a seconds pendulum, Graham (deadbeat) escapement and one-week run time; detailed print, finishing and troubleshooting notes *(licence: CC BY-NC-SA)*
+  - [Ticking Turn Timer - wind-up escapement, no electronics, no metal parts (Miloslav Brožek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1794344-ticking-turn-timer-wind-up-escapement-no-electroni): Seven-part printed runaway pin-pallet escapement with a printed PETG spiral spring and a foliot bar weighted with two coins; includes a tuning guide *(licence: CC BY)*
+  - [Mechanical Clock Escapement with Balance-Wheel (bene, Printables)](https://www.printables.com/model/69711-mechanical-clock-escapement-with-balance-wheel): Printable balance-wheel escapement with a small power reserve, to see how watches tick; PLA, no supports *(licence: CC BY-NC-SA)*
+  - [Runaway Escapement Mechanism With Optional Windup Car (gzumwalt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1406983-runaway-escapement-mechanism-with-optional-windup): Printed runaway escapement spring motor, optionally built into a wind-up car that creeps along *(licence: CC BY-NC-SA)*
+  - [50mm Pendulum Clock Escapement (jattie, Printables)](https://www.printables.com/model/936249-50mm-pendulum-clock-escapement): Small stand-alone test rig for a Graham escapement and pendulum, documented through several failed and improved versions *(licence: GPL-3.0)*
+  - [HUANGYAN920/Mechanical interactive mechanism animations](https://huangyan920.github.io/Mechanical/): Browser animation of an escapement (擒纵机构) among 250+ mechanisms *(licence: MIT (code))* *(unverified parts omitted)*
+- **diagram_idea**: Four frames of an anchor escapement (left pallet locking a tooth; pendulum swinging right and the tooth sliding down the pallet's slope giving a push; the wheel dropping; the right pallet catching the next tooth), with a small energy arrow from the hanging weight to the pendulum and a timing arrow back from the pendulum to the wheel.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Escapement
+  - https://en.wikipedia.org/wiki/Anchor_escapement
+  - https://en.wikipedia.org/wiki/Verge_escapement
+  - https://en.wikipedia.org/wiki/Grasshopper_escapement
+  - https://en.wikipedia.org/wiki/Pendulum_clock
+  - https://en.wikipedia.org/wiki/Pin-pallet_escapement
+  - https://en.wikipedia.org/wiki/Metronome
+  - https://de.wikipedia.org/wiki/Hemmung_(Uhr)
+  - https://www.gutenberg.org/files/61494/61494-0.txt
+  - https://507movements.com/mm_234.html
+  - https://507movements.com/mm_288.html
+  - https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif
+  - https://commons.wikimedia.org/wiki/File:VergeEscapementCycle.gif
+  - https://commons.wikimedia.org/wiki/File:Graham_Escapement.svg
+  - https://commons.wikimedia.org/wiki/File:Grasshopper-escapement_colored.gif
+  - https://commons.wikimedia.org/wiki/File:Anchor_escapement.jpg
+  - https://www.youtube.com/watch?v=imYTm0Vh5TA
+  - https://www.youtube.com/watch?v=fC8D_KzMGrk
+  - https://wiki.dtonline.org/index.php/Ratchet
+  - https://hackaday.com/2018/06/21/clock-this-a-3d-printed-escapement-mechanism/
+  - https://hackaday.com/2016/11/15/the-little-mechanism-that-made-precise-time-keeping-possible/
+  - https://hackaday.io/project/163814-3d-printed-pendulum-clock
+  - https://cdn.hackaday.io/files/1638147008618176/SP1_Build_Notes_2019_Mar.pdf
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/69659-pendulum-clock
+  - https://www.printables.com/model/2508-pendulum-clock
+  - https://www.printables.com/model/1794344-ticking-turn-timer-wind-up-escapement-no-electroni
+  - https://www.printables.com/model/1406983-runaway-escapement-mechanism-with-optional-windup
+  - https://www.printables.com/model/69711-mechanical-clock-escapement-with-balance-wheel
+  - https://www.printables.com/model/936249-50mm-pendulum-clock-escapement
+  - https://www.printables.com/model/33481-abs-printable-escapement-spring-for-3d-printed-mec
+  - https://www.eliaslundgaard.com/posts/lasercut-mechanical-clock/
+  - https://huangyan920.github.io/Mechanical/
+  - https://help.prusa3d.com/article/pla_2062
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, make_it_yourself, safety_notes
 
 ## 199 Bell crank (angle lever)
 
 *motion conversion.* An L-shaped lever on a pivot that turns a push or pull round a corner, and can change its size, as in RC and aircraft controls
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: An L-shaped (or straight) lever on a pin that takes a push or pull coming from one direction and sends it off in another direction, and can make the movement bigger or smaller on the way
+- **term**: Bell crank (bellcrank, bell-crank lever)
+- **aliases**: 
+  - bellcrank / bell-crank lever (Wikipedia; Sheldon Brown)
+  - angle lever
+  - elbow lever ('the bell-crank or elbow-lever', 507 Mechanical Movements no. 156)
+  - right-angled or rectangular lever ('a rectangular lever in the form of a crank', Chambers's 1908 dictionary)
+  - 90-degree bellcrank and 180-degree bellcrank (the two common forms; Wikipedia)
+  - rocker / suspension rocker (race-car pushrod and pullrod suspensions; Formula 1 Dictionary)
+  - control horn (on a light-aircraft rudder, where the bellcrank pivots on the rudder hinge; Wikipedia)
+  - steering bellcrank (RC cars, e.g. Traxxas and Tamiya TT02 models on Printables)
+  - 'clickbox' (the bell-crank gear-change unit on a Shimano Nexus 3-speed hub (brand); Wikimedia Commons)
+- **family**: motion conversion
+- **other_families**: gear trains, gearboxes & transmissions
+- **one_liner**: A bell crank is a lever that rocks on a pivot at its corner, so a rod or cable pulling one arm makes the other arm push or pull in a different direction (usually at 90 degrees), with the arm lengths setting how much the movement and force are scaled up or down.
+- **complexity**: A few parts: the lever itself (an L-, T- or straight plate with a pivot hole at the corner and a hole or several holes near the end of each arm), a pivot pin or shoulder bolt with a bushing or small ball bearing, and the two rods or cables with their end fittings (clevises, ball links, Z-bends or cable eyes). In plain words: 'lever, pivot bolt, bushing, two pushrods or cables, two clevises'. Steel control-line bellcranks come with a brass bushing, lock washer, screw and nut (Brodak); a Tamiya TT02 printed version uses an 11x5x4 mm ball bearing (Printables 1110254).
+- **how_it_works**: The lever can only turn about its fixed pin. When a rod or cable pulls or pushes one arm, the lever rotates a little and its other arm moves its own rod along a new line set by the angle between the arms: 90 degrees in the classic L-shape, anything from a small angle up to a straight 180-degree bar that simply reverses the direction (Wikipedia; Rob Ives). Both arms turn through the same angle, so the arm ends move in proportion to their distance from the pivot: if the arms are equal the output moves as far as the input, otherwise the movement and force are traded against each other like any lever (load x load arm = effort x effort arm) (DT Online; Government Polytechnic Vaishali lever notes). This ratio holds only near the middle of the swing: as the lever turns further, each rod pulls less squarely on its arm, so the motion becomes non-linear; designers either keep the swing small with the arms square to the rods at neutral, or use the effect on purpose, for example to make ailerons move further up than down (Wikipedia; RC Airplane World).
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: it turns a push or pull round a corner (usually 90 degrees) or reverses it (a straight 180-degree bellcrank), and turns the swing of a servo arm, pedal or hand lever into a push or pull somewhere else
+  - change speed or turning force: unequal arm lengths make the output move further with less force, or less far with more force (mechanical advantage)
+  - let it move (turn, slide or bend): it is the pivot point that lets a linkage of rods or cables swing
+- **motion**: rotate: the lever rocks about its pivot through a limited angle, while the rods or cables on its arms move back and forth (push-pull). The useful swing is kept to a fraction of a turn so the rods stay roughly square to the arms; the rods should stay above a 40-degree angle to the arm they drive (transmission angle rule, MechSimulator)
+- **degrees_of_freedom**: 1: the lever can only turn about its pivot pin. Together with its rods and the frame it forms a one-freedom linkage (a four-bar linkage when both rods are rigid), so one input position gives exactly one output position
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): it changes the direction of a push or pull (507 Mechanical Movements no. 126: 'used for changing the direction of any force') and can scale it up or down; with an offset (off-centre) pick-up point it deliberately gives unequal travel in the two directions, which RC modellers use for aileron differential (RC Airplane World)
+  - none of the holding behaviours on its own: it does not lock, click or slip. If it is swung until an arm lines up with its rod it reaches a dead point where it can jam or flip over; this is avoided in control linkages but used on purpose when a bell crank is part of a toggle clamp (DT Online, Thang's 'Toggle clamp 2b' animation)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it passes a push or pull on and redirects it
+  - shape (the parts interlock; form-fit): pins, bolts, Z-bends and clevis pins through its holes keep the rods attached
+- **input_output**: Push or pull (or the swing of a lever or servo arm) -> push or pull along another line, usually at 90 degrees; any angle from about 0 to 180 degrees is possible, and a straight 180-degree bar reverses the direction (Wikipedia). Ratio: output travel / input travel = output arm length / input arm length, and the force ratio is the inverse (W x l_w = P x l_e, Polytechnic Vaishali notes). Typical sizes: Du-Bro's nylon micro bellcrank has 0.625 in (15.9 mm) from the centre hole to the outer holes (Du-Bro); control-line stunt planes use 3 to 4 in bellcranks with the pushrod hole 0.6 to 1.25 in from the pivot (Model Aviation); race-car rockers are often set so 1 cm of wheel travel gives about 2.5 cm of damper travel (Formula 1 Dictionary). Shaft arrangement: not shafts; the input and output lines lie in one plane at the arm angle, and the pivot axis is square to that plane. Back-drivable: yes; pushing on the output rod moves the input, because nothing in a plain bellcrank locks. *(unverified parts omitted)*
+- **power**: passive (no power needed); it passes on whatever push or pull it is given by a hand, foot, cable, servo or actuator
+- **removability**: removable: the pivot bolt or screw undoes and the rods come off their clevises, ball links or cable ends; a Z-bend can only come off once the arm is removed from its pivot (FlyRC)
+- **reuse_cycles**: effectively unlimited: nothing is deformed when it is taken apart; the limit is wear of the pivot hole and pins
+- **tools_needed**: Screwdriver or hex key and a spanner for the pivot bolt and nut; pliers or Z-bend pliers to bend and fit wire pushrods (FlyRC); small screwdriver for adjustable clevises or E/Z connectors; in full-size aircraft cable systems, turnbuckles with fork ends that fit over the bellcrank (AN161) and the tools to rig them (EAA). Blue thread-locker helps keep small screws from vibrating loose (FlyRC).
+- **seal**: none: it is an open lever on a pin; nothing about it seals
+- **load**: Light to heavy depending on how it is built: injection-moulded nylon micro bellcranks for indoor RC planes (Du-Bro), steel control-line bellcranks with a brass bushing (Brodak), machined aluminium rockers in racing-car suspensions (Formula 1 Dictionary; the FSAE-based Printables 708756), cast or forged levers in machinery such as railway signalling and governors (Polytechnic Vaishali notes). Strong for forces in its own plane that turn it about the pivot. The pivot pin carries the combined (vector) sum of both rod forces, which for a 90-degree bellcrank is sqrt(W^2 + P^2), more than either rod force alone (Polytechnic Vaishali notes), so the pin and its mounting must be sized for that. Weak against sideways (out-of-plane) forces and twisting, which bend the pin and wear the hole; Model Airplane News warns that when an arm's travel is not in line with its pushrod 'you have extra stress'.
+- **adjustable**: yes: several holes along each arm change the ratio and how quickly the output responds (Model Aviation: pushrod throw of about 0.6 in for slow response to 1.25 in for very fast response); adjustable clevises, threaded rod ends or turnbuckles set each rod's length so the lever sits at neutral (FlyRC; EAA); moving the pick-up hole ahead of or behind the centre line gives more travel one way than the other (RC Airplane World). In a race car the ratio can only be changed by fitting a different rocker (Formula 1 Dictionary).
+- **play_and_precision**: Small but cumulative play: each pivot and each rod end adds a little, and linkages with many levers always have some slop and drag; ball bearings at the pivots reduce it, but even bearings have some radial play and it adds up through the system (RCHelicopterFun on mechanical mixing linkages). Full-size aircraft cable systems are adjusted so there is no backlash, both for precise control and to help prevent control-surface flutter (EAA). Repeatability is good when the pivots are tight. It tolerates very little misalignment out of its plane: the rods should lie in the plane the lever swings in, or the pin binds and wears.
+- **access_needed**: both sides: the pivot is usually a bolt with a nut, so you need to reach both faces of the mount; one side only when the lever turns on a shoulder screw threaded into its mount, or in a moulded bracket such as Du-Bro's in-wing mount
+- **materials**: Injection-moulded nylon (Du-Bro micro bellcrank); steel plate with a brass bushing (control-line bellcranks, Brodak); aluminium, often CNC-machined (race-car rockers; Printables 708756 generative-design bellcrank based on FSAE dimensions); cast iron or steel with a 2-3 mm brass bush in the pivot boss in heavy machinery (Polytechnic Vaishali notes); 3D-printed ABS or PETG for RC-car steering bellcranks (Printables 1110254); thin card for teaching models (Rob Ives); wood, plywood or acrylic for hobby linkages.
+- **maker_difficulty**: easy: it is a flat plate with three holes that can be printed, laser cut or cut from sheet; the tricky parts are making the pivot run freely without play and getting the geometry right (arms square to the rods at neutral, enough swing without reaching a dead point)
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): flat printed plates, e.g. RC-car steering bellcranks in ABS or PETG (Printables 1110254)
+  - CNC: aluminium or steel rockers and bellcranks (race cars, FSAE)
+  - laser cut: plywood, acrylic or thin sheet levers
+  - sheet metal: steel bellcranks cut and drilled from plate (control-line bellcranks)
+  - woodwork: wooden levers for toys and automata; card for paper mechanisms (Rob Ives)
+  - off-the-shelf part: RC aircraft bellcranks (Du-Bro), control-line bellcranks (Brodak), RC-car steering bellcranks *(unverified parts omitted)*
+- **print_in_place**: no: a bellcrank is printed as a flat part and fitted onto a metal pivot bolt, bushing or bearing; no print-in-place bellcrank model was found in this search
+- **making_tips_3d_printing**: 1) Print the lever lying flat with the pivot hole vertical, so the bending in the plane of the lever runs along the printed lines; FFF prints, like wood, are stronger in one direction than another (Prusa). 2) Don't use the printed hole as the bearing for anything that matters: put a metal bolt or shoulder screw through a brass bushing (as in control-line bellcrank kits, Brodak) or press in a small ball bearing (the Printables TT02 bellcrank uses an 11x5x4 mm bearing and is printed in ABS or PETG with all walls and no sparse infill). 3) For moving parts start with at least 0.3 mm clearance and adjust after a test print (Prusa); holes usually print slightly small, so ream or drill them to size. 4) Geometry: set each arm square to its rod at mid-travel; ArduPilot's setup guide sets the servo arm perpendicular to the link at the midpoint of its travel, and Model Airplane News notes that an arm whose travel is not in line with the pushrod adds stress. Keep the angle between rod and arm above about 40 degrees over the whole swing (MechSimulator transmission-angle rule) so it cannot reach a dead point. 5) Put two or three holes along each arm so you can change the ratio later (Model Aviation's throw choices). 7) Material: PETG, ABS/ASA or nylon rather than PLA for anything warm or under steady load: in CNC Kitchen's oven test PLA gave at 60 C, PETG at 80 C and ASA at 110 C. 8) Keep the rods in the lever's plane, add a washer each side of the lever, and use a locknut tightened only until the lever swings without wobble. *(unverified parts omitted)*
+- **off_the_shelf_parts**: RC aircraft bellcranks, e.g. Du-Bro 'Micro 90° Bellcrank System' (brand; nylon, with mounting hardware); control-line bellcranks with brass bushing, e.g. 'Perfect Bellcrank Large' 3 3/8 in sold by Brodak (brand); RC-car steering bellcranks and bellcrank bearing kits; clevises (e.g. Kwik-Link (brand)), ball links, E/Z connectors, pushrods and Z-bend pliers (FlyRC; Du-Bro catalogue categories); shoulder bolts, bronze flanged bushings and small ball bearings for pivots; turnbuckles with AN161 fork ends that fit over a bellcrank, for full-size aircraft control cables (EAA); rod ends and clevis forks for bigger linkages; bicycle hub gear bell-crank units ('clickbox', Shimano (brand)).
+- **rules_of_thumb**: 
+  - Lever balance: load x load-arm length = effort x effort-arm length (W x l_w = P x l_e), so travel scales with arm length and force with its inverse (Government Polytechnic Vaishali, 'Levers and its design' notes; DT Online: equal arms give equal movement).
+  - Pivot load for a right-angled bell crank: the fulcrum reaction is R_F = sqrt(W^2 + P^2), bigger than either arm force (Government Polytechnic Vaishali notes).
+  - Metal bell-crank lever proportions from machine-design notes: fulcrum pin length about 1.25 x pin diameter, pivot boss outside diameter about 2 x pin diameter, and a 2-3 mm brass bush in the boss so wear can be renewed (Government Polytechnic Vaishali notes).
+  - Set the arm at 90 degrees to its link at mid-travel (ArduPilot traditional-helicopter swashplate setup: servo arm perpendicular to the pitch link at the midpoint of servo travel) and keep the link-to-arm (transmission) angle above about 40 degrees over the whole swing (MechSimulator).
+  - Control-line stunt models (.35-.60 engines): use at least a 3 in bellcrank, 3.5-4 in strongly recommended; pushrod hole about 0.6 in from the pivot for slow response, about 0.9 in, up to about 1.25 in for very fast response; elevator horn 0.6-1.0 in and flap horn about 1.0 in from its pivot (Ted Fancher, 'Control Line: Aerobatics', Model Aviation, May 1985).
+  - Aileron differential with one servo: pick-up holes set ahead of or behind the centre line give less travel on the pulling side; typically about half as much down as up, or start a radio differential mix at 30% (RC Airplane World) or 30-40% (Model Airplane News).
+  - Race-car rocker example: 1 cm of wheel movement giving about 2.5 cm of damper movement, the damper arm being the longer one (Formula 1 Dictionary).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Bicycle brakes: in a caliper brake the pull from the handlebar lever is turned through 90 degrees to squeeze the brake block against the rim (DT Online)
+  - The gear-change unit on a Shimano 3-speed hub bicycle, which turns a pull on the gear cable into a push on a rod inside the axle (Sheldon Brown)
+  - Car throttle and brake-pedal linkages (Wikipedia), and the steering linkage of many RC cars
+  - Old servants' bell pulls, and the levers at the top of the stairs in old San Francisco houses that open the front door remotely (Wikipedia)
+- **when_to_use**: Use a bell crank when a push or pull has to go round a corner or change direction inside a tight space, such as a cable from a pedal turned to move a rudder, a servo in a wing driving an aileron, a lever at the top of a staircase opening a door below, or a wheel's up-and-down movement turned sideways to a spring and damper lying flat in a car. It is also the simplest way to scale a movement up or down (longer arm = more travel, less force), which is why hobby servos usually drive their loads through a bellcrank and pushrod rather than a linear actuator (Wikipedia, 'Servo (radio control)'). It is cheap, light, precise, easy to adjust with extra holes and threaded rods, and works in both directions with rigid rods (or with cables when two cables pull against each other, as in control-line models).
+- **when_not_to_use**: Avoid it when the path has many bends or has to flex: a push-pull (Bowden) cable follows curves without levers. Avoid it when the output must turn a lot or keep turning: it only rocks through a limited angle, so use bevel gears, a belt or chain, or a rack and pinion for continuous or large rotations. Avoid it when the output must stay exactly proportional over a large swing: the motion becomes non-linear, so use a pulley and cable (pull-pull) or gear sector instead. Don't rely on it to hold a position against a load: it back-drives, so add a lock, a non-back-drivable drive (worm gear or lead screw) or a toggle clamp that goes over centre. For sharing one pull evenly between two points use a whippletree (floating lever) rather than a fixed-pivot crank.
+- **environment_limits**: Printed PLA levers soften at about 60 C (CNC Kitchen), so keep them out of hot cars and away from motors; PETG copes to about 80 C and ASA to about 110 C. Dirt, rust and dried grease at the pivot cause stiffness and wear; bronze bushings or sealed bearings last longer. Vibration loosens small screws and nuts, which is why RC builders add thread-locker and lock nuts (FlyRC). In aircraft, any play that develops in the control linkage can allow control-surface flutter (EAA). *(unverified parts omitted)*
+- **safety_notes**: Pinch points between the arms, rods and frame when the linkage moves, especially if it is driven by a motor, servo or spring. Bellcranks in brake, throttle, steering or flight-control linkages are safety-critical: a cracked arm, a lost pivot nut or a clevis that pops open disconnects the control, so use locknuts or safety pins and sleeve clevises (FlyRC recommends silicone tubing on clevises to stop them opening). Parts for full-size aircraft must be the specified certified hardware (AN/MS parts; EAA), not home-printed replacements.
+- **common_failures**: 1) Worn pivot hole or rod ends give play (slop) that makes the control vague and, in aircraft, can allow flutter: use bushings or bearings and replace worn parts (EAA; RCHelicopterFun). 2) Binding: rods not in the lever's plane, a pivot bolt over-tightened, or a hole printed undersize; check that it swings freely under finger force. 3) Over-travel past a dead point: the arm lines up with its rod and the linkage jams or flips; limit the swing and keep the transmission angle above about 40 degrees (MechSimulator). 4) Unequal or wrong throws because the arm was not square to the rod at neutral (ArduPilot; RC Airplane World). 6) Loose screws, pushrods pulling out of connectors or clevises opening under vibration; use thread-locker, Z-bends or keepers (FlyRC). *(unverified parts omitted)*
+- **related**: 
+  - Servo horn and spline hub: the arm on a servo output that usually drives the pushrod to a bellcrank; a bellcrank is a separate free-pivoting lever placed elsewhere in the linkage
+  - Four-bar linkage: a bellcrank with two rigid rods is one link of a four-bar linkage, and the same transmission-angle and dead-point rules apply
+  - Whippletree (load-equalising lever): a floating lever that shares one pull between two points instead of redirecting it round a fixed pivot
+  - Bowden (push-pull) cable: carries a push or pull round curves without levers, at the cost of friction and some lost motion
+  - Toggle clamp and over-centre linkage: a bellcrank and link driven past the dead point on purpose so they lock
+  - Slider-crank and Scotch yoke: turn continuous rotation into straight-line motion, whereas a bellcrank only rocks through a limited angle
+  - Bevel gears or a rack and pinion: change direction for continuous or large rotations, with more parts and some backlash
+  - Rod end and ball link: the joints usually used at each arm of a bellcrank to allow small misalignments
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Bellcrank (Wikipedia)](https://en.wikipedia.org/wiki/Bellcrank): Definition, 90-degree and 180-degree forms, mechanical advantage and non-linearity, uses in aircraft, cars, suspensions and bicycle hubs; an old dictionary drawing and a photo of bellcranks in a sports-car suspension *(licence: Text CC BY-SA 4.0; images per file on Commons)*
+  - [Bell-Crank Steering Linkage.gif (Wikimedia Commons; Pasimi, simulated with MeKin2D)](https://commons.wikimedia.org/wiki/File:Bell-Crank_Steering_Linkage.gif): Animation of a vehicle steering linkage in which a bell crank turns a push-pull into movement of the track rods *(licence: CC BY-SA 4.0)*
+  - [Chambers 1908 Bell Crank.png (Wikimedia Commons; from Chambers's Twentieth Century Dictionary, 1908)](https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png): Simple drawing of the classic right-angled bell crank used to change the direction of bell wires *(licence: Public domain)*
+  - [507 Mechanical Movements, no. 126: bell-crank lever (Brown, 1868; animated website)](https://507movements.com/mm_126.html): Animated and original drawing of 'a bell-crank lever, used for changing the direction of any force' *(licence: Book public domain; website animation link only)*
+  - [Transmission of linear displacement 3b (Nguyen Duc Thang, thang010146, YouTube; shown as '90° Bell Crank' on DT Online; title verified via YouTube oEmbed)](https://www.youtube.com/watch?v=e51sMAdGS40): CAD animation of a 90-degree bell crank passing a straight push-pull round a corner *(licence: link only)*
+- **make_it_yourself**: 
+  - [HUANGYAN920 Mechanical: interactive mechanism animations (choose BELL-CRANK, no. 231)](https://huangyan920.github.io/Mechanical/): Browser-based parametric animation of an L-shaped bell crank (Chinese interface with English names), useful for trying arm angles and lengths before building *(licence: MIT (code on GitHub))*
+  - [Four-Bar Linkage Simulator (MechSimulator)](https://mechsimulator.com/tools/four-bar-linkage/): Free online simulator that shows the transmission angle in real time; model the servo arm, pushrod, bellcrank and frame as a four-bar linkage to check the swing stays clear of dead points *(licence: link only)*
+  - [TT02 Ball Bearing Bell Crank (Kyle Villacorta, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1110254-tt02-ball-bearing-bell-crank): Printable RC-car steering bellcrank with an 11x5x4 mm ball bearing at the pivot; printed in ABS or PETG with all walls and no sparse infill; Fusion 360 file included for resizing *(licence: CC BY)*
+  - [Traxxas Rustler 2WD Steering Bellcrank (DR 3D, Printables; appeared in search results)](https://www.printables.com/model/518385-traxxas-rustler-2wd-steering-bellcrank): Printable replacement steering bellcrank that attaches to the servo on several Traxxas 2WD RC cars *(licence: CC BY-NC)*
+  - [Generative Design Bellcrank (Ariel G., Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/708756-generative-design-bellcrank): Fusion 360 generative-design bellcrank based on Formula Student (FSAE) CNC aluminium bellcrank dimensions; shows how material gathers round the three holes *(licence: CC BY)* *(unverified parts omitted)*
+- **diagram_idea**: An L-shaped lever on a centre pin with a rod pulled to the left on the short vertical arm and a longer horizontal arm pushing a rod upwards twice as far, with arcs showing both arm ends turning through the same angle and a small inset showing a straight 180-degree version that simply reverses the push.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Bellcrank
+  - https://en.wikipedia.org/wiki/Servo_(radio_control)
+  - https://commons.wikimedia.org/wiki/File:Bell-Crank_Steering_Linkage.gif
+  - https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png
+  - https://commons.wikimedia.org/wiki/File:Bell_Crank.gif
+  - https://commons.wikimedia.org/wiki/File:Shimano_Nexus_3_bell_crank_clickbox.jpg
+  - https://507movements.com/mm_126.html
+  - https://507movements.com/mm_156.html
+  - https://wiki.dtonline.org/index.php/Bell_Crank
+  - https://www.youtube.com/watch?v=e51sMAdGS40
+  - https://www.robives.com/mechanism/bell-crank/
+  - https://www.robives.com/project/bell-crank-mechanism-ready-to-download/
+  - https://library.modelaviation.com/article/control-line-aerobatics-102
+  - https://www.eaa.org/eaa/aircraft-building/builderresources/while-youre-building/building-articles/control-systems/controlling-your-aircraft
+  - https://www.eaa.org/~/media/c74169461db442a7a7a0302a07b02c76.ashx
+  - https://www.modelairplanenews.com/aileron-differential-why-its-so-important-and-how-to-set-it-up/
+  - https://www.modelairplanenews.com/total-control-the-right-way-to-set-up-servos/
+  - https://www.rc-airplane-world.com/aileron-differential
+  - https://www.flyrc.com/beginners-guide-to-pushrods-and-connectors-2/
+  - https://www.sheldonbrown.com/gloss_ba-n.html
+  - https://www.gpvaishali.org/gpv/download/Unit%202%20-%20design%20of%20joints%20&%20lever.pdf
+  - https://www.dubro.com/products/micro-90-degree-bellcrank-system
+  - https://brodak.com/control-line-parts/bellcranks/perfect-bellcrank-large.html
+  - https://www.formula1-dictionary.net/f1-suspension-rockers/
+  - https://ardupilot.org/copter/docs/traditional-helicopter-swashplate-setup.html
+  - https://mechsimulator.com/tools/four-bar-linkage/
+  - https://www.rchelicopterfun.com/ccpm.html
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://huangyan920.github.io/Mechanical/
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/518385-traxxas-rustler-2wd-steering-bellcrank
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, make_it_yourself, making_tips_3d_printing, processes
 
 ## 200 Swashplate and wobble plate
 
 *motion conversion.* A tilted disc on a shaft that turns rotation into back-and-forth motion of rods around it, or the reverse; also tilts helicopter blades
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A tilted disc on a spinning shaft: as the shaft turns, the edge of the disc rises and falls, pushing a ring of rods in and out one after another (or the rods push the disc round); on a helicopter the same idea tilts and lifts the spinning blades
+- **term**: Swashplate (swash plate) and wobble plate (nutating plate)
+- **aliases**: 
+  - swash plate / swashplate (Wikipedia)
+  - slant disk / slant disc (Wikipedia)
+  - wobble plate / wobbler / wobble-spider (non-rotating version; Douglas Self)
+  - nutator, nutating plate, Z-crank drive (the wobble-plate engine family; Wikipedia 'Cam engine')
+  - oblique disc or inclined disc
+  - cam plate / sine-wave swashplate (when the face is wavy rather than flat, giving several strokes per turn; Douglas Self, Wikipedia 'Axial engine')
+  - yoke or hanger (the movable swash plate in variable-displacement hydraulic pumps; Wikipedia 'Axial piston pump')
+  - helicopter swashplate: stationary (outer) and rotating (inner) swashplate, 'Taumelscheibe' in German (Wikipedia 'Swashplate (aeronautics)')
+  - CCPM swashplate (cyclic/collective pitch mixing, e.g. H3-120, H3-140, H4-90 types on RC helicopters; RCHelicopterFun, ArduPilot)
+  - axial piston pump or motor, swash-plate compressor, wobble-plate compressor, barrel engine, axial engine (machines built round it)
+- **family**: motion conversion
+- **other_families**: gear trains, gearboxes & transmissions
+- **one_liner**: A swashplate is a disc fixed at a slant to a shaft, so turning the shaft makes rods or pistons arranged in a ring round it move back and forth parallel to the shaft (or the pistons turn the shaft); a wobble plate does the same without spinning, and a helicopter swashplate uses a tilting, sliding pair of plates to change the pitch of spinning rotor blades.
+- **complexity**: A small assembly that acts as one unit. Pump or engine: shaft, slanted disc (swashplate) or a non-rotating wobble plate on a bearing on a Z-shaped shaft, a ring of pistons or rods, and the followers between them (slipper pads or shoes, rollers or ball-ended connecting rods), plus an anti-rotation guide for a wobble plate. Helicopter: a stationary (outer) ring moved by three or four servo pushrods, a rotating (inner) ring on a bearing, a centre ball or spherical bearing that lets it tilt and slide on the mast, an anti-rotation link for each ring, and pitch links with ball joints to each blade (Wikipedia 'Swashplate (aeronautics)'). A printable RC swashplate uses a GE5C spherical bearing, a 15x32x9 mm (6002) ball bearing and seven 3 mm ball studs (Printables 274330).
+- **how_it_works**: Picture a disc mounted at a slant on a shaft. Seen from the side, a point on its rim moves back and forth along the shaft as the shaft turns, so a rod or piston that rests against the disc near its rim (but does not turn with it) is pushed in and out once per turn; the bigger the slant, the longer the stroke (Wikipedia 'Swashplate'). The piston's movement is a smooth sine wave, and with several pistons in a ring each one reaches its peak in turn (Wikipedia 'Axial piston pump'). In a swashplate the disc turns with the shaft, so the pistons touch it through slipper pads or rollers that slide over its face; in a wobble plate the plate sits on a bearing on a bent (Z-shaped) shaft and only wobbles (nutates) without turning, so the connecting rods can be joined to it with ball joints, but it needs a guide to stop it creeping round (Douglas Self; Wikipedia 'Cam engine'). Run backwards, pistons pushing on the plate turn the shaft, as in swashplate engines and hydraulic motors. A helicopter swashplate is a stationary ring that the pilot's controls tilt and raise, with a spinning ring on a bearing above it: tilting it makes each blade's pitch rise and fall once per turn (cyclic), raising it changes all blades at once (collective) (Wikipedia 'Swashplate (aeronautics)').
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: continuous rotation of a shaft into back-and-forth motion of several rods parallel to it, or the reverse (pistons turning a shaft)
+  - change speed or turning force: in variable-displacement pumps and compressors, changing the plate angle changes how much each turn pumps, like a stepless gearbox (e.g. hydrostatic transmissions)
+  - let it move (turn, slide or bend): a helicopter swashplate passes tilt and up-down control from the still airframe to the spinning rotor
+- **motion**: multiple: the shaft (and a swashplate) rotates continuously while the rods or pistons slide back and forth parallel to the shaft; a wobble plate only rocks (nutates). A helicopter swashplate tilts in any direction and slides up and down the mast while its inner ring spins with the rotor (Wikipedia 'Swashplate (aeronautics)')
+- **degrees_of_freedom**: Pump or engine with a fixed angle: 1 (shaft rotation); every piston's position follows from the shaft angle. Variable-displacement units add 1 (the plate angle). Helicopter swashplate: 3 controlled freedoms for the stationary ring (tilt fore-and-aft, tilt side-to-side, slide up and down), plus the inner ring's spin with the mast, which is why three servos (or four) drive it (Wikipedia; ArduPilot)
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): rotation to reciprocating motion of several pistons at once, or the reverse (Wikipedia 'Swashplate')
+  - none of the holding behaviours: it does not lock, click or slip; it simply transmits motion, and in pumps and compressors a pressure-controlled plate angle is what regulates output (Wikipedia 'Axial piston pump'; Rick's Free Auto Repair Advice)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it converts and transmits motion
+  - shape (the parts interlock; form-fit): ball joints, slipper shoes and bearings keep the rods on the plate; small pumps use springs or inlet pressure to keep pistons against the plate (Wikipedia 'Axial piston pump')
+- **input_output**: Continuous rotation -> back-and-forth (reciprocating) motion of several rods or pistons parallel to the shaft, once per turn, following a sine wave; or the reverse in engines and hydraulic motors. Stroke = 2 x r x tan(plate angle), where r is the radius of the ring of pistons (L = 2 r tan alpha; Nature Scientific Reports 2025, swash-plate compressor model). Plate angle: up to about 18 degrees in conventional swash-plate machines, limited by room for the shaft and by sideways forces that tilt the pistons in their guides (US patent 6,206,650). Shaft arrangement: in line; the pistons lie parallel to the shaft in a ring round it. Back-drivable: yes; pistons pushing on the plate turn the shaft (swashplate engines, hydraulic motors); a helicopter swashplate feeds blade loads back to the servos, which must hold it. *(unverified parts omitted)*
+- **power**: passive (no power needed) as a mechanism; it needs its shaft turned by a motor or engine, or its pistons pushed by fluid or gas. In variable-displacement car air-conditioning compressors a control valve (often electronically controlled) sets the plate angle through crankcase pressure, so the compressor can run all the time and 'de-stroke' to near-zero output when little cooling is needed (Rick's Free Auto Repair Advice)
+- **removability**: removable: it is assembled from bearings, pins, circlips and ball links and can be taken apart for service; RC swashplates come off the mast once the ball links are unclipped
+- **reuse_cycles**: many times: bearings, ball links and slipper pads wear and are replaced, but the parts can be taken apart and refitted repeatedly
+- **tools_needed**: Hex keys and screwdrivers for RC swashplates, ball-link pliers for the pitch links, and a swashplate levelling tool or a magnet-and-nail gauge to set it level (ArduPilot); bearing pullers or a press for bearings; for printed parts a tap for ball-stud holes (Printables 274330) and a needle file for sliding slots (Printables 1470117)
+- **seal**: none: the swashplate itself does not seal; in pumps and compressors the pistons run in sealed cylinders, the whole assembly runs in oil, and a valve plate or check valves direct the flow (Wikipedia 'Axial piston pump'; Michael Smith Engineers on Hydra-Cell)
+- **load**: Strong along the shaft, the direction in which the pistons push on the plate. The weak points are the sliding contact between slippers and plate, which needs a film of oil, and the sideways forces on the pistons, which grow with the plate angle (US 6,206,650). *(unverified parts omitted)*
+- **adjustable**: yes: in variable-displacement pumps and compressors the plate angle is changed while running, from zero (no stroke, no flow) to maximum, by a lever, a servo control or a pressure-compensating valve (Wikipedia 'Axial piston pump'); car air-conditioning compressors change their stroke through a control valve (Rick's Free Auto Repair Advice). On helicopters the pilot or servos tilt and raise it continuously; on RC models the pitch-link and servo-link lengths are adjusted so the plate sits level (ArduPilot; RCHelicopterFun).
+- **play_and_precision**: Precise when new, but play accumulates: every ball link and bearing in a helicopter control system adds a little slop, which is why electronic mixing (CCPM) with fewer linkages gives more precise control (RCHelicopterFun). A four-servo swashplate can bind because four points over-constrain a plane (ArduPilot). Pumps need very fine clearances between pistons and cylinders and a near-perfect seal between the turning cylinder block and valve plate (Wikipedia 'Axial piston pump'). A wobble plate's friction on its shaft tends to turn it, which spoils its alignment with the pistons unless it is guided (Douglas Self).
+- **access_needed**: end of a tube or shaft: it is threaded onto the shaft or mast and fitted from one end; the ball links round it are reached from the side
+- **maker_difficulty**: moderate for a demonstration model (printable engines and rotor heads exist, some needing no extra hardware); hard for a working flying swashplate or pump: it needs bearings, low-slop ball links, careful levelling and, for pumps, very fine piston clearances, so buy the swashplate or pump and build round it
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): demonstration engines and rotor heads, printed swashplate rings built round standard bearings (Printables 274330, 934945, 1470117)
+  - CNC: metal rings, plates and hubs for RC and full-size helicopters and pumps
+  - off-the-shelf part: RC helicopter swashplates and ball links, axial piston pumps and motors, car air-conditioning compressors, wobble-plate diaphragm pumps *(unverified parts omitted)*
+- **print_in_place**: no: it is printed as separate parts and assembled round bearings and ball joints; fully printed demonstration engines exist, but as separate parts that snap or bolt together (Printables 934945, 'no additional hardware')
+- **making_tips_3d_printing**: 1) Put a real ball bearing between the spinning ring and the still ring, and a spherical bearing or ball in the centre so it can tilt; one printable RC swashplate uses a GE5C spherical bearing, a 15x32x9 mm (6002) ball bearing and seven 3 mm ball studs screwed into tapped holes (Printables 274330). Its designer found a zero-tolerance version too tight and added a small bearing clearance in a later version (0.01, units not stated). 2) Printed ball joints and swashplate links tend to be sloppy or stick at some angles: the NAVI coaxial drone builder gave up on printed swashplate linkages and used commercial ones, and a commenter reported the same problem (Hackaday.io NAVI). If you print them, sand away support marks so the balls are round (Printables 1470117). 3) Stop the still ring turning and make the spinning ring turn with the shaft (anti-rotation links; Wikipedia); a wobble plate needs a guide such as an arm in a slot (Douglas Self). 4) Keep the plate angle modest: stroke is 2 r tan(angle) (Nature Scientific Reports 2025), and conventional swash-plate machines stay below about 18 degrees because sideways forces on the pistons grow with the angle (US 6,206,650). 5) Pistons must be pulled back as well as pushed: use two rollers or shoes, one each side of the plate (Douglas Self), a spring behind each piston, or ball-ended rods on a wobble plate (Wikipedia 'Axial piston pump'). 6) Grease the sliding face and pick slippery, heat-tolerant plastics (PETG, nylon or POM) for sliding parts; PLA gives at about 60 C (CNC Kitchen). 7) Print rings flat for roundness; support-heavy parts such as rotor-head frames print with tree supports and may need the slots filing (Printables 1470117). 8) Level the finished swashplate; printable levelling tools for many RC helicopters are shared on Printables.
+- **off_the_shelf_parts**: RC helicopter swashplate assemblies (sold to fit each helicopter size, from about '400-size' electrics upwards; RCHelicopterFun), ball links and ball studs, pitch links, swashplate levelling tools (Printables has many printable ones, e.g. 'OMP M4 Swashplate Leveler'), anti-rotation guides; spherical plain bearings (e.g. GE5C) and deep-groove ball bearings (e.g. 6002-2RS) for printed builds (Printables 274330); flybarless controllers with CCPM mixing (RCHelicopterFun); axial piston pumps and motors (swash-plate type, fixed or variable displacement); swash-plate and wobble-plate car air-conditioning compressors (MACS); wobble-plate diaphragm pumps, e.g. Hydra-Cell (brand; Michael Smith Engineers) and 12 V RV fresh-water pumps (RV Lifestyle).
+- **rules_of_thumb**: 
+  - Stroke of each piston = 2 x r x tan(alpha), where r is the radius of the ring of pistons and alpha the plate angle; piston position follows X = r tan(alpha) sin(theta) as the shaft turns (Nature Scientific Reports, 'Modeling, analysis, and experimental validation of a swash plate compressor for automotive air conditioning', 2025).
+  - A smaller plate angle cuts slipper-friction losses and shaft power but also cuts stroke and output, so the angle is a trade-off between efficiency and capacity (Nature Scientific Reports 2025).
+  - Conventional swash-plate machines limit the plate angle to about 18 degrees, because of room for the shaft and sideways forces on the pistons (US patent 6,206,650 B1, TCG Unitech).
+  - At zero plate angle there is no stroke and no flow; variable-displacement pumps move the plate between zero and maximum to control flow or hold a set pressure (Wikipedia 'Axial piston pump').
+  - Axial piston pumps usually have an odd number of pistons; typical pistons are under about 13 mm (half an inch) in diameter with a similar stroke, turning at around 3000 rpm (Wikipedia 'Axial piston pump').
+  - Car air-conditioning compressors: opposed swash-plate types usually have six or ten pistons, single-row wobble-plate types five, six or seven (MACS).
+  - A swashplate needs two rollers or shoes per piston, one each side, if it must both push and pull the piston (Douglas Self, 'Axial Internal-Combustion Engines').
+  - RC helicopter swashplates: the most common electronic mixing uses three servos 120 degrees apart; 140-degree and 135-degree layouts even out the geometry, and four-servo 90-degree layouts are used on big models (RCHelicopterFun); four-servo plates can bind and need extra care (ArduPilot).
+  - Set each servo arm perpendicular to its link at mid-travel and level the swashplate before setting pitch ranges (ArduPilot traditional helicopter setup).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The air-conditioning compressor in most cars, which uses a swash plate or wobble plate to drive its pistons (Wikipedia; MACS)
+  - The rotor head of a helicopter or RC model helicopter, where the ring below the blades tilts to steer (Wikipedia)
+  - A campervan or boat fresh-water pump, where an off-centre part on the motor shaft presses three diaphragms in turn (RV Lifestyle); industrial Hydra-Cell pumps use a true wobble plate for up to five diaphragms (Michael Smith Engineers)
+  - Some pressure washers (e.g. several Kärcher (brand) models) and the hydraulic drive motors of small earth-moving machines such as skid loaders, which use axial piston pumps and motors (Wikipedia)
+- **when_to_use**: Use it when you need several pistons or rods driven from one shaft in a compact, round package with everything parallel to the shaft: pumps, compressors, hydraulic motors and barrel-shaped engines (axial engines were chosen for small frontal area and good balance; Douglas Self). It is the natural choice when output must be varied smoothly while running, since changing the plate angle changes the stroke from zero to maximum (Wikipedia). On helicopters and some thrust-vectoring models it is the classic way to pass tilt and lift commands to spinning blades. As a demonstration model it shows rotary-to-reciprocating conversion very clearly.
+- **when_not_to_use**: For one or two pistons a crank and connecting rod (slider-crank), an eccentric or a Scotch yoke is simpler. For several strokes per turn or a custom motion profile use a cam (plate, barrel or face cam). For engines, the crankshaft has won: swashplate and wobble-plate engines have repeatedly failed commercially, partly because of wear and reliability problems in the plate mechanism and poor maintenance access (Douglas Self). For flying machines, multirotors avoid the swashplate by varying motor speeds, and a 'virtual swashplate' can replace it with hinged blades and a motor whose speed varies within each turn (Hackaday). If a printed model needs precise low-slop control, buy commercial ball links rather than printing them (Hackaday.io NAVI).
+- **environment_limits**: Pumps and hydraulic motors are limited by their fluid, typically to about 120 C, and rely on the fluid to lubricate the sliding faces (Wikipedia 'Axial piston pump'). Printed demonstration parts soften at about 60 C in PLA and 80 C in PETG (CNC Kitchen). Dust and grit wear the ball links and sliding faces. Blowing compressed air through an RV water system to winterize it can damage a wobble-plate pump's diaphragms (RV Lifestyle). *(unverified parts omitted)*
+- **safety_notes**: Hydraulic pumps and motors run at high pressure (e.g. 3000 psi in jet-aircraft systems; Wikipedia), and a pinhole leak can inject fluid into skin; car air-conditioning systems hold refrigerant under pressure and should be serviced by trained people (MACS offers Section 609 certification). Exposed pistons and plates on demonstration engines are pinch points. *(unverified parts omitted)*
+- **common_failures**: 1) Wear or scuffing of the sliding face between slippers and plate when lubrication is poor; lubricating this face is one of the main design problems (Wikipedia 'Axial piston pump'). 2) A wobble plate creeping round with the shaft because of friction, which spoils its alignment with the pistons; guide it (Douglas Self). 3) Slop from worn ball links and bearings, giving vague control or vibration in helicopters (RCHelicopterFun). 4) Binding in four-servo swashplates or badly adjusted links (ArduPilot). 5) An unlevel swashplate giving unequal blade pitch; level it with a tool or magnet-and-nail gauge (ArduPilot). 6) In variable car air-conditioning compressors, most faults are in the control valve that sets the plate angle rather than in the compressor itself (Rick's Free Auto Repair Advice). 7) Printed ball joints and linkages that stick at some angles (Hackaday.io NAVI).
+- **related**: 
+  - Cam and follower (face and barrel cams): a swashplate is a flat face cam; a wavy 'cam plate' gives several strokes per turn (Douglas Self)
+  - Slider-crank and crankshaft: the usual way to turn rotation into piston motion, one crank throw per cylinder
+  - Scotch yoke: another crankless way to get sine-wave straight-line motion, but for one axis
+  - Nutating disc engine or meter: a disc that wobbles without being turned into reciprocating motion (Wikipedia 'Swashplate')
+  - Bent-axis piston pump: tilts the whole cylinder block instead of using a slanted plate
+  - Universal joint: the joint used in some swashplate mechanisms instead of a centre ball (Wikipedia 'Swashplate (aeronautics)')
+  - Stewart platform (hexapod): an alternative way to tilt and raise a stationary swashplate (Wikipedia 'Swashplate (aeronautics)')
+  - Rod end and ball link: the joints that connect servo pushrods and pitch links to a helicopter swashplate
+  - Wobble-plate diaphragm pump: uses the same wobble to flex diaphragms instead of sliding pistons (Michael Smith Engineers; RV Lifestyle)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Swashplate (Wikipedia)](https://en.wikipedia.org/wiki/Swashplate): Definition and uses in engines, axial piston pumps, car air-conditioning compressors and helicopters, with an animation of a rotating swashplate driving six rods *(licence: Text CC BY-SA 4.0; images per file on Commons)*
+  - [Swashplate anim metal.gif (Wikimedia Commons; Van helsing)](https://commons.wikimedia.org/wiki/File:Swashplate_anim_metal.gif): Animation: a slanted plate turning with its shaft pushes six rods in and out one after another *(licence: CC BY 2.5)*
+  - [HelicopterSwashPlate Tilted.gif (Wikimedia Commons; Richard Wheeler, Zephyris)](https://commons.wikimedia.org/wiki/File:HelicopterSwashPlate_Tilted.gif): Animation of a tilted helicopter swashplate changing each blade's pitch as it goes round (cyclic control); companion files show the flat and raised positions *(licence: CC BY-SA 3.0)*
+  - [Axialkolbenpumpe - einfache Animation.gif (Wikimedia Commons; MichaelFrey)](https://commons.wikimedia.org/wiki/File:Axialkolbenpumpe_-_einfache_Animation.gif): Simple animation of an axial piston pump: pistons in a turning cylinder block running against a slanted swash plate *(licence: CC BY-SA 4.0)*
+  - [Axial Internal-Combustion Engines (Douglas Self, The Museum of RetroTechnology)](http://www.douglas-self.com/MUSEUM/POWER/unusualICeng/axial-ICeng/axial-IC.htm): Side-by-side animations (by Bill Todd) of a wobble-plate motor and a swash-plate motor, explaining why one rotates and the other does not, plus a gallery of historic barrel engines *(licence: link only)*
+- **make_it_yourself**: 
+  - [Helicopter Swashplate (SemperDiscere, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/274330-helicopter-swashplate): Printable swashplate 'for a 4 rotor helicopter' built round a GE5C spherical bearing, a 15x32x9 mm ball bearing and seven 3 mm ball studs *(licence: CC BY)*
+  - [Helicopter main rotor with swash plate (gbombadon, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1470117-helicopter-main-rotor-with-swash-plate): Demonstration helicopter rotor head with turning blades, a swash plate, adjustable pitch links and collective; printed with tree supports and snapped together *(licence: CC BY-NC-SA)*
+  - [Swash Plate Engine (No Extra Hardware Needed) (KillerBees, Printables; appeared in search results)](https://www.printables.com/model/934945-swash-plate-engine-no-extra-hardware-needed): Fully printed, turnable cut-away model of a swash-plate engine based on the INNengine e-REX, showing the pistons moving; fits a 220 x 220 x 250 mm build volume *(licence: Standard Digital File License (Printables))*
+  - [HUANGYAN920 Mechanical: interactive mechanism animations (choose PLUNGER-PUMP, no. 142, the axial piston pump)](https://huangyan920.github.io/Mechanical/): Browser-based parametric animation of an axial piston pump in which a slanted swash plate drives rotating pistons (Chinese interface with English names) *(licence: MIT (code on GitHub))* *(unverified parts omitted)*
+- **diagram_idea**: A side view of a shaft with a disc on it at a slant and four pistons in cylinders parallel to the shaft, shown at four moments a quarter-turn apart so the reader sees each piston pushed in and let out in turn, with a small second panel showing the non-rotating wobble plate on a Z-shaped shaft and a third showing a helicopter swashplate tilting the blades.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Swashplate
+  - https://en.wikipedia.org/wiki/Swashplate_(aeronautics)
+  - https://en.wikipedia.org/wiki/Cam_engine
+  - https://en.wikipedia.org/wiki/Axial_piston_pump
+  - https://en.wikipedia.org/wiki/Axial_engine
+  - https://en.wikipedia.org/wiki/Cyclic/collective_pitch_mixing
+  - https://commons.wikimedia.org/wiki/File:Swashplate_anim_metal.gif
+  - https://commons.wikimedia.org/wiki/File:HelicopterSwashPlate_Tilted.gif
+  - https://commons.wikimedia.org/wiki/File:HelicopterSwashPlate_Raised.gif
+  - https://commons.wikimedia.org/wiki/File:Axialkolbenpumpe_-_einfache_Animation.gif
+  - https://commons.wikimedia.org/wiki/File:Axial_piston_pump_labeled.svg
+  - https://commons.wikimedia.org/wiki/File:Taumel_142_b.png
+  - https://commons.wikimedia.org/wiki/File:Taumelscheibe_08.gif
+  - http://www.douglas-self.com/MUSEUM/POWER/unusualICeng/axial-ICeng/axial-IC.htm
+  - https://www.nature.com/articles/s41598-025-27318-w
+  - https://patents.google.com/patent/US6206650B1/en
+  - https://macsmobileairclimate.org/2010/10/20/compressor-week-continues-swash-and-wobble-plate-compressors/
+  - https://ricksfreeautorepairadvice.com/how-a-variable-displacement-ac-compressor-works/
+  - https://www.michael-smith-engineers.co.uk/resources/useful-info/hydra-cell-wobble-plate-design
+  - https://rvlifestyle.com/mysteries-rv-water-pump/
+  - https://www.rchelicopterfun.com/ccpm.html
+  - https://www.rchelicopterfun.com/swashplate-setup.html
+  - https://ardupilot.org/copter/docs/traditional-helicopter-swashplate-setup.html
+  - https://hackaday.com/2020/06/25/building-and-flying-a-helicopter-with-a-virtual-swashplate/
+  - https://hackaday.com/tag/swashplate/
+  - https://hackaday.io/project/20793-navi-hey-listen
+  - https://hackaday.io/project/178091-mars-ingenuity-helicopter
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://huangyan920.github.io/Mechanical/
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/934945-swash-plate-engine-no-extra-hardware-needed
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, load, make_it_yourself, materials, processes, safety_notes
 

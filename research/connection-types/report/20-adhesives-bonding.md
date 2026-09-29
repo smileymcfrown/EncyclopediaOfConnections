@@ -794,65 +794,1388 @@
 
 *adhesives & bonding.* A water-based glue that dries by soaking into porous materials like wood, paper and cork; strong on wood, with water-resistant grades
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The everyday white or yellow bottle glue that cleans up with water, soaks into wood, paper or card, and dries as the water leaves, making wood joints that are often stronger than the wood around them
+- **term**: Polyvinyl acetate (PVA, PVAc) emulsion wood glue, including aliphatic resin (yellow) glue and cross-linking PVA
+- **aliases**: 
+  - PVA glue; PVAc glue; polyvinyl acetate emulsion (Wikipedia 'Polyvinyl acetate'; FPL Wood Handbook ch.10)
+  - white glue; school glue; hobby and craft glue (Wikipedia 'Wood glue')
+  - yellow glue; carpenter's glue; aliphatic resin glue (Wikipedia 'Wood glue')
+  - cross-linking PVA; Type II glue; Type I (waterproof) wood glue; D2, D3, D4 wood glue (Titebond; FPL Wood Handbook ch.10; IVK EN 204 leaflet)
+  - brand names beginners search for (brands): Titebond Original, II and III (Titebond); Elmer's Carpenter's Wood Glue (Rockler); Lepage (Wikipedia 'Wood glue'); Ponal (Printables model name)
+  - not to be confused with PVA (polyvinyl alcohol) water-soluble 3D-printing support filament, a different polymer (Wikipedia 'Polyvinyl acetate': 'Not to be confused with Polyvinyl alcohol') *(unverified parts omitted)*
+- **family**: adhesives & bonding
+- **one_liner**: A water-based glue of plastic particles suspended in water that soaks into wood, paper, card and other porous materials and hardens as the water is absorbed and evaporates, giving strong, cheap, non-toxic joints for indoor woodwork, with yellow and water-resistant grades for tougher jobs.
+- **complexity**: Single piece (a one-part liquid used straight from the bottle); used with clamps, and some industrial D4 grades add a separate hardener (2K PVA, 100 parts glue to 5 parts hardener) (European Wood Review; AkzoNobel).
+- **how_it_works**: The glue is tiny particles of polyvinyl acetate plastic dispersed in water (an emulsion). When spread on wood, the water soaks into the wood and evaporates, so the glue thickens until the particles merge into a continuous, slightly flexible plastic film (FPL Wood Handbook ch.10: 'cold-setting waterborne wood adhesives lose water by absorption and evaporation'). Clamping pressure squeezes the glue into a thin film and pushes it into the open cells of the wood, where it 'interlocks several cells deep', which is why it grips porous materials so well and non-porous ones poorly (FPL Wood Handbook ch.10; thisTOthat: 'All PVAs are designed to work on porous materials only'). Yellow (aliphatic resin) glue grabs faster and is a bit more heat- and water-resistant than white; cross-linking grades also react chemically as they dry, which makes them more water-resistant (Wikipedia 'Wood glue'; FPL Table 10-1).
+
+### Finder attributes
+
+- **job**: glue or bond: the standard glue for wood-to-wood joints, panels, laminations, veneers, paper, card and other porous materials (FPL Table 10-1; Rockler) *(unverified parts omitted)*
+- **motion**: none: a rigid joint (the glue film itself stays slightly flexible, Wikipedia 'Wood glue')
+- **degrees_of_freedom**: 0: the glued parts are locked together once the glue has set
+- **special_behaviour**: 
+  - none: it has none of the listed behaviours. Its own tricks: it cleans up with water while wet; white glue stays slippery for a while so parts can be slid into line, while yellow glue grabs faster (Wikipedia 'Wood glue'); and the bond can be softened with heat or steam to take a joint apart (Titebond FAQ)
+- **holding_principle**: material bond (glue, solvent or melting): the dried glue film sticks to both faces and locks into the pores of the wood (FPL Wood Handbook ch.10)
+- **input_output**: not applicable
+- **power**: passive (no power needed): it sets at room temperature as water leaves; heat, radio-frequency or hot-press systems are only used in factories to speed it up (FPL Wood Handbook ch.10; Titebond II page)
+- **removability**: semi-permanent (can be undone but may damage parts): heating the joint with a heat gun or hair dryer, or steam from an iron, weakens yellow and water-resistant PVA glues so joints can be separated (Titebond FAQ); dried squeeze-out is scraped or sanded off (Titebond). Re-gluing is hard because most glues, including PVA and epoxy, don't stick well to old cured PVA, so it must be cleaned off to bare wood first (Wikipedia 'Wood glue').
+- **reuse_cycles**: once: the glue can't be reused; to redo a joint, clean the old glue off down to bare wood and apply fresh (Wikipedia 'Wood glue')
+- **tools_needed**: The glue bottle, a brush, roller or notched spreader to spread an even film (about 6 mil / 0.15 mm, Titebond), clamps (bar, F, pipe or band clamps) to press joints together, a damp cloth for wet squeeze-out, and a scraper or sandpaper for dried glue (Titebond product pages). A jointer, plane or sander to freshen the surfaces just before gluing (FPL Wood Handbook ch.10).
+- **seal**: none: it is not a sealant, and ordinary white and yellow glues are 'not intended for exterior use or where moisture is likely' (Titebond Original and White). Water-resistant grades resist water but are still 'not for continuous submersion or for use below the waterline' (Titebond II and III).
+- **load**: medium to heavy in shear on long-grain (side-grain) wood joints: manufacturer tests to ASTM D905 on hard maple give about 3,550-4,000 psi (24-28 MPa) at room temperature, with much of the break in the wood itself (Titebond Original 3,600 psi, 77% wood failure; White 3,550 psi; II 3,750 psi; III 4,000 psi) (Titebond product pages), and Wood by Wright's 32-glue test found PVA long-grain joints stood up 'very nicely' to far more expensive epoxies (Popular Woodworking, 2018). Weak on end grain: glued end-grain butt joints reach only about 25% of the wood's tensile strength even with special techniques (FPL Wood Handbook ch.10). Weak under long-term load and heat: PVA joints 'yield under continued stress' (creep) (FPL Table 10-1; Wikipedia). Manufacturers state it is not for structural or load-bearing applications (Titebond).
+- **adjustable**: no once set. While wet, parts can be slid into line within the open assembly time (about 3-10 minutes, depending on grade), and white glue gives more slip than yellow (Titebond; Wikipedia 'Wood glue').
+- **play_and_precision**: not applicable (nothing moves). It needs close-fitting, flat joints: PVA is a poor gap filler, and a 'gap-filling puddle will shrink as it dries' (Rockler; Woodcraft). The standard EN 205 test joint uses a 0.1 mm glue line (IVK leaflet).
+- **access_needed**: not applicable: glue is spread on the joint faces before the parts are put together and clamped
+- **materials**: Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).
+- **maker_difficulty**: easy: no mixing, water cleanup and cheap. The skills are spreading an even film, working within the open time, and clamping evenly (FPL Wood Handbook ch.10; Titebond).
+
+### Making it
+
+- **processes**: 
+  - woodwork: its main use, for joinery, edge-joined panels, laminations and veneering (FPL Table 10-1; Rockler)
+  - paper, card and model making: white 'school glue' and 'hobby and craft' glue (Wikipedia 'Wood glue')
+  - 3D print (FDM): only for fixing prints to porous materials such as wood, cork, fabric or paper, or for printed glue-up tools; not for gluing plastic to plastic (Prusa) *(unverified parts omitted)*
+- **print_in_place**: no: it is a glue, not a printed part
+- **making_tips_3d_printing**: 1) Don't use PVA wood glue to join plastic prints to each other: Prusa's gluing guide lists 'PVA/wood glues (probably not strong enough for most plastics)'; use cyanoacrylate, epoxy or solvent welding instead (see those entries). 3) PVA wood glue is not the same as the water-soluble 'PVA' support filament (polyvinyl alcohol); don't confuse the two (Wikipedia 'Polyvinyl acetate'). 4) Printed glue-up tools work well: toothed glue spreaders (Mario M's parametric FreeCAD spreader with 1.5, 2.5 and 3.5 mm teeth), rollers with a TPU tyre (blecheimer's textured roller; goldon's roller with a glue tank, PLA or PETG body and TPU roller) and glue-bottle holders are popular models. 6) Use printed glue test pieces (MethodicalMaker; iqless) if you want to check for yourself how weakly PVA holds a given filament compared with other glues. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'PVA wood glue', 'white glue' or 'school glue' (general and paper), 'yellow glue' / 'aliphatic resin glue' / 'carpenter's glue' (faster grab, better sanding), 'water-resistant wood glue' / 'ANSI Type II' / 'D3 wood glue' (outdoor furniture under cover, cutting boards), 'waterproof wood glue' / 'ANSI Type I' / 'D4 wood glue' (outdoor, damp), 'extended open time wood glue' for big glue-ups, 'dark wood glue' for dark woods, and 'cold press veneer glue' (Titebond and AkzoNobel product ranges; European Wood Review). Accessories: glue rollers and spreaders, glue bottles with fine or biscuit/dowel tips, bar, F, pipe and band clamps, clamping cauls.
+- **rules_of_thumb**: 
+  - Make close-fitting, flat joints: PVA is not a gap filler (Rockler; Woodcraft), and the standard EN 205 test joint uses only a 0.1 mm glue line (IVK leaflet).
+  - Plane, joint or sand the wood within 24 hours before gluing for a clean, easily wetted surface; bonding within minutes of surfacing can be noticeably better (FPL Wood Handbook ch.10).
+  - Glue wood that is dry: about 12% moisture content is the usual specification (FPL Wood Handbook ch.10); above 10% slows drying and above about 16% the glue may not dry at all (Titebond FAQ).
+  - Spread a film of about 6 mil (0.15 mm), i.e. roughly 250 square feet per US gallon (Titebond product pages).
+  - Assemble within the open time: about 3-5 minutes for cross-linking yellow (Type II), 4-6 minutes for yellow aliphatic, about 5 minutes for white and 8-10 minutes for Type I glue at 70 °F / 50% RH (Titebond product pages).
+  - Clamp firmly but not too hard: about 100-150 psi (0.7-1.0 MPa) for softwoods, 125-175 psi for medium woods and 175-250 psi (1.2-1.7 MPa) for hardwoods (Titebond); FPL gives 0.7 MPa (100 psi) for low-density up to 1.7 MPa (250 psi) for the densest woods, and warns that too much pressure squeezes out the glue and leaves a starved joint (FPL Wood Handbook ch.10).
+  - Keep an unstressed joint clamped for 30-60 minutes; a stressed joint (bent or sprung parts) for 24 hours; and don't load a new joint for at least 24 hours (Titebond FAQ). Water-based glues can take about 24 hours to cure before machining (Titebond FAQ).
+  - Don't glue below the 'chalk temperature' of the glue, air and wood: about 50 °F (10 °C) for white and ordinary yellow glue, 55 °F (13 °C) for Type II and 45-47 °F (7-8 °C) for Type I (Titebond product pages).
+  - Don't rely on end-grain butt joints: they reach only about 25% of the wood's tensile strength; use a scarf joint with a slope of 1 in 12 or flatter, finger joints, or joinery that turns end grain into side grain (FPL Wood Handbook ch.10).
+  - Choose water resistance by where the piece will live (EN 204 classes): D1 dry interiors (wood below about 15% moisture), D2 occasional high humidity or brief water, D3 frequent short contact with water or outdoors under cover, D4 frequent long exposure to water or outdoors with a protective finish (European Wood Review; IVK leaflet). In US terms, ANSI/HPVA Type II passes three 4-hour soak and 120 °F bake cycles; Type I passes boiling tests (Titebond FAQ).
+  - Don't thin it with more than about 5% water (Titebond FAQ).
+  - Joints made with ordinary wood glues keep their strength indefinitely if the wood stays below about 15% moisture and at temperatures comfortable for people; some adhesives deteriorate if kept above 38 °C (100 °F) for long periods (FPL Wood Handbook ch.10).
+
+### When to use it
+
+- **everyday_examples**: 
+  - White school glue for paper and card crafts (Wikipedia 'Wood glue': 'white glue', 'school glue')
+  - The glue in furniture joints, cabinets and doors (FPL Table 10-1: 'Furniture; flush doors ... general purpose in home and shop')
+  - Wooden cutting boards, birdhouses, planters and outdoor furniture made with water-resistant yellow glue (Titebond II and III product pages; Titebond FAQ) *(unverified parts omitted)*
+- **when_to_use**: Use PVA for almost any indoor wood-to-wood joint that fits well and can be clamped: furniture, boxes, cabinets, edge-glued panels, laminations, dowel and biscuit joints, and for paper, card, cork, leather and fabric onto wood (FPL Table 10-1; Rockler; Titebond Original). It is cheap, one-part, non-toxic, cleans up with water and makes side-grain joints stronger than the wood (Wikipedia 'Wood glue'; Titebond). Choose yellow (aliphatic) glue for faster grab and better sanding, white glue when you need more sliding time, a longer-open-time or Type I grade for big or complicated glue-ups, and Type II/D3 or Type I/D4 grades for kitchens, bathrooms, cutting boards and covered outdoor projects (Wikipedia; Titebond; European Wood Review).
+- **when_not_to_use**: Not for gaps or poorly fitting joints: use epoxy or polyurethane glue (Rockler; Wikipedia 'Wood glue'). Not for plastics, metal or glass, or for 3D prints to each other: use cyanoacrylate, epoxy, solvent welding or contact adhesive (Prusa). Not for joints under constant heavy load, such as bent laminations that want to spring back or shelves carrying weight on the glue alone, because PVA creeps: use urea-formaldehyde (which 'does not creep'), epoxy or mechanical fasteners (Wikipedia 'Wood glue'; FPL). Not for boats below the waterline, continuous submersion or exposed structural outdoor work: use epoxy or resorcinol (Titebond III limitations; Wikipedia; Wood by Wright found all PVAs, even Type I, 'did very poorly' in its exterior test). Not for joints you may need to take apart cleanly later, such as musical instruments and antique repairs: use hide glue, which can be undone with heat and moisture (Wikipedia 'Wood glue'; Woodcraft). Not for end-grain butt joints without joinery (FPL).
+- **environment_limits**: Heat: PVA is a thermoplastic that softens as it warms (its glass transition is about 30-45 °C, Wikipedia 'Polyvinyl acetate'); after a night at 150 °F (66 °C) Titebond's ASTM D905 strengths fall from 3,550-4,000 psi to 1,600-1,750 psi for white, yellow and Type II glue and to 800 psi for Type I, with almost no wood failure (Titebond product pages), so avoid hot cars, radiators and sunny dark surfaces for loaded joints. Water: ordinary white and yellow glues are for dry interiors only; cross-linked grades resist water but none is for continuous submersion, and uncross-linked PVA 'often fail[s] after exposure to wet-dry cycling' (FPL; Titebond). Creep: joints slowly yield under constant load, worse with heat and moisture (FPL Table 10-1; Wikipedia). Cold: apply above the chalk temperature (about 45-55 °F / 7-13 °C depending on grade); cold makes no significant difference to cured joints (FPL; Titebond). Freezing: keep the liquid from freezing; Titebond says freezing may only thicken it and it is freeze-thaw stable, while thisTOthat warns freezing ruins PVA, so check the bottle. Storage: about 2 years, below 75 °F (24 °C) (Titebond). *(unverified parts omitted)*
+- **safety_notes**: Low hazard: water-based, with no harmful fumes, and meets ASTM D4236 for arts and crafts (Titebond FAQ; thisTOthat: 'only toxic to ingest'). Some grades are labelled as eye and skin irritants, so avoid eye contact and prolonged skin contact and keep it from children (Titebond Original, II and White caution statements). Type II and III yellow glues are approved for indirect food contact (cutting boards) (Titebond FAQ). Acidic grades (pH 2.5-3.0) can corrode steel and cause rust or dark stains near metal (Titebond II and III). Dried glue on clothes is permanent, especially water-resistant grades, so rinse it out while wet (Titebond FAQ). *(unverified parts omitted)*
+- **common_failures**: 1) Starved joint: too much clamping pressure, too little glue, or glue soaking into end grain leaves too little in the joint; spread both faces and clamp moderately (FPL Wood Handbook ch.10). 2) Glue skinned over before assembly: open time exceeded, so it doesn't transfer and leaves a thick, weak line; work faster or use a longer-open-time grade (FPL; Titebond). 3) Gappy joint fails: PVA doesn't fill gaps and shrinks as it dries (Rockler; Woodcraft). 4) End-grain joint snaps (FPL). 5) Chalky, white, weak glue line: glued below the glue's chalk temperature, e.g. in an unheated winter workshop (Titebond; European Wood Review). 6) Joint slides or opens over months under constant load (creep), or lets go in heat (FPL; Wikipedia; Titebond). 7) Delamination outdoors or in the wet: wrong grade (FPL; Wood by Wright). 8) Won't bond: painted, sealed, oily or wet wood, old glue residue, or a non-porous material (Titebond FAQ; Wikipedia). 9) Blotches after staining: squeeze-out left on the surface, since the glue does not take stain; remove it wet or sand it off (Wikipedia 'Wood glue'; Titebond). 10) Sunken glue lines: the board was planed or sanded before the moisture from the glue had evened out (Titebond FAQ). 11) Parts slip out of line under the clamps: white glue is slippery before it grabs; use yellow glue, cauls or a pin (Wikipedia). 12) Glue has gone thick and stringy or turned to an orange gel in the bottle: it is past its useful life (Titebond FAQ).
+- **related**: 
+  - Hide glue (animal glue): the traditional wood glue; doesn't creep and can be undone with heat and moisture, so it is used for instruments and antiques
+  - Polyurethane glue (foaming moisture-cure glue): waterproof, foams to fill gaps and bonds more materials, but messier and needs moisture to cure
+  - Two-part epoxy: gap-filling, waterproof and bonds metal and plastics; better for poor fits and boats, but costlier and won't stick to cured PVA
+  - Cyanoacrylate (superglue): sets in seconds for small repairs and plastics; brittle and low in peel
+  - Contact adhesive (contact cement): for large sheets such as plastic laminate and veneer where clamping is awkward; bonds instantly but creeps and is weaker than PVA on wood
+  - Hot-melt adhesive (glue gun): fast, gap-filling but weak and heat-sensitive; for temporary holds and crafts
+  - Elastomeric solvent glue (flexible craft glue): stays rubbery and bonds non-porous and dissimilar materials that PVA can't
+  - Dowel and biscuit joints, and Butt and lap wood joints: the joinery that PVA is usually used with
+  - Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Wood glue and clamping the pieces before screwing them together.jpg (Boohyabuddha, Wikimedia Commons, 2014)](https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg): A woodworking assembly with wood glue applied and the parts clamped *(licence: CC BY-SA 4.0)*
+  - [Using wood glue.JPG (Amirreza Saharkhiz, Wikimedia Commons, 2012)](https://commons.wikimedia.org/wiki/File:Using_wood_glue.JPG): Wood glue being applied in woodworking *(licence: CC BY-SA 3.0)*
+  - [Pva wood glue.jpg (Victuallers, Wikimedia Commons, 2014)](https://commons.wikimedia.org/wiki/File:Pva_wood_glue.jpg): A bottle of PVA wood glue *(licence: CC BY-SA 3.0)*
+  - [The Great Glue Test | What Is The Best Wood Glue | Results | Wood By Wright Extra (YouTube)](https://www.youtube.com/watch?v=ZoaTZY5cSQE): Load-cell tests of 32 glues on long-grain, end-grain, gap-filling and exterior joints, summarised by Popular Woodworking (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [Wood Handbook chapter 10: Wood adhesives: bond formation and performance (Frihart and Hunt, USDA Forest Products Laboratory, FPL-GTR-282, 2021)](https://research.fs.usda.gov/treesearch/62250): Diagrams of glue penetration into wood, glue-line thickness and pressure (Fig. 10-5), edge-grain and end-grain joints (Figs 10-6, 10-7), and Table 10-1 comparing adhesive types *(licence: US government work (public domain in the US))*
+- **make_it_yourself**: 
+  - [Glue spreader Parametric (FreeCad) (Mario M, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/86892-glue-spreader-parametric-freecad): Parametric toothed glue spreader with 1.5, 2.5 and 3.5 mm triangular teeth; the FreeCAD file lets you set tooth size, spacing and body size. Read through the Printables public API. *(licence: Public domain (Creative Commons Public Domain))*
+  - [Textured Glue Roller (blecheimer, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1065435-textured-glue-roller): Printable glue roller for spreading wood glue over large panels, with an exchangeable TPU95 roller, PLA inlay and PETG snap-on handle. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Wood glue roller with glue tank (goldon, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1450540-wood-glue-roller-with-glue-tank): A 36 mm wide wood glue roller with a built-in glue tank, running on two 608 bearings; PLA handle and tank, TPU roller. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Glue strength test pieces (MethodicalMaker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236948-glue-strength-test-pieces): Printable specimens for comparing glues in torque, shear and tension with a hanging scale; useful to see how weakly PVA holds printed plastic compared with CA or epoxy. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: A magnified cross-section of a clamped glue line between two boards: blue water droplets leaving the glue downward into the wood and upward into the air, glue fingers reaching into the open wood cells, and a second panel contrasting a strong side-grain joint with a weak end-grain butt joint where the glue has soaked away.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Wood_glue
+  - https://en.wikipedia.org/wiki/Polyvinyl_acetate
+  - https://research.fs.usda.gov/treesearch/62250
+  - https://research.fs.usda.gov/download/treesearch/62250.pdf
+  - https://www.titebond.com/resources/use/all/faqs
+  - https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207
+  - https://www.titebond.com/product/glues/2ef3e95d-48d2-43bc-8e1b-217a38930fa2
+  - https://www.titebond.com/product/glues/e8d40b45-0ab3-49f7-8a9c-b53970f736af
+  - https://www.titebond.com/product/glues/c944de78-f0a8-4180-b75e-026994aba708
+  - https://www.klebstoffe.com/wp-content/uploads/2020/04/Interpretation_DIN_EN_204-205_EN.pdf
+  - https://revistadinlemn.ro/en/2026/06/24/adeziv-lemn-d2-d3-d4-cum-alegi-dupa-expunerea-la-apa
+  - https://woodadhesives.akzonobel.com/en/adhesive-technologies/polyvinyl-acetate
+  - https://www.thistothat.com/glue/pva.shtml
+  - https://www.rockler.com/learn/understanding-wood-glue
+  - https://www.woodcraft.com/blogs/sanding-finishing/complete-guide-to-woodworking-glues
+  - https://blog.prusa3d.com/the-great-guide-to-gluing-and-assembling-3d-prints_44908/
+  - https://www.popularwoodworking.com/editors-blog/the-great-glue-test-wood-by-wright/
+  - https://www.youtube.com/watch?v=ZoaTZY5cSQE
+  - https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg
+  - https://commons.wikimedia.org/wiki/File:Using_wood_glue.JPG
+  - https://commons.wikimedia.org/wiki/File:Pva_wood_glue.jpg
+  - https://api.printables.com/graphql/ (models 86892, 1065435, 1450540, 236948, 32037)
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, everyday_examples, job, making_tips_3d_printing, processes, safety_notes
 
 ## 224 Contact adhesive (contact cement)
 
 *adhesives & bonding.* A rubbery glue spread on both surfaces, left to dry until tacky, then pressed together to bond instantly; good for sheets, rubber, fabric and leather
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A rubbery glue you paint thinly on both surfaces, leave until it feels dry to the touch, and then press together, when the two glue layers grab each other instantly and permanently without clamps
+- **term**: Contact adhesive (contact cement), usually a polychloroprene (neoprene) or natural-rubber solution or water-based dispersion
+- **aliases**: 
+  - contact cement; contact glue; impact glue; impact adhesive; neoprene glue (Wikipedia 'Impact glue')
+  - neoprene contact adhesive; polychloroprene contact adhesive; elastomeric contact adhesive (FPL Wood Handbook ch.10 Table 10-1; 3M Fastbond 30-NF data sheet)
+  - water-based contact adhesive (waterborne, solvent-free) and solvent-based contact cement (FPL Wood Handbook ch.10; 3M; thisTOthat)
+  - spray contact adhesive (thisTOthat, which notes some spray glues can be used as contact adhesives) *(unverified parts omitted)*
+- **family**: adhesives & bonding
+- **one_liner**: A rubber-based glue spread on both mating surfaces and allowed to dry until tacky, so that when the surfaces touch the two rubber films fuse at once, bonding large sheets, laminate, veneer, rubber, foam, leather and fabric without clamps.
+- **complexity**: Single piece (a one-part liquid, gel or spray); used with a brush or roller, and a hand roller (J-roller) to press the parts together (DAP Weldwood data sheet; 3M Fastbond 30-NF data sheet).
+- **how_it_works**: The glue is a rubber, most often polychloroprene (neoprene) or natural rubber, dissolved in solvent or dispersed in water (Wikipedia 'Impact glue'; FPL Table 10-1). You coat both surfaces and let the solvent or water evaporate until the film is tacky but no longer wet; the rubber molecules in the two dry films then stick to each other the moment they are pressed together, so the bond forms instantly and needs no clamping (Wikipedia 'Impact glue'; FPL Wood Handbook ch.10: 'the solvent evaporates until both sides become tacky and then the bond is formed'). Firm pressure over every part of the surface makes full contact; strength keeps rising over days to weeks as the rubber crystallises and the last solvent leaves (DAP: maximum strength in 7 days; FPL: 'increases slowly over a period of weeks'; Wikipedia notes neoprene and natural rubber 'undergo strain crystallization').
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: laminates and veneers onto boards, rubber, cork, foam, leather, fabric and shoe soles, and many dissimilar materials (Wikipedia 'Impact glue'; DAP; 3M)
+  - join and hold: holds large flat sheets flat without clamps, for example plastic laminate on kitchen counters (FPL Table 10-1)
+- **motion**: none: a fixed joint, though the rubbery glue film lets flexible materials such as leather, foam and fabric keep bending (Lumin's Workshop: 'a flexible adhesive')
+- **degrees_of_freedom**: 0: once the films touch, the parts are locked together; 'no adjustment is possible after the adhesive films make contact' (3M Fastbond 30-NF)
+- **special_behaviour**: 
+  - none: it has none of the listed behaviours. Its own tricks: it bonds instantly on contact with no clamping time, the glue only sticks to itself once dry (so dry-coated parts can be laid on clean dowels or paper and slid into position), and the bond can be trimmed or machined straight away (Wikipedia 'Impact glue'; 3M; DAP)
+- **holding_principle**: material bond (glue, solvent or melting): two dried rubber films fuse into one layer that sticks to both surfaces (Wikipedia 'Impact glue'; FPL Wood Handbook ch.10)
+- **input_output**: not applicable
+- **power**: passive (no power needed): it works by evaporation of solvent or water; heat lamps are only used to speed drying (3M Fastbond 30-NF)
+- **reuse_cycles**: once: the glue can't be reused; parts that come apart need the old film cleaned off or recoated before rebonding (DAP; 3M)
+- **tools_needed**: A brush (nylon or chip brush), small foam or texturing paint roller, or spray gun to spread it (3M; thisTOthat; This Old House); clean dowels, wood strips or paper slip sheets as spacers for large sheets (DAP; 3M; Rockler); a small hand roller no wider than 3 in (a 'J-roller'), or a towel-wrapped piece of 2x4, to press it down (3M; Rockler); a router with a flush-trim or laminate bit for trimming laminate (Rockler; This Old House); mineral spirits for wet solvent cement, or soapy water for wet water-based cement (DAP; 3M); good ventilation or a vapour respirator for solvent types (Rockler).
+- **seal**: none: it is not a sealant. Solvent neoprene types claim resistance to heat, water and weather once cured (DAP), and 3M's water-based Fastbond 30 is approved to the ANSI/HPMA Type II water-resistance test, but the FPL rates elastomeric contact adhesives as having 'low resistance to water and damp atmospheres' (FPL Table 10-1; 3M).
+- **load**: light to medium: the FPL says dry strengths are 'much lower than those of conventional wood adhesives' and the joints 'creep under static load' (FPL Table 10-1). For example, 3M's water-based Fastbond 30-NF gives about 480 psi (3.3 MPa) overlap shear on birch at 23 °C, against about 3,600 psi for a yellow PVA wood glue, and about 26-62 N/cm (240-560 oz/in, roughly 15-35 lb per inch of width) 180° peel strength for canvas on steel after 1-3 weeks (3M Fastbond 30-NF data sheet; Titebond Original). It is good for large bonded areas loaded in shear, such as laminate and veneer, and its flexible film suits materials that bend (Wikipedia 'Impact glue': 'high shear resistance'; Lumin's Workshop). Manufacturers say it is not for structural applications (DAP).
+- **adjustable**: no: parts cannot be shifted once the glue films touch (DAP; 3M). Position them first on dry spacers, then pull the spacers out one at a time (DAP; Rockler).
+- **play_and_precision**: not applicable (nothing moves). Alignment must be right first time, so pre-fit all parts and use spacers or slip sheets to position large pieces (DAP; 3M). *(unverified parts omitted)*
+- **access_needed**: not applicable: both faces are coated before assembly
+- **materials**: Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam (the solvents in solvent types dissolve it), copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). *(unverified parts omitted)*
+- **maker_difficulty**: easy to moderate: no mixing and no clamps, but you must wait for the right dryness, get the alignment right first time, press hard everywhere, and handle flammable fumes safely (thisTOthat; DAP; 3M; Rockler).
+
+### Making it
+
+- **processes**: 
+  - woodwork: plastic laminate on countertops and tabletops, veneering, and edge banding (FPL Table 10-1; DAP; Rockler)
+  - sheet materials and upholstery: foam, fabric and canvas panels, cork, rubber sheet (3M Fastbond 30-NF; DAP)
+  - leatherwork, shoe repair and cosplay: leather, pleather, felt and EVA foam armour (Wikipedia 'Impact glue'; Lumin's Workshop) *(unverified parts omitted)*
+- **print_in_place**: no: it is a glue, not a printed part
+- **making_tips_3d_printing**: 1) Contact cement is one of the few glues that stays flexible, so it is worth trying for TPU and TPE prints that must bend: Prusa's gluing guide lists 'contact cements, typically for shoe repairs, etc. (might be good especially for flexible filament materials!)'; test it on offcuts first (see Peter Solomon's video 'Methods of gluing Flexible Prints in TPU together!'). 3) Watch for solvent attack: solvent contact cements can contain acetone and MEK (DAP), which soften or dissolve ABS, ASA and polystyrene-based prints and foams; DAP warns the solvents may damage 'some plastics' and that it must not be used on polystyrene foam. 4) Printed layers give some grip, but for smooth printed faces roughen them, since DAP says non-porous surfaces must be roughened and at least one surface should ideally be porous. 5) Apply a thin, even coat to both parts, wait until it is touch-dry (it doesn't come off on your finger) and press hard with a small roller; thicker coats take longer to dry and bonding too soon is the most common mistake (thisTOthat; 3M). 6) For rigid plastic-to-plastic joints, CA, epoxy or solvent welding are stronger (see those entries). 7) A small printed seam roller (Sagittario's 20 mm roller; vega480's roller on 608 bearings) can serve as a J-roller for pressing small bonded parts; *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'contact cement', 'contact adhesive', 'neoprene contact adhesive', 'solvent-based contact cement', 'water-based contact adhesive' or 'non-flammable contact cement' (safer indoors and for foam), 'gel contact cement' (thixotropic, for vertical surfaces; Wikipedia 'Impact glue'), 'spray contact adhesive', 'laminate adhesive', 'leather cement' or 'shoe contact cement'. Tools: 'J-roller' or 'laminate roller', 'seam roller', foam or texturing paint roller, chip brush, 'laminate trimmer' with 'flush-trim bit', dowels or slip sheets (DAP; 3M; Rockler; This Old House).
+- **rules_of_thumb**: 
+  - Coat BOTH surfaces with an even film; porous materials may need two coats, letting each dry fully in between (3M Fastbond 30-NF; thisTOthat; DAP). A uniform glossy film means enough glue; dull spots mean too little (3M; DAP).
+  - Use about 3.0-3.5 g of dry adhesive per square foot per surface on wood, particleboard and laminate, and more on soft wood, fabric and foam (3M Fastbond 30-NF).
+  - Wait until it is touch-dry before joining: if it doesn't come off on your finger it is ready (thisTOthat); a water-based adhesive turns from milky to clear, typically in about 30 minutes (3M). Guides give roughly 15-20 minutes for solvent cement in normal conditions, longer when cool or humid and for thicker coats (This Old House; Rockler; thisTOthat).
+  - Join within the bonding window: up to 4 hours for 3M's water-based Fastbond 30-NF; recoat solvent cement if not assembled within 2-3 hours (DAP); in a dusty shop bond within about 2 hours (thisTOthat). If the surfaces don't grab on contact, apply another coat (3M).
+  - Work at 65 °F (18 °C) or warmer: adhesive, surfaces and room (DAP; 3M).
+  - Position large sheets on clean dowels or strips every 6-12 in, or on paper slip sheets, then remove them from the centre outwards (DAP; 3M; This Old House; Rockler).
+  - Press hard everywhere: at least 25 psi, equal to about 75 lb on a 3 in J-roller, working from the centre to the edges; don't use a rolling pin or wide roller, which bridges low spots (DAP; 3M). Insufficient pressure lets blisters form later (DAP).
+  - You can trim straight after bonding, but it reaches full strength in about 7 days; keep bonded work out of direct sun or above 150 °F (66 °C) for 72 hours (DAP).
+  - Don't roll over a laminate edge with the J-roller, which can snap it (This Old House).
+  - Don't thin water-based contact adhesive (3M).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Plastic laminate (e.g. Formica, brand) on kitchen countertops and tabletops (Wikipedia 'Impact glue'; FPL Table 10-1)
+  - The soles of shoes glued to the uppers, and shoe repairs (Wikipedia 'Impact glue'; Prusa)
+  - EVA foam cosplay armour and props glued at the seams (Lumin's Workshop; CosplayShop video) *(unverified parts omitted)*
+- **when_to_use**: Use contact adhesive when you need to bond large flat areas that are hard to clamp, such as laminate, veneer, cork, foam or fabric onto board (thisTOthat: 'ideal when it is awkward to clamp, or when you have large surface area'; FPL); when you want an instant bond with no waiting in clamps, so the work can be trimmed straight away (DAP; 3M); and for flexible or dissimilar materials, such as leather, rubber, EVA foam, fabric and shoe soles, where a rigid glue would crack (Wikipedia; Lumin's Workshop). Choose a water-based type for foams, indoor work and less fire risk, and a solvent type for faster drying and wider material range, following each can's list (3M; DAP).
+- **when_not_to_use**: Not for load-bearing or structural joints, or anything that will carry a constant load, because it creeps and is much weaker than wood glue or epoxy (FPL Table 10-1; DAP): use PVA for wood joints and epoxy or structural adhesives elsewhere. Not where you need to slide parts into position after contact: use PVA, epoxy or double-sided tape with a liner. Not on polystyrene foam with a solvent type (use a water-based contact adhesive or foam-safe glue) (DAP; 3M). Not for rigid plastic-to-plastic joints such as 3D prints: use CA, epoxy or solvent welding (Prusa). Not near sparks or flames, or in small unventilated rooms, with a solvent type: use a non-flammable water-based type (FPL; Rockler; 3M). Not for permanently wet or hot places, such as behind a stove or outdoors in full sun, without checking the rating (FPL; DAP). *(unverified parts omitted)*
+- **environment_limits**: Heat: it softens as it warms; DAP rates its solvent cement for service from -40 °F to 150 °F (-40 to 66 °C), and 3M's water-based Fastbond 30-NF drops from about 480 psi overlap shear at 23 °C to 60 psi at 82 °C (180 °F) (DAP; 3M). Creep: bonds 'creep under static load' (FPL Table 10-1), and 3M's laminate static-shear results fall with time at 82 °C. Water: solvent neoprene types claim resistance to water and weather, while FPL rates elastomeric contact adhesives as having low resistance to water and damp atmospheres (DAP; FPL). Cold: apply above 65 °F (18 °C); cured 3M film is stronger in shear at -34 °C but its peel strength drops to about 8.8 N/cm (DAP; 3M). Solvents: cleaning a bonded joint with solvent weakens it (3M). Shelf life about 12 months for DAP's solvent cement (DAP). *(unverified parts omitted)*
+- **safety_notes**: Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acetate, petroleum spirits and methyl ethyl ketone with a flash point of -10 °C (14 °F), and the FPL warns that in small, unventilated spaces the solvent vapour can build up and explode if ignited. Work with doors or windows open, or wear a vapour respirator, and keep away from sparks, flames and pilot lights (Rockler; 3M; Wikipedia 'Impact glue'). The solvents are generally toxic if breathed; follow the label and SDS (FPL). Neoprene glue is abused as an inhalant, which can cause brain damage or death, and in the UK it is illegal to sell it to people likely to use it that way, so store it away from children (Wikipedia 'Impact glue'). Don't clean skin with solvents; use soap and warm water (DAP). Water-based types are non-flammable when wet and low-emitting (3M). *(unverified parts omitted)*
+- **common_failures**: 1) Bonding too soon, while the film is still wet: 'the most common mistake', leading to weak bonds, bubbles and blisters; wait until touch-dry (thisTOthat). 2) Surfaces won't grab: glue left too long, dust on it, or too little glue; apply another coat (3M; thisTOthat). 3) Dull, starved patches on porous materials: not enough glue; apply two coats (3M; DAP). 4) Blisters or bubbles appear later: not enough rolling pressure, or air trapped; roll hard from the centre out (DAP; Rockler). 5) Sheet lands in the wrong place and can't be moved: use dowels or slip sheets (DAP; 3M). 6) Foam or plastic melts or distorts: solvent attack; use a water-based type and test first (DAP). 7) Edges lift or laminate creeps near heat or in sun, or under constant load (FPL; DAP). 8) Cracked laminate edge from rolling over the edge (This Old House). 9) Poor bond in a cold room: below 65 °F (DAP; 3M). *(unverified parts omitted)*
+- **related**: 
+  - Rubber cement: a similar rubber-in-solvent glue used for paper crafts; peels off cleanly when used on one side, and can act as a contact adhesive when put on both
+  - Elastomeric solvent glue (flexible craft glue): also rubbery and flexible but applied wet to one side and positioned before it sets
+  - Double-sided foam tape (acrylic foam PSA): also sticks instantly on contact, with no solvent and no drying wait
+  - PVA wood glue: stronger and cheaper for wood-to-wood joints, but needs clamping and doesn't suit non-porous or flexible materials
+  - Two-part epoxy: much stronger and gap-filling for rigid, loaded joints
+  - Hot-melt adhesive (glue gun): also fast, but a thick, heat-sensitive bead rather than a thin film
+  - Polyurethane glue: a moisture-curing glue that also bonds foam and many materials, but foams and needs clamping
+  - Silicone and MS-polymer adhesive sealants: flexible and waterproof, for joints that must also seal
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Contact-cement 000000.jpg (Mwnuk, Wikimedia Commons, 2012)](https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg): A can of Weldwood contact cement (used on Wikipedia's 'Impact glue' article) *(licence: CC BY-SA 3.0)*
+  - [How to Apply Plastic Laminate (Rockler, 2020)](https://www.rockler.com/learn/how-to-apply-plastic-laminate): Step-by-step photos of rolling contact cement onto laminate and board, positioning on spacer strips, rolling with a J-roller and trimming with a router *(licence: link only)*
+  - [How To Laminate a Countertop (This Old House)](https://www.thisoldhouse.com/kitchens/21016508/how-to-laminate-a-countertop): Photos of coating a countertop and laminate with contact cement, laying the sheet on dowels every 12 in, and pressing it with a J-roller *(licence: link only)*
+  - [Contact Cement Basics - Cosplay Tutorial (CosplayShop, YouTube)](https://www.youtube.com/watch?v=iPHEUvkJPGE): Video on using contact cement for EVA foam seams (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [Methods of gluing Flexible Prints in TPU together! (Peter Solomon, YouTube)](https://www.youtube.com/watch?v=Oqh01j7ZG_s): Video comparing ways of gluing flexible TPU 3D prints (title and channel checked via YouTube oEmbed; not watched, so whether contact cement is shown is unverified) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Seam Roller (Sagittario, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/321669-seam-roller): A small printed hand roller (20 mm diameter, 25 mm wide) on a 5 mm bolt, made for sewing and wallpaper seams; usable as a mini J-roller for pressing small contact-cemented parts. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Seam Roller with 608 bearings (vega480, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1130696-seam-roller-with-608-bearings): A printed seam roller running on 608 skateboard bearings, printed in PLA or PETG and 'strong enough to put some force behind the roller'. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Textured Glue Roller (blecheimer, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1065435-textured-glue-roller): Printable TPU-tyred glue roller for spreading glue over large panels; contact cement is also spread with rollers (3M recommends a texturing-type roller). Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Glue strength test pieces (MethodicalMaker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236948-glue-strength-test-pieces): Printable specimens for comparing glues in torque, shear and tension with a hanging scale, e.g. contact cement against CA or epoxy on your own filament. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: Three panels: (1) both surfaces brushed with glue and solvent wisps rising off them, (2) a finger touching the now-dry tacky film with a tick, and a sheet resting on dowels above the board, (3) the dowels pulled out from the centre while a J-roller presses the sheet down, with a close-up showing the two glue films merged into one.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Contact_cement
+  - https://en.wikipedia.org/wiki/Wood_glue
+  - https://en.wikipedia.org/wiki/Rubber_cement
+  - https://research.fs.usda.gov/treesearch/62250
+  - https://research.fs.usda.gov/download/treesearch/62250.pdf
+  - https://www.buildsite.com/pdf/dap/DAP-WELDWOOD-Original-Contact-Cement-Product-Data-2217932.pdf
+  - https://multimedia.3m.com/mws/media/2366610O/3m-fastbond-contact-adhesive-30-nf.pdf
+  - https://www.thistothat.com/glue/contact.shtml
+  - https://blog.prusa3d.com/the-great-guide-to-gluing-and-assembling-3d-prints_44908/
+  - https://www.luminsworkshop.com/en-us/blogs/news/glue-guide
+  - https://www.rockler.com/learn/how-to-apply-plastic-laminate
+  - https://www.thisoldhouse.com/kitchens/21016508/how-to-laminate-a-countertop
+  - https://www.titebond.com/product/glues/d4d28015-603f-4dfc-a7d9-f684acc71207
+  - https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg
+  - https://www.youtube.com/watch?v=iPHEUvkJPGE
+  - https://www.youtube.com/watch?v=Oqh01j7ZG_s
+  - https://api.printables.com/graphql/ (models 321669, 1130696, 1065435, 236948)
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, making_tips_3d_printing, materials, play_and_precision, processes, removability, safety_notes, when_not_to_use
 
 ## 225 Polyurethane glue (foaming moisture-cure glue)
 
 *adhesives & bonding.* A glue that cures by reacting with moisture and foams as it sets, filling gaps; bonds wood, stone, metal, foam and some plastics
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A brown, honey-like glue from a bottle that hardens by soaking up moisture, and puffs up into a foam as it sets; it sticks wood to almost anything (stone, metal, foam, ceramic, many plastics) and is waterproof, but the parts must be clamped tightly because the foam itself is weak
+- **term**: Polyurethane glue (one-part moisture-curing polyurethane adhesive, PU glue)
+- **aliases**: 
+  - PU glue, poly glue, polyurethane adhesive (Wikipedia; Loctite design guide)
+  - moisture-cure polyurethane, one-component (1K) polyurethane adhesive (Wikipedia 'Wood glue')
+  - expanding glue, foaming glue (VCA Animal Hospitals; Rockler)
+  - Gorilla Glue, Original Gorilla Glue (brand; Wikipedia), Titebond Polyurethane Glue (brand; Titebond data sheet), Elmer's ProBond Polyurethane (brand; thisTOthat), Excel (brand; Wikipedia), Loctite Wood Wizard (brand; Popular Woodworking)
+  - polyurethane construction adhesive, e.g. Loctite PL Premium (brand): the same moisture-curing chemistry as a thick paste in a caulk-gun cartridge (Henkel specification)
+  - PUR hot melt (reactive polyurethane hot melt): starts like hot glue, then moisture-cures into a tough polyurethane (Loctite design guide)
+  - Note: 'Gorilla Wood Glue' is a different, PVA-type product that does not foam (woodgears.ca)
+- **family**: adhesives & bonding
+- **one_liner**: Polyurethane glue is a one-part liquid glue that cures by reacting with moisture in the air and in the materials, foaming slightly as it hardens, to give a strong, waterproof bond between wood and many other materials, provided the joint is tight and clamped.
+- **complexity**: Single piece: one liquid, no mixing. In use you also need water (a damp cloth or spray bottle) to dampen one surface, clamps or weights to hold the joint tight while it foams, and gloves (Gorilla Glue directions; Titebond data sheet).
+- **how_it_works**: The liquid is made of short polymer chains that end in reactive isocyanate groups (an isocyanate-terminated prepolymer). When they meet water, from the air, the wood or a dampened surface, they react and link up into a solid polyurethane plastic, which is why it is called a moisture-cure glue (Wikipedia 'Wood glue'). The same reaction with water also releases carbon dioxide gas (Wikipedia 'Isocyanate': RNCO + H2O -> RNH2 + CO2), so the glue swells into a foam, about 3 times its volume according to one maker (Gorilla Glue). In a tight, clamped joint the glue is pushed into the pores of the material and gives a strong bond, but any foam left in a gap is mostly bubbles and has almost no strength (Popular Woodworking; woodgears.ca).
+
+### Finder attributes
+
+- **job**: glue or bond: joins wood to wood, and wood to stone, metal, ceramic, foam, glass and many plastics, permanently and waterproof (Gorilla Glue; Woodcraft)
+- **motion**: none: a rigid joint with no movement
+- **degrees_of_freedom**: 0: the glued parts are locked together
+- **special_behaviour**: 
+  - none: it has none of the listed behaviours. Its own tricks are curing from moisture without any mixing, and foaming up as it sets, which pushes the glue into pores and end grain (Popular Woodworking) but can also push parts apart if they are not clamped (Woodcraft; Snapmaker)
+- **holding_principle**: material bond (glue, solvent or melting): the cured polyurethane sticks to both surfaces and keys into their pores
+- **input_output**: not applicable
+- **power**: passive (no power needed): it cures by itself at room temperature using moisture from the air and the materials (Wikipedia 'Wood glue'; Gorilla Glue).
+- **removability**: permanent: there is no practical solvent for the cured glue; wet glue wipes off with a dry cloth or mineral spirits (paint thinner), but once cured it has to be scraped, chiselled or sanded off (Gorilla Glue; Titebond data sheet; Rockler).
+- **reuse_cycles**: once: the glue can't be reused; a failed joint has to be cleaned back to bare material and glued again
+- **tools_needed**: The glue, water in a spray bottle or a damp cloth, clamps (or weights, tape or rubber bands for light parts), disposable gloves, a brush or roller to spread it thinly, masking tape to catch squeeze-out, a dry cloth or mineral spirits for wet glue, and a scraper, chisel or sandpaper for cured foam (Gorilla Glue; Titebond data sheet; Popular Woodworking).
+- **seal**: none: it is a glue, not a sealant, and its foam is full of bubbles. Polyurethane sealants in caulk tubes are a separate product made for sealing gaps against air and water (Wikipedia 'List of polyurethane applications').
+- **load**: medium to heavy on wood, if the joint is tight: Titebond reports 3,500+ psi (about 24 MPa) shear strength on hard maple at room temperature and 3,000 psi (about 21 MPa) after a night at 150 °F (Titebond data sheet), and Franklin International's tests quoted by Popular Woodworking found polyurethane (3,510 psi) about as strong as yellow PVA glue (3,600 psi), with the wood usually breaking first. It is claimed to beat PVA on end grain, though this was not scientifically tested (Popular Woodworking). In gappy joints it is very weak: with a 0.3 mm gap, Matthias Wandel's test joints broke at about 15 lb against about 220 lb for tight joints (woodgears.ca). Titebond says its polyurethane glue is 'not for structural applications' (Titebond data sheet). On polyethylene and polypropylene it hardly sticks at all: a two-part urethane adhesive managed only about 1.0 MPa on LDPE and 0.7 MPa on PP (Loctite design guide, pp. 51, 63).
+- **adjustable**: no, but it gives time to line parts up: about 15-30 minutes of open time before assembly (Woodcraft), and 25-30 minutes at 70 °F and 50% humidity for Titebond's version (Titebond data sheet). Once it has foamed and cured, nothing can be adjusted.
+- **play_and_precision**: not applicable (nothing moves). It needs tight-fitting joints: glue experts say it can't fill a gap larger than 1-2 mm with any strength (Popular Woodworking), and a 0.3 mm gap already made joints weak in Wandel's test (woodgears.ca). The foam can lift or shift parts slightly, so clamp them or use pins and keys to hold alignment (Woodcraft; Snapmaker).
+- **access_needed**: not applicable: glue goes on the faces before assembly, but you need to reach both sides to clamp the joint while it foams and cures
+- **materials**: Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). *(unverified parts omitted)*
+- **maker_difficulty**: easy to moderate: no mixing, and there is time to line parts up, but you have to dampen the surfaces, clamp firmly for 1-2 hours, wear gloves, and deal with foaming squeeze-out (Gorilla Glue; Rockler).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: bottles of polyurethane glue, and polyurethane construction adhesive in caulk-gun cartridges
+  - woodwork: waterproof outdoor projects, end-grain joints, oily or wet timber and wood-to-other-material joints (Woodcraft; Popular Woodworking)
+  - 3D print (FDM): gluing prints to wood, stone, foam or metal, and large prints; for small precise plastic parts CA or epoxy is usually easier (Snapmaker; Hackaday)
+  - building and repair: subfloors, foam insulation board, trim, stone and masonry with polyurethane construction adhesive (Henkel PL Premium specification) *(unverified parts omitted)*
+- **print_in_place**: no: it is a glue for joining separate parts, although you can print pins, keys and flat, tight mating faces to make gluing easier.
+- **making_tips_3d_printing**: 1) Make the mating faces flat and tight-fitting. The foam is weak, so the glue only has real strength in a thin, closed joint; don't rely on it to fill gaps (Popular Woodworking: no more than 1-2 mm; woodgears.ca: a 0.3 mm gap made joints very weak). 2) Printed plastic is not porous, so the glue's moisture must come from outside: lightly dampen one surface with a damp cloth or spray bottle without soaking it, and put the glue on the dry surface (Gorilla Glue directions). 3) Use a thin layer (about ½ oz per square foot, Gorilla Glue; a film about 6 thousandths of an inch or 0.15 mm, Titebond data sheet), because it expands and too much gives messy squeeze-out (Rockler). 4) Clamp firmly for 1-2 hours and leave it 24 hours to cure fully (Gorilla Glue); keep clamps on until it has fully cured, or the foam can push the joint open (Woodcraft). The expansion can push unclamped parts apart and spoil the alignment (Snapmaker), so add pins, keys or a stepped joint to locate the parts. 5) Put masking tape along the seam to catch the foam, and peel it off after curing (Popular Woodworking). Wipe wet squeeze-out with a dry cloth or mineral spirits; cured foam has to be cut or sanded off (Gorilla Glue; Rockler). 6) Don't use it on PP or PE prints or on soft, plasticised flexible parts (Gorilla Glue FAQ). 7) It is most useful for joining prints to wood, stone, foam, concrete or metal, and outdoors, where it is waterproof (Woodcraft; Gorilla Glue). For PETG, a polyurethane construction adhesive gave the highest pull strength in Cosel's test of many glues, although one commenter notes that it also expands from CO2 (Hackaday). 8) Test first on scrap pieces to see how much it foams (Rockler; Gorilla Glue).
+- **off_the_shelf_parts**: Search for 'polyurethane glue', 'PU glue' or 'moisture-cure polyurethane adhesive' (e.g. Gorilla Glue, Titebond Polyurethane, Elmer's ProBond, brands); 'polyurethane construction adhesive' in 10 oz / 300 ml cartridges (e.g. Loctite PL Premium, brand); 'two-part polyurethane adhesive' for plastics and deep sections; 'PUR hot melt' glue sticks for a hot-glue-style polyurethane; plus bar or F-clamps, a spray bottle, nitrile gloves and mineral spirits (Gorilla Glue; Titebond data sheet; Henkel PL Premium specification; Loctite design guide).
+- **rules_of_thumb**: 
+  - Keep joints tight: polyurethane glue can't fill a gap larger than 1-2 mm with any strength, because the foam is mostly bubbles (Popular Woodworking, 'The Truth About Polyurethane Glue', p. 2). In Wandel's test a 0.3 mm gap cut joint strength to less than a tenth of a tight joint's (woodgears.ca, 'Gorilla glue sucks (at filling gaps)').
+  - Moisture: dampen one surface lightly, or both surfaces on dense hardwoods; spread about ½ oz of glue per square foot (Gorilla Glue directions).
+  - Times: about 15-30 minutes open time and 1-4 hours clamp time (Woodcraft glue chart); Gorilla says clamp for 1-2 hours and allow 24 hours to cure (Gorilla Glue); Titebond's version gives a 30-minute working time and a 45-minute clamp time (Titebond data sheet).
+  - Clamping pressure: enough to close the joint tightly; Titebond gives about 100-150 psi for softwoods, 125-175 psi for medium woods and 175-250 psi for hardwoods (Titebond data sheet).
+  - Temperature: apply above 40 °F (4 °C) for Gorilla Glue and above 50 °F (10 °C) for Titebond; cold thickens the glue and slows the cure (Gorilla Glue; Titebond data sheet).
+  - Strength on wood: about 3,500 psi (24 MPa) in hard-maple shear, about the same as yellow PVA glue (Titebond data sheet; Popular Woodworking).
+  - Shelf life: about 12 months (Titebond data sheet; Woodcraft), about a year after opening (Popular Woodworking); squeeze air out of the bottle before capping, because moisture gets in and cures it (Gorilla Glue).
+  - One-part moisture-cure polyurethanes cure through only about 9.5 mm (0.375 in) in a reasonable time, because moisture has to soak in; two-part versions have no such limit (Loctite 'Design Guide for Bonding Plastics', vol. 6, p. 10).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The brown bottle of Original Gorilla Glue used for household repairs (Wikipedia 'Gorilla Glue')
+  - Teak outdoor furniture, where Danish polyurethane glue was used before it was sold in North America (Wikipedia 'Gorilla Glue')
+  - Polyurethane construction adhesive in a caulk-gun tube for gluing subfloors, foam insulation board and trim (Henkel PL Premium specification)
+  - Bookbinding: the spines of many paperback books are glued with reactive polyurethane (PUR) adhesive (Wikipedia 'List of polyurethane applications')
+- **when_to_use**: Use it for waterproof outdoor woodwork, for wood that is wet, oily or hard to glue, for end-grain joints, and when gluing wood to a different material such as stone, metal, ceramic, concrete or rigid foam (Woodcraft; Gorilla Glue; Popular Woodworking). It suits complicated glue-ups that need time to assemble, because it stays workable for about 15-30 minutes (Woodcraft), and it can be used down to about 40 °F (4 °C), where most PVA glues need 50 °F (10 °C) or more (Gorilla Glue; Woodcraft). In 3D printing it is useful for fixing prints to wood, stone or foam, and a polyurethane construction adhesive did best on PETG in one large test (Hackaday).
+- **when_not_to_use**: Don't use it to fill gaps or rescue loose joints: the foam has almost no strength, so use two-part epoxy instead (Popular Woodworking; woodgears.ca; Woodcraft). For ordinary indoor wood-to-wood joints, PVA wood glue is as strong, cheaper, cleaner and washes up with water (Popular Woodworking; Woodcraft). Avoid it on small, precise plastic parts where foaming would push them out of line; use CA or epoxy (Snapmaker). Don't use it on polyethylene, polypropylene, PTFE, soft PVC or oily rubber (Gorilla Glue FAQ; Henkel PL Premium specification), for parts that sit underwater or below a boat's waterline (use epoxy), or for structural, load-bearing joints (Titebond data sheet; Woodcraft: 'Epoxy is the only woodworking adhesive suited for constant water contact'). Avoid it where people with isocyanate allergy or asthma would be exposed (Titebond data sheet; OSHwiki).
+- **environment_limits**: Heat: service temperature -40 °F to 200 °F (-40 °C to 93 °C) for Gorilla Glue, and -40 °F to 160 °F (-40 °C to 71 °C) for PL Premium construction adhesive (Gorilla Glue; Henkel PL Premium specification); Titebond keeps about 3,000 psi after a night at 150 °F (66 °C) (Titebond data sheet); polyurethanes 'typically degrade in strength after long-term exposure over 302 °F (150 °C)' (Loctite design guide). Cold: apply above 40-50 °F (4-10 °C); cold weather and dry air slow the cure a lot (Gorilla Glue; Titebond data sheet; Henkel PL Premium specification). Water: passes ANSI/HPVA Type I and II water-resistance tests and is fine outdoors (Titebond data sheet; Gorilla Glue), but it is not for constant immersion, marine use or below the waterline (Titebond data sheet; Henkel PL Premium specification), and in water-soaking tests polyurethane bonds were 'much less durable' than resorcinol bonds (Wikipedia 'Wood glue'). Storage: moisture that gets into the bottle cures the glue, so it keeps about a year (Gorilla Glue; Titebond data sheet). *(unverified parts omitted)*
+- **safety_notes**: It contains isocyanates, which irritate the eyes and skin and can sensitise the skin and lungs, so repeated exposure can cause allergies or asthma; wear gloves and work with good ventilation (Titebond data sheet: 'potential skin and respiratory sensitizer'; Woodcraft; OSHwiki). Since 24 August 2023, EU professional and industrial users of products with more than 0.1% diisocyanates need training (OSHwiki). It stains skin brown for several days (Gorilla Glue; Titebond data sheet). Keep it away from children and pets: if swallowed, the wet glue foams in the warm, wet stomach into a hard mass that usually has to be removed by surgery, and as little as half a teaspoon can cause a blockage (VCA Animal Hospitals; Wikipedia 'Gorilla Glue'). *(unverified parts omitted)*
+- **common_failures**: Joints that snap easily because the parts didn't fit tightly and the gap filled with weak foam; make the fit tight and clamp firmly, or use epoxy (woodgears.ca; Popular Woodworking). Joints pushed open or parts pushed out of line because the clamps came off too early, or were never used, while the glue was foaming (Woodcraft; Snapmaker). Messy foam squeeze-out that is hard to remove and can stop stain soaking in; use less glue, mask the seam, and wipe wet glue with mineral spirits or lacquer thinner (Rockler; Popular Woodworking). Slow or weak curing in cold or very dry conditions, or on dry, non-porous surfaces that weren't dampened (Gorilla Glue; Henkel PL Premium specification). Glue that has thickened or hardened in the bottle after moisture got in (Gorilla Glue). No grip on PE, PP, PTFE, soft PVC or oily rubber (Gorilla Glue FAQ; Henkel PL Premium specification).
+- **related**: 
+  - PVA wood glue (white and yellow glue): about as strong on wood, cheaper, water clean-up and no foam, but most grades are less water-resistant and it is poor on non-wood materials (Popular Woodworking; Woodcraft)
+  - Two-part epoxy: the choice for gap filling, underwater use and wobbly joints; needs mixing (Popular Woodworking; Woodcraft)
+  - Cyanoacrylate (superglue): sets in seconds on tight-fitting plastic parts, but brittle and not waterproof
+  - Polyurethane construction adhesive: the same moisture-cure chemistry as a thick, gap-bridging paste in a cartridge, curing to a rubbery solid (Henkel PL Premium specification)
+  - Two-part polyurethane adhesive: mixed from two parts, so it cures right through thick sections without needing moisture (Loctite design guide)
+  - Silicone and MS-polymer adhesive sealants: also moisture-curing and waterproof, but they stay rubbery and flexible, seal gaps, and MS polymers contain no isocyanates
+  - PUR hot-melt adhesive: applied with a hot-glue gun, grabs as it cools, then moisture-cures into tough polyurethane (Loctite design guide)
+  - Structural acrylic (MMA) adhesives: two-part plastics glues; MMA-type glues were also among the strongest on PETG in Cosel's test (Hackaday)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Gorilla glue sucks (at filling gaps) (woodgears.ca, Matthias Wandel)](https://woodgears.ca/joint_strength/gorilla_glue.html): Photos of foamed-up squeeze-out, broken gapped and tight joints showing the weak foam inside, and the home-made test rig, with a table of breaking forces *(licence: link only)*
+  - [Gorilla glue sucks (at filling gaps) (YouTube, MatthiasWandel)](https://www.youtube.com/watch?v=MUWu-N85oXM): Video of the same test: gapped and tight polyurethane joints compared with yellow glue (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [Original Gorilla Glue (Gorilla Glue Company product page)](https://gorillatough.com/product/original-gorilla-glue): Step-by-step directions with pictures: dampen, apply, clamp, cure; plus technical specs (service temperature, Type I, expands when cured). A brand page, used here for the type's general instructions *(licence: link only)*
+  - [Teardrop polyglue strength.jpg (Wikimedia Commons, by Wikiwerks at English Wikibooks)](https://commons.wikimedia.org/wiki/File:Teardrop_polyglue_strength.jpg): Photo of an author's strength test of polyurethane glue: a pine block glued to plywood, broken so that the plywood failed *(licence: Public domain)*
+  - [The glue we used..jpg (Wikimedia Commons, by Fissbusta)](https://commons.wikimedia.org/wiki/File:The_glue_we_used..jpg): Photo of a bottle of Gorilla (polyurethane) glue *(licence: CC BY-SA 3.0)*
+- **make_it_yourself**: 
+  - [Glue strength test pieces (MethodicalMaker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236948-glue-strength-test-pieces): Printable specimens for comparing glues in torque, shear and tension with a hanging scale; useful to see how polyurethane glue does on your own filament, tight versus gapped. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Glue tensile strength test object (Patrol_maverick, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1352973-glue-tensile-strength-test-object): Two printed tubes glued end to end over a 6 x 6 mm area, then loaded with a bucket filled slowly with water until the joint fails. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [F-style Clamp / Glue clamp (MisterJ, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1341341-f-style-clamp-glue-clamp): A fully printable F-clamp for holding glued parts together while the glue cures, which polyurethane glue needs; the designer notes a plastic clamp bends under high force. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Clamp to glue with rubber band (3D-Muc, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/125755-clamp-to-glue-with-rubber-band): A simple printed sliding clamp that uses a rubber band for pressure, for light parts (Gorilla suggests rubber bands for light objects). Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: Two side-by-side cut-aways of a glued joint: on the left, a tight clamped joint where a thin glue film has been pushed into the wood pores (strong); on the right, a gappy joint filled with bubbly foam (weak), with small arrows showing water from a damp cloth and the air entering the glue and CO2 bubbles coming out.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Gorilla_Glue
+  - https://en.wikipedia.org/wiki/Wood_glue
+  - https://en.wikipedia.org/wiki/Isocyanate
+  - https://en.wikipedia.org/wiki/List_of_polyurethane_applications
+  - https://en.wikipedia.org/wiki/Adhesive
+  - https://www.woodcraft.com/blogs/sanding-finishing/complete-guide-to-woodworking-glues
+  - https://www.rockler.com/learn/understanding-wood-glue
+  - https://gorillatough.com/product/original-gorilla-glue
+  - https://ardec.ca/media/catalog/documents/Titebond_Polyurethane_Glue_TDS.pdf
+  - https://www.popularwoodworking.com/article/the_truth_about_polyurethane_glue/
+  - https://www.popularwoodworking.com/article/the_truth_about_polyurethane_glue/2/
+  - https://woodgears.ca/joint_strength/gorilla_glue.html
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-design-guide-plastic-bonding.pdf
+  - https://dm.henkel-dam.com/is/content/henkel/Loctite-PL-Premium
+  - https://hackaday.com/2025/01/30/comparing-adhesives-for-gluing-petg-prints/
+  - https://www.snapmaker.com/blog/best-glue-for-pla-3d-prints/
+  - https://vcahospitals.com/know-your-pet/expanding-glues
+  - https://oshwiki.osha.europa.eu/en/themes/isocyanates
+  - https://www.thistothat.com/glue/elmers_probond.shtml
+  - https://commons.wikimedia.org/wiki/File:Teardrop_polyglue_strength.jpg
+  - https://commons.wikimedia.org/wiki/File:The_glue_we_used..jpg
+  - https://www.youtube.com/watch?v=MUWu-N85oXM
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, materials, processes, safety_notes
 
 ## 226 Structural acrylic and low-surface-energy plastic adhesives (for PE and PP)
 
 *adhesives & bonding.* Two-part acrylic glues, and primers used with superglue, that bond tough slippery plastics like polyethylene and polypropylene which most glues can't
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Special glues for the slippery, waxy-feeling plastics that ordinary glue just peels off, such as polyethylene (milk jugs, chopping boards) and polypropylene (bottle caps, storage boxes): either a two-part glue from a double cartridge, or a kit where you paint on a primer and then use superglue
+- **term**: Low-surface-energy (LSE) plastic adhesives: structural acrylic (methacrylate) polyolefin bonders, and polyolefin primers used with cyanoacrylate
+- **aliases**: 
+  - LSE adhesive, polyolefin bonder, PE/PP glue, 'glue for hard-to-bond plastics' (3M white paper; Loctite design guide)
+  - structural acrylic, toughened acrylic, reactive acrylic, methacrylate or MMA (methyl methacrylate) adhesive (Permabond; Loctite design guide)
+  - no-mix acrylic (resin on one part, activator on the other) and static-mix acrylic (two parts mixed in a nozzle) (Loctite design guide)
+  - polyolefin primer, CA primer or surface primer; kits sold as a 'plastics bonding system' with an activator pen (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet)
+  - 3M Scotch-Weld DP8005 / DP8010, Loctite 3032, Permabond TA4610 (brands of LSE structural acrylics); Loctite 770 / SF 770 primer and Loctite Plastics Bonding System (brands of CA-plus-primer)
+  - 'plastic welder' glues, e.g. Devcon Plastic Welder (brand): general-purpose methacrylates for ABS, PVC and fibreglass that are not made for PE or PP (Devcon data sheet)
+- **family**: adhesives & bonding
+- **one_liner**: LSE adhesives are special structural acrylic glues, or superglue used after a polyolefin primer, that can make strong bonds to polyethylene, polypropylene and similar slippery plastics that normal glues can't wet or grip.
+- **complexity**: A few parts. Route 1, structural acrylic: a double cartridge of resin and activator, a static mixing nozzle and an applicator gun (3M DP8005 data sheet; Permabond TA4610 data sheet). Route 2, primer plus superglue: a felt-tip or brush-on primer and a bottle of cyanoacrylate (Loctite Plastics Bonding System data sheet). Optional: a propane torch with a flame spreader for flame treatment, used with some other glues (TAP Poly-Weld data sheet).
+- **how_it_works**: Glue can only stick if it spreads out and wets the surface, but polyethylene (PE), polypropylene (PP) and PTFE have very low surface energy (about 31 mN/m for PE and PP, 18.5 for PTFE, compared with about 1,000 for glass), so most liquid glues bead up on them 'like raindrops on a freshly waxed car' and make weak bonds (3M white paper). LSE structural acrylics are two-part methacrylate glues: rubber dissolved in acrylic monomers, which a peroxide catalyst sets off into a tough, rubber-toughened plastic, and which are specially formulated to grip polyolefins without any surface treatment (Loctite design guide, p. 12; 3M DP8005 data sheet). The primer route paints on an amine dissolved in a fast-evaporating solvent; it acts as a chemical bridge that sticks to the plastic and triggers superglue, so the superglue can then bond (Loctite design guide, pp. 6, 75; Loctite SF 770 data sheet). A third route raises the plastic's surface energy with a brief flame, corona or plasma treatment so that other glues can wet it (Loctite design guide, p. 75; 3M white paper).
+
+### Finder attributes
+
+- **job**: glue or bond: joins PE, PP and other low-surface-energy plastics to themselves or to metal, wood and other plastics (3M DP8005 data sheet; Permabond TA4610 data sheet)
+- **motion**: none: a rigid joint with no movement
+- **degrees_of_freedom**: 0: the glued parts are locked together
+- **special_behaviour**: 
+  - none: it has none of the listed behaviours. Its trick is sticking to plastics that almost nothing else sticks to; the acrylics are also rubber-toughened, so they resist peel and impact better than most rigid glues (Permabond MMA article; Loctite design guide)
+- **holding_principle**: material bond (glue, solvent or melting): the cured acrylic or primed superglue sticks to both surfaces
+- **input_output**: not applicable
+- **power**: passive (no power needed): the two-part acrylics cure at room temperature once mixed, and primed superglue cures from surface moisture; heating the joint to 66-80 °C for 30 minutes only speeds up the acrylic's cure (3M DP8005 data sheet).
+- **removability**: permanent: on PE and PP the plastic itself usually breaks before the glue lets go (3M DP8005 data sheet: 'SF' substrate failure; Loctite design guide, p. 63). Strong solvents such as acetone and toluene weaken the cured acrylic (3M DP8005 chemical exposure table), but that is not a practical way to take a joint apart.
+- **reuse_cycles**: once
+- **tools_needed**: For structural acrylics: the double cartridge, the matching applicator gun and mixing nozzles (hand mixing is not recommended for 10:1 products), isopropyl alcohol wipes, fine sandpaper (150 grit or finer), clamps or tape giving light pressure, gloves and good ventilation (3M DP8005 data sheet; Permabond TA4610 data sheet). For the primer route: the primer pen or bottle, superglue and tissue (Loctite Plastics Bonding System data sheet). For flame treatment: a propane torch with a flame spreader and a water spray to check the result (TAP Poly-Weld data sheet).
+- **seal**: none: it is a glue, not a sealant, although the structural acrylics resist water well and one is sold as able to bond underwater (3M DP8005 data sheet; Permabond TA4610 data sheet).
+- **load**: medium to heavy for plastics. The right LSE glue is usually stronger than the PE or PP itself: 3M DP8005 gave about 1,100 psi (7.6 MPa) overlap shear on HDPE and PP, with the plastic breaking first (3M DP8005 data sheet); Permabond TA4610 gave more than 8 MPa on PP (the plastic broke) and 15 MPa on HDPE (Permabond TA4610 data sheet); primed superglue gave about 15 MPa on PP (Loctite SF 770 data sheet). 3M notes that by convention a glue counts as structural above 1,000 psi (about 7 MPa) overlap shear (3M white paper). Without the right product, bonds on PE and PP are almost nil: general-purpose superglue, epoxies, polyurethane, general-purpose methacrylate and silicone all gave only about 0.3-1.4 MPa or less (Loctite design guide, pp. 51, 63). Peel: the acrylics are toughened (DP8005 T-peel of 17 pounds per inch on HDPE with the plastic failing), but primed superglue is 'not recommended in assemblies where high peel strength is required' (3M DP8005 data sheet; Loctite SF 770 data sheet).
+- **adjustable**: no, and there is little time to line parts up: 3M DP8005 has a work life of only 2.5-3 minutes at 23 °C (3M DP8005 data sheet), Permabond TA4610 a pot life of 5-8 minutes (Permabond TA4610 data sheet), and primed superglue sets in about 30 seconds, with the instructions saying 'do not reposition parts' (Loctite Plastics Bonding System data sheet).
+- **play_and_precision**: not applicable (nothing moves). The glue layer has to be the right thickness: 3M wants a 0.005-0.008 in (0.13-0.2 mm) bondline and puts 0.008 in glass microspheres in the glue to set it, warning that a layer thinner than 0.005 in gives unpredictable results (3M DP8005 data sheet). Permabond TA4610 fills gaps up to 1 mm (Permabond TA4610 data sheet). The primer-plus-superglue kit needs close-fitting parts and is 'not suitable for... gap-filling' (Loctite Plastics Bonding System data sheet).
+- **access_needed**: not applicable: the glue goes on the joint faces before assembly
+- **materials**: Bonds well: polypropylene (PP), polyethylene (HDPE, LDPE, UHMWPE), thermoplastic polyolefin (TPO), and with the acrylics also ABS, PVC, polycarbonate, acrylic (PMMA), polystyrene, fibreglass, PET and PETG, glass, wood, concrete, aluminium and steel, so it is good for joining PE or PP to something else (3M DP8005 data sheet; Permabond TA4610 data sheet). Primed superglue also bonds PTFE and thermoplastic rubber (Loctite SF 770 data sheet). Poor or not recommended: 3M DP8005 lists PTFE, silicone, nylon, polyimide and surfaces with mould-release agents, oils or anti-static additives as not recommended (3M DP8005 data sheet); PTFE bonds are weak even with Permabond TA4610 (more than 2 MPa) (Permabond TA4610 data sheet). The primer-plus-superglue kit does not suit polystyrene foam, foam rubber, glass, glazed surfaces or silicone rubber (Loctite Plastics Bonding System data sheet). Ordinary methacrylate 'plastic welder' glues don't list PE or PP at all (Devcon data sheet; Loctite design guide: general-purpose H3000 gave under 0.3 MPa on PP).
+- **maker_difficulty**: moderate: the primer-plus-superglue kit is easy and cheap, but the structural acrylics need a special cartridge and gun, have only a few minutes' working time, smell strongly and are not cheap; flame treatment needs care with a torch (Loctite Plastics Bonding System data sheet; 3M DP8005 data sheet; Permabond MMA article; Hackaday comments).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: LSE structural acrylic cartridges, polyolefin primers and primer-plus-superglue kits
+  - CNC and sheet work: bonding HDPE or PP sheet (e.g. chopping-board plastic) and plastic lumber (3M white paper)
+  - repairs: plastic toys, containers, bumpers and trim, wiper blades and rubber seals (Loctite Plastics Bonding System data sheet; 3M white paper) *(unverified parts omitted)*
+- **print_in_place**: no: it is a glue for joining separate parts.
+- **making_tips_3d_printing**: 1) Know what you are gluing: PP is so hard to stick to that PP prints only grip a PP bed sheet or PP tape (Prusa knowledge base), which is the same problem glue has. For PLA, PETG, ABS and ASA prints, ordinary superglue or epoxy usually works, though methacrylate glues were among the strongest on PETG in Cosel's test (Hackaday). 2) Clean with isopropyl alcohol and let it evaporate; lightly sand with 150-grit or finer paper; avoid anti-static or oily additives and mould-release sprays (3M DP8005 data sheet; Permabond TA4610 data sheet). 3) With structural acrylics, use the maker's gun and mixing nozzle, throw away the first bit of mixed glue, and close the joint within the 2.5-3 minute work life (3M DP8005 data sheet). Design the joint so the glue layer is about 0.13-0.2 mm thick, and add small bumps or ribs about that height if parts sit flat (3M DP8005 data sheet: 0.005-0.008 in bondline). Clamp lightly (about 4-8 psi) for at least 2 hours; 3M notes plastic parts can be designed to hold themselves in place (3M DP8005 data sheet). 4) Mixed acrylic gets hot as it cures, and the heat can deform thin or heat-sensitive parts, which matters for thin PLA walls (Loctite design guide, p. Also, glue squeezed out into the air stays soft for longer, while glue inside the joint cures solid (Permabond TA4610 data sheet). 5) With the primer route, prime only the PE or PP part, let it dry (about 60 seconds for the kit; about 8-9 seconds for the industrial primer), then put one drop of superglue per square inch on the other part and press together for about 30 seconds (Loctite Plastics Bonding System data sheet; Loctite SF 770 data sheet). Bond soon: the primer stays active for about 8 hours (Loctite SF 770 data sheet). 6) Load the joint in shear, not peel, especially with primed superglue (Loctite SF 770 data sheet); use wide overlapping or stepped joints. 7) Don't use it on nylon (PA) prints without testing, because 3M lists nylon as not recommended for DP8005 (3M DP8005 data sheet), although Permabond reports 5 MPa on PA6 with TA4610 (Permabond TA4610 data sheet). 8) For PP or PE prints, melting them together with a soldering iron or hot-air plastic welder is often simpler (Wikipedia 'Polyethylene'; Wikipedia 'Plastic welding'). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'polyolefin bonder', 'LSE structural adhesive', 'polypropylene adhesive' or 'structural plastic adhesive' (e.g. 3M Scotch-Weld DP8005 / DP8010, Loctite 3032, Permabond TA4610, brands) with the matching 'duo-pak applicator' or dispensing gun and 'static mixing nozzles'; 'polyolefin primer' or 'CA primer' (e.g. Loctite SF 770, brand) with a surface-insensitive cyanoacrylate; consumer 'plastics bonding system' kits with a primer pen; 'LSE double-sided tape' (e.g. 3M 300LSE or VHB LSE, brands) where tape will do; and a 'propane torch with flame spreader' for flame treatment (3M white paper; Loctite SF 770 data sheet; TAP Poly-Weld data sheet).
+- **rules_of_thumb**: 
+  - The lower a surface's energy (critical surface tension), the harder it is to glue: PTFE is about 18.5 mN/m, silicone 24, PE and PP 31 and polystyrene 33, while PVC (39), nylon 6,6 (43) and PET (43) are easier, and aluminium (about 500) and glass (about 1,000) are easy (3M 'Innovations in Bonding to Low Surface Energy Surfaces' white paper, table after Kinloch 1987).
+  - Water test: after flame treating PE (about five quick passes of 0.5 s each, 2-3 s in total, without melting it), wet it; if water beads up and runs off, the treatment didn't work; if it spreads out in a sheet, the surface is ready. Bond within 1 hour (TAP Poly-Weld data sheet).
+  - A polyolefin primer can raise superglue bond strength on hard-to-bond plastics by up to 20 times (Loctite 'Design Guide for Bonding Plastics', vol. 6, p. 6). The primer dries in about 8-9 seconds and stays active for about 8 hours (Loctite SF 770 data sheet).
+  - 3M DP8005: 10:1 mix, 2.5-3 minute work life, handling strength in 2-3 hours, full cure in 8-24 hours at 23 °C; bondline 0.005-0.008 in (0.13-0.2 mm); clamp at 4-8 psi for at least 2 hours (3M DP8005 data sheet).
+  - Permabond TA4610: 1:1 mix, gap fill up to 1 mm, pot life 5-8 minutes, fixture in 12-15 minutes, full cure in 24-36 hours at 23 °C (Permabond TA4610 data sheet).
+  - A glue is called structural if it gives more than 1,000 psi (about 7 MPa) in an overlap shear test; LSE acrylics reach this on untreated PE and PP (3M white paper). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - The two-tube 'plastics bonding system' kit (superglue plus a felt-tip primer pen) sold for fixing polypropylene and polyethylene toys, figurines and household items (Loctite Plastics Bonding System data sheet)
+  - Car bumper fascia, trim and plastic fuel or liquid containers bonded with LSE structural acrylics in factories (3M white paper)
+  - Things made of the plastics these glues are for: milk and household-chemical bottles, squeeze bottles, screw caps and toys (Loctite design guide, p. 50; Wikipedia 'Polyolefin')
+- **when_to_use**: Use an LSE structural acrylic when you need a strong, tough joint on polyethylene or polypropylene, or between PE/PP and metal, wood or another plastic, and screws, clips or welding won't do; for example gluing HDPE sheet, repairing a PP box or bonding a PP print to an aluminium bracket (3M DP8005 data sheet; Permabond TA4610 data sheet). Use the primer-plus-superglue kit for small, close-fitting indoor repairs to PP, PE, PTFE or rubber parts where a quick, no-mixing fix is enough (Loctite Plastics Bonding System data sheet). General structural acrylics (MMA) are also good whenever you need a fast, tough, peel-resistant bond on ABS, PVC, polycarbonate, fibreglass or metal (Permabond MMA article; Devcon data sheet).
+- **when_not_to_use**: Don't use ordinary superglue, epoxy, polyurethane glue, general-purpose MMA or silicone on PE or PP and expect it to hold: they give almost no strength there (Loctite design guide, pp. 51, 63). Avoid the primer-plus-superglue kit outdoors, for gap filling, for flexible joints, for parts that hold hot liquids or go in an oven or microwave, and wherever the joint will be peeled (Loctite Plastics Bonding System data sheet; Loctite SF 770 data sheet). Avoid LSE acrylics on PTFE, silicone, nylon or oily and anti-static plastics without testing (3M DP8005 data sheet), and where the joint gets hot, since DP8005 keeps only about a quarter of its strength at 82 °C (3M DP8005 data sheet). Often a better answer for PE and PP is plastic welding (hot air, a speed-tip welder or a soldering iron), which 'readily' gives high-strength joints (Wikipedia 'Polyethylene'; Wikipedia 'Plastic welding'), or mechanical fixing: screws, clips, snap fits or rivets (3M white paper). Solvent welding does not work, because polyolefins resist solvents (Wikipedia 'Polyolefin').
+- **environment_limits**: Heat: 3M DP8005's overlap shear on HDPE falls from about 1,100 psi at 23 °C to about 700 psi at 49 °C, 500 psi at 66 °C and 300 psi at 82 °C (Tg onset about 33 °C); it keeps about 750-875 psi at -29 °C (3M DP8005 data sheet). Permabond TA4610 can be used down to -55 °C (Permabond TA4610 data sheet). Primed superglue is rated to 82 °C (180 °F) in the consumer kit (Loctite Plastics Bonding System data sheet). Water: the acrylics resist water and humidity well; DP8005 kept 950-1,000 psi on HDPE after 14 days in 71 °C water, and TA4610 is sold as bonding underwater (3M DP8005 data sheet; Permabond TA4610 data sheet). The consumer primer kit is 'not suitable for exterior applications' (Loctite Plastics Bonding System data sheet), although industrial primed superglue kept full strength after 1,000 hours in water or 95% humidity at 40 °C (Loctite SF 770 data sheet). Chemicals: gasoline, toluene and acetone badly weaken DP8005 (down to about 25-450 psi); diesel, antifreeze, salt water, isopropyl alcohol and dilute acid or alkali had little effect (3M DP8005 data sheet). Sunlight: cured DP8005 yellows with time (3M DP8005 data sheet). Storage: keep DP8005 cartridges at 4 °C or below for best shelf life, and primer at 8-21 °C (3M DP8005 data sheet; Loctite SF 770 data sheet).
+- **safety_notes**: Methacrylate glues smell strongly and are flammable (Permabond MMA article); methyl methacrylate irritates the eyes, skin and lungs and is a recognised skin sensitiser (contact allergen) (Wikipedia 'Methyl methacrylate'), so wear gloves and work with good ventilation. Primers and activators use highly flammable solvents (heptane or isopropyl acetate): keep them away from flames and sparks (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet). Don't flame-treat in the same place you have just used primer or solvent. Superglue bonds skin in seconds and can cause burns on skin contact (Loctite Plastics Bonding System data sheet). Flame treatment uses an open propane flame: only touch the plastic with the tip of the outer flame for 2-3 seconds in total, and don't let it melt (TAP Poly-Weld data sheet). Large amounts of mixed static-mix acrylic get hot as they cure (Loctite design guide, p. 12).
+- **common_failures**: The glue peels cleanly off the PE or PP with no plastic torn off: the wrong glue was used, or the surface was dirty. Use an LSE product, clean with isopropyl alcohol, and remove mould release (Loctite design guide; 3M DP8005 data sheet). Weak or patchy bonds on plastics containing oils or anti-static additives (3M DP8005 data sheet). Bonds that never reach strength because the parts were joined after the few-minute work life, the cartridge was mixed by hand in the wrong ratio, or the glue layer was thinner than 0.13 mm (3M DP8005 data sheet). Primed superglue failing because too much primer was used, too long passed after priming, or the parts had gaps (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet). Primed superglue joints breaking when peeled or flexed, or failing outdoors (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet). Flame treatment that didn't work (water still beads up) or that melted and warped the part (TAP Poly-Weld data sheet). Glue squeezed out of the joint that stays tacky, because air slows the cure of acrylics (Permabond TA4610 data sheet). Joints that soften and creep when warm (3M DP8005 data sheet).
+- **related**: 
+  - Cyanoacrylate (superglue): the same glue used in the primer route; without primer it gives only about 0.3-1 MPa on PE and PP (Loctite design guide)
+  - General-purpose structural acrylic (MMA) 'plastic welder' glues: tough and fast on ABS, PVC, polycarbonate, fibreglass and metal, but not on PE or PP (Devcon data sheet; Loctite design guide)
+  - Two-part epoxy: excellent on metal, wood and many plastics, but weak on untreated PE and PP (Loctite design guide)
+  - Plastic welding (hot air, speed-tip or soldering-iron welding): melts PE or PP parts together with filler rod; often the strongest and cheapest fix for polyolefins (Wikipedia 'Plastic welding'; Wikipedia 'Polyethylene')
+  - Solvent welding: fuses ABS, PVC and acrylic, but can't be used on PE or PP because they resist solvents (Wikipedia 'Polyolefin')
+  - Double-sided foam tape made for LSE plastics (e.g. 3M 300LSE or VHB LSE, brands): sticks to PP and TPO without primer; PE may still need flame, corona or plasma treatment (3M white paper)
+  - Polyolefin hot melts: hot-glue sticks formulated specially to stick to polyolefins (Loctite design guide)
+  - Screws, rivets, clips and snap fits: the traditional way to join PE and PP parts (3M white paper)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Innovations in Bonding to Low Surface Energy Surfaces (3M white paper, 2021)](https://multimedia.3m.com/mws/media/755526O/innovations-in-bonding-to-low-surface-energy-white-paper.pdf): A table of surface energies of plastics and metals, a sketch of a liquid beading up on a low-energy surface and spreading on a high-energy one, a chart of how surface treatments raise polyethylene's surface energy, a photo of a duo-pak cartridge with mixing nozzle, and strength charts on PP and PE *(licence: link only)*
+  - [Sessile drop - effect of the drop and support nature.png (Wikimedia Commons, by DaraDaraDara)](https://commons.wikimedia.org/wiki/File:Sessile_drop_-_effect_of_the_drop_and_support_nature.png): Diagram of liquid drops that spread out (wetting) or bead up (not wetting) depending on the surface, the reason ordinary glue fails on PE and PP *(licence: CC BY-SA 4.0)*
+  - [Waterdruppels op plastiek tuintafel.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Waterdruppels_op_plastiek_tuintafel.JPG): Photo of water beading up on a plastic garden table, the same test used to check whether a flame-treated surface is ready to glue *(licence: Public domain)*
+  - [Two-component adhesive cartridges.jpg (Wikimedia Commons, by Grzegorz W. Tężycki)](https://commons.wikimedia.org/wiki/File:Two-component_adhesive_cartridges.jpg): Photo of two-part adhesive cartridges of the kind structural acrylics come in *(licence: CC BY-SA 4.0)*
+  - [Permabond TA46XX range directions for use (YouTube, Permabond Engineering Adhesives)](https://www.youtube.com/watch?v=YVeKBCVVhYo): Video of how to use Permabond's polyolefin-bonding structural acrylics, linked from the TA4610 data sheet (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Glue strength test pieces (MethodicalMaker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236948-glue-strength-test-pieces): Printable torque, shear and tension specimens; print them in PP or PE-type filament to compare an LSE glue, primed superglue and ordinary glue on your own material. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Glue Test Pieces (iqless, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/32037-glue-test-pieces): A simple OpenSCAD shape: glue two together, push a dowel through and pull by hand to compare glues. Read through the Printables public API. *(licence: Public domain (Creative Commons Public Domain))*
+- **diagram_idea**: Two side-by-side close-ups: a drop of ordinary glue beading up on a waxy PE surface like rain on a waxed car (no grip), and a drop of LSE glue, or glue on a primed or flame-treated surface, spreading flat and gripping, with a small inset of the water test (water beads up = not ready, water sheets out = ready to glue).
+- **sources**: 
+  - https://multimedia.3m.com/mws/media/755526O/innovations-in-bonding-to-low-surface-energy-white-paper.pdf
+  - https://multimedia.3m.com/mws/media/1235571O/dp8005-scotch-weld-technical-data-sheet.pdf
+  - https://permabond.com/wp-content/uploads/2016/04/TA4610_TDS.pdf
+  - https://permabond.com/mma-methylmethacrylate-adhesives/
+  - https://datasheets.tdx.henkel.com/LOCTITE-SF-770-en_GL.pdf
+  - https://images.thdstatic.com/catalog/pdfImages/15/154c2da4-eb5f-4f70-8219-9a8be12441d1.pdf
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-design-guide-plastic-bonding.pdf
+  - https://www.chemical-concepts.com/wp-content/uploads/2022/06/DEVCON-PLASTIC-WELDER-TDS.pdf
+  - https://www.tapplastics.com/image/pdf/Prod_Data-_Poly-Weld.pdf
+  - https://hackaday.com/2025/01/30/comparing-adhesives-for-gluing-petg-prints/
+  - https://help.prusa3d.com/article/polypropylene-pp_167126
+  - https://en.wikipedia.org/wiki/Polyolefin
+  - https://en.wikipedia.org/wiki/Polyethylene
+  - https://en.wikipedia.org/wiki/Polypropylene
+  - https://en.wikipedia.org/wiki/Methyl_methacrylate
+  - https://en.wikipedia.org/wiki/Corona_treatment
+  - https://en.wikipedia.org/wiki/Plastic_welding
+  - https://commons.wikimedia.org/wiki/File:Sessile_drop_-_effect_of_the_drop_and_support_nature.png
+  - https://commons.wikimedia.org/wiki/File:Waterdruppels_op_plastiek_tuintafel.JPG
+  - https://commons.wikimedia.org/wiki/File:Two-component_adhesive_cartridges.jpg
+  - https://www.youtube.com/watch?v=YVeKBCVVhYo
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, processes, rules_of_thumb
 
 ## 227 Silicone and MS-polymer adhesive sealants
 
 *adhesives & bonding.* Rubbery glues that cure from moisture in the air into a flexible, waterproof bond that also seals gaps
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A thick paste squeezed from a caulk-gun tube that skins over in minutes and, overnight, turns into soft, stretchy rubber by soaking up moisture from the air; it seals gaps against water and holds parts together flexibly, like the 'silicone' round a bath, or the newer paintable 'hybrid' or 'MS polymer' glue-and-seal tubes
+- **term**: Moisture-curing elastomeric adhesive sealants: RTV silicone and silyl-modified polymer (MS polymer, hybrid polymer)
+- **aliases**: 
+  - silicone sealant, silicone caulk, 'silicone'; technically a silicone joint filler is called a sealant rather than a caulk (Wikipedia 'Caulk')
+  - RTV silicone (room-temperature vulcanising); acetoxy or acid-cure silicone (smells of vinegar) versus neutral-cure silicone (alkoxy or oxime) (Wikipedia 'Silicone rubber'; Loctite design guide)
+  - RTV gasket maker, flange sealant, e.g. Loctite 5900 (brand) 'heavy body RTV silicone' (Loctite design guide); aquarium silicone (Wikipedia 'Silicone')
+  - MS polymer, SMP (silyl- or silane-modified polymer), STP or STPE (silane-terminated polyether), 'modified silicone', hybrid polymer, SMX polymer (Wikipedia 'Silyl modified polymers'; Kaneka; Soudal)
+  - adhesive sealant, polymer adhesive, 'mounting' or grab adhesive, e.g. Soudal Fix ALL, Pattex One for All (brands) (Soudal data sheet; Prusa)
+  - DOWSIL 732 (brand), a classic general-purpose acetoxy silicone adhesive sealant (Dow data sheet)
+  - silicone mouldable glue, e.g. Sugru (brand), a silicone rubber that is moulded by hand and hardens at room temperature (Wikipedia 'Silicone')
+- **family**: adhesives & bonding
+- **other_families**: seals & pass-throughs
+- **one_liner**: Silicone and MS-polymer adhesive sealants are one-part pastes that cure from moisture in the air into flexible rubber, filling and sealing gaps against water while holding parts together with a bond that stretches and absorbs movement.
+- **complexity**: Single piece: one paste in a cartridge or tube, no mixing (two-part and UV-curing versions exist for industry). You also need a caulking gun for cartridges, a nozzle cut to size, and a smoothing (tooling) tool (Dow data sheet; GE Sealants; Loctite design guide).
+- **how_it_works**: The paste is made of long, flexible polymer chains whose ends carry reactive silicon groups. Moisture from the air reacts with those end groups, which then link to one another (hydrolysis then condensation) and cross-link the chains into a rubber, giving off a small by-product: acetic acid (vinegar smell) from acetoxy silicones, alcohols from alkoxy silicones, an oxime from oxime silicones, and methanol from MS polymers (Loctite design guide, p. 11; Wikipedia 'Silicone'; Wikipedia 'Silyl modified polymers'). Silicones have a silicon-oxygen (siloxane) backbone, which gives them heat and UV resistance, while MS polymers have a polyether backbone with silyl ends, which makes them paintable, stronger and isocyanate-free (Loctite design guide; Wikipedia 'Silyl modified polymers'). Because moisture has to soak in from the surface, a skin forms in minutes and the cure then works inward at about 3 mm per day, so thick or enclosed beads cure very slowly (Dow data sheet; Soudal data sheet). The cured rubber stretches (hundreds of percent), so the joint can take movement and vibration without cracking, but it is much weaker than a rigid glue (Dow data sheet; Wikipedia 'Sealant').
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: flexible, gap-filling bonds between glass, metal, ceramic, wood, stone and many plastics (Dow data sheet; Soudal data sheet)
+  - seal it, or pass cables or fluid through: fills and seals gaps and seams against water, draughts and dust, e.g. around baths, windows and enclosure lids, or round a cable where it passes through a wall (Wikipedia 'Sealant'; Wikipedia 'Silicone')
+- **motion**: flex: the cured rubber bead lets the joined parts shift slightly relative to each other; the Soudal hybrid sealant allows ±20% distortion of the joint (Soudal data sheet). It is not a hinge, just a forgiving joint
+- **degrees_of_freedom**: 0 in intended use (the parts stay put), but the rubbery layer gives a little in every direction, which is what lets it absorb vibration, knocks and heat expansion
+- **special_behaviour**: 
+  - none: it has none of the listed behaviours. Its own tricks are sealing and bonding in one step, curing from air moisture without mixing, and staying rubbery so the joint moves with the parts instead of cracking (Wikipedia 'Sealant'; Wikipedia 'Silyl modified polymers')
+- **holding_principle**: material bond (glue, solvent or melting): the cured rubber sticks to both surfaces
+- **input_output**: not applicable
+- **power**: passive (no power needed): it cures at room temperature from moisture in the air (Loctite design guide; Dow data sheet).
+- **removability**: semi-permanent (can be undone but may damage parts): the rubber can be sliced through with a knife or wire and scraped or peeled off; silicone remover and isopropyl alcohol clean off the residue (Dow Corning technical manual; GE Sealants; Sashco).
+- **reuse_cycles**: once: the cured bead can't be reused, but the parts can usually be cut apart, cleaned and sealed again. *(unverified parts omitted)*
+- **tools_needed**: A caulking gun (for cartridges), a utility knife to cut the nozzle at about 45° to suit the joint width, masking tape, isopropyl alcohol and a lint-free cloth for cleaning, a smoothing (tooling) spatula, and for removal a scraper or remover tool and silicone remover (GE Sealants; Dow data sheet; Soudal data sheet). Gloves and ventilation, especially for vinegar-smelling acetoxy silicones.
+- **seal**: watertight: the rubber bead fills the gap and sticks to both sides, keeping out water, draughts and dust (Wikipedia 'Sealant'; Wikipedia 'Caulk': silicone sealant is water-, mould- and mildew-resistant). Silicone rubber is very permeable to gases (about 400 times more than butyl rubber for oxygen), so it can't make gas-tight seals for high-pressure gas or vacuum (Wikipedia 'Silicone'). For a printed enclosure that must stay dry under water pressure, an O-ring in a groove is more reliable (Prusa watertight printing, part 2).
+- **load**: light to medium: silicones have 'low cohesive strength', which limits them as structural adhesives (Loctite design guide, p. 11). A typical silicone reaches about 2.3 MPa tensile strength at 540% elongation (Dow data sheet); on plastics, a heavy-bodied RTV silicone gave about 1.0-1.7 MPa shear on ABS, polycarbonate, nylon, PET and PVC, 0.1 MPa on acrylic and under 0.3 MPa on PE and PP (Loctite design guide, pp. 17-69). MS/hybrid polymers are stronger and harder: about 3.2 MPa maximum tension and 65 Shore A (Soudal data sheet). Spread over a large area, these soft glues are still strong enough to hold aquarium glass under water pressure and to fix glass on building facades (Wikipedia 'Silicone'). They are good in peel, vibration and impact because they stretch, and weak where stiffness is needed.
+- **adjustable**: briefly: parts can be moved and the bead smoothed until a skin forms, about 5-10 minutes (GE Sealants; Soudal data sheet: skin in about 5 minutes; Dow data sheet: skins over in 7 minutes, tack-free in 20). After curing, the rubber lets parts shift slightly but can't be adjusted; cut it out and redo it.
+- **play_and_precision**: not applicable for locating: the soft layer doesn't hold parts in an exact position, so hold or fixture them while it cures (high-tack MS polymers reduce the need for support, Soudal data sheet). It tolerates uneven gaps well: Soudal gives 2-10 mm bond widths and 5-30 mm sealing joints (Soudal data sheet), and Dow recommends at least 6 mm (1/4 in) width and depth for weather seals (Dow Corning technical manual).
+- **access_needed**: one side only (blind) for sealing: a bead is run along the visible side of a seam or gap. For bonding, the paste goes on one face before assembly (Dow data sheet).
+- **materials**: Silicone bonds well without primer to glass, metals, ceramics and most engineering plastics (Dow data sheet); in Loctite's tests an RTV silicone did best on ABS, polycarbonate, nylon and PET (about 1.0-1.7 MPa) (Loctite design guide). It sticks poorly to PTFE, polyethylene, polypropylene and related plastics (Dow data sheet; Loctite design guide), and has no long-term adhesion to acrylic (PMMA), which is why acrylic aquariums aren't made with it (Wikipedia 'Silicone'). Acetoxy silicone can corrode some metals, especially when enclosed, and oxime silicone can stain copper and brass (Dow data sheet; Loctite design guide). MS/hybrid polymers bond most building materials, wood, MDF, metals, PVC and plastics, even on slightly damp surfaces, but not PE, PP, PTFE, bitumen, copper or brass, and they can lose adhesion next to plasticiser-releasing rubbers such as EPDM, neoprene and butyl (Soudal data sheet). *(unverified parts omitted)*
+- **maker_difficulty**: easy: one tube, no mixing and a forgiving gap fill. The only skills are cutting the nozzle, laying a steady bead and smoothing it before it skins, and giving thick beads days to cure (GE Sealants; Dow data sheet).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: cartridges and tubes of silicone, MS/hybrid polymer and gasket-maker sealants
+  - 3D print (FDM): sealing seams and cable holes in printed enclosures, bonding prints flexibly to glass, metal or wood, and casting custom gaskets in printed moulds (Prusa watertight printing, part 2); large prints glued with a polymer construction adhesive (Prusa gluing guide)
+  - woodwork and building: sealing and bonding panels, trim, glazing, baths and kitchens (Soudal data sheet; Wikipedia 'Sealant')
+  - electronics and model making: potting, sealing and flexible mounting; use neutral-cure (alkoxy) silicone near electronics because acetic acid can corrode (Loctite design guide)
+  - CNC and metalwork: RTV silicone as a formed-in-place gasket on flanges (Loctite design guide)
+- **print_in_place**: no: it is applied to parts after printing, although you can print a two-part mould and cast a silicone gasket in it (Prusa watertight printing, part 2).
+- **making_tips_3d_printing**: 1) Use it as a seal, not a structural glue: for load-bearing printed joints use CA, epoxy or screws, and let silicone or MS polymer do the waterproofing or vibration damping (Loctite design guide: silicones have low cohesive strength). 2) Design a groove or recess for the bead so that it is at least a few millimetres wide and deep, and keep it open to the air: one-part sealants need air moisture and cure only about 3 mm per day from the exposed surface, and at most about 9.5-12.7 mm deep in a reasonable time (Dow data sheet; Soudal data sheet; Loctite design guide, p. 11). A bead sealed inside a closed box may never fully cure. 3) Clean prints with isopropyl alcohol and let them dry; lightly roughen smooth faces (Dow data sheet; GE Sealants). 4) Mask the edges with tape, apply a steady bead, smooth it within 5-10 minutes before it skins, and pull the tape while the bead is still wet (GE Sealants; Dow Corning technical manual). 5) For electronics, choose a neutral-cure (alkoxy or 'electronics grade') silicone rather than vinegar-smelling acetoxy, whose acetic acid can corrode copper contacts, especially in a closed box (Dow data sheet; Loctite design guide). 6) Printed flexible (TPU) gaskets didn't seal in Prusa's tests; instead print a two-piece mould, fill it with silicone caulk and demould after curing, or better, design for a standard O-ring and grease it with silicone grease (Prusa watertight printing, part 2). 8) If you want to paint the part afterwards, use MS/hybrid polymer, which takes water-based paint, not silicone, which paint won't stick to (Soudal data sheet; Sashco). 9) Keep silicone off surfaces you still need to glue or paint, because its residue stops later adhesion (Sashco). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'RTV silicone sealant' or 'silicone adhesive sealant' (acetoxy / general purpose, e.g. DOWSIL 732, brand), 'neutral cure silicone' or 'electronics-grade RTV' for metal and electronics, 'aquarium-safe silicone', 'high-temperature RTV gasket maker' or 'flange sealant' (e.g. Loctite 5900, brand), 'MS polymer' or 'hybrid polymer adhesive sealant' (e.g. Soudal Fix ALL, CT1, Pattex One for All, brands), 'high-tack' grab adhesive, 'silicone primer' (e.g. DOWSIL 1200 OS, brand), 'backer rod' and 'bond-breaker tape' for wide joints, a 'caulking gun', 'caulk smoothing tool' and 'silicone remover' (Dow data sheet; Loctite design guide; Soudal data sheet; Dow Corning technical manual; GE Sealants).
+- **rules_of_thumb**: 
+  - Cure speed: skin in about 5-10 minutes; about 3 mm cured depth per 24 hours at 23 °C and 50% humidity; slower when cold or dry (Dow 732 data sheet; Soudal Fix ALL High Tack data sheet). Moisture-cure silicones are tack-free in 5-60 minutes, thick sections take up to 72 hours, and full adhesion can keep building for 1-2 weeks (Loctite 'Design Guide for Bonding Plastics', vol. 6, p. 11).
+  - Maximum practical cure depth is about 0.375-0.5 in (9.5-12.7 mm) for moisture-cure silicones (Loctite design guide, p. 11).
+  - Joint shape for sealing: make the bead about twice as wide as it is deep (2:1), shaped like an hourglass; at least 1/4 in (6 mm) wide and deep for weather seals; over 1 in (25 mm) wide, keep the depth at about 3/8-1/2 in (9-12 mm) (Dow Corning Americas Technical Manual, pp. 49-50; Soudal data sheet: 'joint width = 2 x joint depth').
+  - Avoid three-sided adhesion (sticking to the bottom of the joint as well as both sides): put in a backer rod or bond-breaker tape, otherwise the joint can take only about ±15% movement before tearing (Dow Corning Americas Technical Manual, p. 50).
+  - Hybrid bonding bead: 2-10 mm wide for bonding; sealing joints 5-30 mm wide and at least 5 mm deep (Soudal Fix ALL High Tack data sheet).
+  - Temperature range: general-purpose silicone about -60 to +180 °C, with short peaks to 205 °C (Dow 732 data sheet); MS/hybrid about -40 to +90 °C (Soudal data sheet).
+  - A properly designed and installed silicone building joint typically lasts about 20 years (Dow Corning Americas Technical Manual, p. 68).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The bead of sealant around a bath, shower tray or kitchen sink; household bathroom caulk is usually acetoxy-cure silicone (Wikipedia 'Silicone rubber')
+  - Glass aquariums, whose panes are joined only with silicone sealant (Wikipedia 'Silicone')
+  - Window glazing and glass building facades held by structural silicone (Wikipedia 'Silicone'; Wikipedia 'Sealant')
+  - RTV 'gasket maker' squeezed onto car engine flanges instead of a cut gasket (Loctite design guide: oxime silicones in automotive gasketing)
+- **when_to_use**: Use it when a joint has to be waterproof and flexible at the same time: sealing seams, lids and cable holes in enclosures, bonding glass, mirrors, tiles or panels where parts expand and contract differently, and damping vibration or rattles (Wikipedia 'Sealant'; Loctite design guide; Soudal data sheet). Choose silicone for heat (up to about 180 °C), strong sunlight, wet areas and glass (Dow data sheet; Wikipedia 'Silicone'). Choose MS/hybrid polymer when you need a stronger, faster-grabbing bond, want to paint over it, are gluing to damp or porous building materials, or want to avoid isocyanates and vinegar smell (Soudal data sheet; Wikipedia 'Silyl modified polymers').
+- **when_not_to_use**: Don't use it where the joint must be stiff or carry high loads: use epoxy, CA or screws (Loctite design guide: low cohesive strength). Don't use it on PE, PP or PTFE (Dow data sheet; Soudal data sheet), or silicone on acrylic (Wikipedia 'Silicone'). Don't use plain silicone where it will be painted (use MS polymer or acrylic caulk) (Soudal data sheet; Sashco). Avoid acetoxy silicone on copper, brass, bare steel or electronics, especially in closed boxes; use neutral cure (Dow data sheet; Loctite design guide). Avoid very thick or fully enclosed beads that air can't reach (Dow Corning technical manual; Loctite design guide), gas-tight or vacuum seals (Wikipedia 'Silicone'), and, for the MS sealant tested, continuous underwater use, aquariums and glazing (Soudal data sheet). For reusable, pressure-proof seals on printed parts, use an O-ring (Prusa watertight printing, part 2).
+- **environment_limits**: Heat and cold: general-purpose silicone stays flexible from -60 °C to +180 °C, with short peaks to 205 °C, or to 230 °C for the black grade (Dow data sheet); MS/hybrid about -40 °C to +90 °C (Soudal data sheet). Sunlight: silicone has 'extreme UV resistance' and is used on roofs for decades (Wikipedia 'Silicone'); MS polymers have good UV resistance but can discolour after long exposure (Soudal data sheet; Wikipedia 'Silyl modified polymers'). Water: silicone is water-, mould- and mildew-resistant (Wikipedia 'Caulk'); the MS sealant tested resists salt water but is not for continuous immersion (Soudal data sheet). Chemicals: silicones are swelled by non-polar solvents (Loctite design guide); MS polymer resists water, aliphatic solvents, alcohols and dilute acids but not aromatic solvents, concentrated acids or chlorinated solvents (Soudal data sheet). Curing needs humidity; cold and dry air slow it (Dow data sheet). Silicone rubber lets gases through, so it is not gas-tight (Wikipedia 'Silicone'). Soap residue and dirt on bathroom joints encourage mould (Soudal data sheet). Lifetime: about 20 years for a good silicone building joint (Dow Corning technical manual).
+- **safety_notes**: Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates eyes and lungs, so ventilate; it can also corrode metals and electronics (Wikipedia 'Silicone'; Dow data sheet). MS polymers give off small amounts of methanol as they cure (Wikipedia 'Silyl modified polymers' reaction), but contain no isocyanates, unlike polyurethane sealants (Wikipedia 'Silyl modified polymers'; Soudal data sheet). Keep uncured sealant off skin and out of eyes, and read the label and safety data sheet (Soudal data sheet: 'Dangerous. Respect the precautions for use'). Not all silicones are safe for fish or food: use aquarium-safe or food-contact grades where needed (Wikipedia 'Silicone'; Dow data sheet: FDA 177.2600 compliance). *(unverified parts omitted)*
+- **common_failures**: The bead peels off because the surface was dirty, greasy or damp, or was PE, PP, PTFE or old silicone residue; clean with isopropyl alcohol, remove old silicone completely, and use a primer where the maker recommends one (Dow data sheet; Sashco; Soudal data sheet). The middle of a thick or enclosed bead stays soft because air moisture can't reach it; keep beads shallow and open to air (Loctite design guide; Dow Corning technical manual). The bead tears when the joint moves, because it stuck to the bottom of the joint as well as the sides (three-sided adhesion), or the joint was too narrow or too deep (Dow Corning technical manual). Lumpy or wrinkled finish from tooling after the skin had formed; smooth within 5-10 minutes and pull masking tape while wet (GE Sealants; Dow Corning technical manual). Green corrosion or failed electronics under acetoxy silicone in a closed box (Dow data sheet). Paint beading up or peeling on silicone (Sashco). Black mould on bathroom joints from soap and dirt (Soudal data sheet). Discolouration and loss of grip next to EPDM, neoprene or butyl rubber (Soudal data sheet). Using it as a structural glue and finding the joint too weak or springy (Loctite design guide).
+- **related**: 
+  - Polyurethane sealant and polyurethane construction adhesive: also moisture-curing, strong and paintable, but they contain isocyanates and have poorer UV resistance than MS polymers (Wikipedia 'Silyl modified polymers'; Wikipedia 'List of polyurethane applications')
+  - Polyurethane glue (foaming): rigid-ish, strong wood glue that foams; not a sealant
+  - O-ring seal: a rubber ring in a groove; the most reliable reusable seal for printed enclosures (Prusa watertight printing, part 2)
+  - Gasket (flat, cord or cast-in-place): a separate soft layer squeezed between parts; silicone can be cast into a printed mould to make one (Prusa watertight printing, part 2)
+  - Two-part epoxy: rigid, much stronger, gap-filling, but cracks if the parts move differently
+  - Contact adhesive and elastomeric solvent glues: flexible glues for sheets, rubber and fabric that don't need air moisture, but give off solvent
+  - Double-sided foam tape: an instant, flexible, clean bond for mounting, but not a gap-filling seal
+  - Silicone mouldable glue (e.g. Sugru, brand): silicone rubber you shape by hand like clay, which hardens at room temperature and sticks to glass and aluminium (Wikipedia 'Silicone')
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Caulking.jpg (Wikimedia Commons, by Achim Hering)](https://commons.wikimedia.org/wiki/File:Caulking.jpg): Photo of silicone sealant being squeezed from a caulking gun into a joint *(licence: CC BY 3.0)*
+  - [Adhesive sealant in aluminium cartridge packaging.jpg (Wikimedia Commons, by Cjp24)](https://commons.wikimedia.org/wiki/File:Adhesive_sealant_in_aluminium_cartridge_packaging.jpg): Photo of an MS-polymer adhesive sealant in a 310 ml aluminium cartridge with a screw-on nozzle *(licence: CC BY-SA 3.0)*
+  - [CrosslinkedSilicone.svg (Wikimedia Commons, by Smokefoot)](https://commons.wikimedia.org/wiki/File:CrosslinkedSilicone.svg): Chemical diagram highlighting a cross-link between silicone chains, the link formed when the sealant cures *(licence: CC BY-SA 4.0)*
+  - [Watertight 3D printing part 2: Airtight closable models (Prusa Research blog)](https://blog.prusa3d.com/watertight-3d-printing-part-2_53638/): Photos of printed underwater housings, printed moulds for casting silicone-caulk gaskets, and O-ring seals, with results of bucket and 30 m depth tests *(licence: link only)*
+  - [How To Get The Perfect Finish To A Silicone Sealant Bead (YouTube, 3C Sealants)](https://www.youtube.com/watch?v=ajXmnBRQ5yI): Video of laying and finishing a silicone sealant bead (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Silicone Ring Gasket Molding (eried, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/33362-silicone-ring-gasket-molding): A printable mould for casting a ring gasket from silicone, made for a bathroom repair; the method Prusa recommends over printing gaskets in TPU. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Caulking tools (Miguel Silveira, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/531799-caulking-tools): A set of printable smoothing tools modelled on commercial caulking tools, printed flat in PLA without supports. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Silicone / Acrylic / Caulk Smoothing Tools (Vladimir Mincev, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1093421-silicone-acrylic-caulk-smoothing-tools): Two printable finishing tools with labelled chamfered (5, 9, 11 mm) and filleted (4, 8, 10 mm) edges for shaping sealant beads of different sizes. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Caulking Gun Nozzle Unblocker (apembo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/497778-caulking-gun-nozzle-unblocker): A corkscrew-like printed tool that winds into a used nozzle and pulls out the plug of cured sealant so a half-used tube can be reused (the plug Dow's data sheet says forms in the tip). Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Silicone Caulking Nozzle with Integrated Smoother (Micha Hainz, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1358983-silicone-caulking-nozzle-with-integrated-smoother): A push-on printed nozzle that lays and smooths the bead in one pass on standard cartridges. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- **diagram_idea**: A cut-away of a sealant joint between two parts: a curved hourglass-shaped bead twice as wide as it is deep sitting on a round foam backer rod, arrows showing moisture entering from the air and the cured skin growing inward about 3 mm a day, with a second small sketch showing the joint stretching as the parts move apart.
+- **sources**: 
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-design-guide-plastic-bonding.pdf
+  - https://ecommapi.krayden.com/Content/pdf/datasheet/dow_732_tds.pdf
+  - https://www.soudal.co.uk/sites/default/files/soudal_api/document/34053/F0034053_0001.pdf
+  - https://www.fleetwoodusa.net/Documents_Guide/Products/_General/Sealant-Technical-Manual.pdf
+  - https://gesealants.com/projects-howtos/how-to-quickly-apply-silicone-sealant-without-sacrificing-quality/
+  - https://www.sashco.com/will-my-new-caulk-stick-to-silicone/
+  - https://www.kaneka.co.jp/en/business/material/pms_002.html
+  - https://en.wikipedia.org/wiki/Silyl_modified_polymers
+  - https://en.wikipedia.org/wiki/Silicone
+  - https://en.wikipedia.org/wiki/Silicone_rubber
+  - https://en.wikipedia.org/wiki/Sealant
+  - https://en.wikipedia.org/wiki/Caulk
+  - https://en.wikipedia.org/wiki/List_of_polyurethane_applications
+  - https://blog.prusa3d.com/watertight-3d-printing-part-2_53638/
+  - https://blog.prusa3d.com/the-great-guide-to-gluing-and-assembling-3d-prints_44908/
+  - https://commons.wikimedia.org/wiki/File:Caulking.jpg
+  - https://commons.wikimedia.org/wiki/File:Adhesive_sealant_in_aluminium_cartridge_packaging.jpg
+  - https://commons.wikimedia.org/wiki/File:CrosslinkedSilicone.svg
+  - https://www.youtube.com/watch?v=ajXmnBRQ5yI
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, materials, reuse_cycles, safety_notes
 
 ## 228 Elastomeric solvent glue (flexible craft glue)
 
 *adhesives & bonding.* Thick, clear, rubbery solvent-based glues that stay flexible, for bonding dissimilar materials, fabric, shoes and jewellery
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A thick, clear, gooey glue from a tube that smells strongly of solvent and dries into a tough rubbery layer, so the joint can still bend and stretch; used to stick fabric, shoes, rhinestones, rubber, glass, metal and wood to each other
+- **term**: Elastomeric solvent-based adhesive (rubber-based solvent glue; flexible multi-purpose craft adhesive)
+- **aliases**: 
+  - flexible craft glue, industrial-strength craft adhesive, multi-purpose adhesive, jewellery glue, shoe glue / shoe repair adhesive (manufacturer data sheets)
+  - rubber-based adhesive, solvent-based adhesive, drying adhesive (Wikipedia 'Adhesive': solvent-based adhesives harden as the solvent evaporates)
+  - styrene-butadiene (SBR) adhesive, from the synthetic rubber it is made of (Goop and Shoe Goo safety data sheets; Wikipedia 'Shoe Goo')
+  - E6000, E6000 Craft, E6000 Jewelry & Bead, E6000 Premium, E6000 Fabri-Fuse (brands, Eclectic Products)
+  - Amazing Goop, Household Goop, Shoe Goo (brands, Eclectic Products)
+  - Loctite Vinyl, Fabric & Plastic (now 'Vinyl, Fabric & Leather') Flexible Adhesive (brand): a thinner, polyurethane-in-solvent cousin (Henkel data sheet) *(unverified parts omitted)*
+- **family**: adhesives & bonding
+- **other_families**: seals & pass-throughs
+- **one_liner**: An elastomeric solvent glue is a synthetic rubber dissolved in a strong solvent; when the solvent evaporates the rubber is left behind as a clear, tough, stretchy layer that grips most materials and keeps the joint flexible and waterproof.
+- **complexity**: Single piece: one thick liquid or gel in a tube, no mixing. Parts: the glue, the tube with a piercing cap or precision nozzle; optional helpers are sandpaper, a cleaning solvent (acetone or citrus cleaner for wet glue), clamps, tape or clothes pegs, and a syringe or fine nozzle for small jobs (E6000 Craft data sheet; Printables syringe adaptor).
+- **how_it_works**: The tube holds a rubbery plastic (a styrene-butadiene copolymer in Goop and Shoe Goo) dissolved in solvents such as toluene and petroleum naphtha; about 45-49% of the weight is solids (the rubber and resins) and the rest evaporates (Goop and Shoe Goo safety data sheets; E6000 Craft, Goop and Shoe Goo data sheets). When you spread it on the parts, the solvent wets the surfaces and starts to evaporate; after about 2 minutes it becomes tacky, it is 'set' in 20-45 minutes and fully cured in 24 hours for a thin film or 48-72 hours for a thick one (E6000 Craft, Goop and Shoe Goo data sheets). Nothing chemically reacts: it simply dries (a drying adhesive, Wikipedia 'Adhesive'), and what is left is a soft rubber (80 Shore A hardness) that can stretch by 800-1,100% before breaking, so the bond bends with the parts instead of cracking (E6000 Craft and Industrial data sheets). You can use it 'wet' (press the parts together straight away and hold or clamp them) or like a contact adhesive (coat both faces, wait about 2 minutes, then press: it grabs immediately and is hard to reposition) (E6000 Craft data sheet).
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: permanent, flexible bonds between the same or different materials, e.g. rhinestones to fabric, rubber to metal, glass to wood (E6000 Craft and Industrial data sheets)
+  - join and hold: holds small hardware, trims, beads and findings in place; one manufacturer also lists 'locking down fasteners against vibration' (E6000 Industrial data sheet)
+  - seal it, or pass cables or fluid through: seals and waterproofs boots, waders and fabrics and fills small cracks; it is sold as an 'adhesive & sealant' (Shoe Goo and Amazing Goop data sheets)
+- **motion**: flex: the cured glue is rubbery, so the joint bends and stretches with flexible materials such as fabric, leather, vinyl and rubber, and absorbs vibration (E6000 Industrial data sheet). It does not let parts move in a controlled way.
+- **degrees_of_freedom**: 0: the parts are bonded together; the rubbery glue line only gives a little elastic movement
+- **special_behaviour**: 
+  - none: it has none of the listed behaviours. Its own tricks are staying flexible even in cold weather (does not become brittle), filling small gaps with a thick bead that can be built up (e.g. rebuilding a worn shoe sole), and doubling as a waterproof sealant or coating (E6000, Goop and Shoe Goo data sheets)
+- **input_output**: not applicable
+- **power**: passive (no power needed): it dries by solvent evaporation at room temperature; the ideal working temperature is 10-32 °C (E6000 Craft data sheet).
+- **removability**: semi-permanent (can be undone but may damage parts): wet glue wipes off with acetone or citrus cleaner, but cured glue has to be cut or scraped away (E6000 Craft data sheet); it is dissolved by strong solvents such as toluene, petrol (gasoline), cyclohexane and perchloroethylene (E6000 Craft data sheet), which may also attack the parts.
+- **reuse_cycles**: once: the glue is single-use; to redo a joint, cut or scrape the old rubber off and re-glue
+- **tools_needed**: The glue (pierce the foil seal with the cap), sandpaper to lightly roughen smooth surfaces, a clean cloth, and something to hold the parts while it sets (tape, clothes pegs, clamps, rubber bands). For fine work a toothpick, syringe with a blunt needle or a precision nozzle helps (E6000 Craft data sheet; Printables syringe adaptor). Acetone or citrus cleaner for wet squeeze-out. Work with good ventilation.
+- **seal**: watertight: after full cure it is waterproof and can be submerged in fresh and salt water, and it is used to seal boots, waders and waterproof fabrics and to fill small cracks (E6000 Industrial, Amazing Goop and Shoe Goo data sheets). It is not a pressure seal.
+- **load**: E6000, Goop and Shoe Goo data sheets), not the strength of a glued joint. A related flexible solvent glue (Loctite Vinyl, Fabric & Leather, polyurethane-based) gives about 12-17 lb per inch of width in a T-peel test on vinyl, polycarbonate and SBR rubber (Henkel data sheet). In one maker's hanging-bucket test on 6 x 6 mm glued PLA pads, that Loctite glue failed at about 5.9-9.6 kg (roughly 1.6-2.6 MPa), roughly half to three-quarters of the load reached by a rigid 'hard plastic' glue (12.9-14.8 kg), but it stretched and yielded before failing rather than snapping (Printables 1352973). *(unverified parts omitted)*
+- **adjustable**: Only while wet: parts can be slid into position for a few minutes (the Loctite flexible adhesive 'can be repositioned while the adhesive is still wet'), but once two tacky coated faces are pressed together the bond is immediate and 'difficult to reposition' (E6000 Craft data sheet; Henkel data sheet). After curing, no.
+- **play_and_precision**: not applicable (it does not locate parts). The thick glue fills small gaps and uneven surfaces, but the rubbery layer lets parts shift slightly under load, so it is not for precise alignment; use a jig, tape or locating pins.
+- **access_needed**: not applicable: glue goes on the joint faces before assembly, or is run along a seam or crack from one side
+- **materials**: Older and Canadian formulas used perchloroethylene, and E6000 Premium uses n-propyl acetate (2013 E6000 SDS; 2016 and 2025 E6000 Craft data sheets; thisTOthat; E6000 Premium data sheet). Note the conflict: thisTOthat calls Household Goop 'silicone-based', but the manufacturer's safety data sheet lists styrene-butadiene rubber and no silicone. Bonds well: wood, metal, glass, fibreglass, ceramics, masonry and concrete, leather, rubber, vinyl, PVC, neoprene, fabric and many plastics (E6000 Craft and Industrial data sheets); gems, beads, polymer clay and jewellery metals (E6000 Premium Jewelry & Bead). E6000 Premium claims to bond most 3D-printing plastics, ABS, polycarbonate, acrylic and polystyrene. Poor or not recommended: polyethylene (PE), polypropylene (PP), polystyrene and Styrofoam (for standard E6000), paper, and finished surfaces that the solvent may damage (E6000 Craft and Industrial data sheets). Not for anything in contact with food, drinking water or animals (E6000 Craft data sheet). *(unverified parts omitted)*
+- **maker_difficulty**: easy: squeeze, press and wait. The main difficulties are the long cure (a full day or more), keeping squeeze-out off visible surfaces, and working with strong solvent fumes
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: tubes (from 5 mL minis to cartridges), precision-tip and 'jewellery' versions, and clear, black or white colours (E6000 data sheets)
+  - 3D print (FDM): gluing prints to fabric, leather or other materials, and bonding flexible TPU parts, where a rigid glue would crack (Snapmaker; Prusa notes that contact cements for shoe repairs 'might be good especially for flexible filament materials')
+  - sewing, cosplay and textiles: fabric, trims, rhinestones and patches; it is washer and dryer safe but should not be dry-cleaned (E6000 Craft and Goop data sheets)
+  - jewellery and beading: stones, crystals and beads on findings; securing knots (E6000 Premium Jewelry & Bead data sheet)
+  - shoe and outdoor-gear repair: re-attaching soles, rebuilding worn heels, sealing boots and waders (Shoe Goo data sheet)
+  - woodwork and household repair: small repairs where materials differ or the joint must flex (Amazing Goop data sheet)
+- **print_in_place**: no: it is a glue for joining separately made parts, although you can print shallow recesses or textured pads to take a bead of glue
+- **making_tips_3d_printing**: 1) Use it for the jobs where flexibility matters: printed parts onto fabric, straps, leather or rubber, and TPU to TPU or TPU to rigid parts. For rigid PLA-to-PLA assemblies it is 'safe, but it cures flexibly', so CA or epoxy give stiffer joints (Snapmaker). 2) Lightly roughen the faces and make sure they are clean and dry (E6000 Craft data sheet); a slightly rough print surface is fine, since one maker chose it because it 'glues slightly rough surfaces', 'sets up in about an hour' and doesn't discolour PLA like superglue can (Blue Paper Tech, 2017). 3) Give the solvent a way out: it cures by evaporation, and 'the thicker the layer of adhesive, the longer it will take to dry' (thisTOthat), so use thin beads and allow 24 hours (thin) to 48-72 hours (thick) before loading (E6000 Craft data sheet). 4) For a quick grab, coat both faces, wait about 2 minutes until tacky, then press; for adjustable positioning, join while wet and tape or clamp (E6000 Craft data sheet). 5) The solvents attack some plastics: E6000 is not recommended on polystyrene (so test on HIPS), and makers report that E6000 softens or glues printed PLA and PETG nozzles and made an ABS tube cap brittle and cracked; print tools that touch the glue in TPU or treat them as disposable (E6000 Craft data sheet; 6) Print a small applicator: a Luer-lock syringe adaptor or fine nozzle lets you place tiny amounts on rhinestones or thin prints (Printables 3660 and 1101848). 7) Check outdoors use: standard E6000 and Goop have no UV resistance, so paint over the joint or choose a UV-resistant grade (E6000 Industrial and Goop data sheets). 8) Test the bond on scrap prints first: glue two printed test pieces and pull or hang weights from them (Printables 1352973). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'flexible multi-purpose adhesive', 'industrial strength craft adhesive', 'rubber-based adhesive', 'SBR adhesive', 'shoe repair adhesive', 'jewelry and bead adhesive', 'fabric adhesive (solvent-based)' and 'adhesive sealant'. Common brands: E6000 Craft / Industrial / Premium / Jewelry & Bead / Fabri-Fuse, Amazing Goop, Shoe Goo (Eclectic Products); Loctite Vinyl, Fabric & Leather Flexible Adhesive (Henkel). Accessories: precision tips, blunt syringe needles, replacement caps (e.g. Printables 1133417). Note that some look-alike products use a different chemistry: E6000 Plus is solvent-free and cures differently (E6000 Plus data sheet).
+- **rules_of_thumb**: 
+  - Tack time about 2 minutes, set time 20-45 minutes, full cure 24 hours for a thin film and 48-72 hours for a thick one; maximum strength may take up to 72 hours (E6000 Craft, Amazing Goop and Shoe Goo data sheets).
+  - Apply between 10 and 32 °C (50-90 °F); cured E6000 and Goop take -40 to 82 °C intermittently, Shoe Goo -40 to 66 °C (E6000 Craft, Amazing Goop and Shoe Goo data sheets).
+  - The cured rubber is about 80 Shore A with 800-1,100% elongation and 2,000-3,800 psi tensile strength (ASTM D-412 film tests; E6000 Craft, Amazing Goop and Shoe Goo data sheets). These are film properties, not joint strength.
+  - About 45-49% of the tube's weight (42-46% of its volume) is solids; the rest (toluene and petroleum distillates, about 450-490 g/L VOC) evaporates into the room (E6000 Craft, Goop and Shoe Goo data sheets).
+  - Roughen smooth surfaces and keep them clean and dry; do not use on PE, PP, polystyrene, Styrofoam or paper (E6000 Craft and Industrial data sheets).
+  - Not UV resistant: paint over it for outdoor use in sunlight (Amazing Goop and Shoe Goo data sheets: 'UV resistance: None; paint-over for UV resistance').
+  - Unopened shelf life 2 years; if it thickens in the cold, warm it to room temperature; a thin coat of petroleum jelly on the tube threads stops the cap sticking (E6000 Craft data sheet).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Re-attaching a flapping sole or rebuilding a worn heel with Shoe Goo (Shoe Goo data sheet; Wikipedia 'Shoe Goo')
+  - Rhinestones and gems glued onto clothing, bags and jewellery findings (E6000 Premium Jewelry & Bead data sheet)
+  - Patching snowboard boots, waders and rubber boots (Wikimedia Commons photo; Shoe Goo data sheet)
+  - Household fixes such as a loose towel rail or a broken teacup (Amazing Goop data sheet)
+- **when_to_use**: Use it when the joint must bend, stretch or take knocks and vibration, or when you are joining two different materials: fabric, leather, rubber, vinyl and TPU prints to themselves or to wood, metal, glass or rigid plastic (E6000 Craft and Industrial data sheets). It is good for jewellery and craft work (clear, gap-filling, washer and dryer safe), for shoe and outdoor-gear repairs where it also waterproofs and seals, and for small parts that a brittle glue would pop off when flexed (Shoe Goo and Amazing Goop data sheets; Snapmaker).
+- **when_not_to_use**: Avoid it for rigid, load-bearing plastic or metal joints: use two-part epoxy, CA or a structural adhesive (Snapmaker). Avoid it on PE, PP, polystyrene foam and paper (E6000 Craft data sheet): use a low-surface-energy adhesive or mechanical fixing. Don't use it where you need handling strength quickly: CA sets in seconds. Don't use it for food, drinking-water or pet items (E6000 Craft data sheet), for parts exposed to fuel or strong solvents that dissolve it (petrol, toluene), in constant sunlight without paint or a UV grade (E6000 Industrial and Goop data sheets), or near heat above about 66-82 °C (data sheets). If the fumes are a problem, choose a solvent-free or water-based flexible adhesive such as an MS-polymer or silicone adhesive sealant (e.g. E6000 Plus is solvent-free; E6000 Plus data sheet). For large flat areas (laminates, foam sheets) a brush-on contact cement is usually easier (thisTOthat; Wikipedia 'Adhesive').
+- **environment_limits**: Heat: E6000 and Amazing Goop withstand -40 to 82 °C (-40 to 180 °F) intermittently, Shoe Goo -40 to 66 °C (E6000 Craft, Goop and Shoe Goo data sheets); the Loctite flexible polyurethane type is 'not for applications over 140 °F (60 °C)' (Henkel data sheet). Cold: stays flexible and 'does not become brittle in cold weather' (E6000 Craft data sheet). Water: waterproof after full cure, can be submerged in fresh and salt water, and survives washing machines and tumble dryers but not dry cleaning (E6000 Industrial and Amazing Goop data sheets). Sunlight: no UV resistance; paint over it or use a UV grade (Goop and Shoe Goo data sheets; E6000 Industrial). Chemicals: excellent resistance to water, dilute acids and bases, antifreeze and motor oil; thin films immersed for two weeks gained under 2% weight and lost under 10% strength, but it is dissolved by petrol, toluene, cyclohexane, perchloroethylene and propyl acetate (Shoe Goo and E6000 Craft data sheets). *(unverified parts omitted)*
+- **safety_notes**: The solvents are the main hazard. US Goop and Shoe Goo contain 25-50% toluene plus petroleum naphtha: highly flammable liquid and vapour (flash point about 0-4 °C for Goop), harmful if swallowed, eye and skin irritant, may cause drowsiness or dizziness, suspected of damaging the unborn child, and may damage organs with prolonged or repeated exposure (Goop and Shoe Goo safety data sheets; E6000 Craft data sheet California Prop 65 warning). Older and Canadian formulas used perchloroethylene (tetrachloroethylene), a suspected carcinogen (2013 E6000 SDS; thisTOthat), so read the label of the tube you have. Work with good ventilation, away from flames and sparks, keep it away from children, and never deliberately inhale it (Henkel label: misuse by inhaling 'may be harmful or fatal'). Wear gloves (nitrile recommended for the Loctite version; Henkel data sheet). It can damage painted or finished surfaces and some plastics before it dries (E6000 Craft data sheet). Don't use it on items for food, drinking water or animals (E6000 Craft data sheet).
+- **common_failures**: Loading the joint too early: it only sets in 20-45 minutes and needs 24-72 hours to reach full strength, longer for thick beads (data sheets; thisTOthat). Parts that simply peel off PE, PP or polystyrene, or off greasy, dusty or glossy surfaces; roughen and clean first (E6000 Craft data sheet). Moving the parts after two tacky faces have touched: the bond grabs at once and repositioning weakens it (E6000 Craft data sheet). Sunlight breaking down unpainted glue outdoors (Goop and Shoe Goo data sheets). Solvent damage: crazed or melted polystyrene, foam or painted finishes, and printed applicators that go soft or brittle (E6000 Craft data sheet; Printables 1101848 and 1133417). Glue smeared on visible faces; wipe wet glue with acetone or citrus cleaner, cut away cured glue (E6000 Craft data sheet). A cap glued shut; smear petroleum jelly on the tube threads (E6000 Craft data sheet). *(unverified parts omitted)*
+- **related**: 
+  - Contact adhesive (contact cement): also a rubber in solvent (often polychloroprene), but brushed thin on both faces and left to dry before pressing, for large flat areas such as laminates and shoe soles; no repositioning (Wikipedia 'Adhesive'; thisTOthat)
+  - Rubber cement: a weaker natural-rubber solvent glue for paper and crafts that rubs off cleanly (Wikipedia 'Rubber cement')
+  - Silicone and MS-polymer adhesive sealants: also flexible and waterproof, but cure with air moisture rather than by evaporation, with less or no solvent (e.g. solvent-free E6000 Plus)
+  - Cyanoacrylate (superglue), including rubber-toughened CA: sets in seconds and is much stiffer; better for rigid small parts, worse for fabric and flexing joints
+  - Two-part epoxy: rigid, gap-filling and strong for structural joints; cracks if the joint flexes
+  - Hot-melt adhesive (glue gun): instant, also slightly flexible, but weak and softens with heat
+  - Solvent welding (solvent cement): fuses plastics such as ABS, PVC or acrylic into one piece; rigid
+  - Polyurethane flexible solvent adhesives, e.g. vinyl and inflatable repair glues: thinner liquids for vinyl, PVC and fabric patches (Henkel data sheet)
+  - Sewing, rivets and snap fasteners: mechanical alternatives for fabric and leather that don't need solvent
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Repairing snowboard boots with Shoe Goo.jpg (Wikimedia Commons, by Syced)](https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg): Photo of a boot repair with a clear, rubbery bead of Shoe Goo *(licence: CC0 (public domain dedication))*
+  - [Which Glue is Best?? ShooGoo Amazing Goop E6000 and Gorilla Glue (YouTube, Exocaged RC)](https://www.youtube.com/watch?v=hsmqOMNsekg): Hobbyist comparison of Shoe Goo, Amazing Goop, E6000 and Gorilla Glue (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [Testing glue SHOE GOO, GOOP, Gorilla clear glue (YouTube, The Tank RC)](https://www.youtube.com/watch?v=R_r53OCHYKU): Hobbyist test of flexible rubber glues on RC parts (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [Technical Data Sheet: E6000 Craft Adhesive, Rev 4 (Eclectic Products)](https://eclecticproducts.com/wp-content/uploads/2025/04/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-4.pdf): No pictures, but the full property table: tack, set and cure times, hardness, stretch, temperature range, chemical resistance list and step-by-step directions *(licence: link only)*
+- **make_it_yourself**: 
+  - [e6000 to Luer Lock Syringe Adaptor (Joe Balough, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/3660-e6000-to-luer-lock-syringe-adaptor): Printed adaptor for filling a glue syringe from an E6000 tube so you can dispense tiny, precise amounts through a blunt needle. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Premium Pro Glue Nozzle: E6000 (Adam L, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1101848-premium-pro-glue-nozzle-e6000): Fine screw-on nozzle for E6000 tubes (about 14 mm thread, 20 TPI), with a warning that the glue's solvent can attack PLA and PETG, so treat it as disposable. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [E6000 tube cap (qwindelzorf, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1133417-e6000-tube-cap): Replacement cap for the 3.7 oz tube; the designer recommends printing it in TPU because an ABS version became brittle and cracked, perhaps from the solvent. Read through the Printables public API. *(licence: Public domain (Creative Commons Public Domain))*
+  - [Glue tensile strength test object (Patrol_maverick, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1352973-glue-tensile-strength-test-object): Two printed pieces with a 6 x 6 mm glue face, glued and loaded with a bucket of water to compare glues; includes the designer's results for a flexible Loctite glue versus a rigid plastic glue on PLA. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- **diagram_idea**: Two panels: first, a tube squeezing a bead of glue between a piece of fabric and a printed part, with small arrows showing solvent vapour leaving the bead; second, the dried rubbery layer stretching like a rubber band as the fabric bends, next to a rigid glue line that has cracked under the same bend.
+- **sources**: 
+  - https://eclecticproducts.com/wp-content/uploads/2025/04/E6-Craft-TDS-US-CAN-MEX-ME-AU-NZ_REV-4.pdf
+  - https://eclecticproducts.com/wp-content/uploads/2024/12/E6-Industrial-Clr_Blk-US-CAN-MEX-TDS_REV-2.pdf
+  - https://eclecticproducts.com/wp-content/uploads/2024/04/E6000-PREMIUM-TDS-USA-REV-3.pdf
+  - http://eclecticproducts.com/downloads/tds-e6000-craft-english.pdf
+  - http://eclecticproducts.com/downloads/sds-e6000-craft-english.pdf
+  - https://eclecticproducts.com/wp-content/uploads/2021/06/tds-e6000Plus-us-ca-eu.pdf
+  - http://eclecticproducts.com/downloads/tds-amazing-goop-all-purpose-english.pdf
+  - http://eclecticproducts.com/downloads/sds-amazing-goop-english.pdf
+  - https://eclecticproducts.com/downloads/sds-shoegoo-clear-english.pdf
+  - https://pdf.lowes.com/productdocuments/56156c53-6c4f-47a8-b81c-8351c98c6572/16663399.pdf
+  - https://datasheets.tdx.henkel.com/LOCTITE-Vinyl-Fabric--Plastic-Flexible-Adhesive-en_US.pdf
+  - https://en.wikipedia.org/wiki/Shoe_Goo
+  - https://en.wikipedia.org/wiki/Adhesive
+  - https://en.wikipedia.org/wiki/Rubber_cement
+  - https://www.thistothat.com/glue/hgoop.shtml
+  - https://www.thistothat.com/glue/contact.shtml
+  - https://bluepapertech.com/3d-printing/experimenting-with-pla-glue/
+  - https://www.snapmaker.com/blog/best-glue-for-pla-3d-prints/
+  - https://blog.prusa3d.com/the-great-guide-to-gluing-and-assembling-3d-prints_44908/
+  - https://etech61.com/blogs/news/b7000-glue-guide-b7000-vs-t7000-vs-e7000
+  - https://api.printables.com/graphql/
+  - https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg
+  - https://www.youtube.com/watch?v=hsmqOMNsekg
+  - https://www.youtube.com/watch?v=R_r53OCHYKU
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, environment_limits, holding_principle, load, making_tips_3d_printing, materials
 
 ## 229 Anaerobic adhesive (threadlocker, retaining compound)
 
 *adhesives & bonding.* A liquid that hardens only when shut off from air between close-fitting metal parts, used to stop screws loosening or to fix bearings on shafts
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A few drops of coloured liquid you put on a screw thread (or around a shaft) that stays runny in the bottle but turns into hard plastic once it is squeezed between tight metal parts, so the screw can't shake loose and the bearing or gear can't slip
+- **term**: Anaerobic adhesive (threadlocker, thread-locking compound, retaining compound)
+- **aliases**: 
+  - threadlocker, thread-locking compound, thread-locking fluid, thread locker (Wikipedia 'Thread-locking compound')
+  - retaining compound, shaft retaining compound (Loctite retaining compounds catalogue; Voron forum)
+  - anaerobic thread sealant, pipe sealant, anaerobic gasket maker or flange sealant: the same chemistry used to seal rather than lock (Permabond; Permatex)
+  - blue / red / purple / green threadlocker (colour-coded strength grades; Wikipedia; Permatex), 'removable' vs 'permanent' threadlocker
+  - wicking or penetrating threadlocker (green) for screws that are already assembled (Henkel threadlocking guide)
+  - pre-applied or pre-coated threadlocker, threadlocker tape, threadlocker stick (Henkel threadlocking guide; LDO Voron kit notes)
+  - Loctite 222 / 243 / 242 / 263 / 271 / 290 (threadlockers) and 603 / 620 / 638 / 641 / 648 / 660 (retaining compounds) (brand and product numbers; Henkel)
+  - Loctite (brand, often used as a generic name, e.g. 'blue Loctite'), Permatex (brand), Permabond (brand)
+  - Schraubensicherung (German, 'screw securing'; Printables listings)
+- **family**: adhesives & bonding
+- **other_families**: seals & pass-throughs, clamping, magnetic & friction connections
+- **one_liner**: An anaerobic adhesive is a one-part liquid that hardens only when it is shut away from air and touching metal, so it cures inside screw threads and close-fitting shaft joints, locking screws against vibration, holding bearings and gears on shafts, and sealing the gaps against leaks and rust.
+- **complexity**: Single piece: one liquid, gel, paste stick or tape, no mixing. Optional helpers: a primer or activator for 'inactive' surfaces such as stainless steel, zinc plating or anodised aluminium, and a cleaner or degreaser for oily parts (Henkel threadlocking guide; Loctite retaining compounds catalogue).
+- **how_it_works**: The liquid is made of methacrylate building blocks plus a peroxide starter. As long as oxygen can reach it, the oxygen mops up any reaction and it stays liquid, which is why the bottles are only half full and made of air-permeable polyethylene (Loctite threadlocker manual). When it is trapped between a bolt and a nut, air can't get in and metal ions from the surface break the starter into reactive fragments that link the building blocks into a hard, cross-linked plastic (a thermoset) (Loctite threadlocker manual; Wikipedia). The hard plastic fills every gap between the threads, so the nut can no longer rock sideways and shake loose, and it also seals out water and rust (Henkel threadlocking guide). Any glue left outside the joint, in the air, stays liquid and can be wiped away. Retaining compounds are the same chemistry used between a shaft and a bearing, gear or bush: they fill the tiny gap and turn a slip fit or light press fit into a strong, solid joint (Loctite retaining compounds catalogue).
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: bonds close-fitting metal parts, e.g. a bearing into a housing or a pulley onto a shaft (retaining compounds)
+  - join and hold: stops screws, nuts, set screws and studs from loosening under vibration and thermal cycling (threadlockers; Henkel threadlocking guide)
+  - seal it, or pass cables or fluid through: seals threads against leaks and corrosion, and related grades seal pipe threads and flanges (Henkel threadlocking guide; Permatex)
+- **motion**: none: a fixed joint. Low- and medium-strength threadlockers still let you undo the screw later with ordinary tools (Loctite products page).
+- **degrees_of_freedom**: 0: once cured, the screw or shaft is locked to its partner
+- **special_behaviour**: 
+  - none of the listed behaviours in the strict sense. Its own tricks are curing only where it is needed (inside the joint, not in the bottle or on the outside), being graded by strength so you can choose how hard the joint is to undo, and a 'wicking' grade that creeps into screws that are already tightened (Henkel threadlocking guide; Loctite threadlocker manual). Its effect is close to self-locking: it stops a screw undoing itself under vibration, while still allowing a person to undo low- and medium-strength grades with a spanner (Loctite products page)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the hardened plastic bonds to both metal surfaces (Henkel threadlocking guide)
+  - shape (the parts interlock; form-fit): the solid plastic fills the gaps between the threads or around the shaft, so the parts can't shift or rock (Henkel threadlocking guide; Loctite threadlocker manual)
+  - friction or clamping (force-fit): the screw is still held by its clamping force, and the threadlocker adds friction and break-loose torque; retaining compounds add to the grip of press fits (Loctite threadlocker manual; Loctite retaining compounds catalogue)
+- **input_output**: not applicable
+- **power**: passive (no power needed): it cures by itself at room temperature once air is shut out; heat or an activator only speeds it up (Loctite threadlocker manual; Permatex).
+- **removability**: Depends on the grade. Low strength (purple) and medium strength (blue): removable with normal hand tools. High strength (red): semi-permanent (can be undone but may damage parts); it needs local heating to about 230-260 °C and undoing while hot, and forcing it may twist the bolt off (Wikipedia; Loctite products page; Permatex; Henkel threadlocking guide). Retaining compounds: high-strength grades are for joints that won't be taken apart; lower-strength grades are chosen when parts must come apart for maintenance (Loctite retaining compounds catalogue).
+- **reuse_cycles**: once: each application is single-use; clean off the old plastic and apply fresh liquid when you reassemble. The screws and parts themselves can be reused
+- **tools_needed**: The liquid (a few drops from the bottle; don't touch the tip to the metal, or glue in the bottle may start curing; Loctite threadlocker manual; Wikipedia), a degreaser or cleaner for oily parts, and a primer/activator for inactive metals or cold conditions (Henkel threadlocking guide; Loctite retaining compounds catalogue). Normal spanners, hex keys and screwdrivers to assemble. For removing high-strength grades: a heat source such as a blowtorch, heat-resistant gloves and safety glasses (Loctite products page). Nitrile or similar protective gloves (Loctite 243 SDS).
+- **seal**: airtight or pressure: the cured plastic fills the thread gaps and seals them against leakage and corrosion; threadlockers keep oil and coolant in through-bolts on gearboxes and engines, and dedicated anaerobic thread sealants are used on pipe fittings (Henkel threadlocking guide; Permatex). Ordinary threadlocker is not a gasket for large gaps.
+- **load**: light to heavy, chosen by grade. On a 3/8-16 (about M10) bolt, typical torque to break loose is about 7 N·m for purple, 12-20 N·m for blue and 25 N·m for red, and the strongest permanent grades reach about 21 MPa (3,000 psi) in shear (Wikipedia, from a Permatex guide). Makers' figures vary: Henkel lists Loctite 243 at 230/40 in-lb (about 26/4.5 N·m) break/prevail on M10 steel in one chart and 106/26 in-lb in another (Henkel properties chart; Henkel threadlocking guide). Retaining compounds reach about 6.5-31 N/mm² (MPa) shear strength, e.g. Loctite 603: 22.5, 638: 29, 648: 31, 641 (medium, for parts that must come apart): 6.5 (Loctite retaining compounds catalogue). Strong against twisting and shaking loose; it adds to, but does not replace, a correctly tightened screw.
+- **adjustable**: Only before it cures: there are minutes before it sets (typical fixture time 10-20 minutes on steel at room temperature, about 5 minutes with an activator; full cure in 24 hours) (Henkel threadlocking guide; Permatex). Low- and medium-strength grades can be broken loose later to re-adjust, then re-applied. A wicking grade can lock a screw after it has been adjusted (Henkel threadlocking guide).
+- **play_and_precision**: No play once cured: it fills the clearance in the threads so the parts can't rock sideways (Henkel threadlocking guide). It needs close fits: retaining compounds are chosen by gap, low-viscosity grades up to 0.15 mm, thicker grades 0.15-0.25 mm, and special pastes 0.25-0.5 mm for badly worn parts (Loctite retaining compounds catalogue); larger gaps cure slower and need an activator (Loctite threadlocker manual; Permabond). It does not fix the position more accurately than the parts' own fit.
+- **access_needed**: one side only (blind): drops go on the male thread or into a blind hole before assembly; a wicking grade can be dripped onto the joint from outside after assembly (Henkel threadlocking guide)
+- **materials**: Made of methacrylate resins; cured it is a hard thermoset plastic (Wikipedia; Loctite threadlocker manual). Works on metal-to-metal joints. Fast-curing 'active' metals: iron, plain steel, copper, brass, bronze. Slow or 'inactive' metals that need a primer (unless you choose a primerless or surface-insensitive grade such as Loctite 243 or 638): stainless steel, zinc plating, galvanised steel, anodised or pure aluminium, titanium, cadmium, magnesium, black oxide, silver and gold (Henkel threadlocking guide; Loctite threadlocker manual; Loctite retaining compounds catalogue). Plastics: not recommended for plastic or powder-coated fasteners because they don't start the cure, and it can attack some plastics and cause stress cracking; Henkel rates ABS, acrylic (PMMA), ASA, polycarbonate, polystyrene, PVC, SAN and PPO as 'often not suitable', and nylon, acetal (POM), PET, PE, PP, PU, epoxy and phenolic as 'often suitable, test to verify' (Loctite threadlocker manual). For plastic-to-plastic threads Henkel suggests a cyanoacrylate-based threadlocker such as Loctite 425 (Henkel threadlocking guide; Loctite threadlocker manual). *(unverified parts omitted)*
+- **maker_difficulty**: easy: a drop on a clean thread and tighten as normal. The skill is choosing the right strength (purple for small screws, blue for normal service, red only for joints you never want to undo) and keeping it off printed plastic
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: small bottles of liquid (purple, blue, red, green), semi-solid sticks, threadlocker tape, pre-coated screws, retaining compounds and primers/activators (Henkel threadlocking guide; LDO Voron kit notes)
+  - 3D print (FDM): used on the metal hardware of printers and printed machines, e.g. grub screws holding pulleys on motor D-shafts (Loctite 222 in the Voron documentation, per the Voron forum; LDO kits include threadlocker or pre-coated set screws); a retaining compound such as Loctite 641 has been used to fix pulleys on motor shafts (Voron forum)
+  - CNC and metalwork: locking set screws and studs, fixing bearings, bushes, gears and pulleys on shafts, and repairing worn bearing seats without re-machining (Loctite retaining compounds catalogue)
+  - robotics, RC, bicycles and vehicles: screws exposed to vibration (Loctite products page; Permatex)
+- **print_in_place**: no: it is applied to metal fasteners and shafts during assembly; it is not a printed feature
+- **making_tips_3d_printing**: 1) Use it on metal-to-metal joints only: screw into a metal nut, brass threaded insert or metal part, set screws on metal shafts, bearings on metal shafts (Henkel threadlocking guide; Loctite threadlocker manual). If you need to lock a screw in a printed thread, use a CA-based threadlocker (e.g. Loctite 425), a nylon-insert lock nut, a drop of CA or design in a friction feature (Henkel threadlocking guide). 3) Choose the weakest grade that works: for the small M2-M5 screws common in printers, low-strength purple (e.g. 222) is 'ideal for fasteners < 1/4 in (6 mm)'; blue for 1/4-3/4 in (6-20 mm); avoid red on anything you may need to adjust (Henkel threadlocking guide; Permatex). A Prusa MK2 builder who used red on the probe nut cracked the printed mount when trying to adjust it (Prusa forum). 4) Grub screws on motor pulleys: the Voron manual and documentation suggest 'grub screws with Loctite 222' (low strength) to secure pulleys on motor D-shafts, and LDO's later kits ship set screws pre-coated with threadlocker (Voron forum; LDO Voron kit notes). 5) Stainless and zinc-plated screws (very common in maker kits) are 'inactive': choose a primerless grade such as 243 or use an activator, or cure will be slow and weak (Henkel threadlocking guide). 6) Degrease oily screws and let it cure 24 hours before heavy loading; warm parts cure faster, cold parts slower (Henkel threadlocking guide; Loctite threadlocker manual). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'threadlocker' by strength: 'low strength threadlocker purple' (e.g. Loctite 222), 'medium strength threadlocker blue' (Loctite 242 / 243, Permatex 242 blue), 'high strength threadlocker red' (Loctite 263 / 271), 'wicking threadlocker green' (Loctite 290), 'high temperature threadlocker' (Loctite 2422 / 2620), 'threadlocker stick' (Loctite 248 / 268), 'threadlocker tape' (Loctite QuickTape 249) and 'pre-applied threadlocker' or 'pre-coated screws'. For shafts: 'retaining compound' (Loctite 603, 620, 638, 641, 648, 660). Helpers: 'anaerobic primer' or 'activator' (Loctite SF 7649, SF 7240, 7088 primer stick; cleaner SF 7063; Permatex Surface Prep 24163). Related sealants: 'anaerobic thread sealant' and 'anaerobic gasket maker'. (Henkel threadlocking guide; Loctite retaining compounds catalogue; Permatex)
+- **rules_of_thumb**: 
+  - Pick strength by screw size and removability: low strength (purple) for fasteners under 1/4 in (6 mm), medium (blue) for 1/4-3/4 in (6-20 mm) and removable with hand tools, high (red) for 1/4-3/4 in and above when it may need heat above 260 °C (500 °F) to remove (Henkel threadlocking guide; Permatex; Loctite products page).
+  - Typical break-loose torque on a 3/8-16 (about M10) bolt: purple about 7 N·m, blue about 12 N·m (20 N·m for surface-insensitive blue), red about 25 N·m (Wikipedia 'Thread-locking compound', from a Permatex selector guide).
+  - Fixture (handling) time about 10-20 minutes on steel at room temperature, about 5 minutes with an activator; full cure 24 hours (Henkel threadlocking guide; Permatex). A general-purpose threadlocker takes about 10-15 minutes on steel and under 5 minutes on copper, and much longer on passive surfaces (Permabond).
+  - Service temperature for most grades about -54 to +150 °C; high-temperature grades up to 232 °C (Permatex red high temperature) or 340 °C (Loctite 2422 / 2620) (Wikipedia; Permatex; Henkel threadlocking guide).
+  - Retaining compound choice by diametral gap: up to 0.15 mm use low-viscosity grades (Loctite 603, 641, 648); 0.15-0.25 mm use 620 or 638; 0.25-0.5 mm use a paste such as 660 with an activator. Most withstand -55 to +150 °C, special grades 180-230 °C (Loctite retaining compounds catalogue).
+  - Apply below +5 °C only with an activator/primer, and degrease, clean and dry the parts first (Loctite retaining compounds catalogue).
+  - Most threadlockers keep for about two years at room temperature; never pour used liquid back into the bottle (Loctite threadlocker manual; Wikipedia).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The 'blue Loctite' used on bicycle, motorbike and car bolts such as water-pump and oil-pan bolts (Loctite products page; Permatex)
+  - Grub screws holding the belt pulleys on a 3D printer's motor shafts (Voron forum; LDO Voron kit notes)
+  - Small screws in electronics, instruments and carburettors locked with purple or green grades (Permatex; Henkel threadlocking guide)
+  - Bearings, gears and pulleys fixed on shafts in machines, and worn bearing seats repaired with a thick retaining compound (Loctite retaining compounds catalogue)
+- **when_to_use**: Use a threadlocker on metal screws, nuts, studs and set screws that are shaken, knocked or heated and cooled, where a lock washer or lock nut would add parts or not be reliable (Henkel threadlocking guide), especially on robots, RC models, vehicles, bikes and printer motion systems. Use a retaining compound to fix a bearing, gear, pulley or bush onto a shaft or into a housing when a press fit alone is too weak, when you can't press-fit, or to rescue a slightly worn fit (Loctite retaining compounds catalogue). It also seals the threads against water and rust, which makes screws easier to undo years later (Loctite products page).
+- **when_not_to_use**: Don't use it on plastic screws, printed threads, powder-coated fasteners or on joints where the liquid will touch ABS, polycarbonate, acrylic, polystyrene or PVC parts; use a CA-based threadlocker, nylon-insert lock nuts or mechanical locking instead (Loctite threadlocker manual; Henkel threadlocking guide). Don't use red (high strength) on small screws or anything you'll need to adjust; the screw may twist off before the joint lets go (Wikipedia). Don't rely on it for loose or badly fitting parts beyond about 0.5 mm gap; it won't cure well (Loctite retaining compounds catalogue; Permabond). Avoid it where the joint gets hotter than its rating (about 150 °C for standard grades) unless you choose a high-temperature grade (Wikipedia; Permatex). *(unverified parts omitted)*
+- **environment_limits**: Heat: most grades work from about -54 to +150 °C; above this the plastic softens and strength drops (Wikipedia; Permatex); high-temperature grades reach 232-340 °C (Permatex; Henkel threadlocking guide). Deliberate heating to about 230-260 °C releases high-strength grades (Wikipedia; Permatex). Cold: cures slowly when parts are cold; below +5 °C use an activator (Loctite retaining compounds catalogue; Loctite threadlocker manual). Chemicals: the cured thermoset 'resists most solvents' and is used in oil- and coolant-filled engines and gearboxes (Loctite threadlocker manual; Henkel threadlocking guide). Water and rust: sealing the threads prevents corrosion (Loctite products page). Vibration: this is what it is for; in Henkel's transverse vibration (Junker) test a threadlocked bolt kept its clamp load better than nylon nuts, serrated flanges and split or tooth washers (Henkel threadlocking guide). *(unverified parts omitted)*
+- **safety_notes**: Skin: typical threadlockers are skin sensitisers ('May cause an allergic skin reaction') and cause serious eye irritation, and are toxic to aquatic life; wear protective gloves and keep it out of drains (Loctite 243 SDS). Removal: freeing red grades needs a blowtorch or heat gun at 230-260 °C, so wear heat-resistant gloves and safety glasses (Loctite products page; Permatex). Forcing a high-strength joint can snap the bolt (Wikipedia). Using too strong a grade near printed parts can crack them when you try to adjust later (Prusa forum).
+- **common_failures**: It never hardens: the surfaces were oily, the metal was 'inactive' (stainless, zinc-plated, anodised aluminium), it was cold, the gap was too big, or the parts were plastic; clean, use a primer or a primerless grade, warm the parts, or choose a gap-filling grade (Henkel threadlocking guide; Loctite threadlocker manual; Permabond). The screw can't be undone: red was used where blue or purple was enough; heat to about 260 °C and undo while hot (Loctite products page; Permatex). Cracked plastic parts near the joint from contact with the liquid or from high removal torque (Loctite threadlocker manual; Prusa forum). The bottle goes solid because it was contaminated by metal (touching the nozzle to the part or pouring back used liquid) (Wikipedia; Loctite threadlocker manual). Weak retaining joints from too large a gap for the grade chosen (Loctite retaining compounds catalogue). *(unverified parts omitted)*
+- **related**: 
+  - Nylon-insert lock nut (prevailing-torque nut): mechanical locking that works with plastic parts too, but doesn't seal the threads and kept less clamp load than threadlocker in Henkel's vibration test (Henkel threadlocking guide)
+  - Split, spring, tooth and serrated lock washers: cheap mechanical locking; performed worse than threadlocker in Henkel's vibration test (Henkel threadlocking guide)
+  - Jam nut, castle nut with split pin, tab washer and safety wire: positive mechanical locks, sometimes combined with threadlocker (Wikipedia; Henkel threadlocking guide)
+  - CA-based threadlocker (e.g. Loctite 425): cyanoacrylate formulation for plastic screws and plastic-to-metal threads (Henkel threadlocking guide)
+  - Cyanoacrylate (superglue): also cures in a thin film between close parts but triggered by moisture, works on plastics, and is brittle
+  - Press fit / interference fit and keyless locking bushes: purely mechanical ways to fix a hub on a shaft; retaining compounds can be added to press fits (Loctite retaining compounds catalogue)
+  - Two-part epoxy: gap-filling alternative for fixing parts on shafts when fits are loose or the parts are plastic
+  - PTFE thread-seal tape and anaerobic pipe sealants: for sealing pipe threads rather than locking them (Wikipedia; Permatex) *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Thread-locking fluid applied.jpg (Wikimedia Commons, by Paul Breen)](https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg): Photo of bolts with blue threadlocker on their threads *(licence: CC BY-SA 4.0)*
+  - [Thread locking fluid Loctite 243.jpg (Wikimedia Commons, by Hugo LUC)](https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg): Photo of a small bottle of blue medium-strength threadlocker *(licence: CC BY-SA 4.0)*
+  - [LOCTITE Threadlocking User's Guide (Henkel, via Ellsworth Adhesives)](https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-user-guide-threadlocking.pdf): Illustrated guide: why screws loosen, how threadlocker fills the thread gaps, vibration test graph, active vs inactive metals, and a decision tree for choosing a grade *(licence: link only)*
+  - [How to Increase Reliability and Prevent Threaded Assembly Failure (LOCTITE threadlocker manual, Henkel, 2020)](https://dm.henkel-dam.com/is/content/henkel/LOCTITE-Threadlocker-Manual.pdf): Four-step diagram of the anaerobic cure (Figure 52), photos of bolt platings and finishes, cure speed by metal, and a plastics compatibility table *(licence: link only)*
+  - [Nuts & Bolts - Loctite Red & Blue EXTREME Impact Vibration Test (YouTube, Hacks by Dad)](https://www.youtube.com/watch?v=lwtUWB2TIYA): Hobbyist vibration test of bolts with red and blue threadlocker (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **diagram_idea**: A cut-away of a nut on a bolt, magnified to show the small gaps between the threads: first filled with liquid while air can still reach it at the open edges, then with the gaps inside turned solid (shaded) so the nut can no longer rock sideways, with small labels 'no air + metal = hardens' inside and 'air = stays liquid' at the exposed edge.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Thread-locking_compound
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-user-guide-threadlocking.pdf
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-selector-guide-threadlocker-properties-chart.pdf
+  - https://dm.henkel-dam.com/is/content/henkel/LOCTITE-Threadlocker-Manual.pdf
+  - https://www.silmid.com/Documents/Brochures/Loctite%20Retaining%20Compounds%202022%20(1).pdf
+  - https://permabond.com/curing-anaerobic-adhesive/
+  - https://www.permatex.com/threadlockers/
+  - https://www.loctiteproducts.com/ideas/build-things/threadlocker-red-or-blue-which-ones-right-for-you.html
+  - https://www.farnell.com/datasheets/3202874.pdf
+  - https://forum.prusa3d.com/forum/original-prusa-i3-mk2-s-others-archive/thread-locker-loctite/
+  - https://forum.vorondesign.com/threads/where-to-use-shaft-retaining-compound-loctite-641.2181/
+  - https://docs.ldomotors.com/en/voron/voron01
+  - https://api.printables.com/graphql/
+  - https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg
+  - https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg
+  - https://commons.wikimedia.org/wiki/File:PXL_20211004_114900846.jpg
+  - https://www.youtube.com/watch?v=lwtUWB2TIYA
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, making_tips_3d_printing, materials, related, when_not_to_use
 
 ## 230 Stretch-release adhesive strips
 
 *adhesives & bonding.* Sticky strips that hold firmly but come away cleanly when you pull the tab slowly along the wall, leaving no residue
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A double-sided sticky strip with a non-sticky pull tab: it holds a hook or picture firmly on the wall, and when you want it off you pull the tab slowly straight down along the wall so the strip stretches like chewing gum and lets go, leaving no marks
+- **term**: Stretch-release adhesive strip (stretch-releasing pressure-sensitive adhesive tape)
+- **aliases**: 
+  - stretch release adhesive, stretch release tape, stretch-releasing adhesive tape (iFixit; 3M and tesa product sheets; patents)
+  - redetachable adhesive strips, 'redetachable without residue or destruction by extensive stretching in the bond plane' (tesa patent US 6,905,100)
+  - removable adhesive strips, damage-free hanging strips, adhesive refill strips (3M and tesa product pages)
+  - pull-tab adhesive, battery pull tabs (phones and laptops; iFixit)
+  - debonding on demand (tesa's industrial term) (tesa stretch release tapes page)
+  - Command strips, Command hooks, Command Picture Hanging Strips (brand, 3M) (3M product information sheet; arXiv paper)
+  - tesa Powerstrips, Powerstrips CLICK, tesa adhesive nails (brand, tesa); Bond & Detach (tesa industrial brand) (tesa pages)
+- **family**: adhesives & bonding
+- **other_families**: quick-release & tool-free
+- **one_liner**: A stretch-release strip is a double-sided pressure-sensitive adhesive on a very stretchy backing that holds strongly while the load pulls along the wall, but lets go cleanly and without residue when its tab is pulled slowly and parallel to the surface.
+- **complexity**: A few parts: the stretchy adhesive strip with a non-sticky pull tab, two release liners that you peel off, and usually a plastic hook, clip, back plate or picture-hanging pair that the strip sticks to (3M Command product information sheet; tesa Powerstrips pages). Command Picture Hanging Strips work in pairs that interlock with mushroom-shaped plastic fibrils, so the picture can be lifted off and put back (arXiv 2607.11650).
+- **how_it_works**: The strip is a soft, sticky rubber (a pressure-sensitive adhesive, typically a styrene block-copolymer or synthetic rubber; silicone in the water-resistant 3M version) that wets both surfaces when pressed, on a highly stretchable backing such as polyethylene foam (tesa patent US 6,905,100; 3M Command product information sheets; tesa Powerstrips FAQ). A hanging weight loads the whole bonded area in shear, so a thin strip can carry a lot. When you pull the tab straight along the wall, the strip stretches enormously and gets thinner, and the stretching peels the glue away from the wall and the back plate a little at a time, like two cracks running along the strip; because the glue holds together better than it holds onto the wall, it comes away in one piece without leaving residue (arXiv 2607.11650; 3M scientist Margaret Sheridan quoted by iFixit). A fracture-mechanics analysis found that the ratio of the maximum load to the removal force grows with the ratio of bonded length to adhesive thickness, which is very large, so the strip can hold a heavy load yet still be removed with a gentle pull (arXiv 2607.11650).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: mounts hooks, clips, pictures, posters, bathroom accessories, cable clips and phone batteries without drilling (3M Command sheet; tesa pages; iFixit)
+  - glue or bond: a pressure-sensitive adhesive bond that needs no drying or curing, only pressure (3M Command sheet)
+  - lock, and release by hand: holds until you deliberately pull the tab, then releases cleanly with no tools (tesa stretch release tapes page)
+- **motion**: none: a fixed mount. The soft foam and adhesive allow a little give, and the strip must not be peeled away from the wall
+- **degrees_of_freedom**: 0: the mounted part is held still
+- **special_behaviour**: 
+  - quick-release: releases on demand without tools, heat or solvents by stretching the tab (tesa stretch release tapes page). It is a one-time release: the strip is used up, although hooks and plates can be reused with refill strips (3M Command sheet; tesa Powerstrips refill pages)
+  - hand-release only (locks under load, releases when a person operates it): it holds the hanging load, and lets go only when someone pulls the tab parallel to the surface (arXiv 2607.11650; tesa Powerstrips FAQ)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): a pressure-sensitive adhesive that grips both surfaces by molecular attraction without hardening (Wikipedia 'Adhesive'; 3M Command sheet)
+  - shape (the parts interlock; form-fit): in two-part systems the hook slides onto a back plate, or picture strips interlock with mushroom-shaped fibrils (3M Command sheet; arXiv 2607.11650)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: pulling the tab slowly and parallel to the surface removes it 'without a trace' and without tools, heat or solvents; the strip itself is destroyed (tesa Powerstrips FAQ; tesa stretch release tapes page; 3M Command sheet). Pulling it towards you instead can damage the surface ('NEVER pull the strip towards you'; 3M Command sheet).
+- **reuse_cycles**: once for each strip: every removal uses up the strip. The hook, plate or printed mount can be reused many times with refill strips (3M Command sheet; tesa Powerstrips refill pages), and interlocking picture strips let you take the picture off and put it back: tesa says the 'hook and loop elements' of Powerstrips CLICK 'offer repetitive use' (tesa adhesive strips page).
+- **tools_needed**: none to fit: isopropyl alcohol (rubbing alcohol) or methylated spirit and a cloth to clean the surface; do not use household or bathroom cleaners (3M Command sheet; tesa Powerstrips FAQ). The waterproof tesa strips come with a primer tissue (tesa Powerstrips FAQ). None to remove; if the tab tears off, iFixit suggests heat, isopropyl alcohol, string and patience (iFixit).
+- **seal**: none: it is a mounting strip, not a seal
+- **load**: light: household strips are rated from about 0.2 to 3.4 kg (0.5-7.5 lb) per hook, pictures up to about 2.3 kg (5 lb) per hanger (3M Command sheet), tesa Powerstrips CLICK 1.8, 5.4 or 7.2 kg by size, and tesa Waterproof XL up to 3 kg per strip; more strips help, 'but not linearly' (tesa pages). Strong in shear (load along the wall): a Command strip's lab values are 58 N/100 mm peel adhesion, 1,000 g static shear and 45 kg (100 lb) dynamic shear (3M Command sheet). *(unverified parts omitted)*
+- **adjustable**: no: once pressed down it can't be repositioned; remove it by stretching and use a new strip (iFixit: 'once you put it down, you can't reposition it'). Hooks that slide onto a back plate, and interlocking picture strips, can be lifted off and refitted (3M Command sheet; tesa adhesive strips page).
+- **play_and_precision**: not applicable: it does not locate the part; position it by eye, with a level or a paper template (iFixit uses a film template for phone batteries). No play once stuck, but the soft foam lets the part give slightly
+- **access_needed**: one side only (blind): you stick it from the front. The pull tab must stay reachable and have a clear path, since it is pulled downwards along the wall for at least 12 in (30 cm) on Command strips (3M Command sheet); in phones, designers cut windows or move parts so the tab can be pulled at a low angle without snagging (iFixit).
+- **materials**: Strip: a rubber-based or synthetic-rubber pressure-sensitive adhesive on polyethylene foam (3M Command sheet; tesa Powerstrips FAQ), typically styrene block copolymers (tesa patent US 6,905,100); water-resistant Command strips use a silicone adhesive (3M water-resistant sheet). Surfaces: painted walls and painted wood, tiles, glass, metal, stone, wood, ABS, polystyrene and acrylic; smooth, flat, solid, clean surfaces work best, and the foam copes with 'smooth and semi-rough' surfaces (3M Command sheet; tesa installation guide). Poor: polyethylene (PE), polypropylene (PP) and PTFE ('won't hold'), vinyl, bare or porous unpainted wood, wallpaper, loose plaster or cement and weak varnish (the strip is 'stronger than the surface and might tear it off'), and paint less than 7 days old (3M Command sheet; tesa installation guide). *(unverified parts omitted)*
+- **maker_difficulty**: easy: clean, peel, press and wait an hour. The skills are cleaning with alcohol, pressing firmly, leaving the tab free, and removing it slowly along the wall
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: strips in mini, small, medium and large sizes, refill packs, hooks, clips, poster and picture-hanging strips, and waterproof versions (3M Command sheet; tesa pages)
+  - 3D print (FDM): printed hooks, holders and wall mounts sized to take refill strips, e.g. replacement Command hooks and Honeycomb Storage Wall mounts (Printables)
+  - laser cut: acrylic and painted or sealed wood parts can be mounted, since tesa lists acrylic and wood as suitable (tesa installation guide)
+  - electronics: battery mounting in phones, tablets, laptops and wearables, and removable mounting of displays and modules (iFixit; tesa stretch release tapes page)
+- **print_in_place**: no: the strip is bought and stuck on after printing; you print the hook or mount with a flat pad sized for the strip
+- **making_tips_3d_printing**: 1) Size the flat pad to the strip: on Command strips the adhesive area is about 1.27 x 1.55 cm (mini), 1.58 x 2.69 cm (small), 1.58 x 5.08 cm (medium) and 1.90 x 7.36 cm (large) on the wall side, with a 1.4-1.9 cm tab (3M Command sheet). 2) Leave the tab free: put it at the bottom edge, and keep the path below it clear so it can be pulled straight down along the wall for at least 30 cm without catching on the print (3M Command sheet; iFixit on designing for tab access). 4) Don't stick strips to PE or PP prints; they 'won't hold' (tesa installation guide). 5) Press each side firmly (3M: 10 s for the hook, 30 s for a back plate; tesa: 5 s) and wait an hour before loading (3M Command sheet; tesa Powerstrips FAQ). 7) Make hooks tough: a maker recommends PETG for toughness on a simple Command hook, and replacement hooks that slide onto the original Command back plate are printed on their side with supports (Printables 105625 and 1006631). 8) For removable decor, a slide-on design (hook on back plate) lets you take the item off without removing the strip (3M Command sheet; Printables 556091). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'stretch release adhesive strips', 'removable adhesive strips', 'damage-free hanging strips', 'refill strips', 'poster strips', 'picture hanging strips' and 'water-resistant (bathroom) strips'. Brands: 3M Command strips, hooks and Picture Hanging Strips; tesa Powerstrips (Small, Large, Poster, Transparent, Waterproof, CLICK) and tesa adhesive nails. Industrial: tesa Bond & Detach stretch release tapes (e.g. tesa 76565, 770xx series) and phone 'battery adhesive pull tabs' (3M sheet; tesa pages; iFixit).
+- **rules_of_thumb**: 
+  - Clean with isopropyl alcohol, not household cleaners; press firmly; wait one hour before hanging anything (3M Command sheet).
+  - Remove by pulling the tab slowly, straight down and parallel to the wall, for at least 12 in (30 cm); never towards you (3M Command sheet). Industrial tesa tapes can be released at angles up to 90° (tesa stretch release tapes page); in phones, pull at as low an angle as possible, under 60° (iFixit).
+  - Apply above 10 °C (3M) or ideally at 20-25 °C, minimum 15 °C (tesa); removal is 'considerably' harder below 15 °C (tesa Powerstrips FAQ).
+  - Heat: Command adhesive 'could soften and lose adhesion above 105 °F (40 °C)'; tesa Powerstrips are rated for 35 °C continuously and 40 °C briefly; both are for indoor use and out of direct sunlight (3M Command sheet; tesa Powerstrips FAQ).
+  - Wait at least 7 days before sticking to fresh paint (3M Command sheet).
+  - Load capacity rises with more strips, but not in proportion (tesa Powerstrips FAQ); use one hook per item (3M Command sheet).
+  - The load-to-release-force ratio scales with bonded length divided by adhesive thickness, so long, thin bonded areas give strong holding with easy removal (arXiv 2607.11650).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Command hooks and picture-hanging strips on rented or painted walls (3M Command sheet; arXiv 2607.11650)
+  - tesa Powerstrips holding posters, bathroom shelves and kitchen pull-outs (tesa pages)
+  - The pull-tab strips under smartphone batteries, e.g. in iPhones and Google Pixel phones (iFixit)
+  - Printed hooks and mounts on Command refill strips, e.g. for a Honeycomb Storage Wall (Printables)
+- **when_to_use**: Use it when you want to hang or mount something light without drilling and remove it later without damage: rented homes, tiles, glass, painted walls and furniture (3M Command sheet; tesa pages). It suits 3D-printed hooks, cable clips and organisers, temporary or re-arrangeable setups, and parts that must come out cleanly for repair or recycling, such as batteries in electronics (iFixit; tesa stretch release tapes page).
+- **when_not_to_use**: Don't use it for heavy, valuable or irreplaceable items, or over beds (3M Command sheet): use screws and wall plugs or a picture rail. Avoid wallpaper, loose plaster, bare or porous wood, dirty, dusty or oily surfaces, vinyl, PE and PP (3M Command sheet; tesa installation guide). Avoid hot places (above about 35-40 °C), direct sunlight, outdoors and wet areas unless you choose a waterproof version (3M Command sheet; tesa Powerstrips FAQ). If the part must be moved often, use a slide-on hook and back plate, hook-and-loop strips or magnets rather than re-sticking. For a permanent, strong bond use double-sided acrylic foam tape (VHB) or glue instead.
+- **environment_limits**: Heat: Command strips are rated -10 to 50 °C, but the adhesive may soften and lose grip above 40 °C (3M Command sheet); tesa Powerstrips are rated for 35 °C continuously and 40 °C briefly (tesa Powerstrips FAQ). Cold: apply above 10-15 °C; cold after fitting is not a problem for holding, but removal below 15 °C is much harder (3M Command sheet; tesa Powerstrips FAQ). Water and humidity: standard strips are not for wet places; water-resistant versions use silicone adhesive (3M) or a primer tissue (tesa) (3M water-resistant sheet; tesa Powerstrips FAQ). Sunlight: not recommended in direct UV; very high UV might make transparent tesa strips harder to remove (3M Command sheet; tesa Powerstrips FAQ). Chemicals: no apparent degradation from splashes of most hydrocarbon solvents (3M Command sheet). *(unverified parts omitted)*
+- **safety_notes**: The main hazard is the object falling: 3M warns not to hang items over beds, not to use it for valuable or irreplaceable items, and that failure to follow the instructions may cause damage; secure the object while removing the strip so it doesn't drop (3M Command sheet; tesa Powerstrips FAQ). Pulling the strip out from the wall can tear off paint, wallpaper or plaster (3M Command sheet; tesa installation guide). tesa states its Powerstrips adhesive 'contains no toxic materials' and is made of synthetic rubber (tesa Powerstrips FAQ). In electronics, stretch-release strips are safer than glue because you don't have to pry at a soft lithium-ion battery (iFixit).
+- **common_failures**: The tab snaps or the strip tears when pulled too fast, at a steep angle or when it catches; pull slowly and keep constant tension, re-grip closer to the part, and if the tab is lost use heat, isopropyl alcohol and string (iFixit; tesa Powerstrips FAQ). Paint or wallpaper torn off because the strip was pulled towards you, or because the surface layer was weaker than the adhesive (3M Command sheet; tesa installation guide). The hook falls off: dirty or greasy surface, household-cleaner residue, fresh paint, bare wood or porous unpainted surface, loaded within the first hour, too heavy, or too warm (3M Command sheet). Strips that won't release in a cold room (tesa Powerstrips FAQ). Wrinkled or twisted strips; iFixit advises keeping them flat and even when fitting and removing (iFixit). Strips on PE or PP that never hold (tesa installation guide).
+- **related**: 
+  - Double-sided foam tape (acrylic foam pressure-sensitive adhesive, e.g. VHB): much stronger and permanent, but hard to remove cleanly
+  - Hook-and-loop fastener and interlocking mushroom fasteners: let you take the item off and put it back many times; Command picture strips combine both ideas (arXiv 2607.11650)
+  - Suction cups: also tool-free and removable, but only on smooth, non-porous surfaces such as glass and tiles
+  - Magnets: removable mounting on steel surfaces
+  - Screws and wall plugs (anchors): for heavy or permanent loads
+  - Contact adhesive and other glues: permanent bonds *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [How do 3M Command strips work? A fracture mechanics approach (Luo, Bouklas and Hui, arXiv 2607.11650, 2026)](https://arxiv.org/html/2607.11650): Figure 1 schematic of a Command Picture Hanging strip pair (backing, adhesive, wall, pull tab, interlocking fibrils) under hanging and release loads, and simulation plots of the strip peeling away as it is stretched *(licence: CC BY 4.0 (paper licence shown on arXiv))*
+  - [Ask iFixit: What Is Stretch Release Adhesive (and Why Do We Love It)? (iFixit)](https://www.ifixit.com/News/45779/ask-ifixit-what-is-stretch-release-adhesive-and-why-do-we-love-it): Plain explanation with photos of battery pull tabs in phones and a drawing from Korpman's 1976 stretch-release patent *(licence: link only)*
+  - [How to Remove Command Brand Hooks (YouTube, Command)](https://www.youtube.com/watch?v=luSNQjWUEx0): Official video of removing a Command hook by stretching the tab down along the wall (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [How to Remove Stretch Release Tape | tesa 76565 Bond & Detach (YouTube, tesa APAC)](https://www.youtube.com/watch?v=QttXI2UnXwI): Industrial stretch-release tape being removed by pulling its tab (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Parametric Adhesive hook (tesa nail / command strips) (KlipGans, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/569668-parametric-adhesive-hook-tesa-nail-command-strips): OpenSCAD parametric hooks modelled on 0.5, 1 and 2 kg tesa adhesive nails, for use with refill strips. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Simple 3M Command Hook (Alex, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/105625-simple-3m-command-hook): Small and medium hooks sized for Command strips; no supports, PETG recommended for toughness. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Replacement Command Hook (Large, 5lb) (James Lovett, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1006631-replacement-command-hook-large-5lb): Printed hook that clips onto an existing Command wall plate; print on its side with tree supports. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Medium Utility Command Hook (3M 17001) (jhfield, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/556091-medium-utility-command-hook-3m-17001): Replacement slide-on hook with a STEP file of the mount so you can design your own Command-mounted parts. Read through the Printables public API. *(licence: Public domain (Creative Commons Public Domain))*
+  - [Honeycomb 3M Command Strip Mount + Wall Double Hollow Insert (Spatula, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/266346-honeycomb-3m-command-strip-mount-wall-double-hollo): Mount that hangs a printed Honeycomb Storage Wall on large Command strips without drilling. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: A side view of a hook stuck to a wall: first with a weight hanging (arrows along the wall showing the strip carrying the load in shear), then a hand pulling the tab straight down along the wall, the strip stretched long and thin, with the glue peeling away from the wall and back plate from the bottom up; a small crossed-out arrow shows the wrong way, pulling out towards you.
+- **sources**: 
+  - https://docs.rs-online.com/8d0d/0900766b813690ff.pdf
+  - https://multimedia.3m.com/mws/media/1160623O/command-water-resistant-strips-product-information-sheet.pdf
+  - https://www.ifixit.com/News/45779/ask-ifixit-what-is-stretch-release-adhesive-and-why-do-we-love-it
+  - https://arxiv.org/abs/2607.11650
+  - https://arxiv.org/html/2607.11650
+  - https://www.tesa.com/en/consumer/bathroom-accessories/technology-power-kit/installation-guide-powerstrip-technology
+  - https://www.tesa.com/en/consumer/kitchen-organization/technology/installation-guide-powerstrips-technology
+  - https://www.tesa.com/en/consumer/mounting-hanging-sms/adhesive-strip-powerstrips
+  - https://www.tesa.com/en/industry/products/stretch-release-tapes
+  - https://patents.google.com/patent/US6905100B2/en
+  - https://en.wikipedia.org/wiki/Adhesive
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/watch?v=luSNQjWUEx0
+  - https://www.youtube.com/watch?v=QttXI2UnXwI
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, materials, related
 
 ## 231 Hide glue (animal glue)
 
 *adhesives & bonding.* A traditional glue made from animal collagen that can be undone later with heat and moisture, used in instrument making and furniture repair
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: An old-fashioned brown glue made from boiled animal skin (the same stuff as jelly), melted in a warm water bath and brushed on hot; it grabs in about a minute as it cools, dries rock hard, and can later be softened again with heat and water so the parts come apart for repair
+- **term**: Hide glue (animal glue, a protein glue made from collagen); supplied as hot hide glue (granules melted in a glue pot) or liquid hide glue (kept liquid with urea)
+- **aliases**: 
+  - animal glue, animal protein glue, protein glue, collagen glue (Wikipedia; Fine Woodworking; SkillCult)
+  - hot hide glue, HHG (Old Brown Glue FAQ; Valley Woodworkers)
+  - liquid hide glue, cold hide glue, premixed hide glue (Wikipedia; Fine Woodworking #129)
+  - Scotch glue, pearl glue, cake glue (older British trade names for the dry forms; Rockler, Ian Kirby)
+  - bone glue, rabbit-skin glue, fish glue and isinglass (close relatives made from bone, rabbit skin or fish; Wikipedia)
+  - Glutinleim, Knochenleim (German for glutin glue and bone glue; Wikimedia Commons file names)
+  - gelatin (the refined food-grade version of the same protein; Wikipedia; SkillCult)
+  - Old Brown Glue (brand; liquid hide glue), Titebond Genuine Hide Glue / Titebond Liquid Hide Glue (brand), Milligan & Higgins 192 (brand of dry granules) (Old Brown Glue FAQ; Titebond; Fine Woodworking)
+- **family**: adhesives & bonding
+- **one_liner**: Hide glue is a traditional glue made from boiled animal skin that is brushed on warm, grips as it cools and dries into a hard, non-creeping bond, and stays reversible, so heat and moisture can release the joint for repair years later.
+- **complexity**: Single piece: one glue. Hot hide glue needs dry granules, water, a glue pot or double boiler kept at about 60 °C (140 °F), a thermometer and a brush. Liquid hide glue comes ready to use in a bottle (Popular Woodworking; Valley Woodworkers; Titebond).
+- **how_it_works**: The glue is collagen, the protein in skin and bone, boiled out and dried into granules. Soaked in water and warmed to about 60 °C it becomes a runny syrup that soaks into wood fibres; as it cools below about 50 °C it turns to jelly (a gel), and then it slowly dries hard as its water soaks away or evaporates (Wikipedia; Old Brown Glue FAQ). While it gels it tacks up and shrinks, which pulls the joint tight, so two edges rubbed together can hold without clamps (a 'rubbed joint') (Wikipedia; Fine Woodworking, Patrick Edwards). Because nothing chemically cures, adding moisture and heat turns the dry glue back into gel and liquid, so the joint can be taken apart, and fresh hot glue re-wets and bonds to old hide glue (Old Brown Glue FAQ; Wikipedia). Liquid hide glue has urea added, which lowers the gel point from about 38 °C (100 °F) to about 27 °C (80 °F), so it stays liquid at room temperature and gives a long working time (Old Brown Glue FAQ).
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: joins wood, veneer, paper, leather and cloth, mainly in furniture and musical instruments
+  - join and hold: glue blocks and edge joints can be held by the glue's own quick tack without clamps (rubbed joint) (Fine Woodworking; Rockler)
+- **motion**: none: a rigid glued joint
+- **degrees_of_freedom**: 0: the glued parts are locked together
+- **special_behaviour**: 
+  - none of the listed behaviours strictly. Its own tricks: it is reversible (heat plus moisture turns it back to liquid, so joints can be taken apart and re-glued; Old Brown Glue FAQ), it sticks to itself (new glue bonds to old, so repairs need less cleaning; Wikipedia), it clamps itself as it gels and shrinks (rubbed joints and hammer veneering without clamps; Wikipedia; Fine Woodworking), and dried glue can be re-melted in place with a hot iron or palette knife to lay veneer or close a joint (Wikipedia)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the protein soaks into the wood surface and dries hard; Patrick Edwards describes it as a mechanical bond plus a molecular attraction to wood (Fine Woodworking)
+- **input_output**: not applicable
+- **power**: passive (no power needed) to hold. Hot hide glue needs heat (a glue pot, hot plate or warm water bath) only while you apply it; liquid hide glue works at room temperature, although Old Brown Glue is meant to be warmed first (Popular Woodworking; Old Brown Glue FAQ).
+- **removability**: semi-permanent (can be undone but may damage parts): a cured joint is rehydrated with moisture and then heated (steam, warm water, a hot palette knife) and comes apart, usually without damaging the wood; a sharp knock or a palette knife can also split a hide-glue joint cleanly along the glue line, which is how violin tops are removed. Steam and water can mark finishes (Old Brown Glue FAQ; Wikipedia). It is the most easily reversible common wood glue (Fine Woodworking #129).
+- **reuse_cycles**: a few times: each repair re-glues the same parts with fresh hide glue, which bonds to the old glue, so instruments and antiques are taken apart and re-glued over decades or centuries (Wikipedia; Old Brown Glue FAQ). The protein itself can be re-melted and re-dried over and over (Old Brown Glue FAQ), but a pot of prepared glue loses strength with every reheating, and one old workshop allowed only two reheats (Rockler, Ian Kirby).
+- **tools_needed**: Hot hide glue: dry granules, a kitchen scale, a glue pot (electric glue pot, double boiler, or a glass jar standing in a pan of water on a hot plate), a thermometer, a glue brush, clamps (or none for a rubbed joint), and a heat gun or hair dryer to warm the parts; a scraper and hot damp rag for squeeze-out (Valley Woodworkers; Popular Woodworking). Liquid hide glue: the bottle, a pan of hot water to warm it (Old Brown Glue), brush and clamps (Old Brown Glue FAQ; Titebond). To take a joint apart: water or steam, heat, and a thin palette knife; alcohol makes the glue brittle so it cracks apart more easily (Wikipedia).
+- **seal**: none: it is water-soluble and not a sealant (Rockler; Woodcraft)
+- **load**: medium to heavy in wood joints: on hard maple Titebond's liquid hide glue measured 3,591 psi (about 24.8 MPa) in shear (ASTM D905), with 72% of the break in the wood (Titebond), and Franklin's tests put hide glue at about 3,600 psi (Fine Woodworking #129). In Fine Woodworking's own test (#192) hot hide glue reached 76% and liquid hide glue 79% of the strength of a waterproof PVA glue (Wikipedia, Wood glue). It is rigid and does not creep under a constant load (Wikipedia; Titebond), but it is brittle, so a sharp shock tends to break it cleanly along the glue line (Wikipedia). It loses strength when wet (Rockler; Titebond). Titebond says its liquid hide glue is 'not for structural or load bearing applications'.
+- **adjustable**: no once dry. Hot hide glue gives about a minute or less to position the parts before it gels (Wikipedia); liquid hide glue gives about 10 minutes open time and 20-30 minutes total assembly time (Titebond). A mistake can be fixed later by re-heating and re-wetting the joint (Old Brown Glue FAQ).
+- **play_and_precision**: not applicable (nothing moves). It needs well-fitting joints: it 'doesn't fill huge gaps well; the parts need to fit together' (Valley Woodworkers); it has some gap-filling ability but epoxy is better (Wikipedia).
+- **access_needed**: not applicable: glue is brushed onto the joint faces before assembly. Taking it apart needs you to get moisture and heat into the glue line, e.g. with a heated palette knife or steam (Wikipedia).
+- **materials**: Made from collagen in cattle hides (and bone); fish and rabbit versions exist (Wikipedia; Popular Woodworking; Valley Woodworkers). Bonds well: wood and wood veneer, paper and cardboard, leather, cloth, bark, sinew wrappings, parchment and gesso work (Wikipedia; Old Brown Glue FAQ: lower temperatures suit gluing paper, leather or cloth to wood). It also grips glass strongly enough that its shrinkage chips the glass surface, a decorative technique called glass chipping (Wikipedia; Valley Woodworkers). Poor: anything that will get wet. *(unverified parts omitted)*
+- **maker_difficulty**: moderate: hot hide glue needs a warm glue pot, temperature control and fast work (about a minute before it gels), and it spoils once mixed; liquid hide glue in a bottle is easy, like ordinary wood glue with a longer working time (Valley Woodworkers; Woodcraft).
+
+### Making it
+
+- **processes**: 
+  - woodwork: furniture making and restoration, veneering and marquetry, glue blocks and rubbed edge joints (Fine Woodworking; Rockler)
+  - musical instrument making (lutherie): violins, guitars, pipe organs and pianos, where joints must come apart for repair (Wikipedia)
+  - off-the-shelf part: dry granules or pearls in gram strengths, and bottled liquid hide glue (Titebond; Old Brown Glue)
+  - bookbinding, paper, leather and gilding work, and as a size or binder in painting (Wikipedia; SkillCult)
+  - not a normal choice for 3D prints (FDM or resin); see making_tips_3d_printing
+- **print_in_place**: no: it is a glue for joining separate parts, not a printed feature.
+- **making_tips_3d_printing**: Where a printed part is combined with wood (for example a printed jig or instrument part), it is the wood-to-wood joints that suit hide glue. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'hide glue granules' or 'pearl glue' by gram strength (135, 192, 251 g; 192 g is the usual woodworking grade) (Wikipedia, Wood glue); 'liquid hide glue' (e.g. Titebond Genuine / Liquid Hide Glue, Old Brown Glue, brands); 'rabbit skin glue' and 'fish glue' for artists and bookbinders; an 'electric glue pot' or 'double boiler glue pot' (a baby-bottle warmer or a jar in a pan on a hot plate also works); 'urea' to extend open time; a hog-hair 'glue brush'; and a 'veneer hammer' for hammer veneering (Popular Woodworking; Valley Woodworkers; Old Brown Glue FAQ; Fine Woodworking).
+- **rules_of_thumb**: 
+  - Keep the glue at about 60 °C (140 °F): warmer temperatures quickly destroy its strength (Wikipedia). Valley Woodworkers' handout: 145 °F is OK and 150 °F only for short periods; Old Brown Glue works between 110 and 160 °F, best around 140 °F, and should not go above 180 °F for any length of time (Valley Woodworkers 'Hot Hide Glue Information', 2023; Old Brown Glue FAQ).
+  - Mix about 2 parts water to 1 part dry glue by weight (traditional), or 1.6-1.8 : 1 for a thicker glue; let it soak until it looks like tapioca before heating, and aim for a runny syrup (Valley Woodworkers; Popular Woodworking).
+  - Gram strength (a jelly-firmness test): 192 g is the most used for woodworking, 251 g is the highest normally used for instruments, 135 g the lowest for general woodwork; higher gram strength is stronger and tackier but gels faster (Wikipedia, Wood glue; Popular Woodworking; Valley Woodworkers). Instrument and cabinet makers use 120-200 g (Wikipedia, Animal glue).
+  - Open time: hot hide glue about 1 minute or less, so do a dry run and assemble fast, and gel sets in below about 50 °C (120 °F) (Wikipedia; Woodcraft chart); Patrick Edwards gives 1-2 minutes for 192 g glue (Fine Woodworking). Liquid hide glue: 10 minutes open, 20-30 minutes total assembly at 21 °C / 50% RH (Titebond); 15-30 minutes (Fine Woodworking #129).
+  - Clamping: unstressed hot hide glue joints need only about half an hour in clamps; joints under stress or glue with added urea need clamping overnight (Valley Woodworkers); Old Brown Glue should stay clamped overnight (Old Brown Glue FAQ). Hide glue has only 30-50% of its full strength at the stated clamp time and needs about 24 hours to cure (Woodcraft).
+  - Clamping pressure for liquid hide glue: about 100-150 psi for softwoods, 125-175 psi for medium woods and 175-250 psi for hardwoods (Titebond).
+  - Adding urea at about 20% of the dry glue weight makes a glue that stays liquid at room temperature (like Old Brown Glue) but needs clamping and dries a little weaker and more flexible; 5-10% just extends the open time (Valley Woodworkers).
+  - Strength: 3,591 psi (about 24.8 MPa) on hard maple at room temperature and 3,207 psi after 150 °F overnight (Titebond Genuine Hide Glue, ASTM D905).
+  - Shelf life: dry granules keep indefinitely if dry (Wikipedia; Woodcraft); bottled liquid hide glue is guaranteed about 24 months (Titebond; Old Brown Glue), though one restoration text warns that any liquid hide glue over six months old 'can be suspect' because urea slowly breaks the protein down (Wikipedia, citing Weisshaar 1988). Prepared hot glue spoils; keep leftovers in the fridge or freezer (Wikipedia; Popular Woodworking).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Violins, cellos and acoustic guitars, whose tops are glued with hide glue so they can be removed for repair (Wikipedia)
+  - Antique furniture: glue blocks under table tops and around feet, and veneered surfaces (Fine Woodworking, Patrick Edwards)
+  - The lick-and-stick glue on old postage stamps and brown gummed packing tape, which works the same way: moisten, stick, and it can be steamed off again (Rockler, Ian Kirby); envelopes, match heads and garnet sandpaper also use animal glue (Valley Woodworkers)
+  - Jelly (gelatin dessert), which is a refined version of the same protein (Wikipedia; Valley Woodworkers)
+- **when_to_use**: Use it for indoor wooden things you (or someone else) may need to take apart one day: musical instruments, antique and reproduction furniture repair, and any joint where a future repairer should be able to reverse the glue (Wikipedia; Titebond). It is ideal when repairing old hide-glued pieces, because new glue bonds to the old (Wikipedia; Woodcraft). Choose it for joints that carry a steady load, like chair joints, because it does not creep (Wikipedia; LD Davis, a hide glue maker). Hot hide glue is the classic choice for veneering without a press (hammer veneering), rubbed joints and glue blocks, where its quick tack replaces clamps (Fine Woodworking; Old Brown Glue FAQ). Liquid hide glue suits complex glue-ups that need a long working time (Woodcraft; Titebond). It cleans up with warm water and does not leave marks under stains and finishes (Popular Woodworking; Rockler).
+- **when_not_to_use**: Don't use it outdoors, in bathrooms and kitchens, or anywhere it may get wet or very humid; use a water-resistant PVA (Type II), Type I PVA, polyurethane or epoxy instead (Titebond; Woodcraft; Rockler). Don't use it for loose, gappy joints; use epoxy (Valley Woodworkers; Wikipedia). Titebond says its liquid version is not for structural or load-bearing applications. If you want a quick, easy glue-up and never need to reverse it, ordinary PVA wood glue is simpler (Valley Woodworkers). Liquid hide glue is not suitable for hammer veneering or rubbed joints; use hot hide glue for those (Old Brown Glue FAQ). *(unverified parts omitted)*
+- **environment_limits**: Water and humidity: it stays water-soluble and hygroscopic, so moisture softens it; a coat of finish protects it from a few humid days (Fine Woodworking #129; Rockler; Titebond: 'not intended for exterior use or where moisture is likely'). Heat: once cured it is more heat-resistant than other common woodworking glues (Fine Woodworking #129); Titebond's liquid hide glue kept 3,207 psi after a night at 150 °F, against 3,591 psi at room temperature. Cold: liquid hide glue starts to gel at about 50 °F (10 °C), so keep the bottle and the workshop warm (Woodcraft; Titebond). Creep: none under constant load (Wikipedia; Titebond). Ageing: it darkens and shrinks as it dries and ages, and repeated handling and swings of temperature and humidity can damage glued artworks (Wikipedia). Rot: made-up glue is food for bacteria and mould and spoils, and liquid hide glue with urea slowly weakens with age (Wikipedia; SkillCult; Valley Woodworkers). Old Brown Glue is not affected by freezing (Old Brown Glue FAQ).
+- **safety_notes**: Low toxicity: the glue itself is non-toxic, and Woodcraft notes you needn't worry if a dog raids the glue pot (Woodcraft; Fine Woodworking). Hazards are mainly heat: the glue pot and water bath are around 60 °C, a hot plate and water are used together, and a heat gun used to warm parts can scorch wood if held still (Valley Woodworkers). A pot that boils dry burns the glue and makes a strong, unpleasant smell (Rockler). Glue that smells rancid has spoiled: throw it out (Fine Woodworking, Patrick Edwards). Bottled liquid hide glue can contain additives that irritate the eyes; Titebond's label says 'CAUTION: EYE IRRITANT' and to rinse for 15 minutes if it gets in the eyes (Titebond).
+- **common_failures**: Glue gels before the parts are clamped, leaving a weak 'Jello' joint: do a dry run, warm the parts and the room, work fast, or add a little urea (Valley Woodworkers; Wikipedia). Overheated or repeatedly reheated glue loses strength: keep it at about 60 °C and make fresh batches (Wikipedia; Rockler). Spoiled glue from poor storage, or liquid hide glue past its date, fails: check smell and dates (Fine Woodworking; Valley Woodworkers). Joints fail after getting wet or in damp places (Rockler; Titebond). Poor-fitting, gappy joints are weak because it doesn't fill gaps well (Valley Woodworkers). A hard knock can pop a joint cleanly apart because the glue is brittle; the plus side is a clean break that is easy to re-glue (Wikipedia; Valley Woodworkers). Too many freeze-thaw cycles of pre-made glue bottles have caused failures (Valley Woodworkers). Squeeze-out left to dry hard is very hard to remove: scrape it off while it is still jelly and wipe with hot water (Valley Woodworkers). Valley Woodworkers). *(unverified parts omitted)*
+- **related**: 
+  - PVA wood glue (white and yellow glue): easier (no heating, longer open time) and water-resistant grades exist, but it creeps under constant load, does not stick to itself, and must be scraped out before re-gluing (Wikipedia; LD Davis; Woodcraft)
+  - Liquid hide glue: the same glue with urea added so it stays liquid at room temperature; covered in this entry (Wikipedia; Old Brown Glue FAQ)
+  - Rabbit-skin glue and fish glue (isinglass): related animal glues; rabbit-skin glue is more flexible when dry and used for sizing canvases and bookbinding (Wikipedia)
+  - Casein glue: a traditional protein glue made from milk (Wikipedia, Wood glue)
+  - Two-part epoxy: gap-filling and waterproof, bonds plastics and metal, but is effectively permanent
+  - Contact adhesive (contact cement): a modern way to lay veneer without a press, but not reversible (Fine Woodworking #129 compares it unfavourably for veneering)
+  - Hot-melt adhesive (glue gun): also sets by cooling, but is a soft plastic that fills gaps and is weak in wood joints
+  - Polyurethane glue: water-resistant and gap-filling (foams), for outdoor wood; not reversible (Woodcraft)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Glutinleime-warm.jpg (Wikimedia Commons, by Simon A. Eugster)](https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg): Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid *(licence: CC BY-SA 3.0)*
+  - [Old hot hide glue pot (Wikimedia Commons, by Joost J. Bakker IJmuiden)](https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg): Photo of a traditional pottery glue pot used to heat and dispense hot hide glue *(licence: CC BY 2.0)*
+  - [A Quick Guide to Hot Hide Glue (Popular Woodworking, Logan Wittmer, 2024)](https://www.popularwoodworking.com/techniques/a-quick-guide-to-hot-hide-glue/): Numbered step photos: granules poured into a double-boiler glue pot, covered with cold water, melting as it heats, and thinned to a runny syrup *(licence: link only)*
+  - [Using hot hide glue (YouTube, StewMac)](https://www.youtube.com/watch?v=Raq3pbGmmOg): Video demonstration of preparing and using hot hide glue for instrument work (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [How to Make a Rub Joint with Hide Glue - Build a Side Table with Hand Tools (YouTube, Bob Rozaieski Fine Woodworking)](https://www.youtube.com/watch?v=OKkCHM0sDks): Video of edge-joining boards with a rubbed hide-glue joint and no clamps (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Valley Woodworkers: Hot Hide Glue Information (Don Parker, 2023, club handout PDF)](https://valleywoodworkers.org/wp-content/uploads/2022/03/Hot-Hide-Glue-Information-2023.pdf): A six-page beginner's how-to for mixing and using your own hot hide glue with a kitchen scale, a glass jar in a pan of water on a hot plate and a meat thermometer, plus tips on urea, freezing batches and bottled liquid hide glue *(licence: link only (no licence stated))*
+  - [Choosing and mixing hot hide glue (Fine Woodworking video workshop, W. Patrick Edwards, 2020)](https://www.finewoodworking.com/2020/03/20/choosing-and-mixing-hot-hide-glue): Article and video (part of a four-part series, which also covers glue blocks, rub joints and hammer veneering) on choosing 192 g granulated hide glue and mixing it; the full videos may need a membership *(licence: link only)*
+- **diagram_idea**: A three-stage loop showing the same glue as dry granules, then warm liquid in a water-bath pot (about 60 °C), then jelly as it cools in a wood joint, then hard dry glue, with a return arrow labelled 'add water + heat' back to liquid to show why the joint can be taken apart and re-glued.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Animal_glue
+  - https://en.wikipedia.org/wiki/Wood_glue
+  - https://www.popularwoodworking.com/techniques/a-quick-guide-to-hot-hide-glue/
+  - https://oldbrownglue.com/faq/
+  - https://www.titebond.com/product/glues/9e9995b4-08eb-4fc6-8254-c47daa20f8ed
+  - https://valleywoodworkers.org/wp-content/uploads/2022/03/Hot-Hide-Glue-Information-2023.pdf
+  - https://www.woodcraft.com/blogs/sanding-finishing/complete-guide-to-woodworking-glues
+  - https://www.rockler.com/learn/understanding-wood-glue
+  - https://www.rockler.com/learn/using-classic-hide-glue-in-modern-shop
+  - https://www.finewoodworking.com/2020/03/20/choosing-and-mixing-hot-hide-glue
+  - https://www.finewoodworking.com/2020/03/20/glue-blocks-and-rub-joints-with-hide-glue
+  - https://www.finewoodworking.com/1998/04/01/sticking-with-hide-glue
+  - https://blog.lddavis.com/hide-glue-strength-for-woodworking-applications
+  - https://skillcult.com/blog/2013/07/21/hide-glue-part-i-meet-hide-glue
+  - https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg
+  - https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg
+  - https://commons.wikimedia.org/wiki/File:Knochenleim_Granulat.jpg
+  - https://www.youtube.com/watch?v=Raq3pbGmmOg
+  - https://www.youtube.com/watch?v=OKkCHM0sDks
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, making_tips_3d_printing, materials, when_not_to_use
 
 ## 232 Epoxy putty (kneadable two-part putty)
 
 *adhesives & bonding.* Two doughs kneaded together that set hard in place, for filling gaps, repairing and building up shapes that can then be drilled and tapped
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A two-colour modelling clay: cut off equal amounts of the two parts, knead them together until the colour is even, press the dough into a crack, hole or joint, and within minutes to hours it sets rock hard and stuck in place; once hard you can sand, file, drill and even cut a screw thread in it
+- **term**: Epoxy putty (two-part, hand-mixable epoxy putty)
+- **aliases**: 
+  - epoxy putty stick, two-part epoxy putty, hand-mixable epoxy (Wikipedia; Loctite Repair Putty data sheet)
+  - repair putty, metal repair putty, steel-filled or steel-reinforced epoxy putty (Loctite EA 3463 data sheet; J-B Weld)
+  - epoxy modelling or sculpting putty; 'green stuff' among miniature modellers, from the yellow and blue parts that mix to green (Wikipedia)
+  - Milliput (brand; UK modelling and repair putty), Pratley Putty (brand; South Africa) (Wikipedia)
+  - J-B Weld SteelStik (brand), Loctite Repair Putty and Loctite EA 3463 (brands) (J-B Weld; Henkel data sheets)
+  - Oatey Fix-it Stick, QuikSteel, PC-7, KBS NuMetal, Gorilla Glue Epoxy Stick, POR 15 Epoxy Putty (brands tested by Project Farm; AllOutdoor)
+- **family**: adhesives & bonding
+- **other_families**: seals & pass-throughs
+- **one_liner**: Epoxy putty is a two-part dough of epoxy resin and hardener that you knead together by hand and press into place, where it sets into a hard, shrink-free, glued-on solid for filling gaps, plugging leaks, repairing and building up shapes that can then be sanded, drilled and tapped.
+- **complexity**: Single piece once mixed: two doughs (resin and hardener), usually sold as two bars or as one stick with the hardener as a core or outer layer, mixed 1:1 (Wikipedia; Milliput instructions; Loctite Repair Putty). Helpers: gloves, a knife to cut it, water or a damp cloth to smooth it, sandpaper or a wire brush for preparing surfaces (Loctite Repair Putty data sheet).
+- **how_it_works**: Each part is a clay-like paste: one holds epoxy resin, the other the hardener (for example a polymercaptan in Loctite Repair Putty), both packed with filler such as talc or steel powder (Loctite data sheets; Wikipedia). Kneading mixes them and starts a heat-releasing (exothermic) chemical reaction that joins the molecules into a hard, cross-linked plastic (a thermoset), so once set it will not melt when heated (Wikipedia). Because it hardens by reaction rather than by drying, it does not shrink, so it can fill gaps and be moulded into a solid part (Milliput data sheet; Loctite Repair Putty). It sticks to clean, roughened surfaces it is pressed against, and after it has set it can be sanded, filed, drilled and tapped like a soft metal or hard plastic (J-B Weld; Milliput on Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: sticks broken parts together and bonds itself to the surface it is pressed onto (Loctite Repair Putty)
+  - seal it, or pass cables or fluid through: plugs leaks in pipes and tanks and cures under water (Loctite EA 3463; Loctite Repair Putty)
+  - join and hold: fills oversized or stripped holes so a screw can be fitted again, and builds up worn or missing material (Loctite EA 3463; J-B Weld)
+- **motion**: none: a rigid repair or joint
+- **degrees_of_freedom**: 0: the bonded or filled parts are locked together
+- **special_behaviour**: 
+  - none of the listed behaviours. Its own tricks: it fills gaps and can be modelled into missing pieces without shrinking; once hard it can be machined (sanded, drilled, tapped); many repair putties cure on damp surfaces and even under water (Milliput data sheet; J-B Weld; Loctite EA 3463; Loctite Repair Putty)
+- **holding_principle**: material bond (glue, solvent or melting): the cured epoxy sticks to the surfaces it was pressed onto (Loctite Repair Putty) *(unverified parts omitted)*
+- **input_output**: not applicable
+- **power**: passive (no power needed): cures by itself at room temperature once mixed; gentle warmth speeds the cure and cold slows it (Loctite EA 3463 cure-speed chart; Milliput data sheet).
+- **removability**: permanent: cured putty can only be cut away with a sharp blade, ground or drilled out (Loctite Repair Putty: 'Cured putty may be cut away with caution using a sharp blade').
+- **reuse_cycles**: once: it cannot be softened and reused; a failed repair is cut or ground out and redone
+- **tools_needed**: A knife to cut off the amount needed; nitrile or other impervious gloves for kneading; water or a damp cloth for smoothing; sandpaper or a wire brush and a solvent (or soap and warm water) to clean and roughen the surfaces first. After curing: files, sandpaper, a drill, and a tap if you want a thread (Loctite Repair Putty; Loctite EA 3463; Milliput instructions; J-B Weld).
+- **seal**: watertight: it forms a waterproof seal and is used to stop leaks in pipes, tanks, tubs and showers; Loctite's all-purpose putty is rated safe for drinking water and cures under water (Loctite Repair Putty; Loctite EA 3463). Some putties held pipe pressure in Project Farm's test (PC-7 paste did best) (AllOutdoor).
+- **load**: medium, best in compression and as a filler: a steel-filled putty (Loctite EA 3463) has 50 MPa (7,200 psi) compressive strength and 18.8 MPa (2,700 psi) tensile strength, but only 3.8 MPa (550 psi) lap-shear strength on grit-blasted steel and 0.3% elongation, so it is hard and brittle. Loctite Repair Putty All-Purpose gives about 1,700 psi (11.7 MPa) shear on steel and about 970 psi (6.7 MPa) on beech after 24 hours, much less on wet surfaces (Henkel data sheets). J-B Weld rates SteelStik at 4,000 psi (test not stated) (J-B Weld). Wikipedia notes that 'hard as steel' claims refer to surface hardness (Shore rating), and the putties are much weaker than steel in tension and shear. Loctite says not to use its repair putty for structural applications or for repairs subject to movement.
+- **adjustable**: no once set. Working time depends on the type: fast metal-repair sticks give only 3-5 minutes (Loctite Repair Putty; Loctite EA 3463: 4 minutes), while modelling putty such as Milliput is sticky at first, turns rubbery and less tacky after about an hour, and is hard in 3-4 hours; one sculptor gives it about two hours of malleable time (Milliput data sheet). Mixed Milliput can be paused for up to 36 hours by putting it in a deep freezer (Milliput instructions).
+- **play_and_precision**: not applicable (nothing moves). It fills gaps of any practical size, but Loctite advises against using its repair putty for large or deep holes (Loctite Repair Putty).
+- **access_needed**: one side only (blind): putty is pressed into a crack, hole or leak from the side you can reach, or packed around a joint (Loctite Repair Putty: 'Work putty firmly into the crack or hole'; Loctite EA 3463).
+- **materials**: Made of epoxy resin and hardener with fillers such as talc or steel powder (Loctite data sheets). Bonds: metals (iron, steel, aluminium), wood, ceramic and porcelain, glass, brick, concrete, fibreglass, PVC and most rigid and semi-flexible plastics (Loctite Repair Putty; Milliput on Wikipedia). Not recommended: polyethylene (PE), polypropylene (PP), non-stick coatings (PTFE), nylon and flexible materials (Loctite Repair Putty). Grades exist for metal repair (steel-filled), high temperatures, tanks, plumbing and drinking water, and fine modelling (J-B Weld; Henkel data sheets; Milliput on Wikipedia). *(unverified parts omitted)*
+- **maker_difficulty**: easy: no measuring or special tools, just knead equal parts to an even colour and press in place; the main skills are thorough mixing, clean roughened surfaces and working within the pot life (Loctite Repair Putty; Milliput instructions).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: sticks and bars of general-purpose, metal-filled, wood, plumbing and modelling putty
+  - 3D print (FDM): filling gaps and seams in printed parts and repairing broken prints before sanding and painting (Tinkerine video)
+  - woodwork: filling holes and rotted areas and rebuilding wood; Loctite quotes bond strength on beech (Loctite Repair Putty; Milliput on Wikipedia)
+  - metal repair and CNC-style finishing: rebuilding worn metal parts, filling oversized bolt holes, then drilling, tapping, filing or machining (Loctite EA 3463; J-B Weld)
+  - model making and sculpture: miniatures ('green stuff'), restoring porcelain and pottery (Wikipedia; Milliput data sheet) *(unverified parts omitted)*
+- **print_in_place**: no: it is a separate material pressed onto or into parts after printing, although a print can be designed with a pocket for it.
+- **making_tips_3d_printing**: 1) Prepare the print: sand the area to remove the shiny skin and give the putty something to grip, then clean off dust and grease; 'abrading the surface will improve adhesion' (Milliput instructions; Loctite Repair Putty). 2) Mix equal parts until there are no streaks at all: about 1 minute for Loctite Repair Putty, 2-3 minutes for Loctite EA 3463, at least 5 minutes plus one more for Milliput (Henkel data sheets; Milliput instructions). Wear gloves. 3) Press it firmly into the gap so it contacts all surfaces, then smooth it with a wet finger or damp cloth before it hardens; water stops it sticking to fingers and tools (Milliput; Loctite). 4) Choose the working time to suit the job: fast metal putties (3-5 minutes) for small repairs, modelling putty (roughly 1-2 hours before it gets too firm) for sculpting details or filling seams on cosplay and model prints (Loctite Repair Putty; Milliput data sheet). 5) To make a strong screw hole in a print, fill an oversized hole or pocket with putty, let it cure fully (J-B Weld SteelStik can be drilled and tapped after 60 minutes; Loctite Repair Putty after 15-60 minutes), then drill a tap-size hole and cut the thread; Loctite EA 3463 is sold for 'filling oversized bolt holes' (J-B Weld; Henkel data sheets). In Project Farm's drill-and-tap pull-out test KBS NuMetal did best, then J-B Weld SteelStik and Oatey Pro Poxy 20 (AllOutdoor). 8) Avoid it on nylon, PP and flexible TPU prints (Loctite Repair Putty). 9) Sand the cured putty flush with P100-P400 paper, wearing a dust mask ('Do not breathe fumes/dust while sanding', Loctite Repair Putty), then prime and paint as for body filler (Prusa post-processing guide). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'epoxy putty stick' (co-extruded, cut-and-knead); 'steel-reinforced' or 'steel-filled epoxy putty' (e.g. J-B Weld SteelStik, Loctite EA 3463, QuikSteel, brands); 'high-temperature epoxy putty' (J-B Weld HighHeat, brand); 'plumbing' or 'potable-water epoxy putty' and 'underwater epoxy putty'; 'tank repair putty' (J-B Weld TankWeld, brand); 'wood epoxy putty'; and 'epoxy modelling putty' or 'sculpting putty' (Milliput grades including Superfine White, brand; 'green stuff') (J-B Weld; Henkel; Wikipedia; Milliput data sheet).
+- **rules_of_thumb**: 
+  - Mix equal amounts and knead until the colour is completely even with no streaks: at least 5 minutes plus one more for Milliput, 2-3 minutes for Loctite EA 3463, about 1 minute for Loctite Repair Putty (Milliput instructions; Henkel data sheets).
+  - Working time: 3-5 minutes for fast repair sticks (Loctite Repair Putty; Loctite EA 3463: gel 3 min, working life 4 min at 25 °C); modelling putty such as Milliput turns rubbery after about an hour, hard and tack-free in 3-4 hours and rock hard overnight (Milliput data sheet).
+  - Machining: J-B Weld SteelStik 'sets in 5 minutes and after 60 minutes, can be drilled, tapped, machined, ground, filed and painted' (J-B Weld); Loctite Repair Putty can be sanded, drilled or painted after 15-60 minutes and fully cures in 24 hours (Henkel); Milliput hardens fully in 24 hours before carving, sanding and drilling (Wikipedia, Milliput).
+  - Strength (steel-filled Loctite EA 3463, cured 1 week at 23 °C): compressive 50 MPa, tensile 18.8 MPa, lap shear 3.8 MPa on grit-blasted mild steel, Shore D 70, elongation 0.3% (Henkel TDS, March 2021). Loctite Repair Putty All-Purpose: shear 1,703 ± 58 psi on steel and 969 ± 26 psi on beech, falling to 747 and 207 psi on wet surfaces; Shore D 84 (Henkel TDS, 2019).
+  - Temperature: Loctite Repair Putty is rated -27 to 121 °C for fills but only up to 70 °C for load-bearing bonds; Loctite EA 3463's glass transition (softening) temperature is 54 °C; J-B Weld SteelStik 'will withstand temperatures up to 350°F' (177 °C) (Henkel; J-B Weld).
+  - Apply between about 4 and 35 °C (Loctite Repair Putty) or 15-30 °C (Loctite EA 3463), and never to surfaces hotter than 66 °C (Loctite EA 3463). Store unopened sticks at about 8-21 °C (Loctite EA 3463).
+  - Shelf life about 2 years (Milliput: 'about 2 years', often workable much longer; Loctite Repair Putty: 24 months from manufacture).
+  - Surface preparation matters most: clean, dry, grease-free and roughened; bonding to wet surfaces works but is weaker (Henkel data sheets; Milliput instructions).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A plumber's repair stick pressed round a leaking pipe or tank (Loctite EA 3463; Loctite Repair Putty)
+  - Miniature and wargaming figures sculpted or converted with 'green stuff' (Wikipedia)
+  - A chipped porcelain figure or pottery restored with Milliput and painted to match (Milliput data sheet; Wikipedia)
+  - A stripped screw hole on a drawer pull filled and re-drilled; J-B Weld lists this among its home repair guides (J-B Weld)
+- **when_to_use**: Use it when you need to fill, rebuild or plug rather than just glue a thin line: filling holes, cracks and gaps; rebuilding a broken corner or missing piece; patching a leak in a pipe, tank or boat; restoring worn metal or rotten wood; and making a solid spot that can then be drilled and tapped for a screw (Loctite EA 3463; Loctite Repair Putty; J-B Weld; Milliput on Wikipedia). Its modelling-clay consistency lets it be shaped and formed before it cures (Loctite Repair Putty), and underwater-rated types handle damp or wet repairs (Loctite Repair Putty; Loctite EA 3463). For 3D prints it fills seams and gaps between glued parts, repairs broken prints and adds sculpted detail (Tinkerine video; Wikipedia).
+- **when_not_to_use**: For thin, close-fitting glue joints use liquid epoxy or CA, which flow into a thin bond line; the putty's own lap-shear strength is modest (3.8 MPa for Loctite EA 3463 on steel; Henkel). Don't use it for structural or load-bearing joints, parts that flex or move, or large or deep holes (Loctite Repair Putty). Avoid it on polyethylene, polypropylene, non-stick (PTFE) surfaces, nylon and flexible materials; use a low-surface-energy adhesive, plastic welding or mechanical fasteners there (Loctite Repair Putty). Avoid it for hot parts beyond its rating (e.g. above 70 °C for load-bearing Loctite Repair Putty bonds) and in pure-oxygen systems (Henkel). If the parts must come apart later, use screws, threaded inserts or a removable joint. For a smooth cosmetic finish over large areas of a print, spray filler or body filler sands more easily (Prusa post-processing guide).
+- **environment_limits**: Heat: it will not melt once cured (Wikipedia), but it softens and weakens: Loctite Repair Putty is rated to 121 °C for fills and 70 °C for load-bearing bonds, Loctite EA 3463 has a glass transition temperature of 54 °C, and J-B Weld SteelStik claims 177 °C (350 °F) (Henkel; J-B Weld). Cold: Loctite Repair Putty is rated down to -27 °C, and the uncured putty is not damaged by freezing (Henkel). Water: waterproof and resistant to most common solvents once cured, and some grades cure under water, but bonds made on wet surfaces are weaker (Loctite Repair Putty; Loctite EA 3463). Oil: J-B Weld lists SteelStik as water and oil resistant. Flexing and vibration: very little stretch (0.3% elongation for EA 3463), so it cracks if the part bends or moves (Henkel). *(unverified parts omitted)*
+- **safety_notes**: Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airways: wear impervious (e.g. nitrile) gloves and wash hands after use (Loctite Repair Putty; Milliput instructions). Don't lick fingers or tools to smooth it, a habit among sculptors that the Milliput data sheet calls 'inadvisable on health grounds'; use water or a lubricant instead. Don't breathe the dust when sanding cured putty (Loctite Repair Putty). Loctite's label carries a California Proposition 65 cancer warning and 'may cause allergic skin reaction'. Keep out of reach of children, and don't use steel-filled putty in pure-oxygen or chlorine systems (Henkel; Milliput). *(unverified parts omitted)*
+- **common_failures**: Soft, sticky or weak spots from uneven mixing: knead until there are no streaks, especially with same-colour grades such as Superfine White Milliput (Milliput instructions). The repair pops off because the surface was greasy, dusty, smooth or wet: clean, dry and roughen first (Henkel; Milliput). It won't stick to PE, PP, PTFE or nylon (Loctite Repair Putty). Cracks where the part flexes or moves, because cured putty barely stretches (Loctite Repair Putty; EA 3463 elongation 0.3%). Working past the pot life, so it no longer wets the surface; mix only small amounts of fast putties (Henkel). Weak threads or loose screws when drilled and tapped before full cure; wait the full time (J-B Weld; Henkel). Softening near hot parts above its rated temperature (Henkel). Hardened putty stuck on tools: clean them straight away with a wet rag (Milliput).
+- **related**: 
+  - Two-part epoxy (liquid): the same chemistry as a liquid; better for thin, close-fitting bond lines and higher shear strength, but runs and needs containment for filling
+  - Polyester body filler and spray filler: cheaper, sand more easily for cosmetic smoothing of prints, but not for strong repairs or leaks (Prusa post-processing guide)
+  - Cyanoacrylate mixed with talc, microballoons or baking soda: a quick 'makeshift putty' for small gaps in prints (Prusa gluing guide)
+  - Heat-set threaded inserts and printed or tapped threads: the usual way to put a screw thread into a print; putty is an alternative for repairing stripped or oversized holes (CNC Kitchen tests via Hackaday)
+  - Hot-melt adhesive (glue gun): also fills gaps quickly, but stays soft, weak and heat-sensitive
+  - Structural acrylic and low-surface-energy plastic adhesives: for PE and PP, which epoxy putty cannot bond (Loctite Repair Putty limitation)
+  - Silicone and MS-polymer sealants: flexible, waterproof gap-fillers where the joint moves; epoxy putty is rigid
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Epoxy putty.jpg (Wikimedia Commons, by Salil Kumar Mukherjee)](https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg): Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal amounts *(licence: CC BY-SA 4.0)*
+  - [Which Epoxy Putty Brand is Best? JB Weld, Gorilla, Oatey, POR 15, QuickSteel, PC-7 (YouTube, Project Farm)](https://www.youtube.com/watch?v=R3r0UZ7txzs): Video testing twelve epoxy putties: drill-and-tap pull-out strength, crush resistance, sealing a pressurised pipe, an engine repair and a putty-joined chain (title and channel checked via YouTube oEmbed; content summarised by AllOutdoor) *(licence: link only (standard YouTube licence))*
+  - [Post-Processing 3D Printed PLA Print with Epoxy Putty (YouTube, Tinkerine)](https://www.youtube.com/watch?v=k5VkDj82_dc): Video of using epoxy putty to fill and finish a 3D-printed PLA part (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [Milliput Product Datasheet (distributor copy, MBFG)](https://www.mbfg.co.uk/datasheets/milliput_tech.pdf): Instructions plus photos of a restorer rebuilding a missing lute head on a ceramic figure with Milliput, and a sculptor's article on building figures over a wire armature *(licence: link only)*
+  - [Stuff Breaks. What's the Best Epoxy Putty? (AllOutdoor, Russ Chastain, 2021)](https://www.alloutdoor.com/2021/01/26/stuff-breaks-whats-best-epoxy-putty/): Screenshot and written summary of Project Farm's epoxy putty tests with the winner of each test *(licence: link only)*
+- **make_it_yourself**: 
+  - [Glue strength test pieces (MethodicalMaker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236948-glue-strength-test-pieces): Printable specimens for comparing adhesives in torque, shear and tension with a torque adapter and a hanging scale; the designer sands glue faces with 80 grit, washes, clamps and waits 5 days. Made for glues in general, it can be used to compare a putty against liquid epoxy or CA on your own filament. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: Three panels: two coloured sticks cut and kneaded into one even colour; the dough pressed into a chipped corner of a part and smoothed with a wet finger; then the hardened patch sanded flush with a hole drilled and tapped through it and a screw going in.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Epoxy_putty
+  - https://en.wikipedia.org/wiki/Milliput
+  - https://en.wikipedia.org/wiki/Pratley_Putty
+  - https://loctite.mn/wp-content/uploads/2025/06/LOCTITE-EA-3463-en_US.pdf
+  - https://datasheets.tdx.henkel.com/LOCTITE-Repair-Putty-All-Purpose-en_US.pdf
+  - https://www.jbweld.com/product/steelstik-epoxy-putty-stick
+  - https://www.mbfg.co.uk/datasheets/milliput_tech.pdf
+  - https://www.cousinsuk.com/PDF/products/3651_C4908-C4909Instructions.pdf
+  - https://www.alloutdoor.com/2021/01/26/stuff-breaks-whats-best-epoxy-putty/
+  - https://blog.prusa3d.com/postprocessing-of-3d-prints-step-by-step_29270/
+  - https://blog.prusa3d.com/the-great-guide-to-gluing-and-assembling-3d-prints_44908/
+  - https://hackaday.com/2022/11/01/the-best-threaded-holes-for-resin-parts/
+  - https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
+  - https://www.youtube.com/watch?v=R3r0UZ7txzs
+  - https://www.youtube.com/watch?v=k5VkDj82_dc
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, holding_principle, making_tips_3d_printing, materials, processes, safety_notes
 
 ## 270 Glued joint design (butt, lap and scarf joints; peel vs shear)
 
 *adhesives & bonding.* How the shape of a glued joint decides its strength, since most glues are strong in shear and weak when peeled or pulled straight apart
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: How to shape the faces you glue together so the glue is slid along (strong) rather than peeled or pulled straight apart (weak): overlap the parts, or cut long slanted ends, instead of just sticking two ends face to face
+- **term**: Adhesive joint design (bonded joint geometry): butt, lap (overlap) and scarf joints; shear, tension, compression, peel and cleavage loading
+- **aliases**: 
+  - glued joint, bonded joint, adhesive joint, glue line or bondline (Henkel LOCTITE design guide; Wood Handbook)
+  - butt joint, head-to-head joint, end-grain butt joint (Loctite manual; Wood Handbook)
+  - lap joint, overlap joint, single lap joint, offset joint; half lap, end lap, cross lap (Henkel; Wikipedia 'Lap joint')
+  - joggle lap joint; tapered or bevelled lap joint; double lap joint; double butt lap joint (3M; Loctite manual)
+  - strap joint, single strap, double strap, recessed or bevelled double strap (Henkel; Loctite manual)
+  - scarf joint, scarph joint, plain scarf, stepped scarf, stepped lap, landed scarf tongue and groove (Wikipedia 'Scarf joint'; 3M; Loctite manual)
+  - fingerjoint (finger joint) for lengthening timber (Wood Handbook)
+  - tongue-and-groove joint, cylindrical or slip joint, T-joint (3M; Henkel)
+  - load types: shear, tensile (tension), compressive, peel, cleavage; tests: lap shear (ASTM D1002, ISO 4587), T-peel (ISO 11339), wedge (cleavage) test (Loctite manual)
+  - hybrid joining (glue plus rivets, screws, spot welds or clinching) (Wikipedia 'Adhesive bonding')
+- **family**: adhesives & bonding
+- **other_families**: interlocking joints & joinery, print-in-place & 3D-printing joints
+- **one_liner**: The rules for shaping a glued joint so that the glue is loaded in shear (the two faces sliding past each other) or compression over a wide area, and never peeled from one edge or split open like a wedge, because almost every glue is many times stronger in shear than in peel or cleavage.
+- **complexity**: A few parts: the two pieces being joined, a layer of glue, and sometimes an extra part such as a strap (splice plate), dowel, peg, spline or rivet. The design choices are the joint shape (butt, lap, joggle lap, tapered lap, double lap, strap, scarf, stepped lap, tongue and groove), the overlap length and width, the glue-line thickness and how the load reaches the joint.
+- **how_it_works**: Glue carries load best when the whole glued area shares it: sliding the faces past each other (shear) or pressing them together (compression) spreads the load over the joint, while peel (a flexible part lifted from one end, like tape) and cleavage (rigid parts levered open at one end) put almost all the load on the first thin line of glue, which tears and then 'unzips' along the joint (Henkel LOCTITE design guide; Loctite manual; Sika). A butt joint only has the small end area and puts the glue in tension, and any bending turns that into cleavage, so it is the weakest joint (Loctite manual; 3M). A lap joint gives much more area and loads the glue in shear, but the offset makes it bend, so the ends of the overlap carry most of the load and failure starts there in peel (Sika; Steven Abbott). A scarf joint cuts both parts on a long slant so the glue area is many times the cross-section and the load runs along the glue line in shear; that is why scarfed or finger-jointed wood can reach up to about 90% of the strength of solid wood while an end-grain butt joint reaches only about 25% (Wood Handbook).
+
+### Finder attributes
+
+- **job**: glue or bond: joins parts permanently with an adhesive, join and hold: the joint shape decides how strong and stiff the glued connection is
+- **motion**: none
+- **degrees_of_freedom**: 0: once the glue has cured the parts are fixed together
+- **special_behaviour**: 
+  - none: a glued joint has no mechanism; its 'clever' part is the geometry that turns peel and cleavage into shear and compression
+  - self-aligning or self-centring (only for some shapes): tongue-and-groove, stepped lap and stepped scarf joints, pegs and landed scarfs locate the parts and can set the glue-line thickness, whereas plain butt, scarf and lap joints need a jig or clamps (Loctite manual joint suitability table; 3M; Prusa)
+- **holding_principle**: material bond (glue), sometimes helped by shape (tongue and groove, stepped laps, dovetails, pegs) or by added fasteners (hybrid joining: rivets, screws, clinching)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: most structural glue joints can't be undone without damaging a part; cyanoacrylate can be dissolved with a debonder (Prusa gluing guide), and some glues are easier to remove than others (Wikipedia 'Adhesive bonding')
+- **reuse_cycles**: once
+- **tools_needed**: glue and mixing tools; clamps, clothes pegs, rubber bands or weights to hold the parts while the glue cures (Prusa); sandpaper and a solvent or soap to clean the faces (Prusa; Printables 'Glue strength test pieces'); for scarf joints in wood a plane, saw, router or scarfing jig to cut a long, even taper; shims or spacer beads to set glue-line thickness (Loctite manual)
+- **seal**: none by design; a continuous, gap-free glue line with a water-resistant glue can also seal the joint (sealing is listed as a side benefit of bonding in Wikipedia 'Adhesive bonding'), but spot-glued joints do not seal
+- **load**: From light to heavy depending on the glue, the area and the shape: strong in shear and compression, weak in tension across a butt joint, and weakest in peel and cleavage, where stress is concentrated at one edge (Henkel; 3M; Sika). Lap joints are strongest when forces are parallel to the parts and weak when bent (Loctite manual; Printpool). In wood, an end-grain butt joint reaches only about 25% of the wood's tensile strength, a good scarf, finger or lap joint up to about 90% (Wood Handbook). In plastics and 3D prints the part itself often breaks before a well-designed bond (Henkel).
+- **adjustable**: no: position is fixed once the glue sets; only during the glue's working time (seconds for superglue, minutes to hours for epoxy and wood glue) can the parts be moved (Prusa)
+- **play_and_precision**: None once cured. Accuracy depends on how the parts are located while the glue cures: plain butt, scarf and lap joints have no self-alignment, stepped laps and scarfs are better, and tongue-and-groove is best (Loctite manual joint suitability table); pegs or alignment pins help printed parts line up (Prusa; Printpool). The glue line must be even and the faces parallel, or the load goes off-axis and turns into cleavage (Loctite manual).
+- **access_needed**: not applicable: glue goes on the mating faces before the parts are put together; clamping usually needs access to both sides of the joint
+- **materials**: Applies to any glue and material. Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries).
+- **maker_difficulty**: easy for lap, stepped-lap and pegged joints (easy to model in CAD or cut with hand tools); moderate for scarf joints, which need a long, accurate, flat taper (1 in 8 to 1 in 12 in wood) and a jig or careful planing
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): split large prints with lap, stepped-lap, tongue-and-groove or pegged glue faces instead of flat butt faces
+  - 3D print (resin): the same joint shapes; superglue and epoxy bond resin prints
+  - woodwork: scarf joints and finger joints to lengthen boards, half laps and edge-grain glue-ups
+  - laser cut and CNC: slot-and-tab or stepped features that add glue area and locate the parts
+  - sheet metal: joggle laps, straps and folded flanges bonded with structural adhesives
+- **print_in_place**: no: glued joints are made from separate parts that are glued after printing
+- **making_tips_3d_printing**: (1) Never rely on a flat butt joint between two printed faces: it has little area and loads the glue in tension, so it is the first to fail when knocked; use a lap joint, a tongue and groove (about twice the glue area of a simple lap and stronger in bending), a mortise and tenon or a dovetail, and round sharp corners, which act as stress raisers (Printpool). (2) Design so the joint is loaded in shear and compression, not peel: make the glued area wider rather than longer, because extra overlap length adds little strength while extra width adds strength almost in proportion (Henkel LOCTITE plastics guide; Sika). In plastics a long overlap is wasted: in one worked example of 1 in x 1/8 in plastic strips, an overlap of 0.58 in gave the same assembly strength as a longer one, because the plastic broke first (Henkel). (3) If you use a scarf in a plastic part, make the glued length at least four times the wall thickness (Loctite manual 5.1.6). (4) Add pegs or alignment pins so the parts line up and share the load (Prusa 'Modeling with 3D printing in mind'; Printpool). (5) Leave room for glue: for printed interlocking parts Formlabs suggests a 0.2 mm gap for small, thin parts and up to 0.4 mm for larger, chunkier ones (FDM needs more clearance than resin), and, if the parts are glued, CA or two-part epoxy applied thoroughly because some glue soaks into the print surface (Formlabs). Rigid glues are strongest in thin, even glue lines of about 0.02-0.2 mm (Loctite manual), so avoid big gaps filled with glue. (6) Surface preparation: make the faces clean and level, sand if needed and remove the dust, and press or clamp the parts together while the glue cures (Prusa gluing guide); one glue tester sands faces with 80-grit paper, washes them with soap and waits 5 days before testing (Printables 'Glue strength test pieces'). (8) Epoxy warms up as it cures and can distort thin prints, so allow a slightly looser fit (Printpool). (9) For permanent, strong assemblies, let the joint shape carry the load and use the glue mainly to stop it loosening (Printpool). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Adhesives (two-part epoxy, cyanoacrylate with activator and debonder, PVA wood glue, polyurethane, structural acrylic; see the adhesive entries); dowels, biscuits, splines and alignment pins to add shape and area; splice plates or straps for strap joints; clamps (bar, spring, F-clamps), clothes pegs and rubber bands (Prusa); scarfing jigs and guides for planes, routers and saws (woodwork); shims or glass spacer beads to control glue-line thickness (Loctite manual); rivets, screws and clinch tools for hybrid joints (Wikipedia 'Adhesive bonding').
+- **rules_of_thumb**: 
+  - Maximise shear and compression and minimise peel and cleavage: in peel and cleavage the stress sits at one end of the bond line, while in shear both ends resist it (Henkel, The LOCTITE Design Guide for Bonding Plastics, Vol. 6, p. 79, https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-design-guide-plastic-bonding.pdf; Sika, General Guideline Structural Bonding, 2022, sections 2.2-2.3, https://industry.sika.com/dam/dms/global-industry/b/general-guidelinestructuralbonding.pdf; 3M Technical Bulletin 'Joint Design for Structural Adhesives', 2017, https://multimedia.3m.com/mws/media/79082O/joint-design-for-structural-adhesives-technical-bulletin.pdf).
+  - 'Wider is better': increase joint width rather than overlap, because the ends of the overlap carry most of the load; a much longer overlap adds little if any strength (Henkel guide p. 79). Strength rises linearly with width but less and less with overlap, especially with rigid glues; two joints of equal area bonded with the same rigid epoxy differed by more than 10 MPa, the wider one being stronger (Sika, section 2.4 and Fig. 11).
+  - In plastic lap joints, stress concentration at the overlap ends falls with a shorter overlap (maximum stress ratio 22.5 at 1 in, 13.0 at 0.5 in, 7.17 at 0.25 in, 3.78 at 0.125 in), with a softer adhesive (22.4 at 300,000 psi modulus down to 1.13 at 200 psi) and with a thicker bondline (18.4 at 0.001 in down to 3.06 at 0.040 in) (Henkel guide p. 80, tables based on 0.125 in plastic, 0.5 in overlap, 100 lb load).
+  - Glue-line thickness: for rigid adhesives 0.02-0.20 mm, optimum about 0.1 mm; thicker gaps usually lower strength (Loctite 'Gap requirements for bonded assemblies', https://www.loctitex.com/en/manuals/bonding/5.2.1.1-gap-requirements-for-bonded-assemblies/); 3M gives typically 0.1-0.5 mm depending on the joint (3M bulletin); for stiff structural wood adhesives the strongest bonds are 0.08-0.15 mm (Wood Handbook ch. 10, p. 10-17).
+  - Wood end-grain butt joints reach only about 25% of the wood's tensile strength. To approach the strength of solid wood, a scarf or finger joint needs a glue area at least 10 times the cross-section, because wood is about 10 times stronger in tension than in shear; slopes of 1 in 12 or flatter give the highest strength, 1 in 8 is typical for structural plywood, and a well-made scarf, finger or lap joint can reach up to 90% of clear wood's tensile strength (USDA Forest Products Laboratory, Wood Handbook FPL-GTR-190, ch. 10, p. 10-18, https://research.fs.usda.gov/treesearch/download/37422.pdf). Scarf tapers are generally cut at 1:8 to 1:10, and vintage aircraft restorations need no steeper than 1:8 (Wikipedia 'Scarf joint', https://en.wikipedia.org/wiki/Scarf_joint).
+  - Clamping pressure for wood: about 0.7 MPa (100 psi) for low-density woods, up to 1.7 MPa (247 psi) for the densest; too much pressure squeezes out or drives in the glue and leaves a starved joint (Wood Handbook ch. 10, p. 10-16).
+  - A datasheet shear strength is only a starting point: in Sika's worked example a 28 MPa epoxy was reduced to an allowable 3 MPa after factors for 70 °C service temperature (x0.58), three months' water immersion (x0.94), two million fatigue cycles (x0.39) and a safety factor of 2 (Sika, section 2.5 'Dimensioning with material reduction factors').
+  - A single lap joint bends under load; reduce the end stress peaks with tapered (bevelled) ends, a joggle that brings the loads into line, a double lap or a double strap; use a scarf or stepped lap to make the stress even (Sika sections 2.3-2.4; 3M bulletin; Loctite manual 5.1.3.11-5.1.3.13, https://www.loctitex.com/en/manuals/bonding/5.1.3.11-joggle-lap-joint/). For thin plastic parts the double strap is one of the most effective joints, with straps of similar material and thickness (Loctite manual 5.1.6, https://www.loctitex.com/en/manuals/bonding/5.1.6-joints-with-plastic-and-elastomeric-substrates/).
+  - Avoid butt joints on rods and tubes; use a sleeve, socket or overlapping (slip) joint that adds bonded area and bending strength (Loctite manual 5.1.5, https://www.loctitex.com/en/manuals/bonding/5.1.5-cylindrical-substrates/; 3M bulletin).
+  - The standard lap-shear test mostly fails by peel at the ends of the overlap, and above a minimum overlap its length makes no difference to the breaking force (Steven Abbott, Practical Adhesion Science, https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php).
+
+### When to use it
+
+- **everyday_examples**: 
+  - sticky tape, which is hard to slide off a surface (shear) but peels off easily when lifted from one corner (peel)
+  - finger-jointed and scarf-jointed timber and plywood, made by gluing long slanted ends together (Wood Handbook)
+  - car windscreens and body parts, which are bonded to the car body with adhesives (Wikipedia 'Adhesive bonding')
+  - a large 3D print split into pieces and glued back together, ideally with pegs and overlapping joints (Prusa; Printpool)
+- **when_to_use**: Whenever you glue parts that must carry load: splitting a 3D print that is too big for the printer, lengthening a board or strip, repairing a broken part, joining thin sheets, or bonding different materials that can't be screwed or welded. Choose a lap, double lap or strap joint for thin parts; a scarf or finger joint to lengthen wood, plywood or composite with an almost invisible glue line; tongue and groove or stepped laps when the parts must also locate themselves; and sockets or sleeves for rods and tubes. Glue spreads the load over the whole area without drilling holes, and can seal and damp at the same time (Wikipedia 'Adhesive bonding'; Loctite manual).
+- **when_not_to_use**: Don't design a glued joint that will be peeled, levered open, or bent across a butt joint: redesign it into a lap, sleeve or strap, or add a mechanical fastener (Sika; Loctite manual). Don't glue when you need to take it apart again: use screws, snap fits or interlocking joints instead (Printpool). Don't rely on glue alone where failure would be dangerous (overhead loads, anything that holds people) or where it will get hot: glue strength drops with heat and ageing (Sika) and some glues creep (Wikipedia 'Adhesive bonding'); combine glue with rivets, screws or clinching (hybrid joining). Don't glue end grain to end grain in wood and expect strength; use a scarf, finger joint, dowel, mortise and tenon or biscuit (Wood Handbook). Hard-to-glue plastics (PE, PP, silicone) need a special adhesive or a mechanical joint.
+- **environment_limits**: Heat: adhesive strength and stiffness change with temperature; in Sika's example an epoxy kept only 58% of its room-temperature strength at 70 °C, and service temperatures from -20 °C to 80 °C can shift strength well away from datasheet values (Sika). Water and ageing: temperature, humidity, chemicals, radiation and mechanical stress all age bonds (Wikipedia 'Adhesive bonding'); in Sika's test three months under water kept 94% of the strength. Wood movement: wood swells far more across the grain than along it, so end-to-edge-grain joints build up large internal stresses as moisture changes and should be protected from changes in moisture content (Wood Handbook). Fatigue: repeated loading greatly lowers the usable strength (Sika: to 39% for two million cycles). Creep: some adhesives slowly creep under constant load (Wikipedia 'Adhesive bonding'). Differential expansion between different materials stresses the glue line; flexible adhesives cope better (Wikipedia 'Adhesive bonding'; Loctite manual).
+- **safety_notes**: Glue and solvent fumes: some adhesives, cleaning solvents and primers are hazardous and need proper handling and ventilation (Wikipedia 'Adhesive bonding'); don't breathe superglue fumes (Prusa). Superglue bonds skin in seconds, so wear gloves (Printpool), and it can react hot with cotton or wool, in extreme cases burning a hole and giving off smoke (Prusa). Epoxy gives off heat as it cures (Printpool). Structural safety: a glued joint that looks fine can fail suddenly in peel or after heat, damp or fatigue, and bonded joints can't be fully checked without breaking them (Wikipedia 'Adhesive bonding'); don't trust a glued joint alone with heavy or overhead loads.
+- **common_failures**: (1) Peeling or cleaving from one edge: a flexible part or a lever loads one edge; redesign to shear, stiffen the parts, taper the edges or add a fastener at the edge (Henkel; Sika; Loctite manual). (2) Butt joint snaps when bent or knocked: add area and shape (lap, tongue and groove, dowel, sleeve) (Loctite manual; Printpool). (3) Joint fails at the ends of a long, narrow overlap: make it wider rather than longer (Henkel; Sika). (4) Starved or thick glue lines: too much clamping pressure squeezes the glue out; too little or rough, badly fitting faces leave thick, weak, bubbly glue lines (Wood Handbook; Loctite manual). (5) Poor surface preparation: dust, grease, paint or old glue on the faces (Prusa). (6) End grain soaks up the glue (over-penetration), so the joint is weak (Wood Handbook). (7) The part breaks next to the glue line: in plastics and prints the substrate is often weaker than a good bond (Henkel), so strengthen the part or move the joint. (8) Parts moved during superglue's short setting time, which weakens the bond; clean off and start again (Prusa). (9) Failure after heat, water or many cycles because the datasheet strength was used without safety factors (Sika).
+- **related**: 
+  - Two-part epoxy, cyanoacrylate (superglue), PVA wood glue, polyurethane glue, structural acrylic and the other adhesive entries: the glue itself; this entry is about the shape of the joint that any of them goes into
+  - Butt and lap wood joints (screwed, pocket-hole, half-lap): the same basic shapes held by screws as well as, or instead of, glue
+  - Dowel and biscuit joints: add shape and glue area to a weak butt joint in wood
+  - Finger joint (box joint) and dovetail joint: interlocking shapes with far more glue area than a butt joint
+  - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): printable shapes that locate and help carry load in glued prints
+  - Solvent welding (solvent cement): melts plastic faces together; the same shear-not-peel rules apply
+  - Double-sided foam tape: a pressure-sensitive adhesive that is very sensitive to peel; the same design rules apply
+  - Clinching and rivets: mechanical joints often combined with glue in hybrid joints to stop peel at the edges
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Joint Design for Structural Adhesives, Technical Bulletin (3M, November 2017)](https://multimedia.3m.com/mws/media/79082O/joint-design-for-structural-adhesives-technical-bulletin.pdf): Drawings of lap, joggle lap, tapered lap, double butt lap, double scarf lap, angle, butt, tongue-and-groove, cylindrical, corner and stiffener joints, rated good or fair for different loads *(licence: link only)*
+  - [Woodworking-joint-scarf.gif (Wikimedia Commons, SilentC)](https://commons.wikimedia.org/wiki/File:Woodworking-joint-scarf.gif): Diagram of a plain scarf joint joining two boards end to end on a long slant *(licence: CC BY-SA 3.0 / GFDL 1.2 (dual licensed))*
+  - [Woodworking lap joints.svg (Wikimedia Commons, Fred the Oyster)](https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg): Half lap, mitred half lap, cross lap and dovetail lap joints *(licence: CC BY-SA 4.0)*
+  - [Lap Shear Doesn't Measure Shear (Steven Abbott, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=n0LNrwTk9MQ): Explanation, with an interactive model, of why a lap joint fails by peel at the ends of the overlap *(licence: link only)*
+  - [Shear Strength Adhesive Testing (LOCTITE North America, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=3_9HR64bVus): Manufacturer's video of lap-shear testing of bonded joints *(licence: link only)*
+- **make_it_yourself**: 
+  - [Lap Joint Models: Kendall & Goland-Reissner (Practical Adhesion Science, Prof. Steven Abbott)](https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php): Free interactive web app: enter the thickness and stiffness of the parts and the glue, the overlap and the width, and see where the shear and peel stresses peak along a lap joint *(licence: link only)*
+  - [Glue strength test pieces by MethodicalMaker (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236948-glue-strength-test-pieces): Printable shear, tensile and torque test pieces for comparing glues on 3D prints, with the author's method (80-grit sanding, washing, clamping, 5 days' cure, hanging scale with peak hold) *(licence: CC BY)*
+  - [Glue Adhesion Strength Tester by TinkerTiger (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/327466-glue-adhesion-strength-tester): Two printed testers glued face to face and pulled apart with a luggage scale; print flat or on the side to test different directions *(licence: CC BY-SA)*
+  - [Glue Test Strips by kaje (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/30133-glue-test-strips): Printed strips with a flat face and nesting hemispheres for comparing glues on PLA by flat versus shaped joints *(licence: CC0 / Public Domain)*
+- **diagram_idea**: Four small side-view panels of the same glued strip being loaded: shear (arrows along the joint, glue stress shown evenly spread with small peaks at the ends), tension across a butt joint, cleavage (rigid parts levered open at one end) and peel (a flexible strip lifted like tape), each with a red bar showing where the glue stress piles up; below, the fixes: butt joint to lap, lap to tapered or joggle lap, and a long 1-in-10 scarf.
+- **sources**: 
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-design-guide-plastic-bonding.pdf (Henkel, The LOCTITE Design Guide for Bonding Plastics, Vol. 6, 'Adhesive Joint Design' pp. 77-81)
+  - https://multimedia.3m.com/mws/media/79082O/joint-design-for-structural-adhesives-technical-bulletin.pdf (3M Technical Bulletin 'Joint Design for Structural Adhesives', 2017)
+  - https://industry.sika.com/dam/dms/global-industry/b/general-guidelinestructuralbonding.pdf (Sika Services AG, 'General Guideline Structural Bonding', July 2022, version 2)
+  - https://www.loctitex.com/en/manuals/bonding/5.1-adhesive-joint-design/
+  - https://www.loctitex.com/en/manuals/bonding/4.4-stresses-on-joints/
+  - https://www.loctitex.com/en/manuals/bonding/4.4.1-shear-stress/
+  - https://www.loctitex.com/en/manuals/bonding/4.4.4-peel-stress/
+  - https://www.loctitex.com/en/manuals/bonding/4.4.5-cleavage-stress/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.3.1-head-to-head-or-butt-joints/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.3.2-scarf-joint/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.3.10-overlap-joint/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.3.11-joggle-lap-joint/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.3.13-double-lap-joint/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.5-cylindrical-substrates/
+  - https://www.loctitex.com/en/manuals/bonding/5.1.6-joints-with-plastic-and-elastomeric-substrates/
+  - https://www.loctitex.com/en/manuals/bonding/5.2.1-summary-of-suitability-of-common-bonded-joint-types/
+  - https://www.loctitex.com/en/manuals/bonding/5.2.1.1-gap-requirements-for-bonded-assemblies/
+  - https://research.fs.usda.gov/treesearch/download/37422.pdf (Frihart and Hunt, 'Adhesives with Wood Materials: Bond Formation and Performance', Wood Handbook FPL-GTR-190, 2010, ch. 10)
+  - https://en.wikipedia.org/wiki/Scarf_joint (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Butt_joint (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Lap_joint (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Adhesive_bonding (read as raw wikitext)
+  - https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php
+  - https://blog.prusa3d.com/the-great-guide-to-gluing-and-assembling-3d-prints_44908/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://formlabs.com/blog/how-to-3d-print-interlocking-joints/
+  - https://www.printpool.co.uk/articles/how-to-join-and-bond-3d-printed-parts
+  - https://commons.wikimedia.org/wiki/File:Woodworking-joint-scarf.gif
+  - https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg
+  - https://www.youtube.com/watch?v=n0LNrwTk9MQ (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)
+  - https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing
 

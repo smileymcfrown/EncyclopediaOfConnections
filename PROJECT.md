@@ -4,9 +4,9 @@
 > what has been decided, and where things currently stand.
 > **Every working session should read this first and update it before finishing.**
 
-**Last updated:** 2026-09-26
-**Current phase:** Phase 0 — Research (run 1 done; run 2 in progress: outline confirmed, `/research-deep` running)
-**Next action:** Carry on run 2 by typing `/research-deep` in a session on branch `claude/nice-knuth-wo4ou5` (it skips finished items; progress is in the Research runs table). When all 274 items are done, or the owner asks, run `/research-report` (family, special_behaviour and motion in the contents; `research/connection-types/generate_report.py` is ready)
+**Last updated:** 2026-09-29
+**Current phase:** Phase 0 — Research (runs 1 and 2 done; run 2 waiting for the owner's review)
+**Next action:** Owner reviews run 2: skim `research/connection-types/report.md` (index, with contents by family and by special behaviour) and the family pages in `report/`, then `review-notes.md` (fixes needed before publishing, and 3 possible extra items). Confirm the families and fields, and say whether to add the extra items with `/research-add-items`. Then start run 3 (`research/prompts/03-flowchart-and-format.md`). Run 2 is on branch `claude/nice-knuth-wo4ou5` (not yet merged into `main`)
 
 ---
 
@@ -90,7 +90,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R14 | 2026-09-26 | License the project's own content as CC BY-SA, as run 1 suggested | Decided (recorded below). Add a LICENSE file when content is published |
 | R15 | 2026-09-26 | **Scope:** CNC, laser-cut, woodworking and sheet-metal joinery are in scope from day one (they were never out, just lowest priority) | Done: Priorities and run 2 prompt updated; run 1 topped up with 6 joinery items and `summary.md` section 2.20 rewritten |
 | R16 | 2026-09-26 | Working title is *The Encyclopaedia of Connections*; no final name or domain yet | Recorded |
-| R17 | 2026-09-26 | Run 2 (connection types): build the outline, then `/research-deep` with a commit and push after each batch, then `/research-report` with family, special_behaviour and motion in the contents; update PROJECT.md at the end | In progress: outline confirmed (274 items, 25 families, 41 fields); research running |
+| R17 | 2026-09-26 | Run 2 (connection types): build the outline, then `/research-deep` with a commit and push after each batch, then `/research-report` with family, special_behaviour and motion in the contents; update PROJECT.md at the end | Done 2026-09-29: 274 of 274 items researched and validated; report generated |
 | R18 | 2026-09-26 | Keep all 274 items and all 41 fields; leave borderline types (electrical joints, plastic welding) out for now | Done: recorded in `research/connection-types/outline-notes.md` |
 
 ---
@@ -128,7 +128,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 ### Phase 0 — Research
 - [x] Choose the research tool and set it up (Weizhena/Deep-Research-skills, copied into the repo)
 - [x] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names (54 collections done 2026-09-25; 6 joinery items added 2026-09-26)
-- [ ] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/`
+- [x] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/` (274 types in 25 families, 41 fields each; done 2026-09-29)
 - [ ] Review run 2 with the owner. Confirm the families and fields
 - [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
 - [ ] Expand families where there are gaps (`research/prompts/expand-a-family.md`)
@@ -155,7 +155,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
 | 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25; joinery top-up 2026-09-26. 60 of 60 items researched and validated (34 fields each) |
-| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | In progress: 159 of 274 items researched and validated; **tier 1 (items 1-142) complete**; tier 2 running (the usage limit has interrupted the run four times so far; each time the cut-off agents were relaunched). Interim report: `research/connection-types/report.md` (index) + `report/` (one page per family) |
+| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | Done 2026-09-29. 274 of 274 items researched and validated (41 fields each; about 24 sources per entry). Report: `research/connection-types/report.md` (index; contents show family, special behaviour and motion) + `report/` (one page per family). Unverified sentences (marked `[uncertain]`, on average 6 of 41 fields per entry) are left out of the report but kept in the JSON. Fixes needed before publishing are in `review-notes.md`. The usage limit interrupted the run six times; each time the cut-off agents were relaunched and any files they had written were checked |
 | 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
 
 ---
@@ -182,3 +182,5 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-26 | Started run 2 on `claude/nice-knuth-wo4ou5`. `/research` built the outline from run 1's type list plus one web-search pass (98 pages; added seals, brakes, linkage ends, tube and extrusion fixings and more): 274 types, 25 families, 41 fields; owner confirmed. `/research-deep` batches 1-3 done (54 items, all validated, pushed after each batch); batch 4 was cut off by the usage limit and relaunched. Agents' problems are collected in `review-notes.md`; research rules tightened after batch 2. Report generator written |
 | 2026-09-27 | Run 2: tier 1 complete (items 1-142, plus 143-144). Interim report generated and split into an index plus 25 family pages (a single file would be over 3 MB). Outline descriptions of *Constant-force spring* and *Linear ratchet* corrected after the agents found errors. More research rules: each agent keeps its files in its own scratchpad subfolder |
 | 2026-09-27 | Run 2 continued: batches 4-6 done (108 of 274 items; tier 1 is items 1-142). The usage limit stopped the agents twice; each time the cut-off batch was relaunched (no partial files). New research rules: no personal details in requests (an agent had put part of the owner's email username in a User-Agent header; nothing was stored), and check every number against the raw page text (a WebFetch summary had invented figures) |
+| 2026-09-27 | Run 2 continued to 202 of 274 (tier 2: tube and panel fixings, dampers, brakes, gears and linkages). The commit script now commits every valid file after each agent finishes, so progress survives a cut-off; some files were first committed as drafts and updated later |
+| 2026-09-29 | Run 2 finished: all 274 items researched and validated (the last 72 after two more usage-limit cut-offs; files written before each cut-off were checked and kept). Fixed two entries whose `uncertain` lists missed marked fields. `/research-report` regenerated the report (index + 25 family pages; contents show family, special behaviour and motion). `review-notes.md` now also lists tier 2 and 3 findings: conflicting figures, errors in sources, naming clashes and manufacturer data sheets read from distributor sites |

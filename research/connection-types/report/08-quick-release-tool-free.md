@@ -1127,41 +1127,938 @@
 
 *quick-release & tool-free.* Fittings that grip a tube when it is pushed in and release when a collar is pressed or a sleeve is pulled back
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A fitting you just push a tube into: hidden teeth grab the tube and a rubber ring seals it, and it only lets go when you press a collar in (or, on hose couplers, pull a sleeve back)
+- **term**: Push-to-connect fitting (push-in or push-fit tube fitting) and quick-disconnect coupling (ball-latching, sleeve-type quick coupler)
+- **aliases**: 
+  - push-in fitting, push-fit fitting, push-to-connect (PTC) fitting, instant fitting (Bearing Boys)
+  - quick connect fitting, push fitting, quick connect coupling (Wikipedia, Quick connect fitting)
+  - one-touch fitting (SMC's (brand) catalogue name); push-quick fitting (Clippard's (brand) name)
+  - John Guest (brand) or Speedfit (brand) fitting, SharkBite (brand) fitting (plumbing and water filters; Printables 198167 names SharkBite)
+  - 3D printing: pneumatic fitting, Bowden coupler, PC4-M6 / PC4-M10 fitting, 'Festo fitting' (Festo (brand); Prusa users' name)
+  - quick disconnect (QD), quick coupler, quick-release coupling, air coupler, air-line fitting, pneumatic coupling (Wikipedia, Air-line fitting; Midstate)
+  - ball-latching or snap-type coupler; the two halves are the male nipple or plug and the female coupler or socket (Midstate; Wikipedia, Air-line fitting)
+  - click-on garden hose connector, Hozelock (brand) or Gardena (brand) connector (Wikipedia, Hose coupling)
+- **family**: quick-release & tool-free
+- **other_families**: seals & pass-throughs, self-locking & anti-back-drive
+- **one_liner**: A tube fitting that locks a plastic or soft-metal tube in place and seals it as soon as the tube is pushed in, and releases it by hand when you push its release collar in, or (for hose couplers) a pair of plug-and-socket halves that snap together and come apart when you slide back a spring-loaded sleeve.
+- **complexity**: A small assembly that acts as one unit. Push-to-connect fitting: body (often with a threaded stud for a port), collet or gripper ring with stainless-steel teeth, release collar or button, O-ring seal, and a tube stop inside; an optional plastic locking clip stops the collar being pushed in (Clippard; John Guest via US Plastic; Fresh Water Systems). Sleeve-type quick coupler: a female coupler (socket) holding a ring of steel balls, a spring-loaded sliding sleeve, seals and often a shut-off valve, plus a separate male nipple (plug) with a groove round it (Wikipedia, Air-line fitting; Midstate).
+- **how_it_works**: Push-to-connect: the tube slides through a ring of angled metal teeth (the collet) and an O-ring until it hits a stop; if the tube is pulled, or pressure pushes it outward, the collet is dragged into a tapered groove that squeezes its teeth into the tube, so it grips harder the more you pull, while the O-ring seals round the outside of the tube (Wikipedia, Quick connect fitting; Fresh Water Systems). Pressing the collar squarely into the body spreads the teeth off the tube so it can be pulled out (John Guest via US Plastic). Sleeve couplers: when the plug is pushed in, spring-loaded balls in the socket drop into a groove on the plug and the sleeve slides over them to trap them; pulling the sleeve back gives the balls room to move out and frees the plug (Wikipedia, Air-line fitting; Midstate). Garden-hose click connectors work the same way, with a spring-loaded outer barrel that locks onto the male end (Wikipedia, Hose coupling).
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: joins a tube or hose so air, water or other fluid passes without leaking
+  - join and hold: holds the tube in against pulling and internal pressure
+  - lock, and release by hand: pressing the collar or pulling the sleeve undoes it with no tools
+- **motion**: none: the tube or plug is held still once connected. Elbow and branch versions can be turned to point the right way after connecting but must not be used while turning; for tubes that keep rotating or swinging, rotary (swivel) fittings are used instead (SMC KQG2 manual)
+- **degrees_of_freedom**: 0: the tube is locked in place along and around its axis in normal use; the tube moves back slightly when first pulled, as the teeth bite (Clippard: pull the tubing back gently until the gripper ring grips)
+- **special_behaviour**: 
+  - quick-release (tool-free): press the collar or button in (push-to-connect) or pull the sleeve back (couplers) and the tube or plug comes out (John Guest via US Plastic; Midstate)
+  - hand-release only (locks under load, releases when a person operates it): pulling on the tube or pressure inside only makes the teeth bite harder; it lets go only when the collar is pushed in (Wikipedia, Quick connect fitting; Fresh Water Systems)
+  - one-way (moves freely one way, locks the other): the tube slides in easily past the angled teeth but cannot slide back out
+  - fail-safe or breakaway: only special breakaway couplings, which part on purpose if the hose is pulled too hard (e.g. a truck driving off while refuelling) and seal themselves to prevent a spill (Midstate)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the collet is wedged into a taper so its teeth squeeze and bite into the tube (Fresh Water Systems)
+  - shape (the parts interlock; form-fit): the teeth dig into the tube surface; in sleeve couplers the balls sit in a groove on the plug (Wikipedia, Air-line fitting)
+  - spring force (a spring or springy part presses it in place): the springy collet fingers and the spring behind the coupler sleeve keep it engaged (Midstate)
+- **input_output**: not applicable: it joins tubes and passes fluid, not motion
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: press the release collar in and pull the tube out, or pull back the coupler sleeve; the system must be depressurised first (John Guest via US Plastic; SMC KQG2 manual)
+- **reuse_cycles**: many times: the fitting can be re-used (John Guest via US Plastic), but the teeth mark the tube, so cut off the marked end before pushing a used tube back in (SMC KQG2 manual; Clippard); frequent removal gradually scratches the tube until it leaks past the O-ring (Fresh Water Systems). Sleeve-type quick couplers are made for frequent connecting and disconnecting (Midstate)
+- **tools_needed**: None to connect or release (a small printed or bought release tool helps with tiny collets; Printables 198167, 285470). A proper tube cutter for a square cut; don't use pliers, nippers or scissors, which squash the tube (SMC KQG2 manual). A spanner to screw a threaded fitting into its port (Clippard; SMC)
+- **seal**: airtight or pressure: an O-ring inside the fitting seals round the outside of the tube (Wikipedia, Quick connect fitting). Example ratings: small plastic push-in fittings 0-150 psig and vacuum to 29.5 inHg (Clippard); stainless push-in fittings -100 kPa to 1 MPa, but not for holding a vacuum in a leak tester because they leak slightly (SMC KQG2 manual). Quick couplers seal with O-rings or a compressed tip, and valved (shut-off) couplers close off the flow when parted (Wikipedia, Air-line fitting; Midstate)
+- **load**: medium for its size: holds tube pull-out of more than 20 lb (about 9 kg) when not pressurised in a small plastic fitting (Clippard) and full rated pressure. Strong against pulling straight out; weak against side loads, bending close to the fitting, twisting, rotation, vibration and impact, which can crack the fitting or release or burst the tube (SMC KQG2 manual; Fresh Water Systems)
+- **adjustable**: no: the grip and seal are set by the fitting and the tube size; elbow fittings can only be swivelled to aim them (SMC KQG2 manual)
+- **play_and_precision**: small: the tube shifts back slightly as the teeth bite (Clippard). It tolerates almost no misalignment: push the tube in straight (within about 0-5 degrees) and keep side loads off it (SMC KQG2 manual; Fresh Water Systems). It is not used to locate parts
+- **access_needed**: end of a tube or shaft: you need the cut end of the tube and room to push it straight in and to press the release collar with a finger or tool; the fitting body is either inline or screwed into a port
+- **materials**: Fittings: plastic body with nickel-plated brass stud, stainless-steel gripper ring and Buna-N (nitrile) seals (Clippard); all-stainless 316 versions with FKM seals for steam (SMC KQG2 manual); quick couplers in carbon steel, brass or stainless (Midstate) or plastics such as acetal, polypropylene, nylon and PEEK (Wikipedia, Quick connect fitting). Tubes: nylon, polyurethane, polyethylene or polypropylene (Clippard); soft copper, brass or mild steel tube if within tolerance, but not hard metal tube (John Guest via US Plastic); fluoropolymer (FEP, PFA, PTFE) tube with an inner sleeve where temperatures swing (SMC KQG2 manual). Soft or thin-walled tubing needs a tube insert (John Guest via US Plastic). 3D printers use 4 mm PTFE tube in PC4 fittings (Printables 529258)
+- **maker_difficulty**: easy to fit, hard to make: buy one and print the housing or adapter around it; the hardened teeth and accurate O-ring groove are hard to print, and printed versions are experimental (Printables 1094373 is 'work in progress'; Printables 1572668 warns printed collars hold the tube less well than ones with metal teeth)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: push-to-connect straights, elbows, tees, bulkhead and threaded-stud fittings; quick-disconnect coupler and plug pairs; garden-hose click connectors
+  - 3D print (FDM): housings, pass-throughs and adapters that hold a bought fitting (e.g. PC4-M10 threads), collet locking clips, release tools, blanking plugs, and experimental printed push-to-connect fittings and garden-hose connectors (Printables 1094373, 1314393, 1255364) *(unverified parts omitted)*
+- **print_in_place**: partly: one experimental push-to-connect fitting is designed to print in place and grips the tube, but needs a bought O-ring to hold pressure (Printables 1094373). Most printed designs are separate parts: printed garden-hose couplings need an O-ring (Printables 1255364) and usually a spring (a springless lockable remix exists, Printables 1314393); most makers simply screw a bought fitting into a printed part
+- **making_tips_3d_printing**: 1) Best approach: design a printed part that holds a bought fitting (a threaded hole or a heat-set insert for the fitting's M5, M6 or M10 stud, or a clamp), and let the metal-toothed collet do the gripping; one printed PTFE tube joiner comes with printed collars but its designer recommends bought 4 mm collars with metal teeth because printed ones hold less well (Printables 1572668). 2) Threads and plugs for fittings are small: makers print them with fine layers (0.1-0.12 mm) and 100% infill (Printables 233088; Printables 263357, which also recommends a brim). 3) A printed PC4-M10 substitute clamp was printed in PETG for flexibility and the PLA nut kept rigid; the 4 mm hole may need drilling out to fit the tube (Printables 529258). 4) Printed garden-hose connectors: print the gripping fingers facing down with a brim, use PETG outdoors, and fit an O-ring (bought, or printed in TPU); the fingers are fragile (Printables 1255364); orient the part so the O-ring seat is smooth (Printables 1281989). 5) Sliding sleeves, collars and latches need clearance to move: start at about 0.3 mm for moving parts (Prusa Knowledge Base) and tune for your printer. 6) Plastic springs that stay loaded creep and relax, so use a steel spring behind a printed sleeve or latch (DuPont design guide, p. 36). 7) Keep printed fittings for low pressure and room temperature: PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen); an experimental printed push-to-connect fitting is 'not as springy as metal versions' (Printables 1094373). 8) For 3D-printer Bowden tubes, a printed collet clip that slides under the collar stops the collar being pushed in and removes play on retraction (Printables 135121, which halved the retraction distance needed from 4 mm to 2 mm).
+- **off_the_shelf_parts**: Search for: 'push-to-connect fitting', 'push-in fitting' or 'instant fitting' (straight union, elbow, tee, Y, bulkhead union, male stud with M5, 1/8 NPT or R1/8 thread, reducer, plug); 'one-touch fitting' (SMC (brand) naming); 'push-quick fitting' (Clippard (brand)); 'rotary one-touch fitting' for tubes that turn (SMC); 'PC4-M6' or 'PC4-M10 pneumatic fitting' and 'collet clip' for 3D-printer Bowden tubes; 'release tool' for small collets; 'tube insert' or 'tube stiffener' for soft tubing (John Guest via US Plastic); 'inner sleeve' for fluoropolymer tube (SMC); 'tube cutter' (e.g. SMC TK-1). Quick couplers: 'quick-disconnect coupling', 'quick coupler' and matching 'nipple' or 'plug' in a named profile such as 'Industrial 1/4 in' (US), 'ARO 210', 'Tru-Flate/Automotive', 'Euro 7.2 (high-flow)', 'Nitto', or 'Rectus 25' (European) (Wikipedia, Air-line fitting); 'ISO 4414 safety coupling'; 'single shut-off' or 'double shut-off'; 'flat-face coupling' (hydraulic) (Midstate). Garden: 'hose quick connector' or 'click-on hose connector' (Hozelock (brand), Gardena (brand)). Tubing: '95A polyurethane tubing', 'nylon tubing', 'polyethylene tubing' by outside diameter (4, 6, 8 mm; 5/32, 1/4, 3/8 in).
+- **rules_of_thumb**: 
+  - Push-in fittings are sized by the tube's OUTSIDE diameter, hose barbs by the tube's INSIDE diameter (Clippard, Barb Fittings vs. Push-Quick Fittings).
+  - Use firm tubing: Clippard recommends 95A polyurethane for push-quick fittings (85A for barbs) and lists minimum hardness Shore A85 for polyurethane and Shore D44 for polyethylene, polypropylene and nylon (Clippard wiki; Clippard Push-Quick datasheet, p. 290).
+  - Tube outside diameter must be accurate: +/-0.005 in (about 0.13 mm) for polyurethane and +/-0.004 in (about 0.1 mm) for polyethylene, polypropylene and nylon (Clippard Push-Quick datasheet, p. 290); John Guest lists +0.001/-0.003 in for 5/32-3/16 in tube and +0.001/-0.004 in for 1/4-1/2 in tube (John Guest via US Plastic).
+  - Example ratings for small plastic push-in fittings: 0-150 psig at 130 °F, vacuum to 29.5 inHg, 32-140 °F, tube pull-out force over 20 lb unpressurised, burst 350 psig at 75 °F (Clippard Push-Quick datasheet, p. 290). Stainless 316 push-in fittings: -100 kPa to 1 MPa, proof pressure 3.0 MPa, -5 to 150 °C with no freezing (SMC KQG2 manual).
+  - Cut the tube square with a tube cutter, not pliers, nippers or scissors (SMC KQG2 manual); the outside must be free of score marks and burrs (John Guest via US Plastic).
+  - Push the tube in straight (within about 0-5 degrees) until it stops, then pull it back gently to check it has gripped (SMC KQG2 manual; Clippard). The fitting grips before it seals, so a half-inserted tube can hold but still leak (John Guest via US Plastic).
+  - Mark the insertion depth on the tube so you can see it has gone all the way in; Fresh Water Systems suggests a line about 3/4 in from the end for its water-filter fittings (the depth depends on the fitting size; SMC gives it as dimension 'M' in each drawing).
+  - Keep the tube's bend near the fitting no tighter than the tube's minimum bending radius, and leave some slack for pressure and length changes (SMC KQG2 manual).
+  - Use a tube insert in soft or thin-walled tubing (John Guest via US Plastic), and an inner sleeve in fluoropolymer tubing where the fluid temperature swings a lot (SMC KQG2 manual).
+  - To re-use a tube, cut off the part that was inside the fitting first (SMC KQG2 manual; Clippard Push-Quick datasheet).
+  - Keep surge (pressure spike) pressure below the maximum working pressure, or the tube may be pushed out (SMC KQG2 manual).
+  - Quick-coupler plugs and sockets must share the same profile; mismatched pairs may still latch but seal poorly (Wikipedia, Air-line fitting).
+  - Printed moving parts (sleeves, collars, latches): start with at least 0.3 mm clearance (Prusa Knowledge Base, Modeling with 3D printing in mind).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The push-in fittings that hold the PTFE tube on Bowden-type 3D printers, often with a small blue collet clip under the release collar (Printables 135121; Printables 529258)
+  - Plastic tubing on under-sink water filters and reverse-osmosis units (Fresh Water Systems; Printables 198167)
+  - Click-on garden hose connectors (Hozelock (brand) or Gardena (brand) style) (Wikipedia, Hose coupling)
+  - Workshop compressed-air hoses snapped onto air tools and tyre inflators with a pull-back-sleeve coupler (Wikipedia, Air-line fitting; Midstate)
+- **when_to_use**: Use a push-to-connect fitting when you need to join firm plastic tubing (nylon, polyurethane, polyethylene, PTFE) quickly and neatly for compressed air, vacuum, water or other low-to-medium pressure fluids, and you may want to take it apart again: pneumatic models and robots, water filters and cooling, aquarium and hydroponic setups, and 3D-printer Bowden and filament-guide tubes. It connects with one push and no tools, gives high flow because nothing narrows the bore, and suits frequent reconnection better than a barb (Clippard). Use a sleeve-type quick coupler (plug and socket) when a hose must be connected and unplugged often, one-handed, e.g. swapping air tools, and choose shut-off (valved) couplings so the line doesn't empty when parted (Midstate; Wikipedia, Quick connect fitting).
+- **when_not_to_use**: Don't use push-in fittings with soft, stretchy tubing (silicone, soft PVC): use a hose barb with a clamp, or add a tube insert (Clippard; John Guest via US Plastic). Don't use them where the tube rotates, swings, or travels with a moving part: use rotary fittings, coiled tubing, or a cable carrier (SMC KQG2 manual). Avoid heavy vibration or shock, strong side loads, hard metal tubes, very high pressures and pressure spikes: use compression, threaded or crimped fittings (SMC KQG2 manual; John Guest via US Plastic). If you want the cheapest, most leak-free joint that you never undo, a barb is better (Clippard). Don't rely on a 3D-printed push-in fitting for real compressed-air pressure; printed ones are experimental (Printables 1094373).
+- **environment_limits**: Heat and cold: small plastic push-in fittings are rated 32-140 °F (0-60 °C) (Clippard); stainless versions -5 to 150 °C, no freezing (SMC KQG2 manual). Below about 5 °C, water in the line can freeze and damage seals (SMC). Warmer water lowers the pressure rating (Fresh Water Systems). Polyurethane tube swells with pressure and heat, so a used tube may no longer fit back in (SMC). Sunlight, vibration and chemicals: avoid long direct sunlight, heavy vibration or shock, radiant heat, corrosive gases, sea water, and cutting oils or coolants unless the fitting is rated for them (SMC KQG2 manual). Ageing: after many years the O-ring can dry out and drip (Fresh Water Systems). Printed parts: PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen).
+- **safety_notes**: Always release the pressure before disconnecting (John Guest via US Plastic; SMC KQG2 manual): a hose or tube freed under pressure can whip about, and ISO 4414 'safety' couplings vent the air in two stages before releasing for this reason (Wikipedia, Air-line fitting). With single shut-off couplings, only one half seals, so the other half may still spray or vent (Midstate). Pressure spikes (surge) above the rating can push the tube out (SMC). Near welding spatter, ordinary plastic fittings and tubing are a fire risk; flame-resistant ones exist (SMC KQG2 manual). *(unverified parts omitted)*
+- **common_failures**: Leaks because the tube wasn't pushed in far enough to pass the O-ring (the most common cause), a slanted cut, a sharp tube end that nicked the O-ring, or a side load that squashed the O-ring oval (Fresh Water Systems); fix by re-cutting square and pushing fully home with a depth mark. Tube works loose or slips out: tube too soft, undersized or scored (Clippard; John Guest via US Plastic), frequent removal scratching the tube (Fresh Water Systems), pressure surges (SMC), or on 3D printers the constant push-pull of retraction and vibration pushing the release collar in; a collet clip under the collar stops this (Printables 135121). A tube re-used without cutting off the marked end, or swollen polyurethane tube, won't reseal or re-insert (SMC KQG2 manual). Fittings crack if the tube is rotated, levered or vibrated at the fitting (SMC). Quick couplers: mismatched plug profiles latch but leak (Wikipedia, Air-line fitting).
+- **related**: 
+  - Hose barb: a ridged spigot inside soft tubing; cheaper and seals better on soft tube, but hard to undo (Clippard)
+  - Bayonet mount (push-and-twist lock): the idea behind quarter-turn hose couplings such as Storz and GEKA (Wikipedia, Hose coupling)
+  - Cam-and-groove (camlock) coupling: two cam arms clamp a grooved adapter against a gasket; used for large hoses (Wikipedia, Hose coupling)
+  - Band flange clamp (tri-clamp): a hinged clamp squeezes two flanged ends onto a gasket, for sanitary pipes (Wikipedia, Hose coupling)
+  - Quick-release pin (ball-lock pin): uses the same spring-loaded balls to lock a pin instead of a hose plug
+  - Slip ring and rotary union: when the tube must keep turning, a rotary joint is needed instead (SMC recommends rotary fittings)
+  - Cable gland and strain relief: seals a cable, not a tube, through a wall *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Inside a John Guest Push-Fit Fitting | Cutaway Explanation (Pipe & Skill, YouTube)](https://www.youtube.com/watch?v=GKPDqqOE9Oo): A cut-open plumbing push-fit fitting explaining how the collet grips and the O-ring seals (per the video's title and search listing) *(licence: link only (YouTube))*
+  - [Pneumatic push-in fittings (Tameson, YouTube)](https://www.youtube.com/watch?v=wzRT6BrN-tU): How pneumatic push-in fittings are used (per title) *(licence: link only (YouTube))*
+  - [Quick release coupling used in hydraulics explained! (Engineering Pod, YouTube)](https://www.youtube.com/watch?v=HUotgU8YAtI): A lecture explaining how a quick-release coupling works (per the video description) *(licence: link only (YouTube))*
+  - [File:Rtc-serie-171.08-gruppe.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Rtc-serie-171.08-gruppe.jpg): Pneumatic safety couplings with two-stage release to ISO 4414, with mating nipples (plugs) *(licence: CC BY-SA 4.0 (Shngz))*
+  - [File:Gardena hose pistol.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Gardena_hose_pistol.jpg): Garden sprinkler and various click-on hose connectors and adapters (Gardena (brand) plug system) *(licence: CC BY-SA 3.0 (Jarlhelm))*
+- **make_it_yourself**: 
+  - [Push to connect fitting - 1/4-18 push to connect fitting for pneumatic and liquids (Jay, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1094373-push-to-connect-fitting-14-18-push-to-connect-fitt): Work-in-progress printable push-to-connect fitting with an NPT thread, designed to print in place; grips tube as intended but is 'not as springy as metal versions'; add an O-ring for pressure *(licence: GNU GPL v3.0)*
+  - [Collet clip for PTFE tube (REIFY 3D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/135121-collet-clip-for-ptfe-tube): A clip that sits under the release collar of a Bowden fitting so the tube can't move; in three sizes *(licence: CC BY-SA)*
+  - [Pneumatic Push-in Fitting Removal Tool (OliverP, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/285470-pneumatic-push-in-fitting-removal-tool): A printed tool that presses the release collar evenly for 4 mm and 6 mm tubes, including 3D-printer Bowden fittings *(licence: CC BY)*
+  - [PC4-M10 fitting printed substitute (Melantech, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/529258-pc4-m10-fitting-printed-substitute): A printed clamp-and-nut stand-in for a PC4-M10 fitting that holds a 4 mm PTFE tube (clamp in PETG, nut in PLA) *(licence: CC BY)*
+  - [Garden hose quick connector female, now it doesn't need a spring! (iPa64, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1314393-garden-hose-quick-connector-female-now-it-doesnt-n): A lockable, springless remix of a printable female garden-hose click connector, with STEP files for making your own variants *(licence: CC BY-NC)*
+- **diagram_idea**: Two side-by-side cut-aways: (1) a tube pushed into a push-to-connect fitting, showing the angled collet teeth, the O-ring and the tube stop, with an arrow showing that pulling the tube wedges the teeth in harder and a second view with the collar pushed in spreading the teeth; (2) a ball-lock coupler with balls sitting in the plug's groove under the sleeve, and a second view with the sleeve pulled back so the balls can move out.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Quick_connect_fitting
+  - https://en.wikipedia.org/wiki/Air-line_fitting
+  - https://en.wikipedia.org/wiki/Hose_coupling
+  - https://www.clippard.com/downloads/PDF_Documents/Product%20Data%20Sheets/Clippard%20Push-Quick%20Ftgs.pdf
+  - https://www.clippard.com/cms/wiki/barb-fittings-vs-push-quick-fittings
+  - https://www.usplastic.com/knowledgebase/article.aspx?contentkey=761
+  - https://static.smc.eu/binaries/content/assets/smc_global/product-documentation/operation-manuals/en/om_kq_oms0022en-b.pdf
+  - https://www.freshwatersystems.com/blogs/blog/what-is-a-quick-connect-fitting-and-how-does-it-work
+  - https://www.midstate-sales.com/blog-posts/quick-disconnects-101
+  - https://www.bearingboys.co.uk/PushIn-Fittings-153-a
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://commons.wikimedia.org/wiki/File:Rtc-serie-171.08-gruppe.jpg
+  - https://commons.wikimedia.org/wiki/File:Gardena_hose_pistol.jpg
+  - https://www.youtube.com/watch?v=GKPDqqOE9Oo
+  - https://www.youtube.com/watch?v=wzRT6BrN-tU
+  - https://www.youtube.com/watch?v=HUotgU8YAtI
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** processes, related, safety_notes
 
 ## 167 DIN-rail clip (top-hat rail snap mount)
 
 *quick-release & tool-free.* A spring clip that hooks over one edge of a standard metal rail and snaps onto the other, so modules click on and off
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A clip on the back of a box that hooks over the top edge of a standard metal strip and snaps onto the bottom edge, so the box clicks on and off the strip, like the switches in a fuse box
+- **term**: DIN-rail clip (DIN-rail mounting foot or snap foot, for a top-hat rail to IEC/EN 60715)
+- **aliases**: 
+  - DIN rail mounting clip, DIN rail mounting bracket or plate (Winford Engineering)
+  - DIN rail adapter, DIN clip, rail mount, snap foot or 'spring-loaded snap foot' (Phoenix Contact white paper)
+  - top-hat rail clip; the rail is called top-hat rail, TH35, TS35 (US), Type O or Omega (Ω) rail, NS 35 or U-rail (Wikipedia, DIN rail; Phoenix Contact white paper)
+  - Hutschiene (German for top-hat rail; the Printables and GitHub designs use it)
+  - DIN rail latch, release tab or release loop (the sliding part you pull to unclip; Wikipedia, DIN rail; Crestron)
+  - G-rail or G32 clip (for the older asymmetric rail) and C-rail (C-section) mounts are related variants (Wikipedia, DIN rail)
+- **family**: quick-release & tool-free
+- **other_families**: snap & clip fits, sliding, telescoping & linear motion
+- **one_liner**: A mounting foot with a fixed hook on one side and a spring-loaded latch on the other, so electrical modules and home-made boxes can be clicked onto, slid along, and unclipped from a standard 35 mm metal top-hat rail.
+- **complexity**: A few parts, or a single printed piece. Commercial clip: a moulded or steel body with a fixed hook at the top, a sliding latch (release tab) at the bottom pushed by a spring, and holes or threaded inserts for screwing it to the device (Winford Engineering). Printed clip: one piece with a flexing latch, or a print-in-place slider and zigzag spring (hzeller din-rail-clip-mount). The rail itself: 35 mm wide, 1 mm thick zinc-plated steel strip bent into a top-hat shape (Wikipedia, DIN rail; IEC 60715).
+- **how_it_works**: The top-hat rail has two thin lips. The clip's fixed hook goes over the upper lip and carries the weight; you then swing the bottom of the clip toward the rail, the lower lip pushes a sloped spring latch aside, and the latch snaps back behind the lip so the rail is gripped on both edges (Winford Engineering; Crestron). To remove it, pull the latch down (by hand, with a pull tab, or with a small flat screwdriver in its slot) and tilt the bottom of the device away; 'lift and pivot' clips can instead be pushed up against their spring and tilted off without touching the latch (Crestron; Winford Engineering). Once on, the module can be slid along the rail, and end stops (end clamps) keep a row of modules from sliding (Aera Electrical Products).
+
+### Finder attributes
+
+- **job**: join and hold: holds a module, box or circuit board on a standard rail, lock, and release by hand: clicks on and unclips with a finger, pull tab or small screwdriver
+- **motion**: slide: once clipped on, a module can be pushed along the rail to position it; otherwise it doesn't move (end stops lock the row in place; Aera Electrical Products)
+- **degrees_of_freedom**: 1 while positioning (it can slide along the rail, held only by friction); 0 once end stops or neighbouring modules box it in
+- **special_behaviour**: 
+  - quick-release (tool-free): snaps on by tilting and unclips by pulling the latch or lifting and pivoting (Winford Engineering; Crestron)
+  - hand-release only (locks under load, releases when a person operates it): the fixed top hook takes the weight and the latch stays shut until someone pulls it or lifts the clip (Winford Engineering)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the hook and latch wrap over the rail's two lips
+  - spring force (a spring or springy part presses it in place): a spring (or a flexing plastic arm) pushes the latch against the lower lip and takes up the rail's width tolerance (Winford Engineering; hzeller)
+- **input_output**: not applicable: it holds a part on a rail and does not pass motion on
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: many clips unclip by hand ('lift and pivot', no screwdriver needed; Winford Engineering); others need the latch pulled with a small flat screwdriver (Crestron)
+- **reuse_cycles**: many times: made to be clipped on and off repeatedly (Winford Engineering); printed clips with plastic springs may weaken over time (see environment_limits)
+- **tools_needed**: None, or a small flat-blade screwdriver to pull the latch (Crestron). A screwdriver to screw the clip to your device (Winford Engineering suggests flat-head screws) and to fix the rail to the backplate
+- **seal**: none
+- **load**: light to medium: the fixed hook on top bears the weight (Winford Engineering). Strong downward and against pulling straight off; weakest when the device is lifted upward (that is the release movement of lift-and-pivot clips) and against sideways twisting, which can tilt lift-and-pivot clips (Winford Engineering). Heavier modules call for sturdier rail fixing, and the rail can twist under heavy off-centre loads (Phoenix Contact white paper). IEC 60715 Annex B gives permissible rail loads against support spacing (IEC 60715 preview, contents)
+- **adjustable**: yes: its position along the rail can be changed by sliding it (then locked with end stops; Aera Electrical Products); clamping force is not adjustable, except in printed designs by changing spring dimensions (hzeller)
+- **play_and_precision**: small: the rail is made to +/-0.3 mm width and +/-0.04 mm thickness (IEC 60715 preview, Fig. 2). 'Lift and pivot' clips leave a gap below the rail and can tilt under side loads; 'latch release' clips fit tighter and are more rigid (Winford Engineering). *(unverified parts omitted)*
+- **access_needed**: one side only (blind): everything is done from the front; the rail is screwed to a panel and the latch is reached from the front at the bottom edge (Crestron)
+- **materials**: Rail: cold-rolled carbon steel, zinc-plated or chromated (Wikipedia, DIN rail); aluminium extruded rails also exist and may fit tighter (Printables 64242). Clips: fibreglass-reinforced nylon 66 (Enable-IT), nylon (Winford Engineering), steel (Winford Engineering); end stops in PA66, aluminium or zinc-coated steel (Aera Electrical Products). Printed clips: PLA, ABS and PETG all give roughly the right spring force in one design (hzeller); another is tested only in ABS/ASA and PETG (Printables 1089827)
+- **maker_difficulty**: easy: buy clips for a few coins or print one in a single piece; one open design prints its slider and spring already assembled (hzeller din-rail-clip-mount)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: plastic or steel DIN-rail mounting clips and plates, DIN-rail enclosures, end stops
+  - 3D print (FDM): one-piece clips with a flexing latch or a print-in-place spring slider (hzeller; Printables 64242, 1089827)
+  - sheet metal: steel mounting clips (Winford Engineering) *(unverified parts omitted)*
+- **print_in_place**: yes: hzeller's design prints the sliding latch and its zigzag spring in place, ready to clip on (hzeller din-rail-clip-mount), and flexing-latch clips are single parts. Some printed clips add screws or heat-set inserts only for attaching the device (Printables 1089827, 537942)
+- **making_tips_3d_printing**: 1) Orientation: print the clip lying flat on its back so the rail profile is extruded in the plane of the layers and the latch or spring bends along the layers rather than across them (in hzeller's design the spring and slider lie in the flat base plate; Prusa: prints are stronger in one direction, so orient structural parts for strength). 2) Fit: make the gap between hook and latch a little smaller than the 35 mm rail so the spring clamps (hzeller uses 35 - 0.5 = 34.5 mm) and allow for 1 mm rail thickness (IEC 60715; hzeller). 3) Print-in-place slider: hzeller uses a 0.25 mm gap; watch the first layer, because elephant's foot can weld the slider, which may need freeing after printing. 4) Spring: hzeller's printed zigzag spring is 1.2 mm thick and 2 mm high and 'depends on the filament, needs experimentation'; tune spring height and thickness for your material. 5) Release: add a screwdriver slot or pull tab on the latch, or print an unlocker tool, because the latch can be hard to reach behind a large board (Printables 95182; Printables 1089827). 6) Settings from one tested low-profile clip: 0.2 mm layers, 4 perimeters, 4 top and bottom layers, 40% infill, ABS/ASA or PETG, with M3 heat-set inserts for the device screws; its release tab has tight tolerances, so calibrate the printer (Printables 1089827). Another parametric mount suggests at least 3 walls and 35% infill (Printables 311970). 7) Material: PLA, ABS and PETG all worked in hzeller's design, but electrical cabinets get warm and PLA starts to give at about 60 °C (CNC Kitchen), so prefer PETG, ABS or ASA there. 8) Insulation: if a bare circuit board sits on the clip, hzeller offers an option with a 0.4 mm closed plastic floor between board and rail. 9) Check your rail: some designs fit only 35 x 7.5 mm rail (Printables 1089827) and aluminium rails can fit tighter (Printables 64242).
+- **off_the_shelf_parts**: Search for: 'DIN rail mounting clip', 'DIN rail mounting bracket' or 'DIN rail adapter plate' (plastic, nylon or steel, with through holes, countersunk holes, M3/M4 nuts or threaded inserts), 'DIN rail clip lift and pivot' or 'latch release' types (Winford Engineering); 'universal DIN rail adapter' and 'DIN rail enclosure' or 'DIN rail housing' in module widths (e.g. 1, 2, 3, 4 modules); 'DIN rail end stop', 'end clamp' or 'end bracket' (Aera Electrical Products); the rail itself as 'top hat rail 35 x 7.5', '35 x 15', 'TS35', perforated or unperforated, usually cut from 2 m lengths (Wikipedia, DIN rail; Phoenix Contact white paper); 'miniature top hat rail 15 x 5.5' (TH15); 'G32 rail' or 'C-rail' for older equipment (Wikipedia, DIN rail).
+- **rules_of_thumb**: 
+  - Standard top-hat rail: 35 mm wide (+/-0.3 mm) from 1 mm sheet (+/-0.04 mm) (IEC 60715:2017 preview, Figure 2), in two depths, 35 x 7.5 and 35 x 15 (Wikipedia, DIN rail). A miniature 15 x 5.5 mm rail and a 75 mm wide rail also exist (Wikipedia, DIN rail).
+  - Put the fixed (non-spring) hook on the top edge so it carries the weight, and the spring-loaded latch on the bottom edge (Winford Engineering).
+  - To mount: hook the top over the rail, then tilt the bottom in until it snaps; to remove: pull the release down with a small flat screwdriver and tilt the bottom away (Crestron).
+  - Choose 'lift and pivot' clips (more gap below the rail) for easy tool-free removal, or 'latch release' clips (tight fit) for rigidity against side loads such as stiff cables (Winford Engineering, steel DIN clips page).
+  - Clip width is often counted in 18 mm 'modules' (1 module = 18 mm, 4 modules = 72 mm) (Wikipedia, DIN rail, marked 'citation needed'); for example, Crestron's modules are 3 or 4 modules wide (Crestron).
+  - Printed clips: make the hook-to-latch distance about 0.5 mm under 35 mm for clamping (hzeller), give a print-in-place slider a 0.25 mm gap (hzeller), and start at about 0.3 mm clearance for other moving parts (Prusa Knowledge Base).
+  - Use end stops (end clamps) at each end of a group of modules where there is vibration or transport, so they can't slide along the rail (Aera Electrical Products; Phoenix Contact white paper).
+  - Screw the rail at its ends for light terminal blocks, but fix it at shorter intervals for heavier products (Phoenix Contact white paper).
+  - Springs that stay loaded should be steel, not plastic, because plastic springs creep and relax (DuPont General Design Principles, p. 36); a printed spring clip is fine for light, occasionally removed parts.
+  - Commercial glass-fibre nylon 66 clip rating example: -20 to 65 °C (Enable-IT).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Circuit breakers in a home fuse box or consumer unit (Wikipedia, DIN rail; Wikimedia Commons photos)
+  - Terminal blocks, relays, power supplies and controllers in machine and control cabinets (Wikipedia, DIN rail; Phoenix Contact white paper)
+  - Home-automation and lighting-control modules in a wall-mounted enclosure (Crestron)
+  - The electronics bay of some DIY 3D printers, where boards are clipped onto a rail (Printables 592735 'DIN Rail Clip (Voron Heat Insert)', Voron (brand))
+- **when_to_use**: Use a DIN-rail clip when you want several modules or home-made boxes and boards to sit tidily in a row inside a cabinet, enclosure or printer frame, and to be added, moved or swapped later without drilling new holes (Phoenix Contact white paper). It is ideal for relays, power supplies, microcontroller boards, terminal blocks and small sensors, because the standard rail makes parts from different makers interchangeable and a printed clip lets you put almost any board on it (Wikipedia, DIN rail; hzeller).
+- **when_not_to_use**: Don't rely on it for heavy parts, parts that are pulled or levered upward, or heavy vibration and shock without end stops and a well-fixed rail; screw the part directly to the panel or use stronger steel 'latch release' clips (Winford Engineering; Phoenix Contact white paper). It is not a precise locator: use dowel pins or a kinematic mount if the part must return to exactly the same spot. Outdoors or where it must seal, use a sealed enclosure (the clip itself doesn't seal). For a hang-on wall mount with no rail, a keyhole slot or French cleat is simpler.
+- **environment_limits**: Heat: electrical cabinets get warm; a printed PLA clip starts to give at about 60 °C (CNC Kitchen) and its plastic spring can slowly relax and loosen under constant load (DuPont General Design Principles, p. 36); a commercial glass-fibre nylon 66 clip example is rated -20 to 65 °C (Enable-IT). Vibration: modules can slide along the rail unless end stops are fitted (Aera Electrical Products); heavy modules need closer rail fixing (Phoenix Contact white paper). *(unverified parts omitted)*
+- **safety_notes**: DIN rails usually live in cabinets with mains voltage: switch off and isolate before clipping modules on or off, and follow the electrical codes (Crestron). The rail is metal and may be earthed (Wikipedia, DIN rail), so bare solder joints on a board clipped to it can short; use an insulating floor (hzeller) or standoffs. Leave ventilation holes of modules unblocked (Crestron). *(unverified parts omitted)*
+- **common_failures**: Clip fitted upside down, so the spring latch instead of the fixed hook carries the weight (Winford Engineering). Modules slide along the rail under vibration or when cables are pulled: fit end stops (Aera Electrical Products). Lift-and-pivot clips tilt or pop off under side loads or stiff cables: use tight 'latch release' clips (Winford Engineering). The latch can't be reached behind a large board: add a pull tab or use a release tool (Printables 95182). Wrong rail: some clips fit only 35 x 7.5 rail (Printables 1089827), and aluminium rails can be a tighter fit (Printables 64242). Printed clips: slider fused by elephant's foot (hzeller), latch snapped because it bends across the layers, or spring relaxed so the clip rattles (DuPont). If the device doesn't cover the clip, the spring and latch of some commercial clips can fall out (Winford Engineering).
+- **related**: 
+  - Cantilever snap fit: the flexing latch of a one-piece printed DIN clip is one; a DIN clip is a standard way of using it against a metal rail
+  - Hang-on mounts (keyhole slot, French cleat): also hook over an edge, but have no spring latch and are usually screwed to a wall
+  - Aluminium-extrusion connectors (T-slot nuts): slide along a rail too, but clamp with a screw, so they are stronger but need a tool
+  - Modular grid mounting systems (pegboard, Gridfinity-style grids): hook or clip into a grid of holes or sockets instead of a single rail
+  - G-rail mounting: on the older asymmetric G rail, equipment is hooked over the deep lip and rotated until it clips onto the shallow side (Wikipedia, DIN rail)
+  - Quick-release plate (dovetail clamp): slides into a dovetail and is clamped, for camera gear
+  - Magnet joint: also tool-free, but can slide off under side loads and needs a steel surface
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:DIN rail rear view.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG): Rear view of a 2-pole circuit breaker clipped on a DIN rail, shown upside down so the sliding latches and release loops can be seen *(licence: CC BY-SA 3.0 (Kae))*
+  - [File:DIN-rail-dimensions.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:DIN-rail-dimensions.svg): Cross-section drawing of the 35 mm top-hat rail (EN 50022) *(licence: Public domain (Markus Kuhn))*
+  - [File:Din rail.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Din_rail.jpg): A TS35 DIN rail with several electrical modules clipped on *(licence: Public domain (Ulfbastel))*
+  - [File:G-type-Din-rail.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:G-type-Din-rail.jpg): Cross-section of the older asymmetric G-type rail with equipment mounted on it *(licence: CC BY-SA 3.0 (d3j4vu))*
+  - [Removal of a terminal block from a DIN rail (James Ramsey, YouTube short)](https://www.youtube.com/watch?v=bOMrQ_mIGvM): Unclipping a terminal block from a DIN rail with a small screwdriver (per title and search listing) *(licence: link only (YouTube))*
+- **make_it_yourself**: 
+  - [din-rail-clip-mount (hzeller, GitHub; README and OpenSCAD file read via raw.githubusercontent.com)](https://github.com/hzeller/din-rail-clip-mount): Parametric OpenSCAD DIN-rail mount for circuit boards and relays, with a spring and slider printed in place that snap onto the rail 'with a satisfying click'; optional insulating floor; printed in PLA, ABS and PETG *(licence: CC BY-SA)*
+  - [OpenSCAD customizable din rail mounting clip (Mad Mechatronic, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1145663-openscad-customizable-din-rail-mounting-clip): Fully parametric OpenSCAD clip with a choice of push, pull or double springs and many hole patterns (straight, countersunk, hex or square nut) *(licence: CC BY-SA)*
+  - [Din rail clip (Bryan, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/64242-din-rail-clip): A popular one-piece printable DIN-rail clip (over 9,000 downloads) with a tighter fit for aluminium extruded rails *(licence: CC0 (Public Domain))*
+  - [Low-profile DIN rail clip (Oseo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1089827-low-profile-din-rail-clip): Low-profile clip with a pull tab release and M3 heat-set inserts; tested in ABS/ASA and PETG; for 35 x 7.5 rail only *(licence: CC BY)*
+  - [DIN rail clip unlocker (HD_Creator, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/95182-din-rail-clip-unlocker): A small printed tool that fits the unlock groove of a printed clip to release it even when a board covers the clip *(licence: CC BY)*
+- **diagram_idea**: Side cross-section of a top-hat rail with a clip: step 1, the clip's fixed hook goes over the top lip; step 2, the clip swings in and the lower lip pushes the sloped spring latch down; step 3, the latch snaps up behind the lip; step 4, a screwdriver in the latch slot pulls it down so the clip tilts off. Add a small top view showing modules sliding along the rail between two end stops.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/DIN_rail
+  - https://site.ieee.org/npec-sc2/files/2017/06/SC-2Mgt08-2_Att9-WP_DIN-Rail.pdf
+  - https://www.sis.se/api/document/preview/8027750/
+  - https://www.winford.com/products/dinm15.php
+  - https://www.winford.com/products/dinm20.php
+  - https://www.winford.com/products/dinm03.php
+  - https://docs.crestron.com/en-us/9349/Content/Topics/Installation/DIN-Rail-Installation.htm
+  - https://aeraelectricalproducts.com/blog/din-rail-end-clamp
+  - https://enableit.com/product/din-rail-mounting-clip/
+  - https://raw.githubusercontent.com/hzeller/din-rail-clip-mount/master/README.md
+  - https://raw.githubusercontent.com/hzeller/din-rail-clip-mount/master/din-rail-clip-mount.scad
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG
+  - https://commons.wikimedia.org/wiki/File:DIN-rail-dimensions.svg
+  - https://commons.wikimedia.org/wiki/File:Din_rail.jpg
+  - https://commons.wikimedia.org/wiki/File:G-type-Din-rail.jpg
+  - https://www.youtube.com/watch?v=bOMrQ_mIGvM
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, play_and_precision, processes, safety_notes
 
 ## 168 Indexable clamping lever (ratchet handle)
 
 *quick-release & tool-free.* A clamping handle on a toothed spline that you lift to swing round without turning the screw, then let spring back to tighten again, for tight spaces
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A tightening handle on a screw that you can lift up to swing it back round without turning the screw, then let it drop back onto its teeth and pull again, so you can tighten something in a cramped spot a little at a time
+- **term**: Adjustable clamping lever (adjustable handle, indexable clamping handle)
+- **aliases**: 
+  - adjustable handle, adjustable hand lever, clamping lever, clamping handle (Elesa+Ganter GN 300; Elesa ERX; McMaster-Carr: 'also called clamping handles')
+  - adjustable clamping handle; ratchet handle or ratchet lever (Innovative Components: 'also known as ratchet handles or adjustable handles'; POWERTEC (brand) sells them as 'ratchet lever knobs')
+  - Klemmhebel (German; Wikipedia de, Klemmhebel); Spannhebel or tension lever are related German/catalogue names (KIPP (brand) groups them as 'Adjustable handle, tension lever, cam lever'; KIPP USA catalogue page) *(unverified parts omitted)*
+- **family**: quick-release & tool-free
+- **other_families**: indexing & detents, clamping, magnetic & friction connections
+- **one_liner**: A lever-shaped handle fitted to a screw or nut through a spring-loaded toothed coupling, so it tightens and loosens the screw by hand but can be lifted off its teeth and swung to a new angle, letting you clamp in tight spaces and leave the lever pointing where you want.
+- **complexity**: A small assembly that acts as one unit: lever (handle body), toothed insert with a threaded hole (boss) or threaded stud, matching teeth inside the lever, a return spring, and a retaining screw or pin that holds it together (Elesa+Ganter GN 300; Elesa ERX; Ruland video). Simplest home-made version: a printed lever with a hex pocket, a screw and one or two nuts, with no spring (Printables 86927).
+- **how_it_works**: Inside the lever, a ring of teeth (serrations) meshes with teeth on the central insert that is screwed onto or into the part being clamped, and a spring holds the two sets of teeth together, so turning the lever turns the screw (Elesa+Ganter GN 300; Elesa ERX). When there is no room to keep turning, you pull the lever up a few millimetres against the spring; the teeth come apart and the lever swings freely back to a new starting position without turning the screw (Elesa ERX: 'lift the lever to disengage the clamping device teeth and bring it back to start position'). Let go and the spring drops the teeth back into mesh, ready for the next pull, so you can tighten step by step like a ratchet spanner, or park the lever out of the way (Elesa+Ganter GN 300; Innovative Components; Wikipedia de, Klemmhebel).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: tightens a screw or nut by hand to clamp parts together
+  - lock, and release by hand: clamps and unclamps with no tools
+  - click into set positions: the handle can be parked at any of a set of angles, one tooth apart
+- **motion**: multiple: the lever rotates to turn the screw, and lifts a few millimetres along the screw axis to disengage (about 3-5 mm lift on Elesa+Ganter GN 300 levers of 22-108 mm)
+- **degrees_of_freedom**: 1 when engaged (lever and screw turn together); 2 when lifted (the lever can slide up and turn freely on the insert); 0 once the clamp is tight and the lever is released
+- **special_behaviour**: 
+  - indexing (clicks into set positions): the lever can be re-set every tooth, i.e. in steps of 360 degrees divided by the number of teeth (18 to 28 teeth on Elesa ERX handles: steps of about 20 to 13 degrees)
+  - quick-release (tool-free): not instant like a cam lever, but tightening and loosening need no tools and the handle can be swung out of the way (Innovative Components; POWERTEC)
+  - none of a true ratchet's one-way action: most versions don't click freely backwards; you lift the lever to reset it (Elesa ERX). Some versions use a push button instead of lifting (POWERTEC: 'spring loaded handle and push button ratchet clutch')
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the lever drives the insert through meshing teeth (serrations)
+  - spring force (a spring or springy part presses it in place): a return spring keeps the teeth in mesh (Elesa ERX: AISI 302 stainless return spring)
+  - friction or clamping (force-fit): the clamped parts are held by the screw's clamping force and thread friction
+- **input_output**: Limited back-and-forth swing of the hand lever -> rotation of the screw at 1:1 while the teeth are engaged; lifting the lever disconnects it. The screw thread then turns rotation into clamping force; the lever length (roughly 22-108 mm on standard ranges; Elesa+Ganter GN 300, Elesa ERX) sets the leverage. Shaft arrangement: in line. *(unverified parts omitted)*
+- **power**: passive (no power needed)
+- **removability**: removable: loosened and unscrewed by hand with no tools; the lever itself stays assembled on its insert, held by a retaining screw or pin (Elesa+Ganter GN 300; Elesa ERX)
+- **reuse_cycles**: effectively unlimited: made for repeated clamping; an Elesa ERX.78 withstood more than 100,000 tightening cycles at 490 N without yielding (Elesa ERX datasheet)
+- **tools_needed**: None to use. *(unverified parts omitted)*
+- **seal**: none
+- **load**: medium: clamping force comes from the screw, so it depends on thread size (M3 to M16 on GN 300) and how hard you pull; the weak point is the toothed element that carries the torque from lever to insert (Elesa ERX). *(unverified parts omitted)*
+- **adjustable**: yes: the lever angle can be re-set one tooth at a time, and the clamping force is set by how far you tighten
+- **access_needed**: one side only (blind) when it screws into a tapped hole or onto a fixed stud; both sides if it tightens a through-bolt with a nut behind (Printables 86927 describes both uses)
+- **materials**: Handles: zinc die casting with a blackened steel insert, powder coated or chrome plated (Elesa+Ganter GN 300); glass-fibre reinforced polyamide technopolymer with a brass or AISI 303 stainless boss or a zinc-plated or stainless steel stud and a stainless return spring (Elesa ERX); stainless steel, injection-moulded plastic, or a metal core with a plastic cover (Wikipedia de, Klemmhebel); reinforced nylon with black zinc-plated steel inserts (Innovative Components). Home-made: PLA for testing, PETG for use, with a steel screw and nuts (Printables 86927)
+- **maker_difficulty**: easy to buy and fit; moderate to make: the simplest printed version uses a hex nut as the 'teeth' and needs only a screw and nuts (Printables 86927), but a spring-return serrated version needs strong teeth, a steel spring and a retaining screw
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: zinc die-cast, stainless or glass-fibre nylon adjustable handles with threaded stud or threaded bore
+  - 3D print (FDM): printed lever with a hex-nut drive (Printables 86927) or a printed serrated ring, plus a bought screw, nut and spring *(unverified parts omitted)*
+- **print_in_place**: no: the lever, insert, spring and screw are separate parts that are assembled (Printables 86927; Elesa+Ganter GN 300)
+- **making_tips_3d_printing**: 1) Simplest design: give the printed lever a hex pocket that fits over a nut on the screw; lift the lever to clear the nut, swing it back, push it down to re-engage and turn (Printables 86927). A hex gives 6 positions per turn (60-degree steps); a serrated ring gives finer steps (360 / tooth count). 2) Blind hole: screw the bolt tightly into the hole with a single nut on it and let the lever turn the nut; through hole: jam two nuts together on the screw so the lever turns the screw (Printables 86927, which suggests thread locker to keep the nuts jammed). 3) Orientation: print the lever with the handle flat on the bed; PLA is fine for testing but PETG is better for use; 3 perimeters and 20% infill worked for an M4 lever (Printables 86927). 4) Serrations: generate the teeth rather than drawing them, e.g. BOSL2's hirth() makes matching face-tooth rings with chamfered tips and room in the valleys for the parts to seat (BOSL2 joiners.scad); keep teeth fairly few and large in plastic, since commercial handles use 18-28 teeth (Elesa ERX), and remember the toothed element carries all the torque (Elesa ERX). 6) Sliding fit between lever and insert: start at about 0.3 mm clearance (Prusa Knowledge Base). 7) Use a steel compression spring for the return spring, because plastic springs under constant load creep and relax (DuPont design guide, p. 36); commercial ones use stainless steel (Elesa ERX). 8) Hold the lever on with a screw and washer or a pin through the top of the insert, so the spring can't push it off (GN 300 'retaining screw'; ERX 'retaining pin'). 9) Use a metal thread (bolt, nut or heat-set insert), not a printed thread, for the clamping screw (Elesa ERX uses brass or steel bosses and steel studs). 10) Heat: PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'adjustable handle', 'adjustable clamping lever', 'adjustable clamping handle', 'clamping lever with threaded stud' (external thread) or 'with threaded bushing/bore' (internal thread), in M4-M16 or 1/4-20, 5/16-18, 3/8-16; 'ratchet lever' or 'ratchet lever knob' (woodworking suppliers, e.g. POWERTEC (brand)); catalogue families such as Elesa+Ganter (brand) GN 300 (zinc) and Elesa (brand) ERX (technopolymer), KIPP (brand) 'clamping levers' (German: Klemmhebel); stainless-steel versions for wet or food areas; 'adjustable cam lever' for a cam-action version (KIPP video). For home-made ones: socket-head screws, hex nuts, M3/M4 heat-set inserts and small steel compression springs.
+- **rules_of_thumb**: 
+  - Choose an adjustable lever when the space round the screw stops a full turn, or when the lever must end up in a particular position (Elesa+Ganter GN 300: 'ideal whenever parts have to be clamped in a confined space or in a particular lever position'; Elesa ERX: 'when the lever turning angle is limited owing to lack of space').
+  - Lift needed to disengage the teeth ('stroke'): about 3 mm on a 22 mm lever, 3.5 mm on 30-45 mm, 4 mm on 63-92 mm and 5 mm on a 108 mm lever (Elesa+Ganter GN 300 datasheet, stroke column).
+  - Step size = 360 degrees / number of teeth; Elesa ERX handles have 18 teeth (30 and 44 mm levers), 20 (63 mm), 24 (78 mm), 26 (95 mm) and 28 (108 mm), i.e. steps of about 20 to 13 degrees (Elesa ERX datasheet).
+  - Durability benchmark: an Elesa ERX.78 (glass-fibre nylon) withstood more than 100,000 tightening cycles at 490 N without yielding (Elesa ERX datasheet).
+  - Glass-fibre polyamide handles are rated about -30 to +130 °C (Elesa ERX datasheet); plastic handles also insulate the operator electrically and have no visible steel to rust (Elesa ERX).
+  - Threaded studs on zinc GN 300 levers are steel of property class 5.8 (Elesa+Ganter GN 300), so don't expect high-strength-bolt clamping loads from them.
+  - Springs that stay loaded should be steel, not plastic (DuPont General Design Principles, p. 36).
+  - Printed sliding fits: start at about 0.3 mm clearance (Prusa Knowledge Base). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Fence, featherboard, mitre-gauge stop and T-track jig locks in a woodworking shop, and the tool rests of bench grinders (POWERTEC)
+  - Height, angle and position adjusters on machines, lathes and packaging lines (Innovative Components; vxb)
+  - Adjusters on (office) furniture, sports and fitness equipment, power tools and medical or rehabilitation equipment (Wikipedia de, Klemmhebel)
+- **when_to_use**: Use an adjustable clamping lever when you need to tighten and loosen a screw by hand, often, in a cramped spot where a knob can't be turned far or a fixed lever would hit something (Elesa+Ganter GN 300; Elesa ERX), or when you want the handle to end up pointing a particular way, e.g. tucked out of the way or all levers lined up (Elesa+Ganter GN 300). Typical uses are jigs, fences, stops, featherboards and other adjustable parts of machines and fixtures, where you want a firmer grip than a knob gives but no tools (POWERTEC; Innovative Components; vxb).
+- **environment_limits**: Heat and cold: glass-fibre polyamide handles about -30 to +130 °C (Elesa ERX); printed PLA gives at about 60 °C and PETG at about 80 °C (CNC Kitchen). Corrosion and washdown: zinc die-cast handles are powder coated or chrome plated (Elesa+Ganter GN 300); stainless and all-plastic versions avoid rust (Elesa ERX; Wikipedia de, Klemmhebel). Plastic creep: a printed spring or a clamped plastic part can relax over time, so the clamp may need re-tightening (DuPont General Design Principles, p. 36).
+- **safety_notes**: Plastic handles give electrical insulation to the operator (Elesa ERX). *(unverified parts omitted)*
+- **common_failures**: Worn or stripped teeth between lever and insert, the part that carries all the torque (Elesa ERX); prevented by not over-tightening and choosing metal or glass-fibre handles for heavy use. Lever pops off because the retaining screw or pin has come loose (GN 300 'retaining screw'; ERX 'retaining pin'). On printed levers: the hex pocket or teeth round off, layers split if printed in a weak orientation, or a plastic spring relaxes (Printables 86927; DuPont). On nut-driven printed levers, the jammed nuts can loosen unless locked, e.g. with thread locker (Printables 86927). *(unverified parts omitted)*
+- **related**: 
+  - Eccentric cam lever (cam clamp, quick-release skewer): clamps with one flip of a cam, faster but with a fixed clamping range; KIPP (brand) also sells 'adjustable cam levers' (KIPP video title)
+  - Toggle clamp: an over-centre linkage that snaps shut and stays shut, for fast, repeated clamping
+  - Ratchet and pawl (reversible ratchet): a true one-way ratchet that clicks freely one way without lifting the handle; note that McMaster-Carr lists 'Ratchet Handles' ('quickly adjust machine components and valves in tight spaces') as a separate family from 'Adjustable Handles' ('lift and turn ... also called clamping handles')
+  - Hirth joint (face spline): the same kind of meshing face teeth, used to lock two parts at a chosen angle, e.g. in camera and light grip heads
+  - Servo horn and spline hub: a splined arm re-positioned one tooth at a time
+  - Indexing plunger (pull-knob index pin): pull a spring-loaded pin, move, and let it snap into the next hole
+  - Dog clutch: spring-loaded teeth that can be pulled out of mesh to disconnect a drive
+  - Ratchet-tooth torque limiter (clicking torque-limiting knob): teeth that slip at a set torque instead of being lifted by hand
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:01 Klemmhebel 2012.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg): A modern stainless adjustable clamping lever with its threaded insert (KIPP (brand) product photo) *(licence: CC BY-SA 3.0 (authorised by the manufacturer))*
+  - [File:Klemmhebel 1952.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Klemmhebel_1952.jpg): An early (1952) clamping lever, used in the German Wikipedia article *(licence: CC BY-SA 3.0 (authorised by the manufacturer))*
+  - [What Are Adjustable Handles/Clamping Levers? (Ruland Manufacturing, YouTube)](https://www.youtube.com/watch?v=a-n-kABlK50): A product expert explaining adjustable handles and clamping levers (per title and search listing) *(licence: link only (YouTube))*
+  - [Only takes a minute to understand! How to Use Clamp Levers (NBK, YouTube)](https://www.youtube.com/watch?v=hMe1-pIIEH4): A short demonstration of lifting, repositioning and tightening a clamp lever (per title) *(licence: link only (YouTube))*
+  - [GN 300 Adjustable Hand Levers datasheet (Elesa+Ganter, PDF)](https://www.elesa-ganter.com/siteassets/PDF/EN/GN%20300.pdf): Dimensioned drawings of adjustable hand levers, including the lift stroke, with a description of how the serrations disengage *(licence: link only (drawings copyright Elesa+Ganter))*
+- **make_it_yourself**: 
+  - [Ratcheting Clamp Lever - M4 (kaje, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/86927-ratcheting-clamp-lever-m4): A printable 'simpler version of commercially available clamping levers': lift the lever to clear a hex nut, reposition, push down and turn; uses an M4 x 30 mm screw and one or two nuts; Onshape CAD linked *(licence: CC0 (Public Domain))*
+  - [BOSL2 joiners.scad: hirth() module (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad): OpenSCAD module that generates matching face-tooth (Hirth) rings with any tooth count, tooth angle, chamfer or rounding, usable for the serrations between a printed lever and its insert *(licence: BSD 2-Clause)*
+- **diagram_idea**: Three-step cut-away of the lever on its screw: (1) teeth in mesh, spring pushing down, lever turning the screw; (2) lever lifted a few millimetres, teeth apart, lever swinging back while the screw stays still; (3) lever released, spring snaps the teeth back into mesh at a new angle, with a small top view marking the tooth-by-tooth parking positions.
+- **sources**: 
+  - https://www.elesa-ganter.com/siteassets/PDF/EN/GN%20300.pdf
+  - https://www.elesa.com/siteassets/PDF/PDF_EN/ERX..pdf
+  - https://de.wikipedia.org/wiki/Klemmhebel
+  - https://catalog.innovative-components.com/viewitems/handles/ratchet-handles
+  - https://powertecproducts.com/71075-ratchet-lever-bolt-1-4-20-5pk/
+  - https://www.mcmaster.com/products/ratchet-handles/
+  - https://www.kippusa.com/en-us/products/METRIC/Adjustable-handle-tension-lever-cam-lever/c/20954
+  - https://vxb.com/products/adjustable-clamping-lever-set-m6-thread-push-butto
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg
+  - https://commons.wikimedia.org/wiki/File:Klemmhebel_1952.jpg
+  - https://www.youtube.com/watch?v=a-n-kABlK50
+  - https://www.youtube.com/watch?v=hMe1-pIIEH4
+  - https://www.youtube.com/watch?v=9jrhdVD3Szs
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, input_output, load, making_tips_3d_printing, play_and_precision, processes, rules_of_thumb, safety_notes, tools_needed, when_not_to_use
 
 ## 169 Spring bar (spring-loaded telescoping pin)
 
 *quick-release & tool-free.* A tube with spring-loaded ends that pop into holes to hold a strap between two lugs, as on watch straps; quick-release versions have a small lever
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A tiny metal rod with springy ends: you squeeze it a little shorter, slip it between the two prongs on a watch case, and its ends pop into small holes to hold the strap on
+- **term**: Spring bar (spring-loaded telescoping pin, watch strap pin)
+- **aliases**: 
+  - springbar / spring-bar
+  - watch pin, strap pin or watch band pin (shop wording)
+  - telescopic spring bar / double telescopic spring bar (catalogue wording)
+  - double-flange spring bar (two small collars near each tip for the tool's fork to push on)
+  - double-shoulder spring bar (smooth tips, for lugs drilled right through)
+  - single-shoulder spring bar (sold on forums as 'shoulderless'; Ofrei says the correct name is single shoulder)
+  - curved spring bar (bent for extra clearance from the case)
+  - fat spring bar / 'Seiko fat bar' (thicker body and tips)
+  - quick-release spring bar (QRSB), quick-change strap pin, quick-release pin (watch-strap sense)
+  - Federsteg (German)
+  - barrette à ressort (French, used in the patent classification)
+  - lug bar (loosely; a fixed lug bar welded into the case is a different, non-removable part)
+- **family**: quick-release & tool-free
+- **other_families**: cord, strap, webbing & textile hardware, hinges & pivots, snap & clip fits
+- **one_liner**: A small spring-loaded rod whose two ends push outwards into holes in a pair of lugs, so a strap's loop hangs on it and can be taken off again by pushing one end in, with a small forked tool or, on quick-release versions, a built-in lever.
+- **complexity**: A few parts that act as one unit: a thin tube (body), a coil spring inside it, and two sliding end pins (plungers or pivots), usually with one or two small collars (flanges or shoulders) near each tip. A quick-release version adds a small lever (knob) fixed to one pin. It needs two small holes in the inner faces of the lugs and a loop or tunnel in the strap.
+- **how_it_works**: A coil spring inside the tube pushes a pin out of each end, so the bar is slightly longer than the gap between the lugs (a 1941 patent describes spring bars as 'a tube or the like containing an ordinary coil spring bearing at each end against a plug projecting from the tube'). To fit it you push one tip in, either with the fork of a spring-bar tool on the flange or with a fingernail on the quick-release lever, line the bar up with the holes and let go, so both tips snap into small holes in the lugs. The strap's loop hangs on the bar and can swing round it, and the pull of the strap is carried by the tips as a sideways (shear) load. Only the spring keeps the tips in their holes, so a weak spring, a bar that is too short, or a hard knock along the bar can let it out (CNS; Smartlet).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds a strap, band or bracelet between two lugs
+  - let it move (turn, slide or bend): the strap pivots around the bar so it can curve round a wrist
+  - lock, and release by hand: quick-release versions come out with a fingernail on a small lever, with no tool
+- **motion**: rotate: the strap's loop swings freely around the bar, limited only by the case and strap. When fitting, the tips also slide in and out by about a millimetre (the bar telescopes).
+- **degrees_of_freedom**: 1: the strap can only turn around the bar's axis. The bar can also spin in its holes; aBlogtoWatch notes that quick-release bars turn when the lever is used, which can wear the lug holes.
+- **special_behaviour**: 
+  - quick-release: quick-release versions have a small lever on one pin, so one tip can be pulled in by hand and the strap comes off in seconds without a tool (Helvetus; CNS; JS Watch). Standard bars need a small spring-bar tool. It is not self-locking: only spring force holds the tips in, so a bar whose tips are too thin for the holes can be knocked free (CNS).
+- **holding_principle**: 
+  - shape (form-fit): the tips sit in holes in the lugs, so the strap's pull is carried by the tips across their width (shear)
+  - spring force: only the internal coil spring keeps the tips pushed into the holes; if the spring tires or the bar is the wrong size, the tips can come out (Smartlet; Oak & Oscar)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: standard bars come out with a small forked spring-bar tool (or a pin pushed through drilled lugs); quick-release bars with a lever are a tool-free quick release
+- **reuse_cycles**: many times, but the spring and tips wear out: CNS suggests replacing bars every 12-18 months on a strap worn daily, aBlogtoWatch says some suggest every 6-12 months, and careful watchmakers fit new bars after any case service (Smartlet)
+- **tools_needed**: Standard bar: a spring-bar tool with a forked tip (pushes on the flange from between the strap and case) and a pin tip (pushes the tip in from outside on drilled lugs); one sold by watch-tools.de has a 4 mm fork, a 0.80 mm pin and a 1.20 mm fork. Quick-release bar: none, a fingernail works the lever. Making your own lugs: a pin vice or small drill with a drill of about 0.8-1.1 mm for the lug holes.
+- **seal**: none: it is an open pin joint
+- **load**: Light to medium, and sized for a strap on a wrist. ISO 6425 (divers' watches) requires each spring bar or attachment point to take 200 N (about 45 lbf) in opposite directions without damage to the watch or attachment point (Wikipedia 'Diving watch'; Mecmesin). aBlogtoWatch says a good Swiss bar that fits correctly 'will easily handle over 50 pounds of pressure'. Strong against a pull across the bar (tips loaded in shear); weak against a sideways knock along the bar that pushes a tip in, and against lugs being bent apart.
+- **adjustable**: no: the length is fixed to the gap between the lugs (lug width), e.g. 20 mm lugs take 20 mm bars, and bars come in 1 mm steps (Helvetus; CNS). Strap length is adjusted elsewhere, e.g. at the buckle.
+- **play_and_precision**: Small but deliberate play: Oak & Oscar says tips 'should fit easily into the lug holes with a small, but perceptible amount of play'. Tips that are too thin let the strap move or click and wear the holes oval; tips that are too thick won't seat, or wedge in as a friction fit that is hard to remove (Oak & Oscar; aBlogtoWatch). It tolerates little error in lug width: bars are sold by lug width but are longer when fully extended (Ofrei: a 22 mm bar measures 27 mm end to end). It is not used to locate parts precisely.
+- **access_needed**: one side only (blind): the bar is fitted from between the lugs, so the lug holes can be blind (not drilled through). Drilled (through) lugs also let you push a tip in from the outside with the pin end of a tool (Oak & Oscar; Smartlet).
+- **materials**: Tube and pins usually 316L or 304L stainless steel, with a stainless or carbon spring-steel coil spring; also titanium, nickel silver (maillechort) and coated bars (aBlogtoWatch; Smartlet; Ofrei). Body (tube) diameters are mostly 1.5 mm or 1.8 mm, with 1.0-1.4, 1.6 and 2.0 mm also sold; tips are about 0.75-1.0 mm (Ofrei; watch-tools.de). It attaches leather, rubber, nylon and TPU straps and metal bracelets to lugs of steel, titanium or plastic, including resin or FDM-printed watch cases in PETG or ABS and printed TPU bands (Siraya Tech).
+- **maker_difficulty**: easy: buy standard bars and design the lugs and strap loop around them; the only fiddly step is drilling the tiny (about 1 mm) lug holes accurately and square
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the bar itself is always bought (it is a spring inside a precision tube)
+  - 3D print (FDM): watch cases, strap adapters and TPU bands with lugs or strap loops for standard bars (several on Printables)
+  - 3D print (resin): smooth, detailed watch cases and lugs (Siraya Tech recommends resin for cases)
+  - CNC or small-scale metalwork: drilling the lug holes (about 0.8-1.1 mm) in metal cases, brackets or adapters
+- **print_in_place**: no: the bar is a bought metal part; you print the lugs or strap with holes and fit a bar afterwards
+- **making_tips_3d_printing**: 1) Design around bars you can buy: make the gap between the lugs a standard strap width such as 18, 20 or 22 mm so standard spring bars and shop-bought straps fit (Siraya Tech). 2) Size the lug holes for the bar's tips: about 0.75 mm tips on 1.5 mm bars, 0.90 mm on 1.8 mm bars and 1.00 mm on 2.0 mm bars (Ofrei), with a little clearance so the tip seats with 'a small, but perceptible amount of play' (Oak & Oscar). Holes this small don't print accurately on FDM machines: Hubs says vertical holes print undersized and recommends printing critical holes undersized and drilling them to size, and the maker of a printed Casio 18-to-20 mm strap adapter recommends 'drilling out the holes for the spring bars' and supplies versions for 1.8 and 2.0 mm bars. A pin vice with a small metric or numbered drill works. 3) Make each hole at least as deep as the tip is long; 4) Keep the lugs strong: Siraya Tech recommends case walls of at least 1.5-2 mm, warning that thinner walls can crack when spring bars are inserted, and suggests PETG or ABS at 0.1 mm layer height, 4+ walls and 30-40% infill, printed face down, for FDM cases. 5) For a printed strap, leave a round tunnel slightly bigger than the bar's body (1.5 or 1.8 mm) where the bar passes through; aBlogtoWatch advises choosing the thickest bar that will still slide through the strap's hole. A printed 20 mm band for a Samsung Galaxy Watch 4 (NinjaFlex TPU 85A) added a hole so the original quick-release pins could be reused, and notes they are 'a little hard to get in'. For quick-release bars, leave a notch on the underside of the strap so a fingernail can reach the lever (Helvetus). 6) Materials: TPU (85A-95A) for bands and PETG, ABS or resin for cases (Siraya Tech). PLA softens and deforms above about 60 °C (Prusa), so PLA lugs may loosen in a hot car. 7) After fitting, tug the strap firmly in both directions; any movement or clicking means the tips are not seated or are too thin (aBlogtoWatch; Smartlet). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Spring bars sold by lug width (about 6-40 mm) and body diameter (1.0, 1.3, 1.4, 1.5, 1.6, 1.8, 2.0 mm): double-flange, double-shoulder, single-shoulder (for clasps and bracelet links), curved, extra-long telescopic, 'fat' and quick-release (lever) types, in 316L stainless steel or titanium (search terms: 'spring bar', 'double flange spring bar', 'quick release spring bar', 'Federsteg'; suppliers include Ofrei, Esslinger, Jules Borel, watch-tools.de; Bergeon and Horotec (brands) make tools and bars). Assortment boxes of mixed sizes. Spring-bar tools (fork and pin tips, e.g. Bergeon 6767 series (brand)) and spring-bar bending pliers for curved bars. Straps and bands made for spring bars, and quick-release straps with the bars already fitted.
+- **rules_of_thumb**: 
+  - Length = lug width (the inner gap between the lugs): 20 mm lugs take 20 mm bars; most watch bars run from about 16 to 24 mm in 1 mm steps (Helvetus; CNS). The bar is longer than its listed size when extended so it stays under spring tension (Oak & Oscar; watch-tools.de).
+  - Body (tube) diameter: 1.8 mm is the most common thickness, 1.5 mm is used where 1.8 mm won't pass through a bracelet's tube, and 2.0 mm bars are too thick for most bracelets and straps (Ofrei).
+  - Tip (pivot) diameter follows body size: 0.75 mm tips on 1.5 mm bars, 0.90 mm on 1.8 mm, 1.00 mm on 2.0 mm, tips about 1.0 mm long (Ofrei Swiss-made listings); Beco Technic bars: 1.4 mm body with 0.75 mm tip, 1.8 mm body with 0.9 mm tip (watch-tools.de). Seiko 'fat bar' tips are about 1.1 mm, too thick for holes made for 0.90 mm tips (Oak & Oscar).
+  - Tips should enter the lug holes 'with a small, but perceptible amount of play'; tips too thin wear the holes oval and can pull out, tips slightly too thick can wedge in as a friction fit (Oak & Oscar).
+  - Choose the thickest body that still slides through the strap's or bracelet's hole, or that leaves room for a pass-through strap (aBlogtoWatch).
+  - ISO 6425 divers' watches: each spring bar or attachment point must withstand 200 N applied in opposite directions without damage (Wikipedia 'Diving watch'; Mecmesin).
+  - Printed watch cases: walls at least 1.5-2 mm; thinner walls can crack when spring bars are inserted (Siraya Tech).
+  - FDM vertical holes print undersized; for critical small holes, print undersized and drill to size (Hubs FDM design guide).
+  - Replace bars regularly: every 12-18 months on a strap worn daily (CNS); some suggest every 6-12 months (aBlogtoWatch).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Almost any wristwatch with a replaceable strap: two spring bars hold the strap between the lugs (Wikipedia 'Watch strap'; CNS)
+  - Silicone bands on many smartwatches and fitness watches that swap with a small lever on the pin (quick-release spring bars)
+  - The clasp or folding buckle of a metal watch bracelet, which uses short, thin spring bars (Ofrei)
+  - 3D-printed strap adapters that let a watch take a wider or narrower strap (Printables)
+- **when_to_use**: Use a spring bar when a strap, band or small hinged part must hang from two lugs, pivot freely, and be swapped now and then: watch and smartwatch straps, wearable electronics in printed cases, small instrument or tracker cases worn on a band, and strap adapters. Because watch straps are standardised around spring bars, designing lugs for them lets you use any shop-bought strap (Siraya Tech). Choose quick-release bars when straps will be changed often and nobody wants to carry a tool (Helvetus).
+- **when_not_to_use**: Don't use a spring bar where the joint must never let go under a hard knock or heavy pull, or where the load is more than a wrist strap: use a screw bar, a fixed (welded or moulded-in) bar, a shoulder screw, or a ball-lock quick-release pin instead (Smartlet; CNS). Avoid it where the lugs can flex apart (thin printed lugs, soft plastics), because the bar only holds while both tips stay in their holes. For a strap that must stay on if a bar fails, add a pass-through strap that runs behind the case and through both bars (Wikipedia 'Diving watch'; CNS). For larger pins through lined-up holes, use a clevis pin with a clip, a snap pin or a ball-lock pin.
+- **environment_limits**: Sweat is mildly acidic and contains chlorides, which corrode bars and lug holes over years (Smartlet); bars whose internal spring is not stainless can rust inside (aBlogtoWatch). The spring tires with use: 'Metal fatigue in the internal spring is the usual culprit' (Smartlet). Printed lugs soften with heat: PLA deforms above about 60 °C (Prusa), and PETG suits use below about 80 °C (Prusa). Vibration and knocks can work a loose-fitting bar free if its tips are too thin for the holes (CNS).
+- **safety_notes**: The small spring can fire the bar across the room if the tool slips while it is compressed, and the tool can scratch the lugs (Helvetus). When a bar fails, whatever hangs from it falls: check that both tips are fully seated and tug the strap before trusting it (CNS; Smartlet). *(unverified parts omitted)*
+- **common_failures**: 1) Spring fatigue: the spring loses force after thousands of cycles and the tips stop seating firmly (Smartlet); replace bars regularly. 2) Worn flanges or tips from repeated fitting reduce the part that sits in the hole (CNS). 3) Wrong size: too short or tips too thin, so the bar can be knocked out; too thick, so it wedges or won't seat (Oak & Oscar; CNS); measure the lug width and tip diameter. 4) Not fully seated: a bar forced in at an angle may look fitted but never lock, and can release weeks later (Smartlet); tug-test it. 5) Oval lug holes from thin tips or a turning quick-release bar (Oak & Oscar; aBlogtoWatch); use the correct tip size and fat bars where holes have worn. 6) Quick-release lever knobs that are only pressed on can fall off (Helvetus); the bar still works but needs a tool. 7) Corrosion from sweat (Smartlet); use 316L stainless bars. 8) Printed lugs cracking or spreading when the bar is inserted (Siraya Tech); make walls at least 1.5-2 mm.
+- **related**: 
+  - Fixed lug bar and screw bar: a bar welded into the case, or a bar that screws into the lugs; more secure, but the strap is hard or slow to change (Smartlet; CNS)
+  - Quick-release pin (ball-lock pin): a much stronger pin pushed through lined-up holes and locked by balls until a button is pressed
+  - Spring button lock (snap button): a spring-loaded button that pops through holes in telescoping tubes
+  - Snap pin (split-leg push-in pin): a printable pin held in by springy legs
+  - Ball detent (spring plunger): a spring-loaded ball that gives a click or light hold rather than carrying a strap
+  - Indexing plunger (pull-knob index pin): a spring-loaded pin that drops into set holes and stays attached to one part
+  - Clevis joint (fork-and-pin joint): the same two-lugs-and-a-pin layout at larger sizes, usually with a clevis pin and clip
+  - Slide-in band connectors (e.g. Apple Watch and Cartier QuickSwitch (brands)): case-side quick-change systems that replace spring bars but only accept matching straps (Helvetus)
+  - Pass-through strap (NATO-style, brand-neutral 'one-piece strap'): threads behind the case through both bars as a backup if a bar fails (Wikipedia 'Diving watch'; CNS)
+  - Spring pin (roll pin): a split tube pressed into a hole as a permanent pin; it does not telescope and is not meant to be removed by hand
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Federsteg.jpg (Wikimedia Commons, by Wela49)](https://commons.wikimedia.org/wiki/File:Federsteg.jpg): A simple drawing of a spring bar 'for fastening a strap to a wristwatch', showing the tube and its two tips *(licence: Public domain)*
+  - [Federstege.jpg (Wikimedia Commons, by DerHans04)](https://commons.wikimedia.org/wiki/File:Federstege.jpg): Photo of three different spring bars side by side *(licence: CC BY-SA 3.0 and GFDL 1.2+)*
+  - [US 2,308,505 'Spring bar for wrist watches' (A. J. Geoffrion, filed 1941, Google Patents)](https://patents.google.com/patent/US2308505A/en): Patent drawings of a spring bar in a watch, in cross-section and as an exploded view, with the text explaining the tube, spring and plugs *(licence: US patent (public domain text and drawings))*
+  - [How to Change a Strap with Traditional Spring Bars (The Watch Collectors' Club, YouTube)](https://www.youtube.com/watch?v=geJNpse5Qmg): Close-up of removing and fitting a strap with a spring-bar tool (title and channel verified via YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+  - [All About: Spring Bar Tools - The #1 First Tool for Watch Collectors (Watch off the Cuff, YouTube)](https://www.youtube.com/watch?v=SUjvCixHpyg): The fork and pin ends of spring-bar tools and how they are used on spring bars (title and channel verified via YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Casio AE1200WH 18mm to 20mm Strap Adapter (DingusDoingus, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1298153-casio-ae1200wh-18mm-to-20mm-strap-adapter): Printed adapters held on by the watch's spring bars, with files for 1.8 and 2.0 mm bars; the author recommends solid infill, 0.16 mm layers and drilling out the spring-bar holes *(licence: CC BY-NC)*
+  - [20mm to 22mm watch strap adapter (Guilherme Bissoli, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1728721-20mm-to-22mm-watch-strap-adapter): Adapter so a 20 mm-lug watch can take 22 mm straps; printed in ABS at 0.12 mm layers and 100% infill *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [Samsung Galaxy Watch 4 watch band (20mm) (Da9L, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/512272-samsung-galaxy-watch-4-watch-band-20mm): A printed TPU (NinjaFlex 85A) band with a hole for the watch's original quick-release spring bars; a worked example of a strap loop sized for spring bars *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [Watchband Spring Bar Remover (alex7786, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/401431-watchband-spring-bar-remover): A printed strap-changing tool that uses cut-down metal spring-bar tool tips, M5/M6 screws and a spring *(licence: CC BY)*
+  - [Bergeon Watch Band Spring Bar Tool Handle (leomyeggo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/285139-bergeon-watch-band-spring-bar-tool-handle): A printed handle for Bergeon 6767 spring-bar tool tips (3 mm base) with a captive M3 square nut *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Side-by-side cutaways of a watch lug pair: left, the bar squeezed short with a forked tool (arrow pushing the flange inwards) and the tip clear of the hole; right, the spring pushing both tips out into the lug holes, with a strap loop hanging on the bar and curved arrows showing the strap free to swing round it.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Watch_strap
+  - https://en.wikipedia.org/wiki/Diving_watch
+  - https://www.mecmesin.com/publications/force-testing-watch-components-and-attachments
+  - https://patents.google.com/patent/US2308505A/en
+  - https://www.ablogtowatch.com/how-to-make-sure-you-choose-the-right-spring-bars/
+  - https://cnswatchbands.com/blog/spring-bars-the-complete-guide-to-sizes-types-and-fitting/
+  - https://smartlet.io/blogs/magazine/spring-bars-history-mechanics-failure-modes-watch-anatomy-2026
+  - https://oakandoscar.com/blogs/the-dial/from-the-bench-springbar-specifications
+  - https://www.ofrei.com/page1229.html
+  - https://www.ofrei.com/page475.html
+  - https://www.watch-tools.de/metal-straps/springbars.php
+  - https://helvetus.com/blogs/watch-straps/quick-release-spring-bars-explained
+  - https://www.jswatch.com/spring-bar
+  - https://siraya.tech/blogs/news/3d-printed-watch
+  - https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://commons.wikimedia.org/wiki/File:Federsteg.jpg
+  - https://commons.wikimedia.org/wiki/File:Federstege.jpg
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=geJNpse5Qmg&format=json
+  - https://www.youtube.com/watch?v=geJNpse5Qmg
+  - https://www.youtube.com/watch?v=SUjvCixHpyg
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, safety_notes
 
 ## 170 Band flange clamp (V-band clamp, tri-clamp)
 
 *quick-release & tool-free.* A hinged band with a V-shaped groove that wedges two flanged ends together as it is tightened, for quick-disconnect pipes, ducts and brewing kit
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A hinged metal ring with a V-shaped groove inside: you wrap it round two pipe ends that each have a lip, tighten one nut or flip one lever, and the V squeezes the lips together so the joint holds and seals
+- **term**: V-band clamp (V-section band clamp, Marman clamp); the food and brewing version is the tri-clamp (sanitary clamp coupling)
+- **aliases**: 
+  - Marman clamp / Marman ring (after the Marman Products Company)
+  - V-band coupling, V-retainer coupling, V-section band clamp (engineering papers)
+  - clamp band / clamp band joint (spacecraft separation systems)
+  - exhaust V-band, turbo V-band (cars)
+  - tri-clamp, Tri-Clamp (brand), tri-clover fitting, Tri-Clover (brand)
+  - sanitary fitting, sanitary clamp, hygienic clamp coupling, clamp ferrule, S-clamp fitting, 3A pipe fitting
+  - ISO 2852 / DIN 32676 / BS 4825-3 / ASME BPE / SMS 3019 clamp fittings (standards the sizes follow)
+  - single pin hinge clamp, double pin hinge clamp, high pressure (bolted) clamp, squeeze clamp (tri-clamp styles)
+  - 13MHHM clamp (a common tri-clamp part-number series)
+  - KF flange clamp / QF (Quick Flange) / Klein Flansch / NW flange clamp (vacuum-system version with a centring ring and O-ring)
+  - clamp-together ducting clip (dust extraction; e.g. Nordfab Quick-Fit (brand))
+  - band flange clamp, flange band clamp
+- **family**: quick-release & tool-free
+- **other_families**: seals & pass-throughs, clamping, magnetic & friction connections, locating & alignment, over-centre, toggle & cam clamps
+- **one_liner**: A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
+- **complexity**: A few parts: two matching flanged ends (weld-on flanges, 'ferrules' in sanitary work) with sloped backs; a clamp band made of one or more V-section segments, often hinged; one closure (a T-bolt and nut, wing nut, or over-centre lever); and usually a seal between the faces (a flat gasket with beads for tri-clamps, an O-ring on a metal centring ring for KF vacuum flanges, or none for male/female exhaust flanges).
+- **how_it_works**: Tightening the nut or lever shortens the band, so the V-shaped groove presses inwards all the way round. The inside faces of the V sit on the sloped backs of the two flanges, and like a wedge they turn that inward squeeze into a push along the pipe that draws the two faces together (Wikipedia 'Marman clamp'; NASA GD-ED-2214). With the common 40° included angle the band gives about an 8.6 to 1 gain in force before friction (Burns Stainless). Because the squeeze acts all round the joint rather than at a few bolts, it presses a gasket or O-ring evenly, and the V also centres the two ends on each other (Burns Stainless; Exoracing).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins two pipes, ducts, tanks or housings end to end
+  - seal it, or pass cables or fluid through: presses a gasket or O-ring (or matched metal faces) to make a leak-tight pipe joint
+  - line parts up exactly: the V and male/female flanges or centring rings centre the two ends on each other
+  - lock, and release by hand: wing-nut and lever versions are done up and undone by hand
+- **motion**: none: it holds the two ends rigidly. Before tightening, the joint can be turned to any angle round the pipe, which helps line up pipework (Exoracing; Burns Stainless).
+- **degrees_of_freedom**: 0 when tightened. When loose, 1: the two ends can be turned (clocked) round their common axis before tightening.
+- **special_behaviour**: 
+  - quick-release: one nut, wing nut or lever replaces a ring of bolts, so the joint comes apart quickly for cleaning or service (Burns Stainless; Get Er Brewed); some clamps have a quick-release latch, and ducting clips use an over-centre spring lever (Nordfab)
+  - self-aligning or self-centring: the V wedge and male/female flanges (or a KF centring ring) centre the two ends as the clamp closes (Exoracing; Wikipedia 'Vacuum flange')
+  - over-centre (snaps past a point and stays): only in lever-closed versions such as clamp-together ducting clips, which use an 'over-center, spring-lever action' with a safety pin (Nordfab)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the band tension, turned into end pressure by the wedge, clamps the faces together; twisting and sideways slip are resisted only by friction unless the design adds lips, pins or keys (NASA GD-ED-2214)
+  - shape (form-fit): the lips of the V hook behind both flanges, so the ends cannot pull apart without stretching the band
+- **input_output**: not applicable
+- **power**: passive (no power needed). Spacecraft separation versions are released by pyrotechnic or pin-puller devices and so need power to let go (Wikipedia 'Marman clamp').
+- **removability**: tool-free quick release for wing-nut, lever and hinged sanitary clamps; removable (needs a spanner or socket) for T-bolt V-band clamps
+- **reuse_cycles**: many times: made for joints that are opened often for cleaning or service (Get Er Brewed; *(unverified parts omitted)*
+- **tools_needed**: None for wing-nut and lever clamps (sanitary clamps are 'typically tightened by hand', M.G. Newell); a spanner or socket for nut-and-bolt V-bands, and optionally a torque tool to avoid over-tightening (M.G. Newell). Fitting weld-on flanges or ferrules needs welding (Exoracing); ducting needs a saw and file (Nordfab).
+- **seal**: airtight or pressure: a bead-edged gasket sits in grooves in both ferrule faces (tri-clamp), an O-ring on a metal centring ring (KF vacuum flanges), or matched male/female metal faces that usually need no gasket (exhaust V-bands) (Wikipedia 'ISO 2852' and 'Vacuum flange'; Exoracing). One catalogue lists hinged sanitary clamps at up to 50 bar working pressure for 1-1.5 in sizes at 150 °C, falling to 10 bar at 12 in, and says the rating depends on the seal (Connectors Verbindungstechnik). Clamp-together dust ducting is 'not sold as an airtight system' (Nordfab).
+- **load**: Medium to heavy along the pipe (pulling the ends apart) and in bending, which is what the wedge is designed for; weaker in twisting and in sideways sliding across the joint, which rely on friction, so NASA advises lips, pins or splines to carry shear and torsion (NASA GD-ED-2214). Printed plastic versions are light-duty.
+- **adjustable**: Partly: the joint can be rotated to any angle before it is tightened, and the clamp's closure can be placed wherever it is easiest to reach (Burns Stainless; Exoracing). Clamp tension is set by the nut; there is no length adjustment (a separate slip sleeve does that in ducting, Nordfab).
+- **play_and_precision**: No play once tight, and it re-centres the same way every time it is refitted (male/female flanges, gasket beads or a centring ring). It tolerates very little angular or sideways misalignment: 'Do not use the clamp to drag a badly misaligned exhaust into place' (Exoracing). The V must not bottom out on the flanges before full load, so V-band makers keep an apex gap and foot clearances of about 0.062 in (Burns Stainless).
+- **access_needed**: end of a tube or shaft: you need to reach around the outside of the joint to fit the band, but not inside it; the closure can be turned to face whichever side is reachable (Burns Stainless)
+- **materials**: Sanitary clamps and ferrules in 304 or 316L stainless steel (M.G. Newell; Connectors); exhaust V-bands in stainless steel (Exoracing); spacecraft clamps with aluminium rings, aluminium, titanium or stainless V-segments and a stainless strap (NASA GD-ED-2214). Gaskets in silicone, EPDM, FKM (Viton (brand)), PTFE or nitrile (Buna-N) (M.G. Newell). Joins metal tube, tanks and housings; printed versions in PETG, polycarbonate-carbon fibre or annealed high-temperature PLA work for light, low-pressure jobs (Printables models).
+- **maker_difficulty**: easy with bought parts: buy a matched clamp, ferrules or flanges and gasket, then tighten by hand. Moderate if the flanges must be welded to your pipe, or if you 3D-print adapters and small clamps that must seal.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: clamps, ferrules, flanges and gaskets are bought as matched sets
+  - sheet metal: welding weld-on flanges or ferrules to stainless tube and exhaust pipe (Exoracing)
+  - 3D print (FDM): ferrule adapters, caps and small low-pressure V-band clamps (PETG, PC-CF, annealed HTPLA; Printables) *(unverified parts omitted)*
+- **print_in_place**: no: the flanges, band, bolt and seal are separate parts; printed versions still use a bought bolt, nut and O-ring (Printables 'V-band clamp, quick release')
+- **making_tips_3d_printing**: 1) Buy the steel clamp and gasket and print only the fitting (ferrule, cap or adapter), sticking to standard ferrule sizes: 1 in and 1.5 in sanitary fittings share a 50.5 mm flange and the same clamp, and 2 in uses 64 mm (Holland gasket chart; Connectors catalogue). A printed DN25 tri-clamp ferrule was drawn with a 50.50 mm flange; its author warns that scaling the model up 'will NOT fit to DIN-Sizes anymore' (Printables, TriClamp DN25). 3) Material: PETG has worked for ferrules and a printed V-band clamp (Printables); PETG suits use below about 80 °C and PLA softens above about 60 °C (Prusa), so keep PLA away from hot wort, steam or cleaning at temperature. Other makers used polycarbonate-carbon fibre, or high-temperature PLA annealed at 110 °C (Printables). 4) A printed V-band clamp by Rick on Printables uses PETG, an M5x50 bolt and nut, and a 31x1.5 mm NBR 70 O-ring; each tube gets two printed interfaces (one with the O-ring groove, printed at the top of the part), and three V-blocks are glued to a band, the same segmented idea as metal clamps with several V-segments (Burns Stainless). 5) If you design your own V, copy the proven geometry: a 40° included angle (20° each side), because shallower angles need very good friction control and steeper ones need much more band tension (Burns Stainless; NASA GD-ED-2214). 6) Tighten by hand and don't over-tighten: over-tightening squeezes the gasket into the bore and can distort clamps and flanges (M.G. Newell; Exoracing). *(unverified parts omitted)*
+- **off_the_shelf_parts**: V-band clamp kits: a clamp plus matched male and female weld-on flanges in stainless steel, sold by pipe size (e.g. 2, 2.5, 3, 3.5, 4 in), with nut or quick-release latch (Exoracing; Burns Stainless). Sanitary (tri-clamp) parts: single pin and double pin hinged clamps with wing nuts, high-pressure bolted clamps, squeeze clamps (M.G. Newell), 13MHHM-series clamps (Holland), ferrules for weld or tube, end caps, reducers, tees, elbows and sight glasses (Get Er Brewed), gaskets in silicone, EPDM, FKM, PTFE and nitrile (M.G. Newell). Vacuum KF (QF) flanges, centring rings with O-rings (AS568 sizes) and hinged wing-nut clamps, DN10 to DN50 (Wikipedia 'Vacuum flange'). Clamp-together ducting with rolled edges and lever clips for dust extraction (Nordfab (brand)). Search terms: 'V-band clamp', 'Marman clamp', 'tri-clamp', 'sanitary clamp', 'KF clamp', 'clamp together ducting'.
+- **rules_of_thumb**: 
+  - V-band flange included angle is usually 40° (range 30-90°); with 40° the band gives about 8.6 to 1 axial force before friction (Burns Stainless).
+  - The angle between the joint face and the flange's sloped back is usually 15-20°; less than 15° needs extremely good friction control, and larger angles need a lot more preload (NASA GD-ED-2214).
+  - Strap load = wD(tanβ - µ)/(1 + µ tanβ), or wD tanβ with no friction, where w is the line load round the joint, D the ring diameter, β the flange angle and µ the friction coefficient; set the preload so the joint does not gap at the largest expected load (NASA GD-ED-2214).
+  - Carry sideways shear and twisting across the joint with lips, pins or splines rather than friction (NASA GD-ED-2214).
+  - Keep about 0.062 in clearance at the V's apex and feet so it does not bottom out on the flanges before full load (Burns Stainless).
+  - Tri-clamp sizes: 1 in and 1.5 in fittings share a 50.5 mm (2.00 in) flange and one clamp size; 2 in uses 64 mm (2.52 in) (Holland gasket chart).
+  - Hinged sanitary clamp (SH type): 1-1.5 in rated 50 bar working at 150 °C (120 bar test), 4 in 35 bar, 12 in 10 bar, depending on the seal; wing nut torque 5 Nm, hex nut 20 Nm (Connectors Verbindungstechnik catalogue).
+  - Gasket temperature limits: EPDM 132 °C (briefly 150 °C); silicone, FKM and PTFE 150 °C (Connectors catalogue); nitrile ducting clamp seals 70 °C constant, 90 °C intermittent (158/194 °F, Nordfab).
+  - Hand tightening is usually enough for a sanitary clamp; over-tightening pushes the gasket into the bore and under-tightening leaks; check that pressure ratings are for the whole union, not just the clamp (M.G. Newell).
+  - Match clamp and flanges as a set, and don't pull misaligned pipes together with the clamp (Exoracing).
+  - KF vacuum flanges come in DN10-DN50; DN10/16, DN20/25 and DN32/40 share flange dimensions and clamps (Wikipedia 'Vacuum flange').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Tri-clamp fittings on home-brewing fermenters, kettles and stills (Get Er Brewed; Printables models)
+  - The V-band joint on a car's turbo outlet or exhaust downpipe (Exoracing)
+  - Clip-together metal ducting on workshop dust extraction (Nordfab)
+  - Flanged aircraft fuel hoses and bleed-air ducts, and the ring that holds a satellite on top of its rocket (Wikipedia 'Marman clamp')
+- **when_to_use**: Use a band flange clamp when two round ends must join strongly and seal, but come apart often or quickly: brewing and food pipework that must be taken apart for cleaning (Get Er Brewed), vacuum lines (KF), dust and fume ducting (Nordfab), exhaust and turbo joints that are hot and hard to reach (Exoracing), and printed adapters that let hobby kit connect to standard sanitary fittings. It is lighter and quicker than a bolted flange (Wikipedia 'Marman clamp') and the closure can be turned to face wherever you can reach (Burns Stainless).
+- **when_not_to_use**: Don't use it to pull badly aligned pipes together or to hide poor routing; fix the pipework first (Exoracing). Where the joint must carry big twisting or sideways loads, add lips, pins or keys, or use a bolted flange (NASA GD-ED-2214). For joints that never come apart, welding or a bolted flange is cheaper; for small hoses, a hose clamp, push-fit or threaded fitting is simpler; for square or non-round parts, use a latch or bolted flange. *(unverified parts omitted)*
+- **environment_limits**: The seal usually sets the temperature limit: EPDM 132 °C (briefly 150 °C), silicone, FKM and PTFE 150 °C (Connectors catalogue); nitrile ducting seals 70 °C constant (Nordfab). Heat cycles change the band tension because band and rings are often different metals (NASA GD-ED-2214), so re-check exhaust clamps after heat cycling (Exoracing). Printed parts: PLA softens above about 60 °C and PETG is for use below about 80 °C (Prusa). Stainless steel parts resist corrosion; NASA recommends stress-corrosion-resistant materials and avoiding galling metal pairs (NASA GD-ED-2214).
+- **safety_notes**: A tensioned band stores energy: NASA warns the stored energy in large clamp straps 'is usually high enough to cause serious injury should failure occur' and recommends protective measures during installation (NASA GD-ED-2214). Exhaust V-bands get very hot. Cut duct edges are sharp (Nordfab). Lever clips on ducting should have their safety pin fitted so the handle can't spring open (Nordfab). In food and brewing use, an over-tightened gasket bulges into the pipe and traps deposits that are hard to clean (M.G. Newell). *(unverified parts omitted)*
+- **common_failures**: 1) Leaks from a gasket that is not seated in both ferrule grooves, 'one of the main causes of leaks' (M.G. Newell); seat it before tightening. 2) Over-tightening pinches the gasket into the bore or distorts the clamp and flanges; under-tightening leaks (M.G. Newell; Exoracing). 3) Mismatched clamp and flange profiles from different makers, so the clamp doesn't seat (Exoracing); buy matched sets. 4) Warped or misaligned welded flanges; tack, test-fit, then finish-weld (Exoracing). 5) The V bottoming out on the flanges before full load, so the joint is loose (Burns Stainless). 6) Uneven band tension from friction, so part of the joint is under-clamped; NASA tightens in steps and taps round the band to even it out (NASA GD-ED-2214). 7) Loss of tension after heat cycles (Exoracing; NASA GD-ED-2214). 8) Wrong gasket bore for the pipe, since 1 in and 1.5 in fittings share one flange size (Holland gasket chart).
+- **related**: 
+  - Bolted flange: a ring of bolts clamps two flanges; stronger in shear and twist but heavier and slower to undo (Wikipedia 'Marman clamp')
+  - Hose clamp (worm-drive band clamp): a flat band that squeezes a hose onto a spigot; no wedge action, for low pressure (Wikipedia notes a flat-strap variety for low-pressure use)
+  - Bayonet mount: push and twist to lock lugs under ledges; faster, but needs moulded lugs rather than a separate clamp
+  - Quick couplers (sleeve-lock hose couplings): push-in couplings held by balls or latches, for hoses that connect and disconnect under a shut-off
+  - Draw latch (over-centre latch): the same over-centre lever idea used to pull a lid or case shut
+  - Threaded pipe union: a nut that pulls two pipe ends together; needs turning and room to swing a spanner
+  - Conflat (CF) and ISO-K/ISO-F vacuum flanges: bolted or claw-clamped vacuum joints used above KF sizes or for ultra-high vacuum (Wikipedia 'Vacuum flange')
+  - Slip joint with clamp (exhaust): pipes slide inside each other; adjustable but can leak or seize (Exoracing)
+  - Cam latch (quarter-turn cam lock): a quick panel fastener, not a pipe seal
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Typical Marman Clamp System (Wikimedia Commons, from NASA guideline GD-ED-2214)](https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif): Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together *(licence: Public domain (NASA))*
+  - [Marman clamp flanges (Wikimedia Commons, by Andy Dingley)](https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg): Photo of aerospace duct and fuel hose ends with the flanges that Marman clamps grip *(licence: CC BY-SA 3.0)*
+  - [Engine research, clamp (Wikimedia Commons, Oak Ridge National Laboratory)](https://commons.wikimedia.org/wiki/File:Engine_research_(9069970928),_clamp.jpg): Close-up photo of a Marman (V-band) clamp, cropped from an Oak Ridge National Laboratory engine-research photo *(licence: CC BY 2.0)*
+  - [How to Assemble a Tri-Clamp® Connection (Central States Industrial, YouTube)](https://www.youtube.com/watch?v=IUru_JmA1YU): Putting together two ferrules, a gasket and a hinged clamp (title and channel verified via YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+  - [The Tech Behind the V-Band Clamp (Burns Stainless)](https://burnsstainless.com/blogs/articles-1/the-tech-behind-the-v-band-clamp): Illustrated explanation of how band tension becomes axial load, the 40° flange angle, and one-, two-, three- and four-segment clamps *(licence: link only)*
+- **make_it_yourself**: 
+  - [V-band clamp, quick release (Rick, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1844054-v-band-clamp-quick-release): A printable PETG V-band clamp for joining tubes with an airtight seal: two printed tube interfaces (one with an O-ring groove), a band with three glued-on V-blocks, an M5x50 bolt and nut, and a 31x1.5 mm NBR O-ring *(licence: CC BY-SA)*
+  - [TriClamp DN25 (Tomas, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/401121-triclamp-dn25): A printable DN25 tri-clamp ferrule with a 50.50 mm flange, printed in PETG and used with stainless pipes; the author prints it with the 'Seamside' on a flat PEI bed *(licence: CC BY-NC-SA)*
+  - [Triclamp 1.5" adapter for Speidel Airlock (irohlfs, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1354955-triclamp-15-adapter-for-speidel-airlock): An adapter that fits a fermentation airlock onto a 1.5 in tri-clamp port on a home-brew fermenter *(licence: CC BY-NC)*
+  - [Big Mouth Bubbler Tri-Clamp (JMcK, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/36103-big-mouth-bubbler-tri-clamp): A fully printed 'tri-clamp-ish' collar, adapter ring and pin that holds a fermenter lid on; shows the band-over-flange idea in plastic with no hardware *(licence: CC BY)*
+- **diagram_idea**: A cross-section through the joint: two pipe ends with sloped flange backs and a gasket between them, the V-band around them; arrows show band tension going round the ring, turning into inward arrows at the V, and then into arrows along the pipe pressing the faces and gasket together.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Marman_clamp
+  - https://upload.wikimedia.org/wikipedia/commons/e/ee/Guideline_No._GD-Ed-2214_Marman_Clamp_Systems_Design_Guidelines.pdf
+  - https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif
+  - https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg
+  - https://commons.wikimedia.org/wiki/File:Engine_research_(9069970928),_clamp.jpg
+  - https://burnsstainless.com/blogs/articles-1/the-tech-behind-the-v-band-clamp
+  - https://exoracing.co.uk/blog/what-is-a-vband-clamp/
+  - https://en.wikipedia.org/wiki/ISO_2852
+  - https://en.wikipedia.org/wiki/Vacuum_flange
+  - https://traskinstrumentation.com/pdf/app_notes/Tri-Clamp_Connection.pdf
+  - https://hollandapt.com/wp-content/uploads/2022/11/1580486715Gasket-Dimensional-Chart.pdf
+  - https://www.mgnewell.com/wp-content/uploads/2019/07/A-toast-to-triclamps.pdf
+  - https://www.geterbrewed.com/blog/2024/07/03/tri-clamp-fittings-understanding-the-basics/
+  - https://www.nordfab.com/en/technical/how-to-install-quick-fit-ducting
+  - https://www.nordfab.com/en-US/Technical/nordfab-ducting-general-engineering-specification
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=IUru_JmA1YU&format=json
+  - https://www.youtube.com/watch?v=IUru_JmA1YU
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, processes, reuse_cycles, safety_notes, when_not_to_use
 
 ## 171 Temporary sheet fastener (Cleco-type spring pin)
 
 *quick-release & tool-free.* A spring-loaded pin fitted from one side with pliers that clamps sheets in line through a hole while they are drilled or riveted, then comes out again
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A spring-loaded pin you squeeze with special pliers, push through matching holes in two or more sheets and let go: its split tip spreads out behind the sheets and pulls them tight, keeping the holes lined up until you swap it for a rivet
+- **term**: Cleco-type temporary fastener (spring-type sheet holder; Cleco (brand))
+- **aliases**: 
+  - Cleco / Cleko (brand name used for the whole type; from the Cleveland Pneumatic Tool Company)
+  - cleco pin, cleco rivet, temporary rivet (shop wording)
+  - sheet holder, sheet metal holder, reusable sheet metal fastener
+  - spring-type temporary fastener, plier-operated temporary fastener
+  - wing-nut Cleco and hex-nut Cleco (threaded versions that clamp harder)
+  - side-grip clamp / Cleco clamp (a small clamp for edges, fitted with the same pliers)
+  - Kwik-Lok (brand) temporary fastener
+- **family**: quick-release & tool-free
+- **other_families**: locating & alignment, clamping, magnetic & friction connections, interlocking joints & joinery
+- **one_liner**: A reusable spring-loaded pin, fitted from one side with special pliers, that grips behind two or more drilled sheets and clamps them together with their holes lined up while they are drilled, fitted or riveted, then comes straight out again.
+- **complexity**: A small assembly that acts as one unit: a steel cylinder body, a plunger on top, a spring, a pair of step-cut locks (jaws) and a spreader bar between them (FAA-H-8083-31B). It is used with special Cleco pliers, and comes in colour-coded sizes. Threaded versions replace the spring with a wing nut or hex nut.
+- **how_it_works**: Squeezing the Cleco pliers pushes the plunger down, which pushes the two stepped jaws out of the body and off the spreader bar so they close together, thin enough to slip through the hole in the stacked sheets. When the pliers are released, the spring pulls the jaws back towards the body; the spreader bar forces them apart, so their steps catch behind the far sheet and the sheets are squeezed between the steps and the end of the body (Wikipedia 'Cleco (fastener)'; EAA). Because the jaws fill the hole snugly, the holes in every sheet stay lined up. Wing-nut and hex-nut versions pull the spreader up with a thread instead of a spring, so they can clamp much harder (Wikipedia; FAA-H-8083-31B).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds sheets or parts together temporarily while they are drilled, fitted, glued, welded or riveted
+  - line parts up exactly: keeps the holes in all the sheets lined up so the permanent rivets or bolts go in straight
+- **motion**: none: it holds the sheets still
+- **degrees_of_freedom**: 0 with two or more fitted; a single Cleco still lets the sheets swing round it, which is why several are used along a seam
+- **special_behaviour**: 
+  - quick-release: goes in and comes out with one squeeze of the pliers, from one side, and can be reused thousands of times on a project (EAA; AFT). It needs its pliers, so it is not tool-free.
+  - self-aligning or self-centring: the snug-fitting jaws pull matching holes into line and keep them there (Wikipedia; FAA-H-8083-31B)
+- **holding_principle**: 
+  - spring force: the internal spring pulls the jaws back and provides the clamping force, which is small (a standard plier-operated Kwik-Lok is rated for about 25 lb, AFT)
+  - shape (form-fit): the stepped jaws hook behind the far sheet and fill the hole, so the sheets can't slide or pull apart
+- **input_output**: not applicable
+- **power**: passive (no power needed); hex-nut versions can be driven by a pneumatic nut runner (FAA-H-8083-31B), but they hold without power
+- **removability**: removable: comes out in seconds with the same Cleco pliers, leaving the hole ready for a rivet (V-Twins to V-8s)
+- **reuse_cycles**: many times: they are reusable, and one builder says the installs and removals on one aircraft 'must be well into the thousands' (EAA; FAA-H-8083-31B)
+- **tools_needed**: Cleco pliers (one type of plier fits all six sizes, FAA-H-8083-31B); a drill with the matching bit (e.g. #30 for 1/8 in, Aircraft Spruce); a deburring tool for the holes. Wing-nut versions are turned by hand; hex-nut versions use a spanner or nut runner (FAA-H-8083-31B).
+- **seal**: none
+- **load**: Light: it is for holding parts in place, not carrying loads. A standard plier-operated type clamps with about 25 lb (AFT, Kwik-Lok); wing-nut and hex-nut temporary fasteners give up to 300 lb clamping force when more is needed (FAA-H-8083-31B). The pin resists the sheets sliding over each other (shear) enough to keep holes lined up during drilling, but 'Cleco pins are temporary fasteners, not structural hardware' (V-Twins to V-8s).
+- **adjustable**: No for spring types: each size grips a set range of thickness, typically 0-1/4 in (Aircraft Spruce), with long-grip types for thicker stacks (Jay-Cee: 0-1/2 in across its range; AFT: 1/4-1/2 in grip Kwik-Lok). Wing-nut types let you set the clamping force by hand from 0 to 300 lb (FAA-H-8083-31B).
+- **play_and_precision**: Very little: 'Clecos should fit snugly in their holes to prevent shifting of the workpieces and maintain the alignment of fastener holes which do not have Clecos in them' (Wikipedia). It only works if the hole matches its size (an undamaged silver 3/32 in Cleco passes through a #41 hole, KITPLANES). It tolerates no more misalignment than the hole clearance.
+- **access_needed**: one side only (blind): it is fitted and removed from one side, which was the point of the original 1936 patent ('applied to or removed from the work from only one side thereof') (Google Patents US 2,136,875; Wikipedia)
+- **materials**: Steel body and jaws with a spring; each size has a colour-coded finish: silver (zinc or cadmium) 3/32 in, copper 1/8 in, black 5/32 in, gold (brass) 3/16 in (Wikipedia; Aircraft Spruce). Mostly used on aluminium aircraft skins; also steel car-body panels before welding (V-Twins to V-8s), and to hold glued parts such as 3D prints with printed backing plates (Printables). AFT mentions larger-footprint types for composites.
+- **maker_difficulty**: easy: buy a kit of Clecos and a pair of Cleco pliers; the only skill is drilling round, correctly sized, matching holes
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: Clecos and their pliers are bought
+  - sheet metal: aluminium aircraft skins, car-body panels and enclosures, held while being drilled, riveted or welded
+  - 3D print (FDM): printed plates, jigs and holders used with bought Clecos, e.g. plates that bridge a glued seam (Printables)
+  - 3D print (resin): the same plates printed in tough or flexible resin (Printables)
+- **making_tips_3d_printing**: 1) Use bought Clecos and print accessories. The 'Cleco Plates for gluing seams' model (Printables) is a small plate with two holes: one Cleco goes through each hole into the part on either side of a seam, so the plate holds the two parts together while glue dries. Its author found he could fit more Clecos than clamps along a seam, that they work on round shapes and where clamps can't reach, that plates with 20 mm between hole centres still leave room for the pliers, and recommends cheap filament or a tough or flexible resin, with the Cleco size printed on each plate. 2) Holes: drill each hole to the Cleco's drill size after printing (e.g. #40 for 3/32 in, #30 for 1/8 in, #20 for 5/32 in, #10 for 3/16 in, Aircraft Spruce), because FDM holes print undersized and Hubs recommends printing critical holes undersized and drilling them. A loose hole defeats the point: Clecos must fit snugly (Wikipedia). 3) Keep the whole stack within the Cleco's grip range, typically 0-1/4 in (Aircraft Spruce), or buy long-grip types. 4) The spring force is small (about 25 lb for a standard type, AFT), so it clamps thin parts together but won't pull a warped print flat; for more force use wing-nut Clecos (FAA-H-8083-31B). 6) Printed storage: Gridfinity bins and holders for Clecos, side-grip clamps and Cleco pliers are available (Printables). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Spring-type Clecos in 3/32, 1/8, 5/32, 3/16, 1/4 and 3/8 in (FAA-H-8083-31B), also metric (e.g. 3.2 and 4.8 mm, Wikipedia), in standard, long, extra-long, mini and heavy-duty extended-grip series (US Industrial Tool); wing-nut and hex-nut temporary fasteners (FAA-H-8083-31B); side-grip clamps (Cleco clamps), e.g. 1/2 in and 1 in reach (Printables holder; Aircraft Spruce); Cleco pliers; pneumatic Cleco installers and nut runners (FAA-H-8083-31B); Kwik-Lok (brand) plier-operated, miniature and long-grip fasteners (AFT). Search terms: 'cleco fastener', 'sheet holder', 'temporary fastener', 'side grip clamp', 'cleco pliers'.
+- **rules_of_thumb**: 
+  - Six common sizes: 3/32, 1/8, 5/32, 3/16, 1/4 and 3/8 in, with the size stamped on the fastener and colour coding; one type of plier fits all six (FAA-H-8083-31B, p. 4-29).
+  - Drill sizes and colours: 3/32 in silver (cadmium) #40; 1/8 in copper #30; 5/32 in black #20; 3/16 in brass #10; 1/4 in copper, 1/4 in drill; standard material thickness 0-1/4 in (Aircraft Spruce K-series sheet holders).
+  - Clecos should fit snugly in their holes to prevent shifting and keep other holes aligned (Wikipedia).
+  - Pilot holes: #40 for finished holes over 3/32 in, #41 for 3/32 in fasteners; an undamaged silver Cleco passes through a #41 hole (KITPLANES).
+  - While match drilling, keep a Cleco or clamp next to each hole being drilled and a Cleco in every other hole (KITPLANES).
+  - Spring Clecos clamp lightly (about 25 lb for a standard plier-operated Kwik-Lok, AFT); use wing-nut or hex-nut temporary fasteners, up to 300 lb, when more clamp-up is needed (FAA-H-8083-31B, p. 4-29).
+  - Stacks thicker than about 3/16 in don't reliably guide a drill through existing pilot holes; keep the drill square (KITPLANES).
+  - When drilling dissimilar metals, drill through the hardest material first so the softer holes don't wallow out (KITPLANES).
+  - For hand-drilling titanium, clamp parts tightly with temporary bolts, Cleco clamps or tooling clamps as close to the drilling as possible (FAA-H-8083-31B, p. 4-85).
+  - Printed Cleco plates with 20 mm between hole centres leave room for the pliers (Printables, 'Cleco Plates for gluing seams').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Rows of copper and silver pins studding the aluminium skin of a kit aeroplane under construction (Wikipedia photo; EAA)
+  - A car restorer pinning a new steel body panel in place before welding it (V-Twins to V-8s)
+  - A repair patch (doubler) held on an aircraft skin with Clecos before it is riveted (FAA-H-8083-31B)
+  - A maker holding a glued seam together with 3D-printed Cleco plates (Printables)
+- **when_to_use**: Use Clecos whenever parts with matching holes must be held together, lined up exactly, and taken apart again before final assembly: riveted sheet-metal work (aircraft, enclosures, trailers, car panels), trial-fitting parts before deburring and riveting (EAA), holding panels flat and in line before welding (V-Twins to V-8s), and clamping glued seams on round or awkward shapes where clamps can't reach (Printables). They are especially useful when you can only reach one side of the work (Wikipedia).
+- **when_not_to_use**: Don't use them as permanent or load-carrying fasteners: swap each for a rivet, bolt or screw (V-Twins to V-8s). Where there are no holes, or holes aren't allowed, use side-grip clamps or C-clamps (AFT; FAA-H-8083-31B). Where you need strong clamping (thick or stiff parts, sealant squeeze-out), use wing-nut or hex-nut temporary fasteners or temporary bolts (FAA-H-8083-31B). For a quick-release joint in a finished product, use a ball-lock quick-release pin, snap pin or quarter-turn fastener instead. *(unverified parts omitted)*
+- **environment_limits**: A workshop tool: no special limits found. The springs weaken with age and heavy use, so weak ones should be sorted out (a buyer review on Aircraft Spruce reports about 1 in 100 with a weak spring; low-quality source). *(unverified parts omitted)*
+- **safety_notes**: Freshly drilled holes and cut sheet edges have sharp burrs; deburr them (EAA; KITPLANES). *(unverified parts omitted)*
+- **common_failures**: 1) Wrong-size or oversize holes: the Cleco is loose, the sheets shift and the other holes go out of line (Wikipedia; KITPLANES); drill to the matching size and keep the drill square. 2) Too few Clecos while drilling, so parts creep; put one in every other hole (KITPLANES). 3) Stack thicker than the grip range, so the jaws can't catch (Aircraft Spruce). 4) Burrs left by drilling: builders take the parts apart, deburr the holes and edges, then put them back together with Clecos before riveting (EAA). 5) Weak springs, which clamp poorly (Aircraft Spruce buyer review; V-Twins to V-8s advises avoiding ultra-cheap kits). 6) Too little clamping force for the job (FAA-H-8083-31B); use wing-nut Clecos. *(unverified parts omitted)*
+- **related**: 
+  - Blind rivet (pop rivet): the permanent one-sided fastener that usually replaces the Cleco
+  - Temporary bolt and nut: the older method; clamps harder but needs a person or tool on both sides (EAA; Google Patents US 2,136,875)
+  - Wing-nut and hex-nut temporary fasteners: Cleco-type pins pulled tight by a thread for up to 300 lb clamping force (FAA-H-8083-31B)
+  - Side-grip clamp (Cleco clamp): a small spring clamp for edges where there are no holes (AFT; Wikipedia)
+  - C-clamp (G-clamp): general clamping, but needs room on both sides and can mark soft metal (FAA-H-8083-31B)
+  - Quick-release pin (ball-lock pin): a permanent-use pin that locks with balls and releases with a button
+  - Snap pin (split-leg push-in pin): a printable pin held in by springy legs
+  - Locating pins (dowels): fixed pins that line parts up but don't clamp them together
+  - Spring bar: another small spring-loaded pin, but it telescopes between lugs rather than gripping behind sheets
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Cleco fastener extended (Wikimedia Commons, by Thermofan)](https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg): A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding *(licence: CC0 1.0 (public domain dedication))*
+  - [Cleco Tool for fitting temporary fasteners (Wikimedia Commons, by Thermofan)](https://commons.wikimedia.org/wiki/File:Cleco_Tool_for_fitting_temporary_fasteners.jpg): The special pliers used to fit and remove Clecos *(licence: CC0 1.0 (public domain dedication))*
+  - [Cleko Fasteners on RV-12 Wing (Wikimedia Commons, by FlugKerl2)](https://commons.wikimedia.org/wiki/File:Cleko.jpg): Rows of Clecos holding the skin of a kit-aircraft wing during assembly *(licence: CC BY-SA 4.0)*
+  - [Cleco fasteners how they work (Matthys Quality Equipment, YouTube)](https://www.youtube.com/watch?v=Z73rnbUEdN8): How a Cleco and its pliers work (title and channel verified via YouTube oEmbed; content not reviewed in detail) *(licence: link only (standard YouTube licence))*
+  - [What are Cleco Fasteners And How To Use Them (Omega Technologies, YouTube)](https://www.youtube.com/watch?v=thBy5z0Kanc): A tool supplier's explanation of Cleco types and how to fit them (title and channel verified via YouTube oEmbed; content not reviewed in detail) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Cleco Plates for gluing seams (Weird_Stealth, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/474194-cleco-plates-for-gluing-seams): Small printed plates with two Cleco holes that bridge a seam, so bought Clecos can hold two glued parts together; sized by hole-centre distance (20 mm recommended) and labelled with the Cleco size *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [Gridfinity Holders for Cleco Fasteners (Vase Mode) (Netpackrat, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1049736-gridfinity-holders-for-cleco-fasteners-vase-mode): Gridfinity storage holders for spring Clecos, printed in vase mode, with 6x3 mm magnet pockets *(licence: CC BY-NC-SA)*
+  - [Cleco Holder (jeffrey892, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1103509-cleco-holder): A lidded toolbox holder for 40 Clecos of various sizes *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [Cleco Side Grip Clamp holder (mfraz74, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/272245-cleco-side-grip-clamp-holder): Plates holding 1/2 in and 1 in side-grip clamps, with an editable FreeCAD file *(licence: CC BY)*
+- **diagram_idea**: Three-step cutaway of a Cleco in two drilled sheets: (1) pliers pressing the plunger, jaws pushed out and closed together above the hole; (2) jaws slipped through both sheets; (3) pliers released, spring pulling the jaws back over the spreader bar so they open and their steps clamp the sheets against the body, with arrows showing the pull and the holes lined up.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Cleco_(fastener)
+  - https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-31B_Aviation_Maintenance_Technician_Handbook.pdf
+  - https://www.aircraftsystemstech.com/p/sheet-metal-holding-devices.html?m=1
+  - https://www.aircraftspruce.com/catalog/topages/sheetholder.php
+  - https://aft.systems/a-guide-to-using-temporary-fasteners/
+  - https://inspire.eaa.org/2018/12/12/i-really-like-clecos/
+  - https://patents.google.com/patent/US2136875A/en
+  - https://www.kitplanes.com/drilling-holes-for-fasteners/
+  - https://vtwinstov8s.com/blogs/tools-and-tips/what-cleco-pins-are-and-why-pros-use-them-for-sheet-metal-work
+  - https://www.rivetsonline.com/rivets/cleco-fasteners-temporary-rivetsside-grips
+  - https://www.ustool.com/sheet-metal-tools/cleco/fasteners.html
+  - https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/
+  - https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
+  - https://commons.wikimedia.org/wiki/File:Cleco_Tool_for_fitting_temporary_fasteners.jpg
+  - https://commons.wikimedia.org/wiki/File:Cleko.jpg
+  - https://api.printables.com/graphql/
+  - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z73rnbUEdN8&format=json
+  - https://www.youtube.com/watch?v=Z73rnbUEdN8
+  - https://www.youtube.com/watch?v=thBy5z0Kanc
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, making_tips_3d_printing, print_in_place, safety_notes, when_not_to_use
 
 ## 261 Tool-free fasteners (thumbscrew, wing nut, hitch pin and R-clip)
 
 *quick-release & tool-free.* Ordinary fasteners shaped to be done up by hand, as a simple quick-release baseline
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Ordinary screws, nuts and pins made to be done up and undone with your fingers: a screw with a big ridged head, a nut with two 'wings' to twist, and a pin pushed through holes and held by a springy wire clip shaped like an R
+- **term**: Tool-free (hand-operated) fasteners: thumbscrew, wing nut, hitch pin and R-clip
+- **aliases**: 
+  - thumbscrew, thumb screw, knurled thumb screw (high head DIN 464, low head DIN 653; ASME B18.6.8 types A and B) (Wikipedia 'List of screw drives'; AIMS Industrial thumb screw guide)
+  - wing nut, wingnut or butterfly nut (ASME B18.6.9 types A-D); wing screw or wing bolt (DIN 316) (Wikipedia 'Wingnut (hardware)'; Wikimedia Commons 'DIN 316 M5x30 Winged Screw')
+  - knurled nut or thumb nut; clamping knob, star knob, T-knob or T-head screw (DIN 6336) (Wikipedia 'Knurled nut'; AIMS Industrial; Elesa 'Clamping knobs and thumb screws')
+  - captive thumb screw or captive panel screw: a thumbscrew that stays attached to the panel (AIMS Industrial)
+  - PC case thumbscrew (#6-32 UNC); D-sub connector jackscrew (#4-40 UNC) (Wikipedia 'Computer case screws')
+  - hitch pin, clevis pin with a cross-hole; linch pin or lynch pin (a pin with a spring ring) (McMaster-Carr; Wikipedia 'Linchpin', 'Clevis fastener')
+  - R-clip, R-pin, R-key, hairpin cotter (pin), hitch pin clip, bridge pin, spring cotter (pin); single- or double-coil (DIN 11024) (Wikipedia 'R-clip'; Aspen DIN 11024 sheet)
+  - RC car 'body clip' (a small R-clip) (Wikipedia 'R-clip')
+- **family**: quick-release & tool-free
+- **other_families**: clamping, magnetic & friction connections, hinges & pivots, sliding, telescoping & linear motion
+- **one_liner**: Everyday fasteners with a shape your fingers can grip, such as a ridged or winged head, a knob, or a pin with a springy wire clip, so that a joint can be done up, adjusted and taken apart again and again without any tools.
+- **complexity**: A few parts. Thumbscrew or wing screw: a single screw with a large knurled, flat or winged head, used with a tapped hole or nut. Wing nut or knob: one nut (or a plastic knob with a metal nut or stud moulded in) on an ordinary bolt. Hitch pin and R-clip: a plain pin with a head and a cross-hole near its tip, plus a spring-steel R-shaped wire clip; a linch pin has a spring ring on a hinge instead of a separate clip (Wikipedia 'R-clip', 'Linchpin', 'Wingnut (hardware)', 'List of screw drives').
+- **how_it_works**: The threaded ones work exactly like a normal screw or nut. Turning them pulls the parts together and friction in the thread holds them, but the head is made big, ridged or winged so that your fingers can turn it; the wings act as levers that turn finger force into more twisting force (Wikipedia 'Wingnut (hardware)'; AIMS Industrial). A hitch pin works by shape instead: it passes through holes in both parts, so they can't separate. The R-clip's straight leg goes through the hole near the pin's tip, and its curved 'belly' springs round the outside of the pin and grips it, so the clip can't fall out; the angled end helps it slide on (Wikipedia 'R-clip').
+
+### Finder attributes
+
+- **job**: 
+  - lock, and release by hand: joins parts that must be opened, adjusted or removed often without a tool, such as covers, guards, jigs, stands and attachments (AIMS Industrial; Wikipedia 'Knurled nut')
+  - join and hold: an ordinary clamped joint (thumbscrew, wing nut) or pinned joint (hitch pin) (Wikipedia 'Wingnut (hardware)', 'R-clip')
+  - let it move (turn, slide or bend): a hitch or clevis pin is often the pivot of a linkage that can be pulled out by hand; a loosened thumbscrew or wing nut lets a stand or slide be moved and re-clamped (Wikipedia 'Clevis fastener', 'Wingnut (hardware)')
+- **motion**: none when done up. A hitch pin or clevis pin used as a pivot gives 'rotate' about the pin; a slot with a thumbscrew or wing nut gives 'slide' while it is loosened.
+- **degrees_of_freedom**: 0 when a thumbscrew or wing nut is tightened. 1 (rotation about the pin) when a hitch pin or clevis pin forms a pivot, as in a clevis joint (Wikipedia 'Clevis fastener').
+- **special_behaviour**: 
+  - quick-release: done up and undone by hand in seconds, with no tool needed and nothing to lose if the fastener is captive or tethered (a double-coil R-clip lets you attach a tether cord) (Wikipedia 'R-clip'; Aspen DIN 11024 sheet; AIMS Industrial)
+  - none of the cleverer behaviours: thumbscrews and wing nuts are ordinary threaded fasteners, only shaped for the hand
+- **holding_principle**: 
+  - friction or clamping (force-fit): thumbscrews, wing nuts and knobs clamp the parts with the bolt's tension, and thread friction holds them (Wikipedia 'Wingnut (hardware)')
+  - shape (the parts interlock; form-fit): the hitch pin passes through holes in both parts (Wikipedia 'R-clip', 'Clevis fastener')
+  - spring force (a spring or springy part presses it in place): the R-clip's springy belly grips the pin so the clip stays in its hole; a linch pin's spring ring snaps down over the pin's end (Wikipedia 'R-clip'; McMaster-Carr 'Linch Pins')
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release
+- **reuse_cycles**: many times: that is their purpose. R-clips 'are easier to remove and are re-usable' compared with split pins (Wikipedia 'R-clip'), and knurled fasteners are used 'where the fasteners will be removed regularly' (Wikipedia 'Knurled nut'). Printed plastic threads and knobs wear faster than metal ones (Hubs).
+- **tools_needed**: none. Some knurled nuts and thumbscrews also have a screwdriver slot, so a tool can be used where vibration is a concern or extra tightness is needed (Wikipedia 'Knurled nut', 'List of screw drives').
+- **seal**: none
+- **load**: Thumbscrews and wing nuts: light to medium clamping only, because your hand limits the torque. Thumbscrews 'are usually not found in structural applications' (Wikipedia 'List of screw drives'). Hitch and clevis pins: strong in shear (sideways across the pin); a vehicle hitch pin carries towing loads, while the R-clip carries almost no load and only stops the pin sliding out (McMaster-Carr 'Hitch Pins'; Wikipedia 'R-clip'). A bolt is a poor substitute for a clevis pin in shear: its strength is set by the smaller diameter at the bottom of its thread (Wikipedia 'Clevis fastener'). *(unverified parts omitted)*
+- **adjustable**: yes for thumbscrews, wing nuts and knobs: they clamp at any position along a slot or tube, e.g. drum and cymbal stands (Wikipedia 'Wingnut (hardware)'). Hitch pins: no, or only in steps if the parts have a row of holes.
+- **play_and_precision**: Thumbscrew or wing-nut clamps have no play once tight, but they only return to the same position if something else locates the parts; drum kits use a separate 'memory' collar so the stand goes back to the same setting (Wikipedia 'Wingnut (hardware)'). Hitch and clevis pins have noticeable play in their holes; they 'should be closely fitted to the holes in the clevis to limit wear' (Wikipedia 'Clevis fastener').
+- **access_needed**: one side only (blind) for a thumbscrew or wing screw into a tapped hole or captive nut; both sides for a wing nut on a loose bolt (unless the bolt head is held captive) and for a hitch pin, whose clip goes on the far side.
+- **materials**: Knobs, T-handles and wing nuts are often moulded technopolymer (engineering plastic) with a steel insert or stud, or aluminium, cast iron or A4 stainless steel (AIMS Industrial; Elesa; JW Winco). R-clips are hardened spring-steel wire, harder than split-pin wire, also sold in A4 stainless (Wikipedia 'R-clip'; Aspen DIN 11024 sheet). They join metal, wood and plastic parts; 3D-printed knobs and wings are usually PLA or PETG around a metal nut or bolt head (Printables knob models). *(unverified parts omitted)*
+- **maker_difficulty**: easy: buy standard parts, or print a knob or wing that grips an ordinary nut or bolt head (Printables and Thingiverse adapter models).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: thumbscrews, wing nuts, knobs, hitch pins and R-clips are cheap catalogue parts
+  - 3D print (FDM): knobs, star grips and wing adapters that fit over a standard hex nut, hex bolt head or socket-cap screw; printed wing nuts with printed threads for M5 and larger (Printables 'Screw knob for metric hex and Allen bolt and nuts'; Printables 'Nut and Bolt Adapters'; Hubs)
+  - woodwork: bolts through jigs, fences and workbench fixtures clamped with printed or bought knobs and wing nuts (Printables knob model description: 'to mount things like milling fences to my workbench')
+  - CNC: turned and knurled thumbscrews and pins, drilled cross-holes for R-clips
+- **print_in_place**: partly: a printed knob, star grip or wing adapter prints as one piece but needs a metal nut or bolt head pressed or glued in (Printables knob and adapter models). Fully printed wing nuts and thumbscrews with printed threads are possible, but Hubs advises avoiding FDM-printed threads smaller than M5.
+- **making_tips_3d_printing**: 1) Don't print the thread if you can avoid it: print a knob, star grip, T-handle or wing that grips a standard metal hex nut, hex bolt head or socket-cap screw head, so the metal carries the thread (Printables models by trses, bryanpryor and Asa; Thingiverse 'Instant Wingnut Adapter'). Hubs advises against FDM-printed threads smaller than M5; if you do print threads, screw the fastener in and out several times to clean them (Hubs threaded fasteners guide). 2) Pocket fit: Hubs suggests a 0.2 mm offset around the nut (0.1 mm each side) for a loose fit, adjusted by test prints; bryanpryor's parametric knob uses a slight press fit for a 1/4-20 nut or bolt head, with optional glue, and recommends 'at least 4 walls to get more strength under the bolt head/nut' (Hubs; Printables 'Parametric Knob for Nuts'). 3) Leave enough plastic round the corners of the hex pocket: trses rotated the hex cut-out by 30° in his knob 'for better wall thickness' (Printables 'Screw knob for metric hex and Allen bolt and nuts'). 4) Make it big: torque grows with the grip radius, and wings act as levers (AIMS Industrial), so a 50 mm knob gives much more clamping force than a small knurled head; bryanpryor's base knob is 50 mm with a 25 mm version for tight spaces (Printables). 5) Print knobs flat, with the pocket opening facing up or down so no supports are needed; Asa's adapters need 'no supports' and the nut key is printed upside down (Printables 'Nut and Bolt Adapters'). Standard R-clips (DIN 11024) start at pins of about 9 mm diameter (Fixawell DIN 11024 table), so for small printed pins use a split pin, a snap pin or a printed clip instead. 7) A hand-tight clamp on printed parts slowly loses force as the plastic creeps under the nut (FilamentSpecs creep guide); use a large washer and re-tighten from time to time. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search catalogues for: 'knurled thumb screw' (DIN 464 high head, DIN 653 low head), 'wing screw' or 'wing bolt' (DIN 316), 'wing nut' or 'butterfly nut' (ASME B18.6.9), 'knurled nut' or 'thumb nut', 'clamping knob', 'star knob', 'lobe knob', 'T-knob' or 'T-head screw' (DIN 6336), 'captive thumb screw' or 'captive panel screw', 'PC case thumbscrew 6-32' (Wikipedia; AIMS Industrial; Elesa); 'hitch pin' and 'clevis pin' (with a cross-hole), 'linch pin', 'R-clip', 'hairpin cotter pin', 'hitch pin clip', 'spring cotter pin DIN 11024' (single or double coil), and 'quick-release pin' (ball-lock, a separate entry) (Wikipedia 'R-clip'; McMaster-Carr 'Hitch Pins'; Aspen DIN 11024 sheet). Torque-limiting knobs, knurled knobs and wing nuts that 'release after reaching the desired torque' are also sold (JW Winco 'Torque Limiting Knobs'; Elesa 'Clamping knobs and thumb screws').
+- **rules_of_thumb**: 
+  - Bigger grip, more torque: wings and knobs are lever arms, so choose a wing screw or a large knob rather than a small knurled head when you need more clamping force, or when people wear gloves (AIMS Industrial).
+  - R-clip size (DIN 11024) is the diameter of the cross-hole in the pin: size 2.5 (2.25 mm wire) fits pins of 9-11.2 mm, size 3.2 (2.8 mm wire) 11.2-14 mm, size 4 (3.6 mm wire) 14-20 mm, size 5 (4.5 mm wire) 20-26 mm, size 6.3 (5.6 mm wire) 26-34 mm (Fixawell and Boltsfastener DIN 11024 tables; Aspen DIN 11024 sheet).
+  - Fit clevis and hitch pins closely in their holes to limit wear; use a real clevis or hitch pin, not a bolt, where the load is sideways across the pin (Wikipedia 'Clevis fastener').
+  - Printed threads: avoid FDM-printed threads below M5, and use a metal nut, insert or cut thread instead (Hubs).
+  - Nut pocket in a printed knob: start with a 0.2 mm offset for a loose fit (Hubs), or a slight press fit plus at least 4 walls (Printables 'Parametric Knob for Nuts'). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - The ridged thumbscrews holding the side panel of a desktop PC, and the small thumbscrews on each side of a VGA or serial cable plug (Wikipedia 'Computer case screws')
+  - Wing nuts and wing bolts on drum-kit and cymbal stands (Wikipedia 'Wingnut (hardware)'), and on old bicycle wheels before quick-release skewers (Wikipedia, citing Sheldon Brown)
+  - The pin and R-clip that hold a trailer's tow-bar insert in the car's hitch receiver, or an implement on a tractor's three-point hitch (Wikipedia 'R-clip', 'Linchpin')
+  - The knurled levelling knobs under the heated bed of many 3D printers (AIMS Industrial; Thingiverse bed-levelling thumbwheels)
+- **when_to_use**: Use tool-free fasteners on anything opened, adjusted or taken apart often, where hunting for a tool would slow you down: access covers and guards, jigs and fixtures, fences on a workbench, lamp, camera, music and drum stands, printer bed levelling, and attachments that are swapped over (AIMS Industrial; Wikipedia 'Knurled nut', 'Wingnut (hardware)'). Knurled heads also discourage over-tightening and stripping (Wikipedia 'Knurled nut'). Choose wing screws or big knobs where people wear gloves or need more clamping force (AIMS Industrial). Use a hitch or clevis pin with an R-clip for a strong pinned joint or pivot that can be pulled apart by hand, e.g. a trailer insert, a removable linkage or a tow bar (Wikipedia 'R-clip').
+- **when_not_to_use**: Don't use them for structural or highly loaded bolted joints: hand torque is far below a bolt's normal tightening torque, so use spanner-tightened bolts (Wikipedia 'List of screw drives'; AIMS Industrial). Avoid plain thumbscrews and wing nuts where there is strong vibration: they can back off; use a locknut, a thumbscrew that also takes a screwdriver, or a quarter-turn or cam-lock fastener (Wikipedia 'Knurled nut'; see Thread-locking hardware). If the joint must be opened in one quick movement, a cam lever (quick-release skewer), bayonet, quarter-turn fastener or ball-lock quick-release pin is faster than several turns of a thread; the quick-release skewer was invented because a racer's frozen fingers couldn't undo his wing nuts (Wikipedia 'Wingnut (hardware)', citing Sheldon Brown). Where brush or clothing can snag it, a hairpin R-clip can be pulled out; a properly fitted and bent split pin would not pull out (TractorByNet forum). *(unverified parts omitted)*
+- **environment_limits**: Stainless R-clips (A4) suit wet and marine use (Aspen DIN 11024 sheet). Cold or gloved hands can't grip small knurled heads; wings help (AIMS Industrial; Wikipedia 'Wingnut (hardware)'). Vibration loosens hand-tight threads (Wikipedia 'Knurled nut'). *(unverified parts omitted)*
+- **safety_notes**: A hand-tight clamp can slip under a heavy or shock load, so don't rely on thumbscrews or wing nuts to hold anything overhead or to carry people. *(unverified parts omitted)*
+- **common_failures**: 1) Works loose under vibration because hand torque gives little clamp force (Wikipedia 'Knurled nut'; AIMS Industrial). 2) Printed knob spins on its nut or bolt head because the pocket is too loose or the walls too thin (Printables knob notes; Hubs). 3) Printed threads strip or wear, especially below M5 (Hubs). 5) R-clip or linch pin lost, leaving the pin free to slide out; tie it on with a cord through a double-coil clip (Wikipedia 'R-clip'; Aspen DIN 11024 sheet). 6) Pin holes worn oval because the pin is a loose fit (Wikipedia 'Clevis fastener'). 7) Corroded or frozen wing nuts that fingers can't turn (Wikipedia 'Wingnut (hardware)'). *(unverified parts omitted)*
+- **related**: 
+  - Eccentric cam lever (cam clamp, quick-release skewer): clamps with a flick of a lever instead of several turns; what replaced wing nuts on bicycle wheels
+  - Quick-release pin (ball-lock pin): a pin that locks itself with spring balls and releases with a button, so there is no separate clip to lose
+  - Quarter-turn fastener (Dzus-type) and cam latch (quarter-turn cam lock): panel fasteners that open with a quarter turn
+  - Bayonet mount (push-and-twist lock): tool-free joining with a push and a short twist
+  - Thread-locking hardware (nylon-insert nut, lock washer, split pin): the split pin is the tool-fitted, single-use cousin of the R-clip
+  - Clevis joint (fork-and-pin joint): the pivot that a hitch or clevis pin with an R-clip usually forms
+  - Indexing plunger (pull-knob index pin) and spring button lock: spring pins that drop into set holes, for adjustable positions without a separate pin and clip
+  - Toggle clamp: a lever clamp that gives much more clamping force than a hand-turned knob, for jigs and fixtures
+  - Captive nut pocket (nut trap) and heat-set threaded insert: ways to give a 3D print a metal thread for a thumbscrew
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Wingnut-hardware.jpg (Muke, cropped by Xoristzatziki, Wikimedia Commons, 2010)](https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg): Photo of three wing nuts of different styles *(licence: Public domain)*
+  - [HitchPin.jpg (Chris Cross, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:HitchPin.jpg): A hitch pin with an R-clip fitted through the cross-hole near its tip *(licence: Public domain)*
+  - [R-Clip.jpg (Chris Cross, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:R-Clip.jpg): Close-up of an R-clip (hairpin cotter), showing the straight leg and the curved 'belly' that grips the pin *(licence: Public domain)*
+  - [Thumbscrews pc.jpg (Bloodshedder, Wikimedia Commons, 2006)](https://commons.wikimedia.org/wiki/File:Thumbscrews_pc.jpg): Knurled thumbscrews from an ATX PC case *(licence: CC BY-SA 2.5)*
+  - [DIN 316 M5x30 Winged Screw Flügelschraube.jpg (Phiarc, Wikimedia Commons, 2022)](https://commons.wikimedia.org/wiki/File:DIN_316_M5x30_Winged_Screw_Fl%C3%BCgelschraube.jpg): Photo of a stainless-steel M5 x 30 wing screw (DIN 316) *(licence: CC BY-SA 4.0)*
+- **make_it_yourself**: 
+  - [Screw knob for metric hex and Allen bolt and nuts - knurled and star shape parametric (trses, Printables; URL from search results, page not opened; details read through the Printables API)](https://www.printables.com/model/1116311-screw-knob-for-metric-hex-and-allen-bolt-and-nuts): Parametric OpenSCAD star and knurled knobs for ISO 4017 hex screws, ISO 4762 socket-cap screws and ISO 4032 hex nuts, M3 to M16, with Customizer settings *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Nut and Bolt Adapters (wing nut, thumb screw, nut ring) Metric Sizes (Asa, Printables; URL from search results, page not opened; details read through the Printables API)](https://www.printables.com/model/503494-nut-and-bolt-adapters-wing-nut-thumb-screw-nut-rin): Printable adapters, M3 to M12, that turn ordinary nuts and bolts into hand-tightened wing nuts and thumbscrews; no supports needed *(licence: CC BY (Creative Commons Attribution))*
+  - [Parametric Knob for Nuts, Threaded Knob (Fusion 360) (bryanpryor, Printables; URL from Printables API, page not opened)](https://www.printables.com/model/625673-parametric-knob-for-nuts-threaded-knob-fusion-360): Parametric 50 mm (and 25 mm) knob that takes a pressed-in nut or bolt head, or prints with its own thread; notes on press fit and wall count *(licence: CC BY (Creative Commons Attribution))*
+  - [Instant Wingnut Adapter M3 M4 M5 M6 M8 M10 (MvM, Thingiverse)](https://www.thingiverse.com/thing:2121898): Printable clip-on wings that turn any M3-M10 hex bolt head or nut into a wing nut you can turn by hand *(licence: CC BY-NC 4.0)*
+  - [Thumbwheel for M3 standard and nyloc nuts (andygock, Thingiverse)](https://www.thingiverse.com/thing:39459): Printable thumbwheel that fits tightly round an M3 nut, used for hand-levelling a 3D printer bed *(licence: CC BY-SA 4.0)*
+- **diagram_idea**: Three small sketches side by side: a thumbscrew and a wing nut with curved arrows showing fingers turning them, with the wing span marked as a lever arm; and a clevis joint with a hitch pin through both parts and an R-clip sliding into the cross-hole, its belly springing round the pin.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Wingnut_(hardware)
+  - https://en.wikipedia.org/wiki/List_of_screw_drives
+  - https://en.wikipedia.org/wiki/Thumbscrew
+  - https://en.wikipedia.org/wiki/Knurled_nut
+  - https://en.wikipedia.org/wiki/Computer_case_screws
+  - https://en.wikipedia.org/wiki/R-clip
+  - https://en.wikipedia.org/wiki/Linchpin
+  - https://en.wikipedia.org/wiki/Clevis_fastener
+  - https://aimsindustrial.com.au/blogs/product-guides/thumb-screw-guide
+  - https://www.elesa.com/en/elesab2bstoreus/hand-knobs-and-thumb-screws-us--1
+  - https://www.jwwinco.com/en-us/products/2.2-Tensioning-clamping-with-handles/Torque-limiting-knobs
+  - https://www.mcmaster.com/products/hitch-pins/
+  - https://www.aspenfasteners.com/content/pdf/Metric_DIN_11024_spec.pdf
+  - https://www.fixawell.com/din-11024.htm
+  - https://www.boltsfastener.com/standards/pins-keys-standard/din-11024.html
+  - https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://www.tractorbynet.com/forums/threads/nyla-nuts.430100/post-5823756
+  - https://www.thingiverse.com/thing:2121898
+  - https://www.thingiverse.com/thing:39459
+  - https://api.printables.com/graphql/ (models 1116311, 503494, 625673)
+  - https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg
+  - https://commons.wikimedia.org/wiki/File:HitchPin.jpg
+  - https://commons.wikimedia.org/wiki/File:R-Clip.jpg
+  - https://commons.wikimedia.org/wiki/File:Thumbscrews_pc.jpg
+  - https://commons.wikimedia.org/wiki/File:DIN_316_M5x30_Winged_Screw_Fl%C3%BCgelschraube.jpg
+  - https://commons.wikimedia.org/wiki/File:Bicycle_wing_nuts.jpg
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, load, making_tips_3d_printing, materials, rules_of_thumb, safety_notes, when_not_to_use
 

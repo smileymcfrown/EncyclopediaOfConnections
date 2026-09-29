@@ -952,29 +952,705 @@
 
 *sliding, telescoping & linear motion.* Nested metal channels with ball bearings that let a drawer or robot lift extend smoothly, sometimes with a lock-out or soft close
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A pair of metal rails that slide inside each other on rows of little steel balls, so a drawer (or a robot arm) pulls out smoothly, often all the way, and can't fall out
+- **term**: Telescopic ball-bearing drawer slide (ball-bearing slide, telescopic slide)
+- **aliases**: 
+  - drawer slide / drawer runner
+  - ball-bearing slide / ball slide / steel ball slide
+  - telescopic slide / telescoping slide / telescopic rail / slide rail / telescopic channel slide
+  - full-extension slide / 3-section slide (outer, middle and inner rails) versus 2-section slide (partial extension) (Wikipedia 'Drawer')
+  - 3/4-extension, full-extension, over-travel and super-extension slides (how far the drawer comes out)
+  - side-mount slide / undermount slide / centre-mount slide (where it is fitted; Rockler)
+  - soft-close slide / self-closing slide / push-to-open or touch-release slide (Rockler)
+  - locking drawer slide / lock-in slide / lock-out slide (Chambrelan; Accuride)
+  - heavy-duty slide / file drawer slide / keyboard slide
+  - double-extension slide (opens to both sides; Chambrelan)
+  - linear slide / drawer slides (robotics wording; gm0)
+  - MISUMI SAR slide rail, goBILDA Viper slide (brands used in FTC robotics; gm0)
+  - Accuride, Chambrelan (brands)
+- **family**: sliding, telescoping & linear motion
+- **other_families**: locks, latches & catches, brakes, dampers & speed control, indexing & detents
+- **one_liner**: Two or three nested steel or aluminium channels that roll on caged steel balls, letting a drawer, tray or robot stage pull out smoothly in a straight line, often its full length, with optional stops, locks, detents and soft-close.
+- **complexity**: A small assembly that acts as one unit, used in pairs: an outer (cabinet) member, an intermediate member in full-extension slides, an inner (drawer) member, strips of steel balls held in ball retainers (cages) between each pair of members, end stops, and often a disconnect lever, a hold-in detent, a lock-in or lock-out latch, and a self-close spring or soft-close damper (Wikipedia 'Drawer'; Accuride slide reference guide; Rockler).
+- **how_it_works**: Each member is a steel channel rolled into shape with grooves (ball races) along its edges (Wikipedia 'Drawer'). Rows of steel balls, spaced by a plastic or metal strip (ball retainer, or cage), sit in the grooves between one member and the next, so the members roll on the balls instead of rubbing (Wikipedia 'Linear-motion bearing'; Accuride). A three-part slide has a middle member that carries the drawer member further out, so the drawer can come out the full length of the slide (Wikipedia 'Drawer'); the members either move one after another (telescoping, in stages) or all together (progressive) (Accuride). Extra parts give a detent to stop the drawer creeping open, locks, a disconnect lever for removing the drawer, a spring that pulls the drawer shut, or a damper that slows it for the last few inches (Rockler; Accuride; Chambrelan). *(unverified parts omitted)*
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): a low-friction straight-line guide for drawers, trays and robot lifts
+  - lock, and release by hand: lock-in and lock-out slides hold a drawer shut or fully open until you press a latch (Chambrelan; Accuride)
+  - slow it, stop it or keep its speed steady: soft-close slides slow the drawer over the last part of closing (Wikipedia 'Drawer'; Rockler)
+  - click into set positions: a hold-in detent or 'hard point' keeps a drawer shut until pulled a little harder (Rockler; Chambrelan)
+- **motion**: slide, in a straight line. Travel: about 3/4 of the closed length (3/4 extension), the full length (full extension), a little more than the length (over-travel, the drawer clears the cabinet by an inch or so), or about 1.5 times the length with two intermediate members (super extension) (Rockler; Accuride; Chambrelan lexicon)
+- **degrees_of_freedom**: 1: the drawer slides in and out along the slide. Inside a full-extension slide the middle member also floats between its stops, but that doesn't give the drawer any extra movement
+- **special_behaviour**: 
+  - hand-release only (locks under load, releases when a person operates it): lock-out slides hold the drawer fully open and lock-in slides hold it shut until you press a latch or lever; one locking slide per drawer is enough (Chambrelan; Accuride models 3607, 9307E, 9308E)
+  - indexing (clicks into set positions): a hold-in detent keeps the drawer from creeping open if the cabinet is slightly out of plumb (Rockler); a 'hard point' holds shut or open until pulled harder (Chambrelan)
+  - quick-release: disconnect levers, rail latches, push latches or a firm pull let the drawer come off its slides without tools (Accuride slide reference guide)
+  - none of the others for a plain slide; self-close (a spring pulls the drawer shut over the last few inches), soft-close (a damper slows it) and push-to-open (a spring pushes it open) are added features (Rockler; Wikipedia 'Drawer')
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it is a guide that lets the drawer slide
+  - shape (form-fit): the balls run in rolled grooves that trap the members together, and stops, locks and disconnect latches hold by shape
+  - spring force (a spring or springy part presses it in place): detents, self-close and push-to-open features use springs (Rockler)
+- **input_output**: not applicable (it guides straight-line motion; it doesn't change it). For robot lifts the slides are driven by a motor through strings or belts (see 'Multi-stage slide rigging'; gm0)
+- **power**: passive (no power needed); in robots and machines a motor drives the slide separately
+- **removability**: removable: screwed to the cabinet and drawer; most slides let the drawer be disconnected and lifted out by a lever, rail latch, push latch or a firm pull (Accuride slide reference guide)
+- **reuse_cycles**: many times: can be unscrewed and refitted; most Accuride slides are tested to at least 50,000 open-and-close cycles to ANSI/BIFMA guidelines (Accuride slide reference guide)
+- **tools_needed**: screwdriver or drill-driver, tape measure and square or level, and ideally a positioning jig (Rockler; printable jigs on Printables); for robot lifts, countersunk M3 or M4 screws, nuts and often 3D-printed spacers (gm0)
+- **seal**: none: dirt, sawdust and chips get into the ball tracks and spoil the movement (gm0; Accuride slide reference guide)
+- **load**: light to heavy: Accuride groups slides as light duty up to 75 lb, medium duty 90 to 100 lb and heavy duty 100 to 600 lb per pair, with stainless and aluminium ranges up to 1,323 lb (Accuride slide reference guide); ordinary kitchen slides are about 75 to 100 lb (Rockler). Ratings are for a pair of 18 in slides fitted on their edges (on the drawer sides): they drop for longer slides, drop by at least 50% if the slides are laid flat under the drawer, and drop as extension increases (Accuride; Chambrelan). Strongest carrying weight down across the tall side of the slide; weakest to sideways loads and twisting when fully extended, where the slide bends (deflects) (Chambrelan lexicon; gm0)
+- **play_and_precision**: small in good steel slides; the fully extended slide bends (deflects) in proportion to the load (Chambrelan lexicon), and aluminium robot slides develop play as steel balls wear into the rails (gm0). The two slides must be parallel in both directions or they bind, though mounting one slightly higher than the other has little effect (Accuride). Side clearance must suit the slide, usually 1/2 in (12.7 mm) each side for ball-bearing side-mount slides (Rockler)
+- **access_needed**: one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side
+- **materials**: Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)
+- **maker_difficulty**: easy to moderate to buy and fit: the slides are cheap, but they must be mounted accurately, parallel and with the right side clearance (Accuride; Rockler); moderate to print a working light-duty slide (plain PLA or BB slides; Printables); hard to match steel slides' stiffness and load rating at home, so buy them for anything heavy
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: side-mount, undermount and centre-mount slides; heavy-duty, locking, soft-close and push-to-open slides; robotics slide rails
+  - woodwork: fitting slides to cabinets, desks, workbenches and tool chests
+  - 3D print (FDM): plain printed slides, rails running on airsoft BBs, spacers and brackets that stack bought slides into robot lifts, and installation jigs (Printables; gm0)
+  - sheet metal: commercial slides are roll-formed from steel strip (Wikipedia 'Drawer'), a factory process
+- **print_in_place**: no: printed slides are printed as separate rails and assembled; Radek's BB slide says 'Do not print in place!', and JoshRC's plain slide has a stop block glued on after printing (Printables)
+- **making_tips_3d_printing**: 1) For light drawers a plain printed slide can work without bearings: JoshRC's full-extension PLA slide relies on PLA's smooth surface, tightened its clearance from 0.5 mm to 0.25 mm, and was printed at 0.15 mm layers with 20% infill and at least 3 perimeters, with no supports (Printables 'Smooth Drawer Slide without Bearings'). 2) For smoother running, print rails with grooves for 6 mm airsoft BBs: in Radek's parametric design a 0.15 mm gap lets the slide run freely (it moves by gravity from about 10 degrees of tilt) and a 0.10 mm gap makes it stay put even vertically; print each part separately in its best orientation with no supports, and screw the end stop on straight away so the balls can't escape (Printables 'Drawer Slide on Airsoft BBs'). Put in enough balls to cover the travel; Radek suggests testing how many fit so that one rail slides half the required distance. 3) Long thin rails twist: Radek's heavy-duty version reinforces the outer rail's edges and screws it at both ends and roughly in the middle; for longer rails on a 220 mm bed, print diagonally (Printables 'Airsoft Ball Bearing Drawer Slide - Extended'). 4) As a starting point for other moving fits use at least 0.3 mm clearance, then test (Prusa knowledge base). 5) Heat: PLA starts to give way at about 60 C and PETG at about 80 C (CNC Kitchen), so PLA rails in a hot car or enclosure will sag. 6) For robot lifts, use bought aluminium or steel slides and print only the spacers and brackets between stages; mount two slide sets facing each other to reduce sag, and keep chips and sawdust out of the tracks (gm0). 7) Printed jigs make fitting bought slides much easier (Printables 'Double Drawer Slide Jig'). 8) Anything heavy (tool drawers, pull-out shelves) needs bought steel slides.
+- **off_the_shelf_parts**: Search for: 'ball bearing drawer slide' (side mount), 'full extension drawer slide', '3/4 extension drawer slide', 'over travel slide', 'undermount drawer slide', 'soft close drawer slide', 'self closing drawer slide', 'push to open drawer slide' or 'touch release slide', 'heavy duty drawer slide', 'locking drawer slide' or 'lock-in lock-out slide', 'drawer slide with detent', 'disconnect', 'telescopic slide rail', 'keyboard slide', 'double extension slide', 'stainless steel drawer slide', 'drawer slide jig'. Robotics: 'MISUMI SAR2 / SAR3 slide rail', 'goBILDA Viper slide' (brands; gm0). Brands: Accuride, Chambrelan (brands)
+- **rules_of_thumb**: 
+  - Use the longest slide that fits; slide length is the closed length (Accuride slide reference guide); side-mount ball-bearing slides are usually the same length as the drawer box (Rockler).
+  - Load ratings are per pair, for 18 in slides; the rating decreases in proportion beyond 18 in, and static capacity is at least twice the rating (Accuride slide reference guide).
+  - Mounting slides flat under a drawer cuts the load rating by at least 50% (Accuride); Chambrelan also advises mounting on the major axis rather than flat.
+  - Mount the pair parallel in both the vertical and horizontal directions; one high and one low has little effect (Accuride).
+  - For a flimsy drawer or cabinet, pick a slightly higher load rating and larger section, because the slides add stiffness (Accuride).
+  - Extension classes: partial about 0.7 of the closed length (roughly 2/3), full about 1x, super about 1.5x; more extension means less allowable load, and deflection is proportional to load (Chambrelan lexicon).
+  - Typical ratings: light duty up to 75 lb, medium 90 to 100 lb, heavy 100 to 600 lb per pair (Accuride); everyday kitchen slides about 75 to 100 lb (Rockler).
+  - Commercial slides are designed for 0 to 180 F (about -18 to 82 C), indoors; re-grease cleaned slides with an EP (extreme pressure) grease (Accuride).
+  - Robot lifts: mount two sets of slides facing each other to reduce sag (gm0).
+  - Caged (non-recirculating) slides can suffer cage creep when mounted vertically, used on short strokes or shaken; occasional full strokes re-centre the cage (linearmotiontips.com; Isotech). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Kitchen drawers and pantry pull-outs (Rockler)
+  - Office filing cabinets and tool-chest drawers (Accuride; Printables 'Drawer Slide Rear Detent' for a toolbox)
+  - Computer keyboard trays (Rockler)
+  - Oven racks and fridge drawers (Wikipedia 'Drawer' lists oven slides and fridge slides)
+  - Linear lifts and extending arms on FIRST Tech Challenge robots (gm0)
+- **when_to_use**: Use a ball-bearing slide when a drawer, tray, shelf or panel must pull out smoothly and carry weight, especially when you need to reach the back (full extension or over-travel): kitchen and workshop drawers, tool chests, pull-out shelves, keyboard and printer trays, electronics and equipment drawers, and vehicle drawers (with lock-in and lock-out). In robotics, cheap steel or aluminium drawer slides stacked with printed spacers make simple multi-stage lifts and extensions (gm0).
+- **when_not_to_use**: Not for precise positioning or machine axes (use linear guides such as profile rails, rods and bushings, or crossed-roller slides); not where there is no room for side clearance (use undermount slides or wooden runners; Rockler); not laid flat under heavy loads, which at least halves the rating (Accuride); not outdoors or in wet or dusty places unless stainless or aluminium and protected (Accuride). For small, light drawers, wooden runners or a printed plain slide are simpler and quieter; for cheap partial extension, roller (epoxy or 'Euro') slides with nylon wheels are enough (Rockler; Wikipedia 'Drawer').
+- **environment_limits**: Designed for indoor use, 0 to 180 F (about -18 to 82 C); keep away from moisture, chemical fumes, dirt and finish overspray; extreme temperatures affect the grease and the plastic or rubber parts (Accuride). Stainless steel and aluminium versions resist moisture (Accuride). Shock and vibration can upset slide performance, so test or pick a heavier slide (Accuride). Sawdust and chips spoil the movement (gm0). Vertical mounting, short strokes and vibration make ball cages creep (linearmotiontips.com). Printed rails: PLA softens at about 60 C and PETG at about 80 C (CNC Kitchen).
+- **safety_notes**: Pinch points between the moving members and at the drawer front. Loaded, fully extended drawers move a cabinet's centre of gravity forward: US CPSC stability tests for dressers include loaded drawers and several drawers open at once, and CPSC reports 234 tip-over deaths from 2000 to 2022, 199 of them children, so anchor tall units to the wall (CPSC). Slides with a friction or rail disconnect release the drawer when it is pulled firmly or lifted (Accuride), so take care that a heavy drawer is not pulled off by accident. On robots, cheap slides' end stops can fail and spill ball bearings (gm0). In vehicles, lock-in slides keep drawers from flying open (Chambrelan).
+- **common_failures**: Drawer sags or tips when fully out (overloaded, too long, laid flat, or slides not facing each other; Accuride; gm0). Binding or rough running because the pair isn't parallel or the side clearance is wrong (Accuride; Rockler). Grit, sawdust or overspray in the tracks (Accuride; gm0). The ball cage creeps out of position, so the drawer won't open or close fully until it is pushed hard to the end, which skids the balls and causes wear (linearmotiontips.com; Isotech). Steel balls wear grooves into aluminium rails, giving play (gm0). End stops break and balls fall out (gm0). Plastic detents go brittle and break (Printables 'Drawer Slide Rear Detent'). Printed slides: rails twist, warp or creep; use reinforced rails and screw them down along their length (Printables).
+- **related**: 
+  - Linear guides (bushings on rods, wheels or carriages on rails): stiffer, more precise straight-line guides for machines
+  - Dovetail slide with gib strip: a sliding (not rolling) guide that can be tightened to remove play
+  - Multi-stage slide rigging (cascade and continuous): how strings or belts drive stacked slides in robot lifts
+  - Roller (epoxy or 'Euro') drawer slides: nylon wheels in a track; cheaper, usually 3/4 extension, often self-closing (Rockler; Wikipedia 'Drawer')
+  - Wooden drawer runners: a drawer sliding directly on the cabinet (Wikipedia 'Drawer')
+  - Telescoping tube locks (twist lock, lever lock): tubes that slide and lock at any length
+  - Dampers (rotary and linear soft-close dampers): the part that makes soft-close slides soft
+  - Push-push latch: the push-to-open mechanism used on handle-less drawers
+  - Crossed-roller slide: uses crossed rollers instead of balls for precise short strokes (linearmotiontips.com)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [P1000133 Teleskopschienenfuehrung: rail guide of a drawer (Dynomat, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:P1000133_Teleskopschienenf%C3%BChrung.JPG): Close-up photo of telescopic drawer slides fitted to a furniture drawer, used in Wikipedia's 'Drawer' article *(licence: CC BY-SA 3.0 (also GFDL 1.2+ and earlier CC BY-SA versions))*
+  - [Light Rail: telescopic drawer slides with ball bearings (Rollon91, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Light_Rail.jpg): Photo of telescopic ball-bearing slides, used in Wikipedia's 'Drawer' gallery *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [Telescopic Rail (Rollon91, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Telescopic_Rail.jpg): Photo of a telescopic rail made of nested channels *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [Drawer Slides (Game Manual 0)](https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/drawer-slides.html): Robot photos and cross-section drawings of drawer slides stacked into multi-stage lifts with 3D-printed inserts, and slides mounted facing each other to reduce sag *(licence: CC BY-NC 2.0 (gm0 repository licence))* *(unverified parts omitted)*
+- **make_it_yourself**: 
+  - [Drawer Slide on Airsoft BBs (f3d) (Radek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1216090-drawer-slide-on-airsoft-bbs-f3d): Parametric Fusion 360 drawer slide running on 6 mm airsoft BBs, in 180, 210, 350 and 720 mm lengths, with 'free' (0.15 mm) and 'constriction' (0.10 mm) clearance versions and a reinforced heavy-duty version; assembly instructions for loading the balls. Read through the Printables public API. *(licence: CC BY-SA)*
+  - [Smooth Drawer Slide without Bearings (Vollauszug - Open Drawer System) (JoshRC, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/95192-smooth-drawer-slide-without-bearings-vollauszug-op): A 400 mm full-extension printed slide that runs PLA on PLA with 0.25 mm clearance and no bearings or lubrication, for a 200 mm deep drawer. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+  - [Airsoft Ball Bearing Drawer Slide - Extended (savingprivatebrian15, Printables)](https://www.printables.com/model/346078-airsoft-ball-bearing-drawer-slide-extended): A 9 in version of an airsoft-BB ball slide, printed diagonally on a 220 x 220 mm bed (page appeared in search results; details read through the Printables public API) *(licence: CC BY)*
+  - [Double Drawer Slide Jig (Sorin B, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/184129-double-drawer-slide-jig): A reversible printed jig for positioning left- or right-hand drawer slides during installation. Read through the Printables public API. *(licence: CC BY)* *(unverified parts omitted)*
+- **diagram_idea**: End-on cross-section of a three-part slide showing the outer, middle and inner channels with a ball on each side between each pair, plus a side view in three frames (closed, half open, fully open) showing the middle member and ball cages moving along as the drawer member extends.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Drawer
+  - https://en.wikipedia.org/wiki/Linear-motion_bearing
+  - https://www.rockler.com/learn/choosing-drawer-slide
+  - https://www.accuride.com/media/pdf/drawer-slide-reference-guide-2018.pdf
+  - https://chambrelan.com/lock-or-hard-points-on-drawer-slides/
+  - https://chambrelan.com/selecting-the-perfect-telescopic-slide-in-5-steps/
+  - https://chambrelan.com/lexicon/
+  - https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/drawer-slides.html
+  - https://gm0.org/en/latest/_sources/docs/common-mechanisms/linear-motion-guide/drawer-slides.rst.txt
+  - https://raw.githubusercontent.com/gamemanual0/gm0/main/LICENSE
+  - https://www.linearmotiontips.com/what-is-cage-creep-and-why-does-it-matter/
+  - https://www.linearmotiontips.com/what-is-a-crossed-roller-slide/
+  - https://www.isotechinc.com/choosing-crossed-roller-slide-or-table-assembly/
+  - https://www.cpsc.gov/Newsroom/News-Releases/2023/CPSC-Adopts-Final-Consumer-Product-Safety-Standard-to-Prevent-Tip-overs-of-Dressers-and-Other-Clothing-Storage-Units
+  - https://commons.wikimedia.org/wiki/Category:Telescopic_slides
+  - https://commons.wikimedia.org/wiki/File:P1000133_Teleskopschienenf%C3%BChrung.JPG
+  - https://commons.wikimedia.org/wiki/File:Light_Rail.jpg
+  - https://commons.wikimedia.org/wiki/File:Telescopic_Rail.jpg
+  - https://www.youtube.com/watch?v=8VGzHawd8c8
+  - https://www.youtube.com/watch?v=VrYiAUcE6vI
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, how_it_works, links, make_it_yourself, rules_of_thumb
 
 ## 187 Ball screw
 
 *sliding, telescoping & linear motion.* A screw and nut with balls rolling between them, turning rotation into straight-line motion with very low friction; it can be back-driven
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A threaded rod with a nut full of tiny steel balls rolling in the thread, so turning the rod slides the nut along very smoothly and with little effort; it runs so freely that pushing on the nut can spin the rod backwards
+- **term**: Ball screw (ball screw and ball nut, recirculating ball screw)
+- **aliases**: 
+  - ballscrew
+  - ball screw and ball nut / ball nut
+  - recirculating ball screw
+  - ball screw drive / ball screw actuator / ball screw linear module
+  - rolled ball screw (cheaper, rolled thread) vs ground or precision ball screw
+  - SFU1204, SFU1605 (common hobby CNC and 3D-printer sizes: 12 mm diameter with 4 mm lead, 16 mm diameter with 5 mm lead)
+  - ball screw kit with BK and BF end supports (hobby CNC)
+  - recirculating ball steering, worm and sector (the car steering-box version)
+  - husillo de bolas (Spanish)
+- **family**: sliding, telescoping & linear motion
+- **other_families**: motion conversion
+- **one_liner**: Turning a grooved screw drives a nut along it in a straight line, and because hardened balls roll between the screw and nut instead of the threads sliding, it is about 90% efficient, fast, precise and long-lasting, but it will also run backwards if the load pushes on it.
+- **complexity**: A small assembly that acts as one unit: the screw shaft with a rounded (gothic-arch) groove, the ball nut, dozens of hardened steel balls, a ball-return path inside or on the nut (a return tube, small internal 'button' deflectors, or end caps), and usually wipers on the nut ends. Around it you need end-support bearings (e.g. a fixed BK block and a floating BF block), a motor coupling, and separate linear guides that carry the carriage and stop the nut from turning.
+- **how_it_works**: The screw and nut both have a matching rounded spiral groove, and a row of hardened balls fills the space between them, so when the screw turns the balls roll instead of the thread faces sliding (rolling contact, as in a ball bearing). The nut is held so it can't spin, so each turn of the screw moves it along by one lead. Balls that reach the end of the nut are picked up and carried back to the start through a return path, so they circulate endlessly (recirculating balls). Rolling friction is so low that a push on the nut can turn the screw (back-driving), and play is removed by preloading: two nut halves pushed or twisted apart, or balls that are a tight fit.
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: rotation into straight-line motion (and back again, because it back-drives)
+  - change speed or turning force: a small motor torque makes a large, precise push along the screw
+  - let it move (slide): drives a carriage or table along a straight line with little or no play (CNC axes, printer Z axes, robot actuators)
+- **motion**: rotate+slide: the screw turns (or, in rotating-nut designs, the nut turns) and the nut slides in a straight line; travel is limited by the threaded length of the screw
+- **degrees_of_freedom**: 1: the nut's position along the screw is locked to the screw's rotation (one lead per turn), so there is only one independent motion
+- **special_behaviour**: 
+  - motion conversion (rotary to linear): turning the screw pushes or pulls the nut in a straight line; with a preloaded nut it does so with no play when the direction changes
+  - none of the holding behaviours: it is NOT self-locking. Because it is so efficient, a load on the nut can spin the screw backwards (back-drive), so on its own it will not hold a raised load when the motor lets go (Wikipedia 'Ball screw')
+- **holding_principle**: 
+  - shape (form-fit): the balls sit in the grooves of both screw and nut, so the nut can't move along without the screw turning
+  - not a holding joint (it moves or passes on motion): with very low friction it back-drives, so holding a position needs a motor, brake or counterweight
+- **input_output**: Rotation -> straight-line motion, and straight-line force -> rotation when back-driven. Travel per turn = lead (e.g. SFU1605 = 5 mm per turn; SFU1204 = 4 mm per turn). Efficiency about 90%, versus 20-25% for an Acme lead screw of equal size (Wikipedia). Driving torque T = F x lead / (2 x pi x efficiency), and back-driving force F = 2 x pi x efficiency x T / lead (Wikipedia). Shaft arrangement: in line (the nut travels along the screw's axis). Back-drivable: yes, easily; this is the main difference from a fine lead screw.
+- **power**: passive (no power needed); almost always motor-driven. If power is lost, the screw can back-drive and let a vertical load, gantry or bed drop or drift, unless a spring-applied 'power-off' brake, a counterweight or a self-locking gearbox holds it (Wikipedia; linearmotiontips)
+- **removability**: removable: the screw comes out of its end supports and motor coupling. Do not unscrew the ball nut off the end of the shaft unless it slides onto a mandrel (arbor or dummy shaft), or the balls fall out or can be ejected (Dings Motion; Matara)
+- **reuse_cycles**: many times: the screw and nut can be removed and refitted repeatedly as a unit; the nut itself should stay on its shaft or on a mandrel
+- **tools_needed**: Hex keys and spanners for the end-support clamps, locknuts, nut housing and coupling; grease or oil for lubrication; a mandrel (arbor or dummy shaft) if the nut ever has to come off the screw (a printed retaining rod works for small SFU1204 nuts). Printed DIY ball screws: tweezers or a loading port for the balls, and tape.
+- **seal**: none: the screw and nut are open; wipers (brush or lip seals) on the nut ends keep grit out and grease in, and bellows or telescopic covers protect the exposed screw, which together make it roughly dust-resistant (Wikipedia; Rockford Ball Screw)
+- **load**: Medium to heavy along the screw's axis, both push and pull (aircraft control surfaces, car power steering and machine tools use them). Keep the peak axial load below the static rating divided by 2, or by 5 with vibration or shock (THK). It cannot take sideways (radial) or bending (moment) loads on the nut; these must go into separate linear guides (Dings Motion; Rockford). Long, thin screws also whip at speed and can buckle in compression.
+- **adjustable**: yes: position is set anywhere along the travel by turning the screw (usually a stepper or servo motor). The play (backlash) is set by the preload, usually fixed at the factory by a tight ball fit or a double nut; some double nuts are adjusted by rotating one nut against the other (Wikipedia)
+- **play_and_precision**: Small to none. Cheap rolled ball screws have some play (axial clearance up to 0.05 mm for 6-12 mm shafts and 0.1 mm for 14-28 mm shafts) and lead errors of +/-50 um (C7), +/-100 um (C8) or +/-210 um (C10) per 300 mm of travel (THK); ground precision grades C0-C5 are far better, and a preloaded nut has zero backlash (Wikipedia; THK). Very repeatable. Tolerates very little misalignment: side loads and bending shorten life or seize the nut (Rockford), and the runout of cheap rolled screws causes visible Z wobble on 3D printers unless the nut mount can float sideways (Hackaday).
+- **access_needed**: end of a tube or shaft: the screw is fitted from its ends into the end-support bearings and motor coupling; the nut is best left on the screw (or slid from the shaft onto a mandrel)
+- **materials**: Screw and nut: steel, case-hardened then ground, or rolled and hardened; balls: hardened steel; the unloaded ball-return parts may be injection-moulded low-friction plastic; instrument screws are made of Invar so temperature changes the length less (Wikipedia). DIY printed versions: PLA screw and nut with 6 mm airsoft BBs (LoboCNC), 8 mm (5/16 in) steel balls (Odd Inventor), or 1/8 in Delrin balls (hackaday.io quadruped).
+- **maker_difficulty**: easy to fit if bought: cheap rolled ball screw kits (e.g. SFU1605 with nut housing, BK12/BF12 end supports and coupler) bolt onto a CNC or printer frame; moderate to print a working demo (needs a well-tuned printer and loose balls); hard to make an accurate metal one (precision grinding), so buy one
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (by far the most common: rolled C7-C10 hobby screws or ground C0-C5 precision screws, sold with nuts, housings and end supports)
+  - 3D print (FDM): working demo and light-duty ball screws using airsoft BBs or steel balls, and printed mounts, nut holders, wobble decouplers and nut-retaining rods for metal ball screws
+  - CNC (industrial only): screws are thread-rolled, or machined, case-hardened and ground, or hard-whirled (Wikipedia)
+- **print_in_place**: no: the screw, nut (or nut halves) and return tube are printed separately, and the balls are fed in through a loading port or placed by hand before closing the nut
+- **making_tips_3d_printing**: 1) Start from a proven design: LoboCNC's Ball Screw and Nut uses 28 x 6 mm airsoft BBs, prints in PLA without supports, and has a loading port in the side of the nut: hold the nut level in a vise, feed balls in while turning the screw slightly, then press in the plug. 2) Layers: 0.2 mm is fine for the nut, but a screw printed lying down (it has one side flattened to sit on the bed) is smoother at 0.15 or 0.1 mm; LoboCNC's clam-shell nut halves need 0.1 mm. 3) The ball path must be smooth: tune out elephant's foot and a poor first layer (a near-perfect first layer, ideally with mesh bed levelling), and scrub nibs out of the groove with a scrap of Scotch-Brite-type pad; keep superglue out of the ball path. 4) Add a stop so the nut can't run off the end, or 'you will have balls everywhere' (LoboCNC); his printed linear actuator uses a screw in a slot as the stop. 5) Expect modest force: LoboCNC's 150 mm stroke actuator (6.5 mm pitch) with a short NEMA 17 pushes about 10 kgf, and it is back-drivable. 6) A clam-shell design with three separate one-turn nuts keeps its balls when removed from the screw (LoboCNC's earlier version, 27 airsoft pellets). 7) Other ball sizes: 8 mm (5/16 in) steel balls with 6000 bearings (Odd Inventor's modular actuator), or 1/8 in Delrin balls with a 4.5 mm pitch, 12 mm pitch-diameter screw (a hackaday.io quadruped robot). 8) For metal ball screws, print the mounts: a nut-retaining rod (wrapped in painter's tape) that screws onto the shaft end so the nut can be moved off without losing balls, and a nut mount that lets the nut float sideways to stop wobble from a bent or rolled screw (Hackaday; Printables). 9) PLA softens above about 60 C (Prusa), so keep printed screws away from motors and heated beds.
+- **off_the_shelf_parts**: Rolled ball screws with flanged single nuts (search 'SFU1204' or 'SFU1605'; the digits are the diameter and lead in mm), sold cut to length with machined ends; ball nut housings (brackets that bolt the nut to the carriage); end supports: a BK block on the fixed side and a BF block on the floating side, e.g. BK12/BF12 for an SFU1605 (vxb kit listing); flexible shaft couplers; precision ground ball screws and preloaded double nuts; complete ball screw linear modules and actuators; spring-applied power-off brakes for vertical axes; bellows covers and brush or lip wiper seals; mandrels (arbors) for handling nuts; re-balling services if balls are lost (Matara).
+- **rules_of_thumb**: 
+  - Efficiency about 90% for a typical ball screw versus 20-25% for an Acme lead screw of equal size (Wikipedia 'Ball screw'). Driving torque T = F x lead / (2 x pi x efficiency): e.g. 1000 N on a 5 mm lead at 90% needs about 0.88 N·m (formula from Wikipedia).
+  - Assume it WILL back-drive: the same formula run backwards, F = 2 x pi x efficiency x T / lead, means any load on the nut becomes torque on the screw; vertical axes need a brake or counterweight (Wikipedia; linearmotiontips).
+  - Fatigue life L10 = (Ca / Fa)^3 x 10^6 revolutions, where Ca is the catalogue's basic dynamic load rating and Fa the axial load (THK A15-48): halving the load gives 8 times the life.
+  - Static safety factor fS = C0a / Fa max should be at least 2 without vibration or impact, and at least 5 with them (THK Table 21).
+  - Critical (whipping) speed: run below 80% of it; thinner and longer screws whip at lower speeds (Kuroda). End support factors: fixed-fixed 25.5, fixed-supported 17.7, supported-supported 11.5, fixed-free 3.9 (Steinmeyer), so a screw held at one end only whips at about one-sixth of the speed of one clamped at both ends. Critical speed can also be quoted with a safety factor of 0.5-0.8 (linearmotiontips).
+  - Nut speed limit (DN value) = screw diameter (mm) x rpm; typically 60,000 to 150,000 depending on the ball-return design (linearmotiontips).
+  - Accuracy grades run from C0 (best) to C10 (JIS B 1192 / ISO 3408). Rolled screws: travel error +/-50 um (C7), +/-100 um (C8) and +/-210 um (C10) per 300 mm (THK); hobby kits are commonly sold as C7 (e.g. vxb's SFU1605 kit).
+  - Rolled ball screw play (axial clearance) is up to 0.05 mm for 6-12 mm shafts and 0.1 mm for 14-28 mm shafts (THK); preload removes it where accurate positioning matters.
+  - Maximum operating temperature typically below 80 C (Dings Motion).
+  - Axial loads only: take side and bending loads on linear guides and align the screw to the guides, checking with a dial indicator or the motor current (Dings Motion; Rockford).
+  - Avoid long runs of short back-and-forth 'dithering' strokes; make an occasional full-length stroke so the balls and grease recirculate (Rockford).
+
+### When to use it
+
+- **everyday_examples**: 
+  - CNC routers and milling machines, where ball screws move the table and spindle precisely
+  - Electric power steering in cars, where a ball screw turns a motor's rotation into the steering rack's sideways push (Wikipedia)
+  - The steering box of older cars and some off-roaders (recirculating ball steering, e.g. the Jeep Wrangler), a ball screw driving a toothed block (Wikipedia 'Recirculating ball')
+  - Upgraded 3D printer Z axes, e.g. an SFU1204 ball screw replacing a T8 lead screw (Printables model 488279 by EJ, read via the Printables API)
+- **when_to_use**: Use one when a motor must move something precisely, quickly and often in a straight line with little or no play: CNC machine axes, precise 3D printer Z axes, robot legs and arms, linear actuators, and machines that run back and forth all day. The low friction means a smaller motor, little heat and a long, predictable life, and a preloaded nut gives zero backlash when the direction changes. It also suits jobs where back-driving is wanted, such as a robot joint that should give when pushed.
+- **when_not_to_use**: Avoid it for hand-cranked machines or anything that must hold a load with the power off, because it back-drives (Wikipedia); use a fine-lead lead screw or a worm drive, or add a power-off brake or counterweight. Avoid it in dirty, dusty or wet places unless it has wipers and bellows. Don't let it take side loads; add linear guides. For long, fast travel it whips, so use a belt or rack and pinion. For cheap, light-duty jobs a T8 lead screw with an anti-backlash nut is usually enough. For very fine hand adjustment, use a differential screw or a flexure.
+- **environment_limits**: Heat: maximum operating temperature typically below 80 C, or ball circulation suffers and hardened parts soften (Dings Motion); printed PLA ball screws soften above about 60 C (Prusa). Dirt: grit and chips wear the raceways and ruin accuracy, so use bellows, wipers or filtered positive air pressure (Wikipedia; Rockford). Lubrication: running dry causes grinding, metal-to-metal wear; use a high-temperature grease where it runs hot, and avoid graphite lubricants because they are abrasive (Rockford). Temperature changes the length of a steel screw, which matters at micrometre precision (instrument screws are made of Invar; Wikipedia). Vibration and load: it holds nothing by itself, so a load can turn it whenever the motor is not holding.
+- **safety_notes**: 1) Falling loads: a vertical axis or lifted load can drop when power is lost, because the screw back-drives; fit a spring-applied power-off brake or a counterweight (linearmotiontips; Wikipedia). 2) Hand-cranked machines: a force on the tool can spin the handwheel and hurt the operator (Wikipedia). 3) Never unscrew the nut off the shaft without a mandrel: balls can fall out or be ejected and cause injury (Dings Motion; Matara). 4) Don't drop it or hit it: this can cause injury and internal damage (Dings Motion). 5) Motor-driven carriages move fast and push hard, so keep fingers clear of pinch points.
+- **common_failures**: 1) Contamination: chips and dust scratch the raceways, raising friction, noise and play; use wipers and bellows (Rockford). 2) Too little lubrication: grinding wear and early failure (Rockford; Dings Motion). 3) Misalignment or side loads: uneven ball loading, binding and eventually a seized nut; align the screw with the guides and check with a dial indicator and the motor current (Rockford). 4) Short dithering strokes: dented raceways (brinelling) and grease starvation; add occasional long strokes (Rockford). 5) Overtravel: the nut runs past its end, dropping balls, breaking the return parts or denting the raceway; fit end stops or limit switches (Dings Motion). 6) Whipping and wobble: long thin screws vibrate at speed (Kuroda), and cheap rolled screws have runout that shows as Z wobble on printers; use better end supports, a lower speed, or a floating nut mount (Hackaday). 7) Lost balls after taking the nut off without a mandrel; some suppliers offer re-balling (Matara). 8) Printed versions: rough grooves from elephant's foot or nibs make the balls jam; tune the printer and smooth the ball path (LoboCNC).
+- **related**: 
+  - Lead screw and nut: sliding threads; cheaper, quieter and (with a fine lead) self-locking, but only about 20-80% efficient, with more play and wear
+  - Threadless ball screw (rolling-ring drive): angled bearings on a smooth rod act as the nut; no play from preload, and it slips instead of jamming when overloaded
+  - Roller screw: threaded rollers instead of balls, for higher loads and stiffness (Wikipedia 'Ball screw' see also)
+  - Ball spline: the same recirculating balls, but in straight grooves, so a hub slides along a shaft while passing on torque
+  - Rack and pinion: a gear on a toothed bar; faster and longer travel, but with more play and less force
+  - Belt drives (timing belt): cheap, fast and long travel with lower force and stiffness
+  - Differential screw: two slightly different threads for extremely fine hand adjustment
+  - Linear guides: carry the carriage and side loads that a ball screw must not take
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Ball screw (Wikipedia)](https://en.wikipedia.org/wiki/Ball_screw): Article with a photo of two ball screws and close-ups of the ball nut and return tube, and explanations of ball return types, preload and accuracy grades *(licence: Text CC BY-SA 4.0; images per file on Commons)*
+  - [BallScrews-with-detail-insets.jpg (Wikimedia Commons, photo by Glenn McKechnie)](https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg): Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube, and a view into the nut cavity *(licence: GFDL 1.2+ / CC BY-SA 3.0, 2.5, 2.0, 1.0)*
+  - [Husillo bolas precargo.svg (Wikimedia Commons, by Heriberto Arribas Abato)](https://commons.wikimedia.org/wiki/File:Husillo_bolas_precargo.svg): Diagram of the ball contact points in a ball screw when play is removed with an internal preload *(licence: CC BY-SA 3.0)*
+  - [Category:Ball screws (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Ball_screws): 17 files: photos of ball nuts and return tubes, preload diagrams, and a gearbox-to-screw animation (GearBoxRotLinScrew.gif, CC BY 3.0 / GFDL) *(licence: Per file (Commons free licences))*
+  - [HUANGYAN920 Mechanical: interactive animations (entries 'BALL-SCREW' and 'RECIRC-SCREW')](https://huangyan920.github.io/Mechanical/): Browser animations of a ball screw and of a recirculating ball screw with its ball-return path *(licence: MIT)*
+- **make_it_yourself**: 
+  - [Ball Screw and Nut (LoboCNC, Printables)](https://www.printables.com/model/507713-ball-screw-and-nut): Working recirculating ball screw demo: printed screw and nut with an internal return tube and 28 x 6 mm airsoft BBs loaded through a side port; no supports *(licence: CC BY-SA)*
+  - [Linear Actuator with 3D Printed Ball Screw (LoboCNC, Printables)](https://www.printables.com/model/509590-linear-actuator-with-3d-printed-ball-screw): 150 mm stroke NEMA 17 linear actuator built around a printed ball screw (6.5 mm pitch, 28 airsoft BBs); about 10 kgf with a short motor *(licence: CC BY-SA)*
+  - [Ball Screw and Nut, clam-shell version (LoboCNC, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/132289-ball-screw-and-nut): Ball screw with three one-turn clam-shell nuts and short jump-over returns, using 27 airsoft pellets; the balls stay in when the nut is removed *(licence: CC BY-SA)*
+  - [Modular Ball Screw Linear Actuator (Odd Inventor, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/350128-modular-ball-screw-linear-actuator): Extendable printed ball screw actuator using 8 mm (5/16 in) steel balls and 6000 bearings *(licence: CC BY)*
+  - [1204 Ball Screw Nut Retaining Rod (Randy Magnum, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/645953-1204-ball-screw-nut-retaining-rod): Printed mandrel that fits on the end of an SFU1204 screw so the nut can be screwed off onto it without losing its balls *(licence: CC BY-NC-SA)*
+- **diagram_idea**: A cutaway of a ball nut on a screw with the balls drawn rolling in the groove and a coloured return tube carrying them from one end of the nut back to the other, plus a small side-by-side inset of a lead screw (sliding threads, about 25% efficient) versus a ball screw (rolling balls, about 90%) with an arrow showing the load back-driving the ball screw.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Ball_screw
+  - https://en.wikipedia.org/wiki/Recirculating_ball
+  - https://en.wikipedia.org/wiki/Linear_actuator
+  - https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg
+  - https://commons.wikimedia.org/wiki/File:Husillo_bolas_precargo.svg
+  - https://commons.wikimedia.org/wiki/File:GearBoxRotLinScrew.gif
+  - https://commons.wikimedia.org/wiki/Category:Ball_screws
+  - https://tech.thk.com/en/products/pdf/en_a15_011.pdf
+  - https://tech.thk.com/en/products/pdf/en_a15_046.pdf
+  - https://www.thk.com/jp/en/products/ball_screw/selection/0010/
+  - https://www.dingsmotionusa.com/ball-screw-instructions-and-precautions
+  - https://matara.com/technical-articles/ball-nut-installation-on-a-ball-screw/
+  - https://www.linearmotiontips.com/whats-the-difference-between-ball-screw-critical-speed-and-characteristic-speed/
+  - https://www.linearmotiontips.com/what-is-back-driving-and-why-is-it-important/
+  - https://kurodaprecision.com/global/products/technical-information/bs/bs025.html
+  - https://www.steinmeyer.com/en/technology/speed-limits/critical-speed/
+  - https://rockfordballscrew.com/avoid-ball-screw-failure-through-proper-application-design-and-preventive-maintenance/
+  - https://vxb.com/products/sfu1605-1200mm-ball-screw-bk-bf-kit
+  - https://hackaday.com/2021/02/22/improving-cheap-ball-screws/
+  - https://hackaday.io/project/179454-quadruped-w3d-printed-recirculating-ball-screws
+  - https://help.prusa3d.com/article/pla_2062
+  - https://huangyan920.github.io/Mechanical/
+  - https://www.printables.com/model/507713-ball-screw-and-nut
+  - https://www.printables.com/model/509590-linear-actuator-with-3d-printed-ball-screw
+  - https://www.printables.com/model/132289-ball-screw-and-nut
+  - https://www.printables.com/model/350128-modular-ball-screw-linear-actuator
+  - https://www.printables.com/model/645953-1204-ball-screw-nut-retaining-rod
+  - https://api.printables.com/graphql/
 
 ## 188 Differential screw (fine adjustment screw)
 
 *sliding, telescoping & linear motion.* One screw with two slightly different thread pitches, so each turn moves the part by only the small difference, for very fine adjustment
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A screw with two slightly different threads on it, so a full turn moves the part only by the tiny difference between them: a super-fine adjuster made from ordinary threads
+- **term**: Differential screw (differential thread, differential adjuster)
+- **aliases**: 
+  - differential thread
+  - differential adjuster / differential adjuster screw
+  - differential micrometer / differential micrometer head (optics and measuring)
+  - differential screw translator (Mitutoyo (brand) name for its extra-fine micrometer heads)
+  - fine adjustment screw (the general name for fine adjusters; a differential screw is the extra-fine kind)
+  - differential screw clamp (toolmaker's clamp)
+  - differential-pitch screw / headless compression screw, e.g. the Herbert screw (surgical bone screw)
+  - Differenzgewinde (German)
+- **family**: sliding, telescoping & linear motion
+- **other_families**: motion conversion, locating & alignment
+- **one_liner**: One turn of a screw carrying two threads of slightly different pitch moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.
+- **complexity**: A few parts: a screw (spindle) with two threads of slightly different pitch, or two standard screws joined end to end, or a threaded sleeve with one pitch outside and another inside; a fixed nut; a second nut on the part being adjusted, kept from turning by a slot, square tube or guide; a knob or thimble; and often a small spring that pushes the moving nut to take up play.
+- **how_it_works**: Turning the screw drives it through the fixed nut by one pitch, say 0.8 mm for an M5 thread. At the same time the second, finer thread on the same screw turns inside the moving nut, which can't rotate, and draws that nut back by its own pitch, 0.7 mm for M4. The moving nut therefore travels only the difference, 0.8 - 0.7 = 0.1 mm per turn, so a tenth of a turn moves it 10 um. Both threads must be the same hand (usually right-hand); with opposite hands the two movements add instead, as in a turnbuckle.
+
+### Finder attributes
+
+- **job**: 
+  - line parts up exactly: very fine position adjustment, e.g. optics, microscope focus, a 3D printer's Z endstop, measuring heads
+  - change the kind of motion: rotation into a very small straight-line movement
+  - change speed or turning force: in theory each turn gives a tiny movement and a large force (a 9:1 advantage over one of its threads alone in one example), though thread friction uses up much of that gain
+- **motion**: rotate+slide: the knob and screw turn, and the output nut slides a small distance (e.g. 0.1 mm per turn); the total output range is usually only a few millimetres
+- **degrees_of_freedom**: 1: the output nut's position is tied to the screw's rotation (one pitch difference per turn), so there is one independent motion
+- **special_behaviour**: 
+  - motion conversion (rotary to linear): a turn of the knob becomes a very small straight movement of the output nut
+  - self-locking (holds under load, won't back-drive): with a tiny effective lead and two pairs of sliding threads, pushing on the output can't turn the screw, so the setting stays put; a printed differential clamp maker calls this 'self-retention' (Printables, Jack)
+- **holding_principle**: 
+  - shape (form-fit): both threads interlock with their nuts, so the output can only move when the screw is turned
+  - friction or clamping (force-fit): friction in the two threads keeps the screw from turning back under load
+- **input_output**: Rotation -> small straight-line motion. Effective pitch = P1 - P2 for single-start threads of the same hand: M5x0.8 with M4x0.7 gives 0.1 mm per turn; 16 tpi with 24 tpi gives about 0.0208 in (0.53 mm) per turn, the same as a 48 tpi thread; a 26 tpi thread with a 1.0 mm metric thread gives about 0.023 mm (Wikipedia). Force gain in theory = coarse pitch / difference, e.g. 9:1 over a 20 tpi screw for an 18/20 tpi pair (Home Metal Shop Club). Efficiency is low: the load presses on two sets of sliding threads, so the torque needed just to start turning is about double that of a single screw (Home Metal Shop Club). Shaft arrangement: in line. Back-drivable: no in practice (self-locking).
+- **power**: passive (no power needed): usually turned by hand with a knob, thimble, wrench or socket; it can be motor-driven but rarely is
+- **removability**: removable: the screw unscrews from both nuts; joined two-screw versions may be glued or thread-locked together
+- **reuse_cycles**: many times: it is an adjuster made to be turned back and forth; nuts in plastic or brass slowly wear
+- **tools_needed**: None to adjust (knob or thimble), or a wrench or socket for clamp versions. To make one: a tap and die (e.g. an M4 die), a lathe to turn down the end of a screw, or a coupling nut drilled and tapped to join two screws; thread-locker or epoxy to lock joined screws together (Rehorst; Hackaday).
+- **seal**: none: nothing seals; the threads are open
+- **load**: light: it is a fine adjuster for positioning, focusing and light clamping. Loads act along the screw (push or pull); keep bending and side loads off the fine threads by guiding the moving part. Clamping force by hand is limited because the friction of two threads doubles the starting torque (Home Metal Shop Club).
+- **adjustable**: yes: adjustment is its whole purpose; the output is set by turning the knob, often after a coarse setting (differential micrometers combine a coarse micrometer drive with a fine differential drive)
+- **play_and_precision**: Resolution is excellent: 0.1 mm per turn from M5/M4, so 10 um per tenth of a turn (Hackaday); Mitutoyo's differential micrometer heads have a 0.05 mm spindle pitch with 0.001 mm graduations (Mitutoyo). Backlash is noticeable unless handled: the play of the two threads adds together (Wikipedia 'Fine adjustment screw'), so push the moving nut against the thread with a spring (Rehorst) and approach the setting from one direction. Range is short: for 2 mm of output an M5/M4 screw must itself travel 16 mm (Rehorst). The moving nut must be guided so it can't rotate, and there is little tolerance for misalignment.
+- **access_needed**: one side only (blind): it is adjusted by turning a knob or screw head from one side; assembly needs the nuts threaded on from the screw's ends
+- **materials**: Screws: stainless steel (rigid; commonly 303) with brass nuts for low-cost greased adjusters or phosphor bronze for precise, hard-wearing ones (Wikipedia 'Fine adjustment screw'). DIY: standard steel machine screws with nuts embedded in printed parts, or with plastic (e.g. PTFE) blocks that the screw rolls its own thread into (Rehorst); coarse printed threads in PLA for demos and clamps (Printables).
+- **maker_difficulty**: moderate: easy if you join two standard screws of different sizes with a drilled-and-tapped coupling nut or printed adapter, or print two coarse threads; moderate with a lathe (turn an M5 screw's end down and cut an M4 thread); sub-micron precision versions are bought
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (differential micrometer heads and differential adjuster screws for optical mounts)
+  - 3D print (FDM): coarse-thread differential clamps and demos, plus printed guides, nut holders and knobs for metal screws
+  - CNC or manual lathe: turn down the end of a screw and cut a finer thread with a die, or drill and tap a coupling nut to join two screws
+- **print_in_place**: no: the screw, sleeve and nuts are printed or bought separately and screwed together; the moving nut also needs a separate anti-rotation guide
+- **making_tips_3d_printing**: 1) Let printed parts do the easy jobs and steel do the fine threads: Mark Rehorst's 3D printer Z-endstop uses a steel M5 screw turned down to M4 at one end, an M4 nut embedded in a printed 'flag', and a printed square tube that stops the flag rotating; a spring inside the tube pushes the flag against the nut to remove backlash. 2) Screws can roll their own threads in plastic: Rehorst drilled an undersized hole in a PTFE block for the M5 thread, giving a firm but adjustable fit; a commenter printed PETG parts and tapped most of the way through, leaving a few rolled threads to act like a lock washer. 3) No lathe? Hackaday suggests partly drilling and tapping a coupling nut, or printing an adapter that joins two bolts; lock the joint with thread-locker or epoxy (Rehorst). 4) Fully printed versions work with coarse threads: Sanford Prime's clamp uses 10 tpi and 13 tpi printed threads for roughly 44 tpi equivalent motion, printed in PLA; his first internal 1/2-13 thread needed a revised version, so print a test piece first. 5) Jack's printed clamp moves fast on a 10 mm pitch, then the second 8 mm-pitch thread takes over so the last half turn moves only 2 mm per turn with about 5x more force; he uses grease to keep friction low and leaves a 3.5 mm hole to glue in a reinforcing rod because printed layers are weak in tension. 6) Plan the thread lengths: with M5/M4 the screw moves 8 mm per 1 mm of output, so 2 mm of adjustment needs about 16 mm of M5 and 14 mm of M4 thread plus the nut thicknesses (Rehorst). 7) PLA softens above about 60 C (Prusa), so keep printed adjusters away from heated beds and motors.
+- **off_the_shelf_parts**: Differential micrometer heads (e.g. Mitutoyo Series 110 'differential screw translator' (brand), 0-1, 0-2.5 or 0-13 mm range); differential adjuster screws and differential drives for optical mounts and translation stages (optics suppliers); fine and ultra-fine adjustment screws with matched bushings (40-100 tpi and 100-508 tpi) when one fine thread is enough (Wikipedia); standard metric screws in pairs that differ by 0.1 mm of pitch (M3/M3.5, M3.5/M4, M4/M5) or 0.05 mm (M1.6/M2, M2/M2.5, M2.5/M3) (Rehorst); coupling nuts; taps and dies; small compression springs; thread-locker.
+- **rules_of_thumb**: 
+  - Movement per turn = pitch 1 - pitch 2 for single-start threads of the same hand; in inches per turn it is 1/TPI1 - 1/TPI2 (Wikipedia 'Differential screw'). Examples: M5x0.8 with M4x0.7 = 0.1 mm per turn; 16 tpi with 24 tpi = about 0.0208 in per turn (like a 48 tpi thread) (Wikipedia).
+  - Mixing metric and imperial threads gives still finer steps: 26 tpi (about 0.977 mm pitch) with a 1.0 mm metric thread = about 0.023 mm per turn (Wikipedia).
+  - Standard metric pairs: M3/M3.5, M3.5/M4 and M4/M5 give 0.1 mm per turn; M1.6/M2, M2/M2.5 and M2.5/M3 give 0.05 mm per turn (Rehorst).
+  - Output range is short: the screw itself moves (coarse pitch / difference) times the output, e.g. 8 mm of M5 travel per 1 mm of output with M5/M4, so 2 mm of adjustment needs about 16 mm of M5 and 14 mm of M4 thread (Rehorst).
+  - Friction is the catch: the axial load bears on two threaded surfaces, so the torque to start turning is about twice that of a single screw, and the theoretical mechanical advantage (9:1 for an 18/20 tpi pair) does not help overcome it (Home Metal Shop Club, 2010).
+  - Backlash from the two threads adds together (Wikipedia 'Fine adjustment screw'); preload the moving nut with a spring (Rehorst).
+  - The moving nut must be stopped from rotating, or there is no differential action (Hackaday).
+  - Threads finer than about 250 tpi (0.1 mm pitch) are hard to make, which is why differential adjusters are used for finer steps; lever or cone reducers are the other option (Wikipedia 'Fine adjustment screw').
+  - Beware cheap 'differential screw micrometers' sold online that are only 0.5 mm pitch screws with a nice knob (Rehorst).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Differential micrometer heads on laboratory and optical positioning stages, for sub-micrometre adjustment (Mitutoyo; Wikipedia)
+  - A finely adjustable Z=0 endstop on a home-built 3D printer (Hackaday)
+  - Headless 'compression' bone screws such as the Herbert screw, whose two ends have different thread pitches so tightening pulls the two bone pieces together (Wikipedia 'Herbert screw')
+  - Historic machine levelling feet and astronomical micrometers (Wikipedia 'Differential screw')
+- **when_to_use**: Use it when you need very fine, steady adjustment that stays where you set it, but only have (or only want) coarse, strong, standard threads: focusing, aligning optics or lasers, setting an endstop or a bed height, fine feed of a tool, or a fine final tightening stage in a clamp. It is also the usual way to get steps finer than the finest threads that can be made, and a differential micrometer gives both a coarse and a fine knob in one unit.
+- **when_not_to_use**: Don't use it for long or fast travel: its range is short and each turn moves very little; use a lead screw or ball screw. Don't expect a big clamping force by hand, because friction on two threads doubles the starting torque (Home Metal Shop Club); use an ordinary screw clamp or a toggle clamp. If you need zero backlash, preload it with a spring or use a lever or flexure reducer instead (Wikipedia 'Fine adjustment screw'). If one fine thread is fine enough (e.g. an 80-100 tpi adjuster), that is simpler and cheaper.
+- **environment_limits**: Nothing special beyond ordinary threads: grit in fine threads makes them stick, and grease extends nut life, while phosphor bronze nuts can run without grease, e.g. in vacuum (Wikipedia 'Fine adjustment screw'). Superglue used to fix a ball tip on an adjuster can outgas and degrade over time (Wikipedia). Printed PLA parts soften above about 60 C (Prusa). *(unverified parts omitted)*
+- **safety_notes**: None known for small adjusters. A printed differential clamp can build up more force than its printed threads and layers can take (Jack reinforces his with a glued-in rod), so don't rely on printed clamps for anything hazardous.
+- **common_failures**: 1) The moving nut turns with the screw, so nothing happens or the part creeps; guide it with a slot or square tube (Hackaday; Rehorst). 2) Doubled backlash makes the setting jump when you reverse; add a spring and approach from one side (Rehorst; Wikipedia). 3) Too stiff to turn under load because of friction on two threads (Home Metal Shop Club); grease the threads (Printables, Jack). 4) Running out of range because the screw travels 8-10 times further than the output; plan thread lengths (Rehorst). 5) A joined two-part screw unscrews itself; use thread-locker or epoxy (Rehorst). 6) Printed internal threads come out wrong-sized; print a test first (Sanford Prime revised his). 7) Buying a fake 'differential micrometer' that is just a fine single thread (Rehorst).
+- **related**: 
+  - Lead screw and nut: one thread, long travel; the basic screw drive this refines
+  - Fine adjustment screw (single fine thread, 40-508 tpi): simpler, with less backlash, but threads finer than about 250 tpi are hard to get
+  - Turnbuckle: two threads of opposite hand, so the movements add instead of subtract (fast take-up rather than fine adjustment)
+  - Capstan and windlass, including the differential windlass: the same 'difference' trick with two rope drums of slightly different diameter
+  - Parallel leaf-spring flexure (linear flexure stage): a bending stage, often with a lever that divides a screw's motion for backlash-free fine positioning
+  - Eccentric adjuster: a turning off-centre bush for small, coarse-to-fine position tweaks
+  - Kinematic coupling: fine adjusters usually push on kinematic mounts in optics
+  - Compound planetary gearbox (split-ring / Wolfrom) and strain-wave gear: large reductions from the difference between two nearly equal tooth counts
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Differential screw (Wikipedia)](https://en.wikipedia.org/wiki/Differential_screw): Animation of two nuts on a two-pitch bolt, a colour-coded micrometer adjuster drawing (20 and 25 tpi), an 1817 Lanz and Betancourt plate, 1887 levelling feet, and worked examples of the pitch calculation *(licence: Text CC BY-SA 4.0; images per file on Commons)*
+  - [DifferentialScrew.gif (Wikimedia Commons, by user '＋－')](https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif): Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only by the difference *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [Differenzgewinde.svg (Wikimedia Commons, by MatthiasDD)](https://commons.wikimedia.org/wiki/File:Differenzgewinde.svg): Clean labelled drawing of a differential thread; the pitch difference P1 - P2 produces the clamping force *(licence: Public domain)*
+  - [Differential screw mechanism (Nguyen Duc Thang, YouTube)](https://www.youtube.com/watch?v=YFzov0PbjpM): CAD animation of a differential screw: a gear-driven screw moving a slider by the difference of two threads *(licence: link only)*
+  - [Screwy Math For Super Fine Adjustments: Differential Screws (Hackaday, 2020)](https://hackaday.com/2020/03/21/screwy-math-for-super-fine-adjustments-differential-screws/): Photo and explanation of a home-made M5/M4 differential screw giving 0.1 mm per turn on a 3D printer endstop *(licence: link only)*
+- **make_it_yourself**: 
+  - [Super Fine Adjustment from Coarse Thread (Differential Motion) (Sanford Prime, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/671468-super-fine-adjustment-from-coarse-thread-different): Fully printed hand clamp using 10 tpi and 13 tpi printed threads for about 44 tpi equivalent motion; printed in PLA *(licence: CC BY-SA)*
+  - [differential screw clamp (Jack, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/107132-differential-screw-clamp): Printed clamp that closes fast on a 10 mm pitch, then switches to a 2 mm-per-turn differential stage for the final squeeze *(licence: Public domain (CC0))*
+  - [A Differential Screw Based Z Axis Optical Endstop Design for UMMD (Mark Rehorst's Tech Topics)](https://drmrehorst.blogspot.com/2020/03/a-new-z-axis-optical-endstop-design-for.html): Step-by-step build of an M5/M4 differential screw with printed parts, including thread-pair tables, range calculation and links to the CAD and STL files *(licence: not stated)*
+  - [HUANGYAN920 Mechanical: interactive animations (entries 'DIFFERENTIAL-SCREW' and 'MICROMETER-SCREW')](https://huangyan920.github.io/Mechanical/): Browser animations of a differential screw and a micrometer screw that you can play with *(licence: MIT)*
+- **diagram_idea**: A screw with a coarse thread (red) through a fixed nut and a fine thread (blue) through a sliding nut in a square guide; one turn shows the screw moving 0.8 mm right, the blue nut being pulled 0.7 mm back, and a ruler under the sliding nut showing the net 0.1 mm.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Differential_screw
+  - https://en.wikipedia.org/wiki/Fine_adjustment_screw
+  - https://en.wikipedia.org/wiki/Micrometer_(device)
+  - https://en.wikipedia.org/wiki/Herbert_screw
+  - https://commons.wikimedia.org/wiki/Category:Differential_screws
+  - https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif
+  - https://commons.wikimedia.org/wiki/File:Differenzgewinde.svg
+  - http://www.homemetalshopclub.org/news/10/newsletter1003.pdf
+  - https://hackaday.com/2020/03/21/screwy-math-for-super-fine-adjustments-differential-screws/
+  - https://drmrehorst.blogspot.com/2020/03/a-new-z-axis-optical-endstop-design-for.html
+  - https://pim.mitutoyo.com/products/small-tool-instruments-and-data-management/micrometers/micrometer-heads/micrometer-heads-differential-screw-narrow-range/
+  - https://www.youtube.com/watch?v=YFzov0PbjpM
+  - https://huangyan920.github.io/Mechanical/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://www.printables.com/model/671468-super-fine-adjustment-from-coarse-thread-different
+  - https://www.printables.com/model/107132-differential-screw-clamp
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits
 
 ## 189 Rigid chain actuator (zip chain, push chain)
 
 *sliding, telescoping & linear motion.* A chain whose links lock into a stiff column as they come out of a housing, so it can push as well as pull and packs away small
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A chain that goes stiff as it comes out of its box, so a motor can push things with it (such as opening a window) as well as pull them back, and then the chain folds or coils away small inside the box
+- **term**: Rigid chain actuator (push-pull chain actuator), including the zip chain (interlocking double chain)
+- **aliases**: 
+  - push chain / rigid pushing chain
+  - push-pull chain actuator
+  - linear chain actuator
+  - electric chain actuator
+  - column-forming chain actuator / rigid-chain lifting column
+  - chain window opener / window chain actuator (single or double chain)
+  - zip chain / interlocking chain actuator (two chains that zip together back to back)
+  - Zip Chain Actuator, Zip Chain Lifter (Tsubaki (brand))
+  - LinkLift, ChainLift (Serapid (brand) rigid-chain lifting columns)
+  - chain rammer (historic gun-loading version)
+- **family**: sliding, telescoping & linear motion
+- **other_families**: motion conversion
+- **one_liner**: A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.
+- **complexity**: A small assembly that acts as one unit: special chain links with shoulders or hooks (or two chains that interlock), a sprocket (pinion) on a motor-driven shaft, a housing with guides that straighten and lock the links, a magazine where the loose chain coils or folds, and an end fitting that bolts to the load; usually a gearmotor, limit switches and a controller as well.
+- **how_it_works**: Each link has a shoulder that butts against the next link, so the chain can bend to one side only. As the sprocket feeds the chain out, the housing's guides turn the links straight and their shoulders lock together into a rigid bar that resists both pushing and pulling, while at their pivots the links still hinge like an ordinary chain (Serapid). The push point on the end link sits off the pivot line, so the load itself presses the shoulders together and keeps them locked (linearmotiontips). Reversing the motor draws the chain back in, where the shoulders separate and it coils away. In the zip-chain version two chains mesh back to back like a zipper, forming a column that needs no side guide and resists buckling better (Wikipedia; Tsubaki).
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: a motor's rotation becomes a straight push and pull
+  - let it move (slide): a long telescoping stroke from a small housing, like a stiff tape measure made of chain
+  - hold or release using power: motorised opening and closing of windows, skylights, hatches and lift platforms
+- **motion**: slide: the chain end moves in a straight line (the sprocket turns inside the housing); strokes from about 100 mm (window openers) to several metres (industrial lifting columns)
+- **degrees_of_freedom**: 1: the chain end's position along its path is tied to the sprocket's rotation, so there is one independent motion
+- **special_behaviour**: 
+  - motion conversion (rotary to linear): the sprocket's rotation becomes a straight push or pull, like a rack and pinion with a rack that folds away
+  - none of the holding behaviours by itself: it is a rack-and-pinion type drive, so holding position relies on the gearmotor or a brake; Tsubaki uses a brake motor to hold loads, and Serapid says its lifting columns maintain position with no drift
+- **holding_principle**: 
+  - shape (form-fit): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
+  - not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake
+- **input_output**: Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). *(unverified parts omitted)*
+- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). *(unverified parts omitted)*
+- **removability**: removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)
+- **reuse_cycles**: many times: it is fitted once but runs for many cycles (Tsubaki expects about 4000 km of travel); brackets can be unbolted and refitted
+- **tools_needed**: Screwdriver, hex keys and spanners for the brackets; electrical tools for wiring the motor supply and switches; grease for industrial chains. Printed demo chains: none (pins and clips press in).
+- **seal**: none: the chain and the slot it comes out of are open; window units have IP55-rated electrics (TOPP ACK4), which protects the motor housing, not the chain
+- **load**: Light (window openers, a few hundred newtons) to very heavy (industrial lifting columns over 10 tonnes; Wikipedia). Strong in push and pull along the chain. Weak sideways: a single chain can sag or bend under side load and over long unsupported strokes (window chains may curve up or down with the window's weight and wind; TOPP ACK4), so industrial lifts guide the platform along the whole travel with at least two guides (Serapid). Zip (double) chains resist buckling better and can take some side load without a guide at the end (Wikipedia).
+- **adjustable**: yes: the chain can stop anywhere along its stroke; the stroke end is set with adjustable limit switches (e.g. 10-40 cm on the TOPP ACK4), and servo-driven zip chains can stop at many points precisely (Tsubaki)
+- **play_and_precision**: Simple and printed chains have noticeable play: clearances between the teeth make a printed zip beam 'a bit floppy' (Hackaday), and window chains flex; the ACK4's limit switch is accurate to about +/-1 cm. Industrial columns position repeatably to within millimetres (Serapid). They tolerate little misalignment: the chain end must line up with its bracket (TOPP ACK4), and lift drives must be square, fixed without play and perfectly vertical (Serapid).
+- **access_needed**: not applicable: it is a bolted-on actuator; you need to reach the housing's mounting face and the bracket on the moving part (for windows, both from the room side)
+- **materials**: Mostly steel links, pins and rollers (Wikipedia); stainless steel chains on some window openers; stainless steel and special surface or heat treatments on request for industrial columns (Serapid). A non-metal cousin, the rigid belt actuator, uses reinforced plastic belts (Wikipedia). Hobby versions: PLA links with solid (all-perimeter) walls (Printables PCN145), or LEGO chain links wedged with half pins (Eurobricks).
+- **maker_difficulty**: hard to make one that pushes real loads: the links need tight clearances, strong pins and a good guide, so buy a window chain actuator or an industrial unit; moderate to print a demonstration push chain or zip-chain toy
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (window chain openers; industrial zip-chain and rigid-chain actuators and lifting columns)
+  - 3D print (FDM): demonstration push chains and zip-chain mechanisms, plus sprockets, guides and housings
+  - sheet metal: industrial links are made of facing steel side plates joined by cross-pins with rollers (Serapid)
+- **print_in_place**: no: links, pins, plates and clips are printed separately and assembled (e.g. PCN145); the sprocket, guide and magazine are separate parts too
+- **making_tips_3d_printing**: 1) Start with a demo: FH's PCN145 fully printable push chain (14.5 mm pitch, 13.3 mm rollers) prints in PLA, and the maker suggests raising the perimeter count on the inner link so it prints solid, with no infill, to carry more load; links and pins, and plates and locking clips, are the same height so they print in batches. 2) Keep the tooth and shoulder clearances small: gzumwalt's printed zip-chain beams were floppy until he reduced the clearances (Hackaday). 3) Put the push point above the pivot line on the end link, so the load presses the shoulders together (linearmotiontips). 4) Wedge the links: in a LEGO version, half pins on every second link wedge the links together to make the chain rigid (Eurobricks). 5) Guide the chain where it bends and support the load: the LEGO builder found guiding the coiled chain tricky, and even steel window chains sag with load, so use short strokes or add a guide rail. 6) Add end-of-stroke stops or limit switches and set the stroke a little shorter than the mechanism's real limits (TOPP ACK4). 7) PLA softens above about 60 C (Prusa), so keep printed chains away from motors and heat.
+- **off_the_shelf_parts**: Electric chain window openers / window chain actuators (24 V DC or 230 V; single or double chain; strokes about 150-1000 mm and forces about 200-400 N in retailer listings); industrial Zip Chain Actuators and Zip Chain Lifters (Tsubaki (brand)); rigid-chain push-pull actuators and LinkLift / ChainLift lifting columns (Serapid (brand)); rigid belt actuators (a plastic-belt version); helical band actuators (Spiralift (brand)) for tall stage lifts; for DIY builds: roller chain and sprockets, gearmotors, limit switches and window-actuator brackets.
+- **rules_of_thumb**: 
+  - The stored chain is only as long as the stroke plus a few links left in the drive; unlike an ordinary chain loop it doesn't need to be twice the stroke (Serapid).
+  - Guide the load, not just the chain: except for scissor lift tables, lifting-column platforms need external guides along the whole travel, at least two of them (Serapid).
+  - Total thrust Ft = weight force + guide friction + acceleration forces + external forces; for strokes over 3 m add the weight of the chain strands too (Serapid).
+  - Friction coefficient for typical rigid-chain setups is between 0.05 and 0.5 (linearmotiontips).
+  - Window force: F = 0.54 x P x (C / H) for top- or bottom-hung windows and F = 0.54 x P for skylights and domes, where P is the moving part's weight (N), C the opening stroke and H the window height (TOPP ACK4 instructions).
+  - About 40 mm of chain is used up bridging the window profile, so a 265 mm chain gives about 225 mm of clear opening; longer chains need bigger links and a bigger housing (WindowMaster).
+  - Window openers run in short bursts: the ACK4 is rated S2 (short-time duty, 2-3 minutes) for -5 to +50 C (TOPP ACK4); regularly used 240 V actuators tend to overheat, so 24 V DC is preferred (WindowMaster).
+  - Tsubaki's standard Zip Chain Actuators: 400-2000 N rated thrust, 300-2000 mm stroke, up to 1000 mm/s, expected life about 4000 km of travel, and can be mounted lifting, horizontal or hanging (Tsubaki).
+  - Serapid ChainLift lubrication: every 13,000 cycles in the first year, then every 50,000 cycles or yearly (Serapid lifting column catalogue).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Motorised window and skylight openers: a chain slides out of a slim box on the frame and pushes the window open (WindowMaster; TOPP)
+  - Theatre stage, orchestra-pit and seating lifts that rise on rigid-chain columns (Wikipedia; Serapid video)
+  - Scissor lift tables driven by a rigid chain instead of a hydraulic cylinder (Wikipedia)
+  - Shell rammers in warship guns and tank autoloaders, the chain's original use (Wikipedia)
+- **when_to_use**: Use it when you need a long push-and-pull stroke but have little room for the actuator when retracted, e.g. a window, hatch or skylight opener, a lift platform or a long horizontal pusher. A cylinder or screw is at least as long as its stroke even when closed, while the chain coils or folds away. It works in any orientation (lifting, horizontal or hanging; Tsubaki), needs no hydraulic oil that could leak, and industrial zip chains are fast (up to 1000 mm/s).
+- **when_not_to_use**: Avoid it where the pushed part isn't guided or there are side loads: a single chain sags or buckles, so use a zip (double) chain, add guide rails, or use a lead screw or rack and pinion. Avoid it for fine, stiff positioning, because the links have play; use a ball or lead screw on linear guides. For short strokes where length when retracted doesn't matter, an ordinary lead-screw linear actuator is simpler and cheaper. Don't fit window units outside in rain and snow (TOPP ACK4), and don't use them for continuous duty.
+- **environment_limits**: Window units: -5 to +50 C, IP55 electrics, short-time duty, and must not be installed on the outside of the window exposed to rain or snow or in explosive atmospheres (TOPP ACK4). Wind, snow and hinge friction add to the force needed and must stay within the rating (TOPP ACK4). Industrial rigid-chain columns are made for harsh conditions such as clean rooms, dust, heat, humidity and radiation, with ATEX-certified versions (Serapid); zip chains are grease-lubricated, so there is no oil to leak (Tsubaki). Printed chains in PLA soften above about 60 C (Prusa).
+- **safety_notes**: Crushing and trapping: fingers or hands can be caught between a closing window sash and its frame. If the window is less than 2.5 m above the floor and can be worked by an untrained user or a remote control, the instructions require an emergency stop or safety system that prevents crushing or dragging of body parts (TOPP ACK4); keep children away. Lifts and platforms carry heavy loads that must be held by the drive or a brake; never stand under a platform held only by the actuator.
+- **common_failures**: 1) Sagging or buckling of a long, unguided chain, especially with side loads or wind; guide the load, shorten the stroke or use a zip chain (Serapid; TOPP ACK4; Wikipedia). 2) Floppy printed chains from loose tooth clearances (Hackaday). 3) Binding or stalling when the chain end is not in line with its bracket or the stroke is set longer than the window can open; align it and set the stroke a few centimetres short of the mechanical limits (TOPP ACK4). 4) Motor overheating from frequent use of short-duty units (WindowMaster; TOPP ACK4). 5) Wear from missed lubrication on industrial chains (Serapid). 6) The coiled chain jamming in its magazine if poorly guided (Eurobricks LEGO build).
+- **related**: 
+  - Rack and pinion: the same gear-on-a-toothed-bar drive, but the rack is rigid and as long as the stroke
+  - Rigid belt actuator: two plastic belts with blocks that zip into a column; lighter loads, non-metallic (Wikipedia)
+  - Helical band actuator (Spiralift (brand)): steel bands that wind into a tall tube-shaped column for stage lifts (Wikipedia)
+  - Lead screw and nut / ball screw actuators: stiffer and more precise, but at least as long as their stroke when retracted
+  - Scissor linkage (scissor lift): another way to fold a long lift into a small height; often driven by a rigid chain
+  - Tape-spring hinge (measuring-tape fold): a curved steel strip that is stiff when straight and flexible when flattened, like a tape measure
+  - Cable carrier (drag chain): also a chain that bends one way only, but it just carries cables and can't push a load
+  - Bowden cable (push-pull cable): pushes and pulls through a guiding tube, over short distances
+  - Chain and sprocket drive: an ordinary chain loop, which can only pull
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Rigid Chain Actuator.gif (Wikimedia Commons, by Catsquisher)](https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif): Animation (40 frames) of a rigid chain actuator based on Serapid's LinkLift lifting column, showing the chain's links forming a column as they are driven out *(licence: Public domain)*
+  - [Rigid chain actuator (Wikipedia)](https://en.wikipedia.org/wiki/Rigid_chain_actuator): The animation above, a 1972 interlocking-chain patent drawing, a 1908 chain rammer patent drawing, and a history of single, double and triple-chain designs *(licence: Text CC BY-SA 4.0; images per file on Commons)*
+  - [Stage Lifts - www.serapidusa.com (SERAPID, YouTube)](https://www.youtube.com/watch?v=usO_aH9afVE): Video of rigid-chain columns raising stage lift platforms *(licence: link only)*
+  - [3D Printed Rigid Chain Mechanism by gzumwalt #shorts (MaDi Studios, YouTube)](https://www.youtube.com/watch?v=c8Nv4Bas8Ow): Short video of gzumwalt's printed zip-chain mechanism extending and retracting *(licence: link only)*
+  - [3D Printed Rigid Chain Mechanism (Hackaday, 2020)](https://hackaday.com/2020/12/08/3d-printed-rigid-chain-mechanism/): Article with video of gzumwalt's printed two-chain zip beam and a snake-in-a-basket automaton built on it *(licence: link only)*
+- **make_it_yourself**: 
+  - [PCN145 - Fully Printable Push Chain (FH, Printables)](https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain): Fully printable push chain inspired by window actuators that bends one way around a sprocket and is stiff when pushing; 14.5 mm pitch, Fusion 360 source files included *(licence: CC BY-SA)*
+  - [[MOC] Rigid Chain Actuator (ord, Eurobricks forum, 2022)](https://www.eurobricks.com/forum/forums/topic/191071-moc-rigid-chain-actuator/): LEGO Technic rigid chain actuator inspired by a window opener, with half pins on every second link that wedge the chain rigid *(licence: not stated)* *(unverified parts omitted)*
+- **diagram_idea**: Side view of a housing with a sprocket feeding a chain out of the top: inside, the chain hangs loosely in a coil; outside, the links stand in a straight column with their shoulders touching, and a zoomed inset shows the shoulder contact and the one-way bending of two links, plus a second small panel with two chains zipping together back to back.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Rigid_chain_actuator
+  - https://en.wikipedia.org/wiki/Rigid_belt_actuator
+  - https://en.wikipedia.org/wiki/Helical_band_actuator
+  - https://en.wikipedia.org/wiki/Linear_actuator
+  - https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif
+  - https://www.motiontech.com.au/wp-content/uploads/2021/05/MT-Serapid-Vertical-Chains-Technology-210319.pdf
+  - https://api-serapid.mcn-info.com/uploads/page/17/doc-17.pdf
+  - https://www.ustsubaki.com/resources/knowledge-center/about-zip-chain-actuators/
+  - https://en.tt-net.tsubakimoto.co.jp/tecs/pdct/sad/pdct_sad_3zca.asp
+  - https://tsubaki.eu/products/mechanical-components/zip-chain-actuators/
+  - https://www.linearmotiontips.com/basics-rigid-chain-actuators/
+  - https://www.timotion.com/en/news-and-articles/electric-window-actuators-for-automation
+  - https://www.windowmaster.com/products/actuators-and-accessories/window-actuators/
+  - https://www.windowo.com/chain-actuators
+  - https://www.lpwindowcontrols.co.uk/wp-content/uploads/2018/05/TOPP-chain-actuator-ACK4-instructions.pdf
+  - https://hackaday.com/2020/12/08/3d-printed-rigid-chain-mechanism/
+  - https://www.youtube.com/watch?v=usO_aH9afVE
+  - https://www.youtube.com/watch?v=c8Nv4Bas8Ow
+  - https://www.eurobricks.com/forum/forums/topic/191071-moc-rigid-chain-actuator/
+  - https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain
+  - https://www.thingiverse.com/thing:2362604
+  - https://help.prusa3d.com/article/pla_2062
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** input_output, make_it_yourself, power
 
 ## 265 Linear guides (bushings on rods, wheels or carriages on rails)
 
 *sliding, telescoping & linear motion.* The standard ways to make something slide in a straight line, from plastic bushings on steel rods to wheels and carriages on rails
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The ordinary ways to make one part slide smoothly in a straight line along another: a sleeve that slides along a smooth steel rod, grooved wheels that roll along a slotted aluminium bar, or a small block that runs along a steel rail
+- **term**: Linear guide (linear-motion bearing): bushings on round rods, V-wheels on V-slot extrusion, and profile-rail carriages
+- **aliases**: 
+  - linear bearing / linear-motion bearing / linear slide (Wikipedia)
+  - linear bushing / plain linear bushing / sleeve bearing on a rod
+  - linear ball bearing / ball bushing / linear ball bushing (recirculating balls inside a sleeve)
+  - LM8UU, LM10UU, LM12UU (size codes for metric ball bushings: LM = linear motion, number = rod diameter in mm, UU = contact seals at both ends; LM8LUU is a long version, SC10UU a pillow block holding an LM10UU; RepRap wiki)
+  - smooth rods / guide rods / linear shafting / round rail
+  - round rail guide / shaft guide (DIN 4379 plain-bearing linear table)
+  - drylin (igus, brand): dry-running plastic linear bushings and rails
+  - profile rail / profiled rail guide / linear guideway / square rail / linear rail (block and rail)
+  - carriage / block / slider / truck (the part that runs on a profile rail)
+  - MGN7, MGN9, MGN12, MGN15 (HIWIN (brand) miniature rail sizes, widely copied and used as generic names)
+  - V-slot (OpenBuilds (brand) aluminium extrusion with V-shaped grooves) and V-wheels / V-groove wheels / Delrin wheels / POM wheels
+  - eccentric spacer / eccentric nut (off-centre spacer that adjusts wheel tension)
+  - track rollers / cam-follower guides / roller guides
+  - boxway / box way (sliding machine-tool guide)
+  - extrusion slide / bushing slide (FTC robotics, plastic sliders in extrusion slots)
+  - Linearführung / Profilschienenführung (German)
+- **family**: sliding, telescoping & linear motion
+- **other_families**: hinges & pivots, locating & alignment
+- **one_liner**: A guide that lets a part (the carriage) slide or roll along a straight rod, bar or rail while stopping it from wobbling, tipping or twisting, so it can only move in one straight line.
+- **complexity**: A few parts: the fixed track (one or two smooth rods, a V-slot aluminium bar, or a steel rail), the moving part (bushings or ball bushings in a housing, three or four V-wheels on a plate, or a carriage block), end supports or screws that hold the track, and often a second parallel track. Ball bushings and carriages are small assemblies that act as one unit (sleeve, rows of recirculating steel balls, cage or retainer, end seals).
+- **how_it_works**: The moving part hugs the track closely on several sides, so it can travel along the track but cannot move sideways, lift off or tip over. In a plain bushing (sliding contact) a low-friction sleeve simply slides on the rod; in a ball bushing or profile-rail carriage, rows of steel balls roll between the block and the track and recirculate through return channels, so travel is limited only by the track length (Wikipedia; linearmotiontips). V-wheels are small wheels with a V-shaped rim running in the V-grooves of an aluminium bar; wheels on both sides pinch the bar, and an off-centre spacer (eccentric spacer) on some wheels moves them in or out to remove play (FarmBot). One round bushing on one rod still lets the part spin around the rod, so rod guides use two parallel rods (or a rail with a flat shape) to stop rotation.
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): it lets a carriage, bed, tool head, lift stage or drawer slide in a straight line
+  - line parts up exactly: it keeps the moving part on a straight, repeatable path with little sideways play
+- **motion**: slide: straight-line travel along the track; travel is limited by the rod or rail length for recirculating ball bushings, plain bushings, wheels and carriages (Wikipedia); non-recirculating slides (e.g. crossed-roller slides) have a stroke limited by their own length
+- **degrees_of_freedom**: 1 for a complete guide (two parallel rods, a V-slot bar with wheels on both sides, or a profile rail): the carriage can only slide along the track. A single round bushing on a single round rod has 2 (it can slide and also spin around the rod), which is why round-rod guides use two rods or add an anti-rotation feature; gm0 notes this spin can be useful where a slide also has to rotate on the same axis.
+- **special_behaviour**: 
+  - self-aligning or self-centring (only some versions): 'floating' plastic bushings with extra clearance on the second rail absorb small angular misalignment between two rails (igus drylin fixed/floating bearings)
+  - none of the holding behaviours: a linear guide does not lock, click or hold a position by itself; add a lead screw, brake, clamp or detent if the carriage must stay put
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it guides movement rather than holding a position
+  - shape (the parts interlock; form-fit): the bushing, wheels or carriage wrap around the rod, groove or rail profile, which is what stops sideways and tipping movement
+- **input_output**: not applicable: a linear guide only guides the motion; it is usually driven by something else, such as a timing belt, lead screw, ball screw or rack and pinion, or pushed by hand
+- **power**: passive (no power needed); the carriage is moved by hand or by a separate motor-driven belt or screw. If that motor loses power, the guide does not hold: a vertical carriage will fall unless the drive is self-locking or there is a brake or counterweight
+- **removability**: removable: rods are clamped or slid out of their end supports, bushings are held in housings by clamps or snap rings (gm0; Wikipedia 'Plain bearing'), V-wheels are bolted to a plate, and rails and carriages are screwed down
+- **reuse_cycles**: many times: all parts can be taken apart and reassembled; the limits are wear (plastic bushings and wheels wear, steel balls can wear soft aluminium or carbon-fibre tubes, gm0) and the risk of losing balls from cheap ball bushings or carriages slid off their rails (gm0)
+- **tools_needed**: Hex keys and screwdrivers for housings, clamps and rail screws; an 8 mm spanner to turn standard OpenBuilds-style eccentric spacers (FarmBot); snap-ring (circlip) pliers where bushings are held by retaining rings (gm0); grease or light oil and a paper towel for cleaning and lubricating rods (Prusa); a hacksaw for cutting steel rods (gm0 warns not to use a bandsaw on steel shafts).
+- **seal**: none for most guides: rods, V-slot grooves and rail raceways are open to dust. Dust-resistant only where seals are added: ball bushings with two lip seals (the 'UU' in LM8UU), and profile-rail carriages with end seals (standard on HIWIN MG series except size 3) and optional bottom seals (HIWIN catalogue). Plain plastic bushings cope with dirt better than ball bearings and often need no seals (Wikipedia; igus).
+- **load**: Light to heavy depending on type and size. Plain plastic bushings on unsupported rods: light to medium, because the rods bend between their end supports (linearmotiontips). V-wheels on V-slot: light to medium (3D printers, laser cutters, FarmBot gantries). Profile rails: medium to heavy and stiff in every direction; gm0 says a pair of MGN12 rails can lift a 20 kg (40 lb) robot, and one maker lists a single LM8UU ball bushing at 274 kgf dynamic and 392 kgf static load rating (ISK Bearings data). Weak points: long unsupported rods sag in the middle, and any guide jams if it is pushed far off-centre compared with its bearing length (igus 2:1 rule; Slocum).
+- **adjustable**: yes: the carriage can stop anywhere along the track (held by its drive); V-wheel tension is adjusted by turning eccentric spacers (FarmBot); profile-rail play is chosen when buying by preload class (HIWIN MGN: ZF slight clearance, Z0 very light preload, Z1 light preload); split or clamp-type bushing housings can be tightened slightly, but over-tightening deforms ball bushings (Prusa)
+- **play_and_precision**: Play: noticeable to small for plain bushings (they need a running clearance; printed ones loosen as they wear, UNIT3D), small for ball bushings on hardened rods, and none to very small for preloaded profile rails (HIWIN ZF has 4-10 micrometres of clearance, Z0 0-3 micrometres, Z1 is preloaded). Repeatability: good for all when adjusted; best for profile rails. Misalignment: low tolerance; two rods or rails must be parallel or the carriage binds. HIWIN allows a mounting-surface error of only 0.050 mm per 200 mm for MG12 rails at ZF/Z0 preload, and half that for Z1 or for two rails on the same surface; igus recommends one 'fixed' rail and one 'floating' rail with extra clearance to absorb angular misalignment.
+- **access_needed**: end of a tube or shaft: bushings and ball bushings slide on from the end of the rod, and carriages slide on from the end of the rail (take care: balls in cheap blocks can fall out, gm0); rails and rod supports are screwed down from their top or side; V-wheel plates are bolted on from the side and can be fitted over the bar when the eccentric spacers are loosened
+- **materials**: Rods: hardened steel shafting (ball bushings need about HRC 60; stainless shafts can be as soft as HRC 54, linearmotiontips), stainless steel, hard-anodised aluminium (paired with iglidur J200 plastic bushings, igus), or aluminium and carbon-fibre tubes with plastic bushings (gm0; humebeam). Bushings: bronze, iglidur and other bearing plastics (iglidur J friction against steel 0.06-0.18, igus), POM, PTFE, and printed nylon, PC blend, PLA or PETG. V-wheels: POM (Delrin) or polycarbonate on 6061 aluminium V-slot bar. Profile rails: bearing steel or stainless steel (HIWIN 'M' suffix). Sliding surfaces should be different materials, one harder than the other, so wear goes into the softer part (linearmotiontips).
+- **maker_difficulty**: easy to moderate: rods with ball bushings, V-wheel kits and cheap MGN rails can be bought and bolted together; printed bushings are easy but need fit tuning; the hard part is making two rods or rails straight and parallel and keeping the carriage long enough not to jam
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: smooth rods with ball bushings or plastic bushings, V-slot extrusion with V-wheel kits, miniature and full-size profile rails with carriages
+  - 3D print (FDM): bushing housings and carriages, rod clamps and end supports, and complete printed plastic bushings to replace LM8UU-style ball bushings
+  - CNC: gantry plates and carriages; precision boxways and ground rails in industry
+  - laser cut: flat wheel plates and carriages for V-wheels (bolted parts, no special feature)
+  - woodwork: plain wooden runners and waxed slides for drawers and jigs (the simplest sliding guide; drawer jamming is Slocum's classic example)
+- **print_in_place**: no: printed linear guides are normally printed as separate bushings, carriages and clamps and then fitted onto metal rods, rails or aluminium extrusions
+- **making_tips_3d_printing**: 1) Holes print small: EngineerDog explains that printed holes shrink (cooling and polygon faceting) and suggests oversizing by about 0.13 mm (0.005 in) across the diameter or reaming. For a printed bushing on an 8 mm rod, UNIT3D supplies bores of 8.1-8.4 mm; in PC Blend at 0.15 mm layers 8.2 mm was the sweet spot, but the bushings later loosened with wear, so the designer planned to print 8.1 mm and drill out to 8 mm for more contact. Aim for a fit that does not rattle when you flick the carriage (UNIT3D). 2) Material: humebeam recommends nylon (PA) for printed bushings because it is low friction and durable on both steel and carbon-fibre rods; stevehlau's drylin-style bushing was designed for PLA with 3 perimeters and at least 10% infill. Tune flow first, because over- or under-extrusion changes the bore (humebeam). 3) Clamp, don't crush: hold metal ball bushings in a printed clamp (BOSL2 lmXuu_housing() draws one for any LMxUU size; LM8UU is 8 mm bore, 15 mm outside, 24 mm long) and do not over-tighten, because squeezing deforms the bushing and scratches the rod (Prusa). 4) Make the carriage long: keep bearing length at least equal to the spacing between rails, 1.6:1 is very good and 3:1 'awesome' (Slocum), and keep the drive force and load within twice the bearing spacing of the driven rail (igus 2:1 rule). 5) With two rods, make one side a tight 'fixed' bushing and the other a looser 'floating' one (igus) so small parallelism errors do not bind it. 6) Hold rods firmly: clamp each rod end over a good length (Slocum suggests clamping a fixed shaft over at least 3 shaft diameters), and print both rod supports in one rigid part or use a jig so the rods stay parallel. 7) On soft tubes (aluminium, carbon fibre) use plastic bushings, not steel-ball bushings, which wear grooves into them (gm0; humebeam). 8) PLA softens above 60 C and PETG is fine below 80 C (Prusa), so avoid PLA carriages near heated beds, motors or in hot cars. 9) Lubricate and clean the rods regularly (Prusa) unless the bushings are dry-running plastic; put grease or light oil inside ball bushings (the rod wipes it off otherwise) and avoid PTFE or dry lubricants and thick high-temperature grease, which can stop the balls circulating (RepRap wiki).
+- **off_the_shelf_parts**: Linear ball bearings (ball bushings) in LMxUU sizes such as LM8UU (8 x 15 x 24 mm), plus long (LM8LUU) and short (LM8SUU) versions (RepRap wiki) and flanged and open types; MGN7/9/12/15 and HGR15/20 sizes; HIWIN (brand) and many compatible makes); V-slot aluminium extrusion (OpenBuilds, brand) with Delrin or polycarbonate V-wheels, eccentric spacers and gantry plates; track rollers; crossed-roller slides; telescoping rails and drawer slides; McMaster-Carr lists 'Linear Bearings', 'Linear Bearing Housings', 'Carriages and Guide Rails', 'Track Rollers' and 'Telescoping Rails'. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - igus 2:1 rule: the drive force and the load should act no further from the driven ('fixed') rail than twice the length over which its bearings are spread, or the carriage binds or chatters. Example: bearings 10 in apart on the fixed rail means forces within 20 in of it. A stronger motor does not fix it; spread the bearings further apart (igus, 'The 2:1 Rule and How to Define Fixed and Floating Bearings').
+  - Carriage length to rail spacing (L/D): at least 1, 1.6:1 very good, 3:1 as good as it gets; if L/D is below 1, drive both sides of the slide (Slocum, FUNdaMENTALs of Design, Topic 3 p. 3-8 and Topic 10 p. 10-26).
+  - Friction: plain (sliding) linear guides typically 0.05-0.1, rolling-element guides 0.005-0.01 (linearmotiontips); iglidur J plastic against steel 0.06-0.18 (igus drylin R technical information).
+  - Ball bushings need a hard shaft: HRC 60 gives full life; at HRC 50 the life is about one eighth, and some stainless shafts are only about HRC 54 (hardness factor about 0.7) (linearmotiontips).
+  - Profile-rail preload (HIWIN MGN/MGW): ZF slight clearance 4-10 micrometres, Z0 0-3 micrometres, Z1 light preload 0.02C; mounting-surface error for MG12 no more than 0.050 mm per 200 mm (half that for Z1 or two rails on one surface) (HIWIN Linear Guideway catalogue G99TE24-2410, Table 2-4-6 and mounting table).
+  - Printed 8 mm bushings: print bores between 8.1 and 8.4 mm and test; 8.2 mm fitted best in PC Blend but wore loose, so printing 8.1 mm and drilling to 8 mm is suggested (UNIT3D, Printables model 36291).
+  - V-wheels: turn an eccentric spacer about 1/32 of a turn at a time with an 8 mm spanner, and set the wheels as far apart as possible without wobble; a small amount of friction is normal (FarmBot Genesis docs).
+  - Plastic drylin bushings go in H7 housing bores and are held by DIN 471/472 circlips like ball bushings (igus drylin R technical information).
+  - A pair of MGN12 rails is enough to lift a 20 kg (40 lb) competition robot; teams are advised to use only MGN7, MGN9 and MGN12 (gm0).
+  - Clean and re-lubricate rods and bushings every couple of hundred print hours (Prusa i3 maintenance guide).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A home 3D printer: its axes run on smooth rods with bushings, V-wheels on V-slot bars, or small steel rails (Hackaday)
+  - A desk or kitchen drawer running on its side runners (Slocum's classic example of a slide that jams when pulled at one corner)
+  - A sliding wardrobe or patio door rolling on wheels in a track
+  - A garden robot such as FarmBot, whose gantry rolls on V-wheels along aluminium tracks (FarmBot docs)
+- **when_to_use**: Use a linear guide whenever something must slide in a straight line accurately and repeatably: 3D printer, laser and CNC axes, camera sliders, robot lifts and extensions, sliding tables and jigs. Pick plain plastic bushings for cheap, quiet, dirt-tolerant, grease-free slides and for soft rods or tubes; ball bushings on hardened rods for low friction and smooth motion; V-wheels on V-slot for long, low-cost frames that double as structure; and profile rails for the stiffest, most precise and compact guide, especially when there are sideways loads (Hackaday; gm0).
+- **when_not_to_use**: Don't use a single rod with a single bushing where the part must not rotate; use two rods or a rail. Avoid short carriages that are pushed or loaded far off-centre (they jam like a drawer); make them longer or drive both sides (Slocum; igus). Avoid steel-ball bushings on aluminium or carbon-fibre tubes (they wear grooves; use plastic bushings, gm0). Avoid unsupported rods for heavy loads over long spans (they sag; use supported rails or profile rails). For very short travel with no friction or play, a flexure stage is better; for a stroke that must extend out of its housing, use a telescopic drawer slide or multi-stage slide.
+- **environment_limits**: Heat: iglidur J bushings are rated -50 to +90 C long-term (igus); printed PLA carriages soften above 60 C and PETG is fine below 80 C (Prusa); ball-bushing ratings are reduced above 100 C (linearmotiontips). Dirt: rolling-element bearings handle contamination poorly and need seals, while plain bearings cope well (Wikipedia); igus says dry plastic bushings shed dirt into their grooves. Corrosion: stainless shafts resist rust but are softer, shortening ball-bushing life (linearmotiontips). Wear and creep: printed bushings that fit tightly at first loosen with wear (UNIT3D), and plastic V-wheels wear and can deform if forced on too tight (FarmBot). Moisture: nylon bushings absorb water and change size slightly (EngineerDog on nylon).
+- **safety_notes**: Moving carriages and gantries create pinch and crush points at the ends of travel; keep fingers clear when a motor drives the axis. A vertical carriage can drop if the motor or belt fails, since the guide does not hold. Cheap ball bushings and carriages can spill their small steel balls when slid off the rod or rail (gm0), which are a choking hazard for small children. Cutting hardened steel rods needs eye protection; use a hacksaw or abrasive cutter, not a bandsaw (gm0).
+- **common_failures**: 1) Binding or chattering because the drive or load is too far off-centre or the carriage is too short: follow the 2:1 rule and L/D of 1.6 or more, or drive both sides (igus; Slocum). 2) Binding along the travel because two rods or rails are not parallel: use one fixed and one floating side (igus), or re-align. 3) Rattle and play from worn plastic bushings or loose V-wheels: re-print with a smaller bore, or re-tighten eccentric spacers (UNIT3D; FarmBot). 4) Stiff movement, extra friction and deformed wheels or bent plates from over-tightened V-wheels: never force the carriage on; loosen until it runs with only slight friction (FarmBot). 5) Scratched rods and rough ball bushings from over-tightened clamps or dirt: don't over-tighten, clean and lubricate (Prusa). 6) Balls falling out when a carriage is removed from its rail (gm0); HIWIN MG blocks use a retainer to prevent this, but cheap copies may not (HIWIN; gm0). 7) Grooves worn into soft aluminium or carbon-fibre tubes by steel-ball bushings (gm0). 8) Sagging, bouncing axes from long unsupported rods (linearmotiontips).
+- **related**: 
+  - Drawer slide (telescopic ball-bearing slide): several nested ball-bearing slides that extend beyond the cabinet; a linear guide normally keeps the carriage on a fixed track
+  - Dovetail slide with gib strip (dovetail ways): a sliding guide with angled faces and an adjustable strip; very stiff and dirt-tolerant but with more friction
+  - Parallel leaf-spring flexure (linear flexure stage): bends instead of sliding, so there is no friction or play, but travel is only a few millimetres
+  - Spline shaft (sliding spline): a shaft that slides in a hub while still passing on turning force; a linear guide passes no torque
+  - Lead screw and nut, ball screw, rack and pinion, belt drives: these drive a carriage along; the linear guide keeps it straight
+  - Eccentric adjuster (eccentric nut, spacer or bushing): the off-centre spacer used to set V-wheel tension
+  - Aluminium-extrusion connectors (T-slot nuts and brackets): the same V-slot and T-slot bars used as the frame
+  - Multi-stage slide rigging: string or belt systems that extend several linear slides at once
+  - Plain pivot and rolling bearing: the rotating counterpart of a linear guide
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Linear-table animated.gif (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif): Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide) *(licence: CC BY-SA 2.5)*
+  - [Linear table rail guide animated.gif (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Linear_table_rail_guide_animated.gif): Animation of a simplified linear table running on rail guides *(licence: CC BY-SA 2.5)*
+  - [Linear Bearing Guide way.jpg (Wikimedia Commons, by Zdenek Vlasic)](https://commons.wikimedia.org/wiki/File:Linear_Bearing_Guide_way.jpg): Rendered profile rail with a ball carriage (block) on it *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [Linear Bearing Slides (Game Manual 0)](https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.html): Photos of MGN rails of all sizes, round linear bearings on steel and carbon-fibre tubes, and robots using them *(licence: link only)*
+  - [Eccentric Spacer Adjustment (FarmBot Genesis documentation)](https://genesis.farm.bot/v1.6/extras/reference/eccentric-spacer-adjustment.html): Photos of V-wheels and eccentric spacers on aluminium extrusion, with step-by-step adjustment *(licence: link only)*
+- **make_it_yourself**: 
+  - [UNIT3D's LM8UU Linear Bearing (UNIT3D, Printables)](https://www.printables.com/model/36291-unit3ds-lm8uu-linear-bearing): Printed plain bushing to replace LM8UU ball bushings on 8 mm rods, supplied with 8.1, 8.2, 8.3 and 8.4 mm bores to test the fit *(licence: CC BY)*
+  - [Printed Linear Bearings (humebeam, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/347549-printed-linear-bearings): igus-style printed plastic bushings in LMU8/LM8UU, LMU10 and flanged sizes, with STEP files to adjust the bore; recommended in nylon for steel or carbon-fibre rods *(licence: CC BY-NC)*
+  - [Linear Slide bearings (Vendicar Decarian, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/569009-linear-slide-bearings): Parametric OpenSCAD customizer for three types of ball-less printed linear slide bearings (diameter, length and screw positions set by sliders) *(licence: CC0 (public domain))*
+  - [V-Wheel 2020 Carriage (polykyri, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/117816-v-wheel-2020-carriage): Printed four-wheel carriage for 2020 V-slot extrusion with a hole for an eccentric nut to set wheel tension, plus belt loops *(licence: GPL v2)*
+  - [BOSL2 linear_bearings.scad (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/linear_bearings.scad): Parametric clamp housings (lmXuu_housing, linear_bearing_housing) and models for standard LMxUU ball bushings, with a size table from LM4UU to LM100UU *(licence: BSD 2-Clause)*
+- **diagram_idea**: Three side-by-side cross-sections (a bushing on a round rod, V-wheels pinching a V-slot bar, and a carriage wrapped over a profile rail), with a plan view below showing a carriage on two rails, its bearing spacing L, the drive force offset and the '2:1' zone where the force must stay to avoid jamming.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Linear-motion_bearing
+  - https://en.wikipedia.org/wiki/Plain_bearing
+  - https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
+  - https://commons.wikimedia.org/wiki/File:Linear_table_rail_guide_animated.gif
+  - https://commons.wikimedia.org/wiki/File:Linear_Bearing_Guide_way.jpg
+  - https://commons.wikimedia.org/wiki/Category:Linear_guidings
+  - https://www.igus.com/company/linear-guides-the-2-1-rule-ca?C=US&L=en
+  - https://www.youtube.com/watch?v=5qFdBvn9KL0
+  - https://www.igus.co.uk/linear-technology/wiki/technical-information
+  - http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF
+  - https://www-mdp.eng.cam.ac.uk/web/library/enginfo/textbooks_dvd_only/slocum/topic10.pdf
+  - https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF
+  - https://www.linearmotiontips.com/differences-between-plain-and-rolling-linear-guides/
+  - https://www.linearmotiontips.com/how-does-shaft-hardness-affect-the-life-of-a-linear-ball-bushing/
+  - https://www.hiwin.com/wp-content/uploads/HIWIN-Linear-Guideway-Catalog.pdf
+  - https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.html
+  - https://gm0.org/en/latest/_sources/docs/common-mechanisms/linear-motion-guide/linear-bearing-slides.rst.txt
+  - https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/extrusion-slides.html
+  - https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html
+  - https://genesis.farm.bot/v1.6/extras/reference/eccentric-spacer-adjustment.html
+  - https://hackaday.com/2024/08/25/v-slot-wheels-or-linear-rails/
+  - https://help.prusa3d.com/article/i3-printer-regular-maintenance_2072
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/
+  - https://reprap.org/wiki/Linear_bearing
+  - https://iskbearing.com/product-details/lm8uu
+  - https://www.mcmaster.com/products/linear-bearings/
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/linear_bearings.scad
+  - https://www.printables.com/model/36291-unit3ds-lm8uu-linear-bearing
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** off_the_shelf_parts
 

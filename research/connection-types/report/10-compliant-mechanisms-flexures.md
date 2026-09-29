@@ -815,29 +815,648 @@
 
 *compliant mechanisms & flexures.* A pattern of cuts in flat sheet that lets part of it twist out of the plane like a hinge, for laser-cut or printed flat mechanisms
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A pattern of long slots cut into a flat sheet so that thin strips between them can twist, letting one part of the sheet fold up out of the flat like a hinge, even in stiff stuff like plywood, acrylic or steel
+- **term**: Lamina emergent torsional joint (LET joint)
+- **aliases**: 
+  - LET joint, lamina emergent torsion joint (Jacobsen, Chen, Howell and Magleby 2009; US patent 9,157,497)
+  - outside LET joint (torsion bars on the outside, two connecting pieces at the ends) and inside LET joint (torsion bars on the inside, one connecting piece across the middle) (US 9,157,497)
+  - half LET joint (only two torsion bars, working side by side; US 9,157,497)
+  - M-LET, membrane-enhanced LET joint (a thin film added to stop unwanted stretching and twisting; Chen, Magleby and Howell 2018)
+  - triple-LET and outside-deployed LET joints (variants for a larger folding range; named in the M-LET paper)
+  - curved LET joint (cut into the wall of a tube; Seymour et al. 2021)
+  - LET array, lamina emergent array (LEA): many LET joints side by side so a whole sheet can fold or curve (BYU CMR Printables models; Nelson et al. 2016)
+  - surrogate fold (origami-engineering term for a compliant hinge standing in for a crease; M-LET paper)
+  - a building block of lamina emergent mechanisms (LEMs, 'pop-up mechanisms'): compliant mechanisms made from flat sheet whose motion emerges out of the plane (Wikipedia 'Lamina emergent mechanism')
+  - torsional hinge (MEMS term; BYU Technology Transfer)
+  - related but not identical: lattice hinge, laser-cut living hinge, flex pattern (arrays of small twisting links; Deferred Procrastination)
+- **family**: compliant mechanisms & flexures
+- **other_families**: hinges & pivots, print-in-place & 3D-printing joints
+- **one_liner**: A hinge made only by cutting slots in a flat sheet: the strips left between the slots twist like tiny torsion springs, so one side of the sheet can rotate up out of the plane while the whole thing stays one piece and springs back toward flat.
+- **complexity**: Single piece: a cut pattern in one sheet made of long, thin torsion bars (the strips that twist), short connecting pieces that join the bars and bend a little, and the two panels (links) being hinged. An outside LET joint has four torsion bars and two connecting pieces; an inside LET joint has its torsion bars inside and one connecting piece across the middle (US 9,157,497; Chen, Magleby and Howell 2018).
+- **how_it_works**: When one panel is turned out of the plane, each long torsion bar twists along its length like a wrung cloth, and the short connecting pieces bend a little; all these springy parts together act like one hinge with a built-in return spring (US 9,157,497). The bars are arranged in pairs side by side (springs in parallel) and one after another (springs in series), so each bar only twists through part of the total fold: in the basic outside joint each bar turns half the joint angle, which halves the stress for the same stiffness as one bar (US 9,157,497, eq. 4). Because stiff materials can twist much further than they can bend over the same thickness, the joint gives 'much greater deflections than simple single-beam compliant flexures of similar thickness' (Seymour et al. 2021) and turns wood, acrylic or steel sheet into a fold (BYU CMR). The cost is that it is fairly floppy in other directions: pushing, pulling or twisting it in the plane of the sheet bends the torsion bars and causes unwanted (parasitic) motion (Chen, Magleby and Howell 2018).
+
+### Finder attributes
+
+- **job**: let it move (turn, slide or bend): a hinge made from the sheet itself, store energy: the twisted bars act as a return spring that pulls the panel back toward flat (US 9,157,497)
+- **motion**: flex: bends out of the plane of the sheet like a hinge, through large angles; a spring-steel example was modelled to 20° and a curved aluminium one simulated to 35° (US 9,157,497; Seymour et al. 2021), and plywood and printed demonstrators fold to form chairs and boxes (Wasatch Design Collective; *(unverified parts omitted)*
+- **degrees_of_freedom**: 1 intended: 'A LET joint primarily provides one rotational degree-of-freedom through the torsional deflections of the torsional segments' (Chen, Magleby and Howell 2018); in practice it also allows some unwanted stretching, squashing and in-plane twisting (parasitic motion), and its centre of rotation moves as it bends (Seymour et al. 2021)
+- **special_behaviour**: 
+  - none of the listed behaviours in the basic joint: it simply bends like a hinge and springs back toward flat (US 9,157,497)
+  - one-way (moves freely one way, locks the other): membrane-enhanced LET joints can be made as 'one-way joints that can ensure origami-based mechanisms emerge from their flat state ... into the desired configuration' (Chen, Magleby and Howell 2018)
+- **holding_principle**: not a holding joint (it moves or passes on motion): it is a hinge; the sheet is one piece, so nothing needs holding together
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: the joint is part of the sheet and cannot be taken apart
+- **tools_needed**: To use: none. *(unverified parts omitted)*
+- **seal**: none: the slots go right through the sheet, so it leaks air, water and light
+- **load**: light: it is designed to rotate easily, not to carry force. It is weakest against pushing or pulling along the sheet across the joint and against in-plane twisting, which bend the torsion bars; 'they are not suitable for high precision applications if these types of loads are applied' (Chen, Magleby and Howell 2018). Example: a 0.81 mm spring-steel outside LET joint needs about 0.60 N·m to turn it 20° (US 9,157,497). *(unverified parts omitted)*
+- **adjustable**: no: stiffness and range are fixed by the cut pattern and the sheet thickness; change them by recutting with longer, thinner or more torsion bars
+- **play_and_precision**: No play or backlash (nothing slides; it is one piece) and it returns to flat repeatably, but its centre of rotation shifts as it bends (Seymour et al. 2021) and it moves sideways, stretches or squashes under loads other than a pure turning moment (Chen, Magleby and Howell 2018). Adding a thin membrane 'increases the stiffnesses of the translation along the y-axis and the rotation around the z-axis by more than 5000 times, while only increasing the rotation stiffness around the x-axis about one time' (Chen, Magleby and Howell 2018).
+- **access_needed**: not applicable
+- **materials**: Any sheet that can take some twisting: spring steel (AISI 1095), polypropylene and polycrystalline silicon (MEMS) in the original work (US 9,157,497; Jacobsen et al. 2009 abstract); aluminium alloy 7075 and Nitinol in tube-wall versions (Seymour et al. 2021); Baltic birch plywood for a full-size chair (Wasatch Design Collective); wood or acrylic sheet (BYU CMR Printables 'LET Array'); printed PETG (Seymour et al. 2021) and other printed plastics (BYU CMR models); polypropylene with a metallic-glass membrane for M-LET joints (Chen, Magleby and Howell 2018). Brittle acrylic is possible but cracks easily (Deferred Procrastination); for laser-cut flexing patterns makers more often use wood, because it allows 'a significant degree of flex before the material fractures' (Ponoko).
+- **maker_difficulty**: moderate: cutting or printing the pattern is easy, but getting a joint that bends far enough without cracking takes a few test pieces, because stiffness and stress depend strongly on the bar thickness, width and length and on the material
+
+### Making it
+
+- **processes**: 
+  - laser cut: acrylic, plywood, polypropylene or thin sheet (BYU CMR 'LET Array'; Deferred Procrastination for the related lattice hinge)
+  - 3D print (FDM): printed flat in one piece (BYU CMR Printables models; Seymour et al. 2021 printed PETG test joints)
+  - micro-fabrication (MEMS): polysilicon joints (US 9,157,497) *(unverified parts omitted)*
+- **print_in_place**: yes: the joint is just a pattern in a flat printed sheet, so it works straight off the bed with no assembly (BYU CMR 'Mini LET Joint Box' is 'all printed in one piece'); some folded models add a drop of glue to hold their final shape (BYU CMR 'Mini Flex Chair')
+- **making_tips_3d_printing**: 1) Print the sheet flat on the bed; it needs no supports and prints fast (BYU's Mini Flex Chair takes 'about an hour to print'). 3) Stiffness rises with thickness cubed and falls with bar length (k = K·G/L with K roughly w·t³/3; US 9,157,497), so the quickest way to make a joint softer and less stressed is a slightly thinner sheet or longer bars; widening the bar mostly adds stiffness. 4) Research prints used PETG at 100% infill on a Prusa i3 MK2 and measured a bending modulus of about 1.4 GPa, lower than typical datasheet values for moulded plastic, so measure or test your own material (Seymour et al. 2021). 7) To fold further, spread the motion over more bars or several joints side by side, as in BYU's LET arrays and in lattice hinges, where more links in series each twist less (Deferred Procrastination). *(unverified parts omitted)*
+- **off_the_shelf_parts**: None: it is a cut pattern, not a bought part. Related bought items: laser-cutting sheet stock (plywood, acrylic, polypropylene, spring-steel shim), and for membrane-enhanced joints a thin, strong film or tape bonded across the joint (the M-LET paper used metallic glass; the related lattice-hinge write-up suggests gluing 'a thinner material across the inside of the hinge to prevent expansion'; *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Joint stiffness: torque T = k_eq × angle (in radians). For a symmetric outside LET joint, k_eq = 2·kT·kB / (kT + 2·kB), where kT is one torsion bar's stiffness and kB one connecting piece's bending stiffness; if the connecting pieces are much stiffer, k_eq = kT, and each bar twists only half the joint angle, 'also reducing the stress by half' (US 9,157,497, eqs. 1-4).
+  - Inside LET joint: 1/k_eq = 1/(k1k5/(k1+k5) + k2k6/(k2+k6)) + 1/k9 + 1/(k3k7/(k3+k7) + k4k8/(k4+k8)); with rigid connecting pieces and equal bars it also reduces to k_eq = kT (US 9,157,497, eqs. 5-7; Seymour et al. 2021, eq. 1).
+  - One torsion bar: kT = K·G / L, with G the shear modulus, L the bar length and K = w·t³·[1/3 − 0.21·(t/w)·(1 − t⁴/(12·w⁴))]; valid only when the bar's width w is larger than the sheet thickness t (Roark and Young formula, quoted in US 9,157,497, eqs. 8 and 10). Connecting pieces: kB = E·I/L_B with I = w·t³/12 (eq. 13).
+  - Maximum twisting (shear) stress in a bar: τmax = T_bar / Q with Q = w²·t² / (3w + 1.8t); it occurs on the surface at the middle of the wide face (US 9,157,497, eqs. 14-15). Keep it below the material's shear yield stress.
+  - Worked example: an AISI 1095 spring-steel outside LET joint 0.81 mm thick, with torsion bars 27.7 mm long and 4.9 mm wide and connecting pieces 12.8 mm long and 5.0 mm wide, gives kT = 2.26 N·m/rad, kB = 3.56 N·m/rad and k_eq = 1.72 N·m/rad: 0.60 N·m at 20°, with 303 MPa shear stress in the bars and 547 MPa bending stress in the connecting pieces; tests 'correlated well' with the model (US 9,157,497, Table 1).
+  - The planar equations still work for LET joints cut into thin-walled tubes over a limited range of wall-thickness-to-radius ratio (Seymour et al. 2021).
+  - Related lattice (laser-cut living) hinges with square links: τmax ≈ 0.676·Θ·G·t / (n·l), so the minimum number of links in series is n = 0.676·Θ·G·t / (τyield·l); for a 90° bend in 3 mm acrylic this gives 22 links of 5 mm, 11 of 10 mm, 6 of 20 mm or 4 of 30 mm - but in tests only the 22-link acrylic sample reached 90°, so the author suggests designing to about 60% of torsional yield for repeated bending (Deferred Procrastination, 'Laser-cut Lattice Living Hinges').
+
+### When to use it
+
+- **everyday_examples**: 
+  - The BYU / Wasatch Design Collective 'Flex Chair' folded from a single sheet of Baltic birch plywood (Wasatch Design Collective; BYU CMR 'Mini Flex Chair' model)
+  - Laser-cut plywood or acrylic boxes and notebook covers with a flexible 'lattice hinge' panel, a close relative that also works by twisting small links (Deferred Procrastination)
+  - Printable fold-up ornaments, boxes and kaleidocycles from BYU's compliant mechanisms lab (BYU CMR Maker Resources)
+  - Tiny torsional hinges in MEMS chips, one of the target uses named by BYU (BYU Technology Transfer)
+- **when_to_use**: Use a LET joint when you want a hinge in a flat part made from one sheet, with no pins, no assembly and no rubbing, and need it to turn through a large angle in a material that won't bend much on its own, such as plywood, acrylic, sheet metal or a printed plate (BYU Technology Transfer; US 9,157,497). It suits flat-pack and fold-up furniture, pop-up and origami-inspired mechanisms, deployable structures, toys and demonstrators, and small or micro devices where pin hinges are impractical. It is a good choice when off-axis stiffness is 'not as critical' (Jacobsen et al. 2009 abstract); with an added membrane it can also locate more accurately, and an outside LET joint has been used for high-precision positioning in National Ignition Facility target shrouds (Chen, Magleby and Howell 2018).
+- **when_not_to_use**: Avoid it where the hinge must carry large pushes, pulls or sideways loads, or must keep an exact pivot line (use a pin hinge, a flexure pivot such as a cross-axis pivot, or a membrane-enhanced LET), where it must hold a folded position without springing back (add a latch, detent or glue), where it must seal, or in a thin, flexible sheet that can simply bend (a plain living hinge or thin-web flexure is simpler). For a gentle curve rather than a sharp fold, a kerf-bending or lattice pattern spreads the bend better. If you plan to sell products using BYU's LET designs, check the patents first: US 9,157,497 covers the LET joint, and BYU's Printables files for its LET arrays are licensed for non-commercial use and state the design is protected under US patents 11852210 and 11549563.
+- **environment_limits**: The joint only springs back fully while the twisting stress stays below the material's yield point; beyond it the joint takes a permanent set and fatigues quickly (Deferred Procrastination). Metal and Nitinol joints are the most durable (Seymour et al. 2021; US 9,157,497). *(unverified parts omitted)*
+- **safety_notes**: A folded LET structure stores spring energy and snaps back toward flat when released (US 9,157,497), so keep fingers and faces clear when folding large or steel ones. Brittle sheets such as acrylic can snap during bending (Deferred Procrastination) and leave sharp edges; laser-cut or stamped steel edges are sharp. Otherwise none known.
+- **common_failures**: Torsion bars crack or snap because they are too short, too thick or too few for the fold angle, or the material is brittle (Deferred Procrastination: acrylic test hinges broke before 90° except the one with the most links); fix by using longer or thinner bars, more bars in series, or a tougher material. The joint stretches, squashes or twists sideways under loads other than a pure turning moment (parasitic motion; Chen, Magleby and Howell 2018); fix with a membrane, better load paths or bracing. The hinge line wanders because the centre of rotation shifts as it bends (Seymour et al. 2021). Real stiffness differs from the model because printed or laser-cut material properties differ from datasheets and the laser kerf is ignored (Seymour et al. 2021; Deferred Procrastination). *(unverified parts omitted)*
+- **related**: 
+  - Living hinge: a thin web that bends instead of twisting; simpler, but needs a flexible material such as polypropylene, and 3D-printed living hinges are mostly for prototypes (Hubs: SLS ones 'typically last around 30-50 cycles')
+  - Kerf bending (laser-cut living hinge): arrays of cuts that let a whole panel curve; lattice versions also work by twisting small links
+  - Flexure hinge (notch, leaf-spring and cross-axis pivots): bending flexures that keep a better-defined pivot but usually move through smaller angles
+  - Origami mechanisms (waterbomb, Kresling, thick-panel origami): LET joints are often used as the fold lines (surrogate folds) in these
+  - Tape-spring hinge (measuring-tape fold): folds and snaps straight again, locking in the deployed position
+  - Rolling-contact joint (CORE, Jacob's-ladder hinge): large, low-friction rotation with a steadier pivot, but made of several parts
+  - Mechanical metamaterial mechanism (shear-cell hinge arrays): cell patterns that combine many small hinges
+  - Ortho-planar spring: another one-piece flat-sheet part whose motion comes out of the plane, but it moves straight up and down
+  - Torsional snap fit: also uses a twisting bar, but as a rocker for a snap hook
+  - Print-in-place hinge and Knuckle hinge (butt hinge): pin hinges that rotate freely and carry more load but have clearance and friction
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Lamina Emergent Torsional (LET) Joint (BYU Technology Transfer, ID 2009-101)](https://techtransfer.byu.edu/lamina-emergent-torsional-let-joint): Four images of LET joints and devices made with them, plus a plain description of the joint and its advantages *(licence: link only)*
+  - [Membrane-Enhanced Lamina Emergent Torsional Joints for Surrogate Folds (Chen, Magleby and Howell, J. Mech. Des. 2018; author manuscript on NSF PAR)](https://par.nsf.gov/servlets/purl/10092156): Drawings of outside and inside LET joints and their intended fold (Figs. 2-3), their unwanted stretching and in-plane twisting (Figs. 4-5), membrane-enhanced versions and a polypropylene prototype *(licence: link only (author manuscript; copyright ASME))*
+  - [US 9,157,497 B1: Lamina emergent torsional joint and related methods (Magleby, Jacobsen and Howell; Google Patents)](https://patents.google.com/patent/US9157497B1/en): Patent drawings of outside and inside LET joints, their spring diagrams, a spherical mechanism using nine LET joints, and the full stiffness and stress equations *(licence: link only (US patent document))*
+  - [LET Chair (Wasatch Design Collective)](https://www.wasatchdesigncollective.com/let-chair): Photos of a reversible chair folded from a single sheet of Baltic birch plywood using LET joints *(licence: link only)*
+  - [Laser-cut Lattice Living Hinges (Deferred Procrastination, 2011)](http://marksabino.com/defproc/blog/2011/laser-cut-lattice-living-hinges/): Diagrams of the related lattice hinge showing junctions and twisting 'spring connections' in tension, compression and bending, with stress calculations *(licence: link only (© Deferred Procrastination))*
+- **make_it_yourself**: 
+  - [Christmas Ornament - Compliant LET Joints (BYU CMR, Printables; linked from BYU CMR Maker Resources)](https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints): A printable ornament whose LET joints curve around and connect to form a sphere; based on Nelson et al. 2016, 'Developable Lamina Emergent Arrays' *(licence: CC BY (Printables listing; BYU says files are for non-commercial use))*
+  - [Compact LET Joint Kaleidocycle 4th of July Firework (BYU CMR, Printables; linked from BYU CMR Maker Resources)](https://www.printables.com/model/1769704-compact-let-joint-kaleidocycle-4th-of-july-firewor): A kaleidocycle-style model with LET joints that rolls inwards or outwards on itself *(licence: CC0 / public domain (Printables: Creative Commons Public Domain))*
+  - [BYU CMR Mini Flex Chair (BYU CMR, Printables)](https://www.printables.com/model/569115-byu-cmr-mini-flex-chair): A scale model of the single-sheet plywood LET chair; prints flat in about an hour and is glued into its folded shape *(licence: CC BY-NC)*
+  - [LET (Lamina Emergent Torsion) Array (BYU CMR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1058700-let-lamina-emergent-torsion-array): A printable sheet of LET joints showing how torsion bars give large bending and stretching from a stiff sheet; notes the design is protected by US patents 11852210 and 11549563 *(licence: CC BY-NC (non-commercial use only))*
+  - [Mini LET Joint Box (BYU CMR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1207504-mini-let-joint-box): A palm-sized fold-up box printed in one piece using LET joints *(licence: CC BY-NC)*
+- **diagram_idea**: A top view of an outside LET joint cut in a flat sheet (two panels joined by four long torsion bars and two short end pieces, with slots shaded), next to a 3D view of the same joint folded to about 60° showing each bar twisted by half the angle, and a small spring diagram (two bars and a bending piece in series on each side, the two sides in parallel).
+- **sources**: 
+  - https://patents.google.com/patent/US9157497B1/en
+  - https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9157497
+  - https://scholarsarchive.byu.edu/facpub/1560
+  - https://techtransfer.byu.edu/lamina-emergent-torsional-let-joint
+  - https://par.nsf.gov/servlets/purl/10284579
+  - https://par.nsf.gov/servlets/purl/10092156
+  - https://scholarsarchive.byu.edu/facpub/6497/
+  - https://en.wikipedia.org/wiki/Lamina_emergent_mechanism
+  - https://compliantmechanisms.byu.edu/maker-resources
+  - https://www.wasatchdesigncollective.com/let-chair
+  - http://marksabino.com/defproc/blog/2011/laser-cut-lattice-living-hinges/
+  - https://www.ponoko.com/blog/how-to-make/how-to-design-a-living-hinge/
+  - https://www.hubs.com/knowledge-base/how-design-living-hinges-3d-printing/
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, load, making_tips_3d_printing, motion, off_the_shelf_parts, processes, reuse_cycles, tools_needed
 
 ## 175 Rolling-contact joint (CORE, Jacob's-ladder hinge)
 
 *compliant mechanisms & flexures.* Two curved surfaces held together by straps or bands so they roll on each other instead of rubbing, giving a low-friction hinge
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A hinge made of two rounded blocks tied together by crossed straps, so the blocks roll over each other instead of turning on a pin, like the flipping wooden blocks of a Jacob's ladder toy
+- **term**: Rolling-contact joint (compliant rolling-contact element, CORE)
+- **aliases**: 
+  - rolling contact joint (RCJ)
+  - compliant rolling-contact element (CORE)
+  - compliant rolling-contact joint (CRJ)
+  - developable or deployable CORE (D-CORE, the version made from one flat sheet)
+  - rolling hinge
+  - rolamite hinge (wheels held together by wires or bands; name used by Watt and Pellegrino)
+  - Jacob's-ladder hinge or ribbon hinge (the toy's crossed ribbons act as a double hinge)
+  - double hinge (each block is hinged to the next at either end)
+  - ligament joint or crosswise-ligament rolling joint (robot fingers and prosthetic hands)
+  - rolling-contact knee or rolling knee joint (prosthetics and braces)
+  - Rubik's Magic mechanism (the puzzle uses the same crossed-strand principle) *(unverified parts omitted)*
+- **family**: compliant mechanisms & flexures
+- **other_families**: hinges & pivots, springs & energy storage, indexing & detents
+- **one_liner**: Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
+- **complexity**: A few parts: two curved blocks (cams or rolling surfaces) and two or more thin flexible straps, bands, wires, cords or ribbons wrapped crosswise between them, plus the anchors that fix each strap end (clamps, screws, crimps, glue or interference-fit holes). In the CORE, CRJ and D-CORE versions the straps and cam faces are cut or printed as flat layers that are then flexed, stacked and pinned or glued together.
+- **how_it_works**: Each strap is fixed to one block, wraps around that block's curved face, crosses the line where the two blocks touch and wraps the other block the opposite way; at least one more strap crosses in the other direction. Because the straps are taut and hardly stretch, the blocks cannot slide apart or skid over each other, so the only motion left is rolling, a bit like two gears without teeth (Nature Communications 2018; PNAS 2026). Rolling means there is no rubbing, so friction and wear are very low and no oil is needed (Watt and Pellegrino 2002, describing Hillberry and Hall's 1976 rolling hinge). Unlike a pin hinge, the pivot point moves along with the line of contact as it rolls (BYU CMR), and in a Jacob's ladder the crossed ribbons let each block act as if hinged to its neighbour at either end (Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): a low-friction hinge with no pin, bearing or lubrication
+  - store energy: versions whose straps stretch as the blocks roll act as a built-in return spring, e.g. the BYU CORE Bearing designed for a prosthetic knee
+  - click into set positions: research versions with stretched or unequal straps have two or more stable positions (Halverson, Howell and Magleby 2010; PNAS 2026)
+  - change speed or turning force: tendon-driven versions with non-circular rolling surfaces and pulleys can vary their leverage along the travel (PNAS 2026)
+- **motion**: rotate (by rolling): the range depends on how far the straps wrap; an ideal compliant rolling-contact joint can turn almost 360 degrees (Nature Communications 2018), while robot-finger versions add end stops to limit travel (Laschkewitsch). The pivot point moves as it rolls rather than staying fixed (BYU CMR)
+- **degrees_of_freedom**: 1: rolling rotation. The crossed straps stop the blocks from sliding apart or skidding, leaving only rolling. With stretchy ligaments some designs deliberately allow a little sideways and twisting give (PNAS 2026)
+- **special_behaviour**: 
+  - fail-safe or breakaway (gives way instead of breaking): in 3D-printed robot hands an overloaded rolling-contact joint can dislocate (pop apart) instead of breaking (ORCA hand paper, 2025)
+  - indexing (clicks into set positions): multi-stable versions with specially stretched or shaped straps rest in two or more positions (Halverson et al. 2010; PNAS 2026)
+  - none in the basic free-rolling hinge: its main benefits are very low friction and no backlash rather than a special action
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it is a hinge; the tension in the crossed straps presses the two curved faces together and keeps them rolling without slipping (Watt and Pellegrino 2002; BYU CMR)
+- **input_output**: not applicable for a plain hinge. In tendon-driven robot fingers a pull on a tendon turns the joint, and optimised non-circular surfaces and pulleys varied the tip speed from near zero to about 4 times the average of a circular joint (PNAS 2026). Back-drivable: yes, it rolls freely both ways
+- **power**: passive (no power needed); robot and prosthetic versions are driven by tendons and motors, but the joint itself needs no power
+- **removability**: removable: straps held by screws, crimps or knots can be undone and re-tensioned (Watt and Pellegrino 2002); versions whose strap tabs are glued, like the printed D-CORE, are semi-permanent (BYU CMR)
+- **tools_needed**: Depends on the build: none for a ribbon toy; pliers to press in pins or axles (Printables 'Roll gelenk' model); a screwdriver and crimping tool for wire or band anchors (Watt and Pellegrino 2002); superglue for the tabs of BYU's printed D-CORE
+- **seal**: none
+- **load**: light to medium. Strong when the blocks are pushed together (the curved faces bear on each other) and sideways: printed versions are 'surprisingly stable under sideways loads' (Printables 'Roll gelenk' model, translated), BYU's CORE Bearing has 'high resistance to radial loads', and ETH's Faive robot hand with rolling-contact joints held up to 10 kg in a power grasp (Toshimitsu et al. 2023). Weak in pulling the blocks apart, which is resisted only by the straps (Nature Communications 2018)
+- **adjustable**: yes in some designs: Watt and Pellegrino's rolling hinge tensions its wires with a screw and lock nut; in printed or glued versions the strap length is fixed by the design
+- **play_and_precision**: Play: none when the straps are taut; the curved faces 'roll on each other without play' (Printables 'Roll gelenk', translated) and rolling-contact joints reduce backlash compared with bearings and gears (PNAS 2026). Repeatability: good while the straps stay tight, but cord ligaments can loosen over time (ORCA hand paper). Misalignment: the axis of rotation moves as it rolls, so it is a poor choice where a fixed axis is required (BYU CMR); stretchy ligaments allow some deliberate off-axis give (PNAS 2026)
+- **access_needed**: not applicable: the joint is built as a unit with straps anchored on both blocks, then fixed to the parts it connects
+- **materials**: Blocks: 3D-printed plastic such as PETG (Printables 'Roll gelenk'), acetal (Delrin) plate (Watt and Pellegrino 2002), laser-cut PTFE (Teflon) sheet (Nature Communications 2018 prototypes) or wood (Jacob's ladder toy). Straps: ribbon or tape (toys), metal bands (Hillberry and Hall's rolling hinge; the Rolamite uses an S-shaped metal strip), 1 mm nylon-coated stainless-steel wire (Watt and Pellegrino 2002), nylon monofilament (Laschkewitsch), Dyneema fishing line (Hackaday 2024), elastic ligaments (PNAS 2026), or thin flexures printed or cut in the same sheet as the cams (BYU D-CORE, CORE Bearing)
+- **maker_difficulty**: moderate: the blocks are easy to print or cut, but the straps must be exactly the right length, evenly tensioned and firmly anchored, and thin cord tends to slip at its anchors (Laschkewitsch; Nature Communications 2018)
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): blocks with grooves and anchor holes for cord ligaments (robot fingers), or thin-strap layers that are stacked and pinned together (Printables 'Roll gelenk')
+  - laser cut: cams and straps cut as flat layers from sheet, e.g. Teflon sheet (Nature Communications 2018) or the one-sheet D-CORE (BYU CMR)
+  - CNC: traditionally machined rolling surfaces (PNAS 2026 notes 3D printing, moulding and machining)
+  - woodwork: Jacob's ladder toys from wooden blocks and ribbon
+  - off-the-shelf part: cord, fishing line, wire rope or metal strip for the straps *(unverified parts omitted)*
+- **print_in_place**: partly: printed versions usually need assembly, either stacking printed strap-and-cam layers and pressing in axles (Printables 'Roll gelenk'), folding and gluing a flat D-CORE (BYU CMR), or threading cord ligaments (Laschkewitsch). *(unverified parts omitted)*
+- **making_tips_3d_printing**: Orient the part so the thin straps lie flat and their layers run along the strap, and keep layer seams off the thin bands: the maker of the PETG 'Roll gelenk' model (0.2 mm layers) warns the bands will not last long if seams sit on them (Printables 1039873, translated). Watch that print orientation does not put layer lines across the cord anchors, which weakened anchoring in Laschkewitsch's printed finger joint; he used interference-fit holes to grip nylon monofilament, found finer line slipped, and needed guide rails and end stops to limit rotation. Let thin printed flexures cool fully before flexing them: BYU warns that the thin compliant segments of its CORE Bearing are very susceptible to stress relaxation, especially while warm, and lose their springiness if worked too soon; a standard 0.4 mm nozzle is enough, and printing from the STEP file avoids faceted curves. For BYU's D-CORE, a drop of superglue on each tab keeps the flexures secure. Keep the rolling faces convex so the straps stay taut and the faces keep contact (PNAS 2026). Tough, springy filaments such as PETG are the usual choice for printed straps; For higher loads use cord ligaments (nylon monofilament, Dyneema) or metal bands rather than printed straps. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Keep straps thin compared with the cam radius: the bending stress in a band wrapped around a radius R is about E x t / (2R) (E = stiffness of the band material, t = band thickness), so stress rises with thickness and falls with radius (Lee and Jung 2012, bending formula); thin straps also cut the joint's stiffness, friction and hysteresis (Nature Communications 2018)
+  - Worked example from a tested joint: laser-cut PTFE layers 3.175 mm thick, cam radius 50 mm and strap thickness 0.6 mm, i.e. cam radius about 83 times strap thickness (Nature Communications 2018)
+  - An ideal joint has almost no turning resistance and a range of almost 360 degrees only if the straps are exactly the right length (neither slack nor stretched), perfectly straight before assembly, wrapped on perfectly circular cams, and roll without slipping (Nature Communications 2018)
+  - Rolling surfaces must be convex so the ligaments stay taut and the faces keep in contact; use gear teeth instead if you need non-convex faces (PNAS 2026)
+  - Running the bands on a smaller radius than the rolling surface increases the force pulling the two halves together, and making some band surfaces smaller than others creates a return (restoring) moment (Hillberry and Hall 1976, as summarised by Watt and Pellegrino 2002)
+  - Pretension wires enough that the rolling wheels stay in compressive contact at all times; a tested hinge used 1 mm nylon-coated stainless-steel wire on 28.1 mm radius acetal wheels with screw-and-lock-nut tensioning (Watt and Pellegrino 2002)
+  - If your design needs a fixed axis of rotation, a CORE is likely impractical, because its axis moves as it rolls (BYU CMR)
+
+### When to use it
+
+- **everyday_examples**: 
+  - Jacob's ladder toy: wooden blocks joined by crossed ribbons that appear to cascade down (Wikipedia)
+  - Rubik's Magic puzzle: tiles joined by crossed strands that fold in two directions (Wikipedia)
+  - Robot fingers and prosthetic knee designs (research and open-source robot hands such as ETH's Faive Hand) *(unverified parts omitted)*
+- **when_to_use**: Use a rolling-contact joint when you want a smooth, silent, low-friction hinge with no play and no lubrication, for example robot fingers, prosthetic or exoskeleton knees that should follow a natural moving pivot, animatronic legs, toys and fold-out panels. It suits small, compact joints because the joint is part of the structure itself (Hackaday 2024), it can take large side and radial loads for its size (BYU CMR), and it can be tuned: non-circular faces let you program the path or leverage (PNAS 2026), and stretched straps can add a built-in return spring or several stable positions.
+- **when_not_to_use**: Avoid it where you need a fixed pivot axis, such as a shaft carrying a gear or a pointer that must rotate about one point (BYU CMR); use a pin hinge, knuckle hinge or ball bearing instead. Avoid it where the joint will be pulled apart, since only the straps resist that; a clevis or pin joint is stronger in tension. For simple one-piece printed hinges a living hinge, flexure hinge or print-in-place pin hinge is easier to make. Where cords may stretch or loosen and nobody will re-tension them, a pin joint can be more reliable (ORCA hand paper).
+- **environment_limits**: Printed plastic straps and flexures relax (lose tension) over time, faster when warm; BYU warns its printed CORE Bearing's thin segments are very susceptible to stress relaxation, especially while warm. Cord ligaments can loosen over time (ORCA hand paper). *(unverified parts omitted)*
+- **safety_notes**: Cut metal strip used for bands has very sharp edges (Naked Scientists, on cut tape-measure steel). *(unverified parts omitted)*
+- **common_failures**: Straps or cords slipping at their anchors, especially thin monofilament; fix with interference-fit holes, crimps or clamps (Laschkewitsch). Straps loosening over time, giving play or letting the joint dislocate; add a tensioning screw (Watt and Pellegrino 2002; ORCA hand paper). Thin printed bands cracking at layer seams or where they leave the block; move seams away and round the corners (Printables 'Roll gelenk'; Binding when the rolling profile does not match the strap geometry (Laschkewitsch). Printed flexures losing springiness from stress relaxation if flexed while warm (BYU CORE Bearing). Extra friction and hysteresis when straps are too thick for the cam radius or stretched too much (Nature Communications 2018; PNAS 2026). *(unverified parts omitted)*
+- **related**: 
+  - Knuckle (butt) hinge or pin-in-hole pivot: a fixed axis and simple to make, but it rubs, needs clearance and so has some play
+  - Flexure hinge (notch, leaf-spring or cross-axis pivot): bends instead of rolling; one piece, but limited to small angles and its stiffness rises with angle
+  - Living hinge: a single thin flexing strip; simplest one-piece fold, but weak and short-lived in most 3D-printing plastics
+  - Rolamite: the linear cousin, with two rollers held in a channel by an S-shaped tensioned metal strip, used as a very low-friction bearing (Wikipedia)
+  - Tape-spring hinge: a curved strip that folds and snaps straight; Watt and Pellegrino combined tape springs with a wire-wrapped rolling hinge to guide the fold
+  - Geared hinge: uses gear teeth instead of crossed straps to stop the two halves slipping (PNAS 2026 mentions teeth as an alternative)
+  - Capstan cable drive: also wraps cable around drums without slipping, but to transmit rotation rather than to form a hinge
+  - Virtual-pivot linkage (remote centre of motion): another way to get a pivot that is not at a physical pin
+  - Mechanical metamaterial mechanism: whole lattices can be built from compliant rolling-contact joints (compliant rolling-contact architected materials, Nature Communications 2018)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Jacob's Ladder 2.jpg (Wikimedia Commons, from Scientific American 1889)](https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_2.jpg): Engraving of the mechanism of a Jacob's ladder: three blocks shown transparent and pulled apart with their crossed tapes labelled a and b *(licence: Public domain)*
+  - [Jacob's Ladder toy demonstration (Wikimedia Commons video)](https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_toy_demonstration.ogv): Video clip of a Jacob's ladder toy in use, blocks flipping over on their ribbon hinges *(licence: CC BY-SA 3.0)*
+  - [Compliant rolling-contact architected materials for shape reconfigurability (Nature Communications, 2018)](https://www.nature.com/articles/s41467-018-07073-5): Open-access paper with a figure of a compliant rolling-contact joint built from four half-cylinder layers and straps, lattices of such joints, and supplementary movies of prototypes changing shape *(licence: CC BY 4.0)*
+  - [Stealing biology for tiny robots (Breaking Taps, YouTube)](https://www.youtube.com/watch?v=TQiLLcumqDw): Video on designing small robot legs with rolling contact joints restrained by Dyneema line (as described by Hackaday; title and channel confirmed via YouTube oEmbed, video not watched) *(licence: link only)*
+  - [Rolamite.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Rolamite.svg): Diagram of a Rolamite: two rollers in a channel held by an S-shaped tensioned band, the linear relative of the rolling-contact joint *(licence: CC BY-SA 3.0)*
+- **make_it_yourself**: 
+  - [Developable Compliant Rolling-Contact Element (D-CORE) (BYU CMR, Printables)](https://www.printables.com/model/598201-developable-compliant-rolling-contact-element-d-co): Printable developable CORE hinge made flat with two mounts; tabs can be secured with superglue; includes background, applications and references. Read through the Printables public API *(licence: CC BY-NC)*
+  - [CORE Bearing (BYU CMR, Printables)](https://www.printables.com/model/1752131-core-bearing): Fidget-spinner-like bearing made of three COREs arranged like planet gears, giving rotation with a built-in return spring; designed for a prosthetic knee; printing advice on stress relaxation. Read through the Printables public API; link listed on BYU's Maker Resources page *(licence: CC BY-NC)*
+  - [Roll gelenk / rolling contact joints (Studi_Ha, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints): Simplified knee-like rolling-contact joint from stacked PETG layers with thin integral bands and press-in axles; assembly steps explain how the bands wrap the radii; STEP files included (description in German) *(licence: CC BY)*
+  - [Maker Resources (BYU Compliant Mechanisms Research)](https://compliantmechanisms.byu.edu/maker-resources): Index of BYU's free printable compliant mechanisms on Thingiverse and Printables, including the D-CORE and CORE Bearing *(licence: per model (BYU models are CC BY-NC))* *(unverified parts omitted)*
+- **diagram_idea**: Side view of two round-ended blocks touching at one point with two crossed straps drawn in contrasting colours (one wrapping over the top of the left block and under the right, the other the reverse), shown in three frames as the right block rolls around the left, with a dot marking how the contact point (the moving pivot) travels.
+- **sources**: 
+  - https://www.nature.com/articles/s41467-018-07073-5
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12890850/fullTextXML
+  - http://www.its.caltech.edu/~sslab/PUBLICATIONS/Tape-spring%20rolling%20hinges%202002.pdf
+  - https://www.printables.com/model/598201-developable-compliant-rolling-contact-element-d-co
+  - https://www.printables.com/model/1752131-core-bearing
+  - https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints
+  - https://www.printables.com/model/510296-jacobs-ladder-toy-print-in-place-model
+  - https://api.printables.com/graphql/
+  - https://compliantmechanisms.byu.edu/maker-resources
+  - https://en.wikipedia.org/wiki/Jacob%27s_ladder_(toy)
+  - https://en.wikipedia.org/wiki/Rolamite
+  - https://en.wikipedia.org/wiki/Rubik%27s_Magic
+  - https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_2.jpg
+  - https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_toy_demonstration.ogv
+  - https://commons.wikimedia.org/wiki/File:Rolamite.svg
+  - https://hackaday.com/2024/05/17/emulating-biology-for-robots-with-rolling-contact-joints/
+  - https://www.youtube.com/watch?v=TQiLLcumqDw
+  - https://alaschke.com/projects/rolling-contact-joint/
+  - https://arxiv.org/pdf/2504.04259
+  - https://arxiv.org/pdf/2308.02453
+  - https://www.scirp.org/html/4-1860054_22195.htm
+  - https://kapycad.com/en/academy/machines/rolling-contact-joint
+  - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
+
+### Other info
+
+- **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, print_in_place, processes, reuse_cycles, safety_notes
 
 ## 176 Mechanical metamaterial mechanism (shear-cell hinge arrays)
 
 *compliant mechanisms & flexures.* A block made of a repeating grid of tiny cells that bend in a planned way, so the whole block works like a mechanism
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A single block of 3D-printed grid cells, some stiff and some that can lean over, laid out so that pushing or turning one part makes another part move, like a door handle and latch made from one piece of rubbery plastic
+- **term**: Metamaterial mechanism (shear-cell mechanism with hinge arrays)
+- **aliases**: 
+  - metamaterial mechanism
+  - mechanical metamaterial (the wider family of materials whose behaviour comes from their inner cell structure)
+  - architected material or cellular material
+  - shear cell or shearing cell (the cell type that lets it move)
+  - hinge array (a strip of shear cells acting as one hinge)
+  - cell-based mechanism or single-block mechanism
+  - programmable mechanical metamaterial
+  - digital mechanical metamaterial (versions with bistable spring cells that pass a mechanical signal, e.g. a combination lock)
+  - metamaterial door latch (the best-known example)
+  - compliant rolling-contact architected material (CRAM, a lattice made of rolling-contact joints)
+- **family**: compliant mechanisms & flexures
+- **other_families**: print-in-place & 3D-printing joints, motion conversion, springs & energy storage, locks, latches & catches
+- **one_liner**: A one-piece block made of a regular grid of tiny cells, where rigid cells act as levers and cells that can shear act as hinges and springs, so the whole block works as a mechanism such as a latch, pliers or linkage with no assembly.
+- **complexity**: Single piece: one block of one material built from a grid of cells. Rigid cells have a diagonal brace; shear cells have no brace and are made of small bars joined by tiny living hinges; rows of shear cells form hinge arrays, and blocks of rigid cells form handles, levers and latch bolts (Ion et al. 2016).
+- **how_it_works**: Every cell sits on a square grid. A cell with a diagonal brace keeps its shape, while a shear cell can lean over into a parallelogram because its corners are tiny living hinges; its opposite sides stay parallel as it leans (Ion et al. 2016; Ion et al. 2019). Strips of shear cells (hinge arrays) placed between rigid regions let those regions turn or slide relative to each other, so the block behaves like levers joined by pins, for example a four-bar linkage. In the HPI door latch, turning the handle makes a central hinge array shear and pull the latch bolt inwards, while other cells act as the return springs (Ion et al. 2016).
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: the metamaterial door latch turns the handle's rotation into the latch's sliding motion (HPI)
+  - let it move (turn, slide or bend): hinges, four-bar linkages, pliers and a pantograph made only of cells (Ion et al. 2016)
+  - store energy: some cells act as built-in springs that return the handle and latch (Ion et al. 2016)
+  - lock, and release by hand: the door latch and the 'digital' combination-lock versions (HPI)
+- **motion**: flex: the shear cells lean and their tiny hinges bend, producing a limited turn or short slide of the rigid regions; it cannot produce continuous rotation, so a walker needs a separate axle (Ion et al. 2016)
+- **degrees_of_freedom**: Usually 1 for a finished mechanism (one input movement coupled to one output), but it depends on the cell layout: each shear cell adds freedom that neighbouring rigid cells can remove, and HPI count the freedoms with a constraint graph (Ion et al. 2019). Unwanted soft directions, such as bulging out of plane, have to be blocked with support cells (Ion et al. 2016)
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): the door latch converts handle rotation into latch sliding (Ion et al. 2016)
+  - over-centre (snaps past a point and stays): 'digital' metamaterial cells contain a bistable spring that discharges and triggers its neighbours, used to build logic and a combination lock (Ion et al. 2017, HPI)
+  - none otherwise: most metamaterial mechanisms simply spring back to their rest shape when released
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it is a one-piece mechanism
+  - spring force (a spring or springy part presses it in place): in the door latch, springy cells push the latch bolt out and the handle back (Ion et al. 2016)
+- **input_output**: Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> closing jaws (pliers); one pen's movement -> a copied movement (pantograph). The ratio and path are set by the cell layout. Some input energy goes into bending the hinges and adding cells makes it stiffer, so it needs a noticeable operating force (Ion et al. Back-drivable: yes, it is elastic, but pushing the output along its path does not move the input back along the same path (Ion et al. 2019) *(unverified parts omitted)*
+- **power**: passive (no power needed); even the 'digital' versions are powered only by bistable springs that the user re-cocks (HPI 2017; Hackaday 2017)
+- **removability**: permanent: it is a single piece, so there is nothing to take apart
+- **reuse_cycles**: not applicable for assembly (single piece). As a mechanism it can be worked many times if its hinges stay within their elastic range: HPI ran a TPU (NinjaFlex) Jansen walker about 5000 times with a power drill with no visible fatigue (Ion et al. 2016); stiffer ABS copies cracked quickly (ProfHankD, Printables)
+- **tools_needed**: none (a 3D printer or laser cutter to make it)
+- **seal**: none
+- **load**: light: the demos are printed in soft TPU, and a PLA metamaterial-style pair of pliers is 'only useful for relatively gentle work' and easily broken by too much force (ProfHankD, Printables). Weak out of the plane of the cells, where it can buckle unless supported by extra cells (Ion et al. 2016)
+- **adjustable**: no: behaviour is fixed by the cell layout and material; changing it means redesigning and reprinting
+- **play_and_precision**: Play: none, because it has no pins or sliding parts and moves by bending with virtually no friction (Ion et al. 2016). Precision: modest; HPI's physical test mechanisms followed their simulated paths with a mean error of 8.1% (Ion et al. 2019), and very soft TPU versions flop around under load (ProfHankD). Misalignment: forces in unintended directions and out-of-plane buckling must be resisted by padding cells (Ion et al. 2016)
+- **access_needed**: not applicable
+- **materials**: Flexible TPU filaments (NinjaFlex, SemiFlex) work best among common 3D-printing materials, better than PLA and some photo-curing resins; spring steel would be ideal but cannot be printed; for 2D laser-cut versions 3 mm rubber foam worked best, while ABS sheet and acrylic were not compliant enough (Ion et al. 2016). Laser-cut acrylic links with TPU hinges were used in Ion et al. 2019. PLA can work if stiff and flexible regions are designed so bending does not overstress their joints (ProfHankD HingePliers). Laser-cut PTFE (Teflon) sheet was used for rolling-contact lattices (Nature Communications 2018)
+- **maker_difficulty**: 2016; Ion et al. 2019) *(unverified parts omitted)*
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): one-piece mechanisms in flexible TPU, printed on an Ultimaker 2 in HPI's work (Ion et al. 2016)
+  - laser cut: flat (2D) versions from 3 mm rubber foam (Ion et al. 2016), or acrylic links joined by printed TPU hinges (Ion et al. 2019) *(unverified parts omitted)*
+- **print_in_place**: yes: the whole mechanism prints as one working piece with no assembly (Ion et al. 2016); mechanisms that need continuous rotation, such as a walker, need a separate axle added
+- **making_tips_3d_printing**: Use a flexible, springy filament: HPI printed all their demos in TPU (NinjaFlex) and found TPU works better than PLA or brittle resins, while ABS and acrylic sheet were too stiff (Ion et al. 2016). Shear cells work best when their internal hinges are thin, which needs a printer that can print fine detail reliably (Ion et al. 2016). Do not rely on a single thin hinge between two cells: it rips off easily, so build hinges as arrays of shear cells, and add a border of rigid cells around hinge arrays so all the little hinges share the load (a stretched array without the border broke at its central hinge) (Ion et al. 2016). Add padding cells around the moving part to stop the block buckling out of plane and to resist pushes in the wrong direction (Ion et al. 2016). Only bend the cells as far as they fully spring back: kept within its elastic range, HPI's TPU Jansen walker survived about 5000 cycles (Ion et al. 2016). If you use stiff PLA instead, design stiff regions and a separate springy flexure so bending never loads the joints between them: ProfHankD's PLA HingePliers print without supports in under an hour, use a 0.75 mm gap between the interlocking hinge surfaces, 0.25 mm layers and at least 25% infill, and warn that some slicers can break the thin spring into fragments, while his ABS copy of HPI's cell pattern cracked and his NinjaFlex version was too floppy (Printables 282608 and 282587). *(unverified parts omitted)*
+- **off_the_shelf_parts**: None needed; it is one printed part. Materials to search for: flexible TPU filament (e.g. 2016). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Rigid cells are made rigid by one diagonal brace; a second diagonal is possible but not necessary (Ion et al. 2016)
+  - Shear cells keep opposite edges parallel as they lean, and rigid cells also keep their angles, so a whole mechanism can be analysed by following these two constraints across the grid (Ion et al. 2019)
+  - Build hinges as arrays of shear cells with a border of rigid cells, not as a single thin living hinge (Ion et al. 2016)
+  - More cells make it stiffer, so metamaterial mechanisms are unsuitable for mechanisms that must work with very small forces; they also cannot rotate continuously (Ion et al. 2016)
+  - Keep deformation in the elastic range; a TPU walker ran about 5000 cycles at about 120 rpm without visible fatigue (Ion et al. 2016)
+  - Driving the output along its path does not retrace the input path, and output paths usually have about the same number of inflection points as the input path (Ion et al. 2019)
+  - For stiff PLA designs: 0.75 mm gap between interlocking print-in-place hinge surfaces and at least 25% infill (ProfHankD, HingePliers, Printables)
+
+### When to use it
+
+- **everyday_examples**: 
+  - No common household product yet; the best-known example is HPI's one-piece 3D-printed door handle and latch (Ion et al. 2016; Hackaday 2016)
+  - HPI's one-piece metamaterial pliers, pantograph and walking Jansen linkage (Ion et al. 2016)
+  - A rubber block from a Dutch physics lab that counts to ten, one flipped beam per press (Hackaday 2023)
+  - Auxetic 'rotating squares' pads and sheets that get wider when stretched (a related metamaterial, not a mechanism) (Printables 850437)
+- **when_to_use**: Use a metamaterial mechanism when you want a whole mechanism, such as a latch, gripper, lever pair, linkage or toy, printed as one piece with no assembly, no pins, no lubrication and no play, and when the forces are small to moderate. It suits flexible-filament printing, soft robots and interactive objects, and it is a good way to explore how hinges and linkages behave, especially with HPI's editor (Ion et al. 2016).
+- **when_not_to_use**: Avoid it for continuous rotation (use a shaft and bearing or gears), for heavy loads or anything security-related (use a metal latch or lock), for precise positioning (use a flexure stage or pinned linkage), and for mechanisms that must move with a very light touch, since adding cells makes it stiffer (Ion et al. 2016). If you only need one hinge, a living hinge or flexure hinge is simpler; if you need a springy one-piece tool in PLA, a conventional compliant mechanism with thicker links and one flexure may work better (ProfHankD).
+- **environment_limits**: Thin hinges fatigue if bent beyond the elastic range (Ion et al. 2016). Stiff PLA or ABS versions crack at hinge points if over-flexed (ProfHankD). *(unverified parts omitted)*
+- **safety_notes**: None known for small demos. Do not use a printed plastic latch or combination lock to secure anything valuable; a Hackaday commenter noted a safe is 'perhaps the worst application for plastics' (Hackaday 2017).
+- **common_failures**: A single thin hinge or the central hinge of an array tearing when stretched; fix with hinge arrays and rigid-cell borders (Ion et al. 2016). The block buckling out of plane or moving the wrong way; add padding and support cells (Ion et al. 2016). Stiff materials (ABS, acrylic) cracking or not moving enough, and very soft TPU flopping so the rigid parts are not really rigid (Ion et al. 2016; ProfHankD). Thin hinges printing badly on a low-resolution printer (Ion et al. 2016), or a slicer breaking thin springs into fragments (ProfHankD). The real part moving differently from the simulation, by about 8% on average in HPI's tests (Ion et al. 2019).
+- **related**: 
+  - Compliant mechanism with flexure hinges: the same bend-instead-of-pivot idea, but designed as a few links and flexures rather than a grid of repeated cells
+  - Living hinge: one thin flexing strip; the naive single hinge that metamaterial hinge arrays reinforce (Ion et al. 2016)
+  - Bistable compliant mechanism: a single snap-through part; 'digital' metamaterials chain bistable cells to pass a signal
+  - Compliant gripper and force amplifier: one-piece bending tools like pliers, usually designed from beams rather than cells
+  - Rolling-contact joint: lattices of rolling-contact joints form compliant rolling-contact architected materials with very large, low-stress shape changes (Nature Communications 2018)
+  - Origami mechanisms and kerf bending: other ways of turning a pattern in flat material into a moving mechanism
+  - Auxetic structures: metamaterials that expand sideways when stretched; a material property rather than a mechanism
+  - Lamina emergent torsional (LET) joint: a pattern of cuts in a flat sheet that lets part of it twist out of plane like a hinge
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Metamaterial Mechanisms (Hasso Plattner Institute, HCI Lab)](https://hpi.de/baudisch/projects/metamaterial-mechanisms.html): Project page with pictures of the one-piece door latch, pliers, pantograph and Jansen walker, an explanation of the shear cell, and links to the paper, video, editor, source code and printable files *(licence: link only)*
+  - [Metamaterial Mechanisms (UIST'16) (HassoPlattnerInstitute HCI, YouTube)](https://www.youtube.com/watch?v=lsTiWYSfPck): Research video of the metamaterial mechanisms (title and channel confirmed via YouTube oEmbed; video not watched) *(licence: link only)*
+  - [Metamaterial Mechanisms (Ion et al., UIST 2016, authors' copy PDF)](https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/baudisch/projects/metamaterial/metamaterial-mechanisms/2016UIST_Metamaterial_Mechanisms__authors_copy_.pdf): Paper with diagrams of rigid cells, shear cells, hinge arrays with rigid borders, the door latch before and after turning, and the editor *(licence: link only (ACM copyright))*
+  - [3D Printed Door Latch Has One Moving Part - Itself! (Hackaday, 2016)](https://hackaday.com/2016/09/14/3d-printed-door-latch-has-one-moving-part-itself/): Article with pictures of the TPU door latch and other demos, plus reader discussion of durability and practicality *(licence: link only)*
+  - [Compliant rolling-contact architected materials for shape reconfigurability (Nature Communications, 2018)](https://www.nature.com/articles/s41467-018-07073-5): Open-access paper with figures comparing metamaterial building blocks (sharp-tip hinges, notch flexures, buckled beams, creases) and lattices made of rolling-contact joints, with supplementary movies *(licence: CC BY 4.0)*
+- **make_it_yourself**: 
+  - [HingePliers (a metamaterials experiment) (ProfHankD, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment): One-piece PLA long-nose pliers with a print-in-place hinge and built-in spring, plus notes on why ABS and NinjaFlex copies of HPI's cell pattern failed; print settings included *(licence: CC BY)*
+  - [Mini HingePliers (a metamaterials experiment) (ProfHankD, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/282587-mini-hingepliers-a-metamaterials-experiment): Smaller, beefier one-piece version of the HingePliers; prints without supports *(licence: CC BY)*
+  - [Auxetic structure | Metamaterial (Filip Zitko, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/850437-auxetic-structure-metamaterial): Demonstration samples of an auxetic metamaterial that gets wider when pulled; the star sample needs flexible filament. A related metamaterial rather than a mechanism *(licence: CC BY)* *(unverified parts omitted)*
+- **diagram_idea**: A 5 x 5 grid of square cells in which most cells have a diagonal brace (rigid) and one column has none (shear cells), shown before and after a push: the unbraced column leans into parallelograms and the braced block beside it rotates like a lever about the column, with a second frame showing the door latch layout where a turning handle shears the centre column and pulls the bolt in.
+- **sources**: 
+  - https://hpi.de/baudisch/projects/metamaterial-mechanisms.html
+  - https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/baudisch/projects/metamaterial/metamaterial-mechanisms/2016UIST_Metamaterial_Mechanisms__authors_copy_.pdf
+  - https://hpi.de/baudisch/projects/understanding-metamaterial-mechanisms.html
+  - https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/baudisch/publications/2019CHI_Understanding_Metamaterial_Mechanisms.pdf
+  - https://hpi.de/baudisch/projects/digital-mechanical-metamaterials.html
+  - https://jfrohnhofen.github.io/metamaterial-mechanisms/
+  - https://raw.githubusercontent.com/jfrohnhofen/metamaterial-mechanisms/master/README.md
+  - https://www.youtube.com/watch?v=lsTiWYSfPck
+  - https://hackaday.com/2016/09/14/3d-printed-door-latch-has-one-moving-part-itself/
+  - https://hackaday.com/2017/04/06/3d-printed-key-code-is-plastic-digital-logic/
+  - https://hackaday.com/2023/07/06/this-block-of-rubber-can-count-to-ten/
+  - https://www.thingiverse.com/thing:2082638
+  - https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment
+  - https://www.printables.com/model/282587-mini-hingepliers-a-metamaterials-experiment
+  - https://www.printables.com/model/850437-auxetic-structure-metamaterial
+  - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Mechanical_metamaterial
+  - https://www.nature.com/articles/s41467-018-07073-5
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, make_it_yourself, maker_difficulty, making_tips_3d_printing, off_the_shelf_parts, processes
 
 ## 177 Tape-spring hinge (measuring-tape fold)
 
 *compliant mechanisms & flexures.* A curved metal or plastic strip that folds with a sharp kink and snaps back straight and stiff, like a tape measure, used in deployable booms
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A short piece of curved metal strip, like the blade of a tape measure, used as a hinge: it folds with a sharp kink when pushed, then springs back straight and stiff on its own and stays locked straight
+- **term**: Tape-spring hinge
+- **aliases**: 
+  - tape spring
+  - measuring-tape hinge or carpenter's-tape hinge
+  - tape-spring rolling hinge (TSR hinge, a tape-spring hinge guided by rolling wheels and wires)
+  - self-deploying, self-locking elastic hinge
+  - composite tape-spring hinge (glass, Kevlar or carbon fibre versions)
+  - bistable tape spring (a version that stays either rolled up or straight)
+  - snap bracelet or slap bracelet (the bistable steel-strip toy that uses the same effect)
+  - tape measure antenna (radio antenna elements cut from a tape-measure blade) *(unverified parts omitted)*
+- **family**: compliant mechanisms & flexures
+- **other_families**: hinges & pivots, springs & energy storage, locks, latches & catches
+- **one_liner**: A strip with a curved cross-section, like a tape-measure blade, clamped between two parts so that it folds by buckling into a kink and then unfolds itself and locks straight, giving a hinge with no pin, no friction and no latch.
+- **complexity**: A few parts: one or more short strips of curved tape (steel tape-measure blade, beryllium copper, or glass, Kevlar or carbon-fibre composite) clamped at each end to the two parts being joined. Space hinges often use two tapes with their curves facing opposite ways, sometimes with stacked tapes, and the TSR hinge adds acetal rolling wheels held together by tensioned wires to guide the fold (Watt and Pellegrino 2002).
+- **how_it_works**: The curve across the strip makes it behave like a shallow gutter, which is very stiff against bending while it is straight; this is why an extended tape-measure blade stays rigid (Wikipedia, Tape measure). Bend it hard enough and the middle of the strip flattens and suddenly snaps through, gathering all the bending into a short kink that is flat across and curved along its length with a radius about equal to the tape's original cross-curve radius; once kinked, only a small, nearly constant moment is needed to keep folding (Seffen and Pellegrino 1997). The bent tape stores elastic energy, so when released it unfolds the hinge by itself, and as it comes straight the cross-curve pops back and the hinge locks straight with no latch (Watt and Pellegrino 2002).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): folds up to about 180 degrees by bending, with no pin or rubbing surfaces
+  - store energy: the folded tape stores spring energy that deploys the hinge by itself (Watt and Pellegrino 2002)
+  - lock, and release by hand: it snaps and locks straight on its own, and a firm push past its peak moment buckles it to fold again
+  - join and hold: once straight it holds the two parts in line and carries a small bending load
+- **motion**: flex: folds by forming a local kink; tape-spring hinges have been used to deploy panels through about 180 degrees (Watt and Pellegrino 2002)
+- **degrees_of_freedom**: 1 intended (folding about the kink). When folded the hinge is very floppy in other directions too (very low stiffness in the folded configuration, Watt and Pellegrino 2002); when straight it is stiff in all directions
+- **special_behaviour**: 
+  - over-centre (snaps past a point and stays): once near straight the tape snaps back into its curved section and locks straight without any latch; folding it again needs a push past the peak (buckling) moment (Seffen and Pellegrino 1997)
+  - self-aligning or self-centring: elastic latching gives a highly repeatable, accurate deployed position (Watt and Pellegrino 2002) *(unverified parts omitted)*
+- **holding_principle**: spring force (a spring or springy part presses it in place): the curved section's own stiffness holds the hinge straight, and the stored bending energy drives it there
+- **input_output**: not applicable
+- **power**: passive (no power needed). Space versions are held folded by a restraint and then released, e.g. the ISIS CubeSat antenna uses a thermal knife that burns through a wire (cubesatshop.com); power is only needed for that release device, and once released the tape deploys on its own
+- **removability**: removable: the tapes are clamped or bolted to the parts (e.g. aluminium clamp blocks in the TSR hinge, Watt and Pellegrino 2002) and can be unscrewed
+- **seal**: none
+- **load**: light: it locks strongly for its weight but deploys gently; a 135 mm long TSR hinge with one pair of 25.4 mm wide steel tapes needed only 0.1 to 0.3 N m to deploy but locked against 13 N m (Watt and Pellegrino 2002). Strong along the tape and stiff while straight; it resists bending that puts the tape's edges in tension (opposite-sense bending) better than bending the other way (equal-sense bending), which is softer and buckles sooner into a twisted fold (Seffen and Pellegrino 1997); once folded it carries almost no load
+- **adjustable**: no after assembly; the deployment and locking moments are set by the tape size, the number of stacked tapes (moments rise roughly in proportion) and the spacing between the tapes (Watt and Pellegrino 2002)
+- **play_and_precision**: Play: none; tape-spring hinges have zero friction and backlash. Repeatability: elastic latching gives highly repeatable and accurate positioning (Watt and Pellegrino 2002). Misalignment: tolerates little while folded because it is so floppy, which makes deployment paths uncertain; on latching the panel can rebound and re-buckle the tapes (twice in an undamped test) before finally locking (Watt and Pellegrino 2002)
+- **access_needed**: not applicable: the tape is clamped to both parts before use
+- **materials**: Steel tape-measure blade: the TSR hinge used 'Contractor Grade' steel tape 25.4 mm wide, 0.1 mm thick with a 15 mm cross-curve radius (Watt and Pellegrino 2002). Heat-treated beryllium copper (CuBe) sheet 0.1 mm thick (Seffen and Pellegrino 1997). Fibre composites (glass, Kevlar, carbon) for space hinges and booms (Roccor video; Kwok and Pellegrino). Plastics such as LDPE can form tape springs but relax during storage and deploy slowly (Kwok and Pellegrino). *(unverified parts omitted)*
+- **maker_difficulty**: easy to moderate: cut a strip from an old steel tape measure and clamp its ends to printed, wooden or metal brackets; the tricky parts are covering the razor-sharp cut edges (Naked Scientists), leaving enough free length so the fold does not damage the tape near the clamps (Watt and Pellegrino 2002), and softening the snap on latching
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: a strip cut from a steel tape-measure blade (Watt and Pellegrino 2002; Naked Scientists)
+  - 3D print (FDM): clamps, brackets and couplers that hold tape-measure strips, as in printed tape-measure antenna couplers (Becky Stern, Printables)
+  - CNC: machined clamp blocks (aluminium blocks in the TSR hinge, Watt and Pellegrino 2002)
+  - composite layup: glass, Kevlar or carbon-fibre tape springs for space use (Roccor video) [advanced] *(unverified parts omitted)*
+- **making_tips_3d_printing**: Print the clamps and brackets, not the spring: use a steel tape-measure blade for the tape itself and print blocks that grip each end. Watt and Pellegrino sized their hinge so the tapes would not be damaged during folding, with 88 mm of free tape length for 25.4 mm wide tapes and a smallest workable hinge of 106 x 44 x 21 mm. Clamp two tapes back to back with their curves facing opposite ways so the hinge behaves the same in both fold directions and does not overshoot when it latches (Seffen and Pellegrino 1997). Becky Stern's printed tape-measure antenna couplers were printed at 20% infill (Printables 540996). Avoid printing the spring itself from PLA or other plastics that creep; plastic tape springs lose force during long storage, faster when warm (Kwok and Pellegrino); *(unverified parts omitted)*
+- **off_the_shelf_parts**: 'Roccor (brand)'); CubeSat deployable antenna systems with tape-spring elements (e.g. 'ISISPACE (brand)'); sound-damping tape (e.g. '3M 434 (brand)') to soften latching (Watt and Pellegrino 2002). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - To keep the fold elastic (no permanent kink), the tape's cross-curve radius R divided by its thickness t must be at least E / (yield stress x (1 + Poisson's ratio)); for heat-treated beryllium copper this means R/t of at least 85.6 (Seffen and Pellegrino 1997). For comparison, the steel tape-measure blade used by Watt and Pellegrino (R = 15 mm, t = 0.1 mm) has R/t = 150
+  - The kink's lengthwise radius is about equal to the tape's cross-curve radius R, so the fold is roughly a cylinder of radius R (Seffen and Pellegrino 1997)
+  - Steady folding moment of one tape: (1 + v) x D x a when bent so the edges stretch (opposite sense) and (1 - v) x D x a the other way (equal sense), where D = E t^3 / 12(1 - v^2), v is Poisson's ratio and a is the angle the cross-section subtends in radians; these moments do not depend on tape length (Seffen and Pellegrino 1997)
+  - Steady deployment moment of a hinge with one pair of tapes: M = E t^3 a / (6(1 - v^2)); real hinges give a larger, uneven moment because the tapes touch (Watt and Pellegrino 2002)
+  - Mount tapes in pairs with their curves on opposite sides: this creates an energy well that traps the moving part's energy at lock-out so it does not overshoot (Seffen and Pellegrino 1997)
+  - Stacking two or three tapes raises both the deployment and locking moments roughly in proportion (Watt and Pellegrino 2002)
+  - Damping tape on both sides of each tape cut latching shock about six-fold (150 g to 25 g), better than crushable foam (60 g) (Watt and Pellegrino 2002)
+  - To make a bistable snap bracelet from a tape measure, bend a 15 to 20 cm length around a radius of about 6 to 10 mm until it just starts to deform (Naked Scientists)
+
+### When to use it
+
+- **everyday_examples**: 
+  - A tape measure: the curved steel blade stays rigid when pulled out, a design patented by Hiram Farrand in 1922 (Wikipedia, Tape measure)
+  - Snap (slap) bracelets, made of layered bistable steel bands (Wikipedia, Slap bracelet)
+  - Bicycle trouser clips made from curved spring strip (Naked Scientists)
+  - Tape-measure radio antennas for amateur satellite reception, and tape-spring antennas on CubeSats (Printables 540996; cubesatshop.com ISIS antenna)
+- **when_to_use**: Use a tape-spring hinge when something should fold flat for storage and then open by itself and lock straight with no latch, pin or motor: fold-out antennas, booms, panels, flaps, legs, camera or sensor poles, toys and kinetic art. It is light, cheap, has zero friction and backlash, needs no lubrication, and has no moving parts to jam after long storage (Watt and Pellegrino 2002); because it deploys on its own stored strain energy it needs no motor (Communications Engineering 2024).
+- **when_not_to_use**: Avoid it where the folded part must be held in a controlled position or carry load while folded (it is very floppy when folded; Watt and Pellegrino 2002); use a detent hinge, friction hinge or knuckle hinge instead. Avoid it where a heavy load could buckle it when it should stay straight; add a locking pin or over-centre lock. Avoid it where a sudden snap would be dangerous or damaging, or where the hinge must move slowly and smoothly under control; use a damped or self-closing spring hinge.
+- **environment_limits**: Polymer and composite tape springs relax during storage, so the energy available to deploy drops; deployment slows with longer storage and higher temperature, and in severe cases they stop deploying on their own (Kwok and Pellegrino). *(unverified parts omitted)*
+- **safety_notes**: Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked Scientists), and note that slap bracelets were recalled because the steel band could pierce its cover and cut (Wikipedia, Slap bracelet). A folded tape spring stores energy and snaps open suddenly; latching shocks reached about 150 g on an undamped test hinge (Watt and Pellegrino 2002), so keep faces and fingers clear of larger ones.
+- **common_failures**: Permanent kink or weakened snap when the tape is folded too tightly or overshoots, because it yields (Seffen and Pellegrino 1997); choose a large enough R/t and add end stops. Rebounding and re-buckling instead of locking on the first try; mount tapes in opposed pairs and add damping tape (Seffen and Pellegrino 1997; Watt and Pellegrino 2002). Tapes damaged near the clamps when the free length is too short (Watt and Pellegrino 2002). Loss of deployment force after long storage in plastic or composite tapes (Kwok and Pellegrino). Buckling sideways into a twisted fold when bent the 'wrong' (equal-sense) way (Seffen and Pellegrino 1997).
+- **related**: 
+  - Bistable compliant mechanism: a one-piece part with two resting shapes; a bistable tape spring (snap bracelet) is one kind
+  - Constant-force spring: another curved steel strip, coiled on a drum, that gives a nearly constant pull, used in spring-return reels
+  - Self-closing hinge (spring hinge): a pin hinge with a separate spring; stronger and controllable, but it has friction and parts that can jam
+  - Detent hinge (click hinge): holds several set positions rather than folding flat and snapping straight
+  - Living hinge and flexure hinge: bend instead of pivoting, but do not lock straight on their own
+  - Rolling-contact joint: Watt and Pellegrino's TSR hinge combines tape springs with a wire-wrapped rolling hinge to control the fold
+  - Origami mechanisms and deployable structures: fold patterns that also let flat panels deploy
+  - Over-centre (toggle) lock: a linkage that snaps past centre to lock a hinge straight, with separate parts
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Tape-Spring Rolling Hinges (Watt and Pellegrino, 36th Aerospace Mechanisms Symposium, 2002)](http://www.its.caltech.edu/~sslab/PUBLICATIONS/Tape-spring%20rolling%20hinges%202002.pdf): Photos and drawings of a tape-spring rolling hinge, earlier tape-spring hinge layouts, moment-rotation and deployment graphs, and latching-shock tests *(licence: link only)*
+  - [Deployment of a Rigid Panel by Tape-Springs (Seffen and Pellegrino, Cambridge report CUED/D-STRUCT/TR 168, 1997)](http://www.its.caltech.edu/~sslab/PUBLICATIONS/Deployment%20of%20a%20rigid%20panel%20by%20tape-springs_1997.pdf): Perspective drawings of a tape spring bent both ways, the typical moment-rotation curve with its peak and flat folding moment, and a panel deployed by paired tape springs *(licence: link only)*
+  - [Slapbracelet-example-2018.webm (Wikimedia Commons video)](https://commons.wikimedia.org/wiki/File:Slapbracelet-example-2018.webm): Short video of a snap bracelet snapping from straight to curled, the bistable tape-spring effect *(licence: CC BY 3.0)*
+  - [Roccor Composite Tape Spring Hinges for Spacecraft Deployable Structurues (Roccor, YouTube)](https://www.youtube.com/watch?v=u0His6w7l30): Manufacturer video of composite tape-spring hinges for spacecraft deployables (title and channel confirmed via YouTube oEmbed; video not watched) *(licence: link only)*
+  - [Tape-spring Hinge Mechanism Explained (Firgelli Automations)](https://www.firgelliauto.com/blogs/mechanisms/tape-spring-hinge): Animated side-view diagram of a tape-spring hinge deploying and an interactive calculator of tape radius, arc angle, thickness and tape count (vendor explainer without citations; numbers not used here) *(licence: link only)*
+- **make_it_yourself**: 
+  - [Snap bracelets from tape measures - Bistable structures (The Naked Scientists kitchen-science experiment)](https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures): Step-by-step home experiment turning a piece of old tape measure into a bistable snap bracelet, with a plain explanation of why the curved tape snaps and a safety warning about sharp edges *(licence: link only)*
+  - [Tape Measure Yagi Antenna (Becky Stern, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/540996-tape-measure-yagi-antenna): Printed couplers that clamp tape-measure elements to a PVC mast; a good template for printing clamps that hold tape-spring strips (tutorial linked from the model) *(licence: CC BY-SA)*
+  - [120deg tape measure noaa satellite antenna (killowatt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna): Portable printed antenna mount that holds tape-measure elements for receiving NOAA weather satellites *(licence: CC BY)* *(unverified parts omitted)*
+- **diagram_idea**: Three frames of a curved strip clamped between two blocks: straight with its curved cross-section shown as an inset arc, then flattening in the middle at the peak moment, then folded with a short kink of radius R while the rest stays straight, beside a small moment-versus-angle graph showing the high peak and the low flat folding moment, with an arrow showing the snap back to straight.
+- **sources**: 
+  - http://www.its.caltech.edu/~sslab/PUBLICATIONS/Tape-spring%20rolling%20hinges%202002.pdf
+  - http://www.its.caltech.edu/~sslab/PUBLICATIONS/Deployment%20of%20a%20rigid%20panel%20by%20tape-springs_1997.pdf
+  - http://www.its.caltech.edu/~sslab/PUBLICATIONS/Kwok-and-Pellegrino.pdf
+  - https://en.wikipedia.org/wiki/Tape_measure
+  - https://en.wikipedia.org/wiki/Slap_bracelet
+  - https://commons.wikimedia.org/wiki/File:Slapbracelet-example-2018.webm
+  - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
+  - https://www.cubesatshop.com/product/isis-deployable-antenna-system-for-1u-3u-cubesats/
+  - https://hackaday.com/2022/08/14/just-how-good-is-a-tape-measure-antenna-anyway/
+  - https://www.esa.int/Enabling_Support/Operations/First_MARSIS_boom_successfully_deployed
+  - https://www.youtube.com/watch?v=u0His6w7l30
+  - https://www.firgelliauto.com/blogs/mechanisms/tape-spring-hinge
+  - https://www.nature.com/articles/s44172-024-00163-x
+  - https://www.printables.com/model/540996-tape-measure-yagi-antenna
+  - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, print_in_place, processes, reuse_cycles, special_behaviour, tools_needed
 
 ## 178 Origami mechanisms (waterbomb, Kresling, thick-panel origami)
 
 *compliant mechanisms & flexures.* Fold patterns used as joints so flat sheets or panels fold up, expand or twist in a planned way
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A flat sheet, or a set of flat panels, with a planned pattern of folds so it can fold up small, spring open, or twist and shrink like a paper lantern; the folds themselves act as the joints
+- **term**: Origami mechanism (origami-inspired mechanism), including the waterbomb, Kresling and Miura-ori fold patterns and thick-panel (rigid) origami
+- **aliases**: 
+  - origami-inspired design, origami engineering
+  - rigid origami (flat panels that stay flat and only fold along hinge lines; Wikipedia 'Rigid origami')
+  - thick origami, thick-panel origami (origami redesigned for panels too thick to treat as paper; Morgan et al. 2016; Liu et al. 2021)
+  - Kresling pattern, Kresling-ori, Kresling fold, twist-buckling pattern (named after Biruta Kresling; ORI*lab; Kidambi and Wang 2020); 'Kresling spring' (maker name, 3DPrint.com)
+  - waterbomb base, waterbomb pattern, waterbomb tessellation, six-crease waterbomb (Wikipedia 'Waterbomb base'; Liu et al. 2021)
+  - Miura fold, Miura-ori (Wikipedia 'Miura fold')
+  - Yoshimura pattern (diamond-shaped buckling pattern of a squashed thin cylinder; Wikipedia 'Yoshimura buckling')
+  - square twist and flasher (other named fold patterns used as mechanisms; Morgan et al. 2016; Ye et al. 2023)
+  - print-on-fabric origami, multiplanar origami (3D-printing methods; Printables; BYU CREATE Lab) *(unverified parts omitted)*
+- **family**: compliant mechanisms & flexures
+- **other_families**: hinges & pivots, motion conversion, springs & energy storage, print-in-place & 3D-printing joints
+- **one_liner**: A sheet or set of panels joined along a planned pattern of fold lines, so that it moves in one controlled way: folding flat, expanding, or shortening while it twists.
+- **complexity**: Usually a single piece (one folded sheet) or a small assembly that acts as one unit: flat panels (paper, card, plastic sheet, plywood or printed plates) joined along fold lines. The folds can be thinned creases in the same material (living hinges), a flexible layer such as fabric, nylon mesh, film or TPU that the panels are fixed to, or real hinges between thick panels. Robot versions add something to fold it, such as tendons pulled by a motor, or air or vacuum.
+- **how_it_works**: Each fold line acts as a hinge, and where several folds meet at a point they behave like a small linkage, so the pattern decides how the whole sheet can move (Rigid origami is 'a type of mechanical linkage'; Wikipedia). Some patterns can fold with every panel staying flat, such as the Miura fold, which opens in one motion when you pull two ends apart (Wikipedia 'Miura fold'); others, such as the Kresling pattern, only fold because the panels bend a little, which stores spring energy and can make the tube snap between two stable lengths (bistable) while it twists (Wikipedia 'Miura fold'; Kidambi and Wang 2020). A waterbomb pattern is made from points where six creases meet; in paper it has several ways to move, but its thick-panel version has only one, which makes it easy to drive with a single motor (Liu, Maiolino and You 2021). When the material is thick, the hinge lines are moved to the top or bottom faces of the panels, or the panels are offset, tapered or spaced apart, so thick panels do not collide as they fold (Morgan, Lang, Magleby and Howell 2016).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): panels swing about fold lines so a flat sheet folds up, opens out or changes shape in one planned way
+  - change the kind of motion: a Kresling tube turns a push along its length into a twist, and a twist into a change of length (Kidambi and Wang 2020; ORI*lab)
+  - store energy: bistable patterns such as the Kresling tube or a paper bag snap between two stable shapes and push back like a spring (Wikipedia 'Rigid origami') *(unverified parts omitted)*
+- **motion**: multiple: every fold is a small bend (flex) or pivot (rotate), and together they make the whole sheet fold flat, expand, or shorten while it twists; a single fold can travel through up to 180 degrees from flat to fully folded, and some thick-panel methods keep that full 180 degrees (Morgan et al. 2016)
+- **degrees_of_freedom**: Often 1 by design: a Miura fold opens and closes in one motion (Wikipedia 'Miura fold'), and a thick-panel waterbomb has one degree of freedom while the paper version has several (Liu et al. 2021). A Kresling tube moves mainly along one path, shortening as it twists, but it can also wobble sideways; research models treat it with six degrees of freedom (Kidambi and Wang 2020). Complex paper patterns with many creases can have many degrees of freedom and need guiding.
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): a Kresling tube couples shortening with twisting; ORI*lab describes one form that 'acts like a screw mechanism' and another that gives net-zero rotation during compression
+  - over-centre (snaps past a point and stays): the Kresling pattern can be bistable, resting at two lengths (Kidambi and Wang 2020), and a paper shopping bag snaps into its flat and its open state because its sides bend while folding (Wikipedia 'Rigid origami')
+  - self-locking (holds under load, won't back-drive): only in special designs; two thick-panel Miura sheets stacked into a 'self-locking' unit carried over 11,000 times their own weight (Ye et al. 2023), and printed stoppers or latches can lock a folded shape (Hackaday 2024)
+  - none of the other behaviours: plain fold patterns are free to fold back the way they came
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): the folds are joints that let the sheet move, not fasteners
+  - spring force (a spring or springy part presses it in place): bent panels and creases push bistable patterns such as the Kresling tube into one of their stable shapes (Kidambi and Wang 2020)
+  - material bond (glue, solvent or melting): in printed and thick-panel versions the panels are fused or glued to a shared flexible layer (fabric, nylon mesh or TPU) that forms every hinge (Printables 'Popup print on fabric'; Instructables BYU CREATE Lab; Ye et al. 2023)
+  - shape (the parts interlock; form-fit): self-locking designs add printed stoppers or latches (Hackaday 2024)
+- **input_output**: Mostly used as a joint rather than a transmission. Waterbomb gripper: tendon pull from one motor -> four fingers close together (Liu et al. 2021). Miura sheet: pulling two opposite corners -> the whole sheet unfolds in both directions at once (Wikipedia 'Miura fold'). Liu et al. 2021). *(unverified parts omitted)*
+- **power**: passive (no power needed). Robot versions add power to fold them: a motor pulling tendons (Liu et al. 2021) or vacuum pumped out of an outer skin (Botrić and Gregov 2026). *(unverified parts omitted)*
+- **removability**: permanent: the folds are part of the sheet, so it is not taken apart; the finished folded piece is fixed to other parts with ordinary fasteners. Thick-panel versions built with separate pin hinges can be unpinned.
+- **reuse_cycles**: once (it is one folded piece, not something you take apart). What matters instead is how many times it can fold: paper origami is fragile and fatigues with repeated folding (Liu et al. 2021); 3D-printed thin-plastic living hinges usually last only a few cycles (Hubs); PLA panels wrapped in TPU survived more than 100 fold-unfold cycles without the layers separating (Ye et al. 2023).
+- **tools_needed**: none to fold by hand. Making it: a ruler and a scoring tool or craft knife for card or plastic sheet; a 3D printer for printed versions, plus scissors, binder clips, a nylon mesh or fabric and heat-resistant Kapton tape for print-on-mesh methods (Instructables 'How to 3D Print Multiplanar Origami'); glue and fabric for panels on a fabric hinge layer; small hinges and screws for thick wooden panels.
+- **seal**: none: creases and gaps between panels leak. To make a sealed or airtight version, the fold pattern is put inside a flexible skin, as in vacuum-driven origami grippers with an elastomer membrane (Botrić and Gregov 2026).
+- **load**: light for paper and thin printed sheets: strong in the plane of a panel but weak at the creases. A 22 g TPU thick-panel waterbomb gripper lifted a 524 g mug (10 of 12 tries; Liu et al. 2021); a vacuum-driven paper-and-film waterbomb gripper reached a 70 N holding force (Botrić and Gregov 2026). Medium for engineered thick-panel structures: a stacked self-locking thick-panel Miura unit printed in PLA and TPU carried over 11,000 times its own weight and survived more than 100 cycles of 40% compression (Ye et al. 2023). Weak against loads that push the folds the way they want to fold.
+- **adjustable**: Partly: the fold angle can be set anywhere if friction or a lock holds it, and actuated versions are adjusted by how far the tendon or vacuum pulls. Bistable patterns only rest in their two stable shapes. The pattern itself cannot be changed after making.
+- **play_and_precision**: noticeable: flexible folds let panels shift. The printed TPU waterbomb gripper's fingertips were within 3 mm of the predicted positions, with small differences between opening and closing paths caused by the TPU's elastic hysteresis (Liu et al. 2021). Kresling tubes are sensitive to small changes in geometry and starting position and can wobble off-axis while deploying (Kidambi and Wang 2020). *(unverified parts omitted)*
+- **access_needed**: not applicable
+- **materials**: 2023), or a whole mechanism in 95A TPU with thin folds (Liu et al. 2021). Thick panels can be almost any solid material: one thick-origami sculpture used foam board for moving panels and MDF for the base, and a foldable circuit board used PCB panels and a metal plate (Morgan et al. 2016). For thin printed creases, Hubs recommends nylon or a flexible material such as TPU for the hinge. *(unverified parts omitted)*
+- **maker_difficulty**: moderate: paper and card versions are easy, but printed or thick-panel versions need hinge design (a flexible layer, offsets or gaps so thick panels don't collide), mid-print pauses to lay in mesh or fabric or a two-material printer, and some trial and error
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): print the panels flat onto a fabric or nylon mesh layer laid in during a pause, print thin TPU folds, or print rigid panels wrapped in TPU on a two-material printer (Instructables BYU CREATE Lab; Printables 'Popup print on fabric'; Liu et al. 2021; Ye et al. 2023)
+  - woodwork: thick panels (foam board, MDF, plywood) with hinges placed using the offset-panel method (Morgan et al. 2016)
+  - hand folding: paper, card or plastic film for trying a pattern
+  - off-the-shelf part: not sold as a part; built from sheet, fabric, tape and hinges *(unverified parts omitted)*
+- **print_in_place**: partly: printed origami comes off the bed flat and already joined, with no assembly, but most methods need a fabric or nylon mesh layer laid in during a print pause (and Kapton tape where layers must not fuse), or a two-material printer; a single-material TPU design with thin folds prints fully in place (Liu et al. 2021)
+- **making_tips_3d_printing**: 1) Pick a hinge method. (a) Thin creases in one material: easiest, but Hackaday reports that on complex patterns 'crease lines become weak and overstrained to the point of failure'; Hubs says 3D-printed living hinges usually survive only a few cycles, suggests 0.4-0.6 mm thick with at least two layers, printed as one continuous strand across the hinge, and recommends nylon, or TPU on a two-material printer. (b) A flexible layer inside the print: print two or three layers, pause, lay fabric or nylon mesh flat over the bed and clip it at the corners without stretching it, then keep printing so the next layer bonds through the mesh (Instructables 'How to 3D Print Multiplanar Origami', BYU CREATE Lab, using PLA, 0.2 mm layers and 100% infill because the panels are thin). The 'Popup print on fabric' model uses only four 0.2 mm layers with fabric inserted after the second (Printables). (c) All-TPU: the thick-panel waterbomb gripper was printed in 95A TPU with 10 mm thick panels and folds only 0.2 mm thick and 1-1.2 mm wide, at 0.1 mm layers (Liu et al. 2021). (d) Two materials: wrap rigid PLA panels in TPU rather than just printing TPU on top; the wrapped version folded more than 100 times with no separation while the simply layered one delaminated (Ye et al. 2023). Placing the soft hinge material nearer one face biases that hinge to fold as a mountain or a valley (Hackaday 2024, describing Ye et al.). 2) Stop layers fusing where panels stack on top of each other: lay Kapton tape over those areas during a pause (not over the hinges), keep tape overlaps under a few millimetres and smooth out wrinkles, or print a gap filled with soluble PVA support on a multi-material printer (Instructables). A Kresling tube printed this way needs two mesh layers and one Kapton layer (Instructables). 3) Add the pauses in the slicer (e.g. PrusaSlicer's pause at layer) and make sure the print head is lifted clear and the clips won't hit the printer when it resumes (Instructables). 4) Thick panels need room to fold: put the hinge line on the top or bottom face (axis shift), offset the panels from a shared hinge plane, taper the panel edges, or leave gaps; with panels on a membrane, gaps of at least twice the panel thickness keep the full range of motion (Morgan et al. 2016, Table 1). 5) The simulation tool Origami Simulator can check how a crease pattern folds and export the folded shape as STL or OBJ before you print. 6) Remove Kapton after printing with tweezers or a dental pick, trim excess mesh with scissors or a craft knife, then work the folds gently a few times (Instructables).
+- **off_the_shelf_parts**: Nylon tulle or mesh, or thin woven fabric (for print-on-fabric hinges); polyimide tape, sold as Kapton (brand) tape; PVA soluble support filament; TPU flexible filament (e.g. Shore 95A); binder clips; nylon fishing line as tendons (Liu et al. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Thick-panel waterbomb printed in TPU: fold width about 0.1 times the panel side length and fold thickness about 0.02 times the panel thickness, i.e. 0.2 mm thick and 1-1.2 mm wide folds on 10 mm panels, printed at 0.1 mm layers (Liu, Maiolino and You 2021, Frontiers in Robotics and AI).
+  - Panels mounted on a flexible membrane keep their full range of motion only if the gaps between panels are at least twice the panel thickness (Morgan et al. 2016, Mechanical Sciences 7, Table 1).
+  - Choosing a thick-panel method: the offset-panel technique keeps the paper model's motion and the full 180-degree range but does not unfold flat and may need cutouts; tapered panels keep the motion but limit the range; membrane folds and axis shift keep the range but not the exact motion (Morgan et al. 2016, Table 1).
+  - A waterbomb pattern has several degrees of freedom in paper but only one as thick-panel origami with creases on the top and bottom faces (Liu et al. 2021).
+  - Only rigid-foldable patterns (e.g. Miura fold) work with truly rigid panels; Kresling and Yoshimura patterns need the panels to bend (Wikipedia 'Miura fold').
+  - Print-on-mesh: print 2-3 layers before pausing to lay the mesh, 0.2 mm layers, 100% infill for thin panels, and don't stretch the mesh (BYU CREATE Lab, Instructables).
+  - FDM living hinges: 0.4-0.6 mm thick with at least two layers, nylon recommended, or TPU in a two-material print; expect only a few cycles from simple thin strips (Hubs 'How to design living hinges for 3D printing').
+  - Wrap rigid panels in the soft hinge material instead of printing the soft layer on top: PLA wrapped in TPU survived over 100 fold cycles without debonding (Ye et al. 2023, Nature Communications).
+
+### When to use it
+
+- **everyday_examples**: A paper shopping bag that folds flat and snaps open (Wikipedia 'Rigid origami'), Twisting a paper tube while pushing the ends together makes the diagonal Kresling folds by themselves (ORI*lab) *(unverified parts omitted)*
+- **when_to_use**: Use an origami mechanism when something must pack flat and open out, collapse and expand, or shorten while twisting, all in one planned movement: deployable covers and lampshades, collapsible tubes, bellows, grippers that close around objects, pop-up models, and folding boxes or cases. It is good when you want one printed or cut piece instead of many hinges and pins, when a single motor or pull should drive many joints at once (a one-degree-of-freedom pattern), or when you want a spring that snaps between two shapes (Kresling). Printing a flat sheet that folds into a 3D shape is also much quicker than printing the finished 3D shape (Hackaday 2024).
+- **when_not_to_use**: Avoid it for parts that carry heavy or shock loads, need precise positioning, or must fold thousands of times with thin printed plastic creases (use real pin hinges, a print-in-place hinge or a thick-panel design on metal hinges instead). If you only need one fold, a single living hinge or ordinary hinge is simpler. For something that simply extends in a straight line, a scissor linkage or telescoping tube is easier to design and stiffer. For a pattern that needs bending panels (Kresling), don't use thick rigid panels; choose a rigid-foldable pattern such as the Miura fold instead.
+- **environment_limits**: Printed versions share their plastics' limits: PLA starts to give at about 60 degrees C, PETG at 80 and ASA at 110 (CNC Kitchen oven test), so a PLA mechanism in a hot car or near a lamp can sag. TPU folds show elastic hysteresis, so opening and closing paths differ slightly (Liu et al. 2021). Paper and card fatigue with repeated folding (Liu et al. Thin printed creases fatigue and crack (Hubs; Hackaday 2025). Fabric or mesh hinges are only as good as the plastic's grip on them. *(unverified parts omitted)*
+- **safety_notes**: Few hazards. Laying mesh or tape during a print pause puts your hands close to a hot nozzle and bed; make sure the head has moved clear and clips won't hit the printer when it resumes (Instructables). Trimming mesh and lifting Kapton uses sharp knives and picks. *(unverified parts omitted)*
+- **common_failures**: 1) Thin printed creases crack after a few folds: use a flexible layer (fabric, mesh or TPU) or a nylon or TPU hinge instead of thin PLA (Hackaday 2025; Hubs). 2) The soft hinge layer peels off the rigid panels: wrap the panels in the soft material, or let the plastic bond through the mesh (Ye et al. 2023; Instructables). 3) Thick panels collide and the pattern jams before it folds fully: use the offset-panel, tapered-panel or axis-shift method, or leave gaps of at least twice the thickness (Morgan et al. 2016). 4) Stacked panels fuse together: add Kapton tape or a soluble PVA gap between them, but never over a hinge (Instructables). 5) The print head catches on wrinkled mesh or tape, or on a clip: lay everything flat and watch the first layer after each pause (Instructables). 6) A Kresling tube won't stay in its second shape or deploys crookedly: its bistability and straightness are sensitive to small changes in the crease geometry, so test proportions in paper first (Kidambi and Wang 2020). 7) Positions drift or opening and closing differ slightly: a property of flexible folds (Liu et al. 2021); add stops if exact positions matter.
+- **related**: 
+  - Living hinge: a single thin fold; an origami mechanism is many living hinges arranged in a pattern
+  - Lamina emergent torsional (LET) joint: a cut pattern that lets a flat sheet bend where a crease would be too stiff or weak
+  - Self-folding print (4D printing): printed sheets that fold themselves when heated instead of being folded by hand or a motor
+  - Scissor linkage (lazy tongs): also expands and collapses in one motion, but with pinned bars, which are stiffer and easier to design
+  - Iris mechanism: another way to open and close an aperture by twisting
+  - Bistable compliant mechanism (snap-through): a flexure designed to have two stable positions, like a bistable Kresling tube
+  - Print-in-place hinge: separate pin hinges for thick printed panels
+  - Mechanical metamaterial mechanism (shear-cell hinge arrays): grids of printed cells that bend in planned ways *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Miura-ori.gif (Wikimedia Commons, by MetaNest)](https://commons.wikimedia.org/wiki/File:Miura-ori.gif): Animation of a Miura-ori sheet folding and unfolding in one motion *(licence: CC BY-SA 3.0 or GFDL 1.2+ (dual licensed))*
+  - [I 3D Printed Origami (YouTube, matthew lim)](https://www.youtube.com/watch?v=FNVBK7-h9Fs): 3D-printed folding sheets with thinned creases, why they fail on complex patterns, and offset panels on alternate sides of the folds; twisting cylinders that contract (as described by Hackaday, December 2025); title and channel confirmed via YouTube oEmbed, video not watched *(licence: link only (standard YouTube licence))*
+  - [Towards developing product applications of thick origami using the offset panel technique (Morgan, Lang, Magleby and Howell, Mechanical Sciences 7, 2016)](https://langorigami.com/wp-content/uploads/2016/03/ms-7-69-2016.pdf): Figure 1 compares seven ways to fold thick panels (axis shift, membrane, tapered, offset crease, offset panel and more); photos of a thick-origami kinetic sculpture, foldable circuit board and toolbox *(licence: CC BY 3.0)*
+  - [Multimaterial 3D printed self-locking thick-panel origami metamaterials (Ye et al., Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-37343-w): Photos of FDM-printed thick-panel Miura, Kresling and flasher patterns with rigid panels wrapped in TPU hinges, plus supplementary movies of folding and load tests *(licence: CC BY 4.0)*
+  - [A 3D-Printable Robotic Gripper Based on Thick Panel Origami (Liu, Maiolino and You, Frontiers in Robotics and AI, 2021)](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.730227/full): CAD, photos and figures of a one-piece TPU gripper made of four thick-panel waterbomb units, closed by tendons from one motor *(licence: CC BY)*
+- **make_it_yourself**: 
+  - [How to 3D Print Multiplanar Origami (Instructables, BYU Create Lab)](https://www.instructables.com/How-to-3D-Print-Multiplanar-Origami/): Step-by-step guide to printing origami in stacked planes on an FDM printer: slicer pauses, laying nylon mesh, Kapton tape between layers, trimming and folding; includes the Kresling pattern. Companion video 'How To 3D Print Multiplanar Origami' (YouTube, BYU Create Lab). Read through the Instructables JSON API. *(licence: CC BY-NC 4.0)*
+  - [Multiplanar Kresling Pattern Origami (BYU Create Lab, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1166979-multiplanar-kresling-pattern-origami): Printable Kresling cylinder made in stacked planes, to print with the mesh-and-Kapton method above; also on Thingiverse as thing:6928121 (seen in search results). Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Popup print on fabric Spinning Origami (ateldsign, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/499094-popup-print-on-fabric-spinning-origami): Pop-up spinning origami printed in four 0.2 mm PLA layers with a fabric layer inserted after layer 2 as the hinges; fold along black lines and cut the fabric along red lines. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Origami Simulator (Amanda Ghassaei, with Erik Demaine and others)](https://origamisimulator.org/): Free browser app that folds any crease pattern (SVG or FOLD) at once, with built-in Miura-ori, waterbomb and Huffman waterbomb tessellation examples, strain view, and STL/OBJ export of the folded shape *(licence: MIT (source code, per the project's LICENSE file))*
+- **diagram_idea**: Three small panels side by side: (1) a flat square sheet with its waterbomb crease pattern (mountain folds solid, valley folds dashed) folding into a 3D unit; (2) a Kresling tube shown tall and then short, with a curved arrow showing it twists as it shortens; (3) a cross-section of two thick panels showing why a hinge in the middle jams and how moving the hinge line to one face (or offsetting the panels) lets them fold flat against each other.
+- **sources**: 
+  - https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.730227/full
+  - https://www.nature.com/articles/s41467-023-37343-w
+  - https://langorigami.com/wp-content/uploads/2016/03/ms-7-69-2016.pdf
+  - https://www.instructables.com/How-to-3D-Print-Multiplanar-Origami/
+  - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Miura_fold
+  - https://en.wikipedia.org/wiki/Rigid_origami
+  - https://en.wikipedia.org/wiki/Yoshimura_buckling
+  - https://en.wikipedia.org/wiki/Waterbomb_base
+  - https://arxiv.org/abs/2003.10411
+  - https://orilab.art/natural/kresling
+  - https://hackaday.com/2025/12/21/origami-on-another-level-with-3d-printing/
+  - https://hackaday.com/2024/12/13/origami-inspired-self-locking-structures-with-3d-printing/
+  - https://3dprint.com/322905/3d-printed-origami-by-matthew-lim/
+  - https://www.hubs.com/knowledge-base/how-design-living-hinges-3d-printing/
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13406422/
+  - https://origamisimulator.org/
+  - https://raw.githubusercontent.com/amandaghassaei/OrigamiSimulator/master/LICENSE
+  - https://commons.wikimedia.org/wiki/File:Miura-ori.gif
+  - https://www.youtube.com/watch?v=FNVBK7-h9Fs
+  - https://www.youtube.com/watch?v=9Kdw_rEk18w
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, everyday_examples, input_output, job, materials, off_the_shelf_parts, play_and_precision, power, processes, related, safety_notes
 

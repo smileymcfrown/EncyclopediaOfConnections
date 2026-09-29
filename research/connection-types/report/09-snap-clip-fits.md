@@ -645,17 +645,394 @@
 
 *snap & clip fits.* A small metal or plastic stud that snaps into a socket with a springy ring, as on clothing and bags
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A little round metal or plastic button in two halves that you press together until it clicks, and pull apart to open, like the poppers on a baby's bodysuit or a denim jacket
+- **term**: Snap fastener (press stud)
+- **aliases**: 
+  - press stud, popper, snap, snap button, press button, press fastener, dome fastener (Wikipedia 'Snap fastener')
+  - tich, tich button (British/regional; Wikipedia)
+  - Druckknopf (German)
+  - ring snap, utility snap, line snap, ring-spring snap (heavier snaps whose socket holds a split ring spring; KAMsnaps; YKK)
+  - spring snap, S-spring snap, parallel-spring snap (socket holds two wires kept in place by a small spring; Kat Makes; Rome Fastener)
+  - open-ring snap, prong snap, pronged snap, gripper snap (the cap has pointed prongs that push through the fabric; KAMsnaps; Kat Makes)
+  - sew-on snap (flat snaps stitched on by hand; Kat Makes)
+  - plastic resin snap, KAM snap (KAM is a brand; KAMsnaps)
+  - screw stud, cloth-to-surface snap (a stud that screws into a boat deck or wall so fabric can snap onto it; canvas-boat-cover-and-repair-advisor.com)
+  - DOT Durable, Baby Durable, Line 20 / Line 24 (brand and product-line names from Scovill / DOT, often used as generic sizes)
+  - Lift-the-DOT and Pull-the-DOT (brands): directional locking snaps that only open when lifted or pulled at the marked side (Wikipedia)
+- **family**: snap & clip fits
+- **other_families**: cord, strap, webbing & textile hardware, quick-release & tool-free
+- **one_liner**: A two-part fastener in which a stud with a small knob is pressed into a socket that has a springy ring or wire inside, which grips a groove on the stud and holds the two halves together until they are pulled apart by hand.
+- **complexity**: A few parts: one closure usually has four pieces, a socket and a stud (the working halves) each fixed to the material by an eyelet (post) or a decorative cap (Rome Fastener; Wikipedia gallery 'Rivet snap parts'); the socket contains the spring (a round split-ring spring, a parallel 'S' spring of two wires, or a segmented spring; Rome Fastener). Sew-on snaps are just two flat halves with holes for thread; pronged snaps use a pronged cap or ring instead of an eyelet.
+- **how_it_works**: One half carries a stud with a rounded head and a narrow neck (groove) under it; the other half is a socket with a springy ring or pair of wires just inside its opening (Rome Fastener: 'the spring in the socket grips a groove in the stud to hold both sides together'). Pressing the halves together pushes the spring aside as the head passes, then the spring closes back into the groove, giving the click; a firm pull spreads the spring again and the halves separate (Wikipedia: a lip fits into a groove, 'holding them fast until a certain amount of force is applied'). Ring-spring sockets give a stiff, strong hold for heavy fabric and leather, while spring (S-wire) sockets 'gently hang on to the stud' for a softer action (Kat Makes; KAMsnaps). Directional versions such as Lift-the-DOT lock on three sides and only release when the marked side is lifted (Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds two layers of fabric, leather, canvas or thin sheet together
+  - lock, and release by hand: opened with a pull, no tools; directional types (Lift-the-DOT, Pull-the-DOT) only open when lifted or pulled at the marked side (Wikipedia; Components Direct)
+- **motion**: none: it is a closed fastener, though a round stud in a round socket usually lets the two halves swivel around the stud's axis
+- **degrees_of_freedom**: 0 for most uses (it just holds the two layers together); in practice the snapped halves can usually spin around the stud (1 rotation), because both the stud and the socket are round
+- **special_behaviour**: 
+  - quick-release: pulls apart by hand in a moment, which is why it was used on military and paratroop equipment, holsters and children's clothing (Wikipedia)
+  - hand-release only: directional Lift-the-DOT and Pull-the-DOT snaps lock on three sides and only open when lifted or pulled at the marked side (Wikipedia; canvas-boat-cover-and-repair-advisor.com) *(unverified parts omitted)*
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the head of the stud sits behind the ring or wires in the socket
+  - spring force (a spring or springy part presses it in place): the split ring or S-wire spring in the socket presses into the stud's groove (Rome Fastener)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: the two halves snap apart by hand as often as you like; the halves themselves are set permanently into the material by riveting (rolling or crushing the post), prongs or stitching, so removing a set snap usually destroys it (Rome Fastener; Wikipedia)
+- **reuse_cycles**: effectively unlimited opening and closing for the life of the garment or cover (DOT says Durable fasteners give 'a firm grip that will remain secure through years of use'; Scovill); fitting to the material is once only
+- **tools_needed**: To fit: a setting tool (a punch-like 'setter' and a shaped anvil) plus a hammer or mallet for rivet-style snaps (Wikipedia; Kat Makes), or snap pliers or a bench/hand press (Wikipedia; Scovill); plastic KAM snaps need special pliers or a snap press (Kat Makes); sew-on snaps need only a needle and thread; a hole punch or cutter for heavy canvas unless the snap is self-piercing (DOT Durable is self-piercing; Components Direct). To open: none.
+- **seal**: none: it only holds layers together; water and dust can pass around it
+- **load**: Heavier ring-spring and 'Durable' snaps hold much more than spring or pronged snaps (KAMsnaps; Scovill). No reliable holding-force figures were found; the pull needed to unsnap, both straight out and sideways, is measured with ASTM D4846 'Standard Test Method for Resistance to Unsnapping of Snap Fasteners' (ASTM store page), but results depend on brand, size and fabric. *(unverified parts omitted)*
+- **access_needed**: both sides to fit a rivet-style or pronged snap, because the setter and anvil must be on opposite sides of the material; one side only for a screw stud screwed into a hard surface (canvas-boat-cover-and-repair-advisor.com); one side only to open or close
+- **materials**: Usually brass (often nickel-plated), steel, stainless steel (316 stainless for marine and corrosive use; Components Direct), brass/stainless and brass/plastic combinations, or all plastic (Scovill DOT Durable page; KAMsnaps). Suits fabric, leather, canvas, vinyl and webbing; open-ring (pronged) snaps suit thin and stretchy fabrics but not 'tough, thick or dense material' (KAMsnaps). Screw studs let fabric snap onto fibreglass, wood or metal. 3D-printed snaps work in PLA or PETG (Printables models).
+- **maker_difficulty**: easy: buy a kit with the setting tool and hammer them on, after a test on scrap; printed snaps are also easy but weaker
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the normal choice; metal or plastic snaps set with a hand tool, pliers or press
+  - sewing and leatherwork: sew-on snaps, or rivet-style snaps set through fabric or leather
+  - 3D print (FDM): printed sew-on or snap-together poppers in PLA or PETG (Printables models)
+  - woodwork / boat work: screw studs screwed into hard surfaces
+- **print_in_place**: no: the stud and socket halves are printed as separate parts, then sewn, glued or screwed on and snapped together
+- **making_tips_3d_printing**: 2) Print both halves flat on the bed with no supports; makers report good results at 0.15 mm layers, in PETG with a 0.6 mm nozzle (volly's 'very flat snap fastener' for a wallet, used for two months) or in PLA with 5% infill (nortmann_c's 'Snap Button'), and in PLA without brim for a strap extender (Vik's parametric 10 mm popper extension). 3) Expect the first press to need 'quite some force' (nortmann_c), then the fit eases. 4) Use PETG or another tough material for snaps opened often; *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'snap fastener', 'press stud', 'popper', 'snap button'; by type 'ring socket snap', 'S-spring snap' / 'spring snap', 'open-ring snap' / 'prong snap' / 'gripper snap', 'sew-on snap', 'plastic resin snap' / 'KAM snap', 'magnetic snap'; marine 'screw stud' and 'DOT Durable' / 'Baby Durable' / 'Line 20' / 'Line 24' snaps (brand names used as sizes); directional 'Lift-the-DOT' and 'Pull-the-DOT' (brands). Parts to match: cap (button), socket, stud and eyelet (post) of the same size series. Tools: 'snap setter and anvil', 'snap setting pliers', 'snap hand press' / 'foot press' with dies for the size.
+- **rules_of_thumb**: 
+  - Sizes are given in lignes (lines): 1 ligne = 0.635 mm, so line 14 is about 9 mm, line 16 about 10 mm, line 20 about 12-12.7 mm and line 24 about 15 mm (Ata Buttons size chart; KAMsnaps).
+  - Use line 20 for general use and line 24 for thicker material and heavy-duty use; open-ring (pronged) snaps are for thin material and are 'not suited for tough, thick or dense material' (KAMsnaps).
+  - All four parts (cap, socket, stud, post) must come from the same size series: 'Mixing sizes will cause snap failure' (Ata Buttons size chart).
+  - Choose the eyelet or post length to suit the total material thickness; makers sell 'a range of post lengths to accommodate a variety of material thicknesses' (Rome Fastener; Scovill DOT Durable page).
+  - Stiff ring (utility) snaps on delicate fabric can tear it: 'if you pull on the fabric to un-snap the snap, the fabric will rip before the snap comes apart' - use spring or plastic snaps, or add interfacing, on thin fabrics (Kat Makes).
+  - Add a layer of interfacing behind pronged snaps on delicate fabrics (Kat Makes).
+  - A properly set snap should not spin: 'a snug crimp puts less strain on the snap and the material' (canvas-boat-cover-and-repair-advisor.com).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Poppers on baby bodysuits and children's clothes (Wikipedia; CPSC recall notices)
+  - Pearl snaps on Western shirts and snaps on denim jackets and anoraks (Wikipedia; Kat Makes)
+  - Boat covers, bimini tops and tonneau covers snapped onto screw studs (canvas-boat-cover-and-repair-advisor.com)
+  - The 10 mm stud on an antistatic wrist strap, and snap closures on wallets, bags and holsters (Wikipedia gallery; Printables wallet repair)
+- **when_to_use**: Use press studs when fabric, leather, canvas or thin flexible sheet has to close and open quickly, by hand, many times: clothing, baby clothes, bags, wallets, holsters, covers, straps and pouches. They are fast to open, don't snag (Wikipedia), look neat, and a kit makes them easy for a beginner to fit. Use screw studs to snap fabric onto a boat, wall or other hard surface, and directional Lift-the-DOT or Pull-the-DOT snaps where covers must not pop open in the wind (Wikipedia).
+- **when_not_to_use**: Avoid them for joining rigid parts that carry real loads (use screws, a snap fit designed into the parts, or a latch), for anything that must seal (use a zip with a flap, a roll-top or a gasket), where the fastener will be peeled or tugged often in normal use (it will pop open; use a buckle, hook or zip), and on very thin or delicate fabric with stiff ring snaps (the fabric can tear first; use spring snaps, plastic snaps or sew-on snaps; Kat Makes). For adjustable closures use hook-and-loop fastener or a ladder-lock buckle; for one-handed, blind closing a magnetic snap may be easier.
+- **environment_limits**: Salt water corrodes plated steel and can dull brass: stainless steel 'holds its finish better and is stronger than the brass crimp' (canvas-boat-cover-and-repair-advisor.com), and 316 stainless snaps are made for harsh, corrosive environments (Components Direct). Directional Pull-the-DOT and Lift-the-DOT snaps need lubricating as they age, the latter about twice a year (canvas-boat-cover-and-repair-advisor.com). *(unverified parts omitted)*
+- **safety_notes**: Snaps that come off baby clothes are a choking hazard, and broken ones can expose small sharp prongs: the US CPSC has recalled infant bodysuits because 'the snaps ... can detach and also expose small sharp prongs, posing choking and laceration hazards to young children' (CPSC recall, 5 May 2022). Set snaps firmly, test them, and check baby clothes for loose snaps. Keep fingers clear of the setter when hammering.
+- **common_failures**: The snap pulls out of the fabric or tears it (thin fabric, no interfacing, too stiff a ring snap, or a post too short for the thickness; Kat Makes; Rome Fastener). The snap spins or wobbles because the crimp is loose (canvas-boat-cover-and-repair-advisor.com). It won't close, or pops open, because parts from different size series were mixed (Ata Buttons) or the socket was crushed while setting (spring snaps need a special tool 'to avoid crushing'; Kat Makes). Marine snaps seize or corrode (lubricate and use stainless; canvas-boat-cover-and-repair-advisor.com). People tug on a directional Pull-the-DOT snap from the wrong side and tear the canvas, and the tiny spring in a Lift-the-DOT socket can get sprung so it no longer fits over the stud (canvas-boat-cover-and-repair-advisor.com). On baby clothes, snaps detach (CPSC). *(unverified parts omitted)*
+- **related**: 
+  - Hook-and-loop fastener: grips over an area and is adjustable, but is noisy, collects lint and grips less positively
+  - Basic strap and garment closures (prong buckle, button, toggle and loop): cheaper and sewn, but slower to open and close
+  - Magnet joint (embedded magnets, magnetic catch) and magnetic snaps: close blind and one-handed, but hold less against a direct pull
+  - Annular snap fit: the same bead-and-groove idea moulded or printed into rigid round plastic parts
+  - Cantilever snap fit: a springy hook for joining rigid plastic parts
+  - Side-release buckle: stronger and quick-release for straps and webbing
+  - Spring-gate hook (carabiner, snap hook, lobster clasp): for loops and rings rather than flat layers
+  - Ball detent (spring plunger): a spring-loaded ball in a groove, the same 'spring into a groove' principle used to click parts into positions
+  - Spring-steel push-on fasteners (push nut, speed nut, U-nut): the ball-stud speed clip is a sheet-metal cousin that snaps panels onto a ball stud
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Rivet snap parts.jpg (Wikimedia Commons, Nate Wessel)](https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg): Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud *(licence: CC BY-SA 4.0)*
+  - [Druckknopf.jpg (Wikimedia Commons, Grkauls)](https://commons.wikimedia.org/wiki/File:Druckknopf.jpg): Photo of the two halves of a riveted leather snap fastener, showing the stud and the grooved socket *(licence: Public domain (released by the author))*
+  - [S spring snap.jpg (Wikimedia Commons, Ploytubtum)](https://commons.wikimedia.org/wiki/File:S_spring_snap.jpg): Photo of an S-spring (spring socket) snap fastener *(licence: CC BY-SA 4.0)*
+  - [Sewing snap rivet tools.jpg (Wikimedia Commons, Nate Wessel)](https://commons.wikimedia.org/wiki/File:Sewing_snap_rivet_tools.jpg): Photo of the hand setting tools used to attach rivet snaps to fabric or leather *(licence: CC BY-SA 4.0)*
+  - [Snap Fastener Installation Tool Demo (YouTube, Sailrite)](https://www.youtube.com/watch?v=OlRwHwo6eW8): Video demonstrating how to set snap fastener parts with a hand setter and anvil *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [very flat snap fastener - i.e. for wallets or fabric (volly, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/49554-very-flat-snap-fastener-ie-for-wallets-or-fabric): A printable, very flat sew-on press stud made to repair a wallet; printed in PETG at 0.15 mm layers with a 0.6 mm nozzle; the maker used it for two months *(licence: CC0 / public domain (Printables: Creative Commons Public Domain))*
+  - [Snap Button (nortmann_c, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/120769-snap-button): A printable sew-on snap button for clothes that works like a metal one; prints in PLA at 0.15 mm layers without supports; needs a firm first press *(licence: CC BY-NC-SA)*
+  - [Variable Snap Button Fastener (Deus_Sen, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1392813-variable-snap-button-fastener): A printed snap fastener whose pin has several notches so it can hold materials of different thicknesses; short-pin and long-pin versions; printed in PETG *(licence: CC0 / public domain (Printables: Creative Commons Public Domain))*
+  - [Popper (Snap Fastener) Extension, 10mm Parametric (Vik, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/958317-popper-snap-fastener-extension-10mm-parametric): A printed strip with a 10 mm male snap on one end and a female on the other to lengthen a bag strap; parametric OpenSCAD file; prints in PLA without support *(licence: GNU GPL v3.0)*
+  - [marine snap fastener (SmilingImpact, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/226469-marine-snap-fastener): A 3D-printable snap fastener half designed to connect to real-world marine snap fasteners *(licence: CC BY)*
+- **diagram_idea**: A cut-away side view in three frames: the stud's round head approaching the socket, the split ring (or two S-spring wires) pushed outwards as the head passes, and the ring springing back into the groove under the head, with a small inset showing the four parts (cap, socket, stud, eyelet) clamped on either side of two fabric layers.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Snap_fastener
+  - https://www.romefast.com/Snap-Fastener-Components.asp
+  - https://kamsnaps.com/pages/choosing-the-right-metal-snaps
+  - https://www.katmakes.com/blog/2018/6/28/the-home-sewists-guide-to-baby-snaps
+  - https://www.scovill.com/products/industrial/sporting-goods-industrial/dot-durable/
+  - https://info.components-direct.com/choosing-the-correct-dot-fastener
+  - https://www.atabuttons.com/snap-button-size-chart
+  - https://www.canvas-boat-cover-and-repair-advisor.com/boat-cover-snaps.html
+  - https://store.astm.org/d4846-96r21.html
+  - https://www.cpsc.gov/Recalls/2022/Winter-Water-Factory-Recalls-Infant-French-Terry-Jumpsuits-Rompers-Snap-Suits-Baby-Dresses-and-Bibs-Due-to-Choking-and-Laceration-Hazards
+  - https://commons.wikimedia.org/wiki/Category:Snap_fasteners
+  - https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
+  - https://commons.wikimedia.org/wiki/File:Druckknopf.jpg
+  - https://commons.wikimedia.org/wiki/File:S_spring_snap.jpg
+  - https://commons.wikimedia.org/wiki/File:Sewing_snap_rivet_tools.jpg
+  - https://www.youtube.com/watch?v=OlRwHwo6eW8
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, common_failures, environment_limits, load, making_tips_3d_printing, play_and_precision, special_behaviour
 
 ## 173 Spring-steel push-on fasteners (push nut, speed nut, U-nut)
 
 *snap & clip fits.* Stamped spring-steel clips whose prongs bite onto a plain shaft or screw when pushed on, fast to fit and resistant to shaking loose
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A thin springy steel washer or clip with little teeth that you just push onto a plain rod or a screw; the teeth slide on easily but dig in if anything tries to pull it off or shake it loose, like the cap that keeps a wheel on a toy or lawnmower axle
+- **term**: Spring-steel push-on fastener (push nut, speed nut, U-nut)
+- **aliases**: 
+  - push nut, pushnut, push-on nut, push-on fix, push-on retainer, push-on fixing washer, shaft retaining washer, speed washer (Woodstock Industrial; Fastenright; Jet Press)
+  - Starlock washer (registered brand; the catalogue used here is B&F Fasteners' with Titgemeyer (GTO) part numbers; not to be confused with Bosch's 'Starlock' multi-tool blade mount)
+  - cap push nut, capped pushnut, dome cap, axle cap, top-hat pushnut, spiderfix (Starlock catalogue; Jet Press)
+  - push-on retaining ring, self-locking retaining ring, toothed push-on ring, grooveless retainer ring (Rotor Clip TX/TY/TI rings; Tinnerman 'Grooveless Retainer Rings'; Wikipedia 'Retaining ring')
+  - speed nut, sheet metal nut, spring nut, flat-type speed nut, Tinnerman nut (Tinnerman is a brand; Wikipedia 'Speed nut')
+  - Palnut push-on (brand, ARaymond/Tinnerman)
+  - U-nut, U-clip, spire clip, chimney U-nut; J-nut; clip-on nut (Wikipedia 'Clip-on nut')
+  - tubular speed clip, stud receiver, ball-stud speed clip (Tinnerman catalogue)
+- **family**: snap & clip fits
+- **other_families**: clamping, magnetic & friction connections, one-way & ratchet
+- **one_liner**: Stamped, heat-treated spring-steel clips whose angled teeth or prongs slide over a plain shaft, stud or screw thread when pushed on and then bite into it, holding parts on without cutting a thread or groove and resisting vibration.
+- **complexity**: Single piece: one stamped and heat-treated spring-steel part (sometimes with a pressed-on dome cap of stainless steel, plated steel or nylon; Starlock catalogue). Types: round push nuts with a ring of teeth for plain shafts; toothed push-on retaining rings; flat speed nuts with two prongs that act as one screw thread; U- and J-shaped clip-on nuts that clip over a panel edge; tubular clips that snap into a hole and take a plain stud (Wikipedia 'Speed nut' and 'Clip-on nut'; Tinnerman catalogue).
+- **how_it_works**: The teeth or prongs are bent slightly away from the direction of pushing, and the hole they leave is a little smaller than the shaft, so pushing the clip on bends the teeth outwards and lets it slide; a pull the other way makes the tooth tips dig into the shaft like a barb, so the clip grips harder the more you pull (Woodstock Industrial: the 'sprung teeth deflect as it is pressed onto a plain shaft and bite against the surface, resisting withdrawal'). A speed nut's two prongs act as a single thread on a screw: as the screw tightens, the arched base flattens and forces the prongs inward against the root of the thread, which locks it against vibration (Wikipedia 'Speed nut'; Tinnerman catalogue p. 5, which calls this a double 'inward thread lock plus an arched spring lock'). U- and J-nuts clip over the edge of a panel and hold themselves in place so a screw can be driven from the front without reaching behind (Tinnerman catalogue pp. 10-11).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: keeps a wheel, knob, panel, trim or emblem on a plain shaft or stud, or acts as a nut for a screw
+  - stop it moving back (one-way): push nuts slide on in one direction and resist coming off
+- **motion**: none: it fixes a part in place (a wheel held on an axle by a push nut still turns, but the push nut itself does not move)
+- **degrees_of_freedom**: 0: once pushed or screwed home it blocks movement along the shaft or screw; a round push nut does not stop a part turning on a round shaft
+- **special_behaviour**: 
+  - one-way (moves freely one way, locks the other): push nuts and push-on rings slide on and bite when pulled back (Woodstock Industrial; Rotor Clip)
+  - self-locking (holds under load, won't back-drive): speed nuts resist loosening under vibration through the prong 'thread lock' and the arched 'spring lock' (Tinnerman catalogue p. 5; Wikipedia 'Speed nut')
+  - self-aligning or self-centring: U- and J-type speed nuts 'offer floating alignment' so they tolerate small hole misalignment (Tinnerman catalogue p. 10)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the spring teeth grip the shaft, and a speed nut clamps the panel under screw tension
+  - shape (the parts interlock; form-fit): tooth tips bite into the shaft surface, and speed-nut prongs engage the screw thread
+  - spring force (a spring or springy part presses it in place): the heat-treated spring steel keeps the teeth pressed on and the speed nut's arch loaded (Tinnerman catalogue p. 5)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: push nuts and push-on rings: permanent to semi-permanent: 'once fixed in position, the Starlock push on fastener is so secure that it cannot be removed without destruction' (Starlock catalogue p. 3), and Rotor Clip says removal may deform the ring or shaft so replacement is recommended; speed nuts and U-/J-nuts: removable, unscrewed like a normal nut (Tinnerman catalogue)
+- **reuse_cycles**: once for push nuts and push-on rings (Starlock catalogue; Rotor Clip; McMaster-Carr: 'For one-time use only' for push-on retaining rings); many times for speed nuts and U-nuts, which the maker describes as 'ideal for service locations, reused indefinitely' (Tinnerman catalogue p. 5)
+- **tools_needed**: Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). *(unverified parts omitted)*
+- **seal**: none: they hold parts on but do not seal; capped push nuts only cover the shaft end for looks
+- **load**: light to medium. Push nuts hold against pulling off along the shaft: B&F Starlock rates spring-steel push nuts at about 196 N pull-off on a 3 mm shaft, 392 N on 5 mm, 981 N on 10 mm and 3434-3777 N on 20-25 mm, measured on mild-steel shafts (Starlock catalogue p. 6). Push-on rings suit 'low thrust loads' only (Rotor Clip). Speed nuts are 'light-to-medium duty, built for fast captive retention ... rather than high clamp load' (Eugene Fastener); Tinnerman lists average tensile limits of about 250 lb (1.1 kN) for a #8-32 machine screw and 600 lb (2.7 kN) for a #8 sheet-metal screw (Tinnerman catalogue p. 5). Weak against twisting on round shafts (the push nut can spin) and against prying.
+- **adjustable**: Push nuts: no, the position is set by how far it is pushed and it cannot be backed off; speed nuts: yes, by turning the screw, and a 'Prevailing Torque Fit' version is recommended 'when the fastener is used as an adjustment nut' (Tinnerman catalogue p. 5)
+- **play_and_precision**: U- and J-nuts deliberately float in the panel to absorb hole misalignment (Tinnerman catalogue p. 10). Speed nuts clamp firmly once tightened. *(unverified parts omitted)*
+- **access_needed**: end of a tube or shaft for push nuts and push-on rings (pushed over the shaft end); one side only (blind) for U- and J-nuts and tubular clips once clipped in place: 'Access to opposite side is unnecessary' (Tinnerman catalogue p. 11) and tubular clips suit 'attachments where only one side of an assembly is accessible' (p. 23); both sides for loose flat speed nuts, which you hold behind the panel while driving the screw
+- **materials**: Made from heat-treated high-carbon spring steel with a phosphate, oil, zinc or varnish finish, or stainless steel for corrosion resistance; some in beryllium copper or phosphor bronze (Tinnerman catalogue; Starlock catalogue; Rotor Clip). Push nuts suit plain shafts of steel, non-ferrous metals and plastic (Starlock catalogue p. 4); push-on rings should go on 'unhardened shafts softer than the ring' (McMaster-Carr). Tinnerman's push-ons 'make a positive bite on metal, plastic or wood' (catalogue p. 21). Speed nuts suit sheet-metal (self-tapping) screws and machine screws in sheet metal, plastic or wood panels.
+- **maker_difficulty**: easy: buy the right size and push or screw it on; the main catch is matching the shaft diameter closely (within about ±0.05 mm for small Starlock sizes) or the panel thickness range of a U-nut
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the normal choice; the clips are stamped from spring-steel strip (sheet metal) by fastener makers
+  - 3D print (FDM): print the shaft, stud, boss or panel that the clip fits onto; the clip itself is best bought, although printed plastic replacements of trim push nuts exist
+  - sheet metal: speed nuts and U-/J-nuts on sheet panels *(unverified parts omitted)*
+- **print_in_place**: no: it is a separate metal part pushed or screwed onto the printed or wooden part
+- **making_tips_3d_printing**: 1) Use a metal pin, rod or screw where you can: push-nut pull-off ratings are measured on mild-steel shafts (Starlock catalogue p. 6), and a plastic shaft will give less grip, though Starlock says push nuts can retain plastic shafts (p. 2) Printed shafts must be very close to size: Starlock's metric push nuts assume a shaft within ±0.05 mm up to 16 mm diameter and ±0.1 mm above (p. 6); 4) Seat the push nut squarely with a tube or socket over the shaft, not by hitting its teeth, so it doesn't tilt and bite crooked (Starlock catalogue p. 5) For panels, a flat speed nut on a sheet-metal (self-tapping) screw can replace a heat-set insert in a thin printed flange; U- and J-nuts only fit panels within their stated thickness range, e.g. 0.041-0.051 in for one #6-32 J-nut (Tinnerman catalogue p. 10), so print the flange to that thickness. 6) Don't overtighten a speed nut on plastic: extra torque beyond the recommended value flattens the spring and 'could result in loss of spring tension resiliency' (Tinnerman catalogue p. 5), and it also crushes the print. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search catalogues (McMaster-Carr, Misumi, fastener wholesalers) for: 'push nut' / 'pushnut' (round, capped, dome cap, hex, 'top hat'), 'push-on retaining ring', 'self-locking retaining ring', 'toothed external push-on ring' (Rotor Clip TX, TY; internal TI), 'grooveless retainer ring', 'Starlock washer' (brand), 'axle cap', 'Palnut push-on' (brand); 'speed nut' / 'flat speed nut' / 'Tinnerman nut' (brand), 'spring nut', 'U-nut', 'J-nut', 'spire clip', 'clip-on nut', 'tubular speed clip', 'ball-stud speed clip'. Push nuts are sized by shaft diameter (about 1.5-30 mm or 1/16-1 1/8 in; Starlock catalogue; Fastenright); round push nuts with flexible teeth also press onto threaded rod 'of any pitch' as a light-duty nut or a jam nut (McMaster-Carr); speed nuts by screw size and type (machine screw such as 8-32, or sheet-metal screw such as #8 'A' or 'B'); U- and J-nuts also by panel thickness range. Installation tools: 'push nut installation tool' with a magnetic ferrule sized to the shaft (Starlock catalogue p. 26; McMaster-Carr).
+- **rules_of_thumb**: 
+  - Push nuts: shaft tolerance ±0.05 mm up to 16 mm diameter and ±0.1 mm above; the hole in a metric Starlock is a little smaller than the shaft, e.g. 2.58-2.81 mm for a 3 mm shaft and 9.49-9.74 mm for a 10 mm shaft (B&F Starlock catalogue p. 6).
+  - Typical spring-steel push-nut forces, push-on / pull-off: 3 mm shaft 108 N / 196 N; 5 mm 118 N / 392 N; 8 mm 216 N / 785 N; 10 mm 284 N / 981 N; 12 mm 441 N / 2453 N; 25 mm 559 N / 3777 N. Pull-off figures are 'for guidance only' and based on EN3B bright drawn mild-steel shafts; stainless versions hold somewhat less, e.g. 294 N on 5 mm and 784 N on 10 mm (B&F Starlock catalogue pp. 6 and 10).
+  - Push-on rings are for low thrust loads and unhardened shafts softer than the ring, and are one-time use (Rotor Clip; McMaster-Carr).
+  - Speed nuts: use 1.5 threads of machine screw beyond the prongs, and 2-3 threads of a tapered sheet-metal screw, 'to assure proper grip on the full root diameter' (Tinnerman catalogue p. 5).
+  - Speed nut average installation torque / tensile limit: #6-32 5 in-lb / 150 lb; #8-32 7 in-lb / 250 lb; #10-24 12 in-lb / 350 lb; 1/4-20 30 in-lb / 600 lb; #8 A or B sheet-metal screw 17 in-lb / 600 lb (about 0.8 N·m / 1.1 kN for #8-32). Torque beyond these values 'is excessive and could result in loss of spring tension resiliency' (Tinnerman catalogue p. 5).
+  - Use the recommended minimum clearance holes (e.g. 0.187 in / 4.75 mm for #8 screws) because 'Tinnerman fasteners will withstand greater tensile loads if the screw holes provide minimum clearance'; a thicker speed nut is stronger (Tinnerman catalogue p. 5).
+  - Grooveless retainer rings need 'as little as .032 in' (0.8 mm) of shaft sticking out for full anchor and fit round shapes from 0.046 in to 2.00 in (Tinnerman catalogue p. 22).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The domed caps that keep wheels on lawnmowers, prams, trolleys and toys (Starlock catalogue p. 4)
+  - Clips holding car trim, badges and emblems (Eugene Fastener; Rotor Clip)
+  - U-nuts and speed nuts on appliance, electronics and car body panels (Eugene Fastener; Tinnerman catalogue)
+  - Push-on rings in cordless drills and on steering wheels, and on window-blind shafts (Rotor Clip)
+- **when_to_use**: Use a push nut when you need to keep a wheel, lever, knob, spacer or panel on the end of a plain rod or stud quickly and cheaply, without cutting a thread or a groove, and you won't need to take it apart (toys, carts, furniture, appliances, printed projects with metal pins). Use a speed nut, U-nut or J-nut when you want a nut that won't shake loose, fits sheet metal or thin panels, can be fitted from one side, and costs less than a nut, lock washer and plain washer (Tinnerman catalogue; Wikipedia 'Speed nut').
+- **when_not_to_use**: Avoid push nuts where the part must come off for service (use an E-clip or circlip in a groove, a split pin or a nut), on hardened shafts (the teeth can't bite), on loose or undersized shafts, or where there are strong end loads (use a retaining ring in a groove or a shaft collar). Avoid speed nuts for structural or high-clamp joints: 'For load-rated joints use a standard hex or lock nut' (Eugene Fastener). In soft or thick printed parts where you need many reassemblies, a heat-set insert or captive nut is usually better.
+- **environment_limits**: Plain or varnished spring steel rusts: Starlock's standard varnish 'will not protect against corrosion but is adequate ... in most dry environments' (Starlock catalogue p. 3); use zinc-coated or stainless versions outdoors. Electroplating high-carbon spring steel can cause hydrogen embrittlement (brittle cracking), so makers use mechanical zinc or zinc-flake coatings instead (Starlock catalogue p. 3; Tinnerman catalogue p. 6). Speed nuts resist vibration (Tinnerman catalogue p. 5). *(unverified parts omitted)*
+- **common_failures**: Push nut won't hold: shaft undersized or outside the ±0.05 mm tolerance (Starlock catalogue), shaft too hard for the teeth to bite (McMaster-Carr; Push nut won't come off: by design; cut or pry it off and fit a new one (Starlock; Rotor Clip). Removed push nut re-used and slips: they are single-use (Woodstock Industrial). Speed nut strips or loosens: overtightened past the recommended torque so the spring arch is flattened (Tinnerman catalogue p. 5), wrong screw type, or too few threads through the prongs. U- or J-nut falls off or won't fit: panel thickness outside its range, or a J-nut with a short leg unclipping (Wikipedia 'Clip-on nut': the J-nut 'is free to unclip'). Rust on plain-finish parts outdoors. *(unverified parts omitted)*
+- **related**: 
+  - Retaining ring (circlip, E-clip): sits in a machined groove, so it holds far more end load and can be removed with pliers
+  - Thread-locking hardware (nylon-insert nut, lock washer, split pin): stronger threaded locking for load-bearing joints
+  - Self-tapping screw into plastic (thread-forming screw): cuts its own thread in the part instead of using a sheet-metal nut
+  - Heat-set threaded insert and Captive nut pocket (nut trap): give a full metal thread in 3D prints for repeated reassembly
+  - Blind threaded fixings (rivet nut, well nut): a strong permanent thread in sheet from one side
+  - Self-clinching fastener (press-in nut or stud): pressed permanently into sheet metal
+  - Push-in plastic rivet (fir-tree clip, push rivet): all-plastic push-in fasteners for trim and panels
+  - Internal tube anchors (star nut, expansion plug): a spring-steel star nut uses the same biting-flange idea inside a tube
+  - Snap-lock sheet joint (barbed or spring finger): barbs formed in the sheet itself
+  - Press fit (interference fit) and Tolerance ring: hold by tightness alone without teeth
+  - Press stud (snap fastener, popper): a textile snap; the ball-stud speed clip is its sheet-metal cousin
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Two spire clips.jpg (Wikimedia Commons, Lithopsian)](https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg): Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw *(licence: CC BY-SA 4.0)*
+  - [Tinnerman Parts Catalog (Eaton-era Tinnerman catalogue '383', distributor copy)](https://w5rkl.com/wp-content/uploads/2015/02/Tinnermann-Catelog.pdf): Drawings and 'how to apply' illustrations of flat, twin, J-, U-, push-on, tubular, ball-stud and grooveless-ring spring-steel fasteners, with torque and tensile tables *(licence: link only (manufacturer trade catalogue))*
+  - [Push on fasteners: Starlock catalogue (B&F Fasteners, distributed by VIBA)](https://www.viba.nl/media/files//dw-resources/103682%2020456starlocks_-_metric.pdf): Drawings of uncapped, dome-capped, deep-capped and special Starlock push nuts, installation tools, and size and push-on/pull-off force tables *(licence: link only (manufacturer catalogue; reprinting not permitted))*
+  - [The Ultimate Retaining Ring Guide (Rotor Clip)](https://www.rotorclip.com/wp-content/uploads/2023/03/UltimateRetainingRingGuide.pdf): Photos and drawings of self-locking and push-on retaining rings (TX, TY, TI, SHF), including a TX ring installed on the end of a metal shaft (pp. 31-33) *(licence: link only (manufacturer guide))*
+  - [How To Install Palnut® Push Ons (YouTube, Advance Components)](https://www.youtube.com/watch?v=H52nOSSsEWs): Video showing push-on spring-steel fasteners being installed over plain studs *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Dodge (RAM 2nd gen, others) windshield trim push nut (Maker_of_Toys, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/462378-dodge-ram-2nd-gen-others-windshield-trim-push-nut): A printed plastic replacement for a vehicle trim push nut that goes over a finned (not threaded) stud; shows the limits of printing this kind of part, since the original is a bought fastener *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Two side-by-side cut-aways: left, a round push nut with angled teeth sliding onto a rod (arrow 'pushes on easily') and then biting in when pulled back (arrow 'pull-off blocked'); right, a flat speed nut whose arched base flattens as the screw tightens, squeezing its two prongs into the thread root, with a small inset of a U-nut clipped over a panel edge.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Speed_nut
+  - https://en.wikipedia.org/wiki/Clip-on_nut
+  - https://en.wikipedia.org/wiki/Retaining_ring
+  - https://w5rkl.com/wp-content/uploads/2015/02/Tinnermann-Catelog.pdf
+  - https://www.viba.nl/media/files//dw-resources/103682%2020456starlocks_-_metric.pdf
+  - https://www.rotorclip.com/post/product_type/self-locking-and-push-on-retaining-rings/
+  - https://www.rotorclip.com/block-collections/self-locking-and-push-on-retaining-rings-block-collection/
+  - https://www.rotorclip.com/wp-content/uploads/2023/03/UltimateRetainingRingGuide.pdf
+  - https://www.mcmaster.com/products/metric-push-nuts/
+  - https://www.mcmaster.com/products/push-nuts/
+  - https://www.eugenefast.com/category/products/nuts/speed-nuts/1501
+  - https://www.woodstockindustrial.com/starlock.html
+  - https://www.fastenright.com/general-fixings/starlock-washers/wsr21
+  - https://www.jetpress.com/component-and-fastener-products/fasteners-and-components/threaded-fasteners-and-push-on-fasteners/pushnuts-push-on-fixes
+  - https://www.advancecomponents.com/fasteners/palnut-push-ons/
+  - https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
+  - https://www.youtube.com/watch?v=H52nOSSsEWs
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, making_tips_3d_printing, play_and_precision, processes, safety_notes, tools_needed
 
 ## 259 Retaining ring (circlip, E-clip)
 
 *snap & clip fits.* A springy metal ring that snaps into a groove on a shaft or in a hole to stop parts sliding off
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A springy steel ring with a gap, or a flat E-shaped clip, that snaps into a groove cut round a rod or inside a hole. The part that sticks out of the groove makes a little step that stops a wheel, bearing, gear or pin sliding off
+- **term**: Retaining ring (circlip)
+- **aliases**: 
+  - circlip (from 'circle' + 'clip'), C-clip, snap ring, 'Jesus clip' (slang) (Wikipedia 'Circlip')
+  - external circlip or shaft ring (DIN 471) and internal circlip or bore/housing ring (DIN 472); inch series to ASME B18.27; British BS 3673-4 (Wikipedia 'Retaining ring'; RoyMech circlip index)
+  - Seeger ring or Seeger circlip: today's lug-type ring comes from a 1928 Seeger-Orbis patent (Seeger is a brand, often used as a generic name in Europe) (Wikipedia 'Retaining ring')
+  - E-clip, E-ring, E-type circlip, retaining washer for shafts (DIN 6799; German 'Sicherungsscheibe'); Benzing ring or Benzing washer (after its inventor Hugo Benzing; brand) (Wikipedia 'Circlip' and 'Retaining ring'; Wikimedia Commons 'ARFISA 02 lock washer.svg')
+  - Other shapes a beginner may meet: crescent ring or C-ring, poodle ring or Klip (wide 'ears'), bowed E-ring, bevelled ring, inverted ring, reinforced or heavy-duty ring, interlocking two-piece ring, side-mount ring (Rotor Clip Ultimate Retaining Ring Guide; Wikipedia 'Retaining ring'; McMaster-Carr)
+  - spiral retaining ring or coiled ring, e.g. Spirolox (brand, Smalley) (Wikipedia 'Retaining ring'; Smalley blog)
+  - push-on retaining ring, toothed push-on ring, self-locking ring, grip ring: types that need no groove (Rotor Clip white paper; McMaster-Carr)
+  - Truarc or Waldes Truarc (brand; old US trade name for retaining rings, still used for part numbers) (Rotor Clip part search; Wikimedia Commons 'Internal Snap Ring.jpg')
+- **family**: snap & clip fits
+- **other_families**: hinges & pivots, clamping, magnetic & friction connections
+- **one_liner**: A springy steel ring or clip that snaps into a groove on a shaft or inside a hole, so that the part left sticking out forms a removable shoulder that stops wheels, bearings, gears or pins sliding along or falling out.
+- **complexity**: Single piece: one spring-steel ring. Main shapes: a tapered-section circlip with two lugs with holes for pliers; an E-shaped clip with three prongs that pushes on from the side; a coiled spiral ring with no lugs; and a toothed push-on ring for shafts with no groove (Rotor Clip Ultimate Retaining Ring Guide; Wikipedia 'Retaining ring'). It needs a groove of the right size cut in the shaft or bore (except the push-on and self-locking types), and usually a pair of circlip pliers or an E-clip applicator to fit it.
+- **how_it_works**: The ring is made a little smaller than the groove (for a shaft) or a little larger (for a bore), so you have to spring it open or squeeze it to fit it, and it then snaps back and grips the groove (Wikipedia 'Circlip': sized for an interference fit and 'elastically deformed' to install or remove). The part of the ring that sticks out of the groove acts as a shoulder: anything pushed along the shaft hits the ring, and the ring passes that push into the side wall of the groove (Rotor Clip Ultimate Retaining Ring Guide). The shaft or the retained part can still turn, because the ring only stops movement along the axis (Wikipedia 'Circlip'). A tapered-section circlip gets wider away from the gap, so it stays round and touches the groove nearly all the way round; an E-clip is pushed on from the side and touches the bottom of the groove with its three prongs (Smalley tapered-section blog; Rotor Clip guide p.19).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: stops a part sliding along or off a shaft, or out of a hole, e.g. keeps a wheel on an axle, a bearing in its housing or a pin in a hinge; it can replace a nut on a threaded end, or a cotter pin and washer (Rotor Clip FAQ; Wikipedia 'Circlip')
+  - let it move (turn, slide or bend): the retained wheel, gear or lever can usually still turn on the shaft; the ring only blocks sliding along it (Wikipedia 'Circlip')
+  - tighten and hold tension (bowed and bevelled rings only): they press the parts together to take up end play (the small amount the parts can slide along the shaft) (Rotor Clip white paper)
+  - stop it moving back (one-way) (toothed push-on rings only): they slide onto a plain shaft one way, and their prongs dig in if pushed back (Rotor Clip white paper)
+- **motion**: none along the shaft: it blocks sliding. When it keeps a wheel, pulley or lever on an axle, the joint as a whole is 'rotate' (unlimited turning), because the ring does not stop rotation (Wikipedia 'Circlip').
+- **degrees_of_freedom**: Usually 1 (turning about the shaft is left free) when a ring on each side, or a ring plus a fixed shoulder, traps the part. One ring blocks sliding in one direction only, so a second ring, a step in the shaft or a spacer is needed to stop the other direction. A little end play remains unless a bowed or bevelled ring is used (Rotor Clip white paper).
+- **special_behaviour**: 
+  - none for a plain circlip or E-clip: it is simply a removable shoulder
+  - tensioning (bowed rings): a curved ring is flattened as it goes in and then presses on the part like a spring, taking up end play and reducing rattle and vibration (Rotor Clip white paper p.3; Wikipedia 'Retaining ring')
+  - self-locking (bevelled rings): a ring with a 15° bevelled edge wedges between the sloped groove wall and the part, so it 'cannot back out, even under load' and leaves no play (Rotor Clip white paper p.4)
+  - one-way (toothed push-on and self-locking rings): the prongs dig lightly into a plain shaft, so the ring 'can be moved, therefore, in one direction only' and most must be destroyed to remove them (Rotor Clip white paper p.4)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the ring sits in a groove and blocks the part mechanically; the load goes through the ring into the groove wall (Rotor Clip Ultimate Retaining Ring Guide)
+  - spring force (a spring or springy part presses it in place): the ring's own springiness keeps it seated in the groove; a reinforced E-ring 'grips the groove bottom with 3-5 times the radial force' of a plain E-ring (Rotor Clip white paper p.3)
+  - friction or clamping (force-fit) (push-on and self-locking rings only): with no groove, the ring holds by its prongs biting into, or gripping, a plain shaft (Rotor Clip white paper p.4; Rotor Clip guide p.30)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: circlips with lug holes come off with circlip pliers, E-clips with a screwdriver or applicator, and spiral rings with a flat blade in the removal notch (Wikipedia 'Retaining ring'; Smalley blog). Some types are semi-permanent: lugless tamper-proof rings and most push-on and self-locking rings 'are permanent once installed and can not be easily removed' (Rotor Clip guide pp.16, 30).
+- **reuse_cycles**: a few times. Sources differ: Wikipedia calls retaining rings 'for one time use only', while Smalley says spiral rings 'can often be reused' depending on how hard they were stretched, if inspected first and replaced when bent, and that small rings with no removal notch are destroyed on removal (Wikipedia 'Retaining ring'; Smalley 'Ask the Expert' blog). An over-stretched ring stays open and no longer grips the groove (Rotor Clip FAQ).
+- **tools_needed**: Circlip pliers (also called snap-ring or retaining-ring pliers) whose tips fit the lug holes: external pliers open the ring, internal pliers close it; Smalley recommends pliers to DIN 5254 (external) and DIN 5256 (internal) with a stop screw so you can't over-stretch the ring (Smalley tapered-section blog; Wikipedia 'Circlip'). E-clips have no holes and are pushed on with an applicator, or with ordinary pliers in the field, and levered off with a flat screwdriver (Rotor Clip guide p.26; Wikipedia 'Circlip'). Spiral rings go in by hand and come out with a screwdriver (Smalley blog). Push-on rings are pushed on with a simple tube (Rotor Clip guide p.35). Wear safety glasses (Rotor Clip FAQ). Cutting the groove needs a lathe with a grooving tool, unless you buy grooved shafting.
+- **seal**: none: there is a gap in the ring and it is not meant to seal.
+- **load**: Medium to heavy along the shaft (thrust); it carries no sideways or twisting load, which the shaft and bore take. Example metric external circlips (DIN 471, first-estimate figures, RoyMech): 10 mm shaft: ring 4.0 kN, groove 1.0 kN; 20 mm shaft: ring 17.1 kN, groove 5.0 kN. The groove figures assume a groove material yield strength of 200 N/mm² and a sharp-cornered retained part, with no safety factor. Large rings take far more: Rotor Clip makes rings for thrust loads 'well in excess of 260,000 lbs' (Rotor Clip FAQ). E-clips and other side-fitted rings wrap less of the groove and 'accommodate less force' than lug-type circlips (Rotor Clip guide p.17). The capacity drops sharply if the retained part has a chamfer or rounded corner where it touches the ring (Rotor Clip white paper p.2).
+- **adjustable**: no for standard rings: the groove fixes the position (gm0: unlike shaft collars, retaining rings 'cannot be moved along the shaft'). Bowed rings take up small variations in part length on their own; a 'grip ring' can be moved along a plain shaft with pliers and re-used (Rotor Clip white paper). Thin shim washers can take up end play.
+- **play_and_precision**: Small but noticeable end play with a standard ring: the groove is slightly wider than the ring (e.g. DIN 471 for a 10 mm shaft: 1.00 mm ring in a groove at least 1.10 mm wide; RoyMech), and the retained parts' tolerances add up. Bowed rings take up the play with spring force, and bevelled rings take it up rigidly (Rotor Clip white paper). The ring locates only along the shaft, so it does nothing for sideways or angular alignment. The groove walls should be square to the axis and the depth kept to specification (Rotor Clip white paper).
+- **access_needed**: end of a tube or shaft for lug-type circlips and spiral rings, which slide over the end of the shaft or into the mouth of the bore. E-clips and other side-mount rings go on from the side, so they only need side access to the groove: McMaster lists side-mount rings for 'when you can't access the ends of a shaft' (McMaster-Carr retaining rings). Leave room for the pliers.
+- **materials**: Usually carbon spring steel (SAE 1060-1090), with stainless steel (e.g. PH 15-7Mo, 17-7, 302, 420) and beryllium copper for corrosion, heat or non-magnetic, electrically conductive uses (Rotor Clip guide p.37; Smalley standard materials). Finishes include oil, phosphate, zinc plating with chromate, and passivation (Wikipedia 'Retaining ring'). The grooved shaft or housing is normally metal (steel, stainless, aluminium, brass). A groove in a plastic or 3D-printed part holds much less, because the groove's capacity is proportional to the groove material's yield strength (Rotor Clip load formula; RoyMech notes), so use it only for light loads. Push-on and grip rings need soft, unhardened shafts (Rotor Clip white paper; Rotor Clip guide p.34). *(unverified parts omitted)*
+- **maker_difficulty**: easy to moderate: easy when you buy grooved shafts or pins and an assortment of circlips with a pair of pliers (gm0: robotics teams buy goBILDA shafting with an E-clip already fitted); moderate when you have to cut your own groove, which needs a lathe and the groove diameter and width from the ring's standard (Rotor Clip white paper; RoyMech).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the rings are always bought (stamped from strip or coiled from flat wire) (Rotor Clip)
+  - CNC: the groove is cut on a lathe (or CNC lathe) with a grooving or parting tool; bores need an internal grooving tool
+  - 3D print (FDM): a groove can be printed into a shaft, pin or bore for a metal E-clip or circlip in a lightly loaded part, and simple circlips and E-clips can be printed in plastic (Printables DIN 471 and DIN 6799 models; plusAlpha Designs video)
+- **print_in_place**: no: the ring is a separate part. A metal ring is fitted into a printed groove after printing, and printed clips are printed flat on their own and snapped on afterwards.
+- **making_tips_3d_printing**: 1) Two approaches: fit a real steel circlip or E-clip into a groove designed into the print (best), or print the clip itself for light, low-value jobs. Printables has ready-made printable DIN 471 (shaft) and DIN 472 (bore) circlip sets and a parametric Fusion 360 DIN 6799 E-clip whose inner and outer diameters, width and thickness you set yourself (Printables models by JBoe and St. Luck). 2) Size the groove from the standard's table, not by guesswork: e.g. for a 10 mm shaft (DIN 471) the groove is 9.6 mm in diameter and at least 1.10 mm wide for a 1.00 mm ring (RoyMech). Then add your printer's clearance: an Original Prusa is 'accurate to at least 0.2 mm' and Prusa suggests starting at 0.3 mm for parts that must move (Prusa knowledge base). 3) Keep the groove at least three groove-depths from the end of the shaft or bore (Rotor Clip edge-margin rule; 4) Orientation: 'like wood, FFF prints are stronger in one direction than another' (Prusa). A shaft printed standing up has its groove wall held only by layer bonding, so an axial load tries to split the layers there. 6) Printed clips: JBoe recommends PLA, PETG or ABS/ASA, 0.1-0.2 mm layers, 100% infill, 3 perimeters, no supports (Printables DIN 471 model). Print them flat so that the ring bends within its layers. Plastic is far less springy than spring steel, so a printed clip grips its groove weakly and PLA ones may crack when spread open; 7) Under a constant push, a plastic groove wall slowly creeps and the ring can walk out; for real loads use a metal shaft with a machined groove, or pick a joint designed for plastic, such as an annular snap fit or a snap pin (see Related). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search catalogues for: 'external circlip DIN 471' or 'external retaining ring' (shafts); 'internal circlip DIN 472' or 'internal retaining ring' (bores); 'E-clip DIN 6799', 'E-ring' or 'retaining washer'; 'spiral retaining ring' (Spirolox, brand); 'push-on retaining ring', 'self-locking retaining ring' or 'grip ring' (no groove needed); 'bowed E-ring' and 'bevelled retaining ring' (take up end play); 'crescent ring', 'poodle ring', 'interlocking ring' and 'high-load' or 'reinforced' rings (e.g. Rotor Clip SHR) (Rotor Clip guide; McMaster-Carr; Wikipedia 'Retaining ring'). Inch sizes follow ASME B18.27 and often use Truarc-style part numbers (Wikipedia; Rotor Clip). Cheap metric circlip and E-clip assortment boxes are sold by general hardware suppliers. Tools: 'internal circlip pliers', 'external circlip pliers', 'convertible circlip pliers' (DIN 5254 / DIN 5256 types with a stop screw, Smalley), 'E-clip applicator' and dispenser (Rotor Clip). For chamfered parts, a 'support washer DIN 988' behind the ring restores its grip (Smalley external circlip installation guide). Ready-grooved shafting and pins are sold for robotics (e.g. goBILDA REX shafting with E-clip, brand, via gm0).
+- **rules_of_thumb**: 
+  - Edge margin: put the groove at least 3 × the groove depth from the end of the shaft or bore; then the groove will take the ring's full rated load (Rotor Clip 'Ultimate Retaining Ring Guide', p.63: 'When y/d > 3, the groove will withstand the maximum thrust load'). RoyMech's DIN 471 table uses the same ratio (e.g. 10 mm shaft: groove depth t = 0.2 mm, minimum edge distance n = 0.6 mm).
+  - Groove size examples, DIN 471 external circlips (RoyMech): 3 mm shaft: ring 0.40 mm thick, groove Ø2.8 mm × 0.50 mm wide; 8 mm shaft: ring 0.80 mm, groove Ø7.6 mm × 0.90 mm; 10 mm shaft: ring 1.00 mm, groove Ø9.6 mm (-0.11 mm) × 1.10 mm; 20 mm shaft: ring 1.20 mm, groove Ø19.0 mm × 1.30 mm. So the groove is about 0.1 mm wider than the ring thickness.
+  - The groove is usually the weak link: for a 10 mm DIN 471 ring RoyMech gives 1.0 kN for the groove against 4.0 kN for the ring, and for 20 mm, 5.0 kN against 17.1 kN, assuming a groove material yield strength of 200 N/mm², sharp corners and no safety factor (RoyMech notes). Rotor Clip's groove formula is proportional to the groove material's yield strength (Pg = Gf·Ds·d·π·σy / (K1·Fs)), so a softer groove material holds proportionally less (Rotor Clip guide p.63).
+  - Give the ring a sharp-cornered part to push against: a chamfer or radius on the retained part levers the ring out of its groove and 'compromise[s] thrust capacity'. Use a reinforced ring or a DIN 988 support washer in that case (Rotor Clip white paper pp.1-2; Smalley external circlip installation guide).
+  - Don't over-stretch external rings: Rotor Clip suggests setting the pliers' stop by opening the ring over a pin gauge 1% larger than the shaft diameter, wearing safety goggles (Rotor Clip FAQ).
+  - Choose side-fitted E-clips for light thrust loads and big shoulders, and lug-type circlips for high thrust. If an E-clip flies off at speed or in vibration, the reinforced E-ring fits the same groove (Rotor Clip guide pp.17, 20; Rotor Clip FAQ). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - The ring that holds the single sprocket on a bicycle's rear hub (Wikipedia 'Circlip' diagram)
+  - The clips that stop the rotating cutters of a paper shredder walking off their shaft (Rotor Clip guide p.18)
+  - The E-clip on the end of a robot-kit or toy axle, or on the shaft of a window blind (gm0; Rotor Clip guide p.31) *(unverified parts omitted)*
+- **when_to_use**: Use a retaining ring when you need a cheap, compact, removable 'step' on a round shaft or in a round hole: to stop a wheel, pulley, gear or lever sliding off an axle, to hold a bearing in its housing, or to stop a hinge or clevis pin falling out. It takes up far less room than a nut on a threaded end or a pinned collar, needs only a simple groove, and 'will not require periodic re-torquing as a nut and bolt might' (Rotor Clip FAQ). E-clips suit small shafts where you can reach the groove from the side, lug-type circlips suit heavier thrust loads, and spiral rings suit places where lugs would get in the way or you want 360° contact (Rotor Clip guide; Smalley blog). Use bowed rings when parts must be held without rattle (Rotor Clip white paper).
+- **when_not_to_use**: Don't use one when the part must be set at any position along the shaft: use a shaft collar with a set screw or clamp instead (gm0). Avoid it when you can't cut an accurate groove (e.g. a hardened shaft or thin tube): use a push-on ring on soft shafts, or a collar (Rotor Clip white paper). Don't rely on a plastic groove for real loads: in 3D prints an annular snap fit, a snap pin or a screw with a washer into a heat-set insert is often easier. Don't use it when the parts must be clamped tight with no play: use a nut, or a bowed or bevelled ring (Rotor Clip white paper). Don't use it where the joint must come apart often without tools: use a hitch pin and R-clip or a quick-release pin. For very high speed or heavy vibration, plain E-clips can come off; use reinforced E-rings, interlocking rings or lug-type circlips (Rotor Clip FAQ; Rotor Clip guide p.23).
+- **environment_limits**: Plain carbon spring steel rusts: Smalley says it 'is suited for use in a protected environment, as it corrodes if not oiled and sealed from the elements'; use zinc-plated or stainless rings outdoors and beryllium copper in sea water (Smalley standard materials; Rotor Clip guide p.37). Heat: stainless 17-7 keeps its spring properties up to 650 °F (about 340 °C) (Smalley), and Rotor Clip's PH 15-7Mo stainless has the 'highest temperature limit of standard materials (900° F)' (about 480 °C) (Rotor Clip guide p.37). In practice the plastic or aluminium part will fail long before the ring does. Vibration and high speed can shake plain E-clips out of their grooves (Rotor Clip FAQ). *(unverified parts omitted)*
+- **safety_notes**: The ring stores spring energy while you spread or squeeze it and can fly off the pliers at high speed; Smalley calls this 'a safety hazard' and Rotor Clip says to use 'safety goggles' (Smalley blog; Rotor Clip FAQ). Stamped rings have sharp, burred edges (Wikipedia 'Circlip'). If a ring holding a wheel, pedal or brake part comes out in use, the part can fall off, so check that it is fully seated in the groove. *(unverified parts omitted)*
+- **common_failures**: 1) Ring pops out under load: rings 'most often fail due to deflection', especially when the retained part has a chamfer or rounded edge that levers the ring out of the groove (Rotor Clip white paper). Use a sharp-cornered part, a support washer or a reinforced ring. 2) Groove lip shears off or the groove wall squashes: the groove is too close to the end, or the groove material is too soft (Rotor Clip edge-margin rule; RoyMech). 3) Ring loose in its groove after fitting: it was over-stretched or over-squeezed during fitting and has taken a permanent set (Smalley external circlip installation guide; Rotor Clip FAQ). Use pliers with a stop and fit a new ring. 4) Stamped ring fitted the wrong way round, so its square edge rides up the groove edge and springs out (Wikipedia 'Circlip'). 5) E-clip comes off at speed or in vibration (Rotor Clip FAQ). 6) Wrong groove size: too shallow a groove leaves too little grip; too wide a groove gives play (Rotor Clip white paper; RoyMech). 7) Rusted rings snap or seize (Smalley). 8) The ring flies off and is lost while being fitted (Smalley blog).
+- **related**: 
+  - Annular snap fit: a ring-shaped bump and groove moulded or printed into the parts themselves, with no separate clip; better for plastic-only parts
+  - Snap pin (split-leg push-in pin, rabbit clip): a printed or plastic pin with springy barbed legs that clips into a hole; the 3D-printing way to retain a pivot
+  - Spring-steel push-on fasteners (push nut, speed nut): push-on rings are the same idea; they grip a plain shaft with no groove but are hard to remove
+  - Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub): a set-screw or clamp shaft collar can be placed anywhere along the shaft, but can slip
+  - Thread-locking hardware (nylon-insert nut, lock washer, split pin): a split pin through a cross-hole in a shaft or clevis pin does the same job without a groove
+  - Tool-free fasteners (thumbscrew, wing nut, hitch pin and R-clip): an R-clip in a cross-hole is the tool-free way to keep a pin in
+  - Quick-release pin (ball-lock pin): a pin held by spring balls that comes out by pressing a button
+  - Wave and disc springs (compact axial springs): often used under a retaining ring to preload a bearing, as bowed rings do
+  - Ordinary screw joint (bolt and nut, machine screw): a nut on a threaded shaft end also retains parts, but is bulkier and can loosen
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Sicherungsring auf Welle mit Wellennut.png (HobbyAstronaut, Wikimedia Commons, 2023)](https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png): Simple drawing of a circlip on a shaft next to the shaft's groove: what a retaining ring and its groove look like *(licence: CC0 1.0 (public domain dedication))*
+  - [Axial Rings.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Axial_Rings.jpg): A collection of the most common axially fitted retaining rings (internal and external circlips with lug holes, inverted, bowed and other types) *(licence: Public domain (marked on Commons as ineligible for copyright))*
+  - [Internal Snap Ring.jpg (AZTommy, Wikimedia Commons, 2017)](https://commons.wikimedia.org/wiki/File:Internal_Snap_Ring.jpg): Cross-section diagram of how to orient a stamped internal snap ring in its groove (rounded and sharp edges) *(licence: CC BY-SA 4.0)*
+  - [Snapring or circlip extraction from bicycle hub.svg (Seans Potato Business, Wikimedia Commons, 2007)](https://commons.wikimedia.org/wiki/File:Snapring_or_circlip_extraction_from_bicycle_hub.svg): Diagram of levering a circlip off a bicycle rear hub, where it holds a single sprocket, with a flat screwdriver *(licence: GFDL 1.2 or CC BY-SA 4.0/3.0/2.5/2.0/1.0 (multi-licensed))*
+  - [Snap Ring, Circlip, C-Clip, Retaining Ring Pliers - The Basics (KC Tool, YouTube; title confirmed via oEmbed, not watched)](https://m.youtube.com/watch?v=yeIKHEYoSfA): Video introduction to internal and external retaining rings and the pliers used to fit and remove them *(licence: link only (YouTube))*
+- **make_it_yourself**: 
+  - [Circlip DIN 471 - various sizes (JBoe, Printables; URL from search results, page not opened; details read through the Printables API)](https://www.printables.com/model/1209954-circlip-din-471-various-sizes): Printable external circlips to DIN 471 for 3-70 mm shafts, with suggested print settings (PLA/PETG/ABS/ASA, 100% infill, no supports); the same author has DIN 472 internal and Seeger AK/JK sets *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Parametric Circlip / Retaining Clip DIN 6799 (St. Luck, Printables; URL from search results, page not opened; details read through the Printables API)](https://www.printables.com/model/1096141-parametric-circlip-retaining-clip-din-6799): Parametric Fusion 360 model of a DIN 6799 E-clip: change the inner and outer diameters, width and thickness to suit your shaft; STL examples of common sizes included *(licence: CC BY (Creative Commons Attribution))*
+  - [3D Print Design Concept: Snap Ring & Bore (Fusion 360) (plusAlpha Designs, YouTube; title confirmed via oEmbed, not watched)](https://www.youtube.com/watch?v=sv_xUyv75G4): Video on designing a snap-ring groove in a bore for a 3D-printed part in Fusion 360 *(licence: link only (YouTube))* *(unverified parts omitted)*
+- **diagram_idea**: A side view of a shaft passing through a wheel: a groove cut round the shaft, a circlip springing open over the shaft end and snapping into the groove, and an arrow showing the wheel's push going through the ring into the groove wall, with a small inset of an E-clip being pushed into the groove from the side.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Circlip
+  - https://en.wikipedia.org/wiki/Retaining_ring
+  - https://www.rotorclip.com/wp-content/uploads/2023/03/UltimateRetainingRingGuide.pdf
+  - https://www.rotorclip.com/wp-content/uploads/2023/03/whitepaper_ring_selection_rotor_clip.pdf
+  - https://www.rotorclip.com/retaining-rings/retaining-rings-faqs/
+  - https://www.rotorclip.com/post/radial-retaining-rings-e-clips-c-clips-and-more/
+  - https://www.smalley.com/sites/default/files/pdf/2021_Circlip_Installation_External_Final.pdf
+  - https://www.smalley.com/blog/tapered-section-retaining-ring-circlip-what-it-advantages-and-installationremoval
+  - https://www.smalley.com/blog/smalley-spirolox-retaining-ring-vs-stamped-circlip
+  - https://www.smalley.com/blog/ask-expert-part-number-issues-and-spirolox-retaining-ring-reusability-0
+  - https://www.smalley.com/blog/ask-expert-installing-retaining-rings-and-laminar-seal-ring-application
+  - https://www.smalley.com/materials/standard
+  - https://roymech.org/Useful_Tables/Circlips/Circlips_External.html
+  - https://roymech.org/Useful_Tables/Circlips/index.html
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html
+  - https://www.mcmaster.com/products/retaining-rings/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://commons.wikimedia.org/wiki/Category:Circlips
+  - https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png
+  - https://commons.wikimedia.org/wiki/File:Axial_Rings.jpg
+  - https://commons.wikimedia.org/wiki/File:Internal_Snap_Ring.jpg
+  - https://commons.wikimedia.org/wiki/File:Snapring_or_circlip_extraction_from_bicycle_hub.svg
+  - https://commons.wikimedia.org/wiki/File:ARFISA_02_lock_washer.svg
+  - https://api.printables.com/graphql/ (models 1209954 and 1096141)
+  - https://www.youtube.com/oembed (titles of yeIKHEYoSfA and sv_xUyv75G4)
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, materials, rules_of_thumb, safety_notes
 

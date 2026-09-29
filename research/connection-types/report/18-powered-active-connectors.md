@@ -1076,17 +1076,430 @@
 
 *powered & active connectors.* A coil that pulls two plates together to connect a drive when powered and lets them separate when switched off
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A switch-on connector for spinning parts: an electric coil pulls a plate against a spinning disc so the drive is connected while the power is on, and springs pull them apart when the power is switched off
+- **term**: Electromagnetic clutch (electrically actuated friction clutch; most commonly the single-face friction-plate type)
+- **aliases**: 
+  - electric clutch / EM clutch / magnetic clutch (loose everyday name)
+  - electro-mechanical clutch (older name, Wikipedia)
+  - power-on clutch (catalogue term for a clutch that engages when powered)
+  - single-face clutch / friction-plate clutch (the common type; about 90% of sales, Wikipedia)
+  - AC compressor clutch / A/C clutch (car air conditioning)
+  - electric PTO clutch / PTO clutch-brake / blade engagement clutch (ride-on lawn mowers)
+  - micro clutch / paper feed clutch (printers and copiers)
+  - clutch-brake / clutch/brake unit (clutch and brake combined in one unit)
+  - variants: electromagnetic tooth clutch, multiple-disc clutch, magnetic particle clutch, hysteresis clutch
+  - brand examples a beginner may meet: Ogura (brand), Warner Electric (brand), Miki Pulley (brand)
+- **family**: powered & active connectors
+- **other_families**: clutches & couplings, torque limiting & slip
+- **one_liner**: A drive connector that joins a spinning input to an output only while its coil is powered, by magnetically clamping a steel plate (armature) against a spinning face (rotor), and lets them separate the moment the current stops.
+- **complexity**: A small assembly that acts as one unit. Clutch: coil in a steel shell (the field), rotor fixed to the always-turning input, armature plate, hub or output part (pulley, gear or shaft), return springs, and bearings or bushings (Wikipedia 'Electromagnetic clutches and brakes' names four main parts: field, rotor, armature and hub). Plus a DC supply, a switch (relay or transistor) and a suppression diode.
+- **how_it_works**: The rotor spins with the input all the time. When DC current flows in the coil it becomes an electromagnet; the magnetic flux jumps the small air gap and pulls the armature, which is joined to the output hub, hard against the rotor face (Machine Design, 2009). Friction then speeds the output up: the faces slip for about 0.02 to 1.0 s until both turn together ('100% lockup'), after which there is no slip. When the current stops, the flux collapses and springs pull the armature back to a set air gap, so the output is free again (Wikipedia; Ogura). Other versions use teeth instead of friction (tooth clutch), a stack of discs (multiple-disc clutch), iron powder that stiffens in the field (magnetic particle clutch) or contact-free magnetic drag (hysteresis clutch) (Wikipedia, Electromagnetic clutch).
+
+### Finder attributes
+
+- **job**: 
+  - hold or release using power: it connects the drive only while powered and disconnects it when switched off
+  - join and hold: while engaged it locks the input and output shafts together so they turn as one
+  - slip or let go when overloaded: a friction type slips if the load needs more torque than it can carry; magnetic particle types are made to slip at a controlled torque for tension control (Wikipedia)
+- **motion**: rotate: it passes on continuous rotation; inside, the armature moves only across a small air gap (typically 0.2-0.5 mm, KEB)
+- **degrees_of_freedom**: 1 when switched off (the output can turn freely about the shaft axis relative to the input); 0 relative movement when switched on (input and output turn together)
+- **special_behaviour**: 
+  - fail-safe or breakaway: 'turning off the power to the coil disengages the unit' (Machine Design, 2009), so a power cut disconnects the drive; clutch-brake units add a brake that grabs when power is removed (Warner Electric MagStop mower clutch-brakes stop the blade within 3-7 s)
+  - torque-limiting (slips or clicks at a set force/torque): a friction clutch slips above its torque; torque falls roughly in proportion to voltage ('applying 48 V to a 90-V clutch results in about half the torque output', Machine Design), and magnetic particle clutches give accurately controlled slip torque for tension control (Wikipedia)
+  - indexing (clicks into set positions): electromagnetic tooth clutches can be made 'single position' so they only engage at one angle, for machines where timing matters (Wikipedia)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the armature is clamped against the rotor face and the drive is carried by friction
+  - magnetic: the clamping force comes from the electromagnet
+  - powered hold: it only holds while current flows
+  - shape (the parts interlock; form-fit): tooth clutches lock with interlocking teeth instead of friction (Wikipedia)
+- **input_output**: Continuous rotation in -> the same rotation out when engaged (1:1, no ratio change). The faces slip for about 0.02-1.0 s while the output speeds up (Machine Design, 2009); once fully engaged there is no relative slip, 'thus torque transfer is 100% efficient' (Wikipedia), apart from the electrical power the coil uses (11-60 W at 24 V for 6-400 N·m industrial units, Sunrise MCS table). Shaft arrangement: in line (shaft to shaft, e.g. face-mount clutches that bolt to a motor and 'let you electrically control when to transmit power without turning off your motor', McMaster-Carr) or a pulley, sprocket or gear riding on the shaft, so torque to that part is cut 'without stopping your drive shaft' (McMaster-Carr, electric clutches). Back-drivable: yes while engaged (Ogura: 'All clutches are bi-directional'); when off, the output simply freewheels.
+- **power**: powered: needs DC current to engage; common supplies are 24 or 90 V DC (Machine Design, 2012), vehicle and mower clutches run on 12-14 V (Warner CMS 250: 6-7 A), printer micro clutches on 24 V (Ogura MIC). When power is lost it releases (disengages): the drive is disconnected and the output coasts or freewheels. Combined clutch-brakes apply a brake at the same moment (Warner MagStop uses permanent magnets for this).
+- **removability**: removable: it is keyed, set-screwed or D-bored onto shafts and bolted to a frame; its own connect/disconnect action is electrical and needs no tools
+- **reuse_cycles**: many times: it engages and disengages every time it is switched, but each engagement under slip wears the faces (e.g. Warner CMS 250 mower clutch-brake: B10 life of 25,000 cycles); the unit itself can be unbolted and refitted many times
+- **tools_needed**: hex keys or spanners and a key or set screws to mount it; a feeler gauge to check the air gap on adjustable types (KEB; EIDE); a dial indicator to check the rotor runs true (EIDE); for wiring, a DC supply, a relay or transistor/MOSFET and a flyback diode (plus a Zener diode for fast release) (Machine Design, 2012)
+- **seal**: none: the friction faces are open; oil, grease, oil mist or paper dust between the faces cuts torque, and makers offer contamination shields; in clean rooms or food machines the clutch should be enclosed because it sheds wear dust (Wikipedia, Electromagnetic clutches and brakes)
+- **load**: Light to heavy depending on size, and only in twist (torque) about the shaft: 0.25-0.8 N·m for printer micro clutches (Ogura MIC, max 300 rpm), 6-400 N·m static torque for shaft-mounted industrial clutches (Sunrise MCS, max 1800 rpm), and 60-250 lb·ft (about 80-340 N·m) for ride-on mower PTO clutch-brakes (Warner). Dynamic (slipping) torque can be under half the static rating at high speed (Wikipedia). Side loads must be carried by its bearings; plain bushings are only for low speed, low side load or short running hours (Wikipedia).
+- **adjustable**: partly: on fixed-armature types the air gap can be reset as the faces wear (KEB; EIDE), while 'zero gap or auto wear' armatures take up wear themselves (Wikipedia); engagement can be softened by applying less than full voltage, which lowers torque and lengthens engagement time (Machine Design, 2012); pre-assembled micro clutches have 'no adjustments to make or gaps to set' (Ogura MIC)
+- **play_and_precision**: small: spline-connected armatures typically have about 2° of backlash that grows with wear, and zero-backlash units keyed to a shaft still have a little play at the key (Wikipedia); some industrial units are sold as 'backlash-free' (Sunrise MCS). Repeatability: as the faces wear the gap grows and pull-in slows, so timing can drift by 10-15 ms in high-cycle machines (Wikipedia; Machine Design). Misalignment tolerance is low: the rotor must run concentric (checked with a dial indicator) and the gap must be even all round (EIDE).
+- **access_needed**: end of a tube or shaft: it slides onto a shaft end (or a motor shaft, for face-mount types), and the field needs an anchor to the frame
+- **materials**: Coil shell of carbon steel ('combines strength with magnetic properties'), copper or sometimes aluminium coil held by a bobbin or epoxy (Machine Design; Wikipedia); steel rotor and armature (they must be magnetic); industrial clutches have friction material set flush between the poles, while most car and farm clutches run steel on steel with no friction material, which also avoids swelling from moisture (Wikipedia); steel springs; bearings or bushings. Printer micro clutches come with a moulded plastic gear or timing pulley (Ogura MIC). It connects steel shafts; printed parts are only the pulleys, gears and brackets fixed to it.
+- **maker_difficulty**: moderate: buy one (24 V printer micro clutches and salvaged mower or car AC clutches are the usual maker sources); mounting it true, setting the gap and driving the coil safely from a microcontroller take care; making your own is hard
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: always bought or salvaged (printer/copier micro clutches, mower PTO clutches, car AC compressor clutches, industrial clutches)
+  - 3D print (FDM): pulleys, gears and hub adapters that bolt to the output, anti-rotation brackets for the coil housing, motor mounts
+  - CNC: metal hubs, shaft adapters and mounting plates where torque is high or the rotor must run true
+- **print_in_place**: no: the clutch is a bought electromagnetic assembly; only parts attached to it can be printed
+- **making_tips_3d_printing**: Print the parts around the clutch, not the clutch. (2) Anti-rotation: the coil housing must be fixed to 'a completely static part' (EIDE); a printed bracket or tab that stops it turning is fine if it is stiff. (4) Heat: the coil uses power the whole time it is engaged (11-60 W at 24 V for industrial sizes, Sunrise MCS) and slipping makes friction heat; (5) Keep grease from printed gears well away from the friction faces: oil 'would significantly reduce the coefficient of friction' (Wikipedia). (6) Never put printed plastic in the magnetic path; the armature and rotor must be steel. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search terms: 'electromagnetic clutch 24V' or '12V electromagnetic clutch'; 'micro electromagnetic clutch' / 'printer paper feed clutch' / 'mini electromagnetic clutch D-shaft 6 mm' (0.25-0.8 N·m class, e.g. Ogura MIC); 'shaft mounted power-on electromagnetic clutch' (e.g. Sunrise MCS, 6-400 N·m); 'electric clutch for face-mount motor' and 'electric clutch/brake' (McMaster-Carr, 90 V DC); 'electric PTO clutch' (mower); 'AC compressor clutch' (car, salvage); 'electromagnetic tooth clutch'; 'multiple disc electromagnetic clutch'; 'magnetic particle clutch' and 'hysteresis clutch' (for tension control); 'clutch-brake'; 'clutch power supply' or 'rectifier'; 'flyback diode' (e.g. 1N4004 or 1N5404) and 'Zener diode' for suppression (Machine Design, 2012); 'logic-level MOSFET' or 'TIP120' / 'relay' to switch it.
+- **rules_of_thumb**: 
+  - Air gap: 'an air gap of between 0.2 mm and 0.5 mm is generally used' (KEB); set it with a feeler gauge and make it 'uniform across the entire circumference' (EIDE). Too large a gap weakens the pull; too small can make the parts rub (KEB).
+  - Run-in (burnishing): a new clutch may give as little as 50% of its rated torque until the faces bed in; burnishing takes 20 to over 100 on-off cycles at low speed or low inertia, and is only needed if the job needs more than the out-of-box torque (Wikipedia, Electromagnetic clutches and brakes; Machine Design, 2009).
+  - Size by the torque after burnishing, using T = J x Δω / t (torque = inertia x change in speed / time) (Wikipedia).
+  - Static versus dynamic torque: catalogues list static torque; at around 5-50 rpm that is what you get, but at high speed (e.g. 3,000 rpm) dynamic torque 'can be less than half the static rating' (Machine Design, 2009; Wikipedia).
+  - Heat and voltage: on an unregulated supply torque drops about 8% for every 20 °C rise in coil temperature, and torque is roughly proportional to voltage ('48 V to a 90-V clutch results in about half the torque output') (Machine Design, 2009; Wikipedia).
+  - Suppression: switching off the coil can produce a spike of 7-10 times the supply voltage (over 600 V from a 90 V coil); a flyback diode rated at least twice the coil current and voltage protects the switch, but it slows release, and adding a Zener diode shortens the decay (Machine Design, 2012).
+  - Faster engagement (overexcitation): a brief pulse of 3 times rated voltage gives about one-third faster response, 15 times gives about 3 times faster, but only for a few milliseconds so the coil does not overheat (Machine Design, 2009).
+  - Tooth clutches must not be engaged above about 50 rpm or the teeth get damaged (Wikipedia, Electromagnetic clutch).
+  - Slip time: about 0.02-1.0 s from switch-on to full lockup (Machine Design, 2009); Wikipedia gives 1/200 s to 1 s.
+
+### When to use it
+
+- **everyday_examples**: 
+  - Car air conditioning: 'most, but not all, automobile air conditioning systems are switched on and off by using an electromagnetic clutch' that joins the compressor shaft to its belt pulley (Wikipedia); the plate at the front of the compressor that starts spinning when you press A/C
+  - Ride-on lawn mowers: the electric PTO clutch that starts the blades when you pull the blade switch, often combined with a brake (Wikipedia; Warner Electric)
+  - Photocopiers and laser printers, where tiny 24 V clutches start and stop paper-feed rollers from one motor (Wikipedia; Ogura MIC; Kyocera printer teardown photos on Wikimedia Commons)
+  - All-wheel-drive cars, where electromagnetic clutches vary the power sent to each axle (Wikipedia)
+- **when_to_use**: Use it when one motor that keeps running must drive something only some of the time, switched remotely by electricity: starting and stopping a conveyor, roller, pump, fan or cutter blade without stopping the motor; sharing one motor between several outputs (as printers do); machines controlled by a microcontroller or PLC where no hand lever can reach; and when the drive must disconnect automatically if power fails. Magnetic particle or hysteresis versions suit winding and tensioning where a steady slipping torque is wanted (Wikipedia).
+- **when_not_to_use**: Not for holding a load still when power is off: it lets go when unpowered, so use a spring-applied electromagnetic brake or a self-locking drive instead. For a clutch that must connect with no power, or be operated by hand, use a dog clutch, friction clutch with a lever, or a centrifugal clutch that engages automatically with speed. Tooth clutches cannot be engaged at speed (above about 50 rpm, Wikipedia). *(unverified parts omitted)*
+- **environment_limits**: Heat is the main limit: the heat of the coil sets the maximum operating temperature through the rating of its insulation (Wikipedia, Electromagnetic clutch), and torque falls about 8% per 20 °C rise in coil temperature on an unregulated supply (Machine Design). Coils usually fail from heat caused by high ambient temperature, high cycle rates, slipping or overvoltage (Wikipedia). Example rating: Warner CMS 250 mower clutch-brake, ambient -40 °F to +200 °F (about -40 to +93 °C). Oil or grease on the faces 'could drastically decrease the torque'; friction material can swell with moisture, which is why outdoor mobile clutches often have none; light surface rust after long idle periods wears off within a few cycles (Wikipedia). Faces wear with every slipping engagement, so the gap grows and engagement timing drifts (Wikipedia).
+- **safety_notes**: Rotating shafts, pulleys and belts are entanglement and pinch hazards even when the clutch is off, because the input side keeps spinning. Switching the clutch off does not stop the output: it coasts, so blades and flywheels need a brake (mower PTO clutch-brakes exist for this; the Warner MagStop brakes the blade within 3-7 s). The coil produces high voltage spikes when switched off (7-10 times supply voltage, Machine Design 2012): fit a suppression diode or it can damage transistors and insulation. Coils can get hot. A DIY table-saw stop using a salvaged lawnmower clutch shows the forces involved: Hackaday called it 'just about as sketchy as it sounds' (Hackaday, 2022). *(unverified parts omitted)*
+- **common_failures**: Will not engage: open or shorted coil, blown fuse, broken wire or switch, AC applied instead of DC, or air gap too large from wear (Ogura troubleshooting; Wikipedia: a fixed-armature clutch 'will eventually simply cease to engage' as wear widens the gap); check voltage and reset the gap. Slips: oil on the facing, not burnished, low voltage or a hot coil, worn armature, or a clutch too small for the job (Ogura troubleshooting; Wikipedia). Will not release or drags: gap too small so the faces rub (KEB), or slow release because only a plain diode is fitted (Machine Design, 2012). Noise: worn bearing, rotor contact or misalignment (Ogura; EIDE). Car AC clutches: coil failure, a gap widened by wear, and screeching from rust or a wrong gap (ricksfreeautorepairadvice.com). Avoid by keeping faces clean and dry, burnishing a new clutch, using the rated DC voltage with suppression, and checking the gap as it wears.
+- **related**: 
+  - Electromagnetic brake (power-off, spring-applied): the same coil-and-armature parts, but it holds a shaft still when power is off instead of connecting a drive when power is on
+  - Wrap-spring clutch (spring clutch): a coiled spring grips the shaft; solenoid-tripped versions start and stop a load at one exact position each turn
+  - Dog clutch (claw clutch): teeth that interlock; engaged by a lever, solenoid or servo, no slip, but must be engaged slowly or at rest
+  - Friction clutch (plate or cone clutch): the same friction idea operated by a hand lever or pedal instead of a coil
+  - Centrifugal clutch: engages by itself when the input spins fast enough; no electricity needed
+  - Magnetic coupling and magnetic gear: permanent magnets pass torque through a wall with no contact; always on, not switchable
+  - Magnetic particle clutch and hysteresis clutch: electromagnetic clutches built to slip at a controlled torque, for tensioning (Wikipedia)
+  - Eddy-current coupling: drag from currents induced in a conductor; torque depends on the speed difference (RoyMech; a printable eddy-current 'electromagnetic clutch' model exists on Thingiverse)
+  - Friction slip clutch and torque limiters: slip at a set torque without any electricity
+  - Solenoid latch: the same electromagnet principle used to pull a bolt instead of clamp a plate
+
+### Pictures, videos and models
+
+- **links**: 
+  - [B-1 electromagnetic-clutch1.png (Wikimedia Commons), by Oguraclutch](https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png): Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article *(licence: Public domain (Commons licence field))*
+  - [Multiple Disk Clutch.gif (Wikimedia Commons), by Oguraclutch](https://commons.wikimedia.org/wiki/File:Multiple_Disk_Clutch.gif): Animation of an electromagnetic multiple-disc clutch engaging *(licence: Public domain)*
+  - [Electromagnetic Clutches - How It Works (KEB America)](https://www.youtube.com/watch?v=OztP3uFlUlI): Animation of a friction electromagnetic clutch joining two shafts when powered (title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+  - [New vivid animation on how Electromagnetic Clutches work (oguraindustrial)](https://www.youtube.com/watch?v=CYXNXeEW0Go): Manufacturer animation of the coil, rotor and armature engaging and releasing (title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+  - [Kyocera FS-C5200DN - Tenryu Marusawa TMC-5T-04 micro clutch (Wikimedia Commons), by Raimond Spekking](https://commons.wikimedia.org/wiki/File:Kyocera_FS-C5200DN_-_Tenryu_Marusawa_TMC-5T-04-4680.jpg): Photo of a small 24 V-class printer micro clutch with its gear, as found in a laser printer teardown *(licence: CC BY-SA 4.0)*
+- **make_it_yourself**: 
+  - [Electromagnetic Clutch / Eddy Current Coupling, by stefan_stoove (Thingiverse)](https://www.thingiverse.com/thing:4647488): A printable 'electromagnetic clutch using eddy currents' demonstration model (a contact-free cousin of the friction clutch); description and licence read from the page's metadata *(licence: CC BY 4.0 (from the page's schema.org metadata))*
+  - [Arduino Electromagnet Control (Tutorial & Code Example), by Khaled Magdy (DeepBlueMbedded, 2024)](https://deepbluembedded.com/arduino-electromagnet-control-circuit-code-example/): Wiring and code for switching a 12 V DC coil from an Arduino with a TIP120 transistor and a flyback diode across the coil, the same driver a hobby 12 or 24 V clutch coil needs *(licence: tutorial; link only)*
+- **diagram_idea**: Two-frame side cutaway along a shaft: frame 1 (power off) shows the spinning rotor on the motor side, a thin labelled 0.2-0.5 mm air gap, the armature plate held back by small springs and the output pulley standing still; frame 2 (power on) shows the coil glowing, flux arrows looping through rotor and armature, the armature snapped against the rotor and the pulley now spinning with a '1:1' label.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Electromagnetic_clutch (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Electromagnetic_clutches_and_brakes (read via the Wikipedia API)
+  - https://www.machinedesign.com/archive/article/21831719/the-basics-of-electromagnetic-clutches-and-brakes
+  - https://www.machinedesign.com/news/article/21829695/suppression-circuits-for-clutches-and-brakes
+  - https://ogura-clutch.com/electromagnetic_clutch.php
+  - https://ogura-clutch.com/troubleshooting.php
+  - https://ogura-clutch.com/products.php?category=5&product=6&sort=3
+  - https://www.keb-automation.com/blog/the-clutch-air-gap-adjustment-made-easy
+  - https://eide.net/en/how-to-assembly-an-electromagnetic-clutch/
+  - https://www.sunrisescn.com/shaft-mounted-mcs-power-on-electromagnetic-clutch1.html
+  - https://www.djautomation.net/files/p-1698-we.pdf (Warner Electric P-1698-WE, Clutch/Brakes for Lawn & Garden Equipment)
+  - https://www.mcmaster.com/products/electric-clutches/
+  - https://ricksfreeautorepairadvice.com/car-ac-compressor-clutch/
+  - https://roymech.org/Useful_Tables/Drive/Clutches.html
+  - https://hackaday.com/tag/electromagnetic-clutch/
+  - https://hackaday.com/2022/08/02/homemade-sawstop-attachment-is-just-about-as-sketchy-as-it-sounds/
+  - https://deepbluembedded.com/arduino-electromagnet-control-circuit-code-example/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/asa_1809
+  - https://commons.wikimedia.org/wiki/Category:Electromagnetic_clutches
+  - https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
+  - https://commons.wikimedia.org/wiki/File:Multiple_Disk_Clutch.gif
+  - https://commons.wikimedia.org/wiki/File:Kyocera_FS-C5200DN_-_Tenryu_Marusawa_TMC-5T-04-4680.jpg
+  - https://www.youtube.com/watch?v=OztP3uFlUlI (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=CYXNXeEW0Go (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=5SuqyE_bXqo (verified via YouTube oEmbed; 'Electromagnetic Clutches - How they work', oguraindustrial)
+  - https://www.youtube.com/watch?v=F87u7IQL-3M (verified via YouTube oEmbed; 'Making A DIY SawStop!', Ruth Amos)
+  - https://www.thingiverse.com/thing:4647488
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, safety_notes, when_not_to_use
 
 ## 208 Thermal actuators (bimetal strip, wax motor)
 
 *powered & active connectors.* Parts that move when heated, a strip of two bonded metals that bends or a capsule of wax that expands, used to trip or open a latch
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Parts that move by themselves when they get hot: a strip of two metals stuck together that bends as it warms, or a small sealed can of wax that pushes a pin out when the wax melts, used to trip, open or lock a catch
+- **term**: Thermal actuator: bimetallic strip (thermostatic bimetal) and wax motor (wax thermostatic element, paraffin actuator)
+- **aliases**: 
+  - bimetal strip / bimetallic strip / thermostatic bimetal / thermobimetal
+  - bimetal disc / snap disc / snap-action bimetal thermostat / thermal cutout (TCO) / thermal switch
+  - bimetal coil (spiral bimetal, as in dial thermometers)
+  - wax motor / wax actuator / wax pellet / wax element / paraffin actuator / phase-change actuator
+  - thermostatic element (car engine thermostat, radiator valve head)
+  - thermoelectric actuator / electrothermal actuator / thermal actuator (heated wax heads for underfloor-heating manifolds and zone valves)
+  - High Output Paraffin (HOP) actuator (aerospace term, Tibbitts 1988)
+  - Klixon (brand; snap-disc thermal cutouts, named in Wikipedia's Thermal cutoff article)
+- **family**: powered & active connectors
+- **other_families**: locks, latches & catches, torque limiting & slip
+- **one_liner**: A heat-driven mover: a bimetal strip bends (or a bimetal disc snaps inside-out) and a wax capsule pushes out a pin when warmed, turning a temperature change, or an electric heater, into a small push that trips or opens a latch, valve or switch.
+- **complexity**: Bimetal: a single piece (two metal layers rolled together), often with a contact, rivet and adjusting screw, or a pre-formed dished disc in a sealed cup (KSD301 parts: bimetal disc, operating rod, contacts, base, cover). Wax motor: a small assembly that acts as one unit: metal cup of wax, rubber diaphragm or squeeze boot, piston rod, return spring, and in electric versions a PTC heater (Wikipedia; Tibbitts 1988).
+- **how_it_works**: A bimetal strip is two metals with different thermal expansion bonded along their length; when heated one side grows more than the other, so the strip curls, and 'the sideways displacement of the strip is much larger than the small lengthways expansion in either of the two metals' (Wikipedia). A dished bimetal disc stores that strain and then flips ('clicks') to the opposite curve at a set temperature, which gives a sudden snap instead of a slow creep (Wikipedia, Thermal cutoff; Kanthal). A wax motor uses the 5-20% volume increase of wax as it melts: the expanding liquid presses on a sealed diaphragm or rubber boot and drives a pin out with high force; as it cools and solidifies, a spring pushes the pin back (Wikipedia, Wax motor; Tibbitts 1988). Either can be heated by the surroundings (engine coolant, sun, steam) or on purpose by an electric heater, so it can trip a latch on command.
+
+### Finder attributes
+
+- **job**: 
+  - hold or release using power: an electrically heated wax motor or bimetal pushes or trips a latch on command (dishwasher detergent flap, washing-machine door lock, Wikipedia)
+  - slip or let go when overloaded: in circuit breakers and motor overload protectors a strip heated by too much current bends and 'operates a linkage that unlatches a spring-operated contact' (Wikipedia)
+  - change the kind of motion: turns a change in temperature straight into a push or a bend, e.g. opening a greenhouse vent or engine coolant valve with no electronics (Wikipedia)
+- **motion**: multiple: slide (a wax motor pushes a pin straight out, stroke 1.5-16 mm depending on type, Wikipedia) or flex (a bimetal strip bends at its free end, or a disc snaps inside-out)
+- **degrees_of_freedom**: 1: the wax piston slides along its own axis, or the bimetal's free end bends in one plane; the part it drives is usually a separate latch or valve
+- **special_behaviour**: 
+  - over-centre (snaps past a point and stays): a shallow dome-shaped bimetal cap 'clicks' to an inside-out shape when heated (Wikipedia, Thermal cutoff) and snaps back only when it has cooled well below (standard KSD301 discs reset about 17 °C lower, Calco datasheet)
+  - fail-safe or breakaway: bimetals trip circuit breakers, motor protectors and thermal cutouts on overheating (Wikipedia); a wax-locked washing-machine door stays locked briefly after power loss, longer than the drum takes to stop, 'then reliably unlocks as the wax cools' (Wikipedia, Wax motor)
+  - motion conversion (e.g. rotary to linear): heat is turned directly into a straight push (wax) or a bend (bimetal) with no motor or gears
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it is a small actuator that pushes or trips a separate latch, valve or contact
+  - powered hold: an electrically heated wax motor keeps its pin pushed out (e.g. a door locked) only while it is heated
+  - spring force (a spring or springy part presses it in place): a return spring or dead weight pushes the wax piston back as it cools (Wikipedia)
+- **input_output**: Heat in -> straight push out (wax motor, 1.5-16 mm stroke, Wikipedia; about 2 mm in AvE's teardown, Hackaday; 3 mm in underfloor-heating heads) or bend/snap (bimetal). Very slow and inefficient: power-on to full stroke 15 s to 20 min, efficiency about 5% (Tibbitts 1988); underfloor heating heads take about 3 min to open or close after a short dead time (supplier data). Shaft arrangement and ratio: not applicable. Back-drivable: not applicable; it is driven by temperature, and the return spring sets how it returns.
+- **power**: passive or powered, depending on version. Passive: heated by its surroundings (car thermostats, greenhouse vent openers, kettle switch-offs). Powered: an electric heater warms it (usually a PTC thermistor that limits its own temperature, Hackaday 2014; underfloor heads use 24 V or 230 V, 3 W running with a 90 W starting surge), or current passes through the bimetal itself (Kanthal). If power is lost: it slowly returns to its cold position as it cools, so it keeps its last state only for a while; manual-reset bimetal cutouts stay tripped until someone resets them (Wikipedia, Thermal cutoff).
+- **removability**: removable: wax elements screw in (e.g. M30 x 1.5 thread on heating manifolds) or clip into a bracket; bimetal strips are screwed or riveted at one end and snap discs are mounted by their cup or terminals
+- **reuse_cycles**: many times: commercial wax pellet actuators are 'resetable for up to 50K cycles' and high-output paraffin actuators exceed 10,000 cycles (Tibbitts 1988); bimetal thermostats cycle for the life of the appliance; 'one-shot' bimetal cutouts that cannot reset also exist (Calco KSD301)
+- **tools_needed**: Hackaday 2014); thermal paste to couple a snap disc to the surface it senses (Calco) *(unverified parts omitted)*
+- **seal**: none as a joint; the wax is sealed inside its capsule by a diaphragm or rubber squeeze boot (Wikipedia; Tibbitts), and KSD301 snap-disc thermostats are 'hermetically sealed' (Calco) but must still be kept away from liquids at their terminals
+- **load**: Wax: medium to heavy push for its size, only along the pin axis: about 100 N for underfloor-heating heads (Resideo M4410K1515 '100N'), up to 200 N for commercial wax pellets and up to 4000 N for high-output aerospace types (Tibbitts 1988); it cannot pull except via its return spring. Bimetal: light; Wikipedia notes bimetal strips 'cannot produce strength in its moves' because they must be thin to bend noticeably, so they are used to trip a latch or switch contacts rather than carry load; stacks of strips give more force (Kanthal).
+- **adjustable**: partly: many bimetal thermostats set their switching temperature with an adjusting screw or knob that restrains the strip (Kanthal; Wikipedia); a wax element's working temperature is fixed by its wax recipe (Wikipedia), though where its pin meets the valve or latch can be set with a threaded adapter (Printables hydronic wax-motor adapter)
+- **play_and_precision**: noticeable: wax elements show hysteresis (different positions on heating and cooling) caused by thermal lag and friction (Wikipedia); snap discs switch back about 17 °C below where they tripped (Calco KSD301 standard differential); a bimetal only deflects linearly with temperature within a limited range (Kanthal). They are triggers, not precise locators; position depends on temperature.
+- **access_needed**: one side only (blind): a wax head screws onto one side of the valve or latch it pushes, and a bimetal strip is fixed at one end on the side it acts from
+- **materials**: Bimetal: an active high-expansion layer (alloys of nickel, iron, manganese or chromium) bonded to a passive low-expansion layer, often Invar (36% nickel iron) (Kanthal); simpler pairs are steel with copper or brass (Wikipedia). Wax motors: specially distilled narrow-range paraffin, sometimes mixed with copper particles for even melting, in a brass, stainless-steel or titanium case with a rubber boot or diaphragm and a steel rod (Wikipedia; Tibbitts 1988). Printed plastic suits only the brackets, levers and latches around them.
+- **maker_difficulty**: moderate: buying and fitting a wax heating head, car thermostat, snap disc or bimetal strip is easy, but their small stroke and slow action mean the latch must be designed to need only a small nudge; making a sealed wax actuator yourself is hard
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: wax heating heads (thermoelectric actuators), car engine thermostats, greenhouse vent openers, appliance wax motors, snap-disc thermostats and thermostatic bimetal strip
+  - 3D print (FDM): brackets, levers, trip arms, latches and adapters around the element (e.g. a printed threaded adapter for a manifold wax head)
+  - sheet metal: cutting and bending bimetal strip to length; mounting plates
+- **print_in_place**: no: the thermal element is bought; printed parts (levers, latches, brackets) are made separately and assembled around it
+- **making_tips_3d_printing**: (1) Heat-proof material: the element runs at its trigger temperature (car thermostats open at about 70-90 °C, Wikipedia) and heated heads get warm; (3) Return force: the pin needs a return force of about 20-30% of its operating force from a spring or weight (Wikipedia, citing Duerig 1990); use a metal spring. (4) Adjustability: add a threaded or slotted adapter so the pin-to-latch gap can be tuned (the Printables hydronic wax-motor adapter does this; its designer printed it in PLA because it only sits on a heating manifold, and suggests PETG if it fails). (5) Bimetal cannot be printed; buy strip or discs, fix one end with a screw or rivet, and keep printed parts from blocking its free end. (6) Snap discs sense best with the cup pressed flat against the heat source and thermal grease between (Calco). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search terms: 'thermoelectric actuator 24V NC M30x1.5' or 'underfloor heating actuator' (wax head, about 100 N, 3-4 mm stroke); 'wax motor' / 'wax actuator' / 'thermal actuator' (appliance spares, e.g. 'dishwasher wax motor', 'washing machine door lock'); 'wax pellet thermostat' / 'engine thermostat'; 'automatic greenhouse vent opener' / 'solar vent opener' (wax cylinder, no power); 'thermostatic radiator valve head'; 'KSD301' / 'snap disc thermostat' / 'bimetal thermostat normally closed / normally open / manual reset'; 'thermal cutout' / 'thermal switch'; 'thermostatic bimetal strip' (sold by the metre); 'PTC heater' / 'PTC heating element' to heat a wax element; 'thermal overload relay'.
+- **rules_of_thumb**: 
+  - Wax grows 5-20% in volume when it melts (Wikipedia, Wax motor); paraffin actuators use about 15% (Tibbitts 1988, NASA NTRS).
+  - Wax motor size: commercial wax pellets give up to about 200 N and 50,000 cycles; high-output designs reach 4000 N and 10 cm stroke, with melting points chosen anywhere from -20 °C to 120 °C (Tibbitts 1988). Wax thermostatic elements have strokes of 1.5-16 mm and cover -15 °C to +120 °C (Wikipedia, Wax thermostatic element).
+  - Return spring: provide a bias force of about 20-30% of the operating force to push the pin back past the seals (Wikipedia, Wax motor, citing Duerig 1990).
+  - Expect it to be slow: 15 s to 20 min from power-on to full stroke, about 5% efficient (Tibbitts 1988); heating heads take about 3 min, after a short dead time (underfloor heating supplier data).
+  - Bimetal strip bend: deflection at the free end of a strip fixed at one end is A = a x (T - T0) x L^2 / s, where a is the specific deflection, L the free length and s the thickness, valid when A is under about 10% of L (Kanthal Thermostatic Bimetal Handbook, eq. 9). Worked example with KANTHAL 155 (a = 15.6 x 10^-6 per °C, Kanthal): a 50 mm long, 0.5 mm thick strip warmed by 50 °C bends about 3.9 mm (arithmetic from the handbook formula).
+  - Bimetal force: if the tip is blocked it pushes with F = a x E x (T - T0) x b x s^2 / (4 L) (b = width, E = modulus) (Kanthal, eq. 30), so force rises with the square of thickness while bend falls with thickness.
+  - Get a snap, not a creep: a plain bimetal 'has a slow action unless it is specially shaped'; use dished snap discs or a spring or magnet to store energy for a clean switch 'without flutter' (Kanthal).
+  - Temperature limits: the most active bimetals should not go much above 250 °C, general types up to about 350 °C, high-temperature types about 450 °C (Kanthal); Wikipedia gives about 150 °C to 500 °C depending on the pair. An electric heater for a bimetal typically needs 1-100 W (Kanthal).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A car engine thermostat: a wax pellet opens the coolant valve at about 70-90 °C (Wikipedia, Wax thermostatic element)
+  - An electric kettle that switches itself off: 'A bimetallic strip, heated through a pipe by the steam ... flexes, and cuts off the current' (Wikipedia, Kettle)
+  - Dishwashers and front-loading washing machines: a wax motor releases the detergent-flap catch and locks the door during a wash (Wikipedia, Wax motor)
+  - Circuit breakers and radiator valves: a bimetal trips a breaker on too much current (Wikipedia, Bimetallic strip); a wax plug in a thermostatic radiator valve head closes the valve as the room warms (Wikipedia, Thermostatic radiator valve)
+- **when_to_use**: Use a thermal actuator when something should happen automatically at a temperature with no electronics at all (open a greenhouse vent, trip on overheating, cut off a heater), or when you want a silent, gentle, cheap electric latch release that tolerates damp: 'In moist conditions a wax motor costs less for equivalent reliability than an electromagnetic solenoid or motor latch', it moves 'smooth and gentle', and as a resistive load it needs no snubber (Wikipedia, Wax motor). Good for slow jobs that need a strong push from a small part (up to about 100-200 N from a thumb-sized wax head) and for a built-in time delay, such as a door that stays locked for a minute after power is cut. Use a bimetal to sense temperature or current and trip a latch or contacts.
+- **when_not_to_use**: Not when the release must be fast or happen at an exact moment: it takes seconds to minutes (Tibbitts 1988); use a solenoid latch or servo latch instead. Not for long strokes or precise positions: use a servo, linear actuator or lead screw. A bimetal strip alone is too weak to hold anything; use it only to trip a stronger catch. For silent, fast pull on command, a shape-memory-alloy (nitinol) wire is the closer alternative. *(unverified parts omitted)*
+- **environment_limits**: Wax elements work over about -15 °C to +120 °C (Wikipedia), with the melt point set by the wax (Tibbitts: -20 °C to 120 °C); response depends on power, insulation and starting temperature, so cold or draughty places slow them down (Tibbitts 1988). Example heating head: ambient 0-50 °C in operation, fluid up to 100 °C (underfloor heating supplier). Bimetals: the most active grades should stay under about 250 °C (Kanthal); a thermostat whose strip is held under restraint by an adjusting screw can be permanently bent if exposed to very low temperatures (Kanthal). Snap-disc thermostats want humidity no higher than 90%, no caustic or flammable gas or conductive dust, and liquids kept out of the inside (Calco KSD301). Corrosion resistance differs between bimetal grades (Kanthal). Wax motors, unlike old liquid bellows thermostats, are insensitive to pressure changes (Wikipedia, Wax thermostatic element).
+- **safety_notes**: Some appliance wax motors run directly on mains voltage (the one in electronicsNmore's video runs on 120 V AC, Hackaday 2014): treat them as mains wiring. Parts reach their trigger temperature and heaters get hot, so avoid touching them in use and keep them off plastics that soften. A door or lid held by a wax lock stays locked for a while after power is cut by design (Wikipedia); do not force it. Automatic-reset thermal switches can restart a machine as they cool; where a sudden restart is dangerous, use a manual-reset type (Wikipedia, Thermal cutoff). *(unverified parts omitted)*
+- **common_failures**: Wax motor does not retract or retracts slowly: return spring too weak or missing, since seals resist the piston and a bias of about 20-30% of the operating force is needed (Wikipedia); fix with a stronger metal spring. Slow or incomplete stroke: too little heater power, or heat lost to cold surroundings (Tibbitts 1988). Valve or latch not reached: the head sits at the wrong height for what it pushes, so its few millimetres of stroke never close the valve or trip the catch (the Printables adjustable adapter was made because some heating heads would not close a taller valve); make the gap adjustable. Bimetal strip permanently bent or off-calibration: overstressed by an external force or by restraint at very low temperature (Kanthal); snap disc changed calibration after its cup was pressed or dented (Calco: 'must not be pressed to sink'). Contacts arc or chatter: a plain strip switches slowly; use a snap-action disc or spring (Kanthal). Nuisance cycling: a thermal switch in a hot spot turns a light or heater off and on every few minutes (Wikipedia, Thermal cutoff).
+- **related**: 
+  - Shape-memory-alloy wire latch (nitinol muscle wire): also driven by heat from a current, but pulls quickly and silently on a thin wire; less force per part than wax
+  - Solenoid latch: fast electric pull on command, but inductive (needs a diode) and noisier; wax motors are its slow, cheap, damp-tolerant alternative (Wikipedia)
+  - Servo or motorised latch: fast and holds its position with power off; more parts and electronics
+  - Burn-wire and fusible-link release: also a heat-triggered release, but one-shot: the link melts or is cut and must be replaced
+  - Self-folding print (4D printing): printed plastic that changes shape when heated, a printable cousin of the bimetal strip
+  - Bistable compliant mechanism (snap-through switch): the same snap-past-a-point idea as a bimetal snap disc, but moved by force instead of heat
+  - Sear and trigger (trip release mechanism): lets a tiny wax or bimetal movement release a large stored spring force
+  - Thermal fuse and thermal cutoff: bimetal or meltable-pellet switches that cut a circuit when hot (Wikipedia, Thermal cutoff)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Bimetal.gif (Wikimedia Commons), by Baran Ivo](https://commons.wikimedia.org/wiki/File:Bimetal.gif): Animated scheme of a bimetal strip bending as it is heated *(licence: CC BY-SA 3.0 (also GFDL 1.2))*
+  - [Bimetal coil reacts to lighter.gif (Wikimedia Commons), by Hustvedt](https://commons.wikimedia.org/wiki/File:Bimetal_coil_reacts_to_lighter.gif): A bimetal coil from a thermometer uncoiling when a lighter heats it and coiling back when the flame is removed *(licence: CC BY-SA 3.0)*
+  - [Double valve automotive thermostat.jpg (Wikimedia Commons), by Dougsim](https://commons.wikimedia.org/wiki/File:Double_valve_automotive_thermostat.jpg): Photo of a car engine thermostat built around a wax pellet element, with two valve discs *(licence: CC BY-SA 3.0)*
+  - [BOLTR: Wax Actuated Motor | Mindblowing OLD Tech (AvE)](https://www.youtube.com/watch?v=MiADday0mDA): Teardown of an appliance wax motor, cut in half to show the wax, seal and piston (featured by Hackaday, 2018; title checked with YouTube oEmbed; contains strong language) *(licence: YouTube standard licence; link only)*
+  - [Bimetallic strip from circuit breaker.JPG (Wikimedia Commons), by Dmitry G](https://commons.wikimedia.org/wiki/File:Bimetallic_strip_from_circuit_breaker.JPG): Photo of the thermal (bimetal) trip element taken from a circuit breaker *(licence: CC BY-SA 3.0)*
+- **make_it_yourself**: 
+  - [Hydronic Manifold Wax Motor Adapter, by Brian Piccioni (URL from Printables API, page not opened)](https://www.printables.com/model/1452459-hydronic-manifold-wax-motor-adapter): An adjustable printed threaded adapter that sets the height of a wax-motor heating head so its short stroke closes the valve; description read through the Printables API *(licence: Creative Commons Attribution)*
+  - [Automatic Greenhouse Vent Adapter, by deprav3d (Thingiverse)](https://www.thingiverse.com/thing:2745891): Printed adapter for fitting a cheap wax-cylinder automatic greenhouse window opener without drilling the aluminium frame; screws act as the pivot points *(licence: CC BY 4.0 (from the page's schema.org metadata))*
+  - [Wax Motors Add Motion To Your Projects (Hackaday, 2014), with electronicsNmore's video 'WAX MOTORS ~ A Full Understanding Of Operation & Construction'](https://hackaday.com/2014/11/10/wax-motors-add-motion-to-your-projects/): Tutorial and teardown explaining how PTC-heated appliance wax motors work and how to reuse salvaged ones in projects *(licence: article and video; link only)*
+  - [Homemade bimetallic strips - Thermostat demonstration // Homemade Science with Bruce Yeany](https://www.youtube.com/watch?v=5fI-El2kipE): Video showing how to make simple bimetal strips and use one as a thermostat (title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+- **diagram_idea**: Two side-by-side panels: left, a bimetal strip fixed at one end, drawn cold (straight) and hot (curved, with the high-expansion layer on the outside), its tip pushing a small sear so a spring-loaded latch flies open; right, a wax capsule cut in half, cold (solid wax, pin in) and hot (liquid wax grown 15%, pin out a few millimetres, return spring squashed), with a thermometer and a small PTC heater icon.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Bimetallic_strip (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Wax_motor (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Wax_thermostatic_element (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Thermal_cutoff (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Kettle
+  - https://en.wikipedia.org/wiki/Thermostatic_radiator_valve
+  - https://www.ibt.co.il/uploaded_files/documents/Kanthal_Thermostatic_Bimetal_U3743.pdf (Kanthal Thermostatic Bimetal Handbook, catalogue 3-A-1-3; formulas on pp. 11 and 109-110, application notes pp. 84-85 and 97)
+  - https://ntrs.nasa.gov/api/citations/19880012086 (Tibbitts, 'High output paraffin actuators: Utilization in aerospace mechanisms', 22nd Aerospace Mechanisms Symposium, 1988)
+  - https://ntrs.nasa.gov/api/citations/19880012086/downloads/19880012086.pdf
+  - https://ntrs.nasa.gov/api/citations/19910015305/downloads/19910015305.pdf (Maus and Tibbitts, 'Resettable binary latch mechanism for use with paraffin linear motors')
+  - https://www.nasa.gov/wp-content/uploads/2025/02/6-soa-structures-2024.pdf (NASA State-of-the-Art of Small Spacecraft Technology, Structures, Materials and Mechanisms; lists paraffin wax and thermal bimorph actuators)
+  - https://hackaday.com/2018/06/18/dissecting-the-elusive-wax-motor/
+  - https://hackaday.com/2014/11/10/wax-motors-add-motion-to-your-projects/
+  - https://hackaday.com/tag/wax-motor/
+  - https://www.theunderfloorheatingcompany.co.uk/product/24v-4-wire-thermal-actuator/
+  - https://www.resideo.com/gb/en/products/comfort/zoning-underfloor-heating/underfloor-heating/m4410k1515-thermoelectric-actuator-010v-small-stroke-100n-no-cable-m4410k1515/
+  - https://www.calcoelectric.com/images/pdfs_thermostats/calco_ksd301series.pdf
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/asa_1809
+  - https://commons.wikimedia.org/wiki/Category:Bimetallic_strips
+  - https://commons.wikimedia.org/wiki/File:Bimetal.gif
+  - https://commons.wikimedia.org/wiki/File:Bimetal_coil_reacts_to_lighter.gif
+  - https://commons.wikimedia.org/wiki/File:Double_valve_automotive_thermostat.jpg
+  - https://commons.wikimedia.org/wiki/File:Bimetallic_strip_from_circuit_breaker.JPG
+  - https://www.youtube.com/watch?v=MiADday0mDA (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=sApyrDEXGAI (verified via YouTube oEmbed; electronicsNmore wax motor video)
+  - https://www.youtube.com/watch?v=5fI-El2kipE (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=f45kAmjAOYA (verified via YouTube oEmbed; 'Animation How Wax type thermostat works', TechTrixInfo)
+  - https://www.printables.com/model/1452459-hydronic-manifold-wax-motor-adapter (URL from Printables API, page not opened; read via https://api.printables.com/graphql/)
+  - https://api.printables.com/graphql/
+  - https://www.thingiverse.com/thing:2745891
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, safety_notes, tools_needed, when_not_to_use
 
 ## 209 Burn-wire and fusible-link release (one-shot thermal release)
 
 *powered & active connectors.* A cord or low-melting link that holds something until an electric current or heat melts or cuts it, as in satellite and balloon releases
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A string, wire or soldered metal link that holds something shut until heat destroys it: an electric current makes a thin wire red-hot so it burns through the string, or a fire melts the solder in the link, and the part springs free, once only
+- **term**: Burn-wire release (hot-wire cutter, thermal knife) and fusible-link release (heat-responsive link): one-shot thermal release devices
+- **aliases**: 
+  - burn wire / burnwire / nichrome burn wire release mechanism
+  - thermal knife / thermal cutter / hot-wire cutter
+  - hot-wire cutdown / balloon cutdown / cut-down mechanism (high-altitude ballooning)
+  - fuse wire mechanism (spacecraft; e.g. NEA fuse wire mechanism, 41st Aerospace Mechanisms Symposium)
+  - flash wire (a nichrome link vaporised by a capacitor dump, DesertStar ARC-1; Hardy 2022)
+  - fusible link / heat-responsive link / fire link / damper link / fire-door link
+  - drop-off / timed release / drop-off unit (wildlife collars, e.g. OpenDrop, SensorDrop)
+  - electrolytic burnwire / corrosive link / galvanic link (ocean releases that dissolve a wire by electrolysis rather than heat, Hardy 2022)
+  - thermal fuse / thermal cutoff (the electrical cousin: a one-shot link that opens a circuit)
+  - fusible plug (boilers; Wikipedia, Wood's metal)
+- **family**: powered & active connectors
+- **other_families**: locks, latches & catches
+- **one_liner**: A one-time release in which a cord or soldered link holds a spring-loaded or hanging part until heat cuts or melts it, either on command (a current through a nichrome wire burns through the cord) or automatically in a fire (the link's low-melting solder lets go).
+- **complexity**: A few parts. Burn wire: a tie-down cord (e.g. Vectran or nylon), a short nichrome heater wire, springs that press the wire into the cord, a battery, a switch (MOSFET or relay) and a timer or trigger; the NRL CubeSat version adds two hard-anodised aluminium saddles on stainless dowel pins, compression springs, snap rings, ring terminals and screws (Thurn et al. 2012). Fusible link: 'two pieces of brass held together by ... a heat sensitive solder (a fusible alloy)' hooked between a spring-loaded door, damper or valve and its holder (Aire Technologies; Wikipedia, Fusible link).
+- **how_it_works**: The part to be released is held back, usually against a spring or its own weight, by a strong cord or by a two-piece link soldered together. To release it, heat breaks the holder. In a burn wire, current through a nichrome wire pressed against the cord makes it glow (over 750 °C in NRL tests) and it melts or burns through the cord in a few seconds; springs keep pushing the wire into the cord until it parts (Thurn et al. 2012). In a fusible link, heat from a fire melts the low-melting alloy at its rated temperature (for example 74 °C / 165 °F), the two metal pieces pull apart, and a spring closes a fire damper or door (Wikipedia, Fusible link; Fusible Links UK). The stored spring, gravity or buoyancy then does the work. The cord or link is used up and must be replaced.
+
+### Finder attributes
+
+- **job**: 
+  - hold or release using power: it holds a part with no power at all, then lets it go when a pulse of current burns through the tie
+  - join and hold: until it is fired it is a strong, light tie-down that holds deployables, payloads or doors against their springs
+- **motion**: none: it holds the parts still until it fires; afterwards the parts separate under their own spring force, weight or buoyancy
+- **degrees_of_freedom**: 0 while holding (the tie stops the part moving); after firing the parts are no longer joined
+- **special_behaviour**: 
+  - quick-release: once the tie parts, the whole load is let go at once; a nichrome cutter takes 2.4-7.2 s to cut (Thurn et al. 2012) and a capacitor-fired 'flash wire' goes in 0.03 s (Hardy 2022)
+  - fail-safe or breakaway: fusible links close fire dampers and fire doors and open sprinkler heads automatically when heat melts them, with no power or control system (Wikipedia, Fusible link; Wikipedia, Fire sprinkler); the OpenDrop firmware also drops a wildlife sensor early if its battery voltage falls to a critical level (SensorDrop, 2023)
+  - self-locking (holds under load, won't back-drive): it holds its load indefinitely with no power until fired, so a power failure never releases it by accident
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): a cord or tie loop physically restrains the part in tension
+  - material bond (glue, solvent or melting): the two halves of a fusible link are joined by a low-melting solder, and melting that bond is what releases it
+- **input_output**: not applicable
+- **power**: powered (burn wire) or passive (fusible link). A burn wire needs a short burst of current to fire: 1.60 ± 0.05 A constant current, needing at least 0.9 W, for the NRL CubeSat cutter (Thurn et al. 2012); 1-3 A at about 3.6 V for about 5 s for the OpenDrop wildlife drop-off (SensorDrop, 2023); a 9 V battery for simple balloon cutters (Bovine Aerospace). If power is lost before firing it stays locked (keeps holding); after firing it stays released. A fusible link needs no power: heat from a fire triggers it.
+- **removability**: semi-permanent (can be undone but may damage parts): releasing destroys the cord or melts the link, which must then be replaced; the cord can be cut by hand to undo it on the bench
+- **reuse_cycles**: once: each cord or link works only once ('Links cannot be reused after activation', Fusible Links UK); the nichrome heater itself can be reused, at least 50 and up to 80 times in NRL tests with a tightly controlled current (Thurn et al. 2012), so only the cord is renewed
+- **tools_needed**: a screwdriver to clamp the nichrome under screw heads with ring terminals (Thurn et al. 2012); scissors or a knife and knots or screws to re-rig the cord; heat-shrink tubing for balloon cutters (Bovine Aerospace); a multimeter to check heater resistance (0.4-0.9 Ω on the NRL design); a stereo microscope or magnifier to inspect the wire clamping on small units (Thurn); fusible links just hook on
+- **seal**: none: the cutter is open and must be sheltered from wind, which cools the wire (KI4MCW); water getting into the electronics caused one wildlife unit to drop 6 days early (SensorDrop, 2023); fusible links must not be painted or coated, 'coatings can impede heat transfer' (Fusible Links UK)
+- **load**: Light to medium, in pull (tension) only, and often multiplied by a lever or hook: NRL tie-down cords broke at 300 N (200 denier Vectran) and 600 N (400 denier) (Thurn et al. 2012); wildlife drop-offs used 22.6 kg (50 lb) nylon line in the field and 68.2 kg (150 lb) line in tests (SensorDrop, 2023); fire-damper fusible links are rated for only 3-10 lb (1.4-4.5 kg) (Aire Technologies). Ocean landers put the release element behind 'a force multiplier, such as a lever or pelican hook', and an electrolytic burnwire can hold 'hundreds of pounds' (Hardy 2022).
+- **adjustable**: no, once fitted: the release temperature of a fusible link is fixed by its rating (common ratings 57-141 °C, Fusible Links UK); for a burn wire the cord tension and wire position are set at assembly, and the cord must be tight enough that the springs stay preloaded (Thurn et al. 2012)
+- **play_and_precision**: not applicable as a locating joint. Release timing varies by type: nichrome cutters 2.4-7.2 s (Thurn et al. 2012), a 9 V balloon cutter about 10 s (Bovine Aerospace), a flash wire 0.03 s after firing (Hardy 2022), an electrolytic ocean burnwire about 10 minutes (Hardy 2022). Cords can creep under long-term load; NRL chose Vectran for 'its low creep over time' (Thurn).
+- **access_needed**: one side only (blind): the cutter, battery and wiring sit on the fixed side and the cord simply loops over or through the part to be released; fusible links hook between the two parts
+- **materials**: Heater: nichrome (typically 80% nickel, 20% chromium; melts at about 1,400 °C; resistivity about 1.12 µΩ·m, Wikipedia), e.g. 30 AWG (0.010 in) Chromel C (Thurn); Wikipedia notes nichrome was used in the solar-panel deployment mechanism of the LightSail-A spacecraft. Ties: Vectran braid (strong, low creep, resists self-abrasion, Thurn), nylon monofilament or synthetic rope (SensorDrop; KI4MCW); Mounts: hard-anodised aluminium to prevent shorting (Thurn), polycarbonate strip and brass spacers (SensorDrop). Fusible links: brass halves joined by a fusible alloy (Aire); low-melting alloys include Field's metal (62 °C, bismuth-indium-tin), Wood's metal (70 °C, contains lead and cadmium) and Rose's metal (98 °C) (Wikipedia, Fusible alloy). *(unverified parts omitted)*
+- **maker_difficulty**: 2012; SensorDrop, 2023) *(unverified parts omitted)*
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: nichrome wire, fusible links, thermal fuses, cord and line
+  - 3D print (FDM): housings and drop-off plates; SensorDrop's plate 'can be 3D printed and coated with finishing resin for water resistance ... or CNC-milled for greater strength' (SensorDrop, 2023)
+  - CNC: small machined metal saddles or plates that hold the hot wire (NRL used hard-anodised 6061 aluminium, Thurn et al. 2012)
+- **print_in_place**: no: the heater wire, cord and electronics are added to separately printed or machined parts, and the cord is re-rigged after every firing
+- **making_tips_3d_printing**: (1) Keep the hot wire off the plastic: nichrome runs at over 750 °C (Thurn) and PLA 'gets soft and deforms at temperatures over 60 °C' (Prusa), so suspend the wire on metal parts; SensorDrop stretches its nichrome across a 2 mm polycarbonate strip on brass spacers, because touching the plate cools the wire and can stop it melting the line, and warns that contact with other parts 'can lead to open flames'. (2) Waterproof the print: SensorDrop coats printed plates with epoxy finishing resin, or machines them when more strength is needed. (3) Hold the cord tight against the wire: NRL uses compression springs to keep pushing the wire through the cord, and if the cord sags the springs lose preload and the wire can stall inside the cord (Thurn); balloon cutters 'work best with at least a modest amount of static tension' (KI4MCW). Design the printed cord path so the cord is taut and cannot slide off the wire. (4) Leave the wire a free length of 10-32 mm away from metal clamps, which act as heat sinks (Thurn). (5) Give the electrical leads slack and no snag points; the small spring force cannot overcome a snagged lead (Thurn). (6) Shelter the cut zone from wind (KI4MCW suggests a cut-down foam coffee cup). (7) Use a heat-tolerant print material near the cutter, e.g. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search terms: 'nichrome wire 30 AWG' or 'Chromel C wire' (resistance wire); 'Vectran braided cord'; 'nylon monofilament' / 'fishing line'; 'logic-level MOSFET' or 'reed relay' and a 'constant current driver'; 'lithium battery' (works better in cold, KI4MCW); 'ring terminal #0' and small screws (Thurn); 'fusible link 165°F' / 'fire damper fusible link' / 'fire door fusible link' (common ratings 57-141 °C; 3-10 lb load); 'thermal fuse' / 'thermal cutoff' (one-shot electrical version); 'Field's metal' (non-toxic low-melting alloy); for alternatives or force multipliers: 'pelican hook', 'three-ring release', 'pin puller', 'Frangibolt' (shape-memory release bolt, NASA SOA), 'archery release' (servo-triggered balloon cutdown, Hackaday).
+- **rules_of_thumb**: 
+  - NRL CubeSat cutter: 30 AWG nichrome in a V with 10-32 mm free length (0.4-0.9 Ω), 1.60 ± 0.05 A constant current (1.40 A was the minimum to cut in air; 1.90 A burned the wire out in vacuum), at least 0.9 W, cut in 2.4-7.2 s, with a 30 s power timer for about 10 times margin (Thurn et al. 2012, 41st Aerospace Mechanisms Symposium).
+  - Air needs more current than vacuum, because moving air carries heat away; size the current for the worst case you will test in (Thurn et al. 2012).
+  - A standard 9 V battery heats about 3 in (75 mm) of 30 gauge nichrome enough to melt nylon cord in about 10 s; switch it through a relay or a transistor that can take the current (Bovine Aerospace, 2013).
+  - Give the cutter its own battery, separate from the flight electronics, so voltage sag cannot upset them (KI4MCW).
+  - Choose line strength so that the lines together hold at least twice the load (for wildlife drop-offs, twice the animal's mean body weight) (SensorDrop, 2023).
+  - Fusible links: pick a rating well above the highest normal room temperature, e.g. 165 °F (74 °C) links for up to 100 °F (38 °C) ambient and 212 °F (100 °C) links for up to 150 °F (66 °C) ambient; damper links are rated for 3-10 lb (Aire Technologies). Sprinkler practice is similar: 'ordinary' 57-77 °C heads for ceilings up to 38 °C (Wikipedia, Fire sprinkler).
+  - Electrolytic (seawater) burnwires corrode with as little as 5 V DC (10-21 V in higher-power systems); allow about 10 minutes for the corrosion when predicting release (Hardy 2022).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Fire sprinkler heads: 'each closed-head sprinkler is held closed by either a heat-sensitive glass bulb or a two-part metal link held together with a fusible alloy' (Wikipedia, Fire sprinkler)
+  - Fire doors, shutters and ventilation fire dampers held open by a fusible link that melts and lets a spring or closer shut them (Wikipedia, Fusible link; Aire Technologies)
+  - Thermal fuses inside coffee makers and hair dryers, one-shot links that cut the heater if a thermostat fails (Wikipedia, Thermal cutoff)
+  - Weather and high-altitude balloons and small satellites: a glowing nichrome wire cuts the payload free or releases folded antennas and solar panels (KI4MCW; Thurn et al. 2012)
+- **when_to_use**: Use a burn wire when something must be held firmly for a long time with no power and then released once, on command, with very little weight, cost or shock: satellite antennas and panels, balloon payload cutdowns, dropping a sensor or tag at a set time, releasing an anchor weight from an underwater instrument. NRL picked it because it runs on standard CubeSat power with simple electronics and is cheap enough for student projects (Thurn et al. 2012), and paraffin-latch designers note pyrotechnic releases 'deliver considerable shock' by comparison (Maus and Tibbitts). Use a fusible link when something must close or open automatically in a fire with no electricity, such as a damper, a fire door on a warehouse, or a self-closing safety cabinet.
+- **when_not_to_use**: Not when you need to release and re-latch many times: use a servo release (a servo-triggered archery release makes a reusable balloon cutdown, Hackaday 2021), a solenoid latch, a shape-memory pin puller or a resettable paraffin latch (Maus and Tibbitts). Avoid it where a glowing wire is a fire risk, such as near dry grass or on an uncontrolled balloon, unless it is well enclosed (Bovine Aerospace: 'there is a potential fire hazard'). Not for exact timing: cut time varies from about 2 to 10 s with current, air and cord (Thurn; Bovine). For fire doors that people use, building codes now mostly require smoke-detector-released hold-opens, because 'smoke and toxic gases can pass through the door opening before the fusible link becomes hot enough to release the door' (I Dig Hardware, Lori Greene).
+- **environment_limits**: The NRL cutter worked from -50 °C to 70 °C in air and vacuum 'without any noticeable effect', because the wire heats to over 750 °C (Thurn et al. 2012). Cold weakens batteries, so balloon cutters use lithium cells (KI4MCW); wind cools the wire and slows the cut (KI4MCW). Water in the electronics can short them and fire the release early (SensorDrop, 2023). Fusible links must be rated for the room's normal maximum temperature (a 165 °F link for up to 100 °F ambient, Aire) and must not be painted, corroded or contaminated (Fusible Links UK). Cords under constant load can creep; Vectran was chosen for low creep (Thurn). Electrolytic burnwires rely on seawater; the capacitor-fired flash wire 'also operates in fresh water' (Hardy 2022).
+- **safety_notes**: Fire and burns: the wire glows red to orange and reaches over 750 °C (Thurn); if the nichrome touches other parts it 'can lead to open flames', so keep it fully enclosed (SensorDrop, 2023); balloon builders warn of 'a potential fire hazard' (Bovine Aerospace). High current: cutters draw amps, not milliamps (1-3 A for OpenDrop, SensorDrop 2023; one rocketry reefing cutter switches its nichrome through MOSFETs that 'can each sink up to 20 amps from a 1S LiPo battery', Matthew Morley), so fuse the battery and avoid shorts. The held part usually stores spring energy and jumps when released; keep hands and faces clear during tests. It is one-shot: if it fails to fire the part stays locked, so critical releases use two cutters in parallel (NRL fitted 'two, redundant burn wire release mechanisms' on its tether system, Thurn). Some fusible alloys are toxic: 'Wood's metal is toxic because it contains lead and cadmium' (Wikipedia); Field's metal is the non-toxic alternative. A fusible link on a fire door is not a substitute for a code-approved smoke release (I Dig Hardware).
+- **common_failures**: Fails to cut: the cord sagged so the springs lost preload and the wire stalled in the cord, the nichrome was badly clamped under its screw, or a snagged lead held the wire back (Thurn et al. 2012); too little current or too much wind (KI4MCW); a weak or cold battery (KI4MCW; Bovine Aerospace suggests testing your battery on a length of wire first). Wire burns out: too much current, especially in vacuum where there is no air cooling (Thurn; failure near 1.9 A for 30 AWG). Short circuit: coils of nichrome wrapped too close together touch each other (KI4MCW). Early release: water ingress triggering a low-battery drop (SensorDrop), lines rubbed through by the environment or too few lines (SensorDrop), or a single-strand ocean burnwire work-hardening from side loads (Hardy 2022). Fusible link fails to release in time: painted or corroded link, or wrong rating (Fusible Links UK). Avoid by testing many firings on the bench, using a regulated current, keeping the cord taut, and using redundant cutters.
+- **related**: 
+  - Thermal actuators (bimetal strip, wax motor): also heat-driven, but they reset and can fire again
+  - Shape-memory-alloy wire latch and shape-memory release bolts (Frangibolt, listed by NASA's small-spacecraft survey): heat-triggered releases that can be reset on the ground
+  - Solenoid latch and servo or motorised latch: reusable electric releases; a servo-pulled archery release is a reusable balloon cutdown (Hackaday, 2021)
+  - Quick-release hooks (pelican hook, three-ring release): used with a burn wire as a force multiplier so a thin cord can hold a heavy load (Hardy 2022)
+  - Sear and trigger (trip release mechanism): the same idea of a small trigger releasing a large stored force
+  - Tamper-evident breakaway bridge (frangible link) and shear-pin coupling: one-shot links that break by force instead of heat
+  - Thermal fuse (thermal cutoff): an electrical one-shot link that opens a circuit when a pellet or fusible element melts (Wikipedia)
+  - Galvanic timed release and dissolvable links: ocean releases that let go after a set time as a metal link corrodes in seawater (Hardy 2022)
+  - Pyrotechnic cable cutter: an explosive charge cuts the cord in milliseconds, but gives shock and cannot be tested before use (Tibbitts 1988 lists these drawbacks for pyrotechnic initiators)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Fusible Link Release Mechanism ARC1.jpg (Wikimedia Commons), by Desertstar](https://commons.wikimedia.org/wiki/File:Fusible_Link_Release_Mechanism_ARC1.jpg): Close-up of the release in an ARC-1 underwater acoustic release: 'When fusible wire (B) burns, lever (A) can open freely, setting free anchor line attachment (C)' *(licence: CC BY 3.0)*
+  - [Satellite antenna deployment - Burn wire release mechanism (Fuzzy Droid)](https://www.youtube.com/watch?v=fXXgDV_GjAI): A burn wire cutting a tie so a folded satellite antenna springs open (title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+  - [NMSS Nichrome Wire Study (NewMexico SpaceStudies)](https://www.youtube.com/watch?v=A_gthivH21c): Bench test of nichrome wire burning through line as a high-altitude balloon cut-down (title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+  - [Proceedings of the 41st Aerospace Mechanisms Symposium (NASA NTRS), incl. Thurn et al., 'A Nichrome Burn Wire Release Mechanism for CubeSats', pp. 479-488](https://ntrs.nasa.gov/api/citations/20130008824/downloads/20130008824.pdf): Photos and CAD views of a spring-loaded nichrome burn wire release, stowed and deployed, and the wire glowing just after cutting a Vectran cord *(licence: NTRS: public use permitted)*
+  - [DIY CubeSat Build Part 3: Antenna Deployment Burn Circuit (Engineer Me This)](https://www.youtube.com/watch?v=Od7TsxxAIY4): Building and testing the burn circuit for a hobby CubeSat antenna release (title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+- **make_it_yourself**: 
+  - [OpenDrop, an open-source, low-cost drop-off unit for animal-borne devices (Wild-Spy; README read via raw.githubusercontent.com)](https://github.com/Wild-Spy/OpenDrop): Firmware, programming software, Gerber files for the timer PCB that fires a nichrome element, and CAD for a housing mould *(licence: GNU GPL v3.0)*
+  - [SensorDrop repository (README read via raw.githubusercontent.com)](https://github.com/KasimResearch/SensorDrop): Design files, schematics and parts lists for a nichrome-and-nylon-line release that drops a sensor from a wildlife collar; includes files for a 3D-printable or CNC-milled drop-off plate *(licence: GNU GPL v3.0 (stated in the SensorDrop paper))*
+  - [GPS Balloon Cutdown (Bovine Aerospace, 2013)](https://bovineaerospace.wordpress.com/2013/06/05/balloon-cutdown/): Build notes and circuit for an Arduino and GPS triggered nichrome cutdown that switches the wire through a reed relay *(licence: blog; link only)*
+  - [Thurn et al. 2012, 'A Nichrome Burn Wire Release Mechanism for CubeSats' (41st Aerospace Mechanisms Symposium proceedings, pp. 479-488)](https://ntrs.nasa.gov/api/citations/20130008824/downloads/20130008824.pdf): A full published design meant for student CubeSat teams: dimensions, parts list and costs (about US$166 each), constant-current circuit and test data *(licence: NTRS: public use permitted)*
+- **diagram_idea**: Three frames: (1) a hinged panel pushed by a spring but held shut by a taut cord that passes over a V of thin wire between two small posts; (2) a battery and switch close, the wire glows orange and sinks into the cord; (3) the cord parts, the panel swings open, and a small label says 'one shot: replace the cord'; an inset shows a fire-door fusible link (two brass plates soldered together) splitting apart at 74 °C.
+- **sources**: 
+  - https://ntrs.nasa.gov/api/citations/20130008824/downloads/20130008824.pdf (Proceedings of the 41st Aerospace Mechanisms Symposium, 2012; Thurn et al., pp. 479-488)
+  - https://ntrs.nasa.gov/api/citations/20130008824
+  - https://www.nasa.gov/wp-content/uploads/2025/02/6-soa-structures-2024.pdf (NASA State-of-the-Art of Small Spacecraft Technology, Structures, Materials and Mechanisms; lists burn wire, Frangibolts and thermal knife cutters)
+  - https://ntrs.nasa.gov/api/citations/19910015305/downloads/19910015305.pdf (Maus and Tibbitts, resettable paraffin latch; comparison with pyrotechnic devices)
+  - https://ntrs.nasa.gov/api/citations/19880012086/downloads/19880012086.pdf (Tibbitts 1988; drawbacks of pyrotechnic initiators)
+  - https://en.wikipedia.org/wiki/Fusible_link (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Thermal_cutoff (read via the Wikipedia API)
+  - https://en.wikipedia.org/wiki/Fusible_alloy
+  - https://en.wikipedia.org/wiki/Wood%27s_metal
+  - https://en.wikipedia.org/wiki/Nichrome
+  - https://en.wikipedia.org/wiki/Fire_sprinkler
+  - https://airetechnologies.com/products/fusible-links/
+  - https://www.fusible-links.co.uk/what-is-a-fusible-link
+  - https://idighardware.com/2013/04/decoded-fusible-links-and-smoke-actuated-hold-opens/
+  - https://sites.google.com/site/ki4mcw/Home/cutdown-mechanisms
+  - https://bovineaerospace.wordpress.com/2013/06/05/balloon-cutdown/
+  - https://hackaday.com/2021/03/27/archery-release-becomes-reusable-balloon-cutdown-mechanism/
+  - http://matthewmorley.com/projects/line-cutter/
+  - https://www.marinetechnologynews.com/news/lander-underwater-releases-623706 (Kevin Hardy, 'Lander Lab #4: Underwater Releases', 2022)
+  - https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37408628&rettype=abstract&retmode=text (abstract of Rafiq et al. 2023, SensorDrop, Ecology and Evolution, doi:10.1002/ece3.10220)
+  - https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10318577&retmode=xml (full text of the SensorDrop paper, PMC10318577, CC BY 4.0)
+  - https://raw.githubusercontent.com/Wild-Spy/OpenDrop/master/README.md
+  - https://raw.githubusercontent.com/KasimResearch/SensorDrop/main/README.md
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/asa_1809
+  - https://commons.wikimedia.org/wiki/File:Fusible_Link_Release_Mechanism_ARC1.jpg
+  - https://www.youtube.com/watch?v=fXXgDV_GjAI (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=A_gthivH21c (verified via YouTube oEmbed)
+  - https://www.youtube.com/watch?v=Od7TsxxAIY4 (verified via YouTube oEmbed)
+
+### Other info
+
+- **Fields with unverified parts:** maker_difficulty, making_tips_3d_printing, materials
 

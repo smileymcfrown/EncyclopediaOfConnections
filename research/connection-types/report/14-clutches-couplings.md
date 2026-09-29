@@ -978,7 +978,130 @@
 
 *clutches & couplings.* Weights on a spinning hub fly outwards as speed rises and press against a drum to engage drive automatically, as in go-karts and chainsaws
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A clutch that connects itself: weighted shoes on a spinning hub are held in by springs at low speed, then fly outwards as the engine speeds up and rub against a surrounding drum until they grip it and drive it round. Slow down and the springs pull the shoes back in, so the engine can idle without driving the wheels, chain or blade
+- **term**: Centrifugal clutch (automatic shoe clutch)
+- **aliases**: 
+  - automatic clutch / auto-clutch (Wikipedia; Wikipedia 'Motorcycle transmission')
+  - shoe clutch; the shoes are also called flyweights, weights or clutch shoes, and the drum is called the clutch bell or clutch drum (BLM Automatic Clutch; Wikipedia)
+  - go-kart clutch / mini-bike clutch / dry centrifugal clutch (Go Kart Supply)
+  - chainsaw clutch (the chain sprocket is part of the clutch drum) (Wikipedia)
+  - centrifugal pulley clutch (belt-drive version) (Go Kart Supply)
+  - floating-opposing-arm (FOA) clutch or compliant centrifugal clutch (spring-less one-piece shoe design from BYU) (Crane thesis; BYU CMR)
+  - 'traffic clutch' (1930s Talbot (brand) car name) (Wikimedia Commons)
+  - Saxomat (brand; automatic clutch system listed under 'See also' on Wikipedia)
+  - frizione centrifuga (Italian; Wikimedia Commons file name), Fliehkraftkupplung (German)
+- **family**: clutches & couplings
+- **other_families**: torque limiting & slip, brakes, dampers & speed control
+- **one_liner**: A clutch that engages by itself as it speeds up: spinning weights are flung outwards against a drum and drive it by friction, and they let go again when the speed drops.
+- **complexity**: A small assembly that acts as one unit: a hub (spider) fixed to the engine or motor shaft, two to six shoes (weights) lined with friction material, springs that pull the shoes inwards (or springy arms in one-piece compliant designs), and a drum (bell) that turns freely on a bushing or bearing and carries the output sprocket or pulley. Some racing-kart versions use weighted arms that squeeze a stack of friction discs instead of shoes (Wikipedia).
+- **how_it_works**: The shoes are fixed to the input shaft so they always turn with the engine, while the drum around them is free to turn on its own. The faster they spin, the harder the shoes pull outwards (centrifugal force, which grows with the square of the speed); below a set speed the springs win and the shoes stay clear of the drum, but above it they touch the drum, slip at first and then grip it fully (lock up) so the drum turns with the engine (Wikipedia; LNCT lecture notes). If the load drags the engine speed down, the shoes pull back in and the clutch slips or lets go, which stops the engine stalling (Wikipedia; Go Kart Supply). It works like a drum brake turned inside out (Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - hold or release using power: it connects the drive automatically once the engine or motor is spinning fast enough, and disconnects it at idle, with no lever or pedal (Go Kart Supply: 'the throttle becomes the single control')
+  - slip or let go when overloaded: if the load slows the engine too much, the shoes slip or retract so the engine does not stall (Wikipedia; Go Kart Supply)
+  - join and hold: once locked up it joins the engine shaft to the output sprocket, pulley or shaft so they turn as one
+- **motion**: rotate: continuous rotation; the shoes also move outwards a small distance (just enough to close the gap to the drum) as speed rises
+- **degrees_of_freedom**: Below engagement speed: 1, the drum turns freely relative to the hub. Once locked up: 0 between hub and drum (they turn together). Each shoe has its own small outward sliding or swinging movement.
+- **special_behaviour**: 
+  - fail-safe or breakaway: it disengages by itself at idle and when the engine is dragged down by an overload, so the engine does not stall and the drive stops when the throttle is released (Wikipedia; Go Kart Supply; Michigan chainsaw rule)
+  - torque-limiting (slips or clicks at a set force/torque): while engaging it slips, and the torque it can pass rises with speed, so it acts as a soft start and a speed-dependent slip clutch rather than a fixed-torque limiter (LNCT lecture notes; SUCO)
+  - one-way in a special sense: the engine can drive the output, but at idle the output cannot drive the engine, so there is no engine braking when coasting (Wikipedia 'Motorcycle transmission')
+- **holding_principle**: 
+  - friction or clamping (force-fit): the shoes press on the drum and the drive passes by friction
+  - spring force (a spring or springy part presses it in place): springs (or springy arms in compliant designs) hold the shoes away from the drum until the set speed is reached; this sets when it engages rather than holding the drive
+- **input_output**: Continuous rotation in -> the same rotation out (1:1) once locked up, nothing out at idle, and slipping rotation in between. Shafts: in line (the drum sits concentrically around the shoes on the same shaft axis). Torque capacity rises with the square of the speed above engagement: T = n x mu x m x r x (w^2 - w1^2) x R (LNCT lecture notes). Back-drivable: no at idle (the wheels or chain cannot turn the engine, so it freewheels downhill); yes only while the engine is already above lock-up speed, which then gives engine braking (Wikipedia 'Motorcycle transmission'). *(unverified parts omitted)*
+- **power**: passive (no power needed): it is driven purely by the speed of the input shaft and needs no external power or control; industrial makers stress it needs no power supply (SUCO). If the engine or motor stops, the clutch simply disengages.
+- **removability**: removable: it bolts onto a keyed shaft end (for example with a bolt into the tapped crankshaft end, a key and set screws) and comes off with ordinary tools (Go Kart Supply)
+- **reuse_cycles**: effectively unlimited: it engages and disengages every time the engine speeds up and slows down; the friction shoes and the drum bushing wear and are replaced as parts (Go Kart Supply; BLM Automatic Clutch)
+- **tools_needed**: To fit: spanner or socket, hex key for set screws, the shaft key, and a way to stop the crankshaft turning while tightening the bolt; for chain drives a chain tool (Go Kart Supply). To operate: none.
+- **load**: Light to medium: typical go-kart clutches suit 3 to 8 horsepower engines (Go Kart Supply), and centrifugal clutches have been replaced in cars by fluid couplings and torque converters (Wikipedia). Strong in twist once locked up; weak at low speed, because the torque it can pass falls quickly as speed drops. It is not meant to carry side loads: the drum runs on a bushing or bearing on the shaft.
+- **adjustable**: yes, by changing parts rather than a knob: stronger springs or lighter shoes raise the engagement speed, weaker springs or heavier shoes lower it (follows from the balance of spring force and m x w^2 x r; LNCT lecture notes). Many off-the-shelf clutches are preset (Max-Torque (brand) engages at about 2,200 rpm; Go Kart Supply). The engine's idle speed must be set below the engagement speed (Michigan chainsaw rule; BLM).
+- **play_and_precision**: not applicable for positioning: it slips while engaging, so it does not keep an exact angle between input and output. Once locked up there is no backlash between hub and drum. *(unverified parts omitted)*
+- **access_needed**: end of a tube or shaft: it slides onto the end of the engine or motor shaft and is held by a bolt, key or set screws
+- **materials**: Steel or cast hub and drum; sintered-metal or bonded friction-lined shoes (Max-Torque (brand) uses six sintered metal shoes; Go Kart Supply); music-wire or stainless-steel springs (stainless tolerates more heat; Go Kart Supply). The BYU compliant clutch was first milled from steel and is also offered as a 3D-printable model (BYU CMR on Printables). Printed demonstration models use PLA or similar with rubber bands as return springs (Printables model 982812).
+- **maker_difficulty**: moderate: fitting an off-the-shelf go-kart or pulley clutch to a small engine is easy, and a printed demonstrator is easy to make, but a home-made clutch that carries real power is hard because the friction surfaces get hot and must be balanced and strong at speed
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: go-kart, mini-bike, pulley, chainsaw, scooter and industrial centrifugal clutches are cheap and widely sold
+  - 3D print (FDM): demonstration models and light-duty spring-less compliant clutches (BYU CMR, Pinshape, Printables)
+  - CNC: milled steel hubs, shoes and drums; the BYU FOA clutch was originally milled from steel (BYU CMR on Printables) *(unverified parts omitted)*
+- **print_in_place**: no: printed versions are separate parts (a hub, a shoe piece and a drum, plus bearings) that are assembled; spring-less compliant designs avoid adding separate springs (BYU CMR: 'only two components' for hub and shoes; Pinshape model: shoe pulley, bell pulley and bearing bracket)
+- **making_tips_3d_printing**: 1) Start from a spring-less compliant design, where the shoes are joined by thin flexible links that act as the springs, such as BYU's floating-opposing-arm (FOA) clutch: only two printed parts for the hub and shoes, works in either direction of rotation (BYU CMR on Printables). 2) Remember the physics: outward force = shoe mass x radius x (speed)^2, so heavier shoes or shoes further out engage at lower speed; the spring (or flexure) force sets the speed where engagement starts (LNCT lecture notes). 4) Hand-cranked demonstrators work at 'humanly possible' speeds and can use rubber bands as the return springs and 20 mm bore ball bearings to carry the shafts (Printables model 982812 by Mortal 2020). 5) Expect supports on some designs: the Pinshape spring-less clutch prints in about 8 hours with full supports (RONRAYSING on Pinshape). 6) Heat is the enemy: slipping makes heat, PLA softens above about 60 C and PETG is good to about 80 C (Prusa), so do not let a printed clutch slip for long under load; *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'centrifugal clutch' with bore size (5/8 in, 3/4 in, 1 in) and sprocket teeth and chain size (#35, #40/41, #420) for go-karts and mini-bikes (Max-Torque (brand), Hilliard (brand), Noram (brand), Comet (brand); Go Kart Supply); 'centrifugal pulley clutch' for belt drives (Go Kart Supply); 'clutch bushing' and 'clutch spring' spares; 'chainsaw clutch' and 'clutch drum' (rim or spur sprocket); scooter CVT 'clutch bell' and 'clutch shoes'; nitro RC car 'clutch shoes', 'clutch springs' and 'clutch bell'; industrial 'centrifugal clutches and brakes' (SUCO (brand), BLM Automatic Clutch (brand)). For compliant designs, the BYU FOA clutch is patented (US 6,736,249) and licensed through BYU (BYU CMR on Printables).
+- **rules_of_thumb**: 
+  - Torque capacity: each shoe presses on the drum with its centrifugal force minus the spring force, Pc - Ps, where Pc = m x w^2 x r and the spring is set so Ps = m x w1^2 x r (w1 = speed where engagement starts). Total torque T = n x mu x (Pc - Ps) x R, so torque rises with the square of speed above w1 (LNCT Group of Colleges, ME403 Unit 4 clutch notes).
+  - In the textbook worked example, engagement begins at 3/4 of running speed, and a lining pressure of about 0.1 N/mm^2 is used 'to ensure reasonable life' when sizing the shoes (LNCT lecture notes).
+  - Idle speed must be below engagement speed so the output stops at idle: Michigan's chainsaw rule requires that releasing the throttle drops idle below clutch engagement so the chain comes to a complete stop (Mich. Admin. Code R 408.13882). Go-kart engines idle at about 1,650 +/- 200 rpm (Go Kart Supply).
+  - Typical go-kart clutch: starts to engage around 2,000 rpm and locks up around 2,600 rpm; suits 3 to 8 hp engines; gear about 1:6 between clutch sprocket and axle sprocket (e.g. 12 teeth to 72); wheels no taller than 15 in; kart plus driver no more than about 400 lb (Go Kart Supply).
+  - Don't let it slip for long: drive at full throttle so it locks up; slipping 'causes tremendous heat' that dries the bushing and can anneal (soften) the spring (Go Kart Supply).
+  - Spring heat limits quoted from the Spring Manufacturers Institute: music-wire springs about 250 F (121 C), 302 stainless-steel wire about 550 F (288 C) (Go Kart Supply).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Chainsaws and petrol string trimmers: the chain or line only moves when you squeeze the throttle (Wikipedia; BYU CMR on Printables)
+  - Go-karts and mini-bikes: the kart sits still at idle and moves off as you press the accelerator (Wikipedia; Go Kart Supply)
+  - Mopeds, automatic scooters and step-through motorcycles such as the Honda Super Cub (brand) (Wikipedia 'Motorcycle transmission')
+  - Lawn mowers and fuel-powered model cars (Wikipedia)
+- **when_to_use**: Use it when an engine or motor must start and idle without load, then pick up the load smoothly by itself as it speeds up: small petrol engines driving a chain, belt or blade (go-karts, mini-bikes, chainsaws, trimmers), and electric drives that need a soft, load-free start so a smaller motor can be used (SUCO). It also protects the engine from stalling when the output jams or is overloaded, since the slowing engine lets the clutch slip (Wikipedia; Go Kart Supply). Choose it when you want a single control (the throttle) and no clutch lever (Go Kart Supply).
+- **when_not_to_use**: Avoid it when the drive must engage at low speed or hold a load at standstill (it cannot hold anything when stopped; use a dog clutch, a one-way clutch or a brake), when you need engine braking or to hold back a vehicle going downhill (it freewheels at idle; Wikipedia 'Motorcycle transmission'), when the load is heavy for the engine, such as big wheels, heavy riders or hills, because it will slip and overheat (use a torque converter, the belt-type variable-ratio drive Go Kart Supply recommends for bigger karts), or when you need a precise, fixed torque limit (use a ball-detent or friction slip clutch). For cars it has been replaced by fluid couplings, torque converters and automated manual gearboxes (Wikipedia).
+- **environment_limits**: Heat is the main limit: long slipping overheats the shoes and drum, dries the oil-soaked bushing and can anneal the spring; shoes turning purple is a sign the clutch is ruined (Go Kart Supply); heat damage is not covered by warranty (BLM Automatic Clutch). Music-wire springs are rated to about 250 F and stainless to about 550 F (Go Kart Supply, citing the Spring Manufacturers Institute). Stainless springs don't rust (Go Kart Supply). Printed clutches: PLA softens above about 60 C and PETG is suitable below about 80 C (Prusa). Dirt and old lubricant in the bushing make it drag and can make it engage at idle (Go Kart Supply).
+- **safety_notes**: If the idle speed is set too high the clutch engages at idle, so a kart can move off or a chain can run by itself: be ready to switch the engine off when starting (Go Kart Supply), and chainsaws must be set so the chain stops at idle (Michigan chainsaw rule). There is no engine braking at idle, so a kart or scooter can run away downhill (Wikipedia 'Motorcycle transmission'). The drum and guard get hot after slipping (Go Kart Supply). Spinning drums, chains and belts are pinch and entanglement hazards: keep guards on (Michigan chainsaw rule requires the clutch to be guarded). *(unverified parts omitted)*
+- **common_failures**: 1) Slipping and overheating from driving slowly or with part throttle, stop-start use, riding the brake, bigger tyres, too much weight or the wrong gearing; it smells of burning lining and can end up ruined (Go Kart Supply; BLM). Fix: gear it correctly, keep weight down and use full throttle so it locks up. 2) Engages at idle because the idle speed is set too high or the springs are weak, worn or annealed by heat (BLM; Go Kart Supply). Fix: lower the idle with a tachometer, replace springs. 3) Won't engage because the engine can't reach the clutch's engagement speed (BLM). Fix: change the spring or the engine speed. 4) Worn or dry bushing between drum and shaft, from not oiling it (Go Kart Supply says oil it at least every two hours of driving) or from cleaning it with brake cleaner. 5) Chain and sprocket wear from wrong chain tension or misalignment (Go Kart Supply).
+- **related**: 
+  - Friction clutch (plate or cone clutch): engaged by a lever or pedal instead of by speed; can hold at any speed you choose
+  - Torque converter / belt variable-ratio drive (CVT): used on bigger go-karts; also changes the gear ratio as speed rises (Go Kart Supply); scooters combine a CVT with a centrifugal clutch
+  - Fluid coupling: an oil-filled automatic coupling that replaced centrifugal clutches in cars (Wikipedia)
+  - Speed governor (fly fan, centrifugal governor): uses the same flung-out weights, but to keep speed steady instead of to connect a drive
+  - Centrifugal brake: the same flyweights pressing on a fixed drum, used to limit speed, e.g. for descending loads or fire doors (SUCO)
+  - Friction slip clutch: slips at a set torque regardless of speed; a centrifugal clutch's slip torque depends on speed
+  - Dog clutch (claw clutch): teeth that lock with no slip, but must be engaged by hand and only at matched speed
+  - Inertia-locking reel (seat-belt lock): uses a flung-out weight to catch ratchet teeth and lock, instead of to create friction
+
+### Pictures, videos and models
+
+- **links**: 
+  - [CentrifugalClutch.jpg (Wikimedia Commons, by Fletcher6)](https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg): Close-up photo of a chainsaw's centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside the drum *(licence: CC BY-SA 3.0)*
+  - [Dry clutch02.JPG (Wikimedia Commons, by StNick at Bulgarian Wikipedia)](https://commons.wikimedia.org/wiki/File:Dry_clutch02.JPG): Photo of a Stihl (brand) three-shoe centrifugal clutch with numbered labels on the shoes, springs and hub *(licence: Public domain)*
+  - [Centrifugal clutch 1 (Nguyen Duc Thang, YouTube)](https://www.youtube.com/watch?v=QpwWZloh-cw): 17-second CAD animation: sliders on the input shaft move outwards as speed rises and press on the inside of the output drum *(licence: link only)*
+  - [3D Printed Compliant Centrifugal Clutch (BYU Compliant Mechanisms Research Group, YouTube)](https://www.youtube.com/watch?v=qANs9G38rzA): Video of BYU's printed spring-less floating-opposing-arm clutch (linked from the model's Printables page; title verified, video not reviewed) *(licence: link only)*
+  - [US Patent 598314 detail centrifugal clutch.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:US_Patent_598314_detail_centrifugal_clutch.png): Drawing from an 1898 US patent for an electric car, highlighting its centrifugal clutch *(licence: Public domain)*
+- **make_it_yourself**: 
+  - [Compliant Centrifugal Clutch (BYU CMR, Printables)](https://www.printables.com/model/581039-compliant-centrifugal-clutch): Printable version of BYU's floating-opposing-arm clutch: two components, shoes joined by flexible segments so no springs are needed, works in either direction (details read via the Printables API) *(licence: Creative Commons Attribution-NonCommercial (as listed on Printables))*
+  - [Centrifugal Clutch hand-cranked educational model (Mortal 2020, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/982812-centrifugal-clutch-hand-cranked-educational-model): Hand-cranked teaching model using 20 mm bore bearings, wooden supports and rubber bands as the return springs *(licence: Creative Commons Attribution-NonCommercial (as listed in the Printables API))*
+  - [Two Way Rotation Spring-less Centrifugal Clutch (RONRAYSING, Pinshape)](https://pinshape.com/items/36916-3d-printed-two-way-rotation-spring-less-centrifugal-clutch): Printable spring-less clutch in three parts (shoe pulley, bell pulley, bearing bracket) that engages in either direction and freewheels when the motor stops; about 8 hours to print with supports *(licence: CC BY-SA (as listed on Pinshape))* *(unverified parts omitted)*
+- **diagram_idea**: End-on view of a hub with three spring-held shoes inside a drum, shown at three speeds: idle (gap, drum still), engaging (shoes touching, arrows showing slip and heat) and locked up (drum turning with hub), with a small graph of torque rising with speed squared above the engagement speed.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Centrifugal_clutch
+  - https://en.wikipedia.org/wiki/Motorcycle_transmission
+  - https://commons.wikimedia.org/wiki/Category:Centrifugal_clutches
+  - https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
+  - https://commons.wikimedia.org/wiki/File:Dry_clutch02.JPG
+  - https://commons.wikimedia.org/wiki/File:Talbot_%27Traffic_Clutch%27_automatic_centrifugal_clutch_(Autocar_Handbook,_13th_ed,_1935).jpg
+  - https://commons.wikimedia.org/wiki/File:US_Patent_598314_detail_centrifugal_clutch.png
+  - https://www.gokartsupply.com/clutches.htm
+  - https://lnct.ac.in/wp-content/uploads/2020/04/ME403_Unit4_Clutches.pdf
+  - https://www.law.cornell.edu/regulations/michigan/Mich-Admin-Code-R-408-13882
+  - https://www.centrifugalclutches.com/blog/centrifugal-clutches-common-problems-solutions/
+  - https://www.suco.de/en/transmission-technology/centrifugal-clutches-and-brakes
+  - https://scholarsarchive.byu.edu/etd/79/
+  - https://www.printables.com/model/581039-compliant-centrifugal-clutch
+  - https://api.printables.com/graphql/
+  - https://pinshape.com/items/36916-3d-printed-two-way-rotation-spring-less-centrifugal-clutch
+  - https://www.youtube.com/watch?v=QpwWZloh-cw
+  - https://www.youtube.com/watch?v=qANs9G38rzA
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+
+### Other info
+
+- **Fields with unverified parts:** input_output, make_it_yourself, making_tips_3d_printing, play_and_precision, processes, safety_notes, seal
 
 ## 190 Spline shaft (sliding spline)
 
@@ -986,37 +1109,858 @@
 
 *Also covers:* Also covers hex shafts and LEGO-style cross axles
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A shaft with ridges running along its length (or simply a six-sided or cross-shaped shaft) that fits into a hole of the same shape, so a gear, wheel or sleeve on it must turn with the shaft but can still slide along it
+- **term**: Spline shaft (splined shaft and hub; sliding spline or slip spline when the hub is meant to slide)
+- **aliases**: 
+  - splined shaft / spline shaft; splined hub or spline bushing (the matching part with the grooves inside)
+  - sliding spline, slip spline, slip joint, slip yoke (the sliding spline in a vehicle drive shaft)
+  - spline coupling / splined coupling
+  - involute spline (curved gear-like teeth, standards ISO 4156, ANSI B92.1, DIN 5480)
+  - straight-sided spline / parallel-key spline / parallel spline (standard ISO 14)
+  - serrations / serrated shaft (small fine V-shaped teeth, e.g. knob shafts and servo outputs)
+  - helical spline (grooves that spiral round the shaft)
+  - ball spline / rotary ball spline (balls roll in the grooves for low-friction sliding under torque)
+  - hex shaft / hexagonal shaft (a six-sided shaft in a hex bore, the simplest spline for robots)
+  - rounded hex shaft ('ThunderHex' (brand) in FRC robotics), MAXSpline (brand, REV Robotics)
+  - cross axle / Technic axle (LEGO Technic (brand) cross-shaped axle and 'axle hole')
+  - master spline / blind spline (one wider tooth so the part fits only one way round)
+  - Keilwelle, Zahnwelle (German); 花键轴 (Chinese)
+- **family**: clutches & couplings
+- **other_families**: sliding, telescoping & linear motion, locating & alignment
+- **one_liner**: A shaft with lengthwise ridges or flat sides that fits a hub with a matching hole, so turning force passes between them while the hub stays free to slide along the shaft.
+- **complexity**: A few parts: the splined, hex or cross-shaped shaft (external spline); the hub, gear, sleeve or yoke with the matching hole (internal spline); and usually something to hold the hub in place along the shaft when it should not slide (shaft collar, retaining ring (circlip) or set screw). The rolling version (ball spline) adds a nut full of recirculating balls.
+- **how_it_works**: The ridges (teeth) on the shaft sit in matching grooves in the hub, so when the shaft turns, the sides of the teeth push on each other and the hub must turn too; this is a shape lock (form fit), not friction. Because the teeth run along the shaft, nothing stops the hub sliding lengthwise, so a spline can pass turning force while a drive shaft changes length or a gear or clutch ring slides into a new position (Wikipedia 'Spline (mechanical)'). Many teeth share the load, so a spline carries much more turning force for its size than a single key in a keyway. A hex shaft in a hex hole or a LEGO cross axle in a cross hole works the same way with fewer, flatter 'teeth'.
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: locks a gear, wheel, pulley, lever or coupling to a shaft so they turn together (Wikipedia; Slocum)
+  - let it move (turn, slide or bend): lets a part slide along a turning shaft, e.g. a drive shaft that changes length as suspension moves, a sliding gear or dog-clutch ring, or a clutch disc that must move to engage (Wikipedia; Tom Wood's Custom Drive Shafts; Thang 'Friction clutch 3')
+  - line parts up exactly: keeps two parts at a fixed angle to each other (angular correspondence); a master spline or a keyed shape lets the part go on only one way round (Wikipedia)
+- **motion**: rotate+slide: the hub and shaft always turn together, but the hub (or the inner half of a telescoping shaft) can slide along the shaft, as far as the splined length allows
+- **degrees_of_freedom**: 1 when free to slide: the hub can only move along the shaft; turning relative to the shaft is blocked apart from a little play (backlash). 0 when the hub is clamped or held by a collar or retaining ring.
+- **special_behaviour**: 
+  - self-aligning or self-centring: on involute side-fit splines the sloping tooth faces push the hub to the centre of the shaft when torque is applied (Gear Solutions, 'A Brief Overview of Splines')
+  - none of the other listed behaviours: it doesn't slip, click or lock one way; its trick is carrying turning force while still letting the hub slide
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the teeth or flats of the shaft sit in the matching grooves of the hub, so turning force passes by the tooth sides pushing on each other
+  - not a holding joint (it moves or passes on motion): along the shaft it holds nothing on its own; a collar, retaining ring, set screw or clamp is needed if the hub must not slide
+- **input_output**: Rotation in -> the same rotation out (1:1) in line on one axis, while also allowing a sliding (plunging) movement along the axis. Linear Motion Tips). Back-drivable: yes, it drives both ways and in both directions of turning. *(unverified parts omitted)*
+- **power**: passive (no power needed)
+- **removability**: removable: the hub slides off the end of the shaft once any collar, retaining ring or set screw is removed; tight or corroded vehicle splines may need a puller
+- **reuse_cycles**: many times: it can be slid on and off repeatedly; plastic bores (printed or LEGO) loosen with repeated fitting (Pololu warns that repeated removal of its tight-fitting hex adapter may loosen the connection)
+- **tools_needed**: None to slide it on and off; hex keys or circlip pliers for the collar or retaining ring that holds the hub along the shaft. Making true splines needs a hob, gear shaper, broach or milling machine (Wikipedia; RoyMech), which is why makers usually buy splined or hex shaft and hubs, broach or print hex holes, or 3D print the spline.
+- **load**: Heavy for its size in twist: many teeth share the load, so it carries significantly more torque for its size than a keyed joint and has a longer fatigue life (Wikipedia); RoyMech's worked example needs a key 70 mm long but a spline only 10 to 25 mm long for the same job. No hold at all along the shaft (it slides), and bending and sideways loads must be carried by the shaft and its bearings, not the spline. Plastic bores are weak: printed hex bores wear round under high or reversing torque (FRCDesign; Chief Delphi).
+- **adjustable**: yes: the hub can be fixed anywhere along the splined length (with a collar or clamp), and its angle can be changed in steps of one tooth by sliding it off and back on; not adjustable when a master spline allows only one angle
+- **play_and_precision**: Small play: sliding (side-fit) splines need a little clearance between the teeth, which shows up as backlash in both turning directions; Slocum warns that a clutch plate sliding on a spline brings backlash, so it is not suited to precision drives. Major-diameter-fit splines centre the hub more accurately on its outside diameter, while side-fit splines centre themselves under load (Gear Solutions). Repeatability of angle: exact to one tooth pitch. Misalignment: very little in plain splines; crowned splines are shaped to tolerate some angle (Wikipedia). Hex and cross shafts in printed or moulded holes have noticeable play unless tightly fitted.
+- **access_needed**: end of a tube or shaft: the hub has to be slid on from the end of the shaft
+- **materials**: Steel (often hardened) for vehicle, machine and aerospace splines; steel or aluminium hex shaft (FRC and FTC robotics, 1/2 in, 3/8 in and 5 mm across the flats); stainless and PTFE-coated sleeve splines for wet or dirty places (McMaster-Carr); moulded plastic for LEGO Technic cross axles; 3D-printed PLA, PETG, nylon or Onyx for maker hubs and splines, often with a metal hex insert or pressed-in hex tube to stop wear (FRCDesign; Chief Delphi).
+- **maker_difficulty**: easy for hex shafts and LEGO-style cross axles: buy hex shaft or LEGO axles and print or broach the matching hole; moderate for true involute or straight-sided splines: they print well but need tuning of clearance and print orientation, and machining them needs special tools, so buy a splined shaft and hub for heavy loads
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): hex bores, cross (LEGO) holes and splines in gears, pulleys and adapters; printed hex shafts and splined shafts for light loads
+  - CNC: broached hex holes, milled or hobbed splines, turned round sections on hex shaft for bearings (Slocum; Wikipedia)
+  - laser cut: hex or cross holes cut in plates that are stacked or pressed into printed parts (Chief Delphi team using laser-cut aluminium plates as hex inserts)
+  - off-the-shelf part: spline shafts and splined hubs, ball splines, hex shaft and hex-bore gears, bearings and collars, LEGO Technic axles and gears *(unverified parts omitted)*
+- **print_in_place**: no: the shaft and the hub are separate parts printed apart and slid together (a printed spline shaft can be printed in one piece, but it is not an assembly)
+- **making_tips_3d_printing**: 1) Clearance: start with about 0.5 mm total clearance for FDM parts that fit into each other and about 0.2 mm for resin (Hubs); FRCDesign suggests 0.1 to 0.5 mm depending on the fit wanted, and warns that holes print smaller than drawn. For a sliding fit aim for the loose end; for a fixed fit go tighter: the Dominator-Parts printed spline joint had play at 0.15 mm clearance and was reduced to 0.05 mm (Dominator-Parts README). Print a short test piece first (e.g. the SplineXS tolerance test on Printables). 2) Print orientation of shafts: a printed shaft stood upright tends to snap between layers where it steps down in size, because the layers lie across the shaft; print shafts lying down so the layers run along them. The Dominator-Parts shafts are printed as two flat halves glued together, and the Tarmo 4 RC drive shaft was changed to a hex shape printed lying flat, which its designer found carried clearly more torque even in PLA. A hex shape prints lying on a flat face with no supports, which is one reason printed shafts are often hexagonal (Tarmo 4 model notes). 4) Stop printed bores wearing round: use extra walls (5 to 6 perimeters) or solid material around the bore, dry filament and a slightly tight fit, or better, press in a metal hex insert or a piece of hex tube; high torque from a hex shaft, especially rounded hex, turns a printed hex hole round (FRCDesign; Chief Delphi thread 'Onyx 3D printed gears - hex wear'). 5) Material: PETG or nylon over PLA for parts that take shock or get warm; PLA softens above about 60 °C and breaks into shards on impact (Prusa). 6) LEGO-compatible holes: LEGO gives Technic holes as 4.9 mm while LDraw models use 4.8 mm, so printed parts from LDraw files are very tight; scale slightly to get the grip you want, and avoid thin fragile features in the axle hole (LDraw forum). 7) For sliding under load, keep the teeth long, lubricate them, and if friction is still too high use a ball spline or a plunging CV joint instead (NTN). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'spline shaft' / 'splined shaft' and 'splined hub' or 'spline bushing' (McMaster-Carr lists fully parallel splined, partially parallel splined and fully involute splined rotary shafts); 'ball spline' or 'rotary ball spline' (low-friction sliding, e.g. THK (brand)); 'sleeve spline' (PTFE-coated, for wet or dirty places); 'involute spline shaft' with the standard (ISO 4156, ANSI B92.1, DIN 5480); 'hex shaft' (1/2 in or 3/8 in for FRC, 5 mm for FTC, 3 mm on Tamiya (brand) hobby gearboxes), 'rounded hex shaft', 'hex bore bearing', 'hex bore gear', 'hex shaft collar'; 'D-shaft' with set screw hubs as the cheaper alternative; LEGO Technic (brand) 'axle' in lengths 2M, 3M, 4M and so on; adapters such as Pololu's '3mm hexagonal shaft adapter for LEGO wheels' and Adafruit's 'TT motor to LEGO cross axle adapter'; drive shaft 'slip yoke'; 'retaining ring' (circlip) and 'shaft collar' to hold hubs in place.
+- **rules_of_thumb**: 
+  - A spline carries significantly more torque for its size than a key and keyway and has a longer fatigue life (Wikipedia 'Spline (mechanical)'). In RoyMech's worked example for a 25 mm shaft carrying about 64 N·m (10 kW at 1500 rpm), a key needed to be 70 mm long, a six-tooth straight-sided spline 25 mm long and a module-1, 24-tooth involute spline only 10 mm long, each with a safety factor of roughly 2.3 to 3.5 (RoyMech 'Key/Spline Strength Calculations').
+  - Quick first sizing of an ISO involute spline: pitch diameter = outside diameter minus one module, and number of teeth = pitch diameter / module; e.g. a 50 mm spline with module 2 has a 48 mm pitch diameter and 24 teeth (RoyMech 'ISO Involute Spline').
+  - Involute splines come in 30°, 37.5° and 45° pressure angles; 30° is by far the most common (Gear Solutions; RoyMech).
+  - Side-fit splines have clearance at the top and bottom of the teeth and centre themselves under load through the sloping tooth faces; major-diameter-fit splines are centred by their outside diameters but may carry torque on only some teeth (Gear Solutions, 'A Brief Overview of Splines').
+  - Sliding splines need lubrication: poor lubrication leads to wear and fretting corrosion, and ideally oil should flow through the splines to carry the wear particles away (Gear Solutions). RoyMech's calculations derate sliding splines with a wear factor (0.7 in its example).
+  - Keep enough spline in engagement at full stretch: for vehicle drive shafts, at least 2 in (about 50 mm) of the slip yoke should stay engaged at all times, so usable travel = spline length minus 2 in (Tom Wood's Custom Drive Shafts).
+  - For a robot or maker project, the simplest spline is a hex shaft through a broached hex hole, with parts of the shaft turned round to run in bearings (Slocum, FUNdaMENTALs of Design, Topic 5, PDF pp. 34 and 54); FRC robots use 1/2 in and 3/8 in hex measured across the flats, and rounded hex can run in round bearings (FRCDesign; gm0 Kit Glossary).
+  - Printed hex bores wear round under high torque, especially on rounded hex; metal hex inserts or pressed-in hex tube fix it (FRCDesign 'Design for 3D Printing'; Chief Delphi).
+  - 3D-print fit: about 0.5 mm clearance for FDM and 0.2 mm for resin interlocking parts (Hubs); 0.1 to 0.5 mm as a starting tolerance depending on the fit (FRCDesign).
+  - A LEGO cross axle turns freely in a round hole but locks in a cross (axle) hole; axles are coloured by length, even lengths black and odd lengths grey (LEGO TECHNIC 101).
+  - A master spline (one wider tooth or groove) makes the part fit only one way round, as on bicycle cassettes and some aircraft propellers (Wikipedia).
+  - Conflicting advice on tooth shape: RoyMech says involute splines are stronger than straight-sided ones, while McMaster-Carr says straight-sided (parallel) teeth transmit more torque and involute teeth handle misalignment and reduce vibration and wear; for a maker either works, and the difference matters only in heavily loaded designs. *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - The drive shaft under a rear-wheel-drive car or truck, whose splined slip yoke slides in and out of the gearbox as the suspension moves (Tom Wood's Custom Drive Shafts; Wikipedia)
+  - A tractor's telescoping power take-off (PTO) shaft, where one part of the shaft slides inside another (eXtension ag-safety PTO guidance)
+  - A bicycle cassette sliding onto the splined freehub, with one wider groove so it fits only one way (Wikipedia)
+  - LEGO Technic cross axles, which spin freely in round holes but grip gears and wheels with cross-shaped holes (LEGO TECHNIC 101)
+- **when_to_use**: Use it when a gear, pulley, wheel, lever or coupling must be locked firmly to a shaft for turning force, especially if it also has to slide: a drive shaft whose length changes as a suspension or linkage moves, a telescoping drive, a gear or dog-clutch ring that slides into mesh, a clutch disc that must move to engage, or a sliding carriage driven from a turning shaft. It is also the neatest way to make parts that can be slid off and refitted at a set angle, like servo horns and knobs. For robots and maker projects, hex shaft with hex-bore gears, pulleys and bearings is the easy version: no keys, no set screws that loosen (Slocum). LEGO-style cross axles are ideal for quick, rebuildable mechanisms.
+- **when_not_to_use**: Avoid a plain sliding spline when it must slide easily while carrying heavy torque (friction between loaded teeth makes it stick and judder); use a ball spline or a plunging CV joint instead (NTN; Linear Motion Tips). Don't rely on it to hold anything along the shaft: add a collar, retaining ring or clamp. For precise, backlash-free positioning use a clamping hub, a keyless locking bush, an interference fit or a Hirth joint (Slocum lists interference fits and circumferential clamps as alternatives). For low-cost light-duty drives a D-shaft with a set screw or a clamping collar is simpler, and a key and keyway is the usual industrial alternative when splines are too expensive (Slocum). For shafts that are not in line, add a universal joint or CV joint, or a flexible coupling.
+- **environment_limits**: Metal splines need grease or oil; without it sliding splines wear and suffer fretting corrosion (Gear Solutions), and rusted splines can seize so they no longer slide. Dirt caught in the teeth speeds wear. Plastic parts: PLA softens above about 60 °C and PETG is rated to about 80 °C (Prusa), and printed hex or spline bores slowly creep and wear round under constant or reversing torque (Chief Delphi; FRCDesign). *(unverified parts omitted)*
+- **safety_notes**: Rotating shafts can catch clothing, hair and loose cords and wrap a person round them; guard long exposed shafts (ag-safety PTO guidance). A telescoping shaft that pulls apart while turning can swing wildly and strike anyone nearby, so keep enough spline engaged and hold the ends in place (ag-safety; Tom Wood's). *(unverified parts omitted)*
+- **common_failures**: 1) Wear and fretting of sliding splines, which grows play and roughness; lubricate and keep dirt out (Gear Solutions). 2) Sticking or juddering when sliding under load; lubricate, add engagement length, or use a ball spline or plunging CV joint (NTN). 3) Pulling apart when a telescoping shaft extends too far; keep the minimum engagement (about 2 in for vehicle drive shafts, Tom Wood's). 4) Cracks starting at the ends of the teeth or at sharp steps (Wikipedia); chamfer or run out the splines gradually. 5) Printed or aluminium hex bores 'wallowing out' into a round hole; use steel shafts, tight fits, thicker walls and metal inserts (Chief Delphi; FRCDesign). 6) Printed shafts snapping along layer lines when printed upright; print them lying down (Dominator-Parts README; Tarmo 4 model notes). 7) LEGO-style parts too tight to assemble or too loose to grip because of print size errors; scale and test (LDraw forum).
+- **related**: 
+  - Key and keyway (keyed shaft): a single square key carries the torque; cheaper and common in industry, but weaker for its size and gives no sliding under load (Wikipedia; Slocum)
+  - D-shaft with set screw or clamping hub: cheap and common on hobby motors, but set screws loosen and mark the shaft (gm0; Slocum)
+  - Servo horn and spline hub: a fine serrated spline on a hobby servo output, clamped by a screw so it doesn't slide
+  - Hirth joint (face spline): teeth on the flat end faces instead of along the shaft, clamped together for a precise, play-free fixed joint
+  - Ball spline: balls roll in the grooves so the hub slides easily even under high torque; used in SCARA robots (Linear Motion Tips)
+  - Constant-velocity joint, plunging type (tripod or double-offset joint): allows angle and length change in one part with much less sliding friction than a slide spline (NTN)
+  - Universal joint: joins shafts at an angle; drive shafts usually combine two universal joints with a sliding spline (Wikipedia)
+  - Dog clutch (claw clutch): its sliding ring runs on a spline or hex section
+  - Keyless locking bush (taper-lock bush): clamps a hub to a plain round shaft with no teeth, play-free, but does not slide
+  - Lobed (polygon) shaft and hub, or an interference fit: other ways to lock a hub without keys (Slocum)
+  - Telescoping tube with a slot and pin or a square tube: simpler non-round sliding joints for slow, light drives
+  - LEGO Technic (brand) driving ring on a ridged axle joiner: a toy-scale sliding spline that slides along to engage or disengage functions (Technicopedia)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Cardan-joint spline-shaft 3D animated.gif (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif): Animated 3D view of a drive (cardan) shaft with a universal joint at each end and an exposed splined section in the middle where the shaft can change length *(licence: CC BY-SA 2.5)*
+  - [Zahnwelle.jpg (Wikimedia Commons, by S. Wetzel)](https://commons.wikimedia.org/wiki/File:Zahnwelle.jpg): Cross-section drawings of spline shaft and hub with the three main tooth shapes: involute, straight-sided (parallel) and serrated (pointed) *(licence: CC BY-SA 4.0)*
+  - [Spline-shaft.png (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Spline-shaft.png): 3D view of a splined shaft and its matching hub, used in Wikipedia's 'Spline (mechanical)' article *(licence: CC BY-SA 2.5)*
+  - [Cassetteandfreehub.jpg (Wikimedia Commons, by Rado bladteth Rzeznicki)](https://commons.wikimedia.org/wiki/File:Cassetteandfreehub.jpg): Photo of a bicycle cassette and the splined freehub it slides onto, with the wider master spline visible *(licence: Public domain)*
+  - [Spline Shafts 101 — All You Need to Know (Grob, Inc., YouTube)](https://www.youtube.com/watch?v=AOAUTCEj6r0): Explainer video from a spline-making company on what spline shafts are and where they are used *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [HUANGYAN920 Mechanical: 'SPLINE-COUPLING' (渐开线花键联轴, no. 167) and 'BALL-SPLINE' (滚珠花键, no. 187)](https://huangyan920.github.io/Mechanical/): Interactive, adjustable browser animations of an involute spline coupling that passes torque while sliding, and of a ball spline *(licence: MIT)*
+  - [Tarmo 4 Drive shaft upgrade (Pilote NEXUS, Printables)](https://www.printables.com/model/994638-tarmo-4-drive-shaft-upgrade): A hexagonal RC-car drive shaft redesigned to print lying flat with 10 perimeters and no supports; the designer reports much higher torque than the original even in PLA (details read via the Printables API) *(licence: CC BY)*
+  - [FRC 20DP Gears - 1/2" HEX Bore (ultimate_hecker, Printables)](https://www.printables.com/model/964317-frc-20dp-gears-12-hex-bore): Printable robot gears with 1/2 in hex bores and extra tolerance for common printers, for light and medium loads (details read via the Printables API) *(licence: CC BY-NC)*
+  - [SplineXS (WCP-1021) Tolerance Test MM (Denbot, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1126509-splinexs-wcp-1021-tolerance-test-mm): A tolerance test print for fitting printed parts onto a small robot-motor spline *(licence: CC BY-NC)*
+  - [PTO shaft (Radek Š., Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/355826-pto-shaft): Printable PLA teaching model of a propeller (PTO) shaft *(licence: CC BY)*
+  - [Driveshaft #4 Unimog RC edition (Prism08, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/678504-driveshaft-4-unimog-rc-edition): Printed RC drive shaft with two universal joints and a sliding yoke that lets it change length between 57 and 59 mm as the suspension moves, with about 25° of angle *(licence: CC BY-NC)*
+  - [Lego Compatible (3706.dat) Technic Axle 6L (thall72, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/365395-lego-compatible-3706dat-technic-axle-6l): Printable LEGO-compatible cross axle, part of a series of printable Technic axles in many lengths *(licence: CC Public Domain)* *(unverified parts omitted)*
+- **diagram_idea**: A cut-away of a splined shaft and hub: first an end view showing the teeth locked in the grooves with arrows showing turning force passing across the tooth sides, then a side view with the hub sliding along the shaft, followed by small end-view thumbnails comparing a straight-sided spline, an involute spline, a hex shaft and a LEGO cross axle.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Spline_(mechanical)
+  - https://commons.wikimedia.org/wiki/Category:Spline_shafts
+  - https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif
+  - https://commons.wikimedia.org/wiki/File:Zahnwelle.jpg
+  - https://commons.wikimedia.org/wiki/File:Spline-shaft.png
+  - https://commons.wikimedia.org/wiki/File:Cassetteandfreehub.jpg
+  - https://www.youtube.com/watch?v=AOAUTCEj6r0
+  - https://roymech.org/Useful_Tables/Keyways/Splines_Inv.html
+  - https://roymech.org/Useful_Tables/Keyways/key_strength.html
+  - https://gearsolutions.com/departments/tooth-tips-a-brief-overview-of-splines/
+  - https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF
+  - https://www.mcmaster.com/products/spline-shafts/
+  - https://www.linearmotiontips.com/what-are-ball-splines/
+  - https://www.ntnglobal.com/en/products/catalog/pdf/5603E.pdf
+  - https://4xshaft.com/blogs/faq/how-much-of-my-spline-should-be-showing
+  - https://ag-safety.extension.org/power-take-off-safety/
+  - https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html
+  - https://frcdesign.org/learning-course/stage1/1b/shafts-bearings/
+  - https://frcdesign.org/design-handbook/structure/design-for-3d-printing/
+  - https://www.chiefdelphi.com/t/onyx-3d-printed-gears-hex-wear/395167
+  - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://medesign.seas.upenn.edu/uploads/Courses/TECHNIC_101.pdf
+  - https://www.technicopedia.com/fundamentals.html
+  - https://forums.ldraw.org/thread-28663.html
+  - https://www.pololu.com/product/1011
+  - https://www.adafruit.com/product/3810
+  - https://huangyan920.github.io/Mechanical/
+  - https://raw.githubusercontent.com/HUANGYAN920/Mechanical/master/README.md
+  - https://raw.githubusercontent.com/sweetlilmre/Dominator-Parts/main/README.md
+  - https://www.printables.com/model/994638-tarmo-4-drive-shaft-upgrade
+  - https://www.printables.com/model/964317-frc-20dp-gears-12-hex-bore
+  - https://api.printables.com/graphql/
+  - https://cs448m.github.io/lectures/machines/doc/1.pdf
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, make_it_yourself, making_tips_3d_printing, processes, rules_of_thumb, safety_notes, seal
 
 ## 191 Constant-velocity joint (CV joint)
 
 *clutches & couplings.* A joint that drives a shaft at an angle without the speed wobble of a simple universal joint, using balls in curved tracks
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A bendy joint for a spinning shaft, usually a ball-shaped joint with steel balls rolling in curved grooves, that passes turning force round a bend while keeping the output turning perfectly smoothly, with none of the speeding up and slowing down a simple cross-type universal joint gives
+- **term**: Constant-velocity joint (CV joint, homokinetic joint)
+- **aliases**: 
+  - CV joint; CV axle or half-shaft (a drive shaft with a CV joint at each end); CV boot or CV gaiter (its rubber cover)
+  - homokinetic joint; Gleichlaufgelenk (German); 等速万向节, 球笼万向节 (Chinese)
+  - Rzeppa joint (six balls in a cage between two grooved ball-shaped races)
+  - Birfield joint (a Rzeppa with offset tracks, the common outer joint on cars); ball fixed joint / BJ, EBJ (NTN (brand) names)
+  - fixed CV joint (outboard or wheel-side joint, large angle) and plunging or sliding CV joint (inboard, also lets the shaft change length)
+  - tripod joint / tripode joint (three rollers on a three-pointed spider in a three-groove cup; a plunging joint)
+  - double offset joint (DOJ) and cross-groove joint (plunging ball joints)
+  - Weiss joint / Bendix-Weiss joint (four balls in crossed grooves, no cage)
+  - Tracta joint (two interlocking swivels, used on 1920s-30s front-wheel-drive cars)
+  - double Cardan joint (two universal joints back to back; constant speed only when both angles are equal)
+  - Thompson coupling (two Cardan joints nested inside each other with a control yoke)
+  - CVD / 'CV-style driveshaft' (RC car term; a universal-joint variant, not a true CV joint, per RC Car Action)
+  - LEGO Technic (brand) 'steering / CV joint' parts
+- **family**: clutches & couplings
+- **other_families**: sliding, telescoping & linear motion
+- **one_liner**: A joint between two spinning shafts that lets them meet at an angle, even a changing one, while the output shaft turns at exactly the same speed as the input at every moment of each turn.
+- **complexity**: A small assembly that acts as one unit. Rzeppa (ball) type: an inner race (a grooved ball fixed to one shaft), an outer race or cup (a grooved bowl on the other shaft), usually six steel balls, a cage with windows that holds the balls, grease, and a rubber boot with clamps. Tripod type: a three-pointed spider with three barrel-shaped rollers, a cup with three straight grooves, grease and a boot.
+- **how_it_works**: In a simple cross-type universal joint the output speeds up and slows down twice each turn when the shafts are at an angle. A CV joint avoids this because the parts that carry the drive (the balls) are always kept in the plane that exactly halves the angle between the two shafts (the bisecting or homokinetic plane), so the geometry looks the same from both shafts and their speeds stay equal (Wikipedia; Thang's 'Rzeppa joint 1' and 'Birfield joint 1'). In a Rzeppa joint the balls sit half in grooves on the inner ball and half in grooves in the outer bowl, and a cage keeps them in that halfway plane as the joint bends. A tripod joint's rollers slide in straight grooves instead, so it also lets the shaft slide in and out (plunge), though over a smaller angle (Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): passes rotation from one shaft to another at an angle that can change while it turns, e.g. to a steered, bouncing car wheel (Wikipedia)
+  - let it move (turn, slide or bend): plunging types (tripod, double-offset) also let the shaft change length, replacing a separate sliding spline (NTN catalogue)
+- **motion**: rotate: continuous rotation passed through an angle; the shafts can swivel relative to each other up to about 45-48° (Rzeppa or Birfield fixed joints, some to 54°) or about 20-26° for plunging joints, which also slide in and out about 50 mm (rotate+slide) (Wikipedia; NTN)
+- **degrees_of_freedom**: Fixed CV joint: 2 (the output shaft can tilt in any direction, up and down or side to side), while turning is locked so both shafts rotate together at the same speed. Plunging CV joint: 3 (the same two tilts plus sliding in and out along the shaft).
+- **special_behaviour**: 
+  - self-aligning or self-centring: the cage or track geometry automatically keeps the balls in the plane halfway between the two shafts as the angle changes, which is what makes the speed constant (Wikipedia; Thang)
+  - none of the other listed behaviours: it doesn't slip, lock or index; its special trick is constant output speed through a bend
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): turning force passes from the grooves of one race through the balls (or rollers) to the grooves of the other
+  - not a holding joint (it moves or passes on motion): it is a drive joint, free to bend and, in plunging types, to slide
+- **input_output**: Continuous rotation in -> continuous rotation out at the same speed (1:1) with no speed ripple, between shafts that intersect at an angle of 0° up to about 45-48° for fixed ball joints or about 20-26° for plunging joints (Wikipedia; NTN). NTN reports newer ball joints cut the torque loss of older designs by 30 to over 50% (NTN Technical Review 89). Back-drivable: yes, it drives equally well in either direction and from either shaft. *(unverified parts omitted)*
+- **power**: passive (no power needed)
+- **removability**: removable: the joint is usually pushed onto a splined shaft and held by a circlip, and the outer joint's shaft is held by the wheel-bearing nut (Wikipedia), so it can be taken off and refitted; the joint itself is normally replaced as a unit rather than rebuilt (YourMechanic: most CV joints are not serviceable)
+- **reuse_cycles**: many times: the joint can be removed from and refitted to its shaft repeatedly; opening the joint itself (balls, cage) is done only occasionally, for cleaning and regreasing
+- **tools_needed**: Circlip (retaining ring) pliers, boot-band (clamp) pliers, spanners or sockets for the axle nut or flange bolts, and CV-joint grease. Printed joints: files, a drill bit to clean the tracks, and sometimes glue for printed ball halves (Printables LCD-knob and mini Rzeppa notes).
+- **seal**: dust-resistant: the joint is not sealed itself, but a flexible rubber boot (CV boot or gaiter) with clamps covers it to keep dirt and water out and grease in (Wikipedia); NTN says its boot-sealed industrial joints can be used where water splashes, humidity and dust occur, while its open disc-type joints are not fully sealed
+- **load**: Heavy in twist: car CV joints carry full engine torque to the front wheels (Wikipedia). The torque it can carry for a given life falls as the working angle rises (NTN uses an operating-angle factor in its life calculation). Fixed joints also hold the two shafts together along their length; plunging joints carry no pull or push along the shaft, they slide. *(unverified parts omitted)*
+- **adjustable**: no: nothing is adjusted after assembly; plunging types take up changes in length automatically
+- **play_and_precision**: Small or no play: CV joints work 'without an appreciable increase in friction or backlash' (Wikipedia), and the Weiss joint uses two of its four balls to preload the joint so there is no backlash when the load reverses. Angle following is exact (constant velocity), unlike a single universal joint, which gives a small cyclic position error (Slocum). Misalignment tolerance: large angles, from about 5° for NTN coupling-type joints (which also take 3.5-11.5 mm of sideways offset) up to about 45-48° for fixed ball joints; plunging types also take length change (NTN; Wikipedia). A single fixed joint cannot take sideways offset between parallel shafts; that needs a joint at each end of a shaft.
+- **access_needed**: end of a tube or shaft: each half fits onto the end of a shaft, usually on a spline with a circlip or a bolted flange
+- **materials**: Hardened steel races, cage and balls (NTN changed its outer races from carburised steel to induction-hardened medium-carbon steel), packed with CV-joint grease (molybdenum disulfide grease per Wikipedia; NTN moved from lithium-based to urea-based grease for longer life), under a rubber boot. Maker and RC versions: PLA or PETG printed races and cage with steel balls (about 3 mm in a 15 mm printed Rzeppa, about 6 mm in Tarmo5-style RC joints), or printed balls for light demonstrators (Printables model notes).
+- **maker_difficulty**: hard: the curved ball tracks and the cage must be accurate and smooth, so a load-carrying joint is best bought (from a car, RC or industrial supplier); a working demonstrator or light-duty joint can be printed with steel balls, but needs fine layers, careful clean-up and patience to assemble
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): demonstration joints, LCD and panel knobs, fischertechnik and LEGO-compatible joints, and RC-car CV joints with steel balls (Printables models)
+  - off-the-shelf part: car CV joints and axles, RC-car CVD drive shafts, LEGO Technic CV joints, industrial CV joint shafts (NTN) *(unverified parts omitted)*
+- **print_in_place**: no: working printed CV joints are printed as separate races, cage and balls and then assembled, often with steel balls; print-in-place 'angular joints' exist but the one checked turned out not to be constant-velocity (Printables 'Print in place angular joint for fischertechnik' note)
+- **making_tips_3d_printing**: 1) Use real steel balls where you can: printed balls work in a demonstrator, but the Printables CV LCD-knob designer notes 8 mm steel balls 'roll much better' than printed ones; the 15 mm mini Rzeppa for fischertechnik uses six 3 mm steel balls, and Tarmo5-derived RC CV joints use 6 mm steel balls. 2) Print fine and solid: the mini Rzeppa is printed at 0.12 mm layers or less with 100% infill and a brim if needed, and its tracks are cleaned out with a 3 mm drill, round and flat files and a small ball-shaped rotary file so the balls run freely. 3) The cage is the weakest part: print it in PETG at a high temperature for strength, and when assembling always push it from the outside rather than pulling from inside a hole, or it can break between two windows (mini Rzeppa notes). 4) Clearance: a University of Wisconsin-Madison student project found its first printed Tracta joint had interference at critical dimensions and sliding was stiff because of rough layer lines; they filed the parts and planned more clearance and different print orientations for the next build (UW-Madison ME 514 blog). Print-in-place designs use gaps of about 0.15 to 0.25 mm and fail if the printer over-extrudes (Printables fischertechnik angular joint). 5) Smooth and grease the sliding spheres: sand the spherical surfaces lightly and add a little grease for smoother running (CV LCD-knob notes). If the fit is loose or tight, scale the balls slightly up or down (same notes). 6) Assembly trick: turn the inner race 90° to the cage and feed it in through a cage window, then turn it back; do the same to put the cage into the outer race; then tilt the joint to drop each ball into its track through the cage window (CV LCD-knob notes). 7) Check the design really is constant-velocity: the balls must stay in the halfway plane; a nearby print-in-place angular joint was found not to be CV after a comment (Printables). 8) For RC or robot drives, make the joint's connection to the shaft or wheel strong; one Tarmo 5 builder kept stripping hex connections in plastic and switched to a square drive (Printables 'Rim and Rear CV joint for TARMO 5'). Add a guard to keep dirt out (the Cramer truggy remix adds mudguards for its CV joints). 9) Material: PETG or nylon rather than PLA for anything that gets warm or takes shocks; PLA softens above about 60 °C (Prusa).
+- **off_the_shelf_parts**: Search for: 'CV joint', 'CV axle' or 'half shaft' (car parts, sold as inner and outer joints with 'CV boot kit' and 'CV joint grease'); 'Rzeppa joint', 'Birfield joint', 'tripod joint' or 'tripode joint', 'double offset joint (DOJ)', 'cross groove joint'; industrial 'constant velocity joint shafts' (NTN (brand) fixed disc, fixed cup, sliding and coupling types); RC 'CVD drive shaft' or 'universal driveshaft' (note: not true CV); 'double Cardan joint'; LEGO Technic (brand) 'steering CV joint'; steel balls (e.g. 3 mm or 6 mm 'steel ball bearings' / 'loose balls') for printed joints; boot clamps ('CV boot clamp', 'ear clamp').
+- **rules_of_thumb**: 
+  - Typical Rzeppa (ball) joints allow 45° to 48° of bend, and some special ones 54° (Wikipedia, citing NTN Technical Review 75); NTN's own fixed ball joints went from 42.5° (BJ) to 46.5° (BJ-L), with high-angle versions of 50° and 52° (NTN Technical Review 89).
+  - A typical tripod (plunging) joint has up to 50 mm of plunge and 26° of angle; it is cheaper and more efficient than ball joints but has less angle, so it is used at the gearbox end of front-wheel-drive shafts (Wikipedia, citing GKN).
+  - NTN industrial CV joints: fixed cup type up to 42° for the bare joint, but only 25° while turning and 38° standing still once a boot is fitted; fixed disc type 14° to 18°; sliding (plunging) type 20° for small sizes and 8° to 10° for large ones; coupling type 5°, with 3.5 to 11.5 mm of sideways offset on short-shaft versions (NTN catalogue 5603E). The allowed angle is limited by the boot and the speed, not just the joint.
+  - Plunging CV joints slide by the balls rolling, so their sliding friction under torque is much lower than that of a sliding spline shaft, and they can absorb end-to-end vibration (NTN catalogue 5603E, 'Sliding Type').
+  - Why it matters: in a single universal joint the output-to-input speed ratio swings between cos(angle) and 1/cos(angle) twice per turn (Wikipedia 'Universal joint' formula); at 30° that is roughly 0.87 to 1.15 times the input speed. A CV joint keeps the ratio at 1.
+  - A double Cardan joint (two universal joints back to back) gives constant speed only if both joint angles are equal; to be truly constant-velocity it needs a centring element (Wikipedia).
+  - Real 'nearly CV' designs still have small errors: in Thang's simulations his Rzeppa model's output speed varied by up to 1.5% at 30° and his tripod model by up to 3.4% at 15° (Nguyen Duc Thang, 2700 Animated Mechanical Mechanisms, Part 1, p. 10).
+  - Always keep the joint covered and greased: a CV joint is usually lubricated with molybdenum disulfide grease under a rubber boot, and cracks in the boot let dirt in so the joint wears quickly or fails (Wikipedia; YourMechanic).
+  - Put fixed CV joints where the angle is largest (the steered wheel end) and plunging joints where the shaft must change length (the gearbox end) (NTN Technical Review 89; Wikipedia).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The drive shafts to the front wheels of a front-wheel-drive car, visible behind the wheels as black ribbed rubber boots (Wikipedia; Wikimedia Commons photos)
+  - Radio-controlled car drive shafts (though most RC 'CVDs' are really a universal-joint variant, per RC Car Action)
+  - LEGO Technic steering CV joints in model cars with steered, driven wheels (Printables LEGO-compatible CV joint parts; Lego Technic Mastery video)
+  - Drive shafts in industrial machines such as printing presses, rolling mills and tractor tillers (NTN catalogue applications list)
+- **when_to_use**: Use it when a spinning shaft must drive something at an angle, especially a large or changing angle, and the output must turn smoothly: a steered and driven wheel on a robot or vehicle, a wheel on moving suspension, a drive that must bend round an obstacle, or a knob or control turned through an angle (the Printables CV LCD knob). It is the right choice when a single universal joint would cause vibration or jerky motion because the angle is more than a few degrees (Wikipedia). A plunging CV joint is a good choice when the shaft must also change length under torque, because it slides far more easily than a spline (NTN).
+- **when_not_to_use**: For very small misalignment between nearly in-line shafts, use a flexible coupling (beam, jaw or Oldham) instead; it is simpler and has no play. For slow drives at small angles, a single universal joint is cheaper and easier to make; for larger angles a pair of universal joints (double Cardan) is easier to print and build than a ball-type CV joint (Printables educational double Cardan model). For a fixed 90° turn use bevel gears. For angles beyond about 45-50°, or bends round corners, use a flexible drive shaft or gears. Avoid ball-type CV joints in harsh, dirty places where the boot can be torn, unless it is protected; an all-metal universal joint inside a housing may be better there (Wikipedia).
+- **environment_limits**: Dirt and water are the main enemies: the rubber boot keeps them out and grease in, but boots can crack from age, heat, chemicals or physical damage, after which the joint wears fast (Wikipedia; Commons 'Cracked CV boot' photo; YourMechanic). Boot durability also limits the speed and angle allowed (NTN). Grease type matters for life; NTN switched from lithium to urea grease for longer life. *(unverified parts omitted)*
+- **safety_notes**: Spinning drive shafts and joints can catch clothing, hair or cords; keep them guarded (eXtension ag-safety PTO guidance on rotating drivelines). The free end of a plunging joint can slide off its splined shaft when handled, so support it (NTN caution). *(unverified parts omitted)*
+- **common_failures**: 1) Torn or cracked boot, grease thrown out and dirt let in, leading to wear, play and a clicking noise when turning (Wikipedia; YourMechanic); inspect boots and replace them early. 2) Running beyond the allowed angle or speed, which damages the boot or makes the joint bind (NTN). 3) Plunging joint pulled apart or bottoming out when the shaft length changes more than it allows (NTN caution on the free side). 4) Printed joints: the cage cracks between windows during assembly (mini Rzeppa notes); parts too tight or rough to slide (UW-Madison); printed balls skid instead of rolling (CV LCD-knob notes); the shaft or wheel connection strips before the joint does (Tarmo 5 rim and CV remix). 5) A design that looks like a CV joint but isn't constant-velocity, which vibrates like a universal joint (Printables fischertechnik angular joint note).
+- **related**: 
+  - Universal joint (Hooke's or Cardan joint): simpler and strong, but the output speed wobbles twice per turn at an angle and it gets 'notchy' at large angles (Wikipedia)
+  - Double Cardan joint: two universal joints back to back; constant speed if both angles are equal; common in steering columns and off-road drive shafts (Wikipedia)
+  - Tracta joint: an early CV joint with two interlocking swivels (Wikipedia; Thang 'Tracta joint 1')
+  - Weiss (Bendix-Weiss) joint: four balls in crossed grooves with no cage, preloaded for no backlash (Wikipedia)
+  - Thompson coupling: two nested Cardan joints with a control yoke; needs at least about 2° of angle to avoid wear (Wikipedia)
+  - Spline shaft (sliding spline): lets a drive shaft change length; plunging CV joints do this with far less friction (NTN)
+  - Flexible beam, jaw and Oldham couplings: for small misalignment between nearly in-line shafts only
+  - Bevel gears: turn drive through a fixed angle, usually 90°, and can change speed too
+  - Flexible drive shaft (rotating cable): carries rotation round real bends, but twists under load
+  - Ball-and-socket joint: moves in the same directions but passes no turning force
+  - RC car dogbone and CVD drive shafts: cheap pin-in-slot or universal-joint variants that bind at extreme angles (RC Car Action)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Simple CV Joint animated.gif (Wikimedia Commons, by Pwld)](https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif): Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article *(licence: Public domain)*
+  - [CV-Joint-WithTransparency.gif (Wikimedia Commons, by MichaelFrey, made in OpenSCAD)](https://commons.wikimedia.org/wiki/File:CV-Joint-WithTransparency.gif): Animation of a constant-velocity joint drawn partly transparent so the balls and inner parts can be seen *(licence: CC BY-SA 4.0)*
+  - [Tripod half axle.png (Wikimedia Commons, by Martin Jediny)](https://commons.wikimedia.org/wiki/File:Tripod_half_axle.png): A tripod joint on a car half axle: the three-pointed spider with rollers on a splined shaft end *(licence: CC BY-SA 4.0)*
+  - [2008-04-23 Cracked CV boot.jpg (Wikimedia Commons, by Ildar Sagdejev)](https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg): Photo of a cracked rubber CV boot on a car axle, the most common start of CV joint failure *(licence: CC BY-SA 4.0)*
+  - [Rzeppa joint 1 (Nguyen Duc Thang, YouTube thang010146)](https://youtu.be/6thw8xPt6ro): CAD animation of a Rzeppa joint running straight and then at 30°, showing how the balls stay in the halfway plane *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [HUANGYAN920 Mechanical: 'CV-JOINT' (球笼万向节机构, no. 93), 'TRIPOD-JOINT' (三销式等速节, no. 210) and 'BALL-FORK-JOINT' (球叉式等速节, no. 217)](https://huangyan920.github.io/Mechanical/): Interactive, adjustable browser animations of a ball-cage (Rzeppa-type) CV joint, a tripod joint and a ball-fork (Weiss-type) joint *(licence: MIT)*
+  - [Constant Velocity Joint LCD-Knob (JBoe, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/243490-constant-velocity-joint-lcd-knob): A fully printable Rzeppa-style CV joint used as a 3D-printer display knob, with printed or 8 mm steel balls, step-by-step assembly instructions and print settings (0.15 mm layers, support only for the cage) *(licence: CC BY-NC)*
+  - [Mini Rzeppa constant velocity joint for fischertechnik (juh, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/639420-mini-rzeppa-constant-velocity-joint-for-fischertec): A working 15 mm Rzeppa joint using six 3 mm steel balls, with detailed notes on fine printing, filing the tracks and handling the fragile cage *(licence: CC BY-NC-SA)*
+  - [3D Printed RC car Tarmo5 (Engineering Nonsense, Printables)](https://www.printables.com/model/348623-3d-printed-rc-car-tarmo5): A mostly printed 40 mph RC car with printed CV joints (the design remixed in the Cramer truggy below, which uses 6 mm steel balls); build video at https://youtu.be/r2UDc4A8huY (details read via the Printables API) *(licence: CC BY-NC-SA)*
+  - [Cramer RC Truggy - upgraded axle / driveshaft / CV joints (shane, Printables)](https://www.printables.com/model/512061-cramer-rc-truggy-upgraded-axle-driveshaft-cv-joint): Remix that swaps binding dogbone drive shafts for Tarmo5-style printed CV joints (PLA races and cages, 6 mm steel balls, TPU torque dampers); the builder reports less binding and no breakages so far (details read via the Printables API) *(licence: CC BY-NC)*
+  - [Reproduction Constant velocity joint M.GECIK (NOP21, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/48771-reproduction-constant-velocity-joint-mgecik): Printed PLA reproduction of a linkage-type constant-velocity joint with 13 small bearings and M4 screws; video at https://www.youtube.com/watch?v=T3EsRXmOTlA *(licence: CC BY-NC-ND)*
+  - [Educational Model of Double Cardan Universal Joint (osamutake, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1498409-educational-model-of-double-cardan-universal-joint): Printable teaching model of a double Cardan joint, the easier-to-print way to get constant speed at an angle, on an 80 x 80 mm base plate *(licence: CC BY)*
+- **diagram_idea**: Side-by-side animation: a single universal joint and a Rzeppa CV joint both driven at a steady speed with the output bent to 30°, each with a pointer on the output shaft and a speed graph underneath (wavy for the universal joint, flat for the CV joint), plus a cut-away of the CV joint showing the balls staying in the plane that halves the angle.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Constant-velocity_joint
+  - https://en.wikipedia.org/wiki/Universal_joint
+  - https://commons.wikimedia.org/wiki/Category:Constant-velocity_joints
+  - https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
+  - https://commons.wikimedia.org/wiki/File:CV-Joint-WithTransparency.gif
+  - https://commons.wikimedia.org/wiki/File:Tripod_half_axle.png
+  - https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
+  - https://www.ntnglobal.com/en/products/catalog/pdf/5603E.pdf
+  - https://www.ntnglobal.com/en//products/review/pdf/NTN_TR89_en_11.pdf
+  - https://cs448m.github.io/lectures/machines/doc/1.pdf
+  - https://youtu.be/6thw8xPt6ro
+  - https://youtu.be/U5TV5NC5YOg
+  - https://youtu.be/OSTdCr-BcPc
+  - https://youtu.be/IFQgH73W2Ao
+  - https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF
+  - https://www.yourmechanic.com/article/symptoms-of-a-bad-or-failing-cv-boot
+  - https://www.rccaraction.com/drivetrains-driveshafts/
+  - https://additive-mfg.me.wisc.edu/?p=968
+  - https://additive-mfg.me.wisc.edu/?p=930
+  - https://ag-safety.extension.org/power-take-off-safety/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://huangyan920.github.io/Mechanical/
+  - https://raw.githubusercontent.com/HUANGYAN920/Mechanical/master/README.md
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/348623-3d-printed-rc-car-tarmo5
+  - https://www.printables.com/model/512061-cramer-rc-truggy-upgraded-axle-driveshaft-cv-joint
+  - https://www.printables.com/model/877966-rim-and-rear-cv-joint-for-tarmo-5-rc-car
+  - https://www.youtube.com/watch?v=T3EsRXmOTlA
+  - https://youtu.be/r2UDc4A8huY
+  - https://www.youtube.com/watch?v=nYLRZBvCwPE
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, load, processes, safety_notes
 
 ## 192 Friction clutch (plate or cone clutch)
 
 *clutches & couplings.* Friction surfaces pressed together to connect drive and pulled apart to disconnect it, able to slip gently while engaging
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Two grippy surfaces, flat discs or a cone in a cup, that a spring squeezes together so one spinning shaft drives the other, and that a lever or pedal pulls apart to disconnect the drive; letting them come together slowly lets them slip at first so the drive takes up smoothly
+- **term**: Friction clutch (plate or disc clutch, cone clutch)
+- **aliases**: 
+  - clutch; engageable friction coupling
+  - plate clutch / disc (disk) clutch; single-plate and multi-plate (multi-disc) clutch; clutch pack
+  - dry clutch (car) and wet clutch (runs in oil, e.g. motorcycles)
+  - cone clutch (cone and cup); synchroniser cone or synchro ring (the small cone clutch inside a manual gearbox)
+  - basket clutch (motorcycle multi-plate clutch with a slotted basket)
+  - clutch disc / friction disc / driven plate, pressure plate, diaphragm spring, release (throw-out) bearing (car clutch parts)
+  - handwheel or 'stop-motion' clutch knob (sewing machine friction clutch)
+  - Reibungskupplung, Kegelkupplung, Lamellenkupplung (German); 摩擦离合器 (Chinese)
+- **family**: clutches & couplings
+- **other_families**: torque limiting & slip, brakes, dampers & speed control
+- **one_liner**: A clutch that connects a driving shaft to a driven shaft by pressing friction surfaces together and disconnects it by pulling them apart, and that can slip in between so the drive takes up gently.
+- **complexity**: A small assembly that acts as one unit: a driving member (a flywheel, plate, cup or basket on the input shaft), one or more friction discs or a cone that can slide along the other shaft on splines, friction linings, a spring (coil springs or a diaphragm spring) that squeezes them together, and a release mechanism (lever, pedal, cable or hydraulics, fork and release bearing) that pushes the spring back to separate them.
+- **how_it_works**: A spring presses the friction surfaces together, and the friction between them lets the driving part turn the driven part (Wikipedia 'Clutch'). To disconnect, a lever or pedal pushes the spring back so the surfaces part and the driven shaft can stop while the input keeps turning. While the surfaces are only lightly pressed, they slip, so the driven part is brought up to speed gradually instead of with a bang; the energy lost in slipping becomes heat (Plant Engineering). The torque it can carry depends on the clamping force, the grip of the lining (friction coefficient), the size of the rubbing ring and the number of rubbing faces; a cone clutch wedges its cone into a cup so the same spring force gives more grip (RoyMech 'Cone Clutch').
+
+### Finder attributes
+
+- **job**: 
+  - lock, and release by hand: a lever, pedal or knob connects and disconnects the drive while the motor keeps running (Wikipedia; Sailrite sewing-machine clutch)
+  - slip or let go when overloaded: it slips instead of breaking something if the load is more than its spring setting allows (Slocum: in robots and machines a clutch often protects gears from overload)
+  - change speed or turning force: lets a running motor pick up a stopped load smoothly, and in vehicles lets the gearbox be shifted (Wikipedia)
+  - hold or release using power: electromagnetic, hydraulic and pneumatic versions engage or release on a signal (Plant Engineering)
+- **degrees_of_freedom**: Engaged and not slipping: 0 between input and output (they turn as one). Disengaged: 1 (the two sides turn independently, like a plain bearing, per Slocum). While slipping: 1, with a friction drag between the sides. The sliding member also has 1 short axial movement for engaging.
+- **special_behaviour**: 
+  - quick-release: the drive can be disconnected instantly with a lever, pedal or knob, with no tools, even while the motor runs (Wikipedia)
+  - torque-limiting (slips or clicks at a set force/torque): if the load torque is more than the clutch's clamp force can carry, it slips smoothly, which protects gears; the slip torque is set by the spring force and can be adjusted with a screw (Slocum)
+- **holding_principle**: 
+  - friction or clamping (force-fit): turning force passes only by friction between the pressed surfaces
+  - spring force (a spring or springy part presses it in place): coil springs, a diaphragm spring or a leaf-spring washer supply the clamping force (Wikipedia; Sailrite)
+- **input_output**: Rotation in -> the same rotation out (1:1) when fully engaged; no output when disengaged; while slipping, the output turns slower than the input with torque limited to the clutch's capacity. Shafts in line on one axis. During every engagement the heat produced equals the energy given to the load (Plant Engineering). Back-drivable: yes when engaged; it passes torque in both directions and either shaft can drive. *(unverified parts omitted)*
+- **power**: passive (no power needed) for hand, lever, pedal or cable operated clutches. Powered versions exist: electric clutches engaged by an electromagnet and released by springs, or hydraulic and pneumatic ones; an electrically engaged clutch releases when power is lost, while a normally-engaged spring clutch stays engaged when its release power is lost (Plant Engineering; Slocum on normally engaged and normally disengaged clutches)
+- **removability**: tool-free quick release: the drive is connected and disconnected by hand with no tools; taking the clutch itself apart needs ordinary tools
+- **reuse_cycles**: effectively unlimited: it is made to be engaged and disengaged over and over; the friction linings wear with slipping and are replaced from time to time (Wikipedia; Apex Tech Nation)
+- **tools_needed**: None to operate. To build or service: spanners and hex keys, circlip pliers, and for vehicle clutches a clutch alignment (centring) tool to line up the disc with the flywheel (makers print these; several are on Printables). Old clutch dust may contain asbestos, so wet-wipe rather than blow or brush it (US EPA).
+- **seal**: none: dry clutches are open inside a cover (a car's bellhousing), and wet clutches run inside the sealed, oil-filled engine or gearbox case (Wikipedia); the clutch itself does not seal anything
+- **load**: Medium to heavy in twist, set by the design: slip torque = number of rubbing faces x friction coefficient x clamping force x mean radius of the rubbing ring (Mustansiriyah lecture; RoyMech). Above that torque it slips rather than breaks. The spring's clamping force pushes along the shafts, so the shafts and bearings must carry that thrust and the release force (bearing close to the clutch and well aligned, per the Mustansiriyah lecture). Hand-operated clutches are limited to fairly small sizes because a person can only apply about 75 lb (about 330 N) (Plant Engineering).
+- **adjustable**: yes: the slip torque can be adjusted by changing the spring pressure, often with a screw or nut (Slocum); cable-operated vehicle clutches also need their free play adjusted, and the pedal must return fully or the clutch slips (Apex Tech Nation)
+- **play_and_precision**: Not a position-holding device: because it can slip, it does not keep a fixed angle between input and output. If the disc slides on a spline there is backlash, so for precise drives Slocum recommends mounting the friction plate on a flexible diaphragm instead. Misalignment tolerance: low; shafts and bearings must be well aligned and the plates must sit flat, or the clutch drags and chatters (Mustansiriyah lecture; Apex Tech Nation on warped discs).
+- **access_needed**: end of a tube or shaft: the clutch fits on the ends of two in-line shafts; in use, only the lever, pedal, cable or knob needs to be reached
+- **materials**: Linings: organic resin with copper wire, or ceramic, in car clutches (Wikipedia); older and simple clutches used cork, leather, felt or wood against cast iron or steel (RoyMech friction materials table); wet clutches often use paper-based composites (Wikipedia, citation needed). Plates and cones: steel or cast iron. Springs: steel coil springs, a diaphragm (Belleville-type) spring or a leaf-spring washer. Asbestos linings were once common and are no longer acceptable (RoyMech; US EPA). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: the friction parts are simple discs or cones, but a clutch that engages smoothly and reliably also needs a spring, a sliding member on a spline or hex, a release lever with a thrust bearing, good alignment, and a facing that grips consistently
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): plates, cones, hubs and levers for light-duty and demonstration clutches (e.g. the Printables clock friction clutch in PETG and the squeeze-fan clutch)
+  - CNC: turned steel or aluminium cones and plates for stronger clutches
+  - off-the-shelf part: vehicle clutch discs, pressure plates and release bearings; motorcycle and RC friction plates; industrial and electromagnetic clutches (McMaster-Carr lists 'Clutches' and 'Clutch/Brakes'); Belleville (disc) springs and wave springs for clamping *(unverified parts omitted)*
+- **print_in_place**: no: the friction members must be free to separate and need a separate spring, so the parts are printed apart and assembled
+- **making_tips_3d_printing**: 1) Size it with the formula: slip torque = n x mu x W x R, with W the spring force, mu the friction coefficient, R the mean radius of the rubbing ring ((outer + inner radius) / 2 once worn in) and n the number of rubbing faces (n = discs on the driving side + discs on the driven side - 1) (Mustansiriyah lecture). A cone multiplies torque by 1 / sin(half-angle) for the same spring force (RoyMech). 2) Don't rely on smooth plastic rubbing on plastic: give it a real friction facing. 4) Use a metal spring for the clamping force (coil, wave or disc spring) rather than squeezed plastic: plastic and even sprung washers relax over time and the clutch starts slipping, as with flattened sewing-machine clutch washers (Sailrite). 5) Material: PETG or nylon over PLA; the Printables clock friction clutch 'does not work printed in PLA' and needs a tolerance-calibrated PETG profile, and PLA softens above about 60 °C (Prusa), which slipping can reach. 6) Keep lubricant off the rubbing faces: the Printables squeeze-fan clutch designer found the clutch could not be greased or it would not grip, and that plastic plates slip under high load; oil on a real clutch causes slipping and chatter (Apex Tech Nation). 7) Let the sliding member run on a hex or spline section so it turns with its shaft but can move along it (Thang 'Friction clutch 3' shows discs 'slidingly splined'); expect a little backlash (Slocum). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'friction clutch', 'plate clutch', 'disc clutch', 'multi-disc clutch' or 'clutch pack', 'cone clutch', 'wet clutch', 'clutch disc' / 'friction disc', 'pressure plate', 'diaphragm spring' or 'Belleville spring' / 'disc spring', 'wave spring', 'release bearing' / 'throw-out bearing', 'clutch fork', 'clutch lever' and 'clutch cable'; 'clutch/brake' units and 'electromagnetic clutch' for powered versions; 'clutch facing' or 'friction material' sheet, cork sheet, 'brake lining'; motorcycle 'friction plates' and 'steel plates'; 'clutch alignment tool'. For overload protection only (not switched on and off), look at 'slip clutch' or 'torque limiter' instead.
+- **rules_of_thumb**: 
+  - Torque capacity T = n x mu x W x R, where n = number of pairs of rubbing faces, mu = friction coefficient, W = axial clamping force and R = mean radius; for worn-in (uniform wear) faces R = (outer radius + inner radius) / 2; for a multi-disc pack n = n1 + n2 - 1, where n1 and n2 are the discs on the driving and driven shafts (University of Mustansiriyah lecture 'Friction Clutches', General Notes).
+  - Cone clutch (uniform wear): T = F x mu x (ro + ri) / (2 x sin alpha), so a small cone angle alpha multiplies the torque; the cone angle is always above 8° and normally 12° to 15°, because below that the clutch is liable to jam in engagement (RoyMech 'Cone Clutches').
+  - A plate clutch is the special case of a cone clutch with sin alpha = 1 (Mustansiriyah lecture), and a cone clutch carries more torque than a plate clutch of the same size but is now mostly used for low peripheral speeds (Wikipedia 'Cone clutch'; RoyMech).
+  - Friction coefficients against cast iron or steel (dry / oiled): cork 0.3-0.5 / 0.15-0.25, leather 0.3-0.5 / 0.12-0.15, felt 0.22 / 0.18, wood 0.2-0.35 / 0.16, steel on steel 0.15-0.20 / 0.05; maximum temperatures about 100 °C for cork and leather, 140 °C for felt, 300 °C for iron and steel, up to 500 °C for carbon-graphite (RoyMech 'Friction Materials', general values only).
+  - Oil cuts the friction coefficient to roughly a quarter to a half of its dry value (RoyMech table), which is why wet clutches stack more discs to avoid slipping (Wikipedia).
+  - The heat generated in each engagement equals the energy given to (or taken from) the load, so frequent or long slipping needs a larger clutch or one running in oil (Plant Engineering, 'Selection factors for clutches & brakes'); slipping should be kept short to limit wear (Wikipedia).
+  - Hand operation is limited to about 75 lb (about 330 N) of force, so manual clutches are used on small equipment (Plant Engineering).
+  - A clutch plate sliding on a spline brings backlash; for precise drives mount the plate on a diaphragm instead (Slocum, FUNdaMENTALs of Design, Topic 5, PDF p. 40).
+  - Design with the uniform-wear assumption for clutches that have run in; the uniform-pressure assumption applies only to new linings (RoyMech 'Axial Plate Clutch').
+  - Keep oil and grease off the linings: contamination causes slipping and chatter and a soaked disc cannot be cleaned; fix the leak before replacing the disc (Apex Tech Nation).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The clutch pedal in a manual car, which pulls a friction disc away from the engine's flywheel (Wikipedia)
+  - The hand lever on a motorcycle, which releases a stack of oil-bathed friction and steel plates (Wikipedia)
+  - The knob in the middle of a sewing machine's handwheel, loosened to stop the needle while winding a bobbin (Sailrite)
+  - The small cone clutches (synchronisers) inside a car's manual gearbox that match speeds before a gear engages (Wikipedia 'Cone clutch')
+- **when_to_use**: Use it when you need to connect and disconnect a drive while the motor keeps running, and the pick-up must be smooth rather than a bang: starting a heavy or high-inertia load from a running motor or engine, a winch or conveyor that must start gently, a vehicle or robot drive with a manual disconnect, a mechanism you want to be able to turn by hand without back-driving the motor, or a hand-set mechanism (like a clock's hands or a sewing machine's handwheel) that must be able to slip. It also gives built-in overload protection, since it slips rather than breaks when overloaded.
+- **when_not_to_use**: Avoid it when the drive must never slip or must keep an exact angle between input and output (use a dog clutch, which locks by shape, or a solid coupling). If you only need overload protection and never switch it off, a friction slip clutch or ball-detent torque limiter is simpler. If it should engage automatically as a motor speeds up, use a centrifugal clutch; if it should drive one way only, use a sprag, roller or wrap-spring clutch. If it must switch by electrical signal, buy an electromagnetic clutch. For heavy, frequent or long slipping, a small printed clutch will overheat and wear; use a wet (oil-bathed) clutch or a fluid coupling instead (Plant Engineering; Wikipedia).
+- **environment_limits**: Heat is the main limit: every engagement turns energy into heat (Plant Engineering), and each lining has a maximum temperature, e.g. cork and leather about 100 °C, felt about 140 °C (RoyMech). Oil, grease or hydraulic fluid on the faces causes slipping and chatter (Apex Tech Nation), and oil or water lowers friction (RoyMech table). Clamping springs lose force with heat cycling and age (Apex Tech Nation on diaphragm springs; Sailrite on flattened spring washers). *(unverified parts omitted)*
+- **safety_notes**: Old clutch linings may contain asbestos and you cannot tell by looking; don't blow or brush the dust, use the wet-wipe method, and wash work clothes separately (US EPA). Engaging the clutch starts the driven machine moving, so keep hands clear of the output when engaging. A slipping or disengaged clutch no longer holds a load, so never rely on it to stop a hoist or winch drum from running back; use a brake. *(unverified parts omitted)*
+- **common_failures**: 1) Slipping: worn linings, oil contamination, a weak spring or a lever or pedal that does not fully return (Apex Tech Nation); replace linings and springs, fix leaks, adjust the linkage. 2) Chatter or judder while engaging: oil or grease on the faces, glazed or heat-spotted surfaces from long slipping, or broken damper springs (Apex Tech Nation); avoid 'riding' the clutch. 3) Drag (won't fully release): warped disc, air in hydraulics or worn cylinders, seized pilot bearing (Apex Tech Nation), or a misaligned printed assembly. 4) Clamping force fading as sprung washers flatten, so owners over-tighten the knob until it won't release (Sailrite sewing-machine clutch). 5) Printed clutches: plastic faces that slip under high load or can't be lubricated elsewhere (Printables squeeze-fan clutch), PLA parts softening or deforming from slip heat (Prusa), and parts that bind because of tight tolerances (Printables clock friction clutch needs a calibrated PETG profile).
+- **related**: 
+  - Dog clutch (claw clutch): locks by interlocking teeth, so it never slips, but must be engaged when stopped or at matched speed
+  - Friction slip clutch (slip coupling): the same friction discs, always engaged and set to slip only when overloaded, not switched on and off
+  - Centrifugal clutch: friction shoes thrown outward by speed engage it automatically as the motor speeds up (Wikipedia)
+  - Electromagnetic clutch and clutch/brake: friction or magnetic engagement switched by electricity (Plant Engineering; Wikipedia)
+  - Belt clutch: an idler pulley tightens a slack belt to engage drive, as on lawn mowers and snow blowers (Wikipedia; Thang 'Belt clutch 1a')
+  - Expanding-shoe or expanding-bush clutch: a wedge expands a sleeve against the inside of a drum (Thang 'Friction clutch 5')
+  - Wrap-spring clutch: a coil spring grips the shaft in one direction; also used as a single-revolution clutch (Wikipedia)
+  - Synchromesh (synchroniser): a small cone clutch that matches speeds before a dog clutch engages (Wikipedia)
+  - Fluid coupling and torque converter: pass drive through oil with smooth slip and no wear (Wikipedia)
+  - Magnetic particle, eddy-current and hysteresis clutches: slip smoothly by magnetism, with controllable torque (Plant Engineering)
+  - Disc brake: the same friction parts, but holding against a fixed frame instead of connecting two shafts
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Cone clutch.svg (Wikimedia Commons, by Sweber.de)](https://commons.wikimedia.org/wiki/File:Cone_clutch.svg): Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material, the return spring and the release control *(licence: CC BY-SA 3.0)*
+  - [Car clutch.png (Wikimedia Commons, by Genetics4good)](https://commons.wikimedia.org/wiki/File:Car_clutch.png): 3D model of a dry car clutch, used as the 'Diagram of a dry clutch' in Wikipedia's 'Clutch' article *(licence: CC BY-SA 3.0)*
+  - [Basket clutch.png (Wikimedia Commons, by Genetics4good)](https://commons.wikimedia.org/wiki/File:Basket_clutch.png): 3D model of a motorcycle-style multi-plate basket clutch *(licence: CC BY-SA 3.0)*
+  - [Friction clutch 3 (Nguyen Duc Thang, YouTube thang010146)](https://youtu.be/_mMIk3RcPA0): CAD animation of a spring-loaded multiple-disc clutch with outer discs splined to a drum and inner discs splined to the driven shaft, released by a lever *(licence: link only (standard YouTube licence))*
+  - [Friction clutch 4 (Nguyen Duc Thang, YouTube thang010146)](https://youtu.be/QqaWJ7PDSg8): CAD animation of a spring-engaged cone clutch that is disconnected by pressing a pedal *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Friction Clutch for Clock (jattie, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/948932-friction-clutch-for-clock): Adjustable printed friction clutch for a pendulum clock, so the hands can be set without disconnecting the drive train; Fusion 360 source included; needs a tolerance-calibrated PETG profile and does not work in PLA *(licence: GPL 3.0)*
+  - [Clutch for Squeeze fan (felixlamb, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/536698-clutch-for-squeeze-fan): A first-attempt printed clutch combined with a gear so a hand-squeeze fan can freewheel; the designer's honest notes explain why it slips under high load and can't be lubricated *(licence: CC BY-NC)*
+  - [VW Engine - Clutch and Flywheel (bglasford1, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1048257-vw-engine-clutch-and-flywheel): Printable clutch and flywheel parts for a model VW engine, useful for seeing the parts of a car clutch *(licence: CC BY-NC)*
+  - [Cone Clutch (ravindra.mohan09, Sketchfab)](https://sketchfab.com/3d-models/cone-clutch-08a6044f319440abbc99dc61e6fa2801): Free downloadable 3D model of a cone clutch that can be viewed and rotated in the browser (details read via the Sketchfab API) *(licence: CC BY)*
+- **diagram_idea**: A two-step cut-away of a single-plate clutch: engaged, with the spring squeezing the friction disc between the flywheel and pressure plate and arrows showing turning force passing through; then disengaged, with the lever pushing the release bearing so the plates part and the output stops; add a small inset of a cone in a cup showing how the wedge increases the pressing force.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Clutch
+  - https://en.wikipedia.org/wiki/Cone_clutch
+  - https://commons.wikimedia.org/wiki/File:Cone_clutch.svg
+  - https://commons.wikimedia.org/wiki/File:Car_clutch.png
+  - https://commons.wikimedia.org/wiki/File:Basket_clutch.png
+  - https://roymech.org/Useful_Tables/Drive/Clutches.html
+  - https://roymech.org/Useful_Tables/Drive/Axial_Plate_clutch.html
+  - https://roymech.org/Useful_Tables/Drive/Cone_Clutch.html
+  - https://roymech.org/Useful_Tables/Drive/Brake_Clutch_mat.html
+  - https://uomustansiriyah.edu.iq/media/lectures/5/5_2021_12_11!08_29_17_PM.pdf
+  - https://www.plantengineering.com/selection-factors-for-clutches-brakes/
+  - https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF
+  - https://cs448m.github.io/lectures/machines/doc/1.pdf
+  - https://youtu.be/_FKePQ8PvY0
+  - https://youtu.be/_mMIk3RcPA0
+  - https://youtu.be/QqaWJ7PDSg8
+  - https://youtu.be/JlQ0v77oGtE
+  - https://youtu.be/fM-OMJnaLks
+  - https://www.sailrite.com/The-Ultrafeed-and-Posi-Pin
+  - https://apextechnation.com/articles/clutch-diagnosis-guide
+  - https://www.epa.gov/asbestos/current-best-practices-preventing-asbestos-exposure-among-brake-and-clutch-repair-0
+  - https://www.mcmaster.com/products/clutches/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://api.printables.com/graphql/
+  - https://api.sketchfab.com/v3/models/08a6044f319440abbc99dc61e6fa2801
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, making_tips_3d_printing, materials, motion, processes, safety_notes
 
 ## 193 Keyless locking bush (taper-lock bush, shaft locking device)
 
 *clutches & couplings.* Tapered rings squeezed by screws that grip a smooth shaft and hub by friction, fixing a pulley or gear without keys or flats
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A set of metal sleeves that you slide into the gap between a smooth shaft and the hole in a pulley or gear; tightening a ring of screws squeezes the sleeves so they grip both parts hard enough to turn together, with no key or flat needed. Loosen the screws and you can slide or turn the part to a new spot
+- **term**: Keyless locking device (keyless bushing, locking assembly, shaft-hub locking device)
+- **aliases**: 
+  - keyless bushing / keyless bush
+  - locking assembly / friction locking assembly (terms used by RINGFEDER (brand) and SKF (brand))
+  - shaft locking device; shaft-hub locking device
+  - keyless locking device, KLD (Climax (brand) term)
+  - taper-lock bush / taper bush / taper-fit bush: the close relative covered in this entry, a split bush with a tapered outside that is pulled into a matching tapered hole in the pulley and is usually fitted with a key; 'Taper-Lock' is a Fenner (brand) name
+  - QD bushing (quick-disconnect bushing): a flanged, tapered, keyed relative (Wikipedia 'Key (engineering)'; SKF)
+  - single-nut keyless bushing, e.g. Trantorque (brand, Fenner)
+  - B-LOC (brand, Fenner), Posi-Lok (brand, Zero-Max), RfN 7012 and similar (brand, RINGFEDER), FX series (brand, SKF), ETP hydraulic bushing (brand, Zero-Max)
+  - shrink disc: the outside-clamping version that squeezes a hollow hub onto a shaft
+  - screw-clamp bushing; flush-mount, flanged and hub-mount screw-clamp bushings (McMaster-Carr catalogue names)
+  - Spannsatz (German, 'clamping set')
+- **family**: clutches & couplings
+- **other_families**: clamping, magnetic & friction connections
+- **one_liner**: A set of tapered steel rings that screws draw together so they wedge inward onto a plain shaft and outward into a hub, locking a pulley, gear or sprocket in place by friction without any key or keyway.
+- **complexity**: A small assembly that acts as one unit: a split inner ring (grips the shaft), a split outer ring (presses into the hub bore), one or two tapered pressure rings that slide between them, and a circle of high-strength screws (or one large nut on single-nut types); many have tapped 'jacking' holes for removal. The taper-lock bush relative is simpler: one split bush with a tapered outside, two or three grub screws, and usually a key.
+- **how_it_works**: Two slopes (tapers) slide over each other like wedges. Tightening the screws pulls the tapered rings together along the shaft, which forces the split inner ring to shrink onto the shaft and the split outer ring to swell against the hub bore (Machine Design; SKF). The very high sideways pressure (radial contact pressure) all round the joint creates enough friction to carry turning force (torque), end-thrust and some bending, like a press fit that can be undone with a spanner (Climax). Undo the screws (and on 'self-locking' shallow tapers, screw some into the jacking holes to push the rings apart) and the grip lets go, so the part can be moved, re-timed or removed (SKF).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: fixes pulleys, sprockets, gears, cams, rollers and couplings to a plain shaft so they turn as one (Machine Design)
+  - line parts up exactly: the part can be set anywhere along the shaft and at any angle (timing) before tightening, and self-centring types also centre it on the shaft (SKF; Climax)
+- **motion**: none: once tightened nothing moves; before tightening the hub can slide along and turn round the shaft for positioning
+- **degrees_of_freedom**: 0 when tightened: the hub is locked to the shaft in every direction, as long as the load stays below the friction limit. While loose: 2 (slide along the shaft and turn round it), which is what allows stepless positioning and timing.
+- **special_behaviour**: 
+  - self-aligning or self-centring: many series pull the hub concentric with the shaft as they tighten, giving very true running (SKF marks each FX series as self-centring or not; RINGFEDER does the same). Non-self-centring types need a separate pilot fit (centring guide) in the hub (SKF)
+  - none of the other listed behaviours: it is a fixed joint. It will slip if overloaded, but it is not a torque limiter: SKF says it is 'Not recommended as a principle overload device', and Climax's ratings include no safety factor. Beware the catalogue word 'self-locking': it means a taper so shallow that the rings stay jammed when the screws are loosened and must be jacked apart (SKF FX61 and FX75; German Wikipedia 'Spannsatz'), not the 'won't back-drive' meaning used in this encyclopedia
+- **holding_principle**: 
+  - friction or clamping (force-fit): wedge action turns screw force into radial pressure, and friction between the rings, shaft and hub carries the load; German Wikipedia calls it a force-locking shaft-hub connection
+  - shape (the parts interlock; form-fit): only in the keyed taper-lock bush relative, where a parallel key in the shaft keyway usually adds a shape lock (RACA Journal: 'a taper lock bush should always be fitted with a key'; Fenner instructions via Industry inMotion treat the key as optional)
+- **input_output**: Back-drivable: yes; torque can pass either way, and it resists reversing torque well ('High resistance to alternating torque', SKF). *(unverified parts omitted)*
+- **power**: passive (no power needed)
+- **removability**: removable: loosen all screws a little at a time in sequence and the rings release; self-locking tapers are pushed apart by moving screws into tapped jacking holes (SKF). A taper-lock bush is released by moving a grub screw into its removal hole and tightening it, which pushes the bush out of the hub (RACA Journal)
+- **reuse_cycles**: many times: SKF says that with correct fitting and removal and no damage 'the locking assembly can be re-used indefinitely'. Taper-lock bushes are broken by prising open the split or hammering them off (RACA Journal)
+- **tools_needed**: Hex keys and a torque wrench (every screw to the same catalogue torque); a C-spanner or ring spanner for single-nut types; solvent and rags to clean the surfaces. Taper-lock bush: hex key, a hammer with a block or sleeve to tap the bush home, and grease to fill the empty holes (Fenner instructions via Industry inMotion)
+- **seal**: none: it is not a seal. Fenner's advice for taper-lock bushes is to fill the empty screw holes with grease to keep dirt out (Industry inMotion)
+- **load**: Heavy for its size, and in every direction: an SKF FX10 for a 14 mm shaft carries 180 N·m of torque and 26 kN of end-thrust with eight M6 screws, and the single-nut SKF FX75 for an 8 mm shaft carries 14 N·m (SKF catalogue tables). It also takes bending (rated bending moment 22-35% of rated torque, Climax) and handles shock and reversing loads better than a key (Machine Design). Weak points: it slips if overloaded, oily or under-tightened, and its outward pressure can deform or split a thin or weak hub (Machine Design; Climax).
+- **adjustable**: yes: before tightening, the hub can be slid to any position along the shaft and turned to any angle ('infinite axial and angular timing', Climax); later you can loosen, reposition and re-tighten. Within limits the rated torque can be lowered by using a lower screw torque (Climax)
+- **play_and_precision**: No play: zero backlash once tightened (SKF; Climax; Machine Design). Self-centring types run very true; non-self-centring types depend on a pilot fit in the hub. Some series push the hub slightly along the shaft while tightening ('axial movement while tightening', SKF), and a taper-lock bush grips the shaft first and then draws the hub onto itself (Industry inMotion), so set the position allowing for this. Misalignment tolerance: none; it is a rigid mounting.
+- **access_needed**: end of a tube or shaft: the bush slides onto the shaft from its end together with the hub, and all screws are worked from one face, so the back of the hub need not be reached
+- **materials**: Rings of high-carbon or alloy steel with grade 12.9 screws (Climax; SKF); stainless versions exist with lower torque ratings (SKF). Hubs: steel is best; SKF's friction table also covers cast iron and aluminium hubs, and Climax recommends hub steel with a yield strength of at least 45 ksi (310 N/mm²) for shrink discs, with a larger shrink disc for cast-iron hubs. Not suitable for plastic hubs, including 3D-printed ones, except as a separate metal hub that the plastic part is bolted to.
+- **maker_difficulty**: moderate: the bush is bought ready-made and fitted with hand tools, but the hub needs an accurately bored, smooth, round hole (typically tolerance H8 and roughness Ra 3.2 µm or better, SKF) in metal thick enough to take the pressure, plus a torque wrench. Without a lathe, buy a pulley or sprocket already bored for the bush
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: keyless bushings, locking assemblies, single-nut bushings, taper-lock bushes, and pulleys or sprockets pre-bored for taper-lock bushes
+  - CNC: lathe-boring a metal hub to the H8-type tolerance and smooth finish the bush needs (SKF), or making a metal adaptor hub
+  - 3D print (FDM): experimental only; e.g. Atjornov's untested two-part ABS HTD 5M belt pulley made to take a metal 1108 taper-lock bush, bolted together with M4 screws and meant for about 40 W (Printables). Printing the rings themselves is not realistic
+- **print_in_place**: no: the rings are hardened steel bought parts, and a printed hub is generally too weak to take their pressure directly
+- **making_tips_3d_printing**: 1) Treat the bush as a metal part you buy; print only the parts around it. 2) Don't press a steel locking assembly straight into a printed hub for real loads: an SKF FX10 for a 14 mm shaft pushes on the hub at 97 N/mm² (SKF table), while printed Prusament PLA yields at about 51-59 MPa and its layers pull apart at about 17 MPa (Prusament datasheet), so a printed hub would crack along the layer lines or creep loose. 5) Remember that a friction grip on plastic loosens as the plastic creeps or softens: Prusament PLA's heat deflection temperature is 55 °C, and Prusa says PLA softens above about 60 °C; re-check tightness after running. 7) To fit an odd-sized shaft, Climax recommends a metal adaptor sleeve (a slit sleeve with a wall no thicker than 12.5% of the shaft diameter) rather than a printed shim. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'keyless bushing', 'keyless locking device', 'locking assembly', 'shaft locking device', 'shaft-hub locking device', 'Spannsatz', 'shrink disc' (outside-clamping version), 'single nut keyless bushing' (e.g. Trantorque (brand)), B-LOC (brand), Posi-Lok (brand), RINGFEDER (brand) locking assemblies (RfN 7061 from 6 mm shaft), SKF (brand) FX series (FX75 from 3 mm shaft), McMaster-Carr categories 'Flush-Mount', 'Flanged', 'Quick-Grip' and 'Hub-Mount Screw-Clamp Bushings' (from 1/4 in shaft), 'Quick-Grip Flanged Hydraulic Bushings' and 'Keyless Locking Rigid Shaft Couplings'. Taper-lock family: 'taper lock bush' / 'Taper-Lock bushing' sizes 1008, 1108, 1210, 1215, 1310, 1610, 1615, 2012, 2517 and larger (McMaster-Carr; smallest bore 1/2 in there), 'taper bore pulley', 'taper lock sprocket', 'QD bushing'. Also needed: a torque wrench, grade 12.9 socket cap screws for replacements, and a parallel key if the shaft has a keyway.
+- **rules_of_thumb**: 
+  - Tighten the screws in pairs directly across from each other, in stages: first to one-quarter of the specified torque, then to one-half, then to full torque, then check again that none will turn further (Kevin Powers, 'Keyless devices get a grip on shafts', Machine Design, 2000).
+  - Every screw must reach the same catalogue torque, in a diametrically opposite sequence, or the device won't carry its rated torque (SKF FX catalogue, installation notes 2.1.3-2.1.4).
+  - Taper angle sets the grip: included cone angles range from about 12° (light to medium duty) down to 5° (heavy duty); the smaller the angle, the more torque it can carry (SKF FX catalogue, section 4.1).
+  - Friction is the whole trick: catalogue torque ratings assume a friction coefficient of about 0.12 (steel on steel with a thin oil film); dry steel gives about 0.14 and solvent-cleaned about 0.17 (SKF friction table). Never use lubricants containing molybdenum disulphide or silicone (SKF; Machine Design).
+  - Makers disagree on oiling, so follow the instructions for the exact product: Machine Design and Climax oil the ring surfaces lightly, SKF oils the internal cones but wants the ring-to-shaft and ring-to-hub faces dry, and taper-lock bushes must be completely free of oil and grease (RACA Journal; Fenner via Industry inMotion). Hobby machinists report single-nut bushings slip unless oily surfaces are degreased (Hobby-Machinist forum).
+  - Machine the shaft and bore to about h8/H8 (h11/H11 for some light series) with roughness Ra 3.2 µm or better (SKF FX catalogue p. 13-14); Climax asks for 63-125 µin RMS.
+  - The hub must be thick and strong enough not to deform under the outward pressure: Machine Design says consult the maker's hub-size data; Climax gives a formula for the minimum hub outside diameter from the ring's hub pressure and the hub material's yield strength, and SKF gives a table of hub-diameter factors by pressure, hub length and material.
+  - Published torque ratings include no safety factor, so expect it to slip above the rated torque; apply a service factor for shock (Climax; SKF service factors 1.0-3.0).
+  - Keyways weaken shafts: with keyed bushings the shaft diameter needs to be about 10% larger (SKF), and SKF's ASME-based shaft formula uses an allowable stress of 41 MPa for keyed but 55 MPa for unkeyed commercial steel.
+  - Many types can be fitted over an existing empty keyway without derating if the inner ring's slit is placed opposite the keyway and a screw sits over it (Climax).
+  - Taper-lock bushes have an 8° taper and grub screws in holes drilled half in the bush and half in the hub: the fixing screws thread into the hub and push on the blind half-hole in the bush, driving it deeper; for removal a grub screw moved into the removal hole reverses the force and pushes the bush out. Use only the correct holes, as some small bushes have an extra hole that is there for balance only (RACA Journal).
+  - Taper-lock fitting: tighten the screws gradually and alternately, tap the large end of the bush with a hammer and block, re-tighten, repeat once or twice, check the screws again after the drive has run under load for a short time, and fill empty holes with grease (Fenner instructions via Industry inMotion).
+  - Keyed, QD and Taper-Lock bushing systems are not designed for reversing bending loads (e.g. an overhung roll or conveyor pulley); keyless locking assemblies are rated for them (Climax).
+  - Small sizes exist for makers: SKF FX75 single-nut bushings start at a 3 mm shaft (2.5 N·m) and an 8 mm shaft in a 14 mm hub bore carries 14 N·m (SKF table); RINGFEDER RfN 7061 starts at 6 mm; McMaster-Carr's screw-clamp bushings start at 1/4 in.
+
+### When to use it
+
+- **everyday_examples**: 
+  - The belt pulley on an air-conditioning or ventilation fan or a pump, often held by a taper-lock bush (Industry inMotion)
+  - Conveyor pulleys and rollers, and the timing cams and turntables in packaging and bottling machines (Machine Design; Climax)
+  - The collet that holds the bit in a Dremel rotary tool or a router: the same wedge idea, a split tapered sleeve squeezed by a nut onto a smooth shank (Wikipedia 'Collet')
+  - Taper-lock belt pulleys sold with a bush, as in the Wikimedia Commons photo of a V-belt pulley with its Taperlock bush
+- **when_to_use**: Use it to fix a pulley, sprocket, gear, cam or arm to a plain round shaft when you want a strong, play-free grip without cutting keyways or flats, when you need to set the part's exact position or angle (timing) and be able to change it later, when loads reverse or shock (where keys pound loose), or when a keyway would weaken a small shaft. It is also a good way to reuse a shaft that already has a worn keyway (Climax; Machine Design). The taper-lock bush is the everyday industrial choice for belt and chain drives because one pulley size takes bushes for many shaft sizes and comes off easily (SKF; Industry inMotion).
+- **when_not_to_use**: Avoid it when the hub is plastic, thin-walled or printed (the ring pressure will crack or creep it; bolt the part to a metal hub, or use a clamp hub or glue instead), when you want the joint to slip safely on overload (use a slip clutch, tolerance ring or ball-detent torque limiter), when the shafts are not in line (use a coupling), when cost and space matter more than strength (a set screw on a D-flat shaft, a clamping collar or a split clamp hub is cheaper and smaller), or for hex or splined shafts, which already lock by shape. For a permanent, cheap joint in mass production a press fit or glue may be simpler.
+- **environment_limits**: SKF rates its FX bushings for about -40 to 150 °C with no loss of capacity, and up to 300 °C if all parts are at the same temperature, have similar thermal expansion and the fit tolerances are adjusted; Climax gives 0 to 400 °F (-18 to 204 °C) and warns that parts of different materials expand at different rates. Standard steel rings rust; stainless versions have lower torque ratings (SKF), and Climax offers nickel or thin dense chrome plating. Vibration can loosen screws, so re-check after the first run under load (Fenner via Industry inMotion). Grip depends on clean, correctly lubricated surfaces; oil or contamination makes it slip (Hobby-Machinist; SKF). On a printed hub, creep and heat (PLA's heat deflection temperature is 55 °C, Prusament) make the grip fade over time.
+- **safety_notes**: It is part of rotating machinery, so guard it. It is not a safety slip clutch: if overloaded or contaminated it can slip suddenly, dropping or releasing whatever the shaft drives (Climax; SKF). Use the specified grade 12.9 screws and a torque wrench (SKF); over-tightening can strip threads or burst a thin hub, and under-tightening lets it slip. Never prise a taper-lock bush open with a screwdriver in its split or hammer it off; it breaks (RACA Journal). *(unverified parts omitted)*
+- **common_failures**: 1) Slipping: surfaces oily or contaminated (especially with molybdenum disulphide or silicone grease), screws under-torqued or tightened out of sequence, or the load above the rating (SKF; Machine Design; Hobby-Machinist). Fix: clean, lubricate only as the maker says, and torque every screw in stages across the circle. 2) Hub deformed or cracked because the hub wall is too thin or the material too weak for the ring pressure (Machine Design; Climax). Fix: check the maker's minimum hub diameter. 3) Hub wobbles or runs out of true: a non-self-centring type used without a pilot fit, or uneven tightening (SKF). 4) Part ends up in the wrong place: some series move the hub along the shaft while tightening (SKF; Industry inMotion). 5) Screws working loose under vibration if not re-checked after running (Fenner via Industry inMotion). 6) Won't come off: self-locking tapers need jacking screws, and taper-lock bushes need the removal hole; hammering or prising splits the bush, which RACA Journal says explains taper-lock bushes found 'broken in half'. 7) Taper-lock bush not seated because a parallel key with no top clearance holds it off the shaft (RACA Journal).
+- **related**: 
+  - Key and keyway (sunk key): the traditional shape-locked joint; simple and cheap, but it weakens the shaft, needs machining and can pound loose with backlash under reversing loads (SKF; Climax)
+  - Taper-lock bush and QD bushing: split tapered bushes pulled into a tapered hub bore, usually with a key; quick to fit and remove, but not rated for reversing bending loads (Climax); covered as close relatives in this entry
+  - Shaft-to-hub joints and rigid couplings (set screw, D-flat, clamp hub): cheaper and smaller for light loads, but lower torque and a set screw marks the shaft
+  - Shaft collar (clamping collar): a one-screw clamp ring used to stop parts sliding along a shaft rather than to carry torque
+  - Tolerance ring (wavy-band press fit): a springy steel band that holds by friction and deliberately slips at a set torque; much lower grip but tolerant of loose sizes
+  - Interference fit (press or shrink fit): the same even, play-free grip but needs a press or heat and very close tolerances, and parts can seldom be reused (SKF)
+  - Shrink disc: the outside version that clamps a hollow hub down onto a solid shaft (Climax; SKF FX190)
+  - Collet: a split tapered sleeve squeezed onto a tool shank; the same wedge principle used to hold bits rather than pulleys (Wikipedia)
+  - Self-locking wedge (taper key): a single wedge driven into a slot that stays put by friction
+  - Spline shaft and hex shaft: shapes that lock by interlocking rather than friction, allowing sliding along the shaft
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Spannsatz-2.jpg (Wikimedia Commons, by Ukko-wc)](https://commons.wikimedia.org/wiki/File:Spannsatz-2.jpg): Cross-section drawing of a locking assembly between a shaft (W) and hub (N), with clamping screw (S) and conical rings (K) *(licence: CC BY-SA 3.0 (also 2.5, 2.0, 1.0) or GFDL 1.2 or later)*
+  - [Taperlock Keilriemenscheibe mit Buchse.jpg (Wikimedia Commons, by Ru-go)](https://commons.wikimedia.org/wiki/File:Taperlock_Keilriemenscheibe_mit_Buchse.jpg): Photo of a V-belt pulley fitted with a Taperlock bush *(licence: Copyrighted free use (any use permitted))*
+  - [How Locking Assemblies Work - Ringfeder (HVH Industrial Solutions, YouTube)](https://www.youtube.com/watch?v=p1bmVphYmGQ): Explainer on how internal keyless locking assemblies grip between the shaft and the clamped part *(licence: link only (standard YouTube licence))*
+  - [BearingShopUK - Fitting and Removal of a Taperlock Bush (BearingShopUK, YouTube)](https://www.youtube.com/watch?v=fT4axK3haQ0): Hands-on fitting and removal of a taper-lock bush in a pulley (per its YouTube description, the same method applies to couplings) *(licence: link only (standard YouTube licence))*
+  - [Fastener 5 (Nguyen Duc Thang, thang010146, YouTube)](https://www.youtube.com/watch?v=8MnLVIU4Vuo): CAD animation of a gear fixed to a shaft by a split bush with a tapered outside, pulled in by one pair of screws and pushed out by another (described in Thang's '2100 Animated Mechanical Mechanisms' catalogue) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [HTD 5M pulley for 1108 taper lock bush - NOT TESTED in use (Atjornov, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1325037-htd-5m-pulley-for-1108-taper-lock-bush-not-tested): Two-part printed ABS toothed-belt pulley for a 20 mm HTD 5M belt, made to take a standard metal 1108 taper-lock bush; the halves are glued and bolted with M4 x 35 screws and washers; designer's target is about 40 W continuous and it was untested under load (details read via the Printables API) *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Pulley with taper-lock-bushing (Jan Detlefsen, Printables) (URL from search results; details via Printables API)](https://www.printables.com/model/313590-pulley-with-taper-lock-bushing): Printable pulley model designed around a taper-lock bushing; the listing has no description ('Test upload') *(licence: GNU General Public License v2.0)*
+- **diagram_idea**: Half cross-section of a shaft, a keyless bush and a pulley hub, shown twice: first loose with a gap, then with the screw tightened and arrows showing the tapered rings sliding together so the inner ring squeezes inward onto the shaft and the outer ring pushes outward into the hub, with a small inset comparing it to a keyed joint.
+- **sources**: 
+  - https://www.machinedesign.com/automation-iiot/article/21827133/keyless-devices-get-a-grip-on-shafts
+  - https://cdn.skfmediahub.skf.com/api/public/0901d1968008f69c/pdf_preview_medium/0901d1968008f69c_pdf_preview_medium.pdf
+  - https://catalog.climaxmetal.com/Asset/Keyless-Locking-Technical-Information.pdf
+  - https://www.ringfeder.com/products/locking-assemblies/
+  - https://www.mcmaster.com/products/keyless-locking-devices/
+  - https://www.mcmaster.com/products/taper-lock-bushings/
+  - https://refrigerationandaircon.co.za/working-with-a-taper-bush/
+  - https://www.industryinmotion.com.au/australian-industrial-businesses/how-to-make-the-right-shaft-connection-with-fenner-taper-lock/
+  - https://www.hobby-machinist.com/threads/well-thats-neat-fenner-manheim-trantorque-bushings.122690/
+  - https://en.wikipedia.org/wiki/Key_(engineering)
+  - https://de.wikipedia.org/wiki/Spannsatz
+  - https://en.wikipedia.org/wiki/Collet
+  - https://commons.wikimedia.org/wiki/File:Spannsatz-2.jpg
+  - https://commons.wikimedia.org/wiki/File:Taperlock_Keilriemenscheibe_mit_Buchse.jpg
+  - https://www.youtube.com/watch?v=p1bmVphYmGQ
+  - https://www.youtube.com/watch?v=hh1y2Su4oPo
+  - https://www.youtube.com/watch?v=fT4axK3haQ0
+  - https://www.youtube.com/watch?v=VU3q0ee4T9U
+  - https://www.youtube.com/watch?v=nqVbSI4Qruo
+  - https://www.youtube.com/watch?v=8MnLVIU4Vuo
+  - https://wiki.dtonline.org/index.php/2100_Animated_Mechanical_Mechanisms
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/313590-pulley-with-taper-lock-bushing
+  - https://prusament.com/wp-content/uploads/2022/10/PLA_Prusament_TDS_2021_10_EN.pdf
+  - https://help.prusa3d.com/article/pla_2062
+
+### Other info
+
+- **Fields with unverified parts:** input_output, making_tips_3d_printing, safety_notes
 
 ## 194 Schmidt coupling (offset coupling)
 
 *clutches & couplings.* Three discs joined by links that pass rotation between two parallel shafts which are well out of line, at constant speed
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: Three discs in a row joined by little linking bars, so a motor shaft can drive another shaft that sits well off to one side (centimetres away, not just a fraction of a millimetre) at exactly the same speed and angle; the second shaft can even move sideways while it runs
+- **term**: Schmidt coupling (Schmidt offset coupling)
+- **aliases**: 
+  - Schmidt offset coupling / offset coupling
+  - parallel-offset coupling; parallel-link coupling; three-disc link coupling
+  - Schmidt coupler (maker usage, e.g. on Printables)
+  - Schmidt-Kupplung (German; also the registered name of SCHMIDT-KUPPLUNG GmbH (brand), whose series are Standard S, Power Plus P and Offset Plus V)
+  - Zero-Max Schmidt Offset Coupling (brand), L200 and L300 series
+  - Schmidt Inline coupling and Schmidt 5-D coupling (brand, Zero-Max): related versions for small offsets
+- **family**: clutches & couplings
+- **one_liner**: A coupling made of three discs linked in series by sets of equal parallel bars, which passes rotation at exactly constant speed between two parallel shafts that are far out of line, even while that offset changes.
+- **complexity**: A small assembly that acts as one unit: an input disc (on hub 1), a free-floating centre disc, an output disc (on hub 2), and two layers ('link levels') of three equal-length links, with a bearing and pin at every link end: 3 discs, 6 links and 12 pivots, plus the two hubs that clamp or key onto the shafts (Wikipedia; Schmidt-Kupplung catalogue).
+- **how_it_works**: Each pair of neighbouring discs is joined by three equal links whose pivots sit 120° apart on circles of the same size, so every link forms a parallelogram with the discs (a parallel-crank linkage): the two discs must always turn to exactly the same angle, yet their centres are free to be apart (Wikipedia). The centre disc has no bearing of its own; Schmidt's key discovery was that it 'could in fact assume its own center of rotation' between the two shafts (Wikipedia). Turning force passes through the links as balanced pushes and pulls, so the shaft bearings feel no side load (ABSSAC; Zero-Max). Because the links fix only the angle and not the distance, the offset can be set anywhere between a minimum and a maximum of about twice the link length, and can even change while running, without any change in speed or phase (Wikipedia; Schmidt-Kupplung).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: connects two parallel shafts so they turn together at exactly the same speed and angle
+  - let it move (turn, slide or bend): lets the two shafts sit far apart sideways, and lets one shaft move sideways while running, e.g. a coating roller that lifts to take thicker material without stopping the machine (Schmidt-Kupplung)
+- **motion**: multiple: the whole coupling rotates continuously, while the output shaft may also shift sideways in any direction within the permitted offset range (e.g. 6-23 mm for the smallest Schmidt-Kupplung S 35), at rest or while running
+- **degrees_of_freedom**: Between the two shafts: 2 (the output shaft can shift sideways in both directions across the discs), while the turning itself is locked 1:1. Commercial couplings also accept a little end movement (about 1 mm) and tilt (0.5-0.8°) (Schmidt-Kupplung technical data). Inside, the centre disc floats with 2 sideways freedoms of its own, fixed by the geometry except when the shafts are in line.
+- **special_behaviour**: 
+  - none of the listed behaviours: its special trick, passing rotation at exactly constant speed and phase across a large, changeable sideways offset without loading the shaft bearings sideways (Wikipedia; Schmidt-Kupplung; Zero-Max), is not in this list. It does not slip, click, lock or release. Its floating centre disc does centre itself, but only while the shafts are offset: in line, the disc has no fixed position (Schmidt-Kupplung)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it passes rotation from one shaft to another
+  - shape (the parts interlock; form-fit): torque passes through pinned links and bearings, so the discs cannot slip relative to each other
+  - friction or clamping (force-fit): the end hubs are usually clamped onto the shafts (Schmidt-Kupplung clamping hubs) or keyed and set-screwed (Zero-Max hubs)
+- **input_output**: Continuous rotation -> the same continuous rotation (1:1), at constant angular velocity and with no phase shift at any offset (Wikipedia; Schmidt-Kupplung). Shaft arrangement: parallel and offset (never exactly in line). Back-drivable: yes; either shaft can drive the other. *(unverified parts omitted)*
+- **power**: passive (no power needed)
+- **removability**: removable: commercial couplings clamp onto the shafts with clamping hubs (several screws, e.g. M6 at 12 N·m on the smallest Schmidt-Kupplung sizes), or bolt to flanges or keyed hubs, and come off by loosening them (Schmidt-Kupplung installation instructions; Zero-Max hub data)
+- **reuse_cycles**: many times: it comes off and goes back on as one unit; what wears out is the pivot bearings with running hours, and Zero-Max treats the needle bearings' B-10 life as the coupling's life
+- **tools_needed**: Hex keys and a torque wrench for the hub clamp screws or flange bolts; a grease gun with the specified grease for regreasing (Schmidt-Kupplung). Printed versions: pins, screws or small bearings, perhaps a drill or reamer to true the pivot holes, and a dab of glue for loose clip-together parts (Maltese Canuck, Printables).
+- **seal**: none: the links and discs are open; only the needle bearings have built-in seals (Schmidt-Kupplung material list), and the maker recommends a metal cover to shield the coupling from heat, dust, sand and solvents
+- **load**: Medium to heavy torque: Schmidt-Kupplung sizes carry 35 to 6,610 N·m (ABSSAC), and Zero-Max L200/L300 offset couplings 637 to 459,000 lbf·in (about 72 N·m to 52 kN·m) (Zero-Max table). Strong in twist, and it puts no side load on the shaft bearings (Zero-Max; Schmidt-Kupplung). Weak against end movement and tilt: about 1 mm axial and 0.5-0.8° angular misalignment (Schmidt-Kupplung table). Torque capacity mainly depends on bearing size, number of bearings and their radius (Zero-Max).
+- **adjustable**: yes: the offset can be changed at rest or while running under load, anywhere within the permitted range (Schmidt-Kupplung); the length between shaft ends is set when installing
+- **play_and_precision**: Small play: precision needle bearings give very low rotational play (Schmidt-Kupplung), and Zero-Max offers Low and Ultra Low Backlash models; it is torsionally stiff (7 kN·m/rad for the smallest Schmidt-Kupplung S 35). The output keeps exactly the same angle as the input at any offset, so it suits timing and registration drives. Misalignment: very large parallel offset (e.g. 6-23 mm for S 35, up to 275 mm for the largest Offset Plus V (ABSSAC)), but only about 1 mm end float and 0.5-0.8° tilt, and never zero offset.
+- **access_needed**: end of a tube or shaft: each end hub fits over a shaft end and is clamped or keyed there; leave clear space round it for the links' swing diameter and room for a grease gun
+- **materials**: Commercial: steel discs (St52-3), steel links, hardened steel bolts, needle roller bearings and grease (Schmidt-Kupplung). Maker versions: printed PLA discs and links with pins, screws or 608 ball bearings and 8 mm steel shafts (Printables models).
+- **maker_difficulty**: moderate: the discs and links print flat without supports, but it needs 12 accurate pivots with equal link lengths and hole spacings, plus pins or bearings; a printed one is a demonstrator or light drive, so buy one for real torque
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): popular desk demonstrators and light drives (e.g. Ringarn67's and Maltese Canuck's models on Printables)
+  - CNC: steel or aluminium discs and links with bearings
+  - off-the-shelf part: Schmidt-Kupplung (brand) and Zero-Max (brand) offset couplings *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Print the discs and links flat on the bed; they are flat plates, so no supports are needed (Maltese Canuck: PLA, no supports, 3 walls, 55% infill). Schmidt-Kupplung stresses that 'All coupling elements for a level must be installed in parallel'. 3) Pivots: printed holes come out undersized, so give pins clearance (Ringarn67 scaled his links to 104% for a looser fit on the pins, printed at 0.20 mm layers and added a 3 mm brim on the pins); for a working drive use steel pins, screws with bushes, or small ball bearings at all 12 pivots. 4) Lubricate the rubbing surfaces, e.g. with graphite from a pencil (Maltese Canuck) or grease. 5) Support the input and output shafts rigidly and parallel, e.g. 8 mm steel shafts in 608 bearings (Maltese Canuck), because the coupling itself tolerates almost no tilt (0.5-0.8° in commercial ones, Schmidt-Kupplung). 6) Keep the shafts at least the minimum offset apart and below the maximum: never let the links of the two layers lie parallel (fully stretched) or the shafts come into line, or the middle disc wobbles (Schmidt-Kupplung; Wikipedia). 8) PLA is fine for a demonstrator but softens above about 60 °C (Prusa); use PETG or nylon for a working drive. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'Schmidt coupling', 'Schmidt offset coupling', 'Schmidt-Kupplung' (brand; Standard S, Power Plus P and Offset Plus V series), 'Zero-Max Schmidt offset coupling' (brand; L200/L300 series, e.g. L230C), 'parallel offset coupling'. For small offsets: 'Schmidt Inline coupling' (L400) and '5-D coupling' (L500) (brand, Zero-Max), or an 'Oldham coupling'. For home-made versions: 608 ball bearings, 8 mm steel shafts, dowel pins or shoulder screws, small flanged bearings, clamping hubs or shaft collars, and grease or graphite.
+- **rules_of_thumb**: 
+  - Never run the shafts in line: at zero offset the centre disc 'would have no definite position in space but would be stimulated to its own movement', so every size has a minimum required offset (Schmidt-Kupplung catalogue 2022, p. 8-10); at high speed, near-in-line shafts cause 'extreme vibration' (Wikipedia).
+  - Never run in the fully stretched ('extended') position, where the links of one layer lie parallel to those of the other (Schmidt-Kupplung catalogue p. 10).
+  - The maximum offset is about twice the length of the links (Wikipedia).
+  - Example sizes: the smallest Schmidt-Kupplung S 35 carries 35 N·m (65 N·m peak), needs at least 6 mm offset, allows up to 23 mm, runs to 3,100 rpm, and takes 1 mm end movement and 0.8° tilt (Schmidt-Kupplung technical data, p. 15). Zero-Max's smallest L230C works from 0.437 in (11 mm) to 1.575 in (40 mm) offset, carries 637 lbf·in (72 N·m) and runs to 2,500 rpm (Zero-Max Schmidt catalogue, p. 6).
+  - In both catalogues the minimum offset is roughly a quarter of the maximum (6/23 mm, 13/50 mm and 50/190 mm for Schmidt-Kupplung sizes; 0.437/1.575 in for Zero-Max L230C) [our calculation from the catalogue tables].
+  - If the output shaft travels along a straight line, the usable travel ('maximum linear range') is about 2 × √(maximum offset² − minimum offset²), e.g. about 45 mm for the S 35 [our calculation; it matches the catalogue values]. Zero-Max: to use all of it, the line must pass the fixed shaft at the minimum offset, with the travel centred.
+  - Size it by torque, speed and bearing life: Schmidt-Kupplung multiplies the drive torque by a performance factor (from speed and desired life) and a load factor from 1.0 (uniform) to 2.25 (heavy shocks) (catalogue p. 12); Zero-Max takes the needle bearings' B-10 life as the coupling's life (catalogue p. 5).
+  - Regrease at intervals that shorten as speed rises, only with the specified grease (mixing greases shortens life); the smallest sizes are lubricated for life (Schmidt-Kupplung p. 22-23).
+  - For small misalignments (about 0.06 in parallel, ±0.5° angle), Zero-Max's Inline Schmidt coupling, with two pairs of parallel links 90° apart, is used instead; it does create side loads, which Zero-Max charts as a percentage of coupling weight rising with offset and speed (Zero-Max catalogue p. 8, 11).
+  - Install it as a complete unit, with all links of a layer parallel, onto clean, dry, burr-free shaft ends, and allow for shaft growth with heat (Schmidt-Kupplung installation instructions, p. 21).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Printing presses, where rollers must stay exactly in step (in register) while the spacing between them is adjusted (Zero-Max; Schmidt-Kupplung)
+  - Roll-forming, laminating, corrugated-cardboard and paper-making machines (ABSSAC)
+  - Coating rollers that lift to handle different material thicknesses, or that can be changed without stopping the machine (Schmidt-Kupplung)
+  - 3D-printed desk demonstrators and fidget models shared on Printables and Thingiverse
+- **when_to_use**: Use it when two parallel shafts must turn at exactly the same speed and angle but sit well out of line (far more than an Oldham or flexible coupling can take), when the offset has to change while running (adjustable, lifting or tensioning rollers), when there is little length between the shaft ends (Offset Plus V can take a 275 mm offset in a coupling only 284 mm long, ABSSAC), or when you must avoid side loads on bearings. It also makes a satisfying teaching model for parallelogram linkages.
+- **when_not_to_use**: Avoid it when the shafts are in line or nearly so (it must not run at zero offset; use a jaw, beam or Oldham coupling), when the offset is small and fixed (an Oldham coupling or an Inline Schmidt coupling is simpler), when the shafts meet at an angle (use a pair of universal joints or a flexible shaft), or when a fixed offset can be bridged more cheaply by a belt, chain or gear pair (a gear pair reverses the direction). Printed versions are for light loads and demonstrations only.
+- **environment_limits**: Commercial couplings are all steel with greased needle bearings; shield them from direct heat, dust, sand and solvents with a metal cover, and regrease at intervals that shorten with speed (Schmidt-Kupplung). The coupling is dynamically balanced and absorbs radial vibration (Schmidt-Kupplung; Zero-Max), but running near in-line causes severe vibration (Wikipedia). Printed PLA versions soften above about 60 °C (Prusa). *(unverified parts omitted)*
+- **safety_notes**: The links swing round a bigger circle than the discs (the 'swing diameter'), creating pinch and entanglement points; guard it like any rotating equipment (Zero-Max: 'Rotating equipment must be guarded'). The coupling can come apart when lifted or carried, and parts can fall off (Schmidt-Kupplung). Near in-line running at speed, the centre disc can oscillate violently (Wikipedia).
+- **common_failures**: 1) Severe vibration from running with the shafts too close to in line (Wikipedia; Schmidt-Kupplung). 2) Jamming or overload when pushed to the fully stretched position beyond maximum offset (Schmidt-Kupplung). 3) Worn pivots and needle bearings from missed regreasing or mixed greases; Schmidt-Kupplung replaces whole link elements rather than single bearings. 4) Extra wear and side loads when the shafts are tilted or pushed together beyond the small angular and axial limits (Zero-Max notes excess misalignment introduces sideloads that cause vibration and bearing failure; Schmidt-Kupplung table). *(unverified parts omitted)*
+- **related**: 
+  - Oldham coupling: three discs with sliding tongue-and-groove slots; simpler and cheaper, but only for small offsets, and it slides rather than pivots
+  - Double universal joint (two Hooke's joints on a middle shaft): can bridge an offset, but Zero-Max notes it causes radial forces at the joints and needs a lot of sideways space
+  - Schmidt Inline and 5-D couplings (brand, Zero-Max): two pairs of parallel links 90° apart for small offsets; the 5-D also takes ±5° of tilt
+  - Flexible drive shaft: carries rotation round bends and large offsets, but twists under load so the output lags and is not exactly in step
+  - Belt, chain or gear drive: bridges a fixed offset cheaply; gears reverse the direction, and changing the offset needs a tensioner or swinging arm
+  - Jaw coupling and flexible beam coupling: for nearly in-line shafts only *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [SchmidtCouplingGif.gif (Wikimedia Commons, by Saturnautics)](https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif): Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in the Wikipedia article) *(licence: CC BY-SA 4.0)*
+  - [Schmidt coupling (Nguyen Duc Thang, thang010146, YouTube)](https://www.youtube.com/watch?v=ARs3y3i0enE): Colour-coded CAD animation of rotation passed between parallel shafts, with the centre link disc turning without a fixed bearing while both shafts move (description from Thang's '2100 Animated Mechanical Mechanisms' catalogue) *(licence: link only (standard YouTube licence))*
+  - [Zero-Max Schmidt Offset Coupling (zeromaxmotioncontrol, YouTube)](https://www.youtube.com/watch?v=zVt1tvD7rqk): Manufacturer's video on Schmidt offset couplings and how they allow large shaft displacement while keeping constant angular velocity (per its YouTube description; video content not checked frame by frame) *(licence: link only (standard YouTube licence))*
+  - [What is a Schmidt Offset Coupling? (Design World, YouTube)](https://www.youtube.com/watch?v=iZUC5Q2kp8E): Introduction to the coupling's parts, how it works and where it is used *(licence: link only (standard YouTube licence))*
+  - [Schmidt-Kupplung catalogue 2022, English (SCHMIDT-KUPPLUNG GmbH)](https://www.schmidt-kupplung.com/fileadmin/user_upload/Download/Kataloge_pdf/Katalog_SchmidtKupplung_2022_englisch_ansicht_.pdf): Photos and diagrams of the three discs and two link levels, the minimum-offset rule, the forbidden in-line and extended positions, and the path of the centre disc *(licence: link only (manufacturer's copyright))*
+- **make_it_yourself**: 
+  - [Schmidt-Coupling (Ringarn67, Printables) (URL from search results; details via Printables API)](https://www.printables.com/model/64462-schmidt-coupling): Printed PLA Schmidt coupling made 'just to understand how it works'; links scaled to 104% for a looser fit on the pins, 0.20 mm layers, 3 mm brim on the pins; Fusion 360 file included *(licence: Creative Commons Public Domain (as listed on Printables))*
+  - [Schmidt Coupler (Maltese Canuck, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1698993-schmidt-coupler): Basic clip-together Schmidt coupler with 8 mm input and output shafts for 608 bearings; printed in PLA without supports; pencil graphite suggested as lubricant *(licence: CC BY (Creative Commons Attribution))* *(unverified parts omitted)*
+- **diagram_idea**: End view of the three discs, input disc fixed at the left, output disc to the right and shifted downwards, centre disc floating between them, with the three links of each layer drawn as parallel bars; an animation slides the output shaft sideways to show all discs keep turning at the same angle, plus a small panel marking the forbidden 'in line' and 'fully stretched' positions.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Schmidt_coupling
+  - https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
+  - https://en.wikipedia.org/wiki/Antiparallelogram
+  - https://s3.amazonaws.com/www.motionusa.com/zero-max/Schmidt_Couplings.pdf
+  - https://www.saddlebrookcontrols.com/wp-content/uploads/8-Zero-Max-Schmidt-Couplings.pdf
+  - https://www.schmidt-kupplung.com/fileadmin/user_upload/Download/Kataloge_pdf/Katalog_SchmidtKupplung_2022_englisch_ansicht_.pdf
+  - https://www.zero-max.dk/en/schmidt-couplings/
+  - https://www.abssac.co.uk/p/Schmidt+Couplings/Schmidt+Offset+Coupling/48/
+  - https://www.youtube.com/watch?v=ARs3y3i0enE
+  - https://www.youtube.com/watch?v=zVt1tvD7rqk
+  - https://www.youtube.com/watch?v=iZUC5Q2kp8E
+  - https://www.youtube.com/watch?v=ubtz8d0qGQ4
+  - https://wiki.dtonline.org/index.php/2100_Animated_Mechanical_Mechanisms
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/64462-schmidt-coupling
+  - https://www.thingiverse.com/thing:4640046
+  - https://help.prusa3d.com/article/pla_2062
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, input_output, make_it_yourself, making_tips_3d_printing, print_in_place, processes, related
 
 ## 195 Flexible drive shaft (rotating cable)
 
 *clutches & couplings.* Layers of wound wire in a sleeve that carry rotation round bends, as in rotary-tool extensions and speedometer cables
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: A bendy cable that spins inside a sleeve, so a motor can turn something round corners or at the end of a hose, like the wobbly extension on a Dremel or the cable that used to drive a car's speedometer
+- **term**: Flexible shaft (flexible rotary shaft, flex shaft)
+- **aliases**: 
+  - flex shaft / flexi-shaft
+  - flexible drive shaft; flexible rotary shaft; rotating cable; drive cable
+  - speedometer cable / speedo cable; tachometer cable (its spinning part is the 'inner cable' or 'core')
+  - power-drive flexible shaft vs remote-control flexible shaft, also called torsion shaft (Elliott; Thonab terms)
+  - flex cable (radio-controlled boats)
+  - pendant drill / flex-shaft machine (the hanging-motor tool used by jewellers)
+  - Flex-Shaft attachment (Dremel (brand) model 225)
+  - Foredom (brand), Suhner (brand), S.S. White (brand), Elliott (brand), Willtec (brand)
+  - remote direct drive / flex-drive extruder (3D-printing use), e.g. Flex3Drive (brand), Zesty Nimble (brand)
+- **family**: clutches & couplings
+- **other_families**: gear trains, gearboxes & transmissions
+- **one_liner**: A rotating core of wire wound in layers, usually running inside a non-turning sleeve (casing), that carries turning motion or power round bends and between parts that aren't lined up or that move.
+- **complexity**: A small assembly that acts as one unit: a core (a centre wire with layers of spring wire wound over it, each layer in the opposite direction), an outer casing (flexible conduit or hose, sometimes with a liner) that doesn't turn, end fittings on the core (often squared ends, a collet or a short solid shaft), and ferrules or threaded nuts that anchor the casing ends (Elliott; Machine Design; Dremel).
+- **how_it_works**: The core is made by winding several layers of springy wire round a centre wire, each layer at the opposite slope to the one below (Machine Design 2000). When it is twisted, half the layers try to unwind and swell while the layers between them try to wind tighter and shrink, so they squeeze against each other; that squeeze makes the bundle stiff in twist while it still bends easily, about 100 times stiffer than the layers acting alone (Machine Design 2013). It is strongest when turned the way that tightens the outer layer, because nothing outside that layer stops it loosening the other way (Machine Design 2000). The casing holds the spinning core in a smooth curve, keeps grease in and dirt out, stops the core looping or corkscrewing, and protects hands (Machine Design 2000; Thonab).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): carries turning motion round bends and over distance, to a tool or part that can move about while it runs
+  - join and hold: connects a motor to a driven shaft that isn't lined up with it, standing in for bevel gearboxes, chain drives and universal joints (Thonab)
+- **motion**: rotate: continuous rotation (small shafts up to about 20,000 rpm, Machine Design 2000); the shaft body also bends (flex), so its ends can be moved and aimed while it turns
+- **degrees_of_freedom**: It passes 1 rotation from end to end (locked 1:1 apart from twist under load); otherwise the two ends are free to move and point in different directions within the bend-radius limits (turns of 180° or more, Machine Design 2000), so it is not a joint with a fixed number of freedoms.
+- **special_behaviour**: 
+  - none of the listed behaviours: it simply carries rotation round bends. Useful side effects: it 'naturally absorbs shock and dampens vibration' (Machine Design 2000; Thonab), removes the need for precise alignment, and its twist under load acts like a soft spring in the drive
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it transmits rotation
+  - shape (the parts interlock; form-fit): the core's squared ends drive into square sockets (Machine Design 2000 'integral-form-squared' ends; HowACarWorks; Dremel)
+  - friction or clamping (force-fit): some ends are gripped by a collet or clamp, e.g. an RC-boat flex cable held in a collet at the motor (Traxxas)
+- **input_output**: Rotation -> the same rotation (1:1 on average), with the output lagging behind the input by the twist under load (torsional deflection, which is proportional to torque and length, Thonab). Shaft arrangement: any: in line, at an angle, offset, or moving, including 180° turns (Machine Design 2000). Efficiency 85-95% (Machine Design 2013) or 90-95% (Machine Design 2000). Back-drivable: yes, torque can pass either way, but a one-direction (unidirectional) shaft is much softer and weaker when turned the wrong way (Machine Design 2000).
+- **power**: passive (no power needed): it only carries power from a motor or a hand crank
+- **removability**: removable: the core ends usually push into square sockets or a collet and the casing screws or clips on; the Dremel flex shaft screws onto the tool by hand, and an RC-boat flex cable pulls out after loosening its collet (Dremel; Traxxas)
+- **reuse_cycles**: effectively unlimited: it can be unplugged and refitted any number of times; what wears out is the core and its ends, from running hours, tight bends and lack of grease
+- **tools_needed**: Often none for the casing (threaded ferrules are done up finger tight, HowACarWorks); a small spanner for a collet (Dremel wrench; Traxxas 10 mm wrenches); grease for relubrication
+- **seal**: dust-resistant: the casing keeps dirt out and lubricant in (Machine Design 2000; Thonab); it is not watertight by itself, though RC boats pack the stuffing tube round the flex cable with heavy-duty waterproof grease (Traxxas)
+- **load**: Light to medium, in twist only: small shafts carry a few N·m (Willtec 6 mm shaft 3 N·m, 20 mm shaft 18.5 N·m, data for 1 m length), a 0.25 in (6.4 mm) shaft about 60 lbf·in (6.8 N·m) continuous, and the largest up to 5,000 lbf·in (565 N·m) (Machine Design 2000). It is strong only in its design direction, and torque capacity falls with tighter bends and higher speed (Thonab). It can't support side or bending loads for the machine; the casing takes push-pull forces (Thonab).
+- **adjustable**: no: its length and twist stiffness are fixed; you can re-route it, and the driven end can move while in use
+- **play_and_precision**: No gear-type backlash, but noticeable twist (windup) under load that grows with torque and length (Thonab): e.g. Willtec's 6 mm shaft twists about 80° per metre at its 3 N·m rating, and the cable in Piercet's flex-drive extruder winds up about a quarter turn (Printables). Two-direction (bidirectional) shafts twist about the same either way, one-direction shafts much more the wrong way (Machine Design 2000). Misalignment tolerance: huge; offsets of 180° or more, against about 30° for a universal joint and 5° for a flexible coupling (Machine Design 2000).
+- **access_needed**: end of a tube or shaft: each end fits onto or into a shaft end, square socket or collet, with the casing anchored beside it
+- **materials**: Core: high-tensile carbon spring steel for general use; stainless steel for corrosion and heat to 600 °F (315 °C), phosphor bronze for lowest magnetism, Monel, and Inconel to 1,100 °F (593 °C) (Machine Design 2000). Casings: wound steel conduit, galvanised steel hose, or Rilsan plastic covers that resist oil, grease, dirt and corrosive agents; end fittings of stainless steel (Willtec).
+- **maker_difficulty**: easy to fit, hard to make: buy one (a rotary-tool flex shaft or a speedometer cable) and print or make the mounts and end adaptors; winding a good core yourself is not practical
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: rotary-tool flex shafts, speedometer cables, RC-boat flex cables, and industrial flexible shafts with casings and end fittings
+  - 3D print (FDM): holders, stands, routing guides, end adaptors and small gearboxes around a bought shaft (many Printables models)
+  - CNC: machined end fittings, couplers and output gearboxes
+- **print_in_place**: no: the wound-wire core is a bought part; only the parts around it are printed
+- **making_tips_3d_printing**: 1) Buy the core and casing (a rotary-tool flex shaft or a speedometer cable) and print only the mounts, guides, adaptors and gearbox. 2) Put any speed-reducing gearbox at the driven (tool) end, so the cable spins fast with little torque; that keeps twist and load low (Thonab). Flex-shaft 3D-printer extruders use 30:1-40:1 reductions at the hot end (Steemit overview), the Orbiter extruder designer says about 20-30:1 is needed to avoid print artefacts from twist (Hackaday comment), and Piercet's 40:1 NovaPro turns a quarter turn of cable windup into about 1/16 of a gear tooth (Printables). 3) Clamp the casing ends firmly so the casing can't turn or pull out; keep bends gentle, e.g. no bend within 50 mm of either end and at least 150 mm radius elsewhere for a car speedometer cable (HowACarWorks), 6 in (152 mm) minimum for the Dremel 225 (Dremel); check your own cable's minimum bend radius. Print clips and guides with generous curved paths and don't pinch the casing, because a crushed casing makes the drive jerky (HowACarWorks). 5) Mount the motor higher than the working end, as Dremel warns the core can otherwise work loose. 6) Expect windup: boothyboothy abandoned a DIY speedometer-cable extruder because cable twist 'considerably' negated retraction (Printables), while FLEXTRUDER2 17 reached reliable results with a worm drive and the cable at 1,500 rpm (hackaday.io). 7) Printed housings near motors and fast-spinning cable get warm; 8) Leave room to pull the core out for greasing. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'flexible shaft', 'flex shaft', 'flexible drive shaft', 'flexible rotary shaft', 'power drive flexible shaft', 'remote control flexible shaft', 'speedometer cable' or 'speedo inner cable', 'tachometer cable', 'rotary tool flex shaft attachment' (e.g. Dremel 225 (brand)), 'pendant drill' or 'flex shaft machine' (e.g. Foredom (brand)), 'RC boat flex cable' and 'stuffing tube', and flex-shaft extruder kits (Flex3Drive (brand), Zesty Nimble (brand)). Industrial makers: S.S. White (brand), Elliott (brand), Suhner (brand), Willtec (brand), with end couplings such as square ends, cylindrical solid or hollow shafts and keyed shafts. Supporting parts: shaft couplers, collets, casing ferrules and clamps, and wheel-bearing grease.
+- **rules_of_thumb**: 
+  - Turn it in the direction that tightens the outer layer (TOL): that gives the highest stiffness and strength, and the loosen-outer-layer (LOL) direction the lowest (Machine Design 2000). A shaft whose outer layer is wound left-handed carries more torque clockwise; a right-wound one, counter-clockwise (Thonab).
+  - A shaft counts as bidirectional only if its stiffness the weak way is at least 40% of the strong way (torsional stiffness ratio, TSR); the best reach 60-65% (Brian Parlato, 'Flexible shafts eliminate obstacles', Machine Design, 2000).
+  - Size it for start-up or stall torque, not running torque; below 100 rpm (hand operation) a shaft can take about twice its rated running torque (Machine Design 2000).
+  - Speed: shafts up to 0.188 in (4.8 mm) diameter run at up to 20,000 rpm; for 0.25 in (6.4 mm) and larger keep the surface speed under 500 ft/min, i.e. max rpm = 500 × 12 / (π × diameter in inches) (Machine Design 2000). Below 3,000 rpm no special measures are needed (Machine Design 2013).
+  - Catalogue torque values apply at about 20% of maximum speed with the shaft straight; the maximum torque falls as speed rises and as bends get tighter, and exceeding it can permanently deform the shaft (Thonab).
+  - Twist is proportional to torque and length (Thonab); e.g. a 6 mm Willtec shaft twists 80° per metre at 3 N·m and has a 70 mm minimum bend radius (Willtec TR data sheet).
+  - Run the shaft as fast as practical: put a step-up gearbox at the motor end, or a reduction gearbox at the tool end (Thonab).
+  - Use a casing for high-speed cores longer than about 5-8 cm (Thonab) and for any shaft over 12-14 in (300-350 mm), which otherwise tends to corkscrew; a casing also raises torque capacity (Machine Design 2000). Casing bore about 1.2 × core diameter (Thonab).
+  - Route with the largest possible bends (Thonab): Dremel 225 minimum 6 in (152 mm) radius (Dremel instructions); car speedometer cables, no bend within 50 mm of either end and at least 150 mm radius elsewhere (HowACarWorks).
+  - Grease sparingly and regularly: Dremel, a very thin film of wheel-bearing grease every 25-30 hours of use, as too much overheats it (Dremel); industrial cores, clean and grease about every 200 hours, or 50 hours in wet conditions (Thonab); RC boats, regrease the flex cable every three runs, about 15 minutes of running (Traxxas).
+  - Flexible shafts are 85-95% efficient, typically better than gears, universal joints and belts (Machine Design 2013).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The flexible extension for a Dremel-type rotary tool, or a jeweller's hanging-motor pendant drill (Wikipedia; Dremel 225 instructions)
+  - The speedometer cable behind older car and motorbike dashboards (Machine Design 2000; HowACarWorks)
+  - A plumber's drain snake and the drive in a string trimmer (Wikipedia; Machine Design 2000)
+  - The flex cable that drives the propeller of a radio-controlled boat (Traxxas)
+- **when_to_use**: Use it when the motor and the thing it turns can't be lined up, are far apart, sit round a corner, or move relative to each other: a handheld tool driven by a heavier motor hung out of the way, a knob that adjusts something buried inside a machine (remote-control shafts), a light drive to a moving carriage (flex-shaft 3D-printer extruders), or a boat propeller. It saves precise alignment work, weighs about a third as much as the alternatives (Machine Design 2000), soaks up shock and vibration, and can turn 180° or more.
+- **when_not_to_use**: Avoid it when you need exact position or no lag under load (it twists; use a rigid shaft with universal joints or gears, or put a stepper or servo motor at the far end), for high torque at low speed (twist and stress rise; add a reduction gearbox at the far end instead, Thonab), where bends would be tighter than its minimum radius (use bevel gears or a right-angle gearbox), or when a one-direction shaft would have to drive hard both ways. To push or pull rather than turn, use a Bowden (push-pull) cable.
+- **environment_limits**: Heat: sharp or multiple bends make the jacket and handpiece hot, and too much grease overheats it (Dremel). Special cores handle heat: stainless steel to 600 °F (315 °C), Inconel to 1,100 °F (593 °C) (Machine Design 2000). Water: carbon-steel cores rust, so use stainless or keep them greased; wet conditions shorten greasing intervals to about 50 hours (Thonab), and gearbox oil seeping up a speedometer cable makes the needle sluggish (HowACarWorks). Dust: the casing keeps it out (Thonab). Vibration: it absorbs shock and vibration rather than suffering from it (Machine Design 2000). Over time grease dries and the square ends wear round (HowACarWorks). Printed mounts: PLA softens above about 60 °C (Prusa).
+- **safety_notes**: A bare spinning core can catch hair, clothing or skin; keep it in its casing, which also shields the user (Machine Design 2000). Dremel's rules: wear eye protection; hold the handpiece firmly at start-up because the motor's reaction torque twists the shaft; don't use router bits or bits 1 in (25 mm) or larger, which can kick back; and never remove the end ferrule while it runs, or the cable 'will uncontrollably whip or lash around'. Over-bent shafts get hot (Dremel).
+- **common_failures**: 1) Broken core, or square ends worn round so they no longer engage their sockets, so the drive stops (HowACarWorks). 2) Kinked, crushed or too sharply bent casing, giving a jerky drive (a twitching speedometer needle) and heat (HowACarWorks; Dremel). 3) Dry or dirty core, heard as tapping and felt as stiffness; clean it and re-grease sparingly (HowACarWorks; Dremel). 4) Overheating from too much grease or sharp bends (Dremel). 5) The shaft disengaging from the tool when the motor sits lower than the working end, or the core coming loose from the handpiece if it is pulled out to engage the driver cap (Dremel). 6) Too much twist (windup) for precise work, e.g. lost 3D-printer retraction (boothyboothy, Printables; Orbiter designer on Hackaday). 7) Permanent deformation from overload, or weakness from running a one-direction shaft the wrong way (Thonab; Machine Design 2000). 8) Long uncased cores looping or corkscrewing (Machine Design 2000; Thonab).
+- **related**: 
+  - Bowden cable (push-pull cable): the same sleeve-and-core idea, but it carries a pull or push instead of rotation
+  - Universal joint (Hooke's joint): rigid and precise with no windup, but only about 30° per joint, and a single joint gives uneven speed (Machine Design 2000)
+  - Bevel gears or a right-angle gearbox: an exact, stiff turn through 90°, but needs precise alignment
+  - Belt or chain drive: bridges a gap between parallel shafts; needs alignment and tension
+  - Schmidt coupling and Oldham coupling: join parallel offset shafts at exactly constant speed, but can't go round bends
+  - Flexible beam coupling and jaw coupling: handle only small misalignment between nearly in-line shafts
+  - Capstan cable drive (tendon drive): cables over pulleys that pull rather than spin
+  - Remote motor with wires: often simpler today, as with electronic speedometer sensors replacing cables (Hackaday)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [2008-05-06 1990 Geo Storm GSi speedometer cable.jpg (Wikimedia Commons, by Ildar Sagdejev (Specious))](https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg): Photo of a car speedometer cable in its casing *(licence: CC BY-SA 4.0 (also 3.0, 2.5, 2.0, 1.0) or GFDL 1.2 or later)*
+  - [Flexible shaft motor.jpg (Wikimedia Commons, by Mauro Cateb)](https://commons.wikimedia.org/wiki/File:Flexible_shaft_motor.jpg): A jeweller's flexible-shaft motor (pendant drill) with its hanging motor and flexible shaft; the image used in Wikipedia's 'Flexible shaft' article *(licence: CC BY-SA 3.0)*
+  - [Category:Flex shaft drills (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Flex_shaft_drills): 16 photos of flex-shaft drills and craftspeople using them in jewellery and metalwork *(licence: per-file licences (Creative Commons; check each file))*
+  - [Flexible shafts eliminate obstacles (Brian Parlato, S.S. White, Machine Design, 2000)](https://www.machinedesign.com/motors-drives/article/21828208/flexible-shafts-eliminate-obstacles): Article with figures of the wire-layer construction and a shaft making a 180° turn, plus selection advice *(licence: link only)*
+  - [Dremel Flex-Shaft Attachment Instructions, Model 225 (PDF)](http://pdf.lowes.com/useandcareguides/080596002251_use.pdf): Illustrated instructions including the 6 in minimum bend-radius diagram, fitting the square-ended core, and greasing *(licence: link only (manufacturer's copyright))*
+- **make_it_yourself**: 
+  - [NovaPro V4 - Flex Shaft Driven Dual Feed Gear Extruder (Piercet, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/33557-novapro-v4-flex-shaft-driven-dual-feed-gear-extrud): Open-source 3D-printer extruder with the motor on the frame driving a 40:1 gearbox at the hot end through a flexible shaft; STEP files and a bill of materials included (details read via the Printables API) *(licence: CC BY-NC-SA)*
+  - [FLEXTRUDER2 17: Dual drive remote direct extruder (Luc JOB, hackaday.io)](https://hackaday.io/project/188378-flextruder2-17-dual-drive-remote-direct-extruder): Printed dual-drive extruder for delta printers driven by a flexible shaft from a remote motor through a worm gear; about 30 g at the head *(licence: CC BY-NC-SA)*
+  - [Flexible Shaft Direct Drive for Ender 3 CR10S (boothyboothy, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/169204-flexible-shaft-direct-drive-for-ender-3-cr10s): DIY flex-shaft extruder using a speedometer cable; a useful cautionary example, as the designer abandoned it because cable twist undid retraction (details read via the Printables API) *(licence: CC BY-SA)*
+  - [Flex Shaft Router (Steamboat Ed, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/194019-flex-shaft-router): Printed router table and fence that holds a Foredom flex-shaft handpiece to rout wood or thin aluminium (details read via the Printables API) *(licence: CC BY)*
+  - [Dremel Flex Shaft Routing Guide (M, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/568612-dremel-flex-shaft-routing-guide): Printed router guide that clips onto a Dremel flex-shaft handpiece, e.g. for cutting openings in enclosures (details read via the Printables API) *(licence: CC BY-SA)*
+- **diagram_idea**: Cutaway of a flexible shaft showing the centre wire and three wire layers wound in alternating directions inside a casing, with arrows showing that twisting one way tightens the outer layer (strong) and the other way loosens it (weak), plus an inset of a hanging motor driving a handpiece round a U-bend.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Flexible_shaft
+  - https://www.machinedesign.com/motors-drives/article/21828208/flexible-shafts-eliminate-obstacles
+  - https://www.machinedesign.com/motors-drives/article/21833481/flexible-rotary-shaft-operation-uses-and-advances
+  - https://www.elliottmfg.com/frequently-asked-questions/
+  - http://thonab.se/wp-content/uploads/2015/10/Flexible-shaft.pdf
+  - https://www.willtec.de/media/pdf/9d/fe/e1/TR_DB_2022-08-24_EN.pdf
+  - http://pdf.lowes.com/useandcareguides/080596002251_use.pdf
+  - https://www.itm.com/pdfs/cache/www.itm.com/5000225-01/manual/5000225-01-manual.pdf
+  - https://www.howacarworks.com/accessories/fitting-a-new-speedometer-cable
+  - https://hackaday.com/2024/08/22/tech-in-plain-sight-speedometers/
+  - https://hackaday.com/2020/11/05/a-featherweight-direct-drive-extruder-in-a-class-of-its-own/
+  - https://steemit.com/printing3d/@boucaron/3d-printers-remote-direct-drive-extruders-overview
+  - https://hackaday.io/project/188378-flextruder2-17-dual-drive-remote-direct-extruder
+  - https://traxxas.com/articles/basic-boat-maintenance
+  - https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg
+  - https://commons.wikimedia.org/wiki/File:Flexible_shaft_motor.jpg
+  - https://commons.wikimedia.org/wiki/Category:Flexible_shafts
+  - https://commons.wikimedia.org/wiki/Category:Flex_shaft_drills
+  - https://api.printables.com/graphql/
+  - https://help.prusa3d.com/article/pla_2062
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing
 
 ## 266 Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
 
@@ -1024,5 +1968,154 @@
 
 *Also covers:* Also covers shaft collars
 
-*Not researched yet.*
+### What it is
+
+- **plain_name**: The everyday ways to lock a gear, pulley, wheel or knob onto a rod so they turn together, to stop parts sliding along the rod, or to join two rods end to end so they turn as one
+- **term**: Shaft-hub connection (shaft-to-hub joint): key, set screw, D-flat or hex shaft, clamp hub; plus shaft collar and rigid shaft coupling
+- **aliases**: 
+  - keyed joint / key and keyway / keyseat (Wikipedia)
+  - parallel key / square key / feather key / Woodruff key / taper key / gib-head key
+  - shear key (a deliberately weak key, e.g. brass, that breaks on overload)
+  - set screw / grub screw / blind screw / setscrew (cup, cone, flat, dog and knurled-cup points)
+  - D-shaft / D-flat / flatted shaft / D-profile shaft / D-bore
+  - double-D / double-flat shaft (round shaft with two flats; Shaft Buddy generator supports one or two flats)
+  - hex shaft / hex bore (common in robotics kits, e.g. 5 mm hex, gm0; 1/2 in hex)
+  - rounded-hex shaft (hex shaft turned round where it runs in bearings, gm0)
+  - clamp hub / clamping hub / split hub / clamp-style bore
+  - pinned hub / cross-pinned shaft / roll pin or spring pin through hub and shaft; Scotch key / Dutch pin
+  - shaft collar / set collar / stop collar / locking collar / clamp collar / quick-clamping collar (lever) / Stellring (German)
+  - rigid coupling / rigid shaft coupling / shaft coupler (maker term)
+  - sleeve coupling / box coupling / muff coupling
+  - clamp coupling / split-muff coupling / one-piece, two-piece and three-piece clamp couplings
+  - flange coupling (flanged rigid coupling)
+  - step-bore coupling (joins two different shaft sizes)
+  - Welle-Nabe-Verbindung (German: shaft-hub connection)
+- **family**: clutches & couplings
+- **other_families**: clamping, magnetic & friction connections, locating & alignment, torque limiting & slip
+- **one_liner**: The hub of a gear, pulley or wheel is locked to its shaft, either by shape (a key, a flat, a hex or a pin) or by squeezing (a set screw or a clamp), so turning force passes between them; the same methods make a collar that stops things sliding along a shaft and a rigid coupling that joins two shaft ends.
+- **complexity**: A few parts: the shaft (round, flatted, keyed or hex), the hub (the thick centre of the gear, pulley or wheel) and a locking part: a key in matching slots, one or two set screws in a threaded hole, a clamp screw across a slotted hub, or a pin through both. A shaft collar is a ring with a set screw or clamp screw; a rigid coupling is a sleeve (one piece, or two or three bolted pieces) that clamps or keys onto both shaft ends.
+- **how_it_works**: Turning force (torque) has to get from the shaft into the hub. With a shape lock, something sits in the way: a key sits half in a slot in the shaft and half in a slot in the hub, a flat or hex on the shaft matches a flat or hex in the hub, or a pin passes through both, so the parts cannot turn relative to each other (Wikipedia 'Key'). With a friction lock, a screw presses on the shaft: a set screw's point bites into one spot, while a clamp hub or clamp collar has a slot that its screw squeezes shut, gripping all the way round the shaft and holding up to about twice as well without marking it (Machine Design; Wikipedia 'Shaft collar'). A shaft collar uses the same set-screw or clamp grip to act as a stop or spacer on a shaft, and a rigid coupling grips (or keys onto) two shaft ends at once so they turn as one piece.
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: fixes a gear, pulley, wheel, cam or knob to a shaft, or joins two shafts end to end
+  - line parts up exactly: shaft collars act as stops, spacers and bearing faces that hold parts at a set place along a shaft (Wikipedia 'Shaft collar')
+  - slip or let go when overloaded (shear-key and spring-pin versions only): a deliberately weak key or pin breaks to protect the rest of the machine (Wikipedia 'Key')
+- **motion**: none: once tightened, the hub and shaft (or the two coupled shafts) turn together as one part; the whole assembly turns continuously in its own bearings. A feather key or hex shaft can be made to let the hub slide along the shaft while still turning with it (Wikipedia 'Key'), which is really a sliding spline.
+- **degrees_of_freedom**: 0 between the hub and the shaft (they are locked together); a key alone, a D-flat or a hex still leaves the hub free to slide along the shaft (1), so a set screw, collar, shoulder or retaining ring is added to stop that
+- **special_behaviour**: 
+  - fail-safe or breakaway (shear keys and spring pins only): a key made of weaker material (e.g. brass in a steel shaft and pulley) or a hollow spring pin shears off under excessive torque, leaving the pulley spinning freely instead of breaking something costlier (Wikipedia 'Key')
+  - quick-release (lever collars only): quick-clamping shaft collars open and close with a lever instead of a screw, with no tools (Wikipedia 'Shaft collar')
+  - none for ordinary keys, set screws, clamp hubs and rigid couplings: they simply hold
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): keys, Woodruff keys, D-flats, hex shafts, splines and cross pins
+  - friction or clamping (force-fit): clamp hubs, clamp collars and clamp couplings, and set screws on a plain round shaft
+  - material bond (glue, solvent or melting): optional; a retaining compound or thread-locker is often added (Slocum; gm0), see the anaerobic adhesive entry
+- **input_output**: Continuous rotation -> the same rotation, 1:1 (no change of speed or turning force). Arrangement: in line (the hub is on the shaft; a rigid coupling joins two shafts on the same axis). Efficiency: no losses of its own, because nothing slides inside the joint. Back-drivable: yes, torque passes both ways. A rigid coupling has zero backlash and very high torsional stiffness but cannot take up any misalignment (PIB Sales Rigid Couplings Guide; Wikipedia 'Coupling').
+- **power**: passive (no power needed)
+- **removability**: removable for clamp hubs, clamp collars, clamp couplings and keys; semi-permanent for set screws on round shafts (the point raises a burr that makes the hub hard to slide off or move, Machine Design; Wikipedia 'Shaft collar') and for printed hubs pressed onto knurled shafts (cannot be disassembled, EngineerDog)
+- **reuse_cycles**: many times for clamp-style hubs, collars and couplings (infinitely adjustable, Machine Design) and for keys; a few times for set screws (each time it bites into the shaft or flat; knurled cup-point set screws should not be reused at all, Wikipedia 'Set screw'); once for pressed-on printed hubs
+- **tools_needed**: Hex keys (Allen keys) for socket set screws and clamp screws; screwdriver for slotted set screws; a file or grinder to put a flat on a round shaft (hackaday.io comment; Wikipedia 'Set screw'); a drill (ideally drilling hub and shaft together) for cross pins (Slocum); a broach, keyseater, slotting tool or mill to cut keyways (Wikipedia 'Key'); thread-locker for set screws (gm0); a hacksaw to cut steel shafts (gm0)
+- **seal**: none: these joints do not seal anything
+- **load**: Light to heavy. Strongest to weakest in turning (twist): interference fit, spline, circumferential clamp, key, pin, and last the set screw (Slocum's ranking). Along the shaft (pull or push), a key or flat holds nothing by itself; the set screw, collar or clamp takes that load. Clamp collars hold well under steady loads but can creep along the shaft under shock loads, so a shaft groove (undercut) with a two-piece collar is used where impacts occur (Machine Design; Wikipedia 'Shaft collar'). Example set screw figures (Unbrako, soft shafts Rc 15-35, plain round shaft): an M3 cup-point set screw holds about 0.71 kN along the shaft and about 1.8 N·m of torque on a 5 mm shaft; an M4 about 1.7 kN and 4.3 N·m on 5 mm. Printed hubs are much weaker, limited by the plastic around the nut or thread (EngineerDog).
+- **adjustable**: yes for clamp hubs, clamp collars and clamp couplings: loosen, slide or turn to any position and re-tighten, with no shaft damage (Machine Design). Set-screw hubs and collars can be moved only until the point has marked the shaft; after that the screw tends to pull back into its old mark (Machine Design). Keyed and D-flat hubs can slide along the shaft but always sit at the same angle.
+- **play_and_precision**: Play: none for a tight clamp hub or clamp coupling (zero backlash, PIB); small for keys (a worn keyway adds play, Wikipedia 'Coupling' on taper locks); none for a set screw until it slips, then sudden and large; small to noticeable for printed D-flat and hex bores. Repeatability: keys, flats and hexes always return to the same angle; clamps and plain set screws do not. Misalignment: a rigid coupling tolerates essentially none; any angular or parallel misalignment is forced into the shafts and bearings, so rigid couplings are used only where alignment is precise (PIB; Wikipedia 'Coupling'); use a flexible coupling otherwise.
+- **access_needed**: end of a tube or shaft for one-piece hubs, set-screw collars, one-piece clamp collars and one-piece couplings, which must slide on over a free shaft end; two-piece clamp collars and two-piece couplings can be fitted from the side without removing other parts, and three-piece couplings let one shaft be removed on its own (Machine Design; PIB Sales)
+- **materials**: Shafts: steel (for set-screw grip the shaft should be softer than the screw; Machine Design says point penetration drops when the hardness difference is under 10 HRC), stainless steel, aluminium; hex and D-shafts in robotics kits. Hubs, collars and couplings: steel, stainless steel, aluminium, plastics; printed hubs in PLA, PETG, nylon with a captive steel nut or heat-set insert for the screw (EngineerDog). Keys: steel, or brass as a deliberate shear key (Wikipedia 'Key'). Set screws: case-hardened alloy steel (Wikipedia 'Set screw'). Stainless couplings use patched or coated screws to avoid galling (PIB).
+- **maker_difficulty**: easy for set screws, clamp hubs, collars and couplings bought ready-made, and for printed D-flat or hex bores with a captive nut; moderate for pinned hubs (drill hub and shaft together); hard for keyways (need a broach, slotting tool or mill), so buy pre-keyed parts
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: set-screw and clamp shaft collars, clamping hubs, rigid couplings (one-, two- and three-piece, step-bore), pre-keyed shafts, keys and D- or hex shafts
+  - 3D print (FDM): hubs with D-flat, hex or square bores, captive-nut set-screw hubs, printed clamp collars and couplers (usually with metal screws and nuts)
+  - CNC: turning hubs, milling flats and keyways, drilling cross-pin holes
+  - woodwork: wooden wheels and hubs pinned or wedged onto dowel axles (pinned shape lock) *(unverified parts omitted)*
+- **print_in_place**: no: the hub is printed as part of the gear, pulley or wheel and then fitted to a metal shaft with a screw, nut or pin; printed collars and couplers are assembled with metal screws (one printed clamp-collar kit on Printables is a print-in-place hinge-and-screw collar, but it still needs a bolt)
+- **making_tips_3d_printing**: 1) Prefer shape over friction: a D-flat, double flat, hex or square bore transmits torque far better than a round hole with a screw; a plain press fit on a smooth printed bore loosens as the plastic creeps (EngineerDog). 2) Holes print undersize: oversize the bore by about 0.13 mm (0.005 in) across, or ream it (EngineerDog); test-print a short ring first. 3) Set screws: don't thread a set screw straight into plastic (the thread strips); trap a nut in a square or hex pocket beside the bore, or use a heat-set insert, and make the hub wall thick, because tightening the screw can split the hub (EngineerDog). Matthew Mead's captive-nut hub for a stepper-motor GT2 gear used an M3 set screw: he measured the nut at 5.44 mm across flats, 6.18 mm across corners and 2.24 mm thick, made the pocket 5.8 x 6.6 x 2.6 mm (about 0.4 mm extra in width and height, 0.2 mm in depth) and the screw hole 3.6 mm, then paused the print to drop the nut in (keep it level with or below the top surface so the nozzle cannot hit it). 4) Aim the set screw at the shaft's flat; Machine Design notes a flat adds little holding but locates the screw, and two screws in line along the shaft almost double the grip, while two screws 60 degrees apart give about 1.75 times. 5) Clamp hubs print well: slot the hub and squeeze it with a screw and nut placed across the slot; keep the screw axis parallel to the layers so it compresses the layers rather than pulling them apart (km98's three-bolt and one-bolt printed collets on hackaday.io). 6) For shafts that came with a pressed-on metal pinion, print a gear-shaped socket with zero clearance and press it over the pinion (hackaday.io). 7) For high torque on a motor shaft, fit one half of a metal jaw (spider) coupling and model a matching socket into the printed part (Hackaday). 8) Use thread-locker on set screws (gm0), but check it is safe for the plastic. 9) PLA hubs soften above 60 C and PETG is fine below 80 C (Prusa), so avoid PLA hubs on warm motors.
+- **off_the_shelf_parts**: Set-screw shaft collars and one-piece, two-piece and quick-clamping (lever) clamp collars, including D-bore and hex-bore collars (Wikipedia 'Shaft collar'); clamping hubs (robotics kits: goBILDA, Actobotics, REV (brands), gm0); rigid couplings: set-screw, one-piece clamp, two-piece clamp, three-piece and step-bore couplings, and double-wide collars used as couplings (PIB Sales; Ruland (brand)); socket set screws (grub screws) with cup, cone, flat, dog and knurled-cup points (ISO 4029 for knurled cup, Wikipedia); parallel keys, Woodruff keys and key stock; keyed shafts, D-shafts and hex or rounded-hex shafts (gm0 glossary); spring (roll) pins and dowel pins; keyless locking bushes and taper-lock bushes (see those entries).
+- **rules_of_thumb**: 
+  - Set screw size: diameter about half the shaft diameter (Machine Design, 'Setscrews').
+  - Two set screws: in line along the shaft about doubles holding power; directly opposite (180 degrees) adds only about 30%; 60 degrees apart gives about 1.75 times one screw (Machine Design).
+  - A flat on the shaft adds only about 6% torsional holding power and does little to stop small slips, though it helps locate the screw; cone points dig in most and oval points least; point penetration adds up to about 15% (Machine Design).
+  - Slotted set screws hold about 45% less than socket set screws because less tightening torque can be applied (Machine Design).
+  - Thread engagement for set screws: 1-1.5 x screw diameter in brass, cast iron and aluminium; 0.75-1 x in steel (Machine Design).
+  - Typical metric cup-point set screw values on soft shafts (Rc 15-35), no flat: M3 seating torque 0.87 N·m, axial hold 0.71 kN; M4 2.2 N·m, 1.7 kN; M5 4.6 N·m, 2.5 kN; torque hold is roughly axial hold x shaft radius (e.g. M3 on 5 mm shaft about 1.8 N·m) (Unbrako Socket Set Screws - Metric spec sheet; use a safety factor).
+  - Clamp collars grip with up to about twice the holding power of set-screw collars; two-piece clamp collars grip slightly more than one-piece (Machine Design, 'Clamp Collars Hold Tight Without Harming Shafts'; Wikipedia 'Shaft collar').
+  - Key with a set screw: make the set-screw diameter equal to the key width; the screw then only holds the hub along the shaft and the key carries the torque (Machine Design).
+  - Key or pin torque capacity = shear area of the key (or both sides of the pin) x shaft radius x shear strength of the key or pin material; drill cross-pin holes through hub and shaft together, and pin only near a shaft end where there is little bending (Slocum, FUNdaMENTALs Topic 5 p. 5-27).
+  - Preference order for attaching a part to a shaft: interference fit, spline, circumferential clamp, key, pin, and last the plain set screw, which 'could be your worst nightmare if it loosens' (Slocum Topic 5 p. 5-27).
+  - Tighten paired clamp screws a little at a time, alternating, so the clamp grips evenly (PIB Sales rigid couplings guide). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - A volume or potentiometer knob held on its shaft by a small set screw (Wikipedia 'Set screw' photo)
+  - The GT2 pulley on a 3D printer's stepper motor, gripped by grub screws on the motor's D-flat shaft
+  - Shaft collars on foosball table rods, home gym equipment and coat racks (Wikipedia 'Shaft collar')
+  - A lawnmower or machine pulley on a keyed shaft; some use a soft brass shear key so an overload shears the key instead of the shaft (Wikipedia 'Key')
+- **when_to_use**: Every time a rotating part must turn with its shaft or a shaft must be joined end to end. Use a set screw for light, low-cost jobs such as knobs and small pulleys on a D-flat shaft; a clamp hub or clamp collar when you want strong grip, easy adjustment and no shaft damage (gm0 and Machine Design recommend clamping over set screws); a key for heavy, reversing or shock loads with a fixed angle; a hex or D shaft for robots and printed parts (Slocum calls a hex shaft the simplest spline for a robot contest); a pin where torque must be positive and cheap; shaft collars to stop shafts and parts sliding and to hold bearings in place; and a rigid coupling to join two well-aligned shafts with zero backlash (PIB).
+- **when_not_to_use**: Don't rely on a plain set screw for drivetrains, reversing loads or anything important: it loosens and marks the shaft (Slocum; gm0); use a clamp hub, key, hex or spline instead, or at least seat the screw in a drilled dimple and add thread-locker. Don't use a rigid coupling between a motor and a shaft that are not perfectly aligned (e.g. a stepper motor and a lead screw in a printed frame): use a flexible (beam, jaw or Oldham) coupling instead. Don't press a printed hub onto a smooth shaft for lasting torque (creep, EngineerDog). Don't use a set screw on a shaft as hard as the screw (it cannot bite, Machine Design). For overload protection use a proper shear pin or slip clutch rather than hoping a set screw slips.
+- **environment_limits**: Vibration and reversing loads loosen set screws and clamp screws; use thread-locker (gm0) or knurled-cup set screws, which resist vibration but must not be reused (Wikipedia), and quality couplings with nylon-patched screws (PIB). Shock loads can make clamp collars creep along the shaft (Machine Design). Printed hubs creep under constant clamp or press load and lose grip over time (EngineerDog); PLA softens above 60 C and PETG is fine below 80 C (Prusa). Stainless screws in stainless couplings can gall (seize) without a coated or patched thread (PIB). *(unverified parts omitted)*
+- **safety_notes**: Rotating shafts, collars and couplings can catch hair, clothing and gloves; projecting set screws, bolts and keys make this much worse (OSHA machine guarding: rotating motion), which is why modern collars use recessed hex-socket set screws instead of the early square-head screws that dragged workers into line shafting (Wikipedia 'Shaft collar'). Guard exposed couplings and keep screws flush. A set screw that works loose can let a gear or pulley slip suddenly, dropping a load. Metal burrs raised by set screws are sharp.
+- **common_failures**: 1) Set screw loosens or slips under vibration or reversing torque, even with a flat (Slocum's student quote): use a clamp, key, hex or pin, or dimple the shaft and use thread-locker. 2) Raised burr from the set screw point stops the hub or collar sliding off, and later adjustments snap back to the old mark: file the burr, or use clamp-style parts (Machine Design; Wikipedia). 3) Stripped plastic threads or a split printed hub when tightening a set screw: use a captive nut or insert and a thicker hub (EngineerDog). 4) Stripped hex or D bore (the bore wears round, gm0 'stripping the bore'): use metal hubs for high torque or a larger shaft. 5) Clamp collar creeping along the shaft under shock: add a shaft groove (undercut) with a two-piece collar (Machine Design). 6) Rigid coupling on misaligned shafts overloading bearings or cracking the coupling: align carefully or use a flexible coupling (PIB; Wikipedia 'Coupling'). 7) Worn keyway giving play: fit a new key or use a taper-lock bush, which removes keyway play (Wikipedia 'Coupling'). 8) Uneven clamping from tightening one screw fully before the other: tighten alternately in small steps (PIB).
+- **related**: 
+  - Keyless locking bush (taper-lock bush, shaft locking device): clamps a hub with wedging rings, with no keyway, and centres it
+  - Taper fit (Morse taper): a cone-in-cone fit that locks and centres by friction
+  - Press fit (interference fit): the strongest and simplest-looking, but needs accurate sizes and is hard to undo
+  - Spline shaft (sliding spline): many keys at once; transmits high torque and can let the hub slide
+  - Servo horn and spline hub: the fine-toothed spline and screw used on hobby servos
+  - Collet and keyless chuck: clamp a round shaft with a slotted, tightened sleeve
+  - Retaining ring (circlip, E-clip): snaps into a groove to stop sliding, a smaller alternative to a collar (gm0)
+  - Shear-pin coupling (breakaway link): a deliberately weak pin, like a shear key, to protect the machine
+  - Jaw coupling, Oldham coupling, flexible beam coupling and Schmidt coupling: flexible alternatives to a rigid coupling that tolerate misalignment
+  - Anaerobic adhesive (threadlocker, retaining compound): glue that locks set screws or bonds hubs to shafts
+  - Captive nut pocket and heat-set threaded insert: how printed hubs get a strong thread for their set screw
+  - Tolerance ring (wavy-band press fit): a springy band that makes a press fit forgiving
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Parallel keys.png (Wikimedia Commons, by B. Gieseler)](https://commons.wikimedia.org/wiki/File:Parallel_keys.png): Technical drawing of parallel keys and a keyed shaft-hub joint in cross-section *(licence: CC BY-SA 3.0 / GFDL 1.2+ (multi-licensed))*
+  - [Stellring.svg (Wikimedia Commons, by Biezl)](https://commons.wikimedia.org/wiki/File:Stellring.svg): Drawing of a one-piece shaft collar secured with a set screw *(licence: Public domain)*
+  - [Potentiometer knob with set screw.jpg (Wikimedia Commons, by Petteri Aimonen)](https://commons.wikimedia.org/wiki/File:Potentiometer_knob_with_set_screw.jpg): Photo of a knob fixed to a potentiometer shaft by a set screw *(licence: Public domain)*
+  - [Shaft Retention (Game Manual 0)](https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html): Pictures of a set-screw collar, a clamping collar and a shaft with an E-clip, with pros and cons for robots *(licence: link only)*
+  - [Types of Shaft Keys - Introduction with Animation - Machine Design (Solidworks Fun, YouTube; title verified via YouTube oEmbed)](https://www.youtube.com/watch?v=F3c6GPAFZMI): CAD animation of the main types of shaft keys and how they fit in keyways *(licence: link only)*
+- **make_it_yourself**: 
+  - [Customizable Shaft Buddy: A shaft coupler/adapter generator (Tyler Bletsch, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/36584-customizable-shaft-buddy-a-shaft-coupleradapter-ge): OpenSCAD generator for printed couplers and adapters between hex, square, round (with set screws) and single- or double-flat shafts, male or female on each end *(licence: CC BY)*
+  - [Parametric Shaft Collar - Clamp Collar (MSB, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/490175-parametric-shaft-collar-clamp-collar): Fusion 360 parametric two-piece clamp collar using M3 cap screws and square nuts, printed in PETG *(licence: CC BY-NC)*
+  - [5mm to 8mm Stepper / 775 Motor Z Axis Shaft Coupler / Coupling (BuildModHack, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/272446-5mm-to-8mm-stepper-775-motor-z-axis-shaft-coupler-): Printed clamp-style coupler joining a 5 mm D-shaft motor to an 8 mm lead screw with two M3 screws and lock nuts *(licence: CC BY-NC)*
+  - [Stepper motor shafts: Connecting gears/pulleys (hackaday.io project)](https://hackaday.io/project/174013-stepper-motor-shafts-connecting-gearspulleys): Three tested printed ways to attach parts to motor shafts: a zero-clearance press-on socket over a factory pinion, and three-bolt and one-bolt printed clamp collets for smooth shafts *(licence: not stated)*
+- **diagram_idea**: A row of five end-on cross-sections of a shaft inside a hub (key in keyway, set screw on a D-flat, hex shaft in hex bore, slotted clamp hub with its screw, cross pin), each with an arrow showing where the turning force passes, plus a side view of a collar as a stop and a sleeve coupling joining two shaft ends.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Key_(engineering)
+  - https://en.wikipedia.org/wiki/Set_screw
+  - https://en.wikipedia.org/wiki/Shaft_collar
+  - https://en.wikipedia.org/wiki/Coupling
+  - https://commons.wikimedia.org/wiki/File:Parallel_keys.png
+  - https://commons.wikimedia.org/wiki/File:Stellring.svg
+  - https://commons.wikimedia.org/wiki/File:Potentiometer_knob_with_set_screw.jpg
+  - https://commons.wikimedia.org/wiki/Category:Keys_and_keyways
+  - https://www.machinedesign.com/fastening-joining/article/21834719/setscrews
+  - https://machinedesign.com/what039s-inside/clamp-collars-hold-tight-without-harming-shafts
+  - https://www.unbrakousa.com/images/pdf/Socket_Set_Screws_Metric_Spec_Sheet.pdf
+  - https://pibsales.com/power-transmission/rigid-couplings-guide/
+  - https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html
+  - https://gm0.org/en/latest/_sources/docs/common-mechanisms/power-transmission/shaft-retention.rst.txt
+  - https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html
+  - https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/
+  - http://matthewtmead.com/blog/captive-nut-technique/
+  - https://hackaday.io/project/174013-stepper-motor-shafts-connecting-gearspulleys
+  - https://hackaday.com/2019/09/02/misuse-this-part-to-attach-3d-printed-stuff-to-a-shaft/
+  - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://www.youtube.com/watch?v=F3c6GPAFZMI
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, processes, rules_of_thumb
 

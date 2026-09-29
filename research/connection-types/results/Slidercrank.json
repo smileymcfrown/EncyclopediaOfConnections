@@ -217,6 +217,7 @@
     "environment_limits",
     "safety_notes",
     "common_failures",
-    "make_it_yourself"
+    "make_it_yourself",
+    "materials"
   ]
 }
