@@ -57,7 +57,7 @@
     ],
     "print_in_place": "no: the tab must be bent or twisted after assembly, and the joint is made in sheet metal, not printed.",
     "making_tips_3d_printing": "Not applicable for the joint itself: it relies on metal that bends once and stays bent (Machine Design), whereas printed plastic tabs tend to spring back or crack along layer lines when bent [uncertain]. In a printed part use a snap fit, heat staking (a melted plastic rivet) or a screw instead [uncertain]. A 3D printer can still help: a fully printed bending tool for fine sheet metal, intended for building metal model kits, is on Thingiverse and Printables (blecheimer, CC BY-NC-SA 4.0; printed at 0.2 mm layers, three walls, 20% infill).",
-    "off_the_shelf_parts": "Usually none: the tabs and slots are cut into the parts. Helpers: flat-nose and needle-nose pliers, tweezers and tab-twisting tools sold for metal model kits (Metal Earth tool kit); laser-cut thin aluminium or steel from services such as SendCutSend; phenolic mounting wafers (mounting plates) for twist-lock (twist-prong) can capacitors (RF Parts listing; Nuts & Volts). Industrial versions are made with punch-press 'lance and form' tools (Wilson Tool).",
+    "off_the_shelf_parts": "Usually none: the tabs and slots are cut into the parts. Helpers: flat-nose and needle-nose pliers and tweezers (Metal Earth help page; Metal Model Mania), and special tab-twisting tools sold for metal model kits [uncertain]; laser-cut thin aluminium or steel from services such as SendCutSend; phenolic mounting wafers (mounting plates) for twist-lock (twist-prong) can capacitors (RF Parts listing; Nuts & Volts). Industrial versions are made with punch-press 'lance and form' tools (Wilson Tool).",
     "rules_of_thumb": [
       "Plain tab-and-slot joints suit sheet 0.080 in (2 mm) or thicker; in thinner sheet use bent tabs instead. Make the tab long enough to fold over after it leaves the slot; small holes at the two ends of the tab's bend line, or small cuts across it, make folding easier, but removing too much can make the tab break (SendCutSend 'How to Join Laser Cut Parts Without Fasteners').",
       "Bent tabs are stronger across the fold than along it; set tabs at an angle and fold them in opposite directions for more strength; two tabs can share one slot if folded in opposite directions (SendCutSend).",
@@ -166,6 +166,7 @@
     "play_and_precision",
     "materials",
     "making_tips_3d_printing",
+    "off_the_shelf_parts",
     "rules_of_thumb",
     "everyday_examples",
     "when_not_to_use",
