@@ -1,0 +1,198 @@
+{
+  "identity": {
+    "plain_name": "The everyday ways to close a strap or a piece of clothing: a belt buckle whose little metal pin pokes through one of a row of holes in the strap, a button that slips through a slit or a loop, and a short bar (toggle) that is pushed endways through a loop and then turned sideways so it can't slip back",
+    "term": "Prong (tongue) buckle, button and buttonhole (or button loop), and toggle-and-loop fastening",
+    "aliases": [
+      "prong buckle, tongue buckle, pin buckle, frame-and-prong buckle, conventional belt buckle; parts: frame, bar (centre bar, end bar), prong (tongue or pin), chape, keeper (Wikipedia 'Buckle')",
+      "buckle trim or slide (a buckle frame with no prong) and clasp (two separate hook and loop pieces) (Wikipedia 'Buckle')",
+      "belt keeper, keeper loop, belt loop (Wikipedia 'Belt (clothing)')",
+      "flat button, sew-through button (two or four holes); shank button; self-shank button; thread shank (thread stem) (Wikipedia 'Button'; ISBE/CAERT 'Buttons and Buttonholes')",
+      "stud button, push-through button, shirt stud, cufflink (Wikipedia 'Button')",
+      "buttonhole: machine-made, hand-worked, bound, keyhole (Wikipedia 'Buttonhole'); button loop (ISBE/CAERT)",
+      "toggle, toggle button, duffle-coat toggle, toggle-and-rope fastening (Wikipedia 'Button' and 'Duffel coat'); Knebelknopf (German, as used in a Printables model title)",
+      "frog, frog closure, Chinese frog, pankou, decorative toggle; Chinese button knot or Chinese ball button with a loop; frogging (Wikipedia 'Frog (fastening)'; ISBE/CAERT)"
+    ],
+    "family": "cord, strap, webbing & textile hardware",
+    "other_families": [
+      "quick-release & tool-free"
+    ],
+    "one_liner": "The oldest and simplest ways to close a strap or garment by hand: a prong buckle, whose pin goes through a hole in the strap so the strap can be set to one of several lengths; a button, which is wider than the slit or loop it passes through; and a toggle, a short bar on a cord that goes endways through a loop and is then turned crossways.",
+    "complexity": "A few parts. Prong buckle: frame, bar, prong (tongue) and sometimes a chape (the plate that holds the strap end), plus a strap with a row of holes and usually a keeper loop for the loose end (Wikipedia 'Buckle' and 'Belt (clothing)'). Button: button (sew-through or shank), sewing thread, and a stitched buttonhole or a loop of cord or fabric on the other side. Toggle and loop: a short bar of wood, horn or plastic with a cord attached at its middle, and a loop of cord, fabric or leather on the other side.",
+    "how_it_works": "All three hold by shape: something is pushed through an opening and then can't pull back out while the strap or fabric is under tension. In a prong buckle the strap is threaded through the frame and the prong is pushed through a hole, so the pull of the strap presses the hole against the prong and the prong against the frame; to open it you first take the tension off, then lift the prong out (Wikipedia 'Buckle'). A button is wider than its slit: the pull on the closed garment drags the button to the end of the buttonhole nearest the edge, which is why tailored coats have a round 'keyhole' there for the button's shank (Wikipedia 'Buttonhole'); a short stem of wound thread (thread shank) lifts the button so the other layer of fabric fits underneath (ISBE/CAERT). A toggle is 'passed endways through a hole and then rotated sideways' (Wikipedia 'Button'), so it catches across the loop. A belt holding up trousers also works partly by friction and by squeezing the waist, which is narrower than the hips (Wikipedia 'Belt (clothing)')."
+  },
+  "finder_attributes": {
+    "job": [
+      "join and hold: closes a strap into a loop or holds two edges of fabric together",
+      "lock, and release by hand: opened and closed by hand with no tools, as often as needed",
+      "tighten and hold tension: a prong buckle sets a strap to one of several lengths (one hole at a time)"
+    ],
+    "motion": "none once fastened; a prong buckle is adjusted in steps by moving the prong to another hole",
+    "degrees_of_freedom": "0 when fastened: the two ends are held together, although the fabric or strap itself stays flexible and a button or toggle can wobble a little in its hole or loop",
+    "special_behaviour": [
+      "quick-release: opens by hand in a second or two with no tools; large toggles on long cords were chosen for duffel coats so they could be done up and undone while wearing gloves (Wikipedia 'Duffel coat')",
+      "indexing (clicks into set positions): a prong buckle only adjusts in fixed steps, one hole at a time, usually 1 inch (25 mm) apart (Art of Manliness)",
+      "hand-release only: a prong buckle under load can't be undone until you pull the strap tighter to free the prong, then lift it out; the load itself keeps it shut",
+      "none of the others: no one-way, self-locking or tensioning mechanism"
+    ],
+    "holding_principle": "shape (the prong, button or toggle interlocks with a hole or loop; form-fit); a belt also relies on friction and squeezing to stay in place on the body (Wikipedia 'Belt (clothing)')",
+    "input_output": "not applicable",
+    "power": "passive (no power needed)",
+    "removability": "tool-free quick release for opening and closing; the buckle, buttons and toggles are attached semi-permanently (sewn, riveted or folded and stitched into the strap), and can be cut off and re-sewn or unscrewed if held with Chicago screws",
+    "reuse_cycles": "effectively unlimited opening and closing; buttonholes, button thread and strap holes wear, stretch or fray after long use and can be repaired (re-sewing a button, sealing a buttonhole, punching a new hole)",
+    "tools_needed": "none to fasten. To make or repair: needle, thread (double strand, heavy-duty thread for heavy garments) and a toothpick or pin as a spacer for buttons (ISBE/CAERT); a sewing machine buttonhole foot or hand stitching, pins and small scissors or a buttonhole cutter (NMSU); a rotary punch or 3/16 in (about 5 mm) hollow punch and mallet for belt holes, a knife, and a rivet setter or Chicago screws to fix the buckle (Art of Manliness); a hot punch, soldering iron or grommet press for holes in synthetic webbing (camowebbing.com)",
+    "seal": "none (loose): buttonholes and strap holes are open; a button placket or flap only overlaps the fabric",
+    "load": "Light to medium. Strong along the strap or across the closure in the direction of pull, but limited by the weakest part: the strap hole tearing or stretching, the prong bending, the button thread breaking, or the loop stretching so a toggle slips out. Weak against being peeled or twisted open, which is how they are meant to be opened. Garment buttons and buckles are not rated for lifting, climbing or safety loads; one guide notes that buttons are strong fasteners able to 'withstand intense pulling and straining' (ISBE/CAERT) [uncertain: no numbers found]",
+    "adjustable": "Prong buckle: yes, in steps, by choosing a hole; more holes can be punched at the same spacing (Art of Manliness). Buttons and toggles: no, the position is fixed where they are sewn; move the button or add elastic to change the fit",
+    "play_and_precision": "not applicable as a locating part; a prong buckle's steps are coarse (about 25 mm), and buttons and toggles sit loosely in their holes and loops",
+    "access_needed": "both sides to fit (sewing, punching and riveting go through the material); one side (the outside) to fasten and undo",
+    "materials": "Buckles: steel, brass, silver, white metal, pewter, zinc alloy, stainless steel; nylon and other plastics are now used for snap-fit buckles (Wikipedia 'Buckle'); straps of leather, heavy cloth, plastic or woven webbing (Wikipedia 'Belt (clothing)'). Buttons: most commonly hard plastic, seashell, metal and wood today, historically horn, bone, glass, vegetable ivory and many more (Wikipedia 'Button'). Toggles: wood or horn, now often imitation plastic buffalo horn, on leather or rope loops (Wikipedia 'Duffel coat'). Frogs: braid, cord, fabric or covered wire (Wikipedia 'Frog (fastening)'). All work on woven fabric, knits (stabilise with interfacing, NMSU), leather and webbing; holes in synthetic webbing need sealing or a grommet.",
+    "maker_difficulty": "easy: sewing on a button, punching a belt hole or tying a toggle loop needs only hand tools; buttons, toggles and simple buckle frames also print easily in one piece"
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: buckles, buttons, toggles, frogs, grommets and belt blanks are cheap and widely sold",
+      "3D print (FDM): buttons, toggles, buckle frames and prongs (PETG or TPU straps), and sewing helpers such as buttonhole spacing gauges",
+      "woodwork: turned or carved wooden toggles and buttons (wood is one of the most common button materials today, Wikipedia 'Button')",
+      "leatherwork and sewing: straps, keepers, buttonholes, button loops and frogs"
+    ],
+    "print_in_place": "no: buttons and toggles print as simple single pieces, and a printed prong buckle is printed as separate parts and assembled, often with a pin (e.g. a short length of 1.75 mm filament, Printables '20 mm watch strap and buckle'); nothing needs to move while printing",
+    "making_tips_3d_printing": "Buttons: print flat, with no supports; one popular set uses 100% infill for strength and 2.5 mm holes in 12-25 mm buttons (Printables 'Sewing Buttons'); a parametric OpenSCAD button generator (needs BOSL2) sets diameter, thickness and the number and size of holes (Printables 'Button - Parametric customizable OpenSCAD'). Round or chamfer the hole edges so the thread is not cut [uncertain: general advice, no source opened]. Toggles: a simple printed toggle button uses very little filament (Printables 'Toggle Button for Fabrics'); FDM prints are stronger in one direction than another (Prusa), so print a toggle or a buckle prong lying flat so the layers run along its length rather than across it [uncertain: orientation inferred from Prusa's general advice]. Buckles: size the strap slot to the strap with a little clearance, e.g. a pin buckle for 20 mm strap has 0.5 mm clearance each side, a 2 mm axle hole and a 4 mm wide pin (Printables 'Pin Buckle for 20mm Strap'); a short piece of 1.75 mm filament with its ends heated and flattened makes a cheap buckle pin, and TPU works as a flexible watch strap about 1 mm thick (Printables '20 mm watch strap and buckle'); a whole belt can be printed in TPU (1.8 mm thick, 32 mm wide) with a rigid PLA or PETG buckle (Printables 'TPU belt & buckle'). For strap buckles PETG is 'clearly preferable due to its flexibility', printed with 4 perimeters and 100% infill (Printables 'Classic strap buckle', a side-release design). A metal buckle or a steel pin is still the better choice for anything that carries real load.",
+    "off_the_shelf_parts": "Prong (tongue) buckles: belt buckles, roller buckles, harness and bridle buckles, watch-strap pin buckles and spring bars [uncertain: trade names from general knowledge, not checked in a catalogue]; belt blanks and leather strap; Chicago screws and rivets for fixing the buckle end (Art of Manliness); grommets and eyelets with setting dies, e.g. Sailrite HandyPress 5-hole belt punch (brand) for 5/8-2 in straps (Sailrite); rotary punches and hollow punches (3/16 in, #5 rotary tube) (Art of Manliness); buttons (sew-through 2-hole and 4-hole, shank, covered-button kits, stud buttons and cufflinks) sized in lignes (16L shirt, 32L suit jacket; Wikipedia 'Button'); buttonhole twist thread and heavy-duty thread (ISBE/CAERT); wooden, horn and plastic toggles with leather or rope loops; ready-made frog closures (pankou).",
+    "rules_of_thumb": [
+      "Buttonhole length = button diameter + button thickness + 1/8 in (about 3 mm) for the fabric; small buttons need less, and domed or ball buttons are measured with a string around the button folded in half (ISBE/CAERT 'Buttons and Buttonholes', https://www.isbe.net/CTEDocuments/FCS-720042.pdf). An equivalent method: half the button's circumference plus 1/8 in (NMSU Guide C-231, https://pubs.nmsu.edu/_c/C231/index.html).",
+      "Always make a test buttonhole on a scrap with the same layers (fabric, interfacing, facing) first, interface both the button and buttonhole areas, and cut the hole open from the centre with pins at each end so you don't cut through the bar tacks (NMSU Guide C-231, https://pubs.nmsu.edu/_c/C231/index.html).",
+      "Space buttonholes about 2 to 3 1/2 in (50-90 mm) apart; horizontal buttonholes extend 1/8 in (3 mm) past the centre line towards the edge; use keyhole buttonholes for heavy fabrics and shank or thick buttons, and don't pick a button more than 1/8 in larger or smaller than the pattern calls for (NMSU Guide C-231, https://pubs.nmsu.edu/_c/C231/index.html).",
+      "Buttons that fasten (rather than decorate) are sewn with a thread shank: use a double strand of thread, lay a toothpick or heavy pin across the button, make five or six stitches, remove the spacer, lift the button and wind the thread round the stitches, then backstitch (ISBE/CAERT, https://www.isbe.net/CTEDocuments/FCS-720042.pdf). A shank button suits thick fabric (ISBE/CAERT), and flat buttons can be used on heavy fabric by working a thread shank (Wikipedia 'Button', https://en.wikipedia.org/wiki/Button).",
+      "Button sizes are measured in lignes: 40 lignes = 1 inch; a man's shirt button is typically 16 lignes (10.16 mm) and a suit jacket button 32 lignes (20.32 mm) (Wikipedia 'Button', https://en.wikipedia.org/wiki/Button).",
+      "Belt holes: space them 1 in (25 mm) centre to centre and punch five, with the first about 6 in (150 mm) from the tip; make round holes (3/16 in hollow punch or #5 rotary punch tube) rather than slits, because a rough puncture tears in use (Art of Manliness, https://www.artofmanliness.com/skills/manly-know-how/how-to-make-a-new-hole-in-a-leather-belt/ and https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/).",
+      "Belt width is generally 1 to 1 1/2 in (25-38 mm) and must match the buckle; at the buckle end, thin thick leather to about half its thickness where it folds, cut a 1 in long slot for the prong, check the buckle is the right way up, and fix the fold with rivets or stitching (Art of Manliness, https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/).",
+      "Holes in woven synthetic webbing: a heated punch melts and seals the cut yarn ends so they don't fray, but it does not restore the cut yarns or the strap's original strength; where possible use a sewn loop, a separate tab or a grommet with a washer or reinforcing patch instead (camowebbing.com, https://www.camowebbing.com/how-to-punch-holes-in-nylon-webbing/)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "a leather trouser belt with a prong buckle, a row of holes and a keeper loop (Wikipedia 'Belt (clothing)')",
+      "the buttons and buttonholes on a shirt or coat (Wikipedia 'Button')",
+      "the wooden or horn toggles and rope loops on a duffel coat (Wikipedia 'Duffel coat')",
+      "the knotted frog closures on a cheongsam (qipao) dress (Wikipedia 'Frog (fastening)')"
+    ],
+    "when_to_use": "For straps and fabric that people open and close by hand many times: belts, watch straps, bag and case straps, collars, covers, cushions and clothing. A prong buckle is the simplest adjustable strap closure and 'the most reliable and easy-to-use closure for a belt' (Wikipedia 'Buckle'); it holds firmly under a steady pull and needs no tools. Buttons are neat, cheap and easy to sew on or replace; button loops and frogs let two edges meet without overlapping (Wikipedia 'Frog (fastening)'). Toggles are best where people wear gloves or have cold or clumsy hands, or for a rustic look (Wikipedia 'Duffel coat'). For makers, all three are easy to make from scrap: a printed button, a turned wooden toggle or a leather strap with punched holes.",
+    "when_not_to_use": "Not for quick one-handed release or where the strap must open under load: use a side-release buckle or a quick-release hook. Not for fine, stepless adjustment of a strap: use a ladder lock (tri-glide), cam buckle or ratchet strap. Not where the closure must seal out wind, water or dust: use a zipper with a flap, hook-and-loop tape or a roll-top. Not for climbing, lifting or safety loads: use rated hardware. Avoid many small buttons where speed matters, and avoid small detachable buttons and toggles on clothes for babies and toddlers (choking hazard). On webbing, prong buckles need holes that weaken the strap; a ladder lock or cam buckle grips the webbing without holes.",
+    "environment_limits": "Water and damp: buckles and parts containing iron rust if left damp (Wikipedia 'Buckle'); painted or plaster decoration on wooden buckles came off in the wash (Wikipedia 'Buckle'). Heat: synthetic webbing and plastic parts melt, which is why hot punches can seal nylon webbing (camowebbing.com); printed PLA buttons and buckles may soften in a hot car or on a hot wash [uncertain: no temperature source opened for this entry]. Wear over time: leather belt holes stretch and tear if they are rough punctures rather than round holes (Art of Manliness); webbing holes can elongate under repeated load (camowebbing.com); buttonhole stitches fray if cut (NMSU). Stretchy knits distort unless stabilised with interfacing (NMSU).",
+    "safety_notes": "Small buttons, toggles and buckle parts that come loose are a choking hazard for young children; in the US, children's clothing and buttons are actually excluded from the federal small-parts ban for under-3s (CPSC), so sew them on firmly and check them. Cutting and punching: hold a belt down firmly when drilling a hole, or the bit can catch and spin it, and put scrap wood under it (Art of Manliness); knives and hollow punches are sharp. Hot punching or melting holes in nylon webbing gives off fumes and can burn you; work with ventilation [uncertain: fume warning not from an opened source]. Garment buckles and buttons are not safety equipment: don't use them to hold people or heavy loads.",
+    "common_failures": "(1) Button comes off: thread wears through where it rubs, or the button was sewn flat with no shank; use a double strand and a thread shank (ISBE/CAERT). (2) Button too tight or falls out: buttonhole the wrong length; size it from diameter plus thickness plus 1/8 in and test on a scrap (ISBE/CAERT; NMSU). (3) Frayed or torn buttonhole: cut too far or not reinforced; bar tacks at the ends, interfacing, and a dot of seam sealant on cut stitches (NMSU; ISBE/CAERT). (4) Belt holes stretch or tear: holes made by simple puncturing; punch or ream round holes (Art of Manliness). (5) Webbing frays around a hole or the hole elongates: seal the edge and add a grommet, washer or patch, or avoid holes (camowebbing.com). (6) Buckle fitted upside down or prong bent: check before riveting (Art of Manliness); replace a bent prong. (7) Toggle slips out: the loop has stretched or is too big for the toggle; shorten the loop or use a longer toggle. (8) Printed buttons or buckles snap: PLA is brittle; print in PETG with more perimeters and infill (Printables 'Classic strap buckle').",
+    "related": [
+      "Side-release buckle: a snap-fit plastic buckle opened by squeezing two arms; quicker, one-handed and used on backpacks and harnesses, but not adjustable by itself",
+      "Ladder lock buckle (tension lock, tri-glide) and double D-rings: adjust a strap to any length by friction, with no holes in the strap",
+      "Cam buckle (webbing cam buckle) and ratchet tie-down strap: tighten a strap steplessly and hold it by a toothed cam or ratchet",
+      "Hook-and-loop fastener: two fabric strips that grip anywhere along their length; adjustable and quick, but wears and collects fluff",
+      "Press stud (snap fastener, popper): a two-part metal button pressed through the fabric; faster than a button and harder to pull off, but fixed in place (Wikipedia 'Button')",
+      "Zipper (slide fastener): closes a long opening in one pull and seals better than buttons",
+      "Cord lock (spring toggle): a sprung toggle that grips a drawcord at any point, instead of a fixed toggle and loop",
+      "Spring-gate hook (carabiner, snap hook, lobster clasp) and basic latches (hook and eye): hook-type closures for straps and garments",
+      "Magnetic-assisted buckle: magnets guide the parts together and a catch locks them; easier with one hand"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg",
+        "title": "Buckle Showing various parts.svg (Wikimedia Commons, 20040302)",
+        "shows": "Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle')",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg",
+        "title": "Plastic & fabric buttons showing holes & shank.jpg (Wikimedia Commons, Richard Wheeler (Zephyris))",
+        "shows": "Three sew-through plastic buttons next to a fabric-covered shank button, showing the two ways buttons are attached",
+        "license": "CC BY-SA 3.0 / GFDL 1.2 (dual licensed)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Keyhole_buttonhole.jpg",
+        "title": "Keyhole buttonhole.jpg (Wikimedia Commons, PKM)",
+        "shows": "Close-up of a machine-stitched keyhole buttonhole with a bar tack",
+        "license": "CC BY-SA 3.0 / GFDL 1.2 (dual licensed)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg",
+        "title": "Attaches de duffle-coat.jpg (Wikimedia Commons, DocteurCosmos)",
+        "shows": "Toggle-and-loop front fastenings on a duffle coat",
+        "license": "CC BY-SA 3.0 / GFDL 1.2 (multi-licensed)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LOP9oZqAFZ0",
+        "title": "How to Sew on a Button by Creating a Thread Shank, with Makers HQ (Seasalt Cornwall, YouTube; title confirmed via YouTube oEmbed)",
+        "shows": "Video of sewing a button on by hand with a thread shank",
+        "license": "link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/",
+        "title": "How to Make a Leather Belt (The Art of Manliness)",
+        "what_it_is": "Illustrated step-by-step guide to cutting a leather strap, punching five buckle holes 1 in apart, cutting the prong slot and riveting on a prong buckle",
+        "license": "link only"
+      },
+      {
+        "url": "https://www.printables.com/model/1410224-pin-buckle-for-20mm-strap",
+        "title": "Pin Buckle for 20mm Strap by mathiaspl20 (Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Printable prong (pin) buckle for 20 mm strap with 0.5 mm side clearance, a 2 mm axle hole and a 4 mm wide pin; includes a technical drawing",
+        "license": "CC BY-SA"
+      },
+      {
+        "url": "https://www.printables.com/model/852754-20-mm-watch-strap-and-buckle",
+        "title": "20 mm watch strap and buckle by robwhi (Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "TPU watch strap with a printed pin buckle and latch, using 1.75 mm filament as the pins",
+        "license": "CC BY"
+      },
+      {
+        "url": "https://www.printables.com/model/1128919-button-parametric-customizable-openscad-scad-cloth",
+        "title": "Button - Parametric customizable OpenSCAD (SCAD) clothes repair sewing buttons by hkern0 (Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "OpenSCAD generator for sew-through buttons of any diameter, thickness and hole pattern (needs BOSL2)",
+        "license": "CC BY-NC"
+      },
+      {
+        "url": "https://www.printables.com/model/732593-toggle-button-for-fabrics",
+        "title": "Toggle Button for Fabrics by Prof.Enginerd (Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Simple printable toggle button for a cord loop",
+        "license": "CC0 / Public Domain"
+      },
+      {
+        "url": "https://www.printables.com/model/878097-button-hole-measure-sewing",
+        "title": "Button Hole Measure - Sewing by Christer (Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Expanding printed gauge that sets equal spacing for up to 8 buttons or buttonholes on a shirt (PETG)",
+        "license": "CC BY-NC"
+      }
+    ],
+    "diagram_idea": "Three side-by-side cutaways: a strap threaded through a buckle frame with the prong through a hole and an arrow showing the strap's pull pressing the hole against the prong; a button on a thread shank passing through a buttonhole, with the fabric layer sitting under the raised button; and a toggle going endways through a loop, then turning 90° to lie across it.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Buckle (read as raw wikitext)",
+      "https://en.wikipedia.org/wiki/Button (read as raw wikitext)",
+      "https://en.wikipedia.org/wiki/Buttonhole (read as raw wikitext)",
+      "https://en.wikipedia.org/wiki/Belt_(clothing) (read as raw wikitext)",
+      "https://en.wikipedia.org/wiki/Duffel_coat (read as raw wikitext)",
+      "https://en.wikipedia.org/wiki/Frog_(fastening) (read as raw wikitext)",
+      "https://www.isbe.net/CTEDocuments/FCS-720042.pdf (Illinois State Board of Education / CAERT e-unit 'Buttons and Buttonholes')",
+      "https://pubs.nmsu.edu/_c/C231/index.html (New Mexico State University Extension Guide C-231 'Machine Buttonholes Made Easy')",
+      "https://www.artofmanliness.com/skills/manly-know-how/how-to-make-a-new-hole-in-a-leather-belt/",
+      "https://www.artofmanliness.com/skills/how-to/how-to-make-a-leather-belt/",
+      "https://www.sailrite.com/HandyPress-Belt-5-Hole-Positioning-Punch",
+      "https://www.camowebbing.com/how-to-punch-holes-in-nylon-webbing/",
+      "https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Small-Parts-for-Toys-and-Childrens-Products (read via WebFetch)",
+      "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+      "https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg",
+      "https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg",
+      "https://commons.wikimedia.org/wiki/File:Keyhole_buttonhole.jpg",
+      "https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg",
+      "https://www.youtube.com/watch?v=LOP9oZqAFZ0 (verified via YouTube oEmbed)",
+      "https://api.printables.com/graphql/ (Printables models 1410224, 852754, 785324, 1128919, 732593, 878097, 799421 and 567383 read via the public API)"
+    ]
+  },
+  "uncertain": [
+    "load",
+    "making_tips_3d_printing",
+    "off_the_shelf_parts",
+    "environment_limits",
+    "safety_notes"
+  ]
+}
