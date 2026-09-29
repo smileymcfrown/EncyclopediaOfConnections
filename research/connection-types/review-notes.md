@@ -89,6 +89,13 @@ break validation; they are clean-ups for the report step or Phase 1.
   McMaster's "locking gas springs" latch only at full extension; PC water-cooling "compression
   fittings" have no ferrule; "magnetic brake" can mean an eddy-current brake or a friction
   track brake; RC-car "CVDs" are not true constant-velocity joints.
+- Tier 3 baselines: split spring lock washers don't lock (NASA RP-1228 "useless for locking";
+  Bolt Science: they flatten at 10-20% of preload), and toothed washers on aluminium are
+  disputed (Wikipedia/Carroll Smith vs NASA). Retaining-ring reuse conflicts (Wikipedia "one
+  time use only" vs Smalley "can often be reused"). Minimum pinion teeth: 17 (no undercut at
+  20°), 14 in practice, 13 for printed gears. Hand-tightening torque for thumbscrews and knobs
+  comes only from a retailer blog and is marked [uncertain]. Machine Design's bent-tab
+  thickness "0.12 and 0.8 in" is probably a typo for 0.012-0.080 in.
 - *Silicone and MS-polymer sealants*: the EU classification of MEKO (given off by oxime-cure
   silicones) as a carcinogen came only from search summaries and is marked [uncertain].
 
