@@ -33,6 +33,13 @@ break validation; they are clean-ups for the report step or Phase 1.
 - **YouTube videos** were confirmed by title and channel through YouTube's oEmbed service, not watched.
 - **Firgelli (firgelliauto.com)** is a vendor explainer blog; agents labelled any number taken
   from it as secondary. Check those numbers before they go into `rules_of_thumb`.
+- **Manufacturer data sheets read from distributor sites** (e.g. Titebond polyurethane TDS on
+  ardec.ca, DOWSIL 732 on krayden.com, Dow Corning sealant manual on fleetwoodusa.net, Loctite
+  guides on ellsworth.com, Blum spec sheet on cabinotch.us, 3M Command sheet on rs-online.com).
+  They are the maker's own documents; when publishing, cite them by maker and document name.
+- **Early drafts in git history**: the commit script commits any file that validates, so a few
+  entries were first committed while their agent was still refining them (e.g. *Rotary latch*,
+  *Tamper-evident bridge*, *Dampers*). The latest commit of each file is the final version.
 
 ## Content corrections found by the agents
 - *Constant-force spring*: tape measures, dog leads, seat belts and badge reels use spiral **power**
@@ -64,6 +71,26 @@ break validation; they are clean-ups for the report step or Phase 1.
   as the RC-car slipper clutch. The entry says so.
 - *Wrap-spring clutch*: the roller-blind chain clutch is really a two-way anti-back-drive
   clutch; linked from *Bidirectional anti-back-drive clutch*.
+- More conflicts recorded side by side in tier 2 entries (pick one to lead with when publishing):
+  spline tooth strength (RoyMech: involute stronger; McMaster: straight-sided carries more
+  torque); lantern gear "must be driven, not drive" (Wikipedia vs a forum "likely a myth");
+  minimum sheet-metal tab width (Fictiv 1-1.5 × thickness vs Protolabs 2 × or 3.2 mm);
+  plumbing olive tightening (½, 1 or 1-1¼ turns); liquid hide glue shelf life (24 months vs
+  "suspect after six months"); freezing PVA (ruins it vs freeze-thaw stable); fresh silicone on
+  cured silicone (Dow: sticks; Sashco: nothing sticks).
+- Source errors spotted by agents (the entries use the corrected value or quote both):
+  Böllhoff's metric rivet-nut torque table is headed "N" but the values are N·m; Henkel gives two
+  different torque figures for Loctite 243 on M10; the Loctite plastics guide's "0.30 in
+  (0.76 mm)" cure depth is probably a typo; the DAP contact-cement sheet gives both "up to
+  20 minutes" and "60-70 minutes" drying; Premium Ropes' 670 kg Line-Lok breaking strength looks
+  like a data error (left out); the Smartlet blog credits spring-bar patent US 2,308,505 to the
+  wrong inventor (Google Patents: Geoffrion, 1941).
+- Naming clashes flagged in entries: a car's "clockspring" is a spiral cable, not a power spring;
+  McMaster's "locking gas springs" latch only at full extension; PC water-cooling "compression
+  fittings" have no ferrule; "magnetic brake" can mean an eddy-current brake or a friction
+  track brake; RC-car "CVDs" are not true constant-velocity joints.
+- *Silicone and MS-polymer sealants*: the EU classification of MEKO (given off by oxime-cure
+  silicones) as a carcinogen came only from search summaries and is marked [uncertain].
 
 ## Environment notes
 - Each research agent has its own 200-search WebSearch limit. Agents with 3 items often reach
