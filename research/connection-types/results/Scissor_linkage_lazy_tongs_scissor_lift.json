@@ -1,0 +1,192 @@
+{
+  "identity": {
+    "plain_name": "Criss-crossed bars pinned together like a row of open scissors, so that squeezing or spreading one end makes the whole lattice stretch out a long way or fold up flat",
+    "term": "Scissor linkage (scissor mechanism, lazy tongs, scissor lift)",
+    "aliases": [
+      "scissor mechanism / scissors mechanism",
+      "lazy tongs / lazy-tongs",
+      "Nuremberg scissors (Nurnberger Schere, German)",
+      "scissor lift / scissor lift table / lift table",
+      "scissor jack (car jack driven by a screw across a diamond of four arms)",
+      "pantograph arm / pantograph mirror / extending mirror arm",
+      "folding scissor gate / expanding trellis / folding scissor fence",
+      "scissor arm / X-lift",
+      "scissor switch (the mechanism under low-profile keyboard keys)",
+      "lazy-tongs grabber / reacher toy",
+      "Hoberman sphere (brand of expanding toy built from scissor pairs)",
+      "double scissor mechanism (two scissor chains in series for a larger ratio)"
+    ],
+    "family": "motion conversion",
+    "other_families": [
+      "sliding, telescoping & linear motion"
+    ],
+    "one_liner": "Pairs of bars crossed in an X and pinned at their middles and ends form a chain that folds and unfolds as one piece, so a short push, pull or squeeze at one end becomes a much longer extension at the other, as in scissor lifts, car jacks, extending mirrors and grabber toys.",
+    "complexity": "A small assembly that acts as one unit: equal bars (scissor arms) crossed in X pairs and pinned at their middles, the X's pinned end to end, one end fixed to a base by a pivot and the other end free to slide in a slot or on rollers, and a driver (a lead screw, hydraulic or pneumatic cylinder, electric linear actuator, or handles squeezed by hand). Lifts use two identical scissor stacks side by side, joined by cross-bars, under a platform.",
+    "how_it_works": "Each X is two bars pinned at their middles like a pair of scissors, and each X is pinned at its ends to the next, so every X is forced to open to the same angle. Closing the angle at the input (pushing the sliding ends together or squeezing the handles) makes every X stretch at once, so the stretch of all the stages adds up: each X of arm length L adds a height of about L x sin(angle), and a few stages turn a short input into a long output (507 Mechanical Movements no. 144). The price is force: the output moves further, so it pushes less, and when the bars are nearly flat a lift needs a very large push to start rising: for the usual layout, pushed sideways at the base, force = n x (load + half the lift's own weight) / tan(bar angle) (Saxena, after Spackman). All the joints move together, so the whole chain has one degree of freedom, and a scissor lift keeps its platform level as it rises."
+  },
+  "finder_attributes": {
+    "job": [
+      "change the kind of motion: a short push, pull or squeeze becomes a long extension (or, used the other way round, a long movement becomes a short, strong one)",
+      "change speed or turning force: like a lever, it trades force for distance; each extra stage multiplies the travel and divides the force",
+      "let it move (turn, slide or bend): it raises a platform or reaches out an arm while keeping it level or facing the same way"
+    ],
+    "motion": "multiple: every bar rotates about its pins while the sliding end, the platform or the tip moves in a straight line; from folded nearly flat to stretched with the bars nearly upright, although the flattest part of the range needs huge forces and is avoided",
+    "degrees_of_freedom": "1: all the X's are tied together, so one input position sets the shape of the whole chain",
+    "special_behaviour": [
+      "motion conversion (e.g. rotary to linear): a short straight movement at one end becomes a much longer straight movement at the other (507 Mechanical Movements no. 144); with a screw drive, turning a handle becomes lift",
+      "self-aligning or self-centring: a scissor lift keeps its platform level and over its base as it rises (Purdue SIGBots), and a pantograph mirror arm keeps the mirror facing the same way as it extends (Commons 'Pantograph Mirror' animation)",
+      "self-locking (holds under load, won't back-drive), only when driven by a fine-lead screw: a scissor car jack holds its height because its Acme-threaded screw does not unwind under load (Wikipedia 'Jack (device)'); the linkage itself is not self-locking"
+    ],
+    "holding_principle": [
+      "not a holding joint (it moves or passes on motion): the linkage passes motion on and folds up under load unless its drive (screw, cylinder, actuator or latch) holds it",
+      "friction or clamping (force-fit), in some hand-set designs: tightening a pivot bolt clamps the arms so the lift stays at the chosen height (JGomezC145's printed mini scissor lift)"
+    ],
+    "input_output": "Short straight motion -> long straight motion (or the reverse, for force). Force: for a lift pushed sideways at its sliding base end (the screw-jack layout), force needed = n x (load + half the lift's weight) / tan(theta), where theta is the bar angle from horizontal and n the number of stages (Saxena 2016, building on Spackman 1989): per stage about 5.7 x the load at 10 degrees, 2.7 x at 20 degrees and 1 x at 45 degrees. The motion ratio is the inverse, so a small base movement gives a big height change when the bars are low and a smaller one near the top. Ratios seen in practice: Thang's lazy tongs animations show about 3-4 x travel (or about 3 x force when used the other way round, as in a lazy-tong riveter), and two scissor chains in series reach 10 x (2 x 5). Efficiency: every pin rubs, so friction losses grow with the number of joints [uncertain: no figures found]. Arrangement: input and output move in straight lines, either along the same line (lazy tongs; same or opposite directions) or at right angles (lift: sideways input, upward output). Back-drivable: yes: a load pushes the drive back unless the drive is self-locking (fine-lead screw) or has a brake or holding valve.",
+    "power": "passive (no power needed); often powered by a motor-driven screw, an electric linear actuator or a hydraulic or pneumatic cylinder. When power is lost it keeps its last height only if the drive holds it (a fine-lead screw does; hydraulic lifts rely on their safety systems, and OSHA notes that the rare collapses of scissor lifts can be prevented by keeping the systems designed to stop a collapse maintained and not bypassed)",
+    "removability": "removable: the arms are joined by bolts, shoulder screws, clevis pins with clips or printed snap-pins, and come apart; print-in-place versions are one piece and are not meant to be taken apart",
+    "reuse_cycles": "many times: bolted or pinned scissor linkages can be dismantled and rebuilt repeatedly; the pivot holes wear, which adds play",
+    "tools_needed": "Hex keys and spanners for the pivot bolts and nuts (EDGeProjects' printed arms use M12 bolts, nuts and washers); none for snap-pin or print-in-place printed versions (Miloslav Brozek's lazy tongs use printed snap-rivets); circlip pliers for pins with clips",
+    "seal": "none: it is an open framework of bars and pins; nothing about it seals",
+    "load": "Light to heavy depending on build: steel lift tables and aerial work platforms carry people and heavy loads; a hobbyist's printed PETG-and-TPU scissor jack took about 400 lb (Hackaday 2026), and an ABS printed jack lifted a car (Hackaday 2015). Strong in the lifting direction once the bars are well opened; weakest when folded flat, where the bar and drive forces become very large (Saxena). Weak sideways and in twist: play in the many joints adds up, so long lazy tongs and tall lifts sway and flop sideways (Chief Delphi), and lifts need two stacks side by side with cross-bracing (Purdue SIGBots).",
+    "adjustable": "yes: the height or reach can be set anywhere in the stroke by the drive; hand-set designs are held by tightening a pivot bolt or adding a latch; the total stroke is set by the number of stages and the arm length",
+    "play_and_precision": "Noticeable: every pin has its own clearance and the errors add up along the chain and are multiplied at the far end, so the tip of long lazy tongs or the top of a tall lift wobbles ('all the slop in the many, many joints compound', Chief Delphi). Tight-fitting shoulder bolts or bushings, fewer stages and a wide base help. It tolerates little difference between the two side stacks of a lift: both sides must move in near-perfect unison or it leans and binds (Purdue SIGBots). The lift is not linear: the same drive movement gives more height change low down than high up, which a controller has to allow for (Hackaday commenters on a scissor-lift Z axis).",
+    "access_needed": "both sides: each pivot pin or bolt passes through the stacked bars and is secured on the far side with a nut, clip or snap-pin head",
+    "materials": "Steel channel or box section (industrial lift tables, aerial work platforms, car jacks), aluminium, and wood (e.g. the wooden Nuremberg scissors teaching models in Halle University's model collection). 3D printed: PLA arms at 15% infill with M12 bolts (EDGeProjects), an ABS car jack with an M12 threaded rod (Hans Fouche, via Hackaday), rigid PETG arms inside a flexible TPU skin (Hackaday 2026), PETG recommended for printed snap-pins and PLA for the links (Miloslav Brozek). Pivots: steel bolts, shoulder screws, pins and washers.",
+    "maker_difficulty": "moderate: the arms are simple flat bars that print or cut easily, but a stiff, play-free result needs accurate, tight pivots and good bracing, and a powered lift needs a strong drive because the force needed near the bottom is very large"
+  },
+  "making": {
+    "processes": [
+      "3D print (FDM): arms printed flat and joined with bolts or printed snap-pins; fully print-in-place models exist",
+      "woodwork: wooden lazy tongs and teaching models such as the Nuremberg scissors set in Halle University's collection",
+      "sheet metal / metal fabrication: steel arms for lift tables and jacks",
+      "off-the-shelf part: scissor jacks, lift tables, scissor lifts, laboratory jacks and extending mirror arms"
+    ],
+    "print_in_place": "yes: WhopperPrinting's Print-in-Place Scissor Lift prints fully assembled, with a working screw drive and wheels and no supports (free the joints by gently pushing the top down and lightly pulling it up repeatedly before using the screw); most printed scissor mechanisms are printed as flat bars and assembled with bolts or printed snap-pins",
+    "making_tips_3d_printing": "1) Print the arms flat on the bed (Miloslav Brozek: 'everything flat, no supports'); a long arm can be laid diagonally on a small bed (EDGeProjects printed 250 mm arms on a 220 mm bed). 2) Pivots: use bolts with washers between the layers (EDGeProjects: one M12 bolt, nut and three washers per hole) or printed snap-rivets; Brozek prints the pins standing flange-down, recommends PETG for the pins, and says to print one pin and one link as a fit test first. 3) Offset the two rails of links by one layer thickness so the crossing bars slide past each other (Brozek). 4) Print-in-place versions come off the bed with slightly fused joints: work them free by gently pushing down and pulling up repeatedly before driving them (WhopperPrinting). 5) Don't rely on threads tapped into plastic for the drive screw: Hans Fouche's ABS jack stripped its tapped M12 thread after a day of testing (Hackaday 2015); trap a metal nut instead. 6) Put plastic in compression and steel in tension where you can (a commenter's explanation of why the PETG/TPU jack took about 400 lb, Hackaday 2026). 7) Longer chains are weaker and floppier, so allow for the load (EDGeProjects) and keep the number of stages down. 8) For a lift, build two identical stacks, cross-brace them and drive both sides together (Purdue SIGBots). 9) PLA softens above about 60 C (Prusa), so avoid it for anything left in a hot car or in the sun.",
+    "off_the_shelf_parts": "Scissor jacks (car jacks), lift tables, scissor lifts and laboratory jacks (McMaster-Carr categories); aerial work platforms; extending (pantograph) mirror arms; keyboard scissor switches; for building your own: shoulder bolts (shoulder screws) as pivots, washers, lock nuts, clevis pins with retaining clips, electric linear actuators, hydraulic or pneumatic cylinders, trapezoidal lead screws and nuts, and linear slides or rollers for the sliding end.",
+    "rules_of_thumb": [
+      "Force for a lift pushed sideways at its base (screw-jack layout): F = n x (load + half the lift's weight) / tan(theta), theta = bar angle from horizontal, n = number of stages (Saxena, arXiv 1611.10182, following Spackman 1989). So per stage the push is about 5.7 x the load at 10 degrees, 2.7 x at 20 degrees and 1 x at 45 degrees: size the drive for the lowest position and avoid starting from nearly flat.",
+      "Where the actuator is attached changes the force needed and the stresses in the arms (Saxena: 'Prudent placement of the actuator can greatly reduce the force required'); with an inclined actuator Gurskyi et al. (2025) found the force rose from 1.67 kN at the bottom to 6.45 kN at the top of a 1 m lift, trading a 6.45-fold force reduction for a 2.25-fold gain in travel, so check the whole stroke, not just one end.",
+      "Travel ratios: Nguyen Duc Thang's lazy-tongs animations give about 3-4 x travel from a few cells, and two scissor chains in series (2 x and 5 x) give 10 x (Thang, 'Double scissor mechanism').",
+      "Printed examples: EDGeProjects' arms extend about 4.35 : 1 (two sections: 4.25 in collapsed, 18.5 in extended); Cohens Customs' printed 3 x 3 in lift rises from 3 in to 10 in.",
+      "Both side stacks of a lift must move in near-perfect unison and be cross-braced, or the lift leans and binds (Purdue SIGBots).",
+      "Outdoor-rated scissor lifts are generally limited to wind speeds below 28 mph (OSHA scaffolding eTool)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "A car's scissor jack from the spare-wheel kit (Wikipedia 'Jack (device)')",
+      "A scissor lift or lift table raising workers or goods (Wikipedia 'Scissors mechanism')",
+      "An extending bathroom or shaving mirror on a folding arm (pantograph mirror)",
+      "Lazy-tongs grabber toys, which 507 Mechanical Movements already noted in 1868 were 'frequently used in children's toys'"
+    ],
+    "when_to_use": "Use it when you need a long reach or a big lift from a small, compact package that folds nearly flat: lift tables and platforms, jacks, extending arms for mirrors and grabbers, folding scissor gates and fences (Thang, 'Folding scissor gate 1'), fold-down machines (Hackaday featured Malte Schrader's portable CoreXY 3D printer whose gantry rides on scissor lifts so it folds flat), and fun motion-amplifying toys. It keeps a platform level and its load over the base, so it is stable in the lifting direction.",
+    "when_not_to_use": "Avoid it when you need a stiff, precise, wobble-free reach: the play in its many joints adds up (Chief Delphi); use a linear slide, telescoping tubes or an elevator-style lift instead. Avoid starting a lift from nearly flat with a weak actuator, because the force needed is enormous there; add a starting ramp, a different actuator position or a lead screw. For robots with size limits, many experienced FRC teams prefer elevators or telescoping slides, finding scissor lifts heavy, finicky and easily bent (Chief Delphi). For a simple short lift, a lead screw, rack and pinion or a single lever is simpler.",
+    "environment_limits": "Outdoor scissor lifts are limited by wind (below 28 mph for outdoor-rated machines) and need firm, level ground (OSHA scaffolding eTool). Printed PLA softens above about 60 C (Prusa). [uncertain] Pivot holes in printed or wooden arms wear and plastic creeps under a constant load, which adds play and sag over time; outdoor steel lifts need their pins greased and kept free of rust.",
+    "safety_notes": "The crossing arms close like scissors and form pinch and shear points that can trap or cut fingers (OSHA machine guarding eTool describes pinch and shear points on moving parts). Jacks and lifts can collapse or drop: never get under a load held only by a jack (commenters on Hackaday's printed car jack), and the maker of the 400 lb printed jack warns that it 'CAN CREATE A LOT OF FORCE' (Hackaday 2026). Working scissor lifts can tip over on uneven ground or in wind, crush people against fixed objects overhead, and collapse if their safety systems are bypassed (OSHA).",
+    "common_failures": "1) Sideways sway and wobble from play adding up in many joints: use tight pins or bushings, fewer stages, a wider base and cross-bracing (Chief Delphi; Purdue SIGBots). 2) Leaning or binding because the two side stacks don't move together: tie them with cross-bars and drive both sides (Purdue SIGBots). 3) Actuator stalls at the bottom because the force needed near flat is huge: size for the lowest angle, move the actuator, or don't fold fully flat (Saxena). 4) Bent arms after impacts (Chief Delphi: 'easily bent'). 5) Stripped threads or broken screws in the drive: a tapped ABS thread stripped (Hackaday 2015) and nylon lead screws broke on FRC lifts (Chief Delphi); use metal nuts and screws. 6) Print-in-place joints fused solid: free them gently before loading (WhopperPrinting). 7) Hydraulic or actuator failure letting the load drop: keep collapse-prevention systems working (OSHA).",
+    "related": [
+      "Four-bar and parallelogram linkage (pantograph): a scissor chain is a row of linked parallelograms (DMG-Lib files the Nuremberg scissors under parallel crank mechanisms); a pantograph copies motion at a larger or smaller scale",
+      "Lead screw jack (screw jack): pushes straight up with a screw and holds by itself, but its travel is limited to its screw length; scissor jacks combine both",
+      "Telescoping tubes and linear slides (elevators): stiffer and more precise for the same reach, but they don't fold as flat",
+      "Rack and pinion: straight-line motion from rotation over any length, with no motion multiplication",
+      "Hoberman sphere and other expanding scissor structures: scissor pairs arranged round a sphere or ring so the whole shape grows and shrinks",
+      "Keyboard scissor switch: a single tiny scissor that keeps a key level as it is pressed",
+      "Lever and bell crank: a single lever also trades force for distance, with one pivot instead of many"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif",
+        "title": "Pantograph Mirror.gif (Wikimedia Commons, by Catsquisher)",
+        "shows": "Animation of an adjustable mirror on a scissor (pantograph) extension arm that stays facing the same way as it extends",
+        "license": "Public domain"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg",
+        "title": "TL 2000 scissor lift.jpg (Wikimedia Commons, by Edmolift AB)",
+        "shows": "Photo of an industrial scissor lift table with its crossed arms visible",
+        "license": "CC BY-SA 3.0 / GFDL 1.2 (choice of licences)"
+      },
+      {
+        "url": "https://507movements.com/mm_144.html",
+        "title": "507 Mechanical Movements no. 144: lazy tongs",
+        "shows": "Animated version of Brown's 1868 engraving: a short movement of the rod at one end gives a much greater movement at the other",
+        "license": "Book public domain; website animation link only"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UniRkbt0LOY",
+        "title": "Lazy tong 2 (Nguyen Duc Thang, YouTube channel thang010146; title verified via YouTube oEmbed)",
+        "shows": "CAD animation of lazy tongs turning a short slider movement into an output about 3 times longer, with a guide link keeping the tip level (see also 'Double scissor mechanism', https://www.youtube.com/watch?v=zYfj9d2adqg)",
+        "license": "link only"
+      },
+      {
+        "url": "https://huangyan920.github.io/Mechanical/",
+        "title": "HUANGYAN920 Mechanical: interactive animations (entry 'SCISSOR-LIFT', no. 11)",
+        "shows": "Adjustable browser animation of a scissor lift platform rising as the base ends close",
+        "license": "MIT"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/931664-print-in-place-scissor-lift-no-support-needed",
+        "title": "Print-in-Place Scissor Lift (No Support Needed!) (WhopperPrinting, Printables)",
+        "what_it_is": "Fully print-in-place scissor lift with a threaded screw drive, working wheels and a snap-on base; no supports or assembly",
+        "license": "CC BY-NC-ND"
+      },
+      {
+        "url": "https://www.printables.com/model/1782336-lazy-tongs-snapping-dragon-extending-scissor-grabb",
+        "title": "Lazy-Tongs Snapping Dragon - extending scissor grabber (Miloslav Brozek, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Parametric OpenSCAD lazy-tongs grabber (about 135 mm collapsed to 213 mm extended) assembled from 10 flat links and 13 printed snap-pins, no glue or supports",
+        "license": "CC BY-NC"
+      },
+      {
+        "url": "https://www.printables.com/model/921109-scissor-mechanism",
+        "title": "Scissor mechanism (EDGeProjects, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Printable 250 mm scissor arms joined with M12 bolts, nuts and washers, with an assembly diagram; add as many sections as needed",
+        "license": "CC BY-NC"
+      },
+      {
+        "url": "https://www.printables.com/model/543579-scissor-lift",
+        "title": "SCISSOR LIFT (Cohens Customs, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "3 x 3 in printed scissor lift driven by a 1/4-20 bolt, rising from 3 in to 10 in; uses four 1/4-20 socket head cap screws",
+        "license": "CC0 (public domain)"
+      }
+    ],
+    "diagram_idea": "Three side views of the same two-stage scissor lift at bar angles of 10, 30 and 60 degrees, each with the sliding base end marked, a height arrow, and a small bar chart of the push needed (about 5.7x, 1.7x and 0.6x the load per stage), showing that it rises fastest but is hardest to push when nearly flat.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scissor_mechanism",
+      "https://en.wikipedia.org/wiki/Jack_(device)",
+      "https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif",
+      "https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg",
+      "https://commons.wikimedia.org/wiki/File:Hoberman_sphere.gif",
+      "https://507movements.com/mm_144.html",
+      "https://www.youtube.com/watch?v=Zm-4kJLdRcM",
+      "https://www.youtube.com/watch?v=UniRkbt0LOY",
+      "https://www.youtube.com/watch?v=cML0xKSmTPM",
+      "https://www.youtube.com/watch?v=zYfj9d2adqg",
+      "https://www.youtube.com/watch?v=opSblgV2pSE",
+      "https://huangyan920.github.io/Mechanical/",
+      "https://arxiv.org/pdf/1611.10182",
+      "https://www.extrica.com/article/25338",
+      "https://wiki.purduesigbots.com/hardware/lifts/scissor-lift",
+      "https://www.chiefdelphi.com/t/pros-and-cons-of-a-scissor-lift-climber/371049",
+      "https://www.osha.gov/etools/scaffolding/scissor-lifts",
+      "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions",
+      "https://www.dmg-lib.org/dmglib/handler?mcdsc=1869025",
+      "https://sim.mathematik.uni-halle.de/modellsammlung/models/Ib-022/index.html",
+      "https://hackaday.com/2015/11/25/a-3d-printed-car-jack-no-seriously/",
+      "https://hackaday.com/2026/02/17/3d-printed-jack-mixes-two-filaments-for-great-performance/",
+      "https://hackaday.com/2025/10/19/corexy-3d-printer-has-a-scissor-lift-z-axis-so-it-folds-down/",
+      "https://www.mcmaster.com/products/scissor-lifts/",
+      "https://help.prusa3d.com/article/pla_2062",
+      "https://www.printables.com/model/931664-print-in-place-scissor-lift-no-support-needed",
+      "https://api.printables.com/graphql/"
+    ]
+  },
+  "uncertain": [
+    "input_output",
+    "environment_limits"
+  ]
+}

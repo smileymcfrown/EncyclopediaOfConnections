@@ -1,0 +1,183 @@
+{
+  "identity": {
+    "plain_name": "The little spring-loaded plastic stopper on a hoodie or stuff-sack drawstring: squeeze it to slide it along the cord, let go and it grips the cord where it is",
+    "term": "Cord lock (spring cord lock, spring toggle)",
+    "aliases": [
+      "cord toggle / toggle",
+      "cord stopper / cord stop",
+      "drawstring toggle / drawstring stopper / drawstring lock",
+      "spring toggle stopper / spring stop",
+      "cord fastener, plastic stopper, spring clasp (Wikipedia)",
+      "barrel cord lock / barrel lock; ball cord lock; single-hole and double-hole cord locks (shape variants)",
+      "Cordloc (brand spelling, ITW Nexus)",
+      "Kordelstopper / Tanka (German)"
+    ],
+    "family": "cord, strap, webbing & textile hardware",
+    "other_families": [
+      "clamping, magnetic & friction connections",
+      "self-locking & anti-back-drive",
+      "quick-release & tool-free"
+    ],
+    "one_liner": "A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.",
+    "complexity": "A few parts: a barrel or body (housing) with a hole across it, a plunger (toggle, piston) with a matching cross hole and a thumb button, and a spring (usually a small metal coil spring). Some designs replace the metal spring with a springy plastic part moulded onto the plunger (e.g. a W-shaped spring in patent US4622723), and some have no spring at all, using a wedge-shaped plunger instead.",
+    "how_it_works": "The cord runs through a hole in the barrel and a hole in the plunger. The spring pushes the plunger outward, so its hole sits off-centre from the barrel's holes and the cord is pinched between the edge of the plunger hole and the barrel wall. Friction holds the cord in either direction (a spring-loaded clamp). Pressing the plunger in against the spring lines the holes up, the pinch is released and the lock slides along the cord; let go and it grips again. How hard it grips depends on the spring force and on how well the cord fills the hole."
+  },
+  "finder_attributes": {
+    "job": [
+      "tighten and hold tension: holds a drawstring pulled tight so a bag or hood stays closed",
+      "lock, and release by hand: grips until you squeeze it",
+      "join and hold: holds two cord ends together or stops a cord pulling back through a hole"
+    ],
+    "motion": "slide: the plunger slides a few millimetres in the barrel when squeezed, and the whole lock slides along the cord when released",
+    "degrees_of_freedom": "0 along the cord when gripping (it can still turn on the cord). When squeezed, 1: sliding along the cord. The plunger itself has 1 (in and out of the barrel).",
+    "special_behaviour": [
+      "hand-release only (locks under load, releases when a person operates it): pulling the cord does not open it; you have to squeeze the plunger",
+      "self-locking (holds under load, won't back-drive): the spring keeps the cord pinched with no effort; a hard pull on the cord can still drag it through, because the grip is only as strong as the spring",
+      "tensioning (takes up slack and holds): slide it up the cord to close a bag or hood and it stays put",
+      "quick-release: one squeeze frees the cord at once",
+      "one-way (some springless designs only): a rectangular springless type with small teeth was found to be hard to slide one way and easy the other"
+    ],
+    "holding_principle": "friction or clamping (force-fit), with spring force (a metal or plastic spring presses the plunger to pinch the cord)",
+    "input_output": "not applicable",
+    "power": "passive (no power needed)",
+    "removability": "tool-free quick release: it slides off the cord end when squeezed (unless the cord ends are knotted or capped); the lock can be taken off by untying or unthreading the cord",
+    "reuse_cycles": "effectively unlimited for everyday squeezing; a good stainless spring keeps its springiness, but cheap steel springs rust and all-plastic ones can jam or lose grip",
+    "tools_needed": "none. To thread cord: squeeze and push the cord through. Some ITW cord locks are supplied with the spring not engaged and are armed by pushing the button hard once",
+    "seal": "none",
+    "load": "light. It is made to hold a drawstring, a hood or a stuff sack closed, not to carry weight. The grip depends on the spring and on matching the cord to the hole: in a side-by-side test, cheap round 'ball' cord locks barely held 3 mm paracord, while stiff-spring barrel types held firmly. Load ratings were not found [uncertain]. It holds best with the pull along the cord; a hard jerk can drag the cord through.",
+    "adjustable": "yes: squeeze and slide it anywhere along the cord, steplessly",
+    "play_and_precision": "not applicable (it clamps a cord at any point and does not locate parts)",
+    "access_needed": "not applicable: it hangs on the cord; you pinch the button and the barrel between finger and thumb",
+    "materials": "Body and plunger: usually acetal (POM) or other moulded plastics, sometimes metal (zinc alloy, aluminium, stainless steel) [uncertain for metal types]. Spring: stainless or plain steel coil spring, or a moulded plastic spring. Cords: round drawcord, paracord, shock (bungee) cord and flat cords that fit the hole. 3D-printed versions: PETG (also needed for printed springs), ABS for items that go through a washer and dryer.",
+    "maker_difficulty": "easy to buy and fit; moderate to 3D print, because the spring needs a tough springy material or a salvaged metal spring (e.g. from a pen), and the small parts need 100% infill and several perimeters"
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part (by far the most common)",
+      "3D print (FDM): body and plunger print easily; the spring can be a salvaged metal spring, a printed PETG spring, or designed into a one-piece springless body",
+      "injection moulding (how commercial cord locks are made; not a home process)"
+    ],
+    "print_in_place": "partly: the usual design is printed as a body plus a plunger with an added metal or printed spring; one-piece springless designs work straight off the bed, and a 'print in place' drawstring friction lock appears in MakerWorld search results [uncertain: page not opened]",
+    "making_tips_3d_printing": "Print the small parts solid: one designer found parts with less than 100% infill broke at their thinnest point and used 100%, while another uses 4 perimeters so the tiny parts are strong. Use a tough material. PETG is the common choice, and one designer found PLA parts warped in a washer and dryer while ABS held up. The spring is the hard part. A metal coil spring about 11 mm long with a 5-9 mm outside diameter fits one spherical design. Printed springs must be PETG: one designer says 'PLA will not work well'. Print 6-8 small printed springs at once, so each layer has time to cool before the next. Capture the plunger with small snap nubs that click past a lip, so the spring cannot push it out. Size the holes to the cord you will use (see the hole sizes of commercial locks under rules_of_thumb); a wedge-type design with a 15° angle locked better than a wider one but took thinner cord. Printable one-piece springless designs (the body acts as the spring) work with 3-6 mm cord in PETG at 0.2 mm layers with no supports. Round the edges of the cord holes so they do not fray the cord.",
+    "off_the_shelf_parts": "Search for 'cord lock', 'spring cord lock', 'cord stopper', 'toggle stopper', 'drawstring toggle', 'single hole cord lock' or 'double hole cord lock'; shapes: barrel, ball (spherical), flat or oval; size by hole diameter (roughly 3-5 mm for drawcord and shock cord); 'stainless steel spring cord lock' for wet or salty use; 'micro' or 'mini cord lock' for thin (1-3 mm) cord; 'cord end' or 'cord end lock' to cap cord tips; 'shock cord' / 'bungee cord' and 'drawcord' to match. ITW sells a 'Cordloc' range (brand).",
+    "rules_of_thumb": [
+      "Match the cord to the hole: a 3 mm hole takes two passes of 1.3 mm cord or 1/16 in shock cord, and a 5 mm hole takes two passes of cord up to 2.5 mm or 3/32 in shock cord (Zpacks, https://zpacks.com/products/mini-cord-lock-5-pack). Litesmith's Micro takes one line up to 2.9 mm or two up to 1.6 mm, and its Mini one line up to 3.7 mm or two up to 2.2 mm (https://www.litesmith.com/cord-locks/).",
+      "For thin line, a smaller lock with a stiffer spring grips better: Litesmith says its Micro has 'better holding power' on thin lines than the larger Mini with its weaker spring (https://www.litesmith.com/cord-locks/).",
+      "Typical size: 1-3 in (25-76 mm) long; generally three parts, a barrel, a plunger and a spring (Wikipedia, https://en.wikipedia.org/wiki/Cord_lock).",
+      "For wet or salty use choose stainless springs: in an informal 6-week salt-water test, cheap springs corroded and lost grip, and an all-plastic springless lock jammed with salt and debris, while two brands with stainless springs kept their grip (Canoetripping.net forum, https://www.canoetripping.net/threads/cord-lock-experiments.123727/).",
+      "Print cord-lock slides at 100% infill (thinner infill broke at the smallest diameter), and use ABS or PETG rather than PLA for clothing that is machine washed and tumble dried (Printables model 201172, read via https://api.printables.com/graphql/).",
+      "Printed springs: use PETG, not PLA, and print several at once so each layer cools (Printables model 617291, read via https://api.printables.com/graphql/)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "the drawstring stoppers on a hoodie, jacket hood or jacket hem",
+      "stuff sacks, laundry bags and tent bags closed with a drawcord",
+      "backpack shock-cord lacing on the outside of a pack",
+      "window blind cords (Wikipedia)"
+    ],
+    "when_to_use": "When you want to cinch a cord or drawstring and have it stay put without a knot, and loosen it with one squeeze: hoods, hems, stuff sacks, shock-cord lacing, lanyards, headlamp bands and simple cord tensioning on light gear. Good with gloves on or cold fingers, which is why mountaineers use them (Wikipedia).",
+    "when_not_to_use": "Not for holding real loads, such as guy lines in wind, hanging things or tie-downs: use a guy-line slider, a cam cleat, a knot or a buckle. Not on drawstrings in the hood or neck area of young children's clothing, where cords are a strangulation and entrapment hazard (EN 14682 in Europe prohibits them there for young children). Not in salt water with cheap steel springs (choose stainless). For flat webbing use a ladder lock or cam buckle instead.",
+    "environment_limits": "Cheap steel springs rust in salt water and lose grip. All-plastic enclosed locks can jam with salt, pollen and dirt. Stainless springs survived a 6-week salt-water test (informal forum test). PLA printed parts warped in a washer and dryer, while ABS was fine. Acetal bodies generally handle cold and wet well [uncertain for specific products]. A drawcord that is too thin or slippery for the hole will not hold at all.",
+    "safety_notes": "Drawstrings and cords on children's clothing are a strangulation and entrapment risk. The European standard EN 14682 prohibits drawstrings and functional cords in the hood and neck area of clothes for young children (its strictest rules apply under 7 years) and also sets rules for toggles; more than 3,100 recalls of children's clothing with dangerous cords appear on the EU Safety Gate system. The small parts and springs are a choking hazard. The springs are small and can fly out if a lock is forced apart.",
+    "common_failures": "(1) It won't hold: the cord is too thin for the hole, the spring is too weak (common in cheap 'ball' types), or the cord is slippery. Fix it by using a smaller or stiffer-spring lock, double the cord, or use thicker cord. (2) The spring rusts or loses its springiness, especially in salt water; choose stainless springs and rinse the lock. (3) It jams with dirt, salt or ice; rinse and work it. (4) The plunger falls out or the body cracks (cheap plastic, or a printed part with low infill); choose good acetal parts, or print at 100% infill with a snap-captured plunger. (5) The cord frays at sharp hole edges; round the edges or choose a smoother lock. (6) The cord end pulls back out through the lock; knot the end or add a cord end cap.",
+    "related": [
+      "Guy-line slider (friction line tensioner): holds a cord by friction around a plate with holes, with no spring; for tent guy lines",
+      "Cam cleat / clam cleat: grips a rope pulled into toothed cams or V-grooves; much stronger, for boats and hauling",
+      "Ladder lock buckle / tri-glide: the friction-lock idea for flat webbing instead of round cord",
+      "Springless cord locks and toggles: a wedge or V-shaped plunger or a springy body does the job of the spring; one type grips harder in one direction",
+      "Knot or cord end: permanent or fixed stop with no adjustment",
+      "Spring plunger (ball detent): the same 'spring pushes a plunger' idea used to hold parts in position, not to grip a cord",
+      "Ratcheting reel closure (dial lacing): tightens a lace with a clicking reel for higher, repeatable tension"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Cord-lock.jpg",
+        "title": "Cord-lock.jpg (Wikimedia Commons, by Ratel, 2008; lead image of the Wikipedia 'Cord lock' article)",
+        "shows": "Photo of a barrel-type cord lock with its spring plunger",
+        "license": "Public domain (PD-self)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Cord_lock-418.jpg",
+        "title": "Cord lock-418.jpg (Wikimedia Commons, by MichaelFrey, 2020; one of a series in Category:Cord lock)",
+        "shows": "Photo of a cord lock on a jacket drawcord",
+        "license": "CC BY-SA 4.0 (reuse with credit)"
+      },
+      {
+        "url": "https://patents.google.com/patent/US4622723A/en",
+        "title": "US4622723A - Cord lock (Mark J. Krauss, American Cord and Webbing, 1986)",
+        "shows": "Patent drawings of a two-piece cord lock: a housing with side holes and a plunger with a built-in W-shaped plastic spring, showing the holes lining up when pressed",
+        "license": "link only (patent document; drawings shown on Google Patents)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=N9SbpknBo1g",
+        "title": "Adjustable Single Hole Cord Locks with Spring Lock 2135-4001 (Specialist ID, YouTube; title confirmed via YouTube oEmbed)",
+        "shows": "Short product video of squeezing a single-hole spring cord lock and sliding it on a cord",
+        "license": "link only"
+      },
+      {
+        "url": "https://www.canoetripping.net/threads/cord-lock-experiments.123727/",
+        "title": "Cord Lock experiments (Canoetripping.net forum thread)",
+        "shows": "Photos of five kinds of cord lock before and after a salt-water corrosion test, including smashed-open ones showing the springs inside",
+        "license": "link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/570028-spring-cord-lock",
+        "title": "Spring cord lock (Printables 570028; URL from Printables API, page not opened)",
+        "what_it_is": "Fully printed cord lock for 3 mm paracord with a printed PETG spring; no supports, 4 perimeters",
+        "license": "CC BY-NC-ND (Creative Commons Attribution-NonCommercial-NoDerivatives)"
+      },
+      {
+        "url": "https://www.printables.com/model/617291-printed-spiral-spring-no-supports-needed",
+        "title": "Printed spiral spring (no supports needed) (Printables 617291; URL from Printables API, page not opened)",
+        "what_it_is": "Improved small printed spring for the spring cord lock above; PETG, print several at once",
+        "license": "CC BY-NC-ND (Creative Commons Attribution-NonCommercial-NoDerivatives)"
+      },
+      {
+        "url": "https://www.printables.com/model/213436-generic-spherical-cord-lock-cord-stopper-drawstrin",
+        "title": "Generic Spherical Cord Lock / Cord Stopper / Drawstring Toggle (Printables 213436; details read via the Printables API)",
+        "what_it_is": "Replacement ball-shaped cord lock: printed body and plunger plus an 11 mm long, 5-9 mm diameter metal spring; the plunger snaps in on small nubs",
+        "license": "CC BY-SA (Creative Commons Attribution-ShareAlike)"
+      },
+      {
+        "url": "https://www.printables.com/model/1446332-one-piece-cord-lock-springless-design",
+        "title": "One-Piece Cord Lock (Springless Design) (Printables 1446332; URL from Printables API, page not opened)",
+        "what_it_is": "Single-piece springless cord lock for 3-6 mm cord; PETG, 0.2 mm layers, no supports",
+        "license": "CC BY (Creative Commons Attribution)"
+      },
+      {
+        "url": "https://www.printables.com/model/201172-drawstring-brake-cord-lock",
+        "title": "Drawstring Brake / Cord Lock (Printables 201172; URL from Printables API, page not opened)",
+        "what_it_is": "Printable drawstring brake for gym shorts and backpacks; tested in ABS through the wash, with 100% infill advised",
+        "license": "CC0 / Public Domain"
+      }
+    ],
+    "diagram_idea": "A cut-through of a barrel cord lock in two frames: released (the spring pushes the plunger out so its hole is offset and the cord is pinched in an S-bend between the plunger edge and the barrel) and squeezed (the plunger pushed in against the spring, all three holes in a straight line and the cord sliding freely).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cord_lock",
+      "https://commons.wikimedia.org/wiki/Category:Cord_lock",
+      "https://commons.wikimedia.org/wiki/File:Cord-lock.jpg",
+      "https://commons.wikimedia.org/wiki/File:Cord_lock-418.jpg",
+      "https://patents.google.com/patent/US4622723A/en",
+      "https://patents.google.com/patent/US20100257701A1/en",
+      "https://milspecmonkey.com/store/hardware-diy/128-itw-gtsp-cordlock.html",
+      "https://www.canoetripping.net/threads/cord-lock-experiments.123727/",
+      "https://zpacks.com/products/mini-cord-lock-5-pack",
+      "https://www.litesmith.com/cord-locks/",
+      "https://www.productipedia.com/kb/productipedia/compliance-resources/dangerous-drawstrings-and-cords",
+      "https://api.printables.com/graphql/",
+      "https://www.printables.com/model/213436-generic-spherical-cord-lock-cord-stopper-drawstrin (read via https://api.printables.com/graphql/)",
+      "https://www.youtube.com/watch?v=N9SbpknBo1g (verified via YouTube oEmbed)"
+    ]
+  },
+  "uncertain": [
+    "load",
+    "materials",
+    "print_in_place",
+    "environment_limits"
+  ]
+}

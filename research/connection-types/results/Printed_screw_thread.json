@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "plain_name": "A screw thread that is drawn into the 3D model and printed as part of the object, so a lid screws onto a jar or a printed bolt screws into a printed nut, with a little extra gap so the two halves turn freely",
+    "term": "Printed screw thread (modelled thread, as-printed thread)",
+    "aliases": [
+      "3D-printed thread, printed-in thread",
+      "modelled (modeled) thread: Fusion's 'Modeled' checkbox turns a picture-only (cosmetic) thread into real printable geometry (Product Design Online)",
+      "as-printed thread (Protolabs' term for threads printed without tapping)",
+      "integrated thread (CNC Kitchen's 'M3 - M10 3D Printed Thread Test')",
+      "screw-top, screw cap, screw-on lid (the everyday container versions; Wikipedia 'Screw cap')",
+      "trapezoidal thread (Acme thread), buttress thread (sawtooth thread), knuckle or round thread, square thread: thread shapes (thread forms) often chosen for printing instead of the sharp 60-degree V thread (BOSL2 threading.scad; Wikipedia 'Screw thread')",
+      "multi-start thread (double-start, triple-start): several threads side by side, used on quick-closing lids (Wikipedia 'Screw thread')",
+      "blunt-start thread (Higbee thread): a thread whose first turn is cut off square so it can't cross-thread; the default in the BOSL2 library",
+      "bottle-neck finish, e.g. PCO 1881 or SPI 38-400 (standard bottle and jar threads that printed caps can be made to fit; BOSL2 bottlecaps.scad)"
+    ],
+    "family": "print-in-place & 3D-printing joints",
+    "other_families": [
+      "quick-release & tool-free",
+      "motion conversion"
+    ],
+    "one_liner": "A spiral ridge (thread) modelled straight into two printed parts so they screw together by hand or with a tool, with extra clearance added so printing errors don't make it jam.",
+    "complexity": "A few parts: an outside thread (external thread, e.g. a bolt, jar neck or bottle neck) and a matching inside thread (internal thread, e.g. a nut, threaded hole or lid). Optional extras: a rubber seal ring (gasket or O-ring) under a lid, or a real metal bolt screwed into a printed threaded hole.",
+    "how_it_works": "The thread is a ridge wound around a cylinder like a spiral staircase (helix); turning one part makes it climb along the other, so turning is changed into a straight push that clamps the parts together (Wikipedia 'Screw thread'). Once tight, friction on the sloping thread faces stops it unscrewing by itself under a straight pull (self-locking). Because printed plastic comes out slightly larger or smaller than drawn, the outside thread is made a little thinner or the inside thread a little bigger (a clearance or offset of roughly 0.1-0.2 mm per face) so the two will turn (Product Design Online; BOSL2 $slop). Coarse, rounded or flat-topped thread shapes print more cleanly than fine sharp ones because their sloping faces are gentler overhangs (DurbansPoison Fusion-360-FDM-threads README; BOSL2)."
+  },
+  "finder_attributes": {
+    "job": [
+      "join and hold: screws two printed parts together, or lets a metal bolt screw straight into a printed hole",
+      "seal it, or pass cables or fluid through: a screw-on lid closes a jar or bottle; it seals well only with a gasket, O-ring or pressed lip",
+      "tighten and hold tension: clamp screws and knobs press parts together and stay put",
+      "change the kind of motion: a printed clamp or lifting screw turns a twist into a straight push"
+    ],
+    "motion": "rotate+slide: while being done up the part turns and moves along the thread at the same time (one lead per turn); once tightened there is no motion (none)",
+    "degrees_of_freedom": "1 while screwing: turning and sliding are locked together, so they count as one movement (a helical joint). 0 once tightened down.",
+    "special_behaviour": [
+      "self-locking (holds under load, won't back-drive): friction on ordinary, fairly fine threads stops them unscrewing when simply pulled or pushed along their length (Wikipedia 'Screw thread'); steep multi-start lid threads lock less well [uncertain]",
+      "motion conversion (rotary to linear): when used as a printed clamp or vice screw, turning the handle pushes the jaw forward",
+      "none of the other clever behaviours: it does not click, slip at a set force or release quickly"
+    ],
+    "holding_principle": [
+      "shape (the parts interlock; form-fit): the thread ridges hook behind each other, so the parts can't be pulled straight apart",
+      "friction or clamping (force-fit): once tightened, friction on the thread faces keeps it from undoing"
+    ],
+    "input_output": "Only when used as a drive screw (printed clamp, vice or adjuster): continuous rotation -> straight-line movement of one lead per turn, where lead = pitch x number of starts (Wikipedia 'Screw thread'); shaft arrangement in line. Efficiency is low because plastic thread faces rub [uncertain]. Back-drivable: no for ordinary single-start threads (they are self-locking); steep multi-start threads may be [uncertain]. For lids and fasteners: not applicable (it holds rather than passes on motion).",
+    "power": "passive (no power needed)",
+    "removability": "removable: unscrew it; coarse lid threads can be opened and closed by hand as often as you like, small fastener threads wear faster",
+    "reuse_cycles": "many times for coarse, hand-tight lid and cap threads (makers report they get smoother with use: Printables 'Threaded Jar'); a few to many times for small, hard-tightened fastener threads, which wear and strip sooner than metal threads (Formlabs; Śliwka and Wójcik 2025 found metal Helicoil inserts resist wear better) [uncertain]",
+    "tools_needed": "none for jar lids, caps and knobs; a screwdriver or spanner for printed bolts and for metal bolts in printed holes; optionally a metal tap or die of the same size to clean up rough printed threads (Meshra blog), or simply screw the parts in and out several times to clear them (Hubs)",
+    "seal": "loose on its own (the spiral gap between threads leaks); watertight when a gasket, O-ring, rubber band or pressed lip is added, as on laboratory screw caps with a built-in seal (Wikimedia Commons 'Duran Group GL45 screw caps') and printed jars with rubber-band grooves (Printables 'Threaded jar with a rubber seal'). One maker found PLA screw-top containers with a 0.2 mm thread tolerance and 1.2 mm walls 'seem to be waterproof' (Printables 'Parametric Screw Top Container') [uncertain]",
+    "load": "light to medium. Strongest when pulled along the thread axis with plenty of threads engaged: an M8 thread printed in SLS nylon (PA12) pulled out at about 3.41 kN, close to a heat-set insert's 3.83 kN (Śliwka and Wójcik 2025), and M3 threads printed in resin held 106-121 kg, more than tapped holes (CNC Kitchen). Weak against over-tightening (the plastic threads shear or strip) and, for FDM bolts printed standing up, against pulling, because the pull tries to separate the layers (ThirtyThreeDown prints bolts lying down for this reason).",
+    "adjustable": "yes: how tight it is, and where it sits along the thread, can be changed at any time by turning it; this is why printed threads suit clamp screws, adjusting knobs and levelling feet",
+    "play_and_precision": "noticeable: printed threads need deliberate clearance (about 0.1-0.2 mm per thread face, i.e. roughly 0.2-0.4 mm on the diameter), so a printed nut wobbles slightly on its bolt until tightened (Product Design Online; Meshra blog). Not a precision locating joint; a lid or clamp settles wherever the thread stops. Tolerates a little misalignment at the start, especially with a chamfer or blunt start.",
+    "access_needed": "end of a tube or shaft: a lid or nut goes on over the end of the threaded part. A metal or printed bolt into a printed threaded hole needs access from one side only (blind).",
+    "materials": "FDM: PLA gives the crispest threads but is brittle when twisted; PETG, ABS and ASA are better for threads that are tightened hard or opened often (Snapmaker blog; Meshra blog). Resin (SLA/DLP) gives the finest, strongest small threads (Formlabs; CNC Kitchen: printed M3 threads in resin beat tapped holes). Powder-bed nylon (SLS, MJF) works for M6 and larger (Śliwka and Wójcik 2025). Mating parts can be printed or metal: a steel bolt into a printed hole, or a printed cap onto a glass or plastic bottle. Very flexible filaments (TPU) are not recommended [uncertain].",
+    "maker_difficulty": "moderate: generators and CAD tools (BOSL2, Fusion 360 modelled threads) make the shape in seconds, but getting a smooth, snug fit usually takes one or two test prints to tune the clearance for your printer, and threads smaller than about M6 are hard to print well in FDM"
+  },
+  "making": {
+    "processes": [
+      "3D print (FDM): the usual maker method for jars, caps, knobs and coarse screws (M6/M8 and up)",
+      "3D print (resin): SLA and DLP print fine threads, down to M3, well (Formlabs; CNC Kitchen)",
+      "3D print (powder-bed SLS or MJF nylon): works for larger threads; Protolabs advises tapping or inserts if the thread is critical",
+      "3D print (metal DMLS): as-printed threads are 'rarely functional' and are usually machined afterwards (Protolabs)",
+      "other: injection moulding (the normal way to make plastic bottle caps and jar lids), CNC turning, or cutting threads into a printed hole with a tap"
+    ],
+    "print_in_place": "no: the two threaded halves (jar and lid, bolt and nut) are printed as separate parts and screwed together afterwards",
+    "making_tips_3d_printing": "1) Size: in FDM keep printed threads at M6 (1/4 in) or larger; below M5 use a heat-set insert, a self-tapping screw or a nut instead (Hubs; Formlabs; Thomas Sanladerer). Beginners are advised to start even bigger, around M12-M16 with a 2 mm pitch, until they know their printer's clearance (Product Design Online). 2) Turn on real geometry: in Fusion tick 'Modeled' in the thread dialog, otherwise the thread is only a picture (Product Design Online); Onshape needs the ThreadLab add-in (Thomas Sanladerer); OpenSCAD users can use BOSL2 threading.scad. 3) Add clearance: Fusion's default 0.1 mm is too tight for printing; use Offset Face (Q) to move each thread face by about -0.15 to -0.2 mm, on both flanks and on both parts (Product Design Online). In BOSL2 set $slop, which adds 4 x $slop to internal threads; calibrate it with the library's slop test print (BOSL2 constants.scad). A blog guide suggests about 0.2-0.4 mm oversize on the inside thread and 0.1-0.2 mm undersize on the outside thread, 'start looser than feels right' (Meshra). 4) Pick a print-friendly shape: the overhang of a vertically printed thread face is 90 degrees minus half the thread angle (DurbansPoison README), so a standard 60-degree V thread has steep 60-degree overhangs; a 90-degree or trapezoidal thread gives 45-degree faces that print cleanly (BOSL2), and a rounded (semicircular) profile wears better (Formlabs). 5) Pitch: use a coarse pitch, at least about 1.0 mm for a 0.4 mm nozzle and 1.5-2 mm to be comfortable (Meshra blog); fine pitches merge into a ramp. 6) Orientation: print threaded parts standing up (thread axis vertical) so the thread is round and needs no support (Snapmaker blog; Meshra blog). Exception: a printed bolt that must take a strong pull is stronger lying down, because the pull no longer separates the layers; one maker trims a flat along the bolt (1/6 of the diameter) so it lies flat on the bed and uses a trapezoidal thread with a 0.12 mm offset on all faces (ThirtyThreeDown). 7) Layers and walls: use thin layers (0.12-0.16 mm) and 3-4 perimeters so the thread is cut from solid plastic rather than infill (Snapmaker blog); keep at least as much wall around a threaded hole as the thread diameter, e.g. 5 mm around an M5 (Hubs). 8) Start of the thread: add a 45-degree chamfer to the first turn of the outside thread and the mouth of the inside thread (Snapmaker; Meshra) or use a blunt start, which BOSL2 makes by default, so it starts straight and the squashed first layer (elephant's foot) doesn't jam it. 9) Use multi-start threads for lids you want to close in less than a turn (Wikipedia 'Screw thread'). 10) After printing, screw the parts together and apart several times to clean the thread (Hubs; Printables 'Threaded Jar'), or run a metal tap through a rough internal thread (Meshra blog). 11) Print a small test pair before a big container: e.g. CNC Kitchen's M3-M10 thread test or a small 20 mm container (Printables 'Parametric Screw Top Container').",
+    "off_the_shelf_parts": "Usually none; the threads are part of the print. Useful extras: metal bolts and machine screws (ISO metric, M6 and up) to screw into printed threaded holes; a metric tap and die set to clean up printed threads; O-rings, flat silicone gaskets or rubber bands to seal lids; standard bottles and jars with known neck finishes (PCO 1881 drink bottles, SPI finishes such as 38-400, mason jars) for which BOSL2 can generate matching caps. Alternatives to buy instead when threads must be small or reused a lot: heat-set threaded inserts, Helicoil-type wire thread inserts, hex nuts in a nut pocket.",
+    "rules_of_thumb": [
+      "Smallest practical size: avoid FDM-printed threads below M5 (Hubs 'How to assemble 3D printed parts with threaded fasteners'); Formlabs recommends 1/4 in-20 or M6 and larger, as does Thomas Sanladerer ('A better way to add threads to your 3D prints'); in SLS PA12 printed threads were accurate enough only above M6 (Śliwka and Wójcik, Polymers 2025).",
+      "Wall around a printed threaded hole at least equal to the thread diameter, e.g. 5 mm for M5 (Hubs).",
+      "Clearance in Fusion 360: default 0.1 mm is not enough; offset each thread face by -0.15 to -0.2 mm on both flanks and both parts; a 2 mm pitch on M16 is a good first test (Product Design Online, 'Model 3D printed threads in Fusion 360').",
+      "BOSL2 adds 4 x $slop of clearance to internal threads; its examples use $slop values of 0.05-0.2 mm, found with the library's slop calibration print (BOSL2 threading.scad and constants.scad).",
+      "Overhang of a thread printed with its axis vertical = 90 degrees - (thread angle / 2): about 60 degrees for a standard 60-degree thread, 45 degrees for a 90-degree thread; trapezoidal FDM profiles with root and crest flats 1/4 of the pitch are robust (DurbansPoison Fusion-360-FDM-threads README; BOSL2).",
+      "Lead = pitch x number of starts; multi-start threads close faster, which is why they are used on bottle caps and jar lids (Wikipedia 'Screw thread').",
+      "Standard drink-bottle necks are 28 mm across; PCO 1881 has a 17 mm thread height, 2.7 mm pitch and 650 degrees of thread travel, the older PCO 1810 21 mm, 3.18 mm and 810 degrees (BOSL2 bottlecaps.scad).",
+      "Printed vs insert strength (SLS PA12, M8): printed thread 3.41 kN pull-out, heat-set insert 3.83 kN (+12%), Helicoil 4.78 kN (+40%); all failed by pulling out of the plastic (Śliwka and Wójcik 2025).",
+      "Resin (M3): printed threads held 106 kg (Prusament Tough resin) and 121 kg (Elegoo), versus 55 kg and 104 kg for tapped holes; modelling and printing the thread is the best choice in resin unless it will be screwed in and out often (CNC Kitchen, 'How to use threaded inserts in resin 3D prints').",
+      "A rounded (semicircular) thread profile with a 0.1 mm offset improves engagement and wear in printed parts (Formlabs 'Adding screw threads to 3D printed parts').",
+      "For general moving fits on a Prusa printer start from at least 0.3 mm clearance; the printer is accurate to about 0.2 mm (Prusa Knowledge Base 'Modeling with 3D printing in mind')."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "A screw-top jar lid or a plastic drink-bottle cap (Wikipedia 'Screw cap'; PCO 1881 bottle standard)",
+      "A laboratory bottle cap with a built-in rubber seal (Wikimedia Commons 'Duran Group GL45 thread PBT screw caps')",
+      "A garden-hose connector (BOSL2 includes a garden hose thread generator)",
+      "The screw of a bench vice or a G-clamp (Wikipedia 'Buttress thread' mentions vices); makers print whole clamps with printed threads (Printables 'Thread test' by Wilko)"
+    ],
+    "when_to_use": "Use a printed thread when you want parts that screw together by hand without buying anything: screw-top boxes and jars, caps for bottles, lens and pipe adapters (Hackaday 'printed threads' tag), knobs, clamp screws, levelling feet and large coarse screws. It is quickest to design (a checkbox in Fusion or one line in OpenSCAD), needs no extra steps after printing (Hubs) and works well for sizes from about M6 upward in FDM, and down to about M3 in resin. It is a good choice when the thread will be done up by hand rather than tightened hard.",
+    "when_not_to_use": "Avoid it for small threads (below about M5-M6 in FDM), for screws that must be tightened hard or undone many times, and for anything critical: use a heat-set threaded insert, a Helicoil-type insert, a nut in a nut pocket or a self-tapping screw instead (Hubs; Protolabs; Thomas Sanladerer). Avoid it where a lid must be airtight or watertight without a gasket, and for high-load threaded rods in FDM, where a steel threaded rod or bolt is much stronger. For precise positioning (lead screws in a machine) buy a metal lead screw and nut.",
+    "environment_limits": "Printed threads soften with heat like the rest of the part: in CNC Kitchen's oven test PLA started to give at 60 °C, PETG at 80 °C and ASA at about 110 °C, so a PLA jar in a hot car or dishwasher can deform and seize or loosen. Plastics slowly relax under constant load, so a tightened plastic thread loses some clamping force over time (DuPont design guide: plastics creep and stress-relax; 3D-printed PLA lost about 11-13% of its stress within 500 seconds in tests by Bertocco et al. 2022). Metal parts screwed into plastic expand differently with temperature (DuPont). Dust or grit in coarse FDM threads makes them bind; UV and chemical limits are those of the chosen plastic.",
+    "safety_notes": "Few hazards. Over-tightening can crack a printed nut or boss and send small pieces flying; don't use printed threads for pressurised containers (such as fizzy drinks or compressed air) without testing, because a stripped cap can blow off [uncertain]. Take normal care with a tap or die (sharp edges).",
+    "common_failures": "Too tight or seized: not enough clearance, elephant's foot on the first layers, or blobs and stringing in the thread; fix with more offset (about 0.1-0.2 mm per face), a chamfer or blunt start, and by screwing in and out to clean it. Too loose or wobbly: too much clearance or a worn thread. Stripped or sheared threads: thread too small, too fine a pitch, too few perimeters, or over-tightening; use M6 and larger, 3-4 walls and a coarse trapezoidal or rounded profile. Cross-threading at the start: add a lead-in chamfer or blunt start (BOSL2). Printed bolts snapping between layers when pulled: print them lying down (ThirtyThreeDown) or use a metal bolt. Leaks: add a gasket or O-ring. Rough, droopy threads when printed with the axis horizontal: print standing up (Snapmaker blog; Meshra blog).",
+    "related": [
+      "Heat-set threaded insert: a brass insert melted into the print gives strong, reusable metal threads, better for small sizes and frequent use",
+      "Captive nut pocket (nut trap): a metal nut held in a printed hex pocket; metal-on-metal threads that last, at the cost of a slot or pocket in the part",
+      "Self-tapping screw into plastic (thread-forming screw): no thread is modelled; the screw forms its own in a plain hole; simple but wears out after a few uses",
+      "Press-fit and expanding inserts (tap-in insert): metal threads pushed into a hole without heat",
+      "Bayonet mount (push-and-twist lock) and interrupted-screw lock: quicker to close than a full thread, often used instead of threads on lids and camera mounts",
+      "Push-and-turn child-resistant cap: a screw cap with an extra locking layer",
+      "Lead screw and nut: a thread designed to move something precisely rather than to hold it",
+      "Ordinary screw joint (bolt and nut): the metal baseline that printed threads imitate"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Lead_and_pitch_in_screws.png",
+        "title": "Lead and pitch in screws (Wikimedia Commons, from Oberg et al., Screw Thread Cutting, 1910)",
+        "shows": "Diagram of single-start and multi-start threads showing that the lead (distance moved per turn) equals the pitch times the number of starts",
+        "license": "Public domain (published in the USA before 1923)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Screw_thread_forms.png",
+        "title": "Screw thread forms (Wikimedia Commons, from C. L. Svenson, Essentials of Drafting, 1919)",
+        "shows": "Cross-sections of seven common thread shapes (V, square, Acme/trapezoidal, buttress, knuckle and others), useful for choosing a print-friendly profile",
+        "license": "Public domain in the USA (published 1919); may not be public domain in some other countries"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Duran_Group_GL45_thread_PBT_screw_caps_with_PTFE_coated_seal.jpg",
+        "title": "Duran Group GL45 thread PBT screw caps with PTFE coated seal (Wikimedia Commons, by Lucasbosch)",
+        "shows": "Close-up photo of plastic screw caps showing the internal thread and the separate seal ring that makes a screw cap watertight",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=HgEEtk85rAY",
+        "title": "A better way to add threads to your 3D prints (YouTube, Made with Layers / Thomas Sanladerer)",
+        "shows": "Video comparing ways to add threads to prints (printed threads, self-tapping, heat-set inserts, nuts, self-forming threads) with strength ratings; summarised by Hackaday on 2025-01-11 and written up on toms3d.org",
+        "license": "link only (standard YouTube licence)"
+      },
+      {
+        "url": "https://productdesignonline.com/fusion-360-tutorials/3d-printed-threads-model-them-in-fusion-360/",
+        "title": "3D Printed Threads - Model Them in Fusion 360 (Product Design Online, Practical Prints #2)",
+        "shows": "Step-by-step tutorial with screenshots and video: turning on modelled threads, offsetting the thread faces for clearance, and filleting thread edges",
+        "license": "link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/81211-m3-m10-3d-printed-thread-test",
+        "title": "M3 - M10 3D Printed Thread Test (CNC Kitchen, Printables)",
+        "what_it_is": "Test block with printed threads from M3 to M10 to find which sizes your printer and filament can print well enough to take a metal bolt. Details read through the Printables public API; URL seen in search results.",
+        "license": "CC BY (Creative Commons Attribution)"
+      },
+      {
+        "url": "https://www.printables.com/model/9184-thread-test",
+        "title": "Thread test (Wilko, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Test pieces for trying different thread types and offsets, with the Fusion 360 file included; used by the designer for printed screw clamps and G-clamps. Printed without supports at 0.2 mm layers.",
+        "license": "CC BY (Creative Commons Attribution)"
+      },
+      {
+        "url": "https://www.printables.com/model/257973-parametric-screw-top-container",
+        "title": "Parametric Screw Top Container (jq910, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Fusion 360 parametric screw-top container; default 0.75 mm thread parameters for 0.2 mm layers; the designer printed them in PLA with 0.2 mm tolerance and advises printing a small 20 x 10 mm container first to tune the tolerance.",
+        "license": "CC BY-SA (Creative Commons Attribution-ShareAlike)"
+      },
+      {
+        "url": "https://www.printables.com/model/29293-threaded-jar",
+        "title": "Threaded Jar (Tom, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Small screw-top jars (30 mm and 60 mm wide) printed without supports; the designer advises screwing the lid back and forth a few times to wear the thread in. Blender file included.",
+        "license": "CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike)"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/threading.scad",
+        "title": "BOSL2 threading.scad (OpenSCAD library)",
+        "what_it_is": "Parametric threaded rods and nuts: ISO/UTS, trapezoidal (Acme), buttress, square, pipe, garden-hose and ball-screw threads, with blunt starts, multi-start threads and printer clearance ($slop)",
+        "license": "BSD 2-Clause"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/bottlecaps.scad",
+        "title": "BOSL2 bottlecaps.scad (OpenSCAD library)",
+        "what_it_is": "Generators for caps and necks that fit standard PCO 1810/1881 drink bottles, SPI bottles and jars, and mason jars, plus bottle-to-bottle adapters",
+        "license": "BSD 2-Clause"
+      },
+      {
+        "url": "https://github.com/DurbansPoison/Fusion-360-FDM-threads",
+        "title": "Fusion-360-FDM-threads (Daniel Sherman, GitHub)",
+        "what_it_is": "Custom thread definitions for Fusion 360 made for FDM printing: trapezoidal profiles with 50-90 degree thread angles and clearance classes named by their offset in mm (e.g. 0.100e / 0.100i). README read on raw.githubusercontent.com.",
+        "license": "BSD 3-Clause"
+      }
+    ],
+    "diagram_idea": "A cut-away of a printed lid on a jar neck: frame 1 shows the thread ridges with a small coloured gap (clearance) between them and the layer lines stacked horizontally; frame 2 compares a sharp 60-degree thread (steep, droopy overhang) with a 90-degree or trapezoidal thread (45-degree faces); frame 3 shows a chamfered, blunt-start first turn guiding the lid on straight, and a gasket ring under the lid for sealing.",
+    "sources": [
+      "https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/",
+      "https://www.protolabs.com/resources/blog/threading-and-inserts-for-3d-printing/",
+      "https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/",
+      "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+      "https://productdesignonline.com/fusion-360-tutorials/3d-printed-threads-model-them-in-fusion-360/",
+      "https://toms3d.org/2025/01/14/a-better-way-to-add-threads-to-your-3d-prints/",
+      "https://hackaday.com/2025/01/11/comparing-ways-to-add-threads-to-your-3d-prints/",
+      "https://hackaday.com/tag/printed-threads/",
+      "https://www.youtube.com/watch?v=HgEEtk85rAY",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12787388/",
+      "https://www.cnckitchen.com/blog/how-to-use-threaded-inserts-in-resin-3d-prints",
+      "https://www.cnckitchen.com/blog/helicoils-threaded-insets-and-embedded-nuts-in-3d-prints-strength-amp-strength-assessment",
+      "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9147248/",
+      "https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf",
+      "https://www.snapmaker.com/blog/3d-printing-threads/",
+      "https://meshra.ai/blog/design-3d-printed-threads",
+      "https://thirtythreedown.com/2026/07/16/we-had-almost-solved-3d-printed-threads-i-took-them-to-the-finish-line/",
+      "https://en.wikipedia.org/wiki/Screw_thread",
+      "https://en.wikipedia.org/wiki/Buttress_thread",
+      "https://en.wikipedia.org/wiki/Screw_cap",
+      "https://commons.wikimedia.org/wiki/File:Lead_and_pitch_in_screws.png",
+      "https://commons.wikimedia.org/wiki/File:Screw_thread_forms.png",
+      "https://commons.wikimedia.org/wiki/File:Duran_Group_GL45_thread_PBT_screw_caps_with_PTFE_coated_seal.jpg",
+      "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/threading.scad",
+      "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/bottlecaps.scad",
+      "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/constants.scad",
+      "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE",
+      "https://raw.githubusercontent.com/DurbansPoison/Fusion-360-FDM-threads/master/README.md",
+      "https://raw.githubusercontent.com/DurbansPoison/Fusion-360-FDM-threads/master/LICENSE",
+      "https://api.printables.com/graphql/",
+      "https://www.printables.com/model/81211-m3-m10-3d-printed-thread-test"
+    ]
+  },
+  "uncertain": [
+    "special_behaviour",
+    "input_output",
+    "reuse_cycles",
+    "seal",
+    "materials",
+    "safety_notes"
+  ]
+}

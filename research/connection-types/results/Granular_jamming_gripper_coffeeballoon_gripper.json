@@ -1,0 +1,182 @@
+{
+  "identity": {
+    "plain_name": "A balloon full of ground coffee that you press onto an object so it squishes around it, then suck the air out so it goes rock-hard and grabs the object; let the air back in and it lets go",
+    "term": "Granular jamming gripper (universal jamming gripper)",
+    "aliases": [
+      "coffee-balloon gripper or coffee gripper",
+      "universal gripper or universal robotic gripper",
+      "jamming gripper or vacuum jamming gripper",
+      "bean-bag gripper or bag gripper",
+      "positive-pressure jamming gripper (a version that also blows air in to reset and release)",
+      "granular gripper or granular-jamming soft gripper",
+      "VERSABALL (Empire Robotics, brand)"
+    ],
+    "family": "powered & active connectors",
+    "other_families": [
+      "clamping, magnetic & friction connections"
+    ],
+    "one_liner": "A soft rubber bag filled with grains such as ground coffee that flows around an object when pressed onto it, then locks rigid and grips it when a pump sucks the air out, and softens and lets go when air is let back in.",
+    "complexity": "A small assembly that acts as one unit: a stretchy airtight bag (often a latex party balloon), loose grains inside it (ground coffee is the usual choice), a filter so grains aren't sucked out, a rigid base or funnel with a hose connection, and a vacuum source (pump, venturi or even a large syringe) with a valve; better versions add a rigid collar round the bag and a compressed-air port to reset it (Brown et al. 2010; Amend et al. 2012: 12 components including five screws).",
+    "how_it_works": "Loose grains in a bag behave almost like a liquid, so when the soft bag is pressed onto an object it flows around it and takes its shape. When the air is pumped out, the outside air pressure squeezes the bag and the grains lock against each other (a 'jamming transition'), so the bag goes solid; a volume change of under 0.5 % is enough (Brown et al. 2010). The hardened bag then holds the object in three ways: friction from the bag pinching around it, suction where the rubber seals onto a smooth surface, and interlocking where it has wrapped around bumps or more than half-way round the object (Brown et al. 2010). Letting air back in unjams the grains so the bag softens and lets go, and a short puff of compressed air resets it faster, or even shoots the object away (Amend et al. 2012; Make:)."
+  },
+  "finder_attributes": {
+    "job": [
+      "hold or release using power: it holds only while the bag is under vacuum and lets go when air is let back in (Brown et al. 2010)",
+      "join and hold: picks up, carries and places objects of almost any shape, including several at once without changing their spacing (Brown et al. 2010; Amend et al. 2012)"
+    ],
+    "motion": "flex: the soft bag squashes and flows around the object before it is jammed; once the vacuum is on there is no motion (Brown et al. 2010)",
+    "degrees_of_freedom": "0 while jammed: the object is held rigidly. Before jamming, the researchers describe the bag as like a robot hand with an unlimited number of joints, which are set passively by touching the object and all locked by a single active part, the pump (Brown et al. 2010)",
+    "special_behaviour": [
+      "self-aligning or self-centring (shape-adapting): the bag moulds itself to the object without sensors or planning, and still grips objects up to about 30 mm off-centre for a 25 mm radius hemisphere (Amend et al. 2012)",
+      "quick-release: letting air back in softens the bag and drops the object; a 0.1 s puff of compressed air resets the bag and can throw small objects about 0.6 m (Amend et al. 2012; Make:)"
+    ],
+    "holding_principle": [
+      "jamming (grains lock up under load): pumping the air out lets outside air pressure squeeze the grains until they can't slide (Brown et al. 2010)",
+      "friction or clamping (force-fit): the slightly shrinking bag pinches the object like an O-ring (Brown et al. 2010)",
+      "suction or air pressure: where the rubber seals on a smooth surface, a vacuum forms as the object is pulled, giving about 10 times the holding force of a non-sealing object (Brown et al. 2010)",
+      "shape (the parts interlock; form-fit): when the bag wraps more than half-way round an object or around its bumps (Brown et al. 2010)",
+      "powered hold: the vacuum must be kept on (Brown et al. 2010)"
+    ],
+    "input_output": "not applicable",
+    "power": "powered: needs a vacuum pump, a venturi aspirator on compressed air, or a hand-worked syringe (Brown et al. 2010; Schertz); a positive-pressure version also needs compressed air to reset (Amend et al. 2012). If the vacuum is lost the grains unjam, the bag softens and the object is released (Brown et al. 2010)",
+    "removability": "tool-free quick release: the object drops as soon as air is let back into the bag (Brown et al. 2010; Make:)",
+    "reuse_cycles": "many times: in several hundred research tests the latex bag never failed and showed no visible wear, though the researchers name the durability of a single latex skin as a concern (Amend et al. 2012)",
+    "tools_needed": "none to operate; to build: scissors or a knife, a funnel, duct tape and a hose (Make:), or a 3D printer, screws, PTFE tape and silicone sealant for a printed housing (Hackaday.io, Team Automata)",
+    "seal": "airtight or pressure: the bag and its connections must be airtight so the vacuum holds; the balloon is pinched between a printed base and collar, or taped and sealed (Amend et al. 2012; Hackaday.io, Team Automata; Make:)",
+    "load": "light to medium: holding forces are many times the weight of hand-sized objects (Brown et al. 2010); holding force grows roughly with vacuum level and with gripper size squared, and objects that seal against the bag are held about 10 times harder (Brown et al. 2010). A commercial version (VERSABALL, brand) was rated for objects up to 9 kg (New Atlas). Resists sideways forces and twisting as well as pull, mainly by friction (Brown et al. 2010). Weak on thin flat objects, very soft objects and objects too large for the bag to wrap round (Brown et al. 2010; Amend et al. 2012)",
+    "adjustable": "yes: grip strength rises with the vacuum level, because the jammed grains get stiffer (Brown et al. 2010); the amount of fill, the grain type and the bag material also change how well it conforms and holds (Brown et al. 2010; Howard et al. 2021)",
+    "play_and_precision": "Play: once jammed, the object is held firmly, but position is set by where the bag happened to mould. In tests on a robot arm, a positive-pressure jamming gripper placed an 18 mm radius hemisphere within about 1 mm on average (±1.00 mm, 95 % confidence) and turned it by about 7.5° on average (Amend et al. 2012). Misalignment: very tolerant, gripping hemispheres up to about 30 mm off-centre (Amend et al. 2012); it doesn't need to be positioned precisely (Brown et al. 2010)",
+    "access_needed": "one side only (blind): it is pressed onto the object from one side, but the bag must reach far enough round the sides (a contact angle of more than about 45°) to get a grip (Brown et al. 2010)",
+    "materials": "Bag: a thin latex party balloon (0.3-0.33 mm thick in the research grippers) or silicone skins (Brown et al. 2010; Amend et al. 2012; Machines 2024 study). Grains: ground coffee (light and jams well; the usual choice), glass beads 0.1-1 mm, rice, couscous, ground-up tyres, BBs (small shooting pellets), and custom 3D-printed grains; sand jams better but is too heavy (Cornell Chronicle; Brown et al. 2010; Howard et al. 2021; Hackaday). Housing, base and collar: 3D-printed plastic or a cut-down kitchen funnel (Amend et al. 2012; Make:). Grips rigid objects of almost any shape: springs, raw eggs, coins, batteries, pens, LEDs, foam ear plugs (Brown et al. 2010; Amend et al. 2012; Schertz)",
+    "maker_difficulty": "easy: a balloon, ground coffee, a funnel, cloth or a coffee filter and a syringe or reversible air pump make a working gripper in 1-3 hours (Make: rates it 'Easy'; Schertz spent about $12); a robot-ready version with a printed housing, pump and valve is moderate (Hackaday.io, Team Automata)"
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: balloon, ground coffee, funnel, filter cloth, syringe, air pump and valves (Make:; Schertz); commercial grippers were also sold (VERSABALL, brand) (New Atlas)",
+      "3D print (FDM): base, collar, housing and tubing adapter (Amend et al. 2012; Hackaday.io, Team Automata)",
+      "3D print (resin): custom-shaped grains printed on a PolyJet printer in research (Howard et al. 2021)"
+    ],
+    "print_in_place": "partly: the rigid base, collar or housing prints in one piece, but the balloon, grains, filter, tubing and vacuum source are added (Amend et al. 2012; Hackaday.io, Team Automata)",
+    "making_tips_3d_printing": "1) Housing: print a base and a separate collar that pinch the balloon's rim between them to make an airtight seal; the collar also guides the bag round the sides of objects, which increases grip (Amend et al. 2012). Make the housing airtight: use at least 3-4 perimeters, a slightly higher temperature and 5-10 % more flow (Prusa 'Watertight prints'). 2) Seal the hose nozzle: wrap it in PTFE (Teflon) tape, clamp it, and seal round it with silicone caulk before fitting it (Hackaday.io, Team Automata). 3) Filter: put a coffee filter, breathable cloth or a 1/4 in barbed inline filter between the grains and the hose so grains aren't sucked into the pump; a breathable filter lets air move quickly (Make:; Schertz; Hackaday.io, Team Automata; Amend et al. 2012). 4) Filling: stretch the balloon over a short tube, spoon in a tablespoon of coffee, blow into the tube (or use compressed air) so the coffee drops into the balloon, pinch and let the air out slowly, and repeat (Make:; Hackaday.io, Team Automata). Fill it almost completely but don't stretch it, so the grains stay loose; the research gripper used 350 cm³ of coffee in a bag about 43 mm in radius (Amend et al. 2012; Brown et al. 2010). 5) Grains: small grains mould to fine detail better, but very fine powders stick, flow poorly and take longer to pump out; coffee is a good light compromise (Brown et al. 2010; Cornell Chronicle). 6) Mounting: printed housings can include a T-slot mount for aluminium extrusion (Hackaday.io, Team Automata).",
+    "off_the_shelf_parts": "Latex balloons (about 12 in party balloons), ground coffee, coffee filter or thin breathable cloth, 3 in kitchen funnel, 100 mL syringe (Make:; Schertz); 1/4 in barbed inline air filter, 1/4 in and 3/32 in tubing, 12 V air pump with a servo-switched direction control valve (Hackaday.io, Team Automata); reversible air pump (Make:); solenoid valves and a venturi aspirator on compressed air, or a laboratory vacuum pump (Brown et al. 2010; Amend et al. 2012). Commercial grippers: VERSABALL (Empire Robotics, brand) (New Atlas).",
+    "rules_of_thumb": [
+      "Fill the bag almost completely but without stretching it, so the grains stay loose and the bag is soft when not under vacuum; e.g. 350 cm³ of ground coffee in a 0.33 mm latex bag about 43 mm in radius (Amend et al., IEEE Transactions on Robotics 2012; Brown et al., PNAS 2010)",
+      "A vacuum of about 75-85 kPa below atmospheric works well: Brown et al. used about 75 kPa (roughly a quarter of an atmosphere left in the bag, 'easily reachable with a small vacuum pump'); Amend et al. counted the grip complete at -85 kPa, reached in 1.1 s. Holding force is roughly proportional to the vacuum level (Brown et al. 2010; Amend et al. 2012)",
+      "The bag must reach round the object: gripping starts only when the bag touches the object at more than about 45° (contact angle above π/4, set by rubber's friction coefficient of about 1), and holding force rises sharply above that; wrapping past half-way (90°) adds interlocking (Brown et al. 2010)",
+      "Size limit: without a positive-pressure reset, success falls off sharply once the object's radius reaches about 65 % of the gripper's radius (Amend et al. 2012); hemispheres larger than about half the gripper and thin disks lying flat couldn't be picked up (Brown et al. 2010)",
+      "Smooth, airtight object surfaces are held about 10 times harder than porous or powdered ones, because the rubber seals and adds suction (Brown et al. 2010, Fig. 2)",
+      "Reset between grips: without kneading the bag back to an even shape or blowing air in, the grip on the next object gets worse quickly; a 0.1 s burst of compressed air resets it and improved reliability by up to 85 % and position-error tolerance by up to 25 % (Amend et al. 2012)",
+      "Grain choice: finer grains conform better, but very fine powders stick and flow poorly, and pumping time rises because air flow through the grains scales with grain diameter squared (Brown et al. 2010); coffee is light but jams well, while sand jams better but is too heavy (Cornell Chronicle 2010). Grain shape and size strongly affect grip and there is no single best shape (Howard et al. 2021)"
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "A vacuum-packed brick of coffee, which is rock-hard until the pack is opened and then pours like a liquid (Cornell Chronicle; Make:)",
+      "A bean bag, which moulds to whatever presses on it (the gripper is often called a 'bean bag' gripper) (Hackaday)",
+      "Factory robot grippers sold as VERSABALL (brand) (New Atlas)"
+    ],
+    "when_to_use": "Use it when a robot must pick up many different, unfamiliar or oddly shaped rigid objects without sensors, grasp planning or precise positioning; for fragile things such as raw eggs; to pick up several objects at once while keeping their spacing; or when you want a cheap, soft, easily built gripper for a hobby robot arm (Brown et al. 2010; Amend et al. 2012). Its sealed construction also suits wet or messy work and is easy to clean (Amend et al. 2012).",
+    "when_not_to_use": "Avoid it for thin flat objects lying flat, very soft objects such as cotton balls, and objects too big for the bag to wrap round (Brown et al. 2010); for small or thin parts such as screws, nuts or micro SD cards, which a simple gripper may fail to grip (Schertz); and for heavier smooth objects with no edges to grip (Hackaday, James Bruton's build). Use a vacuum gripper for flat smooth parts, mechanical jaws for precise placement or heavy loads, and fin-ray fingers when you need a soft grip without a pump. It is also slower than a suction cup, taking about a second to jam (Amend et al. 2012).",
+    "environment_limits": "Jamming itself doesn't depend on temperature, so the bag material sets the limits (Amend et al. 2012): a natural-rubber (latex) bag is rated roughly -25 to +80 °C long-term and has poor ozone and oil resistance, while silicone rubber manages roughly -30 to +180 °C (Schmalz material overview, for rubber suction cups). The airtight bag suits wet or dirty environments (Amend et al. 2012). Latex ages and can split with use and sunlight [uncertain]; damp coffee grounds may clump or go mouldy, so keep the fill dry [uncertain].",
+    "safety_notes": "Latex balloons can trigger allergic reactions in people with latex allergy (Wikipedia 'Latex allergy'); use a silicone skin instead. A positive-pressure blast can shoot objects across the room (Make:), about 0.6 m in tests (Amend et al. 2012), so aim it safely. Treat compressed-air lines with care. Otherwise it is gentle: its soft state between grips may make it safer near people than hard grippers (Amend et al. 2012).",
+    "common_failures": "Grains sucked into the pump: fit a filter at the bag outlet (Make:; Amend et al. 2012). Leaks at the balloon neck or hose: pinch the balloon between a base and collar, or seal with tape, PTFE tape and silicone (Amend et al. 2012; Hackaday.io, Team Automata; Schertz). Weak grip after a few picks: the bag isn't reset, so knead it or blow air in between grips (Amend et al. 2012). Weak grip because the bag was not pressed far enough round the object: press harder or partly inflate the bag first so the grains flow (Make:; Amend et al. 2012). Small, thin or smooth heavy objects slip out (Schertz; Hackaday). Bag overfilled and stretched, so it can't mould round objects (Brown et al. 2010). Punctured or worn latex skin (Amend et al. 2012 name durability as a concern); keep sharp objects away [uncertain].",
+    "related": [
+      "Vacuum (suction) gripper: a rubber cup that holds smooth, flat objects by suction; faster, but needs a surface it can seal on",
+      "Fin-ray gripper: soft printed fingers that curl round objects without any pump",
+      "Pin-array (bed-of-nails) gripper: many sliding pins that passively conform to an object's shape (Amend et al. 2012)",
+      "Underactuated finger grippers: jointed fingers driven by few motors that also wrap round objects (Amend et al. 2012)",
+      "Suction cup (passive): holds smooth surfaces without power but can't grip odd shapes",
+      "Posable segmented arm (gooseneck): also stays in any shape, but by friction in its joints rather than by vacuum jamming"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZKOI_lVDPpw",
+        "title": "Robotic grippers based on granular jamming (CornellCCSL, YouTube)",
+        "shows": "Video introducing the coffee-balloon gripper picking up a range of objects (title and channel confirmed via YouTube oEmbed; video not watched)",
+        "license": "link only"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=0d4f8fEysf8",
+        "title": "Universal Gripper: Grabbing, Drawing, & Pouring (The University of Chicago, YouTube)",
+        "shows": "Video of the jamming gripper holding a pen to draw and pouring water from a glass (title and channel confirmed via YouTube oEmbed; video not watched)",
+        "license": "link only"
+      },
+      {
+        "url": "https://makezine.com/projects/universal-robot-gripper/",
+        "title": "Universal Robot Gripper (Jason Poel Smith, Make:)",
+        "shows": "Step-by-step photos of building a balloon, coffee and funnel gripper and using it",
+        "license": "link only (not shown)"
+      },
+      {
+        "url": "https://arxiv.org/pdf/1009.4444",
+        "title": "Universal Robotic Gripper based on the Jamming of Granular Material (Brown et al., arXiv version of the PNAS 2010 paper)",
+        "shows": "Photos of the gripper on a robot arm, a schematic of the gripping sequence, and graphs of holding force against contact angle and vacuum",
+        "license": "link only (arXiv)"
+      },
+      {
+        "url": "https://hackaday.io/project/158551-modular-universal-jamming-gripper",
+        "title": "Modular Universal Jamming Gripper (Arizona Makers Collective, Hackaday.io)",
+        "shows": "Photo gallery, parts list and build logs of a 3D-printed jamming gripper with a pump-and-valve control box",
+        "license": "link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://makezine.com/projects/universal-robot-gripper/",
+        "title": "Universal Robot Gripper (Make:)",
+        "what_it_is": "Beginner build (rated Easy, 1-3 hours) using a balloon, ground coffee, a cut-down funnel, cloth filter, tape and a reversible air pump",
+        "license": "[uncertain] (not shown)"
+      },
+      {
+        "url": "https://hackaday.io/project/158551/instructions",
+        "title": "Modular Universal Jamming Gripper instructions (Hackaday.io)",
+        "what_it_is": "Seven-step instructions for a printed, T-slot-mountable jamming gripper with an Arduino-controlled 12 V pump and servo-switched valve; STL files and code are in the linked GitHub repository",
+        "license": "[uncertain] (not stated on the pages read)"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Team-Automata/Modular-Universal-Jamming-Gripper/master/README.md",
+        "title": "Modular-Universal-Jamming-Gripper README (Team Automata, GitHub)",
+        "what_it_is": "Repository with the CAD, STL files and Arduino code for the Hackaday.io gripper",
+        "license": "[uncertain] (not stated in the README)"
+      },
+      {
+        "url": "https://joshschertz.com/2017/09/01/Jamming-Gripper/",
+        "title": "Jamming Gripper (Josh Schertz)",
+        "what_it_is": "Hand-operated prototype from a 100 mL syringe, 12 in balloon, funnel, coffee filter and coffee (about $12), with test results on small parts",
+        "license": "[uncertain] (not stated)"
+      }
+    ],
+    "diagram_idea": "Three side-view frames: a soft coffee-filled balloon above a toy; the balloon pressed down and flowing round the toy; then the air pumped out with arrows squeezing the bag, grains drawn packed tight, and the toy lifted, plus a fourth frame with air blowing back in and the toy dropping.",
+    "sources": [
+      "https://arxiv.org/pdf/1009.4444",
+      "https://jfi.uchicago.edu/~jaeger/group/Soft_Robotics/Details/Entries/2012/2/18_Universal_Jamming_Gripper_-_Gen_II.html",
+      "https://jfi.uchicago.edu/~jaeger/group/JaegerGroupPapers/granular/TRO2171093.pdf",
+      "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/TRO.2011.2171093?fields=title,abstract,authors,year,venue,openAccessPdf",
+      "https://www.creativemachineslab.com/jamming-gripper.html",
+      "https://news.cornell.edu/stories/2010/10/researchers-develop-universal-robotic-gripper",
+      "https://makezine.com/projects/universal-robot-gripper/",
+      "https://hackaday.com/2012/06/15/jamming-gripper-thats-super-easy-to-build/",
+      "https://hackaday.com/2021/05/04/robotic-gripper-from-a-squishy-ball/",
+      "https://hackaday.io/project/158551-modular-universal-jamming-gripper",
+      "https://hackaday.io/project/158551/instructions",
+      "https://raw.githubusercontent.com/Team-Automata/Modular-Universal-Jamming-Gripper/master/README.md",
+      "https://joshschertz.com/2017/09/01/Jamming-Gripper/",
+      "https://newatlas.com/versaball-robotic-gripper/30442/",
+      "https://arxiv.org/pdf/2104.04171",
+      "https://api.crossref.org/works?query.bibliographic=Universal+Jamming+Gripper+Experimental+Analysis+on+Envelope+and+Granular+Materials&rows=2",
+      "https://en.wikipedia.org/wiki/Jamming_(physics)",
+      "https://en.wikipedia.org/wiki/Latex_allergy",
+      "https://media.schmalz.com/MAM_Library/Dokumente/Auswahlhilfen/VA/272fbdc64cc1_Document_Selection_Guidelines_Material_Suction_Cup_EN_2025.pdf",
+      "https://help.prusa3d.com/article/watertight-prints_112324",
+      "https://www.youtube.com/watch?v=ZKOI_lVDPpw",
+      "https://www.youtube.com/watch?v=0d4f8fEysf8"
+    ]
+  },
+  "uncertain": [
+    "environment_limits",
+    "common_failures",
+    "make_it_yourself"
+  ]
+}

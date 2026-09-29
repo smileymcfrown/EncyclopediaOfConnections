@@ -4,9 +4,9 @@
 > what has been decided, and where things currently stand.
 > **Every working session should read this first and update it before finishing.**
 
-**Last updated:** 2026-09-26
-**Current phase:** Phase 0 — Research (run 1 done; run 2 next)
-**Next action:** Run `research/prompts/02-connection-types.md`, starting from the type list in `research/prior-art/summary.md` section 2 (all 23 families, including the two added in R13)
+**Last updated:** 2026-09-29
+**Current phase:** Phase 0 — Research (runs 1 and 2 done; run 2 waiting for the owner's review)
+**Next action:** Owner reviews run 2: skim `research/connection-types/report.md` (index, with contents by family and by special behaviour) and the family pages in `report/`, then `review-notes.md` (fixes needed before publishing, and 3 possible extra items). Confirm the families and fields, and say whether to add the extra items with `/research-add-items`. Then start run 3 (`research/prompts/03-flowchart-and-format.md`). Run 2 is in PR #3 (branch `claude/nice-knuth-wo4ou5`), waiting to be merged into `main`
 
 ---
 
@@ -90,6 +90,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R14 | 2026-09-26 | License the project's own content as CC BY-SA, as run 1 suggested | Decided (recorded below). Add a LICENSE file when content is published |
 | R15 | 2026-09-26 | **Scope:** CNC, laser-cut, woodworking and sheet-metal joinery are in scope from day one (they were never out, just lowest priority) | Done: Priorities and run 2 prompt updated; run 1 topped up with 6 joinery items and `summary.md` section 2.20 rewritten |
 | R16 | 2026-09-26 | Working title is *The Encyclopaedia of Connections*; no final name or domain yet | Recorded |
+| R17 | 2026-09-26 | Run 2 (connection types): build the outline, then `/research-deep` with a commit and push after each batch, then `/research-report` with family, special_behaviour and motion in the contents; update PROJECT.md at the end | Done 2026-09-29: 274 of 274 items researched and validated; report generated |
+| R18 | 2026-09-26 | Keep all 274 items and all 41 fields; leave borderline types (electrical joints, plastic welding) out for now | Done: recorded in `research/connection-types/outline-notes.md` |
 
 ---
 
@@ -106,6 +108,11 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-26 | The project's own content will be licensed **CC BY-SA** (version to confirm when publishing; 4.0 matches Wikipedia) | Lets entries reuse Wikipedia text, most Wikimedia Commons media and WikiHouse material with credit. Non-commercial sources (gm0, DT Online, Gros, Wolfram demos) are linked, not copied (R14) |
 | 2026-09-26 | Joinery for CNC, laser cutting, woodwork and sheet metal is a full family from day one, still ranked last by making method | Owner clarification (R15). Run 1 covered Japanese and digital (CNC) wood joints, laser-cut joint research and Boxes.py, but not Western woodworking joint references or sheet-metal and laser-cut design guides; a small top-up of run 1 can fill that |
 | 2026-09-26 | Working title: *The Encyclopaedia of Connections* (British spelling). Repo, file names and other docs keep "Encyclopedia" for now | Owner (R16). Final name and domain still open |
+| 2026-09-26 | Run 2 outline: 274 types in 3 priority tiers (tier 1 = unusual and 3D-printable or robotics, 142 items; tier 2 = other unusual, joinery last; tier 3 = one baseline per family) | Owner confirmed (R18). Research order = priority, so stopping early still covers what matters most |
+| 2026-09-26 | Families are now 25: added **seals & pass-throughs** and **brakes, dampers & speed control**; renamed sliding (…& linear motion), magnetic (clamping, magnetic & friction), cord (…webbing & textile hardware), springs (& energy storage) | The `seal` finder field had no entries that seal; brakes and dampers had no home (web-search pass). Owner confirmed |
+| 2026-09-26 | 14 new fields (41 in all), merged into `research/fields/connection-types.fields.yaml`; existing fields and allowed values unchanged. New finder fields: `job`, `holding_principle`, `input_output`, `play_and_precision`, `access_needed`, `print_in_place`, `materials`, `maker_difficulty` | `job` and `holding_principle` come from run 1's best classification ideas (by job; form-fit / force-fit / material bond) and answer the flow chart's first questions. Owner confirmed |
+| 2026-09-26 | Research rules live in `fields.yaml` (`research_rules`): no unofficial copies of in-copyright books; Printables links not opened must say so; vendor-blog numbers need a second source | Problems found in agents' reports during batches 1-2 (see `research/connection-types/review-notes.md`) |
+| 2026-09-26 | The run 2 report drops unverified *sentences or list items* (marked `[uncertain]`), not whole fields; `--strict` gives run 1's behaviour | About 7 of 41 fields per entry carry a marker, often on one claim only; dropping whole fields would lose about a sixth of the content |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
 | 2026-09-25 | Research recommends the final format (static site vs markdown, etc.) | Owner has no preference yet. A free static host is the working assumption |
 | 2026-09-25 | Priority order for making methods: 3D printing, then robotics/mechanisms, then everyday hardware | Owner preference |
@@ -121,7 +128,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 ### Phase 0 — Research
 - [x] Choose the research tool and set it up (Weizhena/Deep-Research-skills, copied into the repo)
 - [x] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names (54 collections done 2026-09-25; 6 joinery items added 2026-09-26)
-- [ ] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/`
+- [x] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/` (274 types in 25 families, 41 fields each; done 2026-09-29)
 - [ ] Review run 2 with the owner. Confirm the families and fields
 - [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
 - [ ] Expand families where there are gaps (`research/prompts/expand-a-family.md`)
@@ -148,7 +155,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
 | 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25; joinery top-up 2026-09-26. 60 of 60 items researched and validated (34 fields each) |
-| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` | Not started. Ready: start from `research/prior-art/summary.md` section 2 |
+| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | Done 2026-09-29. 274 of 274 items researched and validated (41 fields each; about 24 sources per entry). Report: `research/connection-types/report.md` (index; contents show family, special behaviour and motion) + `report/` (one page per family). Unverified sentences (marked `[uncertain]`, on average 6 of 41 fields per entry) are left out of the report but kept in the JSON. Fixes needed before publishing are in `review-notes.md`. The usage limit interrupted the run six times; each time the cut-off agents were relaunched and any files they had written were checked |
 | 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
 
 ---
@@ -172,3 +179,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-26 | Owner put CNC / laser / woodwork / sheet-metal joinery in scope from day one (R15) and set the working title (R16). Updated Priorities, open questions, decisions and the run 2 prompt |
 | 2026-09-26 | Topped up run 1 with 6 joinery items (woodworking books and web guides, knock-down connectors, sheet-metal, laser-cut and CNC guides) via `/research-add-items` and 3 agents; all 60 results validate. Rebuilt `report.md`; `summary.md` now has a full joinery family (2.20: woodwork, knock-down, CNC, laser-cut and sheet-metal joints), extra joinery sources, schemes and licences, and the remaining joinery gaps |
 | 2026-09-26 | Merged the two prompt-layout commits left on `claude/confident-bardeen-mru9m6` (resolved conflicts in PROJECT.md and the run 2 prompt, keeping the new layout and this session's scope changes). Opened PR #2 to bring everything into `main`; run 2 should start in a new session from `main` after it merges |
+| 2026-09-26 | Started run 2 on `claude/nice-knuth-wo4ou5`. `/research` built the outline from run 1's type list plus one web-search pass (98 pages; added seals, brakes, linkage ends, tube and extrusion fixings and more): 274 types, 25 families, 41 fields; owner confirmed. `/research-deep` batches 1-3 done (54 items, all validated, pushed after each batch); batch 4 was cut off by the usage limit and relaunched. Agents' problems are collected in `review-notes.md`; research rules tightened after batch 2. Report generator written |
+| 2026-09-27 | Run 2: tier 1 complete (items 1-142, plus 143-144). Interim report generated and split into an index plus 25 family pages (a single file would be over 3 MB). Outline descriptions of *Constant-force spring* and *Linear ratchet* corrected after the agents found errors. More research rules: each agent keeps its files in its own scratchpad subfolder |
+| 2026-09-27 | Run 2 continued: batches 4-6 done (108 of 274 items; tier 1 is items 1-142). The usage limit stopped the agents twice; each time the cut-off batch was relaunched (no partial files). New research rules: no personal details in requests (an agent had put part of the owner's email username in a User-Agent header; nothing was stored), and check every number against the raw page text (a WebFetch summary had invented figures) |
+| 2026-09-27 | Run 2 continued to 202 of 274 (tier 2: tube and panel fixings, dampers, brakes, gears and linkages). The commit script now commits every valid file after each agent finishes, so progress survives a cut-off; some files were first committed as drafts and updated later |
+| 2026-09-29 | Run 2 finished: all 274 items researched and validated (the last 72 after two more usage-limit cut-offs; files written before each cut-off were checked and kept). Fixed two entries whose `uncertain` lists missed marked fields. `/research-report` regenerated the report (index + 25 family pages; contents show family, special behaviour and motion). `review-notes.md` now also lists tier 2 and 3 findings: conflicting figures, errors in sources, naming clashes and manufacturer data sheets read from distributor sites. Removed two stray error-page files from the repo root and opened PR #3 to merge run 2 into `main` |
