@@ -54,7 +54,7 @@
   "making": {
     "processes": [
       "woodwork: the main use; router table or hand-held router with a dovetail bit, or hand tools (saw, chisel, guide block) (Fine Woodworking; DT Online)",
-      "CNC: a CNC router can cut the groove with a dovetail cutter; dovetail cutters can't plunge, so waste is cleared first with a straight bit (Fine Woodworking describes the same order on a router table) [uncertain for CNC-specific practice]",
+      "CNC: a CNC router can cut the groove with a dovetail cutter; dovetail cutters can't plunge, so waste is cleared first with a straight bit (Fine Woodworking describes the same order on a router table; CNC-specific practice [uncertain])",
       "3D print (FDM): slide-together rails, lids, modular drawers and mounts (Printables; Thingiverse)",
       "3D print (resin): dovetails suit SLA's sharp edges and smooth surfaces (Formlabs)",
       "off-the-shelf part: dovetail router bits (typically 7 to 14 degrees; Popular Woodworking) and ready-made dovetail rails and slides"
