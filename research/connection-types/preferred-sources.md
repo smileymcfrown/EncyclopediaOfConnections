@@ -9,6 +9,9 @@ specific page yourself. Never build a URL from a pattern without opening it.
 Licence key: **reuse** = content may be copied with credit (Wikipedia/Commons CC BY-SA,
 public-domain books, MIT/BSD code). **link** = link and cite facts in our own words only.
 
+For items 275-299 (added 2026-09-29), `gap-search-2026-09-29.md` lists the pages the search
+agent opened for each item; use them as a starting point.
+
 ## Everything (check for every entry)
 | Source | What it gives an entry | Start here | Licence |
 |--------|------------------------|------------|---------|

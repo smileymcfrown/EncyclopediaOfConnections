@@ -106,7 +106,7 @@ break validation; they are clean-ups for the report step or Phase 1.
   Cults3D, MyMiniFactory, BYU CMR site, ResearchGate, ScienceDirect, ASME, Eng-Tips, github.com
   HTML pages (raw files work), some forums.
 
-## Possible extra items (suggested by agents; add with `/research-add-items` if wanted)
+## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
   but it works differently (a sleeve twisted shut, no blades).
 - **Twisted-and-coiled polymer muscles** (heat-driven fishing-line actuators): listed under
