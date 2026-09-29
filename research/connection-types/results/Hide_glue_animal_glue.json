@@ -1,0 +1,169 @@
+{
+  "identity": {
+    "plain_name": "An old-fashioned brown glue made from boiled animal skin (the same stuff as jelly), melted in a warm water bath and brushed on hot; it grabs in about a minute as it cools, dries rock hard, and can later be softened again with heat and water so the parts come apart for repair",
+    "term": "Hide glue (animal glue, a protein glue made from collagen); supplied as hot hide glue (granules melted in a glue pot) or liquid hide glue (kept liquid with urea)",
+    "aliases": [
+      "animal glue, animal protein glue, protein glue, collagen glue (Wikipedia; Fine Woodworking; SkillCult)",
+      "hot hide glue, HHG (Old Brown Glue FAQ; Valley Woodworkers)",
+      "liquid hide glue, cold hide glue, premixed hide glue (Wikipedia; Fine Woodworking #129)",
+      "Scotch glue, pearl glue, cake glue (older British trade names for the dry forms; Rockler, Ian Kirby)",
+      "bone glue, rabbit-skin glue, fish glue and isinglass (close relatives made from bone, rabbit skin or fish; Wikipedia)",
+      "Glutinleim, Knochenleim (German for glutin glue and bone glue; Wikimedia Commons file names)",
+      "gelatin (the refined food-grade version of the same protein; Wikipedia; SkillCult)",
+      "Old Brown Glue (brand; liquid hide glue), Titebond Genuine Hide Glue / Titebond Liquid Hide Glue (brand), Milligan & Higgins 192 (brand of dry granules) (Old Brown Glue FAQ; Titebond; Fine Woodworking)"
+    ],
+    "family": "adhesives & bonding",
+    "other_families": [],
+    "one_liner": "Hide glue is a traditional glue made from boiled animal skin that is brushed on warm, grips as it cools and dries into a hard, non-creeping bond, and stays reversible, so heat and moisture can release the joint for repair years later.",
+    "complexity": "Single piece: one glue. Hot hide glue needs dry granules, water, a glue pot or double boiler kept at about 60 °C (140 °F), a thermometer and a brush. Liquid hide glue comes ready to use in a bottle (Popular Woodworking; Valley Woodworkers; Titebond).",
+    "how_it_works": "The glue is collagen, the protein in skin and bone, boiled out and dried into granules. Soaked in water and warmed to about 60 °C it becomes a runny syrup that soaks into wood fibres; as it cools below about 50 °C it turns to jelly (a gel), and then it slowly dries hard as its water soaks away or evaporates (Wikipedia; Old Brown Glue FAQ). While it gels it tacks up and shrinks, which pulls the joint tight, so two edges rubbed together can hold without clamps (a 'rubbed joint') (Wikipedia; Fine Woodworking, Patrick Edwards). Because nothing chemically cures, adding moisture and heat turns the dry glue back into gel and liquid, so the joint can be taken apart, and fresh hot glue re-wets and bonds to old hide glue (Old Brown Glue FAQ; Wikipedia). Liquid hide glue has urea added, which lowers the gel point from about 38 °C (100 °F) to about 27 °C (80 °F), so it stays liquid at room temperature and gives a long working time (Old Brown Glue FAQ)."
+  },
+  "finder_attributes": {
+    "job": [
+      "glue or bond: joins wood, veneer, paper, leather and cloth, mainly in furniture and musical instruments",
+      "join and hold: glue blocks and edge joints can be held by the glue's own quick tack without clamps (rubbed joint) (Fine Woodworking; Rockler)"
+    ],
+    "motion": "none: a rigid glued joint",
+    "degrees_of_freedom": "0: the glued parts are locked together",
+    "special_behaviour": [
+      "none of the listed behaviours strictly. Its own tricks: it is reversible (heat plus moisture turns it back to liquid, so joints can be taken apart and re-glued; Old Brown Glue FAQ), it sticks to itself (new glue bonds to old, so repairs need less cleaning; Wikipedia), it clamps itself as it gels and shrinks (rubbed joints and hammer veneering without clamps; Wikipedia; Fine Woodworking), and dried glue can be re-melted in place with a hot iron or palette knife to lay veneer or close a joint (Wikipedia)"
+    ],
+    "holding_principle": [
+      "material bond (glue, solvent or melting): the protein soaks into the wood surface and dries hard; Patrick Edwards describes it as a mechanical bond plus a molecular attraction to wood (Fine Woodworking)"
+    ],
+    "input_output": "not applicable",
+    "power": "passive (no power needed) to hold. Hot hide glue needs heat (a glue pot, hot plate or warm water bath) only while you apply it; liquid hide glue works at room temperature, although Old Brown Glue is meant to be warmed first (Popular Woodworking; Old Brown Glue FAQ).",
+    "removability": "semi-permanent (can be undone but may damage parts): a cured joint is rehydrated with moisture and then heated (steam, warm water, a hot palette knife) and comes apart, usually without damaging the wood; a sharp knock or a palette knife can also split a hide-glue joint cleanly along the glue line, which is how violin tops are removed. Steam and water can mark finishes (Old Brown Glue FAQ; Wikipedia). It is the most easily reversible common wood glue (Fine Woodworking #129).",
+    "reuse_cycles": "a few times: each repair re-glues the same parts with fresh hide glue, which bonds to the old glue, so instruments and antiques are taken apart and re-glued over decades or centuries (Wikipedia; Old Brown Glue FAQ). The protein itself can be re-melted and re-dried over and over (Old Brown Glue FAQ), but a pot of prepared glue loses strength with every reheating, and one old workshop allowed only two reheats (Rockler, Ian Kirby).",
+    "tools_needed": "Hot hide glue: dry granules, a kitchen scale, a glue pot (electric glue pot, double boiler, or a glass jar standing in a pan of water on a hot plate), a thermometer, a glue brush, clamps (or none for a rubbed joint), and a heat gun or hair dryer to warm the parts; a scraper and hot damp rag for squeeze-out (Valley Woodworkers; Popular Woodworking). Liquid hide glue: the bottle, a pan of hot water to warm it (Old Brown Glue), brush and clamps (Old Brown Glue FAQ; Titebond). To take a joint apart: water or steam, heat, and a thin palette knife; alcohol makes the glue brittle so it cracks apart more easily (Wikipedia).",
+    "seal": "none: it is water-soluble and not a sealant (Rockler; Woodcraft)",
+    "load": "medium to heavy in wood joints: on hard maple Titebond's liquid hide glue measured 3,591 psi (about 24.8 MPa) in shear (ASTM D905), with 72% of the break in the wood (Titebond), and Franklin's tests put hide glue at about 3,600 psi (Fine Woodworking #129). In Fine Woodworking's own test (#192) hot hide glue reached 76% and liquid hide glue 79% of the strength of a waterproof PVA glue (Wikipedia, Wood glue). It is rigid and does not creep under a constant load (Wikipedia; Titebond), but it is brittle, so a sharp shock tends to break it cleanly along the glue line (Wikipedia). It loses strength when wet (Rockler; Titebond). Titebond says its liquid hide glue is 'not for structural or load bearing applications'.",
+    "adjustable": "no once dry. Hot hide glue gives about a minute or less to position the parts before it gels (Wikipedia); liquid hide glue gives about 10 minutes open time and 20-30 minutes total assembly time (Titebond). A mistake can be fixed later by re-heating and re-wetting the joint (Old Brown Glue FAQ).",
+    "play_and_precision": "not applicable (nothing moves). It needs well-fitting joints: it 'doesn't fill huge gaps well; the parts need to fit together' (Valley Woodworkers); it has some gap-filling ability but epoxy is better (Wikipedia).",
+    "access_needed": "not applicable: glue is brushed onto the joint faces before assembly. Taking it apart needs you to get moisture and heat into the glue line, e.g. with a heated palette knife or steam (Wikipedia).",
+    "materials": "Made from collagen in cattle hides (and bone); fish and rabbit versions exist (Wikipedia; Popular Woodworking; Valley Woodworkers). Bonds well: wood and wood veneer, paper and cardboard, leather, cloth, bark, sinew wrappings, parchment and gesso work (Wikipedia; Old Brown Glue FAQ: lower temperatures suit gluing paper, leather or cloth to wood). It also grips glass strongly enough that its shrinkage chips the glass surface, a decorative technique called glass chipping (Wikipedia; Valley Woodworkers). Poor: anything that will get wet. Plastics and 3D prints: no tests were found; it works by soaking into porous surfaces, so smooth plastics such as PLA, PETG and ABS are unlikely to bond well [uncertain].",
+    "maker_difficulty": "moderate: hot hide glue needs a warm glue pot, temperature control and fast work (about a minute before it gels), and it spoils once mixed; liquid hide glue in a bottle is easy, like ordinary wood glue with a longer working time (Valley Woodworkers; Woodcraft)."
+  },
+  "making": {
+    "processes": [
+      "woodwork: furniture making and restoration, veneering and marquetry, glue blocks and rubbed edge joints (Fine Woodworking; Rockler)",
+      "musical instrument making (lutherie): violins, guitars, pipe organs and pianos, where joints must come apart for repair (Wikipedia)",
+      "off-the-shelf part: dry granules or pearls in gram strengths, and bottled liquid hide glue (Titebond; Old Brown Glue)",
+      "bookbinding, paper, leather and gilding work, and as a size or binder in painting (Wikipedia; SkillCult)",
+      "not a normal choice for 3D prints (FDM or resin); see making_tips_3d_printing"
+    ],
+    "print_in_place": "no: it is a glue for joining separate parts, not a printed feature.",
+    "making_tips_3d_printing": "Not applicable in practice: hide glue is a wood, paper and leather glue that works by soaking into porous surfaces, and no tests on PLA, PETG, ABS or resin prints were found, so use CA, epoxy or solvent welding for plastic prints [uncertain]. Where a printed part is combined with wood (for example a printed jig or instrument part), it is the wood-to-wood joints that suit hide glue. Printed tools can help: a printed glue-brush rest or jar holder for the water bath, but keep printed PLA away from the 60 °C glue pot, which is about where PLA starts to soften [uncertain].",
+    "off_the_shelf_parts": "Search for 'hide glue granules' or 'pearl glue' by gram strength (135, 192, 251 g; 192 g is the usual woodworking grade) (Wikipedia, Wood glue); 'liquid hide glue' (e.g. Titebond Genuine / Liquid Hide Glue, Old Brown Glue, brands); 'rabbit skin glue' and 'fish glue' for artists and bookbinders; an 'electric glue pot' or 'double boiler glue pot' (a baby-bottle warmer or a jar in a pan on a hot plate also works); 'urea' to extend open time; a hog-hair 'glue brush'; and a 'veneer hammer' for hammer veneering (Popular Woodworking; Valley Woodworkers; Old Brown Glue FAQ; Fine Woodworking).",
+    "rules_of_thumb": [
+      "Keep the glue at about 60 °C (140 °F): warmer temperatures quickly destroy its strength (Wikipedia). Valley Woodworkers' handout: 145 °F is OK and 150 °F only for short periods; Old Brown Glue works between 110 and 160 °F, best around 140 °F, and should not go above 180 °F for any length of time (Valley Woodworkers 'Hot Hide Glue Information', 2023; Old Brown Glue FAQ).",
+      "Mix about 2 parts water to 1 part dry glue by weight (traditional), or 1.6-1.8 : 1 for a thicker glue; let it soak until it looks like tapioca before heating, and aim for a runny syrup (Valley Woodworkers; Popular Woodworking).",
+      "Gram strength (a jelly-firmness test): 192 g is the most used for woodworking, 251 g is the highest normally used for instruments, 135 g the lowest for general woodwork; higher gram strength is stronger and tackier but gels faster (Wikipedia, Wood glue; Popular Woodworking; Valley Woodworkers). Instrument and cabinet makers use 120-200 g (Wikipedia, Animal glue).",
+      "Open time: hot hide glue about 1 minute or less, so do a dry run and assemble fast, and gel sets in below about 50 °C (120 °F) (Wikipedia; Woodcraft chart); Patrick Edwards gives 1-2 minutes for 192 g glue (Fine Woodworking). Liquid hide glue: 10 minutes open, 20-30 minutes total assembly at 21 °C / 50% RH (Titebond); 15-30 minutes (Fine Woodworking #129).",
+      "Clamping: unstressed hot hide glue joints need only about half an hour in clamps; joints under stress or glue with added urea need clamping overnight (Valley Woodworkers); Old Brown Glue should stay clamped overnight (Old Brown Glue FAQ). Hide glue has only 30-50% of its full strength at the stated clamp time and needs about 24 hours to cure (Woodcraft).",
+      "Clamping pressure for liquid hide glue: about 100-150 psi for softwoods, 125-175 psi for medium woods and 175-250 psi for hardwoods (Titebond).",
+      "Adding urea at about 20% of the dry glue weight makes a glue that stays liquid at room temperature (like Old Brown Glue) but needs clamping and dries a little weaker and more flexible; 5-10% just extends the open time (Valley Woodworkers).",
+      "Strength: 3,591 psi (about 24.8 MPa) on hard maple at room temperature and 3,207 psi after 150 °F overnight (Titebond Genuine Hide Glue, ASTM D905).",
+      "Shelf life: dry granules keep indefinitely if dry (Wikipedia; Woodcraft); bottled liquid hide glue is guaranteed about 24 months (Titebond; Old Brown Glue), though one restoration text warns that any liquid hide glue over six months old 'can be suspect' because urea slowly breaks the protein down (Wikipedia, citing Weisshaar 1988). Prepared hot glue spoils; keep leftovers in the fridge or freezer (Wikipedia; Popular Woodworking)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "Violins, cellos and acoustic guitars, whose tops are glued with hide glue so they can be removed for repair (Wikipedia)",
+      "Antique furniture: glue blocks under table tops and around feet, and veneered surfaces (Fine Woodworking, Patrick Edwards)",
+      "The lick-and-stick glue on old postage stamps and brown gummed packing tape, which works the same way: moisten, stick, and it can be steamed off again (Rockler, Ian Kirby); envelopes, match heads and garnet sandpaper also use animal glue (Valley Woodworkers)",
+      "Jelly (gelatin dessert), which is a refined version of the same protein (Wikipedia; Valley Woodworkers)"
+    ],
+    "when_to_use": "Use it for indoor wooden things you (or someone else) may need to take apart one day: musical instruments, antique and reproduction furniture repair, and any joint where a future repairer should be able to reverse the glue (Wikipedia; Titebond). It is ideal when repairing old hide-glued pieces, because new glue bonds to the old (Wikipedia; Woodcraft). Choose it for joints that carry a steady load, like chair joints, because it does not creep (Wikipedia; LD Davis, a hide glue maker). Hot hide glue is the classic choice for veneering without a press (hammer veneering), rubbed joints and glue blocks, where its quick tack replaces clamps (Fine Woodworking; Old Brown Glue FAQ). Liquid hide glue suits complex glue-ups that need a long working time (Woodcraft; Titebond). It cleans up with warm water and does not leave marks under stains and finishes (Popular Woodworking; Rockler).",
+    "when_not_to_use": "Don't use it outdoors, in bathrooms and kitchens, or anywhere it may get wet or very humid; use a water-resistant PVA (Type II), Type I PVA, polyurethane or epoxy instead (Titebond; Woodcraft; Rockler). Don't use it for loose, gappy joints; use epoxy (Valley Woodworkers; Wikipedia). Avoid it for plastics, metals and 3D prints (use CA, epoxy or solvent welding) [uncertain]. Titebond says its liquid version is not for structural or load-bearing applications. If you want a quick, easy glue-up and never need to reverse it, ordinary PVA wood glue is simpler (Valley Woodworkers). Liquid hide glue is not suitable for hammer veneering or rubbed joints; use hot hide glue for those (Old Brown Glue FAQ).",
+    "environment_limits": "Water and humidity: it stays water-soluble and hygroscopic, so moisture softens it; a coat of finish protects it from a few humid days (Fine Woodworking #129; Rockler; Titebond: 'not intended for exterior use or where moisture is likely'). Heat: once cured it is more heat-resistant than other common woodworking glues (Fine Woodworking #129); Titebond's liquid hide glue kept 3,207 psi after a night at 150 °F, against 3,591 psi at room temperature. Cold: liquid hide glue starts to gel at about 50 °F (10 °C), so keep the bottle and the workshop warm (Woodcraft; Titebond). Creep: none under constant load (Wikipedia; Titebond). Ageing: it darkens and shrinks as it dries and ages, and repeated handling and swings of temperature and humidity can damage glued artworks (Wikipedia). Rot: made-up glue is food for bacteria and mould and spoils, and liquid hide glue with urea slowly weakens with age (Wikipedia; SkillCult; Valley Woodworkers). Old Brown Glue is not affected by freezing (Old Brown Glue FAQ).",
+    "safety_notes": "Low toxicity: the glue itself is non-toxic, and Woodcraft notes you needn't worry if a dog raids the glue pot (Woodcraft; Fine Woodworking). Hazards are mainly heat: the glue pot and water bath are around 60 °C, a hot plate and water are used together, and a heat gun used to warm parts can scorch wood if held still (Valley Woodworkers). A pot that boils dry burns the glue and makes a strong, unpleasant smell (Rockler). Glue that smells rancid has spoiled: throw it out (Fine Woodworking, Patrick Edwards). Bottled liquid hide glue can contain additives that irritate the eyes; Titebond's label says 'CAUTION: EYE IRRITANT' and to rinse for 15 minutes if it gets in the eyes (Titebond).",
+    "common_failures": "Glue gels before the parts are clamped, leaving a weak 'Jello' joint: do a dry run, warm the parts and the room, work fast, or add a little urea (Valley Woodworkers; Wikipedia). Overheated or repeatedly reheated glue loses strength: keep it at about 60 °C and make fresh batches (Wikipedia; Rockler). Spoiled glue from poor storage, or liquid hide glue past its date, fails: check smell and dates (Fine Woodworking; Valley Woodworkers). Joints fail after getting wet or in damp places (Rockler; Titebond). Poor-fitting, gappy joints are weak because it doesn't fill gaps well (Valley Woodworkers). A hard knock can pop a joint cleanly apart because the glue is brittle; the plus side is a clean break that is easy to re-glue (Wikipedia; Valley Woodworkers). Too many freeze-thaw cycles of pre-made glue bottles have caused failures (Valley Woodworkers). Squeeze-out left to dry hard is very hard to remove: scrape it off while it is still jelly and wipe with hot water (Valley Woodworkers). One source warns that applying glue to hot wood can make the wood soak up all the glue, while others recommend warming the parts; warm them moderately [uncertain] (SkillCult; Valley Woodworkers).",
+    "related": [
+      "PVA wood glue (white and yellow glue): easier (no heating, longer open time) and water-resistant grades exist, but it creeps under constant load, does not stick to itself, and must be scraped out before re-gluing (Wikipedia; LD Davis; Woodcraft)",
+      "Liquid hide glue: the same glue with urea added so it stays liquid at room temperature; covered in this entry (Wikipedia; Old Brown Glue FAQ)",
+      "Rabbit-skin glue and fish glue (isinglass): related animal glues; rabbit-skin glue is more flexible when dry and used for sizing canvases and bookbinding (Wikipedia)",
+      "Casein glue: a traditional protein glue made from milk (Wikipedia, Wood glue)",
+      "Two-part epoxy: gap-filling and waterproof, bonds plastics and metal, but is effectively permanent",
+      "Contact adhesive (contact cement): a modern way to lay veneer without a press, but not reversible (Fine Woodworking #129 compares it unfavourably for veneering)",
+      "Hot-melt adhesive (glue gun): also sets by cooling, but is a soft plastic that fills gaps and is weak in wood joints",
+      "Polyurethane glue: water-resistant and gap-filling (foams), for outdoor wood; not reversible (Woodcraft)"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg",
+        "title": "Glutinleime-warm.jpg (Wikimedia Commons, by Simon A. Eugster)",
+        "shows": "Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg",
+        "title": "Old hot hide glue pot (Wikimedia Commons, by Joost J. Bakker IJmuiden)",
+        "shows": "Photo of a traditional pottery glue pot used to heat and dispense hot hide glue",
+        "license": "CC BY 2.0"
+      },
+      {
+        "url": "https://www.popularwoodworking.com/techniques/a-quick-guide-to-hot-hide-glue/",
+        "title": "A Quick Guide to Hot Hide Glue (Popular Woodworking, Logan Wittmer, 2024)",
+        "shows": "Numbered step photos: granules poured into a double-boiler glue pot, covered with cold water, melting as it heats, and thinned to a runny syrup",
+        "license": "link only"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Raq3pbGmmOg",
+        "title": "Using hot hide glue (YouTube, StewMac)",
+        "shows": "Video demonstration of preparing and using hot hide glue for instrument work (title and channel checked via YouTube oEmbed; not watched)",
+        "license": "link only (standard YouTube licence)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=OKkCHM0sDks",
+        "title": "How to Make a Rub Joint with Hide Glue - Build a Side Table with Hand Tools (YouTube, Bob Rozaieski Fine Woodworking)",
+        "shows": "Video of edge-joining boards with a rubbed hide-glue joint and no clamps (title and channel checked via YouTube oEmbed; not watched)",
+        "license": "link only (standard YouTube licence)"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://valleywoodworkers.org/wp-content/uploads/2022/03/Hot-Hide-Glue-Information-2023.pdf",
+        "title": "Valley Woodworkers: Hot Hide Glue Information (Don Parker, 2023, club handout PDF)",
+        "what_it_is": "A six-page beginner's how-to for mixing and using your own hot hide glue with a kitchen scale, a glass jar in a pan of water on a hot plate and a meat thermometer, plus tips on urea, freezing batches and bottled liquid hide glue",
+        "license": "link only (no licence stated)"
+      },
+      {
+        "url": "https://www.finewoodworking.com/2020/03/20/choosing-and-mixing-hot-hide-glue",
+        "title": "Choosing and mixing hot hide glue (Fine Woodworking video workshop, W. Patrick Edwards, 2020)",
+        "what_it_is": "Article and video (part of a four-part series, which also covers glue blocks, rub joints and hammer veneering) on choosing 192 g granulated hide glue and mixing it; the full videos may need a membership",
+        "license": "link only"
+      }
+    ],
+    "diagram_idea": "A three-stage loop showing the same glue as dry granules, then warm liquid in a water-bath pot (about 60 °C), then jelly as it cools in a wood joint, then hard dry glue, with a return arrow labelled 'add water + heat' back to liquid to show why the joint can be taken apart and re-glued.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Animal_glue",
+      "https://en.wikipedia.org/wiki/Wood_glue",
+      "https://www.popularwoodworking.com/techniques/a-quick-guide-to-hot-hide-glue/",
+      "https://oldbrownglue.com/faq/",
+      "https://www.titebond.com/product/glues/9e9995b4-08eb-4fc6-8254-c47daa20f8ed",
+      "https://valleywoodworkers.org/wp-content/uploads/2022/03/Hot-Hide-Glue-Information-2023.pdf",
+      "https://www.woodcraft.com/blogs/sanding-finishing/complete-guide-to-woodworking-glues",
+      "https://www.rockler.com/learn/understanding-wood-glue",
+      "https://www.rockler.com/learn/using-classic-hide-glue-in-modern-shop",
+      "https://www.finewoodworking.com/2020/03/20/choosing-and-mixing-hot-hide-glue",
+      "https://www.finewoodworking.com/2020/03/20/glue-blocks-and-rub-joints-with-hide-glue",
+      "https://www.finewoodworking.com/1998/04/01/sticking-with-hide-glue",
+      "https://blog.lddavis.com/hide-glue-strength-for-woodworking-applications",
+      "https://skillcult.com/blog/2013/07/21/hide-glue-part-i-meet-hide-glue",
+      "https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg",
+      "https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg",
+      "https://commons.wikimedia.org/wiki/File:Knochenleim_Granulat.jpg",
+      "https://www.youtube.com/watch?v=Raq3pbGmmOg",
+      "https://www.youtube.com/watch?v=OKkCHM0sDks"
+    ]
+  },
+  "uncertain": [
+    "materials",
+    "making_tips_3d_printing",
+    "when_not_to_use",
+    "common_failures"
+  ]
+}
