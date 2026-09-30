@@ -21,7 +21,8 @@
     ],
     "family": "seals & pass-throughs",
     "other_families": [
-      "powered & active connectors"
+      "powered & active connectors",
+      "hydraulics, pneumatics & vacuum"
     ],
     "one_liner": "A fabric or rubber sleeve is clamped at each end to a ring, and turning one ring by about half a turn twists the sleeve shut towards the centre, so it can meter or stop powder, grain or pellets pouring from a hopper or bag; a pinch valve does a similar job by squeezing a soft tube flat from outside.",
     "complexity": "A few parts. Iris valve: a fixed ring (the valve body), a turning control ring with a handle, lever or handwheel (often with notches or a trigger lock to hold set positions), the flexible sleeve, and clamp bands that grip the two ends of the sleeve (Hapman; Vortex; SolidsWiki; Mucon JS). Pinch valve: a rubber sleeve or plain soft tube, a housing or frame, and a squeezer, which can be a pinch bar on a screw and handwheel, a rolling wheel on a ramp, a solenoid plunger, a hobby servo arm, or compressed air pumped into the housing around the sleeve (Tameson; AKO; Printables models).",

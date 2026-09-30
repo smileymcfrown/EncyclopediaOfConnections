@@ -111,6 +111,18 @@ break validation; they are clean-ups for the report step or Phase 1.
   Cults3D, MyMiniFactory, BYU CMR site, ResearchGate, ScienceDirect, ASME, Eng-Tips, github.com
   HTML pages (raw files work), some forums.
 
+## New family: hydraulics, pneumatics & vacuum (added 2026-09-30)
+- **Safety box for the family page** (suggested by the search agent; add when publishing): stored
+  air can burst tanks and whip hoses; never point compressed air at skin (FRC Zero: "even air at a
+  pressure of 15 psig can cause serious injury"); hydraulic leaks can inject oil (HSE); trapped air
+  can move a stopped cylinder (HSE HSG39); valves that shut fast cause water hammer; vacuum is the
+  safest option. Never hold stored pressure in a 3D-printed part.
+- **`job` field:** none of the fixed jobs says "move or hold using air or liquid pressure, or
+  suction". The owner chose not to add one for now (existing jobs fit and older entries stay
+  consistent); revisit in run 3 when the flow-chart questions are written.
+- **Thang PDFs** for this family were read from the Stanford course-site copies again; prefer his
+  own download link when publishing.
+
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
   but it works differently (a sleeve twisted shut, no blades).

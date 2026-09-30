@@ -284,8 +284,11 @@ def main():
         out.append(f"## {heading[i]}\n")
         desc = item.get("description")
         out.append(f"*{item.get('category', '')}.* {desc or ''}\n")
-        if item.get("notes"):
-            out.append(f"*Also covers:* {item['notes']}\n")
+        # Notes may also tell the research agents which other families to list; that hint is
+        # for the agents, not for readers, so it is left out here.
+        notes = re.sub(r"\s*Also list [^.]*? in other_families\.?", "", item.get("notes") or "").strip()
+        if notes:
+            out.append(f"*Also covers:* {notes}\n")
         if data is None:
             out.append("*Not researched yet.*\n")
             continue
