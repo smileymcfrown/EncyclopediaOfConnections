@@ -74,6 +74,8 @@ break validation; they are clean-ups for the report step or Phase 1.
 - *Self-tapping screw into plastic*: `off_the_shelf_parts` is in the entry's `uncertain` list but
   has no `[uncertain]` marker, so the default report shows it in full (only `--strict` drops it).
   Check its brand and standard names (EJOT DELTA PT, Plastite, Taptite, DIN 7981) before publishing.
+- *Anti-twister mechanism*: `materials` is in the entry's `uncertain` list but has no `[uncertain]`
+  marker, so the default report shows it in full. Check its materials list before publishing.
 - *Scotch yoke* and *Slider-crank*: their `uncertain` lists missed some marked fields; fixed on
   2026-09-29 (lists only; no text changed).
 - More conflicts recorded side by side in tier 2 entries (pick one to lead with when publishing):
