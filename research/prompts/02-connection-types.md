@@ -116,10 +116,9 @@ session log), then commit and push.
 
 ## For you (not part of the prompt)
 
-**Use this when** the outline has items that aren't researched yet. That is now the case:
-items 276-299 (added 2026-09-29) and the new *hydraulics, pneumatics & vacuum* family,
-items 300-323 (added 2026-09-30). Item 275 is already done. See
-`research/connection-types/outline-notes.md`.
+**Use this when** the outline has items that aren't researched yet, for example after
+`/research-add-items`. It was last used for items 276-323 (finished 2026-10-02), so run 2 is
+complete for now. Next time, change the item numbers in the prompt and in "What to expect".
 
 **Steps**
 1. Make sure everything is merged into `main`, then start a new Claude Code session on this repo.

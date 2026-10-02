@@ -2040,3 +2040,277 @@
 
 - **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, load, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, safety_notes
 
+## 285 Multi-turn rotation limiter (travelling-nut and stacked-ring stops)
+
+*hinges & pivots.* A hard stop that lets a shaft turn more than one full turn and then halts it, for example so a robot turret can't wind its cables off
+
+*Also covers:* Also covers stop work on clock mainsprings; the Geneva stop is covered under Geneva drive
+
+### What it is
+
+- **plain_name**: A stop that lets a shaft, knob or turret go round several full turns and then stops it dead at each end, so the wires, hoses or spring attached to it can't be wound up too far
+- **term**: Multi-turn rotation limiter (multi-turn stop, shaft rotation limiter)
+- **aliases**: 
+  - multi-turn stop / multiturn stop
+  - multi-turn limit stop / rotary travel limit stop (patent wording)
+  - shaft rotation limiter (Nguyen Duc Thang's animations)
+  - travelling-nut stop (traveling nut, running nut; 'jam nut limit stop' when the nut jams against the end)
+  - stacked-ring stop / stacked-washer stop / pinned-disc stop (a stack of washers 'each with an extending ear')
+  - hunting-tooth stop / differential gear stop (two gears with slightly different tooth counts)
+  - stop work / stopwork / winding stops (watch and clock mainsprings; German 'Stellung')
+  - Maltese-cross or Geneva stop work (the Geneva-stop version is covered under Geneva drive)
+  - geared stop work (IWC, 1904)
+  - zero stop (rifle-scope adjustment turrets)
+  - hard stop for a joint that turns more than a single revolution (robotics)
+  - mechanical stopper for a robot rotary joint
+- **family**: hinges & pivots
+- **other_families**: seals & pass-throughs, springs & energy storage, brakes, dampers & speed control, locating & alignment
+- **one_liner**: A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.
+- **complexity**: A few parts. Travelling-nut type: a threaded section on the shaft, a nut that is kept from turning (by a guide rod or slot), and two end stops (frame faces, collars, or a pin on the nut meeting a finger on the shaft). Stacked-ring type: a driving pin or lug on the shaft, a stack of loose rings or discs each with its own pin or lug, and one fixed stop on the frame. Gear type: a small gear on the shaft driving a larger gear or worm wheel that carries a stop pin, or two gears with slightly different tooth counts each carrying a stop. Clock and watch stop work: a finger piece on the mainspring barrel arbor and a Maltese-cross wheel, or a wheel with one tall tooth. In Thang's examples the whole thing is driven through a friction slip clutch.
+- **how_it_works**: Each design counts turns mechanically and only blocks the shaft when the count reaches either end of the range. In the travelling-nut type (traveling nut), the shaft's thread pushes a nut that cannot turn along the shaft by one thread lead per turn, until the nut reaches a stop at one end or the other. In the stacked-ring type (stacked washers or pinned discs), a lug on the shaft picks up the first ring after nearly one turn, that ring picks up the next ring on the following turn, and so on until the last ring hits a fixed stop, so every ring adds almost one more turn. In gear types, a reduction gear (or two gears with slightly different tooth counts, a hunting-tooth stop) turns a stop so slowly that it only meets its partner after many turns; clock stop work does the same with a Maltese cross that has one wider, blocking arm, or a wheel with one extra-tall tooth that jams in one shallow notch.
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): the shaft, knob or turret turns freely for a set number of turns
+  - slow it, stop it or keep its speed steady: it gives a solid end stop (hard stop) at each end of that range, in both directions
+  - seal it, or pass cables or fluid through: by stopping a turret or robot joint before the cables or hoses running through it are twisted off, it lets a simple cable loop or cable chain do the job of a slip ring (US10661437B2; Chief Delphi)
+- **motion**: rotate: more than one turn but a limited number, in both directions between two hard ends. Examples: between 360 and 720 degrees for a Disney robot joint (US20170138447A1), more than ±360 and less than ±540 degrees for a robot wrist (US10661437B2), about 3 to 17 turns in Thang's six animated limiters, and fifty or more turns between limits for gear-type instrument stops (US3203262A)
+- **degrees_of_freedom**: 1: the shaft only turns about its own axis; the nut, rings or gears inside the stop are driven by the shaft and add no independent movement of their own
+- **special_behaviour**: 
+  - none of the listed behaviours exactly: its trick is counting turns, so it allows several full turns before it blocks rotation, which a simple pin-and-lug stop cannot do
+  - motion conversion (e.g. rotary to linear): in the travelling-nut type the shaft's turning becomes slow sliding of the nut along the thread, and it is the nut's travel that reaches the stop
+  - fail-safe or breakaway: on robots it is a mechanical backup that still stops the joint if the software limits, encoder or limit switch go wrong; one Chief Delphi team said their mechanical stop 'has already saved our energy chain during software tuning'
+  - torque-limiting (slips or clicks at a set force/torque): not built in, but every one of Thang's six shaft rotation limiters drives the shaft through a friction clutch, so the motor can keep turning when the stop is reached
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): at the end of the range a pin, lug, tooth or the nut itself butts against a solid stop
+  - not a holding joint (it moves or passes on motion): between the two ends the shaft turns freely; it does not hold any position in between
+- **input_output**: Not applicable: it does not pass motion on to anything else. Inside, the travelling-nut type moves the nut one thread lead along the shaft per turn (lead is 'the amount of distance travelled per rotation', Wikipedia 'Leadscrew'); the stacked-ring type adds one ring per turn; gear types count turns through a reduction (e.g. a 20-tooth gear driving a 60-tooth stop gear, or a single-start worm driving a 20-tooth worm wheel, Thang). It blocks the shaft in both directions; the stop itself is not a drive, so back-driving does not apply.
+- **power**: passive (no power needed): it is purely mechanical, so it still stops the shaft if the motor controller, encoder or limit switch fails. In roller-shutter tube motors the same turn-counting idea works cams and switches that stop the motor instead (Walter Motor)
+- **removability**: removable: it is assembled onto the shaft with collars, pins, screws or retaining rings and can be taken off again; clock stop work is held by a screw and can be removed, which lets the mainspring run fully down (NAWCC forum)
+- **reuse_cycles**: many times: it is taken apart and reassembled like any shaft fitting; the limit is wear or damage at the impact points, not the assembly
+- **seal**: none: it is an open mechanism and seals nothing, although it is often hidden inside a turret base or housing
+- **load**: Light to heavy. Instrument stops protect 'delicate low torque instruments' such as precision multi-turn potentiometers, which 'can be damaged if driven into their internal light duty stops' (US3293925A; US3203262A), while robot joints and aircraft actuators use metal stops that take the full drive torque (US10661437B2; Sundstrand's US4932511A). At the moment of impact the whole motor torque and the turret's momentum land on one small pin, lug, tooth or nut face, so that is the weak point. It is only strong in twisting (the direction it stops); side and end loads must be carried by the shaft's bearings.
+- **adjustable**: Yes, in most designs. Roller-shutter tube motors set their two limits with adjustment screws that move cams (Walter Motor); the number of turns of a stacked-ring stop changes by about one for each ring added or removed (Thang, 'Shaft rotation limiter 6'); Gear-type stops are fixed by their tooth counts. *(unverified parts omitted)*
+- **play_and_precision**: Noticeable end-position play. A travelling nut's end point depends on the thread's backlash, and a nut that runs into a flat face 'can jam so tightly that a large torque is required to move the shaft from its stopped position' (Thang). Gear-finger stops can wedge if the fingers meet close to the line joining the gear centres (US3662610A). *(unverified parts omitted)*
+- **access_needed**: end of a tube or shaft: the nut, rings or gears slide onto the shaft, usually at its end or inside the turret base, so you need to reach the shaft end or open the housing
+- **materials**: Thang's travelling-nut example uses a rubber ring and an oil-impregnated metal sleeve (grommet) where the nut slides on its guide rod, to soften the impact. Printed versions suit light duty: PETG is tough and fine below about 80 °C, while PLA softens above about 60 °C (Prusa). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: the parts are simple (threaded rod and nut, flat rings with pins, or a pair of gears) and print or machine easily, but the stop must survive the full motor torque and the turret's momentum, so you also need a slip clutch or motor current limit and strong metal pins at the impact points
+
+### Making it
+
+- **processes**: 
+  - CNC: the traditional way to make metal stops for instruments, robots and actuators (turned rings, milled lugs, cut gears)
+  - off-the-shelf part: threaded rod and nuts, shaft collars, dowel pins and a friction slip clutch; the turn-counting mechanism also comes ready-made inside roller-shutter tube motors and as rotary limit switches *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Pick the type: the stacked-ring type is the easiest to print because every ring is a flat washer with one lug or pin; total turns are about (number of loose rings + 1) x (angle each ring can swing) / 360 (Thang, 'Shaft rotation limiter 6'). Use a travelling nut for many turns (more than about 10-20, where a ring stack gets too long, US3203262A), and a gear stop when there is little room along the shaft. 2) Print rings and discs flat on the bed so each lug is built within the layers rather than across them; 4) Give each ring running clearance on the shaft and between neighbouring rings; Prusa suggests starting at 'at least 0.3 mm' for movable parts, so print one test ring first. 5) For a travelling nut, use a metal threaded rod and a metal nut held in a printed carrier that slides along a guide rod or slot, rather than a printed thread; make the stop a sideways pin on the nut that meets a finger on the shaft (a radial stop) instead of letting the nut face jam against a flat end. Keep the pin-to-finger overlap shorter than the thread pitch so the pin clears the finger on the first reverse turn (Thang, 'Shaft rotation limiter 2'). 6) Drive it through a friction slip clutch or set a low motor current limit: all six of Thang's limiters put a friction clutch between the driving pulley and the shaft. 7) Add a rubber ring or soft bumper where the stop hits, as in Thang's 'Shaft rotation limiter 2', to reduce the shock. 8) Use PETG rather than PLA near warm motors or outdoors (PLA softens above about 60 °C and degrades in UV; PETG is fine below about 80 °C; Prusa). 9) Before fitting cables, turn it by hand to each end, count the turns, and check that it backs off easily from both stops. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Threaded rod (studding) or a lead screw and nut for the travelling-nut type; set-screw or clamp-type shaft collars as end stops; dowel pins, shoulder screws or spring (roll) pins as stop lugs; flat or thrust washers between stacked rings; a friction slip clutch (friction torque limiter) between motor and shaft; microswitches (limit switches) or a rotary limit switch for an electrical cut-off as well; and, for the cables the stop protects, a cable carrier (drag chain) or spiral (clock-spring) cable, or a slip ring if unlimited turns are needed instead. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Stacked rings (pinned discs): total turns = (N + 1) x α / 360, where N is the number of idle discs and α is the angle each disc can turn before its pin meets the next one, which depends on the pin diameter and its distance from the shaft centre; 7 idle discs allowed 7.1 turns (Thang, 2700 Animated Mechanical Mechanisms part 1, p. 121, 'Shaft rotation limiter 6').
+  - Stacked washers get too long beyond about 10-20 turns: 'the axial length of the stop assembly becomes excessive when more than ten or twenty turns are necessary', and 'where a large number of revolutions, such as fifty or more, are required between limits, more complex arrangements are usually necessary' (US3203262A).
+  - Travelling nut: turns available = distance the nut can travel ÷ thread lead (lead = distance travelled per rotation; Wikipedia 'Leadscrew'). Thang's two travelling-nut examples allow about 14 and about 12 turns (Thang part 1, p. 120).
+  - Don't let a travelling nut jam against a flat face: it 'can jam so tightly that a large torque is required to move the shaft from its stopped position' (Thang p. 120; US3293925A says the running nut 'actually becomes jammed or wedged against the stops'). Put a stop pin on the nut that meets a rotating finger instead, with the pin-finger engagement shorter than the thread pitch so it clears on the first reverse turn (Thang, 'Shaft rotation limiter 2', p. 120).
+  - Single gear stop: the shaft can make fewer turns than the gear ratio allows the stop gear to make one turn; a 20-tooth gear driving a 60-tooth gear with a fixed pin gives about 3 turns, so many turns need a large ratio (Thang 'Shaft rotation limiter 3', p. 120). A single-start worm driving a 20-tooth worm wheel allowed 17 turns (Thang 'Shaft rotation limiter 5', p. 121).
+  - Two gears with nearly equal tooth counts (hunting-tooth or differential stop): turns ≈ Z1 / (Z2 - Z1); 30 and 32 teeth give about 15 turns without needing a large ratio (Thang 'Shaft rotation limiter 4', p. 120). Old clock 'Geneva stop works' with one extra-tall tooth and one shallow notch work the same way: the stop jams only when the tall tooth finally lands in the shallow notch (NAWCC forum, 2013).
+  - Watch and clock stop work: the finger moves the Maltese cross one step per turn, and a wider arm on the cross locks against the finger, in winding and unwinding alike (Vintage Watch Straps; NAWCC forum). Watch winding mechanisms mostly use a five-slot star wheel (German Wikipedia 'Malteserkreuzgetriebe').
+  - Fit a friction clutch or torque limit between the drive and the stopped shaft: all six of Thang's shaft rotation limiters drive the shaft through a friction clutch (Thang pp. 120-121).
+  - Gear-finger stops on a high-ratio pair can wedge when the fingers meet close to the straight line joining the gear centres (US3662610A), and stacked-finger or travelling-nut stops on a fast shaft 'add considerable inertia to the power train' (US3662610A).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Wind-up clocks and older pocket watches with 'stop work' (a little Maltese cross or star wheel on the spring barrel) that stops the mainspring being wound too tight (Vintage Watch Straps; NAWCC forum)
+  - Electric roller shutters and blinds, whose tube motors count turns of the tube with a geared limit mechanism to stop at the top and bottom (Walter Motor)
+  - Rifle-scope adjustment turrets with a 'zero stop', which allow nearly 360 degrees with one pin in one track, or nearly 720 degrees with two pins in two tracks (WO2017132316A1)
+  - Robot arm wrists and competition-robot turrets that turn more than a full turn but must not twist their cables off (US10661437B2; Chief Delphi)
+- **when_to_use**: Use it when something must turn more than one full turn, but not forever: a robot turret, camera pan head, rotating sensor or arm joint whose cables, air hoses or fibres pass through the joint without a slip ring; a multi-turn knob or precision potentiometer you want to protect from being forced past its own light internal stops; a winding drum or spring winder that must stop after a set number of turns; or a clock mainspring. It is cheap, needs no power, and still works if the software or a limit switch fails, so it makes a good backup to software limits, and the stop can also give a known starting position when a machine is switched on (Chief Delphi teams combine hard stops with soft limits and homing).
+- **when_not_to_use**: Don't use it when the part must keep turning in one direction forever (a wheel, a fan, a spinning lidar): use a slip ring or rotary union instead. Don't rely on it for accurate positioning: use an encoder, a limit switch or a stepper motor, with the hard stop only as a backup. For less than one full turn, a simple fixed pin-and-lug end stop is simpler. Don't drive a heavy turret into it at full speed with a strong motor: slow down under software control first and fit a slip clutch, or the pin will shear or the nut will jam. If you want the motor switched off rather than the shaft physically blocked, use a rotary limit switch or a travelling-nut limit switch, as in roller-shutter motors.
+- **environment_limits**: Printed PLA parts soften above about 60 °C and degrade in UV light; PETG suits most indoor and outdoor use below about 80 °C (Prusa), so avoid PLA near hot motors or in sunlight. *(unverified parts omitted)*
+- **safety_notes**: The stop takes the whole motor torque and the turret's momentum at once; a weak pin can shear suddenly and let the cables be torn, so fit a slip clutch or current limit and use metal pins. A travelling nut jammed against its end can release suddenly when forced. *(unverified parts omitted)*
+- **common_failures**: 1) A travelling nut jams hard against a flat end face and needs a large torque to free it (Thang; US3293925A): use a sideways pin-and-finger stop. 2) Gear-finger stops wedge instead of stopping cleanly when the fingers meet near the line between the gear centres (US3662610A). 3) A stop pin or lug shears or bends under the motor's full torque and the turret's momentum: use metal pins, a soft bumper and a slip clutch (Thang). 4) The stack gets too long for many turns: beyond about 10-20 turns switch to a travelling nut or gear stop (US3203262A). 7) Roller-shutter limits set with the wrong screw or in the wrong direction, since the screw symbols and directions vary between motors (Walter Motor). *(unverified parts omitted)*
+- **related**: 
+  - Geneva drive (Geneva stop): a Maltese cross with one slot closed limits winding to a few turns; covered in its own entry (507 Mechanical Movements no. 212)
+  - Slip ring and rotary union: lets a shaft turn endlessly while passing power, signals or fluid, so no stop is needed, but it costs more and has sliding contacts
+  - Cable loop, spiral (clock-spring) cable or twisting cable chain: carries cables across a turning joint for a limited angle; a multi-turn stop keeps the rotation inside that limit
+  - Simple end stop (pin and lug, single-turn stop): blocks rotation after less than one turn; simpler, but can't allow a full turn or more (US3662610A describes fingers that 'limit rotation after slightly less than one turn')
+  - Rotary limit switch (as in roller-shutter tube motors): the same turn counting, but it switches the motor off with cams rather than blocking the shaft (Walter Motor)
+  - Lead screw and nut: the same thread-and-nut idea, used to move a load rather than to count turns
+  - Friction slip clutch: usually fitted with a hard stop so the drive can slip when the stop is reached (Thang)
+  - Recoiling click: in watches, a ratchet click with a slotted pivot that lets the barrel back off slightly at full wind; it replaced stop work as a cheaper solution (Vintage Watch Straps)
+  - Magnetic rotary hard stop: repelling magnets instead of a solid hit stop a robot axis turning more than 360 degrees without contact noise or wear (CN102458778B)
+  - Spring-finger-and-ramp stop: a springy finger rides up onto a raised tang so the part can turn a little more than one full turn before a tab stops it; used on adjustable recessed lights (US10066778B2)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Shaft rotation limiter 6 (Nguyen Duc Thang, YouTube thang010146)](https://www.youtube.com/watch?v=3airCg2Xd-4): CAD animation of the stacked pinned-disc type: 7 idle discs let the shaft turn about 7.1 turns before stopping, driven through a friction clutch *(licence: link only (standard YouTube licence))*
+  - [Shaft rotation limiter 1 (Nguyen Duc Thang, YouTube thang010146)](https://www.youtube.com/watch?v=BBYfNYadt0w): CAD animation of a travelling nut moving along a threaded shaft until the frame stops it after 14 turns *(licence: link only (standard YouTube licence))*
+  - [Shaft rotation limiter 4 (Nguyen Duc Thang, YouTube thang010146)](https://www.youtube.com/watch?v=go3LyVKVZoA): CAD animation of a two-gear (30 and 32 teeth) differential stop whose stoppers collide after about 15 turns *(licence: link only (standard YouTube licence))*
+  - [507 Mechanical Movements, No. 213: another kind of stop for winding watches](https://507movements.com/mm_213.html): 1868 drawing, with an animated version, of a watch winding stop; nos. 212, 214 and 215 show the Geneva stop and other variants *(licence: Book public domain; website animation link only)*
+  - [Geneva stop.PNG (Wikimedia Commons, from a 1908 book on clockwork by H. Bock)](https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG): Drawing of a five-spoke Maltese-cross stop work on the barrel of a spring-driven clock *(licence: Public domain in the United States (may not be public domain in some other countries, per the file page))*
+- **diagram_idea**: Three small cutaways side by side: a nut walking along a threaded shaft between two stops; a stack of four rings, each with a pin that picks up the next, with a counter reading 'turn 1, 2, 3, 4, stop'; and two gears of 30 and 32 teeth whose stop pins only meet after 15 turns. Above them, a robot turret with a cable loop that stays untangled because the stop halts it.
+- **sources**: 
+  - https://cs448m.github.io/lectures/machines/doc/1.pdf
+  - https://www.youtube.com/watch?v=BBYfNYadt0w
+  - https://www.youtube.com/watch?v=bZXCfSEa-OU
+  - https://www.youtube.com/watch?v=MVkAum9f_qI
+  - https://www.youtube.com/watch?v=go3LyVKVZoA
+  - https://www.youtube.com/watch?v=c1Xlah1sOEI
+  - https://www.youtube.com/watch?v=3airCg2Xd-4
+  - https://en.wikipedia.org/wiki/Mainspring
+  - https://de.wikipedia.org/wiki/Malteserkreuzgetriebe
+  - https://en.wikipedia.org/wiki/Leadscrew
+  - https://www.vintagewatchstraps.com/blogstopwork.php
+  - https://mb.nawcc.org/threads/french-striking-carriage-clock-wont-let-down-mainspring.204790/
+  - https://mb.nawcc.org/threads/geneva-stop-works-on-a-st-wall-clock.100656/
+  - https://507movements.com/toc.html
+  - https://507movements.com/mm_212.html
+  - https://507movements.com/mm_213.html
+  - https://507movements.com/mm_214.html
+  - https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG
+  - https://www.chiefdelphi.com/t/turret-homing-hard-stop-limit-switch-or-absolute-encoder/516456
+  - https://www.chiefdelphi.com/t/questions-about-building-a-turret/510986
+  - https://patents.google.com/patent/US3662610A/en
+  - https://patents.google.com/patent/US3293925A/en
+  - https://patents.google.com/patent/US3203262A/en
+  - https://patents.google.com/patent/US4932511
+  - https://patents.google.com/patent/US10661437B2/en
+  - https://patents.google.com/patent/US20170138447A1/en
+  - https://patents.google.com/patent/WO2017132316A1/en
+  - https://patents.google.com/patent/CN102458778B/en
+  - https://patents.google.com/patent/US10066778
+  - https://www.waltermotor.com/tubular-motor/limit-switch/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, common_failures, environment_limits, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, print_in_place, processes, safety_notes, tools_needed
+
+## 296 Knife-edge and jewel pivots (low-friction point pivots)
+
+*hinges & pivots.* A hard sharp edge, or a pointed pin in a hard cup (a jewel), that lets a part rock or turn with almost no friction, as in balance scales and meters
+
+### What it is
+
+- **plain_name**: A part that rocks on a hard, sharp edge resting on a hard flat or groove (like the beam of a balance scale), or spins on a needle-sharp steel point sitting in a tiny hard cup of sapphire or glass (like a compass needle or the pointer of a dial meter), so it moves with almost no friction
+- **term**: Knife-edge pivot (knife-edge bearing) and jewel bearing (pivot and jewel, vee jewel bearing)
+- **aliases**: 
+  - knife edge, knife-edge bearing, fulcrum (of a balance) (Wikipedia 'Weighing scale')
+  - pivot and bearing (weighing-scale trade terms); pivot shapes: teardrop (pear-shaped or pippin-shaped) pivot, square (diamond) pivot, block (pentagonal) pivot, triangular knife edge (Rice Lake 'Understanding pivots and bearings')
+  - agate plane or agate bearing: the hard flat stone a knife edge rests on (Wikipedia 'Kater's pendulum')
+  - jewel bearing, jewelled bearing, jewel pivot, ruby or sapphire bearing (Wikipedia 'Jewel bearing')
+  - vee jewel (V jewel) or cup jewel with a cone pivot (conical pivot) (Bird Precision)
+  - hole jewel, ring jewel, olive (bombe) jewel, cap jewel, capstone or endstone (Wikipedia 'Jewel bearing'; Bird Precision)
+  - pivot-and-jewel meter movement, as opposed to the taut-band movement (Wikipedia 'Galvanometer')
+  - Incabloc (brand): a shock-protection system for watch jewels (Wikipedia 'Jewel bearing', see also) *(unverified parts omitted)*
+- **family**: hinges & pivots
+- **one_liner**: A pivot in which a hardened sharp edge or a fine pointed pin rests on a very hard, smooth seat (agate, steel, sapphire, ruby or glass), touching only along a line or at a point, so a beam, needle or pointer can rock or turn under tiny forces with very low and very consistent friction.
+- **complexity**: A few parts. Knife-edge pivot: a hard wedge (the knife edge or 'pivot') fixed to the moving beam, a hard flat or V-shaped seat (the 'bearing') on the stand, and end stops (anti-friction plates) that stop the beam sliding sideways (Rice Lake). Jewel pivot: a hardened shaft ground to a cone point at each end (cone pivots) and two tiny vee jewels of sapphire, ruby or glass, usually set in fine-thread jewel screws, one of them often spring-loaded (Bird Precision 'Vee jewel').
+- **how_it_works**: An ordinary pin in a hole rubs all round its surface, and that rubbing (friction) makes the part stick before it moves. A knife edge instead rests on a hard surface along a single line, and as the beam tilts the edge rocks on its tiny rounded tip instead of sliding, so very little resists small movements; 'a knife edge is the traditional solution' for an almost friction-free balance (Wikipedia 'Weighing scale'; Rice Lake). A jewel pivot does the same for a turning shaft: a sharp cone point sits in a hard cone-shaped cup, touching at a tiny spot right on the axis, so the rubbing happens at almost no distance from the centre and the turning resistance is tiny; sapphire's friction against steel is also low and very steady over years (Bird Precision; Wikipedia 'Jewel bearing'). Neither type is clamped together: the weight of the part, or a light spring, keeps the edge or point seated, so they only suit light, gently handled loads.
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): lets a beam, pointer, needle or small shaft rock or turn with almost no friction, so tiny forces (a few milligrams on a balance, a small current in a meter, the Earth's magnetism on a compass needle) can move it
+- **motion**: rotate. Knife edges rock through a small angle; wear increases rapidly if the swing is more than about 5 degrees (Rice Lake). Jewel pivots allow continuous rotation, as in compass needles, meter movements, wind-speed indicators, turbine flow meters and watch wheels (Bird Precision; Wikipedia 'Jewel bearing').
+- **degrees_of_freedom**: 1: rotation about the edge line or the pivot axis. Nothing positively holds the parts together: the load presses the edge into its seat, end stops (anti-friction plates) stop sideways sliding (Rice Lake), and in a jewel pivot the two jewels plus a small set end play stop movement along the axis (Bird Precision).
+- **special_behaviour**: 
+  - self-aligning or self-centring: a knife edge settles back into the bottom of a V-shaped seat ('a sharp V-shaped pivot seated in a shallower V-shaped bearing', Wikipedia 'Weighing scale'), and a cone pivot centres itself in a vee jewel, whose cone-shaped entry also allows 'a small amount of misalignment, without binding' (Bird Precision)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it only supports and locates a moving part
+  - shape (the parts interlock; form-fit): the V-shaped seat or cone-shaped jewel cup locates the edge or point, while gravity or a light spring keeps it seated (Wikipedia 'Weighing scale'; Bird Precision)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release for knife edges: a balance beam or a Kater's pendulum is simply lifted off its knife edges (sci-toys microgram balance; Wikipedia 'Kater's pendulum'). Removable for jewel pivots: back off a jewel screw to free the shaft (Bird Precision).
+- **reuse_cycles**: many times: nothing is fastened, but each handling risks knocking the edge or point; small pivot points can be flattened by shock (Bird Precision)
+- **tools_needed**: None to set a beam on its edges. A small screwdriver to set a jewel pivot's end play with its fine-thread screw (Bird Precision). For making: glue to fix razor-blade edges (sci-toys), a fine stone or a soft-metal lap to hone an edge, never a file (Rice Lake), and a drill to clean out pivot holes (Printables 'Ratio-reading Balance Scale').
+- **seal**: none
+- **load**: light. Jewel bearings usually carry under 1 g, though sizes up to 10 mm can take about 500 g (Wikipedia 'Jewel bearing'); a small pivot point can be flattened by 50 g under shock or vibration (Bird Precision). Knife edges range from home-made microgram balances (sci-toys) to precision balances up to 5 kg (triangular knife edges; Rice Lake), and hardened heavy versions carry platform and truck scales (Rice Lake). They take only a downward push: no pull at all (the part lifts off) and little sideways force without end stops.
+- **adjustable**: yes, slightly. Jewel end play is set with a fine-thread screw to about 0.003-0.004 in (0.08-0.1 mm), about a quarter turn on a 100-thread-per-inch screw (Bird Precision). A balance's sensitivity is set by moving a small weight up or down relative to the edge (a 'gravity ball' or a nut) (Rice Lake; sci-toys). Scale technicians hone a pivot's side to move the edge and correct the lever ratio (Rice Lake).
+- **play_and_precision**: Knife edge: no play in the loaded direction and very repeatable if the edges are hard, sharp and parallel; pivots that are not parallel in both planes cause friction, poor repeatability and inconsistent readings (Rice Lake). Jewel pivot: a small deliberate end play (about 0.08-0.1 mm) so the points never lock up, and the vee's cone accepts a little angular misalignment (Bird Precision); hole jewels have a hole slightly larger than the shaft (Wikipedia 'Jewel bearing').
+- **access_needed**: both sides for jewel pivots: the shaft is held between two jewel screws, one at each end (Bird Precision). Not applicable for a knife-edge beam, which is simply set down onto its seats from above.
+- **materials**: Jewels: synthetic sapphire or ruby (corundum, Mohs hardness 9), hard Pyrex glass or tungsten carbide (Wikipedia 'Jewel bearing'; Bird Precision). Pivots: Niva alloy (a non-magnetic chrome-cobalt alloy, RC 62 or harder), tungsten carbide, 440C or 420F stainless steel (Bird Precision). Maker substitutes: single-edged razor blades as knife edges (sci-toys; Instructables razor-blade balance). *(unverified parts omitted)*
+- **maker_difficulty**: easy for a simple knife-edge balance made from razor blades and a threaded rod (sci-toys); hard for precision pivots, because grinding hard edges and polishing pivot points is specialist work, so buy jewels, cone pivots and jewel screws
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: vee jewels, ring jewels, cone pivots and jewel screws (Bird Precision stocks over 100 vee sizes from 1 to 3 mm outside diameter); single-edged razor blades as maker knife edges (sci-toys)
+  - 3D print (FDM): the beam, stand, pans and pointer, with steel edges or jewels glued or clamped in (Printables 'Ratio-reading Balance Scale' prints all the parts and adds steel wire pivots)
+  - woodwork and simple metalwork: home-made balances on threaded rod, washers and razor blades (sci-toys; Instructables razor-blade beam balance)
+  - CNC and precision grinding: heavy scale pivots are hardened, ground and lapped (Rice Lake)
+- **print_in_place**: Print-in-place balance scales exist but use ordinary printed pin pivots instead (Printables 'Functional Print-in-Place Balance Scale', not a knife edge). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Print the beam, stand and pans, but make the edge and the seat from hard materials: a razor blade or ground steel edge resting on hard steel, glass or stone. 2) Copy the sci-toys layout: two razor blades glued edge-up into slotted screws on the stand, and a third razor blade clamped across the beam between washers and nuts, so edge rests across edge (sci-toys). 3) Put the edge just above the beam's centre of gravity: the closer, the more sensitive; if a pushed-down end stays down, the pivot is below the centre of gravity and must be raised (sci-toys). Make the edge height or a counterweight adjustable with a screw and nut (sci-toys; Rice Lake 'gravity ball'). 4) Keep the beam light and stiff ('Lighter is better', Printables 'Ratio-reading Balance Scale'); print long beams flat with a brim for bed adhesion (Printables balance models). 5) Make both edges and seats parallel and level: print the edge slots in the same print as the beam so they line up, and level the seats (Rice Lake: pivots must be parallel in two planes). 6) Add end stops so the beam can't slide sideways: a small plate touching the tapered end of the edge at a single point (Rice Lake anti-friction plate). 7) For a pointer or needle that turns, buy a cone pivot and a vee jewel and press the jewel into a printed or drilled seat, with the other end in an adjustable screw so you can set a tiny end play (Bird Precision). 9) Shield it from drafts and keep it away from foot traffic: sensitive balances are disturbed by air currents and people walking past (sci-toys). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search: 'vee jewel bearing' (sapphire or glass), 'cone pivot' or 'conical pivot' (single cone and double-ended), 'jewel screw' (fixed or spring-loaded), 'ring jewel', 'olive jewel', 'endstone' or 'cap jewel' (Bird Precision; Wikipedia 'Jewel bearing'). For scales: 'scale pivots and bearings' (teardrop, block, square pivots; anti-friction plates) (Rice Lake). Maker substitutes: 'single-edge razor blades' (sci-toys). Related ready-made instruments: watch movements (17 jewels in a typical fully jewelled time-only watch) and moving-coil panel meters with sapphire vee bearings (Wikipedia; Bird Precision).
+- **rules_of_thumb**: 
+  - Edge and seat angles: the knife edge must be sharp enough and the seat's angle open enough (obtuse) to give the needed swing and tolerate dirt; a blunter edge lasts longer; wear increases rapidly if the rocking angle is more than about 5 degrees (Rice Lake 'Understanding pivots and bearings', section 2.2).
+  - Hardness: knife edges must stand pressures 'on the order of 22 tons/cm2'; make the pivot as hard as its bearing, and harden only the edge and contact point, because a fully hardened part becomes brittle and can crack under extreme loads (Rice Lake, sections 2.2-2.3).
+  - Seat shape: for highest accuracy, a sharp V-shaped pivot sits in a shallower V-shaped bearing (Wikipedia 'Weighing scale'); for shock-loaded scales use round-bottom V bearings, not sharp-bottom ones, which the edge jams into as it wears (Rice Lake, section 2.4.2).
+  - Alignment: the pivots on a lever must be parallel both in spacing and in level; a tapered pivot end should touch its anti-friction plate at only one point (Rice Lake, sections 2.4.2 and 2.5).
+  - Sensitivity: put the pivot very close to, but above, the moving part's centre of gravity; the closer, the more sensitive (sci-toys), and the more mass below the pivot, the less sensitive (Rice Lake, section 3.1). The sci-toys razor-blade balance resolves less than a milligram and, with care, about 10 micrograms.
+  - Vee jewels: cone angle typically 85 degrees with a 55-degree pivot cone, which allows a little misalignment (Bird Precision 'Vee jewel').
+  - Point radius ratio: make the jewel's tip radius about 3 times the pivot point's radius, e.g. a 0.002-0.003 in (0.05-0.08 mm) point in a 0.006-0.009 in (0.15-0.23 mm) vee; too high a ratio gives over-sensitivity, poor repeatability and easy damage, too low a ratio gives a 'sticky' movement (Bird Precision 'Vee bearing design considerations'; 'Vee jewel').
+  - Load: glass vees for moving parts under 200 mg, sapphire above that; small points of 0.0008-0.002 in (0.02-0.05 mm) can be flattened by 50 g or more, so heavier parts need points of about 0.005-0.007 in (0.13-0.18 mm) (Bird Precision).
+  - Contact pressure: 40 g on a 60-degree steel pivot with a 0.002 in point gives about 1,237 kg/mm2, but a 0.0032 in point cuts it to 131 kg/mm2; a bigger point lasts longer but adds friction (Bird Precision, paraphrasing V. Stott, 'The Use of Pivots and Jewels in Instruments and Meters').
+  - Pivot finish and hardness: points hardened to RC 45 or better and polished to about 4 micro-inch (about 0.1 micrometre) (Bird Precision).
+  - End play: about 0.003-0.004 in (0.08-0.1 mm), roughly a quarter turn on a 100-thread-per-inch jewel screw; never lock the points up (Bird Precision).
+  - Size and friction: jewel bearing bores are typically under 1 mm for loads under 1 g (up to about 10 mm and 500 g); static friction of sapphire on steel is 0.10-0.15 against 0.35 for brass on steel (Wikipedia 'Jewel bearing'); Bird quotes about 0.12.
+
+### When to use it
+
+- **everyday_examples**: 
+  - A traditional two-pan balance scale, and old shop and platform scales, whose beams rock on knife edges (Wikipedia 'Weighing scale'; Rice Lake)
+  - The needle of an analogue (moving-coil) panel meter, whose coil turns on cone pivots in sapphire vee jewels (Bird Precision, figure 1; Wikipedia 'Galvanometer')
+  - A compass needle balanced on a pivot (Bird Precision lists compasses and dip needles)
+  - A mechanical watch marked '17 jewels', which has synthetic ruby bearings for its wheels and balance (Wikipedia 'Jewel bearing')
+- **when_to_use**: Use a knife edge or jewel pivot when tiny forces must move something reliably and repeatably: balances and weighing beams, pointers and meter needles, compass and dip needles, wind vanes and wind-speed cups (Bird Precision's anemometer example), and pendulums (Kater's pendulum hung on knife edges on agate plates; Wikipedia). They give very low and, importantly, very consistent friction (sapphire has 'highly consistent static friction', Wikipedia 'Jewel bearing'), which matters more than strength in measuring instruments. Knife edges suit small rocking movements; jewel pivots suit small shafts that turn continuously under very light load. Jewels can even run without oil and in corrosive surroundings (Wikipedia).
+- **when_not_to_use**: Don't use them for heavy, shock or vibrating loads, for parts that get carried and dropped, or where the joint must resist a pull: jewels are brittle (Wikipedia) and small points flatten under shock (Bird Precision); use a plain pin pivot or a ball bearing instead. Don't use a knife edge for large swings: wear rises fast beyond about 5 degrees (Rice Lake); use a ball bearing. Ball bearings, though, have their own starting resistance in tiny, slow, oscillating movements (Bird Precision says miniature ball bearings have starting-torque problems 'due to detent of the balls'), so for small angles with no friction and no wear consider a flexure hinge, and for rugged meters a taut band, which replaced jewel pivots and hairsprings because it is 'more rugged for field use' (Wikipedia 'Galvanometer'). If you can't make the edge and seat from hard materials, a well-made pin pivot in a drilled printed hole is a fair compromise (Printables balance models use steel wire or nails as pins).
+- **environment_limits**: Rust is the main enemy of steel pivots and bearings: they are nickel-plated for storage and greased in service (Rice Lake). Dirt build-up stops edges seating, which is one reason seats are given an open angle (Rice Lake). Sensitive balances are upset by drafts, vibration and people walking by (sci-toys), and analytical balances sit inside a draft shield (Wikipedia 'Weighing scale'). Sapphire jewels have good temperature stability and can run without lubrication and in corrosive environments, but are brittle (Wikipedia 'Jewel bearing'). In compasses and meters, pivots should be non-magnetic and corrosion-resistant (Bird Precision). *(unverified parts omitted)*
+- **safety_notes**: Razor blades and ground knife edges are very sharp: sci-toys warns to be 'very careful' when cutting a notch in a razor blade and keeps the cardboard guards on the base blades until the beam is fitted (sci-toys). *(unverified parts omitted)*
+- **common_failures**: Edge or point dulled, flattened or chipped by overload or shock: a truck-scale knife edge flattens on first loading, and small instrument points flatten at 50 g under shock; use a bigger point radius or spring-loaded jewels (Rice Lake; Bird Precision). A groove worn into a seat that is softer than the edge, so the edge binds (Rice Lake). Pivots not parallel, so the beam rubs, sticks and gives inconsistent readings (Rice Lake). Rust or dirt in the contact (Rice Lake). Beam sliding sideways and rubbing its frame without end stops (Rice Lake). Jewel end play screwed down too tight, locking and damaging the points (Bird Precision). Brittle jewels cracked by knocks (Wikipedia). A balance that tips and stays over because its pivot is below the centre of gravity, or is sluggish because too much mass hangs below the pivot (sci-toys; Rice Lake). Drafts and vibration making a sensitive balance wander (sci-toys).
+- **related**: 
+  - Plain pivot and rolling bearing (pin in a hole, ball bearing): stronger and holds against pull, but with more friction and, in ball bearings, a 'detent' at very small movements
+  - Flexure hinge (notch, leaf-spring or cross-spring pivot): bends instead of rocking, so it has no friction or wear and no lubrication, but only turns a small angle and has a springy return force
+  - Taut-band suspension: a thin metal strip under tension replaces jewel pivots and hairsprings in rugged meters (Wikipedia 'Galvanometer')
+  - Rolling-contact joint: two curved surfaces rolling on each other, another low-friction pivot without a pin
+  - Kinematic coupling (balls in V-grooves): also uses hard point contacts on hard seats, but to locate parts exactly rather than to let them turn
+  - Escapement: the watch and clock mechanism whose pallets and wheels usually run in jewel bearings *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Kater pendulum (Wikimedia Commons, drawing from William Watson's 'A Textbook of Physics', 1920)](https://commons.wikimedia.org/wiki/File:Kater_pendulum.png): Labelled drawing of a Kater's pendulum with two opposing knife-edge pivots (a), adjustment weights, bob and pointers *(licence: Public domain)*
+  - [Watch jewel bearing.svg (Wikimedia Commons, by Chetvorno)](https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing.svg): Cross-section of a watch hole jewel: a doughnut-shaped synthetic ruby pressed into the plate, with an oil cup holding oil round the shaft *(licence: Public domain)*
+  - [Watch jewel bearing and capstone.svg (Wikimedia Commons, by Chetvorno)](https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing_and_capstone.svg): Cross-section of a hole jewel with a capstone (cap jewel) on the end, so the pivot tip, not its shoulder, bears on the jewel *(licence: Public domain)*
+  - [Vee Jewel: Sapphire and glass vee jewels, design considerations (Bird Precision, PDF)](https://catalog.birdprecision.com/Asset/vee_jewel--1-.pdf): Cutaway of a moving-coil meter movement on sapphire vee bearings, vee jewel nomenclature, end-play adjustment and spring-loaded shock protection drawings *(licence: link only)*
+  - [Technical Support: Understanding Pivots and Bearings (Rice Lake Weighing Systems, PDF)](https://www.ricelake.com/media/a4vbatqa/2026_technical_support.pdf): Drawings of teardrop, square, block and triangular knife-edge pivots, anti-friction plates, worn versus new pivots, and parallel pivot alignment *(licence: link only)*
+- **make_it_yourself**: 
+  - [A Homemade Microgram Balance (sci-toys.com)](https://sci-toys.com/scitoys/scitoys/mathematics/microgram_balance/balance.html): Step-by-step build of a balance from a threaded rod, washers, nuts, soda-can pans and three single-edged razor blades used as knife edges; resolves less than a milligram *(licence: not shown on page)*
+  - [Razor Blade Equal-Arm Beam Balance Micro Scale (Instructables, 2013)](https://www.instructables.com/Razor-Blade-Equal-Arm-Beam-Balance-Micro-Scale/): Build of a 24-inch equal-arm micro balance on an aluminium level base, with razor blades as knife edges on adjustable threaded support rods *(licence: not shown on page)*
+  - [Ratio-reading Balance Scale (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/171329-ratio-reading-balance-scale): Fully printable balance that reads the ratio of two weights; uses 1.5-2 mm steel wire as pin pivots in drilled-out holes and a bolt as counterweight, a useful comparison with a knife edge *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Two close-up cross-sections side by side: a balance beam's triangular knife edge rocking in a wider V-shaped agate seat, and a cone-pointed shaft end sitting in a cone-shaped sapphire cup, each with a magnified circle showing the tiny rounded tip touching at a line or point, compared with a pin rubbing all round in a hole.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Weighing_scale
+  - https://en.wikipedia.org/wiki/Jewel_bearing
+  - https://en.wikipedia.org/wiki/Kater%27s_pendulum
+  - https://en.wikipedia.org/wiki/Galvanometer
+  - https://www.ricelake.com/media/a4vbatqa/2026_technical_support.pdf
+  - https://catalog.birdprecision.com/Asset/vee_jewel--1-.pdf
+  - https://cdn.thomasnet.com/ccp/00400419/38872.pdf
+  - https://sci-toys.com/scitoys/scitoys/mathematics/microgram_balance/balance.html
+  - https://www.instructables.com/Razor-Blade-Equal-Arm-Beam-Balance-Micro-Scale/
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://www.printables.com/model/171329-ratio-reading-balance-scale
+  - https://www.printables.com/model/1465894-balance-scale
+  - https://www.printables.com/model/1029836-educational-balance-scale
+  - https://www.printables.com/model/1766744-functional-print-in-place-balance-scale-with-weigh
+  - https://commons.wikimedia.org/wiki/File:Kater_pendulum.png
+  - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing.svg
+  - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing_and_capstone.svg
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, making_tips_3d_printing, materials, print_in_place, related, safety_notes
+
