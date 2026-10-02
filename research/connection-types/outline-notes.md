@@ -1,6 +1,6 @@
 # Run 2 outline: how it was built
 
-**Date:** 2026-09-26, items 275-299 added 2026-09-29 · **Files:** `outline.yaml` (299 items, 25 families), `fields.yaml`
+**Date:** 2026-09-26, items 275-299 added 2026-09-29, items 300-323 on 2026-09-30 · **Files:** `outline.yaml` (323 items, 26 families), `fields.yaml`
 (41 fields), `preferred-sources.md` (run 1's collections for the research agents)
 
 ## Steps
@@ -22,10 +22,12 @@
 | 2 | 143-256 | Other unusual types; joinery (wood, sheet, panels) last |
 | 3 | 257-274 | One generic baseline entry per family |
 | added | 275-299 | Added 2026-09-29 with `/research-add-items`: tier 1 types first (275-290), then tier 2 (291-299, joinery last) |
+| added | 300-323 | Added 2026-09-30: the new *hydraulics, pneumatics & vacuum* family (2 baselines, then tier 1 302-309, then tier 2 310-323) |
 
 At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 items take 16.
 
 ## Family changes
+- **New (2026-09-30): hydraulics, pneumatics & vacuum.** See the section on items 300-323 below.
 - **New: seals & pass-throughs.** The `seal` finder field had no entries that actually seal
   (O-ring, gasket, labyrinth seal, hose barb, cable gland, compression fitting), plus slip
   rings and cable carriers.
@@ -77,6 +79,29 @@ At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 
   entries such as slider-crank and cam and follower). Check valve, soft pneumatic actuator and
   pneumatic muscle need an air or water supply; run 1 had put hydraulic and pneumatic circuits
   out of scope, but the owner chose to include these single components.
+
+## Added on 2026-09-30: new family *hydraulics, pneumatics & vacuum*
+- **Why:** run 1 had put hydraulic and pneumatic circuits out of scope. After the 2026-09-29 gap
+  search added three air-powered items, the owner chose to add a full 26th family (R20). Key
+  `hydraulics, pneumatics & vacuum`, label *Moves, holds or lets go using air or liquid pressure, or
+  suction*: suction types belong here too, and beginners don't think of suction as pneumatics.
+- **Items 300-323** (all 24 found by a web search of Wikipedia's fluid-power categories, Thang's
+  hydraulic, pneumatic and pump sections, maker sources and HSE safety guides): syringe hydraulics
+  and air or hydraulic cylinder (the baselines); switching valve, peristaltic pump, venturi vacuum
+  generator, bellows and inflatable actuators, air-logic valve, Tesla valve, vacuum-driven muscle,
+  syringe pump (tier 1); diaphragm pump, air tank and accumulator, pressure regulator, relief valve,
+  speed-control valve, shut-off valve, vacuum table, gear pump, rotary air actuator, float valve,
+  hydraulic ram pump, air bearing, centrifugal pump, bell siphon (tier 2; the last two are
+  borderline and were kept at the owner's choice).
+- **Moved in:** *Soft pneumatic bending actuator* (283), *Pneumatic artificial muscle* (288) and
+  *Check valve* (289), which weren't researched yet. *Bernoulli gripper* (277) stays beside the other
+  air grippers in powered & active connectors.
+- **Tagged:** the new family was added to `other_families` in 12 researched entries (vacuum gripper,
+  granular jamming gripper, suction cup, iris valve, quick couplers, hose barb, compression fitting,
+  O-ring seal, slip ring and rotary union, gas spring, dampers, taper fit). Items 277 and 295 have a
+  note to list it too.
+- **Not changed:** the fixed `job` options (see `review-notes.md`). Near-misses the search rejected
+  (compressors, air motors, air cannons and more) are in `fluid-power-search-2026-09-29.md`.
 
 ## Suggested but left out (easy to add later with `/research-add-items`)
 - **Borderline scope (owner to decide):** electrical joints (crimp terminals, conductive

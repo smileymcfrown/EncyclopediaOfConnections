@@ -13,7 +13,9 @@
       "rubber seal ring, sealing ring, seal washer (common shop names) [uncertain]"
     ],
     "family": "seals & pass-throughs",
-    "other_families": [],
+    "other_families": [
+      "hydraulics, pneumatics & vacuum"
+    ],
     "one_liner": "A ring of rubber with a round cross-section that sits in a groove and is squashed a set amount when two parts are closed, blocking the gap so liquids and gases can't leak through.",
     "complexity": "A few parts: the rubber ring (O-ring), a groove (gland) cut or printed into one part, a smooth mating face or bore on the other part, and whatever holds the two parts closed (screws, a screw thread, a bayonet or clips). Optional: a thin film of O-ring grease, and for high pressure a plastic back-up ring (Parker O-Ring Handbook; Wikipedia).",
     "how_it_works": "The groove is made slightly shallower than the ring is thick, so closing the parts squashes the ring by a set amount (the squeeze), and the rubber pushes back hard against both surfaces, closing every tiny gap (Parker, section 3.6). Rubber behaves almost like a liquid that can't be compressed, so when water or air pressure pushes on one side, the ring is shoved into the corner of the groove and presses even harder on the faces; that is why an O-ring can hold high pressure as long as the rubber isn't squeezed out through the gap (Wikipedia 'O-ring'). The groove must have spare room (about a quarter empty) so the rubber has somewhere to go when squashed, heated or swollen (Parker, section 3.7). The parts themselves are held together by something else; the O-ring only seals."

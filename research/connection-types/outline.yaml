@@ -1171,7 +1171,7 @@ items:
   - name: Bernoulli gripper (non-contact air gripper)
     category: powered & active connectors
     description: A pad that blows a thin, fast stream of air outwards so the low pressure draws a flat part close and holds it on a cushion of air, for thin wafers, glass, film or fabric
-    notes: Unlike the Vacuum (suction) gripper it has no seal and barely touches the part
+    notes: Unlike the Vacuum (suction) gripper it has no seal and barely touches the part. Also list hydraulics, pneumatics & vacuum in other_families
   # 278
   - name: Tendon-driven joint (cable-pulled finger or tentacle)
     category: motion conversion
@@ -1196,9 +1196,9 @@ items:
     description: Rubber bands, elastic cord or rubber tubing used as stretchy springs, for example to pull a printed finger straight again; they stretch much further than steel springs but creep and perish
   # 283
   - name: Soft pneumatic bending actuator (air-powered soft finger)
-    category: powered & active connectors
+    category: hydraulics, pneumatics & vacuum
     description: A rubbery finger cast in silicone or printed in TPU with air chambers along one side, so it curls to grip when pumped full of air and straightens when the air is let out
-    notes: Also known by the research name PneuNet (pneumatic network)
+    notes: Also known by the research name PneuNet (pneumatic network). Also covers fibre-reinforced soft actuators. Also list powered & active connectors and compliant mechanisms & flexures in other_families
   # 284
   - name: Scroll mechanism (self-centring scroll chuck, spiral-slot plate)
     category: clamping, magnetic & friction connections
@@ -1219,12 +1219,14 @@ items:
     notes: Also covers the gearless right-angle socket adapter
   # 288
   - name: Pneumatic artificial muscle (McKibben muscle)
-    category: powered & active connectors
+    category: hydraulics, pneumatics & vacuum
     description: A rubber tube inside a woven sleeve that gets fatter and shorter when pumped with air, pulling hard like a muscle
+    notes: Also list powered & active connectors in other_families
   # 289
   - name: "Check valve (one-way valve: flap, ball or duckbill)"
-    category: seals & pass-throughs
+    category: hydraulics, pneumatics & vacuum
     description: A valve that lets air or liquid flow one way only, closed by a flap, a spring-loaded ball or a rubber beak that any backflow presses shut
+    notes: Also covers tyre valves (Schrader and Presta), reed valves and printed TPU duckbill valves. Also list seals & pass-throughs and one-way & ratchet in other_families
   # 290
   - name: Bellows boot and way cover (gaiter)
     category: seals & pass-throughs
@@ -1249,6 +1251,7 @@ items:
   - name: Radial lip seal (rotary shaft seal, oil seal)
     category: seals & pass-throughs
     description: A rubber ring with a springy lip pressed against a spinning shaft, keeping oil in and dirt out where an O-ring would wear through
+    notes: Also list hydraulics, pneumatics & vacuum in other_families
   # 296
   - name: Knife-edge and jewel pivots (low-friction point pivots)
     category: hinges & pivots
@@ -1266,6 +1269,128 @@ items:
   - name: Housing and rebate joints (dado, rabbet)
     category: interlocking joints & joinery
     description: A groove cut across a board (housing or dado) or a step cut along its edge (rebate or rabbet) that another board fits into, as in bookshelves and cabinet backs
+
+  # ==================== ADDED 2026-09-30: new family 'hydraulics, pneumatics & vacuum' ====================
+  # 24 types from a web search for the new family (fluid-power-search-2026-09-29.md), in priority
+  # order: the family's two baselines first (300-301), then tier 1 (302-309), then tier 2 (310-323).
+  # Items 283, 288 and 289 were moved into this family at the same time.
+  # 300
+  - name: Syringe hydraulics (hydraulic lever, Pascal's principle)
+    category: hydraulics, pneumatics & vacuum
+    description: Two syringes or cylinders joined by a water-filled tube, so pushing one plunger pushes the other; a small one driving a big one trades distance for force, as in school hydraulic arms, car jacks and bike brakes
+    notes: Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also list gear trains, gearboxes & transmissions in other_families
+  # 301
+  - name: Air or hydraulic cylinder (pneumatic cylinder, hydraulic ram)
+    category: hydraulics, pneumatics & vacuum
+    description: A piston in a tube that pushes a rod out when air or oil is let in behind it; a single-acting cylinder returns by a spring or gravity, a double-acting one is driven both ways
+    notes: "Baseline entry for the family. Also covers telescopic, rodless and cable cylinders, the air gripper, feeding air to a moving cylinder, and printed cylinders. Safety: crush points, trapped air moving a stopped cylinder, hydraulic oil injection injuries. Also list sliding, telescoping & linear motion and powered & active connectors in other_families"
+  # 302
+  - name: Switching valve (directional control valve, solenoid valve)
+    category: hydraulics, pneumatics & vacuum
+    description: A valve that sends air or liquid to one port or another when switched by an electric coil, a hand lever, a foot pedal or air pressure, to make a cylinder or soft actuator move
+    notes: "Covers 2/2, 3/2, 5/2 and 5/3 valves, normally open versus normally closed, and pilot-operated valves that need a pressure difference to work. Safety: water hammer when a valve snaps shut. Also list powered & active connectors in other_families"
+  # 303
+  - name: Peristaltic pump (tube pump, roller pump)
+    category: hydraulics, pneumatics & vacuum
+    description: Rollers on a turning rotor squeeze a soft tube and push the liquid along it, so only the tube touches the liquid and each turn moves a set amount, which makes it good for dosing
+  # 304
+  - name: Venturi vacuum generator (vacuum ejector, aspirator)
+    category: hydraulics, pneumatics & vacuum
+    description: A T-shaped nozzle where a fast jet of compressed air or tap water drags air in through a side port, making suction with no moving parts
+    notes: Also covers the airlift pump. Also list powered & active connectors in other_families
+  # 305
+  - name: Bellows and inflatable actuators (air bag, air spring)
+    category: hydraulics, pneumatics & vacuum
+    description: A folded or balloon-like chamber that gets longer or lifts when pumped full of air (or shorter when the air is sucked out), giving a straight push with no sliding seals; it can be printed in TPU
+    notes: "Also covers air springs, lifting bags and the everting vine robot. Safety: bursts if over-inflated. Also list compliant mechanisms & flexures and powered & active connectors in other_families"
+  # 306
+  - name: Air-logic valve (pneumatic logic, soft bistable valve)
+    category: hydraulics, pneumatics & vacuum
+    description: Valves switched by air pressure instead of electricity, joined into simple logic, memories and oscillators so a soft robot can walk or grip with no electronics
+    notes: Also covers the shuttle valve. Also list compliant mechanisms & flexures in other_families
+  # 307
+  - name: Tesla valve (no-moving-parts one-way channel)
+    category: hydraulics, pneumatics & vacuum
+    description: A channel with looping side pockets that lets liquid or air through easily one way and turns it back on itself the other way; it only slows backflow, so it always leaks a little
+    notes: "Often mistaken for a true one-way valve: unlike the Check valve, it never fully seals. Also list one-way & ratchet and print-in-place & 3D-printing joints in other_families"
+  # 308
+  - name: Vacuum-driven artificial muscle (origami vacuum muscle)
+    category: hydraulics, pneumatics & vacuum
+    description: A folded skeleton sealed inside a thin bag; sucking the air out collapses the bag onto the skeleton so it contracts, bends or twists with great force
+    notes: Also list compliant mechanisms & flexures and powered & active connectors in other_families
+  # 309
+  - name: Syringe pump (syringe driver)
+    category: hydraulics, pneumatics & vacuum
+    description: A motor turns a screw that pushes a syringe plunger at a slow, exact rate, to dispense or draw small, measured amounts of liquid
+    notes: "Safety: never use a home-made one on people. Also list sliding, telescoping & linear motion in other_families"
+  # 310
+  - name: Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
+    category: hydraulics, pneumatics & vacuum
+    description: A rubber disc or bulb flexed in and out between two one-way valves, as in aquarium air pumps, the small air and vacuum pumps that feed soft robots, and hand squeeze bulbs
+    notes: Also covers piston hand pumps (bike pumps) and bellows pumps
+  # 311
+  - name: Air tank and hydraulic accumulator (pressure reservoir)
+    category: hydraulics, pneumatics & vacuum
+    description: A container that stores air, or oil pushed by trapped gas, a spring or a weight, under pressure so a small pump can drive short, fast bursts of motion, as in robot air tanks, water rockets and CO2 cartridges
+    notes: "Safety is the main topic: tanks can burst and hoses whip; never hold stored pressure in a 3D-printed part. Also list springs & energy storage in other_families"
+  # 312
+  - name: Pressure regulator (pressure-reducing valve)
+    category: hydraulics, pneumatics & vacuum
+    description: A spring-and-diaphragm valve that turns a high supply pressure down to a steady working pressure that you set, and holds it there as air is used
+    notes: Often confused with the Pressure relief valve, which only opens in an emergency
+  # 313
+  - name: Pressure relief valve (safety valve, pop-off valve)
+    category: hydraulics, pneumatics & vacuum
+    description: A spring-held valve that pops open and lets pressure out above a set value, so tanks, pumps and soft actuators can't burst
+    notes: "Also covers the rupture (burst) disc and vacuum relief valves on dust collectors. Safety: never block or screw down a relief valve. Also list torque limiting & slip in other_families"
+  # 314
+  - name: Speed-control valve (flow control valve, needle valve)
+    category: hydraulics, pneumatics & vacuum
+    description: An adjustable narrow gap, usually with a one-way bypass, so a cylinder moves slowly one way and freely the other
+    notes: Also covers meter-out control and the quick exhaust valve. Also list brakes, dampers & speed control in other_families
+  # 315
+  - name: Shut-off valve (tap, ball valve, stopcock)
+    category: hydraulics, pneumatics & vacuum
+    description: A hand valve that simply opens or closes a pipe; a ball valve turns a drilled ball a quarter turn, and its handle shows whether it is open
+    notes: Also covers gate, globe and plug valves. Also list seals & pass-throughs in other_families
+  # 316
+  - name: Vacuum hold-down table (vacuum table)
+    category: hydraulics, pneumatics & vacuum
+    description: A flat plate with holes or grooves over a sealed chamber that a vacuum pump empties, so air pressure pins sheets flat for CNC milling, laser cutting or PCB making
+    notes: Also list clamping, magnetic & friction connections in other_families
+  # 317
+  - name: Gear pump (including gerotor)
+    category: hydraulics, pneumatics & vacuum
+    description: Two meshing gears in a close-fitting case carry liquid round from the inlet to the outlet; the standard small hydraulic pump, and many can also run backwards as a motor
+    notes: Also covers internal gear, vane, lobe and flexible-impeller pumps. Also list gear trains, gearboxes & transmissions in other_families
+  # 318
+  - name: Rotary air actuator (vane or rack-and-pinion rotary actuator)
+    category: hydraulics, pneumatics & vacuum
+    description: An air- or oil-powered unit that turns a shaft back and forth through a set angle, with a swinging vane or with pistons driving a rack and pinion
+    notes: Also covers printed pneumatic stepper motors. Also list powered & active connectors and motion conversion in other_families
+  # 319
+  - name: Float valve (ballcock)
+    category: hydraulics, pneumatics & vacuum
+    description: A float on a lever that shuts the water inlet as the level rises, keeping a tank topped up without overflowing, as in toilet cisterns and animal drinkers
+  # 320
+  - name: Hydraulic ram pump (water-hammer pump)
+    category: hydraulics, pneumatics & vacuum
+    description: "A pump with no motor: water rushing down a pipe slams a valve shut, and the pressure surge pushes part of the water higher than where it came from"
+    notes: "Safety: water-hammer pressure spikes can burst pipes and fittings"
+  # 321
+  - name: Air bearing and air caster (air-cushion bearing)
+    category: hydraulics, pneumatics & vacuum
+    description: A pad that floats on a thin film of air blown out through small holes, so a part slides with almost no friction, as on an air-hockey table
+    notes: Also list sliding, telescoping & linear motion and hinges & pivots in other_families
+  # 322
+  - name: Centrifugal pump (impeller pump)
+    category: hydraulics, pneumatics & vacuum
+    description: A spinning impeller flings water outwards into a spiral casing, giving lots of flow at low pressure; the usual fountain and aquarium pump, which must be full of water (primed) to start
+    notes: Unlike the positive-displacement pumps (gear, diaphragm and peristaltic), it gives flow rather than pressure
+  # 323
+  - name: Automatic siphon (bell siphon)
+    category: hydraulics, pneumatics & vacuum
+    description: A bell-shaped cap over a standpipe that starts siphoning when the water reaches the top and stops when air gets in, so a grow bed or tank floods and drains by itself with no moving parts
 
 execution:
   batch_size: 6
@@ -1336,3 +1461,5 @@ families:
     label: Stores energy
   - key: brakes, dampers & speed control
     label: Slows it, stops it, or keeps its speed steady
+  - key: hydraulics, pneumatics & vacuum
+    label: Moves, holds or lets go using air or liquid pressure, or suction

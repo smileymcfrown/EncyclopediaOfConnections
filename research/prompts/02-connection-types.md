@@ -117,31 +117,37 @@ session log), then commit and push.
 ## For you (not part of the prompt)
 
 **Use this when** the outline has items that aren't researched yet. That is now the case:
-items 275-299 were added on 2026-09-29 (see `research/connection-types/outline-notes.md`).
+items 276-299 (added 2026-09-29) and the new *hydraulics, pneumatics & vacuum* family,
+items 300-323 (added 2026-09-30). Item 275 is already done. See
+`research/connection-types/outline-notes.md`.
 
 **Steps**
 1. Make sure everything is merged into `main`, then start a new Claude Code session on this repo.
 2. Copy **everything inside the box** below, paste it as your first message and send it.
 
 **What to expect**
-- 25 items at 3 per agent is 9 agents: one batch of 6, then 3 more. `/research-deep` skips
-  every item that already has a results file.
+- 48 items at 3 per agent is 16 agents: batches of 6, 6 and 4. `/research-deep` skips every
+  item that already has a results file.
 - If the usage limit stops the agents, wait for it to reset and say "continue". Files written
   before the cut-off are checked and kept if complete.
-- At the end it regenerates the report, updates PROJECT.md and opens a pull request.
+- At the end it regenerates the report (now 26 family pages), updates PROJECT.md and opens a
+  pull request.
 
 ## The prompt
 
 ```text
 /research-deep
 
-Continue run 2 of research/connection-types/outline.yaml. Only items 275-299
-(added 2026-09-29) are still to do; /research-deep skips items that already
+Continue run 2 of research/connection-types/outline.yaml. The items still to
+do are 276-299 (added 2026-09-29) and 300-323 (the new "hydraulics, pneumatics
+& vacuum" family, added 2026-09-30); /research-deep skips items that already
 have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
 
-- Research agents follow fields.yaml (the research_rules) and should also use
-  research/connection-types/gap-search-2026-09-29.md, which lists pages the
-  search agent opened for each new item.
+- Research agents follow fields.yaml (the research_rules). For these items
+  they should start from the pages listed in
+  research/connection-types/gap-search-2026-09-29.md (items 276-299) and
+  research/connection-types/fluid-power-search-2026-09-29.md (items 300-323
+  and 283, 288, 289), opening each page themselves before citing it.
 - After each agent finishes: validate its JSON files with
   .claude/skills/research/validate_json.py, then commit and push, so progress
   isn't lost if the session ends.
@@ -153,10 +159,11 @@ have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
   conflicting figures, errors in sources) to
   research/connection-types/review-notes.md.
 
-When all 299 items are done: run /research-report with family,
+When all 323 items are done: run /research-report with family,
 special_behaviour and motion in the table of contents (the existing
 research/connection-types/generate_report.py already does this). Then update
-PROJECT.md: tick the "Research the 25 items added on 2026-09-29" roadmap item,
-update the research-runs row, current phase, next action (owner reviews run 2,
-then run 3) and session log. Commit, push and open a pull request into main.
+PROJECT.md: tick the roadmap item for the items added on 2026-09-29 and
+2026-09-30, update the research-runs row, current phase, next action (owner
+reviews run 2, then run 3) and session log. Commit, push and open a pull
+request into main.
 ```

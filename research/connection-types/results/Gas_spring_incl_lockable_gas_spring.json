@@ -18,7 +18,8 @@
     "other_families": [
       "brakes, dampers & speed control",
       "self-locking & anti-back-drive",
-      "sliding, telescoping & linear motion"
+      "sliding, telescoping & linear motion",
+      "hydraulics, pneumatics & vacuum"
     ],
     "one_liner": "A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.",
     "complexity": "A small sealed assembly that acts as one unit (it cannot be opened): steel pressure tube, piston rod, piston with a tiny hole (orifice) or valve, rod seal and guide bushing, nitrogen gas, a little oil, and threaded ends that take swap-on end fittings (ball sockets, eyes, clevises) plus ball studs or brackets on the frame and lid (Wikipedia 'Gas spring'; ACE catalogue). A lockable gas spring adds a valve in the piston, a release pin sticking out of the rod end, and a release head, lever or Bowden cable to press it (Suspa; Stabilus).",

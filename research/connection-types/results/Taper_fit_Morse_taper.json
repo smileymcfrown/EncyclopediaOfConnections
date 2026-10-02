@@ -20,7 +20,8 @@
       "locating & alignment",
       "self-locking & anti-back-drive",
       "seals & pass-throughs",
-      "quick-release & tool-free"
+      "quick-release & tool-free",
+      "hydraulics, pneumatics & vacuum"
     ],
     "one_liner": "A shallow cone pressed into a matching cone-shaped socket, where the wedge action squeezes the surfaces so hard that friction holds it in, centres it exactly and (in syringe and lab-glass fittings) seals it, yet a knock with a wedge or a twist separates it again.",
     "complexity": "A few parts: a male cone (taper shank, arbor, lathe centre, syringe tip, glass stopper) and a female cone-shaped socket (spindle, tailstock quill, adaptor sleeve, needle hub, glass neck). Often with extras: a flat tang on the end of a Morse shank for extra drive and for ejecting it, a wedge-shaped drift to knock it out, a drawbar screwed into the shank on milling machines, or a threaded collar on a Luer lock (Wikipedia 'Machine taper'; 'Luer taper').",

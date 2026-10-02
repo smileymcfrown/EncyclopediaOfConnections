@@ -11,6 +11,8 @@ public-domain books, MIT/BSD code). **link** = link and cite facts in our own wo
 
 For items 275-299 (added 2026-09-29), `gap-search-2026-09-29.md` lists the pages the search
 agent opened for each item; use them as a starting point.
+For the *hydraulics, pneumatics & vacuum* family (items 300-323, plus 283, 288 and 289),
+`fluid-power-search-2026-09-29.md` does the same.
 
 ## Everything (check for every entry)
 | Source | What it gives an entry | Start here | Licence |

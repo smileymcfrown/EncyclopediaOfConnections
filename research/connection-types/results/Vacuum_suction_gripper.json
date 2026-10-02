@@ -16,7 +16,8 @@
     "family": "powered & active connectors",
     "other_families": [
       "clamping, magnetic & friction connections",
-      "quick-release & tool-free"
+      "quick-release & tool-free",
+      "hydraulics, pneumatics & vacuum"
     ],
     "one_liner": "A flexible cup connected to a vacuum pump or an air-powered vacuum generator that holds smooth objects by pumping the air out from under it, and lets go when a valve lets air back in.",
     "complexity": "A small assembly that acts as one unit: the suction cup (a rubber part plus a connection nipple), a vacuum source (an electric vacuum pump, or a compressed-air venturi ejector), a valve that switches the vacuum on and off and lets air back in (venting) or blows a short puff (blow-off), hoses and fittings, a dust filter, and often a vacuum switch or pressure sensor that checks a part is really held (Schmalz knowledge base; OpenPnP wiki).",

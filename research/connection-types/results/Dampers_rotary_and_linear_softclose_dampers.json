@@ -17,7 +17,8 @@
     "family": "brakes, dampers & speed control",
     "other_families": [
       "hinges & pivots",
-      "sliding, telescoping & linear motion"
+      "sliding, telescoping & linear motion",
+      "hydraulics, pneumatics & vacuum"
     ],
     "one_liner": "A damper is a sealed oil- or air-filled part whose resistance grows with speed, fitted at a hinge or along a slide so that a falling lid, a sprung drawer or a closing door slows down and settles quietly instead of slamming.",
     "complexity": "A small sealed assembly that acts as one unit. Rotary damper: a housing, a shaft with a rotor or vane, silicone oil, O-ring seals and a cap; often a small gear on the shaft, and sometimes a one-way clutch inside the rotor (TOK; ACE). Linear damper: a cylinder, a piston with a tiny hole or gap (orifice), a rod, oil or air, seals and often a return spring and a check valve (Wikipedia 'Dashpot'; Airpot). In furniture it is usually paired with a spring or catch that pulls the part shut.",
