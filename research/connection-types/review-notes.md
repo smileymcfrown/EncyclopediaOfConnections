@@ -142,7 +142,19 @@ sentences the same way as plain `[uncertain]`.
   2014 (*Science*) abstract through a Semantic Scholar API URL (cite DOI 10.1126/science.1246906;
   *Twisted-and-coiled polymer muscle*); the OpenFlexure paper through the Europe PMC REST API
   (cite DOI 10.1364/boe.385729; *Elastic band springs*). PMC pages showed bot checks to `curl`,
-  so several papers were read through NCBI E-utilities or Europe PMC.
+  so several papers were read through NCBI E-utilities or Europe PMC. Paywalled papers in
+  *Air-logic valve* and *Vacuum-driven artificial muscle* (Science Robotics, Tawk 2018, Zhai
+  2025) were read as abstracts through Semantic Scholar API URLs.
+- **Manufacturer documents from distributor sites**: Parker *Radial Shaft Seals* catalogue
+  (ashtonseals.co.uk) and SKF seal overview (allsealsinc.com) in *Radial lip seal*; Perstorp
+  Capa data sheets and MSDS (Adafruit's CDN, rapstrap.com) in *Hand-mouldable thermoplastic*.
+  The Recreus "interview" in *Air-logic valve* is a filament seller's article (labelled).
+- **Unopened Printables URLs in `sources`**: *Knife-edge and jewel pivots* lists two model URLs
+  from the API (`1465894-balance-scale`, `1029836-educational-balance-scale`) without the
+  "page not opened" label, which is only on its `make_it_yourself` titles.
+- **Left out on purpose**: *Air tank and hydraulic accumulator* leaves out Printables 498472
+  (printed PET-bottle tank adapters, listed in `fluid-power-search-2026-09-29.md`) and printed
+  water-rocket launchers, because their printed parts hold stored pressure.
 - **Printables links from the API** (labelled "page not opened" where no search result showed
   the URL): *Variable-radius pulley* (264536), *Tendon-driven joint* (two models),
   *Genderless connector* (220355, 129989, 1811372, 1816212), *Anti-twister* (1128267, also in
@@ -182,14 +194,33 @@ sentences the same way as plain `[uncertain]`.
 - *Weight-activated gripping tongs*: "a grip ratio of 2 needs a friction coefficient above
   0.25" is the agent's own calculation from Bushman's equations, labelled [derived]; check it.
 - *Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent's choice,
-  not asked for in the outline notes).
+  not asked for in the outline notes). Likewise *Bellows and inflatable actuators* adds springs
+  & energy storage.
+- *Air tank and hydraulic accumulator*: Hackaday's 2016 article on printed air tanks says PVC
+  pipe is safe for compressed air; OSHA's bulletin says never use it. The entry follows OSHA.
+- *Hand-mouldable thermoplastic*: moulding it on the body (Preproom: never in schools; Easy
+  Composites sells it for that, with cling film over the skin). Both are in `safety_notes`.
+- *Vacuum-driven artificial muscle*: two `safety_notes` points (keep fingers clear; it drops
+  its load if the vacuum is lost) are the agent's reasoning from the mechanism, not from a
+  source, and are not marked. The entry has only 12 sources.
+- *Venturi vacuum generator*: throat and diffuser proportions come from one maker's model
+  description and are marked [uncertain]; a "300 mbar" figure is labelled as a maker's claim.
+- *Knife-edge and jewel pivots*: Rice Lake spells a pivot material "stellate"; probably
+  Stellite, marked [uncertain].
+- Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and
+  *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law
+  example).
 
 ### Blocked or unreadable (nothing cited from them)
 strandbeest.com (JavaScript only; Jansen's numbers were checked from the Commons SVG and an
 arXiv paper instead), Instructables (JavaScript), Taylor & Francis, MDPI, Semantic Scholar web
 pages, softroboticstoolkit.com, bioRxiv (429), lucy.vub.ac.be, AccessEngineering (Sclater's
 "Seven Ways to Limit Shaft Rotation"), hackster.io, cpsc.gov, Fabbaloo, patents.justia.com,
-Toolmonger, Quora, Hacker News, eng-tips, cults3d, MakerWorld and the Wayback Machine. Google
+Toolmonger, Quora, Hacker News, eng-tips, cults3d, MakerWorld, the Wayback Machine, the
+InstaMorph site (404), Frugal Fun, technologystudent.com, Appropedia's syringe-pump page
+(Cloudflare), Watson-Marlow (wmfts.com), control.com, automate.org, Festo's main catalogue PDF,
+vinerobots.org, publisher pages at science.org, Wiley and Nature (a PMC copy was used where one
+exists), and an NTU study of a printed tuned mass damper. Google
 Patents blocks `curl`, so agents checked patent quotes through WebFetch. The RoboMech 2025 TPU
 article listed in `gap-search-2026-09-29.md` was behind a Springer bot check; Stano et al. 2020
 was used instead.
