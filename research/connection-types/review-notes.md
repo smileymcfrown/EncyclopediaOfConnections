@@ -216,6 +216,18 @@ sentences the same way as plain `[uncertain]`.
   *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law
   example).
 
+- Items 316-323 (researched after the pause): printed gear pumps disagree on priming (Printables 277351 "needs to be primed"; 286142 and 1534241 say
+  they prime themselves); gear-pump efficiency (Wikipedia *Gear pump* "generally very efficient"
+  vs *Hydraulic pump* lowest volumetric efficiency, about 90%); air-caster air-film thickness
+  (AeroGo 0.003-0.005 in, Wikipedia "less than a millimeter", Airfloat "approximately a
+  millimeter"); BS 1212 Part 2 float valve (DIY Doctor: plastic Part 1 valve; Squote, APM and the
+  BSI listing: brass diaphragm valve). CNC Cookbook's claim that sliding a part on a vacuum table
+  takes at least twice the lifting force contradicts Mekanika's friction figure and was left out.
+- *Anti-twister mechanism* lists `materials` as unverified without a marker (see above).
+- *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown
+  (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address;
+  the entry credits the name only.
+
 ### Blocked or unreadable (nothing cited from them)
 strandbeest.com (JavaScript only; Jansen's numbers were checked from the Commons SVG and an
 arXiv paper instead), Instructables (JavaScript), Taylor & Francis, MDPI, Semantic Scholar web
