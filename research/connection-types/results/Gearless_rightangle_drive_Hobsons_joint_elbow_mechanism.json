@@ -85,7 +85,7 @@
     "related": [
       "Bevel and mitre gears: the usual way to turn a drive round a fixed corner; stronger and more efficient, and they can change speed, but need accurate teeth",
       "Universal joint (Hooke's or Cardan joint): lets the angle change while running, but its output speed wobbles twice per turn and it can't work at 90 degrees",
-      "Constant-velocity (CV) joint: constant speed at a changeable angle up to about 45-50 degrees, using balls in curved tracks; more complex",
+      "Constant-velocity (CV) joint: also keeps the speed constant, and lets the angle change while running, using balls in curved tracks; more complex and not made for a fixed 90-degree corner",
       "Universal Hobson's joint: Hobson's joint with a hinge in the middle of each rod, so the angle can vary while running; unstable when the shafts are in line (Thang)",
       "Hobson's joints between skew shafts: rods in cranks transmit rotation between shafts that don't meet (Thang 'Transmission between skew shafts by Hobson's joints')",
       "Flexible drive shaft (rotating cable): carries rotation round real bends, but twists under load",
