@@ -129,3 +129,67 @@ break validation; they are clean-ups for the report step or Phase 1.
 - **Twisted-and-coiled polymer muscles** (heat-driven fishing-line actuators): listed under
   *Twisted-string actuator* → `related`; could be its own powered-connector item.
 - **Bernoulli (non-contact) gripper**: listed under *Vacuum (suction) gripper* → `related`; a distinct powered gripper type.
+
+## Items 276-323 (researched 2026-10-02)
+Collected from the agents' hand-back reports for the items added on 2026-09-29 and 2026-09-30.
+Agents write unverified claims as `[uncertain: reason]`; the report generator drops those
+sentences the same way as plain `[uncertain]`.
+
+### Sources and links
+- **Read from copies or through APIs** (cite the original when publishing): Festo DMSP
+  muscle datasheet from a distributor copy (motionworld.com) and the Shadow Robot air-muscle
+  page from an archive copy on lars.mec.ua.pt (*Pneumatic artificial muscle*); Haines et al.
+  2014 (*Science*) abstract through a Semantic Scholar API URL (cite DOI 10.1126/science.1246906;
+  *Twisted-and-coiled polymer muscle*); the OpenFlexure paper through the Europe PMC REST API
+  (cite DOI 10.1364/boe.385729; *Elastic band springs*). PMC pages showed bot checks to `curl`,
+  so several papers were read through NCBI E-utilities or Europe PMC.
+- **Printables links from the API** (labelled "page not opened" where no search result showed
+  the URL): *Variable-radius pulley* (264536), *Tendon-driven joint* (two models),
+  *Genderless connector* (220355, 129989, 1811372, 1816212), *Anti-twister* (1128267, also in
+  search results).
+- **Licences not shown**: Thingiverse 2764962 (*Variable-radius pulley*), DIYwalkers pages
+  (*Walking linkage*), the Mechamagnets repo has no licence file (*Magnetic detent*). The GitHub
+  API isn't enabled, so repo licences weren't checked.
+- **Vendor or retailer numbers** to check against a second source: Storz "99% of leaks are
+  gasket problems" (ca-fire.com) and Dual Lock's 1,000 cycles (a retailer guide) in
+  *Genderless connector*. The *Hobson's joint* Cal-Van catalogue line was decoded from a PDF
+  with a scrambled font.
+- **No printable model found**: *Multi-turn rotation limiter*, *Weight-activated gripping tongs*
+  (printed tongs found are hand-squeezed), fusee (*Variable-radius pulley*). Their
+  `make_it_yourself` lists are empty or carry only related models.
+
+### Conflicting figures and content points
+- *Pneumatic artificial muscle*: invention date (Wikipedia 1957; Wikibooks: Gaylord's 1957
+  patent; Bennington et al. 2023: 1930s-40s, made popular by McKibben in the 1950s); maximum
+  contraction (Festo 25%, Shadow 35-37%, Osaka group 30% in its README but about 25% in its
+  HardwareX test); twisting (Shadow: tolerated; Festo: forbidden, about 1° misalignment).
+- *Multi-turn rotation limiter*: what clock stop work is for. Wikipedia says it keeps the
+  mainspring in the flat middle of its torque curve; Vintage Watch Straps calls that a myth
+  (it stops over-winding). The entry gives only the over-winding reason; decide whether to
+  mention both.
+- *Multi-material interlock*: which plastics bond (Bambu: TPU and PETG bond easily, TPU and PLA
+  poorly; UltiMaker: CPE and TPU incompatible). UltiMaker's "only limited by the weakest
+  material" overstates it: Kuipers et al. give an upper bound of 1/(1/σA + 1/σB).
+- *Bernoulli gripper*: porous sheets (EE3D: grips them where vacuum fails; SMC: lift may fail
+  if holes add up to more than about 1% of the pad area). Both are given.
+- *Twisted-and-coiled polymer muscle*: fluorocarbon line (WriterOfMinds: not known to work; a
+  Hackaday commenter: coils better); marked [uncertain].
+- *Hobson's joint*: efficiency (Hackaday "pretty efficient" vs friction and wear warnings);
+  no reliable figure, marked [uncertain].
+- *Scroll mechanism*: Wikipedia's ±0.125 mm three-jaw runout is itself "citation needed"; the
+  entry leads with Sherline's 0.003 in. The Setrite manual's speed column has no unit, so its
+  numbers were left out.
+- *Weight-activated gripping tongs*: "a grip ratio of 2 needs a friction coefficient above
+  0.25" is the agent's own calculation from Bushman's equations, labelled [derived]; check it.
+- *Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent's choice,
+  not asked for in the outline notes).
+
+### Blocked or unreadable (nothing cited from them)
+strandbeest.com (JavaScript only; Jansen's numbers were checked from the Commons SVG and an
+arXiv paper instead), Instructables (JavaScript), Taylor & Francis, MDPI, Semantic Scholar web
+pages, softroboticstoolkit.com, bioRxiv (429), lucy.vub.ac.be, AccessEngineering (Sclater's
+"Seven Ways to Limit Shaft Rotation"), hackster.io, cpsc.gov, Fabbaloo, patents.justia.com,
+Toolmonger, Quora, Hacker News, eng-tips, cults3d, MakerWorld and the Wayback Machine. Google
+Patents blocks `curl`, so agents checked patent quotes through WebFetch. The RoboMech 2025 TPU
+article listed in `gap-search-2026-09-29.md` was behind a Springer bot check; Stano et al. 2020
+was used instead.
