@@ -207,6 +207,9 @@ sentences the same way as plain `[uncertain]`.
   description and are marked [uncertain]; a "300 mbar" figure is labelled as a maker's claim.
 - *Knife-edge and jewel pivots*: Rice Lake spells a pivot material "stellate"; probably
   Stellite, marked [uncertain].
+- *Syringe hydraulics*: one `safety_notes` point ("use syringes without needles; keep water
+  away from electronics") is the agent's own advice, labelled as such. *Air or hydraulic
+  cylinder* left out Thingiverse 1337213 (licence unreadable).
 - Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and
   *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law
   example).
