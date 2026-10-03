@@ -13,6 +13,8 @@ research_rules:
   - Before searching, load the search module .claude/skills/research/web-search-modules/maker-mechanical.md (and general-web.md if useful).
   - Check the collections in research/connection-types/preferred-sources.md first; they were chosen in run 1 as the best sources for pictures, animations, design rules and printable models.
   - Research the TYPE, not a product or brand. Brand or trade names may appear only as aliases a beginner might search for, marked as brands, e.g. 'Velcro (brand)'. If the item has `notes`, cover those variants inside this entry.
+  - "Medical ideas: ideas from any field, medicine included, are in scope as connection types, described for non-medical maker use. Out of scope is guidance on using them on or in people for medical purposes. Where a maker version could be mistaken for a medical one, the entry carries a safety note. Use medical sources freely, but write the entry for non-medical maker use and never give instructions for use on or in people."
+  - "Standard hardware (screws, nails, hose clamps, anchors, pins and similar): research the TYPE and how to choose and fit it; don't list catalogue size ranges or part numbers, link to a catalogue page instead."
   - "Writing style: plain English first, with the proper engineering term in brackets, e.g. 'a clip that clicks shut (cantilever snap fit)'. Assume the reader knows no engineering vocabulary."
   - Only record URLs you actually opened in this session. Never build or guess a URL. Put every URL you used for facts in `sources`.
   - Prefer pages with images, diagrams, animations or video. Record each image or animation's licence when you can see it (Wikimedia Commons files show one).

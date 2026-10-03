@@ -47,13 +47,25 @@ connector** (even if it's made of several smaller parts). Examples of what's wan
   pressure, or suction (e.g. syringe hydraulics, air cylinders, valves, small pumps, soft
   pneumatic actuators, venturi vacuum generators), as types. Whole machines such as
   compressors stay out
+- **added 2026-10-03 (R22):** electrical connections (wire joints, terminals, connectors); standard
+  hardware *as types* (hose clamps, wall anchors, nails, pins and the like: one entry per type, not
+  catalogues); joining by heat (soldering, brazing, welding, welding prints together) as joint
+  types; rope, knots and sewn joints; mounting standards (tripod threads, camera and screen mounts);
+  pipe and plumbing joints; moving and adjusting basics (wheels, castors, levelling feet, shims,
+  adjusters); and ideas from the medical field that makers can reuse
 - **adhesive types**, by material and use (e.g. cyanoacrylate/superglue vs PVA wood glue vs
   two-part epoxy vs contact adhesive vs solvent cement). Types only, not brand lists
 
-**Out of scope (for now):** catalogues of standard hardware (manufacturers' ranges of
-screws, bolts, nuts, rivets, etc.), since other resources already cover them, and whole
-machines (e.g. a complete robot arm). Components like gearboxes and powered latches are in. Each family may have one generic "baseline" entry (e.g. "ordinary screw joint") so
-the flow chart has something to compare against. Standard hardware might be added later.
+**Out of scope (rewritten 2026-10-03, R22):** the test is that connection *types* are in, from any trade;
+what stays out is
+- catalogues of sizes and part numbers (manufacturers' ranges of screws, bolts, nuts and so on): link to them instead
+- whole machines and systems: robots, printer layouts, vehicles, compressors, wiring diagrams and circuit design
+- making processes that don't join anything (casting, moulding, machining technique)
+- projectile launchers
+- medical use: ideas from any field, medicine included, are in scope as connection types, described for non-medical maker use. Out of scope is guidance on using them on or in people for medical purposes. Where a maker version could be mistaken for a medical one, the entry carries a safety note
+
+Components like gearboxes and powered latches are in. Each family has at least one generic "baseline" entry
+(e.g. "ordinary screw joint") so the flow chart has something to compare against.
 
 **Build on what exists.** There are existing encyclopedias, wikis, digital libraries and repos
 that catalogue mechanisms. Find them first, link to them, reuse their classifications where
@@ -99,6 +111,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R20 | 2026-09-30 | Add a new family for fluid power, after being asked whether hydraulic and pneumatic circuits should now be in scope: key *hydraulics, pneumatics & vacuum*; add all 24 types a web search found; move the unresearched air items (283, 288, 289) into it and tag related researched entries; keep the `job` options as they are | Done 2026-10-02: outline updated to 323 items and 26 families; all researched |
 | R19 | 2026-09-29 | `/research-add-items` on run 2: add the three items the agents suggested (iris valve, twisted-and-coiled polymer muscle, Bernoulli gripper) and search the web for more. Owner then chose all 22 types the search found and three notes additions, but no *Motion conversion* baseline | Done 2026-10-02: outline updated to 299 items (275-299 new); all researched |
 | R21 | 2026-10-03 | Run 3 (`research/prompts/03-flowchart-and-format.md`): finder questions tested against the data (every path 3-10 entries, no dead ends), Mermaid flow chart, 10-20 real forum questions checked against it, existing selection tools, a 50+ term glossary, and a format and tech recommendation; then update PROJECT.md, commit and push | Done 2026-10-03: `research/flowchart-and-format.md`, test scripts in `research/finder-test/`. Proposals P1-P9 wait for the owner |
+| R22 | 2026-10-03 | Widen the scope after asking what connections are still missing (electrical wire joints, jubilee clips): add every group of near-scope types from the rundown (electrical connections; standard hardware as types; heat and fusion joining; rope, knots and sewn joints; mounting standards; pipe and plumbing joints; moving and adjusting basics; earlier near-misses) plus medical-field ideas a maker can repurpose; keep out what was suggested to keep the project focused; reword the medical rule | In progress: scope and rule recorded; a web search per group is drafting the item lists for the owner to confirm before they go into the outline |
 
 ---
 
@@ -108,7 +121,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 |------|----------|-----|
 | 2026-09-25 | The status doc lives in the repo (`PROJECT.md`) | Future Claude sessions can read and update it automatically |
 | 2026-09-25 | Research runs in stages: prior art → connection types → flow chart & format, then expand families as needed | One giant run would be shallow on every category and hard to review. Prior art comes first so the catalogue builds on existing collections (R9) |
-| 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family | Owner clarification (R10) |
+| 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family. *Widened 2026-10-03 (R22): standard hardware types are now in; catalogues and whole machines stay out* | Owner clarification (R10) |
 | 2026-09-25 | Powered/active connectors and gear trains/gearboxes/transmissions are in scope (as types). Added a `power` finder field (passive / powered) | Owner clarification (R11) |
 | 2026-09-25 | Adhesive *types* are in scope, compared by material and use. Brand lists are out | Owner clarification (R12) |
 | 2026-09-26 | Families now include **locating & alignment** (kinematic couplings, elastic averaging, locators) and **springs / energy storage** | Suggested by run 1 (`research/prior-art/summary.md` 2.22-2.23), approved by owner (R13) |
@@ -122,6 +135,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-29 | Items added after run 2's first pass are appended as 275-299 (tier 1 types first, then tier 2, joinery last) instead of being slotted into the tiers | Keeps existing item numbers, report anchors and result file names unchanged |
 | 2026-09-29 | ~~Single fluid-power components (check valve, soft pneumatic actuator, pneumatic muscle, iris valve) are in scope; hydraulic and pneumatic *circuits* stay out~~ Superseded 2026-09-30 by the new family below | The second half was an assumption, not the owner's answer |
 | 2026-09-30 | Families are now 26: added **hydraulics, pneumatics & vacuum** (*Moves, holds or lets go using air or liquid pressure, or suction*), placed last so the existing report pages keep their numbers. Items 283, 288 and 289 moved into it; 12 researched entries list it in `other_families`. The fixed `job` options stay as they are for now | Owner (R20). Suction is in the name because beginners don't think of suction as pneumatics; changing `job` would make the 275 finished entries inconsistent, so it is left for run 3 to revisit |
+| 2026-10-03 | **Scope test:** connection *types* are in scope whatever the trade they come from, including standard hardware, electrical connections, heat joining, knots and sewing. Out: size and part-number catalogues, whole machines and systems, making processes that don't join, projectile launchers, and medical use | Owner (R22). Run 3's forum check and the owner's own examples (wire joints, jubilee clips, sewing a part on) showed the old exclusions left out connections makers ask about |
+| 2026-10-03 | **Medical rule:** ideas from any field, medicine included, are in scope as connection types, described for non-medical maker use. Out of scope is guidance on using them on or in people for medical purposes. Where a maker version could be mistaken for a medical one, the entry carries a safety note | Owner (R22): don't lose medical ideas that makers can repurpose (Luer locks, syringe pumps, prosthetic linkages are already in) |
 | 2026-09-29 | How `/research-deep` runs are driven: validate each agent's JSON files and commit and push them as soon as the agent finishes; after a usage-limit cut-off, keep files that validate and whose `uncertain` list matches their `[uncertain]` markers, and relaunch only unfinished items; collect agents' warnings in `review-notes.md` | The usage limit cut run 2 off six times; this lost no finished work. Written into the "Continuing run 2" prompt |
 | 2026-09-26 | The run 2 report drops unverified *sentences or list items* (marked `[uncertain]`), not whole fields; `--strict` gives run 1's behaviour | About 7 of 41 fields per entry carry a marker, often on one claim only; dropping whole fields would lose about a sixth of the content |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
