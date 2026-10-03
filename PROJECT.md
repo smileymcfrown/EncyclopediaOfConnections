@@ -4,9 +4,9 @@
 > what has been decided, and where things currently stand.
 > **Every working session should read this first and update it before finishing.**
 
-**Last updated:** 2026-10-02
-**Current phase:** Phase 0 — Research (runs 1 and 2 done; run 2, 323 types in 26 families, waiting for the owner's review)
-**Next action:** Owner reviews run 2: skim `research/connection-types/report.md` (index, with contents by family and by special behaviour) and the 26 family pages in `report/`, then `review-notes.md` (fixes needed before publishing). Confirm the families and fields. Then start run 3 (`research/prompts/03-flowchart-and-format.md`)
+**Last updated:** 2026-10-03
+**Current phase:** Phase 0 — Research (runs 1, 2 and 3 done; waiting for the owner's review of run 2's data and run 3's proposals)
+**Next action:** Owner reviews `research/flowchart-and-format.md`, mainly section 4 (proposals P1-P9: finder shape, new finder fields, Astro + Starlight site, Markdown entries, image rules), and the run 2 data (`research/connection-types/report.md`, `review-notes.md`). Once agreed, Phase 1 starts by turning the finder fields into fixed choices (P3), then converting the JSON into one Markdown file per entry (P5)
 
 ---
 
@@ -98,6 +98,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R18 | 2026-09-26 | Keep all 274 items and all 41 fields; leave borderline types (electrical joints, plastic welding) out for now | Done: recorded in `research/connection-types/outline-notes.md` |
 | R20 | 2026-09-30 | Add a new family for fluid power, after being asked whether hydraulic and pneumatic circuits should now be in scope: key *hydraulics, pneumatics & vacuum*; add all 24 types a web search found; move the unresearched air items (283, 288, 289) into it and tag related researched entries; keep the `job` options as they are | Done 2026-10-02: outline updated to 323 items and 26 families; all researched |
 | R19 | 2026-09-29 | `/research-add-items` on run 2: add the three items the agents suggested (iris valve, twisted-and-coiled polymer muscle, Bernoulli gripper) and search the web for more. Owner then chose all 22 types the search found and three notes additions, but no *Motion conversion* baseline | Done 2026-10-02: outline updated to 299 items (275-299 new); all researched |
+| R21 | 2026-10-03 | Run 3 (`research/prompts/03-flowchart-and-format.md`): finder questions tested against the data (every path 3-10 entries, no dead ends), Mermaid flow chart, 10-20 real forum questions checked against it, existing selection tools, a 50+ term glossary, and a format and tech recommendation; then update PROJECT.md, commit and push | Done 2026-10-03: `research/flowchart-and-format.md`, test scripts in `research/finder-test/`. Proposals P1-P9 wait for the owner |
 
 ---
 
@@ -130,6 +131,13 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Research uses **Weizhena/Deep-Research-skills**, copied into `.claude/skills/` with local path fixes (see `.claude/skills/research/VENDORED.md`) | It researches a list of items against a fixed set of fields and writes one validated JSON file per item. That's the shape of an encyclopedia and the data the finder will filter. `dev-tools:deep-research` is aimed at software product discovery |
 | 2026-09-25 | Starting fields are defined in `research/fields/*.fields.yaml`. The finder attributes (`motion`, `removability`, `reuse_cycles`, `tools_needed`, `seal`, `load`, `adjustable`, `processes`) use fixed answer options | These become the flow-chart filters |
 | 2026-09-25 | A SessionStart hook in `.claude/settings.json` installs `pyyaml` | The research validator needs it |
+| 2026-10-03 | The finder is tested by scripts in `research/finder-test/` (`normalise.py`, `tags.py`, `tree.py`, `gen_docs.py`); the flow charts and the list of every path are generated from the tested tree. Re-run them whenever the data or the questions change | Keeps the charts and the "3-10 entries, no dead ends" check true as entries are added |
+| 2026-10-03 | Reddit is read through the public Arctic Shift archive API, citing both the reddit.com link and the archive address actually read | reddit.com returns 403 in cloud sessions. The owner set up a self-hosted Redlib front end, but it is reachable only on the owner's private network (tailnet), not from cloud sessions |
+| 2026-10-03 | **Proposed, awaiting owner (P1):** finder asks the job first (9 plain answers), then 1-3 branch questions, then a shortlist with a tick-box panel showing counts and greying out empty options; "I'm not sure", Back and a search box throughout | Tested on all 323 entries: 116 paths, all 3-10 entries, none unreachable (`research/flowchart-and-format.md` 1.2-1.5) |
+| 2026-10-03 | **Proposed (P2):** keep the 15 fixed `job` options; question 1 groups them into 9 answers | Answers the point left open on 2026-09-30: all 27 fluid-power entries are reachable without a new option |
+| 2026-10-03 | **Proposed (P3):** Phase 1 starts by making every finder field a fixed choice, and adding `connects`, `power_source`, `power_loss`, `motion_in`/`motion_out`/`shaft_layout`, `overload_response`, `clicks`, glue traits and materials, and `usual_process` | 79 of the finder's 155 answers currently rely on draft tags worked out from entry names; `load`, `tools_needed` and others are free text; `processes` lists every possible method, so it can't narrow anything |
+| 2026-10-03 | **Proposed (P4-P6):** site built with Astro + Starlight + Pagefind on GitHub Pages; one Markdown file per entry (front matter for finder and media, prose under fixed headings) made from the JSON by a script, JSON kept as the research record; finder is a plain-JavaScript page over generated `finder.json` and `finder-tree.json`, with the path test in CI | Astro reads one file per entry and checks it against a schema; Material for MkDocs is in maintenance mode; Netlify's free plan is too tight; Markdown entries also read well on GitHub (`research/flowchart-and-format.md` section 3) |
+| 2026-10-03 | **Proposed (P7-P9):** copy (not hotlink) public-domain, CC0, CC BY and CC BY-SA images with title, author, source and licence; CC BY-ND only unchanged; NonCommercial and all-rights-reserved material linked only. Diagrams as SVG per entry (CSS/SMIL animation), Mermaid, OpenSCAD, video loops instead of GIFs; link out to linkage simulators. Publish the 107-term glossary with first-use links | CC FAQ: NC works can't go into a collection licensed for commercial reuse; Commons advises against hotlinking; a GIF is several times larger than the same WebM/MP4 |
 
 ---
 
@@ -141,23 +149,28 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 - [x] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/` (323 types in 26 families, 41 fields each; first 274 done 2026-09-29, the rest 2026-10-02)
   - [x] Research the items added on 2026-09-29 and 2026-09-30 (items 275-323, R19 and R20) and regenerate the report (done 2026-10-02)
 - [ ] Review run 2 with the owner. Confirm the families and fields
-- [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
+- [x] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md` (done 2026-10-03; test scripts in `research/finder-test/`)
+- [ ] Owner reviews run 3's proposals P1-P9 (`research/flowchart-and-format.md` section 4)
 - [ ] Expand families where there are gaps (`research/prompts/expand-a-family.md`)
 
 ### Phase 1 — Content skeleton
-- [ ] Settle the entry format (fields every entry has)
+- [ ] Settle the entry format (fields every entry has). Proposed: one Markdown file per entry with front matter (P5)
+- [ ] Make every finder field a fixed choice and add the new finder fields (P3); a script proposes values, then check them family by family
+- [ ] Write the JSON → Markdown conversion script (drops `[uncertain]` sentences from the page, keeps them in the JSON)
 - [ ] Create entries from the taxonomy, each with plain name, proper term, aliases, short description, attributes, and links to outside resources with images
+- [ ] Glossary page (107 terms) with first-use links from entries (P9)
 
 ### Phase 2 — Flow chart / finder
-- [ ] Turn the flow-chart questions into a working guided finder (static and free to host)
-- [ ] Every answer path ends on a shortlist of entries
+- [ ] Turn the flow-chart questions into a working guided finder (static and free to host). Proposed: plain JavaScript over `finder.json` and `finder-tree.json` (P6)
+- [ ] Every answer path ends on a shortlist of entries (tested in the draft: 116 paths, all 3-10; keep the test in CI)
 
 ### Phase 3 — Publish
-- [ ] Host the site (e.g. GitHub Pages) and add a contribution guide
+- [ ] Host the site (e.g. GitHub Pages) and add a contribution guide. Proposed: Astro + Starlight + Pagefind on GitHub Pages (P4)
+- [ ] Add a LICENSE file (CC BY-SA for content; a code licence still to choose)
 
 ### Phase 4 — Diagrams & animations
-- [ ] Simple diagrams (SVG) for each entry
-- [ ] Animations for moving connections (hinges, linkages, compliant mechanisms, …)
+- [ ] Simple diagrams (SVG) for each entry, starting from each entry's `diagram_idea` (P8)
+- [ ] Animations for moving connections (hinges, linkages, compliant mechanisms, …): CSS/SMIL on SVG, or OpenSCAD frames as WebM/MP4
 
 ---
 
@@ -167,12 +180,15 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 |-----|--------|-------|--------|--------|
 | 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25; joinery top-up 2026-09-26. 60 of 60 items researched and validated (34 fields each) |
 | 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | Done 2026-10-02. **323 of 323 items researched and validated** in 26 families (41 fields each; about 24 sources per entry): 274 by 2026-09-29, then 25 added on 2026-09-29 (items 275-299, `gap-search-2026-09-29.md`) and the new *hydraulics, pneumatics & vacuum* family on 2026-09-30 (items 300-323, `fluid-power-search-2026-09-29.md`), researched 2026-09-29 to 2026-10-02. Report: `research/connection-types/report.md` (index; contents show family, special behaviour and motion) + `report/` (26 family pages). Unverified sentences (marked `[uncertain]`, on average 6 of 41 fields per entry) are left out of the report but kept in the JSON. Fixes needed before publishing are in `review-notes.md`. The usage limit cut agents off six times by 2026-09-29, and on 2026-10-02 the owner paused the run before the limit and it resumed after the reset; each time, files the agents had already written were checked and only unfinished items were relaunched |
-| 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
+| 3 | `research/prompts/03-flowchart-and-format.md` | normal session (3 web-research agents: forum questions, selection tools, site tech) | `research/flowchart-and-format.md`, `research/finder-test/` (scripts, `paths.md`, `mermaid.md`) | Done 2026-10-03. Finder tested on all 323 entries: 116 answer paths, all ending on 3-10 entries (5.8 on average), none unreachable. 107-term glossary. Recommends Astro + Starlight + Pagefind on GitHub Pages. Proposals P1-P9 wait for the owner |
 
 ---
 
 ## 6. Open questions
 - Domain for the published site? (Working title: *The Encyclopaedia of Connections*; no final name or domain yet)
+- Run 3's proposals P1-P9 (`research/flowchart-and-format.md` section 4): agree, change or reject each
+- Licence for the site's code (scripts, finder, layouts)? CC BY-SA covers content only; MIT is the usual choice for code
+- Who checks the new finder tags (about 10 values for each of 323 entries)? A script can propose them; each family needs a review
 
 ---
 
