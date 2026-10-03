@@ -16,8 +16,9 @@ reddit.com link and the archive address actually read.
 - **Finder:** ask *"What do you need it to do?"* first (9 plain answers), then 1-3 questions that
   depend on that answer (*"What are you joining?"*, *"How should it move?"*, *"Is clicking OK?"* …),
   then show a shortlist with a *"tick what applies"* panel to narrow it further. Tested against
-  all 323 entries: **116 answer paths, every one ends on 3-10 entries (5.8 on average), no dead
-  ends, and every entry is reachable.** The test scripts are in `research/finder-test/`.
+  all 323 entries: **115 answer paths, every one ends on 3-10 entries (5.9 on average), no dead
+  ends, and every entry is reachable.** 25 real forum questions were run through it: 17 reach a
+  good answer, 7 partly, 1 is outside the encyclopedia's scope. The test scripts are in `research/finder-test/`.
 - **But** the test only passes because of some draft tags worked out from entry names. About half
   of the answers need data the entries don't have yet as fixed choices (what the parts are, what
   powers it, what happens on overload, input → output motion …), and several existing finder
@@ -63,7 +64,7 @@ entry names and families, in `research/finder-test/tags.py`):
 
 | New field (proposed) | Answer options | Why |
 |---|---|---|
-| `connects` | 3D-printed part / boards or sheet / tube, rod or extrusion / shaft / strap, cord or fabric / lid, door or cover / wall, rail, desk or grid / something to grip / any | The "hold together" branch (165 entries) can't be split well by any existing field. It is also how makers phrase their questions ("attach X to Y") |
+| `connects` | 3D-printed part / boards or sheet / tube, rod or extrusion / shaft / strap, cord or fabric / lid, door or cover / wall, rail, desk or grid / something to grip / any | The "hold together" branch (166 entries) can't be split well by any existing field. It is also how makers phrase their questions ("attach X to Y") |
 | `power_source` | none / electricity / compressed air / liquid / suction / heat | The "powered" branch; also a safety filter |
 | `power_loss` | stays locked / lets go / keeps its last state / not applicable | Asked by the plan in PROJECT.md (`power` field), but stored as free text |
 | `motion_in`, `motion_out`, `shaft_layout` | steady turning / back-and-forth turning / steps / straight push or pull / back-and-forth straight / bending / pressure / heat; parallel / at an angle / in line / crossed / far apart | The "change a movement" branch; split out of `input_output` |
@@ -82,7 +83,7 @@ in the finished site. The numbers are how many entries each answer leaves.
 
 | Answer | Entries | Built from |
 |---|---|---|
-| Hold two things together (they stay still) | 165 | `job` join and hold / glue or bond, plus the families for still joints |
+| Hold two things together (they stay still) | 166 | `job` join and hold / glue or bond, plus the families for still joints |
 | Let something move (turn, slide, swing or bend) | 89 | `job` let it move, plus the hinge, sliding and compliant families |
 | Control a movement (one way only, clicks, slips, locks, slows) | 111 | `job` stop it moving back / click / slip / slow, and the first `special_behaviour` |
 | Change a movement (speed, force or kind of motion) | 65 | `job` change speed / change the kind of motion |
@@ -102,8 +103,8 @@ through three answers: seal or pass air or liquid through (pumps and valves), ch
 
 | Branch | Question 2 | Answers | Question 3 (only where needed) |
 |---|---|---|---|
-| Hold together | What are you joining? | 3D-printed parts, or screws, nuts and magnets into a print · Boards, panels or sheet · Tube, rod, pole or extrusion · A wheel, gear or arm onto a shaft, or two shafts · Strap, cord, rope or fabric · A lid, door or cover that opens · Something onto a wall, rail, desk or grid · Something to grip or clamp · I just want to glue it · Any solid parts / something else | Printed parts and boards: *Will you need to take it apart again?* (never / now and then with a tool / often by hand), then *Is there a screw?* or *What is the sheet made of?* · Shaft: *A part onto a shaft, or two shafts?*, then *Will you print it?* or *How well do the shafts line up?* · Strap: *Do you need to adjust it?* · Lid: *How should it open?* (hinge / twist / catch or lever / by power), then *Should it lock?* · Wall: *How should it hold?* (hooks or clips / magnet or suction / tape) · Grip: *By hand or by a robot?* · Glue: *What are you gluing?* (printed plastic / slippery plastics / wood / metal or glass / rubber, fabric or foam), then *What matters most?* (strongest / flexible / fills gaps / can be undone) · Any: *Where can you reach?* (one side / both sides / doesn't matter) |
-| Let it move | How should it move? | Swing or rock, under a full turn · Spin round and round · Slide or telescope · Bend or flex · Swivel in several directions | Swing: *Print in one piece?*, then *Should it stay where you put it?* · Spin: *A wheel on an axle, or a shaft driving a shaft?*, then *Just pass the turning on / one way only / change speed* · Slide: *Telescoping tube / carriage on a rail / pushed by a screw or crank* · Bend: *Hinge / straight-line or spring / grip or snap* · Swivel: *Ball or universal joint / linkage moving a point along a path* |
+| Hold together | What are you joining? | 3D-printed parts, or screws, nuts and magnets into a print · Boards, panels or sheet · Tube, rod, pole or extrusion · A wheel, gear or arm onto a shaft, or two shafts · Strap, cord, rope or fabric · A lid, door or cover that opens · Something onto a wall, rail, desk or grid · Something to grip or clamp · I just want to glue it · Any solid parts / something else | Printed parts: *Will you need to take it apart again?* (never / yes), then *Is there a screw?* · Boards: *Will you need to take it apart again?* (never / now and then with a tool / often by hand), then *What is the sheet made of?* · Shaft: *A part onto a shaft, or two shafts?*, then *Will you print it?* or *How well do the shafts line up?* · Strap: *Close an opening or attach fabric / join strap ends, hook on or grip a cord* · Lid: *How should it open?* (on a hinge or stays open at an angle / twist / catch or lever / by power), then *Should it lock?* · Wall: *How should it hold?* (hooks or clips / magnet or suction / tape) · Grip: *By hand or by a robot?* · Glue: *What are you gluing?* (printed plastic / slippery plastics / wood / metal or glass / rubber, fabric or foam), then *What matters most?* (strongest / flexible / fills gaps / can be undone) · Any: *Where can you reach?* (one side / both sides / doesn't matter) |
+| Let it move | How should it move? | Swing or rock, under a full turn · Spin round and round · Slide or telescope · Bend or flex · Swivel or tilt (ball or universal joint) · Follow a set path (e.g. swing out and stay level) | Swing: *Print in one piece?*, then *Should it stay where you put it?* · Spin: *A wheel on an axle, or a shaft driving a shaft?*, then *Just pass the turning on / one way only / change speed* · Slide: *Telescoping tube / carriage on a rail / pushed by a screw or crank* · Bend: *Hinge / straight-line or spring / grip or snap* |
 | Control a movement | What should it do? | Move one way only · Click into set positions · Slip, click or let go if overloaded · Stay where I leave it until I release it · Snap past a point and stay (over-centre) · Slow it, stop it or keep its speed steady | *Does it turn or slide?*, then for turning: *Is clicking OK?* (ratchets) or *must it be silent?* (sprag, roller, wrap-spring), *Hold a position I set / step forward*, *Lock so only a person can open it / hold a load where it stops* · Overload: *Slip and keep going / pop out and reset / break once* · Over-centre: *Clamp shut / flip between two positions* · Slow: *Brake / damper / steady speed* |
 | Change a movement | What change do you need? | Faster, slower or stronger turning · Turning into straight-line motion, or back · Steady turning into steps or rocking · A push or pull moved, multiplied or redirected · Movement from air, liquid, suction or heat | Gears: *How are the shafts arranged?* (side by side / at an angle / in line / far apart) · Straight line: *Precise push (screws) / back and forth (cranks, cams) / long travel (rack, belt, chain, rope)* · Push or pull: *Levers and linkages / cables, pulleys or liquid* |
 | Tighten | What are you tightening? | Strap, lace, cord or rope · Belt, chain or cable in a machine · Parts clamped together | Strap: *Click, wind or screw it tighter / grip by friction / pulls back by itself* |
@@ -129,8 +130,8 @@ through three answers: seal or pass air or liquid through (pumps and valves), ch
 4. **Then the shortlist**, with the *tick what applies* panel (1.5) for anything else.
 
 How the list narrows on a typical path:
-323 entries → Question 1 (7-165 left) → Question 2 (4-31 left) → Question 3 (3-10 left).
-Paths take 1 answer (1 path), 2 answers (14), 3 answers (58) or 4 answers (43).
+323 entries → Question 1 (7-166 left) → Question 2 (4-31 left) → Question 3 (3-10 left).
+Paths take 1 answer (1 path), 2 answers (16), 3 answers (55) or 4 answers (43).
 
 ### 1.4 Testing it against the data
 
@@ -139,16 +140,17 @@ possible path. `research/finder-test/paths.md` lists every path with the entries
 
 | | First draft (job → one more question) | Final draft (this document) |
 |---|---|---|
-| Answer paths | 66 | 116 |
-| Paths ending on 3-10 entries | 31 | **116** |
+| Answer paths | 66 | 115 |
+| Paths ending on 3-10 entries | 31 | **115** |
 | Paths ending on more than 10 (too many) | 32 (largest 27: *any solid parts*, *turning into straight-line motion*) | 0 |
 | Paths ending on fewer than 3 | 3 | 0 |
 | Dead ends (0 entries) | 0 | 0 |
 | Entries no path reaches | 1 (*Mechanical interlock*) | 0 |
 
-Shortlist sizes in the final draft: 3 entries (10 paths), 4 (18), 5 (25), 6 (27), 7 (16), 8 (11),
-9 (3), 10 (6). 103 entries are on exactly one path; 13 are on five or more, mostly glues that
-suit many materials (hot-melt glue is on 13 paths).
+Shortlist sizes in the final draft: 3 entries (9 paths), 4 (17), 5 (23), 6 (28), 7 (16), 8 (12),
+9 (4), 10 (6). 100 entries are on exactly one path; 13 are on five or more, mostly glues that
+suit many materials (hot-melt glue is on 13 paths). The tree was changed once more after the
+forum test (1.7).
 
 How the too-big paths of the first draft were fixed:
 
@@ -169,7 +171,7 @@ How the too-big paths of the first draft were fixed:
 | (16 more paths of 11-18) | | a branch-specific question each, listed in `tree.py` |
 
 **Limits of the test, to fix before the finder is built:**
-- **79 of the 155 answers use draft tags worked out from entry names** (for example "anything
+- **83 of the 153 answers use draft tags worked out from entry names** (for example "anything
   with *hinge* in its name opens on a hinge"). They are good enough to show that the question
   set works, but the real finder needs these as fields in each entry (the new fields in 1.1),
   set by a script and then checked by hand.
@@ -197,19 +199,19 @@ loads*, *adjustable*, *I can only reach one side*, *the tools I have*, and for g
 materials*. They also serve people who skip the questions and want to browse.
 
 The data shows why the tick-box panel **must show counts and grey out options with no
-results**: tried on all 116 shortlists, some boxes would empty most of them.
+results**: tried on all 115 shortlists, some boxes would empty most of them.
 
-| Tick box (on each of the 116 shortlists) | Narrows it | Changes nothing | Empties it |
+| Tick box (on each of the 115 shortlists) | Narrows it | Changes nothing | Empties it |
 |---|---|---|---|
-| Takes heavy loads | 95 | 8 | 13 |
-| Easy to make or fit | 94 | 21 | 1 |
-| Adjustable after fitting | 83 | 13 | 20 |
-| Prints in one piece | 75 | 6 | 35 |
-| Works from one side only | 70 | 4 | 42 |
-| Seals (water, dust or air) | 67 | 7 | 42 |
-| Comes apart by hand | 36 | 12 | 68 |
-| No power needed | 23 | 89 | 4 |
-| Can buy it ready-made | 29 | 87 | 0 |
+| Takes heavy loads | 94 | 8 | 13 |
+| Easy to make or fit | 93 | 21 | 1 |
+| Adjustable after fitting | 86 | 12 | 17 |
+| Prints in one piece | 76 | 5 | 34 |
+| Works from one side only | 69 | 4 | 42 |
+| Seals (water, dust or air) | 67 | 7 | 41 |
+| Comes apart by hand | 37 | 11 | 67 |
+| No power needed | 23 | 88 | 4 |
+| Can buy it ready-made | 28 | 87 | 0 |
 
 So: always show the number next to each box, disable boxes that would give zero, and drop
 *Can buy it ready-made* (it almost never changes anything). Two more rules from the test: give
@@ -232,7 +234,7 @@ charts). Each shortlist's entries are listed in `research/finder-test/paths.md`.
 ```mermaid
 flowchart LR
   q0{"What do you need it to do?"}
-  a1["Hold two things together (they stay still) · 165"]
+  a1["Hold two things together (they stay still) · 166"]
   q0 --> a1
   q2{"What are you joining?"}
   a1 --> q2
@@ -242,7 +244,7 @@ flowchart LR
   a4["Boards, panels or sheet (wood, plywood, acrylic, sheet metal) · 30"]
   q2 --> a4
   class a4 more
-  a5(["Tube, rod, pole or aluminium extrusion · 8"])
+  a5(["Tube, rod, pole or aluminium extrusion · 9"])
   q2 --> a5
   class a5 leaf
   a6["A wheel, gear or arm onto a shaft, or two shafts end to end · 23"]
@@ -251,7 +253,7 @@ flowchart LR
   a7["Strap, cord, rope or fabric · 10"]
   q2 --> a7
   class a7 more
-  a8["A lid, door or cover that opens and closes · 27"]
+  a8["A lid, door or cover that opens and closes · 28"]
   q2 --> a8
   class a8 more
   a9["Something onto a wall, rail, desk or grid · 17"]
@@ -282,145 +284,145 @@ flowchart LR
   a18["Bend or flex (no hinge pin) · 14"]
   q14 --> a18
   class a18 more
-  a19["Swivel or tilt in several directions · 13"]
+  a19(["Swivel or tilt in several directions (ball or universal joint) · 6"])
   q14 --> a19
-  class a19 more
-  a20["Control a movement (one way only, clicks, slips, locks, slows) · 111"]
-  q0 --> a20
-  q21{"What should it do?"}
-  a20 --> q21
-  a22["Move one way only (stop it going back) · 29"]
-  q21 --> a22
-  class a22 more
-  a23["Click into set positions · 20"]
-  q21 --> a23
+  class a19 leaf
+  a20(["Follow a set path (e.g. swing out and stay level) · 8"])
+  q14 --> a20
+  class a20 leaf
+  a21["Control a movement (one way only, clicks, slips, locks, slows) · 111"]
+  q0 --> a21
+  q22{"What should it do?"}
+  a21 --> q22
+  a23["Move one way only (stop it going back) · 29"]
+  q22 --> a23
   class a23 more
-  a24["Slip, click or let go if overloaded · 19"]
-  q21 --> a24
+  a24["Click into set positions · 20"]
+  q22 --> a24
   class a24 more
-  a25["Stay where I leave it, and let go when I release it · 31"]
-  q21 --> a25
+  a25["Slip, click or let go if overloaded · 19"]
+  q22 --> a25
   class a25 more
-  a26["Snap past a point and stay there (over-centre) · 12"]
-  q21 --> a26
+  a26["Stay where I leave it, and let go when I release it · 31"]
+  q22 --> a26
   class a26 more
-  a27["Slow it down, stop it, or keep its speed steady · 17"]
-  q21 --> a27
+  a27["Snap past a point and stay there (over-centre) · 12"]
+  q22 --> a27
   class a27 more
-  a28["Change a movement (speed, force or kind of motion) · 65"]
-  q0 --> a28
-  q29{"What change do you need?"}
-  a28 --> q29
-  a30["Faster, slower or stronger turning · 21"]
-  q29 --> a30
-  class a30 more
-  a31["Turning into straight-line motion, or back · 27"]
-  q29 --> a31
+  a28["Slow it down, stop it, or keep its speed steady · 17"]
+  q22 --> a28
+  class a28 more
+  a29["Change a movement (speed, force or kind of motion) · 65"]
+  q0 --> a29
+  q30{"What change do you need?"}
+  a29 --> q30
+  a31["Faster, slower or stronger turning · 21"]
+  q30 --> a31
   class a31 more
-  a32(["Steady turning into steps, or into rocking · 7"])
-  q29 --> a32
-  class a32 leaf
-  a33["A push or pull moved, multiplied or redirected · 14"]
-  q29 --> a33
-  class a33 more
-  a34(["Make movement from air, liquid, suction or heat · 8"])
-  q29 --> a34
-  class a34 leaf
-  a35["Tighten something, or take up slack · 23"]
-  q0 --> a35
-  q36{"What are you tightening?"}
-  a35 --> q36
-  a37["A strap, lace, cord or rope · 13"]
-  q36 --> a37
-  class a37 more
-  a38(["A belt, chain or cable in a machine · 6"])
-  q36 --> a38
-  class a38 leaf
-  a39(["Parts clamped or pulled together · 10"])
-  q36 --> a39
+  a32["Turning into straight-line motion, or back · 27"]
+  q30 --> a32
+  class a32 more
+  a33(["Steady turning into steps, or into rocking · 7"])
+  q30 --> a33
+  class a33 leaf
+  a34["A push or pull moved, multiplied or redirected · 14"]
+  q30 --> a34
+  class a34 more
+  a35(["Make movement from air, liquid, suction or heat · 8"])
+  q30 --> a35
+  class a35 leaf
+  a36["Tighten something, or take up slack · 23"]
+  q0 --> a36
+  q37{"What are you tightening?"}
+  a36 --> q37
+  a38["A strap, lace, cord or rope · 13"]
+  q37 --> a38
+  class a38 more
+  a39(["A belt, chain or cable in a machine · 6"])
+  q37 --> a39
   class a39 leaf
-  a40(["Line parts up exactly, every time · 7"])
-  q0 --> a40
+  a40(["Parts clamped or pulled together · 10"])
+  q37 --> a40
   class a40 leaf
-  a41["Spring back, or store energy · 17"]
+  a41(["Line parts up exactly, every time · 7"])
   q0 --> a41
-  q42{"How should it push back?"}
-  a41 --> q42
-  a43(["Push or pull in a straight line · 6"])
-  q42 --> a43
-  class a43 leaf
-  a44(["A printed or bent springy part (flexure) · 8"])
-  q42 --> a44
+  class a41 leaf
+  a42["Spring back, or store energy · 17"]
+  q0 --> a42
+  q43{"How should it push back?"}
+  a42 --> q43
+  a44(["Push or pull in a straight line · 6"])
+  q43 --> a44
   class a44 leaf
-  a45(["Twist back (torsion), or wind up · 8"])
-  q42 --> a45
+  a45(["A printed or bent springy part (flexure) · 8"])
+  q43 --> a45
   class a45 leaf
-  a46["Seal it, or pass cables, air or liquid through · 49"]
-  q0 --> a46
-  q47{"What do you need?"}
-  a46 --> q47
-  a48["Keep water, dust or air out of a joint that does not move · 11"]
-  q47 --> a48
-  class a48 more
-  a49(["Seal round a moving shaft or rod · 4"])
-  q47 --> a49
-  class a49 leaf
-  a50(["Get cables through a wall or past a moving joint · 5"])
-  q47 --> a50
+  a46(["Twist back (torsion), or wind up · 8"])
+  q43 --> a46
+  class a46 leaf
+  a47["Seal it, or pass cables, air or liquid through · 49"]
+  q0 --> a47
+  q48{"What do you need?"}
+  a47 --> q48
+  a49["Keep water, dust or air out of a joint that does not move · 11"]
+  q48 --> a49
+  class a49 more
+  a50(["Seal round a moving shaft or rod · 4"])
+  q48 --> a50
   class a50 leaf
-  a51(["Join hoses, pipes or tubes · 4"])
-  q47 --> a51
+  a51(["Get cables through a wall or past a moving joint · 5"])
+  q48 --> a51
   class a51 leaf
-  a52["Pump, store or control air or liquid (valves, pumps) · 18"]
-  q47 --> a52
-  class a52 more
-  a53["Hold or let go using power (electric, air or suction) · 36"]
-  q0 --> a53
-  q54{"What will power it?"}
-  a53 --> q54
-  a55["Electricity · 11"]
-  q54 --> a55
-  class a55 more
-  a56(["Compressed air · 8"])
-  q54 --> a56
-  class a56 leaf
-  a57(["Liquid (hydraulics, water) · 6"])
-  q54 --> a57
+  a52(["Join hoses, pipes or tubes · 4"])
+  q48 --> a52
+  class a52 leaf
+  a53["Pump, store or control air or liquid (valves, pumps) · 18"]
+  q48 --> a53
+  class a53 more
+  a54["Hold or let go using power (electric, air or suction) · 36"]
+  q0 --> a54
+  q55{"What will power it?"}
+  a54 --> q55
+  a56["Electricity · 11"]
+  q55 --> a56
+  class a56 more
+  a57(["Compressed air · 8"])
+  q55 --> a57
   class a57 leaf
-  a58(["Suction (vacuum) · 6"])
-  q54 --> a58
+  a58(["Liquid (hydraulics, water) · 6"])
+  q55 --> a58
   class a58 leaf
+  a59(["Suction (vacuum) · 6"])
+  q55 --> a59
+  class a59 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
 
-#### Branch 1: Hold two things together (they stay still) (165 entries)
+#### Branch 1: Hold two things together (they stay still) (166 entries)
 
 ```mermaid
 flowchart LR
-  q59{"What are you joining?"}
-  a60["3D-printed parts, or screws, nuts and magnets into a print · 24"]
-  q59 --> a60
-  q61{"Will you need to take it apart again?"}
-  a60 --> q61
-  a62(["No, never (permanent) · 10"])
-  q61 --> a62
-  class a62 leaf
-  a63["Now and then, with a tool · 11"]
-  q61 --> a63
-  q64{"Is there a screw or bolt?"}
-  a63 --> q64
-  a65(["Yes · 6"])
-  q64 --> a65
-  class a65 leaf
-  a66(["No (clips, pins, rings) · 5"])
-  q64 --> a66
+  q60{"What are you joining?"}
+  a61["3D-printed parts, or screws, nuts and magnets into a print · 24"]
+  q60 --> a61
+  q62{"Will you need to take it apart again?"}
+  a61 --> q62
+  a63(["No, never (permanent) · 10"])
+  q62 --> a63
+  class a63 leaf
+  a64["Yes · 14"]
+  q62 --> a64
+  q65{"Is there a screw or bolt?"}
+  a64 --> q65
+  a66(["Yes · 6"])
+  q65 --> a66
   class a66 leaf
-  a67(["Often, by hand, without tools · 3"])
-  q61 --> a67
+  a67(["No (clips, pins, rings, magnets) · 8"])
+  q65 --> a67
   class a67 leaf
   a68["Boards, panels or sheet (wood, plywood, acrylic, sheet metal) · 30"]
-  q59 --> a68
+  q60 --> a68
   q69{"Will you need to take it apart again?"}
   a68 --> q69
   a70["No, never (permanent) · 16"]
@@ -446,11 +448,11 @@ flowchart LR
   a78(["Often, by hand, without tools · 4"])
   q69 --> a78
   class a78 leaf
-  a79(["Tube, rod, pole or aluminium extrusion · 8"])
-  q59 --> a79
+  a79(["Tube, rod, pole or aluminium extrusion · 9"])
+  q60 --> a79
   class a79 leaf
   a80["A wheel, gear or arm onto a shaft, or two shafts end to end · 23"]
-  q59 --> a80
+  q60 --> a80
   q81{"What are you connecting?"}
   a80 --> q81
   a82["A wheel, gear, pulley or arm onto a shaft · 12"]
@@ -477,20 +479,20 @@ flowchart LR
   q87 --> a90
   class a90 leaf
   a91["Strap, cord, rope or fabric · 10"]
-  q59 --> a91
-  q92{"Do you need to adjust the length or tightness?"}
+  q60 --> a91
+  q92{"What do you need?"}
   a91 --> q92
-  a93(["Yes · 6"])
+  a93(["Close an opening, or attach fabric (zip, hook-and-loop, press stud, button) · 4"])
   q92 --> a93
   class a93 leaf
-  a94(["No, just join or close it · 4"])
+  a94(["Join strap ends, hook something on, or grip a cord · 6"])
   q92 --> a94
   class a94 leaf
-  a95["A lid, door or cover that opens and closes · 27"]
-  q59 --> a95
+  a95["A lid, door or cover that opens and closes · 28"]
+  q60 --> a95
   q96{"How should it open?"}
   a95 --> q96
-  a97(["It swings open on a hinge · 5"])
+  a97(["It swings open on a hinge, or stays open at an angle · 6"])
   q96 --> a97
   class a97 leaf
   a98(["Twist a lid, knob or fastener · 5"])
@@ -510,7 +512,7 @@ flowchart LR
   q96 --> a103
   class a103 leaf
   a104["Something onto a wall, rail, desk or grid · 17"]
-  q59 --> a104
+  q60 --> a104
   q105{"How should it hold?"}
   a104 --> q105
   a106(["Hooks, slots, clips or pins · 9"])
@@ -523,7 +525,7 @@ flowchart LR
   q105 --> a108
   class a108 leaf
   a109["Something that has to be gripped or clamped · 11"]
-  q59 --> a109
+  q60 --> a109
   q110{"Who does the gripping?"}
   a109 --> q110
   a111(["I tighten it by hand (clamp, chuck, wedge) · 6"])
@@ -533,7 +535,7 @@ flowchart LR
   q110 --> a112
   class a112 leaf
   a113["I just want to glue it · 18"]
-  q59 --> a113
+  q60 --> a113
   q114{"What are you gluing?"}
   a113 --> q114
   a115["3D-printed plastic (PLA, PETG, ABS) or resin prints · 15"]
@@ -604,7 +606,7 @@ flowchart LR
   q135 --> a139
   class a139 leaf
   a140["Any solid parts / something else · 17"]
-  q59 --> a140
+  q60 --> a140
   q141{"Where can you reach?"}
   a140 --> q141
   a142(["Only one side, or only the end of a tube or shaft · 6"])
@@ -688,16 +690,12 @@ flowchart LR
   a170(["Grip, or snap between two positions · 3"])
   q167 --> a170
   class a170 leaf
-  a171["Swivel or tilt in several directions · 13"]
+  a171(["Swivel or tilt in several directions (ball or universal joint) · 6"])
   q145 --> a171
-  q172{"What kind?"}
-  a171 --> q172
-  a173(["A ball or universal joint · 4"])
-  q172 --> a173
-  class a173 leaf
-  a174(["A linkage that moves a point along a path · 6"])
-  q172 --> a174
-  class a174 leaf
+  class a171 leaf
+  a172(["Follow a set path (e.g. swing out and stay level) · 8"])
+  q145 --> a172
+  class a172 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -706,110 +704,110 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q175{"What should it do?"}
-  a176["Move one way only (stop it going back) · 29"]
+  q173{"What should it do?"}
+  a174["Move one way only (stop it going back) · 29"]
+  q173 --> a174
+  q175{"Does it turn or slide?"}
+  a174 --> q175
+  a176["Turns · 17"]
   q175 --> a176
-  q177{"Does it turn or slide?"}
+  q177{"Is clicking OK?"}
   a176 --> q177
-  a178["Turns · 17"]
+  a178(["Yes, clicks are fine (ratchets) · 7"])
   q177 --> a178
-  q179{"Is clicking OK?"}
-  a178 --> q179
-  a180(["Yes, clicks are fine (ratchets) · 7"])
-  q179 --> a180
+  class a178 leaf
+  a179(["No, it must be smooth and silent · 6"])
+  q177 --> a179
+  class a179 leaf
+  a180(["It is for air or liquid (one-way valves) · 4"])
+  q177 --> a180
   class a180 leaf
-  a181(["No, it must be smooth and silent · 6"])
-  q179 --> a181
+  a181(["Slides · 8"])
+  q175 --> a181
   class a181 leaf
-  a182(["It is for air or liquid (one-way valves) · 4"])
-  q179 --> a182
+  a182(["Bends, or something else · 5"])
+  q175 --> a182
   class a182 leaf
-  a183(["Slides · 8"])
-  q177 --> a183
-  class a183 leaf
-  a184(["Bends, or something else · 5"])
-  q177 --> a184
-  class a184 leaf
-  a185["Click into set positions · 20"]
-  q175 --> a185
-  q186{"Does it turn or slide?"}
+  a183["Click into set positions · 20"]
+  q173 --> a183
+  q184{"Does it turn or slide?"}
+  a183 --> q184
+  a185["Turns · 14"]
+  q184 --> a185
+  q186{"What should the clicks do?"}
   a185 --> q186
-  a187["Turns · 14"]
+  a187(["Hold a position I set by hand · 8"])
   q186 --> a187
-  q188{"What should the clicks do?"}
-  a187 --> q188
-  a189(["Hold a position I set by hand · 8"])
-  q188 --> a189
+  class a187 leaf
+  a188(["Step forward one position at a time · 6"])
+  q186 --> a188
+  class a188 leaf
+  a189(["Slides, bends or something else · 7"])
+  q184 --> a189
   class a189 leaf
-  a190(["Step forward one position at a time · 6"])
-  q188 --> a190
-  class a190 leaf
-  a191(["Slides, bends or something else · 7"])
-  q186 --> a191
-  class a191 leaf
-  a192["Slip, click or let go if overloaded · 19"]
-  q175 --> a192
-  q193{"What should happen when it is overloaded?"}
+  a190["Slip, click or let go if overloaded · 19"]
+  q173 --> a190
+  q191{"What should happen when it is overloaded?"}
+  a190 --> q191
+  a192["Slip, and keep going · 12"]
+  q191 --> a192
+  q193{"Will you 3D print it?"}
   a192 --> q193
-  a194["Slip, and keep going · 12"]
+  a194(["Yes, or partly · 6"])
   q193 --> a194
-  q195{"Will you 3D print it?"}
-  a194 --> q195
-  a196(["Yes, or partly · 6"])
-  q195 --> a196
+  class a194 leaf
+  a195(["No, I will buy or machine it · 6"])
+  q193 --> a195
+  class a195 leaf
+  a196(["Click or pop out, then reset by itself · 6"])
+  q191 --> a196
   class a196 leaf
-  a197(["No, I will buy or machine it · 6"])
-  q195 --> a197
+  a197(["Break or let go once, on purpose (replace it after) · 3"])
+  q191 --> a197
   class a197 leaf
-  a198(["Click or pop out, then reset by itself · 6"])
-  q193 --> a198
-  class a198 leaf
-  a199(["Break or let go once, on purpose (replace it after) · 3"])
-  q193 --> a199
-  class a199 leaf
-  a200["Stay where I leave it, and let go when I release it · 31"]
-  q175 --> a200
-  q201{"Does it turn or slide?"}
+  a198["Stay where I leave it, and let go when I release it · 31"]
+  q173 --> a198
+  q199{"Does it turn or slide?"}
+  a198 --> q199
+  a200["Turns · 17"]
+  q199 --> a200
+  q201{"What should it do?"}
   a200 --> q201
-  a202["Turns · 17"]
+  a202(["Lock so only a person can open it (key, code, trigger) · 7"])
   q201 --> a202
-  q203{"What should it do?"}
-  a202 --> q203
-  a204(["Lock so only a person can open it (key, code, trigger) · 7"])
-  q203 --> a204
+  class a202 leaf
+  a203(["Hold a load where it stops (brake or self-locking drive) · 10"])
+  q201 --> a203
+  class a203 leaf
+  a204(["Slides · 8"])
+  q199 --> a204
   class a204 leaf
-  a205(["Hold a load where it stops (brake or self-locking drive) · 10"])
-  q203 --> a205
+  a205(["Bends, or something else · 8"])
+  q199 --> a205
   class a205 leaf
-  a206(["Slides · 8"])
-  q201 --> a206
-  class a206 leaf
-  a207(["Bends, or something else · 8"])
-  q201 --> a207
-  class a207 leaf
-  a208["Snap past a point and stay there (over-centre) · 12"]
-  q175 --> a208
-  q209{"What is it for?"}
-  a208 --> q209
-  a210(["Clamp or latch something shut · 5"])
-  q209 --> a210
-  class a210 leaf
-  a211(["Flip between two positions (switch, fold or stay) · 7"])
-  q209 --> a211
-  class a211 leaf
-  a212["Slow it down, stop it, or keep its speed steady · 17"]
-  q175 --> a212
-  q213{"What do you need?"}
-  a212 --> q213
-  a214(["Stop it or hold it still (brakes) · 4"])
-  q213 --> a214
+  a206["Snap past a point and stay there (over-centre) · 12"]
+  q173 --> a206
+  q207{"What is it for?"}
+  a206 --> q207
+  a208(["Clamp or latch something shut · 5"])
+  q207 --> a208
+  class a208 leaf
+  a209(["Flip between two positions (switch, fold or stay) · 7"])
+  q207 --> a209
+  class a209 leaf
+  a210["Slow it down, stop it, or keep its speed steady · 17"]
+  q173 --> a210
+  q211{"What do you need?"}
+  a210 --> q211
+  a212(["Stop it or hold it still (brakes) · 4"])
+  q211 --> a212
+  class a212 leaf
+  a213(["Cushion or smooth it (dampers) · 6"])
+  q211 --> a213
+  class a213 leaf
+  a214(["Keep a steady speed or level · 7"])
+  q211 --> a214
   class a214 leaf
-  a215(["Cushion or smooth it (dampers) · 6"])
-  q213 --> a215
-  class a215 leaf
-  a216(["Keep a steady speed or level · 7"])
-  q213 --> a216
-  class a216 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -818,52 +816,52 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q217{"What change do you need?"}
-  a218["Faster, slower or stronger turning · 21"]
+  q215{"What change do you need?"}
+  a216["Faster, slower or stronger turning · 21"]
+  q215 --> a216
+  q217{"How are the input and output shafts arranged?"}
+  a216 --> q217
+  a218(["Side by side (parallel) · 10"])
   q217 --> a218
-  q219{"How are the input and output shafts arranged?"}
-  a218 --> q219
-  a220(["Side by side (parallel) · 10"])
-  q219 --> a220
+  class a218 leaf
+  a219(["At an angle (e.g. 90 degrees) · 7"])
+  q217 --> a219
+  class a219 leaf
+  a220(["In line (one straight through the other) · 7"])
+  q217 --> a220
   class a220 leaf
-  a221(["At an angle (e.g. 90 degrees) · 7"])
-  q219 --> a221
+  a221(["Far apart, or the path bends (belts, cables, chains) · 5"])
+  q217 --> a221
   class a221 leaf
-  a222(["In line (one straight through the other) · 7"])
-  q219 --> a222
-  class a222 leaf
-  a223(["Far apart, or the path bends (belts, cables, chains) · 5"])
-  q219 --> a223
-  class a223 leaf
-  a224["Turning into straight-line motion, or back · 27"]
-  q217 --> a224
-  q225{"What kind of straight-line motion?"}
-  a224 --> q225
-  a226(["A slow, precise push (screws) · 7"])
-  q225 --> a226
+  a222["Turning into straight-line motion, or back · 27"]
+  q215 --> a222
+  q223{"What kind of straight-line motion?"}
+  a222 --> q223
+  a224(["A slow, precise push (screws) · 7"])
+  q223 --> a224
+  class a224 leaf
+  a225(["Back and forth, again and again (cranks, cams) · 5"])
+  q223 --> a225
+  class a225 leaf
+  a226(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
+  q223 --> a226
   class a226 leaf
-  a227(["Back and forth, again and again (cranks, cams) · 5"])
-  q225 --> a227
+  a227(["Steady turning into steps, or into rocking · 7"])
+  q215 --> a227
   class a227 leaf
-  a228(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
-  q225 --> a228
-  class a228 leaf
-  a229(["Steady turning into steps, or into rocking · 7"])
-  q217 --> a229
-  class a229 leaf
-  a230["A push or pull moved, multiplied or redirected · 14"]
-  q217 --> a230
-  q231{"How?"}
-  a230 --> q231
-  a232(["Levers and linkages · 9"])
-  q231 --> a232
+  a228["A push or pull moved, multiplied or redirected · 14"]
+  q215 --> a228
+  q229{"How?"}
+  a228 --> q229
+  a230(["Levers and linkages · 9"])
+  q229 --> a230
+  class a230 leaf
+  a231(["Cables, ropes, pulleys or liquid in tubes · 5"])
+  q229 --> a231
+  class a231 leaf
+  a232(["Make movement from air, liquid, suction or heat · 8"])
+  q215 --> a232
   class a232 leaf
-  a233(["Cables, ropes, pulleys or liquid in tubes · 5"])
-  q231 --> a233
-  class a233 leaf
-  a234(["Make movement from air, liquid, suction or heat · 8"])
-  q217 --> a234
-  class a234 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -872,26 +870,26 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q235{"What are you tightening?"}
-  a236["A strap, lace, cord or rope · 13"]
+  q233{"What are you tightening?"}
+  a234["A strap, lace, cord or rope · 13"]
+  q233 --> a234
+  q235{"How should it hold?"}
+  a234 --> q235
+  a236(["Click, wind or screw it tighter (ratchet, winch, turnbuckle) · 6"])
   q235 --> a236
-  q237{"How should it hold?"}
-  a236 --> q237
-  a238(["Click, wind or screw it tighter (ratchet, winch, turnbuckle) · 6"])
-  q237 --> a238
+  class a236 leaf
+  a237(["Grip by friction; release by hand (buckles, cord locks) · 4"])
+  q235 --> a237
+  class a237 leaf
+  a238(["Pull back by itself (spring or elastic) · 3"])
+  q235 --> a238
   class a238 leaf
-  a239(["Grip by friction; release by hand (buckles, cord locks) · 4"])
-  q237 --> a239
+  a239(["A belt, chain or cable in a machine · 6"])
+  q233 --> a239
   class a239 leaf
-  a240(["Pull back by itself (spring or elastic) · 3"])
-  q237 --> a240
+  a240(["Parts clamped or pulled together · 10"])
+  q233 --> a240
   class a240 leaf
-  a241(["A belt, chain or cable in a machine · 6"])
-  q235 --> a241
-  class a241 leaf
-  a242(["Parts clamped or pulled together · 10"])
-  q235 --> a242
-  class a242 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -905,16 +903,16 @@ This answer goes straight to a shortlist; no further question.
 
 ```mermaid
 flowchart LR
-  q243{"How should it push back?"}
-  a244(["Push or pull in a straight line · 6"])
-  q243 --> a244
+  q241{"How should it push back?"}
+  a242(["Push or pull in a straight line · 6"])
+  q241 --> a242
+  class a242 leaf
+  a243(["A printed or bent springy part (flexure) · 8"])
+  q241 --> a243
+  class a243 leaf
+  a244(["Twist back (torsion), or wind up · 8"])
+  q241 --> a244
   class a244 leaf
-  a245(["A printed or bent springy part (flexure) · 8"])
-  q243 --> a245
-  class a245 leaf
-  a246(["Twist back (torsion), or wind up · 8"])
-  q243 --> a246
-  class a246 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -923,39 +921,39 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q247{"What do you need?"}
-  a248["Keep water, dust or air out of a joint that does not move · 11"]
+  q245{"What do you need?"}
+  a246["Keep water, dust or air out of a joint that does not move · 11"]
+  q245 --> a246
+  q247{"Will you need to take it apart again?"}
+  a246 --> q247
+  a248(["No, never · 6"])
   q247 --> a248
-  q249{"Will you need to take it apart again?"}
-  a248 --> q249
-  a250(["No, never · 6"])
-  q249 --> a250
+  class a248 leaf
+  a249(["Yes · 5"])
+  q247 --> a249
+  class a249 leaf
+  a250(["Seal round a moving shaft or rod · 4"])
+  q245 --> a250
   class a250 leaf
-  a251(["Yes · 5"])
-  q249 --> a251
+  a251(["Get cables through a wall or past a moving joint · 5"])
+  q245 --> a251
   class a251 leaf
-  a252(["Seal round a moving shaft or rod · 4"])
-  q247 --> a252
+  a252(["Join hoses, pipes or tubes · 4"])
+  q245 --> a252
   class a252 leaf
-  a253(["Get cables through a wall or past a moving joint · 5"])
-  q247 --> a253
-  class a253 leaf
-  a254(["Join hoses, pipes or tubes · 4"])
-  q247 --> a254
-  class a254 leaf
-  a255["Pump, store or control air or liquid (valves, pumps) · 18"]
-  q247 --> a255
-  q256{"What should it do?"}
-  a255 --> q256
-  a257(["Push air or liquid along (pumps) · 7"])
-  q256 --> a257
+  a253["Pump, store or control air or liquid (valves, pumps) · 18"]
+  q245 --> a253
+  q254{"What should it do?"}
+  a253 --> q254
+  a255(["Push air or liquid along (pumps) · 7"])
+  q254 --> a255
+  class a255 leaf
+  a256(["Let flow one way only, or let off pressure (safety) · 4"])
+  q254 --> a256
+  class a256 leaf
+  a257(["Switch, set or store the flow (valves, regulators, tanks) · 7"])
+  q254 --> a257
   class a257 leaf
-  a258(["Let flow one way only, or let off pressure (safety) · 4"])
-  q256 --> a258
-  class a258 leaf
-  a259(["Switch, set or store the flow (valves, regulators, tanks) · 7"])
-  q256 --> a259
-  class a259 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -964,33 +962,103 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q260{"What will power it?"}
-  a261["Electricity · 11"]
+  q258{"What will power it?"}
+  a259["Electricity · 11"]
+  q258 --> a259
+  q260{"What should it do?"}
+  a259 --> q260
+  a261(["Lock, latch or hold by magnet, and let go on command · 6"])
   q260 --> a261
-  q262{"What should it do?"}
-  a261 --> q262
-  a263(["Lock, latch or hold by magnet, and let go on command · 6"])
-  q262 --> a263
+  class a261 leaf
+  a262(["Brake, engage, switch or move something · 5"])
+  q260 --> a262
+  class a262 leaf
+  a263(["Compressed air · 8"])
+  q258 --> a263
   class a263 leaf
-  a264(["Brake, engage, switch or move something · 5"])
-  q262 --> a264
+  a264(["Liquid (hydraulics, water) · 6"])
+  q258 --> a264
   class a264 leaf
-  a265(["Compressed air · 8"])
-  q260 --> a265
+  a265(["Suction (vacuum) · 6"])
+  q258 --> a265
   class a265 leaf
-  a266(["Liquid (hydraulics, water) · 6"])
-  q260 --> a266
-  class a266 leaf
-  a267(["Suction (vacuum) · 6"])
-  q260 --> a267
-  class a267 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
 
-### 1.7 Real maker questions
+### 1.7 Real maker questions: would the flow chart help?
 
-*Still being added (2026-10-03): a research agent is collecting real forum questions to test the flow chart against. This section is filled in by the next commit.*
+25 real questions were collected from r/AskEngineers, r/3Dprinting, r/robotics,
+r/functionalprint, r/MechanicalEngineering and Hackaday: "what is this called?", "how do I
+attach X to Y?" and "how do I make it lock / slip / seal?". Reddit was read through the Arctic
+Shift archive (reddit.com is blocked here), so each Reddit row gives the reddit.com link plus the
+two archive addresses actually opened. No usernames are recorded. Each question was then run
+through the tested tree (`research/finder-test/tree.py`), choosing the answers the asker would
+most likely pick. The number in brackets is the shortlist size.
+
+**Result: 17 of 25 reach a good answer, 7 partly, 1 is outside the encyclopedia's scope.**
+Before this check six questions went wrong (3, 8, 13, 14, 15 and 19); the tree was changed to fix
+them: a *Follow a set path* answer for linkages, the cam lever counted as a tube clamp, lid stays
+under lids, one *take it apart: yes* answer for printed parts (releasable snap fits are stored as
+"removable with a tool", so *often, by hand* missed them), and a better strap and fabric question.
+
+| # | Source | Question (in our words) | What commenters named | Path through the finder | Result |
+|---|---|---|---|---|---|
+| 1 | r/AskEngineers, 2025: [reddit](https://www.reddit.com/r/AskEngineers/comments/1k595kn/what_is_this_locking_mechanism_called/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1k595kn), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1k595kn&limit=200)) | Two toothed discs that can't turn while meshed; lift, turn and drop to lock at a new angle | "spline" first, then "Hirth joint" (asker confirmed) | Control a movement → Click into set positions → Turns → Hold a position I set by hand (8) | **Good**: 34 Hirth joint |
+| 2 | r/AskEngineers, 2022: [reddit](https://www.reddit.com/r/AskEngineers/comments/v5pxk5/does_anyone_know_what_this_mechanism_is_called/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=v5pxk5), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_v5pxk5&limit=200)) | A cup holder that clicks out when pressed and stays in when pressed again | "push-push latch" (confirmed) | Hold together → A lid, door or cover → Press, pull or flip a catch → No, it just has to stay shut (9) | **Good**: 24 Push-push latch |
+| 3 | r/AskEngineers, 2025: [reddit](https://www.reddit.com/r/AskEngineers/comments/1n8g8ff/what_is_the_name_of_this_mechanism/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1n8g8ff), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1n8g8ff&limit=200)) | A spare for a notched strut that props a chair back at several angles | "linear ratchet and pawl", "ratchet stays" (confirmed) | Hold together → A lid, door or cover → On a hinge, or stays open at an angle (6) | **Partly** (after a fix): 185 Lid and flap stays; the strut itself is 8 Linear ratchet, which sits on *Control → Move one way only → Slides* |
+| 4 | r/AskEngineers, 2024: [reddit](https://www.reddit.com/r/AskEngineers/comments/1bj20m0/looking_for_name_of_mechanical_part_that/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1bj20m0), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1bj20m0&limit=200)) | A motor must turn a fishing reel both ways, but turning the reel by hand must never turn the motor | one-way clutch, sprag, freewheel, centrifugal clutch; "no passive part can do it" (no answer confirmed) | Control a movement → Move one way only → Turns → No, it must be smooth and silent (6) | **Good**: 15 Bidirectional anti-back-drive clutch, the exact answer, which nobody in the thread named. It sits next to the sprag and roller clutches commenters suggested, so the card must make the difference clear |
+| 5 | r/robotics, 2025: [reddit](https://www.reddit.com/r/robotics/comments/1j9poiv/how_to_mechanically_lock_the_shaft_from_rotating/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1j9poiv), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1j9poiv&limit=200)) | Stop a small gearmotor shaft from turning (really: stall it for a measurement) | worm drive, brakes, one-way bearing, a pin, "Vise-Grip" | Control a movement → Slow it, stop it… → Stop it or hold it still (4) | **Good**: 108 Electromagnetic brake, 211 Friction brake; 16 Worm drive is on *Stay where I leave it → Turns → Hold a load* |
+| 6 | r/robotics, 2025: [reddit](https://www.reddit.com/r/robotics/comments/1i7c9jh/magnetic_coupling_for_m5_or_m8_shaft/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1i7c9jh), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1i7c9jh&limit=200)) | A belt pulley that slips as soon as anything resists; searched for a "magnetic coupling" | "friction clutches", shear pins, torque limiters | Control a movement → Slip, click or let go if overloaded → Slip, and keep going → No, I will buy it (6) | **Good**: 4 Friction slip clutch; 143 Magnetic coupling is on the "print it" side |
+| 7 | r/AskEngineers, 2023: [reddit](https://www.reddit.com/r/AskEngineers/comments/14tbvpj/what_is_this_mechanism_called/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=14tbvpj), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_14tbvpj&limit=200)) | A motor and screw compress a spring plunger, then let it fire, again and again | airsoft gearbox (part-toothed gear on a rack), ball-pen mechanism (confirmed) | Spring back, or store energy → Push or pull in a straight line (6) | **Partly**: 26 Sear and trigger; the real answer combines 36 Intermittent gear, 88 Rack and pinion and 268 Coil spring, which sit on other paths |
+| 8 | r/AskEngineers, 2022: [reddit](https://www.reddit.com/r/AskEngineers/comments/vpsygk/what_is_this_openingclosing_mechanism_called/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=vpsygk), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_vpsygk&limit=200)) | A window sash that swings out and up while staying level | "four-bar", "parallelogram linkage" (confirmed) | Let something move → Follow a set path (8) | **Good** (after a fix): 87 Four-bar linkage |
+| 9 | r/AskEngineers, 2022: [reddit](https://www.reddit.com/r/AskEngineers/comments/xek5ke/what_is_this_expanding_mechanism_called/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=xek5ke), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_xek5ke&limit=200)) | A screw that pushes hinged arms outwards to grip inside a hole, for a robot contest | "Sarrus linkage" (confirmed), jack screw, wall anchor | Hold together → Something to grip or clamp → A robot or machine (5) | **Partly**: the Sarrus linkage is inside 197 Straight-line linkages (*Let something move → Follow a set path*), but the gripper shortlist has no expanding gripper. Gap |
+| 10 | r/3Dprinting, 2025: [reddit](https://www.reddit.com/r/3Dprinting/comments/1ja1gm2/how_do_design_a_hinge_to_hold_and_route_this_lcd/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1ja1gm2), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1ja1gm2&limit=200)) | A flip-up screen hinge that hides the ribbon cable | no name; "use a cable loop" (Game Boy SP) | Hold together → A lid, door or cover → On a hinge… (6) | **Partly**: 263 Knuckle hinge; nothing on carrying a cable through a hinge. Gap |
+| 11 | r/MechanicalEngineering, 2026: [reddit](https://www.reddit.com/r/MechanicalEngineering/comments/1vkosn6/whats_the_mechanism_used_in_a_3_stage_telescopic/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1vkosn6), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1vkosn6&limit=200)) | How a push button unlocks a multi-stage telescoping arm | spring pins popping into holes, ball detent | Let something move → Slide or telescope → A tube or pole that telescopes and locks (4) | **Good**: 72 Spring button lock |
+| 12 | r/functionalprint, 2023: [reddit](https://www.reddit.com/r/functionalprint/comments/11fcfwk/does_anyone_know_what_this_dowelpeg_thing_is/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=11fcfwk), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_11fcfwk&limit=200)) | A peg with a cross slot and a flared tip that squeezes into a hole | "collet" (confirmed), Lego Technic pin, "annular snap fit" | Hold together → 3D-printed parts → Yes [comes apart] → No screw (8) | **Good**: 47 Snap pin, 45 Annular snap fit. "Collet" is a near-miss word for search |
+| 13 | r/functionalprint, 2019: [reddit](https://www.reddit.com/r/functionalprint/comments/ak4isk/whats_the_name_of_this_kind_of_system_to_clamp/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=ak4isk), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_ak4isk&limit=200)) | A flip-lever clamp holding a bike light on a bar | "cam clamp", "camlock" (confirmed) | Hold together → Tube, rod, pole or extrusion (9) | **Good** (after a fix): 22 Eccentric cam lever |
+| 14 | r/3Dprinting, 2026: [reddit](https://www.reddit.com/r/3Dprinting/comments/1w03ozo/need_help_figuring_out_a_locking_mechanism_for_a/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1w03ozo), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1w03ozo&limit=200)) | Two printed blocks on a dovetail must lock, but come apart for blade changes; magnets were too weak | a pin across the dovetail, 45° snap joints | Hold together → 3D-printed parts → Yes → No screw (8) | **Good** (after a fix): 44 Cantilever snap fit, 47 Snap pin |
+| 15 | r/3Dprinting, 2025: [reddit](https://www.reddit.com/r/3Dprinting/comments/1lag0u9/gravity_is_a_bitch_any_ideas_how_to_snap_lock_or/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1lag0u9), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1lag0u9&limit=200)) | Slide-together printed racks fall apart when picked up | "crush ribs!" (liked), squeeze-in pins, glue | Hold together → 3D-printed parts → Yes → No screw (8) | **Partly** (after a fix): 47 Snap pin, 44 Cantilever snap fit; 59 Crush ribs is stored as semi-permanent, so it shows under *No, never* |
+| 16 | r/3Dprinting, 2025: [reddit](https://www.reddit.com/r/3Dprinting/comments/1ijf4iv/changing_designs_for_heat_set_inserts_or_gluein/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1ijf4iv), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1ijf4iv&limit=200)) | Printed posts snap when screwing a Raspberry Pi on | heat-set inserts, glued nuts, self-tapping into an undersized hole, fillets | Hold together → 3D-printed parts → Yes → Yes, a screw (6) | **Good**: 56 Heat-set insert, 57 Captive nut pocket, 258 Self-tapping screw |
+| 17 | r/3Dprinting, 2024: [reddit](https://www.reddit.com/r/3Dprinting/comments/1g3w18n/how_to_best_connect_a_servo_motor_to_a_3d_printed/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g3w18n), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g3w18n&limit=200)) | Printed legs strip on servo splines when they bump things | "buy a metal horn" (confirmed) | Hold together → Shaft → A part onto a shaft → Yes, printed (6) | **Good**: 82 Servo horn and spline hub; the same list offers 5 Torque-limiting gear for the bumps |
+| 18 | r/robotics, 2025: [reddit](https://www.reddit.com/r/robotics/comments/1kcikdx/can_i_weld_a_flange_to_my_dc_motor_shaft/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200)) | A set-screw flange keeps working loose on a gearmotor shaft; weld it? | D-flat, key, retaining compound, roll pin, clamp collar; the asker welded it | Hold together → Shaft → A part onto a shaft → No, metal or bought (6) | **Good**: 266 Shaft-to-hub joints. Gaps: welding or brazing, roll pins |
+| 19 | r/3Dprinting, 2024: [reddit](https://www.reddit.com/r/3Dprinting/comments/1e63nnr/how_do_you_sewconnect_cloth_to_a_print_im_making/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1e63nnr), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1e63nnr&limit=200)) | Attach cloth to a printed mask | hot glue, sewing through holes, adhesive-backed Velcro, E6000 | Hold together → Strap, cord, rope or fabric → Close an opening, or attach fabric (4) | **Good** (after a fix): 157 Hook-and-loop fastener; glues via *I just want to glue it → Rubber, fabric…*. Gap: sewing a part on |
+| 20 | r/3Dprinting, 2025: [reddit](https://www.reddit.com/r/3Dprinting/comments/1il1plg/best_way_to_attach_tpu_reinforcement_for_laundry/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1il1plg), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1il1plg&limit=200)) | Fix a TPU reinforcement to a floppy polypropylene laundry basket | "make a U channel… no glue needed", "grommet" | Hold together → I just want to glue it → Slippery plastics (6) | **Partly**: 226 adhesives for low-surface-energy plastics (what was asked); the better answer, a push-on U-channel, has no entry. Gap |
+| 21 | r/3Dprinting, 2024: [reddit](https://www.reddit.com/r/3Dprinting/comments/1g4byc1/i_need_to_connect_these_parts_together_being/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200)) | Join PETG parts of a plant-watering reservoir so they hold water | melt them together with a soldering iron, then seal; silicone alone may not do | Seal it… → Keep water out of a still joint → No, never (6) | **Good**: 227 Silicone sealants, 232 Epoxy putty. Gap: welding prints together |
+| 22 | r/3Dprinting, 2025: [reddit](https://www.reddit.com/r/3Dprinting/comments/1o4t0ng/best_way_to_attach_2_prints_woodworking_dust/) (read via the archive: [post](https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1o4t0ng), [comments](https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1o4t0ng&limit=200)) | A dust-hood joint that is nearly airtight but comes off for blade changes | gasket and flanges, "hose clamp" (chosen) | Seal it… → Keep water out of a still joint → Yes (5) | **Good**: 131 Gasket. Gap: the worm-drive hose clamp the asker chose |
+| 23 | Hackaday, 2022: [hackaday](https://hackaday.com/2022/04/20/gaskets-can-they-be-3d-printed/) | Can awkward engine gaskets be printed in TPU? | tap out paper gaskets, RTV silicone, cut gasket sheet, TPU that lasted a year | Seal it… → Keep water out of a still joint → Yes (5) | **Good**: 131 Gasket |
+| 24 | Hackaday, 2022: [hackaday](https://hackaday.com/2022/11/01/the-best-threaded-holes-for-resin-parts/) | How to get threads into resin prints, where heat-set inserts don't work | printed threads best; Helicoil, rivet nuts, captive nuts | Hold together → 3D-printed parts → Yes → Yes, a screw (6) | **Partly**: 58 Printed thread, 179 Press-fit inserts, 57 Captive nut, but 56 Heat-set insert is listed too and fails in resin. Gap: screw-in inserts (Helicoil type) |
+| 25 | Hackaday, 2023: [hackaday](https://hackaday.com/2023/12/18/ask-hackaday-what-do-you-do-when-you-cant-solder/) | Joining wires when you can't solder | crimps, lever connectors, solder-seal splices, screw terminals | none | **No**: electrical connections are outside the 323 entries |
+
+**What the questions teach the finder design:**
+- **People describe a part by its shape, by what it does, or by where they saw it**, rarely by
+  name: "two discs with zig-zag teeth", "transfers rotation one way", "like old car cup holders",
+  "like a drywall anchor". Add a second way in, *"Where have you seen something like it?"*, as a
+  search over each entry's `everyday_examples` (every entry already has 2-4).
+- **They often grab a nearby wrong word**: "collet" for a snap pin, "magnetic coupling" for a slip
+  clutch, "spline" for a Hirth joint, "weld" for a shaft-to-hub joint. Search needs these near
+  misses, and trade names commenters used (Velcro, Loctite 638, JB Weld, E6000, Helicoil, Lego
+  Technic pin), as aliases.
+- **Many questions hide the real need** (question 4 asked for "one way" but needed "blocks
+  back-driving both ways"; question 5 asked to lock a shaft but only needed it stalled for a test).
+  Two branch questions would catch these: *"What should happen when the other side tries to move
+  it?"* (one-way branch) and *"When must it hold: with power on, power off, or only while you
+  test?"* (brakes and powered branch).
+- **"What went wrong with your first try?"** is a strong clue: posts snapped, splines stripped, a
+  set screw worked loose, magnets too weak, it creeps under load. A *"Fix a joint that failed"*
+  way in can use each entry's `common_failures`.
+- **Materials decide many answers** (resin vs meltable plastic for inserts, polypropylene for
+  glue). Ask them where they matter: both materials for glue, and *"Does your plastic melt with a
+  soldering iron?"* before heat-set inserts (the same question PEM and E-Z LOK ask, 1.8).
+- **Compound mechanisms** (question 7: part-toothed gear + rack + spring) need "works together
+  with" links between entries, since no single entry is the answer.
+- **The finder needs a "not covered here" ending**, for example for electrical wire joints.
+- **Gaps found** (candidates for `/research-add-items`, the owner decides): welding 3D prints
+  together (soldering iron, 3D pen, friction welding); metal welding, brazing and soldering as
+  joint types; the worm-drive hose clamp; screw-in threaded inserts (wire thread inserts,
+  external-thread inserts); roll pins and cross-pinning; sewing or lacing a part on; push-on edge
+  trim and U-channel grommets; carrying a cable through a hinge; an expanding internal gripper or
+  mandrel. Electrical wire joints are out of scope unless the owner wants them.
 
 ### 1.8 Existing selection charts and decision tools: what to borrow
 
