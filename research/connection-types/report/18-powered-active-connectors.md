@@ -827,7 +827,7 @@
   - area gripper (a large vacuum gripper with many suction openings)
   - astrictive gripper (the formal category of grippers that hold with an attracting force such as suction)
 - **family**: powered & active connectors
-- **other_families**: clamping, magnetic & friction connections, quick-release & tool-free
+- **other_families**: clamping, magnetic & friction connections, quick-release & tool-free, hydraulics, pneumatics & vacuum
 - **one_liner**: A flexible cup connected to a vacuum pump or an air-powered vacuum generator that holds smooth objects by pumping the air out from under it, and lets go when a valve lets air back in.
 - **complexity**: A small assembly that acts as one unit: the suction cup (a rubber part plus a connection nipple), a vacuum source (an electric vacuum pump, or a compressed-air venturi ejector), a valve that switches the vacuum on and off and lets air back in (venting) or blows a short puff (blow-off), hoses and fittings, a dust filter, and often a vacuum switch or pressure sensor that checks a part is really held (Schmalz knowledge base; OpenPnP wiki).
 - **how_it_works**: The cup is pressed onto a smooth, airtight surface and the vacuum source pumps the air out from inside it. The cup does not really 'suck': the surrounding air pressure pushes the cup and the object together, and the holding force equals the pressure difference times the area inside the cup's seal (F = Δp × A) (Schmalz 'Vacuum suction cups'; Wikipedia 'Suction cup'). A vacuum ejector makes vacuum from compressed air: the air rushes through a narrow venturi nozzle and drags air in through a side port connected to the cup (Schmalz 'Vacuum ejectors'). To let go, a valve opens the cup to the air or blows a short puff through it; simply switching off a small pump can leave a part stuck for up to about a second (Riemersma, Printables vacuum pen; Automatic Addison).
@@ -964,7 +964,7 @@
   - granular gripper or granular-jamming soft gripper
   - VERSABALL (Empire Robotics, brand)
 - **family**: powered & active connectors
-- **other_families**: clamping, magnetic & friction connections
+- **other_families**: clamping, magnetic & friction connections, hydraulics, pneumatics & vacuum
 - **one_liner**: A soft rubber bag filled with grains such as ground coffee that flows around an object when pressed onto it, then locks rigid and grips it when a pump sucks the air out, and softens and lets go when air is let back in.
 - **complexity**: A small assembly that acts as one unit: a stretchy airtight bag (often a latex party balloon), loose grains inside it (ground coffee is the usual choice), a filter so grains aren't sucked out, a rigid base or funnel with a hose connection, and a vacuum source (pump, venturi or even a large syringe) with a valve; better versions add a rigid collar round the bag and a compressed-air port to reset it (Brown et al. 2010; Amend et al. 2012: 12 components including five screws).
 - **how_it_works**: Loose grains in a bag behave almost like a liquid, so when the soft bag is pressed onto an object it flows around it and takes its shape. When the air is pumped out, the outside air pressure squeezes the bag and the grains lock against each other (a 'jamming transition'), so the bag goes solid; a volume change of under 0.5 % is enough (Brown et al. 2010). The hardened bag then holds the object in three ways: friction from the bag pinching around it, suction where the rubber seals onto a smooth surface, and interlocking where it has wrapped around bumps or more than half-way round the object (Brown et al. 2010). Letting air back in unjams the grains so the bag softens and lets go, and a short puff of compressed air resets it faster, or even shoots the object away (Amend et al. 2012; Make:).
@@ -1502,4 +1502,267 @@
 ### Other info
 
 - **Fields with unverified parts:** maker_difficulty, making_tips_3d_printing, materials
+
+## 276 Twisted-and-coiled polymer muscle (fishing-line artificial muscle)
+
+*powered & active connectors.* Nylon fishing line or sewing thread twisted until it coils like a spring, so it shortens and pulls when heated (by a wrapped heating wire or warm air) and relaxes as it cools
+
+*Also covers:* A heat-driven cousin of the Twisted-string actuator, which needs a motor
+
+### What it is
+
+- **plain_name**: A piece of ordinary nylon fishing line or sewing thread twisted so hard that it curls up like a phone cord, then baked so it keeps that shape: warm it and it shortens and pulls like a muscle, let it cool and it relaxes again
+- **term**: Twisted-and-coiled polymer actuator (TCP or TCPA; coiled polymer artificial muscle)
+- **aliases**: 
+  - fishing-line artificial muscle / fishing line muscle / nylon muscle
+  - supercoiled polymer (SCP) actuator (Yip and Niemeyer 2015)
+  - twisted coiled actuator (TCA) (Lizotte and Trejos 2022)
+  - coiled artificial muscle / coiled polymer fibre muscle
+  - Nylon Linear Material Actuator (NLMA) (Hackaday Prize 2018 project name)
+  - hyper-wound or hyper-coiled nylon
+  - self-coiled muscle and rod-coiled (mandrel-coiled) muscle (the two ways of forming the coils)
+  - homochiral muscle (contracts when heated) and heterochiral muscle (lengthens when heated)
+  - conductive-thread muscle (made from silver-plated nylon sewing thread)
+- **family**: powered & active connectors
+- **one_liner**: A twisted-and-coiled polymer muscle is a cheap nylon fishing line or sewing thread that has been over-twisted into a tight coil and heat-set, so that heating it (with a wrapped heater wire, a conductive coating, hot air or hot water) makes it shorten and pull, and cooling lets it stretch back out.
+- **complexity**: A few parts: (1) the coiled nylon muscle itself, often two muscles twisted together (plied) so they cannot untwist; (2) a heater: a thin resistance wire such as nichrome wound along it, a silver coating on conductive sewing thread, or an outside heat source such as a hot-air gun or hot water; (3) an anchor at each end, such as a knot round a metal paper clip or a crimped metal sleeve (Lizotte and Trejos 2022); (4) a load or return spring that keeps it under tension; (5) a driver: a power supply and a switch (MOSFET) with PWM control, and often a fan for faster cooling (Yip and Niemeyer 2015; WriterOfMinds compendium; Lizotte and Trejos 2022).
+- **how_it_works**: Commercial nylon line is made of long molecules lined up along the fibre; when it is heated the fibre gets slightly shorter and fatter (an untwisted fibre shortens only about 4% for a 250 K rise, Wikipedia 'Artificial muscle'). Twisting the line turns those molecules into helices, so heating now makes the fibre untwist a little; if you keep twisting under tension the line buckles into a tight coil, and baking it (annealing) fixes that coil shape (Haines et al. 2016, PNAS; Wang et al. 2024). With both ends held so they cannot spin, the small untwist of the fibre pulls the coils closer together, so the whole coil shortens by up to 49% (Haines et al. 2014) and relaxes again as it cools. If the coil is wound the opposite way round a rod (heterochiral), the same untwist makes it get longer instead (Haines et al. 2016).
+
+### Finder attributes
+
+- **job**: 
+  - hold or release using power: it pulls only while it is kept hot, and lets go as it cools
+  - change the kind of motion: turns heat (usually from an electric current) into a straight-line pull, like a muscle pulling a tendon
+- **motion**: slide: the free end moves in a straight line as the coil shortens; about 10-20% of the muscle's length in hobby builds (10% is a good first target according to Haines, Science Friday; 10-18% in Wood's hackaday.io project), over 30% in lab muscles (Haines et al. 2016) and up to 49% at best (Haines et al. 2014)
+- **degrees_of_freedom**: 1: it only shortens and lengthens along its own axis; being a soft coil it also bends sideways, so the load needs its own guide (the muscles in Yip and Niemeyer's robot hand pulled tendons that ran through conduits)
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): here heat is converted into a straight pull; a twisted but uncoiled fibre instead gives a turning (torsional) motion (Haines et al. 2016)
+  - none of the locking behaviours: it pulls only while warm and has no latch, so it is not self-locking and it relaxes when the power or heat goes away (WriterOfMinds; Yip and Niemeyer 2015)
+- **holding_principle**: 
+  - powered hold: the contraction lasts only while the muscle is kept at temperature with a holding current (WriterOfMinds)
+  - spring force (a spring or springy part presses it in place): when cool it behaves like a soft spring (stiffness about 160 N/m for Yip and Niemeyer's 100 mm thread muscle)
+- **input_output**: Heat -> straight-line pull (tension only; it cannot push). The heat usually comes from electric current in a wrapped heater wire or a silver-coated thread, but hot air, hot water or warm surroundings also work (WriterOfMinds). Stroke: about 10-20% of length in practice, more than 30% in lab muscles and up to 49% in the best case (Haines et al. 2014, 2016). Efficiency is very low: typically 0.5-2% of the heat energy becomes work in nylon muscles (Xiao et al. 2026, arXiv 2602.06067), and Haines et al. (2016) note that thermal muscles 'provide limited efficiency'. Force rises roughly in a straight line with temperature (2.31 mN per degree C in Yip and Niemeyer's sewing-thread muscle). Arrangement: in line; the pull acts along the coil. Back-drivable: yes, in the sense that an outside pull stretches it like a soft spring, so it gives way under a sudden load.
+- **power**: powered (needs heat, normally an electric current through a heater wire or conductive coating; a hot-air gun or hot water also works). If power is lost it cools and relaxes back to its rest length, so it lets go: the time constant was about 3 s in still air and about 1 s with a fan for a sewing-thread muscle under 1 mm thick (Yip and Niemeyer 2015), but thick fishing-line muscles can take minutes (WriterOfMinds). It can also respond to warm surroundings with no power at all, as in Haines et al.'s temperature-driven window shutters (Haines et al. 2014).
+- **removability**: removable: the ends are knotted to hooks or crimped and can be undone; the muscle itself is a cheap consumable that can be remade (WriterOfMinds; Lizotte and Trejos 2022)
+- **reuse_cycles**: many times: the end fixings can be undone and refitted, and the muscle can give thousands to millions of strokes in the lab ("millions of cycles of stroke without significant degradation", Haines et al. 2016; 10,000-cycle tests in Tsai et al. 2024), but a single overheating can flatten or melt a hobby muscle (WriterOfMinds)
+- **tools_needed**: To make: a hobby motor or a cordless drill to twist the line, a known hanging weight, metal paper clips as anchors, a way to stop the weight spinning (a skewer through the lower clip), and a toaster oven with a thermometer or a hot-air gun to heat-set it (Haines, Science Friday; WriterOfMinds). To fit: pliers, crimp sleeves or knots, a soldering iron for the heater-wire ends, and a power supply with a MOSFET switch or PWM controller (Yip and Niemeyer 2015).
+- **seal**: none: it is an open coil of line; nothing about it seals
+- **load**: Light: a single hobby muscle lifts from about a hundred grams to about half a kilogram (Haines suggests loading a 20-pound-test line muscle with about 400 g; Wood's nichrome-wrapped muscle contracted about 10% under about a pound, hackaday.io), and Yip and Niemeyer worked their thread muscle between 0.1 and 1 N. Weight for weight it is very strong ("lift loads over 100 times heavier than can human muscle of the same length and weight", Haines et al. 2014), but single fibres generally work at stresses of only 1-10 MPa (Xiao et al. 2026; Lizotte and Trejos quote up to 80 MPa for silver-coated nylon thread), so bigger loads need thicker line or bundles of muscles. Strong in pull only, zero in push; it bends and swings sideways.
+- **adjustable**: yes: the amount of pull is set by how hot you keep it (current or PWM); the rest length and stroke are set when making it, by the load, by spreading the coils and re-baking them, and by the rod (mandrel) diameter, since wider coils give more stroke but less force and tighter coils give more force but less stroke (Haines et al. 2016; WriterOfMinds)
+- **play_and_precision**: No gears, so no backlash, but it is soft and springy and its force-stretch curve shows hysteresis (Yip and Niemeyer 2015). Because it is driven by temperature, the position changes with the room temperature and air movement, so precise movement needs a feedback sensor (WriterOfMinds). Over thousands of cycles the loaded length can creep longer or shorter even when the stroke stays the same (Tsai et al. 2024). It tolerates misalignment well because it is flexible, but its sideways floppiness means the load must be guided.
+- **access_needed**: not applicable: it is built into a machine, anchored at both ends of its working length
+- **materials**: Muscle: nylon 6 or nylon 6,6 monofilament fishing line, nylon beading string or hedge-trimmer line (WriterOfMinds found every nylon it tried worked), silver-plated multifilament nylon 6,6 sewing thread (Yip and Niemeyer 2015; Lizotte and Trejos 2022) and polyethylene fibre (Haines et al. 2016); PVDF is being studied because, unlike nylon, it does not swell in water (Tsai et al. 2024). Heaters: nichrome resistance wire (30 or 36 AWG, hackaday.io), litz or tinsel copper wire, silver paint, or the conductive coating on the thread (WriterOfMinds). Anchors and mounts: metal hooks and crimps; printed parts near the hot muscle should be heat-resistant (Yip and Niemeyer printed their hand in ABS). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: the materials cost pennies and a drill, a weight and a toaster oven are enough (Haines, Science Friday), but getting the twisting tension, heat-setting and heating current right takes trial and error, the line snaps or tangles easily at first, and the finished muscle is slow, power-hungry and easy to overheat (WriterOfMinds)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: nylon fishing line, silver-plated nylon sewing thread, nichrome wire, crimps and a MOSFET driver; the muscle itself is hand-made by twisting and baking
+  - 3D print (FDM): twisting jigs, motor mounts, anchors, tendon guides and the robot hands or arms the muscles drive (Yip and Niemeyer printed their hand on a desktop FDM printer)
+- **print_in_place**: no: the muscle is twisted from line and heat-set in an oven, and the printed parts around it are separate
+- **making_tips_3d_printing**: 1) Keep printed parts away from the hot muscle or make them from heat-resistant plastic: muscles are run at about 85-100 C (Lizotte and Trejos 2022) and heat-set near 150 C, while PLA gets soft above about 60 C, PETG is rated for use below 80 C and ASA up to 93 C (Prusa material guides); Yip and Niemeyer printed their hand in ABS. Anchor the muscle with metal hooks or crimps and leave an air gap round it. 2) Never put printed anchors in the oven: everything that is baked with the muscle must survive the heat-setting temperature, so use plain metal paper clips (WriterOfMinds). 3) A printed twisting jig needs a motor mount with a hook at the top and a slider or rod at the bottom that lets the weight move up and down but not turn (Haines, Science Friday). 4) The stroke is only about 10-20% of the muscle's length, so a long muscle is needed for a useful movement: Yip and Niemeyer's fingers needed 10-15 mm of pull, so the muscles ran along the forearm and pulled the fingers through tendons in printed conduits; design a long straight channel or a pulley to fold the muscle. 5) Add a duct for a small fan: forced air cut the cooling time constant from about 3 s to about 1 s (Yip and Niemeyer 2015), and an air channel cut cooling time by 42% (Lizotte and Trejos 2022). 6) Keep bundled muscles from touching each other or bare metal, as their heater wires short out (Wood, hackaday.io). 7) Give the muscle a preload or return spring in the printed frame, because a freshly made coil with touching coils has no room to contract unless it is stretched (WriterOfMinds; Haines, Science Friday).
+- **off_the_shelf_parts**: Nylon monofilament fishing line, 2-20 pound test for first muscles (Haines, Science Friday), e.g. 0.711 mm Trilene Big Game (brand) (WriterOfMinds); silver-plated nylon conductive sewing thread or yarn, e.g. Shieldex 117/17 (brand) (Yip and Niemeyer 2015) or four-ply thread from V Technical Textiles (brand) (Lizotte and Trejos 2022); nichrome resistance wire 30 or 36 AWG (hackaday.io); litz wire or tinsel wire (WriterOfMinds); crimp sleeves (ferrules); a logic-level MOSFET with an Arduino-type PWM controller and a bench power supply (Yip and Niemeyer); small 12 V fans or air pumps for cooling; a thermocouple or thin copper-wire temperature sensor (Lizotte and Trejos); extension springs for the return stroke.
+- **rules_of_thumb**: 
+  - Twisting (coiling) weight: about 11-12 grams per pound of the line's test rating, e.g. about 230 g for 20-pound-test line; too heavy and the line snaps, too light and it tangles instead of coiling (Haines, Science Friday). WriterOfMinds instead uses a stress of 17 MPa (mass = pi x r^2 x 17 MPa / g, credited to the original paper), which gives a somewhat heavier weight for the same line, so start light and adjust.
+  - After coiling, the coils touch and the muscle cannot contract: add another 50-100% of the coiling weight as the working load, or untwist slightly (Haines, Science Friday), or spread the coils on a rod and bake again (WriterOfMinds).
+  - Heat-setting (annealing): about 150 C for at least 20 minutes in an oven checked with a thermometer (WriterOfMinds); one maker found 350 F (about 177 C) gave a stiffer, tighter muscle that contracted more than 275 F (Wood, hackaday.io); with a hot-air gun Haines advises staying below 150 C (Science Friday).
+  - Training: for the first few heat cycles the muscle gets longer; keep cycling until its length settles before using it (Haines, Science Friday; Yip and Niemeyer heated their thread muscles 20 times at about 0.2 W per cm of length).
+  - Line length: l = pi x (rod diameter + line diameter) x number of coils, times about 1.15 for the shortening caused by twisting, plus at least 6 cm of tails for the end knots (WriterOfMinds, measured on 0.711 mm line).
+  - Wider coils (bigger rod, higher spring index) give more stroke but less force; tight coils give more force but less stroke (Haines et al. 2016, PNAS; WriterOfMinds).
+  - Twist and coil in the same direction (homochiral) to get a muscle that shortens when heated; coil the opposite way round a rod (heterochiral) to get one that lengthens by up to about 60% or more (Haines et al. 2016).
+  - Stop untwisting: tie both ends so they cannot spin, or ply two coiled muscles together, or fold one in half (Yip and Niemeyer 2015; Lizotte and Trejos 2022).
+  - Expect slow cycles: with passive cooling the bandwidth is about 0.03 Hz (about 30 s per cycle) (Lizotte and Trejos 2022, citing earlier work); thinner line heats and cools faster but lifts less (Haines, Science Friday).
+  - Efficiency is only about 0.5-2% in nylon muscles (Xiao et al. 2026), so budget plenty of electrical power; Wood used about 9 A to contract a muscle 10% in 30 s under about a pound (hackaday.io).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A coiled telephone handset cord: a finished self-coiled muscle looks just like one (WriterOfMinds describes 'telephone-cord-like coils')
+  - Window shutters that open and close by themselves with temperature, and textiles whose pores open when warm, both demonstrated with these muscles by Haines et al. (2014)
+  - A low-cost 3D-printed robot hand whose fingers are pulled by sewing-thread muscles along the forearm (Yip and Niemeyer 2015) *(unverified parts omitted)*
+- **when_to_use**: Use it for a light, silent, very cheap pulling actuator that you can make at home in any length: animatronic and art projects, small robot fingers and grippers pulled through tendons, slowly moving vents, louvres or shutters that react to warmth, and experiments in soft robotics. It is far lighter than a motor and gearbox, makes no noise, costs pennies, and gives far more stroke than shape-memory-alloy wire (WriterOfMinds; Yip and Niemeyer 2015; Haines et al. 2014).
+- **when_not_to_use**: Avoid it when you need speed, efficiency, precision or a large force from a small cross-section: it takes seconds to minutes to relax, wastes about 98% or more of its power as heat, changes with room temperature and drifts over many cycles (WriterOfMinds; Xiao et al. 2026; Tsai et al. 2024); a 2025 robotic wrist driven by these muscles was tested at only 1/60 to 1/120 Hz (one cycle every one to two minutes) and its authors plan fans to speed it up (Zhang et al., arXiv 2503.05508). For a quick, small, strong pull use shape-memory-alloy wire or a solenoid; for a strong, fast pull from a motor use a twisted-string actuator or a servo with a cable; for precise positioning use a servo or lead screw; for a pull that must hold with the power off, add a latch.
+- **environment_limits**: Heat: it is driven by temperature, so warm surroundings change its length and force, and even a closed house on a summer day can spoil a muscle (WriterOfMinds); overheating flattens the coils or melts the nylon (WriterOfMinds), and Yip and Niemeyer's conductive thread burned out at about 10% contraction. Lab muscles are run at about 85-100 C (Lizotte and Trejos 2022), and nylon 6,6 fibre was heated to 140 C in Haines et al. (2016). Water: nylon swells in water, which changes its behaviour; PVDF does not (Tsai et al. 2024). Water or fans cool it faster but need more power to heat it (Yip and Niemeyer 2015). Creep: the loaded length can slowly grow or shrink over thousands of cycles (Tsai et al. 2024). Printed mounts near it: PLA softens above about 60 C (Prusa). *(unverified parts omitted)*
+- **safety_notes**: Making it: Haines asks makers using a drill to take proper safety precautions 'because the line can accidentally snap in half during twisting' (Science Friday), so wear eye protection, and thick 2 mm line under a heavy weight can fly loose ("watch out for your eyeballs", WriterOfMinds); a released muscle can spin and flail its end clips (WriterOfMinds). Keep hair and clothing away from the spinning drill. *(unverified parts omitted)*
+- **common_failures**: 1) The line tangles into sideways 'whiskers' instead of coiling (too little weight) or snaps (too much): weigh it carefully (WriterOfMinds; Haines, Science Friday). 2) The coil untwists when released: keep both ends tethered, bake it, or ply two muscles together (Wang et al. 2024; Yip and Niemeyer 2015). 3) It will not contract because the coils already touch: add more load or spread the coils and bake again (WriterOfMinds). 4) Overheating flattens the coils or melts the line: use a short high-current burst then a lower holding current; a flattened muscle can be re-baked on a rod (WriterOfMinds). 5) The heater wire breaks inside the coil, or a painted coating cracks right round and stops conducting: check continuity before baking (WriterOfMinds). 6) Very slow relaxation: add fans, use thinner line or bundles of thin muscles (Yip and Niemeyer; Haines, Science Friday). 7) Bundled muscles short circuit against each other: separate them with plain nylon strands or insulation (Wood, hackaday.io). 8) Knots slip at the anchors under the large twisting tension: tie firm knots, tighten with pliers and leave long tails (WriterOfMinds). 9) The length drifts after many cycles (creep): allow adjustment, or predict it from the first 100 cycles (Tsai et al. 2024).
+- **related**: 
+  - Twisted-string actuator: a motor twists two or more strings so they shorten; driven by a motor rather than by heat, so it needs no cooling time, but it needs a motor, gearbox and thrust bearing (overtwisted strings can also coil up)
+  - Shape-memory-alloy (nitinol) wire: also shortens when heated by a current, and is stronger for its thickness, but only by about 4-5% (see that entry) and costs far more; WriterOfMinds lists low cost and home-making as the nylon muscle's advantages over nitinol
+  - Pneumatic artificial muscle (McKibben muscle): a braided rubber tube that shortens when pumped with air; strong and fast but needs an air supply
+  - Electroactive polymer and dielectric elastomer actuators: artificial muscles driven directly by electric fields instead of heat (Wikipedia 'Artificial muscle')
+  - Carbon nanotube yarn muscles: the more expensive lab ancestors that first showed twist-based coiled actuation (Haines et al. 2016)
+  - Coil spring: the same shape used passively; the heat-set muscle behaves like a soft extension spring when cool *(unverified parts omitted)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [How to Make an Artificial Muscle Out of Fishing Line (Carter S. Haines, Science Friday, 2014)](https://www.sciencefriday.com/articles/how-to-make-an-artificial-muscle-out-of-fishing-line/): Photo of muscles of several sizes made from fishing line, plus the original author's step-by-step guide to twisting, loading and training a muscle *(licence: link only (photo credit University of Texas at Dallas))*
+  - [Active cooling of twisted coiled actuators via fabric air channels (Lizotte and Trejos, Frontiers in Rehabilitation Sciences, 2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9748810/): Figures of a plied silver-coated nylon muscle, its test rig and a fabric cooling channel, with heating and cooling time graphs *(licence: CC BY (article licence))*
+  - [Researcher Spins Fishing Line into an Artificial Muscle (Discover Magazine, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=_ghKQGDTUwY): Video of fishing line being twisted into a coiled artificial muscle *(licence: link only)*
+  - [Making artificial muscles from fishing line (BionicMuscles, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=gzdZGKHdfsc): Video of a maker coiling fishing line into muscles *(licence: link only)*
+  - [Robotic Muscles From Fishing Line And Nichrome (Hackaday, 2018)](https://hackaday.com/2018/07/11/robotic-muscles-from-fishing-line-and-nichrome/): Photo of coiled nylon muscles wrapped with nichrome heater wire, from Brandon T. Wood's Hackaday Prize entry *(licence: link only)*
+- **make_it_yourself**: 
+  - [Nylon Fishing Line Artificial Muscle Knowledge Compendium (WriterOfMinds blog)](http://writerofminds.blogspot.com/p/nylon-fishing-line-artificial-muscle.html): A hobbyist's complete illustrated guide: choosing line and heater wire, the length and weight formulas, drill-twisting set-up, rod-coiled versus self-coiled muscles, oven heat-setting at about 150 C and electrical control *(licence: not stated (read and link))*
+  - [How to Make an Artificial Muscle Out of Fishing Line (Science Friday)](https://www.sciencefriday.com/articles/how-to-make-an-artificial-muscle-out-of-fishing-line/): Short step-by-step guide by the lead author of the 2014 Science paper, with the weight rule of thumb and a heat-gun training method *(licence: link only)*
+  - [Material Linear-Actuator for Robotics (Brandon T. Wood, hackaday.io)](https://hackaday.io/project/157004-material-linear-actuator-for-robotics): Build logs for nichrome-wrapped fishing-line muscles: hobby-motor twisting jig with washers as weights, annealing temperatures, bundling and insulating several muscles *(licence: not stated)*
+  - [A Device for Producing Artificial Muscles from Fishing Line (Iskanderuse, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=iMMGfzYXwAU): Video of the 'Artificial Muscle Twister', a machine with a 3D-printed case that winds heater wire onto nylon line and twists it into muscles (described in Semochkin's 2016 IEEE ISAM paper; its project page could not be opened, so its open-source files were not checked) *(licence: link only)*
+- **diagram_idea**: Three side-by-side sketches of the same nylon line: straight, then twisted with a candy-stripe heater wire, then coiled like a phone cord with a weight hanging below, followed by a fourth sketch showing the coil shortened and the weight raised when a red 'heat' arrow is applied, with a small arrow showing the fibre untwisting.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Artificial_muscle
+  - https://api.semanticscholar.org/graph/v1/paper/DOI:10.1126/science.1246906?fields=title,abstract,year,venue,url
+  - https://api.crossref.org/works/10.1126/science.1246906
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5081609/
+  - https://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Performance-Robotic-Muscles-from-Conductive-Nylon-Sewing-Thread-Paper.pdf
+  - https://www.sciencefriday.com/articles/how-to-make-an-artificial-muscle-out-of-fishing-line/
+  - http://writerofminds.blogspot.com/p/nylon-fishing-line-artificial-muscle.html
+  - https://hackaday.com/2018/07/11/robotic-muscles-from-fishing-line-and-nichrome/
+  - https://hackaday.io/project/157004-material-linear-actuator-for-robotics
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9748810/
+  - https://vtechworks.lib.vt.edu/server/api/core/bitstreams/84f71267-d807-4f8f-8f2d-bc1789def35d/content
+  - https://arxiv.org/pdf/2602.06067
+  - https://arxiv.org/pdf/2404.00802
+  - https://arxiv.org/pdf/2503.05508
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/asa_1809
+  - https://www.youtube.com/watch?v=_ghKQGDTUwY
+  - https://www.youtube.com/watch?v=gzdZGKHdfsc
+  - https://www.youtube.com/watch?v=iMMGfzYXwAU
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, everyday_examples, materials, related, safety_notes
+
+## 277 Bernoulli gripper (non-contact air gripper)
+
+*powered & active connectors.* A pad that blows a thin, fast stream of air outwards so the low pressure draws a flat part close and holds it on a cushion of air, for thin wafers, glass, film or fabric
+
+*Also covers:* Unlike the Vacuum (suction) gripper it has no seal and barely touches the part.
+
+### What it is
+
+- **plain_name**: A round pad that blows compressed air out sideways from its middle, so a thin flat thing such as a silicon wafer, a sheet of glass, a film or a piece of fabric is pulled up towards it and floats on a thin cushion of air, hardly touching the pad
+- **term**: Bernoulli gripper (non-contact air-flow gripper; Bernoulli jet gripping device)
+- **aliases**: 
+  - Bernoulli grip (Wikipedia)
+  - non-contact gripper, contactless gripper or low-contact gripper
+  - air-cushion gripper
+  - floating suction cup (SBS) (Schmalz (brand) product name)
+  - jet gripping device (JGD) or air-jet gripper (Mykhailyshyn et al. 2022)
+  - cylindrical-nozzle Bernoulli gripper and ejection (annular-gap) Bernoulli gripper (the two main designs)
+  - vortex or cyclone non-contact gripper (a swirling-air variant, e.g. SMC XT661 'Cyclone Type' (brand))
+  - Bernoulli wafer gripper / Bernoulli end effector
+  - Bernoulli levitator (the spool-and-card classroom demonstration)
+- **family**: powered & active connectors
+- **other_families**: hydraulics, pneumatics & vacuum, clamping, magnetic & friction connections
+- **one_liner**: A Bernoulli gripper blows a fast, thin sheet of air outwards between its face and a flat part, which lowers the air pressure in the gap so the still air underneath pushes the part up and holds it on an air cushion, letting robots lift fragile wafers, glass, film or fabric almost without touching them.
+- **complexity**: A small assembly that acts as one unit: (1) a gripper body with a central compressed-air inlet; (2) a nozzle, a very thin ring-shaped slit or, in vortex types, angled nozzles that make the air swirl; (3) a flat or slightly shaped face; (4) spacers, bumpers or friction pads that set the gap and stop the part sliding (Festo uses a POM ring and POM or nitrile-rubber knobs); (5) side guides or end stops for the part; (6) the air supply: a compressor, filter, pressure regulator and on/off valve, sometimes with a pressure or flow sensor to check a part is there (Festo OGGB catalogue; SMC XT661 catalogue).
+- **how_it_works**: Compressed air enters the middle of the pad, is turned sideways and rushes out through the narrow gap between the pad face and the part. Fast-moving air has a lower pressure (Bernoulli's principle), and the sharp turn from straight to outward-spreading flow makes a zone of very low pressure round the outlet, so the higher pressure of the still air below pushes the part up towards the pad (Wikipedia 'Bernoulli grip'; Festo OGGB). Further away the jet pushes the part off, but as the gap shrinks the suction wins; the lifting force peaks when the gap is only about 0.1-0.3 mm in the cylindrical-nozzle type, and the escaping air keeps a cushion so the part need not touch (Mykhailyshyn et al. 2022). Because the air gives almost no sideways grip, small spacers, friction pads or guides stop the part sliding, and turning the air off lets it go (SMC XT661; Festo OGGB).
+
+### Finder attributes
+
+- **job**: 
+  - hold or release using power: it holds only while compressed air is flowing and lets go when the air is switched off
+  - join and hold: temporarily picks up, carries and places thin, flat, fragile parts on a robot arm or transfer machine
+- **motion**: none: it holds the part still under the pad (floating a fraction of a millimetre away); the robot or slide that carries it does the moving
+- **degrees_of_freedom**: 0 when the part rests against friction pads or side guides; without them the air holds the part only up and down, and it can still slide in two directions and spin in its own plane (3 free), because 'a non-contact gripper does not produce a restraining force that prevents horizontal movement of the workpiece' (SMC XT661)
+- **special_behaviour**: quick-release: it lets go as soon as the air is switched off, with no seal or suction to break, none of the locking behaviours: nothing locks; holding lasts only as long as the air flows
+- **holding_principle**: 
+  - suction or air pressure: the surrounding air pushes the part towards the low-pressure zone made by the fast outflow
+  - friction or clamping (force-fit): sideways hold comes only from friction pads, knobs or guides that the part rests against (Festo's nitrile-rubber knobs raise the lateral force from 1 N to 12-15 N)
+  - powered hold: it needs a continuous flow of compressed air
+- **input_output**: not applicable: it is a holding device, not a motion converter. For sizing, compressed air in -> lifting force out: a Festo OGGB uses about 110 l/min at its nominal 1 bar and holds 6-10 N (Festo OGGB catalogue); an SMC Bernoulli-type pad of 100 mm diameter uses 156 L/min (ANR) at 0.4 MPa for 7.8 N, while the swirling cyclone type of the same size uses 258 L/min for 44 N (SMC XT661 catalogue).
+- **power**: powered (needs a steady supply of compressed air: Festo OGGB works from 0 to 6 bar with 1 bar nominal; SMC's pads are rated for 0.01-0.4 or 0.5 MPa depending on type (SMC XT661); a maker's printed version needed a constant 7-40 psi, about 0.5-2.8 bar (EE3D, Thingiverse)). *(unverified parts omitted)*
+- **removability**: tool-free quick release: switching the air off releases the part, and the gripper itself bolts to the robot with ordinary screws
+- **reuse_cycles**: effectively unlimited: picking and placing causes almost no wear because the part barely touches the pad; only the spacers or friction knobs wear, and Festo's rubber knobs 'can be replaced if they become worn' (Festo OGGB)
+- **tools_needed**: None to grip and release (a valve does it). To fit: screwdriver or hex key for the mounting screws (Festo mounts via a female thread; SMC's thin pad is glued on with adhesive kept clear of the air port), a spanner and push-in fitting for the air connection, a pressure regulator and filter for clean, oil-free air (Festo OGGB; SMC XT661).
+- **seal**: none: it deliberately has no seal; the air escapes all round the edge of the pad
+- **load**: Light: from a few grams to a few kilograms per pad. Festo OGGB holds 6-10 N (about 0.6-1 kg) per gripper at 1 bar; Schmalz floating suction cups SBS (10-120 mm) hold 1.4-104 N; SMC's largest cyclone type lifts 44 N. The cylindrical-nozzle type suits parts up to about 1 kg and the ejection (annular-slit) type up to about 10 kg (Mykhailyshyn et al. 2022). Strong only in the direction that pulls the part onto the pad; very weak sideways (Festo standard lateral force 1 N, 12-15 N with rubber knobs) and no resistance to twisting or sliding unless pads or guides are fitted.
+- **adjustable**: yes: the supply pressure sets the lifting force and gap, the height of the spacers or bumpers sets the working distance, guides with adjustment bolts set the distance between pad and part (SMC XT661), and several pads can be spaced out to balance a large sheet
+- **play_and_precision**: Up and down it holds the part at a small, steady gap: SMC measured a vibration of only +/-0.01 mm on a 125 mm, 0.25 mm thick solar cell at 0.1 MPa with its Bernoulli type. Sideways it gives almost no location at all, so repeatable positioning depends entirely on guides, stops or friction pads (SMC XT661). It tolerates some texture and warp; vortex types are less sensitive to the gap and suit uneven parts better (Mykhailyshyn et al. 2022). Lifting is lost if the part has holes covering more than about 1% of the pad area or is smaller than the pad (SMC XT661).
+- **access_needed**: one side only (blind): it picks the part up by its top face alone, so the underside and edges are never touched
+- **materials**: Parts it handles: silicon wafers and solar cells, thin glass, films and foils, circuit boards, flexible and air-permeable sheets, porous materials, textiles and leather, and sliced food in research (Festo OGGB; Wikipedia 'Bernoulli grip'; Mykhailyshyn et al. 2022). EE3D says it is favoured over vacuum for porous and even perforated sheets 'whereas vacuums would fail', and Festo lists porous and air-permeable materials among its uses, but SMC says parts whose holes add up to more than about 1% of the suction area may not lift, so test first. Poor for: parts smaller than the pad, strongly curved or bumpy surfaces, heavy parts. Gripper bodies: anodised aluminium with POM spacers and nitrile-rubber knobs (Festo), resin or aluminium bodies (SMC); maker versions are 3D printed with neoprene or rubber bumpers (EE3D, Thingiverse).
+- **maker_difficulty**: moderate: a printed nozzle body on a shop air line will lift paper, card, film or thin sheet (EE3D; Printables 882372), but it needs a steady, regulated compressed-air supply that uses a lot of air, carefully set bumpers and side guides, and the lift is small and easily lost
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): maker grippers with a threaded port for an air-gun nozzle (EE3D, Thingiverse) and a mouth-blown teaching model (Printables 882372)
+  - CNC: industrial bodies are machined, anodised aluminium (Festo OGGB)
+  - off-the-shelf part: complete Bernoulli and cyclone pads (Festo OGGB, Schmalz SBS, SMC XT661 and ZNC (brands)), plus regulators, valves and fittings *(unverified parts omitted)*
+- **print_in_place**: partly: the nozzle body can be printed in one piece with its threaded air port, but the rubber bumpers or friction pads and the air fitting are added afterwards (EE3D, Thingiverse)
+- **making_tips_3d_printing**: 1) Make the pad smaller than the part you want to lift: if the pad is bigger than the part, no low-pressure zone forms and nothing lifts (SMC XT661). 2) Fit three or more small bumpers or friction pads that stand just proud of the face: research designs use pads protruding a little over 0.15-0.2 mm (Mykhailyshyn et al. 2022), and EE3D advises 'the less the bumpers protrude the better'; neoprene or rubber bumpers set the working gap (EE3D). 3) Add side guides or stops, because the air gives almost no sideways grip (SMC XT661; Festo lateral force 1 N). 4) Start at low pressure and raise it slowly: EE3D's printed gripper needed a constant 7-40 psi depending on the part's weight and gap, and SMC warns that too much pressure can bend or shake thin parts. 5) For a threaded air-gun nozzle, EE3D found 1/2 inch nozzles commonly use 20 threads per inch and 3/8 inch nozzles 24 threads per inch, and offered both. 6) Feed it clean, dry, oil-free air through a filter and regulator: Festo states lubricated air cannot be used. 8) For a no-compressor demonstration, print a model you can blow through with your mouth (Printables 882372) or try a thread spool and an index card (Exploratorium). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Bernoulli gripper or Bernoulli pad (e.g. Festo OGGB-60/100/140 (brand), with standard POM spacers or the '-Q' nitrile-rubber knobs for higher lateral force); floating suction cup (Schmalz SBS, SBS-ESD, SBS Thin (brand)); non-contact gripper, Bernoulli type or cyclone type (SMC XT661 and ZNC (brand)); guides with urethane bumper pads; compressed-air filter, pressure regulator, solenoid valve, push-in fittings and tubing; pressure or flow sensor on a multi-port pad to detect the part (SMC XT661); a small air compressor or workshop air line with an air-gun nozzle (EE3D).
+- **rules_of_thumb**: 
+  - Size it with a safety factor of at least 2 (lifting force divided by 2 must still exceed the part's weight), and more for fast moves, sudden stops or large flat sheets that catch the air (SMC XT661).
+  - The lifting force is greatest at a very small gap, about 0.1-0.3 mm for a cylindrical-nozzle gripper, and friction pads that stand more than about 0.2 mm (cylindrical type) or 0.15 mm (annular-slit type) proud of the face stop sideways sliding (Mykhailyshyn et al. 2022).
+  - Cylindrical-nozzle grippers suit flat parts up to about 1 kg; ejection grippers with a ring-shaped slit suit parts up to about 10 kg (Mykhailyshyn et al. 2022).
+  - Holes or pores: lifting may fail if the holes add up to more than about 1% of the suction area (SMC XT661).
+  - The pad must be smaller than the part; mount it level (horizontal), and if it is tilted or vertical, add guides and keep the safety factor at 2 or more (SMC XT661).
+  - Expect high air use: about 110 l/min at 1 bar for 6-10 N (Festo OGGB) or 156 L/min (ANR) at 0.4 MPa for 7.8 N (SMC Bernoulli type, 100 mm); the swirling cyclone type gives much more lift for its air (258 L/min for 44 N at 100 mm, SMC), and Li et al. found a vortex gripper needed less air than an ejection gripper for the same lift (reported in Mykhailyshyn et al. 2022).
+  - Do not use more pressure than needed with thin parts: it can deform, damage or vibrate them (SMC XT661).
+  - For thin, delicate films, cover the workpiece completely with the gripper (Festo OGGB note).
+  - A Festo OGGB is rated for 0-60 C air and surroundings and makes about 65 dB(A) of noise at 1 bar (Festo OGGB catalogue).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The 'Bernoulli levitator' trick: blow down through a cotton reel and an index card underneath is held up instead of blown away (Exploratorium Science Snack)
+  - Factory robots moving solar cells, silicon wafers and thin glass without scratching them (Festo; Wikipedia 'Bernoulli grip')
+  - The 1980s Iomega Bernoulli disk drive, where the airflow round a spinning floppy disk held it a tiny distance from the read head by the same effect (Hackaday)
+  - Wall-climbing robots that cling to walls with supersonic air jets without touching them (Hackaday, 2011)
+- **when_to_use**: Use it to pick up thin, flat, fragile or sensitive parts that must not be scratched, marked, bent or contaminated: wafers, solar cells, thin glass, films, foils, circuit boards, textiles and leather, and porous or air-permeable sheets that a vacuum cup cannot seal on (Festo OGGB; Wikipedia 'Bernoulli grip'; EE3D). It is also good for separating the top sheet from a stack of thin or porous material (Festo), for sterile or clean-room handling because nothing touches the surface (Wikipedia), and where a part is warm or brittle (Mykhailyshyn et al. 2022 list hot and brittle parts as a jet-gripper strength).
+- **when_not_to_use**: Avoid it for heavy parts, parts with large holes, strongly curved or bumpy shapes, parts smaller than the pad, or where the part must not slide sideways during fast moves: its lift is small, it gives almost no sideways grip and it needs guides (SMC XT661; Festo OGGB). It also needs a compressor and uses a lot of air and makes noise. Use a vacuum (suction) gripper for a much stronger, sealed grip on smooth parts, a granular jamming or soft-finger gripper for odd shapes, a magnet for steel, or mechanical fingers for heavy or rough parts.
+- **environment_limits**: Temperature: Festo OGGB is rated 0-60 C for both the air and the surroundings, and SMC pads -5 to 40 C or 60 C depending on type, with no freezing; 3D-printed bodies are limited by their plastic (PLA softens above about 60 C, Prusa). Air quality: needs clean, dry, unlubricated air (Festo OGGB: 'operation with lubricated medium not possible'). Flexible materials: soft sheets such as food can vibrate against the pad, block it or be blown away, which needs an anti-vibration grid (Wikipedia 'Bernoulli grip'); thin parts vibrate if the pressure is too high (SMC). Drying: the fast airflow dried and vibrated soft tissue in a surgical prototype (Ertürk and Erzincanlı 2020). Wind and acceleration: large flat sheets catch the air when moved, so slow down or add a wind cover (SMC XT661). Nothing creeps or weakens over time apart from wear of the spacers.
+- **safety_notes**: Compressed air hazards (UK HSE HSG39): air can enter the body through the mouth, ears or anus 'causing severe and often fatal injuries', can penetrate the skin at high pressure, and particles carried in an air jet can damage the eyes, so never point the gripper or air line at anyone and wear eye protection; damaged hoses can rupture and 'whip' dangerously. Noise: about 65 dB(A) for a Festo OGGB at 1 bar, more at higher pressure. Do not use a 3D-printed part to store compressed air. Broken thin glass or wafers leave sharp edges. *(unverified parts omitted)*
+- **common_failures**: 1) The part slides off sideways or spins during a move: fit friction pads, side guides or stops and slow the moves (SMC XT661; Festo lateral force only 1 N with standard spacers). 2) Thin, flexible films, food or fabric flutter, block the nozzle or are blown away: lower the pressure, cover the whole part, or add an anti-vibration grid (Wikipedia 'Bernoulli grip'; Festo note; SMC). 3) Nothing lifts: the pad is bigger than the part, the part has too many holes (over about 1% of the area), or the gap is too large (SMC XT661). 4) Thin parts bend, crack or vibrate: the pressure is higher than needed (SMC XT661). 5) The part tilts: mount the pad over the part's balance point, and space several pads evenly on big sheets (SMC XT661). 6) The part drops when other tools on the same compressor draw air: use a regulator and a part-present sensor (SMC multi-port with pressure or flow sensor). 7) Worn spacers let the part touch or shift: replace the rubber knobs (Festo).
+- **related**: 
+  - Vacuum (suction) gripper: a sealed cup sucks the part on; much stronger and grips sideways by friction, but must touch and seal, so it fails on porous parts and can mark delicate surfaces
+  - Suction cup: the passive, hand-pressed version of a sealed cup, with no air supply
+  - Venturi vacuum generator: also uses a fast air jet, but to suck air out of a sealed cup; Mykhailyshyn et al. (2022) class grippers with a Coanda nozzle as vacuum grippers, not Bernoulli grippers
+  - Vortex (cyclone) non-contact gripper: a variant covered in this entry that swirls the air; more lift for its air use and less sensitive to the gap, so better for uneven parts, while the radial Bernoulli type keeps the part steadier and turns it less (SMC XT661; Mykhailyshyn et al. 2022)
+  - Combined Bernoulli and vacuum gripper: uses Bernoulli pads to draw the part in from further away and a vacuum cup for the main grip (Mykhailyshyn et al. 2022)
+  - Air bearing and air caster: use the same thin film of escaping air to float a part along with almost no friction, rather than to hold it
+  - Granular jamming gripper and soft fingers: grip odd shapes by contact rather than flat sheets without contact
+  - Electroadhesive gripper: another way to hold thin sheets with an attracting force, electrically instead of with air
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Bernoulli Gripper.png (Wikimedia Commons; Larryisgood)](https://commons.wikimedia.org/wiki/File:Bernoulli_Gripper.png): Diagram of air flowing out of a Bernoulli gripper and the lifting force it creates on a part *(licence: CC BY-SA 3.0)*
+  - [Ejection Bernoulli.png (Wikimedia Commons; Roman211911)](https://commons.wikimedia.org/wiki/File:Ejection_Bernoulli.png): Cross-section of the ejection Bernoulli gripper: body, conical insert, ring-shaped nozzle and part (a companion file, File:Cylindrical_Bernoulli.png, shows the cylindrical-nozzle type with its friction elements) *(licence: CC BY-SA 4.0)*
+  - [Jet gripper air-flow.jpg (Wikimedia Commons; Roman211911)](https://commons.wikimedia.org/wiki/File:Jet_gripper_air-flow.jpg): Photo of smoke showing the airflow round a modified Bernoulli gripper for textiles, with an anti-vibration grid *(licence: CC BY-SA 4.0)*
+  - [Festo Bernoulli Gripper OGGB (Ralph W Earl Company Inc., YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=phSlc8B4kFo): Video of an industrial Bernoulli gripper picking up thin parts *(licence: link only)*
+  - [Robotic adhesion with supersonic air jets (BotJunkie, YouTube; title confirmed through YouTube oEmbed, video not watched; embedded in Hackaday's 2011 article)](https://www.youtube.com/watch?v=eEcDS1Vhp3o): Video of a wall-climbing robot held to surfaces by non-contact Bernoulli-type air-jet grippers *(licence: link only)*
+- **make_it_yourself**: 
+  - [Bernoulli Gripper by EE3D (Thingiverse)](https://www.thingiverse.com/thing:2644114): Printable Bernoulli gripper bodies threaded to screw onto a 1/2 inch or 3/8 inch air-gun nozzle, with rubber bumpers setting the gap; runs at 7-40 psi *(licence: CC BY-NC-SA 4.0)*
+  - [Bernoulli gripper (Bernoulliho chapač) by gruber (Printables model 882372; read through the Printables API, page not opened)](https://www.printables.com/model/882372-bernoulli-gripper-bernoulliho-chapac): A school project (Czech) for a quickly printed Bernoulli gripper that works when you simply blow into a tube, to demonstrate static and dynamic pressure *(licence: CC BY-NC-SA)*
+  - [Bernoulli Gripper (Bernoulliho chapač) by gruber (URL from Printables API, page not opened)](https://www.printables.com/model/878480-bernoulli-gripper-bernoulliho-chapac): A second, simpler printable Bernoulli gripper teaching model by the same author *(licence: CC BY-NC-SA)*
+  - [Bernoulli Levitator (Exploratorium Science Snack)](https://www.exploratorium.edu/snacks/bernoulli-levitator): A no-printer demonstration: an index card held up under a thread spool by blowing, or a paper plate held up under a box by a hair dryer, with a pushpin to stop it drifting sideways *(licence: CC BY-NC-SA 4.0)*
+- **diagram_idea**: A side-view cross-section of a round pad above a thin wafer, with blue arrows showing air coming down the centre and spreading outwards through the thin gap, a 'low pressure' label in the gap, upward 'still air pushes up' arrows under the wafer, small friction pads at the rim, and a side guide stopping the wafer sliding.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Bernoulli_grip
+  - https://commons.wikimedia.org/wiki/File:Bernoulli_Gripper.png
+  - https://commons.wikimedia.org/wiki/File:Cylindrical_Bernoulli.png
+  - https://commons.wikimedia.org/wiki/File:Ejection_Bernoulli.png
+  - https://commons.wikimedia.org/wiki/File:Jet_gripper_air-flow.jpg
+  - https://ftp.festo.com/public/pneumatic/SOFTWARE_SERVICE/Documentation/2013/EN/OGGB_EN.PDF
+  - https://www.schmalz.com/en/products/automation-743270/vacuum-grippers-746238/bernoulli-grippers-746239
+  - https://content.smcetech.com/pdf/XT661_EU.pdf
+  - https://doi.org/10.3846/transport.2022.17110
+  - https://journals.vilniustech.lt/index.php/Transport/article/download/17110/11276
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7716955/
+  - https://www.exploratorium.edu/snacks/bernoulli-levitator
+  - https://hackaday.com/2011/05/26/wall-climbing-robot-uses-supersonic-grippers/
+  - https://hackaday.com/tag/bernoulli/
+  - https://www.thingiverse.com/thing:2644114
+  - https://api.printables.com/graphql/
+  - https://www.hse.gov.uk/pubns/priced/hsg39.pdf
+  - https://help.prusa3d.com/article/pla_2062
+  - https://www.youtube.com/watch?v=phSlc8B4kFo
+  - https://www.youtube.com/watch?v=eEcDS1Vhp3o
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, power, processes, safety_notes
 

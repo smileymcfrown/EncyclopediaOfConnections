@@ -19,6 +19,7 @@
   - X-ring, Q-ring or Quad-Ring (brand) and square ring or lathe-cut ring: related rings with other cross-sections (Wikipedia 'O-ring')
   - spliced O-ring or O-ring cord (a custom-length ring glued from cord stock; Global O-Ring and Seal) *(unverified parts omitted)*
 - **family**: seals & pass-throughs
+- **other_families**: hydraulics, pneumatics & vacuum
 - **one_liner**: A ring of rubber with a round cross-section that sits in a groove and is squashed a set amount when two parts are closed, blocking the gap so liquids and gases can't leak through.
 - **complexity**: A few parts: the rubber ring (O-ring), a groove (gland) cut or printed into one part, a smooth mating face or bore on the other part, and whatever holds the two parts closed (screws, a screw thread, a bayonet or clips). Optional: a thin film of O-ring grease, and for high pressure a plastic back-up ring (Parker O-Ring Handbook; Wikipedia).
 - **how_it_works**: The groove is made slightly shallower than the ring is thick, so closing the parts squashes the ring by a set amount (the squeeze), and the rubber pushes back hard against both surfaces, closing every tiny gap (Parker, section 3.6). Rubber behaves almost like a liquid that can't be compressed, so when water or air pressure pushes on one side, the ring is shoved into the corner of the groove and presses even harder on the faces; that is why an O-ring can hold high pressure as long as the rubber isn't squeezed out through the gap (Wikipedia 'O-ring'). The groove must have spare room (about a quarter empty) so the rubber has somewhere to go when squashed, heated or swollen (Parker, section 3.7). The parts themselves are held together by something else; the O-ring only seals.
@@ -403,7 +404,7 @@
   - slip-in fitting, barbed insert fitting (drip irrigation; DripWorks)
   - airline connector (aquarium air tubing) *(unverified parts omitted)*
 - **family**: seals & pass-throughs
-- **other_families**: clamping, magnetic & friction connections
+- **other_families**: clamping, magnetic & friction connections, hydraulics, pneumatics & vacuum
 - **one_liner**: A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.
 - **complexity**: Single piece, plus the tube and an optional clamp. Parts: a hollow spigot with one or more ridges (barbs), each with a gentle slope and a sharp back edge; a plain cylindrical stem behind the barb for the tube to relax onto; and on the other end another barb, a thread, a flange or a tee (Tameson; ISM). Retention device if used: a worm-drive, spring, wire or ear clamp, or a cable tie (Wikipedia, Hose clamp; Qosina).
 - **how_it_works**: The tube is pushed up the slope of the barb, stretching it wider than its own inside diameter; once past the sharp edge it springs back and squeezes the plain stem behind it (ISM). That squeeze makes the seal, and the sharp edge makes a line of high contact pressure that grips the tube (Beswick). Pulling on the tube makes it get thinner and grip even tighter, but a pressure spike swells the tube and can loosen it, which is why a clamp is added for higher pressure (ISM; Qosina). A clamp placed just behind the barb also blocks the tube from sliding off, because the clamp would have to stretch over the barb (Wikipedia, Hose clamp).
@@ -649,7 +650,7 @@
   - clock spring, spiral cable (the limited-turn alternative in car steering wheels; Wikipedia, Clockspring)
   - cord untangler (telephone handset cord swivel; Wikimedia Commons), detangler or gyro (BMX brake-cable swivel; Wikipedia, Detangler) *(unverified parts omitted)*
 - **family**: seals & pass-throughs
-- **other_families**: hinges & pivots
+- **other_families**: hinges & pivots, hydraulics, pneumatics & vacuum
 - **one_liner**: A slip ring passes electric power and signals from a stationary part to a continuously rotating one through springy contacts (brushes) rubbing on rings, and a rotary union does the same for liquids, air or vacuum through seals between a fixed housing and a turning shaft, so the rotating part can turn forever without its cables or hoses winding up.
 - **complexity**: A small assembly that acts as one unit. Slip ring: a rotor carrying a stack of insulated metal rings (e.g. brass, gold-plated), a stator carrying one spring-loaded brush or wire contact per ring, bearings, a housing, and colour-coded lead wires on each side (Wikipedia; Hackaday teardown article; Adafruit). Rotary union: a housing with inlet port(s), a shaft with passages, one or more bearings, and one or more seals (face seals, lip seals or O-rings) (Wikipedia, Rotary union). Combined units stack slip rings, fluid passages and fibre optic joints in one body (Moog; Wikipedia).
 - **how_it_works**: In a slip ring each circuit has its own continuous metal ring on the turning part, and a stationary brush (graphite or metal) is pressed against it by a spring; the current flows through the sliding contact, so the connection holds at any angle and for any number of turns (Wikipedia). More circuits are simply more rings stacked along the shaft. A rotary union works the same way for fluid: the fluid enters a fixed housing, passes into a groove or chamber that runs all the way round the shaft, and flows into a hole drilled in the turning shaft, while seals either side stop it leaking out; multi-passage unions have several chambers separated by seals (Wikipedia, Rotary union). Wireless versions replace the rubbing contacts with facing coils (a rotary transformer), which don't wear but carry much less power (Wikipedia, Slip ring).
@@ -774,6 +775,8 @@
 ## 136 Cable carrier (drag chain, energy chain)
 
 *seals & pass-throughs.* A chain of hinged hollow links that carries cables and hoses neatly along a moving axis without kinking; one of the most printed functional parts
+
+*Also covers:* Also covers the festoon cable system (cables hung in loops from trolleys running along a track)
 
 ### What it is
 
@@ -916,7 +919,7 @@
   - Swagelok-type fitting (Swagelok is a brand); Ermeto (brand, the original cutting ring fitting; Wikipedia, Cutting ring fitting)
   - 'compression fitting' is also what PC water-cooling builders call a barb with a screw-down collar (soft tube) or an O-ring fitting (hard tube); these work differently (TitanRig)
 - **family**: seals & pass-throughs
-- **other_families**: clamping, magnetic & friction connections
+- **other_families**: clamping, magnetic & friction connections, hydraulics, pneumatics & vacuum
 - **one_liner**: A threaded nut that, when tightened, drives a ring (ferrule or olive) into a tapered seat in the fitting body, squeezing the ring onto the outside of a tube so it both seals and grips the tube, for water, air, gas, oil and hydraulic lines that you may need to take apart later.
 - **complexity**: A few parts: the fitting body (with a thread, a tapered seat and a stop, or shoulder, for the tube), a compression nut, and one or two rings (ferrules or olives); for soft plastic pipe also a stiffening insert pushed into the pipe end (Beswick; Kalsi Plastics; Wikipedia, Compression fitting).
 - **how_it_works**: You slide the nut and then the ring onto the tube and push the tube into the body until it hits the stop. Tightening the nut pushes the ring into the cone-shaped seat inside the body, and the cone squeezes the ring inwards onto the tube, which makes the seal (Beswick). The ring seals against both the tube and the body's seat, so fluid never reaches the threads and no thread sealant is needed; the squeeze also grips (and slightly deforms) the tube so it can't pull out (Wikipedia, Compression fitting). Hydraulic 'cutting ring' versions have sharp edges that cut into the tube's surface for more hold at high pressure (Wikipedia, Cutting ring fitting).
@@ -1023,4 +1026,541 @@
 ### Other info
 
 - **Fields with unverified parts:** access_needed, making_tips_3d_printing, processes, safety_notes, when_not_to_use
+
+## 275 Iris valve (twisted-sleeve valve)
+
+*seals & pass-throughs.* A fabric or rubber sleeve held between two rings that twists shut like a drawstring when one ring is turned, closing a tube or hopper opening without any blades
+
+*Also covers:* Different from the Iris mechanism, which uses sliding blades. Also covers the pinch valve (a soft tube squeezed shut from outside)
+
+### What it is
+
+- **plain_name**: A soft tube of fabric or rubber held between two rings: turn one ring and the tube twists shut in the middle, like twisting the neck of a bag closed, so powder or grain stops pouring out. Its simpler cousin is a soft tube that you squeeze flat from outside to stop the flow (a pinch valve)
+- **term**: Iris valve (iris diaphragm valve, twisted-sleeve valve); also covers the pinch valve
+- **aliases**: 
+  - iris valve
+  - iris diaphragm valve (the industry name for the fabric-sleeve type)
+  - flexible sleeve iris valve (title of a 1953 US patent)
+  - twisted-sleeve valve, twisting-sleeve valve or fabric-sleeve valve (descriptive names)
+  - fabric diaphragm valve (the sleeve is often called the diaphragm)
+  - Mucon valve (brand; a well-known maker of iris diaphragm valves)
+  - big-bag or bulk-bag discharge valve (a common use)
+  - pinch valve (a soft tube or sleeve squeezed shut from outside)
+  - air-operated or pneumatic pinch valve (compressed air around the sleeve squeezes it shut)
+  - solenoid pinch valve (an electric plunger pinches lab or medical tubing)
+  - mechanical or manual pinch valve (a handwheel screws a pinch bar down)
+  - pinchcock, Mohr's pinchcock or tubing clamp (spring clip that pinches lab rubber tubing)
+  - roller clamp (a wheel rolled along a ramp to squeeze a drip or aquarium tube)
+  - hose clamp or bite clamp on a drinking-bladder tube (a clip that pinches the hose; not the worm-drive band that clamps a hose onto a fitting)
+  - Quetschventil (German: pinch valve); Manschette (German: the rubber sleeve)
+- **family**: seals & pass-throughs
+- **other_families**: powered & active connectors, hydraulics, pneumatics & vacuum
+- **one_liner**: A fabric or rubber sleeve is clamped at each end to a ring, and turning one ring by about half a turn twists the sleeve shut towards the centre, so it can meter or stop powder, grain or pellets pouring from a hopper or bag; a pinch valve does a similar job by squeezing a soft tube flat from outside.
+- **complexity**: A few parts. Iris valve: a fixed ring (the valve body), a turning control ring with a handle, lever or handwheel (often with notches or a trigger lock to hold set positions), the flexible sleeve, and clamp bands that grip the two ends of the sleeve (Hapman; Vortex; SolidsWiki; Mucon JS). Pinch valve: a rubber sleeve or plain soft tube, a housing or frame, and a squeezer, which can be a pinch bar on a screw and handwheel, a rolling wheel on a ramp, a solenoid plunger, a hobby servo arm, or compressed air pumped into the housing around the sleeve (Tameson; AKO; Printables models).
+- **how_it_works**: One end of a tube-shaped sleeve is fixed to the valve body and the other end to a control ring. Turning the ring twists the sleeve, and its middle narrows evenly from all sides, like a bundle of strings between two rings twisted into a waisted shape (a hyperboloid); after about a 180-degree turn of the handle the fabric is wound into a flat, tight plug (Hapman; Vortex; LibreTexts). Twisting also pulls the two ends closer together, so early designs let the lower ring slide up and down, while later ones fold the sleeve back on itself so the rings can stay put (US patent 2663467; LibreTexts). A pinch valve instead presses a soft tube flat with a bar, roller, plunger or air pressure, and the rubber's springiness plus the pressure of the flow open it again when the squeeze is released (Tameson; AKO).
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: opens, meters and shuts off a flow of powder, granules, pellets (iris valve) or liquids, slurries and air (pinch valve) through a tube or hopper outlet, with only the sleeve touching the material (Hapman; Tameson)
+  - lock, and release by hand: the manual versions are set by hand and held by a trigger lock, notches or friction (Vortex; Mucon JS)
+  - hold or release using power: air-operated and solenoid pinch valves and pneumatic iris valves open or close when power or air is switched (AKO; Mucon E series; Lee Co.)
+- **motion**: multiple: the control ring rotates (about 180 degrees from open to closed on typical iris valves, Hapman; less than one full turn in the 1953 patent design), while the sleeve twists and its opening shrinks in towards the centre; in a pinch valve a bar, roller or plunger slides in to flatten the tube
+- **degrees_of_freedom**: 1: the angle of the control ring (or the position of the pinch bar or roller) alone sets how open the valve is. In older designs the ring also had to move slightly along the axis as the sleeve shortened, but that movement is tied to the turn, not independent (US patent 2663467)
+- **special_behaviour**: 
+  - self-centring: the opening closes evenly towards the centre of the flow, so material pours in a neat central cone into the container below, unlike a slide gate or butterfly valve whose blade cuts across the flow (Hapman)
+  - indexing (some designs): quick-lock handles and multi-notched bodies click into a set of preset openings for repeatable flow rates (Vortex; Mucon JS)
+  - fail-safe (powered pinch valves): a standard air-operated pinch valve is pushed open by the flow and the springy sleeve when the air is released, while normally-closed versions and add-on automatic closure systems shut when air or power fails (AKO; pinch-valves.com; Mucon E series)
+  - self-sealing around grit: the soft sleeve closes around trapped particles instead of jamming on them, as a ball or gate valve can (Tameson; AKO)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the twisted fabric is packed tight against itself, and a pinch valve's rubber walls are pressed together, which blocks the flow
+  - shape (form-fit): the twisted plug of fabric forms a flat barrier that holds back the weight of material above it (Hapman)
+  - suction or air pressure: in an air-operated pinch valve, compressed air in the housing squeezes the sleeve shut (AKO)
+  - friction or clamping (force-fit): the handle is held at its setting by a trigger lock, notches or a threaded locking handle (SolidsWiki; Vortex)
+- **input_output**: not applicable
+- **power**: passive (no power needed) for hand-lever, handwheel and screw or roller pinch versions. Powered versions exist: pneumatic or electric iris valves (Vortex; Mucon E series) and air-operated or solenoid pinch valves (AKO; Lee Co.). A standard air-operated pinch valve opens when the air is lost, because the flow pressure and the springy sleeve push it open; normally-closed pinch valves and optional automatic closure systems close on air or power failure (AKO; pinch-valves.com; Mucon E series)
+- **removability**: removable: the valve bolts, clamps or slips onto the outlet, and worn sleeves are designed to be swapped on site (Vortex: 'sleeve is inexpensive and easily replaceable'; AKO). Clip-on and roller pinch clamps are tool-free and can be fitted to a tube that is already installed (Printables roller clamp)
+- **reuse_cycles**: many times: the valve opens and closes repeatedly and sleeves are replaced when worn. Hapman warns that iris valves cannot handle frequent open-close cycles when the material touches the sleeve directly; external solenoid pinch valves typically need new tubing every 200,000 to 500,000 cycles, and sealed internal ones are rated to about 5 million cycles or more (Lee Co.)
+- **tools_needed**: none to operate; spanner or screwdriver to bolt the valve to a flange and to change the sleeve and its clamp bands (AKO; *(unverified parts omitted)*
+- **seal**: dust-resistant (iris valve): a fabric sleeve gives a 'dust tight closure' for dry powders (Mucon JS; Vortex), with a double sleeve for fine, dusty powders (Hapman); it works only with gravity flow at zero pressure (Vortex spec sheet). Pinch valves can be watertight and, within their rating, pressure-tight: the rubber walls press together, but coarse solids trapped in the pinch can stop them sealing 100% (AKO)
+- **load**: light to medium: an iris valve holds back the weight of powder or granules above it, but not a heavy, abrasive material or a standing column it has to close through, and it cannot carry equipment hung from it (Hapman). Rated bulk density ranges from about 40 lb/ft³ (about 640 kg/m³) for one manual valve (Vortex) to 1000 kg/m³ (Mucon JS) and over 1600 kg/m³ for a heavy pneumatic model (Mucon E series). Air-operated pinch valves handle media pressures of about 2.5 to 6 bar, depending on size and type (AKO). Closing puts a twisting load on the handle and ring (Hapman)
+- **adjustable**: yes: the opening can be set anywhere between fully open and closed (Vortex's infinite-position handle) or to preset notches for repeatable flow rates (Vortex quick-lock; Mucon multi-notched body); a roller pinch clamp with a ridged ramp gives fine flow control (Printables: terageek). Air-operated pinch valves can be throttled with a pressure regulator (AKO)
+- **play_and_precision**: noticeable: flow control is rough and depends on the material. The handle position is only a visual guide to the flow rate (Vortex spec: position shown by handle position), and the soft sleeve gives no exact opening size. It tolerates some misalignment because the sleeve is flexible, but the sleeve must be fitted centred: a pinch-valve sleeve sticking out further on one side can be pulled out, leak or fail to close (pinch-valves.com)
+- **access_needed**: end of a tube or shaft: an iris valve is fitted in line between flanges or on a hopper or bag outlet (Vortex; Mucon JS); clip-on and roller pinch clamps can be fitted from the side around a tube that is already installed, without reaching either end (Printables roller clamp)
+- **materials**: Iris valve bodies: aluminium (sometimes anodised or PTFE-coated), or 304/316L stainless steel for hygienic uses; control rings in polycarbonate, bronze, zinc-aluminium or stainless steel (Hapman; Mucon JS). Sleeves: nylon, Terylene (polyester), PTFE, urethane, nitrile (Buna-N) or natural rubber (Hapman), silicone-coated, urethane-coated or PTFE-coated nylon fabric, and static-dissipative fabric (Vortex); rubber for abrasive or wash-down uses (SolidsWiki). Pinch-valve sleeves: natural rubber, EPDM, nitrile, Viton (FKM), neoprene or butyl (Wikipedia 'Pinch valve'); silicone or flexible PVC tubing for external pinch valves, which wears faster than EPDM or FKM (Lee Co.). Home-made pinch clamps print well in PETG or PLA (Printables models). Handles dry powders, granules, pellets and flakes (iris) and liquids, slurries, powders and air (pinch)
+
+### Making it
+
+- **processes**: off-the-shelf part: manual and powered iris valves and replacement sleeves (Vortex; Hapman; Mucon, all brands), air-operated and solenoid pinch valves, lab pinchcocks and roller clamps *(unverified parts omitted)*
+- **print_in_place**: no: printed pinch clamps and roller clamps are printed as separate parts (a body plus a wheel, or a clip plus teeth) and fitted round a tube, and the twisted-sleeve valve needs a separate fabric or rubber sleeve (Printables: terageek; DarioAR)
+- **making_tips_3d_printing**: 1) Pinch valve first: it is the easiest printed version. A roller clamp (a wheel rolled up a ramp to squeeze the tube) gives fine flow control and can be clipped round a tube that is already fitted; make the groove wider than the tube's outside diameter so the flattened tube still fits, add small ridges on the track so the wheel doesn't slip, and print the wheel with supports and fine layers (0.1 mm used by terageek, Printables). 2) Size it to your tubing wall: DarioAR's printed roller clamp uses a 12 mm model for 1.5 mm walls and a 16 mm model for 2.0 mm walls, and warns that other wall thicknesses may drip or be hard to operate; a little Vaseline on the axle pegs makes it smoother, and loose cross-braces may need gluing (Printables). 3) For a garden hose, a screw-down pinch clamp printed in PETG with 3 to 5 perimeters and 20% infill, with grease on the thread, works for 16 mm hose and can be scaled for other hose sizes (kjrps, Printables). 4) A clip-type hose pinch clamp relies on sharp latch teeth; don't let textured 'fuzzy skin' surfaces cover the teeth, and redesign the teeth rather than just scaling the model down for thinner hose (IanFoulds; SB_TECH, Printables). 5) Servo pinch valves: an SG90 micro servo pinching 5 to 7 mm tubing works for drink mixers, but expect a drop to escape after closing (MSTVS, Printables). 6) Material: PETG for outdoor or wet use; PLA softens and deforms above about 60 °C and degrades in UV light (Prusa), so keep PLA away from hot liquids. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Iris valves (iris diaphragm valves) in manual (hand lever, quick-lock, handwheel) and pneumatic or electric versions, and replacement sleeves, e.g. Vortex, Hapman and Mucon (brands); air-operated pinch valves and spare sleeves (e.g. AKO, Red Valve (brands)); manual (handwheel) pinch valves; solenoid pinch valves for lab tubing (e.g. The Lee Co. (brand)); Mohr's pinchcock tubing clamps (lab supply); roller clamps; silicone, PVC, EPDM or FKM tubing; worm-drive hose clamps or cable ties to grip a home-made sleeve; hobby servos (SG90, MG996R) for motorised pinch valves; quick-exhaust valves and pressure regulators for air-operated pinch valves (AKO).
+- **rules_of_thumb**: 
+  - About a half turn: iris valve handles swing through 180 degrees from fully open to fully closed (Hapman; Vortex). In the 1953 design the sleeve's length compared with its diameter was chosen so it closes 'in less than one complete revolution' of the ring (US patent 2663467)
+  - Give the sleeve slack: twisting pulls the two ends closer together (the lower ring 'rises slightly', LibreTexts), so either let one ring move along the axis or fold the sleeve back on itself, so the rings can stay put (US patent 2663467)
+  - Gravity flow only: iris valves are rated for 0 bar media pressure (Vortex spec sheet) and cannot close through a standing column of material or handle heavy abrasive material or high-volume continuous flow (Hapman)
+  - Bulk-density limits vary by design: up to 40 lb/ft³ (about 640 kg/m³) for one manual valve (Vortex), 1000 kg/m³ for a big-bag valve (Mucon JS), over 1600 kg/m³ for a heavy-duty pneumatic one (Mucon E series); material temperature up to about 65 °C (Vortex)
+  - Use a double fabric sleeve for fine, dusty powders (Hapman; Vortex) and a rubber sleeve for abrasive or washed-down uses (SolidsWiki)
+  - Very compact: an iris valve body is only about 40 mm (2 in) tall for bores from 100 to 455 mm (Vortex)
+  - Air-operated pinch valve: the control (closing) air pressure must be at least 2 bar above the line pressure for natural rubber sleeves; more pressure than needed shortens sleeve life, so fit a regulator (AKO operating instructions). AKO UK quotes 2.5 bar for a gravity line (pinch-valves.com)
+  - Mount a pinch valve at least twice its own length away from a pipe bend, or turbulence wears the sleeve early (AKO operating instructions)
+  - Tubing life in external pinch valves: silicone or flexible PVC tubing typically needs replacing every 200,000 to 500,000 cycles; EPDM or FKM lasts about ten times longer (Lee Co.)
+  - Don't use a pinch valve under vacuum without balancing the pressure outside the sleeve: suction can collapse it (Tameson); AKO says to equalise pressure for vacuums below about 100 mbar
+
+### When to use it
+
+- **everyday_examples**: 
+  - Twisting the neck of a bread bag closed before fitting the tie: the same 'twist it shut' idea, done by hand (analogy)
+  - The clip on a hydration-bladder or water-filter hose that pinches the tube shut (a printed replacement is sold as a 'hose clamp (pinch valve)', Printables)
+  - The clamp on a hospital drip line that sets how fast the drops fall (Wikipedia 'Drip chamber'), and the spring pinchcock on rubber tubing in a school chemistry lab
+  - The original Super Soaker 50 water gun, which used a pinch valve (Wikipedia 'Pinch valve')
+- **when_to_use**: Use a twisted-sleeve iris valve to meter or shut off free-flowing dry powders, grain, pellets or flakes falling by gravity from a hopper, bin, chute or big bag, especially fragile materials that a blade would crush, and when you want the stream to pour neatly into the middle of a container; it is light, slim, cheap when hand-operated, easy to clean, and only the sleeve touches the material (Hapman; Vortex). Use a pinch valve when a liquid, slurry or gritty flow must never touch metal parts or must stay clean (food, lab, medical and aquarium tubing), when solids would jam an ordinary valve, or when you need a cheap valve that clips onto existing soft tubing (Tameson; Lee Co.; Printables).
+- **when_not_to_use**: Avoid an iris valve for pressurised or vacuum lines, heavy or abrasive materials, high-volume continuous flow, closing through a column of material that is standing still, or very frequent cycling; use a slide gate, butterfly valve or rotary valve instead (Hapman; Vortex). Avoid pinch valves for hot fluids beyond the rubber's temperature limit, high pressures that can deform the sleeve, and vacuum lines unless the pressure is balanced (Tameson; AKO); use a ball or globe valve there. For a light, closable opening that doesn't need to seal, a blade iris mechanism looks better; for a one-way flow use a check (non-return) valve.
+- **environment_limits**: Heat: one manual iris valve is rated for material up to about 65 °C (Vortex; the older spec sheet says 66 °C); pinch-valve rubber is unsuitable for high temperatures, and a sleeve blistered on hot chocolate (Tameson; pinch-valves.com). Chemicals: fatty oils attack natural rubber, so use nitrile (pinch-valves.com); pick sleeve fabric or rubber to suit the material (Hapman). Sunlight: UV light ages sleeves and plastic parts, so store them dry and out of the sun; AKO suggests about a 2-year shelf life for spare sleeves (AKO; pinch-valves.com). Vacuum: suction can collapse a pinch valve's sleeve (Tameson). Wear: abrasive material wears sleeves, so use a wear liner or rubber sleeve (Vortex; SolidsWiki). Printed PLA parts soften above about 60 °C and degrade in UV (Prusa). *(unverified parts omitted)*
+- **safety_notes**: Explosive dusts: ground the valve and surrounding equipment to prevent static sparks, and use suitably rated actuators (Hapman). Pinch and trap points between the turning ring, handle and body, and inside a powered valve: AKO says to make sure no body parts or tools can get inside, and to switch off and disconnect the air before changing a sleeve (AKO). Hot media can burn; a burst sleeve can let the material escape or enter the air lines, and pressure surges can burst a sleeve (AKO). Leftover material inside a removed valve can be hazardous (AKO). Hobby versions on water lines are low-risk, but a failed pinch clamp on a pressurised line can spray water.
+- **common_failures**: 1) Handle, lock or control ring distorts or breaks from the twisting load, especially in polycarbonate; use metal parts where high torque is needed (Hapman). 2) Bronze control rings rubbing on a metal body shed metal flakes that damage the sleeve and contaminate the product; stainless steel rings last longer (Hapman). 3) Sleeve worn through by abrasive or dense material, or by frequent cycling while in contact with the material; fit a wear liner or a tougher sleeve (Hapman; Vortex). 4) Valve can't close because material is standing still in the column above it (Hapman). 5) Pinch sleeve split by a sharp foreign object, blistered by heat, attacked by the wrong fluid, torn by too much pressure in a vacuum application, or cracked by installing a normally-closed valve while shut (pinch-valves.com). 6) Leaks because coarse solids are trapped in the pinch (AKO) or because the sleeve was fitted off-centre (pinch-valves.com). 7) Sleeve life cut short by too much closing air pressure (AKO). 8) Printed clamps: teeth that no longer catch after scaling the model down, dripping with the wrong tubing wall thickness, and a drop escaping after a servo pinch (Printables: SB_TECH; DarioAR; MSTVS).
+- **related**: 
+  - Iris mechanism: rigid sliding blades instead of a soft sleeve; blades leave gaps and are 'difficult to seal', while the twisted sleeve closes dust-tight (see the Iris mechanism entry)
+  - Slide gate and butterfly valve: a blade or disc cuts across the flow; stronger and suited to heavier flows, but can crush fragile material and doesn't centre the stream (Hapman)
+  - Peristaltic (tube) pump: rollers squeeze a tube one after another to pump the liquid along, rather than just shutting it off (Wikipedia 'Peristaltic pump')
+  - Check (non-return) valve, such as a duckbill valve: lets flow go one way only, automatically, instead of being opened and closed on purpose (see the gap-search notes)
+  - Drawstring closure: pulls a fabric opening shut with a cord instead of twisting it
+  - Twisted-tube kink valve (soft robotics): twisting a soft tube until it kinks blocks air flow, used as a valve and logic gate in soft robots (Wang et al., 2023)
+  - Cable gland and strain relief: also a soft part squeezed round something in a tube, but to seal round a cable, not to shut a flow
+
+### Pictures, videos and models
+
+- **links**: 
+  - [How Does an Iris Valve Work? (Vortex technical article)](https://www.vortexglobal.com/resources/how-does-an-iris-valve-work): Plain explanation, with pictures, of the two rings, the fabric sleeve and the 180-degree handle turn that twists it shut *(licence: link only)*
+  - [Kemutec - Mucon JS Iris Diaphragm Valve Bulk Bag Discharge Control (kemutecUSA, YouTube)](https://www.youtube.com/watch?v=QFwJfybSSBY): Video of an iris diaphragm valve controlling flow from a big bag (title and channel confirmed via YouTube oEmbed; video not watched) *(licence: link only)*
+  - [Mucon AD Series Iris Valve (ProcessComponents, YouTube)](https://www.youtube.com/watch?v=RHklazqg3bs): Video of an iris diaphragm valve (title and channel confirmed via YouTube oEmbed; video not watched) *(licence: link only)*
+  - [Air operated pinch valve - operating principle and mode of operation (VF series) (Pinch valve - AKO, YouTube)](https://www.youtube.com/watch?v=pJVdq6K-zro): Animation of compressed air squeezing a rubber sleeve shut inside a pinch valve (title and channel confirmed via YouTube oEmbed; video not watched) *(licence: link only)*
+  - [Manschette Quetschventil (pinch valve sleeve) (Hess BSH, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Manschette_Quetschventil.jpg): Photo of a replaceable fabric-reinforced rubber sleeve for a pinch valve *(licence: CC BY-SA 4.0)*
+- **make_it_yourself**: 
+  - [Customizable pinch valve for flexible tubing (terageek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/757868-customizable-pinch-valve-for-flexible-tubing): OpenSCAD-customisable rolling pinch valve (roller clamp) that clips onto aquarium air tubing to reduce or stop flow; set tube size, pinch depth and number of ramp steps *(licence: CC BY)*
+  - [Roller Clamp - One-handed operation and flow control (DarioAR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/898729-roller-clamp-one-handed-operation-and-flow-control): Printable roller clamp for silicone or rubber tubing up to 16 mm, fitted without reaching the tube ends; 12 mm and 16 mm versions for 1.5 mm and 2.0 mm walls *(licence: CC BY-NC-SA)*
+  - [Quetschventil für Gartenschlauch / Pinch valve for garden hose (kjrps, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1308507-quetschventil-fur-gartenschlauch-pinch-valve-for-g): Screw-down pinch valve that slips over a 16 mm garden hose to reduce or shut off flow without cutting the hose; scalable for other hose sizes *(licence: CC BY-NC-ND)*
+  - [pinch valve powered by servo (MSTVS, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/247744-pinch-valve-powered-by-servo): Micro-servo (SG90) pinch valve for 5-7 mm tubing, made for a cocktail-mixer project; printed in PLA *(licence: CC BY-NC)*
+  - [Replacement Platypus Hose Clamp (Pinch Valve) (IanFoulds, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1350975-replacement-platypus-hose-clamp-pinch-valve): Clip-type hose pinch clamp with latch teeth for a water-filter hose; printed in PETG *(licence: CC BY)*
+- **diagram_idea**: Three side-by-side cutaway frames of a fabric tube stretched between a fixed top ring and a turning bottom ring, at 0, 90 and 180 degrees of turn, showing the waist narrowing evenly to a closed twist while grain above stops falling, with a small inset of a rubber tube being pressed flat by a bar (pinch valve) for comparison.
+- **sources**: 
+  - https://hapman.com/technical-brief-how-does-an-iris-valve-work/
+  - https://www.vortexglobal.com/resources/how-does-an-iris-valve-work
+  - https://www.vortexglobal.com/products/iris-valve
+  - https://toztek.com/files/iris-valve.pdf
+  - https://www.solidswiki.com/index.php?title=Iris_Valves
+  - https://www.kemutecusa.com/mucon-iris-diaphragm/mucon-js-series-iris-diaphragm-valve/
+  - https://www.mucon.com/en/products/iris-valves/150-mucon
+  - https://www.powderbulksolids.com/packaging-systems/iris-diaphragm-valve-for-big-bag-discharge-stations
+  - https://patents.google.com/patent/US2663467A/en
+  - https://phys.libretexts.org/Bookshelves/Astronomy_and_Cosmology_TextMaps/Map:_Celestial_Mechanics_(Tatum)/4:_Coordinate_Geometry_in_Three_Dimensions/4.5:_The_Hyperboloid
+  - https://en.wikipedia.org/wiki/Pinch_valve
+  - https://tameson.com/pages/pinch-valve
+  - https://www.pinch-valves.com/wp-content/uploads/2013/04/Operating-Instructions-for-AKO-Air-Operated-Pinch-Valves.pdf
+  - https://www.pinch-valves.com/technical-help/typical-pinch-valve-failures/failed-pinch-valve-sleeves/
+  - https://www.theleeco.com/insights/selecting-the-best-pinch-valve-for-your-application/
+  - https://en.wikipedia.org/wiki/Drip_chamber
+  - https://en.wikipedia.org/wiki/Peristaltic_pump
+  - https://ouci.dntb.gov.ua/en/works/73EER12l/
+  - https://commons.wikimedia.org/wiki/File:Manschette_Quetschventil.jpg
+  - https://help.prusa3d.com/article/pla_2062
+  - https://www.printables.com/model/757868-customizable-pinch-valve-for-flexible-tubing
+  - https://www.printables.com/model/898729-roller-clamp-one-handed-operation-and-flow-control
+  - https://www.printables.com/model/1308507-quetschventil-fur-gartenschlauch-pinch-valve-for-g
+  - https://www.printables.com/model/247744-pinch-valve-powered-by-servo
+  - https://www.printables.com/model/1350975-replacement-platypus-hose-clamp-pinch-valve
+  - https://www.printables.com/model/1806937-6mm-silicone-hose-pinch-valve-hose-clamp-remix
+  - https://www.youtube.com/watch?v=QFwJfybSSBY
+  - https://www.youtube.com/watch?v=RHklazqg3bs
+  - https://www.youtube.com/watch?v=pJVdq6K-zro
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, maker_difficulty, making_tips_3d_printing, processes, tools_needed
+
+## 290 Bellows boot and way cover (gaiter)
+
+*seals & pass-throughs.* A folded concertina cover that stretches and squashes as a joint, rod, screw or rail moves, keeping dust and water out; can be printed in TPU
+
+### What it is
+
+- **plain_name**: A folded, concertina-shaped rubber or fabric sleeve fitted over a moving rod, screw, slide or joint: it stretches out and squashes up as the part moves, so dust, grit, metal chips and water stay off the moving parts and the grease stays in
+- **term**: Bellows boot (protective bellows, convoluted boot) and way cover bellows; called a gaiter on cars
+- **aliases**: 
+  - bellows, protective bellows, bellows cover, bellows boot
+  - gaiter (the usual automotive name, e.g. CV gaiter, steering-rack gaiter, gear-stick gaiter) (Dynatect; Wikipedia)
+  - CV boot (constant-velocity joint boot), driveshaft or axle boot
+  - rubber boot, dust boot, rod boot, cylinder rod boot, shock-absorber boot or dust cover
+  - convoluted boot, convoluted rubber bellows, molded rubber bellows
+  - way cover, way cover bellows, machine way cover, accordion way cover, concertina cover
+  - rail cover, linear rail bellows, lead screw or ball screw bellows
+  - sewn bellows, sewn-folded bellows, heat-sealed bellows, metal-shielded bellows
+  - zippered bellows (fits without taking the machine apart)
+  - Faltenbalg (German: bellows or gaiter); Achsmanschette (German: axle boot)
+  - Gortite (brand, Dynatect)
+- **family**: seals & pass-throughs
+- **other_families**: compliant mechanisms & flexures
+- **one_liner**: A flexible, pleated sleeve clamped to a fixed part at one end and to the moving part at the other, so its folds open and close as the part slides or bends, keeping dirt, chips and water out and grease in without any rubbing seal.
+- **complexity**: Single piece, or a few parts: the folded sleeve itself (molded rubber; coated fabric sewn, welded or vulcanised into folds; or printed TPU), with a collar or flange at each end, held by hose clamps on round collars, by bolts or Velcro strips on flat flanges, or by magnets on some printed covers. Long way covers add plastic stiffeners or guides inside the folds, sewn tabs, vent holes, zips, and grommets running on a guide wire (Joyce/Dayton; Dynatect; Printables).
+- **how_it_works**: Each end of the boot is sealed to a part: one fixed, one moving. When the moving part travels, the folds (convolutions) open out or stack up like an accordion, so the cover always spans the gap without sliding over anything, and a round boot can also bend with a joint such as a car's CV joint (Wikipedia 'Constant-velocity joint'; Dynatect). Because its volume changes as it moves, air must get in and out: fast or long bellows have vent holes, otherwise trapped air makes them bulge or buckle (Joyce/Dayton; Dynatect). Even fully squashed, the folds take up some length, so the machine must leave room for the compressed bellows (Dynatect).
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: keeps dust, chips, coolant, grit and water off moving rods, screws, rails and joints, and keeps lubricating grease in (Dynatect; Wikipedia 'Constant-velocity joint'; Wikipedia 'Bellows')
+- **motion**: flex: the folds open and close along the axis as the covered part slides (stretching and squashing), and round boots also bend and allow some sideways offset, as on a CV joint or steering rack; how far it can travel is set by its extended-to-retracted ratio (Dynatect)
+- **special_behaviour**: 
+  - none: it is a passive cover that simply follows the movement. It also covers pinch points between moving parts (Dynatect), and some molded rubber boots have a 'closed' resting shape that springs back to its short length when released (Dynatect)
+- **holding_principle**: 
+  - not a holding joint (it moves with the part it protects)
+  - friction or clamping (force-fit): round collars are held by hose clamps; flanges are screwed on or held with Velcro strips (Joyce/Dayton)
+  - magnetic: some printed lathe way covers are held on by bar magnets slid into their ends (erischilde, Printables)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: hose-clamped collars, screwed flanges and Velcro come undone easily (Joyce/Dayton). A one-piece boot normally has to be slid off the end of the rod or shaft, so it may mean taking the machine apart; zippered bellows avoid this (Joyce/Dayton)
+- **reuse_cycles**: many times: clamps and flanges can be undone and refitted many times; the bellows itself flexes through very many cycles until the material cracks, wears or ages, which happens faster in harsh conditions (Dynatect FAQ)
+- **tools_needed**: a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). *(unverified parts omitted)*
+- **seal**: dust-resistant to watertight, depending on construction: sewn fabric bellows have stitch holes and vented bellows let air through, so they keep out dust and chips; 'sealed' constructions (seamless molded rubber, or seams joined by heat or vulcanising) also keep out liquids (Dynatect FAQ; Joyce/Dayton). A printed TPU gaiter was watertight in its maker's test (Gt6k, Printables). It is not a pressure seal, since it normally has to breathe as it moves
+- **load**: light: it is a cover, not a structural part, and carries no load. Long or horizontal bellows must be supported by stiffener guides or by grommets on a guide wire, or they sag onto the part they protect (Joyce/Dayton; Dynatect crane case study), and a build-up of chips can push a cover right off its rails (Dynatect)
+- **adjustable**: no: its length simply follows the movement; the collar position and clamps can be moved when fitting
+- **play_and_precision**: not applicable (it doesn't locate parts or pass on motion); round boots tolerate some bending and sideways offset, and way-cover stiffeners can be shaped to fit a particular rail or dovetail (Dynatect)
+- **access_needed**: end of a tube or shaft: a one-piece boot slides over the end of the rod, screw or shaft; zippered bellows wrap round from the side when the machine can't be taken apart (Joyce/Dayton)
+- **materials**: Coated fabrics (Joyce/Dayton): neoprene-coated nylon (the standard; -51 to 121 C), Hypalon-coated nylon (corrosive chemicals; to 149 C), silicone-coated fibreglass (to 232 C), PTFE (Teflon)-coated fibreglass (to 260 C; stiff, not for very small bellows), aluminised fibreglass (to 288 C; reflects heat), and vinyl-coated polyester (-34 to 70 C; mainly for platform skirts); Joyce/Dayton says coated-fabric bellows are more durable and abrasion-resistant than molded boots. Molded rubber: nitrile (oil- and abrasion-resistant), neoprene (good against sunlight, ozone and weather), silicone (wide temperature range but poor abrasion and oil resistance) and natural rubber (Rubber Group); also EPDM, and molded boots are typically nitrile (CQM). Polyurethane films; stainless steel plates over fabric folds where hot chips fly (Dynatect). Printed: TPU of about 85A-95A Shore hardness (Printables makers)
+- **maker_difficulty**: easy to buy and fit (standard round boots and bellows come in many sizes and lengths); moderate to print in TPU, because flexible filament is slow and fussy, the folds are overhangs, and tall thin parts wobble under the nozzle (Prusa; Gt6k and Homunculus, Printables)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: molded rubber boots and bellows, and sewn, heat-sealed or vulcanised fabric bellows and way covers (Joyce/Dayton; Dynatect; Rubber Group; CQM)
+  - 3D print (FDM): TPU boots, gaiters and accordion covers, printed in vase mode, as folded shapes, or with PLA interface layers on a two-material printer (Printables; Hackaday)
+  - sewing: fabric bellows sewn from coated fabric, often with plastic stiffeners at each fold (Joyce/Dayton; Dynatect)
+  - molding: rubber bellows made by injection, transfer or compression molding (Rubber Group)
+- **print_in_place**: yes: a TPU bellows prints as one piece and works straight off the printer (vase-mode or folded designs, Printables); the alternating TPU-and-PLA method needs the PLA layers peeled out afterwards (Hackaday)
+- **making_tips_3d_printing**: 1) Material: TPU of about 85A-95A; softer is more flexible but harder to print (Prusa; Homunculus, Printables). Print slowly with low or no retraction, keep the filament dry, and keep part cooling off (Prusa). 2) Vase mode (a single continuous wall): keep fold overhangs shallower than 45 degrees, aim for about 0.8 mm walls, print the big end on the bed, and use a brim inside and out; with a 0.4 mm nozzle Kiwi Tinkerer used 0.1 mm layers (Printables camera bellows). 3) Folded (re-entrant) designs stop a gaiter going floppy; 0.2 mm layers at about 30 mm/s worked, thicker layers made the overhangs porous, and the tall part wobbled under the nozzle, so slow down travel moves or brace it with blocks halfway up; the result stretched to about twice its printed length (Gt6k, Printables steering-rack gaiter). 4) Print accordion covers in their folded (squashed) shape for more coverage and better springback, with no supports and skins only one line wide (Arachne) on a 0.4 mm nozzle; print with the edges down, and the folds may stick together a little until pulled apart (erischilde, Printables lathe way cover). 5) A two-material printer can print a flat stack of TPU folds separated by PLA interface layers, peeled out afterwards; different TPU brands behaved differently, and feeding TPU through an automatic material changer made it brittle (Hackaday; Darak, Printables). 6) Tall boots print better on a CoreXY printer than on a bed-slinger, where the moving bed shakes the part (Homunculus, Printables shock boot). 7) Print one boot at a time to limit stringing; a printed CV boot can be packed with grease (Spiderz Hobbies, Printables). 8) If the boot moves quickly, leave a small vent so air can get in and out (Joyce/Dayton; Dynatect).
+- **off_the_shelf_parts**: Round molded rubber bellows and dust boots (sold by inside diameters and stroke); CV boots and CV boot kits; steering-rack gaiters; shock-absorber dust boots; gear-stick gaiters; sewn round bellows with collar or flange ends (supplied with stainless hose clamps); square, rectangular, U-shaped and C-shaped way covers with stiffeners; zippered bellows; bellows accessories such as vents, internal guides, wire supports, grommets and flange plates; alternatives such as telescopic steel way covers, telescopic spring covers for ball screws, roll-up covers and way wipers (Joyce/Dayton; Dynatect; CQM)
+- **rules_of_thumb**: 
+  - Design the machine around the bellows' extended-to-retracted ratio: the most common mistake is fixing the rail travel first and leaving no room for the fully squashed bellows, which causes interference and early wear (Dynatect; Joyce/Dayton design tips)
+  - Allow space for the retracted bellows in the overall design, because adding bellows always increases the space needed (Joyce/Dayton)
+  - Add vents for fast cycling: holes in one or more folds, or in the stiffeners and guides, let air in and out; otherwise pressure builds up and the cover bulges (a 'caterpillar' effect) or buckles (Joyce/Dayton; Dynatect)
+  - Support long or horizontal bellows with internal stiffener guides or grommets on a guide wire so they don't sag onto the screw or rail; sewn tabs stabilise long-travel bellows and relieve stress on the seams (Joyce/Dayton)
+  - Zippered bellows can be fitted without dismantling the machine, but they make the closed length longer (Joyce/Dayton)
+  - Match the material to heat and dirt: neoprene-coated nylon -51 to 121 C, silicone-coated fibreglass to 232 C, aluminised fibreglass to 288 C, vinyl only -34 to 70 C (Joyce/Dayton); use metal-shielded bellows or telescopic steel covers where hot chips, sparks or dropped tools hit them (Dynatect)
+  - For molded rubber, choose nitrile for oil, neoprene for sunlight, ozone and weather, and silicone for wide temperatures but not oil or petrol (Rubber Group)
+  - Inspect and clear chips regularly: built-up chip loads can push a bellows right off its rails (Dynatect)
+  - Printed TPU bellows: fold overhangs under 45 degrees and walls about 0.8 mm for vase mode (Kiwi Tinkerer, Printables); about 0.2 mm layers at 30 mm/s for a folded gaiter (Gt6k, Printables)
+
+### When to use it
+
+- **everyday_examples**: 
+  - The ribbed rubber boot over a car's driveshaft joint (CV boot), and the gaiters on the ends of a steering rack (Wikipedia; Printables)
+  - The pleated gaiter round a car's gear stick, and the rubber boot over a car's shock absorber (Printables)
+  - The rubber concertina joint between the two halves of an articulated bus or tram (Wikipedia 'Bellows'; Commons ICE 3 gaiter photo)
+  - Pleated covers over the slides of lathes and milling machines (Wikipedia 'Bellows'; Joyce/Dayton)
+- **when_to_use**: Use a bellows boot whenever a sliding or bending part has to work among dust, chips, coolant or weather: over lead screws, ball screws, linear rails and guide rods on CNC machines, the piston rods of air and hydraulic cylinders, steering racks, shock absorbers, and CV or universal joints (Joyce/Dayton; Dynatect; Wikipedia). It keeps grease in and grit out without rubbing, so it adds no friction the way a wiper or sliding seal does, it copes with bending as well as stretching, and it also covers pinch points (Dynatect). A printed TPU boot is a handy fix for a cracked rubber boot that is no longer sold (Printables shock boot and steering-rack gaiter).
+- **when_not_to_use**: Avoid it where there's no room for the squashed bellows (a roll-up cover is lower-profile), where hot chips, sparks, weld spatter or dropped tools would cut or burn it (use telescopic steel covers or metal-shielded bellows), or where it would need to hold pressure (use a sealed bellows actuator, a lip seal or an O-ring) (Dynatect). For a rotating shaft that doesn't move along its axis, a radial lip seal, O-ring or labyrinth seal is simpler. For long horizontal travel, plan guides to stop the bellows sagging (Joyce/Dayton).
+- **environment_limits**: Temperature limits of common coated fabrics: neoprene-coated nylon -51 to 121 C, Hypalon-coated nylon to 149 C, silicone-coated fibreglass to 232 C, vinyl-coated polyester -34 to 70 C (Joyce/Dayton). Chemicals: neoprene is attacked by strong oxidising acids, esters, ketones and some hydrocarbons (Joyce/Dayton); silicone isn't for oils or petrol, and nitrile resists oil but has poor flame resistance (Rubber Group). Sunlight and ozone: neoprene resists them well (Rubber Group). Ageing: long exposure to extreme heat or cold degrades bellows faster (Dynatect FAQ), and rubber CV boots crack and split with age and damage (Wikipedia). Printed TPU stays flexible in the cold and resists many solvents, but absorbs moisture (Prusa).
+- **safety_notes**: Low risk in itself; a bellows usually improves safety by covering pinch points between moving parts (Dynatect). Things to watch: 1) A split boot hides trouble: grit gets in and grease gets out, and the joint or screw underneath wears fast or fails, as with a CV joint (Wikipedia); inspect boots regularly. 2) Hot chips, sparks and weld spatter can burn through fabric covers; use heat-resistant or metal-shielded covers (Dynatect; Joyce/Dayton). 3) Chips piling up can push a cover off its rails into the moving machine (Dynatect).
+- **common_failures**: 1) Cracks, splits and tears from age, heat, chemicals or damage, letting dirt in and grease out, after which the protected joint wears quickly or fails (Wikipedia 'Constant-velocity joint'; Commons cracked CV boot photo). 2) Not enough room to squash fully, causing interference and early wear: plan for the extended-to-retracted ratio (Dynatect). 3) Trapped air making the cover bulge or buckle on fast moves ('caterpillar' effect): add vents (Dynatect; Joyce/Dayton). 4) Long horizontal bellows sagging and rubbing on the screw or rail: add stiffener guides or guide wires (Joyce/Dayton; Dynatect crane case study). 5) Seams worn out by long travel: sewn tabs limit how far each fold flexes (Joyce/Dayton). 6) Chip build-up pushing the cover off its rails (Dynatect). 7) Printed TPU: porous overhangs from thick layers, floppy folds, and the part wobbling during printing (Gt6k, Printables).
+- **related**: 
+  - Bellows and inflatable actuators: the same folded shape, but sealed and pumped up so it pushes or lifts instead of just covering
+  - Gasket and O-ring seal: seal parts that hardly move relative to each other
+  - Radial lip seal (rotary shaft seal): seals a spinning shaft where it leaves a housing, using a rubbing lip
+  - Labyrinth seal: a winding, non-contact path that slows dirt and water, with no flexible cover
+  - Telescopic steel way covers, roll-up covers and way wipers: tougher or lower-profile alternatives for machine slides (Dynatect)
+  - Cable carrier (drag chain): guides moving cables and hoses rather than covering a moving part
+  - Cable gland and strain relief: seals where a cable passes through a wall
+  - Bellows coupling: a metal bellows that joins two shafts and carries turning force; not a cover
+  - Constant-velocity joint, ball screw and lead screw: common parts that a boot protects
+
+### Pictures, videos and models
+
+- **links**: 
+  - [2008-04-23 Cracked CV boot (Ildar Sagdejev; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg): Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age *(licence: CC BY-SA 4.0)*
+  - [Fahrzeugtechnik Vorderachse (Btr; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg): Labelled photo of a car's driven front axle, with the axle boot (Achsmanschette, item b) on the driveshaft *(licence: CC BY-SA 2.5)*
+  - [Faltenbalg ICE3 innen (Sebastian Terfloth; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg): Convoluted rubber gaiter on an ICE 3 high-speed train, a large concertina cover over a moving joint *(licence: CC BY-SA 2.5)*
+  - [Way Cover Bellows (Dynatect)](https://dynatect.com/product/way-cover-bellows/): Photos of bellows way covers on machine tools, plus design tips on the extended-to-retracted ratio, venting and stiffener profiles *(licence: link only)*
+  - [3D Printed TPU Bellows with PLA Interface Layers - Prints Flat! (Functional Print Friday, YouTube)](https://www.youtube.com/watch?v=UFrWfnwD3aU): Video of printing TPU bellows between peel-away PLA layers on a two-material printer (title and channel confirmed via YouTube oEmbed; video not watched; described by Hackaday) *(licence: link only)*
+- **make_it_yourself**: 
+  - [Camera Bellows - Collapsible & Customizable - TPU Vase Mode - F3d Files included (Kiwi Tinkerer, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/246679-camera-bellows-collapsible-customizable-tpu-vase-m): Customisable Fusion 360 bellows generator that prints in TPU in vase mode with fold angles under 45 degrees and 0.8 mm walls; a good starting point for any round or square printed bellows *(licence: CC BY)*
+  - [TPU Accordion Ways cover for Mini Metal Lathe - no PLA Supports (erischilde, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1473674-tpu-accordion-ways-cover-for-mini-metal-lathe-no-p): One-piece TPU accordion way cover printed folded, with no supports, held on with bar magnets *(licence: Public domain)*
+  - [Steering rack gaiter (Gt6k, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/82686-steering-rack-gaiter): TPU steering-rack gaiter in thick-walled and vase-mode versions, with notes on folded re-entrant designs and print settings *(licence: CC BY)*
+  - [Toyota Celica 6th Gen ST20x shock boot front (Homunculus, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1791102-toyota-celica-6th-gen-st20x-shock-boot-front): Replacement shock-absorber boot printed in 85A TPU without supports, with an editable Onshape model *(licence: Public domain)*
+  - [TPU Bellows Test for Multi Tool Printers (Darak, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1381129-tpu-bellows-test-for-multi-tool-printers): Test bellows printed in TPU with PLA interface layers, for two-material or tool-changer printers *(licence: CC BY-NC)*
+  - [3DSets CV Boots for most 3DSets models (Spiderz Hobbies, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1082528-3dsets-cv-boots-for-most-3dsets-models): Small TPU (95A) CV boots for printed RC-car driveshafts, packed with grease to keep dirt out *(licence: CC BY-NC)*
+- **diagram_idea**: A lead screw with a moving carriage, drawn twice: carriage at the left with the bellows on its right stretched out long, then carriage at the right with the bellows squashed into a short stack, with labels for extended length, retracted (stack) length and a vent hole, and grit bouncing off the folds.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Bellows
+  - https://en.wikipedia.org/wiki/Constant-velocity_joint
+  - https://joycedayton.com/sites/default/files/pdfs/current-catalog/BellowsProductLine.pdf
+  - https://dynatect.com/product/way-cover-bellows/
+  - https://dynatect.com/categories/bellows-covers/
+  - https://dynatect.com/categories/machine-tool-protection/machine-way-covers/
+  - https://rubber-group.com/molded-rubber-bellows/
+  - https://www.cqm-inc.com/molded-rubber-bellows.html
+  - https://hackaday.com/2025/05/08/3d-printed-tpu-bellows-with-pla-interface-layers/
+  - https://www.youtube.com/watch?v=UFrWfnwD3aU
+  - https://help.prusa3d.com/article/flexible-materials_2057
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/246679-camera-bellows-collapsible-customizable-tpu-vase-m
+  - https://www.printables.com/model/1473674-tpu-accordion-ways-cover-for-mini-metal-lathe-no-p
+  - https://www.printables.com/model/82686-steering-rack-gaiter
+  - https://www.printables.com/model/1791102-toyota-celica-6th-gen-st20x-shock-boot-front
+  - https://www.printables.com/model/1381129-tpu-bellows-test-for-multi-tool-printers
+  - https://www.printables.com/model/1082528-3dsets-cv-boots-for-most-3dsets-models
+  - https://www.printables.com/model/1610336-adjustable-gear-stick-cover-adjustable-bellow
+  - https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
+  - https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
+  - https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg
+
+### Other info
+
+- **Fields with unverified parts:** degrees_of_freedom, tools_needed
+
+## 291 Anti-twister mechanism (twist-free cable feed)
+
+*seals & pass-throughs.* A loop of cable carried round at exactly half the speed of a spinning part, so power or signals can pass to it through endless turns without a slip ring and without the cable twisting
+
+### What it is
+
+- **plain_name**: A cable that loops up, over and down onto a spinning turntable, while an arm carries the loop round at exactly half the turntable's speed, so the turntable can spin for ever without the cable winding up or twisting, and without any sliding contacts
+- **term**: Anti-twister mechanism (antitwister, twist-free cable feed)
+- **aliases**: 
+  - anti-twister, antitwister mechanism (Wikipedia)
+  - anti-twist mechanism (Holroyd 2022, 'The spinor linkage'; YouTube 'LEGO anti-twist mechanism')
+  - one-omega/two-omega (1-omega, 2-omega) principle, umbilicus or umbilical drive (blood-processing centrifuges; Fenwal patent US9545637)
+  - sealless or seal-less centrifuge, flow-through centrifuge without rotating seals (IBM/COBE patent US4439178; Ito, Suaudeau and Bowman, Science 1975)
+  - flying leads and de-twist mechanism (tubing in planetary countercurrent-chromatography centrifuges; Wikipedia, Countercurrent chromatography)
+  - Dirac's belt trick, plate trick, string trick, Balinese cup trick (the demonstration behind it; Wikipedia, Plate trick)
+  - spinor linkage (a hinged-arm version turned by a handle; Holroyd 2022)
+  - 4-pi (720 degree) spin-1/2 demonstrator (Printables model 1128267) *(unverified parts omitted)*
+- **family**: seals & pass-throughs
+- **other_families**: gear trains, gearboxes & transmissions, hydraulics, pneumatics & vacuum
+- **one_liner**: An anti-twister passes a continuous cable or tube from a fixed base to a part that keeps spinning, by swinging the cable's loop round the axis at exactly half the part's speed, so the cable only bends and never builds up twist, and no slip ring or rotating seal is needed.
+- **complexity**: A small assembly that acts as one unit: a fixed base, the spinning platform (rotor), a carrier arm or cage that guides the cable loop round the axis, a 2:1 drive linking carrier and platform (a ring gear, idler and transfer gears in Adams' 1971 patent US3586413; a two-layer planetary gear set in Printables model 1128267), bearings, the flexible cable, wire bundle or tube, and clamps at each end. A purely linkage version (Holroyd's spinor linkage) uses 14 hinged rigid bodies and a hook-shaped control shaft instead of gears.
+- **how_it_works**: The cable comes out of the base along the axis, runs up, outwards and over the top in a loop, and comes back down onto the axis on top of the spinning part (Wikipedia; US3586413). A carrier swings this loop round the axis at exactly half the spinning part's speed, in the same direction (Wikipedia: 'the plane of this cable is rotated at exactly half the rate of the disk so the cable experiences no net twisting'). The cable is constantly bent back and forth but is not twisted about its own length: 'For every 720 rotation of the platform ... the conductors will complete 360 of rotation without becoming twisted' (US3586413). It works because of a property of 3D rotations shown by Dirac's belt trick: a twist made by one full turn cannot be undone, but the twist from two full turns can be, by passing the belt round the object (Wikipedia, Plate trick).
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: carries power, signals or fluid to a part that keeps spinning, with no sliding contacts and no rotating seal
+  - let it move (turn, slide or bend): lets the platform turn endlessly in one direction while still connected
+- **motion**: rotate: continuous, unlimited turns of the platform; the carrier turns at half that speed in the same direction about the same axis (Wikipedia; US3586413; US9545637)
+- **degrees_of_freedom**: 1: only the platform's rotation is free; the carrier is geared (or linked) to it, so its motion is not independent (Holroyd: the spinor linkage 'has one degree of freedom, and the motion is generated by simply turning a handle')
+- **special_behaviour**: 
+  - none: its clever trick, endless rotation with a continuous cable that never builds up twist, isn't one of the listed behaviours; inside, it relies on a fixed 2:1 speed ratio between platform and carrier (US3586413)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it carries cables or tubes across a turning joint
+  - shape (the parts interlock; form-fit): the gears that keep the exact 2:1 ratio mesh by shape, so the timing can't slip (US3586413; Printables 1128267)
+- **input_output**: Input: rotation of the platform (or of the drive ring) -> output: the cable carrier turning at exactly half the platform speed, same direction, same axis (in line). Ratio fixed at 2:1 (US3586413: gears 'chosen to provide relative rotational velocities of the rotating platform and the rotating support of two-to-one'; US9545637: umbilicus midsection at 'one-omega', chamber at 'two-omega'). *(unverified parts omitted)*
+- **power**: passive (no power needed): the mechanism itself needs no power; the spinning part is usually driven by a motor (US3586413 uses one motor for both). If the motor stops, the cable simply stays connected; nothing releases
+- **reuse_cycles**: many times
+- **tools_needed**: The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife. *(unverified parts omitted)*
+- **seal**: none: the mechanism itself doesn't seal anything, but because the tube runs unbroken from base to rotor, a liquid path stays closed with no rotating seal to leak ('The sealed, sterile integrity of the fluid processing assembly may thus be maintained without the need for rotating seals', US9545637; Ito et al. 1975: 'eliminates complications arising from rotating seals')
+- **load**: light: it carries cables or tubes, not mechanical loads. The spinning platform must run on its own bearing (in US3586413 the platform and rotating support each have their own bearings). The weak point is the cable itself, which is bent on every turn: continuous bending makes most cables 'corkscrew', a major reason conductors break (igus, Basics of Cable Carriers).
+- **play_and_precision**: The cable loop is not precisely located: in a fast centrifuge part of the tube takes its shape from centrifugal force (US4439178). The cable must leave and arrive exactly on the axis of rotation (US3586413 routes it up a tubular channel along the axis). *(unverified parts omitted)*
+- **access_needed**: end of a tube or shaft: the cable enters along the axis from below and lands on the axis on top of the spinning part, and the carrier sweeps round the outside, so the whole space round the rotor must stay clear. Holroyd notes 'it is impossible to access the spinning object continuously from any fixed direction: the arm always gets in the way', and that Adams' device 'seems to suffer from the same difficulty'.
+- **materials**: Flexible cable, wire bundle or plastic tubing (blood centrifuges use a multi-lumen plastic tube with reinforcing sleeves; US4439178); carrier-friendly cables with abrasion-resistant, slick jackets and conductors laid to resist corkscrewing (igus, Basics of Cable Carriers); metal or plastic gears and ball bearings. Printed demonstrator: drive, cube and bases in PLA, the clear axle in PETG and the flexible band in ABS (Printables 1128267). LEGO Technic parts for the spinor linkage and LEGO anti-twist demos (Holroyd 2022; YouTube aeh5040).
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): print-in-place planetary drive, carrier arm, bases and cable guides (Printables 1128267)
+  - off-the-shelf part: gears (spur, ring or planetary sets), ball bearings or a turntable bearing, high-flex cable or tubing; no ready-made anti-twister unit was found
+  - LEGO Technic: anti-twist and spinor-linkage demonstrators (Holroyd 2022; YouTube 'LEGO anti-twist mechanism') *(unverified parts omitted)*
+- **print_in_place**: partly: the two-layer planetary gear drive of Printables model 1128267 prints in place and is broken loose after printing, but the cube, axle, bases and band are separate parts that snap on
+- **making_tips_3d_printing**: 1) Get the ratio exactly 2:1 with gears, not friction: the Printables demonstrator uses a planetary gear set and mounts the band's base on one of the planets, so it 'must complete one full circle around the shaft for every two rotations of the cube, while maintaining its orientation' (Printables 1128267). 2) Print-in-place gears: 0.2 mm layer height, no supports, top-surface ironing, 0.2 mm clearances; break the planet, sun and ring gears loose after printing 'so you can feel them slightly wiggle' (Printables 1128267). 3) Snap-fit parts that are flexed (axle, bases, band) are better in PETG or ABS than PLA; the designer printed the band in ABS and the clear axle in PETG (Printables 1128267). 4) Route the cable up the centre of the axis and down onto the centre of the rotor (US3586413), and clamp (strain-relieve) it at both ends so the bending happens in the free loop, not at the solder joints (igus: 'always strain relieve cables at the moving end and, whenever possible, at both ends'). 5) Keep the loop's bend radius generous: igus's rule for moving cables in carriers is at least 8 to 10 times the outer diameter of the largest cable (igus, Basics of Cable Carriers). 7) Leave a clear sweep zone round the rotor, since the carrier and loop pass every side (Holroyd). 8) PLA parts near motors soften from about 60 degrees C (CNC Kitchen). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Limited-rotation alternatives: 'Twisterband' (igus (brand); a compact carrier that 'can turn through 3,000 degrees', igus Basics of Cable Carriers), 'clock spring' or 'spiral cable'. Endless-rotation alternative with contacts: 'capsule slip ring', 'rotary union'. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - The cable carrier must turn at exactly half the speed of the spinning part, in the same direction (Wikipedia, Anti-twister mechanism; US3586413 'two-to-one'; US9545637 'one-omega' and 'two-omega').
+  - The cable returns to its starting state only every two turns of the platform (720 degrees), not every turn (US3586413; Wikipedia, Plate trick; Printables 1128267: 'Only after these two full rotations, does the system return to where it started').
+  - Moving-cable bend radius: at least 8 to 10 times the outer diameter of the largest cable, and a larger radius lasts longer (igus, Basics of Cable Carriers; a cable-carrier rule, applied here to the swinging loop).
+  - Strain-relieve cables at the moving end and, whenever possible, at both ends; hydraulic hoses only at the moving end (igus, Basics of Cable Carriers).
+  - A flexing tube heats up from flexure friction; reinforcing sleeves at the ends spread the bending and the heat 'so as to avoid weakened hot spots' (US4439178).
+  - Plan for the swinging arm to block any fixed line of sight or access to the spinning part (Holroyd 2022).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Blood-separating (apheresis) centrifuges, which spin a sealed bag or chamber fed by a tube bundle swung round at half speed (US9545637; US4439178; Ito, Suaudeau and Bowman, Science 1975)
+  - Planetary centrifuges for countercurrent chromatography, whose 'flying leads' carry liquid to the spinning coils (Wikipedia, Countercurrent chromatography)
+  - Dirac's belt trick: turn a belt buckle round twice and the belt can be untwisted without turning it back (Wikipedia, Plate trick)
+  - The plate trick and the Balinese candle dance, where a hand holding a plate or candle turns twice and the arm ends up untwisted (Wikipedia, Plate trick)
+- **when_to_use**: Use an anti-twister when a part must keep spinning the same way and you want a continuous cable or tube to it, with no sliding contacts and no rotating seals: low-noise power or signals for small electronics (Wikipedia: brushes introduce 'unacceptable levels of noise'), sealed or sterile liquid paths (blood processing; US9545637), equipment working under high g in a centrifuge that needs electrical measurements (US3586413), or a striking science demonstration or kinetic sculpture (Printables 1128267; Holroyd). It also suits links that can't easily go through a slip ring, such as a tube carrying liquid alongside wires (US3586413 lists hydraulic, pneumatic and optical uses).
+- **when_not_to_use**: If the part only turns part of a revolution or a few turns back and forth, a simple service loop, a clock-spring spiral cable or a rotary cable carrier is simpler (see Slip ring and rotary union; igus Twisterband turns through 3,000 degrees). If you need to reach or see the spinning part from a fixed side at all times, the swinging loop gets in the way (Holroyd 2022); use a slip ring, rotary union or a wireless link instead. Holroyd notes that 'the practical applications of such anti-twist mechanisms seem limited'. For low-cost, low-current hobby projects a bought capsule slip ring is smaller and easier. Very high speeds heat and fatigue the flexing cable (US4439178).
+- **environment_limits**: The cable fatigues from constant bending and may 'corkscrew' and break its conductors (igus, Basics of Cable Carriers). A flexing tube heats up from flexure friction (US4439178), and bearing surfaces on the tube heat up from friction too (US9545637). Printed PLA parts start to give at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). *(unverified parts omitted)*
+- **safety_notes**: In fluid systems, wear where the tube runs in its bearing can cut into the tube and cause 'leakage of the fluid through the umbilicus' (US9545637). *(unverified parts omitted)*
+- **common_failures**: 2) Cable fatigue: conductors break from repeated bending and corkscrewing; use flexible, carrier-rated cable, a large bend radius and strain relief at both ends (igus, Basics of Cable Carriers). 3) Heating and wear of the flexing tube where it runs in its support bearing, leading to leaks (US4439178; US9545637). 4) The loop hitting the rotor, frame or nearby objects as it sweeps round (Holroyd). 5) Printed demo: print-in-place gears fused together until broken loose, and PLA snap fits cracking (Printables 1128267). *(unverified parts omitted)*
+- **related**: 
+  - Slip ring and rotary union: also allow endless rotation, but through sliding brushes or rotating seals, which wear and add electrical noise or leak (Wikipedia, Anti-twister mechanism; Slip ring)
+  - Clock-spring (spiral) cable and service loop: no moving contacts, but only a limited number of turns
+  - Cable carrier (drag chain), including rotary carriers such as igus Twisterband (brand): guide cables through a limited rotation (up to 3,000 degrees) rather than endless turns (igus, Basics of Cable Carriers)
+  - Multi-turn rotation limiter: stops a shaft after a set number of turns, so a plain cable loop isn't over-twisted
+  - Planetary gear set: the usual way to get the exact 2:1 carrier speed (Printables 1128267)
+  - Spinor linkage: a chain of hinged links driven by an internal shaft that does the same job without a separate flexible cable (Holroyd 2022)
+  - Flexible drive shaft: a rotating cable that carries turning motion, rather than a cable that must not twist
+  - Gimbal: lets a part point in any direction with nested rings, not continuous spin with a cable
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:Belt Trick.gif (Wikimedia Commons, Jason Hise)](https://commons.wikimedia.org/wiki/File:Belt_Trick.gif): Animation of a cube spinning continuously while tethered by several belts that never twist or tangle, the principle of the anti-twister *(licence: CC0 1.0 (public domain dedication))*
+  - [LEGO anti-twist mechanism (YouTube, aeh5040; title confirmed through YouTube oEmbed, video not watched; linked from Wikipedia)](https://www.youtube.com/watch?v=1x_oQv_qj_U): A working LEGO anti-twister *(licence: link only (standard YouTube licence))*
+  - [Spinor Linkage (YouTube, aeh5040 / A. E. Holroyd; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=oRPCoEq05Zk): A hinged-arm linkage that lets a cube spin endlessly while tethered, turned by a handle *(licence: link only (standard YouTube licence))*
+  - [Do you know the anti-twister mechanism? (YouTube, MindYourDecisions; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=ulrcyZpA0rE): Explainer video on the anti-twister mechanism *(licence: link only (standard YouTube licence))*
+  - [US3586413A, Apparatus for providing energy communication between a moving and a stationary terminal (Dale A. Adams, 1971; Google Patents)](https://patents.google.com/patent/US3586413A/en): Patent drawings of the geared anti-twister: base, half-speed rotating support, 2:1 gearing and the cable path over the platform *(licence: US patent (public domain text and drawings))*
+- **make_it_yourself**: 
+  - [4pi Spin-1/2 Symmetry Demonstrator Anti-Twister Mechanism (Elequant, Printables; URL from search results, details read through the Printables API)](https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec): Printable demonstrator: a print-in-place two-layer planetary gear drive spins a cube twice for each orbit of a flexible band, which never tangles; 0.2 mm layers and 0.2 mm tolerances *(licence: CC BY)*
+  - [The spinor linkage: a mechanical implementation of the plate trick (A. E. Holroyd, arXiv 2107.01681; Journal of Mathematics and the Arts 2022)](https://arxiv.org/abs/2107.01681): Paper with an appendix giving 'full instructions for constructing a working model of the spinor linkage from LEGO parts', including the parts list; also discusses anti-twist mechanisms *(licence: arXiv non-exclusive distribution licence (link and cite only))*
+- **diagram_idea**: Side view of a turntable on a fixed base: a coloured cable rises up the base's axis, loops out and over a C-shaped carrier arm, and drops onto the centre of the turntable; frames at 0, 180, 360, 540 and 720 degrees of turntable rotation show the arm at half those angles and a stripe painted along the cable twisting half a turn one way and then back to straight.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Anti-twister_mechanism
+  - https://en.wikipedia.org/wiki/Plate_trick
+  - https://en.wikipedia.org/wiki/Countercurrent_chromatography
+  - https://commons.wikimedia.org/wiki/File:Belt_Trick.gif
+  - https://patents.google.com/patent/US3586413A/en
+  - https://patents.google.com/patent/US9545637B2/en
+  - https://patents.google.com/patent/US4439178A/en
+  - https://arxiv.org/abs/2107.01681
+  - https://arxiv.org/pdf/2107.01681
+  - https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=10805426,663998,1220011&rettype=abstract&retmode=text
+  - https://www.igus.com/contentData/Product_Files/Download/pdf/Basics_of_Cable_Carriers.pdf
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://www.youtube.com/watch?v=1x_oQv_qj_U
+  - https://www.youtube.com/watch?v=oRPCoEq05Zk
+  - https://www.youtube.com/watch?v=ulrcyZpA0rE
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, aliases, common_failures, environment_limits, input_output, maker_difficulty, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, safety_notes, tools_needed
+
+## 295 Radial lip seal (rotary shaft seal, oil seal)
+
+*seals & pass-throughs.* A rubber ring with a springy lip pressed against a spinning shaft, keeping oil in and dirt out where an O-ring would wear through
+
+### What it is
+
+- **plain_name**: A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out
+- **term**: Radial shaft seal (rotary shaft lip seal), commonly called an oil seal
+- **aliases**: 
+  - rotary lip seal, radial lip seal (Wikipedia 'Radial shaft seal')
+  - oil seal, shaft seal (trade names used by suppliers; American Rubber Corp)
+  - Simmerring or Simmer-Ring (brand of Freudenberg Sealing Technologies, often used as a generic name; Wikipedia)
+  - Radial-Wellendichtring or RWDR (German, as in DIN 3760; Wikipedia, Wikimedia Commons)
+  - gufero (Czech workshop name; Wikimedia Commons file titles)
+  - TC oil seal (main lip plus dust lip) and SC oil seal (single lip): supplier type codes (American Rubber Corp)
+  - CR seal (SKF CR Seals product line), e.g. HMS5 and HMSA10 (SKF)
+  - pressure radial shaft seal (short, stiff lip for hydraulic pumps and motors; Parker)
+  - by use: crankshaft seal, axle seal, pinion seal, power steering seal, pump seal, valve stem seal (Wikipedia 'Radial shaft seal')
+- **family**: seals & pass-throughs
+- **other_families**: hydraulics, pneumatics & vacuum
+- **one_liner**: A ring pressed into a round hole around a spinning shaft, whose spring-loaded rubber lip rides on the shaft on a thin film of oil, so the shaft can turn for years while the oil stays in and dirt and splashes stay out.
+- **complexity**: A small assembly that acts as one unit: a metal stiffening ring (metal insert or case), a rubber body with the main sealing lip, a ring-shaped coil spring that squeezes the lip (garter spring), and often a second small dust lip (Parker 'Radial Shaft Seals' catalogue, p. 7; Wikimedia Commons 'Radial sealing CAD sectional view'). It also needs a hard, smooth shaft and a round housing hole (bore) of the right size.
+- **how_it_works**: The seal is pressed into the housing hole with a tight fit (interference fit), which stops it turning and seals around its outside (Parker, p. 8). Its lip is made slightly smaller than the shaft and the garter spring squeezes it on, with a light force of about 0.1-0.15 N per millimetre of shaft circumference, touching along a band only about 0.2 mm wide (Parker, pp. 7-8). When the shaft turns, the lip lifts very slightly on a thin film of oil, and the lip's shape (a steeper angle on the oil side) plus tiny surface textures pump any escaping oil back inside (pump-back), so it runs lubricated instead of dry (Parker, p. 8; Wikipedia). An O-ring squeezed hard against a fast-turning shaft would rub dry and wear through; the lip seal's light, oil-lubricated contact is what lets it live on a spinning shaft.
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: lets a turning shaft pass through the wall of an oil- or grease-filled housing (gearbox, pump, motor, bearing) while keeping lubricant in and dirt, dust and splashed water out (SKF overview: retain the lubricant, separate two media, seal under pressure, exclude dirt and moisture)
+- **motion**: rotate: the shaft turns continuously inside the seal, in either direction, at surface speeds up to about 12 m/s for nitrile rubber and up to 40 m/s for fluororubber in Parker's standard seal (Parker, p. 14). It is made for turning, not sliding: sliding rods use rod seals and wipers instead (SKF seals overview).
+- **degrees_of_freedom**: 1: the shaft turns relative to the housing. The seal does not guide or support the shaft; bearings must do that, and the seal should sit close to a bearing so the shaft doesn't wobble under the lip (Parker, p. 12).
+- **special_behaviour**: 
+  - none: it just seals. Its clever side is that the lip follows small wobbles of the shaft (it is spring-loaded and flexible) and actively pumps leaking oil back inside when the shaft turns (pump-back effect) (Parker, pp. 7-8; SKF HMS5 brochure)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it does not hold parts together
+  - friction or clamping (force-fit): the seal itself stays in the housing by a press fit of its outside diameter in the bore (Parker, p. 9)
+  - spring force (a spring or springy part presses it in place): the garter spring and the rubber's own springiness keep the lip pressed on the shaft (Parker, p. 7)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48). *(unverified parts omitted)*
+- **tools_needed**: press or seal driver: an arbor press if possible, otherwise a soft-faced hammer on an installation tool whose outside diameter is larger than the bore, so the seal goes in square (SKF CR Seals handbook, pp. 24-25). A thin-walled installation sleeve to cover keyways, splines, threads or sharp shoulders (SKF CR Seals handbook; Parker, p. 11), the oil or grease to be sealed for pre-lubricating the lip, and a seal puller or pry tool for removal. Printable seal drivers exist (Printables 'Oil Seal Installer').
+- **seal**: watertight: the lip keeps oil in and splashes and dirt out, but standard seals are only for near-zero pressure, about 0.5 bar or less (Parker VA, p. 14; SKF HMS5: 0.03 MPa = 0.3 bar). Special pressure seals with short stiff lips, and metal back-up rings for the higher ratings, handle 10, 30 or 60 bar in hydraulic pumps and motors (Parker VP, VT and VV types, pp. 49-60).
+- **load**: light: it carries no load and 'must not be axially strained and must not be used to transmit forces' (Parker, p. 11). The shaft has to be held by bearings; the seal only needs a light press fit in its bore.
+- **adjustable**: No. SKF seals overview). *(unverified parts omitted)*
+- **play_and_precision**: not applicable for locating. It needs accurate parts around it: shaft tolerance h11 and bore tolerance H8 (Parker, pp. 10-11; SKF HMS5 brochure). The lip tolerates small shaft wobble (runout) and offset between shaft and bore, but less at high speed, because the lip cannot follow fast enough, and pressure seals tolerate 50-70% less (Parker, p. 12).
+- **access_needed**: end of a tube or shaft: the seal slides on over the end of the shaft and is pressed into the bore from one side. For big shafts that can't be pulled out, split seals that wrap round the shaft exist (SKF CR Seals handbook, split seals HS8).
+- **materials**: Lip rubbers (Parker, p. 13): nitrile rubber (NBR, -30 to +100 C, the standard choice for mineral oils), hydrogenated nitrile (HNBR, -35 to +140 C), fluororubber (FKM, Viton (brand), -20 to +200 C), silicone (MVQ, -60 to +200 C) and EPDM (-40 to +150 C); also polyacrylate (ACM) and ethylene-acrylic (AEM) (Wikipedia) and PTFE lips for special duty (Parker; SKF). Rubber hardness is typically 70-85 Shore A (Wikipedia). Case: mild or stainless steel; spring: spring steel or stainless (Parker; SKF HMS5). The shaft must be hard steel (at least 45 HRC) or fitted with a hard stainless wear sleeve (Parker, p. 11; SKF). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: buying a standard seal and pressing it in is easy, but the shaft needs a hard, smooth, ground surface and the bore must be round and accurately sized, which a 3D printer can't make directly, so use a bought hardened shaft or wear sleeve and size-test the bore
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the seal is always bought, by shaft diameter x bore diameter x width in mm, e.g. '10 x 22 x 7' (American Rubber Corp), to DIN 3760 or ISO 6194 sizes (Wikipedia)
+  - CNC (lathe): the classic way to make the bore and the shaft seat; the shaft running surface is then hardened and plunge-ground and polished (Parker, p. 10)
+  - 3D print (FDM) or 3D print (resin): only for the housing that holds the seal (with care over bore size) and for seal-installation tools (Printables 'Oil Seal Installer'); printed TPU seals are improvised one-off repairs (Printables winch shaft seal)
+- **print_in_place**: no: the seal is a bought rubber-and-metal part pressed into a housing; even improvised TPU replacements are printed separately and fitted (Printables 'Anchor Windlass shaft seal')
+- **making_tips_3d_printing**: 1) Buy the seal first and design around it; sizes are written shaft x bore x width (American Rubber Corp). 2) Choose a seal with a rubber-covered outside (e.g. 3) The bore must grip the seal: real seals are made about 0.08-0.30 mm bigger than a bore of up to 50 mm (press-fit allowance, Parker, p. 4) Add a 15-30 degree lead-in chamfer at the mouth of the bore (SKF CR Seals handbook, p. 48) and make the bore at least the seal width plus 0.3 mm deep (SKF, p. 48); add two small push-out holes in the bottom shoulder for later removal (SKF, p. 48). 5) Never let the lip run on plastic or soft metal: the shaft surface needs at least 45 HRC and Ra 0.2-0.6 micrometres with no spiral grinding marks (Parker, pp. 10-11). 6) Chamfer the shaft end, and cover keyways, flats, threads and set-screw holes with a thin printed or tape sleeve while sliding the seal on (SKF CR Seals handbook; Parker, p. 11: thin-walled plastic or aluminium sleeves). 7) Press it in square with a flat driver whose outside is larger than the bore; printable seal drivers exist (Printables 'Oil Seal Installer'); don't hit the seal directly (SKF CR Seals handbook). 8) Point the main lip at the oil (SKF CR Seals handbook) and wipe the lip with the oil or grease being sealed before fitting; fill only about 30% of the gap between the main lip and dust lip with grease (Parker, p. 7). 9) Mount the seal close to a bearing so the shaft can't wobble under the lip (Parker, p. 12). 10) Printed housings near hot gearboxes or motors: PLA starts to soften at about 60 C and PETG at about 80 C (CNC Kitchen), and PLA creeps under constant stress (Thrinter), which can loosen a press fit over time; 11) Printed TPU 'shaft seals' are a stop-gap: one maker printed a winch shaft seal in 95A TPU with 3 perimeters and grease and says 'time will tell how long it lasts' (Printables). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search: 'oil seal' or 'radial shaft seal' plus size, e.g. '12x22x7 TC NBR' (TC = main lip plus dust lip, SC = single lip; American Rubber Corp), 'rotary shaft seal DIN 3760', 'FKM oil seal' or 'Viton oil seal' (brand) for heat, 'Simmerring' (brand, Freudenberg), SKF HMS5 (single lip) and HMSA10 (with auxiliary lip) (SKF HMS5 brochure), Parker VA (single lip) and VB (with dust lip) (Parker). Pressure-rated 'pressure radial shaft seal' for hydraulic pumps (Parker VP to VW). Repairs: 'wear sleeve' or 'Speedi-Sleeve' (brand) (SKF). Tools: 'seal driver set' or 'bearing and seal driver kit', 'seal puller', 'installation sleeve'. Related seals: 'V-ring seal' (axial secondary seal) (SKF seals overview).
+- **rules_of_thumb**: 
+  - Shaft hardness at least 45 HRC with at least 0.3 mm hardened depth; at least 55 HRC above 4 m/s surface speed, in heavy dirt or at 0.5-5 bar; 60-65 HRC at higher pressures (Parker 'Radial Shaft Seals' catalogue, p. 11).
+  - Shaft surface roughness Ra 0.2-0.6 micrometres (Rz 1-4, Rmax under 6.3) for standard DIN 3760 seals, and Ra 0.2-0.4 for pressure seals (Parker, p. 11). SKF gives Ra 0.2-0.8 (DIN 3760) or 0.2-0.5 (ISO 6194) (SKF HMS5 brochure). Too rough wears the lip; overly smooth can leak early (SKF CR Seals handbook, failure modes).
+  - No spiral marks: finish the running surface by plunge grinding then polishing, so there is no thread-like 'lead' that pumps oil out; a string resting on the oiled, turning shaft that drifts sideways shows lead (Parker, p. 10; SKF CR Seals handbook, p. 48: directionality 0 plus or minus 0.05 degrees).
+  - Fits: shaft h11, housing bore H8 with Ra 1.6-4 micrometres (Parker, pp. 10-11; SKF HMS5 brochure gives bore Ra 1.6-6.3 for DIN 3760).
+  - Shaft lead-in chamfer 15-30 degrees, reducing the diameter by 1.5 mm for shafts under 10 mm, 2.0 mm for 10-20 mm, 2.5 mm for 20-30 mm, 3.0 mm for 30-40 mm and 3.5 mm for 40-50 mm (Parker, p. 11).
+  - Bore: 15-30 degree lead-in chamfer, and depth at least the seal width plus 0.3 mm for metric metal-reinforced seals (SKF CR Seals handbook, p. 48).
+  - Pressure: standard seals 0.5 bar or less (Parker VA, p. 14), and less as speed rises: 0.5 bar up to 1,000 rpm (2.8 m/s), 0.35 bar up to 2,000 rpm, 0.2 bar up to 3,000 rpm (Parker, p. 10).
+  - Speed limits for Parker's standard seal: nitrile 12 m/s, HNBR 25 m/s, fluororubber 40 m/s (Parker, p. 14); SKF HMS5 nitrile up to 14 m/s (SKF HMS5 brochure). Surface speed in m/s = 3.14 x shaft diameter (mm) x rpm / 60,000, e.g. a 20 mm shaft at 3,000 rpm runs at about 3.1 m/s (worked example).
+  - Heat is the enemy: the service life of the system can be cut in half by each 10 C rise at the lip contact (Parker, p. 6).
+  - Lip load is only about 0.1-0.15 N per mm of circumference, rising 2-5 times in pressure seals (Parker, p. 7); the lip touches a band about 0.2 mm wide (Parker, p. 8).
+  - Fill only about 30% of the space between the main lip and the dust lip with grease (Parker, p. 7).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The seals where the crankshaft and the axles come out of a car's engine and gearbox, and in the power steering pump (Wikipedia 'Radial shaft seal')
+  - The seal on a washing machine's pump or drum shaft (Parker lists washing machines; Wikimedia Commons photos of a washing-machine pump seal)
+  - The seal on the motor shaft of a stand mixer's gearbox, which stops grease getting into the motor (Printables 'Kitchenaid Motor Shaft Seal')
+  - Seals in power drills, industrial gearboxes and wind turbines (Parker, p. 7)
+- **when_to_use**: Use a lip seal wherever a turning shaft comes out of something filled with oil or grease, such as a gearbox, a pump, a motor housing or a bearing block, and you need to keep the lubricant in and dust, dirt and splashes out (SKF seals overview; Parker). It is cheap, standard, compact and handles continuous rotation at high speed for a long time, provided the shaft is hard and smooth, the lip is lubricated and the pressure is low. Choose one with a dust lip where there is dirt outside (Parker, p. 7) and a pressure-rated type for hydraulic pumps and motors (Parker).
+- **when_not_to_use**: Don't use one on parts that don't turn (use an O-ring or a gasket), on a sliding rod (use a rod seal and wiper; SKF seals overview), or where you only need to keep out dust and splashes with no friction or wear (use a labyrinth seal or a V-ring). Avoid it where the lip would run dry or on a soft or printed shaft (Parker: dry running wears the lip). For real pressure, use a pressure-rated lip seal or a mechanical face seal; a Blue Robotics forum member notes that lip seals 'need more force to turn as the pressure increases' and suggests keeping the shaft small (Blue Robotics forum). For underwater robots, flooded motors avoid shaft seals altogether: the Blue Robotics T200 thruster 'eliminates the need for shaft seals, magnetic couplings, and air- or oil-filled compartments' (Blue Robotics). To drive through a wall with no leakage at all, use a magnetic coupling.
+- **environment_limits**: Temperature depends on the rubber: nitrile -30 to +100 C, HNBR -35 to +140 C, FKM -20 to +200 C, silicone -60 to +200 C, EPDM -40 to +150 C (Parker, p. 13). Friction heat at the lip is the main limit; it hardens nitrile and causes axial cracks (Parker, p. 6), and life roughly halves for each 10 C rise (Parker). FKM can harden and crack when amine additives in some oils react with it, generally at 210 F (about 99 C) or more (SKF CR Seals handbook). Rubber ages in heat, sunlight (UV) and ozone: SKF says to store seals at 15-25 C and 40-70% humidity, away from sunlight, electric motors and fluorescent lights (which make ozone), and never hang them on a nail, which distorts the lip (SKF CR Seals handbook, pp. 32-33). Check that the rubber suits the fluid (Parker). A printed housing softens long before the seal does: PLA at about 60 C, PETG at about 80 C (CNC Kitchen).
+- **safety_notes**: Fluororubber (FKM, Viton (brand)) and PTFE seals give off dangerous fumes above 300 C, e.g. in a fire or when parts are cut or burned; SKF says to see a doctor after skin contact with residues or breathing the vapour (SKF seals overview, 'Important safety note'). Seals on hydraulic pumps and motors can hold oil under pressure (pressure seals up to 60 bar; Parker): release the pressure before working on them, because fluid jets can inject oil through the skin, possibly at pressures as low as 7 bar, and need urgent hospital treatment (HSE safety bulletin 'Hydraulic injection injury'). When hammering a seal in, use a soft-faced hammer on a driver, not on the seal (SKF CR Seals handbook). *(unverified parts omitted)*
+- **common_failures**: Leaks from a nicked or cut lip, caused by sliding it over keyways, splines, threads or sharp edges or by sharp tools: cover them with a sleeve or tape and keep screwdrivers away from the lip (SKF CR Seals handbook, failure modes). Damage during fitting from a missing bore chamfer, hitting the seal directly or an undersized bore (SKF). Fitted backwards: the main lip must face the oil (SKF). Excessive wear from a rough shaft, dirt, lack of lubrication, too much interference or pressure (SKF). Lip turned inside out by pressure or poor assembly (SKF). Spiral grinding marks on the shaft that pump oil out (Parker, p. 10). A worn groove in the shaft under the old lip: fit a wear sleeve (SKF). Overheating: nitrile hardens and cracks (Parker; SKF). Running dry, especially the dust lip, if not greased at fitting (Parker, p. 7). Shaft wobble or misalignment beyond what the lip can follow, worse at high speed; fit the seal close to a bearing (Parker, p. 12). *(unverified parts omitted)*
+- **related**: 
+  - O-ring seal: the standard seal for parts that don't move or move slowly; on a fast-spinning shaft a lip seal is used instead
+  - Labyrinth seal (baffle seal): no contact, so no wear or friction, but only keeps out dust and splashes; often paired with a lip seal
+  - V-ring seal (axial lip seal): an all-rubber ring that turns with the shaft and seals against a flat face; used as a secondary seal or slinger in front of a lip seal (SKF seals overview)
+  - Mechanical face seal (rotating face seal): two very flat hard rings (often ceramic) rubbing face to face, for pumps and higher pressures (Wikipedia; Blue Robotics forum)
+  - Magnetic coupling: passes turning motion through a closed wall so no shaft seal is needed
+  - Gasket and silicone sealant: for static joints in the same housing (covers and flanges)
+  - Bellows boot (gaiter): a flexible dust cover for sliding or bending joints rather than spinning shafts
+  - Slip ring and rotary union: a rotary union uses rotating seals to carry fluid into a turning shaft
+  - Rod seal and wiper: the sliding-rod equivalent used in hydraulic cylinders (SKF seals overview)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Radial sealing CAD sectional view num.svg (Wikimedia Commons, by Jahobr, vectorised by Sunspeanzler)](https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg): Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring, sealing lip, garter spring and optional dust lip *(licence: CC BY-SA 3.0)*
+  - [RWDR mit Fettpunkten im Schnitt (Wikimedia Commons, by Christoph Olbrich)](https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png): Schematic cross-section of a radial shaft seal with grease applied to the sealing edge *(licence: CC BY-SA 3.0)*
+  - [Gufero s prachovkou (Wikimedia Commons, photo by Juandev)](https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg): Photo of a real radial shaft seal with a dust lip *(licence: CC BY-SA 3.0)*
+  - [Radial Shaft Seals catalogue (Parker Hannifin, PDF hosted by Ashton Seals)](https://www.ashtonseals.co.uk/files/mydocs/parker/radial-shaft-seals.pdf): Cross-section drawings of seal profiles, the lip contact area, and dimensioned shaft and bore chamfer drawings *(licence: link only)*
+  - [CR Seals handbook: Industrial shaft seals (SKF, November 2024)](https://cdn.skfmediahub.skf.com/api/public/0901d196807662c1/pdf_preview_medium/810-701_CRSeals_Handbook_Nov_2024_pdf_preview_medium.pdf): Installation tool drawings, wear sleeve fitting steps, and photos of common seal failures (cut lips, wear, cracking, inverted lips) *(licence: link only)*
+- **make_it_yourself**: 
+  - [Oil Seal Installer - 40mm ID x 55mm OD (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1009455-oil-seal-installer-40mm-id-x-55mm-od): Printable driver that presses a 40 x 55 mm oil seal in evenly; a bolt and washer through the centre can apply even pressure *(licence: CC BY-NC)*
+  - [Anchor Windlass shaft seal Powermate Powerwinch 501 (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/683255-anchor-windlass-shaft-seal-powermate-powerwinch-50): An improvised replacement shaft seal printed in 95A TPU (about 90 mm ID, 114 mm OD), greased and fitted to a boat winch; the maker says time will tell how long it lasts *(licence: CC BY)*
+  - [Kitchenaid Motor Shaft Seal - Pro Mixer (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer): Printed replacement for the seal between a stand mixer's motor shaft and its gearbox, made after gearbox grease leaked into the motor *(licence: CC BY-SA)*
+- **diagram_idea**: Cross-section of a shaft passing out of an oil-filled box, with the seal's metal ring pressed in the hole, its rubber lip pointing at the oil and a garter spring squeezing it on, plus an inset close-up showing the thin oil film under the lip and arrows of oil being pumped back in as the shaft turns.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Radial_shaft_seal
+  - https://www.ashtonseals.co.uk/files/mydocs/parker/radial-shaft-seals.pdf
+  - https://www.skf.com/skf/campaign/newindustrialoffers/upload/products/Radial%20Shaft%20Seals%20for%20catalogue%20gearboxes/Maximizing%20bearing%20performance.pdf
+  - https://allsealsinc.com/skf/SKF_catalog.pdf
+  - https://cdn.skfmediahub.skf.com/api/public/0901d196807662c1/pdf_preview_medium/810-701_CRSeals_Handbook_Nov_2024_pdf_preview_medium.pdf
+  - https://www.americanrubbercorp.com/products/oil-seals/oil-seal-size-chart/
+  - https://bluerobotics.com/store/thrusters/t100-t200-thrusters/t200-thruster-r2-rp/
+  - https://discuss.bluerobotics.com/t/marine-rotary-shaft-seal/15372
+  - https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://www.printables.com/model/1009455-oil-seal-installer-40mm-id-x-55mm-od
+  - https://www.printables.com/model/683255-anchor-windlass-shaft-seal-powermate-powerwinch-50
+  - https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer
+  - https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
+  - https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
+  - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
+
+### Other info
+
+- **Fields with unverified parts:** adjustable, common_failures, making_tips_3d_printing, materials, removability, reuse_cycles, safety_notes
 

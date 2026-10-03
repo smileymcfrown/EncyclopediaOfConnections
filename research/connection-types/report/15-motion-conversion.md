@@ -2451,3 +2451,295 @@
 
 - **Fields with unverified parts:** environment_limits, input_output, load, make_it_yourself, materials, processes, safety_notes
 
+## 278 Tendon-driven joint (cable-pulled finger or tentacle)
+
+*motion conversion.* A string pulled from a distance bends a chain of hinged or flexible segments, as in printed robot hands and tentacles, with elastic cord or a second string pulling them back
+
+*Also covers:* Different from the Bowden cable (only the sleeve) and the Posable segmented arm (not driven)
+
+### What it is
+
+- **plain_name**: A finger or tentacle made of small hinged or bendy pieces with a string running through them: pull the string from a distance and the pieces curl up, let go and an elastic cord, a springy hinge or a second string straightens them again
+- **term**: Tendon-driven joint (cable-driven finger or tendon-driven continuum segment)
+- **aliases**: 
+  - cable-driven finger, tendon-actuated finger or string-pulled finger
+  - tendon-driven robot (TDR) (Wikipedia)
+  - cable-driven tentacle, mechanical tentacle or animatronic tentacle
+  - tendon-driven continuum robot or snake arm (a bendy backbone pulled by several tendons)
+  - underactuated finger (one tendon bending several joints, as in the Yale OpenHand)
+  - body-powered or wrist-driven 3D-printed prosthetic hand (e-NABLE designs such as Raptor Reloaded and Phoenix)
+  - flexor tendon (the pulling string) and extensor tendon or elastic return (the opening side)
+  - agonist-antagonist tendons (two strings pulling opposite ways)
+  - printed cable-driven mechanism, e.g. Xstrings (research project name)
+- **family**: motion conversion
+- **other_families**: cord, strap, webbing & textile hardware, compliant mechanisms & flexures, hinges & pivots, print-in-place & 3D-printing joints
+- **one_liner**: A tendon-driven joint bends a chain of hinged or flexible segments by pulling a string anchored near the tip and threaded past each joint a little way off its pivot, so a straight pull from a distant motor, lever or wrist becomes a curling motion, while elastic cord, springy hinges or a second string pull it back.
+- **complexity**: A small assembly that acts as one unit: (1) segments (finger bones or tentacle 'vertebrae'), printed or cut; (2) joints between them: pins, flexible flexure hinges, or a continuous bendy backbone; (3) one or more tendons, usually braided fishing line or thin wire rope, anchored at the tip; (4) routing holes, guide pins, small pulleys or a sleeve that keep each tendon a set distance from each joint; (5) a return: elastic cord or rubber bands, the springiness of the hinges, or a second (antagonist) tendon; (6) a tensioner (screw, pin or spring) to take up slack; (7) the puller: a servo or winch with a pulley, the user's wrist (e-NABLE hands) or a hand lever or joystick (Frontiers 2021; Yale OpenHand; InMoov; Thingiverse 'Animatronic Tentacle MK III').
+- **how_it_works**: Each tendon runs along the segments a small distance from each joint's pivot (its moment arm), so pulling it produces a turning force at that joint equal to the tension times that distance (OpenHand measures the moment arm from the tendon hole to the flexure centreline). Shortening the tendon path makes the joints bend; in a Raptor Reloaded finger, 15 mm of pull at 22.2 N curled both joints to 90 degrees (Frontiers 2021). One tendon passing several joints drives them all at once (underactuation), so the finger keeps closing round an object until every segment touches it; the order in which joints close is set by their relative stiffness (OpenHand). Because strings can only pull, something must pull the other way: elastic cords, rubber bands or springy flexures open the finger, or cables are used in pairs so the joint can be pulled both ways (Hackaday, Vasquez 2021); a tentacle or continuum robot has several tendons spaced round a bendy backbone and pulled from outside the body (Wikipedia 'Continuum robot').
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: turns a straight pull on a string into the bending of a finger or tentacle
+  - let it move (turn, slide or bend): the segments hinge or flex while the tendon controls how far
+  - hold or release using power: a servo or winch keeps the tendon tight to hold a grip and lets go to release it (InMoov; Yale OpenHand)
+- **motion**: multiple: each joint rotates (typically up to about 90 degrees per joint in printed fingers, Frontiers 2021) and a tentacle or flexure finger flexes continuously along its length
+- **degrees_of_freedom**: Fully controlling n joints with pull-only strings needs at least n+1 tendons (arXiv 2507.17163), or 2n with one opposing pair per joint. *(unverified parts omitted)*
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): a straight pull (often from a motor turning a pulley) becomes bending of a chain of joints
+  - self-aligning or self-centring: an underactuated finger, or several fingers sharing one pull through a whippletree or floating pulley, wraps round and conforms to an odd-shaped object without sensors (Yale OpenHand; e-NABLE Phoenix)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it passes a pull on into bending
+  - powered hold: the grip lasts only while the actuator or the user keeps the tendon tight
+  - spring force (a spring or springy part presses it in place): elastic cords, rubber bands or flexures return the segments to their rest position (Frontiers 2021)
+- **input_output**: Straight pull (tendon travel and tension) -> bending of one or more joints. Torque at a joint = tendon tension x moment arm (OpenHand used 9 mm moment arms). A larger moment arm gives more torque per newton but needs more tendon travel for the same angle. Example: a Raptor Reloaded finger flexed 45 degrees with 5.7 mm of pull at 8.9 N and 90 degrees with 15 mm at 22.2 N (Frontiers 2021). Tendon force from a motor = motor torque / pulley radius: a 7.3 N m servo with a 10 mm pulley gives a theoretical 365 N per finger in the four-finger OpenHand. Efficiency falls with every bend the tendon rubs round: by the capstan equation the tension needed rises exponentially with the total bend angle, while free-turning pulleys add almost no friction (Hackaday, Vasquez 2021). Arrangement: the tendon runs alongside the segments and can be led round corners through sleeves or over pulleys. Back-drivable: yes if the puller is back-drivable (the finger springs back when released); with a non-back-drivable actuator the locked tendon lets the fingers resist much larger forces than they can actively exert (OpenHand).
+- **power**: passive or powered: body-powered versions are pulled by the user's wrist (e-NABLE hands) or by hand through a lever or joystick (Thingiverse 'Cable Mechanism Joystick'); robot versions use a servo, winch or other motor turning a pulley (InMoov; Yale OpenHand) or an artificial muscle. *(unverified parts omitted)*
+- **removability**: removable: tendons are knotted (often with a drop of glue) or clamped and can be cut and re-tied, and segments are held by pins or screws (InMoov; e-NABLE)
+- **reuse_cycles**: many times: tendons and elastic cords are cheap wear parts that can be re-tied or replaced; the printed segments themselves eventually fatigue, e.g. a PLA finger loaded to 10 N was predicted to last about 300,000 cycles (about 16 years at 50 grips a day), an ABS one about 70,000 (Frontiers 2021)
+- **tools_needed**: Scissors or side cutters, a lighter or glue for line ends, cyanoacrylate glue for the knots (InMoov), small screwdriver or hex key for servo pulleys, tensioner screws and pins, pliers, a drill to clear tendon holes, and for wire-rope tentacles a wire-rope cutter, crimping or swaging tool and ferrules (Thingiverse 'Animatronic Tentacle MK III'); e-NABLE hands also use a heat gun to thermoform the gauntlet (e-NABLE Phoenix).
+- **seal**: none: open strings and holes; nothing seals
+- **load**: Light to medium: printed prosthetic fingers are designed for about 22 N of grasping force (Frontiers 2021) and the Yale OpenHand measured 10 N grip with a servo able to put a theoretical 365 N into each tendon. Tendons themselves are strong (the braided line in Frontiers 2021 was rated 440 N, far above the 28 N tested), so the limits are the printed segments, pins and tendon holes. Strong only in the direction the tendon pulls; the opening side is only as strong as the elastic return; weak sideways and in twist, especially flexure fingers, which have the lowest twisting stiffness (OpenHand).
+- **adjustable**: yes: tendon tension and the finger's resting position are set by re-tying knots, turning tensioner screws or pins, or moving the servo pulley's zero position (InMoov; e-NABLE Phoenix); the closing sequence is set by the stiffness ratio of the joints (flexure thickness) and the moment arms (OpenHand); a sprung tensioner can absorb small changes in path length (InMoov)
+- **play_and_precision**: Noticeable: tendons stretch, which costs strength and smoothness (Wikipedia 'Tendon-driven robot'), ordinary nylon line stretches too much (InMoov), slack and friction in the holes cause dead band and hysteresis, and moving other joints changes the tendon path length (turning the InMoov wrist tightens or slackens the finger tendons; in multi-segment tentacles the tendons of the far segments pass through the near ones, coupling their motion, arXiv 2507.17163). It is very tolerant of misalignment and knocks because it is compliant, but accurate positioning needs sensors or careful calibration.
+- **access_needed**: not applicable: it is built into the mechanism; when assembling you need to thread each tendon through every segment from the tip to the puller
+- **materials**: Segments: PLA, ABS or PETG prints, with flexible joints in TPU or Filaflex, or flexures cast in urethane inside the print (Frontiers 2021 Table 2; Yale OpenHand). Tendons: braided UHMWPE fishing line such as Dyneema or Spectra (brands), typically 100-200 pound test (OpenHand; InMoov), not plain nylon monofilament, which stretches (InMoov); thin wire rope (1/16 inch) for bigger tentacles (Thingiverse MK III); nylon cables printed in place inside PLA parts (Hackaday, Xstrings). Returns: 3 mm elastic shock cord, orthodontic or other rubber bands, or flexible joints (Frontiers 2021). Guides: steel pins, small tubes, brake-cable housing, or a speedometer cable as a tentacle backbone (OpenHand; InMoov; Thingiverse MK III).
+- **maker_difficulty**: easy to moderate: printing the segments and threading fishing line is easy, but getting the tension right (e-NABLE call improper tensioning 'the most common mistake'), keeping friction low and stopping tendons cutting through the plastic takes care
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): fingers, hands, tentacle vertebrae and pulley blocks (e-NABLE, InMoov, Yale OpenHand)
+  - off-the-shelf part: braided fishing line, elastic cord, steel pins, servos, wire rope, ferrules and cable housing *(unverified parts omitted)*
+- **print_in_place**: partly: hinged fingers can be printed already assembled, but the tendon is normally threaded in afterwards; research has shown fully printed-in-place nylon cables inside PLA mechanisms, which needed special settings to stop the cable sticking or delaminating (Hackaday 2025, Xstrings)
+- **making_tips_3d_printing**: 1) Keep the tendon path smooth and low-friction: the force needed rises exponentially with the total angle the tendon wraps round fixed surfaces, so remove unnecessary bends and use free-turning pulleys at sharp turns (Hackaday, Vasquez 2021; Yale OpenHand). 2) Stop the tendon sawing through the plastic: braided line under load 'can wear and cut through the rapid-prototype material', so OpenHand press-fitted 3.18 mm steel guide pins at the rubbing points, InMoov slides the line through a small piece of tube, and Frontiers 2021 names tearing from friction between cable and plastic as the likely tendon failure. 3) Make tendon holes and tunnels generous and rounded: e-NABLE's Phoenix Reborn widened all cable tunnels and runs the elastic cord in tunnels from fingertip into the palm. 4) Use braided UHMWPE line, not nylon monofilament, and secure the tip with several knots plus a drop of cyanoacrylate glue (InMoov); UHMWPE is slippery and holds knots poorly (Wikipedia 'UHMWPE'). 5) Design in a tensioner (a screw, a tensioning pin or a sprung slider) because tension is the hardest thing to get right (e-NABLE; InMoov). 6) Prefer elastic cord to rubber bands where it gets hot: e-NABLE replaced all rubber bands for hands used in the tropics (Phoenix Reborn). 7) Choose joint types deliberately: flexures adapt to awkward contacts and survive knocks but twist easily; pin joints are stiffer and more repeatable; OpenHand suggests a pin joint at the base and a flexure at the tip, and sets the closing order with flexure thickness (stiffness ratio 2.5 in its prototype). 8) Make pins a snug fit: Phoenix Reborn resized pins for this. 9) Do not twist or tangle tendons where they run together through the wrist or base (InMoov). 10) Print segments so the tendon load and pin load do not pull layers apart; OpenHand oriented parts to be stiffest in the loading direction.
+- **off_the_shelf_parts**: Braided UHMWPE fishing line (e.g. Dyneema, Spectra (brands)) of 100-200 pound test (OpenHand; InMoov); elastic shock cord about 3 mm (Frontiers 2021), orthodontic elastics or loom bands (Printables 5611 e-Nable remake); steel dowel pins (3.18 mm in OpenHand); M3 screws; small PTFE or plastic tube for guides; extension springs for tensioners (InMoov uses 0.5 mm wire, 1 cm long); hobby servos with printed pulleys (InMoov) or smart servos such as Dynamixel MX-64 (brand) (OpenHand); 1/16 inch wire rope, barrel ferrules, wire-rope clamps, 5 mm brake-cable housing and speedometer cable for tentacles (Thingiverse MK III and joystick); assembly kits for e-NABLE hands (sold by 3D Universe (brand), e-NABLE Phoenix page).
+- **rules_of_thumb**: 
+  - Capstan equation: the tension the puller must supply is the tension at the far end times e^(mu x theta), where theta is the total bend angle (in radians) of every fixed surface the tendon rubs round, added together even if the bends go opposite ways; with mu = 0.3, two full wraps give 6.6 times the friction of one (Hackaday, Vasquez 2021; Wikipedia 'Capstan equation'). The same exponential friction applies joint by joint in tendon-driven robots (arXiv 2507.17163).
+  - Joint torque = tendon tension x moment arm (distance from the tendon hole to the joint centre); OpenHand fingers used 9 mm moment arms and gave 10 N of grip (Ma et al., ICRA 2013).
+  - Tendon force from a motor = motor torque / pulley radius: a 7.3 N m servo on a 10 mm diameter pulley can theoretically put 365 N into each of four finger tendons (Ma et al., ICRA 2013).
+  - A typical printed finger (Raptor Reloaded) needs about 15 mm of tendon travel and 22.2 N to close fully to 90 degrees (Frontiers 2021).
+  - Pull-only tendons: at least n+1 tendons are needed to control n joints independently (arXiv 2507.17163); a single tendon plus a spring return controls one motion, and underactuated fingers accept that the joints share one tendon.
+  - e-NABLE wrist-driven hands: tension the non-flexible cords so the palm sits about 30-45 degrees to the gauntlet at rest (e-NABLE Phoenix page).
+  - Sprung tensioners must be at rest (not stretched) when you set the tendon tension, otherwise they do nothing (InMoov).
+  - Printed finger life at 10 N: about 300,000 cycles in PLA and 70,000 in ABS by fatigue analysis; ABS failed at 15 N and above (Frontiers 2021).
+  - UHMWPE line creeps under constant load and should not be used above about 90 C for long periods (Wikipedia 'UHMWPE').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Your own fingers: muscles in the forearm pull long tendons that run through small pulleys to bend the finger joints (Printables 'finger model with both tendons and pulley systems' shows them)
+  - 3D-printed e-NABLE prosthetic hands, which close their fingers through fishing-line tendons when the wearer bends the wrist (e-NABLE)
+  - The popular printed 'robotic hand' fidget toy, whose fingers curl when you pull rings on their strings (Printables 1534503)
+  - Animatronic tentacles and creature effects in films and props, worked by cables from servos or a joystick (Thingiverse 'Animatronic Tentacle MK III')
+- **when_to_use**: Use it when you want the moving part light and slim and the motor somewhere else: robot and prosthetic hands, grippers that wrap round odd shapes, animatronic tentacles, tails and puppets, snake-like arms that reach into tight spaces, and wearable devices (Wikipedia 'Continuum robot'; Yale OpenHand; Frontiers 2021). One motor can close a whole hand through underactuation, it is cheap (fishing line and printed parts), naturally compliant and gentle when it bumps into things, and it can be powered by a person's own wrist with no electronics (e-NABLE).
+- **when_not_to_use**: Avoid it when you need stiff, precise, repeatable positions, high forces in both directions, or very long service life: tendons stretch and creep, friction and slack cause hysteresis, and moving one joint can disturb another (Wikipedia 'Tendon-driven robot'; InMoov; arXiv 2507.17163). For a precise joint use a servo or gearmotor at the joint, or a linkage; for a stiff bendable arm that holds a pose without power use a posable segmented arm; for gentle gripping without strings use a fin-ray finger or a soft pneumatic actuator; to carry a pull round many bends use a Bowden cable (sleeve) rather than bare holes.
+- **environment_limits**: Heat: rubber bands perish in hot climates, which is why e-NABLE replaced them with elastic cord for the tropics (Phoenix Reborn); UHMWPE line should not be used above about 90 C for long (Wikipedia); PLA segments soften above about 60 C (Prusa), e.g. in a hot car. Creep: UHMWPE tendons slowly stretch under constant load (Wikipedia 'UHMWPE') and printed parts creep, so re-tension from time to time. *(unverified parts omitted)*
+- **safety_notes**: Finger joints and the gap between fingers and palm are pinch points, and a servo-driven hand can squeeze hard; hobby servos pulling against friction-heavy tendons all day can overheat and burn out (InMoov forum note). A snapping tendon lets the finger spring open suddenly. e-NABLE devices are given 'as is' and its page warns they are not for commercial use; the Raptor Reloaded design is now recommended only for testing or research because its grip is weaker than later designs (Thingiverse 596966). Wire-rope ends are sharp, and annealing them with a torch (Thingiverse MK III) is a burn and fire risk.
+- **common_failures**: 1) Wrong tension, so the fingers do not close fully or stay half-closed: e-NABLE call this the most common assembly mistake; add a tensioner and follow the 30-45 degree palm rule. 2) Tendon frays or cuts through the plastic at sharp edges: round the holes, add steel pins or tube liners (OpenHand; InMoov; Frontiers 2021). 3) Knots slip in slippery braided line: use several knots plus a drop of glue (InMoov; Wikipedia 'UHMWPE'). 4) Too much friction from tight bends, so the motor stalls or the finger moves jerkily: reduce total wrap angle and use pulleys (Hackaday, Vasquez 2021). 5) Turning the wrist or bending an earlier segment tightens or slackens the tendons and disturbs the fingers: route tendons near the wrist axis or add sprung tensioners (InMoov; arXiv 2507.17163). 6) Fingers will not open fully because the elastic return is too weak, perished or rubbing, or a cover rubs the palm (InMoov forum; e-NABLE). 7) Twisted or tangled tendons where they bundle together jam the mechanism (InMoov). 8) Printed segments or pins crack from repeated load (Frontiers 2021 fatigue estimates).
+- **related**: 
+  - Bowden cable: only the sleeve that carries a pull round bends; a tendon-driven joint is the jointed part at the end that the pull actually bends, and it often uses a Bowden sleeve to reach it
+  - Capstan cable drive: wraps a cable round drums to drive a single rotating joint with no backlash, rather than threading a tendon past a chain of joints
+  - Posable segmented arm (snap-together ball chain, gooseneck): looks similar but is bent by hand and holds by friction; its cable-locked version uses a central cable only to lock the joints, not to move them
+  - Whippletree (load-equalising lever) and floating-pulley differential: share one pull between several fingers so each closes until it touches (e-NABLE; Yale OpenHand)
+  - Twisted-string actuator and twisted-and-coiled polymer muscle: compact ways to make the pull on a tendon, from a motor or from heat
+  - Elastic band and elastic cord springs: the usual return spring that reopens tendon-driven fingers
+  - Linkage-driven finger (four-bar linkage): rigid bars instead of a string; stiffer and more precise, but bulkier and less adaptable
+  - Fin-ray gripper and soft pneumatic bending actuator: bend to wrap round objects without any tendon, passively or by air pressure
+  - Rolling-contact joint: a hinge made of two rolling surfaces held by straps, often combined with tendons in robot fingers
+
+### Pictures, videos and models
+
+- **links**: 
+  - [E-NABLE Raptor Reloaded prosthetic hand and arm, Design Museum London (Wikimedia Commons; Daderot)](https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg): Photo of a 3D-printed tendon-driven prosthetic hand whose fingers are closed by strings when the wrist bends *(licence: CC0)*
+  - [Suitability of the Openly Accessible 3D Printed Prosthetic Hands for War-Wounded Children (Cabibihan et al., Frontiers in Robotics and AI, 2021)](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2020.594196/full): Diagrams of the cable and elastic-cord routing in a printed finger, a table of open-source printed hands and their tendon and return materials, grasp photos and stress plots *(licence: CC BY (article licence))*
+  - [Capstan equation diagram.svg (Wikimedia Commons; Krishnavedala)](https://commons.wikimedia.org/wiki/File:Capstan_equation_diagram.svg): Diagram of a line wrapped round a fixed cylinder, showing why tension builds up with every bend a tendon rubs round *(licence: CC0)*
+  - [Xstrings: 3D Printing Cable-Driven Mechanism for Actuation, Deformation, and Manipulation (ACM SIGCHI, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=xk_EUOnGtAg): Video of fully printed cable-driven mechanisms, including a gripping tentacle, a bird's claw and a walking lizard robot *(licence: link only)*
+  - [Mechanical Tentacle test (FlightlessHuman, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=EVMatHNgC6s): Video of a cable-pulled mechanical tentacle bending (linked from Make: magazine's 'Printable Tentacle Parts') *(licence: link only)*
+- **make_it_yourself**: 
+  - [Unlimbited Phoenix Hand by Team_UnLimbited (Thingiverse)](https://www.thingiverse.com/thing:1674320): Customizer-scaled version of the wrist-driven e-NABLE Phoenix hand, with a thermoformed gauntlet; its printed fingers are closed by non-stretch cords when the wearer bends the wrist (e-NABLE Phoenix page) *(licence: CC BY-NC 4.0)*
+  - [Animatronic Tentacle MK III by Dinoman217 (Thingiverse)](https://www.thingiverse.com/thing:2899978): Printed tentacle vertebrae on a speedometer-cable backbone, pulled by 1/16 inch wire rope through brake-cable housing, in two stages *(licence: CC BY-SA 4.0)*
+  - [Cable Mechanism Joystick by Dinoman217 (Thingiverse)](https://www.thingiverse.com/thing:2901550): A printed joystick with clothesline pulleys for puppeteering cable-driven tentacles by hand *(licence: CC BY 4.0)*
+  - [Yale OpenHand Project](https://www.eng.yale.edu/grablab/openhand/): Open-source CAD for tendon-driven, underactuated robot hands with flexure joints cast into 3D-printed fingers and a pulley or whippletree differential *(licence: CC BY-NC 3.0)*
+  - [Robotic Hand with independently moving fingers by BenjaminCucumberpatch (URL from Printables API, page not opened)](https://www.printables.com/model/1534503-robotic-hand-with-independently-moving-fingers): Remix of the popular printed robotic hand toy whose fingers curl when their strings are pulled by rings *(licence: CC BY-NC)*
+  - [Parametric Ball-Joints for Continuum Robots (Onshape Toolbox) by Alex_Repairs (URL from Printables API, page not opened)](https://www.printables.com/model/1333309-parametric-ball-joints-for-continuum-robots-onshap): Ready-to-print snap-fit ball joints for continuum (snake or tentacle) robots plus an Onshape toolbox to resize them; the author notes they can be adapted for tendon driving *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Side view of a three-segment finger with a red tendon running along the palm side through small holes a few millimetres below each hinge and tied at the fingertip, and a green elastic cord along the back; one panel shows the finger straight, the second shows a hand pulling the red tendon a short distance so all three joints curl, with the moment arm marked at one joint.
+- **sources**: 
+  - https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2020.594196/full
+  - https://hackaday.com/2025/05/03/3d-printed-cable-driven-mechanisms-some-strings-attached/
+  - https://hackaday.com/2021/01/26/cable-mechanism-maths-designing-against-the-capstan-equation/
+  - https://en.wikipedia.org/wiki/Continuum_robot
+  - https://en.wikipedia.org/wiki/Tendon-driven_robot
+  - https://en.wikipedia.org/wiki/Capstan_equation
+  - https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene
+  - https://enablingthefuture.org/phoenix-hand/
+  - https://inmoov.fr/hand-and-forarm/
+  - https://inmoov.fr/lining-and-tighting-the-tendons/
+  - https://www.eng.yale.edu/grablab/openhand/
+  - https://www.eng.yale.edu/grablab/pubs/ma_icra2013.pdf
+  - https://arxiv.org/pdf/2507.17163
+  - https://www.thingiverse.com/thing:1674320
+  - https://www.thingiverse.com/thing:596966
+  - https://www.thingiverse.com/thing:2899978
+  - https://www.thingiverse.com/thing:2901550
+  - https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg
+  - https://commons.wikimedia.org/wiki/File:Capstan_equation_diagram.svg
+  - https://api.crossref.org/works/10.1145/3706598.3714282
+  - https://api.printables.com/graphql/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://www.youtube.com/watch?v=xk_EUOnGtAg
+  - https://www.youtube.com/watch?v=EVMatHNgC6s
+
+### Other info
+
+- **Fields with unverified parts:** degrees_of_freedom, environment_limits, power, processes
+
+## 279 Walking linkage (Jansen and Klann leg mechanisms)
+
+*motion conversion.* A linkage of bars driven by one turning crank whose foot traces a flat stride and then lifts, so a machine walks instead of rolling (as in Theo Jansen's wind-walking sculptures)
+
+### What it is
+
+- **plain_name**: A leg made of bars and pins that a single turning handle or motor drives, so that the foot pushes along the ground in a flat, steady stroke, lifts up, swings forward and comes down again: the machine walks instead of rolling
+- **term**: Walking linkage (leg mechanism), especially Jansen's linkage (the Strandbeest leg) and the Klann linkage
+- **aliases**: 
+  - leg mechanism
+  - walking mechanism
+  - Jansen's linkage / Jansen linkage / Jansen mechanism / Theo Jansen mechanism
+  - Strandbeest leg or Strandbeest linkage ('strandbeest' is Dutch for 'beach beast'; plural strandbeesten)
+  - 'holy numbers' (Jansen's own name for his set of bar lengths)
+  - Klann linkage / Klann mechanism
+  - Mechanical Spider linkage (Klann's own walker name) and 'walking device' (the title of Klann's US patent 6,260,862)
+  - crank-driven leg / single-degree-of-freedom (1-DoF) walking linkage
+  - planar leg mechanism (all its bars move in one flat plane)
+  - Koppelgetriebe (German for linkage; the German Wikipedia uses it for the Strandbeest legs)
+  - 詹森步行机构 (Chinese, 'Jansen walking mechanism') and 克兰步行机构 (Chinese, 'Klann walking mechanism')
+  - Mini Strandbeest / Mini Beest (Gakken, brand: a plastic desk kit of the Jansen leg)
+- **family**: motion conversion
+- **one_liner**: A planar linkage of bars and pin joints, driven by one continuously turning crank, that moves a foot around a closed loop with a long, nearly flat ground stroke and a lifted return, so that several legs on a shared crankshaft make a machine walk.
+- **complexity**: A small assembly that acts as one unit. One Jansen leg has a crank plus six more moving bars, joined by ten pin joints to each other and to a fixed frame (Wang 2026 counts seven moving bodies and ten revolute joints; Wikipedia counts eight links per leg including the frame); the lower bars form rigid triangles, one of which carries the foot. A Klann leg has six links: the frame, a crank, two rockers pivoted on the frame (upper and lower) and two coupling bars, one of which is the bent leg with the foot (Wikipedia). A walker adds a frame, a shared crankshaft with the cranks set at different angles, 4 to 12 or more legs, and a drive: a hand crank, a geared motor, or (Jansen) a wind turbine or sails.
+- **how_it_works**: The crank turns in a full circle, and the bars around it can only move in one way for each crank angle, so the whole leg has a single degree of freedom (Wikipedia 'Jansen's linkage'). The bar lengths are chosen so that for about half a turn of the crank the foot moves backwards along an almost straight, level line, pushing the body forward, and for the rest of the turn it lifts, swings forward and comes back down (Klann's patent: the foot stays on the ground in a substantially straight line for about half of each crank revolution). Several legs on the same crankshaft, set out of step with each other, take turns carrying the body, so it moves along level instead of bobbing up and down. Jansen found his proportions by evolving them with a computer; Klann built his from the curves traced by four-bar linkages (Burmester curves).
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: turns the continuous rotation of one crank (from a motor, a hand crank or the wind) into a walking step
+  - let it move (turn, slide or bend): carries a vehicle, robot or sculpture over sand, rough ground, kerbs or small obstacles where wheels would sink or get stuck
+- **motion**: multiple: the crank rotates continuously (360 degrees); the other bars rock back and forth through limited angles; the foot travels round a closed loop (a long flat bottom stroke along the ground and a raised return), so it moves both horizontally and vertically.
+- **degrees_of_freedom**: 1: one crank angle fixes the position of every bar and of the foot, so one motor or one hand crank drives each leg, or all the legs on a shared crankshaft (Wikipedia 'Jansen's linkage'; Wang 2026 checks it with Gruebler's count: 3 x 7 - 2 x 10 = 1)
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): the crank's rotation becomes an almost straight, level foot stroke on the ground followed by a lifting return, in other words a walking step
+  - none of the other listed behaviours: it does not lock, slip, click or hold; it only passes motion on
+- **holding_principle**: not a holding joint (it moves or passes on motion): it is a mechanism that converts motion, shape (the parts interlock; form-fit): every joint is a pin or shaft turning in a hole or bushing
+- **input_output**: Continuous rotation -> walking motion: each turn of the crank moves each foot through one stride. Klann's patent leg steps about 0.54 of its stride length high (step height 0.5424 x stride) and keeps the foot on the ground in a nearly straight line for about half the crank turn; his walking-chair version has a 12 in (about 305 mm) stride, a 7.5 in (about 190 mm) step height and stays within +/-0.33 in of a straight line (US 6,260,862). Jansen's leg gives a long, nearly flat ground stroke and a high return arc (Wang 2026). The foot's horizontal speed is not constant: in both the Klann and Strandbeest linkages it slows towards each end of the ground stroke, which gives a slightly halting gait on grippy ground (DIYwalkers). Motors usually need gearing down: DIYwalkers' LEGO walkers use reductions such as 5:1, and only their Strider linkage could walk at 1:1 without the motors stalling. Shaft arrangement: all pivots and the crank axle are parallel (a planar mechanism). *(unverified parts omitted)*
+- **power**: passive (no power needed): the linkage itself has no power source, but something must turn the crank: a geared electric motor, a hand crank, or the wind (Jansen's Strandbeests are moved by the wind, and some store air pressure to keep walking when there is no wind; Wikipedia). If the drive stops, the walker simply stops where it is.
+- **removability**: removable: the bars are joined by pins, screws, shafts with snap clips or LEGO Technic pins (brand) and can be taken apart; snap-together printed and kit versions come apart by hand, while Jansen's large sculptures are tied with cable ties
+- **reuse_cycles**: many times: a pinned walker can be dismantled and rebuilt repeatedly; the practical limit is wear of the pivot holes and pins (DIYwalkers found LEGO leg pins wear out after a dozen or so hours of walking)
+- **tools_needed**: None for snap-together kits and the print-in-place Easy Strandbeest (apart from a razor blade to free stuck printed joints and a drop of light oil); a needle file to remove burrs from printed holes and shafts (nablu.com); a screwdriver or hex key and pliers for screwed or pinned joints; glue for a few parts of some printed kits (e.g. gears onto shafts in Wright4TheJob's desk model); a soldering iron and basic electronics tools if motorised
+- **seal**: none: it is an open mechanism of bars and pins and seals nothing
+- **load**: Light to heavy depending on scale. Desk models carry only themselves; Klann-type walkers have been built big enough to ride: the Mondo Spider carries one person at up to about 1.2 m/s (Wikipedia), DIYwalkers mention the 14,000 lb (about 6.4 t) Klann-based Walking Beast, and four 6 lb TrotBot legs carried a 450 lb machine (DIYwalkers). The legs are strong in their own plane but weak against sideways forces and twisting, which can 'snap the legs like twigs', especially when the walker turns on the spot (DIYwalkers). Pin forces are much higher than the foot load: in Wang's model of a Jansen leg pressed down with 20 N, the most loaded frame pivot carries about 48 N.
+- **adjustable**: Usually no: the bar lengths fix the foot path. The step height and stride can be changed only by changing pivot positions or bar lengths (Klann's patent; DIYwalkers move the Klann leg's lower rockers towards the centre for a higher step), so prototypes are often built from LEGO Technic beams (brand) or bars with several holes, and checked in a simulator first. Speed and direction are adjusted by the drive: running the left and right leg sets from separate motors lets the walker steer (Hackaday printed Strandbeest; Wikipedia 'Leg mechanism').
+- **play_and_precision**: Repeatability: the foot follows the same loop every turn, but not a perfect line; Klann's walking chair is designed to stay within +/-0.33 in over a 12 in stride. Wang (2026) found in a tolerance study that some bar lengths strongly affect ground clearance and need tight manufacturing tolerances. Misalignment: pivots must be parallel and the bars must lie in separate, neighbouring planes or they rub and bind; DIYwalkers advise that each leg part should connect to parts in an adjacent plane, and nablu.com warns that built-in spacer washers with burrs stack up and squeeze the bars together. *(unverified parts omitted)*
+- **access_needed**: not applicable: it is a mechanism in an open frame, reached from the side
+- **materials**: Jansen builds his Strandbeests from yellow PVC tubing, cable ties (zip ties), wood, nylon thread, adhesive tape and fabric sails (Wikipedia, English and German). Desk kits (Gakken Mini Strandbeest, brand) are injection-moulded plastic with a metal shaft and a rubber band (Maker Project Lab). Printed walkers use PLA or PETG; PETG is better for snap-fit shafts because PLA is brittle and its layers split (nablu.com). LEGO Technic beams (brand) are used for quick prototypes, with 3/16 in metal rods as axles (DIYwalkers). Large walkers use steel legs (Mondo Spider) or laser-cut, anodised aluminium (an underwater Klann walking robot pictured in Wikipedia's 'Klann linkage' article), with bushings or bearings at every joint (Klann's patent).
+- **maker_difficulty**: moderate: a desk-sized walker prints or laser-cuts easily and the proportions are published, but it has many joints that all need low friction, legs must be stacked in the right order and phase on the crankshaft, and large walkers become a real structural-engineering job
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): the most common maker route; bars, triangles, frames and crankshafts print flat (examples: LoboCNC's Easy Strandbeest, Anachronist's parametric OpenSCAD Strandbeest, Maker 101's motorised Strandbeest on Hackaday)
+  - laser cut: flat bars in acrylic, plywood or aluminium suit the planar legs; Wikipedia's 'Klann linkage' article pictures an underwater walking robot with laser-cut, anodised aluminium Klann legs
+  - sheet metal: steel or aluminium bars for large or ride-on walkers such as the Mondo Spider's eight steel legs (Wikipedia)
+  - off-the-shelf part: LEGO Technic beams and pins (brand) for prototypes (DIYwalkers) and ready-made kits such as the Gakken Mini Strandbeest (brand) *(unverified parts omitted)*
+- **print_in_place**: partly: LoboCNC's Easy Strandbeest prints each leg unit pre-assembled with working pivots (they must be cracked free and worked loose after printing), and its crankshaft prints as one piece, but the legs, side rods, end pieces and crankshaft are then clipped together; most other printed walkers are printed as separate bars and pinned or snapped together
+- **making_tips_3d_printing**: 1) Get the geometry right first: try the proportions in a simulator (the DIYwalkers Klann and Strandbeest optimisers, HUANGYAN920's animations) or build a LEGO version, then print (DIYwalkers warn that a good simulation still needs tinkering). 2) Orientation: print shafts and pins standing up so they come out round; nablu.com notes that a snap clip printed vertically is 'the absolute worst orientation' because snapping it in pulls the layers apart, so print snap-fit shafts in PETG (sticky, not brittle) or a PLA with good layer adhesion; shiny silk PLA broke the clips. Snap-fit parts should be printed horizontally whenever possible. 3) Clean up: file burrs out of hub holes and ridges off shafts, and make sure built-in spacer washers are flat, because the tolerances stack up along a crankshaft carrying many bars (nablu.com). Print a few sample parts first to check bearing fit and clip strength. 4) Print-in-place legs: LoboCNC recommends PLA for stiffness, slows the small-perimeter speed so thin vertical shafts bond well, needs supports only under the crankshaft's overhanging shafts, and frees each joint by gently cracking it, working it back and forth, running a razor blade into tight gaps and adding a drop of light oil; with 8 legs driven by a fan, 'you can tolerate very little friction'. 5) Cheap pins: Wright4TheJob's desk model holds its joints with lengths of PLA filament ('PLA spikes') and snap fits. 6) Assembly order and phase: connecting arms must go onto each crank section in a set order, and opposite legs must be half a turn apart (diywalkers: crank of 3 units needs a centre crank of 6 to put the outer legs 180 degrees out of phase; Maker Project Lab: each successive arm stacks closest to you). 7) Keep each bar in its own layer (plane) next to the parts it joins, so bars do not collide or bind (DIYwalkers). 8) Gear the motor down and use one motor per side if you want to steer (Hackaday printed Strandbeest uses two DC gear motors). 9) PLA softens above about 60 °C and degrades in UV light (Prusa), so use PETG (fine below about 80 °C and outdoors, Prusa) for a walker left in the sun.
+- **off_the_shelf_parts**: Gakken Mini Strandbeest kit (brand) for a ready-made Jansen walker; *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Jansen's proportions (the 'holy numbers', lengths in the same units, crank = m): a = 38.0, b = 41.5, c = 39.3, d = 40.1, e = 55.8, f = 39.4, g = 36.7, h = 65.7, i = 49.0, j = 50.0, k = 61.9, l = 7.8, m = 15.0. Here m is the crank radius and a and l are the horizontal and vertical distances from the crank axle to the fixed frame pivot (Wikimedia Commons 'Strandbeest Leg Proportions.svg'; Wang 2026, Table 1). Scale them all together to change the size; changing them separately changes the gait.
+  - Klann's patent leg (US 6,260,862): for a stride of 1 unit the crank is 0.267949 units (so the stride is about 3.7 crank lengths), the step height is 0.5424 units, and the leg is about 2 units long with a 150 degree bend at the knee; the foot can clear obstacles about 54% of the stride length high. DIYwalkers redraw the same leg scaled to crank = 3 and describe the knee bend as 30 degrees.
+  - Klann's walking-chair version: 12 in stride, 7.5 in step height, foot within +/-0.33 in of a straight line, front and rear leg sets 60 in apart for stability (US 6,260,862).
+  - Each foot should be on the ground for at least half of the crank turn in a two- or four-legged group, or at least a third of the turn in a three- or six-legged group, so the body is always supported (Wikipedia 'Leg mechanism', design goals). Klann's foot is on the ground for about half the turn (patent).
+  - Pair legs half a turn (180 degrees) apart on the crankshaft; 12-legged walkers need cranks 120 degrees apart; the crank must be keyed (square or hex shaft, or keyed axle) so the legs stay in phase (DIYwalkers).
+  - Foot-path shape: for rough ground, prefer a high, oval foot path; triangular paths are high only in the middle and catch obstacles at the ends, and teardrop paths can leave the walker unable to reverse out; adding a claw-like 'heel' helps a Klann leg clear obstacles (DIYwalkers).
+  - Small walkers can manage with three feet on the ground; large walkers should keep four feet down at all times, like a four-wheeled car (DIYwalkers).
+  - Scale: weight grows with size cubed but strength only with size squared, and forces from swinging feet grow with size to the fourth power, so the bigger the walker, the smoother its gait and the more trussed (triangulated) its legs and frame must be (DIYwalkers).
+  - The pins carry more than the foot load: in Wang's (2026) Jansen model a 20 N foot load gives up to about 48 N at the most loaded frame pivot and peak crank torque of 0.24 N m at 1 rev/s; the crank bearings turn a full circle every step and wear regardless of bar lengths, so give the crank and the frame pivot the best bearings.
+  - LEGO prototypes: a bar of length n needs a beam with n + 1 holes, because the first hole counts as zero (DIYwalkers).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Theo Jansen's Strandbeests: large PVC-tube sculptures that walk along Dutch beaches in the wind (Wikipedia), also seen in a 2007 BMW TV advert (German Wikipedia) and a 2016 episode of The Simpsons (Wikipedia)
+  - The Gakken Mini Strandbeest desk kit (brand), which walks across a table when you blow on its little wind turbine or point a desk fan at it (Maker Project Lab)
+  - The Mondo Spider, a ride-on eight-legged walking machine using Klann linkages, shown at Burning Man (Wikipedia)
+  - Printed and LEGO walking robots and toys built from Strandbeest or Klann legs (DIYwalkers; Printables)
+- **when_to_use**: Use a walking linkage when you want a machine to walk using only one motor (or one motor per side for steering), with no computer control of individual joints: for kinetic sculptures, toys and desk demonstrations; for small robots that must cross sand, gravel, carpet edges, kerbs or debris where small wheels sink or catch (Klann's patent claims kerbs, steps, mud, snow and sand); and when you want lifelike movement (Jansen's linkage looks especially organic). Jansen's linkage gives the flatter, smoother ground stroke; Klann's uses fewer bars per leg (six against eight) and steps higher, so it is easier to build and better at clearing obstacles (Wikipedia; Hackaday commenter).
+- **when_not_to_use**: Avoid it on smooth, flat ground where speed and efficiency matter: wheels or tracks are simpler, faster and waste less energy. Avoid it when you need to change stride length or step height while moving, walk sideways, or place feet precisely: use legs with two or three servo motors each, or hydraulic legs (Wikipedia 'Leg mechanism' notes stride control is not practicable with a crank-based leg). Avoid it for heavy machines unless you can engineer trussed legs and frames (DIYwalkers). If you just need a point to move in a straight line, use a straight-line linkage or slide instead; if you just want a rough-terrain wheel, consider whegs (spoked wheel-legs).
+- **environment_limits**: Printed PLA softens above about 60 °C and degrades in UV light, so a PLA walker left in a hot car or the sun can warp; PETG is fine for most outdoor use below about 80 °C (Prusa). Jansen designs his beests to survive sand, storms and water and some anchor themselves when a storm comes (Wikipedia). Joint wear limits the life of any walker (Wang 2026), and plastic pins wear out (DIYwalkers: LEGO leg pins after a dozen or so hours). Long legs bend sideways under turning loads, worse with heavy payloads (DIYwalkers). *(unverified parts omitted)*
+- **safety_notes**: A jammed linkage driven by a strong motor can strip gears (DIYwalkers), so use a motor no stronger than needed or add a slipping clutch. Large walkers are heavy machines: DIYwalkers wear bike helmets when testing their rideable TrotBot, and ride-on walkers like the Mondo Spider need engineering checks before anyone rides. Wind-driven models can run away in strong wind (Jansen's beests anchor themselves in storms; Wikipedia). *(unverified parts omitted)*
+- **common_failures**: 1) Feet catch on an obstacle and the linkage jams, which can grind or strip the gears (DIYwalkers): give the foot path enough height, prefer an oval path, add a heel, and protect the drive. 2) A joint 'flips' at a dead point, especially Jansen's knee (DIYwalkers): add a stop to block the wrong position, or check the design in a simulator. 3) Too much friction for the drive: with many legs every stiff joint adds up; free each joint, deburr holes and shafts, and oil lightly (LoboCNC; nablu.com). 4) Printed snap-fit shafts break along the layers when pressed in (nablu.com): use PETG, print snap features horizontally when possible, and press only on the two mating parts. 5) Arms clipped onto the crankshaft in the wrong order or phase, so legs fight each other (LoboCNC; Maker Project Lab). 6) Legs bend or snap sideways and support rods sag, especially when turning on the spot (DIYwalkers): make legs wider or trussed, and brace rods with tensioned cables or a truss. 7) Halting, skidding gait because the foot slows at the ends of its stroke (DIYwalkers): add hinged feet with curved bottoms that rock, or feet that slide. 8) Underpowered motor: gear it down (DIYwalkers). 9) Worn pins and holes add play and make the walk sloppy: use metal pins or bushings at the most loaded pivots (Klann's patent; Wang 2026).
+- **related**: 
+  - Four-bar linkage (incl. parallelogram linkage): the simplest walking legs use a four-bar coupler curve as the foot path; Klann's linkage grew out of four-bar double-rocker curves (Wikipedia)
+  - Straight-line linkages (Watt, Chebyshev, Peaucellier): give the flat part of the stride; Chebyshev's Plantigrade Machine (1878), built from his lambda linkage, was an early walking machine (Wikipedia)
+  - Slider-crank: the simplest crank-driven toy legs use inverted slider-cranks (patents listed in Wikipedia 'Leg mechanism')
+  - TrotBot and Strider linkages (DIYwalkers): later crank-driven leg linkages designed for steadier foot speed and higher, more obstacle-proof steps
+  - Whegs (wheel-legs, listed by DIYwalkers) and single rotating-crank legs (e.g. US patent 6,481,513, 'Single Actuator per Leg Robotic Hexapod', listed in Wikipedia 'Leg mechanism'): simpler rough-terrain alternatives with fewer joints
+  - Servo-driven legged robots: each joint has its own motor, so gait, stride and direction can change, at the cost of electronics and control
+  - Mechanical metamaterial mechanism: HPI printed a working Jansen walker as one block of flexible cells instead of bars and pins
+  - Gear trains and gearboxes: usually needed between the motor and the crankshaft to slow it down
+  - Cam and follower: another way to make a part follow a chosen path from a rotating shaft, used in automata
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Strandbeest-Walking-Animation.gif (Wikimedia Commons, by MichaelFrey)](https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif): Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path *(licence: CC BY-SA 4.0)*
+  - [Strandbeest Leg Proportions.svg (Wikimedia Commons, by MichaelFrey)](https://commons.wikimedia.org/wiki/File:Strandbeest_Leg_Proportions.svg): Labelled diagram of the Jansen leg with the 'holy number' bar lengths a to m *(licence: CC BY-SA 3.0)*
+  - [F4-motion.gif (Wikimedia Commons, by Joseph Klann)](https://commons.wikimedia.org/wiki/File:F4-motion.gif): Animation of a set of Klann linkage legs walking, with the pivots marked and the near legs outlined *(licence: Public domain)*
+  - [Strandbeest, TrotBot, Strider, Klann Linkages.gif (Wikimedia Commons, by WadeVagle)](https://commons.wikimedia.org/wiki/File:Strandbeest,_TrotBot,_Strider,_Klann_Linkages.gif): Side-by-side animation comparing the foot paths of the Strandbeest (Jansen), TrotBot, Strider and Klann leg linkages *(licence: CC BY-SA 4.0)*
+  - [Strandbeest walking with six legs.gif (Wikimedia Commons, by MichaelFrey)](https://commons.wikimedia.org/wiki/File:Strandbeest_walking_with_six_legs.gif): Animation of six Jansen legs on one crankshaft taking turns to carry the body *(licence: CC BY-SA 4.0)*
+- **make_it_yourself**: 
+  - [Easy Strandbeest (LoboCNC, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/853015-easy-strandbeest): Wind-driven 8-leg Jansen walker with print-in-place leg units and a one-piece printed crankshaft; detailed notes on freeing and oiling the joints and on assembly order *(licence: CC BY-SA)*
+  - [Theo Jansen Strandbeest Desktop Mechanism (Wright4TheJob, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/194176-theo-jansen-strandbeest-desktop-mechanism): Hand-cranked desk model of one pair of Jansen legs, driven through a 2:1 gear set, with joints held by PLA filament pins and snap fits *(licence: CC BY-SA)*
+  - [Crawler Mechanism (DigiKey, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1081125-crawler-mechanism): A custom, easier-to-assemble Klann-linkage crawling robot by Odd Jayy, with a link to full build instructions and Arduino code *(licence: CC BY)*
+  - [HUANGYAN920/Mechanical interactive mechanism animations](https://huangyan920.github.io/Mechanical/): Browser animations that include a Klann walking linkage (no. 228, 克兰步行机构) and a Jansen walking linkage (no. 229, 詹森步行机构); labels mostly in Chinese *(licence: MIT (code))* *(unverified parts omitted)*
+- **diagram_idea**: Side view of one Jansen leg and one Klann leg next to each other, each with the crank circle at the top, the bars drawn as coloured lines, and the foot's loop traced underneath (flat bottom stroke in green marked 'pushing on the ground', raised return in grey marked 'lifting and swinging forward'), plus a small strip showing four legs on one crankshaft taking turns.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Jansen%27s_linkage
+  - https://en.wikipedia.org/wiki/Klann_linkage
+  - https://en.wikipedia.org/wiki/Leg_mechanism
+  - https://en.wikipedia.org/wiki/Theo_Jansen
+  - https://de.wikipedia.org/wiki/Theo_Jansen
+  - https://en.wikipedia.org/wiki/Mondo_spider
+  - https://en.wikipedia.org/wiki/Chebyshev_lambda_linkage
+  - https://arxiv.org/abs/2606.22129
+  - https://arxiv.org/pdf/2606.22129
+  - https://patents.google.com/patent/US6260862B1/en
+  - https://www.diywalkers.com/walker-abcs.html
+  - https://www.diywalkers.com/klanns-linkage-plans.html
+  - https://www.diywalkers.com/klann-linkage-optimizer.html
+  - https://www.diywalkers.com/strandbeest.html
+  - https://www.diywalkers.com/strandbeest-optimizer-for-lego.html
+  - https://hackaday.com/2025/01/16/building-a-3d-printed-strandbeest/
+  - https://www.nablu.com/2020/05/building-strandbeest.html
+  - https://www.makerprojectlab.com/mini-strandbeest-kit-review/
+  - https://raw.githubusercontent.com/wrongu/strandbeest/master/README.md
+  - https://raw.githubusercontent.com/garyhodgson/strandbeest/master/README.md
+  - https://hpi.de/baudisch/projects/metamaterial-mechanisms.html
+  - https://huangyan920.github.io/Mechanical/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif
+  - https://commons.wikimedia.org/wiki/File:Strandbeest_Leg_Proportions.svg
+  - https://commons.wikimedia.org/wiki/File:Jansen%27s_Linkage.svg
+  - https://commons.wikimedia.org/wiki/File:F4-motion.gif
+  - https://commons.wikimedia.org/wiki/File:Strandbeest,_TrotBot,_Strider,_Klann_Linkages.gif
+  - https://commons.wikimedia.org/wiki/File:Strandbeest_walking_with_six_legs.gif
+  - https://api.printables.com/graphql/
+  - https://www.printables.com/model/853015-easy-strandbeest (URL from Printables API, page not opened)
+  - https://www.printables.com/model/194176-theo-jansen-strandbeest-desktop-mechanism (URL from Printables API, page not opened)
+  - https://www.printables.com/model/129102-parametric-strandbeest-in-openscad (URL from Printables API, page not opened)
+  - https://www.printables.com/model/1081125-crawler-mechanism (URL from Printables API, page not opened)
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, make_it_yourself, off_the_shelf_parts, play_and_precision, processes, safety_notes
+

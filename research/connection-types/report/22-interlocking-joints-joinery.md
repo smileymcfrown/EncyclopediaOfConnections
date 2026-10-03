@@ -2990,3 +2990,259 @@
 
 - **Fields with unverified parts:** common_failures, environment_limits, making_tips_3d_printing, safety_notes
 
+## 298 Reciprocal frame (self-supporting stick bridge)
+
+*interlocking joints & joinery.* Short sticks or beams laid so each one rests on the next in a closed ring, holding each other up with no joints or fixings, as in the stick 'Leonardo bridge'
+
+### What it is
+
+- **plain_name**: Sticks or beams laid in a ring so that each one rests on the next and holds up the one before. Together they prop each other up with no post in the middle and, in the simplest version, no glue, nails or string, like the woven popsicle-stick 'Leonardo bridge'
+- **term**: Reciprocal frame (self-supporting structure of mutually supporting beams)
+- **aliases**: 
+  - reciprocal frame, RF, reciprocal frame structure, reciprocal framework, reciprocal roof (Wikipedia 'Reciprocal frame'; STRUCTURE magazine)
+  - Mandala roof (Wikipedia 'Reciprocal frame')
+  - nexorade (term used by Baverel; STRUCTURE magazine)
+  - Hebelstabwerk (German; title of Thönnissen's book cited by STRUCTURE magazine)
+  - Leonardo bridge, da Vinci bridge, Leonardo da Vinci's self-supporting bridge, da Vinci popsicle-stick bridge (Wikipedia 'Da Vinci's self supporting bridge'; Science City)
+  - Da Vinci dome, a dome of sticks in reciprocal units (Song et al., 'Reciprocal Frame Structures Made Easy', 2013)
+  - the three-knife puzzle: three knives that hold each other up in the air, first published in 1624 (ProofWiki, citing van Etten)
+  - not to be confused with the Leonardo Bridge Project's 'da Vinci Bridge' in Ås, Norway, a laminated-timber arch based on Leonardo's Golden Horn design (Wikipedia 'Leonardo bridge')
+- **family**: interlocking joints & joinery
+- **other_families**: clamping, magnetic & friction connections, quick-release & tool-free
+- **one_liner**: A reciprocal frame is a closed ring of three or more sticks or beams in which each one rests on the next and carries the one before. Together they span a roof or a gap with no central support, held by their own weight and friction, or by simple ties.
+- **complexity**: A few parts, up to a large assembly: at least three similar straight members (sticks, poles or beams) laid in a closed ring, called an RF unit; big roofs, domes and bridges repeat the unit as a grid (Wikipedia; STRUCTURE magazine; Song et al. 2013). Optional extras: notches, ties (rope or wire), nails or bolts at the crossings, a wall or ring beam for the outer ends, and a temporary central prop while building (Wikipedia; The Year of Mud).
+- **how_it_works**: Each member is supported at its outer end (on the ground, a wall or a riverbank), and its inner end rests on the middle of the next member, while the member before rests on it in turn. So every member both supports, and is supported by, its neighbours, and none is more important than the others (STRUCTURE magazine; Wikipedia). A load anywhere is shared round the whole ring to the outer supports, mainly through bending and shear in the members (STRUCTURE). In the stick 'Leonardo bridge' the sticks are woven over and under each other, and their own weight and any load press the crossings together, so friction holds them with 'no nails, dowels, or ropes' (Wikipedia 'Da Vinci's self supporting bridge'); STRUCTURE notes that Leonardo's timbers had no cuts or notches. Because the ring is closed, removing one member usually makes the whole frame collapse (STRUCTURE; Wikipedia).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins short members into a roof, floor, bridge or dome that spans further than any single member could (STRUCTURE magazine; Wikipedia)
+  - lock, and release by hand: a friction-only stick bridge is assembled without tools and comes apart when one piece is lifted out (Wikipedia 'Da Vinci's self supporting bridge')
+- **motion**: none: a static structure that only works while every member stays in place
+- **degrees_of_freedom**: 0 when assembled and loaded: each member is trapped between the member it rests on, the member resting on it and its outer support. A lightly loaded stick bridge is only held by friction, so a knock or a sideways push can free the members (Science City).
+- **special_behaviour**: 
+  - self-locking (holds under load, won't back-drive): in the Leonardo stick bridge, extra weight presses the crossings together harder, so 'the more weight on the bridge, the stronger it becomes' (Open Culture; Wikipedia: held together by compressive forces from its own weight and friction)
+  - quick-release: Leonardo's bridge was meant to be set up in minutes and 'collapsed by removing any single piece' (Wikipedia 'Da Vinci's self supporting bridge', citing Geddes 2016)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the over-and-under weave traps each stick, and in timber roofs notches stop members sliding off each other (Wikipedia; STRUCTURE magazine; The Year of Mud)
+  - friction or clamping (force-fit): self-weight and load press the crossings together; friction-only bridges have no other fixing, and roofs add wire or rope lashings, nails or bolts at the crossings (Wikipedia; The Year of Mud; Milkwood)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release for friction-only stick bridges and models, which come apart when a piece is lifted out (Wikipedia). *(unverified parts omitted)*
+- **tools_needed**: None for a friction stick bridge or model: 'no tools are needed for assembly' (Wikipedia 'Da Vinci's self supporting bridge'). For a roof: a saw, a chisel or axe for notches, heavy-gauge wire or rope for lashing, a drill and long spike nails or bolts for secondary rafters, and a braced temporary central prop called a 'charlie stick' (The Year of Mud; Milkwood).
+- **seal**: none
+- **load**: Light for stick and printed models, up to heavy for timber roofs and footbridges. Strong under downward loads spread over the frame. Weak against sideways pushes, which can topple a stick bridge (Science City: 'lateral force (from the sides) may cause it to topple'), and against vibration near its natural frequency, which makes a friction bridge shake itself apart (Wikipedia, citing Bucolo et al. 2020). The members work mainly in bending and shear, so a reciprocal frame deflects more than a conventional structure of similar span (STRUCTURE magazine). A simple closed ring 'is only as strong as the weakest element' (Wikipedia). A model of 77 wooden sticks 3 mm thick could carry a book (Song et al. 2013).
+- **adjustable**: Only while building: the rise of the frame, the size of the central opening and the span are set by member length, number of members, where each member rests on the next (engagement length) and how high the first member is propped (STRUCTURE magazine; Song et al. 2013; The Year of Mud). Once the ring is closed it can't be adjusted without propping it and taking it apart.
+- **play_and_precision**: not applicable for locating parts. When building, small errors add up round the ring: the last member has to go on top of the one before and under the first, which can be a very tight squeeze, and uneven spacing gives a lopsided central opening (The Year of Mud). Precisely cut notches give firmer contact at the crossings (STRUCTURE magazine).
+- **access_needed**: not applicable: members are laid on top of each other from above; full-size roofs are built from the wall top or a ladder round a temporary central prop
+- **materials**: Mostly timber: roundwood poles, sawn beams or glulam (STRUCTURE magazine; Wikipedia). Steel has also been used, e.g. tubular steel in the Rokko-Shidare observatory, and in principle concrete (STRUCTURE). For models: jumbo popsicle sticks (Science City), 3 mm wooden sticks (Song et al. 2013), or 3D-printed PLA beams (Printables 'Exercise model for reciprocal frameworks'). *(unverified parts omitted)*
+- **maker_difficulty**: easy for stick or printed models: you only need identical sticks, a flat stable surface and patience (Science City). Moderate to hard full size: shaping the overall form needs geometry or parametric tools, building needs a braced temporary prop, and the outward push on the walls must be resisted (STRUCTURE magazine; The Year of Mud; Wikipedia).
+
+### Making it
+
+- **processes**: 
+  - woodwork: roundwood poles or sawn timber for roofs and footbridges; craft sticks, pencils or dowels for models (Wikipedia; The Year of Mud; Science City)
+  - 3D print (FDM): identical printed sticks or beams for Leonardo bridges and reciprocal grids (Printables models 685468, 844202, 485402, 906462)
+  - CNC: precise notches cut with 3D cutting tools for good contact in timber reciprocal roofs (STRUCTURE magazine)
+  - off-the-shelf part: craft (popsicle) sticks, dowels, poles *(unverified parts omitted)*
+- **print_in_place**: no: each member is printed separately and the ring is assembled by hand. The printable models are printed flat without supports (Printables 'Exercise model for reciprocal frameworks').
+- **making_tips_3d_printing**: 1) Print the sticks flat with no supports. One educational reciprocal-grid model used PLA, 0.3 mm layers and 15% infill; its gaps are small enough to bridge, and flipping the beams helps if bed adhesion is poor, because the end gaps start as small islands (Printables 'Exercise model for reciprocal frameworks', CC BY-NC). 2) Print plenty of identical pieces: Felix van der Spek's Leonardo bridge needs part 1 ten times and part 2 five times, and can be scaled to any size (Printables 'Leonardo da Vinci's bridge'). 3) Proportions: for the Leonardo bridge, a height-to-length ratio of about 0.30 was the best compromise between efficiency and ease of crossing (Lamberti et al. 2024, Ciência e Natura). 5) Build round a temporary prop, such as a cup or block holding the first stick at the right height, then slide the last stick over the previous one and under the first, as full-size builders do (Wikipedia; The Year of Mud). 6) Choose clockwise or anticlockwise and keep to it; the exercise model shows both, plus a checkerboard mix of the two (Printables 906462). *(unverified parts omitted)*
+- **off_the_shelf_parts**: For models: jumbo craft (popsicle) sticks, pencils, straws, dowels or skewers (Science City). Full size: roundwood poles, sawn timber or glulam beams (Wikipedia; STRUCTURE magazine), heavy-gauge wire, rope or sisal lashing, long spike nails or bolts for the crossings, and a forked pole as the temporary prop (The Year of Mud; Milkwood). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - At least three members are needed to close the basic ring, the RF unit (Wikipedia; STRUCTURE magazine; Song et al. 2013).
+  - Leonardo bridge: for 4-7 m wooden bridges, a height-to-length ratio of about 0.30 was the best compromise; taller is more efficient but harder to walk over (Lamberti et al. 2024, Ciência e Natura).
+  - Roofs work best at low pitch, where little outward thrust reaches the ring beam and most of the load goes straight down (Wikipedia).
+  - Engagement length (how far along each member the next one rests) controls the balance of shear and bending and, with member length, the rise of the frame. Eccentricity (the vertical offset between member centrelines at a crossing) also matters: the smaller it is, the more the frame behaves like an ordinary beam grid (STRUCTURE magazine).
+  - Each connection joins only two members. Notches give good contact but reduce section strength, so check shear there (STRUCTURE magazine).
+  - Build round a temporary central support holding the first member; the last member goes on top of the previous one and under the first; tie the crossings, then remove the support (Wikipedia). Leave the prop a little long, because the roof may settle when it comes out (The Year of Mud).
+  - Add redundancy, such as doubled rafters, several interconnected units or stiffer joints, so that one failed member doesn't bring down the whole frame (STRUCTURE magazine; Wikipedia gallery).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The woven popsicle-stick 'Leonardo da Vinci bridge' built in school STEM sessions and at science centres (Science City; Wikipedia)
+  - The old table puzzle of making three knives hold each other up between glasses, first published in 1624 (ProofWiki, citing van Etten's Récréations Mathématiques)
+  - Turf-roofed roundhouses whose roof poles spiral round a central opening, such as That Roundhouse in Pembrokeshire, Wales (Wikipedia 'That Roundhouse'; Wikipedia 'Reciprocal frame' gallery)
+  - Self-supporting timber footbridges built to Leonardo's design, e.g. in Karby, Denmark, and in Freiburg, Germany (Wikimedia Commons)
+- **when_to_use**: Use it when you want to span a space with members shorter than the span: a roof over a round building, a garden pavilion or a small footbridge (STRUCTURE magazine; Wikipedia). It is a good choice when you have only short or reclaimed timber, since current research uses short re-used timbers (STRUCTURE). Use it when you want something that goes up quickly with simple two-member connections; a complex frame was put up in Copenhagen in 15 minutes by hand (STRUCTURE). It also suits a temporary or demonstration structure that assembles and comes apart without tools or fixings, as in Leonardo's military bridge, STEM lessons and printed models (Wikipedia; Science City). It is also chosen for its striking spiral look (STRUCTURE).
+- **when_not_to_use**: Don't rely on a friction-only frame where it can be knocked, pushed sideways or shaken. It topples under side loads and can come apart under vibration (Science City; Wikipedia), so tie or bolt the crossings, or choose a truss, an arch or a conventional beam-and-post structure. Avoid a single closed ring where failure of one member would be dangerous, because the whole frame collapses; add redundancy or use a structure with alternative load paths (STRUCTURE magazine; Wikipedia). Avoid it where deflection must be small, because reciprocal frames deform more than similar-span conventional structures (STRUCTURE). For joining just two or three members at one point, use a cross-halving or Japanese interlocking joint instead.
+- **environment_limits**: Vibration: a friction-held Leonardo bridge 'tends to disassemble when subjected to frequencies close to its resonant frequency' (Wikipedia, citing Bucolo et al. 2020). Wind and sideways knocks can topple light stick structures (Science City). Long-term load: timber creep must be allowed for, and deformations are larger than in conventional frames because there are many timber connections (STRUCTURE magazine). STRUCTURE notes that ordinary friction on a paved street was enough to stabilise one frame. *(unverified parts omitted)*
+- **safety_notes**: Collapse is the main hazard: in a simple closed ring all members depend on each other, so removing or breaking one usually brings the whole frame down (STRUCTURE magazine; Wikipedia). Never stand on or under a friction-only frame, and treat full-size Leonardo bridges and roofs as engineered structures needing proper design (STRUCTURE: robustness and progressive collapse are 'essential issues'). Roof building involves heavy poles (roughly 5 in diameter in The Year of Mud's roof) lifted overhead: brace the temporary prop and have someone watch it while the first rafters go up (The Year of Mud). Reciprocal roofs push outwards on their walls, especially at steeper pitches, so walls need a ring beam or buttressing (Wikipedia; a reader comment on The Year of Mud). Small models are low risk, though sticks spring apart when the frame collapses.
+- **common_failures**: The whole frame collapses when one member is removed, slips or breaks; add ties, notches or redundant members (STRUCTURE magazine; Wikipedia). It topples or shakes apart from a sideways knock or vibration; move the bridge as little as possible once built, and tie the crossings for anything permanent (Science City; Wikipedia). The last member won't fit because of accumulated error; lever it into place with extra hands (The Year of Mud). The central opening is lopsided because spacing at the wall was uneven; use a guide disc for the opening and space the rafters evenly (The Year of Mud). Walls get pushed out by the roof's outward thrust; keep the pitch low and resist the thrust with a ring beam (Wikipedia; The Year of Mud reader comment). There is excessive sag over time from timber creep and soft connections (STRUCTURE). Notches cut too deep weaken members in shear (STRUCTURE). Members slide off each other in 'all-down' or mixed arrangements, which are used to follow a curved surface; these are not self-supporting and the rods must be tied (Song et al. 2013).
+- **related**: 
+  - Cross-halving slot joint (egg-crate joint): two members interlock at a single notched crossing; a reciprocal frame shares load round a ring of many members resting on each other
+  - Japanese interlocking joints: lock two or three members at one node with complex cut shapes; reciprocal frame crossings are simple two-member contacts
+  - Zollinger frame (lamella roof): short timbers joined at their mid-points in one plane to form diamonds; STRUCTURE magazine calls it a type of reciprocal frame with a more direct, compression-dominated load path
+  - Arch, as in the 'da Vinci Bridge' in Ås, Norway: carries load in compression along a curve and needs strong abutments, whereas reciprocal frame members work mainly in bending
+  - Tab-and-slot joint and finger joint: ways to make a printed or laser-cut stick model permanent instead of friction-held
+  - Tensegrity: also self-supporting, but uses struts held apart by tensioned cables (judged out of scope as a structural arrangement in this encyclopedia's gap search)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Three stick reciprocal frame.JPG (Wikimedia Commons, by PeterEastern, 2009)](https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG): Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle *(licence: CC BY-SA 3.0)*
+  - [Longer reciprocal frame bridge.JPG (Wikimedia Commons, by PeterEastern, 2009)](https://commons.wikimedia.org/wiki/File:Longer_reciprocal_frame_bridge.JPG): Photo of a longer stick bridge built from repeated reciprocal units *(licence: CC BY-SA 3.0)*
+  - [Leonardo da Vinci bridge Karby.jpg (Wikimedia Commons, by Cntrading, built by Martin Benthin, 2011)](https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_bridge_Karby.jpg): Full-size self-supporting timber bridge built to Leonardo's design in Karby, Denmark *(licence: Free Art License (FAL))*
+  - [Pont autoportant de Vinci.png (Wikimedia Commons, Leonardo da Vinci, Codex Atlanticus)](https://commons.wikimedia.org/wiki/File:Pont_autoportant_de_Vinci.png): Leonardo's own sketch of the self-supporting bridge from the Codex Atlanticus *(licence: Public domain)*
+  - [The MAGIC behind Da Vinci's Self Supporting Bridge! (YouTube, Sabin Civil Engineering)](https://www.youtube.com/watch?v=5l4I-caLoxY): Animated explanation of how the woven bridge locks itself under load (title and channel checked via YouTube oEmbed; summarised by Open Culture) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Exercise model for reciprocal frameworks (alecs.form, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/906462-exercise-model-for-reciprocal-frameworks): Identical printable beams for building clockwise, anticlockwise and mixed reciprocal grids, with supports that lift the grid to show it carrying load; PLA, no supports. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Leonardo da Vinci's bridge (Felix van der Spek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/685468-leonardo-da-vincis-bridge): Printable stick set for the self-supporting bridge (part 1 x10, part 2 x5) with a storage box; scale to any size. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Leonardo da Vinci's self-supporting bridge (Gordyt47, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/844202-leonardo-da-vincis-self-supporting-bridge): Printable self-supporting bridge model, printed in PLA at 0.2 mm with 15% infill and no supports. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Sticks to build Da Vinci's bridge (Kaje, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/485402-sticks-to-build-da-vincis-bridge): Simple printable sticks for building Leonardo's bridge or other self-supporting shapes. Read through the Printables public API. *(licence: Public domain (Creative Commons Public Domain))*
+  - [Da Vinci Popsicle Stick Bridge (Science City at Union Station, Kansas City)](https://sciencecity.unionstation.org/2020/04/06/da-vinci-popsicle-stick-bridge/): Science-centre activity: weave jumbo popsicle sticks into a self-supporting bridge with no fasteners or glue *(licence: link only)*
+- **diagram_idea**: Top view of three sticks forming a pinwheel triangle, each stick's inner end resting on the middle of the next, with arrows showing a weight at the centre being passed round the ring to the three outer supports; beside it, a side view of the woven Leonardo stick bridge with its over-and-under crossings highlighted.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Reciprocal_frame
+  - https://en.wikipedia.org/wiki/Da_Vinci's_self_supporting_bridge
+  - https://en.wikipedia.org/wiki/Leonardo_bridge
+  - https://en.wikipedia.org/wiki/That_Roundhouse
+  - https://www.structuremag.org/article/reciprocal-frame-structures/
+  - http://www.cse.cuhk.edu.hk/~cwfu/papers/recipframe/download/paper.lowres.pdf
+  - https://periodicos.ufsm.br/cienciaenatura/article/view/86798
+  - https://www.openculture.com/2024/12/the-ingenious-engineering-of-leonardo-da-vincis-self-supporting-bridge-explained.html
+  - https://sciencecity.unionstation.org/2020/04/06/da-vinci-popsicle-stick-bridge/
+  - https://theyearofmud.com/2008/11/26/how-to-build-a-reciprocal-roof-frame/
+  - https://www.milkwood.net/2013/07/15/roundhouse-build-making-a-reciprocal-roof/
+  - https://proofwiki.org/wiki/Arrange_3_Knives_to_Rest_on_Tips_of_Handles
+  - https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG
+  - https://commons.wikimedia.org/wiki/File:Longer_reciprocal_frame_bridge.JPG
+  - https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_bridge_Karby.jpg
+  - https://commons.wikimedia.org/wiki/File:Pont_autoportant_de_Vinci.png
+  - https://commons.wikimedia.org/wiki/File:Da_vinci_bridge.jpg
+  - https://www.youtube.com/watch?v=5l4I-caLoxY
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, making_tips_3d_printing, materials, off_the_shelf_parts, processes, removability, reuse_cycles
+
+## 299 Housing and rebate joints (dado, rabbet)
+
+*interlocking joints & joinery.* A groove cut across a board (housing or dado) or a step cut along its edge (rebate or rabbet) that another board fits into, as in bookshelves and cabinet backs
+
+### What it is
+
+- **plain_name**: A shallow channel cut across one board (a housing or dado), or a step cut along its edge or end (a rebate or rabbet), that the end or edge of another board drops into. Shelves sit on the ledge, and back panels and glass sit flush in the recess
+- **term**: Housing (dado) and rebate (rabbet) joints
+- **aliases**: 
+  - housing, housing joint, trench (UK and Europe); dado, dado joint (US and Canada) (Wikipedia 'Dado (joinery)'; DT Online 'Housing Joint')
+  - through housing or through dado (open at both ends); stopped housing, stopped dado or blind dado (hidden at the front) (Wikipedia; DT Online)
+  - dovetail housing, dovetailed dado; the same as a sliding dovetail (DT Online)
+  - half dado, rabbet-and-dado joint, dado-and-rabbet (Wikipedia 'Dado (joinery)'; Rockler 'Making Rabbet Joints')
+  - rebate (UK), rabbet (US), rebate joint, rabbet joint, rebated butt joint, corner lap joint, shouldered corner (Wikipedia 'Rabbet'; DT Online 'Corner Lap Joint'; Rockler)
+  - single rabbet, double rabbet, mitred rabbet, dovetail rabbet (Rockler)
+  - shiplap: overlapping rabbets on neighbouring boards (Wikipedia 'Rabbet'; Rockler)
+  - glazing rebate, the step in a window frame or glazing bar that takes the glass and putty (Wikipedia 'Rabbet')
+  - groove: the same three-sided channel cut along the grain instead of across it (Wikipedia 'Dado (joinery)')
+- **family**: interlocking joints & joinery
+- **other_families**: locating & alignment
+- **one_liner**: A housing (dado) is a three-sided channel cut across a board, and a rebate (rabbet) is a two-sided step along an edge or end. Another board's end or edge sits in it, which lines the parts up and gives a ledge to carry load; glue, nails or screws usually stop it pulling out.
+- **complexity**: A single feature cut into one part, or into both parts in a rabbet-and-dado joint. The mating board is usually left square-ended or given its own rabbet, and the joint is normally glued and/or nailed, screwed or pinned (Rockler 'Making Rabbet Joints'; Wikipedia 'Rabbet').
+- **how_it_works**: The floor and walls of a housing, or the shoulder of a rebate, give the mating board a ledge to bear on and sides that stop it sliding out of line, so a shelf's weight is carried by the ledge rather than by glue or screws alone; the housing also stops the shelf cupping (Rockler 'Using Your Router to Cut Dado Joints'). Neither shape stops the boards pulling apart: 'Only glue or fasteners can do that', and because most of the glue faces are end grain, the glue is weak (Rockler). A rebate hides the end grain of the mating board, gives a positive stop during assembly, and offers more glue and nailing surface than a plain butt joint (Rockler 'Making Rabbet Joints'; DT Online 'Corner Lap Joint'). Cutting the housing's sides at a dovetail angle stops the shelf pulling out sideways (DT Online).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: fixes shelves and partitions into cabinets and bookcases, joins case tops, bottoms and drawer fronts, and holds back panels, glass and pictures (Wikipedia; DT Online; Rockler)
+  - line parts up exactly: the channel or step locates the parts during glue-up so they can't slide out of position (Rockler 'Making Rabbet Joints')
+- **motion**: none: a fixed joint once glued or fastened (the board only slides into the channel during assembly)
+- **degrees_of_freedom**: 1 before fixing: a shelf in a through housing can still slide along the channel and lift out, and a back panel can lift out of its rebate. 0 once glued, nailed or screwed (Rockler).
+- **special_behaviour**: 
+  - self-aligning or self-centring: the channel or step positions the parts during assembly; Rockler calls the rabbet-and-dado 'a good rack-resistant joint that assembles easily because both boards are positively located'
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the ledge carries the load and the walls stop sideways slip; a dovetail housing also locks against pulling out (Rockler; DT Online)
+  - material bond (glue, solvent or melting): usually glued, but most faces are end grain, which glues poorly (Rockler)
+  - friction or clamping (force-fit): brads, finish nails or screws through the joint, plus a snug fit (Rockler; Wikipedia 'Rabbet': 'Nails and screws can be added to help increase the overall strength')
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent when glued. Semi-permanent when only nailed or pinned, since pulling nails can damage the parts. *(unverified parts omitted)*
+- **tools_needed**: Power: a router with a straight or rabbeting bit plus a guide fence or shop-made T-square (Rockler); a table saw with a dado set (stacked or wobble type) or several ordinary passes (Wikipedia 'Dado set'; Wikipedia 'Rabbet'); a router table with a straight or slot-cutting bit (Fine Woodworking, Latta); a spindle moulder, or a jointer with a rabbeting ledge (Wikipedia 'Rabbet'). By hand: marking knife, try square, marking gauge, tenon saw, chisel and mallet, plus a router plane, rebate plane or shoulder plane (DT Online; Wikipedia 'Rabbet'). For assembly: glue, clamps, and brads, nails or screws.
+- **seal**: none: the joint itself doesn't seal. In a window, the glazing rebate holds the glass and the putty does the sealing (Wikipedia 'Rabbet').
+- **load**: Medium. Strong when carrying downward shelf loads, which bear on the ledge, and good against sliding (shear). A housed fixed shelf is stiffer than a loose shelf because the case sides hold it at a rigid right angle, and fastening the shelf to the case back adds more stiffness (Popular Woodworking, Tom Caspar). Weak in tension (pull-out) unless it is well glued, dovetailed or fastened (Rockler; DT Online). Wikipedia notes that rabbet joints 'are easy to construct, but are not as strong as some other joints'. A rabbet-and-dado joint resists racking well (Rockler).
+- **adjustable**: no once glued; the fit is adjusted while cutting, by making two passes, adding shims or using undersized bits (Rockler 'Getting Dadoes and Plywood Thickness to Match')
+- **play_and_precision**: small to none if cut correctly: 'a snug fit of mate to dado is essential for a strong joint', and 'Glue won't compensate for a rough, ill-sized dado' (Rockler). Sheet goods are the usual trap: '3/4 in' plywood often measures close to 1/32 in thin, and thickness may vary by up to 3/64 in, so a cut at the nominal size can be sloppy (Rockler). A rabbet-and-dado joint copes with uneven plywood, because the rabbet can be cut to fit a standard dado (Rockler).
+- **access_needed**: not applicable: the board is pushed into the channel or onto the step during assembly, and nothing needs to be reached from behind
+- **materials**: Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box').
+- **maker_difficulty**: easy to moderate: a rabbet is 'one of the first joinery cuts that new woodworkers try' (Rockler), and dados are straightforward with a router and a straight guide fence (Rockler). Hand-cut housings need careful marking, sawing and paring (DT Online), and stopped housings need an extra notch in the shelf (DT Online).
+
+### Making it
+
+- **processes**: 
+  - woodwork: router with a fence, router table, table saw with a dado set, or hand saw, chisel and router or rebate plane (Rockler; Wikipedia; DT Online)
+  - CNC: a CNC router can pocket housings and rebates in sheet material; inside corners come out rounded to half the cutter diameter, so square the ends of stopped housings with a file or chisel, or add dogbones (Fablab RUC)
+  - 3D print (FDM): printed boxes and enclosures with rabbeted edges and slots that locate panels; also printed jigs for cutting dados (Printables 185416 and 284328) *(unverified parts omitted)*
+- **print_in_place**: no: the parts are made separately and then pushed or glued together (e.g. the printable rabbet box is assembled and glued; Printables 'Slide Top Rabbet Box')
+- **making_tips_3d_printing**: 1) Use printed slots and rebates to hold flat panels (plywood, acrylic, MDF) in printed corner pieces, frames and enclosures: the panel edge sits in the channel and is located on three sides. 2) Size the channel from the measured panel thickness, not the nominal one: '3/4 in' plywood is often about 1/32 in thin (Rockler). Then add clearance; Hubs gives a typical interlocking-joint tolerance of 0.5 mm for FDM and 0.2 mm for SLA and SLS. 3) For a sliding lid in a rebate, the 'Slide Top Rabbet Box' generator widens the receiving slot rather than thinning the lid: its default is 4% of the material thickness, e.g. 0.32 mm for 8 mm walls (Printables 185416, CC BY). 4) Add a small radius or chamfer to entry edges; Hubs notes that 'adding a small radius to part edges assists joint assembly and reduces stress concentrations'. 6) Printed shop aids help with wooden dados and rabbets: a table-saw dado-width jig (Printables 'Dado Jig', CC BY), height gauges for dado stacks and router bits (Printables 85931, which notes that elephant's foot on the first layer throws off the depth), and a printable rebate plane that holds a 3/4 in chisel, printed in PETG with 40% gyroid infill and 5 perimeters because PETG wore better than PLA (Printables 1802612). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Router bits: straight bits with short flutes (dados seldom exceed 1/2 in deep) and plunge-cutting ends for stopped dados; 'undersized' plywood bits of 23/32 in, 15/32 in (or 31/64 in) and 15/64 in for nominal 3/4, 1/2 and 1/4 in plywood; bearing-guided rabbeting bit sets with interchangeable bearings; dovetail bits for dovetail housings (Rockler). Table-saw dado sets: a stacked dado set (two outer blades, chippers and shims) or a wobble dado; micro-adjustable sets such as Freud Dial-A-Width (brand) (Wikipedia 'Dado set'; Rockler). Hand tools: router plane, rebate (rabbet) plane, shoulder plane (Wikipedia 'Rabbet'; DT Online). Safety: featherboards ('combs') and push pads for table-saw dadoing and rabbeting (OSHA 1910.213; Fine Woodworking).
+- **rules_of_thumb**: 
+  - Housing width = the thickness of the shelf or partition it takes (DT Online), cut to the board's actual thickness (Rockler).
+  - Housing depth: no more than one-third of the timber thickness (DT Online). A dado needn't be deep: 1/8 in is enough in solid wood and 1/4 in in plywood, MDF or particleboard; 1/4 in is 'about as deep as a dado ever needs to be' (Rockler).
+  - Rebate (single rabbet joint): width = the thickness of the mating board, for a flush fit; depth = one-half to two-thirds of its width; the deeper it is, the less end grain shows (Rockler 'Making Rabbet Joints').
+  - Rabbet-and-dado: the dado can be a single saw kerf, 'no deeper than one-third the board's thickness', with the mating rabbet cut to fit (Rockler).
+  - Plywood thickness: nominal 3/4 in is often close to 1/32 in under, and tolerance is up to 3/64 in; use undersized bits (23/32 in, 15/32 in) or a two-pass cut (Rockler).
+  - Router: remove no more than about 1/4 in per pass, and feed so the bit pulls the router against the fence (left to right when pushing along a fence) (Rockler).
+  - Shelf loads: books can weigh up to 50 lb per running foot, and a wide hardwood shelf 3/4 in thick carrying a heavy load should be no longer than about 36 in. Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter (Popular Woodworking, Tom Caspar).
+  - End grain glues poorly, so rabbeted case corners that involve end grain are usually nailed or screwed as well (Rockler).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Fixed shelves in a bookcase or kitchen cabinet sitting in housings (dados) cut across the sides (Wikipedia 'Dado (joinery)'; DT Online)
+  - The thin back panel of a wardrobe, bookcase or cabinet set into rebates along the back edges (Wikipedia 'Rabbet'; Fine Woodworking)
+  - A picture frame, whose rebate holds the glass, picture and backing (Wikipedia 'Rabbet')
+  - Window frames and glazing bars with a rebate for the glass and putty, and shiplap cladding (Wikipedia 'Rabbet'; Rockler)
+- **when_to_use**: Use a housing (dado) to fix shelves, dividers and partitions in bookcases, cabinets and boxes: it carries the shelf on a ledge, keeps it straight and lines the parts up during glue-up (DT Online; Rockler). A fixed, housed shelf is also stiffer than a loose one (Popular Woodworking). Use a stopped housing when the front edge must look clean (DT Online). Use a rebate (rabbet) to let in a back panel, glass or a box bottom or top, to join case corners and drawer fronts simply, or to hide end grain and plywood edges (Wikipedia 'Rabbet'; Rockler; DT Online). Use rabbet-and-dado in plywood casework, where it assembles easily, resists racking and copes with uneven sheet thickness (Rockler).
+- **when_not_to_use**: Don't rely on a plain housing or rebate where the joint is pulled apart (in tension), for example a shelf that the sides could spread away from, or a drawer front that gets yanked. Use a dovetail housing or sliding dovetail, a dovetail, or a mortise and tenon, or add screws (Rockler; DT Online; Popular Woodworking). For adjustable shelves use shelf pins or supports instead of fixed housings. For flat-pack furniture that must come apart, use knock-down fittings such as cam locks and cross dowels. For joining boards edge to edge into a wide panel, use tongue and groove, dowels or biscuits. For laser-cut sheet, use tab-and-slot through-slots. Where a hidden, very strong corner is wanted, a dovetail or finger joint holds better than a nailed rebate (Wikipedia 'Rabbet': 'not as strong as some other joints').
+- **environment_limits**: These are wood joints, so the limits are those of the timber and glue. Under constant load, wooden shelves keep sagging 'a little more each year', because wood creeps (Popular Woodworking). Changes in humidity make wood and plywood swell and shrink, which changes the fit of a dado (Rockler). 3D-printed versions follow the limits of the plastic, e.g. *(unverified parts omitted)*
+- **safety_notes**: Cutting housings and rebates on a table saw is a non-through cut, so the standard blade guard can't be used; OSHA requires 'combs (featherboards) or suitable jigs' for dadoing and rabbeting (OSHA 1910.213). Fine Woodworking warns never to cut a rabbet 'with the stock between the dado stack and the fence': if the board pulls away from the fence, the dado head can throw it violently (Steve Latta, Fine Woodworking #301). Use a push pad and keep downward pressure on the work (Fine Woodworking). With a hand-held router, wear hearing and eye protection, and don't drag the router back along the cut with the bit spinning, because it can snag (Rockler). In schools, routers may only be used by trained, supervised students (DT Online). When paring, hold the chisel with one hand on the handle and one on the blade, with the knuckles of the blade hand pressed against the work for control (DT Online).
+- **common_failures**: Sloppy fit because nominal plywood is thinner than its label; measure it, and use undersized bits or two passes (Rockler). A rough, uneven-bottomed or badly sized housing, which glue won't rescue (Rockler). A housing cut too deep, which weakens the side; keep it to no more than one-third of the thickness (DT Online). Shelves pulling out or the case racking, because the joint doesn't resist tension and end-grain glue is weak; add screws, a dovetail shape, or a back panel fixed to the shelves (Rockler; Popular Woodworking). A router that wanders off line or a gouged shoulder, from feeding in the wrong direction or holding the router by hand on small parts (Rockler; Fine Woodworking). Chipped edges on long-grain rebates (Rockler). Uneven rabbet depth from inconsistent downward pressure (Fine Woodworking). Wood splitting out at the far side of a hand-cut housing; chisel the waste from both sides towards the middle (DT Online). A shelf that won't seat in a CNC-cut stopped housing because the housing's inside corners are rounded to the cutter radius; square them with a file or chisel, or add dogbones (Fablab RUC).
+- **related**: 
+  - Sliding dovetail: a housing with angled sides (dovetail housing) that also resists pulling apart
+  - Tongue-and-groove joint: a groove cut along the grain for joining boards edge to edge or holding sliding lids, where a housing is cut across the grain
+  - Butt and lap wood joints: the plain butt joint that a rebate improves on; a half-lap is made from two rebates nested together (Rockler)
+  - Finger joint (box joint) and dovetail joint: stronger interlocking corners than a nailed rebate
+  - Mortise and tenon: a stronger joint for rails meeting posts
+  - Dowel and biscuit joints: alternative ways to fix shelves without cutting a full-width housing
+  - Knock-down cam-lock and cross-dowel connectors: for flat-pack shelves that must come apart
+  - Tab-and-slot joint: the sheet-material (laser-cut) version, with through-slots instead of blind housings
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Woodworking-joint-dado.svg (Wikimedia Commons, by SilentC, vectorised by Zerodamage, 2012)](https://commons.wikimedia.org/wiki/File:Woodworking-joint-dado.svg): Drawing of a through dado (left) and a stopped dado (right) *(licence: CC BY-SA 3.0)*
+  - [Woodworking-joint-rebate.gif (Wikimedia Commons, by SilentC)](https://commons.wikimedia.org/wiki/File:Woodworking-joint-rebate.gif): Drawing of a rebate (rabbet) cut along the edge of a board *(licence: CC BY-SA 3.0 / GFDL)*
+  - [Dadosets.jpg (Wikimedia Commons, by Luigi Zanasi)](https://commons.wikimedia.org/wiki/File:Dadosets.jpg): A stacked dado set taken apart (outer blades and chippers), mounted in a table saw, and a wobble dado *(licence: CC BY-SA 2.0 Canada)*
+  - [How to make a Housing Dado Joint - The Three Joints (YouTube, Paul Sellers)](https://www.youtube.com/watch?v=n3e6Ba6IfhM): Hand-tool demonstration of marking, sawing and chiselling a housing dado (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+  - [How To Make Rabbets, Dadoes, and Grooves (YouTube, WOOD magazine)](https://www.youtube.com/watch?v=jcDizu5P3Ck): Power-tool demonstration of cutting rabbets, dados and grooves with different bits and blades (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Slide Top Rabbet Box (Customizer for 3D Printers and CNC) (Openscaddad, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/185416-slide-top-rabbet-box-customizer-for-3d-printers-an): Parametric box generator whose walls join with rabbet joints for precise alignment during glue-up, with a sliding lid; a tolerance slider sets the lid slot clearance as a percentage of wall thickness. For 3D printers and CNC. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Dado Jig (Ben Crawford, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/284328-dado-jig): Printable table-saw jig that transfers the thickness of the shelf material to the fence setting, so a dado can be cut in two passes to an exact fit. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Rabbet / Rebate Plane (PositiveVorticity, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1802612-rabbet-rebate-plane): Printable hand plane for cutting rebates, using a 3/4 in chisel as the blade held by a wedge, with a fence; printed in PETG. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Saw Blade, Dado, and Router Bit Height Gauges (CheeseMcGee, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/85931-saw-blade-dado-and-router-bit-height-gauges): Printable step gauges in 1/8 in steps for setting dado-stack and router-bit cutting depth. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+- **diagram_idea**: Cutaway of a bookcase corner: on the left, a shelf end sitting in a three-sided housing cut one-third of the way into the side; on the right, the case side's back edge with a two-sided rebate holding the thin back panel flush. Arrows show the shelf's weight bearing on the housing floor and a 'pull-out' arrow labelled 'needs glue or screws'.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Dado_(joinery)
+  - https://en.wikipedia.org/wiki/Rabbet
+  - https://en.wikipedia.org/wiki/Dado_set
+  - https://wiki.dtonline.org/index.php/Housing_Joint
+  - https://wiki.dtonline.org/index.php/Corner_Lap_Joint
+  - https://www.rockler.com/learn/making-rabbet-joints
+  - https://www.rockler.com/learn/using-router-to-cut-dado-joints
+  - https://www.rockler.com/learn/getting-dadoes-and-plywood-thickness-to-match
+  - https://www.finewoodworking.com/2022/12/13/cutting-rabbets-two-ways
+  - https://www.popularwoodworking.com/techniques/aw-extra-3614-stronger-shelves/
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.213
+  - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
+  - http://fablab.ruc.dk/more-elegant-cnc-dogbones/
+  - https://commons.wikimedia.org/wiki/File:Woodworking-joint-dado.svg
+  - https://commons.wikimedia.org/wiki/File:Woodworking-joint-rebate.gif
+  - https://commons.wikimedia.org/wiki/File:Dadosets.jpg
+  - https://www.youtube.com/watch?v=n3e6Ba6IfhM
+  - https://www.youtube.com/watch?v=jcDizu5P3Ck
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, making_tips_3d_printing, processes, removability, reuse_cycles
+

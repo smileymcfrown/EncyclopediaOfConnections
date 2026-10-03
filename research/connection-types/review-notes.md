@@ -74,6 +74,8 @@ break validation; they are clean-ups for the report step or Phase 1.
 - *Self-tapping screw into plastic*: `off_the_shelf_parts` is in the entry's `uncertain` list but
   has no `[uncertain]` marker, so the default report shows it in full (only `--strict` drops it).
   Check its brand and standard names (EJOT DELTA PT, Plastite, Taptite, DIN 7981) before publishing.
+- *Anti-twister mechanism*: `materials` is in the entry's `uncertain` list but has no `[uncertain]`
+  marker, so the default report shows it in full. Check its materials list before publishing.
 - *Scotch yoke* and *Slider-crank*: their `uncertain` lists missed some marked fields; fixed on
   2026-09-29 (lists only; no text changed).
 - More conflicts recorded side by side in tier 2 entries (pick one to lead with when publishing):
@@ -129,3 +131,113 @@ break validation; they are clean-ups for the report step or Phase 1.
 - **Twisted-and-coiled polymer muscles** (heat-driven fishing-line actuators): listed under
   *Twisted-string actuator* → `related`; could be its own powered-connector item.
 - **Bernoulli (non-contact) gripper**: listed under *Vacuum (suction) gripper* → `related`; a distinct powered gripper type.
+
+## Items 276-323 (researched 2026-10-02)
+Collected from the agents' hand-back reports for the items added on 2026-09-29 and 2026-09-30.
+Agents write unverified claims as `[uncertain: reason]`; the report generator drops those
+sentences the same way as plain `[uncertain]`.
+
+### Sources and links
+- **Read from copies or through APIs** (cite the original when publishing): Festo DMSP
+  muscle datasheet from a distributor copy (motionworld.com) and the Shadow Robot air-muscle
+  page from an archive copy on lars.mec.ua.pt (*Pneumatic artificial muscle*); Haines et al.
+  2014 (*Science*) abstract through a Semantic Scholar API URL (cite DOI 10.1126/science.1246906;
+  *Twisted-and-coiled polymer muscle*); the OpenFlexure paper through the Europe PMC REST API
+  (cite DOI 10.1364/boe.385729; *Elastic band springs*). PMC pages showed bot checks to `curl`,
+  so several papers were read through NCBI E-utilities or Europe PMC. Paywalled papers in
+  *Air-logic valve* and *Vacuum-driven artificial muscle* (Science Robotics, Tawk 2018, Zhai
+  2025) were read as abstracts through Semantic Scholar API URLs.
+- **Manufacturer documents from distributor sites**: Parker *Radial Shaft Seals* catalogue
+  (ashtonseals.co.uk) and SKF seal overview (allsealsinc.com) in *Radial lip seal*; Perstorp
+  Capa data sheets and MSDS (Adafruit's CDN, rapstrap.com) in *Hand-mouldable thermoplastic*.
+  The Recreus "interview" in *Air-logic valve* is a filament seller's article (labelled).
+- **Unopened Printables URLs in `sources`**: *Knife-edge and jewel pivots* lists two model URLs
+  from the API (`1465894-balance-scale`, `1029836-educational-balance-scale`) without the
+  "page not opened" label, which is only on its `make_it_yourself` titles.
+- **Left out on purpose**: *Air tank and hydraulic accumulator* leaves out Printables 498472
+  (printed PET-bottle tank adapters, listed in `fluid-power-search-2026-09-29.md`) and printed
+  water-rocket launchers, because their printed parts hold stored pressure.
+- **Printables links from the API** (labelled "page not opened" where no search result showed
+  the URL): *Variable-radius pulley* (264536), *Tendon-driven joint* (two models),
+  *Genderless connector* (220355, 129989, 1811372, 1816212), *Anti-twister* (1128267, also in
+  search results).
+- **Licences not shown**: Thingiverse 2764962 (*Variable-radius pulley*), DIYwalkers pages
+  (*Walking linkage*), the Mechamagnets repo has no licence file (*Magnetic detent*). The GitHub
+  API isn't enabled, so repo licences weren't checked.
+- **Vendor or retailer numbers** to check against a second source: Storz "99% of leaks are
+  gasket problems" (ca-fire.com) and Dual Lock's 1,000 cycles (a retailer guide) in
+  *Genderless connector*. The *Hobson's joint* Cal-Van catalogue line was decoded from a PDF
+  with a scrambled font.
+- **No printable model found**: *Multi-turn rotation limiter*, *Weight-activated gripping tongs*
+  (printed tongs found are hand-squeezed), fusee (*Variable-radius pulley*). Their
+  `make_it_yourself` lists are empty or carry only related models.
+
+### Conflicting figures and content points
+- *Pneumatic artificial muscle*: invention date (Wikipedia 1957; Wikibooks: Gaylord's 1957
+  patent; Bennington et al. 2023: 1930s-40s, made popular by McKibben in the 1950s); maximum
+  contraction (Festo 25%, Shadow 35-37%, Osaka group 30% in its README but about 25% in its
+  HardwareX test); twisting (Shadow: tolerated; Festo: forbidden, about 1° misalignment).
+- *Multi-turn rotation limiter*: what clock stop work is for. Wikipedia says it keeps the
+  mainspring in the flat middle of its torque curve; Vintage Watch Straps calls that a myth
+  (it stops over-winding). The entry gives only the over-winding reason; decide whether to
+  mention both.
+- *Multi-material interlock*: which plastics bond (Bambu: TPU and PETG bond easily, TPU and PLA
+  poorly; UltiMaker: CPE and TPU incompatible). UltiMaker's "only limited by the weakest
+  material" overstates it: Kuipers et al. give an upper bound of 1/(1/σA + 1/σB).
+- *Bernoulli gripper*: porous sheets (EE3D: grips them where vacuum fails; SMC: lift may fail
+  if holes add up to more than about 1% of the pad area). Both are given.
+- *Twisted-and-coiled polymer muscle*: fluorocarbon line (WriterOfMinds: not known to work; a
+  Hackaday commenter: coils better); marked [uncertain].
+- *Hobson's joint*: efficiency (Hackaday "pretty efficient" vs friction and wear warnings);
+  no reliable figure, marked [uncertain].
+- *Scroll mechanism*: Wikipedia's ±0.125 mm three-jaw runout is itself "citation needed"; the
+  entry leads with Sherline's 0.003 in. The Setrite manual's speed column has no unit, so its
+  numbers were left out.
+- *Weight-activated gripping tongs*: "a grip ratio of 2 needs a friction coefficient above
+  0.25" is the agent's own calculation from Bushman's equations, labelled [derived]; check it.
+- *Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent's choice,
+  not asked for in the outline notes). Likewise *Bellows and inflatable actuators* adds springs
+  & energy storage.
+- *Air tank and hydraulic accumulator*: Hackaday's 2016 article on printed air tanks says PVC
+  pipe is safe for compressed air; OSHA's bulletin says never use it. The entry follows OSHA.
+- *Hand-mouldable thermoplastic*: moulding it on the body (Preproom: never in schools; Easy
+  Composites sells it for that, with cling film over the skin). Both are in `safety_notes`.
+- *Vacuum-driven artificial muscle*: two `safety_notes` points (keep fingers clear; it drops
+  its load if the vacuum is lost) are the agent's reasoning from the mechanism, not from a
+  source, and are not marked. The entry has only 12 sources.
+- *Venturi vacuum generator*: throat and diffuser proportions come from one maker's model
+  description and are marked [uncertain]; a "300 mbar" figure is labelled as a maker's claim.
+- *Knife-edge and jewel pivots*: Rice Lake spells a pivot material "stellate"; probably
+  Stellite, marked [uncertain].
+- *Syringe hydraulics*: one `safety_notes` point ("use syringes without needles; keep water
+  away from electronics") is the agent's own advice, labelled as such. *Air or hydraulic
+  cylinder* left out Thingiverse 1337213 (licence unreadable).
+- Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and
+  *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law
+  example).
+
+- Items 316-323 (researched after the pause): printed gear pumps disagree on priming (Printables 277351 "needs to be primed"; 286142 and 1534241 say
+  they prime themselves); gear-pump efficiency (Wikipedia *Gear pump* "generally very efficient"
+  vs *Hydraulic pump* lowest volumetric efficiency, about 90%); air-caster air-film thickness
+  (AeroGo 0.003-0.005 in, Wikipedia "less than a millimeter", Airfloat "approximately a
+  millimeter"); BS 1212 Part 2 float valve (DIY Doctor: plastic Part 1 valve; Squote, APM and the
+  BSI listing: brass diaphragm valve). CNC Cookbook's claim that sliding a part on a vacuum table
+  takes at least twice the lifting force contradicts Mekanika's friction figure and was left out.
+- *Anti-twister mechanism* lists `materials` as unverified without a marker (see above).
+- *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown
+  (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address;
+  the entry credits the name only.
+
+### Blocked or unreadable (nothing cited from them)
+strandbeest.com (JavaScript only; Jansen's numbers were checked from the Commons SVG and an
+arXiv paper instead), Instructables (JavaScript), Taylor & Francis, MDPI, Semantic Scholar web
+pages, softroboticstoolkit.com, bioRxiv (429), lucy.vub.ac.be, AccessEngineering (Sclater's
+"Seven Ways to Limit Shaft Rotation"), hackster.io, cpsc.gov, Fabbaloo, patents.justia.com,
+Toolmonger, Quora, Hacker News, eng-tips, cults3d, MakerWorld, the Wayback Machine, the
+InstaMorph site (404), Frugal Fun, technologystudent.com, Appropedia's syringe-pump page
+(Cloudflare), Watson-Marlow (wmfts.com), control.com, automate.org, Festo's main catalogue PDF,
+vinerobots.org, publisher pages at science.org, Wiley and Nature (a PMC copy was used where one
+exists), and an NTU study of a printed tuned mass damper. Google
+Patents blocks `curl`, so agents checked patent quotes through WebFetch. The RoboMech 2025 TPU
+article listed in `gap-search-2026-09-29.md` was behind a Springer bot check; Stano et al. 2020
+was used instead.

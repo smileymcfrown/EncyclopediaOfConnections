@@ -1,0 +1,192 @@
+{
+  "identity": {
+    "plain_name": "A stop that lets a shaft, knob or turret go round several full turns and then stops it dead at each end, so the wires, hoses or spring attached to it can't be wound up too far",
+    "term": "Multi-turn rotation limiter (multi-turn stop, shaft rotation limiter)",
+    "aliases": [
+      "multi-turn stop / multiturn stop",
+      "multi-turn limit stop / rotary travel limit stop (patent wording)",
+      "shaft rotation limiter (Nguyen Duc Thang's animations)",
+      "travelling-nut stop (traveling nut, running nut; 'jam nut limit stop' when the nut jams against the end)",
+      "stacked-ring stop / stacked-washer stop / pinned-disc stop (a stack of washers 'each with an extending ear')",
+      "hunting-tooth stop / differential gear stop (two gears with slightly different tooth counts)",
+      "stop work / stopwork / winding stops (watch and clock mainsprings; German 'Stellung')",
+      "Maltese-cross or Geneva stop work (the Geneva-stop version is covered under Geneva drive)",
+      "geared stop work (IWC, 1904)",
+      "zero stop (rifle-scope adjustment turrets)",
+      "hard stop for a joint that turns more than a single revolution (robotics)",
+      "mechanical stopper for a robot rotary joint"
+    ],
+    "family": "hinges & pivots",
+    "other_families": [
+      "seals & pass-throughs",
+      "springs & energy storage",
+      "brakes, dampers & speed control",
+      "locating & alignment"
+    ],
+    "one_liner": "A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.",
+    "complexity": "A few parts. Travelling-nut type: a threaded section on the shaft, a nut that is kept from turning (by a guide rod or slot), and two end stops (frame faces, collars, or a pin on the nut meeting a finger on the shaft). Stacked-ring type: a driving pin or lug on the shaft, a stack of loose rings or discs each with its own pin or lug, and one fixed stop on the frame. Gear type: a small gear on the shaft driving a larger gear or worm wheel that carries a stop pin, or two gears with slightly different tooth counts each carrying a stop. Clock and watch stop work: a finger piece on the mainspring barrel arbor and a Maltese-cross wheel, or a wheel with one tall tooth. In Thang's examples the whole thing is driven through a friction slip clutch.",
+    "how_it_works": "Each design counts turns mechanically and only blocks the shaft when the count reaches either end of the range. In the travelling-nut type (traveling nut), the shaft's thread pushes a nut that cannot turn along the shaft by one thread lead per turn, until the nut reaches a stop at one end or the other. In the stacked-ring type (stacked washers or pinned discs), a lug on the shaft picks up the first ring after nearly one turn, that ring picks up the next ring on the following turn, and so on until the last ring hits a fixed stop, so every ring adds almost one more turn. In gear types, a reduction gear (or two gears with slightly different tooth counts, a hunting-tooth stop) turns a stop so slowly that it only meets its partner after many turns; clock stop work does the same with a Maltese cross that has one wider, blocking arm, or a wheel with one extra-tall tooth that jams in one shallow notch."
+  },
+  "finder_attributes": {
+    "job": [
+      "let it move (turn, slide or bend): the shaft, knob or turret turns freely for a set number of turns",
+      "slow it, stop it or keep its speed steady: it gives a solid end stop (hard stop) at each end of that range, in both directions",
+      "seal it, or pass cables or fluid through: by stopping a turret or robot joint before the cables or hoses running through it are twisted off, it lets a simple cable loop or cable chain do the job of a slip ring (US10661437B2; Chief Delphi)"
+    ],
+    "motion": "rotate: more than one turn but a limited number, in both directions between two hard ends. Examples: between 360 and 720 degrees for a Disney robot joint (US20170138447A1), more than ±360 and less than ±540 degrees for a robot wrist (US10661437B2), about 3 to 17 turns in Thang's six animated limiters, and fifty or more turns between limits for gear-type instrument stops (US3203262A)",
+    "degrees_of_freedom": "1: the shaft only turns about its own axis; the nut, rings or gears inside the stop are driven by the shaft and add no independent movement of their own",
+    "special_behaviour": [
+      "none of the listed behaviours exactly: its trick is counting turns, so it allows several full turns before it blocks rotation, which a simple pin-and-lug stop cannot do",
+      "motion conversion (e.g. rotary to linear): in the travelling-nut type the shaft's turning becomes slow sliding of the nut along the thread, and it is the nut's travel that reaches the stop",
+      "fail-safe or breakaway: on robots it is a mechanical backup that still stops the joint if the software limits, encoder or limit switch go wrong; one Chief Delphi team said their mechanical stop 'has already saved our energy chain during software tuning'",
+      "torque-limiting (slips or clicks at a set force/torque): not built in, but every one of Thang's six shaft rotation limiters drives the shaft through a friction clutch, so the motor can keep turning when the stop is reached"
+    ],
+    "holding_principle": [
+      "shape (the parts interlock; form-fit): at the end of the range a pin, lug, tooth or the nut itself butts against a solid stop",
+      "not a holding joint (it moves or passes on motion): between the two ends the shaft turns freely; it does not hold any position in between"
+    ],
+    "input_output": "Not applicable: it does not pass motion on to anything else. Inside, the travelling-nut type moves the nut one thread lead along the shaft per turn (lead is 'the amount of distance travelled per rotation', Wikipedia 'Leadscrew'); the stacked-ring type adds one ring per turn; gear types count turns through a reduction (e.g. a 20-tooth gear driving a 60-tooth stop gear, or a single-start worm driving a 20-tooth worm wheel, Thang). It blocks the shaft in both directions; the stop itself is not a drive, so back-driving does not apply.",
+    "power": "passive (no power needed): it is purely mechanical, so it still stops the shaft if the motor controller, encoder or limit switch fails. In roller-shutter tube motors the same turn-counting idea works cams and switches that stop the motor instead (Walter Motor)",
+    "removability": "removable: it is assembled onto the shaft with collars, pins, screws or retaining rings and can be taken off again; clock stop work is held by a screw and can be removed, which lets the mainspring run fully down (NAWCC forum)",
+    "reuse_cycles": "many times: it is taken apart and reassembled like any shaft fitting; the limit is wear or damage at the impact points, not the assembly",
+    "tools_needed": "Hex keys or screwdrivers for set-screw collars, pins and frame screws; spanners if the stop nut or end stops are locked with jam nuts; a watchmaker's screwdriver for clock and watch stop work; none for push-together printed rings [uncertain]",
+    "seal": "none: it is an open mechanism and seals nothing, although it is often hidden inside a turret base or housing",
+    "load": "Light to heavy. Instrument stops protect 'delicate low torque instruments' such as precision multi-turn potentiometers, which 'can be damaged if driven into their internal light duty stops' (US3293925A; US3203262A), while robot joints and aircraft actuators use metal stops that take the full drive torque (US10661437B2; Sundstrand's US4932511A). At the moment of impact the whole motor torque and the turret's momentum land on one small pin, lug, tooth or nut face, so that is the weak point. It is only strong in twisting (the direction it stops); side and end loads must be carried by the shaft's bearings.",
+    "adjustable": "Yes, in most designs. Roller-shutter tube motors set their two limits with adjustment screws that move cams (Walter Motor); the number of turns of a stacked-ring stop changes by about one for each ring added or removed (Thang, 'Shaft rotation limiter 6'); IWC's 1904 geared stop work let the number of barrel turns be varied and finely adjusted (Vintage Watch Straps); the end stops of a travelling-nut limiter can be made as collars that slide along and lock to the thread or guide [uncertain]. Gear-type stops are fixed by their tooth counts.",
+    "play_and_precision": "Noticeable end-position play. A stacked-ring stop does not stop at a whole number of turns (7 idle discs gave 7.1 turns in Thang's example) and its end point moves by the clearances of all the rings added together [uncertain]. A travelling nut's end point depends on the thread's backlash, and a nut that runs into a flat face 'can jam so tightly that a large torque is required to move the shaft from its stopped position' (Thang). Gear-finger stops can wedge if the fingers meet close to the line joining the gear centres (US3662610A). Good enough to protect cables and to give a rough starting point; use an encoder or limit switch, not the hard stop, for accurate positioning [uncertain].",
+    "access_needed": "end of a tube or shaft: the nut, rings or gears slide onto the shaft, usually at its end or inside the turret base, so you need to reach the shaft end or open the housing",
+    "materials": "Metal (steel, brass) in instruments, clocks, robots and aircraft actuators [uncertain: specific alloys not found]. Thang's travelling-nut example uses a rubber ring and an oil-impregnated metal sleeve (grommet) where the nut slides on its guide rod, to soften the impact. Printed versions suit light duty: PETG is tough and fine below about 80 °C, while PLA softens above about 60 °C (Prusa). Pins and lugs that take the impact are best made from steel dowel pins or screws set into printed rings [uncertain].",
+    "maker_difficulty": "moderate: the parts are simple (threaded rod and nut, flat rings with pins, or a pair of gears) and print or machine easily, but the stop must survive the full motor torque and the turret's momentum, so you also need a slip clutch or motor current limit and strong metal pins at the impact points"
+  },
+  "making": {
+    "processes": [
+      "3D print (FDM): rings, discs, nut carriers and gears are simple flat or round parts [uncertain: no tested printable model of this type was found]",
+      "CNC: the traditional way to make metal stops for instruments, robots and actuators (turned rings, milled lugs, cut gears)",
+      "laser cut: [uncertain] the rings of a stacked-ring stop are flat and could be cut from acrylic or plywood",
+      "off-the-shelf part: threaded rod and nuts, shaft collars, dowel pins and a friction slip clutch; the turn-counting mechanism also comes ready-made inside roller-shutter tube motors and as rotary limit switches"
+    ],
+    "print_in_place": "no [uncertain]: no print-in-place version was found; the rings, nut carrier and gears are printed separately and slid onto a metal shaft or threaded rod",
+    "making_tips_3d_printing": "1) Pick the type: the stacked-ring type is the easiest to print because every ring is a flat washer with one lug or pin; total turns are about (number of loose rings + 1) x (angle each ring can swing) / 360 (Thang, 'Shaft rotation limiter 6'). Use a travelling nut for many turns (more than about 10-20, where a ring stack gets too long, US3203262A), and a gear stop when there is little room along the shaft. 2) Print rings and discs flat on the bed so each lug is built within the layers rather than across them; Prusa notes 'FFF prints are stronger in one direction than another', and a lug printed standing up can snap along a layer line [uncertain: orientation advice is general]. 3) Better still, press or glue steel dowel pins or screw shanks into the printed rings to act as the lugs that take the hit [uncertain]. 4) Give each ring running clearance on the shaft and between neighbouring rings; Prusa suggests starting at 'at least 0.3 mm' for movable parts, so print one test ring first. 5) For a travelling nut, use a metal threaded rod and a metal nut held in a printed carrier that slides along a guide rod or slot, rather than a printed thread; make the stop a sideways pin on the nut that meets a finger on the shaft (a radial stop) instead of letting the nut face jam against a flat end. Keep the pin-to-finger overlap shorter than the thread pitch so the pin clears the finger on the first reverse turn (Thang, 'Shaft rotation limiter 2'). 6) Drive it through a friction slip clutch or set a low motor current limit: all six of Thang's limiters put a friction clutch between the driving pulley and the shaft. 7) Add a rubber ring or soft bumper where the stop hits, as in Thang's 'Shaft rotation limiter 2', to reduce the shock. 8) Use PETG rather than PLA near warm motors or outdoors (PLA softens above about 60 °C and degrades in UV; PETG is fine below about 80 °C; Prusa). 9) Before fitting cables, turn it by hand to each end, count the turns, and check that it backs off easily from both stops.",
+    "off_the_shelf_parts": "Threaded rod (studding) or a lead screw and nut for the travelling-nut type; set-screw or clamp-type shaft collars as end stops; dowel pins, shoulder screws or spring (roll) pins as stop lugs; flat or thrust washers between stacked rings; a friction slip clutch (friction torque limiter) between motor and shaft; microswitches (limit switches) or a rotary limit switch for an electrical cut-off as well; and, for the cables the stop protects, a cable carrier (drag chain) or spiral (clock-spring) cable, or a slip ring if unlimited turns are needed instead. Search terms: 'multi-turn stop', 'multi-turn limit stop', 'rotary travel limit stop', 'shaft rotation limiter', 'rotary limit switch'. [uncertain: no catalogue page for a ready-made hobby multi-turn stop was opened]",
+    "rules_of_thumb": [
+      "Stacked rings (pinned discs): total turns = (N + 1) x α / 360, where N is the number of idle discs and α is the angle each disc can turn before its pin meets the next one, which depends on the pin diameter and its distance from the shaft centre; 7 idle discs allowed 7.1 turns (Thang, 2700 Animated Mechanical Mechanisms part 1, p. 121, 'Shaft rotation limiter 6').",
+      "Stacked washers get too long beyond about 10-20 turns: 'the axial length of the stop assembly becomes excessive when more than ten or twenty turns are necessary', and 'where a large number of revolutions, such as fifty or more, are required between limits, more complex arrangements are usually necessary' (US3203262A).",
+      "Travelling nut: turns available = distance the nut can travel ÷ thread lead (lead = distance travelled per rotation; Wikipedia 'Leadscrew'). Thang's two travelling-nut examples allow about 14 and about 12 turns (Thang part 1, p. 120).",
+      "Don't let a travelling nut jam against a flat face: it 'can jam so tightly that a large torque is required to move the shaft from its stopped position' (Thang p. 120; US3293925A says the running nut 'actually becomes jammed or wedged against the stops'). Put a stop pin on the nut that meets a rotating finger instead, with the pin-finger engagement shorter than the thread pitch so it clears on the first reverse turn (Thang, 'Shaft rotation limiter 2', p. 120).",
+      "Single gear stop: the shaft can make fewer turns than the gear ratio allows the stop gear to make one turn; a 20-tooth gear driving a 60-tooth gear with a fixed pin gives about 3 turns, so many turns need a large ratio (Thang 'Shaft rotation limiter 3', p. 120). A single-start worm driving a 20-tooth worm wheel allowed 17 turns (Thang 'Shaft rotation limiter 5', p. 121).",
+      "Two gears with nearly equal tooth counts (hunting-tooth or differential stop): turns ≈ Z1 / (Z2 - Z1); 30 and 32 teeth give about 15 turns without needing a large ratio (Thang 'Shaft rotation limiter 4', p. 120). Old clock 'Geneva stop works' with one extra-tall tooth and one shallow notch work the same way: the stop jams only when the tall tooth finally lands in the shallow notch (NAWCC forum, 2013).",
+      "Watch and clock stop work: the finger moves the Maltese cross one step per turn, and a wider arm on the cross locks against the finger, in winding and unwinding alike (Vintage Watch Straps; NAWCC forum). Watch winding mechanisms mostly use a five-slot star wheel (German Wikipedia 'Malteserkreuzgetriebe').",
+      "Fit a friction clutch or torque limit between the drive and the stopped shaft: all six of Thang's shaft rotation limiters drive the shaft through a friction clutch (Thang pp. 120-121).",
+      "Gear-finger stops on a high-ratio pair can wedge when the fingers meet close to the straight line joining the gear centres (US3662610A), and stacked-finger or travelling-nut stops on a fast shaft 'add considerable inertia to the power train' (US3662610A)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "Wind-up clocks and older pocket watches with 'stop work' (a little Maltese cross or star wheel on the spring barrel) that stops the mainspring being wound too tight (Vintage Watch Straps; NAWCC forum)",
+      "Electric roller shutters and blinds, whose tube motors count turns of the tube with a geared limit mechanism to stop at the top and bottom (Walter Motor)",
+      "Rifle-scope adjustment turrets with a 'zero stop', which allow nearly 360 degrees with one pin in one track, or nearly 720 degrees with two pins in two tracks (WO2017132316A1)",
+      "Robot arm wrists and competition-robot turrets that turn more than a full turn but must not twist their cables off (US10661437B2; Chief Delphi)"
+    ],
+    "when_to_use": "Use it when something must turn more than one full turn, but not forever: a robot turret, camera pan head, rotating sensor or arm joint whose cables, air hoses or fibres pass through the joint without a slip ring; a multi-turn knob or precision potentiometer you want to protect from being forced past its own light internal stops; a winding drum or spring winder that must stop after a set number of turns; or a clock mainspring. It is cheap, needs no power, and still works if the software or a limit switch fails, so it makes a good backup to software limits, and the stop can also give a known starting position when a machine is switched on (Chief Delphi teams combine hard stops with soft limits and homing).",
+    "when_not_to_use": "Don't use it when the part must keep turning in one direction forever (a wheel, a fan, a spinning lidar): use a slip ring or rotary union instead. Don't rely on it for accurate positioning: use an encoder, a limit switch or a stepper motor, with the hard stop only as a backup. For less than one full turn, a simple fixed pin-and-lug end stop is simpler. Don't drive a heavy turret into it at full speed with a strong motor: slow down under software control first and fit a slip clutch, or the pin will shear or the nut will jam. If you want the motor switched off rather than the shaft physically blocked, use a rotary limit switch or a travelling-nut limit switch, as in roller-shutter motors.",
+    "environment_limits": "Printed PLA parts soften above about 60 °C and degrade in UV light; PETG suits most indoor and outdoor use below about 80 °C (Prusa), so avoid PLA near hot motors or in sunlight. Dust and grit in the thread of a travelling nut make it stiff [uncertain]; keep threads and sliding rings lightly lubricated (Thang's example uses an oil-impregnated sleeve). Repeated hard hits can loosen set-screw collars and crack plastic lugs over time [uncertain]. Plastic parts held for long periods against the stop by a spring or weight can creep [uncertain].",
+    "safety_notes": "The stop takes the whole motor torque and the turret's momentum at once; a weak pin can shear suddenly and let the cables be torn, so fit a slip clutch or current limit and use metal pins. Turning rings, gears and turrets make pinch points for fingers [uncertain]. Clock and watch stop work holds the mainspring partly wound even when the clock has stopped (NAWCC forum: the stop work lets the clock run down 'just so far'); removing the Maltese cross lets the spring run fully down, so let the spring down under control with a proper let-down key before dismantling, because mainsprings store a lot of energy [uncertain]. A travelling nut jammed against its end can release suddenly when forced.",
+    "common_failures": "1) A travelling nut jams hard against a flat end face and needs a large torque to free it (Thang; US3293925A): use a sideways pin-and-finger stop. 2) Gear-finger stops wedge instead of stopping cleanly when the fingers meet near the line between the gear centres (US3662610A). 3) A stop pin or lug shears or bends under the motor's full torque and the turret's momentum: use metal pins, a soft bumper and a slip clutch (Thang). 4) The stack gets too long for many turns: beyond about 10-20 turns switch to a travelling nut or gear stop (US3203262A). 5) Wrong number of turns because rings were stacked out of order or one is missing [uncertain]: count the turns by hand before fitting cables. 6) Set-screw collars used as adjustable end stops slip along the shaft after repeated hits [uncertain]: use a flat on the shaft or a clamp collar. 7) Roller-shutter limits set with the wrong screw or in the wrong direction, since the screw symbols and directions vary between motors (Walter Motor).",
+    "related": [
+      "Geneva drive (Geneva stop): a Maltese cross with one slot closed limits winding to a few turns; covered in its own entry (507 Mechanical Movements no. 212)",
+      "Slip ring and rotary union: lets a shaft turn endlessly while passing power, signals or fluid, so no stop is needed, but it costs more and has sliding contacts",
+      "Cable loop, spiral (clock-spring) cable or twisting cable chain: carries cables across a turning joint for a limited angle; a multi-turn stop keeps the rotation inside that limit",
+      "Simple end stop (pin and lug, single-turn stop): blocks rotation after less than one turn; simpler, but can't allow a full turn or more (US3662610A describes fingers that 'limit rotation after slightly less than one turn')",
+      "Rotary limit switch (as in roller-shutter tube motors): the same turn counting, but it switches the motor off with cams rather than blocking the shaft (Walter Motor)",
+      "Lead screw and nut: the same thread-and-nut idea, used to move a load rather than to count turns",
+      "Friction slip clutch: usually fitted with a hard stop so the drive can slip when the stop is reached (Thang)",
+      "Recoiling click: in watches, a ratchet click with a slotted pivot that lets the barrel back off slightly at full wind; it replaced stop work as a cheaper solution (Vintage Watch Straps)",
+      "Magnetic rotary hard stop: repelling magnets instead of a solid hit stop a robot axis turning more than 360 degrees without contact noise or wear (CN102458778B)",
+      "Spring-finger-and-ramp stop: a springy finger rides up onto a raised tang so the part can turn a little more than one full turn before a tab stops it; used on adjustable recessed lights (US10066778B2)"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=3airCg2Xd-4",
+        "title": "Shaft rotation limiter 6 (Nguyen Duc Thang, YouTube thang010146)",
+        "shows": "CAD animation of the stacked pinned-disc type: 7 idle discs let the shaft turn about 7.1 turns before stopping, driven through a friction clutch",
+        "license": "link only (standard YouTube licence)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=BBYfNYadt0w",
+        "title": "Shaft rotation limiter 1 (Nguyen Duc Thang, YouTube thang010146)",
+        "shows": "CAD animation of a travelling nut moving along a threaded shaft until the frame stops it after 14 turns",
+        "license": "link only (standard YouTube licence)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=go3LyVKVZoA",
+        "title": "Shaft rotation limiter 4 (Nguyen Duc Thang, YouTube thang010146)",
+        "shows": "CAD animation of a two-gear (30 and 32 teeth) differential stop whose stoppers collide after about 15 turns",
+        "license": "link only (standard YouTube licence)"
+      },
+      {
+        "url": "https://507movements.com/mm_213.html",
+        "title": "507 Mechanical Movements, No. 213: another kind of stop for winding watches",
+        "shows": "1868 drawing, with an animated version, of a watch winding stop; nos. 212, 214 and 215 show the Geneva stop and other variants",
+        "license": "Book public domain; website animation link only"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG",
+        "title": "Geneva stop.PNG (Wikimedia Commons, from a 1908 book on clockwork by H. Bock)",
+        "shows": "Drawing of a five-spoke Maltese-cross stop work on the barrel of a spring-driven clock",
+        "license": "Public domain in the United States (may not be public domain in some other countries, per the file page)"
+      }
+    ],
+    "make_it_yourself": [],
+    "diagram_idea": "Three small cutaways side by side: a nut walking along a threaded shaft between two stops; a stack of four rings, each with a pin that picks up the next, with a counter reading 'turn 1, 2, 3, 4, stop'; and two gears of 30 and 32 teeth whose stop pins only meet after 15 turns. Above them, a robot turret with a cable loop that stays untangled because the stop halts it.",
+    "sources": [
+      "https://cs448m.github.io/lectures/machines/doc/1.pdf",
+      "https://www.youtube.com/watch?v=BBYfNYadt0w",
+      "https://www.youtube.com/watch?v=bZXCfSEa-OU",
+      "https://www.youtube.com/watch?v=MVkAum9f_qI",
+      "https://www.youtube.com/watch?v=go3LyVKVZoA",
+      "https://www.youtube.com/watch?v=c1Xlah1sOEI",
+      "https://www.youtube.com/watch?v=3airCg2Xd-4",
+      "https://en.wikipedia.org/wiki/Mainspring",
+      "https://de.wikipedia.org/wiki/Malteserkreuzgetriebe",
+      "https://en.wikipedia.org/wiki/Leadscrew",
+      "https://www.vintagewatchstraps.com/blogstopwork.php",
+      "https://mb.nawcc.org/threads/french-striking-carriage-clock-wont-let-down-mainspring.204790/",
+      "https://mb.nawcc.org/threads/geneva-stop-works-on-a-st-wall-clock.100656/",
+      "https://507movements.com/toc.html",
+      "https://507movements.com/mm_212.html",
+      "https://507movements.com/mm_213.html",
+      "https://507movements.com/mm_214.html",
+      "https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG",
+      "https://www.chiefdelphi.com/t/turret-homing-hard-stop-limit-switch-or-absolute-encoder/516456",
+      "https://www.chiefdelphi.com/t/questions-about-building-a-turret/510986",
+      "https://patents.google.com/patent/US3662610A/en",
+      "https://patents.google.com/patent/US3293925A/en",
+      "https://patents.google.com/patent/US3203262A/en",
+      "https://patents.google.com/patent/US4932511",
+      "https://patents.google.com/patent/US10661437B2/en",
+      "https://patents.google.com/patent/US20170138447A1/en",
+      "https://patents.google.com/patent/WO2017132316A1/en",
+      "https://patents.google.com/patent/CN102458778B/en",
+      "https://patents.google.com/patent/US10066778",
+      "https://www.waltermotor.com/tubular-motor/limit-switch/",
+      "https://help.prusa3d.com/article/pla_2062",
+      "https://help.prusa3d.com/article/petg_2059",
+      "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135"
+    ]
+  },
+  "uncertain": [
+    "tools_needed",
+    "adjustable",
+    "play_and_precision",
+    "materials",
+    "processes",
+    "print_in_place",
+    "making_tips_3d_printing",
+    "off_the_shelf_parts",
+    "environment_limits",
+    "safety_notes",
+    "common_failures"
+  ]
+}

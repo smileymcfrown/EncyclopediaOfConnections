@@ -666,7 +666,7 @@
   - BLOC-O-LIFT, KOMBI-LIFT, STAB-O-MAT (brands, Stabilus); easylift (brand, Bansbach) - lockable gas spring product ranges
   - nitrogen gas spring (die springs used in press tools; heavy-duty industrial relative) (Wikipedia 'Gas spring') *(unverified parts omitted)*
 - **family**: springs & energy storage
-- **other_families**: brakes, dampers & speed control, self-locking & anti-back-drive, sliding, telescoping & linear motion
+- **other_families**: brakes, dampers & speed control, self-locking & anti-back-drive, sliding, telescoping & linear motion, hydraulics, pneumatics & vacuum
 - **one_liner**: A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.
 - **complexity**: A small sealed assembly that acts as one unit (it cannot be opened): steel pressure tube, piston rod, piston with a tiny hole (orifice) or valve, rod seal and guide bushing, nitrogen gas, a little oil, and threaded ends that take swap-on end fittings (ball sockets, eyes, clevises) plus ball studs or brackets on the frame and lid (Wikipedia 'Gas spring'; ACE catalogue). A lockable gas spring adds a valve in the piston, a release pin sticking out of the rod end, and a release head, lever or Bowden cable to press it (Suspa; Stabilus).
 - **how_it_works**: The tube is filled with nitrogen at high pressure; the gas presses on both sides of the piston, but the rod takes up area on one side, so there is more force pushing the rod out than in, and the push equals the gas pressure times the rod's cross-section area (F = p x A) (ACE catalogue; explainthatstuff). Pushing the rod in makes the rod take up more room inside, so the gas is squeezed a bit more and the force rises by roughly 20-60 percent over the stroke (called progression) (ACE catalogue). Gas has to squeeze through a small hole in the piston, and oil at the rod end cushions the last few millimetres, so the rod moves at a controlled speed and stops gently (end-position damping) when mounted rod-down (ACE catalogue). In a lockable gas spring, a valve in the piston separates the two chambers: press the release pin and the valve opens so the rod can move (with the gas helping to carry the load); let go and the valve shuts, trapping gas (elastic locking, slightly springy) or oil (rigid locking) so the rod holds its position (Stabilus BLOC-O-LIFT; Suspa).
@@ -1056,4 +1056,276 @@
 ### Other info
 
 - **Fields with unverified parts:** making_tips_3d_printing
+
+## 282 Elastic band and elastic cord springs (elastomer springs)
+
+*springs & energy storage.* Rubber bands, elastic cord or rubber tubing used as stretchy springs, for example to pull a printed finger straight again; they stretch much further than steel springs but creep and perish
+
+### What it is
+
+- **plain_name**: A stretchy loop or cord of rubber (a rubber band, hair tie, O-ring, bungee cord or piece of rubber tubing) used instead of a metal spring to pull a part back into place, for example to pull a printed finger straight again after a string has bent it
+- **term**: Elastomer tension spring: elastic band, elastic (shock) cord or rubber tubing used as an extension spring
+- **aliases**: 
+  - rubber band, elastic band (Wikipedia 'Rubber band')
+  - elastic cord, shock cord, bungee cord (also spelled bungie or bungy); octopus strap or occy strap in Australia (Wikipedia 'Bungee cord')
+  - rubber tubing bands: latex tubing, surgical tubing, slingshot or catapult bands, speargun bands (Wikipedia 'Slingshot', 'Speargun')
+  - O-ring used as an elastic band (the OpenFlexure microscope calls its Viton O-rings 'elastic bands')
+  - orthodontic elastics, intermaxillary elastics (small medical-grade latex bands; Wikipedia 'Elastics (orthodontics)')
+  - ranger bands, snoopy loops (loops cut from car, motorcycle or bicycle inner tubes; Wikipedia 'Rubber band')
+  - rubber motor (a twisted rubber band that powers a model aircraft propeller; Wikipedia 'Rubber band')
+  - elastomer spring, rubber spring
+  - hair tie, ponytail elastic; stretch cord, beading elastic
+  - Viton (brand) O-ring, i.e. a fluoroelastomer (FKM) O-ring used as a band (Wikipedia 'Ozone cracking'; OpenFlexure)
+- **family**: springs & energy storage
+- **other_families**: tensioning, reels & take-up, cord, strap, webbing & textile hardware
+- **one_liner**: A rubber band, elastic cord or length of rubber tubing stretched between two anchor points so that it pulls them together: a cheap, very stretchy pull spring that you can cut, tie or swap by hand, but whose pull fades over time and which perishes in heat, sunlight and ozone.
+- **complexity**: Single piece: a closed loop (rubber band, O-ring, hair tie) or a length of cord or tubing. To work it needs two anchor points on the parts: hooks, posts with a lip, notches, grooves, or holes with a knot tied behind them, and sometimes smooth tunnels or guides to route it (e-NABLE printed hands run elastic cord through tunnels from each fingertip into the palm; e-NABLE Phoenix v2). Shock cord is itself a small assembly: many rubber strands inside a woven cotton or polypropylene cover (Wikipedia 'Bungee cord'), sometimes with end hooks, cord locks or crimped fittings.
+- **how_it_works**: Rubber is a tangle of long, cross-linked chain molecules. Stretching it pulls the chains straighter; they 'want' to return to their tangled shape, so the band pulls back on whatever it is hooked to (an entropy effect, which is also why a stretched band warms up when stretched and contracts when heated; Wikipedia 'Rubber band', 'Gough-Joule effect'). Rubber can be stretched to several times its own length (Wikipedia 'Rubber elasticity' says up to about 10 times) and still return almost to its old length, which is far more stretch than a steel spring allows. The pull does not rise in a straight line with the stretch (it does not follow Hooke's law), and the band pulls less on the way back than on the way out (hysteresis), so a little energy is lost as heat each time (Vernier; Penn State interactive). A loop hooked over two posts works as two strands side by side, and several bands side by side add their pulls, which is how makers tune the force: 'need more tension? use more/thicker rubber bands' (Makers Making Change, Printables).
+
+### Finder attributes
+
+- **job**: 
+  - store energy: stretch it and it pulls back, returning a part to its rest position, e.g. the elastic cords that straighten the fingers of printed prosthetic hands after the cable that bends them is released (Frontiers in Robotics and AI, 2021), or launching something (rubber-band catapults and cars)
+  - tighten and hold tension: keeps a nut pulled against a screw so a mechanism has no wobble (OpenFlexure microscope), holds a printed clamp shut (rubber band spring clamp), or keeps a cord taut
+  - join and hold: bundles things together (Wikipedia 'Rubber band') or holds a chain of parts together under tension, e.g. ball-jointed dolls strung with thick elastic (Wikipedia 'Ball-jointed doll')
+- **motion**: flex: it stretches along its own length. In practice it is used at about 2-3 times its relaxed length: orthodontic elastics are rated at 3 times their diameter (Clin Exp Dent Res 2025), and shock cord stretches about 120% +/- 15%, i.e. to about 2.2 times its length (Knot & Rope Supply). Rubber can be stretched much further, up to about 10 times in principle (Wikipedia 'Rubber elasticity'); a band in a Penn State demonstration was slowly stretched to almost 5 times. It can also wrap round pins and pulleys, and be twisted (rubber motor)
+- **degrees_of_freedom**: 1 in intended use: it only pulls along the straight line between its two anchors. Because it is floppy it does not hold anything in place sideways and it cannot push; it bends freely round pins, pulleys and tunnels
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): keeps a fairly steady pull on a part as it moves or wears; in the OpenFlexure microscope the band 'tightens up the mechanism' so it moves smoothly and is less wobbly (OpenFlexure actuator assembly guide)
+  - none of the other listed behaviours on its own: it is the cheap 'engine' inside many printed latches, clamps, toys and prosthetic fingers
+  - built-in damping: because it loses some energy on every stretch (hysteresis), it bounces less than a steel spring (Vernier; Penn State interactive)
+- **holding_principle**: spring force (the stretched band pulls the parts together); when it is wrapped round things to bundle or grip them, also friction or clamping (the band squeezes and its rubbery surface grips)
+- **input_output**: not applicable: it is a spring, not a transmission (a twisted rubber 'motor' does store turning energy and give it back to a propeller in rubber-powered model aircraft and boats; Wikipedia 'Rubber band')
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: a band slips off its hooks or posts by hand, and a tied cord is undone or cut. Exception: a band or O-ring embedded in a print during a pause cannot be replaced when it fails (comment on Hackaday, 2023), so that design is effectively permanent
+- **reuse_cycles**: many times for fitting and removing, but the band itself is a wear part with a limited life: the OpenFlexure team found ordinary rubber bands 'perished after weeks to months (regardless of use)', while Viton O-rings let the microscope run about 30,000 cycles of stage motion over several months without failure (Collins et al., Biomedical Optics Express 2020). Plan for it to be replaced
+- **tools_needed**: Usually none. Long-nose pliers or a small hook help stretch a small band onto a post (Joystick Fidget instructions, Printables); a printed insertion tool for bands hidden inside a part (OpenFlexure 'elastic band tool'); scissors for cord and tubing; a secure knot for cord, e.g. the improved clinch knot used on printed hands (Frontiers in Robotics and AI, 2021)
+- **seal**: none
+- **load**: Light to medium, and only in pull. Orthodontic elastics are rated from 2 oz (about 0.56 N) to 8 oz (about 2.2 N) (Wikipedia 'Elastics (orthodontics)'); a printed-hand finger model assumed an elastic cord of about 1,000 N/m with forces under 25 N (Frontiers in Robotics and AI, 2021); 1/8 in (3 mm) shock cord has a breaking strength of about 100 lb (about 445 N), and safe working loads for rope are usually 1/10 to 1/4 of the breaking strength (Knot & Rope Supply). It cannot push and does nothing in shear or twist; it is weakest at knots (which can reduce rope strength by up to 50%; Knot & Rope Supply), at nicks and where it bends over a sharp edge
+- **adjustable**: Yes: add or remove bands, use a thicker or shorter band, move an anchor post, or re-tie a cord shorter or at a different tie-off point (the e-NABLE Raptor Reloaded hand offers two tie-off options for its elastics). The stiffness of one given band cannot be changed
+- **play_and_precision**: not applicable as a locating part: it only supplies a pull. It is, however, a good way to remove play: the OpenFlexure microscope uses its bands to pull a nut down onto a screw so the mechanism is tight and smooth. Its force is not precise: it depends on how far and how often it has been stretched (hysteresis; the first stretches soften rubber, the Mullins effect, Wikipedia), on temperature, and on time (latex orthodontic elastics held at 3 times their diameter at 37 degC lost 16% of their force in 2 h and 31% in 48 h; Clin Exp Dent Res 2025). It tolerates large misalignment because it is floppy
+- **access_needed**: not applicable for most uses: it is fitted while the parts are assembled. You need to reach both anchor points, or route the cord through a tunnel and tie it off at an end you can reach (e-NABLE hands tie their finger elastics off in the palm)
+- **materials**: Natural rubber (latex) for most rubber bands, chosen for its 'superior elasticity' (Wikipedia 'Rubber band'); synthetic elastomers for larger or tougher bands: EPDM (outstanding resistance to ozone and sunlight, -50 to +150 degC), silicone (-100 to +315 degC, but poor tear and abrasion resistance), neoprene and nitrile (Pooley 'Common Properties of Rubber Elastomers'); fluoroelastomer (FKM, Viton (brand)) O-rings resist ozone and are used by OpenFlexure, which warns they must be Viton, not nitrile (OpenFlexure troubleshooting). Shock cord: rubber strands in a woven cotton, polypropylene or polyester cover (Wikipedia 'Bungee cord'). Printed TPU bands are a light-duty option (one OpenFlexure contributor reports a printed TPU band 'working great' so far). The anchors can be any printed plastic, wood or metal; keep natural rubber away from oils, fuels and solvents (poor resistance; Pooley)
+- **maker_difficulty**: easy: buy bands or cord, add hooks, posts or tunnels to the printed part, and stretch it on by hand. The real design work is making the anchors smooth and secure and making the band easy to replace
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: rubber bands, O-rings, shock cord and latex tubing are the usual choice
+  - 3D print (FDM): the parts with the hooks, posts, grooves and cord tunnels; printed TPU bands for light duty
+  - 3D print (resin): the same anchor features, with smooth surfaces that are kind to bands
+  - woodwork, laser cut, CNC: notches, pegs and holes to hook bands on or tie cord to
+- **print_in_place**: partly: the printed parts with their hooks, posts and tunnels can print in one go, but the band or cord is always a separate bought part added afterwards. A band can be dropped in during a print pause (Hackaday, 2023), but then it cannot be replaced when it perishes
+- **making_tips_3d_printing**: 1) Buy the stretchy part, print the anchors. A printed plastic spring slowly loses its force: 'plastic always permanently deforms under tension' and PLA makes a very poor spring (Hackaday, 2026, article and comments), whereas a rubber band costs almost nothing and is easy to replace. 2) Hooks and posts: give each post a lip, groove or mushroom head so the band cannot slide off, and round every edge the band touches; rubber cracks first where it is strained most, e.g. at sharp corners (Wikipedia 'Ozone cracking'). 3) Tunnels for cord: make them wide and smooth with gentle bends; the e-NABLE Phoenix v2 remix widened all its cable tunnels and added tunnels so an elastic cord runs 'all the way from the fingertip up into the palm', tied to a bar at the thumb base (e-NABLE Phoenix v2 page). 4) Design for replacement: make bands reachable, or add a printed insertion tool and internal hooks the band clicks onto, as the OpenFlexure microscope does (its band 'should click twice - once for each side'). 5) Preload it: choose a band that is already stretched when the part is at rest, so it still pulls at the end of travel; size the working stretch to the band (orthodontic elastics are rated at 3 times their diameter; shock cord stretches about 120% at most; Knot & Rope Supply). 6) Tune the force with several bands side by side rather than one tight band; it also gives a spare if one breaks (Rubber Band Spring Clamp and Rubber Band Clamp models on Printables: 'add as many rubber bands as you like to get the desired clamping force'). 7) Heat: don't embed bands where hot plastic or a hot environment will cook them; natural rubber's useful range ends at about +82 degC (Pooley), and a Hackaday commenter worried about heat from the nozzle when embedding bands. 8) For cord, use a secure knot such as the improved clinch knot (Frontiers in Robotics and AI, 2021). 9) Common printed-part failures: post snaps at a layer line, band cut by a sharp printed edge, cord jams in a rough or too-narrow tunnel. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Rubber bands, sized by number in the US (e.g. #33 = 3-1/2 x 1/8 in, #64 = 3-1/2 x 1/4 in, both 1/32 in thick; Wikipedia 'Rubber band'); weather-resistant rubber bands, extra-long rubber bands and rubber banding (McMaster-Carr 'Rubber Bands'); O-rings in FKM/Viton (brand), EPDM, silicone or nitrile, e.g. 30 mm x 2 mm Viton O-rings (OpenFlexure parts list, Collins et al. 2020); elastic cord, also sold as shock cord or bungee cord, in 1/8 in (3 mm), 1/4 in and larger sizes (Knot & Rope Supply; 3 mm polypropylene shock cord on a printed hand in Frontiers 2021); bungee cords with hooks (McMaster-Carr); latex tubing (surgical tubing, slingshot bands); orthodontic elastics in light to extra-heavy force ratings (Wikipedia 'Elastics (orthodontics)'); hair ties; cord locks and hooks for elastic cord ends
+- **rules_of_thumb**: 
+  - Stretch range: elastic (shock) cord stretches about 120% +/- 15%, so 6 in becomes about 13.2 in (Knot & Rope Supply, https://www.knotandrope.com/products/1-8-shock-cord-1000-spool); orthodontic latex elastics are rated at 3 times their own diameter (https://pmc.ncbi.nlm.nih.gov/articles/PMC11783226/). Design so the band works inside this range, with some stretch already on at rest.
+  - Expect the pull to fade: latex elastics held at 3 times their diameter at 37 degC lost 16% of their force after 2 h, 23% after 8 h, 28% after 24 h and 31% after 48 h in the lab (more in the mouth), with most of the loss in the first 2 h (Clin Exp Dent Res 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11783226/). So size a band for the force you need after it has settled, not when new.
+  - Force is not proportional to stretch: an idealised rubber band follows F = K (L/L0 - (L0/L)^2), rising steeply at first, and the unloading curve lies below the loading curve (Penn State interactive, https://phys23p.sl.psu.edu/~mrg3/interactives/EJSS_mrg/ejss_model_Bungee_Hysteresis_Thermal_V2/ElasticHysteresisIntroduction.html; Vernier, https://www.vernier.com/vernier-ideas/elastic-hysteresis-of-a-rubber-band/).
+  - Rope-style safety margin for cord: working loads are usually 1/10 to 1/4 of the average breaking strength, and knots can reduce strength by up to 50% (Knot & Rope Supply, https://www.knotandrope.com/products/1-8-shock-cord-1000-spool).
+  - Lifetime: ordinary rubber bands perished in weeks to months whether used or not; Viton O-rings (30 mm inside diameter, 2 mm thick, about 75 Shore A, able to stretch at least 150%) lasted about 30,000 cycles over several months (Collins et al. 2020, https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7249832/fullTextXML; OpenFlexure troubleshooting, https://build.openflexure.org/openflexure-microscope/master/troubleshooting.html).
+  - Temperature ranges by rubber type: natural rubber about -55 to +82 degC, EPDM -50 to +150 degC, nitrile and neoprene -40 to +135 degC, silicone -100 to +315 degC (Pooley, https://www.pooleyinc.com/wp-content/uploads/Common-Properties-of-Rubber-Elastomers.pdf).
+
+### When to use it
+
+- **everyday_examples**: 
+  - a rubber band round a bundle of letters or a rolled-up newspaper (Wikipedia 'Rubber band')
+  - bungee cords with hooks holding luggage on a roof rack (Wikipedia 'Bungee cord')
+  - a slingshot (catapult) powered by latex tubing or flat bands (Wikipedia 'Slingshot')
+  - the elastic in braces on teeth (orthodontic elastics), and the thick elastic that holds ball-jointed dolls together (Wikipedia)
+- **when_to_use**: When you need a pull spring that is cheap, quick to try and easy to change: returning a printed finger, lever, latch or trigger to its rest position; holding a printed clamp or lid shut; keeping a nut or slider pressed against a screw to take out wobble; powering toys, catapults and rubber-band cars; or holding a string of parts together (dolls, tent-pole style sections). It is especially good when the part must stretch a long way compared with its size, when you want to tune the force by simply adding bands, when some damping is welcome, or when a soft, quiet pull is safer than a stiff steel spring.
+- **when_not_to_use**: Not where the force must stay the same for months or years, or where failure matters: rubber loses force and perishes, so use a steel extension spring (see Coil spring) or a constant-force spring. Not in heat, strong sunlight, ozone (near electric motors) or oil: use a steel spring, or at least an EPDM, silicone or Viton band. Not where it must push: use a compression spring. Not for precise or repeatable force (e.g. a measuring device): rubber drifts with time and temperature. Not where a snapping band could hit someone's face or eyes. Not hidden inside a part where it can't be replaced.
+- **environment_limits**: Heat: natural rubber's useful range is about -55 to +82 degC (Pooley); the e-NABLE Phoenix v2 remix replaced 'all the rubber bands' because they do not survive tropical heat. Sunlight, oxygen and ozone: natural rubber is 'damaged by aging, sunlight, oil and perspiration' (Wikipedia 'Natural rubber'); tiny traces of ozone crack natural, nitrile and styrene-butadiene rubbers, and cracks form in stretched parts at right angles to the stretch (Wikipedia 'Ozone cracking'); EPDM, fluoroelastomers (Viton), neoprene, silicone and polyurethanes resist ozone. Store spares cool, dark and away from motors and other ozone sources (APG: never above 120 degF, about 49 degC). Time: even indoors, rubber bands perished in weeks to months (Collins et al. 2020), and held stretched they lose force over hours (stress relaxation; Clin Exp Dent Res 2025) and slowly get longer under a steady load (creep; Wikipedia 'Stress relaxation'). Cold: below its glass transition rubber goes stiff and stops springing back, as with the Challenger O-rings (Wikipedia 'Natural rubber'). Warmth: a stretched band pulls harder when heated (Gough-Joule effect). Water: natural rubber absorbs water and its elasticity deteriorates (Wikipedia 'Elastics (orthodontics)').
+- **safety_notes**: Snap-back: a band or bungee cord that slips or breaks can lash back and cause serious eye or face injuries (Wikipedia 'Bungee cord'); in slingshots a band that fails at the fork end flies back at the user's face (Wikipedia 'Slingshot'). Stretch bands away from your face, wear safety glasses for strong bands and tubing, and replace cracked bands. Latex allergy: some people react seriously to natural rubber latex; latex-free bands made from synthetic rubber exist (Wikipedia 'Natural rubber', 'Rubber band'). Tight bands round fingers or limbs cut off blood flow (this is how elastration rings work; Wikipedia 'Rubber band'). Catapults and band-powered launchers store a lot of energy: never aim them at people or animals.
+- **common_failures**: 1) Perishing: the band goes sticky, hard or cracked and then snaps, usually sooner in heat, sunlight or near motors; replace on a schedule or switch to EPDM, silicone or Viton (Collins et al. 2020; Wikipedia 'Ozone cracking'). 2) Losing force (stress relaxation and creep): a finger or latch no longer fully returns; use a band with more stretch on at rest, add a second band, or re-tie the cord tighter (Clin Exp Dent Res 2025). 3) Cut or nicked by sharp printed edges or rough layer lines, then tearing: round and smooth every contact point (silicone in particular has poor tear resistance; Pooley). 4) Slipping off a post or hook: add a lip, groove or keeper. 5) Breaking at a knot: knots can halve the strength of rope (Knot & Rope Supply); use a proper knot and leave a tail. 6) Sticking in tunnels: friction stops the part returning fully; widen and smooth the tunnel (e-NABLE Phoenix v2 widened its tunnels). 7) Wrong material: nitrile O-rings crack in ozone and failed in OpenFlexure, which requires Viton (OpenFlexure troubleshooting). 8) Band embedded in the print cannot be replaced, so the whole part is scrap when it fails (Hackaday comment).
+- **related**: 
+  - Coil spring (extension spring): steel, steady and predictable force for many years, but much less stretch and needs hooks; the long-life choice
+  - Constant-force spring: pulls almost the same force over a long distance, where a rubber band's force changes a lot with stretch
+  - Printed leaf spring and other printed compliant springs: printed in one piece with the part, but plastic creeps and loses force (PLA especially)
+  - Shock-corded sectional pole: uses elastic cord only to pull tube sections home
+  - Spiral power spring (clock spring): a flat steel spiral that stores turning energy, where a rubber motor stores it by twisting
+  - Elastomer isolation mount (rubber bobbin, grommet): rubber used squashed or sheared to soak up vibration rather than stretched as a spring
+  - Series-elastic coupling: puts a deliberate spring (sometimes elastic) between a motor and its load to measure and soften force
+  - Pneumatic artificial muscle (McKibben muscle): a rubber tube inside a braid that pulls when pumped up with air
+
+### Pictures, videos and models
+
+- **links**: 
+  - [RubberBand.jpg (Hao-Nhien Q. Vu, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:RubberBand.jpg): Diagram of how a rubber band is measured: flat length, cut width and wall thickness *(licence: Public domain)*
+  - [Ozone cracks in tube1.jpg (Peterlewis, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg): Photo of ozone cracking in natural rubber tubing: the typical way rubber perishes, with cracks across the direction of strain *(licence: Public domain)*
+  - [Bungee Cord PICT6882a.jpg (Jmb, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg): Photo of small bungee cords with metal hooks (elastic cord in a woven cover) *(licence: CC BY 2.5)*
+  - [Modeling Rubber Band Cords Beyond Hooke's Law (Penn State interactive)](https://phys23p.sl.psu.edu/~mrg3/interactives/EJSS_mrg/ejss_model_Bungee_Hysteresis_Thermal_V2/ElasticHysteresisIntroduction.html): Measured force-stretch graphs of a rubber band stretched to almost 5 times its length and released, showing the curved, looping (hysteresis) behaviour *(licence: link only)*
+  - [OpenFlexure Microscope: Actuator assembly](http://rwb27.github.io/openflexure_microscope/docs/1_actuator_assembly.html): Step-by-step photos of fitting Viton O-ring 'elastic bands' into a printed mechanism with a printed insertion tool, so they pull a nut down onto a screw *(licence: link only (licence not checked))*
+- **make_it_yourself**: 
+  - [Rubber Band Spring Clamp (LoboCNC, Printables)](https://www.printables.com/model/617245-rubber-band-spring-clamp): Spring clamp printed flat in two halves held together by rubber bands; add bands to get the clamping force you want; scales from 50% to 100% *(licence: CC BY-SA)*
+  - [Rubber Band Clamp (Makers Making Change, Printables)](https://www.printables.com/model/476915-rubber-band-clamp): Simple printed clamp tensioned by rubber bands ('need more tension? use more/thicker rubber bands!'), needs 3 bolts and nuts *(licence: CC BY-SA)*
+  - [Spring latch sliding door bolt lock: rubber band, metal spring, 3D printed spring (Meister Edel, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/236902-spring-latch-sliding-door-bolt-lock-rubber-band-me): The same sliding bolt in three versions so you can compare a rubber band, a metal spring and a printed spring; the designer notes rubber bands work smoothly but 'get brittle and need to be replaced' *(licence: CC BY-NC-SA)*
+  - [Joystick Fidget (Using Rubber Band Spring) (Eric Woo-Shem, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1347249-joystick-fidget-using-rubber-band-spring): Self-centring joystick sprung by two small orthodontic-size rubber bands crossed over hooks *(licence: CC BY)*
+  - [Rubber Band Catapult (Vojtech Ruzicka, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/145372-rubber-band-catapult): Small printed catapult powered by one rubber band, to feel how much energy a band stores (wear glasses; never aim at people) *(licence: CC BY-NC)*
+  - [The Raptor Reloaded (e-NABLE)](https://enablingthefuture.org/upper-limb-prosthetics/raptor-reloaded/): Open-source printed prosthetic hand whose fingers are bent by non-stretchy cords and pulled straight again by elastic cords; links to files and assembly instructions *(licence: not stated on the page (e-NABLE acceptance terms apply))*
+- **diagram_idea**: A printed finger with two strings: a non-stretchy cord on the palm side that bends it when pulled, and a rubber band on the back side (shown relaxed and stretched) that pulls it straight again, with a small force-versus-stretch graph showing the curved loading line, the lower unloading line, and a dashed line showing the pull fading after a day.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Rubber_band (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Bungee_cord (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Natural_rubber (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Ozone_cracking (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Rubber_elasticity (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Mullins_effect (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Stress_relaxation (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Gough%E2%80%93Joule_effect (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/EPDM_rubber (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Elastics_(orthodontics) (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Slingshot (read as raw wikitext)
+  - https://en.wikipedia.org/wiki/Speargun (read as raw wikitext; latex tubing bands about one third of the barrel length)
+  - https://en.wikipedia.org/wiki/Ball-jointed_doll (read as raw wikitext)
+  - https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2020.594196/full (Cabibihan et al., 'Suitability of the Openly Accessible 3D Printed Prosthetic Hands for War-Wounded Children', Frontiers in Robotics and AI, 2021)
+  - https://enablingthefuture.org/phoenix-hand/ (e-NABLE Phoenix v2: rubber bands replaced for tropical heat; elastic cord tunnels)
+  - https://enablingthefuture.org/upper-limb-prosthetics/raptor-reloaded/
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11783226/ ('Force Degradation of Intermaxillary Latex Elastics: Comparative In Vitro and In Vivo Study', Clinical and Experimental Dental Research 2025, CC BY 4.0; full text also read via NCBI E-utilities)
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7249832/fullTextXML (Collins et al., 'Robotic microscopy for everyone: the OpenFlexure microscope', Biomedical Optics Express 2020, CC BY 4.0, PMC7249832)
+  - https://build.openflexure.org/openflexure-microscope/master/troubleshooting.html
+  - http://rwb27.github.io/openflexure_microscope/docs/1_actuator_assembly.html
+  - https://gitlab.com/openflexure/openflexure-microscope/-/merge_requests/159 (printed TPU tension band; anecdotal report)
+  - https://www.knotandrope.com/products/1-8-shock-cord-1000-spool (Knot & Rope Supply shock cord specifications and rope strength notes)
+  - https://www.pooleyinc.com/wp-content/uploads/Common-Properties-of-Rubber-Elastomers.pdf (Pooley Inc., 'Common Properties of Rubber Elastomers')
+  - https://knowledge.callapg.com/blog/how-long-do-elastomers-last (APG, 'The Shelf Life of Elastomers')
+  - https://phys23p.sl.psu.edu/~mrg3/interactives/EJSS_mrg/ejss_model_Bungee_Hysteresis_Thermal_V2/ElasticHysteresisIntroduction.html
+  - https://www.vernier.com/vernier-ideas/elastic-hysteresis-of-a-rubber-band/
+  - https://hackaday.com/2023/02/26/rubber-bands-and-o-rings-give-3d-prints-some-stretch/ (article and comments)
+  - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/ (article and comments)
+  - https://www.mcmaster.com/products/rubber-bands/ (product family names only)
+  - https://api.printables.com/graphql/ (Printables API: models 617245, 476915, 236902, 1347249, 145372)
+  - https://commons.wikimedia.org/wiki/File:RubberBand.jpg
+  - https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg
+  - https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing
+
+## 293 Variable-radius pulley (fusee, compound-bow cam)
+
+*springs & energy storage.* A pulley or cam whose radius changes as it turns, evening out a spring's pull (a clock's fusee) or easing the pull at full draw (a compound bow's let-off)
+
+### What it is
+
+- **plain_name**: A pulley that isn't round, or is cone-shaped with a spiral groove, so the cord winds on at a changing distance from the centre; that changes the leverage as it turns, evening out a spring's pull or making a heavy pull go light near the end
+- **term**: Variable-radius pulley (non-circular or spiral pulley), including the fusee and the compound-bow cam
+- **aliases**: 
+  - fusee, fusee and chain, fusee cone (Wikipedia, Fusee (horology); 507 Mechanical Movements no. 46)
+  - going fusee (with maintaining power), drunken fusee (winds either way) (Wikipedia, Fusee)
+  - spiral pulley, conical spiral pulley (patent US7677540)
+  - non-circular pulley, noncircular pulley, differential noncircular pulleys (Fedorov and Birglen 2018; Ludovico et al. 2021)
+  - tapered drum, conical drum (tapered-drum tool balancer; Hubbell Gleason (brand) spec sheet)
+  - cam, cam wheel, eccentric, bow eccentrics; single cam, hybrid cam, dual cam, binary cam (Wikipedia, Compound bow)
+  - let-off cam (Wikipedia, Compound bow)
+  - logarithmic-spiral cam, Nautilus cam (exercise machines; Wikipedia, BowFlex, Inc.)
+  - stackfreed (an older friction cam compensator; Wikipedia, Fusee)
+- **family**: springs & energy storage
+- **other_families**: gear trains, gearboxes & transmissions, motion conversion, tensioning, reels & take-up
+- **one_liner**: A variable-radius pulley changes the leverage between a cord and a shaft as it turns, so a spring whose force changes can give a steady turning force (a clock's fusee, a tool balancer's tapered drum) or a force that follows a chosen curve (a compound bow's let-off, a gym machine's cam, a robot arm's gravity balancer).
+- **complexity**: A few parts: the shaped pulley (a cone with a spiral groove, or a flat cam-shaped wheel with a groove), a cord, cable or chain, the spring it works against (a mainspring in a barrel, bow limbs, a coil spring), a shaft and bearings. Clock fusees add a ratchet and click inside the fusee, a winding stop and often maintaining power (Wikipedia, Fusee). Compound bows add a second cam or an idler wheel, buss cables and adjustable draw stops (Wikipedia, Compound bow).
+- **how_it_works**: Turning force (torque) equals the cord's pull times the radius at the point where the cord leaves the pulley. In a fusee the strong pull of a fully wound mainspring acts on the narrow top of the cone, and as the spring weakens the chain comes off ever wider grooves, so the bigger radius makes up for the weaker pull and the clock gets a nearly constant driving force (Wikipedia, Fusee; 507 Mechanical Movements no. 46). A compound bow's cam does the opposite: the archer starts on the 'short' side of the cam at a mechanical disadvantage, then the cam rolls over so that near full draw the archer has the advantage and holds only a fraction of the peak force, the 'let-off' (Wikipedia, Compound bow). In general the pulley's outline can be calculated to turn a spring's straight-line force into almost any torque curve, as long as the outline stays convex so the cord can wrap it (Ludovico et al. 2021).
+
+### Finder attributes
+
+- **job**: 
+  - store energy: shapes how a spring's stored energy is given out or taken in (steady in a fusee, peaking early in a compound bow) (Wikipedia, Fusee; Compound bow)
+  - change speed or turning force: changes the leverage between cord and shaft continuously as it turns
+  - change the kind of motion: turns a cord's straight pull into rotation of a shaft, with a ratio that changes along the stroke
+- **degrees_of_freedom**: 1: the pulley turns on its shaft and the cord's position is tied to that angle
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): converts a cord pull into a shaft rotation with a ratio that changes on purpose along the stroke
+  - one-way (moves freely one way, locks the other): a clock fusee has a ratchet between the fusee and its gear so winding doesn't drive the clock backwards (Wikipedia, Fusee); this is an add-on, not part of the pulley itself
+  - tensioning (takes up slack and holds): a tapered-drum tool balancer keeps the tool hanging at the height it is left, taking up cable as it rises (Hubbell Gleason spec sheet)
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it passes force from a spring to a shaft
+  - shape (the parts interlock; form-fit): the cord or chain runs in a groove and its end is hooked or anchored to the pulley (Wikipedia, Fusee: round grooves for cords, rectangular for chains)
+- **input_output**: Input: cord, cable or chain pull (straight line) <-> output: shaft torque (rotation); the ratio at any moment is the radius where the cord leaves the pulley, and it changes with angle. Fusee: converts the mainspring's falling pull into an almost constant torque (Wikipedia, Fusee; US7677540: 'converting the linearly increasing torque from a power spring into a constant torque'). Compound bow: peak weight early in the draw, then let-off, 'commonly between 65% and 80% of the peak weight', some over 90% (Wikipedia, Compound bow). Efficiency: friction losses are noticeable; a 3D-printed noncircular-pulley balancer with an idler pulley showed hysteresis of 17% of its torque range (Fedorov and Birglen 2018). Shaft arrangement: cord tangent to the pulley; in a fusee the barrel and fusee shafts are parallel. Back-drivable: yes, the spring always pulls back unless a ratchet or the user holds it.
+- **power**: passive (no power needed): it only reshapes the force from a spring or the user; a passive gravity-compensating pulley lets a robot arm hold its position with no power, avoiding collapse if the motors fail (Ludovico et al. 2021)
+- **removability**: removable: the cord or chain unhooks and the pulley comes off its shaft, but only after the spring is let down; compound bows need a bow press to take tension off the cables for string changes and adjustments (Wikipedia, Compound bow)
+- **reuse_cycles**: many times
+- **tools_needed**: 'everyday tools' to adjust a tool balancer's spring from outside the housing (Hubbell Gleason spec sheet). *(unverified parts omitted)*
+- **seal**: none
+- **load**: light to medium: clock fusees carry small chain forces; compound bows handle draw weights of about 40 to 80 lb (18 to 36 kg) for adults (Wikipedia, Compound bow); tool balancers hold hand tools over a work area (Hubbell Gleason). The cord or chain is the weak point: a broken fusee chain whips about inside the clock (Wikipedia, Fusee). Strong only in cord tension; it can't push.
+- **adjustable**: Partly: the profile is fixed once made, so a fusee had to be readjusted when its mainspring was replaced (Wikipedia, Fusee); tool balancers have adjustable spring tension (Hubbell Gleason); compound bows have adjustable draw stops, and draw length and let-off can be changed, usually with a bow press (Wikipedia, Compound bow).
+- **play_and_precision**: Small play, but the output only matches the target curve if the cord follows the designed path: a cord that isn't tangent to the groove (fleet angle) rubs and wears (US7677540), planar profile calculations drift from a real 3D spiral at large angles (Fedorov and Birglen 2018), and friction adds hysteresis (17% in a printed prototype; others reported 8.6% and 10% errors) (Fedorov and Birglen 2018).
+- **access_needed**: not applicable: it is built into a mechanism (on a shaft end or between two shafts) rather than fitted from one side
+- **materials**: Clock fusees: brass and steel with a gut cord, wire or fine steel chain, chains being used from about 1650 because they lasted longer (Wikipedia, Fusee). Tool balancers: die-cast aluminium housing and steel wire rope (Hubbell Gleason). Maker builds: 3D-printed ABS pulleys with polyethylene-fibre (Spectra) cable, chosen for strength and very low stretch, and laser-cut acrylic frames (Fedorov and Birglen 2018). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: printing the pulley is easy, but the profile must be calculated for your spring and load and the cord kept in its groove; 'Spiral pulleys and fusees are poorly understood and difficult to design' (US7677540)
+
+### Making it
+
+- **processes**: 3D print (FDM): noncircular and spiral pulleys and cams (ABS in Fedorov and Birglen 2018); toy compound-bow cams (Printables 264536; Thingiverse 2764962) *(unverified parts omitted)*
+- **print_in_place**: no: the pulley is printed on its own and then fitted with a shaft or bearing, a cord or cable, and a spring
+- **making_tips_3d_printing**: 1) Work out the profile first: the radius where the cord leaves the pulley times the cord's pull gives the torque, so for a steady torque from a spring whose force falls, the radius must grow in proportion (Wikipedia, Fusee; derived). Published methods: a closed-form solution and a convex-optimisation method (Ludovico et al. 2021) and a graphical method with antagonistic pulleys (Fedorov and Birglen 2018). 2) Keep the outline convex with no sharp points, or the cord can't wrap it (Ludovico et al. 2021). 3) A single pulley wound one way can only give a force that keeps rising or keeps falling; for a torque that changes direction, use two pulleys working against each other (Fedorov and Birglen 2018). 4) Angle the groove flanges towards where the cord leaves (towards the idler), not square to the axle, because sudden movements can throw the cable out of the groove (Fedorov and Birglen 2018). 6) Lay a multi-turn profile out as a spiral groove, as a fusee does, and keep the fleet angle small so the cord doesn't rub the groove walls (US7677540). 7) ABS worked for the pulleys in Fedorov and Birglen's prototypes; PLA gives at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). 8) Anchor the cord end through a hole or knot in the pulley, and add a ratchet if the spring must not run the output backwards while you wind it (Wikipedia, Fusee). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Related constant-torque parts: 'constant torque spring motor'. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Torque = cord pull x radius at the take-off point; a fully wound mainspring pulls on the smallest radius of the fusee and the run-down spring on the largest (Wikipedia, Fusee; 507 Mechanical Movements no. 46).
+  - The ideal fusee is not a simple cone but closer to a hyperboloid (Wikipedia, Fusee).
+  - Groove shape: circular cross-section for cords, rectangular for chains (Wikipedia, Fusee).
+  - The pulley outline must stay convex, its radius must not run off to infinity, and it must have no points where the rope can't wrap (Ludovico et al. 2021).
+  - One pulley winding one way gives only a strictly increasing or decreasing function; two antagonistic pulleys give a two-way torque (Fedorov and Birglen 2018).
+  - Expect friction hysteresis: 17% of the compensated torque range in a 3D-printed ABS balancer with one idler pulley (Fedorov and Birglen 2018).
+  - Cables rub and wear on the groove sides when they aren't tangent to the groove (the fleet angle) (US7677540).
+  - Compound bows: let-off commonly 65-80% of peak weight (older bows about 50%, some over 90%); arrows should weigh at least 5 grains per pound of draw weight (IBO) to avoid damage like a dry fire (Wikipedia, Compound bow).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Antique spring-driven clocks, English pocket watches and marine chronometers with a fusee and chain (Wikipedia, Fusee)
+  - Compound bows, whose cams make the full-draw hold much lighter than the peak pull (Wikipedia, Compound bow)
+  - Tool balancers hanging above assembly lines, whose tapered drum keeps a tool floating at the height you leave it (Hubbell Gleason spec sheet)
+  - Nautilus-style gym machines with a spiral cam that varies the resistance through the movement (Wikipedia, BowFlex, Inc.; Arthur Jones)
+- **when_to_use**: Use a variable-radius pulley when a spring's force changes but you need a steady force or torque, or when you want the force to follow a particular curve: a spring-driven clock or toy motor that should run evenly (fusee), a counterbalance that holds a lamp, camera arm, robot joint or tool weightless over its whole range (tapered drum, noncircular pulley; Hubbell Gleason; Ludovico et al. 2021), a bow, catapult or exercise device that should be heavy early and light to hold (compound-bow cam; Nautilus cam), or a cable robot that must follow a set path from one motor (Fedorov and Birglen 2018).
+- **when_not_to_use**: If a nearly constant force is all you need, a constant-force spring or constant-torque spring motor is simpler, though such springs 'store less energy per pound and ... have a shorter life' (US7677540); clockmakers likewise replaced the fusee with a going barrel that uses only the flat part of a long mainspring's curve (Wikipedia, Fusee). If you need to change the force curve often, use a motor with control instead, since the profile is fixed (Fedorov and Birglen 2018). If the force must push as well as pull, a cord can't do it; use non-circular gears or a cam and follower. For compact or very low-friction designs, the extra bulk and friction may outweigh the benefit (Wikipedia, Fusee: bulky; Fedorov and Birglen: friction).
+- **environment_limits**: Cords stretch and creep, and gut cords were replaced by chains around 1650 because chains lasted longer (Wikipedia, Fusee). Compound bows are less sensitive to temperature and humidity than traditional bows (Wikipedia, Compound bow). Printed pulleys: PLA gives at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). *(unverified parts omitted)*
+- **safety_notes**: Stored spring energy: if a fusee chain breaks, 'the force of the mainspring sent the end whipping about the inside of the clock' (Wikipedia, Fusee); let a spring down before taking the cord off. Compound bows store a lot of energy: dry firing (releasing without an arrow) can damage or destroy the bow and injure the archer or bystanders, and arrows lighter than about 5 grains per pound of draw weight risk the same (Wikipedia, Compound bow; Dry fire); string and cable work needs a bow press (Wikipedia, Compound bow). Tool balancers should hang with a safety chain, and good ones have a catch that 'prevents free-spooling if springs fail' (Hubbell Gleason spec sheet). *(unverified parts omitted)*
+- **common_failures**: 1) Cord rubbing on the groove walls and wearing because of a large fleet angle (US7677540). 2) Cord or cable jumping out of the groove on a sudden movement; angle the flanges towards the cord's exit (Fedorov and Birglen 2018). 3) A bowstring derailing from the cams when the archer twists (torques) it, more likely when drawing with fingers instead of a release aid (Wikipedia, Compound bow). 4) Fusee chain breaking (Wikipedia, Fusee). 5) Profile no longer matching after a spring is replaced or has weakened (Wikipedia, Fusee). 6) Larger-than-expected friction and hysteresis, especially with extra idler pulleys (Fedorov and Birglen 2018). 7) Calculated profiles that are not convex or have points the cord can't wrap (Ludovico et al. 2021).
+- **related**: 
+  - Spiral power spring (clock spring): the spring a fusee was invented to even out
+  - Constant-force spring (spring-return reel): gives a nearly flat force on its own, with no shaped pulley, but stores less energy per pound (US7677540)
+  - Spring balancer (gravity compensation): holds a weight steady; tapered-drum balancers use a variable-radius drum inside (Hubbell Gleason)
+  - Non-circular gears: change the ratio along the turn with teeth instead of a cord, so they can push both ways
+  - Cam and follower: a shaped wheel that moves a follower by contact, rather than winding a cord
+  - Capstan and windlass, and pulley system (block and tackle): fixed-ratio cord drives
+  - Escapement: the timekeeping part whose accuracy the fusee protected
+  - Stackfreed: an older, high-friction cam compensator replaced by the fusee (Wikipedia, Fusee)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:Fusee.png (Wikimedia Commons; woodcut by Dionysius Lardner)](https://commons.wikimedia.org/wiki/File:Fusee.png): Fusee and mainspring barrel in the wound and run-down states, with chain, fusee, winding arbor and output gear labelled *(licence: public domain)*
+  - [File:Compound Cams Auszug Weg&Hebel.jpg (Wikimedia Commons, StromBer)](https://commons.wikimedia.org/wiki/File:Compound_Cams_Auszug_Weg%26Hebel.jpg): A compound-bow cam wheel at work, with coloured ropes showing how the lever arms change during the draw *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [File:Compound bow chart.svg (Wikimedia Commons, MiklyxoMaklai)](https://commons.wikimedia.org/wiki/File:Compound_bow_chart.svg): Draw-force curve of a compound bow: force against draw length, peaking early and dropping at full draw (let-off) *(licence: CC BY-SA 4.0)*
+  - [507 Mechanical Movements no. 46: Fusee chain and spring-box (Brown, 1868; animated)](https://507movements.com/mm_046.html): Animated fusee and spring barrel: 'The chain is on the small diameter of the fusee when the watch is wound up' *(licence: book public domain; website animation link only)*
+  - [Full Rotation Static Balancer Using Differential Noncircular Pulleys (YouTube, PolyLabrobot; title confirmed through YouTube oEmbed, video not watched; cited in Fedorov and Birglen 2018)](https://www.youtube.com/watch?v=yUw34IeZnIM): A 3D-printed noncircular-pulley mechanism balancing a pendulum over a full turn *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Cam for Compound Bow (Patrick Boschian, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/264536-cam-for-compound-bow): A simple printable cam for a toy compound bow, designed from photos of real cams *(licence: CC BY)*
+  - [Differential Noncircular Pulleys for Cable Robots and Static Balancing (Fedorov and Birglen, Journal of Mechanisms and Robotics 2018; accepted version from PolyPublie)](https://pdfs.semanticscholar.org/3abb/deb9722c008e6c5747bfcfe42150f1dfd99c.pdf): Open-access paper with a graphical method for designing noncircular pulleys and two built prototypes (3D-printed ABS pulleys, Spectra cable, laser-cut acrylic) *(licence: CC BY (accepted version))* *(unverified parts omitted)*
+- **diagram_idea**: Two frames side by side of a mainspring barrel joined by a chain to a cone-shaped fusee: wound up, a thick force arrow on the chain meets the fusee's narrow end with a short lever arm; run down, a thin force arrow meets the wide end with a long lever arm, and the same-size torque arrow on the fusee in both frames shows the force evening out.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Fusee_(horology)
+  - https://en.wikipedia.org/wiki/Compound_bow
+  - https://en.wikipedia.org/wiki/Dry_fire
+  - https://en.wikipedia.org/wiki/Arthur_Jones_(inventor)
+  - https://en.wikipedia.org/wiki/BowFlex,_Inc.
+  - https://507movements.com/mm_046.html
+  - https://patents.google.com/patent/US7677540B1/en
+  - https://elib.dlr.de/141572/1/2021_RAL_Design%20of%20Non-Circular%20Pullyes.pdf
+  - https://pdfs.semanticscholar.org/3abb/deb9722c008e6c5747bfcfe42150f1dfd99c.pdf
+  - https://www.ergonomicpartners.com/pdf/hubbell-gleason-spring-balancer-specs.pdf
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://commons.wikimedia.org/wiki/File:Fusee.png
+  - https://commons.wikimedia.org/wiki/File:Compound_Cams_Auszug_Weg%26Hebel.jpg
+  - https://commons.wikimedia.org/wiki/File:Compound_bow_chart.svg
+  - https://commons.wikimedia.org/wiki/File:Free_mainspring_torque_curve.svg
+  - https://commons.wikimedia.org/wiki/Category:Compound_bows
+  - https://www.youtube.com/watch?v=yUw34IeZnIM
+  - https://www.thingiverse.com/thing:2764962
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, make_it_yourself, making_tips_3d_printing, materials, motion, off_the_shelf_parts, processes, safety_notes, tools_needed
 
