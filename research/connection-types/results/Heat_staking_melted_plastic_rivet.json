@@ -16,7 +16,8 @@
     ],
     "family": "print-in-place & 3D-printing joints",
     "other_families": [
-      "interlocking joints & joinery"
+      "interlocking joints & joinery",
+      "welding, brazing & soldering"
     ],
     "one_liner": "A post on one plastic part is pushed through a hole in another part and its end is melted and pressed into a head, locking the parts together for good with no screw, rivet or glue.",
     "complexity": "A few parts, but no separate fastener: (1) the plastic part with one or more posts (studs or bosses) moulded or printed on it, (2) the part to be held, with a hole for each post, often with a countersink or chamfer to receive the melted plastic, and (3) a heated tool (a soldering iron at home, or a shaped hot tip, hot air, infrared or ultrasonic horn in a factory) that forms the head (Branson; Wikipedia; Richard Sewell's heat-staking notes).",

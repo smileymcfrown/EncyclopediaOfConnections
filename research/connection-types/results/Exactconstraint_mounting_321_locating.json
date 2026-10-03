@@ -13,7 +13,9 @@
       "cone (or tetrahedron), vee and flat coupling / Kelvin clamp: a kinematic coupling with its six contacts arranged 3-2-1"
     ],
     "family": "locating & alignment",
-    "other_families": [],
+    "other_families": [
+      "adjusters, levellers & spacers"
+    ],
     "one_liner": "A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part: three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles in the same position without being held twice over, bent or left wobbling.",
     "complexity": "A design rule more than a part: a base, jig or frame with six small contact points (rest buttons, pins, rounded bumps, ball-ended screws or short edges), plus something that pushes the part into them (its own weight, a spring plunger, a clamp or magnets). A flat part sliding on a table needs only three points in the plane: two along one edge and one on another.",
     "how_it_works": "A loose solid part can move in six ways: slide along three directions and turn about three axes. Each small contact point stops one of those movements, so six well-placed points fix the part exactly: three points under its main face stop it dropping and tipping either way, two points along a side stop it sliding sideways and swivelling flat, and one point at the end stops the last slide. A 'nesting force' (weight, a spring or a clamp) pushes the part so it touches all six at once. Add a seventh point doing the same job (over-constraint) and the part rocks on the high point or has to bend to touch them all, like a four-legged chair on an uneven floor; leave one out (under-constraint) and it can slide or rattle."

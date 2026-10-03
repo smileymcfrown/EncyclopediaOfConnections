@@ -12,7 +12,9 @@
       "threaded fastener, threaded connection"
     ],
     "family": "clamping, magnetic & friction connections",
-    "other_families": [],
+    "other_families": [
+      "everyday fasteners & fixings"
+    ],
     "one_liner": "A threaded fastener passes through clearance holes and is tightened into a nut or a tapped hole, stretching slightly like a stiff spring so it clamps the parts together; it is the standard removable joint that other connections are compared with.",
     "complexity": "A few parts: a bolt or machine screw (head, shank, thread), a nut or a threaded (tapped) hole in one part, and usually one or two washers; sometimes a locking part such as a nylon-insert nut or threadlocker (Wikipedia 'Bolted joint'; Wikipedia 'Washer (hardware)').",
     "how_it_works": "Turning the head or nut makes the bolt climb its thread, which stretches the bolt a tiny amount and squeezes the parts together with an equal force (preload or clamp load) (Wikipedia 'Bolted joint'). The squeezed parts then hold by friction, so sideways (shear) loads are carried by friction between the faces rather than by the bolt, and pulling loads are shared between bolt and parts, with the bolt typically seeing only about 10-20% of the extra load in a well-designed joint (Wikipedia 'Bolted joint'). If the joint is not tightened much, sideways loads are carried by the bolt pressing on the sides of its holes instead (bearing-type joint). Undoing the nut or screw releases the clamp so the parts can be separated and the joint reused."

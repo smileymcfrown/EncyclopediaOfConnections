@@ -13,7 +13,8 @@
     ],
     "family": "adhesives & bonding",
     "other_families": [
-      "locating & alignment"
+      "locating & alignment",
+      "welding, brazing & soldering"
     ],
     "one_liner": "A tough plastic (polycaprolactone) that softens in hot water at about 60 °C, so you can shape it by hand into grips, brackets, clips, moulds and repairs that lock round other parts as they cool, then reheat it later to adjust or reuse it.",
     "complexity": "Single piece: one material, usually sold as pellets about 3-3.5 mm across (Perstorp Capa 6800 data sheet; Wikimedia Commons 'PCL beads'), and also as sheets, strips, colour pellets and filament (Polly Plastics FAQ; Printables). Helpers: a bowl or pan of hot water (or a heat gun or hair dryer), tongs or a spoon, parchment paper or glass to work on, scissors to trim it while warm (Polly Plastics instructions; Adafruit Learn edge-guard guide).",

@@ -14,7 +14,8 @@
     ],
     "family": "print-in-place & 3D-printing joints",
     "other_families": [
-      "clamping, magnetic & friction connections"
+      "clamping, magnetic & friction connections",
+      "welding, brazing & soldering"
     ],
     "one_liner": "A knurled metal nut-like sleeve pressed into a plain hole with a hot soldering iron, so the melted plastic grips it and the part gets strong, reusable metal threads.",
     "complexity": "A few parts: the insert (a short brass sleeve, knurled or ridged outside and threaded inside), the printed part with a plain hole sized for it, and the screw or bolt that later goes into it. Installing it needs a soldering iron, ideally with a matching insert tip.",

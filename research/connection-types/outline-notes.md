@@ -1,6 +1,6 @@
 # Run 2 outline: how it was built
 
-**Date:** 2026-09-26, items 275-299 added 2026-09-29, items 300-323 on 2026-09-30 · **Files:** `outline.yaml` (323 items, 26 families), `fields.yaml`
+**Date:** 2026-09-26, items 275-299 added 2026-09-29, items 300-323 on 2026-09-30, items 324-409 on 2026-10-03 · **Files:** `outline.yaml` (409 items, 31 families), `fields.yaml`
 (41 fields), `preferred-sources.md` (run 1's collections for the research agents)
 
 ## Steps
@@ -23,10 +23,15 @@
 | 3 | 257-274 | One generic baseline entry per family |
 | added | 275-299 | Added 2026-09-29 with `/research-add-items`: tier 1 types first (275-290), then tier 2 (291-299, joinery last) |
 | added | 300-323 | Added 2026-09-30: the new *hydraulics, pneumatics & vacuum* family (2 baselines, then tier 1 302-309, then tier 2 310-323) |
+| added | 324-409 | Added 2026-10-03 (R22, wider scope): the five new families' baselines (324-328), then tier 1 (329-345, joinery last), then tier 2 (346-409) |
 
 At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 items take 16.
 
 ## Family changes
+- **New (2026-10-03): electrical connections; everyday fasteners & fixings; knots, lashings &
+  sewn joints; adjusters, levellers & spacers; welding, brazing & soldering.** See the section on
+  items 324-409 below. The cord family kept its key, but its label is now *Hardware for rope,
+  cord, straps, fabric and leather*.
 - **New (2026-09-30): hydraulics, pneumatics & vacuum.** See the section on items 300-323 below.
 - **New: seals & pass-throughs.** The `seal` finder field had no entries that actually seal
   (O-ring, gasket, labyrinth seal, hose barb, cable gland, compression fitting), plus slip
@@ -103,17 +108,59 @@ At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 
 - **Not changed:** the fixed `job` options (see `review-notes.md`). Near-misses the search rejected
   (compressors, air motors, air cannons and more) are in `fluid-power-search-2026-09-29.md`.
 
+## Added on 2026-10-03 (R22): wider scope, five new families
+- **Why:** the owner asked how far the scope could go while staying focused on the main goal,
+  then chose to bring in every near-scope group: electrical connections; standard hardware as
+  types; heat and fusion joining; rope, knots and sewn joints; mounting standards; pipe and
+  plumbing joints; moving and adjusting basics; earlier near-misses; and ideas from the medical
+  field that makers can reuse. Kept out: catalogues of sizes and part numbers, whole machines and
+  systems, making processes that don't join anything, projectile launchers, and medical use (the
+  scope test and the medical rule are in `PROJECT.md`, Scope).
+- **How:** one web-search agent per group (six in all), each checking its candidates against all
+  323 result files and the earlier near-miss lists. The owner confirmed one combined list:
+  `scope-search-2026-10-03-combined.md`. Each group's full write-up, with every page opened, is in
+  `scope-search-2026-10-03-<group>.md` (electrical, hardware, rope-and-sewing,
+  mounting-and-adjusting, near-misses-and-medical, heat-and-pipe).
+- **Items 324-409** (86): 22 electrical connections; 14 hardware types (9 in the new fasteners
+  family, plus hose clamp, screw-in insert, edge trim, shackle and tamper-resistant fasteners in
+  existing families); 21 rope, knot and sewing types (14 in the new knots family, 5 in the cord
+  family, plus printing onto fabric and iron-on fusible web); 11 mounting and adjusting types (4
+  in the new adjusters family); 6 earlier near-misses (in-line swivel, printed chainmail,
+  multi-point bolt, strut hub, flywheel, tensegrity); 12 heat and pipe types (9 in the new
+  welding family, 3 pipe joints in seals & pass-throughs). The medical search found no new
+  top-level types; its ideas go into notes.
+- **Moved:** *Eccentric adjuster* (129) into *adjusters, levellers & spacers*; its result file's
+  `family` was changed and its old family added to `other_families`.
+- **Tagged** in `other_families` of researched entries: electrical connections (286, 135);
+  everyday fasteners & fixings (257, 260, 222, 274); adjusters, levellers & spacers (188, 150,
+  146, 235, 73); welding, brazing & soldering (139, 141, 297, 56, 61); knots, lashings & sewn
+  joints (154, 153, 121, 122, 149, 155).
+- **Notes additions to researched entries (about 70) are not in the outline yet.** The report
+  shows outline notes as "Also covers", so adding them before the entries are updated would claim
+  content the entries don't have. They are listed in section 7 of the combined file and are
+  applied in an update pass after items 324-409 are researched.
+- **New research rules** (`fields.yaml`): electrical connections (no mains instructions; a fixed
+  rating lead-in in `load`), heat joining (burns, fire, fumes, arc light), knots (grouped by job,
+  ABOK numbers through Wikipedia, tying steps linked out) and mounting standards (named, not
+  copied).
+- **Not changed:** the 15 fixed `job` options. Electrical entries use the existing options, and
+  the finder gets a new first-question answer, "Connect wires or power", routed by family. No new
+  field: an `electrical_rating` field and a `fits_standard` field were both considered and left
+  out, because every one of the finished result files would need them.
+
 ## Suggested but left out (easy to add later with `/research-add-items`)
-- **Borderline scope (owner to decide):** electrical joints (crimp terminals, conductive
-  adhesives, adhesive-lined heat-shrink); plastic welding of prints (friction/spin welding),
-  since welding is out of scope.
-- **Standard hardware:** hose and band clamps, hollow-wall anchors, spring (roll) pins, tension rods.
-- **Niche or near-duplicates:** swivels, Chicago screws, eyelets and grommets, crimped wire-rope
-  sleeves, electroadhesion grippers, programmable (correlated) magnets, magnetic springs,
-  flywheels, print-in-place chainmail, central-locking articulated arms, iron-on fusible web,
-  multi-point (espagnolette) locks, lost-motion pin-in-slot links, geodesic strut hubs.
+- *Brought in on 2026-10-03 (R22):* everything this list held before then except tension rods,
+  either as an entry (electrical joints, plastic welding, hose clamps, hollow-wall anchors, spring pins, threaded
+  rod, swivels, Chicago screws, eyelets and grommets, crimped wire-rope sleeves, flywheels,
+  printed chainmail, iron-on fusible web, multi-point locks, strut hubs) or as a notes addition
+  for the update pass (electroadhesion grippers, programmable magnets, magnetic springs,
+  central-locking arms, lost motion). What the R22 searches rejected is listed in each
+  `scope-search-2026-10-03-*.md` file and, in short, in the combined file.
+- **Still left out:** tension rods, which no R22 search covered as a type (threaded rod used as a
+  tie rod is in 371).
 
 ## Fields suggested but not added
-cost band, size range, maintenance, standards and ecosystems, trade names (brand names go in
+cost band, size range, maintenance, standards and ecosystems (and, on 2026-10-03, `fits_standard`
+and `electrical_rating`), trade names (brand names go in
 `aliases`, marked as brands), Wikidata/Wikipedia ID (goes in `links`), fit clearances (goes in
 `making_tips_3d_printing` and `rules_of_thumb`), operation (one-handed, click feedback).

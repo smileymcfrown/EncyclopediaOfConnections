@@ -15,7 +15,8 @@
     "family": "sliding, telescoping & linear motion",
     "other_families": [
       "motion conversion",
-      "locating & alignment"
+      "locating & alignment",
+      "adjusters, levellers & spacers"
     ],
     "one_liner": "One turn of a screw carrying two threads of slightly different pitch moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.",
     "complexity": "A few parts: a screw (spindle) with two threads of slightly different pitch, or two standard screws joined end to end, or a threaded sleeve with one pitch outside and another inside; a fixed nut; a second nut on the part being adjusted, kept from turning by a slot, square tube or guide; a knob or thimble; and often a small spring that pushes the moving nut to take up play.",

@@ -18,7 +18,8 @@
       "one-way & ratchet",
       "self-locking & anti-back-drive",
       "quick-release & tool-free",
-      "tensioning, reels & take-up"
+      "tensioning, reels & take-up",
+      "knots, lashings & sewn joints"
     ],
     "one_liner": "A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.",
     "complexity": "single piece: one moulded or cast block (two ridged walls joined by a base), fixed with two screws or bolts. Some versions add a built-in fairlead (guide loop) that steers the rope into the teeth, a becket (a loop to tie a rope end to), a cage or keeper that holds the rope near the cleat, or a tapered pad to set the angle.",
