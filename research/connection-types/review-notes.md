@@ -152,6 +152,7 @@ Collected from the agents' hand-back reports for the items added with the wider 
   Lincoln's own site was blocked (*Welded metal joint*).
 - *Pogo pin*: the Harwin leaf-spring contact figures (10,000 cycles) were checked only through a WebFetch quote of the page, not the raw page text.
 - *Soldered wire joint*: the NASA-STD-8739.4A PDF is a US government publication (generally public domain in the US); its licence is marked [uncertain] in `links`. *Basic knots*: Ian's Shoelace Site shows curl a captcha, so it was read through WebFetch and used for one qualitative point only.
+- Licences not stated: Adafruit Learning System guides, the Yale OpenHand T42 fabrication PDF (marked [uncertain]). gm0 is CC BY-NC 2.0 (link, don't copy). A Hackaday heat-staking article cited in an earlier entry does not contain the 'fumes' quote attributed to it; *Printing onto fabric* cites Wikipedia's *Health and safety hazards of 3D printing* instead. Check that earlier entry before publishing.
 
 ### Conflicting figures and content points
 - *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum
@@ -162,10 +163,12 @@ Collected from the agents' hand-back reports for the items added with the wider 
 - *Soldered wire joint*: tinning wire ends for screw terminals. SparkFun suggests it; Wikipedia (*Screw terminal*) warns that solder creeps under pressure and the joint works loose. The entry follows Wikipedia and points to ferrules.
 - *Basic knots*: knot strength recorded side by side (Wikipedia *Knot* 40-80% kept; *Rope splicing* a 20-40% loss; Animated Knots 'no more than 50%'; Petrulis & Petrulyte 2012: square knot 37-49% in flax yarn, 43-47% in cited rope tests; Wikipedia's overhand infobox 50%, unsourced). The reef knot has two ABOK numbers (#1204 and #1402); both are in `aliases`.
 - *Wood screw*: two worked examples are labelled 'calculated here' (about 2.8 kN pull-out for a #8 screw; about 9 N·m stripping torque in chipboard). `scope-search-2026-10-03-hardware.md` says the USDA *Wood Handbook* covers wood-to-steel self-drilling screws; it mentions them but gives no figures, so none were added.
+- *Printing onto fabric*: when to pause for the mesh (after layer 1, layer 2, 3 layers, layers 3-4 or about 2 mm) and whether to stretch the mesh tight (most sources) or clip it flat (the method in *Origami mechanisms*) differ between sources; all are recorded. Siraya Tech's claim that the bond survives washing is a filament maker's own claim. No source measured the fabric-to-plastic bond, a sewn-on part or a knot pulled through a printed hole.
+- *Stopper knots and cord-end anchors*: knot strength recorded side by side (Animated Knots 'at most 50%'; Yachting Monthly 2015 tests at Marlow Ropes, an overhand knot cut Dyneema and polyester braid to 35%). The figure-eight has three ABOK numbers in Wikipedia (#570, #420, #520).
 
 ### Blocked or unreadable (nothing cited from them)
 Essentra, Keystone (keyelco.com), CPSC, the AWS forum, an Analog Devices app note. Wikimedia
-returned 429 (rate limit) for part of the run; agents retried. McMaster-Carr, Böllhoff's HELICOIL PDFs, Bossard's Ensat page, Stanley's Heli-Coil page, NAPA. McMaster-Carr (JavaScript only), McFeely's (Cloudflare), a Family Handyman article (404).
+returned 429 (rate limit) for part of the run; agents retried. McMaster-Carr, Böllhoff's HELICOIL PDFs, Bossard's Ensat page, Stanley's Heli-Coil page, NAPA. McMaster-Carr (JavaScript only), McFeely's (Cloudflare), a Family Handyman article (404). The IGKT knot-strength chart (connection reset).
 
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
