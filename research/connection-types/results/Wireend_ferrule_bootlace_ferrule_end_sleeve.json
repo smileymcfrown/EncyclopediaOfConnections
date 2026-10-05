@@ -1,0 +1,179 @@
+{
+  "identity": {
+    "plain_name": "A tiny metal tube, usually with a coloured plastic funnel on one end, that is squeezed onto the stripped end of a bendy many-stranded wire so the loose strands become one neat solid pin that a screw or spring terminal can grip without strands spreading out",
+    "term": "Wire-end ferrule (bootlace ferrule; electric wire ferrule; end sleeve)",
+    "aliases": [
+      "bootlace ferrule (Hackaday tags the article 'bootlace'; Commons file descriptions use 'bootlace ferrules')",
+      "electric wire ferrule, wire ferrule, electric end terminal (Wikipedia 'Electric wire ferrule')",
+      "wire-end ferrule (Weidmüller 'Wire-end Ferrules'); end sleeve, wire end sleeve (catalogue names)",
+      "insulated ferrule, ferrule with plastic collar (DIN 46228-4) and uninsulated or bare ferrule (DIN 46228-1) (WAGO 'Using Ferrules')",
+      "twin ferrule, twin wire ferrule, dual wire ferrule, duo ferrule: one ferrule with an oval collar that takes two wires (DigiKey 'Dual Wire Ferrule for Daisy Chain Connections'; German Wikipedia 'Aderendhülse')",
+      "Aderendhülse (German); 'Mischke tube' (German trade slang for uninsulated ferrules, after a maker; German Wikipedia)",
+      "E1508-style codes: first digits give the wire size, last digits the metal tube length (e.g. 1.5 mm², 8 mm) (German Wikipedia); Weidmüller writes H1.5/14",
+      "not the same as a compression fitting's 'ferrule' (plumbing) or a wire-rope ferrule (crimped sleeve on steel rope)"
+    ],
+    "family": "electrical connections",
+    "other_families": [],
+    "one_liner": "A thin tin-plated copper tube, usually with a colour-coded plastic collar, is slid over the stripped end of a stranded wire and crushed onto it with a crimping tool, so the strands stay together and the wire end goes into a screw or spring terminal like a single solid pin, giving a cooler, more reliable joint than bare splayed strands.",
+    "complexity": "Single piece, fitted with a tool: a soft copper tube (usually tin-plated) with a flared mouth, mostly inside a conical plastic collar; twin versions have an oval collar for two wires (Hackaday 2018; German Wikipedia 'Aderendhülse'; DigiKey 'Dual Wire Ferrule'). It needs a matching crimping tool and the terminal it goes into.",
+    "how_it_works": "Stranded wire is used because it bends without breaking, but once the insulation is stripped the strands untwist and spread, and under a screw they splay apart so fewer strands touch the terminal, the resistance goes up and the joint heats (Hackaday 2018; Wikipedia 'Electric wire ferrule'). The ferrule's flared mouth and plastic collar funnel all the strands into the tube, and the crimping tool then squeezes tube and strands into a solid square, hexagonal or trapezoid bar; the pressure stretches and squashes the strands, breaking up surface oxide and closing the air gaps, so the joint resists corrosion like other gas-tight crimps (Hackaday 2018; WAGO 'Using Ferrules'). The terminal then clamps this solid bar, and the collar, which is not crushed, stays round the insulation and moves the bending point away from the end of the bare wire as a little strain relief (Hackaday 2018; Weidmüller)."
+  },
+  "finder_attributes": {
+    "job": [
+      "join and hold: finishes the end of a stranded wire so it can be clamped in a screw or spring terminal (and lets two wires share one terminal with a twin ferrule); the finder reaches this entry through the 'electrical connections' family"
+    ],
+    "motion": "none: once crimped and clamped, nothing moves.",
+    "degrees_of_freedom": "0: the ferrule is crushed onto the wire and the terminal clamps the ferrule, so there is no movement between the parts.",
+    "special_behaviour": [
+      "none: it simply keeps the strands together. (Its plastic collar gives a little bend protection at the end of the insulation, which is strain relief rather than one of the listed behaviours; Hackaday 2018, Weidmüller.)"
+    ],
+    "holding_principle": [
+      "friction or clamping (force-fit): the crimping tool squeezes the tube round the strands into a gas-tight bundle (WAGO 'Using Ferrules'; Wikipedia 'Crimp (joining)'), and the terminal's screw or spring then clamps the ferrule"
+    ],
+    "input_output": "not applicable",
+    "power": "passive (no power needed).",
+    "removability": "permanent: the crimped ferrule can't be taken off the wire, only cut off and replaced. The ferruled wire end itself is easy to unscrew and move to another terminal, and is less damaged by this than bare strands (DigiKey 'Using and Crimping Wire Ferrules').",
+    "reuse_cycles": "once: each ferrule is crimped one time. A ferruled wire end can be clamped, unclamped and moved many times (DigiKey 'Using and Crimping Wire Ferrules').",
+    "tools_needed": "Wire strippers set to cut the insulation without nicking strands (DigiKey 'Quality Standards for Wire-Ferrule Crimps'); a ferrule crimping tool: self-adjusting square (4-sided) or hexagonal (6-sided) tools, trapezoid tools, or cheap indent pliers (DigiKey 2018; German Wikipedia); flush cutters; a screwdriver for the terminal. Hackaday notes kits of assorted ferrules with a ratcheting crimper for about $30, while branded crimpers cost $200 or more (Hackaday 2018 and comments). Never squash ferrules with ordinary pliers.",
+    "seal": "none: it is not a seal. A gas-tight crimp keeps air and moisture out from between the strands inside the tube, which slows corrosion (WAGO 'Using Ferrules'; Hackaday 2018), but the joint is not waterproof.",
+    "load": "Electrical: above about 30 A (a ferrule has no current rating of its own: it carries what its wire and terminal are rated for, and Weidmüller makes ferrules for wires from 0.14 to 50 mm², AWG 26 to 0; makers mostly use 0.5-2.5 mm² sizes); rated for mains (UL, CSA and VDE-approved ferrules are standard in mains-rated industrial terminals (Weidmüller), but this entry gives no mains wiring steps). Mechanical: light: it only has to hold the strands together while the terminal clamps it. Pull-out strength depends on the crimp (crimped joints are tested to EN 60352-2, which includes a pull test; German Wikipedia) and on the terminal. Weidmüller says ferrules give 'higher vibration resistance than without ferrules'. Weak against repeated bending next to the collar and against pulling on the wire, so add strain relief.",
+    "adjustable": "no: the ferrule is crimped once; only the terminal screw can be re-tightened.",
+    "play_and_precision": "not applicable",
+    "access_needed": "not applicable: the ferrule is crimped onto the free end of the wire before it goes into the terminal; the terminal itself needs access to its wire entry and its screw or release lever.",
+    "materials": "Tube: copper, usually tin-plated (in special cases silver- or gold-plated) (Hackaday 2018; German Wikipedia; WAGO requires 'tubular tin-plated copper ferrules'). Collar: plastic such as polypropylene (PP) or nylon (PA 6.6) (German Wikipedia). Wire: stranded and fine-stranded copper wire; solid wire does not need one. Each ferrule fits one wire size, so wire, ferrule and crimp tool must match (DigiKey 'How to Select a Wire Ferrule?'), and the wire's insulation must fit inside the collar (DigiKey): thick-insulated wire may need a larger collar. Twin ferrules take two wires of the same size (DigiKey 'Dual Wire Ferrule').",
+    "maker_difficulty": "easy: with a matching crimper, fitting one takes seconds and gives a neat result (Hackaday 2018). The skill is in choosing the right size and strip length and checking each crimp (DigiKey 'Quality Standards for Wire-Ferrule Crimps')."
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: ferrules are bought, usually as an assortment kit with a crimping tool",
+      "3D print (FDM): only accessories, such as boxes that keep ferrule sizes apart and trays for the crimper (see make_it_yourself)"
+    ],
+    "print_in_place": "no: it is a soft metal tube crushed onto the wire; only storage boxes and tool trays are printed.",
+    "making_tips_3d_printing": "A ferrule can't be printed, but it matters in printed projects. 1) 3D printers: crimp ferrules on the stranded wires that go into screw terminals on the mainboard and power supply, especially the high-current heated-bed and power leads; melted terminal blocks are 'a common complaint with many DIY 3D printer kits' when thick stranded wire is simply jammed into screw terminals (Hackaday 2018). Unplug the printer and let the power supply's capacitors discharge before touching mains-side terminals (Voron 'Electrical Wiring'). 2) In printed enclosures, leave room in front of the terminal block for the ferrule, its collar and the wire's bend, and add a cable clamp, tie point or gland so a tug on the cable never reaches the crimp (see Cable gland and strain relief). Don't clamp too long a ferrule or push the wire in too far: WAGO warns the conductor can buckle above the ferrule. 3) Keep printed parts away from high-current terminals: a failing joint can get hot enough to melt the ferrule's plastic collar (Commons photos 'Burnt wire ferrule'). 4) Colour codes differ between makers, so store ferrules by size in a box with separate compartments or lids; one popular printed box gives each size its own lid so a dropped box can't mix sizes (Printables 1535499).",
+    "off_the_shelf_parts": "Insulated wire-end ferrules with a plastic collar (DIN 46228-4) and uninsulated ferrules (DIN 46228-1) (WAGO); twin (dual-entry) ferrules for two wires (DigiKey); assortment boxes of common sizes, often sold with a crimper (Hackaday 2018); ferrules on strips or reels for automatic stripping and crimping tools, e.g. Weidmüller Stripax (Weidmüller); ferrule crimping pliers in square, hexagonal and trapezoid profiles, e.g. Molex 2002180600 (4-sided) and 2002180700 (6-sided) (DigiKey 2018), Weidmüller PZ 10 SQR and PZ 10 HEX (Automation World), Knipex hexagonal and trapezoid pliers (PHPI); pin terminals (pin lugs), a crimped solid pin used as an alternative (German Wikipedia). Brand names are given only as catalogue search terms.",
+    "rules_of_thumb": [
+      "Choose the ferrule by wire size, not colour. Weidmüller lists 0.5 mm² for AWG 20, 0.75 mm² for AWG 18, 1.0 mm² for AWG 17, 1.5 mm² for AWG 16, 2.5 mm² for AWG 14, 4 mm² for AWG 12 and 6 mm² for AWG 10 (Weidmüller 'Wire-end Ferrules', LIT1902).",
+      "Two common colour codes disagree (Weidmüller LIT1902, side by side). DIN code: 0.5 mm² white, 0.75 grey, 1.0 red, 1.5 black, 2.5 blue, 4 grey, 6 yellow, 10 red, 16 blue. Weidmüller's own code: 0.25 light blue, 0.34 turquoise, 0.5 orange, 0.75 white, 1.0 yellow, 1.5 red, 2.5 blue, 4 grey, 6 black, 10 ivory, 16 green. Hackaday calls them the French and German codes; German Wikipedia lists three partly conflicting codes and says DIN 46228-4:2020 is becoming the norm. Only 2.5 mm² (blue) and 4 mm² (grey) match in both. Twin ferrules are sold in the same two colour sets, coded by the size of each wire (e.g. 2 x 1.5 mm² black in the DIN set, red in the other; RS twin-ferrule datasheet).",
+      "Strip the wire so it fills the whole metal tube and sticks out very slightly at the tip; a wire end you can't see means too short a strip or a wire not pushed fully home (DigiKey 'Quality Standards for Wire-Ferrule Crimps'; DigiKey 'Dual Wire Ferrule').",
+      "The ferrule's metal length must match the strip length printed on the terminal or connector: too long and bare metal sticks out past the insulation; too short and the clamp may not hold (WAGO 'Using Ferrules').",
+      "A ferrule makes the wire end fatter, so a terminal takes a smaller maximum wire size with ferrules than with bare wire, and a plastic collar can reduce it further (WAGO 'Using Ferrules').",
+      "Put only the metal barrel in the crimping jaws; the collar may touch the jaws but must not go in. A good crimp is crushed on all four faces (for a square crimp), leaves the plastic unmarked and shows the wire tip. Reject crimps with only two compressed faces, crimps on the collar, and crimps with no wire visible (DigiKey 'Quality Standards for Wire-Ferrule Crimps').",
+      "Match the crimp shape to the terminal: a square (4-sided) crimp suits square terminal openings and gives flat contact faces; a hexagonal (6-sided) crimp suits round openings and tight spaces (DigiKey 2018; Weidmüller via Automation World; Knipex via PHPI). A trapezoid crimp suits the tall, slim clamps of terminal strips (Knipex via PHPI). Insert the ferrule with a flat crimp face parallel to the terminal's contact face (WAGO).",
+      "Treat wire, ferrule and crimp tool as a matched set chosen to the makers' instructions; don't use a twin ferrule for a single wire, because the crimp may not grip it (DigiKey 'How to Select a Wire Ferrule?'; DigiKey 'Dual Wire Ferrule').",
+      "Use twin ferrules only for low-power daisy chains (e.g. a shared 24 V feed); high-current loads should get their own wire back to a distribution block or fuse (DigiKey 'Dual Wire Ferrule').",
+      "Never tin stranded wire ends with solder for screw terminals instead: solder cold-flows under the screw, leaving a loose connection and a possible fire hazard (Wikipedia 'Screw terminal')."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "The stranded power and heated-bed wires in the screw terminals of a 3D printer's mainboard and power supply (Hackaday 2018)",
+      "Wires in the terminals of industrial controllers and control panels, including twin ferrules on a small PLC's power daisy chain (DigiKey 'Dual Wire Ferrule')",
+      "Speaker cable ends finished with 1.5 mm² and 2.5 mm² ferrules (Commons 'Lautsprecherkabel Aderendhuelsen Makro.jpg')",
+      "Stranded wires in the terminals of equipment made for the European market, where Hackaday says ferrules are expected (Hackaday 2018)"
+    ],
+    "when_to_use": "Use a ferrule whenever a stranded or fine-stranded wire goes into a screw terminal, a pluggable terminal block or a terminal strip, and into spring or push-in terminals whose datasheet allows ferrules. It matters most for higher currents (power supplies, heated beds, motor drivers), where splayed strands cause heating (Hackaday 2018), for wires that may be moved to another terminal later (DigiKey 2018), for equipment that vibrates (Weidmüller) and wherever a stray strand could touch the next terminal (Wikipedia 'Screw terminal'). Use a twin ferrule to put two thin wires into one terminal for a low-power daisy chain (DigiKey 'Dual Wire Ferrule'). It also gives a neat, professional finish (Hackaday 2018).",
+    "when_not_to_use": "Solid wire doesn't need one. Some spring terminals that can be opened by hand don't need ferrules and may even work better with bare strands, because the spring keeps pressing and the strands spread over a large contact area; cage-clamp (lift) terminals also don't need them (German Wikipedia); check the terminal's datasheet. Don't use one if the terminal can't take the ferruled size (WAGO). To fix a wire under a screw head or onto a stud, use a ring or fork crimp terminal instead; to join two wires end to end, use a crimped butt splice, soldered joint or lever connector. Don't fit ferrules without a proper crimper, because a squashed or half-crimped ferrule can pass a tug test and fail later (DigiKey 'Quality Standards'). In mains wiring, follow local law and the equipment maker's instructions, or use a qualified electrician.",
+    "environment_limits": "Heat: the ferrule is only as cool as its joint; a loose or overloaded terminal can melt the plastic collar (Commons 'Burnt wire ferrule' and 'Burnt wire ferrule 2'). Corrosion: tin-plated copper and a gas-tight crimp resist oxidation better than bare stranded wire (Hackaday 2018; Weidmüller: 'protection against corrosion'). Vibration: ferruled wires resist vibration better than bare strands (Weidmüller), but screw terminals can still work loose with vibration or corrosion (Wikipedia 'Screw terminal'), so re-check high-current terminals. Creep: unlike solder-tinned ends, a crimped copper ferrule doesn't cold-flow away from the screw (Wikipedia 'Screw terminal'; Hackaday 2018 comments). The collar plastic's own temperature limit varies by maker and was not checked [uncertain].",
+    "safety_notes": "Splayed strands make a poor, hot joint: fewer strands touch the terminal, the resistance rises and the joint heats, a known cause of melted terminal blocks on 3D printers (Hackaday 2018). A stray strand can bridge to the next terminal or stick out of the terminal (Wikipedia 'Screw terminal'; German Wikipedia), causing a short or a shock risk. Tinned (soldered) wire ends in screw terminals loosen and can become a fire hazard (Wikipedia 'Screw terminal'). A ferrule crimped on its collar instead of its metal can pass a tug test and then cause intermittent faults (DigiKey 'Quality Standards'). Mains: this entry gives no mains wiring steps. Unplug equipment and let power-supply capacitors discharge before touching terminals (Voron 'Electrical Wiring'). Mains work must follow local law: for example, in England electrical installation work in homes must meet Part P of the Building Regulations, and new circuits, consumer-unit replacements and work in bathrooms are notifiable (Approved Document P, 2013 edition, regulation 12(6A)). Hackaday says CE-marked equipment must use ferrules on stranded wire in screw or spring terminals; this is a journalist's summary that was not checked against the standards [uncertain].",
+    "common_failures": "Wrong size: too big and the crimp 'may not hold the wire securely' (DigiKey 'Dual Wire Ferrule'); too small and strands get pushed back or pinched off (German Wikipedia's list of crimp faults). Wrong strip length: wire hidden inside the tube, or bare wire showing between collar and insulation (DigiKey 'Quality Standards'; WAGO). Broken strands from a stripper set too deep (DigiKey 'Quality Standards'). Strands pushed back so they stick out of the collar (German Wikipedia). Crimp on the collar, or only partly crushed (two faces instead of four) (DigiKey 'Quality Standards'). Split or cracked tube, lopsided crimp, sharp burrs along the edges, or a ferrule bent lengthways (German Wikipedia's list of crimp faults). Poor crimpers with badly made dies (Hackaday 2018 comments). A twin ferrule used for one wire (DigiKey 'Dual Wire Ferrule'). Ferrule clamped too deep so the wire buckles above it (WAGO). Screws not tightened enough at fitting, which can lead to a loose, hot joint and a burnt ferrule (Wikipedia 'Screw terminal'; Commons 'Burnt wire ferrule'). Avoid all of these by matching wire, ferrule and tool, checking every crimp by eye and with a gentle tug, and re-tightening terminals after first use.",
+    "related": [
+      "Screw terminal (terminal block, barrier strip): the terminal a ferrule most often goes into; the screw clamps the ferrule",
+      "Spring-clamp wire connector (lever or push-in connector): may not need a ferrule; push-in types often accept ferruled fine-stranded wire",
+      "Crimp terminals (ring, fork and spade terminals): crimped ends for screw heads, studs and tabs, where a ferrule would slip out; the pin terminal is a solid-pin cousin of the ferrule",
+      "Soldered wire joint (tinning): tinning a wire end is the old alternative, but it loosens in screw terminals; use a ferrule instead",
+      "Crimped butt splice: a crimped tube that joins two wires end to end, while a ferrule only finishes one wire end",
+      "Heat-shrink tubing: insulates joints, but does not stop strands splaying in a terminal",
+      "Wire-to-board plug connectors: use their own crimp contacts rather than ferrules",
+      "Compression fitting (ferrule fitting): a plumbing 'ferrule', unrelated apart from the name",
+      "Wire-rope terminations (crimped sleeve): a mechanical ferrule that holds a loop in steel rope",
+      "Rope-end finishing (aglet): the same idea, a tight sleeve that stops strands unravelling, used on laces and cords",
+      "Ultrasonic compaction of wire ends: a factory process that welds the strands into a solid end without any added part (German Wikipedia)"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg",
+        "title": "Wire ferrules with and without insulation.jpg (Wikimedia Commons, Simon A. Eugster)",
+        "shows": "Insulated and uninsulated wire ferrules next to a ferrule crimping plier",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Wire_ferrule_crimped.jpg",
+        "title": "Wire ferrule crimped.jpg (Wikimedia Commons, Simon A. Eugster)",
+        "shows": "Close-up of a ferrule crimped onto the end of a wire",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Burnt_wire_ferrule.jpg",
+        "title": "Burnt wire ferrule.jpg (Wikimedia Commons, Phiarc)",
+        "shows": "A ferrule from a failed screw terminal with its plastic collar completely melted and the wire insulation stained: what an overheated joint looks like",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "url": "https://forum.digikey.com/t/quality-standards-for-wire-ferrule-crimps/71081",
+        "title": "Quality Standards for Wire-Ferrule Crimps (DigiKey TechForum, Aaron Dahlen)",
+        "shows": "Photos of a properly stripped wire, a stripping failure with broken strands, the ferrule placed in the crimping die, and one passing crimp next to three failed ones",
+        "license": "link only (licence not stated on the page)"
+      },
+      {
+        "url": "https://hackaday.com/2018/04/12/to-ferrule-or-not-to-ferrule/",
+        "title": "To Ferrule Or Not To Ferrule? (Hackaday, 2018)",
+        "shows": "Weidmüller cross-section drawing of an insulated ferrule on stranded wire and a chart comparing ferruled and bare stranded wire in terminals",
+        "license": "link only (images credited to Weidmüller)"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/1535499-ferule-box-organizer",
+        "title": "ferule box organizer (Jan Ticháček, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "PETG storage box with a separate hinged lid for each ferrule size (filament used as the hinge pin), so a dropped box can't mix sizes",
+        "license": "Creative Commons Attribution-NonCommercial"
+      },
+      {
+        "url": "https://www.printables.com/model/558341-case-for-crimping-tool-and-ferrules-based-on-frog",
+        "title": "Case for Crimping Tool and Ferrules (based on Frog Box v2.0) (Marcelismus, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Printed case with a compartment for a common low-cost ferrule crimper and eight compartments for ferrule sizes, plus a test outline to check your tool fits",
+        "license": "Creative Commons Attribution-NonCommercial-ShareAlike"
+      },
+      {
+        "url": "https://www.printables.com/model/384125-ferrule-crimp-tool-gridfinity-tray",
+        "title": "Ferrule crimp tool gridfinity tray (Miguel Camba, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "Gridfinity tray for the popular square (6-4A) and hexagonal (6-6A) self-adjusting ferrule crimpers, with a 12-compartment bin for ferrule sizes; Fusion 360 file included",
+        "license": "Creative Commons Attribution"
+      }
+    ],
+    "diagram_idea": "Two cut-away views of a screw terminal side by side: on the left, bare stranded wire with strands splayed out sideways, a few strands touching the clamp and one stray strand reaching the next terminal, marked with a heat glow; on the right, the same wire in a crimped ferrule, with the collar round the insulation and a solid bar under the clamp. Below, four small end-on sections of the crimp shapes (square, hexagonal, trapezoid, indent) next to the terminal openings they suit.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Electric_wire_ferrule",
+      "https://en.wikipedia.org/wiki/Wire_ferrule",
+      "https://de.wikipedia.org/wiki/Aderendh%C3%BClse",
+      "https://en.wikipedia.org/wiki/Screw_terminal",
+      "https://en.wikipedia.org/wiki/Crimp_(joining)",
+      "https://hackaday.com/2018/04/12/to-ferrule-or-not-to-ferrule/",
+      "https://assets.dam.weidmueller.com/assets/api/019ef608-9ee2-7586-9f45-7bed2411e1f4/Original/Wire_end_Ferrules.pdf",
+      "https://www.wago.com/global/building-technology/electrical-installers/helpful-tips/ferrules",
+      "https://forum.digikey.com/t/using-and-crimping-wire-ferrules/1358",
+      "https://forum.digikey.com/t/quality-standards-for-wire-ferrule-crimps/71081",
+      "https://forum.digikey.com/t/dual-wire-ferrule-for-daisy-chain-connections/37115",
+      "https://forum.digikey.com/t/how-to-select-a-wire-ferrule/37706",
+      "https://www.automationworld.com/home/product/13313578/weidmuller-pz-10-hex-and-pz-10-sqr-crimping-tools-provide-precise-results-for-secure-connections",
+      "https://phpionline.co.uk/feature-articles/knipexs-latest-crimping-tools/",
+      "https://assets.rs-online.com/v1698723014/Datasheets/3276c839a3aadaba656db01fed2fd608.pdf",
+      "https://docs.vorondesign.com/build/electrical/",
+      "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf",
+      "https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg",
+      "https://commons.wikimedia.org/wiki/File:Wire_ferrule_crimped.jpg",
+      "https://commons.wikimedia.org/wiki/File:Burnt_wire_ferrule.jpg",
+      "https://commons.wikimedia.org/wiki/File:Burnt_wire_ferrule_2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Aderendhuelsen.jpg",
+      "https://commons.wikimedia.org/wiki/File:Lautsprecherkabel_Aderendhuelsen_Makro.jpg",
+      "https://commons.wikimedia.org/wiki/File:Crimp_Tool_For_Bootlace_Ferrules.jpg",
+      "https://api.printables.com/graphql/"
+    ]
+  },
+  "uncertain": [
+    "environment_limits",
+    "safety_notes"
+  ]
+}
