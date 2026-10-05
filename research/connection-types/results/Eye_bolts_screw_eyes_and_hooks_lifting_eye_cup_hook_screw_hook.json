@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "plain_name": "A screw or bolt with a metal loop (or an open hook) on the end, fixed into wood, a wall or a part, so you can tie, clip or hang something from it",
+    "term": "Eye bolt, screw eye and screw hook (fixed anchor eye or hook), including the shouldered lifting eye bolt and the hook-and-eye pair",
+    "aliases": [
+      "eye bolt: a bolt with a loop at one end, usually held with a nut (Wikipedia 'Eye bolt')",
+      "regular nut eye bolt or plain (shoulderless) eye bolt: for straight, in-line pulls only (Crosby 'Forged eye bolt warnings')",
+      "shoulder eye bolt, shoulder nut eye bolt, collared eye bolt: has a collar that bears on the surface so it can take angled pulls (Crosby; Wikipedia 'Eye bolt')",
+      "machinery eye bolt, lifting eye bolt, lifting eye: fully threaded with a collar, screwed into a tapped hole in a motor, gearbox or cabinet; metric ones follow DIN 580, and the matching eye nut is DIN 582 (Wikipedia 'Eye bolt'; Otto Ganter DIN 580 instructions)",
+      "forged eye bolt versus bent (turned) eye bolt or wire eye bolt (Wikipedia 'Eye bolt')",
+      "ring bolt: an eye bolt with a loose ring through the eye (Wikipedia 'Eye bolt')",
+      "screw eye, eye screw, lag eye screw, wire eye lag, screw thread eye bolt: a loop on a wood-screw thread (Wikipedia 'Eye bolt'; 'List of screw and bolt types')",
+      "vine eye: a long-shanked screw eye for fence posts and garden wires (Wikipedia 'Eye bolt')",
+      "pigtail eye bolt, pigtail hook: an open spiral loop that a rope can be threaded into sideways (Wikipedia 'Eye bolt')",
+      "eye bolt with expansion anchor or shield anchor, for masonry (Wikipedia 'Eye bolt')",
+      "screw hook, cup hook (a small rounded hook with a shoulder, also called a half-ring screw), square-bend screw hook (L-hook), ceiling hook and swag hook (Wikimedia Commons categories 'Screw hooks', 'Cup hooks'; Bob Vila)",
+      "hook and eye (gate hook, cabin hook, safety hook and eye with a spring keeper): a hook on one part dropping into a screw eye on the other (gatelatchusa.com; see Basic latches)",
+      "S-hook and J-bolt (a bolt bent into a J): loose and bolt-on cousins of the screw hook [uncertain: no opened page describes the J-bolt]",
+      "standards for rated lifting hardware: ASME B30.26 'Rigging Hardware' (covers eyebolts, eye nuts and hoist rings) and DIN 580 / DIN 582 (Hanford Site Hoisting and Rigging Manual ch. 2-26; Otto Ganter DIN 580 instructions)"
+    ],
+    "family": "everyday fasteners & fixings",
+    "other_families": [
+      "cord, strap, webbing & textile hardware",
+      "locks, latches & catches"
+    ],
+    "one_liner": "A screw or bolt that ends in a closed loop (eye) or an open hook, fixed into wood, masonry or a tapped hole to give a rope, wire, spring, chain or hanging object a fixed point to attach to; bent-wire eyes and hooks are for light loads only, while forged, shouldered and marked lifting eyes carry heavy, angled pulls.",
+    "complexity": "Single piece for a screw eye, vine eye, cup hook or screw hook (a loop or hook on a pointed wood thread). A few parts for an eye bolt (eye bolt, nut, washers), a masonry eye (eye bolt plus expansion shield) and a hook-and-eye pair (hook on a screw eye or plate, plus a separate screw eye) (Wikipedia 'Eye bolt'; Crosby 'Forged eye bolt warnings'; gatelatchusa.com).",
+    "how_it_works": "The thread holds the eye or hook in place: a screw eye or screw hook cuts its own thread into wood like a wood screw, an eye bolt passes through a hole and is clamped by a nut, a machinery eye bolt screws into a tapped hole until its collar sits tight, and a masonry eye expands a shield in the hole (Wikipedia 'Eye bolt'; Crosby). A rope, cable or clip then goes through the loop, which surrounds it so it can't fall off, or over the hook, which is quicker to use but lets things lift off. A pull straight along the shank only tries to pull the thread out, but a sideways pull also bends the shank and tries to open the loop, which is why plain eye bolts are only for straight pulls and why a shoulder or collar, which presses on the surface and takes the bending, is needed for angled loads (Wikipedia 'Eye bolt'; Crosby). An eye bent from rod or wire has an open joint where the loop meets the shank, so a heavy load can straighten it, while a forged or welded eye is a closed ring (Wikipedia 'Eye bolt')."
+  },
+  "finder_attributes": {
+    "job": [
+      "join and hold: gives a rope, wire, chain, spring, picture cord or hanging object a fixed point to tie, clip or hang from",
+      "lock, and release by hand: as a hook-and-eye pair, a hook dropped into a screw eye holds a gate, door or lid shut and is lifted out by hand (gatelatchusa.com; see Basic latches)"
+    ],
+    "motion": "none: the eye or hook is fixed; whatever is clipped or tied to it can still swing and turn freely in the loop.",
+    "degrees_of_freedom": "0 for the fitted eye or hook. A rope, clip or ring through the eye is loosely captured: it can slide round the loop and swing, but cannot leave a closed eye (it can lift off an open hook). A ring bolt's loose ring can pivot so it lies flat and reduces bending on the bolt (Wikipedia 'Eye bolt').",
+    "special_behaviour": [
+      "none: a fitted eye simply gives a fixed anchor point",
+      "quick-release (open hooks only): an open hook, cup hook or gate hook lets things be hung or lifted off in a second with no tools, which is also why things can fall off it"
+    ],
+    "holding_principle": [
+      "shape (the parts interlock; form-fit): the thread sits in the groove it has cut in wood or in a tapped hole, and the closed loop surrounds the rope or clip (Wikipedia 'Eye bolt'; USDA Wood Handbook ch. 8)",
+      "friction or clamping (force-fit): the nut clamps a through-bolted eye bolt, and the shoulder of a shoulder or machinery eye bolt must be tightened flush against the surface (Crosby); a masonry eye's shield grips the hole by expansion (Wikipedia 'Eye bolt')"
+    ],
+    "input_output": "not applicable",
+    "power": "passive (no power needed)",
+    "removability": "removable: screw eyes and hooks unscrew by hand or with a rod through the eye, and nut eye bolts come off with a spanner; each refit wears the thread a screw eye cut in wood [uncertain]. Masonry eyes with expansion shields are semi-permanent [uncertain].",
+    "reuse_cycles": "many times for a bolt-and-nut eye bolt or a machinery eye bolt in a tapped metal hole, provided it is inspected and not bent or worn (Crosby: never use one whose eye or shank is bent or elongated); a few times for a screw eye in the same hole in wood [uncertain].",
+    "tools_needed": "Drill and bit for a pilot hole (wood) or clearance hole (through-bolting); a screwdriver or rod pushed through the eye as a lever to turn screw eyes and hooks, or a printed or bought drill-driver bit for eyes and hooks (see make_it_yourself); spanner for the nut of an eye bolt; tap and drill for machinery eye bolts in metal; masonry drill and the anchor's own tools for a masonry eye; washers or shims to seat the shoulder or line the eye up with the pull (Crosby; Otto Ganter DIN 580 instructions; Bob Vila).",
+    "seal": "none: nothing seals; seal the hole with sealant outdoors if water must be kept out [uncertain].",
+    "load": "Light to heavy, depending entirely on the type and its marking. Light: a 1-5/8 in hardware-store screw eye is sold for a 30 lb (about 14 kg) safe working load, and a 3/8 in x 6 in bent eye bolt with nut for 160 lb (about 73 kg), both marked 'Do not use for overhead lifting, support of human weight, athletic or playground equipment' (National Hardware). Heavy: a forged 3/8 in shoulder nut eye bolt is rated 1,550 lb (about 700 kg) and an M12 1,000 kg in-line (Crosby), while a DIN 580 M12 lifting eye bolt is rated 3,400 N (about 340 kg) along its axis (Otto Ganter). Strong when pulled straight along the shank in the plane of the eye; weak when pulled sideways, across the eye or at an angle: Crosby cuts a shoulder or machinery eye bolt to 30% of its rating at 45° and 25% at 90°, and plain (regular nut) eye bolts must not be loaded at an angle at all. In wood the usual limit is the thread pulling out, which grows with wood density squared, thread diameter and thread length, and is lower and erratic in end grain (USDA Wood Handbook ch. 8).",
+    "adjustable": "Barely: a machinery eye bolt whose eye doesn't line up with the pull is turned into line by adding shims (washers) under the collar, not by backing it out (Crosby); otherwise the position is fixed once fitted.",
+    "play_and_precision": "not applicable: it does not locate parts; the eye is a loose loop and things clipped to it are free to move.",
+    "access_needed": "one side only (blind) for screw eyes, screw hooks, masonry eyes and machinery eye bolts in a tapped hole; both sides for a through-bolted eye bolt with a nut (Crosby; Otto Ganter).",
+    "materials": "Usually zinc-plated or galvanised steel, stainless steel or brass for screw eyes, hooks and hook-and-eye latches (gatelatchusa.com; National Hardware), plastic-coated steel for cup hooks; forged carbon or alloy steel for rated lifting eyes; DIN 580 eye bolts are C15E steel or A2 / A4 stainless and are marked with maker, material and working load limit (Otto Ganter). Fixes into: solid wood and plywood (screw eyes and hooks), metal with a tapped hole or a through-hole and nut (eye bolts), brick and concrete with an expansion anchor (Wikipedia 'Eye bolt'). Not into: hollow plasterboard or ceilings on its own (use a swag hook with a toggle, or find a joist: Bob Vila), chipboard or MDF for loads [uncertain], or 3D-printed plastic as a screw thread for anything heavy (see making tips). Preservative-treated wood corrodes some fasteners, so match the hardware to the treatment (CPSC Outdoor Home Playground Safety Handbook).",
+    "maker_difficulty": "easy to fit: drill a pilot hole and screw it in, or bolt it through; hard (in practice impossible at home) to make a load-rated lifting eye, so buy a forged, marked one for anything heavy or overhead."
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: screw eyes, hooks, eye bolts and lifting eyes are bought, not made",
+      "woodwork: screw eyes and hooks go into frames, posts, shelves and beams",
+      "3D print (FDM): printed hooks, eye plates and hangers screwed onto a surface with metal screws, and printed drivers for turning screw eyes (see make_it_yourself)",
+      "CNC and sheet metal: a through-hole for an eye bolt and nut, or a tapped hole for a machinery eye bolt, in a plate or frame [uncertain]",
+      "laser cut: plywood or acrylic parts with holes for eye bolts or screw eyes [uncertain]"
+    ],
+    "print_in_place": "no: metal eyes and hooks are bought; printed hooks and eye plates are single parts that are screwed or bolted on, so there is nothing to print assembled.",
+    "making_tips_3d_printing": "1) For anything that matters, put a metal eye bolt through the print with a nut and a big washer on the far side, rather than screwing a screw eye into the plastic: the nut and washer spread the load, the same way Crosby and the DIN 580 instructions want a nut (and washer) on through-holes; screw threads cut into prints are 'not suited for applications where parts will regularly be assembled/disassembled' (Hubs). 2) If a machine-thread eye must screw into a print, fit a heat-set or press-in insert and keep at least one fastener diameter of wall round the hole (Hubs 'How to assemble 3D printed parts with threaded fasteners'). 3) Printed hooks and eyes are weakest where the layers are pulled apart: PLA test bars printed flat held 63 MPa but only 31 MPa printed standing, and layer adhesion is 'typically around 50% of the in-plane strength' (CNC Kitchen); so print hooks and eye loops lying flat, with the curve in the layer plane, so the bending runs along the lines of filament [uncertain for every hook shape: CNC Kitchen found an angled test hook held no more than a standing one because hook loading is complex]. 4) Use plenty of perimeters (walls) and infill round the hook's bend and the screw holes, and PETG, ABS/ASA or nylon rather than PLA for anything warm or under constant load, because plastics creep and PLA softens in heat [uncertain]. 5) Test a printed hook with more than the real load before trusting it, and never hang anything above people from a printed hook. 6) A printed driver bit or T-handle that fits over the eye or hook makes screwing eyes into wood much easier (see make_it_yourself).",
+    "off_the_shelf_parts": "Screw eyes (zinc-plated, stainless or brass), lag screw eyes, vine eyes, cup hooks (plastic-coated or brass), screw hooks and square-bend hooks, ceiling and swag hooks with toggle bolts, hook-and-eye latches and safety hook-and-eyes with a spring keeper (gatelatchusa.com), eye bolts with nut (bent or welded eye), ring bolts, pigtail eye bolts, eye bolts with masonry expansion shields, forged shoulder nut eye bolts and machinery eye bolts (ASME B30.26; e.g. Crosby G-277, S-279), DIN 580 lifting eye bolts and DIN 582 eye nuts, swivel hoist rings for angled lifts (Wikipedia 'Eye bolt'; Crosby; Otto Ganter; Hanford ch. 2-26). For sizes and rated loads use the maker's table and the load marked on the part rather than a general table: Crosby's eye bolt warnings sheet and the DIN 580 operating instructions list them.",
+    "rules_of_thumb": [
+      "Plain (regular nut, shoulderless) eye bolts and bent-wire screw eyes are for straight, in-line pulls only: 'Never use regular nut eye bolts for angular lifts' (Crosby) and wire eye lags 'should not be used for angular loads' (Wikipedia 'Eye bolt').",
+      "Shoulder nut and machinery eye bolts for angled pulls (Crosby, 2023): in line 100% of the rated load, 15° 80%, 30° 65%, 45° 30%, 90° 25%; the pull must be in the plane of the eye, and the shoulder must sit flush on the surface (use washers or a countersink, never undercut the bolt).",
+      "DIN 580 lifting eye bolts give different figures (Otto Ganter DIN 580 instructions, 2012): an M12 is rated 3,400 N straight along its axis, 2,400 N per bolt in a two-leg lift at up to 45° in the plane of the eye, 1,700 N per bolt when pulled sideways at up to 45°, and must not be loaded at right angles to its axis. Sources disagree because the standards and test definitions differ; always use the maker's table for the part you have.",
+      "Thread engagement in metal: DIN 580 eye bolts need a screw-in depth of 1.5 x the thread diameter in steel above 340 N/mm², 2 x in aluminium alloys and 2.5 x in weaker light metals; on a through-hole fit a full nut (0.8 x d) and a washer (Otto Ganter). Crosby's drawings show at least 2 x the diameter of thread engaged in a tapped hole, and for machinery eye bolts a tap depth of the shank length plus half the diameter.",
+      "Bolted through a plate: if more than one bolt diameter of thread passes through, one nut tightened securely against the part is enough; if one diameter or less, use two nuts (Crosby drawings).",
+      "Don't thread a sling or rope from one eye bolt to another: it changes the angle and load on each eye (Crosby).",
+      "Screw eyes and hooks in wood hold like wood screws: withdrawal load rises with the square of the wood's specific gravity, with the thread diameter and with the length of thread in the wood; in end grain it averages about 75% of the side-grain value and is erratic; pilot holes of about 70% of the thread's root diameter in softwood and 90% in hardwood (USDA Wood Handbook ch. 8, pp. 8-10 to 8-11).",
+      "Hardware-store eyes and hooks come with a small safe working load and a caution against overhead lifting and human weight: e.g. 30 lb for a 1-5/8 in screw eye and 160 lb for a 3/8 x 6 in eye bolt (National Hardware), against 1,550 lb for a forged 3/8 in shoulder eye bolt (Crosby).",
+      "For rated lifting hardware, ASME B30.26 temperature limits for eyebolts are +30°F to +275°F (about -1°C to 135°C) (Hanford Site Hoisting and Rigging Manual ch. 2-26); DIN 580 eye bolts can be used from -20°C to +200°C without derating (Otto Ganter).",
+      "Close S-hooks and other hooks on play equipment so the gap is less than the thickness of a dime; open hooks are acceptable only at the uppermost attachment points of swings (CPSC Outdoor Home Playground Safety Handbook)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "Two screw eyes and a picture wire on the back of a painting (Wikipedia 'Eye bolt')",
+      "Cup hooks screwed under a kitchen shelf for mugs, and a ceiling hook for a hanging plant (Bob Vila)",
+      "Vine eyes holding training wires along fence posts for vines and soft fruit (Wikipedia 'Eye bolt')",
+      "The hook and eye holding a shed door or garden gate shut, and the lifting eye screwed into the top of an electric motor or gearbox (gatelatchusa.com; Otto Ganter DIN 580 instructions)"
+    ],
+    "when_to_use": "Use a screw eye or hook whenever you need a quick, cheap fixed point in wood: to hang pictures, lights, plants, tools and mugs, to anchor guy lines, springs, tension wires and garden wires, or to make a simple hook-and-eye catch. Choose a closed eye when the rope or clip must not come off, and an open hook (cup hook, screw hook) when things are hung and taken down often. Use an eye bolt with a nut and washer through a plate or frame when the load is bigger or the material is thin, a masonry eye for brick and concrete, and a forged, marked shoulder or machinery eye bolt (with its rating reduced for the angle) whenever something will be lifted or the pull is at an angle (Crosby; Otto Ganter; Wikipedia 'Eye bolt').",
+    "when_not_to_use": "Never use unrated hardware-store eyes or hooks to lift loads overhead, to hold a person, or for swings, hammocks, climbing or play equipment: the makers themselves say not to (National Hardware); use the swing maker's through-bolted hangers or rated hardware instead (Treehouse Supplies swing hanger instructions; CPSC). Don't use a plain eye bolt or screw eye for a sideways or angled pull: use a shoulder or machinery eye bolt, a swivel hoist ring, or turn the eye so the pull is in line (Crosby; Wikipedia). Don't screw a hook into plasterboard or a hollow ceiling on its own: find a joist, or use a swag hook with a toggle (Bob Vila; see Hollow-wall anchors). Don't screw into end grain or close to an edge where the wood can split (USDA Wood Handbook). Where a load must be clipped and unclipped often, a Spring-gate hook (carabiner) or Shackle and quick link on a fixed eye is safer than an open hook. For heavy equipment on a 3D-printed part, bolt through with a washer or use an insert rather than a screw eye in plastic (Hubs).",
+    "environment_limits": "Outdoors and in damp places use galvanised, stainless or brass eyes; preservative-treated wood corrodes some metals faster, so match the hardware to the treatment (CPSC handbook; USDA Wood Handbook 'Corrosion and Staining'). Steel eye bolts should not be left in aluminium for long periods because of corrosion (Crosby). Rated hardware has temperature limits: ASME B30.26 eyebolts +30°F to +275°F (Hanford ch. 2-26), DIN 580 eye bolts -20°C to +200°C (Otto Ganter); keep eyes away from aggressive chemicals and acid fumes (Otto Ganter). Vibration and shock can unscrew eye bolts; DIN 580 eyes left in place should be secured, e.g. with thread-locking adhesive (Otto Ganter). Wood that wets and dries can lose much of its grip on a driven fastener (nail withdrawal falls to as little as 25%) (USDA Wood Handbook, written for nails). Printed plastic hooks creep under constant load and soften in heat [uncertain].",
+    "safety_notes": "Never use unrated eyes or hooks for lifting people, climbing, swings, hammocks or overhead loads; hardware-store eyes are marked 'Do not use for overhead lifting, support of human weight, athletic or playground equipment' (National Hardware), and US rules forbid 'makeshift fasteners, formed from bolts, rods, etc.' in rigging (OSHA 29 CFR 1926.251). Plain eye bolts must not be loaded at an angle, and even shoulder eye bolts lose most of their rating at 45° (Crosby). Bent-wire eyes and hooks can open under load and let go suddenly (Wikipedia 'Eye bolt'). Stand clear of anything lifted and lift with a steady pull, not a jerk (Crosby). Open hooks and protruding bolt ends can catch clothing and cause cuts or strangulation on play equipment; close S-hooks and cover bolt ends (CPSC). Check for hidden cables and pipes before drilling into walls and ceilings [uncertain].",
+    "common_failures": "Bent eye opens: a wire or turned eye straightens under a heavy or snatch load; use a forged or welded eye (Wikipedia 'Eye bolt'). Shank bends or snaps: a plain eye bolt pulled sideways, or a shoulder that isn't seated flush; use a shoulder or machinery eye bolt seated with washers and reduce the load for the angle (Crosby). Pulls out of the wood: thread too short, end grain, soft or rotten wood, pilot hole too big, or plasterboard with no joist behind it; use a longer screw into side grain, a through-bolt, or a toggle (USDA Wood Handbook; Bob Vila). Wood splits: no pilot hole, or too near an edge or end (USDA Wood Handbook). Hook drops its load: an open hook bounced or lifted; use a closed eye, a safety hook with a keeper, or a clip (gatelatchusa.com). Eye unscrews: vibration or a load that twists it; secure with thread locker or a nut (Otto Ganter). Rust and corrosion outdoors; use stainless or galvanised and match the metal to treated wood (CPSC). Eye bolt pulled out of a thin metal sheet or a 3D print: the load wasn't spread; add a large washer or backing plate (Crosby; Hubs).",
+    "related": [
+      "Basic latches (spring latch, slide bolt, hook and eye): uses the hook and screw eye as a door or gate catch rather than an anchor point",
+      "Shackle and quick link: the closed, screw-shut link used to join a rope, chain or sling to an eye bolt",
+      "Spring-gate hook (carabiner, snap hook): a loose hook with a gate that clips to a fixed eye and can't fall off",
+      "Quick-release hooks (pelican hook, snap shackle): hooks that can be released while loaded",
+      "Turnbuckle: often hooked or shackled between two eyes to tension a wire",
+      "Wood screw: the same thread and pilot-hole rules, with a head instead of an eye",
+      "Wall plug and Hollow-wall anchors: what a screw eye or hook needs to hold in masonry or plasterboard",
+      "Threaded rod and studs (hanger bolt): a machine-thread alternative for fixing into wood",
+      "Hang-on mounts (keyhole slot, French cleat): hang a picture, shelf or tool holder on a slot or cleat instead of a screw eye and wire",
+      "Wire-rope terminations: how to make the loop in a wire rope that goes onto the eye",
+      "Swivel hoist ring: a rated lifting point that turns and pivots to face the pull, for angled lifts (ASME B30.26 via Hanford ch. 2-26) (not a separate entry)"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif",
+        "title": "Anneau de levage CM.tif (Wikimedia Commons, by Contribus)",
+        "shows": "A heavy forged eye bolt with a shoulder (collar), the type that can take angled loads (used as 'Heavy forged eye bolt, with shoulder' on Wikipedia 'Eye bolt')",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Eye_bolt_wood_thread.jpg",
+        "title": "Eye bolt wood thread.jpg (Wikimedia Commons, by Hustvedt)",
+        "shows": "Several screw eyes with wood-screw threads (bent-wire eyes for light duty)",
+        "license": "CC BY-SA 3.0 or GFDL 1.2+"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:CrookedHook.jpg",
+        "title": "CrookedHook.jpg (Wikimedia Commons, by Kószó József)",
+        "shows": "A pigtail eye: an open spiral loop that a rope can be slipped into from the side",
+        "license": "CC BY-SA 3.0 (also 2.5, 2.0, 1.0) or GFDL 1.2+"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Half_Ring_screw.jpg",
+        "title": "Half Ring screw.jpg (Wikimedia Commons, by Juan de Vojníkov)",
+        "shows": "A 4.5 x 83 mm cup hook (half-ring screw hook)",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://www.thecrosbygroup.com/wp-content/uploads/catalog/2022/en-US/417.pdf",
+        "title": "Crosby 'Forged eye bolt warnings & application instructions' (Lifting Points, section 11, 2023)",
+        "shows": "Drawings of regular nut, shoulder nut and machinery eye bolts, correct and wrong installation, in-line versus angled pulls, and the angle reduction table",
+        "license": "link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/647070-wing-nut-hook-or-eye-bolt-drill-bit",
+        "title": "Wing Nut, Hook or Eye Bolt Drill Bit (Brian Bu, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A printed bit for a 1/2 in drill chuck that grips screw eyes, hooks and wing nuts so they can be driven with a drill; printed without supports in PLA+, PETG or nylon",
+        "license": "Creative Commons Attribution"
+      },
+      {
+        "url": "https://www.printables.com/model/1034141-eye-bolt-and-hook-screwer",
+        "title": "Eye Bolt and Hook Screwer (Slablaadje, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A hand tool printed to match the size of an eye bolt or screw hook, to screw them in without sore thumbs",
+        "license": "Creative Commons Attribution-ShareAlike"
+      },
+      {
+        "url": "https://www.printables.com/model/84082-screw-mount-eye-hook-eyelet-hanger",
+        "title": "Screw Mount Eye Hook / Eyelet / Hanger (cdsmakestuff, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A printed closed-eye hanger (70 x 20 x 35 mm) screwed to a wall or ceiling with up to a #8 screw; the author advises using judgement about how much weight it can hold",
+        "license": "Creative Commons Attribution-NonCommercial"
+      },
+      {
+        "url": "https://www.printables.com/model/538526-sroub-s-okem-din-580-m10-lifing-eye-bolt-din-580-m",
+        "title": "Lifting eye bolt DIN 580, M10 (Libor Jandus, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A full-size model of a DIN 580 M10 lifting eye bolt, useful as a CAD reference or display model only, not for lifting",
+        "license": "Creative Commons Public Domain"
+      }
+    ],
+    "diagram_idea": "Three side-by-side drawings of an eye bolt under load: a straight pull along the shank (green tick), a sideways pull on a plain eye bolt bending the shank and opening a bent-wire eye (red cross), and a shouldered eye bolt seated flush with its pull in the plane of the eye, labelled '45° = only 30% of the rating'; with small insets of a screw eye, a cup hook and a hook-and-eye latch.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eye_bolt",
+      "https://en.wikipedia.org/wiki/List_of_screw_and_bolt_types",
+      "https://www.thecrosbygroup.com/wp-content/uploads/catalog/2022/en-US/417.pdf",
+      "https://www.thecrosbygroup.com/wp-content/uploads/2014/03/196_197.pdf",
+      "https://assets.berger-tools.co.uk/pdfs/operating_instruction_din_580.pdf",
+      "https://www.hanford.gov/files.cfm/HR_2-26_Rigging_Hardware.pdf",
+      "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.251",
+      "https://www.national-hardware.com/p/2014-screw-eyes",
+      "https://www.national-hardware.com/p/2160-eye-bolts",
+      "https://www.cpsc.gov/s3fs-public/324.pdf",
+      "https://www.treehousesupplies.com/Galvanized_Swing_Hanger_p/cast-sv.htm&Click=2293",
+      "https://www.bobvila.com/articles/how-to-hang-plants-from-ceiling/",
+      "https://gatelatchusa.com/hook-and-eyes.html",
+      "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf",
+      "https://cnckitchen.com/blog/stop-printing-flat-the-45-secret-for-stronger-parts",
+      "https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/",
+      "https://commons.wikimedia.org/wiki/Category:Eye_bolts",
+      "https://commons.wikimedia.org/wiki/Category:Screw_eyes",
+      "https://commons.wikimedia.org/wiki/Category:Screw_hooks",
+      "https://commons.wikimedia.org/wiki/Category:Cup_hooks",
+      "https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif",
+      "https://commons.wikimedia.org/wiki/File:Eye_bolt_wood_thread.jpg",
+      "https://commons.wikimedia.org/wiki/File:CrookedHook.jpg",
+      "https://commons.wikimedia.org/wiki/File:Half_Ring_screw.jpg",
+      "https://api.printables.com/graphql/"
+    ]
+  },
+  "uncertain": [
+    "aliases",
+    "removability",
+    "reuse_cycles",
+    "seal",
+    "materials",
+    "processes",
+    "making_tips_3d_printing",
+    "environment_limits",
+    "safety_notes"
+  ]
+}
