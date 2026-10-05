@@ -154,6 +154,7 @@ Collected from the agents' hand-back reports for the items added with the wider 
 - *Soldered wire joint*: the NASA-STD-8739.4A PDF is a US government publication (generally public domain in the US); its licence is marked [uncertain] in `links`. *Basic knots*: Ian's Shoelace Site shows curl a captcha, so it was read through WebFetch and used for one qualitative point only.
 - Licences not stated: Adafruit Learning System guides, the Yale OpenHand T42 fabrication PDF (marked [uncertain]). gm0 is CC BY-NC 2.0 (link, don't copy). (An agent reported that the Hackaday heat-staking article has no 'fumes' quote. That is right, but *Heat staking* takes its 'nasty fumes' quote from Jeff Epler's blog post, emergent.unpythonic.net/01612362040, which does contain it: checked 2026-10-05, nothing to fix.)
 - *Expanding internal grip*: schunk.com failed TLS with curl, so it was read through WebFetch; gripper figures come from SCHUNK's CGP data sheet PDF. YouTube videos in batch 1 entries were checked by title and channel through oEmbed only.
+- *Cable through a hinge*: using the BOSL2 `knuckle_hinge` module with an enlarged pin hole for a metal tube is the agent's own suggestion, and the entry says so; no printable hinge with cable routing was found.
 
 ### Conflicting figures and content points
 - *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum
@@ -169,10 +170,12 @@ Collected from the agents' hand-back reports for the items added with the wider 
 - *Expanding internal grip*: Birla Precision gives the sleeve expansion range as '0.8 mm (0.32")'; the inch figure looks like a misprint for 0.032 in, and the entry says so. Some safety points (parts thrown from a spinning mandrel) are reasoning without a source and marked [uncertain].
 - *Printed chainmail*: Space.com says JPL's 2017 'space fabric' prototype was printed in plastic; JPL's own release describes metal. The entry follows JPL. Choking risk from broken tiles is unsourced ([uncertain]).
 - *Strut hub*: where to drill flattened conduit struts differs (Domerama 3/4 in from the end, Mike Tyka about 1-1/4 in); both recorded. Building or playground rules for climbable domes are unsourced ([uncertain]).
+- *Ball caster*: maximum spacing of ball transfer units under a table differs (Ganter: smallest edge length divided by 2.5; HPC: shortest dimension divided by 3.5); both recorded.
+- *Locking adjustment screws*: the 3doptix catalogue page gives the Thorlabs KM100's 1/4-80 screw as '80 µm per revolution', which looks wrong (one turn of a 1/4-80 thread is about 0.32 mm); the figure was not used.
 
 ### Blocked or unreadable (nothing cited from them)
 Essentra, Keystone (keyelco.com), CPSC, the AWS forum, an Analog Devices app note. Wikimedia
-returned 429 (rate limit) for part of the run; agents retried. McMaster-Carr, Böllhoff's HELICOIL PDFs, Bossard's Ensat page, Stanley's Heli-Coil page, NAPA. McMaster-Carr (JavaScript only), McFeely's (Cloudflare), a Family Handyman article (404). The IGKT knot-strength chart (connection reset). GRIP GmbH bladder-gripper pages (automate.org 403, qviro 404).
+returned 429 (rate limit) for part of the run; agents retried. McMaster-Carr, Böllhoff's HELICOIL PDFs, Bossard's Ensat page, Stanley's Heli-Coil page, NAPA. McMaster-Carr (JavaScript only), McFeely's (Cloudflare), a Family Handyman article (404). The IGKT knot-strength chart (connection reset). GRIP GmbH bladder-gripper pages (automate.org 403, qviro 404). Thorlabs, Newport, Misumi, the Bambu Lab wiki (402), Core Electronics, the RobotShop community, upload.wikimedia.org and the Wikipedia API (429, rate limit).
 
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
