@@ -143,6 +143,22 @@ break validation; they are clean-ups for the report step or Phase 1.
 - **Blocked sites during the heat and pipe search:** All3DP, copper.org, Polymaker, hackster.io, Instructables
   step text and DOAJ; nothing recorded depends on them.
 
+## Items 324-409 (researched 2026-10-05)
+Collected from the agents' hand-back reports for the items added with the wider scope (R22).
+
+### Sources and links
+- **Read from copies** (cite the original when publishing): Lincoln Electric's welding safety
+  pages from a REDI-MIG 455 manual hosted by Linde (static.prd.echannel.linde.com), because
+  Lincoln's own site was blocked (*Welded metal joint*).
+
+### Conflicting figures and content points
+- *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum
+  users (budgetlightforum), not from tests or a data sheet; check it against a holder maker's data sheet.
+
+### Blocked or unreadable (nothing cited from them)
+Essentra, Keystone (keyelco.com), CPSC, the AWS forum, an Analog Devices app note. Wikimedia
+returned 429 (rate limit) for part of the run; agents retried.
+
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
   but it works differently (a sleeve twisted shut, no blades).
