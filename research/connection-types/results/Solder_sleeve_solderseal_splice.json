@@ -6,7 +6,7 @@
       "solder seal connector, solder seal wire connector, solder seal butt connector (the usual shop names; Hackaday 2023; Vetco)",
       "solder butt connector, heat-shrink solder connector, soldering heat-shrink butt connector, waterproof solder connector (shop names; Markertek; Vetco)",
       "solder sleeve splice; 'heat shrinkable soldering device' and 'heat-shrinkable solder termination device with meltable sealing preforms at ends' (NASA-STD-8739.4A §3.2 Definitions, §7.2.39, §19.6)",
-      "self-soldering heat-shrink sleeve; 'Lötverbinder' in German (German Wikipedia 'Lötverbinder')",
+      "'Lötverbinder' (German name) (German Wikipedia 'Lötverbinder')",
       "solder sleeve shield terminator: the same idea used to solder a ground wire onto a cable's braided screen (NASA-STD-8739.4A §11, Fig. 11-2; TE RPIP-688-00)",
       "solder sleeve wire terminator: a stepped sleeve that solders a wire onto a connector pin, post or component lead (TE RPIP-824-00 §4.4)",
       "crimp/solder shrink butt connector: a hybrid with a metal barrel to crimp as well as a solder ring (Quick Cable 165605)",
@@ -70,7 +70,7 @@
   "guidance": {
     "everyday_examples": [
       "Repairing or extending wires in cars, trailers, boats and caravans, where the joint must keep water out (German Wikipedia 'Lötverbinder'; Hackaday 2023)",
-      "Mercedes-Benz-style automotive repair kits: Wikipedia notes pre-cut heat-shrink with a solder blob in the middle 'was specified by Daimler-Benz for automotive electrical repairs' (Wikipedia 'Heat-shrink tubing')",
+      "Car wiring repairs: Wikipedia notes pre-cut heat-shrink with a solder blob in the middle 'was specified by Daimler-Benz for automotive electrical repairs' (Wikipedia 'Heat-shrink tubing')",
       "Aircraft and spacecraft wiring, where solder sleeves join wires and attach ground wires to cable screens (NASA-STD-8739.4A §11, §19.6; TE catalogue)",
       "Colour-coded assortments sold for car, boat, RV and home wiring repairs (Vetco; Markertek)"
     ],
