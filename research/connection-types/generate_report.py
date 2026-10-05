@@ -49,7 +49,9 @@ SPECIAL_BEHAVIOURS = [
 
 
 def slugify_filename(name):
-    return re.sub(r"[^\w]", "", name.replace(" ", "_"))
+    # Same rule as /research-deep (ASCII letters, digits and _ only), so names with
+    # accents (e.g. "crémone") find their results file.
+    return re.sub(r"[^A-Za-z0-9_]", "", name.replace(" ", "_"))
 
 
 def anchor(text):

@@ -1,4 +1,4 @@
-# cord, strap, webbing & textile hardware: Rope, cord, strap, webbing and textile hardware
+# cord, strap, webbing & textile hardware: Hardware for rope, cord, straps, fabric and leather
 
 [Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
 
@@ -20,7 +20,7 @@
   - Cam-Matic and Carbo-Cam (Harken brands)
   - C-Cleat and T-Cleat (Ronstan brands)
 - **family**: cord, strap, webbing & textile hardware
-- **other_families**: one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, tensioning, reels & take-up
+- **other_families**: one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, tensioning, reels & take-up, knots, lashings & sewn joints
 - **one_liner**: A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.
 - **complexity**: A small assembly that acts as one unit: a base plate with two pivot posts; two toothed cams (jaws, which Harken calls pawls); one or two torsion springs per cam; and, on better cleats, ball bearings (Harken's standard 150 uses 66 small Delrin balls in three rows), washers and cam caps. Often fitted with add-ons: a fairlead (guide loop) over the jaws, a riser or a 15° wedge. Some designs gear the two cams together so they open and close as a mirrored pair (US 4,620,499).
 - **how_it_works**: Two cams sit side by side on pivots, and springs turn them so their toothed, curved faces meet in the middle. The curve is off-centre (eccentric): the teeth get further from the pivot along the cam, so turning the cams one way widens the gap and turning them the other way narrows it (US 4,620,499). Pulling the rope toward you drags the teeth the opening way and the rope slides through; when the load pulls back, the rope drags the teeth the closing way and wedges itself in, so 'as the load on the line increases, the cams' pressure and grip increase as well' (SAIL Magazine). German Wikipedia notes the jaws usually follow a logarithmic spiral so the rope is gripped at the same angle whatever its diameter. To free it you tension the tail and lift it up and out of the jaws (Upffront, Wikipedia).
@@ -158,7 +158,7 @@
   - fender cleat (in-line version for fender lines)
   - Jiffy Tie (Clamcleat brand: a small tie for light loads)
 - **family**: cord, strap, webbing & textile hardware
-- **other_families**: one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, tensioning, reels & take-up
+- **other_families**: one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, tensioning, reels & take-up, knots, lashings & sewn joints
 - **one_liner**: A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.
 - **complexity**: single piece: one moulded or cast block (two ridged walls joined by a base), fixed with two screws or bolts. Some versions add a built-in fairlead (guide loop) that steers the rope into the teeth, a becket (a loop to tie a rope end to), a cage or keeper that holds the rope near the cleat, or a tapered pad to set the angle.
 - **how_it_works**: The groove narrows toward the bottom, and both walls carry ridges that slope toward the end the load pulls from (45° in Reginald Emery's original design, US 3,574,900). When a tensioned rope is laid in and the load pulls it along the groove, the sloping ridges drag it down into the narrowing V, so 'the stronger the pull, the more the rope is forced into the V-shaped slot and hence the firmer is the grip' (US 3,574,900). Nothing moves except the rope, so there are no springs to break or seize (Ronstan). To release, pull the tail 'upward and backward' so the rope rides up the ridges and out of the mouth of the groove (Ronstan; US 3,574,900).
@@ -955,7 +955,7 @@
   - bloqueur (French), Seilklemme or Steigklemme (German)
   - rope cam lock (maker term for light-duty printed versions)
 - **family**: cord, strap, webbing & textile hardware
-- **other_families**: one-way & ratchet, self-locking & anti-back-drive, tensioning, reels & take-up, quick-release & tool-free
+- **other_families**: one-way & ratchet, self-locking & anti-back-drive, tensioning, reels & take-up, quick-release & tool-free, knots, lashings & sewn joints
 - **one_liner**: A clamp with a spring-loaded, toothed, off-centre lever (cam) that slides up a rope in one direction but pinches the rope against its frame and locks when pulled the other way; used in pairs to climb a rope, to stop a hauled load slipping back, and on safety lines.
 - **complexity**: A small assembly that acts as one unit: a frame (shell) with a channel for the rope; a cam (a toothed lever on a pivot pin, usually with a self-cleaning slot so mud and ice can escape); a spring that holds the cam against the rope; a safety catch that stops the cam opening by accident; holes for carabiners; and on handled ascenders a moulded grip (Petzl ASCENSION, BASIC). Minimal versions (Petzl Tibloc) are just a bent stainless-steel body with teeth that uses a carabiner as the other jaw. Lever-cam types (Gibbs) have no spring and are held on by a clevis pin. Industrial fall arresters add a locking roller, a roller cam and a 'gravity lock' that stops them being fitted upside down (3M DBI-SALA).
 - **how_it_works**: The rope runs through a channel between the frame and a cam: a lever on a pivot whose face is off-centre (eccentric), so the gap narrows as the cam swings down. A light spring keeps the cam's teeth touching the rope. Sliding the clamp up drags the teeth upwards, which swings the cam open, so it glides; when the load pulls the clamp down, the rope drags the teeth the other way, the cam swings shut and pinches the rope against the frame, and the harder the pull, the harder it pinches. CavingUK sums it up: an eccentric cam clamps the rope 'when it moves through them in one direction, and release[s] it in the other', while the small teeth and spring just make sure the cam starts to turn reliably. To move it down or take it off you unload it and hold the cam open by hand.
@@ -1100,7 +1100,7 @@
   - Spanngurt mit Ratsche / Ratschen-Spanngurt (German)
   - ErgoABS (SpanSet brand; long-lever pull ratchet that lets tension off gradually)
 - **family**: cord, strap, webbing & textile hardware
-- **other_families**: tensioning, reels & take-up, one-way & ratchet, quick-release & tool-free
+- **other_families**: tensioning, reels & take-up, one-way & ratchet, quick-release & tool-free, knots, lashings & sewn joints
 - **one_liner**: A webbing strap whose loose end threads through a slotted spool in a steel ratchet: levering the handle back and forth winds the webbing onto the spool a tooth at a time to put a strong, locked-in tension on a load, and pulling a release catch and swinging the handle fully open frees the spool.
 - **complexity**: A small assembly that acts as one unit: a U-shaped steel frame (bracket) fixed to a short 'fixed end' of webbing; a slotted spool (slotted spindle or mandrel) with a ratchet wheel on each side; a hinged handle (ratchet lever) carrying a spring-loaded drive pawl; a spring-loaded locking pawl or slider on the frame; a release catch (function slider); the long 'loose end' of webbing; and end fittings such as J hooks, S hooks, flat hooks, snap hooks or E-track fittings (SpanSet; US 6,524,041; Wikipedia 'Web lashing assembly').
 - **how_it_works**: You pull the loose end of the webbing through the slot in the spool until it lies taut against the load. Each time you lever the handle up and back, a pawl on the handle pushes the ratchet wheels round a few teeth, winding the webbing onto the spool and onto itself; meanwhile a spring-loaded locking pawl on the frame drops into the teeth so the spool cannot turn back, and you hear it click (US 6,524,041; Wikipedia 'Ratchet (device)'). The first 1.5 turns of webbing wrapped on itself grip by friction, so the strap can't slide out of the slot, but more than 3 turns start to crush it (SpanSet). Closing the handle flat locks it. To release, you pull the release catch and swing the handle right through about 180 degrees to its stop; a cam lifts both pawls clear of the teeth, the spool spins freely and the tension lets go, often with a jolt (SpanSet; US 5,271,606).
@@ -1231,7 +1231,7 @@
   - Leinenspanner (German) and linsträckare (Swedish), the names Hilleberg uses
   - Line-Lok (Clamcleat brand), LineLoc 3 and Lineloc V (Nexus/Zpacks brand), Bar Tensioner (Lawson Equipment brand), Line Runner (Hilleberg brand)
 - **family**: cord, strap, webbing & textile hardware
-- **other_families**: tensioning, reels & take-up, self-locking & anti-back-drive, clamping, magnetic & friction connections, quick-release & tool-free
+- **other_families**: tensioning, reels & take-up, self-locking & anti-back-drive, clamping, magnetic & friction connections, quick-release & tool-free, knots, lashings & sewn joints
 - **one_liner**: A small plate or block with holes (or a toothed groove) that a cord zig-zags through, so sliding it along the cord shortens or lengthens a loop, and the pull of the tight line makes it grip the cord by friction so the tension holds without a knot.
 - **complexity**: Single piece: one moulded, cut or drilled plate or bar with two or three holes, or a small body with a toothed V-groove (Line-Lok, LineLoc). Works together with the cord, a stopper knot in the cord's end, and the stake or loop the cord goes round. No springs or moving parts.
 - **how_it_works**: One end of the cord is tied to the tent; the other end goes round a stake (or through a loop), back up through the runner's holes, and is stopped with a knot (Hilleberg recommends an overhand knot; Lawson says thread one hole, then back through the other 'making a U. Tie a knot.'). Sliding the runner up the line makes the loop round the stake shorter, which tightens the line. When the line is loaded, the cord is bent sharply round the edges of the holes and pressed against the runner, and friction at each bend multiplies the grip (the capstan effect: resistance to slip grows exponentially with the angle of wrap and the friction coefficient, Wikipedia 'Capstan equation'), so the pull cannot drag the cord back through; a 1950 three-hole rope fastener patent puts it as 'the tighter the pull ... the greater will be the compression' (US 2,506,274). To loosen, you take the bends out by hand: Hilleberg says to 'pull the line from the Line Runner body', Litesmith's Line-Lok instructions say to 'pull the lines apart to release', and Lawson to 'twist the tensioner in the opposite direction'; the cord then slides freely. *(unverified parts omitted)*
@@ -1368,7 +1368,7 @@
   - cargo hook / release hook / payload release / drop hook (drones and helicopters)
   - on-load release hook (lifeboats)
 - **family**: cord, strap, webbing & textile hardware
-- **other_families**: quick-release & tool-free, locks, latches & catches, self-locking & anti-back-drive, powered & active connectors
+- **other_families**: quick-release & tool-free, locks, latches & catches, self-locking & anti-back-drive, powered & active connectors, knots, lashings & sewn joints
 - **one_liner**: A hinged hook, jaw or stack of rings that carries a big load through its strong parts while a small latch (a sliding ring, spring pin, trigger or cord loop) keeps it shut, so a small, deliberate pull on the latch releases the load instantly.
 - **complexity**: A few parts to a small assembly that acts as one unit. Pelican hook: a body with an eye, a hinged tongue (the 'beak'), a sliding ring (bail) that holds the tongue shut, and often a locking pin on a lanyard. Snap shackle: a body with a fixed or swivel eye, a hinged jaw, a spring-loaded plunger pin (piston) and a pull ring or lanyard; trigger types use a latch opened with a fid or release spike. Three-ring release: a large ring on the harness, a middle ring and a small ring sewn to the webbing riser, a cord loop, a grommet, and a semi-rigid release cable in a housing leading to a handle (Wikipedia).
 - **how_it_works**: The load is carried by the strong hinged part (tongue, jaw or ring) and the body, not by the latch; the latch only has to stop the hinged part swinging open. Because the hinge acts as a lever, the latch feels only a fraction of the load, so a small push or pull frees it. On a pelican hook the ring slides over the tip of the tongue; when the ring is knocked or slid off, the tongue flies open (Practical Boat Owner, 'Senhouse slip'; Wikipedia). On a snap shackle 'a piston and spring arrangement ... latches the hinged shackle closed' (Practical Sailor); pulling the lanyard draws the piston back and the jaw swings open. In a three-ring release each ring passes through the next larger one and folds back, so each ring acts as a lever on the next and 'multiplies the mechanical advantage'; the smallest ring is held by a cord loop, the loop by a thin cable, and pulling the cable out makes the whole stack 'cascade free' (Wikipedia). Well-designed releases make the release force nearly independent of the load: Pope's patent routes axial loads through 'heavy axial jaws and not ... directly to the locking pin' (US 4,613,180), and Tylaska's shapes the latch contact as a logarithmic spiral so the release force stays the same whatever the tension (US 5,195,223).
@@ -2012,4 +2012,951 @@
 ### Other info
 
 - **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, off_the_shelf_parts, safety_notes
+
+## 374 Shackle and quick link (D-shackle, bow shackle, maillon)
+
+*cord, strap, webbing & textile hardware.* A U-shaped metal link closed by a screw pin or bolt, or an oval link closed by a threaded sleeve, used to join chain, rope eyes, straps and anchor points; stronger than a hook because it closes fully
+
+*Also covers:* Also covers screw-pin and bolt-type shackles, mousing the pin, and the soft (rope) shackle as a link to Rope splices. Safety: use rated, marked shackles for any load that could hurt someone; don't side-load round-pin shackles.
+
+### What it is
+
+- **plain_name**: A strong metal U closed across its open end by a screw-in pin or a bolt (or an oval chain link closed by a screw-on sleeve), used to join a rope loop, chain, strap or hook to an anchor point so nothing can slip off
+- **term**: Shackle (D-shackle and bow shackle) and quick link (maillon)
+- **aliases**: 
+  - shackle, shacklebolt, gyve (Wikipedia 'Shackle')
+  - D-shackle, chain shackle: narrow, for in-line loads (Wikipedia 'Shackle')
+  - bow shackle, anchor shackle: rounder 'O' shape that takes loads from several directions (Wikipedia 'Shackle')
+  - screw-pin shackle, threaded shackle: the pin screws into one leg (Wikipedia 'Shackle'; Crosby)
+  - round-pin shackle: plain pin held by a cotter pin, for in-line loads only (Crosby)
+  - bolt-type shackle, safety shackle, pin shackle: bolt plus nut and cotter pin, for long-term use; in industrial jargon often called a clevis (Wikipedia 'Shackle'; Crosby)
+  - headboard shackle and twist shackle (with a 90° twist), used on sailing boats (Wikipedia 'Shackle')
+  - quick link, maillon, maillon rapide (French maillon = link): a link closed by a threaded sleeve (Wikipedia 'Maillon'); Maillon Rapide (Péguet, brand)
+  - oval, large-opening, D (half-moon), delta (triangular), square, pear-shaped and twist quick links (Wikipedia 'Maillon'; Péguet product range)
+  - soft shackle, rope shackle, textile shackle: a loop of strong fibre rope closed by a stopper knot (Wikipedia 'Shackle'; see Rope splices)
+  - snap shackle: spring-latched and opened under load, covered in Quick-release hooks
+  - standards: ASME B30.26 'Rigging Hardware', US Federal Specification RR-C-271 and ISO 2415 for shackles; EN 362 and EN 12275 for quick links used as personal protective equipment (Crosby G-209 page; Hanford ch. 2-26; Péguet)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: everyday fasteners & fixings, knots, lashings & sewn joints
+- **one_liner**: A closed metal link (a U-shaped shackle shut by a screw pin or bolt, or an oval quick link shut by a threaded sleeve) that joins rope eyes, chain, slings, straps and anchor points; because it closes completely it can't shake off like a hook, and a rated, marked one carries very heavy in-line loads.
+- **complexity**: A few parts. Shackle: the U-shaped body (bow) with an eye in each leg, plus a pin that either screws into one leg (screw pin), is a plain pin held by a cotter pin (round pin), or is a bolt with a nut and cotter pin (bolt type); optional mousing wire or cable tie (Wikipedia 'Shackle'; Crosby). Quick link: an open oval or D link with a thread on one end and a threaded sleeve that screws across the gap (Wikipedia 'Maillon'). Soft shackle: one length of fibre rope with a spliced loop and a stopper knot (Wikipedia 'Shackle').
+- **how_it_works**: The bow or link goes through or round the things to be joined, and the pin or sleeve closes the gap, so the link becomes a solid closed ring that the load cannot pull open or lift off (Wikipedia 'Shackle', 'Maillon'). A shackle pin is held by its thread in the tapped leg, by a cotter pin, or by a nut and cotter pin; a quick link's sleeve screws over the gap until no thread shows and then carries load across the gap like the rest of the link (Crosby; Péguet instructions). It is strongest when the pull runs straight through the bow and pin (in line) or along the length of a quick link (major axis); pulling sideways bends the narrow D shape and puts the load where it is weakest, which is why bow shackles have a rounder bow for loads from several directions and why round-pin shackles must never be side-loaded (Wikipedia 'Shackle'; Crosby). A soft shackle works the same way with rope: the knot at one end pushes through the loop at the other, and the loop tightens round the neck of the knot under load (Wikipedia 'Shackle').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: links a rope eye, chain, sling, strap, hook or block to an anchor point, eye bolt or another link
+  - lock, and release by hand: the screw pin or sleeve is closed and opened by hand (or with a shackle key or spanner) once the load is off
+- **motion**: multiple: the closed link itself doesn't move, but the parts it joins can swing, pivot on the pin or round the bow, and slide round the bow; a twist shackle turns the joined parts through 90° (Wikipedia 'Shackle').
+- **degrees_of_freedom**: None inside the closed link. The joined parts are loosely captured: each can pivot and slide round the bow or link, but cannot come out while the pin or sleeve is closed (Wikipedia 'Shackle', 'Maillon').
+- **special_behaviour**: 
+  - hand-release only (locks under load, releases when a person operates it): once the pin or sleeve is done up, the load cannot open it; a person unscrews it when the load is off (Wikipedia 'Maillon'; Crosby)
+  - none of the other behaviours: it does not slip, click or release on its own (for release under load, see Quick-release hooks and the snap shackle)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the closed bow or link surrounds the rope, chain or eye, and the pin or sleeve closes the gap (Wikipedia 'Shackle', 'Maillon')
+  - friction or clamping (force-fit): the screw pin or sleeve is held by its thread, tightened by hand or to a torque, and backed up by mousing wire, a cable tie or a cotter pin (Crosby; Péguet instructions; Wikipedia 'Safety wire')
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: screw-pin shackles and quick links undo by hand when unloaded (a shackle key or pliers helps with tight pins), bolt-type shackles with a spanner after the cotter pin is removed (Wikipedia 'Shackle'; Crosby). Quick links tightened with a spanner for 'semi-permanent connections' (Petzl technical notice) are removed with a spanner.
+- **reuse_cycles**: many times for shackles, which are inspected and reused (Crosby); quick links are meant for connections that are opened 'infrequently' under EN 362, and any link that has arrested a fall or taken a major load must be replaced (Péguet instructions; Petzl technical notice); a mousing wire or cotter pin is used once.
+- **tools_needed**: None for a hand-tight screw pin or sleeve; a shackle key or metal marlinspike to loosen tight pins (Wikipedia 'Shackle'); a spanner for bolt-type shackle nuts and for tightening quick-link sleeves to the maker's torque (Péguet instructions); pliers, annealed iron mousing wire or a cable tie, and new cotter pins (Crosby; Wikipedia 'Shackle').
+- **seal**: none: nothing seals; it is an open-air link.
+- **load**: Light to very heavy, set by the rating marked on the part. Rated forged shackles: 'Working Load Limit and grade 6 permanently shown on every shackle', minimum breaking strength 6 x the WLL, proof tested to 2 x the WLL (Crosby G-209). Quick links: WLL marking based on a safety factor of 5 (Péguet); a certified 7 mm steel quick link breaks at 25 kN along its length (major axis) but only 10 kN across it (minor axis) (Petzl GO). Unrated hardware-store quick link: a 1/4 in link has an 880 lb safe working load but is marked 'Do not use for overhead lifting, support of human weight, athletic or playground equipment' (National Hardware). Strong in line (pull through the bow and across the pin, or along a quick link's length); weaker when side-loaded: screw-pin and bolt-type shackles drop to 70% of WLL at 45° and 50% at 90°, and round-pin shackles must not be side-loaded at all (Crosby; table via CUNY City Tech handout); D-shackles can 'twist or bend' under side and racking loads (Wikipedia 'Shackle'); a quick link loaded across its minor axis or with the sleeve not locked is 'dangerous' (Petzl technical notice).
+- **adjustable**: no: it only joins and unjoins; it sets no position or tension (use a Turnbuckle for that).
+- **play_and_precision**: not applicable: a loose link that lets the joined parts move; it is not used to locate anything.
+- **access_needed**: not applicable: it is closed in the open around the parts it joins; you only need to reach the link, its pin or sleeve, and both ends of a bolt-type pin.
+- **materials**: Shackles: forged, quenched and tempered carbon steel with alloy pins, hot-dip galvanised or self-coloured (Crosby G-209); stainless steel for marine use, some stamped from flat strap (Wikipedia 'Shackle'). Soft shackles: high-strength fibre rope such as UHMWPE (Dyneema, brand), aramid or PBO (Wikipedia 'Shackle'). Joins: chain, wire-rope and fibre-rope eyes with or without thimbles, webbing and synthetic slings (which need a big enough bow to avoid pinching), eye bolts, pad eyes and other shackles (Crosby). Stainless threads can gall (seize) if overtightened or corroded (Wikipedia 'Shackle'). *(unverified parts omitted)*
+- **maker_difficulty**: easy to fit: thread it through, screw the pin or sleeve shut, mouse it if it stays; impossible to make safely at home for real loads (forging, heat treatment and proof testing), so buy rated, marked shackles and links; soft shackles can be tied at home but home-made ones are unrated.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: rated shackles and quick links are bought forged or machined metal
+  - 3D print (FDM): decorative and very light-duty shackles and links only, e.g. paracord-bracelet shackles, scale-model shackles and a printed quick link for model-rocket recovery lines (see make_it_yourself)
+  - hand-made from rope: soft shackles tied from strong fibre rope (see Rope splices and make_it_yourself)
+- **making_tips_3d_printing**: 1) Printed shackles and links are for decoration, bracelets, models and very light loads only; one maker labels a printed D shackle 'DO NOT USE FOR ANYTHING BUT AESTHETICS ONLY' (Printables 'D shackle', isyork), and US rigging rules ban makeshift links in lifting (OSHA 29 CFR 1926.251). 3) Use a metal bolt, screw or pin as the shackle pin rather than a printed one, and a nut or a heat-set insert rather than a thread in plastic for anything reused (Hubs 'How to assemble 3D printed parts with threaded fasteners'). 5) Proof-test a printed link well above its intended load before relying on it, and never use one where a failure could hurt anyone. 6) Printed pulleys and blocks often hang from a soft shackle instead of a metal one; one design was tested to 100 kgf for three days and broke at about 150 kgf (Printables 'Soft shackle rope pulley', printableconcrete). *(unverified parts omitted)*
+- **off_the_shelf_parts**: D (chain) shackles and bow (anchor) shackles in screw-pin, round-pin (with cotter) and bolt-type (bolt, nut and cotter) versions; long-D, headboard and twist shackles for sailing; captive-pin shackles; snap shackles (see Quick-release hooks); shackle key or marlinspike; annealed iron mousing wire (safety wire) and cotter pins; quick links in oval, large-opening, D (half-moon), delta, square, pear and twist shapes, in zinc-plated or stainless steel, some certified EN 362 / EN 12275; ready-made Dyneema soft shackles (Wikipedia 'Shackle', 'Maillon'; Crosby; Péguet; National Hardware). For sizes and ratings use the maker's tables, e.g. Crosby's G-209 shackle page or Péguet's quick-link range, and the WLL marked on the part.
+- **rules_of_thumb**: 
+  - Pick the pin by the job: screw-pin shackles for temporary 'pick and place' use, with the pin tightened before each lift; bolt-type shackles (always with nut and cotter) for permanent or long-term use and where the load may slide on the pin and turn it; round-pin shackles only for strictly in-line loads, never side-loaded or used to gather several sling legs (Crosby shackle warnings 2023; Crosby 2013 via CUNY City Tech handout).
+  - Side loading of screw-pin and bolt-type shackles: 0-5° 100% of WLL, 45° 70%, 90° 50%; side loads must be in the plane of the bow, and two sling legs on the bow may use the full WLL up to a 120° included angle (Crosby 2013 catalogue pages, via CUNY City Tech handout; the 2023 Crosby sheet says side loads must be reduced 'according to Table 1').
+  - Centre the load in the bow, don't put several sling legs on the pin, make the shackle bigger than the wire rope if the rope eye has no thimble, and big enough not to pinch synthetic slings (Crosby).
+  - Mouse screw pins in long-term or high-vibration use: annealed iron wire through the hole in the pin's collar and round the adjacent leg, ends twisted together (Crosby); a cable tie is used where easy removal is wanted, but wire can cause galvanic corrosion and nylon is not recommended where the shackle moves a lot (Wikipedia 'Shackle', 'Safety wire'). Don't let a running rope or sling roll a screw pin open (Crosby 2013 via CUNY).
+  - Rated shackles: minimum breaking strength 6 x WLL, proof load 2 x WLL, WLL and grade permanently marked (Crosby G-209); never load beyond the marked WLL (OSHA 29 CFR 1926.251).
+  - Quick links: WLL marking based on a safety factor of 5 (Péguet); screw the sleeve fully home so 'no thread must be showing' and tighten to the maker's torque, e.g. 2.5 N·m for 7 mm, 3.0 for 8 mm, 4.5 for 9 mm, 7.0 for 10 mm and 9.0 for 12 mm wire (Péguet user instructions, 2018).
+  - A 7 mm steel quick link: 25 kN along its length, 10 kN across it (Petzl GO); load quick links only along their recommended axis with the sleeve locked (Petzl technical notice).
+  - Bow shackles take loads from several directions with less side load than a D, but their larger loop reduces overall strength (Wikipedia 'Shackle').
+  - Soft shackles (one 2014 test, 5 each, 3/16 in UHMWPE rope rated 5,400 lbf): diamond-knot shackles averaged about 136-140% of single-line strength (the page's heading says 136%, its table 139.63%), 'better diamond' 148%, button knot 224% and big overhand 228%; a badly set knot 'can fail well below the rated strength (sometimes as low as 1,500 lbf)' (Balance Community 'A comparison of soft shackle methods').
+  - Temperature limits for rated shackles and links: -40°F to +400°F (-40°C to 204°C) (ASME B30.26 via Hanford ch. 2-26; Crosby G-209).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Threaded shackles mounted on the front of a fire engine or 4x4 for a winch or tow line (Wikipedia 'Shackle', photo caption)
+  - Shackles on a sailing boat's halyards, sails and blocks, including headboard and twist shackles (Wikipedia 'Shackle')
+  - A quick link making a 'fast, easy connection between two lengths of chain' or attaching accessories to chain (National Hardware quick link)
+  - Quick links (maillons) left on bolts as abseil anchors on climbing routes, and a small plastic shackle closing a paracord bracelet (Wikipedia 'Maillon'; Printables 'Paracord Bracelet Shackle')
+- **when_to_use**: Use a shackle or quick link whenever a rope eye, chain, strap or sling must be joined to an anchor point, eye bolt or another link more securely than a hook allows: it closes completely, so the load can't bounce or shake off, and it can be undone later. Choose a D-shackle for straight, in-line pulls, a bow shackle where the pull direction changes or two legs share it, a bolt-type shackle for anything left in place, a screw-pin shackle for temporary connections tightened before each use, and a quick link for a slim, semi-permanent link in chain or between rope and anchor that is rarely opened (Wikipedia 'Shackle', 'Maillon'; Crosby; Péguet). Use rated, marked hardware whenever a failure could hurt someone.
+- **when_not_to_use**: Not for frequent clipping and unclipping: use a Spring-gate hook (carabiner), which is faster but weaker across its gate (Wikipedia 'Maillon'). Not when the load must be released while still pulling: use Quick-release hooks (snap shackle, pelican hook). Don't use round-pin shackles for side loads or to gather several sling legs, and don't use unrated, unmarked hardware-store shackles or quick links for overhead lifting, people, swings or climbing (Crosby; National Hardware). Avoid metal shackles where they will bang on and damage decks, masts or paint, or where a lost pin is a problem: a soft shackle 'can handle just about every function performed by a metal shackle' there, but it can be cut by sharp edges and weakened by heat (Wikipedia 'Shackle', quoting Sail magazine). For a pivoting joint between two rigid parts use a Clevis joint; for adjustable tension use a Turnbuckle.
+- **environment_limits**: Rated steel shackles and links: -40°F to +400°F (-40°C to 204°C) (Crosby G-209; ASME B30.26 via Hanford ch. 2-26). Salt air corrodes threads and makes stainless threads gall; a coat of lanolin or heavy grease helps (Wikipedia 'Shackle'). Steel mousing wire on a stainless shackle can cause galvanic corrosion in wet, salty places (Wikipedia 'Shackle'). Quick links should be stored dry and their threads lightly oiled after contact with water; extreme temperatures, chemicals, cuts and abrasion affect performance (Péguet instructions). Vibration loosens screw pins and sleeves, so mouse long-term pins (Crosby). Soft shackles are weakened by heat, including friction heat, can be cut or burned, and 'deteriorate in some environments' (Wikipedia 'Shackle').
+- **safety_notes**: Use rated shackles and quick links, with the working load limit permanently marked, for any load that could hurt someone if it fell, and never exceed the marked WLL (OSHA 29 CFR 1926.251; Crosby G-209). US rigging rules ban 'makeshift fasteners, formed from bolts, rods, etc.' (OSHA 29 CFR 1926.251). Don't side-load round-pin shackles, and reduce the WLL of other shackles for side loads (Crosby). Never use hardware-store shackles or quick links, home-made soft shackles or 3D-printed links for climbing, lifting people, swings or overhead loads: hardware-store links carry a caution against 'overhead lifting, support of human weight, athletic or playground equipment' (National Hardware), certified PPE quick links (EN 362 / EN 12275) are for trained users only (Péguet), and home-made soft shackles can fail far below rating if the knot isn't set (Balance Community). Check before each use that the pin is fully screwed in or the sleeve fully closed, and retire any link that has arrested a fall, taken a major load, is cracked, bent or corroded, or whose history you don't know (Crosby; Péguet; Petzl technical notice). Stand clear of loaded lines and lifted loads.
+- **common_failures**: Pin unscrews and the shackle opens: vibration, or a rope or sling rolling the pin; tighten before each lift and mouse it, or use a bolt-type shackle with nut and cotter (Crosby). Lost pin: use a captive-pin shackle or keep the pin tied on (Wikipedia 'Shackle'). Seized (galled) stainless thread: overtightened or salty; grease the thread and loosen with a shackle key (Wikipedia 'Shackle'). Bent or twisted D-shackle: loaded sideways or by a racking load; use a bow shackle or line the load up through the bow (Wikipedia 'Shackle'; Crosby). Quick link breaks or opens: sleeve not fully closed so the load goes through the open gap, sleeve vibrated loose, or link loaded across its minor axis; close it until no thread shows, tighten to torque, check it regularly (Péguet; Petzl technical notice). Pinched or cut slings and ropes: shackle too small, or a rope eye with no thimble on a thin pin (Crosby). Soft shackle fails low: knot not set, or chafed on a sharp edge or heated by friction (Balance Community; Wikipedia 'Shackle'). Unrated hardware failing far below what it looks able to carry (National Hardware ratings).
+- **related**: 
+  - Spring-gate hook (carabiner, snap hook): clips on in a second with a sprung gate; weaker across the gate than a quick link, which Wikipedia calls a stronger but slower 'similar' link
+  - Quick-release hooks (pelican hook, snap shackle, three-ring release): can be opened while loaded
+  - Clevis joint (fork-and-pin joint): the same pin-through-a-fork shape, but used as a pivot between two rigid parts
+  - Eye bolts, screw eyes and hooks: the fixed eyes a shackle usually connects to
+  - Rope splices (eye splice, soft shackle): how to make the rope eye, and the soft shackle tied from rope
+  - Wire-rope terminations (thimble, wire-rope clip, crimped sleeve): the protected loop in wire rope that goes onto a shackle
+  - Turnbuckle: often shackled between an anchor and a wire to adjust tension
+  - Hitches to a post, rail, ring or eye (round turn and two half hitches): tie a rope straight to a ring or eye instead of using hardware
+  - Swivel: a rigging link that lets the joined parts rotate freely, often combined with a shackle (ASME B30.26 via Hanford ch. 2-26) (not a separate entry)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Moused shackle.gif (Wikimedia Commons, New Zealand Department of Labour, 2003)](https://commons.wikimedia.org/wiki/File:Moused_shackle.gif): A D-shackle whose screw pin is moused (wired) to the body so it can't unscrew *(licence: Attribution only (free use with credit to the copyright holder))*
+  - [Mannheim Germany Shackles-in-a-workshop-01.jpg (Wikimedia Commons, photo by CEphoto, Uwe Aranas)](https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg): Different types and sizes of shackles hanging in a workshop, with inspection-date cable ties *(licence: CC BY-SA 4.0 (credit 'Photo by CEphoto, Uwe Aranas'))*
+  - [Maillon.JPG (Wikimedia Commons, by Cj8457)](https://commons.wikimedia.org/wiki/File:Maillon.JPG): A quick link (maillon) with its threaded sleeve open and closed *(licence: Public domain)*
+  - [Manille textile dyneema 03.jpg (Wikimedia Commons, by Pep.per de Ré)](https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg): A closed Dyneema soft shackle locked with a diamond knot *(licence: CC BY-SA 3.0)*
+  - [Crosby 'Shackles: applications & warnings' (section 1, 2023)](https://www.thecrosbygroup.com/wp-content/uploads/catalog/2022/en-US/362.pdf): Diagrams of round-pin, screw-pin and bolt-type shackles, mousing a screw pin, connecting slings, and correct versus wrong loading *(licence: link only)*
+- **make_it_yourself**: 
+  - [Micro Quick Link for Rocketry or anything really (Nerys, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/415609-micro-quick-link-for-rocketry-or-anything-really): A tiny printed quick link with a screw sleeve for light model-rocket recovery lines; the author notes twisting would probably break it *(licence: Creative Commons Attribution-ShareAlike)*
+  - [Paracord Bracelet Shackle (mobiobi, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/97390-paracord-bracelet-shackle): A 25 mm printed shackle clasp for paracord bracelets, printed flat without supports *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Soft shackle rope pulley for up to 6mm rope (printableconcrete, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/552267-soft-shackle-rope-pulley-for-up-to-6mm-rope): A printed pulley block that hangs from a 3 mm Dyneema soft shackle; tested to 100 kgf for three days, destructive test about 150 kgf *(licence: Creative Commons Attribution)*
+  - [Dyneema soft shackle with diamond knot (ACBO beginner's guide, PDF)](https://acbo.org.uk/wp-content/uploads/2023/09/Softshacklebeginner.pdf): Step-by-step photo guide with a cutting table (e.g. 120 cm of 6 mm Dyneema) for tying a soft shackle; for practice and light uses, not for people *(licence: link only (not stated))*
+- **diagram_idea**: Side-by-side drawings of a D-shackle and a bow shackle with arrows showing a straight in-line pull (100%), a 45° side pull (70%) and a 90° side pull (50%) on screw-pin shackles, a red cross on a side-loaded round-pin shackle, a close-up of mousing wire through the pin collar, and a quick link with its sleeve fully closed ('no thread showing') next to one left half open.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Shackle
+  - https://en.wikipedia.org/wiki/Maillon
+  - https://en.wikipedia.org/wiki/Safety_wire
+  - https://www.thecrosbygroup.com/wp-content/uploads/catalog/2022/en-US/362.pdf
+  - https://openlab.citytech.cuny.edu/stageriggingspring2015/files/2015/05/Hardware-Handout.pdf
+  - https://kitocrosby.com/product/crosby-g-209-s-209-screw-pin-anchor-shackles/
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.251
+  - https://www.hanford.gov/files.cfm/HR_2-26_Rigging_Hardware.pdf
+  - https://peguet.com/peguet-maillons-rapides
+  - https://www.safetyliftingear.com/file/download/9000
+  - https://www.petzl.com/US/en/Professional/Connectors/GO
+  - https://cdn.shopify.com/s/files/1/0923/3012/files/technical-notice-MAILLONS-RAPIDES_1__compressed.pdf
+  - https://www.national-hardware.com/p/3150-quick-links
+  - https://www.balancecommunity.com/blogs/slack-science/a-comparison-of-soft-shackle-methods
+  - https://acbo.org.uk/wp-content/uploads/2023/09/Softshacklebeginner.pdf
+  - https://cnckitchen.com/blog/stop-printing-flat-the-45-secret-for-stronger-parts
+  - https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/
+  - https://commons.wikimedia.org/wiki/Category:Shackles
+  - https://commons.wikimedia.org/wiki/File:Moused_shackle.gif
+  - https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg
+  - https://commons.wikimedia.org/wiki/File:Maillon.JPG
+  - https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** making_tips_3d_printing, materials, print_in_place
+
+## 376 Wire-rope terminations (wire-rope clip, thimble, crimped sleeve)
+
+*cord, strap, webbing & textile hardware.* Ways to make a loop or an end stop in steel wire rope, by bending it round a grooved thimble and holding the tail with U-bolt clips, or by squeezing a metal sleeve round both parts with a crimping tool
+
+*Also covers:* Also covers clip spacing, count and the dead-end rule (sources differ: record them side by side), crimped stops for robot tendons and pull-pull cables, and swaged and poured sockets as mentions. Bulldog grip as an alias. Safety: not for lifting people; overhead lifting needs rated terminations and inspection.
+
+### What it is
+
+- **plain_name**: Ways to make a loop or a stopper on the end of steel cable: bend the cable round a grooved metal teardrop so the loop keeps its shape, then clamp the loose tail back onto the cable with U-shaped bolt clamps, or squash a soft metal tube round both strands with a crimping tool
+- **term**: Wire-rope termination (wire-rope clip and thimble eye; crimped or swaged sleeve)
+- **aliases**: 
+  - wire rope clip, wire rope clamp, U-bolt clip, U-bolt wire rope grip (Wikipedia 'Wire rope'; Crosby; BSI EN 13411-5)
+  - bulldog grip, bulldog clip, 'dogs' (UK) (Arthur Beale: wire rope grips 'are often called "Bulldog Clips" or just "Dogs"')
+  - fist grip, double-saddle clip (Fist Grip is a Crosby brand name) (CERTEX catalogue)
+  - simplex and duplex wire rope clips (one- and two-bolt plate clamps; catalogue names) (S3i)
+  - thimble, wire rope thimble, hard eye (eye with thimble) vs soft eye (no thimble) (Wikipedia; S3i)
+  - crimped sleeve, ferrule, swaged sleeve, oval sleeve, duplex sleeve, turn-back ferrule, cable crimp, wire rope sleeve (Nicopress; S3i)
+  - Nicopress sleeve (brand), Talurit ferrule (brand), aluminium ferrule to EN 13411-3 (Nicopress; S3i)
+  - stop sleeve, end stop, crimped stop, barrel ferrule (single-hole sleeve crimped on the end of a cable) (Nicopress)
+  - swage tube or 'swage' (RC modelling name for a short bronze or brass crimp tube) (Model Airplane News)
+  - eye splice, Flemish eye, Dutch splice, 'Molly Hogan' (spliced wire-rope eyes, mentioned here only) (Wikipedia)
+  - swaged fittings and sockets: swage socket, swage stud, swage eye (Wikipedia; CERTEX)
+  - wedge socket, Terminator (Crosby brand) (CERTEX)
+  - poured socket, spelter socket, zinc-poured or resin-poured socket, potted end (Wikipedia; CERTEX)
+  - pull-pull cable end, servo cable loop (RC models) (Model Airplane News)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: tensioning, reels & take-up
+- **one_liner**: A way of finishing steel wire rope with a loop (usually wrapped round a grooved thimble) or an end stop, held either by U-bolt clips clamped over the doubled rope or by a soft metal sleeve crushed onto it with a crimping tool, so the rope can be hooked, shackled or anchored without fraying or slipping.
+- **complexity**: A few parts. Clip eye: the rope, a thimble, two or more wire rope clips (each a U-bolt, a forged saddle and two nuts) (Wikipedia 'Wire rope'; Arthur Beale). Crimped eye: the rope, a thimble (optional), one oval (two-hole) sleeve, and a crimping tool with its gauge (Nicopress; S3i). Crimped end stop: one single-hole stop sleeve (Nicopress). Industrial sockets: a forged socket plus a wedge (wedge socket) or poured zinc or resin (spelter socket) (CERTEX).
+- **how_it_works**: Wire rope can't be knotted well and frays when cut, so its end is turned back to form a loop and the loose end (the dead end) is fixed back onto the loaded part (the live end) (Wikipedia 'Wire rope'). A thimble inside the loop keeps it from bending too tightly and protects it from pinching and wear where it meets a shackle or hook (Wikipedia). U-bolt clips hold the two strands by squeezing them between the U-bolt and the saddle, so friction stops the tail sliding; the saddle goes on the live end, because the U-bolt crushes the rope under it ('never saddle a dead horse') (Crosby; Wikipedia). A crimped sleeve is a soft copper, aluminium or stainless tube that a crimping tool deforms round both strands (or round a single strand for an end stop), locking them by squeezing and shape; a gauge checks that it was pressed enough (Nicopress).
+
+### Finder attributes
+
+- **job**: join and hold: makes a loop or end stop so steel rope can be fixed to a hook, shackle, eye bolt, turnbuckle, pulley horn or tendon anchor, or so two ropes can be joined (Crosby; Nicopress)
+- **motion**: none: the termination itself doesn't move; a loop round a pin or shackle can swivel on it.
+- **degrees_of_freedom**: 0 between rope and fitting; a thimble eye on a pin or shackle can still rotate about the pin (1), but it is not meant as a bearing.
+- **special_behaviour**: none: it simply holds. (A wedge socket grips harder as the load rises, which is self-tightening rather than one of the listed behaviours; CERTEX.)
+- **holding_principle**: 
+  - friction or clamping (force-fit): U-bolt clips squeeze the two strands together (Wikipedia 'Wire rope'); a crimped sleeve is pressed tight round the rope (Nicopress); a wedge socket clamps the rope between wedge and socket, gripping tighter as the load rises (Wikipedia; CERTEX)
+  - shape (the parts interlock; form-fit): the thimble locks the loop's shape onto the pin or shackle; the deformed sleeve and, in a poured socket, the cone of metal or resin round splayed wires can't pull through the narrow end (Wikipedia; CERTEX)
+- **input_output**: not applicable
+- **power**: passive (no power needed).
+- **removability**: Depends on method. Wedge sockets: removable; they are used where the rope end is trimmed and the socket refitted often (Wikipedia). Crimped sleeves, swaged fittings and poured sockets: permanent; cut the rope to remove them (Wikipedia: swaging creates 'a permanent connection'). *(unverified parts omitted)*
+- **reuse_cycles**: once for crimped sleeves, swaged fittings and poured sockets (Wikipedia). *(unverified parts omitted)*
+- **tools_needed**: Clips: a spanner or nut spinner (Arthur Beale) and, for rated work, a torque wrench to the maker's torque (Crosby). Crimps: the crimping tool made for that sleeve and its go gauge (Nicopress), or a hand swager or crimping pliers for small aluminium ferrules (S3i); the RC 'swage tube' method uses a small hobby crimper (Model Airplane News). Cutting: 'a sharp, notched, shear type cutter' (Nicopress) or a dedicated cable cutter to avoid frayed ends (Model Airplane News). Safety glasses (Nicopress). Industrial sockets need presses, pouring kits and training (CERTEX).
+- **seal**: none.
+- **load**: Light to heavy, set by the rope size and the termination's efficiency (its strength as a share of the rope's minimum breaking force). It carries pull along the rope only; wire rope carries no push, and a termination should not be bent or side-loaded where it leaves the fitting. Efficiencies differ by method and source: clips 80% for sizes 1/8 to 7/8 in and 90% from 1 in (Crosby), 'up to 85%' (WorkSafeNB); wedge socket 80% (CERTEX); spelter and swage sockets 100% (CERTEX); Flemish eye about 70%, nearly 90% with a splice, 100% for potted ends and swagings (Wikipedia, marked 'citation needed'). For printed clamp stoppers, the load is whatever friction the screw clamp gives: light only (Printables 1351058). *(unverified parts omitted)*
+- **adjustable**: Partly. Clips can be loosened, slid and re-tightened, and must be re-tightened after the first load (Crosby; Arthur Beale); wedge sockets can be refitted (Wikipedia). Crimped sleeves can't be adjusted, so set the length with a turnbuckle or threaded stud: in RC pull-pull systems the crimped loop goes round a threaded stud screwed into a clevis, leaving two-thirds of the stud for tension adjustment (Model Airplane News).
+- **play_and_precision**: Small. A crimped eye has no slip once pressed (Nicopress). Clip eyes settle as the rope beds in, so the nuts loosen and must be re-tightened (Arthur Beale: retighten 'the following day'; Crosby: re-check torque after the first load). For pull-pull and tendon drives, set both cable runs to the same geometry and remove slack without over-tightening, or the servo is side-loaded (Model Airplane News). *(unverified parts omitted)*
+- **access_needed**: not applicable: it is made on the free end of the rope, usually before the rope is fitted; you need room round the rope for a spanner or crimping tool.
+- **materials**: Rope: galvanised steel or stainless steel wire rope (7x7, 7x19, 1x19 and 6x19-class constructions), sometimes plastic-coated (S3i; Crosby). Clips: galvanised drop-forged steel (Crosby G-450), 316 stainless (Crosby SS-450), cheaper commercial clips to DIN 741, and lifting-grade grips to EN 13411-5/DIN 1142 (Crosby; Arthur Beale). OSHA requires more clips when they are made of material other than drop-forged steel (OSHA 1926.251 Table H-2). Sleeves: plain or zinc-plated copper on galvanised cable, tin-plated copper or stainless on stainless cable (Nicopress); aluminium ferrules to EN 13411-3 for galvanised 7x19, not 1x19 and not stainless in marine or coastal use (S3i); bronze tube for RC crimps, as brass 'is too hard and can often crack or split' (Model Airplane News). Thimbles: galvanised or stainless steel, or nylon for light use (S3i). Not for fibre ropes (use splices and knots), and fibre-core wire ropes should not be swaged (Wikipedia).
+- **maker_difficulty**: easy to moderate: clip eyes need only a spanner but must be fitted the right way round and re-tightened (Crosby; Arthur Beale); crimped sleeves are quick but need the matching tool and a gauge check (Nicopress); swaged sockets, spelter sockets and rated lifting slings are industrial: buy them made and proof-tested (CERTEX; OSHA 1926.251).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: clips, thimbles, sleeves, stop sleeves and swaged fittings are bought
+  - 3D print (FDM): light-duty screw-clamp stoppers, cable-end caps, fairleads and guides (Printables 1351058, 191390, 439245)
+  - CNC or sheet metal: anchor plates, clevises and studs the terminated rope fixes to
+- **print_in_place**: no: the termination is metal hardware; printed clamp stoppers are separate parts held with a screw and nut.
+- **making_tips_3d_printing**: 1) Printed parts suit only light, non-critical jobs such as sun shades, flags, trellis wires and stops on small cables: a printed 'wire rope clamp stopper' for 2 to 2.5 mm rope uses an M4x10 screw and nut and prints upright in PETG without supports (Printables 1351058); a printed clamp with a hanging loop on an M5 bolt holds 1/16 to 3/32 in vinyl-coated rope and has held flags in PLA for over a year (Printables 847016); a printed bicycle cable-end cap is held by a short grub screw (M3 or M4), printed in PETG with at least 2 perimeters, tightened 'not too tight' (Printables 439245). 2) Use PETG, ASA or similar outdoors; PLA creeps under constant load, so a screw clamp in PLA can slowly lose grip (maker note, Printables 415716). 3) Never use a printed clamp or printed thimble for lifting, overhead loads or anything that would hurt someone if it slipped; use metal clips or crimped sleeves (Arthur Beale; Crosby). 5) Where a printed pulley or guide replaces a thimble, the rope is bent more sharply and Crosby adds one clip when a sheave is used for the turn-back; keep grooves smooth and generous (see Capstan cable drive for bend-ratio figures). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Catalogue names: 'wire rope clip' or 'U-bolt clip' (drop-forged, malleable, stainless), 'wire rope grip DIN 741' (light duty) and 'EN 13411-5 / DIN 1142' grips (lifting grade), 'fist grip' (double saddle), 'simplex' and 'duplex wire rope clip' (Crosby; CERTEX; Arthur Beale; S3i); 'wire rope thimble' (standard, heavy duty, closed body, nylon) (S3i); 'oval sleeve' or 'duplex sleeve' and 'stop sleeve' (Nicopress), 'aluminium ferrule EN 13411-3' and 'copper ferrule' (S3i); 'hand swager' or 'wire rope crimping tool' with go gauge (Nicopress; S3i); 'swage stud', 'swage eye', 'swage fork' and swageless mechanical terminals (e.g. Sta-Lok, brand) for rigging (S3i catalogue menu); 'wedge socket' and 'spelter socket' (CERTEX); RC 'pull-pull cable kit' with threaded studs and crimp tubes (Model Airplane News). Brand names are given only as catalogue search terms; see each maker's size table rather than copying it here (e.g. Crosby 56 sheet: https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf).
+- **rules_of_thumb**: 
+  - Clip direction: put the U-bolt on the dead (short) end and the saddle on the live (loaded) end: 'Never saddle a dead horse!' (Crosby; Wikipedia; WorkSafeNB; OSHA 1926.251(c)(5)(i)).
+  - Clip placement (Crosby): turn back the length given in the maker's table; 'apply first clip one base width from dead end of rope'; put the second 'as near the loop or thimble as possible'; space any others 'equally between first two'; tighten the nuts evenly, alternating, to the table torque; then 'apply first load' at least equal to the working load and re-tighten.
+  - Number of clips, side by side: Crosby asks for 2 clips on ropes 1/8 to 7/16 in, 3 on 1/2 to 5/8 in, 4 on 3/4 and 7/8 in, rising to 8 or more on large ropes, plus one extra if a pulley (sheave) is used instead of a thimble or for some rope constructions (Crosby 56; same table in CERTEX). WorkSafeNB says 'At least three clips should be used when making any prepared loop or thimble-eye termination for wire rope (especially for overhead lifting)', although its own reprinted table lists 2 for 5/16 to 7/16 in rope. OSHA construction rules (Table H-2) start at 1/2 in rope with 3 drop-forged clips or 4 clips of other material. Wikipedia: 'Two or more clips are usually used', up to eight for 2 in rope. For small hobby ropes, using three is the cautious choice.
+  - Clip spacing, side by side: OSHA Table H-2 gives a minimum spacing of 3 in for 1/2 in rope, 3-3/4 in for 5/8 in, 4-1/2 in for 3/4 in and 6 in for 1 in rope, about six rope diameters (OSHA 1926.251). Crosby gives no fixed spacing: first clip one saddle width from the dead end, second next to the thimble, the rest evenly between (Crosby 56).
+  - Efficiency of a clip eye: 80% of rope strength for 1/8 to 7/8 in clips and 90% from 1 in (Crosby) vs 'up to 85%' (WorkSafeNB).
+  - Don't fit clips on plastic-coated rope: Crosby says 'Do not use with plastic coated wire rope'; Arthur Beale says any PVC covering 'must be stripped before applying the dogs'.
+  - Re-tighten clips after the first load and the next day, and check them periodically: regulators don't recommend clips as permanent terminations 'unless periodically checked and re-tightened' (Wikipedia; Arthur Beale; Crosby).
+  - Crimped eyes (Nicopress): use the tool and sleeve made for each other and press the number of crimps the table gives for that sleeve, spaced evenly; check every finished crimp with the go gauge ('Sleeves should enter slot freely'); 'pull enough cable through the sleeve so that the end will still protrude after crimping'. A lap splice joining two cables usually needs two sleeves.
+  - Crimped stop sleeves: thread the cable through so it 'extends 1/8"' (about 3 mm) beyond the sleeve before pressing (Nicopress).
+  - Match sleeve metal to rope: plain or zinc-plated copper on galvanised cable, tin-plated copper or stainless on stainless cable (Nicopress); aluminium ferrules (EN 13411-3) only on galvanised 7x19, 'Not suitable for use with 1x19', and not with stainless in marine or coastal use (S3i).
+  - RC pull-pull loop: slide the crimp tube on, pass the cable through the stud's hole, back through the tube to leave a loop about 3/8 in (10 mm) long, then wrap the tail back along and through the tube again, pull out the slack and make two crimps; leave about 1/2 in of tail, optionally add a drop of thin CA glue, and use bronze rather than brass tube (Model Airplane News).
+  - Use a thimble in every loop that goes round a shackle, hook or pin; it is 'industry best practice' (Wikipedia 'Wire rope').
+  - For elevators, personnel hoists and scaffolds, ANSI A17.1 and A10.4 'do not recommend U-Bolt style wire rope clip terminations' (Crosby). BS EN 13411-5 does not cover U-bolt grips as the main termination on crane hoists or general lifting slings (BSI).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Galvanised clips on a garden zip line, washing line or trellis wire, and on logging equipment (Commons photo 'Wire rope clamps')
+  - A thimble eye with a crimped aluminium ferrule on a sling, guy wire or wire balustrade (Commons 'Wire rope with thimble and ferrule'; S3i)
+  - The crimped loops on the rudder cables of a large RC model aircraft (Model Airplane News)
+  - Crimped stops and end caps on bicycle brake and gear cables (Printables 439245; see Bowden cable)
+- **when_to_use**: Use a termination whenever steel wire rope or aircraft cable has to be fixed to something: guy wires, zip lines, trellis and fence wires, sun-shade and lighting catenaries, hanging displays, boat lifelines, winch and pulley ropes, robot tendons and capstan drives, and RC pull-pull control cables (Wikipedia; Model Airplane News; Mazumdar et al.). Choose clips with a thimble for a quick, adjustable eye that needs only a spanner, especially on larger ropes or temporary rigs (Crosby). Choose crimped sleeves for a neat, compact, permanent eye or end stop on small cable (about 1 to 6 mm), where clips would be bulky, and for tendons and pull-pull cables (Nicopress; Model Airplane News). Choose a screw-clamp stopper (metal or, for very light loads, printed) when the stop position must be adjustable (Printables 1351058).
+- **when_not_to_use**: Never for anything that lifts or holds people (climbing, swings, harnesses, personnel hoists, scaffolds): Crosby notes that ANSI A17.1 and A10.4 'do not recommend' U-bolt clips there, and such systems need certified equipment. For overhead lifting of loads, buy rated, marked and proof-tested slings and terminations and have them inspected (OSHA 1926.251; BSI EN 13411-5; Arthur Beale: 'Lifting operations should always be carried out by a competent qualified person'). Not on fibre rope or Dyneema-type cord: use splices, knots or cord terminations instead (see Rope splices, Stopper knots and cord-end anchors). Clips are a poor choice on plastic-coated rope (Crosby) and on very thin cable where a crimp is neater. Aluminium ferrules are wrong for 1x19 strand and for stainless rope at the coast (S3i). Swaging is not recommended on fibre-core rope (Wikipedia). For a joint you will adjust often, use a turnbuckle, threaded stud or wedge socket rather than re-crimping.
+- **environment_limits**: Corrosion: match metals to avoid galvanic attack, e.g. no aluminium ferrules on stainless in marine or coastal use (S3i) and copper or stainless sleeves to suit the rope (Nicopress); stainless clips and thimbles for wet and coastal sites (Crosby SS-450). Heat: OSHA says fibre-core wire rope slings must be withdrawn after exposure above 200 °F (93 °C), and other wire rope slings used above 400 °F (204 °C) or below -60 °F need the maker's advice (OSHA 1926.251(c)(14)). Settling and vibration: clips loosen as the rope beds in, so re-tighten after first load and inspect periodically (Crosby; Arthur Beale; Wikipedia). Printed stoppers: PLA creeps under constant load (maker note, Printables 415716); prefer PETG outdoors (Printables 1351058; Printables 439245). *(unverified parts omitted)*
+- **safety_notes**: Not for lifting people, ever; overhead lifting needs rated terminations, rated slings, the right clip count and torque, and regular inspection by a competent person (Crosby; OSHA 1926.251; BSI EN 13411-5; Arthur Beale). Crosby's sheet opens with 'Failure to read, understand, and follow these instructions may cause death or serious injury.' Wear safety glasses when crimping (Nicopress: 'ALWAYS WEAR SAFETY GLASSES WHEN TOOL IS BEING USED'). Cut wire ends are sharp: ship riggers serve (wrap) spliced ends with cord 'to help protect seamens' hands' (Wikipedia 'Wire rope', image caption); trim tails and cover them. In RC and robot drives, over-tightened cables side-load and damage the servo (Model Airplane News). *(unverified parts omitted)*
+- **common_failures**: 1) Clips fitted backwards ('saddling a dead horse'), crushing the loaded side and cutting strength (Crosby; WorkSafeNB). 2) Too few clips, too short a turn-back or nuts not re-tightened after first load, so the tail slips (Crosby; Arthur Beale). 3) Clips on plastic-coated rope slip because the coating creeps (Crosby; Arthur Beale). 4) No thimble, so the loop is pinched, kinked or worn through where it bears on a shackle (Wikipedia). 5) Under-pressed crimp, wrong sleeve size or wrong tool groove: check every crimp with the gauge and re-adjust the tool if the sleeve won't enter (Nicopress). 6) Tail too short, so it pulls out of the sleeve; the end must still show after crimping (Nicopress). 7) Cracked crimp tube from brass that is too hard; use bronze (Model Airplane News). 8) Galvanic corrosion of aluminium ferrules on stainless rope at the coast (S3i). 9) In capstan and tendon drives the termination fails first, because it is weaker than the rope; in Sandia's tests every rope sample broke at the termination, so protect it with extra wraps (Mazumdar et al.). 10) Fraying from a poor cut; use a notched shear-type cable cutter (Nicopress; Model Airplane News).
+- **related**: 
+  - Turnbuckle: screws into a terminated rope eye or swage stud to set the tension; the usual partner of a crimped or clipped eye
+  - Shackle and quick link (D-shackle, bow shackle, maillon): joins a thimble eye to an anchor, chain or another eye
+  - Stopper knots and cord-end anchors: the same end-stop job for cord, fishing line and thin cable; crimped stop sleeves overlap with it
+  - Rope splices (eye splice, short splice, braided-rope splices): the way to make an eye in fibre rope; wire-rope splices are mentioned here only
+  - Woven self-tightening grip (finger-trap grip): grips a cable or rope along its length instead of at a fixed end
+  - Capstan cable drive (tendon drive) and Tendon-driven joint: use crimped stops on steel cable; give bend-ratio and capstan-friction rules
+  - Bowden cable (push-pull cable): has crimped end caps and soldered or crimped nipples on its inner wire
+  - Rope grab and ascender (cam rope clamp): a releasable grip on a rope instead of a fixed termination
+  - Pulley system (block and tackle): what many terminated ropes run through; a sheave used as the turn-back needs one more clip
+  - Wire-end ferrule (bootlace ferrule): an electrical 'ferrule' that only shares the name and the crimping idea
+  - Crimp terminals (ring, fork and spade terminals): the electrical cousin of the crimped sleeve
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Wire rope with thimble and ferrule.jpg (Wikimedia Commons, Bernard S. Jansen)](https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg): A loop of wire rope wrapped round a thimble and held by a crimped ferrule *(licence: CC BY-SA 2.5)*
+  - [Wire rope clamps.jpg (Wikimedia Commons, Wasrts)](https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg): A row of U-bolt wire rope clips holding a rope on logging equipment *(licence: CC BY-SA 4.0)*
+  - [Crosby Clips: Warnings and Application Instructions (The Crosby Group, sheet 56)](https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf): Figures 1-6: clip direction, first and second clip positions, equal spacing, the extra clip for a sheave, and two ways to join ropes with clips, plus the clip-count, turn-back and torque table *(licence: link only (copyright The Crosby Group))*
+  - [Giant Scale Pull-Pull Cable Installation Made Easy (Model Airplane News)](https://www.modelairplanenews.com/giant-scale-pull-pull-cable-installation-made-easy/): Photos of making a crimped loop on a threaded stud with a bronze swage tube, and the finished pull-pull rudder cables *(licence: link only (licence not stated))*
+  - [Spelter socket open.JPG (Wikimedia Commons, BoH)](https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG): An open spelter (poured) socket on the end of a wire rope, an industrial termination mentioned for comparison *(licence: GFDL or CC BY-SA 3.0/2.5/2.0/1.0)*
+- **make_it_yourself**: 
+  - [Drahtseil Klemmstopper / Wire rope clamp stopper (Nolli, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1351058-drahtseil-klemmstopper-wire-rope-clamp-stopper): A printed screw-clamp end stop for 2 to 2.5 mm wire rope with an M4x10 screw and M4 nut; printed upright in PETG without supports and used on a patio sun shade *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Wire rope clamp (Otomar, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/191390-wire-rope-clamp): A small printed wire rope clamp closed with an M4x12 screw and nut, for light household jobs *(licence: Creative Commons Attribution-NonCommercial)*
+  - [wire/rope/cable clamp with hanging loop (Flounder, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/847016-wireropecable-clamp-with-hanging-loop): A printed clamp with a ring underneath for hanging flags from an overhead cable; M5 bolt, fits 1/16 to 3/32 in vinyl-coated wire rope *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [mon-cheri · bicycle cable crimp (LES ORIGINAL, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/439245-mon-cheri-bicycle-cable-crimp): Removable printed end caps for bicycle brake and gear cables, held by an M3 or M4 grub screw; FreeCAD source included *(licence: Creative Commons Attribution-NoDerivatives)*
+- **diagram_idea**: Three side-by-side drawings of a rope eye: (1) a thimble eye with three U-bolt clips, U-bolts on the short dead end and saddles on the long live end, with the first clip one saddle width from the tail and the second next to the thimble; (2) the same eye held by one crimped oval sleeve with the tail just showing; (3) a single-hole stop sleeve on a cable end bearing on a printed part, with an arrow showing the cable wrapped round a drum first so friction takes most of the load.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Wire_rope
+  - https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf
+  - https://certex.com/wp-content/uploads/2024/01/204522-CERTEX_SEC4_WIREROPETERMINATIONS.pdf
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.251
+  - https://www.worksafenb.ca/safety-talk/en/15-wire-rope-cable-clips.html
+  - https://www.nicopress.com/media/documents/Nicopress_Instruction_32_Metric_05-12.pdf
+  - https://www.s3i.co.uk/aluminium-ferrule-standard.php
+  - https://arthurbeale.co.uk/products/wire-rope-grip-stainless-steel
+  - https://www.arthurbeale.co.uk/products/commercial-wire-rope-grip-din-741
+  - https://shop-checkout.bsigroup.com/products/terminations-for-steel-wire-ropes-safety-u-bolt-wire-rope-grips
+  - https://www.modelairplanenews.com/giant-scale-pull-pull-cable-installation-made-easy/
+  - https://www.osti.gov/servlets/purl/1340266
+  - https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg
+  - https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg
+  - https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, play_and_precision, removability, reuse_cycles, safety_notes
+
+## 380 Eyelets and grommets (for fabric, leather and sheet)
+
+*cord, strap, webbing & textile hardware.* A metal or plastic ring set into a hole in fabric, leather or thin sheet to reinforce it, so a cord, hook, lace or peg can pass through without tearing it
+
+*Also covers:* Also covers setting with a punch or press, washer types, self-piercing grommets and printed screw-together grommets. Rubber cable grommets stay in Cable gland and strain relief
+
+### What it is
+
+- **plain_name**: A metal or plastic ring squeezed into a hole in fabric, leather or thin sheet so the edge of the hole can't tear or fray, letting a lace, cord, hook, tent peg or curtain pole pass through it
+- **term**: Eyelet and grommet (two-piece grommet with washer; one-piece eyelet)
+- **aliases**: 
+  - grommet; a small grommet is also called an eyelet, 'especially when used in clothing or crafting' (Wikipedia 'Grommet')
+  - eyelet: some leather and craft suppliers use 'eyelet' only for the one-piece kind with no washer and 'grommet' for the two-piece kind with a washer on the back (Weaver Leather Supply; SewGuide)
+  - plain grommet, washer grommet, grommet and washer (G&W) (Sailrite; Trivantage)
+  - spur grommet, rolled-rim grommet with spur washer: the washer has teeth that bite into the fabric (Sailrite; Stimpson; FAA Parachute Rigger Handbook)
+  - self-piercing grommet ('No Hole Needed' is a Stimpson (brand) trade name): cuts its own hole as it is set (Stimpson; Trivantage)
+  - tooth washer, spur washer, neck washer, plain washer: the washer types (Trivantage)
+  - cringle: in sailmaking, a rope-rimmed hole in the edge or corner of a sail, usually enclosing a metal grommet; the two words are sometimes used interchangeably (Wikipedia 'Cringle', 'Grommet')
+  - curtain eyelet, curtain grommet, grommet-top curtain: large rings that let a curtain slide along a pole (Wikipedia 'Grommet')
+  - not the same as: the rope grommet (a ring laid up from a single rope strand, see Rope splices), rubber cable grommets and insulating bushings (see Cable gland and strain relief), rubber isolator grommets (see Elastomer isolation mount), grommet edging (see Push-on edge trim), or ear grommets (tympanostomy tubes, a medical device) (Wikipedia 'Grommet')
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: everyday fasteners & fixings
+- **one_liner**: A small metal or plastic ring set into a punched hole in fabric, leather or thin sheet, with its tube (barrel) rolled over onto a washer or onto the material itself, so the hole has a smooth, strong rim that a lace, cord, hook, peg or pole can pass through without tearing the material.
+- **complexity**: A few parts: a grommet (a flanged tube, or barrel) and, for two-piece grommets, a washer that goes on the back; a one-piece eyelet has no washer. Setting needs a hole punch or cutter and a matching setting die and anvil (or a press or pliers). Printed versions are two threaded or snap-fit rings.
+- **how_it_works**: A hole is punched or cut in the material, the grommet's barrel is pushed through it from the front, the washer (if any) goes over the barrel at the back, and a setting tool curls or splits the end of the barrel outward so it rolls over the washer and clamps the material between the front flange and the washer (Wikipedia 'Grommet'; Harbour Chandler; SewGuide). The rolled rim spreads the pull of a cord over the whole edge of the hole and covers the cut fibres, so 'The grommet prevents the cord from tearing through the hole' (Wikipedia 'Grommet'). A spur washer's teeth dig into the fabric and wrap round the barrel 'to provide a strong grip and to keep the grommet from spinning' (Sailrite). A self-piercing grommet has a sharpened barrel that is pressed against the washer's edge, cutting the hole and coiling the barrel 'in one stroke' (Stimpson).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: gives a lace, cord, hook, carabiner, tent peg, cable tie or bungee a strong reinforced hole to hold fabric, leather, a tarp or a banner by
+  - let it move (turn, slide or bend): curtain eyelets let a curtain slide along a pole, and laces and cords slide through eyelets as they are pulled tight (Wikipedia 'Grommet')
+- **motion**: none: the grommet is clamped fixed in the material; only the cord, lace, hook or pole through it slides or turns.
+- **degrees_of_freedom**: 0 between the grommet and the material it is set in; whatever passes through the hole is free to slide and turn.
+- **special_behaviour**: none: it simply reinforces a hole. The useful extras are passive: the smooth rim stops a cord chafing, and spur washers stop the grommet spinning and wearing the fabric (Sailrite)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the rolled-over barrel traps the material between the flange and the washer, and spur teeth bite into the fabric (Sailrite; Harbour Chandler)
+  - friction or clamping (force-fit): setting squeezes the material between flange and washer; a plain washer only 'compress[es]' the fabric, which is why it can spin (Harbour Chandler; Sailrite)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent for metal grommets and eyelets: to remove one, the washer is cut through with diagonal cutters, peeled back and the grommet pulled out, after which a new one is set (FAA Parachute Rigger Handbook, 'Container Grommet Replacement'). Printed screw-together grommets are removable.
+- **reuse_cycles**: once: a set metal grommet is destroyed when it is cut out. *(unverified parts omitted)*
+- **tools_needed**: A hole punch or hole cutter and a setting tool: the cheapest kit is a hollow hole punch plus a punch with a shaped tip and an anvil, struck with a hammer on a solid surface; or a hand press with matching dies (e.g. C.S. Osborne W-1 (brand)), grommet pliers, or a bench press (e.g. Stimpson 405 (brand)); industry uses powered setting machines (Wikipedia 'Grommet'; SewGuide; Sailrite; Stimpson). Each grommet type and size needs its own die set: 'The plain grommet die set will not install a spur grommet and vice versa' (Sailrite). Self-piercing grommets need their matching press dies but no hole punch (Stimpson). Printed screw-together grommets need only scissors to cut the hole (rorys3D, Printables 579887).
+- **seal**: none: the hole stays open for the cord or pole; the rolled rim only covers the cut edge so it can't fray.
+- **load**: Light to medium, limited by the material round the hole rather than the metal ring. Strongest when the pull is spread over many grommets along a reinforced hem; a single grommet in single-layer material, or one pulled by a cord with no stretch, tends to tear out: banner makers say wind is the main cause of damage, as 'the constant pull on each grommet eventually stretches the hole until the material gives way' (Banners.com). Plain grommets are for 'lighter duty applications like flags, bags, or curtains' and are 'not strong enough for medium to heavy applications'; spur grommets are for 'medium to heavy applications like tarps, tents, covers, and awnings' (Sailrite). A grommet in a tarp or banner is not a rated attachment point for lifting or for people. *(unverified parts omitted)*
+- **adjustable**: no: a grommet is fixed once set. Adjustment comes from what goes through it (lacing, a cord, a bungee or a cord lock).
+- **play_and_precision**: not applicable (it doesn't locate parts). The hole fit matters for setting: the hole should be snug on the barrel, as 'a too small hole is any day better than a too big hole' and a too-big hole gives 'A wobbly grommet' (SewGuide).
+- **access_needed**: both sides: the barrel goes in from the front and the washer and setting tool (or press die) need the back of the material; the anvil or lower die supports the front flange.
+- **materials**: Grommets and eyelets: brass ('Durable, moderately priced material that resists corrosion and can withstand high temperatures'), stainless steel ('Less malleable than brass but very strong, making it best for use in self-piercing grommets'), aluminium (light and corrosion-resistant) and nickel- or black-plated brass (Trivantage); stainless has become the parachute industry's preferred choice 'due to the ability to resist deformation and corrosion' (FAA Parachute Rigger Handbook, ch. 7); also plastic, for example curtain rings and printed ones. Suited to woven fabrics and sheets: canvas, duck, tarp and awning fabric, vinyl banners, sailcloth, webbing, leather and faux leather, felt, card and paper for crafts (Wikipedia 'Grommet'; Harbour Chandler; SewGuide). Medium or thin fabric needs interfacing (an extra stiffening layer) round the hole, and it is 'difficult to attach the grommets on thin fabrics like tshirt knit, chiffon' (SewGuide). Wikipedia also lists thin sheet metal and composite sheets as materials grommets are set into.
+- **maker_difficulty**: easy: a cheap hammer-on kit sets grommets in a few minutes ('You can easily install multiple grommets within a few minutes with a hammer, measuring tape, grommet, washer, fabric, and a hole punch', Trivantage); the main skills are cutting the right-sized hole and reinforcing the fabric first.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: metal grommets, eyelets and washers, set with a hammer-on kit, pliers or a hand press
+  - 3D print (FDM): two-part screw-together or snap-together plastic grommets and shoe eyelets (see make_it_yourself)
+- **print_in_place**: no: printed grommets are two separate rings (front and back) that are screwed or snapped together through the hole in the fabric.
+- **making_tips_3d_printing**: 1) Use a two-part design that clamps the fabric between a front ring and a back ring, joined by a thread or a snap: rorys3D's threaded curtain grommets come in through-hole sizes from 10 to 50 mm, print without supports in PETG, and are screwed into a hole cut 'about +2mm bigger than the diameter of the through hole'; for a curtain pole, choose a through-hole 25-50% bigger than the pole (Printables 579887). 2) Print a trial pair first and tune it: rorys3D advises trying the print settings on one grommet because the threads must work together, and W3asel's snap-together grommet needed 'a bit of force' to snap and a screwdriver to pry apart, with the suggestion to reduce the extrusion multiplier if the fit is too tight (Printables 579887, 1411144). 3) Round every edge the cord or yarn runs over; W3asel's design was made with 'a smooth channel through the middle and rounded edges to prevent snagging the yarn' (Printables 1411144). 4) For shoe eyelets, Toby3D printed in PLA at 0.1 mm layers and found the click-together version 'with slightly inner diameter is more durable' than the glued one (Printables 213352). 5) Choose the plastic for where it will live: PLA 'gets soft and deforms at temperatures over 60 °C, degrades under UV light' and is 'not suitable for technical and outdoor use', while PETG is suitable for 'most exterior use (with temperatures below 80 °C)' (Prusa Knowledge Base 'PLA', 'PETG'). 6) A printed stepped washer that drops into an existing tarp grommet lets a tarp be screwed down without tearing it (Printables 667856). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Plain (washer) grommets; rolled-rim spur grommets with spur washers; self-piercing grommets and washers; tooth, spur, neck and plain washers; one-piece (self-backing) eyelets and two-piece eyelets with washers; snap-together plastic curtain eyelets; grommet kits (hole punch, setting punch and anvil); hand-press die sets with matching hole cutters (e.g. C.S. Osborne W-1 (brand), Sailrite HandyPress (brand)); bench presses (e.g. Stimpson 405 (brand)); rotary leather punches and eyelet pliers. Sizes are trade numbers (#00, #0, #1 ... #5 and up) for the inner diameter; link to a catalogue for the dimensions rather than copying them, e.g. the Trivantage grommet guide or the Stimpson product guide.
+- **rules_of_thumb**: 
+  - A grommet's number is not a hole size, and the same number differs between types: 'plain and spur grommets of the same number are not identical in size' (Sailrite). Sources side by side: a #1 plain grommet takes a 9/32 in hole and a #1 rolled-rim grommet a 3/8 in hole (Trivantage), while Sailrite's #1 spur die set comes with a 5/16 in hole cutter; a #3 takes 7/16 in (plain, Trivantage; spur, Sailrite) or 15/32 in (rolled rim, Trivantage). Always cut the hole with the cutter made for that grommet and die set.
+  - Fabric holes: keep the hole slightly smaller than the barrel so the grommet fits snugly; 'a too small hole is any day better than a too big hole', but too small makes the fabric bunch (SewGuide). Back thin or medium fabric with interfacing (SewGuide).
+  - Reinforce before you punch: banner makers set each ring 'on a folded, welded 1 inch hem, about half an inch in from the edge' (4over4); parachute riggers repair a grommet that has pulled out by sewing reinforcing tape over both sides of the area and punching new holes through it (FAA Parachute Rigger Handbook, pp. 7-67 to 7-72).
+  - Spacing on banners and covers: a grommet in each corner, then every 24-36 in (2-3 ft) along the edges, closer (18-24 in) for large or windy banners 'so no single grommet carries too much load' (NameBadge; 4over4; Catdi).
+  - Choose the washer for the job: plain washers 'work best in general or stationary uses'; tooth washers 'bite down for heavier duty projects'; spur washers are 'the most robust and secure option ... ideal for demanding conditions that experience movement (e.g., marine settings)'; neck washers have a longer flange for thicker fabrics (Trivantage).
+  - Self-piercing grommets save punching but are 'Not recommended for multiple layers of fabric or thick fabric' (Trivantage).
+  - Set it fully: 'Make sure that the grommet is set sufficiently so that there is no exposed edge to snag lines or material', and check that 'There should be no sharp edges on inside of grommet' (FAA Parachute Rigger Handbook, p. 7-42 to 7-43). A good spur grommet 'should sit flat against the material with no loose edges or movement' (Harbour Chandler).
+  - Stainless grommets need heavier tools: the Stimpson 405 bench press sets rolled-rim grommets up to #4 in brass but only up to #3 in stainless steel (Stimpson).
+  - Hang a grommeted banner or cover with some give: use bungee cords or elastic straps rather than zip ties, which 'have zero stretch', attach at every grommet, and aim for 'hand-taut' (Banners.com).
+  - Where you have no grommet tools, a loop of doubled webbing sewn on with a box-X stitch can replace a grommet; Sailrite says the box-X 'has the same strength level as a grommet' (Sailrite 'Webbing Loops Instead of Grommets').
+
+### When to use it
+
+- **everyday_examples**: 
+  - The lace holes in shoes and boots (Wikipedia 'Grommet')
+  - The metal rings round the edge of a tarpaulin, tent or vinyl banner that you tie or peg through (Harbour Chandler; 4over4)
+  - Grommet-top curtains and shower curtains hanging from a pole or hooks (Wikipedia 'Grommet')
+  - The rings for hoisting a flag on a flagpole line (Wikipedia 'Grommet')
+- **when_to_use**: Use a grommet or eyelet wherever a cord, lace, hook, peg, bungee or pole has to pass through fabric, leather, card or thin sheet: lacing up shoes, bags, corsets and covers; tying down tarps, awnings, boat covers and banners; hanging curtains and flags; and for neat, reinforced holes in craft and leather work (Wikipedia 'Grommet'; Weaver Leather Supply). Choose plain grommets or one-piece eyelets for light, stationary jobs (flags, bags, curtains, crafts) and spur grommets on a reinforced hem for anything pulled by wind or tension, such as tarps, tents and covers (Sailrite; Trivantage). Printed screw-together grommets suit curtains and light covers where a metal grommet kit isn't to hand (Printables 579887).
+- **when_not_to_use**: Not as a lifting point, a tie-off for climbing or anything that holds a person: use rated, sewn hardware. Not in a single layer of thin, stretchy or loosely woven fabric without reinforcement; for a strong attachment point on fabric, sew on a webbing loop or a D-ring with a box-X stitch (Sailrite; see Load-bearing stitch patterns). Not for passing electric cables or hoses through a rigid panel: use a rubber cable grommet or gland (Cable gland and strain relief) or grommet edging (Push-on edge trim). To join two layers permanently rather than make a hole, use a leather or textile rivet; to make the join undo, a press stud. For a whole fabric edge held in a frame, a keder or spline in a groove (Bead-in-groove fabric edge) seals better and installs faster than a row of loops and grommets (Specialty Fabrics Review).
+- **environment_limits**: Corrosion: brass 'does not rust' and suits indoor and outdoor use, and nickel plating adds corrosion and wear resistance (Stimpson); stainless steel resists corrosion and deformation best and is preferred in parachutes (FAA Parachute Rigger Handbook) and marine use (Trivantage, spur washers). Sun: 'UV exposure also breaks down vinyl fibers over months of direct sun, making the material brittle and more likely to split under stress' (Banners.com). Wind and flapping fatigue the material and stretch the holes (Banners.com). Printed plastic grommets: PLA softens above about 60 °C and degrades in UV; PETG is suitable outdoors below about 80 °C (Prusa Knowledge Base).
+- **safety_notes**: Few hazards: keep fingers clear of the hammer, punch and press, and work on a solid block or scrap board, not a good table (SewGuide). A badly set grommet can leave a sharp edge that cuts a cord or snags (FAA Parachute Rigger Handbook). A grommet in a tarp, cover or banner is not a rated anchor: never lift, hang or secure a person through one. *(unverified parts omitted)*
+- **common_failures**: Tearing or pulling out: the FAA says the most common repair to a parachute's main deployment bag is the closing flap round its grommets, which 'work loose and pull out, damaging the material' (FAA Parachute Rigger Handbook, p. 7-72); on banners, holes stretch under constant wind pull until 'the material gives way', made worse by unreinforced hems, grommets too near the edge, and zip ties that let every gust hit the grommet (Banners.com). Avoid by reinforcing the hem, spacing grommets closely, and hanging with some give. Spinning: plain grommets 'have a tendency to spin and break down the fabric'; use spur grommets (Sailrite). Wobbly or loose grommet from a hole cut too big, or bunched fabric from one too small (SewGuide). Uneven or incomplete setting leaving a sharp or exposed edge (FAA). Wrong die set for the grommet type (Sailrite). Self-piercing grommets that fail in thick or multi-layer fabric (Trivantage). Repair: cut out the old grommet, zigzag-stitch round the damaged hole to make it smaller, seal frayed synthetic edges with a hot tip, and reset (FAA Parachute Rigger Handbook, p. 7-43).
+- **related**: 
+  - Lacing (cord through rows of holes or eyelets): what eyelets are most often used for
+  - Leather and textile rivets (double-cap, tubular and split rivets): set the same way but join layers instead of leaving a hole
+  - Press stud (snap fastener): set with similar dies; makes a join that opens and closes
+  - Load-bearing stitch patterns for straps and webbing (bar tack, box-X): a sewn webbing loop is the stronger alternative to a grommet for tie-down points
+  - Sew-on part (sewing holes, loops and slots on a rigid part): reinforced holes in the part rather than in the fabric
+  - Bead-in-groove fabric edge (keder, boltrope, screen spline): holds a whole fabric edge in a frame instead of point by point
+  - Cable gland and strain relief: rubber cable grommets and insulating bushings for cables through panels
+  - Elastomer isolation mount: rubber isolator grommets that stop vibration
+  - Push-on edge trim (U-channel edging, grommet edging): protects a long cut edge instead of a round hole
+  - Rope splices: the rope grommet, a ring laid up from one strand of rope
+  - Hook-and-loop fastener: an area fastener that needs no hole at all
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Eyelet.jpg (Wikimedia Commons, by Sonett72)](https://commons.wikimedia.org/wiki/File:Eyelet.jpg): Scan of metal eyelets and an eyelet setting tool *(licence: Public domain)*
+  - [Eyelets For Curtain.jpg (Wikimedia Commons, by Aman78665)](https://commons.wikimedia.org/wiki/File:Eyelets_For_Curtain.jpg): Large curtain eyelets set into the top of a curtain *(licence: CC BY-SA 3.0)*
+  - [Category:Grommets (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Grommets): About two dozen photos of metal eyelets, curtain and flag eyelets, eyelet pliers and sail cringles *(licence: per file (Commons; mostly CC or public domain))*
+  - [What's the Difference Between Plain & Spur Grommets? (Sailrite)](https://www.sailrite.com/Whats-the-Difference-Between-Plain-Spur-Grommets): Photos and a linked video comparing plain and spur grommets and how each is set with its own die set *(licence: link only)*
+  - [How to Place Grommets on Banners (4over4)](https://v2.4over4.com/guide/how-to-place-grommets-on-banners): Diagram of grommet placement on a banner: corners first, then every 24-36 in on a welded hem *(licence: link only)*
+- **make_it_yourself**: 
+  - [Screw Assembly Tarp Grommet (Cisco3D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/20004-screw-assembly-tarp-grommet): A printed two-part tarp grommet that screws together through the fabric *(licence: Creative Commons Attribution)*
+  - [Curtain grommets (eyelets) (rorys3D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/579887-curtain-grommets-eyelets): Threaded two-part curtain grommets in seven through-hole sizes (10-50 mm), printed without supports in PETG *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Parametric Snap-together Rounded Grommet (W3asel, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1411144-parametric-snap-together-rounded-grommet): OpenSCAD-parametric snap-together grommet with a smooth, rounded channel for yarn or cord *(licence: Creative Commons Attribution)*
+  - [Shoe Eyelet (Toby3D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/213352-shoe-eyelet): Printed shoelace eyelet in glued and click-together versions, to reinforce or decorate shoe eyelets *(licence: Creative Commons Attribution-ShareAlike)*
+  - [Stepped Grommet Washer for Securing Tarps (Ian Foulds, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/667856-stepped-grommet-washer-for-securing-tarps): A stepped washer that sits in an existing tarp grommet so the tarp can be screwed down without tearing *(licence: Creative Commons Attribution)*
+- **diagram_idea**: A cross-section in three steps: a hole punched in a folded hem, the grommet barrel pushed through with the washer on the back, and the setting die curling the barrel over the washer to clamp the fabric; beside it, small insets comparing a plain washer, a spur washer biting into the fabric, and a one-piece eyelet curled over the fabric itself.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Grommet
+  - https://en.wikipedia.org/wiki/Cringle
+  - https://marketcorner.trivantage.com/grommet-guide
+  - https://www.sailrite.com/Whats-the-Difference-Between-Plain-Spur-Grommets
+  - https://sailrite.com/W-1-Hand-Press-Spur-Grommet-3-Piece-Die-Set-Hole-Cutter-3-7-16
+  - https://www.sailrite.com/Webbing-Loops-Instead-of-Grommets
+  - https://stimpson.com/blog/grommet-installation-methods/
+  - https://stimpson.com/grommets-washer-overview/self-piercing-grommets-washers/
+  - https://stimpson.com/blog/self-piercing-grommets-for-signs-and-banners/
+  - https://www.harbourchandler.ca/blogs/harbour-chandler-resource-centre/what-are-spur-grommets-a-complete-guide-to-stronger-canvas-amp-fabric-reinforcement
+  - https://www.weaverleathersupply.com/blogs/leathercrafting/eyelets-vs-grommets
+  - https://sewguide.com/metal-grommets/
+  - https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/prh_change1.pdf
+  - https://www.namebadge.com/learn/banners-large-format/banner-grommet-spacing
+  - https://v2.4over4.com/guide/how-to-place-grommets-on-banners
+  - https://www.catdi.com/blog/grommets-on-scrim-vinyl-banners
+  - https://www.banners.com/c/why-banners-tear-common-causes-and-how-to-prevent-damage
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/
+  - https://commons.wikimedia.org/wiki/File:Eyelet.jpg
+  - https://commons.wikimedia.org/wiki/File:Eyelets_For_Curtain.jpg
+  - https://commons.wikimedia.org/wiki/Category:Grommets
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** load, making_tips_3d_printing, reuse_cycles, safety_notes
+
+## 381 Bead-in-groove fabric edge (keder, boltrope, screen spline)
+
+*cord, strap, webbing & textile hardware.* A rope or plastic bead sewn or welded along the edge of fabric, or a rubber cord pressed in over a mesh, that sits in a C-shaped groove in a frame and holds the whole edge at once, as on awnings, tents, sails and window screens
+
+*Also covers:* Also covers keder rails, fly-screen spline rollers and printed clips that lock into keder rails.
+
+### What it is
+
+- **plain_name**: A fat edge on a piece of fabric, made by sewing or welding a rope or plastic bead into it (or by pressing a rubber cord in over a mesh), that slides or is pushed into a groove with a narrow mouth in a frame, so the whole edge is held at once, as on caravan awnings, big tent roofs, sails and fly screens
+- **term**: Bead-in-groove fabric edge: keder and keder rail (awning rope in awning track), bolt rope in a luff groove, and screen spline in a spline channel
+- **aliases**: 
+  - keder, keder bead, keder rope, awning rope, piping (German 'Keder'; the flat strip joining bead to fabric is the 'Kederfahne', the keder flag or flap) (Specialty Fabrics Review; Sailrite; German Wikipedia 'Kederschiene')
+  - keder rail, keder track, awning rail, awning track, keder channel, piping rail (German 'Kederschiene', 'Kederleiste') (Sailrite; German Wikipedia)
+  - double keder strip (German 'Doppelkederschiene'), keder rail strip, sewable keder rail: a flexible plastic strip with a groove on each side or a sewable flange, to join two fabric panels (German Wikipedia; Sailrite)
+  - bolt rope, boltrope, bolt-rope (luff bolt rope, foot bolt rope): rope sewn into the edge of a sail, which can be fed into a groove in a mast, boom or roller-furling luff foil (Wikipedia 'Bolt rope', 'Sail')
+  - screen spline, spline, spline cord, fly-screen rubber, 'Gummikeder' in German: the rubber or plastic cord that holds insect mesh in the channel of a screen frame (Bob Vila; Phifer; German Wikipedia)
+  - silicone edge graphics (SEG): a flat silicone strip, 'sometimes referred to as keder', sewn round a printed fabric panel and pushed into a groove in an aluminium frame (Digital Output)
+  - screen rolling tool, spline roller: the two-wheeled tool used to press mesh and spline into the channel (Bob Vila)
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: clamping, magnetic & friction connections, sliding, telescoping & linear motion
+- **one_liner**: A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or pressed in over the fabric as a separate cord (screen spline), sits in a groove whose mouth is narrower than the bead, so the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
+- **complexity**: A few parts: the fabric or mesh, the bead (a PVC, rubber or silicone core wrapped in or welded to a fabric flap, a rope sewn into the edge, or a loose spline cord) and the frame or rail with its groove (an aluminium or PVC extrusion, or a screen frame). Fitting a spline also needs a screen rolling tool; keder rails often take end stoppers.
+- **how_it_works**: The groove in the rail or frame is round or C-shaped inside, with a slot narrower than the bead, so once the bead is in, pulling the fabric sideways can't drag it out through the slot; only the flat fabric flap passes through the opening (German Wikipedia 'Kederschiene'; Specialty Fabrics Review). A keder or bolt rope is fixed to the fabric first, by hot-air welding, RF welding or sewing, and then slid into the rail from one end, which lets a tent roof be pulled over a frame with ropes from the ground (Specialty Fabrics Review; Sailrite). A screen spline works the other way round: the loose mesh is laid over the frame, pushed into the channel with the roller's convex wheel, and then the cord is rolled in on top with the concave wheel, wedging the mesh in by friction and pulling it taut (Bob Vila). Silicone edge graphics are similar: the strip sewn to the print is simply pushed into the frame's groove all round (Digital Output).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: attaches a fabric edge to a frame, caravan, wall or boat spar, or joins two fabric panels, along its whole length (Specialty Fabrics Review; Sailrite)
+  - tighten and hold tension: pressing a spline in pulls a screen taut, and SEG frames give a print 'a taut drum-like fit' (Bob Vila; Digital Output); in tents 'we put a lot of tension on the keder to make sure the tent is nice and tight' (Specialty Fabrics Review)
+  - seal it, or pass cables or fluid through: a keder in its rail 'seals out the elements' and keder rail can replace a zipper for 'a more durable, leak resistant seal' (Specialty Fabrics Review; Sailrite)
+  - let it move (turn, slide or bend): a keder can be slid along its rail; slider walls hung from a keder rail open and close like a curtain (Specialty Fabrics Review)
+- **motion**: slide: a keder or bolt rope slides lengthwise along its rail, both to fit it and, for slider walls, to open them; it can't move across the rail. A pressed-in screen spline or SEG strip doesn't move once fitted (none).
+- **degrees_of_freedom**: 1 for a keder in its rail (it can slide along the rail until end stoppers stop it); 0 for a pressed-in spline or SEG strip.
+- **special_behaviour**: 
+  - none in the mechanism sense: the advantage is that the whole edge is held at once, spreading the load evenly instead of concentrating it at grommets or clips (Specialty Fabrics Review)
+  - quick-release: SEG graphics are made to be pulled out and replaced by hand, and a keder slides out of the end of its rail with no tools (Digital Output; German Wikipedia)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the bead is wider than the slot in the groove, so it can't be pulled out sideways (German Wikipedia 'Kederschiene')
+  - friction or clamping (force-fit): a screen spline wedges the mesh into the channel and holds it by squeeze and friction, which is why a spline that is too thin for the mesh lets it pop out (Phifer; HomeFixated)
+  - material bond (glue, solvent or melting): the keder flap is usually hot-air or RF welded to the fabric, though it can be sewn (Specialty Fabrics Review; German Wikipedia)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: a keder slides back out of its rail by hand, and SEG strips pull out by hand (closest to tool-free quick release); a screen spline is lifted out of its channel with a small flat screwdriver or pick (Bob Vila; Digital Output). Fixing the keder to the fabric is permanent (welded or sewn).
+- **reuse_cycles**: many times: keder systems are designed to be put up and taken down repeatedly, and SEG frames are reused with new prints (Specialty Fabrics Review; Digital Output). An old screen spline can be reused if it isn't 'too cracked or UV damaged', but new spline is recommended (HomeFixated).
+- **tools_needed**: Keder: none to fit it (it is threaded into the rail end and pulled through, by rope for big tent roofs); a sewing machine or a hot-air or RF welder to attach the keder to the fabric, and a drill and screws to mount the rail (Specialty Fabrics Review; Sailrite: 'No crimping tools required'). Screen spline: a screen rolling tool (convex and concave wheels), a small screwdriver or nail punch to lift the old spline and push it into corners, and a utility knife to trim the mesh (Bob Vila; HomeFixated). SEG: none.
+- **seal**: watertight (approximately) for keder in a fitted rail: Sailrite calls it a 'nearly waterproof attachment' and a tent maker says 'Keder is air- and watertight' (Sailrite; None for screen spline and SEG, where the mesh or fabric lets air through. *(unverified parts omitted)*
+- **load**: Medium to heavy along a long edge for keder: it carries the structural tension of large tent roofs, which are tensioned at the keder rafters before anything else (Specialty Fabrics Review). The weak points are the fabric flap and a rail that bends: the rail must be sized and fixed so that the pull deforms it as little as possible, or the fabric wrinkles (German Wikipedia 'Kederschiene', translated), and keder 'will typically tear along the rafter' when it is pulled in at an angle (Specialty Fabrics Review). Screen spline and SEG: light, enough only to hold mesh or a print flat; a screen held by spline is not a barrier against a person or child falling (Connecticut Department of Consumer Protection). *(unverified parts omitted)*
+- **adjustable**: Partly: a keder can be slid along its rail to position it, and slider walls move along it; the tension across the fabric is set by the panel's cut size and by buckles, straps or tensioning frames elsewhere (Specialty Fabrics Review; German Wikipedia). A screen's tension is set while rolling the spline in, and can be redone by pulling the spline and re-rolling it (Bob Vila).
+- **play_and_precision**: The bead must suit the groove: keder sizes such as 5 mm and 7 mm on caravans and 11-13 mm on tents aren't interchangeable, though adapters exist (Reimo; Berger; Specialty Fabrics Review); spline is matched to the channel and goes one size smaller for thicker mesh (Phifer). The fabric panel must be cut precisely: 'If a section of fabric you're putting in between beams is too narrow, you won't be able to get them in. If it's cut too wide, you have a floppy roof section' (Specialty Fabrics Review); likewise for SEG prints (Digital Output) and for a caravan awning, whose size must match the rail length (German Wikipedia).
+- **access_needed**: one side only (blind) for a pressed-in screen spline or SEG strip; a slide-in keder or bolt rope also needs an open end of the rail or an entry gap to feed it in (closest option: end of a tube or shaft).
+- **materials**: Bead: flexible PVC or another elastic core wrapped in fabric or webbing and welded (Specialty Fabrics Review), coated polyester welded to a hard PVC core (Sailrite keder awning rope), rope of natural fibre or metal wire (bolt rope) (Wikimedia Commons 'Bolt-rope.svg'), rubber or vinyl spline cord (Bob Vila; HomeFixated), silicone strip (SEG) (Digital Output). Rails and frames: anodised aluminium extrusions, which bend only over a very large radius, or extruded PVC rails that can be bent with steam or a heat gun and cut with a hacksaw (Sailrite); aluminium screen frames and SEG frames (Bob Vila; Digital Output). Fabrics: PVC-coated polyester (vinyl) tent and awning fabric, which is welded; sewable awning and canvas fabrics; sailcloth; fibreglass, aluminium, pet-resistant and solar insect mesh (Specialty Fabrics Review; Phifer; Bob Vila); printed polyester fabric for SEG (Digital Output).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: keder, awning rope, keder rails, screen spline, mesh and frames
+  - sewing or welding the keder flap or bolt rope to the fabric (a sewing machine; hot-air or RF welding in industry)
+  - 3D print (FDM): hooks, clips, eyes, end stoppers and adapters that lock into keder rails, and tools such as spline rollers and keder-folding guides (see make_it_yourself)
+- **print_in_place**: no: printed parts are single pieces that slide or swing into an existing rail (some with a screw and nut), or separate tools.
+- **making_tips_3d_printing**: 1) Measure your rail first; makers publish versions for 6, 7, 8 and 10 mm rails because sizes differ between awnings, caravans and roof tents (Printables 35274, 560759, 876307, 1762136). 2) A hook shaped to twist and lock in a 7 mm rail can be made strong yet deliberately weak in one place: Hooky 'locks itself under load' and its thin walls let it 'break under extreme conditions to avoid damage to the awning' (Printables 35274). 3) Print rail hooks in PETG without supports; ChristophB's hook comes in a swing-in version that fits without sliding in from the rail end and a slide-in 'fix' version (Printables 1285569). PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV, so it is a poor choice on a sunny caravan wall, while PETG suits most exterior use below 80 °C (Prusa Knowledge Base 'PLA', 'PETG'). 4) End stoppers stop a keder or accessory sliding out: a printed stopper about 7.5 mm across, fixed with an M3 screw in a heat-set insert, with a nylon screw suggested so it doesn't scratch the rail (Printables 971564). 5) A keder-mounted clip can carry other hardware: the Keder Tarp Clip adds a mount for an 8 mm keder using one M4 screw and nut (Printables 560759). 6) Tools are easy wins: a printed spline roller needs one M4x30 bolt and nut and no supports (Printables 160984); a printed keder tool for 4.5 mm rubber screen cord uses an M6 bolt and lock nut (Printables 905208); and a printed folding guide turns a 4 cm fabric strip into 1 cm piping or keder cover for sewing (Printables 807285). 7) Print hooks and clips so the load runs along the layers, since 'FFF prints are stronger in one direction than another' (Prusa Knowledge Base 'Modeling with 3D printing in mind'). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Keder (raw PVC bead, keder pre-welded to webbing, or keder awning rope with a polyester tape, e.g. 5/16 in), keder rails (anodised aluminium awning track in 45-degree and 180-degree versions, flexible PVC rail such as Flex-A-Rail (brand), sewable keder rail, double keder strip), keder adapters, end stoppers and keder hooks or eyes (5/7 mm); screen spline (vinyl, rubber or foam; sold by diameter), screen rolling tools, insect mesh and screen-frame kits; SEG silicone edge strip and SEG frames; sail track, luff foils and sail feeders for boats (Sailrite; Reimo; Berger; Phifer; Digital Output). Link to catalogues for sizes rather than copying tables (e.g. Phifer's spline selection card).
+- **rules_of_thumb**: 
+  - Match the bead to the groove. Caravan and motorhome rails take 5 mm or 7 mm keder (Reimo's keder eyes have 5 mm on one side and 7 mm on the other; Berger sells 7-to-5 mm and 7-to-7 mm keder adapters); tent keder 'commonly range from 11 to 13 millimeters' (Specialty Fabrics Review); Sailrite's 5/16 in keder awning rope measures 8-8.6 mm across with a 0.75 in tape (Sailrite).
+  - Screen spline: 'The spline size should match the spline groove width for standard insect screen', and thick screens such as PetScreen and SunTex 'will require a smaller diameter spline' (Phifer spline selection card, which lists spline from 0.125 to 0.220 in). If you change to a thinner mesh, the old spline size may no longer hold it (HomeFixated).
+  - Re-screening steps (Bob Vila): cut the mesh with 2 in spare on every side, lay it curved side down, push it into the channel with the convex wheel, roll the spline in with the concave wheel while keeping the mesh taut, then trim outside the spline with the blade angled away from it.
+  - At corners, push the spline in with a screwdriver and feed in a little extra rather than stretching it; 'Over-stretching it increases its chances of popping out of the corner' (HomeFixated).
+  - Pull keder straight along the rail: tearing 'happens when the installer is not pulling parallel with the keder rafter', and nicks or debris in the rail can cut the keder (Specialty Fabrics Review).
+  - Mount rails with screws every 4-12 in through the centre of the track, with one near each end; PVC rail is 'hard to work around a corner with a radius tighter than 10"' and aluminium track 'bends only over a very large radius' (Sailrite).
+  - The rail must be stiff and fixed well enough not to deform under the pull, or the fabric wrinkles; on a caravan, the rail length must match the awning's size, or the awning either folds (too long) or hangs in the air (too short) (German Wikipedia 'Kederschiene').
+  - SEG: the silicone edging can be 'three millimeters thick and 12 millimeters wide', so allow for it in the print's bleed; sizing errors 'adversely affect' the fit (Digital Output).
+  - Sew a bolt rope without letting it untwist or pull the sail edge out of shape: 'Many a well-cut sail is spoiled by the roping' (Kipping 1847, quoted in Wikipedia 'Bolt rope'). *(unverified parts omitted)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Fly screens on windows and screen doors, held in their aluminium frames by a rubber or vinyl spline (Bob Vila)
+  - A caravan or motorhome awning slid into the keder rail along the roof edge (German Wikipedia 'Kederschiene'; Reimo)
+  - The roof panels of large event and marquee tents, pulled into keder tracks in the rafters (Specialty Fabrics Review)
+  - A sail whose edge (luff) runs up a groove in the mast, and backlit fabric shop and trade-show displays in SEG frames (Wikipedia 'Bolt rope'; Digital Output)
+- **when_to_use**: Use a bead in a groove when a whole fabric or mesh edge has to be held evenly to a frame, wall or vehicle, sealed against rain or light, and taken down or replaced later: awnings and sun canopies on caravans, vans and walls; tent and marquee roofs and side walls; boat covers and sails; window and door insect screens; and printed fabric panels in frames (Specialty Fabrics Review; Sailrite; Bob Vila; Digital Output). Keder spreads the load along the edge, installs faster than lacing or grommets, and lets a roof be pulled into place from the ground (Specialty Fabrics Review). A sewable keder rail is a tougher, more leak-resistant replacement for a zipper between two canvas panels (Sailrite). Printed hooks, clips and stoppers are a quick way to hang lights, bags and guy lines from an existing rail (Printables 35274, 1285569).
+- **when_not_to_use**: Not where the fabric can't be cut accurately to the frame, or where the edge is a tight curve: PVC rail struggles with corners tighter than about 10 in radius and aluminium track bends only over large radii (Sailrite); use lacing, grommets and cord, or sewn webbing loops instead. Not for point loads such as a single tie-down: use a grommet or sewn loop. Not as a safety barrier: window screens are 'not strong enough to prevent someone from falling through'; use window guards or stops (Connecticut Department of Consumer Protection). For a mesh on a wooden frame without a channel, staples and a cover strip are simpler; for a quick, removable seal between rigid parts, a gasket in a groove (Gasket) does the same groove job with rubber.
+- **environment_limits**: Sunlight: old spline can be 'cracked or UV damaged' (HomeFixated), and printed PLA accessories soften above about 60 °C and degrade in UV (Prusa Knowledge Base). Snow and ice can damage screens left up in winter (Bob Vila). Dirt in the rail and nicks in aluminium track cut the keder (Specialty Fabrics Review). The keder joint itself resists weather, sealing 'out the elements' (Specialty Fabrics Review). *(unverified parts omitted)*
+- **safety_notes**: A screen held by a spline will not stop a child or adult falling out of a window: 'screens and even storm windows are not strong enough to prevent someone from falling through' (Connecticut Department of Consumer Protection). Large tents and awnings on keder carry big wind loads; erect them following the maker's instructions, and note that keder roofs can be pulled into place from the ground, avoiding ladder work (Specialty Fabrics Review). Take care with the utility knife when trimming mesh (Bob Vila). A printed hook designed to break in a storm (Printables 35274) protects the awning but means whatever hangs from it can fall.
+- **common_failures**: Keder tearing along the rail when it is pulled in at an angle, or cut by nicks and grit in the rail (Specialty Fabrics Review); fix by cutting off the damaged keder and re-welding new keder on (Specialty Fabrics Review). Wrong bead size: a keder that doesn't match the rail won't fit or won't hold; adapter sets exist to 'compensate for differences in the size of the keder' (Berger). Panels cut too narrow to fit or too wide and floppy (Specialty Fabrics Review). Spline popping out because it is too thin for the mesh, was over-stretched at corners, or is old and hard (Phifer; HomeFixated). Wrinkled screens from uneven tension, or a bowed frame from too much tension (HomeFixated). Mesh accidentally cut while trimming (Bob Vila). Keders and accessories sliding out of the end of a rail with no stopper (Reimo sells blocking pieces for 5 mm and 7 mm rails). A rail that flexes under tension, wrinkling the fabric (German Wikipedia).
+- **related**: 
+  - Gasket (flat, cord-in-groove or cast-in-place): the same cord-in-groove idea used to seal rather than to hold fabric
+  - Aluminium-extrusion connectors (T-slot nuts and brackets): rigid parts slid into slotted extrusions instead of a fabric edge
+  - Tongue-and-groove joint: a rigid edge in a groove, the woodworking cousin
+  - Eyelets and grommets: hold fabric at points; cheaper and simpler, but concentrate the load and don't seal
+  - Lacing (cord through rows of holes or eyelets): what keder replaced on tents; adjustable and works on curves
+  - Zipper (slide fastener): joins two fabric panels and opens quickly; a keder rail strip is more leak-resistant and durable (Sailrite)
+  - Push-on edge trim (U-channel edging): a channel pushed onto a rigid edge rather than a bead pushed into a channel
+  - Staples for wood and fabric: the usual way to fix mesh or fabric to a wooden frame with no groove
+  - Heat-sealed seam: how keder flaps are welded to coated fabric
+  - Sewn seams and hand stitches: how keder rope and bolt ropes are sewn on
+  - Hook-and-loop fastener: holds a fabric edge along its length too, but peels and doesn't seal
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Making it easy: the benefits of keder (Specialty Fabrics Review, 2019)](https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/): Photos of a keder cross-section (PVC core wrapped in fabric) and of a tent roof cover pulled through the rafter's keder channel *(licence: link only)*
+  - [Kederschiene Wohnwagen.jpg (Wikimedia Commons, by Presse03)](https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg): Photo of a keder rail on a caravan *(licence: CC BY-SA 3.0)*
+  - [Kederschiene Philip-Magner.JPG (German Wikipedia, by Philip Magner)](https://de.wikipedia.org/wiki/Datei:Kederschiene_Philip-Magner.JPG): Photo of a keder system on a 22 mm x 50 mm keder rail *(licence: CC BY-SA 3.0)*
+  - [Bolt-rope.svg (Wikimedia Commons, by Auanika)](https://commons.wikimedia.org/wiki/File:Bolt-rope.svg): Labelled drawing of a sail corner with a metal bolt rope in the luff and a natural-fibre bolt rope in the foot *(licence: CC BY-SA 3.0 / GFDL 1.2 or later)*
+  - [How to Replace Window Screening (Bob Vila)](https://www.bobvila.com/articles/wood-window-frame-screen-replacement): Step-by-step photos of removing the old spline and rolling new mesh and spline into a screen frame's channel *(licence: link only)*
+- **make_it_yourself**: 
+  - [Hooky - the helpful Snake: multifunctional hook for awning Keder rails (Be Me, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/35274-hooky-the-helpful-snake-multifunctional-hook-for-a): A hook that twists into a 7 mm (or 10 mm) keder rail, locks under load and is designed to break before the awning does *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Hook for caravan keder piping - fixed or easy insert (ChristophB, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1285569-hook-for-caravan-keder-piping-fixed-or-easy-insert): A keder-rail hook with a rope hole, in swing-in and slide-in versions, printed in PETG without supports *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Wohnwagen Keder Stopper / Caravan Rail Stoppers (mcweck, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/971564-wohnwagen-keder-stopper-caravan-rail-stoppers): An end stopper about 7.5 mm across for a caravan keder rail, fixed with an M3 screw in a heat-set insert *(licence: GNU General Public License v3.0)*
+  - [Flyscreen Spline Roller (SteveW91, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/160984-flyscreen-spline-roller): A printable spline roller for fitting fly screen mesh, assembled with one M4x30 bolt and nut *(licence: Creative Commons Attribution)*
+  - [Piping / Keder folding device (Strankler, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/807285-piping-keder-folding-device): A guide that folds a 4 cm fabric strip into a 1 cm piping or keder cover, ready to sew onto a fabric edge *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- **diagram_idea**: Two cross-sections side by side: on the left a C-shaped keder rail with a round bead inside and the fabric flap leaving through the narrow slot, with an arrow showing that a sideways pull can't drag the bead out but the bead can slide in from the rail's end; on the right a screen frame channel with the mesh pushed down into it and the spline wedged on top, and a two-wheeled rolling tool above it showing the convex wheel for the mesh and the concave wheel for the spline.
+- **sources**: 
+  - https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/
+  - https://sailrite.com/Keder-Awning-Rope-Tape
+  - https://sailrite.com/Sewable-Keder-Rail-Track-White
+  - https://sailrite.com/Flex-A-Rail-White
+  - https://sailrite.com/Awning-Track-Satin-Finish-Aluminum
+  - https://de.wikipedia.org/wiki/Kederschiene
+  - https://en.wikipedia.org/wiki/Bolt_rope
+  - https://en.wikipedia.org/wiki/Sail
+  - https://www.bobvila.com/articles/wood-window-frame-screen-replacement
+  - https://homefixated.com/how-to-install-window-screen/
+  - https://www.zoro.com/static/cms/enhanced_pdf/Phifer%20Incorporated_SplinexxSelectionxxCardxxV21xx44cc88.pdf
+  - https://www.reimo.com/en/camping-shop/awnings-for-caravans-motorhomes-campervans/tent-pegs-guy-ropes-hammers/42265/kederoesen-6-stueck-oe5/7mm-multifunktional
+  - https://www.berger-camping.com/item/berger-keder-adapter-set-37611
+  - https://digitaloutput.net/?p=5110
+  - https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2014-news-releases/window-guards-and-other-precautions-can-prevent-accidental-falls
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg
+  - https://de.wikipedia.org/wiki/Datei:Kederschiene_Philip-Magner.JPG
+  - https://commons.wikimedia.org/wiki/File:Bolt-rope.svg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, maker_difficulty, making_tips_3d_printing, rules_of_thumb, seal
+
+## 389 Leather and textile rivets (double-cap, tubular and split rivets)
+
+*cord, strap, webbing & textile hardware.* Small two-part or hollow rivets set through punched holes in leather, webbing or fabric with a setter on a hard block, to fix straps, handles and buckles permanently
+
+*Also covers:* Also covers single-cap and rapid rivets, choosing the post length, and backing washers. Metal-sheet rivets stay in Blind rivet
+
+### What it is
+
+- **plain_name**: Small metal studs, usually two halves pushed together through a punched hole and hit once with a hammer, that pin layers of leather, webbing or canvas together for good, like the little copper studs at the corners of jeans pockets
+- **term**: Leather and textile rivets: double-cap (two-part compression) rivets, single-cap and rapid rivets, tubular (semi-tubular) rivets, split rivets, and solid copper or brass rivets with burrs
+- **aliases**: 
+  - double cap rivet, double-cap rivet: finished caps on both sides (Wikipedia 'Rivet', Compression rivets; Buckleguy; Tandy)
+  - compression rivet: 'male and female halves that press together, through a hole in the material' (Wikipedia 'Rivet')
+  - rapid rivet, also called a compression rivet: a stem and a cap, set with a rivet press or setter (Montana Leather; Tandy 'Easy-To-Do Rivets & Setter Kit')
+  - single cap rivet: a cap on one side only, 'the other side is low profile with a visible hole' (Wikipedia 'Rivet'; Montana Leather)
+  - tubular rivet, semi-tubular rivet: a rivet with a hollow tip that is rolled over (Wikipedia 'Rivet'; Weaver; Montana Leather)
+  - split rivet: a rivet with two prongs that are spread apart and hammered flat over a washer (Weaver)
+  - rivets and burrs, copper rivet and burr, copper burr rivet, solid copper rivet with washer: a solid post with a cup-shaped washer (burr) that is pushed on, trimmed and peened (Tandy; Sailrite; leatherworker.net)
+  - jeans rivet, pocket rivet: copper rivets that reinforce the pocket corners of jeans (Wikipedia 'Jeans')
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: everyday fasteners & fixings
+- **one_liner**: A small two-part or hollow metal rivet pushed through a punched hole in leather, webbing or fabric and squashed with a setter against a hard anvil, so its two heads clamp the layers together permanently to fix straps, handles, tabs and buckles or to reinforce the corners of pockets and seams.
+- **complexity**: A few parts. Double-cap, single-cap and rapid rivets: a post (the male half, with its own cap) and a matching cap (the female half). Tubular and split rivets: one rivet plus a washer behind. Rivets and burrs: a solid post and a cup-shaped washer (burr). Set with a hole punch, a setter (a steel punch with a shaped end), an anvil or metal block, and a mallet, or with a hand press and dies (Tandy; Weaver; Sailrite).
+- **how_it_works**: A hole is punched through every layer, the post is pushed through from the back, and the cap is pressed onto it until it snaps on; a mallet blow on a setter, with the other side resting on an anvil, then squashes and flares the hollow end of the post inside the cap, so the layers are trapped between the two heads (Tandy 'Setting Hardware'; Buckleguy). A tubular rivet's hollow end is rolled over against a washer with a peening tool, and a split rivet's two prongs are spread apart with a die and hammered flat onto a washer (Weaver). A rivet and burr works like a tiny nut and bolt that can't come undone: the burr is pressed down the solid post onto the material, the post is cut off leaving about 1/8 in, and that stub is hammered round over the burr (Tandy; Sailrite). It holds because the heads are bigger than the hole and because setting leaves the layers squeezed together; the post must suit the thickness of the stack, since 'If the post is too short, it may not form securely inside the cap. If the post is too long, it can bend, fold, or mushroom unevenly' (Buckleguy).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: permanently fixes straps, handles, tabs, loops, pockets, buckle ends and rings to leather, webbing or canvas, and reinforces stress points of sewn seams (Buckleguy; Sailrite; Wikipedia 'Jeans')
+  - let it move (turn, slide or bend): a single rivet can act as a pivot, e.g. a heavy tubular rivet used as a luggage wheel's axle; tubular rivets 'are sometimes preferred for pivot points' (Weaver; Wikipedia 'Rivet')
+- **motion**: none for a clamped joint; rotate (a full turn) when a single rivet is used as a pivot, such as a luggage wheel axle (Weaver; Wikipedia 'Rivet').
+- **degrees_of_freedom**: 0 when set tight or when two or more rivets fix a strap; 1 (turning about the rivet) for a single rivet used as a pivot.
+- **special_behaviour**: none: it simply clamps the layers together
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the two heads, or the head and the washer or burr, are bigger than the hole, so the layers can't slide off the post (Weaver; Sailrite)
+  - friction or clamping (force-fit): setting squeezes the layers between the heads; a rivet that isn't squeezed tight can spin in its hole (Buckleguy)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: unlike a Chicago screw, a rivet 'must be peened with a hammer and permanently fixes the connection' (Pet Hardware blog). A badly set rivet can be removed and replaced, using 'the appropriate tools to avoid damaging the material' (Montana Leather).
+- **reuse_cycles**: once: each rivet is destroyed when removed and is replaced with a new one (Montana Leather).
+- **tools_needed**: A hole punch (round drive punch or rotary punch) and a mallet or poly maul; a setter that matches the rivet cap plus an anvil (with a cupped side for domed caps) or a metal block; for rivets and burrs, a burr setter with a hole, cutting pliers or side cutters to trim the post, and a cupped rounding tool; for split rivets, a split-rivet die and a metal hammer; or a hand press with rivet dies instead of hammering (Tandy 'Setting Hardware'; Weaver; Sailrite; Buckleguy).
+- **seal**: none: a metal post in a punched hole, with no sealing element.
+- **load**: Strong in shear (a pull along the strap) and against peeling apart only as long as the heads can't pull through the material, so add a washer behind soft or thin material (Weaver). Side by side: 'Rivets and burrs are stronger than double-cap rivets and are often used to reinforce the edges of pockets where stress on thread stitching is the greatest' (Sailrite); on a forum, a maker who could work badly set double-cap rivets apart by hand was advised to use 'solid copper rivets with washer' for parts under heavy stress (leatherworker.net 'Brass Double Cap Rivet Failure And Danger'). In webbing and fabric, experienced makers prefer sewing, because rivets 'would eventually loosen up in fabric then they just pop through the hole' (leatherworker.net 'Strong rivet reinforcement for webbing'). Never for anything that holds a person. *(unverified parts omitted)*
+- **adjustable**: no: position and clamping are fixed when the rivet is set.
+- **play_and_precision**: not applicable. A well-set rivet shouldn't spin or lean; if it does, the hole may be too large or the post not matched to the compressed thickness (Buckleguy).
+- **access_needed**: both sides: the post goes in from one side and the cap, washer or burr from the other, and the work must rest on an anvil or block opposite the setter (Tandy; Weaver). On large or closed items it can be hard to get an anvil behind each rivet (leatherworker.net 'Setting rapid rivets'). Where only one side can be reached, use a blind rivet instead.
+- **materials**: Rivets are 'typically made of steel and aluminum, while some are made of plastic' (Montana Leather); also solid brass, which has excellent corrosion resistance, and plated base metals, which offer more finishes at lower cost (Buckleguy); rivets and burrs come in copper and brass (Sailrite). They join leather of any tannage, layered or folded straps, webbing, canvas, denim and other heavy fabric; double-cap rivets 'can be used with leather, fabric, and other materials', but 'Softer materials may need extra care or reinforcement' (Buckleguy). In PVC or nylon canvas and synthetic webbing the hole should be melted (singed) first, and in cotton canvas the material should be sewn round the rivet so it doesn't shred (leatherworker.net 'Strong rivet reinforcement for webbing'). Metal sheet is joined with other rivets (see Blind rivet).
+- **maker_difficulty**: easy: a starter kit (punch, setter, anvil and rivets) sets a rivet in seconds; the skills are choosing the right post length and setter and supporting the work on a hard base, so set a test piece on scrap first (Buckleguy).
+
+### Making it
+
+- **processes**: off-the-shelf part: metal rivets set by hand with a setter and anvil, or with a hand press, 3D print (FDM): setting guides, anvils, setter holders and printed two-part rivets (see make_it_yourself)
+- **print_in_place**: no: rivets are separate parts fitted into punched holes; a printed two-part rivet is printed as two pieces and pushed together (Printables 606061).
+- **making_tips_3d_printing**: 1) Printed setting aids: a guide that holds a cheap rivet setter straight is printed in PLA with tree supports, has 'very tight' tolerances, and its rim is glued to the anvil insert (Printables 1407840); two-sided saddle rivet setters say 'Print with 100% infill!' (Printables 693590); a small hexagon riveting anvil for watch repairs is printed 'with high infill and extra top layers' (Printables 160131). 2) Printed rivets: a two-part replacement rivet for a Crocs strap prints without supports, in PETG 'as it's got just a bit more flex', and has a ball-joint option so the strap can turn 'without unnecessarily stressing the rivet' (Printables 606061). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Double-cap rivets (sold by cap diameter and post length), single-cap and rapid (compression) rivets, tubular and semi-tubular rivets, split rivets, and copper or brass rivets and burrs (#9 and #12 heavy weight, #14 decorative), with matching rivet setters, anvils, burr setters, round drive or rotary hole punches, rivet cutting pliers and hand presses with dies (Sailrite 'Rivets & Burrs Copper'; Tandy 'Setting Hardware'; Buckleguy; Weaver). Search terms: 'double cap rivet', 'rapid rivet', 'semi-tubular rivet', 'copper rivets and burrs', 'rivet setter and anvil'.
+- **rules_of_thumb**: 
+  - How much post should stick out, side by side: Tandy says at least 1/16 in (1.6 mm) but no more than 1/8 in (3.2 mm) above the leather before the cap goes on (Tandy 'Setting Hardware'); Buckleguy says 'about 2-3mm of rivet post sticking through the material before setting'; Montana Leather says take the leather thickness and 'Add 1/8 inch (3 millimeters) for the post length'; a forum leatherworker recommends 1/16 in above the pieces (leatherworker.net).
+  - Measure the full stack at the exact rivet point after folding, gluing and lining, allow for leather compressing as it is set, and set a test rivet on scrap of the same layers (Buckleguy).
+  - Rivets and burrs: press the burr down until it meets the material, cut the post leaving 1/8 in, then round the stub over the burr with the cupped setter; 'The rivet must extend roughly 1/8" from the top surface of the material' (Tandy 'Setting Hardware'; Sailrite).
+  - Hole size: the post should pass through cleanly without looseness; too small distorts the leather, too large lets the rivet lean or spin (Buckleguy).
+  - Setting double caps: put the domed outer cap in the anvil's cup and set from the back of the rivet (Tandy); use a setter made for that cap shape, keep the post vertical, support the lower cap evenly, and 'More force rarely fixes bad alignment' (Buckleguy).
+  - Put a washer behind split and tubular rivets 'to keep it from pulling through the leather', and set them on a metal block or other hard surface (Weaver).
+  - Webbing and canvas: melt the hole with a hot nail or screwdriver the same size as the rivet so it doesn't fray and tear out (don't melt it with a lighter flame); singe holes in PVC or nylon canvas; sew round the rivet in cotton canvas (leatherworker.net 'Strong rivet reinforcement for webbing').
+  - Pick the type for the stress: rivets and burrs (#9 or #12) where strength and durability are needed, #14 as decoration (Sailrite); tubular rivets for 'heavy-duty applications or high-stress areas', double caps for backpacks, handles and tote straps, single caps for belts and flaps (Montana Leather).
+  - Cap size: smaller caps for wallets, card holders and thin straps; larger caps for bag handles, strap ends, collars and leashes (Buckleguy).
+  - A semi-tubular rivet needs about a quarter of the setting force of a solid rivet, which is why hollow rivets suit hand setting (Wikipedia 'Rivet').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Copper rivets at the corners of jeans pockets, patented by Jacob Davis and Levi Strauss in 1873 to reinforce 'the points of stress, such as pocket corners and at the bottom of the button fly' (Wikipedia 'Jeans')
+  - Dog collars and leashes, bag handles, belts and strap tabs fixed with double-cap rivets (Buckleguy)
+  - A suitcase wheel held on by a large tubular rivet that is also its axle (Weaver)
+  - Riveted leather cases and sheaths, such as a leather-covered mate gourd (Wikimedia Commons 'Riveted leather mate case.jpg')
+- **when_to_use**: Use rivets to fix a strap, tab, loop, handle or buckle end permanently, quickly and neatly, especially in thick or layered leather that is slow to hand-stitch, and to reinforce the ends of seams and pocket corners where stitching takes the most strain (Buckleguy; Sailrite; Wikipedia 'Jeans'). Choose double-cap rivets where both sides show, single-cap or rapid rivets where only one side shows, tubular or split rivets with a washer for heavier work or as a pivot, and copper rivets and burrs for the most strength (Montana Leather; Weaver; Sailrite). Rivets and stitching 'do different jobs': a rivet makes a fastened point, stitching a sewn line, and many goods use both (Buckleguy).
+- **when_not_to_use**: Don't rivet parts you'll want to take apart, such as an interchangeable buckle: use a Chicago screw (Pet Hardware blog; Weaver). Don't rely on rivets alone in webbing or fabric that carries real load: sew it with a load-bearing stitch pattern, because rivets tend to loosen and pull through fabric (leatherworker.net). Never use home-set rivets in climbing harnesses, safety straps or anything that holds a person. For metal sheet or plastic panels, or where the back can't be reached, use a blind rivet; for an opening that must close and open again, use a press stud or buckle; to reinforce a hole for a cord, use an eyelet or grommet.
+- **environment_limits**: Wet or outdoor use (collars, leashes, tack) therefore calls for solid brass, copper or stainless hardware (Buckleguy). Leather compresses, and softer leather squeezes down more during setting, so rivets set in soft or thin material can loosen or spin (Buckleguy). In webbing and fabric, rivets tend to work loose over time (leatherworker.net). *(unverified parts omitted)*
+- **safety_notes**: Keep fingers clear of the mallet and the setter. A rivet that fails on a dog leash, spur strap or bag strap can drop or free what it holds, so set test pieces, use solid copper rivets and burrs on stress points, and check them (leatherworker.net 'Brass Double Cap Rivet Failure And Danger'). Never use home-set rivets in anything that holds a person, such as a climbing harness or safety strap. *(unverified parts omitted)*
+- **common_failures**: Rivet spins after setting: post not matched to the compressed thickness, hole too large, or not compressed properly (Buckleguy). Cap sits crooked: setter misaligned, lower cap not supported, or post not vertical (Buckleguy). Leather puckers round the rivet: post too long, soft leather or too much force (Buckleguy). Cap flattened or marked: setter doesn't match the cap or the blow was too heavy (Buckleguy). Post bends while setting because it is too long, or doesn't flare because it is too short (leatherworker.net). Double caps that can be worked apart by hand: use the right post length or switch to rivets and burrs (leatherworker.net; Sailrite). Rivet pulls through soft leather: add a washer (Weaver). Webbing frays and tears out round a cut hole: melt the hole first (leatherworker.net).
+- **related**: 
+  - Chicago screw (binding screw, sex bolt): looks similar but screws together, so it can be taken apart to change a buckle
+  - Blind rivet (pop rivet): set from one side only, for metal sheet and panels; solid and semi-tubular rivets for metal are noted there
+  - Press stud (snap fastener, popper): set with similar tools, but opens and closes
+  - Eyelets and grommets: set with similar punches and dies, but reinforce a hole rather than join layers
+  - Load-bearing stitch patterns for straps and webbing (bar tack, box-X stitch): the usual way to make strong webbing joints
+  - Sewn seams and hand stitches (saddle stitch): the sewn alternative in leather; often combined with rivets at stress points
+  - Heat staking (melted plastic rivet): a rivet formed from a printed plastic post
+  - Push-in plastic rivet (fir-tree clip, push rivet): a tool-free plastic rivet for panels
+  - Basic strap and garment closures (prong buckle, button, toggle and loop): buckles that are often fixed to the strap with rivets
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Closeup of copper rivet on jeans.jpg (Wikimedia Commons, by Marcos André)](https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg): Close-up of a copper rivet reinforcing the corner of a jeans pocket *(licence: CC BY 2.0)*
+  - [Strivet333.JPG (Wikimedia Commons, by Rivetpro)](https://commons.wikimedia.org/wiki/File:Strivet333.JPG): Line drawing of a semi-tubular rivet with its hollow tip *(licence: Public domain)*
+  - [Riveted leather mate case.jpg (Wikimedia Commons, by Misterneedlemouse)](https://commons.wikimedia.org/wiki/File:Riveted_leather_mate_case.jpg): Close-up of stamped leatherwork held together with rivets *(licence: CC BY 4.0)*
+  - [Tandy Skills: Setting Hardware (Tandy Leather)](https://tandyleather.com/blogs/tandy-blog/tandy-skills-setting-hardware): Step-by-step photos of setting rivets and burrs and double-cap rivets with setters, anvil and cutters *(licence: link only (© Tandy Leather))*
+  - [How to Set Split & Tubular Rivets (Weaver Leather Supply)](https://www.weaverleathersupply.com/blogs/leathercrafting/how-to-set-split-tubular-rivets): Photos and a video of setting split and tubular rivets with washers, dies and peening tools, including a luggage wheel axle *(licence: link only (© Weaver Leather Supply))*
+- **make_it_yourself**: 
+  - [Snap / rivet chinese setter kit guide (for leather or cloth) (bina, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1407840-snap-rivet-chinese-setter-kit-guide-for-leather-or): Printed guide that holds a basic rivet or snap setter straight over its anvil *(licence: Creative Commons Public Domain)*
+  - [Saddle rivet setters (Daniel Kasprowicz, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/693590-saddle-rivet-setters): Pair of printed setters placed on both sides of a rivet and struck with a small hammer *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Hexagon riveting anvil (PrimoMemeo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/160131-hexagon-riveting-anvil): Small printed riveting anvil made for watch-strap repairs *(licence: Creative Commons Public Domain)*
+  - [Replacement Rivet for Crocs (Or Your Other Riveting Needs) (Joshua Goodwin, Printables)](https://www.printables.com/model/606061-replacement-rivet-for-crocs-or-your-other-riveting): Parametric OpenSCAD two-part push-together strap rivet with washer, in fixed and swivelling versions *(licence: Creative Commons Attribution-ShareAlike)*
+- **diagram_idea**: A cut-away side view of a double-cap rivet before and after setting: post through two leather layers on a cupped anvil, cap above with the setter and mallet, then the flared post locked inside the cap; beside it, three small inserts showing post too short (not formed), just right (2-3 mm sticking out before setting) and too long (bent over), and a rivet-and-burr version with the trimmed post rounded over the burr.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Rivet
+  - https://en.wikipedia.org/wiki/Jeans
+  - https://en.wikipedia.org/wiki/Jacob_W._Davis
+  - https://tandyleather.com/blogs/tandy-blog/tandy-skills-setting-hardware
+  - https://tandyleather.com/collections/hardware/products/easy-to-do-rivets-setter
+  - https://www.weaverleathersupply.com/blogs/leathercrafting/how-to-set-split-tubular-rivets
+  - https://www.montanaleather.com/choosing-the-right-size-rivet-for-your-leather-craft/
+  - https://www.buckleguy.com/buckleguy-blog/leather-rivets-how-to-match-rivets-to-material-thickness/
+  - https://www.buckleguy.com/buckleguy-blog/double-cap-rivets-for-leathercraft-a-makers-guide/
+  - https://www.sailrite.com/Rivets-Burrs-Copper-50-pack
+  - https://blog.pethardware.com/en/how-to-choose-chicago-screws/
+  - https://leatherworker.net/forum/topic/64358-brass-double-cap-rivet-failure-and-danger
+  - https://leatherworker.net/forum/topic/88430-strong-rivet-reinforcement-for-webbing
+  - https://leatherworker.net/forum/topic/47596-setting-rapid-rivets
+  - https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg
+  - https://commons.wikimedia.org/wiki/File:Strivet333.JPG
+  - https://commons.wikimedia.org/wiki/File:Riveted_leather_mate_case.jpg
+  - https://www.printables.com/model/606061-replacement-rivet-for-crocs-or-your-other-riveting
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, safety_notes
+
+## 390 Chicago screw (binding screw, sex bolt)
+
+*cord, strap, webbing & textile hardware.* A short screw that threads into a matching hollow post from the other side, leaving a flat head on both faces, used like a removable rivet in leather, straps and binders and as the pivot in printed key organisers
+
+*Also covers:* Also covers choosing the post length and when to add threadlocker.
+
+### What it is
+
+- **plain_name**: A two-piece stud: a short tube with a thread inside it, and a screw that goes in from the other side, leaving a smooth flat head on each face, so it looks and works like a rivet that you can unscrew
+- **term**: Chicago screw (sex bolt, screw and post, binding screw and barrel), a type of mating fastener
+- **aliases**: 
+  - sex bolt, mating fastener (Wikipedia 'Sex bolt')
+  - Chicago screw, Chicago binding screw and post (Wikipedia 'Sex bolt'; Weaver; Tandy)
+  - screw post, post and screw, screw and post, screw-in-post fastener (Wikipedia 'Sex bolt'; Pet Hardware blog)
+  - binding barrel and screw, binding screw, book screw, bookbinding screw (Wikipedia 'Sex bolt'; Printables KeyCarry)
+  - barrel nut, barrel bolt, sleeve nut, female screw, connector bolt, splint screw (Wikipedia 'Sex bolt')
+  - architectural bolt: the version with a knurled barrel for one-sided assembly (Wikipedia 'Sex bolt')
+  - paper rivet, binding post: cosplay names (Adam Savage's Favorite Tools, 'Chicago Screws' episode summary on TheTVDB); not the electrical binding post
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: quick-release & tool-free, everyday fasteners & fixings, hinges & pivots
+- **one_liner**: A Chicago screw is a hollow post with a thread inside and a matching screw that threads into it from the other side, clamping leather, straps, paper, plastic or printed parts between two smooth, low heads like a rivet, but one that can be unscrewed to swap a buckle or used as a pivot pin.
+- **complexity**: A few parts: a barrel (post) with a flat or domed head and an internally threaded boss, and a matching machine screw with a slotted head; sometimes washers or spacers between the layers (Wikipedia 'Sex bolt'; Pet Hardware blog; Printables KeyCarry).
+- **how_it_works**: The post is pushed through the holes in all the layers from one side, and the screw goes in from the other; tightening the screw pulls the two heads together and clamps the material between them, like a nut and bolt whose nut is hidden inside a smooth head (Wikipedia 'Sex bolt'). The post is chosen a little shorter than the total thickness, so the heads press on the material before the screw head reaches the end of the post (Wikipedia 'Sex bolt'; Pet Hardware blog). Undoing the screw takes the joint apart again, for example to change a belt buckle; a drop of threadlocker on the thread makes it semi-permanent but still removable 'with sufficient force' (Pet Hardware blog; Weaver). Left with a little free play, or through a stack of keys and washers, it works as a pivot pin, as in printed key organisers (Printables KeyCarry).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: fixes buckles, straps, loops, holsters, sheaths, binders and armour plates together like a rivet, but removable (Weaver; Tandy; Wikipedia 'Sex bolt'; Adam Savage's Favorite Tools)
+  - let it move (turn, slide or bend): the pivot of a key organiser or of hinged cosplay armour plates that 'can move without nuts and bolts sticking out' (Printables KeyCarry; Adam Savage's Favorite Tools)
+- **motion**: none when clamped tight; rotate (any angle) when used as a pivot, e.g. keys swinging out of a key organiser or armour plates hinging (Printables KeyCarry; Adam Savage's Favorite Tools).
+- **degrees_of_freedom**: 0 when clamped; 1 (turning about the screw) when used as a pivot.
+- **special_behaviour**: none: it clamps like a small nut and bolt; its point is the flat, smooth head on both faces and that it can be undone
+- **holding_principle**: 
+  - friction or clamping (force-fit): screw tension clamps the layers between the two heads, and thread friction, or threadlocker, keeps the screw from turning (Wikipedia 'Sex bolt'; Pet Hardware blog)
+  - shape (the parts interlock; form-fit): the heads are larger than the hole, and the barrel passing through the hole locates the parts and carries sideways (shear) load (Wikipedia 'Sex bolt')
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: unscrew it with a flat-blade screwdriver; Chicago screws 'can be opened and reattached as needed on things like belts, purses, bags, and valet trays' (Weaver). With threadlocker it becomes semi-permanent but can still be removed 'with sufficient force if repairs become necessary' (Pet Hardware blog).
+- **reuse_cycles**: many times: it is meant to be undone and refitted whenever a buckle or part is changed (Weaver; *(unverified parts omitted)*
+- **tools_needed**: A hole punch (or a drill for hard materials), a flat-blade screwdriver that fits the slot closely in width and thickness (Pet Hardware blog), and something to stop the smooth post spinning while you tighten: a piece of rubber or an eraser under it, a dab of hot glue, or special pliers such as Weaver's Malan Chicago screw tool (leatherworker.net 'Tightening and loosing chicago screws'). Optional threadlocker (Weaver; Pet Hardware blog).
+- **seal**: none
+- **load**: The barrel carries sideways (shear) load through the hole, and the clamping force is limited by the small thread and by soft material compressing. They are used on belts, holsters, sheaths, collars, leashes and harnesses (Tandy; Pet Hardware blog), but can loosen and back out with repeated flexing and movement unless threadlocked or checked: one belt maker recalled customers after 'a few reports of the Chicago screws loosening and backing out' (Soldier Systems Daily, 2015). Never for anything holding a person. *(unverified parts omitted)*
+- **adjustable**: partly: the joint can be tightened, loosened or taken apart and parts swapped, but the clamping length is set by the post; key organisers take more or fewer keys by changing the screw length and spacers (Printables KeyCarry; Pet Hardware blog).
+- **play_and_precision**: As a pivot it has small play, because the barrel diameter 'should be slightly less than the installation hole' (Wikipedia 'Sex bolt'); it is not a precision bearing. As a clamp, a post that is too long leaves the joint loose (Weaver; Pet Hardware blog).
+- **access_needed**: both sides: the post goes in from one face and the screw from the other, and the post usually has to be held still while the screw is turned (Wikipedia 'Sex bolt'; leatherworker.net). Some architectural sex bolts have knurled barrels that grip the hole to allow 'one-sided assembly' (Wikipedia 'Sex bolt').
+- **materials**: Made in 'aluminium, steel, brass, copper, stainless steel and plastic', finished anodised, zinc, brass, chrome, bronze or nickel plated or black oxide (Wikipedia 'Sex bolt'). For leather and pet goods: brass is naturally corrosion-resistant and patinas; stainless steel has 'Exceptional resistance to water and heavy loads'; plated steel is 'Affordable, strong'; zinc alloy takes detailed decorative finishes (Pet Hardware blog). Joins leather (which compresses and takes a permanent dent under the head), coated waterproof webbing (which compresses very little, so measurements are accurate) (Pet Hardware blog), paper and card (book binding), wood, plastic and thin metal: uses range 'from book binding to installing bathroom partitions', fitness apparatus, playground equipment, athletic helmets and knives (Wikipedia 'Sex bolt'), plus 3D-printed key organisers and cosplay armour (Printables; specops501st forum).
+- **maker_difficulty**: easy: punch or drill a hole and screw it together; the skills are choosing the post length and stopping the smooth post spinning while tightening (Pet Hardware blog; leatherworker.net).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: metal screw-and-post sets, fitted by hand
+  - 3D print (FDM): printed parts with holes for Chicago screws (key organisers, cases, cosplay armour), printed washers and spacers, and drilling jigs
+- **print_in_place**: no: the screw and post are bought metal parts fitted through holes in the printed or leather parts.
+- **making_tips_3d_printing**: 1) Key organisers: the KeyCarry design uses 5 mm Chicago screws ('also known as Book or Bookbinding screws'), or 4 mm ones for keys with narrow holes, stacked 'Keyholder half - washer - key - washer - key - washer - Keyholder half', with washers added on the second screw to match; printed spacers should be printed 'with a brim', and there is a version for ordinary M3 screws, nuts and washers (Printables 837519); another design uses printed 0.5 mm spacers between keys (Printables 1246908), and a third simply uses M3 screws cut to length (Printables 125291). 2) Holes: make the hole so the barrel just slides in; the barrel should be 'slightly less than the installation hole' (Wikipedia 'Sex bolt'); 4) Threadlocker near prints: anaerobic threadlockers 'can attack certain plastics and lead to stress cracking', and Henkel rates ABS, ASA, acrylic, polycarbonate, polystyrene and PVC as 'Often not suitable' (Loctite Threadlocker Manual, PDF pp. 71 and 122); put a tiny drop on the metal threads only and keep it off the print; 5) Drilling jigs: a printed jig drills straight, evenly spaced 13/64 in holes in belt links for Chicago screws (Printables 1113451). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Chicago screws / screw posts / binding barrels and screws / sex bolts, sold by post (barrel) diameter, post length and head diameter, with standard slotted, double-slotted and decorative heads (Pet Hardware blog; Wikipedia 'Sex bolt'; Weaver; Tandy); architectural sex bolts with knurled barrels (Wikipedia 'Sex bolt'); washers and printed spacers; low-strength threadlocker (Loctite 222, purple) or medium (Loctite 243, blue) (Henkel threadlocking guide); Chicago screw pliers (leatherworker.net). Search terms: 'Chicago screw', 'screw post', 'binding barrel', 'sex bolt', 'book screw'.
+- **rules_of_thumb**: 
+  - Post length: shorter than the material, side by side: 'Normally the length of the barrel is shorter than the thickness of the material being clamped' (Wikipedia 'Sex bolt'); choose a post '1-1.5 mm shorter than the total measured material thickness', e.g. two 2.5 mm layers (5 mm) take a 4 mm post; too long and 'the connection will remain loose', too short and 'the thread won't engage at all' (Pet Hardware blog); 'The screw post might look too small, but that is normal. You don't want the post to be too long because then it will be loose' (Weaver).
+  - Measure the total thickness of every layer at the fastening point; leather compresses when tightened, coated webbing hardly at all (Pet Hardware blog).
+  - Hole: 'should match the post diameter exactly' so the post fits snugly; if it drops in too easily it may spin during tightening (Pet Hardware blog).
+  - Threadlocker or not: if it is never meant to come apart, add 'a drop of Loctite threadlocker'; if you plan to swap buckles, 'skip the adhesive' and just tighten firmly (Pet Hardware blog; Weaver).
+  - Threadlocker strength: low strength (purple, e.g. Loctite 222) is 'Ideal for fasteners <1/4" (6 mm)', with 'Easy disassembly using hand tools', and 222 is also recommended for 'low-strength metals, such as aluminum or brass'; medium (blue) is meant for 1/4-3/4 in fasteners (Henkel Threadlocking User's Guide pp. 6 and 8). Leatherworkers commonly use blue on Chicago screws (leatherworker.net). Typical cure: about 10 minutes to handle, 24 hours to full strength (Henkel guide p. 8).
+  - Metal matters for threadlocker: brass, copper and plain steel are 'active' and cure readily; stainless steel, zinc plating and anodised aluminium are 'inactive', so use a primer or a primerless grade (Henkel guide p. 6).
+  - Community stand-ins for threadlocker: nail polish or superglue 'in a pinch' (leatherworker.net), or candle wax or crayon rubbed into the threads to resist loosening while staying removable (Soldier Systems Daily, quoting a belt maker).
+  - Without threadlocker, check and retighten belt screws every so often (Soldier Systems Daily, reader comment).
+  - When replacing a screw post in leather, keep the same head diameter so it sits in the old dent (Pet Hardware blog).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Leather belts with a buckle that unscrews so it can be swapped (Weaver; Soldier Systems Daily)
+  - Bound books and binders held together by screw posts, which is why they are also called 'book screws' and 'binding barrels'; uses run 'from book binding to installing bathroom partitions' (Wikipedia 'Sex bolt')
+  - Knife sheaths, holsters, bags and dog collars (Tandy; Pet Hardware blog)
+  - Pocket key organisers that hold a stack of keys on two screw posts (Printables KeyCarry)
+- **when_to_use**: Use a Chicago screw when you want the neat, flat look of a rivet but need to take the joint apart later: interchangeable belt buckles, replaceable snap hooks on leashes, repairs, adjustable or customisable goods (Pet Hardware blog; Weaver). It suits thick leather stacks, webbing, book binding, and printed or laser-cut parts that must come apart, and it makes a low, smooth pivot for key organisers, folding parts and hinged cosplay armour where nuts and bolt ends would scratch (Wikipedia 'Sex bolt'; Printables KeyCarry; Adam Savage's Favorite Tools). It also needs no hammering, so there is 'no risk of unintentionally deforming or damaging the material' as can happen with rivets (Pet Hardware blog).
+- **when_not_to_use**: For a cheap, permanent, tamper-proof joint use a rivet (Leather and textile rivets). Where only one side can be reached, use a blind threaded fixing, a heat-set insert or a captive nut in a printed part. For a precise, low-play pivot under load, use a shoulder bolt or bearing (Plain pivot and rolling bearing). Where it will be flexed, shaken or vibrated a lot, add threadlocker or choose a riveted or sewn joint, because Chicago screws can back out (Soldier Systems Daily). Never use it in anything that holds a person, such as a climbing harness or safety strap. For thin fabric or soft webbing, add washers on both sides so the heads can't pull through (leatherworker.net 'Strong rivet reinforcement for webbing').
+- **environment_limits**: Corrosion: brass is naturally corrosion-resistant, stainless steel has 'Exceptional resistance to water', and plated steel is for general use (Pet Hardware blog). Loosening: repeated flexing and movement can unscrew them; belt makers have seen screws 'loosening and backing out' (Soldier Systems Daily). Threadlocker: the low-strength (222) and medium-strength (243) grades are rated to about 150 °C (300 °F) and 180 °C (360 °F) in service, and cure slowly on inactive metals such as stainless steel and zinc plating (Henkel guide pp. 6 and 8); it can stress-crack some plastics (Loctite Threadlocker Manual). *(unverified parts omitted)*
+- **safety_notes**: A flat screwdriver 'can slip more easily on smooth metal surfaces', scratching the work and your hand (Pet Hardware blog). A loose Chicago screw on a belt, holster, sheath or leash can let go and drop what it holds, so check it (Soldier Systems Daily). Never use it in anything that holds a person. *(unverified parts omitted)*
+- **common_failures**: The post spins while you tighten or loosen the screw, because its smooth head has no grip: hold it on rubber or an eraser, glue it temporarily, or use Chicago screw pliers (leatherworker.net 'Tightening and loosing chicago screws'). The screw works loose and backs out over time: use threadlocker, wax or regular retightening (Soldier Systems Daily; leatherworker.net). The joint is loose or rotates because the post is too long, or the thread won't catch because it is too short (Pet Hardware blog; Weaver). Stripped threads from overtightening, especially steel versions (Pet Hardware blog). A scratched head from a badly fitting screwdriver (Pet Hardware blog). A screw that won't come out after strong threadlocker, or cracking of a plastic part from threadlocker (Henkel guide; Loctite Threadlocker Manual).
+- **related**: 
+  - Leather and textile rivets (double-cap, tubular and split rivets): look alike but are set permanently with a hammer; cheaper and can't work loose
+  - Ordinary screw joint (bolt and nut, machine screw): the general nut-and-bolt version, with a protruding nut and bolt end
+  - Tool-free fasteners (thumbscrew, wing nut, hitch pin and R-clip): undone by hand, without a screwdriver
+  - Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing): better pivots when play and wear matter
+  - Anaerobic adhesive (threadlocker, retaining compound) and Thread-locking hardware: ways to stop the screw backing out
+  - Heat-set threaded insert and Captive nut pocket (nut trap): ways to put a thread into a 3D print for screws from one side
+  - Knock-down cam-lock and cross-dowel connectors: furniture fasteners in the same family as sex bolts and barrel nuts
+  - Blind threaded fixings (rivet nut, well nut): a thread fitted from one side only
+  - Binding post and banana plug: an electrical connector that shares the name 'binding post'
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Buchbinderschraube zum verbinden von zwei Lederstücken.jpg (Wikimedia Commons, by MichaelFrey)](https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederstücken.jpg): A bookbinding screw (Chicago screw) joining two pieces of leather *(licence: CC BY-SA 4.0)*
+  - [Sleeve nuts.jpg (Wikimedia Commons, by Andy Dingley)](https://commons.wikimedia.org/wiki/File:Sleeve_nuts.jpg): Sleeve nuts (barrels), one with its mating screw *(licence: CC BY-SA 3.0)*
+  - [Buchschrauben Auswahl.jpg (Wikimedia Commons, by Timo Huber)](https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg): A selection of book screws (screw posts) in different lengths and heads *(licence: CC BY-SA 4.0)*
+  - [How To Install A Chicago Screw (Weaver Leather Supply)](https://weaverleathersupply.com/blogs/leathercrafting/how-to-install-a-chicago-screw): Photos of punching the hole, fitting the post and tightening the screw with a holding tool *(licence: link only (© Weaver Leather Supply))*
+  - [Chicago screws - How to choose and use them correctly (Pet Hardware blog)](https://blog.pethardware.com/en/how-to-choose-chicago-screws/): Head styles and a sizing guide based on post diameter, post length and head diameter, with a worked example *(licence: link only (© Pet Hardware))*
+- **make_it_yourself**: 
+  - [KeyCarry - EDC Key Organizer (M3 screw compatible!) (Downloaded Goods, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/837519-keycarry-edc-key-organizer-m3-screw-compatible): Printed key organiser held together by two 5 mm Chicago screws, with an alternative version for M3 screws and nuts *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Key Case/Organiser (Chicago screw) v1.0 (LetMePrint, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/976481-key-caseorganiser-chicago-screw-v10): Printed key case using Chicago screws as the pivot, with printable washers and test 'dummy keys' *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Key holder, organizer. Chicago screw. (dymek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1246908-key-holder-organizer-chicago-screw): Printed key organiser for Chicago screws, with printed 0.5 mm spacers between keys *(licence: Creative Commons Attribution-NonCommercial-NoDerivatives)*
+  - [DAA Lynx belt link 0.75" Chicago screw drill jig (Jay Slater, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1113451-daa-lynx-belt-link-075-chicago-screw-drill-jig): Printed drilling jig for putting evenly spaced Chicago screw holes in belt links *(licence: Creative Commons Attribution-ShareAlike)*
+- **diagram_idea**: An exploded and a cut-away view of a Chicago screw through two leather layers: the flanged post entering from below, the slotted screw from above, the threads meeting inside, and a dimension arrow showing the post length 1-1.5 mm shorter than the stack so the heads clamp; beside it, a key organiser stack (plate, washer, key, washer, key, plate) pivoting on the same screw.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Sex_bolt
+  - https://weaverleathersupply.com/blogs/leathercrafting/how-to-install-a-chicago-screw
+  - https://blog.pethardware.com/en/how-to-choose-chicago-screws/
+  - https://tandyleather.ca/products/chicago-screws
+  - https://thetvdb.com/series/adam-savages-favorite-tools/episodes/7925451
+  - https://forum.specops501st.com/topic/9147-pauls-death-trooper-build/page/8/
+  - https://leatherworker.net/forum/topic/63276-tightening-and-loosing-chicago-screws
+  - https://leatherworker.net/forum/topic/88430-strong-rivet-reinforcement-for-webbing
+  - https://soldiersystems.net/2015/06/23/a-note-to-mgl-leather-belt-owners/
+  - https://www.ellsworth.com/globalassets/literature-library/manufacturer/henkel-loctite/henkel-loctite-user-guide-threadlocking.pdf
+  - https://dm.henkel-dam.com/is/content/henkel/LOCTITE-Threadlocker-Manual.pdf
+  - https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederstücken.jpg
+  - https://commons.wikimedia.org/wiki/File:Sleeve_nuts.jpg
+  - https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, reuse_cycles, safety_notes
+
+## 399 In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
+
+*cord, strap, webbing & textile hardware.* A small link made of two eyes joined by a free-turning pivot, put in a line, chain, lead or hanger so one end can spin without twisting the other, as on fishing line, dog leads, anchor chain, key rings and hanging signs
+
+*Also covers:* Also covers barrel, box and ball-bearing swivels and print-in-place swivels. Safety: a swivel can be the weakest link; never hold anything overhead or any person with a printed one.
+
+### What it is
+
+- **plain_name**: A small link with a ring or eye at each end, joined through a little body by a pin that spins freely, put in the middle of a fishing line, lead, rope, chain or hanger so one end can turn round and round without twisting up the other
+- **term**: In-line swivel (eye-and-eye swivel; rope, chain and line swivel)
+- **aliases**: 
+  - swivel (Wikipedia 'Swivel')
+  - fishing swivel; barrel swivel, rolling swivel, crane swivel, ball-bearing swivel (types sold for fishing, British Sea Fishing, Talk Sea Fishing)
+  - snap swivel / link swivel (a swivel with a snap clip on one eye; Wikipedia 'Fishing swivel')
+  - three-way swivel (a third eye for a side branch)
+  - eye and eye swivel / eye-eye swivel / regular swivel / forged swivel (rigging; e.g. G-402, Crosby brand)
+  - jaw and eye swivel / anchor swivel / anchor connector (boats)
+  - bearing swivel (roller or ball thrust bearing, rated to turn under load)
+  - rope swivel / rescue swivel / ball-bearing rope swivel (certified rope-work swivels, e.g. SWIVEL, Petzl brand)
+  - swivel eye / swivel snap / swivel hook (on dog leads, bag straps and hooks)
+  - swivel hanger / ball-bearing swivel hook (for hanging signs and wind spinners)
+  - swivel key ring / keychain swivel
+  - Wirbel (German) / destorcedor (Spanish) (names seen in Wikimedia Commons file titles) *(unverified parts omitted)*
+- **family**: cord, strap, webbing & textile hardware
+- **other_families**: hinges & pivots
+- **one_liner**: A link with an eye at each end, joined through a body by a shaft that turns freely, so twist that builds up in a fishing line, lead, rope or chain can unwind instead of kinking or tangling, while the swivel still carries the pull.
+- **complexity**: A small assembly that acts as one unit: two eyes (wire loops or forged rings), each ending in a shaft or head trapped inside a central body (a barrel, cylinder or rounded housing) so it can spin but not pull out; better ones add ball bearings (or a tapered roller thrust bearing on lifting swivels) between head and body. Variants add a snap clip (snap or link swivel), a third eye (three-way swivel), a jaw for an anchor, or a hook. Example: 'two wire eyes, brass barrel' (barrel swivel); 'two forged eyes, body, tapered roller thrust bearing' (lifting swivel).
+- **how_it_works**: Each eye ends in a rod or head that sits inside the body and is kept from pulling out by a nut, washer or thickened end, so it can turn but not escape; Wikipedia 'Swivel' gives this and two other common designs, a ball turning inside a holder, and a rod inside a slightly larger tube held by flanges. When the line is pulled, the head presses on the inside of the body, which works as a small thrust bearing ('two rings linked via a thrust bearing pivot joint', Wikipedia 'Fishing swivel'), so the two ends turn independently and twist from a spinning lure, a turning load or a boat swinging at anchor unwinds through it. The harder the pull, the more friction at that bearing face: under heavy load a plain barrel swivel 'essentially locks up', rolling and crane swivels turn better, and ball-bearing swivels keep turning under heavy load (The Tackle Room; Talk Sea Fishing).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): lets one end of a line, lead, chain or hanger spin freely so twist does not build up
+  - join and hold: joins two lengths of line, rope or chain, or a line to a lure, anchor, sign or hook, and carries the pull
+- **motion**: rotate, unlimited (keeps turning in either direction about the line between the two eyes)
+- **degrees_of_freedom**: 1 (spin about the line joining the two eyes). Loose eyes and rings also let the attached line swing a little sideways, but that is not a designed movement.
+- **special_behaviour**: 
+  - none: it simply turns freely, so twist is let out instead of being stored in the line. Note that ordinary forged eye-and-eye swivels are only meant to turn when unloaded ('G-402 Swivels are positioning devices and are not intended to rotate under load', Crosby, quoted by Defender), whereas bearing swivels are made to turn under load (Koelner T-OOK: 'Rotatable under load'; Petzl SWIVEL)
+- **holding_principle**: shape (the parts interlock; form-fit): the head of each shaft is trapped inside the body; it is not a holding joint for turning, since it is made to spin
+- **input_output**: Passes the pull (tension) straight through from eye to eye but lets twist escape: twist at one end -> free spinning of the swivel, so ideally no twist reaches the other end. Shaft arrangement: in line. Friction rises with the pull, so plain barrel swivels stop turning under heavy load while ball-bearing swivels keep turning (The Tackle Room). Back-drivable: yes, either end can turn it.
+- **power**: passive (no power needed)
+- **removability**: removable: tied on with knots, clipped on with a snap, or joined with split rings or shackles; in fishing rigs a small swivel is often trapped between beads and crimps on the line (British Sea Fishing)
+- **reuse_cycles**: many times: it can be untied, unclipped or unshackled and reused until it corrodes, wears or stops turning freely
+- **tools_needed**: none for snap and link swivels; a knot for fishing line; pliers for split rings and crimps (British Sea Fishing); shackles, and a spanner if their pins need it, for chain swivels
+- **seal**: none
+- **load**: From very light to very heavy, but only ever as strong as its rating. Fishing: size 6 swivels break at about 40 lb (rolling) to about 100 lb (crane), and size 1/0 at about 100 lb (rolling) to 200 lb (crane) (Talk Sea Fishing; British Sea Fishing); barrel swivels are the weakest because the single wire tag 'can simply pull out' (Talk Sea Fishing). Rope rescue: certified ball-bearing swivels rated at 23 kN or 36 kN breaking strength (Petzl SWIVEL, certified CE, UKCA and NFPA 2500). Lifting: a 5/8 in Crosby G-402 forged swivel has a 5,200 lb working load limit and 26,000 lb break strength (5:1 safety factor, Fastenersplus). Some hardware-store eye-eye swivels give no load rating at all (the Koelner T-OOK sheet lists sizes only). Strong in a straight pull along the line; weak against sideways and bending loads, which can pry an anchor swivel's jaws open (Wikipedia 'Swivel'). Often the weakest link in the line (Wikipedia 'Swivel'; 'Fishing swivel').
+- **adjustable**: no
+- **play_and_precision**: Not a locating part. It copes with the line pulling slightly off-line, but keep the pull straight through both eyes: side loads lever the eyes and jaws (Wikipedia 'Swivel'). *(unverified parts omitted)*
+- **access_needed**: not applicable: it hangs in the line and is fitted by its eyes, which only need to be reachable to tie, clip or shackle on
+- **materials**: Fishing: brass, nickel-plated or black-finished steel wire and bodies, and stainless steel ball-bearing swivels (British Sea Fishing; Talk Sea Fishing; The Tackle Room). Lifting and mooring: quenched and tempered forged steel, hot-dip galvanised (Crosby G-402, via Fastenersplus and Defender). Hardware store: zinc-plated low-carbon steel (Koelner T-OOK). Boats: stainless steel anchor swivels, which can corrode out of sight inside the shaft (Wikipedia 'Swivel'). Rope rescue: certified metal swivels with sealed ball bearings (Petzl). Printed: PLA or PETG for key rings, clothes hangers, clips and model joints only (Printables 1332089 recommends PETG).
+- **maker_difficulty**: easy to fit: buy one rated for the job and tie, clip or shackle it in; easy to moderate to print a light-duty print-in-place swivel for a key ring, hanger or model, which needs good clearances; a load-rated swivel is not something to make at home
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: fishing swivels and snap swivels, eye-and-eye and jaw-and-eye swivels, anchor swivels, swivel hooks and snaps, swivel key rings, certified rope swivels
+  - 3D print (FDM): print-in-place swivels for key rings, clothes hangers, carabiner-style clips, filament guides and model joints (light duty only)
+- **print_in_place**: yes: print-in-place swivels print already assembled and turning (Printables 983933 'Print in place carabiner with a swivel', 367523 swivel clothes hanger, 1332089 swivel snap hook clip); partly when a bought ball bearing is added for smoother turning (Printables 1208378 'Carabiner with bearing swivel support')
+- **making_tips_3d_printing**: Use printed swivels only for light jobs such as key rings, bag clips, clothes hangers, decorations and model joints: never to hold anything overhead or any person, and never as a substitute for a rated swivel. The usual geometry is a shaft with a disc or head trapped in a cavity in the other part, with the gap all round printed at least 0.3 mm, Prusa's starting clearance for moving parts ('Modeling with 3D printing in mind'); the designer of Printables 367523 says its swivel 'works best at .20mm layers'. A trapped disc can be held up during printing by a small pillar from the bed (Printables 1636795). Orientation is a trade-off: with the swivel's axis vertical the bearing faces print round, but the pull along the axis then acts across the layers, the weak direction (CNC Kitchen's hooks printed standing broke at 46-55% of the load of flat ones), so make the head and the body wall around it thick. Printables 1332089 prints its swivel snap hook with 7 or more walls and 60% or more infill, without supports, in PETG for strength. Under a steady pull plastic slowly stretches (creep; filamentspecs says a printed hook 'may rotate downward by a few millimeters'), and PLA softens from about 60 degC (CNC Kitchen), so keep loads small, use PETG, and keep printed swivels out of hot cars and strong sun. Plastic-on-plastic bearing faces get stiff as the pull rises, like a cheap barrel swivel; for smoother turning add a bought ball bearing (Printables 1208378).
+- **off_the_shelf_parts**: Search terms: fishing 'barrel swivel', 'rolling swivel', 'crane swivel', 'ball bearing swivel', 'snap swivel', 'interlock snap swivel' (Talk Sea Fishing rates crane swivels with interlocking links the strongest link swivels), 'three-way swivel' (fishing sizes run from small numbers such as 8 or 10 up to 1/0, 2/0 and 3/0 for the largest, British Sea Fishing); rigging 'eye and eye swivel', 'regular swivel' (e.g. Crosby G-402, brand), 'jaw and eye swivel', 'bearing swivel' (rated to rotate under load, e.g. 'swivel snap hook' or 'swivel eye snap' for leads and straps; 'ball bearing swivel hook' for wind spinners and signs; 'rescue swivel' or 'rope swivel' (certified, e.g. Petzl SWIVEL, brand); 'swivel key ring'. Choose by rated breaking strength or working load limit, never by size alone. *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Fishing rigs: any swivel in the main body of a rig should have a breaking strain at least equal to the leader line (British Sea Fishing, https://britishseafishing.co.uk/terminal-tackle-2/swivels/).
+  - Typical fishing swivel strengths: rolling swivels about 40 lb at size 6 and 100 lb at size 1/0; crane swivels about 100 lb at size 6 and 200 lb at size 1/0; barrel swivels are weakest (Talk Sea Fishing, https://www.talkseafishing.co.uk/sea-fishing-swivels/; British Sea Fishing gives over 100 lb for a good size 6 crane and 200 lb for size 1/0).
+  - If it must keep turning under load (trolling, spinning lures, a load that turns), use a ball-bearing swivel; under load a barrel swivel 'essentially locks up' (The Tackle Room, https://thetackleroom.com/blogs/news/fishing-swivels-explained).
+  - Lifting and mooring: plain forged swivels are 'positioning devices and are not intended to rotate under load', and their ultimate load is 5 times the working load limit (Crosby G-402, https://defender.ca/en_ca/crosby-g-402-regular-forged-swivel); use a bearing swivel rated for rotation under load where the load must turn.
+  - Anchors: one school of thought puts the swivel somewhere in the chain rather than straight onto the anchor, because a boat swinging on a well-dug-in anchor puts sideways loads on it that can pry its jaws open; and don't winch the anchor hard up against the bow roller, which loads the swivel as the boat pounds through waves (Wikipedia 'Swivel', https://en.wikipedia.org/wiki/Swivel).
+  - Printed swivels: start with at least 0.3 mm clearance between moving parts (Prusa, https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the small swivel between a fishing line and a lure or rig (Wikipedia 'Fishing swivel')
+  - the swivel snap on a dog lead or bag strap
+  - a swivel between an anchor and its chain (Wikipedia 'Swivel')
+  - a hanging sign or wind spinner on a swivel hook, and swivel key rings (Koelner T-OOK lists 'Hanging ads, signboards')
+- **when_to_use**: Whenever something on the end of a line can turn and would otherwise twist the line up: spinning lures and baits and trolling, dog leads and tie-outs, anchor and mooring chain as a boat swings, hanging signs, mobiles and wind spinners, key rings and bag straps, and in rope work where a turning load would kink the rope (a certified rope swivel 'prevents the rope from twisting when the load is turning', Petzl SWIVEL via Rescue Response). Choose a ball-bearing or bearing swivel when it must keep turning under load, and a cheap barrel or rolling swivel for light, slow jobs.
+- **when_not_to_use**: If power, a signal or fluid must cross the turning joint, use a slip ring or rotary union. To let a cable follow a part through a few turns, use an anti-twister mechanism or a service loop. To support a turning platform, use a turntable bearing. Where the line must not turn, leave the swivel out and use a shackle or fixed link. Some lures work better tied direct, because a snap swivel's weight and bulk kills their action (The Tackle Room) and hooks can tangle on swivels (Wikipedia 'Fishing swivel'). For lifting, anything overhead and anything that holds a person, use only a swivel rated and certified for that use, never a printed or unrated one. Where sideways or bending loads are expected, use a shackle or a hinged link instead, because side loads pry swivels open (Wikipedia 'Swivel').
+- **environment_limits**: Salt water and wet places: stainless steel swivels can corrode where they stay wet and starved of oxygen, as inside a swivel's shaft, especially in warm or tropical water, and corrosion may be internal and out of sight (Wikipedia 'Swivel'); low-quality barrel swivels corrode faster in salt water (The Tackle Room). Printed swivels: PLA softens from about 60 degC (CNC Kitchen), and plastic stretches slowly under a steady pull (creep, filamentspecs). *(unverified parts omitted)*
+- **safety_notes**: A swivel can be the weakest link in a line: Wikipedia says 'the biggest concern about anchor swivels is that they might introduce a weak link' (threaded shafts weaker than solid bar, welded nuts that let go, hidden corrosion, jaws pried open by side loads), and swivels 'can serve as weak points' on fishing line (Wikipedia 'Fishing swivel'). Never hold anything overhead or any person with a printed swivel, or with an unrated hardware-store swivel; life-safety swivels are certified products with stated strengths (e.g. Petzl SWIVEL: 23 kN or 36 kN breaking strength; CE, UKCA, NFPA 2500). For lifting, use a swivel rated for the load, and rated to rotate under load if it will turn: ordinary G-402 swivels 'are not intended to rotate under load' (Crosby, via Defender). *(unverified parts omitted)*
+- **common_failures**: (1) A barrel swivel stops turning under load, so the line twists anyway; use a crane or ball-bearing swivel (Talk Sea Fishing; The Tackle Room). (2) A barrel swivel pulls apart under heavy pressure because its single wire tag 'can simply pull out' of the barrel (Talk Sea Fishing). (3) Jaw-type and 'American snap' links on link swivels open out or break under heavy pressure; interlocking links are strongest (Talk Sea Fishing). (4) Hidden crevice corrosion inside stainless anchor swivel shafts (Wikipedia 'Swivel'). (5) Anchor swivel jaws pried open by sideways loads as the boat swings, disconnecting the chain (Wikipedia). (6) Threaded shafts with welded-on nuts breaking at the thread or weld (Wikipedia). (7) A printed swivel fused solid (too little clearance), binding, or pulling apart across its layers; print with at least 0.3 mm clearance and thick walls (Prusa; CNC Kitchen). (8) A swivel spoiling a lure's action or tangling the hooks (Wikipedia 'Fishing swivel'; The Tackle Room).
+- **related**: 
+  - Slip ring and rotary union: passes power, signal or fluid across a turning joint; telephone-cord untanglers are related
+  - Anti-twister mechanism (twist-free cable feed): lets a cable follow a part through full turns by a geared mechanism instead of a free swivel
+  - Turntable bearing (lazy Susan bearing): a flat bearing that carries a turning platform rather than a pull
+  - Spring-gate hook (carabiner, snap hook, lobster clasp): often has a swivel eye; a snap swivel combines the two
+  - Quick-release hooks (pelican hook, three-ring release): let go of the load, rather than letting it turn
+  - Shackle and quick link: join chain and rope without letting the load spin freely
+  - Plain pivot and rolling bearing: the bearing inside; a ball-bearing swivel is a tiny thrust bearing
+  - Ball-and-socket joint: a ball turning in a holder, one of the swivel designs in Wikipedia 'Swivel', but it tilts as well as turns
+  - Universal joint: passes turning on through an angle, the opposite of a swivel, which stops turning being passed on
+  - Castor (swivel castor): uses a vertical swivel so the wheel can follow the direction of travel
+  - Wire-rope terminations (thimble, wire-rope clip, crimped sleeve): the eyes a swivel is often joined to
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Swivel (PSF).png (Wikimedia Commons, Pearson Scott Foresman drawing)](https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png): Simple line drawing of a swivel in a chain link (captioned 'A swivel in a chain link' in Wikipedia 'Swivel') *(licence: Public domain)*
+  - [Anchor swivel.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Anchor_swivel.jpg): Photo of a stainless steel anchor swivel, showing the jaw, the body and the shaft embedded in it *(licence: CC BY-SA 4.0 (reuse with credit))*
+  - [Swivel (2).JPG (Wikimedia Commons, Europort 2009)](https://commons.wikimedia.org/wiki/File:Swivel_(2).JPG): Photo of a large forged swivel in a link (captioned 'A swivel in a link' in Wikipedia 'Swivel') *(licence: CC BY 2.5 (reuse with credit))*
+  - [Category:Swivels (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Swivels): Photos of fishing, chain and hook swivels, including eye-to-eye swivels, a swivel snap hook, a chain sling with a swivel and rotary union parts *(licence: per file (check each file's page))*
+  - [Swivels (British Sea Fishing)](https://britishseafishing.co.uk/terminal-tackle-2/swivels/): Photos of barrel, rolling and crane swivels, three-way, cascade and link swivels, and a swivel size chart *(licence: link only)*
+- **make_it_yourself**: 
+  - [Swivel Carabiner (Printables 983933; URL from Printables API, page not opened)](https://www.printables.com/model/983933-swivel-carabiner): Popular print-in-place carabiner-style clip with a built-in swivel; light duty only *(licence: Creative Commons Attribution-ShareAlike (CC BY-SA))*
+  - [360 Swivel Hanger, Print in Place (Printables 367523; URL from Printables API, page not opened)](https://www.printables.com/model/367523-360-swivel-hanger-print-in-place): Print-in-place clothes hanger whose hook swivels; designer says the swivel works best at 0.20 mm layers *(licence: Creative Commons Attribution-ShareAlike (CC BY-SA))*
+  - [Swivel Snap Hook Clip, Print in Place (Printables 1332089; URL from Printables API, page not opened)](https://www.printables.com/model/1332089-swivel-snap-hook-clip-print-in-place): Print-in-place swivel snap hook to replace broken strap clips; PETG, 7+ walls, 60%+ infill, no supports *(licence: Creative Commons Attribution (CC BY))*
+  - [Carabiner with bearing swivel support (Printables 1208378; URL from Printables API, page not opened)](https://www.printables.com/model/1208378-carabiner-with-bearing-swivel-support): Printed carabiner holder with a bought ball bearing so it swivels without tangling the support ropes; STEP file included *(licence: Creative Commons Attribution-ShareAlike (CC BY-SA))*
+  - [Experimental Print-in-Place Swivel (Printables 1636795; URL from Printables API, page not opened)](https://www.printables.com/model/1636795-experimental-print-in-place-swivel): Print-in-place disc-and-shaft swivel joint for flexible model figures, with a small support pillar under the disc *(licence: GNU General Public License v2.0)*
+- **diagram_idea**: Cut-away of a barrel swivel next to a ball-bearing swivel: each eye's shaft ends in a head trapped inside the body, with arrows showing the pull pressing the head onto the bearing face and the two eyes turning independently; a small inset shows a twisted line above a spinning lure untwisting through the swivel.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Swivel
+  - https://en.wikipedia.org/wiki/Fishing_swivel
+  - https://en.wikipedia.org/wiki/Fishing_tackle
+  - https://britishseafishing.co.uk/terminal-tackle-2/swivels/
+  - https://www.talkseafishing.co.uk/sea-fishing-swivels/
+  - https://thetackleroom.com/blogs/news/fishing-swivels-explained
+  - https://defender.ca/en_ca/crosby-g-402-regular-forged-swivel
+  - https://www.fastenersplus.com/products/crosby-5-8-regular-swivel-g-402
+  - https://rescueresponse.com/shop/petzl-swivel/
+  - https://rocorescue.com/product/petzl-swivel
+  - https://rawlplug.com/media/catalog/reference_object/a/9/e/b/a9eb1594a018f0f9cedfa2570db7d2dd473c41a1/42306.KOELNER.EN.T_OOK_SWIVELS.pdf
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png
+  - https://commons.wikimedia.org/wiki/File:Anchor_swivel.jpg
+  - https://commons.wikimedia.org/wiki/File:Swivel_(2).JPG
+  - https://commons.wikimedia.org/wiki/File:Angeln_zubehoer_wirbel_01.jpg
+  - https://commons.wikimedia.org/wiki/Category:Swivels
+  - https://api.printables.com/graphql/ (Printables API: models 983933, 367523, 1332089, 1208378, 1636795)
+
+### Other info
+
+- **Fields with unverified parts:** aliases, environment_limits, off_the_shelf_parts, play_and_precision, safety_notes
 

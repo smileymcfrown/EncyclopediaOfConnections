@@ -1739,3 +1739,301 @@
 
 - **Fields with unverified parts:** adjustable, aliases, making_tips_3d_printing, play_and_precision, processes
 
+## 375 Tamper-resistant fasteners (security screw, one-way screw, breakaway-head bolt)
+
+*locks, latches & catches.* Screws and bolts with unusual drives that ordinary tools won't turn, or that can only be turned one way, to stop casual tampering with covers, battery boxes, signs and public fittings
+
+*Also covers:* Also covers pin-in-drive heads, shear nuts and when a printed cover needs one (child-proof battery boxes).
+
+### What it is
+
+- **plain_name**: Screws, bolts and nuts with odd-shaped heads that a normal screwdriver or spanner won't turn, or that can only be screwed in and never back out, or whose head snaps off once tight, so passers-by and children can't easily open a cover, battery door, sign or public fitting
+- **term**: Tamper-resistant fastener (security screw; security fastener; anti-tamper fastener)
+- **aliases**: 
+  - security screw, security fastener, anti-tamper fastener, tamper-proof screw (Wikipedia 'List of screw drives'; Insight Security); 'tamper-proof' is a marketing term: most are only tamper-resistant (Fastener Engineering)
+  - pin-in drives: security Torx, tamper-resistant Torx, Torx TR, pin Torx, pin-in Torx, tamper-proof star drive (Torx is a brand; the generic name is hexalobular) (Wikipedia 'Torx'; Insight Security)
+  - pin hex, security hex, tamper-resistant hex or Allen screw (Wikipedia 'List of screw drives'; Locksmith Ledger)
+  - 5-lobe pin Torx, Torx Plus Security, Torx Plus Tamper-Resistant, TS or IPR bits (Wikipedia 'Torx'; Insight Security)
+  - one-way screw, one-way slotted screw, one-way clutch screw, irreversible screw; Sentinel screw (brand), a one-way screw driven with a Pozidriv-type screwdriver (Wikipedia; Fastener Engineering; Insight Security)
+  - clutch head screw, Type A ('bow tie') and Type G ('butterfly') (Wikipedia 'List of screw drives')
+  - spanner screw, Snake-Eyes (trademark), pig nose, drilled head, twin hole, two-hole screw; the tool is a spanner driver (US) or pin spanner (UK) (Wikipedia; Insight Security)
+  - tri-wing (triangular slotted); Opsit = left-hand-threaded tri-wing (Wikipedia)
+  - tri-point or Y-type (often wrongly called tri-wing); tri-angle (TA); TP3, tri-lobe or tri-lobular; tri-groove or T-groove (Wikipedia)
+  - pentalobe (Apple, brand use; sizes TS1/P2, TS4/P5, TS5/P6) (Wikipedia)
+  - pentagon head, penta screw, penta bolt, penta nut (utility fittings, hydrant wrench) (Wikipedia)
+  - line head and line recess screws, 'Gamebit' screws (ALR/ALH sizes) (Wikipedia)
+  - breakaway-head bolt, break-off bolt, shear bolt, shear fastener (Wikipedia); AudiTorx (brand), a break-away Torx drive (Wikipedia 'Torx')
+  - shear nut, break-away (breakaway) shear nut, security nut, tapered or cone nut (PTS; Albany County Fasteners; Fastener Engineering)
+  - tri-groove nut, T-groove nut, trident drive, cone trident drive nut (Fastener Engineering)
+  - keyed proprietary drives: Key-Rex, Ultra-Lok, Slot-Lok, Avsafe, Kinmar (brands), with drivers supplied only to registered owners (Wikipedia; Insight Security)
+  - locking wheel nut or bolt, wheel lock (a keyed security nut) (Wikipedia 'Lug nut')
+  - not the same as a coin-slot screw, which is meant to be opened with a coin and is child-resistant, not tamper-resistant (Wikipedia 'List of screw drives')
+- **family**: locks, latches & catches
+- **other_families**: everyday fasteners & fixings
+- **one_liner**: A screw, bolt or nut with an unusual drive (a pin in the socket, odd lobes, two holes, an odd number of sides), a slot that only grips one way, or a head that snaps off when tight, so that ordinary tools can't undo it and casual tampering with covers, battery boxes, signs and public fittings is stopped or slowed.
+- **complexity**: Single piece plus a matching tool: a screw, bolt or nut with a special drive, and the matching driver bit or socket (for pin-in drives the bit has a hole down its centre) (Wikipedia 'List of screw drives'; Locksmith Ledger). A shear nut is one piece made of a smooth cone, a thin weak neck and an ordinary hex collar that breaks off (PTS; Albany County Fasteners). One-way screws and shear nuts need only ordinary tools to fit (Insight Security; PTS).
+- **how_it_works**: There are three tricks. 1) An unusual drive shape that common tools don't fit: a pin in the middle of a hex or star socket stops a normal bit going in, two small holes need a two-pin bit, and an odd number of sides (pentagon) can't be gripped by spanners, which need parallel faces, or by six- and twelve-point sockets (Wikipedia 'List of screw drives'). 2) A one-way slot: its sides are ramps, so a flat screwdriver grips when turning in but slides up the ramps and slips out (cams out) when turning to undo (Locksmith Ledger; Wikipedia). 3) A breakaway head: an ordinary hex is joined to a smooth domed or cone-shaped head by a deliberately weak neck, and when the tightening torque reaches the design point the hex shears off, leaving nothing to grip (Wikipedia; PTS). Types 1 rely on few people owning the right bit, so they only deter casual tampering; types 2 and 3 are meant to be permanent (Wikipedia; Fastener Engineering).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds a cover, panel, battery door, sign or fitting like an ordinary screw (Wikipedia 'Tamperproofing')
+  - lock, and release by hand: works like a simple lock whose 'key' is the matching driver bit; only people with the bit can open it, and the permanent types (one-way, breakaway, shear nut) can't be undone without cutting or drilling (Fastener Engineering; Wikipedia)
+- **motion**: none: once tightened nothing moves.
+- **degrees_of_freedom**: 0: it clamps the parts together like any screw joint.
+- **special_behaviour**: 
+  - one-way (moves freely one way, locks the other): a one-way screw can be driven in with a flat screwdriver but the driver slips out when turned to undo it (Wikipedia; Locksmith Ledger). The screw itself turns both ways; it is the drive that only grips one way
+  - torque-limiting (slips or clicks at a set force/torque): a breakaway head or shear nut snaps off at roughly a set tightening torque, and non-security breakaway nuts (e.g. some toilet-seat bolts) use this as a crude torque limiter; it is less precise than a torque wrench (Wikipedia 'List of screw drives')
+  - none for pin-in, multi-lobe, two-hole and odd-sided drives: they hold like ordinary screws and work only because the matching tool is uncommon (Wikipedia)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the tightened screw squeezes the parts together, exactly like an ordinary screw joint
+  - shape (the parts interlock; form-fit): the thread flanks lock screw and nut or insert together; the special head only controls who can turn it
+- **input_output**: not applicable
+- **power**: passive (no power needed).
+- **removability**: Depends on type. removable (with the matching bit): pin-in Torx, pin hex, 5-lobe, two-hole, tri-wing, pentalobe and pentagon drives come out normally with the right tool (Insight Security). permanent: one-way screws, breakaway-head bolts and shear nuts are 'relevant only when the need for removal is unlikely' and come out only by drilling, cutting a new slot, gripping with locking pliers or using a screw extractor (Wikipedia; Albany County Fasteners; PTS).
+- **reuse_cycles**: many times for pin-in and other special drives used with the correct bit (Insight Security); once for shear nuts and breakaway heads (the hex end is a throw-away part; Albany County Fasteners); once for one-way screws if you want tamper evidence, because removal gouges the ramps, so Locksmith Ledger advises fitting a new one-way screw every time one is removed.
+- **tools_needed**: The matching security bit or driver: Torx TR or hex bit with a centre hole, 5-lobe bit, spanner (two-pin) bit, tri-wing, tri-point, pentalobe, line-head or pentagon bit (Wikipedia; Insight Security); keyed proprietary drives need the maker's own driver (Wikipedia). One-way screws: an ordinary flat screwdriver to fit, a one-way removal tool to undo (Insight Security). Shear nuts and breakaway bolts: an ordinary socket or spanner to fit, plus a second spanner to hold the bolt (Albany County Fasteners; PTS); removal needs a drill, grinder or cutter (PTS). Security bit sets containing most common types are widely sold (Wikipedia; Commons 'Set of security screw driver bits').
+- **seal**: none: the fastener itself doesn't seal; seal the cover with a gasket if needed.
+- **load**: Strong in tension and in shear once tightened. *(unverified parts omitted)*
+- **adjustable**: no: one-way, breakaway and shear-nut fixings can't be re-tightened or adjusted after fitting (Wikipedia; PTS); pin-in and other special drives can be re-tightened with the matching bit.
+- **play_and_precision**: not applicable: it clamps like an ordinary screw and doesn't locate parts.
+- **access_needed**: one side only (blind) when a security screw goes into a tapped hole, threaded insert or captive nut; both sides for a shear nut on a bolt or stud, because you hold the bolt with one spanner while turning the nut with another (Albany County Fasteners).
+- **materials**: Mostly stainless steel, A2 (304) or A4 (316); PTS recommends A4 'outdoors or in exposed locations' for shear nuts, since corrosion of the thin neck changes its shear behaviour (PTS). Plated steel and plastic versions exist (Wikipedia mentions a plastic breakaway nut on toilet seats). They suit any material an ordinary screw suits; in 3D prints use them with threaded inserts so the plastic threads don't wear or strip (see making_tips_3d_printing). *(unverified parts omitted)*
+- **maker_difficulty**: easy: buy the screws and a matching bit and fit them like ordinary screws. Making a genuinely secure drive yourself is hard, because a 3D-printed bit can copy most drives well enough to turn low-torque screws (Printables 33382).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: security screws, nuts and bits are bought
+  - 3D print (FDM) and 3D print (resin): the cover, screw bosses, recesses and insert holes designed around them
+  - CNC, sheet metal, woodwork: enclosures, sign plates and public fittings fixed with them
+- **print_in_place**: no: the fasteners are metal parts that are bought; only the parts they hold are printed.
+- **making_tips_3d_printing**: 1) Use metal threads: a cover that authorised people open repeatedly will wear or strip screw threads cut straight into plastic; the US product-safety regulator (CPSC) criticised the old toy standard because 'users could easily lose or strip the screws securing the battery compartment' (CPSC letter to ASTM, 2023). Fit heat-set or press-in brass inserts and use machine-thread security screws (see Heat-set threaded insert). 2) Make the screw captive in the lid, so it stays attached when the cover is off: current toy rules require battery-door fasteners to 'remain attached to the toy or battery compartment cover before and after abuse tests' (QIMA; Bureau Veritas), and EU machinery rules say the same for fixed guards (CECE guidance on Directive 2006/42/EC). A captive washer on the screw shank is one common way (Wikipedia 'Captive fastener'). 4) Don't rely on a printed custom drive for security: a maker printed a PLA Gamebit driver that was strong enough to undo and refit two security screws (Printables 33382), so anyone with a printer can copy an odd shape; on the other hand a printed 'tamper-proof' knob that needs a screwdriver is a good way to stop accidental adjustment (Printables 1044952). 5) A freely spinning cover is another printable way to stop something being gripped and turned, like the spinning outer ring on some locking wheel nuts (Wikipedia 'Lug nut'): one printed outdoor-tap lockout spins freely over the handle and needs a printed key (Printables 1754160). 6) For child-resistant battery boxes, a security drive is usually unnecessary: an ordinary screw opened with a screwdriver or coin meets the 'common household tool' requirement (Bureau Veritas), and a special drive is allowed in toys only if the tool comes with the toy (QIMA). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Catalogue names: 'tamper-resistant Torx' or 'pin Torx' button-head, countersunk and pan-head screws; 'pin hex' or 'security hex' socket screws; '5-lobe pin Torx'; 'two-hole', 'snake eye' or 'pig nose' screws and spanner bits; 'one-way' or 'clutch head' screws and a 'one-way screw removal tool'; 'Sentinel' one-way screws (brand) (Insight Security); 'shear nuts', 'break-away shear nuts' and 'shear bolts' (PTS shear nut page: https://www.pts-uk.com/Products/security-screws/shear-nuts; Albany County Fasteners); 'tri-groove' or 'T-groove' nuts (Fastener Engineering); tri-wing, tri-point, pentalobe and 'Gamebit' screws and bits (Wikipedia); 'security bit set' (Commons 'Set of security screw driver bits'); 'locking wheel nuts' with a key (Wikipedia 'Lug nut'); keyed proprietary systems such as Key-Rex or Ultra-Lok (brands) (Wikipedia); 'captive screw' or 'captive panel screw' with a captive washer (Wikipedia 'Captive fastener'). Brand names are given only as catalogue search terms.
+- **rules_of_thumb**: 
+  - Match the type to the threat. Pin-in, multi-lobe, two-hole and other special drives only stop people who don't own the bit; bits for most security types are widely sold, so they are 'secure only against casual adversaries' (Wikipedia 'List of screw drives'); they 'impede opportunistic breaches more so than deliberate intentions' (Fastener Engineering). For anything worth a determined attack, use a real lock (Locksmith Ledger).
+  - Use the permanent types (one-way screws, breakaway heads, shear nuts) only where the fixing should never come off again (Wikipedia; Albany County Fasteners: 'only use them where you never intend on removing them again').
+  - Shear nuts: hand-tighten, then hold the bolt with one spanner and turn the nut with another until the hex snaps off; put a washer under the nut on soft material (Albany County Fasteners). Choose a nut whose shear torque suits the bolt size and the clamping the joint needs, not just one with the right thread (PTS).
+  - Prefer drives that common tools can't improvise: a tri-angle (TA) recess 'can readily be driven with hex keys', whereas TP3 can't be driven by a flat blade or readily by hex keys (Wikipedia). Pentagon heads defeat spanners and sockets but can still be turned with pliers 'if enough force is applied' (Wikipedia).
+  - Sources disagree on pin-in Torx: Wikipedia's 'Torx' article says the centre pin 'allows a smaller flat head screw driver to be used successfully between two adjacent lobes', while 'List of screw drives' says the pin 'can also prevent attempts at turning the screw with a small flat-bladed screwdriver'. Treat pin-in drives as low security either way.
+  - Treat tamper-resistant screws as tamper-evident too: one-way, spanner and pin-hex screws removed with ordinary tools leave gouges or plier marks, so inspect them regularly and fit a new one-way screw each time one is removed (Locksmith Ledger).
+  - Battery boxes for button or coin cells (USA): compartments 'must be secured such that they require the use of a tool or at least two independent and simultaneous hand movements to open' (CPSC FAQ on 16 CFR 1263 / ANSI/UL 4200A-2023). Toys under 14 meet the toy standard instead (CPSC FAQ).
+  - Toys (ASTM F963-23, mandatory in the USA for toys made from 20 April 2024): batteries that fit in the small-parts cylinder must not be reachable without a 'common household tool', defined as a 'screwdriver (straight-blade or Phillips-type), pliers, coin, or other object commonly found in most households'; battery-door fasteners must stay attached; and a specialty fastener is allowed only if the right tool and instructions come with the toy (Bureau Veritas bulletin 24B-015; QIMA).
+  - Machine guards (EU): fixed guards 'must be fixed by systems that can be opened or removed only with tools', their fixings 'must remain attached', and quick-release fixings such as wing nuts 'must not be used'; ordinary bolts or screws that need keys or wrenches are acceptable (Machinery Directive 2006/42/EC Annex I 1.4.2.1 and the Commission guide §218, quoted by CECE). So a tool-only, captive fixing is the requirement, not a security drive.
+  - Keep the matching bits wherever authorised people will need them; losing the only bit locks you out as surely as a lost key (Insight Security).
+
+### When to use it
+
+- **everyday_examples**: 
+  - One-way slotted screws on public-toilet fittings and vehicle number plates (Wikipedia; Commons photo of a one-way screw 'as found on a bathroom stall')
+  - Breakaway-head bolts on street signs, prison door locks and car ignition switches (Wikipedia)
+  - Pentalobe screws on iPhones and MacBooks, and 'Gamebit' or tri-wing screws on Nintendo consoles and game cartridges (Wikipedia)
+  - Pentagon-headed bolts on fire hydrants, water-meter covers and gas valves, and one locking nut with a special key on each car wheel (Wikipedia 'List of screw drives'; Wikipedia 'Lug nut')
+- **when_to_use**: Use one where an ordinary screw would do the job but you want to stop casual or accidental opening: covers over mains or hot parts in places the public can reach (Wikipedia 'Tamperproofing'), signs, bus shelters, playground equipment, shed hasps, outdoor lights and cameras (Insight Security), and equipment panels that only maintenance staff should open (Insight Security). Pick a removable special drive (pin Torx, pin hex, two-hole) where authorised people must get in again, and a permanent one (one-way screw, shear nut, breakaway bolt) for fixings that should never come off, such as number plates and signs (PTS; Wikipedia). In maker projects they suit a printed enclosure for a public installation or a shared workshop machine, and a battery box in something children handle, though there an ordinary captive screw is often enough (see rules_of_thumb).
+- **when_not_to_use**: Not as real security: bits are easy to buy, a printed bit can turn low-torque screws (Printables 33382), and Locksmith Ledger removed one-way, spanner and pin-hex screws with only a flat screwdriver, a small hammer and pliers. For valuables use a key lock (Pin-tumbler lock) or an alarmed or monitored enclosure; Locksmith Ledger's example is a door keypad that switches the lock power itself, so anyone who unscrews it and pulls its wires opens the door: 'a couple of fancy screws can only do so much'. Not where the item must be opened in an emergency or serviced often by people who won't have the bit; use a quarter-turn cam latch or captive thumbscrew instead. Don't use permanent types (one-way, shear nut, breakaway) on anything that may need repair, battery changes or recycling; the Oral-B TP3 example shows a maker leaving a way to open a product at end of life (Wikipedia). For a child-resistant battery box, an ordinary or coin-slot screw that stays captive in the lid is usually enough, and is easier for the owner (Bureau Veritas; QIMA). In thin or soft printed plastic without inserts, any screw will strip, security or not (CPSC letter).
+- **environment_limits**: Outdoors and near the sea use A4 (316) stainless: PTS says A4 is the safer choice for shear nuts 'outdoors or in exposed locations', because corrosion of the thin neck could change when it shears (PTS). Vibration loosens security screws like any screw; use a threadlocker or locking hardware where needed (see related). Printed covers: plastic battery compartments get warm in use, and CPSC staff asked for heat conditioning in tests (CPSC letter); PLA parts slowly 'flow' (creep) under constant load, which can loosen a clamped cover over time (maker note, Printables 415716). *(unverified parts omitted)*
+- **safety_notes**: Button and coin cells are a serious swallowing hazard for children; in the USA products with replaceable button or coin cells must have compartments that need a tool or two simultaneous hand movements to open (CPSC FAQ, 16 CFR 1263), and toys must meet ASTM F963-23 (QIMA; Bureau Veritas). A lost or stripped battery-door screw leaves batteries exposed, which is why CPSC pushed for captive screws (CPSC letter to ASTM, 2023). Tamper-resistant screws are used on electrical fittings in public buildings 'to reduce tampering or vandalism that may cause a danger to others' (Wikipedia 'Tamperproofing'), but they are not a substitute for a properly designed and approved enclosure: this entry gives no mains wiring advice, and mains work must follow local law. Machine guards must be fixed so they open only with tools and keep their fixings attached (CECE guidance on Directive 2006/42/EC). Removing permanent fasteners means drilling, grinding or cutting a slot with a rotary tool (Wikipedia; Don't use permanent fixings on anything that may need emergency access. *(unverified parts omitted)*
+- **common_failures**: 1) Defeated with ordinary tools: one-way screws undone by pushing hard while turning anticlockwise (or tapping the screwdriver handle), spanner screws tapped round with a screwdriver and hammer, pin-hex button heads turned with pliers (Locksmith Ledger); pentagon heads gripped with pliers (Wikipedia). Avoid by recessing heads, using cone-shaped nuts that pliers can't hold (Fastener Engineering; Albany County Fasteners) and inspecting for marks. 2) Pin snapped off, after which a normal bit fits (Insight Security). 3) Wrong bit size: tri-angle bit sizes 'marked on the tool' are often wrong and differ between makers, so the bit slips and rounds the recess (Wikipedia); try the next size and press firmly. 4) Breakaway or shear head breaking too early (joint under-clamped) or needing so much torque that it damages the part (Wikipedia; PTS); choose the right size and grade and use a washer on soft materials (Albany County Fasteners). 5) One-way screw put in the wrong place: it can't simply be backed out; it must be drilled and extracted, or slotted with a rotary tool, or gripped with locking pliers (Wikipedia). 6) Lost bit, so the owner is locked out (Insight Security). 7) Battery-door screws lost or threads stripped in plastic (CPSC letter): make them captive and use inserts. 8) The same one-way screws reused after unauthorised removal, so the tamper marks no longer mean anything (Locksmith Ledger).
+- **related**: 
+  - Ordinary screw joint (bolt and nut, machine screw): the same joint with a common drive; a security screw simply replaces it
+  - Pin-tumbler lock and other tumbler locks: a real key lock, for when deterrence isn't enough
+  - Cam latch (quarter-turn cam lock): a keyed or tool-operated latch for panels that are opened often; quicker to open than screws
+  - Hidden latches (magnetic-key latch, puzzle lock): hide the fastening instead of making it hard to turn
+  - Tamper-evident breakaway bridge (frangible link): shows that something was opened rather than resisting opening; tamper-resistant screws give some evidence too (gouges)
+  - Mechanical interlock: mentions one-way and security screws as a way to make interlocks hard to defeat
+  - Shear-pin coupling (breakaway link): also has a deliberately weak section, but it breaks in service to protect a machine, not once during fitting
+  - Blind rivet (pop rivet): another permanent, one-side fixing that can only be drilled out
+  - Heat-set threaded insert: gives a printed part metal threads, so security machine screws can be removed and refitted without stripping
+  - Threadlocking hardware (nylon-insert nut, lock washer, split pin) and Anaerobic adhesive (threadlocker): stop screws loosening by vibration, not by people
+  - Tool-free fasteners (thumbscrew, wing nut, captive panel screw): the opposite aim; captive panel screws show how to keep a screw attached to a lid
+  - Battery holder and battery contacts: where child-resistant covers are needed
+
+### Pictures, videos and models
+
+- **links**: 
+  - [List of screw drives: Tamper-resistant types (Wikipedia)](https://en.wikipedia.org/wiki/List_of_screw_drives#Tamper-resistant_types): A drawing of each security drive (security Torx, security hex, one-way, spanner, tri-wing, tri-point, TP3, pentalobe, pentagon and others) next to a short description of each *(licence: text CC BY-SA 4.0; drawings are Wikimedia Commons files with their own licences)*
+  - [Screws - tamper resistant slotted.jpg (Wikimedia Commons, Scott Ehardt)](https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg): Close-up of a one-way slotted screw with its ramped slot, as found on a bathroom stall *(licence: Public domain)*
+  - [Abreißschrauben (part, bg-).jpg (Wikimedia Commons, An-d)](https://commons.wikimedia.org/wiki/File:Abrei%C3%9Fschrauben_(part,_bg-).jpg): Breakaway-head screws with the driving head still attached, before installation *(licence: CC BY-SA 4.0)*
+  - [Set of security screw driver bits.jpg (Wikimedia Commons, Junkyardsparkle)](https://commons.wikimedia.org/wiki/File:Set_of_security_screw_driver_bits.jpg): A set of security bits, including pin-in Torx and pin-in hex bits with holes in their tips: shows how easy the tools are to obtain *(licence: CC0)*
+  - [Tampering with Tamper-Resistant Screws (Locksmith Ledger, 2010)](https://www.locksmithledger.com/keys-tools/article/10228407/tampering-with-tamperresistant-screws): Photos of one-way, spanner and pin-hex screws being removed with a flat screwdriver, hammer and pliers, and the marks each attack leaves *(licence: link only (licence not stated))*
+- **make_it_yourself**: 
+  - [Gamebit security bit driver for 4 mm screwdriver (eried, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/33382-gamebit-security-bit-driver-for-4-mm-screwdriver): A PLA-printed bit for Gamebit security screws; the maker says it lasted long enough to undo and refit two screws. A quick way to see why odd drives are only a deterrent *(licence: Creative Commons Attribution)*
+  - [Outdoor Spigot / Faucet Lockout (Anti-Tamper Spin Cap) (William Alderman, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1754160-outdoor-spigot-faucet-lockout-anti-tamper-spin-cap): A printed cover that spins freely over an outdoor tap handle so children can't turn it; a printed key turns the tap. Fixed with small cable ties *(licence: Creative Commons Attribution)*
+  - [Tamper-proof screw for Blowtie/Duotight Regulator (achtnullzwei, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1044952-tamper-proof-screw-for-blowtieduotight-regulator): A printed PETG M12.5x1 adjustment screw that can only be turned with a Phillips screwdriver, replacing a wing-shaped knob that was easily knocked: tamper resistance against accidents rather than people *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- **diagram_idea**: A row of five screw heads seen from above, each with its matching bit beside it (pin-in Torx with a hollow bit, pin hex, two-hole spanner, tri-wing, pentagon), then a side view of a one-way slot showing the driver gripping the steep side when tightening and sliding up the ramp when loosening, and finally a shear nut before and after tightening, with the hex collar snapping off to leave a smooth cone.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/List_of_screw_drives
+  - https://en.wikipedia.org/wiki/Security_screw
+  - https://en.wikipedia.org/wiki/Torx
+  - https://en.wikipedia.org/wiki/Tamperproofing
+  - https://en.wikipedia.org/wiki/Lug_nut
+  - https://en.wikipedia.org/wiki/Captive_fastener
+  - https://www.insight-security.com/what-are-security-screws-benefits-types-and-usage
+  - https://www.locksmithledger.com/keys-tools/article/10228407/tampering-with-tamperresistant-screws
+  - https://fastenerengineering.com/what-are-security-screws/
+  - https://www.pts-uk.com/Products/security-screws/shear-nuts
+  - https://www.albanycountyfasteners.com/blog/tag/break-away-nuts/
+  - https://www.cpsc.gov/FAQ/Button-Cell-and-Coin-Battery-FAQs
+  - https://www.cpsc.gov/s3fs-public/2023-01-26-Boyle-Letter-to-ASTM-re-F963.pdf
+  - https://www.qima.com/astm-f963-23-toy-safety
+  - https://www.cps.bureauveritas.com/sites/g/files/zypfnx236/files/media/document/Bulletin-24B-015.pdf
+  - https://cece.eu/stream/201111ceceguidance-fixedguards.pdf
+  - https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg
+  - https://commons.wikimedia.org/wiki/File:Abrei%C3%9Fschrauben_(part,_bg-).jpg
+  - https://commons.wikimedia.org/wiki/File:Set_of_security_screw_driver_bits.jpg
+  - https://commons.wikimedia.org/wiki/File:TriWing-and-Y-Type-screwdriver-bits-and-screw-heads.jpg
+  - https://commons.wikimedia.org/wiki/File:Torx_driver_secure.png
+  - https://commons.wikimedia.org/wiki/Category:Security_screws
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, materials, safety_notes
+
+## 400 Multi-point bolt (espagnolette, crémone bolt, lock rods)
+
+*locks, latches & catches.* One handle drives two or more bolts at once, through a turning rod with hooks or a rack and pinion, so a tall door, a big lid or a pair of cabinet doors is locked at top and bottom with one movement
+
+*Also covers:* Also covers container and trailer lock rods and printed rack-and-pinion bolts for big boxes. Safety: mind the pinch points
+
+### What it is
+
+- **plain_name**: One handle that locks a tall door, a pair of doors or a big lid in two or more places at once: turning or lifting it pushes rods, bolts or hooks out at the top and bottom (and sometimes along the sides) into catches on the frame
+- **term**: Multi-point bolt (multipoint lock): espagnolette (a turning rod with hooked ends), crémone bolt (two rods driven up and down by a rack and pinion) and lock rods (cam lock rods on trailer and container doors)
+- **aliases**: 
+  - espagnolette, espagnolette bolt, espagnolette lock: a handle turns a full-height round rod with hooks at each end (Wikipedia 'Espagnolette')
+  - crémone, cremone bolt, crémone bolt, 'surface bolts': a knob or lever drives two half-round rods up and down through a rack and pinion (Wikipedia 'Crémone')
+  - Baskülgetriebe (German name for the crémone-type gear; Wikipedia 'Espagnolette'); sliding rod lock (the third historic French type; Wikipedia 'Espagnolette')
+  - lockrod, lock rod, locking rod, cam lock rod (trailer and container doors; often confused with 'locking bars' or 'bar locks'; Wikipedia 'Lockrod')
+  - container door locking bars with cams and keepers (Eveon Containers; USA Containers)
+  - multipoint lock, multi-point locking system (MPL): the long lock in the edge of a uPVC or composite front door, with hooks, shoot bolts or rollers plus a central latch and deadbolt (Suffolk Latch Company; Lockshop Warehouse; home-security-guide)
+  - multipoint mortice lock with vertical bolts into the head and threshold (Italian-style lever lock, e.g. Mottura (brand); Wikimedia Commons photo description)
+  - safe boltwork: an outside handle drives several bolts from the door edges through a transmission inside the door (Chubb patent GB2094390A)
+  - geared latch box, rack-and-pinion lid lock (printed boxes; Printables 1633497, 56341)
+  - keeper, keep, strike, socket, stop or stud: the fixed part on the frame that each bolt, hook or cam engages (Wikipedia 'Espagnolette', 'Lockrod'; Suffolk Latch Company)
+- **family**: locks, latches & catches
+- **other_families**: motion conversion, over-centre, toggle & cam clamps
+- **one_liner**: A multi-point bolt ties two or more bolts to one handle, through a turning rod with hooked or cam ends or a small gear driving toothed bars, so a single movement locks a tall door, a pair of doors or a big lid at the top, the bottom and sometimes the sides.
+- **complexity**: A small assembly that acts as one unit. Espagnolette: handle (paddle) on a keeper bracket, a full-height round rod held in sleeves, forged hooked ends, and pins ('stops' or 'studs') at the head and sill (Wikipedia 'Espagnolette'). Crémone bolt: knob or lever, a gearbox with one pinion and two racks, two half-round rods, end guides, and surface or mortice strikes at the head and sill (Wikipedia 'Crémone'; Kilian Hardware). Lock rod: a steel tube with top and bottom cams welded on, a handle assembly, mounting brackets, and two keepers on the frame (Wikipedia 'Lockrod'). uPVC multipoint lock: handles and spindle, a central lock case (gearbox) with latch, deadbolt and key cylinder, a long faceplate (lock strip) carrying hooks, bolts or rollers, and matching keeps in the frame (Suffolk Latch Company).
+- **how_it_works**: Every locking point is tied to the same rod or gear, so one input moves them all together. In an espagnolette the handle turns a full-height round rod, and the hooks on its ends swing behind pins at the head and sill, so 'tall sashes [are] locked at both ends simultaneously' (Wikipedia 'Espagnolette'). In a crémone bolt the knob turns a small gear (pinion) between two toothed bars (racks), so one rod slides up into the head while the other slides down into the sill by the same distance (Wikipedia 'Crémone'; 'Rack and pinion'). Trailer and container lock rods are a heavy espagnolette: swinging the handle turns a vertical tube so the cams at its top and bottom turn into keepers on the frame; 'reach/gather' cams catch the keeper and pull the door in against its seals, and 'zero-torque' cams go past the centre point so that pressure from inside only locks them tighter (Wikipedia 'Lockrod'). On a uPVC front door, lifting the handle moves hooks, bolts or rollers along the door edge into keeps in the frame, and turning the key then locks the whole mechanism (Suffolk Latch Company; Lockshop Warehouse).
+
+### Finder attributes
+
+- **job**: 
+  - lock, and release by hand: one handle or key locks and unlocks every point at once
+  - join and hold: holds a tall door, a pair of doors or a big lid against its frame at both ends, so it can't bow, twist or be levered open between distant catches
+  - change the kind of motion: inside, a rack and pinion or a rotating rod turns the handle's twist into sliding bolts or swinging hooks and cams
+- **motion**: multiple: the handle or key rotates (two full key turns on one cabinet crémone; Kilian Hardware); crémone rods and shoot bolts slide in a straight line (11 mm, 7/16 in, each way on that cabinet crémone; Kilian Hardware); espagnolette rods and lock rods rotate about their own length so their hooks or cams swing. Once locked, the door itself does not move (none).
+- **degrees_of_freedom**: 0 between door and frame once locked. The mechanism has 1: a single handle input sets the position of every bolt, because they are all geared or fixed to the same rod, which is why they always move together.
+- **special_behaviour**: 
+  - hand-release only (locks under load, releases when a person operates it): pushing or pulling the door does not open it; only the handle or key draws the bolts back. An espagnolette handle may also latch into a hook on the frame (Wikipedia 'Espagnolette'), and a uPVC multipoint lock is locked by the key after the handle is lifted (Lockshop Warehouse)
+  - over-centre (snaps past a point and stays): 'zero-torque' lock-rod cams go past the centre point, so 'the more pressure that's applied from the inside of the trailer doors... the tighter the cams and keepers engage' (Wikipedia 'Lockrod')
+  - motion conversion (rotary to linear): the crémone's pinion turns the knob's rotation into two straight, opposite rod movements of equal length (Wikipedia 'Crémone'; 'Rack and pinion'); an espagnolette turns rod rotation into hooks swinging behind pins
+  - self-aligning or self-centring: 'reach/gather' lock-rod cams reach out, catch the keeper and draw the door closed against compression seals or a warped door (Wikipedia 'Lockrod'). Ordinary crémones and espagnolettes do not self-align and must be lined up at fitting
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): hooks catch behind pins, rods slide into sockets in the head and sill, and cams turn behind keepers, so the door can't swing open
+  - friction or clamping (force-fit): on lock rods the cam pulls the door tight against its gasket, so friction and seal pressure also help hold it (Wikipedia 'Lockrod'; Eveon Containers)
+- **input_output**: Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opposite straight movements; a single pinion drives two parallel racks that 'will always be displaced by the same distance, only in opposite directions', and one full turn of the pinion moves each rack by the pinion's pitch circumference (Wikipedia 'Rack and pinion'); one cabinet crémone throws each rod 11 mm (7/16 in) for two turns of its key (Kilian Hardware). Espagnolette and lock rod: handle swing -> rod rotation (in line; the rod is the shaft) -> hooks or cams swing into keepers. Shaft arrangement: pinion at right angles to the racks; the two rods in line. *(unverified parts omitted)*
+- **power**: passive (no power needed). Motorised multipoint locks also exist (Suffolk Latch Company); for powered versions see Servo or motorised latch.
+- **removability**: tool-free quick release: it is locked and unlocked by hand (or with a key) in one movement; the hardware itself is removable with a screwdriver or spanner, and trailer keepers may be welded on (Wikipedia 'Lockrod')
+- **reuse_cycles**: effectively unlimited: made to be worked every day for the life of the door; wear from play between parts, a dropped door or a moved keep usually ends its life rather than the number of cycles (Wikipedia 'Lockrod'; Suffolk Latch Company)
+- **tools_needed**: To fit: screwdriver and drill; a hacksaw to cut rods to length (one cabinet crémone's 1500 mm rod is cut into two lengths; Kilian Hardware); a chisel or router for mortice strikes; a special bit for tamper-resistant screws (#0 square drive on that crémone; Kilian Hardware). Trailer and container keepers are welded or bolted to the end frame (Wikipedia 'Lockrod'). To use: none, or the key.
+- **seal**: none by itself: it relies on a separate gasket or weatherstrip, but by pulling the door evenly against the frame at several points it helps that seal work; lock-rod cams 'overcome resistance from compression seals' (Wikipedia 'Lockrod') and container cams and keepers 'ensure a tight, secure seal' with the door gasket (Eveon Containers)
+- **load**: Medium to heavy. Strong against the door being pushed, pulled or levered open, because each bolt is loaded sideways (in shear) at points far apart, so a tall door can't bow away from its frame between them. Lock rods hold the cargo leaning on trailer doors and stop the doors moving up and down in transit (racking) (Wikipedia 'Lockrod'). Heavy-duty lock rods are 1 in (25 mm) diameter steel, light-duty 3/4 in (19 mm) (Wikipedia 'Lockrod'). Weak points: screws pulling out of the frame, keeps or keepers bending, the small gearbox teeth, and printed racks shearing.
+- **adjustable**: Yes, a little: keeps and strikes can be moved or adjusted to meet the bolts (their 'type, location and adjustment are system-specific'; Suffolk Latch Company), and crémone rods are cut to length when fitted (Kilian Hardware). The bolt travel itself is fixed by the gear. On a printed lid lock, one designer shims the lug gear to set how tight the lid closes (Printables 1465165).
+- **play_and_precision**: Noticeable play: each bolt needs clearance in its socket. On trailers, 'too much play between parts' lets the doors rack until the parts wear out and no longer secure the door (Wikipedia 'Lockrod'). It tolerates little misalignment: a dropped door or moved keep makes the handle stiff when the door is shut but not when it is open (Suffolk Latch Company), and decorative cabinet crémones are 'prone to fall out of alignment' (Room for Tuesday). Lead-in cam shapes (reach/gather) help (Wikipedia 'Lockrod'). Not used for precise locating.
+- **access_needed**: one side only (blind) for surface-mounted espagnolettes, crémones and lock rods, which go on one face of the door plus strikes in the head and sill; both sides for a uPVC multipoint lock, which is mortised into the door edge with handles and a cylinder on both faces (Suffolk Latch Company)
+- **materials**: Bought hardware: steel, galvanised, painted or stainless steel, aluminium, brass and zinc castings. Lock rods are usually galvanised steel, sometimes aluminium on light trailers, and cams and keepers are made of the same metal as the rod to avoid corrosion between different metals (Wikipedia 'Lockrod'). Cabinet crémones are plain steel (Kilian Hardware). Printed versions use PLA or PETG for the gears, racks and pins (Printables 56341, 1633497). Fits wood, metal, uPVC, aluminium and printed doors and lids (Suffolk Latch Company: multipoint systems are used on timber, composite, uPVC and aluminium doors).
+- **maker_difficulty**: moderate: a surface-mounted crémone or a printed rack-and-pinion lid lock is a manageable project, but rods, gear and strikes must line up at both ends of a long door or lid, and one misaligned bolt makes the whole thing bind. Hard for a full uPVC multipoint lock or trailer lock rods: buy the exact matching part, since 'the same number of hooks and rollers on another lock does not establish interchangeability' (Lockshop Warehouse; Suffolk Latch Company).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: espagnolette and crémone bolt sets for windows, shutters, French doors and cabinets; uPVC multipoint lock strips and gearboxes; trailer and container lock-rod assemblies, cams and keepers
+  - 3D print (FDM): printed rack-and-pinion lid locks for boxes, with one knob driving two to four pins (Printables 1633497, 56341, 955011)
+  - woodwork: fitting crémones and espagnolettes to inset cabinet, wardrobe and French doors, which can be added after the door is made (Kilian Hardware; Room for Tuesday) *(unverified parts omitted)*
+- **print_in_place**: yes, for some designs: Printables 1633497 is a print-in-place box with a hinged lid whose knurled knob extends four rack-and-pinion locking pins, and Printables 56341 is a support-free print-in-place box whose handle turns floating gears and racks to latch all four sides of the lid. Others print the lid's gear set in place and the box separately (Printables 955011).
+- **making_tips_3d_printing**: 1) Layout: put the knob on one central pinion and run two (or four) racks out to the edges. A single pinion drives two parallel racks by the same distance in opposite directions, and each full turn moves each rack by the pinion's pitch circumference (Wikipedia 'Rack and pinion'), so a pinion with a 20 mm pitch diameter throws each bolt about 63 mm per turn; use a quarter or half turn for a short, firm throw. BOSL2's rack() and spur_gear() modules make matching parts (BOSL2 gears.scad). 2) Clearance: print-in-place gears and racks need generous gaps; one designer used gaps of 'nearly 1mm' between mating pieces so the box still works when printed at 50% scale (Printables 56341). After printing, twist the gear once to break it free (Printables 955011). 3) No supports: floating gears can be printed over sacrificial bridge layers (the 'floating holes' trick); one box used 0.4 mm bridges with 0.2 mm lid layers and 0.3 mm box layers and calls it 'not an easy print' that needs a good first layer (Printables 56341). One print-in-place lid prints face down at 0.2 mm layers, 15% gyroid infill and no supports (Printables 955011). 4) Fit and tightness: a lug-gear box lid can be tightened by shimming the gear, and tree supports only in the lug slots give a good fit (Printables 1465165). 7) Material: PLA is fine indoors; use PETG or ASA for a box that lives in a hot car or the sun, since PLA gives at about 60 °C, PETG at 80 °C and ASA at 110 °C (CNC Kitchen). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search terms: 'espagnolette bolt' or 'espagnolette lock' (windows, shutters, French doors); 'crémone bolt' or 'cremone bolt' (French doors, inset cabinets; e.g. a concealed key-operated cabinet crémone supplied with a 1500 mm rod, two end guides, two surface strikes and two mortice strikes; Kilian Hardware); 'flush bolt' (the single-point alternative for the fixed leaf of double doors); 'uPVC multipoint lock', 'multipoint lock gearbox' and 'multipoint keep' (match the maker's exact reference; Lockshop Warehouse; Suffolk Latch Company); 'lockrod' or 'lock rod assembly', 'lock rod cam' and 'keeper' (trailer and container doors; Wikipedia 'Lockrod'); 'container lock box' and 'door bar lock' (container security add-ons; USA Containers); and for building your own, 'gear rack' and 'spur gear' (pinion) of the same module or pitch.
+- **rules_of_thumb**: 
+  - Espagnolette handle height: the handle is mounted on the frame 'about a metre above the floor' (Wikipedia 'Espagnolette').
+  - Lock-rod size: heavy-duty lock rods are 1 in (25 mm) diameter steel, usually galvanised; light-duty utility-trailer rods are 3/4 in (19 mm), steel or aluminium (Wikipedia 'Lockrod').
+  - A trailer end frame typically has six to ten hinges and two to four lock rods; match the metal of cams and keepers to the rod to avoid corrosion between dissimilar metals (Wikipedia 'Lockrod').
+  - Shipping containers: typically two vertical locking bars per door (Eveon Containers); small Tricon and Quadcon military containers have only one locking bar per door (Wikipedia 'Intermodal container').
+  - Crémone throw: one cabinet crémone extends each rod 11 mm (7/16 in) for two key turns, cuts one 1500 mm rod into two lengths for openings up to 61 in (1.55 m), and suits doors up to 1-1/4 in (32 mm) thick (Kilian Hardware).
+  - Rack and pinion: one pinion moves two racks equal and opposite distances; one turn moves each rack by the pinion's pitch circumference (Wikipedia 'Rack and pinion').
+  - uPVC multipoint locks have no single set of dimensions: 92 mm PZ (spindle to cylinder) centres are common but not universal, so compare the maker's drawing (Suffolk Latch Company); one example lock has a 35 mm backset, 92 mm centres, a 16 mm faceplate and a 2285 mm long body (Lockshop Warehouse).
+  - Printed print-in-place gear boxes: leave gaps of up to about 1 mm between mating gear and rack parts (Printables 56341).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A tall French window or pair of shutters with a long rod and a handle in the middle that locks at the top and bottom (espagnolette; Wikipedia 'Espagnolette', 'Window')
+  - The rear doors of a lorry trailer or shipping container, with vertical bars and handles that turn cams into keepers at the top and bottom (lock rods; Wikipedia 'Lockrod')
+  - A UK uPVC or composite front door: lift the handle so hooks shoot out along the edge, then turn the key (multipoint lock; Lockshop Warehouse)
+  - A wardrobe or cabinet whose key slides hidden rods up and down (cabinet crémone; Kilian Hardware), or a safe door with a big handle that throws bolts on several edges (Chubb patent GB2094390A)
+- **when_to_use**: Use it when one catch is not enough because the door or lid is tall, wide or flexible: a single latch in the middle lets the corners bow open, while bolts at the top and bottom hold the whole edge flat. It suits French doors and casement windows (in parts of Europe casements 'tend to use projection friction stays and espagnolette locking'; Wikipedia 'Window'), pairs of cabinet or wardrobe doors, big tool chests, printed storage boxes whose lid should lock on all four sides with one knob (Printables 56341, 1633497), and cargo doors that must hold the load and stay aligned in transit (Wikipedia 'Lockrod'). Choose it when you want one simple action and a tidy look instead of several separate bolts.
+- **when_not_to_use**: Not for small doors or lids where one latch already holds the corners: use a basic latch, a cam latch or a magnetic catch. Not when the door or frame moves with the seasons or sags, unless you can adjust the keeps, because every point must line up at once (Suffolk Latch Company). For a pair of doors where only the fixed leaf needs holding, two flush bolts are simpler. For a lid that must also be pulled down tight against a gasket, use draw latches (over-centre latches) around the edge. Don't build your own lock for a front door, a fire door or anything that must be a certified security or escape door; buy a tested lock and have fire doors fitted by a specialist (Suffolk Latch Company). *(unverified parts omitted)*
+- **environment_limits**: Metal hardware: rust on container locking bars and dry cams make handles hard to turn, so keep them clean and oil the joints and locks (Eveon Containers). Doors can freeze shut; 'icebreaker' lock rods give extra opening leverage for this (Wikipedia 'Lockrod'). Mixed metals corrode, so cams, keepers and rod should match (Wikipedia 'Lockrod'). Door movement: a dropped door, a displaced keep or door movement makes the locking points meet resistance at the frame (Suffolk Latch Company). Use only the lubricant the lock maker specifies and don't flood the gearbox (Suffolk Latch Company). *(unverified parts omitted)*
+- **safety_notes**: Pinch points: where a pinion meshes with a rack is an in-running nip point that can trap fingers (OSHA Machine Guarding eTool), and rods sliding into the head and sill, cams turning into keepers and swinging handles can catch fingers, so keep hands off the rods and gearbox while someone works the handle and cover printed gears. Escape: if the door is jammed shut or prevents a safe exit, get a locksmith or the installer; 'do not force the lever or key, dismantle the gearbox, or attempt to release locking points through the door gap', and fire doors need a competent specialist (Suffolk Latch Company). Cargo doors: goods leaning on container or trailer doors can fall out when the bars are released; open the right-hand door cautiously first, check whether the load has shifted, and use a restraint such as a rope, net or barrier (SafeWork NSW); a defective door can come off its hinges, and forcing a jammed door with a crowbar has caused serious injuries (TT Club).
+- **common_failures**: 1) Misalignment: a dropped door or moved keep makes the handle stiff when the door is closed but not when it is open; get the alignment checked rather than forcing the handle (Suffolk Latch Company). Decorative cabinet crémones are 'prone to fall out of alignment' and the rods may need resetting now and then (Room for Tuesday). 2) Broken gearbox from forcing: smart-lock fitters report that a deadbolt needing 'excessive force' is a common problem on multipoint doors (home-security-guide); a replacement gearbox must be approved for that exact locking system, not just look the same (Suffolk Latch Company), and a lock with the same number of hooks and rollers is not automatically interchangeable (Lockshop Warehouse). 3) Racking and wear: too much play between lock-rod parts lets the doors move in transit until the parts wear out and fail to secure the door (Wikipedia 'Lockrod'). 4) Rust and dry cams make container handles hard to turn; clean and lubricate them (Eveon Containers). 5) Wrong lubricant, or flooding the gearbox to cure a stiffness that is really misalignment (Suffolk Latch Company). 6) Printed versions: print-in-place gears fused together (twist to free them; Printables 955011), warped corners when scaled down (Printables 56341), or teeth stripped by forcing a knob against a bolt that has missed its hole.
+- **related**: 
+  - Basic latches (slide bolt, tower bolt, flush bolt): one bolt at one point; two flush bolts on the fixed leaf of double doors do a similar job without a linkage
+  - Rack and pinion: the gear inside a crémone bolt and most printed multi-point lid locks
+  - Draw latch (over-centre latch): pulls a lid down tight at one point; several around the edge are the alternative for a gasketed lid
+  - Rotary latch (claw latch): a rotating jaw grabs one striker, as in car doors
+  - Cam latch (quarter-turn cam lock): a key or knob turns one flat cam behind the frame at a single point
+  - Mechanical interlock: stops one action until another has happened, rather than moving several bolts at once
+  - Pin-tumbler lock and other tumbler locks: the key cylinder that locks a multipoint lock's gearbox
+  - Interrupted-screw lock (breech lock) and Bayonet mount: lugs all round a round door or lid engage with one twist, the round-lid version of locking on every side
+  - Servo or motorised latch: powered bolts; motorised multipoint locks also exist
+  - Overcentre linkage (toggle linkage): the principle behind 'zero-torque' lock-rod cams
+  - Castor (central locking): the same 'one control, many locks' idea used to lock every castor of a bed or cart at once
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:Crémone.jpg (Wikimedia Commons, used on Wikipedia 'Crémone')](https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg): Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down *(licence: CC BY-SA 3.0 (Neri.jp))*
+  - [File:Espagnolette.JPG (Wikimedia Commons, used on Wikipedia 'Espagnolette')](https://commons.wikimedia.org/wiki/File:Espagnolette.JPG): An espagnolette on a pair of shutters: handle, full-height rod and hooked ends (Commons: 'Espagnolette, fermeture de volets') *(licence: CC BY-SA 3.0 (Nerijp))*
+  - [File:Diagram of a Lockrod.svg (Wikimedia Commons, used on Wikipedia 'Lockrod')](https://commons.wikimedia.org/wiki/File:Diagram_of_a_Lockrod.svg): Labelled diagram of all the parts of a typical trailer lock rod and its mounting hardware: rod, cams, handle, keepers and brackets *(licence: CC BY-SA 4.0 (A.Tajnai))*
+  - [File:ICR trailer end doors (cropped).jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:ICR_trailer_end_doors_(cropped).jpg): Photo of trailer rear doors with their vertical lock rods and handles *(licence: CC BY-SA 4.0 (Xnatedawgx))*
+  - [File:Mottura 556 6l dblebit rim mpl (2).jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Mottura_556_6l_dblebit_rim_mpl_(2).jpg): Italian-style multipoint lever lock that throws bolts sideways and also vertically into the door head and threshold *(licence: CC0 (CHUBBBRAMAH))*
+- **make_it_yourself**: 
+  - [Print In Place Gear Lock Box (LaForest Labs, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1633497-print-in-place-gear-lock-box): A print-in-place box with a hinged lid; a knurled knob on top extends four rack-and-pinion locking pins; OnShape source CAD linked *(licence: GNU General Public License v3.0)*
+  - [The Possible Print: Lockable Print-in-Place Geared Latch Box (actualSIZE, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/56341-the-possible-print-lockable-print-in-place-geared-): A support-free print-in-place parts box: one turn of the handle drives floating gears and racks that latch all four sides of the lid; SketchUp source included *(licence: CC BY-NC)*
+  - [Print in place Rack and Pinion Lid (SilentYetiDesigns, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/955011-print-in-place-rack-and-pinion-lid-box-file-availa): The print-in-place geared lid of a storage box (box itself not included); removable racks can be printed in other colours *(licence: CC BY-NC-ND)*
+  - [BOSL2 gears.scad (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad): Parametric rack() and spur_gear() modules for designing a matching pinion and racks for your own multi-point lid lock *(licence: BSD 2-Clause)*
+- **diagram_idea**: Front view of a tall door with a knob at mid-height; a cut-away of the gearbox shows the pinion turning and two racks moving apart by equal arrows, the top rod sliding into the head and the bottom rod into the sill; beside it, a small top view of an espagnolette hook turning behind its pin and of a lock-rod cam turning into its keeper.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Espagnolette
+  - https://en.wikipedia.org/wiki/Cr%C3%A9mone
+  - https://en.wikipedia.org/wiki/Lockrod
+  - https://en.wikipedia.org/wiki/Rack_and_pinion
+  - https://en.wikipedia.org/wiki/Window
+  - https://en.wikipedia.org/wiki/Intermodal_container
+  - https://www.suffolklatchcompany.com/blogs/news/whats-a-multipoint-door-lock
+  - https://www.suffolklatchcompany.com/blogs/news/how-to-fix-multipoint-door-hardware
+  - https://www.lockshop-warehouse.co.uk/acatalog/gu-lever-operated-multipoint-lock-2-hook-2-roller.html
+  - https://home-security-guide.readthedocs.io/en/latest/smart-locks/17-multi-point-smart-lock-guide-uk/
+  - https://kilianhardware.com/serfa-cabinet-locking-cremone-bolt
+  - https://roomfortuesday.com/cremone-bolts-how-to-use-them/
+  - https://www.eveoncontainers.com/en-US/news/market-insights/understanding-and-maintaining-shipping-container-doors
+  - https://usacontainers.co/blogs/shipping-container-maintenance/how-to-lock-a-shipping-container-securing-the-doors-step-by-step
+  - https://www.safework.nsw.gov.au/resource-library/transport-postal-and-warehousing/guide-for-unpacking-shipping-containers/before-opening-the-container
+  - https://www.ttclub.com/news-and-resources/news/article/tt-talk-be-careful-when-opening-container-doors/
+  - https://patents.google.com/patent/GB2094390A/en
+  - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad
+  - https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg
+  - https://commons.wikimedia.org/wiki/File:Espagnolette.JPG
+  - https://commons.wikimedia.org/wiki/File:Diagram_of_a_Lockrod.svg
+  - https://commons.wikimedia.org/wiki/File:ICR_trailer_end_doors_(cropped).jpg
+  - https://commons.wikimedia.org/wiki/File:Mottura_556_6l_dblebit_rim_mpl_(2).jpg
+  - https://commons.wikimedia.org/wiki/File:Espagnolette_(Diderot,_Encyclopedie,_Tafelbd.IX,_1771,_Tf._XXXIV).jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, making_tips_3d_printing, processes, when_not_to_use
+

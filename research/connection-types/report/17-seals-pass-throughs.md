@@ -650,7 +650,7 @@
   - clock spring, spiral cable (the limited-turn alternative in car steering wheels; Wikipedia, Clockspring)
   - cord untangler (telephone handset cord swivel; Wikimedia Commons), detangler or gyro (BMX brake-cable swivel; Wikipedia, Detangler) *(unverified parts omitted)*
 - **family**: seals & pass-throughs
-- **other_families**: hinges & pivots, hydraulics, pneumatics & vacuum
+- **other_families**: hinges & pivots, hydraulics, pneumatics & vacuum, electrical connections
 - **one_liner**: A slip ring passes electric power and signals from a stationary part to a continuously rotating one through springy contacts (brushes) rubbing on rings, and a rotary union does the same for liquids, air or vacuum through seals between a fixed housing and a turning shaft, so the rotating part can turn forever without its cables or hoses winding up.
 - **complexity**: A small assembly that acts as one unit. Slip ring: a rotor carrying a stack of insulated metal rings (e.g. brass, gold-plated), a stator carrying one spring-loaded brush or wire contact per ring, bearings, a housing, and colour-coded lead wires on each side (Wikipedia; Hackaday teardown article; Adafruit). Rotary union: a housing with inlet port(s), a shaft with passages, one or more bearings, and one or more seals (face seals, lip seals or O-rings) (Wikipedia, Rotary union). Combined units stack slip rings, fluid passages and fibre optic joints in one body (Moog; Wikipedia).
 - **how_it_works**: In a slip ring each circuit has its own continuous metal ring on the turning part, and a stationary brush (graphite or metal) is pressed against it by a spring; the current flows through the sliding contact, so the connection holds at any angle and for any number of turns (Wikipedia). More circuits are simply more rings stacked along the shaft. A rotary union works the same way for fluid: the fluid enters a fixed housing, passes into a groove or chamber that runs all the way round the shaft, and flows into a hole drilled in the turning shaft, while seals either side stop it leaking out; multi-passage unions have several chambers separated by seals (Wikipedia, Rotary union). Wireless versions replace the rubbing contacts with facing coils (a rotary transformer), which don't wear but carry much less power (Wikipedia, Slip ring).
@@ -1563,4 +1563,534 @@
 ### Other info
 
 - **Fields with unverified parts:** adjustable, common_failures, making_tips_3d_printing, materials, removability, reuse_cycles, safety_notes
+
+## 338 Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+
+*seals & pass-throughs.* Ways to carry wires, a ribbon cable or a tube across a hinge or a pivot that turns less than a full turn without pinching or breaking them, through a hollow pin or shaft, along the pivot axis, or as a slack loop or wrapped flat cable
+
+*Also covers:* Also covers hollow-shaft friction hinges, service loops and spiral flat cables (clocksprings) for a few turns. Safety: wire flexed again and again breaks inside its insulation, giving intermittent faults or shorts.
+
+### What it is
+
+- **plain_name**: Ways to get wires, a flat ribbon cable or a thin tube across a hinge or a turning joint so they don't get pinched, pulled tight or worn through as it opens and closes: through a hollow hinge pin, along the line the joint turns about, or in a loose loop or rolled-up flat cable
+- **term**: Cable through a hinge (hollow hinge pin or hollow shaft, cable on the pivot axis, service loop, wrapped flat cable or clockspring)
+- **aliases**: 
+  - hollow-shaft hinge / hollow-axis friction hinge (e.g. Reell HTH60, brand)
+  - wire-passable hinge (laptop hinges, patent US12222773B2)
+  - electric hinge / electrified hinge / power transfer hinge (doors with electric locks)
+  - power transfer device, door loop, armoured door cord (doors)
+  - service loop (spare cable left in a loop at a moving joint)
+  - clockspring / clock spring / spiral cable / contact reel (car steering wheels)
+  - flex cable across a hinge: FFC (flat flexible cable) or FPC (flexible printed circuit)
+  - hollow-shaft actuator / through-bore joint (robot joints)
+  - torsion cable / twistable robot cable (cables rated for twisting)
+- **family**: seals & pass-throughs
+- **other_families**: hinges & pivots, electrical connections
+- **one_liner**: A planned route for wires, flat cables or tubes across a hinge or a joint that turns less than a full turn (or a few turns), either through a hollow pin or shaft on the turning axis so the cable only twists, or as a loose loop or wound flat cable that rolls instead of kinking, with clamps on each side so the flexing happens only where it is designed to.
+- **complexity**: A few parts: the hinge or pivot (with a hollow pin, hollow shaft or room beside it), the cable or tube, and a clamp or strain relief on each side of the joint; sometimes a protective sleeve, grommet or cover, a drum or cassette for a wound flat cable (clockspring), and connectors that are fitted after the cable has been threaded through.
+- **how_it_works**: Every time the joint moves, a cable crossing it has to change shape, so the design decides what kind of change it gets and spreads that change over a length of cable. Run along the turning axis, through a hollow pin or shaft, the cable only twists, and the twist is shared out over the free length between the two clamps. Away from the axis it must bend, so it is given a loose loop (service loop) long enough for full travel, clamped so the loop can't be pinched, or a flat cable is wrapped round the hinge or wound in a spiral drum (clockspring) so it winds and unwinds rather than kinking. The clamps on each side keep all of this movement away from the solder joints and connectors.
+
+### Finder attributes
+
+- **job**: seal it, or pass cables or fluid through: carries wires, a flat cable or a small tube across a moving joint, let it move (turn, slide or bend): the hinge keeps its full swing while the cable follows
+- **motion**: rotate: usually less than one full turn for hollow pins and service loops (Reell's hollow-shaft hinges allow 360°); a few turns for a clockspring (a typical car clockspring turns about five turns end to end); for endless turning use a slip ring instead
+- **degrees_of_freedom**: 1: the hinge's own turning; the cable has no freedom of its own but must twist or bend to follow
+- **special_behaviour**: none: it is a way of routing cables, not a mechanism with its own behaviour; a hollow-shaft friction hinge also holds its angle (see Friction hinge)
+- **holding_principle**: not a holding joint (it passes cables across a joint that moves); the cable itself is held at each side by friction or clamping (force-fit) in strain-relief clamps or ties
+- **input_output**: not applicable
+- **power**: passive (no power needed; it carries power or signals but needs none to work)
+- **removability**: removable but fiddly: wires threaded through a hollow pin or shaft must be pulled back out, or have their connectors cut off, to take it apart; the leaves of an electric door hinge 'must not be separated' or the wires break (Locksmith Ledger)
+- **reuse_cycles**: a few times (each re-threading risks damaging the wires); the joint itself can swing many times if the cable's flex or twist rating is respected
+- **tools_needed**: wire strippers and a crimp tool or soldering iron (wires are often joined after threading), heat-shrink tube, cable ties or clamps, a screwdriver, and a drill if the hinge pin or knuckles must be bored
+- **seal**: none: it routes the cable but does not seal it; outdoors, leave a drip loop so water runs off before reaching a connector (Lectromec, quoting FAA AC 25.1701), and use a cable gland or grommet where the cable enters a housing
+- **load**: Electrical: up to about 3 A, extra-low voltage only for home-made hinges and joints (the limit is set by the thin, flexible wire that fits through the joint; commercial electric door hinges carry two 18 or 20 AWG wires at up to 3.5 to 5 A at 24 V DC, Locksmith Ledger). Mechanical: the cable must carry no load at all; the hinge carries it. A hollow pin or drilled knuckle is weaker than a solid one: an electric door hinge must never be the top or bottom hinge, because drilling it means it no longer meets its load rating (Locksmith Ledger). Reell's hollow-shaft friction hinges give up to 11.5 N·m of holding torque.
+- **adjustable**: partly: the loop length and clamp positions can be changed after assembly; a clockspring must be centred when it is fitted
+- **play_and_precision**: not applicable (it does not locate parts or pass motion on); the hinge keeps whatever play it had
+- **access_needed**: end of a tube or shaft: wires are pushed through the hollow pin or shaft from one end, often before connectors are fitted ('Thread it first, join it second', humanoid.guide); a service loop needs both sides of the joint to fit its clamps
+- **materials**: Cables: fine-stranded copper wire (silicone insulation is 'super-flexible' and rated to 200 °C, Adafruit), torsion-rated robot cable, flat flexible cable (FFC) or flexible printed circuits (polyimide or PET film with thin, preferably rolled-annealed, copper). Printed knuckles in PETG or PLA. Clockspring cassettes are plastic with a wound flat cable. Fluids: small flexible tubing can pass through a hollow shaft (Reell lists 'tubing'). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: printing or drilling a hinge with a hole through it is easy, but making it last needs the right wire, clamps on both sides and enough free length; buy a hollow-shaft hinge or a clockspring for anything that must survive thousands of cycles
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): hinge knuckles or robot joints with a bore or cable channel, and clamps for strain relief
+  - off-the-shelf part: hollow-shaft friction hinges, electric (power transfer) hinges, door loops, clocksprings, FFC and FPC cables, torsion-rated cables, rotary cable carriers
+  - CNC or lathe: a metal tube as the hollow pin, or through-bored shafts *(unverified parts omitted)*
+- **making_tips_3d_printing**: Put the cable on the turning axis whenever you can: then it only twists, while just 30 mm off the axis every swing also bends, stretches and drags it (humanoid.guide). Size the bore for the wires, not the connectors, and thread the wires through before crimping or soldering ('Thread it first, join it second', humanoid.guide). Clamp the cable firmly on both sides of the joint so the free length between clamps is deliberate, then check the twist: degrees of swing divided by free length must stay within the cable's torsion rating (humanoid.guide; igus). Use fine-stranded wire, never solid-core, for anything that moves (SparkFun); silicone-insulated wire is the supple choice (Adafruit). If the cable can't go on the axis, leave a loop long enough for the full swing without tension and add clamp points so the slack can't be pinched when the lid closes (Lectromec, quoting FAA AC 25.1701). Wrap a flat cable round the hinge in a large, smooth curve, never a crease, and don't let all the bending happen at one spot (Fjelstad). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search terms: 'hollow shaft friction hinge' or 'hollow shaft hinge' (Reell HTH60, brand; 5 mm and 18 mm bores), 'electric hinge', 'electrified hinge' or 'power transfer hinge' and 'door loop' or 'armored door cord' (door hardware), 'clock spring' or 'spiral cable' (car steering wheels), 'FFC cable' with 'ZIF connector', 'flexible printed circuit', 'torsion cable' or 'robot cable' (e.g. chainflex ROBOT, igus brand), 'high flex' or 'silicone stranded wire', 'rotary energy chain' (e.g. twisterband, igus brand, for many turns), 'hollow shaft actuator' or 'through-bore' robot joints, 'slip ring' (for endless turning), plus grommets, cable ties, spiral wrap and braided sleeving.
+- **rules_of_thumb**: 
+  - Keep the cable on the axis: on the axis it only twists; 30 mm off the axis it also bends, stretches and drags at every swing (humanoid.guide, https://humanoid.guide/hollow-shaft-cable-routing-humanoid-joints/).
+  - Twist per metre = swing angle / free length between the clamps; keep it inside the cable's rating. Example: a joint swinging ±135° with 0.3 m of free cable loads it at ±450° per metre, beyond a ±360°/m rating; 0.375 m brings it back inside (humanoid.guide, as above). igus tests its ROBOT cables at ±180° over a 1 m clamp distance for at least 3 million cycles, and approves its standard unshielded CF5, CF77.UL.D and CF9 control cables for ±90° per 1 m (igus, https://www.igus.ca/cables/unharnessed-cables-robot-cable-overview).
+  - Slack: a harness across moving parts should 'have sufficient length to allow for full travel without tension', and may need extra clamp points so the slack isn't 'pinched when the equipment is retracted or closed' (Lectromec, quoting FAA AC 25.1701, https://lectromec.com/blog/in-aircraft-wire-systems-how-much-slack-should-i-give-a-wire/).
+  - Flat flexible circuits that bend in use: follow dynamic, not static, bend-radius rules; a bend radius of 100 times the copper thickness or more has been suggested for high-cycle use; use one copper layer through the bend, rolled-annealed copper, no creases, and don't concentrate all bending at one hinge point (Joe Fjelstad, I-Connect007, https://iconnect007.com/article/149506/flexible-thinking-designing-flex-circuits-for-dynamic-reliability/149503/pcb). Single-sided circuits 'are ideal for dynamic or high-flex applications' (Wikipedia 'Flexible electronics', https://en.wikipedia.org/wiki/Flexible_electronics).
+  - Clocksprings must be centred: count the turns from one end stop to the other (in most cars about five) and set it at half that, or the ribbon over-stretches and breaks at full lock (YouCanic, https://www.youcanic.com/properly-set-a-new-clock-spring/).
+  - Electric door hinges: the roughly 2 mm hole drilled through the leaf takes one 18 or 20 AWG wire or up to four 28 AWG wires; fit it as the centre hinge (second from the top on four-hinge doors), never at the top or bottom (Locksmith Ledger, https://www.locksmithledger.com/door-hardware/article/11176020/electrifying-door-mounted-locks-contacts-and-switches-with-power-transfer-devices).
+  - Use stranded wire where the wire moves, as in a robot arm; solid wire is for parts that don't move (SparkFun, https://learn.sparkfun.com/tutorials/working-with-wire/all).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the display cables passing through or beside a laptop's hinges (patent US12222773B2 background)
+  - the clockspring behind a car's steering wheel, which keeps the airbag, horn and other devices in the wheel connected while it turns (Wikipedia 'Clockspring')
+  - electric door hinges that carry wires to an electric lock or card reader in the door (Locksmith Ledger)
+  - the flat flexible cable joining the two halves of a folding or sliding mobile phone (Wikipedia 'Flexible electronics'; Commons photo of a Samsung SGH-U700)
+- **when_to_use**: Whenever wires, a ribbon cable or a thin tube must reach something on the moving side of a hinge or pivot that turns less than a full turn, or only a few turns: a lid with lights, a sensor or a screen on it, a flip-up display, a robot elbow, wrist or neck, a pan-tilt camera head, a door with an electric lock, a lamp arm. Choose a hollow pin or shaft when the cable can run along the axis (neatest, hidden, least bending); a service loop when it can't and there is room for slack; a wrapped or wound flat cable (clockspring) when many signals must cross a joint that turns more than half a turn.
+- **when_not_to_use**: For endless turning, use a slip ring, a rotary union for fluids, or an anti-twister; a cable joint with no end stops will wind itself up and break, so fit a multi-turn rotation limiter if a loop or clockspring is used near its limit. For long straight-line travel, use a cable carrier (drag chain). For a cable through a fixed wall, use a cable gland. Don't run mains wiring through a home-made hinge or pivot; mains work must follow local law (for example England's Approved Document P) and use certified parts. Where a connector must be swapped often, a hollow pin that needs re-threading is a poor choice; use a door-loop-style flexible conduit or an external loop with connectors.
+- **environment_limits**: Vibration speeds up copper fatigue in flexing cables and flex circuits, even at small amplitudes (Fjelstad). Water can run along a cable into a connector, so leave a drip loop below it (Lectromec). Cables gradually weaken with every cycle (fatigue), so flex life, not age, usually decides when they fail. *(unverified parts omitted)*
+- **safety_notes**: Wire flexed again and again breaks inside its insulation: 'breaking of a conductor part and cracking of an insulating material part may be caused due to repeated flexing fatigue', which can interrupt power or signals or cause a 'short circuit to ground' (patent US9194761B2). The result is usually an intermittent fault that comes and goes as the joint moves, which is hard to find. Never overload thin hinge wires: joining a thin wire to a thick one lets the current melt its insulation, 'resulting in a short or possible fire' (Locksmith Ledger). Never route mains through a home-made hinge; mains work must follow local law (in England, Approved Document P covers electrical work in homes). *(unverified parts omitted)*
+- **common_failures**: (1) The cable breaks inside at the clamp or where it leaves the bore, because all the bending happens at one point; spread it out with a larger radius and a longer free length (Fjelstad; humanoid.guide). (2) Wires pinched or cut when the lid closes or the joint folds flat (Reell lists pinched wires and wear at bend points as the problems a hollow shaft solves; Lectromec). (3) Not enough slack, so the cable is pulled tight at full travel and tugs on its connector (Lectromec). (4) Free length too short for the swing, so the twist per metre exceeds the cable's rating (humanoid.guide). (5) A clockspring fitted off-centre, so its ribbon breaks the first time the joint reaches full travel (YouCanic). (6) Electric hinge leaves separated during fitting, breaking the wires (Locksmith Ledger). (7) A connector that won't fit through the bore after the joint is built (humanoid.guide: thread first, join second). (8) Solid-core wire used in a moving joint, which breaks quickly; use stranded (SparkFun). (9) A flat cable creased or bent too tightly (Fjelstad).
+- **related**: 
+  - Slip ring and rotary union: pass power, signals or fluid across a joint that keeps turning, through sliding contacts or seals; needed when there are no end stops
+  - Anti-twister mechanism: lets a joint turn endlessly with a plain cable and no sliding contacts
+  - Multi-turn rotation limiter: stops a joint after a set number of turns so a loop or clockspring isn't over-wound
+  - Cable carrier (drag chain), including rotary carriers such as twisterband (igus brand): guides cables along straight travel or through many turns
+  - Cable gland and strain relief: grips and seals a cable where it passes through a fixed wall; used at both ends of a hinge crossing
+  - Flat flexible cable and latching connector (FFC with ZIF connector): the thin ribbon cable often wrapped across hinges
+  - Friction hinge (torque hinge): the hinge type that also comes in hollow-shaft versions
+  - Knuckle hinge (butt hinge) and print-in-place hinge: ordinary hinges that can be given a hollow pin or a bore
+  - Rotary transformer (contactless power transfer): passes power across a turning joint with no wire at all; inductive power transfer devices exist for doors (Locksmith Ledger)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Hollow-Shaft Joints in Humanoid Robots: How Power and Data Get Through Every Joint (humanoid.guide)](https://humanoid.guide/hollow-shaft-cable-routing-humanoid-joints/): Section drawing of a hollow-shaft robot joint and an animation of a cable in the bore twisting as the joint swings; table of bore sizes *(licence: link only)*
+  - [Reell Hollow Shaft Hinges (manufacturer page)](https://reell.com/products/hollow-shaft-hinges): Photos of friction hinges with a hollow centre through which wires, tubing and connectors pass *(licence: link only (manufacturer page))*
+  - [EPAS power steering column.jpg (Wikimedia Commons, by Samf4u)](https://commons.wikimedia.org/wiki/File:EPAS_power_steering_column.jpg): A car steering column; Wikipedia's 'Clockspring' article captions the small black drum with yellow wires at the front end as the clockspring *(licence: CC BY-SA 4.0 (reuse with credit))*
+  - [Samsung SGH-U700 FFC.jpg (Wikimedia Commons, by RobbertS)](https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg): Close-up of the flat flexible cable and connector that join the two sliding halves of a mobile phone *(licence: public domain)*
+  - [Electrifying Door-Mounted Locks, Contacts and Switches With Power Transfer Devices (Locksmith Ledger)](https://www.locksmithledger.com/door-hardware/article/11176020/electrifying-door-mounted-locks-contacts-and-switches-with-power-transfer-devices): Photos of electric butt hinges with wires through the knuckle, electric continuous hinges and pivots, and door loops (flexible armoured cords) *(licence: link only)*
+- **make_it_yourself**: 
+  - [BOSL2 hinges.scad (OpenSCAD library, knuckle_hinge module)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad): Parametric knuckle hinge generator whose knuckle_diam and pin_diam settings can be enlarged to take a metal tube as a hollow pin for wires (our suggested use; the library itself doesn't mention cables) *(licence: BSD 2-Clause)*
+- **diagram_idea**: Three sketches of the same box lid: (1) wires running through a hollow hinge pin, drawn twisting along the axis between a clamp on each side; (2) a slack service loop beside the hinge with a clamp on each leaf, shown with the lid open and closed; (3) a flat cable wound in a spiral drum (clockspring) winding up and unwinding as the joint turns.
+- **sources**: 
+  - https://reell.com/products/hollow-shaft-hinges
+  - https://humanoid.guide/hollow-shaft-cable-routing-humanoid-joints/
+  - https://www.igus.ca/cables/unharnessed-cables-robot-cable-overview
+  - https://press.igus.eu/?p=454
+  - https://lectromec.com/blog/in-aircraft-wire-systems-how-much-slack-should-i-give-a-wire/
+  - https://en.wikipedia.org/wiki/Clockspring
+  - https://en.wikipedia.org/wiki/Flexible_electronics
+  - https://en.wikipedia.org/wiki/Flexible_flat_cable
+  - https://www.youcanic.com/properly-set-a-new-clock-spring/
+  - https://iconnect007.com/article/149506/flexible-thinking-designing-flex-circuits-for-dynamic-reliability/149503/pcb
+  - https://www.locksmithledger.com/door-hardware/article/11176020/electrifying-door-mounted-locks-contacts-and-switches-with-power-transfer-devices
+  - https://patents.google.com/patent/US12222773B2/en
+  - https://patents.google.com/patent/US9194761B2/en
+  - https://learn.sparkfun.com/tutorials/working-with-wire/all
+  - https://www.adafruit.com/product/1877
+  - https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
+  - https://commons.wikimedia.org/wiki/File:EPAS_power_steering_column.jpg
+  - https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, making_tips_3d_printing, materials, print_in_place, processes, safety_notes
+
+## 402 Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope)
+
+*seals & pass-throughs.* A pipe thread that gets wider along its length, so screwing it in wedges the threads tight, while tape or paste fills the tiny gaps so it doesn't leak
+
+*Also covers:* Also covers how to wrap PTFE tape, pipe dope and anaerobic thread sealant, telling look-alike thread standards apart, and not mixing thread forms. Thread size tables are linked to, not listed. Safety: pressure; overheated PTFE gives off a toxic gas.
+
+### What it is
+
+- **plain_name**: A pipe thread that gets slightly fatter along its length, so screwing the male end into the female wedges the threads tighter and tighter, while a wrap of white tape or a smear of paste fills the tiny gaps left between the threads so water, air or gas can't leak out along them
+- **term**: Tapered pipe thread (taper pipe thread): NPT (US) and BSPT / ISO 7 'R' threads (British and international), sealed with PTFE thread-seal tape, pipe dope or anaerobic thread sealant
+- **aliases**: 
+  - NPT: National Pipe Taper, American National Standard Taper Pipe Thread (ASME B1.20.1); MIP/MPT/MNPT and FIP/FPT/FNPT for male and female iron pipe threads (Wikipedia 'National pipe thread'; Boshart)
+  - NPTF, Dryseal (ASME B1.20.3): a taper thread whose crests and roots are adjusted for an interference fit, meant to seal without tape (Wikipedia 'National pipe thread')
+  - BSPT, British Standard Pipe Taper; ISO 7 / EN 10226 'R' (male taper), 'Rc' (female taper) and 'Rp' (female parallel thread used with a taper male); JIS R and Rc (Wikipedia 'British Standard Pipe'; Swagelok MS-13-77 p. 26)
+  - jointing thread: a BSP thread where 'pressure-tightness is made through the mating of two threads together', always with a taper male (Wikipedia 'British Standard Pipe')
+  - NPT with O-seal: an undersized NPT male with an O-ring on the hex shoulder, sealing on its face (Swagelok MS-13-77 p. 25)
+  - PTFE tape, thread seal tape, plumber's tape, 'Teflon tape' (Teflon is a Chemours brand and Chemours objects to the generic use), yellow 'gas tape', pink potable-water tape, PTFE string (Wikipedia 'Thread seal tape')
+  - pipe dope, pipe joint compound, thread compound, pipe thread sealant, PTFE paste (Wikipedia 'Pipe dope'; Boshart)
+  - anaerobic pipe thread sealant, e.g. LOCTITE 567 (brand) (Henkel technical data sheet) *(unverified parts omitted)*
+- **family**: seals & pass-throughs
+- **other_families**: hydraulics, pneumatics & vacuum
+- **one_liner**: A tapered pipe thread is a screw thread whose diameter grows along its length, so tightening a male pipe end into a female fitting wedges the threads together, and a sealant such as PTFE tape, pipe dope or anaerobic sealant fills the small spiral gap that is left so the joint holds pressure.
+- **complexity**: A few parts: the male taper-threaded end (pipe, nipple, plug, valve or fitting), the female threaded port or fitting, and the sealant (PTFE tape, paste or anaerobic sealant). There is no washer or O-ring, except in the 'NPT with O-seal' variant (Swagelok MS-13-77 p. 25).
+- **how_it_works**: Both threads taper by 1 unit of diameter in 16 units of length (a half-angle of 1°47′), so as the male end screws in, its larger diameter keeps pressing into the female's smaller one until the thread flanks are squeezed together and 'no clearance remains' (Wikipedia 'National pipe thread', 'British Standard Pipe'). Machining tolerances still leave tiny gaps along the crests and roots, so 'tapered pipe threads always need a sealant' (Swagelok MS-13-77 p. 21): the tape or paste fills those voids and also lubricates the threads so they seat deeper without seizing (galling) (Wikipedia 'Pipe dope', 'Thread seal tape'). NPTF (Dryseal) threads are shaped to close that spiral leak path themselves (Wikipedia 'National pipe thread'). The seal is made on the threads; a parallel (straight) thread instead needs a gasket, O-ring or metal-to-metal seat, and 'a sealant is not required or recommended' on it (Swagelok MS-13-77 p. 27).
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: makes a leak-tight joint for water, air, gas, steam and hydraulic fluid in pipes, valves, pumps and fittings (Wikipedia 'National pipe thread')
+  - join and hold: the same thread also holds the parts together, so pipes and fittings are joined and sealed in one step
+- **motion**: none: a fixed joint once tightened (it is screwed in, typically a few turns past hand-tight)
+- **degrees_of_freedom**: 0 once tightened. While it is being made up it turns and advances along its axis together (1, like any screw). It should not be turned back to line a fitting up: 'Once the connection is tight, do not loosen it. Doing so could mean leakage at the pipe thread' (Swagelok Northern California).
+- **special_behaviour**: none of the listed behaviours: its trick is the taper's wedge, which tightens and seals in the same movement *(unverified parts omitted)*
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the interlocking thread holds the parts together along the pipe
+  - friction or clamping (force-fit): the taper wedges the thread flanks together, and friction keeps the joint from unscrewing
+  - material bond (glue, solvent or melting): only with anaerobic sealant, which cures between close-fitting metal threads and adds a low locking strength (LOCTITE 567 technical data sheet)
+- **input_output**: not applicable: it is a fixed joint and passes on no motion
+- **power**: passive (no power needed)
+- **removability**: semi-permanent (can be undone but may damage parts): it unscrews with spanners or pipe wrenches, but old sealant must be cleaned off and fresh sealant used (Swagelok MS-14-01); cured anaerobic sealant on threads over 1 in may need local heat of about 250 °C to undo (LOCTITE 567 technical data sheet); tape 'helps to limit corrosion on the threads, which otherwise can make future disassembly nearly impossible' (Wikipedia 'National pipe thread').
+- **tools_needed**: An open-end spanner (wrench) or pipe wrench to turn the part, a vice or back-up spanner to hold the female fitting, and a dry, soft-bristled brush to clean old sealant out of both threads (Swagelok Northern California; Swagelok MS-14-01); plus PTFE tape, pipe dope or anaerobic sealant. To identify an unknown thread: a caliper and thread pitch gauges (Swagelok MS-13-77 pp. 7-9). Plastic fittings: hand-tight plus one or two turns only (Boshart).
+- **seal**: airtight or pressure: the wedged threads plus sealant hold water, air, gas, steam and hydraulic fluid (Wikipedia 'National pipe thread'). The rating depends on the pipe, fitting and sealant; e.g. LOCTITE 567 is UL-classified for natural gas, petroleum oils, butane and propane at pressures up to 300 psig in pipe up to 2 in (LOCTITE 567 technical data sheet). Without sealant it leaks along the spiral gap at the crests and roots (Swagelok MS-13-77 p. 21).
+- **load**: Medium to heavy: strong in pull and against internal pressure, because every engaged thread shares the load; weaker against bending at the root of the last thread and against being turned back. Too much tape 'can prevent mating threads from fully engaging, reducing the shear point of the threads' (Wikipedia 'Thread seal tape'). Plastic female fittings split if overtightened, because the taper forces them open like a cone, and smaller sizes are more prone to stress cracking (Boshart).
+- **adjustable**: No: once tight it should not be backed off to line a fitting up (Swagelok Northern California), so its final angle is whatever the turns give. Where you need to set the angle or take the joint apart often, add a pipe union or use a parallel thread with a washer (see Parallel pipe thread with a sealing washer).
+- **play_and_precision**: None once tightened: it is wedged tight. Engagement varies with thread tolerances by about plus or minus one turn (ANSI B1.20.1 tolerances, quoted by Boshart). It tolerates no mixing of thread forms: NPT has a 60° and BSPT a 55° thread angle, and in 1/2 and 3/4 in both have 14 threads per inch, so they 'can be difficult to identify because they are very close in design' (Swagelok MS-13-77 pp. 22-23); other sizes differ in pitch too (1/8 in: 27 TPI NPT, 28 ISO 7; 1/4 and 3/8 in: 18 NPT, 19 ISO 7; Swagelok MS-13-77 p. 23).
+- **access_needed**: end of a tube or shaft: the male pipe end screws into the female port, one part turning about the pipe axis, with room needed to swing a spanner or pipe wrench
+- **materials**: Steel (black and galvanised iron), brass, bronze, stainless steel and cast iron, and plastics including PVC, CPVC, nylon and PTFE (Wikipedia 'National pipe thread'). Sealants: PTFE tape is intended for metal threads; Boshart warns against PTFE tape on female PVC fittings, because its bulk and lubrication make them crack, and recommends a plastic-compatible thread compound; petroleum-based pipe dope deteriorates PVC, CPVC and ABS, so US builders are expected to use a thread compound tested to ASTM F2331 or thread seal tape (Wikipedia 'Pipe dope'; note that Boshart and Wikipedia differ on tape for PVC); anaerobic sealants cure between metal threads and are 'not normally recommended for use on plastics' (LOCTITE 567 technical data sheet). Printed threads: PLA or PETG, for cold, unpressurised or very low-pressure use only (see making tips).
+- **maker_difficulty**: easy for bought metal fittings: tape the male thread, screw it in, tighten. Moderate when you must identify an unknown thread or seal plastic fittings without cracking them. Hard to print a taper thread that stays sealed under pressure, so use printed threads only for unpressurised jobs, plugs and gauges, and buy metal or moulded fittings otherwise.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: pipe, nipples, plugs, bushes, tees, elbows, valves, pumps, gauges and air fittings with NPT or BSPT/R threads
+  - 3D print (FDM): low-pressure plugs and adapters and thread gauges, e.g. a 3/4 in NPT plug for a PVC adapter (Printables 231377) and printable NPT thread gauges (Printables 1057747), modelled with BOSL2 npt_threaded_rod() or an OpenSCAD pipe-joint generator with NPT (BOSL2 threading.scad; Printables 1345884) *(unverified parts omitted)*
+- **print_in_place**: no: the male and female parts are separate pieces, and one of them is usually a bought fitting
+- **making_tips_3d_printing**: 1) Low pressure only: print taper threads for plugs, garden, aquarium and drain adapters and thread gauges; never use a printed fitting on anything that holds stored pressure (air tanks, compressors, hydraulics, gas), where a burst can whip or inject fluid (HSE hydraulic injection injury bulletin). 2) Model the taper correctly: 1 in 16 on diameter (half-angle 1°47′), 60° thread angle for NPT and 55° for BSPT (Wikipedia 'National pipe thread'; Swagelok MS-13-77 p. 22). BOSL2's npt_threaded_rod() makes standard NPT threads from 1/16 to 2 in; internal=true gives a mask for female threads, and $slop adds 4 x $slop clearance to internal threads (BOSL2 threading.scad). One designer modelled 3/4 in NPT in Rhino from published measurements (Printables 231377); an AI-assisted remix of an OpenSCAD pipe-joint generator adds 1/8 to 2 in NPT and was tested at 1/2 and 3/8 in (Printables 1345884), so check the fit with a real fitting before trusting it. 3) Settings: NPT thread gauges print at 0.15 mm layers (0.1 mm for finer detail), 100% infill, PLA or PETG; screw them on and off a few times to run the threads in (Printables 1057747). 4) Leak-tight walls: at least 3-4 perimeters, nozzle 5-10 °C hotter, extrusion multiplier up 5-10%, and layer height no more than 60-65% of the nozzle width; watertight does not mean food safe (Prusa Knowledge Base, 'Watertight prints'). 6) Heat: PLA gives at about 60 °C and PETG at about 80 °C (CNC Kitchen), so no hot water. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search terms (thread size tables are in Swagelok MS-13-77, pp. 'PTFE thread seal tape' (1/4 in wide for 1/8-3/8 in threads, 1/2 in wide for 1/2 in and larger; Swagelok MS-14-01), 'gas tape' (thicker yellow PTFE tape for gas; Wikipedia 'Thread seal tape'), 'pipe joint compound' or 'thread sealant' marked compatible with plastics (ASTM F2331; Wikipedia 'Pipe dope'), 'anaerobic pipe thread sealant'; 'thread pitch gauge' and 'thread and seat gauge set' for identification (Swagelok MS-13-77 pp. 9-10). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Taper: 1 in 16 on diameter (3/4 in per foot, 62.5 mm per metre), a half-angle of 1°47′, for NPT and BSPT alike (Wikipedia 'National pipe thread', 'British Standard Pipe'; Swagelok MS-13-77 p. 22).
+  - Telling them apart: NPT has a 60° thread angle with flat crests and roots; BSPT/ISO 7 has 55° with rounded ones; 1/2 and 3/4 in are both 14 threads per inch and may need an optical comparator to tell apart (Swagelok MS-13-77 pp. 22-23). Size and pitch tables: Swagelok MS-13-77 pp. 13-14 and 23.
+  - Is it tapered? Measure the crest-to-crest diameter on the first, fourth and last full threads: if it grows along a male thread (or shrinks along a female one) it is tapered; if all are equal it is parallel (Swagelok MS-13-77 p. 7).
+  - Wrapping PTFE tape (sources differ): wrap in the direction of the thread spiral, starting at the first thread and never overhanging it, two to three turns (Swagelok MS-14-01); 3-5 overlapping turns, at least 3 wraps of high-density tape or 4-5 wraps of standard 3.5 mil tape on 1/8-2 in NPT, with the first wrap covering the end of the thread but not the opening (Boshart); for anaerobic paste, 'a 360° bead... leaving the first thread free' (LOCTITE 567 technical data sheet).
+  - Tightening (sources differ): 'There is no standard for torque or number of turns' (Swagelok MS-13-77 p. 21). Boshart's guideline for metal fittings is 1-1/2 to 3 turns past hand-tight up to 1 in and 1 to 2-1/2 turns for 1-1/4 in and larger, with 3-1/2 to 6 threads engaged; for PVC, finger-tight plus one or two turns, no more.
+  - Once tight, do not back the joint off to line it up (Swagelok Northern California).
+  - PTFE tape: 1/4 in wide tape for 1/8, 1/4 and 3/8 in threads, 1/2 in wide for 1/2 in and larger; male tapered threads only (Swagelok MS-14-01); Swagelok rates its tape up to 230 °C (450 °F) on metal pipe threads (Swagelok Northern California).
+  - Anaerobic sealant: properly tightened fittings seal instantly to moderate pressures; allow at least 24 hours for full pressure and solvent resistance (LOCTITE 567 technical data sheet).
+  - PTFE overheated to 550 °F (288 °C) decomposes and can produce perfluoroisobutene, a toxic and potentially fatal gas (Wikipedia 'Thread seal tape'); polymer fume fever is caused by PTFE fumes from 300 to 450 °C (Wikipedia 'Polymer fume fever').
+
+### When to use it
+
+- **everyday_examples**: 
+  - The white tape wound round the threads of a pipe under a sink before a hose or tap connector is screwed on (Wikimedia Commons 'Teflon tape wound around threaded pipe')
+  - Threaded steel gas pipes and fittings sealed with yellow 'gas tape' (Wikipedia 'Thread seal tape')
+  - Fittings on air compressors, central-heating systems and pressurised water systems (Wikipedia 'Thread seal tape')
+  - Threaded PVC fittings on irrigation and pool pipework (Boshart)
+- **when_to_use**: Use it when joining threaded metal pipe and fittings that must hold pressure, and when connecting to pumps, valves, gauges, compressors, tanks and air fittings that come with NPT or BSPT/R ports, which is very common. It suits joints that are made once and rarely undone, where there is no room for a nut and washer, and pipe sizes up to a few inches; sizes larger than 6 in 'are often joined by other methods' (Wikipedia 'National pipe thread'). In Europe a taper male (R) is often screwed into a parallel female (Rp) and still seals on the threads (Wikipedia 'British Standard Pipe').
+- **when_not_to_use**: Not on parallel (straight) threads such as BSPP/G, garden-hose or unified threads: they seal on a washer, O-ring or seat, and tape won't seal them (Swagelok MS-13-77 p. 27; Wikipedia 'Thread seal tape'); use Parallel pipe thread with a sealing washer instead. Never put tape on flared, coned or tube-fitting ends (Swagelok MS-14-01; see Flare fitting and Compression fitting). In hydraulic and other fluid-power systems tape is 'generally not considered appropriate' because shreds can jam valves (Wikipedia 'Thread seal tape'); straight threads sealed by an O-ring, such as the SAE straight-thread O-ring boss (Swagelok MS-13-77 p. Not where the joint must be set at an angle or undone often (add a union). Don't screw NPT into BSPT or the other way round; use an adapter. Don't use a printed taper thread to hold stored pressure, and don't work on gas fittings in a home unless you are legally allowed to (HSE). *(unverified parts omitted)*
+- **environment_limits**: Heat: Swagelok rates its PTFE tape for metal pipe threads 'in applications up to 450 degrees Fahrenheit, or 230 degrees Celsius' (Swagelok Northern California), and PTFE decomposes when overheated to 288 °C (550 °F) (Wikipedia 'Thread seal tape'); LOCTITE 567 is NSF-61 certified for potable water up to 82 °C and approved by the Australian Gas Association for -10 to 205 °C (LOCTITE 567 technical data sheet); printed PLA gives at about 60 °C and PETG at 80 °C (CNC Kitchen). Chemicals: petroleum-based dope attacks PVC, CPVC and ABS (Wikipedia 'Pipe dope'); anaerobic sealants are not for pure oxygen, chlorine or other strong oxidisers (LOCTITE 567 technical data sheet), and tape for oxygen must be grease-free (green tape; Wikipedia 'Thread seal tape'). Drinking water: use sealants approved for it, such as pink potable-water tape or NSF-61 sealants (Wikipedia 'Thread seal tape'; LOCTITE 567 technical data sheet). Corrosion: tape helps stop threads corroding together (Wikipedia 'National pipe thread'). Heat from soldering nearby can damage tape or dope (FineHomebuilding forum). Plastic threads under constant stress and heat can crack over time; smaller fittings are more prone to stress cracking (Boshart).
+- **safety_notes**: Pressure: always release the pressure before undoing a pipe joint; a jet of fluid can break the skin and inject it, reported at over 100 bar and possibly as low as 7 bar (HSE safety alert FOD 4-2014). Never use a printed fitting on a pressure vessel, compressor, hydraulic line or gas. Overheated PTFE gives off a toxic gas: above 288 °C (550 °F) it can produce perfluoroisobutene, 'a toxic and potentially fatal gas' (Wikipedia 'Thread seal tape'), and PTFE fumes from 300-450 °C cause polymer fume fever and are fatal to parrots and some other birds (Wikipedia 'Polymer fume fever'); so keep blowtorches away from taped joints, and solder or braze nearby joints first, let them cool, then make up the taped thread (FineHomebuilding forum advice). Gas: in the UK, work on gas fittings in homes and in workplaces such as shops, restaurants, schools and hospitals must be done by a Gas Safe registered engineer and 'it's illegal for anyone else to do it' (HSE); elsewhere follow local law. Oxygen: use only grease-free tape and sealants rated for oxygen (Wikipedia 'Thread seal tape'; LOCTITE 567 technical data sheet). Plastic fittings that are overtightened can split under pressure (Boshart).
+- **common_failures**: 1) Mixed thread standards: NPT and BSPT look alike (same 14 TPI in 1/2 and 3/4 in) but have different thread angles, so they screw together and leak; identify with a caliper and pitch gauge (Swagelok MS-13-77 pp. 7-9, 22-23). 2) Tape used on a parallel thread or a flare or tube fitting, where it can't seal (Wikipedia 'Thread seal tape'; Swagelok MS-14-01). 3) Too much tape stops the threads engaging fully and weakens them; tape and pipe dope together can also overload the threads (Wikipedia 'Thread seal tape') - though Boshart recommends a coat of compound over tape, so sources differ. 4) Tape wrapped against the thread direction unravels as the joint is screwed together (Boshart). 5) Tape hanging over the first thread shreds into the system and can jam a valve seat (Wikipedia 'Thread seal tape'; Swagelok MS-14-01). 6) Backing a tight joint off to line up a fitting, which makes it leak (Swagelok Northern California). 7) Overtightening a plastic female fitting until it splits (Boshart). 8) Too few threads engaged (fewer than about 3-1/2) from undertightening (Boshart). 9) Galling of stainless or unlubricated threads (Swagelok MS-13-77 p. 21; LOCTITE 567 technical data sheet). 10) Petroleum dope on PVC, CPVC or ABS (Wikipedia 'Pipe dope'). 11) Old sealant left in the threads (Swagelok MS-14-01). 12) Heat from soldering after the threaded joint was made (FineHomebuilding forum).
+- **related**: 
+  - Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union): the thread only holds and a washer or O-ring seals; no tape, and a union lets you undo the pipe without turning it
+  - Ordinary screw joint (bolt and nut, machine screw): a parallel thread that holds but doesn't seal
+  - Compression fitting (ferrule fitting): seals by crushing a ring onto plain tube; never tape it
+  - Flare fitting: a metal-to-metal cone seal on flared tube; never tape it
+  - Anaerobic adhesive (threadlocker, retaining compound): the same chemistry as anaerobic pipe sealant, used to lock threads
+  - O-ring seal: the ring used in 'NPT with O-seal' and straight-thread O-ring boss ports
+  - Hose barb: a ridged spigot for soft tubing, often on the other end of a taper-threaded adapter
+  - Quick couplers for tubes and hoses (push-to-connect): click-on connectors whose bodies often screw into a taper-threaded port
+  - Printed screw thread: how to model and print threads in general
+  - Soldered metal joint (sweat-soldered copper pipe): the permanent alternative for copper; heat from it can spoil a nearby taped joint
+  - Shutoff valve and Pressure relief valve: common parts that come with taper-threaded ends
+
+### Pictures, videos and models
+
+- **links**: 
+  - [File:Teflon tape wound around threaded pipe.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg): PTFE tape wound three times round a threaded pipe under a bathroom sink, ready for a hose connection *(licence: CC0 (Tomwsulcer))*
+  - [File:Colder BSPT Threads.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Colder_BSPT_Threads.png): Drawing of BSPT taper pipe threads *(licence: Public domain (as stated on Commons; source colder.com))*
+  - [File:Malefemalepipe.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Malefemalepipe.jpg): An ordinary threaded pipe and elbow fitting showing male and female pipe threads *(licence: Public domain)*
+  - [How to Apply PTFE Tape (Sealants) | Tech Tips | Swagelok [2020] (YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=S6-akMHP5Rc): Three-minute demonstration of wrapping PTFE tape on a male tapered pipe thread (embedded in Swagelok's blog post on the skill) *(licence: link only (standard YouTube licence))*
+  - [Thread and End Connection Identification Guide, MS-13-77 Rev H (Swagelok, 2025)](https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf): Illustrated step-by-step thread identification, NPT and ISO 7 thread-form drawings and the taper-thread size tables (pp. 7-9, 13-14, 21-26) *(licence: link only (Swagelok copyright))*
+- **make_it_yourself**: 
+  - [Thread Gauge Tester: A Handy Tool for Measuring NPT Hydraulic Pipe Threads (3D KIMBA, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1057747-thread-gauge-tester-a-handy-tool-for-measuring-npt): Printable male-and-female NPT thread gauges for 1/8 to 2 in, to identify unknown threads; a BSPP version is also offered *(licence: CC BY-NC-SA)*
+  - [3/4 Inch NPT Threads! (Mikel, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/231377-34-inch-npt-threads): A 3/4 in NPT male thread test model that can plug a 3/4 in PVC threaded female adapter *(licence: CC0 (Creative Commons Public Domain))*
+  - [REMIX Universal customizable OPENSCAD thread and pipe joint generator - added NPT (Cole von Werder, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1345884-remix-universal-customizable-openscad-thread-and-p): OpenSCAD generator for threaded pipe joints with 1/8 to 2 in NPT added (AI-assisted; tested by its author at 1/2 and 3/8 in only) *(licence: BSD License)*
+  - [BOSL2 threading.scad (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/threading.scad): npt_threaded_rod(): standard NPT pipe threads from 1/16 to 2 in, male or as a mask for female threads, with $slop clearance *(licence: BSD 2-Clause)*
+- **diagram_idea**: Cut-away side view of a tapered male end entering a tapered female fitting, with the taper exaggerated: first hand-tight with gaps at the crests and roots, then wrench-tight with the flanks wedged and the remaining spiral gaps filled by tape, plus a small inset of an NPT 60° and a BSPT 55° thread profile side by side.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/National_pipe_thread
+  - https://en.wikipedia.org/wiki/British_Standard_Pipe
+  - https://en.wikipedia.org/wiki/Thread_seal_tape
+  - https://en.wikipedia.org/wiki/Pipe_dope
+  - https://en.wikipedia.org/wiki/Polymer_fume_fever
+  - https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf
+  - https://www.swagelok.com/downloads/webcatalogs/en/ms-14-01.pdf
+  - https://northerncal.swagelok.com/blog/bid/88017/skill-applying-ptfe-tape-to-tapered-pipe-threads
+  - https://support.boshart.com/making-npt-connections
+  - https://blog.boshart.com/3-dos-and-donts-when-assembling-pvc-fittings
+  - https://support.boshart.com/how-to-apply-ptfe-thread-seal-tape
+  - https://blog.boshart.com/5-steps-properly-wrap-ptfe-tape
+  - https://twlnz.co.nz/product_images/d365/56706/PDF.pdf
+  - https://www.hse.gov.uk/gas/employers.htm
+  - https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm
+  - https://www.finehomebuilding.com/forum/plumbing-problem-8
+  - https://help.prusa3d.com/article/watertight-prints_112324
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/threading.scad
+  - https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg
+  - https://commons.wikimedia.org/wiki/File:Colder_BSPT_Threads.png
+  - https://commons.wikimedia.org/wiki/File:Malefemalepipe.jpg
+  - https://www.youtube.com/watch?v=S6-akMHP5Rc
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** aliases, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, special_behaviour, when_not_to_use
+
+## 403 Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union)
+
+*seals & pass-throughs.* A straight pipe thread only holds the parts together, while a rubber washer, bonded seal or O-ring squeezed against a flat face does the sealing, as on garden hoses and tap connectors
+
+*Also covers:* Also covers bonded seals, why US and European garden-hose threads don't fit each other, pipe unions and dielectric unions, and printed thread adapters.
+
+### What it is
+
+- **plain_name**: Two pipe or hose parts that screw together on a straight (not tapered) thread, where the thread only pulls them together and a rubber washer, a rubber-lined metal washer or an O-ring squashed between two flat faces is what stops the leak, like a garden hose screwed onto an outdoor tap
+- **term**: Parallel (straight) pipe thread with a face seal: BSPP / G thread (ISO 228), garden-hose thread (GHT, NH) and the pipe union
+- **aliases**: 
+  - BSPP = British Standard Pipe Parallel = G thread (ISO 228-1); older names BSPF (fitting thread) and BSPM (mechanical thread); 'G' originally stood for gas (Wikipedia 'British Standard Pipe')
+  - 'longscrew' thread: a BSP parallel thread sealed by a washer or O-ring squeezed between the end face and a socket face by a backnut (Wikipedia 'British Standard Pipe')
+  - JIS parallel pipe thread (identical to BSPP in design and size) (Swagelok MS-13-77, p. 37)
+  - garden hose thread (GHT) = 3/4-11.5 NH (National Hose); FHT and MHT (female and male hose thread); NHR (thin rolled hose couplers); 3/4-14 NPSH (a straight hose thread that mates with a tapered pipe thread) (Wikipedia 'Garden hose')
+  - NH or NST (National Standard Thread): the US fire-hose thread, a straight thread sealed with a gasket (Wikipedia 'Hose coupling')
+  - NPS and NPSC: US straight pipe thread series, as opposed to tapered NPT (Wikipedia 'National pipe thread')
+  - hose union: the technical name for the male-and-female threaded garden hose joint (Wikipedia 'Garden hose')
+  - pipe union, union fitting; ground-joint union (metal-to-metal seat), flat-face union, O-ring union; dielectric union or insulating union (Wikipedia 'Piping and plumbing fitting'; Projectmaterials)
+  - tap connector, tap tail, flexible tap connector ('flexi', UK), 'BSP female union' end (BES catalogue)
+  - hose washer, garden hose washer, tap connector washer, fibre washer, nylon washer, flat gasket, screen washer (washer with a filter mesh) (Wikipedia 'Garden hose'; RS)
+  - bonded seal = Dowty seal or Dowty washer (from the Dowty Group, which first made them), self-centring bonded washer; Usit ring (brand) (Wikipedia 'Bonded seal'; Wikimedia Commons)
+  - parallel hydraulic ports: DIN 3852 Part 2 Type A (bonded or metal washer) and Type B (metal edge), BS 5380 and SAE straight-thread O-ring boss (ORB, SAE J1926 / ISO 11926) (Swagelok MS-13-77, pp. 31, 40-42)
+  - Hozelock and Gardena (brands): click-on garden hose systems whose tap adapters screw onto a BSP tap thread (the click-on part is covered in the Push-to-connect entry)
+- **family**: seals & pass-throughs
+- **other_families**: hydraulics, pneumatics & vacuum
+- **one_liner**: A straight screw thread holds a pipe, hose or tap fitting together and squeezes a washer, bonded seal or O-ring against a flat face, and that squeezed ring (not the thread) makes the joint watertight, so it can be undone and remade many times with nothing more than a new washer.
+- **complexity**: A few parts: a male end with a straight thread and a flat end face or shoulder, a female socket or (often) a loose swivel nut, and a separate sealing ring (rubber, fibre or nylon washer, bonded seal or O-ring). A pipe union is a small three-part assembly that acts as one unit: a male end, a female end and a loose nut, with a metal-to-metal seat, a flat gasket or an O-ring between the two ends; a dielectric union adds a plastic insulating sleeve and a rubber gasket (Boshart data sheet).
+- **how_it_works**: Because both threads are straight, they slide past each other without wedging, so the thread itself leaves a spiral leak path and cannot seal (Swagelok MS-13-77, p. 27). Instead, tightening the nut pulls a flat face on one part towards a flat face or seat on the other and squashes a soft ring between them; the squeezed washer, bonded seal or O-ring closes the gap (Wikipedia 'British Standard Pipe', 'longscrew' threads). A garden hose has a captive nut on its female end with a rubber washer inside, which is pressed against the end of the tap's male thread (Wikipedia 'Garden hose'). A pipe union works the same way between two pipes that can't be turned: each pipe screws (or is soldered) into one half, and a loose nut pulls the two halves together on their seat, so the joint can be opened later without turning either pipe (Wikipedia 'Piping and plumbing fitting'; Projectmaterials).
+
+### Finder attributes
+
+- **job**: 
+  - seal it, or pass cables or fluid through: carries water, air or oil across a joint that can be taken apart again
+  - join and hold: the thread holds the two parts together against the water pressure and against pulling on the hose or pipe
+- **motion**: none: once tightened the parts are fixed; before tightening, a swivel nut or union nut lets the hose or pipe end sit at any angle
+- **degrees_of_freedom**: 0 when tightened. While loose, the swivel nut turns freely on the hose or fitting end, so the end can be lined up before the washer is squeezed.
+- **special_behaviour**: 
+  - self-aligning or self-centring: only in a small way: self-centring bonded washers have an extra rubber flap on the inside edge that centres the seal on the thread (Wikipedia 'Bonded seal'); otherwise it is a plain joint with no clever behaviour. Its practical advantage is that a union or swivel nut can be undone without turning the pipe or hose (Wikipedia 'Piping and plumbing fitting')
+- **holding_principle**: shape (the parts interlock; form-fit): the screw threads hold the parts together; plus friction or clamping (force-fit): the thread's pull squeezes the washer or O-ring, and that clamping force is what seals
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: unscrew by hand or with a spanner; the metal parts are reused, and a hardened or squashed washer is simply replaced
+- **reuse_cycles**: many times: the metal threads last for years; the washer is the part that wears out and is replaced (RS tap washers guide; Wikipedia 'Garden hose')
+- **tools_needed**: None for garden hoses ('Hand tighten only', then pliers only if it still leaks, garden hose adapter instruction sheet); two spanners or adjustable wrenches for tap connectors and pipe fittings (one to hold the body, one to turn the nut); pipe wrench for unions on steel pipe (Engineer Fix); spare washers. No thread tape or paste is needed on the parallel thread itself (Swagelok MS-13-77, p. 27).
+- **seal**: airtight or pressure: the squeezed washer, bonded seal or O-ring seals water at mains pressure, compressed air and, with bonded seals or O-rings in proper ports, hydraulic oil; the thread never seals ('the seal must be made with a gasket, O-ring, or some metal to metal contact', Swagelok MS-13-77, p. 27). Garden-hose and tap washers are made for water, so treat those joints as watertight rather than pressure-rated for air or oil.
+- **load**: Medium. The thread is strong in pull (it holds the fitting against water pressure and tugs on the hose); bending is taken by the pipe or hose end. The pressure the joint can hold is set by the fitting and the washer, not the thread: e.g. a typical braided flexible tap connector with a BSP female union and a nitrile washer is rated 13 bar at 23 °C (BES catalogue); forged-steel threaded unions come in 2000, 3000 and 6000 lb pressure classes (Projectmaterials). Printed plastic adapters are much weaker and creep, so keep them to low-pressure garden and hobby uses (see making tips).
+- **adjustable**: Partly: a swivel nut or union lets you choose the angle of a hose end, elbow or tap connector before tightening; once the washer is squeezed there is no adjustment except tightening a little more if it weeps (garden hose adapter instruction sheet).
+- **play_and_precision**: No play once tight. It tolerates very little angle between the faces: the faces must meet squarely and evenly, and misalignment of the pipes or dirt on the seat is a common cause of union leaks (What Is Piping, 'Pipe union'). A swivel nut takes up any twist, and the washer takes up small surface roughness. Not a locating joint.
+- **access_needed**: end of a tube or shaft: the fitting goes on the end of the pipe, hose or tap outlet, and you need room to turn the nut by hand or with a spanner (and usually to hold the body with a second spanner)
+- **materials**: Fittings: mostly brass (cut-thread hose ends and tap outlets, rolled thin brass on cheap hoses, Wikipedia 'Garden hose'), also galvanised or black steel and malleable iron for pipe unions, stainless steel, and plastic (nylon, polypropylene) for garden fittings. Seals: rubber (EPDM, nitrile), vulcanised fibre or nylon flat washers (RS); bonded seals are a steel ring with nitrile rubber bonded to its inner edge (Wikipedia 'Bonded seal'); O-rings. Dielectric unions join copper or brass to galvanised steel using a nylon insulator and a silicone rubber gasket (Boshart data sheet). 3D-printed adapters are usually PETG; printed washers are TPU (Printables models below).
+- **maker_difficulty**: easy to fit with bought parts (hand-tight or two spanners); moderate to 3D-print your own adapter, because the thread must be accurate, the sealing face flat and the part printed solid, and it must still use a proper rubber washer or O-ring
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: brass and plastic hose fittings, tap connectors, unions, washers and bonded seals are cheap and standard; this is the normal choice
+  - 3D print (FDM): adapters between thread standards (BSP to garden hose thread, BSP to click-on hose systems), plugs and test gauges for low-pressure garden and hobby use (Printables models below)
+  - CNC: threads can be cut on a lathe in brass or aluminium for one-off adapters
+- **print_in_place**: no: the threaded parts are printed separately and screwed together, and the seal is a separate bought rubber washer or O-ring (or a separately printed TPU washer)
+- **making_tips_3d_printing**: 1) Use a proper thread definition, not a guessed one: the OpenSCAD library threadlib has BSP parallel threads G1/16 to G6 built in with clearances 'left for production tolerances' (threadlib README), and there are tested printable templates such as a G1/2 BSPP plug that 'seals against base plate, not through thread' (Printables 556322). 2) Design the seal, not the thread: give the part a flat, smooth face (or an O-ring groove) for the washer to press on, because the thread will never seal (Swagelok MS-13-77, p. 27). One designer prints his garden-hose-to-BSP adapter small end down 'so that the interior of the bigger inlet end can have a flat surface for a washer' (Printables 262817). 3) Fit a real seal: a UK garden-tap adapter designer says the rubber O-ring 'must be fitted or the part will leak' (Printables 1335440). Printed TPU hose washers work for some makers (Shore 80-85A gives a pliable washer, 95-98A a hard one that needs tightening 'mightily'; concentric top and bottom fill leaks less than cross-hatch, Printables 119622), but Prusa's watertightness tests found that their '3D-printed gaskets don't work' while O-rings in well-designed printed parts were the most reliable (Prusa blog) - so prefer a moulded rubber washer or O-ring. 4) Print threads with thin layers, about 0.15 mm, standing upright (Printables 262817; Printables 936591), and print the part solid: 100% infill is recommended for printed thread gauges (Printables 936591) and PETG adapters are 'best printed solid' (Printables 554988). 5) Material: PETG is the usual choice for water fittings; a spanner can be used on a PETG adapter if you are 'careful not to squish it too hard' (Printables 262817). PLA deforms in summer heat, e.g. in a hot car (Prusa blog). 6) Make the walls leak-proof: Prusa found untreated PETG 'leaked really quickly through the seams and contact points between perimeters and solid infill', recommends 2-3 mm walls and more perimeters, and says parts for 2 bar or more will probably need post-processing such as sealing with epoxy resin (Prusa blog). A tap left on with a closed hose end puts full mains pressure on the adapter. 7) Expect printed threads to be a little tight; one maker found printed BSP threads 'can be a little tight' (Printables 262817). Print a thread gauge first to check which thread your tap actually has (Printables 936591 or 766176), since a US garden-hose thread and a 3/4 in BSP thread look alike but don't mix (Wikipedia 'Garden hose'). 8) Strength data: in a lab study, printed PETG pipe couplings of an 'easy-connect' design held 4.55 MPa, about eight times the highest standard residential water pressure (Taherzadeh Fini et al., J. Manuf. Mater. Process. 2025); this was a different design from a threaded hose adapter, so test your own part. 9) Don't print fittings for drinking water, hot water, gas or compressed-air storage (see safety notes).
+- **off_the_shelf_parts**: Search terms: 'hose washer' or 'garden hose washer' (3/4 in), 'screen washer' (with filter mesh), 'tap connector washer' or 'fibre washer 3/4"', 'nylon washer', 'bonded seal' or 'Dowty washer' (BSP sizes, e.g. 1/4 in BSP for hydraulic and pneumatic ports), 'self-centring bonded seal', 'BSP male x male hex nipple', 'BSP female socket', 'BSP reducing bush', 'BSP to GHT adapter' or 'garden hose thread adapter', 'hose tail' (BSP to hose barb), 'tap connector' or 'hose tap connector 3/4" BSP', 'flexible tap connector' (BSP female union x compression, e.g. https://www.bes.co.uk/flexible-tap-connector-3-4in-x-15mm-x-300mm-17436), 'pipe union' (BSP female x female, ground joint or O-ring), 'dielectric union' (FPT x sweat, Boshart data sheet), 'straight thread O-ring boss fitting' (hydraulics), 'BSPP thread gauge'. Match the thread standard (G/BSPP, GHT/NH, NPS) and size before buying; size tables are in the Swagelok thread identification guide (https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf).
+- **rules_of_thumb**: 
+  - Don't put sealant on the thread: 'A sealant is not required or recommended on straight threads'; the seal comes from a gasket, O-ring or metal-to-metal contact (Swagelok MS-13-77 p. 27, https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf). 'Parallel threads may not seal effectively with or without tape, as they are intended to be sealed by a gasket' (Wikipedia, https://en.wikipedia.org/wiki/Thread_seal_tape).
+  - Read the letter: G (ISO 228) is a parallel thread for washer or O-ring seals; R (taper male), Rc (taper female) and Rp (parallel female) are ISO 7 'jointing' threads that seal on the thread, where a taper male always goes into a taper or parallel female; all BSP threads have a 55° thread angle (Wikipedia, https://en.wikipedia.org/wiki/British_Standard_Pipe). US NPT threads are 60° (Wikipedia, https://en.wikipedia.org/wiki/National_pipe_thread), so don't mix the families.
+  - US garden hose thread (GHT/NH) is 1-1/16 in (27 mm) across with 11.5 threads per inch; most other countries use 3/4 in BSP with 14 threads per inch (male outside diameter 26.441 mm). They are 'not compatible, and attempting to connect' one to the other 'will damage the threads'; use an adapter (Wikipedia, https://en.wikipedia.org/wiki/Garden_hose). Because the diameters are almost the same, the wrong one will start to screw on and then bind - stop as soon as it gets stiff (our inference from those sizes).
+  - Hose and tap adapters: 'Hand tighten only'; if it leaks when the water is on, tighten a little with pliers (garden hose adapter instruction sheet, https://pdf.lowes.com/productdocuments/ca85531a-52d5-441c-8b3f-c78210bc43f4/13171913.pdf); turn by hand 'until you feel resistance (do not over-tighten, as this may damage threads or the washer)' (hose fitting instructions, https://images.thdstatic.com/catalog/pdfImages/77/77312a78-07f8-4962-ab45-a732ff4b5fb7.pdf).
+  - Washer material: fibre washers swell when wet and are 'easier to compress', so less at risk from over-tightening; rubber is softer and seals rougher surfaces better but is 'displaced and distorted' more under high squeeze and eventually cracks or splits; nylon wears by scarring (RS tap washers guide, https://uk.rs-online.com/web/content/discovery/ideas-and-advice/tap-washers-guide).
+  - Union seats: ground-joint (conical metal-to-metal) for general service and steam, up to about 500 °C depending on material; flat-face for low-pressure utility service; O-ring for clean water and air but not high temperature (Projectmaterials, https://blog.projectmaterials.com/quick-answers/pipe-fittings/what-is-union/).
+  - Dielectric unions go between pipes of different metals (e.g. copper and galvanised steel) and are 'Not suitable for combustible gases (such as ... natural gas/propane), steam, ethylene glycol or propylene glycol' (Boshart data sheet, https://images.boshart.com/boshartimages/2024/07/DU-NL_dieelectricunion_technicalsheet.pdf). Keep soldering heat away from the plastic insulator and don't over-tighten the nut, which can crush it (Engineer Fix, https://engineerfix.com/what-is-a-dielectric-union-and-how-does-it-work/).
+  - Hydraulic parallel ports: DIN 3852 Part 2 Type A seals with an all-metal or bonded washer under a straight shoulder, Type B with a metal gasket on an angled shoulder, BS 5380 and SAE O-ring boss with an O-ring pressed into a taper, and BSPP hydraulic hoses seal on a 30° cone (Swagelok MS-13-77 pp. 31, 37, 40-42, https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf).
+  - Printed parts: for 2 bar and more expect to post-process (e.g. seal with epoxy) and use at least four perimeters and 60% infill; untreated PETG leaked through perimeter seams (Prusa, https://blog.prusa3d.com/watertight-3d-printing-part-2_53638/).
+
+### When to use it
+
+- **everyday_examples**: 
+  - a garden hose screwed onto an outdoor tap, with a small rubber washer inside the hose nut (Wikipedia 'Garden hose')
+  - a shower hose, whose ends are standard 1/2 in BSPP (Printables 556322)
+  - the braided flexible tap connectors under a kitchen or bathroom sink, with a 3/4 in or 1/2 in BSP female nut and washer on the tap end (BES catalogue)
+  - the union with a big hex nut on the pipes above a water heater, often a dielectric union between copper and steel pipe (Boshart data sheet; Wikimedia Commons photo of a dielectric union being tightened on a water heater)
+- **when_to_use**: Whenever a water, air or oil connection must come apart again and be remade without tape or paste: hoses, sprinklers and pumps, tap connectors, shower hoses, pressure gauges (gasket-sealed gauge connections, Swagelok p. 39), and hydraulic or pneumatic ports with bonded seals or O-rings. Use a pipe union where two fixed pipes must be separated for maintenance (a pump, filter, water heater or valve), because it opens without turning either pipe (Wikipedia 'Piping and plumbing fitting'). Use a dielectric union where copper or brass meets galvanised steel, to stop galvanic corrosion (Wikipedia 'Piping and plumbing fitting'). For makers it is the easy way to connect a printed or home-made device to a tap or hose: buy or print an adapter with the right thread and a flat face for a standard washer.
+- **when_not_to_use**: When the fitting has a tapered thread (NPT, BSPT, R/Rc): that seals on the thread with tape or paste instead (Tapered pipe thread entry). Never join a GHT fitting to a BSP one, or a 55° BSP thread to a 60° NPT thread; use an adapter (Wikipedia 'Garden hose', 'National pipe thread'). For joints hidden in walls or that should never be opened, soldered, brazed or press joints are usual (Soldered metal joint, Compression fitting entries). For hoses you plug and unplug often, a click-on or push-to-connect coupler is faster (Push-to-connect entry). For fuel gas, steam or glycol, don't use a dielectric union (Boshart data sheet) and follow the local gas code with rated parts. Don't use a home-printed adapter on drinking water, hot water, gas or high-pressure air or oil: buy a rated metal fitting.
+- **environment_limits**: Heat: most garden hoses are not rated for hot water, and even leaving a pressurised hose in the sun can make it burst (Wikipedia 'Garden hose'); a typical flexible tap connector is rated to 85 °C and 13 bar at 23 °C (BES catalogue); O-ring unions are not for high temperatures, while ground-joint metal unions go to about 500 °C (Projectmaterials). Chemicals: dielectric unions are not for steam, glycol or combustible gas, and corrosion speeds up as fluid temperature rises (Boshart data sheet). Ageing: rubber washers harden, crack and split over time and must be replaced (RS guide). Corrosion: copper joined directly to galvanised steel in tap water corrodes the steel (Wikipedia 'Piping and plumbing fitting'). Printed PLA adapters soften in summer heat (Prusa blog). *(unverified parts omitted)*
+- **safety_notes**: Stored pressure: turn the water off and open a tap or valve to release pressure before undoing a fitting, union or dielectric union (Engineer Fix); a valve that shuts suddenly causes water hammer, a pressure surge that 'can cause pipelines to break' (Wikipedia 'Hydraulic shock'). On hydraulic systems, never feel for leaks with your hand or loosen a fitting under pressure: hydraulic injection injury 'may occur at pressures as low as 7 bar', and replacement fittings must be 'matched and compatible' (HSE safety bulletin). Never hold stored pressure (air tanks, hydraulics, pressurised hot water) in a 3D-printed fitting. Gas: dielectric unions are not for natural gas or propane (Boshart data sheet); gas fittings are a job for a qualified fitter under local law. Drinking water: use fittings and hoses listed for drinking water (NSF-listed hose materials, Wikipedia 'Garden hose'), and fit an approved backflow preventer on a tap feeding a hose, which plumbing codes may require (Wikipedia 'Garden hose'). Water left standing in a warm hose can grow Legionella, so drain hoses after use and don't breathe the fine spray from stagnant hose water (Wikipedia 'Garden hose').
+- **common_failures**: (1) Missing, flattened, hardened or cracked washer: the commonest garden-hose leak; replace it and make sure it sits flat in its groove (hose fitting instructions; RS guide). (2) PTFE tape wound on the parallel thread instead of fitting a washer: it won't seal (Wikipedia 'Thread seal tape'; Swagelok p. 27), and loose shreds of tape can 'slough off' and jam a valve seat (Wikipedia 'Thread seal tape'). (3) Mixing thread standards: a US GHT hose forced onto a BSP tap damages both threads (Wikipedia 'Garden hose'); BSP and NPT 1/2 and 3/4 in threads are so close they 'can be difficult to identify' (Swagelok p. 23), so check with a gauge. (4) Over-tightening: squashes a rubber washer out of shape (RS guide), cracks plastic nuts or printed adapters (Printables 262817), or crushes the insulator of a dielectric union (Engineer Fix). (5) Union leaks from dirt on the seat, a damaged seat, misaligned pipes, too little tightening or vibration (What Is Piping). (6) Corrosion where copper meets steel without a dielectric union (Wikipedia 'Piping and plumbing fitting'). (7) Heat from soldering the copper side of a dielectric union melting its insulator or gasket (Engineer Fix). (8) Printed adapters leaking through the layers rather than at the washer, or printed gaskets not sealing (Prusa blog).
+- **related**: 
+  - Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope): seals on the wedging thread itself with tape or paste; no washer, but the joint can't be turned back to line up
+  - Compression fitting (ferrule fitting): a nut crushes a metal or plastic ring onto a plain tube, so no thread or washer is needed on the tube itself
+  - Flare fitting: the tube end is spread into a cone and clamped metal-to-metal; like a ground-joint union but on tube
+  - Push-to-connect fitting and quick couplers: click-on hose connectors (Hozelock, Gardena (brands)) that join without turning; they usually screw onto the tap with a BSP thread like this one
+  - Hose barb: a ridged spigot pushed inside soft tubing, often on the other end of a BSP or GHT adapter
+  - O-ring seal and Gasket: the sealing ring itself and how to design its groove or face
+  - Printed screw thread: how to model and print the thread; here the thread only holds and a separate washer seals
+  - Band flange clamp (tri-clamp): a gasket squeezed between two flanges by a hinged clamp instead of a nut
+  - Genderless connector (Storz coupling): a quarter-turn fire and garden hose coupling with a gasket, no thread
+  - Soldered metal joint (sweat-soldered copper pipe): the permanent way to join copper pipe; unions and dielectric unions often have one soldered end
+  - Cable gland and strain relief: the same 'nut squeezes a rubber seal' idea, used round a cable
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Brass hose bipp with standard and GHT threads.jpg (Wikimedia Commons, by Ipab)](https://commons.wikimedia.org/wiki/File:Brass_hose_bipp_with_standard_and_GHT_threads.jpg): A brass garden tap outlet with an ISO 228-1 G1/2 parallel thread on the inlet side and a US-only garden hose thread (GHT) on the outlet: the two standards side by side *(licence: CC BY-SA 3.0 (reuse with credit))*
+  - [New Bonded Washer WIKIPEDIA DWG.png (Wikimedia Commons, by Brotherpete)](https://commons.wikimedia.org/wiki/File:New_Bonded_Washer_WIKIPEDIA_DWG.png): Semi-technical drawing of how a bonded seal works: a steel ring with a rubber inner lip squeezed between a bolt or fitting and a flat face *(licence: Public domain)*
+  - [Union (PSF).png (Wikimedia Commons, Pearson Scott Foresman)](https://commons.wikimedia.org/wiki/File:Union_(PSF).png): Line drawing of a three-piece pipe union: two threaded end pieces drawn together by a centre nut so neither pipe has to turn *(licence: Public domain)*
+  - [Selbstdichtenden Unterlegscheibe Usit Ring Schnitt.svg (Wikimedia Commons, by MichaelFrey)](https://commons.wikimedia.org/wiki/File:Selbstdichtenden_Unterlegscheibe_Usit_Ring_Schnitt.svg): Cross-section of a self-sealing (bonded) washer of the Usit-ring type, showing the metal ring and rubber sealing lip *(licence: CC0 (public domain dedication))*
+  - [Swagelok Thread and End Connection Identification Guide (MS-13-77)](https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf): Illustrated guide to telling thread standards apart; pp. 27 and 36-42 show where BSPP, DIN 3852, BS 5380 and gasket-sealed parallel-thread connections seal, with size tables *(licence: link only (manufacturer document))*
+- **make_it_yourself**: 
+  - [US garden hose to BSP 0.75 sprinkler adapter (Printables 262817; URL from Printables API, page not opened)](https://www.printables.com/model/262817-us-garden-hose-to-bsp-075-sprinkler-adapter): Printable adapter with a US garden hose female thread and a 3/4 in BSP male thread, with notes on print orientation for a flat washer face and on printed BSP threads being a little tight *(licence: Public domain (Creative Commons Public Domain))*
+  - [G1/2" Parallel Whitworth Pipe Thread - Plug and Template (Printables 556322; URL from Printables API, page not opened)](https://www.printables.com/model/556322-g12-parallel-whitworth-pipe-thread-plug-and-templa): A G1/2 (BSPP, ISO 228) plug with FreeCAD source to build your own shower-hose adapters; it seals against a base plate, not through the thread *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Garden Hose Washer - EASY TPU (Printables 119622; URL from Printables API, page not opened)](https://www.printables.com/model/119622-garden-hose-washer-easy-tpu): Printable TPU garden hose washers with tabs that stop them falling out, with advice on Shore hardness and fill pattern *(licence: Public domain (Creative Commons Public Domain))*
+  - [Thread Gauge Tester: A Handy Tool for Measuring BSPP Hydraulic Pipe Threads (Printables 936591; URL from Printables API, page not opened)](https://www.printables.com/model/936591-thread-gauge-tester-a-handy-tool-for-measuring-bsp): Set of printed male and female BSPP thread gauges (1/8 to 3/4 in) for identifying which thread a fitting has; 0.15 mm layers and 100% infill recommended *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [1 inch pipe Union Connector with female threads (Printables 1285599; URL from Printables API, page not opened)](https://www.printables.com/model/1285599-1-inch-pipe-union-connector-with-female-threads): A printed PETG pipe union with female threads on both sides and an O-ring seal, made to connect a hose to a submersible pump (the designer notes it was not yet leak-tested) *(licence: CC BY (Creative Commons Attribution))*
+  - [threadlib: OpenSCAD library of standard threads](https://github.com/adrianschlatter/threadlib): OpenSCAD library with built-in tables for BSP parallel threads G1/16 to G6 (and metric, UNC/UNF, PCO bottle threads), creating printable threads, bolts, nuts and tapped holes with clearances, e.g. thread("G1/2-ext", turns=10) *(licence: BSD-3-Clause)*
+- **diagram_idea**: A cut-away side view of a garden hose nut screwed onto a tap outlet, with the straight threads drawn with a visible spiral gap and arrows showing water stopped only where the flat rubber washer is squashed between the end of the tap thread and the bottom of the nut, next to a small inset of a pipe union showing the nut pulling two end pieces together on their seat.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/British_Standard_Pipe
+  - https://en.wikipedia.org/wiki/National_pipe_thread
+  - https://en.wikipedia.org/wiki/Garden_hose
+  - https://en.wikipedia.org/wiki/Bonded_seal
+  - https://en.wikipedia.org/wiki/Thread_seal_tape
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://en.wikipedia.org/wiki/Hose_coupling
+  - https://en.wikipedia.org/wiki/Hydraulic_shock
+  - https://www.swagelok.com.cn/downloads/webcatalogs/en/MS-13-77.pdf
+  - https://blog.projectmaterials.com/quick-answers/pipe-fittings/what-is-union/
+  - https://whatispiping.com/pipe-union
+  - https://uk.rs-online.com/web/content/discovery/ideas-and-advice/tap-washers-guide
+  - https://images.boshart.com/boshartimages/2024/07/DU-NL_dieelectricunion_technicalsheet.pdf
+  - https://engineerfix.com/what-is-a-dielectric-union-and-how-does-it-work/
+  - https://www.bes.co.uk/flexible-tap-connector-3-4in-x-15mm-x-300mm-17436
+  - https://pdf.lowes.com/productdocuments/ca85531a-52d5-441c-8b3f-c78210bc43f4/13171913.pdf
+  - https://images.thdstatic.com/catalog/pdfImages/77/77312a78-07f8-4962-ab45-a732ff4b5fb7.pdf
+  - https://blog.prusa3d.com/watertight-3d-printing-part-2_53638/
+  - https://hdl.handle.net/20.500.14721/15749
+  - https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm
+  - https://github.com/adrianschlatter/threadlib
+  - https://commons.wikimedia.org/wiki/File:Brass_hose_bipp_with_standard_and_GHT_threads.jpg
+  - https://commons.wikimedia.org/wiki/File:New_Bonded_Washer_WIKIPEDIA_DWG.png
+  - https://commons.wikimedia.org/wiki/File:Union_(PSF).png
+  - https://commons.wikimedia.org/wiki/File:Selbstdichtenden_Unterlegscheibe_Usit_Ring_Schnitt.svg
+  - https://commons.wikimedia.org/wiki/File:U.S._Navy_Constructionman_Jennifer_Stewart,_foreground,_attaches_a_toilet_tank_to_the_bowl_of_a_bathroom_as_Jeffery_Brown_tightens_a_dielectric_union_on_a_water_heater_at_Sheppard_Air_Force_Base,_Texas,_July_25_110725-F-NS900-013.jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits
+
+## 408 Flare fitting (flared tube fitting, double flare)
+
+*seals & pass-throughs.* The end of a soft metal tube is spread into a cone with a flaring tool and clamped by a nut against a matching cone, giving a metal-to-metal seal, as on car brake lines, gas pipes and air-conditioner pipes
+
+*Also covers:* Also covers single and double flares, flaring tools and flare-nut spanners. Safety: brake and gas lines are safety-critical, so follow the rules for them.
+
+### What it is
+
+- **plain_name**: The end of a soft metal tube is spread out into a small cone, like a trumpet bell, with a special tool, and a nut on the tube pulls that cone tight against a matching cone on the fitting so the metal itself makes the seal
+- **term**: Flare fitting (flared tube fitting; single flare, double flare and bubble flare)
+- **aliases**: 
+  - flared fitting, flared joint, flare connection, flare connector (Wikipedia 'Flare fitting'; 'Piping and plumbing fitting')
+  - flare nut, tube nut (the nut slid onto the tube before flaring) (Wikipedia; AGS Company)
+  - SAE 45° flare (automotive, plumbing, refrigeration); JIC 37° flare (hydraulics); AN 37° flare (aircraft and military) (Wikipedia 'Flare fitting')
+  - single flare; double flare (the tube wall folded back on itself before the cone is formed) (Wikipedia; FAA)
+  - inverted double flare, a.k.a. 'funnel' or 'trumpet' flare (SAE/JASO brake fittings) (Pliassounov 2012)
+  - ISO flare, bubble flare (metric brake fittings; ISO 4038, SAE J1290) (Pliassounov 2012)
+  - AN flared fitting with sleeve (aircraft: nut, sleeve and flared tube) (FAA)
+  - flaring tool, flaring bar or block, yoke, flaring cone; double-flaring adapters (FAA; Wikipedia)
+  - flare-nut wrench = line wrench = tube wrench = flare spanner = brake spanner; crow's-foot wrench for use with a torque wrench (Wikipedia 'Wrench')
+  - metal-to-metal seal, cone-to-cone seal
+- **family**: seals & pass-throughs
+- **other_families**: hydraulics, pneumatics & vacuum
+- **one_liner**: A flare fitting joins a soft metal tube to a fitting or port by spreading the tube end into a cone and clamping it with a nut against a matching cone, giving a strong, leak-tight metal-to-metal seal that can be undone and remade, as on car brake lines, gas pipes and air-conditioner pipes.
+- **complexity**: A few parts: the tube with its flared end, a flare nut (put on the tube before flaring), and a fitting body, union or port with a cone-shaped seat; aircraft AN fittings add a sleeve between the nut and the flare to spread vibration (FAA). Making it needs a tube cutter, a deburring tool and a flaring tool with the right angle and size, plus two spanners (Wikipedia; FAA; LibreTexts).
+- **how_it_works**: The tube is cut square, deburred, slid through the nut and clamped in a flaring block, then a cone or mandrel is screwed or rolled into the end to cold-form it into a bell that matches the fitting's angle, 'a type of forging operation' (Wikipedia 'Flare fitting'). Tightening the nut presses the inside of the flare against the cone on the fitting, forming 'a pressure-resistant, leak-tight seal' with no gasket or sealant: compound must never go on the flare faces because it 'destroys the metal-to-metal contact' (Wikipedia; FAA). For a double flare, a first adapter pushes the tube end into a bubble and the cone then folds it into a double-thickness flare, which avoids stretching and cracking the cut end and is used for high pressure (Wikipedia; FAA). Car brake lines use either the inverted double flare, whose concave inside sits on a cone sticking out of the port, or the ISO 'bubble' flare, whose rounded outside sits in a concave seat in the port; the two are different designs (Pliassounov 2012).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins a metal tube to another tube, a valve, a gauge or a component port such as a brake cylinder
+  - seal it, or pass cables or fluid through: makes a leak-tight metal-to-metal seal for brake fluid, fuel gas, refrigerant, fuel and hydraulic oil
+- **motion**: none
+- **degrees_of_freedom**: 0: once the nut is tight the tube and fitting are fixed together.
+- **special_behaviour**: none: a plain sealed joint; its useful trick is that it can be undone and remade many times without new parts (FAA)
+- **holding_principle**: shape (the parts interlock; form-fit) and friction or clamping (force-fit): the flare is wider than the hole in the nut so the tube can't pull out, and the nut's thread clamps the flare cone onto the seat to seal
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: unscrew the nut with a flare-nut wrench; a properly tightened fitting 'may be removed and retightened many times before reflaring is necessary' (FAA)
+- **reuse_cycles**: many times: the same flare can be undone and retightened many times if it was not overtightened (FAA); a damaged flare is cut off and re-flared
+- **tools_needed**: Tube cutter (a clean, square cut; Wikipedia, LibreTexts); deburring tool or reamer for inside and outside of the cut; a flaring tool of the right type, angle and size (single-flare bar and yoke, double-flare kit with adapters, or ISO bubble tool) (FAA; Wikipedia); tube bender; two flare-nut (line) wrenches, one to hold the fitting; a crow's-foot flare wrench and torque wrench where a torque is specified (Wikipedia 'Wrench'; FAA). For copper or aluminium that has hardened: heat source to anneal the end (FAA). For brakes: brake bleeding equipment; for gas and refrigerant: leak-test and pressure-test equipment used by qualified people.
+- **seal**: airtight or pressure: the flared cone is clamped onto a matching cone so metal seals against metal, with no gasket (Wikipedia; FAA); flare connections are 'considered more secure against leaks and sudden failure' and are used in hydraulic brake systems and other high-pressure, high-reliability uses (Wikipedia 'Piping and plumbing fitting')
+- **load**: Heavy (high pressure) for its size: used in hydraulic brakes, high-pressure hydraulics (JIC 37°) and aircraft fluid lines, where flares 'are frequently subjected to extremely high pressures' (Wikipedia; FAA). Weak points: the thin flare can crack, or be badly damaged or 'completely cut off' by overtightening; undertightening 'may allow the line to blow out of the assembly or to leak under system pressure' (FAA). Vibration concentrates at the flare edge, which is why AN fittings use a sleeve (FAA). The tube itself should be clipped and supported, not left to hang on the fitting (DVSA lists inadequately clipped brake pipe as a fault).
+- **adjustable**: no: the joint has no adjustment; a weeping joint can be retightened within the specified torque, but extra torque cannot fix a bad flare (FAA)
+- **play_and_precision**: No play once tight. It tolerates very little misalignment: line the tube up with the port before tightening and 'do not pull the installation into place with torque on the nut' (FAA). A crooked flare from a cut that isn't square leaks, a flare that is too small is weak and may pull apart, and one that is too large stops the thread engaging properly (FAA).
+- **access_needed**: end of a tube or shaft: you need a free tube end to slide the nut on and flare it, and room for a flare-nut wrench on both the nut and the fitting
+- **materials**: Tube: soft steel, soft (ductile) copper and aluminium are usual (Wikipedia 'Flare fitting'); copper must be soft (annealed), because 'hard-drawn copper does not flare properly' (LibreTexts); brass, copper and aluminium can be annealed by 'heating to a dull red and cool rapidly in cold water' (FAA). Rolling-type flaring tools are for soft copper, aluminium and brass only, not stainless steel or titanium (FAA). Fittings: SAE fittings for plumbing and refrigeration are typically brass; JIC fittings are steel or stainless steel (Wikipedia). Avoid mixing fitting alloys, which causes dissimilar-metal corrosion (FAA). Not for plastic tube (use compression fittings with inserts or push-fit couplers). *(unverified parts omitted)*
+- **maker_difficulty**: moderate: the tools are cheap and the steps are simple, but a leak-free flare needs a square cut, careful deburring, the right tool and angle, and practice on scrap; brake, gas and refrigerant lines are safety-critical and often legally restricted
+
+### Making it
+
+- **processes**: off-the-shelf part (flare fittings, nuts and unions, and pre-flared brake or refrigerant lines), sheet metal (metal tube work by hand: cutting, bending and flaring soft tube)
+- **print_in_place**: no: the joint is formed metal tube and metal fittings; it can't be printed
+- **making_tips_3d_printing**: Not applicable to the joint itself: never 3D print flare fittings, nuts or adapters for brake, gas, fuel, refrigerant or any pressurised line, and never hold stored pressure in a printed part. Printed parts are useful around the job: a bending jig for 4.75 mm (3/16 in) or 5 mm brake pipe (Printables 1099352); dust caps and plugs that keep dirt out of open AN lines, which their designer marks 'NOT FOR PRESSURE USE, probably not even liquid-tight' (Printables 1594281); and an M10 x 1 cap printed in PETG to stop brake fluid running out while a line is off during servicing (Printables 1713359). A printed spanner made with a flare-nut end option (Printables 383970) is fine as a size gauge or for light plastic fittings, but use a steel flare-nut wrench on real brake and gas nuts.
+- **off_the_shelf_parts**: Search terms: 'flare nut' or 'tube nut' (state 'inverted flare' or 'bubble flare' and the thread, e.g. 3/8-24 or M10 x 1) (AGS Company); 'flare union', 'flare tee', 'flare to NPT adapter'; '45° SAE flare fitting' (brass, for refrigeration, gas and plumbing), '37° JIC fitting' (hydraulics), 'AN fitting' (Wikipedia); 'single flaring tool', 'double flaring tool kit', 'ISO bubble flaring tool' (FAA; Wikipedia); 'tube cutter', 'deburring tool', 'tube bender'; 'flare nut wrench' or 'line wrench', 'crowfoot flare nut wrench' (Wikipedia 'Wrench'); 'pre-flared brake line'. For thread and seat dimensions, link to a maker's table such as Ryco's SAE 45° flare (SAE J512) guide: https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/ rather than copying sizes.
+- **rules_of_thumb**: 
+  - Match the flare angle to the fitting: SAE 45° (automotive, plumbing, refrigeration), JIC 37° (higher-pressure hydraulics) and AN 37° (aircraft and military); 'SAE and AN/JIC connections are incompatible due to the different flare angle' (Wikipedia, https://en.wikipedia.org/wiki/Flare_fitting). Aircraft flaring dies make 35° to 37°, and an automotive 45° flaring tool must never be used on aircraft tube (FAA AMT General Handbook ch. 9, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf).
+  - Threads screwing together don't prove a match: SAE 45° and JIC 37° share the thread forms 7/16-20, 1/2-20, 3/4-16 and 7/8-14 (Ryco, https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/), and for brake fittings 'thread engagement does not establish compatibility' between inverted and bubble flares (AGS Company, https://www.agscompany.com/collections/fittings?page=11).
+  - Use a double flare for high pressure, because 'the double flare avoids stretching the cut end where a single flare may crack' (Wikipedia, https://en.wikipedia.org/wiki/Flare_fitting); on aircraft, soft aluminium tube of 3/8 in OD and under is double flared (FAA, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf).
+  - Set the tube height in the flaring block exactly as the tool's instructions say: about 1/8 in above the block for a typical HVAC single flare (LibreTexts, https://workforce.libretexts.org/Courses/Coalinga_College/Introduction_to_Residential_HVAC_Level_1/04%3A_Basic_Copper_and_Plastic_Pipping_Practices/4.11%3A_Joining_Copper_Piping); flush with the top of the die for self-gauging rolling tools; and equal to the adapter shoulder thickness for a double flare (FAA).
+  - Slide the flare nut onto the tube before flaring, deburr inside and out, and don't overtighten the flaring tool, which thins the flare wall (LibreTexts; FAA).
+  - Tighten to the specified torque with a torque wrench; the FAA handbook's Figure 9-20 lists flared-fitting torques by tube size (FAA, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf). Never put sealing compound or tape on the flare faces (FAA).
+  - Flare and compression fittings 'are generally not interchangeable' (Wikipedia, https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting).
+  - UK MOT test: brake pipe repairs need suitable connectors, 'compression joints of a type using separate ferrules are not suitable', and corrosion reducing the wall by a third (about 0.25 mm) is a fail (DVSA MOT inspection manual 1.1.11, https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes).
+  - Gas: copper tube for propane, LPG or natural gas may use single 45° flared brass fittings under the US National Fuel Gas Code (NFPA 54), but check acceptance with the local authority having jurisdiction (Wikipedia, https://en.wikipedia.org/wiki/Flare_fitting).
+
+### When to use it
+
+- **everyday_examples**: 
+  - car and motorbike brake lines, with their small hex tube nuts screwed into the brake master cylinder and callipers (Wikipedia; Pliassounov 2012)
+  - copper gas pipe to a propane or natural-gas appliance in North America (Wikipedia, NFPA 54)
+  - split (mini-split) air-conditioner and heat-pump refrigerant pipes joined at the indoor and outdoor units (LibreTexts)
+  - aircraft and hydraulic machinery tubing (FAA; Wikipedia JIC 37°)
+- **when_to_use**: When soft metal tube (copper, aluminium, soft steel) must be joined to fittings or components with a reliable seal against high pressure or vibration, and the joint must still come apart for service: brake and clutch lines, fuel and oil lines, refrigerant lines, gas lines where allowed, hydraulic tubing and instrument lines (Wikipedia; FAA). Flared joints are an alternative to soldered joints that need no open flame and can be separated (Wikipedia), and they offer 'a high degree of long-term reliability' in 'mission-critical and inaccessible locations' (Wikipedia). For makers: small hydraulic or pneumatic rigs with copper or steel tube, brake-line repairs done properly with the right flare type, and connecting gauges to metal lines.
+- **when_not_to_use**: On plastic, PEX or rubber tube (use compression fittings with inserts, push-fit couplers or hose barbs). On hard (unannealed) copper or stainless steel with a basic hand tool (anneal the end, or use compression or flareless fittings) (LibreTexts; FAA). When you don't have the right tool for the fitting's angle and type: never mix 45° and 37° parts or inverted and bubble brake flares (Wikipedia; AGS Company). When a quick, many-joint plumbing job is needed: soldering is quicker and cheaper for many joints (Wikipedia 'Piping and plumbing fitting'). For brake repairs, never use compression joints with separate ferrules (olives) instead (DVSA). For gas or refrigerant work where the law requires a registered or certified person (HSE; EPA). Never 3D print the fitting.
+- **environment_limits**: No rubber seal, so heat and fluids that attack O-rings don't affect the flare itself; limits come from the metal: steel brake pipes corrode, and the UK MOT fails pipes whose wall is reduced by a third (DVSA); mixed alloys corrode each other (FAA). Vibration concentrates at the edge of the flare, so support the tube with clips and use a sleeve where specified (FAA; DVSA). Over time and with repeated overtightening the flare or seat deforms; in SAE-style brake fittings extra torque used to cure a leak can squash the seat and narrow the passage, while on ISO bubble flares it crushes the flare (Pliassounov 2012).
+- **safety_notes**: SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rules. BRAKES: a leaking or badly repaired brake pipe is a major MOT failure, repairs need suitable connectors and ferrule-type compression joints are not allowed (DVSA); use only the flare type and thread the vehicle was built with (AGS Company), bleed the brakes and test them before driving, and if unsure have a qualified mechanic check the work. GAS: in the UK, work on gas fittings in homes and most workplaces must be done by a Gas Safe registered engineer, and 'it's illegal for anyone else to do it'; if you smell gas, turn off the supply and call the emergency number (HSE); elsewhere follow the local fuel gas code and authority (Wikipedia, NFPA 54). REFRIGERANT: in the US, technicians who service equipment that could release refrigerants must be EPA Section 608 certified (EPA); refrigerant systems run at high pressure (R-410A needs fittings rated for high pressure, LibreTexts). STORED PRESSURE: never undo a fitting while the line is under pressure; an undertightened fitting can let the line 'blow out of the assembly' (FAA), and pressurised fluid or gas can spray out. Never hold pressure in a 3D-printed part. BURNS AND CUTS: annealing tube with a torch to a dull red heat brings burn and fire risks (FAA); freshly cut tube ends and burrs are sharp.
+- **common_failures**: (1) Leaks from a bad flare: cracked, split or thinned flares from hard tube, overworking or overtightening the flaring tool; uneven flares when the tube slips in the block; crooked flares from a cut that isn't square; burrs left on the edge (FAA; LibreTexts). A bad flare 'cannot be corrected by applying additional torque'; cut it off and re-flare (FAA). (2) Wrong size: too small is weak and may leak or pull apart, too large stops the thread engaging (FAA). (3) Mismatched parts: 45° SAE flare on a 37° JIC or AN fitting, or an inverted flare in a bubble-flare port; the threads may still screw together (Wikipedia; Ryco; AGS Company). (4) Forgetting to put the nut on before flaring, which means cutting the flare off and starting again (LibreTexts). (5) Overtightening, which damages or cuts off the flare or ruins the nut, or undertightening, which leaks or blows out (FAA). (6) Sealant or PTFE tape on the flare faces, which stops the metal-to-metal seal (FAA). (7) Rounded nuts from using an open-ended spanner on soft brass or steel tube nuts: use a flare-nut wrench, which grips more of the nut (Wikipedia 'Wrench'). (8) Pulling a misaligned tube into place with the nut (FAA). (9) Single flares on brake or other high-pressure lines, which may crack (Wikipedia).
+- **related**: 
+  - Compression fitting (ferrule fitting): looks similar from outside but grips the unchanged tube with a ring (olive or ferrule); no flaring tool, but not interchangeable with flare fittings and not allowed for UK brake pipe repairs (Wikipedia; DVSA)
+  - Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope): seals on the thread with sealant, for pipe rather than tube; flare-to-NPT adapters join the two
+  - Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union): seals on a washer or O-ring instead of a metal cone
+  - Soldered metal joint (sweat-soldered copper pipe): permanent, cheaper and quicker for many joints, but needs a flame (Wikipedia 'Piping and plumbing fitting')
+  - Brazed joint (brazing, silver soldering, hard soldering): a permanent, strong, leak-proof alternative when the joint never needs to come apart; needs a torch
+  - Quick couplers for tubes and hoses (push-to-connect, sleeve lock): tool-free connect and release for air and water, at lower pressures
+  - Hose barb (barbed tube fitting): soft hose pushed onto a ridged spigot, for low pressure
+  - Band flange clamp (V-band clamp, tri-clamp): clamps two flanged ends together over a gasket, for larger pipes
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Flare Fitting 2.jpg (Wikimedia Commons, by Mortezarahimi3rd)](https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg): Photo of a flared copper tube end with its brass flare nut and fitting *(licence: CC BY-SA 4.0 (reuse with credit))*
+  - [Flare koppeling.png (Wikimedia Commons, by LaurensvanLieshout)](https://commons.wikimedia.org/wiki/File:Flare_koppeling.png): Labelled cut-away drawing of a flare fitting: body, nut, support sleeve, flared pipe and sealing area *(licence: CC BY-SA 3.0 (reuse with credit))*
+  - [Standardized Connectors for Automotive Brake Tubing.pdf (Wikimedia Commons, S. I. Pliassounov 2012)](https://commons.wikimedia.org/wiki/File:Standardized_Connectors_for_Automotive_Brake_Tubing.pdf): Paper with drawings comparing the SAE/JASO inverted double flare and the ISO bubble flare brake connectors *(licence: CC BY 3.0 (reuse with credit))*
+  - [Bördelgerät.jpg (Wikimedia Commons, by Münchner Kältetechnik)](https://commons.wikimedia.org/wiki/File:B%C3%B6rdelger%C3%A4t.jpg): Photo of a refrigeration flaring tool (flaring block and yoke with cone) *(licence: CC0 (public domain dedication))*
+  - [Bremsleitungsschluessel.JPG (Wikimedia Commons, by Gamsbart)](https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG): A flare-nut wrench (line wrench, brake spanner) with the slot that slips over the tube *(licence: CC BY-SA 3.0 (reuse with credit))*
+- **make_it_yourself**: 
+  - [brake line bender tool (Printables 1099352; URL from Printables API, page not opened)](https://www.printables.com/model/1099352-brake-line-bender-tool): A simple printed bending jig for 5 mm, 4.75 mm or 3/16 in brake pipe *(licence: CC BY (Creative Commons Attribution))*
+  - [Brake Line Cap (Printables 1713359; URL from Printables API, page not opened)](https://www.printables.com/model/1713359-brake-line-cap): An M10 x 1 cap printed in PETG to plug an open brake line during servicing so fluid doesn't run out (not a permanent or pressure seal) *(licence: Public domain (Creative Commons Public Domain))*
+  - [AN Fitting Caps and Plugs (Printables 1594281; URL from Printables API, page not opened)](https://www.printables.com/model/1594281-an-fitting-caps-and-plugs): Printed dust caps and plugs for 37° AN fittings in storage; the designer warns 'NOT FOR PRESSURE USE' *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Any Size Wrench Generator - Flare Nut End Option (Printables 383970; URL from Printables API, page not opened)](https://www.printables.com/model/383970-any-size-wrench-generator-flare-nut-end-option): A parametric spanner generator with a flare-nut (slotted ring) end, handy for showing the shape or for light-duty plastic fittings *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: A cross-section of a tube, flare nut and fitting body showing the flared cone pressed onto the seat cone, with three small insets comparing a single flare, an inverted double flare (wall folded back on itself) and an ISO bubble flare in its concave seat, each labelled with its angle.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Flare_fitting
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://en.wikipedia.org/wiki/Wrench
+  - https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf
+  - https://workforce.libretexts.org/Courses/Coalinga_College/Introduction_to_Residential_HVAC_Level_1/04%3A_Basic_Copper_and_Plastic_Pipping_Practices/4.11%3A_Joining_Copper_Piping
+  - https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/
+  - https://www.agscompany.com/collections/fittings?page=11
+  - https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes
+  - https://www.hse.gov.uk/gas/employers.htm
+  - https://www.epa.gov/section608/section-608-technician-certification-0
+  - https://commons.wikimedia.org/wiki/File:Standardized_Connectors_for_Automotive_Brake_Tubing.pdf
+  - https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
+  - https://commons.wikimedia.org/wiki/File:Flare_koppeling.png
+  - https://commons.wikimedia.org/wiki/File:B%C3%B6rdelger%C3%A4t.jpg
+  - https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** materials
 

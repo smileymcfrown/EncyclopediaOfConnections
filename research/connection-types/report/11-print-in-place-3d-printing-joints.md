@@ -274,7 +274,7 @@
   - threaded insert, insert nut or threaded bushing (the general term; Wikipedia 'Threaded insert')
   - tapered heat-set insert, straight heat-set insert, any-orientation (symmetrical) heat-set insert, male heat-set insert (catalogue variants; McMaster-Carr, PEM) *(unverified parts omitted)*
 - **family**: print-in-place & 3D-printing joints
-- **other_families**: clamping, magnetic & friction connections
+- **other_families**: clamping, magnetic & friction connections, welding, brazing & soldering
 - **one_liner**: A knurled metal nut-like sleeve pressed into a plain hole with a hot soldering iron, so the melted plastic grips it and the part gets strong, reusable metal threads.
 - **complexity**: A few parts: the insert (a short brass sleeve, knurled or ridged outside and threaded inside), the printed part with a plain hole sized for it, and the screw or bolt that later goes into it. Installing it needs a soldering iron, ideally with a matching insert tip.
 - **how_it_works**: The hole is printed slightly smaller than the outside of the insert. A hot soldering iron heats the insert, which melts a thin layer of the plastic it touches as it is pushed down into the hole (Wikipedia 'Threaded insert'; Hubs). The softened plastic flows into the knurls and grooves on the outside of the insert, and when it cools it hardens around them, locking the insert against both turning and pulling out; many inserts use left- and right-hand knurls on different bands to resist both (PEM). Screws then go into the insert's metal thread instead of into plastic, so they can be tightened harder and removed many times without wearing the thread out (CNC Kitchen; Hubs).
@@ -934,7 +934,7 @@
   - stake, boss, stud or post (names for the peg before it is melted) and dome, rosette, hollow, knurled or flush stake (names for the head shapes; Branson, Dukane, Extol)
   - cold staking or cold forming (a related method that squashes the post without heating it; Wikipedia, ASSEMBLY magazine)
 - **family**: print-in-place & 3D-printing joints
-- **other_families**: interlocking joints & joinery
+- **other_families**: interlocking joints & joinery, welding, brazing & soldering
 - **one_liner**: A post on one plastic part is pushed through a hole in another part and its end is melted and pressed into a head, locking the parts together for good with no screw, rivet or glue.
 - **complexity**: A few parts, but no separate fastener: (1) the plastic part with one or more posts (studs or bosses) moulded or printed on it, (2) the part to be held, with a hole for each post, often with a countersink or chamfer to receive the melted plastic, and (3) a heated tool (a soldering iron at home, or a shaped hot tip, hot air, infrared or ultrasonic horn in a factory) that forms the head (Branson; Wikipedia; Richard Sewell's heat-staking notes).
 - **how_it_works**: The post is made a little longer than the stack it passes through, so its tip sticks out beyond the part it has to hold. A hot tip presses on the end of the post; the plastic softens and, under steady pressure, flows to fill the shaped cavity in the tip (or a countersink in the hole), forming a head wider than the hole (Branson 'Thermal Staking Design Guidelines'). When it cools and hardens, the head cannot pull back through the hole, so the parts are held by shape, much like a metal rivet, and the post itself stops the parts sliding sideways (Wikipedia 'Staking (manufacturing)'; Hackaday). Because only the plastic post melts, the held part can be metal, a circuit board, fabric or a different plastic (Wikipedia; Branson).
@@ -1554,4 +1554,408 @@
 ### Other info
 
 - **Fields with unverified parts:** environment_limits, play_and_precision, safety_notes, seal
+
+## 332 Screw-in threaded insert (wire thread insert, self-tapping insert)
+
+*print-in-place & 3D-printing joints.* A threaded sleeve, or a coil of diamond-section wire, screwed into a hole to give a strong, reusable machine-screw thread in soft or brittle material such as resin prints, wood or aluminium, or to repair a stripped thread
+
+*Also covers:* Also covers helical wire inserts (Helicoil (brand)) and self-tapping inserts for resin prints, where heat-set inserts can't be used.
+
+### What it is
+
+- **plain_name**: A metal sleeve with a thread on the outside and a thread on the inside (or a little coil of springy wire) that you screw into a hole, so soft or crumbly material gets a strong metal thread that a bolt can go in and out of many times, or so a stripped thread can be repaired
+- **term**: Screw-in threaded insert (helical wire thread insert and self-tapping insert)
+- **aliases**: 
+  - threaded insert, threaded bushing or insert nut (the general names; Wikipedia 'Threaded insert')
+  - externally threaded insert (Wikipedia)
+  - helical insert, wire thread insert or screw thread insert (STI) (Wikipedia; NASA RP-1228)
+  - thread repair insert, thread repair coil or thread coil (CNC Kitchen; Hackaday)
+  - Heli-Coil or HELICOIL (brand), Recoil (brand), KATO (brand) helical inserts (Wikipedia)
+  - self-tapping insert or self-tapping threaded insert, sometimes sold as a 'thread adapter' (Wikipedia; Hackaday 2024)
+  - thread-forming insert, e.g. Speedsert (brand) (NASA RP-1228)
+  - Tap-Lok (brand) self-tapping friction-locking insert (Wikipedia)
+  - E-Z LOK (brand) inserts anchored with a thread-locking adhesive (Wikipedia; E-Z LOK)
+  - solid bushing insert, key-locking insert or Keensert (brand) (NASA RP-1228; Wikipedia)
+  - TIME-SERT (brand) thin-walled solid bushing insert (Wikipedia)
+  - screw-in insert nut or threaded insert for wood, with hex or slotted drive (Wikipedia; E-Z LOK)
+- **family**: print-in-place & 3D-printing joints
+- **other_families**: everyday fasteners & fixings
+- **one_liner**: A threaded sleeve or a diamond-section wire coil that is screwed into a drilled or tapped hole to give soft, brittle or worn material a strong, reusable machine-screw thread.
+- **complexity**: A few parts: the insert (a solid sleeve threaded inside and out, often with cutting slots, keys, a locking patch or adhesive; or a coil of diamond-section stainless wire with a driving tang), the hole (drilled, and for helical or solid inserts tapped with a matching tap), and the screw that later goes into it. Fitting needs a drive tool: a screwdriver, hex key, a bolt and jam nut, or for helical inserts a special installation mandrel and tang break-off tool, usually sold together in a kit with the drill and tap (Wikipedia; E-Z LOK; CNC Kitchen).
+- **how_it_works**: The insert has a bigger, coarser outside thread than the screw it takes, so it spreads the load over much more of the soft material: NASA's manual gives the example of a 10-32 screw getting the hold of a 5/16-18 thread (NASA RP-1228). A helical insert is a coil of diamond-section wire that screws into a hole tapped with a special oversize tap; the coil is made slightly oversize so it springs outward and grips, and its inside forms a normal thread for the screw; the driving tang is then snapped off (Wikipedia; NASA RP-1228). A self-tapping insert has a tapered, slotted or sharp outside thread that cuts or forms its own thread in a plain drilled hole as it is screwed in, then stays put by friction, a nylon patch, adhesive or keys (Wikipedia; NASA RP-1228). Solid bushing inserts are screwed into a tapped hole and locked by keys hammered in, by adhesive, or by expanding the bottom threads (Wikipedia).
+
+### Finder attributes
+
+- **job**: join and hold: gives a soft, brittle or damaged part a strong, reusable metal thread so another part can be bolted on and taken off again; also repairs stripped threads
+- **motion**: none
+- **degrees_of_freedom**: 0: once fitted the insert can't move, and the screw clamps the parts together rigidly
+- **special_behaviour**: 
+  - self-locking (holds under load, won't back-drive): only for screw-locking versions; helical inserts come with a deformed (crimped) coil that grips the screw (NASA RP-1228), and some solid inserts have a nylon patch; plain free-running inserts don't lock the screw
+  - none otherwise: it just provides a strong thread
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the insert's outside thread interlocks with the thread tapped or cut into the hole
+  - friction or clamping (force-fit): helical coils are slightly oversize and spring out against the hole (NASA RP-1228); Tap-Lok-type self-tapping inserts lock by friction (Wikipedia); the screw then clamps the parts
+  - material bond (glue, solvent or melting): adhesive-anchored inserts (E-Z LOK) and inserts glued in with epoxy in printed parts (Printables self-tapping insert cut-outs)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: The screw in it is removable many times. *(unverified parts omitted)*
+- **reuse_cycles**: many times: the screw can be put in and taken out many times without wearing the soft parent material, which is the point of fitting it (Wikipedia; E-Z LOK wood inserts 'allow for multiple assembly and disassembly cycles'). The insert itself is usually fitted once.
+- **tools_needed**: Drill and the drill size specified for the insert. Helical inserts: a matching insert (STI) tap, an installation mandrel or winding tool, and a tang break-off tool, normally bought as one kit (Wikipedia: 'sold in kits with matched taps and insert tools'; CNC Kitchen). Solid metal-thread inserts: a standard tap matching the insert's outside thread, then a screwdriver, a bolt and jam nut or a drive tool (E-Z LOK). Self-tapping inserts: a drive tool or a bolt with a washer or jam nut (Printables self-tapping insert cut-outs). Wood insert nuts: a hex key or screwdriver (Wikipedia; E-Z LOK). Key-locking inserts also have keys that are hammered in after the insert is fitted (Wikipedia; NASA RP-1228).
+- **load**: medium to heavy in metal and wood, light to medium in plastic prints. Strong in pull-out and twist because the large outside thread spreads load (NASA RP-1228). In soft metals such as aluminium they give stronger threads than tapping the base metal directly (Wikipedia). In FDM prints a helical insert gave no gain: CNC Kitchen's M3 tests in PETG held 120 kg pull-out against 118 kg for a screw straight into plastic, and both stripped at 1 Nm, while a heat-set insert took 3 Nm. In resin, SPIROL rates self-tapping inserts a 'viable alternative' to press-in inserts but with limited back-out torque.
+- **adjustable**: no: it is a fixed threaded anchor; any adjustment comes from the screw or the parts being joined
+- **play_and_precision**: small: the insert gives a normal metal thread with ordinary screw clearance. The main precision issue is getting it in straight; a self-tapping insert that starts crooked or cross-threads stays crooked (Printables self-tapping insert cut-outs: 'take care getting the thread started to avoid crossthreading').
+- **access_needed**: one side only (blind): the insert is screwed in from the open face of the hole, and the screw goes in from the same side
+- **materials**: Helical inserts: stainless steel or phosphor bronze wire (Wikipedia); E-Z Coil inserts are 18-8 stainless (E-Z LOK). Solid and self-tapping inserts: steel, stainless steel, brass or aluminium; wood inserts also zinc alloy (E-Z LOK). They suit soft or weak parent materials: aluminium, zinc die-castings, magnesium, wood, plastic (Wikipedia), cast iron (E-Z LOK), plywood, MDF and particleboard (E-Z LOK 'Finserts'), and thermoset (resin) prints, where heat-set inserts can't be melted in (SPIROL; CNC Kitchen). Thread-forming (non-cutting) inserts only work in softer materials (NASA RP-1228). Brittle, low-stretch resins can crack when threads are forced into them (Formlabs, for self-tapping screws). In thermoplastic FDM prints a heat-set insert is usually the better choice (CNC Kitchen).
+- **maker_difficulty**: moderate: needs the exact drill size and, for helical and solid inserts, a matching tap and installation tool kit; getting it started straight and flush takes care. Screw-in wood insert nuts are easy.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the insert is always bought, usually as a kit with its drill, tap and tools
+  - 3D print (resin): self-tapping or glued inserts are a main option, because thermoset resin can't take heat-set inserts (SPIROL; CNC Kitchen)
+  - 3D print (FDM): possible (screwed into a printed or modelled threaded hole), but heat-set inserts usually perform better (CNC Kitchen; SPIROL)
+  - CNC: thread repair and wear-resistant threads in aluminium and other soft metals (Wikipedia; CNC Kitchen)
+  - woodwork: screw-in insert nuts for knock-down furniture, cabinets and speaker boxes (Wikipedia; E-Z LOK)
+- **print_in_place**: partly: the part prints with a plain or modelled threaded hole, and the bought insert is screwed in afterwards
+- **making_tips_3d_printing**: 1) Resin (SLA/MSLA) prints are thermosets, so heat-set inserts don't melt in: a hot insert does nothing for a while, then the resin crumbles (CNC Kitchen). Use a press-in insert (most effective), a self-tapping insert (a viable alternative with lower back-out torque, but slow to fit and may unscrew from a part that is taken apart often), or a heat-set insert glued in with thick superglue or epoxy (SPIROL; CNC Kitchen). 2) Model the insert's outside thread into the print instead of relying on the insert to cut it: one designer shares threaded STEP cut-outs for M4-M10 self-tapping inserts plus a test block, then screws the insert in with a bolt and washer and a little epoxy (Printables 'Self Tapping Thread Insert Cut-out STEP Files'). In CNC Kitchen's resin tests, threads printed in the model held about twice the load of tapped threads in a notch-sensitive tough resin (106 kg against 55 kg), probably because the tap leaves notches. 3) Brittle resins can crack when threads are forced into them; Prefer tough or durable resins. 4) Resin parts tend to fail by bursting rather than thread shear, because thread forces push outward on the hole (CNC Kitchen), so give the insert plenty of surrounding material; SPIROL recommends a solid boss at least 1.5 times the insert's outer (knurl) diameter, with the full benefit at 2 times, and more than 50% infill for FDM (written for press-in and heat-set inserts, but the same logic applies). 5) Printed hole sizes vary: about ±0.1 mm for SLA and ±0.3-0.5 mm for desktop FDM (SPIROL), so print a test block or drill the hole to size. 6) In FDM thermoplastic prints, a helical (Helicoil-type) insert added nothing over screwing straight into the plastic in CNC Kitchen's tests, so use heat-set inserts or nut traps instead unless you need a metal thread for wear. 7) Start the insert square and slowly to avoid cross-threading, and drive it flush with a bolt and washer or jam nut (Printables cut-out files). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Helical inserts: search 'helical insert', 'wire thread insert', 'screw thread insert (STI)' or 'thread repair kit' (Heli-Coil/HELICOIL, Recoil, KATO (brands)); available free-running or screw-locking, and in several lengths; kits include the drill, STI tap, installation tool and tang break-off tool (Wikipedia; CNC Kitchen; NASA RP-1228). Solid and self-tapping inserts: 'self-tapping insert', 'thread-forming insert', 'key-locking insert' (Keensert (brand)), 'solid bushing insert' (TIME-SERT (brand)), 'Tap-Lok' and 'Speedsert' (brands), and adhesive-anchored E-Z LOK (brand) inserts. Wood: 'threaded insert for wood' or 'insert nut' with hex or slotted drive (E-Z LOK E-Z Knife for hardwood, E-Z Hex for softwood, Finserts for MDF and particleboard). Catalogue pages to check sizes: E-Z LOK threaded inserts for metal https://www.ezlok.com/threaded-inserts-for-metal, for wood https://www.ezlok.com/threaded-inserts-for-wood and for plastic https://www.ezlok.com/threaded-inserts-for-plastic.
+- **rules_of_thumb**: 
+  - A helical insert needs its own oversize tap, not an ordinary tap of the screw size: drill, tap with the insert tap, wind the coil in with the installation tool, then break off the tang (Wikipedia 'Threaded insert'; CNC Kitchen; NASA RP-1228).
+  - The insert's outside thread is nominally about 1/8 in (3 mm) larger in diameter than its inside thread, so a 10-32 screw gets the holding area of a 5/16-18 thread (NASA RP-1228, 'Inserts').
+  - For repairing a stripped thread, a wire thread insert needs the least hole enlargement; a solid bushing insert is preferred where there is room (NASA RP-1228).
+  - Thread-forming self-tapping inserts make no chips but only work in softer materials (NASA RP-1228).
+  - For a screw-in wood insert nut, drill the hole as deep as the insert plus any length of bolt that will go past its end (Wikipedia 'Threaded insert').
+  - In hardwood use a slightly larger pilot hole to avoid splitting; softwoods split more easily if inserts are fitted badly (E-Z LOK, threaded inserts for wood).
+  - In SLA resin: press-in inserts are the most effective, self-tapping inserts a viable alternative with lower back-out torque, expansion inserts the weakest (SPIROL 'Inserts for 3D Printed Assemblies').
+  - Give inserts in prints a solid boss at least 1.5x the insert's outer (knurl) diameter (full benefit at 2x) and over 50% infill in FDM (SPIROL, written for press-in and heat-set inserts).
+  - In M3 PETG tests a helical insert held the same as a plain screw (pull-out 120 kg against 118 kg; both stripped at 1 Nm), while a heat-set insert took 3 Nm (CNC Kitchen).
+  - E-Z LOK's adhesive-anchored metal inserts are ready for a screw 3-5 minutes after fitting and can be released by heating above 149 °C (300 °F) (E-Z LOK, threaded inserts for metal).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A spark-plug hole in an engine repaired with a helical insert after the thread was stripped by over-tightening or cross-threading (Wikipedia 'Threaded insert')
+  - Wire thread coils fitted in an aluminium bike frame so the bolts don't wear or seize in the soft metal (CNC Kitchen)
+  - Screw-in insert nuts in flat-pack furniture, cabinets and speaker enclosures, so parts can be bolted together and taken apart (Wikipedia; E-Z LOK)
+  - Inserts in light-alloy aircraft parts, so small high-strength screws can be used to save weight (NASA RP-1228)
+- **when_to_use**: Use a screw-in insert to repair a stripped thread in metal (the classic use of helical inserts); to give soft metals such as aluminium or magnesium, wood, plywood or MDF a thread that won't wear out as screws go in and out; and to put metal threads into resin (SLA/MSLA) prints and other thermosets, where heat-set inserts can't be melted in (Wikipedia; NASA RP-1228; SPIROL; CNC Kitchen). Helical inserts suit repairs because they need the least enlargement of the hole (NASA RP-1228). Self-tapping inserts are handy when you have no insert tap: they cut or form their own thread in a drilled hole (Wikipedia).
+- **when_not_to_use**: In thermoplastic FDM prints (PLA, PETG, ABS), use a heat-set insert or a nut trap instead: a helical insert gave no improvement over screwing straight into the plastic in CNC Kitchen's tests. In very thin sheet, where there's not enough depth for a thread, use a rivet nut or other blind threaded fixing. In very brittle resins, glue an insert in or use a press-in insert rather than forcing threads in (Formlabs; SPIROL). For a part that is screwed together only once, a self-tapping screw is simpler. In plastics, ceramics and rubber that are moulded, a moulded-in insert holds better than a self-tapping or threaded one (NASA RP-1228). *(unverified parts omitted)*
+- **environment_limits**: Stainless helical coils tolerate heat well; E-Z LOK rates its 18-8 stainless E-Z Coil inserts to 800 °F (about 427 °C) and says the stainless resists corrosion. Adhesive-anchored inserts lose grip when heated above about 149 °C (300 °F) (E-Z LOK). In printed parts the host plastic is the limit: PLA gives at about 60 °C, PETG at 80 °C and ASA at 110 °C (CNC Kitchen), and adhesive-free self-tapping inserts in a part that is taken apart often may slowly unscrew (SPIROL). Under vibration use a screw-locking insert (deformed coil) or a locking patch (NASA RP-1228). *(unverified parts omitted)*
+- **safety_notes**: Brittle resin prints can crack or burst when a thread is forced into them, throwing fragments; wear eye protection (Formlabs advises this for self-tapping screws in brittle resins; CNC Kitchen's resin samples 'exploded' when overloaded). *(unverified parts omitted)*
+- **common_failures**: 1) Insert doesn't hold because the hole was tapped with an ordinary tap instead of the matching insert tap, or drilled the wrong size: use the kit's drill and tap (Wikipedia; 2) Cross-threaded or crooked insert: start it square and slowly, using a bolt and washer or a proper driver (Printables self-tapping insert cut-outs). 3) Resin part cracks or bursts: use tough resin, more wall around the hole, a modelled thread, or a glued or press-in insert (CNC Kitchen; Formlabs; SPIROL). 4) Insert comes out with the screw: self-tapping inserts may thread out of parts that are taken apart often, so lock them with adhesive or epoxy (SPIROL; Printables cut-outs). 5) Wood splits: use the right pilot hole, slightly larger in hardwood, and the right insert type for the wood (E-Z LOK). 6) No strength gain in FDM prints: the helical insert's wider but shorter thread shears the same area of plastic as a plain screw (CNC Kitchen). 7) Screw loosens under vibration: use a screw-locking insert with a deformed coil (NASA RP-1228). *(unverified parts omitted)*
+- **related**: 
+  - Heat-set threaded insert: melted into thermoplastic prints with a soldering iron; strongest choice in FDM, but can't be used in resin or other thermosets
+  - Press-fit and expanding inserts (tap-in insert): pushed in cold and held by barbs or expansion; SPIROL rates press-in inserts the most effective choice in SLA resin
+  - Self-tapping screw into plastic (thread-forming screw): screws straight into the part; simplest, but the plastic thread wears out after a few uses
+  - Captive nut pocket (nut trap): an ordinary nut in a printed pocket; strong and cheap if the pocket can be reached
+  - Blind threaded fixings (rivet nut, well nut): for thin sheet and tube walls, fitted from one side
+  - Printed screw thread: the thread printed straight into the part; in CNC Kitchen's tests, modelled threads in resin were stronger than tapped ones
+  - Ordinary screw joint (bolt and nut): the baseline; the insert turns a weak hole into the 'nut'
+  - Threadlocking hardware and anaerobic threadlocker: lock the screw in the insert against vibration
+
+### Pictures, videos and models
+
+- **links**: 
+  - [HELICOIL Plus thread insert (Wikimedia Commons, uploaded by Boellhoff)](https://commons.wikimedia.org/wiki/File:Helicoil_plus.jpg): Photo of a helical wire thread insert, the diamond-section stainless coil with its driving tang *(licence: attribution only (use for any purpose with attribution to the copyright holder))*
+  - [Tap-Lok threaded insert (Wikimedia Commons, by Sjgroovpin)](https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg): Photo of a self-tapping solid insert with cutting edges on its outside thread *(licence: CC BY-SA 3.0)*
+  - [TIME-SERT threaded insert (Wikimedia Commons, by Crimson5unEarth)](https://commons.wikimedia.org/wiki/File:TIME-SERT_thread_insert.gif): Image of a thin-walled solid bushing insert for tapped holes *(licence: GFDL 1.2+ / CC BY-SA 3.0)*
+  - [Rampamuffe: screw-in insert nut for wood (Wikimedia Commons, by Daniel Alexander Patrik Wigger)](https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg): Photo of a screw-in threaded insert nut with a coarse outside thread for wood *(licence: GFDL 1.2+ / CC BY-SA 3.0)*
+  - [These threaded inserts aren't made for 3D prints (but work amazingly well) (YouTube, Made with Layers (Thomas Sanladerer))](https://www.youtube.com/watch?v=lYXTiJo_FQQ): Video testing M5 rivet nuts, wood hex inserts, helical inserts, self-tapping inserts and T-nuts in 3D prints (as described by Hackaday, 'Alternate Threaded Inserts for 3D Prints', 2024); title confirmed via YouTube oEmbed, video not watched *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Self Tapping Thread Insert Cut-out STEP Files (SlingBow Mk. L, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/904819-self-tapping-thread-insert-cut-out-step-files): Threaded STEP cut-outs for M4-M10 self-tapping inserts (taking M2-M6 bolts) to subtract from your own model, plus a tolerance test block; fitting notes: drive with a bolt and washer, a little epoxy, start carefully to avoid cross-threading. Read through the Printables public API. *(licence: CC0 (Creative Commons Public Domain))*
+  - [Helicoil Insert Installation Tool (M6) (dniclas, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1741421-helicoil-insert-installation-tool-m6): A printable installation mandrel for M6 helical inserts with a 1/4 in hex shank and a knob; the designer suggests scaling it for other sizes. Read through the Printables public API. *(licence: BSD)*
+  - [Helicoil insert tool (manpres2, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1399428-helicoil-insert-tool): A simple printed tool for winding helical inserts in, made to repair motorcycle mirror mounts. Read through the Printables public API. *(licence: CC BY)*
+- **diagram_idea**: Three side-view cut-aways in a block of soft material: (1) a helical wire coil being wound into an oversize tapped hole with its tang at the bottom, then the tang snapped off; (2) a self-tapping insert with cutting slots cutting its own thread into a plain drilled hole; (3) both finished with a bolt screwed in, with arrows showing how the large outside thread spreads the load over more material than the bolt's own thread would.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Threaded_insert
+  - https://ntrs.nasa.gov/api/citations/19900009424/downloads/19900009424.pdf
+  - https://www.cnckitchen.com/blog/helicoils-threaded-insets-and-embedded-nuts-in-3d-prints-strength-amp-strength-assessment
+  - https://www.cnckitchen.com/blog/how-to-use-threaded-inserts-in-resin-3d-prints
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://www.spirol.com/assets/files/inserts-for-3d-printed-assemblies-us.pdf
+  - https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/
+  - https://www.ezlok.com/threaded-inserts-for-metal
+  - https://www.ezlok.com/threaded-inserts-for-wood
+  - https://www.ezlok.com/threaded-inserts-for-plastic
+  - https://hackaday.com/2024/04/15/alternate-threaded-inserts-for-3d-prints/
+  - https://hackaday.com/2025/01/11/comparing-ways-to-add-threads-to-your-3d-prints/
+  - https://www.youtube.com/watch?v=lYXTiJo_FQQ
+  - https://commons.wikimedia.org/wiki/File:Helicoil_plus.jpg
+  - https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg
+  - https://commons.wikimedia.org/wiki/File:TIME-SERT_thread_insert.gif
+  - https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** common_failures, environment_limits, making_tips_3d_printing, removability, safety_notes, seal, when_not_to_use
+
+## 335 Printing onto fabric (fabric embedded in a 3D print)
+
+*print-in-place & 3D-printing joints.* The print is paused after the first few layers, a thin open mesh such as tulle is stretched over it, and the rest is printed so the plastic flows through the holes and locks the fabric in, for flexible scale armour, hinged panels or a print with a fabric skirt
+
+*Also covers:* Also covers which meshes work, gaps between printed scales as hinges, and holding the mesh flat. Origami mechanisms uses the same method as a hinge layer. Safety: synthetic fabrics melt; watch the first layers after resuming.
+
+### What it is
+
+- **plain_name**: Print a few layers, pause the printer, stretch a see-through net fabric such as tulle over them, then carry on printing so the hot plastic pushes through the holes and grips the fabric, giving bendy sheets of plastic scales or panels joined by cloth
+- **term**: Printing onto fabric (fabric-embedded 3D print, 'sandwich' or pause-and-print method)
+- **aliases**: 
+  - printing on tulle, printing on mesh, print on fabric
+  - pause-and-print or 'Sandwich Method' (Siraya Tech's names)
+  - sandwiching textiles in FDM printing; 3D printing on textiles (research terms, Özev and Ehrmann; Meyer et al.)
+  - 3D printed fabric, flexible armour, scale mail on fabric, dragon scales (cosplay terms)
+  - tulle hinge (a strip of fabric between two printed parts used as a hinge)
+  - floating jewellery or floating masks (shapes that seem to float on clear tulle)
+- **family**: print-in-place & 3D-printing joints
+- **other_families**: knots, lashings & sewn joints, hinges & pivots
+- **one_liner**: A thin open mesh fabric is laid over the first few printed layers during a pause, and the rest of the print fuses through its holes, so the fabric is locked inside each printed piece and the bare fabric between pieces works as a flexible hinge.
+- **complexity**: A small assembly that acts as one unit: printed islands (scales, tiles, spikes or panels) each with a layer of open mesh fabric (tulle, mosquito net, organza or polyester mesh) trapped inside. Making it needs the printer and a slicer pause, the mesh, and tape, binder clips or magnets to hold the mesh flat.
+- **how_it_works**: The printer lays down the bottom layers of every piece, then pauses. You lay the mesh over the bed and fix it flat, and when printing resumes the nozzle squeezes molten plastic through the openings in the mesh so it fuses with the layers below, trapping the threads between plastic above and below (a 'sandwich'). Research agrees that 'building interlocking connections between both parts of the composite by printing "through" the textile fabric is the best way to reach reliable adhesion' (Özev and Ehrmann 2023), while printing on 'closed' fabrics such as common woven cloth 'often results in a lack of adhesion' (Meyer et al. 2019). Where nothing is printed the fabric stays bare and flexible, so a 2-3 mm gap between pieces 'is where the fabric will fold, acting as a hinge' (Siraya Tech). The same trick embeds a mesh into a printed frame, for example a fan filter (Hackaday 2019).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: locks fabric and printed plastic together for good, e.g. scales onto a fabric backing, spikes onto a costume panel or a mesh into a printed frame
+  - let it move (turn, slide or bend): the bare fabric between printed pieces acts as a hinge, so the sheet drapes and folds (Siraya Tech; Printables 'Flexi Tulle Snake' and 'Valentine Flower Greeting Card with Tulle Hinge')
+- **motion**: flex: each strip of bare fabric between printed pieces bends like a hinge, so the sheet drapes over curved shapes and folds; a greeting card folds flat on its tulle hinge (Printables 'Valentine ... Card with Tulle Hinge')
+- **degrees_of_freedom**: Each fabric gap is a flexible hinge, mainly bending about the line of the gap (1 per gap), with a little twist because fabric is floppy; the pieces cannot pull apart along the sheet because the mesh holds them. A grid of scales therefore drapes in two directions like cloth.
+- **special_behaviour**: none: it is a permanent flexible joint with no clever behaviour; the hinge action comes simply from bare fabric between printed pieces
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): plastic printed above the mesh flows through its openings and fuses with the layers below, trapping the threads (Özev and Ehrmann 2023; Siraya Tech's 'Mechanical Lock')
+  - material bond (glue, solvent or melting): the hot plastic also sticks to and wraps round fibres; soft PLA can 'penetrate between the fibers and build form-locking connections around them' (Meyer et al. 2019), and hot TPU 'adheres to fibers' (Siraya Tech)
+- **input_output**: not applicable: it is a fixed, flexible joint that does not pass motion on
+- **power**: passive (no power needed)
+- **removability**: permanent: the mesh is fused inside the plastic and can only be cut away; Prusa notes that flexible filament printed directly onto a T-shirt well enough 'you will probably be unable to remove the print without damaging the clothes'
+- **reuse_cycles**: once
+- **tools_needed**: A 3D printer and a slicer that can pause at a set layer (PrusaSlicer 'Insert pause print (M601)'; Cura's 'Pause at Height' extension, Prusa forum), open-mesh fabric, painter's tape, binder clips or magnets outside the build area to hold it (Siraya Tech; Hackaday 2018; Prusa forum), an iron to remove creases (Printables 'How to print on fabric'), and scissors to trim the spare mesh afterwards (Printables 'Valentine ... Card').
+- **seal**: none: the mesh is open and only the printed islands are solid
+- **load**: Light. Good for costume scales and spikes, jewellery, decorative panels, card hinges and filters; not for structural joints. It is strong when the fabric is pulled along its own plane (the fabric carries the load) and weakest in peel, where a piece is levered off the mesh; scales on a mesh that is too dense 'peel off' (Siraya Tech). Fabric that is not held firmly inside the sandwich can shift (Özev and Ehrmann 2023). One maker used four layers of tulle instead of one 'to give it extra durability' for a child's toy (Printables 'Flexi Tulle Snake'). *(unverified parts omitted)*
+- **adjustable**: no: once printed the layout is fixed
+- **play_and_precision**: Not a locating joint. The pieces flop freely on the fabric gaps (that is the point), and their final position depends on how flat and straight the mesh was laid: Özev and Ehrmann found fabric that was not pinned by nubs varied in height and could move inside the sandwich, and most nylon meshes stretch in only one direction, so 'orientation of the mesh matters' (Printables 'How to print on fabric').
+- **access_needed**: not applicable: the joint is made inside the printer during the print
+- **materials**: Fabric: thin, open mesh. Tulle (made of nylon, polyester, silk or rayon; 'Polyester is the most common fibre used for tulle', Wikipedia), mosquito netting (Printables 'Dragon scales'), organza (Prusa forum; Hackaday 2018 on RobotMama), nylon mesh 'Under 0.2mm thickness' (Printables 'How to print on fabric') and polyester mesh (Siraya Tech). Thin, even fabrics work best; thick aramid fabric was harder but possible with design changes, and cotton worked with nubs (Özev and Ehrmann 2023); closed woven fabrics adhere poorly (Meyer et al. 2019). Plastic: PLA for most decorative scales (Printables 'Dragon scales'; Adafruit 'Glowing Scale Armor'); TPU for flexible, wearable armour (Siraya Tech), and TPU gave better results than PLA in the sandwich study (Özev and Ehrmann 2023). Melting: nylon 6 melts at about 218 °C and nylon 66 at about 264 °C, polyester (PET) at about 250-260 °C (Wikipedia), while PLA prints at about 210-215 °C and flexible filaments at 230-245 °C (Prusa), so nylon tulle can soften under hotter filaments; Siraya Tech advises switching to polyester mesh or lowering the nozzle temperature if the fabric melts.
+- **maker_difficulty**: moderate: the model is simple, but you must set a pause at the right layer, lay the mesh flat and tight without moving the bed, keep the nozzle from snagging, and watch the first layers after resuming
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): the only process; any FDM printer that can pause mid-print works
+  - off-the-shelf part: tulle, mosquito netting, organza or polyester mesh from a fabric shop (Hackaday 2018 notes tulle in the fabric department of a large supermarket)
+- **print_in_place**: partly: the fabric is laid in by hand during a pause, but the piece comes off the bed already joined and working as a flexible sheet, with nothing to assemble
+- **making_tips_3d_printing**: 1) When to pause: sources differ, so pick by test. After the 1st layer (Printables 'Dragon scales'; 'How to print on fabric'; Fabricademy, who would 'wait another round of printing' next time), after layer 2 (Printables 'Valentine ... Card with Tulle Hinge'), 1 or 2 layers (Printables 'Scale Mail for fabric printing'), three layers (Hackaday 2018), layer 3 or 4, about 0.6-0.8 mm at 0.2 mm layers (Siraya Tech), or about 2 mm (Adafruit 'Glowing Scale Armor'). Printing a few layers before the fabric bonds better than starting on the fabric: 'Starting the print directly on the fabric may work, but the bond won't be as strong' (Printables '3D Fabric Experimentation'). In PrusaSlicer the M601 pause is inserted before the selected layer is printed (Prusa). 2) Mesh and layer height: use mesh under 0.2 mm thick and set the layer height higher than the mesh thickness (Printables 'How to print on fabric'); iron out creases first. 3) Holding the mesh: lay it over the print without moving the bed, stretch it taut and tape it to the bed edges (Siraya Tech; Hackaday 2018, which also suggests binder clips), or use magnets outside the build area (Prusa forum). Leave about 5 cm of free bed round the model for tape and clips, and check that clips can't hit the moving print head (Printables 'How to print on fabric'). 4) Stop the nozzle snagging: turn on Z-hop when retracting (0.4-0.6 mm, Siraya Tech) and turn off the skirt so it doesn't stick to the fabric (Fabricademy). 5) Design: print separate islands, not one slab; leave 2-3 mm gaps between scales as hinges and keep scales under about 3-5 mm thick for flexibility (Siraya Tech); give scales a broad flat foot for bed adhesion (Printables 'Scale Mail for fabric printing'); vary the spacing, as it 'changes the properties of your fabric completely' (Printables 'How to print on fabric'). Small nubs on the lower layers pin the fabric: round or square nubs 0.8-1.5 mm across at 5-17 mm spacing, the smaller and closer the better for cotton (Özev and Ehrmann 2023). 6) Filament: PLA is easiest; TPU gives wearable, flexible pieces, printed slowly (Prusa: 'a typical speed for flexible filaments is usually 20 mm/s'; Siraya Tech's step list 20-30 mm/s) with little or no retraction. 7) Watch it: 'Resume the print and watch closely. Do not leave this print alone' (Printables 'How to print on fabric'). 8) Finish: let the bed cool completely before peeling off the sheet (Siraya Tech), then trim the spare mesh. Sheets are limited to the bed size, so sew or glue several onto a larger fabric (Hackaday 2018). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Prusa). *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Pause layer, side by side: after layer 1 (Printables 'Dragon scales', 'How to print on fabric'), after layer 2 (Printables 'Valentine ... Card'), three layers (Hackaday 2018), layer 3-4 or about 0.6-0.8 mm (Siraya Tech), about 2 mm (Adafruit 'Glowing Scale Armor').
+  - Mesh thinner than 0.2 mm, and a layer height higher than the mesh thickness (Printables 'How to print on fabric').
+  - Gaps of 2-3 mm between scales act as hinges; scales under about 3-5 mm thick stay flexible (Siraya Tech).
+  - If scales peel off, the mesh is too dense; switch to tulle or mosquito netting (Siraya Tech). Printing on closed woven fabric 'often results in a lack of adhesion' (Meyer et al. 2019).
+  - Z-hop of 0.4-0.6 mm stops the nozzle dragging on the mesh (Siraya Tech).
+  - Nubs 0.8-1.5 mm across, spaced 5-17 mm, on the lower layers hold the fabric still; 'small nubs with a small spacing are best suited for cotton fabrics' (Özev and Ehrmann 2023).
+  - Leave about 5 cm free round the model for tape and clips (Printables 'How to print on fabric').
+  - Fabric melting: nylon 6 melts at about 218 °C (Wikipedia) against 230-245 °C nozzle temperatures for flexible filaments (Prusa); use polyester mesh or lower the temperature if it melts (Siraya Tech).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Flexible 'dragon scale' or pangolin-style cosplay armour made of printed scales on tulle (Hackaday 2018; Printables 'Dragon scales')
+  - A computer fan filter with fine mesh embedded in a printed frame (Hackaday 2019)
+  - 'Floating' jewellery and masquerade masks where shapes seem to float on clear tulle (Printables 'Flexi Tulle Snake' description)
+  - A printed greeting card that opens and closes on a tulle hinge (Printables 'Valentine ... Card with Tulle Hinge')
+- **when_to_use**: When you want rigid printed pieces on a flexible fabric backing without sewing or glue: scale armour, spikes and patterns for costumes (Hackaday 2018; Printables), flexible toys and hinged cards (Printables 'Flexi Tulle Snake', 'Valentine ... Card'), light-up scale panels (Adafruit 'Glowing Scale Armor'), filters with a printed frame (Hackaday 2019), folding origami-style panels (see Origami mechanisms), and a fabric margin that can then be sewn onto a garment or skirt (Hackaday 2018 suggests sewing or gluing the tulle-and-scale panel onto a larger piece of fabric). Embedded fabric 'can add composite strength to large structural elements, durable flexibility to a living hinge, or a substrate for new kinds of jewelry' (Hackaday 2020, on Billie Ruben's Remoticon workshop).
+- **when_not_to_use**: Not for pieces bigger than the print bed in one go: large garments have to be made as a 'quilt' of bed-sized panels (Hackaday 2018). Not with dense, woven or thick fabric, which bonds poorly (Meyer et al. 2019; Siraya Tech): to put printed parts on an ordinary garment, add sewing holes and sew them on (see 'Sew-on part'), or for flat graphics print flexible filament straight onto the T-shirt with higher temperature and flow, or iron on a one-layer PLA print (Prusa's T-shirt guide). Not where the part must come off later: use a sew-on part with snaps or hook-and-loop. Not for load-bearing or protective use: costume 'armour' is decorative, and research into printed-textile sandwiches for stab-resistant garments is still a proof of principle (Özev and Ehrmann 2023). For an all-plastic hinge use a living hinge; for two plastics locked together use a multi-material interlock.
+- **environment_limits**: Prusa found a properly ironed PLA iron-on on a T-shirt survives machine washing, but that is a different method. Flexing: the fabric gaps take all the bending; one maker used four layers of tulle on a toy for durability (Printables 'Flexi Tulle Snake'). Cold: flexible filaments 'stay flexible even in cold environments' (Prusa). *(unverified parts omitted)*
+- **safety_notes**: Synthetic fabric can melt or scorch under the nozzle: 'Synthetic fabrics like Nylon have low melting points' (Siraya Tech); nylon 6 melts at about 218 °C (Wikipedia), below typical TPU and PETG nozzle temperatures (Prusa). Keep tape, clips and magnets clear of the moving print head (Printables 'How to print on fabric'; Prusa's T-shirt guide). Printing gives off 'ultrafine particles and volatile organic compounds' (Wikipedia, 'Health and safety hazards of 3D printing'), so ventilate. Printed costume armour gives no real protection. *(unverified parts omitted)*
+- **common_failures**: Scales peel off the fabric: the mesh is too dense or the fabric too closed (Siraya Tech; Meyer et al. 2019), or too few layers were printed before the pause (Printables '3D Fabric Experimentation'). The nozzle snags or tears the mesh: use Z-hop (Siraya Tech) and keep the mesh tight and flat; a nozzle set too low will 'plow the fabric' (Prusa's T-shirt guide). The fabric melts: nylon mesh with a hot filament; switch to polyester mesh or lower the temperature (Siraya Tech). The skirt or purge line glues the fabric down where you don't want it: turn off the skirt (Fabricademy). Wrinkles or a slack mesh leave tilted or misplaced pieces and fabric that wanders inside the sandwich: iron the mesh, tape it taut, or add nubs (Printables 'How to print on fabric'; Özev and Ehrmann 2023). The pause lands on the wrong layer: PrusaSlicer inserts it before the selected layer (Prusa); check in the preview. The bed was moved while laying the fabric, so layers no longer line up: don't move the build plate (Siraya Tech).
+- **related**: 
+  - Origami mechanisms: uses the same pause-and-lay-in-mesh method to make every fold of a folding pattern; this entry covers the method itself for armour, panels and fixing cloth to prints
+  - Sew-on part (sewing holes, loops and slots): attach a separately printed part to any fabric with thread instead; removable and works on closed fabrics
+  - Living hinge: an all-plastic thin hinge made in one material, with no fabric layer
+  - Multi-material interlock: locks two printed plastics (e.g. TPU and PLA) together by shape instead of locking in a fabric
+  - Hook-and-loop fastener and hot-melt or contact adhesive: other ways makers fix cloth to prints (r/3Dprinting discussion in the Sew-on part entry)
+  - Captive nut pocket and other pause-and-insert tricks: the same mid-print pause is used to drop in nuts and magnets (Prusa)
+  - Print-in-place chain mail 'fabric': interlocking printed links that drape like cloth with no textile at all (Fabricademy tried 'printing chainmail as a fabric')
+
+### Pictures, videos and models
+
+- **links**: 
+  - [The Latest 3D Printed Fad: Flexible Armor And Pangolin Cosplay (Hackaday, 2018)](https://hackaday.com/2018/02/09/the-latest-3d-printed-fad-flexible-armor-and-pangolin-cosplay/): Photos of hexagonal printed tiles embedded in tulle and the basic pause-and-lay-in steps *(licence: Hackaday article; link only)*
+  - [Remoticon Video: How To 3D Print Onto Fabric With Billie Ruben (Hackaday, 2020)](https://hackaday.com/2020/12/18/remoticon-video-how-to-3d-print-onto-fabric-with-billie-ruben/): Embedded workshop video: a hands-on print onto fabric plus a lecture on scales, spikes, living hinges and jewellery made this way *(licence: Hackaday article with embedded video; link only)*
+  - [Glowing Scale Armor (Adafruit Learning System)](https://learn.adafruit.com/glowing-scale-armor.md?view=all): Video and photos of designing scales in Tinkercad, pausing at about 2 mm, taping mesh over the bed and fitting NeoPixel lights in the finished scales *(licence: Adafruit Learning System guide; licence not stated on the page; link only)*
+  - [Sandwiching textiles with FDM printing (Özev and Ehrmann, CDATP vol. 4 no. 1, 2023)](https://cdatp.publia.org/cdatp/article/view/110): Drawings and microscope cross-sections of fabric sandwiched between printed layers, with and without nubs *(licence: CC BY-NC-ND 4.0)*
+  - [How to 3D Print on Fabric in 5 Easy Steps (Siraya Tech, 2026)](https://siraya.tech/blogs/news/3d-printing-on-fabric): Photos and a step list for printing TPU scales onto tulle, with slicer settings and troubleshooting *(licence: Filament maker's blog; link only)*
+- **make_it_yourself**: 
+  - [How to print on fabric (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/359647-how-to-print-on-fabric): Stylised fish scales for learning to print onto nylon mesh, with step-by-step tips on mesh thickness, layer height, taping and mesh orientation *(licence: CC BY-NC-SA)*
+  - [Dragon scales (print on fabric) (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1038289-dragon-scales-print-on-fabric): Popular PLA dragon-scale pattern printed onto mosquito net, pausing after the first layer; Blender file included for resizing *(licence: Public Domain)*
+  - [3D Fabric Experimentation (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/134-3d-fabric-experimentation): A collection of patterns for printing over tulle and organza for costumes and clothes *(licence: CC BY)*
+  - [Flexi Tulle Snake (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/502073-flexi-tulle-snake): A wriggly snake toy printed on its side with tulle laid in halfway, so the tulle acts as hinges between PLA segments *(licence: CC BY-NC-SA)*
+  - [3D printed Valentine Flower Greeting Card with Tulle Hinge (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/374037-3d-printed-valentine-flower-greeting-card-with-tul): A card whose two halves are joined by a tulle hinge, with a small test print; pause after layer 2 *(licence: CC BY-NC-SA)*
+  - [Print on Fabric Test (Long Spikes) (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/386910-print-on-fabric-test-long-spikes): Quick test print of spikes on fabric, with a short-spike version *(licence: CC BY-NC)*
+- **diagram_idea**: A three-step side view: (1) the first printed layers on the bed, (2) tulle stretched and taped over them during the pause, (3) the finished print with upper layers fused through the mesh holes, then the sheet lifted and bent at the bare-fabric gaps between scales like hinges.
+- **sources**: 
+  - https://siraya.tech/blogs/news/3d-printing-on-fabric (Siraya Tech, 'How to 3D Print on Fabric in 5 Easy Steps', 4 Feb 2026)
+  - https://cdatp.publia.org/cdatp/article/view/110 (Özev and Ehrmann, 'Sandwiching textiles with FDM printing', CDATP 4(1):88-94, 2023)
+  - https://cdatp.publia.org/cdatp/article/download/110/76 (full text PDF)
+  - https://www.hsbi.de/publikationsserver/download/631/632/_2019_Meyer_JEFF14_1558925019895257.pdf (Meyer, Döpke and Ehrmann, 'Improving adhesion of three-dimensional printed objects on textile fabrics by polymer coating', Journal of Engineered Fibers and Fabrics 14, 2019, CC BY 4.0)
+  - https://forum.prusa3d.com/forum/original-prusa-i3-mk3s-mk3-how-do-i-print-this-printing-help/printing-over-tulle-fabric
+  - https://help.prusa3d.com/article/insert-pause-or-custom-g-code-at-layer_120490
+  - https://help.prusa3d.com/article/flexible-materials_2057
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://blog.prusa3d.com/how-to-print-on-t-shirts_55588/
+  - https://hackaday.com/2018/02/09/the-latest-3d-printed-fad-flexible-armor-and-pangolin-cosplay/
+  - https://hackaday.com/2018/01/06/3d-printing-wearables-with-a-net/
+  - https://hackaday.com/2019/08/03/3d-printed-fan-filter-takes-cues-from-costume-scene/
+  - https://hackaday.com/2020/12/18/remoticon-video-how-to-3d-print-onto-fabric-with-billie-ruben/
+  - https://hackaday.com/2021/10/15/3d-print-a-custom-t-shirt-design-step-by-step/
+  - https://learn.adafruit.com/glowing-scale-armor.md?view=all
+  - https://class.textile-academy.org/2024/ann-macara/assignments/week07/ (Fabricademy 2024 student documentation)
+  - https://en.wikipedia.org/wiki/Tulle_(netting)
+  - https://en.wikipedia.org/wiki/Nylon_6
+  - https://en.wikipedia.org/wiki/Nylon_66
+  - https://en.wikipedia.org/wiki/Polyethylene_terephthalate
+  - https://en.wikipedia.org/wiki/Health_and_safety_hazards_of_3D_printing
+  - https://api.printables.com/graphql/ (Printables models 1038289 'Dragon scales ( print on fabric )', 359647 'How to print on fabric', 134 '3D Fabric Experimentation', 502073 'Flexi Tulle Snake', 913170 'Scale Mail for fabric printing', 374037 '3D printed Valentine Flower Greeting Card with Tulle Hinge', 386910 'Print on Fabric Test (Long Spikes)'; pages not opened)
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, off_the_shelf_parts, safety_notes
+
+## 340 Printed chainmail and tile fabric (print-in-place interlinked fabric)
+
+*print-in-place & 3D-printing joints.* A flat sheet of small links or tiles printed already linked together, so it bends and drapes like cloth in every direction, for cosplay armour, flexible covers, bag panels and fidget toys
+
+*Also covers:* Also covers link thickness and strength, joining printed panels, and supportless designs. Not real armour.
+
+### What it is
+
+- **plain_name**: A sheet of tiny plastic tiles or rings that comes off the 3D printer already hooked together, so it bends, folds and drapes like a piece of cloth
+- **term**: Printed chainmail (print-in-place interlinked fabric, 3D-printed fabric or tile fabric)
+- **aliases**: 
+  - 3D-printed chainmail; chain mail fabric; printed fabric; 3D printed fabric (Printables model titles)
+  - NASA chainmail; NASA fabric; NASA hex chainmail (maker names, after JPL's 'space fabric') (Printables 205674 and 373566; Thingiverse 'NASA Fabric Mk 3 Optimized for FDM Printing')
+  - space fabric (JPL's 3D-printed metal tile fabric) (JPL news, 18 April 2017)
+  - dragon scale fabric; dragon scale chainmail; scale mail (Printables 851001 and 931534)
+  - tetrahedron chainmail; hex chainmail; modular chainmail (Printables 304968 and 288)
+  - ring fabric (Jiri Evenhuis's 3D-printed textile, 1999-2003) (Wikipedia 'Jiri Evenhuis')
+  - Kinematics (Nervous System's 4D-printed folding textile of hinged triangles) (Nervous System)
+  - structured fabric; wearable structured fabric (research name for interlocked printed particles) (ScienceDaily, Nature 2021)
+  - polycatenated architected material, PAM (3D chain-mail-like research material) (ScienceDaily, Caltech 2025)
+  - mail; maille; chainmail (the traditional metal-ring armour it imitates) (Wikipedia 'Chain mail')
+- **family**: print-in-place & 3D-printing joints
+- **other_families**: compliant mechanisms & flexures
+- **one_liner**: A flat sheet of small tiles or rings printed in one go with each piece already looped through its neighbours, so the stiff pieces together behave like a flexible cloth for costumes, covers, bags and fidget toys, although it is not real armour.
+- **complexity**: Single piece as printed, but made of many separate parts: tens to thousands of rigid tiles or links that are captive in one another (Nervous System 'Kinematics'). Typical parts: flat top plates (hexagons, squares, triangles or scales) and loops or rings underneath that pass through the neighbouring tiles' loops (Printables 1470589, 304968). Extra parts only when joining panels: connector links or glued connector pieces (Printables 724656, 304968) or wires with crimped stops for scale armour (Printables 618521).
+- **how_it_works**: Each tile has loops or rings that pass through the loops of the tiles next to it, with a small air gap (clearance) everywhere, and the printer builds the whole interlocked sheet in one job, so the pieces are trapped together but never touch tightly (Printables 117560; Nervous System 'Kinematics'). Every piece is rigid, but because each can slide, tilt and turn a little within its gaps, the sheet as a whole bends and drapes like cloth (Nervous System 'Kinematics'; ScienceDaily 2021). How it bends depends on the link shape: NASA-style hexagons with loops on the back bend mainly one way, while smaller hexes with longer loops bend both ways (Printables 385425). If the sheet is squeezed, for example vacuum-packed in a bag, the links jam against each other and it turns stiff (ScienceDaily 2021).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): a sheet that bends and drapes in every direction (Nervous System 'Kinematics'; Printables 304968)
+  - join and hold: the links hold the tiles together permanently as one flexible panel, and connector links join panels into larger pieces (Printables 288, 724656)
+- **motion**: multiple: the sheet bends, folds and drapes over curved shapes; e.g. tetrahedron chainmail 'can effectively fold it in half' (Printables 304968), and a chiton-style scale armour allows 30° between two scales, so three scales make a 90° bend (Printables 618521). Some designs bend mainly one way (Printables 385425)
+- **degrees_of_freedom**: Many. Each tile can move in all 6 ways relative to its neighbour, but only a little, within its clearances; the sheet as a whole behaves like a cloth with very many small joints (Nervous System 'Kinematics'; ScienceDaily 2025 notes the 'coordinated degrees of freedom' of interlinked rings sliding against one another).
+- **special_behaviour**: 
+  - none of the listed behaviours in normal use: it is a flexible sheet, not a lock or clutch
+  - related research behaviour (jamming): when wrapped in a plastic envelope and vacuum-packed, a printed nylon chainmail of interlocked hollow octahedrons became 25 times stiffer and held 1.5 kg, over 50 times its own weight (ScienceDaily 2021, Nature paper by Wang et al.); see Granular jamming gripper
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): each link passes through its neighbour's loop, so the pieces can't come apart without breaking (Printables 1470589; ScienceDaily 2021 calls these 'topologically interlocked structures')
+  - jamming (grains or a braid lock up under load): only in the research version that is vacuum-packed to stiffen it (ScienceDaily 2021)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent within one printed sheet (links can only be separated by breaking them); semi-permanent where panels are joined with printed connector links or glued connector pieces (Printables 724656, 304968); removable where modular tiles are designed to be connected or single scales added and removed (Printables 288, 931534)
+- **tools_needed**: none to use: print it, then flex the sheet to free any links that stuck together. Superglue for glued connector pieces (Printables 304968); wire or cord, a threading aid and crimped cable stops for strung scale armour (Printables 618521); a slicer and, for custom sizes, a generator or CAD file (Actual3D generator; Printables 1526462)
+- **seal**: none: an open mesh with gaps between every link
+- **load**: Light. It is meant to drape, not to carry load. Thicker links help: increasing the chain thickness from 1.2-1.5 mm to 1.8 mm made the NASA hex fabric 'more than twice as strong' with about the same flexibility (Printables 373566). *(unverified parts omitted)*
+- **adjustable**: no: once printed, link size and stiffness are fixed. Size can be changed by joining more panels or adding and removing single scales (Printables 288, 931534, 724656)
+- **play_and_precision**: Noticeable play on purpose: the clearances between links are what let it move, so it does not locate anything precisely. Typical design clearance 0.2 mm (Printables 117560); Prusa suggests at least 0.3 mm for moving parts (Prusa 'Modeling with 3D printing in mind'). Some designs tangle (links catch and twist) more easily than others (Printables 1458248, 816149).
+- **access_needed**: not applicable
+- **materials**: Usually PLA (Printables 205674, 304968, 816149); PETG and ASA also used, ASA recommended for outdoor scale armour (Printables 618521); TPU 'for extra flexibility' (Printables 1470589); silk PLA for looks (Printables 304968). Research and design versions use nylon (Nervous System Kinematics Dress, 3D printed as one piece in nylon; ScienceDaily 2021), acrylic polymers and metals including aluminium (ScienceDaily 2021 and 2025; JPL news). Film costumes use ABS plastic rings instead of metal mail to save cost and weight (Wikipedia 'Chain mail'). It can be attached to fabric, elastic, cord or wire, or replaced by printing tiles directly onto fabric (see Printing onto fabric).
+- **maker_difficulty**: easy to moderate: free models print in one piece with no supports and no assembly (Printables 1458248, 1470589), but they need a well-tuned first layer, good bed adhesion and good bridging (Printables 304968, 52358); designing your own that is flexible, printable and doesn't tangle is harder ('It is easy to design a 3d printed chainmail. It is hard to do it the right way', Printables 816149)
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): the usual maker method; whole sheets print in place with no supports (Printables 205674, 1470589)
+  - 3D print (SLS nylon, industrial): Kinematics garments and research fabrics are printed in nylon as a single piece (Nervous System 'Kinematics Dress'; ScienceDaily 2021)
+  - 3D print (metal, industrial): JPL's 'space fabric' prototypes and aluminium research chainmail (JPL news 2017; ScienceDaily 2021)
+  - off-the-shelf part: traditional metal mail and ring weaves for jewellery and art (Wikipedia 'Chain mail')
+- **print_in_place**: yes: the sheet prints already linked and works straight off the bed, with no supports and no assembly (Printables 1458248; Nervous System 'Kinematics': 'the hinge mechanisms are 3D printed in place and work straight out of the machine'). Joining several printed panels needs separate connector links or glued pieces (Printables 724656, 304968).
+- **making_tips_3d_printing**: 1) Start small: print a 2x2 or 1x1 sample to test your printer's clearances before a big sheet (Printables 117560, 288). 2) Layer height 0.15-0.2 mm works for NASA-style chainmail (Printables 205674); the Actual3D generator recommends 0.2 mm for NASA chainmail and 0.16 mm for dragon scale fabric, a 0.4 mm or smaller nozzle and no supports (Actual3D generator). 3) Use 0% infill: the links are thin enough to be all perimeters (Printables 288; Actual3D generator). 4) The first layer is critical: 'Flawless bed adhesion and calibration is crucial' (Printables 304968); a 'well calibrated first layer and clean PEI' (Printables 52358). Squashed first layers spread wider than drawn and can fill small gaps (Prusa 'Elephant foot compensation', about 0.2 mm compensation for a 0.4 mm nozzle). 5) Supportless designs rely on bridges: Tetrahedron chainmail uses two layers of 0.4 mm-thick bridges, so print at 0.2 mm layers (Printables 304968); designs with no bridges at all also exist (Printables 2566), and links shaped as distorted rings can print without support down to a 4 mm cell with a 0.4 mm nozzle (Printables 544241). 6) Make links thick enough: 1.8 mm instead of 1.2-1.5 mm doubled the strength (Printables 373566); thin loops 'don't always print the best' (Printables 385425). 7) Slow down: several designers 'slowed the printer down a bit' (Printables 816149, 851001). 8) Avoid tangling: some link shapes tangle; pick 'tangle free' designs if the sheet will be handled a lot (Printables 816149, 1458248). 9) Colour: a filament change (M600) partway up gives a two-colour sheet whose underside shows when it bends (Printables 304968). 10) Bigger than the bed: join panels with connector links (Printables 724656), print modular tiles (Printables 288), or fold the design before printing as Nervous System does (Kinematics Dress). 12) For stiffer but still flexible sheets use PETG or ASA; for softer drape try TPU (Printables 618521, 1470589). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Not usually needed. Useful extras: 'cable crimp stops' or 'wire rope stops' and thin steel cable or nylon cord for strung scale mail (Printables 618521); elastic or rubber bands to wear printed ties and panels (Printables 503382); superglue for connector pieces (Printables 304968); *(unverified parts omitted)*
+- **rules_of_thumb**: 
+  - Moving parts need a gap: start with at least 0.3 mm on a well-tuned FDM printer (Prusa 'Modeling with 3D printing in mind'); some fabrics use 0.2 mm, so print a 2x2 test first (Printables 117560).
+  - Thicker links: going from 1.2-1.5 mm to 1.8 mm chain thickness made NASA hex chainmail more than twice as strong with almost the same flexibility (Printables 373566).
+  - Layer height 0.15-0.2 mm, 0.4 mm nozzle or smaller, 0% infill, no supports (Printables 205674 and 288; Actual3D generator).
+  - Walls thinner than one perimeter (about 0.45 mm with a 0.4 mm nozzle) can't print; 4 perimeters = 1.8 mm (Prusa 'Modeling with 3D printing in mind').
+  - Overhangs of 45-60° print cleanly without support; short horizontal bridges are fine (Prusa 'Modeling with 3D printing in mind').
+  - Elephant-foot compensation of about 0.2 mm suits a 0.4 mm nozzle (Prusa 'Elephant foot compensation').
+  - Scale armour: about 30° of movement between neighbouring scales gives a 90° bend over three scales; at about 10 mm scale size it 'feels more like cloth than armor' (Printables 618521).
+  - Smallest practical cell on a normal FDM printer is around 4 mm (0.4 mm nozzle, 0.2 mm layers) (Printables 544241).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Costume chainmail: films often use ABS plastic rings instead of metal to save cost and weight, as in The Lord of the Rings trilogy (Wikipedia 'Chain mail')
+  - The metal mesh glove a butcher or oyster shucker wears (Wikipedia 'Chain mail')
+  - Printed 'NASA chainmail' and dragon-scale fidget sheets, coasters and ties shared on model sites (Printables 205674, 851001, 503382)
+  - The Kinematics Dress, a printed dress of thousands of hinged nylon triangles (Nervous System)
+- **when_to_use**: Use it when you want a flexible surface made only on a 3D printer: cosplay and costume pieces, decorative panels and covers that must wrap around curves, bags and pouches, wearable jewellery, coasters and fidget toys (Printables 117560, 503382, 851001; Nervous System 'Kinematics'). It suits large curved coverings that would be hard to print solid, because the sheet can be printed flat (or folded) and then drapes into shape (Nervous System 'Kinematics Dress').
+- **when_not_to_use**: Don't use it as protection: it is not armour, and even real metal mail was pierced by thrusts when not riveted and let blows bruise or break bones underneath (Wikipedia 'Chain mail'); for protective gear buy rated products. Don't use it where it must carry load or hold a shape: use a solid part, a living hinge (Living hinge) or a cable carrier (Cable carrier) for one bending direction, or a posable arm (Posable segmented arm) if it must stay where it is bent. If you want a soft fabric feel, print tiles onto real fabric instead (Printing onto fabric). For flat sheet stock, laser-cut flexible patterns are an alternative (Kerf bending).
+- **environment_limits**: Same as the plastic it is printed in: PLA softens and deforms above about 60 °C and degrades in UV light, so a PLA costume piece can sag in a hot car or in sun; PETG is suitable indoors and outdoors below about 80 °C (Prusa PLA and PETG guides); ASA is recommended for outdoor scale armour (Printables 618521). PLA 'breaks along layers or into shards upon impact' (Prusa PLA guide), so thin links snap rather than bend. *(unverified parts omitted)*
+- **safety_notes**: Not real armour: treat it as decorative or light-duty and never rely on it to stop blades, points or impacts (Wikipedia 'Chain mail'). Research 'stiffen on demand' and polycatenated chainmail materials are lab prototypes, not proven protective gear (ScienceDaily 2021 and 2025). *(unverified parts omitted)*
+- **common_failures**: Links fused together because the first layer was squashed too wide or the clearance was too small: calibrate the first layer, use elephant-foot compensation, print a small test (Printables 304968, 117560; Prusa 'Elephant foot compensation'). Sheet peeling off the bed mid-print: clean the bed and use good adhesion (Printables 52358, 851001). Sagging bridges or failed loops: use designs made for bridging, 0.2 mm layers and slower speeds (Printables 304968, 385425). Old designs with 12 tiny dots that 'often failed' were replaced by a coned centre section (Printables 205674). Thin links snapping: use thicker links (Printables 373566) or a tougher material such as PETG. Tangling: choose a tangle-resistant link shape (Printables 816149, 1458248). Sheet only bending one way: choose a design whose loops reach further (Printables 385425).
+- **related**: 
+  - Print-in-place hinge: a single printed hinge with one axis; chainmail is many tiny captive joints that bend in all directions
+  - Posable segmented arm (snap-together ball chain, gooseneck): a one-dimensional chain that holds its shape; chainmail is a two-dimensional sheet that flops
+  - Cable carrier (drag chain, energy chain): a chain of links that bends in one plane only
+  - Printing onto fabric (fabric embedded in a 3D print): printed tiles on a real fabric layer; softer and lighter, the all-printed alternative is this entry
+  - Multi-material interlock (co-printed rigid and flexible parts): bonds rigid and flexible printed materials into one part rather than linking separate pieces
+  - Living hinge and Kerf bending (laser-cut living hinge): thin flexing material instead of separate links; one bending direction at a time
+  - Mechanical metamaterial mechanism (shear-cell hinge arrays): printed cell arrays that move in a designed way
+  - Granular jamming gripper (coffee-balloon gripper): uses the same jamming effect that makes vacuum-packed chainmail go stiff
+  - Origami mechanisms and Self-folding print (4D printing): other ways to get a flat print to fold into a 3D shape
+  - Split-part joints for large prints: other ways to make something larger than the print bed
+
+### Pictures, videos and models
+
+- **links**: 
+  - ['Space Fabric' Links Fashion and Engineering (NASA JPL news, 18 April 2017)](https://www.jpl.nasa.gov/news/space-fabric-links-fashion-and-engineering/): Photos of JPL's 3D-printed metallic 'space fabric' of small linked squares, with different functions on each side *(licence: link only (images credited NASA/JPL-Caltech))*
+  - [Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003 (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg): An early 3D-printed ring fabric sample draped over a seed, showing how linked rings drape like cloth *(licence: CC BY-SA 4.0)*
+  - [Kinematics Dress (Nervous System)](https://n-e-r-v-o-u-s.com/projects/kinematics/kinematics-dress/): Photos and a fold simulation of a dress of thousands of hinged triangular nylon panels printed as one folded piece *(licence: link only)*
+  - [The smart chain mail fabric that can stiffen on demand (nature video, YouTube)](https://www.youtube.com/watch?v=S2n9VJrra3g): Video about printed chainmail that becomes rigid when vacuum-packed (title and channel verified via YouTube oEmbed; video content not viewed) *(licence: link only (standard YouTube licence))*
+  - [How to Draw 3D Printable Chainmail with Fusion 360 (Poppy Mosbacher, YouTube)](https://www.youtube.com/watch?v=HsGCIl4KjGs): A CAD walkthrough for designing printable chainmail (title and channel verified via YouTube oEmbed; video content not viewed) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Nasa chainmail (4x4, 8x8, 12x16 and 32x34) (Hector, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/205674-nasa-chainmail-4x4-8x8-12x16-and-32x34): The most popular printable chainmail (about 13,000 likes), based on TurboDork's 'NASA Fabric Mk 3 Optimized for FDM Printing' on Thingiverse; several sheet sizes; 0.15 or 0.2 mm layers *(licence: CC BY (Creative Commons Attribution))*
+  - [Ideal NASA Chainmail Hex for FDM (STEP included) (Gamma4D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/373566-ideal-nasa-chainmail-hex-for-fdmstep-included): Hexagonal chainmail with 1.8 mm links, more than twice as strong as the original, with editable STEP files *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Chainmail 2.0 - Modular 3D Printable Fabric (Agustin Arroyo / Flowalistik, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/288-chainmail-20-modular-3d-printable-fabric): Modular chainmail of identical parts in 1x1 to 20x20 grids that can be printed in several colours and joined; recommended as a printer test *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [SNAFU Chain Mail / 'NASA Fabric' in OpenSCAD (h2odragon, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1526462-snafu-chain-mail-nasa-fabric-in-openscad): Parametric OpenSCAD re-creation of NASA-style chainmail: any number of rows and columns, adjustable link dimensions *(licence: GNU GPL v2.0)*
+  - [NASA inspired chainmail generator (Actual3D / Actualizings)](https://www.generator.actual3d.com/nasa-chainmail): Online generator that downloads a STEP sheet of NASA-style chainmail in any number of rows and columns, with recommended print settings; the same site has dragon-scale and Flowalistik chainmail generators *(licence: free online tool; licence of output not stated)*
+  - [NASA Chainmail Hex Connector (Chainmail Weaves, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/724656-nasa-chainmail-hex-connector-for-both-fdm-optimise): A single printed connector link for joining separate sheets of NASA chainmail into larger panels *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- **diagram_idea**: A close-up cut-away of three neighbouring hexagonal tiles, showing the loop under each tile passing through its neighbour's loop with a shaded air gap all round, next to a small picture of the whole sheet draped over a ball.
+- **sources**: 
+  - https://www.space.com/36719-nasa-chain-mail-space-fabric.html
+  - https://www.jpl.nasa.gov/news/space-fabric-links-fashion-and-engineering/
+  - https://www.sciencedaily.com/releases/2021/08/210811131557.htm
+  - https://www.sciencedaily.com/releases/2025/01/250121162100.htm
+  - https://en.wikipedia.org/wiki/Chain_mail
+  - https://en.wikipedia.org/wiki/Jiri_Evenhuis
+  - https://n-e-r-v-o-u-s.com/projects/kinematics/
+  - https://n-e-r-v-o-u-s.com/projects/kinematics/kinematics-dress/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/elephant-foot-compensation_114487
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://www.generator.actual3d.com/nasa-chainmail
+  - https://www.generator.actual3d.com/scale-fabric
+  - https://www.thingiverse.com/thing:3095799
+  - https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg
+  - https://www.youtube.com/watch?v=S2n9VJrra3g
+  - https://www.youtube.com/watch?v=HsGCIl4KjGs
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, load, making_tips_3d_printing, off_the_shelf_parts, reuse_cycles, safety_notes
 

@@ -440,7 +440,7 @@
   - cross-slide vise / X-Y compound vise (drill press)
   - Schwalbenschwanzfuehrung (German, 'swallow-tail guide')
 - **family**: sliding, telescoping & linear motion
-- **other_families**: locating & alignment, interlocking joints & joinery
+- **other_families**: locating & alignment, interlocking joints & joinery, adjusters, levellers & spacers
 - **one_liner**: A carriage with angled (dovetail) edges slides along a matching angled track that stops it lifting off or rocking, and a thin strip (the gib), pushed in by screws or slid along as a wedge, takes up the play so it slides snugly without wobble and can be re-tightened as it wears.
 - **complexity**: A few parts: the base with the dovetail track (the ways), the sliding part (saddle or carriage), the gib strip, and either several gib screws with lock nuts (straight gib) or one adjusting screw and a lock (tapered gib). Usually also a lead screw and nut to drive it, and sometimes a lock screw to clamp it in place.
 - **how_it_works**: The sliding part has a groove with sloping sides that wraps around a matching slanted rail, so it can slide along the rail but cannot lift off, rock or move sideways (dovetail ways constrain both cross directions and stop the carriage lifting, unlike flat or V ways). The groove is made slightly wider than the rail and the gap on one side is filled by a gib strip. With a straight (parallel) gib, set screws along the side push the strip against the rail; with a tapered gib, the strip is a long thin wedge that an end screw slides lengthwise, so on a 1-in-100 taper moving it 10 mm changes the fit by only about 0.1 mm. Tightening removes the play; the gib is then locked, and it can be re-adjusted as the sliding surfaces wear.
@@ -1252,7 +1252,7 @@
   - differential-pitch screw / headless compression screw, e.g. the Herbert screw (surgical bone screw)
   - Differenzgewinde (German)
 - **family**: sliding, telescoping & linear motion
-- **other_families**: motion conversion, locating & alignment
+- **other_families**: motion conversion, locating & alignment, adjusters, levellers & spacers
 - **one_liner**: One turn of a screw carrying two threads of slightly different pitch moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.
 - **complexity**: A few parts: a screw (spindle) with two threads of slightly different pitch, or two standard screws joined end to end, or a threaded sleeve with one pitch outside and another inside; a fixed nut; a second nut on the part being adjusted, kept from turning by a slot, square tube or guide; a knob or thimble; and often a small spring that pushes the moving nut to take up play.
 - **how_it_works**: Turning the screw drives it through the fixed nut by one pitch, say 0.8 mm for an M5 thread. At the same time the second, finer thread on the same screw turns inside the moving nut, which can't rotate, and draws that nut back by its own pitch, 0.7 mm for M4. The moving nut therefore travels only the difference, 0.8 - 0.7 = 0.1 mm per turn, so a tenth of a turn moves it 10 um. Both threads must be the same hand (usually right-hand); with opposite hands the two movements add instead, as in a turnbuckle.

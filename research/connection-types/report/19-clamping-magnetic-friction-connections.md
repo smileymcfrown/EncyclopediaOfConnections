@@ -1229,7 +1229,7 @@
   - Rawlnut or Rawl nut (brand; the usual UK name for a well nut, Wikipedia 'Well nut')
   - blind nut; blind threaded insert; one-sided nut; threaded insert for thin sheet
 - **family**: clamping, magnetic & friction connections
-- **other_families**: seals & pass-throughs
+- **other_families**: seals & pass-throughs, everyday fasteners & fixings
 - **one_liner**: A threaded insert that you push into a drilled hole from one side and then squeeze (rivet nut) or tighten a screw into (well nut), so its body swells into a collar behind the sheet or tube wall and gives you a strong thread where no nut could be held behind.
 - **complexity**: Rivet nut: a single piece (a short metal tube with a flange or head at the front, a thin plain section in the middle that collapses, and a threaded section at the far end), fitted with a separate setting tool (Wikipedia 'Rivet nut'; Böllhoff). Plus nut: one piece with the plain section slit into four strips (Böllhoff). Well nut: a few parts moulded as one unit: a flanged rubber (neoprene or EPDM) sleeve with a brass or stainless nut embedded in the far end, used with your own screw (Wikipedia 'Well nut'; Rivet Nut USA).
 - **how_it_works**: Rivet nut: you screw it onto the threaded rod (mandrel) of a setting tool, push it into the hole, and the tool pulls the threaded end back towards the head; the thin plain part of the body buckles outward into a ring or bulge behind the sheet, riveting itself in place, and the tool is then unscrewed, leaving a thread (Böllhoff RIVNUT catalogue p.4; Wikipedia 'Rivet nut'). A slotted plus nut splits into four 'petals' that spread over a wide area behind soft or thin material (Böllhoff PLUSNUT data sheet). Well nut: you push the rubber sleeve through the hole and tighten a screw into the embedded nut; the flange's friction stops it turning, and as the nut is drawn towards you the rubber squashes into a thick lip behind the panel, clamping the panel and sealing the hole (Wikipedia 'Well nut'). In a blind hole in solid material the squashed rubber instead presses outward on the hole walls and anchors by friction (Wikipedia 'Well nut').
@@ -1367,6 +1367,7 @@
   - tension joint and shear joint (the two main engineering types: preloaded, slip-resistant or bearing type) (Wikipedia 'Bolted joint')
   - threaded fastener, threaded connection
 - **family**: clamping, magnetic & friction connections
+- **other_families**: everyday fasteners & fixings
 - **one_liner**: A threaded fastener passes through clearance holes and is tightened into a nut or a tapped hole, stretching slightly like a stiff spring so it clamps the parts together; it is the standard removable joint that other connections are compared with.
 - **complexity**: A few parts: a bolt or machine screw (head, shank, thread), a nut or a threaded (tapped) hole in one part, and usually one or two washers; sometimes a locking part such as a nylon-insert nut or threadlocker (Wikipedia 'Bolted joint'; Wikipedia 'Washer (hardware)').
 - **how_it_works**: Turning the head or nut makes the bolt climb its thread, which stretches the bolt a tiny amount and squeezes the parts together with an equal force (preload or clamp load) (Wikipedia 'Bolted joint'). The squeezed parts then hold by friction, so sideways (shear) loads are carried by friction between the faces rather than by the bolt, and pulling loads are shared between bolt and parts, with the bolt typically seeing only about 10-20% of the extra load in a well-designed joint (Wikipedia 'Bolted joint'). If the joint is not tightened much, sideways loads are carried by the bolt pressing on the sides of its holes instead (bearing-type joint). Undoing the nut or screw releases the clamp so the parts can be separated and the joint reused.
@@ -1606,4 +1607,717 @@
 ### Other info
 
 - **Fields with unverified parts:** environment_limits, input_output, making_tips_3d_printing, processes, special_behaviour
+
+## 339 Expanding internal grip (expanding mandrel, inside gripper)
+
+*clamping, magnetic & friction connections.* A plug or a set of fingers pushed into a hole, ring or tube that grows outward to grip it from the inside and shrinks again to let go, driven by a cone or wedge, a screw-driven linkage or an inflated bladder
+
+*Also covers:* Also covers expanding mandrels for turning, robot inside grippers and bladder grippers. Safety: a powered inside gripper can drop its part when pressure or power is lost.
+
+### What it is
+
+- **plain_name**: A plug, sleeve or ring of fingers that you push into a hole, tube or ring and then make fatter, so it presses outward on the inside wall and holds the part from within; make it thinner again and the part slides off
+- **term**: Expanding internal grip: the expanding mandrel (expanding arbor) used to hold a part by its bore for turning, grinding or sanding, and the internal gripper (I.D. gripper, expansion gripper) used on robots, including the inflatable bladder gripper
+- **aliases**: 
+  - expanding mandrel; expanding arbor; expansion arbor (Wikipedia 'Mandrel'; Joe Pie video title)
+  - expanding mandrel and sleeve; split-sleeve mandrel (a slotted sleeve pushed along a tapered arbor) (Birla Precision; US patent 6832756)
+  - expanding collet; internal expanding collet; ID chuck (Printables 'Watch Case Back Polishing Arbor - Internal Expanding Collet / ID Chuck')
+  - O-ring mandrel; O-ring expansion arbor (rubber rings squeezed so they bulge outward) (US patent 6832756; Hobby-Machinist forum)
+  - ring expanding mandrel (jeweller's or lathe ring holder) (Sherline video title; Printables 'Expanding ring mandrel')
+  - internal gripper; inside gripper; I.D. (inside-diameter) gripper; internal gripping; expansion gripping (Ozobot ORA guide; SCHUNK CGP data sheet 'I.D. gripping')
+  - EOAT internal gripper (end-of-arm tooling) (US patent 4770456)
+  - inflatable bladder gripper; bladder gripper; inflatable gripper (US patents 4770456 and 4955655)
+  - airshaft; air shaft; air expanding shaft, lug type or strip type, for gripping the cardboard core of a roll of paper or film (Wikipedia 'Airshaft')
+  - rubber expansion sanding drum (nut-lock, screw-lock and quick-lock types) (Bearing Distributors catalogue)
+  - expanding spool holder; spool hub expander (Printables 'Ankermake M5 - Spoolholder - Expanding Mandrel')
+- **family**: clamping, magnetic & friction connections
+- **other_families**: powered & active connectors, locating & alignment, hydraulics, pneumatics & vacuum
+- **one_liner**: A plug or set of fingers goes into a hole, tube or ring and is made to grow outward, by a cone or wedge, a screw-driven linkage or an inflated rubber bladder, so friction against the inside wall holds and centres the part, and shrinking it again lets the part go.
+- **complexity**: A few parts to a small assembly that acts as one unit. Lathe expanding mandrel: a tapered arbor (bar), a sleeve slit along its length, and a nut or pull-rod (drawbar) that pushes the sleeve up the taper (Birla Precision; US patent 6832756). Shop-made mandrel: a bar slit into four at one end, a tapered thread and a screw (Model Engineer forum). Rubber type: spacers, O-rings or a rubber sleeve and a nut that squashes them (US patent 6832756; Bearing Distributors). Robot inside gripper: an actuator (air cylinder or servo), a wedge, cone or linkage, and two or more fingers or jaws (US patent 4770456; SCHUNK CGP). Bladder gripper or airshaft: a rubber or silicone bladder inside a housing or slotted tube, an air valve, an air supply, and in airshafts metal lugs pushed out by the bladder (US patent 4770456; Wikipedia 'Airshaft').
+- **how_it_works**: Something inside the plug pushes its outer surface outward until it presses hard against the inside of the part, and friction then stops the part sliding or turning. In the classic lathe mandrel a sleeve with long slots is pushed along a gently tapered bar, so the slotted sections are forced outward, roughly parallel to the centre line (US patent 6832756); squashing rubber O-rings or a rubber sleeve along its length makes it bulge outward in the same way (US patent 6832756; Bearing Distributors). Robot inside grippers either move fingers outward through a linkage driven by an actuator, or inflate a bladder (with or without a shell) inside the cavity (US patent 4770456); airshafts inflate a bladder that pushes metal lugs out of slots to grip a roll's core (Wikipedia 'Airshaft'). Because the push is even all round, the part ends up centred on the plug, and reversing the screw, nut or air lets the springy sleeve or rubber shrink back so the part comes off.
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds a ring, bush, gear, tube, spool or roll by its hole so the outside stays free to be machined, sanded, polished or handled (Birla Precision; Ozobot ORA guide; Wikipedia 'Airshaft')
+  - hold or release using power: robot and air versions grip when air pressure or a motor pushes the fingers or bladder outward, and let go when it is removed (PFA 'What is an Air Gripper?'; US patent 4770456)
+  - line parts up exactly: centres the part on its bore, so the outside can be turned true to the hole (Birla Precision: expanding mandrels are used 'for locating and holding the components with a bore')
+  - lock, and release by hand: screw, nut and knob versions are tightened and undone by hand or with a spanner (Printables 'Expanding ring mandrel'; Printables 'Ankermake M5 - Spoolholder - Expanding Mandrel')
+- **motion**: none: once expanded nothing moves. The gripping surface only moves outward a little: about 0.8 mm on the diameter for a standard precision sleeve (Birla Precision), 9 mm for a printed spool-holder mandrel (50 to about 59 mm, Printables 346075) and about 7 mm for a printed ring mandrel (13.2 to 20.2 mm, Printables 882417)
+- **degrees_of_freedom**: 0 while gripping: the outward push fixes the part's sideways position and tilt, and friction stops it sliding along or turning on the plug. On lathe mandrels a shoulder or face sets the depth, and the sleeve's pull-back action draws the part 'hard against the locating face' (Birla Precision). While released: 2 (the part can slide on and off and turn).
+- **special_behaviour**: 
+  - self-aligning or self-centring: the even outward push centres the part on its bore; a precision double-angle sleeve mandrel holds parts to within 0.013 mm (0.0005 in) total indicated run-out (Birla Precision). The older single-taper sleeve type 'has never been a particularly accurate method' (US patent 6832756)
+  - quick-release: powered inside grippers open and close in a few hundredths of a second (closing and opening times of 0.02 to 0.07 s for SCHUNK CGP grippers), and an airshaft 'may also be easily deflated to facilitate easy withdrawal' (Wikipedia 'Airshaft'). Screw-driven mandrels need a few turns of a nut or knob
+  - fail-safe or breakaway: only in spring-assisted powered grippers: a spring keeps a minimum gripping force if the air pressure drops, and in the version made for inside gripping (SCHUNK 'IS') the spring pushes the jaws open, i.e. outward against the bore (SCHUNK CGP data sheet; PFA 'What is an Air Gripper?'). Plain air and bladder grippers are not fail-safe: they relax when the air goes
+- **holding_principle**: 
+  - friction or clamping (force-fit): the outward push presses the sleeve, fingers or bladder against the bore and friction carries the load (US patent 6832756; SCHUNK rates its grippers for 'force-fit gripping' by friction, SCHUNK CGP data sheet)
+  - powered hold: robot grippers, bladder grippers and airshafts hold only while air pressure or motor force is applied, unless a spring or brake keeps the grip (PFA 'What is an Air Gripper?'; SCHUNK CGP data sheet)
+  - spring force (a spring or springy part presses it in place): in spring-assisted grippers a spring keeps a minimum grip force; in slit sleeves and rubber types the springiness mainly shrinks the plug again for release (SCHUNK CGP data sheet; US patent 6832756)
+  - shape (the parts interlock; form-fit): only in special cases, e.g. serrated sleeves that locate in splines or internal gear teeth (Birla Precision) or fingers that hook under a lip; SCHUNK notes that form-fit gripping allows 'significantly higher' part weights than friction gripping (SCHUNK CGP data sheet)
+- **input_output**: Not a motion converter in use. A lathe or drill mandrel passes the spindle's rotation straight into the part, 1:1 and in line, until it slips. Inside, a cone, wedge or linkage turns an axial push (a nut, drawbar, air piston or servo) into a small outward movement; e.g. the SCHUNK CGP uses a wedge-hook to turn the piston's up-and-down movement into synchronised jaw movement. *(unverified parts omitted)*
+- **power**: passive (no power needed) for screw, nut, knob and drawbar mandrels: they stay tight on their own. Powered (compressed air, hydraulics or an electric motor) for robot inside grippers, bladder grippers and airshafts. If power is lost: an air gripper 'will relax its grip on an object when air pressure is lost. This may cause the object to be dropped' (PFA 'What is an Air Gripper?'); spring-assisted versions keep a minimum grip force (SCHUNK CGP data sheet); a pressure maintenance valve can hold the air in the gripper's piston for a while during an emergency stop (SCHUNK SDV-P, in the CGP data sheet). *(unverified parts omitted)*
+- **removability**: removable: undo the nut or knob, or release the air, and the part slides off. Powered grippers and airshafts are effectively tool-free quick release (Wikipedia 'Airshaft'; PFA 'What is an Air Gripper?')
+- **reuse_cycles**: effectively unlimited for metal mandrels and industrial grippers (pneumatic grippers 'can provide millions of cycles without needing upkeep', PFA 'What is an Air Gripper?'); bladders wear and are replaced when they fail (US patent 4955655). Printed plastic mandrels: many times, but thin fingers can chip or crack (Printables 346075: cardboard spools 'resulting in chipped keys')
+- **tools_needed**: Lathe mandrels: a spanner or 'C' spanner, or the machine's drawbar (Birla Precision). Shop-made slit mandrel: a hex key for the taper-ended screw (Model Engineer forum). Printed mandrels: a screwdriver or hex key for an M4 or M5 screw and nut (Printables 882417, 1854987), or no tools where a hand knob is printed (Printables 346075). Powered grippers: no tools in use, but they need an air supply and valve, or a servo and controller. Making a metal one needs a lathe and a slitting saw or hacksaw (Model Engineer forum; Hobby-Machinist forum).
+- **seal**: none: it grips but is not meant to seal. The same squeezed-rubber or inflated-bladder principle is used in tube and pipe plugs, which are a separate type (see Internal tube anchors)
+- **load**: Light to heavy depending on build. Strong against twisting and against pulling the part off along the axis, as long as friction holds; weaker against tilting or prying if the grip is short. Industrial guide: SCHUNK CGP air grippers give 350 to 1585 N of gripping force but are rated for parts of only 1.75 to 5.6 kg when gripping by friction, because the rating assumes a friction coefficient of 0.1 and a safety factor of 2 (SCHUNK CGP data sheet). Precision mandrels hold well enough for 'heavy machining operations' (Birla Precision). Printed mandrels and grippers are light duty. The part's own wall limits the load: a thin ring or cardboard core can deform or crush (Printables 346075).
+- **adjustable**: yes: how far it expands, and so how tightly it grips, is set by how far the screw, nut or knob is turned, or by the air pressure. Grip force of an air gripper rises in proportion to pressure: 'If you increase the air pressure by 20 percent, you increase the force on the gripper by 20 percent', and a regulator can reduce it (PFA 'What is an Air Gripper?'). Each mandrel covers only a small size range (0.8 mm per standard precision sleeve, up to 6.3 mm on large diameters, Birla Precision), so different bores need different sleeves or keys.
+- **play_and_precision**: No play once gripping. Precision varies widely: double-angle precision sleeves 0.013 mm (0.0005 in) run-out or better (Birla Precision); the older single-taper slotted sleeve is 'never ... particularly accurate' (US patent 6832756); the O-ring type 'requires a very tightly controlled size tolerance for the workpiece inside diameter' (US patent 6832756). Home-made mandrels run truer if you expand them slightly and then turn the outside to the bore size, so they clamp evenly (Hobby-Machinist forum). It tolerates bore size only within its small expansion range, and a robot needs to line the gripper up accurately with the hole ('This technique requires a high degree of precision', Ozobot ORA guide).
+- **access_needed**: one side only (blind): it goes into the hole from one end, so it suits blind bores and parts whose outside must stay free; cantilever mandrels are 'specifically useful for blind bores' (Birla Precision), and Joe Pie's O-ring expansion arbor video is titled 'No through hole...No Problem'
+- **materials**: Made from: hardened steel (traditional precision mandrels, US patent 6832756); free-cutting steel such as 12L14 or EN1A, or aluminium, for shop-made mandrels (Hobby-Machinist forum); rubber O-rings, rubber drums or silicone bladders (US patent 6832756; Bearing Distributors; US patent 4770456); printed PLA, PETG or ABS, with TPU suggested for extra grip (Printables 882417). Parts it holds: anything with a round bore or inner surface: metal rings, bushes and gears, wheels, watch case backs, drink cans, cardboard and plastic spool and roll cores, game-piece cones (Printables 1854987, 129962, 346075; Wikipedia 'Airshaft'; MatterHackers). Poor fits: parts with burrs or sharp edges inside (they damage bladders, US patent 4955655), thin or soft parts that bulge, and nested or stacked parts.
+- **maker_difficulty**: easy to moderate: a printed ring or spool mandrel with one screw and nut is easy (Printables 882417); an accurate metal mandrel needs a lathe and a slitting cut (moderate); a powered robot inside gripper is moderate to hard because it needs an actuator, control and careful alignment (Ozobot ORA guide)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: expanding mandrels and sleeves, ring expanding mandrels, rubber expansion sanding drums, airshafts, air grippers with an I.D. gripping option, inflatable internal grippers
+  - 3D print (FDM): screw-expanded mandrels for rings, watch case backs, cans and filament spools, and game-piece grippers for robot contests (Printables 882417, 1854987, 129962, 346075; MatterHackers 'Slight Malfunction')
+  - CNC: turned and slit metal mandrels on a lathe, including the taper-tap-and-screw method and expand-then-turn-to-size (Model Engineer forum; Hobby-Machinist forum)
+- **print_in_place**: partly: most printed versions are one or a few printed parts plus a bought screw and nut, e.g. the ring mandrel needs an M4 nut and an M4 x 30 bolt (Printables 882417) and the watch case-back arbor an M5 screw, nut and washer (Printables 1854987); bigger ones are assemblies of many printed parts (the spool mandrel uses 24 key halves, 12 dowels, threaded bodies and two 608 bearings, Printables 346075)
+- **making_tips_3d_printing**: 1) Print the split body so the layers run along the fingers, not across their roots: the ring mandrel 'must be printed as shown in the picture to prevent snapping of the moving jaws' (Printables 882417). 2) Make the fingers solid: Bobino used 5 perimeters and 20% adaptive cubic infill in PLA, and says PETG or ABS also work and TPU 'might provide even better grip' (untested) (Printables 882417). 3) Use metal threads: a captive nut plus a screw that pushes into a cone or tapered hole is the usual drive (Printables 882417, 129962); a washer under the screw head spreads the force, and chamfering the screw head makes it run smoother (Printables 1854987). 4) Print a small tolerance test first: the spool mandrel is 'a tight tolerance model' and its author added a cut-down test piece of the expansion collar (Printables 346075). 5) Keep thin finger tips away from crushable parts: hollow cardboard spool cores put all the force on the thin edge of the keys and chipped them (Printables 346075). 6) Expect only a small size range per design: plan one printed mandrel per size band (13-20 mm and 18-26 mm ring versions, Printables 1803272). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'expanding mandrel' or 'expanding mandrel set' (lathe, between centres or with a Morse-taper shank), 'expanding sleeve' and 'expanding mandrel sleeve' (standard, flush, segmented and serrated types, Birla Precision), 'expansion arbor', 'ring expanding mandrel' (jewellery and small lathes, e.g. Sherline (brand)), 'rubber expansion sanding drum' (nut-lock, screw-lock or quick-lock, Bearing Distributors), 'airshaft' or 'air expanding shaft' (lug type or strip type, Wikipedia 'Airshaft'), 'pneumatic parallel gripper' with 'I.D. gripping' or a 'spring-opening' gripping-force-maintenance version (SCHUNK 'IS' (brand) type), 'inflatable internal gripper' or 'bladder gripper', and 'pressure maintenance valve' for grippers (SCHUNK SDV-P (brand)). For home-made versions: a 'taper tap', socket-cap screws, M3-M5 screws and nuts, washers and 608 bearings for spool versions (Model Engineer forum; Printables 882417, 346075).
+- **rules_of_thumb**: 
+  - For friction grips, the gripping force must be many times the part's weight: SCHUNK rates its grippers for 'force-fit gripping with a coefficient of static friction of 0.1 and a safety factor of 2', which works out at a grip force of about 20 times the part's weight (e.g. 350 N for a 1.75 kg part) (SCHUNK CGP data sheet).
+  - Gripping by shape (fingers hooking under a lip or into a groove) allows 'significantly higher permissible workpiece weights' than friction gripping (SCHUNK CGP data sheet).
+  - Each precision expanding sleeve covers only about 0.8 mm of bore size as standard (the page's inch figure of 0.32 in appears to be a misprint for 0.032 in), with special types expanding up to 6.3 mm on large diameters; precision double-angle sleeves hold to 0.013 mm run-out (Birla Precision).
+  - Fit an over-expansion stop: commercial mandrels have one 'to avoid over-stressing on the expanding sleeve' (Birla Precision).
+  - A plain (non-expanding) tapered mandrel has a taper of about 0.005 in per foot and is driven into an accurate hole to grip by friction (Wikipedia 'Mandrel').
+  - Shop-made mandrel: turn a bar to the bore size, drill and tap the end with a taper tap, slit it into four, and tighten a screw so the taper spreads the fingers (Sparey, 'The Amateur's Lathe', as described on the Model Engineer forum); slot width hardly matters, about 0.7 mm is fine, and expanding the mandrel slightly before turning it to final size gives even clamping (Hobby-Machinist forum).
+  - Air gripper force is proportional to air pressure (+20% pressure gives +20% force) (PFA 'What is an Air Gripper?'); SCHUNK CGP grippers run at 6 bar nominal, with a minimum of 2.5 bar, or 4 bar for spring-assisted versions (SCHUNK CGP data sheet).
+  - Inflatable bladder grippers often need 'very high air or hydraulic pressure' to grip properly and can have sealing problems (US patent 4770456).
+
+### When to use it
+
+- **everyday_examples**: 
+  - The rubber sanding drum on a rotary tool or drill, which swells when you tighten its nut or screw to hold the sanding band (Bearing Distributors)
+  - A jeweller's or hobbyist's expanding ring mandrel that holds a ring on a drill or lathe for filing and polishing (Printables 882417; Sherline video)
+  - Filament spool holders whose hub expands to grip the spool's centre hole (Printables 346075)
+  - The airshaft that grips the cardboard core of a big roll of paper or plastic film in printing and packaging machines (Wikipedia 'Airshaft')
+- **when_to_use**: Use it when you have to hold a part by its hole: to machine, sand or polish the outside of a ring, bush, wheel or case back so the outside ends up true to the hole (Birla Precision; Printables 1854987); when the outside is delicate and must not be touched, like gear teeth (Ozobot ORA guide); when a robot must pick up rings, cups, cones, tubes or roll cores from the inside (MatterHackers 'Slight Malfunction'; Wikipedia 'Airshaft'); and when the hole is blind or only one end is reachable (Birla Precision).
+- **when_not_to_use**: Avoid it when the part has no reasonably round, clean bore, when the bore is too thin-walled or soft and would bulge or crack, or when sizes vary more than the mandrel's small range (Birla Precision; Printables 346075) - use an outside grip such as a collet or scroll chuck instead. Avoid friction-only grips for heavy parts held overhead; grip by shape (a lip or groove) or add a spring-assisted or braked gripper (SCHUNK CGP data sheet). Avoid inside grips on stacked or nested parts: REV Robotics' Power Play guide preferred outside gripping 'to reduce the chances of picking up more than one element' (REV FTC Kickoff Concepts). Avoid bladders where burrs or sharp edges are inside the bore (US patent 4955655).
+- **environment_limits**: Printed PLA mandrels soften and deform above about 60 °C and degrade in UV light; PETG is fine below about 80 °C (Prusa PLA and PETG guides). Rubber and silicone bladders wear and can be cut; failures can be sudden (US patent 4955655). Air grippers lose grip with pressure (PFA 'What is an Air Gripper?'). *(unverified parts omitted)*
+- **safety_notes**: A powered inside gripper can drop its part if air pressure or power is lost: 'A gripper will relax its grip on an object when air pressure is lost. This may cause the object to be dropped' (PFA 'What is an Air Gripper?'). Use a spring-assisted version (for inside gripping the spring must push outward, SCHUNK 'IS' type), a pressure maintenance valve, a brake or a self-locking drive, keep the part low, and never stand or reach under a part held this way (SCHUNK CGP data sheet). Bladders can fail suddenly (US patent 4955655). Don't over-expand: commercial mandrels have an over-expansion stop to protect the sleeve (Birla Precision). Robot arms need a slow test speed and an emergency stop within reach (Ozobot ORA guide). Keep fingers out of the fingers' and arm's path. *(unverified parts omitted)*
+- **common_failures**: Slipping because the grip force is too low for the part's weight or the bore is oily: size the force with a large safety margin (SCHUNK CGP data sheet). Part dropped when air or power fails (PFA 'What is an Air Gripper?'). Part not centred or wobbling because the sleeve expands unevenly: expand slightly and turn to size (Hobby-Machinist forum) or use a precision double-angle sleeve (Birla Precision; US patent 6832756). Cracked or over-stressed sleeves from over-expanding (Birla Precision). Chipped printed fingers on hollow cardboard cores (Printables 346075) or snapped jaws from the wrong print orientation (Printables 882417). Burst or cut bladders from burrs (US patent 4955655). A robot gripper that misses the hole because of misalignment (Ozobot ORA guide), or that picks up two nested parts at once (REV FTC Kickoff Concepts).
+- **related**: 
+  - Collet (and keyless chuck): grips a rod from the outside by squeezing inward; the 'expanding collet' variant is this entry
+  - Internal tube anchors (star nut, expansion plug): uses the same expanding idea as a semi-permanent fixing inside a tube, not as a quick-release grip
+  - Scroll mechanism (self-centring scroll chuck, spiral-slot plate): a chuck whose jaws can also be opened against the inside of a bore; covers a much wider size range
+  - Press-fit and expanding inserts (tap-in insert): expand once to stay in a hole permanently
+  - Wall plug (expansion anchor for solid walls): expands inside a drilled hole to anchor a screw; permanent
+  - Taper fit (Morse taper): grips by wedging a cone into a cone with no moving fingers
+  - Keyless locking bush (taper-lock bush, shaft locking device): a pair of tapered rings that expand and contract to lock a hub to a shaft
+  - Compliant gripper and force amplifier / Fin-ray gripper: grip from the outside with flexing fingers
+  - Granular jamming gripper (coffee-balloon gripper) and Vacuum (suction) gripper: other ways to pick parts without precise jaws; a jamming balloon can also be pushed into an opening
+  - Bellows and inflatable actuators (air bag, air spring): the same inflating idea used to push rather than grip
+  - Air or hydraulic cylinder (pneumatic cylinder, hydraulic ram): the usual actuator behind a powered inside gripper
+
+### Pictures, videos and models
+
+- **links**: 
+  - [H. P. King Expanding Mandrels (US Patent Office drawing, 1874, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:H._P._King_Expanding_-_Mandrels_-_DPLA_-_3e18df8d7fdf3370ffcd9787f697a9e1_(page_1).jpg): Historic patent drawing of an expanding mandrel *(licence: Public domain)*
+  - [Airshaft closeup.jpg (Alexander Davronov, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Airshaft_closeup.jpg): An airshaft inside a paper roll core with its air inlet; the caption in Wikipedia 'Airshaft' notes the protruding holders that expand when air is let in *(licence: CC BY-SA 4.0)*
+  - [Model Engineering Basics: No 6 An Expanding Mandrel (SteamWorx, YouTube)](https://www.youtube.com/watch?v=gX25t4OaNOI): Making a simple expanding mandrel in a home workshop (title and channel verified via YouTube oEmbed; video content not viewed) *(licence: link only (standard YouTube licence))*
+  - [Expansion Arbors --- No through hole...No Problem..Take a Look (Joe Pie, YouTube)](https://www.youtube.com/watch?v=J1RFTRzuAcU): Expansion arbors for parts with blind holes; forum users describe Joe Pie's videos as making mandrels with O-rings instead of slitting (Hobby-Machinist forum) (title and channel verified via YouTube oEmbed; video content not viewed) *(licence: link only (standard YouTube licence))*
+  - [ORA Expansion Gripping: Getting a Grip from Within, Student Guide (Ozobot)](https://classroom.ozobot.com/wp-content/uploads/2026/07/ORA-Expansion-Gripping-Getting-a-Grip-from-Within-Student-Guide.MOzGTDjKRv6effhDH6GTlwxO.pdf): Classroom robot-arm lab with a photo of a finger gripper expanded inside a gear's centre hole, placing it on a peg; the gears and wall can be 3D-printed *(licence: link only)*
+- **make_it_yourself**: 
+  - [Expanding ring mandrel (Bobino, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/882417-expanding-ring-mandrel): Printed split mandrel for a drill: an M4 nut and M4 x 30 bolt expand it to hold rings of 13.2 to 20.2 mm for filing and sanding; PLA, 5 perimeters *(licence: CC BY (Creative Commons Attribution))*
+  - [Ankermake M5 - Spoolholder - Expanding Mandrel (Drekentai HieloRey, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/346075-ankermake-m5-spoolholder-expanding-mandrel): Expanding spool hub with 12 keys pushed out by threaded expansion collars, from 50 to about 59 mm, on two 608 bearings; a tight-tolerance print with a test piece *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Watch Case Back Polishing Arbor - Internal Expanding Collet / ID Chuck (hummi, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1854987-watch-case-back-polishing-arbor-internal-expanding): Split-collet mandrel expanded by an M5 screw and nut that holds watch case backs or bezels from the inside, so the outside can be polished in a drill or lathe *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Can Internal Expanding collet (tylermor, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/129962-can-internal-expanding-collet): Screw-and-nut expanding mandrel that clamps inside a standard US soda can *(licence: CC BY (Creative Commons Attribution))*
+  - [Expanding ring mandrel for drill (Damien Villeneuve, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1803272-expanding-ring-mandrel-for-drill): Simple ring mandrel for a drill in two size ranges, 13-20 mm and 18-26 mm *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: A three-panel cut-away: (1) a slotted sleeve on a tapered bar, with an arrow showing the nut pushing the sleeve up the taper and small arrows showing the sleeve swelling against a ring; (2) a robot finger gripper inside a gear's hole with outward arrows; (3) a rubber bladder inside a tube, deflated then inflated, with a red 'air lost = part drops' warning arrow.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Mandrel
+  - https://en.wikipedia.org/wiki/Airshaft
+  - https://classroom.ozobot.com/wp-content/uploads/2026/07/ORA-Expansion-Gripping-Getting-a-Grip-from-Within-Student-Guide.MOzGTDjKRv6effhDH6GTlwxO.pdf
+  - https://patents.google.com/patent/US4770456
+  - https://patents.google.com/patent/US4955655
+  - https://patents.google.com/patent/US6832756
+  - https://www.birlaprecision.com/product/bpt/expanding-mandrels-and-sleeves.html
+  - https://www.model-engineer.co.uk/forums/topic/expanding-mandrels/
+  - https://www.hobby-machinist.com/threads/home-made-expanding-mandrels.64513/
+  - https://www.pfa-inc.com/what-is-an-air-gripper/
+  - https://a.storyblok.com/f/298593/x/71527a6786/cgp-catalog-section.pdf
+  - https://schunk.com/us/en/sistemi-di-presa/pinza-parallela/c/PUB_8295
+  - https://products.bearingdistributors.com/category/sanding-drums
+  - https://www.matterhackers.com/articles/3d-prints-robot-for-competition
+  - https://docs.revrobotics.com/ftc-kickoff-concepts/powerplay-2022-2023/intake
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://commons.wikimedia.org/wiki/File:H._P._King_Expanding_-_Mandrels_-_DPLA_-_3e18df8d7fdf3370ffcd9787f697a9e1_(page_1).jpg
+  - https://commons.wikimedia.org/wiki/File:Airshaft_closeup.jpg
+  - https://www.youtube.com/watch?v=gX25t4OaNOI
+  - https://www.youtube.com/watch?v=J1RFTRzuAcU
+  - https://www.youtube.com/watch?v=ceuVGYqovXw
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, input_output, making_tips_3d_printing, power, safety_notes
+
+## 341 Strut hub (geodesic dome hub, space-frame node)
+
+*clamping, magnetic & friction connections.* A connector that joins three to six sticks, dowels, tubes or wooden struts at set angles in one node, to build domes, frames and trusses from straight pieces
+
+*Also covers:* Also covers printed hubs for sticks, skewers and timber, flattened-and-bolted conduit domes, and ball nodes in space frames. Safety: don't climb on or load printed hubs.
+
+### What it is
+
+- **plain_name**: A star-shaped or ball-shaped connector with several sockets or arms pointing out at set angles, so you can plug or bolt sticks, dowels, tubes or planks into it and build a dome or frame out of nothing but straight pieces
+- **term**: Strut hub (node connector): the geodesic dome hub and the space-frame node
+- **aliases**: 
+  - geodesic dome hub; dome hub; geodesic connector; dome connector; vertex hub (Domerama 'Geodesic Hub Connectors'; Printables model titles)
+  - 4-way, 5-way and 6-way connector or hub (by the number of struts it joins) (Desert Domes 'Dome Formulas')
+  - hub-and-strut dome (a dome whose struts are tied together by steel hubs) (Wikipedia 'Geodesic dome')
+  - flattened-conduit dome; conduit dome; EMT dome (strut ends flattened, drilled and bolted at each vertex) (Wikipedia 'Geodesic dome'; Mike Tyka 'Playa dome')
+  - star hub; pipe hub; pipe-section hub with steel strap; T-blocking hub; disc hub (Domerama)
+  - space-frame node; ball joint system; ball node; MERO node (MERO (brand), Mengeringhausen Rohrbauweise) (Wikipedia 'Space frame'; Virginia Tech SAFAS 'Mero System')
+  - plate joint, slot joint, shell joint and socket joint systems (other space-frame node types, e.g. Unistrut (brand), Triodetic (brand), Nodus (brand)) (Virginia Tech SAFAS 'Nodular or Piece-Small Systems')
+  - printed stick hub; skewer connector; popsicle-stick hub; straw connector (Printables model titles)
+  - connector node (construction toys): Zometool (brand) ball node; Tinkertoy (brand) spool (Wikipedia 'Zometool'; Wikipedia 'Tinkertoy')
+  - hubs (brand) ball-connector dome hubs (Printables 998685)
+- **family**: clamping, magnetic & friction connections
+- **other_families**: interlocking joints & joinery, print-in-place & 3D-printing joints
+- **one_liner**: A single connector that holds the ends of three to six (or more) straight struts at fixed angles where they meet, so a pile of sticks, tubes or planks can be built into a rigid dome, frame or truss.
+- **complexity**: A few parts at each node. Printed stick hub: one printed part with sockets, plus the sticks (Printables 370482). Flattened conduit: no separate hub at all; the flattened, drilled strut ends are stacked on one bolt with a nut (Wikipedia 'Geodesic dome'). Timber hubs: a steel pipe section or plate, bolts or a steel strap, or ball connectors held by a screw, wing nut and washer (Domerama; Printables 998685). Space-frame ball node: a forged steel ball with threaded holes, and tubes with welded cone-shaped end fittings, each held by a bolt through a sleeve (Virginia Tech SAFAS 'Mero System').
+- **how_it_works**: The hub's sockets, arms or threaded holes point in exactly the directions the struts must take, so it fixes the angles between them, and the strut lengths then fix the shape (Desert Domes 'Dome Formulas'). Each strut is held by being pushed into a snug socket, bolted or pinned through, screwed, or clamped (Printables 370482; Wikipedia 'Geodesic dome'; Domerama). Because the struts form triangles, loads travel along the struts as push and pull rather than bending, which is what makes a space frame or geodesic dome strong and light (Wikipedia 'Space frame'). Until the last triangle is closed the frame is floppy; once complete it becomes 'one whole stiff thing' (Printables 175330).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins the ends of several struts at one point (Wikipedia 'Geodesic dome'; Virginia Tech SAFAS)
+  - line parts up exactly: the hub sets the angle of each strut so the frame takes the intended shape; some printed hubs and toy nodes are keyed so each strut can only go in its correct socket (Printables 370482; Wikipedia 'Zometool')
+- **motion**: none: a finished frame is rigid. During assembly a single-bolt conduit vertex lets struts swing until the triangles are closed (Printables 175330 describes the frame as 'quite flimsy until the last piece is fitted'); some hubs flex slightly so one design fits several dome sizes (Domerama 'vertex hub'; Printables 186195)
+- **degrees_of_freedom**: 0 when the frame is complete: each strut is fixed by its hub at both ends, and the triangles stop the joints turning (Wikipedia 'Space frame'). *(unverified parts omitted)*
+- **special_behaviour**: 
+  - none of the listed behaviours: it simply joins and sets angles
+  - keyed sockets (a related feature): Zometool's node holes are rectangular, triangular or pentagonal to match the strut cross-section, so a strut only fits in the right direction (Wikipedia 'Zometool'); printed hubs mark sockets A, A' and B so the right hubs are joined (Printables 370482)
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): struts sit in shaped sockets, or a bolt, pin or screw passes through the strut and hub (Wikipedia 'Geodesic dome'; Domerama: Lotus Domes poles fixed with stainless steel pins; Printables 998685 deck screws)
+  - friction or clamping (force-fit): snug push-fit sockets (Printables 370482; Domerama: the Vertex hub 'uses a friction fit to secure its pipes'), a bolt clamping the stack of flattened ends (Wikipedia 'Geodesic dome'), or a screw and wing nut clamping ball connectors into the hub (Printables 998685)
+  - material bond (glue, solvent or melting): only in welded steel or aluminium frames and glued model kits (Wikipedia 'Geodesic dome': aluminium frames 'bolted or welded together')
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: bolted, pinned and push-fit hubs can be taken apart, and portable domes are designed for it, e.g. 'if the dome is portable, have a castellated nut with a cotter pin' (Wikipedia 'Geodesic dome'); the simple connection design of space-frame nodes 'facilitates the erection and dismantling of the structure' (Virginia Tech SAFAS). Semi-permanent or permanent when nailed, glued or welded.
+- **tools_needed**: Push-fit stick, skewer and straw hubs: none (Printables 370482, 480245). Flattened conduit: pipe cutter or saw, a vise and heavy hammer or an arbor press to flatten the ends, a drill press, spanners (Stanford 'Geodesic Dome Assembly'; Mike Tyka 'Playa dome'). Timber hubs: saw, drill, spanners or a screwdriver, an Allen key for the wing-nut screw of ball-connector hubs (Printables 998685), a strap-tensioning tool for strap hubs (Domerama).
+- **seal**: none: it is a frame joint; a dome is made weathertight by its cover or panels, not by the hubs
+- **load**: Ranges from toy-light to building-heavy. Space-frame tubes with ball nodes carry 4.5 to 450 kips (about 20 to 2000 kN) (Virginia Tech SAFAS 'Mero System'). DIY domes: struts carry push and pull, and the hub is the weak point: 'the seams and especially the hubs in most wooden-framed domes are the weakest point in the structure' (Wikipedia 'Geodesic dome'). Printed hubs are light duty: printed connectors on a 3.8 m 3V dome broke in the lower sections within a season and 'were definitely too weak for a 3/4 sphere of this size' (Printables 175330). A commercial plastic ball-connector hub system limits domes to under 6 m across and struts to 500 g each (30 kg total) (Printables 998685, quoting hubsTM).
+- **adjustable**: Mostly no: the angles are fixed by the hub and the shape by the strut lengths. Some hubs flex to suit several dome sizes (Domerama 'vertex hub'; Printables 186195), ball-connector hubs let struts settle before the wing nut is tightened (Printables 998685), and printed hubs can be regenerated for any frequency and strut size in OpenSCAD (Printables 601680).
+- **play_and_precision**: Small play once tightened, but accuracy matters: strut lengths must match the calculated 'strut factors' (Desert Domes), and for hubless timber domes the compound angle cuts should be accurate 'to a tenth of a degree' (Domerama). Flexible conduit and slightly flexing hubs take up small errors (Domerama). Push-fit printed sockets must be snug but not so tight that sticks break (Printables 370482).
+- **access_needed**: end of a tube or shaft: struts are joined at their ends, by pushing into sockets or bolting through end holes; bolted hubs need a hand on both sides of the node for the bolt and nut (Printables 998685: wing nut on the inside)
+- **materials**: Struts: 3/4 in EMT electrical conduit (Wikipedia 'Geodesic dome'; Mike Tyka), PVC pipe, timber (50 x 25 mm, 2x4, 1.5 x 1.5 in), bamboo, wooden dowels, popsicle sticks, bamboo skewers and drinking straws (Printables 601680, 998685, 370482, 120101, 480245; Domerama). Hubs: steel pipe sections with stainless straps, laser-cut steel star hubs, machined plastic, PVC (Domerama); forged galvanised steel balls (Virginia Tech SAFAS 'Mero System'); printed PLA, PETG or ASA, or PLA with a TPU base (Printables 601680, 998686, 175330).
+- **maker_difficulty**: easy for printed hubs with sticks, skewers or straws (print, then push in sticks); moderate for a conduit dome (cutting, flattening and drilling dozens of struts accurately, Stanford 'Geodesic Dome Assembly'); hard for a large timber dome that must withstand wind and snow, which needs proper hubs and structural design (Printables 998686, 175330; Wikipedia 'Geodesic dome')
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): hubs for popsicle sticks, skewers, straws, dowels and timber struts, including OpenSCAD hub generators (Printables 370482, 120101, 480245, 601680)
+  - woodwork: timber struts with compound-angle ends or straight-cut ends in hubs; pipe-section and T-blocking hubs (Domerama; Printables 175330)
+  - sheet metal: laser-cut steel star hubs and brackets, bent flat-bar hubs, steel strap hubs (Domerama)
+  - off-the-shelf part: EMT conduit and bolts, commercial dome hub kits, space-frame node systems, construction toys (Wikipedia 'Geodesic dome'; Domerama; Virginia Tech SAFAS)
+- **print_in_place**: no: hubs are printed as separate connectors and assembled with bought or cut struts; one design prints a flexible TPU base and a PLA top in one job with a pause, but still needs separate struts (Printables 175330)
+- **making_tips_3d_printing**: 1) Print one hub first and test the fit of your sticks; adjust the slicer's XY size compensation until the stick is snug 'but not too difficult to fully insert', because over-tight sockets can break sticks and hurt you (Printables 370482). 2) Measure your actual sticks: standard popsicle sticks measured 113 x 9.5 x 2 mm (Printables 370482); skewers come in 3 mm and 5 mm (Printables 120101, 8278). 3) For timber struts use PETG-like filament for durability, and a 0.8 mm nozzle to print faster (Printables 601680). 4) For outdoor domes use ASA (UV-resistant, up to 93 °C, Prusa ASA guide), 0.15 mm layers and 50% infill, printed in an enclosure (Printables 998686). PLA degrades in UV and softens above about 60 °C (Prusa PLA guide). Desert Domes). 7) Mark or colour-code hubs and struts: printed letters on the hubs (Printables 370482) and spray-painted strut ends (Mike Tyka) make assembly much easier. 8) Don't scale printed hubs up to building size: one maker's printed connectors on a 3.8 m dome broke within a season and were replaced with cheaper, stronger metal straps (Printables 175330). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: '3/4 inch EMT conduit' and '5/16 hex bolts' with nuts for a conduit dome (Mike Tyka); 'castellated nut' and 'cotter pin' or removable threadlocker for the vertex bolts (Wikipedia 'Geodesic dome'); 'geodesic dome hub kit', 'dome connector kit', 'star hub' (laser-cut steel), 'pipe hub' with 'stainless steel banding strap' (Domerama); hubs (brand) ball-connector hubs with an M6 countersunk screw, M6 wing nut, 30 mm washer and #8 x 2-1/2 in deck screws (Printables 998685); 'space frame node', 'ball joint space frame' (MERO (brand) and similar, Virginia Tech SAFAS); Zometool (brand) and Tinkertoy (brand) construction sets for models (Wikipedia).
+- **rules_of_thumb**: 
+  - Strut length = dome radius x strut factor. For a 2V (two-frequency) dome: struts A = 0.61803 (35 in a half dome) and B = 0.54653 (30 in a half dome), with ten 4-way, six 5-way and ten 6-way hubs (Desert Domes 'Dome Formulas').
+  - A 2V half dome has 26 vertices, so 26 bolts for a conduit build; one example used 3/4 in EMT with 5/16 in bolts, 1-1/2 in long for 4-way and 2 in long for 5- and 6-way vertices (Mike Tyka 'Playa dome').
+  - For flattened-and-drilled struts, add about 2 x 3/4 in = 1.5 in (about 4 cm) to each calculated strut length so the holes can be drilled 3/4 in from each end (Domerama); another builder drilled about 1-1/4 in from the end (Mike Tyka) - the calculated length is always hole centre to hole centre.
+  - Lock the vertex nuts with removable threadlocker, or with a castellated nut and cotter pin for a portable dome (Wikipedia 'Geodesic dome').
+  - Hubless timber domes need compound angle cuts accurate to about a tenth of a degree (Domerama).
+  - Keep plastic-hub domes small and light: under 6 m across, struts under 500 g each and 30 kg in total, and not used as climbing frames (Printables 998685, quoting hubsTM).
+  - MERO-type space-frame nodes have 18 faces at 45°, 60° and 90° and their multiples, with member lengths in ratios of 1.414 or 1.732 (Virginia Tech SAFAS 'Mero System').
+  - Assemble domes from the top down: build the central pentagon first and 'walk the structure up' (Mike Tyka 'Playa dome'; Stanford 'Geodesic Dome Assembly').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Tinkertoy, whose wooden spools have holes every 45° around the edge for sticks (Wikipedia 'Tinkertoy')
+  - Zometool and similar ball-and-strut kits for maths and molecule models (Wikipedia 'Zometool')
+  - A dome climber on a playground, often built from bolted tubes (Wikipedia 'Geodesic dome'; Wikimedia Commons 'Climberdome.JPG')
+  - Space-frame roofs over airports and stations, and the portable lighting trusses over concert stages (Wikipedia 'Space frame')
+- **when_to_use**: Use a strut hub when you want to build a large, light, rigid shape from short straight pieces: model and toy domes from sticks, skewers or straws; garden greenhouse or shade domes and festival shelters from conduit or timber; frames, trusses and sculptures where many members meet at odd angles (Printables 370482, 601680; Mike Tyka 'Playa dome'; Wikipedia 'Space frame'). Printed hubs are good for models, decorations such as an LED light ball, and small light structures (Printables 120101).
+- **when_not_to_use**: Don't use printed hubs for anything people climb on, hang from or shelter under in wind or snow: hubs are the weakest part of most wooden domes (Wikipedia 'Geodesic dome') and printed connectors on a 3.8 m dome failed within a season (Printables 175330); use metal hubs, bolted conduit or a professionally designed structure instead. For right-angle tube frames, use clamp-on tube fittings or aluminium-extrusion connectors; for flat sheet parts, use a cross-halving slot joint; for a stick structure with no connectors at all, see Reciprocal frame. Paneled timber domes can avoid hubs altogether by bolting triangles together (Wikipedia 'Geodesic dome').
+- **environment_limits**: Outdoors, PLA hubs degrade in UV and soften above about 60 °C; ASA is UV-resistant to about 93 °C (Prusa PLA and ASA guides). Wind and snow add large loads: a hub maker advises extra secure caps where domes may see high winds or more than 20 cm of snow (Printables 998686). Damp and condensation inside domes 'tend to quickly degrade wooden framing' (Wikipedia 'Geodesic dome'). Bolts loosen with movement unless locked (Wikipedia 'Geodesic dome'). *(unverified parts omitted)*
+- **safety_notes**: Don't climb on, hang things from or load printed or plastic hubs: one hub maker states its domes 'are not climbing frames and are not intended for suspending heavy weights' and should not be installed in public spaces (Printables 998685, quoting hubsTM). Test one hub first. A dome is floppy and can fold up until the last strut is fitted (Printables 175330), so keep people out from under it during assembly. Over-tight stick sockets can break sticks and injure you (Printables 370482). Flattened conduit ends have sharp edges (Mike Tyka padded them to protect the cover); wear gloves when cutting and flattening tube (Stanford 'Geodesic Dome Assembly'). *(unverified parts omitted)*
+- **common_failures**: Printed hubs cracking at the arms, especially low in the dome where loads are highest (Printables 175330). Ball connectors popping out of their sockets in wind or snow unless secure caps and washers are fitted (Printables 998686). Struts too tight in sockets (breaking sticks) or too loose (frame falls apart): tune XY compensation (Printables 370482). Dome not closing because strut lengths or hole positions are wrong: calculate from hole centre to hole centre and add the end allowance (Domerama; Desert Domes). Mixing up strut lengths during assembly: colour-code them (Mike Tyka; Printables 175330). Nuts working loose: use threadlocker or castellated nuts and cotter pins (Wikipedia 'Geodesic dome'). Wooden struts and hubs rotting from condensation (Wikipedia 'Geodesic dome').
+- **related**: 
+  - Clamp-on tube fittings (slip-on structural fittings): join round tubes, mostly at right angles, with set screws; a strut hub joins many members at compound angles
+  - Reciprocal frame (self-supporting stick bridge): sticks rest on and lock each other with no connector
+  - Tensegrity (floating struts held by cords): struts don't touch; cords hold them in place
+  - Aluminium-extrusion connectors (T-slot nuts and brackets): build square frames from slotted bars
+  - Cross-halving slot joint (egg-crate joint): slots flat sheets into each other
+  - Metal brackets and plates (angle bracket, mending plate, joist hanger): join timber at a single joint, usually two members
+  - Ball-and-socket joint (lockable ball head): the ball connectors in some dome hubs work like a ball joint locked by a screw
+  - Split-part joints for large prints: other ways to build something bigger than the print bed
+  - Mortise and tenon / Dowel and biscuit joints: traditional two-member timber joints with no separate hub
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Mero Knoten Grafik.jpg (Martin Maloblocki / Klaus Knebel, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Mero_Knoten_Grafik.jpg): Computer rendering of a MERO space-frame ball node with tubes bolted into it *(licence: Copyrighted free use)*
+  - [Zome vertices.jpg (Zometool, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Zome_vertices.jpg): Zometool ball nodes with shaped holes and struts *(licence: CC SA 1.0)*
+  - [Climberdome.JPG (GreenGlass1972, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Climberdome.JPG): A playground dome climber built from tubes joined at hubs *(licence: Public domain)*
+  - [Geodesic Hub Connectors (Domerama)](https://www.domerama.com/dome-basics/geodesic-dome-hub-connectors/): Photos of many hub types: flattened conduit, star hubs, pipe-section hubs with straps, T-blocking, bamboo star hubs, plastic and 3D-printed connectors *(licence: link only)*
+  - [Dome build methods - flattened conduit (Paul Robinson, YouTube)](https://www.youtube.com/watch?v=RasWKQfpFzY): The flattened-and-bolted conduit dome method (title and channel verified via YouTube oEmbed; video content not viewed) *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [1V 2V 3V 4V 5V 6V Connector for Geodesic Dome with customizer (Florian, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/601680-1v-2v-3v-4v-5v-6v-connector-for-geodesic-dome-with): OpenSCAD hub generator for 1V to 6V domes with rectangular or round struts; ready-made STLs for 50 x 25 mm timber; lists the hubs needed for each dome *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Geodesic Dome hubs for popsicle sticks (flipmarley, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/370482-geodesic-dome-hubs-for-popsicle-sticks): Lettered 5-way and 6-way hubs and base hubs for a popsicle-stick sphere or half dome with no stick cutting; includes fit-tuning advice *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Geodesic Dome Hubs (3mm Dia. Bamboo Skewer Style) (zuberio, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/120101-geodesic-dome-hubs-3mm-dia-bamboo-skewer-style): 2V sphere hubs for 3 mm bamboo skewers (60 sticks of 208 mm and 55 of 180 mm), used as an LED light-ball frame *(licence: CC BY (Creative Commons Attribution))*
+  - [Straw building connectors (olsenge, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/480245-straw-building-connectors): Cone-ended printed connectors for 7 mm drinking straws, for building frames and structures *(licence: CC BY (Creative Commons Attribution))*
+  - [Dome Formulas (Desert Domes)](https://www.desertdomes.com/formula.html): Strut factors and hub counts for 1V to higher-frequency domes, to work out strut lengths for any dome radius *(licence: link only)*
+- **diagram_idea**: Side-by-side close-ups of three hubs: a printed 6-way stick hub with sockets angled slightly downward, five flattened conduit ends stacked on one bolt, and a steel ball node with threaded holes; below them a small 2V dome with the 4-, 5- and 6-way hubs coloured differently.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Geodesic_dome
+  - https://en.wikipedia.org/wiki/Space_frame
+  - https://en.wikipedia.org/wiki/Mero-Schmidlin
+  - https://en.wikipedia.org/wiki/Tinkertoy
+  - https://en.wikipedia.org/wiki/Zometool
+  - https://www.setareh.arch.vt.edu/safas/010_system_04_mero.html
+  - https://setareh.arch.vt.edu/safas/010_system_01_nodular.html
+  - https://www.domerama.com/dome-basics/geodesic-dome-hub-connectors/
+  - https://www.desertdomes.com/formula.html
+  - https://science.miketyka.com/make/2010/02/04/playa-dome.html
+  - https://graphics.stanford.edu/~munzner/dome/struts/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/asa_1809
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://commons.wikimedia.org/wiki/File:Mero_Knoten_Grafik.jpg
+  - https://commons.wikimedia.org/wiki/File:Zome_vertices.jpg
+  - https://commons.wikimedia.org/wiki/File:Climberdome.JPG
+  - https://www.youtube.com/watch?v=RasWKQfpFzY
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** degrees_of_freedom, environment_limits, making_tips_3d_printing, reuse_cycles, safety_notes
+
+## 364 Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
+
+*clamping, magnetic & friction connections.* A metal band tightened round a hose or tube to squeeze it onto a spigot, also used as an all-purpose strap clamp for fixing things to poles and pipes
+
+*Also covers:* Also covers ear (crimp) clamps, spring clamps, T-bolt clamps, and rubber-sleeve (no-hub) drain couplings held by worm-drive bands. Jubilee clip (brand) as an alias. Hose barb keeps only a short retention summary. Safety: moderate pressures only; cut band ends are sharp; over-tightening cuts soft hose.
+
+### What it is
+
+- **plain_name**: A metal strap that goes round a hose and is tightened with a screw (or squeezed shut, or springs shut by itself) so the hose is squashed onto the pipe it is pushed over and can't leak or pull off; the screw kind is also handy for strapping things to poles and pipes
+- **term**: Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
+- **aliases**: 
+  - hose clamp, hose clip (Wikipedia 'Hose clamp')
+  - worm-drive clamp, worm gear clamp, worm gear clip, screw/band clamp, band clamp; Jubilee Clip (brand, a genericized UK name; trademark of L. Robinson & Co) (Wikipedia 'Hose clamp')
+  - Make-A-Clamp (brand): a roll of perforated band with separate worm-gear housings, to make clamps of any size (EFC International)
+  - constant-tension clamp, spring-loaded worm-drive clamp, 'radial-worm-drive' clamp with an inner spring (EFC International; Freightliner service bulletin)
+  - T-bolt clamp, T clamp (Wikipedia 'Hose clamp'; AMS Performance)
+  - spring clamp, spring band clamp, constant tension band; wire spring clamp (Wikipedia 'Hose clamp'; EFC International)
+  - wire clamp, double-wire clamp (Wikipedia 'Hose clamp'; EFC International)
+  - ear clamp, pinch clamp, crimp clamp, single- or multi-ear clamp (Wikipedia: 'one or more “ears”'), StepLess ear clamp; Oetiker clamp (brand) (Wikipedia 'Hose clamp'; Oetiker data sheet; YouTube video title 'How to remove and install pinch clamps, or oetiker clamps')
+  - plastic ratchet clamp, interlocking plastic clamp, polymer hose clamp (nylon PA66, PA12 or polypropylene) (Wikipedia 'Hose clamp')
+  - no-hub coupling, no-hub band, rubber-sleeve coupling, shielded coupling, hubless coupling (Wikipedia 'Hose clamp' and 'Piping and plumbing fitting'; Charlotte Pipe)
+  - clamp standards a beginner may meet in catalogues: SAE J1508 (32 hose clamp designs including screw, spring and T-bolt styles), NAS1922/NAS1924, and the US DoD CID A-A-52506 (Wikipedia 'Hose clamp')
+- **family**: clamping, magnetic & friction connections
+- **other_families**: seals & pass-throughs, hydraulics, pneumatics & vacuum
+- **one_liner**: A hose clamp is a ring of metal band, wire or spring steel that is tightened round the end of a hose pushed over a spigot, barb or pipe, squeezing the hose so it seals and so it can't slide off; worm-drive types tighten with a screw and can be undone, ear clamps are crimped shut once, and spring clamps hold by their own springiness.
+- **complexity**: Single piece or a few parts. Worm-drive: a slotted or embossed steel band, a housing riveted to one end, and a captive screw whose thread engages the band like a worm gear (Wikipedia 'Hose clamp'); constant-tension versions add a spring or a stack of disc springs (EFC International; Freightliner service bulletin). Spring clamp: one piece of spring-steel strip with interleaving tabs, or a loop of spring wire (Wikipedia). Wire clamp: a loop of heavy wire with a captive screw and nut (Wikipedia). Ear clamp: one stainless band with one or two formed 'ears' and an interlock (Oetiker data sheet). No-hub coupling: a rubber (neoprene) sleeve, a corrugated stainless shield and two or four worm-drive bands (Charlotte Pipe). *(unverified parts omitted)*
+- **how_it_works**: The clamp is slid over the hose, the hose is pushed onto its spigot or barb, and the clamp is moved to sit over the spigot just behind the barb or bead and tightened (Wikipedia 'Hose clamp'; Boshart). Tightening shrinks the ring: in a worm-drive clamp the screw 'acts as a worm drive pulling the threads of the band'; in an ear clamp a pincer tool squeezes the ear shut, permanently deforming it and pulling the band tight; a spring clamp is held open with pliers and simply let go (Wikipedia). The squeeze presses the soft hose against the spigot all round, which makes the seal, and because the clamp sits behind the barb or bead, the hose can't slide off without stretching the clamp over it (Wikipedia 'Hose clamp'). Spring and constant-tension clamps keep pushing as the hose shrinks or relaxes with heat and age, while a plain screw clamp can lose some of its grip (EFC International; Freightliner service bulletin).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds a hose or rubber sleeve onto a spigot, barb or pipe end; the screw-band type is also a general strap for fixing things round poles and pipes (Wikipedia 'Hose clamp')
+  - seal it, or pass cables or fluid through: squeezes the hose onto the fitting so liquid or air can't leak, at moderate pressures only (Wikipedia 'Hose clamp')
+- **motion**: none: the clamped joint is rigid; a rubber no-hub coupling allows a little flexing between pipes (Charlotte Pipe: maximum joint deflection 5 degrees for its neoprene coupling).
+- **degrees_of_freedom**: 0 once tightened: the hose can't slide or turn on the spigot (a loose clamp lets it do both).
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): spring clamps and constant-tension worm-drive clamps keep squeezing as the hose relaxes or the joint grows and shrinks with temperature, giving 'a continuously readjusting dynamic tightening effect' (EFC International); an ear clamp's ear and dimple give a little spring action to follow 'changes in diameter due to thermal expansion' (Oetiker data sheet)
+  - none (plain worm-drive, T-bolt and wire clamps): they simply hold the tension the screw puts in; the ear clamp's only extra is that it is tamper-evident, because the crushed ear shows if it has been disturbed (Wikipedia 'Hose clamp')
+- **holding_principle**: 
+  - friction or clamping (force-fit): the band squeezes the hose onto the spigot; friction and the hose's grip on the barb hold it (Wikipedia 'Hose clamp')
+  - shape (the parts interlock; form-fit): placed behind a barb or a raised bead on a tube, the clamp would have to stretch over the bump for the hose to slide off (Wikipedia 'Hose clamp')
+  - spring force (a spring or springy part presses it in place): spring-steel band and wire clamps, and the springs in constant-tension clamps, provide the squeeze (Wikipedia 'Hose clamp'; EFC International)
+- **input_output**: not applicable (Wikipedia notes a short hose clamped between two shafts can pass small amounts of power as a makeshift flexible coupling for lab mock-ups, but that is the hose's job, not the clamp's)
+- **power**: passive (no power needed)
+- **removability**: removable for worm-drive, T-bolt, wire and spring clamps (loosen the screw or open the spring with pliers); semi-permanent for ear clamps, which are crimped once and are removed by cutting or by prising the ear open with pliers, which spoils them (Wikipedia 'Hose clamp'; Oetiker pincer data sheet: pincers are for 'pinching and removing ear clamps'). No-hub couplings can be taken apart, but 'it is often not customary to re-use the clamps and rubber sleeves' because they may not seal well after being deformed (Wikipedia 'Piping and plumbing fitting').
+- **reuse_cycles**: The hose end may need trimming after each removal, and a stuck hose 'should never be removed by slitting' it, which can scratch the fitting (Wikipedia 'Hose clamp'). *(unverified parts omitted)*
+- **tools_needed**: Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). Cable-tie stand-ins: a cutter. *(unverified parts omitted)*
+- **seal**: airtight or pressure (moderate pressures only): the clamp presses the hose evenly onto a smooth spigot; even pressure with 'no gaps' is the design goal, which is why wire clamps overlap their ends and StepLess ear clamps have no step inside (Wikipedia 'Hose clamp'; Oetiker data sheet). The seal needs a fitting that is 'smooth and free of nicks, scratches, or contamination' (Wikipedia). No-hub drain couplings seal with a neoprene gasket squeezed by the bands (Charlotte Pipe).
+- **load**: Medium. Pressure: 'Hose clamps are typically limited to moderate pressures, such as those found in automotive and home applications'; at high pressures compression or crimp fittings are used instead (Wikipedia 'Hose clamp'). Pull-off: strong when the clamp sits behind a barb or bead (Wikipedia); two clamps side by side ('double clamping') 'will greatly reduce the chance of a hose blowing off the fitting' (Boshart). Holding force comes from screw torque: e.g. 35-45 in-lb (3.96-4.52 N m) for standard worm-drive clamps, with an ultimate (breaking) torque of at least 60 in-lb (6.8 N m) (Boshart). *(unverified parts omitted)*
+- **adjustable**: yes for worm-drive and T-bolt clamps: re-tighten the screw. To check a worm-drive clamp properly, loosen it completely and re-tighten to the stated torque, because torque on these clamps normally drops about 30% soon after tightening and can't be checked by simply turning the screw (Freightliner service bulletin). Spring and constant-tension clamps adjust themselves; ear clamps can't be adjusted after closing (Wikipedia 'Hose clamp'; EFC International).
+- **play_and_precision**: not applicable (it doesn't locate parts; a rubber no-hub coupling tolerates slight misalignment, up to 5 degrees of joint deflection for one maker's neoprene coupling, Charlotte Pipe; Wikipedia 'Piping and plumbing fitting')
+- **access_needed**: end of a tube or shaft for closed-ring clamps: spring, wire and most ear clamps must be slid onto the hose before it is pushed onto the spigot (Wikipedia 'Hose clamp'), though some ear-clamp interlocks 'can be opened for radial installation' (Oetiker data sheet). A worm-drive band can be unscrewed fully and wrapped round from the side (Wikipedia: the loose end is fed into the housing), so it needs only access to one side for the screwdriver; point the screw head where a driver can reach it (Boshart).
+- **materials**: Bands: stainless steel (grades 304, 316 or 430), zinc-plated steel, or plastics such as nylon 66, nylon 12 and polypropylene (Wikipedia 'Hose clamp'); Oetiker's StepLess ear clamps come in zinc-plated or galvanised steel or 1.4301 (304) stainless (Oetiker data sheet). No-hub couplings: type 301 stainless shield and bands, 305 stainless screws and a neoprene gasket to ASTM C564 (Charlotte Pipe). Bands are 'slotted' (perforated) or 'embossed' (non-perforated, 'European style'); embossed bands have no sharp slot edges to cut into the hose (FastFix / EFC International). Hoses and pipes clamped: rubber, silicone and PVC hose, polyethylene pipe on barbed inserts (heat the pipe first, Boshart), turbo silicone couplers on aluminium or steel pipe (AMS Performance), and cast-iron, copper and plastic drain pipe in no-hub couplings (Wikipedia 'Piping and plumbing fitting').
+- **maker_difficulty**: easy: buy a clamp of the right size and tighten it with a screwdriver; the skills are choosing the size, placing it behind the barb and not over-tightening. Ear clamps need the special pincers.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: metal hose clamps are bought; a worm-drive clamp of any length can be made from a roll of perforated band and loose housings (EFC International Make-A-Clamp kit)
+  - 3D print (FDM): plastic clamps for low-pressure duty such as dust-collection and ventilation hose, and the spigots, adapters and barbs that metal clamps go over (Printables models in make_it_yourself)
+- **print_in_place**: no: metal clamps are bought; printed plastic hose clamps are a different, weaker version, usually a one-piece ratchet or clasp strip or a two-piece clamp closed with a screw (Printables 485192, 1338893, 22483).
+- **making_tips_3d_printing**: 1) Printed spigots under a metal clamp: a worm-drive clamp squeezes hard and plastics creep, so a printed spigot slowly shrinks away and the joint loosens, faster when warm. PLA 'gets soft and deforms at temperatures over 60 °C' and isn't for outdoor use; PETG suits indoor and outdoor parts 'with temperatures below 80 °C' (Prusa knowledge base 'PLA', 'PETG'). 2) Give the spigot a raised bead or barb and put the clamp just behind it, so the hose can't slide off even if the squeeze relaxes (Wikipedia 'Hose clamp'). 3) Make the wall under the clamp thick and solid, and blend (fillet) the spigot into the body: one printed vacuum adapter broke 'along the layer lines at the cross section where the snout joins the fitting' (Ed Nisley's blog, Softsolder). 5) For hose barbs and leak-tight printed fittings, see the Hose barb entry. 6) Printed clamps: Marius Hornberger's tool-free dust-hose clamp was printed in PETG at 0.2 mm layers and 20% infill, with concentric top and bottom layers and 'the round section of the clamps should be solid'; it uses M5 hardware (Printables 22483). Print flat strap-style clamps lying down ('print horizontally (as generated) to keep good elasticity and strength'; Printables 244215). Hardware-free clasp clamps may be too loose at first; one remixer tightened the clasp so it 'won't disengage accidentally' (Printables 1338893). Small printed clamps may need scaling to about 105% to fit over a hose on a barb, and one designer 'wouldn't recommend' them 'for critical applications' (Printables 6758). 7) Keep printed clamps to low-pressure jobs such as dust collection, ventilation and holding tubes; use a metal clamp wherever fluid is under pressure (Wikipedia 'Hose clamp': moderate pressures only). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search catalogues for: 'worm drive hose clamp' or 'worm gear clamp' (SAE sizes, mini clamps for small hoses), 'Jubilee clip' (brand, UK), 'embossed band' or 'non-perforated' worm clamps for soft silicone hose (FastFix / EFC International), 'constant tension hose clamp' or 'spring-loaded worm clamp' (EFC International), 'T-bolt clamp', 'spring band clamp' or 'constant tension band', 'double wire clamp', 'ear clamp', 'stepless ear clamp' (Oetiker, brand), 'ear clamp pincers', 'hose clamp pliers', 'no-hub coupling' or 'shielded coupling' (CISPI 310 / ASTM C1277; heavy-duty to ASTM C1540) (Charlotte Pipe), 'Make-A-Clamp' band kits (EFC International), 'torque-limiting nut driver' (Boshart). For sizes, use a maker's size table rather than guessing, e.g. Oetiker's StepLess ear clamp data sheet or Charlotte Pipe's no-hub coupling article.
+- **rules_of_thumb**: 
+  - Choose the type by hose size: worm-drive clamps 'are normally used for hoses 1/2 inch diameter and up, with other clamps used for smaller hoses' (Wikipedia 'Hose clamp').
+  - Choose the size with the hose already on its spigot: measure the hose's outside diameter there; it should be 'slightly above the average value of the diameter range of the clamp' (Oetiker data sheet). For worm-drive clamps, 'ensure after the hose clamp is tight the tail of the hose clamp is not too long' (Home Depot 'Hose Clamp Installation Guide – Worm Gear Clamps').
+  - Position: leave at least 1/4 in (6 mm) of hose showing between the clamp and the hose end (Home Depot installation guide); on fully barbed inserts put the clamp 1/4 in from the end for fittings up to 1-1/4 in and 3/8 in for 1-1/2 in and larger, or centre it in the smooth groove behind the barbs (Boshart). Always behind the first barb or the bead, never on its crest (Wikipedia 'Hose clamp').
+  - Worm-drive tightening torque: 35 lbf-in (4 N m) 'for most applications', minimum destructive torque 60 lbf-in (6.8 N m) for a stainless screw (Home Depot installation guide); Boshart gives 35-45 in-lb (3.96-4.52 N m) for #6 and larger clamps (ultimate 60 in-lb min.) and 10-12 in-lb (1.1-1.4 N m) for #4 and #5 mini clamps (ultimate 15 in-lb); Freightliner's chart for its cooling-system clamps runs from 31 ± 2.5 in-lb (1.26 in clamp) to 40 ± 2.5 in-lb (3.03 in clamp). 'NEVER tighten clamps beyond the rated ultimate torque' (Boshart).
+  - Expect about 30% torque loss soon after tightening a spring-loaded worm-drive clamp; that is normal. To check one, loosen it completely and re-tighten to the stated torque; tightening an installed clamp further leads to over-tightening and leaks (Freightliner service bulletin).
+  - Double clamping for extra hold: two clamps on a long insert with about 3/4 in between the bands, recommended for high pressure and where the joint carries weight (Boshart).
+  - Ear clamps: close the ear in a single stroke of the pincers and never crimp twice; a clamp counts as properly closed only when the ear width has been reduced by at least 40% with the right closing force; the most it can shrink is ear width divided by π (Oetiker data sheet). Wikipedia: pick a size whose ears end up 'almost completely closed'.
+  - No-hub (shielded) drain couplings to CISPI 310 are 'designed for an installation torque of 60 inch-pounds'; medium- and heavy-duty couplings are installed with a torque wrench set between 80 and 120 in-lb, and 'Torque requirements may vary per manufacturer' (Charlotte Pipe).
+  - Trim long worm-drive tails and secure the cut end so it can't snag hands: for clamps with a kink in the band, Kitplanes cuts the tail 'just long enough to extend one or two slots past the kink' and safety-wires it to the pipe (Kitplanes).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Car cooling-system hoses, held by spring clamps on many cars (e.g. most water-cooled Volkswagens) or by worm-drive clamps (Wikipedia 'Hose clamp')
+  - Washing-machine and dishwasher drain hoses, PC water-cooling loops on barb fittings, and workshop dust-extraction hoses (Wikipedia 'Hose clamp'; Printables 747926, 22483)
+  - Rubber 'no-hub' couplings joining cast-iron or plastic drain pipes under a floor (Wikipedia 'Piping and plumbing fitting', with photo)
+  - Jubilee clips used as an all-purpose strap: mounting signs and rooftop TV aerials, makeshift pipe hangers, and holding the bag on bagpipes while it is tied in (Wikipedia 'Hose clamp')
+- **when_to_use**: To hold and seal a soft hose on a barb, spigot or beaded tube carrying water, coolant, air or vacuum at moderate pressure, as in cars, homes, garden watering, aquariums and PC cooling (Wikipedia 'Hose clamp'). Pick the kind by the job: worm-drive for most hoses 1/2 in and up and for anything you may want to undo or re-tighten (Wikipedia); spring clamps in tight or awkward places such as engine bays and PC water-cooling, where a screwdriver can't reach (Wikipedia); constant-tension clamps where hot-cold cycling or hose creep would loosen a plain clamp (EFC International); ear clamps for small hoses where a neat, low, tamper-evident, permanent clamp is wanted (Wikipedia; Oetiker data sheet); T-bolt clamps for heavy hoses and higher clamping force, e.g. turbo and coolant hoses (Wikipedia), on strong pipe. Also as a quick, strong strap to fix things round poles, tubes and pipes, or chained end to end into a long clamp (Wikipedia 'Hose clamp').
+- **when_not_to_use**: Not for high-pressure lines, hydraulics, fuel at pressure or anything where a blow-off is dangerous: 'For these high pressure applications, compression fittings, thick crimp fittings, or other designs are normally used' (Wikipedia 'Hose clamp'); see Compression fitting and Quick couplers for tubes and hoses. Not on hard tubing such as nylon or PTFE that a clamp can't squeeze; use push-to-connect or compression fittings (see Hose barb). Not a T-bolt clamp on thin aluminium pipe: its uneven, high force 'can oftentimes bend and distort the aluminum piping' (AMS Performance). Not a plain slotted-band worm clamp on soft silicone hose that the slot edges can cut; use an embossed band (FastFix / EFC International). Not for frequent connect-disconnect; use a quick coupler. As a structural strap, not for lifting or safety-critical loads: Boshart says to use a safety cable or rope as well when hanging a pump on clamped pipe. For a light-duty hose hold or a temporary fix, a cable tie or a constrictor knot can do (see Linear ratchet and Binding knots and seizings).
+- **environment_limits**: Corrosion: choose band material for the place: in salt-spray tests Oetiker rates zinc-plated steel at 96 h or more, Galfan-coated steel at 144 h or more and 304 stainless at 1000 h or more (DIN EN ISO 9227, Oetiker data sheet); stainless screws matter outdoors and in drains (Wikipedia 'Piping and plumbing fitting': ideally all stainless 'to provide maximum service life'). Heat and cold: rubber and plastic hose relaxes and 'creeps' under the band, and temperature swings loosen plain clamps, which is what constant-tension clamps are for (EFC International); a spring-loaded worm clamp normally loses about 30% of its torque soon after tightening (Freightliner service bulletin). Neoprene no-hub gaskets are rated to 212 °F (100 °C) (Charlotte Pipe). Printed spigots or clamps: PLA softens above about 60 °C and PETG is fine below about 80 °C (Prusa knowledge base). Vibration: clamps hold well when tightened correctly and spring types follow movement (Oetiker data sheet: the dimple's spring effect), but check worm-drive clamps periodically (AMS Performance: 'periodic checks and appropriate maintenance are important').
+- **safety_notes**: PRESSURE: hose clamps are for moderate pressures only (Wikipedia 'Hose clamp'); a hose that blows off can spray hot or harmful fluid and whip about (see Hose barb); double-clamp where pressure or weight is high (Boshart), and use proper pressure fittings for hydraulics or high-pressure air. SHARP BAND ENDS: cut tails of worm-drive bands are sharp: 'The trimmed “tail” often sticks out—ready to snag hands, fingers' (Kitplanes); one manufacturer's assembly workers 'were frequently cutting their hands' on slotted-band clamps (FastFix / EFC International). Trim tails short, deburr or cover them, and wear gloves. OVER-TIGHTENING: over-tightened clamps can cut or crush soft hose and cause leaks; never exceed the rated ultimate torque (Boshart; Freightliner service bulletin; FastFix). SUPPORT: never let a clamped hose or pipe joint hold up a heavy load on its own; Boshart warns to 'always use safety cable or rope' when installing a submersible pump on clamped poly pipe. *(unverified parts omitted)*
+- **common_failures**: Leaks from a clamp that is too loose, sitting on the barb crest instead of behind it, or on a scratched or dirty spigot (Wikipedia 'Hose clamp'). Hose cut or crushed by over-tightening, or by the slot edges and long tail of a slotted band (FastFix / EFC International; Boshart). Stripped screw or broken band from too much torque (Boshart). Loss of grip over time as the hose relaxes ('cold flow') or with temperature cycling; fit constant-tension clamps or re-tighten correctly by loosening first (EFC International; Freightliner service bulletin). A gap in the squeeze under a plain wire loop's screw, which is why good wire clamps overlap their ends (Wikipedia). Wrong size: worm tail far too long, or an ear clamp whose ear can't close enough (Oetiker data sheet: at least 40% closure). Ear clamp crimped twice or with the wrong tool (Oetiker data sheet: single stroke only). T-bolt clamp distorting thin aluminium pipe and causing a leak (AMS Performance). Rusted zinc-plated clamps outdoors (Oetiker salt-spray ratings). A fitting scratched by slitting a stuck hose off, which then leaks (Wikipedia). Re-used no-hub sleeves that no longer seal (Wikipedia 'Piping and plumbing fitting'). Printed spigots that creep, soften or crack at layer lines under the clamp (Prusa knowledge base; Softsolder).
+- **related**: 
+  - Hose barb (barbed tube fitting): the ridged spigot a hose is pushed onto; a clamp behind the barb is its usual add-on (that entry keeps only a short retention summary)
+  - Band flange clamp (V-band clamp, tri-clamp): a hinged band whose V-section wedges two flanges together, joining pipe ends rather than squeezing a hose
+  - Compression fitting (ferrule fitting): a nut squeezes a ferrule onto hard tubing; for higher pressures
+  - Quick couplers for tubes and hoses (push-to-connect, sleeve lock): for frequent connecting and disconnecting
+  - Linear ratchet (cable-tie ratchet): a cable tie is a light-duty, one-use stand-in for a hose clamp
+  - Binding knots and seizings (constrictor knot): a tied 'hose clamp made of string' for light jobs
+  - Clamp-on accessory mount for bars, poles and edges (handlebar clamp, U-bolt): the purpose-made way to fix things to poles, where a hose clamp is the quick improvised strap
+  - Clamp-on tube fittings (slip-on structural fittings): set-screw fittings for building frames from tube
+  - Parallel pipe thread with a sealing washer (garden-hose thread): a threaded hose connection that unscrews by hand
+  - Ratchet tie-down strap: a webbing strap tightened by a ratchet, for much larger loads and bundles
+  - Spring clip clamp (clothes-peg clip): the same 'held shut by its own spring' idea for light holding jobs
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Hoseclamps.screw.agr.jpg (Wikimedia Commons, by ArnoldReinhold)](https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg): Assorted screw/band (worm-drive) hose clamps, showing the slotted band and screw housing *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [Two spring Hose Clamps - small.jpg (Wikimedia Commons, by Bushytails)](https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg): A pair of spring-steel hose clamps of the kind used on car fuel and coolant lines, with the tabs you squeeze to open them *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+  - [StepLess Ear Clamps, Product Group 117 & 167, technical data sheet (Oetiker)](https://eu-assets.contentstack.com/v3/assets/bltbc4004bca00989b0/blt91a068ac67624fea/676043bcabb68b8dccc2851c/oet_tds_117-167_StepLess_Ear_Clamps_EN.pdf): Labelled drawings of a 1-ear clamp (narrow band, ear, dimple, tongue-in-groove interlock), the open and closed ear widths, and block closure *(licence: link only)*
+  - [How to remove and install pinch clamps, or oetiker clamps. It's easy (Best Dual Sport Bikes, YouTube; cited by Wikipedia 'Hose clamp')](https://www.youtube.com/watch?v=_m4_hwOkjsE): Video of closing ear (pinch) clamps with pincers and removing them by prising the ear *(licence: link only (YouTube))*
+  - [How to Install a Worm Gear Hose Clamp (Boshart Knowledge Base, 2023)](https://support.boshart.com/how-to-install-a-worm-gear-hose-clamp): Step-by-step worm-gear clamp fitting with figures for clamp position on barbed inserts, double clamping and a torque-limiting T-handle nut driver *(licence: link only)*
+- **make_it_yourself**: 
+  - [Hose clamp for dust collection hoses (Marius Hornberger, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/22483-hose-clamp-for-dust-collection-hoses): Printed clamp shaped to the spiral of dust-collection hose, assembled without tools using M5 hardware; several sizes and four connectors for left- or right-hand coils; PETG *(licence: CC BY)*
+  - [150mm (6") Ratcheting Hose Clamp (Pyrex, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/485192-150mm-6-ratcheting-hose-clamp): One-piece printed ratcheting clamp for 150 mm (6 in) exhaust and ventilation hose *(licence: CC BY-NC)*
+  - [100mm (4in) Hose Clamp (More Sizes Added) (Apok84, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1338893-100mm-4in-hose-clamp-more-sizes-added): Hardware-free printed clamp with a tightened clasp, in 80-165 mm sizes *(licence: CC BY-NC-SA)*
+  - [Parametric hose clamp (yduf, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/244215-parametric-hose-clamp): Customisable printed screw-closed strap clamp for tubes (works on 20 mm tube in PLA), can tie several tubes together; print lying flat *(licence: CC BY)*
+  - [Hose Clamp (ppaukstelis, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/6758-hose-clamp): Small printed ratchet-tooth clamp for 3/4 in OD tubing; scale about 105% to fit over a hose on a barb; not for critical uses *(licence: CC BY)*
+- **diagram_idea**: A cut-away of a hose pushed over a barbed spigot with a worm-drive clamp sitting just behind the barb, arrows showing the band squeezing inwards all round and the barb blocking the hose from sliding off; beside it, small side views of a spring clamp (squeeze tabs to open), an ear clamp before and after the ear is pinched, and a no-hub coupling joining two drain pipes with two bands.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Hose_clamp
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://support.boshart.com/how-to-install-a-worm-gear-hose-clamp
+  - https://images.thdstatic.com/catalog/pdfImages/a2/a20703c2-78f5-47d4-8a02-9f0db5a2e29a.pdf ('Hose Clamp Installation Guide – Worm Gear Clamps', hosted by Home Depot; it points to Ideal-Tridon clamp pages for sizes)
+  - https://static.nhtsa.gov/odi/tsbs/2018/MC-10141687-9999.pdf (Freightliner Service Bulletin 20-46 'ABA Hose Clamp Torque Values', January 2004, hosted by NHTSA)
+  - https://eu-assets.contentstack.com/v3/assets/bltbc4004bca00989b0/blt91a068ac67624fea/676043bcabb68b8dccc2851c/oet_tds_117-167_StepLess_Ear_Clamps_EN.pdf
+  - https://eu-assets.contentstack.com/v3/assets/bltbc4004bca00989b0/bltba0ec9189d36ea59/69aee022d627ad00081edd6c/oet_tds_HIP_1000_396_426_446_Single_Action_Pincers_EN.pdf
+  - https://efc-intl.com/category/constant-tension-clamps
+  - https://fastfixtechnology.com/other-industries/hose-clamping-improvements
+  - https://www.amsperformance.com/wp-content/uploads/2016/08/Worm_Gear_Clamp.pdf
+  - https://www.charlottepipe.com/articles/cispi-310-a-guide-to-no-hub-cast-iron-connections
+  - https://www.kitplanes.com/tame-the-hose-clamp-tail-for-safer-maintenance/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://softsolder.com/2016/08/24/kenmore-progressive-vacuum-tool-adapters-first-failure
+  - https://www.youtube.com/watch?v=_m4_hwOkjsE
+  - https://commons.wikimedia.org/wiki/Category:Hose_clamps
+  - https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg
+  - https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** complexity, load, making_tips_3d_printing, reuse_cycles, safety_notes, tools_needed
+
+## 394 Clamp-on accessory mount for bars, poles and edges (handlebar clamp, desk clamp, U-bolt)
+
+*clamping, magnetic & friction connections.* A clamp that grips something already there, such as a handlebar, pole, tube, lighting pipe or the edge of a desk or shelf, so an accessory can be fixed on, moved or removed without drilling
+
+*Also covers:* Also covers split bar clamps, rubber shims for several sizes, U-bolts, pipe clamps and camera-rod clamps. Safety: on bikes and scooters a mount must not slip into the steering, brakes or wheel.
+
+### What it is
+
+- **plain_name**: A clamp that squeezes round something that is already there, such as a handlebar, a pole, a pipe or the edge of a desk, so you can fix a light, phone, camera, lamp or holder onto it, slide or turn it to a new spot, and take it off again without drilling any holes
+- **term**: Clamp-on accessory mount (bar clamp, U-bolt, pipe clamp, desk-edge clamp)
+- **aliases**: 
+  - handlebar mount, handlebar clamp, bar mount, out-front mount (bike computers), stem mount
+  - split clamp, split bar clamp, two-piece clamp, hinged clamp, ring clamp, pinch clamp, saddle clamp
+  - handlebar shim, rubber shim, rubber pad, clamp spacer (to fit one clamp to several bar sizes)
+  - U-bolt (with saddle, V-block or backing plate), mast clamp, pipe U-bolt (sized in pipe measurements, Wikipedia 'U-bolt')
+  - pipe clamp, pipe clip, P-clip, pipe saddle clamp, Rohrschelle (German)
+  - stage lighting C-clamp (pipe clamp, hook clamp), trigger clamp, half coupler / Cheeseborough (stagecraft terms, Wikipedia 'C-clamp (stagecraft)')
+  - grip clamps: Super Clamp (Manfrotto, brand), Cardellini clamp (a jaw-style clamp for round, square or rectangular tubing or flat objects, Wikipedia 'Clamp (tool)')
+  - desk clamp, desk-edge clamp, table clamp, C-clamp mount (monitor arms, microphone arms, desk lamps), clamp-on shelf
+  - camera rod clamp, 15 mm or 19 mm rod clamp (standard camera support rods; spacings in OConnor's explainer)
+  - frame clamp, bottle-cage clamp (for bikes without threaded bosses, Wikipedia 'Bottle cage')
+  - Standard interfaces often found on the clamp's other side: Garmin/Wahoo-type quarter-turn mount, GoPro-type prongs, 1/4-20 tripod thread, 16 mm (5/8 in) spigot socket
+- **family**: clamping, magnetic & friction connections
+- **other_families**: quick-release & tool-free
+- **one_liner**: A clamp that grips an existing bar, pole, tube, pipe or desk edge by squeezing it, often through a rubber pad, so an accessory can be fixed on, repositioned or removed without drilling or changing the thing it is clamped to.
+- **complexity**: A few parts that act as one unit. Ring or bar clamps: a split ring or two half-shells, one or two pinch screws with nuts (or a thumbscrew or cam lever), a rubber pad or shims, and the accessory interface (for example a quarter-turn mount, prongs, a threaded stud or a socket). U-bolt mounts: a U-shaped rod threaded at both ends, a saddle or backing plate, two nuts and washers. Desk clamps: a C-shaped frame, a screw with a swivelling pad, and a top plate or socket. Stage C-clamps: clamp body, clamp bolt, spigot that turns through 360 degrees, pan bolt and yoke bolt (Wikipedia 'C-clamp (stagecraft)').
+- **how_it_works**: Tightening the screw pulls the clamp's jaws or half-shells together round the bar (or pushes a pad up under a desk edge), squeezing it so hard that friction stops the clamp sliding along it or turning round it. A rubber pad raises the grip, protects the finish and fills the gap, so one clamp fits several sizes: Garmin's out-front mount uses its thicker pad on a 25.4 mm bar and the thinner pad on a 31.8 mm bar. A U-bolt wraps round a pipe or post and its two nuts pull it against a plate on the other side. Because nothing is drilled, loosening the screw lets you slide or turn the mount to a new place, or take it off.
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: fixes an accessory (light, phone, bike computer, camera, lamp, monitor arm, sign, bottle cage) onto a bar, pole, pipe, tube or desk edge without drilling
+  - lock, and release by hand: thumbscrew, knob and cam-lever versions are tightened and released without tools, so the accessory can be moved or taken off quickly
+- **motion**: none once tightened; when loosened it can slide along the bar and turn round it (rotate+slide) to a new position. Many mounts add a swivel after the clamp, for example a stage C-clamp's spigot that turns through 360 degrees and is locked by a pan bolt (Wikipedia 'C-clamp (stagecraft)')
+- **degrees_of_freedom**: 0 when tight. Loosened, 2 (slide along the bar and turn round it). A desk clamp loosened can slide along the edge (1 to 2).
+- **special_behaviour**: 
+  - quick-release: versions with a thumbscrew, knob or cam lever go on and off by hand, and many carry a quick-release interface (a quarter-turn bike-computer mount, GoPro-type prongs or a hexagonal spigot socket) so the accessory comes off while the clamp stays on the bar (Garmin instructions; Manfrotto Super Clamp page)
+  - none otherwise: it simply holds by squeezing; it does not slip at a set force, so anything that hits it hard can still make it twist or shift (Wikipedia 'Shaft collar': shock loads can make clamp collars shift)
+- **holding_principle**: friction or clamping (force-fit): the squeeze of the screw, U-bolt or C-frame holds by friction, helped by rubber pads; partly shape (form-fit) in hook-shaped clamps, such as a stage C-clamp whose body is 'designed to sit overtop of a typical theatrical batten' (Wikipedia 'C-clamp (stagecraft)'), and where a clamp hooks round a desk edge
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable with a hex key or spanner for screw-closed clamps and U-bolts; tool-free quick release for thumbscrew, knob and cam-lever clamps and for quarter-turn or prong interfaces, where the accessory twists or slides off and the clamp stays on the bar
+- **tools_needed**: hex key (Garmin's mount uses a 2 mm hex key for its interface screws) or spanner for screw-closed clamps and U-bolt nuts; none for thumbscrews, knobs and cam levers; a torque wrench or torque driver with a newton-metre scale on carbon or lightweight handlebars (Surly handlebar instructions)
+- **seal**: none
+- **load**: Light to medium. Examples: a bike computer of well under 100 g on an out-front mount (QIDI blog); 15 kg payload for a Super Clamp on round tube from 13 to 55 mm (Manfrotto); U-bolts are heavy enough to support pipework and overhead road signs (Wikipedia 'U-bolt'). Strong in the direction it squeezes and against a straight pull-off; weakest against twisting round the bar, because an accessory on an arm turns its weight into a twisting force at the clamp (QIDI: a 154 g camera on a 60 mm arm with a 5x shock factor gives about 0.45 N·m), and against knocks and vibration, which can make friction clamps shift (Wikipedia 'Shaft collar').
+- **adjustable**: yes: loosen, slide along or turn round the bar, and re-tighten; swap the rubber pad or add a shim to fit another bar size (Garmin pads; Wikipedia 'Bicycle handlebar': shims fit 25.4 mm or 26 mm bars to 31.8 mm stems); many mounts add a swivel or ball joint for the accessory's angle
+- **play_and_precision**: Tolerates a range of bar sizes only through its pads, shims or long screws (Super Clamp 13 to 55 mm; Garmin two pads); a fixed printed clamp that is about 1 mm off 'will either not close or will crush the tube' (QIDI blog). Bars taper, so the size is only guaranteed at the stem clamp (QIDI blog). *(unverified parts omitted)*
+- **access_needed**: both sides for most: two-piece and hinged clamps and U-bolts wrap round the bar from the side, so you need to reach round it but not to its end; a desk clamp needs room above and below the desk edge and, for monitor arms, about 5 cm of space behind the desk (BenQ); end of a tube or shaft for one-piece closed rings, which must be slid on from a free end
+- **materials**: Bodies of aluminium, steel, cast metal or glass-filled plastic; rubber or TPU pads; zinc-plated or stainless U-bolts (Wikipedia gives 'bright zinc-plated mild steel' as an example). Printed clamps are best in PETG or ASA rather than PLA for bikes and outdoors (QIDI blog; Prusa material pages), with TPU for pads. Clamps onto steel, aluminium and wood easily; carbon-fibre and thin-walled bars need low, measured tightening (Surly); glass and hollow-core desk tops need a reinforcement plate (BenQ).
+- **maker_difficulty**: easy to buy and fit; moderate to print one that lasts on a bike or scooter, because vibration fatigue, creep and screw threads in plastic are the usual failure points (QIDI blog)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (handlebar mounts, U-bolts, pipe clamps, grip clamps, desk clamps)
+  - 3D print (FDM): split or hinged bar clamps, pipe clamps, desk-clamp brackets and adapters, with metal screws and nuts
+  - CNC: machined aluminium bar clamps
+  - sheet metal: bent strap clamps and backing plates for U-bolts
+  - woodwork: wooden jaw pads, desk-edge blocks and backing plates
+  - laser cut: flat backing plates and brackets held on with U-bolts
+- **print_in_place**: partly: a hinged clamp can be printed already joined, as in a print-in-place handlebar clamp that needs only an M3 screw and nut (Printables 156668), or a hinged pipe clamp that uses filament as hinge pins (Printables 1196715); most printed clamps are two halves joined by screws and nuts, with a rubber or TPU pad added
+- **making_tips_3d_printing**: Measure the bar with calipers exactly where the clamp will sit, because bars taper; one guide suggests making the bore about 0.3 mm larger than measured and letting the screw gap close the difference (QIDI blog), and parametric models let you set the size (Printables 156668, 1196715, 243996). Print in PETG or ASA, not PLA, for bikes and anything outdoors: road vibration gives millions of small load cycles and PLA tends to crack along layer lines, while PETG bends before it breaks (QIDI blog); PLA also softens above about 60 °C and degrades in UV, PETG is fine below about 80 °C and ASA is UV-resistant to about 93 °C (Prusa material pages). Orient the part so the clamping force runs along the layers, not trying to split them apart (QIDI blog). Use at least 4 perimeters and plenty of infill around screw bosses (QIDI: 4+ walls, 40 to 60 % infill; Printables 243996: 4 perimeters and 40 % gyroid). Keep at least one screw diameter of wall round each screw hole (Hubs). Never screw into the plastic itself for a clamp that is re-tightened: use a captive hex nut in a nut trap (QIDI: M4 nut 7.0 mm across flats, pocket 7.2 mm wide and 3.4 mm deep) or a heat-set insert, with washers under the head and the nut so they don't sink in (QIDI blog; Hubs suggests about 0.2 mm extra round a nut pocket). The weak spot is usually the clamp ear at the screw boss: one designer's mount broke on the bar clamp itself, not the device interface, and was then thickened (Printables 156668; QIDI table). A thin TPU pad (about 2 mm) between clamp and bar adds grip and damps buzz (QIDI blog). For heavier loads let metal take the force: a printed bike-rack bracket uses bent M5 threaded rod as U-bolts in a protective sleeve, with metal plates so 'the plastic only receives pressure load' (Printables 123887). Re-check the screws after the first use, because printed parts creep under a new clamping load (QIDI blog; Thrinter creep test).
+- **off_the_shelf_parts**: Search terms: 'handlebar mount', 'out-front mount', 'stem mount', 'handlebar shim' or 'bar shim 31.8 to 25.4', 'rubber shim strip'; 'U-bolt' (with 'saddle', 'V-block' or 'backing plate'), 'mast clamp', 'antenna mast U-bolt'; 'pipe clamp', 'pipe clip', 'cushioned P-clip', 'pipe saddle clamp'; 'stage lighting C-clamp', 'hook clamp', 'trigger clamp', 'half coupler'; 'super clamp' or 'grip clamp' (Manfrotto Super Clamp, brand), 'Cardellini clamp'; 'desk clamp', 'monitor arm desk clamp', 'desk clamp reinforcement plate'; '15 mm rod clamp' (camera support rods); 'two-piece clamp-style shaft collar' (a ready-made split clamp that can carry a bracket); 'bottle cage clamp' or 'frame clamp adapter' for bikes without bosses.
+- **rules_of_thumb**: 
+  - Match the bar size first. Common bicycle handlebar clamp diameters are 22.2, 25.4, 26.0, 31.8 and 35 mm, and shims adapt smaller bars to larger clamps; the lever and grip areas are 22.2 mm (flat bars) or 23.8 mm (drop bars) (Wikipedia 'Bicycle handlebar', https://en.wikipedia.org/wiki/Bicycle_handlebar; full list there).
+  - Tighten to the maker's figure, not 'as tight as possible': Garmin gives a maximum of 0.8 N·m (7 lbf-in) for its out-front mount and says to check the screw periodically (Garmin Out-Front Mount Instructions, https://www.adorama.com/col/productManuals/GP0101334000.pdf); Surly says to tighten brake and shifter clamps to the stated torque or 5 N·m, whichever is less, because over-tightening the stem, brake or shifter clamps, or accessories can damage the handlebar (https://surlybikes.com/cdn/shop/files/85-001047_INST01.pdf).
+  - A clamp that wraps round the bar holds better and leaves no mark compared with a set screw pressing on one point: Wikipedia says clamp-style shaft collars have 'nearly twice' the holding power of set-screw collars and cause no shaft damage, but shock loads can make them shift (https://en.wikipedia.org/wiki/Shaft_collar).
+  - Desk clamps: allow at least about 5 cm (2 in) behind the desk; bevelled or rounded edges over about 2.5 cm (1 in) reduce stability; glass, hollow-core (honeycomb) and easily dented tops need a reinforcement plate to spread the force (BenQ, https://www.benq.eu/en-uk/knowledge-center/knowledge/10-things-to-consider-when-buying-a-monitor-arm.html). Put scrap wood or a pad under a C-clamp's jaws to spread the force and avoid dents (Wikipedia 'C-clamp', https://en.wikipedia.org/wiki/C-clamp).
+  - Printed clamps: bore about 0.3 mm over the measured bar, 4 or more perimeters, 40 to 60 % infill, captive nuts or inserts with washers, and a tether for anything that could fall into the road (QIDI blog, a filament maker's guide, https://qidi3d.com/blogs/print-lab/gopro-mounts-cyclists); at least one screw diameter of wall round threaded holes (Hubs, https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/).
+  - A U-bolt is specified by four things: material, thread size (e.g. M12 x 50 mm), inside width between the legs and inside height; pipe U-bolts are sold by the pipe size they fit, which is not the bar's measured diameter (Wikipedia 'U-bolt', https://en.wikipedia.org/wiki/U-bolt).
+
+### When to use it
+
+- **everyday_examples**: 
+  - a bike light, phone holder or bike computer clamped to the handlebar (Garmin out-front mount)
+  - a monitor arm, microphone arm or desk lamp clamped to the edge of a desk (BenQ)
+  - theatre and film lights hung from a lighting pipe with C-clamps (Wikipedia 'C-clamp (stagecraft)')
+  - a bottle cage clamped to a bike frame that has no threaded bosses, or overhead road signs held with U-bolts (Wikipedia 'Bottle cage'; 'U-bolt')
+- **when_to_use**: When you want to add something to a bar, pole, tube, pipe or desk you don't want to drill, or don't own (a rented flat's desk, a bike frame, a tent pole, a camera rig); when the accessory must move between places or come off often; when you need to fine-tune its position along or round the bar; when one clamp must fit several bar sizes (use pads or shims). Use a U-bolt for heavier or outdoor jobs on round posts and pipes, a jaw-type grip clamp for odd shapes or flat edges (a Super Clamp grips round and square sections and, with its rubber wedge, flat surfaces), and a desk clamp for arms and lamps on a desk edge.
+- **when_not_to_use**: When a threaded boss, rail or tripod socket is already there: bolt to it instead (Tripod and stand screw mount; Aluminium-extrusion connectors; Clevis joint prongs). For building frames from tube, use clamp-on tube fittings. For loads that hit hard, swing on a long arm or must never move, add a positive stop, a second clamp or a drilled and bolted bracket, because friction clamps can shift under shock (Wikipedia 'Shaft collar'). Don't clamp onto glass or hollow-core desk tops without a reinforcement plate (BenQ), onto carbon parts without a torque figure (Surly), onto steering, brake or gear cables, or onto anything that moves or gets hot. For a quick, light, temporary hold use a spring clip clamp; for an improvised strap round a pole, a hose clamp or cable tie.
+- **environment_limits**: Sun and heat: PLA softens above about 60 °C and degrades in UV, so it is a poor choice on a bike or car left in the sun; PETG suits outdoor use below about 80 °C and ASA resists UV up to about 93 °C (Prusa material pages). Vibration: a riding season is millions of small load cycles, which crack brittle printed mounts (QIDI blog). Creep: printed clamps and rubber pads relax, so screws loosen after the first use (QIDI blog; Thrinter creep test). *(unverified parts omitted)*
+- **safety_notes**: On bikes and scooters, fit the mount where it 'does not interfere with the safe operation of your bike' and check the screw now and then (Garmin); make sure it can't slide or swing into the steering, brake levers, cables, the front wheel or the spokes. Things clamped to handlebars have caused crashes: a quick-release handlebar bag fell under a rider's front wheel causing serious injuries (CPSC recall of Cannondale handlebar bags, 2004), and handlebar bracket arms that could crack let gear fall while riding (CPSC recall of Rockgeist BarJam brackets, 2022). Scooter makers say not to hang bags or heavy items on the handlebar (Xiaomi Electric Scooter 4 Pro manual). Over-tightening can crack or crush handlebars, especially carbon, and 'improper installation or repeated rotation of mounted components may lead to product failure' (Surly). Tether cameras and lights so a broken mount doesn't drop them into traffic (QIDI blog), and give anything clamped above head height a separate safety cable (stage practice; Camerastuff safety cable page). Desk clamps can crack glass tops (BenQ).
+- **common_failures**: (1) It slowly turns round the bar under an offset load or on bumps: use the right pad or shim, tighten to the stated torque, use a wider clamp or two screws, and keep the arm short (QIDI blog; Garmin). (2) The bar is crushed, dented or cracked from over-tightening, especially carbon or thin-walled tube: use a torque figure and a pad (Surly; Wikipedia 'C-clamp'). (3) A printed clamp cracks at the screw ear or splits along layers: thicken the boss, add fillets, print in PETG or ASA and orient the layers sensibly (QIDI blog; Printables 156668). (4) It works loose as plastic creeps or a screw head sinks into the plastic: washers, captive nuts or inserts, and re-tighten after first use (QIDI blog). (5) Threads strip in plastic: never screw directly into a print for a clamp that is re-tightened (QIDI blog; Hubs). (6) The wrong bore size means it won't close or it crushes the tube (QIDI blog). (7) Set-screw clamps mar the bar and get hard to move (Wikipedia 'Shaft collar'). (8) A desk top crushes or cracks under a monitor-arm clamp (BenQ). (9) A knock or shock load makes a friction clamp jump to a new position (Wikipedia 'Shaft collar').
+- **related**: 
+  - Clamp-on tube fittings (slip-on structural fittings): tees and elbows held by set screws for building frames from tube, rather than adding one accessory
+  - Hose clamp (worm-drive clamp): a screw band that can strap something round a pole as a quick improvised mount
+  - Linear ratchet (cable tie): the cheapest strap mount for light items, but slips and is single-use
+  - Spring clip clamp (clothes-peg clip, clip-on holder): jaws held shut by a spring, for quick, light, tool-free holding
+  - Eccentric cam lever (cam clamp, quick-release skewer): the lever often used to close a bar clamp without tools
+  - Shaft-to-hub joints (clamp hub, set screw): the same split-clamp idea on a turning shaft
+  - Collet: a slotted sleeve that grips a rod evenly and centred
+  - Tripod and stand screw mount (camera thread): for things that already have a 1/4-20 or 3/8-16 socket; many clamps end in one
+  - Bayonet mount (push-and-twist lock): the quarter-turn interface on bike-computer mounts
+  - Clevis joint (fork-and-pin joint, prong mount): the GoPro-style prong interface found on many bar mounts
+  - Ball-and-socket joint (lockable ball head): adds an adjustable angle after the clamp
+  - Toggle clamp: includes over-centre U-bolt latch clamps
+  - Hang-on mounts (keyhole slot, French cleat): for fixing to walls rather than bars
+  - Internal tube anchors and Expanding internal grip: grip the inside of a tube end instead of the outside
+  - Aluminium-extrusion connectors (T-slot nuts and brackets): when the frame already has slots to bolt into
+
+### Pictures, videos and models
+
+- **links**: 
+  - [AltmanClamp.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg): A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot *(licence: Public domain)*
+  - [Measure a u-bolt.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Measure_a_u-bolt.jpg): Diagram of how to measure a U-bolt (inside width, inside height, thread) *(licence: CC BY-SA 3.0 (reuse with credit))*
+  - [Studded C-Clamp.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Studded_C-Clamp.JPG): A film-grip C-clamp with a stud for mounting small lights *(licence: CC BY 3.0 (reuse with credit))*
+  - [Pipe Clamps with Rubber (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Pipe-Clamps-with-Rubber_12704-360x480_(5000534544).jpg): Two-part pipe clamps with rubber linings *(licence: CC BY 2.0 (reuse with credit))*
+  - [Garmin Out-Front Mount Instructions (PDF, hosted by a retailer)](https://www.adorama.com/col/productManuals/GP0101334000.pdf): Numbered drawings of fitting the rubber pad and handlebar connector, with pad choice for 25.4 and 31.8 mm bars and the torque limit *(licence: link only (manufacturer document))*
+- **make_it_yourself**: 
+  - [Yet Another Garmin/Wahoo Quarter Turn Bike Handlebar Mount (Printables 156668; URL from Printables API, page not opened)](https://www.printables.com/model/156668-yet-another-garminwahoo-quarter-turn-bike-handleba): Parametric handlebar clamp that prints in place without supports, closed with an M3 screw and nut, in several bar sizes; the designer reinforced the bar clamp after one broke *(licence: CC BY-NC-SA)*
+  - [Parametric pipe clamp with quick release, fully adjustable in FreeCAD (Printables 1196715; URL from Printables API, page not opened)](https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj): Hinged pipe clamp that snaps shut, adjustable in diameter and thickness; print in PETG with filament hinge pins *(licence: CC BY)*
+  - [Parametric Pipe Clamp Mount (Printables 243996; URL from Printables API, page not opened)](https://www.printables.com/model/243996-parametric-pipe-clamp-mount): FreeCAD-parametric pipe mount adaptable to any tube size, height or angle; designer recommends 40 % gyroid infill and 4 perimeters *(licence: CC BY)*
+  - [Desk Mount Headphone Holder / Mount / Clamp (Printables 55862; URL from Printables API, page not opened)](https://www.printables.com/model/55862-desk-mount-headphone-holder-mount-clamp): Popular screw desk-clamp headphone holder for desks up to 40 mm thick *(licence: CC BY-SA)*
+  - [Parametric U-Bolt Bracket for Bicycle Head Tube (Printables 123887; URL from Printables API, page not opened)](https://www.printables.com/model/123887-parametric-u-bolt-bracket-for-bicycle-head-tube): OpenSCAD bracket held to a bike head tube by bent M5 threaded-rod U-bolts with metal backing plates, so the print only takes pressure *(licence: GPL v2.0)*
+  - [Parametric Pipe Clamp - Rohrschelle - Quickschelle - Interlocks (Printables 85521; URL from Printables API, page not opened)](https://www.printables.com/model/85521-parametric-pipe-clamp-rohrschelle-quickschelle-int): Fusion 360 parametric snap-in wall pipe clip (minimum pipe 16 mm), with interlocking versions for several pipes *(licence: CC BY-NC)*
+- **diagram_idea**: Three side-by-side cross-sections: a two-piece bar clamp round a handlebar with a rubber shim and its pinch screw, a U-bolt pulling a post against a backing plate, and a desk C-clamp pushing a swivel pad up under the desk edge, with arrows for the squeeze and a shaded 'keep clear' zone round a bike's steering, brake levers and front wheel.
+- **sources**: 
+  - https://www.adorama.com/col/productManuals/GP0101334000.pdf
+  - https://surlybikes.com/cdn/shop/files/85-001047_INST01.pdf
+  - https://en.wikipedia.org/wiki/Bicycle_handlebar
+  - https://en.wikipedia.org/wiki/U-bolt
+  - https://en.wikipedia.org/wiki/C-clamp_(stagecraft)
+  - https://en.wikipedia.org/wiki/Clamp_(tool)
+  - https://en.wikipedia.org/wiki/C-clamp
+  - https://en.wikipedia.org/wiki/Bottle_cage
+  - https://en.wikipedia.org/wiki/Shaft_collar
+  - https://www.ocon.com/inspiration/labs/rod-standards-explained/
+  - https://www.manfrotto.com/uk-en/super-photo-clamp-without-stud-aluminium-035/
+  - https://www.benq.eu/en-uk/knowledge-center/knowledge/10-things-to-consider-when-buying-a-monitor-arm.html
+  - https://www.cpsc.gov/Recalls/2004/cpsc-cannondale-bicycle-corp-announce-recall-of-certain-quick-release-handlebar-bags
+  - https://www.cpsc.gov/Recalls/2022/Rockgeist-Recalls-BarJam-Brackets-Due-to-Crash-and-Injury-Hazards-Recall-Alert
+  - https://wheelyshop.se/cdn/shop/files/Xiaomi_4_Pro_Nordic_Edition__2nd_Gen__Manual.pdf
+  - https://qidi3d.com/blogs/print-lab/gopro-mounts-cyclists
+  - https://camerastuff.co.za/products/camerastuff-safety-cable-stage-light-security-rope-steel-cable-locking-wire-3mm-70cm
+  - https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://help.prusa3d.com/article/asa_1809
+  - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg
+  - https://commons.wikimedia.org/wiki/File:Measure_a_u-bolt.jpg
+  - https://commons.wikimedia.org/wiki/File:Studded_C-Clamp.JPG
+  - https://commons.wikimedia.org/wiki/File:Pipe-Clamps-with-Rubber_12704-360x480_(5000534544).jpg
+  - https://api.printables.com/graphql/
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, play_and_precision, reuse_cycles
+
+## 398 Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
+
+*clamping, magnetic & friction connections.* Two jaws on a pivot, squeezed shut by a spring; you pinch the handles to open it and let go to clamp, as in clothes pegs, spring clamps and clip-on phone or lamp holders
+
+*Also covers:* Also covers printed spring clamps and clips that use a rubber band as the spring.
+
+### What it is
+
+- **plain_name**: A clip with two jaws that pivot like scissors and are pushed shut by a spring: you pinch the handles to open it, put it over the edge, and let go so it grips, like a clothes peg, a workshop spring clamp or a clip-on lamp or phone holder
+- **term**: Spring clamp (spring clip, spring-loaded pivoted jaw clamp; clothes peg)
+- **aliases**: 
+  - clothes peg (UK) / clothespin or clothes pin (US) (Wikipedia 'Clothespin')
+  - spring clothespin / sprung wooden clothes peg
+  - pinch clamp (This Old House)
+  - spring clamp, spring cramp (UK woodworking; listed with temporary clamps in Wikipedia 'Clamp (tool)')
+  - plastic spring clamp, e.g. Clippix (Bessey, brand); needle-nose spring clamp; ratchet spring clamp (Bessey XCR, a ratchet-locking cousin)
+  - muslin clamp / backdrop clamp / photo spring clip (photography studio names seen in Woodsmith's spring clamp review)
+  - chip clip / bag clip (kitchen use; Printables model titles)
+  - C47 / CP47 / 'bullet' (film-set slang for a wooden spring clothes peg, Wikipedia 'Clothespin')
+  - crocodile clip / alligator clip (spring-jaw clip for temporary electrical connections, Wikipedia 'Crocodile clip')
+  - rubber-band clamp / rubber band spring clamp (printed clamp that uses rubber bands as the spring, Printables 617245)
+  - springless clothespin / one-piece peg / dolly peg (one-piece version whose own springy prongs grip, Wikipedia; Printables 33109)
+  - clip-on holder / clip-on lamp / clamp lamp / clip-on phone holder
+- **family**: clamping, magnetic & friction connections
+- **other_families**: springs & energy storage, quick-release & tool-free
+- **one_liner**: Two jaws joined by a pivot and closed by a spring (usually a coiled wire torsion spring, sometimes rubber bands or a springy printed arm), so you squeeze the handles to open it and let go to clamp it onto cloth, paper, a board edge, a rod or a cable.
+- **complexity**: A few parts: two jaw-and-handle halves (wood, plastic or steel), a pivot (a pin or rivet, or the coil of the spring itself acting as the hinge), and a spring (a wire torsion spring, a trapped compression spring, rubber bands, or a springy part of the clip itself); often soft or swivelling jaw pads and grips on the handles. Examples: 'two wooden halves and one wire spring that is both spring and pivot' (Solon E. Moore's 1887 clothespin, Wikipedia 'Clothespin'); 'two printed halves, snap-on jaw pads, rubber bands' (Printables 617245).
+- **how_it_works**: Each half is a lever with the pivot between the handle and the jaw. The spring pushes the handles apart, which pulls the jaws together, so the clip grips on its own; squeezing the handles harder than the spring opens the jaws ('By a lever action, when the two prongs are pinched at the top of the peg, the prongs open up, and when released, the spring draws the two prongs shut', Wikipedia 'Clothespin'). In the classic wooden peg one coiled wire is both the spring and the pivot the two halves rock on (Wikipedia). A coiled (torsion) spring pushes back harder the further it is twisted (Wikipedia 'Torsion spring'), and the grip at the jaws is the spring's turning force divided by the distance from the pivot (lever arithmetic), so it is greatest close to the pivot. The jaws hold by friction, helped by teeth on crocodile clips and toothed pegs; the clamping force is small (up to about 100-150 N for metal workshop spring clamps, Bessey).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: grips cloth, paper, sheet, a board edge, a rod or a cable, for a few minutes (glue-ups, laundry) or as a clip-on mount for a lamp, phone or sensor
+  - lock, and release by hand: it holds by itself and lets go when you squeeze the handles
+- **motion**: rotate: the jaws pivot open about the pin; workshop spring clamps open about 20-75 mm (Bessey XC and XM ranges), and Bessey's variable-opening XV up to 170 mm
+- **degrees_of_freedom**: 1 while opening and closing (the jaws turn about the pivot); 0 once clamped, as long as the grip is not overcome. Swivelling jaw pads add a small tilt at each tip.
+- **special_behaviour**: 
+  - quick-release: pinch to open, let go to clamp, with one hand (This Old House: spring clamps 'can be operated with one hand')
+  - self-aligning or self-centring: many spring clamps have swivelling pads at the jaw tips (Woodsmith mentions 'swiveling red pads at the tips of the jaw') so the pads lie flat on surfaces that are not parallel
+- **holding_principle**: spring force (a spring or springy part presses it in place), producing friction or clamping (force-fit) at the jaws; toothed or serrated jaws add a little shape grip
+- **input_output**: not applicable (it holds rather than passing motion on; the handles are simply levers that open the jaws)
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: squeeze the handles and lift it off
+- **reuse_cycles**: many times: metal-spring pegs and clamps last until the spring tires or the halves come apart; printed plastic springs last far fewer cycles, especially in PLA (Printables 1096058, 1707408)
+- **tools_needed**: none to use. To build a printed clamp around a strong reclaimed metal spring: locking pliers, a vice to squeeze the handles together and safety glasses (Printables 559737); rubber bands for rubber-band clamps; a pin, screw or rivet for the pivot of two-part designs
+- **seal**: none
+- **load**: Light: the grip comes only from the spring. Bessey's metal spring clamps give clamping forces of up to 100 N at 25 mm opening, 120 N at 50 mm and 150 N at 75 mm; This Old House says spring clamps 'aren't the best option for heavy-duty tasks'. A sliding pull along the jaw faces is resisted only by friction, so a firm tug slides it off; prying or twisting levers the jaws open. Not for lifting, holding anything overhead or holding a person.
+- **adjustable**: Mostly no: the spring sets the force and you simply re-clip to change position. Rubber-band clamps get stronger as you add bands (Printables 617245, 982731), and Bessey's VarioClippix XV has a variable opening width.
+- **play_and_precision**: Not a locating joint: it holds wherever it is clipped and can shift if knocked. Swivelling jaw pads tolerate faces that are not parallel; plain jaws grip best on parallel faces near the pivot.
+- **access_needed**: both sides: the jaws close on both faces of the part, so the clip must reach over an edge (or round a rod, cable or rope) and needs room for the jaws to open
+- **materials**: Classic pegs: wood with a steel wire spring; wooden pegs are used on hot film lights because they do not pass heat on, while plastic would melt and metal would get too hot to touch (Wikipedia 'Clothespin'). Plastic pegs; stainless steel pegs with a trapped compression spring for outdoor use (Wikipedia). Workshop spring clamps: nickel-plated steel with PVC tips and handles 'to prevent marring' (Bessey XM), or fibreglass-reinforced plastic (Bessey Clippix XC, XV, XCL). Crocodile clips: steel or, for battery jump leads, solid copper (Wikipedia 'Crocodile clip'). Printed: PETG for any printed spring, PLA only for rigid halves (Printables 1096058, 1707408; Hackaday); TPU or rubber pads on the jaws. It grips almost any material; pads protect soft or finished surfaces.
+- **maker_difficulty**: easy: buy them cheaply, or print two halves and join them with rubber bands or a pin; moderate for a one-piece or print-in-place peg, whose printed spring has to be tuned and printed in PETG, or for fitting a strong metal spring into printed halves (Printables 559737 warns the assembly 'can be tricky or dangerous')
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: clothes pegs, metal and plastic spring clamps, crocodile clips, clip-on lamps and phone holders
+  - 3D print (FDM): one-piece pegs with a flexing printed spring, print-in-place pegs, two-piece rubber-band clamps, printed halves around a reclaimed metal spring, and replacement jaw pads
+  - woodwork: the classic two-piece wooden peg with a wire spring, and wooden jaws for larger rubber-band or spring clamps
+- **print_in_place**: yes for one-piece and print-in-place pegs, whose spring is part of the print and which are ready to use straight off the printer (Printables 33109, 659163, 1096058; Printables 1707408 needs its centre snapped together once after printing); partly for rubber-band clamps (two printed halves plus added rubber bands, Printables 617245) and for printed clamps built around a metal spring and screws (Printables 559737)
+- **making_tips_3d_printing**: Spring material: print anything that has to spring back in PETG, not PLA; one designer found 'the spring from PLA doesnt really hold up that well but petg works great' (Printables 1096058), another says a PLA spring 'may wear out or crack sooner' (Printables 1707408), and Hackaday notes 'PLA makes for a very poor spring material'. Plastic held bent for a long time slowly loses force (stress relaxation: 'a clip or clamp loses holding force', filamentspecs), so don't store printed clips clamped shut on something thick, and use rubber bands or a metal spring where it must keep gripping for months. Orientation: print the halves lying flat so the bending runs along the layers; Printables 617245 'prints flat for much greater strength', and CNC Kitchen's hooks printed standing broke at only 46-55% of the load of flat ones. Settings seen on popular models: for rubber-band clamp halves, PLA at 0.2 mm layers, 3 perimeters and 15% infill (Printables 617245); for a print-in-place PETG peg, 3 perimeters and no supports (Printables 1707408); some one-piece pegs suggest 100% infill (Printables 904305). Rubber bands: add as many as you need for the force you want (Printables 617245, 982731); natural rubber bands crack quickly when kept stretched in air (ozone cracking), while EPDM and silicone O-rings resist ozone (Wikipedia 'Ozone cracking'), so O-rings make longer-lasting springs. Jaw gap: for springless pegs pick the gap to suit the thickness held; Printables 33109 comes in 1, 2, 3 and 4 mm gaps. Pivots between printed parts need at least 0.3 mm clearance to move freely (Prusa 'Modeling with 3D printing in mind'). Reusing a metal spring: Printables 559737 takes a spring with wire up to 2.5 mm thick, a coil about 10 mm high and 15 mm across and legs up to 50 mm long, prints its jaws flat with supports, and assembles the spring with locking pliers and a vice while wearing safety glasses. Heat: PLA starts to give at about 60 degC (CNC Kitchen), so a PLA clip on a lamp or left in a hot car will soften; PETG lasted to about 80 degC in the same test. Printed replacement tips and jaws for bought spring clamps are common (Printables 586755, 466832).
+- **off_the_shelf_parts**: Search terms: 'spring clamp' (metal with PVC tips, or plastic), 'nylon spring clamp', 'heavy duty spring clamp', 'needle nose spring clamp', 'ratchet spring clamp' (e.g. Bessey XM, XC Clippix, XCL, XCR, brand), 'muslin clamp' or 'backdrop clamp', 'clothes pegs' (wooden spring, plastic, stainless steel), 'crocodile clip' or 'alligator clip' (electrical), 'binder clip' or 'foldback clip' (spring-steel, no pivot), 'clip-on lamp' or 'clamp lamp', 'clip-on phone holder', 'spring clamp tips' or 'spring clamp pads' (replacement jaw pads), and 'torsion spring' for replacement springs (see the Coil spring entry). For sizes and forces, link to a maker's sheet such as Bessey's: https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en.
+- **rules_of_thumb**: 
+  - Expect light clamping force: metal spring clamps give up to about 100 N (25 mm opening), 120 N (50 mm) and 150 N (75 mm) (Bessey, https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en); for big glue-ups use bar or screw clamps, which give 'immense, even pressure' (This Old House, https://www.thisoldhouse.com/house-one/clamp-guide).
+  - A coiled torsion spring's turning force is proportional to how far it is twisted (Wikipedia 'Torsion spring', https://en.wikipedia.org/wiki/Torsion_spring), so a spring clamp grips a thick part harder than a thin one, and gripping close to the pivot gives more force than at the jaw tips (lever arithmetic; no clamp test opened).
+  - Print springy parts in PETG, not PLA (Printables 1096058 and 1707408; Hackaday, https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/).
+  - Print clamp halves and pegs lying flat, so bending loads run along the layers (Printables 617245; CNC Kitchen found standing prints broke at about half the load, https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament).
+  - Plastic held at a fixed bend loses force over time (stress relaxation; https://filamentspecs.com/creep-resistance-3d-printed-parts/): for clips that grip for months, use a metal spring or replaceable rubber bands or O-rings.
+  - Rubber-band clamps: add bands until the grip is enough (Printables 617245); natural rubber cracks from ozone under very small stretch, while EPDM, silicone and fluoroelastomer rubbers resist it (Wikipedia 'Ozone cracking', https://en.wikipedia.org/wiki/Ozone_cracking).
+  - Give a printed pivot at least 0.3 mm clearance (Prusa, https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135).
+
+### When to use it
+
+- **everyday_examples**: 
+  - clothes pegs on a washing line (Wikipedia 'Clothespin')
+  - small spring clamps holding a glue-up, a drop cloth or a tarp (This Old House)
+  - crocodile clips on electrical test leads and car jump leads (Wikipedia 'Crocodile clip')
+  - chip or bag clips, and clip-on reading lamps and phone holders
+- **when_to_use**: When you need to hold something quickly with one hand and take it off just as quickly: small glue-ups (luthiers use clothes pegs to hold kerfing while the glue sets, Wikipedia), holding cloth, paper, tarps or photo backdrops, holding parts while marking or fitting, clipping a light, phone, sign or sensor onto a shelf edge, rod or strap, and holding gels on hot film lights with wooden pegs (Wikipedia). It needs no tools, doesn't mark the work if it has pads, and costs almost nothing.
+- **when_not_to_use**: When you need high or adjustable pressure, use a screw clamp (C-clamp or G-clamp, F-clamp or bar clamp), or a toggle clamp for fast, repeatable, firm holding. For a semi-permanent clip-on mount on a bar, pole or desk edge, use a screw-tightened clamp-on mount or U-bolt. To hold sheets with holes in them, use temporary sheet fasteners (Cleco-type pins). For anything overhead, anything that could fall and cause harm (such as a heat lamp), any lifting and any person, use rated fixings and a chain or safety line instead; NDSU Extension says heat lamps 'should be secured as if they are permanent', with a chain and a locking chain connector. For electrical connections, crocodile clips are only for temporary test connections (see Binding post and banana plug); mains wiring must follow local law and never uses improvised clips.
+- **environment_limits**: Heat: wooden pegs stay safe to touch on hot film lights, whereas plastic would melt and metal would get too hot (Wikipedia 'Clothespin'); PLA starts to give at about 60 degC and PETG at about 80 degC (CNC Kitchen). Outdoors: torsion-spring pegs can twist and fall apart, which is why stainless steel pegs with a trapped compression spring are made, as they 'do not rust or decay with outdoor use' (Wikipedia). Rubber: natural rubber bands crack from ozone when stretched (Wikipedia 'Ozone cracking'). Over time: printed springs lose force if left clamped (stress relaxation, filamentspecs). *(unverified parts omitted)*
+- **safety_notes**: Fitting a strong metal spring into a home-made clamp 'can be tricky or dangerous'; wear safety glasses and squeeze it together in a vice rather than by hand (Printables 559737). Never rely on a spring clip alone to hold a heat lamp or anything hot or heavy overhead: heat lamps over straw bedding add to the risk of barn fires, so NDSU Extension says to hang them with a chain and a locking chain connector so they can't fall into the straw, and Dorset & Wiltshire Fire and Rescue Service says to secure them to something solid 'using chain not twine'. Never use one to lift, to hold anything overhead or to hold a person. Crocodile clips are for temporary test connections; never improvise mains connections with them. *(unverified parts omitted)*
+- **common_failures**: (1) The torsion spring twists sideways and the two halves fall apart (Wikipedia 'Clothespin'); stainless pegs with a trapped compression spring avoid this. (2) Swivelling jaw pads pop off and get lost (Woodsmith); print replacements (Printables 586755, 466832). (3) Cheap plastic handles or jaws break while the spring survives ('The only durable part in spring clamps is the spring', Printables 559737); reuse the spring in printed parts. (4) Printed PLA springs crack or go limp (Printables 1096058, 1707408; Hackaday); use PETG. (5) A printed clip left clamped slowly loses its grip (stress relaxation, filamentspecs). (6) Rubber bands perish and snap (Wikipedia 'Ozone cracking'); swap in EPDM or silicone O-rings. (7) Not enough force, so the work slips; use a screw or bar clamp (This Old House). (8) Printed halves split along layer lines when printed standing; print flat (Printables 617245; CNC Kitchen).
+- **related**: 
+  - Toggle clamp: a lever that snaps past a dead point (over-centre) and locks with much more force; not sprung
+  - Screw clamps (C-clamp or G-clamp, F-clamp, bar clamp; Wikipedia 'Clamp (tool)'): adjustable, high force, slower to fit; one-handed bar clamps lock with a binding plate (see Binding-plate lock)
+  - Binder clip (foldback clip): a bent spring-steel strip that clamps without a pivot pin, with wire handles that fold flat (Wikipedia 'Binder clip')
+  - Crocodile clip (alligator clip): a spring-jaw clip for temporary electrical connections, covered in Binding post and banana plug
+  - Clamp-on accessory mount (handlebar clamp, desk clamp, U-bolt): screw-tightened for a mount that stays put
+  - Cantilever snap fit and Spring-steel push-on fasteners: clips that catch on a feature instead of squeezing
+  - Spring-gate hook (carabiner, snap hook): a spring holds a gate shut rather than squeezing jaws together
+  - Coil spring (compression, extension, torsion): the spring inside most spring clamps
+  - Elastic band and elastic cord springs: the spring in rubber-band clamps
+  - Printed leaf spring and Compliant mechanisms & flexures: the principle behind one-piece springless pegs
+  - Temporary sheet fastener (Cleco-type spring pin): holds drilled sheets together while they are fixed
+  - Hose clamp (spring hose clamp): a spring-steel band that squeezes a hose onto a fitting
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Clothespin (US Patent 10,163).png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Clothespin_(US_Patent_10,163).png): Drawing of the first modern clothespin (David M. Smith, 1853): two prongs on a fulcrum plus a spring *(licence: Public domain)*
+  - [Clothespin-0157e3.jpg (Wikimedia Commons, 2009)](https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg): Photo of a wooden spring-type clothespin, showing the coiled wire spring that is also the pivot *(licence: CC BY-SA 3.0 or GFDL (reuse with credit))*
+  - [Clamps and filings (2420233104).jpg (Wikimedia Commons, from Flickr)](https://commons.wikimedia.org/wiki/File:Clamps_and_filings_(2420233104).jpg): Photo of workshop spring clamps (captioned 'Spring clamps' in Wikipedia 'Clamp (tool)') *(licence: CC BY 2.0 (reuse with credit))*
+  - [Category:Spring clamps (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Spring_clamps): Photos of many spring clamps and clips, including metal and plastic spring clamps, a crocodile clip and a binder clip *(licence: per file (check each file's page))*
+  - [BESSEY spring clamps XM, XV, XC, XCL and ratchet clamp XCR (manufacturer PDF, 03/2025)](https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en): Photos of metal and fibreglass-reinforced plastic spring clamps, with openings, throat depths and clamping forces *(licence: link only (manufacturer document))*
+- **make_it_yourself**: 
+  - [Rubber Band Spring Clamp (Printables 617245; URL from Printables API, page not opened)](https://www.printables.com/model/617245-rubber-band-spring-clamp): Two flat-printed halves with snap-in pads, held together and closed by as many rubber bands as you like; opens 0-50 mm and scales up or down *(licence: Creative Commons Attribution-ShareAlike (CC BY-SA))*
+  - [Print-in-Place Clothespin (Printables 1707408; URL from Printables API, page not opened)](https://www.printables.com/model/1707408-print-in-place-clothespin-print-in-place-kolicek): One-piece print-in-place clothes peg with an integrated printed spring; snap the centre together after printing; tested in PETG *(licence: Creative Commons Attribution-NonCommercial (CC BY-NC))*
+  - [Simple yet effective clothespin (Printables 1096058; URL from Printables API, page not opened)](https://www.printables.com/model/1096058-simple-yet-effective-clothespin): One-piece printed peg with no assembly, in smooth-jaw and toothed-jaw versions; designer recommends PETG over PLA for the spring *(licence: Creative Commons Attribution-ShareAlike (CC BY-SA))*
+  - [Springless Clothespin (Printables 33109; URL from Printables API, page not opened)](https://www.printables.com/model/33109-springless-clothespin): One-piece springy peg (no pivot) in four jaw gaps from 1 to 4 mm, ready to use off the printer; STEP files included *(licence: Creative Commons Attribution (CC BY))*
+  - [Serious Spring Clamp (Printables 559737; URL from Printables API, page not opened)](https://www.printables.com/model/559737-serious-spring-clamp): Printed handles and pivoting jaws that reuse the metal spring from a broken spring clamp, with M3 and M4 screws; includes a safe assembly method using a vice *(licence: Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA))*
+- **diagram_idea**: Side view of a clothes-peg style spring clamp as two levers crossing at a pivot, with a coiled torsion spring at the pivot pushing the handles apart; arrows show 'squeeze here' at the handles and 'jaws close' at the tips, with a second panel showing the same clamp made from two printed halves and rubber bands.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Clothespin
+  - https://en.wikipedia.org/wiki/Clamp_(tool)
+  - https://en.wikipedia.org/wiki/Torsion_spring
+  - https://en.wikipedia.org/wiki/Crocodile_clip
+  - https://en.wikipedia.org/wiki/Binder_clip
+  - https://en.wikipedia.org/wiki/Ozone_cracking
+  - https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en
+  - https://www.thisoldhouse.com/house-one/clamp-guide
+  - https://www.woodsmith.com/review/spring-clamp/
+  - https://filamentspecs.com/creep-resistance-3d-printed-parts/
+  - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://www.ag.ndsu.edu/news/newsreleases/2023/march/take-precautions-when-using-heat-lamps-for-newborn-livestock
+  - https://www.dwfire.org.uk/business-fire-safety/fire-safety-and-the-law/fire-risks-on-farms/heat-lamp-safety/
+  - https://commons.wikimedia.org/wiki/File:Clothespin_(US_Patent_10,163).png
+  - https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg
+  - https://commons.wikimedia.org/wiki/File:Clamps_and_filings_(2420233104).jpg
+  - https://commons.wikimedia.org/wiki/File:Clamps.jpg
+  - https://commons.wikimedia.org/wiki/Category:Spring_clamps
+  - https://api.printables.com/graphql/ (Printables API: models 617245, 1707408, 1096058, 33109, 559737, 904305, 659163, 982731, 9024; titles of 586755 and 466832 from search results)
+
+### Other info
+
+- **Fields with unverified parts:** environment_limits, safety_notes
 
