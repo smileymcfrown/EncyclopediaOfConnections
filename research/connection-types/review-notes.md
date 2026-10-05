@@ -150,14 +150,17 @@ Collected from the agents' hand-back reports for the items added with the wider 
 - **Read from copies** (cite the original when publishing): Lincoln Electric's welding safety
   pages from a REDI-MIG 455 manual hosted by Linde (static.prd.echannel.linde.com), because
   Lincoln's own site was blocked (*Welded metal joint*).
+- *Pogo pin*: the Harwin leaf-spring contact figures (10,000 cycles) were checked only through a WebFetch quote of the page, not the raw page text.
 
 ### Conflicting figures and content points
 - *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum
   users (budgetlightforum), not from tests or a data sheet; check it against a holder maker's data sheet.
+- *Pogo pin*: the current rating of small hobby pogo pins is unverified (marked [uncertain]); Mill-Max's figures (6.5-9 A for ordinary pins, 13 A for the largest) are from data sheets.
+- *Screw-in threaded insert*: helical insert lengths (1d, 1.5d, 2d) are left out because Böllhoff's HELICOIL PDFs were blocked. CNC Kitchen found a helical insert in PETG held no better than a plain screw (120 kg against 118 kg); worth a note in the published entry.
 
 ### Blocked or unreadable (nothing cited from them)
 Essentra, Keystone (keyelco.com), CPSC, the AWS forum, an Analog Devices app note. Wikimedia
-returned 429 (rate limit) for part of the run; agents retried.
+returned 429 (rate limit) for part of the run; agents retried. McMaster-Carr, Böllhoff's HELICOIL PDFs, Bossard's Ensat page, Stanley's Heli-Coil page, NAPA.
 
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
