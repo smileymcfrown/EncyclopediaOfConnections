@@ -34,7 +34,7 @@
     "power": "passive (no power needed).",
     "removability": "permanent: the crimped ferrule can't be taken off the wire, only cut off and replaced. The ferruled wire end itself is easy to unscrew and move to another terminal, and is less damaged by this than bare strands (DigiKey 'Using and Crimping Wire Ferrules').",
     "reuse_cycles": "once: each ferrule is crimped one time. A ferruled wire end can be clamped, unclamped and moved many times (DigiKey 'Using and Crimping Wire Ferrules').",
-    "tools_needed": "Wire strippers set to cut the insulation without nicking strands (DigiKey 'Quality Standards for Wire-Ferrule Crimps'); a ferrule crimping tool: self-adjusting square (4-sided) or hexagonal (6-sided) tools, trapezoid tools, or cheap indent pliers (DigiKey 2018; German Wikipedia); flush cutters; a screwdriver for the terminal. Hackaday notes kits of assorted ferrules with a ratcheting crimper for about $30, while branded crimpers cost $200 or more (Hackaday 2018 and comments). Never squash ferrules with ordinary pliers.",
+    "tools_needed": "Wire strippers set to cut the insulation without nicking strands (DigiKey 'Quality Standards for Wire-Ferrule Crimps'); a ferrule crimping tool: self-adjusting square (4-sided) or hexagonal (6-sided) tools, trapezoid tools, or pliers that press a V-shaped indent (DigiKey 2018; German Wikipedia; PHPI on Knipex self-adjusting hexagonal pliers); flush cutters; a screwdriver for the terminal. Hackaday notes kits of assorted ferrules with a ratcheting crimper for about $30, while branded crimpers cost $200 or more (Hackaday 2018 and comments). Never squash ferrules with ordinary pliers.",
     "seal": "none: it is not a seal. A gas-tight crimp keeps air and moisture out from between the strands inside the tube, which slows corrosion (WAGO 'Using Ferrules'; Hackaday 2018), but the joint is not waterproof.",
     "load": "Electrical: above about 30 A (a ferrule has no current rating of its own: it carries what its wire and terminal are rated for, and Weidmüller makes ferrules for wires from 0.14 to 50 mm², AWG 26 to 0; makers mostly use 0.5-2.5 mm² sizes); rated for mains (UL, CSA and VDE-approved ferrules are standard in mains-rated industrial terminals (Weidmüller), but this entry gives no mains wiring steps). Mechanical: light: it only has to hold the strands together while the terminal clamps it. Pull-out strength depends on the crimp (crimped joints are tested to EN 60352-2, which includes a pull test; German Wikipedia) and on the terminal. Weidmüller says ferrules give 'higher vibration resistance than without ferrules'. Weak against repeated bending next to the collar and against pulling on the wire, so add strain relief.",
     "adjustable": "no: the ferrule is crimped once; only the terminal screw can be re-tightened.",
@@ -146,7 +146,6 @@
     "diagram_idea": "Two cut-away views of a screw terminal side by side: on the left, bare stranded wire with strands splayed out sideways, a few strands touching the clamp and one stray strand reaching the next terminal, marked with a heat glow; on the right, the same wire in a crimped ferrule, with the collar round the insulation and a solid bar under the clamp. Below, four small end-on sections of the crimp shapes (square, hexagonal, trapezoid, indent) next to the terminal openings they suit.",
     "sources": [
       "https://en.wikipedia.org/wiki/Electric_wire_ferrule",
-      "https://en.wikipedia.org/wiki/Wire_ferrule",
       "https://de.wikipedia.org/wiki/Aderendh%C3%BClse",
       "https://en.wikipedia.org/wiki/Screw_terminal",
       "https://en.wikipedia.org/wiki/Crimp_(joining)",
@@ -166,9 +165,7 @@
       "https://commons.wikimedia.org/wiki/File:Wire_ferrule_crimped.jpg",
       "https://commons.wikimedia.org/wiki/File:Burnt_wire_ferrule.jpg",
       "https://commons.wikimedia.org/wiki/File:Burnt_wire_ferrule_2.jpg",
-      "https://commons.wikimedia.org/wiki/File:Aderendhuelsen.jpg",
       "https://commons.wikimedia.org/wiki/File:Lautsprecherkabel_Aderendhuelsen_Makro.jpg",
-      "https://commons.wikimedia.org/wiki/File:Crimp_Tool_For_Bootlace_Ferrules.jpg",
       "https://api.printables.com/graphql/"
     ]
   },

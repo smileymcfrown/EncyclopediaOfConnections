@@ -107,13 +107,13 @@
       {
         "url": "https://commons.wikimedia.org/wiki/File:Deans_connector_1.JPG",
         "title": "Deans connector 1.JPG (Wikimedia Commons, KundaliniZero)",
-        "shows": "A Deans Ultra Plug as used on RC car batteries",
+        "shows": "A Deans-style T-plug pair: the male half with two flat gold contacts at right angles, and the matching female half, so it fits only one way",
         "license": "CC BY-SA 3.0"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/File:Tamiya_Connector.gif",
         "title": "Tamiya Connector.gif (Wikimedia Commons)",
-        "shows": "A Tamiya battery connector with its latch",
+        "shows": "A standard Tamiya battery connector, the plug used on many RC car battery packs",
         "license": "Public domain"
       },
       {
@@ -123,10 +123,10 @@
         "license": "CC0"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg",
-        "title": "Kabelschuh verschiedene commons.jpg (Wikimedia Commons)",
-        "shows": "Assorted crimp terminals including round bullet terminals next to ring, spade and blade types",
-        "license": "CC BY-SA 3.0"
+        "url": "https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg",
+        "title": "Tamiya adapter.jpg (Wikimedia Commons, Cqdx)",
+        "shows": "An adapter cable between a standard Tamiya and a mini Tamiya connector, showing the two sizes side by side",
+        "license": "CC0"
       }
     ],
     "make_it_yourself": [
@@ -168,7 +168,7 @@
       "https://commons.wikimedia.org/wiki/File:Deans_connector_1.JPG",
       "https://commons.wikimedia.org/wiki/File:Tamiya_Connector.gif",
       "https://commons.wikimedia.org/wiki/File:MC4_Connector_Front_and_Top_View.jpg",
-      "https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg",
+      "https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg",
       "https://api.printables.com/graphql/"
     ]
   },
