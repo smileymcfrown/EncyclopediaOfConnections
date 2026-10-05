@@ -194,11 +194,7 @@
       "https://www.youtube.com/watch?v=gX25t4OaNOI",
       "https://www.youtube.com/watch?v=J1RFTRzuAcU",
       "https://www.youtube.com/watch?v=ceuVGYqovXw",
-      "https://www.printables.com/model/882417-expanding-ring-mandrel",
-      "https://www.printables.com/model/346075-ankermake-m5-spoolholder-expanding-mandrel",
-      "https://www.printables.com/model/1854987-watch-case-back-polishing-arbor-internal-expanding",
-      "https://www.printables.com/model/129962-can-internal-expanding-collet",
-      "https://www.printables.com/model/1803272-expanding-ring-mandrel-for-drill"
+      "https://api.printables.com/graphql/"
     ]
   },
   "uncertain": [

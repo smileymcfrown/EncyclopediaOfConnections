@@ -188,24 +188,7 @@
       "https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg",
       "https://www.youtube.com/watch?v=S2n9VJrra3g",
       "https://www.youtube.com/watch?v=HsGCIl4KjGs",
-      "https://www.printables.com/model/205674-nasa-chainmail-4x4-8x8-12x16-and-32x34",
-      "https://www.printables.com/model/373566-ideal-nasa-chainmail-hex-for-fdmstep-included",
-      "https://www.printables.com/model/304968-tetrahedron-chainmail-fabric",
-      "https://www.printables.com/model/288-chainmail-20-modular-3d-printable-fabric",
-      "https://www.printables.com/model/1526462-snafu-chain-mail-nasa-fabric-in-openscad",
-      "https://www.printables.com/model/851001-dragon-scale-fabric",
-      "https://www.printables.com/model/931534-dragon-scales-chainmail",
-      "https://www.printables.com/model/724656-nasa-chainmail-hex-connector-for-both-fdm-optimise",
-      "https://www.printables.com/model/117560-3d-printed-fabric-bag",
-      "https://www.printables.com/model/1458248-chain-mail-fabric-print-in-place",
-      "https://www.printables.com/model/816149-chainmail-fabric",
-      "https://www.printables.com/model/1470589-improved-nasa-chainmail-flexible-3d-printed-fabric",
-      "https://www.printables.com/model/385425-more-flexible-nasa-chainmail",
-      "https://www.printables.com/model/2566-printed-fabric-symmetric-no-bridges-no-supports",
-      "https://www.printables.com/model/544241-3d-printed-fabric",
-      "https://www.printables.com/model/503382-flexible-hexagonal-nasa-chainmail-tie-3-sizes",
-      "https://www.printables.com/model/618521-bionic-scale-mail-armor-chiton-inspired-highly-fle",
-      "https://www.printables.com/model/52358-chainmail-3d-printable-fabric-modified-for-prusa-m"
+      "https://api.printables.com/graphql/"
     ]
   },
   "uncertain": [
