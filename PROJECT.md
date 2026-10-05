@@ -4,9 +4,9 @@
 > what has been decided, and where things currently stand.
 > **Every working session should read this first and update it before finishing.**
 
-**Last updated:** 2026-10-02
-**Current phase:** Phase 0 — Research (runs 1 and 2 done; run 2, 323 types in 26 families, waiting for the owner's review)
-**Next action:** Owner reviews run 2: skim `research/connection-types/report.md` (index, with contents by family and by special behaviour) and the 26 family pages in `report/`, then `review-notes.md` (fixes needed before publishing). Confirm the families and fields. Then start run 3 (`research/prompts/03-flowchart-and-format.md`)
+**Last updated:** 2026-10-03
+**Current phase:** Phase 0 — Research (runs 1, 2 and 3 done; the scope was widened on 2026-10-03 (R22), adding 86 types in five new families (items 324-409) that still need researching; the owner's review of run 2's data and run 3's proposals is still open)
+**Next action:** Merge this branch into `main`, then research items 324-409 with the "Continuing run 2" prompt in `research/prompts/02-connection-types.md` (86 items, 29 agents). After that: apply the R22 notes additions to the researched entries they belong to (section 7 of `research/connection-types/scope-search-2026-10-03-combined.md`), then re-test run 3's finder tree with the new families. The owner's review of `research/flowchart-and-format.md` section 4 (proposals P1-P9) and the run 2 data can go on alongside; Phase 1 starts once those are agreed
 
 ---
 
@@ -47,13 +47,25 @@ connector** (even if it's made of several smaller parts). Examples of what's wan
   pressure, or suction (e.g. syringe hydraulics, air cylinders, valves, small pumps, soft
   pneumatic actuators, venturi vacuum generators), as types. Whole machines such as
   compressors stay out
+- **added 2026-10-03 (R22):** electrical connections (wire joints, terminals, connectors); standard
+  hardware *as types* (hose clamps, wall anchors, nails, pins and the like: one entry per type, not
+  catalogues); joining by heat (soldering, brazing, welding, welding prints together) as joint
+  types; rope, knots and sewn joints; mounting standards (tripod threads, camera and screen mounts);
+  pipe and plumbing joints; moving and adjusting basics (wheels, castors, levelling feet, shims,
+  adjusters); and ideas from the medical field that makers can reuse
 - **adhesive types**, by material and use (e.g. cyanoacrylate/superglue vs PVA wood glue vs
   two-part epoxy vs contact adhesive vs solvent cement). Types only, not brand lists
 
-**Out of scope (for now):** catalogues of standard hardware (manufacturers' ranges of
-screws, bolts, nuts, rivets, etc.), since other resources already cover them, and whole
-machines (e.g. a complete robot arm). Components like gearboxes and powered latches are in. Each family may have one generic "baseline" entry (e.g. "ordinary screw joint") so
-the flow chart has something to compare against. Standard hardware might be added later.
+**Out of scope (rewritten 2026-10-03, R22):** the test is that connection *types* are in, from any trade;
+what stays out is
+- catalogues of sizes and part numbers (manufacturers' ranges of screws, bolts, nuts and so on): link to them instead
+- whole machines and systems: robots, printer layouts, vehicles, compressors, wiring diagrams and circuit design
+- making processes that don't join anything (casting, moulding, machining technique)
+- projectile launchers
+- medical use: ideas from any field, medicine included, are in scope as connection types, described for non-medical maker use. Out of scope is guidance on using them on or in people for medical purposes. Where a maker version could be mistaken for a medical one, the entry carries a safety note
+
+Components like gearboxes and powered latches are in. Each family has at least one generic "baseline" entry
+(e.g. "ordinary screw joint") so the flow chart has something to compare against.
 
 **Build on what exists.** There are existing encyclopedias, wikis, digital libraries and repos
 that catalogue mechanisms. Find them first, link to them, reuse their classifications where
@@ -98,6 +110,8 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | R18 | 2026-09-26 | Keep all 274 items and all 41 fields; leave borderline types (electrical joints, plastic welding) out for now | Done: recorded in `research/connection-types/outline-notes.md` |
 | R20 | 2026-09-30 | Add a new family for fluid power, after being asked whether hydraulic and pneumatic circuits should now be in scope: key *hydraulics, pneumatics & vacuum*; add all 24 types a web search found; move the unresearched air items (283, 288, 289) into it and tag related researched entries; keep the `job` options as they are | Done 2026-10-02: outline updated to 323 items and 26 families; all researched |
 | R19 | 2026-09-29 | `/research-add-items` on run 2: add the three items the agents suggested (iris valve, twisted-and-coiled polymer muscle, Bernoulli gripper) and search the web for more. Owner then chose all 22 types the search found and three notes additions, but no *Motion conversion* baseline | Done 2026-10-02: outline updated to 299 items (275-299 new); all researched |
+| R21 | 2026-10-03 | Run 3 (`research/prompts/03-flowchart-and-format.md`): finder questions tested against the data (every path 3-10 entries, no dead ends), Mermaid flow chart, 10-20 real forum questions checked against it, existing selection tools, a 50+ term glossary, and a format and tech recommendation; then update PROJECT.md, commit and push | Done 2026-10-03: `research/flowchart-and-format.md`, test scripts in `research/finder-test/`. Proposals P1-P9 wait for the owner |
+| R22 | 2026-10-03 | Widen the scope after asking what connections are still missing (electrical wire joints, jubilee clips): add every group of near-scope types from the rundown (electrical connections; standard hardware as types; heat and fusion joining; rope, knots and sewn joints; mounting standards; pipe and plumbing joints; moving and adjusting basics; earlier near-misses) plus medical-field ideas a maker can repurpose; keep out what was suggested to keep the project focused; reword the medical rule | Done 2026-10-03: scope and medical rule recorded; six web searches, one per group; the owner confirmed all 86 types (items 324-409), five new families (31 in all), a finder answer for electrical entries instead of a new `job` option, and no new field. Outline, research rules, prompt and notes updated. Researching the new items is next |
 
 ---
 
@@ -107,7 +121,7 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 |------|----------|-----|
 | 2026-09-25 | The status doc lives in the repo (`PROJECT.md`) | Future Claude sessions can read and update it automatically |
 | 2026-09-25 | Research runs in stages: prior art → connection types → flow chart & format, then expand families as needed | One giant run would be shallow on every category and hard to review. Prior art comes first so the catalogue builds on existing collections (R9) |
-| 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family | Owner clarification (R10) |
+| 2026-09-25 | Scope is unusual/clever *types* that act as one unit. Standard hardware catalogues and whole machines are out, with at most one baseline entry per family. *Widened 2026-10-03 (R22): standard hardware types are now in; catalogues and whole machines stay out* | Owner clarification (R10) |
 | 2026-09-25 | Powered/active connectors and gear trains/gearboxes/transmissions are in scope (as types). Added a `power` finder field (passive / powered) | Owner clarification (R11) |
 | 2026-09-25 | Adhesive *types* are in scope, compared by material and use. Brand lists are out | Owner clarification (R12) |
 | 2026-09-26 | Families now include **locating & alignment** (kinematic couplings, elastic averaging, locators) and **springs / energy storage** | Suggested by run 1 (`research/prior-art/summary.md` 2.22-2.23), approved by owner (R13) |
@@ -121,6 +135,12 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-29 | Items added after run 2's first pass are appended as 275-299 (tier 1 types first, then tier 2, joinery last) instead of being slotted into the tiers | Keeps existing item numbers, report anchors and result file names unchanged |
 | 2026-09-29 | ~~Single fluid-power components (check valve, soft pneumatic actuator, pneumatic muscle, iris valve) are in scope; hydraulic and pneumatic *circuits* stay out~~ Superseded 2026-09-30 by the new family below | The second half was an assumption, not the owner's answer |
 | 2026-09-30 | Families are now 26: added **hydraulics, pneumatics & vacuum** (*Moves, holds or lets go using air or liquid pressure, or suction*), placed last so the existing report pages keep their numbers. Items 283, 288 and 289 moved into it; 12 researched entries list it in `other_families`. The fixed `job` options stay as they are for now | Owner (R20). Suction is in the name because beginners don't think of suction as pneumatics; changing `job` would make the 275 finished entries inconsistent, so it is left for run 3 to revisit |
+| 2026-10-03 | **Scope test:** connection *types* are in scope whatever the trade they come from, including standard hardware, electrical connections, heat joining, knots and sewing. Out: size and part-number catalogues, whole machines and systems, making processes that don't join, projectile launchers, and medical use | Owner (R22). Run 3's forum check and the owner's own examples (wire joints, jubilee clips, sewing a part on) showed the old exclusions left out connections makers ask about |
+| 2026-10-03 | **Medical rule:** ideas from any field, medicine included, are in scope as connection types, described for non-medical maker use. Out of scope is guidance on using them on or in people for medical purposes. Where a maker version could be mistaken for a medical one, the entry carries a safety note | Owner (R22): don't lose medical ideas that makers can repurpose (Luer locks, syringe pumps, prosthetic linkages are already in) |
+| 2026-10-03 | Families are now 31: added **electrical connections** (*Joins wires, or connects them to boards, batteries and devices*), **everyday fasteners & fixings** (*Screws, nails, pins, wall plugs and other hardware-shop fixings*), **knots, lashings & sewn joints** (*Tied, lashed, spliced or sewn with cord or thread*), **adjusters, levellers & spacers** (*Sets, fine-tunes or levels a position, height or gap, then holds it*) and **welding, brazing & soldering** (*Joins by melting: welds, brazes, solders and heat seals*), placed last so existing report pages keep their numbers. The cord family keeps its key; its label is now *Hardware for rope, cord, straps, fabric and leather*. Item 129 *Eccentric adjuster* moved into the adjusters family; 22 researched entries list a new family in `other_families` | Owner (R22), on the scope searches' advice: each new family shares one job and its own choice questions, and spreading these types over existing families would bury them (e.g. nails beside magnets). Pipe joints stay in *seals & pass-throughs* and mounting standards in existing families, because new families there would mean moving researched entries for few new ones |
+| 2026-10-03 | Items 324-409 are numbered in research priority (the five baselines, then tier 1, then tier 2), like the earlier additions | `/research-deep` works top to bottom, so the most useful entries are done first if a run is cut short |
+| 2026-10-03 | The 15 fixed `job` options stay. Electrical entries use existing options, and the finder gets a new first-question answer, "Connect wires or power", routed by family. No `electrical_rating` or `fits_standard` field: ratings go in `load` with a fixed lead-in, standards in aliases and text | Owner (R22). A new option or field would change what all the finished entries were written against (the validator needs every field in every file) |
+| 2026-10-03 | The R22 notes additions to already-researched entries (about 70) are applied in an update pass after items 324-409 are researched, not added to the outline now | The report shows outline notes as "Also covers"; adding them first would claim content the entries don't have yet |
 | 2026-09-29 | How `/research-deep` runs are driven: validate each agent's JSON files and commit and push them as soon as the agent finishes; after a usage-limit cut-off, keep files that validate and whose `uncertain` list matches their `[uncertain]` markers, and relaunch only unfinished items; collect agents' warnings in `review-notes.md` | The usage limit cut run 2 off six times; this lost no finished work. Written into the "Continuing run 2" prompt |
 | 2026-09-26 | The run 2 report drops unverified *sentences or list items* (marked `[uncertain]`), not whole fields; `--strict` gives run 1's behaviour | About 7 of 41 fields per entry carry a marker, often on one claim only; dropping whole fields would lose about a sixth of the content |
 | 2026-09-25 | Added a `special_behaviour` finder field (torque-limiting, self-locking, hand-release only, one-way, indexing, over-centre, …) and a `complexity` field | These behaviours are central to the scope and are what makers would search for |
@@ -130,6 +150,13 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-25 | Research uses **Weizhena/Deep-Research-skills**, copied into `.claude/skills/` with local path fixes (see `.claude/skills/research/VENDORED.md`) | It researches a list of items against a fixed set of fields and writes one validated JSON file per item. That's the shape of an encyclopedia and the data the finder will filter. `dev-tools:deep-research` is aimed at software product discovery |
 | 2026-09-25 | Starting fields are defined in `research/fields/*.fields.yaml`. The finder attributes (`motion`, `removability`, `reuse_cycles`, `tools_needed`, `seal`, `load`, `adjustable`, `processes`) use fixed answer options | These become the flow-chart filters |
 | 2026-09-25 | A SessionStart hook in `.claude/settings.json` installs `pyyaml` | The research validator needs it |
+| 2026-10-03 | The finder is tested by scripts in `research/finder-test/` (`normalise.py`, `tags.py`, `tree.py`, `gen_docs.py`); the flow charts and the list of every path are generated from the tested tree. Re-run them whenever the data or the questions change | Keeps the charts and the "3-10 entries, no dead ends" check true as entries are added |
+| 2026-10-03 | Reddit is read through the public Arctic Shift archive API, citing both the reddit.com link and the archive address actually read | reddit.com returns 403 in cloud sessions. The owner set up a self-hosted Redlib front end, but it is reachable only on the owner's private network (tailnet), not from cloud sessions |
+| 2026-10-03 | **Proposed, awaiting owner (P1):** finder asks the job first (9 plain answers), then 1-3 branch questions, then a shortlist with a tick-box panel showing counts and greying out empty options; "I'm not sure", Back and a search box throughout | Tested on all 323 entries: 115 paths, all 3-10 entries, none unreachable; 25 real forum questions: 17 reach a good answer, 7 partly, 1 out of scope (`research/flowchart-and-format.md` 1.2-1.7) |
+| 2026-10-03 | **Proposed (P2):** keep the 15 fixed `job` options; question 1 groups them into 9 answers | Answers the point left open on 2026-09-30: all 27 fluid-power entries are reachable without a new option |
+| 2026-10-03 | **Proposed (P3):** Phase 1 starts by making every finder field a fixed choice, and adding `connects`, `power_source`, `power_loss`, `motion_in`/`motion_out`/`shaft_layout`, `overload_response`, `clicks`, glue traits and materials, and `usual_process` | 83 of the finder's 153 answers currently rely on draft tags worked out from entry names; `load`, `tools_needed` and others are free text; `processes` lists every possible method, so it can't narrow anything |
+| 2026-10-03 | **Proposed (P4-P6):** site built with Astro + Starlight + Pagefind on GitHub Pages; one Markdown file per entry (front matter for finder and media, prose under fixed headings) made from the JSON by a script, JSON kept as the research record; finder is a plain-JavaScript page over generated `finder.json` and `finder-tree.json`, with the path test in CI | Astro reads one file per entry and checks it against a schema; Material for MkDocs is in maintenance mode; Netlify's free plan is too tight; Markdown entries also read well on GitHub (`research/flowchart-and-format.md` section 3) |
+| 2026-10-03 | **Proposed (P7-P9):** copy (not hotlink) public-domain, CC0, CC BY and CC BY-SA images with title, author, source and licence; CC BY-ND only unchanged; NonCommercial and all-rights-reserved material linked only. Diagrams as SVG per entry (CSS/SMIL animation), Mermaid, OpenSCAD, video loops instead of GIFs; link out to linkage simulators. Publish the 107-term glossary with first-use links | CC FAQ: NC works can't go into a collection licensed for commercial reuse; Commons advises against hotlinking; a GIF is several times larger than the same WebM/MP4 |
 
 ---
 
@@ -140,24 +167,33 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 - [x] **Run 1: prior art.** Existing encyclopedias, wikis, digital libraries, repos and books → `research/prior-art/`, including `summary.md` with a merged list of type names (54 collections done 2026-09-25; 6 joinery items added 2026-09-26)
 - [x] **Run 2:** connection & mechanism types (150+, unusual first, starting from run 1's list) → `research/connection-types/` (323 types in 26 families, 41 fields each; first 274 done 2026-09-29, the rest 2026-10-02)
   - [x] Research the items added on 2026-09-29 and 2026-09-30 (items 275-323, R19 and R20) and regenerate the report (done 2026-10-02)
+  - [x] Widen the scope (R22): six web searches; 86 types and five new families added to the outline as items 324-409 (done 2026-10-03)
+  - [ ] Research items 324-409 and regenerate the report (31 family pages)
+  - [ ] Update pass: apply the R22 notes additions to the researched entries (section 7 of `scope-search-2026-10-03-combined.md`)
+  - [ ] Re-test run 3's finder tree (`research/finder-test/`) with the new families
 - [ ] Review run 2 with the owner. Confirm the families and fields
-- [ ] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md`
+- [x] **Run 3:** flow-chart questions, glossary, format/tech recommendation → `research/flowchart-and-format.md` (done 2026-10-03; test scripts in `research/finder-test/`)
+- [ ] Owner reviews run 3's proposals P1-P9 (`research/flowchart-and-format.md` section 4)
 - [ ] Expand families where there are gaps (`research/prompts/expand-a-family.md`)
 
 ### Phase 1 — Content skeleton
-- [ ] Settle the entry format (fields every entry has)
+- [ ] Settle the entry format (fields every entry has). Proposed: one Markdown file per entry with front matter (P5)
+- [ ] Make every finder field a fixed choice and add the new finder fields (P3); a script proposes values, then check them family by family
+- [ ] Write the JSON → Markdown conversion script (drops `[uncertain]` sentences from the page, keeps them in the JSON)
 - [ ] Create entries from the taxonomy, each with plain name, proper term, aliases, short description, attributes, and links to outside resources with images
+- [ ] Glossary page (107 terms) with first-use links from entries (P9)
 
 ### Phase 2 — Flow chart / finder
-- [ ] Turn the flow-chart questions into a working guided finder (static and free to host)
-- [ ] Every answer path ends on a shortlist of entries
+- [ ] Turn the flow-chart questions into a working guided finder (static and free to host). Proposed: plain JavaScript over `finder.json` and `finder-tree.json` (P6)
+- [ ] Every answer path ends on a shortlist of entries (tested in the draft: 115 paths, all 3-10; keep the test in CI)
 
 ### Phase 3 — Publish
-- [ ] Host the site (e.g. GitHub Pages) and add a contribution guide
+- [ ] Host the site (e.g. GitHub Pages) and add a contribution guide. Proposed: Astro + Starlight + Pagefind on GitHub Pages (P4)
+- [ ] Add a LICENSE file (CC BY-SA for content; a code licence still to choose)
 
 ### Phase 4 — Diagrams & animations
-- [ ] Simple diagrams (SVG) for each entry
-- [ ] Animations for moving connections (hinges, linkages, compliant mechanisms, …)
+- [ ] Simple diagrams (SVG) for each entry, starting from each entry's `diagram_idea` (P8)
+- [ ] Animations for moving connections (hinges, linkages, compliant mechanisms, …): CSS/SMIL on SVG, or OpenSCAD frames as WebM/MP4
 
 ---
 
@@ -166,13 +202,16 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | Run | Prompt | Skill | Output | Status |
 |-----|--------|-------|--------|--------|
 | 1 | `research/prompts/01-prior-art.md` | `/research` → `/research-deep` → `/research-report` | `research/prior-art/` (`outline.yaml`, `fields.yaml`, 54 `results/*.json`, `report.md`, `summary.md`) | Done 2026-09-25; joinery top-up 2026-09-26. 60 of 60 items researched and validated (34 fields each) |
-| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | Done 2026-10-02. **323 of 323 items researched and validated** in 26 families (41 fields each; about 24 sources per entry): 274 by 2026-09-29, then 25 added on 2026-09-29 (items 275-299, `gap-search-2026-09-29.md`) and the new *hydraulics, pneumatics & vacuum* family on 2026-09-30 (items 300-323, `fluid-power-search-2026-09-29.md`), researched 2026-09-29 to 2026-10-02. Report: `research/connection-types/report.md` (index; contents show family, special behaviour and motion) + `report/` (26 family pages). Unverified sentences (marked `[uncertain]`, on average 6 of 41 fields per entry) are left out of the report but kept in the JSON. Fixes needed before publishing are in `review-notes.md`. The usage limit cut agents off six times by 2026-09-29, and on 2026-10-02 the owner paused the run before the limit and it resumed after the reset; each time, files the agents had already written were checked and only unfinished items were relaunched |
-| 3 | `research/prompts/03-flowchart-and-format.md` | normal session | `research/flowchart-and-format.md` | Not started (needs run 2) |
+| 2 | `research/prompts/02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | `research/connection-types/` (`outline.yaml`, `fields.yaml`, `outline-notes.md`, `preferred-sources.md`, `review-notes.md`, `results/*.json`, `generate_report.py`) | **Reopened 2026-10-03 (R22): 86 items added as items 324-409, with five new families (31 in all; `scope-search-2026-10-03-*.md`); 323 of 409 researched.** Done 2026-10-02. **323 of 323 items researched and validated** in 26 families (41 fields each; about 24 sources per entry): 274 by 2026-09-29, then 25 added on 2026-09-29 (items 275-299, `gap-search-2026-09-29.md`) and the new *hydraulics, pneumatics & vacuum* family on 2026-09-30 (items 300-323, `fluid-power-search-2026-09-29.md`), researched 2026-09-29 to 2026-10-02. Report: `research/connection-types/report.md` (index; contents show family, special behaviour and motion) + `report/` (26 family pages). Unverified sentences (marked `[uncertain]`, on average 6 of 41 fields per entry) are left out of the report but kept in the JSON. Fixes needed before publishing are in `review-notes.md`. The usage limit cut agents off six times by 2026-09-29, and on 2026-10-02 the owner paused the run before the limit and it resumed after the reset; each time, files the agents had already written were checked and only unfinished items were relaunched |
+| 3 | `research/prompts/03-flowchart-and-format.md` | normal session (3 web-research agents: forum questions, selection tools, site tech) | `research/flowchart-and-format.md`, `research/finder-test/` (scripts, `paths.md`, `mermaid.md`) | Done 2026-10-03. Finder tested on all 323 entries: 115 answer paths, all ending on 3-10 entries (5.9 on average), none unreachable; 25 real forum questions checked against it (17 good, 7 partly, 1 out of scope). 107-term glossary. Recommends Astro + Starlight + Pagefind on GitHub Pages. Proposals P1-P9 wait for the owner |
 
 ---
 
 ## 6. Open questions
 - Domain for the published site? (Working title: *The Encyclopaedia of Connections*; no final name or domain yet)
+- Run 3's proposals P1-P9 (`research/flowchart-and-format.md` section 4): agree, change or reject each
+- Licence for the site's code (scripts, finder, layouts)? CC BY-SA covers content only; MIT is the usual choice for code
+- Who checks the new finder tags (about 10 values for each of 409 entries)? A script can propose them; each family needs a review
 
 ---
 
@@ -201,3 +240,5 @@ Everything the owner has asked for, in order. Don't delete entries. Mark them do
 | 2026-09-30 | Checked with the owner that every question asked in this session had a recorded answer. The only open point was run 1's rule that hydraulic and pneumatic circuits are out of scope (my earlier decision entry had assumed it still held). Owner chose a new family (R20): a web-search agent found 24 types for it (Wikipedia fluid-power categories, Thang's hydraulic, pneumatic and pump sections, maker sources, HSE safety guides), all added as items 300-323; 283, 288 and 289 moved in; 12 researched entries tagged. Search results and near-misses saved in `research/connection-types/fluid-power-search-2026-09-29.md`; research rule, preferred-sources pointer, review notes (family safety box, `job` field) and the "Continuing run 2" prompt updated |
 | 2026-10-02 | Run 2 finished. A separate session the owner started with the "Continuing run 2" prompt (09:04-10:40 UTC) and researched items 276-311 and 315, then paused at the owner's request before the usage limit. This session was scheduled (at the owner's request) to resume at 8:45pm the owner's time (UTC+7, 13:45 UTC) after the reset; it checked item 315 (complete, kept) and researched the last 11 items (312-314, 316-323). All 323 entries validate, every `[uncertain]` field is listed in its `uncertain` array, and families match the outline. `/research-report` regenerated the report (323 items, 26 family pages; the new family's page is the largest at about 760 KB). Review notes added for items 316-323 and the *Anti-twister* entry |
 | 2026-10-03 | Owner saw several days missing from this session's chat; they reappeared after the next message, so it was a display problem in the app, not lost work. While checking the session records, found that the work of 29 Sept (10:22-10:39 UTC) and 2 Oct (09:04-10:40 UTC) ran in separate sessions the owner started with the "Continuing run 2" prompt, and corrected the two session-log entries above that called those sessions copies of this one |
+| 2026-10-03 | Run 3 (R21) in this session. Normalised the finder fields of all 323 entries and tested question trees against them with scripts (`research/finder-test/`): the first draft (job, then one question) had 66 paths, 32 of them over 10 entries; the final tree has 115 paths, all ending on 3-10 entries (5.9 on average), every entry reachable. Three web-research agents collected 25 real forum questions (Reddit read through the Arctic Shift archive, since reddit.com is blocked and the owner's tailnet-only Redlib can't be reached from cloud sessions), 20 selection tools, and current facts on site generators, hosting, finder libraries, diagram tools and image licensing. The forum check led to five tree fixes; final result 17 good, 7 partly, 1 out of scope, plus a list of gap types. Wrote `research/flowchart-and-format.md` (finder design and test, 9 generated Mermaid charts checked by rendering, forum check, tools to borrow from, 107-term glossary, format and tech recommendation, proposals P1-P9). Pushed a draft first while the forum agent was still running, then the finished version |
+| 2026-10-03 | R22 in this session. The owner asked how far the scope could go (electrical wire joints and jubilee clips were missing), then about medical ideas; the scope test and a reworded medical rule were recorded, with two research rules. Six web-search agents, one per near-scope group, checked candidates against all 323 result files; the usage limit stopped all six once, and after the reset they were relaunched with a rule to save their findings as they went. One combined list went to the owner, who confirmed all of it: 86 types (items 324-409), five new families, a finder answer for electrical entries, no new `job` option or field. Outline (409 items, 31 families), five more research rules, the "Continuing run 2" prompt, outline notes, preferred sources and review notes updated; item 129 moved and 22 researched entries tagged; the six search write-ups and the combined list saved as `research/connection-types/scope-search-2026-10-03-*.md`. The 323 existing result files still validate. Opened PR #8 (run 3 and R22) into `main` at the owner's request |

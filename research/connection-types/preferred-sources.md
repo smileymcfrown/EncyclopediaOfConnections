@@ -13,6 +13,14 @@ For items 275-299 (added 2026-09-29), `gap-search-2026-09-29.md` lists the pages
 agent opened for each item; use them as a starting point.
 For the *hydraulics, pneumatics & vacuum* family (items 300-323, plus 283, 288 and 289),
 `fluid-power-search-2026-09-29.md` does the same.
+For items 324-409 (added 2026-10-03 with the wider scope and five new families), the six
+`scope-search-2026-10-03-*.md` files do the same, one per group; each starts with a table
+mapping its suggestions to item numbers. Good starting points they found for the new families:
+NASA-STD-8739.4A and SparkFun's wiring tutorials (electrical), the USDA *Wood Handbook* chapter 8
+"Fastenings" (hardware), Animated Knots and the FAA *Parachute Rigger Handbook* (knots and
+sewing; cite the *Ashley Book of Knots* through Wikipedia), Swagelok's thread identification
+guide MS-13-77 and HSE's welding and soldering fume guidance (heat and pipe). Each file lists the
+exact pages and what was read on them.
 
 ## Everything (check for every entry)
 | Source | What it gives an entry | Start here | Licence |

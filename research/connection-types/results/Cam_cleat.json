@@ -17,7 +17,8 @@
       "one-way & ratchet",
       "self-locking & anti-back-drive",
       "quick-release & tool-free",
-      "tensioning, reels & take-up"
+      "tensioning, reels & take-up",
+      "knots, lashings & sewn joints"
     ],
     "one_liner": "A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.",
     "complexity": "A small assembly that acts as one unit: a base plate with two pivot posts; two toothed cams (jaws, which Harken calls pawls); one or two torsion springs per cam; and, on better cleats, ball bearings (Harken's standard 150 uses 66 small Delrin balls in three rows), washers and cam caps. Often fitted with add-ons: a fairlead (guide loop) over the jaws, a riser or a 15° wedge. Some designs gear the two cams together so they open and close as a mirrored pair (US 4,620,499).",

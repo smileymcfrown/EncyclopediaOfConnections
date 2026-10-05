@@ -117,19 +117,20 @@ session log), then commit and push.
 ## For you (not part of the prompt)
 
 **Use this when** the outline has items that aren't researched yet, for example after
-`/research-add-items`. It was last used for items 276-323 (finished 2026-10-02), so run 2 is
-complete for now. Next time, change the item numbers in the prompt and in "What to expect".
+`/research-add-items`. It was used for items 276-323 (finished 2026-10-02). It is now set up for
+items 324-409, added on 2026-10-03 with the wider scope (R22). Next time, change the item
+numbers in the prompt and in "What to expect".
 
 **Steps**
 1. Make sure everything is merged into `main`, then start a new Claude Code session on this repo.
 2. Copy **everything inside the box** below, paste it as your first message and send it.
 
 **What to expect**
-- 48 items at 3 per agent is 16 agents: batches of 6, 6 and 4. `/research-deep` skips every
-  item that already has a results file.
+- 86 items at 3 per agent is 29 agents: batches of 6, 6, 6, 6 and 5. `/research-deep` skips
+  every item that already has a results file.
 - If the usage limit stops the agents, wait for it to reset and say "continue". Files written
   before the cut-off are checked and kept if complete.
-- At the end it regenerates the report (now 26 family pages), updates PROJECT.md and opens a
+- At the end it regenerates the report (now 31 family pages), updates PROJECT.md and opens a
   pull request.
 
 ## The prompt
@@ -138,15 +139,17 @@ complete for now. Next time, change the item numbers in the prompt and in "What 
 /research-deep
 
 Continue run 2 of research/connection-types/outline.yaml. The items still to
-do are 276-299 (added 2026-09-29) and 300-323 (the new "hydraulics, pneumatics
-& vacuum" family, added 2026-09-30); /research-deep skips items that already
-have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
+do are 324-409, added 2026-10-03 with the wider scope (R22) and five new
+families; /research-deep skips items that already have a results file. Keep
+batch_size 6 and items_per_agent 3 from the outline.
 
-- Research agents follow fields.yaml (the research_rules). For these items
-  they should start from the pages listed in
-  research/connection-types/gap-search-2026-09-29.md (items 276-299) and
-  research/connection-types/fluid-power-search-2026-09-29.md (items 300-323
-  and 283, 288, 289), opening each page themselves before citing it.
+- Research agents follow fields.yaml (the research_rules), including the
+  rules for electrical connections (no mains instructions; the fixed rating
+  lead-in in `load`), heat joining, knots and mounting standards. For these
+  items they should start from the pages listed in the six
+  research/connection-types/scope-search-2026-10-03-*.md files (each starts
+  with a table mapping its suggestions to item numbers), opening each page
+  themselves before citing it.
 - After each agent finishes: validate its JSON files with
   .claude/skills/research/validate_json.py, then commit and push, so progress
   isn't lost if the session ends.
@@ -158,11 +161,13 @@ have a results file. Keep batch_size 6 and items_per_agent 3 from the outline.
   conflicting figures, errors in sources) to
   research/connection-types/review-notes.md.
 
-When all 323 items are done: run /research-report with family,
+When all 409 items are done: run /research-report with family,
 special_behaviour and motion in the table of contents (the existing
 research/connection-types/generate_report.py already does this). Then update
-PROJECT.md: tick the roadmap item for the items added on 2026-09-29 and
-2026-09-30, update the research-runs row, current phase, next action (owner
-reviews run 2, then run 3) and session log. Commit, push and open a pull
-request into main.
+PROJECT.md: tick the roadmap item for the items added on 2026-10-03, update
+the research-runs row, current phase, next action (the notes-additions update
+pass for existing entries, listed in section 7 of
+research/connection-types/scope-search-2026-10-03-combined.md, then re-test
+the finder tree) and session log. Commit, push and open a pull request into
+main.
 ```

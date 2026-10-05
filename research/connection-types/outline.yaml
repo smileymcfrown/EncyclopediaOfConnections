@@ -544,7 +544,7 @@ items:
     description: A pulley or roller pushed against a belt or chain by a spring or screw to keep it tight as it stretches
   # 129
   - name: Eccentric adjuster (eccentric nut, spacer or bushing)
-    category: tensioning, reels & take-up
+    category: adjusters, levellers & spacers
     description: An off-centre spacer or bushing that moves a wheel, pulley or shaft sideways as you turn it, for setting tension or taking up play
   # 130
   - name: O-ring seal
@@ -1392,6 +1392,446 @@ items:
     category: hydraulics, pneumatics & vacuum
     description: A bell-shaped cap over a standpipe that starts siphoning when the water reaches the top and stops when air gets in, so a grow bed or tank floods and drains by itself with no moving parts
 
+  # ==================== ADDED 2026-10-03 (R22): wider scope, five new families ====================
+  # 86 types from six web searches, one per near-scope group (scope-search-2026-10-03-*.md), each
+  # checked against all 323 result files. In priority order: the five new families' baselines first
+  # (324-328), then tier 1 (329-345, joinery last), then tier 2 (346-409). Item 129 moved into
+  # 'adjusters, levellers & spacers' at the same time.
+  # Research rules for these families (mains safety, electrical rating bands, heat-work safety,
+  # knots grouped by job) are in fields.yaml.
+  # 324
+  - name: Soldered wire joint (soldered splice)
+    category: electrical connections
+    description: Two wires, or a wire and a pin or pad, are twisted, hooked or laid together and melted solder flows between them, making a permanent joint that conducts well but needs heat, skill and strain relief
+    notes: "Baseline entry for the family. Also covers the Western Union (lineman's), lap, lash, rat-tail and T-splices, solder cups, tinning, and covering the joint with heat-shrink. Soldering metal parts (not wires) is Soldered metal joint. Safety: high heat and possibly toxic solders; stiff solder joints break under vibration; tape-only or soldered splices are not allowed in mains wiring by most North American codes"
+  # 325
+  - name: Wood screw (including coach screw and Confirmat screw)
+    category: everyday fasteners & fixings
+    description: A pointed, coarse-threaded screw that cuts its own thread in wood or board and pulls the parts together under its head; the ordinary way to fix wood to wood
+    notes: "Baseline entry for the family. Also covers pilot and clearance holes, countersinking, coach (lag) screws, chipboard, drywall and deck screws, and the Confirmat screw used in flat-pack furniture. Also list interlocking joints & joinery in other_families"
+  # 326
+  - name: Basic knots (overhand knot, half hitch, reef knot)
+    category: knots, lashings & sewn joints
+    description: The few knots most people half-know, the overhand, the half hitch, and the reef (square) knot with its slipped bow form for shoelaces, used as the baseline the other knot entries are compared with
+    notes: "Baseline entry for the family. Also covers what knots do to rope strength (sources differ: record them side by side), how knots slip, capsize or jam, and why the reef knot must never join two ropes. Safety: knots are not for climbing, lifting or holding people without training and rated gear"
+  # 327
+  - name: Shims, spacers and standoffs (packing, spacer washer)
+    category: adjusters, levellers & spacers
+    description: Thin packing pieces, washers or tubes put between parts to fill a gap, set a height or spacing, or lift a circuit board clear of a surface; the simplest way to adjust a fit
+    notes: "Baseline entry for the family. Also covers shim stock and peel shims, spacer washers, threaded standoffs for circuit boards and panels, and printed spacers. Tapered shims and folding wedges stay in Self-locking wedge. Also list locating & alignment in other_families"
+  # 328
+  - name: Welded metal joint (fusion welding; stick, MIG, TIG and gas welding)
+    category: welding, brazing & soldering
+    description: The edges of two metal parts are melted together, usually with added filler metal, by an electric arc or a gas flame, so that they cool as one piece of metal
+    notes: "Baseline entry for the family. One entry, with the processes compared in it (MIG easiest to learn, stick cheapest, TIG for thin metal and aluminium, flux-cored for outdoors, gas welding), the five basic joints (butt, lap, corner, edge, T), tack welds and forge welding. Safety: arc light burns eyes and skin, fire, harmful fumes and electric shock"
+  # ---- tier 1 ----
+  # 329
+  - name: Battery holder and battery contacts (spring battery contact, coin-cell holder)
+    category: electrical connections
+    description: A box or clip that holds cells and presses metal contacts, a coiled spring at one end and a flat or springy tab at the other, onto the battery ends, so cells can be swapped without soldering
+    notes: "Also covers leaf-spring contacts, coin-cell holders, the 9 V battery snap, reverse-polarity protection and printed holders with bought springs. Cells joined into packs with nickel strip are Spot weld. Safety: shorted, crushed or overheated lithium cells cause fires; printed plastic springs relax, so use metal contact springs. Also list springs & energy storage in other_families"
+  # 330
+  - name: Pogo pin (spring-loaded contact pin)
+    category: electrical connections
+    description: A tiny gold-plated plunger in a tube with a spring behind it, which presses onto a flat pad to make contact without plugging in, for charging docks, test and programming jigs, and parts that dock together
+    notes: "Also covers target pads, bed-of-nails test jigs, leaf-spring contact fingers, elastomeric (zebra) strips and blind-mate connectors. Also list springs & energy storage in other_families"
+  # 331
+  - name: Magnetic connector (magnetic pogo connector, magnetic breakaway power connector)
+    category: electrical connections
+    description: Spring-loaded contact pins and flat pads with magnets either side that pull the two halves together, line them up and let go safely if the cable is yanked
+    notes: "Also covers magnets placed so a wrongly turned plug repels, and DIY magnetic connectors for modular robots and wearables. MagSafe (brand) as an alias. Safety: small strong magnets can be swallowed. Also list clamping, magnetic & friction connections and quick-release & tool-free in other_families"
+  # 332
+  - name: Screw-in threaded insert (wire thread insert, self-tapping insert)
+    category: print-in-place & 3D-printing joints
+    description: A threaded sleeve, or a coil of diamond-section wire, screwed into a hole to give a strong, reusable machine-screw thread in soft or brittle material such as resin prints, wood or aluminium, or to repair a stripped thread
+    notes: "Also covers helical wire inserts (Helicoil (brand)) and self-tapping inserts for resin prints, where heat-set inserts can't be used. Also list everyday fasteners & fixings in other_families"
+  # 333
+  - name: Sew-on part (sewing holes, loops and slots on a rigid part)
+    category: knots, lashings & sewn joints
+    description: Small holes, loops, slots or a thin flange designed into a rigid part, often a 3D print, so it can be stitched to fabric, straps or a costume with needle and thread, like a sew-on button or badge
+    notes: "Also covers sewn-on snaps and hooks, holes through a thickened edge, hot-needle piercing, and the alternatives makers compare it with (hot glue, contact adhesive, hook-and-loop). Also list print-in-place & 3D-printing joints and cord, strap, webbing & textile hardware in other_families"
+  # 334
+  - name: Stopper knots and cord-end anchors
+    category: knots, lashings & sewn joints
+    description: Ways to stop the end of a cord, string, elastic or thin cable pulling out through a hole in a part, with a bulky knot behind the hole or in a pocket, a crimped stop, a clamp under a screw head, or turns round a post
+    notes: "Also covers the overhand, figure-eight and larger stopper knots, counterbored knot pockets, washers behind the hole, and clamping string under a bolt in robots. Also list print-in-place & 3D-printing joints and cord, strap, webbing & textile hardware in other_families"
+  # 335
+  - name: Printing onto fabric (fabric embedded in a 3D print)
+    category: print-in-place & 3D-printing joints
+    description: The print is paused after the first few layers, a thin open mesh such as tulle is stretched over it, and the rest is printed so the plastic flows through the holes and locks the fabric in, for flexible scale armour, hinged panels or a print with a fabric skirt
+    notes: "Also covers which meshes work, gaps between printed scales as hinges, and holding the mesh flat. Origami mechanisms uses the same method as a hinge layer. Safety: synthetic fabrics melt; watch the first layers after resuming. Also list knots, lashings & sewn joints in other_families"
+  # 336
+  - name: Locking adjustment screws (push-pull screws, spring-loaded levelling screws)
+    category: adjusters, levellers & spacers
+    description: Screws that set the tilt, height or end position of a part and then hold it there; one screw pushes while its partner or a spring pulls, so the part is clamped firmly at the chosen setting, as in telescope mirror cells and 3D-printer bed levelling
+    notes: "Also covers adjustable stop screws with lock nuts and three-point levelling. Also list locating & alignment in other_families"
+  # 337
+  - name: Ball caster (ball transfer unit)
+    category: hinges & pivots
+    description: A large ball resting on small balls or rollers in a cup, so a load can roll in any direction without turning first; used ball-down as the third wheel of small robots and ball-up in tables that heavy things slide across
+    notes: Also covers printed ball casters for small robots. Also list sliding, telescoping & linear motion in other_families
+  # 338
+  - name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+    category: seals & pass-throughs
+    description: Ways to carry wires, a ribbon cable or a tube across a hinge or a pivot that turns less than a full turn without pinching or breaking them, through a hollow pin or shaft, along the pivot axis, or as a slack loop or wrapped flat cable
+    notes: "Also covers hollow-shaft friction hinges, service loops and spiral flat cables (clocksprings) for a few turns. Safety: wire flexed again and again breaks inside its insulation, giving intermittent faults or shorts. Also list hinges & pivots and electrical connections in other_families"
+  # 339
+  - name: Expanding internal grip (expanding mandrel, inside gripper)
+    category: clamping, magnetic & friction connections
+    description: A plug or a set of fingers pushed into a hole, ring or tube that grows outward to grip it from the inside and shrinks again to let go, driven by a cone or wedge, a screw-driven linkage or an inflated bladder
+    notes: "Also covers expanding mandrels for turning, robot inside grippers and bladder grippers. Safety: a powered inside gripper can drop its part when pressure or power is lost. Also list powered & active connectors in other_families"
+  # 340
+  - name: Printed chainmail and tile fabric (print-in-place interlinked fabric)
+    category: print-in-place & 3D-printing joints
+    description: A flat sheet of small links or tiles printed already linked together, so it bends and drapes like cloth in every direction, for cosplay armour, flexible covers, bag panels and fidget toys
+    notes: "Also covers link thickness and strength, joining printed panels, and supportless designs. Not real armour. Also list compliant mechanisms & flexures in other_families"
+  # 341
+  - name: Strut hub (geodesic dome hub, space-frame node)
+    category: clamping, magnetic & friction connections
+    description: A connector that joins three to six sticks, dowels, tubes or wooden struts at set angles in one node, to build domes, frames and trusses from straight pieces
+    notes: "Also covers printed hubs for sticks, skewers and timber, flattened-and-bolted conduit domes, and ball nodes in space frames. Safety: don't climb on or load printed hubs. Also list interlocking joints & joinery in other_families"
+  # 342
+  - name: Melted plastic weld (plastic welding with a soldering iron, 3D pen or hot-air gun)
+    category: welding, brazing & soldering
+    description: Two plastic parts are joined by melting their edges together and running in a bead of the same plastic as filler, using a soldering iron, a 3D pen, or a hot-air welder with a welding rod
+    notes: "Also covers soldering-iron welding with filament as filler, melting in staples or mesh across cracks, hot-air and extrusion welding, and matching the filler to the plastic. The fix for PE and PP, which glues and solvents can't join. Safety: burns, fire and plastic fumes; keep a separate iron tip for plastic. Also list print-in-place & 3D-printing joints and seals & pass-throughs in other_families"
+  # 343
+  - name: Friction-welded plastic (rotary-tool friction welding, spin welding)
+    category: welding, brazing & soldering
+    description: A piece of filament spun in a rotary tool, or a round part spun against another, rubs until friction melts the plastic and the parts fuse into one
+    notes: "Also covers spin welding round parts on a drill press, and industrial vibration and metal friction welding as one-line mentions. Safety: eye protection, friction burns. Also list print-in-place & 3D-printing joints in other_families"
+  # 344
+  - name: Heat-sealed seam (heat-sealed plastic film and coated fabric)
+    category: welding, brazing & soldering
+    description: Two layers of plastic film, or fabric coated with plastic such as TPU-coated nylon, are pressed together with a hot bar, an iron or a heated wire until the plastic melts into an airtight, waterproof seam
+    notes: "Also covers impulse sealers, sealing with an iron through a release sheet, printer-nozzle sealing of soft-robot pouches, and RF and hot-air welding of tarps as mentions. Safety: burns and fumes, especially with PVC. Also list seals & pass-throughs, hydraulics, pneumatics & vacuum and cord, strap, webbing & textile hardware in other_families"
+  # 345
+  - name: Tensegrity (floating struts held by cords)
+    category: interlocking joints & joinery
+    description: A structure in which rigid struts don't touch each other and are held in place only by tensioned cords or chains, used for floating tables, shelves and sculptures
+    notes: "Also covers the three-strut prism and print-in-place tensegrity models with built-in tensioners. Its nearest relative is Reciprocal frame. Safety: it collapses suddenly if a cord breaks, so keep loads light. Also list tensioning, reels & take-up in other_families"
+  # ---- tier 2 ----
+  # 346
+  - name: Wire-to-board plug connectors (pin header and crimp housing)
+    category: electrical connections
+    description: Rows of small metal pins on a board, with a plastic plug of crimped sockets on the wires that pushes on, often latched and shaped so it fits only one way; the small plugs on servos, sensors, 3D-printer boards and battery balance leads
+    notes: "Also covers pin pitch (look-alike pitches don't mate), shrouded headers, crimp contacts and their tools, jumper wires and solderless breadboards, stacking headers, card-edge connectors and IC sockets. Dupont, JST and Molex (brands) as aliases. Safety: low current only; reversed plugs can damage boards. Also list quick-release & tool-free in other_families"
+  # 347
+  - name: Crimp terminals (ring, fork and spade terminals, blade quick-disconnect)
+    category: electrical connections
+    description: A metal end squeezed onto a stripped wire with a crimping tool, ending in a ring or fork that goes under a screw, or a flat blade or sleeve that pushes onto a tab
+    notes: "Also covers insulated and bare types, the colour code for wire size, open- and closed-barrel crimps, the insulation crimp for strain relief, bullet terminals, earth ring terminals and heavy cable lugs. Safety: the wrong tool or size pulls out; poor joints heat up and can start fires"
+  # 348
+  - name: Crimped butt splice (crimp splice connector)
+    category: electrical connections
+    description: A short metal tube, usually inside a plastic or heat-shrink sleeve; one wire goes in each end and both are squeezed with a crimping tool, joining two wires end to end with no heat
+    notes: "Also covers glue-lined heat-shrink butt splices, parallel and closed-end splices, and why a good crimp is gas-tight. Safety: the wrong tool or size gives pull-outs; pull-test every crimp"
+  # 349
+  - name: Spring-clamp wire connector (lever connector, push-in wire connector)
+    category: electrical connections
+    description: A spring inside a clear plastic body grips each stripped wire; lift a lever, or just push a solid wire in, and the spring sets the clamping force itself, so it never needs tightening and can be undone and reused
+    notes: "Also covers PCB spring terminals, spring speaker terminals, the historic Fahnestock clip, and which wire types suit push-in and lever types. Wago and Lever-Nuts (brands) as aliases. Safety: mains use must follow local law. Also list quick-release & tool-free in other_families"
+  # 350
+  - name: Screw terminal (terminal block, barrier strip, connector strip)
+    category: electrical connections
+    description: A stripped wire is clamped by tightening a screw, directly under its head or under a plate, on boards, power supplies and connector strips, so wires can be undone later with a screwdriver
+    notes: "Also covers clamping-plate and screw-head types, barrier strips with ring or fork terminals, pluggable terminal blocks, connector-strip enclosures and busbars. Chocolate block as an alias. Safety: never tin wire ends before clamping (solder creeps and the joint loosens and heats); screws loosen with vibration. Also list clamping, magnetic & friction connections in other_families"
+  # 351
+  - name: Wire-end ferrule (bootlace ferrule, end sleeve)
+    category: electrical connections
+    description: A thin metal tube, usually with a coloured plastic collar, crimped onto the end of a stranded wire so the strands can't splay apart in a screw or spring terminal
+    notes: "Also covers twin-wire ferrules, crimp shapes and colour codes. Safety: splayed strands make a poor, hot joint"
+  # 352
+  - name: High-current battery plug (bullet connector, polarised battery connector)
+    category: electrical connections
+    description: Chunky two-pin plugs with large contacts in a shaped, polarised housing that carry tens of amps between a battery, a speed controller and a charger in drones, RC models, robots and e-bikes
+    notes: "Also covers matching plug and wire to the current, anti-spark plugs, and sealed solar connectors and larger cousins. XT60, Deans (T-plug), Tamiya, EC3 and MC4 (brands) as aliases. Genderless power connectors stay in Genderless connector. Safety: reversed or shorted lithium packs burn; the plug and the wire must both suit the current"
+  # 353
+  - name: Heat-shrink tubing (heat-shrink sleeve, adhesive-lined heat-shrink)
+    category: electrical connections
+    description: A plastic tube slid over a joint before it is made; heating makes it shrink tightly round the joint, insulating it and protecting it from rubbing, and glue-lined types also seal out water
+    notes: "Also covers shrink ratio, materials, end caps, cold-shrink tubing, electrical tape, self-amalgamating tape, and mechanical uses (grips, sleeves, bundling). Safety: heat-gun burns. Also list seals & pass-throughs in other_families"
+  # 354
+  - name: Solder sleeve (solder-seal splice)
+    category: electrical connections
+    description: A clear heat-shrink tube with a ring of solder in the middle and rings of meltable glue at each end; heating it with a hot-air gun solders, insulates and seals a splice in one step, with no soldering iron
+    notes: "Also covers inspecting the joint through the clear tube. Safety: it is still soldering, so the same vibration and mains limits as Soldered wire joint apply"
+  # 355
+  - name: Standard plug-and-socket connector (USB, barrel jack, audio jack, RJ45)
+    category: electrical connections
+    description: A ready-made plug and socket built to a published standard, so cables and chargers from anywhere fit; you choose by what the other device already has, how often it will be plugged in, and whether it must latch or seal
+    notes: "One entry only: link to lists of the standards rather than describing each one. Also covers gender, panel, board and cable mounting, mating cycles, latching and sealed circular connectors, and look-alike barrel-jack sizes and polarity. Safety: reversed-polarity barrel plugs damage circuits. Also list quick-release & tool-free in other_families"
+  # 356
+  - name: Insulation-displacement connector (IDC, ribbon-cable plug, punch-down, T-tap)
+    category: electrical connections
+    description: A forked metal blade is pressed onto an insulated wire so it cuts through the plastic and grips the copper with no stripping, joining many ribbon-cable wires in one squeeze or tapping a new wire into an existing one
+    notes: "Also covers pin 1 marking on ribbon cable, punch-down blocks, RJ45 plugs, gel-filled splices and clip-on LED-strip connectors. Scotchlok (brand) as an alias. Safety: cheap fold-over taps chew through wire and fail; signal and small currents only"
+  # 357
+  - name: Binding post and banana plug (test-lead connector, crocodile clip)
+    category: electrical connections
+    description: A threaded post with a screw-down cap that clamps a bare wire, spade or plug, and the spring-pin banana plug that pushes into it, as on bench power supplies, meters and speakers; crocodile clips grab anything for a quick test
+    notes: "Also covers five-way posts, 4 mm and 2 mm plugs, stackable and shrouded safety plugs, test hooks and jump-lead clamps. Safety: ordinary binding posts aren't insulated for dangerous voltages; use shrouded plugs. Also list quick-release & tool-free in other_families"
+  # 358
+  - name: Twist-on wire connector (wire nut)
+    category: electrical connections
+    description: A plastic cap with a tapered metal coil inside, screwed by hand onto the twisted, stripped ends of two or more wires, pulling them together and insulating them; the usual splice in North American house wiring
+    notes: "Also covers gel-filled types for damp places. Marrette (brand) as an alias. Safety: describe the type only, with no mains instructions: mains work must follow local law; not certified in most European countries, not for vibrating or damp places unless gel-filled, and not generally recommended for aluminium wire"
+  # 359
+  - name: Conductive thread (sewn circuit, e-textile stitching)
+    category: electrical connections
+    description: Thread spun from stainless steel or silver-coated fibres, sewn through the holes of sew-on boards and battery holders so the stitches themselves are the wires in clothing, bags and soft toys
+    notes: "Also covers resistance per length, sealing knots, sew-on snaps as plug-and-unplug connectors, conductive fabric and washing. Safety: loose tails and crossing stitches short out, most often next to the battery holder. Also list knots, lashings & sewn joints and cord, strap, webbing & textile hardware in other_families"
+  # 360
+  - name: Conductive tape (copper foil tape, conductive fabric tape)
+    category: electrical connections
+    description: Thin copper or metal-coated fabric tape with a sticky backing, laid on paper, card or a print as flat wires that parts are taped, soldered or glued onto
+    notes: "Also covers whether the glue layer conducts (many cheap copper tapes don't), folding corners instead of cutting, and shielding. Also list adhesives & bonding in other_families"
+  # 361
+  - name: Conductive glue, paint and ink (electrically conductive adhesive, silver epoxy)
+    category: electrical connections
+    description: Glue, paint or ink filled with silver, copper, nickel or carbon particles that touch each other, to stick or paint a joint or track where solder won't work, on heat-sensitive parts, glass, paper, fabric or prints
+    notes: "Also covers resistance compared with solder (small currents only), PCB-track and rear-window heater repair, and conductive 3D-printing filament. Safety: solvent fumes in some paints; not for power wiring. Also list adhesives & bonding in other_families"
+  # 362
+  - name: Flat flexible cable and latching connector (FFC with ZIF connector)
+    category: electrical connections
+    description: A very thin plastic ribbon with flat copper strips whose bare end slides into a low-profile socket and is locked by flipping a tiny latch, used for cameras and displays and to carry many signals through hinges and moving heads
+    notes: "Also covers pitch, same-side and opposite-side contacts (which way up each end goes), stiffeners and latch types. Routing a cable across a pivot is Cable through a hinge. Also list seals & pass-throughs in other_families"
+  # 363
+  - name: Wire wrap (wire-wrapped connection)
+    category: electrical connections
+    description: Bare solid wire is wound tightly, about seven turns, round a square metal post with a small hand tool, so the post's corners bite into the wire and make a gas-tight joint that can be unwound and redone with no solder
+    notes: Also covers wire-wrap wire, long-post sockets and modified wraps for strain relief. Low voltage only
+  # 364
+  - name: Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
+    category: clamping, magnetic & friction connections
+    description: A metal band tightened round a hose or tube to squeeze it onto a spigot, also used as an all-purpose strap clamp for fixing things to poles and pipes
+    notes: "Also covers ear (crimp) clamps, spring clamps, T-bolt clamps, and rubber-sleeve (no-hub) drain couplings held by worm-drive bands. Jubilee clip (brand) as an alias. Hose barb keeps only a short retention summary. Safety: moderate pressures only; cut band ends are sharp; over-tightening cuts soft hose. Also list seals & pass-throughs and hydraulics, pneumatics & vacuum in other_families"
+  # 365
+  - name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
+    category: everyday fasteners & fixings
+    description: A short steel pin tapped into a hole drilled through both parts and held by its own springiness or a tight fit, so the parts can't turn or slide apart, as when pinning a gear or hub to a shaft (cross-pinning)
+    notes: "Also covers grooved and knurled pins, pin punches and choosing between solid and spring pins. Safety: wear eye protection when driving pins. Also list locating & alignment and clutches & couplings in other_families"
+  # 366
+  - name: Wall plug (expansion anchor for solid walls)
+    category: everyday fasteners & fixings
+    description: A plastic or fibre sleeve pushed into a drilled hole in brick, block or concrete that swells and grips the hole as a screw is driven in, so the screw holds in material too brittle or crumbly to take a thread
+    notes: "Also covers matching plug, drill and screw sizes, and masonry anchors as variants (wedge, sleeve, drop-in, chemical anchors and concrete screws). Rawlplug (brand) as an alias. Safety: check for hidden cables and pipes before drilling; heavy, overhead and tip-prone loads need rated anchors. Also list clamping, magnetic & friction connections in other_families"
+  # 367
+  - name: Hollow-wall anchors (toggle, molly, self-drilling plasterboard anchor)
+    category: everyday fasteners & fixings
+    description: Fixings for plasterboard, hollow doors and panels that spread out behind the board or bite into it, because a plain screw or plug would pull straight out of the thin, soft board
+    notes: "Also covers spring, gravity and strap toggles, winged plastic anchors and finding a stud instead. Safety: ratings fall sharply in thin or damp board and in ceilings; go by the maker's rating for the wall type. Also list clamping, magnetic & friction connections in other_families"
+  # 368
+  - name: Push-on edge trim (U-channel edging, grommet edging)
+    category: snap & clip fits
+    description: A rubber or plastic U-shaped strip with springy metal fingers or barbed ridges inside, pushed onto the edge of a sheet or panel so it grips with no glue, to cover a sharp edge, protect cables or hold a soft part onto a rim
+    notes: "Also covers choosing by panel thickness, bulb-seal edging and grommet strip for odd-shaped cut-outs. Also list clamping, magnetic & friction connections and seals & pass-throughs in other_families"
+  # 369
+  - name: Metal brackets and plates (angle bracket, mending plate, joist hanger)
+    category: everyday fasteners & fixings
+    description: Stamped steel brackets, straps and flat plates screwed or nailed across a joint to reinforce it or carry its load, such as corner braces, flat and T mending plates, joist hangers and framing ties
+    notes: "Also covers corrugated fasteners, toothed truss plates and furniture anti-tip ties. Safety: connectors only reach their rated load with the fastener type, size and number the maker specifies. Also list interlocking joints & joinery in other_families"
+  # 370
+  - name: Nails, brads and tacks (ring-shank nail)
+    category: everyday fasteners & fixings
+    description: A smooth or ridged steel pin hammered or fired into wood and held by friction and the wood fibres gripping it; quicker than a screw and good for sideways load, but it pulls out more easily
+    notes: "Also covers ring-shank and twisted nails, panel pins, brads and tacks, toe-nailing and clinching. Safety: eye protection when hammering; nail guns are a serious injury risk. Also list interlocking joints & joinery in other_families"
+  # 371
+  - name: Threaded rod and studs (all-thread, studding, hanger bolt)
+    category: everyday fasteners & fixings
+    description: A rod threaded all along, or at both ends, used with nuts as a long bolt, tie rod, axle or adjustable spacer; a stud screws into a tapped hole so a nut can clamp a part over it
+    notes: "Also covers hanger bolts (wood thread one end, machine thread the other) and printer frames built on threaded rod. Safety: plain plated rod is low-strength, so don't lift with it unless rated; dress cut ends. Also list clamping, magnetic & friction connections in other_families"
+  # 372
+  - name: Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
+    category: everyday fasteners & fixings
+    description: A bolt or screw with a closed loop or a hook on the end, fixed into a part or wall so a rope, cable, spring or hanging object can be attached to it
+    notes: "Also covers shouldered and plain eye bolts, and hook-and-eye pairs. Safety: plain eye bolts must not be loaded at an angle; bent-wire eyes open under load; never use unrated eyes or hooks for lifting people, climbing or swings. Also list cord, strap, webbing & textile hardware in other_families"
+  # 373
+  - name: Staples for wood and fabric (staple gun, hammer tacker, cable staple)
+    category: everyday fasteners & fixings
+    description: A U-shaped wire fastener driven by a staple gun or hammer tacker, whose crown bridges what it holds, which suits fixing fabric, mesh, film or cables flat onto wood
+    notes: "Also covers upholstery and hog-ring uses and insulated cable staples. Safety: staple guns fire like nail guns; never fix mains cable with plain staples. Also list cord, strap, webbing & textile hardware in other_families"
+  # 374
+  - name: Shackle and quick link (D-shackle, bow shackle, maillon)
+    category: cord, strap, webbing & textile hardware
+    description: A U-shaped metal link closed by a screw pin or bolt, or an oval link closed by a threaded sleeve, used to join chain, rope eyes, straps and anchor points; stronger than a hook because it closes fully
+    notes: "Also covers screw-pin and bolt-type shackles, mousing the pin, and the soft (rope) shackle as a link to Rope splices. Safety: use rated, marked shackles for any load that could hurt someone; don't side-load round-pin shackles. Also list everyday fasteners & fixings in other_families"
+  # 375
+  - name: Tamper-resistant fasteners (security screw, one-way screw, breakaway-head bolt)
+    category: locks, latches & catches
+    description: Screws and bolts with unusual drives that ordinary tools won't turn, or that can only be turned one way, to stop casual tampering with covers, battery boxes, signs and public fittings
+    notes: "Also covers pin-in-drive heads, shear nuts and when a printed cover needs one (child-proof battery boxes). Also list everyday fasteners & fixings in other_families"
+  # 376
+  - name: Wire-rope terminations (wire-rope clip, thimble, crimped sleeve)
+    category: cord, strap, webbing & textile hardware
+    description: Ways to make a loop or an end stop in steel wire rope, by bending it round a grooved thimble and holding the tail with U-bolt clips, or by squeezing a metal sleeve round both parts with a crimping tool
+    notes: "Also covers clip spacing, count and the dead-end rule (sources differ: record them side by side), crimped stops for robot tendons and pull-pull cables, and swaged and poured sockets as mentions. Bulldog grip as an alias. Safety: not for lifting people; overhead lifting needs rated terminations and inspection. Also list tensioning, reels & take-up in other_families"
+  # 377
+  - name: Load-bearing stitch patterns for straps and webbing (bar tack, box-X stitch)
+    category: knots, lashings & sewn joints
+    description: Dense stitch patterns used where a strap is sewn back on itself or onto a buckle, ring or another strap, such as a bar tack, a box with an X through it or a zigzag pattern, so the load spreads over many stitches
+    notes: "Also covers thread and needle choice and published test results (sources differ: record them side by side). Safety: never home-sew climbing slings, harnesses, tow or lifting straps. Also list cord, strap, webbing & textile hardware in other_families"
+  # 378
+  - name: Hitches to a post, rail, ring or eye (clove hitch, round turn and two half hitches)
+    category: knots, lashings & sewn joints
+    description: Knots that tie a line to something solid, such as a post, rail, ring, bolt or a hole in a part, and can be tied and undone without tools
+    notes: "Also covers the cow hitch (lark's head), timber hitch, horn-cleat hitch and the Palomar knot for slippery line. Also list cord, strap, webbing & textile hardware in other_families"
+  # 379
+  - name: Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik)
+    category: knots, lashings & sewn joints
+    description: Knots that let you pull a line tight and hold it, or slide a loop to adjust it, with no hardware, as in the trucker's hitch for lashing a load, the taut-line hitch for tent lines and the Prusik that grips another rope or a pole
+    notes: "Also covers the rolling hitch and adjustable grip hitch, and why slippery modern cords defeat friction hitches. Safety: friction hitches can let go suddenly; climbing uses need training and rated gear. Also list tensioning, reels & take-up in other_families"
+  # 380
+  - name: Eyelets and grommets (for fabric, leather and sheet)
+    category: cord, strap, webbing & textile hardware
+    description: A metal or plastic ring set into a hole in fabric, leather or thin sheet to reinforce it, so a cord, hook, lace or peg can pass through without tearing it
+    notes: "Also covers setting with a punch or press, washer types, self-piercing grommets and printed screw-together grommets. Rubber cable grommets stay in Cable gland and strain relief"
+  # 381
+  - name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+    category: cord, strap, webbing & textile hardware
+    description: A rope or plastic bead sewn or welded along the edge of fabric, or a rubber cord pressed in over a mesh, that sits in a C-shaped groove in a frame and holds the whole edge at once, as on awnings, tents, sails and window screens
+    notes: Also covers keder rails, fly-screen spline rollers and printed clips that lock into keder rails. Also list clamping, magnetic & friction connections in other_families
+  # 382
+  - name: Fixed loop knots (bowline, figure-eight loop, alpine butterfly)
+    category: knots, lashings & sewn joints
+    description: Knots that make a loop that won't tighten up, at the end of a line or in its middle, to drop over a hook or post or to clip into
+    notes: "Also covers why a bowline can shake loose when unloaded, and the alpine butterfly as the safe way to isolate a damaged section. Safety: for anything that holds a person, use a rated system"
+  # 383
+  - name: Bends for joining two cords (sheet bend, double fisherman's knot, water knot)
+    category: knots, lashings & sewn joints
+    description: Knots that join the ends of two ropes, cords or flat tapes, including ones of different thickness
+    notes: "Also covers the double sheet bend, the Zeppelin bend, closing a cord into a loop, netting knots, and leaving long tails. Never the reef knot (see Basic knots)"
+  # 384
+  - name: Pole lashings (square, diagonal, shear and tripod lashings)
+    category: knots, lashings & sewn joints
+    description: Rope wrapped round two or three poles where they cross or touch, then pulled tight with turns between the poles (frapping turns), to build frames, tripods and A-frames without nails or bolts
+    notes: "Also covers round lashing to lengthen a pole and garden lashing of bamboo canes. Safety: check any lashed structure under load before people climb or stand on it. Also list interlocking joints & joinery in other_families"
+  # 385
+  - name: Rope-end finishing (whipping, heat-sealing, back splice, aglet)
+    category: knots, lashings & sewn joints
+    description: Ways to stop a cut rope, cord or webbing end fraying, by binding it with twine (whipping), melting synthetic fibres, tucking the strands back (back splice), tape, a dip coating or a cap (aglet)
+    notes: "Also covers which fibres can be melted, and printed melting forms and aglets. Safety: burns from flames and hot knives; hard sealed ends can cut hands"
+  # 386
+  - name: Sewn seams and hand stitches (lockstitch, saddle stitch, flat-felled seam)
+    category: knots, lashings & sewn joints
+    description: Joining two pieces of fabric or leather with thread passed through both, by machine (lockstitch) or by hand (running, back or saddle stitch), along a seam folded or bound so the edges don't fray
+    notes: Also covers plain, French, lapped and bound seams, seam finishes, casings and pole sleeves, and seam taping and sealing. Heat-welded seams are Heat-sealed seam
+  # 387
+  - name: Lacing (cord through rows of holes or eyelets)
+    category: knots, lashings & sewn joints
+    description: A cord or leather thong threaded back and forth through rows of holes, eyelets or hooks on two edges to pull them together, as on shoes, leather pouches or a cover laced onto a frame, and loosened and tightened again later
+    notes: Also covers criss-cross and edge lacing, lace length, and lacing printed panels together. Cable lacing for wire looms is in Binding knots and seizings. Also list cord, strap, webbing & textile hardware in other_families
+  # 388
+  - name: Rope splices (eye splice, short splice, braided-rope splice)
+    category: knots, lashings & sewn joints
+    description: Joining a rope to itself or to another rope by tucking its strands back in, or burying its end inside its hollow core, to make a loop or join that keeps nearly all the rope's strength and is slimmer than a knot
+    notes: "Also covers long, back and ring splices, the number of tucks in slippery rope, and the soft shackle (a rope loop closed by a knot). Safety: home-made splices aren't rated; never for climbing or lifting people"
+  # 389
+  - name: Leather and textile rivets (double-cap, tubular and split rivets)
+    category: cord, strap, webbing & textile hardware
+    description: Small two-part or hollow rivets set through punched holes in leather, webbing or fabric with a setter on a hard block, to fix straps, handles and buckles permanently
+    notes: Also covers single-cap and rapid rivets, choosing the post length, and backing washers. Metal-sheet rivets stay in Blind rivet
+  # 390
+  - name: Chicago screw (binding screw, sex bolt)
+    category: cord, strap, webbing & textile hardware
+    description: A short screw that threads into a matching hollow post from the other side, leaving a flat head on both faces, used like a removable rivet in leather, straps and binders and as the pivot in printed key organisers
+    notes: Also covers choosing the post length and when to add threadlocker. Also list quick-release & tool-free in other_families
+  # 391
+  - name: Iron-on fusible web (heat-activated adhesive web, hem tape)
+    category: adhesives & bonding
+    description: A dry web or film of heat-melting glue laid between two fabrics and pressed with an iron so it melts and bonds them, for no-sew hems, appliqué and iron-on patches
+    notes: Also covers fusible interfacing and iron-on patches. Also list knots, lashings & sewn joints in other_families
+  # 392
+  - name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+    category: knots, lashings & sewn joints
+    description: Knots and wrappings that squeeze tightly round a bundle, a bag neck, a hose, or two ropes side by side to hold them together, like a hose clamp made of string
+    notes: "Also covers the double constrictor, holding parts for gluing, and cable lacing of wire looms. Safety: seizings aren't for heavy or critical loads. Also list electrical connections in other_families"
+  # 393
+  - name: Tripod and stand screw mount (tripod socket, camera thread)
+    category: quick-release & tool-free
+    description: A single threaded socket or stud in a standard thread, so a part screws onto any tripod, ball head, light stand, microphone stand or camera, with locating pins, a rubber pad or a lock ring to stop it twisting
+    notes: "Also covers the 1/4-20 and 3/8-16 camera threads, light-stand spigots, anti-twist pins, thread adapters and putting a metal insert in a print. The thread sizes are linked to, not listed. Safety: gear falls if the thread strips in plastic. Also list clamping, magnetic & friction connections and locating & alignment in other_families"
+  # 394
+  - name: Clamp-on accessory mount for bars, poles and edges (handlebar clamp, desk clamp, U-bolt)
+    category: clamping, magnetic & friction connections
+    description: A clamp that grips something already there, such as a handlebar, pole, tube, lighting pipe or the edge of a desk or shelf, so an accessory can be fixed on, moved or removed without drilling
+    notes: "Also covers split bar clamps, rubber shims for several sizes, U-bolts, pipe clamps and camera-rod clamps. Safety: on bikes and scooters a mount must not slip into the steering, brakes or wheel. Also list quick-release & tool-free in other_families"
+  # 395
+  - name: Slotted adjustment with a jacking screw (slotted mount, sliding motor plate)
+    category: adjusters, levellers & spacers
+    description: Screws pass through slots instead of round holes, so a part such as a motor can slide to a new position, often pushed by a separate screw, and is then locked by tightening the screws
+    notes: Also covers adjustable centres for belts and chains. Also list tensioning, reels & take-up in other_families
+  # 396
+  - name: Castor (swivel castor, fixed castor, locking castor)
+    category: hinges & pivots
+    description: A wheel in a bracket under a cart, robot or piece of furniture so it can be rolled; a swivel castor's wheel sits a little behind its pivot so it swings round to follow the direction of travel, and locking castors brake the wheel, the swivel or both
+    notes: "Also covers stem and plate fixings, central locking that locks every castor at once, directional locks, and furniture glides. Safety: lock castors on slopes and respect each castor's rated load. Also list sliding, telescoping & linear motion in other_families"
+  # 397
+  - name: Levelling foot (adjustable foot, swivel levelling pad)
+    category: adjusters, levellers & spacers
+    description: A threaded stud with a pad, screwed into the bottom of a leg or machine, so turning it raises or lowers that corner, with a ball joint that often lets the pad sit flat on an uneven floor
+    notes: Also covers threaded inserts in tube legs and printed levelling feet. Also list hinges & pivots in other_families
+  # 398
+  - name: Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
+    category: clamping, magnetic & friction connections
+    description: Two jaws on a pivot, squeezed shut by a spring; you pinch the handles to open it and let go to clamp, as in clothes pegs, spring clamps and clip-on phone or lamp holders
+    notes: Also covers printed spring clamps and clips that use a rubber band as the spring. Also list springs & energy storage in other_families
+  # 399
+  - name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
+    category: cord, strap, webbing & textile hardware
+    description: A small link made of two eyes joined by a free-turning pivot, put in a line, chain, lead or hanger so one end can spin without twisting the other, as on fishing line, dog leads, anchor chain, key rings and hanging signs
+    notes: "Also covers barrel, box and ball-bearing swivels and print-in-place swivels. Safety: a swivel can be the weakest link; never hold anything overhead or any person with a printed one. Also list hinges & pivots in other_families"
+  # 400
+  - name: Multi-point bolt (espagnolette, crémone bolt, lock rods)
+    category: locks, latches & catches
+    description: One handle drives two or more bolts at once, through a turning rod with hooks or a rack and pinion, so a tall door, a big lid or a pair of cabinet doors is locked at top and bottom with one movement
+    notes: "Also covers container and trailer lock rods and printed rack-and-pinion bolts for big boxes. Safety: mind the pinch points"
+  # 401
+  - name: Flywheel (inertia wheel, friction motor)
+    category: springs & energy storage
+    description: A heavy spinning wheel that stores energy as spin, smoothing out jerky turning (carrying a crank past its dead points) and keeping a toy or machine going after the push stops
+    notes: "Also covers putting the mass near the rim and friction-motor toy cars. Flywheel dart blasters are out of scope. Safety: an over-sped flywheel can burst, so never over-speed printed ones and guard motor-driven ones. Also list brakes, dampers & speed control in other_families"
+  # 402
+  - name: Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope)
+    category: seals & pass-throughs
+    description: A pipe thread that gets wider along its length, so screwing it in wedges the threads tight, while tape or paste fills the tiny gaps so it doesn't leak
+    notes: "Also covers how to wrap PTFE tape, pipe dope and anaerobic thread sealant, telling look-alike thread standards apart, and not mixing thread forms. Thread size tables are linked to, not listed. Safety: pressure; overheated PTFE gives off a toxic gas. Also list hydraulics, pneumatics & vacuum in other_families"
+  # 403
+  - name: Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union)
+    category: seals & pass-throughs
+    description: A straight pipe thread only holds the parts together, while a rubber washer, bonded seal or O-ring squeezed against a flat face does the sealing, as on garden hoses and tap connectors
+    notes: "Also covers bonded seals, why US and European garden-hose threads don't fit each other, pipe unions and dielectric unions, and printed thread adapters. Also list hydraulics, pneumatics & vacuum in other_families"
+  # 404
+  - name: Soldered metal joint (soft soldering of metal parts, sweat-soldered copper pipe)
+    category: welding, brazing & soldering
+    description: Metal parts are joined by melting a low-melting tin alloy (solder) into a tight gap with a soldering iron or a small gas torch, as in copper water pipes, tin toys, stained glass and brass models
+    notes: "Also covers which metals solder easily, fluxes, copper-pipe capillary fittings (end-feed and solder-ring), lead-free solder for drinking water, and low-melting solders. Wire joints are Soldered wire joint. Safety: flux fumes can cause asthma, lead, and torch fires. Also list seals & pass-throughs and electrical connections in other_families"
+  # 405
+  - name: Brazed joint (brazing, silver soldering, hard soldering)
+    category: welding, brazing & soldering
+    description: Metal parts are heated red-hot with a torch and a brass or silver alloy is melted into a close-fitting gap, giving a strong, leak-proof joint without melting the parts themselves
+    notes: "Also covers the gap for capillary flow, silver-solder grades, braze welding, flux-free copper brazing rods, and zinc 'aluminium welding' rods (really a solder). Safety: cadmium-bearing fillers give toxic fumes; fire. Also list seals & pass-throughs in other_families"
+  # 406
+  - name: Spot weld (resistance spot welding)
+    category: welding, brazing & soldering
+    description: Two overlapping metal sheets or strips are squeezed between copper electrodes and a short burst of very high current melts a small button of metal between them, as on car bodies, steel boxes and battery packs
+    notes: "Also covers nickel strip on battery packs, seam welding and choosing a hobby spot welder. Safety: sparks, and lithium cells catch fire if overheated. Also list interlocking joints & joinery and electrical connections in other_families"
+  # 407
+  - name: Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
+    category: welding, brazing & soldering
+    description: Polyethylene or polypropylene pipes are joined by melting the pipe end and the fitting on a hot tool, or with a fitting that has a heating wire built in, and pushing them together so they set as one piece
+    notes: "Also covers insertion depth, heating and holding times, and why PE and PP pipe can't be solvent-welded. Safety: burns and spurting molten plastic. Also list seals & pass-throughs and hydraulics, pneumatics & vacuum in other_families"
+  # 408
+  - name: Flare fitting (flared tube fitting, double flare)
+    category: seals & pass-throughs
+    description: The end of a soft metal tube is spread into a cone with a flaring tool and clamped by a nut against a matching cone, giving a metal-to-metal seal, as on car brake lines, gas pipes and air-conditioner pipes
+    notes: "Also covers single and double flares, flaring tools and flare-nut spanners. Safety: brake and gas lines are safety-critical, so follow the rules for them. Also list hydraulics, pneumatics & vacuum in other_families"
+  # 409
+  - name: Ultrasonic weld (ultrasonic plastic welding, energy director)
+    category: welding, brazing & soldering
+    description: A tool vibrating at 15 to 40 kHz presses two plastic parts together and the vibration melts a small ridge between them in a moment, sealing them shut with no screws or glue, as in sealed chargers, toys and blister packs
+    notes: "Also covers energy directors and shear joints, ultrasonic welding of prints, and laser, infrared, hot-plate and RF welding as mentions. Safety: keep hands away from the horn; noise"
+
 execution:
   batch_size: 6
   items_per_agent: 3
@@ -1410,6 +1850,11 @@ execution:
 # - "motion conversion" explicitly includes stepping (intermittent) motion: Geneva, escapements
 # - Cross-cutting axes from run 1 (by job, by holding principle) are finder fields
 #   (`job`, `holding_principle`) rather than extra families.
+# - NEW (2026-09-30, R20): "hydraulics, pneumatics & vacuum"
+# - NEW (2026-10-03, R22, wider scope): "electrical connections", "everyday fasteners & fixings",
+#   "knots, lashings & sewn joints", "adjusters, levellers & spacers" and "welding, brazing &
+#   soldering", added last so existing report pages keep their numbers. The cord family's label
+#   changed (its key did not) now that knots and sewing have their own family.
 families:
   - key: torque limiting & slip
     label: Slips or lets go when overloaded
@@ -1452,7 +1897,7 @@ families:
   - key: adhesives & bonding
     label: Glues (types, by material and use)
   - key: cord, strap, webbing & textile hardware
-    label: Rope, cord, strap, webbing and textile hardware
+    label: Hardware for rope, cord, straps, fabric and leather
   - key: interlocking joints & joinery
     label: Joints for wood, sheet and panels
   - key: locating & alignment
@@ -1463,3 +1908,13 @@ families:
     label: Slows it, stops it, or keeps its speed steady
   - key: hydraulics, pneumatics & vacuum
     label: Moves, holds or lets go using air or liquid pressure, or suction
+  - key: electrical connections
+    label: Joins wires, or connects them to boards, batteries and devices
+  - key: everyday fasteners & fixings
+    label: Screws, nails, pins, wall plugs and other hardware-shop fixings
+  - key: knots, lashings & sewn joints
+    label: Tied, lashed, spliced or sewn with cord or thread
+  - key: adjusters, levellers & spacers
+    label: Sets, fine-tunes or levels a position, height or gap, then holds it
+  - key: welding, brazing & soldering
+    label: "Joins by melting: welds, brazes, solders and heat seals"

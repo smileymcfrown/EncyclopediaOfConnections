@@ -1,0 +1,52 @@
+"""Generate Mermaid diagrams and the full path table from tree.py. Run: python3 gen_docs.py OUTDIR"""
+import json, sys, os, re
+sys_argv=sys.argv[:]; sys.argv=['x']
+from tree import *
+from tree import RESULTS
+for e in E:
+    d=json.load(open(RESULTS+e['file']))
+    e['materials_raw']=d['finder_attributes']['materials']
+OUT=sys_argv[1] if len(sys_argv)>1 else '.'
+def short(n): return re.sub(r'\s*\(.*$','',n)
+def esc(s): return s.replace('"',"'")
+ids=iter(range(10000))
+def mm(node,S,lines,depth,maxdepth,parent=None,label=None):
+    q,answers=node
+    qid=f"q{next(ids)}"
+    lines.append(f'  {qid}{{"{esc(q)}"}}')
+    if parent: lines.append(f'  {parent} --> {qid}')
+    for lab,pred,child in answers:
+        T=[e for e in S if pred(e)]
+        aid=f"a{next(ids)}"
+        leaf = child is None
+        shape=('(["','"])') if leaf else ('["','"]')
+        lines.append(f'  {aid}{shape[0]}{esc(lab)} · {len(T)}{shape[1]}')
+        lines.append(f'  {qid} --> {aid}')
+        if leaf: lines.append(f'  class {aid} leaf')
+        if not leaf:
+            if depth+1<maxdepth: mm(child,T,lines,depth+1,maxdepth,parent=aid)
+            else: lines.append(f'  class {aid} more')
+    return lines
+def diagram(node,S,maxdepth):
+    l=['```mermaid','flowchart LR']; mm(node,S,l,0,maxdepth)
+    l+=['  classDef leaf fill:#e6f4ea,stroke:#2e7d32','  classDef more fill:#fff4e5,stroke:#b26a00','```']
+    return '\n'.join(l)
+md=[]
+md.append('### Overview: first two questions\n')
+md.append(diagram(TREE,E,2))
+q,answers=TREE
+for i,(lab,pred,child) in enumerate(answers,1):
+    S=[e for e in E if pred(e)]
+    md.append(f'\n### Branch {i}: {lab} ({len(S)} entries)\n')
+    if child is None:
+        md.append('This answer goes straight to a shortlist; no further question.\n'); continue
+    md.append(diagram(child,S,5))
+open(os.path.join(OUT,'mermaid.md'),'w').write('\n'.join(md))
+# path table
+out=[]; walk(TREE,E,[],out)
+rows=['| # | Path (answers given) | Shortlist size | Entries (outline number and name) |','|---|---|---|---|']
+for i,(p,T) in enumerate(out,1):
+    names='; '.join(f"{e['num']} {short(e['name'])}" for e in sorted(T, key=lambda e: e['num']))
+    rows.append(f"| {i} | {' → '.join(p)} | {len(T)} | {names} |")
+open(os.path.join(OUT,'paths.md'),'w').write('\n'.join(rows))
+print('ok',len(out))

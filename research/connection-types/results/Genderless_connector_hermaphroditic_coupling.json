@@ -22,7 +22,8 @@
       "hydraulics, pneumatics & vacuum",
       "snap & clip fits",
       "powered & active connectors",
-      "hinges & pivots"
+      "hinges & pivots",
+      "electrical connections"
     ],
     "one_liner": "A connector or coupling made of two identical halves, each carrying both the 'male' and the 'female' features, so that any two of the same size and type can be joined, usually by turning one copy round to face the other so that its hooks meet the other's slots.",
     "complexity": "Usually a few parts, but every half is the same part. Storz hose coupling: a body with hooked lugs and a slotted flange, plus a rubber gasket, on each hose end. Gladhand: a coupler body with a lug, a slot and a rubber seal (grommet). Anderson Powerpole: a plastic housing and a metal contact, housings clipping side by side. Modular-robot docking port: a face with pins and holes, hooks or a ring of magnets, often with a motor or electro-permanent magnets to latch. Printed version: one part printed twice (e.g. a snap-together hinge leaf, a twist-lock spool half or a box half).",

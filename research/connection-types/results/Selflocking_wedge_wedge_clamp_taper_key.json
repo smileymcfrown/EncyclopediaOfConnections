@@ -18,7 +18,8 @@
     "family": "self-locking & anti-back-drive",
     "other_families": [
       "clamping, magnetic & friction connections",
-      "interlocking joints & joinery"
+      "interlocking joints & joinery",
+      "adjusters, levellers & spacers"
     ],
     "one_liner": "A shallow wedge driven into a gap multiplies a light tap into a strong squeeze, and because its slope is gentle, friction stops it sliding back out, so it holds parts tight until it is knocked out again.",
     "complexity": "Single piece (the wedge) working against the two parts it jams between; folding wedges are a matched pair; a taper key is one tapered bar in a matching tapered keyway in the hub (Wikipedia 'Key (engineering)'); a bicycle cotter is a tapered pin with a flat face, a threaded end, a washer and a nut (Wikipedia 'Cotter (pin)').",
