@@ -23,7 +23,7 @@ reddit.com link and the archive address actually read.
   first answer for electrical connections and a few new questions give **140 paths, all 3-10
   entries (5.9 on average), every entry reachable** (1.4). A fourth overload answer (R25) makes
   it 141 paths, still all 3-10 entries. 25 real forum questions were run through it: 17 reach a
-  good answer, 7 partly, 1 is outside the encyclopedia's scope. The test scripts are in `research/finder-test/`.
+  good answer, 7 partly, 1 is outside the encyclopedia's scope; re-checked on 2026-10-06 on the current tree: 21 good, 4 partly, none out of scope (1.7). The test scripts are in `research/finder-test/`.
 - **But** the test only passes because of some draft tags worked out from entry names. About half
   of the answers need data the entries don't have yet as fixed choices (what the parts are, what
   powers it, what happens on overload, input → output motion …), and several existing finder
