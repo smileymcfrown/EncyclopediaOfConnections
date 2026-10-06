@@ -1534,6 +1534,8 @@
 
 *interlocking joints & joinery.* Flat-pack fittings where a turning cam grabs a bolt head, or a barrel nut takes a bolt through the other panel, so furniture can be taken apart
 
+*Also covers:* Also covers how Confirmat screws compare with cams.
+
 ### What it is
 
 - **plain_name**: Hidden metal fittings for flat-pack furniture: a round disc you turn with a screwdriver hooks the head of a bolt and pulls two boards tight, or a long bolt through one part screws into a small metal barrel hidden in the other; both come undone again when you turn them back
@@ -1578,7 +1580,7 @@
 - **removability**: removable: designed 'for repeated assembly and disassembly' (Wikipedia 'Butt joint'); turning the cam back or unscrewing the bolt releases the joint without damaging the panels (Furnica).
 - **tools_needed**: To assemble or take apart: one driver, usually a hex (Allen) key or screwdriver (Wikipedia); Hettich cams take a flat-blade screwdriver, PZ3 Pozidriv or a 4 mm Allen key. To install: drill with depth stop, 15 mm Forstner bit, 8 mm and 5 mm bits and a drilling jig for cams (Furnica); 9/32 inch and 25/64 inch bits and a cross-dowel jig for inch-size cross dowels (Rockler). A drill press helps keep holes square (House of Hacks).
 - **seal**: none
-- **load**: Medium. In tests on 18 mm particleboard L-shaped corners, standard eccentric cam joints with beech dowels carried average bending moments of about 14-19 N·m, and a version with a metal-capped bolt reached 31 N·m in the tension test and 47 N·m in the compression test; failure came from the chipboard surface cracking or the bolt head crushing into the board, not the metal parts breaking (Janíková et al. 2025, Materials 18(9):2114). Strong in straight pull; the cam itself 'cannot withstand shear loads', so dowels are always added (Furnica). *(unverified parts omitted)*
+- **load**: Medium. In tests on 18 mm particleboard L-shaped corners, standard eccentric cam joints with beech dowels carried average bending moments of about 14-19 N·m, and a version with a metal-capped bolt reached 31 N·m in the tension test and 47 N·m in the compression test; failure came from the chipboard surface cracking or the bolt head crushing into the board, not the metal parts breaking (Janíková et al. 2025, Materials 18(9):2114). Strong in straight pull; the cam itself 'cannot withstand shear loads', so dowels are always added (Furnica). Makers of Confirmat screws say cams are weaker than Confirmat screws, though better than drywall screws: Wikipedia reports the claim and flags it '[independent source needed]', and its source, Fine Homebuilding (2008), quotes a product manager at Häfele, a Confirmat maker, saying Confirmats are 'less expensive, less complicated and stronger' than cam-and-bolt connectors. *(unverified parts omitted)*
 - **adjustable**: Slightly: a loose cam can be turned tighter, and the Hettich cam can close a gap of up to 4 mm (Hettich). Positions are fixed by the drilled holes.
 - **play_and_precision**: No play once tight. Accuracy depends entirely on drilling: 'An offset of just one millimetre inevitably leads to uneven joints or cracking in the panel material' (Furnica); Hettich's drilling drawings allow +0.5/-0.3 mm on the 24 or 34 mm hole distance. The dowels do the precise locating; the cam only pulls (Furnica). Cross dowels tolerate a little error because the barrel can be rotated to meet the bolt (Wikipedia 'Barrel nut').
 - **access_needed**: one side only (blind) for a cam lock: all holes are on the inside face and in the edges, leaving nothing visible outside (Furnica), but you must reach the inside face to turn the cam. Both sides for a cross dowel: the bolt head is on the outside of one part and the barrel is put in from the inside or underside of the other.
@@ -1611,7 +1613,7 @@
   - Bed frames and bunk beds, where long bolts through the posts screw into barrel nuts in the side rails (Printables parametric cross dowel for a bunk bed; Rockler)
   - Desks and TV units made of melamine-faced chipboard that can be flattened again for moving (Furnica) *(unverified parts omitted)*
 - **when_to_use**: Use cam locks for boxes and cabinets made of sheet materials such as particleboard, MDF or plywood that must ship flat or be taken apart for moving; they are hidden, fast to assemble with one driver, and need no glue (Wikipedia; Furnica). Use cross dowels where you need a strong, removable joint in solid wood or thick panels, such as bed rails, table aprons, workbenches and frames (Rockler). Both are good for hobbyists because they 'are easier and require less skill to install than some of the other more traditional techniques' (Wikipedia).
-- **when_not_to_use**: Avoid cams where the joint takes large sideways (shear) or twisting loads without dowels or a back panel; the cam alone only pulls (Furnica). For permanent furniture that will never be moved, glued dowels, biscuits or a mortise and tenon are stronger and cheaper. Where you can't drill accurately, use a bracket, confirmat screw or pocket screw instead. For tool-free assembly consider a wedge dowel or lever-cam panel connector; for sheet parts cut on a laser or CNC, a T-slot joint (captive nut) does the same job with a standard nut. *(unverified parts omitted)*
+- **when_not_to_use**: Avoid cams where the joint takes large sideways (shear) or twisting loads without dowels or a back panel; the cam alone only pulls (Furnica). For permanent furniture that will never be moved, glued dowels, biscuits or a mortise and tenon are stronger and cheaper. Where you can't drill accurately, use a bracket, confirmat screw or pocket screw instead. For tool-free assembly consider a wedge dowel or lever-cam panel connector; for sheet parts cut on a laser or CNC, a T-slot joint (captive nut) does the same job with a standard nut. Wikipedia notes that cam-and-bolt connectors can be swapped out but 'are more complex and expensive' than Confirmat screws, which compress their own thread in particleboard and can be removed and refitted 'dozens of times' (Wikipedia 'Confirmat screw'); Fine Homebuilding quotes a maker saying a Confirmat still holds after 30 or 40 cycles in MDF or particleboard (Fine Homebuilding 2008). *(unverified parts omitted)*
 - **environment_limits**: Joint strength depends on the board's internal bond strength: tests show failures by the board's surface layer cracking rather than the fittings breaking (Janíková et al. 2025). Cams can work loose with repeated racking or vibration; some cams have ratchet-like latching steps and serrated outsides 'to prevent the eccentric cam from working loose' (Hettich Rastex 25). Printed plastic cams creep under constant load, especially in PLA (Printables). *(unverified parts omitted)*
 - **safety_notes**: Tall flat-pack furniture held with knock-down fittings should be anchored to the wall so it can't tip over and injure someone (Wikipedia 'Furniture screw', citing IKEA's 'Secure it!'). Drilling the cam hole too deep can break through the finished outer face (Furnica). *(unverified parts omitted)*
 - **common_failures**: Stripped or broken cam housing, often because the bolt wasn't screwed deep enough so the cam only grips the tip of its head (Furnica). Panels not flush because the edge hole wasn't square or the 24/34 mm distance was missed by a few millimetres (Furnica). Forstner bit breaking through the decorative face for lack of a depth stop (Furnica). Under load, the particleboard surface cracks around the bolt, the bolt head crushes into the board, or an insert nut pulls out (Janíková et al. 2025). Cam too far from the edge so it can't engage, or too close so it can't tighten (House of Hacks). Cross-dowel bolt missing the barrel's thread; rotate the barrel with a screwdriver in its slot until the bolt lines up (Wikipedia 'Barrel nut'). *(unverified parts omitted)*
@@ -1624,6 +1626,7 @@
   - Eccentric cam lever (quick-release skewer): a lever-operated cam clamp that needs no tool
   - Mortise and tenon with tusk wedge: the traditional wooden knock-down joint
   - Aluminium-extrusion connectors (T-slot nuts and brackets): the equivalent knock-down system for metal frames
+  - Wood screw: covers the Confirmat screw, a fat, blunt cabinet screw driven into a stepped hole that joins board edges to faces with no separate nut or cam
 
 ### Pictures, videos and models
 
@@ -1658,6 +1661,8 @@
   - https://commons.wikimedia.org/wiki/File:Cross_dowel_cutaway.png
   - https://commons.wikimedia.org/wiki/File:Montage_Quermutterbolzen.png
   - https://www.youtube.com/watch?v=v9G_0caGrxI
+  - https://en.wikipedia.org/wiki/Confirmat_screw
+  - https://www.finehomebuilding.com/2008/06/27/whats-the-difference-cabinet-assembly-screws
 
 ### Other info
 
@@ -2136,6 +2141,7 @@
   - Split pin (cotter pin) and paper fastener (brad): a separate part whose legs are pushed through a hole and bent back, the same locking idea
   - Heat staking (melted plastic rivet): the plastic-part equivalent, where a post through a hole is melted over instead of bent
   - Ordinary screw joint (bolt and nut): the baseline, easy to undo and reuse many times
+  - Spot weld: joins overlapping sheet metal at small points with electrode pressure and a short burst of current instead of a bent tab; a low-cost spot welder is also used to repair broken tin-toy tabs (Robothut video in links)
 
 ### Pictures, videos and models
 
@@ -2249,7 +2255,8 @@
 - **common_failures**: 1) Neck fracture (the thin wall of the button tears) or button separation (the button pops out) when the neck is too thin or the undercut too small; tooling and bottom thickness are tuned to balance the two (He 2017). 2) Cracks or a missing interlock when the material is not ductile enough or the two sheets differ greatly in ductility (He 2017); test first and use special or heated tooling (EAA). 3) Button bursting out of the flange edge or distorting the part when too close to the edge; keep 1.5 x punch diameter (EAA 8.1.2.3). 4) Thinned, ugly or weak joints and fast tool wear when clinching on or next to an earlier point (EAA 8.1.2.3). 5) Oily aluminium in a closed solid die can form a trapped 'hydrostatic cushion' that can break the die; use moveable-segment dies with oily sheets or adhesive (EAA 8.1.2.2). 6) Poor fit-up or misaligned punch and die give inconsistent joints (Assembly Magazine 2002). 7) Punch going straight through when the softer sheet is on the punch side (EAA 8.1.2.3). 8) Parts twisting about a single point: use two points or a twin point (EAA).
 - **related**: 
   - Blind rivet (pop rivet): also joins sheets permanently, needs access to one side only and a cheap hand tool, but adds a part and a hole
-  - Self-pierce riveting and spot welding (not separate entries): the industrial alternatives clinching often replaces; self-pierce rivets are stronger in cross-tension, spot welds need electricity and burn coatings (EAA 8.1.2; Wikipedia 'Clinching')
+  - Spot weld: the industrial joint clinching often replaces; spot welds need electricity and cooling water and burn coatings, which clinching doesn't (EAA 8.1.2; Wikipedia 'Clinching'; Assembly Magazine 2002)
+  - Self-pierce riveting (not a separate entry): another industrial alternative; self-pierce rivets are stronger than clinches in cross-tension (EAA 8.1.2)
   - Clinch riveting (not a separate entry): a variant that adds a solid rivet into the clinch for more strength (EAA Joining Manual 8.2.2.5)
   - Self-clinching fastener (press-in nut or stud): uses the same cold flow of sheet metal, but to lock a nut or stud into one sheet rather than join two sheets
   - Folded seam (hem, lock seam, Pittsburgh lock): joins sheet edges by folding them together, needs no press but only works along edges
@@ -2414,6 +2421,8 @@
 
 *interlocking joints & joinery.* Simple wood joints where parts meet end to face or overlap, held by screws, glue or angled pocket screws; the joinery baseline
 
+*Also covers:* Also covers toe-nailing and clinched nails.
+
 ### What it is
 
 - **plain_name**: Two pieces of wood simply pushed together, end against face or edge (butted), or laid over each other with half the thickness cut from each (lapped), and held with screws, nails, glue, or screws driven at an angle from a hidden pocket
@@ -2430,6 +2439,7 @@
   - lap joint, overlap joint, full lap, half lap, halving joint (Wikipedia 'Lap joint'; DT Online 'Halving Joint')
   - end lap, corner lap, pull lap, half-lap splice, cross lap, tee lap, middle lap, dovetail lap, mitred half lap (Wikipedia 'Lap joint')
   - T-lap, scarf lap (Family Handyman 'Half Lap Joints')
+  - toe-nailing, toenailing or slant nailing: nails driven at a slant through the end or edge of one piece into the other (USDA Wood Handbook ch. 8)
 - **family**: interlocking joints & joinery
 - **other_families**: adhesives & bonding
 - **one_liner**: The simplest wood joints: one piece meets another end-on (butt joint) or overlaps it (lap joint), and screws, nails, angled pocket screws or glue hold them together; the baseline every other wood joint is compared with.
@@ -2483,6 +2493,8 @@
   - Screwed joints: screw heads pulling into the wood, not the threads stripping, usually limit strength; flat-headed screws or washers help, and countersunk heads are worst. Avoid screw joints where furniture strength is critical, but they suit sawhorses, crates and scaffolding (woodgears.ca 'Wood joint strength testing').
   - Half lap: remove half the thickness from each member (mark with a marking gauge) so the faces finish flush (Wikipedia 'Lap joint'; DT Online 'Halving Joint'); set the dado or blade height to exactly half the stock thickness using a test piece (Family Handyman).
   - Half-lap variants: the mitred half lap is the weakest because of its reduced glue area; a dovetail lap resists withdrawal where tension could pull the joint apart (Wikipedia 'Lap joint'). A well-made lap, scarf or finger joint in end grain can reach up to 90% of the tensile strength of clear wood (USDA Wood Handbook ch. 10).
+  - Toe-nailing (slant nailing): toe-nailed joints are strongest when you use the largest nail that won't split the wood badly, start it about one-third of the nail's length from the end of the attached piece, drive it at about 30° to that piece, and bury the full shank without bruising the wood with hammer blows; lead holes of about 90% of the nail's shank diameter add a little holding power and reduce splitting (USDA FPL Wood Handbook, FPL-GTR-282, ch. 8, p. 8-5).
+  - Clinching (bending the point of a nail over where it comes through): in dry or green wood a clinched smooth-shank nail resists pulling out 45% to 170% better than an unclinched one when pulled soon after driving, and nails clinched across the grain hold about 20% more than ones clinched along it; clinching is mostly used for boxes and crates (USDA FPL Wood Handbook, FPL-GTR-282, ch. 8, pp. 8-5 to 8-6).
 
 ### When to use it
 
@@ -2491,7 +2503,7 @@
   - Kitchen cabinets and flat-pack carcases held with screws into the board edges (Wikipedia 'Butt joint': 'Modular kitchens make regular use of this fixing method')
   - Picture frames with mitred half-lap corners, and Lincoln Logs-style log cabins with lap joints (Family Handyman)
   - Workshop shelves, benches and pallet-wood projects built with pocket screws (woodgears.ca; Kreg)
-- **when_to_use**: Use a screwed or nailed butt joint for quick, cheap, rough or temporary work: building framing, workshop fixtures, crates, sawhorses and simple boxes (Wikipedia 'Butt joint'; woodgears.ca). Use pocket screws for face frames, cabinet carcases, table aprons and anything where you want fast assembly with no clamps and hidden screws, and where only one side can be reached (Wikipedia 'Pocket-hole joinery'). Use a glued half lap for strong, flat frames and grids (cabinet frames, door frames, stretchers), where its large long-grain glue area gives excellent shear strength (Wikipedia 'Lap joint'; Sawmill Creek summary of WOOD Magazine's torture test). Butt and lap joints are also the natural way to fasten 3D-printed or laser-cut parts together with screws or glue.
+- **when_to_use**: Use a screwed or nailed butt joint for quick, cheap, rough or temporary work: building framing, workshop fixtures, crates, sawhorses and simple boxes (Wikipedia 'Butt joint'; woodgears.ca). Use pocket screws for face frames, cabinet carcases, table aprons and anything where you want fast assembly with no clamps and hidden screws, and where only one side can be reached (Wikipedia 'Pocket-hole joinery'). Use a glued half lap for strong, flat frames and grids (cabinet frames, door frames, stretchers), where its large long-grain glue area gives excellent shear strength (Wikipedia 'Lap joint'; Sawmill Creek summary of WOOD Magazine's torture test). Butt and lap joints are also the natural way to fasten 3D-printed or laser-cut parts together with screws or glue. Toe-nailing (slant nailing through the end or edge of one piece into the other) is a common way of joining wood framing; it 'requires greater skill in assembly than does ordinary end nailing but provides joints of greater strength and stability' (USDA Wood Handbook ch. 8).
 - **when_not_to_use**: Don't rely on screwed or pocket-screw butt joints for chairs or other furniture whose joints take repeated bending: they open up before they break (woodgears.ca); use mortise and tenon or dowel joints instead. Don't use a glued-only end-grain butt joint for anything load-bearing (USDA Wood Handbook ch. 10); reinforce it with dowels, biscuits, a spline or screws, or switch to a lap, finger or scarf joint. Avoid pocket holes in stock thinner than about 1/2 in. (Wikipedia; Kreg) and where both faces are visible (Wikipedia). For boxes and drawers seen from outside, finger or dovetail joints look better and hold better. For flat-pack furniture that must come apart often, use knock-down cam-lock or cross-dowel fittings rather than screws into particleboard edges.
 - **environment_limits**: Wood swells and shrinks with humidity, mostly across the grain (about twice as much tangentially as radially) and only 0.1-0.2% along it (USDA Wood Handbook ch. 4), so an end-to-edge (T) joint builds up large internal stresses as moisture changes and should be protected from changes in moisture content (USDA Wood Handbook ch. 10). Glue plus pocket screws helps stop gaps opening as the wood moves (Wikipedia 'Pocket-hole joinery'). Screwed PLA prints soften at about 60 °C and PETG at about 80 °C (CNC Kitchen). *(unverified parts omitted)*
 - **safety_notes**: Table saws (used for cutting ends square and for dado-cut half laps) can kick work back and cause amputations: use the guard, a push stick for small pieces, and keep hands out of the line of cut (OSHA table saw eTool). Screw points left poking through the far face are a scratch hazard; Wandel's deeper-drilled pocket screws came out the other side (woodgears.ca). Otherwise none known. *(unverified parts omitted)*
@@ -2505,6 +2517,9 @@
   - Knock-down cam-lock and cross-dowel connectors: hardware for butt joints in flat-pack furniture that can be taken apart
   - Glued joint design (butt, lap and scarf joints; peel vs shear): why lap and scarf joints glue far better than butt joints
   - Heat-set threaded insert and captive nut pocket: better ways to screw 3D-printed parts together than self-tapping screws
+  - Wood screw: the usual fastener for screwed butt and lap joints, with advice on pilot and clearance holes
+  - Nails, brads and tacks: the quick fastener for nailed butt joints, including toe-nailing and clinching
+  - Metal brackets and plates: angle brackets, mending plates and joist hangers that reinforce a butt joint or carry its load
 
 ### Pictures, videos and models
 
@@ -2549,6 +2564,7 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://www.osha.gov/etools/machine-guarding/saws/table
   - https://api.printables.com/graphql/
+  - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf
 
 ### Other info
 
@@ -2940,6 +2956,7 @@
   - Folded seam (hem, lock seam, Pittsburgh lock) and Tab-and-slot joint: fastener-free sheet-metal joints along edges
   - Spring-steel push-on fasteners (push nut, speed nut, U-nut): clip-on nuts for thin panels, removable
   - Solid rivet and semi-tubular rivet (not separate entries): hammered or squeezed with access to both sides; solid rivets are stronger and used where they can be reached (Wikipedia 'Rivet'; FAA AC 43.13-1B)
+  - Leather and textile rivets: double-cap, tubular and split rivets set through leather, webbing and fabric with access to both sides; metal-sheet rivets stay in this entry
 
 ### Pictures, videos and models
 
@@ -3075,7 +3092,8 @@
   - Zollinger frame (lamella roof): short timbers joined at their mid-points in one plane to form diamonds; STRUCTURE magazine calls it a type of reciprocal frame with a more direct, compression-dominated load path
   - Arch, as in the 'da Vinci Bridge' in Ås, Norway: carries load in compression along a curve and needs strong abutments, whereas reciprocal frame members work mainly in bending
   - Tab-and-slot joint and finger joint: ways to make a printed or laser-cut stick model permanent instead of friction-held
-  - Tensegrity: also self-supporting, but uses struts held apart by tensioned cables (judged out of scope as a structural arrangement in this encyclopedia's gap search)
+  - Tensegrity: also self-supporting, but its struts don't touch each other and are held in place only by tensioned cords or chains, whereas reciprocal frame members rest on each other
+  - Pole lashings: square, diagonal or shear lashings that tie the crossings of a pole reciprocal frame so they can't slip apart
 
 ### Pictures, videos and models
 

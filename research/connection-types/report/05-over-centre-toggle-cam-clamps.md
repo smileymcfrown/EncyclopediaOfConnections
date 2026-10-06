@@ -557,6 +557,7 @@
   - Bicycle through-axle: a threaded axle that replaced skewers on many disc-brake bikes because it is not pushed out by braking forces (Wikipedia)
   - Cam buckle and cam cleat: use a toothed cam to grip a strap or rope rather than to clamp two rigid parts
   - Furniture cam lock (cam fitting): a different part with a similar name, a rotating disc that pulls a bolt to join flat-pack panels
+  - Clamp-on accessory mount for bars, poles and edges: a clamp that grips an existing bar, pole or desk edge to carry an accessory; a cam lever is often what closes it without tools
 
 ### Pictures, videos and models
 

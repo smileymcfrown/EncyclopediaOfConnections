@@ -580,6 +580,8 @@
 
 *indexing & detents.* A hinge that clicks and holds at set angles, like a laptop stand or folding table leg
 
+*Also covers:* Also covers drop-ring, bail and dial locks borrowed from orthotic knee joints as hinge-lock ideas, described for maker use only.
+
 ### What it is
 
 - **plain_name**: A hinge that clicks and stays put at one or more set angles, such as a cabinet door that clicks open at 90° or a sofa headrest that clicks up a notch at a time
@@ -598,7 +600,7 @@
 - **other_families**: hinges & pivots, one-way & ratchet, compliant mechanisms & flexures
 - **one_liner**: A hinge with a built-in click mechanism (a spring pressing a ball, wedge, tooth or springy arm into notches, or a pawl in a toothed segment) that holds a lid, door, leg or backrest at preset angles until it is pushed firmly on.
 - **complexity**: A small assembly that acts as one unit: two hinge leaves joined by a pin or knuckle, plus a detent inside the knuckle. Common detents: a spring pushing a ball, roller, wedge or toothed part into notches (Elesa: 'an applied force from the internal spring'); a steel detent tube (Southco C6); spring wires pushing toothed floating wedges against gear teeth (patent EP2389839); or a pawl and toothed segment (furniture ratchet fittings). Printed versions: two leaves plus a flexible (TPU) toothed ring or a springy printed arm (Printables 'Clicking Hinge').
-- **how_it_works**: Two main kinds exist. In a click-stop detent hinge, a spring presses something (a ball, roller, wedge, toothed ring or springy arm) against notches that turn with the other leaf; at each preset angle it drops into a notch and holds the door there, and pushing the door firmly bends or compresses the spring so it rides out and on to the next notch, in either direction (Southco: 'opens and locks into place at a pre-set angle, usually with a distinctive click'; Elesa). In a ratchet-fitting hinge (sofas, headrests, reclining chairs), a pawl clicks over teeth as you raise the part so it holds at each step and can't fold back down; to lower it you move it all the way past the last step, where a projection knocks the pawl out of the teeth and a spring holds it clear, so the part can swing freely back to its starting position (Lear headrest patent US5236245A; US3232136 describes a similar release at the end of travel). A bistable variant uses a spring that pushes the door to one of two end positions (Southco).
+- **how_it_works**: Two main kinds exist. In a click-stop detent hinge, a spring presses something (a ball, roller, wedge, toothed ring or springy arm) against notches that turn with the other leaf; at each preset angle it drops into a notch and holds the door there, and pushing the door firmly bends or compresses the spring so it rides out and on to the next notch, in either direction (Southco: 'opens and locks into place at a pre-set angle, usually with a distinctive click'; Elesa). In a ratchet-fitting hinge (sofas, headrests, reclining chairs), a pawl clicks over teeth as you raise the part so it holds at each step and can't fold back down; to lower it you move it all the way past the last step, where a projection knocks the pawl out of the teeth and a spring holds it clear, so the part can swing freely back to its starting position (Lear headrest patent US5236245A; US3232136 describes a similar release at the end of travel). A bistable variant uses a spring that pushes the door to one of two end positions (Southco). Hinges that must lock solid, not just click, can borrow three classic locks from leg-brace (orthotic) knee joints, described here only as hinge-lock ideas for maker projects: the drop-ring lock (ring catch), a sliding ring that is lowered over the joint to lock it and lifted to release it; the bail lock (also called a Swiss, French, pawl or bar lock), where one bar joins the release levers of a pair of side hinges so a single push unlocks both at once; and the dial lock (variable-position locking joint), which can be locked at a chosen angle rather than only when straight (EP0016268; 'Orthotic Knee Joints' slides 12-14).
 
 ### Finder attributes
 
@@ -644,6 +646,8 @@
   - The load the detent must hold depends on the lid's weight and how far its centre of gravity is from the hinge axis: a light lid with a far centre of gravity can feel like a heavier lid with a near one (Southco 'How to Select the Right Level of Torque').
   - Southco C6/G6 detent hinges are rated from -40 °C to 80 °C (Southco product page).
   - Plastic springs used continuously under load creep and relax; springs under constant load should be steel (DuPont, p. 36).
+  - Spring-load a hinge lock into its locked position: plain manual ring catches without a spring 'may accidentally be shaken out of engagement' (EP0016268), and a bail lock 'can unlock accidently if bumped' ('Orthotic Knee Joints' slides, slide 13); a spring that pushes the drop ring down also means it locks by itself ('Orthotic Knee Joints' slides, slide 12).
+  - A spring-loaded locking plunger whose face is a slight wedge (about 10 degrees in EP0016268) wedges against its lock face with 'minimal play', and as the faces wear it simply slides further in, so wear is taken up instead of turning into play (EP0016268, which allows 1.5 mm or more of extra travel for this).
 
 ### When to use it
 
@@ -654,7 +658,7 @@
 - **when_to_use**: Use a detent hinge when a lid, door, flap, leg or backrest should stop and stay at one or a few known angles without a separate stay or catch, and when a click that tells the user 'this is the right position' is helpful: equipment covers opened for service, display stands, folding supports, adjustable headrests and backrests. It is quicker than tightening a knob and more repeatable than a friction hinge. For 3D-printed boxes and stands, a detent hinge with a flexible insert or springy arm adds positions without metal parts.
 - **when_not_to_use**: Avoid it when the user needs any angle in between (use a friction or torque hinge), when the lid is heavy or long, because the detent may be overcome and the lid drop (use a counterbalance hinge, gas strut or lid stay), when the position must be locked against being knocked (use an indexing plunger through the hinge or a locking brace), or when you need fine, play-free angle steps under load (use a Hirth joint clamped by a bolt). For a single end position that must hold firmly, a latch or over-centre lock is better.
 - **environment_limits**: Southco's C6/G6 detent hinges are rated for -40 °C to 80 °C. Printed PLA leaves soften from about 60 °C (CNC Kitchen), and plastic springs or detent arms kept under load creep and lose their hold (DuPont; thrinter). Stainless steel and technopolymer versions suit wet, food and pharmaceutical settings (Elesa). *(unverified parts omitted)*
-- **safety_notes**: Hinges are pinch points, especially ratchet fittings with teeth and moving pawls. On reclining furniture the reset action matters: early backrests could collapse under a seated person, which the ratchet fitting in US3232136 was designed to prevent. Moving a ratchet-fitted headrest to the end of its travel releases the pawl, so it will then swing freely back (US5236245A). *(unverified parts omitted)*
+- **safety_notes**: Hinges are pinch points, especially ratchet fittings with teeth and moving pawls. On reclining furniture the reset action matters: early backrests could collapse under a seated person, which the ratchet fitting in US3232136 was designed to prevent. Moving a ratchet-fitted headrest to the end of its travel releases the pawl, so it will then swing freely back (US5236245A). The drop-ring, bail and dial locks described above come from leg braces; a printed or home-made hinge lock is not a brace and must never be used to support a person's limb. *(unverified parts omitted)*
 - **common_failures**: The lid is too heavy or too long for the hinge's holding torque, so it won't stay open (Southco's centre-of-gravity point). The flexible TPU insert wears or is too soft, fixed by printing a harder version (Printables 'Clicking Hinge'). A ratchet fitting doesn't reset, or releases unexpectedly at the top of its travel (US5236245A). Avoid these by checking the torque needed, using two hinges or a stay for big lids, letting springs rest unloaded in each position, and choosing tough materials. *(unverified parts omitted)*
 - **related**: 
   - Friction hinge (torque hinge): holds at any angle by friction, with no clicks
@@ -708,6 +712,8 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://www.cnckitchen.com/blog/stop-printing-flat-the-45-secret-for-stronger-parts
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://data.epo.org/publication-server/rest/v1.2/patents/EP0016268NWB1/document.html
+  - https://www.slideshare.net/slideshow/orthotic-knee-joints/233011007
 
 ### Other info
 
@@ -717,7 +723,7 @@
 
 *indexing & detents.* Two faces with radial teeth that mesh to lock parts at a chosen angle; loosen, turn to the next tooth, tighten (adjustable arms, camera mounts)
 
-*Also covers:* Also covers the ARRI rosette used on film and camera accessories
+*Also covers:* Also covers the ARRI rosette used on film and camera accessories. Also covers the C-stand grip-head rule (hang the load so its weight tightens the knob).
 
 ### What it is
 
@@ -790,7 +796,7 @@
   - Both halves need the same tooth count; symmetric teeth are best for registration and loads in either direction, and coned teeth need opposite cone angles on the two halves (BOSL2 hirth() documentation).
   - There is no ISO, DIN or AGMA standard for Hirth rings; they are designed and made as mating pairs (Croccolo et al. 2018; Wikipedia).
   - Industrial reference points: 24-720 teeth, 50-900 mm diameter, indexing accuracy 1-2 seconds of arc, repeat accuracy under 0.001 mm (Voith Hirth serrations page).
-  - Hang the load so its weight tightens the clamp handle, not loosens it: 'handle on the right, load on the right' for a grip head (Matthews Studio Equipment).
+  - Hang the load so its weight tightens the clamp handle, not loosens it: 'handle on the right, load on the right' for a grip head (Matthews Studio Equipment). Wikipedia 'C-stand' gives the same rule: set the gear to one side of the grip head so its weight turns the locking knob clockwise ('righty tighty'), or the weight slowly loosens the head until the gear drops.
 
 ### When to use it
 
@@ -802,7 +808,7 @@
 - **when_to_use**: Use it for any adjustable arm, bracket or mount that must hold its angle firmly under load, where set steps are fine and you want to find the same setting again: camera and phone mounts, light and monitor arms, sensor or webcam brackets, tripod and tool attachments, folding stands, or rotating fixtures on a workbench. It is also a strong, play-free way to join two shaft pieces or a hub to a shaft that must come apart for servicing, and to make a rotating table lock precisely at fixed positions.
 - **when_not_to_use**: Avoid it when you need any angle, not steps (use a friction clamp, a lockable ball head or a clamping hub), when the joint must move freely while in use (use a hinge or bearing), or when you need quick snap-to-position clicks without a screw (use a ball detent or detent hinge). Don't rely on it where a person can't retighten it and it could loosen through vibration without a locking method; add a thread-locking screw or spring. For a one-way ratchet feel use a face ratchet, and for drive that engages and disengages while running use a dog clutch.
 - **environment_limits**: Heat: PLA softens and deforms above about 60 °C (Prusa), so use PETG, ASA or nylon near lamps and in cars; diystrument recommends a heat deflection temperature of at least 70 °C for studio lights. Plastic under a constant clamping force slowly creeps and loses some clamp (in Thrinter's test none of the printed clips fully recovered their shape after a day under stress), so printed joints may need retightening. Rust, dirt and wear raise the friction between the teeth, which stops them centring properly (Croccolo et al.). Vibration: if the clamp is loose the teeth can rub and wear (fretting); Wikipedia notes tightness can be restored by retightening. Water, UV and chemicals: no limits beyond those of the material used.
-- **safety_notes**: A joint that is not fully tightened, or has worn teeth or a stripped thread, can let go suddenly and drop what it holds; film-set grip heads that slip can swing a flag onto an actor (Matthews Studio Equipment). *(unverified parts omitted)*
+- **safety_notes**: A joint that is not fully tightened, or has worn teeth or a stripped thread, can let go suddenly and drop what it holds; film-set grip heads that slip can swing a flag onto an actor (Matthews Studio Equipment). Load it so the weight tightens the handle: on a C-stand grip head the gear must hang to the side that makes its weight turn the locking knob clockwise, or the weight slowly loosens the head and 'eventually' drops the gear (Wikipedia 'C-stand'). *(unverified parts omitted)*
 - **common_failures**: 1) Slipping or jumping a tooth under load because the screw is too loose, the teeth are worn, or the thread is stripped (Matthews Studio Equipment): tighten fully, replace worn parts, use metal threads or inserts. 2) Rocking or not seating flat because the printed tooth geometry is wrong (lendres): generate teeth with a proper tool. 4) Printed pins or thin sections breaking from fatigue, especially when over-tightened (diystrument): use metal fasteners and thicker walls. 5) Plastic creep or heat softening loosening the clamp: choose a heat-resistant material and retighten. 6) Loss of centring accuracy from high friction caused by wear or rust (Croccolo et al.). 7) Mismatched halves (different tooth counts or cone angles) that never mesh (BOSL2). *(unverified parts omitted)*
 - **related**: 
   - Face ratchet (star ratchet): also teeth on the end faces, but saw-shaped so it turns one way and clicks over the other; a Hirth joint's symmetric teeth lock both ways
@@ -813,6 +819,7 @@
   - Ball detent or detent hinge: clicks into positions but can be forced past them, so it does not lock
   - Lockable ball head (ball-and-socket joint): holds any angle in several directions by friction, but can slip under heavy load
   - Kinematic coupling (balls in V-grooves): also returns to exactly the same position when refitted, but uses only three contact points and is not for torque
+  - Tripod and stand screw mount: the single standard thread (1/4-20 or 3/8-16) or stand spigot that rosettes and grip heads are often fixed with; it uses anti-twist pins rather than teeth to stop the part turning
 
 ### Pictures, videos and models
 
@@ -857,6 +864,7 @@
   - https://www.youtube.com/watch?v=jiHUEhja9V0
   - https://help.prusa3d.com/article/pla_2062
   - http://thrinter.com/creep-abs-pla-petg-alloy-910/
+  - https://en.wikipedia.org/wiki/C-stand
 
 ### Other info
 

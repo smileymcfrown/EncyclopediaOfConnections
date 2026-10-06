@@ -6,6 +6,8 @@
 
 *cord, strap, webbing & textile hardware.* Two spring-loaded toothed cams that let a rope pull through one way and grip it the other way; lift the rope up and out to release
 
+*Also covers:* Also covers the plain horn cleat and its cleat hitch as the basic version.
+
 ### What it is
 
 - **plain_name**: A rope holder with two springy toothed jaws side by side: pull the rope back between them and it slides through, let go and the teeth bite and hold it, then flick the rope up and out to free it
@@ -23,7 +25,7 @@
 - **other_families**: one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, tensioning, reels & take-up, knots, lashings & sewn joints
 - **one_liner**: A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.
 - **complexity**: A small assembly that acts as one unit: a base plate with two pivot posts; two toothed cams (jaws, which Harken calls pawls); one or two torsion springs per cam; and, on better cleats, ball bearings (Harken's standard 150 uses 66 small Delrin balls in three rows), washers and cam caps. Often fitted with add-ons: a fairlead (guide loop) over the jaws, a riser or a 15° wedge. Some designs gear the two cams together so they open and close as a mirrored pair (US 4,620,499).
-- **how_it_works**: Two cams sit side by side on pivots, and springs turn them so their toothed, curved faces meet in the middle. The curve is off-centre (eccentric): the teeth get further from the pivot along the cam, so turning the cams one way widens the gap and turning them the other way narrows it (US 4,620,499). Pulling the rope toward you drags the teeth the opening way and the rope slides through; when the load pulls back, the rope drags the teeth the closing way and wedges itself in, so 'as the load on the line increases, the cams' pressure and grip increase as well' (SAIL Magazine). German Wikipedia notes the jaws usually follow a logarithmic spiral so the rope is gripped at the same angle whatever its diameter. To free it you tension the tail and lift it up and out of the jaws (Upffront, Wikipedia).
+- **how_it_works**: Two cams sit side by side on pivots, and springs turn them so their toothed, curved faces meet in the middle. The curve is off-centre (eccentric): the teeth get further from the pivot along the cam, so turning the cams one way widens the gap and turning them the other way narrows it (US 4,620,499). Pulling the rope toward you drags the teeth the opening way and the rope slides through; when the load pulls back, the rope drags the teeth the closing way and wedges itself in, so 'as the load on the line increases, the cams' pressure and grip increase as well' (SAIL Magazine). German Wikipedia notes the jaws usually follow a logarithmic spiral so the rope is gripped at the same angle whatever its diameter. To free it you tension the tail and lift it up and out of the jaws (Upffront, Wikipedia). The basic version with no moving parts is the horn cleat, the traditional fitting with two 'horns' (Wikipedia 'Cleat (nautical)'): the rope is made fast with a cleat hitch (ABOK #1615), a turn round the far horn, figure-eight crossings over the top and often a final locking half hitch (Wikipedia 'Cleat hitch'; Animated Knots 'Cleat Hitch (Dock Line)'). It holds bigger loads and can't be flicked loose, but it is slower to tie and untie.
 
 ### Finder attributes
 
@@ -74,6 +76,7 @@
   - Tooth shape from Helms's extruded cam cleat patent (US 3,730,129): tooth tips rounded to about 10 mils (0.25 mm), with 5-30 mils (0.13-0.76 mm) satisfactory; the rear face of each tooth at about 90° (85-95°) to the cam arc; and the cam arc's centre set back about one-third of its radius and out about one-sixth, giving a fairly flat arc so 'at least four teeth of each jaw' grip the line.
   - Strength is rarely the limit; release is. In Practical Sailor's 1992 test of 16 cleats the best 'easily withstood a 1,000-lb linear pull, without slipping', but freeing a heavily loaded line is hard and risky (Practical Sailor).
   - Blunter teeth are kinder to rope: early cam cleats' 'too-sharp cam teeth chewed voraciously on any line', and makers moved to 'blunter, more line-lenient teeth' (Practical Sailor).
+  - If you use a horn cleat instead: lead the rope round the far horn first, because 'starting round the wrong horn increases the risk of a Cleat Hitch jamming'; don't take a full round turn under the first horn, which can jam so the rope can't be released while loaded; two figure-eight crossovers are 'the bare minimum, and only for temporary use in sheltered conditions'; and leave off the final locking half hitch on lines that must be let go quickly, such as towlines and sail sheets (Animated Knots 'Cleat Hitch (Dock Line)').
 
 ### When to use it
 
@@ -87,13 +90,14 @@
 - **common_failures**: Line pops out of the cams: the lead is not fair; add a riser, wedge or fairlead so the line enters straight (Harken). Cams do not snap shut: springs damaged or missing; replace them (Harken). Line drops out of an upside-down cleat: fit a second spring per cam (Harken). Stiff or uneven cam motion: dirt or salt, or missing bearing balls; flush with fresh water and refit the right number of balls (Harken). Cams bind after fitting: mounting screws over-tightened (Harken). Rope slips: rope too thin, worn, slippery or outside the rated range, or teeth worn smooth; use the right cleat size and replace worn parts. Rope fuzzes or wears: sharp teeth; choose line-friendly cleats (Practical Sailor's abrasion tests rated Harken Carbo-Cam, Ronstan C-Cleat, Spinlock PX and RWO Carbocleat best).
 - **related**: 
   - Clam cleat (grooved V-cleat): one solid piece with no springs, more compact and cheaper, but the rope is less easily released under load (Wikipedia); in Practical Sailor's 1997 abrasion test Clamcleats and Ronstan V-Cleats wore rope less than cam cleats
-  - Horn cleat with a cleat hitch: slower to tie and untie, but holds higher loads and can't be knocked loose by accident
+  - Hitches to a post, rail, ring or eye: includes the cleat hitch on a horn cleat, slower to tie and untie, but holds higher loads and can't be knocked loose by accident
   - Rope clutch or jammer: a lever-operated cam that holds higher loads for longer, such as halyards, and releases under load (Upffront)
   - Rope grab and ascender (cam rope clamp): a single toothed cam presses the rope against a fixed wall, for climbing and hauling
   - Cord lock (spring toggle): a spring plunger that pinches a thin cord, for very light loads
   - Cam buckle (webbing cam buckle): the same one-way toothed-cam idea for flat straps, released by pressing a lever
   - Binding-plate lock (tilting friction plate): a tipped plate wedges on a rod instead of cams wedging a rope
   - Sprag clutch: the same wedge-tighter-under-load principle, used between rotating shafts
+  - Tensioning and adjustable hitches: knots such as the trucker's hitch and taut-line hitch that pull a line tight and hold it with no hardware at all
 
 ### Pictures, videos and models
 
@@ -134,6 +138,8 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
   - https://help.prusa3d.com/article/asa_1809
+  - https://en.wikipedia.org/wiki/Cleat_hitch
+  - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 
 ### Other info
 
@@ -142,6 +148,8 @@
 ## 122 Clam cleat (grooved V-cleat)
 
 *cord, strap, webbing & textile hardware.* A block with ridged V-shaped grooves that jams a rope pulled into it and releases when the rope is lifted out; no moving parts
+
+*Also covers:* Also covers the plain horn cleat and its cleat hitch as the basic version.
 
 ### What it is
 
@@ -161,7 +169,7 @@
 - **other_families**: one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, tensioning, reels & take-up, knots, lashings & sewn joints
 - **one_liner**: A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.
 - **complexity**: single piece: one moulded or cast block (two ridged walls joined by a base), fixed with two screws or bolts. Some versions add a built-in fairlead (guide loop) that steers the rope into the teeth, a becket (a loop to tie a rope end to), a cage or keeper that holds the rope near the cleat, or a tapered pad to set the angle.
-- **how_it_works**: The groove narrows toward the bottom, and both walls carry ridges that slope toward the end the load pulls from (45° in Reginald Emery's original design, US 3,574,900). When a tensioned rope is laid in and the load pulls it along the groove, the sloping ridges drag it down into the narrowing V, so 'the stronger the pull, the more the rope is forced into the V-shaped slot and hence the firmer is the grip' (US 3,574,900). Nothing moves except the rope, so there are no springs to break or seize (Ronstan). To release, pull the tail 'upward and backward' so the rope rides up the ridges and out of the mouth of the groove (Ronstan; US 3,574,900).
+- **how_it_works**: The groove narrows toward the bottom, and both walls carry ridges that slope toward the end the load pulls from (45° in Reginald Emery's original design, US 3,574,900). When a tensioned rope is laid in and the load pulls it along the groove, the sloping ridges drag it down into the narrowing V, so 'the stronger the pull, the more the rope is forced into the V-shaped slot and hence the firmer is the grip' (US 3,574,900). Nothing moves except the rope, so there are no springs to break or seize (Ronstan). To release, pull the tail 'upward and backward' so the rope rides up the ridges and out of the mouth of the groove (Ronstan; US 3,574,900). The basic version with no moving parts is the horn cleat, the traditional fitting with two 'horns' (Wikipedia 'Cleat (nautical)'): the rope is made fast with a cleat hitch (ABOK #1615), a turn round the far horn, figure-eight crossings over the top and often a final locking half hitch (Wikipedia 'Cleat hitch'; Animated Knots 'Cleat Hitch (Dock Line)'). It holds bigger loads and can't be flicked loose, but it is slower to tie and untie.
 
 ### Finder attributes
 
@@ -206,6 +214,7 @@
   - Nylon cleats suit light loads; where 'high loads or surges are encountered aluminium cleats are recommended' (Ronstan).
   - Don't tension by dragging the rope back through the teeth: it 'will quickly burn out a nylon cleat'; alloy cleats cope, as long as the rope is clean (Clamcleat FAQ text reproduced by Mastrant).
   - Where the rope can't be led straight in, use a cleat with an integral fairlead: the Clamcleat CL231 guides rope into the teeth 'from up to 90 degrees' (Premium Ropes).
+  - If you use a horn cleat instead: lead the rope round the far horn first, because 'starting round the wrong horn increases the risk of a Cleat Hitch jamming'; don't take a full round turn under the first horn, which can jam so the rope can't be released while loaded; two figure-eight crossovers are 'the bare minimum, and only for temporary use in sheltered conditions'; and leave off the final locking half hitch on lines that must be let go quickly, such as towlines and sail sheets (Animated Knots 'Cleat Hitch (Dock Line)').
 
 ### When to use it
 
@@ -221,12 +230,13 @@
 - **common_failures**: Slipping: rope too thin for the groove, worn or glazed, or not pressed down far enough to reach all the ridges (up to 50% less holding, US 5,675,872); fix by using the right cleat size and seating the rope fully. Ridges burnt or worn smooth: rope dragged back through the teeth under load, or sandy rope (Mastrant); use aluminium or hard-anodised cleats for this kind of use. Rope pops out or won't enter: poor lead angle; add a fairlead, cage or tapered pad, or re-site the cleat. Can't release: too much load for the cleat; take the load off first. Rope fuzz and wear: sharp or damaged ridges.
 - **related**: 
   - Cam cleat: two spring-loaded toothed cams instead of fixed ridges; easier to release under load and better for constant pulling-through, but has springs and moving parts (Wikipedia; Ronstan)
-  - Horn cleat with a cleat hitch: slower, but holds bigger loads and can't be knocked loose
+  - Hitches to a post, rail, ring or eye: includes the cleat hitch on a horn cleat; slower, but holds bigger loads and can't be knocked loose
   - Tapered jam cleat (horn type): the rope is wedged under a tapering horn rather than in a ridged groove (Wikipedia gallery)
   - Guy-line slider (friction line tensioner): a plate with holes that holds a tent line by friction, even simpler and lighter
   - Cord lock (spring toggle): a spring plunger for thin cords
   - Rope clutch or jammer: a lever-operated cam for high, long-held loads
   - Ladder-lock buckle: the flat-webbing equivalent that holds by friction when loaded and slides when tilted
+  - Tensioning and adjustable hitches: knots such as the trucker's hitch and taut-line hitch that pull a line tight and hold it with no hardware at all
 
 ### Pictures, videos and models
 
@@ -264,6 +274,8 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
   - https://help.prusa3d.com/article/asa_1809
+  - https://en.wikipedia.org/wiki/Cleat_hitch
+  - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 
 ### Other info
 
@@ -681,6 +693,8 @@
 
 *cord, strap, webbing & textile hardware.* A spring-loaded plunger in a small barrel that grips a cord passing through it; squeeze to slide and adjust
 
+*Also covers:* Also covers the drawstring itself, threaded through a hem or casing or laced through holes.
+
 ### What it is
 
 - **plain_name**: The little spring-loaded plastic stopper on a hoodie or stuff-sack drawstring: squeeze it to slide it along the cord, let go and it grips the cord where it is
@@ -698,7 +712,7 @@
 - **other_families**: clamping, magnetic & friction connections, self-locking & anti-back-drive, quick-release & tool-free
 - **one_liner**: A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.
 - **complexity**: A few parts: a barrel or body (housing) with a hole across it, a plunger (toggle, piston) with a matching cross hole and a thumb button, and a spring (usually a small metal coil spring). Some designs replace the metal spring with a springy plastic part moulded onto the plunger (e.g. a W-shaped spring in patent US4622723), and some have no spring at all, using a wedge-shaped plunger instead.
-- **how_it_works**: The cord runs through a hole in the barrel and a hole in the plunger. The spring pushes the plunger outward, so its hole sits off-centre from the barrel's holes and the cord is pinched between the edge of the plunger hole and the barrel wall. Friction holds the cord in either direction (a spring-loaded clamp). Pressing the plunger in against the spring lines the holes up, the pinch is released and the lock slides along the cord; let go and it grips again. How hard it grips depends on the spring force and on how well the cord fills the hole.
+- **how_it_works**: The cord runs through a hole in the barrel and a hole in the plunger. The spring pushes the plunger outward, so its hole sits off-centre from the barrel's holes and the cord is pinched between the edge of the plunger hole and the barrel wall. Friction holds the cord in either direction (a spring-loaded clamp). Pressing the plunger in against the spring lines the holes up, the pinch is released and the lock slides along the cord; let go and it grips again. How hard it grips depends on the spring force and on how well the cord fills the hole. The cord it grips is usually a drawstring, a string, rope or lace used to 'draw' (gather or shorten) fabric: it may be threaded through a hem or casing (a continuous tube of material), laced through holes, which may be lined with eyelets, or run through loops, and it is held drawn either by tying its ends or with a cord lock; its ends are often finished with a sheath called an aglet (Wikipedia 'Drawstring').
 
 ### Finder attributes
 
@@ -754,7 +768,7 @@
 - **when_to_use**: When you want to cinch a cord or drawstring and have it stay put without a knot, and loosen it with one squeeze: hoods, hems, stuff sacks, shock-cord lacing, lanyards, headlamp bands and simple cord tensioning on light gear. Good with gloves on or cold fingers, which is why mountaineers use them (Wikipedia).
 - **when_not_to_use**: Not for holding real loads, such as guy lines in wind, hanging things or tie-downs: use a guy-line slider, a cam cleat, a knot or a buckle. Not on drawstrings in the hood or neck area of young children's clothing, where cords are a strangulation and entrapment hazard (EN 14682 in Europe prohibits them there for young children). Not in salt water with cheap steel springs (choose stainless). For flat webbing use a ladder lock or cam buckle instead.
 - **environment_limits**: Cheap steel springs rust in salt water and lose grip. All-plastic enclosed locks can jam with salt, pollen and dirt. Stainless springs survived a 6-week salt-water test (informal forum test). PLA printed parts warped in a washer and dryer, while ABS was fine. A drawcord that is too thin or slippery for the hole will not hold at all. *(unverified parts omitted)*
-- **safety_notes**: Drawstrings and cords on children's clothing are a strangulation and entrapment risk. The European standard EN 14682 prohibits drawstrings and functional cords in the hood and neck area of clothes for young children (its strictest rules apply under 7 years) and also sets rules for toggles; more than 3,100 recalls of children's clothing with dangerous cords appear on the EU Safety Gate system. The small parts and springs are a choking hazard. The springs are small and can fly out if a lock is forced apart.
+- **safety_notes**: Drawstrings and cords on children's clothing are a strangulation and entrapment risk. The European standard EN 14682 prohibits drawstrings and functional cords in the hood and neck area of clothes for young children (its strictest rules apply under 7 years) and also sets rules for toggles; more than 3,100 recalls of children's clothing with dangerous cords appear on the EU Safety Gate system. The small parts and springs are a choking hazard. The springs are small and can fly out if a lock is forced apart. In the US, the Consumer Product Safety Commission issued guidelines on drawstrings in children's upper outerwear in 1996, and it received reports of 22 deaths and 48 non-fatal incidents from children's clothing drawstrings between 1985 and 1999 (Wikipedia 'Drawstring').
 - **common_failures**: (1) It won't hold: the cord is too thin for the hole, the spring is too weak (common in cheap 'ball' types), or the cord is slippery. Fix it by using a smaller or stiffer-spring lock, double the cord, or use thicker cord. (2) The spring rusts or loses its springiness, especially in salt water; choose stainless springs and rinse the lock. (3) It jams with dirt, salt or ice; rinse and work it. (4) The plunger falls out or the body cracks (cheap plastic, or a printed part with low infill); choose good acetal parts, or print at 100% infill with a snap-captured plunger. (5) The cord frays at sharp hole edges; round the edges or choose a smoother lock. (6) The cord end pulls back out through the lock; knot the end or add a cord end cap.
 - **related**: 
   - Guy-line slider (friction line tensioner): holds a cord by friction around a plate with holes, with no spring; for tent guy lines
@@ -764,6 +778,8 @@
   - Knot or cord end: permanent or fixed stop with no adjustment
   - Spring plunger (ball detent): the same 'spring pushes a plunger' idea used to hold parts in position, not to grip a cord
   - Ratcheting reel closure (dial lacing): tightens a lace with a clicking reel for higher, repeatable tension
+  - Lacing: a cord threaded back and forth through rows of holes or eyelets, one of the ways a drawstring is run; a cord lock can hold its ends instead of a bow
+  - Eyelets and grommets: the metal or plastic rings that line the holes a drawstring or lace runs through
 
 ### Pictures, videos and models
 
@@ -795,6 +811,7 @@
   - https://api.printables.com/graphql/
   - https://www.printables.com/model/213436-generic-spherical-cord-lock-cord-stopper-drawstrin (read via https://api.printables.com/graphql/)
   - https://www.youtube.com/watch?v=N9SbpknBo1g (verified via YouTube oEmbed)
+  - https://en.wikipedia.org/wiki/Drawstring
 
 ### Other info
 
@@ -1024,7 +1041,7 @@
 - **safety_notes**: This is life-safety equipment: learn it from a qualified instructor (Petzl; Alpinesavvy). A single ascender can come off the rope while unloaded or moving: the safety catch can open by accident, branches, pack straps or clothing can hold the cam open, and a carabiner can open by rubbing (Petzl), so always stay connected by two points. Keep slack out between clamp and anchor: a fall onto a toothed cam can strip the sheath or cut the rope (Kane 2011). Replace any fall-arrest device that has held a fall (3M). Printed rope grabs are 'NOT INTENDED AS A LIFE SAFETY DEVICE' (Wiseone, Printables) and must not hold people or anything heavy above people or animals (interactive3, Printables). *(unverified parts omitted)*
 - **common_failures**: Slips: rope too thin, icy or muddy, teeth worn smooth, or the cam held open by a hand, strap or branch (Petzl). Comes off the rope: safety catch opened while climbing, or the device moved while unloaded (Petzl). Rope damaged or cut: a fall or shock load onto a toothed cam (Kane 2011), or teeth catching only part of the sheath, which the Tibloc avoids by pressing the carabiner against the rope (Petzl). Won't release: it is loaded; take the load off first, which may need a hauling system (Petzl notice). Frame bends after repeated impacts (Kane retired test ascenders when the frame beside the cam bent). Printed versions: the anvil flexes and the cam over-rotates under heavy load (Nikdfish, Printables).
 - **related**: 
-  - Friction hitch (Prusik knot): a cord loop that grips when loaded and slides when relaxed; slower but slips and fuses rather than shredding the rope, and held about 14 kN in the USFA tests
+  - Tensioning and adjustable hitches: friction hitches such as the Prusik knot, a cord loop that grips when loaded and slides when relaxed; slower, but slips and fuses rather than shredding the rope, and held about 14 kN in the USFA tests
   - Cam cleat: two toothed cams side by side hold a rope pulled through them; mounted in place instead of riding along the rope
   - Clam cleat (grooved V-cleat): a grooved V with no moving parts that jams a rope
   - Cam buckle (webbing cam buckle): the same toothed-cam idea for flat straps
@@ -1174,8 +1191,9 @@
   - Ratcheting reel closure (dial lacing system): a small ratchet that winds a lace onto a spool, released by hand
   - Linear ratchet (cable-tie ratchet): a toothed strip that tightens one way, usually permanent
   - Turnbuckle: tightens a rod or cable with a screw; slower but compact and permanent
-  - Trucker's hitch: a rope knot giving a pulley-like pull to tension a rope without hardware (Wikipedia 'Web lashing assembly' see-also)
+  - Tensioning and adjustable hitches: the trucker's hitch, a rope knot giving a pulley-like pull to tension a rope without hardware (Wikipedia 'Web lashing assembly' see-also)
   - Bungee cord: elastic tie-down with little force and a snap-back hazard (Wikipedia 'Bungee cord')
+  - Wire-rope terminations: wire-rope clips, thimbles and crimped sleeves, for tie-downs and lashings made of steel cable instead of webbing
 
 ### Pictures, videos and models
 
@@ -1186,10 +1204,10 @@
   - [Web lashing assembly (Wikipedia)](https://en.wikipedia.org/wiki/Web_lashing_assembly): Article with photos of a ratchet tie-down strap, a custom-made strap and a strap securing a pallet *(licence: text CC BY-SA 4.0; images per file)*
   - [Label Explanation (LoadLok)](https://loadlok.com/pages/label-explanation): Annotated EN 12195-2 strap label explaining LC, SHF, STF, elongation and 'not for lifting' *(licence: link only)*
 - **make_it_yourself**: 
-  - [Strap Ratchet no supports snaps together mountable (neotoy, Printables)](https://www.printables.com/model/1756442-strap-ratchet-no-supports-snaps-together-mountable (URL from Printables API, page not opened)): Printable snap-together strap ratchet with a spool and locking key; about 2 hours and 70 g of filament *(licence: Open Community License v1)*
-  - [Paracord Tensioner/Ratchet (Mountainstorm, Printables)](https://www.printables.com/model/1306457-paracord-tensionerratchet (URL from Printables API, page not opened)): Enclosed ratchet tensioner for paracord with a latch-open release; needs M3 bolts and a small rubber band as the pawl spring *(licence: Public domain (CC0))*
-  - [Ratchet wire tensioner Hex (Vivishka, Printables)](https://www.printables.com/model/723778-ratchet-wire-tensioner-hex (URL from Printables API, page not opened)): Tiny ratchet spool tensioner for Kevlar string, fishing line or fine wire, turned with a 1/4 in hex socket; lifts about 5 kg *(licence: CC BY-SA)*
-  - [Strap tensioner - load optimized (HD_Creator, Printables)](https://www.printables.com/model/121221-strap-tensioner-load-optimized (URL from Printables API, page not opened)): Printable 25 mm and 20 mm friction strap tensioner (not a ratchet), load-tested to 120 kg in PLA and PETG; useful to compare with a ratchet *(licence: Public domain (CC0))*
+  - [Strap Ratchet no supports snaps together mountable (neotoy, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1756442-strap-ratchet-no-supports-snaps-together-mountable): Printable snap-together strap ratchet with a spool and locking key; about 2 hours and 70 g of filament *(licence: Open Community License v1)*
+  - [Paracord Tensioner/Ratchet (Mountainstorm, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1306457-paracord-tensionerratchet): Enclosed ratchet tensioner for paracord with a latch-open release; needs M3 bolts and a small rubber band as the pawl spring *(licence: Public domain (CC0))*
+  - [Ratchet wire tensioner Hex (Vivishka, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/723778-ratchet-wire-tensioner-hex): Tiny ratchet spool tensioner for Kevlar string, fishing line or fine wire, turned with a 1/4 in hex socket; lifts about 5 kg *(licence: CC BY-SA)*
+  - [Strap tensioner - load optimized (HD_Creator, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/121221-strap-tensioner-load-optimized): Printable 25 mm and 20 mm friction strap tensioner (not a ratchet), load-tested to 120 kg in PLA and PETG; useful to compare with a ratchet *(licence: Public domain (CC0))*
 - **diagram_idea**: Exploded side view of a ratchet buckle showing the frame, the slotted spool with its toothed wheel, the handle pawl pushing the teeth round on the up-stroke and the frame's locking pawl stopping it turning back, with the webbing wound 1.5-3 turns on the spool and a second view of the handle swung open 180 degrees lifting both pawls to release.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Web_lashing_assembly
@@ -1293,8 +1311,7 @@
 - **safety_notes**: Few hazards. A runner that slips lets a tent or tarp sag or flap in wind, so don't use one where a slipping line could drop something on people. Guy lines are hard to see at night and easy to trip over, which is why reflective guy cords are sold (e.g. Sharp-edged runners, especially cheap metal ones or unsanded prints, can fray cord until it breaks (Vorpal). *(unverified parts omitted)*
 - **common_failures**: Slipping: cord too thin or slick for the runner, or a brand-new coated cord (Backpacking Light; Hammock Forums); use the rated cord size, let new cord wear in, or add a half hitch. Cord pulls out: no stopper knot in the end (Hilleberg, Lawson); tie an overhand knot. Won't slide: cord too thick or fuzzy, or a burred hole; match sizes and smooth edges. Frayed cord: sharp hole edges (Vorpal); sand, chamfer or tumble them. Frozen or stuck in winter (Andrew Skurka); switch to knots or thaw it. Lost runner: without it you must fall back on knots. *(unverified parts omitted)*
 - **related**: 
-  - Taut-line hitch and adjustable grip hitch: knots that do the same job, sliding when slack and holding when loaded, with no hardware to lose, but slower to adjust and hard to make hold in slick modern fibres (Wikipedia)
-  - Trucker's hitch and McCarthy hitch: knots with a built-in pulley effect (mechanical advantage) for pulling a line much tighter, then tied off with a slipped half hitch; no hardware, but they use more cord (Andrew Skurka)
+  - Tensioning and adjustable hitches: the taut-line and adjustable grip hitches do the same job as a runner, sliding when slack and holding when loaded, with no hardware to lose, but they are slower to adjust and hard to make hold in slick modern fibres (Wikipedia); the trucker's and McCarthy hitches add a built-in pulley effect (mechanical advantage) for pulling a line much tighter, then are tied off with a slipped half hitch, but use more cord (Andrew Skurka)
   - Cord lock (spring toggle): a spring-loaded plunger pinches the cord; for drawstrings rather than tensioned lines
   - Clam cleat and cam cleat (including the Line-Lok's toothed groove): grooves or spring cams that grip rope harder under load, for thicker rope and frequent one-handed release
   - Ladder-lock buckle and tri-glide: the same slide-and-friction idea for flat webbing straps
@@ -1432,9 +1449,9 @@
 - **common_failures**: Won't release under load: plain pelican hooks and ordinary snap shackles jam when heavily loaded (US 5,195,223; Wikipedia 'Shackle'); choose a release designed to open under load and keep it lubricated. Pin or split ring breaks when forced (Wikipedia 'Shackle'; captnmike.com): take the load off first, or use a lanyard or spike. Opens by accident: ring or pin not fully seated (captnmike.com), wear or poor cable adjustment (Safety4sea), or a latch knocked or snagged; seat the latch fully and add a keeper or backup. Three-ring cutaway is hard or fails: mis-rigged rings, stiff or twisted risers, dirty or cracked cable (Wikipedia); flex, inspect and lubricate regularly. Corrosion and pitting in marine stainless (Practical Sailor). Printed release cracks from the shock of a heavy release (firstgizmo).
 - **related**: 
   - Spring-gate hook (carabiner, snap hook): the same hook-and-gate idea, but the gate cannot be opened while loaded; for joining rather than releasing
-  - Screw-pin and bolt shackles (D-shackles): stronger and more secure, but need a pin unscrewed with the load off
+  - Shackle and quick link: screw-pin and bolt shackles (D-shackles) and screw-closed quick links; stronger and more secure, but need a pin or sleeve unscrewed with the load off
   - Quick-release pin (ball-lock pin): a push-button pin through a clevis; releases a pinned joint rather than a hook
-  - Toggle and becket, soft shackle: rope versions that can be undone by hand, usually without load
+  - Rope splices: include the soft shackle, a rope loop closed by a knot; it and the toggle and becket are rope versions that can be undone by hand, usually without load
   - Cam cleat and clam cleat: let a rope run free with one flick, but only for loads a person can hold
   - Shear-pin coupling (breakaway link): lets go automatically at a set overload instead of on command
   - Draw latch (over-centre latch): a lever that snaps shut and flips open, for lids and panels rather than rope loads
@@ -1571,8 +1588,7 @@
 - **common_failures**: Gate sticks or doesn't close fully: dirt, grit or a tired spring; clean, oil the hinge and check it snaps shut (DMM). Twist-lock sleeve jammed after being tightened under load (Wikipedia). Accidental opening: a rope or edge pushes the gate (roll-out; OSHA), gate flutter or shutter (WeighMyRack), or a sleeve left unlocked; use lockers or orient the gate away from rock and edges. Breaks below its rating: cross-loaded, off-axis or nose-hooked (Black Diamond QC Lab). Worn grooves and sharp edges that damage rope (DMM). Cheap zinc or plastic snaps bend or break under loads they were never rated for (Wikipedia 'Bolt snap'). Printed clips: gate cracks at its flex point if printed too hot or in brittle material, or the body splits along layers if printed standing up (n.leinad; Doormat_1).
 - **related**: 
   - Quick-release hooks (pelican hook, snap shackle, three-ring release): can be opened while the load is still pulling, which a spring-gate hook cannot
-  - Quick link (maillon): a screw-closed link that is stronger across its gate but slower to open (listed under 'See also' in Wikipedia's 'Carabiner')
-  - D-shackle and pin shackle: bolt-closed and stronger, needing a pin to be unscrewed
+  - Shackle and quick link: the quick link (maillon), 'a metal link, similar to a carabiner' closed by a threaded sleeve instead of a hinged gate (Wikipedia 'Maillon'), is stronger across its gate but slower to open (also listed under 'See also' in Wikipedia's 'Carabiner'); D-shackles and pin shackles are bolt-closed and stronger, needing a pin to be unscrewed
   - S-hook and open hook: no gate at all, so things can fall off
   - Cantilever snap fit: the same springy-latch idea moulded into plastic parts
   - Side-release buckle: a springy plastic latch for joining two straps, released by squeezing
@@ -1613,6 +1629,7 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
   - https://help.prusa3d.com/article/asa_1809
+  - https://en.wikipedia.org/wiki/Maillon
 
 ### Other info
 
@@ -1882,6 +1899,8 @@
 
 *cord, strap, webbing & textile hardware.* The everyday belt buckle with a prong, buttons and toggles in loops; the strap and textile baseline
 
+*Also covers:* Also covers sewn garment hooks and eyes and sew-on snaps.
+
 ### What it is
 
 - **plain_name**: The everyday ways to close a strap or a piece of clothing: a belt buckle whose little metal pin pokes through one of a row of holes in the strap, a button that slips through a slit or a loop, and a short bar (toggle) that is pushed endways through a loop and then turned sideways so it can't slip back
@@ -1895,11 +1914,13 @@
   - buttonhole: machine-made, hand-worked, bound, keyhole (Wikipedia 'Buttonhole'); button loop (ISBE/CAERT)
   - toggle, toggle button, duffle-coat toggle, toggle-and-rope fastening (Wikipedia 'Button' and 'Duffel coat'); Knebelknopf (German, as used in a Printables model title)
   - frog, frog closure, Chinese frog, pankou, decorative toggle; Chinese button knot or Chinese ball button with a loop; frogging (Wikipedia 'Frog (fastening)'; ISBE/CAERT)
+  - hook-and-eye closure: a metal hook, 'commonly wire bent to shape', and an eye sewn to opposite edges; also sold as hook-and-eye tape (Wikipedia 'Hook-and-eye closure')
+  - sew-on snap, sew-on press stud (a snap fastener attached by sewing instead of riveting or snap pliers; Wikipedia 'Snap fastener')
 - **family**: cord, strap, webbing & textile hardware
 - **other_families**: quick-release & tool-free
 - **one_liner**: The oldest and simplest ways to close a strap or garment by hand: a prong buckle, whose pin goes through a hole in the strap so the strap can be set to one of several lengths; a button, which is wider than the slit or loop it passes through; and a toggle, a short bar on a cord that goes endways through a loop and is then turned crossways.
 - **complexity**: A few parts. Prong buckle: frame, bar, prong (tongue) and sometimes a chape (the plate that holds the strap end), plus a strap with a row of holes and usually a keeper loop for the loose end (Wikipedia 'Buckle' and 'Belt (clothing)'). Button: button (sew-through or shank), sewing thread, and a stitched buttonhole or a loop of cord or fabric on the other side. Toggle and loop: a short bar of wood, horn or plastic with a cord attached at its middle, and a loop of cord, fabric or leather on the other side.
-- **how_it_works**: All three hold by shape: something is pushed through an opening and then can't pull back out while the strap or fabric is under tension. In a prong buckle the strap is threaded through the frame and the prong is pushed through a hole, so the pull of the strap presses the hole against the prong and the prong against the frame; to open it you first take the tension off, then lift the prong out (Wikipedia 'Buckle'). A button is wider than its slit: the pull on the closed garment drags the button to the end of the buttonhole nearest the edge, which is why tailored coats have a round 'keyhole' there for the button's shank (Wikipedia 'Buttonhole'); a short stem of wound thread (thread shank) lifts the button so the other layer of fabric fits underneath (ISBE/CAERT). A toggle is 'passed endways through a hole and then rotated sideways' (Wikipedia 'Button'), so it catches across the loop. A belt holding up trousers also works partly by friction and by squeezing the waist, which is narrower than the hips (Wikipedia 'Belt (clothing)').
+- **how_it_works**: All three hold by shape: something is pushed through an opening and then can't pull back out while the strap or fabric is under tension. In a prong buckle the strap is threaded through the frame and the prong is pushed through a hole, so the pull of the strap presses the hole against the prong and the prong against the frame; to open it you first take the tension off, then lift the prong out (Wikipedia 'Buckle'). A button is wider than its slit: the pull on the closed garment drags the button to the end of the buttonhole nearest the edge, which is why tailored coats have a round 'keyhole' there for the button's shank (Wikipedia 'Buttonhole'); a short stem of wound thread (thread shank) lifts the button so the other layer of fabric fits underneath (ISBE/CAERT). A toggle is 'passed endways through a hole and then rotated sideways' (Wikipedia 'Button'), so it catches across the loop. A belt holding up trousers also works partly by friction and by squeezing the waist, which is narrower than the hips (Wikipedia 'Belt (clothing)'). A sewn hook and eye also holds by shape: a bent-wire hook on one edge catches a wire loop (the eye) on the other while the edges are pulled apart, and a raised 'hump' in the wire hook, patented in 1889 by the Richardson & Delong Hook and Eye Company, stops the eye slipping out 'except at the will of the wearer' (Wikipedia 'Hook-and-eye closure').
 
 ### Finder attributes
 
@@ -1925,7 +1946,7 @@
 - **adjustable**: Prong buckle: yes, in steps, by choosing a hole; more holes can be punched at the same spacing (Art of Manliness). Buttons and toggles: no, the position is fixed where they are sewn; move the button or add elastic to change the fit
 - **play_and_precision**: not applicable as a locating part; a prong buckle's steps are coarse (about 25 mm), and buttons and toggles sit loosely in their holes and loops
 - **access_needed**: both sides to fit (sewing, punching and riveting go through the material); one side (the outside) to fasten and undo
-- **materials**: Buckles: steel, brass, silver, white metal, pewter, zinc alloy, stainless steel; nylon and other plastics are now used for snap-fit buckles (Wikipedia 'Buckle'); straps of leather, heavy cloth, plastic or woven webbing (Wikipedia 'Belt (clothing)'). Buttons: most commonly hard plastic, seashell, metal and wood today, historically horn, bone, glass, vegetable ivory and many more (Wikipedia 'Button'). Toggles: wood or horn, now often imitation plastic buffalo horn, on leather or rope loops (Wikipedia 'Duffel coat'). Frogs: braid, cord, fabric or covered wire (Wikipedia 'Frog (fastening)'). All work on woven fabric, knits (stabilise with interfacing, NMSU), leather and webbing; holes in synthetic webbing need sealing or a grommet.
+- **materials**: Buckles: steel, brass, silver, white metal, pewter, zinc alloy, stainless steel; nylon and other plastics are now used for snap-fit buckles (Wikipedia 'Buckle'); straps of leather, heavy cloth, plastic or woven webbing (Wikipedia 'Belt (clothing)'). Buttons: most commonly hard plastic, seashell, metal and wood today, historically horn, bone, glass, vegetable ivory and many more (Wikipedia 'Button'). Toggles: wood or horn, now often imitation plastic buffalo horn, on leather or rope loops (Wikipedia 'Duffel coat'). Frogs: braid, cord, fabric or covered wire (Wikipedia 'Frog (fastening)'). All work on woven fabric, knits (stabilise with interfacing, NMSU), leather and webbing; holes in synthetic webbing need sealing or a grommet. Garment hooks and eyes: bent wire, and in quality products stainless steel, nylon-coated wire or brass (Wikipedia 'Hook-and-eye closure').
 - **maker_difficulty**: easy: sewing on a button, punching a belt hole or tying a toggle loop needs only hand tools; buttons, toggles and simple buckle frames also print easily in one piece
 
 ### Making it
@@ -1955,7 +1976,7 @@
   - the buttons and buttonholes on a shirt or coat (Wikipedia 'Button')
   - the wooden or horn toggles and rope loops on a duffel coat (Wikipedia 'Duffel coat')
   - the knotted frog closures on a cheongsam (qipao) dress (Wikipedia 'Frog (fastening)')
-- **when_to_use**: For straps and fabric that people open and close by hand many times: belts, watch straps, bag and case straps, collars, covers, cushions and clothing. A prong buckle is the simplest adjustable strap closure and 'the most reliable and easy-to-use closure for a belt' (Wikipedia 'Buckle'); it holds firmly under a steady pull and needs no tools. Buttons are neat, cheap and easy to sew on or replace; button loops and frogs let two edges meet without overlapping (Wikipedia 'Frog (fastening)'). Toggles are best where people wear gloves or have cold or clumsy hands, or for a rustic look (Wikipedia 'Duffel coat'). For makers, all three are easy to make from scrap: a printed button, a turned wooden toggle or a leather strap with punched holes.
+- **when_to_use**: For straps and fabric that people open and close by hand many times: belts, watch straps, bag and case straps, collars, covers, cushions and clothing. A prong buckle is the simplest adjustable strap closure and 'the most reliable and easy-to-use closure for a belt' (Wikipedia 'Buckle'); it holds firmly under a steady pull and needs no tools. Buttons are neat, cheap and easy to sew on or replace; button loops and frogs let two edges meet without overlapping (Wikipedia 'Frog (fastening)'). Toggles are best where people wear gloves or have cold or clumsy hands, or for a rustic look (Wikipedia 'Duffel coat'). For makers, all three are easy to make from scrap: a printed button, a turned wooden toggle or a leather strap with punched holes. Sew on a hook and eye where two edges must meet without gaping or a zip needs help: a single one is often sewn above a zip to take stress off it, and rows of them, or hook-and-eye tape, close bras, bustiers and corsets (Wikipedia 'Hook-and-eye closure'). Snaps can be sewn on as well as riveted with a punch and die or fixed with snap pliers (Wikipedia 'Snap fastener'), so sew-on snaps suit makers without a setting tool.
 - **when_not_to_use**: Not for quick one-handed release or where the strap must open under load: use a side-release buckle or a quick-release hook. Not for fine, stepless adjustment of a strap: use a ladder lock (tri-glide), cam buckle or ratchet strap. Not where the closure must seal out wind, water or dust: use a zipper with a flap, hook-and-loop tape or a roll-top. Not for climbing, lifting or safety loads: use rated hardware. Avoid many small buttons where speed matters, and avoid small detachable buttons and toggles on clothes for babies and toddlers (choking hazard). On webbing, prong buckles need holes that weaken the strap; a ladder lock or cam buckle grips the webbing without holes.
 - **environment_limits**: Water and damp: buckles and parts containing iron rust if left damp (Wikipedia 'Buckle'); painted or plaster decoration on wooden buckles came off in the wash (Wikipedia 'Buckle'). Wear over time: leather belt holes stretch and tear if they are rough punctures rather than round holes (Art of Manliness); webbing holes can elongate under repeated load (camowebbing.com); buttonhole stitches fray if cut (NMSU). Stretchy knits distort unless stabilised with interfacing (NMSU). *(unverified parts omitted)*
 - **safety_notes**: Small buttons, toggles and buckle parts that come loose are a choking hazard for young children; in the US, children's clothing and buttons are actually excluded from the federal small-parts ban for under-3s (CPSC), so sew them on firmly and check them. Cutting and punching: hold a belt down firmly when drilling a hole, or the bit can catch and spin it, and put scrap wood under it (Art of Manliness); knives and hollow punches are sharp. Garment buckles and buttons are not safety equipment: don't use them to hold people or heavy loads. *(unverified parts omitted)*
@@ -1970,6 +1991,8 @@
   - Cord lock (spring toggle): a sprung toggle that grips a drawcord at any point, instead of a fixed toggle and loop
   - Spring-gate hook (carabiner, snap hook, lobster clasp) and basic latches (hook and eye): hook-type closures for straps and garments
   - Magnetic-assisted buckle: magnets guide the parts together and a catch locks them; easier with one hand
+  - Sew-on part: how to give buttons, toggles, hooks and other rigid or printed parts sewing holes or loops so they can be sewn to fabric
+  - Sewn seams and hand stitches: the stitches used to sew on buttons, hooks, eyes and button loops, and the seams around a closure
 
 ### Pictures, videos and models
 
@@ -2008,6 +2031,8 @@
   - https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg
   - https://www.youtube.com/watch?v=LOP9oZqAFZ0 (verified via YouTube oEmbed)
   - https://api.printables.com/graphql/ (Printables models 1410224, 852754, 785324, 1128919, 732593, 878097, 799421 and 567383 read via the public API)
+  - https://en.wikipedia.org/wiki/Hook-and-eye_closure
+  - https://en.wikipedia.org/wiki/Snap_fastener
 
 ### Other info
 

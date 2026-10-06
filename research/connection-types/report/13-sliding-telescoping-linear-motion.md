@@ -911,6 +911,8 @@
   - Rack and pinion: rigid and positive, but a single stage per rack
   - Constant-force spring counterbalance: often added to a rigged lift to cancel its weight
   - Telescoping tube locks (twist lock, flip lock, spring button): hold a hand-set length instead of driving the stages
+  - Stopper knots and cord-end anchors: ways to fix a string end to a stage or spool, such as a knot behind a hole, a knot round a washer, or string clamped under a bolt head
+  - Wire-rope terminations: crimped sleeves, ferrules and thimbles for ending steel cable when a lift is rigged with wire rope instead of string
 
 ### Pictures, videos and models
 
@@ -1325,6 +1327,7 @@
   - Eccentric adjuster: a turning off-centre bush for small, coarse-to-fine position tweaks
   - Kinematic coupling: fine adjusters usually push on kinematic mounts in optics
   - Compound planetary gearbox (split-ring / Wolfrom) and strain-wave gear: large reductions from the difference between two nearly equal tooth counts
+  - Locking adjustment screws: pairs of opposing screws, or a screw and a spring, that set a tilt or height and then lock it; simpler when an ordinary thread is fine enough
 
 ### Pictures, videos and models
 

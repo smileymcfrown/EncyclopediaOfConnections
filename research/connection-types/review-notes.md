@@ -127,9 +127,9 @@ break validation; they are clean-ups for the report step or Phase 1.
 
 ## Wider scope, five new families (added 2026-10-03, R22, items 324-409)
 - **Notes additions to researched entries:** about 70, listed in section 7 of
-  `scope-search-2026-10-03-combined.md` with the sourced text in each group's file. They are not
-  in the outline or the result files yet; apply them in an update pass after items 324-409 are
-  researched.
+  `scope-search-2026-10-03-combined.md`. Applied on 2026-10-06 (R23), together with the
+  research agents' cross-links: see `update-pass-2026-10-06.md` and the update-pass section
+  below.
 - **`job` field:** kept at 15 options. Electrical entries use the existing ones (usually join
   and hold); the finder adds a first-question answer, "Connect wires or power", routed by family.
   Re-test run 3's finder tree (`research/finder-test/tree.py`) once the new entries exist.

@@ -423,3 +423,17 @@ File: `results/Bellows_and_inflatable_actuators_air_bag_air_spring.json`
 ### 306 Air-logic valve (pneumatic logic, soft bistable valve)
 File: `results/Airlogic_valve_pneumatic_logic_soft_bistable_valve.json`
 - (scope-search-2026-10-03-heat-and-pipe.md) TPU film sealed through parchment is heat sealing. Cross-link (add to `related`): *Heat-sealed seam* (344)
+
+## Outcome (2026-10-06)
+
+All six groups are done, and all 96 entries validate. 56 entries gained sourced content, and each
+of those now has a matching "Also covers" sentence in its `outline.yaml` notes. 39 got
+cross-links only. *Iris valve* (275) needed no change: it already names the roller clamp and
+Mohr's pinchcock. What the agents corrected, left out or found in conflict is in
+`review-notes.md`, section "Update pass on researched entries (R23, 2026-10-06)". Main
+corrections:
+- *Keying* (116): barrel plugs are size-keyed, not polarised.
+- *Solvent welding* (139): hot-gas welding is no longer the only route for PE and PP.
+- *Reciprocal frame* (298): a stale "tensegrity is out of scope" clause was removed.
+- *Capstan cable drive* (101), *Shock-corded sectional pole* (152) and *Ratchet tie-down strap*
+  (153): link labels that had been put inside a `url` were moved to the link title.

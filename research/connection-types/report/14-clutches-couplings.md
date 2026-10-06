@@ -1107,7 +1107,7 @@
 
 *clutches & couplings.* A shaft with lengthwise ridges fitting a matching hub, passing turning force while letting the hub slide along the shaft
 
-*Also covers:* Also covers hex shafts and LEGO-style cross axles
+*Also covers:* Also covers hex shafts and LEGO-style cross axles. Also covers the Bendix starter drive as the helical-spline example.
 
 ### What it is
 
@@ -1190,6 +1190,7 @@
   - A tractor's telescoping power take-off (PTO) shaft, where one part of the shaft slides inside another (eXtension ag-safety PTO guidance)
   - A bicycle cassette sliding onto the splined freehub, with one wider groove so it fits only one way (Wikipedia)
   - LEGO Technic cross axles, which spin freely in round holes but grip gears and wheels with cross-shaped holes (LEGO TECHNIC 101)
+  - The Bendix drive on older car starter motors, a helical spline at work: when the motor starts, 'the inertia of the drive pinion' makes it slide along the helically splined shaft into mesh with the engine's ring gear, and when the engine starts and overruns it, the pinion is forced back along the spline and out of mesh (Wikipedia 'Bendix drive')
 - **when_to_use**: Use it when a gear, pulley, wheel, lever or coupling must be locked firmly to a shaft for turning force, especially if it also has to slide: a drive shaft whose length changes as a suspension or linkage moves, a telescoping drive, a gear or dog-clutch ring that slides into mesh, a clutch disc that must move to engage, or a sliding carriage driven from a turning shaft. It is also the neatest way to make parts that can be slid off and refitted at a set angle, like servo horns and knobs. For robots and maker projects, hex shaft with hex-bore gears, pulleys and bearings is the easy version: no keys, no set screws that loosen (Slocum). LEGO-style cross axles are ideal for quick, rebuildable mechanisms.
 - **when_not_to_use**: Avoid a plain sliding spline when it must slide easily while carrying heavy torque (friction between loaded teeth makes it stick and judder); use a ball spline or a plunging CV joint instead (NTN; Linear Motion Tips). Don't rely on it to hold anything along the shaft: add a collar, retaining ring or clamp. For precise, backlash-free positioning use a clamping hub, a keyless locking bush, an interference fit or a Hirth joint (Slocum lists interference fits and circumferential clamps as alternatives). For low-cost light-duty drives a D-shaft with a set screw or a clamping collar is simpler, and a key and keyway is the usual industrial alternative when splines are too expensive (Slocum). For shafts that are not in line, add a universal joint or CV joint, or a flexible coupling.
 - **environment_limits**: Metal splines need grease or oil; without it sliding splines wear and suffer fretting corrosion (Gear Solutions), and rusted splines can seize so they no longer slide. Dirt caught in the teeth speeds wear. Plastic parts: PLA softens above about 60 °C and PETG is rated to about 80 °C (Prusa), and printed hex or spline bores slowly creep and wear round under constant or reversing torque (Chief Delphi; FRCDesign). *(unverified parts omitted)*
@@ -1263,6 +1264,7 @@
   - https://www.printables.com/model/964317-frc-20dp-gears-12-hex-bore
   - https://api.printables.com/graphql/
   - https://cs448m.github.io/lectures/machines/doc/1.pdf
+  - https://en.wikipedia.org/wiki/Bendix_drive
 
 ### Other info
 
@@ -1966,7 +1968,7 @@
 
 *clutches & couplings.* The ordinary ways to fix a gear, pulley or wheel to a shaft, or join two shafts rigidly end to end
 
-*Also covers:* Also covers shaft collars
+*Also covers:* Also covers shaft collars. Also covers coiled spring pins through a hub, and welding or soldering a hub on for good.
 
 ### What it is
 
@@ -2046,7 +2048,8 @@
   - Key with a set screw: make the set-screw diameter equal to the key width; the screw then only holds the hub along the shaft and the key carries the torque (Machine Design).
   - Key or pin torque capacity = shear area of the key (or both sides of the pin) x shaft radius x shear strength of the key or pin material; drill cross-pin holes through hub and shaft together, and pin only near a shaft end where there is little bending (Slocum, FUNdaMENTALs Topic 5 p. 5-27).
   - Preference order for attaching a part to a shaft: interference fit, spline, circumferential clamp, key, pin, and last the plain set screw, which 'could be your worst nightmare if it loosens' (Slocum Topic 5 p. 5-27).
-  - Tighten paired clamp screws a little at a time, alternating, so the clamp grips evenly (PIB Sales rigid couplings guide). *(unverified parts omitted)*
+  - Tighten paired clamp screws a little at a time, alternating, so the clamp grips evenly (PIB Sales rigid couplings guide).
+  - Cross pin choice: for pinning a collar, hub or gear to a shaft, SPIROL recommends a coiled spring pin, because it flexes to absorb shock and vibration and so prevents hole damage; solid pins 'do not absorb shock and dynamic loads' but pass them on to the holes, which can stretch (elongate) until the joint fails early. Use light-duty coiled pins in soft or brittle material, standard in mild steel and non-ferrous metals, and heavy-duty in hardened parts (SPIROL white papers 'How to Select the Proper Pin for your Application', p. 2, and 'How To Choose Fasteners That Maximize Assembly Life', pp. 1-2). *(unverified parts omitted)*
 
 ### When to use it
 
@@ -2055,10 +2058,10 @@
   - The GT2 pulley on a 3D printer's stepper motor, gripped by grub screws on the motor's D-flat shaft
   - Shaft collars on foosball table rods, home gym equipment and coat racks (Wikipedia 'Shaft collar')
   - A lawnmower or machine pulley on a keyed shaft; some use a soft brass shear key so an overload shears the key instead of the shaft (Wikipedia 'Key')
-- **when_to_use**: Every time a rotating part must turn with its shaft or a shaft must be joined end to end. Use a set screw for light, low-cost jobs such as knobs and small pulleys on a D-flat shaft; a clamp hub or clamp collar when you want strong grip, easy adjustment and no shaft damage (gm0 and Machine Design recommend clamping over set screws); a key for heavy, reversing or shock loads with a fixed angle; a hex or D shaft for robots and printed parts (Slocum calls a hex shaft the simplest spline for a robot contest); a pin where torque must be positive and cheap; shaft collars to stop shafts and parts sliding and to hold bearings in place; and a rigid coupling to join two well-aligned shafts with zero backlash (PIB).
+- **when_to_use**: Every time a rotating part must turn with its shaft or a shaft must be joined end to end. Use a set screw for light, low-cost jobs such as knobs and small pulleys on a D-flat shaft; a clamp hub or clamp collar when you want strong grip, easy adjustment and no shaft damage (gm0 and Machine Design recommend clamping over set screws); a key for heavy, reversing or shock loads with a fixed angle; a hex or D shaft for robots and printed parts (Slocum calls a hex shaft the simplest spline for a robot contest); a pin where torque must be positive and cheap; shaft collars to stop shafts and parts sliding and to hold bearings in place; and a rigid coupling to join two well-aligned shafts with zero backlash (PIB). For a pin, SPIROL rates a coiled spring pin the best choice for most hub and shaft joints, because it absorbs shock and extends the life of the assembly (SPIROL white paper 'How to Select the Proper Pin for your Application'). For a hub that must never come off a steel shaft, it can also be welded or soldered on. In a 2025 maker forum thread about welding a flange onto a gearmotor shaft because set screws didn't hold, replies advised taking the shaft out of the gearbox first (the asker managed to), or clamping the welder's earth (ground) to the part next to the weld so the current doesn't pass through the bearings, disconnecting the motor from other electronics, and using small tack welds rather than a full bead so the heat doesn't spread inside; others said welding was overkill and suggested soldering, a D-flat, a key, a roll pin or retaining compound instead (Reddit r/robotics thread, read through the Arctic Shift archive; forum advice, not tested).
 - **when_not_to_use**: Don't rely on a plain set screw for drivetrains, reversing loads or anything important: it loosens and marks the shaft (Slocum; gm0); use a clamp hub, key, hex or spline instead, or at least seat the screw in a drilled dimple and add thread-locker. Don't use a rigid coupling between a motor and a shaft that are not perfectly aligned (e.g. a stepper motor and a lead screw in a printed frame): use a flexible (beam, jaw or Oldham) coupling instead. Don't press a printed hub onto a smooth shaft for lasting torque (creep, EngineerDog). Don't use a set screw on a shaft as hard as the screw (it cannot bite, Machine Design). For overload protection use a proper shear pin or slip clutch rather than hoping a set screw slips.
 - **environment_limits**: Vibration and reversing loads loosen set screws and clamp screws; use thread-locker (gm0) or knurled-cup set screws, which resist vibration but must not be reused (Wikipedia), and quality couplings with nylon-patched screws (PIB). Shock loads can make clamp collars creep along the shaft (Machine Design). Printed hubs creep under constant clamp or press load and lose grip over time (EngineerDog); PLA softens above 60 C and PETG is fine below 80 C (Prusa). Stainless screws in stainless couplings can gall (seize) without a coated or patched thread (PIB). *(unverified parts omitted)*
-- **safety_notes**: Rotating shafts, collars and couplings can catch hair, clothing and gloves; projecting set screws, bolts and keys make this much worse (OSHA machine guarding: rotating motion), which is why modern collars use recessed hex-socket set screws instead of the early square-head screws that dragged workers into line shafting (Wikipedia 'Shaft collar'). Guard exposed couplings and keep screws flush. A set screw that works loose can let a gear or pulley slip suddenly, dropping a load. Metal burrs raised by set screws are sharp.
+- **safety_notes**: Rotating shafts, collars and couplings can catch hair, clothing and gloves; projecting set screws, bolts and keys make this much worse (OSHA machine guarding: rotating motion), which is why modern collars use recessed hex-socket set screws instead of the early square-head screws that dragged workers into line shafting (Wikipedia 'Shaft collar'). Guard exposed couplings and keep screws flush. A set screw that works loose can let a gear or pulley slip suddenly, dropping a load. Metal burrs raised by set screws are sharp. Welding a hub onto a motor or gearbox shaft can send the welding current through the bearings; take the shaft out, or put the earth clamp on the part being welded (maker forum advice; replies disagreed on whether the current harms the motor). Welding and soldering bring their own hazards (arc light, fumes, burns, fire and electric shock): see the Welded metal joint and Soldered metal joint entries.
 - **common_failures**: 1) Set screw loosens or slips under vibration or reversing torque, even with a flat (Slocum's student quote): use a clamp, key, hex or pin, or dimple the shaft and use thread-locker. 2) Raised burr from the set screw point stops the hub or collar sliding off, and later adjustments snap back to the old mark: file the burr, or use clamp-style parts (Machine Design; Wikipedia). 3) Stripped plastic threads or a split printed hub when tightening a set screw: use a captive nut or insert and a thicker hub (EngineerDog). 4) Stripped hex or D bore (the bore wears round, gm0 'stripping the bore'): use metal hubs for high torque or a larger shaft. 5) Clamp collar creeping along the shaft under shock: add a shaft groove (undercut) with a two-piece collar (Machine Design). 6) Rigid coupling on misaligned shafts overloading bearings or cracking the coupling: align carefully or use a flexible coupling (PIB; Wikipedia 'Coupling'). 7) Worn keyway giving play: fit a new key or use a taper-lock bush, which removes keyway play (Wikipedia 'Coupling'). 8) Uneven clamping from tightening one screw fully before the other: tighten alternately in small steps (PIB).
 - **related**: 
   - Keyless locking bush (taper-lock bush, shaft locking device): clamps a hub with wedging rings, with no keyway, and centres it
@@ -2073,6 +2076,10 @@
   - Anaerobic adhesive (threadlocker, retaining compound): glue that locks set screws or bonds hubs to shafts
   - Captive nut pocket and heat-set threaded insert: how printed hubs get a strong thread for their set screw
   - Tolerance ring (wavy-band press fit): a springy band that makes a press fit forgiving
+  - Drive-in fixing pins: roll pins, coiled spring pins, dowels and taper pins driven through hub and shaft; a positive, cheap lock, and a coiled pin protects the holes under shock
+  - Welded metal joint: welds a hub or flange to a steel shaft for good; take the shaft out of a motor or gearbox first
+  - Brazed joint: a strong permanent joint made below the melting point of the parts, for steel, brass and copper hubs and shafts
+  - Soldered metal joint: a lower-temperature permanent option, but soft solder is weak, so only for small hubs and light torque
 
 ### Pictures, videos and models
 
@@ -2114,6 +2121,10 @@
   - https://help.prusa3d.com/article/petg_2059
   - https://www.youtube.com/watch?v=F3c6GPAFZMI
   - https://api.printables.com/graphql/
+  - https://uk.spirol.com/assets/files/cldp-wp-how-to-select-the-proper-pin-for-your-application-uk.pdf
+  - https://uk.spirol.com/assets/files/pins-wp-how-to-choose-fasteners-that-maximize-assembly-life-us.pdf
+  - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
+  - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=1kcikdx&limit=200
 
 ### Other info
 

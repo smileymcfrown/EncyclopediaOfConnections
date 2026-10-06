@@ -178,10 +178,10 @@ family would mean moving four researched entries for three new ones.
 
 ## 7. Notes additions to existing entries (short form)
 
-These entries are already researched, so the additions are not in `outline.yaml` yet: the report
-shows outline notes as "Also covers", which would claim content the entries don't have. They are
-applied in an update pass after items 324-409 are researched (edit each result file with the
-sourced text from the group's write-up, then add the note to the outline).
+These entries were already researched, so the additions were held back from `outline.yaml`: the
+report shows outline notes as "Also covers", which would have claimed content the entries didn't
+have. **Applied on 2026-10-06 (R23)** in an update pass that edited each result file with the
+sourced text and then added the note to the outline: see `update-pass-2026-10-06.md`.
 
 - **Electrical:** 111 magnet joint and 286 genderless connector point to the new connector
   entries; 116 keying links to plug connectors; 135 slip ring and 291 anti-twister gain the

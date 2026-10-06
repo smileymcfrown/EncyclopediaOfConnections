@@ -1588,6 +1588,8 @@
 
 *locks, latches & catches.* The everyday door latch with a sloped spring bolt, a sliding bolt, and a hook in an eye; the latch baseline
 
+*Also covers:* Also covers the sewn garment hook and eye.
+
 ### What it is
 
 - **plain_name**: The everyday catches that keep a door, gate or lid shut: a sloped, spring-loaded tongue that clicks into the frame by itself when you push the door closed and is pulled back when you turn the handle; a bar that you slide by hand into a loop on the frame; and a hook that you swing into a screw-in ring
@@ -1669,7 +1671,7 @@
   - A barrel or tower bolt on a shed door or garden gate (Suffolk Latch Company; RS)
   - A hook and eye on a screen door, window sash or pet gate (gatelatchusa)
   - A cabin hook holding a door open against a wall, as on ships (Wikipedia, Latch)
-- **when_to_use**: Use a spring latch when a door or lid should catch by itself every time it is pushed shut and open with one turn of a handle, such as room doors, gates that must never be left unlatched, and boxes and enclosures that should click closed. Use a slide bolt for a firm, simple manual hold that you set on purpose, such as sheds, gates, the fixed leaf of double doors, or a bolt on the inside of a door; it is cheap, strong for its size and easy to fit on one face. Use a hook and eye for light, quick, low-cost holding, such as keeping a screen door or light gate shut, or holding a door open against a wall (a cabin hook). All three are the simplest starting point before choosing a more special latch.
+- **when_to_use**: Use a spring latch when a door or lid should catch by itself every time it is pushed shut and open with one turn of a handle, such as room doors, gates that must never be left unlatched, and boxes and enclosures that should click closed. Use a slide bolt for a firm, simple manual hold that you set on purpose, such as sheds, gates, the fixed leaf of double doors, or a bolt on the inside of a door; it is cheap, strong for its size and easy to fit on one face. Use a hook and eye for light, quick, low-cost holding, such as keeping a screen door or light gate shut, or holding a door open against a wall (a cabin hook). All three are the simplest starting point before choosing a more special latch. At clothing scale the hook and eye is sewn on rather than screwed: a small bent-wire hook catches a wire eye, and a single one is often sewn just above the zip of a skirt, dress or trousers to 'finish' it and take stress off the zip (Wikipedia 'Hook-and-eye closure').
 - **when_not_to_use**: Not for security: a latch is not a lock (Wikipedia), so use a deadbolt or a keyed lock (see Pin-tumbler lock). Not for pulling a lid down tight against a seal: use a draw (over-centre) latch or a toggle clamp. Not on a chest or box a child could climb into, where a self-latching lid can trap them (CPSC); use a lid stay and a catch that opens from inside, or no latch at all. A hook and eye is a poor choice where vibration can shake it loose (use a tight-hold or spring hook; McMaster-Carr) or where a gate must stay closed around small children (pool gates must be self-closing and self-latching with the release out of reach; CPSC). For cabinet doors that should simply stay shut, a magnetic catch or ball catch is simpler; for a handle-free look, use a push-push latch; for remote or electric release, use a solenoid latch.
 - **environment_limits**: Plain steel rusts outdoors: choose zinc-plated, galvanised or stainless steel, or brass (Kirmell; RS), and use a bolt outside only if it is rated for exterior use (Suffolk Latch Company); corrosion and worn springs are common causes of failure (Kirmell). Printed latches: PLA starts to soften at about 60 °C and PETG at about 80 °C (CNC Kitchen), so a PLA latch on a sunny gate or in a hot car can sag; rubber-band springs go brittle and need replacing (Printables 236902); plastic springs kept under constant load creep and lose force (Hubs). Vibration can shake a plain hook out of its eye; tight-hold hooks have a bushing in the eye to stop this (McMaster-Carr).
 - **safety_notes**: Lids that latch themselves can trap children: CPSC has reports of 34 deaths since 1996 of children who climbed into storage and toy chests that latched shut, and it advises disabling or removing automatic latches on such chests. Gates to pools must be self-closing and self-latching, with the release out of a small child's reach (CPSC). Watch for pinch points where the door meets the frame and around the knob of a slide bolt. A latch is not a lock, so don't rely on it for security.
@@ -1686,6 +1688,8 @@
   - Spring-gate hook (carabiner, snap hook): a hook with its own spring gate, like a safety hook and eye in one piece
   - Indexing plunger (pull-knob index pin): a spring-loaded pin, like a spring shoot bolt, used to lock parts at set positions
   - Tool-free fasteners (hitch pin and R-clip): a pin pushed through holes and clipped, used as a simple removable bolt
+  - Eye bolts, screw eyes and hooks: the screw eyes and screw hooks a hook-and-eye latch is made from, used on their own as fixed anchor points for ropes and hanging things
+  - Sew-on part: how small hooks, eyes and other hardware are sewn onto fabric, as with the garment hook and eye
 
 ### Pictures, videos and models
 

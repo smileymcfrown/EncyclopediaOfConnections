@@ -125,6 +125,8 @@
 
 *adhesives & bonding.* A resin and hardener mixed together that set into a strong, gap-filling solid; slow or fast types, for metal, wood, most plastics and composites
 
+*Also covers:* Also covers J-B Weld (brand), the epoxy makers often suggest instead of welding.
+
 ### What it is
 
 - **plain_name**: A glue that comes as two separate liquids or pastes that you mix together; over a few minutes to a day the mix hardens into a tough, strong plastic that sticks to almost anything and can also fill gaps and holes
@@ -137,6 +139,7 @@
   - epoxy putty (a kneadable two-part stick), e.g. Milliput (brand) (Wikipedia 'Cyanoacrylate')
   - laminating, boat-building or 'marine' epoxy, e.g. WEST SYSTEM (brand) (Wikipedia; West System)
   - Loctite Epoxy / Hysol, Z-Poxy, J-B Weld, Araldite (brands; Loctite, Prusa, Wikipedia references)
+  - J-B Weld or JB Weld (brand): a two-part epoxy whose name sounds like welding (it began as 'Just Bond'), so makers use it as a verb ('you can probably jb-weld it') and suggest it instead of welding, e.g. for fixing a flange onto a small motor shaft (Wikipedia 'J-B Weld'; r/robotics thread read through the Arctic Shift archive)
 - **family**: adhesives & bonding
 - **other_families**: seals & pass-throughs
 - **one_liner**: Two-part epoxy is a resin and a hardener that you mix in a set ratio; the mix reacts into a hard, tough plastic that bonds metal, wood, glass, composites and many plastics, fills gaps, and comes in fast (minutes) and slow (hours) types.
@@ -244,6 +247,9 @@
   - https://api.printables.com/graphql/
   - https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg
   - https://www.youtube.com/watch?v=DdNfOTLx0q4
+  - https://en.wikipedia.org/wiki/J-B_Weld
+  - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
+  - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200
 
 ### Other info
 
@@ -252,6 +258,8 @@
 ## 139 Solvent welding (solvent cement)
 
 *adhesives & bonding.* A solvent that softens the surfaces of certain plastics so they fuse together as it evaporates, like acetone on ABS or cement on acrylic and PVC
+
+*Also covers:* Also covers why PE and PP pipe is heat-fused instead.
 
 ### What it is
 
@@ -328,7 +336,7 @@
   - Clear acrylic display cases, brochure holders and dust covers in shops (Wikipedia 'Plastic welding')
   - A broken LEGO or Duplo brick, which is ABS, mended by brushing acetone on both broken faces and pressing them together (CNC Kitchen)
 - **when_to_use**: Use it to join parts made of the same plastic (or closely related plastics) when you want a strong, permanent, often invisible joint with no extra glue layer: acrylic boxes, cases and displays; ABS, ASA, HIPS or PVB prints split into pieces; repairs to ABS objects; plastic model kits; and PVC pipe frames, plumbing and anything that has to hold water, where the fused joint also seals (Oatey; Associated Plastics; Prusa). It is cheap, gives time to adjust the parts before it sets, and a thick cement made from the same filament gives a colour-matched, sandable joint and filler (Prusa; MatterHackers).
-- **when_not_to_use**: Don't use it on plastics your solvent can't dissolve: PETG (use superglue or epoxy), polyethylene, HDPE and polypropylene (use hot-gas plastic welding or a structural acrylic adhesive made for low-surface-energy plastics), or resin prints (use the same resin cured with UV light, superglue or epoxy) (Prusa; Associated Plastics; Raise3D). It can't join plastic to metal, glass or wood (use epoxy or superglue; Henkel p. 13), and it can't fill real gaps (use a thickened cement, slurry or epoxy; Associated Plastics; Henkel). Avoid it where you can't ventilate the fumes, for PLA if the only solvent that works is dichloromethane, and for parts that need to come apart again (use screws, heat-set inserts or snap fits).
+- **when_not_to_use**: Don't use it on plastics your solvent can't dissolve: PETG (use superglue or epoxy), polyethylene, HDPE and polypropylene (use hot-gas plastic welding or a structural acrylic adhesive made for low-surface-energy plastics), or resin prints (use the same resin cured with UV light, superglue or epoxy) (Prusa; Associated Plastics; Raise3D). It can't join plastic to metal, glass or wood (use epoxy or superglue; Henkel p. 13), and it can't fill real gaps (use a thickened cement, slurry or epoxy; Associated Plastics; Henkel). Avoid it where you can't ventilate the fumes, for PLA if the only solvent that works is dichloromethane, and for parts that need to come apart again (use screws, heat-set inserts or snap fits). PE and PP-R pipe can't be solvent-welded either: it is joined by heat fusion, melting pipe and fitting on a hot tool or with a heating wire built into the fitting (see Heat-fused plastic pipe; Wikipedia 'Electrofusion'; NIBCO PP-R socket fusion instructions).
 - **environment_limits**: The fused joint is the same plastic as the parts, so it softens at the same temperature (for printed parts, CNC Kitchen found PLA gives at about 60 °C, PETG at about 80 °C and ASA at about 110 °C). Until all the solvent has escaped, which can take days or weeks, the joint is weaker (Prusa; Henkel p. 13), and Henkel notes solvent-cemented joints have poor resistance to heat and to solvents; the same solvent that made the joint will soften it again. Cold and damp slow curing: don't cement acrylic below 15 °C (U.S. Plastic Corp.), and allow 50% more time for pipe joints in humid weather (Oatey cure chart). Humidity can also leave a white haze (blushing) on acrylic joints, and stressed or flame-polished edges craze into fine cracks when they meet solvent (Associated Plastics; Henkel).
 - **safety_notes**: Solvent glues usually have the strongest smell of all glues and can contain flammable, harmful or even narcotic ingredients such as toluene, so ventilate well (Prusa). Wear gloves and safety glasses and keep solvents away from flames and heat (Oatey); CNC Kitchen warns that putting flammable acetone next to a hot printer is a serious fire risk. Dichloromethane (methylene chloride), used in some acrylic and model cements and able to weld PLA, can kill through acute exposure and causes cancer; the US EPA banned all consumer uses in a 2024 rule, phased out within a year (US EPA). Associated Plastics reports that Weld-On acrylic cements were reformulated in 2025 without dichloromethane and trichloroethylene, but says they are 'safer, not safe'. Never pressure-test solvent-welded pipes with compressed air or gas (Oatey).
 - **common_failures**: Nothing happens, or the joint pops apart: the solvent doesn't dissolve that plastic (PETG, polyethylene, polypropylene, resin prints); check the solvent and plastic pair first (Prusa; Associated Plastics). Weak joint from a poor fit: capillary cement can't bridge gaps, so make square, flat edges or switch to a thickened cement or slurry (Associated Plastics; U.S. Plastic Corp.). Starved joint from clamping too hard, which squeezes the softened plastic out (Associated Plastics). Crazing (a web of fine cracks) around the joint on flame-polished or stressed edges (Associated Plastics; Henkel). White blush in humid weather (Associated Plastics). Soft or porous joint from trapped solvent, or loading it too early; wait days, not minutes (Prusa; Henkel). Surface damage where thin solvent wicked along layer lines or fingerprints (Prusa). On long acrylic seams the start of the joint sets before you finish the end, so work in shorter sections (Associated Plastics). Pipe joints leak when primer is skipped on PVC or CPVC, the wrong cement is used, cement is puddled, the pipe isn't fully pushed in with a quarter turn, or old, thickened cement is used (Oatey).
@@ -337,10 +345,13 @@
   - Two-part epoxy: fills gaps and bonds metal, wood and dissimilar materials that solvents can't; slower to cure (Prusa; Henkel)
   - Elastomeric solvent glue and contact adhesive: also solvent-based, but they leave a rubbery glue layer behind as the solvent dries instead of fusing the parts into one piece
   - UV-curing adhesive (including resin used as glue): the way to 'weld' resin prints, which solvents can't touch
-  - Hot-gas, friction and ultrasonic plastic welding: fuse plastics with heat instead of solvent; hot-gas welding with a matching filler rod is the only welding route for polyethylene and polypropylene (Associated Plastics; Wikipedia 'Plastic welding')
+  - Melted plastic weld: fuses plastics with heat instead of solvent, melting in extra plastic from a rod or filament with a hot-air gun or soldering iron; for polyethylene and polypropylene parts, which solvents can't touch, Associated Plastics says they have to be welded with a hot gas gun and a filler rod of the same polymer (Associated Plastics; Wikipedia 'Plastic welding')
+  - Friction-welded plastic: fuses plastic with heat made by rubbing, e.g. a length of filament spun in a rotary tool and run along a seam, instead of solvent
+  - Ultrasonic weld: fuses plastic parts with heat made by high-frequency vibration, a factory process, instead of solvent
   - Heat staking: melts a post on one part into a rivet head, a mechanical joint rather than fused faces
   - Structural acrylic and low-surface-energy plastic adhesives: the glue route for polyethylene and polypropylene, which solvents can't weld
   - Glued joint design (butt, lap and scarf joints): a bigger overlapping area makes a solvent weld stronger, just as with glues
+  - Heat-fused plastic pipe: how polyethylene and polypropylene (PP-R) pipe, which solvent cement can't weld, is joined instead: pipe and fitting are melted on a hot tool (socket or butt fusion) or by a heating wire built into the fitting (electrofusion) (Wikipedia 'Electrofusion'; Wikipedia 'Piping and plumbing fitting'; NIBCO PP-R socket fusion instructions)
 
 ### Pictures, videos and models
 
@@ -382,6 +393,9 @@
   - https://www.youtube.com/watch?v=hT6Ow_cBTps
   - https://www.youtube.com/watch?v=8bYLRFMKDSY
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Electrofusion
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://res.cloudinary.com/dzhpkjoqj/Nibco/PP-R-Pro-IOM-Manual.pdf
 
 ### Other info
 
@@ -516,6 +530,8 @@
 
 *adhesives & bonding.* A plastic stick melted in a glue gun that sticks as it cools; quick and gap-filling but weak and softens with heat
 
+*Also covers:* Also covers PLA glue sticks in a high-temperature glue gun, and a dab of hot glue to stop screw-terminal wires working loose.
+
 ### What it is
 
 - **plain_name**: A stick of plastic that a glue gun melts into a hot, runny glue; it grabs as it cools, sets within seconds to a minute and fills gaps, but it is fairly weak and goes soft again when it gets hot
@@ -531,6 +547,7 @@
   - hot-melt pressure-sensitive adhesive (HMPSA), a permanently tacky version used for tapes and labels (Wikipedia)
   - hot-glue over-moulding, potting or strain relief (Hackaday)
   - brand names a beginner may search for: Thermogrip (brand), Surebonder (brand), Glu-Stix (brand)
+  - PLA glue gun: a high-temperature glue gun fed with 3D-printed PLA 'glue sticks' to join PLA prints with PLA (Hackaday 2018)
 - **family**: adhesives & bonding
 - **other_families**: seals & pass-throughs, welding, brazing & soldering
 - **one_liner**: A solid plastic glue stick is melted by an electrically heated glue gun and squeezed onto the parts; the molten plastic wets the surfaces and grips them as it cools and hardens, with no drying or curing step.
@@ -572,7 +589,7 @@
   - laser cut: card, foam board and thin wood parts for models and prototypes; low-temperature guns suit foam and fabric (Surebonder)
   - off-the-shelf part: glue guns and sticks; in industry, hot melt closes cartons, binds book spines and fixes wires and parts in electronics (Wikipedia)
 - **print_in_place**: no: the glue is added after printing. Printed moulds for casting hot glue are separate parts that are opened afterwards.
-- **making_tips_3d_printing**: 1) Watch the heat: PLA starts to soften at about 60 °C (CNC Kitchen oven test) while a high-temperature glue gun runs at about 380 °F (193 °C) (Surebonder), so a big blob can warp thin PLA walls; use a low-temperature or dual-temperature gun, dab small amounts, or glue onto thicker areas (Raise3D recommends low-temperature guns for thin resin parts and testing a dot on scrap first). 2) Design for it: add holes, grooves, slots or undercuts that the melted glue can flow into and lock around, and pockets that surround a part, since hot glue holds non-porous parts best by encasing them (thisTOthat). 3) Use it for wiring: tack wires and circuit boards inside printed enclosures and add strain relief where cables exit (Wikipedia notes electronics makers use hot melt to fix parts and wires). 4) Cast hot glue in printed moulds for strain relief and waterproof over-moulds on wire splices and connectors: print the mould in PETG so it survives the heat (Hackaday 2020), and coat it with a release agent (silicone oil, vegetable oil, Vaseline or silicone grease) or the glue will stick firmly (Hackaday 2020, 2024; Printables 1280166). A PLA mould works but wears out sooner (Printables 1280166). One mould maker suggests glue 'not too hot, about 170-180 °C' and waiting 5 minutes before opening (Printables 15081). 5) Work fast: glue skins over in seconds, so apply short beads or dots and press the parts together at once (Raise3D); let the gun preheat 3-5 minutes first, since stringy, thick glue means it isn't hot enough (Surebonder). 6) Removing it from prints: run isopropyl alcohol into the edge of the bond with a cotton swab and it releases cleanly (Make:); a Hackaday reader uses isopropyl alcohol to release glue from printed moulds. 7) Keep hot-glued prints out of hot cars and sunny windows: both the glue and PLA soften there (Raise3D; Wikipedia).
+- **making_tips_3d_printing**: 1) Watch the heat: PLA starts to soften at about 60 °C (CNC Kitchen oven test) while a high-temperature glue gun runs at about 380 °F (193 °C) (Surebonder), so a big blob can warp thin PLA walls; use a low-temperature or dual-temperature gun, dab small amounts, or glue onto thicker areas (Raise3D recommends low-temperature guns for thin resin parts and testing a dot on scrap first). 2) Design for it: add holes, grooves, slots or undercuts that the melted glue can flow into and lock around, and pockets that surround a part, since hot glue holds non-porous parts best by encasing them (thisTOthat). 3) Use it for wiring: tack wires and circuit boards inside printed enclosures and add strain relief where cables exit (Wikipedia notes electronics makers use hot melt to fix parts and wires). 4) Cast hot glue in printed moulds for strain relief and waterproof over-moulds on wire splices and connectors: print the mould in PETG so it survives the heat (Hackaday 2020), and coat it with a release agent (silicone oil, vegetable oil, Vaseline or silicone grease) or the glue will stick firmly (Hackaday 2020, 2024; Printables 1280166). A PLA mould works but wears out sooner (Printables 1280166). One mould maker suggests glue 'not too hot, about 170-180 °C' and waiting 5 minutes before opening (Printables 15081). 5) Work fast: glue skins over in seconds, so apply short beads or dots and press the parts together at once (Raise3D); let the gun preheat 3-5 minutes first, since stringy, thick glue means it isn't hot enough (Surebonder). 6) Removing it from prints: run isopropyl alcohol into the edge of the bond with a cotton swab and it releases cleanly (Make:); a Hackaday reader uses isopropyl alcohol to release glue from printed moulds. 7) Keep hot-glued prints out of hot cars and sunny windows: both the glue and PLA soften there (Raise3D; Wikipedia). 8) PLA instead of glue: Hackaday printed 11 mm PLA 'glue sticks' (an 11 x 150 mm cylinder at 75% infill, with angled notches added so the gun's feed lever could grip the hard, smooth PLA) and fed them through an 80 W high-temperature glue gun rated up to 208 °C to join thin, curved PLA panels along their inside seams, with no clamping. A small hobby gun, expected to run at about 150 °C, only softened the PLA to a putty. The molten PLA fused to the parts only at the surface, so it is closer to a hard glue than a true weld, but pulling the seams apart broke the parts or the bead itself; the gun took 10-15 minutes to warm up (Hackaday 2018, '3D Printering: Printing Sticks For A PLA Hot Glue Gun').
 - **off_the_shelf_parts**: Search for: 'hot glue gun' (full size or mini; high, low or dual temperature; corded or cordless) and matching 'hot glue sticks 7/16 in' ('11 mm') or 'mini glue sticks 5/16 in' ('7 mm') (Surebonder); 'high temperature' or 'low temperature' glue sticks; 'polyamide hot melt' for heat and oil resistance, 'polyolefin hot melt' for polypropylene and polyethylene, and 'PUR hot melt' (reactive, cures after cooling) (Wikipedia; Henkel p. 8); a 'silicone glue mat' (Surebonder); 'adhesive-lined' or 'dual-wall heat shrink', whose inner wall is essentially hot-melt glue, for sealed wire joints (Hackaday 2024 reader comment).
 - **rules_of_thumb**: 
   - Craft EVA glue sticks: strong enough from about 30-50 °C, limited to use below about 60-80 °C, low creep resistance under load, typical melting point about 130 °C (Wikipedia 'Hot-melt adhesive').
@@ -584,6 +601,7 @@
   - Hot glue solidifies in a few seconds to one minute (Wikipedia 'Hot-melt adhesive'); Raise3D gives about 30-45 seconds before repositioning gets difficult.
   - Metal: clean with alcohol or acetone, roughen the surface, preheat both metal parts, and allow at least 24 hours before testing the bond (Glu-Stix 'Bonding Metals With Hot Melt Glue').
   - Moulds for casting hot glue: print them in PETG and coat them with a release agent (Hackaday 2020, 2024).
+  - PLA in a glue gun: PLA softens at about 60-65 °C and melts at about 180-220 °C (RepRap wiki figures quoted by Hackaday), so a hobby gun at about 150 °C only softens it, while a high-temperature gun rated up to 208 °C extruded it acceptably; the sticks need to match the gun's 11 mm stick size and have notches for the feed lever (Hackaday 2018).
 
 ### When to use it
 
@@ -592,7 +610,7 @@
   - The glued spines of paperback books (Wikipedia)
   - Wires and components held in place inside electronic gadgets (Wikipedia)
   - Craft projects, artificial flower arrangements and foam radio-controlled model aircraft (Wikipedia)
-- **when_to_use**: Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday).
+- **when_to_use**: Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics').
 - **when_not_to_use**: Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding).
 - **environment_limits**: Heat: craft EVA glue is limited to below about 60-80 °C and loses strength well before it melts, so hot glue softens in a hot car (Wikipedia; Raise3D). Polyamide sticks work up to about 70 °C under load, and cured reactive PUR hot melt to about 150 °C (Wikipedia). Cold: thisTOthat warns hot glue 'does not withstand cold temperatures'. Creep: EVA hot glue slowly gives way under a constant load (Wikipedia). Weather and chemicals: cheap craft sticks resist weathering and some chemicals less well than specialised hot melts (Wikipedia), and isopropyl alcohol loosens the bond (Make:). Polyamide sticks absorb moisture from the air, which can make them foam and form voids when melted (Wikipedia).
 - **safety_notes**: Burns: the glue coming out of the nozzle is hot enough to burn and even blister skin (Wikipedia), and a high-temperature gun at about 380 °F (193 °C) can cause severe burns, so keep children away or give them low-temperature guns (Glu-Stix). Keep a bowl of cold water handy for burns, keep the gun upright, and purge the drip that builds up at the nozzle onto scrap card before gluing (thisTOthat). Hot melts often give off no fumes unless they are overheated (Wikipedia 'List of glues'), so don't leave a gun heating for long periods. The hot nozzle can also scorch work surfaces; use a stand or silicone mat (Surebonder).
@@ -607,6 +625,9 @@
   - Contact adhesive: better for bonding large flat sheets of foam, rubber, fabric or leather
   - UV-curing adhesive: also sets on demand in seconds, but clear and neat; needs light to reach the glue
   - Solvent welding: fuses same-plastic parts into one piece; stronger and neater, but only on plastics the solvent dissolves
+  - Melted plastic weld: melts the parts' own plastic, plus filler, into the seam with a soldering iron, 3D pen or hot-air gun; a glue gun fed with PLA sticks sits halfway between hot glue and plastic welding (Hackaday 2018)
+  - Heat-shrink tubing: adhesive-lined (dual-wall) heat-shrink has a layer of thermoplastic glue inside, so shrinking it over a wire joint seals it much like a hot-glue over-mould (Wikipedia 'Heat-shrink tubing')
+  - Screw terminal: a dab of hot glue on a screw terminal keeps its wire from working loose and can still be picked off later (SparkFun 'Connector Basics')
 
 ### Pictures, videos and models
 
@@ -644,6 +665,9 @@
   - https://www.youtube.com/watch?v=-uNsyOG0eZY
   - https://www.youtube.com/watch?v=vetH_S9nsAE
   - https://api.printables.com/graphql/
+  - https://hackaday.com/2018/02/05/3d-printering-printing-sticks-for-a-pla-hot-glue-gun/
+  - https://learn.sparkfun.com/tutorials/connector-basics/all
+  - https://en.wikipedia.org/wiki/Heat-shrink_tubing
 
 ### Other info
 
@@ -794,6 +818,8 @@
 
 *adhesives & bonding.* A water-based glue that dries by soaking into porous materials like wood, paper and cork; strong on wood, with water-resistant grades
 
+*Also covers:* Also covers fabric and tacky glues (many are acrylic, not PVA) and anti-fray seam sealant.
+
 ### What it is
 
 - **plain_name**: The everyday white or yellow bottle glue that cleans up with water, soaks into wood, paper or card, and dries as the water leaves, making wood joints that are often stronger than the wood around them
@@ -804,7 +830,9 @@
   - yellow glue; carpenter's glue; aliphatic resin glue (Wikipedia 'Wood glue')
   - cross-linking PVA; Type II glue; Type I (waterproof) wood glue; D2, D3, D4 wood glue (Titebond; FPL Wood Handbook ch.10; IVK EN 204 leaflet)
   - brand names beginners search for (brands): Titebond Original, II and III (Titebond); Elmer's Carpenter's Wood Glue (Rockler); Lepage (Wikipedia 'Wood glue'); Ponal (Printables model name)
-  - not to be confused with PVA (polyvinyl alcohol) water-soluble 3D-printing support filament, a different polymer (Wikipedia 'Polyvinyl acetate': 'Not to be confused with Polyvinyl alcohol') *(unverified parts omitted)*
+  - not to be confused with PVA (polyvinyl alcohol) water-soluble 3D-printing support filament, a different polymer (Wikipedia 'Polyvinyl acetate': 'Not to be confused with Polyvinyl alcohol')
+  - tacky glue: a thick, fast-grabbing PVA craft glue that sticks on contact ('A PVA Glue (polyvinyl acetate white glue) with a thick, fast-grabbing formula', Aleene's glossary); Aleene's Original Tacky Glue (brand)
+  - fabric glue (only some are PVA: Aleene's (brand) says fabric glues are made with acrylic instead, which is more water-resistant and flexible than PVA and holds up better in the wash, Aleene's FAQ; solvent-based fabric adhesives are covered under Elastomeric solvent glue) *(unverified parts omitted)*
 - **family**: adhesives & bonding
 - **one_liner**: A water-based glue of plastic particles suspended in water that soaks into wood, paper, card and other porous materials and hardens as the water is absorbed and evaporates, giving strong, cheap, non-toxic joints for indoor woodwork, with yellow and water-resistant grades for tougher jobs.
 - **complexity**: Single piece (a one-part liquid used straight from the bottle); used with clamps, and some industrial D4 grades add a separate hardener (2K PVA, 100 parts glue to 5 parts hardener) (European Wood Review; AkzoNobel).
@@ -875,6 +903,8 @@
   - Elastomeric solvent glue (flexible craft glue): stays rubbery and bonds non-porous and dissimilar materials that PVA can't
   - Dowel and biscuit joints, and Butt and lap wood joints: the joinery that PVA is usually used with
   - Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain
+  - Liquid seam sealant (anti-fray liquid, e.g. Fray Check (brand)): a colourless liquid dabbed on buttonholes, seams and cut edges that stops fabric fraying by reinforcing the fibres (Prym Fray Check product description); it seals an edge rather than joining two parts
+  - Iron-on fusible web: a dry sheet or tape of heat-activated glue ironed between two layers of fabric to bond them, an alternative to liquid fabric glue for hems and patches
 
 ### Pictures, videos and models
 
@@ -913,6 +943,10 @@
   - https://commons.wikimedia.org/wiki/File:Using_wood_glue.JPG
   - https://commons.wikimedia.org/wiki/File:Pva_wood_glue.jpg
   - https://api.printables.com/graphql/ (models 86892, 1065435, 1450540, 236948, 32037)
+  - https://aleenes.com/blogs/glossary/tacky-glue
+  - https://aleenes.com/blogs/glossary/polyvinyl-acetate-glue
+  - https://aleenes.com/a/faq
+  - https://www.coolcrafting.co.uk/product/prym-fray-check/
 
 ### Other info
 
@@ -1212,7 +1246,7 @@
   - CNC and sheet work: bonding HDPE or PP sheet (e.g. chopping-board plastic) and plastic lumber (3M white paper)
   - repairs: plastic toys, containers, bumpers and trim, wiper blades and rubber seals (Loctite Plastics Bonding System data sheet; 3M white paper) *(unverified parts omitted)*
 - **print_in_place**: no: it is a glue for joining separate parts.
-- **making_tips_3d_printing**: 1) Know what you are gluing: PP is so hard to stick to that PP prints only grip a PP bed sheet or PP tape (Prusa knowledge base), which is the same problem glue has. For PLA, PETG, ABS and ASA prints, ordinary superglue or epoxy usually works, though methacrylate glues were among the strongest on PETG in Cosel's test (Hackaday). 2) Clean with isopropyl alcohol and let it evaporate; lightly sand with 150-grit or finer paper; avoid anti-static or oily additives and mould-release sprays (3M DP8005 data sheet; Permabond TA4610 data sheet). 3) With structural acrylics, use the maker's gun and mixing nozzle, throw away the first bit of mixed glue, and close the joint within the 2.5-3 minute work life (3M DP8005 data sheet). Design the joint so the glue layer is about 0.13-0.2 mm thick, and add small bumps or ribs about that height if parts sit flat (3M DP8005 data sheet: 0.005-0.008 in bondline). Clamp lightly (about 4-8 psi) for at least 2 hours; 3M notes plastic parts can be designed to hold themselves in place (3M DP8005 data sheet). 4) Mixed acrylic gets hot as it cures, and the heat can deform thin or heat-sensitive parts, which matters for thin PLA walls (Loctite design guide, p. Also, glue squeezed out into the air stays soft for longer, while glue inside the joint cures solid (Permabond TA4610 data sheet). 5) With the primer route, prime only the PE or PP part, let it dry (about 60 seconds for the kit; about 8-9 seconds for the industrial primer), then put one drop of superglue per square inch on the other part and press together for about 30 seconds (Loctite Plastics Bonding System data sheet; Loctite SF 770 data sheet). Bond soon: the primer stays active for about 8 hours (Loctite SF 770 data sheet). 6) Load the joint in shear, not peel, especially with primed superglue (Loctite SF 770 data sheet); use wide overlapping or stepped joints. 7) Don't use it on nylon (PA) prints without testing, because 3M lists nylon as not recommended for DP8005 (3M DP8005 data sheet), although Permabond reports 5 MPa on PA6 with TA4610 (Permabond TA4610 data sheet). 8) For PP or PE prints, melting them together with a soldering iron or hot-air plastic welder is often simpler (Wikipedia 'Polyethylene'; Wikipedia 'Plastic welding'). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Know what you are gluing: PP is so hard to stick to that PP prints only grip a PP bed sheet or PP tape (Prusa knowledge base), which is the same problem glue has. For PLA, PETG, ABS and ASA prints, ordinary superglue or epoxy usually works, though methacrylate glues were among the strongest on PETG in Cosel's test (Hackaday). 2) Clean with isopropyl alcohol and let it evaporate; lightly sand with 150-grit or finer paper; avoid anti-static or oily additives and mould-release sprays (3M DP8005 data sheet; Permabond TA4610 data sheet). 3) With structural acrylics, use the maker's gun and mixing nozzle, throw away the first bit of mixed glue, and close the joint within the 2.5-3 minute work life (3M DP8005 data sheet). Design the joint so the glue layer is about 0.13-0.2 mm thick, and add small bumps or ribs about that height if parts sit flat (3M DP8005 data sheet: 0.005-0.008 in bondline). Clamp lightly (about 4-8 psi) for at least 2 hours; 3M notes plastic parts can be designed to hold themselves in place (3M DP8005 data sheet). 4) Mixed acrylic gets hot as it cures, and the heat can deform thin or heat-sensitive parts, which matters for thin PLA walls (Loctite design guide, p. Also, glue squeezed out into the air stays soft for longer, while glue inside the joint cures solid (Permabond TA4610 data sheet). 5) With the primer route, prime only the PE or PP part, let it dry (about 60 seconds for the kit; about 8-9 seconds for the industrial primer), then put one drop of superglue per square inch on the other part and press together for about 30 seconds (Loctite Plastics Bonding System data sheet; Loctite SF 770 data sheet). Bond soon: the primer stays active for about 8 hours (Loctite SF 770 data sheet). 6) Load the joint in shear, not peel, especially with primed superglue (Loctite SF 770 data sheet); use wide overlapping or stepped joints. 7) Don't use it on nylon (PA) prints without testing, because 3M lists nylon as not recommended for DP8005 (3M DP8005 data sheet), although Permabond reports 5 MPa on PA6 with TA4610 (Permabond TA4610 data sheet). 8) For PP or PE prints, melting them together with a soldering iron or hot-air plastic welder is often simpler (Wikipedia 'Polyethylene'; Wikipedia 'Plastic welding'); see the Melted plastic weld entry. *(unverified parts omitted)*
 - **off_the_shelf_parts**: Search for 'polyolefin bonder', 'LSE structural adhesive', 'polypropylene adhesive' or 'structural plastic adhesive' (e.g. 3M Scotch-Weld DP8005 / DP8010, Loctite 3032, Permabond TA4610, brands) with the matching 'duo-pak applicator' or dispensing gun and 'static mixing nozzles'; 'polyolefin primer' or 'CA primer' (e.g. Loctite SF 770, brand) with a surface-insensitive cyanoacrylate; consumer 'plastics bonding system' kits with a primer pen; 'LSE double-sided tape' (e.g. 3M 300LSE or VHB LSE, brands) where tape will do; and a 'propane torch with flame spreader' for flame treatment (3M white paper; Loctite SF 770 data sheet; TAP Poly-Weld data sheet).
 - **rules_of_thumb**: 
   - The lower a surface's energy (critical surface tension), the harder it is to glue: PTFE is about 18.5 mN/m, silicone 24, PE and PP 31 and polystyrene 33, while PVC (39), nylon 6,6 (43) and PET (43) are easier, and aluminium (about 500) and glass (about 1,000) are easy (3M 'Innovations in Bonding to Low Surface Energy Surfaces' white paper, table after Kinloch 1987).
@@ -1229,7 +1263,7 @@
   - Car bumper fascia, trim and plastic fuel or liquid containers bonded with LSE structural acrylics in factories (3M white paper)
   - Things made of the plastics these glues are for: milk and household-chemical bottles, squeeze bottles, screw caps and toys (Loctite design guide, p. 50; Wikipedia 'Polyolefin')
 - **when_to_use**: Use an LSE structural acrylic when you need a strong, tough joint on polyethylene or polypropylene, or between PE/PP and metal, wood or another plastic, and screws, clips or welding won't do; for example gluing HDPE sheet, repairing a PP box or bonding a PP print to an aluminium bracket (3M DP8005 data sheet; Permabond TA4610 data sheet). Use the primer-plus-superglue kit for small, close-fitting indoor repairs to PP, PE, PTFE or rubber parts where a quick, no-mixing fix is enough (Loctite Plastics Bonding System data sheet). General structural acrylics (MMA) are also good whenever you need a fast, tough, peel-resistant bond on ABS, PVC, polycarbonate, fibreglass or metal (Permabond MMA article; Devcon data sheet).
-- **when_not_to_use**: Don't use ordinary superglue, epoxy, polyurethane glue, general-purpose MMA or silicone on PE or PP and expect it to hold: they give almost no strength there (Loctite design guide, pp. 51, 63). Avoid the primer-plus-superglue kit outdoors, for gap filling, for flexible joints, for parts that hold hot liquids or go in an oven or microwave, and wherever the joint will be peeled (Loctite Plastics Bonding System data sheet; Loctite SF 770 data sheet). Avoid LSE acrylics on PTFE, silicone, nylon or oily and anti-static plastics without testing (3M DP8005 data sheet), and where the joint gets hot, since DP8005 keeps only about a quarter of its strength at 82 °C (3M DP8005 data sheet). Often a better answer for PE and PP is plastic welding (hot air, a speed-tip welder or a soldering iron), which 'readily' gives high-strength joints (Wikipedia 'Polyethylene'; Wikipedia 'Plastic welding'), or mechanical fixing: screws, clips, snap fits or rivets (3M white paper). Solvent welding does not work, because polyolefins resist solvents (Wikipedia 'Polyolefin').
+- **when_not_to_use**: Don't use ordinary superglue, epoxy, polyurethane glue, general-purpose MMA or silicone on PE or PP and expect it to hold: they give almost no strength there (Loctite design guide, pp. 51, 63). Avoid the primer-plus-superglue kit outdoors, for gap filling, for flexible joints, for parts that hold hot liquids or go in an oven or microwave, and wherever the joint will be peeled (Loctite Plastics Bonding System data sheet; Loctite SF 770 data sheet). Avoid LSE acrylics on PTFE, silicone, nylon or oily and anti-static plastics without testing (3M DP8005 data sheet), and where the joint gets hot, since DP8005 keeps only about a quarter of its strength at 82 °C (3M DP8005 data sheet). Often a better answer for PE and PP is plastic welding (hot air, a speed-tip welder or a soldering iron), which 'readily' gives high-strength joints (Wikipedia 'Polyethylene'; Wikipedia 'Plastic welding'; see the Melted plastic weld entry), or mechanical fixing: screws, clips, snap fits or rivets (3M white paper). Solvent welding does not work, because polyolefins resist solvents (Wikipedia 'Polyolefin').
 - **environment_limits**: Heat: 3M DP8005's overlap shear on HDPE falls from about 1,100 psi at 23 °C to about 700 psi at 49 °C, 500 psi at 66 °C and 300 psi at 82 °C (Tg onset about 33 °C); it keeps about 750-875 psi at -29 °C (3M DP8005 data sheet). Permabond TA4610 can be used down to -55 °C (Permabond TA4610 data sheet). Primed superglue is rated to 82 °C (180 °F) in the consumer kit (Loctite Plastics Bonding System data sheet). Water: the acrylics resist water and humidity well; DP8005 kept 950-1,000 psi on HDPE after 14 days in 71 °C water, and TA4610 is sold as bonding underwater (3M DP8005 data sheet; Permabond TA4610 data sheet). The consumer primer kit is 'not suitable for exterior applications' (Loctite Plastics Bonding System data sheet), although industrial primed superglue kept full strength after 1,000 hours in water or 95% humidity at 40 °C (Loctite SF 770 data sheet). Chemicals: gasoline, toluene and acetone badly weaken DP8005 (down to about 25-450 psi); diesel, antifreeze, salt water, isopropyl alcohol and dilute acid or alkali had little effect (3M DP8005 data sheet). Sunlight: cured DP8005 yellows with time (3M DP8005 data sheet). Storage: keep DP8005 cartridges at 4 °C or below for best shelf life, and primer at 8-21 °C (3M DP8005 data sheet; Loctite SF 770 data sheet).
 - **safety_notes**: Methacrylate glues smell strongly and are flammable (Permabond MMA article); methyl methacrylate irritates the eyes, skin and lungs and is a recognised skin sensitiser (contact allergen) (Wikipedia 'Methyl methacrylate'), so wear gloves and work with good ventilation. Primers and activators use highly flammable solvents (heptane or isopropyl acetate): keep them away from flames and sparks (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet). Don't flame-treat in the same place you have just used primer or solvent. Superglue bonds skin in seconds and can cause burns on skin contact (Loctite Plastics Bonding System data sheet). Flame treatment uses an open propane flame: only touch the plastic with the tip of the outer flame for 2-3 seconds in total, and don't let it melt (TAP Poly-Weld data sheet). Large amounts of mixed static-mix acrylic get hot as they cure (Loctite design guide, p. 12).
 - **common_failures**: The glue peels cleanly off the PE or PP with no plastic torn off: the wrong glue was used, or the surface was dirty. Use an LSE product, clean with isopropyl alcohol, and remove mould release (Loctite design guide; 3M DP8005 data sheet). Weak or patchy bonds on plastics containing oils or anti-static additives (3M DP8005 data sheet). Bonds that never reach strength because the parts were joined after the few-minute work life, the cartridge was mixed by hand in the wrong ratio, or the glue layer was thinner than 0.13 mm (3M DP8005 data sheet). Primed superglue failing because too much primer was used, too long passed after priming, or the parts had gaps (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet). Primed superglue joints breaking when peeled or flexed, or failing outdoors (Loctite SF 770 data sheet; Loctite Plastics Bonding System data sheet). Flame treatment that didn't work (water still beads up) or that melted and warped the part (TAP Poly-Weld data sheet). Glue squeezed out of the joint that stays tacky, because air slows the cure of acrylics (Permabond TA4610 data sheet). Joints that soften and creep when warm (3M DP8005 data sheet).
@@ -1237,7 +1271,8 @@
   - Cyanoacrylate (superglue): the same glue used in the primer route; without primer it gives only about 0.3-1 MPa on PE and PP (Loctite design guide)
   - General-purpose structural acrylic (MMA) 'plastic welder' glues: tough and fast on ABS, PVC, polycarbonate, fibreglass and metal, but not on PE or PP (Devcon data sheet; Loctite design guide)
   - Two-part epoxy: excellent on metal, wood and many plastics, but weak on untreated PE and PP (Loctite design guide)
-  - Plastic welding (hot air, speed-tip or soldering-iron welding): melts PE or PP parts together with filler rod; often the strongest and cheapest fix for polyolefins (Wikipedia 'Plastic welding'; Wikipedia 'Polyethylene')
+  - Melted plastic weld: hot-air, speed-tip or soldering-iron welding that melts PE or PP parts together with filler rod; often the strongest and cheapest fix for polyolefins (Wikipedia 'Plastic welding'; Wikipedia 'Polyethylene')
+  - Friction-welded plastic: melts a spinning rod of plastic into the seam with a rotary tool; another glue-free way to fuse plastic prints
   - Solvent welding: fuses ABS, PVC and acrylic, but can't be used on PE or PP because they resist solvents (Wikipedia 'Polyolefin')
   - Double-sided foam tape made for LSE plastics (e.g. 3M 300LSE or VHB LSE, brands): sticks to PP and TPO without primer; PE may still need flame, corona or plasma treatment (3M white paper)
   - Polyolefin hot melts: hot-glue sticks formulated specially to stick to polyolefins (Loctite design guide)
@@ -1369,6 +1404,7 @@
   - Contact adhesive and elastomeric solvent glues: flexible glues for sheets, rubber and fabric that don't need air moisture, but give off solvent
   - Double-sided foam tape: an instant, flexible, clean bond for mounting, but not a gap-filling seal
   - Silicone mouldable glue (e.g. Sugru, brand): silicone rubber you shape by hand like clay, which hardens at room temperature and sticks to glass and aluminium (Wikipedia 'Silicone')
+  - Melted plastic weld: for a watertight printed tank or box, makers suggest welding the printed seams first (e.g. with a soldering iron) and then sealing the whole thing, warning that 'silicone on its own might not be enough' (r/3Dprinting thread read through the Arctic Shift archive)
 
 ### Pictures, videos and models
 
@@ -1406,6 +1442,8 @@
   - https://commons.wikimedia.org/wiki/File:CrosslinkedSilicone.svg
   - https://www.youtube.com/watch?v=ajXmnBRQ5yI
   - https://api.printables.com/graphql/
+  - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
+  - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
 
 ### Other info
 
@@ -1632,7 +1670,7 @@
   - Cyanoacrylate (superglue): also cures in a thin film between close parts but triggered by moisture, works on plastics, and is brittle
   - Press fit / interference fit and keyless locking bushes: purely mechanical ways to fix a hub on a shaft; retaining compounds can be added to press fits (Loctite retaining compounds catalogue)
   - Two-part epoxy: gap-filling alternative for fixing parts on shafts when fits are loose or the parts are plastic
-  - PTFE thread-seal tape and anaerobic pipe sealants: for sealing pipe threads rather than locking them (Wikipedia; Permatex) *(unverified parts omitted)*
+  - Tapered pipe thread: the NPT or BSPT pipe joint where anaerobic pipe-thread sealant (or PTFE tape or pipe dope) is actually used, to seal the threads rather than lock them (Wikipedia; Permatex) *(unverified parts omitted)*
 
 ### Pictures, videos and models
 
@@ -1989,7 +2027,7 @@
   - A chipped porcelain figure or pottery restored with Milliput and painted to match (Milliput data sheet; Wikipedia)
   - A stripped screw hole on a drawer pull filled and re-drilled; J-B Weld lists this among its home repair guides (J-B Weld)
 - **when_to_use**: Use it when you need to fill, rebuild or plug rather than just glue a thin line: filling holes, cracks and gaps; rebuilding a broken corner or missing piece; patching a leak in a pipe, tank or boat; restoring worn metal or rotten wood; and making a solid spot that can then be drilled and tapped for a screw (Loctite EA 3463; Loctite Repair Putty; J-B Weld; Milliput on Wikipedia). Its modelling-clay consistency lets it be shaped and formed before it cures (Loctite Repair Putty), and underwater-rated types handle damp or wet repairs (Loctite Repair Putty; Loctite EA 3463). For 3D prints it fills seams and gaps between glued parts, repairs broken prints and adds sculpted detail (Tinkerine video; Wikipedia).
-- **when_not_to_use**: For thin, close-fitting glue joints use liquid epoxy or CA, which flow into a thin bond line; the putty's own lap-shear strength is modest (3.8 MPa for Loctite EA 3463 on steel; Henkel). Don't use it for structural or load-bearing joints, parts that flex or move, or large or deep holes (Loctite Repair Putty). Avoid it on polyethylene, polypropylene, non-stick (PTFE) surfaces, nylon and flexible materials; use a low-surface-energy adhesive, plastic welding or mechanical fasteners there (Loctite Repair Putty). Avoid it for hot parts beyond its rating (e.g. above 70 °C for load-bearing Loctite Repair Putty bonds) and in pure-oxygen systems (Henkel). If the parts must come apart later, use screws, threaded inserts or a removable joint. For a smooth cosmetic finish over large areas of a print, spray filler or body filler sands more easily (Prusa post-processing guide).
+- **when_not_to_use**: For thin, close-fitting glue joints use liquid epoxy or CA, which flow into a thin bond line; the putty's own lap-shear strength is modest (3.8 MPa for Loctite EA 3463 on steel; Henkel). Don't use it for structural or load-bearing joints, parts that flex or move, or large or deep holes (Loctite Repair Putty). Avoid it on polyethylene, polypropylene, non-stick (PTFE) surfaces, nylon and flexible materials; use a low-surface-energy adhesive, plastic welding (see Melted plastic weld) or mechanical fasteners there (Loctite Repair Putty). Avoid it for hot parts beyond its rating (e.g. above 70 °C for load-bearing Loctite Repair Putty bonds) and in pure-oxygen systems (Henkel). If the parts must come apart later, use screws, threaded inserts or a removable joint. For a smooth cosmetic finish over large areas of a print, spray filler or body filler sands more easily (Prusa post-processing guide).
 - **environment_limits**: Heat: it will not melt once cured (Wikipedia), but it softens and weakens: Loctite Repair Putty is rated to 121 °C for fills and 70 °C for load-bearing bonds, Loctite EA 3463 has a glass transition temperature of 54 °C, and J-B Weld SteelStik claims 177 °C (350 °F) (Henkel; J-B Weld). Cold: Loctite Repair Putty is rated down to -27 °C, and the uncured putty is not damaged by freezing (Henkel). Water: waterproof and resistant to most common solvents once cured, and some grades cure under water, but bonds made on wet surfaces are weaker (Loctite Repair Putty; Loctite EA 3463). Oil: J-B Weld lists SteelStik as water and oil resistant. Flexing and vibration: very little stretch (0.3% elongation for EA 3463), so it cracks if the part bends or moves (Henkel). *(unverified parts omitted)*
 - **safety_notes**: Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airways: wear impervious (e.g. nitrile) gloves and wash hands after use (Loctite Repair Putty; Milliput instructions). Don't lick fingers or tools to smooth it, a habit among sculptors that the Milliput data sheet calls 'inadvisable on health grounds'; use water or a lubricant instead. Don't breathe the dust when sanding cured putty (Loctite Repair Putty). Loctite's label carries a California Proposition 65 cancer warning and 'may cause allergic skin reaction'. Keep out of reach of children, and don't use steel-filled putty in pure-oxygen or chlorine systems (Henkel; Milliput). *(unverified parts omitted)*
 - **common_failures**: Soft, sticky or weak spots from uneven mixing: knead until there are no streaks, especially with same-colour grades such as Superfine White Milliput (Milliput instructions). The repair pops off because the surface was greasy, dusty, smooth or wet: clean, dry and roughen first (Henkel; Milliput). It won't stick to PE, PP, PTFE or nylon (Loctite Repair Putty). Cracks where the part flexes or moves, because cured putty barely stretches (Loctite Repair Putty; EA 3463 elongation 0.3%). Working past the pot life, so it no longer wets the surface; mix only small amounts of fast putties (Henkel). Weak threads or loose screws when drilled and tapped before full cure; wait the full time (J-B Weld; Henkel). Softening near hot parts above its rated temperature (Henkel). Hardened putty stuck on tools: clean them straight away with a wet rag (Milliput).
@@ -2001,6 +2039,7 @@
   - Hot-melt adhesive (glue gun): also fills gaps quickly, but stays soft, weak and heat-sensitive
   - Structural acrylic and low-surface-energy plastic adhesives: for PE and PP, which epoxy putty cannot bond (Loctite Repair Putty limitation)
   - Silicone and MS-polymer sealants: flexible, waterproof gap-fillers where the joint moves; epoxy putty is rigid
+  - Melted plastic weld: for a watertight printed tank, makers suggest welding the seams first (e.g. with a soldering iron) and then sealing, using 'glue and sealer' rather than one product alone (r/3Dprinting thread read through the Arctic Shift archive)
 
 ### Pictures, videos and models
 
@@ -2030,6 +2069,8 @@
   - https://www.youtube.com/watch?v=R3r0UZ7txzs
   - https://www.youtube.com/watch?v=k5VkDj82_dc
   - https://api.printables.com/graphql/
+  - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
+  - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
 
 ### Other info
 

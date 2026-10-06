@@ -863,7 +863,7 @@
 
 *motion conversion.* Four bars joined in a loop by pivots, which turns one motion into another shaped motion; the basic building block of most linkages
 
-*Also covers:* Also covers the pantograph (a parallelogram linkage that copies motion at a larger or smaller scale)
+*Also covers:* Also covers the pantograph (a parallelogram linkage that copies motion at a larger or smaller scale). Also covers lost motion (deliberate free play before the driven part is picked up).
 
 ### What it is
 
@@ -883,7 +883,7 @@
 - **other_families**: over-centre, toggle & cam clamps, clutches & couplings
 - **one_liner**: Four bars joined by four pivots into a closed loop, one bar fixed, so that turning or swinging one bar moves the rest in a single set way: turning into swinging, swinging into turning, a part kept level (parallelogram), or a drawing traced at a new scale (pantograph).
 - **complexity**: A few parts: a fixed base (ground link) with two pivots; an input link (crank or lever); a floating link between the moving ends (coupler); an output link (rocker or follower); four pivot pins, bolts or bearings. A pantograph uses a parallelogram with two arms extended, one fixed pivot, a tracing point and a pen.
-- **how_it_works**: Because the four bars form a closed loop, fixing one bar leaves only one way for the others to move: set the input's angle and every other part's position follows (one degree of freedom). The link lengths decide what happens: by Grashof's rule, if the shortest plus the longest bar are no longer than the other two added together, the shortest bar can turn all the way round, giving a crank-rocker (input turns, output swings), a double crank (both turn) or a double rocker (both swing) depending on which bar is shortest (Wikipedia; MechSimulator). Points on the coupler trace curves (coupler curves) ranging from near-straight lines to figure-eights. When opposite bars are equal (a parallelogram) the coupler stays parallel to the fixed bar, so a lamp head, loader bucket or wiper blade keeps its angle (Carnegie Mellon notes; Wikipedia); a pantograph arranges a parallelogram so that a fixed point, a tracing point and a pen stay on one straight line, so the pen copies the tracer's path scaled by the ratio of their distances from the fixed point (Nguyen Duc Thang, 'Bar pantograph 1'; 507 Mechanical Movements no. 246).
+- **how_it_works**: Because the four bars form a closed loop, fixing one bar leaves only one way for the others to move: set the input's angle and every other part's position follows (one degree of freedom). The link lengths decide what happens: by Grashof's rule, if the shortest plus the longest bar are no longer than the other two added together, the shortest bar can turn all the way round, giving a crank-rocker (input turns, output swings), a double crank (both turn) or a double rocker (both swing) depending on which bar is shortest (Wikipedia; MechSimulator). Points on the coupler trace curves (coupler curves) ranging from near-straight lines to figure-eights. When opposite bars are equal (a parallelogram) the coupler stays parallel to the fixed bar, so a lamp head, loader bucket or wiper blade keeps its angle (Carnegie Mellon notes; Wikipedia); a pantograph arranges a parallelogram so that a fixed point, a tracing point and a pen stay on one straight line, so the pen copies the tracer's path scaled by the ratio of their distances from the fixed point (Nguyen Duc Thang, 'Bar pantograph 1'; 507 Mechanical Movements no. 246). A mechanism can also be given deliberate lost motion (free play before the driven part is picked up), so the output waits while the input moves: in Nguyen Duc Thang's 'Motion delay mechanism 1' a crank 'rotates idly' on its gear's shaft, so the output rack 'moves only after the blue gear makes around two revolutions', and adding more idle cranks lengthens the delay (Thang, 2700 Animated Mechanical Mechanisms part 2, p. 119).
 
 ### Finder attributes
 
@@ -955,6 +955,7 @@
   - Virtual-pivot linkage (remote centre of motion): a linkage arranged so a part rotates about a point in empty space
   - Bell crank (angle lever): a single L-shaped lever often used as one link of a linkage
   - Oldham coupling: like a parallel link coupling, passes rotation between offset parallel shafts, but by sliding rather than pivots
+  - Multi-turn rotation limiter: its stacked-ring stops use the same lost-motion idea, each ring turning idly until it picks up the next
 
 ### Pictures, videos and models
 
@@ -1012,6 +1013,7 @@
   - https://www.mcmaster.com/products/rod-ends/
   - https://www.mcmaster.com/products/shoulder-bolts/
   - https://www.mcmaster.com/products/sleeve-bearings/
+  - https://cs448m.github.io/lectures/machines/doc/2.pdf
 
 ### Other info
 
@@ -2455,7 +2457,7 @@
 
 *motion conversion.* A string pulled from a distance bends a chain of hinged or flexible segments, as in printed robot hands and tentacles, with elastic cord or a second string pulling them back
 
-*Also covers:* Different from the Bowden cable (only the sleeve) and the Posable segmented arm (not driven)
+*Also covers:* Different from the Bowden cable (only the sleeve) and the Posable segmented arm (not driven). Also covers spring-closed (voluntary-opening) versus cable-closed (voluntary-closing) grippers, described for maker use only.
 
 ### What it is
 
@@ -2475,7 +2477,7 @@
 - **other_families**: cord, strap, webbing & textile hardware, compliant mechanisms & flexures, hinges & pivots, print-in-place & 3D-printing joints
 - **one_liner**: A tendon-driven joint bends a chain of hinged or flexible segments by pulling a string anchored near the tip and threaded past each joint a little way off its pivot, so a straight pull from a distant motor, lever or wrist becomes a curling motion, while elastic cord, springy hinges or a second string pull it back.
 - **complexity**: A small assembly that acts as one unit: (1) segments (finger bones or tentacle 'vertebrae'), printed or cut; (2) joints between them: pins, flexible flexure hinges, or a continuous bendy backbone; (3) one or more tendons, usually braided fishing line or thin wire rope, anchored at the tip; (4) routing holes, guide pins, small pulleys or a sleeve that keep each tendon a set distance from each joint; (5) a return: elastic cord or rubber bands, the springiness of the hinges, or a second (antagonist) tendon; (6) a tensioner (screw, pin or spring) to take up slack; (7) the puller: a servo or winch with a pulley, the user's wrist (e-NABLE hands) or a hand lever or joystick (Frontiers 2021; Yale OpenHand; InMoov; Thingiverse 'Animatronic Tentacle MK III').
-- **how_it_works**: Each tendon runs along the segments a small distance from each joint's pivot (its moment arm), so pulling it produces a turning force at that joint equal to the tension times that distance (OpenHand measures the moment arm from the tendon hole to the flexure centreline). Shortening the tendon path makes the joints bend; in a Raptor Reloaded finger, 15 mm of pull at 22.2 N curled both joints to 90 degrees (Frontiers 2021). One tendon passing several joints drives them all at once (underactuation), so the finger keeps closing round an object until every segment touches it; the order in which joints close is set by their relative stiffness (OpenHand). Because strings can only pull, something must pull the other way: elastic cords, rubber bands or springy flexures open the finger, or cables are used in pairs so the joint can be pulled both ways (Hackaday, Vasquez 2021); a tentacle or continuum robot has several tendons spaced round a bendy backbone and pulled from outside the body (Wikipedia 'Continuum robot').
+- **how_it_works**: Each tendon runs along the segments a small distance from each joint's pivot (its moment arm), so pulling it produces a turning force at that joint equal to the tension times that distance (OpenHand measures the moment arm from the tendon hole to the flexure centreline). Shortening the tendon path makes the joints bend; in a Raptor Reloaded finger, 15 mm of pull at 22.2 N curled both joints to 90 degrees (Frontiers 2021). One tendon passing several joints drives them all at once (underactuation), so the finger keeps closing round an object until every segment touches it; the order in which joints close is set by their relative stiffness (OpenHand). Because strings can only pull, something must pull the other way: elastic cords, rubber bands or springy flexures open the finger, or cables are used in pairs so the joint can be pulled both ways (Hackaday, Vasquez 2021); a tentacle or continuum robot has several tendons spaced round a bendy backbone and pulled from outside the body (Wikipedia 'Continuum robot'). A gripper worked by one cable also needs a choice that body-powered prosthetic hooks make: spring-closed (voluntary opening, 'pull to open'), where elastic bands or springs give the grip and pulling the cable opens it, so once closed it holds 'like a passive vice' with no pull needed; or cable-closed (voluntary closing, 'pull to close'), where the grip follows the pull and needs 'constant tension to grip', but can be much stronger and lets the operator feel how hard it is squeezing (Wikipedia 'Prosthesis').
 
 ### Finder attributes
 
@@ -2523,6 +2525,7 @@
   - Sprung tensioners must be at rest (not stretched) when you set the tendon tension, otherwise they do nothing (InMoov).
   - Printed finger life at 10 N: about 300,000 cycles in PLA and 70,000 in ABS by fatigue analysis; ABS failed at 15 N and above (Frontiers 2021).
   - UHMWPE line creeps under constant load and should not be used above about 90 C for long periods (Wikipedia 'UHMWPE').
+  - Spring-closed or cable-closed: a spring-closed (pull-to-open) gripper keeps holding with no pull, but its grip is limited to what its springs or bands give, 'usually below 20 pounds' (about 90 N) for body-powered split hooks, while a cable-closed (pull-to-close) one grips as hard as it is pulled and lets go when the pull stops (Wikipedia 'Prosthesis').
 
 ### When to use it
 
@@ -2534,7 +2537,7 @@
 - **when_to_use**: Use it when you want the moving part light and slim and the motor somewhere else: robot and prosthetic hands, grippers that wrap round odd shapes, animatronic tentacles, tails and puppets, snake-like arms that reach into tight spaces, and wearable devices (Wikipedia 'Continuum robot'; Yale OpenHand; Frontiers 2021). One motor can close a whole hand through underactuation, it is cheap (fishing line and printed parts), naturally compliant and gentle when it bumps into things, and it can be powered by a person's own wrist with no electronics (e-NABLE).
 - **when_not_to_use**: Avoid it when you need stiff, precise, repeatable positions, high forces in both directions, or very long service life: tendons stretch and creep, friction and slack cause hysteresis, and moving one joint can disturb another (Wikipedia 'Tendon-driven robot'; InMoov; arXiv 2507.17163). For a precise joint use a servo or gearmotor at the joint, or a linkage; for a stiff bendable arm that holds a pose without power use a posable segmented arm; for gentle gripping without strings use a fin-ray finger or a soft pneumatic actuator; to carry a pull round many bends use a Bowden cable (sleeve) rather than bare holes.
 - **environment_limits**: Heat: rubber bands perish in hot climates, which is why e-NABLE replaced them with elastic cord for the tropics (Phoenix Reborn); UHMWPE line should not be used above about 90 C for long (Wikipedia); PLA segments soften above about 60 C (Prusa), e.g. in a hot car. Creep: UHMWPE tendons slowly stretch under constant load (Wikipedia 'UHMWPE') and printed parts creep, so re-tension from time to time. *(unverified parts omitted)*
-- **safety_notes**: Finger joints and the gap between fingers and palm are pinch points, and a servo-driven hand can squeeze hard; hobby servos pulling against friction-heavy tendons all day can overheat and burn out (InMoov forum note). A snapping tendon lets the finger spring open suddenly. e-NABLE devices are given 'as is' and its page warns they are not for commercial use; the Raptor Reloaded design is now recommended only for testing or research because its grip is weaker than later designs (Thingiverse 596966). Wire-rope ends are sharp, and annealing them with a torch (Thingiverse MK III) is a burn and fire risk.
+- **safety_notes**: Finger joints and the gap between fingers and palm are pinch points, and a servo-driven hand can squeeze hard; hobby servos pulling against friction-heavy tendons all day can overheat and burn out (InMoov forum note). A snapping tendon lets the finger spring open suddenly. e-NABLE devices are given 'as is' and its page warns they are not for commercial use; the Raptor Reloaded design is now recommended only for testing or research because its grip is weaker than later designs (Thingiverse 596966). Wire-rope ends are sharp, and annealing them with a torch (Thingiverse MK III) is a burn and fire risk. The spring-closed versus cable-closed comparison above is taken from prosthetic hooks only as a design idea for robot and hobby grippers; this entry is not guidance on making or fitting prostheses.
 - **common_failures**: 1) Wrong tension, so the fingers do not close fully or stay half-closed: e-NABLE call this the most common assembly mistake; add a tensioner and follow the 30-45 degree palm rule. 2) Tendon frays or cuts through the plastic at sharp edges: round the holes, add steel pins or tube liners (OpenHand; InMoov; Frontiers 2021). 3) Knots slip in slippery braided line: use several knots plus a drop of glue (InMoov; Wikipedia 'UHMWPE'). 4) Too much friction from tight bends, so the motor stalls or the finger moves jerkily: reduce total wrap angle and use pulleys (Hackaday, Vasquez 2021). 5) Turning the wrist or bending an earlier segment tightens or slackens the tendons and disturbs the fingers: route tendons near the wrist axis or add sprung tensioners (InMoov; arXiv 2507.17163). 6) Fingers will not open fully because the elastic return is too weak, perished or rubbing, or a cover rubs the palm (InMoov forum; e-NABLE). 7) Twisted or tangled tendons where they bundle together jam the mechanism (InMoov). 8) Printed segments or pins crack from repeated load (Frontiers 2021 fatigue estimates).
 - **related**: 
   - Bowden cable: only the sleeve that carries a pull round bends; a tendon-driven joint is the jointed part at the end that the pull actually bends, and it often uses a Bowden sleeve to reach it
@@ -2546,6 +2549,8 @@
   - Linkage-driven finger (four-bar linkage): rigid bars instead of a string; stiffer and more precise, but bulkier and less adaptable
   - Fin-ray gripper and soft pneumatic bending actuator: bend to wrap round objects without any tendon, passively or by air pressure
   - Rolling-contact joint: a hinge made of two rolling surfaces held by straps, often combined with tendons in robot fingers
+  - Stopper knots and cord-end anchors: the knot, crimped stop or clamp that anchors each tendon at the fingertip so it can't pull through
+  - Wire-rope terminations: crimped sleeves (ferrules) and clamps for thin wire-rope tendons, as used in bigger tentacles
 
 ### Pictures, videos and models
 
@@ -2588,6 +2593,7 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://www.youtube.com/watch?v=xk_EUOnGtAg
   - https://www.youtube.com/watch?v=EVMatHNgC6s
+  - https://en.wikipedia.org/wiki/Prosthesis
 
 ### Other info
 

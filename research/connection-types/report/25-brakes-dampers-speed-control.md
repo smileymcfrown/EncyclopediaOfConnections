@@ -411,6 +411,8 @@
 
 *brakes, dampers & speed control.* Parts filled with oil or air that slow a movement down, so lids, drawers and doors close gently instead of slamming
 
+*Also covers:* Also covers one-shot crush absorbers (crushable foam, honeycomb and crumple zones) that must be replaced after one hit.
+
 ### What it is
 
 - **plain_name**: A small sealed part filled with thick oil or air that pushes back harder the faster you move it, so a lid, drawer or door drifts shut gently instead of slamming
@@ -483,7 +485,7 @@
   - A piano fallboard or step-bin lid that lowers itself slowly (TOK)
   - A door closer on a public building door, which is a spring plus an oil damper with adjustable valves (Wikipedia 'Door closer')
 - **when_to_use**: Use a damper when something closes by gravity or a spring and you want it to arrive slowly and quietly: box and case lids, printer or enclosure doors, flaps, drawers, toilet-seat style hinges, spring-rewind reels (a one-way rotary damper lets a tape measure pull out lightly and rewind slowly; TOK), and the end of travel of a slide or arm. Pick a rotary damper when you have a hinge axis and little room; a linear damper when there is space for a stroke or the motion is straight (TOK). Pick a one-way damper so opening stays easy. Dampers also make good mechanical timers (a viscous rotary timer releases a model glider's dethermaliser; Thingiverse) and settle wobbly or bouncing parts.
-- **when_not_to_use**: Don't use a damper to hold a lid open or stop something drifting: it only slows motion and a steady load will still creep; use a friction hinge, a lid stay, a gas spring or a detent instead. Don't use it as an end stop or as the hinge itself (ACE; Airpot). For a mechanism that must run at a steady speed for a long time (a music box), use a speed governor. For smooth braking without fluids or wear, an eddy-current brake is an alternative. For soaking up vibration rather than slowing a motion, use rubber isolation mounts.
+- **when_not_to_use**: Don't use a damper to hold a lid open or stop something drifting: it only slows motion and a steady load will still creep; use a friction hinge, a lid stay, a gas spring or a detent instead. Don't use it as an end stop or as the hinge itself (ACE; Airpot). For a mechanism that must run at a steady speed for a long time (a music box), use a speed governor. For smooth braking without fluids or wear, an eddy-current brake is an alternative. For soaking up vibration rather than slowing a motion, use rubber isolation mounts. For a single hard hit rather than a repeated movement, use a one-shot crush absorber instead: crushable foam, honeycomb, or metal that flattens or splits, as in road crash cushions that use 'crushable materials (like various kinds of foam)', flatten a corrugated guard rail or split a steel box beam (Wikipedia 'Impact attenuator'), and racing-car impact attenuators of aluminium or carbon-fibre honeycomb or foam (Wikipedia 'Crumple zone'). These parts are sacrificial (Wikipedia 'Crumple zone'), so replace them after each hit.
 - **environment_limits**: Oil dampers get stiffer and slower in the cold and faster in the heat because oil viscosity changes: ACE rates its small dampers for 0 to 50 °C operation (storage -20 to 60 °C) and the FDT for -10 to +50 °C; Blum's soft-close hinges are designed for 65 to 85 °F (about 18 to 29 °C), with closing speed changing outside that range but no damage (ACE; Blum hinge specifications). Torque falls slowly with wear (at least 80% after 50,000 cycles for ACE FDT). Seals can leak if the damper is over-rotated (TOK). *(unverified parts omitted)*
 - **safety_notes**: A heavy lid or flap can crush fingers while you fit or remove its damper: support it first (ACE). Where a failure could hurt someone, add a separate safety device, because a damper that loses its oil gives no warning until the lid slams (ACE; TOK). Gas springs and door closers store spring energy. Silicone oil is slippery if spilled; dispose of dampers as oil-containing parts (ACE).
 - **common_failures**: 1) Fitted in the wrong direction: the lid is heavy to open and slams shut; fit the CW or CCW version for the closing direction (TOK). 2) Fitted at the wrong angle, so the working range does not match the lid's travel and it will not open fully or does not damp (TOK). 3) Turned beyond its angle limit: internal damage or oil leak and no damping (TOK). 4) Wrong torque: too low and it still slams, too high and a light door stops short (TOK; Blum lets you disable one hinge's damper on light doors). 5) Used as a stop or support, or side-loaded: the piston, vane or shaft breaks (Airpot; ACE). 6) Uneven dampers on a wide lid: it twists (TOK). 7) Cracked plastic mounting lugs or actuators (a broken tape-transport dashpot on Wikimedia Commons; a printed replacement actuator for drawer dampers on Printables). 8) Worn out: torque fades after tens of thousands of cycles; replace the unit (ACE). 9) DIY oil dampers leak at the lid or shaft: use an O-ring and watertight print settings (Printables; Prusa).
@@ -496,6 +498,7 @@
   - Gas spring (gas strut): pushes a lid open or holds it up; some add small holes for extra damping (Wikipedia 'Gas spring')
   - Elastomer isolation mount (rubber bobbin mount): soaks up vibration with rubber rather than slowing a movement
   - Shock absorber: a heavy-duty linear damper used with a spring in vehicle suspensions (Wikipedia 'Shock absorber')
+  - One-shot crush absorber (crushable foam or honeycomb, crumple zone, impact attenuator): soaks up a single impact by being crushed, making the stop last longer, and must then be replaced, whereas a damper and an Elastomer isolation mount work again and again (Wikipedia 'Impact attenuator', 'Crumple zone'); a maker use is a crushable bumper on a drone or robot, or the padding of an egg-drop capsule
 
 ### Pictures, videos and models
 
@@ -541,6 +544,8 @@
   - https://commons.wikimedia.org/wiki/File:Dashpot.svg
   - https://commons.wikimedia.org/wiki/File:Hinge_on_kitchen_cabinet_with_soft_closing_mechanism.jpg
   - https://commons.wikimedia.org/wiki/File:Revox_B215_-_tape_transport_-_broken_dashpot_01.jpg
+  - https://en.wikipedia.org/wiki/Impact_attenuator
+  - https://en.wikipedia.org/wiki/Crumple_zone
 
 ### Other info
 
@@ -637,6 +642,7 @@
   - Crush ribs and compliant press fits: springy features that hold parts snugly rather than isolate them
   - Double-sided foam tape (acrylic foam tape): bonds parts while adding some damping
   - Spring mounts, wire-rope isolators and air springs: for heavier loads or lower frequencies than rubber can reach (McMaster-Carr; Penn State)
+  - Levelling foot: a threaded foot that sets a machine level on the floor; some feet and levelling mounts add a rubber pad that also soaks up vibration
 
 ### Pictures, videos and models
 
