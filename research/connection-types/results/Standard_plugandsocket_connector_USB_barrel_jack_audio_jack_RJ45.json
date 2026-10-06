@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "plain_name": "A ready-made plug and matching socket, like a USB port, the round socket for a power adapter, a headphone jack or a network-cable socket, made to a published size so leads and chargers from anywhere fit and can be unplugged by hand",
+    "term": "Standard plug-and-socket connector (plug and jack built to a published connector standard)",
+    "aliases": [
+      "plug and socket, plug and jack, port, connector; 'male' and 'female' halves; inline (cable) connector, panel (chassis) connector and PCB-mount connector (Wikipedia 'Electrical connector'; 'Gender of connectors and fasteners')",
+      "USB connectors: Type-A, Type-B, Mini, Micro and USB-C (Wikipedia 'USB hardware', 'USB-C'; SparkFun 'Connector Basics')",
+      "barrel jack, barrel connector, DC jack, coaxial power connector, tip connector; common sizes 5.5 x 2.1 mm, 5.5 x 2.5 mm and 3.5 x 1.3 mm; standardised as IEC 60130-10 types A-E and EIAJ RC-5320A (Wikipedia 'Coaxial power connector'; SparkFun)",
+      "audio jack, headphone jack, phone connector, jack plug: 6.35 mm (1/4 in), 3.5 mm (1/8 in) and 2.5 mm, in TS, TRS and TRRS versions (Wikipedia 'Phone connector (audio)'; SparkFun); RCA (phono) connector (SparkFun)",
+      "RJ45, Ethernet jack, network socket: properly an 8P8C modular connector, since 'RJ45' originally named one wiring configuration (Wikipedia 'Modular connector')",
+      "keystone module: a standard 14.5 x 16.0 mm snap-in housing that holds RJ45, USB, HDMI, audio, F, BNC or banana jacks in wall plates and patch panels (Wikipedia 'Keystone module')",
+      "IEC connector, kettle plug, figure-8 and cloverleaf connectors: IEC 60320 mains appliance couplers such as C13/C14 (Wikipedia 'IEC 60320'; SparkFun)",
+      "circular connectors such as XLR, BNC, DIN and the threaded, sealed M12 (IEC 61076-2-101) (Wikipedia 'Electrical connector')",
+      "SMA and RP-SMA antenna connectors (SparkFun)",
+      "Lists of the standards (one entry here; follow these for each type): Wikipedia 'Audio and video interfaces and connectors', 'DC connector', 'Computer port (hardware)', 'AC power plugs and sockets' and 'Category:Electrical connectors'"
+    ],
+    "family": "electrical connections",
+    "other_families": [
+      "quick-release & tool-free",
+      "seals & pass-throughs"
+    ],
+    "one_liner": "A bought plug and socket made to a published standard (USB, barrel jack, audio jack, RJ45 and many more), so a project can take power or signals from leads and chargers that already exist and be unplugged by hand; you choose by what the other device has, how often it will be plugged in, and whether it must latch or seal.",
+    "complexity": "A few parts: the plug, usually on a cable, and the socket (jack), usually fixed to a panel or circuit board. Each half has metal contacts (pins, sleeves or springy fingers) held in a moulded insulator, usually inside a metal shell or keyed housing; many add a latch, locking ring, screws or bayonet; the cable end has a moulded strain-relief boot or a backshell; panel versions have a threaded bushing, nut and washer, and sealed versions add O-rings or grommets (Wikipedia 'Electrical connector'; SparkFun 'Connector Basics'; Same Sky DC jack release).",
+    "how_it_works": "Springy contacts in one half press against the pins or sleeves of the other, so spring force and friction make a low-resistance contact that can be pulled apart again (Wikipedia 'Electrical connector'). The housing's shape (keying) lets the plug go in only the right way, and latching versions add a tab, threaded ring, screws, bayonet or push-pull sleeve so it can't be pulled out by accident (Wikipedia 'Electrical connector'; 'Coaxial power connector'). Because the shape and pin layout follow a published standard, any plug of that type fits any matching socket; but some standards fix only the shape, not what is wired to it: barrel jacks, for example, have no fixed voltage or polarity (Wikipedia 'DC connector')."
+  },
+  "finder_attributes": {
+    "job": [
+      "join and hold: makes an electrical connection for power or signals that can be unplugged by hand (the finder reaches this entry through the 'electrical connections' family)",
+      "lock, and release by hand: latching versions (RJ45 tab, lock-ring and lock-tab barrel plugs, screw-lock, bayonet and push-pull circular connectors) stay in until a person releases them (Wikipedia 'Electrical connector', 'Modular connector', 'Coaxial power connector')"
+    ],
+    "motion": "none: nothing moves once it is plugged in; mating is a straight push, plus a twist for bayonet or lock-ring types.",
+    "degrees_of_freedom": "0: when mated the plug is held in its socket; a friction-fit plug can still wobble slightly.",
+    "special_behaviour": [
+      "quick-release: unplugs by hand with no tools (SparkFun 'Connector Basics')",
+      "hand-release only: latching versions hold against a pull until you press the tab or undo the ring or screws; the RJ45 plug's tab 'locks against a ridge in the socket so that the plug cannot be removed without disengaging the tab' (Wikipedia 'Modular connector')",
+      "self-aligning or self-centring: keyed shells guide the plug in and stop it going in the wrong way round (keying; Wikipedia 'Electrical connector')",
+      "fail-safe or breakaway: plain friction plugs and the lock-tab barrel plug, which 'will disengage when pulled hard enough', pull out instead of breaking when the cable is yanked (Wikipedia 'Coaxial power connector'); for a deliberate breakaway see Magnetic connector"
+    ],
+    "holding_principle": [
+      "friction or clamping (force-fit): the contacts grip the pins and the housings fit snugly",
+      "spring force (a spring or springy part presses it in place): springy contact fingers or spring wires press on the mating contacts (Wikipedia 'Modular connector': 'The spring force of the jack contacts ensures a good interface')",
+      "shape (the parts interlock; form-fit): keys, latch tabs, threads and bayonet lugs on locking versions (Wikipedia 'Electrical connector')"
+    ],
+    "input_output": "not applicable",
+    "power": "passive (no power needed): the connector holds itself; it only carries power or signals.",
+    "removability": "tool-free quick release: the mated pair unplugs by hand. Fitting the connector itself is permanent or semi-permanent: plugs are moulded on, soldered to solder cups or crimped, and sockets are soldered to a board or bolted into a panel (Wikipedia 'Electrical connector', 'Modular connector').",
+    "reuse_cycles": "many times: connectors are rated in mating cycles. Standard-size USB connectors are rated for at least 1,500 insertions, Mini-B for 5,000 and all Micro connectors and USB-C for 10,000 (Wikipedia 'USB hardware'); 'A USB connector may have a lifetime in the thousands or tens of thousands of cycles, while a board-to-board connector ... may be limited to tens of cycles' (SparkFun). Some, like the old 'Molex' PC power plug, are 'intended to be connected and disconnected only a few times' (SparkFun). Check the datasheet.",
+    "tools_needed": "None to plug and unplug. To fit: a soldering iron for solder cups, tags and board-mount sockets (Wikipedia 'Electrical connector'); a crimp tool with the matching die for RJ45 plugs (WE/SS and Tyco/AMP plug types need different dies) (Wikipedia 'Modular connector'); a punch-down tool for keystone network jacks with 110-style terminals (Wikipedia 'Keystone module'); a drill or step drill and a spanner for panel-mount nuts. Ready-made moulded cables need no tools.",
+    "seal": "none: ordinary USB, barrel, audio and RJ45 connectors are open to dust and water. Sealed circular connectors (for example M12) use O-rings, grommets or potting to reach IP ratings up to watertight (Wikipedia 'Electrical connector'); IP67 means protected against immersion up to 1 m for 30 minutes (Wikipedia 'IP code'). Such ratings normally apply when the pair is mated; makers sell caps so that unmated connectors keep IP67 (eeNews Europe on Binder NCC connectors).",
+    "load": "Electrical: up to about 30 A, extra-low voltage only. Most connectors in this entry carry signals or a few amps: every USB-C cable must carry at least 3 A, and e-marked cables up to 5 A at up to 48 V (240 W) (Wikipedia 'USB-C'); barrel jack ratings 'commonly vary from unspecified up to 5 A', with 12 V typical and up to 48 V (Wikipedia 'Coaxial power connector'), for example 20 V DC at 5 A for one family of panel jacks (Same Sky), while EIAJ plugs are rated 2 A (Wikipedia 'Coaxial power connector'); audio and network jacks are signal connectors. Mains appliance couplers (IEC 60320, up to 250 V and 16 A; Wikipedia 'IEC 60320') are also standard plug-and-socket connectors, but mains wiring is outside this entry (see safety_notes); for tens of amps use a High-current battery plug. Mechanical: light. Friction plugs pull out with a firm tug, latching ones hold against a straight pull until released; sideways force on a plugged-in lead levers on the socket and its solder joints, so board-mounted sockets are the weak point: through-hole USB-B is used 'for maximum reliability', while surface-mount Mini-USB trades 'robustness for size' (SparkFun).",
+    "adjustable": "no",
+    "play_and_precision": "small: a mated plug can wobble a little, and look-alike sizes differ by fractions of a millimetre: a plug made for a 2.5 mm pin 'will fit in a 2.1 mm jack, but ... the connection will be, at best, intermittent' (SparkFun). Keyed housings guide the plug into line, but connectors do not locate parts precisely (Wikipedia 'Coaxial power connector' notes size differences of only 0.05 mm between listed barrel sizes).",
+    "access_needed": "one side only (blind): plugging in needs only the socket's face. Fitting a panel-mount socket needs the back of the panel for its nut and wiring; board-mount sockets are soldered to the board before it goes in (SparkFun 'Connector Basics').",
+    "materials": "Contacts: copper alloys such as brass, phosphor bronze and beryllium copper, plated with gold, nickel or tin; gold is used for low-voltage signals because it doesn't form an oxide layer (Wikipedia 'Electrical connector'). Housings: moulded plastic, metal shells and backshells, ceramic for high-temperature types (Wikipedia 'Electrical connector'). Wires are soldered, crimped or pressed in by insulation displacement; RJ45 plugs are made for either solid or stranded wire and must match (Wikipedia 'Modular connector'). Panels: metal, wood, acrylic or 3D-printed plastic, within the panel thickness the connector allows (Same Sky offers long bushings 'for mounting to thick enclosures').",
+    "maker_difficulty": "easy: buy ready-made cables and sockets (or breakout boards) and fit them in a hole or on a board; soldering solder-cup plugs or crimping RJ45 plugs takes more skill and the right tool (Wikipedia 'Modular connector'; SparkFun)."
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: the plugs and sockets are always bought",
+      "3D print (FDM): enclosure cut-outs, keystone slots, connector mounts and brackets, cable strain-relief clamps and dust caps",
+      "laser cut: panel cut-outs in acrylic or plywood",
+      "sheet metal: drilled or punched metal panels for panel-mount sockets"
+    ],
+    "print_in_place": "no: the connector is bought; only the parts that hold it are printed.",
+    "making_tips_3d_printing": "1) Take the panel cut-out and the allowed panel thickness from the connector's datasheet, then print a small test plate first: a well-tuned printer is accurate to about 0.2 mm and materials shrink, so 'you will have to make test prints', and a parametric CAD model makes the tweaks easy (Prusa 'Modeling with 3D printing in mind'). 2) Threaded panel jacks need a wall thin enough for the nut to grip; printed walls are often thicker, so thin the wall locally round the hole or buy long-bushing versions made 'for mounting to thick enclosures' (Same Sky). 3) For a flexible front panel, print standard keystone ports (14.5 x 16.0 mm snap-in face) and snap in whichever jacks you need: RJ45, USB, HDMI, audio, F, BNC or banana (Wikipedia 'Keystone module'); the fit is tight, which is why one published model is parametric so you can tune it to your printer (Printables 537480 description). 4) For board-mounted sockets, line the socket face up with an opening in the wall and support the board close to the socket, so plugging and levering forces go into the case rather than the solder joints; SparkFun notes through-hole sockets are chosen 'for maximum reliability' [uncertain: no printed-enclosure test found]. 5) Add a clamp or cable-tie anchor that grips the cable jacket behind any plug you wire yourself, as moulded boots and backshells do on bought cables (SparkFun; Wikipedia 'Electrical connector'). 6) Solder wires to panel connectors before mounting them in a printed panel, or work quickly: soldering heat spreads through the metal and can melt the plastic between pins (Wikipedia 'Electrical connector'), and a printed panel softens far below solder temperatures. 7) Keep keying features and polarity marks visible on printed bezels, and label barrel inputs with the voltage and polarity symbol.",
+    "off_the_shelf_parts": "USB Type-A, Type-B, Micro-B and USB-C receptacles for board, panel or cable mounting, panel-mount USB extension leads and breakout boards (SparkFun); barrel jacks (5.5 x 2.1 mm, 5.5 x 2.5 mm, 3.5 x 1.3 mm) for board, panel or cable mounting, with or without a switch contact that disconnects batteries when a plug is inserted, plus lock-ring and lock-tab (bayonet) versions (Wikipedia 'Coaxial power connector'; SparkFun; Same Sky); 3.5 mm and 6.35 mm TS/TRS/TRRS jacks with switch contacts, and breakout boards (SparkFun); RCA jacks; XLR and DIN connectors; 8P8C (RJ45) jacks, plugs, crimp tools and strain-relief boots ('snagless' boots), keystone modules, wall plates and patch panels (Wikipedia 'Modular connector', 'Keystone module'); IEC 60320 C13/C14 inlets and cords (Wikipedia 'IEC 60320'); M12 and other sealed circular connectors with dust caps (Wikipedia 'Electrical connector'; eeNews Europe); SMA and RP-SMA antenna connectors and adapters (SparkFun). For the full catalogue of standards follow Wikipedia's lists: https://en.wikipedia.org/wiki/Audio_and_video_interfaces_and_connectors, https://en.wikipedia.org/wiki/DC_connector, https://en.wikipedia.org/wiki/Computer_port_(hardware), https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets and https://en.wikipedia.org/wiki/Category:Electrical_connectors.",
+    "rules_of_thumb": [
+      "Choose first by what the other device or charger already has, then by how often it will be plugged in: USB Standard connectors are rated for 1,500 cycles, Mini-B 5,000, Micro and USB-C 10,000 (Wikipedia 'USB hardware'), while some board-to-board connectors manage only tens (SparkFun).",
+      "Barrel jacks: the sleeve is usually 5.5 mm (with a 2.1 or 2.5 mm pin) or 3.5 mm (with a 1.3 mm pin), plugs are usually 9.5 mm long, and tip-positive is the most common polarity; SparkFun standardises on a 5.5 mm sleeve, 2.1 mm pin, centre positive (SparkFun 'Connector Basics'). IEC 60130-10 defines types A-E, and EIAJ RC-5320A ties five plug sizes to voltage ranges (Wikipedia 'Coaxial power connector').",
+      "A barrel connector's size does not tell you its voltage or polarity: 'It is not possible ... to reliably infer any information on power parameters ... by examining the connector' (Wikipedia 'DC connector'). Check the label and the polarity symbol.",
+      "Where the voltage or current can hurt, the side connected to the power source must be the female one with hidden contacts (Wikipedia 'Gender of connectors and fasteners').",
+      "Don't use tip-sleeve audio jacks for power: during insertion the tip and sleeve can be briefly shorted together, which may damage the supply (SparkFun 'Connector Basics').",
+      "RJ45: use plugs made for your wire type (solid or stranded), because 'a mismatch between plug type and wire type results in unreliable connections', and use the crimp die that matches the plug type (Wikipedia 'Modular connector').",
+      "Sealing: IPX7 (immersion) does not automatically include IPX5/IPX6 (water jets) (Wikipedia 'IP code'), and a connector's IP rating usually needs it mated or capped (eeNews Europe).",
+      "Printed mounts: allow for about 0.2 mm printer accuracy plus material shrinkage and test-print the cut-out (Prusa 'Modeling with 3D printing in mind'); keystone ports are 14.5 x 16.0 mm (Wikipedia 'Keystone module')."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "Charging a phone through its USB-C socket (Wikipedia 'USB-C')",
+      "A wall power adapter's round barrel plug going into a router, guitar pedal or Arduino board (Wikipedia 'Coaxial power connector'; SparkFun)",
+      "Headphones plugged into a 3.5 mm jack (SparkFun)",
+      "An Ethernet cable clicking into a router's RJ45 socket, or a kettle-style IEC lead into a computer power supply (Wikipedia 'Modular connector'; SparkFun)"
+    ],
+    "when_to_use": "Use a standard connector wherever a project meets the outside world: power input from a USB charger or wall adapter, data to a computer, sound in or out, a network cable, an antenna, or a sensor or controller you want to unplug. Ready-made cables are cheap and available almost everywhere, and the shapes stop most wrong connections (SparkFun 'Connector Basics'; Wikipedia 'Electrical connector'). Pick a latching type (RJ45, lock-ring barrel, screw-lock or bayonet circular) where a lead could be knocked out, and a sealed circular type with caps outdoors or in wet places (Wikipedia 'Coaxial power connector', 'Electrical connector'; eeNews Europe). Keystone ports in a printed panel let you mix connector types freely (Wikipedia 'Keystone module').",
+    "when_not_to_use": "Inside a project, between boards and modules, small Wire-to-board plug connectors (pin headers and crimp housings) are smaller and cheaper. For tens of amps use a High-current battery plug. For a lead that must pop off safely when yanked, use a Magnetic connector. Don't put an unusual voltage on a common connector where someone could plug in the wrong thing: 'Use of the wrong power supply may cause severe equipment damage or even fire' (Wikipedia 'Coaxial power connector'); choose a different or keyed connector and label it. Don't use audio jacks for power (SparkFun). For mains power, use a bought, approved appliance inlet or a ready-made power supply and follow local law (see safety_notes). Where vibration, dust or water are expected, avoid plain friction-fit USB, barrel and audio connectors and use latching, sealed types (Wikipedia 'Electrical connector').",
+    "environment_limits": "Water and dust: ordinary connectors are unsealed; sealed types reach IP ratings such as IP67 only when mated or capped (Wikipedia 'IP code'; eeNews Europe). Corrosion and wear: surface corrosion raises contact resistance, causing heating and intermittent faults, and fretting (tiny rubbing movements) wears contacts in connectors that are 'frequently mated and de-mated' (Wikipedia 'Electrical connector'). Heat: overheating feeds on itself, since hotter contacts have higher resistance and make more heat (Wikipedia 'Electrical connector'). Vibration and shock: insecure chassis mounting 'can contribute significantly to the risk of failure' (Wikipedia 'Electrical connector'); friction plugs can work loose. Printed panels: plastic under a tightened panel nut can slowly creep and loosen the nut, so check it after a while [uncertain: general creep behaviour, no connector-specific test found].",
+    "safety_notes": "Reversed polarity: inverted-polarity barrel plugs 'can and do damage circuitry when plugged in, even if the voltage is correct' (Wikipedia 'DC connector'), and the wrong supply 'may cause severe equipment damage or even fire' (Wikipedia 'Coaxial power connector'). Look-alike plugs: same-looking barrel plugs come in different sizes, voltages and polarities, and a 2.5 mm plug fits a 2.1 mm jack loosely (SparkFun). USB-C is not always 5 V: with USB Power Delivery it can supply up to 48 V (Wikipedia 'USB-C'). Keying exists partly to prevent 'dangerous electrical connections, such as plugging an audio cable into a power outlet' (Wikipedia 'Electrical connector'). The power-source side must be female with hidden contacts; a double-ended male mains lead (a 'suicide cable') is 'extremely dangerous' (Wikipedia 'Gender of connectors and fasteners'). IEC 60320 appliance couplers are 'not keyed or colour-coded to indicate voltage' (Wikipedia 'IEC 60320'). Mains: this entry gives no mains wiring steps; mains work must follow local law. For example, in England, installing fixed electrical equipment is within Part P of the Building Regulations even if its final connection is a standard 13 A plug and socket (Approved Document P 2013, §2.8); buy approved inlets and power supplies rather than wiring your own mains connector. Soldering connectors brings the usual burn and fume hazards (see Soldered wire joint).",
+    "common_failures": "Loose, intermittent contact from a look-alike plug of the wrong size (a 2.5 mm plug in a 2.1 mm jack) (SparkFun). Damage from a power supply with the wrong voltage or reversed polarity (Wikipedia 'DC connector'). 'Same plug, different standard': physically compatible connectors may not work together because several interfaces share one connector (Wikipedia 'Audio and video interfaces and connectors'), and 8P8C sockets on radios often use mirrored pinouts (Wikipedia 'Modular connector'); likewise SMA and RP-SMA antenna parts look alike but each needs its own matching half (SparkFun). Shorts: a mono plug in a stereo socket shorts the ring contact to ground (Wikipedia 'Phone connector (audio)'), and tip-sleeve plugs short briefly on insertion (SparkFun). Worn or corroded contacts after many cycles (fretting) (Wikipedia 'Electrical connector'). Broken RJ45 latch tabs that snag on other cables; snagless boots prevent this (Wikipedia 'Modular connector'). Sockets torn off a board or with cracked solder joints from levering forces (SparkFun). Cables breaking just behind a home-wired plug with no strain relief (SparkFun). RJ45 plugs crimped with the wrong die or the wrong plug for the wire type (Wikipedia 'Modular connector'). Overall, connector failures are mostly open circuits (61%), then poor contact (23%) and shorts (16%) (Wikipedia 'Electrical connector').",
+    "related": [
+      "Wire-to-board plug connectors (pin header and crimp housing): small, cheap plugs used inside a project rather than at its outside panel",
+      "High-current battery plug (bullet connector, polarised battery connector): for tens of amps between batteries and motors",
+      "Genderless connector (hermaphroditic coupling): both halves identical, such as Powerpole-style power connectors",
+      "Magnetic connector: held by magnets so it pops off safely when yanked",
+      "Pogo pin (spring-loaded contact pin): contacts that press onto pads for docks and test jigs",
+      "Binding post and banana plug: screw-down and push-in test-lead connectors on bench equipment",
+      "Flat flexible cable and latching connector (FFC with ZIF connector): thin ribbon cables inside devices",
+      "Insulation-displacement connector: how RJ45 plugs and ribbon-cable plugs grip their wires",
+      "Keying (one-way-only fit): the shape trick that stops plugs going in wrongly",
+      "Bayonet mount (push-and-twist lock): the locking principle of bayonet connectors",
+      "Cable gland and strain relief: carries cables through walls and keeps pulls off connectors",
+      "Quick couplers for tubes and hoses: the same plug-and-socket idea for air and liquids"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://learn.sparkfun.com/tutorials/connector-basics/all",
+        "title": "Connector Basics (SparkFun Learn)",
+        "shows": "Photos of USB, audio, RCA, barrel, IEC, JST, SMA and pin-header connectors, the three ways of mounting a barrel jack (board, inline cable, panel), a strain-relief boot, and barrel-jack polarity diagrams",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg",
+        "title": "Klinken- und Hohlstecker (jack and barrel plug adapters), Wikimedia Commons, by Smial",
+        "shows": "A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist",
+        "license": "CC BY-SA 2.0 DE"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Photo-RoundPowerConnectors.jpg",
+        "title": "Photo-RoundPowerConnectors (common DC power connectors), Wikimedia Commons, by Shaddack",
+        "shows": "Several round DC power plugs and sockets side by side",
+        "license": "Public domain (PD-self)"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Lock-Ring_Connectors.jpg",
+        "title": "Lock-Ring Connectors, Wikimedia Commons, by PetesGuide",
+        "shows": "Lock-ring DC barrel connectors whose knurled threaded ring screws onto the jack so the plug can't be pulled out",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Assortment_of_keystone_modules.jpg",
+        "title": "Assortment of keystone modules, Wikimedia Commons, by Dmeranda",
+        "shows": "Keystone snap-in modules with RJ-11, RJ-45 (with punch-down block behind), mini-DIN, RCA, F and banana jacks, all with the same standard outline",
+        "license": "Public domain (PD-self)"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/60732-simple-keystone-slot",
+        "title": "Simple Keystone Slot (domrim, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A keystone port made to be reused inside other projects, so any keystone jack can snap into a printed panel",
+        "license": "Creative Commons Attribution-ShareAlike"
+      },
+      {
+        "url": "https://www.printables.com/model/537480-parametric-keystone-connector",
+        "title": "(Parametric) Keystone Connector (Paul Hatcher, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A tested keystone holder; the designer notes the tolerances are very tight, so the model is parametric to tune for your printer",
+        "license": "Creative Commons Public Domain"
+      },
+      {
+        "url": "https://www.printables.com/model/1289333-barrel-jack-dc-connector-mount",
+        "title": "Barrel Jack DC Connector Mount (lhclin, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A screw-down holder for a common 5.5 x 2.1 mm female barrel jack, with two 3 mm screw holes 22 mm apart",
+        "license": "Creative Commons Public Domain"
+      },
+      {
+        "url": "https://www.printables.com/model/644783-usb-c-female-panel-mount",
+        "title": "Usb C female panel mount (octopuss, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A panel mount for a USB-C female breakout board",
+        "license": "Creative Commons Attribution-ShareAlike"
+      }
+    ],
+    "diagram_idea": "A grid of common sockets drawn face-on (USB-C, USB-A, barrel jack, 3.5 mm audio jack, RJ45, M12), each with a small icon for mounting (board, panel, cable), a padlock icon on the latching ones and a droplet on the sealed one, plus a magnified barrel plug beside a jack showing the 5.5 mm sleeve, 2.1 versus 2.5 mm pin, and the centre-positive polarity symbol.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Electrical_connector",
+      "https://en.wikipedia.org/wiki/Coaxial_power_connector",
+      "https://en.wikipedia.org/wiki/DC_connector",
+      "https://en.wikipedia.org/wiki/Gender_of_connectors_and_fasteners",
+      "https://en.wikipedia.org/wiki/USB_hardware",
+      "https://en.wikipedia.org/wiki/USB-C",
+      "https://en.wikipedia.org/wiki/Phone_connector_(audio)",
+      "https://en.wikipedia.org/wiki/Modular_connector",
+      "https://en.wikipedia.org/wiki/Keystone_module",
+      "https://en.wikipedia.org/wiki/IEC_60320",
+      "https://en.wikipedia.org/wiki/IP_code",
+      "https://en.wikipedia.org/wiki/Audio_and_video_interfaces_and_connectors",
+      "https://en.wikipedia.org/wiki/Computer_port_(hardware)",
+      "https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets",
+      "https://en.wikipedia.org/wiki/Category:Electrical_connectors",
+      "https://learn.sparkfun.com/tutorials/connector-basics/all",
+      "https://www.sameskydevices.com/news/press-releases/cui-devices-expands-dc-power-jack-line-up",
+      "https://www.eenewseurope.com/en/connector-has-ip67-protection-even-when-unmated/",
+      "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+      "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf",
+      "https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg",
+      "https://commons.wikimedia.org/wiki/File:Photo-RoundPowerConnectors.jpg",
+      "https://commons.wikimedia.org/wiki/File:Lock-Ring_Connectors.jpg",
+      "https://commons.wikimedia.org/wiki/File:Assortment_of_keystone_modules.jpg",
+      "https://api.printables.com/graphql/"
+    ]
+  },
+  "uncertain": [
+    "making_tips_3d_printing",
+    "environment_limits"
+  ]
+}

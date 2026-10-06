@@ -117,9 +117,9 @@ session log), then commit and push.
 ## For you (not part of the prompt)
 
 **Use this when** the outline has items that aren't researched yet, for example after
-`/research-add-items`. It was used for items 276-323 (finished 2026-10-02). It is now set up for
-items 324-409, added on 2026-10-03 with the wider scope (R22). Next time, change the item
-numbers in the prompt and in "What to expect".
+`/research-add-items`. It was used for items 276-323 (finished 2026-10-02) and then for items
+324-409, added on 2026-10-03 with the wider scope (R22; finished 2026-10-05), so run 2 is complete
+for now. Next time, change the item numbers in the prompt and in "What to expect".
 
 **Steps**
 1. Make sure everything is merged into `main`, then start a new Claude Code session on this repo.

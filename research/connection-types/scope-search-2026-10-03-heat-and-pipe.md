@@ -150,7 +150,8 @@ grep of all 323 result files.
   - Printed friction-welding tips: Printables 692350 and 737519, the second called "friction
     stir welding tips" (Printables API; page not opened).
   - Lab friction-stir welding of PLA prints on a mill reached 106-124 % of the base print's
-    strength (Koçar et al., Polymers 2024).
+    strength (Koçar et al., Polymers 2024). [Corrected 2026-10-05: that compares the weld with a
+    20%-infill print; the best weld, 17.83 MPa, is about a third of a solid PLA+ print (42-53 MPa).]
   - Spin welding round parts on a drill press at 1400 rpm (Popular Science 2019).
   - Mattel's 1970s "Spinwelder" toy (Wikipedia 'Spin welding of polymers').
   - Industrial linear and orbital vibration welding of plastics, and metal friction welding,
