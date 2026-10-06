@@ -120,6 +120,8 @@ sources:
 - https://www.youtube.com/watch?v=OlRwHwo6eW8
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Press_stud_snap_fastener_popper.json
+glossary: [misalignment, detent, fail-safe--fail-secure, cantilever, form-fit--force-fit--material-bond, brittle--ductile,
+  infill, peel-vs-shear]
 ---
 
 A two-part fastener in which a stud with a small knob is pressed into a socket that has a springy ring or wire inside, which grips a groove on the stud and holds the two halves together until they are pulled apart by hand.
@@ -160,22 +162,22 @@ Avoid them for joining rigid parts that carry real loads (use screws, a snap fit
 - **Directions it can move (degrees of freedom):** 0 for most uses (it just holds the two layers together); in practice the snapped halves can usually spin around the stud (1 rotation), because both the stud and the socket are round
 - **Special behaviour:**
   - quick-release: pulls apart by hand in a moment, which is why it was used on military and paratroop equipment, holsters and children's clothing (Wikipedia)
-  - fail-safe or breakaway: a snagged snap lets go before the garment or wearer is dragged; Wikipedia says rodeo cowboys adopted them so a shirt snagged on the saddle would come undone, but that claim is marked 'citation needed' ⚑ [uncertain]
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: a snagged snap lets go before the garment or wearer is dragged; Wikipedia says rodeo cowboys adopted them so a shirt snagged on the saddle would come undone, but that claim is marked 'citation needed' ⚑ [uncertain]
   - hand-release only: directional Lift-the-DOT and Pull-the-DOT snaps lock on three sides and only open when lifted or pulled at the marked side (Wikipedia; canvas-boat-cover-and-repair-advisor.com)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the head of the stud sits behind the ring or wires in the socket
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the head of the stud sits behind the ring or wires in the socket
   - spring force (a spring or springy part presses it in place): the split ring or S-wire spring in the socket presses into the stud's groove (Rome Fastener)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** light: fine for clothing, bags, covers and straps, strongest against sideways sliding (shear) of the two layers and weakest against a straight peel or pull on the fabric next to it, which is exactly how it is opened ⚑ [uncertain]. Heavier ring-spring and 'Durable' snaps hold much more than spring or pronged snaps (KAMsnaps; Scovill). No reliable holding-force figures were found; the pull needed to unsnap, both straight out and sideways, is measured with ASTM D4846 'Standard Test Method for Resistance to Unsnapping of Snap Fasteners' (ASTM store page), but results depend on brand, size and fabric.
-- **Play and precision:** noticeable: the halves can swivel and wobble slightly, and a loose crimp lets the socket or stud spin on the material, which strains it (canvas-boat-cover-and-repair-advisor.com); it tolerates only small misalignment because the stud must enter the socket squarely ⚑ [uncertain]
+- **Load:** light: fine for clothing, bags, covers and straps, strongest against sideways sliding (shear) of the two layers and weakest against a straight [peel](../glossary.md#peel-vs-shear) or pull on the fabric next to it, which is exactly how it is opened ⚑ [uncertain]. Heavier ring-spring and 'Durable' snaps hold much more than spring or pronged snaps (KAMsnaps; Scovill). No reliable holding-force figures were found; the pull needed to unsnap, both straight out and sideways, is measured with ASTM D4846 'Standard Test Method for Resistance to Unsnapping of Snap Fasteners' (ASTM store page), but results depend on brand, size and fabric.
+- **Play and precision:** noticeable: the halves can swivel and wobble slightly, and a loose crimp lets the socket or stud spin on the material, which strains it (canvas-boat-cover-and-repair-advisor.com); it tolerates only small [misalignment](../glossary.md#misalignment) because the stud must enter the socket squarely ⚑ [uncertain]
 - **Taking it apart:** tool-free quick release: the two halves snap apart by hand as often as you like; the halves themselves are set permanently into the material by riveting (rolling or crushing the post), prongs or stitching, so removing a set snap usually destroys it (Rome Fastener; Wikipedia)
 - **How often it can be reused:** effectively unlimited opening and closing for the life of the garment or cover (DOT says Durable fasteners give 'a firm grip that will remain secure through years of use'; Scovill); fitting to the material is once only
 - **Sealing:** none: it only holds layers together; water and dust can pass around it
 - **Adjustable:** no: position is fixed once set; you can fit several studs in a row for different closing positions ⚑ [uncertain]; a printed design with several notches on one stud holds materials of different thickness (Printables 'Variable Snap Button Fastener')
 - **Access needed:** both sides to fit a rivet-style or pronged snap, because the setter and anvil must be on opposite sides of the material; one side only for a screw stud screwed into a hard surface (canvas-boat-cover-and-repair-advisor.com); one side only to open or close
 - **Materials:** Usually brass (often nickel-plated), steel, stainless steel (316 stainless for marine and corrosive use; Components Direct), brass/stainless and brass/plastic combinations, or all plastic (Scovill DOT Durable page; KAMsnaps). Suits fabric, leather, canvas, vinyl and webbing; open-ring (pronged) snaps suit thin and stretchy fabrics but not 'tough, thick or dense material' (KAMsnaps). Screw studs let fabric snap onto fibreglass, wood or metal. 3D-printed snaps work in PLA or PETG (Printables models).
-- **Heat, cold, water and wear:** Salt water corrodes plated steel and can dull brass: stainless steel 'holds its finish better and is stronger than the brass crimp' (canvas-boat-cover-and-repair-advisor.com), and 316 stainless snaps are made for harsh, corrosive environments (Components Direct). Directional Pull-the-DOT and Lift-the-DOT snaps need lubricating as they age, the latter about twice a year (canvas-boat-cover-and-repair-advisor.com). Plastic snaps and printed snaps can soften in heat and become brittle in cold, and the springs lose grip over years of use ⚑ [uncertain].
+- **Heat, cold, water and wear:** Salt water corrodes plated steel and can dull brass: stainless steel 'holds its finish better and is stronger than the brass crimp' (canvas-boat-cover-and-repair-advisor.com), and 316 stainless snaps are made for harsh, corrosive environments (Components Direct). Directional Pull-the-DOT and Lift-the-DOT snaps need lubricating as they age, the latter about twice a year (canvas-boat-cover-and-repair-advisor.com). Plastic snaps and printed snaps can soften in heat and become [brittle](../glossary.md#brittle--ductile) in cold, and the springs lose grip over years of use ⚑ [uncertain].
 
 ## Making it
 
@@ -190,7 +192,7 @@ Avoid them for joining rigid parts that carry real loads (use screws, a snap fit
 
 ### 3D printing tips
 
-1) A printed popper is really a small round snap-together bead and groove (an annular snap fit), so the annular snap fit entry's design rules apply ⚑ [uncertain]. 2) Print both halves flat on the bed with no supports; makers report good results at 0.15 mm layers, in PETG with a 0.6 mm nozzle (volly's 'very flat snap fastener' for a wallet, used for two months) or in PLA with 5% infill (nortmann_c's 'Snap Button'), and in PLA without brim for a strap extender (Vik's parametric 10 mm popper extension). 3) Expect the first press to need 'quite some force' (nortmann_c), then the fit eases. 4) Use PETG or another tough material for snaps opened often; PLA is stiffer and more brittle, so its snap ring can crack ⚑ [uncertain]. 5) To join fabric to a print, you can print a sew-on popper with thread holes, print a matching half that snaps onto a real metal snap (SmilingImpact's 'marine snap fastener' is made to connect to real marine snaps), or screw a metal screw stud into the print ⚑ [uncertain]. 6) Print a test pair first and adjust the bead or groove size by 0.1-0.2 mm until the click feels right ⚑ [uncertain].
+1) A printed popper is really a small round snap-together bead and groove (an annular snap fit), so the annular snap fit entry's design rules apply ⚑ [uncertain]. 2) Print both halves flat on the bed with no supports; makers report good results at 0.15 mm layers, in PETG with a 0.6 mm nozzle (volly's 'very flat snap fastener' for a wallet, used for two months) or in PLA with 5% [infill](../glossary.md#infill) (nortmann_c's 'Snap Button'), and in PLA without brim for a strap extender (Vik's parametric 10 mm popper extension). 3) Expect the first press to need 'quite some force' (nortmann_c), then the fit eases. 4) Use PETG or another tough material for snaps opened often; PLA is stiffer and more brittle, so its snap ring can crack ⚑ [uncertain]. 5) To join fabric to a print, you can print a sew-on popper with thread holes, print a matching half that snaps onto a real metal snap (SmilingImpact's 'marine snap fastener' is made to connect to real marine snaps), or screw a metal screw stud into the print ⚑ [uncertain]. 6) Print a test pair first and adjust the bead or groove size by 0.1-0.2 mm until the click feels right ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -220,10 +222,10 @@ Snaps that come off baby clothes are a choking hazard, and broken ones can expos
 - Basic strap and garment closures (prong buckle, button, toggle and loop): cheaper and sewn, but slower to open and close
 - Magnet joint (embedded magnets, magnetic catch) and magnetic snaps: close blind and one-handed, but hold less against a direct pull
 - Annular snap fit: the same bead-and-groove idea moulded or printed into rigid round plastic parts
-- Cantilever snap fit: a springy hook for joining rigid plastic parts
+- [Cantilever](../glossary.md#cantilever) snap fit: a springy hook for joining rigid plastic parts
 - Side-release buckle: stronger and quick-release for straps and webbing
 - Spring-gate hook (carabiner, snap hook, lobster clasp): for loops and rings rather than flat layers
-- Ball detent (spring plunger): a spring-loaded ball in a groove, the same 'spring into a groove' principle used to click parts into positions
+- Ball [detent](../glossary.md#detent) (spring plunger): a spring-loaded ball in a groove, the same 'spring into a groove' principle used to click parts into positions
 - Spring-steel push-on fasteners (push nut, speed nut, U-nut): the ball-stud speed clip is a sheet-metal cousin that snaps panels onto a ball stud
 
 ## Make it yourself

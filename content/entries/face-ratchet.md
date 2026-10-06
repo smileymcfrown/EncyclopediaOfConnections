@@ -108,36 +108,39 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 research: research/connection-types/results/Face_ratchet_star_ratchet_faceengagement_ratchet.json
+glossary: [backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, flexure, clearance,
+  form-fit--force-fit--material-bond, spline, circlip, undercut, creep, lubrication, layer-lines, print-in-place, overhang--bridging,
+  peel-vs-shear]
 ---
 
-Two coaxial discs with sloped teeth on their facing sides, pressed together by a spring, that lock and drive together in one direction and ride up and click over each other in the other, as in star-ratchet bicycle hubs and printed one-way knobs and joints.
+Two [coaxial](../glossary.md#coaxial) discs with sloped teeth on their facing sides, pressed together by a spring, that lock and drive together in one direction and ride up and click over each other in the other, as in star-ratchet bicycle hubs and printed one-way knobs and joints.
 
-**In plain words:** Two discs with sloping saw-like teeth on their flat faces, pushed together by a spring: turned one way the teeth lock and the discs turn together; turned the other way the teeth ride up their slopes, push the discs apart and click over each other. **Proper term:** Face ratchet (axial ratchet, sawtooth face clutch, one-way jaw clutch).
+**In plain words:** Two discs with sloping saw-like teeth on their flat faces, pushed together by a spring: turned one way the teeth lock and the discs turn together; turned the other way the teeth ride up their slopes, push the discs apart and click over each other. **Proper term:** Face [ratchet](../glossary.md#ratchet) ([axial](../glossary.md#axial--radial) ratchet, sawtooth face clutch, one-way jaw clutch).
 
-**Also called:** star ratchet (DT Swiss (brand) name for its bicycle-hub ratchet rings; now used loosely for any hub of this type); Ratchet System / Ratchet EXP / Ratchet DEG (DT Swiss (brand) hub systems); face-engagement ratchet; ratchet rings / toothed ratchet discs; sawtooth ratchet one-way clutch (Chinese patent CN203743242U); running face ratchet / ratchet one-way clutch (face type) (Stackpole patent US6907971B2); sawtooth jaw clutch or one-way dog clutch; Durley calls a jaw clutch with sloped jaws 'really a running-ratchet gear'; the simplest freewheel: 'two saw-toothed, spring-loaded discs pressing against each other axially' (Wikipedia 'Freewheel').
+**Also called:** star ratchet (DT Swiss (brand) name for its bicycle-hub ratchet rings; now used loosely for any hub of this type); Ratchet System / Ratchet EXP / Ratchet DEG (DT Swiss (brand) hub systems); face-engagement ratchet; ratchet rings / toothed ratchet discs; sawtooth ratchet one-way clutch (Chinese patent CN203743242U); running face ratchet / ratchet one-way clutch (face type) (Stackpole patent US6907971B2); sawtooth jaw clutch or one-way dog clutch; Durley calls a jaw clutch with sloped jaws 'really a running-ratchet gear'; the simplest [freewheel](../glossary.md#freewheel): 'two saw-toothed, spring-loaded discs pressing against each other axially' (Wikipedia 'Freewheel').
 
 ## How it works
 
-Each disc carries a ring of lopsided teeth on its face: a gentle ramp and a steep locking face. Turned the drive way, the steep faces butt together and the discs turn as one; turned the other way, the ramps slide over each other, pushing the sliding disc back against its spring until the tips pass, then the spring snaps it back into the next gap with a click (Wikipedia 'Freewheel'; Stackpole patent US6907971B2). Because the teeth run all the way round the face, all of them engage at once and share the load, unlike a single pawl (DT Swiss). The number of teeth sets how far it turns before it catches: engagement angle = 360° divided by the number of teeth, e.g. 18 teeth = 20°, 36 = 10°, 54 = 6.67°, 72 = 5°, 90 = 4° (DT Swiss).
+Each disc carries a ring of lopsided teeth on its face: a gentle ramp and a steep locking face. Turned the drive way, the steep faces butt together and the discs turn as one; turned the other way, the ramps slide over each other, pushing the sliding disc back against its spring until the tips pass, then the spring snaps it back into the next gap with a click (Wikipedia 'Freewheel'; Stackpole patent US6907971B2). Because the teeth run all the way round the face, all of them engage at once and share the load, unlike a single [pawl](../glossary.md#pawl) (DT Swiss). The number of teeth sets how far it turns before it catches: engagement angle = 360° divided by the number of teeth, e.g. 18 teeth = 20°, 36 = 10°, 54 = 6.67°, 72 = 5°, 90 = 4° (DT Swiss).
 
 ## Parts
 
-A few parts acting as one unit: two toothed discs or rings, at least one of which can slide along the shaft but not turn on it (it sits on splines, a key or a hex); a spring that pushes them together (a coil, conical or wave spring, or a disc spring); and a nut, circlip or housing that holds the stack together. A DT Swiss hub has two ratchet rings, two springs, a spacer, a threaded ring nut and the freewheel body (DT Swiss manual; freewheel.co.uk).
+A few parts acting as one unit: two toothed discs or rings, at least one of which can slide along the shaft but not turn on it (it sits on [splines](../glossary.md#spline), a key or a hex); a spring that pushes them together (a coil, conical or wave spring, or a disc spring); and a nut, [circlip](../glossary.md#circlip) or housing that holds the stack together. A DT Swiss hub has two ratchet rings, two springs, a spacer, a threaded ring nut and the freewheel body (DT Swiss manual; freewheel.co.uk).
 
 ## Everyday examples
 
 - Bicycle rear hubs of the 'star ratchet' type (e.g. DT Swiss (brand) hubs), which click as you coast
 - Palm-ratchet screwdriver knobs and ratcheting knobs that click one way ⚑ [uncertain] (many such knobs use pawls instead)
 - Sawtooth one-way clutches in small-engine starters (Chinese patent CN203743242U)
-- Related everyday cousins: clicking fuel caps (sloped teeth that slip, a torque limiter) and push-and-turn child-resistant caps
+- Related everyday cousins: clicking fuel caps (sloped teeth that slip, a [torque](../glossary.md#torque) limiter) and push-and-turn child-resistant caps
 
 ## When to use it
 
-Use a face ratchet when you want a one-way drive or freewheel that is compact along a shaft, strong for its size because every tooth shares the load, and easy to strip and clean, such as a hub, a winding knob, a one-way crank or a printed joint that should ratchet one way. It suits 3D printing because the teeth are on a flat face and it needs only two printed discs and a spring. With symmetric teeth instead of sawtooth teeth the same layout becomes an indexing joint that locks both ways.
+Use a face ratchet when you want a one-way drive or freewheel that is compact along a shaft, strong for its size because every tooth shares the load, and easy to strip and clean, such as a hub, a winding knob, a one-way [crank](../glossary.md#crank) or a printed joint that should ratchet one way. It suits 3D printing because the teeth are on a flat face and it needs only two printed discs and a spring. With symmetric teeth instead of sawtooth teeth the same layout becomes an indexing joint that locks both ways.
 
 ## When not to use it
 
-Avoid it when you need zero backlash or silent freewheeling (use a sprag clutch or roller clutch), when the axial space for the sliding disc and spring isn't available (use a ratchet and pawl or a one-way bearing), or at high freewheeling speeds where constant clicking causes wear and noise ⚑ [uncertain]. If you want it to hold in both directions and be adjusted by hand, use a Hirth joint or a ball detent. If you want it to slip at a set torque, use a ratchet-tooth or ball-detent torque limiter.
+Avoid it when you need zero [backlash](../glossary.md#backlash) or silent freewheeling (use a [sprag](../glossary.md#sprag) clutch or roller clutch), when the axial space for the sliding disc and spring isn't available (use a ratchet and pawl or a one-way bearing), or at high freewheeling speeds where constant clicking causes wear and noise ⚑ [uncertain]. If you want it to hold in both directions and be adjusted by hand, use a Hirth joint or a ball [detent](../glossary.md#detent). If you want it to slip at a set torque, use a ratchet-tooth or ball-detent torque limiter.
 
 ## Details
 
@@ -152,11 +155,11 @@ Avoid it when you need zero backlash or silent freewheeling (use a sprag clutch 
   - torque-limiting (slips or clicks at a set force/torque): not in a true face ratchet, but if the locking faces are made sloping the same parts become a clicking torque limiter whose slip torque is set by the spring and slope
   - self-aligning or self-centring: DT Swiss uses conical ratchet rings and conical springs to keep the rings aligned ⚑ [uncertain] (unclear whether this applies to flat face ratchets in general)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the steep locking faces butt together
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the steep locking faces butt together
   - spring force (a spring or springy part presses it in place): the spring keeps the teeth pressed into mesh; if it is missing or too weak the ratchet slips (DT Swiss manual)
 - **Input and output:** Rotation -> rotation at the same speed (1:1) in the drive direction; in the other direction the output overruns (freewheels) or the input can turn back without moving the output. Shafts in line (coaxial). Engagement angle (the free play before it catches) = 360°/number of teeth (DT Swiss). Efficiency when locked is essentially 100% because the teeth lock solid ⚑ [uncertain]; while freewheeling there is some drag and wear from the spring pressure and grease. Not back-drivable in the locked direction.
 - **Power:** passive (no power needed)
-- **Load:** Medium to heavy for its size, because all the teeth share the load at once, creating far fewer point loads than pawls (DT Swiss) and giving a large contact area (Trifox). Strong in drive torque; the weak points are the spring (too weak and the teeth can be forced apart), the axial push that the sloped teeth create, and, in 3D prints, teeth shearing off along layer lines at their roots ⚑ [uncertain].
+- **Load:** Medium to heavy for its size, because all the teeth share the load at once, creating far fewer point loads than pawls (DT Swiss) and giving a large contact area (Trifox). Strong in drive torque; the weak points are the spring (too weak and the teeth can be forced apart), the axial push that the sloped teeth create, and, in 3D prints, teeth shearing off along [layer lines](../glossary.md#layer-lines) at their roots ⚑ [uncertain].
 - **Play and precision:** small to noticeable: it can turn back up to one tooth (engagement angle 360°/N, e.g. 10° for 36 teeth, 4° for 90 teeth; DT Swiss) before it catches. It needs the two discs coaxial and parallel; the sliding disc must slide freely along its splines or key but not tilt ⚑ [uncertain].
 - **Taking it apart:** removable: DT Swiss freehub bodies come off by hand and the ratchet rings and springs slide out for cleaning (freewheel.co.uk; DT Swiss manual); printed versions are held by a screw, nut or snap ring
 - **How often it can be reused:** many times: it can be taken apart and reassembled for cleaning and greasing; the limit is tooth wear
@@ -174,13 +177,13 @@ Avoid it when you need zero backlash or silent freewheeling (use a sprag clutch 
   - 3D print (resin): fine teeth for small knobs ⚑ [uncertain]
   - CNC: milled face teeth ⚑ [uncertain]
   - powder metal and injection moulding: how production face ratchets are made ⚑ [uncertain]
-- **Printing it in one piece (print in place):** partly / no: usually printed as two discs and assembled with a metal spring and a screw or nut. Print-in-place versions with tapered teeth exist, such as shiura's print-in-place palm ratchet knob, whose 'tapered ratchet gear' is aligned and locked by pressing the knob towards the screw (Printables API, model 230516) ⚑ [uncertain] (unclear whether this counts as a true face ratchet).
+- **Printing it in one piece (print in place):** partly / no: usually printed as two discs and assembled with a metal spring and a screw or nut. [Print-in-place](../glossary.md#print-in-place) versions with tapered teeth exist, such as shiura's print-in-place palm ratchet knob, whose 'tapered ratchet gear' is aligned and locked by pressing the knob towards the screw (Printables API, model 230516) ⚑ [uncertain] (unclear whether this counts as a true face ratchet).
 - **Tools:** Often none to open (DT Swiss hubs: pull off the end cap and freehub body by hand); a special tool and a lot of force can be needed to undo the threaded ring nut in hub shells (singletrackworld forum); grease; for printed versions a screwdriver or hex key
-- **Difficulty:** moderate: the CAD is simple, but you need a metal spring, a disc that slides along a keyed or hex shaft without jamming, and face teeth that print cleanly and don't shear off along layers
+- **Difficulty:** moderate: the CAD is simple, but you need a metal spring, a disc that slides along a keyed or hex shaft without jamming, and face teeth that print cleanly and don't [shear](../glossary.md#peel-vs-shear) off along layers
 
 ### 3D printing tips
 
-1) Print each disc flat with its teeth pointing up; the teeth are then made of stacked layers, so keep them short and wide (low tooth height compared with the pitch) and use several teeth to share the load, because the drive force bends each tooth across the layer lines at its root ⚑ [uncertain]. 2) The sloping ramps come out as tiny stair-steps of layer lines, which make the click rough and wear faster; a finer layer height (or variable layer height) on the toothed band helps ⚑ [uncertain]. 3) Overhangs up to about 45-60° print cleanly (Prusa), so teeth pointing up need no supports; if the teeth must face down onto the bed, one Hirth-joint library author suggests cutting off half of each tooth so no support is needed and it still meshes with full teeth (mechadense scad-lib-hirthjoints README). 4) The sliding disc needs a keyed, splined or hex bore with clearance so it can move along the shaft; start with about 0.3 mm (Prusa) and make sure it can't tilt and jam. 5) Use a metal spring (compression, wave or disc spring) to press the discs together, not a printed one: plastic springs under constant load relax (DuPont), and PLA creeps most (thrinter creep test). 6) The spring force and ramp angle set how hard it is to turn the free way; the steep locking faces must be truly steep (or very slightly undercut) or the teeth will ride over under load and act as a torque limiter instead ⚑ [uncertain]. 7) Grease lightly: too much or the wrong grease stops the rings from engaging and they slip (DT Swiss manual). 8) Check that both toothed faces point at each other when assembling; one ring mounted upside down means no engagement (DT Swiss manual; freewheel.co.uk). 9) PLA softens from about 60 °C (CNC Kitchen); prefer PETG or nylon for anything used outdoors or in a warm place.
+1) Print each disc flat with its teeth pointing up; the teeth are then made of stacked layers, so keep them short and wide (low tooth height compared with the [pitch](../glossary.md#pitch)) and use several teeth to share the load, because the drive force bends each tooth across the layer lines at its root ⚑ [uncertain]. 2) The sloping ramps come out as tiny stair-steps of layer lines, which make the click rough and wear faster; a finer layer height (or variable layer height) on the toothed band helps ⚑ [uncertain]. 3) [Overhangs](../glossary.md#overhang--bridging) up to about 45-60° print cleanly (Prusa), so teeth pointing up need no supports; if the teeth must face down onto the bed, one Hirth-joint library author suggests cutting off half of each tooth so no support is needed and it still meshes with full teeth (mechadense scad-lib-hirthjoints README). 4) The sliding disc needs a keyed, splined or hex bore with [clearance](../glossary.md#clearance) so it can move along the shaft; start with about 0.3 mm (Prusa) and make sure it can't tilt and jam. 5) Use a metal spring (compression, wave or disc spring) to press the discs together, not a printed one: plastic springs under constant load relax (DuPont), and PLA [creeps](../glossary.md#creep) most (thrinter creep test). 6) The spring force and ramp angle set how hard it is to turn the free way; the steep locking faces must be truly steep (or very slightly [undercut](../glossary.md#undercut)) or the teeth will ride over under load and act as a torque limiter instead ⚑ [uncertain]. 7) Grease lightly: too much or the wrong grease stops the rings from engaging and they slip (DT Swiss manual). 8) Check that both toothed faces point at each other when assembling; one ring mounted upside down means no engagement (DT Swiss manual; freewheel.co.uk). 9) PLA softens from about 60 °C (CNC Kitchen); prefer PETG or nylon for anything used outdoors or in a warm place.
 
 ### Buying one (off-the-shelf parts)
 
@@ -203,7 +206,7 @@ From the DT Swiss manual: the freewheel does not engage or slips because one or 
 
 ## Safety
 
-On a bicycle, a freewheel that slips because of wrong lubrication can cause a fall; DT Swiss marks this as a risk of injury. The spring is compressed, so parts can jump out when the stack is opened. Fingers can be pinched between the toothed faces when turning it by hand.
+On a bicycle, a freewheel that slips because of wrong [lubrication](../glossary.md#lubrication) can cause a fall; DT Swiss marks this as a risk of injury. The spring is compressed, so parts can jump out when the stack is opened. Fingers can be pinched between the toothed faces when turning it by hand.
 
 ## Related
 
@@ -215,7 +218,7 @@ On a bicycle, a freewheel that slips because of wrong lubrication can cause a fa
 - Push-and-turn child-resistant cap: ratchet-like teeth on the cap that only drive when pressed together
 - Sprag clutch and roller clutch (one-way bearing): silent one-way locking by wedging, with almost no backlash
 - Ball-detent torque limiter: balls in dimples instead of teeth, slipping at a set torque
-- Compliant ratchet (flexure pawl): one-piece printed ratchet with springy arms instead of a separate spring
+- Compliant ratchet ([flexure](../glossary.md#flexure) pawl): one-piece printed ratchet with springy arms instead of a separate spring
 
 ## Make it yourself
 

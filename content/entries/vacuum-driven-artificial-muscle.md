@@ -119,9 +119,10 @@ sources:
 - https://www.softrobotics.io/post/making-simple-origami-soft-robots-from-low-cost-household-materials
 - https://en.wikipedia.org/wiki/Suction_cup
 research: research/connection-types/results/Vacuumdriven_artificial_muscle_origami_vacuum_muscle.json
+glossary: [stroke, actuator, solenoid, fail-safe--fail-secure, creep, regulator, venturi]
 ---
 
-An actuator made of a compressible skeleton (a folded plastic sheet, a spring, foam or a printed shape) sealed in a flexible skin; removing the air (or liquid) from inside makes the skin pull tight on the skeleton, which folds along its designed pattern to contract by up to about 90%, bend or twist, lifting up to about 1,000 times its own weight.
+An [actuator](../glossary.md#actuator) made of a compressible skeleton (a folded plastic sheet, a spring, foam or a printed shape) sealed in a flexible skin; removing the air (or liquid) from inside makes the skin pull tight on the skeleton, which folds along its designed pattern to contract by up to about 90%, bend or twist, lifting up to about 1,000 times its own weight.
 
 **In plain words:** A folded or springy inner frame sealed inside a thin airtight bag: when you suck the air out, the outside air squashes the bag onto the frame, and the frame folds up along the path its shape allows, so the whole thing shortens, bends or twists with surprising force, then springs back when air is let in again. **Proper term:** Vacuum-driven artificial muscle (fluid-driven origami-inspired artificial muscle, FOAM).
 
@@ -158,7 +159,7 @@ Not when you need to push: it only pulls, so use a bellows or inflatable actuato
 - **Directions it can move (degrees of freedom):** 1 per sealed chamber: each chamber follows the single path its skeleton allows; several chambers or muscles combined give multi-axis motion (Li et al. 2017)
 - **Special behaviour:**
   - motion conversion: suction becomes contraction, bending or twisting, programmed by the fold pattern (Li et al. 2017; Wyss Institute)
-  - fail-safe or breakaway (in the sense of failing gently): vacuum muscles have 'a lower risk of rupture, failure, and damage' and don't swell while working (Wyss Institute); the related buckling VAMPs still worked with a 2 mm hole and fail safely (ScienceDaily 2016). Note the flip side: losing vacuum makes it go slack and drop its load
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway (in the sense of failing gently): vacuum muscles have 'a lower risk of rupture, failure, and damage' and don't swell while working (Wyss Institute); the related buckling VAMPs still worked with a 2 mm hole and fail safely (ScienceDaily 2016). Note the flip side: losing vacuum makes it go slack and drop its load
   - none of the locking behaviours: it holds only while suction is applied
 - **How it holds:**
   - suction or air pressure: the outside air presses the skin onto the skeleton and the skin tension drives the motion (Li et al. 2017; Wikipedia 'Suction cup' for the outside-pressure principle)
@@ -170,10 +171,10 @@ Not when you need to push: it only pulls, so use a bellows or inflatable actuato
 - **Taking it apart:** removable: it connects with a single air tube and is mounted at its two ends; the muscle itself is a sealed unit (permanent) once the skin is closed
 - **How often it can be reused:** many times: 3D-printed TPU soft vacuum actuators lasted 123,000 cycles (Tawk et al. 2018); lifetime of film-bag muscles: ⚑ [uncertain] (no cycle test found)
 - **Sealing:** airtight or pressure: the skin is sealed round the skeleton by heat-pressing, gluing, welding, zippering or sewing (Li et al. 2017), or with tape and a ring of hot glue round the straw in the home version (softrobotics.io)
-- **Adjustable:** yes: force and stroke rise with the vacuum level (skin tension is proportional to the pressure difference; Li et al. 2017), so a vacuum regulator or partial vacuum sets how hard it pulls; the motion pattern is fixed by the skeleton
+- **Adjustable:** yes: force and [stroke](../glossary.md#stroke) rise with the vacuum level (skin tension is proportional to the pressure difference; Li et al. 2017), so a vacuum [regulator](../glossary.md#regulator) or partial vacuum sets how hard it pulls; the motion pattern is fixed by the skeleton
 - **Access needed:** not applicable (it is mounted by its two ends and needs one air tube)
 - **Materials:** Skeletons: polyester sheet (laser-cut and folded), PEEK, nylon plates, stainless-steel sheet or compression springs, silicone rubber, packing foam, 3D-printed nylon, TPU or water-soluble PVA, even cardstock, cardboard, paper or aluminium foil (Li et al. 2017; Wyss Institute; softrobotics.io). Skins: PVC film, polyester film, TPU film, TPU-coated nylon fabric, PVA film, rubber balloons, plastic sandwich bags (Li et al. 2017; MIT News 2019; softrobotics.io). Fully printed versions: TPU filament, e.g. NinjaFlex (Joe et al. 2022)
-- **Heat, cold, water and wear:** Works in air or water, and a water-driven version works underwater (Li et al. 2017). PVA versions dissolve in hot water (about 70 C within 5 minutes; Li et al. 2017). The available pressure difference is limited to the surrounding air pressure (Wikipedia 'Suction cup'). Temperature, sunlight (UV) and long-term creep limits of the film skins and printed skeletons: ⚑ [uncertain] (not found in a source); seams and thin films can leak or puncture over time.
+- **Heat, cold, water and wear:** Works in air or water, and a water-driven version works underwater (Li et al. 2017). PVA versions dissolve in hot water (about 70 C within 5 minutes; Li et al. 2017). The available pressure difference is limited to the surrounding air pressure (Wikipedia 'Suction cup'). Temperature, sunlight (UV) and long-term [creep](../glossary.md#creep) limits of the film skins and printed skeletons: ⚑ [uncertain] (not found in a source); seams and thin films can leak or puncture over time.
 
 ## Making it
 
@@ -193,7 +194,7 @@ Not when you need to push: it only pulls, so use a bellows or inflatable actuato
 
 ### Buying one (off-the-shelf parts)
 
-Miniature diaphragm vacuum pump or hand vacuum pump; venturi vacuum generator (on compressed air); 3/2-way valve or solenoid valve to vent the muscle; vacuum regulator and gauge; impulse heat sealer; heat-sealable films (PVC, TPU film, polyester) and TPU-coated nylon fabric; compression springs as skeletons; thin polyester (PET) or polypropylene sheet for folded skeletons; silicone or polyurethane air tube and barbed connectors; drinking straws and zip bags for demos (Li et al. 2017; softrobotics.io; Joe et al. 2022)
+Miniature diaphragm vacuum pump or hand vacuum pump; [venturi](../glossary.md#venturi) vacuum generator (on compressed air); 3/2-way valve or [solenoid](../glossary.md#solenoid) valve to vent the muscle; vacuum regulator and gauge; impulse heat sealer; heat-sealable films (PVC, TPU film, polyester) and TPU-coated nylon fabric; compression springs as skeletons; thin polyester (PET) or polypropylene sheet for folded skeletons; silicone or polyurethane air tube and barbed connectors; drinking straws and zip bags for demos (Li et al. 2017; softrobotics.io; Joe et al. 2022)
 
 ## Rules of thumb
 

@@ -123,6 +123,7 @@ sources:
 - https://www.youtube.com/watch?v=N9SbpknBo1g (verified via YouTube oEmbed)
 - https://en.wikipedia.org/wiki/Drawstring
 research: research/connection-types/results/Cord_lock_spring_toggle.json
+glossary: [self-locking, detent, form-fit--force-fit--material-bond, perimeters, infill]
 ---
 
 A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.
@@ -164,11 +165,11 @@ Not for holding real loads, such as guy lines in wind, hanging things or tie-dow
 - **Directions it can move (degrees of freedom):** 0 along the cord when gripping (it can still turn on the cord). When squeezed, 1: sliding along the cord. The plunger itself has 1 (in and out of the barrel).
 - **Special behaviour:**
   - hand-release only (locks under load, releases when a person operates it): pulling the cord does not open it; you have to squeeze the plunger
-  - self-locking (holds under load, won't back-drive): the spring keeps the cord pinched with no effort; a hard pull on the cord can still drag it through, because the grip is only as strong as the spring
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the spring keeps the cord pinched with no effort; a hard pull on the cord can still drag it through, because the grip is only as strong as the spring
   - tensioning (takes up slack and holds): slide it up the cord to close a bag or hood and it stays put
   - quick-release: one squeeze frees the cord at once
   - one-way (some springless designs only): a rectangular springless type with small teeth was found to be hard to slide one way and easy the other
-- **How it holds:** friction or clamping (force-fit), with spring force (a metal or plastic spring presses the plunger to pinch the cord)
+- **How it holds:** friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)), with spring force (a metal or plastic spring presses the plunger to pinch the cord)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** light. It is made to hold a drawstring, a hood or a stuff sack closed, not to carry weight. The grip depends on the spring and on matching the cord to the hole: in a side-by-side test, cheap round 'ball' cord locks barely held 3 mm paracord, while stiff-spring barrel types held firmly. Load ratings were not found ⚑ [uncertain]. It holds best with the pull along the cord; a hard jerk can drag the cord through.
@@ -189,7 +190,7 @@ Not for holding real loads, such as guy lines in wind, hanging things or tie-dow
   - injection moulding (how commercial cord locks are made; not a home process)
 - **Printing it in one piece (print in place):** partly: the usual design is printed as a body plus a plunger with an added metal or printed spring; one-piece springless designs work straight off the bed, and a 'print in place' drawstring friction lock appears in MakerWorld search results ⚑ [uncertain: page not opened]
 - **Tools:** none. To thread cord: squeeze and push the cord through. Some ITW cord locks are supplied with the spring not engaged and are armed by pushing the button hard once
-- **Difficulty:** easy to buy and fit; moderate to 3D print, because the spring needs a tough springy material or a salvaged metal spring (e.g. from a pen), and the small parts need 100% infill and several perimeters
+- **Difficulty:** easy to buy and fit; moderate to 3D print, because the spring needs a tough springy material or a salvaged metal spring (e.g. from a pen), and the small parts need 100% [infill](../glossary.md#infill) and several [perimeters](../glossary.md#perimeters)
 
 ### 3D printing tips
 
@@ -223,7 +224,7 @@ Drawstrings and cords on children's clothing are a strangulation and entrapment 
 - Ladder lock buckle / tri-glide: the friction-lock idea for flat webbing instead of round cord
 - Springless cord locks and toggles: a wedge or V-shaped plunger or a springy body does the job of the spring; one type grips harder in one direction
 - Knot or cord end: permanent or fixed stop with no adjustment
-- Spring plunger (ball detent): the same 'spring pushes a plunger' idea used to hold parts in position, not to grip a cord
+- Spring plunger (ball [detent](../glossary.md#detent)): the same 'spring pushes a plunger' idea used to hold parts in position, not to grip a cord
 - Ratcheting reel closure (dial lacing): tightens a lace with a clicking reel for higher, repeatable tension
 - Lacing: a cord threaded back and forth through rows of holes or eyelets, one of the ways a drawstring is run; a cord lock can hold its ends instead of a bow
 - Eyelets and grommets: the metal or plastic rings that line the holes a drawstring or lace runs through

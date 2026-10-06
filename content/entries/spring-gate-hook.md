@@ -127,6 +127,8 @@ sources:
 - https://help.prusa3d.com/article/asa_1809
 - https://en.wikipedia.org/wiki/Maillon
 research: research/connection-types/results/Springgate_hook_carabiner_snap_hook_lobster_clasp.json
+glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, fatigue, brittle--ductile, layer-lines, perimeters,
+  infill, print-in-place]
 ---
 
 A closed loop or hook with a spring-loaded gate that swings or slides open to let a rope, ring or strap in and then springs shut to trap it, joining the two in a second without tools; a screw or twist collar can lock the gate.
@@ -170,25 +172,25 @@ Avoid it when you must release the load while it is still pulling (use a snap sh
   - hand-release only (locks under load, releases when a person operates it): a loaded hook can't be unclipped (a bolt snap 'cannot be removed under normal tensile load conditions even with the gate open', Wikipedia); locking types also need the sleeve undone first
   - none of the other special behaviours: it does not slip, click, tension or release on its own
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the closed loop surrounds the ring or rope
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the closed loop surrounds the ring or rope
   - spring force (a spring or springy part presses it in place): a coil spring, the bent wire gate itself, or a compression spring behind a bolt keeps the gate shut
 - **Input and output:** not applicable: it holds rather than passing motion on
 - **Power:** passive (no power needed)
 - **Load:** From very light to heavy, depending on type. Jewellery lobster clasps and keyring clips are light-duty; bolt snaps 'are not generally load rated' and suit loads 'the user can lift' (Wikipedia). Certified climbing carabiners hold at least 20 kN along the spine with the gate closed, 7 kN gate open and 7 kN across the gate (minor axis) (EN 12275 and ASTM F1774, via Wikipedia); fall-protection snaphooks must hold 5,000 lb (22.2 kN) and be proof-tested to 3,600 lb (16 kN) (OSHA 1926.502). Strong only as a straight pull along the spine; weak when cross-loaded, pulled off-axis (about half strength in a Black Diamond test) or nose-hooked (can fail at 'less than 2 kN', Black Diamond).
 - **Play and precision:** not applicable: it is a loose, free-moving link; the clipped item can shift round the loop, which is why D shapes are used to keep the load near the spine (Wikipedia)
 - **Taking it apart:** tool-free quick release: push the gate (after unscrewing or twisting the lock, if fitted) and lift it off, once the load is off
-- **How often it can be reused:** effectively unlimited: until the gate spring weakens, the locking sleeve jams, or rope wear cuts grooves and sharp edges into the body (DMM; Wikipedia on spring fatigue in auto-locking sleeves)
+- **How often it can be reused:** effectively unlimited: until the gate spring weakens, the locking sleeve jams, or rope wear cuts grooves and sharp edges into the body (DMM; Wikipedia on spring [fatigue](../glossary.md#fatigue) in auto-locking sleeves)
 - **Sealing:** none: nothing makes it seal
 - **Adjustable:** no: it only joins or unjoins; screw or twist locks set whether the gate can open, not position or tension
 - **Access needed:** one side only (blind): you only need to reach the hook and its gate; the thing it clips to needs no access from behind
 - **Materials:** Climbing and rescue: aluminium alloy (lighter, most sport carabiners) or steel (heavier, industrial and rescue) (Wikipedia). Marine and diving bolt snaps: stainless steel or brass with a stainless spring; light-duty keyring and bag snaps: chrome-plated zinc or plastic (Wikipedia 'Bolt snap'). Jewellery lobster clasps: precious or plated base metal ⚑ [uncertain]. 3D-printed light-duty clips: PETG preferred for a springy gate, PLA works, nylon-carbon fibre is strongest (n.leinad's break tests). It clips to rope, webbing slings, rings, chain links, bolt hangers and D-rings.
-- **Heat, cold, water and wear:** Dirt, sand, ice and salt make gates and locking sleeves stick; twist-locks are 'prone to both spring fatigue' and to becoming 'balky from dirt, ice, or other contamination', and twist-lock sleeves 'sometimes jam, getting stuck after being tightened under load' (Wikipedia). Wire gates are 'less prone to icing up' (Wikipedia). Clean in water at most 30 °C and dry gate-up so the spring chamber drains (DMM). Rope running over aluminium wears grooves that can become sharp edges (DMM checks for 'abrasion, excessive wear, sharp edges'). Printed clips: PLA softens above about 60 °C and degrades in sunlight; PETG suits outdoor use below about 80 °C; ASA resists UV up to 93 °C (Prusa); plastic springs may creep and lose snap over time ⚑ [uncertain].
+- **Heat, cold, water and wear:** Dirt, sand, ice and salt make gates and locking sleeves stick; twist-locks are 'prone to both spring fatigue' and to becoming 'balky from dirt, ice, or other contamination', and twist-lock sleeves 'sometimes jam, getting stuck after being tightened under load' (Wikipedia). Wire gates are 'less prone to icing up' (Wikipedia). Clean in water at most 30 °C and dry gate-up so the spring chamber drains (DMM). Rope running over aluminium wears grooves that can become sharp edges (DMM checks for 'abrasion, excessive wear, sharp edges'). Printed clips: PLA softens above about 60 °C and degrades in sunlight; PETG suits outdoor use below about 80 °C; ASA resists UV up to 93 °C (Prusa); plastic springs may [creep](../glossary.md#creep) and lose snap over time ⚑ [uncertain].
 
 ## Making it
 
 - **Ways to make or get it:**
   - off-the-shelf part: by far the normal route; forged aluminium or steel carabiners, stamped or cast snap hooks and clasps
-  - 3D print (FDM): popular one-piece print-in-place clips with a flexing plastic gate, and multi-part screwgate designs
+  - 3D print (FDM): popular one-piece [print-in-place](../glossary.md#print-in-place) clips with a flexing plastic gate, and multi-part screwgate designs
   - 3D print (resin): possible, but weakest in n.leinad's break test (85 ± 20 kg)
   - CNC: aluminium bodies with a bought wire gate ⚑ [uncertain: no maker example found]
   - sheet metal / bent wire: simple spring-steel wire snap hooks ⚑ [uncertain: no maker example found]
@@ -198,7 +200,7 @@ Avoid it when you must release the load while it is still pulling (use a snap sh
 
 ### 3D printing tips
 
-Use a slightly flexible material for the gate: n.leinad's 'Suicide Carabiner' uses PETG as 'a good compromise between flexibility and strength'; PLA works but is not recommended. Don't print hotter than needed for good layer adhesion: n.leinad warns that higher temperatures reduce the plastic's elasticity and make the part brittle, which matters most at the gate's bending section. For strength use many perimeters, since stress is highest at the outer shells: n.leinad used a 0.6 mm nozzle, 0.3 mm layers, 10 perimeters, 4 top/bottom layers and 50% infill; Luvem Studio's screw-lock carabiner recommends five or more walls. Print the body lying flat so the loop is drawn round in each layer and the pull runs along the extrusions, not across layer lines (FFF prints are 'stronger in one direction than another', Prusa; a pin printed upright 'can break apart along the layer lines', Doormat_1). Tolerances don't scale: if you scale a design, the gate may need lengthening by about 2% with a one-axis scale to close properly (n.leinad); print-in-place screwgates need an accurate printer and good first-layer adhesion, perhaps a raft (Hugo). A little silicone grease helps the hinge (n.leinad). Break loads after six months' ageing for the same design: PLA 162 ± 2 kg, PETG 165 ± 4 kg, BASF PAHT-CF15 nylon-carbon 350 ± 5 kg, resin 85 ± 20 kg (n.leinad). Every such design is 'NOT FOR CLIMBING'. PLA also softens above about 60 °C (Prusa) and a gate left open may take a set ⚑ [uncertain].
+Use a slightly flexible material for the gate: n.leinad's 'Suicide Carabiner' uses PETG as 'a good compromise between flexibility and strength'; PLA works but is not recommended. Don't print hotter than needed for good layer adhesion: n.leinad warns that higher temperatures reduce the plastic's elasticity and make the part [brittle](../glossary.md#brittle--ductile), which matters most at the gate's bending section. For strength use many [perimeters](../glossary.md#perimeters), since stress is highest at the outer shells: n.leinad used a 0.6 mm nozzle, 0.3 mm layers, 10 perimeters, 4 top/bottom layers and 50% [infill](../glossary.md#infill); Luvem Studio's screw-lock carabiner recommends five or more walls. Print the body lying flat so the loop is drawn round in each layer and the pull runs along the extrusions, not across [layer lines](../glossary.md#layer-lines) (FFF prints are 'stronger in one direction than another', Prusa; a pin printed upright 'can break apart along the layer lines', Doormat_1). [Tolerances](../glossary.md#tolerance) don't scale: if you scale a design, the gate may need lengthening by about 2% with a one-axis scale to close properly (n.leinad); print-in-place screwgates need an accurate printer and good first-layer adhesion, perhaps a raft (Hugo). A little silicone grease helps the hinge (n.leinad). Break loads after six months' ageing for the same design: PLA 162 ± 2 kg, PETG 165 ± 4 kg, BASF PAHT-CF15 nylon-carbon 350 ± 5 kg, resin 85 ± 20 kg (n.leinad). Every such design is 'NOT FOR CLIMBING'. PLA also softens above about 60 °C (Prusa) and a gate left open may take a set ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -227,7 +229,7 @@ Life-safety use needs certified hardware: mini-carabiners 'are not load-tested' 
 - Quick-release hooks (pelican hook, snap shackle, three-ring release): can be opened while the load is still pulling, which a spring-gate hook cannot
 - Shackle and quick link: the quick link (maillon), 'a metal link, similar to a carabiner' closed by a threaded sleeve instead of a hinged gate (Wikipedia 'Maillon'), is stronger across its gate but slower to open (also listed under 'See also' in Wikipedia's 'Carabiner'); D-shackles and pin shackles are bolt-closed and stronger, needing a pin to be unscrewed
 - S-hook and open hook: no gate at all, so things can fall off
-- Cantilever snap fit: the same springy-latch idea moulded into plastic parts
+- [Cantilever](../glossary.md#cantilever) snap fit: the same springy-latch idea moulded into plastic parts
 - Side-release buckle: a springy plastic latch for joining two straps, released by squeezing
 - Magnetic clasp: magnets instead of a spring gate, for light jewellery and bags
 - Piston hank: a snap hook with a sliding piston gate for attaching sails to a stay (Wikipedia 'Bolt snap')

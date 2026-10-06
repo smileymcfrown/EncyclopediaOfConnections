@@ -134,13 +134,15 @@ sources:
 - https://www.printables.com/model/274563-print-in-place-rotary-fidget-detent-knob-with-dete (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_detent_spring_plunger.json
+glossary: [misalignment, detent, ratchet, pawl, torque, flexure, clearance, form-fit--force-fit--material-bond, holding-force,
+  set-screw, counterbore--countersink, creep, brittle--ductile, warping--shrinkage, o-ring]
 ---
 
 A spring presses a ball (or a roller) against the other part, so when a dimple, hole or groove lines up the ball drops in with a click and holds the part there, until a firm enough push forces the ball back into its hole so the part can move on.
 
-**In plain words:** A little spring-pushed ball that drops into a dimple with a click and holds a part in place until you push or pull it hard enough to pop the ball out again. **Proper term:** Ball detent (spring plunger, ball plunger; on doors: ball catch, and its roller version, the roller catch).
+**In plain words:** A little spring-pushed ball that drops into a dimple with a click and holds a part in place until you push or pull it hard enough to pop the ball out again. **Proper term:** Ball [detent](../glossary.md#detent) (spring plunger, ball plunger; on doors: ball catch, and its roller version, the roller catch).
 
-**Also called:** spring plunger / ball plunger / ball-nose spring plunger; detent ball / index ball / spring-loaded ball; ball point set screw / ball-ended grub screw; press-fit (push-fit) ball plunger; federndes Druckstück (German trade term); ball catch / door ball catch / Bales catch; bullet catch (small round ball catch drilled into a door edge); double ball catch (two balls gripping a tongue on the door); roller catch / adjustable roller catch / double roller catch (rollers instead of balls); friction catch (roller catches that grip a tongue); click stop / detent position.
+**Also called:** spring plunger / ball plunger / ball-nose spring plunger; detent ball / index ball / spring-loaded ball; ball point [set screw](../glossary.md#set-screw) / ball-ended grub screw; press-fit (push-fit) ball plunger; federndes Druckstück (German trade term); ball catch / door ball catch / Bales catch; bullet catch (small round ball catch drilled into a door edge); double ball catch (two balls gripping a tongue on the door); roller catch / adjustable roller catch / double roller catch (rollers instead of balls); friction catch (roller catches that grip a tongue); click stop / detent position.
 
 ## How it works
 
@@ -148,12 +150,12 @@ The ball sits in a bore with a spring behind it, and the bore's lip lets only pa
 
 ## Parts
 
-A few parts, often sold as one unit: a body (a threaded or smooth sleeve), a ball or rounded nose, a small coil spring behind it, and a lip or crimp that keeps the ball from falling out; plus the dimples, holes, cone-shaped countersinks or grooves in the mating part. Door catches add a strike plate with a dip or tongue; roller catches use a spring-loaded roller or two sprung rollers that grip a tongue.
+A few parts, often sold as one unit: a body (a threaded or smooth sleeve), a ball or rounded nose, a small coil spring behind it, and a lip or crimp that keeps the ball from falling out; plus the dimples, holes, cone-shaped [countersinks](../glossary.md#counterbore--countersink) or grooves in the mating part. Door catches add a strike plate with a dip or tongue; roller catches use a spring-loaded roller or two sprung rollers that grip a tongue.
 
 ## Everyday examples
 
 - the ball catch at the top of a closet or pantry door that holds it shut with a click
-- the spring-loaded ball on a ratchet wrench's square drive that holds the socket on
+- the spring-loaded ball on a [ratchet](../glossary.md#ratchet) wrench's square drive that holds the socket on
 - the click positions of a fan-speed or rotary switch knob, or the centre click of a balance knob
 - the gear-selector detents inside a car gearbox, and the detent that keeps some folding knife blades closed
 
@@ -163,7 +165,7 @@ When a part should stop at set positions you can feel, and stay there against li
 
 ## When not to use it
 
-Not where the part must be positively locked against a strong or steady load: use an indexing plunger (pull-knob pin) or a quick-release pin that must be pulled out first. Not as the only thing carrying weight or a heavy side load. Not where you need an overload clutch on a driven shaft: use a purpose-made ball-detent torque limiter. For a fully printed click with no loose parts, a compliant (springy-arm) detent is simpler. On doors that warp or move with humidity, a magnetic catch is more forgiving than a bullet catch.
+Not where the part must be positively locked against a strong or steady load: use an indexing plunger (pull-knob pin) or a quick-release pin that must be pulled out first. Not as the only thing carrying weight or a heavy side load. Not where you need an overload clutch on a driven shaft: use a purpose-made ball-detent [torque](../glossary.md#torque) limiter. For a fully printed click with no loose parts, a compliant (springy-arm) detent is simpler. On doors that warp or move with humidity, a magnetic catch is more forgiving than a bullet catch.
 
 ## Details
 
@@ -178,11 +180,11 @@ Not where the part must be positively locked against a strong or steady load: us
   - self-aligning or self-centring: the sloped sides of the dimple pull the part into the centre of each position
   - torque-limiting (slips or clicks at a set force/torque): it lets go when pushed harder than the spring can resist, so it holds against light knocks but cannot jam; the same idea, with stronger springs, is the ball-detent torque limiter
   - quick-release: door ball catches and roller catches open with a firm pull and close with a push, with no handle or button to work
-- **How it holds:** spring force (the spring presses the ball into the dimple) combined with shape (the ball sits in the dimple; a form-fit that can be overcome, because the dimple's sides are sloped)
+- **How it holds:** spring force (the spring presses the ball into the dimple) combined with shape (the ball sits in the dimple; a [form-fit](../glossary.md#form-fit--force-fit--material-bond) that can be overcome, because the dimple's sides are sloped)
 - **Input and output:** not applicable (it holds positions rather than passing motion on; see the ball-detent torque limiter for the version that passes on turning)
 - **Power:** passive (no power needed)
-- **Load:** light (medium for heavy-force plungers): the holding force is limited by the spring. Available plungers range from about 0.125 lbf (light mini plungers) to about 200 lbf (heavy duty), and the push needed to move the part is roughly the spring force divided by tan(half the dimple's cone angle). Ball plungers don't do well with heavy loads, and spring plungers are not for heavy side loads. It resists movement across the ball's axis but gives way on purpose when pushed past its limit.
-- **Play and precision:** small play: the ball self-centres in each dimple, so it returns to about the same place each time (about ±0.05-0.2 mm, or ±0.05-0.2°, is quoted by one engineering blog ⚑ [uncertain: secondary source]). It tolerates little sideways misalignment between ball and dimple; the ball needs a close but free fit in its bore. Door bullet catches are fussy and sensitive to doors warping with humidity; double-ball catches are more forgiving.
+- **Load:** light (medium for heavy-force plungers): the [holding force](../glossary.md#holding-force) is limited by the spring. Available plungers range from about 0.125 lbf (light mini plungers) to about 200 lbf (heavy duty), and the push needed to move the part is roughly the spring force divided by tan(half the dimple's cone angle). Ball plungers don't do well with heavy loads, and spring plungers are not for heavy side loads. It resists movement across the ball's axis but gives way on purpose when pushed past its limit.
+- **Play and precision:** small play: the ball self-centres in each dimple, so it returns to about the same place each time (about ±0.05-0.2 mm, or ±0.05-0.2°, is quoted by one engineering blog ⚑ [uncertain: secondary source]). It tolerates little sideways [misalignment](../glossary.md#misalignment) between ball and dimple; the ball needs a close but free fit in its bore. Door bullet catches are fussy and sensitive to doors [warping](../glossary.md#warping--shrinkage) with humidity; double-ball catches are more forgiving.
 - **Taking it apart:** tool-free quick release for the held part (push or pull past the click); the plunger itself is removable (threaded) or semi-permanent (pressed, glued or staked in)
 - **How often it can be reused:** effectively unlimited for steel plungers and brass or steel catches in normal use (the click happens every time the part moves); one engineering blog suggests plain ball detents are fine up to about 100,000 cycles and hardened pin detents for millions ⚑ [uncertain: secondary source]; many times for printed plastic seats, which wear faster
 - **Sealing:** none
@@ -204,11 +206,11 @@ Not where the part must be positively locked against a strong or steady load: us
 
 ### 3D printing tips
 
-Use a real steel ball: a printable six-position detent (Printables 1063083) is built for a 6 mm ball bearing, and its maker warns that a printed ball will not click as smoothly. Use a metal spring or a bought ball plunger: plastic springs under constant load relax and creep (DuPont design guide, p. 36). Bore: the ball needs a close but free fit (0.05-0.15 mm over the ball is quoted by one engineering blog for machined parts, so test-fit printed holes, which usually print undersize ⚑ [uncertain: no printed-clearance test found]); leave enough clearance so grit can't jam the ball (Model Engineer forum). Keep the ball in: close the top of the bore to a lip smaller than the ball (print it, or stake or peen metal), or hold ball and spring in with a set screw; you can also drop them in during a print pause, with the pocket snug so they can't jump to the nozzle (Prusa). Dimples: a cone-shaped countersink works well; a 90° cone releases at about the spring force, and a shallower (wider-angle) cone releases more easily (S&W Manufacturing). A notch depth of roughly 25-30% of the ball diameter is a common starting point (Firgelli, secondary). For a hand-turned knob, about 5-15 N at the ball is suggested (Firgelli, secondary). Wear: a hardened ball will slowly wear or dent printed dimples ⚑ [uncertain: no test data]; use PETG, ABS/ASA or nylon rather than PLA, which is brittle and softens above about 60 °C (Prusa). A printed roller latch maker recommends PETG or ABS/ASA because PLA may lose tension over time (Printables 1707986). Buying a threaded ball plunger and screwing it into a printed or heat-set threaded hole gives the most consistent click. A replacement door ball-catch retainer printed with thicker walls lasted a year of daily use (Printables 125991; slotted side up, 0.15-0.2 mm layers for the thread).
+Use a real steel ball: a printable six-position detent (Printables 1063083) is built for a 6 mm ball bearing, and its maker warns that a printed ball will not click as smoothly. Use a metal spring or a bought ball plunger: plastic springs under constant load relax and [creep](../glossary.md#creep) (DuPont design guide, p. 36). Bore: the ball needs a close but free fit (0.05-0.15 mm over the ball is quoted by one engineering blog for machined parts, so test-fit printed holes, which usually print undersize ⚑ [uncertain: no printed-clearance test found]); leave enough [clearance](../glossary.md#clearance) so grit can't jam the ball (Model Engineer forum). Keep the ball in: close the top of the bore to a lip smaller than the ball (print it, or stake or peen metal), or hold ball and spring in with a set screw; you can also drop them in during a print pause, with the pocket snug so they can't jump to the nozzle (Prusa). Dimples: a cone-shaped countersink works well; a 90° cone releases at about the spring force, and a shallower (wider-angle) cone releases more easily (S&W Manufacturing). A notch depth of roughly 25-30% of the ball diameter is a common starting point (Firgelli, secondary). For a hand-turned knob, about 5-15 N at the ball is suggested (Firgelli, secondary). Wear: a hardened ball will slowly wear or dent printed dimples ⚑ [uncertain: no test data]; use PETG, ABS/ASA or nylon rather than PLA, which is [brittle](../glossary.md#brittle--ductile) and softens above about 60 °C (Prusa). A printed roller latch maker recommends PETG or ABS/ASA because PLA may lose tension over time (Printables 1707986). Buying a threaded ball plunger and screwing it into a printed or heat-set threaded hole gives the most consistent click. A replacement door ball-catch retainer printed with thicker walls lasted a year of daily use (Printables 125991; slotted side up, 0.15-0.2 mm layers for the thread).
 
 ### Buying one (off-the-shelf parts)
 
-Ball plungers and ball-nose spring plungers (threaded, slotted or hex drive, with or without thread-locking patch; stainless; light, standard and heavy end force); press-fit (push-fit) ball plungers; long-nose and hex-nose spring plungers; tight-hold ball plungers with an O-ring; retractable (knob-grip, T-handle, L-handle) spring plungers, which are really index plungers; ball point set screws; small ready-made ball detents sold for gluing into 3D-printed parts (e.g. 6 x 7 mm stainless or 5 x 6 mm POM plungers for printed toy blasters); loose chrome-steel balls and compression springs; door ball catches, bullet catches and double ball catches with strike plates; adjustable roller catches and double roller catches. Supplier vocabulary: 'spring plunger', 'ball plunger', 'ball-nose spring plunger', 'press-fit spring plunger' (e.g. McMaster-Carr).
+Ball plungers and ball-nose spring plungers (threaded, slotted or hex drive, with or without thread-locking patch; stainless; light, standard and heavy end force); press-fit (push-fit) ball plungers; long-nose and hex-nose spring plungers; tight-hold ball plungers with an [O-ring](../glossary.md#o-ring); retractable (knob-grip, T-handle, L-handle) spring plungers, which are really index plungers; ball point set screws; small ready-made ball detents sold for gluing into 3D-printed parts (e.g. 6 x 7 mm stainless or 5 x 6 mm POM plungers for printed toy blasters); loose chrome-steel balls and compression springs; door ball catches, bullet catches and double ball catches with strike plates; adjustable roller catches and double roller catches. Supplier vocabulary: 'spring plunger', 'ball plunger', 'ball-nose spring plunger', 'press-fit spring plunger' (e.g. McMaster-Carr).
 
 ## Rules of thumb
 
@@ -232,14 +234,14 @@ None known beyond the usual: small steel balls and springs can fly out when a pl
 ## Related
 
 - Indexing plunger (pull-knob index pin): a spring-loaded pin that positively locks until you pull the knob; stronger, but must be operated by hand
-- Compliant detent (flexure click arm): a printed springy arm with a bump does the same job in one piece, with no ball or spring
+- Compliant detent ([flexure](../glossary.md#flexure) click arm): a printed springy arm with a bump does the same job in one piece, with no ball or spring
 - Detent hinge (click hinge): a hinge with built-in click positions, often using the same ball-and-dimple idea
 - Ball-detent torque limiter: the same balls and dimples with stronger springs, used to pass on turning and let go when overloaded
 - Quick-release pin (ball-lock pin): spring-backed balls hold a pin in a hole until a button releases them
 - Spring button lock (snap button): a sprung button that pops into a hole in a tube and must be pressed to release
 - Magnet joint (magnetic catch): holds a door shut by magnetic pull, with no moving parts to wear or adjust
 - Push-push latch (touch latch): a door catch that opens and closes by pushing rather than pulling
-- Ratchet and pawl: also clicks through positions, but only lets the part move one way
+- Ratchet and [pawl](../glossary.md#pawl): also clicks through positions, but only lets the part move one way
 
 ## Make it yourself
 

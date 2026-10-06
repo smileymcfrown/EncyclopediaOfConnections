@@ -144,6 +144,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:N%C5%93ud_de_p%C3%AAcheur_double_serr%C3%A9.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bends_for_joining_two_cords_sheet_bend_double_fishermans_knot_water_knot.json
+glossary: [stiffness, form-fit--force-fit--material-bond, creep]
 ---
 
 Knots that join two cords end to end, or close one cord into a ring: the sheet bend for cords of different thickness, the double fisherman's for a compact, very secure join, the water knot for flat tape, and the Zeppelin bend when it must still untie after a heavy pull.
@@ -169,7 +170,7 @@ Single piece: the two cord ends (or both ends of one cord) and nothing else. A b
 
 ## When to use it
 
-When two pieces of cord, rope or tape must become one longer line, or one cord must be closed into a ring, and no splicing or sewing is wanted. Use the sheet bend for quick, everyday joins and above all for cords of different thickness or stiffness, such as a thin line to a thick rope, and for net making; the double sheet bend when the sizes are very different. Use the double fisherman's for a compact, very secure join that you don't need to untie, such as closing a cord loop or joining two lengths of similar cord. Use the water knot to join or close flat webbing and tape. Use the Zeppelin bend (or alpine butterfly bend) when you want a secure join that unties easily after a hard pull (Animated Knots; Wikipedia).
+When two pieces of cord, rope or tape must become one longer line, or one cord must be closed into a ring, and no splicing or sewing is wanted. Use the sheet bend for quick, everyday joins and above all for cords of different thickness or [stiffness](../glossary.md#stiffness), such as a thin line to a thick rope, and for net making; the double sheet bend when the sizes are very different. Use the double fisherman's for a compact, very secure join that you don't need to untie, such as closing a cord loop or joining two lengths of similar cord. Use the water knot to join or close flat webbing and tape. Use the Zeppelin bend (or alpine butterfly bend) when you want a secure join that unties easily after a hard pull (Animated Knots; Wikipedia).
 
 ## When not to use it
 
@@ -185,11 +186,11 @@ Never for climbing, abseiling, rescue, swings or anything that holds a person wi
 - **Special behaviour:**
   - none: bends simply hold by friction; the useful differences between them are whether they jam, how they cope with cords of different size, and how they resist shaking loose (Wikipedia 'Knot', Jamming; Animated Knots 'Bend Knots')
 - **How it holds:**
-  - friction or clamping (force-fit): turns of each cord grip the other and tighten as the standing parts are pulled (Wikipedia 'Knot'; Wikipedia 'Fisherman's knot', Properties)
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): turns of each cord grip the other and tighten as the standing parts are pulled (Wikipedia 'Knot'; Wikipedia 'Fisherman's knot', Properties)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Medium, limited by the weaker cord: a bend keeps only part of the cord's strength, and sources differ, side by side. Sheet bend 48-58% (Wikipedia 'Sheet bend' infobox); in one study of 8 bends in equal climbing rope it 'pulled apart with less than half the tension that other knots withstood', yet Ashley judged it 'quite secure enough for ordinary purposes' (Wikipedia 'Sheet bend', Security). Double fisherman's 79% (1987, nylon), 79% (2008, nylon), 80% (2014, polyester); figure-eight bend 81%, 57%, 66% (CMC Rescue tests in 12.5 mm rope, McKently, ITRS 2014). Water knot 64% in 1-inch tubular nylon webbing (CMC 1987 test, McKently 2014; CMC 'Water Knot' page). Alpine butterfly bend: 'some quoted breaking strains are as low as 53% to 58%' (Animated Knots). For planning, assume 50% (CMC 2023 recommendation; Animated Knots 'Safety'). Direction: bends are made for an end-to-end pull; a knot that snags or is pulled sideways can roll (capsize): the offset overhand bend becomes increasingly likely to capsize above about 4 kN (Wikipedia 'Offset overhand bend'), and a snag can 'catch the outer strap and flip it loose' in a water knot (Animated Knots). Never for holding people without training and a rated system.
-- **Play and precision:** not applicable: it doesn't locate parts. Expect the knot to settle and the tails to creep a little when first loaded, so set it hard and leave long tails (Wikipedia 'Water knot').
+- **Play and precision:** not applicable: it doesn't locate parts. Expect the knot to settle and the tails to [creep](../glossary.md#creep) a little when first loaded, so set it hard and leave long tails (Wikipedia 'Water knot').
 - **Taking it apart:** removable to semi-permanent, depending on the bend. Removable: the Zeppelin bend 'can be untied even after being heavily loaded but not, however, while still under load' (Animated Knots); the sheet bend is valued for its 'non-jamming properties' (Wikipedia 'Sheet bend'); the alpine butterfly bend and carrick bend untie easily (Animated Knots). Semi-permanent: the double fisherman's 'can lock up so tightly that it is effectively welded' (Animated Knots) and all fisherman's variants 'jam when tightened' (Wikipedia 'Fisherman's knot'); the water knot is 'Difficult to untie' (Wikipedia 'Water knot'); Hunter's and Ashley bends jammed so tight in tests 'would have had to be cut' (Animated Knots).
 - **How often it can be reused:** many times for non-jamming bends (sheet bend, Zeppelin); once or a few times for jamming bends such as the double fisherman's, which may end up being cut out ⚑ [uncertain].
 - **Sealing:** none

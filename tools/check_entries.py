@@ -21,7 +21,7 @@ TAGF = yaml.safe_load(open(os.path.join(ROOT, 'research', 'finder-tags', 'fields
 DIR = os.path.join(ROOT, 'content', 'entries')
 REQUIRED = ['title', 'description', 'num', 'term', 'plain_name', 'aliases', 'family', 'other_families', 'finder',
             'needs_confirming', 'confirmed', 'open_points', 'uncertain_fields', 'links', 'make_it_yourself',
-            'sources', 'research']
+            'sources', 'research', 'glossary']
 HEADINGS = ['## How it works', '## Details', '## Making it', '## Needs confirming']
 NA = 'not applicable'
 OPTIONS = {   # the normalised run 2 fields (research/finder-test/normalise.py) and what each may hold
@@ -37,6 +37,8 @@ OPTIONS = {   # the normalised run 2 fields (research/finder-test/normalise.py) 
 for k, v in TAGF.items():
     OPTIONS[k] = (v['kind'], v['options'])
 KINDS = {'best guess', 'source uncertain'}
+from make_entries import gh_anchor  # noqa: E402
+ANCHORS = {gh_anchor(t['term']) for t in yaml.safe_load(open(os.path.join(ROOT, 'content', 'glossary.yaml')))}
 
 
 def main():
@@ -96,6 +98,9 @@ def main():
                 e(f'a link without a web address: {str(x)[:60]}')
         if not os.path.exists(os.path.join(ROOT, fm.get('research', ''))):
             e(f'research file {fm.get("research")} not found')
+        for a in re.findall(r'\]\(\.\./glossary\.md#([^)]+)\)', body):
+            if a not in ANCHORS:
+                e(f'link to a glossary term that does not exist: #{a}')
         for h in HEADINGS:
             if h not in body:
                 e(f'heading "{h}" missing')

@@ -129,6 +129,9 @@ sources:
 - https://www.printables.com/model/1784755-basic-trigger-mechanism-for-releasing-a-string (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Sear_and_trigger_trip_release_mechanism.json
+glossary: [self-locking, dead-point, over-centre, detent, ratchet, pawl, linkage, actuator, solenoid, fail-safe--fail-secure,
+  deflection, torsion, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, perimeters,
+  infill, elephants-foot]
 ---
 
 A small hooked catch (the sear) holds a part that is loaded by a big spring, band or weight, and a trigger lever pulls the catch off with a light touch, releasing all the stored energy in an instant.
@@ -139,11 +142,11 @@ A small hooked catch (the sear) holds a part that is loaded by a big spring, ban
 
 ## How it works
 
-The main spring pushes the loaded part against the sear's small hooked face. The faces are shaped so that this big push points almost straight into the sear's pivot, so it barely tries to turn the sear; the sear is held in place by its own light spring and by friction. The trigger is a long lever, so a small finger force at its end makes a larger force at the sear, enough to slide the sear off the notch. The moment the contact slips past the edge, nothing holds the loaded part and it snaps free (Wikipedia, Sear; Crossbow Building Wiki). Adding a second lever stage, or a roller at the contact, cuts the needed force further, which is how circuit breakers release a large stored spring with a small solenoid (US 5,508,487; US 5,713,459).
+The main spring pushes the loaded part against the sear's small hooked face. The faces are shaped so that this big push points almost straight into the sear's pivot, so it barely tries to turn the sear; the sear is held in place by its own light spring and by friction. The trigger is a long lever, so a small finger force at its end makes a larger force at the sear, enough to slide the sear off the notch. The moment the contact slips past the edge, nothing holds the loaded part and it snaps free (Wikipedia, Sear; Crossbow Building Wiki). Adding a second lever stage, or a roller at the contact, cuts the needed force further, which is how circuit breakers release a large stored spring with a small [solenoid](../glossary.md#solenoid) (US 5,508,487; US 5,713,459).
 
 ## Parts
 
-A few parts: (1) the frame or stock; (2) the loaded part that stores or holds the energy (a hammer, striker, mousetrap bar, crossbow nut, catapult arm or hook jaw) with a notch or ledge; (3) the sear, a small catch that sits in that notch; (4) the trigger, a lever that moves the sear (sometimes the trigger is the sear); (5) light springs that push the sear and trigger back into place; (6) the main energy store (coil or torsion spring, rubber band, bow). Some designs add an extra lever between trigger and sear to lighten the pull, like the three-piece Chinese bronze lock (hook, sear, trigger).
+A few parts: (1) the frame or stock; (2) the loaded part that stores or holds the energy (a hammer, striker, mousetrap bar, crossbow nut, catapult arm or hook jaw) with a notch or ledge; (3) the sear, a small catch that sits in that notch; (4) the trigger, a lever that moves the sear (sometimes the trigger is the sear); (5) light springs that push the sear and trigger back into place; (6) the main energy store (coil or [torsion](../glossary.md#torsion) spring, rubber band, bow). Some designs add an extra lever between trigger and sear to lighten the pull, like the three-piece Chinese bronze lock (hook, sear, trigger).
 
 ## Everyday examples
 
@@ -158,26 +161,26 @@ Use it when you need to hold a big stored force steady for a while and then let 
 
 ## When not to use it
 
-Avoid it when the load should be released slowly or controllably: use a brake, damper, winch or lead screw instead. Avoid printed plastic sears for large forces or for holding cocked for long periods, because the small catch creeps, wears and can fire by itself; use hardened metal faces. Never use a home-made release to hold loads over people; use rated, certified release hooks. Where accidental release is dangerous, add a separate safety catch. If you only need a lid or door to stay shut, a simple latch or over-centre catch is safer, because it does not store energy.
+Avoid it when the load should be released slowly or controllably: use a brake, damper, winch or lead screw instead. Avoid printed plastic sears for large forces or for holding cocked for long periods, because the small catch [creeps](../glossary.md#creep), wears and can fire by itself; use hardened metal faces. Never use a home-made release to hold loads over people; use rated, certified release hooks. Where accidental release is dangerous, add a separate safety catch. If you only need a lid or door to stay shut, a simple latch or [over-centre](../glossary.md#over-centre) catch is safer, because it does not store energy.
 
 ## Details
 
 - **What it does (jobs):**
   - lock, and release by hand: holds a loaded part until someone (or something) pulls the trigger
   - store energy: keeps a spring, band or bow loaded and ready
-  - hold or release using power: servo- or solenoid-tripped versions let a small electric actuator release a large load
+  - hold or release using power: servo- or solenoid-tripped versions let a small electric [actuator](../glossary.md#actuator) release a large load
 - **Movement:** multiple: the sear and trigger pivot (rotate) through a few degrees; the released part then swings or slides freely (a mousetrap bar rotates about half a turn; a crossbow nut rotates; a plunger slides)
 - **Directions it can move (degrees of freedom):** 1 per lever: the trigger, the sear and the loaded part each swing about their own pivot pin. While cocked, the chain is locked (0); after release the loaded part is free to move in its one direction
 - **Special behaviour:**
   - hand-release only (locks under load, releases when a person operates it): it holds the full stored force until the trigger is pulled
   - quick-release: release is instant, with no unwinding or unscrewing
-  - self-locking (holds under load, won't back-drive): only when the catch faces are shaped correctly; if they slope the wrong way the load pushes the sear out and it fires by itself (Crossbow Building Wiki)
-  - fail-safe or breakaway: trip devices use it to let go automatically, for example a mousetrap's bait pedal or a circuit breaker's trip latch released by a bimetal strip or solenoid when a fault occurs (Wikipedia, Circuit breaker)
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): only when the catch faces are shaped correctly; if they slope the wrong way the load pushes the sear out and it fires by itself (Crossbow Building Wiki)
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: trip devices use it to let go automatically, for example a mousetrap's bait pedal or a circuit breaker's trip latch released by a bimetal strip or solenoid when a fault occurs (Wikipedia, Circuit breaker)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the sear's hook sits in a notch on the loaded part
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the sear's hook sits in a notch on the loaded part
   - friction or clamping (force-fit): friction at the contact helps hold the sear in and sets how hard the trigger feels
   - spring force (a spring or springy part presses it in place): light springs keep the sear and trigger engaged
-- **Input and output:** Not a motion transmission. It works as a force amplifier and time-release: a small, short trigger movement releases a large stored force. The trigger's lever ratio and any extra lever stages set how light the pull is; for industrial releasing grips one engineering blog quotes a trigger linkage ratio of 8:1 to 15:1 and trigger force = load x tan(sear angle + friction angle) / lever ratio ⚑ [uncertain: single commercial source]. Back-drivable: no while cocked, provided the catch faces are shaped correctly.
+- **Input and output:** Not a motion transmission. It works as a force amplifier and time-release: a small, short trigger movement releases a large stored force. The trigger's lever ratio and any extra lever stages set how light the pull is; for industrial releasing grips one engineering blog quotes a trigger [linkage](../glossary.md#linkage) ratio of 8:1 to 15:1 and trigger force = load x tan(sear angle + friction angle) / lever ratio ⚑ [uncertain: single commercial source]. Back-drivable: no while cocked, provided the catch faces are shaped correctly.
 - **Power:** passive (no power needed) in traps, crossbows and toys. Powered versions use a servo, solenoid or bimetal strip to move the sear, e.g. a servo-released bungee plane launcher (Printables 413432) and circuit breakers (Wikipedia). If power fails, a servo- or solenoid-tripped sear normally stays latched, because the spring and friction hold it and the actuator is only needed to release ⚑ [uncertain: depends on design]
 - **Load:** Light to heavy, depending on material: hardened steel sears hold crossbows of hundreds of pounds and industrial loads; printed plastic versions suit rubber-band toys and small launchers (a PET-printed launcher trigger was tested at 10 kg pull, Printables 413432; the printed Chinese crossbow-trigger model 'is unlikely to carry any real load'). Strong in the direction the load pushes into the hook; weak if the faces are chipped, rounded or loaded from the side, and the small contact area sees very high contact stress.
 - **Play and precision:** Not a locating joint. The trigger usually moves a little before release ('creep'), more with deeper engagement (Wikipedia, Sear). Release timing is repeatable if the faces are hard and clean, but wear, dirt and grease change the feel over time.
@@ -193,7 +196,7 @@ Avoid it when the load should be released slowly or controllably: use a brake, d
 
 - **Ways to make or get it:**
   - 3D print (FDM): the usual maker method for toys, catapults, slingshots and demonstrators
-  - 3D print (resin): possible for small demonstrators, but brittle resins may chip at the sharp catch edge ⚑ [uncertain]
+  - 3D print (resin): possible for small demonstrators, but [brittle](../glossary.md#brittle--ductile) resins may chip at the sharp catch edge ⚑ [uncertain]
   - CNC or laser cut: flat metal sears and triggers can be cut from plate (the 'Basic Trigger Mechanism for Releasing a String' is suggested for a CNC laser, plasma or wire EDM, Printables 1784755)
   - woodwork: crossbow stocks and wooden traps, with metal or horn contact parts
   - sheet metal: mousetrap hold-down bars and catches are bent wire and pressed sheet
@@ -204,7 +207,7 @@ Avoid it when the load should be released slowly or controllably: use a brake, d
 
 ### 3D printing tips
 
-Orientation: print the hook, sear and trigger lying flat so the catch edge is built from continuous perimeters in the plane of the bed and the load never tries to split layers; the Chinese crossbow-trigger model prints the teeth, sear and trigger flat, and the slingshot trigger model prints each part 'in various orientations (to maximise inter-layer strength)' (Printables 1578360, 1625652). Pins: an integrated pin printed lying flat is weak, so thicken its walls or give it 100% infill, or use a metal pin or screw (Printables 1578360; the slingshot uses 2.9 mm screws). Clearance: 0.2 mm on mating faces and pins worked for the crossbow-trigger model, which also adds 1 mm chamfers to avoid elephant's foot; sand the pin holes so parts turn freely (Printables 1578360). Infill: raise infill locally where the load goes in (the slingshot uses 30% gyroid with 40-60% modifiers at the stressed ends; Printables 1625652). Catch faces: shape them so pulling the trigger lets the loaded part move very slightly forward (light pull) rather than backwards (stiff pull), but not so far that it fires by itself (Crossbow Building Wiki). Keep the faces smooth and the edge crisp; a plastic edge rounds off with use, so for strong springs glue in a steel insert (a piece of pin or screw shank) at the contact ⚑ [uncertain: common practice, not from a tested guide]. Springs: use separate light springs for the trigger return and for the sear; one designer found that linking both with one spring made the trigger 'noticeably heavier' (Printables 1625652). Use metal springs or rubber bands for the main energy store; plastic springs left loaded creep and lose force (DuPont, Module I, pp. 36-37). Do not leave a printed mechanism cocked for long, because the plastic catch can creep and either jam or let go. Test at low power first, wear safety glasses, and fire into something soft (Printables 1625652).
+Orientation: print the hook, sear and trigger lying flat so the catch edge is built from continuous [perimeters](../glossary.md#perimeters) in the plane of the bed and the load never tries to split layers; the Chinese crossbow-trigger model prints the teeth, sear and trigger flat, and the slingshot trigger model prints each part 'in various orientations (to maximise inter-layer strength)' (Printables 1578360, 1625652). Pins: an integrated pin printed lying flat is weak, so thicken its walls or give it 100% [infill](../glossary.md#infill), or use a metal pin or screw (Printables 1578360; the slingshot uses 2.9 mm screws). [Clearance](../glossary.md#clearance): 0.2 mm on mating faces and pins worked for the crossbow-trigger model, which also adds 1 mm [chamfers](../glossary.md#chamfer--fillet) to avoid [elephant's foot](../glossary.md#elephants-foot); sand the pin holes so parts turn freely (Printables 1578360). Infill: raise infill locally where the load goes in (the slingshot uses 30% gyroid with 40-60% modifiers at the stressed ends; Printables 1625652). Catch faces: shape them so pulling the trigger lets the loaded part move very slightly forward (light pull) rather than backwards (stiff pull), but not so far that it fires by itself (Crossbow Building Wiki). Keep the faces smooth and the edge crisp; a plastic edge rounds off with use, so for strong springs glue in a steel insert (a piece of pin or screw shank) at the contact ⚑ [uncertain: common practice, not from a tested guide]. Springs: use separate light springs for the trigger return and for the sear; one designer found that linking both with one spring made the trigger 'noticeably heavier' (Printables 1625652). Use metal springs or rubber bands for the main energy store; plastic springs left loaded creep and lose force (DuPont, Module I, pp. 36-37). Do not leave a printed mechanism cocked for long, because the plastic catch can creep and either jam or let go. Test at low power first, wear safety glasses, and fire into something soft (Printables 1625652).
 
 ### Buying one (off-the-shelf parts)
 
@@ -220,7 +223,7 @@ Search terms: 'torsion spring', 'compression spring', 'extension spring' (sear a
 - For heavy industrial releasing grips, one engineering blog recommends a sear holding angle of 3-7 degrees, hardened (HRC 50-55), smooth (Ra 0.8 um) faces and a trigger lever ratio of 8:1 to 15:1, and warns that cold grease can double the trigger pull (FIRGELLI Automations, 'Releasing Grip Mechanism Explained', 2026) ⚑ [uncertain: single commercial source; its angle limits are hard to reconcile with its own formula].
 - A two-stage trip latch 'requires less force to move the latch than a simple one stage solid finger design' (US 5,508,487, ABB circuit breaker); a roller at the latch face minimizes friction (US 5,713,459, Eaton).
 - Larger sear engagement gives more creep in the trigger pull; shorter engagement gives a crisper release (Wikipedia, Sear (firearm)).
-- Plastic is a poor material for any spring that stays loaded or must store energy; 'any spring which will be under a constant load or deflection, or which is required to store energy, should be made of a lower creep material such as metal' (DuPont General Design Principles, Module I, p. 37).
+- Plastic is a poor material for any spring that stays loaded or must store energy; 'any spring which will be under a constant load or [deflection](../glossary.md#deflection), or which is required to store energy, should be made of a lower creep material such as metal' (DuPont General Design Principles, Module I, p. 37).
 
 ## Common failures
 
@@ -228,13 +231,13 @@ Fires by itself (spontaneous release): too little overlap, faces sloped so the l
 
 ## Safety
 
-Stored energy: treat a cocked mechanism as loaded; keep fingers, face and other people out of the path of whatever it releases, and uncock it before carrying, storing or taking it apart. Wear safety glasses when testing and fire into something soft (Printables 1625652). Mousetraps and strong springs can injure fingers. Add a safety catch that blocks the trigger when needed; ancient Chinese crossbow locks sometimes had one (ATARN), and industrial release hooks use a two-motion safety detent (FIRGELLI blog). Printed parts can shatter under shock. Making or modifying trigger parts for firearms is tightly regulated and illegal in many places; this entry covers traps, toys, launchers and release devices only.
+Stored energy: treat a cocked mechanism as loaded; keep fingers, face and other people out of the path of whatever it releases, and uncock it before carrying, storing or taking it apart. Wear safety glasses when testing and fire into something soft (Printables 1625652). Mousetraps and strong springs can injure fingers. Add a safety catch that blocks the trigger when needed; ancient Chinese crossbow locks sometimes had one (ATARN), and industrial release hooks use a two-motion safety [detent](../glossary.md#detent) (FIRGELLI blog). Printed parts can shatter under shock. Making or modifying trigger parts for firearms is tightly regulated and illegal in many places; this entry covers traps, toys, launchers and release devices only.
 
 ## Related
 
-- Ratchet and pawl: a pawl is a similar catch, but it holds one way at every tooth instead of releasing a single stored shot
+- [Ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl): a pawl is a similar catch, but it holds one way at every tooth instead of releasing a single stored shot
 - Escapement: releases stored energy in small repeated steps instead of all at once
-- Over-centre latch (toggle latch): holds by pushing past a dead point; it clamps rather than releasing stored energy
+- Over-centre latch (toggle latch): holds by pushing past a [dead point](../glossary.md#dead-point); it clamps rather than releasing stored energy
 - Rotary latch (claw latch): a car-door latch whose jaw is held by a pawl that is tripped by a lever or cable, a close cousin
 - Ball-lock pin and release pin: you pull a pin to let a load go; simpler, but needs a larger pull under load
 - Shear-pin coupling (breakaway link): lets go automatically by breaking at a set load instead of being tripped

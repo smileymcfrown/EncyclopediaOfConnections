@@ -108,6 +108,8 @@ sources:
 - https://www.youtube.com/watch?v=JCB8fTl-A7U
 - https://www.youtube.com/watch?v=UfnTRo0zyO0
 research: research/connection-types/results/Selfclinching_fastener_pressin_nut_or_stud.json
+glossary: [misalignment, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, chamfer--fillet, undercut,
+  brittle--ductile]
 ---
 
 A threaded nut, stud or standoff that is pressed into a plain hole in thin sheet metal so the sheet cold-flows into a groove around it, making it a permanent, non-spinning part of the panel that you can then screw into from the other side.
@@ -118,7 +120,7 @@ A threaded nut, stud or standoff that is pressed into a plain hole in thin sheet
 
 ## How it works
 
-You put the fastener's shank into a hole of exactly the specified size and squeeze it in with a press between two parallel flat faces (a punch and an anvil). The hard clinching ring or knurl pushes the softer sheet metal around the hole so it 'cold flows' into the undercut or back-taper on the shank, locking the fastener in so it can't push out, while the serrations or hex bite into the sheet so it can't spin (PEM handbook pp.4, 15; Wikipedia 'Swage nut'). The fastener itself does not change shape: there is no flaring, crimping or riveting (PEM handbook p.15), and the back of the sheet stays flush (PEM handbook p.3).
+You put the fastener's shank into a hole of exactly the specified size and squeeze it in with a press between two parallel flat faces (a punch and an anvil). The hard clinching ring or knurl pushes the softer sheet metal around the hole so it 'cold flows' into the [undercut](../glossary.md#undercut) or back-taper on the shank, locking the fastener in so it can't push out, while the serrations or hex bite into the sheet so it can't spin (PEM handbook pp.4, 15; Wikipedia 'Swage nut'). The fastener itself does not change shape: there is no flaring, crimping or riveting (PEM handbook p.15), and the back of the sheet stays flush (PEM handbook p.3).
 
 ## Parts
 
@@ -136,7 +138,7 @@ Use a self-clinching fastener when you design a sheet-metal part (bought laser-c
 
 ## When not to use it
 
-Don't use it if you can reach only one side (use a blind rivet nut), in hard or brittle material, PCBs, plastics or castings (use broaching or flare-mount fasteners, or heat-set inserts in prints) (PEM handbook p.13), or in sheet thinner than the fastener's minimum (PEM handbook p.15). If the sheet is thick enough to tap (roughly one bolt diameter in steel or two in aluminium), a tapped hole may be simpler (SendCutSend). If you have no press, a rivet nut and hand setter or an ordinary bolt and nut may be easier (Hobby-Machinist forum). Don't use standoffs where impacts will push them back into the panel; use a stud and nut there (SendCutSend).
+Don't use it if you can reach only one side (use a blind rivet nut), in hard or [brittle](../glossary.md#brittle--ductile) material, PCBs, plastics or castings (use broaching or flare-mount fasteners, or [heat-set inserts](../glossary.md#heat-set-insert) in prints) (PEM handbook p.13), or in sheet thinner than the fastener's minimum (PEM handbook p.15). If the sheet is thick enough to tap (roughly one bolt diameter in steel or two in aluminium), a tapped hole may be simpler (SendCutSend). If you have no press, a rivet nut and hand setter or an ordinary bolt and nut may be easier (Hobby-Machinist forum). Don't use standoffs where impacts will push them back into the panel; use a stud and nut there (SendCutSend).
 
 ## Details
 
@@ -147,14 +149,14 @@ Don't use it if you can reach only one side (use a blind rivet nut), in hard or 
 - **Directions it can move (degrees of freedom):** 0: the clinched metal stops it pushing out and the serrations stop it rotating (PEM handbook p.6). Floating-nut versions let the threaded part move slightly sideways to find a misaligned screw (PEM handbook p.7).
 - **Special behaviour:**
   - none for a plain nut, stud or standoff: it is simply a permanent thread in the sheet
-  - self-aligning or self-centring (floating nuts only): a floating threaded element 'compensates for mating hole misalignment' (PEM handbook p.7)
+  - self-aligning or self-centring (floating nuts only): a floating threaded element 'compensates for mating hole [misalignment](../glossary.md#misalignment)' (PEM handbook p.7)
   - Its own tricks: it stays captive in the panel, so there are no loose nuts or washers in final assembly (PEM handbook p.4); locking versions with a nylon element or a modified thread resist vibration loosening (PEM handbook p.7; PEM CL data sheet p.6)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the sheet cold-flows into the undercut, and the serrated ring, knurl, ribs or hex head are embedded in the sheet so it can't rotate (PEM handbook pp.4, 6)
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the sheet cold-flows into the undercut, and the serrated ring, knurl, ribs or hex head are embedded in the sheet so it can't rotate (PEM handbook pp.4, 6)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed); a hand arbor press or a powered press is used only to install it
 - **Load:** medium for thin sheet, with very different strength in different directions. It is strongest when the screw goes in from the side opposite the head, so the load pulls the fastener into the sheet; pushout (the other way) is only about 5-10% of the installation force (PEM handbook pp.5, 9; SendCutSend). Example PEM figures for S-type nuts (-1 shank length): M3 in cold-rolled steel: installation 11.2-15.6 kN, pushout 550 N, torque-out 1.7 N·m; M3 in 5052-H34 aluminium: pushout 400 N, torque-out 1.13 N·m; M5 in steel: pushout 800 N, torque-out 4.5 N·m; M6 in steel: pushout 1,760 N, torque-out 17 N·m (PEM handbook p.5 table). For most good nuts 'the screw will fail before the nut rotates in the material' (PEM handbook p.15). Standoffs are weak against impacts pushing them back into the panel (SendCutSend).
-- **Play and precision:** No play once installed; the thread sits exactly where the hole was punched, drilled or laser-cut, and standoffs are 'inherently square' to the panel and all the same length (SendCutSend). Flush studs and standoffs may stand up to 0.015 in (0.38 mm) proud depending on material (SendCutSend hardware guidelines). Tight manufacturing tolerances matter: a 0.05 mm variation on a critical dimension 'can make a 20% difference' in performance (PEM handbook p.8).
+- **Play and precision:** No play once installed; the thread sits exactly where the hole was punched, drilled or laser-cut, and standoffs are 'inherently square' to the panel and all the same length (SendCutSend). Flush studs and standoffs may stand up to 0.015 in (0.38 mm) proud depending on material (SendCutSend hardware guidelines). Tight manufacturing [tolerances](../glossary.md#tolerance) matter: a 0.05 mm variation on a critical dimension 'can make a 20% difference' in performance (PEM handbook p.8).
 - **Taking it apart:** permanent for the fastener: it 'become[s] a permanent part of the panel' (PEM handbook p.4). The screw or nut used with it is removable, so the joint it makes is fully removable.
 - **How often it can be reused:** once for the fastener itself; the metal thread it provides can be screwed in and out many times, which is why it is chosen where a component 'must be readily replaced' (PEM handbook p.4)
 - **Sealing:** none for ordinary through-threaded nuts. Blind (closed-end) types keep dirt out of the threads and stop over-long screws reaching inside (PEM handbook p.7); special 'ingress protection' studs make a watertight seal meeting IPX7 and IPX9K (PEM handbook p.7).
@@ -176,7 +178,7 @@ Don't use it if you can reach only one side (use a blind rivet nut), in hard or 
 
 ### 3D printing tips
 
-not applicable: self-clinching needs a ductile metal sheet that cold-flows around the fastener (PEM handbook p.4). For plastics, PCBs and castings PEM itself points to other fasteners (broaching and flare-mount types) (PEM handbook p.13). In 3D prints use a heat-set insert, press-fit or expanding insert, or a captive nut pocket instead (see those entries). If a printed part must attach to sheet metal, put self-clinching studs or nuts in the metal part and screw the print on with washers.
+not applicable: self-clinching needs a ductile metal sheet that cold-flows around the fastener (PEM handbook p.4). For plastics, PCBs and castings PEM itself points to other fasteners (broaching and flare-mount types) (PEM handbook p.13). In 3D prints use a heat-set insert, press-fit or expanding insert, or a [captive nut](../glossary.md#captive-nut) pocket instead (see those entries). If a printed part must attach to sheet metal, put self-clinching studs or nuts in the metal part and screw the print on with washers.
 
 ### Buying one (off-the-shelf parts)
 
@@ -184,7 +186,7 @@ Search supplier catalogues for 'self-clinching nut' (types S, SS, CLS, CLSS for 
 
 ## Rules of thumb
 
-- Hole size is critical: punch or drill to the catalogue size, +0.08 mm / -0 (+0.003 in), e.g. 4.22 mm for an M3 S/CLS nut and 6.35 mm for an M5 (PEM CL data sheet p.CL-5; PEM handbook p.9). Do not chamfer (max 0.127 mm break) or deburr: that removes the metal needed for the clinch (PEM handbook p.9).
+- Hole size is critical: punch or drill to the catalogue size, +0.08 mm / -0 (+0.003 in), e.g. 4.22 mm for an M3 S/CLS nut and 6.35 mm for an M5 (PEM CL data sheet p.CL-5; PEM handbook p.9). Do not [chamfer](../glossary.md#chamfer--fillet) (max 0.127 mm break) or deburr: that removes the metal needed for the clinch (PEM handbook p.9).
 - Minimum sheet thickness depends on the part and shank length: 'generally .030 in / 0.76 mm or .040 in / 1 mm', some types down to 0.2 mm (PEM handbook pp.3, 15); e.g. 0.8 mm for an M3 S nut with shank code 0 and 0.64 mm for the thin-sheet SMPS nut (PEM CL data sheet pp.CL-5, CL-9). Use the longest shank that suits your sheet (PEM CL data sheet).
 - Edge distance: respect the minimum hole-centre-to-edge distance, e.g. 4.8 mm for M3, 7.1 mm for M5 and 8.6 mm for M6 S nuts (PEM CL data sheet p.CL-5); too close and the edge bulges or blows out. The value applies to one edge only; near two edges the panel distorts unless supported (PEM handbook p.12).
 - Spacing between two fasteners: at least the centre-to-edge distance plus half the diameter of the second hole (PEM handbook p.12). Worked example: a 1/4-20 nut in 0.063 in 5052 aluminium needs 0.340 in to an edge, 0.512 in between centres and 0.425 in to a bend line (SendCutSend).

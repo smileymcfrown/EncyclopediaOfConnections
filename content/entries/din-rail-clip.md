@@ -122,6 +122,8 @@ sources:
 - https://www.youtube.com/watch?v=bOMrQ_mIGvM
 - https://api.printables.com/graphql/
 research: research/connection-types/results/DINrail_clip_tophat_rail_snap_mount.json
+glossary: [cantilever, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, creep, perimeters, infill,
+  print-in-place, elephants-foot]
 ---
 
 A mounting foot with a fixed hook on one side and a spring-loaded latch on the other, so electrical modules and home-made boxes can be clicked onto, slid along, and unclipped from a standard 35 mm metal top-hat rail.
@@ -136,7 +138,7 @@ The top-hat rail has two thin lips. The clip's fixed hook goes over the upper li
 
 ## Parts
 
-A few parts, or a single printed piece. Commercial clip: a moulded or steel body with a fixed hook at the top, a sliding latch (release tab) at the bottom pushed by a spring, and holes or threaded inserts for screwing it to the device (Winford Engineering). Printed clip: one piece with a flexing latch, or a print-in-place slider and zigzag spring (hzeller din-rail-clip-mount). The rail itself: 35 mm wide, 1 mm thick zinc-plated steel strip bent into a top-hat shape (Wikipedia, DIN rail; IEC 60715).
+A few parts, or a single printed piece. Commercial clip: a moulded or steel body with a fixed hook at the top, a sliding latch (release tab) at the bottom pushed by a spring, and holes or threaded inserts for screwing it to the device (Winford Engineering). Printed clip: one piece with a flexing latch, or a [print-in-place](../glossary.md#print-in-place) slider and zigzag spring (hzeller din-rail-clip-mount). The rail itself: 35 mm wide, 1 mm thick zinc-plated steel strip bent into a top-hat shape (Wikipedia, DIN rail; IEC 60715).
 
 ## Everyday examples
 
@@ -164,8 +166,8 @@ Don't rely on it for heavy parts, parts that are pulled or levered upward, or he
   - quick-release (tool-free): snaps on by tilting and unclips by pulling the latch or lifting and pivoting (Winford Engineering; Crestron)
   - hand-release only (locks under load, releases when a person operates it): the fixed top hook takes the weight and the latch stays shut until someone pulls it or lifts the clip (Winford Engineering)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the hook and latch wrap over the rail's two lips
-  - spring force (a spring or springy part presses it in place): a spring (or a flexing plastic arm) pushes the latch against the lower lip and takes up the rail's width tolerance (Winford Engineering; hzeller)
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the hook and latch wrap over the rail's two lips
+  - spring force (a spring or springy part presses it in place): a spring (or a flexing plastic arm) pushes the latch against the lower lip and takes up the rail's width [tolerance](../glossary.md#tolerance) (Winford Engineering; hzeller)
 - **Input and output:** not applicable: it holds a part on a rail and does not pass motion on
 - **Power:** passive (no power needed)
 - **Load:** light to medium: the fixed hook on top bears the weight (Winford Engineering). Strong downward and against pulling straight off; weakest when the device is lifted upward (that is the release movement of lift-and-pivot clips) and against sideways twisting, which can tilt lift-and-pivot clips (Winford Engineering). Heavier modules call for sturdier rail fixing, and the rail can twist under heavy off-centre loads (Phoenix Contact white paper). IEC 60715 Annex B gives permissible rail loads against support spacing (IEC 60715 preview, contents)
@@ -185,13 +187,13 @@ Don't rely on it for heavy parts, parts that are pulled or levered upward, or he
   - 3D print (FDM): one-piece clips with a flexing latch or a print-in-place spring slider (hzeller; Printables 64242, 1089827)
   - sheet metal: steel mounting clips (Winford Engineering)
   - 3D print (resin): possible for small clips, but no tested example found ⚑ [uncertain]
-- **Printing it in one piece (print in place):** yes: hzeller's design prints the sliding latch and its zigzag spring in place, ready to clip on (hzeller din-rail-clip-mount), and flexing-latch clips are single parts. Some printed clips add screws or heat-set inserts only for attaching the device (Printables 1089827, 537942)
+- **Printing it in one piece (print in place):** yes: hzeller's design prints the sliding latch and its zigzag spring in place, ready to clip on (hzeller din-rail-clip-mount), and flexing-latch clips are single parts. Some printed clips add screws or [heat-set inserts](../glossary.md#heat-set-insert) only for attaching the device (Printables 1089827, 537942)
 - **Tools:** None, or a small flat-blade screwdriver to pull the latch (Crestron). A screwdriver to screw the clip to your device (Winford Engineering suggests flat-head screws) and to fix the rail to the backplate
 - **Difficulty:** easy: buy clips for a few coins or print one in a single piece; one open design prints its slider and spring already assembled (hzeller din-rail-clip-mount)
 
 ### 3D printing tips
 
-1) Orientation: print the clip lying flat on its back so the rail profile is extruded in the plane of the layers and the latch or spring bends along the layers rather than across them (in hzeller's design the spring and slider lie in the flat base plate; Prusa: prints are stronger in one direction, so orient structural parts for strength). 2) Fit: make the gap between hook and latch a little smaller than the 35 mm rail so the spring clamps (hzeller uses 35 - 0.5 = 34.5 mm) and allow for 1 mm rail thickness (IEC 60715; hzeller). 3) Print-in-place slider: hzeller uses a 0.25 mm gap; watch the first layer, because elephant's foot can weld the slider, which may need freeing after printing. 4) Spring: hzeller's printed zigzag spring is 1.2 mm thick and 2 mm high and 'depends on the filament, needs experimentation'; tune spring height and thickness for your material. 5) Release: add a screwdriver slot or pull tab on the latch, or print an unlocker tool, because the latch can be hard to reach behind a large board (Printables 95182; Printables 1089827). 6) Settings from one tested low-profile clip: 0.2 mm layers, 4 perimeters, 4 top and bottom layers, 40% infill, ABS/ASA or PETG, with M3 heat-set inserts for the device screws; its release tab has tight tolerances, so calibrate the printer (Printables 1089827). Another parametric mount suggests at least 3 walls and 35% infill (Printables 311970). 7) Material: PLA, ABS and PETG all worked in hzeller's design, but electrical cabinets get warm and PLA starts to give at about 60 °C (CNC Kitchen), so prefer PETG, ABS or ASA there. 8) Insulation: if a bare circuit board sits on the clip, hzeller offers an option with a 0.4 mm closed plastic floor between board and rail. 9) Check your rail: some designs fit only 35 x 7.5 mm rail (Printables 1089827) and aluminium rails can fit tighter (Printables 64242).
+1) Orientation: print the clip lying flat on its back so the rail profile is extruded in the plane of the layers and the latch or spring bends along the layers rather than across them (in hzeller's design the spring and slider lie in the flat base plate; Prusa: prints are stronger in one direction, so orient structural parts for strength). 2) Fit: make the gap between hook and latch a little smaller than the 35 mm rail so the spring clamps (hzeller uses 35 - 0.5 = 34.5 mm) and allow for 1 mm rail thickness (IEC 60715; hzeller). 3) Print-in-place slider: hzeller uses a 0.25 mm gap; watch the first layer, because [elephant's foot](../glossary.md#elephants-foot) can weld the slider, which may need freeing after printing. 4) Spring: hzeller's printed zigzag spring is 1.2 mm thick and 2 mm high and 'depends on the filament, needs experimentation'; tune spring height and thickness for your material. 5) Release: add a screwdriver slot or pull tab on the latch, or print an unlocker tool, because the latch can be hard to reach behind a large board (Printables 95182; Printables 1089827). 6) Settings from one tested low-profile clip: 0.2 mm layers, 4 [perimeters](../glossary.md#perimeters), 4 top and bottom layers, 40% [infill](../glossary.md#infill), ABS/ASA or PETG, with M3 heat-set inserts for the device screws; its release tab has tight tolerances, so calibrate the printer (Printables 1089827). Another parametric mount suggests at least 3 walls and 35% infill (Printables 311970). 7) Material: PLA, ABS and PETG all worked in hzeller's design, but electrical cabinets get warm and PLA starts to give at about 60 °C (CNC Kitchen), so prefer PETG, ABS or ASA there. 8) Insulation: if a bare circuit board sits on the clip, hzeller offers an option with a 0.4 mm closed plastic floor between board and rail. 9) Check your rail: some designs fit only 35 x 7.5 mm rail (Printables 1089827) and aluminium rails can fit tighter (Printables 64242).
 
 ### Buying one (off-the-shelf parts)
 
@@ -204,10 +206,10 @@ Search for: 'DIN rail mounting clip', 'DIN rail mounting bracket' or 'DIN rail a
 - To mount: hook the top over the rail, then tilt the bottom in until it snaps; to remove: pull the release down with a small flat screwdriver and tilt the bottom away (Crestron).
 - Choose 'lift and pivot' clips (more gap below the rail) for easy tool-free removal, or 'latch release' clips (tight fit) for rigidity against side loads such as stiff cables (Winford Engineering, steel DIN clips page).
 - Clip width is often counted in 18 mm 'modules' (1 module = 18 mm, 4 modules = 72 mm) (Wikipedia, DIN rail, marked 'citation needed'); for example, Crestron's modules are 3 or 4 modules wide (Crestron).
-- Printed clips: make the hook-to-latch distance about 0.5 mm under 35 mm for clamping (hzeller), give a print-in-place slider a 0.25 mm gap (hzeller), and start at about 0.3 mm clearance for other moving parts (Prusa Knowledge Base).
+- Printed clips: make the hook-to-latch distance about 0.5 mm under 35 mm for clamping (hzeller), give a print-in-place slider a 0.25 mm gap (hzeller), and start at about 0.3 mm [clearance](../glossary.md#clearance) for other moving parts (Prusa Knowledge Base).
 - Use end stops (end clamps) at each end of a group of modules where there is vibration or transport, so they can't slide along the rail (Aera Electrical Products; Phoenix Contact white paper).
 - Screw the rail at its ends for light terminal blocks, but fix it at shorter intervals for heavier products (Phoenix Contact white paper).
-- Springs that stay loaded should be steel, not plastic, because plastic springs creep and relax (DuPont General Design Principles, p. 36); a printed spring clip is fine for light, occasionally removed parts.
+- Springs that stay loaded should be steel, not plastic, because plastic springs [creep](../glossary.md#creep) and relax (DuPont General Design Principles, p. 36); a printed spring clip is fine for light, occasionally removed parts.
 - Commercial glass-fibre nylon 66 clip rating example: -20 to 65 °C (Enable-IT).
 
 ## Common failures
@@ -220,7 +222,7 @@ DIN rails usually live in cabinets with mains voltage: switch off and isolate be
 
 ## Related
 
-- Cantilever snap fit: the flexing latch of a one-piece printed DIN clip is one; a DIN clip is a standard way of using it against a metal rail
+- [Cantilever](../glossary.md#cantilever) snap fit: the flexing latch of a one-piece printed DIN clip is one; a DIN clip is a standard way of using it against a metal rail
 - Hang-on mounts (keyhole slot, French cleat): also hook over an edge, but have no spring latch and are usually screwed to a wall
 - Aluminium-extrusion connectors (T-slot nuts): slide along a rail too, but clamp with a screw, so they are stronger but need a tool
 - Modular grid mounting systems (pegboard, Gridfinity-style grids): hook or clip into a grid of holes or sockets instead of a single rail

@@ -125,6 +125,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Home-Built_Vibration_Isolation_Platform_using_Squash_Balls.jpg
 - https://commons.wikimedia.org/wiki/File:Propeller_rubber_bush_failed.jpg
 research: research/connection-types/results/Elastomer_isolation_mount_rubber_bobbin_mount_isolator_grommet.json
+glossary: [misalignment, fail-safe--fail-secure, stiffness, damping, form-fit--force-fit--material-bond, creep, perimeters,
+  infill, peel-vs-shear, gland]
 ---
 
 An elastomer isolation mount holds a part to its frame through a piece of rubber or similar springy, lossy material, so vibration and shock from the part (or from the frame) are soaked up instead of being passed straight through as noise and shaking.
@@ -135,7 +137,7 @@ An elastomer isolation mount holds a part to its frame through a piece of rubber
 
 ## How it works
 
-The rubber acts as a soft spring, so the part and its mount form a mass-on-a-spring with a low natural frequency; vibration well above that frequency is poorly transmitted, because the rubber flexes instead of passing the force on (Penn State 'Vibration Isolation'; Wikipedia 'Vibration isolation'). Rubber also turns some of the motion into heat (damping), which stops the part bouncing wildly when it passes through its natural frequency during start-up (Barry Controls isolator guide). The catch: close to or below the natural frequency the mount does nothing or even makes the shaking worse, and any rigid path around it (a tight screw, a stiff cable or pipe) bypasses it.
+The rubber acts as a soft spring, so the part and its mount form a mass-on-a-spring with a low natural frequency; vibration well above that frequency is poorly transmitted, because the rubber flexes instead of passing the force on (Penn State 'Vibration Isolation'; Wikipedia 'Vibration isolation'). Rubber also turns some of the motion into heat ([damping](../glossary.md#damping)), which stops the part bouncing wildly when it passes through its natural frequency during start-up (Barry Controls isolator guide). The catch: close to or below the natural frequency the mount does nothing or even makes the shaking worse, and any rigid path around it (a tight screw, a stiff cable or pipe) bypasses it.
 
 ## Parts
 
@@ -161,26 +163,26 @@ Don't put rubber in a path that must stay stiff and precise: a printer extruder,
 - **What it does (jobs):**
   - join and hold: fixes a motor, fan, pump, drive or circuit board to a frame, with rubber in between
   - slow it, stop it or keep its speed steady: soaks up vibration and shocks (vibration isolation and damping), so less shaking and noise reach the frame, table or floor
-- **Movement:** flex: only small elastic movements, usually well under a few millimetres, in all directions; softer sideways (shear) than along the squash direction (compression) (Barry Controls)
+- **Movement:** flex: only small elastic movements, usually well under a few millimetres, in all directions; softer sideways ([shear](../glossary.md#peel-vs-shear)) than along the squash direction (compression) (Barry Controls)
 - **Directions it can move (degrees of freedom):** 0 intended: it is meant to hold the part in place; in practice the rubber allows small springy movements in all 6 directions, which is exactly what isolates vibration
 - **Special behaviour:**
   - none of the listed behaviours in its basic form: its trick is being springy and lossy, so it filters out fast vibration while still holding the part
-  - fail-safe or breakaway: 'fail-safe' mounts interlock their metal parts so the load stays captive even if the rubber tears (McMaster-Carr fail-safe bolt-down mounts); plain bobbins and grommets are not fail-safe
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: 'fail-safe' mounts interlock their metal parts so the load stays captive even if the rubber tears (McMaster-Carr fail-safe bolt-down mounts); plain bobbins and grommets are not fail-safe
 - **How it holds:**
-  - material bond (glue, solvent or melting): bobbin and sandwich mounts have the rubber bonded to their metal end plates (AVMR)
+  - [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): bobbin and sandwich mounts have the rubber bonded to their metal end plates (AVMR)
   - shape (the parts interlock; form-fit): a grommet's groove grips the edge of its hole
   - friction or clamping (force-fit): bolts and nuts clamp the mount to each part
 - **Input and output:** not applicable (it does not pass on motion; it is meant to block vibration)
 - **Power:** passive (no power needed)
 - **Load:** Light to heavy depending on size: standard bobbins cover about 1 kg to 2,500 kg static load (AVMR). Strong in compression, softer in shear, and not meant for tension: bobbins 'are not intended for use in tension' and will fail early if hung from (AVMR). Keep continuous strain below about 10 to 15% in compression and 25 to 50% in shear (Barry Controls).
-- **Play and precision:** Noticeable compliance by design: the mounted part can move slightly relative to the frame, so it tolerates small misalignment but loses positioning stiffness. That is fine for fans, pumps and printer X/Y motors, but a damped extruder motor can cause under-extrusion, ringing and stringing (Let's Print 3D), and a flight controller's mount should not allow more movement than the vibration amplitude (ArduPilot).
+- **Play and precision:** Noticeable compliance by design: the mounted part can move slightly relative to the frame, so it tolerates small [misalignment](../glossary.md#misalignment) but loses positioning [stiffness](../glossary.md#stiffness). That is fine for fans, pumps and printer X/Y motors, but a damped extruder motor can cause under-extrusion, ringing and stringing (Let's Print 3D), and a flight controller's mount should not allow more movement than the vibration amplitude (ArduPilot).
 - **Taking it apart:** removable: bolted, screwed, pushed in or stuck on; bonded bobbins are replaced as a whole unit
 - **How often it can be reused:** many times, though rubber ages, takes a permanent squash (compression set) and grommets can tear when levered out, so worn mounts should be replaced
 - **Sealing:** none: it is not meant to seal, although a snug rubber grommet does close the gap around a screw or cable
 - **Adjustable:** Not usually. Stiffness is set by the rubber hardness (durometer), the shape (waisted and hollow bobbins deflect more than plain cylinders; AVMR) and the number of mounts. Over-tightening a screw through a grommet or strap squashes it solid and cancels the isolation (ArduPilot: don't fasten straps 'so securely that it interferes with the damping'). Levelling mounts add height adjustment.
 - **Access needed:** usually both sides: each part needs its own bolt, nut or stud; push-in fan pins, grommets with a screw from one side, and stick-on pads or feet can be fitted from one side
 - **Materials:** Natural rubber (the standard for bobbins, 35 to 90 Shore A), neoprene (chloroprene), EPDM, nitrile, butyl, silicone and polyurethane; metal parts usually zinc-plated mild steel (AVMR; AV Products). Viscoelastic urethane such as Sorbothane (brand) for soft pads (Wikipedia 'Sorbothane'). Thermoplastic damping compounds for fan mounts (E-A-R/Aearo ISODAMP). Makers also use printed TPU, squash balls, foam and even a concrete paver on foam under a printer (Hackaday; Printables).
-- **Heat, cold, water and wear:** Heat, cold, oil and sunlight matter (Barry Controls table): natural rubber and neoprene are rated to about 180 °F (82 °C), silicone to about 300 °F (149 °C); natural rubber and neoprene get about 10 times stiffer at -65 °F (-54 °C) while silicone stiffens less than 2 times; natural rubber has poor oil, ozone and sunlight resistance, neoprene good to very good, silicone excellent for ozone and sunlight. Soft gels can fail in heat: ArduPilot notes one gel pad failing above 100 °F (38 °C). Rubber creeps and takes a permanent set under constant load if over-strained (Barry Controls; Printables squash-ball feet). Stepper dampers make motors run hotter because the rubber blocks heat flow into the frame (Let's Print 3D).
+- **Heat, cold, water and wear:** Heat, cold, oil and sunlight matter (Barry Controls table): natural rubber and neoprene are rated to about 180 °F (82 °C), silicone to about 300 °F (149 °C); natural rubber and neoprene get about 10 times stiffer at -65 °F (-54 °C) while silicone stiffens less than 2 times; natural rubber has poor oil, ozone and sunlight resistance, neoprene good to very good, silicone excellent for ozone and sunlight. Soft gels can fail in heat: ArduPilot notes one gel pad failing above 100 °F (38 °C). Rubber [creeps](../glossary.md#creep) and takes a permanent set under constant load if over-strained (Barry Controls; Printables squash-ball feet). Stepper dampers make motors run hotter because the rubber blocks heat flow into the frame (Let's Print 3D).
 
 ## Making it
 
@@ -195,7 +197,7 @@ Don't put rubber in a path that must stay stiff and precise: a printer extruder,
 
 ### 3D printing tips
 
-1) Print isolators in a flexible filament such as TPU; a 2 mm thick TPU fan gasket printed at 0.2 mm layers with 100% infill is a simple starting point (Printables 'Fan Gasket 40mm for TPU'). 2) Softer isolates better: make the part flex by shape (thin walls, hollow or waisted forms deflect more than solid cylinders; AVMR) or, for rigid filaments, use a springy hollow shape; one popular printed foot uses 3 perimeters, no infill and no top or bottom layers in PETG, noting PLA is stiffer (Printables 'Anti-vibration feet'). 3) Size it for the load: aim for roughly 10 to 15% squash under the part's weight, not more, or it will creep (Barry Controls); squash-ball feet needed extra supports to stop the balls deforming over time (Printables 'SquashBall ... Vibration Damper'). 4) Don't short-circuit it: a screw clamped hard through a grommet, a tight cable, a rigid bracket or a stiff pipe bypasses the rubber (Penn State 'Vibration Isolation'; ArduPilot); use shoulder screws or sleeves so the screw stops before squashing the rubber, and leave slack loops in wires. 5) Stepper motors: dampers on X and Y motors are fine, but don't isolate the extruder motor, and add a heatsink because the rubber cuts heat flow into the frame (Let's Print 3D). 6) Very light parts need very soft mounts: a drone flight controller weighs under 2 oz (about 57 g), while most off-the-shelf pad and stud mounts are designed for 5 to 10 times that mass (ArduPilot). 7) Mount the whole machine on isolators plus mass if the table is the noise source: foam plus a concrete paver cut a printer's noise by almost 8 dBA (Hackaday on CNC Kitchen).
+1) Print isolators in a flexible filament such as TPU; a 2 mm thick TPU fan gasket printed at 0.2 mm layers with 100% [infill](../glossary.md#infill) is a simple starting point (Printables 'Fan Gasket 40mm for TPU'). 2) Softer isolates better: make the part flex by shape (thin walls, hollow or waisted forms deflect more than solid cylinders; AVMR) or, for rigid filaments, use a springy hollow shape; one popular printed foot uses 3 [perimeters](../glossary.md#perimeters), no infill and no top or bottom layers in PETG, noting PLA is stiffer (Printables 'Anti-vibration feet'). 3) Size it for the load: aim for roughly 10 to 15% squash under the part's weight, not more, or it will creep (Barry Controls); squash-ball feet needed extra supports to stop the balls deforming over time (Printables 'SquashBall ... Vibration Damper'). 4) Don't short-circuit it: a screw clamped hard through a grommet, a tight cable, a rigid bracket or a stiff pipe bypasses the rubber (Penn State 'Vibration Isolation'; ArduPilot); use shoulder screws or sleeves so the screw stops before squashing the rubber, and leave slack loops in wires. 5) Stepper motors: dampers on X and Y motors are fine, but don't isolate the extruder motor, and add a heatsink because the rubber cuts heat flow into the frame (Let's Print 3D). 6) Very light parts need very soft mounts: a drone flight controller weighs under 2 oz (about 57 g), while most off-the-shelf pad and stud mounts are designed for 5 to 10 times that mass (ArduPilot). 7) Mount the whole machine on isolators plus mass if the table is the noise source: foam plus a concrete paver cut a printer's noise by almost 8 dBA (Hackaday on CNC Kitchen).
 
 ### Buying one (off-the-shelf parts)
 
@@ -225,7 +227,7 @@ If the rubber tears or perishes, a plain mount lets go: use fail-safe (captive) 
 - Jaw coupling (spider coupling): an elastomer spider between two shaft hubs that also soaks up shocks and vibration in a drive line
 - Flexible beam coupling (helical-slot coupling): isolates misalignment in a shaft but passes vibration on more than rubber does
 - Series-elastic coupling: a deliberately springy link in a robot drive, used to measure and control force rather than to block vibration
-- Grommets in cable glands and strain reliefs: the same rubber ring used to protect and seal a cable passing through a panel
+- Grommets in cable [glands](../glossary.md#gland) and strain reliefs: the same rubber ring used to protect and seal a cable passing through a panel
 - Crush ribs and compliant press fits: springy features that hold parts snugly rather than isolate them
 - Double-sided foam tape (acrylic foam tape): bonds parts while adding some damping
 - Spring mounts, wire-rope isolators and air springs: for heavier loads or lower frequencies than rubber can reach (McMaster-Carr; Penn State)

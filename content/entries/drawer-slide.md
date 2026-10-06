@@ -149,9 +149,11 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Drawer_slide_telescopic_ballbearing_slide.json
+glossary: [stroke, detent, stiffness, deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile,
+  perimeters, infill]
 ---
 
-Two or three nested steel or aluminium channels that roll on caged steel balls, letting a drawer, tray or robot stage pull out smoothly in a straight line, often its full length, with optional stops, locks, detents and soft-close.
+Two or three nested steel or aluminium channels that roll on caged steel balls, letting a drawer, tray or robot stage pull out smoothly in a straight line, often its full length, with optional stops, locks, [detents](../glossary.md#detent) and soft-close.
 
 **In plain words:** A pair of metal rails that slide inside each other on rows of little steel balls, so a drawer (or a robot arm) pulls out smoothly, often all the way, and can't fall out. **Proper term:** Telescopic ball-bearing drawer slide (ball-bearing slide, telescopic slide).
 
@@ -179,7 +181,7 @@ Use a ball-bearing slide when a drawer, tray, shelf or panel must pull out smoot
 
 ## When not to use it
 
-Not for precise positioning or machine axes (use linear guides such as profile rails, rods and bushings, or crossed-roller slides); not where there is no room for side clearance (use undermount slides or wooden runners; Rockler); not laid flat under heavy loads, which at least halves the rating (Accuride); not outdoors or in wet or dusty places unless stainless or aluminium and protected (Accuride). For small, light drawers, wooden runners or a printed plain slide are simpler and quieter; for cheap partial extension, roller (epoxy or 'Euro') slides with nylon wheels are enough (Rockler; Wikipedia 'Drawer').
+Not for precise positioning or machine axes (use linear guides such as profile rails, rods and bushings, or crossed-roller slides); not where there is no room for side [clearance](../glossary.md#clearance) (use undermount slides or wooden runners; Rockler); not laid flat under heavy loads, which at least halves the rating (Accuride); not outdoors or in wet or dusty places unless stainless or aluminium and protected (Accuride). For small, light drawers, wooden runners or a printed plain slide are simpler and quieter; for cheap partial extension, roller (epoxy or 'Euro') slides with nylon wheels are enough (Rockler; Wikipedia 'Drawer').
 
 ## Details
 
@@ -197,7 +199,7 @@ Not for precise positioning or machine axes (use linear guides such as profile r
   - none of the others for a plain slide; self-close (a spring pulls the drawer shut over the last few inches), soft-close (a damper slows it) and push-to-open (a spring pushes it open) are added features (Rockler; Wikipedia 'Drawer')
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it is a guide that lets the drawer slide
-  - shape (form-fit): the balls run in rolled grooves that trap the members together, and stops, locks and disconnect latches hold by shape
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the balls run in rolled grooves that trap the members together, and stops, locks and disconnect latches hold by shape
   - spring force (a spring or springy part presses it in place): detents, self-close and push-to-open features use springs (Rockler)
 - **Input and output:** not applicable (it guides straight-line motion; it doesn't change it). For robot lifts the slides are driven by a motor through strings or belts (see 'Multi-stage slide rigging'; gm0)
 - **Power:** passive (no power needed); in robots and machines a motor drives the slide separately
@@ -209,7 +211,7 @@ Not for precise positioning or machine axes (use linear guides such as profile r
 - **Adjustable:** mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)
 - **Access needed:** one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side
 - **Materials:** Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)
-- **Heat, cold, water and wear:** Designed for indoor use, 0 to 180 F (about -18 to 82 C); keep away from moisture, chemical fumes, dirt and finish overspray; extreme temperatures affect the grease and the plastic or rubber parts (Accuride). Stainless steel and aluminium versions resist moisture (Accuride). Shock and vibration can upset slide performance, so test or pick a heavier slide (Accuride). Sawdust and chips spoil the movement (gm0). Vertical mounting, short strokes and vibration make ball cages creep (linearmotiontips.com). Printed rails: PLA softens at about 60 C and PETG at about 80 C (CNC Kitchen).
+- **Heat, cold, water and wear:** Designed for indoor use, 0 to 180 F (about -18 to 82 C); keep away from moisture, chemical fumes, dirt and finish overspray; extreme temperatures affect the grease and the plastic or rubber parts (Accuride). Stainless steel and aluminium versions resist moisture (Accuride). Shock and vibration can upset slide performance, so test or pick a heavier slide (Accuride). Sawdust and chips spoil the movement (gm0). Vertical mounting, short [strokes](../glossary.md#stroke) and vibration make ball cages [creep](../glossary.md#creep) (linearmotiontips.com). Printed rails: PLA softens at about 60 C and PETG at about 80 C (CNC Kitchen).
 
 ## Making it
 
@@ -220,11 +222,11 @@ Not for precise positioning or machine axes (use linear guides such as profile r
   - sheet metal: commercial slides are roll-formed from steel strip (Wikipedia 'Drawer'), a factory process
 - **Printing it in one piece (print in place):** no: printed slides are printed as separate rails and assembled; Radek's BB slide says 'Do not print in place!', and JoshRC's plain slide has a stop block glued on after printing (Printables)
 - **Tools:** screwdriver or drill-driver, tape measure and square or level, and ideally a positioning jig (Rockler; printable jigs on Printables); for robot lifts, countersunk M3 or M4 screws, nuts and often 3D-printed spacers (gm0)
-- **Difficulty:** easy to moderate to buy and fit: the slides are cheap, but they must be mounted accurately, parallel and with the right side clearance (Accuride; Rockler); moderate to print a working light-duty slide (plain PLA or BB slides; Printables); hard to match steel slides' stiffness and load rating at home, so buy them for anything heavy
+- **Difficulty:** easy to moderate to buy and fit: the slides are cheap, but they must be mounted accurately, parallel and with the right side clearance (Accuride; Rockler); moderate to print a working light-duty slide (plain PLA or BB slides; Printables); hard to match steel slides' [stiffness](../glossary.md#stiffness) and load rating at home, so buy them for anything heavy
 
 ### 3D printing tips
 
-1) For light drawers a plain printed slide can work without bearings: JoshRC's full-extension PLA slide relies on PLA's smooth surface, tightened its clearance from 0.5 mm to 0.25 mm, and was printed at 0.15 mm layers with 20% infill and at least 3 perimeters, with no supports (Printables 'Smooth Drawer Slide without Bearings'). 2) For smoother running, print rails with grooves for 6 mm airsoft BBs: in Radek's parametric design a 0.15 mm gap lets the slide run freely (it moves by gravity from about 10 degrees of tilt) and a 0.10 mm gap makes it stay put even vertically; print each part separately in its best orientation with no supports, and screw the end stop on straight away so the balls can't escape (Printables 'Drawer Slide on Airsoft BBs'). Put in enough balls to cover the travel; Radek suggests testing how many fit so that one rail slides half the required distance. 3) Long thin rails twist: Radek's heavy-duty version reinforces the outer rail's edges and screws it at both ends and roughly in the middle; for longer rails on a 220 mm bed, print diagonally (Printables 'Airsoft Ball Bearing Drawer Slide - Extended'). 4) As a starting point for other moving fits use at least 0.3 mm clearance, then test (Prusa knowledge base). 5) Heat: PLA starts to give way at about 60 C and PETG at about 80 C (CNC Kitchen), so PLA rails in a hot car or enclosure will sag. 6) For robot lifts, use bought aluminium or steel slides and print only the spacers and brackets between stages; mount two slide sets facing each other to reduce sag, and keep chips and sawdust out of the tracks (gm0). 7) Printed jigs make fitting bought slides much easier (Printables 'Double Drawer Slide Jig'). 8) Anything heavy (tool drawers, pull-out shelves) needs bought steel slides.
+1) For light drawers a plain printed slide can work without bearings: JoshRC's full-extension PLA slide relies on PLA's smooth surface, tightened its clearance from 0.5 mm to 0.25 mm, and was printed at 0.15 mm layers with 20% [infill](../glossary.md#infill) and at least 3 [perimeters](../glossary.md#perimeters), with no supports (Printables 'Smooth Drawer Slide without Bearings'). 2) For smoother running, print rails with grooves for 6 mm airsoft BBs: in Radek's parametric design a 0.15 mm gap lets the slide run freely (it moves by gravity from about 10 degrees of tilt) and a 0.10 mm gap makes it stay put even vertically; print each part separately in its best orientation with no supports, and screw the end stop on straight away so the balls can't escape (Printables 'Drawer Slide on Airsoft BBs'). Put in enough balls to cover the travel; Radek suggests testing how many fit so that one rail slides half the required distance. 3) Long thin rails twist: Radek's heavy-duty version reinforces the outer rail's edges and screws it at both ends and roughly in the middle; for longer rails on a 220 mm bed, print diagonally (Printables 'Airsoft Ball Bearing Drawer Slide - Extended'). 4) As a starting point for other moving fits use at least 0.3 mm clearance, then test (Prusa knowledge base). 5) Heat: PLA starts to give way at about 60 C and PETG at about 80 C (CNC Kitchen), so PLA rails in a hot car or enclosure will sag. 6) For robot lifts, use bought aluminium or steel slides and print only the spacers and brackets between stages; mount two slide sets facing each other to reduce sag, and keep chips and sawdust out of the tracks (gm0). 7) Printed jigs make fitting bought slides much easier (Printables 'Double Drawer Slide Jig'). 8) Anything heavy (tool drawers, pull-out shelves) needs bought steel slides.
 
 ### Buying one (off-the-shelf parts)
 
@@ -238,7 +240,7 @@ Search for: 'ball bearing drawer slide' (side mount), 'full extension drawer sli
 - Mounting slides flat under a drawer cuts the load rating by at least 50% (Accuride); Chambrelan also advises mounting on the major axis rather than flat.
 - Mount the pair parallel in both the vertical and horizontal directions; one high and one low has little effect (Accuride).
 - For a flimsy drawer or cabinet, pick a slightly higher load rating and larger section, because the slides add stiffness (Accuride).
-- Extension classes: partial about 0.7 of the closed length (roughly 2/3), full about 1x, super about 1.5x; more extension means less allowable load, and deflection is proportional to load (Chambrelan lexicon).
+- Extension classes: partial about 0.7 of the closed length (roughly 2/3), full about 1x, super about 1.5x; more extension means less allowable load, and [deflection](../glossary.md#deflection) is proportional to load (Chambrelan lexicon).
 - Typical ratings: light duty up to 75 lb, medium 90 to 100 lb, heavy 100 to 600 lb per pair (Accuride); everyday kitchen slides about 75 to 100 lb (Rockler).
 - Commercial slides are designed for 0 to 180 F (about -18 to 82 C), indoors; re-grease cleaned slides with an EP (extreme pressure) grease (Accuride).
 - Robot lifts: mount two sets of slides facing each other to reduce sag (gm0).
@@ -246,7 +248,7 @@ Search for: 'ball bearing drawer slide' (side mount), 'full extension drawer sli
 
 ## Common failures
 
-Drawer sags or tips when fully out (overloaded, too long, laid flat, or slides not facing each other; Accuride; gm0). Binding or rough running because the pair isn't parallel or the side clearance is wrong (Accuride; Rockler). Grit, sawdust or overspray in the tracks (Accuride; gm0). The ball cage creeps out of position, so the drawer won't open or close fully until it is pushed hard to the end, which skids the balls and causes wear (linearmotiontips.com; Isotech). Steel balls wear grooves into aluminium rails, giving play (gm0). End stops break and balls fall out (gm0). Plastic detents go brittle and break (Printables 'Drawer Slide Rear Detent'). Printed slides: rails twist, warp or creep; use reinforced rails and screw them down along their length (Printables).
+Drawer sags or tips when fully out (overloaded, too long, laid flat, or slides not facing each other; Accuride; gm0). Binding or rough running because the pair isn't parallel or the side clearance is wrong (Accuride; Rockler). Grit, sawdust or overspray in the tracks (Accuride; gm0). The ball cage creeps out of position, so the drawer won't open or close fully until it is pushed hard to the end, which skids the balls and causes wear (linearmotiontips.com; Isotech). Steel balls wear grooves into aluminium rails, giving play (gm0). End stops break and balls fall out (gm0). Plastic detents go [brittle](../glossary.md#brittle--ductile) and break (Printables 'Drawer Slide Rear Detent'). Printed slides: rails twist, warp or creep; use reinforced rails and screw them down along their length (Printables).
 
 ## Safety
 

@@ -129,17 +129,19 @@ sources:
 - https://www.printables.com/model/1109394-dram-pill-bottle-with-protective-cap-mechanism (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushandturn_childresistant_cap.json
+glossary: [coaxial, ratchet, torque, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
+  print-in-place, regulator]
 ---
 
 A two-layer screw cap whose loose outer shell only grips the threaded inner cap when you press down while turning, so a child who just twists it gets nothing but spinning and clicking, while an adult who knows the trick can open it.
 
 **In plain words:** A bottle cap that just spins and clicks if you only twist it, and only unscrews if you press it down hard while you turn. **Proper term:** Push-and-turn child-resistant closure (push-down-and-turn cap).
 
-**Also called:** child-resistant cap / CR closure / CRC; childproof cap / child-proof lid (common but inaccurate: regulators say child-resistant, not child-proof); safety cap; push down and turn cap / push & turn closure; push-and-twist cap; palm-and-turn cap / Palm N Turn (historical name of the first design, 1967); double-shell closure / two-piece closure (outer cap or over cap, and inner cap); special packaging (US legal term for child-resistant, senior-friendly packaging).
+**Also called:** child-resistant cap / CR closure / CRC; childproof cap / child-proof lid (common but inaccurate: [regulators](../glossary.md#regulator) say child-resistant, not child-proof); safety cap; push down and turn cap / push & turn closure; push-and-twist cap; palm-and-turn cap / Palm N Turn (historical name of the first design, 1967); double-shell closure / two-piece closure (outer cap or over cap, and inner cap); special packaging (US legal term for child-resistant, senior-friendly packaging).
 
 ## How it works
 
-Only the inner cap is screwed onto the bottle; the outer cap sits loosely over it, pushed up by small springy fingers so their teeth or lugs don't mesh. Turning to close, the springy fingers or sloped ratchet teeth catch on the inner cap and drive it round, so the cap always tightens. Turning to open without pressing, the fingers or teeth just ride up and slip over the ramps with a clicking sound, so the inner cap never turns. Pressing down squashes the springs and pushes the outer cap's lugs into slots or teeth on the inner cap, like engaging a dog clutch, so the push and the turn together unscrew the cap.
+Only the inner cap is screwed onto the bottle; the outer cap sits loosely over it, pushed up by small springy fingers so their teeth or lugs don't mesh. Turning to close, the springy fingers or sloped [ratchet](../glossary.md#ratchet) teeth catch on the inner cap and drive it round, so the cap always tightens. Turning to open without pressing, the fingers or teeth just ride up and slip over the ramps with a clicking sound, so the inner cap never turns. Pressing down squashes the springs and pushes the outer cap's lugs into slots or teeth on the inner cap, like engaging a dog clutch, so the push and the turn together unscrew the cap.
 
 ## Parts
 
@@ -170,8 +172,8 @@ Not for people with arthritis, weak hands or poor grip, who may struggle with it
 - **Special behaviour:**
   - one-way (moves freely one way, locks the other): without pressure the outer cap drives the inner cap in the tightening direction but slips over it in the opening direction, like a ratchet
   - hand-release only (locks under load, releases when a person operates it): it needs two different motions at once (push down and turn), which young children rarely manage but most adults can
-- **How it holds:** shape (the screw thread holds the cap on, and the lugs interlock only when pushed together; form-fit), with spring force (springy fingers keep the lugs apart until pressed)
-- **Input and output:** Works like a push-engaged one-way clutch: turning the outer cap to close drives the inner cap at 1:1; turning to open drives it only while pushed down, otherwise the torque passed on is near zero (it slips and clicks). In line (coaxial). Not a power drive, so efficiency is not relevant.
+- **How it holds:** shape (the screw thread holds the cap on, and the lugs interlock only when pushed together; [form-fit](../glossary.md#form-fit--force-fit--material-bond)), with spring force (springy fingers keep the lugs apart until pressed)
+- **Input and output:** Works like a push-engaged one-way clutch: turning the outer cap to close drives the inner cap at 1:1; turning to open drives it only while pushed down, otherwise the [torque](../glossary.md#torque) passed on is near zero (it slips and clicks). In line ([coaxial](../glossary.md#coaxial)). Not a power drive, so efficiency is not relevant.
 - **Power:** passive (no power needed)
 - **Load:** light: it only has to hold a screw cap on a bottle. Twisting alone, however hard, just slips; the weak points are a strong push-and-turn, prying or biting the cap, or leaving the cap loose. Pulling straight off is resisted by the screw thread.
 - **Play and precision:** noticeable play by design: the outer cap rattles and spins freely on the inner cap and has some up-and-down travel; the cap is not a locating part
@@ -180,7 +182,7 @@ Not for people with arthritis, weak hands or poor grip, who may struggle with it
 - **Sealing:** watertight: a liner, inlay or plug seal inside the inner cap presses on the bottle lip when the cap is tightened ⚑ [uncertain whether a particular cap is airtight; some bottles also have a separate foil seal]
 - **Adjustable:** no
 - **Access needed:** end of a tube or shaft: it screws onto the neck (end) of a bottle or jar
-- **Materials:** Polypropylene (PP) and high-density polyethylene (HDPE) for both shells, sometimes with recycled (PCR) resin; liners of foam or other sealing materials; the bottle can be plastic or glass. For printing: PETG or nylon are less brittle than PLA for the springy fingers and teeth.
+- **Materials:** Polypropylene (PP) and high-density polyethylene (HDPE) for both shells, sometimes with recycled (PCR) resin; liners of foam or other sealing materials; the bottle can be plastic or glass. For printing: PETG or nylon are less [brittle](../glossary.md#brittle--ductile) than PLA for the springy fingers and teeth.
 - **Heat, cold, water and wear:** Heat: printed PLA softens above about 60 °C, PETG is fine below about 80 °C (Prusa); moulded PP and HDPE caps handle normal household conditions ⚑ [uncertain: no temperature limit found]. Plastic springy fingers that are left pressed down would relax (DuPont), but in normal use they are only pressed briefly. Worn or broken fingers or teeth let the cap spin loosely or lock up ⚑ [uncertain].
 
 ## Making it
@@ -189,13 +191,13 @@ Not for people with arthritis, weak hands or poor grip, who may struggle with it
   - off-the-shelf part: certified child-resistant caps sold with matching bottles by closure makers
   - 3D print (FDM): demonstrators and non-certified containers, printed as separate inner and outer caps
   - 3D print (resin): finer teeth and threads for small caps ⚑ [uncertain: no resin example found]
-- **Printing it in one piece (print in place):** no: the inner and outer caps are printed separately and snapped together (the outer cap's lip has to pass over the inner cap), and the bottle is printed separately ⚑ [uncertain: no print-in-place push-and-turn cap was found]
+- **Printing it in one piece (print in place):** no: the inner and outer caps are printed separately and snapped together (the outer cap's lip has to pass over the inner cap), and the bottle is printed separately ⚑ [uncertain: no [print-in-place](../glossary.md#print-in-place) push-and-turn cap was found]
 - **Tools:** none to use. Making real caps needs injection or compression moulding tools; printed versions need only a printer.
 - **Difficulty:** hard: you need two closely fitting printed shells with a screw thread, springy fingers and small ratchet teeth, and it will not be tested or certified; buy certified caps and bottles for real medicines or chemicals. Printing one as a demonstrator or for a non-hazardous stash box is a good moderate project.
 
 ### 3D printing tips
 
-Threads: bottle threads are large and coarse, which suits printing; follow the rule of M6 or bigger, a rounded (semi-circular) thread profile and about 0.1 mm offset between cap and neck (Formlabs). To fit real bottles, the BOSL2 OpenSCAD library has standard bottle-neck and cap threads (PCO-1810/1881 drink bottles, SPI bottle and jar threads, mason jars). Springy fingers and ratchet teeth: print the outer cap top-down so the fingers and teeth lie flat in the layers, and don't build flexing parts standing up in the Z direction, because they snap between layers (Hubs). Give sliding and snapping parts about 0.5 mm clearance on FDM, and add a fillet at least half the finger thickness where each finger joins the cap (Hubs). Use PETG, ABS or nylon rather than PLA, which is brittle and breaks into shards (Hubs, Prusa). The fingers are only bent while you push, so plastic springs are acceptable here; springs that stay bent all the time relax and creep (DuPont design guide, p. 36). Make the unlocking lugs deep enough to take the unscrewing torque without skipping, and the slip ramps shallow enough to click over easily ⚑ [uncertain: no printed-cap dimensions found]. A similar printed design uses a thumb lever instead of a push (Printables 1109394); its maker found the printed lever stiffer than the moulded original and that it bends slightly with use but still works. Do not rely on a printed cap for real medicines or poisons: it has not been tested with children, and FDM surfaces are not food-safe (same maker).
+Threads: bottle threads are large and coarse, which suits printing; follow the rule of M6 or bigger, a rounded (semi-circular) thread profile and about 0.1 mm offset between cap and neck (Formlabs). To fit real bottles, the BOSL2 OpenSCAD library has standard bottle-neck and cap threads (PCO-1810/1881 drink bottles, SPI bottle and jar threads, mason jars). Springy fingers and ratchet teeth: print the outer cap top-down so the fingers and teeth lie flat in the layers, and don't build flexing parts standing up in the Z direction, because they snap between layers (Hubs). Give sliding and snapping parts about 0.5 mm [clearance](../glossary.md#clearance) on FDM, and add a [fillet](../glossary.md#chamfer--fillet) at least half the finger thickness where each finger joins the cap (Hubs). Use PETG, ABS or nylon rather than PLA, which is brittle and breaks into shards (Hubs, Prusa). The fingers are only bent while you push, so plastic springs are acceptable here; springs that stay bent all the time relax and [creep](../glossary.md#creep) (DuPont design guide, p. 36). Make the unlocking lugs deep enough to take the unscrewing torque without skipping, and the slip ramps shallow enough to click over easily ⚑ [uncertain: no printed-cap dimensions found]. A similar printed design uses a thumb lever instead of a push (Printables 1109394); its maker found the printed lever stiffer than the moulded original and that it bends slightly with use but still works. Do not rely on a printed cap for real medicines or poisons: it has not been tested with children, and FDM surfaces are not food-safe (same maker).
 
 ### Buying one (off-the-shelf parts)
 

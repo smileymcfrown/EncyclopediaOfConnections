@@ -128,6 +128,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Heat_shrink_cable_repair_tubing_(HSRS-N).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Heatshrink_tubing_heatshrink_sleeve_adhesivelined_heatshrink.json
+glossary: [ratchet, form-fit--force-fit--material-bond, warping--shrinkage, gland]
 ---
 
 A tube of specially treated plastic is slid over a wire or joint and heated with a hot-air gun, so it shrinks to between a half and a sixth of its diameter and grips tightly, insulating the joint and protecting it from rubbing, while glue-lined versions also melt their inner glue to seal out water.
@@ -170,7 +171,7 @@ It is not a joint: never use it to hold wires together that aren't already solde
 - **Special behaviour:**
   - none: it is a covering. (Its shrink-to-fit shape memory, which makes it grip irregular shapes, is not one of the listed behaviours; the same effect is used in Self-folding print.)
 - **How it holds:**
-  - friction or clamping (force-fit): the shrunk tube squeezes the part and is 'mechanically held in place ... by its tight fit' (Wikipedia 'Heat-shrink tubing')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the shrunk tube squeezes the part and is 'mechanically held in place ... by its tight fit' (Wikipedia 'Heat-shrink tubing')
   - material bond (glue, solvent or melting): adhesive-lined tubing's glue bonds to the part (AutomationDirect); plain tubing heated very near its melting point may fuse to the material below (Wikipedia)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed): heat is needed only to shrink it; cold-shrink needs no heat at all.
@@ -195,7 +196,7 @@ It is not a joint: never use it to hold wires together that aren't already solde
 
 ### 3D printing tips
 
-1) Keep the heat off printed parts: PLA 'gets soft and deforms at temperatures over 60 °C' (Prusa 'PLA'), while tubing shrinks at about 110-143 °C (AutomationDirect; Wikipedia) and a heat gun blows air at 100-550 °C (Wikipedia 'Heat gun'), so shrink the tubing before the wire goes into a printed housing, or shield the print; NASA likewise says nearby temperature-sensitive parts 'should be protected from exposure to direct heat' (NASA-STD-8739.4A §9.9.2). 2) Shrinking glue-lined tubing over a printed handle or knob as a grip risks warping the print; try it on a test piece first, or use a more heat-resistant filament such as PETG, ABS or ASA ⚑ [uncertain]. 3) Leave room in printed cable channels and enclosures for sleeved splices, which are fatter than the wire, and stagger several splices so a bundle stays slim (NASA-STD-8739.4A §7.2.35). 4) In 3D printers, heat-shrink is useful on larger wires such as heater-cartridge leads (Voron 'Electrical Wiring'). 5) Printed tube cutters with length stops and spool holders make it easy to cut clean, square lengths (Printables 94283, 579937); TE stresses a clean cut, because a ragged end can split as it shrinks (TE 114-120022).
+1) Keep the heat off printed parts: PLA 'gets soft and deforms at temperatures over 60 °C' (Prusa 'PLA'), while tubing shrinks at about 110-143 °C (AutomationDirect; Wikipedia) and a heat gun blows air at 100-550 °C (Wikipedia 'Heat gun'), so shrink the tubing before the wire goes into a printed housing, or shield the print; NASA likewise says nearby temperature-sensitive parts 'should be protected from exposure to direct heat' (NASA-STD-8739.4A §9.9.2). 2) Shrinking glue-lined tubing over a printed handle or knob as a grip risks [warping](../glossary.md#warping--shrinkage) the print; try it on a test piece first, or use a more heat-resistant filament such as PETG, ABS or ASA ⚑ [uncertain]. 3) Leave room in printed cable channels and enclosures for sleeved splices, which are fatter than the wire, and stagger several splices so a bundle stays slim (NASA-STD-8739.4A §7.2.35). 4) In 3D printers, heat-shrink is useful on larger wires such as heater-cartridge leads (Voron 'Electrical Wiring'). 5) Printed tube cutters with length stops and spool holders make it easy to cut clean, square lengths (Printables 94283, 579937); TE stresses a clean cut, because a ragged end can split as it shrinks (TE 114-120022).
 
 ### Buying one (off-the-shelf parts)
 
@@ -227,11 +228,11 @@ Heat-gun burns: a heat gun blows air at about 100-550 °C, much hotter than a ha
 - Soldered wire joint: the joint heat-shrink most often covers
 - Crimped butt splice: often sold inside its own glue-lined heat-shrink sleeve
 - Hot-melt adhesive: the same kind of glue lines adhesive-lined tubing; a blob of hot glue is a quick, rougher insulator
-- Cable gland and strain relief: seals and grips a cable where it passes through a wall; heat-shrink only covers and lightly supports
+- Cable [gland](../glossary.md#gland) and strain relief: seals and grips a cable where it passes through a wall; heat-shrink only covers and lightly supports
 - Wire-end ferrule: finishes a stranded wire for a terminal, while heat-shrink insulates a joint
 - Self-folding print (4D printing): uses the same shape memory, plastic that shrinks back when heated
 - Silicone and MS-polymer adhesive sealants: for sealing gaps and potting, where a tube can't be slid on
-- Linear ratchet (cable-tie ratchet): cable ties bundle wires and can be removed; heat-shrink bundles more neatly but permanently
+- Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): cable ties bundle wires and can be removed; heat-shrink bundles more neatly but permanently
 - Rope-end finishing (whipping, heat-sealing, aglet): heat-shrink can also cap a cord end
 
 ## Make it yourself

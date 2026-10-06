@@ -124,6 +124,8 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Centrifugal_clutch.json
+glossary: [misalignment, backlash, ratchet, freewheel, torque, gear-ratio, fail-safe--fail-secure, flexure, form-fit--force-fit--material-bond,
+  set-screw, brittle--ductile]
 ---
 
 A clutch that engages by itself as it speeds up: spinning weights are flung outwards against a drum and drive it by friction, and they let go again when the speed drops.
@@ -153,7 +155,7 @@ Use it when an engine or motor must start and idle without load, then pick up th
 
 ## When not to use it
 
-Avoid it when the drive must engage at low speed or hold a load at standstill (it cannot hold anything when stopped; use a dog clutch, a one-way clutch or a brake), when you need engine braking or to hold back a vehicle going downhill (it freewheels at idle; Wikipedia 'Motorcycle transmission'), when the load is heavy for the engine, such as big wheels, heavy riders or hills, because it will slip and overheat (use a torque converter, the belt-type variable-ratio drive Go Kart Supply recommends for bigger karts), or when you need a precise, fixed torque limit (use a ball-detent or friction slip clutch). For cars it has been replaced by fluid couplings, torque converters and automated manual gearboxes (Wikipedia).
+Avoid it when the drive must engage at low speed or hold a load at standstill (it cannot hold anything when stopped; use a dog clutch, a one-way clutch or a brake), when you need engine braking or to hold back a vehicle going downhill (it [freewheels](../glossary.md#freewheel) at idle; Wikipedia 'Motorcycle transmission'), when the load is heavy for the engine, such as big wheels, heavy riders or hills, because it will slip and overheat (use a [torque](../glossary.md#torque) converter, the belt-type variable-ratio drive Go Kart Supply recommends for bigger karts), or when you need a precise, fixed torque limit (use a ball-detent or friction slip clutch). For cars it has been replaced by fluid couplings, torque converters and automated manual gearboxes (Wikipedia).
 
 ## Details
 
@@ -164,17 +166,17 @@ Avoid it when the drive must engage at low speed or hold a load at standstill (i
 - **Movement:** rotate: continuous rotation; the shoes also move outwards a small distance (just enough to close the gap to the drum) as speed rises
 - **Directions it can move (degrees of freedom):** Below engagement speed: 1, the drum turns freely relative to the hub. Once locked up: 0 between hub and drum (they turn together). Each shoe has its own small outward sliding or swinging movement.
 - **Special behaviour:**
-  - fail-safe or breakaway: it disengages by itself at idle and when the engine is dragged down by an overload, so the engine does not stall and the drive stops when the throttle is released (Wikipedia; Go Kart Supply; Michigan chainsaw rule)
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: it disengages by itself at idle and when the engine is dragged down by an overload, so the engine does not stall and the drive stops when the throttle is released (Wikipedia; Go Kart Supply; Michigan chainsaw rule)
   - torque-limiting (slips or clicks at a set force/torque): while engaging it slips, and the torque it can pass rises with speed, so it acts as a soft start and a speed-dependent slip clutch rather than a fixed-torque limiter (LNCT lecture notes; SUCO)
   - one-way in a special sense: the engine can drive the output, but at idle the output cannot drive the engine, so there is no engine braking when coasting (Wikipedia 'Motorcycle transmission')
 - **How it holds:**
-  - friction or clamping (force-fit): the shoes press on the drum and the drive passes by friction
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the shoes press on the drum and the drive passes by friction
   - spring force (a spring or springy part presses it in place): springs (or springy arms in compliant designs) hold the shoes away from the drum until the set speed is reached; this sets when it engages rather than holding the drive
 - **Input and output:** Continuous rotation in -> the same rotation out (1:1) once locked up, nothing out at idle, and slipping rotation in between. Shafts: in line (the drum sits concentrically around the shoes on the same shaft axis). Torque capacity rises with the square of the speed above engagement: T = n x mu x m x r x (w^2 - w1^2) x R (LNCT lecture notes). Efficiency: close to 100% once locked up, but slipping turns power into heat (Wikipedia notes 'a fair bit of waste heat') ⚑ [uncertain: no efficiency figure found]. Back-drivable: no at idle (the wheels or chain cannot turn the engine, so it freewheels downhill); yes only while the engine is already above lock-up speed, which then gives engine braking (Wikipedia 'Motorcycle transmission').
 - **Power:** passive (no power needed): it is driven purely by the speed of the input shaft and needs no external power or control; industrial makers stress it needs no power supply (SUCO). If the engine or motor stops, the clutch simply disengages.
 - **Load:** Light to medium: typical go-kart clutches suit 3 to 8 horsepower engines (Go Kart Supply), and centrifugal clutches have been replaced in cars by fluid couplings and torque converters (Wikipedia). Strong in twist once locked up; weak at low speed, because the torque it can pass falls quickly as speed drops. It is not meant to carry side loads: the drum runs on a bushing or bearing on the shaft.
-- **Play and precision:** not applicable for positioning: it slips while engaging, so it does not keep an exact angle between input and output. Once locked up there is no backlash between hub and drum. It tolerates little misalignment, because the drum must run true around the shoes ⚑ [uncertain: no figure found].
-- **Taking it apart:** removable: it bolts onto a keyed shaft end (for example with a bolt into the tapped crankshaft end, a key and set screws) and comes off with ordinary tools (Go Kart Supply)
+- **Play and precision:** not applicable for positioning: it slips while engaging, so it does not keep an exact angle between input and output. Once locked up there is no [backlash](../glossary.md#backlash) between hub and drum. It tolerates little [misalignment](../glossary.md#misalignment), because the drum must run true around the shoes ⚑ [uncertain: no figure found].
+- **Taking it apart:** removable: it bolts onto a keyed shaft end (for example with a bolt into the tapped crankshaft end, a key and [set screws](../glossary.md#set-screw)) and comes off with ordinary tools (Go Kart Supply)
 - **How often it can be reused:** effectively unlimited: it engages and disengages every time the engine speeds up and slows down; the friction shoes and the drum bushing wear and are replaced as parts (Go Kart Supply; BLM Automatic Clutch)
 - **Sealing:** none: shoe clutches are usually dry and open, often behind a guard; keep oil and grease off the friction faces ⚑ [uncertain: general advice, not found in a source]. Some motorcycle-type multi-disc versions run in oil inside the engine case ⚑ [uncertain]
 - **Adjustable:** yes, by changing parts rather than a knob: stronger springs or lighter shoes raise the engagement speed, weaker springs or heavier shoes lower it (follows from the balance of spring force and m x w^2 x r; LNCT lecture notes). Many off-the-shelf clutches are preset (Max-Torque (brand) engages at about 2,200 rpm; Go Kart Supply). The engine's idle speed must be set below the engagement speed (Michigan chainsaw rule; BLM).
@@ -188,14 +190,14 @@ Avoid it when the drive must engage at low speed or hold a load at standstill (i
   - off-the-shelf part: go-kart, mini-bike, pulley, chainsaw, scooter and industrial centrifugal clutches are cheap and widely sold
   - 3D print (FDM): demonstration models and light-duty spring-less compliant clutches (BYU CMR, Pinshape, Printables)
   - CNC: milled steel hubs, shoes and drums; the BYU FOA clutch was originally milled from steel (BYU CMR on Printables)
-  - 3D print (resin): ⚑ [uncertain] possible for small models, but brittle resin is a poor choice for parts that rub and heat up
+  - 3D print (resin): ⚑ [uncertain] possible for small models, but [brittle](../glossary.md#brittle--ductile) resin is a poor choice for parts that rub and heat up
 - **Printing it in one piece (print in place):** no: printed versions are separate parts (a hub, a shoe piece and a drum, plus bearings) that are assembled; spring-less compliant designs avoid adding separate springs (BYU CMR: 'only two components' for hub and shoes; Pinshape model: shoe pulley, bell pulley and bearing bracket)
 - **Tools:** To fit: spanner or socket, hex key for set screws, the shaft key, and a way to stop the crankshaft turning while tightening the bolt; for chain drives a chain tool (Go Kart Supply). To operate: none.
 - **Difficulty:** moderate: fitting an off-the-shelf go-kart or pulley clutch to a small engine is easy, and a printed demonstrator is easy to make, but a home-made clutch that carries real power is hard because the friction surfaces get hot and must be balanced and strong at speed
 
 ### 3D printing tips
 
-1) Start from a spring-less compliant design, where the shoes are joined by thin flexible links that act as the springs, such as BYU's floating-opposing-arm (FOA) clutch: only two printed parts for the hub and shoes, works in either direction of rotation (BYU CMR on Printables). 2) Remember the physics: outward force = shoe mass x radius x (speed)^2, so heavier shoes or shoes further out engage at lower speed; the spring (or flexure) force sets the speed where engagement starts (LNCT lecture notes). You can add mass by embedding nuts or steel balls in the shoes ⚑ [uncertain: design idea, not from a tested source]. 3) Keep the shoes symmetrical so the spinning part is balanced ⚑ [uncertain: general practice]. 4) Hand-cranked demonstrators work at 'humanly possible' speeds and can use rubber bands as the return springs and 20 mm bore ball bearings to carry the shafts (Printables model 982812 by Mortal 2020). 5) Expect supports on some designs: the Pinshape spring-less clutch prints in about 8 hours with full supports (RONRAYSING on Pinshape). 6) Heat is the enemy: slipping makes heat, PLA softens above about 60 C and PETG is good to about 80 C (Prusa), so do not let a printed clutch slip for long under load; PETG or nylon are better than PLA ⚑ [uncertain: material ranking for this use not tested]. 7) Printed plastic on printed plastic has low grip; a rubber or TPU lining on the shoes or inside the drum can add friction ⚑ [uncertain: not from a tested source]. 8) Leave a small, even gap between shoes and drum at rest so it does not rub at idle ⚑ [uncertain: no figure found].
+1) Start from a spring-less compliant design, where the shoes are joined by thin flexible links that act as the springs, such as BYU's floating-opposing-arm (FOA) clutch: only two printed parts for the hub and shoes, works in either direction of rotation (BYU CMR on Printables). 2) Remember the physics: outward force = shoe mass x radius x (speed)^2, so heavier shoes or shoes further out engage at lower speed; the spring (or [flexure](../glossary.md#flexure)) force sets the speed where engagement starts (LNCT lecture notes). You can add mass by embedding nuts or steel balls in the shoes ⚑ [uncertain: design idea, not from a tested source]. 3) Keep the shoes symmetrical so the spinning part is balanced ⚑ [uncertain: general practice]. 4) Hand-cranked demonstrators work at 'humanly possible' speeds and can use rubber bands as the return springs and 20 mm bore ball bearings to carry the shafts (Printables model 982812 by Mortal 2020). 5) Expect supports on some designs: the Pinshape spring-less clutch prints in about 8 hours with full supports (RONRAYSING on Pinshape). 6) Heat is the enemy: slipping makes heat, PLA softens above about 60 C and PETG is good to about 80 C (Prusa), so do not let a printed clutch slip for long under load; PETG or nylon are better than PLA ⚑ [uncertain: material ranking for this use not tested]. 7) Printed plastic on printed plastic has low grip; a rubber or TPU lining on the shoes or inside the drum can add friction ⚑ [uncertain: not from a tested source]. 8) Leave a small, even gap between shoes and drum at rest so it does not rub at idle ⚑ [uncertain: no figure found].
 
 ### Buying one (off-the-shelf parts)
 
@@ -221,13 +223,13 @@ If the idle speed is set too high the clutch engages at idle, so a kart can move
 ## Related
 
 - Friction clutch (plate or cone clutch): engaged by a lever or pedal instead of by speed; can hold at any speed you choose
-- Torque converter / belt variable-ratio drive (CVT): used on bigger go-karts; also changes the gear ratio as speed rises (Go Kart Supply); scooters combine a CVT with a centrifugal clutch
+- Torque converter / belt variable-ratio drive (CVT): used on bigger go-karts; also changes the [gear ratio](../glossary.md#gear-ratio) as speed rises (Go Kart Supply); scooters combine a CVT with a centrifugal clutch
 - Fluid coupling: an oil-filled automatic coupling that replaced centrifugal clutches in cars (Wikipedia)
 - Speed governor (fly fan, centrifugal governor): uses the same flung-out weights, but to keep speed steady instead of to connect a drive
 - Centrifugal brake: the same flyweights pressing on a fixed drum, used to limit speed, e.g. for descending loads or fire doors (SUCO)
 - Friction slip clutch: slips at a set torque regardless of speed; a centrifugal clutch's slip torque depends on speed
 - Dog clutch (claw clutch): teeth that lock with no slip, but must be engaged by hand and only at matched speed
-- Inertia-locking reel (seat-belt lock): uses a flung-out weight to catch ratchet teeth and lock, instead of to create friction
+- Inertia-locking reel (seat-belt lock): uses a flung-out weight to catch [ratchet](../glossary.md#ratchet) teeth and lock, instead of to create friction
 
 ## Make it yourself
 

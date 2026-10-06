@@ -117,6 +117,8 @@ sources:
 - https://github.com/BelfrySCAD/BOSL2/wiki/threading.scad
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Half_nut_split_nut_quickaction_nut.json
+glossary: [misalignment, backlash, self-locking, over-centre, ratchet, pawl, linkage, clearance, form-fit--force-fit--material-bond,
+  chamfer--fillet, perimeters, infill, elephants-foot]
 ---
 
 A nut split lengthwise into two halves that can be opened away from a lead screw so a carriage or vice jaw slides freely to a new position, then closed again so the screw drives or clamps it, as in quick-release vices, lathe carriages and syringe pumps.
@@ -146,7 +148,7 @@ Use a half nut when a screw-driven part must travel a long way quickly and then 
 
 ## When not to use it
 
-Avoid it where the load must never be released by accident (lifting, holding people), unless the closing mechanism is positively latched. Avoid it where you need zero backlash or exact positions (the halves' guides add play), and in very dirty places where swarf or sawdust stops the halves closing. If you only need quick, light clamping, a ratchet bar clamp, cam clamp or toggle clamp is simpler. For motor-driven motion that never needs free sliding, use a plain or anti-backlash lead screw nut.
+Avoid it where the load must never be released by accident (lifting, holding people), unless the closing mechanism is positively latched. Avoid it where you need zero [backlash](../glossary.md#backlash) or exact positions (the halves' guides add play), and in very dirty places where swarf or sawdust stops the halves closing. If you only need quick, light clamping, a [ratchet](../glossary.md#ratchet) bar clamp, cam clamp or toggle clamp is simpler. For motor-driven motion that never needs free sliding, use a plain or anti-backlash lead screw nut.
 
 ## Details
 
@@ -160,15 +162,15 @@ Avoid it where the load must never be released by accident (lifting, holding peo
   - quick-release: frees a screw-driven part in a moment so it can be slid to a new position instead of wound there
   - hand-release only (locks under load, releases when a person operates it): once closed, the vice jaw or carriage stays driven by the screw until someone works the lever, trigger or handle
   - motion conversion (rotary to linear): while closed it works as a lead screw nut
-  - self-locking (holds under load, won't back-drive): when closed on a fine-lead screw, the clamping force can't push the jaw back
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): when closed on a fine-lead screw, the clamping force can't push the jaw back
 - **How it holds:**
-  - shape (form-fit): the nut halves' threads interlock with the screw's threads
-  - spring force: many designs use a spring to hold the halves closed (or open); some rely on gravity or an over-centre cam instead
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the nut halves' threads interlock with the screw's threads
+  - spring force: many designs use a spring to hold the halves closed (or open); some rely on gravity or an [over-centre](../glossary.md#over-centre) cam instead
   - friction or clamping (force-fit): thread friction keeps a fine-lead screw from being back-driven while clamped
 - **Input and output:** Engaged: screw rotation -> straight-line travel of the nut, carriage or vice jaw, at one lead per turn, with the same sliding-thread efficiency as a plain lead screw nut (see the lead screw entry); shafts in line; back-drivable only if the lead screw itself is. Disengaged: no drive, so the part slides freely by hand.
 - **Power:** passive (no power needed): operated by hand, even when the screw itself is motor-driven (lathes, syringe pumps)
 - **Load:** Medium to heavy along the screw when properly closed: quick-release vices clamp hard, and lathe half-nuts drive the carriage while it cuts threads. The weak point is the force that pushes the halves apart: with V or trapezoid threads the load tries to wedge the nut open, so a worn or loose closing mechanism lets it slip. Buttress threads, with a nearly square loaded face, create little opening force.
-- **Play and precision:** Noticeable: it has the backlash of any lead screw nut, plus any looseness in the halves' guides. Re-engaging lands the thread in the nearest groove, so positions come in whole-thread steps; lathes use a threading dial to show when to close the half-nuts so the tool follows the same groove on every pass. It tolerates little misalignment: if the halves don't close fully they ride on the edge of the thread and slip under load.
+- **Play and precision:** Noticeable: it has the backlash of any lead screw nut, plus any looseness in the halves' guides. Re-engaging lands the thread in the nearest groove, so positions come in whole-thread steps; lathes use a threading dial to show when to close the half-nuts so the tool follows the same groove on every pass. It tolerates little [misalignment](../glossary.md#misalignment): if the halves don't close fully they ride on the edge of the thread and slip under load.
 - **Taking it apart:** tool-free quick release: the drive is engaged and released by hand in a moment, many times over; the assembly itself is fitted and removed with ordinary tools
 - **How often it can be reused:** many times: it is designed to open and close constantly; wear on the thread edges, bent actuating parts and trapped dirt slowly reduce its grip
 - **Sealing:** none: it is an open thread; dirt or metal shavings in the halves stop them closing fully
@@ -190,7 +192,7 @@ Avoid it where the load must never be released by accident (lifting, holding peo
 
 ### 3D printing tips
 
-1) Use an asymmetric thread whose loaded face pulls the screw into the half nut rather than pushing it out: LoboCNC calls this 'the secret' of his Quick-Adjust Half-Nut Vise, which lets you lift the screw out of the half nut, slide the jaw and drop it back in. A buttress-style profile (flat load face, sloping back face) does this; Wikipedia notes the square face of a buttress thread creates minimal disengagement force. 2) A 45-degree back face prints without supports when the screw stands upright with the flat faces pointing up (Miloslav Brozek's parametric screw jack, Printables model 1724067, read via the Printables API). 3) LoboCNC printed all parts in PLA at 0.2 mm layers and 0.4 mm line width, without supports, in the supplied orientations; the updated version uses 4 perimeters and 35% infill for a rigid body. 4) Get the first layer right when printing the screw: elephant's foot, or poor bed adhesion, stops it working smoothly (LoboCNC). 5) Doschen's lever-release vice uses 0.15 mm layers and 20% infill, with a brim strongly recommended on the main screw. 6) Chamfer the ends of the half nut (Wikipedia gives 60 degrees to the axis for metal split nuts) so the threads find their groove as it closes. 7) Make the closing latch or wedge stiff; a flexible printed lever lets the halves ride up and slip. 8) Generate the matching screw and nut threads with BOSL2's buttress_threaded_rod() and buttress_threaded_nut(), using $slop for clearance, then cut the nut in half in CAD. 9) PLA softens above about 60 °C (Prusa), so don't leave a printed vice in a hot car.
+1) Use an asymmetric thread whose loaded face pulls the screw into the half nut rather than pushing it out: LoboCNC calls this 'the secret' of his Quick-Adjust Half-Nut Vise, which lets you lift the screw out of the half nut, slide the jaw and drop it back in. A buttress-style profile (flat load face, sloping back face) does this; Wikipedia notes the square face of a buttress thread creates minimal disengagement force. 2) A 45-degree back face prints without supports when the screw stands upright with the flat faces pointing up (Miloslav Brozek's parametric screw jack, Printables model 1724067, read via the Printables API). 3) LoboCNC printed all parts in PLA at 0.2 mm layers and 0.4 mm line width, without supports, in the supplied orientations; the updated version uses 4 [perimeters](../glossary.md#perimeters) and 35% [infill](../glossary.md#infill) for a rigid body. 4) Get the first layer right when printing the screw: [elephant's foot](../glossary.md#elephants-foot), or poor bed adhesion, stops it working smoothly (LoboCNC). 5) Doschen's lever-release vice uses 0.15 mm layers and 20% infill, with a brim strongly recommended on the main screw. 6) [Chamfer](../glossary.md#chamfer--fillet) the ends of the half nut (Wikipedia gives 60 degrees to the axis for metal split nuts) so the threads find their groove as it closes. 7) Make the closing latch or wedge stiff; a flexible printed lever lets the halves ride up and slip. 8) Generate the matching screw and nut threads with BOSL2's buttress_threaded_rod() and buttress_threaded_nut(), using $slop for [clearance](../glossary.md#clearance), then cut the nut in half in CAD. 9) PLA softens above about 60 °C (Prusa), so don't leave a printed vice in a hot car.
 
 ### Buying one (off-the-shelf parts)
 
@@ -208,7 +210,7 @@ Quick-release woodworking vices (front vice and end vice), e.g. Rockler's steel 
 
 ## Common failures
 
-1) Half nut catching only the edge of the thread and slipping free under load (wobblycogs): check that it closes fully, and adjust or replace the actuating bar. 2) Bent actuating bar or linkage, making it slip or so stiff it won't release (wobblycogs). 3) Dirt or swarf in the threads: clean and oil it. 4) ⚑ [uncertain] Worn thread crests on the nut halves or screw, so it jumps out under load: replace the half nuts. 5) Gravity-drop designs failing to release when mounted at an angle or upside down (Sawmill Creek). 6) Printed versions: elephant's foot or poor bed adhesion on the printed screw makes it stick (LoboCNC).
+1) Half nut catching only the edge of the thread and slipping free under load (wobblycogs): check that it closes fully, and adjust or replace the actuating bar. 2) Bent actuating bar or [linkage](../glossary.md#linkage), making it slip or so stiff it won't release (wobblycogs). 3) Dirt or swarf in the threads: clean and oil it. 4) ⚑ [uncertain] Worn thread crests on the nut halves or screw, so it jumps out under load: replace the half nuts. 5) Gravity-drop designs failing to release when mounted at an angle or upside down (Sawmill Creek). 6) Printed versions: elephant's foot or poor bed adhesion on the printed screw makes it stick (LoboCNC).
 
 ## Safety
 
@@ -222,7 +224,7 @@ A half nut that is only partly engaged can slip suddenly under load, so the jaw 
 - Interrupted-thread (breech-lock) screw: threads with gaps that engage in a part-turn instead of opening sideways; buttress threads are used in screw-type breechblocks (Wikipedia)
 - Dog clutch or other engage-disengage clutch: also connects and disconnects a drive, but between two rotating shafts
 - Ratchet bar clamp (one-handed quick clamp): quick sliding plus one-way grip, with no screw
-- Rack and pawl or indexing pin: quick coarse positioning in fixed steps without a screw
+- Rack and [pawl](../glossary.md#pawl) or indexing pin: quick coarse positioning in fixed steps without a screw
 
 ## Make it yourself
 

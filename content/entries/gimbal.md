@@ -117,6 +117,8 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Gimbal.json
+glossary: [backlash, pitch, stiffness, flexure, clearance, form-fit--force-fit--material-bond, repeatability--accuracy, perimeters,
+  infill, print-in-place, peel-vs-shear]
 ---
 
 A set of two or three nested pivots at right angles to each other, so the object in the middle can tilt freely about each axis, or stay level while whatever holds it rocks.
@@ -127,7 +129,7 @@ A set of two or three nested pivots at right angles to each other, so the object
 
 ## How it works
 
-Each ring can only turn about one axis on its pair of pivots, and each ring's axis is at right angles to the next one's, so the rotations stack up: two rings let the middle tilt in two directions (pitch and roll), and a third ring adds turning (yaw) (Wikipedia 'Gimbal'). With free pivots, a bottom-heavy object hangs level whatever the holder does, which is why ships' compasses, stoves and drink holders are gimbaled (Wikipedia). A motorised stabiliser instead balances the camera on the pivot axes and uses a motor on each axis, driven by a motion sensor, to hold the camera steady while the operator moves (Wikipedia; Hackaday 2015). If two of the three axes swing into line, the gimbal loses one direction of movement for that moment ('gimbal lock'), although nothing is actually locked (Wikipedia).
+Each ring can only turn about one axis on its pair of pivots, and each ring's axis is at right angles to the next one's, so the rotations stack up: two rings let the middle tilt in two directions ([pitch](../glossary.md#pitch) and roll), and a third ring adds turning (yaw) (Wikipedia 'Gimbal'). With free pivots, a bottom-heavy object hangs level whatever the holder does, which is why ships' compasses, stoves and drink holders are gimbaled (Wikipedia). A motorised stabiliser instead balances the camera on the pivot axes and uses a motor on each axis, driven by a motion sensor, to hold the camera steady while the operator moves (Wikipedia; Hackaday 2015). If two of the three axes swing into line, the gimbal loses one direction of movement for that moment ('gimbal lock'), although nothing is actually locked (Wikipedia).
 
 ## Parts
 
@@ -137,7 +139,7 @@ A small assembly that acts as one unit: an outer frame or ring fixed to the hold
 
 - A handheld phone or camera stabiliser, and the camera under a drone (Wikipedia 'Gimbal')
 - A ship's compass, stove or drink holder that stays level while the boat rolls (Wikipedia 'Gimbal')
-- A gyroscope toy, or a print-in-place gyroscope fidget made of nested rings (Printables)
+- A gyroscope toy, or a [print-in-place](../glossary.md#print-in-place) gyroscope fidget made of nested rings (Printables)
 - The sticks on a game controller or radio-control transmitter, which sit on small two-axis gimbals ⚑ [uncertain]
 
 ## When to use it
@@ -161,18 +163,18 @@ If you need to pass turning motion from one shaft to another at an angle, use a 
   - none of the locking or clicking behaviours: plain gimbals turn freely. Friction can be added so it stays where it is set, e.g. printed bumpers on a lamp gimbal (Pinshape '2 Axis Gimbal for Directional Lighting')
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): the pivots guide rotation rather than hold it
-  - friction or clamping (force-fit): only in versions meant to stay where they are set, e.g. rubbing bumpers or tightened pivots (Pinshape)
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): only in versions meant to stay where they are set, e.g. rubbing bumpers or tightened pivots (Pinshape)
   - powered hold: motorised stabilisers hold the camera angle with motors (Wikipedia)
 - **Input and output:** not applicable: a gimbal lets the middle tilt but does not pass motion on from one shaft to another (that is the job of the universal joint, which uses the same crossed pivots). In motorised stabilisers each axis is turned directly by its own brushless motor (Wikipedia); a balanced payload can be moved by hand when the power is off (DroneTrest), so it is back-drivable.
 - **Power:** passive (no power needed) for ordinary gimbals. Powered camera stabilisers use three brushless motors with an IMU and control algorithms (Wikipedia 'Gimbal'). If power is lost, the motors stop holding and the camera swings freely: a well-balanced camera stays roughly where it was, while an unbalanced one flops over (DroneTrest balancing guide).
-- **Load:** light to medium for maker builds: loads go through the small pivot pins in shear and bending, so the pivots and the rings' stiffness set the limit. Printed passive gimbals comfortably carry drink cups and coffee cups (Printables models), and a printed stepper-driven dual-axis gimbal carried optical samples (Appropedia). Industrial gimbals carry heavy loads such as rocket engines, which are mounted on a pair of gimbals to steer their thrust (Wikipedia). Weakest against sideways knocks that bend the rings or lever on the pivots ⚑ [uncertain].
-- **Play and precision:** small to noticeable, depending on the pivots: bearings or tight pins have little play, while print-in-place pivots need a gap of at least about 0.3 mm (Prusa), which gives some wobble. A 3D-printed stepper-driven two-axis gimbal measured 2.827 degrees accuracy, 1.585 degrees repeatability and 1.237 degrees backlash (Appropedia '3D printed dual axis gimbal system'). For smooth stabilisation, the camera lens must sit on the roll and pitch motor axes (Oscar Liang; Hackaday 2015).
+- **Load:** light to medium for maker builds: loads go through the small pivot pins in [shear](../glossary.md#peel-vs-shear) and bending, so the pivots and the rings' [stiffness](../glossary.md#stiffness) set the limit. Printed passive gimbals comfortably carry drink cups and coffee cups (Printables models), and a printed stepper-driven dual-axis gimbal carried optical samples (Appropedia). Industrial gimbals carry heavy loads such as rocket engines, which are mounted on a pair of gimbals to steer their thrust (Wikipedia). Weakest against sideways knocks that bend the rings or lever on the pivots ⚑ [uncertain].
+- **Play and precision:** small to noticeable, depending on the pivots: bearings or tight pins have little play, while print-in-place pivots need a gap of at least about 0.3 mm (Prusa), which gives some wobble. A 3D-printed stepper-driven two-axis gimbal measured 2.827 degrees accuracy, 1.585 degrees [repeatability](../glossary.md#repeatability--accuracy) and 1.237 degrees [backlash](../glossary.md#backlash) (Appropedia '3D printed dual axis gimbal system'). For smooth stabilisation, the camera lens must sit on the roll and pitch motor axes (Oscar Liang; Hackaday 2015).
 - **Taking it apart:** removable: gimbals with pins, bolts or bearings at the pivots can be taken apart and re-assembled; print-in-place gimbals are one captive piece and can't be separated without breaking them
 - **How often it can be reused:** many times for gimbals with bolted or pinned pivots; once for print-in-place gimbals, which are never taken apart
 - **Sealing:** none: open rings and pivots; motorised versions need their own weather protection ⚑ [uncertain]
 - **Adjustable:** Yes, in several ways: the payload can usually be slid on its mount to balance it on the pivot axes (Oscar Liang; DroneTrest); friction can be added or sanded away so the angle stays set (Pinshape); motorised gimbals are tuned in software (PID settings; Hackaday 2015).
 - **Access needed:** not applicable
-- **Materials:** Rings and frames: metal or plastic; 3D-printed PLA or PETG for passive and light motorised gimbals (the Gimbalotl joystick gimbal used PETG with 4 perimeters and 20% infill; Printables); plywood and styrene sheet with metal brackets for a hand-built camera gimbal (Oscar Liang). Pivots: printed cone-and-dimple pivots (DesignMakeTeach), metal pins or shafts, or ball bearings ⚑ [uncertain for bearings in the sources opened].
+- **Materials:** Rings and frames: metal or plastic; 3D-printed PLA or PETG for passive and light motorised gimbals (the Gimbalotl joystick gimbal used PETG with 4 [perimeters](../glossary.md#perimeters) and 20% [infill](../glossary.md#infill); Printables); plywood and styrene sheet with metal brackets for a hand-built camera gimbal (Oscar Liang). Pivots: printed cone-and-dimple pivots (DesignMakeTeach), metal pins or shafts, or ball bearings ⚑ [uncertain for bearings in the sources opened].
 - **Heat, cold, water and wear:** Printed PLA gimbals soften from about 60 degrees C (CNC Kitchen), so a PLA cup holder left in a hot car may sag; PETG and ASA last longer. Pivots collect dirt and grit and can stiffen or wear ⚑ [uncertain]. Motorised gimbals contain electronics and motors that need protecting from rain ⚑ [uncertain]. Vibration passes through the pivots unless the mount is damped ⚑ [uncertain].
 
 ## Making it
@@ -202,7 +204,7 @@ Pivots: shoulder bolts or pins, flanged ball bearings, bushings ⚑ [uncertain].
 - Motorised camera gimbal: balance before powering on or tuning; a balanced camera stays wherever you point it with the power off (DroneTrest), and should face forward, level and upright at rest (Oscar Liang).
 - Put the camera lens in line with the roll and pitch motor shafts for stable video (Oscar Liang; Hackaday 2015).
 - Rebalance whenever the camera's centre of gravity changes, e.g. a zoom lens; fit the battery and memory card before balancing; 14-35 mm lenses suit gimbals (DroneTrest).
-- Start with at least 0.3 mm clearance between moving printed parts (Prusa knowledge base 'Modeling with 3D printing in mind').
+- Start with at least 0.3 mm [clearance](../glossary.md#clearance) between moving printed parts (Prusa knowledge base 'Modeling with 3D printing in mind').
 - What to expect from a printed stepper gimbal: about 2.8 degrees accuracy, 1.6 degrees repeatability and 1.2 degrees backlash (Appropedia '3D printed dual axis gimbal system', Bihari et al. 2018).
 
 ## Common failures
@@ -219,7 +221,7 @@ Motorised gimbals can move suddenly when powered up or tuned, and fingers can be
 - Ball-and-socket joint (lockable ball head): tilts in all directions in one compact joint, but relies on friction and has a limited angle
 - Trunnion and clevis pivots: a single pivot axis; one ring of a gimbal is essentially a trunnion mount
 - Pan-tilt mount: two stacked motorised pivots used to aim cameras or lights; a gimbal without the rings
-- Flexure hinge (notch, leaf-spring and cross-axis pivots): can make a small gimbal with no rubbing pivots, e.g. for precise instruments ⚑ [uncertain]
+- [Flexure](../glossary.md#flexure) hinge (notch, leaf-spring and cross-axis pivots): can make a small gimbal with no rubbing pivots, e.g. for precise instruments ⚑ [uncertain]
 - Slip ring and rotary union: passes power or signals through a joint that turns all the way round
 - Canfield joint: a parallel-link joint for pointing things, listed by Wikipedia alongside the gimbal
 

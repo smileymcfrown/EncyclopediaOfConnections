@@ -129,6 +129,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Highcurrent_battery_plug_bullet_connector_polarised_battery_connector.json
+glossary: [form-fit--force-fit--material-bond, keying, gland]
 ---
 
 A two-pin plug and socket with thick metal contacts in a shaped housing that fits only one way round, soldered (or crimped) onto heavy wires so a battery pack can be plugged into a model, robot or charger and unplugged by hand, carrying tens of amps; the plug and the wire must both suit the current.
@@ -168,10 +169,10 @@ Not for mains: these are for battery and low-voltage DC wiring. Not for small cu
 - **Movement:** none: once mated the halves don't move; they are pushed together and pulled apart along one line.
 - **Directions it can move (degrees of freedom):** 0 when mated. While plugging in, the halves slide along one axis only.
 - **Special behaviour:**
-  - quick-release: plug in and pull apart by hand, with no tools, to swap or charge a battery (Oscar Liang 2014). The housing shape also lets it fit only one way round (keying), which is not one of the listed behaviours
+  - quick-release: plug in and pull apart by hand, with no tools, to swap or charge a battery (Oscar Liang 2014). The housing shape also lets it fit only one way round ([keying](../glossary.md#keying)), which is not one of the listed behaviours
   - hand-release only: Tamiya plugs have a latch that 'prevents accidental disconnection' until pressed (Wikipedia 'Tamiya connector'), and MC4 plugs lock and 'require a tool to disconnect them' (Wikipedia 'MC4 connector'); plain XT, Deans, EC and bullet plugs have no latch
 - **How it holds:**
-  - friction or clamping (force-fit): XT, Deans, EC and bullet plugs are held together only by the tight fit of their contacts
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): XT, Deans, EC and bullet plugs are held together only by the tight fit of their contacts
   - shape (the parts interlock; form-fit): Tamiya's latch and MC4's locking clips hook into the other half (Wikipedia 'Tamiya connector', 'MC4 connector')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed).
@@ -197,7 +198,7 @@ Not for mains: these are for battery and low-voltage DC wiring. Not for small cu
 
 ### 3D printing tips
 
-1) Never let a printed part carry current or stand in for a contact; print only mounts, covers, strain reliefs and jigs. 2) Material: AMASS ratings allow the plug to warm by up to 60 °C at its rated current (Holybro), while PLA 'gets soft and deforms at temperatures over 60 °C' (Prusa 'PLA'), so print mounts that hold high-current plugs in PETG, ABS or ASA; jig designers also recommend PETG (Printables 120493). 3) Panel mounts: a popular XT60 panel mount is a 40 x 14 mm, 3 mm thick plate for M3 screws that prints without supports, and its author notes some off-brand XT60s need a patch of tape to fit tightly, so check your plug's real size and print a test (Printables 82137). 4) Soldering jigs: printed holders keep the plug and wires still; keep the male and female halves plugged together while soldering so the pins stay aligned if the housing softens (Printables 117183; Flite Test). 5) Leave room in printed battery bays for the plug body, the heat-shrink over the solder cups and the bend of thick wire, and add a strap or clamp so a yank on the battery pulls the housing, not the solder joints (see Cable gland and strain relief).
+1) Never let a printed part carry current or stand in for a contact; print only mounts, covers, strain reliefs and jigs. 2) Material: AMASS ratings allow the plug to warm by up to 60 °C at its rated current (Holybro), while PLA 'gets soft and deforms at temperatures over 60 °C' (Prusa 'PLA'), so print mounts that hold high-current plugs in PETG, ABS or ASA; jig designers also recommend PETG (Printables 120493). 3) Panel mounts: a popular XT60 panel mount is a 40 x 14 mm, 3 mm thick plate for M3 screws that prints without supports, and its author notes some off-brand XT60s need a patch of tape to fit tightly, so check your plug's real size and print a test (Printables 82137). 4) Soldering jigs: printed holders keep the plug and wires still; keep the male and female halves plugged together while soldering so the pins stay aligned if the housing softens (Printables 117183; Flite Test). 5) Leave room in printed battery bays for the plug body, the heat-shrink over the solder cups and the bend of thick wire, and add a strap or clamp so a yank on the battery pulls the housing, not the solder joints (see Cable [gland](../glossary.md#gland) and strain relief).
 
 ### Buying one (off-the-shelf parts)
 

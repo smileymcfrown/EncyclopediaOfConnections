@@ -136,6 +136,7 @@ sources:
 - https://aleenes.com/a/faq
 - https://www.coolcrafting.co.uk/product/prym-fray-check/
 research: research/connection-types/results/PVA_wood_glue_white_and_yellow_glue.json
+glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear]
 ---
 
 A water-based glue of plastic particles suspended in water that soaks into wood, paper, card and other porous materials and hardens as the water is absorbed and evaporates, giving strong, cheap, non-toxic joints for indoor woodwork, with yellow and water-resistant grades for tougher jobs.
@@ -165,7 +166,7 @@ Use PVA for almost any indoor wood-to-wood joint that fits well and can be clamp
 
 ## When not to use it
 
-Not for gaps or poorly fitting joints: use epoxy or polyurethane glue (Rockler; Wikipedia 'Wood glue'). Not for plastics, metal or glass, or for 3D prints to each other: use cyanoacrylate, epoxy, solvent welding or contact adhesive (Prusa). Not for joints under constant heavy load, such as bent laminations that want to spring back or shelves carrying weight on the glue alone, because PVA creeps: use urea-formaldehyde (which 'does not creep'), epoxy or mechanical fasteners (Wikipedia 'Wood glue'; FPL). Not for boats below the waterline, continuous submersion or exposed structural outdoor work: use epoxy or resorcinol (Titebond III limitations; Wikipedia; Wood by Wright found all PVAs, even Type I, 'did very poorly' in its exterior test). Not for joints you may need to take apart cleanly later, such as musical instruments and antique repairs: use hide glue, which can be undone with heat and moisture (Wikipedia 'Wood glue'; Woodcraft). Not for end-grain butt joints without joinery (FPL).
+Not for gaps or poorly fitting joints: use epoxy or polyurethane glue (Rockler; Wikipedia 'Wood glue'). Not for plastics, metal or glass, or for 3D prints to each other: use cyanoacrylate, epoxy, solvent welding or contact adhesive (Prusa). Not for joints under constant heavy load, such as bent laminations that want to spring back or shelves carrying weight on the glue alone, because PVA [creeps](../glossary.md#creep): use urea-formaldehyde (which 'does not creep'), epoxy or mechanical fasteners (Wikipedia 'Wood glue'; FPL). Not for boats below the waterline, continuous submersion or exposed structural outdoor work: use epoxy or resorcinol (Titebond III limitations; Wikipedia; Wood by Wright found all PVAs, even Type I, 'did very poorly' in its exterior test). Not for joints you may need to take apart cleanly later, such as musical instruments and antique repairs: use hide glue, which can be undone with heat and moisture (Wikipedia 'Wood glue'; Woodcraft). Not for end-grain butt joints without joinery (FPL).
 
 ## Details
 
@@ -177,10 +178,10 @@ Not for gaps or poorly fitting joints: use epoxy or polyurethane glue (Rockler; 
 - **Special behaviour:**
   - none: it has none of the listed behaviours. Its own tricks: it cleans up with water while wet; white glue stays slippery for a while so parts can be slid into line, while yellow glue grabs faster (Wikipedia 'Wood glue'); and the bond can be softened with heat or steam to take a joint apart (Titebond FAQ)
 - **How it holds:**
-  - material bond (glue, solvent or melting): the dried glue film sticks to both faces and locks into the pores of the wood (FPL Wood Handbook ch.10)
+  - [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): the dried glue film sticks to both faces and locks into the pores of the wood (FPL Wood Handbook ch.10)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed): it sets at room temperature as water leaves; heat, radio-frequency or hot-press systems are only used in factories to speed it up (FPL Wood Handbook ch.10; Titebond II page)
-- **Load:** medium to heavy in shear on long-grain (side-grain) wood joints: manufacturer tests to ASTM D905 on hard maple give about 3,550-4,000 psi (24-28 MPa) at room temperature, with much of the break in the wood itself (Titebond Original 3,600 psi, 77% wood failure; White 3,550 psi; II 3,750 psi; III 4,000 psi) (Titebond product pages), and Wood by Wright's 32-glue test found PVA long-grain joints stood up 'very nicely' to far more expensive epoxies (Popular Woodworking, 2018). Weak on end grain: glued end-grain butt joints reach only about 25% of the wood's tensile strength even with special techniques (FPL Wood Handbook ch.10). Weak under long-term load and heat: PVA joints 'yield under continued stress' (creep) (FPL Table 10-1; Wikipedia). Manufacturers state it is not for structural or load-bearing applications (Titebond).
+- **Load:** medium to heavy in [shear](../glossary.md#peel-vs-shear) on long-grain (side-grain) wood joints: manufacturer tests to ASTM D905 on hard maple give about 3,550-4,000 psi (24-28 MPa) at room temperature, with much of the break in the wood itself (Titebond Original 3,600 psi, 77% wood failure; White 3,550 psi; II 3,750 psi; III 4,000 psi) (Titebond product pages), and Wood by Wright's 32-glue test found PVA long-grain joints stood up 'very nicely' to far more expensive epoxies (Popular Woodworking, 2018). Weak on [end grain](../glossary.md#end-grain): glued end-grain butt joints reach only about 25% of the wood's tensile strength even with special techniques (FPL Wood Handbook ch.10). Weak under long-term load and heat: PVA joints 'yield under continued stress' (creep) (FPL Table 10-1; Wikipedia). Manufacturers state it is not for structural or load-bearing applications (Titebond).
 - **Play and precision:** not applicable (nothing moves). It needs close-fitting, flat joints: PVA is a poor gap filler, and a 'gap-filling puddle will shrink as it dries' (Rockler; Woodcraft). The standard EN 205 test joint uses a 0.1 mm glue line (IVK leaflet).
 - **Taking it apart:** semi-permanent (can be undone but may damage parts): heating the joint with a heat gun or hair dryer, or steam from an iron, weakens yellow and water-resistant PVA glues so joints can be separated (Titebond FAQ); dried squeeze-out is scraped or sanded off (Titebond). Re-gluing is hard because most glues, including PVA and epoxy, don't stick well to old cured PVA, so it must be cleaned off to bare wood first (Wikipedia 'Wood glue').
 - **How often it can be reused:** once: the glue can't be reused; to redo a joint, clean the old glue off down to bare wood and apply fresh (Wikipedia 'Wood glue')
@@ -200,7 +201,7 @@ Not for gaps or poorly fitting joints: use epoxy or polyurethane glue (Rockler; 
   - 3D print (FDM): only for fixing prints to porous materials such as wood, cork, fabric or paper, or for printed glue-up tools; not for gluing plastic to plastic (Prusa)
 - **Printing it in one piece (print in place):** no: it is a glue, not a printed part
 - **Tools:** The glue bottle, a brush, roller or notched spreader to spread an even film (about 6 mil / 0.15 mm, Titebond), clamps (bar, F, pipe or band clamps) to press joints together, a damp cloth for wet squeeze-out, and a scraper or sandpaper for dried glue (Titebond product pages). A jointer, plane or sander to freshen the surfaces just before gluing (FPL Wood Handbook ch.10).
-- **Difficulty:** easy: no mixing, water cleanup and cheap. The skills are spreading an even film, working within the open time, and clamping evenly (FPL Wood Handbook ch.10; Titebond).
+- **Difficulty:** easy: no mixing, water cleanup and cheap. The skills are spreading an even film, working within the [open time](../glossary.md#open-time), and clamping evenly (FPL Wood Handbook ch.10; Titebond).
 
 ### 3D printing tips
 
@@ -218,7 +219,7 @@ Search for: 'PVA wood glue', 'white glue' or 'school glue' (general and paper), 
 - Spread a film of about 6 mil (0.15 mm), i.e. roughly 250 square feet per US gallon (Titebond product pages).
 - Assemble within the open time: about 3-5 minutes for cross-linking yellow (Type II), 4-6 minutes for yellow aliphatic, about 5 minutes for white and 8-10 minutes for Type I glue at 70 °F / 50% RH (Titebond product pages).
 - Clamp firmly but not too hard: about 100-150 psi (0.7-1.0 MPa) for softwoods, 125-175 psi for medium woods and 175-250 psi (1.2-1.7 MPa) for hardwoods (Titebond); FPL gives 0.7 MPa (100 psi) for low-density up to 1.7 MPa (250 psi) for the densest woods, and warns that too much pressure squeezes out the glue and leaves a starved joint (FPL Wood Handbook ch.10).
-- Keep an unstressed joint clamped for 30-60 minutes; a stressed joint (bent or sprung parts) for 24 hours; and don't load a new joint for at least 24 hours (Titebond FAQ). Water-based glues can take about 24 hours to cure before machining (Titebond FAQ).
+- Keep an unstressed joint clamped for 30-60 minutes; a stressed joint (bent or sprung parts) for 24 hours; and don't load a new joint for at least 24 hours (Titebond FAQ). Water-based glues can take about 24 hours to [cure](../glossary.md#cure) before machining (Titebond FAQ).
 - Don't glue below the 'chalk temperature' of the glue, air and wood: about 50 °F (10 °C) for white and ordinary yellow glue, 55 °F (13 °C) for Type II and 45-47 °F (7-8 °C) for Type I (Titebond product pages).
 - Don't rely on end-grain butt joints: they reach only about 25% of the wood's tensile strength; use a scarf joint with a slope of 1 in 12 or flatter, finger joints, or joinery that turns end grain into side grain (FPL Wood Handbook ch.10).
 - Choose water resistance by where the piece will live (EN 204 classes): D1 dry interiors (wood below about 15% moisture), D2 occasional high humidity or brief water, D3 frequent short contact with water or outdoors under cover, D4 frequent long exposure to water or outdoors with a protective finish (European Wood Review; IVK leaflet). In US terms, ANSI/HPVA Type II passes three 4-hour soak and 120 °F bake cycles; Type I passes boiling tests (Titebond FAQ).
@@ -238,7 +239,7 @@ Low hazard: water-based, with no harmful fumes, and meets ASTM D4236 for arts an
 - Hide glue (animal glue): the traditional wood glue; doesn't creep and can be undone with heat and moisture, so it is used for instruments and antiques
 - Polyurethane glue (foaming moisture-cure glue): waterproof, foams to fill gaps and bonds more materials, but messier and needs moisture to cure
 - Two-part epoxy: gap-filling, waterproof and bonds metal and plastics; better for poor fits and boats, but costlier and won't stick to cured PVA
-- Cyanoacrylate (superglue): sets in seconds for small repairs and plastics; brittle and low in peel
+- Cyanoacrylate (superglue): sets in seconds for small repairs and plastics; [brittle](../glossary.md#brittle--ductile) and low in peel
 - Contact adhesive (contact cement): for large sheets such as plastic laminate and veneer where clamping is awkward; bonds instantly but creeps and is weaker than PVA on wood
 - Hot-melt adhesive (glue gun): fast, gap-filling but weak and heat-sensitive; for temporary holds and crafts
 - Elastomeric solvent glue (flexible craft glue): stays rubbery and bonds non-porous and dissimilar materials that PVA can't

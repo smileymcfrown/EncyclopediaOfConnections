@@ -127,6 +127,8 @@ sources:
 - https://www.youtube.com/watch?v=A3iBtWrVTrI
 - https://www.youtube.com/watch?v=zuleKwhwCn8
 research: research/connection-types/results/Telescoping_tube_lever_lock_flip_lock.json
+glossary: [self-locking, over-centre, ratchet, linkage, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
+  collet, creep, infill]
 ---
 
 A split clamp ring on the end of the outer tube with a lever that snaps shut over centre, squeezing the outer tube onto the inner one so the length is held at any position until you flip the lever open.
@@ -137,7 +139,7 @@ A split clamp ring on the end of the outer tube with a lever that snaps shut ove
 
 ## How it works
 
-The collar is a ring with a gap in it, so it can be squeezed smaller (the same way a bicycle seat tube has 'a vertical slit' so a ring can squeeze it 'without crumpling', Wikipedia 'Seatpost'). The lever pivots on a pin or screw across the two ears beside the gap. Its end is a cam (an off-centre curve), so closing the lever pulls the ears together and squeezes the collar, and the outer tube, onto the inner tube; friction then holds the length ('close the lever and it grips the tube firmly', Leki). The lever swings just past its tightest point (over-centre, past 'a top dead center pivot point', Easton patent US8006711B2), so the squeeze itself holds it shut. A small screw, nut or dial on the pivot sets how tight it closes, so it can be retightened as parts wear.
+The collar is a ring with a gap in it, so it can be squeezed smaller (the same way a bicycle seat tube has 'a vertical slit' so a ring can squeeze it 'without crumpling', Wikipedia 'Seatpost'). The lever pivots on a pin or screw across the two ears beside the gap. Its end is a cam (an off-centre curve), so closing the lever pulls the ears together and squeezes the collar, and the outer tube, onto the inner tube; friction then holds the length ('close the lever and it grips the tube firmly', Leki). The lever swings just past its tightest point ([over-centre](../glossary.md#over-centre), past 'a top dead center pivot point', Easton patent US8006711B2), so the squeeze itself holds it shut. A small screw, nut or dial on the pivot sets how tight it closes, so it can be retightened as parts wear.
 
 ## Parts
 
@@ -156,7 +158,7 @@ Use a lever lock when the length must be changed often and fast, by feel, with g
 
 ## When not to use it
 
-Avoid it where a lever sticking out would snag or break (packs, crowded mechanisms): a twist lock is slimmer (Ulanzi). Avoid it for exact, repeatable set lengths or for loads that must never slip: use a spring button lock or a pin through holes. Avoid it on thin-walled or carbon tubes unless the clamp force is controlled, because squeezing can crush them. For a setting that is almost never changed, a bolted clamp collar or set screw is simpler. For long-term constant clamping in hot places, a printed plastic collar may creep loose: use metal or check it often.
+Avoid it where a lever sticking out would snag or break (packs, crowded mechanisms): a twist lock is slimmer (Ulanzi). Avoid it for exact, repeatable set lengths or for loads that must never slip: use a spring button lock or a pin through holes. Avoid it on thin-walled or carbon tubes unless the clamp force is controlled, because squeezing can crush them. For a setting that is almost never changed, a bolted clamp collar or [set screw](../glossary.md#set-screw) is simpler. For long-term constant clamping in hot places, a printed plastic collar may [creep](../glossary.md#creep) loose: use metal or check it often.
 
 ## Details
 
@@ -169,9 +171,9 @@ Avoid it where a lever sticking out would snag or break (packs, crowded mechanis
   - over-centre (snaps past a point and stays): the cam lever passes its tightest point and the clamping force keeps it closed (Easton patent US8006711B2: 'a top dead center pivot point' gives 'a positive lock condition')
   - quick-release: one flick opens or closes it, with no tools, and it works with gloves on (Ulanzi; Backpacker)
   - hand-release only (locks under load, releases when a person operates it): pushing on the pole does not open the lever; only flipping it does
-  - self-locking (holds under load, won't back-drive): the over-centre lever and friction hold without any effort from the user
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the over-centre lever and friction hold without any effort from the user
 - **How it holds:**
-  - friction or clamping (force-fit): the squeezed collar presses the tube walls together and friction holds the length
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the squeezed collar presses the tube walls together and friction holds the length
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Medium. Brand claims for trekking-pole lever locks: Leki Speed Lock Plus holds 'more than 75 kg' and Speed Lock 2 Plus 'more than 90 kg' per lock (Leki UK blog); Speed Lock 2 a minimum of 95 kg (Leki help centre). A vendor explainer gives 'up to 15+ kg' for general telescoping poles (poolpole.com, no test method). The friction resists both sliding and twisting; bending is carried by the overlap between tubes. An overload makes it slip rather than break. Too much clamping can crush a thin or carbon-fibre tube (Manfrotto parts blog: carbon fibre is vulnerable to squeezing forces).
@@ -181,7 +183,7 @@ Avoid it where a lever sticking out would snag or break (packs, crowded mechanis
 - **Sealing:** none: sand or grit in the lever joint can jam it (Ulanzi: 'a single grain of sand in a lever joint'), and dirt or polishing inside the collar makes it slip (Backpacker)
 - **Adjustable:** yes, twice over: the length is stepless (any position along the slide), and the clamping force is set with the tension screw or dial (Leki; Benro; MSR: 'adjust the clamping force on the fly').
 - **Access needed:** end of a tube or shaft: the collar fits over the open end of the outer tube; once built it is worked from the outside with one hand.
-- **Materials:** Collar: moulded plastic or aluminium alloy (Leki Speed Lock 2 uses 'an enhanced alloy locking collar' for more holding force); lever: plastic or anodised aluminium; cam: stainless steel (MSR); pivot and tension screw: steel. Tubes: aluminium or carbon fibre (carbon needs gentler clamping). Printed versions: PETG or ABS collars and levers with steel bolts (Jori; Bebe, Printables).
+- **Materials:** Collar: moulded plastic or aluminium alloy (Leki Speed Lock 2 uses 'an enhanced alloy locking collar' for more [holding force](../glossary.md#holding-force)); lever: plastic or anodised aluminium; cam: stainless steel (MSR); pivot and tension screw: steel. Tubes: aluminium or carbon fibre (carbon needs gentler clamping). Printed versions: PETG or ABS collars and levers with steel bolts (Jori; Bebe, Printables).
 - **Heat, cold, water and wear:** Grit or sand in the lever joint can jam it (Ulanzi); dirt, polishing and wear make it slip (Backpacker); clean and dry after wet, sandy or salty use (Benro). Temperature changes make pole materials swell or shrink slightly, which 'can lead to your pole sections slipping or collapsing' unless the tension is readjusted (MSR). Vibration can loosen the tension screw over time: use thread-locker (Backpacker). Printed collars: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa) but still relaxes under constant squeeze (goodprints3d).
 
 ## Making it
@@ -196,7 +198,7 @@ Avoid it where a lever sticking out would snag or break (packs, crowded mechanis
 
 ### 3D printing tips
 
-1) Use a metal bolt or pin as the pivot and tension screw: Jori's 22 mm post clamp taps M5 threads into the printed ball head and clamp and uses an M5 x 50 screw (Printables 110310); Bebe's clamp uses an M6 furniture connector bolt (Printables 860826); the ultralight tripod uses M3 hardware (danec, Printables 911528). Add a tension nut or screw so you can tune the snap-shut force. 2) Give the slot in the collar a generous rounded end: 'a narrow split with a sharp inside corner creates a crack starter' (goodprints3d). 3) Orient the collar so continuous extrusion paths go round the ring and carry the hoop tension, rather than relying on layer bonds (goodprints3d; Hubs: FDM parts are weaker across layers). 4) Spread bolt loads with wide ears and washers or metal sleeves, because a screw bearing on a small printed ledge sinks in and makes the clamp go loose (goodprints3d). 5) Use tough material and enough walls: PETG for levers (Bogen and Harbor Freight replacement levers, Printables), ABS (Bebe), and more shells or infill for leg locks 'since it needs to be somewhat strong' (Pete Prodoehl, Printables 40021); default slicer settings in PLA gave 'a very flexible lever' (gjpc, Printables 34970). 6) Plan for creep: plastic under a constant squeeze relaxes, so a PETG clamp can 'lose compression over hours or days' (goodprints3d); nylon recovers better; PLA softens above 60 °C (Prusa) and PETG suits use below 80 °C (Prusa). 7) Leave at least 0.3 mm clearance on moving parts such as the lever pivot (Prusa), and drill critical holes to size because FDM prints vertical holes undersize (Hubs). 8) Keep plenty of overlap: at least the length of the lock housing (danec). 9) For a printed collar clamping a separate printed or plastic outer tube, slot the outer tube's end too so it can close (Wikipedia 'Seatpost' describes the slit) ⚑ [uncertain].
+1) Use a metal bolt or pin as the pivot and tension screw: Jori's 22 mm post clamp taps M5 threads into the printed ball head and clamp and uses an M5 x 50 screw (Printables 110310); Bebe's clamp uses an M6 furniture connector bolt (Printables 860826); the ultralight tripod uses M3 hardware (danec, Printables 911528). Add a tension nut or screw so you can tune the snap-shut force. 2) Give the slot in the collar a generous rounded end: 'a narrow split with a sharp inside corner creates a crack starter' (goodprints3d). 3) Orient the collar so continuous extrusion paths go round the ring and carry the hoop tension, rather than relying on layer bonds (goodprints3d; Hubs: FDM parts are weaker across layers). 4) Spread bolt loads with wide ears and washers or metal sleeves, because a screw bearing on a small printed ledge sinks in and makes the clamp go loose (goodprints3d). 5) Use tough material and enough walls: PETG for levers (Bogen and Harbor Freight replacement levers, Printables), ABS (Bebe), and more shells or [infill](../glossary.md#infill) for leg locks 'since it needs to be somewhat strong' (Pete Prodoehl, Printables 40021); default slicer settings in PLA gave 'a very flexible lever' (gjpc, Printables 34970). 6) Plan for creep: plastic under a constant squeeze relaxes, so a PETG clamp can 'lose compression over hours or days' (goodprints3d); nylon recovers better; PLA softens above 60 °C (Prusa) and PETG suits use below 80 °C (Prusa). 7) Leave at least 0.3 mm [clearance](../glossary.md#clearance) on moving parts such as the lever pivot (Prusa), and drill critical holes to size because FDM prints vertical holes undersize (Hubs). 8) Keep plenty of overlap: at least the length of the lock housing (danec). 9) For a printed collar clamping a separate printed or plastic outer tube, slot the outer tube's end too so it can close (Wikipedia 'Seatpost' describes the slit) ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -223,14 +225,14 @@ Pinch points: fingers can be caught between the lever and collar as it snaps shu
 
 ## Related
 
-- Telescoping tube twist lock (cam or collet twist lock): locks by twisting; slimmer and cheaper, but slower, harder with gloves and more prone to slipping or jamming
+- Telescoping tube twist lock (cam or [collet](../glossary.md#collet) twist lock): locks by twisting; slimmer and cheaper, but slower, harder with gloves and more prone to slipping or jamming
 - Spring button lock (snap button): locks positively at set lengths through holes; no slipping, but no in-between lengths
 - Eccentric cam lever (cam clamp, quick-release skewer): the same over-centre cam lever, used to clamp wheels and plates rather than tubes
-- Toggle clamp: another over-centre clamp, using a linkage instead of a cam
+- Toggle clamp: another over-centre clamp, using a [linkage](../glossary.md#linkage) instead of a cam
 - Clamp-on tube fittings (slip-on structural fittings): tube connectors that also clamp by squeezing, usually with a screw
 - Shaft-to-hub joints (clamp hub): a split hub squeezed by a screw, the bolted version of the same squeeze
 - Quick-release plate (dovetail clamp): a lever or knob clamp for quick camera mounting
-- Indexable clamping lever (ratchet handle): a lever whose handle can be repositioned, used on screw clamps
+- Indexable clamping lever ([ratchet](../glossary.md#ratchet) handle): a lever whose handle can be repositioned, used on screw clamps
 
 ## Make it yourself
 

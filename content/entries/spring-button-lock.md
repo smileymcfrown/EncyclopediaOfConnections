@@ -122,6 +122,8 @@ sources:
 - https://www.youtube.com/watch?v=y3V6o3eca0g
 - https://www.youtube.com/watch?v=Lp2uGtOGZRA
 research: research/connection-types/results/Spring_button_lock_snap_button_pushbutton_tube_lock.json
+glossary: [detent, preload, cantilever, clearance, form-fit--force-fit--material-bond, collet, chamfer--fillet, repeatability--accuracy,
+  creep, stress-concentration, peel-vs-shear]
 ---
 
 A spring-loaded button inside the inner tube that snaps out through holes in the outer tube, locking two sliding tubes at set lengths until you press the button in.
@@ -151,7 +153,7 @@ Use a spring button when you want a few fixed lengths that are always the same, 
 
 ## When not to use it
 
-Don't use it when you need any length in between (use a twist lock or lever lock), when rattle is unacceptable (use a clamp, or a tapered or preloaded button), or for heavy, shock or vibration loads and anything where people could be hurt if the button shears (use a through-pin such as a ball-lock pin, or a bolt). Avoid plain steel clips in salt water (use 301 or 410 stainless). Avoid it where holes would weaken a thin or composite tube too much.
+Don't use it when you need any length in between (use a twist lock or lever lock), when rattle is unacceptable (use a clamp, or a tapered or preloaded button), or for heavy, shock or vibration loads and anything where people could be hurt if the button [shears](../glossary.md#peel-vs-shear) (use a through-pin such as a ball-lock pin, or a bolt). Avoid plain steel clips in salt water (use 301 or 410 stainless). Avoid it where holes would weaken a thin or composite tube too much.
 
 ## Details
 
@@ -161,7 +163,7 @@ Don't use it when you need any length in between (use a twist lock or lever lock
   - let it move (turn, slide or bend): the tubes slide between positions
   - join and hold: also used to join two tube parts or snap on attachments and handles (Valco: 'adjustable legs, interchangeable attachments, common handle')
 - **Movement:** slide: along the tube between holes, only while the button is held in; locked (none) otherwise
-- **Directions it can move (degrees of freedom):** Unlocked (button pressed): 2 for round tubes (slide and turn), 1 for square or keyed tubes. Locked: 0, apart from the small rattle allowed by the clearance between button and hole.
+- **Directions it can move (degrees of freedom):** Unlocked (button pressed): 2 for round tubes (slide and turn), 1 for square or keyed tubes. Locked: 0, apart from the small rattle allowed by the [clearance](../glossary.md#clearance) between button and hole.
 - **Special behaviour:**
   - indexing (clicks into set positions): the button snaps out at each hole, giving fixed, repeatable lengths
   - quick-release: one finger presses the button; no tools
@@ -169,19 +171,19 @@ Don't use it when you need any length in between (use a twist lock or lever lock
   - one-way (moves freely one way, locks the other): only in the ramp-headed or auto-depressing versions (Valco RR and RAA ramp buttons; Testrite T-131: 'automatically' depress the spring button head in one direction)
   - self-aligning or self-centring: only when the tubes can't turn (square or keyed tubes), so buttons and holes line up by themselves (Testrite: 'Non-rotating inside tubes' make 'lining up the spring buttons with the holes automatic')
 - **How it holds:**
-  - shape (form-fit): the button sitting in the hole blocks sliding and turning
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the button sitting in the hole blocks sliding and turning
   - spring force: the spring leg keeps the button pushed out into the hole
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Light to medium. The load passes from one tube to the other through the small button pressing on the edge of the hole, so strength is set by the button and the tube wall around the hole; no maker's load rating was found ⚑ [uncertain]. Holes are stress raisers and buttons can break under sideways (off-axis) loads (poolpole.com, vendor page). A supplier recommends spring buttons for 'lightweight equipment' and a pin through holes for heavy-duty or vibration use (Chalco). Plastic snap buttons are 'for use in lighter load applications' (Valco catalogue). Unlike friction locks it does not slip, so it holds its length until the button or tube breaks.
-- **Play and precision:** Noticeable play: the button must be smaller than its hole, so the tubes can rattle and click. A crutch clicks because 'the push button used to adjust the length of the crutch is not snug in its hole' (Heinsalu); a tapered button whose big end is larger than the hole wedges in and removes the rattle (Temco patent US3947140A), and a rubber band or spring pulling the tubes one way keeps the button on one side of its hole (Heinsalu). Repeatability is very good: it always returns to the same holes. It needs the holes lined up exactly, both along and around the tube; tubes that can't turn line up automatically (Testrite).
+- **Play and precision:** Noticeable play: the button must be smaller than its hole, so the tubes can rattle and click. A crutch clicks because 'the push button used to adjust the length of the crutch is not snug in its hole' (Heinsalu); a tapered button whose big end is larger than the hole wedges in and removes the rattle (Temco patent US3947140A), and a rubber band or spring pulling the tubes one way keeps the button on one side of its hole (Heinsalu). [Repeatability](../glossary.md#repeatability--accuracy) is very good: it always returns to the same holes. It needs the holes lined up exactly, both along and around the tube; tubes that can't turn line up automatically (Testrite).
 - **Taking it apart:** tool-free quick release: press the button to slide or pull the tubes apart; the clip itself can be pushed back into the tube and pulled out when needed ⚑ [uncertain]
 - **How often it can be reused:** many times: it relocks at every adjustment; springs slowly tire and hole edges can wear, and plain steel clips rust in wet use (Bending Branches)
 - **Sealing:** none: the holes are open, so water, sand and grit get in, and debris and rust are its main maintenance problems (Bending Branches)
 - **Adjustable:** yes, in steps only: the length can be set at each hole; the step size is the hole spacing, fixed when the holes are drilled.
 - **Access needed:** end of a tube or shaft: the clip is pushed into the open end of the inner tube; once fitted it is worked with one finger from the outside.
 - **Materials:** Clips: heat-treated 1050 spring steel with zinc plating as standard, 410 stainless steel (magnetic, resists wear and corrosion) or 301 stainless steel (most corrosion resistant) (McMaster-Carr; Valco catalogue); solid button heads in steel, brass, aluminium, stainless or nylon on music-wire springs; plastic buttons in Delrin, nylon or PVC for lighter loads (Valco catalogue). Tubes: round, square or rectangular aluminium, steel, PVC or carbon-fibre tube (Valco; Rock West; McMaster-Carr).
-- **Heat, cold, water and wear:** Water and salt rust plain steel clips, and grit gets in through the holes (Bending Branches); stainless versions resist corrosion, 301 most (McMaster-Carr). Plastic buttons don't rust (Valco). Printed clips and tubes: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa); printed springs creep and lose force over time (Hackaday). Vibration makes a loose button rattle and wear its hole (Heinsalu; Temco patent).
+- **Heat, cold, water and wear:** Water and salt rust plain steel clips, and grit gets in through the holes (Bending Branches); stainless versions resist corrosion, 301 most (McMaster-Carr). Plastic buttons don't rust (Valco). Printed clips and tubes: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa); printed springs [creep](../glossary.md#creep) and lose force over time (Hackaday). Vibration makes a loose button rattle and wear its hole (Heinsalu; Temco patent).
 
 ## Making it
 
@@ -196,7 +198,7 @@ Don't use it when you need any length in between (use a twist lock or lever lock
 
 ### 3D printing tips
 
-1) Best combination: print the tubes, sleeves or brackets and buy a steel snap-button clip; plastic makes a poor long-term spring ('PLA makes for a very poor spring material', Hackaday). 2) Choose the clip by the inside diameter of the inner tube (McMaster-Carr; Rock West) and make sure the button sticks out far enough past the outer wall to press: Rock West warns that with a short button in 0.062 in walls 'large fingers may have difficult time depressing button'. Thick printed walls need a taller button or a recess around the hole (Valco: recess thick walls with a 1 in ball mill). 3) If you print the spring clip, print it lying flat so the springy leg's layers run along its length; Hubs advises avoiding snap-fit cantilevers 'built vertically in the Z direction', with at least 1 mm thickness at the base, a fillet of at least half the thickness and at least 5 mm width, in a tough material such as PETG, ABS or nylon rather than PLA. The pool-pole clip was 'modified so it could be printed flat' (BlueThunder05). 4) A printed spring stays squeezed inside the tube all the time, so it will creep and lose force; designs work best when the spring is relaxed most of the time (Hackaday), so check and replace printed clips. 5) Holes in printed tubes: print the tube standing up so the holes are horizontal and add them in CAD, but expect the top of each hole to sag (bridges sag unless under about 5 mm, Hubs), then drill them to size (Hubs); drill slightly larger than the button (a size or two up is reported ⚑ [uncertain]). 6) Give printed tubes a flat, rib or square section so they can't turn and the holes always line up (Testrite's non-rotating tubes). 7) Allow at least 0.3 mm (Prusa) to 0.5 mm (Hubs, FDM) sliding clearance between printed tubes. 8) Plastic hole edges wear and let the button rattle: use thicker walls around holes, or tapered buttons (Temco patent) ⚑ [uncertain]. 9) Heat: PLA softens above about 60 °C (Prusa); PETG suits use below about 80 °C (Prusa).
+1) Best combination: print the tubes, sleeves or brackets and buy a steel snap-button clip; plastic makes a poor long-term spring ('PLA makes for a very poor spring material', Hackaday). 2) Choose the clip by the inside diameter of the inner tube (McMaster-Carr; Rock West) and make sure the button sticks out far enough past the outer wall to press: Rock West warns that with a short button in 0.062 in walls 'large fingers may have difficult time depressing button'. Thick printed walls need a taller button or a recess around the hole (Valco: recess thick walls with a 1 in ball mill). 3) If you print the spring clip, print it lying flat so the springy leg's layers run along its length; Hubs advises avoiding snap-fit [cantilevers](../glossary.md#cantilever) 'built vertically in the Z direction', with at least 1 mm thickness at the base, a [fillet](../glossary.md#chamfer--fillet) of at least half the thickness and at least 5 mm width, in a tough material such as PETG, ABS or nylon rather than PLA. The pool-pole clip was 'modified so it could be printed flat' (BlueThunder05). 4) A printed spring stays squeezed inside the tube all the time, so it will creep and lose force; designs work best when the spring is relaxed most of the time (Hackaday), so check and replace printed clips. 5) Holes in printed tubes: print the tube standing up so the holes are horizontal and add them in CAD, but expect the top of each hole to sag (bridges sag unless under about 5 mm, Hubs), then drill them to size (Hubs); drill slightly larger than the button (a size or two up is reported ⚑ [uncertain]). 6) Give printed tubes a flat, rib or square section so they can't turn and the holes always line up (Testrite's non-rotating tubes). 7) Allow at least 0.3 mm (Prusa) to 0.5 mm (Hubs, FDM) sliding clearance between printed tubes. 8) Plastic hole edges wear and let the button rattle: use thicker walls around holes, or tapered buttons (Temco patent) ⚑ [uncertain]. 9) Heat: PLA softens above about 60 °C (Prusa); PETG suits use below about 80 °C (Prusa).
 
 ### Buying one (off-the-shelf parts)
 
@@ -216,19 +218,19 @@ Snap buttons / tubing buttons / button clips: single-button and double-button (o
 
 ## Common failures
 
-1) Rattle and clicking from clearance between button and hole (Heinsalu): use a tapered button (Temco patent) or preload the tubes. 2) Hard to press because the button is too short for the wall thickness (Rock West): choose a taller button or recess the wall (Valco). 3) Holes don't line up because the tubes rotated: use square or keyed tubes (Testrite), or drill both tubes together. 4) Rust or grit jamming the button (Bending Branches): use stainless and rinse after use. 5) Worn or elongated holes, especially in plastic or soft aluminium ⚑ [uncertain]: add wall thickness or a metal sleeve. 6) Button or clip breaking under side loads (poolpole.com) or the spring losing force: replace the clip; printed clips wear out sooner (Hackaday). 7) The clip slipping down inside the inner tube if its hole is lost: fit the clip before cutting tubes to length ⚑ [uncertain].
+1) Rattle and clicking from clearance between button and hole (Heinsalu): use a tapered button (Temco patent) or [preload](../glossary.md#preload) the tubes. 2) Hard to press because the button is too short for the wall thickness (Rock West): choose a taller button or recess the wall (Valco). 3) Holes don't line up because the tubes rotated: use square or keyed tubes (Testrite), or drill both tubes together. 4) Rust or grit jamming the button (Bending Branches): use stainless and rinse after use. 5) Worn or elongated holes, especially in plastic or soft aluminium ⚑ [uncertain]: add wall thickness or a metal sleeve. 6) Button or clip breaking under side loads (poolpole.com) or the spring losing force: replace the clip; printed clips wear out sooner (Hackaday). 7) The clip slipping down inside the inner tube if its hole is lost: fit the clip before cutting tubes to length ⚑ [uncertain].
 
 ## Safety
 
-Pinch point: a finger pressing the button can be nipped between the tubes as they slide, and the button snaps out hard ⚑ [uncertain]. Make sure the button has fully popped out before loading (walkers, crutches, stands). The spring clip is under tension while you squeeze it into the tube and can spring out. Holes are stress concentrations, so a heavily loaded tube can crack at a hole (poolpole.com, vendor page).
+Pinch point: a finger pressing the button can be nipped between the tubes as they slide, and the button snaps out hard ⚑ [uncertain]. Make sure the button has fully popped out before loading (walkers, crutches, stands). The spring clip is under tension while you squeeze it into the tube and can spring out. Holes are [stress concentrations](../glossary.md#stress-concentration), so a heavily loaded tube can crack at a hole (poolpole.com, vendor page).
 
 ## Related
 
-- Telescoping tube twist lock (cam or collet twist lock): stepless friction lock worked by twisting; can slip
+- Telescoping tube twist lock (cam or [collet](../glossary.md#collet) twist lock): stepless friction lock worked by twisting; can slip
 - Telescoping tube lever lock (flip lock): stepless friction clamp with a flip lever; faster to set any length but can slip
 - Quick-release pin (ball-lock pin): a separate pin pushed through holes and locked by balls; much stronger, but it is a loose part that can be lost
 - Indexing plunger (pull-knob index pin): a spring pin in a threaded body that drops into holes; pulled out by a knob instead of pressed in
-- Ball detent (spring plunger): a spring ball that clicks into dimples; gives a light hold, not a lock
+- Ball [detent](../glossary.md#detent) (spring plunger): a spring ball that clicks into dimples; gives a light hold, not a lock
 - Spring bar (spring-loaded telescoping pin): a tiny spring-loaded telescoping pin, as in watch straps
 - Snap pin (split-leg push-in pin, rabbit clip): a printable pin held in by springy legs
 - Tool-free fasteners (hitch pin and R-clip): a plain pin through holes kept in by a clip, the simplest step lock

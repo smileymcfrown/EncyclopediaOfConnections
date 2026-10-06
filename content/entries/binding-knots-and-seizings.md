@@ -136,6 +136,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cable-lacing-nasa-style-spot-ties.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Binding_knots_and_seizings_constrictor_knot_seizing_cable_lacing.json
+glossary: [self-locking, ratchet, form-fit--force-fit--material-bond, boss, creep, peel-vs-shear, gland]
 ---
 
 A group of knots and wrappings that squeeze round something to hold it together: the constrictor knot grips a bundle, bag neck or hose so hard it may have to be cut off, a seizing binds two ropes side by side with many turns of small twine, and cable lacing ties wire bundles into a neat loom with a row of locked stitches.
@@ -175,11 +176,11 @@ Not for heavy or critical loads: seizings slip as a loaded rope stretches thinne
 - **Movement:** none: a good binding holds everything still; slipping along the object counts as failure.
 - **Directions it can move (degrees of freedom):** 0 at the binding: the bound parts can't slide or turn against each other, though the bundle as a whole can still bend.
 - **Special behaviour:**
-  - self-locking (holds under load, won't back-drive): in a constrictor the riding turn clamps the overhand knot, so it won't loosen by itself and is 'difficult or impossible to untie once tightened' (Wikipedia 'Constrictor knot'); each lockstitch in cable lacing locks its own turn (Bureau of Naval Weapons 1962: the 'cableman's knot ... is self locking')
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): in a constrictor the riding turn clamps the overhand knot, so it won't loosen by itself and is 'difficult or impossible to untie once tightened' (Wikipedia 'Constrictor knot'); each lockstitch in cable lacing locks its own turn (Bureau of Naval Weapons 1962: the 'cableman's knot ... is self locking')
   - tensioning (takes up slack and holds): the knot or wrap is pulled up tight and holds that squeeze
   - quick-release only in the slipped form: a slipped constrictor or miller's knot pulls undone with its loop, though a slipped constrictor 'can still be very difficult to release' when worked tight (Wikipedia 'Constrictor knot'; Animated Knots 'Miller's Knot')
 - **How it holds:**
-  - friction or clamping (force-fit): turns of cord squeeze the bundle, and friction between the turns and the object holds it (Wikipedia 'Seizing'; 'Constrictor knot')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): turns of cord squeeze the bundle, and friction between the turns and the object holds it (Wikipedia 'Seizing'; 'Constrictor knot')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Electrical: not a conductor (lacing only bundles and supports wires and carries no current). Mechanical load: light. A binding is strong at squeezing round the object, which is why a constrictor 'has been used as a temporary hose clamp' and can hold parts for gluing (Animated Knots), but seizings 'are not recommended for heavy loads for critical use as strain reduces the diameter of the main rope and can permit slippage even with proper construction' (Wikipedia 'Seizing'). The constrictor is 'extremely secure when tied tightly around convex objects' but fails on flat surfaces (Wikipedia; Animated Knots). Weak along the object if it is smooth or tapered and the binding can slide off the end (Wikipedia: use a boa knot when the object is cut close). No tested strength figures for binding knots or seizings were found ⚑ [uncertain]. Never use them to hold a person.
@@ -190,13 +191,13 @@ Not for heavy or critical loads: seizings slip as a loaded rope stretches thinne
 - **Adjustable:** no: once pulled tight a constrictor or seizing can't be eased or tightened; untie or cut it and tie a new one. Cable lacing can have wires added only by cutting and relacing, though spot ties can be added (Wikipedia 'Cable lacing' shows a Chicago stitch with cables added).
 - **Access needed:** end of a tube or shaft: the twisting and folding methods tie the constrictor in the bight and drop it over a free end (Wikipedia; Animated Knots); without a free end you need room to pass the cord right round the object and tie it with the end (Animated Knots 'Rope End Method').
 - **Materials:** Cord: twine and other small cord, because 'the binding force is concentrated over a smaller area' (Wikipedia 'Constrictor knot'); seizing twine about 1/8 to 1/12 of the rope's diameter (ropeworks.biz). Lacing: traditionally waxed linen cord; modern flat lacing tapes in nylon, polyester, PTFE (Teflon), fibreglass and Nomex with coatings that help knots hold (Wikipedia 'Cable lacing'); flat ribbon is preferred to round cord 'to reduce the possibility of cutting into wire insulation' (Bureau of Naval Weapons 1962); waxed polyester flat lace has 'excellent longevity' under a car or aircraft engine cowl, where nylon cable ties suffer from ozone, hydrocarbons and embrittlement (AeroElectric Connection). Slippery or waxed twine calls for the double constrictor (Wikipedia). Objects: works best on round or convex things such as rope, hose, tubing, stick bundles, bag necks and wire bundles; poor on flat or square-edged objects unless the knot sits over a corner (Wikipedia; Animated Knots). Soft items can be damaged or disfigured (Wikipedia).
-- **Heat, cold, water and wear:** Slippery cord: synthetic and waxed twines slip more, so use the double constrictor (Wikipedia 'Constrictor knot'). Rope under strain gets thinner, so seizings can slip (Wikipedia 'Seizing'). Over time and heat, wire insulation can creep: AeroElectric has seen PTFE-insulated bundles 'tied so tightly that the insulation cold-flowed and allowed wires to short together'. Engine-bay conditions: nylon cable ties suffer from ozone, hydrocarbons and embrittlement as they lose plasticiser, while polyester flat lace lasts well (AeroElectric Connection). Heat: nylon braid ends can be sealed with a hot knife (NASA-STD-8739.4A §9.3.10), which also means synthetic cords melt near hot parts. Vibration: lockstitched lacing and constrictors don't shake loose the way half hitches can (Bureau of Naval Weapons 1962; Wikipedia).
+- **Heat, cold, water and wear:** Slippery cord: synthetic and waxed twines slip more, so use the double constrictor (Wikipedia 'Constrictor knot'). Rope under strain gets thinner, so seizings can slip (Wikipedia 'Seizing'). Over time and heat, wire insulation can [creep](../glossary.md#creep): AeroElectric has seen PTFE-insulated bundles 'tied so tightly that the insulation cold-flowed and allowed wires to short together'. Engine-bay conditions: nylon cable ties suffer from ozone, hydrocarbons and embrittlement as they lose plasticiser, while polyester flat lace lasts well (AeroElectric Connection). Heat: nylon braid ends can be sealed with a hot knife (NASA-STD-8739.4A §9.3.10), which also means synthetic cords melt near hot parts. Vibration: lockstitched lacing and constrictors don't shake loose the way half hitches can (Bureau of Naval Weapons 1962; Wikipedia).
 
 ## Making it
 
 - **Ways to make or get it:**
   - off-the-shelf part: twine, whipping or seizing twine, waxed lacing tape, tied by hand
-  - 3D print (FDM): printed helpers such as lacing-tape spools, wire harness jigs and tool handles, and printed parts with round bosses or grooves for a binding to sit in
+  - 3D print (FDM): printed helpers such as lacing-tape spools, wire harness jigs and tool handles, and printed parts with round [bosses](../glossary.md#boss) or grooves for a binding to sit in
 - **Printing it in one piece (print in place):** no: the knot is tied in cord; only helpers and the parts it is tied round can be printed.
 - **Tools:** None for the knot itself. A sharp knife to cut it off; two rods or spikes as handles (tied on with marlinespike hitches) to pull it really tight 'without injuring the hands' (Wikipedia 'Constrictor knot'); a pick or marlinspike to loosen a jammed one. For telephone-style lacing stitches, a cable sewing needle (Wikipedia 'Cable lacing'); for long harnesses, a harness forming board with pegs or springs to hold the wires (Bureau of Naval Weapons 1962).
 - **Difficulty:** easy to moderate: easy for the constrictor and spot ties (one knot, no tools); moderate for neat seizings and long runs of cable lacing, which take practice to keep even and tight.
@@ -232,15 +233,15 @@ Seizings and binding knots are not for heavy or critical loads (Wikipedia 'Seizi
 ## Related
 
 - Hose clamp (worm-drive clamp, ear clamp, spring hose clamp): the hardware version, for any hose that must stay tight under pressure
-- Linear ratchet (cable-tie ratchet): cable ties do the bundling job in seconds but leave a hard lump and sharp ends
+- Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): cable ties do the bundling job in seconds but leave a hard lump and sharp ends
 - Hook-and-loop fastener: reusable cable wraps for bundles that change often
 - Basic knots (overhand knot, half hitch, reef knot): the reef knot is also a binding knot, but far less secure than the constrictor
 - Rope-end finishing (whipping, heat-sealing, back splice, aglet): whipping binds a rope end for good, where a constrictor is a quick temporary binding
 - Rope splices (eye splice, short splice, braided-rope splice): a splice keeps nearly all of a rope's strength where a seized eye is only for light loads
-- Pole lashings (square, diagonal, shear and tripod lashings): wrap and frap poles into frames; the transom knot is a light version
+- Pole lashings (square, diagonal, [shear](../glossary.md#peel-vs-shear) and tripod lashings): wrap and frap poles into frames; the transom knot is a light version
 - Hitches to a post, rail, ring or eye (clove hitch): the clove hitch is the base of the spot tie and close cousin of the constrictor
 - Lacing (cord through rows of holes or eyelets): a different lacing, which pulls two edges together through holes
-- Cable gland and strain relief: takes the pull off wires where they enter a box, which lacing must not do
+- Cable [gland](../glossary.md#gland) and strain relief: takes the pull off wires where they enter a box, which lacing must not do
 - Spring clip clamp (clothes-peg clip, spring clamp): a quicker way to hold small parts while glue sets
 
 ## Make it yourself

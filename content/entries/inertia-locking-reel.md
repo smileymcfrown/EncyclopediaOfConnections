@@ -112,9 +112,10 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Elevator_speed_governor.jpg
 - https://www.youtube.com/watch?v=aunIE33GYZc
 research: research/connection-types/results/Inertialocking_reel_seatbelt_lock_centrifugal_catch.json
+glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
 
-A spring-return reel whose spool turns freely for slow movements, but whose built-in inertia sensor (a swinging pendulum, a rolling ball, or a flyweight or inertia wheel on the spool) throws a catch into ratchet teeth to lock it the moment the line is jerked or the vehicle decelerates sharply.
+A spring-return reel whose spool turns freely for slow movements, but whose built-in inertia sensor (a swinging pendulum, a rolling ball, or a flyweight or inertia wheel on the spool) throws a catch into [ratchet](../glossary.md#ratchet) teeth to lock it the moment the line is jerked or the vehicle decelerates sharply.
 
 **In plain words:** A spring-loaded reel, like the one inside a car seat belt, that lets the strap pull out smoothly when you pull gently and winds it back in, but catches and locks the instant the strap is jerked or the car brakes hard. **Proper term:** Emergency locking retractor (inertia reel).
 
@@ -122,7 +123,7 @@ A spring-return reel whose spool turns freely for slow movements, but whose buil
 
 ## How it works
 
-A spiral spring keeps turning the spool to wind the strap in, so slow pulls just unwind it against a light spring force (Wikipedia; SafetyRestore). In the strap-sensing (webbing-sensitive) lock, a weighted lever on the spool is held in by a small spring; if the strap is jerked, the spool spins fast, the weight is flung outwards (a small centrifugal clutch), and via a cam it pushes a pawl into a ratchet so the spool can't unwind any further (Wikipedia 'Seat belt'; SafetyRestore). Some designs use an inertia wheel that lags behind the accelerating spool instead (US patent 3,918,658). In the vehicle-sensing lock, a pendulum or ball swings when the car brakes hard or rolls over and pushes the pawl into the ratchet; when the pull eases the spool turns back a little and the pawl drops out, unlocking it (Wikipedia 'Seat belt'; SafetyRestore).
+A spiral spring keeps turning the spool to wind the strap in, so slow pulls just unwind it against a light spring force (Wikipedia; SafetyRestore). In the strap-sensing (webbing-sensitive) lock, a weighted lever on the spool is held in by a small spring; if the strap is jerked, the spool spins fast, the weight is flung outwards (a small centrifugal clutch), and via a cam it pushes a [pawl](../glossary.md#pawl) into a ratchet so the spool can't unwind any further (Wikipedia 'Seat belt'; SafetyRestore). Some designs use an inertia wheel that lags behind the accelerating spool instead (US patent 3,918,658). In the vehicle-sensing lock, a pendulum or ball swings when the car brakes hard or rolls over and pushes the pawl into the ratchet; when the pull eases the spool turns back a little and the pawl drops out, unlocking it (Wikipedia 'Seat belt'; SafetyRestore).
 
 ## Parts
 
@@ -141,7 +142,7 @@ Use it when a strap, cable or line must follow free, slow movement and stay taut
 
 ## When not to use it
 
-Never make your own for protecting people: use a certified seat belt or self-retracting lifeline (FMVSS 209; ANSI Z359.14; OSHA 1910.140). Don't rely on it to stop slow creep or a slowly sinking load, because a slow pull never triggers it; use a ratchet and pawl, a cam cleat, a brake or a self-locking worm or screw instead. For a strap that must stay fixed in length (e.g. holding a child seat), use automatic-locking mode or a ratchet strap (The Car Seat Lady). For limiting speed rather than stopping, use a centrifugal brake or speed governor; for engaging a drive at speed, use a centrifugal clutch.
+Never make your own for protecting people: use a certified seat belt or self-retracting lifeline (FMVSS 209; ANSI Z359.14; OSHA 1910.140). Don't rely on it to stop slow [creep](../glossary.md#creep) or a slowly sinking load, because a slow pull never triggers it; use a ratchet and pawl, a cam cleat, a brake or a [self-locking](../glossary.md#self-locking) worm or screw instead. For a strap that must stay fixed in length (e.g. holding a child seat), use automatic-locking mode or a ratchet strap (The Car Seat Lady). For limiting speed rather than stopping, use a centrifugal brake or speed governor; for engaging a drive at speed, use a centrifugal clutch.
 
 ## Details
 
@@ -155,9 +156,9 @@ Never make your own for protecting people: use a certified seat belt or self-ret
   - self-locking (holds under load, won't back-drive): when triggered, the pawl in the ratchet teeth holds the full crash or fall load (FMVSS 209; OSHA 1910.140)
   - one-way (moves freely one way, locks the other): when locked it still lets the strap wind in but not out, and in automatic-locking (ALR) mode it only gets shorter (The Car Seat Lady)
   - tensioning (takes up slack and holds): the spring winds up slack and keeps a light pull on the strap (FMVSS 209 sets 1 to 7 N)
-  - fail-safe or breakaway: it locks automatically, with no power, whenever the pull or the vehicle's deceleration is sudden, and unlocks by itself once the load eases (Wikipedia 'Seat belt'; SafetyRestore)
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: it locks automatically, with no power, whenever the pull or the vehicle's deceleration is sudden, and unlocks by itself once the load eases (Wikipedia 'Seat belt'; SafetyRestore)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the pawl drops into the ratchet teeth and blocks the spool
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the pawl drops into the ratchet teeth and blocks the spool
   - spring force (a spring or springy part presses it in place): the spiral spring keeps the strap wound in, and small springs keep the flyweight and pawl out of the teeth until a jerk overcomes them (SafetyRestore)
 - **Input and output:** Line pulled out (straight-line motion) -> spool rotation, 1 turn per spool circumference of line. Slow pull -> free rotation against a light spring; sudden pull, or vehicle deceleration or tilt -> locked. Shafts: the sensor, ratchet and spool share the spool axis (in line); the pendulum or ball sensor sits below it in the frame. Efficiency: not applicable. Back-drivable: the spring winds the spool back in; once locked, the load cannot drive it outwards (no) until the pull eases. For cars, it must lock before 25 mm of pay-out at 0.7 g (FMVSS 209).
 - **Power:** passive (no power needed): the spring, the inertia sensor and the pawl need no electricity. Exceptions: pretensioners fire a small explosive charge in a crash (one-shot) (Wikipedia 'Seat belt'), and some door-mounted belts use an electromagnet to stop locking while the door opens, designed so that a failure still lets a hard deceleration lock the belt (US patent 4,235,455).
@@ -183,7 +184,7 @@ Never make your own for protecting people: use a certified seat belt or self-ret
 
 ### 3D printing tips
 
-For a teaching model only, never for anything that holds a person or a heavy load. 1) Put a pivoting weighted lever (flyweight) on the spool with a light spring holding it in, and a ring of ratchet teeth inside the housing: spin slowly and it passes; jerk it and the weight swings out and catches (Wikipedia 'Seat belt'; SafetyRestore) ⚑ [uncertain: layout described from the car mechanism, not a tested printed design]. 2) Printed plastic weights are very light: a printed centrifugal-lock box 'doesn't work exactly perfect' because its printed balls lack mass, and its maker suggests steel or ceramic balls (about 2.79 mm, with about 0.41 mm clearance each side in the track) instead (Printables 'Box with Centrifugal Locks'); so embed a steel ball, nut or screw in the flyweight to make it heavier. 3) The trigger speed comes from the balance of flyweight force (mass x radius x speed squared) against its spring, the same balance as a centrifugal clutch (LNCT clutch notes): a heavier weight or a weaker spring makes it lock at a lower pull speed. 4) Use a ready-made spiral (clock) spring or a constant-force spring for the rewind, rather than a printed one ⚑ [uncertain]. 5) Make the pawl and ratchet teeth chunky and print them flat so the teeth are not split along layers ⚑ [uncertain: reasoning]. 6) A pendulum version needs the housing mounted upright; test that it doesn't lock when simply tilted a little (car rules allow 15 degrees; FMVSS 209).
+For a teaching model only, never for anything that holds a person or a heavy load. 1) Put a pivoting weighted lever (flyweight) on the spool with a light spring holding it in, and a ring of ratchet teeth inside the housing: spin slowly and it passes; jerk it and the weight swings out and catches (Wikipedia 'Seat belt'; SafetyRestore) ⚑ [uncertain: layout described from the car mechanism, not a tested printed design]. 2) Printed plastic weights are very light: a printed centrifugal-lock box 'doesn't work exactly perfect' because its printed balls lack mass, and its maker suggests steel or ceramic balls (about 2.79 mm, with about 0.41 mm [clearance](../glossary.md#clearance) each side in the track) instead (Printables 'Box with Centrifugal Locks'); so embed a steel ball, nut or screw in the flyweight to make it heavier. 3) The trigger speed comes from the balance of flyweight force (mass x radius x speed squared) against its spring, the same balance as a centrifugal clutch (LNCT clutch notes): a heavier weight or a weaker spring makes it lock at a lower pull speed. 4) Use a ready-made spiral (clock) spring or a constant-force spring for the rewind, rather than a printed one ⚑ [uncertain]. 5) Make the pawl and ratchet teeth chunky and print them flat so the teeth are not split along layers ⚑ [uncertain: reasoning]. 6) A pendulum version needs the housing mounted upright; test that it doesn't lock when simply tilted a little (car rules allow 15 degrees; FMVSS 209).
 
 ### Buying one (off-the-shelf parts)
 

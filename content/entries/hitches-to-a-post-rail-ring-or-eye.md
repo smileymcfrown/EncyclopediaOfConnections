@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:PalomarKnotSequence.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hitches_to_a_post_rail_ring_or_eye_clove_hitch_round_turn_and_two_half_hitches.json
+glossary: [form-fit--force-fit--material-bond, chamfer--fillet, infill, peel-vs-shear]
 ---
 
 A knot that ties a line directly to a post, rail, ring, bar, eye, log or a hole in a part, holding by the turns and tucks gripping the object and the rope itself, so it needs no hardware or tools and can be untied by hand; which hitch to use depends on what you tie to and whether you will adjust or release it.
@@ -171,7 +172,7 @@ Never for anything that holds a person (climbing, swings, rescue, lifting people
 - **Special behaviour:**
   - quick-release: the timber hitch 'cannot jam and may be instantly loosened' (Ashley, quoted by Wikipedia 'Timber hitch'); a cleat hitch is often left without a locking half hitch where the line must be let go quickly under load (Animated Knots 'Cleat Hitch'); half hitches can be tied with a bight (a loop) instead of the end (Animated Knots 'Round Turn & Two Half Hitches')
 - **How it holds:**
-  - friction or clamping (force-fit): turns round the object and tucks under the standing part grip by friction; more turns give more grip (Wikipedia 'Round turn and two half-hitches' relates it to the capstan equation)
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): turns round the object and tucks under the standing part grip by friction; more turns give more grip (Wikipedia 'Round turn and two half-hitches' relates it to the capstan equation)
   - shape (the parts interlock; form-fit): a hitch closed round a ring, or through an eye or hole, cannot come off over the object; the Palomar's loop passes round the hook or ring (Wikipedia 'Palomar knot')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
@@ -198,7 +199,7 @@ Never for anything that holds a person (climbing, swings, rescue, lifting people
 
 ### 3D printing tips
 
-1) Make posts, pegs and rails round: the clove hitch 'is also unreliable when used on a square or rectangular post, rather than round' (Wikipedia 'Clove hitch'). 2) Give them a generous diameter and smooth edges: on a small spar a round turn 'makes a stronger knot and dissipates the wear' (Ashley via Wikipedia); round or chamfer the edges of holes and eyes, and for abrasive string such as Kevlar, 'tie the string around a washer to distribute the loads across the hole' instead of straight through a hole in a plastic part (gm0 'Rigging'). 3) If you need to re-tension the line, clamp it instead of tying it: 'Clamping a string with a bolt instead of tying it around something makes it much easier to quickly change the tension' (gm0). 4) Strength direction: a printed peg sticking out of a plate tends to snap along a layer line when a rope pulls it sideways, since 'FFF prints are stronger in one direction than another' (Prusa); print pegs lying down, or use a screw, bolt or metal pin as the post ⚑ [uncertain]. 5) Printed horn cleats: use PETG, ASA, ABS or nylon outdoors, because PLA 'is not ideal for sun, heat, or long-term outdoor tension'; add extra walls and infill, mount with proper screws, and treat it as 'not certified marine, climbing, towing, or life-safety hardware' (Printables 'Sun Sail Rope Cleat / Small Horn Cleat'). 6) Make rings and eyes big enough: a round turn passes the cord through twice, and a Palomar's loop must pass over the whole object (Animated Knots) ⚑ [uncertain: no source gives a hole size]. 7) Typical failures: sharp hole edges cutting the cord, a square peg letting a clove hitch roll off, a thin printed eye splitting along its layers, and PLA cleats creeping in the sun.
+1) Make posts, pegs and rails round: the clove hitch 'is also unreliable when used on a square or rectangular post, rather than round' (Wikipedia 'Clove hitch'). 2) Give them a generous diameter and smooth edges: on a small spar a round turn 'makes a stronger knot and dissipates the wear' (Ashley via Wikipedia); round or [chamfer](../glossary.md#chamfer--fillet) the edges of holes and eyes, and for abrasive string such as Kevlar, 'tie the string around a washer to distribute the loads across the hole' instead of straight through a hole in a plastic part (gm0 'Rigging'). 3) If you need to re-tension the line, clamp it instead of tying it: 'Clamping a string with a bolt instead of tying it around something makes it much easier to quickly change the tension' (gm0). 4) Strength direction: a printed peg sticking out of a plate tends to snap along a layer line when a rope pulls it sideways, since 'FFF prints are stronger in one direction than another' (Prusa); print pegs lying down, or use a screw, bolt or metal pin as the post ⚑ [uncertain]. 5) Printed horn cleats: use PETG, ASA, ABS or nylon outdoors, because PLA 'is not ideal for sun, heat, or long-term outdoor tension'; add extra walls and [infill](../glossary.md#infill), mount with proper screws, and treat it as 'not certified marine, climbing, towing, or life-safety hardware' (Printables 'Sun Sail Rope Cleat / Small Horn Cleat'). 6) Make rings and eyes big enough: a round turn passes the cord through twice, and a Palomar's loop must pass over the whole object (Animated Knots) ⚑ [uncertain: no source gives a hole size]. 7) Typical failures: sharp hole edges cutting the cord, a square peg letting a clove hitch roll off, a thin printed eye splitting along its layers, and PLA cleats creeping in the sun.
 
 ### Buying one (off-the-shelf parts)
 
@@ -230,7 +231,7 @@ Never trust a home-made knot to hold a person: climbing, rescue, swings and lift
 - Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik): when the line must be pulled tight, adjusted or grip another rope
 - Fixed loop knots (bowline, figure-eight loop, alpine butterfly): make a loop to drop over a post or clip to a ring instead of tying round it
 - Bends for joining two cords (sheet bend, double fisherman's knot, water knot): join two lines instead of tying one to an object
-- Pole lashings (square, diagonal, shear and tripod lashings): started and finished with clove hitches and timber hitches
+- Pole lashings (square, diagonal, [shear](../glossary.md#peel-vs-shear) and tripod lashings): started and finished with clove hitches and timber hitches
 - Stopper knots and cord-end anchors: stop a cord pulling back through a hole instead of tying round something
 - Cam cleat and Clam cleat: hardware that holds a hauled line with no knot and releases with a flick
 - Eye bolts, screw eyes and hooks: the rings and eyes these hitches are often tied to

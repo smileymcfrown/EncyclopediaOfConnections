@@ -142,13 +142,16 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=97t7Xj_iBv0
 research: research/connection-types/results/Bistable_compliant_mechanism_snapthrough_switch_or_hinge.json
+glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linkage, actuator, flexure, compliant-mechanism,
+  living-hinge, cantilever, damping, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue, brittle--ductile,
+  stress-concentration]
 ---
 
 A part that bends instead of using hinges and has two resting shapes, so pushing it past a tipping point makes it snap quickly into the other shape and stay there with no latch, spring or power holding it.
 
-**In plain words:** A one-piece springy part that happily rests in either of two positions and snaps from one to the other when pushed past a middle point, like a snap hair clip, a snap bracelet or a light switch that clicks on and off. **Proper term:** Bistable compliant mechanism (snap-through mechanism).
+**In plain words:** A one-piece springy part that happily rests in either of two positions and snaps from one to the other when pushed past a middle point, like a snap hair clip, a snap bracelet or a light switch that clicks on and off. **Proper term:** [Bistable](../glossary.md#bistable) [compliant mechanism](../glossary.md#compliant-mechanism) (snap-through mechanism).
 
-**Also called:** bistable mechanism; snap-through mechanism or snap-through switch; snap-action flexure or snap-action mechanism; bistable switch; bistable hinge, snap hinge or butterfly hinge (flip-top bottle caps); bistable clip or clasp; curved-beam bistable mechanism or double curved beam (engineering literature); buckled-beam bistable mechanism; von Mises truss (the classic two-bar snap-through model); tape spring or bistable strip (snap bracelet, tape measure style); snap dome or click dome (dome-shaped version); multistable mechanism (versions with more than two stable positions); hair clip mechanism (HCM, robotics research term); slap bracelet or snap bracelet (everyday name for the strip version).
+**Also called:** bistable mechanism; snap-through mechanism or snap-through switch; snap-action [flexure](../glossary.md#flexure) or snap-action mechanism; bistable switch; bistable hinge, snap hinge or butterfly hinge (flip-top bottle caps); bistable clip or clasp; curved-beam bistable mechanism or double curved beam (engineering literature); buckled-beam bistable mechanism; von Mises truss (the classic two-bar snap-through model); tape spring or bistable strip (snap bracelet, tape measure style); snap dome or click dome (dome-shaped version); multistable mechanism (versions with more than two stable positions); hair clip mechanism (HCM, robotics research term); slap bracelet or snap bracelet (everyday name for the strip version).
 
 ## How it works
 
@@ -167,11 +170,11 @@ Single piece in its simplest form (a pre-curved beam, a pair of beams joined at 
 
 ## When to use it
 
-Use a bistable compliant mechanism when you want something to stay in one of two positions without a latch or power: an on/off switch or toggle, a clip or clasp that snaps open and shut, a lid or hinge that stays open or closed, a gripper that snaps shut on contact, or a valve or relay that only uses power to change state. It is ideal for 3D printing because it can be one piece with no assembly, no backlash and nothing to lubricate (BYU CMR), and its fast snap gives a clear click and a burst of force (Chi et al. 2022).
+Use a bistable compliant mechanism when you want something to stay in one of two positions without a latch or power: an on/off switch or toggle, a clip or clasp that snaps open and shut, a lid or hinge that stays open or closed, a gripper that snaps shut on contact, or a valve or relay that only uses power to change state. It is ideal for 3D printing because it can be one piece with no assembly, no [backlash](../glossary.md#backlash) and nothing to lubricate (BYU CMR), and its fast snap gives a clear click and a burst of force (Chi et al. 2022).
 
 ## When not to use it
 
-Avoid it for heavy loads or where it must hold against forces larger than its snap force (use a latch or an over-centre toggle clamp). Avoid printed plastic flexures for parts that must switch many thousands of times in PLA (use a pinned spring toggle, a metal spring or PP/nylon) and for parts held in the bent state in heat for long periods, where creep weakens the snap. Where you need many set positions, use a detent or ratchet; where you need a firm adjustable clamp, use a cam lever or toggle clamp; for a push-once-to-latch, push-again-to-release action, use a push-push latch.
+Avoid it for heavy loads or where it must hold against forces larger than its snap force (use a latch or an [over-centre](../glossary.md#over-centre) toggle clamp). Avoid printed plastic flexures for parts that must switch many thousands of times in PLA (use a pinned spring toggle, a metal spring or PP/nylon) and for parts held in the bent state in heat for long periods, where [creep](../glossary.md#creep) weakens the snap. Where you need many set positions, use a [detent](../glossary.md#detent) or [ratchet](../glossary.md#ratchet); where you need a firm adjustable clamp, use a cam lever or toggle clamp; for a push-once-to-latch, push-again-to-release action, use a push-push latch.
 
 ## Details
 
@@ -189,18 +192,18 @@ Avoid it for heavy loads or where it must hold against forces larger than its sn
   - quick-release: bistable clips and cable clips open and close with a push of the fingers (Cableclips, Printables)
 - **How it holds:**
   - spring force (a spring or springy part presses it in place): each stable position is a low point in the stored spring energy of the flexing part itself
-  - shape (the parts interlock; form-fit): clips and hinges also use their closed shape to wrap around or cover what they hold
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): clips and hinges also use their closed shape to wrap around or cover what they hold
 - **Input and output:** not applicable as a transmission. It acts as a threshold or trigger: a small push that exceeds the snap-through force -> a fast, larger jump to the other position, which can give an amplified output force during the snap (Chi et al. 2022). Not back-drivable in the usual sense: a load smaller than the snap-through force leaves it where it is; a larger one flips it.
-- **Power:** passive (no power needed). When combined with an actuator (motor, magnet, shape-memory wire, air pressure) power is needed only to switch it, because it can apply a contact force without continued power (Qiu et al. 2004); if power is lost it keeps its last state
+- **Power:** passive (no power needed). When combined with an [actuator](../glossary.md#actuator) (motor, magnet, shape-memory wire, air pressure) power is needed only to switch it, because it can apply a contact force without continued power (Qiu et al. 2004); if power is lost it keeps its last state
 - **Load:** light: it holds only against forces smaller than its snap-through force, and printed versions are small plastic flexures. Strongest along its snapping direction up to that force; weak against sideways loads, which can twist the flexing beams so they no longer snap cleanly (Qiu et al. 2004)
-- **Play and precision:** Play: none, because there are no pin joints; compliant mechanisms reduce or remove backlash (BYU CMR, Printables). Repeatability: each stable position is set by the part's shape, so it returns to much the same place every time while the material stays springy; plastic creep or fatigue shifts the positions and weakens the snap over time ⚑ [uncertain]. Misalignment: off-axis pushes can twist the beams instead of snapping them (Qiu et al. 2004)
+- **Play and precision:** Play: none, because there are no pin joints; compliant mechanisms reduce or remove backlash (BYU CMR, Printables). [Repeatability](../glossary.md#repeatability--accuracy): each stable position is set by the part's shape, so it returns to much the same place every time while the material stays springy; plastic creep or [fatigue](../glossary.md#fatigue) shifts the positions and weakens the snap over time ⚑ [uncertain]. [Misalignment](../glossary.md#misalignment): off-axis pushes can twist the beams instead of snapping them (Qiu et al. 2004)
 - **Taking it apart:** tool-free quick release: as a clip or clasp it opens and closes by hand; as a switch or hinge it is built into the part itself (one piece), so there is nothing to take apart
-- **How often it can be reused:** many times with a tough, springy material (polypropylene, PETG, nylon, spring steel); only a few tens of cycles with brittle PLA flexures, e.g. about 40 to 50 cycles for early all-flexure versions of one printed switch (Gamma4D, Printables) and about 25 cycles for a single-strand FDM living hinge (Hubs)
+- **How often it can be reused:** many times with a tough, springy material (polypropylene, PETG, nylon, spring steel); only a few tens of cycles with [brittle](../glossary.md#brittle--ductile) PLA flexures, e.g. about 40 to 50 cycles for early all-flexure versions of one printed switch (Gamma4D, Printables) and about 25 cycles for a single-strand FDM [living hinge](../glossary.md#living-hinge) (Hubs)
 - **Sealing:** none
 - **Adjustable:** no: the snap force and the two positions are set by the geometry (beam thickness, curve height, hinge angle, material); changing them means reprinting. Some research designs tune or switch off bistability with magnets or added parts (BYU bistable-to-monostable magnetic hinge; Chi et al. 2022)
 - **Access needed:** not applicable
 - **Materials:** Polypropylene is the best choice for moulded or milled flexing hinges (revpart; BYU recommends milled polypropylene sheet for its bistable switch). For FDM printing: PETG, ASA or ABS (Cableclips; PLA 'is not elastic enough'), nylon (Hubs), TPU for flexible dome and auxetic versions (PLA 'too brittle', Printables 604690). Metal versions use thin spring or stainless steel (slap bracelets use steel bands about 0.15 mm thick; Wikipedia) and robotics 'hair clip' mechanisms use PETG sheet about 0.38 to 0.76 mm thick, carbon fibre or steel (arXiv 2311.03212). Silicon for microscopic (MEMS) versions (Qiu et al. 2004)
-- **Heat, cold, water and wear:** Plastic flexures fatigue at their stress concentrations under repeated flexing (Wikipedia, Compliant mechanism) and plastic springs slowly deform (creep) under steady strain (Hackaday); PLA is the worst common filament for this (Hackaday; Cableclips). Heat speeds up creep and softens plastics, so avoid hot cars and sunny windows for PLA versions ⚑ [uncertain]. Energy is partly lost in each flex, which adds damping (Wikipedia, Compliant mechanism). Steel versions resist creep but can rust or crack through the covering (Wikipedia, Slap bracelet).
+- **Heat, cold, water and wear:** Plastic flexures fatigue at their [stress concentrations](../glossary.md#stress-concentration) under repeated flexing (Wikipedia, Compliant mechanism) and plastic springs slowly deform (creep) under steady strain (Hackaday); PLA is the worst common filament for this (Hackaday; Cableclips). Heat speeds up creep and softens plastics, so avoid hot cars and sunny windows for PLA versions ⚑ [uncertain]. Energy is partly lost in each flex, which adds [damping](../glossary.md#damping) (Wikipedia, Compliant mechanism). Steel versions resist creep but can rust or crack through the covering (Wikipedia, Slap bracelet).
 
 ## Making it
 
@@ -227,7 +230,7 @@ Mostly made, not bought. Related off-the-shelf items: 'snap dome' or 'metal dome
 
 - Pre-curved beam: with Q = curve (apex) height / thickness, Q below 1.23 bends smoothly, 1.23 to 2.31 snaps but springs back (monostable), and above 2.31 it is bistable (Chi et al. 2022, Advanced Materials, citing Qiu et al.)
 - A single curved beam also needs its twisting (second) buckling mode blocked, e.g. by guiding the centre in a slot or, better, by joining two parallel curved beams at their centres; a gap of five beam thicknesses between the beams worked (Qiu, Lang and Slocum 2004)
-- Linkage with flexible hinges (von Mises truss): it becomes bistable when the links' incline angle is larger than a critical angle arccos(L1/L) (Chi et al. 2022)
+- [Linkage](../glossary.md#linkage) with flexible hinges (von Mises truss): it becomes bistable when the links' incline angle is larger than a critical angle arccos(L1/L) (Chi et al. 2022)
 - Link-and-spring version: bistable when the rigid link length is greater than the spring's initial length (Chi et al. 2022)
 - Curved strips and plates (snap bracelet, tape measure): bistable when width x square root of (curvature / thickness) is much greater than 1, i.e. wide, thin, strongly curved strips (Chi et al. 2022)
 - FDM living hinges 0.4 to 0.6 mm thick with at least two layers; SLS 0.3 to 0.8 mm; FDM single-strand hinges last about 25 cycles and SLS 30 to 50 before failure (Hubs)
@@ -247,7 +250,7 @@ The snap releases stored energy suddenly, so a large or stiff one can pinch fing
 - Living hinge: a single thin flexing hinge with no stable positions of its own; add a snap geometry to make it bistable
 - Push-push latch: also has two states, but switches with the same push each time using a heart-shaped track
 - Click-pen mechanism: a rotating-cam indexer that alternates between two states on each push
-- Cantilever snap fit: a springy hook that snaps into a catch to join parts, rather than switching a part between two resting shapes
+- [Cantilever](../glossary.md#cantilever) snap fit: a springy hook that snaps into a catch to join parts, rather than switching a part between two resting shapes
 - Tape-spring hinge: a curved metal strip that folds flat and snaps back straight, used for deployable structures
 - Ball detent: a spring-loaded ball that clicks into several set positions
 - Constant-force and negative-stiffness mechanisms: use the same buckling physics to flatten or reverse a spring's force curve

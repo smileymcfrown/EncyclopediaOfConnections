@@ -106,17 +106,19 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 research: research/connection-types/results/Bidirectional_antibackdrive_clutch_reverseinput_blocking_clutch.json
+glossary: [backlash, self-locking, ratchet, pawl, freewheel, sprag, torque, crank, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
+  circlip, creep, perimeters, regulator]
 ---
 
 A 1:1 shaft coupling with wedging rollers (or a coil spring) that passes turning from the input to the output in both directions, but jams the output against a fixed housing whenever the output itself tries to turn, so a load cannot drive the motor or handle backwards.
 
 **In plain words:** A coupling that lets a motor or handle turn the output either way, but locks solid if the load tries to turn it back, so a raised arm, seat or blind stays put when you let go. **Proper term:** Bidirectional anti-back-drive clutch (reverse-input blocking clutch; non-back-drivable clutch).
 
-**Also called:** reverse-input blocking clutch; reverse input lock clutch / reverse input prevention clutch; anti-reverse input clutch; non-back-drivable clutch (NBDC) / non-back-drivable mechanism; irreversible roller clutch; back-drive prevention clutch; two-way anti-reverse transmission (Nguyen Duc Thang's animation title); lock-type torque diode (NTN's product term); seat lifter clutch; wrap clutch for anti-reverse transmission (window-blind version with a coil spring).
+**Also called:** reverse-input blocking clutch; reverse input lock clutch / reverse input prevention clutch; anti-reverse input clutch; non-back-drivable clutch (NBDC) / non-back-drivable mechanism; irreversible roller clutch; back-drive prevention clutch; two-way anti-reverse transmission (Nguyen Duc Thang's animation title); lock-type [torque](../glossary.md#torque) diode (NTN's product term); seat lifter clutch; wrap clutch for anti-reverse transmission (window-blind version with a coil spring).
 
 ## How it works
 
-With nothing turning the input, springs hold the rollers lightly in wedge-shaped gaps between the output hub and the fixed housing, with gaps facing both ways, so if the load twists the output in either direction a roller jams and locks the output to the housing. When the input turns, fingers on its cage first push the rollers out of their wedges (unlocking), and after a small free angle the cage catches the output and drives it (NTN lock-type torque diode, Figs. 1-3). Thang describes it as having the self-locking of a worm drive but at a 1:1 ratio. In the coil-spring version, the load's twist expands the spring against a fixed drum so it grips, while turning the input releases the spring and drives through it (Nien Made, EP 1 498 570).
+With nothing turning the input, springs hold the rollers lightly in wedge-shaped gaps between the output hub and the fixed housing, with gaps facing both ways, so if the load twists the output in either direction a roller jams and locks the output to the housing. When the input turns, fingers on its cage first push the rollers out of their wedges (unlocking), and after a small free angle the cage catches the output and drives it (NTN lock-type torque diode, Figs. 1-3). Thang describes it as having the [self-locking](../glossary.md#self-locking) of a worm drive but at a 1:1 ratio. In the coil-spring version, the load's twist expands the spring against a fixed drum so it grips, while turning the input releases the spring and drives through it (Nien Made, EP 1 498 570).
 
 ## Parts
 
@@ -125,8 +127,8 @@ A small assembly that acts as one unit: a fixed outer ring or housing; an output
 ## Everyday examples
 
 - Car seat height lever: pump it up or down and the seat stays exactly where it is (NTN seat lifter clutch)
-- Window blinds worked by a crank or rod that stay where you leave them, because a wrap-spring anti-reverse clutch stops the blind's weight turning the mechanism (EP 1 498 570)
-- Hospital beds, car window regulators and powered shutters (applications listed in US 7,832,542)
+- Window blinds worked by a [crank](../glossary.md#crank) or rod that stay where you leave them, because a wrap-spring anti-reverse clutch stops the blind's weight turning the mechanism (EP 1 498 570)
+- Hospital beds, car window [regulators](../glossary.md#regulator) and powered shutters (applications listed in US 7,832,542)
 - Powered prosthetic hands and wrists that keep their grip with the motor off (Liu et al. 2024)
 
 ## When to use it
@@ -148,20 +150,20 @@ Not for smooth, controlled lowering of a load that pulls in the same direction a
 - **Special behaviour:**
   - self-locking (holds under load, won't back-drive): the output jams against the fixed housing whichever way the load pushes
   - hand-release only (locks under load, releases when a person operates it): turning the input (crank, lever or motor) is the only way to release it
-  - fail-safe or breakaway: it is passive, so a motor-driven load stays held when power is cut; Thang notes it lets a servo motor rest with its supply switched off
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: it is passive, so a motor-driven load stays held when power is cut; Thang notes it lets a servo motor rest with its supply switched off
 - **How it holds:**
-  - friction or clamping (force-fit): rollers or wedges jam by friction between the output hub and the fixed ring
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): rollers or wedges jam by friction between the output hub and the fixed ring
   - spring force (a springy part presses it in place): small springs keep the rollers ready in their wedges
 - **Input and output:** Input rotation in either direction -> output rotation in the same direction at the same speed (1:1); shafts in line. Efficient, because nothing slides while it drives: about 0.95 for Controzzi's roller design, as cited by Liu et al. (2024), whereas Liu et al. list worm gears and high-ratio reducers as the usual, less attractive alternatives. Back-drivable: no, the output locks in both directions. A small free angle (lost motion) occurs each time the input changes direction, e.g. a 7° idle angle and 14° at the input in the Liu et al. prosthetic-wrist clutch. Variant: a 'free-type' unit lets the output spin freely instead of locking, but still never drives the input (NTN free-type torque diode).
 - **Power:** passive (no power needed); it holds the load whether or not the motor is powered, so if power is lost it stays locked
 - **Load:** Light to medium. Catalogue examples: 4.9 N·m allowed load torque (NTN lock-type torque diode TDL28), 29.4 N·m (swing-type TDS26), and 80 N·m braking force for a car seat-lifter clutch about 50 mm across (NTN TDLU); a prosthetic-wrist design locked about 0.6 N·m (Liu et al. 2024). It holds twist in both directions; bending and end loads must be carried by separate bearings.
-- **Play and precision:** Noticeable: there is a free angle every time the input changes direction, because the cage must push the rollers out before it catches the output (NTN; 7° idle and 14° input backlash in Liu et al.). Once locked it holds firmly, although the rollers wedge in a little further as load builds. Input and output shafts need to be well aligned and centred ⚑ [uncertain].
+- **Play and precision:** Noticeable: there is a free angle every time the input changes direction, because the cage must push the rollers out before it catches the output (NTN; 7° idle and 14° input [backlash](../glossary.md#backlash) in Liu et al.). Once locked it holds firmly, although the rollers wedge in a little further as load builds. Input and output shafts need to be well aligned and centred ⚑ [uncertain].
 - **Taking it apart:** removable: it is a self-contained unit fitted between shaft ends and fixed to a frame
 - **How often it can be reused:** many times: the unit can be unbolted and refitted; its life limit is wear of the rollers, ramps and springs
 - **Sealing:** none as a rule: catalogue units have oil-impregnated bearings inside a closed housing, but no rated seal is claimed (NTN) ⚑ [uncertain]
 - **Adjustable:** no: how firmly it locks and how easily it unlocks are set by the design (roller size, ramp angle and springs)
 - **Access needed:** end of a tube or shaft: the unit fits between the ends of the input and output shafts
-- **Materials:** Hardened bearing-steel rollers and rings with spring-steel springs; a lightweight prosthetic version used 7075 aluminium for the main parts, stainless steel pins and wavy springs of 301 stainless steel (Liu et al. 2024). Printed plastic can make a demonstrator, but plastics creep under constant load (DuPont), and the Liu et al. design needed a friction coefficient of about 0.25 at the wedges, which plastic surfaces may not reliably give ⚑ [uncertain].
+- **Materials:** Hardened bearing-steel rollers and rings with spring-steel springs; a lightweight prosthetic version used 7075 aluminium for the main parts, stainless steel pins and wavy springs of 301 stainless steel (Liu et al. 2024). Printed plastic can make a demonstrator, but plastics [creep](../glossary.md#creep) under constant load (DuPont), and the Liu et al. design needed a friction coefficient of about 0.25 at the wedges, which plastic surfaces may not reliably give ⚑ [uncertain].
 - **Heat, cold, water and wear:** It holds by friction, so oil on the locking faces, wear or polished surfaces can let it slip (Liu et al. stress that the friction coefficient must meet a minimum); grease belongs only where the design intends it (Liu et al. grease the spring groove). Printed plastic versions creep under constant load and lose grip (DuPont); heat makes this worse ⚑ [uncertain]. Cold and heat change spring force and lubricant thickness, which shifts the unlocking torque ⚑ [uncertain].
 
 ## Making it
@@ -172,16 +174,16 @@ Not for smooth, controlled lowering of a load that pulls in the same direction a
   - 3D print (FDM): demonstration models or very light-duty units, using steel dowel pins as rollers ⚑ [uncertain]
   - 3D print (resin): accurate small demonstration models ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the rollers should be steel pins and springs must be added, so the housing, cam and cage are printed as separate parts and assembled
-- **Tools:** screwdriver or hex keys to mount the housing; some units may also need circlip pliers or a small press for shafts and bearings ⚑ [uncertain]
+- **Tools:** screwdriver or hex keys to mount the housing; some units may also need [circlip](../glossary.md#circlip) pliers or a small press for shafts and bearings ⚑ [uncertain]
 - **Difficulty:** hard: it needs hard, accurate wedge surfaces and a well-chosen ramp angle to lock reliably yet unlock easily, so most makers should buy a unit (search 'reverse input blocking clutch' or 'torque diode') or use a worm drive; a printed demonstrator with steel pins as rollers is possible for very light loads ⚑ [uncertain]
 
 ### 3D printing tips
 
-Treat a printed version as a light-duty demonstrator. Print the fixed ring, the output cam and the input cage lying flat, so the round and ramped faces are smooth vertical walls made of continuous perimeters. Use steel dowel pins or needle rollers as the rollers, because printed rollers are rarely round or hard enough ⚑ [uncertain]. Leave at least 0.3 mm clearance between the cage and the parts it moves past (Prusa's starting value for moving parts). Keep each wedge gap shallow enough that friction locks it: the Liu et al. design needed a friction coefficient of about 0.25 between wedge and ring and suggests roughening the contact faces (for example by sandblasting) to raise friction. Give the cage a deliberate free angle so it pushes the rollers out of their wedges before it catches the output (NTN; Liu et al.). Push each roller into its wedge with a light spring; stronger springs raise the torque needed to unlock (Liu et al.). Expect printed plastic ramps to creep if a load hangs on them for hours (DuPont), so test with the real load overnight. Keep grease off the locking faces. For anything heavier than a demonstration, buy a unit or use a worm drive.
+Treat a printed version as a light-duty demonstrator. Print the fixed ring, the output cam and the input cage lying flat, so the round and ramped faces are smooth vertical walls made of continuous [perimeters](../glossary.md#perimeters). Use steel dowel pins or needle rollers as the rollers, because printed rollers are rarely round or hard enough ⚑ [uncertain]. Leave at least 0.3 mm [clearance](../glossary.md#clearance) between the cage and the parts it moves past (Prusa's starting value for moving parts). Keep each wedge gap shallow enough that friction locks it: the Liu et al. design needed a friction coefficient of about 0.25 between wedge and ring and suggests roughening the contact faces (for example by sandblasting) to raise friction. Give the cage a deliberate free angle so it pushes the rollers out of their wedges before it catches the output (NTN; Liu et al.). Push each roller into its wedge with a light spring; stronger springs raise the torque needed to unlock (Liu et al.). Expect printed plastic ramps to creep if a load hangs on them for hours (DuPont), so test with the real load overnight. Keep grease off the locking faces. For anything heavier than a demonstration, buy a unit or use a worm drive.
 
 ### Buying one (off-the-shelf parts)
 
-Search terms: 'reverse input blocking clutch', 'reverse input lock clutch', 'anti-reverse input clutch', 'non-back-drivable clutch', 'lock-type torque diode' (NTN product name) and 'free-type torque diode' (output freewheels instead of locking), 'seat lifter clutch', 'bi-directional clutch', 'wrap spring clutch' (roller-blind and window-blind clutches). Alternatives: self-locking worm gearmotor, spring-applied (power-off) electromagnetic brake, one-way needle roller clutch (holds one direction only).
+Search terms: 'reverse input blocking clutch', 'reverse input lock clutch', 'anti-reverse input clutch', 'non-back-drivable clutch', 'lock-type torque diode' (NTN product name) and 'free-type torque diode' (output [freewheels](../glossary.md#freewheel) instead of locking), 'seat lifter clutch', 'bi-directional clutch', 'wrap spring clutch' (roller-blind and window-blind clutches). Alternatives: self-locking worm gearmotor, spring-applied (power-off) electromagnetic brake, one-way needle roller clutch (holds one direction only).
 
 ## Rules of thumb
 
@@ -204,11 +206,11 @@ Because it holds the load when power is off, a jammed mechanism or trapped hand 
 
 - Worm drive (worm and worm wheel): also can't be back-driven, but reduces speed a lot and is less efficient
 - Lead screw and nut: self-locking straight-line version of the same idea
-- Roller clutch (one-way bearing) and sprag clutch: lock in one direction only and let the other freewheel
+- Roller clutch (one-way bearing) and [sprag](../glossary.md#sprag) clutch: lock in one direction only and let the other freewheel
 - Free-type torque diode: the output can spin freely but still can't drive the input (NTN)
 - Wrap-spring clutch: the coil-spring version of the same wedging idea
 - Electromagnetic brake (power-off, spring-applied): holds with power off using springs and needs power to release
-- Ratchet and pawl: holds one way only, in tooth steps, with clicks
+- [Ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl): holds one way only, in tooth steps, with clicks
 - Binding-plate lock (tilting friction plate): a straight-line, one-direction friction lock
 - Torque limiter: the opposite goal; it lets go when overloaded
 

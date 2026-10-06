@@ -137,6 +137,8 @@ sources:
 - https://de.wikipedia.org/wiki/Schrittgetriebe
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Intermittent_gear_mutilated_or_parttoothed_gear.json
+glossary: [backlash, self-locking, axial--radial, reciprocating, detent, ratchet, pawl, torque, gear-ratio, crank, clearance,
+  form-fit--force-fit--material-bond, circlip, repeatability--accuracy, print-in-place, elephants-foot, overhang--bridging]
 ---
 
 A driving gear with teeth on only part of its rim turns its partner gear while those teeth pass, then a smooth arc on the toothless part slides against the partner and holds it still, so steady rotation becomes stop-go steps.
@@ -151,7 +153,7 @@ While the toothed part of the driving gear passes, the two gears mesh like ordin
 
 ## Parts
 
-A few parts: a driving gear with one or more toothed sections and smooth locking arcs (a holding ring) on the rest of its rim; a driven gear with matching curved locking surfaces between its teeth (or a spring roller detent that holds it instead); two shafts with bearings held at a fixed distance. It is often built in two layers: one layer of teeth that drive and one layer of arcs that lock.
+A few parts: a driving gear with one or more toothed sections and smooth locking arcs (a holding ring) on the rest of its rim; a driven gear with matching curved locking surfaces between its teeth (or a spring roller [detent](../glossary.md#detent) that holds it instead); two shafts with bearings held at a fixed distance. It is often built in two layers: one layer of teeth that drive and one layer of arcs that lock.
 
 ## Everyday examples
 
@@ -165,28 +167,28 @@ Use it for simple stop-go motion at low speed and light load, especially counter
 
 ## When not to use it
 
-Avoid it at high speed or with heavy or fast-moving loads, because the teeth pick up the output suddenly and cause impacts, noise and chipped teeth; use a Geneva drive or star wheel for a gentler start and stop, or a cam indexer for fully controlled motion. Use a stepper motor if the step size or direction must change on command, and a ratchet and pawl if the input is a back-and-forth lever rather than steady rotation.
+Avoid it at high speed or with heavy or fast-moving loads, because the teeth pick up the output suddenly and cause impacts, noise and chipped teeth; use a Geneva drive or star wheel for a gentler start and stop, or a cam indexer for fully controlled motion. Use a stepper motor if the step size or direction must change on command, and a [ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl) if the input is a back-and-forth lever rather than steady rotation.
 
 ## Details
 
 - **What it does (jobs):**
   - change the kind of motion: turns steady rotation into stop-go steps (or, in variants, into back-and-forth motion)
   - click into set positions: the output stops and is held at set positions, as in the digit wheels of a mechanical counter
-  - change speed or turning force: while the teeth mesh it works as an ordinary gear pair with the usual gear ratio
+  - change speed or turning force: while the teeth mesh it works as an ordinary gear pair with the usual [gear ratio](../glossary.md#gear-ratio)
 - **Movement:** rotate: continuous rotation in; stepped rotation out, one step per toothed section, with the step size set by how many teeth are left; variants give stepped rotation in opposite directions (mutilated bevel gears) or back-and-forth straight motion (a part-toothed pinion driving two racks in turn)
 - **Directions it can move (degrees of freedom):** 1: the output is either driven by the teeth or held by the locking arcs, so its position is always tied to the input's angle
 - **Special behaviour:**
-  - motion conversion (e.g. rotary to linear): continuous rotation becomes intermittent rotation; variants turn it into reversing or reciprocating motion (507 Mechanical Movements nos. 74 and 114)
+  - motion conversion (e.g. rotary to linear): continuous rotation becomes intermittent rotation; variants turn it into reversing or [reciprocating](../glossary.md#reciprocating) motion (507 Mechanical Movements nos. 74 and 114)
   - indexing (clicks into set positions): the output stops at fixed positions; this is how the carry between digit wheels works in mechanical counters
-  - self-locking (holds under load, won't back-drive): during each pause the locking arcs hold the output so a load can't turn it; RoyMech notes the output is always under the input's control
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): during each pause the locking arcs hold the output so a load can't turn it; RoyMech notes the output is always under the input's control
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it converts and passes on rotation
-  - shape (the parts interlock; form-fit): during the pause, the smooth arc of the driver sits against a matching curved surface of the driven gear and blocks it
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): during the pause, the smooth arc of the driver sits against a matching curved surface of the driven gear and blocks it
   - spring force (a spring or springy part presses it in place): in the roller-detent version, a detent holds the output during the pause instead of a locking ring (Bickford) ⚑ [uncertain: spring not described]
 - **Input and output:** Continuous rotation -> intermittent rotation (or reversing or reciprocating motion in variants). Output step = (number of teeth in the driver's toothed section / number of teeth on the driven gear) x 360 degrees; for example two teeth turn an 8-tooth gear by two teeth, a quarter turn (woodgears.ca). While meshed, the speed ratio is the ordinary gear ratio (Bickford), and the share of each turn spent moving versus pausing is set by how much of the driver's rim is toothed; it can give long moves with short pauses and one, two or three pauses per output turn, which a Geneva cannot. Efficiency: RoyMech calls mutilated gears efficient; no figure found ⚑ [uncertain], and the locking arcs add some sliding friction during the pause. Shafts: parallel (spur gears), intersecting (bevel gears), or gear to rack for straight motion. Back-drivable: no during the pause (the arcs lock the output); while the teeth are meshed it behaves like any gear pair ⚑ [uncertain].
-- **Power:** passive (no power needed); usually turned by a motor, crank or the previous counter wheel, and if power is lost the output stays where it is
+- **Power:** passive (no power needed); usually turned by a motor, [crank](../glossary.md#crank) or the previous counter wheel, and if power is lost the output stays where it is
 - **Load:** Light: RoyMech says mutilated gears stand up well to the loads found in instruments and counters, but are subject to large impact loads and accelerations at high driving speeds, so Genevas or star wheels are preferred for high speed and power. Bickford says that at high speed or high load 'its name is well deserved'. The weak points are the first tooth of each toothed section, which takes the impact, and tooth tips that can collide (top) if the output is not held properly during the pause. osamutake calls it unsuitable for heavy loads or high speeds.
-- **Play and precision:** RoyMech credits mutilated gears with good indexing accuracy, since the gears themselves are accurate and the output is always under the input's control. While moving it has the normal backlash of a gear pair; during the pause the locking arcs hold the output, and any clearance there lets it wobble. It tolerates little error in the centre distance or in the timing (phase) of the first tooth meeting the output ⚑ [uncertain], because a late or early tooth hits a tooth tip instead of a gap.
+- **Play and precision:** RoyMech credits mutilated gears with good indexing [accuracy](../glossary.md#repeatability--accuracy), since the gears themselves are accurate and the output is always under the input's control. While moving it has the normal [backlash](../glossary.md#backlash) of a gear pair; during the pause the locking arcs hold the output, and any [clearance](../glossary.md#clearance) there lets it wobble. It tolerates little error in the centre distance or in the timing (phase) of the first tooth meeting the output ⚑ [uncertain], because a late or early tooth hits a tooth tip instead of a gap.
 - **Taking it apart:** removable: the gears sit on shafts in a frame and can be taken apart (retaining rings, screws or push-fits)
 - **How often it can be reused:** many times: it can be dismantled and reassembled repeatedly; the limit is wear of the first teeth and the locking arcs
 - **Sealing:** none: it is an open gear mechanism; it does not seal anything
@@ -203,21 +205,21 @@ Avoid it at high speed or with heavy or fast-moving loads, because the teeth pic
   - CNC: ⚑ [uncertain] ordinary gear-cutting then removing teeth, no specific example opened
   - laser cut: ⚑ [uncertain] flat gear profiles could be cut from acrylic or plywood, no tested example found
   - off-the-shelf part: ⚑ [uncertain] complete mechanical counters contain them; separate part-toothed gears are not a common catalogue item
-- **Printing it in one piece (print in place):** no ⚑ [uncertain]: every printable example found was printed as separate gears and assembled on shafts (osamutake holds them with retaining rings); a print-in-place version should be possible like other printed gear sets, but none was found
+- **Printing it in one piece (print in place):** no ⚑ [uncertain]: every printable example found was printed as separate gears and assembled on shafts (osamutake holds them with retaining rings); a [print-in-place](../glossary.md#print-in-place) version should be possible like other printed gear sets, but none was found
 - **Tools:** A screwdriver or hex key for the frame; pliers for retaining rings (osamutake's printed models are held with retaining rings) ⚑ [uncertain: tool not named]; for wooden versions, woodworking tools (Matthias Wandel cut away teeth with a Forstner bit on a drill press and shaped them on a strip sander)
 - **Difficulty:** moderate: the gears are ordinary and print or cut easily, but you must add locking arcs and get the timing right so the first tooth enters cleanly; copying a working printed model first is the easiest start
 
 ### 3D printing tips
 
-1) Start by printing and studying a working design: osamutake's 'Educational Gear Examples' sets include two-layer intermittent gears, an intermittent lantern gear and an internal Geneva on the same base plates. 2) Always add locking surfaces: make the toothless part of the driver a smooth arc centred on the driver's shaft, and give the driven gear matching curved faces between its engaging teeth, so the output is held during the pause (osamutake; RoyMech; Bickford). A two-layer layout is easiest to print: one layer carries the driving teeth, the other the locking arcs; for a counter carry, cut back every other tooth of the driven gear on one layer (karakurist.jp; woodgears.ca). 3) Check the hand-over by turning it slowly by hand: 507 Mechanical Movements' animators had to alter a few rack teeth to stop the gears jamming at the transition points, so trim or round the first and last tooth of each toothed section if they catch ⚑ [uncertain: trimming amount]. 4) osamutake's print settings: well-dried PETG for accuracy, 0.1 or 0.08 mm layers for smooth faces, slow speed on overhangs, and 'random' seam position so seams wear in instead of catching. 5) Clearances: about 0.15 mm radial clearance between gears and printed shafts (osamutake); sand off stringing on shafts and widen tight holes with a thin round file if elephant's foot (a squashed first layer) makes them bind. 6) Print gears flat so the teeth are built from full layers ⚑ [uncertain]. 7) Run it slowly and lightly loaded; a motor at high speed will chip the first teeth.
+1) Start by printing and studying a working design: osamutake's 'Educational Gear Examples' sets include two-layer intermittent gears, an intermittent lantern gear and an internal Geneva on the same base plates. 2) Always add locking surfaces: make the toothless part of the driver a smooth arc centred on the driver's shaft, and give the driven gear matching curved faces between its engaging teeth, so the output is held during the pause (osamutake; RoyMech; Bickford). A two-layer layout is easiest to print: one layer carries the driving teeth, the other the locking arcs; for a counter carry, cut back every other tooth of the driven gear on one layer (karakurist.jp; woodgears.ca). 3) Check the hand-over by turning it slowly by hand: 507 Mechanical Movements' animators had to alter a few rack teeth to stop the gears jamming at the transition points, so trim or round the first and last tooth of each toothed section if they catch ⚑ [uncertain: trimming amount]. 4) osamutake's print settings: well-dried PETG for accuracy, 0.1 or 0.08 mm layers for smooth faces, slow speed on [overhangs](../glossary.md#overhang--bridging), and 'random' seam position so seams wear in instead of catching. 5) Clearances: about 0.15 mm [radial](../glossary.md#axial--radial) clearance between gears and printed shafts (osamutake); sand off stringing on shafts and widen tight holes with a thin round file if [elephant's foot](../glossary.md#elephants-foot) (a squashed first layer) makes them bind. 6) Print gears flat so the teeth are built from full layers ⚑ [uncertain]. 7) Run it slowly and lightly loaded; a motor at high speed will chip the first teeth.
 
 ### Buying one (off-the-shelf parts)
 
-Shafts or axles, ball bearings or bushings, retaining rings (circlips or e-clips); ordinary spur or bevel gears that you modify by removing teeth, as Matthias Wandel did on wooden 8-tooth gears; complete mechanical counters (search 'mechanical counter', 'revolution counter', 'tally counter') which contain this mechanism ⚑ [uncertain]; a gear motor or hand crank to drive it.
+Shafts or axles, ball bearings or bushings, retaining rings ([circlips](../glossary.md#circlip) or e-clips); ordinary spur or bevel gears that you modify by removing teeth, as Matthias Wandel did on wooden 8-tooth gears; complete mechanical counters (search 'mechanical counter', 'revolution counter', 'tally counter') which contain this mechanism ⚑ [uncertain]; a gear motor or hand crank to drive it.
 
 ## Rules of thumb
 
-- Always give it holding (locking) surfaces: RoyMech warns that running without holding rings is undesirable at any speed, because the driver's teeth will sooner or later hit the tips of the output's teeth, and since they meet near the line between the centres even a small input torque produces large wedging (toggle) forces that damage the teeth. Bickford agrees that some holding arrangement is essential.
+- Always give it holding (locking) surfaces: RoyMech warns that running without holding rings is undesirable at any speed, because the driver's teeth will sooner or later hit the tips of the output's teeth, and since they meet near the line between the centres even a small input [torque](../glossary.md#torque) produces large wedging (toggle) forces that damage the teeth. Bickford agrees that some holding arrangement is essential.
 - Each tooth on the driver's toothed section moves the output on by one tooth, so output step = (teeth in the section / teeth on the output) x 360 degrees; two teeth turn an 8-tooth gear a quarter turn (woodgears.ca).
 - Counter carry example: a 20-tooth driver with an 8-tooth driven gear (every other tooth cut back on one layer) passes motion on for only 1/10 of a turn (36 degrees); a 24-tooth driver gives 1/12 (karakurist.jp).
 - Keep speed and load low; for high speed or high power use a Geneva or star wheel instead (RoyMech; Bickford; osamutake).

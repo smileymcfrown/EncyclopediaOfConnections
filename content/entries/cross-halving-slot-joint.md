@@ -132,6 +132,8 @@ sources:
 - https://en.wikipedia.org/wiki/Medium-density_fibreboard
 - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
 research: research/connection-types/results/Crosshalving_slot_joint_eggcrate_joint.json
+glossary: [clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, creep, elephants-foot,
+  kerf]
 ---
 
 Two flat parts each get a slot as wide as the other part is thick and half as deep as the part is tall, so they slot together into a flush cross that needs no glue or fasteners.
@@ -172,19 +174,19 @@ Avoid it where the parts will be pulled apart along the slot direction or twiste
 - **Special behaviour:**
   - self-aligning or self-centring: the slots guide the parts into one position, at the planned angle with top and bottom edges flush, so a whole grid squares itself as it is pushed together (flaring the slot mouths helps them find each other; Slicer for Fusion 360 'Notch Factor and Notch Angle')
 - **How it holds:**
-  - shape (the parts interlock; form-fit): each part sits in the other's slot, which stops sliding and turning in the plane of the parts
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): each part sits in the other's slot, which stops sliding and turning in the plane of the parts
   - friction or clamping (force-fit): a snug slot grips the other part's faces and stops it sliding back out (Ponoko nodes; FlatFitFab 'friction fit together along slits')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** light to medium: Popular Woodworking calls a set of egg-crate joints 'a very strong and stable structure', but a single halved joint 'is relatively weak and prone to splitting' because it has no shoulders to stop twisting (Wikipedia, citing Rogowski). Strong when the load pushes the parts further into their slots (e.g. a shelf resting on a notched upright) and in the plane of the grid; weak when pulled apart along the slot direction (friction only) and against twisting. Each part is cut halfway through at the joint, so it is weaker in bending there; FlatFitFab found planar parts 'tend to fracture local to slits'.
-- **Play and precision:** small to noticeable, depending on the slot width against the real sheet thickness: sheet sold as 1/4 in acrylic is often 6 mm and acrylic is commonly made to a thickness tolerance of plus or minus 0.02 in (McMaster-Carr figures quoted by Charles Guan), so slots drawn to the nominal size can be loose or too tight. The joint locates the parts repeatably once the fit is right; bumps (nodes) or springy fingers beside the slot remove the play (Ponoko; springFit).
+- **Play and precision:** small to noticeable, depending on the slot width against the real sheet thickness: sheet sold as 1/4 in acrylic is often 6 mm and acrylic is commonly made to a thickness [tolerance](../glossary.md#tolerance) of plus or minus 0.02 in (McMaster-Carr figures quoted by Charles Guan), so slots drawn to the nominal size can be loose or too tight. The joint locates the parts repeatably once the fit is right; bumps (nodes) or springy fingers beside the slot remove the play (Ponoko; springFit).
 - **Taking it apart:** removable: dry-fitted joints pull apart by sliding the parts back along the slots, which is why slot-together furniture and models pack flat (flatfab); glued joints are permanent.
 - **How often it can be reused:** many times for acrylic, metal or well-fitted printed parts; plywood, MDF and card slots gradually crush and loosen with repeated assembly ⚑ [uncertain].
 - **Sealing:** none
 - **Adjustable:** no
 - **Access needed:** not applicable: nothing is fastened from behind; you just need room to slide one part onto the other along the direction of the slots.
 - **Materials:** Plywood, MDF, solid wood, acrylic and other sheet plastics, cardboard and card, sheet metal, and 3D-printed plates. Cardboard tolerates slightly narrow slots that squeeze, while plywood needs slightly wide ones because its thickness varies (Slicer for Fusion 360 help); acrylic needs rounded slot corners because it cracks at sharp ones (Ponoko); flatfab lists paper, plastic, wood, steel and even stone.
-- **Heat, cold, water and wear:** Friction-fit wooden joints change with humidity: MDF can swell and break when wet and warp in humid air if unsealed (Wikipedia 'Medium-density fibreboard'), and solid wood swells and shrinks with moisture so a snug joint can become tight or loose ⚑ [uncertain]. Acrylic softens above about 105 C (85 to 165 C for commercial grades) and laser-cut acrylic edges can craze when exposed to solvents, even glass cleaner (Wikipedia 'Poly(methyl methacrylate)'). Printed plastic friction fits may relax (creep) and loosen over time ⚑ [uncertain]. Vibration can walk a loose dry-fit joint apart ⚑ [uncertain].
+- **Heat, cold, water and wear:** Friction-fit wooden joints change with humidity: MDF can swell and break when wet and warp in humid air if unsealed (Wikipedia 'Medium-density fibreboard'), and solid wood swells and shrinks with moisture so a snug joint can become tight or loose ⚑ [uncertain]. Acrylic softens above about 105 C (85 to 165 C for commercial grades) and laser-cut acrylic edges can craze when exposed to solvents, even glass cleaner (Wikipedia 'Poly(methyl methacrylate)'). Printed plastic friction fits may relax ([creep](../glossary.md#creep)) and loosen over time ⚑ [uncertain]. Vibration can walk a loose dry-fit joint apart ⚑ [uncertain].
 
 ## Making it
 
@@ -201,7 +203,7 @@ Avoid it where the parts will be pulled apart along the slot direction or twiste
 
 ### 3D printing tips
 
-1) Print each part lying flat on the bed: the slots are then cut through the layers, the parts are strongest in their own plane and no supports are needed (edditive 'Slot Together Model Aircraft Stand'; Printables 'Flat-Pack Fir' prints flat). 2) Slot clearance: Hubs suggests 0.5 mm for interlocking FDM parts (0.2 mm for SLA and SLS); a maker who started at 0.5 mm found it loose and went down to 0.3 mm (Printables 'Weight Rack (Slot-Together Design, No Hardware)', read via the Printables API). Print a test pair first, because printers differ. 3) The same maker removed chamfers from the slot edges because they made the parts come loose more easily; a small flare only at the slot mouth (Slicer for Fusion 360's notch flaring) helps find the slot without loosening the fit ⚑ [uncertain for printed parts]. 4) Measure the printed plate's real thickness and make the slot match it; elephant's foot on the first layers can make the bottom of a plate thicker and jam the slot ⚑ [uncertain]. 5) Leave plenty of solid material beyond the end of each slot, since parts tend to break at the slot (FlatFitFab). 6) If the fit is tight, trim with a file or knife rather than forcing it (edditive).
+1) Print each part lying flat on the bed: the slots are then cut through the layers, the parts are strongest in their own plane and no supports are needed (edditive 'Slot Together Model Aircraft Stand'; Printables 'Flat-Pack Fir' prints flat). 2) Slot [clearance](../glossary.md#clearance): Hubs suggests 0.5 mm for interlocking FDM parts (0.2 mm for SLA and SLS); a maker who started at 0.5 mm found it loose and went down to 0.3 mm (Printables 'Weight Rack (Slot-Together Design, No Hardware)', read via the Printables API). Print a test pair first, because printers differ. 3) The same maker removed [chamfers](../glossary.md#chamfer--fillet) from the slot edges because they made the parts come loose more easily; a small flare only at the slot mouth (Slicer for Fusion 360's notch flaring) helps find the slot without loosening the fit ⚑ [uncertain for printed parts]. 4) Measure the printed plate's real thickness and make the slot match it; [elephant's foot](../glossary.md#elephants-foot) on the first layers can make the bottom of a plate thicker and jam the slot ⚑ [uncertain]. 5) Leave plenty of solid material beyond the end of each slot, since parts tend to break at the slot (FlatFitFab). 6) If the fit is tight, trim with a file or knife rather than forcing it (edditive).
 
 ### Buying one (off-the-shelf parts)
 
@@ -211,7 +213,7 @@ None needed. Optional: wood glue for permanent joints. Parametric generators and
 
 - Slot depth: half the height of each part, one slot from the top edge and one from the bottom (Wikipedia 'Halved joint': 'most commonly ... half the width of the members'; Boxes.py TrayInsert cuts slots 0.5 x wall height).
 - Slot width equals the real thickness of the mating sheet; decrease it slightly so card squeezes, increase it slightly for plywood whose thickness varies (Autodesk Slicer for Fusion 360 help, 'Slot Offset').
-- Example laser allowance: for 6 mm plywood CMU draws slots 6.2 mm wide, which cut about 6.4 mm wide with a 0.2 mm kerf, to allow for thickness variation (CMU 16-223 'Flat-Pack Joinery').
+- Example laser allowance: for 6 mm plywood CMU draws slots 6.2 mm wide, which cut about 6.4 mm wide with a 0.2 mm [kerf](../glossary.md#kerf), to allow for thickness variation (CMU 16-223 'Flat-Pack Joinery').
 - Flare the mouths of the slots (Slicer for Fusion 360 uses a notch angle of 45 degrees) so large grids do not rack and jam during assembly (Slicer for Fusion 360 help).
 - Acrylic: never leave sharp inside corners at the bottom of a slot; a radius of 0.5 mm or more greatly reduces cracking, and friction bumps (nodes) should be under 0.15 mm per side (Ponoko, 2010 and 2016).
 - In a cross (slotting) joint the gripping faces are the sheet's surfaces, whose spacing varies with sheet thickness, so fits are less predictable than tab joints where both gripping edges are laser-cut (Ponoko).
@@ -238,7 +240,7 @@ None known for the joint itself. Cutting deep slots uses table saws, routers or 
 - Snap-lock sheet joint (barbed or spring finger): adding a springy finger beside the slot turns a cross-halving into a joint that clicks tight (springFit 'cross joint')
 - Crush ribs and spring-fit features (compliant press fit): small bumps or springy features that make any slot grip tighter (Ponoko nodes)
 - Mortise and tenon (incl. wedged, drawbored and tusk tenons): stronger against pulling apart and twisting because the tenon has shoulders and can be wedged or pinned
-- T-slot joint (captive nut and bolt joint): when the crossing parts must be clamped rather than just friction-fitted
+- T-slot joint ([captive nut](../glossary.md#captive-nut) and bolt joint): when the crossing parts must be clamped rather than just friction-fitted
 - Bridle joint: a woodworking relative listed alongside the halved joint, where one member's slot wraps around the other (Wikipedia 'Halved joint' see also)
 
 ## Make it yourself

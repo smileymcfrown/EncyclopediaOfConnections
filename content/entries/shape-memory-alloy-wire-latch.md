@@ -103,11 +103,12 @@ sources:
   opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shapememoryalloy_wire_latch_nitinol_muscle_wire.json
+glossary: [self-locking, stroke, detent, pawl, actuator, solenoid, flexure, form-fit--force-fit--material-bond, fatigue]
 ---
 
 A spring holds a small catch shut, and a thin nickel-titanium wire hooked to the catch shortens by a few percent when an electric current heats it, pulling the catch free so the lid, door or pin is released without a sound.
 
-**In plain words:** A hair-thin metal wire that shrinks a little when electricity warms it, tugging a spring-held catch open silently, with no motor or coil. **Proper term:** Shape-memory-alloy (SMA) wire latch release (nitinol actuator wire latch).
+**In plain words:** A hair-thin metal wire that shrinks a little when electricity warms it, tugging a spring-held catch open silently, with no motor or coil. **Proper term:** Shape-memory-alloy (SMA) wire latch release (nitinol [actuator](../glossary.md#actuator) wire latch).
 
 **Also called:** muscle wire / 'muscle wire latch'; nitinol wire / NiTi wire / nickel-titanium actuator wire; memory metal / memory wire / smart metal (Wikipedia, Shape-memory alloy); SMA actuator / SMA latch release / SMA trigger release; Flexinol (brand, Dynalloy); BioMetal (brand); Muscle Wires (brand); SMA pin puller (spacecraft release devices); ThinLock (brand, Miga Motor Company SMA latch release); 'Titanmuscle' latch (unbranded ready-made muscle-wire latches sold online, Printables 1740874).
 
@@ -117,7 +118,7 @@ Nitinol, an alloy of roughly equal parts nickel and titanium, has two crystal fo
 
 ## Parts
 
-A few parts: (1) the SMA wire, often 0.1-0.25 mm thick, with a crimp at each end that is both the mechanical anchor and the electrical contact; (2) the catch (a latch, pawl, slider, ball-detent release or pin) that the wire pulls; (3) a return spring (bias spring) that keeps the catch engaged and stretches the wire back out as it cools; (4) the frame with anchor posts, a guide and an end stop; (5) the driver: a battery or supply, a switch such as a MOSFET, and a timer that limits how long current flows. Ready-made modules combine the wire, spring and driver circuit (Miga S125: 3-wire interface, 'Power, Ground, and Enable', nitinolactuators.com).
+A few parts: (1) the SMA wire, often 0.1-0.25 mm thick, with a crimp at each end that is both the mechanical anchor and the electrical contact; (2) the catch (a latch, [pawl](../glossary.md#pawl), slider, ball-detent release or pin) that the wire pulls; (3) a return spring (bias spring) that keeps the catch engaged and stretches the wire back out as it cools; (4) the frame with anchor posts, a guide and an end stop; (5) the driver: a battery or supply, a switch such as a MOSFET, and a timer that limits how long current flows. Ready-made modules combine the wire, spring and driver circuit (Miga S125: 3-wire interface, 'Power, Ground, and Enable', nitinolactuators.com).
 
 ## Everyday examples
 
@@ -132,7 +133,7 @@ Use it when you need a tiny, light, silent electric release in a tight space: hi
 
 ## When not to use it
 
-Avoid it when you need fast repeated cycling (each reset waits for the wire to cool), a long stroke without levers, a large pulling force, precise positioning, or low power use; use a servo or motorised latch for long throws, a solenoid latch for fast simple push-pull, or an electro-permanent magnet for no-bolt holding. Avoid it in hot places near the wire's transformation temperature. For a one-off release that never needs resetting, a burn-wire release is simpler. Never let the wire carry the latch's load itself.
+Avoid it when you need fast repeated cycling (each reset waits for the wire to cool), a long [stroke](../glossary.md#stroke) without levers, a large pulling force, precise positioning, or low power use; use a servo or motorised latch for long throws, a [solenoid](../glossary.md#solenoid) latch for fast simple push-pull, or an electro-permanent magnet for no-bolt holding. Avoid it in hot places near the wire's transformation temperature. For a one-off release that never needs resetting, a burn-wire release is simpler. Never let the wire carry the latch's load itself.
 
 ## Details
 
@@ -143,15 +144,15 @@ Avoid it when you need fast repeated cycling (each reset waits for the wire to c
 - **Directions it can move (degrees of freedom):** 1: the catch slides or swings along one path, pulled by the wire one way and pushed back by the spring the other way
 - **Special behaviour:**
   - quick-release: the catch lets go about a second after current is applied (Dynalloy sizes its current table for a 1 second contraction)
-  - self-locking (holds under load, won't back-drive): with no power the spring-held catch carries the load; the wire only triggers the release
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): with no power the spring-held catch carries the load; the wire only triggers the release
   - motion conversion (e.g. rotary to linear): electrical heating is converted directly into a straight pull with no motor or gears; the movement is 'silent, smooth, and powerful' (Dynalloy)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): a catch, pawl or ball detent sits in a notch
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): a catch, pawl or ball [detent](../glossary.md#detent) sits in a notch
   - spring force (a spring or springy part presses it in place): a bias spring keeps the catch engaged and re-stretches the cooled wire
 - **Input and output:** Not a transmission. As an actuator: electric current (heat) -> straight pull of about 3-4% of the wire length with a normal bias spring, about 4% with a hanging weight, and up to about 7% with a leaf spring whose force falls as the wire shortens (Dynalloy). Pull force at the recommended 172 MPa: about 80 g for 0.076 mm wire, 330 g for 0.15 mm and 930 g for 0.25 mm (Dynalloy). Energy efficiency is 'relatively low' compared with conventional actuators (Wikipedia, Shape-memory alloy). Back-drivable: yes when cool (the bias spring stretches it, which is how it resets); forcing it backwards while it is hot and pulling can overstress and damage the wire (Dynalloy).
 - **Power:** powered (needs a pulse of current to release; no power to stay locked). Typical drive: about 410 mA for 1 s for 0.15 mm Flexinol, about 320 mA for 0.13 mm (Dynalloy). If power is lost it stays latched, because the spring holds the catch (Surface Book: 'held in place by a spring, with the mechanism being unlocked by a piece of muscle wire', Hackaday, 2015). If the latch must stay open, the wire must be kept hot, which Dynalloy suggests doing with a larger heating current followed by a smaller holding current.
 - **Load:** The wire's pull is light, from grams to about 2 kg for 0.25-0.38 mm wire (Dynalloy table), but the latch can hold light to medium loads because the load goes into the catch and frame, not the wire. Keep the catch's friction under load well below the wire's pull, or it will not release; ready-made SMA latch modules range from about 0.25 lb to 125 lb of force (nitinolactuators.com), and the Miga S125 module pulls up to 2.0 lb over 3.2 mm (Miga).
-- **Play and precision:** Not a locating joint. The wire's length depends on its temperature, so its position is not precise unless temperature is controlled with feedback (Dynalloy). Give the catch a clear margin of overlap and the wire spare stroke, because the stroke can shrink slightly with use (Dynalloy; functional fatigue, Wikipedia, Shape-memory alloy).
+- **Play and precision:** Not a locating joint. The wire's length depends on its temperature, so its position is not precise unless temperature is controlled with feedback (Dynalloy). Give the catch a clear margin of overlap and the wire spare stroke, because the stroke can shrink slightly with use (Dynalloy; functional [fatigue](../glossary.md#fatigue), Wikipedia, Shape-memory alloy).
 - **Taking it apart:** tool-free quick release: it opens on an electrical pulse and relatches by itself; the wire is crimped in and can be replaced
 - **How often it can be reused:** many times: 'repeatable motion from the wire for tens of millions of cycles is reasonable' at suitable stress and temperature, but at higher stresses or strains 'good motion may be obtained for only hundreds or a few thousands of cycles' (Dynalloy)
 - **Sealing:** none: the mechanism is open; the wire itself resists corrosion (Dynalloy)
@@ -166,7 +167,7 @@ Avoid it when you need fast repeated cycling (each reset waits for the wire to c
   - off-the-shelf part: SMA actuator wire, or a ready-made SMA latch or actuator module
   - 3D print (FDM): frame, catch, lever and anchor posts (e.g. a printed mount for ready-made muscle-wire latches, Printables 1740874)
   - laser cut: flat frames, levers and catches in acrylic or plywood ⚑ [uncertain: no specific example opened]
-- **Printing it in one piece (print in place):** no: the frame and catch are printed as parts, and the wire, crimps and a bias spring are fitted afterwards; a single printed flexure catch that also acts as the return spring is possible in principle ⚑ [uncertain: no tested design found]
+- **Printing it in one piece (print in place):** no: the frame and catch are printed as parts, and the wire, crimps and a bias spring are fitted afterwards; a single printed [flexure](../glossary.md#flexure) catch that also acts as the return spring is possible in principle ⚑ [uncertain: no tested design found]
 - **Tools:** crimping tool and crimps (not solder or glue), hard wire cutters for stainless-steel wire (Flexinol 'will damage' copper-wire cutters, Dynalloy), screwdriver; soldering iron for the driver circuit
 - **Difficulty:** moderate: the parts are cheap and simple, but crimping hair-thin wire, sizing the current so the wire is not burned out, and getting enough movement from a 3-5% contraction take care and testing
 

@@ -116,6 +116,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 research: research/connection-types/results/Butterfly_key_bowtie_key.json
+glossary: [stiffness, tolerance, form-fit--force-fit--material-bond, spline, chamfer--fillet, undercut, peel-vs-shear]
 ---
 
 A bow-tie-shaped key, wide at both ends and narrow in the middle, is fitted into a matching pocket that spans a joint or crack, so its wide ends lock into both sides and stop them pulling apart; used to stop cracks in wooden slabs and to join CNC-cut or 3D-printed panels.
@@ -126,7 +127,7 @@ A bow-tie-shaped key, wide at both ends and narrow in the middle, is fitted into
 
 ## How it works
 
-The key is two dovetails joined at their narrow ends. When it sits in its pocket across the seam, each wide 'wing' is trapped in one part, so pulling the parts apart would mean crushing the pocket walls or snapping the key's narrow neck (Wikipedia 'Butterfly joint'; WikiHouse bow-tie tests). In wood the key's grain runs from end to end, across the crack, because wood hardly changes length along its grain; a key cut the other way would move with the slab and not hold the crack (Katz-Moses Tools). In CNC plywood building systems the keys are tapped into matching holes on both faces of neighbouring blocks and carry both pulling and sliding (shear) loads between them (WikiHouse).
+The key is two dovetails joined at their narrow ends. When it sits in its pocket across the seam, each wide 'wing' is trapped in one part, so pulling the parts apart would mean crushing the pocket walls or snapping the key's narrow neck (Wikipedia 'Butterfly joint'; WikiHouse bow-tie tests). In wood the key's grain runs from end to end, across the crack, because wood hardly changes length along its grain; a key cut the other way would move with the slab and not hold the crack (Katz-Moses Tools). In CNC plywood building systems the keys are tapped into matching holes on both faces of neighbouring blocks and carry both pulling and sliding ([shear](../glossary.md#peel-vs-shear)) loads between them (WikiHouse).
 
 ## Parts
 
@@ -145,7 +146,7 @@ Use a butterfly key to stop a crack or check in a wide board or slab from openin
 
 ## When not to use it
 
-Not for a crack that is still moving because the wood is wet: dry the wood first ⚑ [uncertain]. Not for joints that must come apart often: use screws, cam locks or a sliding dovetail. Not where the joint bends out of its plane: a surface key only holds one face, so use a spline, a bolted plate or keys on both faces (Popular Woodworking). For filling a missing chunk, use a Dutchman patch instead. For thin printed parts, formed interlocking edges (a dovetail or puzzle cut) avoid a separate part (Formlabs; Boxes.py dovetail edges).
+Not for a crack that is still moving because the wood is wet: dry the wood first ⚑ [uncertain]. Not for joints that must come apart often: use screws, cam locks or a sliding dovetail. Not where the joint bends out of its plane: a surface key only holds one face, so use a [spline](../glossary.md#spline), a bolted plate or keys on both faces (Popular Woodworking). For filling a missing chunk, use a Dutchman patch instead. For thin printed parts, formed interlocking edges (a dovetail or puzzle cut) avoid a separate part (Formlabs; Boxes.py dovetail edges).
 
 ## Details
 
@@ -156,13 +157,13 @@ Not for a crack that is still moving because the wood is wet: dry the wood first
 - **Special behaviour:**
   - none: it is a static joint with no clever behaviour
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the wide wings are trapped in pockets on each side of the seam (Wikipedia)
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the wide wings are trapped in pockets on each side of the seam (Wikipedia)
   - material bond (glue, solvent or melting): woodworking keys are glued into the pocket (Rockler; Popular Woodworking)
   - friction or clamping (force-fit): CNC and printed keys are a tight tap-in or press fit, used dry (WikiHouse assembly guide; Printables 'Gridfinity Refined')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Medium: strong against the parts pulling apart across the seam (tension) and sliding along it (shear) in the panel's plane; weak against lifting or bending out of the plane, which only glue or a tight fit resists ⚑ [uncertain]. WikiHouse tests on 18 mm Metsä plywood: one bow tie in tension failed at 7.4-9.0 kN (about 750-920 kgf) by crushing and shearing at the contact faces; three bow ties together took 19.2-24.1 kN; in shear, the plywood bow ties took 10.8-13.5 kN per shear plane (four bow ties, two per face, joined three mock columns, so about two per shear plane ⚑ [uncertain]) and OSB ones 16.6 kN, failing at the narrow neck (Granello, WikiHouse 'Bow ties subjected to tensile forces' and 'Bow ties subjected to shear forces'). A thin surface key only holds the top of a thick slab, so through-cracks need keys on both faces (Popular Woodworking).
-- **Play and precision:** small: gaps between key and pocket allow a little slip; WikiHouse measured a slip stiffness of about 1.4-1.7 kN/mm for one 18 mm plywood bow tie in tension and a design value of 1.5 kN/mm (WikiHouse 'Bow ties'). Glued wooden inlays have no play. Printed keys are tuned by scaling: e.g. scale the pocket to 100.5% for a looser fit (Printables 'Bowtie (connector)'), or print keys at 101-104% and pick the ones that fit (Printables 'Harbor Freight Workbench Grid for Gridfinity Refined').
+- **Play and precision:** small: gaps between key and pocket allow a little slip; WikiHouse measured a slip [stiffness](../glossary.md#stiffness) of about 1.4-1.7 kN/mm for one 18 mm plywood bow tie in tension and a design value of 1.5 kN/mm (WikiHouse 'Bow ties'). Glued wooden inlays have no play. Printed keys are tuned by scaling: e.g. scale the pocket to 100.5% for a looser fit (Printables 'Bowtie (connector)'), or print keys at 101-104% and pick the ones that fit (Printables 'Harbor Freight Workbench Grid for Gridfinity Refined').
 - **Taking it apart:** permanent when glued (woodworking inlays); removable when fitted dry, e.g. 3D-printed baseplate connectors that can be pushed back out ⚑ [uncertain]; semi-permanent for WikiHouse bow-ties malleted flush into building blocks ⚑ [uncertain]
 - **How often it can be reused:** once when glued; a few to many times for dry printed or plywood keys, which slowly loosen as the pocket walls crush ⚑ [uncertain]
 - **Sealing:** none: it holds parts together but doesn't seal the gap; cracks are often filled separately (Popular Woodworking prefers not to fill with epoxy)
@@ -185,7 +186,7 @@ Not for a crack that is still moving because the wood is wet: dry the wood first
 
 ### 3D printing tips
 
-1) Fit: printed keys need tuning. Print the key and use the same shape as a negative in the slicer, scaling the negative to about 100.5% for a looser fit (Printables 'Bowtie (connector)'); or print several keys at 101%, 103% and 104% and use the one that snaps in (Printables 'Harbor Freight Workbench Grid for Gridfinity Refined'); Gridfinity Refined's author suggests printing a few test keys and scaling them if they don't fit. 2) Orientation: print keys flat on the bed so their layers run along the key; layer bonds are much weaker (PLA about 55% of flat strength in CNC Kitchen's test), and the narrow neck is the likely place for a printed key to break ⚑ [uncertain]. 3) Round the sharp corners of the wings slightly (a remix added fillets for easier assembly; Printables 'Bowtie Connector Remix') and chamfer the bottom edges so it starts into the pocket (Katz-Moses, for wood). 4) Formlabs rates separate 'key joints' as not ideal for 3D printing, because every extra part adds tolerance variation, so test-print one joint first. 5) Material: PLA and PLA+ are tuned in Gridfinity Refined for 0.4 or 0.6 mm nozzles; printed PLA softens at about 60 °C (CNC Kitchen). 6) Router templates for wooden bow-ties can also be printed (Printables 'Butterfly or Bowtie Router Inlay Template').
+1) Fit: printed keys need tuning. Print the key and use the same shape as a negative in the slicer, scaling the negative to about 100.5% for a looser fit (Printables 'Bowtie (connector)'); or print several keys at 101%, 103% and 104% and use the one that snaps in (Printables 'Harbor Freight Workbench Grid for Gridfinity Refined'); Gridfinity Refined's author suggests printing a few test keys and scaling them if they don't fit. 2) Orientation: print keys flat on the bed so their layers run along the key; layer bonds are much weaker (PLA about 55% of flat strength in CNC Kitchen's test), and the narrow neck is the likely place for a printed key to break ⚑ [uncertain]. 3) Round the sharp corners of the wings slightly (a remix added fillets for easier assembly; Printables 'Bowtie Connector Remix') and [chamfer](../glossary.md#chamfer--fillet) the bottom edges so it starts into the pocket (Katz-Moses, for wood). 4) Formlabs rates separate 'key joints' as not ideal for 3D printing, because every extra part adds [tolerance](../glossary.md#tolerance) variation, so test-print one joint first. 5) Material: PLA and PLA+ are tuned in Gridfinity Refined for 0.4 or 0.6 mm nozzles; printed PLA softens at about 60 °C (CNC Kitchen). 6) Router templates for wooden bow-ties can also be printed (Printables 'Butterfly or Bowtie Router Inlay Template').
 
 ### Buying one (off-the-shelf parts)
 
@@ -194,7 +195,7 @@ Acrylic 'butterfly key' or 'bowtie inlay' router templates used with a plunge ro
 ## Rules of thumb
 
 - Key thickness: at least 1/4 in. for strength, 3/8 in. for big splits in big slabs; dovetail angles of 8-10 degrees; side bevels of about 1 degree (0.5 degrees in very hard wood, up to 2 degrees in soft pine or fir); set the router about 1/16 in. shallower than the key is thick; choose a key harder than the slab; add a second key on the back if the split goes right through (Asa Christiana, Popular Woodworking 'Butterfly Keys Made Easy').
-- Key thickness about 1/4 to 1/3 of the slab thickness; cut the key with long grain running end to end; make the pocket walls 90 degrees or slightly undercut (Katz-Moses Tools 'Butterfly Keys').
+- Key thickness about 1/4 to 1/3 of the slab thickness; cut the key with long grain running end to end; make the pocket walls 90 degrees or slightly [undercut](../glossary.md#undercut) (Katz-Moses Tools 'Butterfly Keys').
 - For purely decorative inlays a pocket 1/8-1/4 in. deep is enough (Rockler 'Making Butterfly Inlay Keys').
 - Grain of the key runs across the key's length and at right angles to the grain of the slab (Timber Biscuit Woodworks).
 - Glue goes in the pocket, not on the key; drive the key evenly (Popular Woodworking), with a scrap block over it to spread the blows (Katz-Moses).

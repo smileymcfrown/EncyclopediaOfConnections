@@ -120,13 +120,15 @@ sources:
 - https://api.printables.com/graphql/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Flexible_drive_shaft_rotating_cable.json
+glossary: [misalignment, backlash, torque, crank, stiffness, deflection, torsion, tolerance, form-fit--force-fit--material-bond,
+  collet]
 ---
 
 A rotating core of wire wound in layers, usually running inside a non-turning sleeve (casing), that carries turning motion or power round bends and between parts that aren't lined up or that move.
 
 **In plain words:** A bendy cable that spins inside a sleeve, so a motor can turn something round corners or at the end of a hose, like the wobbly extension on a Dremel or the cable that used to drive a car's speedometer. **Proper term:** Flexible shaft (flexible rotary shaft, flex shaft).
 
-**Also called:** flex shaft / flexi-shaft; flexible drive shaft; flexible rotary shaft; rotating cable; drive cable; speedometer cable / speedo cable; tachometer cable (its spinning part is the 'inner cable' or 'core'); power-drive flexible shaft vs remote-control flexible shaft, also called torsion shaft (Elliott; Thonab terms); flex cable (radio-controlled boats); pendant drill / flex-shaft machine (the hanging-motor tool used by jewellers); Flex-Shaft attachment (Dremel (brand) model 225); Foredom (brand), Suhner (brand), S.S. White (brand), Elliott (brand), Willtec (brand); remote direct drive / flex-drive extruder (3D-printing use), e.g. Flex3Drive (brand), Zesty Nimble (brand).
+**Also called:** flex shaft / flexi-shaft; flexible drive shaft; flexible rotary shaft; rotating cable; drive cable; speedometer cable / speedo cable; tachometer cable (its spinning part is the 'inner cable' or 'core'); power-drive flexible shaft vs remote-control flexible shaft, also called [torsion](../glossary.md#torsion) shaft (Elliott; Thonab terms); flex cable (radio-controlled boats); pendant drill / flex-shaft machine (the hanging-motor tool used by jewellers); Flex-Shaft attachment (Dremel (brand) model 225); Foredom (brand), Suhner (brand), S.S. White (brand), Elliott (brand), Willtec (brand); remote direct drive / flex-drive extruder (3D-printing use), e.g. Flex3Drive (brand), Zesty Nimble (brand).
 
 ## How it works
 
@@ -134,7 +136,7 @@ The core is made by winding several layers of springy wire round a centre wire, 
 
 ## Parts
 
-A small assembly that acts as one unit: a core (a centre wire with layers of spring wire wound over it, each layer in the opposite direction), an outer casing (flexible conduit or hose, sometimes with a liner) that doesn't turn, end fittings on the core (often squared ends, a collet or a short solid shaft), and ferrules or threaded nuts that anchor the casing ends (Elliott; Machine Design; Dremel).
+A small assembly that acts as one unit: a core (a centre wire with layers of spring wire wound over it, each layer in the opposite direction), an outer casing (flexible conduit or hose, sometimes with a liner) that doesn't turn, end fittings on the core (often squared ends, a [collet](../glossary.md#collet) or a short solid shaft), and ferrules or threaded nuts that anchor the casing ends (Elliott; Machine Design; Dremel).
 
 ## Everyday examples
 
@@ -149,7 +151,7 @@ Use it when the motor and the thing it turns can't be lined up, are far apart, s
 
 ## When not to use it
 
-Avoid it when you need exact position or no lag under load (it twists; use a rigid shaft with universal joints or gears, or put a stepper or servo motor at the far end), for high torque at low speed (twist and stress rise; add a reduction gearbox at the far end instead, Thonab), where bends would be tighter than its minimum radius (use bevel gears or a right-angle gearbox), or when a one-direction shaft would have to drive hard both ways. To push or pull rather than turn, use a Bowden (push-pull) cable.
+Avoid it when you need exact position or no lag under load (it twists; use a rigid shaft with universal joints or gears, or put a stepper or servo motor at the far end), for high [torque](../glossary.md#torque) at low speed (twist and stress rise; add a reduction gearbox at the far end instead, Thonab), where bends would be tighter than its minimum radius (use bevel gears or a right-angle gearbox), or when a one-direction shaft would have to drive hard both ways. To push or pull rather than turn, use a Bowden (push-pull) cable.
 
 ## Details
 
@@ -162,16 +164,16 @@ Avoid it when you need exact position or no lag under load (it twists; use a rig
   - none of the listed behaviours: it simply carries rotation round bends. Useful side effects: it 'naturally absorbs shock and dampens vibration' (Machine Design 2000; Thonab), removes the need for precise alignment, and its twist under load acts like a soft spring in the drive
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it transmits rotation
-  - shape (the parts interlock; form-fit): the core's squared ends drive into square sockets (Machine Design 2000 'integral-form-squared' ends; HowACarWorks; Dremel)
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the core's squared ends drive into square sockets (Machine Design 2000 'integral-form-squared' ends; HowACarWorks; Dremel)
   - friction or clamping (force-fit): some ends are gripped by a collet or clamp, e.g. an RC-boat flex cable held in a collet at the motor (Traxxas)
-- **Input and output:** Rotation -> the same rotation (1:1 on average), with the output lagging behind the input by the twist under load (torsional deflection, which is proportional to torque and length, Thonab). Shaft arrangement: any: in line, at an angle, offset, or moving, including 180° turns (Machine Design 2000). Efficiency 85-95% (Machine Design 2013) or 90-95% (Machine Design 2000). Back-drivable: yes, torque can pass either way, but a one-direction (unidirectional) shaft is much softer and weaker when turned the wrong way (Machine Design 2000).
-- **Power:** passive (no power needed): it only carries power from a motor or a hand crank
+- **Input and output:** Rotation -> the same rotation (1:1 on average), with the output lagging behind the input by the twist under load (torsional [deflection](../glossary.md#deflection), which is proportional to torque and length, Thonab). Shaft arrangement: any: in line, at an angle, offset, or moving, including 180° turns (Machine Design 2000). Efficiency 85-95% (Machine Design 2013) or 90-95% (Machine Design 2000). Back-drivable: yes, torque can pass either way, but a one-direction (unidirectional) shaft is much softer and weaker when turned the wrong way (Machine Design 2000).
+- **Power:** passive (no power needed): it only carries power from a motor or a hand [crank](../glossary.md#crank)
 - **Load:** Light to medium, in twist only: small shafts carry a few N·m (Willtec 6 mm shaft 3 N·m, 20 mm shaft 18.5 N·m, data for 1 m length), a 0.25 in (6.4 mm) shaft about 60 lbf·in (6.8 N·m) continuous, and the largest up to 5,000 lbf·in (565 N·m) (Machine Design 2000). It is strong only in its design direction, and torque capacity falls with tighter bends and higher speed (Thonab). It can't support side or bending loads for the machine; the casing takes push-pull forces (Thonab).
-- **Play and precision:** No gear-type backlash, but noticeable twist (windup) under load that grows with torque and length (Thonab): e.g. Willtec's 6 mm shaft twists about 80° per metre at its 3 N·m rating, and the cable in Piercet's flex-drive extruder winds up about a quarter turn (Printables). Two-direction (bidirectional) shafts twist about the same either way, one-direction shafts much more the wrong way (Machine Design 2000). Misalignment tolerance: huge; offsets of 180° or more, against about 30° for a universal joint and 5° for a flexible coupling (Machine Design 2000).
+- **Play and precision:** No gear-type [backlash](../glossary.md#backlash), but noticeable twist (windup) under load that grows with torque and length (Thonab): e.g. Willtec's 6 mm shaft twists about 80° per metre at its 3 N·m rating, and the cable in Piercet's flex-drive extruder winds up about a quarter turn (Printables). Two-direction (bidirectional) shafts twist about the same either way, one-direction shafts much more the wrong way (Machine Design 2000). [Misalignment](../glossary.md#misalignment) [tolerance](../glossary.md#tolerance): huge; offsets of 180° or more, against about 30° for a universal joint and 5° for a flexible coupling (Machine Design 2000).
 - **Taking it apart:** removable: the core ends usually push into square sockets or a collet and the casing screws or clips on; the Dremel flex shaft screws onto the tool by hand, and an RC-boat flex cable pulls out after loosening its collet (Dremel; Traxxas)
 - **How often it can be reused:** effectively unlimited: it can be unplugged and refitted any number of times; what wears out is the core and its ends, from running hours, tight bends and lack of grease
 - **Sealing:** dust-resistant: the casing keeps dirt out and lubricant in (Machine Design 2000; Thonab); it is not watertight by itself, though RC boats pack the stuffing tube round the flex cable with heavy-duty waterproof grease (Traxxas)
-- **Adjustable:** no: its length and twist stiffness are fixed; you can re-route it, and the driven end can move while in use
+- **Adjustable:** no: its length and twist [stiffness](../glossary.md#stiffness) are fixed; you can re-route it, and the driven end can move while in use
 - **Access needed:** end of a tube or shaft: each end fits onto or into a shaft end, square socket or collet, with the casing anchored beside it
 - **Materials:** Core: high-tensile carbon spring steel for general use; stainless steel for corrosion and heat to 600 °F (315 °C), phosphor bronze for lowest magnetism, Monel, and Inconel to 1,100 °F (593 °C) (Machine Design 2000). Casings: wound steel conduit, galvanised steel hose, or Rilsan plastic covers that resist oil, grease, dirt and corrosive agents; end fittings of stainless steel (Willtec).
 - **Heat, cold, water and wear:** Heat: sharp or multiple bends make the jacket and handpiece hot, and too much grease overheats it (Dremel). Special cores handle heat: stainless steel to 600 °F (315 °C), Inconel to 1,100 °F (593 °C) (Machine Design 2000). Water: carbon-steel cores rust, so use stainless or keep them greased; wet conditions shorten greasing intervals to about 50 hours (Thonab), and gearbox oil seeping up a speedometer cable makes the needle sluggish (HowACarWorks). Dust: the casing keeps it out (Thonab). Vibration: it absorbs shock and vibration rather than suffering from it (Machine Design 2000). Over time grease dries and the square ends wear round (HowACarWorks). Printed mounts: PLA softens above about 60 °C (Prusa).

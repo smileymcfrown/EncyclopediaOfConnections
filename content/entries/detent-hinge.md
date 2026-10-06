@@ -128,13 +128,15 @@ sources:
 - https://data.epo.org/publication-server/rest/v1.2/patents/EP0016268NWB1/document.html
 - https://www.slideshare.net/slideshow/orthotic-knee-joints/233011007
 research: research/connection-types/results/Detent_hinge_click_hinge_position_hinge.json
+glossary: [over-centre, bistable, detent, ratchet, pawl, torque, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
+  chamfer--fillet, creep, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---
 
-A hinge with a built-in click mechanism (a spring pressing a ball, wedge, tooth or springy arm into notches, or a pawl in a toothed segment) that holds a lid, door, leg or backrest at preset angles until it is pushed firmly on.
+A hinge with a built-in click mechanism (a spring pressing a ball, wedge, tooth or springy arm into notches, or a [pawl](../glossary.md#pawl) in a toothed segment) that holds a lid, door, leg or backrest at preset angles until it is pushed firmly on.
 
-**In plain words:** A hinge that clicks and stays put at one or more set angles, such as a cabinet door that clicks open at 90° or a sofa headrest that clicks up a notch at a time. **Proper term:** Detent hinge (positioning hinge).
+**In plain words:** A hinge that clicks and stays put at one or more set angles, such as a cabinet door that clicks open at 90° or a sofa headrest that clicks up a notch at a time. **Proper term:** [Detent](../glossary.md#detent) hinge (positioning hinge).
 
-**Also called:** click hinge; position hinge / positioning hinge (Southco's category name, which also covers friction hinges); hinge with indexing function (Elesa+Ganter); ratchet hinge / ratchet fitting (furniture: sofa headrests, armrests, backrests); adjustable hinge fitting (reclining chairs and folding stands; patent US3232136); angle-adjustable hinge (patent EP2389839); bistable hinge (a detent variant with a spring that drives the door to its open or closed position; Southco); locking hinge (maker name, often for a hinge that locks at one angle); click hinge or locking hinge plate (LEGO (brand) hinge plates that click through set positions).
+**Also called:** click hinge; position hinge / positioning hinge (Southco's category name, which also covers friction hinges); hinge with indexing function (Elesa+Ganter); [ratchet](../glossary.md#ratchet) hinge / ratchet fitting (furniture: sofa headrests, armrests, backrests); adjustable hinge fitting (reclining chairs and folding stands; patent US3232136); angle-adjustable hinge (patent EP2389839); [bistable](../glossary.md#bistable) hinge (a detent variant with a spring that drives the door to its open or closed position; Southco); locking hinge (maker name, often for a hinge that locks at one angle); click hinge or locking hinge plate (LEGO (brand) hinge plates that click through set positions).
 
 ## How it works
 
@@ -158,7 +160,7 @@ Use a detent hinge when a lid, door, flap, leg or backrest should stop and stay 
 
 ## When not to use it
 
-Avoid it when the user needs any angle in between (use a friction or torque hinge), when the lid is heavy or long, because the detent may be overcome and the lid drop (use a counterbalance hinge, gas strut or lid stay), when the position must be locked against being knocked (use an indexing plunger through the hinge or a locking brace), or when you need fine, play-free angle steps under load (use a Hirth joint clamped by a bolt). For a single end position that must hold firmly, a latch or over-centre lock is better.
+Avoid it when the user needs any angle in between (use a friction or [torque](../glossary.md#torque) hinge), when the lid is heavy or long, because the detent may be overcome and the lid drop (use a counterbalance hinge, gas strut or lid stay), when the position must be locked against being knocked (use an indexing plunger through the hinge or a locking brace), or when you need fine, play-free angle steps under load (use a Hirth joint clamped by a bolt). For a single end position that must hold firmly, a latch or [over-centre](../glossary.md#over-centre) lock is better.
 
 ## Details
 
@@ -174,7 +176,7 @@ Avoid it when the user needs any angle in between (use a friction or torque hing
   - over-centre (snaps past a point and stays): bistable hinges drive the door to a preset open or closed position by themselves (Southco)
 - **How it holds:**
   - spring force (a spring or springy part presses it in place): click-stop types; the holding torque is set by the spring and notch shape
-  - shape (the parts interlock; form-fit): ratchet-fitting types, where the pawl's locking face sits against a tooth
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): ratchet-fitting types, where the pawl's locking face sits against a tooth
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** light to medium: the hinge pin carries the door's weight well, but the detent only resists a small turning force; e.g. 0.70 Nm forward and reverse detent torque for a Southco C6-227 and around 3 Nm for Elesa detent hinges. Furniture ratchet fittings are built to hold a person leaning on a backrest (US3232136, US5236245A) ⚑ [uncertain] (no load figures found).
@@ -185,7 +187,7 @@ Avoid it when the user needs any angle in between (use a friction or torque hing
 - **Adjustable:** Only between the built-in positions: the detent angles are fixed by the design (e.g. 80°, 115°, 150° or 120° and 170° in Southco's C6 range). Holding strength is chosen when buying (Southco offers three positioning torque ratings in the C6 series; printed designs can swap a softer or harder detent ring, Printables 'Clicking Hinge').
 - **Access needed:** one side only (blind) when the leaves are screwed into thick parts; both sides when bolts and nuts go through thin panels
 - **Materials:** Technopolymer (glass-filled nylon), zinc die-cast and stainless steel (Elesa); acetal copolymer leaves with a stainless steel detent tube, polyamide and zinc alloy (Southco); zinc-plated steel for furniture ratchet hinges (redesignstore). Printed versions: PLA or PETG leaves with a TPU (flexible) detent gear (Printables 'Clicking Hinge').
-- **Heat, cold, water and wear:** Southco's C6/G6 detent hinges are rated for -40 °C to 80 °C. Printed PLA leaves soften from about 60 °C (CNC Kitchen), and plastic springs or detent arms kept under load creep and lose their hold (DuPont; thrinter). Stainless steel and technopolymer versions suit wet, food and pharmaceutical settings (Elesa). Dirt and wear in the teeth or notches weaken the click over time ⚑ [uncertain]; manufacturers suggest light lubrication for steel ratchet hinges (redesignstore).
+- **Heat, cold, water and wear:** Southco's C6/G6 detent hinges are rated for -40 °C to 80 °C. Printed PLA leaves soften from about 60 °C (CNC Kitchen), and plastic springs or detent arms kept under load [creep](../glossary.md#creep) and lose their hold (DuPont; thrinter). Stainless steel and technopolymer versions suit wet, food and pharmaceutical settings (Elesa). Dirt and wear in the teeth or notches weaken the click over time ⚑ [uncertain]; manufacturers suggest light [lubrication](../glossary.md#lubrication) for steel ratchet hinges (redesignstore).
 
 ## Making it
 
@@ -195,13 +197,13 @@ Avoid it when the user needs any angle in between (use a friction or torque hing
   - woodwork: fitting bought detent or ratchet hinges to cabinets, lids and furniture
   - sheet metal: stamped steel ratchet fittings for furniture
   - injection moulding: plastic detent hinges and toy click hinges (e.g. LEGO (brand)) ⚑ [uncertain]
-- **Printing it in one piece (print in place):** partly: several printed designs need assembly, e.g. BaGooN's 'Clicking Hinge' (Printables) has a separately printed flexible TPU inner gear that is snapped into a two-part case; some print-in-place hinges lock at a single angle by sliding along their axis (chandler's 'Locking Hinge 90' and 'Locking Hinge 180', Printables), which is a lock rather than a multi-click detent.
+- **Printing it in one piece (print in place):** partly: several printed designs need assembly, e.g. BaGooN's 'Clicking Hinge' (Printables) has a separately printed flexible TPU inner gear that is snapped into a two-part case; some [print-in-place](../glossary.md#print-in-place) hinges lock at a single angle by sliding along their axis (chandler's 'Locking Hinge 90' and 'Locking Hinge 180', Printables), which is a lock rather than a multi-click detent.
 - **Tools:** screwdriver or hex key (or a rivet tool); none to operate
 - **Difficulty:** easy to moderate: easy to buy and screw on, or to print a small clicking hinge with a flexible insert; moderate to make one that holds a heavy lid firmly for many cycles
 
 ### 3D printing tips
 
-1) Easiest printable detent: make the detent part flexible. BaGooN's clicking hinge prints its toothed inner gear in TPU and the leaves in PLA or PETG at 0.3 mm layers, 2 perimeters and 15% infill with no supports, and offers a harder gear for stronger holding (Printables 'Clicking Hinge'). 2) Or use a springy printed arm pressing on a notched ring inside the knuckle (a compliant detent); lay the arm flat on the bed, fillet its root to at least half its thickness and avoid building it vertically in Z (Protolabs/Hubs snap-fit guide). 3) Make the arm or spring sit relaxed (unbent) at each detent position, because plastic springs held bent creep and relax (DuPont design guide, pp. 36 and 47) and PLA creeps most (thrinter test); otherwise the hinge will slowly lose its hold. 4) Work out the turning load the detent must resist: the lid's weight times the sideways distance from the hinge pin to its centre of gravity; a light but long lid can need as much holding as a heavy short one (Southco). Printed detents hold only small torques, so add a stay or use two hinges for heavier lids ⚑ [uncertain]. 5) Print the leaves flat with the knuckle axis horizontal so the knuckle's layers aren't split by bending loads (layer adhesion is roughly half the in-plane strength; CNC Kitchen) ⚑ [uncertain] (orientation depends on design). 6) For print-in-place pins, keep at least about 0.3 mm clearance (Prusa) to 0.5 mm (Protolabs/Hubs FDM) between moving surfaces; the first movements may be stiff and loosen with use (chandler, Printables 'Locking Hinge 90'). 7) PETG is a good all-round choice for leaves (used by several of these designs); PLA softens from about 60 °C (CNC Kitchen), so avoid it for hinges in cars or sunny windows.
+1) Easiest printable detent: make the detent part flexible. BaGooN's clicking hinge prints its toothed inner gear in TPU and the leaves in PLA or PETG at 0.3 mm layers, 2 [perimeters](../glossary.md#perimeters) and 15% [infill](../glossary.md#infill) with no supports, and offers a harder gear for stronger holding (Printables 'Clicking Hinge'). 2) Or use a springy printed arm pressing on a notched ring inside the knuckle (a compliant detent); lay the arm flat on the bed, [fillet](../glossary.md#chamfer--fillet) its root to at least half its thickness and avoid building it vertically in Z (Protolabs/Hubs snap-fit guide). 3) Make the arm or spring sit relaxed (unbent) at each detent position, because plastic springs held bent creep and relax (DuPont design guide, pp. 36 and 47) and PLA creeps most (thrinter test); otherwise the hinge will slowly lose its hold. 4) Work out the turning load the detent must resist: the lid's weight times the sideways distance from the hinge pin to its centre of gravity; a light but long lid can need as much holding as a heavy short one (Southco). Printed detents hold only small torques, so add a stay or use two hinges for heavier lids ⚑ [uncertain]. 5) Print the leaves flat with the knuckle axis horizontal so the knuckle's layers aren't split by bending loads (layer adhesion is roughly half the in-plane strength; CNC Kitchen) ⚑ [uncertain] (orientation depends on design). 6) For print-in-place pins, keep at least about 0.3 mm [clearance](../glossary.md#clearance) (Prusa) to 0.5 mm (Protolabs/Hubs FDM) between moving surfaces; the first movements may be stiff and loosen with use (chandler, Printables 'Locking Hinge 90'). 7) PETG is a good all-round choice for leaves (used by several of these designs); PLA softens from about 60 °C (CNC Kitchen), so avoid it for hinges in cars or sunny windows.
 
 ### Buying one (off-the-shelf parts)
 
@@ -220,7 +222,7 @@ Search for: 'detent hinge', 'positioning hinge', 'hinge with detent', 'hinge wit
 
 ## Common failures
 
-The detent wears or the spring weakens, so the click becomes mushy and the lid drifts down ⚑ [uncertain]; a printed detent arm or plastic spring creeps if held bent (DuPont). The lid is too heavy or too long for the hinge's holding torque, so it won't stay open (Southco's centre-of-gravity point). The flexible TPU insert wears or is too soft, fixed by printing a harder version (Printables 'Clicking Hinge'). A ratchet fitting doesn't reset, or releases unexpectedly at the top of its travel (US5236245A). Printed knuckles crack along layer lines ⚑ [uncertain]. Avoid these by checking the torque needed, using two hinges or a stay for big lids, letting springs rest unloaded in each position, and choosing tough materials.
+The detent wears or the spring weakens, so the click becomes mushy and the lid drifts down ⚑ [uncertain]; a printed detent arm or plastic spring creeps if held bent (DuPont). The lid is too heavy or too long for the hinge's holding torque, so it won't stay open (Southco's centre-of-gravity point). The flexible TPU insert wears or is too soft, fixed by printing a harder version (Printables 'Clicking Hinge'). A ratchet fitting doesn't reset, or releases unexpectedly at the top of its travel (US5236245A). Printed knuckles crack along [layer lines](../glossary.md#layer-lines) ⚑ [uncertain]. Avoid these by checking the torque needed, using two hinges or a stay for big lids, letting springs rest unloaded in each position, and choosing tough materials.
 
 ## Safety
 
@@ -234,7 +236,7 @@ Hinges are pinch points, especially ratchet fittings with teeth and moving pawls
 - Ball detent (spring plunger): a spring-loaded ball in dimples, a common detent inside hinges and levers
 - Indexing plunger: a pull-knob pin through holes in the hinge knuckle locks positions far more firmly
 - Hirth joint: toothed faces clamped by a bolt, for many fine, firmly locked angles
-- Bistable compliant mechanism: a one-piece flexure that snaps to one of two stable positions
+- Bistable [compliant mechanism](../glossary.md#compliant-mechanism): a one-piece [flexure](../glossary.md#flexure) that snaps to one of two stable positions
 - Print-in-place hinge: a plain printed hinge with no holding positions
 - Folding-blade lock (slip joint): a spring bar gives a pocket-knife blade detent positions at open and closed
 - Clevis joint with thumbscrew: holds any angle by clamping, as on action-camera mounts

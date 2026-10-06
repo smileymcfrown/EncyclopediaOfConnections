@@ -124,13 +124,14 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts
 research: research/connection-types/results/Captive_nut_pocket_nut_trap.json
+glossary: [misalignment, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, creep, overhang--bridging]
 ---
 
 A hexagonal or square pocket shaped to hold a standard nut so it can't spin, giving a printed part a strong metal thread for a bolt at almost no cost.
 
-**In plain words:** A six-sided hole or a side slot in a 3D print that an ordinary nut drops into and can't turn in, so you can tighten a bolt into it from the other side with just a screwdriver or hex key, and no spanner holding the nut. **Proper term:** Nut trap (captive nut pocket).
+**In plain words:** A six-sided hole or a side slot in a 3D print that an ordinary nut drops into and can't turn in, so you can tighten a bolt into it from the other side with just a screwdriver or hex key, and no spanner holding the nut. **Proper term:** Nut trap ([captive nut](../glossary.md#captive-nut) pocket).
 
-**Also called:** nut trap (the usual 3D-printing and RepRap term; used by the NopSCADlib library's nut_trap() and BOSL2's nut_trap_side() and nut_trap_inline()); captive nut or captured nut (general term; Wikipedia 'Threaded insert' uses 'captive nut' for nuts held in a part, including cage nuts); nut pocket, hex pocket or hex nut pocket; embedded nut (Hubs; CNC Kitchen); nut boss (Hubs: 'a nut-shaped cavity (often referred to as a nut boss)'); side nut trap, nut slot or side-loading nut trap (the nut slides in from the side; BOSL2 nut_trap_side()); inline nut trap (pocket in line with the bolt; BOSL2 nut_trap_inline()); square nut slot (the same idea with a square nut, as used throughout Prusa printers; Prusa 'M3nS' nuts); buried nut (a nut sealed in by printing over it mid-print; nophead, HydraRaptor blog; covered in its own entry 'Mid-print embedding').
+**Also called:** nut trap (the usual 3D-printing and RepRap term; used by the NopSCADlib library's nut_trap() and BOSL2's nut_trap_side() and nut_trap_inline()); captive nut or captured nut (general term; Wikipedia 'Threaded insert' uses 'captive nut' for nuts held in a part, including cage nuts); nut pocket, hex pocket or hex nut pocket; embedded nut (Hubs; CNC Kitchen); nut [boss](../glossary.md#boss) (Hubs: 'a nut-shaped cavity (often referred to as a nut boss)'); side nut trap, nut slot or side-loading nut trap (the nut slides in from the side; BOSL2 nut_trap_side()); inline nut trap (pocket in line with the bolt; BOSL2 nut_trap_inline()); square nut slot (the same idea with a square nut, as used throughout Prusa printers; Prusa 'M3nS' nuts); buried nut (a nut sealed in by printing over it mid-print; nophead, HydraRaptor blog; covered in its own entry 'Mid-print embedding').
 
 ## How it works
 
@@ -138,7 +139,7 @@ The pocket is shaped to the nut's flats, only a few tenths of a millimetre bigge
 
 ## Parts
 
-A few parts: the printed part with a hex (or square) pocket or side slot and a clearance hole for the bolt, a standard nut, and a bolt or machine screw. Optional extras: a small 'poke hole' behind a side slot for pushing the nut back out (BOSL2 nut_trap_side), and a one-layer 'sacrificial bridge' over the pocket so the hole above it prints without support, drilled or poked through afterwards (NopSCADlib nut_trap 'supported'; Hackaday 'Sacrificial Bridge Avoids 3D Printed Supports').
+A few parts: the printed part with a hex (or square) pocket or side slot and a [clearance](../glossary.md#clearance) hole for the bolt, a standard nut, and a bolt or machine screw. Optional extras: a small 'poke hole' behind a side slot for pushing the nut back out (BOSL2 nut_trap_side), and a one-layer 'sacrificial bridge' over the pocket so the hole above it prints without support, drilled or poked through afterwards (NopSCADlib nut_trap 'supported'; Hackaday 'Sacrificial Bridge Avoids 3D Printed Supports').
 
 ## Everyday examples
 
@@ -149,7 +150,7 @@ A few parts: the printed part with a hex (or square) pocket or side slot and a c
 
 ## When to use it
 
-Use a nut trap when you want strong, reusable metal threads in a printed part with no extra tools or special parts: just a hex pocket and a nut you already have. It is ideal for parts that are bolted together and taken apart now and then, for bolts that will be tightened hard, for places you can't get a spanner onto the nut, and for larger sizes, where big heat-set inserts soak up a lot of heat and are harder to melt in (CNC Kitchen 'Tips & Tricks for Heat-Set Inserts'). It is strongest when the bolt pulls the nut into a thick, solid part.
+Use a nut trap when you want strong, reusable metal threads in a printed part with no extra tools or special parts: just a hex pocket and a nut you already have. It is ideal for parts that are bolted together and taken apart now and then, for bolts that will be tightened hard, for places you can't get a spanner onto the nut, and for larger sizes, where big [heat-set inserts](../glossary.md#heat-set-insert) soak up a lot of heat and are harder to melt in (CNC Kitchen 'Tips & Tricks for Heat-Set Inserts'). It is strongest when the bolt pulls the nut into a thick, solid part.
 
 ## When not to use it
 
@@ -164,25 +165,25 @@ Avoid it where you can't reach the pocket to put the nut in (use a heat-set inse
 - **Special behaviour:**
   - none: it just holds a nut still while a bolt is tightened. (A nylon-insert lock nut (nyloc) in a deeper pocket adds resistance to shaking loose; Wikipedia 'Nut (hardware)')
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the nut's flats sit against the pocket's flat walls, so it can't turn, and the pocket floor or wall stops it pulling through
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the nut's flats sit against the pocket's flat walls, so it can't turn, and the pocket floor or wall stops it pulling through
   - friction or clamping (force-fit): the bolt and nut then clamp the parts together
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** medium: in CNC Kitchen's M3 tests in PETG, a nut in a pocket underneath the part (pulled against solid plastic) held 166 kg before pulling out, the best result, compared with 118 kg for a screw straight into the plastic and 119 kg for a heat-set insert; a nut in a side pocket was weakest at 86 kg. Both nut versions took 2 Nm of twisting before the PETG was crushed, against 3 Nm for a heat-set insert and 1 Nm for a plain screw ('Helicoils, Threaded Insets and Embedded Nuts in 3D Prints', 2020). Strongest when the bolt pulls the nut into thick, solid plastic; weakest when the load pushes the nut towards an open slot or a thin wall.
-- **Play and precision:** small: the nut can move by the pocket clearance (typically 0.1-0.2 mm each side) until the bolt is tightened, so hole positions may be off by that much. Once tightened it is rigid. It tolerates small misalignment because the bolt pulls the nut into line ⚑ [uncertain].
+- **Play and precision:** small: the nut can move by the pocket clearance (typically 0.1-0.2 mm each side) until the bolt is tightened, so hole positions may be off by that much. Once tightened it is rigid. It tolerates small [misalignment](../glossary.md#misalignment) because the bolt pulls the nut into line ⚑ [uncertain].
 - **Taking it apart:** removable: the bolt screws out and back in, and the nut usually stays in its pocket; a nut in a side slot can be pushed back out, especially if the design has a poke hole behind it (BOSL2 nut_trap_side). A nut buried by printing over it mid-print is permanent (see 'Mid-print embedding').
 - **How often it can be reused:** many times: the bolt runs in the nut's metal thread, so the thread doesn't wear like a printed or self-tapped plastic thread. Hubs lists embedded nuts with inserts as the most popular methods partly for their 'ease of repeated assembly and disassembly'; CNC Kitchen calls nuts 'a cheap and viable alternative' to heat-set inserts. The pocket can be damaged if the nut is allowed to spin or is overtightened.
 - **Sealing:** none
 - **Adjustable:** no: it is a fixed anchor point for a bolt. (A nut trap at the end of a long bolt can be used as a simple screw adjuster, e.g. a printed C-clamp whose screw runs in a trapped nut; Printables 'Nut-trap C-Clamp')
 - **Access needed:** both sides: you need to reach the pocket opening to put the nut in (the back face, or the side for a side slot) and the front to put the bolt in, but once the nut is in place the bolt is tightened from the front only, with no tool on the nut. CNC Kitchen notes the method 'can't always be used if you don't have access from the back and from the side'.
 - **Materials:** Standard steel, stainless-steel, brass or nylon hex or square nuts (NopSCADlib draws steel, brass and nylon nuts). The pocket can be printed in any printable plastic (PLA, PETG, ABS/ASA, nylon, resin). The same idea is used in laser-cut plywood and acrylic as a T-slot (see 'T-slot joint') and in wood as a routed pocket ⚑ [uncertain].
-- **Heat, cold, water and wear:** The metal nut is unaffected, but the plastic around it softens with heat: PLA started to give at 60 °C and failed at about 65 °C in an oven test, PETG at 80 °C and ASA at 110 °C (CNC Kitchen 'Comparing PLA, PETG & ASA'), so a nut trap in PLA near a motor, heater or in a hot car can let the nut pull in or spin. PLA creeps (slowly squashes) under constant load more than PETG or ABS (thrinter creep test), so a bolt clamping a PLA part can lose tightness over time ⚑ [uncertain for nut traps specifically]. Vibration can shake an ordinary nut loose; nylon-insert lock nuts resist this (Wikipedia 'Nut (hardware)').
+- **Heat, cold, water and wear:** The metal nut is unaffected, but the plastic around it softens with heat: PLA started to give at 60 °C and failed at about 65 °C in an oven test, PETG at 80 °C and ASA at 110 °C (CNC Kitchen 'Comparing PLA, PETG & ASA'), so a nut trap in PLA near a motor, heater or in a hot car can let the nut pull in or spin. PLA [creeps](../glossary.md#creep) (slowly squashes) under constant load more than PETG or ABS (thrinter creep test), so a bolt clamping a PLA part can lose tightness over time ⚑ [uncertain for nut traps specifically]. Vibration can shake an ordinary nut loose; nylon-insert lock nuts resist this (Wikipedia 'Nut (hardware)').
 
 ## Making it
 
 - **Ways to make or get it:**
   - 3D print (FDM): the usual way; the pocket is modelled into the part
-  - 3D print (resin) and 3D print (SLS or MJF): work the same way; powder-bed and resin parts have no bridging problem over the pocket ⚑ [uncertain]
+  - 3D print (resin) and 3D print (SLS or MJF): work the same way; powder-bed and resin parts have no [bridging](../glossary.md#overhang--bridging) problem over the pocket ⚑ [uncertain]
   - laser cut: the equivalent is a T-shaped slot that holds a square or hex nut in the edge of a sheet (see the separate entry 'T-slot joint (captive nut and bolt joint)')
   - CNC or woodwork: a hex recess can be milled or chiselled, though wood and metal parts more often use T-nuts or threaded inserts ⚑ [uncertain]
   - off-the-shelf part: the nut and bolt

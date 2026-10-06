@@ -115,6 +115,8 @@ sources:
 - https://www.printables.com/model/354565-fixing-screw-for-a-bajonett-fastener (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Quarterturn_fastener_Dzustype.json
+glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
+  brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
 
 A captive stud in a removable panel whose spiral slot (or cross pin) rides over a spring or cam in a receptacle on the frame, so a quarter turn pulls the panel tight and snaps it into a locked position that vibration can't undo.
@@ -125,7 +127,7 @@ A captive stud in a removable panel whose spiral slot (or cross pin) rides over 
 
 ## How it works
 
-The stud is pushed through the panel and frame holes until its tip meets the receptacle. In the Dzus type a wire spring stretches across the hole, and turning the stud makes the spiral slot in its tip act like a cam, drawing the spring up the slot and pulling the panel tight against the frame. At the end of the quarter turn the spring clicks past a bump into a recess, an over-centre lock, so vibration tends to push it back into the locked position rather than undo it. In Camloc and Airloc types a cross pin through the stud rides up a cam in the receptacle, compressing a spring to give a set clamping force, then hits a stop and drops into a locking dip (detent). Turning back the other way releases it.
+The stud is pushed through the panel and frame holes until its tip meets the receptacle. In the Dzus type a wire spring stretches across the hole, and turning the stud makes the spiral slot in its tip act like a cam, drawing the spring up the slot and pulling the panel tight against the frame. At the end of the quarter turn the spring clicks past a bump into a recess, an [over-centre](../glossary.md#over-centre) lock, so vibration tends to push it back into the locked position rather than undo it. In Camloc and Airloc types a cross pin through the stud rides up a cam in the receptacle, compressing a spring to give a set clamping force, then hits a stop and drops into a locking dip ([detent](../glossary.md#detent)). Turning back the other way releases it.
 
 ## Parts
 
@@ -156,13 +158,13 @@ Not for joining round parts end to end (use a bayonet mount or interrupted threa
 - **Special behaviour:**
   - quick-release (a quarter turn on or off, and the stud stays captive in the panel)
   - over-centre (the spring or cross pin rides over a bump into a recess at the end of the turn and stays there; Wikipedia calls it an over-centre lock)
-  - self-locking (holds under panel loads and vibration; small disturbances push it back into the locked position instead of loosening it)
+  - [self-locking](../glossary.md#self-locking) (holds under panel loads and vibration; small disturbances push it back into the locked position instead of loosening it)
   - hand-release only (it only opens when someone turns the stud back the other way)
-- **How it holds:** shape (the spring wire or cross pin sits in a recess in the stud's slot or the receptacle's cam; form-fit), with spring force (the spring supplies the clamping force and holds the lock)
+- **How it holds:** shape (the spring wire or cross pin sits in a recess in the stud's slot or the receptacle's cam; [form-fit](../glossary.md#form-fit--force-fit--material-bond)), with spring force (the spring supplies the clamping force and holds the lock)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** light to medium per fastener, used in rows: Southco's small series is rated at a maximum static load of 440 N (100 lb) each. Strong in shear across the panel and against the panel lifting off; heavy-duty 'stressed panel' versions carry structural loads (FAA). Weak or unreliable if the stud length doesn't suit the panel thickness.
-- **Play and precision:** small: the preload pulls the panel tight so it doesn't rattle. Floating receptacles tolerate some misalignment between panel and frame holes (FAA); rigid ones need well-aligned holes. It locates the panel only roughly; use pins or dowels if exact positioning matters.
+- **Load:** light to medium per fastener, used in rows: Southco's small series is rated at a maximum static load of 440 N (100 lb) each. Strong in [shear](../glossary.md#peel-vs-shear) across the panel and against the panel lifting off; heavy-duty 'stressed panel' versions carry structural loads (FAA). Weak or unreliable if the stud length doesn't suit the panel thickness.
+- **Play and precision:** small: the [preload](../glossary.md#preload) pulls the panel tight so it doesn't rattle. Floating receptacles tolerate some [misalignment](../glossary.md#misalignment) between panel and frame holes (FAA); rigid ones need well-aligned holes. It locates the panel only roughly; use pins or dowels if exact positioning matters.
 - **Taking it apart:** tool-free quick release: wing, knob and bail heads turn by hand; slotted, recessed or hex heads need a quarter turn with a screwdriver, Dzus key or hex key, but nothing comes loose
 - **How often it can be reused:** many times: designed for panels opened often, and Camloc-type springs are made for a high number of cycles (Howmet via HFS Industrial); springs weaken and head slots wear with heavy use (forum reports) ⚑ [uncertain]; Airloc cross pins must be replaced, never reused, once removed from a stud (FAA)
 - **Sealing:** none: it only clamps a panel; add a gasket under the panel for dust or water resistance (Southco's stud-length formulas include a compressed gasket in the total material thickness)
@@ -179,13 +181,13 @@ Not for joining round parts end to end (use a bayonet mount or interrupted threa
   - 3D print (FDM): printed studs and receptacles in PETG or tougher plastics for light panels, enclosures and replacement parts
   - laser cut: acrylic, polycarbonate or plywood panels drilled or cut for the studs
   - CNC: machining the panels and fixing holes
-- **Printing it in one piece (print in place):** no: the stud and receptacle are printed separately and the stud is pushed through the panel ⚑ [uncertain: no print-in-place version was found]
+- **Printing it in one piece (print in place):** no: the stud and receptacle are printed separately and the stud is pushed through the panel ⚑ [uncertain: no [print-in-place](../glossary.md#print-in-place) version was found]
 - **Tools:** To use: none, or a flat screwdriver, Dzus key or hex key. To fit: a drill (and a file to fit holes), a riveter for rivet-on receptacles and sometimes a grommet or press tool; snap-in, clip-on and press-in receptacles fit without rivets.
 - **Difficulty:** easy to fit bought ones (drill holes, rivet or snap in the receptacle, pick the right stud length); moderate to print your own, because the thin cam sections break if printed with the layers the wrong way
 
 ### 3D printing tips
 
-Orientation matters most. One maker who reverse-engineered plastic Dzus Dart parts in PETG first printed the receptacles with the cam face upward, and they broke at both ends in use because layer adhesion across the thin section was poor; printing them on their side ran the extrusion lines along the stress and worked much better. Print the stud standing on its head; both parts needed supports (McSail, Printables 1537263). The originals were acetal receptacles and glass-filled nylon studs, so use PETG, PETG-CF, nylon or PC rather than PLA. For a simple printed panel stud, another maker used PETG with 4 perimeters and 0.2 mm layers, put the Z seam at the head away from the high-stress end, and drilled 3 mm polycarbonate panels at 9/32 in (about 7.1 mm), then filed the holes oval until the studs just pressed through so they stay captive when the panel is off (John S, Printables 12418). Match the stud length to the total thickness of panel, frame and any gasket, because too short a stud won't lock and too long a stud won't clamp. A steel wire spring across the hole (as in the Dzus type) is far more durable than a printed spring ⚑ [uncertain: design suggestion, not tested]. If you print the springy part, keep it flexing within the layers, not across them, and fillet its root (Hubs).
+Orientation matters most. One maker who reverse-engineered plastic Dzus Dart parts in PETG first printed the receptacles with the cam face upward, and they broke at both ends in use because layer adhesion across the thin section was poor; printing them on their side ran the extrusion lines along the stress and worked much better. Print the stud standing on its head; both parts needed supports (McSail, Printables 1537263). The originals were acetal receptacles and glass-filled nylon studs, so use PETG, PETG-CF, nylon or PC rather than PLA. For a simple printed panel stud, another maker used PETG with 4 [perimeters](../glossary.md#perimeters) and 0.2 mm layers, put the Z seam at the head away from the high-stress end, and drilled 3 mm polycarbonate panels at 9/32 in (about 7.1 mm), then filed the holes oval until the studs just pressed through so they stay captive when the panel is off (John S, Printables 12418). Match the stud length to the total thickness of panel, frame and any gasket, because too short a stud won't lock and too long a stud won't clamp. A steel wire spring across the hole (as in the Dzus type) is far more durable than a printed spring ⚑ [uncertain: design suggestion, not tested]. If you print the springy part, keep it flexing within the layers, not across them, and [fillet](../glossary.md#chamfer--fillet) its root (Hubs).
 
 ### Buying one (off-the-shelf parts)
 
@@ -202,7 +204,7 @@ Quarter-turn fastener studs (slotted, oval, flush, wing, hex-recess, knob and ba
 
 ## Common failures
 
-(1) Stud too short for the panel stack, so it barely engages and can break or pop out; measure the total material thickness and pick the right length (karting forum reports of short studs breaking). (2) Weak or bent springs and worn stud slots, so the panel rattles; replace the spring or stud ⚑ [uncertain: forum reports]. (3) Brittle or over-hardened heads cracking when struck. (4) Panel holes wearing oval in fibreglass or plastic; add a grommet or wear washer. (5) Misaligned holes stop it engaging; use floating receptacles. (6) Printed parts snapping across thin layers; print with the layers along the stress.
+(1) Stud too short for the panel stack, so it barely engages and can break or pop out; measure the total material thickness and pick the right length (karting forum reports of short studs breaking). (2) Weak or bent springs and worn stud slots, so the panel rattles; replace the spring or stud ⚑ [uncertain: forum reports]. (3) [Brittle](../glossary.md#brittle--ductile) or over-hardened heads cracking when struck. (4) Panel holes wearing oval in fibreglass or plastic; add a grommet or wear washer. (5) Misaligned holes stop it engaging; use floating receptacles. (6) Printed parts snapping across thin layers; print with the layers along the stress.
 
 ## Safety
 

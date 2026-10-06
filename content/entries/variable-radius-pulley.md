@@ -120,6 +120,8 @@ sources:
 - https://www.thingiverse.com/thing:2764962
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Variableradius_pulley_fusee_compoundbow_cam.json
+glossary: [stroke, ratchet, torque, idler, cam-and-follower, hysteresis, form-fit--force-fit--material-bond, repeatability--accuracy,
+  creep, fatigue]
 ---
 
 A variable-radius pulley changes the leverage between a cord and a shaft as it turns, so a spring whose force changes can give a steady turning force (a clock's fusee, a tool balancer's tapered drum) or a force that follows a chosen curve (a compound bow's let-off, a gym machine's cam, a robot arm's gravity balancer).
@@ -130,11 +132,11 @@ A variable-radius pulley changes the leverage between a cord and a shaft as it t
 
 ## How it works
 
-Turning force (torque) equals the cord's pull times the radius at the point where the cord leaves the pulley. In a fusee the strong pull of a fully wound mainspring acts on the narrow top of the cone, and as the spring weakens the chain comes off ever wider grooves, so the bigger radius makes up for the weaker pull and the clock gets a nearly constant driving force (Wikipedia, Fusee; 507 Mechanical Movements no. 46). A compound bow's cam does the opposite: the archer starts on the 'short' side of the cam at a mechanical disadvantage, then the cam rolls over so that near full draw the archer has the advantage and holds only a fraction of the peak force, the 'let-off' (Wikipedia, Compound bow). In general the pulley's outline can be calculated to turn a spring's straight-line force into almost any torque curve, as long as the outline stays convex so the cord can wrap it (Ludovico et al. 2021).
+Turning force ([torque](../glossary.md#torque)) equals the cord's pull times the radius at the point where the cord leaves the pulley. In a fusee the strong pull of a fully wound mainspring acts on the narrow top of the cone, and as the spring weakens the chain comes off ever wider grooves, so the bigger radius makes up for the weaker pull and the clock gets a nearly constant driving force (Wikipedia, Fusee; 507 Mechanical Movements no. 46). A compound bow's cam does the opposite: the archer starts on the 'short' side of the cam at a mechanical disadvantage, then the cam rolls over so that near full draw the archer has the advantage and holds only a fraction of the peak force, the 'let-off' (Wikipedia, Compound bow). In general the pulley's outline can be calculated to turn a spring's straight-line force into almost any torque curve, as long as the outline stays convex so the cord can wrap it (Ludovico et al. 2021).
 
 ## Parts
 
-A few parts: the shaped pulley (a cone with a spiral groove, or a flat cam-shaped wheel with a groove), a cord, cable or chain, the spring it works against (a mainspring in a barrel, bow limbs, a coil spring), a shaft and bearings. Clock fusees add a ratchet and click inside the fusee, a winding stop and often maintaining power (Wikipedia, Fusee). Compound bows add a second cam or an idler wheel, buss cables and adjustable draw stops (Wikipedia, Compound bow).
+A few parts: the shaped pulley (a cone with a spiral groove, or a flat cam-shaped wheel with a groove), a cord, cable or chain, the spring it works against (a mainspring in a barrel, bow limbs, a coil spring), a shaft and bearings. Clock fusees add a [ratchet](../glossary.md#ratchet) and click inside the fusee, a winding stop and often maintaining power (Wikipedia, Fusee). Compound bows add a second cam or an [idler](../glossary.md#idler) wheel, buss cables and adjustable draw stops (Wikipedia, Compound bow).
 
 ## Everyday examples
 
@@ -149,14 +151,14 @@ Use a variable-radius pulley when a spring's force changes but you need a steady
 
 ## When not to use it
 
-If a nearly constant force is all you need, a constant-force spring or constant-torque spring motor is simpler, though such springs 'store less energy per pound and ... have a shorter life' (US7677540); clockmakers likewise replaced the fusee with a going barrel that uses only the flat part of a long mainspring's curve (Wikipedia, Fusee). If you need to change the force curve often, use a motor with control instead, since the profile is fixed (Fedorov and Birglen 2018). If the force must push as well as pull, a cord can't do it; use non-circular gears or a cam and follower. For compact or very low-friction designs, the extra bulk and friction may outweigh the benefit (Wikipedia, Fusee: bulky; Fedorov and Birglen: friction).
+If a nearly constant force is all you need, a constant-force spring or constant-torque spring motor is simpler, though such springs 'store less energy per pound and ... have a shorter life' (US7677540); clockmakers likewise replaced the fusee with a going barrel that uses only the flat part of a long mainspring's curve (Wikipedia, Fusee). If you need to change the force curve often, use a motor with control instead, since the profile is fixed (Fedorov and Birglen 2018). If the force must push as well as pull, a cord can't do it; use non-circular gears or a [cam and follower](../glossary.md#cam-and-follower). For compact or very low-friction designs, the extra bulk and friction may outweigh the benefit (Wikipedia, Fusee: bulky; Fedorov and Birglen: friction).
 
 ## Details
 
 - **What it does (jobs):**
   - store energy: shapes how a spring's stored energy is given out or taken in (steady in a fusee, peaking early in a compound bow) (Wikipedia, Fusee; Compound bow)
   - change speed or turning force: changes the leverage between cord and shaft continuously as it turns
-  - change the kind of motion: turns a cord's straight pull into rotation of a shaft, with a ratio that changes along the stroke
+  - change the kind of motion: turns a cord's straight pull into rotation of a shaft, with a ratio that changes along the [stroke](../glossary.md#stroke)
 - **Movement:** rotate: a fusee turns several times as its spiral groove winds and unwinds; a compound-bow cam turns less than one revolution per draw ⚑ [uncertain]; a printed noncircular pulley in Fedorov and Birglen's cable robot ran over 900 degrees
 - **Directions it can move (degrees of freedom):** 1: the pulley turns on its shaft and the cord's position is tied to that angle
 - **Special behaviour:**
@@ -165,8 +167,8 @@ If a nearly constant force is all you need, a constant-force spring or constant-
   - tensioning (takes up slack and holds): a tapered-drum tool balancer keeps the tool hanging at the height it is left, taking up cable as it rises (Hubbell Gleason spec sheet)
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it passes force from a spring to a shaft
-  - shape (the parts interlock; form-fit): the cord or chain runs in a groove and its end is hooked or anchored to the pulley (Wikipedia, Fusee: round grooves for cords, rectangular for chains)
-- **Input and output:** Input: cord, cable or chain pull (straight line) <-> output: shaft torque (rotation); the ratio at any moment is the radius where the cord leaves the pulley, and it changes with angle. Fusee: converts the mainspring's falling pull into an almost constant torque (Wikipedia, Fusee; US7677540: 'converting the linearly increasing torque from a power spring into a constant torque'). Compound bow: peak weight early in the draw, then let-off, 'commonly between 65% and 80% of the peak weight', some over 90% (Wikipedia, Compound bow). Efficiency: friction losses are noticeable; a 3D-printed noncircular-pulley balancer with an idler pulley showed hysteresis of 17% of its torque range (Fedorov and Birglen 2018). Shaft arrangement: cord tangent to the pulley; in a fusee the barrel and fusee shafts are parallel. Back-drivable: yes, the spring always pulls back unless a ratchet or the user holds it.
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the cord or chain runs in a groove and its end is hooked or anchored to the pulley (Wikipedia, Fusee: round grooves for cords, rectangular for chains)
+- **Input and output:** Input: cord, cable or chain pull (straight line) <-> output: shaft torque (rotation); the ratio at any moment is the radius where the cord leaves the pulley, and it changes with angle. Fusee: converts the mainspring's falling pull into an almost constant torque (Wikipedia, Fusee; US7677540: 'converting the linearly increasing torque from a power spring into a constant torque'). Compound bow: peak weight early in the draw, then let-off, 'commonly between 65% and 80% of the peak weight', some over 90% (Wikipedia, Compound bow). Efficiency: friction losses are noticeable; a 3D-printed noncircular-pulley balancer with an idler pulley showed [hysteresis](../glossary.md#hysteresis) of 17% of its torque range (Fedorov and Birglen 2018). Shaft arrangement: cord tangent to the pulley; in a fusee the barrel and fusee shafts are parallel. Back-drivable: yes, the spring always pulls back unless a ratchet or the user holds it.
 - **Power:** passive (no power needed): it only reshapes the force from a spring or the user; a passive gravity-compensating pulley lets a robot arm hold its position with no power, avoiding collapse if the motors fail (Ludovico et al. 2021)
 - **Load:** light to medium: clock fusees carry small chain forces; compound bows handle draw weights of about 40 to 80 lb (18 to 36 kg) for adults (Wikipedia, Compound bow); tool balancers hold hand tools over a work area (Hubbell Gleason). The cord or chain is the weak point: a broken fusee chain whips about inside the clock (Wikipedia, Fusee). Strong only in cord tension; it can't push.
 - **Play and precision:** Small play, but the output only matches the target curve if the cord follows the designed path: a cord that isn't tangent to the groove (fleet angle) rubs and wears (US7677540), planar profile calculations drift from a real 3D spiral at large angles (Fedorov and Birglen 2018), and friction adds hysteresis (17% in a printed prototype; others reported 8.6% and 10% errors) (Fedorov and Birglen 2018).
@@ -176,7 +178,7 @@ If a nearly constant force is all you need, a constant-force spring or constant-
 - **Adjustable:** Partly: the profile is fixed once made, so a fusee had to be readjusted when its mainspring was replaced (Wikipedia, Fusee); tool balancers have adjustable spring tension (Hubbell Gleason); compound bows have adjustable draw stops, and draw length and let-off can be changed, usually with a bow press (Wikipedia, Compound bow).
 - **Access needed:** not applicable: it is built into a mechanism (on a shaft end or between two shafts) rather than fitted from one side
 - **Materials:** Clock fusees: brass and steel with a gut cord, wire or fine steel chain, chains being used from about 1650 because they lasted longer (Wikipedia, Fusee). Compound bows: aluminium, magnesium or carbon-fibre risers, fibreglass-composite limbs, strings and cables of high-modulus polyethylene (Wikipedia, Compound bow); cam material not confirmed ⚑ [uncertain]. Tool balancers: die-cast aluminium housing and steel wire rope (Hubbell Gleason). Maker builds: 3D-printed ABS pulleys with polyethylene-fibre (Spectra) cable, chosen for strength and very low stretch, and laser-cut acrylic frames (Fedorov and Birglen 2018).
-- **Heat, cold, water and wear:** Cords stretch and creep, and gut cords were replaced by chains around 1650 because chains lasted longer (Wikipedia, Fusee). Compound bows are less sensitive to temperature and humidity than traditional bows (Wikipedia, Compound bow). Printed pulleys: PLA gives at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). Springs fatigue and lose force over time, which shifts the balance the profile was designed for ⚑ [uncertain].
+- **Heat, cold, water and wear:** Cords stretch and [creep](../glossary.md#creep), and gut cords were replaced by chains around 1650 because chains lasted longer (Wikipedia, Fusee). Compound bows are less sensitive to temperature and humidity than traditional bows (Wikipedia, Compound bow). Printed pulleys: PLA gives at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). Springs [fatigue](../glossary.md#fatigue) and lose force over time, which shifts the balance the profile was designed for ⚑ [uncertain].
 
 ## Making it
 
@@ -224,7 +226,7 @@ Stored spring energy: if a fusee chain breaks, 'the force of the mainspring sent
 - Non-circular gears: change the ratio along the turn with teeth instead of a cord, so they can push both ways
 - Cam and follower: a shaped wheel that moves a follower by contact, rather than winding a cord
 - Capstan and windlass, and pulley system (block and tackle): fixed-ratio cord drives
-- Escapement: the timekeeping part whose accuracy the fusee protected
+- Escapement: the timekeeping part whose [accuracy](../glossary.md#repeatability--accuracy) the fusee protected
 - Stackfreed: an older, high-friction cam compensator replaced by the fusee (Wikipedia, Fusee)
 
 ## Make it yourself

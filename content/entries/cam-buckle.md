@@ -119,21 +119,22 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Cam_buckle_webbing_cam_buckle.json
+glossary: [self-locking, over-centre, ratchet, torsion, form-fit--force-fit--material-bond, boss, creep, print-in-place]
 ---
 
 A strap buckle in which a spring presses a toothed cam against the webbing, so the strap pulls through one way to tighten, is gripped harder the more the load pulls back, and slides free when you press the cam's lever.
 
 **In plain words:** A buckle on a strap with a springy toothed flap inside: pull the loose end and the strap slides through tight, let go and the teeth pinch it so it can't slip back, then press the flap to loosen it. **Proper term:** Cam buckle (webbing cam buckle; cam strap).
 
-**Also called:** cam lock buckle; cam buckle strap / cam strap; cam buckle tie-down; spring-loaded cam buckle; lashing strap with cam buckle; roller cam buckle (version with a roller under the webbing); Klemmschloss / Spanngurt mit Klemmverschluss (German); NRS strap (brand); Rollercam (brand); cam band (scuba tank strap; usually an over-centre lever buckle, a different mechanism).
+**Also called:** cam lock buckle; cam buckle strap / cam strap; cam buckle tie-down; spring-loaded cam buckle; lashing strap with cam buckle; roller cam buckle (version with a roller under the webbing); Klemmschloss / Spanngurt mit Klemmverschluss (German); NRS strap (brand); Rollercam (brand); cam band (scuba tank strap; usually an [over-centre](../glossary.md#over-centre) lever buckle, a different mechanism).
 
 ## How it works
 
-The webbing runs through the frame between a fixed bar or plate and a toothed cam on a pivot pin. A spring pushes the cam toward the bar so its teeth press on the webbing (US 3,678,542; German Wikipedia 'Spanngurt'). Pulling the loose tail drags the teeth the opening way, so the webbing slides through and tightens; when you let go, the load pulls the webbing the other way, which pulls the cam face closer to the bar, so 'a belt cannot be pulled out of the buckle unless [the] lever ... is first depressed' (US 3,678,542). Pressing the lever against its spring lifts the teeth and the strap slides freely either way. Because you tighten it by hand, it can't be over-tensioned the way a ratchet can (DC Cargo), and friction in a plain cam buckle means the strap tension can be 'two to three times less' than your pull (US 6,877,189).
+The webbing runs through the frame between a fixed bar or plate and a toothed cam on a pivot pin. A spring pushes the cam toward the bar so its teeth press on the webbing (US 3,678,542; German Wikipedia 'Spanngurt'). Pulling the loose tail drags the teeth the opening way, so the webbing slides through and tightens; when you let go, the load pulls the webbing the other way, which pulls the cam face closer to the bar, so 'a belt cannot be pulled out of the buckle unless [the] lever ... is first depressed' (US 3,678,542). Pressing the lever against its spring lifts the teeth and the strap slides freely either way. Because you tighten it by hand, it can't be over-tensioned the way a [ratchet](../glossary.md#ratchet) can (DC Cargo), and friction in a plain cam buckle means the strap tension can be 'two to three times less' than your pull (US 6,877,189).
 
 ## Parts
 
-A few parts: a U-shaped frame (die-cast zinc, pressed steel, stainless steel or plastic) with a bar or plate the webbing presses against; a toothed (serrated or knurled) cam lever on a pivot pin; a coil or torsion spring; sometimes a separate serrated pressure plate (US 3,678,542) or a roller (Rollercam; US 6,877,189); plus the webbing, usually sewn to the buckle at one end.
+A few parts: a U-shaped frame (die-cast zinc, pressed steel, stainless steel or plastic) with a bar or plate the webbing presses against; a toothed (serrated or knurled) cam lever on a pivot pin; a coil or [torsion](../glossary.md#torsion) spring; sometimes a separate serrated pressure plate (US 3,678,542) or a roller (Rollercam; US 6,877,189); plus the webbing, usually sewn to the buckle at one end.
 
 ## Everyday examples
 
@@ -161,17 +162,17 @@ Avoid it for heavy cargo on trucks and trailers that needs high tension or a rat
 - **Directions it can move (degrees of freedom):** 1 for the webbing: it moves only along its length, and only in the tightening direction unless the lever is pressed. The cam turns about one pin (1).
 - **Special behaviour:**
   - one-way (moves freely one way, locks the other): the strap slides through to tighten and locks against the load
-  - self-locking (holds under load, won't back-drive): the load pulls the cam tighter onto the webbing
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the load pulls the cam tighter onto the webbing
   - hand-release only (locks under load, releases when a person operates it): press the thumb lever against its spring to free the strap
   - quick-release: one press and the strap can be pulled out completely
   - tensioning (takes up slack and holds): pulling the tail takes up slack and holds the strap at any length; the tension is limited to what you can pull by hand
 - **How it holds:**
-  - friction or clamping (force-fit): the toothed cam pinches the webbing against a bar or plate, and the load pulls it tighter
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the toothed cam pinches the webbing against a bar or plate, and the load pulls it tighter
   - spring force (a spring or springy part presses it in place): a small spring keeps the cam pressed on the webbing so it catches as soon as you let go
 - **Input and output:** not applicable: it holds a strap rather than passing motion on (back-drivable: no while the cam is engaged; pressing the lever releases it)
 - **Power:** passive (no power needed)
 - **Load:** Light to medium, as a straight pull along the strap. NRS 1-inch heavy-duty strap: minimum breaking strength 1,500 lb, working load limit 500 lb; 1.5-inch strap: 2,000 lb breaking load, 650 lb working load limit (NRS; Rafting Magazine). The NRS 1-inch buckle alone has 'over 2,000 lb. load capacity', so the webbing is usually the weak link. The tension you can put in is limited to a hand pull (DC Cargo) and reduced by buckle friction (US 6,877,189), so for heavy cargo ratchet straps are used instead (Rollercam). Weak against the lever being pressed or snagged, which releases it ⚑ [uncertain].
-- **Play and precision:** Small: the webbing slips back a little while the cam bites ⚑ [uncertain: no source gives an amount]. Stepless, so it holds at any length. The webbing must match the slot width and suit the gap: Milspec Monkey notes its 1.5-inch slot 'works better with thicker textured webbing'. Polypropylene webbing has 'quite a bit of elasticity and creep under loads' (Rafting Magazine), so straps can loosen slightly over time.
+- **Play and precision:** Small: the webbing slips back a little while the cam bites ⚑ [uncertain: no source gives an amount]. Stepless, so it holds at any length. The webbing must match the slot width and suit the gap: Milspec Monkey notes its 1.5-inch slot 'works better with thicker textured webbing'. Polypropylene webbing has 'quite a bit of elasticity and [creep](../glossary.md#creep) under loads' (Rafting Magazine), so straps can loosen slightly over time.
 - **Taking it apart:** tool-free quick release: press the lever and pull the strap out
 - **How often it can be reused:** effectively unlimited for the buckle, which is reused on every trip; the webbing wears out first (fraying, UV, cuts) and the cam teeth slowly wear ⚑ [uncertain: no cycle count found]
 - **Sealing:** none: nothing makes it seal
@@ -188,13 +189,13 @@ Avoid it for heavy cargo on trucks and trailers that needs high tension or a rat
   - 3D print (FDM): frame and cam for light straps, with a metal pin and spring
   - 3D print (resin): small light-duty buckles ⚑ [uncertain: no tested example found]
   - CNC: aluminium frames and cams ⚑ [uncertain]
-- **Printing it in one piece (print in place):** no: it needs a pivot pin, a spring and a toothed cam fitted inside the frame, so it is printed as separate parts and assembled (or the frame is printed and a bought cam and spring are fitted) ⚑ [uncertain: no print-in-place design found]
+- **Printing it in one piece (print in place):** no: it needs a pivot pin, a spring and a toothed cam fitted inside the frame, so it is printed as separate parts and assembled (or the frame is printed and a bought cam and spring are fitted) ⚑ [uncertain: no [print-in-place](../glossary.md#print-in-place) design found]
 - **Tools:** none to use. To make your own strap: a sewing machine or heavy needle to sew the webbing to the buckle's bar, or a bolt-on buckle (a printable repair buckle uses an M3 screw, Printables 817333). NRS sells its buckles separately for custom straps but 'cannot guarantee the strength of custom straps'.
 - **Difficulty:** moderate: fitting a bought buckle is easy (sew or bolt it to webbing), but making one means printing a frame and toothed cam and adding a metal pin and spring, and a printed buckle only suits light straps and should be tested before you trust it
 
 ### 3D printing tips
 
-Printed cam buckles exist for light loads: Radulf3d's Printables 'Cam buckle' for straps up to 25 mm wide is printed in PETG and meant for 'light loads, bags, gear'; Scott Lomas's 'cam lock buckle repair' bolts onto a strap with an M3 screw, is made for 20 mm (3/4 in) straps and should be printed 'in the orientations provided for maximum strength'; Robin Lunde's PETG 'Camera buckle' (for about 27 mm straps) holds a dog harness, but its small rear cross-bar broke off. Lessons: print the frame so the bar the webbing wraps round runs along the layers, not across them, since FFF prints are stronger in one direction than another (Prusa); make that bar and the pivot bosses thick; use a metal pin or screw for the pivot and a small metal spring; give the cam blunt teeth that dig into the webbing weave rather than cutting it ⚑ [uncertain]; and allow for webbing thickness, since the cam must still close on the strap. Material: PETG or ASA rather than PLA, because PLA softens above about 60 °C (a car roof in summer sun can get hot) and degrades in UV (Prusa PLA page); PETG suits outdoor parts below about 80 °C and ASA resists UV and heat up to 93 °C (Prusa). Test a printed buckle at the load you need before relying on it, and never use one for anything that carries a person or could fall on someone.
+Printed cam buckles exist for light loads: Radulf3d's Printables 'Cam buckle' for straps up to 25 mm wide is printed in PETG and meant for 'light loads, bags, gear'; Scott Lomas's 'cam lock buckle repair' bolts onto a strap with an M3 screw, is made for 20 mm (3/4 in) straps and should be printed 'in the orientations provided for maximum strength'; Robin Lunde's PETG 'Camera buckle' (for about 27 mm straps) holds a dog harness, but its small rear cross-bar broke off. Lessons: print the frame so the bar the webbing wraps round runs along the layers, not across them, since FFF prints are stronger in one direction than another (Prusa); make that bar and the pivot [bosses](../glossary.md#boss) thick; use a metal pin or screw for the pivot and a small metal spring; give the cam blunt teeth that dig into the webbing weave rather than cutting it ⚑ [uncertain]; and allow for webbing thickness, since the cam must still close on the strap. Material: PETG or ASA rather than PLA, because PLA softens above about 60 °C (a car roof in summer sun can get hot) and degrades in UV (Prusa PLA page); PETG suits outdoor parts below about 80 °C and ASA resists UV and heat up to 93 °C (Prusa). Test a printed buckle at the load you need before relying on it, and never use one for anything that carries a person or could fall on someone.
 
 ### Buying one (off-the-shelf parts)
 

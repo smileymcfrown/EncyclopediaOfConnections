@@ -133,6 +133,7 @@ sources:
 - https://en.wikipedia.org/wiki/Cleat_hitch
 - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 research: research/connection-types/results/Cam_cleat.json
+glossary: [self-locking, pawl, sprag, torsion, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 
 A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.
@@ -147,7 +148,7 @@ Two cams sit side by side on pivots, and springs turn them so their toothed, cur
 
 ## Parts
 
-A small assembly that acts as one unit: a base plate with two pivot posts; two toothed cams (jaws, which Harken calls pawls); one or two torsion springs per cam; and, on better cleats, ball bearings (Harken's standard 150 uses 66 small Delrin balls in three rows), washers and cam caps. Often fitted with add-ons: a fairlead (guide loop) over the jaws, a riser or a 15° wedge. Some designs gear the two cams together so they open and close as a mirrored pair (US 4,620,499).
+A small assembly that acts as one unit: a base plate with two pivot posts; two toothed cams (jaws, which Harken calls [pawls](../glossary.md#pawl)); one or two [torsion](../glossary.md#torsion) springs per cam; and, on better cleats, ball bearings (Harken's standard 150 uses 66 small Delrin balls in three rows), washers and cam caps. Often fitted with add-ons: a fairlead (guide loop) over the jaws, a riser or a 15° wedge. Some designs gear the two cams together so they open and close as a mirrored pair (US 4,620,499).
 
 ## Everyday examples
 
@@ -174,17 +175,17 @@ Avoid it for loads beyond what a person can hold by hand, or loads that must be 
 - **Directions it can move (degrees of freedom):** 1 for the rope: it moves only along its length, and only in the tightening direction while it sits in the jaws. Each cam also turns about its own pivot (1 each, or 1 shared when the cams are geared together). Lifting the rope out of the top is the release path, not a working motion.
 - **Special behaviour:**
   - one-way (moves freely one way, locks the other): the rope pulls through toward you and locks against the load
-  - self-locking (holds under load, won't back-drive): the load drags the cams tighter, so the harder it pulls the harder they grip
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the load drags the cams tighter, so the harder it pulls the harder they grip
   - hand-release only (locks under load, releases when a person operates it): you lift the rope up and out; lever-release and pull-down-release versions also exist (Nash cam cleat, US 3,765,061, described in US 4,620,499; Nash Trigger Cleat in Practical Sailor)
   - quick-release: one upward flick frees the line, which is also why a line knocked upward by accident can come loose
   - tensioning (takes up slack and holds): pull the tail to tension a line and it holds at any point
 - **How it holds:**
-  - friction or clamping (force-fit): the toothed jaws pinch the rope, and the load wedges them tighter
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the toothed jaws pinch the rope, and the load wedges them tighter
   - spring force (a spring or springy part presses it in place): torsion springs keep the cams closed so they catch the rope as soon as you let go
 - **Input and output:** not applicable: it holds a rope rather than passing motion on (back-drivable: no while the rope stays down in the jaws; lifting the rope out releases it)
 - **Power:** passive (no power needed)
 - **Load:** Light to medium, and only as a pull along the rope. Makers' maximum working loads: Harken Micro Cam-Matic 91 kg (200 lb); Harken Standard Cam-Matic 150 136 kg (300 lb), breaking load 340 kg (750 lb); Ronstan Small C-Cleat 165 lb (breaking 330 lb); Ronstan Large C-Cleat 510 lb (breaking 1,010 lb). Weak against any upward pull on the rope, which releases it, and against leads from the side or from above, which make the rope pop out (Harken). Lewmar's catalogue warns that cam cleats are 'designed to hold only the load that can be applied manually' (quoted by Practical Sailor).
-- **Play and precision:** Small: the rope creeps back a little while the cams swing shut and the teeth bite ⚑ [uncertain: no source gives an amount]. There are no fixed positions (stepless). Each cleat takes a range of rope sizes (for example 3 to 12 mm for Harken's standard 150), but it does not tolerate a crooked lead: the line must come in straight, or it pops out of the cams (Harken Quick Service).
+- **Play and precision:** Small: the rope [creeps](../glossary.md#creep) back a little while the cams swing shut and the teeth bite ⚑ [uncertain: no source gives an amount]. There are no fixed positions (stepless). Each cleat takes a range of rope sizes (for example 3 to 12 mm for Harken's standard 150), but it does not tolerate a crooked lead: the line must come in straight, or it pops out of the cams (Harken Quick Service).
 - **Taking it apart:** tool-free quick release: lift the rope up and out of the jaws; the cleat itself is screwed or bolted down and comes off with a screwdriver
 - **How often it can be reused:** effectively unlimited: it grips and releases thousands of times (Practical Sailor ran 1,000-cycle cleat-and-release tests). What wears is the rope, the teeth, the springs and the bearings; Harken sells springs, balls, washers and base plates as spares.
 - **Sealing:** none: nothing makes it seal
@@ -201,13 +202,13 @@ Avoid it for loads beyond what a person can hold by hand, or loads that must be 
   - 3D print (resin): possible for small, light-duty cams ⚑ [uncertain: no tested example found]
   - CNC: aluminium cams (Helms's patent cut the cam jaws from extruded aluminium bar, US 3,730,129)
   - woodwork: mounting pads, risers and wedges to set the angle
-- **Printing it in one piece (print in place):** no: working versions are printed as separate cams and base and assembled with metal springs and screw pivots (Erik Stensmo's Printables cam cleat uses four metal springs). A print-in-place version with printed springs exists, but its maker says it grips only 'sometimes'.
+- **Printing it in one piece (print in place):** no: working versions are printed as separate cams and base and assembled with metal springs and screw pivots (Erik Stensmo's Printables cam cleat uses four metal springs). A [print-in-place](../glossary.md#print-in-place) version with printed springs exists, but its maker says it grips only 'sometimes'.
 - **Tools:** none to use; a drill and screwdriver (plus a spanner for through-bolts) to mount it. Harken's standard 150 takes #10 (5 mm) flat-head fasteners; its micro cleats take #8 (4 mm) round-head screws (Harken Quick Service sheet).
 - **Difficulty:** moderate: printed cams and a printed base work for light lines, but you need metal pivot screws and springs and a sensible tooth shape; for anything carrying real load, buy one
 
 ### 3D printing tips
 
-Print each cam lying flat, with its pivot hole vertical, so the teeth are drawn by the perimeters in one layer plane and the rope's pull runs along the layers rather than trying to split them (FFF prints are stronger in one direction than another, Prusa). Use a metal screw, shoulder bolt or pin as the pivot rather than a printed peg, and metal torsion springs: Erik Stensmo's CC BY Printables cam cleat needs only the springs as metal parts and recommends two springs per cam (four per cleat), with the bearing ideally printed in PTFE. Leave the cams free to turn: Harken warns that over-tightening the mounting screws makes the cams (pawls) bind, so let the screw clamp a spacer or post, not the cam itself. Keep teeth slightly rounded rather than knife-sharp: Helms's patent found tips rounded to about 0.25 mm best (0.13 to 0.76 mm acceptable), which a 0.4 mm nozzle gives naturally, and Practical Sailor reports that too-sharp teeth chew rope. Add a fairlead or guide over the jaws so the rope enters straight, and a riser or wedge if the line comes from above the cleat's plane (Harken). Material: PETG, ASA or PC outdoors; PLA softens above about 60 °C and degrades in sunlight (Prusa PLA page), PETG suits outdoor parts below about 80 °C, and ASA resists UV and heat up to 93 °C (Prusa). Nylon or PTFE-filled filaments may run more smoothly on the pivots ⚑ [uncertain]. Typical failures: cams too tight on their pivots to snap shut, springs too weak to catch the line, and teeth wearing smooth; printed cams wear much faster than anodised aluminium ones ⚑ [uncertain], so treat a printed cleat as light-duty and replaceable.
+Print each cam lying flat, with its pivot hole vertical, so the teeth are drawn by the [perimeters](../glossary.md#perimeters) in one layer plane and the rope's pull runs along the layers rather than trying to split them (FFF prints are stronger in one direction than another, Prusa). Use a metal screw, shoulder bolt or pin as the pivot rather than a printed peg, and metal torsion springs: Erik Stensmo's CC BY Printables cam cleat needs only the springs as metal parts and recommends two springs per cam (four per cleat), with the bearing ideally printed in PTFE. Leave the cams free to turn: Harken warns that over-tightening the mounting screws makes the cams (pawls) bind, so let the screw clamp a spacer or post, not the cam itself. Keep teeth slightly rounded rather than knife-sharp: Helms's patent found tips rounded to about 0.25 mm best (0.13 to 0.76 mm acceptable), which a 0.4 mm nozzle gives naturally, and Practical Sailor reports that too-sharp teeth chew rope. Add a fairlead or guide over the jaws so the rope enters straight, and a riser or wedge if the line comes from above the cleat's plane (Harken). Material: PETG, ASA or PC outdoors; PLA softens above about 60 °C and degrades in sunlight (Prusa PLA page), PETG suits outdoor parts below about 80 °C, and ASA resists UV and heat up to 93 °C (Prusa). Nylon or PTFE-filled filaments may run more smoothly on the pivots ⚑ [uncertain]. Typical failures: cams too tight on their pivots to snap shut, springs too weak to catch the line, and teeth wearing smooth; printed cams wear much faster than anodised aluminium ones ⚑ [uncertain], so treat a printed cleat as light-duty and replaceable.
 
 ### Buying one (off-the-shelf parts)
 
@@ -242,7 +243,7 @@ Fingers can be caught 'when snapping a taut line out of a cam cleat, especially 
 - Cord lock (spring toggle): a spring plunger that pinches a thin cord, for very light loads
 - Cam buckle (webbing cam buckle): the same one-way toothed-cam idea for flat straps, released by pressing a lever
 - Binding-plate lock (tilting friction plate): a tipped plate wedges on a rod instead of cams wedging a rope
-- Sprag clutch: the same wedge-tighter-under-load principle, used between rotating shafts
+- [Sprag](../glossary.md#sprag) clutch: the same wedge-tighter-under-load principle, used between rotating shafts
 - Tensioning and adjustable hitches: knots such as the trucker's hitch and taut-line hitch that pull a line tight and hold it with no hardware at all
 
 ## Make it yourself

@@ -128,6 +128,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Horizontal_rear_dropout.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Slotted_adjustment_with_a_jacking_screw_slotted_mount_sliding_motor_plate.json
+glossary: [misalignment, self-locking, pitch, idler, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert,
+  captive-nut, creep, perimeters, infill]
 ---
 
 A part is fixed with screws through slots instead of round holes, so it can be slid to set a belt or chain tension or line it up, usually pushed by a separate adjusting (jacking) screw, and is then locked by tightening the screws.
@@ -142,7 +144,7 @@ The clamping screws pass through slots, so while they are loose the part can sli
 
 ## Parts
 
-A few parts: a base, plate or rails with slots (or a part with slotted feet), clamping screws or bolts with washers through the slots, a fixed lug, block or nut with a threaded hole for the jacking screw, the jacking screw itself (often with a lock nut), and sometimes a scale or index marks. The moving part is a motor, an idler pulley, a bearing block or a wheel axle.
+A few parts: a base, plate or rails with slots (or a part with slotted feet), clamping screws or bolts with washers through the slots, a fixed lug, block or nut with a threaded hole for the jacking screw, the jacking screw itself (often with a lock nut), and sometimes a scale or index marks. The moving part is a motor, an [idler](../glossary.md#idler) pulley, a bearing block or a wheel axle.
 
 ## Everyday examples
 
@@ -153,7 +155,7 @@ A few parts: a base, plate or rails with slots (or a part with slotted feet), cl
 
 ## When to use it
 
-When a belt or chain needs setting up once and re-tightening now and then as it stretches, and you can move one of the shafts (Gates prefers moving a shaft to adding an idler; the Belt tensioner entry agrees); when parts made with loose tolerances must be lined up on assembly; when you need more travel than an eccentric bush can give (the Eccentric adjuster entry suggests a slot when you need more than about twice the offset); for prototypes, where you don't yet know the exact centre distance. A jacking screw is worth adding whenever the part is heavy, the belt pull is strong, or you need fine, controlled moves.
+When a belt or chain needs setting up once and re-tightening now and then as it stretches, and you can move one of the shafts (Gates prefers moving a shaft to adding an idler; the Belt tensioner entry agrees); when parts made with loose [tolerances](../glossary.md#tolerance) must be lined up on assembly; when you need more travel than an eccentric bush can give (the Eccentric adjuster entry suggests a slot when you need more than about twice the offset); for prototypes, where you don't yet know the exact centre distance. A jacking screw is worth adding whenever the part is heavy, the belt pull is strong, or you need fine, controlled moves.
 
 ## When not to use it
 
@@ -169,14 +171,14 @@ When tension must stay right on its own as a belt stretches or the load changes:
 - **Directions it can move (degrees of freedom):** 0 once clamped. While adjusting, 1 (along the slot) if the slots and screws guide it well; with only one screw or wide slots it can also twist, so 2, which is why two jacking screws or a guide edge are used.
 - **Special behaviour:**
   - tensioning (takes up slack and holds): moving the motor or axle takes up belt or chain slack, then the clamping screws hold that setting; it is set by hand, not automatic
-  - self-locking (holds under load, won't back-drive): the jacking screw's thread doesn't turn back under the belt's pull, because screw threads are self-locking (Wikipedia 'Jackscrew'), so it holds the setting even while the clamping screws are loose
-- **How it holds:** friction or clamping (force-fit): the clamping screws squeeze the part onto its base; plus shape (form-fit) where the jacking screw butts against the part or lug and stops it sliding back along the slot. Structural practice notes that a load along a slot is carried only by friction (a slip-critical joint), whereas a load across the slot bears on the bolt (UMD notes on RCSC 2000)
-- **Input and output:** An adjuster, not a drive: turning the jacking screw -> a small straight movement of one thread pitch per turn (0.5 mm for M3, 0.7 mm for M4, 0.8 mm for M5 coarse threads, Wikipedia 'ISO metric screw thread'); arrangement in line with the slot. Back-drivable: no, thread friction holds it (Wikipedia 'Jackscrew').
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the jacking screw's thread doesn't turn back under the belt's pull, because screw threads are self-locking (Wikipedia 'Jackscrew'), so it holds the setting even while the clamping screws are loose
+- **How it holds:** friction or clamping (force-fit): the clamping screws squeeze the part onto its base; plus shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)) where the jacking screw butts against the part or lug and stops it sliding back along the slot. Structural practice notes that a load along a slot is carried only by friction (a slip-critical joint), whereas a load across the slot bears on the bolt (UMD notes on RCSC 2000)
+- **Input and output:** An adjuster, not a drive: turning the jacking screw -> a small straight movement of one thread [pitch](../glossary.md#pitch) per turn (0.5 mm for M3, 0.7 mm for M4, 0.8 mm for M5 coarse threads, Wikipedia 'ISO metric screw thread'); arrangement in line with the slot. Back-drivable: no, thread friction holds it (Wikipedia 'Jackscrew').
 - **Power:** passive (no power needed)
-- **Load:** Light to heavy, depending on the screws: from M3 screws on a printer motor to steel slide rails under large electric motors (US Motors; Soco). Strong across the slot, where the bolts bear on the slot sides; along the slot it holds only by clamping friction unless the jacking screw or a stop backs it up (UMD notes on RCSC 2000: slotted holes are normally placed with the slot across the load). Shock or vibration along the slot can make it creep.
-- **Play and precision:** No play once clamped. Fine resolution with a jacking screw: an M3 screw moves 0.5 mm per turn, so a quarter turn is about 0.12 mm (arithmetic from the thread pitch). The part can twist in its slots while loose and may shift a little as the clamping screws are tightened, so check alignment after locking ⚑ [uncertain: no figure opened]. Belt drives tolerate only small misalignment (Gates: synchronous belts no more than 1/4 degree or 1/16 in per foot). Not a repeatable locator: use pins or a hole-and-slot pair when the part must return to exactly the same place.
+- **Load:** Light to heavy, depending on the screws: from M3 screws on a printer motor to steel slide rails under large electric motors (US Motors; Soco). Strong across the slot, where the bolts bear on the slot sides; along the slot it holds only by clamping friction unless the jacking screw or a stop backs it up (UMD notes on RCSC 2000: slotted holes are normally placed with the slot across the load). Shock or vibration along the slot can make it [creep](../glossary.md#creep).
+- **Play and precision:** No play once clamped. Fine resolution with a jacking screw: an M3 screw moves 0.5 mm per turn, so a quarter turn is about 0.12 mm (arithmetic from the thread pitch). The part can twist in its slots while loose and may shift a little as the clamping screws are tightened, so check alignment after locking ⚑ [uncertain: no figure opened]. Belt drives tolerate only small [misalignment](../glossary.md#misalignment) (Gates: synchronous belts no more than 1/4 degree or 1/16 in per foot). Not a repeatable locator: use pins or a hole-and-slot pair when the part must return to exactly the same place.
 - **Taking it apart:** removable: undo the clamping screws and slide the part out; the setting is lost unless you mark it or leave the jacking screw where it is
-- **How often it can be reused:** effectively unlimited with metal screws in metal threads or nuts; fewer when the jacking screw turns in a printed thread, which wears (use inserts or captive nuts, Hubs)
+- **How often it can be reused:** effectively unlimited with metal screws in metal threads or nuts; fewer when the jacking screw turns in a printed thread, which wears (use inserts or [captive nuts](../glossary.md#captive-nut), Hubs)
 - **Sealing:** none
 - **Adjustable:** yes: that is its purpose. Loosen the clamping screws, turn the jacking screw (or slide by hand), re-tighten; re-adjust as belts and chains stretch (Tsubaki: chain elongates 0.05 to 0.1 % early in use, so adjustment is required)
 - **Access needed:** one side only (blind) when the clamping screws go into tapped holes, T-slot nuts or captive nuts; both sides when through-bolts and nuts are used; the jacking screw needs room for a hex key or spanner along its axis
@@ -186,7 +188,7 @@ When tension must stay right on its own as a belt stretches or the load changes:
 ## Making it
 
 - **Ways to make or get it:**
-  - 3D print (FDM): slotted motor brackets and tensioners with captive nuts or heat-set inserts
+  - 3D print (FDM): slotted motor brackets and tensioners with captive nuts or [heat-set inserts](../glossary.md#heat-set-insert)
   - laser cut: slotted plates in acrylic, plywood or metal
   - CNC: milled slots in aluminium or steel plates
   - woodwork: routed or drilled-and-joined slots in a wooden base
@@ -198,7 +200,7 @@ When tension must stay right on its own as a belt stretches or the load changes:
 
 ### 3D printing tips
 
-Print slotted plates lying flat so the slots are formed in the XY plane, where outlines are most accurate and the clamping force runs along the layers rather than prising them apart (QIDI blog on clamping force direction; Prusa on orientation and tolerances) ⚑ [uncertain: no source tests slots specifically]. Make the slot as wide as a normal clearance hole for the screw and as long as the travel you need plus spare for belt stretch (Gates tensioning allowance). Put a washer under every screw head on a slot; one designer of a slotted NEMA 17 bracket notes it is 'probably a good idea to add washers' (Printables 217277), and washers stop heads sinking into plastic (QIDI blog). Don't let the jacking screw cut its own thread in the print: use a heat-set insert or a captive nut (Printables 338646 uses brass threaded inserts), with at least one screw diameter of plastic round it and a nut pocket about 0.2 mm larger than the nut (Hubs). Give the lug the jacking screw pushes against plenty of perimeters and infill, because it carries the full belt pull. Use PETG, ASA or ABS rather than PLA near warm motors: PLA softens above about 60 °C and creeps under constant load (Prusa PLA page; Thrinter creep test). Re-check tension after a few hours of use, because printed parts and new belts settle.
+Print slotted plates lying flat so the slots are formed in the XY plane, where outlines are most accurate and the clamping force runs along the layers rather than prising them apart (QIDI blog on clamping force direction; Prusa on orientation and tolerances) ⚑ [uncertain: no source tests slots specifically]. Make the slot as wide as a normal [clearance](../glossary.md#clearance) hole for the screw and as long as the travel you need plus spare for belt stretch (Gates tensioning allowance). Put a washer under every screw head on a slot; one designer of a slotted NEMA 17 bracket notes it is 'probably a good idea to add washers' (Printables 217277), and washers stop heads sinking into plastic (QIDI blog). Don't let the jacking screw cut its own thread in the print: use a heat-set insert or a captive nut (Printables 338646 uses brass threaded inserts), with at least one screw diameter of plastic round it and a nut pocket about 0.2 mm larger than the nut (Hubs). Give the lug the jacking screw pushes against plenty of [perimeters](../glossary.md#perimeters) and [infill](../glossary.md#infill), because it carries the full belt pull. Use PETG, ASA or ABS rather than PLA near warm motors: PLA softens above about 60 °C and creeps under constant load (Prusa PLA page; Thrinter creep test). Re-check tension after a few hours of use, because printed parts and new belts settle.
 
 ### Buying one (off-the-shelf parts)
 

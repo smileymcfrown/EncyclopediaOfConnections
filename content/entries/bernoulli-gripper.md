@@ -139,6 +139,8 @@ sources:
 - https://hackaday.com/2019/03/09/look-ma-no-glue-electrostatic-adhesion-as-if-by-magic/
 - https://en.wikipedia.org/wiki/Electroadhesion
 research: research/connection-types/results/Bernoulli_gripper_noncontact_air_gripper.json
+glossary: [axial--radial, solenoid, form-fit--force-fit--material-bond, creep, brittle--ductile, peel-vs-shear, regulator,
+  venturi]
 ---
 
 A Bernoulli gripper blows a fast, thin sheet of air outwards between its face and a flat part, which lowers the air pressure in the gap so the still air underneath pushes the part up and holds it on an air cushion, letting robots lift fragile wafers, glass, film or fabric almost without touching them.
@@ -153,7 +155,7 @@ Compressed air enters the middle of the pad, is turned sideways and rushes out t
 
 ## Parts
 
-A small assembly that acts as one unit: (1) a gripper body with a central compressed-air inlet; (2) a nozzle, a very thin ring-shaped slit or, in vortex types, angled nozzles that make the air swirl; (3) a flat or slightly shaped face; (4) spacers, bumpers or friction pads that set the gap and stop the part sliding (Festo uses a POM ring and POM or nitrile-rubber knobs); (5) side guides or end stops for the part; (6) the air supply: a compressor, filter, pressure regulator and on/off valve, sometimes with a pressure or flow sensor to check a part is there (Festo OGGB catalogue; SMC XT661 catalogue).
+A small assembly that acts as one unit: (1) a gripper body with a central compressed-air inlet; (2) a nozzle, a very thin ring-shaped slit or, in vortex types, angled nozzles that make the air swirl; (3) a flat or slightly shaped face; (4) spacers, bumpers or friction pads that set the gap and stop the part sliding (Festo uses a POM ring and POM or nitrile-rubber knobs); (5) side guides or end stops for the part; (6) the air supply: a compressor, filter, pressure [regulator](../glossary.md#regulator) and on/off valve, sometimes with a pressure or flow sensor to check a part is there (Festo OGGB catalogue; SMC XT661 catalogue).
 
 ## Everyday examples
 
@@ -164,7 +166,7 @@ A small assembly that acts as one unit: (1) a gripper body with a central compre
 
 ## When to use it
 
-Use it to pick up thin, flat, fragile or sensitive parts that must not be scratched, marked, bent or contaminated: wafers, solar cells, thin glass, films, foils, circuit boards, textiles and leather, and porous or air-permeable sheets that a vacuum cup cannot seal on (Festo OGGB; Wikipedia 'Bernoulli grip'; EE3D). It is also good for separating the top sheet from a stack of thin or porous material (Festo), for sterile or clean-room handling because nothing touches the surface (Wikipedia), and where a part is warm or brittle (Mykhailyshyn et al. 2022 list hot and brittle parts as a jet-gripper strength).
+Use it to pick up thin, flat, fragile or sensitive parts that must not be scratched, marked, bent or contaminated: wafers, solar cells, thin glass, films, foils, circuit boards, textiles and leather, and porous or air-permeable sheets that a vacuum cup cannot seal on (Festo OGGB; Wikipedia 'Bernoulli grip'; EE3D). It is also good for separating the top sheet from a stack of thin or porous material (Festo), for sterile or clean-room handling because nothing touches the surface (Wikipedia), and where a part is warm or [brittle](../glossary.md#brittle--ductile) (Mykhailyshyn et al. 2022 list hot and brittle parts as a jet-gripper strength).
 
 ## When not to use it
 
@@ -182,7 +184,7 @@ Avoid it for heavy parts, parts with large holes, strongly curved or bumpy shape
   - none of the locking behaviours: nothing locks; holding lasts only as long as the air flows
 - **How it holds:**
   - suction or air pressure: the surrounding air pushes the part towards the low-pressure zone made by the fast outflow
-  - friction or clamping (force-fit): sideways hold comes only from friction pads, knobs or guides that the part rests against (Festo's nitrile-rubber knobs raise the lateral force from 1 N to 12-15 N)
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): sideways hold comes only from friction pads, knobs or guides that the part rests against (Festo's nitrile-rubber knobs raise the lateral force from 1 N to 12-15 N)
   - powered hold: it needs a continuous flow of compressed air
 - **Input and output:** not applicable: it is a holding device, not a motion converter. For sizing, compressed air in -> lifting force out: a Festo OGGB uses about 110 l/min at its nominal 1 bar and holds 6-10 N (Festo OGGB catalogue); an SMC Bernoulli-type pad of 100 mm diameter uses 156 L/min (ANR) at 0.4 MPa for 7.8 N, while the swirling cyclone type of the same size uses 258 L/min for 44 N (SMC XT661 catalogue).
 - **Power:** powered (needs a steady supply of compressed air: Festo OGGB works from 0 to 6 bar with 1 bar nominal; SMC's pads are rated for 0.01-0.4 or 0.5 MPa depending on type (SMC XT661); a maker's printed version needed a constant 7-40 psi, about 0.5-2.8 bar (EE3D, Thingiverse)). If the air supply is lost the part is released and falls, because the low pressure exists only while air is flowing (Festo OGGB functional principle) ⚑ [uncertain: no source gives how quickly it drops].
@@ -194,7 +196,7 @@ Avoid it for heavy parts, parts with large holes, strongly curved or bumpy shape
 - **Adjustable:** yes: the supply pressure sets the lifting force and gap, the height of the spacers or bumpers sets the working distance, guides with adjustment bolts set the distance between pad and part (SMC XT661), and several pads can be spaced out to balance a large sheet
 - **Access needed:** one side only (blind): it picks the part up by its top face alone, so the underside and edges are never touched
 - **Materials:** Parts it handles: silicon wafers and solar cells, thin glass, films and foils, circuit boards, flexible and air-permeable sheets, porous materials, textiles and leather, and sliced food in research (Festo OGGB; Wikipedia 'Bernoulli grip'; Mykhailyshyn et al. 2022). EE3D says it is favoured over vacuum for porous and even perforated sheets 'whereas vacuums would fail', and Festo lists porous and air-permeable materials among its uses, but SMC says parts whose holes add up to more than about 1% of the suction area may not lift, so test first. Poor for: parts smaller than the pad, strongly curved or bumpy surfaces, heavy parts. Gripper bodies: anodised aluminium with POM spacers and nitrile-rubber knobs (Festo), resin or aluminium bodies (SMC); maker versions are 3D printed with neoprene or rubber bumpers (EE3D, Thingiverse).
-- **Heat, cold, water and wear:** Temperature: Festo OGGB is rated 0-60 C for both the air and the surroundings, and SMC pads -5 to 40 C or 60 C depending on type, with no freezing; 3D-printed bodies are limited by their plastic (PLA softens above about 60 C, Prusa). Air quality: needs clean, dry, unlubricated air (Festo OGGB: 'operation with lubricated medium not possible'). Flexible materials: soft sheets such as food can vibrate against the pad, block it or be blown away, which needs an anti-vibration grid (Wikipedia 'Bernoulli grip'); thin parts vibrate if the pressure is too high (SMC). Drying: the fast airflow dried and vibrated soft tissue in a surgical prototype (Ertürk and Erzincanlı 2020). Wind and acceleration: large flat sheets catch the air when moved, so slow down or add a wind cover (SMC XT661). Nothing creeps or weakens over time apart from wear of the spacers.
+- **Heat, cold, water and wear:** Temperature: Festo OGGB is rated 0-60 C for both the air and the surroundings, and SMC pads -5 to 40 C or 60 C depending on type, with no freezing; 3D-printed bodies are limited by their plastic (PLA softens above about 60 C, Prusa). Air quality: needs clean, dry, unlubricated air (Festo OGGB: 'operation with lubricated medium not possible'). Flexible materials: soft sheets such as food can vibrate against the pad, block it or be blown away, which needs an anti-vibration grid (Wikipedia 'Bernoulli grip'); thin parts vibrate if the pressure is too high (SMC). Drying: the fast airflow dried and vibrated soft tissue in a surgical prototype (Ertürk and Erzincanlı 2020). Wind and acceleration: large flat sheets catch the air when moved, so slow down or add a wind cover (SMC XT661). Nothing [creeps](../glossary.md#creep) or weakens over time apart from wear of the spacers.
 
 ## Making it
 
@@ -213,7 +215,7 @@ Avoid it for heavy parts, parts with large holes, strongly curved or bumpy shape
 
 ### Buying one (off-the-shelf parts)
 
-Bernoulli gripper or Bernoulli pad (e.g. Festo OGGB-60/100/140 (brand), with standard POM spacers or the '-Q' nitrile-rubber knobs for higher lateral force); floating suction cup (Schmalz SBS, SBS-ESD, SBS Thin (brand)); non-contact gripper, Bernoulli type or cyclone type (SMC XT661 and ZNC (brand)); guides with urethane bumper pads; compressed-air filter, pressure regulator, solenoid valve, push-in fittings and tubing; pressure or flow sensor on a multi-port pad to detect the part (SMC XT661); a small air compressor or workshop air line with an air-gun nozzle (EE3D).
+Bernoulli gripper or Bernoulli pad (e.g. Festo OGGB-60/100/140 (brand), with standard POM spacers or the '-Q' nitrile-rubber knobs for higher lateral force); floating suction cup (Schmalz SBS, SBS-ESD, SBS Thin (brand)); non-contact gripper, Bernoulli type or cyclone type (SMC XT661 and ZNC (brand)); guides with urethane bumper pads; compressed-air filter, pressure regulator, [solenoid](../glossary.md#solenoid) valve, push-in fittings and tubing; pressure or flow sensor on a multi-port pad to detect the part (SMC XT661); a small air compressor or workshop air line with an air-gun nozzle (EE3D).
 
 ## Rules of thumb
 
@@ -239,12 +241,12 @@ It drops the part as soon as the air stops (compressor fault, hose off, pressure
 
 - Vacuum (suction) gripper: a sealed cup sucks the part on; much stronger and grips sideways by friction, but must touch and seal, so it fails on porous parts and can mark delicate surfaces
 - Suction cup: the passive, hand-pressed version of a sealed cup, with no air supply
-- Venturi vacuum generator: also uses a fast air jet, but to suck air out of a sealed cup; Mykhailyshyn et al. (2022) class grippers with a Coanda nozzle as vacuum grippers, not Bernoulli grippers
-- Vortex (cyclone) non-contact gripper: a variant covered in this entry that swirls the air; more lift for its air use and less sensitive to the gap, so better for uneven parts, while the radial Bernoulli type keeps the part steadier and turns it less (SMC XT661; Mykhailyshyn et al. 2022)
+- [Venturi](../glossary.md#venturi) vacuum generator: also uses a fast air jet, but to suck air out of a sealed cup; Mykhailyshyn et al. (2022) class grippers with a Coanda nozzle as vacuum grippers, not Bernoulli grippers
+- Vortex (cyclone) non-contact gripper: a variant covered in this entry that swirls the air; more lift for its air use and less sensitive to the gap, so better for uneven parts, while the [radial](../glossary.md#axial--radial) Bernoulli type keeps the part steadier and turns it less (SMC XT661; Mykhailyshyn et al. 2022)
 - Combined Bernoulli and vacuum gripper: uses Bernoulli pads to draw the part in from further away and a vacuum cup for the main grip (Mykhailyshyn et al. 2022)
 - Air bearing and air caster: use the same thin film of escaping air to float a part along with almost no friction, rather than to hold it
 - Granular jamming gripper and soft fingers: grip odd shapes by contact rather than flat sheets without contact
-- Electroadhesive gripper (electroadhesion): another way to hold thin sheets with an attracting force, electrically instead of with air; uses include holding paper on plotters and electrostatic grippers (Wikipedia 'Electroadhesion'). A maker version is a circuit board carrying an array of electrodes at 500 V to 5 kV DC, made from a low AC voltage by a voltage multiplier on the back of the board (Jana-Marie 'electrostatic-adhesion-plate' README). Figures disagree: Hackaday (2019) reported a sheet of paper held with 5 mN of shear at 3 kV, while the README lists 9 N of shear for a 100 x 100 mm board at 1.4 kV uncoated. It needs no compressor but works at high voltage: see safety_notes
+- Electroadhesive gripper (electroadhesion): another way to hold thin sheets with an attracting force, electrically instead of with air; uses include holding paper on plotters and electrostatic grippers (Wikipedia 'Electroadhesion'). A maker version is a circuit board carrying an array of electrodes at 500 V to 5 kV DC, made from a low AC voltage by a voltage multiplier on the back of the board (Jana-Marie 'electrostatic-adhesion-plate' README). Figures disagree: Hackaday (2019) reported a sheet of paper held with 5 mN of [shear](../glossary.md#peel-vs-shear) at 3 kV, while the README lists 9 N of shear for a 100 x 100 mm board at 1.4 kV uncoated. It needs no compressor but works at high voltage: see safety_notes
 
 ## Make it yourself
 

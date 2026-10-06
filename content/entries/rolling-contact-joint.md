@@ -143,6 +143,9 @@ sources:
 - https://kapycad.com/en/academy/machines/rolling-contact-joint
 - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
 research: research/connection-types/results/Rollingcontact_joint_CORE_Jacobsladder_hinge.json
+glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
+  clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
+  layer-lines, print-in-place]
 ---
 
 Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
@@ -168,11 +171,11 @@ A few parts: two curved blocks (cams or rolling surfaces) and two or more thin f
 
 ## When to use it
 
-Use a rolling-contact joint when you want a smooth, silent, low-friction hinge with no play and no lubrication, for example robot fingers, prosthetic or exoskeleton knees that should follow a natural moving pivot, animatronic legs, toys and fold-out panels. It suits small, compact joints because the joint is part of the structure itself (Hackaday 2024), it can take large side and radial loads for its size (BYU CMR), and it can be tuned: non-circular faces let you program the path or leverage (PNAS 2026), and stretched straps can add a built-in return spring or several stable positions.
+Use a rolling-contact joint when you want a smooth, silent, low-friction hinge with no play and no [lubrication](../glossary.md#lubrication), for example robot fingers, prosthetic or exoskeleton knees that should follow a natural moving pivot, animatronic legs, toys and fold-out panels. It suits small, compact joints because the joint is part of the structure itself (Hackaday 2024), it can take large side and [radial](../glossary.md#axial--radial) loads for its size (BYU CMR), and it can be tuned: non-circular faces let you program the path or leverage (PNAS 2026), and stretched straps can add a built-in return spring or several stable positions.
 
 ## When not to use it
 
-Avoid it where you need a fixed pivot axis, such as a shaft carrying a gear or a pointer that must rotate about one point (BYU CMR); use a pin hinge, knuckle hinge or ball bearing instead. Avoid it where the joint will be pulled apart, since only the straps resist that; a clevis or pin joint is stronger in tension. For simple one-piece printed hinges a living hinge, flexure hinge or print-in-place pin hinge is easier to make. Where cords may stretch or loosen and nobody will re-tension them, a pin joint can be more reliable (ORCA hand paper).
+Avoid it where you need a fixed pivot axis, such as a shaft carrying a gear or a pointer that must rotate about one point (BYU CMR); use a pin hinge, knuckle hinge or ball bearing instead. Avoid it where the joint will be pulled apart, since only the straps resist that; a clevis or pin joint is stronger in tension. For simple one-piece printed hinges a [living hinge](../glossary.md#living-hinge), [flexure](../glossary.md#flexure) hinge or [print-in-place](../glossary.md#print-in-place) pin hinge is easier to make. Where cords may stretch or loosen and nobody will re-tension them, a pin joint can be more reliable (ORCA hand paper).
 
 ## Details
 
@@ -184,22 +187,22 @@ Avoid it where you need a fixed pivot axis, such as a shaft carrying a gear or a
 - **Movement:** rotate (by rolling): the range depends on how far the straps wrap; an ideal compliant rolling-contact joint can turn almost 360 degrees (Nature Communications 2018), while robot-finger versions add end stops to limit travel (Laschkewitsch). The pivot point moves as it rolls rather than staying fixed (BYU CMR)
 - **Directions it can move (degrees of freedom):** 1: rolling rotation. The crossed straps stop the blocks from sliding apart or skidding, leaving only rolling. With stretchy ligaments some designs deliberately allow a little sideways and twisting give (PNAS 2026)
 - **Special behaviour:**
-  - fail-safe or breakaway (gives way instead of breaking): in 3D-printed robot hands an overloaded rolling-contact joint can dislocate (pop apart) instead of breaking (ORCA hand paper, 2025)
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway (gives way instead of breaking): in 3D-printed robot hands an overloaded rolling-contact joint can dislocate (pop apart) instead of breaking (ORCA hand paper, 2025)
   - indexing (clicks into set positions): multi-stable versions with specially stretched or shaped straps rest in two or more positions (Halverson et al. 2010; PNAS 2026)
-  - none in the basic free-rolling hinge: its main benefits are very low friction and no backlash rather than a special action
+  - none in the basic free-rolling hinge: its main benefits are very low friction and no [backlash](../glossary.md#backlash) rather than a special action
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it is a hinge; the tension in the crossed straps presses the two curved faces together and keeps them rolling without slipping (Watt and Pellegrino 2002; BYU CMR)
 - **Input and output:** not applicable for a plain hinge. In tendon-driven robot fingers a pull on a tendon turns the joint, and optimised non-circular surfaces and pulleys varied the tip speed from near zero to about 4 times the average of a circular joint (PNAS 2026). Back-drivable: yes, it rolls freely both ways
 - **Power:** passive (no power needed); robot and prosthetic versions are driven by tendons and motors, but the joint itself needs no power
 - **Load:** light to medium. Strong when the blocks are pushed together (the curved faces bear on each other) and sideways: printed versions are 'surprisingly stable under sideways loads' (Printables 'Roll gelenk' model, translated), BYU's CORE Bearing has 'high resistance to radial loads', and ETH's Faive robot hand with rolling-contact joints held up to 10 kg in a power grasp (Toshimitsu et al. 2023). Weak in pulling the blocks apart, which is resisted only by the straps (Nature Communications 2018)
-- **Play and precision:** Play: none when the straps are taut; the curved faces 'roll on each other without play' (Printables 'Roll gelenk', translated) and rolling-contact joints reduce backlash compared with bearings and gears (PNAS 2026). Repeatability: good while the straps stay tight, but cord ligaments can loosen over time (ORCA hand paper). Misalignment: the axis of rotation moves as it rolls, so it is a poor choice where a fixed axis is required (BYU CMR); stretchy ligaments allow some deliberate off-axis give (PNAS 2026)
+- **Play and precision:** Play: none when the straps are taut; the curved faces 'roll on each other without play' (Printables 'Roll gelenk', translated) and rolling-contact joints reduce backlash compared with bearings and gears (PNAS 2026). [Repeatability](../glossary.md#repeatability--accuracy): good while the straps stay tight, but cord ligaments can loosen over time (ORCA hand paper). [Misalignment](../glossary.md#misalignment): the axis of rotation moves as it rolls, so it is a poor choice where a fixed axis is required (BYU CMR); stretchy ligaments allow some deliberate off-axis give (PNAS 2026)
 - **Taking it apart:** removable: straps held by screws, crimps or knots can be undone and re-tensioned (Watt and Pellegrino 2002); versions whose strap tabs are glued, like the printed D-CORE, are semi-permanent (BYU CMR)
 - **How often it can be reused:** many times when the straps are screwed or tied on ⚑ [uncertain]; glued or pressed-in straps may not survive taking apart
 - **Sealing:** none
 - **Adjustable:** yes in some designs: Watt and Pellegrino's rolling hinge tensions its wires with a screw and lock nut; in printed or glued versions the strap length is fixed by the design
 - **Access needed:** not applicable: the joint is built as a unit with straps anchored on both blocks, then fixed to the parts it connects
 - **Materials:** Blocks: 3D-printed plastic such as PETG (Printables 'Roll gelenk'), acetal (Delrin) plate (Watt and Pellegrino 2002), laser-cut PTFE (Teflon) sheet (Nature Communications 2018 prototypes) or wood (Jacob's ladder toy). Straps: ribbon or tape (toys), metal bands (Hillberry and Hall's rolling hinge; the Rolamite uses an S-shaped metal strip), 1 mm nylon-coated stainless-steel wire (Watt and Pellegrino 2002), nylon monofilament (Laschkewitsch), Dyneema fishing line (Hackaday 2024), elastic ligaments (PNAS 2026), or thin flexures printed or cut in the same sheet as the cams (BYU D-CORE, CORE Bearing)
-- **Heat, cold, water and wear:** Printed plastic straps and flexures relax (lose tension) over time, faster when warm; BYU warns its printed CORE Bearing's thin segments are very susceptible to stress relaxation, especially while warm. Cord ligaments can loosen over time (ORCA hand paper). Nylon line can absorb water and stretch ⚑ [uncertain]. Grit between the rolling faces would make it rough or skid ⚑ [uncertain]. Metal bands and wires resist creep and heat better than printed plastic straps ⚑ [uncertain].
+- **Heat, cold, water and wear:** Printed plastic straps and flexures relax (lose tension) over time, faster when warm; BYU warns its printed CORE Bearing's thin segments are very susceptible to [stress relaxation](../glossary.md#stress-relaxation), especially while warm. Cord ligaments can loosen over time (ORCA hand paper). Nylon line can absorb water and stretch ⚑ [uncertain]. Grit between the rolling faces would make it rough or skid ⚑ [uncertain]. Metal bands and wires resist [creep](../glossary.md#creep) and heat better than printed plastic straps ⚑ [uncertain].
 
 ## Making it
 
@@ -216,15 +219,15 @@ Avoid it where you need a fixed pivot axis, such as a shaft carrying a gear or a
 
 ### 3D printing tips
 
-Orient the part so the thin straps lie flat and their layers run along the strap, and keep layer seams off the thin bands: the maker of the PETG 'Roll gelenk' model (0.2 mm layers) warns the bands will not last long if seams sit on them (Printables 1039873, translated). Watch that print orientation does not put layer lines across the cord anchors, which weakened anchoring in Laschkewitsch's printed finger joint; he used interference-fit holes to grip nylon monofilament, found finer line slipped, and needed guide rails and end stops to limit rotation. Give strap anchors a generous rounded fillet where the strap leaves the block, because a sharp corner concentrates stress and starts cracks (Kapy Academy explainer, uncited) ⚑ [uncertain]. Let thin printed flexures cool fully before flexing them: BYU warns that the thin compliant segments of its CORE Bearing are very susceptible to stress relaxation, especially while warm, and lose their springiness if worked too soon; a standard 0.4 mm nozzle is enough, and printing from the STEP file avoids faceted curves. For BYU's D-CORE, a drop of superglue on each tab keeps the flexures secure. Keep the rolling faces convex so the straps stay taut and the faces keep contact (PNAS 2026). Tough, springy filaments such as PETG are the usual choice for printed straps; PLA is stiffer but more brittle and creeps under steady tension (Kapy Academy, uncited) ⚑ [uncertain]. For higher loads use cord ligaments (nylon monofilament, Dyneema) or metal bands rather than printed straps.
+Orient the part so the thin straps lie flat and their layers run along the strap, and keep layer seams off the thin bands: the maker of the PETG 'Roll gelenk' model (0.2 mm layers) warns the bands will not last long if seams sit on them (Printables 1039873, translated). Watch that print orientation does not put [layer lines](../glossary.md#layer-lines) across the cord anchors, which weakened anchoring in Laschkewitsch's printed finger joint; he used interference-fit holes to grip nylon monofilament, found finer line slipped, and needed guide rails and end stops to limit rotation. Give strap anchors a generous rounded [fillet](../glossary.md#chamfer--fillet) where the strap leaves the block, because a sharp corner concentrates stress and starts cracks (Kapy Academy explainer, uncited) ⚑ [uncertain]. Let thin printed flexures cool fully before flexing them: BYU warns that the thin compliant segments of its CORE Bearing are very susceptible to stress relaxation, especially while warm, and lose their springiness if worked too soon; a standard 0.4 mm nozzle is enough, and printing from the STEP file avoids faceted curves. For BYU's D-CORE, a drop of superglue on each tab keeps the flexures secure. Keep the rolling faces convex so the straps stay taut and the faces keep contact (PNAS 2026). Tough, springy filaments such as PETG are the usual choice for printed straps; PLA is stiffer but more [brittle](../glossary.md#brittle--ductile) and creeps under steady tension (Kapy Academy, uncited) ⚑ [uncertain]. For higher loads use cord ligaments (nylon monofilament, Dyneema) or metal bands rather than printed straps.
 
 ### Buying one (off-the-shelf parts)
 
-No single catalogue part; builders use: braided UHMWPE fishing line ('Dyneema (brand)'), nylon monofilament fishing line, nylon-coated stainless-steel wire rope with crimped sleeves (ferrules), spring-steel shim or strip for bands ⚑ [uncertain], grosgrain or cotton ribbon for toys ⚑ [uncertain], acetal (Delrin) or PTFE sheet for laser-cut cams, and set screws with lock nuts for tensioning (Watt and Pellegrino 2002).
+No single catalogue part; builders use: braided UHMWPE fishing line ('Dyneema (brand)'), nylon monofilament fishing line, nylon-coated stainless-steel wire rope with crimped sleeves (ferrules), spring-steel shim or strip for bands ⚑ [uncertain], grosgrain or cotton ribbon for toys ⚑ [uncertain], acetal (Delrin) or PTFE sheet for laser-cut cams, and [set screws](../glossary.md#set-screw) with lock nuts for tensioning (Watt and Pellegrino 2002).
 
 ## Rules of thumb
 
-- Keep straps thin compared with the cam radius: the bending stress in a band wrapped around a radius R is about E x t / (2R) (E = stiffness of the band material, t = band thickness), so stress rises with thickness and falls with radius (Lee and Jung 2012, bending formula); thin straps also cut the joint's stiffness, friction and hysteresis (Nature Communications 2018)
+- Keep straps thin compared with the cam radius: the bending stress in a band wrapped around a radius R is about E x t / (2R) (E = [stiffness](../glossary.md#stiffness) of the band material, t = band thickness), so stress rises with thickness and falls with radius (Lee and Jung 2012, bending formula); thin straps also cut the joint's stiffness, friction and [hysteresis](../glossary.md#hysteresis) (Nature Communications 2018)
 - Worked example from a tested joint: laser-cut PTFE layers 3.175 mm thick, cam radius 50 mm and strap thickness 0.6 mm, i.e. cam radius about 83 times strap thickness (Nature Communications 2018)
 - An ideal joint has almost no turning resistance and a range of almost 360 degrees only if the straps are exactly the right length (neither slack nor stretched), perfectly straight before assembly, wrapped on perfectly circular cams, and roll without slipping (Nature Communications 2018)
 - Rolling surfaces must be convex so the ligaments stay taut and the faces keep in contact; use gear teeth instead if you need non-convex faces (PNAS 2026)
@@ -242,14 +245,14 @@ The rolling faces close together like a pinch point, so keep fingers out of larg
 
 ## Related
 
-- Knuckle (butt) hinge or pin-in-hole pivot: a fixed axis and simple to make, but it rubs, needs clearance and so has some play
+- Knuckle (butt) hinge or pin-in-hole pivot: a fixed axis and simple to make, but it rubs, needs [clearance](../glossary.md#clearance) and so has some play
 - Flexure hinge (notch, leaf-spring or cross-axis pivot): bends instead of rolling; one piece, but limited to small angles and its stiffness rises with angle
 - Living hinge: a single thin flexing strip; simplest one-piece fold, but weak and short-lived in most 3D-printing plastics
 - Rolamite: the linear cousin, with two rollers held in a channel by an S-shaped tensioned metal strip, used as a very low-friction bearing (Wikipedia)
 - Tape-spring hinge: a curved strip that folds and snaps straight; Watt and Pellegrino combined tape springs with a wire-wrapped rolling hinge to guide the fold
 - Geared hinge: uses gear teeth instead of crossed straps to stop the two halves slipping (PNAS 2026 mentions teeth as an alternative)
 - Capstan cable drive: also wraps cable around drums without slipping, but to transmit rotation rather than to form a hinge
-- Virtual-pivot linkage (remote centre of motion): another way to get a pivot that is not at a physical pin
+- Virtual-pivot [linkage](../glossary.md#linkage) (remote centre of motion): another way to get a pivot that is not at a physical pin
 - Mechanical metamaterial mechanism: whole lattices can be built from compliant rolling-contact joints (compliant rolling-contact architected materials, Nature Communications 2018)
 
 ## Make it yourself

@@ -124,11 +124,13 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rigid_chain_actuator_zip_chain_push_chain.json
+glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
+  overhang--bridging]
 ---
 
 A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.
 
-**In plain words:** A chain that goes stiff as it comes out of its box, so a motor can push things with it (such as opening a window) as well as pull them back, and then the chain folds or coils away small inside the box. **Proper term:** Rigid chain actuator (push-pull chain actuator), including the zip chain (interlocking double chain).
+**In plain words:** A chain that goes stiff as it comes out of its box, so a motor can push things with it (such as opening a window) as well as pull them back, and then the chain folds or coils away small inside the box. **Proper term:** Rigid chain [actuator](../glossary.md#actuator) (push-pull chain actuator), including the zip chain (interlocking double chain).
 
 **Also called:** push chain / rigid pushing chain; push-pull chain actuator; linear chain actuator; electric chain actuator; column-forming chain actuator / rigid-chain lifting column; chain window opener / window chain actuator (single or double chain); zip chain / interlocking chain actuator (two chains that zip together back to back); Zip Chain Actuator, Zip Chain Lifter (Tsubaki (brand)); LinkLift, ChainLift (Serapid (brand) rigid-chain lifting columns); chain rammer (historic gun-loading version).
 
@@ -149,7 +151,7 @@ A small assembly that acts as one unit: special chain links with shoulders or ho
 
 ## When to use it
 
-Use it when you need a long push-and-pull stroke but have little room for the actuator when retracted, e.g. a window, hatch or skylight opener, a lift platform or a long horizontal pusher. A cylinder or screw is at least as long as its stroke even when closed, while the chain coils or folds away. It works in any orientation (lifting, horizontal or hanging; Tsubaki), needs no hydraulic oil that could leak, and industrial zip chains are fast (up to 1000 mm/s).
+Use it when you need a long push-and-pull [stroke](../glossary.md#stroke) but have little room for the actuator when retracted, e.g. a window, hatch or skylight opener, a lift platform or a long horizontal pusher. A cylinder or screw is at least as long as its stroke even when closed, while the chain coils or folds away. It works in any orientation (lifting, horizontal or hanging; Tsubaki), needs no hydraulic oil that could leak, and industrial zip chains are fast (up to 1000 mm/s).
 
 ## When not to use it
 
@@ -167,12 +169,12 @@ Avoid it where the pushed part isn't guided or there are side loads: a single ch
   - motion conversion (rotary to linear): the sprocket's rotation becomes a straight push or pull, like a rack and pinion with a rack that folds away
   - none of the holding behaviours by itself: it is a rack-and-pinion type drive, so holding position relies on the gearmotor or a brake; Tsubaki uses a brake motor to hold loads, and Serapid says its lifting columns maintain position with no drift
 - **How it holds:**
-  - shape (form-fit): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
   - not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake
 - **Input and output:** Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). Rough efficiency: not stated in the makers' pages found ⚑ [uncertain]. Back-drivable: in principle yes, like a rack and pinion, unless the gearmotor or a brake holds it ⚑ [uncertain].
 - **Power:** powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds against a strong wind or push when unpowered]
 - **Load:** Light (window openers, a few hundred newtons) to very heavy (industrial lifting columns over 10 tonnes; Wikipedia). Strong in push and pull along the chain. Weak sideways: a single chain can sag or bend under side load and over long unsupported strokes (window chains may curve up or down with the window's weight and wind; TOPP ACK4), so industrial lifts guide the platform along the whole travel with at least two guides (Serapid). Zip (double) chains resist buckling better and can take some side load without a guide at the end (Wikipedia).
-- **Play and precision:** Simple and printed chains have noticeable play: clearances between the teeth make a printed zip beam 'a bit floppy' (Hackaday), and window chains flex; the ACK4's limit switch is accurate to about +/-1 cm. Industrial columns position repeatably to within millimetres (Serapid). They tolerate little misalignment: the chain end must line up with its bracket (TOPP ACK4), and lift drives must be square, fixed without play and perfectly vertical (Serapid).
+- **Play and precision:** Simple and printed chains have noticeable play: [clearances](../glossary.md#clearance) between the teeth make a printed zip beam 'a bit floppy' (Hackaday), and window chains flex; the ACK4's limit switch is accurate to about +/-1 cm. Industrial columns position repeatably to within millimetres (Serapid). They tolerate little [misalignment](../glossary.md#misalignment): the chain end must line up with its bracket (TOPP ACK4), and lift drives must be square, fixed without play and perfectly vertical (Serapid).
 - **Taking it apart:** removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)
 - **How often it can be reused:** many times: it is fitted once but runs for many cycles (Tsubaki expects about 4000 km of travel); brackets can be unbolted and refitted
 - **Sealing:** none: the chain and the slot it comes out of are open; window units have IP55-rated electrics (TOPP ACK4), which protects the motor housing, not the chain
@@ -193,7 +195,7 @@ Avoid it where the pushed part isn't guided or there are side loads: a single ch
 
 ### 3D printing tips
 
-1) Start with a demo: FH's PCN145 fully printable push chain (14.5 mm pitch, 13.3 mm rollers) prints in PLA, and the maker suggests raising the perimeter count on the inner link so it prints solid, with no infill, to carry more load; links and pins, and plates and locking clips, are the same height so they print in batches. 2) Keep the tooth and shoulder clearances small: gzumwalt's printed zip-chain beams were floppy until he reduced the clearances (Hackaday). 3) Put the push point above the pivot line on the end link, so the load presses the shoulders together (linearmotiontips). 4) Wedge the links: in a LEGO version, half pins on every second link wedge the links together to make the chain rigid (Eurobricks). 5) Guide the chain where it bends and support the load: the LEGO builder found guiding the coiled chain tricky, and even steel window chains sag with load, so use short strokes or add a guide rail. 6) Add end-of-stroke stops or limit switches and set the stroke a little shorter than the mechanism's real limits (TOPP ACK4). 7) PLA softens above about 60 C (Prusa), so keep printed chains away from motors and heat.
+1) Start with a demo: FH's PCN145 fully printable push chain (14.5 mm [pitch](../glossary.md#pitch), 13.3 mm rollers) prints in PLA, and the maker suggests raising the perimeter count on the inner link so it prints solid, with no [infill](../glossary.md#infill), to carry more load; links and pins, and plates and locking clips, are the same height so they print in batches. 2) Keep the tooth and shoulder clearances small: gzumwalt's printed zip-chain beams were floppy until he reduced the clearances (Hackaday). 3) Put the push point above the pivot line on the end link, so the load presses the shoulders together (linearmotiontips). 4) Wedge the links: in a LEGO version, half pins on every second link wedge the links together to make the chain rigid (Eurobricks). 5) Guide the chain where it bends and support the load: the LEGO builder found guiding the coiled chain tricky, and even steel window chains sag with load, so use short strokes or add a guide rail. 6) Add end-of-stroke stops or limit switches and set the stroke a little shorter than the mechanism's real limits (TOPP ACK4). 7) PLA softens above about 60 C (Prusa), so keep printed chains away from motors and heat.
 
 ### Buying one (off-the-shelf parts)
 
@@ -206,10 +208,10 @@ Electric chain window openers / window chain actuators (24 V DC or 230 V; single
 - Total thrust Ft = weight force + guide friction + acceleration forces + external forces; for strokes over 3 m add the weight of the chain strands too (Serapid).
 - Friction coefficient for typical rigid-chain setups is between 0.05 and 0.5 (linearmotiontips).
 - Window force: F = 0.54 x P x (C / H) for top- or bottom-hung windows and F = 0.54 x P for skylights and domes, where P is the moving part's weight (N), C the opening stroke and H the window height (TOPP ACK4 instructions).
-- About 40 mm of chain is used up bridging the window profile, so a 265 mm chain gives about 225 mm of clear opening; longer chains need bigger links and a bigger housing (WindowMaster).
+- About 40 mm of chain is used up [bridging](../glossary.md#overhang--bridging) the window profile, so a 265 mm chain gives about 225 mm of clear opening; longer chains need bigger links and a bigger housing (WindowMaster).
 - Window openers run in short bursts: the ACK4 is rated S2 (short-time duty, 2-3 minutes) for -5 to +50 C (TOPP ACK4); regularly used 240 V actuators tend to overheat, so 24 V DC is preferred (WindowMaster).
 - Tsubaki's standard Zip Chain Actuators: 400-2000 N rated thrust, 300-2000 mm stroke, up to 1000 mm/s, expected life about 4000 km of travel, and can be mounted lifting, horizontal or hanging (Tsubaki).
-- Serapid ChainLift lubrication: every 13,000 cycles in the first year, then every 50,000 cycles or yearly (Serapid lifting column catalogue).
+- Serapid ChainLift [lubrication](../glossary.md#lubrication): every 13,000 cycles in the first year, then every 50,000 cycles or yearly (Serapid lifting column catalogue).
 
 ## Common failures
 
@@ -225,7 +227,7 @@ Crushing and trapping: fingers or hands can be caught between a closing window s
 - Rigid belt actuator: two plastic belts with blocks that zip into a column; lighter loads, non-metallic (Wikipedia)
 - Helical band actuator (Spiralift (brand)): steel bands that wind into a tall tube-shaped column for stage lifts (Wikipedia)
 - Lead screw and nut / ball screw actuators: stiffer and more precise, but at least as long as their stroke when retracted
-- Scissor linkage (scissor lift): another way to fold a long lift into a small height; often driven by a rigid chain
+- Scissor [linkage](../glossary.md#linkage) (scissor lift): another way to fold a long lift into a small height; often driven by a rigid chain
 - Tape-spring hinge (measuring-tape fold): a curved steel strip that is stiff when straight and flexible when flattened, like a tape measure
 - Cable carrier (drag chain): also a chain that bends one way only, but it just carries cables and can't push a load
 - Bowden cable (push-pull cable): pushes and pulls through a guiding tube, over short distances

@@ -127,6 +127,7 @@ sources:
 - https://www.youtube.com/watch?v=yNZ2mqYNLYI
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selffolding_print_4D_printing.json
+glossary: [bistable, actuator, compliant-mechanism, living-hinge, form-fit--force-fit--material-bond, print-in-place, peel-vs-shear]
 ---
 
 A print made flat on the bed that bends its own hinges into a planned 3D shape when triggered by heat or water, then stays in that shape.
@@ -156,7 +157,7 @@ Use a self-folding print to make hollow or curved shapes much faster and with le
 
 ## When not to use it
 
-Avoid it where you need exact dimensions or angles (print the 3D shape directly or use a print-in-place hinge with stops), where a joint must move back and forth many times (use a print-in-place hinge or living hinge), for load-bearing parts (use thicker printed parts or proper joints), for parts that will get hot in use (a PLA fold softens and can move again above about 60 degrees C), and if you have no way to print two materials (use a single-material PLA method or a manual fold with a living hinge).
+Avoid it where you need exact dimensions or angles (print the 3D shape directly or use a [print-in-place](../glossary.md#print-in-place) hinge with stops), where a joint must move back and forth many times (use a print-in-place hinge or [living hinge](../glossary.md#living-hinge)), for load-bearing parts (use thicker printed parts or proper joints), for parts that will get hot in use (a PLA fold softens and can move again above about 60 degrees C), and if you have no way to print two materials (use a single-material PLA method or a manual fold with a living hinge).
 
 ## Details
 
@@ -170,7 +171,7 @@ Avoid it where you need exact dimensions or angles (print the 3D shape directly 
 - **Special behaviour:**
   - none (of the listed behaviours): its special trick is that it assembles itself once, when heated or wetted, and PLA versions keep a shape memory, so if a folded part is bent while hot it springs back to its folded shape when reheated (An et al. 2018; Hackaday 2025)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): once cooled, the folded hinges are frozen in their new shape, and folded panels can wrap or lock around each other
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): once cooled, the folded hinges are frozen in their new shape, and folded panels can wrap or lock around each other
   - spring force (a spring or springy part presses it in place): in the dissolvable-lock version, the TPU spring holds the hinge in its folded position
 - **Input and output:** not applicable as a transmission: a one-off stimulus (hot water at about 70 degrees C, or plain water for PVA locks) -> a planned fold
 - **Power:** powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. If taken out of the hot water early it keeps the partial fold it has reached ⚑ [uncertain]
@@ -195,7 +196,7 @@ Avoid it where you need exact dimensions or angles (print the 3D shape directly 
 
 ### 3D printing tips
 
-Start from a tested model (CNC Kitchen's Thermorph hinge, rose, ring and snake, which fold in 70 degrees C water; Printables) before designing your own. For each hinge (actuator), print the PLA lines across the fold line, because the hinge bends in the direction the lines run, and extend the PLA 1 mm into the neighbouring panels so it bonds (An et al. 2018). Use about three PLA layers as the active layer and one TPU layer as the constraint layer; printing the PLA first, on the cool bed, gives a bigger bend than printing it on top of the TPU, and swapping the order flips the fold direction (An et al. 2018). Print hinge PLA fast to lock in more stretch (e.g. 5000 mm/min, up to 9000 mm/min for narrow hinges, versus the usual 3000 mm/min) and print the panels slowly or with a pattern that stays flat (CNC Kitchen used Hilbert-curve fill for stress-free panels; Hackaday 2025). The researchers used a 0.4 mm nozzle, 0.2 mm layers, PLA at 210 and TPU at 230 degrees C (An et al. 2018). For PLA-only folds, faster speeds (20 to 70 mm/s tested) give larger bends and the top layer holds the most stretch (Bodaghi et al. 2019). Trigger in water a little above PLA's softening point: 70 degrees C for about 15 seconds to 2 minutes (An et al. 2018; CNC Kitchen), up to 85 degrees C in Bodaghi's tests. Fold large shapes under water so their weight doesn't distort them, and hold the central panel still (An et al. 2018). For PVA locks, warm water speeds up dissolving, but hot water also softens PLA panels, so shape the locks to dissolve quickly (Teaching Tech, via Hackaday 2022). Keep PVA dry until use, because it absorbs moisture ⚑ [uncertain].
+Start from a tested model (CNC Kitchen's Thermorph hinge, rose, ring and snake, which fold in 70 degrees C water; Printables) before designing your own. For each hinge ([actuator](../glossary.md#actuator)), print the PLA lines across the fold line, because the hinge bends in the direction the lines run, and extend the PLA 1 mm into the neighbouring panels so it bonds (An et al. 2018). Use about three PLA layers as the active layer and one TPU layer as the constraint layer; printing the PLA first, on the cool bed, gives a bigger bend than printing it on top of the TPU, and swapping the order flips the fold direction (An et al. 2018). Print hinge PLA fast to lock in more stretch (e.g. 5000 mm/min, up to 9000 mm/min for narrow hinges, versus the usual 3000 mm/min) and print the panels slowly or with a pattern that stays flat (CNC Kitchen used Hilbert-curve fill for stress-free panels; Hackaday 2025). The researchers used a 0.4 mm nozzle, 0.2 mm layers, PLA at 210 and TPU at 230 degrees C (An et al. 2018). For PLA-only folds, faster speeds (20 to 70 mm/s tested) give larger bends and the top layer holds the most stretch (Bodaghi et al. 2019). Trigger in water a little above PLA's softening point: 70 degrees C for about 15 seconds to 2 minutes (An et al. 2018; CNC Kitchen), up to 85 degrees C in Bodaghi's tests. Fold large shapes under water so their weight doesn't distort them, and hold the central panel still (An et al. 2018). For PVA locks, warm water speeds up dissolving, but hot water also softens PLA panels, so shape the locks to dissolve quickly (Teaching Tech, via Hackaday 2022). Keep PVA dry until use, because it absorbs moisture ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -214,7 +215,7 @@ None needed; it is made from ordinary filaments: PLA, TPU (e.g. Shore 40D), and 
 
 ## Common failures
 
-Folds too little or too much because filament brand, fan cooling or print speed differ from the design: test a single hinge first and adjust print speed or hinge length (An et al. 2018). Panels warp or curl as well as the hinges because they were printed fast or with stretch locked in: print panels slowly or with a stress-free fill (Hackaday 2025). Parts sag or collide while folding: fold under water, hold the centre panel, or change the fold order (An et al. 2018). PLA and TPU layers peel apart at the hinge edges: overlap the PLA 1 mm into the panels (An et al. 2018). Small holes appear at the ends of hinges, a side effect of the unfolding method (An et al. 2018). PVA locks dissolve too slowly or the hot water warps PLA: redesign locks to expose more PVA surface (Teaching Tech, via Hackaday 2022).
+Folds too little or too much because filament brand, fan cooling or print speed differ from the design: test a single hinge first and adjust print speed or hinge length (An et al. 2018). Panels warp or curl as well as the hinges because they were printed fast or with stretch locked in: print panels slowly or with a stress-free fill (Hackaday 2025). Parts sag or collide while folding: fold under water, hold the centre panel, or change the fold order (An et al. 2018). PLA and TPU layers [peel](../glossary.md#peel-vs-shear) apart at the hinge edges: overlap the PLA 1 mm into the panels (An et al. 2018). Small holes appear at the ends of hinges, a side effect of the unfolding method (An et al. 2018). PVA locks dissolve too slowly or the hot water warps PLA: redesign locks to expose more PVA surface (Teaching Tech, via Hackaday 2022).
 
 ## Safety
 
@@ -225,7 +226,7 @@ Hot water at 70 to 85 degrees C and heat guns can scald or burn, so use tongs an
 - Print-in-place hinge: moves freely many times but must be folded by hand
 - Living hinge: a thin bending hinge you fold yourself; self-folding hinges are living hinges that fold themselves
 - Origami mechanisms (waterbomb, Kresling, thick-panel origami): the fold patterns that self-folding prints often follow
-- Bistable compliant mechanism: snaps between two shapes when pushed, repeatedly, instead of changing once when heated
+- [Bistable](../glossary.md#bistable) [compliant mechanism](../glossary.md#compliant-mechanism): snaps between two shapes when pushed, repeatedly, instead of changing once when heated
 - Mid-print embedding: pausing a print to add parts; the dissolvable-lock version often uses multi-material or separately printed locks
 - Heat staking: also uses heat to reshape plastic, but by melting a post into a rivet head rather than releasing stored stretch
 - Shape-memory alloy actuators (nitinol wire): metal that changes shape when heated, usable many times, but powered by electricity

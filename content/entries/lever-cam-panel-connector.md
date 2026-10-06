@@ -128,9 +128,11 @@ sources:
 - https://www.youtube.com/watch?v=_ShyDBsx8WA
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Levercam_panel_connector_selfclamping_click_connector.json
+glossary: [over-centre, preload, tolerance, form-fit--force-fit--material-bond, captive-nut, undercut, perimeters, infill,
+  peel-vs-shear]
 ---
 
-A pair of biscuit-shaped fittings pushed into matching undercut slots in two panels; a cam lever turned with an Allen key through a 6 mm hole (or built-in springs) hooks the halves together and pulls the joint tight, invisibly and at almost any angle.
+A pair of biscuit-shaped fittings pushed into matching [undercut](../glossary.md#undercut) slots in two panels; a cam lever turned with an Allen key through a 6 mm hole (or built-in springs) hooks the halves together and pulls the joint tight, invisibly and at almost any angle.
 
 **In plain words:** A hidden two-part plastic fitting, set into matching slots in the edges of two wooden boards, that locks the boards tightly together when you turn a small Allen key through a tiny hole (or that snaps and pulls itself shut as the boards are pushed together), so furniture can be put together without screws showing and, for the key-operated kind, taken apart again. **Proper term:** Lever-cam panel connector (detachable lever connector); the spring kind is a self-clamping connector.
 
@@ -168,20 +170,20 @@ Avoid it if you don't have the special slotting tool and only need a few joints:
   - line parts up exactly: positioning pins give flush, untwisted panels (Lamello)
   - glue or bond: the self-clamping type is a built-in clamp for glued joints, especially awkward mitres (Lamello Tenso P)
 - **Movement:** none: once closed the panels do not move. The lever turns inside the fitting only while you lock or unlock it.
-- **Directions it can move (degrees of freedom):** 0 when locked. Before the lever is turned the halves can still slide about 1 mm along or across each other (the installation tolerance), which lets you push the panels flush before tightening (Lamello Clamex P-14 technical data).
+- **Directions it can move (degrees of freedom):** 0 when locked. Before the lever is turned the halves can still slide about 1 mm along or across each other (the installation [tolerance](../glossary.md#tolerance)), which lets you push the panels flush before tightening (Lamello Clamex P-14 technical data).
 - **Special behaviour:**
   - hand-release only (locks under load, releases when a person operates it): the Clamex lever stays locked until someone turns it back with the key (Lamello: 'Open the connection time and time again with the rotating lever')
   - tensioning (takes up slack and holds): the cam lever or the springs pull the joint closed rather than just holding it, like a built-in clamp (Lamello)
   - self-aligning or self-centring: positioning pins and a sideways (lateral) tolerance bring both panels flush and stop them twisting (Lamello P-System: 'Perfect, flush alignment of both workpieces'; 'The positioning pins prevent twisting')
   - The self-clamping Tenso and slide-in Divario versions simply snap or wedge shut as the parts go together, with no lever to turn (Lamello)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the fittings are hooked into undercut slots, and the lever hooks the two halves together (Lamello 'form-locking anchorage')
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the fittings are hooked into undercut slots, and the lever hooks the two halves together (Lamello 'form-locking anchorage')
   - friction or clamping (force-fit): the cam lever draws the halves tight, pressing the panel faces together (Fine Woodworking 2011; Lamello)
   - spring force (a spring or springy part presses it in place): in Tenso P, tension springs pull the joint shut (Lamello Tenso P-14)
   - material bond (glue, solvent or melting): Tenso P is always used with glue; the connector is only the clamp (Tenso P-14 operating instructions)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** Medium. Lamello's figures per connector for Clamex P-14: pull-apart (tensile) strength about 1070 N in particle board, 1210 N in MDF and 1870 N in solid beech; shear strength 490 N, 600 N and 2940 N; clamping force about 80 kg (170 lb). An older Lamello data sheet gives lower pull-apart values of about 800-1000 N. The smaller Clamex P-10 manages about 540-900 N in tension. The spring-clamping Tenso P-14 pulls with 150 N and holds with 250 N until the glue sets; the final strength then depends on the glue. Strongest in shear along the joint in hardwood; weakest pulled straight apart in particle board (Lamello product pages and operating instructions).
+- **Load:** Medium. Lamello's figures per connector for Clamex P-14: pull-apart (tensile) strength about 1070 N in particle board, 1210 N in MDF and 1870 N in solid beech; [shear](../glossary.md#peel-vs-shear) strength 490 N, 600 N and 2940 N; clamping force about 80 kg (170 lb). An older Lamello data sheet gives lower pull-apart values of about 800-1000 N. The smaller Clamex P-10 manages about 540-900 N in tension. The spring-clamping Tenso P-14 pulls with 150 N and holds with 250 N until the glue sets; the final strength then depends on the glue. Strongest in shear along the joint in hardwood; weakest pulled straight apart in particle board (Lamello product pages and operating instructions).
 - **Play and precision:** No play once locked. Installation tolerance about plus or minus 1 mm along and across the slot for Clamex P-14 (plus or minus 0.5 mm for Clamex P-10), so small slot position errors don't matter. The CNC and Flexus versions have 0 mm lengthwise tolerance for exact positioning. Positioning pins make the faces flush and return the parts to the same place each time they are reassembled (Lamello technical data).
 - **Taking it apart:** removable for the lever type (Clamex P and Clamex S): turn the key back and the panels come apart; the fittings can also be taken out of their slots by hand, rotating them out (Lamello; Woodshop News 2021). Permanent for the self-clamping Tenso type, because it is glued (Lamello). The slide-in Divario P-18 is sold as a 'detachable' connector (Lamello).
 - **How often it can be reused:** many times for the lever type (Lamello: 'time and time again'; a US retailer calls it a 'practically wear-free knock-down fitting' (CSAW)); once for the glued self-clamping type.
@@ -203,11 +205,11 @@ Avoid it if you don't have the special slotting tool and only need a few joints:
 
 ### 3D printing tips
 
-Not applicable for the connector itself: it is a bought fitting for wood and board panels. Makers do 3D-print helpers for it: drill jigs for the 6 mm access hole of Clamex S (one uses an M4 heat-set nut and a 6 mm inside / 10 mm outside tube melted into the print; Printables 'Clamex-S Bohrschablone') and a pusher for seating P-System connectors, printed in PETG with 5-6 perimeters and 50% infill (Printables 'Lamello P-System dowel pusher'). For joining 3D-printed panels, use a cam latch, a snap fit or a bolt in a captive nut instead ⚑ [uncertain].
+Not applicable for the connector itself: it is a bought fitting for wood and board panels. Makers do 3D-print helpers for it: drill jigs for the 6 mm access hole of Clamex S (one uses an M4 heat-set nut and a 6 mm inside / 10 mm outside tube melted into the print; Printables 'Clamex-S Bohrschablone') and a pusher for seating P-System connectors, printed in PETG with 5-6 [perimeters](../glossary.md#perimeters) and 50% [infill](../glossary.md#infill) (Printables 'Lamello P-System dowel pusher'). For joining 3D-printed panels, use a cam latch, a snap fit or a bolt in a [captive nut](../glossary.md#captive-nut) instead ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
-Lever type: Lamello Clamex P-14, Clamex P-10, Clamex P-14/10 Medius (centre panels), Clamex P-14/10 Flexus (springy positioning pins), Clamex P-14 CNC, Clamex S-20 and S-18 (screw-in, for 4 mm biscuit slots); cover caps (45 and 90 degree), Clamex P drill jig with 6 mm drill, installation tool, Allen key. Self-clamping type: Tenso P-14 and P-10 (with optional preload clip), Divario P-18 slide-in connector; Bisco P plastic alignment biscuit for dry test fits. Groove tools: Lamello Zeta P2 (mains or cordless) or P-System CNC disc cutter 100.4 x 7 mm (Lamello catalogue). Other brands with hidden click or key connectors: Knapp Quick-Set, OVVO, Häfele Ixconnect SC 8/60, Lockdowel (Woodshop News). Search terms: 'detachable furniture connector', 'P-System connector', 'invisible panel connector'.
+Lever type: Lamello Clamex P-14, Clamex P-10, Clamex P-14/10 Medius (centre panels), Clamex P-14/10 Flexus (springy positioning pins), Clamex P-14 CNC, Clamex S-20 and S-18 (screw-in, for 4 mm biscuit slots); cover caps (45 and 90 degree), Clamex P drill jig with 6 mm drill, installation tool, Allen key. Self-clamping type: Tenso P-14 and P-10 (with optional [preload](../glossary.md#preload) clip), Divario P-18 slide-in connector; Bisco P plastic alignment biscuit for dry test fits. Groove tools: Lamello Zeta P2 (mains or cordless) or P-System CNC disc cutter 100.4 x 7 mm (Lamello catalogue). Other brands with hidden click or key connectors: Knapp Quick-Set, OVVO, Häfele Ixconnect SC 8/60, Lockdowel (Woodshop News). Search terms: 'detachable furniture connector', 'P-System connector', 'invisible panel connector'.
 
 ## Rules of thumb
 
@@ -236,7 +238,7 @@ The Zeta P2 and other biscuit joiners use a spinning cutter about 100 mm across;
 - Sliding dovetail: slides panels together along a groove; Divario P-18 does the same job with hidden fittings
 - Snap-lock sheet joint (barbed or spring finger): the same click-shut idea cut into sheet material itself
 - Hang-on mounts (keyhole slot, French cleat): hang panels and cabinets on a hidden hook but don't pull them tight
-- Over-centre toggle clamp: another lever that pulls parts together, but visible and on the outside
+- [Over-centre](../glossary.md#over-centre) toggle clamp: another lever that pulls parts together, but visible and on the outside
 
 ## Make it yourself
 

@@ -129,6 +129,8 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
 research: research/connection-types/results/Noncircular_gears.json
+glossary: [backlash, axial--radial, stroke, torque, pitch, cam-and-follower, linkage, clearance, tolerance, form-fit--force-fit--material-bond,
+  set-screw, undercut, repeatability--accuracy, elephants-foot, overhang--bridging]
 ---
 
 A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes), designed to roll on each other without slipping so that a steady input turn becomes an output that repeatedly speeds up and slows down.
@@ -139,7 +141,7 @@ A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes)
 
 ## How it works
 
-Each gear rolls on an imaginary outline (pitch curve) instead of a circle. At every moment the distances from the two shafts to the point where the gears touch add up to the fixed distance between the shafts, and the output speed equals the input speed times the drive gear's distance divided by the driven gear's distance (Wikipedia 'Non-circular gear'). Because those distances change as the gears turn, the speed ratio changes all the time: where the drive gear reaches out far and the driven gear is 'short', the output races; half a turn later it crawls. The mating shape is worked out from the first gear so that the two roll together without slipping, and teeth are then added along each outline (piellardj; osamutake).
+Each gear rolls on an imaginary outline ([pitch](../glossary.md#pitch) curve) instead of a circle. At every moment the distances from the two shafts to the point where the gears touch add up to the fixed distance between the shafts, and the output speed equals the input speed times the drive gear's distance divided by the driven gear's distance (Wikipedia 'Non-circular gear'). Because those distances change as the gears turn, the speed ratio changes all the time: where the drive gear reaches out far and the driven gear is 'short', the output races; half a turn later it crawls. The mating shape is worked out from the first gear so that the two roll together without slipping, and teeth are then added along each outline (piellardj; osamutake).
 
 ## Parts
 
@@ -148,7 +150,7 @@ A few parts: two gears designed as a matched pair (a drive gear and its mating g
 ## Everyday examples
 
 - Oval gear flow meters on fuel, oil and grease dispensers: two meshing oval gears pass a fixed volume of liquid per turn (Silver Automation Instruments)
-- Oval bicycle chainrings such as Shimano's Biopace (brand), which change the effective gear during each pedal stroke (Wikipedia 'Biopace')
+- Oval bicycle chainrings such as Shimano's Biopace (brand), which change the effective gear during each pedal [stroke](../glossary.md#stroke) (Wikipedia 'Biopace')
 - Spirograph-style drawing toys with non-round gears, e.g. Wild Gears (brand)
 - Printing presses, packaging machines and textile machines (Maláková 2019; Wikipedia)
 
@@ -158,7 +160,7 @@ Use non-circular gears when a constant-speed motor must drive something whose sp
 
 ## When not to use it
 
-Don't use them when you just need a constant speed change: use ordinary spur gears. If the output must stop and wait, use an intermittent gear or Geneva drive. If the ratio must be changed while running, use a friction drive or CVT. A four-bar linkage can give a very similar varying motion with simple bars and pins (an antiparallelogram linkage behaves like a pair of elliptical gears, Wikimedia Commons animation), and a cam gives freer control of a back-and-forth output. Avoid printed non-circular gears for heavy or fast-running loads, because the output speeds up and slows down every turn, which shakes heavy parts ⚑ [uncertain].
+Don't use them when you just need a constant speed change: use ordinary spur gears. If the output must stop and wait, use an intermittent gear or Geneva drive. If the ratio must be changed while running, use a friction drive or CVT. A four-bar [linkage](../glossary.md#linkage) can give a very similar varying motion with simple bars and pins (an antiparallelogram linkage behaves like a pair of elliptical gears, Wikimedia Commons animation), and a cam gives freer control of a back-and-forth output. Avoid printed non-circular gears for heavy or fast-running loads, because the output speeds up and slows down every turn, which shakes heavy parts ⚑ [uncertain].
 
 ## Details
 
@@ -172,18 +174,18 @@ Don't use them when you just need a constant speed change: use ordinary spur gea
   - none of the locking, slipping or indexing behaviours: it does not slip, lock or stop; for stop-and-go motion use an intermittent gear or Geneva drive instead
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it transmits rotation
-  - shape (the parts interlock; form-fit): the teeth mesh, so the gears cannot slip
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the teeth mesh, so the gears cannot slip
 - **Input and output:** Continuous rotation -> continuous rotation whose speed varies periodically. Ratio at any instant = driving radius / driven radius, with the two radii always adding up to the centre distance (Wikipedia). For two identical ellipses each turning about one focus (centre distance = the ellipse's long axis, Maláková), the output speed swings between (1 - e)/(1 + e) and (1 + e)/(1 - e) times the input, where e is the ellipse's eccentricity; e.g. e = 0.5 gives one third to three times input speed (worked out from the ellipse's geometry, not quoted from a source). Over a whole turn an equal-perimeter pair averages 1:1; other pairs can be designed so the driver makes N turns while the follower makes M (Otvinta). Efficiency: ⚑ [uncertain] probably close to ordinary spur gears when accurately made, lower for printed ones; no source found. Shafts: parallel. Back-drivable: yes, like spur gears, but the turning force needed at the input changes through each turn.
 - **Power:** passive (no power needed); it only passes on the motor's power. If the motor stops nothing holds the output
-- **Load:** Light to medium: made accurately in metal they carry industrial loads (presses, hydraulic motors, pumps; Wikipedia), but home-made printed or laser-cut ones are for light loads, models and kinetic art. Teeth near the sharp ends of a pointed oval are small and undercut, so they are the weak spot (osamutake). Strong in twist (torque) along the direction of rotation; like other spur gears they push the shafts apart and need a stiff frame to keep the centre distance
-- **Play and precision:** Small backlash, like spur gears, if made accurately. Very little tolerance for a wrong centre distance or phase: the shapes are matched only at one spacing and one relative angle (Wikipedia; Maláková). osamutake's printed model uses 0.15 mm radial clearance between gears and their shafts and warns that elephant's foot or stringing makes them bind. Repeatable: the output angle always returns to the same place for a given input angle
-- **Taking it apart:** removable: the gears slide off their pins or shafts once clips, set screws or hubs are undone
+- **Load:** Light to medium: made accurately in metal they carry industrial loads (presses, hydraulic motors, pumps; Wikipedia), but home-made printed or laser-cut ones are for light loads, models and kinetic art. Teeth near the sharp ends of a pointed oval are small and [undercut](../glossary.md#undercut), so they are the weak spot (osamutake). Strong in twist ([torque](../glossary.md#torque)) along the direction of rotation; like other spur gears they push the shafts apart and need a stiff frame to keep the centre distance
+- **Play and precision:** Small [backlash](../glossary.md#backlash), like spur gears, if made accurately. Very little [tolerance](../glossary.md#tolerance) for a wrong centre distance or phase: the shapes are matched only at one spacing and one relative angle (Wikipedia; Maláková). osamutake's printed model uses 0.15 mm [radial](../glossary.md#axial--radial) [clearance](../glossary.md#clearance) between gears and their shafts and warns that [elephant's foot](../glossary.md#elephants-foot) or stringing makes them bind. Repeatable: the output angle always returns to the same place for a given input angle
+- **Taking it apart:** removable: the gears slide off their pins or shafts once clips, [set screws](../glossary.md#set-screw) or hubs are undone
 - **How often it can be reused:** many times: the gears can be taken off and refitted as often as needed; refit them at the same relative angle (see tools_needed)
 - **Sealing:** none: open gears. In an oval gear flow meter the gears run in a closely fitting chamber and the fluid is carried round in the pockets between gears and chamber wall, but that is the meter housing, not the gears (Silver Automation Instruments)
 - **Adjustable:** no: the speed pattern is fixed by the gears' shapes and the centre distance is fixed; to change the pattern you make a new pair (or change the relative starting angle, which shifts when the fast and slow parts happen)
 - **Access needed:** end of a tube or shaft: the gears slide onto pins or shafts
 - **Materials:** Industrial ones are steel or other metals, usually spur gears made by moulding or electrical discharge machining rather than normal gear cutting (Wikipedia). Maker versions: PETG (osamutake recommends well-dried PETG), PLA for toys, acrylic, MDF or plywood when laser cut (MyLaserTools exports layered SVG for laser cutting as well as STL/3MF)
-- **Heat, cold, water and wear:** The same limits as other gears of the same material: PLA softens and deforms above about 60 C and degrades in sunlight (Prusa); moisture in PETG filament spoils accuracy (osamutake recommends well-dried filament). Plastic gears wear, and the teeth near sharp ends wear or break first. Oval gear flow meters need clean liquids, because particles damage the closely fitting gears (Silver Automation Instruments).
+- **Heat, cold, water and wear:** The same limits as other gears of the same material: PLA softens and deforms above about 60 C and degrades in sunlight (Prusa); moisture in PETG filament spoils [accuracy](../glossary.md#repeatability--accuracy) (osamutake recommends well-dried filament). Plastic gears wear, and the teeth near sharp ends wear or break first. Oval gear flow meters need clean liquids, because particles damage the closely fitting gears (Silver Automation Instruments).
 
 ## Making it
 
@@ -199,7 +201,7 @@ Don't use them when you just need a constant speed change: use ordinary spur gea
 
 ### 3D printing tips
 
-1) Use a generator: Otvinta's Non-Circular Gear Calculator takes a polar equation for gear 1, a turn ratio N/M and a tooth count and computes both outlines (N/M times the number of lobes must be a whole number, and the tooth count must divide by both N and M); MyLaserTools' free Gear Generator solves the mate of an ellipse numerically and exports SVG, STL and 3MF; piellardj's MIT-licensed web demo builds mates for ellipse, heart, triangle and other shapes. 2) Keep the shape gentle: the pitch curve should be smooth, closed and not cross itself (Otvinta); very pointed ellipses give tight curves where teeth are undercut and weak, and hollow (concave) stretches on the mate get teeth like an internal gear (osamutake). 3) Tooth shape: proper non-circular involute teeth change with the local curvature (osamutake), but for FDM Hirnschall suggests round (circular) teeth so every tooth is the same size, since printed gears are not highly loaded. 4) Print flat with the shaft axis vertical so each layer traces the full outline (Prusa's advice to orient parts for strength in the loaded direction). 5) osamutake's settings for smooth running: well-dried PETG for accuracy, 0.1 or 0.08 mm layers, slow overhangs, random seam position, and 0.15 mm radial clearance on the shafts; sand off stringing and file out elephant's foot if the gears feel tight. 6) Mark the meshing teeth before separating the gears, so you can reassemble them in phase. 7) For moving parts Prusa suggests starting at 0.3 mm clearance; PLA softens above about 60 C (Prusa).
+1) Use a generator: Otvinta's Non-Circular Gear Calculator takes a polar equation for gear 1, a turn ratio N/M and a tooth count and computes both outlines (N/M times the number of lobes must be a whole number, and the tooth count must divide by both N and M); MyLaserTools' free Gear Generator solves the mate of an ellipse numerically and exports SVG, STL and 3MF; piellardj's MIT-licensed web demo builds mates for ellipse, heart, triangle and other shapes. 2) Keep the shape gentle: the pitch curve should be smooth, closed and not cross itself (Otvinta); very pointed ellipses give tight curves where teeth are undercut and weak, and hollow (concave) stretches on the mate get teeth like an internal gear (osamutake). 3) Tooth shape: proper non-circular involute teeth change with the local curvature (osamutake), but for FDM Hirnschall suggests round (circular) teeth so every tooth is the same size, since printed gears are not highly loaded. 4) Print flat with the shaft axis vertical so each layer traces the full outline (Prusa's advice to orient parts for strength in the loaded direction). 5) osamutake's settings for smooth running: well-dried PETG for accuracy, 0.1 or 0.08 mm layers, slow [overhangs](../glossary.md#overhang--bridging), random seam position, and 0.15 mm radial clearance on the shafts; sand off stringing and file out elephant's foot if the gears feel tight. 6) Mark the meshing teeth before separating the gears, so you can reassemble them in phase. 7) For moving parts Prusa suggests starting at 0.3 mm clearance; PLA softens above about 60 C (Prusa).
 
 ### Buying one (off-the-shelf parts)
 
@@ -227,7 +229,7 @@ Meshing gears form in-running nip points that can trap fingers, hair or clothing
 - Spur gear pair and gear train: round gears with a constant speed ratio
 - Intermittent gear (mutilated gear) and Geneva drive: give stop-and-go motion instead of smoothly varying speed
 - Four-bar linkage (antiparallelogram): can give the same varying rotation with bars and pins (Wikimedia Commons 'Antiparallelogram and Elliptical Gears' animation)
-- Cam and follower: another way to make a set motion pattern, usually back-and-forth rather than rotation
+- [Cam and follower](../glossary.md#cam-and-follower): another way to make a set motion pattern, usually back-and-forth rather than rotation
 - Eccentric gear: a round gear turning off-centre, the simplest non-circular pair
 - Chain and sprocket drive with an oval chainring: a non-circular sprocket gives a varying ratio through a chain
 - Friction drives and CVTs: change the ratio smoothly while running, but by friction and on command rather than in a fixed pattern

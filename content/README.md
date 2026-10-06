@@ -23,6 +23,17 @@ was away):* the pages stay generated until the site exists. After that, the proj
 to editing pages directly and retire the JSON as a source. See "Decisions to review" in
 `PROJECT.md`.
 
+## Glossary (P9)
+
+`glossary.yaml` is the glossary's source: 107 terms, each with other names, a one-sentence
+definition and a group. `tools/make_entries.py` writes `glossary.md` from it and links the first
+use of each term on every entry page. It doesn't link inside headings, links, code or bold labels,
+or in the link, needs-confirming and source sections. Each page lists the terms it links under
+`glossary` in its front matter. Terms that are also everyday words (play, lead, module, wear,
+yield, pressure, efficiency) have `link: false`, so they are not linked automatically. *Decision
+for review (D13-D15 in `PROJECT.md`):* the links are written as `../glossary.md#term`, so they
+work on GitHub; the site build will rewrite them to the site's addresses.
+
 ## Needs confirming (⚑)
 
 Nothing unconfirmed is hidden. It is kept and marked ⚑, as everywhere else in the project
@@ -57,6 +68,7 @@ address.
 | `confirmed` | Finder tags a person has checked (from `tags.yaml`) |
 | `open_points` | Points from `review-notes.md` about this entry: `{kind: content, sources or scope, note}` |
 | `uncertain_fields` | The research fields with at least one [uncertain] marker |
+| `glossary` | The glossary terms linked on the page (anchors in `glossary.md`) |
 | `diagram_idea` | The brief for the entry's diagram (Phase 4); not shown on the page |
 | `links`, `make_it_yourself` | Pictures, videos and models, and things to make, as `{url, title, shows or what_it_is, license}` |
 | `sources` | Every source the research opened |

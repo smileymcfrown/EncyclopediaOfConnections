@@ -129,6 +129,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Rope_grab_and_ascender_cam_rope_clamp.json
+glossary: [self-locking, ratchet, pawl, sprag, clearance, form-fit--force-fit--material-bond, threadlocker, infill]
 ---
 
 A clamp with a spring-loaded, toothed, off-centre lever (cam) that slides up a rope in one direction but pinches the rope against its frame and locks when pulled the other way; used in pairs to climb a rope, to stop a hauled load slipping back, and on safety lines.
@@ -171,12 +172,12 @@ Not where it could be shock-loaded by a fall: toothed cams can cut the sheath at
 - **Directions it can move (degrees of freedom):** 1 along the rope, and only in the free direction while the cam is engaged; the cam turns on its own pivot (1). The clamp can also turn around the rope, which doesn't affect the grip.
 - **Special behaviour:**
   - one-way (moves freely one way, locks the other): slides up the rope, locks when pulled down
-  - self-locking (holds under load, won't back-drive): the load swings the cam tighter; Petzl says that once an ascender is on the rope and loaded it is nearly impossible to make it disengage or slip
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the load swings the cam tighter; Petzl says that once an ascender is on the rope and loaded it is nearly impossible to make it disengage or slip
   - hand-release only (locks under load, releases when a person operates it): you must unload it and open the cam by hand to move it down; Petzl warns that 'unlocking under load requires skill in pulley hauling systems'
   - quick-release: a safety catch lets you fit or remove it anywhere on the rope with one hand, even with gloves (Petzl ASCENSION)
   - tensioning (takes up slack and holds): as a progress-capture device it keeps each length of rope gained in a haul
 - **How it holds:**
-  - friction or clamping (force-fit): the cam pinches the rope against the frame, harder as the load rises
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the cam pinches the rope against the frame, harder as the load rises
   - spring force (a spring or springy part presses it in place): a spring keeps the cam touching the rope so it catches straight away
   - shape (the parts interlock; form-fit): partly, because the small teeth bite into the rope's sheath so the cam turns instead of slipping
 - **Input and output:** not applicable: it holds a rope rather than passing motion on (back-drivable: no while the cam is engaged)
@@ -204,7 +205,7 @@ Not where it could be shock-loaded by a fall: toothed cams can cut the sheath at
 
 ### 3D printing tips
 
-1) Never use a printed rope grab for people: Wiseone's design says 'NOT INTENDED AS A LIFE SAFETY DEVICE!' and interactive3 warns not to support people or anything heavy above people or animals. 2) Use metal pivots: Nikdfish's light rope cam lock uses stainless M4 cap screws (about 18-20 mm); Wiseone's Rocker Rope Grab is held by an M6 x 25 mm bolt with threadlocker or a nylon-insert lock nut. 3) Make the anvil stiff: Nikdfish offers a 'beefier' version 'to help deal with heavy loads causing anvil flex & over rotation of the cam'; he printed PETG with 6 walls and 6 top and bottom layers. Wiseone printed PC-CF at 0.2 mm layers and 100% infill, no supports. 4) Size it to one rope: Nikdfish's works for 3-7 mm line; Wiseone makes separate parts for 9 mm and 11 mm, spaced differently, and notes that kernmantle grips best because 'lesser grade rope can compress too much under load and potentially slip'. 5) Tune the grip: Nikdfish offers coarse- and fine-tooth cams and smooth or serrated anvils, so print both and test with your line; interactive3 prints in carbon-fibre PETG because the rough surface helps grab the rope. 6) Print the cam lying flat, with its pivot hole vertical, so the teeth are traced by the outer walls and the pull runs along the layers rather than splitting them (FFF prints are stronger in one direction, Prusa) ⚑ [uncertain: orientation not stated by these designers]. 7) Give the pivot about 0.3 mm clearance so the cam swings freely (Prusa's starting value for moving parts), and make sure a spring, elastic or gravity keeps the cam touching the rope or it may not bite ⚑ [uncertain]. 8) Outdoors use PETG (below about 80 °C) or ASA (UV-resistant, up to 93 °C) rather than PLA, which has low UV and heat resistance (Prusa). 9) Typical failures: anvil flex, cam over-rotation, teeth wearing smooth, and rope too thin or too soft for the gap.
+1) Never use a printed rope grab for people: Wiseone's design says 'NOT INTENDED AS A LIFE SAFETY DEVICE!' and interactive3 warns not to support people or anything heavy above people or animals. 2) Use metal pivots: Nikdfish's light rope cam lock uses stainless M4 cap screws (about 18-20 mm); Wiseone's Rocker Rope Grab is held by an M6 x 25 mm bolt with [threadlocker](../glossary.md#threadlocker) or a nylon-insert lock nut. 3) Make the anvil stiff: Nikdfish offers a 'beefier' version 'to help deal with heavy loads causing anvil flex & over rotation of the cam'; he printed PETG with 6 walls and 6 top and bottom layers. Wiseone printed PC-CF at 0.2 mm layers and 100% [infill](../glossary.md#infill), no supports. 4) Size it to one rope: Nikdfish's works for 3-7 mm line; Wiseone makes separate parts for 9 mm and 11 mm, spaced differently, and notes that kernmantle grips best because 'lesser grade rope can compress too much under load and potentially slip'. 5) Tune the grip: Nikdfish offers coarse- and fine-tooth cams and smooth or serrated anvils, so print both and test with your line; interactive3 prints in carbon-fibre PETG because the rough surface helps grab the rope. 6) Print the cam lying flat, with its pivot hole vertical, so the teeth are traced by the outer walls and the pull runs along the layers rather than splitting them (FFF prints are stronger in one direction, Prusa) ⚑ [uncertain: orientation not stated by these designers]. 7) Give the pivot about 0.3 mm [clearance](../glossary.md#clearance) so the cam swings freely (Prusa's starting value for moving parts), and make sure a spring, elastic or gravity keeps the cam touching the rope or it may not bite ⚑ [uncertain]. 8) Outdoors use PETG (below about 80 °C) or ASA (UV-resistant, up to 93 °C) rather than PLA, which has low UV and heat resistance (Prusa). 9) Typical failures: anvil flex, cam over-rotation, teeth wearing smooth, and rope too thin or too soft for the gap.
 
 ### Buying one (off-the-shelf parts)
 
@@ -237,8 +238,8 @@ This is life-safety equipment: learn it from a qualified instructor (Petzl; Alpi
 - Clam cleat (grooved V-cleat): a grooved V with no moving parts that jams a rope
 - Cam buckle (webbing cam buckle): the same toothed-cam idea for flat straps
 - Binding-plate lock (tilting friction plate): a tipped plate wedges on a rod or bar instead of a cam on a rope
-- Sprag clutch: wedge-shaped sprags lock between two rings in one direction, the rotary cousin of the cam
-- Ratchet and pawl: one-way action with fixed teeth and steps, instead of stepless friction
+- [Sprag](../glossary.md#sprag) clutch: wedge-shaped sprags lock between two rings in one direction, the rotary cousin of the cam
+- [Ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl): one-way action with fixed teeth and steps, instead of stepless friction
 - Inertia-locking reel (seat-belt lock): locks a strap when it is jerked, rather than whenever it is pulled one way
 - Pulley system (block and tackle): the rope grab is the progress-capture part of most hauling systems
 - Cord lock (spring toggle) and guy-line slider: much lighter ways to hold a thin cord at any point

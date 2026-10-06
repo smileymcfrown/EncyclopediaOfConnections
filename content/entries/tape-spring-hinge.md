@@ -125,13 +125,15 @@ sources:
 - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tapespring_hinge_measuringtape_fold.json
+glossary: [misalignment, backlash, self-locking, over-centre, bistable, detent, linkage, fail-safe--fail-secure, stiffness,
+  flexure, compliant-mechanism, living-hinge, damping, repeatability--accuracy, creep, lubrication, infill]
 ---
 
 A strip with a curved cross-section, like a tape-measure blade, clamped between two parts so that it folds by buckling into a kink and then unfolds itself and locks straight, giving a hinge with no pin, no friction and no latch.
 
 **In plain words:** A short piece of curved metal strip, like the blade of a tape measure, used as a hinge: it folds with a sharp kink when pushed, then springs back straight and stiff on its own and stays locked straight. **Proper term:** Tape-spring hinge.
 
-**Also called:** tape spring; measuring-tape hinge or carpenter's-tape hinge; tape-spring rolling hinge (TSR hinge, a tape-spring hinge guided by rolling wheels and wires); self-deploying, self-locking elastic hinge; composite tape-spring hinge (glass, Kevlar or carbon fibre versions); bistable tape spring (a version that stays either rolled up or straight); snap bracelet or slap bracelet (the bistable steel-strip toy that uses the same effect); tape measure antenna (radio antenna elements cut from a tape-measure blade); Carpentier joint (European aerospace name for tape-spring hinges) ⚑ [uncertain].
+**Also called:** tape spring; measuring-tape hinge or carpenter's-tape hinge; tape-spring rolling hinge (TSR hinge, a tape-spring hinge guided by rolling wheels and wires); self-deploying, [self-locking](../glossary.md#self-locking) elastic hinge; composite tape-spring hinge (glass, Kevlar or carbon fibre versions); [bistable](../glossary.md#bistable) tape spring (a version that stays either rolled up or straight); snap bracelet or slap bracelet (the bistable steel-strip toy that uses the same effect); tape measure antenna (radio antenna elements cut from a tape-measure blade); Carpentier joint (European aerospace name for tape-spring hinges) ⚑ [uncertain].
 
 ## How it works
 
@@ -150,11 +152,11 @@ A few parts: one or more short strips of curved tape (steel tape-measure blade, 
 
 ## When to use it
 
-Use a tape-spring hinge when something should fold flat for storage and then open by itself and lock straight with no latch, pin or motor: fold-out antennas, booms, panels, flaps, legs, camera or sensor poles, toys and kinetic art. It is light, cheap, has zero friction and backlash, needs no lubrication, and has no moving parts to jam after long storage (Watt and Pellegrino 2002); because it deploys on its own stored strain energy it needs no motor (Communications Engineering 2024).
+Use a tape-spring hinge when something should fold flat for storage and then open by itself and lock straight with no latch, pin or motor: fold-out antennas, booms, panels, flaps, legs, camera or sensor poles, toys and kinetic art. It is light, cheap, has zero friction and [backlash](../glossary.md#backlash), needs no [lubrication](../glossary.md#lubrication), and has no moving parts to jam after long storage (Watt and Pellegrino 2002); because it deploys on its own stored strain energy it needs no motor (Communications Engineering 2024).
 
 ## When not to use it
 
-Avoid it where the folded part must be held in a controlled position or carry load while folded (it is very floppy when folded; Watt and Pellegrino 2002); use a detent hinge, friction hinge or knuckle hinge instead. Avoid it where a heavy load could buckle it when it should stay straight; add a locking pin or over-centre lock. Avoid it where a sudden snap would be dangerous or damaging, or where the hinge must move slowly and smoothly under control; use a damped or self-closing spring hinge.
+Avoid it where the folded part must be held in a controlled position or carry load while folded (it is very floppy when folded; Watt and Pellegrino 2002); use a [detent](../glossary.md#detent) hinge, friction hinge or knuckle hinge instead. Avoid it where a heavy load could buckle it when it should stay straight; add a locking pin or [over-centre](../glossary.md#over-centre) lock. Avoid it where a sudden snap would be dangerous or damaging, or where the hinge must move slowly and smoothly under control; use a damped or self-closing spring hinge.
 
 ## Details
 
@@ -164,17 +166,17 @@ Avoid it where the folded part must be held in a controlled position or carry lo
   - lock, and release by hand: it snaps and locks straight on its own, and a firm push past its peak moment buckles it to fold again
   - join and hold: once straight it holds the two parts in line and carries a small bending load
 - **Movement:** flex: folds by forming a local kink; tape-spring hinges have been used to deploy panels through about 180 degrees (Watt and Pellegrino 2002)
-- **Directions it can move (degrees of freedom):** 1 intended (folding about the kink). When folded the hinge is very floppy in other directions too (very low stiffness in the folded configuration, Watt and Pellegrino 2002); when straight it is stiff in all directions
+- **Directions it can move (degrees of freedom):** 1 intended (folding about the kink). When folded the hinge is very floppy in other directions too (very low [stiffness](../glossary.md#stiffness) in the folded configuration, Watt and Pellegrino 2002); when straight it is stiff in all directions
 - **Special behaviour:**
   - over-centre (snaps past a point and stays): once near straight the tape snaps back into its curved section and locks straight without any latch; folding it again needs a push past the peak (buckling) moment (Seffen and Pellegrino 1997)
   - self-aligning or self-centring: elastic latching gives a highly repeatable, accurate deployed position (Watt and Pellegrino 2002)
-  - fail-safe or breakaway: an overload buckles the tape into a fold instead of breaking the parts, as long as the tape stays elastic ⚑ [uncertain]
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: an overload buckles the tape into a fold instead of breaking the parts, as long as the tape stays elastic ⚑ [uncertain]
 - **How it holds:**
   - spring force (a spring or springy part presses it in place): the curved section's own stiffness holds the hinge straight, and the stored bending energy drives it there
 - **Input and output:** not applicable
 - **Power:** passive (no power needed). Space versions are held folded by a restraint and then released, e.g. the ISIS CubeSat antenna uses a thermal knife that burns through a wire (cubesatshop.com); power is only needed for that release device, and once released the tape deploys on its own
 - **Load:** light: it locks strongly for its weight but deploys gently; a 135 mm long TSR hinge with one pair of 25.4 mm wide steel tapes needed only 0.1 to 0.3 N m to deploy but locked against 13 N m (Watt and Pellegrino 2002). Strong along the tape and stiff while straight; it resists bending that puts the tape's edges in tension (opposite-sense bending) better than bending the other way (equal-sense bending), which is softer and buckles sooner into a twisted fold (Seffen and Pellegrino 1997); once folded it carries almost no load
-- **Play and precision:** Play: none; tape-spring hinges have zero friction and backlash. Repeatability: elastic latching gives highly repeatable and accurate positioning (Watt and Pellegrino 2002). Misalignment: tolerates little while folded because it is so floppy, which makes deployment paths uncertain; on latching the panel can rebound and re-buckle the tapes (twice in an undamped test) before finally locking (Watt and Pellegrino 2002)
+- **Play and precision:** Play: none; tape-spring hinges have zero friction and backlash. [Repeatability](../glossary.md#repeatability--accuracy): elastic latching gives highly repeatable and accurate positioning (Watt and Pellegrino 2002). [Misalignment](../glossary.md#misalignment): tolerates little while folded because it is so floppy, which makes deployment paths uncertain; on latching the panel can rebound and re-buckle the tapes (twice in an undamped test) before finally locking (Watt and Pellegrino 2002)
 - **Taking it apart:** removable: the tapes are clamped or bolted to the parts (e.g. aluminium clamp blocks in the TSR hinge, Watt and Pellegrino 2002) and can be unscrewed
 - **How often it can be reused:** many times, as long as the fold never overstresses the tape; a tape that overshoots and yields is permanently damaged (Seffen and Pellegrino 1997); no cycle count found ⚑ [uncertain]
 - **Sealing:** none
@@ -197,7 +199,7 @@ Avoid it where the folded part must be held in a controlled position or carry lo
 
 ### 3D printing tips
 
-Print the clamps and brackets, not the spring: use a steel tape-measure blade for the tape itself and print blocks that grip each end. Shape the clamping faces to match the tape's cross-curve so the curve is not flattened where it is held ⚑ [uncertain], and leave enough free tape between the clamps for the kink to form without reaching them; Watt and Pellegrino sized their hinge so the tapes would not be damaged during folding, with 88 mm of free tape length for 25.4 mm wide tapes and a smallest workable hinge of 106 x 44 x 21 mm. Clamp two tapes back to back with their curves facing opposite ways so the hinge behaves the same in both fold directions and does not overshoot when it latches (Seffen and Pellegrino 1997). Expect a sharp snap on latching: in tests the undamped hinge gave peaks of about 150 g, reduced to about 25 g by sticking sound-damping tape (3M 434) to both sides of each tape (Watt and Pellegrino 2002); a strip of damping or foam tape is an easy maker version ⚑ [uncertain]. Becky Stern's printed tape-measure antenna couplers were printed at 20% infill (Printables 540996). Avoid printing the spring itself from PLA or other plastics that creep; plastic tape springs lose force during long storage, faster when warm (Kwok and Pellegrino); PLA was not tested ⚑ [uncertain].
+Print the clamps and brackets, not the spring: use a steel tape-measure blade for the tape itself and print blocks that grip each end. Shape the clamping faces to match the tape's cross-curve so the curve is not flattened where it is held ⚑ [uncertain], and leave enough free tape between the clamps for the kink to form without reaching them; Watt and Pellegrino sized their hinge so the tapes would not be damaged during folding, with 88 mm of free tape length for 25.4 mm wide tapes and a smallest workable hinge of 106 x 44 x 21 mm. Clamp two tapes back to back with their curves facing opposite ways so the hinge behaves the same in both fold directions and does not overshoot when it latches (Seffen and Pellegrino 1997). Expect a sharp snap on latching: in tests the undamped hinge gave peaks of about 150 g, reduced to about 25 g by sticking sound-damping tape (3M 434) to both sides of each tape (Watt and Pellegrino 2002); a strip of [damping](../glossary.md#damping) or foam tape is an easy maker version ⚑ [uncertain]. Becky Stern's printed tape-measure antenna couplers were printed at 20% [infill](../glossary.md#infill) (Printables 540996). Avoid printing the spring itself from PLA or other plastics that [creep](../glossary.md#creep); plastic tape springs lose force during long storage, faster when warm (Kwok and Pellegrino); PLA was not tested ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -224,14 +226,14 @@ Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked S
 
 ## Related
 
-- Bistable compliant mechanism: a one-piece part with two resting shapes; a bistable tape spring (snap bracelet) is one kind
+- Bistable [compliant mechanism](../glossary.md#compliant-mechanism): a one-piece part with two resting shapes; a bistable tape spring (snap bracelet) is one kind
 - Constant-force spring: another curved steel strip, coiled on a drum, that gives a nearly constant pull, used in spring-return reels
 - Self-closing hinge (spring hinge): a pin hinge with a separate spring; stronger and controllable, but it has friction and parts that can jam
 - Detent hinge (click hinge): holds several set positions rather than folding flat and snapping straight
-- Living hinge and flexure hinge: bend instead of pivoting, but do not lock straight on their own
+- [Living hinge](../glossary.md#living-hinge) and [flexure](../glossary.md#flexure) hinge: bend instead of pivoting, but do not lock straight on their own
 - Rolling-contact joint: Watt and Pellegrino's TSR hinge combines tape springs with a wire-wrapped rolling hinge to control the fold
 - Origami mechanisms and deployable structures: fold patterns that also let flat panels deploy
-- Over-centre (toggle) lock: a linkage that snaps past centre to lock a hinge straight, with separate parts
+- Over-centre (toggle) lock: a [linkage](../glossary.md#linkage) that snaps past centre to lock a hinge straight, with separate parts
 
 ## Make it yourself
 

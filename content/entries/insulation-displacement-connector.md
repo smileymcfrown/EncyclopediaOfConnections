@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Rj-45_male_compare.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Insulationdisplacement_connector_IDC_ribboncable_plug_punchdown_Ttap.json
+glossary: [pitch, form-fit--force-fit--material-bond, keying, infill]
 ---
 
 Insulated wires are pushed or squeezed into slotted metal blades that cut through the insulation and grip the copper, making a gas-tight, unstripped joint; used to terminate many ribbon-cable wires in one press, punch network and phone wires into blocks and jacks, crimp RJ45 plugs, and tap a branch wire onto an existing one.
@@ -171,7 +172,7 @@ Not for power above a few amps: use a crimped or soldered joint (Wikipedia 'Elec
   - none: it simply joins. Its trick is that it is self-stripping (the contact cuts the insulation itself) and that one press can terminate many wires at once (Wikipedia 'Electrical connector').
 - **How it holds:**
   - spring force (a spring or springy part presses it in place): the two sides of each slotted contact spring against the conductor (Wikipedia 'Punch-down block')
-  - friction or clamping (force-fit): the wire is pinched hard enough to cold-weld to the blade (Wikipedia 'IDC (electrical connector)'), and the cover or strain-relief clamp grips the insulation
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the wire is pinched hard enough to cold-weld to the blade (Wikipedia 'IDC (electrical connector)'), and the cover or strain-relief clamp grips the insulation
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Electrical: up to about 3 A, extra-low voltage only. IDCs 'are usually used with small conductors for signal purposes and at low voltage. Power conductors carrying more than a few amperes are more reliably terminated with other means, though "hot tap" press-on connectors find some use in automotive applications' (Wikipedia 'Electrical connector'). Ribbon cable wires are only 22-26 AWG (Wikipedia 'Ribbon cable'). T-taps are sold up to 4-6 mm² (12-10 AWG) wire for vehicles (Electrokit T-tap), and some certified mains fittings use IDC terminals (Wikipedia 'IDC (electrical connector)' shows an Australian 230 V outlet), but those are outside a maker's choice (see safety_notes). Mechanical: light; a ribbon plug relies on its strain-relief clamp to keep pulls off the contacts (Fablab Brussels), and a wire that moves in a tap gets chewed through (Hackaday 2023).
@@ -181,7 +182,7 @@ Not for power above a few amps: use a crimped or soldered joint (Wikipedia 'Elec
 - **Sealing:** none: plain IDC plugs, blocks and taps are open; T-taps are 'not rated for weather exposure' (Tools and Toys), and a T-tap seller advises wrapping it in electrical or self-vulcanizing tape in humid places (Electrokit T-tap). Gel-filled splices are the exception: factory-filled sealant keeps moisture off the contact (Electrokit UY2), and a Hackaday commenter reports they 'hold up in out door applications' (Hackaday 2023 comments).
 - **Adjustable:** no
 - **Access needed:** both sides: closing a ribbon plug, gel splice or T-tap means squeezing it between vice jaws or pliers from both sides (Fablab Brussels; Electrokit). Punch-down blocks and keystone jacks are worked from the front only (Wikipedia 'Punch-down block'). A T-tap can be fitted anywhere along an existing wire without reaching its ends (Electrokit T-tap).
-- **Materials:** Wire must match the contact. Punch-down blocks are 'designed for solid wire connections' (Wikipedia 'Punch-down block'). Gel-filled UY2 splices take two solid copper conductors of 0.4-0.9 mm (26-19 AWG) (Electrokit UY2). Ribbon cable is usually stranded copper of 0.32, 0.20 or 0.13 mm² (22, 24 or 26 AWG) at 1.27 mm pitch (Wikipedia 'Ribbon cable'). RJ45 plugs are made for either solid or stranded wire, with different prongs (Wikipedia 'Modular connector'). T-taps come in sizes for 0.5-1.5, 1.5-2.5 and 4-6 mm² wire (Electrokit T-tap). IDC technology was first made for solid wire and later extended to stranded wire (Wikipedia 'IDC (electrical connector)'). LED-strip clips press onto the strip's exposed copper pads (Adafruit).
+- **Materials:** Wire must match the contact. Punch-down blocks are 'designed for solid wire connections' (Wikipedia 'Punch-down block'). Gel-filled UY2 splices take two solid copper conductors of 0.4-0.9 mm (26-19 AWG) (Electrokit UY2). Ribbon cable is usually stranded copper of 0.32, 0.20 or 0.13 mm² (22, 24 or 26 AWG) at 1.27 mm [pitch](../glossary.md#pitch) (Wikipedia 'Ribbon cable'). RJ45 plugs are made for either solid or stranded wire, with different prongs (Wikipedia 'Modular connector'). T-taps come in sizes for 0.5-1.5, 1.5-2.5 and 4-6 mm² wire (Electrokit T-tap). IDC technology was first made for solid wire and later extended to stranded wire (Wikipedia 'IDC (electrical connector)'). LED-strip clips press onto the strip's exposed copper pads (Adafruit).
 - **Heat, cold, water and wear:** Vibration and movement: taps and clips loosen or cut into the wire (Hackaday 2023; HitLights). Damp: plain IDCs are open to moisture and T-taps are 'not rated for weather exposure' (Tools and Toys), so corrosion can raise resistance; gel-filled splices resist moisture (Electrokit UY2). Temperature swings loosen LED-strip quick connectors over time (HitLights). High-speed data through punch-down blocks needs careful work to control impedance and crosstalk (Wikipedia 'Punch-down block').
 
 ## Making it
@@ -195,7 +196,7 @@ Not for power above a few amps: use a crimped or soldered joint (Wikipedia 'Elec
 
 ### 3D printing tips
 
-The contact itself can't be printed, but printed helpers make IDC work more reliable. 1) A printed crimp aid that holds the plug halves square lets you close small ribbon plugs by hand without damaging them; one designer settled on 0.1 mm layers and 40% gyroid infill after strength tests (Printables 831720). Printed adapters for IDC crimping pliers do the same for several 1.27 mm-cable plug types (Printables 1248613). The aim is to close the two halves parallel, as a vice does (Fablab Brussels). 2) A printed 'punch puck' holds a keystone jack steady while you punch the wires down (Printables 727380). 3) In printed enclosures, give ribbon cable a gentle fold rather than a sharp crease next to the plug, leave space for the plug's strain-relief clamp (Fablab Brussels), and clamp the cable so it doesn't pull on the contacts. 4) Don't let printed parts squeeze or flex a T-tap or splice: movement lets the blade chew through the wire (Hackaday 2023). 5) Keystone ports printed into a panel accept punch-down network jacks (Wikipedia 'Keystone module'; see Standard plug-and-socket connector).
+The contact itself can't be printed, but printed helpers make IDC work more reliable. 1) A printed crimp aid that holds the plug halves square lets you close small ribbon plugs by hand without damaging them; one designer settled on 0.1 mm layers and 40% gyroid [infill](../glossary.md#infill) after strength tests (Printables 831720). Printed adapters for IDC crimping pliers do the same for several 1.27 mm-cable plug types (Printables 1248613). The aim is to close the two halves parallel, as a vice does (Fablab Brussels). 2) A printed 'punch puck' holds a keystone jack steady while you punch the wires down (Printables 727380). 3) In printed enclosures, give ribbon cable a gentle fold rather than a sharp crease next to the plug, leave space for the plug's strain-relief clamp (Fablab Brussels), and clamp the cable so it doesn't pull on the contacts. 4) Don't let printed parts squeeze or flex a T-tap or splice: movement lets the blade chew through the wire (Hackaday 2023). 5) Keystone ports printed into a panel accept punch-down network jacks (Wikipedia 'Keystone module'; see Standard plug-and-socket connector).
 
 ### Buying one (off-the-shelf parts)
 
@@ -230,7 +231,7 @@ Cheap fold-over taps cut into or chew through the wire and fail, and Hackaday wa
 - Flat flexible cable and latching connector (FFC with ZIF connector): the thin modern replacement for ribbon cable inside devices
 - Wire wrap: another gas-tight, solderless joint, made by winding solid wire round a square post
 - Twist-on wire connector (wire nut): a removable cap for twisted, stripped wires
-- Keying (one-way-only fit): shrouded box headers stop ribbon plugs going on backwards
+- [Keying](../glossary.md#keying) (one-way-only fit): shrouded box headers stop ribbon plugs going on backwards
 
 ## Make it yourself
 

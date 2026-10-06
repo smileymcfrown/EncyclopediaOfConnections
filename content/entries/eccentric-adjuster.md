@@ -138,6 +138,8 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)
 research: research/connection-types/results/Eccentric_adjuster_eccentric_nut_spacer_or_bushing.json
+glossary: [misalignment, backlash, torque, idler, cam-and-follower, crank, form-fit--force-fit--material-bond, set-screw,
+  kinematic-coupling, creep, peel-vs-shear]
 ---
 
 A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
@@ -148,7 +150,7 @@ A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part
 
 ## How it works
 
-The eccentric sits in a round hole or on a bolt and can turn about its own centre, but the part it carries sits in the off-centre hole, so as you turn it the carried part travels around a small circle whose radius is the offset (eccentricity). Half a turn takes it from one side to the other, giving a total sideways shift of twice the offset; turning further brings it back again, so unlike a normal nut it never gets 'tighter and tighter'. Once the belt, chain or wheel is at the right tightness you clamp the eccentric (nut, pinch bolt, set screws or wedge) so friction stops it turning. Because the carried part moves on an arc, it also moves slightly at right angles to the direction you want, for example an eccentric bottom bracket also changes the pedal height.
+The eccentric sits in a round hole or on a bolt and can turn about its own centre, but the part it carries sits in the off-centre hole, so as you turn it the carried part travels around a small circle whose radius is the offset (eccentricity). Half a turn takes it from one side to the other, giving a total sideways shift of twice the offset; turning further brings it back again, so unlike a normal nut it never gets 'tighter and tighter'. Once the belt, chain or wheel is at the right tightness you clamp the eccentric (nut, pinch bolt, [set screws](../glossary.md#set-screw) or wedge) so friction stops it turning. Because the carried part moves on an arc, it also moves slightly at right angles to the direction you want, for example an eccentric bottom bracket also changes the pedal height.
 
 ## Parts
 
@@ -167,7 +169,7 @@ When you need a small, precise, lockable adjustment of where a wheel, pulley, sp
 
 ## When not to use it
 
-When tension must be kept up automatically as a belt or chain stretches: use a spring-loaded tensioner. When you need more travel than about twice the offset: use a slotted mount, sliding motor plate or jacking screw. When the part must not move sideways at all while you adjust it in one direction (the eccentric moves it on an arc): use a straight slide or screw adjuster. For precise, repeatable gear backlash: an eccentric centre-distance change disturbs tooth contact, so consider anti-backlash or duplex-worm gearing. In weak, soft or printed parts under heavy load: printed eccentrics can break and plastic creeps under the clamp.
+When tension must be kept up automatically as a belt or chain stretches: use a spring-loaded tensioner. When you need more travel than about twice the offset: use a slotted mount, sliding motor plate or jacking screw. When the part must not move sideways at all while you adjust it in one direction (the eccentric moves it on an arc): use a straight slide or screw adjuster. For precise, repeatable gear [backlash](../glossary.md#backlash): an eccentric centre-distance change disturbs tooth contact, so consider anti-backlash or duplex-worm gearing. In weak, soft or printed parts under heavy load: printed eccentrics can break and plastic [creeps](../glossary.md#creep) under the clamp.
 
 ## Details
 
@@ -180,11 +182,11 @@ When tension must be kept up automatically as a belt or chain stretches: use a s
 - **Special behaviour:**
   - tensioning (takes up slack and holds): set once and clamped; it does not re-adjust itself as a belt or chain stretches (unlike a spring tensioner), so it must be reset as parts wear
   - motion conversion (e.g. rotary to linear): a turn of the eccentric becomes a small, finely controllable sideways movement
-- **How it holds:** friction or clamping (force-fit): a nut, pinch bolt, set screws or a wedge clamps the eccentric so it cannot turn; plus shape (form-fit): the off-centre bore holds the axle or bolt
+- **How it holds:** friction or clamping (force-fit): a nut, pinch bolt, set screws or a wedge clamps the eccentric so it cannot turn; plus shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the off-centre bore holds the axle or bolt
 - **Input and output:** An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sideways shift of up to twice the offset, e.g. about 0.79 mm in total for an OpenBuilds V-slot eccentric spacer, and 0.25-1.5 mm eccentricity on catalogue eccentric cam followers. The ratio is not constant: by geometry, the shift per degree is largest in the middle of the range and smallest near the two ends. Back-drivable: yes when unclamped, because a sideways load on the carried part tries to turn the eccentric; clamped, it is held only by friction, so under-tightened eccentrics can slip.
 - **Power:** passive (no power needed)
-- **Load:** light to heavy depending on size: V-slot wheel spacers and hinge cams are light-duty; bicycle eccentric bottom brackets, motorcycle eccentric hubs, car camber bolts and bearing cam followers carry heavy loads (catalogue eccentric cam followers have static load ratings of kilonewtons). Strong in straight shear across the bolt or axle; the weak direction is rotation: a load pushing the carried part sideways makes a turning force on the eccentric that only the clamp's friction resists, which is why under-clamped eccentrics creep, creak or slip.
-- **Play and precision:** none once clamped: it is used to remove play (e.g. between V-wheels and a rail, or in a chain). Very fine adjustment, down to a fraction of a millimetre, especially near the ends of its range. Tolerates only small misalignment corrections (at most twice the offset, typically well under a few millimetres, except large bicycle and motorcycle eccentrics). The carried part moves on an arc, so there is a small unwanted shift at right angles.
+- **Load:** light to heavy depending on size: V-slot wheel spacers and hinge cams are light-duty; bicycle eccentric bottom brackets, motorcycle eccentric hubs, car camber bolts and bearing cam followers carry heavy loads (catalogue eccentric cam followers have static load ratings of kilonewtons). Strong in straight [shear](../glossary.md#peel-vs-shear) across the bolt or axle; the weak direction is rotation: a load pushing the carried part sideways makes a turning force on the eccentric that only the clamp's friction resists, which is why under-clamped eccentrics creep, creak or slip.
+- **Play and precision:** none once clamped: it is used to remove play (e.g. between V-wheels and a rail, or in a chain). Very fine adjustment, down to a fraction of a millimetre, especially near the ends of its range. Tolerates only small [misalignment](../glossary.md#misalignment) corrections (at most twice the offset, typically well under a few millimetres, except large bicycle and motorcycle eccentrics). The carried part moves on an arc, so there is a small unwanted shift at right angles.
 - **Taking it apart:** removable: unclamp, then slide off or unscrew; set screws can dent the eccentric so it is harder to re-set finely
 - **How often it can be reused:** many times: metal eccentrics can be re-adjusted and re-used indefinitely if not corroded; printed eccentrics wear and can break at thin sections
 - **Sealing:** none
@@ -216,7 +218,7 @@ Search terms: 'eccentric spacer' (V-slot, 5 mm bore, 6 mm or 1/4 in tall, 8 mm o
 
 - Total adjustment is twice the eccentricity: half a turn moves the carried part from one side to the other (geometry). Examples: an OpenBuilds eccentric spacer gives 'a total range of adjustment of approximately 0.79mm' (MakerTechStore, https://www.makertechstore.com/products/eccentric-spacer); THK eccentric cam followers have 0.25-1.0 mm eccentricity (https://www.thk.com/jp/en/products/other_rotary_guides/cam_follower/eccentric/); IKO CFE 0.4-1.5 mm (https://www.ikont.co.jp/eg/product/needle/ndl0603.html); IKO CFES 0.25-0.6 mm (https://www.mrosupply.com/bearings/862859_cfes16_iko-bearing/).
 - V-wheel carriages: turn eccentric nuts in very small steps until the wheels roll smoothly and can easily be pushed both ways but the carriage never wobbles; too tight and the wheels grind and damage themselves and the rail (3D Print Beast, https://www.3dprintbeast.com/eccentric-nuts-ender-3-v2-pro/). Over-tight V-wheels develop flat spots (FlixMySwitch video title, https://www.youtube.com/watch?v=I6NI7lGAv44).
-- Tandem front chain set with an eccentric: about 1/2 inch (12 mm) of up-and-down play halfway between the axles, checked all the way round the crank rotation (Park Tool, https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end); for a synchronising chain, set it taut at the tightest point of the crank rotation (Sheldon Brown, https://www.sheldonbrown.com/synchain.html).
+- Tandem front chain set with an eccentric: about 1/2 inch (12 mm) of up-and-down play halfway between the axles, checked all the way round the [crank](../glossary.md#crank) rotation (Park Tool, https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end); for a synchronising chain, set it taut at the tightest point of the crank rotation (Sheldon Brown, https://www.sheldonbrown.com/synchain.html).
 - Choose the clamp to suit the frame: pinch-bolt eccentrics are easiest to adjust but are 'normally only used on steel frames because of the risk of breaking off the ears'; set screws are simple but dent the eccentric; wedge types must be kept greased or they corrode in place (Sheldon Brown, https://www.sheldonbrown.com/synchain.html).
 - Cabinet hinge mounting plates with a cam give about +/-2 mm of height adjustment (Blum catalogue 2022/2023, https://publications.blum.com/2022/catalogue/en/144/).
 - Car camber bolts with eccentric or offset washers can change camber by up to about two degrees (Wikipedia 'Camber angle', https://en.wikipedia.org/wiki/Camber_angle).
@@ -224,7 +226,7 @@ Search terms: 'eccentric spacer' (V-slot, 5 mm bore, 6 mm or 1/4 in tall, 8 mm o
 
 ## Common failures
 
-(1) It slips and loses tension because the clamp was not tight enough or the load keeps trying to turn it; tighten to the proper torque and hold the eccentric while tightening. (2) It is seized by corrosion and will not turn; grease it at assembly (Sheldon Brown), and free a stuck one with gentle taps rather than by forcing the spanner, as bicycle owners report (Montague Bikes blog comments). (3) Set screws dent the eccentric, making fine re-adjustment difficult (Park Tool; Sheldon Brown). (4) Over-tightened V-wheels grind or develop flat spots; back it off until the carriage just runs without wobble. (5) Confusion because a full turn returns to the start: work in small steps and watch the effect, and use the thin-side mark. (6) An eccentric bottom bracket creaks ⚑ [uncertain: seen only in search results]. (7) A printed eccentric breaks at its thin neck when turned under load (Printables 79881). (8) Adjusting the eccentric also changes another dimension (pedal height, wheel toe) because it moves on an arc; check both after adjusting.
+(1) It slips and loses tension because the clamp was not tight enough or the load keeps trying to turn it; tighten to the proper [torque](../glossary.md#torque) and hold the eccentric while tightening. (2) It is seized by corrosion and will not turn; grease it at assembly (Sheldon Brown), and free a stuck one with gentle taps rather than by forcing the spanner, as bicycle owners report (Montague Bikes blog comments). (3) Set screws dent the eccentric, making fine re-adjustment difficult (Park Tool; Sheldon Brown). (4) Over-tightened V-wheels grind or develop flat spots; back it off until the carriage just runs without wobble. (5) Confusion because a full turn returns to the start: work in small steps and watch the effect, and use the thin-side mark. (6) An eccentric bottom bracket creaks ⚑ [uncertain: seen only in search results]. (7) A printed eccentric breaks at its thin neck when turned under load (Printables 79881). (8) Adjusting the eccentric also changes another dimension (pedal height, wheel toe) because it moves on an arc; check both after adjusting.
 
 ## Safety
 
@@ -232,13 +234,13 @@ Eccentrics set things that matter for safety, such as a car's wheel alignment, a
 
 ## Related
 
-- Belt tensioner (spring-loaded idler): keeps tension automatically as the belt stretches, instead of a set-and-lock adjustment
+- Belt tensioner (spring-loaded [idler](../glossary.md#idler)): keeps tension automatically as the belt stretches, instead of a set-and-lock adjustment
 - Eccentric cam lever (cam clamp, quick-release skewer): also uses an off-centre shape, but to clamp quickly with a lever rather than to set a position
-- Cam and follower: an off-centre or shaped disc that moves a follower continuously as it turns (the same geometry used for motion)
+- [Cam and follower](../glossary.md#cam-and-follower): an off-centre or shaped disc that moves a follower continuously as it turns (the same geometry used for motion)
 - Slotted adjustment with a jacking screw: slides the part along slots, often pushed by a separate screw, for a straight, longer adjustment range; less compact
 - Lead screw and nut (incl. anti-backlash nut): fine straight-line adjustment with a screw
 - Dovetail slide with gib strip: takes up play in a slide with an adjustable strip instead of an eccentric
-- Kinematic coupling: locates parts exactly without any adjustment
+- [Kinematic coupling](../glossary.md#kinematic-coupling): locates parts exactly without any adjustment
 - Turnbuckle: sets tension in a rod, wire or cable by screwing
 - Locking adjustment screws: opposing screws, or a screw and a spring, that set a tilt or height and lock it, rather than shifting a part sideways with an off-centre bush
 

@@ -131,6 +131,8 @@ sources:
 - https://www.printables.com/model/1595516-permatag-tamper-proof-airtag-case-sealed-during-pr (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tamperevident_breakaway_bridge_frangible_link.json
+glossary: [ratchet, fail-safe--fail-secure, living-hinge, cantilever, form-fit--force-fit--material-bond, captive-nut, creep,
+  brittle--ductile, layer-lines, perimeters, infill, support-material]
 ---
 
 A deliberately weak link of thin plastic bridges between a cap and a ring (or between any two parts) that survives making, filling and shipping but snaps the first time the item is opened, so anyone can see it has been opened.
@@ -170,9 +172,9 @@ Not as a lock: it only shows that something was opened and is easy to break (use
 - **Movement:** none: it is a fixed one-piece link. Opening the cap (turning it, which also lifts it along the thread) is what breaks it.
 - **Directions it can move (degrees of freedom):** 0 while intact (band and cap are one piece). After it breaks, the cap is free (1 turn plus 1 lift along the thread, coupled by the thread) and the band is left loose on the neck; on a tethered cap the unbroken bridge then acts roughly as a 1-freedom hinge (US 11,685,575).
 - **Special behaviour:**
-  - fail-safe or breakaway: the bridges snap at a designed force on first opening and cannot be put back, so the broken bridges or the separated ring show that the container has been opened (US 5,450,972)
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: the bridges snap at a designed force on first opening and cannot be put back, so the broken bridges or the separated ring show that the container has been opened (US 5,450,972)
   - one-way (in a limited sense): inclined bridges bend and survive while the cap is screwed on, then straighten and tear when it is unscrewed, 'which serves to concentrate the forces tending to rupture the bridges' at their ends (US 6,705,479)
-- **How it holds:** shape (the band's inward rib catches under the bead on the bottle neck; form-fit); the bridges themselves are simply thin, unbroken plastic from the same moulding, designed to tear rather than to hold
+- **How it holds:** shape (the band's inward rib catches under the bead on the bottle neck; [form-fit](../glossary.md#form-fit--force-fit--material-bond)); the bridges themselves are simply thin, unbroken plastic from the same moulding, designed to tear rather than to hold
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** light, by design. The link must survive capping, shipping and display ('shall remain intact when handled in a reasonable manner during manufacture, distribution, and retail display'; FDA 21 CFR 211.132) but snap under a normal hand twist. The band holds strongly against being pulled up over the neck bead, which is exactly what tears the bridges; the bridges are weakest when pulled apart (tension and tearing) and are meant to be. No bridge break-force figures for caps were found in the sources checked ⚑ [uncertain]. For comparison, a 3D-printed breakaway link in a robot feeding spoon was tuned to break at 65 N (arXiv 2502.17774).
@@ -183,7 +185,7 @@ Not as a lock: it only shows that something was opened and is easy to break (use
 - **Adjustable:** no: it is a one-time link; its breaking force is set when it is designed (number, width and thickness of bridges, or for printed parts the notch depth and wall count)
 - **Access needed:** not applicable
 - **Materials:** Caps, bands and bridges: polyethylene (PE) or polypropylene (PP), injection-moulded in one piece (US 6,705,479; Wikipedia 'Bottle cap'); bottles in PET or glass. Plastic security seals: plastics such as polycarbonate for meter seals; high-security seals are metal (Wikipedia 'Security seal'). Printed breakaway links: PLA or PLA+ (arXiv 2502.17774), and printed one-time seals work in PETG and PLA (Printables 625502).
-- **Heat, cold, water and wear:** PE and PP caps are used for drinks, so they tolerate water and normal storage (Wikipedia 'Bottle cap'). Heat can defeat some tamper-evident features: warming a 'VOID' label with a hair dryer lets it be peeled off and put back (Wikipedia 'Tamper-evident technology'). Meter seals are made to withstand sunlight and a wide temperature range (Wikipedia 'Security seal'). Printed PLA links soften in heat and can creep under load, and cold can make plastics more brittle so bridges might break during handling ⚑ [uncertain: general material behaviour; no figures found].
+- **Heat, cold, water and wear:** PE and PP caps are used for drinks, so they tolerate water and normal storage (Wikipedia 'Bottle cap'). Heat can defeat some tamper-evident features: warming a 'VOID' label with a hair dryer lets it be peeled off and put back (Wikipedia 'Tamper-evident technology'). Meter seals are made to withstand sunlight and a wide temperature range (Wikipedia 'Security seal'). Printed PLA links soften in heat and can [creep](../glossary.md#creep) under load, and cold can make plastics more [brittle](../glossary.md#brittle--ductile) so bridges might break during handling ⚑ [uncertain: general material behaviour; no figures found].
 
 ## Making it
 
@@ -193,12 +195,12 @@ Not as a lock: it only shows that something was opened and is easy to break (use
   - CNC: holding tabs left when cutting parts out of a sheet ⚑ [uncertain: not covered by an opened source]
   - off-the-shelf part: plastic security seals, tamper-evident labels and tape, and tamper-evident caps for standard bottle necks (Wikipedia 'Security seal'; ENGEL)
 - **Printing it in one piece (print in place):** yes: the weak link is printed as part of the same piece (the robot-spoon study 'integrated the failure point directly into the 3D-printed shaft'; arXiv 2502.17774), so it is complete straight off the printer; a printed one-time seal, once locked, has to be destroyed to open (Printables 289978)
-- **Tools:** None to open (a hand twist). Industrially it is made by injection moulding, sometimes followed by a slitting machine that cuts the bridges (US 4,904,435). Printed versions need no tools, apart from a knife or spatula to clean up support material.
+- **Tools:** None to open (a hand twist). Industrially it is made by injection moulding, sometimes followed by a slitting machine that cuts the bridges (US 4,904,435). Printed versions need no tools, apart from a knife or spatula to clean up [support material](../glossary.md#support-material).
 - **Difficulty:** moderate: it is easy to print a thin snap-off link as part of a part, but hard to make it break reliably at the right force, because printed strength depends heavily on print orientation, layer bonding and wall count; plan to test and adjust (arXiv 2502.17774)
 
 ### 3D printing tips
 
-Orient the part so the layer lines run parallel to the line where it should break: the break then happens cleanly between layers at the intended place. With layer lines across the break line the link is stronger but breaks raggedly and unpredictably (arXiv 2502.17774, PLA+ on a Bambu Lab X1C). Use a notch or slot to concentrate stress at exactly one point, and tune the breaking force with notch depth and the number of walls (perimeters): thicker walls make it stronger, thinner walls weaker; in that study a 1 mm slot with three wall loops broke at the target 65 N, using 15% grid infill (arXiv 2502.17774). Test several prints, because FEA can only guide printed parts (arXiv 2502.17774). Make several evenly spaced bridges rather than one, so the band tears progressively (US 5,450,972). Protect the bridges while the part is fitted: moulded caps use bumpers or angled bridges so pushing the band over the bead does not load them (US 4,904,435; US 6,705,479). Moulded bridges come from a wall only about 0.2-0.64 mm thick (US 4,904,435); a printed bridge can't be thinner than about one extrusion width, so printed bridges are usually thicker and fewer ⚑ [uncertain: design suggestion]. Printed one-time seals print fast (about 13 minutes on a Prusa MK3S) and work in PETG and PLA (Printables 625502). For a sealed container that must be broken to open, you can pause the print, drop in the item and print the lid over it (Printables 1595516: 4 perimeters, 5-6 top and bottom layers, PETG or ASA).
+Orient the part so the [layer lines](../glossary.md#layer-lines) run parallel to the line where it should break: the break then happens cleanly between layers at the intended place. With layer lines across the break line the link is stronger but breaks raggedly and unpredictably (arXiv 2502.17774, PLA+ on a Bambu Lab X1C). Use a notch or slot to concentrate stress at exactly one point, and tune the breaking force with notch depth and the number of walls ([perimeters](../glossary.md#perimeters)): thicker walls make it stronger, thinner walls weaker; in that study a 1 mm slot with three wall loops broke at the target 65 N, using 15% grid [infill](../glossary.md#infill) (arXiv 2502.17774). Test several prints, because FEA can only guide printed parts (arXiv 2502.17774). Make several evenly spaced bridges rather than one, so the band tears progressively (US 5,450,972). Protect the bridges while the part is fitted: moulded caps use bumpers or angled bridges so pushing the band over the bead does not load them (US 4,904,435; US 6,705,479). Moulded bridges come from a wall only about 0.2-0.64 mm thick (US 4,904,435); a printed bridge can't be thinner than about one extrusion width, so printed bridges are usually thicker and fewer ⚑ [uncertain: design suggestion]. Printed one-time seals print fast (about 13 minutes on a Prusa MK3S) and work in PETG and PLA (Printables 625502). For a sealed container that must be broken to open, you can pause the print, drop in the item and print the lid over it (Printables 1595516: 4 perimeters, 5-6 top and bottom layers, PETG or ASA).
 
 ### Buying one (off-the-shelf parts)
 
@@ -226,11 +228,11 @@ Tamper evidence is not tamper proof: tests at Argonne National Laboratory showed
 
 - Shear-pin coupling (breakaway link): also breaks at a designed load, but to protect a machine from overload rather than to show tampering
 - Annular snap fit: the band's inward rib snapping under the bottle's neck bead is an annular snap fit
-- Living hinge: tethered and flip-top caps use a thin hinge that must bend many times without breaking, the opposite of a frangible bridge
+- [Living hinge](../glossary.md#living-hinge): tethered and flip-top caps use a thin hinge that must bend many times without breaking, the opposite of a frangible bridge
 - Push-and-turn child-resistant cap: makes a cap hard for children to open, often used alongside a tamper-evident band
-- Linear ratchet (cable-tie ratchet): pull-tight security seals use a one-way ratchet and must be cut or broken off
-- Mid-print embedding (captive nuts, magnets and bearings): sealing an object inside a print so that it must be broken to open
-- Cantilever snap fit: a clip that can be undone; a tamper-evident link is designed not to be undone
+- Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): pull-tight security seals use a one-way ratchet and must be cut or broken off
+- Mid-print embedding ([captive nuts](../glossary.md#captive-nut), magnets and bearings): sealing an object inside a print so that it must be broken to open
+- [Cantilever](../glossary.md#cantilever) snap fit: a clip that can be undone; a tamper-evident link is designed not to be undone
 
 ## Make it yourself
 

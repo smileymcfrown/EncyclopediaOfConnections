@@ -135,6 +135,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:First_Butt_Splice_Completed.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Crimped_butt_splice_crimp_splice_connector.json
+glossary: [ratchet, form-fit--force-fit--material-bond, gland]
 ---
 
 A crimped butt splice joins two wires end to end: each stripped end goes into one half of a short metal tube, a ratcheting crimp tool squeezes the tube so hard that metal and strands cold-weld into a gas-tight joint, and the plastic or glue-lined heat-shrink sleeve outside insulates it (and, for the glue-lined kind, seals it against water).
@@ -176,7 +177,7 @@ Not when you will want to undo the joint: use a Spring-clamp wire connector (lev
 - **Special behaviour:**
   - none: it simply joins two wires; it doesn't move, lock or release.
 - **How it holds:**
-  - friction or clamping (force-fit): the crimp deforms the tube past its yield point so that 'the compressed wire causes tension in the surrounding connector, and these forces counter each other to create a high degree of static friction' (Wikipedia 'Electrical connector'); where the strands are pressed hardest they also cold-weld to the tube (Hackaday 2017; SparkFun 'How to Crimp')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the crimp deforms the tube past its yield point so that 'the compressed wire causes tension in the surrounding connector, and these forces counter each other to create a high degree of static friction' (Wikipedia 'Electrical connector'); where the strands are pressed hardest they also cold-weld to the tube (Hackaday 2017; SparkFun 'How to Crimp')
   - material bond (glue, solvent or melting): only in glue-lined heat-shrink types, whose 'polyamide-based hot-melt adhesive liner' melts onto the wire insulation (TE drawing D-406-00XX); this seals the joint, while the crimp still carries the load
 - **Input and output:** not applicable
 - **Power:** passive (no power needed): heat is used only to shrink the sleeve of heat-shrink types, not to make the electrical joint.
@@ -196,7 +197,7 @@ Not when you will want to undo the joint: use a Spring-clamp wire connector (lev
   - off-the-shelf part: splices are bought and crimped by hand with a matching tool
   - 3D print (FDM): printed moulds, covers and clips that add strain relief over a finished splice (Printables models in make_it_yourself)
 - **Printing it in one piece (print in place):** no: the joint is cold-formed metal and can't be printed; only covers, jigs and strain-relief parts are printed.
-- **Tools:** A crimp tool matched to the splice. Best is a ratcheting crimper with die positions colour-coded red, blue and yellow to match the sleeves: 'it will ratchet and prevent the jaws from opening back up. When enough pressure has been applied, the ratchet will disengage' (SparkFun 'How to Crimp'); NASA requires full-cycle ratcheting tools (NASA-STD-8739.4A §12.3.1). Makers name tools for their own splices, e.g. 3M TH-440 or TH-450 scissor-style tools for Scotchlok heat-shrink splices and TE AD-1522 'or equivalent' for DuraSeal (3M data sheet; TE drawing D-406-00XX). 'Pliers are not crimpers! Neither are hammers, vises, needle nose pliers or flat rocks' (SparkFun). Also wire strippers, and a hot-air (heat) gun for heat-shrink types (TE; 3M).
+- **Tools:** A crimp tool matched to the splice. Best is a ratcheting crimper with die positions colour-coded red, blue and yellow to match the sleeves: 'it will [ratchet](../glossary.md#ratchet) and prevent the jaws from opening back up. When enough pressure has been applied, the ratchet will disengage' (SparkFun 'How to Crimp'); NASA requires full-cycle ratcheting tools (NASA-STD-8739.4A §12.3.1). Makers name tools for their own splices, e.g. 3M TH-440 or TH-450 scissor-style tools for Scotchlok heat-shrink splices and TE AD-1522 'or equivalent' for DuraSeal (3M data sheet; TE drawing D-406-00XX). 'Pliers are not crimpers! Neither are hammers, vises, needle nose pliers or flat rocks' (SparkFun). Also wire strippers, and a hot-air (heat) gun for heat-shrink types (TE; 3M).
 - **Difficulty:** easy to moderate: no soldering skill or heat is needed and splices are cheap, but a reliable joint depends on a proper crimper with the right die and on matching splice size to wire size; with 'crappy crimp tools or crimps' or mismatched parts 'you're in for a lot of pain' (Hackaday 2023).
 
 ### 3D printing tips
@@ -237,7 +238,7 @@ PULL-OUTS: the wrong tool, a mismatched splice or the wrong wire size gives crim
 - Twist-on wire connector (wire nut): screwed on by hand over twisted wires; not for vibration
 - Screw terminal (terminal block, barrier strip, connector strip): joins wires so they can be undone with a screwdriver
 - Insulation-displacement connector (IDC, ribbon-cable plug, punch-down, T-tap): taps or joins without stripping; small currents only
-- Cable gland and strain relief: stops a pull or bend on the cable from reaching the splice
+- Cable [gland](../glossary.md#gland) and strain relief: stops a pull or bend on the cable from reaching the splice
 - Clinching (press joining without rivets): the same idea of cold-forming metal into a lasting joint, but for sheet metal
 
 ## Make it yourself

@@ -133,9 +133,10 @@ sources:
 - https://commons.wikimedia.org/wiki/File:BarrierStrip.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Screw_terminal_terminal_block_barrier_strip_connector_strip.json
+glossary: [torque, pitch, form-fit--force-fit--material-bond, set-screw, creep, overhang--bridging]
 ---
 
-A screw terminal holds a stripped wire (or a crimped ring, fork or ferrule) by tightening a screw onto it, either under the screw head, under a clamping plate or with a set screw in a metal tube; it is the cheap, reusable way to land wires on boards, power supplies, barrier strips and connector strips and to undo them later with a screwdriver.
+A screw terminal holds a stripped wire (or a crimped ring, fork or ferrule) by tightening a screw onto it, either under the screw head, under a clamping plate or with a [set screw](../glossary.md#set-screw) in a metal tube; it is the cheap, reusable way to land wires on boards, power supplies, barrier strips and connector strips and to undo them later with a screwdriver.
 
 **In plain words:** A small metal clamp with a screw in it: you push a stripped wire into a hole or under a plate and tighten the screw to pinch it, and undo the screw to free it again; rows of them sit on circuit boards, power supplies and plastic connector strips. **Proper term:** Screw terminal (screw terminal block, barrier strip, connector strip).
 
@@ -143,7 +144,7 @@ A screw terminal holds a stripped wire (or a crimped ring, fork or ferrule) by t
 
 ## How it works
 
-Turning the screw drives it, or a plate it pushes, against the wire, squeezing the strands between metal surfaces so they touch over a large area; when properly tightened 'the connections are physically and electrically secure because they firmly contact a large section of wire' (Wikipedia 'Screw terminal'). There are three common layouts: the wire wrapped clockwise under the screw head, so tightening pulls it in; the wire slid between a clamping plate and the terminal body, so the screw presses the plate; or a set screw in the side of a metal tube, as in connector strips (Wikipedia 'Screw terminal'). The joint is only good while the screw stays tight: vibration, poor tightening or soft metal that slowly flows under pressure (creep) let it loosen, the resistance rises and the joint heats, which makes it loosen further (Wikipedia 'High resistance connection').
+Turning the screw drives it, or a plate it pushes, against the wire, squeezing the strands between metal surfaces so they touch over a large area; when properly tightened 'the connections are physically and electrically secure because they firmly contact a large section of wire' (Wikipedia 'Screw terminal'). There are three common layouts: the wire wrapped clockwise under the screw head, so tightening pulls it in; the wire slid between a clamping plate and the terminal body, so the screw presses the plate; or a set screw in the side of a metal tube, as in connector strips (Wikipedia 'Screw terminal'). The joint is only good while the screw stays tight: vibration, poor tightening or soft metal that slowly flows under pressure ([creep](../glossary.md#creep)) let it loosen, the resistance rises and the joint heats, which makes it loosen further (Wikipedia 'High resistance connection').
 
 ## Parts
 
@@ -174,7 +175,7 @@ Not where it vibrates or heats and cools a lot unless you can check it: screws l
 - **Special behaviour:**
   - none: it simply clamps. (Pluggable Euroblock versions add a plug, so a whole row of wires can be unplugged at once and 'quickly disconnected from or connected to the electronic device', Wikipedia 'Euroblock'.)
 - **How it holds:**
-  - friction or clamping (force-fit): the screw squeezes the wire against metal (Wikipedia 'Screw terminal')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the screw squeezes the wire against metal (Wikipedia 'Screw terminal')
   - shape (the parts interlock; form-fit): a crimped ring terminal round the screw can't slide off, while a fork can once the screw is loose; SparkFun: 'the ring terminal provides a more reliable connection', but 'you would need to completely remove the screw' to fit it (SparkFun 'Working with Wire'; Wikipedia 'Electrical connector')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
@@ -194,7 +195,7 @@ Not where it vibrates or heats and cools a lot unless you can check it: screws l
   - off-the-shelf part: PCB terminal blocks, barrier strips, connector strips and busbars are bought
   - 3D print (FDM): printed covers, mounts, strain-relief clamps and enclosures for bought terminals; simple printed hobby terminal blocks that use a metal screw, nut and washers also exist (Printables 308134, 164503)
 - **Printing it in one piece (print in place):** no: the metal parts carry the current; printed parts are separate housings, covers or clamps.
-- **Tools:** A screwdriver of the right type and size: 'a flat-blade screwdriver, a cross-blade screwdriver, hex key, Torx key, or other tool' (Wikipedia 'Screw terminal'), ideally a torque screwdriver set to the datasheet value (e.g. 0.5 N·m for small M3 PCB terminals, Same Sky); wire strippers; a ferrule crimper for stranded wire (Wikipedia; Hackaday 2018); a ring/fork terminal crimper for barrier strips (Wikipedia 'Electrical connector').
+- **Tools:** A screwdriver of the right type and size: 'a flat-blade screwdriver, a cross-blade screwdriver, hex key, Torx key, or other tool' (Wikipedia 'Screw terminal'), ideally a [torque](../glossary.md#torque) screwdriver set to the datasheet value (e.g. 0.5 N·m for small M3 PCB terminals, Same Sky); wire strippers; a ferrule crimper for stranded wire (Wikipedia; Hackaday 2018); a ring/fork terminal crimper for barrier strips (Wikipedia 'Electrical connector').
 - **Difficulty:** easy: needs only a screwdriver and wire strippers, but a lasting joint needs the right wire size, a ferrule on stranded wire and the right tightness.
 
 ### 3D printing tips
@@ -203,7 +204,7 @@ Not where it vibrates or heats and cools a lot unless you can check it: screws l
 
 ### Buying one (off-the-shelf parts)
 
-PCB screw terminal blocks in 2.54, 3.5, 5 and 10 mm pitch that clip together side by side for longer rows (SparkFun 'Connector Basics'; Same Sky TB001-500 'interlocking (side)'); pluggable terminal blocks (Euroblock, 'Phoenix connector') with plug and board header (Wikipedia 'Euroblock'); barrier strips used with crimped ring or spade terminals (Wikipedia 'Electrical connector'); connector strips (chocolate blocks) and connector-strip boxes such as Chocbox (brand) (Wikipedia); DIN-rail screw terminal blocks; busbars and earth bars (Wikipedia 'Screw terminal', 'Busbar'); wire-end ferrules and crimp ring/fork terminals; torque screwdrivers. Search terms: 'PCB terminal block 5 mm', 'barrier terminal strip', 'pluggable terminal block', 'connector strip', 'busbar terminal block'.
+PCB screw terminal blocks in 2.54, 3.5, 5 and 10 mm [pitch](../glossary.md#pitch) that clip together side by side for longer rows (SparkFun 'Connector Basics'; Same Sky TB001-500 'interlocking (side)'); pluggable terminal blocks (Euroblock, 'Phoenix connector') with plug and board header (Wikipedia 'Euroblock'); barrier strips used with crimped ring or spade terminals (Wikipedia 'Electrical connector'); connector strips (chocolate blocks) and connector-strip boxes such as Chocbox (brand) (Wikipedia); DIN-rail screw terminal blocks; busbars and earth bars (Wikipedia 'Screw terminal', 'Busbar'); wire-end ferrules and crimp ring/fork terminals; torque screwdrivers. Search terms: 'PCB terminal block 5 mm', 'barrier terminal strip', 'pluggable terminal block', 'connector strip', 'busbar terminal block'.
 
 ## Rules of thumb
 
@@ -221,7 +222,7 @@ Working loose from vibration or heat cycling, then overheating or melting (Wikip
 
 ## Safety
 
-LOOSE MEANS HOT: a loose or poorly made terminal heats up and can start a fire, and 'fuses and Residual Current Devices (RCDs) are unable to disconnect the electrical supply because they cannot detect a HRC' (Wikipedia 'High resistance connection'); Prusa warns that loose power connections 'pose a serious fire hazard' (Prusa CORE One heatbed guide), and Hackaday reports melted terminal blocks on DIY 3D printers from stranded wire jammed in without ferrules (Hackaday 2018). NEVER TIN wire ends before clamping: solder creeps and the joint loosens and heats (Wikipedia 'Screw terminal'). SCREWS LOOSEN WITH VIBRATION: check them, or choose spring terminals (Wikipedia; SparkFun). STRAY STRANDS can bridge to the next terminal and short it; ferrules prevent 'the bridging of terminals' (Wikipedia 'Screw terminal'). EXPOSED METAL: screw terminals are poorly protected against touch (Wikipedia 'Electrical connector'): cover them and switch off before touching. MAINS: this entry gives no mains wiring steps, and mains work must follow local law. In England, electrical installation work in homes must meet Part P of the Building Regulations and some of it must be notified (Approved Document P, 2013 edition). UK wiring rules (BS 7671 reg. 526.3) require 'Every connection shall be accessible for inspection, testing and maintenance' apart from listed exceptions, so screw connector strips must stay reachable, and the IET notes screw-terminal junction boxes 'can be used where they are accessible' (IET Wiring Matters, Spring 2012). In US workplaces OSHA requires terminals 'identified for the material of the conductor' and 'properly installed and used' (29 CFR 1910.303(c)(1)).
+LOOSE MEANS HOT: a loose or poorly made terminal heats up and can start a fire, and 'fuses and Residual Current Devices (RCDs) are unable to disconnect the electrical supply because they cannot detect a HRC' (Wikipedia 'High resistance connection'); Prusa warns that loose power connections 'pose a serious fire hazard' (Prusa CORE One heatbed guide), and Hackaday reports melted terminal blocks on DIY 3D printers from stranded wire jammed in without ferrules (Hackaday 2018). NEVER TIN wire ends before clamping: solder creeps and the joint loosens and heats (Wikipedia 'Screw terminal'). SCREWS LOOSEN WITH VIBRATION: check them, or choose spring terminals (Wikipedia; SparkFun). STRAY STRANDS can bridge to the next terminal and short it; ferrules prevent 'the [bridging](../glossary.md#overhang--bridging) of terminals' (Wikipedia 'Screw terminal'). EXPOSED METAL: screw terminals are poorly protected against touch (Wikipedia 'Electrical connector'): cover them and switch off before touching. MAINS: this entry gives no mains wiring steps, and mains work must follow local law. In England, electrical installation work in homes must meet Part P of the Building Regulations and some of it must be notified (Approved Document P, 2013 edition). UK wiring rules (BS 7671 reg. 526.3) require 'Every connection shall be accessible for inspection, testing and maintenance' apart from listed exceptions, so screw connector strips must stay reachable, and the IET notes screw-terminal junction boxes 'can be used where they are accessible' (IET Wiring Matters, Spring 2012). In US workplaces OSHA requires terminals 'identified for the material of the conductor' and 'properly installed and used' (29 CFR 1910.303(c)(1)).
 
 ## Related
 

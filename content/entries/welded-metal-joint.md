@@ -117,13 +117,15 @@ sources:
 - https://www.youtube.com/watch?v=5M9I_bBrnZ0
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Welded_metal_joint_fusion_welding_stick_MIG_TIG_and_gas_welding.json
+glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
+  warping--shrinkage, peel-vs-shear, regulator]
 ---
 
 Welding melts the edges of two metal parts, usually with extra filler metal from a wire or rod, using an electric arc or a gas flame, so the melted metal flows together and cools into one continuous piece: the strongest permanent way to join metal parts of the same or compatible metals.
 
 **In plain words:** Melting the edges of two metal parts together with a very hot electric spark or gas flame, usually adding a little extra metal, so they cool and set as one solid piece. **Proper term:** Welded metal joint (fusion welding: stick, MIG, TIG, flux-cored and gas welding).
 
-**Also called:** weld, weldment, fusion weld; arc welding; stick welding = shielded metal arc welding (SMAW) = manual metal arc (MMA or MMAW) welding (Wikipedia 'Welding'); MIG welding = gas metal arc welding (GMAW); 'MAG' when an active gas such as CO2 is used ⚑ [uncertain: MAG not on an opened page]; 'wire feed welding'; flux-cored arc welding (FCAW), 'gasless MIG', self-shielded flux-cored; 'dual shield' when gas is added (Wikipedia 'Welding'); TIG welding = gas tungsten arc welding (GTAW); 'Heliarc' (old name) (Wikipedia 'Gas tungsten arc welding'); gas welding = oxy-acetylene or oxy-fuel welding (Wikipedia 'Welding'); forge welding = fire welding (blacksmithing) (Wikipedia 'Forge welding'); tack weld (a small temporary weld that holds parts before the full weld) (TWI); butt weld, lap weld, corner weld, edge weld, T-joint or fillet weld, plug weld; bead, weld pool or puddle, heat-affected zone (HAZ).
+**Also called:** weld, weldment, fusion weld; arc welding; stick welding = shielded metal arc welding (SMAW) = manual metal arc (MMA or MMAW) welding (Wikipedia 'Welding'); MIG welding = gas metal arc welding (GMAW); 'MAG' when an active gas such as CO2 is used ⚑ [uncertain: MAG not on an opened page]; 'wire feed welding'; flux-cored arc welding (FCAW), 'gasless MIG', self-shielded flux-cored; 'dual shield' when gas is added (Wikipedia 'Welding'); TIG welding = gas tungsten arc welding (GTAW); 'Heliarc' (old name) (Wikipedia 'Gas tungsten arc welding'); gas welding = oxy-acetylene or oxy-fuel welding (Wikipedia 'Welding'); forge welding = fire welding (blacksmithing) (Wikipedia 'Forge welding'); tack weld (a small temporary weld that holds parts before the full weld) (TWI); butt weld, lap weld, corner weld, edge weld, T-joint or [fillet](../glossary.md#chamfer--fillet) weld, plug weld; bead, weld pool or puddle, heat-affected zone (HAZ).
 
 ## How it works
 
@@ -146,7 +148,7 @@ For strong, rigid, permanent joints in steel and other weldable metals: frames, 
 
 ## When not to use it
 
-When parts must come apart again: use bolts (Ordinary screw joint). For thin sheet that would burn through or warp, or for joining different metals: use brazing, blind rivets, clinching or adhesive. For aluminium to steel: not by ordinary welding; bolt or rivet them, with insulating washers to prevent galvanic corrosion (Wikipedia 'Washer (hardware)'). For plastics: use plastic welding entries. Near bearings, electronics, batteries, fuel, or on parts that have held flammable liquids (they can explode even when 'cleaned', Lincoln manual). On hardened or heat-treated parts such as shafts, springs and high-carbon steel: the heat-affected zone becomes weak or brittle and cracks (Wikipedia 'Welding'); to fix a hub to a motor shaft use a shaft-to-hub joint (key, D-flat, clamp hub) or a retaining compound instead. Indoors without fume extraction: HSE no longer accepts any welding without suitable exposure control.
+When parts must come apart again: use bolts (Ordinary screw joint). For thin sheet that would burn through or warp, or for joining different metals: use brazing, blind rivets, clinching or adhesive. For aluminium to steel: not by ordinary welding; bolt or rivet them, with insulating washers to prevent galvanic corrosion (Wikipedia 'Washer (hardware)'). For plastics: use plastic welding entries. Near bearings, electronics, batteries, fuel, or on parts that have held flammable liquids (they can explode even when 'cleaned', Lincoln manual). On hardened or heat-treated parts such as shafts, springs and high-carbon steel: the heat-affected zone becomes weak or [brittle](../glossary.md#brittle--ductile) and cracks (Wikipedia 'Welding'); to fix a hub to a motor shaft use a shaft-to-hub joint (key, D-flat, clamp hub) or a retaining compound instead. Indoors without fume extraction: HSE no longer accepts any welding without suitable exposure control.
 
 ## Details
 
@@ -156,11 +158,11 @@ When parts must come apart again: use bolts (Ordinary screw joint). For thin she
 - **Directions it can move (degrees of freedom):** 0: the parts become one piece.
 - **Special behaviour:**
   - none: it is a plain permanent joint
-- **How it holds:** material bond (glue, solvent or melting): the parts are melted together (metallic bond); forge welding bonds them by heat and hammering
+- **How it holds:** [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): the parts are melted together (metallic bond); forge welding bonds them by heat and hammering
 - **Input and output:** not applicable
 - **Power:** passive (no power needed) once made; making it needs a welding power supply (mains or generator) or a gas torch
-- **Load:** Heavy: a sound weld can be stronger than the metal around it and is strong in pull, shear and twist (Wikipedia 'Welding'). The weak spot is the heat-affected zone (HAZ) next to the bead, which 'is often weaker than both the base material and the fusion zone' and holds leftover (residual) stresses; under repeated loads (vibration, fatigue) cracks start at the edge of the bead, and grinding the weld flat improves fatigue life (Wikipedia 'Welding'). Tack welds are light-duty and only hold parts for final welding (TWI).
-- **Play and precision:** No play: the joint is rigid. Accuracy is limited by distortion: the weld shrinks as it cools and pulls parts out of line, more so with spread-out heat such as gas welding (Wikipedia 'Welding'). Clamps, jigs and tack welds placed in a planned order hold alignment and the joint gap and reduce distortion (TWI). Not suitable for parts that must keep machined accuracy unless re-machined after welding.
+- **Load:** Heavy: a sound weld can be stronger than the metal around it and is strong in pull, [shear](../glossary.md#peel-vs-shear) and twist (Wikipedia 'Welding'). The weak spot is the heat-affected zone (HAZ) next to the bead, which 'is often weaker than both the base material and the fusion zone' and holds leftover (residual) stresses; under repeated loads (vibration, [fatigue](../glossary.md#fatigue)) cracks start at the edge of the bead, and grinding the weld flat improves fatigue life (Wikipedia 'Welding'). Tack welds are light-duty and only hold parts for final welding (TWI).
+- **Play and precision:** No play: the joint is rigid. [Accuracy](../glossary.md#repeatability--accuracy) is limited by distortion: the weld shrinks as it cools and pulls parts out of line, more so with spread-out heat such as gas welding (Wikipedia 'Welding'). Clamps, jigs and tack welds placed in a planned order hold alignment and the joint gap and reduce distortion (TWI). Not suitable for parts that must keep machined accuracy unless re-machined after welding.
 - **Taking it apart:** permanent: can only be undone by cutting or grinding the weld out (small tack welds are easy to grind off and redo, TWI)
 - **How often it can be reused:** once
 - **Sealing:** airtight or pressure when the weld is continuous and sound: tanks, pipes and pressure vessels are made by welding (Wikipedia 'Welding'); porosity (gas holes) or gaps leak
@@ -175,7 +177,7 @@ When parts must come apart again: use bolts (Ordinary screw joint). For thin she
   - sheet metal (and steel tube and plate fabrication): the main use
   - off-the-shelf part (have it welded by a fabrication shop, or buy welded brackets and frames)
 - **Printing it in one piece (print in place):** no: welding joins metal; 3D-printed parts can only help as jigs, gauges and fixtures (and melt if they get near the arc)
-- **Tools:** A welder (MIG/flux-cored, stick or TIG machine, or an oxy-acetylene torch set); a gas cylinder and regulator for MIG, TIG and gas welding; a welding helmet with the right filter (auto-darkening is common), leather gloves and a flame-resistant jacket; clamps or welding magnets; an angle grinder and wire brush to clean and bevel the metal; a chipping hammer for slag (stick and flux-cored); a fire extinguisher; fume extraction indoors (Miller; Lincoln manual; HSE)
+- **Tools:** A welder (MIG/flux-cored, stick or TIG machine, or an oxy-acetylene torch set); a gas cylinder and [regulator](../glossary.md#regulator) for MIG, TIG and gas welding; a welding helmet with the right filter (auto-darkening is common), leather gloves and a flame-resistant jacket; clamps or welding magnets; an angle grinder and wire brush to clean and bevel the metal; a chipping hammer for slag (stick and flux-cored); a fire extinguisher; fume extraction indoors (Miller; Lincoln manual; HSE)
 - **Difficulty:** hard: needs a welder, protective gear, a safe place to work and practice; MIG is the easiest process to learn (Miller), but many makers have a local fabricator weld parts instead
 
 ### 3D printing tips
@@ -200,7 +202,7 @@ Search terms: 'MIG welder' or 'MIG/flux-core welder' (120 V or 230 V hobby units
 
 ## Common failures
 
-(1) Porosity (gas bubbles) from dirty, oily, rusty or painted metal, wind blowing the gas away, or a long arc: clean to bright metal and shield from drafts (Wikipedia 'Gas metal arc welding'); aluminium is especially prone because of its oxide skin, so wire-brush or chemically clean it. (2) Lack of fusion or incomplete penetration (a 'cold' bead sitting on top): too little current or too fast; follow the 1 A per 0.001 in guide (Miller) and prepare thick joints with a bevel. (3) Burn-through and holes on thin sheet: too much heat; use MIG or TIG, lower current, tack and stitch. (4) Distortion and warping as the weld shrinks: clamp, tack weld in a planned order, and alternate sides (TWI; Wikipedia). (5) Cracks, especially in the heat-affected zone of high-carbon steel or from excess hydrogen in the weld, sometimes appearing up to two days later: preheat and cool slowly (Wikipedia 'Welding'). (6) Undercut, slag inclusions and spatter (Wikipedia list of defects): chip slag between passes with stick and flux-cored. (7) Weak tack welds that tear when the part is moved (TWI). (8) Arcing damage where welding current returns through the wrong path, e.g. lifting chains or a machine's bearings: clamp the work lead next to the weld (Lincoln manual) ⚑ [uncertain: bearings are not named on the opened page]. (9) Running the welder past its duty cycle so it cuts out (Miller).
+(1) Porosity (gas bubbles) from dirty, oily, rusty or painted metal, wind blowing the gas away, or a long arc: clean to bright metal and shield from drafts (Wikipedia 'Gas metal arc welding'); aluminium is especially prone because of its oxide skin, so wire-brush or chemically clean it. (2) Lack of fusion or incomplete penetration (a 'cold' bead sitting on top): too little current or too fast; follow the 1 A per 0.001 in guide (Miller) and prepare thick joints with a bevel. (3) Burn-through and holes on thin sheet: too much heat; use MIG or TIG, lower current, tack and stitch. (4) Distortion and [warping](../glossary.md#warping--shrinkage) as the weld shrinks: clamp, tack weld in a planned order, and alternate sides (TWI; Wikipedia). (5) Cracks, especially in the heat-affected zone of high-carbon steel or from excess hydrogen in the weld, sometimes appearing up to two days later: preheat and cool slowly (Wikipedia 'Welding'). (6) [Undercut](../glossary.md#undercut), slag inclusions and spatter (Wikipedia list of defects): chip slag between passes with stick and flux-cored. (7) Weak tack welds that tear when the part is moved (TWI). (8) Arcing damage where welding current returns through the wrong path, e.g. lifting chains or a machine's bearings: clamp the work lead next to the weld (Lincoln manual) ⚑ [uncertain: bearings are not named on the opened page]. (9) Running the welder past its duty cycle so it cuts out (Miller).
 
 ## Safety
 
@@ -215,7 +217,7 @@ Major hazards: get training and read the machine's manual. ARC LIGHT: the arc gi
 - Blind rivet (pop rivet) and Clinching: cold, one-sided or press joints for sheet metal, including different metals
 - Ordinary screw joint (bolt and nut, machine screw): removable alternative for metal frames
 - Metal brackets and plates (angle bracket, mending plate): bolt-on alternative for frames
-- Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub): use instead of welding a hub to a motor shaft
+- Shaft-to-hub joints and rigid couplings (key, [set screw](../glossary.md#set-screw), D-flat, clamp hub): use instead of welding a hub to a motor shaft
 - Two-part epoxy and Epoxy putty: 'cold weld' products (e.g. JB Weld (brand)) that glue rather than weld; much weaker but need no welder
 
 ## Make it yourself

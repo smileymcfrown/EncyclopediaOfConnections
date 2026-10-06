@@ -123,13 +123,14 @@ sources:
 - https://www.printables.com/model/411004-compact-stevenson-screen
 - https://www.printables.com/model/1659930-86mm-x-86mm-splash-proof-switch-and-socket-box
 research: research/connection-types/results/Labyrinth_seal_baffle_seal.json
+glossary: [axial--radial, freewheel, clearance, lubrication, o-ring, gland]
 ---
 
 Two parts shaped so the gap between them doubles back on itself several times, so dust, grit and splashes run out of energy or drain away before they reach the inside, with no rubbing contact and nothing to wear out.
 
 **In plain words:** An overlapping, zig-zag gap between two parts, such as a lid whose skirt hangs down over a raised rim, or nested rings round a spinning shaft, that makes dust and splashes follow a long winding path so they can't get in, even though the parts never touch. **Proper term:** Labyrinth seal (non-contact seal).
 
-**Also called:** labyrinth seal, non-contact seal, gap seal, mini maze seal (GMN Bearing USA); bearing isolator (a labyrinth device fitted at a bearing housing in place of a lip seal; Machinery Lubrication); rotor and stator labyrinth; teeth on rotor (TOR) or teeth on stator (TOS) (Wikipedia 'Labyrinth seal'; Machinery Lubrication); lip-and-groove joint or tongue-and-groove joint (the static version between two halves of a plastic housing; RJC Mold); baffle seal, baffle vent or labyrinth vent (a winding air path that lets air through but slows water and dust) ⚑ [uncertain]; louvres (angled slats that let air through but keep out rain, as on a Stevenson screen; Wikipedia 'Stevenson screen'); overlapping lid skirt, drip lip or rain lip ⚑ [uncertain].
+**Also called:** labyrinth seal, non-contact seal, gap seal, mini maze seal (GMN Bearing USA); bearing isolator (a labyrinth device fitted at a bearing housing in place of a lip seal; Machinery [Lubrication](../glossary.md#lubrication)); rotor and stator labyrinth; teeth on rotor (TOR) or teeth on stator (TOS) (Wikipedia 'Labyrinth seal'; Machinery Lubrication); lip-and-groove joint or tongue-and-groove joint (the static version between two halves of a plastic housing; RJC Mold); baffle seal, baffle vent or labyrinth vent (a winding air path that lets air through but slows water and dust) ⚑ [uncertain]; louvres (angled slats that let air through but keep out rain, as on a Stevenson screen; Wikipedia 'Stevenson screen'); overlapping lid skirt, drip lip or rain lip ⚑ [uncertain].
 
 ## How it works
 
@@ -141,7 +142,7 @@ Two parts, no extra pieces: ribs, grooves, skirts or nested rings shaped into a 
 
 ## Everyday examples
 
-- The hubs of old Sturmey-Archer 3-speed bicycles and some freewheels and pedals, which stay clean and dry inside for decades with only labyrinth seals (Jobst Brandt)
+- The hubs of old Sturmey-Archer 3-speed bicycles and some [freewheels](../glossary.md#freewheel) and pedals, which stay clean and dry inside for decades with only labyrinth seals (Jobst Brandt)
 - The white slatted box (Stevenson screen) that holds a weather station's thermometer, keeping out rain and sun but letting air through (Wikipedia 'Stevenson screen')
 - The winding air channels moulded into the top of an inkjet ink tank, which let air in while slowing evaporation (Wikimedia Commons photo)
 - Steam turbine and gas turbine shafts, and bearing isolators on pumps and electric motors (Wikipedia; Wikimedia Commons; Machinery Lubrication)
@@ -152,7 +153,7 @@ Use a labyrinth when you want to keep dust, grit, rain and splashes out (or grea
 
 ## When not to use it
 
-Don't use a labyrinth alone for anything that will be submerged, hosed at close range, sealed against pressure or vacuum, or that holds a standing liquid (GMN); use an O-ring or gasket instead, perhaps behind a labyrinth. For an oil bath on a shaft, a contact lip seal or an O-ring is needed ⚑ [uncertain]. It is also a poor choice where the parts can't be kept from rubbing (loose or badly printed shafts), or where a vertical opening faces up into the rain.
+Don't use a labyrinth alone for anything that will be submerged, hosed at close range, sealed against pressure or vacuum, or that holds a standing liquid (GMN); use an [O-ring](../glossary.md#o-ring) or gasket instead, perhaps behind a labyrinth. For an oil bath on a shaft, a contact lip seal or an O-ring is needed ⚑ [uncertain]. It is also a poor choice where the parts can't be kept from rubbing (loose or badly printed shafts), or where a vertical opening faces up into the rain.
 
 ## Details
 
@@ -160,7 +161,7 @@ Don't use a labyrinth alone for anything that will be submerged, hosed at close 
   - seal it, or pass cables or fluid through: keeps dust, grit, rain and splashes out of a box, lid or bearing, and grease or oil in, without touching
   - line parts up exactly: a lip-and-groove version on a box also aligns the two halves (RJC Mold 'Lip and Groove Design')
 - **Movement:** none for a box or lid joint; rotate (unlimited, at any speed) for a shaft labyrinth, since the parts never touch; GMN's only speed limit is the seal lifting off the shaft at very high speed (GMN Bearing USA).
-- **Directions it can move (degrees of freedom):** 0 for a closed box. 1 on a shaft (it turns freely), but the labyrinth does not guide the shaft: bearings must hold it true, and it only tolerates end float and wobble smaller than its gap (about 0.5 mm axial and radial in GMN's plastic gap seals).
+- **Directions it can move (degrees of freedom):** 0 for a closed box. 1 on a shaft (it turns freely), but the labyrinth does not guide the shaft: bearings must hold it true, and it only tolerates end float and wobble smaller than its gap (about 0.5 mm [axial](../glossary.md#axial--radial) and radial in GMN's plastic gap seals).
 - **Special behaviour:**
   - none: it does none of the listed clever things; its special feature is that it seals without contact, so it has no friction, no power loss, no wear and effectively unlimited life (GMN Bearing USA; Machinery Lubrication)
 - **How it holds:**
@@ -168,7 +169,7 @@ Don't use a labyrinth alone for anything that will be submerged, hosed at close 
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** none: it carries no load and must not be used to locate or support the parts; a shaft labyrinth needs its own bearings.
-- **Play and precision:** The gap must stay open all the way round: GMN's plastic gap seals use about 0.5 mm axial and radial clearance, and machined bearing isolators can run with gaps as small as 0.003 in (76 micrometres) (GMN; Machinery Lubrication). Any wobble (run-out) or sag bigger than the gap makes the parts rub ⚑ [uncertain]. A gap that is too small acts like a capillary tube and can wick water in (Jobst Brandt). A lip-and-groove on a box also helps line the halves up (RJC Mold).
+- **Play and precision:** The gap must stay open all the way round: GMN's plastic gap seals use about 0.5 mm axial and radial [clearance](../glossary.md#clearance), and machined bearing isolators can run with gaps as small as 0.003 in (76 micrometres) (GMN; Machinery Lubrication). Any wobble (run-out) or sag bigger than the gap makes the parts rub ⚑ [uncertain]. A gap that is too small acts like a capillary tube and can wick water in (Jobst Brandt). A lip-and-groove on a box also helps line the halves up (RJC Mold).
 - **Taking it apart:** removable: it is simply the shape of the two parts, so it comes apart whenever they do; press-fitted shaft labyrinths come off with the shaft (GMN).
 - **How often it can be reused:** effectively unlimited: the parts never touch, so nothing wears (GMN 'unlimited life'; Machinery Lubrication). A grease-packed labyrinth needs repacking now and then because rotation slowly moves grease out (GMN).
 - **Sealing:** dust-resistant: keeps out dust, grit and splashing water, and drains rain if its openings face down (Jobst Brandt; GMN), but it is not watertight under water, against water jets aimed into the gap, or against any pressure difference (GMN; Wikipedia). Moulded ABS instrument boxes with a tongue-and-groove joint are sold with an IP54 rating (dust protected and splash-proof) (Bud Industries PI series listing; Wikipedia 'IP code') (whether those boxes rely on the joint alone is not stated) ⚑ [uncertain].
@@ -220,7 +221,7 @@ None known for the seal itself. A labyrinth-only box is not waterproof: don't re
 - O-ring seal: squeezed rubber ring; watertight and pressure-proof, but rubs if parts move and needs a bought ring
 - Gasket (flat, cord-in-groove or cast-in-place): squeezed soft seal for non-round lids; often combined with a labyrinth lip in front of it
 - Tongue-and-groove joint (incl. sliding-lid grooves): the joinery version of the same interlocking shape, used for alignment and strength rather than sealing
-- Cable gland and strain relief: seals cables through a wall, where a labyrinth can't
+- Cable [gland](../glossary.md#gland) and strain relief: seals cables through a wall, where a labyrinth can't
 - Slip ring and rotary union: carries power or fluid across a spinning joint; a rotary union needs contact seals because a labyrinth leaks under pressure
 - Breathable membrane vent: lets air in and out but blocks liquid water; a sealed alternative to a baffled vent (RJC Mold)
 - Tesla valve: another fixed winding channel with no moving parts, whose baffles and recesses let fluid flow easily one way but resist it the other way (Wikipedia 'Tesla valve'; listed under 'see also' on Wikipedia 'Labyrinth seal')

@@ -147,11 +147,13 @@ sources:
 - https://www.printables.com/model/1274025-print-in-place-draw-latch
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Draw_latch_overcentre_latch.json
+glossary: [misalignment, self-locking, over-centre, mechanical-advantage, linkage, preload, cantilever, tolerance, form-fit--force-fit--material-bond,
+  creep, layer-lines, perimeters, infill, print-in-place, peel-vs-shear, o-ring]
 ---
 
 A two-part latch in which a lever on one part carries a loop or hook that catches a keeper on the other part; closing the lever swings the loop's pivot past the line between the lever pivot and the keeper (over centre), pulling the parts tightly together and locking them there until the lever is lifted.
 
-**In plain words:** The lever catch on toolboxes and cases: hook the loop over a catch on the lid, press the lever down and it pulls the lid tight shut with a snap, and it stays shut until you lift the lever. **Proper term:** Draw latch (over-centre latch, toggle latch).
+**In plain words:** The lever catch on toolboxes and cases: hook the loop over a catch on the lid, press the lever down and it pulls the lid tight shut with a snap, and it stays shut until you lift the lever. **Proper term:** Draw latch ([over-centre](../glossary.md#over-centre) latch, toggle latch).
 
 **Also called:** toggle latch; over-centre latch / over-center latch; over-centre fastener; draw catch / toggle catch; spring claw latch; tension latch / pull latch; case latch / toolbox latch / box latch; latch clamp / latch-action (hook-type) toggle clamp (heavier versions); adjustable draw latch (with a threaded hook or rod); flexible draw latch / rubber T-handle latch; wire bail closure (Kilner-type jars and swing-top bottles); Bügelverschluss (German; also used for swing-top closures).
 
@@ -172,7 +174,7 @@ A few parts: a base plate fixed to one part, a lever (handle) pivoted on the bas
 
 ## When to use it
 
-Use a draw latch when a lid, door or panel must be pulled tightly closed and opened quickly by hand: cases and toolboxes, access panels and machine covers, boxes with a gasket that must be squeezed to keep water or dust out, and anything that rattles. It suits places where the catch is on a separate part from the latch, and where some misalignment must be pulled in. Choose a rubber (flexible) latch for quiet, corrosion-free, forgiving closure on coolers and lockers, and an adjustable or locking steel latch for higher loads or security (Boat Outfitters; Southco; RS).
+Use a draw latch when a lid, door or panel must be pulled tightly closed and opened quickly by hand: cases and toolboxes, access panels and machine covers, boxes with a gasket that must be squeezed to keep water or dust out, and anything that rattles. It suits places where the catch is on a separate part from the latch, and where some [misalignment](../glossary.md#misalignment) must be pulled in. Choose a rubber (flexible) latch for quiet, corrosion-free, forgiving closure on coolers and lockers, and an adjustable or locking steel latch for higher loads or security (Boat Outfitters; Southco; RS).
 
 ## When not to use it
 
@@ -184,26 +186,26 @@ Avoid it where the latch must be flush or hidden (use a concealed latch, quarter
   - join and hold: holds a lid, door, hatch or panel shut
   - lock, and release by hand: opens and closes with one flick of the lever; many take a padlock or have a secondary lock
   - tighten and hold tension: draws the two parts together and keeps them squeezed, removing rattle
-  - seal it, or pass cables or fluid through: only indirectly, by squeezing a lid onto a gasket or O-ring, which does the actual sealing (Southco)
+  - seal it, or pass cables or fluid through: only indirectly, by squeezing a lid onto a gasket or [O-ring](../glossary.md#o-ring), which does the actual sealing (Southco)
 - **Movement:** rotate: the lever and loop swing on pins through a limited arc (Firgelli gives roughly 90-180 degrees for the lever ⚑ [uncertain]); the joined parts are pulled together by only a small distance
 - **Directions it can move (degrees of freedom):** 1 while closing: the lever angle sets the position of the loop and the gap between the parts; effectively 0 once closed and locked over centre
 - **Special behaviour:**
   - over-centre (snaps past a point and stays): the loop's pivot passes the line between the lever pivot and the keeper and the latch snaps shut (RS: once past the cam point it 'will snap soundly into place and remain securely closed')
-  - self-locking (holds under load, won't back-drive): pulling the parts apart pushes the lever harder into its closed position
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): pulling the parts apart pushes the lever harder into its closed position
   - hand-release only (locks under load, releases when a person operates it): only lifting the lever opens it
   - quick-release: opens and closes by hand with no tools
-  - tensioning (takes up slack and holds): draws the parts together and holds a preload, which compresses gaskets and stops rattles (Southco)
+  - tensioning (takes up slack and holds): draws the parts together and holds a [preload](../glossary.md#preload), which compresses gaskets and stops rattles (Southco)
 - **How it holds:**
-  - shape (form-fit): the loop or hook physically hooks over the keeper
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the loop or hook physically hooks over the keeper
   - friction or clamping (force-fit): the over-centre lever holds the two parts pressed together with a preload
   - spring force (a spring or springy part presses it in place): flexible latches hold by the stretch of rubber, and the steel loops of rigid latches stretch very slightly
 - **Input and output:** not applicable: it is a fastening latch, not a drive. For reference, the lever multiplies hand force by roughly the handle length divided by the offset of the loop's pivot (the Firgelli blog's example: a 65 mm handle and 5 mm offset give about 13:1) ⚑ [uncertain]
 - **Power:** passive (no power needed)
-- **Load:** Light to heavy in tension (pulling the two parts together). For example, Southco's A1 adjustable draw latches are rated up to 1,550 N (350 lb), 3,110 N (700 lb) and 4,450 N (1,000 lb) for small, medium and large sizes; RS groups latches into light, medium and heavy duty. Weak sideways (shear) and against prying, so let hinges, lips or locating pins take sideways loads ⚑ [uncertain]. The keeper and its screws must be as strong as the latch (RS)
+- **Load:** Light to heavy in tension (pulling the two parts together). For example, Southco's A1 adjustable draw latches are rated up to 1,550 N (350 lb), 3,110 N (700 lb) and 4,450 N (1,000 lb) for small, medium and large sizes; RS groups latches into light, medium and heavy duty. Weak sideways ([shear](../glossary.md#peel-vs-shear)) and against prying, so let hinges, lips or locating pins take sideways loads ⚑ [uncertain]. The keeper and its screws must be as strong as the latch (RS)
 - **Play and precision:** No play once closed, because it is preloaded. It tolerates small misalignment, but the keeper position matters: set too far away, the lever can't pass centre; set too close, it closes loosely, and an over-adjusted latch can even end up exactly on centre, looking closed but unlocked (US patent 4,925,221). Rubber latches tolerate misalignment best (Boat Outfitters). Wikipedia notes a draw latch does not need to be fully closed to hold the two halves together
 - **Taking it apart:** tool-free quick release: it opens and closes by hand; the latch body and keeper are screwed, bolted or riveted on and can be removed with tools
-- **How often it can be reused:** many times: opening and closing is its normal use; metal latches last many thousands of cycles, while rubber straps age and printed plastic latches wear and creep sooner ⚑ [uncertain]
-- **Sealing:** none by itself. It is used to make a seal watertight or dust-resistant by pressing a lid onto a gasket or O-ring (Southco: draw latches give 'mechanical advantage to compress gaskets and ensure sealing'). Maker example: a printed rugged box with a TPU seal and tight printed latches survived 10 minutes under 10 cm of water with no leak (zx82net)
+- **How often it can be reused:** many times: opening and closing is its normal use; metal latches last many thousands of cycles, while rubber straps age and printed plastic latches wear and [creep](../glossary.md#creep) sooner ⚑ [uncertain]
+- **Sealing:** none by itself. It is used to make a seal watertight or dust-resistant by pressing a lid onto a gasket or O-ring (Southco: draw latches give '[mechanical advantage](../glossary.md#mechanical-advantage) to compress gaskets and ensure sealing'). Maker example: a printed rugged box with a TPU seal and tight printed latches survived 10 minutes under 10 cm of water with no leak (zx82net)
 - **Adjustable:** Yes on adjustable models: a threaded hook or rod changes the reach and the clamping force (Southco A1: grip range up to 144 mm and span adjustment up to 33 mm). Fixed models are adjusted by moving or shimming the keeper. Printed latches can be tuned by scaling the latch by about 2% in X and Y (zx82net)
 - **Access needed:** one side only (blind): both parts are fixed with screws or rivets from the outside and it is operated from outside; through-bolts need both sides
 - **Materials:** Stainless steel (corrosion-resistant, marine and industrial), zinc-plated steel or die-cast zinc (low cost), brass or chrome-plated brass (appearance, light to medium duty), acetal (RS); plastic bodies in polypropylene, nylon or glass-filled nylon, and rubber (Southco); EPDM rubber for flexible latches (HTF Hardware). Printed latches in PETG (preferred outdoors) or PLA, with steel screws or rod as pins
@@ -213,7 +215,7 @@ Avoid it where the latch must be flush or hidden (use a concealed latch, quarter
 
 - **Ways to make or get it:**
   - off-the-shelf part: the usual choice; many sizes and materials
-  - 3D print (FDM): print-in-place latches, or separate printed parts pinned with M3-M5 screws or steel rod
+  - 3D print (FDM): [print-in-place](../glossary.md#print-in-place) latches, or separate printed parts pinned with M3-M5 screws or steel rod
   - sheet metal: commercial latches are usually stamped steel parts ⚑ [uncertain]
 - **Printing it in one piece (print in place):** yes: ConceivablyEngineering's 'Sturdy print-in-place draw latch' prints already assembled with no supports and 0.2-0.3 mm gaps. Stronger printed latches are printed as separate parts joined with bolts or steel rod (TECbot, Glenn Brockett, the parametric Rugged Storage Box).
 - **Tools:** None to open or close. To fit: a drill and a screwdriver (screws or bolts) or a rivet tool; a spanner to set a threaded hook; optionally a padlock
@@ -221,7 +223,7 @@ Avoid it where the latch must be flush or hidden (use a concealed latch, quarter
 
 ### 3D printing tips
 
-1) Geometry: the loop's pivot must swing past the line from the lever pivot to the keeper, or the latch won't snap closed; mount the hook or keeper so this happens (TECbot: 'make sure the hook is mounted low enough that the loop passes the center pivot'). Add a stop on the lever so it can't over-travel. 2) Print-in-place: 0.2-0.3 mm gaps between moving parts, slight under-extrusion especially on the first layer so the joints free up, thick shells (1.2 mm) with infill of secondary importance; the latch can be fixed with up to four M3 screws or glued (ConceivablyEngineering). 3) Pins: bolts (M5 main pivot in TECbot's latch, with the nut pressed flush using a soldering iron) or steel rod (Glenn Brockett uses 2.2 mm welding rod; filament 'may work, not advised'). The Rugged Storage Box fixes each latch with two M3x40 screws that act as pins. 4) Strength and layers: 'You MUST have good layer adhesion or it will break' (Glenn Brockett). zx82net recommends at least 3 perimeters and over 30% infill for latches and hinges. 5) Material: PETG for outdoor or long-term use; zx82net found PLA latches work at first but can creep over time, loosening the latch and the seal; PLA softens above about 60 °C (Prusa). 6) Tuning: print two sizes and pick the tightness you like; scaling the latch by 2% in X and Y makes a significant difference (zx82net). Tight tolerances may need a little trimming (Glenn Brockett). 7) Sealing: for a watertight box, add a flexible seal (TPU gasket or a 1.75 mm TPU filament in a groove) for the latch to squeeze (zx82net; Rugged Storage Box). 8) Keep printed latches for boxes and light panels; they are 'not sturdy compared to non-printed, non-plastic latches' (ConceivablyEngineering).
+1) Geometry: the loop's pivot must swing past the line from the lever pivot to the keeper, or the latch won't snap closed; mount the hook or keeper so this happens (TECbot: 'make sure the hook is mounted low enough that the loop passes the center pivot'). Add a stop on the lever so it can't over-travel. 2) Print-in-place: 0.2-0.3 mm gaps between moving parts, slight under-extrusion especially on the first layer so the joints free up, thick shells (1.2 mm) with [infill](../glossary.md#infill) of secondary importance; the latch can be fixed with up to four M3 screws or glued (ConceivablyEngineering). 3) Pins: bolts (M5 main pivot in TECbot's latch, with the nut pressed flush using a soldering iron) or steel rod (Glenn Brockett uses 2.2 mm welding rod; filament 'may work, not advised'). The Rugged Storage Box fixes each latch with two M3x40 screws that act as pins. 4) Strength and layers: 'You MUST have good layer adhesion or it will break' (Glenn Brockett). zx82net recommends at least 3 [perimeters](../glossary.md#perimeters) and over 30% infill for latches and hinges. 5) Material: PETG for outdoor or long-term use; zx82net found PLA latches work at first but can creep over time, loosening the latch and the seal; PLA softens above about 60 °C (Prusa). 6) Tuning: print two sizes and pick the tightness you like; scaling the latch by 2% in X and Y makes a significant difference (zx82net). Tight [tolerances](../glossary.md#tolerance) may need a little trimming (Glenn Brockett). 7) Sealing: for a watertight box, add a flexible seal (TPU gasket or a 1.75 mm TPU filament in a groove) for the latch to squeeze (zx82net; Rugged Storage Box). 8) Keep printed latches for boxes and light panels; they are 'not sturdy compared to non-printed, non-plastic latches' (ConceivablyEngineering).
 
 ### Buying one (off-the-shelf parts)
 
@@ -238,7 +240,7 @@ Draw latches / toggle latches in fixed-grip, adjustable (threaded hook or U-bolt
 
 ## Common failures
 
-1) Won't close, or needs two hands: the keeper is too far away or the gasket too thick; move or shim the keeper, or use an adjustable latch. 2) Closes loosely or rattles: the keeper is too close or has moved (loose screws), or the loop has stretched; re-set the keeper, tighten screws, use an adjustable hook. 3) Pops open under vibration or knocks: it is only just past centre, or on centre; adjust so it clearly snaps over, and add a secondary catch if needed (US 4,925,221). 4) Keeper or its screws pull out before the latch fails: rate and fix the keeper as strongly as the latch (RS). 5) Printed latches break at the layer lines or creep loose; improve layer adhesion, use PETG and metal pins (Glenn Brockett; zx82net). 6) Rubber latches crack or lose tension with age and sunlight; replace them periodically ⚑ [uncertain].
+1) Won't close, or needs two hands: the keeper is too far away or the gasket too thick; move or shim the keeper, or use an adjustable latch. 2) Closes loosely or rattles: the keeper is too close or has moved (loose screws), or the loop has stretched; re-set the keeper, tighten screws, use an adjustable hook. 3) Pops open under vibration or knocks: it is only just past centre, or on centre; adjust so it clearly snaps over, and add a secondary catch if needed (US 4,925,221). 4) Keeper or its screws pull out before the latch fails: rate and fix the keeper as strongly as the latch (RS). 5) Printed latches break at the [layer lines](../glossary.md#layer-lines) or creep loose; improve layer adhesion, use PETG and metal pins (Glenn Brockett; zx82net). 6) Rubber latches crack or lose tension with age and sunlight; replace them periodically ⚑ [uncertain].
 
 ## Safety
 
@@ -246,11 +248,11 @@ Pinch point: fingers can be trapped between the lever and the base, or between t
 
 ## Related
 
-- Over-centre linkage (toggle linkage): the principle a draw latch is built on
+- Over-centre [linkage](../glossary.md#linkage) (toggle linkage): the principle a draw latch is built on
 - Toggle clamp (latch-action type): a heavy-duty draw latch, usually with a threaded U-bolt, for doors and lids and for fixtures
 - Eccentric cam lever: a cam that is flipped past its high point instead of a linkage; also used on some case latches
 - Cam lock (quarter-turn latch): turns a cam behind the frame with a key or knob; flush and more secure, but draws the parts together less
-- Snap fit (cantilever clip): a springy printed clip; simpler and cheaper, but gives little or no pull-down force
+- Snap fit ([cantilever](../glossary.md#cantilever) clip): a springy printed clip; simpler and cheaper, but gives little or no pull-down force
 - Magnetic catch or ball catch: holds a door lightly closed with no lever and no clamping force
 - Hasp and staple: a hinged strap that goes over a staple for a padlock; secures but does not pull the parts together
 

@@ -144,6 +144,7 @@ sources:
 - https://www.youtube.com/watch?v=-tUnrz53Srg
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=OI2Mg5BQ_mo&format=json
 research: research/connection-types/results/Guyline_slider_friction_line_tensioner.json
+glossary: [self-locking, mechanical-advantage, form-fit--force-fit--material-bond, chamfer--fillet, creep, infill]
 ---
 
 A small plate or block with holes (or a toothed groove) that a cord zig-zags through, so sliding it along the cord shortens or lengthens a loop, and the pull of the tight line makes it grip the cord by friction so the tension holds without a knot.
@@ -185,11 +186,11 @@ Avoid it for heavy or safety-critical loads, or anything that must not slip unde
 - **Directions it can move (degrees of freedom):** 1 while slack (the runner slides along the cord); effectively 0 once the line is loaded and the cord is jammed round the hole edges.
 - **Special behaviour:**
   - tensioning (takes up slack and holds): sliding it shortens the loop and it holds wherever you stop, with no knot to retie (Hilleberg; Litesmith on the Line-Lok)
-  - self-locking (holds under load, won't back-drive): the load itself presses the cord into the bends so it can't creep back (US 2,506,274)
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the load itself presses the cord into the bends so it can't [creep](../glossary.md#creep) back (US 2,506,274)
   - hand-release only (locks under load, releases when a person operates it): you straighten or twist the runner, or pull the two strands apart, to let it slide (Hilleberg; Litesmith on the Line-Lok; Lawson)
   - one-way (moves freely one way, locks the other): only loosely; pushing it up the line tightens, while the line's pull only locks it harder
 - **How it holds:**
-  - friction or clamping (force-fit): the cord is bent round the hole edges and pinched against the plate; friction at each bend adds up (capstan effect); toothed versions also bite the cord with small teeth
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the cord is bent round the hole edges and pinched against the plate; friction at each bend adds up (capstan effect); toothed versions also bite the cord with small teeth
 - **Input and output:** not applicable: it holds a cord rather than passing motion on (back-drivable: no while loaded; yes once you take the bends out by hand)
 - **Power:** passive (no power needed)
 - **Load:** Light: guy lines, tarp and awning lines. The cord usually sets the limit; Hilleberg's 2 mm guy line breaks at 60 kg (132 lb) and its 3 mm line at 85 kg (187 lb). The runner's own slipping load is not published and depends on the cord ⚑ [uncertain]. Strong only as a pull along the cord; it slips under jerks or with thin or slick cord (Backpacking Light, Hammock Forums), much as the adjustable grip hitch it copies will 'slip when shock loaded until tension is relieved' (Wikipedia).
@@ -217,7 +218,7 @@ Avoid it for heavy or safety-critical loads, or anything that must not slip unde
 
 ### 3D printing tips
 
-Print it lying flat, with the holes vertical, so the pull of the cord runs along the layers rather than trying to split them (FFF prints are 'stronger in one direction than another', Prusa). Size the holes to the cord: Lawson's machined runners use 3.2 mm (0.125 in) holes for 2-2.5 mm cord and 4.0 mm (0.156 in) holes for 3 mm cord, i.e. roughly 1.3-1.6 times the cord diameter; make a parametric model or print a few sizes and test on your actual cord (Vorpal's parametric FreeCAD model tested fine on ~4 mm 550 paracord and ~2 mm guyline). Smooth every edge the cord touches: Vorpal wet-sanded the outside with 180, 400 and 800 grit and ran a knife round the inside chamfer corners so the cord would not be damaged; chamfer the hole mouths rather than leaving sharp corners (Prusa notes chamfers print better than fillets on bed-facing edges). Use 100% infill for such a small, loaded part (Vorpal). Material: PETG or ASA for outdoor use; PLA 'gets soft and deforms at temperatures over 60 °C' and 'degrades under UV light', PETG suits outdoor use below 80 °C, and ASA resists UV and heat up to 93 °C (Prusa material pages). Typical failures: holes too big (cord slips under load), holes too small or edges too rough (cord won't slide, or frays), and a thin bridge between holes cracking in the cold ⚑ [uncertain].
+Print it lying flat, with the holes vertical, so the pull of the cord runs along the layers rather than trying to split them (FFF prints are 'stronger in one direction than another', Prusa). Size the holes to the cord: Lawson's machined runners use 3.2 mm (0.125 in) holes for 2-2.5 mm cord and 4.0 mm (0.156 in) holes for 3 mm cord, i.e. roughly 1.3-1.6 times the cord diameter; make a parametric model or print a few sizes and test on your actual cord (Vorpal's parametric FreeCAD model tested fine on ~4 mm 550 paracord and ~2 mm guyline). Smooth every edge the cord touches: Vorpal wet-sanded the outside with 180, 400 and 800 grit and ran a knife round the inside [chamfer](../glossary.md#chamfer--fillet) corners so the cord would not be damaged; chamfer the hole mouths rather than leaving sharp corners (Prusa notes chamfers print better than fillets on bed-facing edges). Use 100% [infill](../glossary.md#infill) for such a small, loaded part (Vorpal). Material: PETG or ASA for outdoor use; PLA 'gets soft and deforms at temperatures over 60 °C' and 'degrades under UV light', PETG suits outdoor use below 80 °C, and ASA resists UV and heat up to 93 °C (Prusa material pages). Typical failures: holes too big (cord slips under load), holes too small or edges too rough (cord won't slide, or frays), and a thin bridge between holes cracking in the cold ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -242,7 +243,7 @@ Few hazards. A runner that slips lets a tent or tarp sag or flap in wind, so don
 
 ## Related
 
-- Tensioning and adjustable hitches: the taut-line and adjustable grip hitches do the same job as a runner, sliding when slack and holding when loaded, with no hardware to lose, but they are slower to adjust and hard to make hold in slick modern fibres (Wikipedia); the trucker's and McCarthy hitches add a built-in pulley effect (mechanical advantage) for pulling a line much tighter, then are tied off with a slipped half hitch, but use more cord (Andrew Skurka)
+- Tensioning and adjustable hitches: the taut-line and adjustable grip hitches do the same job as a runner, sliding when slack and holding when loaded, with no hardware to lose, but they are slower to adjust and hard to make hold in slick modern fibres (Wikipedia); the trucker's and McCarthy hitches add a built-in pulley effect ([mechanical advantage](../glossary.md#mechanical-advantage)) for pulling a line much tighter, then are tied off with a slipped half hitch, but use more cord (Andrew Skurka)
 - Cord lock (spring toggle): a spring-loaded plunger pinches the cord; for drawstrings rather than tensioned lines
 - Clam cleat and cam cleat (including the Line-Lok's toothed groove): grooves or spring cams that grip rope harder under load, for thicker rope and frequent one-handed release
 - Ladder-lock buckle and tri-glide: the same slide-and-friction idea for flat webbing straps

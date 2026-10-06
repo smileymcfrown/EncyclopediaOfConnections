@@ -89,6 +89,7 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wedge_dowel_clickin_grooved_dowel.json
+glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, layer-lines, peel-vs-shear]
 ---
 
 A factory-fitted dowel with rings of grooves on one furniture part slides along a milled slot with slightly sloping grooves in the other part, so the sloping grooves wedge the parts together and lock them tight without screws, glue or tools, and the joint can be slid apart again.
@@ -117,7 +118,7 @@ Use a wedge dowel when parts must go together fast, with no tools and no visible
 
 ## When not to use it
 
-Avoid it for one-off hobby builds without a precise CNC machine; the fit depends on tiny groove angles and tight tolerances (IKEA Facts). Avoid it where parts are loaded very heavily or the wood will see big humidity swings; IKEA itself was looking for materials to cope with humidity (Digital Trends). For hand-made furniture use a knock-down cam lock or cross dowel, a tusk tenon or a sliding dovetail instead; for a tool-free, releasable joint without a CNC, commercial slide-in connectors (Lamello P-System) or a hanging French cleat are easier.
+Avoid it for one-off hobby builds without a precise CNC machine; the fit depends on tiny groove angles and tight [tolerances](../glossary.md#tolerance) (IKEA Facts). Avoid it where parts are loaded very heavily or the wood will see big humidity swings; IKEA itself was looking for materials to cope with humidity (Digital Trends). For hand-made furniture use a knock-down cam lock or cross dowel, a tusk tenon or a sliding dovetail instead; for a tool-free, releasable joint without a CNC, commercial slide-in connectors (Lamello P-System) or a hanging French cleat are easier.
 
 ## Details
 
@@ -134,11 +135,11 @@ Avoid it for one-off hobby builds without a precise CNC machine; the fit depends
   - quick-release: in the sense of tool-free assembly and disassembly; no screws or tools are needed (IKEA Facts), although the LISABO table adds a small plastic lock tightened with an Allen key (Consumer Reports)
   - a 'click' or distinct end position confirms that the joint is fully home (US 9,447,804 B2; Design Museum)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the rings of grooves on the dowel sit in the grooves of the slot, so the joint can't be pulled straight apart
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the rings of grooves on the dowel sit in the grooves of the slot, so the joint can't be pulled straight apart
   - friction or clamping (force-fit): the sloping grooves wedge the parts together and compress the softer grooves, locking the joint (US 9,447,804 B2)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** Medium: furniture loads such as cabinets, shelving units, chests of drawers and tables (IKEA Facts). Strong against pulling apart (the grooves interlock) and against sideways shear (the dowel bears in the slot). Consumer Reports judged a wedge-dowel LISABO table sturdy in an informal check. A woodworker on Sawmill Creek (forum opinion) considers it weaker than a traditional tapered tenon, since the strength depends on the base of the dowel pair and the contact area of the grooves ⚑ [uncertain].
+- **Load:** Medium: furniture loads such as cabinets, shelving units, chests of drawers and tables (IKEA Facts). Strong against pulling apart (the grooves interlock) and against sideways [shear](../glossary.md#peel-vs-shear) (the dowel bears in the slot). Consumer Reports judged a wedge-dowel LISABO table sturdy in an informal check. A woodworker on Sawmill Creek (forum opinion) considers it weaker than a traditional tapered tenon, since the strength depends on the base of the dowel pair and the contact area of the grooves ⚑ [uncertain].
 - **Play and precision:** None when fully home: the wedge action pulls the parts together and closes any gap (US 9,447,804 B2). It needs very tight manufacturing: IKEA had to 'adapt the production to tolerance levels that were around 2.5 times lower than previously' and added optical monitoring (IKEA Facts). The entry opening is made 'somewhat larger than the outer dimension of the male part' to make insertion easy (US 9,447,804 B2). Returns to the same position every time.
 - **Taking it apart:** tool-free quick release for most versions: slide or twist the part back towards the wide end of the slot to separate it without damage (US 9,447,804 B2; IKEA Facts: 'making screws and tools unnecessary'). The LISABO table's extra plastic locking piece needs an Allen key (Consumer Reports).
 - **How often it can be reused:** many times, as designed (Consumer Reports: the legs are 'less likely to get wobbly if you need to disassemble the table and reassemble'); but the joint relies on slightly crushing the softer grooves, so grip may fall after many cycles, especially in fibreboard ⚑ [uncertain].
@@ -146,7 +147,7 @@ Avoid it for one-off hobby builds without a precise CNC machine; the fit depends
 - **Adjustable:** no: the end position is fixed by the milled slot.
 - **Access needed:** one side only (blind): the dowel and slot are hidden inside the joint and nothing is reached from the back; you only need room to slide or twist one part by the length of the slot (US 9,447,804 B2).
 - **Materials:** Dowels of wood or plastic (IKEA Museum; IKEA Facts). Used in machine-made furniture panels and solid wood, e.g. the LISABO table with an ash-veneer top and solid birch legs (IKEA Museum). The patent requires the grooved material of the slot to be 'softer than the material of the grooves ... of the male part' so it can compress (US 9,447,804 B2). In 2017 IKEA said the dowels only worked with its wooden furniture and it was looking for materials that cope with humidity (Digital Trends, citing Fast Company).
-- **Heat, cold, water and wear:** Wood expands and shrinks with moisture, which changes the wedge fit; IKEA noted the problem of humidity in markets like India and China and that at the time the dowels only worked with its wooden furniture (Digital Trends, citing Fast Company). Particleboard and fibreboard grooves may crush permanently if overloaded or wet ⚑ [uncertain]. Printed plastic versions creep under constant load ⚑ [uncertain].
+- **Heat, cold, water and wear:** Wood expands and shrinks with moisture, which changes the wedge fit; IKEA noted the problem of humidity in markets like India and China and that at the time the dowels only worked with its wooden furniture (Digital Trends, citing Fast Company). Particleboard and fibreboard grooves may crush permanently if overloaded or wet ⚑ [uncertain]. Printed plastic versions [creep](../glossary.md#creep) under constant load ⚑ [uncertain].
 
 ## Making it
 
@@ -160,7 +161,7 @@ Avoid it for one-off hobby builds without a precise CNC machine; the fit depends
 
 ### 3D printing tips
 
-Experimental; no tested maker guide was found. Ideas from the patent: 1) Make the slot's grooves slope about 2 degrees along the slot (0.5-5 degrees works; too little leaves a gap, too much makes it hard to slide), and make the slot longer if you want a smaller angle (US 9,447,804 B2). 2) Give the groove sides about 90 degrees between them (US 9,447,804 B2). 3) Make the slot's grooves in a softer material than the dowel's, e.g. a printed PLA or PETG dowel into wood, or a stiff printed dowel into a softer printed part ⚑ [uncertain]. 4) Make the entry end of the slot a little wider than the dowel and taper it towards the end position (US 9,447,804 B2). Printing advice: FDM interlocking joints normally need about 0.5 mm clearance (Hubs), which is coarse compared with the tiny wedge action here, so print test pieces with small changes in groove size ⚑ [uncertain]. A dowel printed standing up has its rings made of stacked layers, which may shear off along layer lines when pulled; printing it lying down, or with a flat side, may be stronger ⚑ [uncertain]. Plastics creep, so the wedge grip in a printed joint may slowly relax (a Printables designer notes PLA creeps under load) ⚑ [uncertain]. A replacement IKEA HAUGA wedge dowel exists on Printables for when one is missing.
+Experimental; no tested maker guide was found. Ideas from the patent: 1) Make the slot's grooves slope about 2 degrees along the slot (0.5-5 degrees works; too little leaves a gap, too much makes it hard to slide), and make the slot longer if you want a smaller angle (US 9,447,804 B2). 2) Give the groove sides about 90 degrees between them (US 9,447,804 B2). 3) Make the slot's grooves in a softer material than the dowel's, e.g. a printed PLA or PETG dowel into wood, or a stiff printed dowel into a softer printed part ⚑ [uncertain]. 4) Make the entry end of the slot a little wider than the dowel and [taper](../glossary.md#taper) it towards the end position (US 9,447,804 B2). Printing advice: FDM interlocking joints normally need about 0.5 mm [clearance](../glossary.md#clearance) (Hubs), which is coarse compared with the tiny wedge action here, so print test pieces with small changes in groove size ⚑ [uncertain]. A dowel printed standing up has its rings made of stacked layers, which may shear off along [layer lines](../glossary.md#layer-lines) when pulled; printing it lying down, or with a flat side, may be stronger ⚑ [uncertain]. Plastics creep, so the wedge grip in a printed joint may slowly relax (a Printables designer notes PLA creeps under load) ⚑ [uncertain]. A replacement IKEA HAUGA wedge dowel exists on Printables for when one is missing.
 
 ### Buying one (off-the-shelf parts)
 
@@ -189,7 +190,7 @@ None known specific to the joint. As with all flat-pack furniture, tall units sh
 - Lever-cam panel connector (self-clamping click connector): a hidden fitting in a milled slot, locked by a key or clicking shut by itself
 - Sliding dovetail: a flared tongue sliding in a matching groove; the wedge dowel adds sloping grooves so it tightens as it slides
 - Mortise and tenon (incl. wedged, drawbored and tusk tenons): the traditional wedge-locked joint
-- Self-locking wedge (wedge clamp, taper key): the wedge principle on its own
+- [Self-locking](../glossary.md#self-locking) wedge (wedge clamp, taper key): the wedge principle on its own
 - Hang-on mounts (keyhole slot, French cleat): other slide-to-lock mounts with no tools
 - Crush ribs and spring-fit features: ribs that deform slightly to give a tight press fit, like the compressed grooves here
 - Plain dowel joint and 'wedged dowel' (a dowel spread by a driven wedge): glued, permanent relatives with similar names

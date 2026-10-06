@@ -132,6 +132,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Gestickte_Textile_Sensorfl%C3%A4chen.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_thread_sewn_circuit_etextile_stitching.json
+glossary: [form-fit--force-fit--material-bond, layer-lines, infill]
 ---
 
 Conductive thread is sewing thread made from stainless-steel fibres or silver-plated filaments that is stitched through the holes (sew tabs) of sewable boards, LEDs and battery holders, so the tight loops make the electrical contacts and the lines of stitching act as bare wires across the fabric.
@@ -172,7 +173,7 @@ For more than about 100 mA, such as motors, heaters (unless heating is the aim),
 - **Special behaviour:**
   - none for plain stitching
   - quick-release: when sewable snaps are used as connectors, a board can be snapped off before machine washing or moved to another project (Adafruit 'Flora Snaps')
-- **How it holds:** shape (the parts interlock; form-fit): loops pass through the sew-tab holes and are tied off; friction or clamping (force-fit): snug loops press the thread onto the pads; material bond: knots are sealed with nail polish or Fray Check, and parts are often tacked to the fabric with a dot of hot glue or fabric glue before sewing (Adafruit; SparkFun)
+- **How it holds:** shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): loops pass through the sew-tab holes and are tied off; friction or clamping (force-fit): snug loops press the thread onto the pads; material bond: knots are sealed with nail polish or Fray Check, and parts are often tacked to the fabric with a dot of hot glue or fabric glue before sewing (Adafruit; SparkFun)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed): the thread only carries the battery's current
 - **Load:** Electrical: signal only (small loads: Adafruit's 2-ply stainless thread is for parts using 'under ~50mA' and its 3-ply for 'under ~100mA'; typical loads are LEDs, sensors and small sewable boards) (Adafruit 'Conductive Thread'); extra-low voltage only: coin-cell projects 'shouldn't burn or shock you... but higher voltage projects or power sources could be dangerous' (SparkFun). Mechanical: light; the thread itself is strong in a straight pull (one silver-plated thread breaks at about 4.2 kg, Wiltronics), but the loops at sew tabs loosen if the project moves and the thread pulls away from the tab (SparkFun).
@@ -197,7 +198,7 @@ For more than about 100 mA, such as motors, heaters (unless heating is the aim),
 
 ### 3D printing tips
 
-Printed sew-on parts need holes big enough for a medium needle and several passes of thread, like the large plated sew tabs on bought boards (Adafruit; SparkFun), and rounded edges so they don't snag fabric or cut thread (SparkFun on the LilyPad shape); see the Sew-on part entry for hole design. Example settings from published models: a sewable button cover printed in PETG at 100% infill (Printables 372865); a sewable cover for a LilyPad slide switch at 0.1 mm layers and 100% infill (Printables 372868); a sewable coin-cell holder that must be printed in a flexible filament or the cell can't be pushed in, best printed standing on edge at 45° to the bed, 100% infill, no supports, with a flanged version that is sewn through its own material (Printables 199828, 199827). Keep conductive stitching from rubbing on sharp printed edges or layer lines, which can fray it ⚑ [uncertain]. Tack printed parts and boards to the fabric with a small dot of hot glue first, without blocking the sew holes (SparkFun).
+Printed sew-on parts need holes big enough for a medium needle and several passes of thread, like the large plated sew tabs on bought boards (Adafruit; SparkFun), and rounded edges so they don't snag fabric or cut thread (SparkFun on the LilyPad shape); see the Sew-on part entry for hole design. Example settings from published models: a sewable button cover printed in PETG at 100% [infill](../glossary.md#infill) (Printables 372865); a sewable cover for a LilyPad slide switch at 0.1 mm layers and 100% infill (Printables 372868); a sewable coin-cell holder that must be printed in a flexible filament or the cell can't be pushed in, best printed standing on edge at 45° to the bed, 100% infill, no supports, with a flanged version that is sewn through its own material (Printables 199828, 199827). Keep conductive stitching from rubbing on sharp printed edges or [layer lines](../glossary.md#layer-lines), which can fray it ⚑ [uncertain]. Tack printed parts and boards to the fabric with a small dot of hot glue first, without blocking the sew holes (SparkFun).
 
 ### Buying one (off-the-shelf parts)
 

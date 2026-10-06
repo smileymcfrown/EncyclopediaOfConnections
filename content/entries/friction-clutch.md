@@ -126,6 +126,8 @@ sources:
 - https://api.printables.com/graphql/
 - https://api.sketchfab.com/v3/models/08a6044f319440abbc99dc61e6fa2801
 research: research/connection-types/results/Friction_clutch_plate_or_cone_clutch.json
+glossary: [misalignment, backlash, back-driving, axial--radial, sprag, torque, idler, linkage, hysteresis, tolerance, form-fit--force-fit--material-bond,
+  spline, circlip, creep]
 ---
 
 A clutch that connects a driving shaft to a driven shaft by pressing friction surfaces together and disconnects it by pulling them apart, and that can slip in between so the drive takes up gently.
@@ -136,11 +138,11 @@ A clutch that connects a driving shaft to a driven shaft by pressing friction su
 
 ## How it works
 
-A spring presses the friction surfaces together, and the friction between them lets the driving part turn the driven part (Wikipedia 'Clutch'). To disconnect, a lever or pedal pushes the spring back so the surfaces part and the driven shaft can stop while the input keeps turning. While the surfaces are only lightly pressed, they slip, so the driven part is brought up to speed gradually instead of with a bang; the energy lost in slipping becomes heat (Plant Engineering). The torque it can carry depends on the clamping force, the grip of the lining (friction coefficient), the size of the rubbing ring and the number of rubbing faces; a cone clutch wedges its cone into a cup so the same spring force gives more grip (RoyMech 'Cone Clutch').
+A spring presses the friction surfaces together, and the friction between them lets the driving part turn the driven part (Wikipedia 'Clutch'). To disconnect, a lever or pedal pushes the spring back so the surfaces part and the driven shaft can stop while the input keeps turning. While the surfaces are only lightly pressed, they slip, so the driven part is brought up to speed gradually instead of with a bang; the energy lost in slipping becomes heat (Plant Engineering). The [torque](../glossary.md#torque) it can carry depends on the clamping force, the grip of the lining (friction coefficient), the size of the rubbing ring and the number of rubbing faces; a cone clutch wedges its cone into a cup so the same spring force gives more grip (RoyMech 'Cone Clutch').
 
 ## Parts
 
-A small assembly that acts as one unit: a driving member (a flywheel, plate, cup or basket on the input shaft), one or more friction discs or a cone that can slide along the other shaft on splines, friction linings, a spring (coil springs or a diaphragm spring) that squeezes them together, and a release mechanism (lever, pedal, cable or hydraulics, fork and release bearing) that pushes the spring back to separate them.
+A small assembly that acts as one unit: a driving member (a flywheel, plate, cup or basket on the input shaft), one or more friction discs or a cone that can slide along the other shaft on [splines](../glossary.md#spline), friction linings, a spring (coil springs or a diaphragm spring) that squeezes them together, and a release mechanism (lever, pedal, cable or hydraulics, fork and release bearing) that pushes the spring back to separate them.
 
 ## Everyday examples
 
@@ -151,11 +153,11 @@ A small assembly that acts as one unit: a driving member (a flywheel, plate, cup
 
 ## When to use it
 
-Use it when you need to connect and disconnect a drive while the motor keeps running, and the pick-up must be smooth rather than a bang: starting a heavy or high-inertia load from a running motor or engine, a winch or conveyor that must start gently, a vehicle or robot drive with a manual disconnect, a mechanism you want to be able to turn by hand without back-driving the motor, or a hand-set mechanism (like a clock's hands or a sewing machine's handwheel) that must be able to slip. It also gives built-in overload protection, since it slips rather than breaks when overloaded.
+Use it when you need to connect and disconnect a drive while the motor keeps running, and the pick-up must be smooth rather than a bang: starting a heavy or high-inertia load from a running motor or engine, a winch or conveyor that must start gently, a vehicle or robot drive with a manual disconnect, a mechanism you want to be able to turn by hand without [back-driving](../glossary.md#back-driving) the motor, or a hand-set mechanism (like a clock's hands or a sewing machine's handwheel) that must be able to slip. It also gives built-in overload protection, since it slips rather than breaks when overloaded.
 
 ## When not to use it
 
-Avoid it when the drive must never slip or must keep an exact angle between input and output (use a dog clutch, which locks by shape, or a solid coupling). If you only need overload protection and never switch it off, a friction slip clutch or ball-detent torque limiter is simpler. If it should engage automatically as a motor speeds up, use a centrifugal clutch; if it should drive one way only, use a sprag, roller or wrap-spring clutch. If it must switch by electrical signal, buy an electromagnetic clutch. For heavy, frequent or long slipping, a small printed clutch will overheat and wear; use a wet (oil-bathed) clutch or a fluid coupling instead (Plant Engineering; Wikipedia).
+Avoid it when the drive must never slip or must keep an exact angle between input and output (use a dog clutch, which locks by shape, or a solid coupling). If you only need overload protection and never switch it off, a friction slip clutch or ball-detent torque limiter is simpler. If it should engage automatically as a motor speeds up, use a centrifugal clutch; if it should drive one way only, use a [sprag](../glossary.md#sprag), roller or wrap-spring clutch. If it must switch by electrical signal, buy an electromagnetic clutch. For heavy, frequent or long slipping, a small printed clutch will overheat and wear; use a wet (oil-bathed) clutch or a fluid coupling instead (Plant Engineering; Wikipedia).
 
 ## Details
 
@@ -165,24 +167,24 @@ Avoid it when the drive must never slip or must keep an exact angle between inpu
   - change speed or turning force: lets a running motor pick up a stopped load smoothly, and in vehicles lets the gearbox be shifted (Wikipedia)
   - hold or release using power: electromagnetic, hydraulic and pneumatic versions engage or release on a signal (Plant Engineering)
 - **Movement:** rotate+slide: both sides rotate continuously; to engage or disengage, one friction member slides a short distance along its shaft (a few millimetres in most clutches ⚑ [uncertain])
-- **Directions it can move (degrees of freedom):** Engaged and not slipping: 0 between input and output (they turn as one). Disengaged: 1 (the two sides turn independently, like a plain bearing, per Slocum). While slipping: 1, with a friction drag between the sides. The sliding member also has 1 short axial movement for engaging.
+- **Directions it can move (degrees of freedom):** Engaged and not slipping: 0 between input and output (they turn as one). Disengaged: 1 (the two sides turn independently, like a plain bearing, per Slocum). While slipping: 1, with a friction drag between the sides. The sliding member also has 1 short [axial](../glossary.md#axial--radial) movement for engaging.
 - **Special behaviour:**
   - quick-release: the drive can be disconnected instantly with a lever, pedal or knob, with no tools, even while the motor runs (Wikipedia)
   - torque-limiting (slips or clicks at a set force/torque): if the load torque is more than the clutch's clamp force can carry, it slips smoothly, which protects gears; the slip torque is set by the spring force and can be adjusted with a screw (Slocum)
 - **How it holds:**
-  - friction or clamping (force-fit): turning force passes only by friction between the pressed surfaces
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): turning force passes only by friction between the pressed surfaces
   - spring force (a spring or springy part presses it in place): coil springs, a diaphragm spring or a leaf-spring washer supply the clamping force (Wikipedia; Sailrite)
 - **Input and output:** Rotation in -> the same rotation out (1:1) when fully engaged; no output when disengaged; while slipping, the output turns slower than the input with torque limited to the clutch's capacity. Shafts in line on one axis. When fully engaged a dry clutch loses almost nothing ⚑ [uncertain: no figure found]; wet clutches lose some energy to the oil (Wikipedia). During every engagement the heat produced equals the energy given to the load (Plant Engineering). Back-drivable: yes when engaged; it passes torque in both directions and either shaft can drive.
 - **Power:** passive (no power needed) for hand, lever, pedal or cable operated clutches. Powered versions exist: electric clutches engaged by an electromagnet and released by springs, or hydraulic and pneumatic ones; an electrically engaged clutch releases when power is lost, while a normally-engaged spring clutch stays engaged when its release power is lost (Plant Engineering; Slocum on normally engaged and normally disengaged clutches)
 - **Load:** Medium to heavy in twist, set by the design: slip torque = number of rubbing faces x friction coefficient x clamping force x mean radius of the rubbing ring (Mustansiriyah lecture; RoyMech). Above that torque it slips rather than breaks. The spring's clamping force pushes along the shafts, so the shafts and bearings must carry that thrust and the release force (bearing close to the clutch and well aligned, per the Mustansiriyah lecture). Hand-operated clutches are limited to fairly small sizes because a person can only apply about 75 lb (about 330 N) (Plant Engineering).
-- **Play and precision:** Not a position-holding device: because it can slip, it does not keep a fixed angle between input and output. If the disc slides on a spline there is backlash, so for precise drives Slocum recommends mounting the friction plate on a flexible diaphragm instead. Misalignment tolerance: low; shafts and bearings must be well aligned and the plates must sit flat, or the clutch drags and chatters (Mustansiriyah lecture; Apex Tech Nation on warped discs).
+- **Play and precision:** Not a position-holding device: because it can slip, it does not keep a fixed angle between input and output. If the disc slides on a spline there is [backlash](../glossary.md#backlash), so for precise drives Slocum recommends mounting the friction plate on a flexible diaphragm instead. [Misalignment](../glossary.md#misalignment) [tolerance](../glossary.md#tolerance): low; shafts and bearings must be well aligned and the plates must sit flat, or the clutch drags and chatters (Mustansiriyah lecture; Apex Tech Nation on warped discs).
 - **Taking it apart:** tool-free quick release: the drive is connected and disconnected by hand with no tools; taking the clutch itself apart needs ordinary tools
 - **How often it can be reused:** effectively unlimited: it is made to be engaged and disengaged over and over; the friction linings wear with slipping and are replaced from time to time (Wikipedia; Apex Tech Nation)
 - **Sealing:** none: dry clutches are open inside a cover (a car's bellhousing), and wet clutches run inside the sealed, oil-filled engine or gearbox case (Wikipedia); the clutch itself does not seal anything
 - **Adjustable:** yes: the slip torque can be adjusted by changing the spring pressure, often with a screw or nut (Slocum); cable-operated vehicle clutches also need their free play adjusted, and the pedal must return fully or the clutch slips (Apex Tech Nation)
 - **Access needed:** end of a tube or shaft: the clutch fits on the ends of two in-line shafts; in use, only the lever, pedal, cable or knob needs to be reached
 - **Materials:** Linings: organic resin with copper wire, or ceramic, in car clutches (Wikipedia); older and simple clutches used cork, leather, felt or wood against cast iron or steel (RoyMech friction materials table); wet clutches often use paper-based composites (Wikipedia, citation needed). Plates and cones: steel or cast iron. Springs: steel coil springs, a diaphragm (Belleville-type) spring or a leaf-spring washer. Asbestos linings were once common and are no longer acceptable (RoyMech; US EPA). Maker versions: printed PETG, nylon or PLA plates and cones, ideally with a glued-on cork, rubber or leather facing and a metal spring ⚑ [uncertain: not tested].
-- **Heat, cold, water and wear:** Heat is the main limit: every engagement turns energy into heat (Plant Engineering), and each lining has a maximum temperature, e.g. cork and leather about 100 °C, felt about 140 °C (RoyMech). Oil, grease or hydraulic fluid on the faces causes slipping and chatter (Apex Tech Nation), and oil or water lowers friction (RoyMech table). Clamping springs lose force with heat cycling and age (Apex Tech Nation on diaphragm springs; Sailrite on flattened spring washers). Printed parts: PLA softens above about 60 °C and PETG is rated to about 80 °C (Prusa); plastic parts under constant spring load may creep and lose clamp force over time ⚑ [uncertain].
+- **Heat, cold, water and wear:** Heat is the main limit: every engagement turns energy into heat (Plant Engineering), and each lining has a maximum temperature, e.g. cork and leather about 100 °C, felt about 140 °C (RoyMech). Oil, grease or hydraulic fluid on the faces causes slipping and chatter (Apex Tech Nation), and oil or water lowers friction (RoyMech table). Clamping springs lose force with heat cycling and age (Apex Tech Nation on diaphragm springs; Sailrite on flattened spring washers). Printed parts: PLA softens above about 60 °C and PETG is rated to about 80 °C (Prusa); plastic parts under constant spring load may [creep](../glossary.md#creep) and lose clamp force over time ⚑ [uncertain].
 
 ## Making it
 
@@ -193,7 +195,7 @@ Avoid it when the drive must never slip or must keep an exact angle between inpu
   - laser cut: ⚑ [uncertain] flat plates and cork or rubber facing discs
   - off-the-shelf part: vehicle clutch discs, pressure plates and release bearings; motorcycle and RC friction plates; industrial and electromagnetic clutches (McMaster-Carr lists 'Clutches' and 'Clutch/Brakes'); Belleville (disc) springs and wave springs for clamping
 - **Printing it in one piece (print in place):** no: the friction members must be free to separate and need a separate spring, so the parts are printed apart and assembled
-- **Tools:** None to operate. To build or service: spanners and hex keys, circlip pliers, and for vehicle clutches a clutch alignment (centring) tool to line up the disc with the flywheel (makers print these; several are on Printables). Old clutch dust may contain asbestos, so wet-wipe rather than blow or brush it (US EPA).
+- **Tools:** None to operate. To build or service: spanners and hex keys, [circlip](../glossary.md#circlip) pliers, and for vehicle clutches a clutch alignment (centring) tool to line up the disc with the flywheel (makers print these; several are on Printables). Old clutch dust may contain asbestos, so wet-wipe rather than blow or brush it (US EPA).
 - **Difficulty:** moderate: the friction parts are simple discs or cones, but a clutch that engages smoothly and reliably also needs a spring, a sliding member on a spline or hex, a release lever with a thrust bearing, good alignment, and a facing that grips consistently
 
 ### 3D printing tips
@@ -219,7 +221,7 @@ Search for: 'friction clutch', 'plate clutch', 'disc clutch', 'multi-disc clutch
 
 ## Common failures
 
-1) Slipping: worn linings, oil contamination, a weak spring or a lever or pedal that does not fully return (Apex Tech Nation); replace linings and springs, fix leaks, adjust the linkage. 2) Chatter or judder while engaging: oil or grease on the faces, glazed or heat-spotted surfaces from long slipping, or broken damper springs (Apex Tech Nation); avoid 'riding' the clutch. 3) Drag (won't fully release): warped disc, air in hydraulics or worn cylinders, seized pilot bearing (Apex Tech Nation), or a misaligned printed assembly. 4) Clamping force fading as sprung washers flatten, so owners over-tighten the knob until it won't release (Sailrite sewing-machine clutch). 5) Printed clutches: plastic faces that slip under high load or can't be lubricated elsewhere (Printables squeeze-fan clutch), PLA parts softening or deforming from slip heat (Prusa), and parts that bind because of tight tolerances (Printables clock friction clutch needs a calibrated PETG profile).
+1) Slipping: worn linings, oil contamination, a weak spring or a lever or pedal that does not fully return (Apex Tech Nation); replace linings and springs, fix leaks, adjust the [linkage](../glossary.md#linkage). 2) Chatter or judder while engaging: oil or grease on the faces, glazed or heat-spotted surfaces from long slipping, or broken damper springs (Apex Tech Nation); avoid 'riding' the clutch. 3) Drag (won't fully release): warped disc, air in hydraulics or worn cylinders, seized pilot bearing (Apex Tech Nation), or a misaligned printed assembly. 4) Clamping force fading as sprung washers flatten, so owners over-tighten the knob until it won't release (Sailrite sewing-machine clutch). 5) Printed clutches: plastic faces that slip under high load or can't be lubricated elsewhere (Printables squeeze-fan clutch), PLA parts softening or deforming from slip heat (Prusa), and parts that bind because of tight tolerances (Printables clock friction clutch needs a calibrated PETG profile).
 
 ## Safety
 
@@ -231,12 +233,12 @@ Old clutch linings may contain asbestos and you cannot tell by looking; don't bl
 - Friction slip clutch (slip coupling): the same friction discs, always engaged and set to slip only when overloaded, not switched on and off
 - Centrifugal clutch: friction shoes thrown outward by speed engage it automatically as the motor speeds up (Wikipedia)
 - Electromagnetic clutch and clutch/brake: friction or magnetic engagement switched by electricity (Plant Engineering; Wikipedia)
-- Belt clutch: an idler pulley tightens a slack belt to engage drive, as on lawn mowers and snow blowers (Wikipedia; Thang 'Belt clutch 1a')
+- Belt clutch: an [idler](../glossary.md#idler) pulley tightens a slack belt to engage drive, as on lawn mowers and snow blowers (Wikipedia; Thang 'Belt clutch 1a')
 - Expanding-shoe or expanding-bush clutch: a wedge expands a sleeve against the inside of a drum (Thang 'Friction clutch 5')
 - Wrap-spring clutch: a coil spring grips the shaft in one direction; also used as a single-revolution clutch (Wikipedia)
 - Synchromesh (synchroniser): a small cone clutch that matches speeds before a dog clutch engages (Wikipedia)
 - Fluid coupling and torque converter: pass drive through oil with smooth slip and no wear (Wikipedia)
-- Magnetic particle, eddy-current and hysteresis clutches: slip smoothly by magnetism, with controllable torque (Plant Engineering)
+- Magnetic particle, eddy-current and [hysteresis](../glossary.md#hysteresis) clutches: slip smoothly by magnetism, with controllable torque (Plant Engineering)
 - Disc brake: the same friction parts, but holding against a fixed frame instead of connecting two shafts
 
 ## Make it yourself

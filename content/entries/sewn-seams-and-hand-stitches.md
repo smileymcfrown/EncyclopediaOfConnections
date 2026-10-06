@@ -152,6 +152,7 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 208733 'Sewing Machine Seam Guide', 1194803, 25814, 799176, 1296154,
   1086487, 1224263 'Stitching Pony for Leather', 651335; pages not opened)
 research: research/connection-types/results/Sewn_seams_and_hand_stitches_lockstitch_saddle_stitch_flatfelled_seam.json
+glossary: [form-fit--force-fit--material-bond, spline, repeatability--accuracy, peel-vs-shear]
 ---
 
 Two pieces of fabric or leather are held together by a line of thread stitched through both, by machine (usually a lockstitch) or by hand (running, back or saddle stitch), with the cut edges folded in, wrapped or overstitched so they can't fray.
@@ -162,7 +163,7 @@ Two pieces of fabric or leather are held together by a line of thread stitched t
 
 ## How it works
 
-Thread passes through both layers again and again, so the layers can't slide apart without breaking or pulling out many stitches: they interlock (a form-fit). A machine lockstitch uses two threads, one from the needle and one from a bobbin underneath, which 'lock' (entwine) together inside the hole in the fabric, ideally in the middle of its thickness (Wikipedia 'Lockstitch'). A hand saddle stitch uses one thread with a needle at each end, sewn through the same line of holes from both sides, so if one side breaks only that side loosens (Wikipedia 'Saddle stitch'). The seam type decides where the raw cut edges go: a plain seam leaves them inside and needs a seam finish; French and flat-felled seams fold them inside the seam so they are fully enclosed (Wikipedia 'Seam (sewing)'). The needle holes still let water through, so seams in waterproof fabric are sealed with a liquid sealer or a heat-applied tape (Six Moon Designs; Extremtextil).
+Thread passes through both layers again and again, so the layers can't slide apart without breaking or pulling out many stitches: they interlock (a [form-fit](../glossary.md#form-fit--force-fit--material-bond)). A machine lockstitch uses two threads, one from the needle and one from a bobbin underneath, which 'lock' (entwine) together inside the hole in the fabric, ideally in the middle of its thickness (Wikipedia 'Lockstitch'). A hand saddle stitch uses one thread with a needle at each end, sewn through the same line of holes from both sides, so if one side breaks only that side loosens (Wikipedia 'Saddle stitch'). The seam type decides where the raw cut edges go: a plain seam leaves them inside and needs a seam finish; French and flat-felled seams fold them inside the seam so they are fully enclosed (Wikipedia 'Seam (sewing)'). The needle holes still let water through, so seams in waterproof fabric are sealed with a liquid sealer or a heat-applied tape (Six Moon Designs; Extremtextil).
 
 ## Parts
 
@@ -181,7 +182,7 @@ Whenever you join fabric, leather or webbing and want the join to stay soft and 
 
 ## When not to use it
 
-Not for anything that holds a person (harnesses, climbing slings, swings): use rated, professionally made gear; the FAA describes a harness that failed because cotton thread was used instead of the required nylon (FAA Parachute Rigger Handbook, p. 5-19). Not for heavy load in straps by plain seams: use a load-bearing stitch pattern (see that entry). Not for welded fabrics: plastic film and coated fabrics that must be fully airtight or watertight are better heat-sealed (see 'Heat-sealed seam'). Not directly into rigid 3D prints: use sewing holes or loops ('Sew-on part') or print onto the fabric. Where no sewing is wanted, iron-on fusible web or a flexible fabric glue can join fabric, though they can peel or stiffen (see those entries). Avoid a chain stitch where a broken thread must not unravel the seam (Wikipedia 'Chain stitch'). Avoid nylon thread for anything that lives in the sun (Sailrite).
+Not for anything that holds a person (harnesses, climbing slings, swings): use rated, professionally made gear; the FAA describes a harness that failed because cotton thread was used instead of the required nylon (FAA Parachute Rigger Handbook, p. 5-19). Not for heavy load in straps by plain seams: use a load-bearing stitch pattern (see that entry). Not for welded fabrics: plastic film and coated fabrics that must be fully airtight or watertight are better heat-sealed (see 'Heat-sealed seam'). Not directly into rigid 3D prints: use sewing holes or loops ('Sew-on part') or print onto the fabric. Where no sewing is wanted, iron-on fusible web or a flexible fabric glue can join fabric, though they can [peel](../glossary.md#peel-vs-shear) or stiffen (see those entries). Avoid a chain stitch where a broken thread must not unravel the seam (Wikipedia 'Chain stitch'). Avoid nylon thread for anything that lives in the sun (Sailrite).
 
 ## Details
 
@@ -199,7 +200,7 @@ Not for anything that holds a person (harnesses, climbing slings, swings): use r
 - **Input and output:** not applicable: a seam joins fabric and passes no motion on
 - **Power:** passive (no power needed). A sewing machine needs power only while sewing.
 - **Load:** Medium. A well-designed seam can be stronger than the fabric: for parachute canopies 'The strength of the seam needs to be greater than the strength of the fabric' (FAA Parachute Rigger Handbook, p. 2-25). It is strongest when pulled along the fabric (the stitches share the load in shear) and weakest at a single point: concentrated pulls make seams in slippery fabric 'pull apart under heavy strain' (Extremtextil). Thread strengths, side by side: the FAA lists V-T-295 nylon thread as E 8.5 lb, FF 16 lb, 3-cord 24 lb and 5-cord 40 lb (p. 3-14), but in its harness-failure example (p. 5-19) gives '45 pounds for 5-cord nylon', against about 10 lb for the cotton thread wrongly used. For dense load-bearing joints in straps, see 'Load-bearing stitch patterns'. Never use a home-sewn seam to hold a person.
-- **Play and precision:** not applicable for motion, but accuracy matters: a consistent seam allowance and pressing before the final stitching give a consistent finished seam (Wikipedia 'Seam (sewing)'); thread tension should place the lock in the middle of the material (Wikipedia 'Lockstitch').
+- **Play and precision:** not applicable for motion, but [accuracy](../glossary.md#repeatability--accuracy) matters: a consistent seam allowance and pressing before the final stitching give a consistent finished seam (Wikipedia 'Seam (sewing)'); thread tension should place the lock in the middle of the material (Wikipedia 'Lockstitch').
 - **Taking it apart:** semi-permanent: stitches can be picked out with a seam ripper (FAA Parachute Rigger Handbook lists it among the rigger's tools), but the needle holes stay in the fabric or leather; a sealed or taped seam is effectively permanent.
 - **How often it can be reused:** a few times: a seam can be unpicked and resewn, but each time leaves more holes and the thread is replaced
 - **Sealing:** none for an ordinary seam: the needle holes leak. French and flat-felled seams give 'enhanced' water resistance (Ripstop by the Roll), cotton-wrapped (corespun) thread swells when wet to help close the holes (Extremtextil), and the seam becomes watertight only when it is sealed with a compatible liquid sealer or seam tape (Six Moon Designs; Gear Aid).
@@ -258,7 +259,7 @@ Sharp tools: needles, awls, pricking irons struck with a mallet, knives and rota
 - Lacing (cord through rows of holes or eyelets): a cord through holes that can be undone and re-tightened, unlike a sewn seam
 - Conductive thread (sewn circuit, e-textile stitching): stitching that carries electric current
 - Cord lock (spring toggle): holds the drawstring that runs in a sewn casing
-- Bead-in-groove fabric edge (keder, boltrope, screen spline): a sewn-in or welded bead that slides into a track
+- Bead-in-groove fabric edge (keder, boltrope, screen [spline](../glossary.md#spline)): a sewn-in or welded bead that slides into a track
 - Printing onto fabric (fabric embedded in a 3D print): joins plastic to fabric without sewing
 - Rope-end finishing (whipping, heat-sealing, back splice, aglet): melting or hemming the end of a strap or tape to stop fraying
 

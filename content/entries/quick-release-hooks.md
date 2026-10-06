@@ -138,6 +138,8 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Quickrelease_hooks_pelican_hook_threering_release.json
+glossary: [axial--radial, over-centre, mechanical-advantage, actuator, solenoid, fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond,
+  layer-lines, perimeters, infill]
 ---
 
 A hinged hook, jaw or stack of rings that carries a big load through its strong parts while a small latch (a sliding ring, spring pin, trigger or cord loop) keeps it shut, so a small, deliberate pull on the latch releases the load instantly.
@@ -148,7 +150,7 @@ A hinged hook, jaw or stack of rings that carries a big load through its strong 
 
 ## How it works
 
-The load is carried by the strong hinged part (tongue, jaw or ring) and the body, not by the latch; the latch only has to stop the hinged part swinging open. Because the hinge acts as a lever, the latch feels only a fraction of the load, so a small push or pull frees it. On a pelican hook the ring slides over the tip of the tongue; when the ring is knocked or slid off, the tongue flies open (Practical Boat Owner, 'Senhouse slip'; Wikipedia). On a snap shackle 'a piston and spring arrangement ... latches the hinged shackle closed' (Practical Sailor); pulling the lanyard draws the piston back and the jaw swings open. In a three-ring release each ring passes through the next larger one and folds back, so each ring acts as a lever on the next and 'multiplies the mechanical advantage'; the smallest ring is held by a cord loop, the loop by a thin cable, and pulling the cable out makes the whole stack 'cascade free' (Wikipedia). Well-designed releases make the release force nearly independent of the load: Pope's patent routes axial loads through 'heavy axial jaws and not ... directly to the locking pin' (US 4,613,180), and Tylaska's shapes the latch contact as a logarithmic spiral so the release force stays the same whatever the tension (US 5,195,223).
+The load is carried by the strong hinged part (tongue, jaw or ring) and the body, not by the latch; the latch only has to stop the hinged part swinging open. Because the hinge acts as a lever, the latch feels only a fraction of the load, so a small push or pull frees it. On a pelican hook the ring slides over the tip of the tongue; when the ring is knocked or slid off, the tongue flies open (Practical Boat Owner, 'Senhouse slip'; Wikipedia). On a snap shackle 'a piston and spring arrangement ... latches the hinged shackle closed' (Practical Sailor); pulling the lanyard draws the piston back and the jaw swings open. In a three-ring release each ring passes through the next larger one and folds back, so each ring acts as a lever on the next and 'multiplies the [mechanical advantage](../glossary.md#mechanical-advantage)'; the smallest ring is held by a cord loop, the loop by a thin cable, and pulling the cable out makes the whole stack 'cascade free' (Wikipedia). Well-designed releases make the release force nearly independent of the load: Pope's patent routes [axial](../glossary.md#axial--radial) loads through 'heavy axial jaws and not ... directly to the locking pin' (US 4,613,180), and Tylaska's shapes the latch contact as a logarithmic spiral so the release force stays the same whatever the tension (US 5,195,223).
 
 ## Parts
 
@@ -174,22 +176,22 @@ Avoid it where an accidental release would be dangerous and a person could bump,
 - **What it does (jobs):**
   - lock, and release by hand: holds a heavy load and lets it go when a person pulls a pin, ring, lanyard or cable
   - join and hold: connects a rope, chain or strap to an eye, ring or harness
-  - hold or release using power: some versions are released by a servo or actuator, e.g. drone payload drops and RC glider tow hooks (Printables models)
+  - hold or release using power: some versions are released by a servo or [actuator](../glossary.md#actuator), e.g. drone payload drops and RC glider tow hooks (Printables models)
 - **Movement:** rotate: once the latch is freed, the hinged tongue or jaw swings open on its pivot (or the rings unfold) and the load pulls itself out; while latched nothing moves ⚑ [uncertain: opening angles are not published]
 - **Directions it can move (degrees of freedom):** 0 while latched (a swivel eye, where fitted, adds free turning about the pull line); after release the jaw or tongue has 1 (it swings on its hinge) and the load is free.
 - **Special behaviour:**
   - quick-release: one pull on a pin, ring, lanyard or cable frees the load instantly, even under full tension (pelican hooks and trigger shackles are 'capable of being released under load', Sea-Dog, Ronstan)
   - hand-release only (locks under load, releases when a person operates it): it cannot open by itself under a straight pull; someone must operate the latch, sometimes from a distance through a lanyard or cable
-  - fail-safe or breakaway: some variants release automatically, e.g. Tost glider centre-of-gravity releases open at 'a defined cable angle' during winch launches, and Tylaska's patent describes a version that works as a reusable 'weak link' at a set tension (US 5,195,223)
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: some variants release automatically, e.g. Tost glider centre-of-gravity releases open at 'a defined cable angle' during winch launches, and Tylaska's patent describes a version that works as a reusable 'weak link' at a set tension (US 5,195,223)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): a closed hook, jaw or interlocked rings surround the ring, chain link or strap
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): a closed hook, jaw or interlocked rings surround the ring, chain link or strap
   - spring force (a spring or springy part presses it in place): snap shackles and panic snaps keep their latch closed with a spring
   - friction or clamping (force-fit): in the three-ring release the webbing wrapped round each ring adds friction that helps the rings share the load ⚑ [uncertain: not stated by the sources]
-  - powered hold: servo or solenoid releases hold the latch with an actuator
+  - powered hold: servo or [solenoid](../glossary.md#solenoid) releases hold the latch with an actuator
 - **Input and output:** not applicable: it holds and releases a load rather than passing motion on (the latch is a lever that reduces the load it sees: 'Each ring in the series multiplies the mechanical advantage', Wikipedia on the 3-ring release)
 - **Power:** passive (no power needed) for pelican hooks, snap shackles, three-ring releases and panic snaps. Powered versions exist (servo-actuated drone payload releases and RC glider tow releases, electrically released helicopter cargo hooks); a servo release generally keeps its last state if power is lost ⚑ [uncertain]
 - **Load:** Medium to very heavy, and strongest as a straight pull. Examples: a 70 mm Wichard HR snap shackle has a working load of 880 kg and a breaking load of 1,500 kg; the Tylaska T12 trigger shackle is rated for a '6,000-pound safe working load' (Practical Sailor); pelican hook chain stoppers range from 10 to 100 tonnes safe working load (Beaver Engineering); Tost glider releases take 14.1 kN of cable force. Weak points: side and twisting loads on snap shackles (Wikipedia 'Shackle': 'not as secure as any other form of shackle'), and anything that knocks or depresses the latch.
-- **Play and precision:** not applicable: it doesn't locate parts. Snap shackles and panic snaps usually have a swivel eye so the load can turn freely; a three-ring release depends on close tolerances in the riser webbing, and poorly made ones lose their mechanical advantage (Wikipedia)
+- **Play and precision:** not applicable: it doesn't locate parts. Snap shackles and panic snaps usually have a swivel eye so the load can turn freely; a three-ring release depends on close [tolerances](../glossary.md#tolerance) in the riser webbing, and poorly made ones lose their mechanical advantage (Wikipedia)
 - **Taking it apart:** tool-free quick release: a pull on a ring, pin, lanyard or handle; large chain-stopper pelican hooks are knocked open with a maul (sledgehammer), and loaded trigger shackles are opened with a fid or release spike
 - **How often it can be reused:** many times: it is reset by closing the jaw and refitting the ring, pin or loop. Three-ring releases need the rings, loop and cable re-rigged and checked each time (Wikipedia); lifeboat hooks need careful resetting (Safety4sea); a printed PLA cargo hook cracked from the shock of one heavily loaded release (firstgizmo, Printables).
 - **Sealing:** none: nothing makes it seal
@@ -212,7 +214,7 @@ Avoid it where an accidental release would be dangerous and a person could bump,
 
 ### 3D printing tips
 
-Design so the load runs through the body and hinge, not through the latch pin: that is what keeps the release force small and constant (Pope, US 4,613,180; Tylaska, US 5,195,223). Print loaded parts on their side so the layers run along the direction of pull: Jackson's printable snap shackle says 'Print all components on their side for strongest layer orientation' and uses 100% infill for the hinge pin and gate pin; Doormat_1 warns that a pin printed standing up 'can break apart along the layer lines' and suggests replacing it with M6 threaded rod. Use metal where you can: a steel hinge bolt, a compression spring on the gate pin (Doormat_1 used an 11 mm OD, 8 mm ID, 25 mm spring) and a split ring for the pull. Expect the release itself to be the hardest moment: firstgizmo's PLA cargo hook held about 50 kg of bricks for 15 minutes, but 'the violent release of tension cracked the hooks main body', so use more perimeters or a tougher material (PETG, nylon) and keep people clear of the load path. Supports are usually needed inside tubes and pockets (Doormat_1). PLA softens above about 60 °C and degrades in UV; use PETG or ASA outdoors (Prusa).
+Design so the load runs through the body and hinge, not through the latch pin: that is what keeps the release force small and constant (Pope, US 4,613,180; Tylaska, US 5,195,223). Print loaded parts on their side so the layers run along the direction of pull: Jackson's printable snap shackle says 'Print all components on their side for strongest layer orientation' and uses 100% [infill](../glossary.md#infill) for the hinge pin and gate pin; Doormat_1 warns that a pin printed standing up 'can break apart along the [layer lines](../glossary.md#layer-lines)' and suggests replacing it with M6 threaded rod. Use metal where you can: a steel hinge bolt, a compression spring on the gate pin (Doormat_1 used an 11 mm OD, 8 mm ID, 25 mm spring) and a split ring for the pull. Expect the release itself to be the hardest moment: firstgizmo's PLA cargo hook held about 50 kg of bricks for 15 minutes, but 'the violent release of tension cracked the hooks main body', so use more [perimeters](../glossary.md#perimeters) or a tougher material (PETG, nylon) and keep people clear of the load path. Supports are usually needed inside tubes and pockets (Doormat_1). PLA softens above about 60 °C and degrades in UV; use PETG or ASA outdoors (Prusa).
 
 ### Buying one (off-the-shelf parts)
 
@@ -245,7 +247,7 @@ Stored energy: a line or chain under load leaps free when released, and 'leads o
 - Rope splices: include the soft shackle, a rope loop closed by a knot; it and the toggle and becket are rope versions that can be undone by hand, usually without load
 - Cam cleat and clam cleat: let a rope run free with one flick, but only for loads a person can hold
 - Shear-pin coupling (breakaway link): lets go automatically at a set overload instead of on command
-- Draw latch (over-centre latch): a lever that snaps shut and flips open, for lids and panels rather than rope loads
+- Draw latch ([over-centre](../glossary.md#over-centre) latch): a lever that snaps shut and flips open, for lids and panels rather than rope loads
 - Electropermanent magnet and solenoid latches: powered releases with no moving hook
 - Capewell release: the older parachute riser release that Bill Booth's three-ring system largely replaced (Wikipedia, 'Cut-away' and 'Bill Booth')
 

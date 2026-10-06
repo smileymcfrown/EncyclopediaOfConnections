@@ -161,6 +161,7 @@ sources:
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
 - https://en.wikipedia.org/wiki/Flexible_flat_cable
 research: research/connection-types/results/Slip_ring_and_rotary_union.json
+glossary: [torque, clearance, fatigue, o-ring, gland]
 ---
 
 A slip ring passes electric power and signals from a stationary part to a continuously rotating one through springy contacts (brushes) rubbing on rings, and a rotary union does the same for liquids, air or vacuum through seals between a fixed housing and a turning shaft, so the rotating part can turn forever without its cables or hoses winding up.
@@ -175,7 +176,7 @@ In a slip ring each circuit has its own continuous metal ring on the turning par
 
 ## Parts
 
-A small assembly that acts as one unit. Slip ring: a rotor carrying a stack of insulated metal rings (e.g. brass, gold-plated), a stator carrying one spring-loaded brush or wire contact per ring, bearings, a housing, and colour-coded lead wires on each side (Wikipedia; Hackaday teardown article; Adafruit). Rotary union: a housing with inlet port(s), a shaft with passages, one or more bearings, and one or more seals (face seals, lip seals or O-rings) (Wikipedia, Rotary union). Combined units stack slip rings, fluid passages and fibre optic joints in one body (Moog; Wikipedia).
+A small assembly that acts as one unit. Slip ring: a rotor carrying a stack of insulated metal rings (e.g. brass, gold-plated), a stator carrying one spring-loaded brush or wire contact per ring, bearings, a housing, and colour-coded lead wires on each side (Wikipedia; Hackaday teardown article; Adafruit). Rotary union: a housing with inlet port(s), a shaft with passages, one or more bearings, and one or more seals (face seals, lip seals or [O-rings](../glossary.md#o-ring)) (Wikipedia, Rotary union). Combined units stack slip rings, fluid passages and fibre optic joints in one body (Moog; Wikipedia).
 
 ## Everyday examples
 
@@ -187,7 +188,7 @@ A small assembly that acts as one unit. Slip ring: a rotor carrying a stack of i
 
 ## When to use it
 
-Use a slip ring when something must keep turning the same way while powered or sending signals: robot turrets and spinning lidar heads, camera motion-control rigs, motorised turntables with lights, spinning clocks and displays, cable reels that stay connected while unwinding (Hackaday; Adafruit; Printables 950300). Use a rotary union when a liquid, air or vacuum has to reach a turning part: car-wash brushes and spinners, coolant or air through a machine-tool spindle, rotary index tables and chucks, swivelling hose connectors (Wikipedia, Rotary union; GTI Spindle; Printables 386782). They avoid the weight, bulk and fatigue of cable loops (TME Systems).
+Use a slip ring when something must keep turning the same way while powered or sending signals: robot turrets and spinning lidar heads, camera motion-control rigs, motorised turntables with lights, spinning clocks and displays, cable reels that stay connected while unwinding (Hackaday; Adafruit; Printables 950300). Use a rotary union when a liquid, air or vacuum has to reach a turning part: car-wash brushes and spinners, coolant or air through a machine-tool spindle, rotary index tables and chucks, swivelling hose connectors (Wikipedia, Rotary union; GTI Spindle; Printables 386782). They avoid the weight, bulk and [fatigue](../glossary.md#fatigue) of cable loops (TME Systems).
 
 ## When not to use it
 
@@ -205,7 +206,7 @@ If the part only turns part of a revolution, or a few turns back and forth, use 
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it passes current or fluid across a turning joint
   - spring force (a spring or springy part presses it in place): the brushes are pressed onto the rings by springs (Wikipedia; Hackaday: 'gold-plated spring contacts')
-- **Input and output:** not applicable: it passes electricity, signals or fluid rather than motion; it adds a little drag (starting and running torque) that the drive motor must overcome (TME Systems)
+- **Input and output:** not applicable: it passes electricity, signals or fluid rather than motion; it adds a little drag (starting and running [torque](../glossary.md#torque)) that the drive motor must overcome (TME Systems)
 - **Power:** passive (no power needed): it carries power and signals but needs none to work; if the supply is lost, the rotating side simply loses power
 - **Load:** light: carries current and signals, not mechanical load. A hobby capsule ring carries 2 A per circuit at up to 240 V (Adafruit, SRC022/SRC012 data sheets), though Hackaday's review of a teardown called a small unit's mains-voltage claim 'wishful thinking'. Robot-size rings with 30 A per contact exist (Chief Delphi). The rings' own bearings should not carry side loads: mount the rotating part on its own bearing and let the slip ring only follow it (Canyon Components for rotary O-ring seals; Hackaday reader comments).
 - **Play and precision:** small: capsule units have little play but must be mounted on the axis of rotation; mounting one off-centre makes the leads flex every turn (Chief Delphi). Electrical 'noise' (resistance change while turning) is under 0.01 ohm for hobby capsules (SRC022 data sheet). Rotary unions need low runout: side-loading from stiff hoses or a mismatched mounting face causes runout and seal wear (GTI Spindle); O-ring rotary seals allow only about 0.002-0.003 in of eccentricity (Canyon Components).
@@ -241,7 +242,7 @@ Search for: 'slip ring', 'capsule slip ring', 'miniature slip ring 12 wire', 'sl
 - Do you really need endless rotation? To point in any direction a turret only needs +/-180°, which halves the cable length needed for a simple service loop (Chief Delphi, 'Service Loop for Turret').
 - Rate every ring for the full current of its circuit; FRC rules require the whole electrical path, slip ring included, to be rated for the breaker, and a 2015 FRC answer accepted two 30 A slip-ring legs in parallel on a 40 A breaker (Chief Delphi, 'Slip Rings', quoting FRC rule R58 and Q&A 85).
 - Keep motor power circuits apart from signal circuits in the slip ring, shield feedback signals, and allow for voltage drop across the contacts (TME Systems guide). For fast data (Ethernet, video) use slip rings made for it or a fibre optic rotary joint (Moog; TME Systems).
-- Rotary O-ring seals: surface speed (ft/min) = 0.26 x shaft diameter (in) x rpm; for a 0.070 in cross-section O-ring the limit is 200-1500 ft/min, for 0.103 in 200-600, for 0.139 in 200-400; squeeze only 0-11%; clearances assume 80 Shore A O-rings and no more than 800 psi; not usually for below -40 °C or above 121 °C (Canyon Components, rotary groove guide).
+- Rotary O-ring seals: surface speed (ft/min) = 0.26 x shaft diameter (in) x rpm; for a 0.070 in cross-section O-ring the limit is 200-1500 ft/min, for 0.103 in 200-600, for 0.139 in 200-400; squeeze only 0-11%; [clearances](../glossary.md#clearance) assume 80 Shore A O-rings and no more than 800 psi; not usually for below -40 °C or above 121 °C (Canyon Components, rotary groove guide).
 - Rotary unions wear out through their seals: filter the fluid to 50 microns or finer, avoid side-loading from hoses, pressure spikes, running dry or over the rated rpm, and expect a little leakage by design in some types (GTI Spindle, citing Advanced Machine and Engineering).
 - Mercury-wetted slip rings stop working below about -40 °C, when mercury freezes, and bring toxicity concerns (Wikipedia, Slip ring).
 - Wireless (inductive) slip rings don't wear but carry far less power than a contact ring of the same size (Wikipedia, Slip ring).
@@ -262,7 +263,7 @@ Mains voltage through a small capsule slip ring is risky: Hackaday called one sm
 - Fibre optic rotary joint: passes light signals for very fast data (Moog)
 - Audio jack and plug used as a slip ring: a cheap hack for a few low-current circuits (Hackaday)
 - Turntable bearing (lazy Susan, slewing ring): carries the turning platform's load; its large centre hole is where a through-bore slip ring or rotary union often sits
-- Cable gland: seals a cable where it passes through a fixed wall, rather than a turning joint
+- Cable [gland](../glossary.md#gland): seals a cable where it passes through a fixed wall, rather than a turning joint
 - Detangler: the mechanical (cable-pull) equivalent for BMX brake cables (Wikipedia)
 - Flat flexible cable and latching connector: thin flat cable made for places where wiring flexes again and again; a clockspring is a flat multicore cable wound into a spiral (Wikipedia, Flexible flat cable; Clockspring)
 

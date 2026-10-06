@@ -284,6 +284,75 @@ def page(i, it, d, tg, points):
     return fm, '\n'.join(B).rstrip() + '\n'
 
 
+# ---------------------------------------------------------------- glossary (P9)
+GLOSSARY = os.path.join(ROOT, 'content', 'glossary.yaml')
+STOP_AT = ('## Make it yourself', '## Pictures, videos and models', '## Needs confirming', '## Sources')
+
+
+def gh_anchor(heading):
+    """The anchor GitHub gives a heading: lower case, punctuation dropped, spaces to hyphens."""
+    return re.sub(r'[^\w\- ]', '', heading.strip().lower()).replace(' ', '-')
+
+
+def load_glossary():
+    terms = yaml.safe_load(open(GLOSSARY))
+    for t in terms:
+        t['anchor'] = gh_anchor(t['term'])
+        words = re.split(r'\s+/\s+|\s+vs\s+', t['term'])
+        t['patterns'] = [] if t.get('link') is False else [
+            re.compile(r'(?<![\w-])(' + re.escape(w) + r')(?:s|es)?(?![\w-])', re.I) for w in words]
+    return terms
+
+
+def write_glossary(terms):
+    groups = list(OrderedDict((t['group'], 1) for t in terms))
+    L = ['---', 'title: Glossary',
+         'description: The technical words used in the encyclopaedia, each in one plain sentence.', '---', '',
+         'The technical words used on the entry pages, each explained in one plain sentence. Each entry page',
+         'links the first time it uses one of these words. Corrections and new words are welcome (see',
+         '`CONTRIBUTING.md`). Made by `tools/make_entries.py` from `glossary.yaml`.', '']
+    L += [f'- [{g}](#{gh_anchor(g)})' for g in groups] + ['']
+    for g in groups:
+        L += [f'## {g}', '']
+        for t in [t for t in terms if t['group'] == g]:
+            L += [f'### {t["term"]}', '']
+            if t.get('other_names'):
+                L += [f'*Also called:* {t["other_names"]}', '']
+            L += [t['definition'], '']
+    open(os.path.join(ROOT, 'content', 'glossary.md'), 'w').write('\n'.join(L).rstrip() + '\n')
+
+
+PROTECT = re.compile(r'\[[^\]]*\]\([^)]*\)|<https?://[^>]*>|https?://\S+|`[^`]*`|\*\*[^*]+\*\*')
+
+
+def link_terms(body, terms):
+    """Link the first use of each glossary term in the page's text (not in headings, links, code or
+    bold labels, and not in the link, needs-confirming and source sections). Returns (body, anchors)."""
+    lines = body.split('\n')
+    end = next((i for i, ln in enumerate(lines) if ln.startswith(STOP_AT)), len(lines))
+    used = []
+    for t in terms:
+        done = False
+        for i in range(end):
+            ln = lines[i]
+            if done or ln.startswith('#') or not ln.strip():
+                continue
+            spans = [m.span() for m in PROTECT.finditer(ln)]
+            for pat in t['patterns']:
+                for m in pat.finditer(ln):
+                    if any(a <= m.start() < b or a < m.end() <= b for a, b in spans):
+                        continue
+                    lines[i] = ln[:m.start()] + f'[{m.group(0)}](../glossary.md#{t["anchor"]})' + ln[m.end():]
+                    used.append(t['anchor'])
+                    done = True
+                    break
+                if done:
+                    break
+            if done:
+                break
+    return '\n'.join(lines), used
+
+
 class Dumper(yaml.SafeDumper):
     pass
 
@@ -296,6 +365,8 @@ Dumper.add_representer(list, lambda d, v: d.represent_sequence(
 def main():
     items = OUTLINE['items']
     pts = open_points(items)
+    terms = load_glossary()
+    write_glossary(terms)
     os.makedirs(OUT, exist_ok=True)
     slugs = {}
     for i, it in enumerate(items, 1):
@@ -309,6 +380,7 @@ def main():
         tg = TAGS[i]
         assert tg['name'] == it['name'], (i, tg['name'], it['name'])
         fm, body = page(i, it, d, tg, pts.get(i, []))
+        body, fm['glossary'] = link_terms(body, terms)
         fn = slugs[i] + '.md'
         keep.add(fn)
         with open(os.path.join(OUT, fn), 'w') as f:
@@ -321,7 +393,9 @@ def main():
         if fn.endswith('.md') and fn not in keep:
             os.remove(os.path.join(OUT, fn))
     n_pts = sum(len(v) for v in pts.values())
-    print(f'wrote {len(keep)} pages to content/entries/; {n_pts} research-note points attached to {len(pts)} entries')
+    n_links = sum(1 for fn in keep for _ in re.finditer(r'\]\(\.\./glossary\.md#', open(os.path.join(OUT, fn)).read()))
+    print(f'wrote {len(keep)} pages to content/entries/ and content/glossary.md ({len(terms)} terms, {n_links} links); '
+          f'{n_pts} research-note points attached to {len(pts)} entries')
 
 
 if __name__ == '__main__':

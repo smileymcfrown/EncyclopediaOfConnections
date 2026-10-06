@@ -135,6 +135,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Making_Conductive_Ink.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_glue_paint_and_ink_electrically_conductive_adhesive_silver_epoxy.json
+glossary: [form-fit--force-fit--material-bond, captive-nut, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
 
 Conductive glue, paint and ink are adhesives, paints and inks loaded with silver, copper, nickel or carbon particles that touch each other once dry or cured, so they stick a part on or draw a track that carries a small current where solder can't be used, such as on heat-sensitive parts, glass, paper, fabric or 3D prints.
@@ -149,7 +150,7 @@ A glue, varnish, resin, silicone or water-based binder holds a large amount of c
 
 ## Parts
 
-Single material in one of three forms: a one-part paint, ink or pen that dries as its solvent or water evaporates; a two-part epoxy (silver-filled resin plus hardener) that cures; or a conductive 3D-printing filament (plastic filled with carbon black or copper) (Wikipedia; MG Chemicals; Protopasta; filament2print). Used with a mixing stick, toothpick or syringe, a fine brush or stencil, isopropyl alcohol for cleaning, and sometimes a heat lamp or oven for curing (MG Chemicals; Bare Conductive; Permatex; SparkFun).
+Single material in one of three forms: a one-part paint, ink or pen that dries as its solvent or water evaporates; a two-part epoxy (silver-filled resin plus hardener) that [cures](../glossary.md#cure); or a conductive 3D-printing filament (plastic filled with carbon black or copper) (Wikipedia; MG Chemicals; Protopasta; filament2print). Used with a mixing stick, toothpick or syringe, a fine brush or stencil, isopropyl alcohol for cleaning, and sometimes a heat lamp or oven for curing (MG Chemicals; Bare Conductive; Permatex; SparkFun).
 
 ## Everyday examples
 
@@ -175,10 +176,10 @@ For power wiring, motors, heaters, chargers or anything on mains: use a Soldered
 - **Directions it can move (degrees of freedom):** 0: a cured joint holds the part fixed
 - **Special behaviour:**
   - none: it is a passive conductor that sets in place
-- **How it holds:** material bond (glue, solvent or melting): the binder sticks to both surfaces and the conductive grains inside it carry the current (Wikipedia; MG Chemicals)
+- **How it holds:** [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): the binder sticks to both surfaces and the conductive grains inside it carry the current (Wikipedia; MG Chemicals)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** Electrical: signal only, extra-low voltage only. Conductive adhesives are for when 'just a small current is needed' (Wikipedia 'Electrically conductive adhesive'), and Bare Conductive's paint is 'intended for applications with circuits using low DC voltages at low currents' (Bare Conductive data sheet). Resistivity compared with tin, the main metal in most solder (1.09 x 10^-5 ohm cm, Wikipedia 'Electrical resistivity and conductivity'): silver pen 5 x 10^-5 to 1.25 x 10^-4 ohm cm (CircuitWorks CW2200), silver epoxy 5.3 x 10^-4 to 6.0 x 10^-3 ohm cm (MG Chemicals range), copper-filled filament about 0.006 ohm cm (Electrifi, filament2print), carbon paint about 0.28 ohm cm (calculated from 55 ohm per square at 50 microns, Bare Conductive), and carbon-filled PLA 30-115 ohm cm when printed (Protopasta). So silver glue is roughly 50-550 times worse than tin and carbon materials thousands to millions of times worse (calculated). Worked example (calculated): a silver-epoxy bridge 10 mm long, 2 mm wide and 0.1 mm thick at 1.8 x 10^-3 ohm cm measures about 0.9 ohm, so 1 A would waste about 0.9 W in it. A short glued joint under a component lead is far lower and fine for small loads. The one higher-current everyday use is patching a short break in a car's rear-window heater line, where the repair carries the line's own heater current (Permatex: 'designed to conduct electricity and distribute heat'). Never for mains or power wiring. Mechanical: light to medium for silver epoxy (lap shear 1.2-7.1 N/mm² depending on product and metal, MG Chemicals category data sheet); light for paints and inks, which crack when bent (SparkFun).
+- **Load:** Electrical: signal only, extra-low voltage only. Conductive adhesives are for when 'just a small current is needed' (Wikipedia 'Electrically conductive adhesive'), and Bare Conductive's paint is 'intended for applications with circuits using low DC voltages at low currents' (Bare Conductive data sheet). Resistivity compared with tin, the main metal in most solder (1.09 x 10^-5 ohm cm, Wikipedia 'Electrical resistivity and conductivity'): silver pen 5 x 10^-5 to 1.25 x 10^-4 ohm cm (CircuitWorks CW2200), silver epoxy 5.3 x 10^-4 to 6.0 x 10^-3 ohm cm (MG Chemicals range), copper-filled filament about 0.006 ohm cm (Electrifi, filament2print), carbon paint about 0.28 ohm cm (calculated from 55 ohm per square at 50 microns, Bare Conductive), and carbon-filled PLA 30-115 ohm cm when printed (Protopasta). So silver glue is roughly 50-550 times worse than tin and carbon materials thousands to millions of times worse (calculated). Worked example (calculated): a silver-epoxy bridge 10 mm long, 2 mm wide and 0.1 mm thick at 1.8 x 10^-3 ohm cm measures about 0.9 ohm, so 1 A would waste about 0.9 W in it. A short glued joint under a component lead is far lower and fine for small loads. The one higher-current everyday use is patching a short break in a car's rear-window heater line, where the repair carries the line's own heater current (Permatex: 'designed to conduct electricity and distribute heat'). Never for mains or power wiring. Mechanical: light to medium for silver epoxy (lap [shear](../glossary.md#peel-vs-shear) 1.2-7.1 N/mm² depending on product and metal, MG Chemicals category data sheet); light for paints and inks, which crack when bent (SparkFun).
 - **Play and precision:** not applicable
 - **Taking it apart:** permanent for silver epoxy ('strong permanent electrical connections', MG Chemicals); semi-permanent for paints and inks, which can be scraped or dissolved off (Bare Conductive Electric Paint cleans up with warm water and soap; Permatex's grid repair cleans off with acetone) (Bare Conductive data sheet; Permatex data sheet)
 - **How often it can be reused:** once
@@ -197,7 +198,7 @@ For power wiring, motors, heaters, chargers or anything on mains: use a Soldered
   - 3D print (FDM), woodwork or sheet enclosures painted inside as an electrical shield (Wikipedia 'Electrically conductive adhesive'; Wikipedia 'Electromagnetic shielding')
 - **Printing it in one piece (print in place):** partly: conductive-filament traces can be printed in the same job as the plastic part on a dual-extruder or colour-change print (Printables 1423421; Printables 425558), but parts and wires still have to be added afterwards; glue, paint and ink are applied after printing
 - **Tools:** toothpick, mixing stick or syringe (SparkFun recommends a syringe to cut down mess), fine brush, squeeze bottle or pen, a stencil or masking tape for straight lines (Permatex kit includes a stencil and brush), isopropyl alcohol to degrease surfaces (MG Chemicals), fine sandpaper (MG Chemicals; Permatex), a hair dryer, heat lamp or oven to speed drying or curing (SparkFun; Bare Conductive; MG Chemicals), a multimeter to check for near-zero resistance across a repair (Permatex), gloves and ventilation for solvent-based paints (Electrolube safety data sheet)
-- **Difficulty:** easy for paints and ink pens ('Beginner - Intermediate', SparkFun), though paint is messy and slow to dry; moderate for silver epoxy, 'one of the more expensive ways' to attach parts that 'can be difficult to work with' and needs 'a long dry time or to be heat set' (SparkFun); moderate for conductive filament, which is brittle and resistive (Printables 1423421)
+- **Difficulty:** easy for paints and ink pens ('Beginner - Intermediate', SparkFun), though paint is messy and slow to dry; moderate for silver epoxy, 'one of the more expensive ways' to attach parts that 'can be difficult to work with' and needs 'a long dry time or to be heat set' (SparkFun); moderate for conductive filament, which is [brittle](../glossary.md#brittle--ductile) and resistive (Printables 1423421)
 
 ### 3D printing tips
 
@@ -214,7 +215,7 @@ Search terms: 'silver conductive epoxy' (e.g. MG Chemicals 8331D, 8330D, brand; 
 - About 80% of a conductive adhesive's mass is the conductive filler (Wikipedia, https://en.wikipedia.org/wiki/Electrically_conductive_adhesive).
 - Paint is 'not conductive until fully dry' and may need to dry overnight; a hair dryer or heat gun speeds it up (SparkFun, https://learn.sparkfun.com/tutorials/the-great-big-guide-to-paper-circuits/all). Bare Conductive dries in 5-15 minutes at room temperature (data sheet).
 - Push parts into paint while it is still wet and let it dry completely before powering; attach parts to a painted trace while the trace is still wet for the best connection (SparkFun).
-- Silver epoxy cure: MG Chemicals 8331 works for 10 minutes and fully cures in 24 hours at 22 °C or 15 minutes at 65 °C (2018 data sheet); the current 8331D has 20 minutes working time and cures in 6 hours at room temperature or 10 minutes at 65 °C (category data sheet).
+- Silver epoxy cure: MG Chemicals 8331 works for 10 minutes and fully cures in 24 hours at 22 °C or 15 minutes at 65 °C (2018 data sheet); the current 8331D has 20 minutes [working time](../glossary.md#pot-life--working-time) and cures in 6 hours at room temperature or 10 minutes at 65 °C (category data sheet).
 - Rear-window heater line repair: brush on four coats inside the stencil, letting each go tack-free; the repair must look completely opaque with 'essentially zero (0)' ohms across it; remove the stencil after 30 minutes and wait 24 hours before switching the heater on (Permatex, https://cdn.amplifi.pattern.com/69210793-d726-4c85-9584-3b22296b7321).
 - Clean surfaces first: 8331 'is not compatible with contaminants like water, oil, or greasy flux residues'; clean with isopropyl alcohol, and sand or prime weak surfaces (MG Chemicals, https://www.farnell.com/datasheets/2614609.pdf).
 - Glue parts down first with superglue, then paint over their pads, keeping glue out from between the ink and the pads (SparkFun, https://learn.sparkfun.com/tutorials/the-great-big-guide-to-paper-circuits/all).
@@ -236,7 +237,7 @@ SOLVENT FUMES AND FIRE: some silver paints are solvent-based. Electrolube's Silv
 - Cyanoacrylate (superglue): used to tack parts down before painting over their pads (SparkFun)
 - Crimp terminals and Crimped butt splice: cold, heat-free joints that do carry real current
 - Wire wrap (wire-wrapped connection): another solder-free connection, for solid wire on square posts
-- Mid-print embedding (captive nuts, magnets and bearings): embedding wires or metal contacts in a print, an alternative to printed conductive tracks
+- Mid-print embedding ([captive nuts](../glossary.md#captive-nut), magnets and bearings): embedding wires or metal contacts in a print, an alternative to printed conductive tracks
 
 ## Make it yourself
 

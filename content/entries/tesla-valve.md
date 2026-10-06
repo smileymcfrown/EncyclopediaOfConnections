@@ -125,9 +125,10 @@ sources:
 - https://www.printables.com/model/11188-pillow-soft-robotic-actuator
 - https://zenodo.org/records/8127332
 research: research/connection-types/results/Tesla_valve_nomovingparts_oneway_channel.json
+glossary: [oscillating, actuator, fatigue, perimeters, overhang--bridging, check-valve]
 ---
 
-A fixed-shape channel whose teardrop-shaped side loops give much more resistance to flow in one direction than the other, so it favours one-way flow with no moving parts, but it is only a 'slightly leaking valve' that slows backflow rather than sealing like a check valve.
+A fixed-shape channel whose teardrop-shaped side loops give much more resistance to flow in one direction than the other, so it favours one-way flow with no moving parts, but it is only a 'slightly leaking valve' that slows backflow rather than sealing like a [check valve](../glossary.md#check-valve).
 
 **In plain words:** A pipe or channel with a row of looping side pockets and no moving parts: water or air going one way slips straight through, but going the other way it is split into the loops and sent back to crash into itself, so it flows much less easily. It only slows the backflow; it never shuts it off, so it always leaks a little. **Proper term:** Tesla valve (valvular conduit; fixed-geometry fluidic diode).
 
@@ -150,11 +151,11 @@ Single piece: one channel with a series of looping segments (Tesla's drawing sho
 
 ## When to use it
 
-Use a Tesla valve where flow pulses or reverses quickly and a moving flap or ball would wear out, flutter or stick: valveless pulsejets, pumping fluids with vibration, oscillating heat pipes and phone cooling loops (Wikipedia 'Tesla valve'; Nguyen et al. 2021). It is handy where you want to bias flow without anything that can jam, in microfluidic chips that can't contain moving parts, and as a mixer, since the reverse flow becomes turbulent at unusually low speeds (ScienceDaily 2021). It is also a great printable demonstration of fluid behaviour.
+Use a Tesla valve where flow pulses or reverses quickly and a moving flap or ball would wear out, flutter or stick: valveless pulsejets, pumping fluids with vibration, [oscillating](../glossary.md#oscillating) heat pipes and phone cooling loops (Wikipedia 'Tesla valve'; Nguyen et al. 2021). It is handy where you want to bias flow without anything that can jam, in microfluidic chips that can't contain moving parts, and as a mixer, since the reverse flow becomes turbulent at unusually low speeds (ScienceDaily 2021). It is also a great printable demonstration of fluid behaviour.
 
 ## When not to use it
 
-Don't use it where backflow must be stopped: it always leaks (Wikipedia 'Tesla valve'). Use a check valve (flap, ball, reed or duckbill) to keep air in an inflatable, stop an aquarium siphoning back, keep a pump primed or hold pressure in an actuator, and an approved backflow preventer for drinking water (Wikipedia 'Backflow prevention device'). It also does little for slow, steady flows or thick liquids (Nguyen et al. 2021), and its forward path still adds some resistance, so it is a poor choice where every bit of flow matters.
+Don't use it where backflow must be stopped: it always leaks (Wikipedia 'Tesla valve'). Use a check valve (flap, ball, reed or duckbill) to keep air in an inflatable, stop an aquarium siphoning back, keep a pump primed or hold pressure in an [actuator](../glossary.md#actuator), and an approved backflow preventer for drinking water (Wikipedia 'Backflow prevention device'). It also does little for slow, steady flows or thick liquids (Nguyen et al. 2021), and its forward path still adds some resistance, so it is a poor choice where every bit of flow matters.
 
 ## Details
 
@@ -175,7 +176,7 @@ Don't use it where backflow must be stopped: it always leaks (Wikipedia 'Tesla v
 - **Load:** light: not a structural part. Printed plastic versions are for low-pressure water and air; it has no pressure rating of its own ⚑ [uncertain]
 - **Play and precision:** not applicable (it doesn't locate parts or pass on motion)
 - **Taking it apart:** removable: it is fitted in line with hoses or tubes and can be taken out; printed versions may be one closed piece or two halves joined with M2 screws (Printables 518822)
-- **How often it can be reused:** effectively unlimited: with no moving parts it is 'much more resistant to wear and fatigue', especially where pressure reverses often, as in a pulsejet (Wikipedia 'Tesla valve')
+- **How often it can be reused:** effectively unlimited: with no moving parts it is 'much more resistant to wear and [fatigue](../glossary.md#fatigue)', especially where pressure reverses often, as in a pulsejet (Wikipedia 'Tesla valve')
 - **Sealing:** none: it never closes, so some fluid always leaks back; Tesla's own patent called it 'a slightly leaking valve' (Wikipedia 'Tesla valve'). The part around the channel must itself be watertight or airtight (printed walls can leak, see making tips)
 - **Adjustable:** no: its behaviour is fixed by the channel shape and the number of loops; more loops give more one-way effect (Printables 1611773; Wikipedia 'Tesla valve')
 - **Access needed:** end of a tube or shaft: fitted in line where tubes end
@@ -196,7 +197,7 @@ Don't use it where backflow must be stopped: it always leaks (Wikipedia 'Tesla v
 
 ### 3D printing tips
 
-1) Orientation: print the channel flat (lying in the XY plane) so the loops are formed by the walls, not by overhangs; a two-half design avoids bridging the channel roof (Printables 518822) ⚑ [uncertain] (orientation advice not tested in a source). 2) Use transparent filament if you want to watch the flow, and print at high resolution so a Luer syringe cone comes out round enough to seal (Printables 781760). 3) Make the walls leak-proof: FFF-printed hollow parts often leak (Zhai et al. 2023); makers printing airtight parts raise the flow rate (over-extrude) and use several perimeters (Printables 11188; Zenodo 8127332), or you can seal the outside. 4) Keep the channel reasonably large (the NYU test channel was about 9 mm wide, 19 mm deep and 30 cm long) and push the fluid hard: the valve only starts to work above a certain flow speed (Nguyen et al. 2021). 5) Print several versions with 1, 3 and 5 loops and time how fast water drains through each way: more loops give a stronger one-way effect (Printables 1611773). 6) For hot gases, such as a pulsejet, ordinary PLA melts; a maker used plaster cast around a dissolvable PVA print instead (Hackaday 2019). 7) Test it as a flow restrictor, not as a seal: block the outlet with a finger, then compare how long a fixed amount of water takes to pass each way (Printables 1611773).
+1) Orientation: print the channel flat (lying in the XY plane) so the loops are formed by the walls, not by [overhangs](../glossary.md#overhang--bridging); a two-half design avoids bridging the channel roof (Printables 518822) ⚑ [uncertain] (orientation advice not tested in a source). 2) Use transparent filament if you want to watch the flow, and print at high resolution so a Luer syringe cone comes out round enough to seal (Printables 781760). 3) Make the walls leak-proof: FFF-printed hollow parts often leak (Zhai et al. 2023); makers printing airtight parts raise the flow rate (over-extrude) and use several [perimeters](../glossary.md#perimeters) (Printables 11188; Zenodo 8127332), or you can seal the outside. 4) Keep the channel reasonably large (the NYU test channel was about 9 mm wide, 19 mm deep and 30 cm long) and push the fluid hard: the valve only starts to work above a certain flow speed (Nguyen et al. 2021). 5) Print several versions with 1, 3 and 5 loops and time how fast water drains through each way: more loops give a stronger one-way effect (Printables 1611773). 6) For hot gases, such as a pulsejet, ordinary PLA melts; a maker used plaster cast around a dissolvable PVA print instead (Hackaday 2019). 7) Test it as a flow restrictor, not as a seal: block the outlet with a finger, then compare how long a fixed amount of water takes to pass each way (Printables 1611773).
 
 ### Buying one (off-the-shelf parts)
 

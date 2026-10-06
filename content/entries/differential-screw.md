@@ -113,9 +113,11 @@ sources:
 - https://www.printables.com/model/107132-differential-screw-clamp
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Differential_screw_fine_adjustment_screw.json
+glossary: [misalignment, backlash, self-locking, axial--radial, torque, mechanical-advantage, pitch, preload, flexure, tolerance,
+  form-fit--force-fit--material-bond, kinematic-coupling, creep]
 ---
 
-One turn of a screw carrying two threads of slightly different pitch moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.
+One turn of a screw carrying two threads of slightly different [pitch](../glossary.md#pitch) moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.
 
 **In plain words:** A screw with two slightly different threads on it, so a full turn moves the part only by the tiny difference between them: a super-fine adjuster made from ordinary threads. **Proper term:** Differential screw (differential thread, differential adjuster).
 
@@ -142,7 +144,7 @@ Use it when you need very fine, steady adjustment that stays where you set it, b
 
 ## When not to use it
 
-Don't use it for long or fast travel: its range is short and each turn moves very little; use a lead screw or ball screw. Don't expect a big clamping force by hand, because friction on two threads doubles the starting torque (Home Metal Shop Club); use an ordinary screw clamp or a toggle clamp. If you need zero backlash, preload it with a spring or use a lever or flexure reducer instead (Wikipedia 'Fine adjustment screw'). If one fine thread is fine enough (e.g. an 80-100 tpi adjuster), that is simpler and cheaper.
+Don't use it for long or fast travel: its range is short and each turn moves very little; use a lead screw or ball screw. Don't expect a big clamping force by hand, because friction on two threads doubles the starting [torque](../glossary.md#torque) (Home Metal Shop Club); use an ordinary screw clamp or a toggle clamp. If you need zero [backlash](../glossary.md#backlash), [preload](../glossary.md#preload) it with a spring or use a lever or [flexure](../glossary.md#flexure) reducer instead (Wikipedia 'Fine adjustment screw'). If one fine thread is fine enough (e.g. an 80-100 tpi adjuster), that is simpler and cheaper.
 
 ## Details
 
@@ -154,14 +156,14 @@ Don't use it for long or fast travel: its range is short and each turn moves ver
 - **Directions it can move (degrees of freedom):** 1: the output nut's position is tied to the screw's rotation (one pitch difference per turn), so there is one independent motion
 - **Special behaviour:**
   - motion conversion (rotary to linear): a turn of the knob becomes a very small straight movement of the output nut
-  - self-locking (holds under load, won't back-drive): with a tiny effective lead and two pairs of sliding threads, pushing on the output can't turn the screw, so the setting stays put; a printed differential clamp maker calls this 'self-retention' (Printables, Jack)
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): with a tiny effective lead and two pairs of sliding threads, pushing on the output can't turn the screw, so the setting stays put; a printed differential clamp maker calls this 'self-retention' (Printables, Jack)
 - **How it holds:**
-  - shape (form-fit): both threads interlock with their nuts, so the output can only move when the screw is turned
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): both threads interlock with their nuts, so the output can only move when the screw is turned
   - friction or clamping (force-fit): friction in the two threads keeps the screw from turning back under load
 - **Input and output:** Rotation -> small straight-line motion. Effective pitch = P1 - P2 for single-start threads of the same hand: M5x0.8 with M4x0.7 gives 0.1 mm per turn; 16 tpi with 24 tpi gives about 0.0208 in (0.53 mm) per turn, the same as a 48 tpi thread; a 26 tpi thread with a 1.0 mm metric thread gives about 0.023 mm (Wikipedia). Force gain in theory = coarse pitch / difference, e.g. 9:1 over a 20 tpi screw for an 18/20 tpi pair (Home Metal Shop Club). Efficiency is low: the load presses on two sets of sliding threads, so the torque needed just to start turning is about double that of a single screw (Home Metal Shop Club). Shaft arrangement: in line. Back-drivable: no in practice (self-locking).
 - **Power:** passive (no power needed): usually turned by hand with a knob, thimble, wrench or socket; it can be motor-driven but rarely is
 - **Load:** light: it is a fine adjuster for positioning, focusing and light clamping. Loads act along the screw (push or pull); keep bending and side loads off the fine threads by guiding the moving part. Clamping force by hand is limited because the friction of two threads doubles the starting torque (Home Metal Shop Club).
-- **Play and precision:** Resolution is excellent: 0.1 mm per turn from M5/M4, so 10 um per tenth of a turn (Hackaday); Mitutoyo's differential micrometer heads have a 0.05 mm spindle pitch with 0.001 mm graduations (Mitutoyo). Backlash is noticeable unless handled: the play of the two threads adds together (Wikipedia 'Fine adjustment screw'), so push the moving nut against the thread with a spring (Rehorst) and approach the setting from one direction. Range is short: for 2 mm of output an M5/M4 screw must itself travel 16 mm (Rehorst). The moving nut must be guided so it can't rotate, and there is little tolerance for misalignment.
+- **Play and precision:** Resolution is excellent: 0.1 mm per turn from M5/M4, so 10 um per tenth of a turn (Hackaday); Mitutoyo's differential micrometer heads have a 0.05 mm spindle pitch with 0.001 mm graduations (Mitutoyo). Backlash is noticeable unless handled: the play of the two threads adds together (Wikipedia 'Fine adjustment screw'), so push the moving nut against the thread with a spring (Rehorst) and approach the setting from one direction. Range is short: for 2 mm of output an M5/M4 screw must itself travel 16 mm (Rehorst). The moving nut must be guided so it can't rotate, and there is little [tolerance](../glossary.md#tolerance) for [misalignment](../glossary.md#misalignment).
 - **Taking it apart:** removable: the screw unscrews from both nuts; joined two-screw versions may be glued or thread-locked together
 - **How often it can be reused:** many times: it is an adjuster made to be turned back and forth; nuts in plastic or brass slowly wear
 - **Sealing:** none: nothing seals; the threads are open
@@ -194,7 +196,7 @@ Differential micrometer heads (e.g. Mitutoyo Series 110 'differential screw tran
 - Mixing metric and imperial threads gives still finer steps: 26 tpi (about 0.977 mm pitch) with a 1.0 mm metric thread = about 0.023 mm per turn (Wikipedia).
 - Standard metric pairs: M3/M3.5, M3.5/M4 and M4/M5 give 0.1 mm per turn; M1.6/M2, M2/M2.5 and M2.5/M3 give 0.05 mm per turn (Rehorst).
 - Output range is short: the screw itself moves (coarse pitch / difference) times the output, e.g. 8 mm of M5 travel per 1 mm of output with M5/M4, so 2 mm of adjustment needs about 16 mm of M5 and 14 mm of M4 thread (Rehorst).
-- Friction is the catch: the axial load bears on two threaded surfaces, so the torque to start turning is about twice that of a single screw, and the theoretical mechanical advantage (9:1 for an 18/20 tpi pair) does not help overcome it (Home Metal Shop Club, 2010).
+- Friction is the catch: the [axial](../glossary.md#axial--radial) load bears on two threaded surfaces, so the torque to start turning is about twice that of a single screw, and the theoretical [mechanical advantage](../glossary.md#mechanical-advantage) (9:1 for an 18/20 tpi pair) does not help overcome it (Home Metal Shop Club, 2010).
 - Backlash from the two threads adds together (Wikipedia 'Fine adjustment screw'); preload the moving nut with a spring (Rehorst).
 - The moving nut must be stopped from rotating, or there is no differential action (Hackaday).
 - Threads finer than about 250 tpi (0.1 mm pitch) are hard to make, which is why differential adjusters are used for finer steps; lever or cone reducers are the other option (Wikipedia 'Fine adjustment screw').
@@ -202,7 +204,7 @@ Differential micrometer heads (e.g. Mitutoyo Series 110 'differential screw tran
 
 ## Common failures
 
-1) The moving nut turns with the screw, so nothing happens or the part creeps; guide it with a slot or square tube (Hackaday; Rehorst). 2) Doubled backlash makes the setting jump when you reverse; add a spring and approach from one side (Rehorst; Wikipedia). 3) Too stiff to turn under load because of friction on two threads (Home Metal Shop Club); grease the threads (Printables, Jack). 4) Running out of range because the screw travels 8-10 times further than the output; plan thread lengths (Rehorst). 5) A joined two-part screw unscrews itself; use thread-locker or epoxy (Rehorst). 6) Printed internal threads come out wrong-sized; print a test first (Sanford Prime revised his). 7) Buying a fake 'differential micrometer' that is just a fine single thread (Rehorst).
+1) The moving nut turns with the screw, so nothing happens or the part [creeps](../glossary.md#creep); guide it with a slot or square tube (Hackaday; Rehorst). 2) Doubled backlash makes the setting jump when you reverse; add a spring and approach from one side (Rehorst; Wikipedia). 3) Too stiff to turn under load because of friction on two threads (Home Metal Shop Club); grease the threads (Printables, Jack). 4) Running out of range because the screw travels 8-10 times further than the output; plan thread lengths (Rehorst). 5) A joined two-part screw unscrews itself; use thread-locker or epoxy (Rehorst). 6) Printed internal threads come out wrong-sized; print a test first (Sanford Prime revised his). 7) Buying a fake 'differential micrometer' that is just a fine single thread (Rehorst).
 
 ## Safety
 
@@ -216,7 +218,7 @@ None known for small adjusters. A printed differential clamp can build up more f
 - Capstan and windlass, including the differential windlass: the same 'difference' trick with two rope drums of slightly different diameter
 - Parallel leaf-spring flexure (linear flexure stage): a bending stage, often with a lever that divides a screw's motion for backlash-free fine positioning
 - Eccentric adjuster: a turning off-centre bush for small, coarse-to-fine position tweaks
-- Kinematic coupling: fine adjusters usually push on kinematic mounts in optics
+- [Kinematic coupling](../glossary.md#kinematic-coupling): fine adjusters usually push on kinematic mounts in optics
 - Compound planetary gearbox (split-ring / Wolfrom) and strain-wave gear: large reductions from the difference between two nearly equal tooth counts
 - Locking adjustment screws: pairs of opposing screws, or a screw and a spring, that set a tilt or height and then lock it; simpler when an ordinary thread is fine enough
 

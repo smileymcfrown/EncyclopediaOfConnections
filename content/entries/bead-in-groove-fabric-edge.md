@@ -136,9 +136,10 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bolt-rope.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Beadingroove_fabric_edge_keder_boltrope_screen_spline.json
+glossary: [stiffness, form-fit--force-fit--material-bond, spline, heat-set-insert, peel-vs-shear]
 ---
 
-A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or pressed in over the fabric as a separate cord (screen spline), sits in a groove whose mouth is narrower than the bead, so the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
+A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or pressed in over the fabric as a separate cord (screen [spline](../glossary.md#spline)), sits in a groove whose mouth is narrower than the bead, so the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
 
 **In plain words:** A fat edge on a piece of fabric, made by sewing or welding a rope or plastic bead into it (or by pressing a rubber cord in over a mesh), that slides or is pushed into a groove with a narrow mouth in a frame, so the whole edge is held at once, as on caravan awnings, big tent roofs, sails and fly screens. **Proper term:** Bead-in-groove fabric edge: keder and keder rail (awning rope in awning track), bolt rope in a luff groove, and screen spline in a spline channel.
 
@@ -180,7 +181,7 @@ Not where the fabric can't be cut accurately to the frame, or where the edge is 
   - none in the mechanism sense: the advantage is that the whole edge is held at once, spreading the load evenly instead of concentrating it at grommets or clips (Specialty Fabrics Review)
   - quick-release: SEG graphics are made to be pulled out and replaced by hand, and a keder slides out of the end of its rail with no tools (Digital Output; German Wikipedia)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the bead is wider than the slot in the groove, so it can't be pulled out sideways (German Wikipedia 'Kederschiene')
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the bead is wider than the slot in the groove, so it can't be pulled out sideways (German Wikipedia 'Kederschiene')
   - friction or clamping (force-fit): a screen spline wedges the mesh into the channel and holds it by squeeze and friction, which is why a spline that is too thin for the mesh lets it pop out (Phifer; HomeFixated)
   - material bond (glue, solvent or melting): the keder flap is usually hot-air or RF welded to the fabric, though it can be sewn (Specialty Fabrics Review; German Wikipedia)
 - **Input and output:** not applicable
@@ -207,7 +208,7 @@ Not where the fabric can't be cut accurately to the frame, or where the edge is 
 
 ### 3D printing tips
 
-1) Measure your rail first; makers publish versions for 6, 7, 8 and 10 mm rails because sizes differ between awnings, caravans and roof tents (Printables 35274, 560759, 876307, 1762136). 2) A hook shaped to twist and lock in a 7 mm rail can be made strong yet deliberately weak in one place: Hooky 'locks itself under load' and its thin walls let it 'break under extreme conditions to avoid damage to the awning' (Printables 35274). 3) Print rail hooks in PETG without supports; ChristophB's hook comes in a swing-in version that fits without sliding in from the rail end and a slide-in 'fix' version (Printables 1285569). PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV, so it is a poor choice on a sunny caravan wall, while PETG suits most exterior use below 80 °C (Prusa Knowledge Base 'PLA', 'PETG'). 4) End stoppers stop a keder or accessory sliding out: a printed stopper about 7.5 mm across, fixed with an M3 screw in a heat-set insert, with a nylon screw suggested so it doesn't scratch the rail (Printables 971564). 5) A keder-mounted clip can carry other hardware: the Keder Tarp Clip adds a mount for an 8 mm keder using one M4 screw and nut (Printables 560759). 6) Tools are easy wins: a printed spline roller needs one M4x30 bolt and nut and no supports (Printables 160984); a printed keder tool for 4.5 mm rubber screen cord uses an M6 bolt and lock nut (Printables 905208); and a printed folding guide turns a 4 cm fabric strip into 1 cm piping or keder cover for sewing (Printables 807285). 7) Print hooks and clips so the load runs along the layers, since 'FFF prints are stronger in one direction than another' (Prusa Knowledge Base 'Modeling with 3D printing in mind'). 8) Printing a whole C-groove rail is possible but its thin slot lips are weak across the layers and it won't match an extrusion's stiffness; buy rails for anything tensioned ⚑ [uncertain].
+1) Measure your rail first; makers publish versions for 6, 7, 8 and 10 mm rails because sizes differ between awnings, caravans and roof tents (Printables 35274, 560759, 876307, 1762136). 2) A hook shaped to twist and lock in a 7 mm rail can be made strong yet deliberately weak in one place: Hooky 'locks itself under load' and its thin walls let it 'break under extreme conditions to avoid damage to the awning' (Printables 35274). 3) Print rail hooks in PETG without supports; ChristophB's hook comes in a swing-in version that fits without sliding in from the rail end and a slide-in 'fix' version (Printables 1285569). PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV, so it is a poor choice on a sunny caravan wall, while PETG suits most exterior use below 80 °C (Prusa Knowledge Base 'PLA', 'PETG'). 4) End stoppers stop a keder or accessory sliding out: a printed stopper about 7.5 mm across, fixed with an M3 screw in a [heat-set insert](../glossary.md#heat-set-insert), with a nylon screw suggested so it doesn't scratch the rail (Printables 971564). 5) A keder-mounted clip can carry other hardware: the Keder Tarp Clip adds a mount for an 8 mm keder using one M4 screw and nut (Printables 560759). 6) Tools are easy wins: a printed spline roller needs one M4x30 bolt and nut and no supports (Printables 160984); a printed keder tool for 4.5 mm rubber screen cord uses an M6 bolt and lock nut (Printables 905208); and a printed folding guide turns a 4 cm fabric strip into 1 cm piping or keder cover for sewing (Printables 807285). 7) Print hooks and clips so the load runs along the layers, since 'FFF prints are stronger in one direction than another' (Prusa Knowledge Base 'Modeling with 3D printing in mind'). 8) Printing a whole C-groove rail is possible but its thin slot lips are weak across the layers and it won't match an extrusion's [stiffness](../glossary.md#stiffness); buy rails for anything tensioned ⚑ [uncertain].
 
 ### Buying one (off-the-shelf parts)
 
@@ -246,7 +247,7 @@ A screen held by a spline will not stop a child or adult falling out of a window
 - Staples for wood and fabric: the usual way to fix mesh or fabric to a wooden frame with no groove
 - Heat-sealed seam: how keder flaps are welded to coated fabric
 - Sewn seams and hand stitches: how keder rope and bolt ropes are sewn on
-- Hook-and-loop fastener: holds a fabric edge along its length too, but peels and doesn't seal
+- Hook-and-loop fastener: holds a fabric edge along its length too, but [peels](../glossary.md#peel-vs-shear) and doesn't seal
 
 ## Make it yourself
 

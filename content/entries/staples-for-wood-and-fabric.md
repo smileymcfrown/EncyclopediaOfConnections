@@ -125,6 +125,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:U_Shape_Insulated_Staple_01.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Staples_for_wood_and_fabric_staple_gun_hammer_tacker_cable_staple.json
+glossary: [ratchet, form-fit--force-fit--material-bond, brittle--ductile, peel-vs-shear, gland]
 ---
 
 A U-shaped wire fastener driven straight into wood (or a similar soft base) by a staple gun or hammer tacker, whose flat top (crown) bridges over whatever it holds, which makes it the quick way to fix fabric, leather, mesh, plastic film, insulation and low-voltage cables flat onto wood.
@@ -154,7 +155,7 @@ Use staples whenever a thin, flexible material must be fixed flat onto wood quic
 
 ## When not to use it
 
-Not for carrying real loads or joining solid wood structurally: staples hold less than nails or screws (Wikipedia 'Staple (fastener)'); use Wood screws, Nails or Metal brackets. Not where the part must come apart again and again: use screws, Hook-and-loop fastener or snaps. Not into 3D-printed plastic, acrylic or other brittle materials (use screws, inserts or glue). Not for mains cable with ordinary staples, and not with a tool its maker says is unsuitable for electrical cables (Toolstation PCT162 manual): mains cable is fixed only with fittings designed for that cable, following local wiring rules (Baltimore City Code 334.30; UK Approved Document P). For fabric that must be sewn to fabric, use stitching (see Load-bearing stitch patterns); for strap ends, use rivets or sewing.
+Not for carrying real loads or joining solid wood structurally: staples hold less than nails or screws (Wikipedia 'Staple (fastener)'); use Wood screws, Nails or Metal brackets. Not where the part must come apart again and again: use screws, Hook-and-loop fastener or snaps. Not into 3D-printed plastic, acrylic or other [brittle](../glossary.md#brittle--ductile) materials (use screws, inserts or glue). Not for mains cable with ordinary staples, and not with a tool its maker says is unsuitable for electrical cables (Toolstation PCT162 manual): mains cable is fixed only with fittings designed for that cable, following local wiring rules (Baltimore City Code 334.30; UK Approved Document P). For fabric that must be sewn to fabric, use stitching (see Load-bearing stitch patterns); for strap ends, use rivets or sewing.
 
 ## Details
 
@@ -165,11 +166,11 @@ Not for carrying real loads or joining solid wood structurally: staples hold les
 - **Special behaviour:**
   - none: it simply holds by its legs in the wood and its crown over the material
 - **How it holds:**
-  - friction or clamping (force-fit): the legs are gripped by the wood fibres like nails (USDA Wood Handbook ch. 8)
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the legs are gripped by the wood fibres like nails (USDA Wood Handbook ch. 8)
   - shape (the parts interlock; form-fit): the crown straddles the cable, wire or folded fabric so it can't lift off; outward-clinch staples and hog rings are bent into a hook or closed ring (Wikipedia 'Staple (fastener)'; aftfasteners.com)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed) for the fixing; the tool is manual (spring-loaded staple gun, hammer tacker) or powered (electric, cordless or pneumatic stapler) (Wikipedia 'Staple gun').
-- **Load:** Light. Each leg resists pull-out like a small nail: the Wood Handbook uses its nail equation p = 54.12 G^2.5 D L (N, mm) for one staple leg, though 'no verification tests have been done'; for a leg about 1 mm thick going 10 mm into wood of specific gravity 0.5 that gives roughly 95 N (about 10 kgf) per leg, under 200 N per staple, as a short-term breaking value (calculated here; safe loads are far lower) ⚑ [uncertain]. Sideways (shear) strength varies with leg diameter to the 3/2 power, so each leg must be about two-thirds the diameter of a nail to match it (USDA Wood Handbook ch. 8). Staples 'generally have lower holding power compared to nails or screws' (Wikipedia 'Staple (fastener)'). Weak points: pulling straight out, thin fabric tearing out round the crown, and staples driven parallel to the grain splitting the wood ⚑ [uncertain]. Strongest when the load slides along the surface (shear), as when taut fabric is pulled across a frame.
+- **Load:** Light. Each leg resists pull-out like a small nail: the Wood Handbook uses its nail equation p = 54.12 G^2.5 D L (N, mm) for one staple leg, though 'no verification tests have been done'; for a leg about 1 mm thick going 10 mm into wood of specific gravity 0.5 that gives roughly 95 N (about 10 kgf) per leg, under 200 N per staple, as a short-term breaking value (calculated here; safe loads are far lower) ⚑ [uncertain]. Sideways ([shear](../glossary.md#peel-vs-shear)) strength varies with leg diameter to the 3/2 power, so each leg must be about two-thirds the diameter of a nail to match it (USDA Wood Handbook ch. 8). Staples 'generally have lower holding power compared to nails or screws' (Wikipedia 'Staple (fastener)'). Weak points: pulling straight out, thin fabric tearing out round the crown, and staples driven parallel to the grain splitting the wood ⚑ [uncertain]. Strongest when the load slides along the surface (shear), as when taut fabric is pulled across a frame.
 - **Play and precision:** not applicable: staples hold flexible material in place; they do not locate parts accurately.
 - **Taking it apart:** semi-permanent: 'Once a staple has been driven, it is difficult to remove without causing damage to the surrounding material' (Wikipedia 'Staple (fastener)'); it is prised out with pliers, a thin screwdriver or a staple or tack remover (The Bulletin, Bend, 'DIY: Reupholster chairs'), leaving two small holes.
 - **How often it can be reused:** once: a removed staple is bent and thrown away; the material can be re-stapled in fresh places a few times before the wood or fabric edge is shredded ⚑ [uncertain].
@@ -223,8 +224,8 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 - Hook-and-loop fastener: when fabric must come off and go back on
 - Leather and textile rivets (double-cap, tubular and split rivets): permanent joins in straps and leather, through both layers
 - Load-bearing stitch patterns for straps and webbing: sewing fabric to fabric where staples won't do
-- Cable gland and strain relief: holds a cable where it enters a box, rather than along a surface
-- Linear ratchet (cable-tie ratchet): cable ties and cable-tie mounts as an alternative way to hold cables
+- Cable [gland](../glossary.md#gland) and strain relief: holds a cable where it enters a box, rather than along a surface
+- Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): cable ties and cable-tie mounts as an alternative way to hold cables
 - Push-in plastic rivet (fir-tree clip): pushes into a hole to hold trim panels and fabric-covered boards
 - Hog ring (C-ring): a squeezed wire ring for upholstery, car seats and mesh (a variant in this entry, not a separate one)
 

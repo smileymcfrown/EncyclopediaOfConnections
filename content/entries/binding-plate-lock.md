@@ -107,6 +107,8 @@ sources:
 - https://www.youtube.com/watch?v=SSKu5k4xVPI
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=SSKu5k4xVPI&format=json
 research: research/connection-types/results/Bindingplate_lock_tilting_friction_plate.json
+glossary: [self-locking, detent, ratchet, sprag, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
+  collet, creep, infill]
 ---
 
 A flat plate with a slightly oversized hole that slides freely along a rod while it sits square, but tips a few degrees and wedges the edges of its hole against the rod when pushed the other way, giving a stepless one-way lock that you release by pushing the plate square again.
@@ -137,7 +139,7 @@ When a rod, bar or pipe must hold at any point (not just at notches) against a p
 
 ## When not to use it
 
-Avoid it when the rod is plastic, oily, or slick-coated, because it slips: use a toothed linear ratchet instead. Avoid it for loads that must never drop, such as anything over people, unless it is a rated product: friction locks slip when surfaces are contaminated or edges wear, so use a positive lock (pin, toothed ratchet or screw). Avoid it where you need to hold both directions: use a clamp collar or set screw. Avoid it where you need exact, repeatable positions: use indexing holes or a detent.
+Avoid it when the rod is plastic, oily, or slick-coated, because it slips: use a toothed linear [ratchet](../glossary.md#ratchet) instead. Avoid it for loads that must never drop, such as anything over people, unless it is a rated product: friction locks slip when surfaces are contaminated or edges wear, so use a positive lock (pin, toothed ratchet or screw). Avoid it where you need to hold both directions: use a clamp collar or [set screw](../glossary.md#set-screw). Avoid it where you need exact, repeatable positions: use indexing holes or a [detent](../glossary.md#detent).
 
 ## Details
 
@@ -150,18 +152,18 @@ Avoid it when the rod is plastic, oily, or slick-coated, because it slips: use a
 - **Directions it can move (degrees of freedom):** 1: the plate and rod move only along the rod's length (the rod could also turn in the hole, but that is not used); under load the lock removes that freedom in one direction
 - **Special behaviour:**
   - one-way (moves freely one way, locks the other): the tipped plate slides one way and bites the other
-  - self-locking (holds under load, won't back-drive): the harder the load pushes, the harder the plate's edges bite
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the harder the load pushes, the harder the plate's edges bite
   - hand-release only (locks under load, releases when a person operates it): pressing the release plate square frees the rod, as with a caulking gun's thumb plate or a bar clamp's release lever
   - quick-release: one press and the rod or jaw slides freely for fast repositioning
   - tensioning (takes up slack and holds): it pushes clamp jaws or a caulk plunger and keeps the pressure on
   - stepless holding: unlike a toothed ratchet it can hold at any point along the rod
 - **How it holds:**
-  - friction or clamping (force-fit): the edges of the hole grip the rod by friction, wedged tighter by the load
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the edges of the hole grip the rod by friction, wedged tighter by the load
   - spring force (a springy part presses it in place): a small spring keeps the plate tipped so it is ready to bite
 - **Input and output:** Holding version: not a motion converter; it simply stops the rod moving back (back-drivable: no, unless the rod is oily, the plate edges are worn, or the plate is held square). Drive version (caulking gun, one-handed bar clamp): repeated trigger squeezes (back-and-forth swing) -> a step-by-step straight push of the rod. Smooth-rod caulking guns with a friction plate give a thrust ratio of about 10:1 or more; older notched ratchet-rod guns about 5:1 (Sashco). The rod runs along the gun or clamp, parallel to the push. Back-drivable: no while the holding plate is engaged.
 - **Power:** passive (no power needed)
-- **Load:** Medium to heavy along the rod in the locking direction when hard steel plates bite a steel rod, bar or pipe (bar clamps, pipe clamps, caulking guns); zero in the free direction by design. Weak against twisting and sideways loads on the plate. The holding force depends on the rod surface: slick galvanized pipe, oily or glue-covered bars and worn plate edges slip (Sawmill Creek forum threads).
-- **Play and precision:** Small: the rod creeps back a little while the plate tips from square to biting ⚑ [uncertain: amount not verified], then holds at any point along the rod (stepless, unlike a ratchet's tooth steps). This, plus the rod's springiness, is why caulk keeps oozing after you let go; drip-free guns deliberately let the rod retract a few millimetres when you press the release (Caulk Manufacturing). It tolerates a loose, rough fit: the hole only has to be loose enough for the plate to tip.
+- **Load:** Medium to heavy along the rod in the locking direction when hard steel plates bite a steel rod, bar or pipe (bar clamps, pipe clamps, caulking guns); zero in the free direction by design. Weak against twisting and sideways loads on the plate. The [holding force](../glossary.md#holding-force) depends on the rod surface: slick galvanized pipe, oily or glue-covered bars and worn plate edges slip (Sawmill Creek forum threads).
+- **Play and precision:** Small: the rod [creeps](../glossary.md#creep) back a little while the plate tips from square to biting ⚑ [uncertain: amount not verified], then holds at any point along the rod (stepless, unlike a ratchet's tooth steps). This, plus the rod's springiness, is why caulk keeps oozing after you let go; drip-free guns deliberately let the rod retract a few millimetres when you press the release (Caulk Manufacturing). It tolerates a loose, rough fit: the hole only has to be loose enough for the plate to tip.
 - **Taking it apart:** tool-free quick release: press the release plate or lever and the rod slides out
 - **How often it can be reused:** many times: it lets go and re-grips thousands of times, but the sharp edges of the hole slowly wear round until it starts to slip ⚑ [uncertain: no cycle count verified]
 - **Sealing:** none: nothing makes it seal
@@ -184,7 +186,7 @@ Avoid it when the rod is plastic, oily, or slick-coated, because it slips: use a
 
 ### 3D printing tips
 
-Print the frame, trigger and release lever, but keep the biting plate and the rod metal (a steel washer or cut steel plate on a ground steel rod or flat bar). Make the plate's hole slightly bigger than the rod so it can tip a few degrees: too loose and it tips too far before biting, too tight and it may not release ⚑ [uncertain: no verified clearance figure]. Keep the plate thin compared with the rod: a tipped part binds when the friction coefficient is at least engagement length divided by width (Kalsi), so, for example, a 2 mm plate on a 10 mm rod needs a friction coefficient of only about 0.2 to lock ⚑ [uncertain: worked example is an application of Kalsi's rule, not a tested design]. Put the sharp, sheared edge of the hole on the side that should bite (Sawmill Creek). Add a small compression spring to hold the plate tipped and a lever or button that pushes it square to release. Print the housing so the plate's reaction force presses into solid walls rather than pulling layers apart (FFF prints are stronger in one direction than another, Prusa), with thick walls or solid infill around the edge the plate leans on. Keep grease and oil off the rod: lubricant lowers friction and can stop it locking (Kalsi says to design with the lubricant that will be present).
+Print the frame, trigger and release lever, but keep the biting plate and the rod metal (a steel washer or cut steel plate on a ground steel rod or flat bar). Make the plate's hole slightly bigger than the rod so it can tip a few degrees: too loose and it tips too far before biting, too tight and it may not release ⚑ [uncertain: no verified [clearance](../glossary.md#clearance) figure]. Keep the plate thin compared with the rod: a tipped part binds when the friction coefficient is at least engagement length divided by width (Kalsi), so, for example, a 2 mm plate on a 10 mm rod needs a friction coefficient of only about 0.2 to lock ⚑ [uncertain: worked example is an application of Kalsi's rule, not a tested design]. Put the sharp, sheared edge of the hole on the side that should bite (Sawmill Creek). Add a small compression spring to hold the plate tipped and a lever or button that pushes it square to release. Print the housing so the plate's reaction force presses into solid walls rather than pulling layers apart (FFF prints are stronger in one direction than another, Prusa), with thick walls or solid [infill](../glossary.md#infill) around the edge the plate leans on. Keep grease and oil off the rod: lubricant lowers friction and can stop it locking (Kalsi says to design with the lubricant that will be present).
 
 ### Buying one (off-the-shelf parts)
 
@@ -213,10 +215,10 @@ Pinch points between clamp jaws and at the trigger. A clamp or caulk gun stores 
 - Linear ratchet (cable-tie ratchet): holds in fixed tooth steps with a positive, non-slipping lock instead of friction
 - Cam cleat and rope cam: a toothed or smooth cam wedges a rope instead of a plate wedging a rod
 - Wrap-spring clutch: the turning version of a self-tightening friction grip
-- Roller clutch and sprag clutch: turning one-way locks that wedge rollers or sprags instead of tipping a plate
+- Roller clutch and [sprag](../glossary.md#sprag) clutch: turning one-way locks that wedge rollers or sprags instead of tipping a plate
 - Shaft collar or set screw: holds a rod in both directions but must be loosened with a tool to move
 - Screw clamp: slower, but holds in both directions and can be set to a known force
-- Collet or split-cone lock (telescoping poles): clamps all round by screwing a nut, holds both ways
+- [Collet](../glossary.md#collet) or split-cone lock (telescoping poles): clamps all round by screwing a nut, holds both ways
 
 ## Pictures, videos and models
 

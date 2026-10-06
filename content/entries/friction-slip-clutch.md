@@ -137,9 +137,11 @@ sources:
 - https://www.youtube.com/watch?v=kHT3rltCInU
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_slip_clutch_slip_coupling_slipper_clutch.json
+glossary: [misalignment, backlash, self-locking, torque, gear-ratio, hysteresis, tolerance, form-fit--force-fit--material-bond,
+  set-screw, spline, circlip, repeatability--accuracy, creep, stress-relaxation, peel-vs-shear, o-ring]
 ---
 
-Two or more friction surfaces held together by an adjustable spring pass turning force like a solid joint until a set torque, then slide smoothly and keep sliding for as long as the overload lasts, resetting by themselves afterwards.
+Two or more friction surfaces held together by an adjustable spring pass turning force like a solid joint until a set [torque](../glossary.md#torque), then slide smoothly and keep sliding for as long as the overload lasts, resetting by themselves afterwards.
 
 **In plain words:** A spring squeezes rubbing plates together so the drive turns normally, but the plates slide over each other instead of breaking something when the load gets too heavy. **Proper term:** Friction slip clutch (friction torque limiter).
 
@@ -166,7 +168,7 @@ When a motor or gearbox could jam or hit an end stop and you want it to slip saf
 
 ## When not to use it
 
-Not when the load must be held against gravity or position must never be lost, because a slipping clutch lets the load move and the output loses its position (use a worm drive, brake or other self-locking drive, or a ball-detent limiter that snaps back to the same position). Not where it would slip for long periods at speed, since heat and wear build up (stop the motor using current sensing, or use a magnetic or hysteresis coupling). Not where an exact trip torque is needed, since friction limiters vary by about +/-15% (use a ball-detent torque limiter). Not where you need the drive fully disconnected on overload (use a disconnect-type ball-detent limiter or a shear pin). Not in oily places unless it is sealed or oil-rated
+Not when the load must be held against gravity or position must never be lost, because a slipping clutch lets the load move and the output loses its position (use a worm drive, brake or other [self-locking](../glossary.md#self-locking) drive, or a ball-detent limiter that snaps back to the same position). Not where it would slip for long periods at speed, since heat and wear build up (stop the motor using current sensing, or use a magnetic or [hysteresis](../glossary.md#hysteresis) coupling). Not where an exact trip torque is needed, since friction limiters vary by about +/-15% (use a ball-detent torque limiter). Not where you need the drive fully disconnected on overload (use a disconnect-type ball-detent limiter or a [shear](../glossary.md#peel-vs-shear) pin). Not in oily places unless it is sealed or oil-rated
 
 ## Details
 
@@ -179,19 +181,19 @@ Not when the load must be held against gravity or position must never be lost, b
   - torque-limiting: slips smoothly at a set, adjustable torque instead of breaking gear teeth or stalling a motor, and keeps passing that torque while it slips (it does not disconnect completely)
   - Resets itself: grips again as soon as the overload ends; nothing to replace (unlike a shear pin)
 - **How it holds:**
-  - friction or clamping (force-fit): the drive is carried only by friction between the pressed faces
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the drive is carried only by friction between the pressed faces
   - spring force (a spring or springy part presses it in place): a coil, wave or disc spring provides the clamping force and sets the slip torque
 - **Input and output:** continuous rotation -> the same continuous rotation, ratio 1:1 while gripping; limited to the set slip torque when overloaded (the output then turns slower or stops while the input keeps turning). Efficiency close to 100% while gripping; while slipping, all the power passing through the slipping faces becomes heat. Shafts in line (as a shaft-to-shaft coupling) or a gear, sprocket or pulley mounted on a hub on one shaft (ComInTec style). Back-drivable: yes; it slips at about the same torque in either direction, so a load can drive it backwards once it exceeds the slip torque (for example an arm sagging under gravity)
 - **Power:** passive (no power needed); the spring provides the clamping force. Electromagnetic and magnetic-particle clutches that do the same job are covered elsewhere
 - **Load:** Light to heavy depending on size: hobby versions carry light loads (a few N·cm in a toy clutch gear to about 1 N·m in printed designs ⚑ [uncertain]); industrial friction torque limiters are sold from about 1 N·m up to 23,000 N·m (ComInTec range quoted in CDA). Strong in twist up to its set slip torque by design; it is not meant to carry large side loads or thrust on its own, so the shaft needs its own bearings
-- **Play and precision:** No backlash while gripping if the friction plate is mounted rigidly; if the plate slides on a spline to follow the spring, the spline adds backlash, and Slocum advises mounting the plate on a thin flexible disc (diaphragm) for precision work. Repeatability of the slip torque is modest (industrial units about +/-15%). After any slip the output has lost its angular position relative to the input, so a robot joint needs re-homing if its position sensor is on the motor side. It does not tolerate much shaft misalignment; use a flexible coupling as well if the shafts are not in line
-- **Taking it apart:** removable: slides off the shaft after undoing the adjusting nut (or a circlip on small ones)
+- **Play and precision:** No [backlash](../glossary.md#backlash) while gripping if the friction plate is mounted rigidly; if the plate slides on a [spline](../glossary.md#spline) to follow the spring, the spline adds backlash, and Slocum advises mounting the plate on a thin flexible disc (diaphragm) for precision work. [Repeatability](../glossary.md#repeatability--accuracy) of the slip torque is modest (industrial units about +/-15%). After any slip the output has lost its angular position relative to the input, so a robot joint needs re-homing if its position sensor is on the motor side. It does not tolerate much shaft [misalignment](../glossary.md#misalignment); use a flexible coupling as well if the shafts are not in line
+- **Taking it apart:** removable: slides off the shaft after undoing the adjusting nut (or a [circlip](../glossary.md#circlip) on small ones)
 - **How often it can be reused:** effectively unlimited: it can slip and re-grip over and over and can be taken apart many times, though the friction faces wear and the torque setting drifts, so it needs checking and occasional new pads
 - **Sealing:** none: it is an open mechanism; oil, grease or water on the friction faces changes the slip torque, so it should be kept dry and clean or covered
 - **Adjustable:** yes: turning the adjusting nut changes how hard the spring presses (industrial units: tighten until it no longer slips in normal running, then a further half turn; RC slipper clutches are adjusted in 1/8-turn steps). Changing the spring or adding friction discs changes the range
 - **Access needed:** end of a tube or shaft: the parts slide onto a shaft end and are clamped by a nut or circlip on that end
-- **Materials:** Industrial: steel hub and pressure plates, bonded friction rings (organic lining material ⚑ [uncertain]), steel disc springs, a bronze or plastic plain bearing inside the driven part. Maker versions: printed plates or gears (PETG is preferred over PLA because slipping makes heat and the parts must flex slightly), a metal compression spring or wave washer, a lock nut on a threaded rod or bolt, and optionally friction pads such as felt, cork, leather or rubber O-rings between printed faces ⚑ [uncertain]. Oil and grease must be kept off the friction faces
-- **Heat, cold, water and wear:** Oil or grease on the faces causes a large torque drop and water a temporary one (CDA Magazine / ComInTec). Heat from slipping raises temperature; printed PLA parts soften and deform above about 60 °C (Prusa PLA guide), PETG is rated for use below about 80 °C (Prusa PETG guide). Plastic parts that are clamped lose force over time through stress relaxation (DuPont design guide), so use a metal spring. Slip torque drifts as the faces wear, bed in, glaze or pick up dirt, so recheck the setting now and then; long periods without slipping can change the first slip torque ⚑ [uncertain]
+- **Materials:** Industrial: steel hub and pressure plates, bonded friction rings (organic lining material ⚑ [uncertain]), steel disc springs, a bronze or plastic plain bearing inside the driven part. Maker versions: printed plates or gears (PETG is preferred over PLA because slipping makes heat and the parts must flex slightly), a metal compression spring or wave washer, a lock nut on a threaded rod or bolt, and optionally friction pads such as felt, cork, leather or rubber [O-rings](../glossary.md#o-ring) between printed faces ⚑ [uncertain]. Oil and grease must be kept off the friction faces
+- **Heat, cold, water and wear:** Oil or grease on the faces causes a large torque drop and water a temporary one (CDA Magazine / ComInTec). Heat from slipping raises temperature; printed PLA parts soften and deform above about 60 °C (Prusa PLA guide), PETG is rated for use below about 80 °C (Prusa PETG guide). Plastic parts that are clamped lose force over time through [stress relaxation](../glossary.md#stress-relaxation) (DuPont design guide), so use a metal spring. Slip torque drifts as the faces wear, bed in, glaze or pick up dirt, so recheck the setting now and then; long periods without slipping can change the first slip torque ⚑ [uncertain]
 
 ## Making it
 
@@ -202,8 +204,8 @@ Not when the load must be held against gravity or position must never be lost, b
   - laser cut: flat friction discs from acrylic, plywood, cork or felt sheet ⚑ [uncertain]
   - off-the-shelf part: industrial friction torque limiters (hub type for sprockets and pulleys, or coupling type), RC slipper clutch assemblies and pads, toy-kit clutch gears
 - **Printing it in one piece (print in place):** no: the plates, spring and nut are separate parts that are assembled, and the spring and nut are normally bought metal parts; this is what allows the torque to be adjusted
-- **Tools:** A spanner (wrench) or screwdriver for the adjusting nut; circlip pliers for small units whose spring is held by a circlip (Commons photo notes the circlip is 'a little tricky to fit'); sometimes a hex key for the hub's set screw
-- **Difficulty:** moderate: easy to print and assemble with a bolt, a spring and a lock nut, but getting a steady slip torque takes trial and error (spring choice, friction material, and printed parts that soften or creep); ready-made friction torque limiters and RC slipper clutches can be bought instead
+- **Tools:** A spanner (wrench) or screwdriver for the adjusting nut; circlip pliers for small units whose spring is held by a circlip (Commons photo notes the circlip is 'a little tricky to fit'); sometimes a hex key for the hub's [set screw](../glossary.md#set-screw)
+- **Difficulty:** moderate: easy to print and assemble with a bolt, a spring and a lock nut, but getting a steady slip torque takes trial and error (spring choice, friction material, and printed parts that soften or [creep](../glossary.md#creep)); ready-made friction torque limiters and RC slipper clutches can be bought instead
 
 ### 3D printing tips
 
@@ -219,7 +221,7 @@ Friction torque limiter (hub type, carries a sprocket, gear or pulley between tw
 - A cone (tapered) friction face multiplies the slip torque by 1 / sin(half-angle) for the same spring force, e.g. a 30° half-angle doubles it (same lecture, eqs. 10 and 15)
 - Industrial friction torque limiters are not precision devices: the slip torque typically varies by about +/-15% (CDA Magazine / ComInTec)
 - Setting: tighten the adjuster until it no longer slips in normal running, then add a further half turn (CDA Magazine / ComInTec); RC slipper clutches are adjusted in 1/8-turn steps (PetitRC; RCexplained)
-- Mount it on the slow side of a gearbox (the output) if it may slip for long, because continuous slipping at speed causes heat and wear; stop the drive if it slips for long (CDA Magazine / ComInTec). Remember the trade-off: torque at the output = clutch slip torque x the gear ratio between the clutch and the output, which is why a clutch gear placed right after the driving gear takes more output torque before it slips (Sariel's gears tutorial)
+- Mount it on the slow side of a gearbox (the output) if it may slip for long, because continuous slipping at speed causes heat and wear; stop the drive if it slips for long (CDA Magazine / ComInTec). Remember the trade-off: torque at the output = clutch slip torque x the [gear ratio](../glossary.md#gear-ratio) between the clutch and the output, which is why a clutch gear placed right after the driving gear takes more output torque before it slips (Sariel's gears tutorial)
 - Keep oil and grease off the friction faces: they cause a dramatic drop in slip torque, and contaminated friction rings must be replaced; water gives a temporary drop (CDA Magazine / ComInTec)
 - Use a spring with a flat force curve (e.g. a disc spring worked in its flat range) so the torque stays steady as the faces wear (German Wikipedia 'Rutschkupplung'; CDA Magazine)
 - If the friction plate slides on a spline there will be backlash; for precision mount the plate on a diaphragm (Slocum, FUNdaMENTALs of Design, Topic 5, 'Wheels: Clutches & Differentials')
@@ -239,7 +241,7 @@ It limits torque but does not make a machine finger-safe: the set torque can sti
 - Torque-limiting gear with flexing spring arms (compliant slip hub): the same slipping-by-friction idea, but the spring is built into a one-piece plastic gear or hub, so it has no separate parts and is not adjustable
 - Shear-pin coupling (breakaway link): a weak pin breaks at the set load and disconnects completely; very predictable and cheap, but must be replaced after every overload
 - Magnetic coupling: magnets pass torque without touching and slip with no wear, but the torque is lower and it has more springiness (backlash)
-- Tolerance ring: a wavy steel band press fit that slips at a set torque; very compact but not adjustable
+- [Tolerance](../glossary.md#tolerance) ring: a wavy steel band press fit that slips at a set torque; very compact but not adjustable
 - Friction clutch (plate or cone clutch): the same parts, but made to be engaged and disengaged on purpose, as in a car
 - Motorcycle slipper clutch (back-torque limiter): a main clutch with ramps that slips only when the wheel drives the engine; a different device despite the shared name
 

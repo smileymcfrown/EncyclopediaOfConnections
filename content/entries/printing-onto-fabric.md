@@ -135,6 +135,7 @@ sources:
   on fabric', 134 '3D Fabric Experimentation', 502073 'Flexi Tulle Snake', 913170 'Scale Mail for fabric printing', 374037
   '3D printed Valentine Flower Greeting Card with Tulle Hinge', 386910 'Print on Fabric Test (Long Spikes)'; pages not opened)
 research: research/connection-types/results/Printing_onto_fabric_fabric_embedded_in_a_3D_print.json
+glossary: [living-hinge, form-fit--force-fit--material-bond, captive-nut, print-in-place, peel-vs-shear]
 ---
 
 A thin open mesh fabric is laid over the first few printed layers during a pause, and the rest of the print fuses through its holes, so the fabric is locked inside each printed piece and the bare fabric between pieces works as a flexible hinge.
@@ -160,7 +161,7 @@ A small assembly that acts as one unit: printed islands (scales, tiles, spikes o
 
 ## When to use it
 
-When you want rigid printed pieces on a flexible fabric backing without sewing or glue: scale armour, spikes and patterns for costumes (Hackaday 2018; Printables), flexible toys and hinged cards (Printables 'Flexi Tulle Snake', 'Valentine ... Card'), light-up scale panels (Adafruit 'Glowing Scale Armor'), filters with a printed frame (Hackaday 2019), folding origami-style panels (see Origami mechanisms), and a fabric margin that can then be sewn onto a garment or skirt (Hackaday 2018 suggests sewing or gluing the tulle-and-scale panel onto a larger piece of fabric). Embedded fabric 'can add composite strength to large structural elements, durable flexibility to a living hinge, or a substrate for new kinds of jewelry' (Hackaday 2020, on Billie Ruben's Remoticon workshop).
+When you want rigid printed pieces on a flexible fabric backing without sewing or glue: scale armour, spikes and patterns for costumes (Hackaday 2018; Printables), flexible toys and hinged cards (Printables 'Flexi Tulle Snake', 'Valentine ... Card'), light-up scale panels (Adafruit 'Glowing Scale Armor'), filters with a printed frame (Hackaday 2019), folding origami-style panels (see Origami mechanisms), and a fabric margin that can then be sewn onto a garment or skirt (Hackaday 2018 suggests sewing or gluing the tulle-and-scale panel onto a larger piece of fabric). Embedded fabric 'can add composite strength to large structural elements, durable flexibility to a [living hinge](../glossary.md#living-hinge), or a substrate for new kinds of jewelry' (Hackaday 2020, on Billie Ruben's Remoticon workshop).
 
 ## When not to use it
 
@@ -176,11 +177,11 @@ Not for pieces bigger than the print bed in one go: large garments have to be ma
 - **Special behaviour:**
   - none: it is a permanent flexible joint with no clever behaviour; the hinge action comes simply from bare fabric between printed pieces
 - **How it holds:**
-  - shape (the parts interlock; form-fit): plastic printed above the mesh flows through its openings and fuses with the layers below, trapping the threads (Özev and Ehrmann 2023; Siraya Tech's 'Mechanical Lock')
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): plastic printed above the mesh flows through its openings and fuses with the layers below, trapping the threads (Özev and Ehrmann 2023; Siraya Tech's 'Mechanical Lock')
   - material bond (glue, solvent or melting): the hot plastic also sticks to and wraps round fibres; soft PLA can 'penetrate between the fibers and build form-locking connections around them' (Meyer et al. 2019), and hot TPU 'adheres to fibers' (Siraya Tech)
 - **Input and output:** not applicable: it is a fixed, flexible joint that does not pass motion on
 - **Power:** passive (no power needed)
-- **Load:** Light. Good for costume scales and spikes, jewellery, decorative panels, card hinges and filters; not for structural joints. No source opened gives a peel or pull-out force ⚑ [uncertain]. It is strong when the fabric is pulled along its own plane (the fabric carries the load) and weakest in peel, where a piece is levered off the mesh; scales on a mesh that is too dense 'peel off' (Siraya Tech). Fabric that is not held firmly inside the sandwich can shift (Özev and Ehrmann 2023). One maker used four layers of tulle instead of one 'to give it extra durability' for a child's toy (Printables 'Flexi Tulle Snake').
+- **Load:** Light. Good for costume scales and spikes, jewellery, decorative panels, card hinges and filters; not for structural joints. No source opened gives a [peel](../glossary.md#peel-vs-shear) or pull-out force ⚑ [uncertain]. It is strong when the fabric is pulled along its own plane (the fabric carries the load) and weakest in peel, where a piece is levered off the mesh; scales on a mesh that is too dense 'peel off' (Siraya Tech). Fabric that is not held firmly inside the sandwich can shift (Özev and Ehrmann 2023). One maker used four layers of tulle instead of one 'to give it extra durability' for a child's toy (Printables 'Flexi Tulle Snake').
 - **Play and precision:** Not a locating joint. The pieces flop freely on the fabric gaps (that is the point), and their final position depends on how flat and straight the mesh was laid: Özev and Ehrmann found fabric that was not pinned by nubs varied in height and could move inside the sandwich, and most nylon meshes stretch in only one direction, so 'orientation of the mesh matters' (Printables 'How to print on fabric').
 - **Taking it apart:** permanent: the mesh is fused inside the plastic and can only be cut away; Prusa notes that flexible filament printed directly onto a T-shirt well enough 'you will probably be unable to remove the print without damaging the clothes'
 - **How often it can be reused:** once
@@ -233,8 +234,8 @@ Synthetic fabric can melt or scorch under the nozzle: 'Synthetic fabrics like Ny
 - Living hinge: an all-plastic thin hinge made in one material, with no fabric layer
 - Multi-material interlock: locks two printed plastics (e.g. TPU and PLA) together by shape instead of locking in a fabric
 - Hook-and-loop fastener and hot-melt or contact adhesive: other ways makers fix cloth to prints (r/3Dprinting discussion in the Sew-on part entry)
-- Captive nut pocket and other pause-and-insert tricks: the same mid-print pause is used to drop in nuts and magnets (Prusa)
-- Print-in-place chain mail 'fabric': interlocking printed links that drape like cloth with no textile at all (Fabricademy tried 'printing chainmail as a fabric')
+- [Captive nut](../glossary.md#captive-nut) pocket and other pause-and-insert tricks: the same mid-print pause is used to drop in nuts and magnets (Prusa)
+- [Print-in-place](../glossary.md#print-in-place) chain mail 'fabric': interlocking printed links that drape like cloth with no textile at all (Fabricademy tried 'printing chainmail as a fabric')
 
 ## Make it yourself
 

@@ -122,6 +122,8 @@ sources:
 - https://www.youtube.com/watch?v=90cXfaFM4O8
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Finray_gripper_fin_ray_effect_finger.json
+glossary: [misalignment, backlash, self-locking, linkage, actuator, stiffness, flexure, living-hinge, tolerance, form-fit--force-fit--material-bond,
+  brittle--ductile, infill, print-in-place, elephants-foot]
 ---
 
 A flexible, hollow, triangular gripper finger with cross ribs that bends toward a pushing object and wraps around it, giving a gentle, self-adjusting grip with no sensors or joints.
@@ -147,7 +149,7 @@ Single piece: two flexible side walls joined at the tip in a V or A shape, sever
 
 ## When to use it
 
-Use fin-ray fingers when a robot or tool must pick up things of different shapes and sizes, or soft and fragile things (fruit, eggs, bottles, cans, packaging) without precise positioning or force sensors; when you want a cheap, printable, one-piece finger for a servo or parallel gripper; or when a gripper must tolerate misalignment, such as pushing plugs or parts into place (Crooks et al. 2016; Hackaday egg gripper; Hartisch and Haninger 2023).
+Use fin-ray fingers when a robot or tool must pick up things of different shapes and sizes, or soft and fragile things (fruit, eggs, bottles, cans, packaging) without precise positioning or force sensors; when you want a cheap, printable, one-piece finger for a servo or parallel gripper; or when a gripper must tolerate [misalignment](../glossary.md#misalignment), such as pushing plugs or parts into place (Crooks et al. 2016; Hackaday egg gripper; Hartisch and Haninger 2023).
 
 ## When not to use it
 
@@ -164,18 +166,18 @@ Avoid it for heavy loads, high gripping forces or strong twisting (use rigid jaw
 - **Special behaviour:**
   - self-aligning or self-centring: the finger passively adapts to the object's shape and position; notched fin-ray fingers corrected up to about 7.5 mm of misalignment when inserting plugs at high speed (Hartisch and Haninger 2023)
 - **How it holds:**
-  - friction or clamping (force-fit): the gripper's actuator squeezes the fingers against the object and friction holds it
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the gripper's [actuator](../glossary.md#actuator) squeezes the fingers against the object and friction holds it
   - shape (the parts interlock; form-fit): the fingers wrap partly around the object, and notched fingertips can lock a part in place (Hartisch and Haninger 2023)
 - **Input and output:** not applicable as a transmission: the finger is passive. A servo, motor-and-tendon, pneumatic bellows or parallel-jaw gripper closes the fingers, and the fingers turn contact pressure into a wrapping motion (Crooks et al. 2016)
-- **Power:** passive (no power needed) for the finger itself; the gripper needs a motor, servo or air to close it, and if power is lost the grip is usually released unless the drive is self-locking ⚑ [uncertain]
+- **Power:** passive (no power needed) for the finger itself; the gripper needs a motor, servo or air to close it, and if power is lost the grip is usually released unless the drive is [self-locking](../glossary.md#self-locking) ⚑ [uncertain]
 - **Load:** light: gentle grip for delicate objects; a tendon-driven research gripper held about 560 g, and fingers began to pull away from their holders at about 300 g of sideways load (Crooks et al. 2016). Weak against twisting (it twisted when trying to open a door) and sideways loads (Crooks et al. 2016)
-- **Play and precision:** Play: no backlash in the finger itself, but it is deliberately soft, so the held object's position is not precise. Misalignment tolerance: high; fin-ray fingers absorbed up to about 7.5 mm of offset in plug insertion (Hartisch and Haninger 2023). A force along the finger rotates the fingertip, which can make a small part lose contact (Hartisch and Haninger 2023)
+- **Play and precision:** Play: no [backlash](../glossary.md#backlash) in the finger itself, but it is deliberately soft, so the held object's position is not precise. Misalignment [tolerance](../glossary.md#tolerance): high; fin-ray fingers absorbed up to about 7.5 mm of offset in plug insertion (Hartisch and Haninger 2023). A force along the finger rotates the fingertip, which can make a small part lose contact (Hartisch and Haninger 2023)
 - **Taking it apart:** tool-free quick release: the gripper lets go as soon as it opens; the fingers are usually bolted to the gripper (removable with a screwdriver)
 - **How often it can be reused:** many times: soft TPU fingers flex repeatedly, but stiff PLA versions broke after a bit of use (juh, Printables), and PLA+ or PETG fingers can deform permanently where ribs meet the wall if overloaded (Hartisch and Haninger 2023)
 - **Sealing:** none
-- **Adjustable:** no, after printing: stiffness is set by rib angle, spacing and thickness, wall thickness and material; makers change these (or the slicer infill settings for ribs) and reprint (Hartisch and Haninger 2023; Adeli and Sayyaadi 2026)
+- **Adjustable:** no, after printing: [stiffness](../glossary.md#stiffness) is set by rib angle, spacing and thickness, wall thickness and material; makers change these (or the slicer [infill](../glossary.md#infill) settings for ribs) and reprint (Hartisch and Haninger 2023; Adeli and Sayyaadi 2026)
 - **Access needed:** not applicable
-- **Materials:** TPU (Shore 95A is common, e.g. Cartman's gripper and the vekkax open-source gripper) or NinjaFlex for soft fingers; PETG or PLA+ for stiffer fingers (Hartisch and Haninger 2023; juh prints a print-in-place version in plain PETG, and PLA versions broke); multi-material resin (TangoPlus soft with VeroClear rigid parts on an Objet500) in research (Crooks et al. 2016); cast silicone (Dragon Skin 30) for early prototypes (Crooks et al. 2016); laser-sintered polyamide for Festo's commercial grippers (Crooks et al. 2016); card or paper for demonstration models (Make, Festo Fin Gripper)
+- **Materials:** TPU (Shore 95A is common, e.g. Cartman's gripper and the vekkax open-source gripper) or NinjaFlex for soft fingers; PETG or PLA+ for stiffer fingers (Hartisch and Haninger 2023; juh prints a [print-in-place](../glossary.md#print-in-place) version in plain PETG, and PLA versions broke); multi-material resin (TangoPlus soft with VeroClear rigid parts on an Objet500) in research (Crooks et al. 2016); cast silicone (Dragon Skin 30) for early prototypes (Crooks et al. 2016); laser-sintered polyamide for Festo's commercial grippers (Crooks et al. 2016); card or paper for demonstration models (Make, Festo Fin Gripper)
 - **Heat, cold, water and wear:** Hot water deforms PETG fingers, so don't clean them in it (Bas, Printables); PLA softens above about 60 to 65 degrees C (An et al. 2018). Printed fingers lose shape if overloaded, with permanent deformation where ribs meet the walls (Hartisch and Haninger 2023). TPU grip and stiffness change with temperature and TPU can wear or tear after long use ⚑ [uncertain]. Rubber coatings wear off and need renewing (juh) ⚑ [uncertain].
 
 ## Making it
@@ -187,13 +189,13 @@ Avoid it for heavy loads, high gripping forces or strong twisting (use rigid jaw
   - casting silicone in printed moulds for soft prototypes
   - paper or card models for teaching (Festo template)
   - off-the-shelf part: ready-made adaptive gripper fingers from automation suppliers (e.g. Festo DHAS)
-- **Printing it in one piece (print in place):** yes: a fin-ray finger prints as one piece; juh's gripper even prints the whole two-finger mechanism in place in PETG with flexure joints (Printables); mounting to a servo or gripper needs screws
+- **Printing it in one piece (print in place):** yes: a fin-ray finger prints as one piece; juh's gripper even prints the whole two-finger mechanism in place in PETG with [flexure](../glossary.md#flexure) joints (Printables); mounting to a servo or gripper needs screws
 - **Tools:** screwdriver or hex key to bolt fingers to the gripper; none to operate
 - **Difficulty:** easy: the finger prints in one piece with no assembly; TPU needs slow printing and a direct-drive extruder is strongly recommended (vekkax, GitHub), and fingers need rubber or texture on the gripping face
 
 ### 3D printing tips
 
-Print the finger lying flat so the ribs and walls are drawn in the plane of bending. A neat slicer trick replaces modelled ribs: model a solid finger, then in the slicer use 'lines' infill with 'connect infill lines' off, one wall about one nozzle width (0.4 mm) thick, and no top or bottom layers, so the infill lines become the ribs; use a modifier or support-blocker region to give the mounting base normal walls and solid top and bottom layers (Hartisch and Haninger 2023, GitHub README). Rib density and angle then become slicer settings: 10 to 30% infill at 0 to 40 degrees was tested; 10% PETG was too floppy to hold a part, 30% was stiff enough to damage delicate parts, and 40 degree ribs failed by buckling and permanent deformation (Hartisch and Haninger 2023). For TPU: 0.2 mm layers, about 220 degrees C nozzle, 20 mm/s, cooling and retraction off, direct-drive extruder (vekkax Fin-ray Soft Gripper). Use many walls (about 10) around screw holes in TPU so the mounts don't flex (SPIDERMONK, Printables). PETG is more forgiving than PLA+ (less permanent deformation; Hartisch and Haninger 2023) and PLA versions broke quickly (juh). Calibrate to avoid over-extrusion, stringing and elephant's foot, which stiffen print-in-place joints (juh). Add grip: rubber bands glued on, vulcanising fluid, spray-on rubber or foam, because smooth PLA or PETG is too slippery (SPIDERMONK; juh; Source Robotics; Hartisch and Haninger 2023). Avoid tiny hard-soft interfaces in dual-material prints; PLA-to-NinjaFlex joints broke, so the fingers were made entirely soft (Crooks et al. 2016). Don't wash PETG fingers in hot water, which deforms them (Bas, Printables).
+Print the finger lying flat so the ribs and walls are drawn in the plane of bending. A neat slicer trick replaces modelled ribs: model a solid finger, then in the slicer use 'lines' infill with 'connect infill lines' off, one wall about one nozzle width (0.4 mm) thick, and no top or bottom layers, so the infill lines become the ribs; use a modifier or support-blocker region to give the mounting base normal walls and solid top and bottom layers (Hartisch and Haninger 2023, GitHub README). Rib density and angle then become slicer settings: 10 to 30% infill at 0 to 40 degrees was tested; 10% PETG was too floppy to hold a part, 30% was stiff enough to damage delicate parts, and 40 degree ribs failed by buckling and permanent deformation (Hartisch and Haninger 2023). For TPU: 0.2 mm layers, about 220 degrees C nozzle, 20 mm/s, cooling and retraction off, direct-drive extruder (vekkax Fin-ray Soft Gripper). Use many walls (about 10) around screw holes in TPU so the mounts don't flex (SPIDERMONK, Printables). PETG is more forgiving than PLA+ (less permanent deformation; Hartisch and Haninger 2023) and PLA versions broke quickly (juh). Calibrate to avoid over-extrusion, stringing and [elephant's foot](../glossary.md#elephants-foot), which stiffen print-in-place joints (juh). Add grip: rubber bands glued on, vulcanising fluid, spray-on rubber or foam, because smooth PLA or PETG is too slippery (SPIDERMONK; juh; Source Robotics; Hartisch and Haninger 2023). Avoid tiny hard-soft interfaces in dual-material prints; PLA-to-NinjaFlex joints broke, so the fingers were made entirely soft (Crooks et al. 2016). Don't wash PETG fingers in hot water, which deforms them (Bas, Printables).
 
 ### Buying one (off-the-shelf parts)
 
@@ -210,11 +212,11 @@ Ready-made fin-ray fingers are sold as 'adaptive gripper fingers' for pneumatic 
 
 ## Common failures
 
-Objects slip because printed plastic is smooth: add rubber, foam or texture (Hartisch and Haninger 2023; SPIDERMONK). Finger too floppy (too few, thin or low-density ribs) or too stiff and crushes parts (too many ribs or high infill): tune rib density and angle (Hartisch and Haninger 2023). Ribs buckle or tear from the walls when overloaded or with steep rib angles (Hartisch and Haninger 2023). Finger twists or bends sideways under side loads: thicken or stiffen the outer wall and add side supports (Crooks et al. 2016). Mounting holes flex or tear in TPU: use many walls there (SPIDERMONK). Brittle PLA fingers crack: use TPU or PETG (juh). Hard-soft material interfaces break in dual-material prints (Crooks et al. 2016).
+Objects slip because printed plastic is smooth: add rubber, foam or texture (Hartisch and Haninger 2023; SPIDERMONK). Finger too floppy (too few, thin or low-density ribs) or too stiff and crushes parts (too many ribs or high infill): tune rib density and angle (Hartisch and Haninger 2023). Ribs buckle or tear from the walls when overloaded or with steep rib angles (Hartisch and Haninger 2023). Finger twists or bends sideways under side loads: thicken or stiffen the outer wall and add side supports (Crooks et al. 2016). Mounting holes flex or tear in TPU: use many walls there (SPIDERMONK). [Brittle](../glossary.md#brittle--ductile) PLA fingers crack: use TPU or PETG (juh). Hard-soft material interfaces break in dual-material prints (Crooks et al. 2016).
 
 ## Safety
 
-Generally one of the safest grippers because the fingers are soft and limit crushing force; still keep fingers clear of the gripper's drive (servo linkages or tendons can pinch). Vulcanising fluid used as a grip coating gives off fumes; don't inhale them (juh, Printables).
+Generally one of the safest grippers because the fingers are soft and limit crushing force; still keep fingers clear of the gripper's drive (servo [linkages](../glossary.md#linkage) or tendons can pinch). Vulcanising fluid used as a grip coating gives off fumes; don't inhale them (juh, Printables).
 
 ## Related
 
@@ -224,7 +226,7 @@ Generally one of the safest grippers because the fingers are soft and limit crus
 - Vacuum suction cup: holds flat, smooth objects instead of wrapping them
 - Jamming gripper: a bag of grains that moulds around an object and then locks rigid when air is sucked out
 - Parallel leaf-spring flexure: gives straight, parallel jaw motion with no wrapping
-- Living hinge and flexure hinge: the thin bending joints that make up the rib-to-wall connections
+- [Living hinge](../glossary.md#living-hinge) and flexure hinge: the thin bending joints that make up the rib-to-wall connections
 
 ## Make it yourself
 

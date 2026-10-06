@@ -115,6 +115,7 @@ sources:
 - https://www.youtube.com/watch?v=Z73rnbUEdN8
 - https://www.youtube.com/watch?v=thBy5z0Kanc
 research: research/connection-types/results/Temporary_sheet_fastener_Clecotype_spring_pin.json
+glossary: [misalignment, clearance, form-fit--force-fit--material-bond, pilot-hole, creep, peel-vs-shear]
 ---
 
 A reusable spring-loaded pin, fitted from one side with special pliers, that grips behind two or more drilled sheets and clamps them together with their holes lined up while they are drilled, fitted or riveted, then comes straight out again.
@@ -158,11 +159,11 @@ Don't use them as permanent or load-carrying fasteners: swap each for a rivet, b
   - self-aligning or self-centring: the snug-fitting jaws pull matching holes into line and keep them there (Wikipedia; FAA-H-8083-31B)
 - **How it holds:**
   - spring force: the internal spring pulls the jaws back and provides the clamping force, which is small (a standard plier-operated Kwik-Lok is rated for about 25 lb, AFT)
-  - shape (form-fit): the stepped jaws hook behind the far sheet and fill the hole, so the sheets can't slide or pull apart
+  - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the stepped jaws hook behind the far sheet and fill the hole, so the sheets can't slide or pull apart
 - **Input and output:** not applicable
 - **Power:** passive (no power needed); hex-nut versions can be driven by a pneumatic nut runner (FAA-H-8083-31B), but they hold without power
-- **Load:** Light: it is for holding parts in place, not carrying loads. A standard plier-operated type clamps with about 25 lb (AFT, Kwik-Lok); wing-nut and hex-nut temporary fasteners give up to 300 lb clamping force when more is needed (FAA-H-8083-31B). The pin resists the sheets sliding over each other (shear) enough to keep holes lined up during drilling, but 'Cleco pins are temporary fasteners, not structural hardware' (V-Twins to V-8s).
-- **Play and precision:** Very little: 'Clecos should fit snugly in their holes to prevent shifting of the workpieces and maintain the alignment of fastener holes which do not have Clecos in them' (Wikipedia). It only works if the hole matches its size (an undamaged silver 3/32 in Cleco passes through a #41 hole, KITPLANES). It tolerates no more misalignment than the hole clearance.
+- **Load:** Light: it is for holding parts in place, not carrying loads. A standard plier-operated type clamps with about 25 lb (AFT, Kwik-Lok); wing-nut and hex-nut temporary fasteners give up to 300 lb clamping force when more is needed (FAA-H-8083-31B). The pin resists the sheets sliding over each other ([shear](../glossary.md#peel-vs-shear)) enough to keep holes lined up during drilling, but 'Cleco pins are temporary fasteners, not structural hardware' (V-Twins to V-8s).
+- **Play and precision:** Very little: 'Clecos should fit snugly in their holes to prevent shifting of the workpieces and maintain the alignment of fastener holes which do not have Clecos in them' (Wikipedia). It only works if the hole matches its size (an undamaged silver 3/32 in Cleco passes through a #41 hole, KITPLANES). It tolerates no more [misalignment](../glossary.md#misalignment) than the hole [clearance](../glossary.md#clearance).
 - **Taking it apart:** removable: comes out in seconds with the same Cleco pliers, leaving the hole ready for a rivet (V-Twins to V-8s)
 - **How often it can be reused:** many times: they are reusable, and one builder says the installs and removals on one aircraft 'must be well into the thousands' (EAA; FAA-H-8083-31B)
 - **Sealing:** none
@@ -195,7 +196,7 @@ Spring-type Clecos in 3/32, 1/8, 5/32, 3/16, 1/4 and 3/8 in (FAA-H-8083-31B), al
 - Six common sizes: 3/32, 1/8, 5/32, 3/16, 1/4 and 3/8 in, with the size stamped on the fastener and colour coding; one type of plier fits all six (FAA-H-8083-31B, p. 4-29).
 - Drill sizes and colours: 3/32 in silver (cadmium) #40; 1/8 in copper #30; 5/32 in black #20; 3/16 in brass #10; 1/4 in copper, 1/4 in drill; standard material thickness 0-1/4 in (Aircraft Spruce K-series sheet holders).
 - Clecos should fit snugly in their holes to prevent shifting and keep other holes aligned (Wikipedia).
-- Pilot holes: #40 for finished holes over 3/32 in, #41 for 3/32 in fasteners; an undamaged silver Cleco passes through a #41 hole (KITPLANES).
+- [Pilot holes](../glossary.md#pilot-hole): #40 for finished holes over 3/32 in, #41 for 3/32 in fasteners; an undamaged silver Cleco passes through a #41 hole (KITPLANES).
 - While match drilling, keep a Cleco or clamp next to each hole being drilled and a Cleco in every other hole (KITPLANES).
 - Spring Clecos clamp lightly (about 25 lb for a standard plier-operated Kwik-Lok, AFT); use wing-nut or hex-nut temporary fasteners, up to 300 lb, when more clamp-up is needed (FAA-H-8083-31B, p. 4-29).
 - Stacks thicker than about 3/16 in don't reliably guide a drill through existing pilot holes; keep the drill square (KITPLANES).
@@ -205,7 +206,7 @@ Spring-type Clecos in 3/32, 1/8, 5/32, 3/16, 1/4 and 3/8 in (FAA-H-8083-31B), al
 
 ## Common failures
 
-1) Wrong-size or oversize holes: the Cleco is loose, the sheets shift and the other holes go out of line (Wikipedia; KITPLANES); drill to the matching size and keep the drill square. 2) Too few Clecos while drilling, so parts creep; put one in every other hole (KITPLANES). 3) Stack thicker than the grip range, so the jaws can't catch (Aircraft Spruce). 4) Burrs left by drilling: builders take the parts apart, deburr the holes and edges, then put them back together with Clecos before riveting (EAA). 5) Weak springs, which clamp poorly (Aircraft Spruce buyer review; V-Twins to V-8s advises avoiding ultra-cheap kits). 6) Too little clamping force for the job (FAA-H-8083-31B); use wing-nut Clecos. 7) Forcing a Cleco into a hole that is too small, or dropping it, can bend the jaws ⚑ [uncertain].
+1) Wrong-size or oversize holes: the Cleco is loose, the sheets shift and the other holes go out of line (Wikipedia; KITPLANES); drill to the matching size and keep the drill square. 2) Too few Clecos while drilling, so parts [creep](../glossary.md#creep); put one in every other hole (KITPLANES). 3) Stack thicker than the grip range, so the jaws can't catch (Aircraft Spruce). 4) Burrs left by drilling: builders take the parts apart, deburr the holes and edges, then put them back together with Clecos before riveting (EAA). 5) Weak springs, which clamp poorly (Aircraft Spruce buyer review; V-Twins to V-8s advises avoiding ultra-cheap kits). 6) Too little clamping force for the job (FAA-H-8083-31B); use wing-nut Clecos. 7) Forcing a Cleco into a hole that is too small, or dropping it, can bend the jaws ⚑ [uncertain].
 
 ## Safety
 

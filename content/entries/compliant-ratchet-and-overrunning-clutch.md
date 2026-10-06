@@ -106,17 +106,20 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rKYTr9NjgOA&format=json
 - https://github.com/shaiss/print-bench/issues/668
 research: research/connection-types/results/Compliant_ratchet_and_overrunning_clutch_flexure_pawl.json
+glossary: [backlash, axial--radial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, stiffness, preload, flexure,
+  compliant-mechanism, living-hinge, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
+  undercut, creep, stress-relaxation, fatigue, brittle--ductile, perimeters, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
-A ratchet or one-way clutch in which the catch (pawl) and its spring are the same springy arm, moulded or printed in one piece with the hub, so the wheel clicks round one way and locks the other with no pins, springs or assembly.
+A [ratchet](../glossary.md#ratchet) or one-way clutch in which the catch ([pawl](../glossary.md#pawl)) and its spring are the same springy arm, moulded or printed in one piece with the hub, so the wheel clicks round one way and locks the other with no pins, springs or assembly.
 
-**In plain words:** A one-piece plastic click-wheel whose catches are springy arms: it turns one way with a click and locks the other way, with no pins or separate springs. **Proper term:** Compliant ratchet (flexure-pawl ratchet); when used as a freewheel, a compliant overrunning clutch.
+**In plain words:** A one-piece plastic click-wheel whose catches are springy arms: it turns one way with a click and locks the other way, with no pins or separate springs. **Proper term:** Compliant ratchet (flexure-pawl ratchet); when used as a [freewheel](../glossary.md#freewheel), a compliant overrunning clutch.
 
-**Also called:** flexure pawl; compliant pawl; flex pawl; spring pawl / leaf-spring pawl / flat-spring pawl; spring-blade ratchet (RoyMech's name for metal versions whose pawls are flat springs); ratchet with molded-in springs (DuPont's description of injection-moulded plastic versions); compliant over-running ratchet and pawl clutch (BYU Compliant Mechanisms Research); compliant overrunning clutch with centrifugal throw-out (US patent 6,148,979); one-piece ratchet / monolithic ratchet; print-in-place ratchet; compliant freewheel.
+**Also called:** [flexure](../glossary.md#flexure) pawl; compliant pawl; flex pawl; spring pawl / leaf-spring pawl / flat-spring pawl; spring-blade ratchet (RoyMech's name for metal versions whose pawls are flat springs); ratchet with molded-in springs (DuPont's description of injection-moulded plastic versions); compliant over-running ratchet and pawl clutch (BYU [Compliant Mechanisms](../glossary.md#compliant-mechanism) Research); compliant overrunning clutch with centrifugal throw-out (US patent 6,148,979); one-piece ratchet / monolithic ratchet; [print-in-place](../glossary.md#print-in-place) ratchet; compliant freewheel.
 
 ## How it works
 
-Each catch sits on the end of a thin arm that bends like a diving board (a cantilever flexure), so the arm is both the hinge and the spring. Turned the free way, the gently sloped backs of the teeth push the catch aside, bending the arm, and it springs back into the next gap with a click. Turned the other way, the steep face of a tooth pushes straight against the catch's tip; the tooth face is shaped so this push drives the catch deeper into the tooth rather than out of it, so the wheel locks. In BYU's patented clutch, stiff support members carry the locking load so the slender spring arms only have to bias the pawls, and at high freewheeling speed the pawls swing outward by centrifugal force (centrifugal throw-out) so they stop rubbing on the teeth (US 6,148,979).
+Each catch sits on the end of a thin arm that bends like a diving board (a [cantilever](../glossary.md#cantilever) flexure), so the arm is both the hinge and the spring. Turned the free way, the gently sloped backs of the teeth push the catch aside, bending the arm, and it springs back into the next gap with a click. Turned the other way, the steep face of a tooth pushes straight against the catch's tip; the tooth face is shaped so this push drives the catch deeper into the tooth rather than out of it, so the wheel locks. In BYU's patented clutch, stiff support members carry the locking load so the slender spring arms only have to bias the pawls, and at high freewheeling speed the pawls swing outward by centrifugal force (centrifugal throw-out) so they stop rubbing on the teeth (US 6,148,979).
 
 ## Parts
 
@@ -130,11 +133,11 @@ A few parts, often just one: (1) a toothed wheel or toothed ring (ratchet wheel)
 
 ## When to use it
 
-When you want a one-way or click-stop action in a printed or moulded part without buying springs and pins: winders and take-up spools, anti-reverse on a hand crank, one-way knobs, simple freewheels in toys and light hand tools, and teaching models. It is a good choice when the part should be cheap, one piece, and assemble in seconds (or not at all), when loads are light, and when the catch spends most of its time resting in a tooth gap rather than held bent.
+When you want a one-way or click-stop action in a printed or moulded part without buying springs and pins: winders and take-up spools, anti-reverse on a hand [crank](../glossary.md#crank), one-way knobs, simple freewheels in toys and light hand tools, and teaching models. It is a good choice when the part should be cheap, one piece, and assemble in seconds (or not at all), when loads are light, and when the catch spends most of its time resting in a tooth gap rather than held bent.
 
 ## When not to use it
 
-Avoid it for heavy or safety-critical holding (hoists, anything above people): use a steel ratchet and pawl with a metal spring, or a worm drive. Avoid it where a catch must stay bent for long periods, because plastic springs creep and lose force (DuPont): use a metal spring. Avoid it when clicking or the one-tooth backlash matters: use a roller clutch or sprag clutch (silent, no tooth steps) or a wrap-spring clutch. Avoid PLA arms for high cycle counts: use PETG, nylon or a metal spring blade. Avoid fast freewheeling unless the design allows for it (the BYU centrifugal throw-out is one answer).
+Avoid it for heavy or safety-critical holding (hoists, anything above people): use a steel ratchet and pawl with a metal spring, or a worm drive. Avoid it where a catch must stay bent for long periods, because plastic springs [creep](../glossary.md#creep) and lose force (DuPont): use a metal spring. Avoid it when clicking or the one-tooth [backlash](../glossary.md#backlash) matters: use a roller clutch or [sprag](../glossary.md#sprag) clutch (silent, no tooth steps) or a wrap-spring clutch. Avoid PLA arms for high cycle counts: use PETG, nylon or a metal spring blade. Avoid fast freewheeling unless the design allows for it (the BYU centrifugal throw-out is one answer).
 
 ## Details
 
@@ -150,14 +153,14 @@ Avoid it for heavy or safety-critical holding (hoists, anything above people): u
   - tensioning (takes up slack and holds): in winders and cable ties it keeps the tension you wind or pull in
   - BYU variant only: centrifugal throw-out, meaning the pawls swing clear of the teeth at speed, so the freewheeling clutch runs with less rubbing, noise and wear (US 6,148,979)
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the tip of the catch hooks against a tooth face
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the tip of the catch hooks against a tooth face
   - spring force (a springy part presses it in place): the bent arm keeps the catch pressed into the teeth
-- **Input and output:** Rotation in the driving direction -> the same rotation at 1:1 (it is a clutch, not a gearbox); in the other direction the wheel freewheels. Shafts in line. Efficient when driving because nothing slides once a catch is engaged; there is a small drag from the arms rubbing over the teeth when freewheeling. Back-drivable: no in the locking direction; free in the other direction. BYU reported a polypropylene clutch reaching over 66.2 N·m peak torque with under 0.01 N·m overrunning torque ⚑ [uncertain: figures from the listing of the 1998 ASME paper by Roach, Lyon and Howell; the page itself could not be opened].
+- **Input and output:** Rotation in the driving direction -> the same rotation at 1:1 (it is a clutch, not a gearbox); in the other direction the wheel freewheels. Shafts in line. Efficient when driving because nothing slides once a catch is engaged; there is a small drag from the arms rubbing over the teeth when freewheeling. Back-drivable: no in the locking direction; free in the other direction. BYU reported a polypropylene clutch reaching over 66.2 N·m peak [torque](../glossary.md#torque) with under 0.01 N·m overrunning torque ⚑ [uncertain: figures from the listing of the 1998 ASME paper by Roach, Lyon and Howell; the page itself could not be opened].
 - **Power:** passive (no power needed)
 - **Load:** Light to medium. Strongest in the locking direction when the tooth pushes straight along the catch, so the stiff part of the pawl, not the thin spring arm, carries the load (the BYU patent uses separate support members for this; a BYU thesis reports the most torque with pawls loaded in compression ⚑ [uncertain: thesis seen only as a search listing]). Weak if the catch is loaded sideways or the thin arm has to carry the lock. Plastic versions suit hand-powered and small-motor loads, not lifting people or heavy overhead loads.
 - **Play and precision:** Noticeable: like any ratchet it can slip back by up to one tooth before a catch lands (Wikipedia, Ratchet (device)); more teeth, or several catches offset by a fraction of a tooth, make the steps smaller ⚑ [uncertain: offset-pawl trick not verified on an opened page]. It returns to tooth positions repeatably. It tolerates a little wobble because the arms flex, but the catch tips must stay lined up with the teeth.
 - **Taking it apart:** removable: two-part designs (pawl hub plus ratchet ring) slide apart; print-in-place versions are captive, so in practice they are permanent unless you cut them
-- **How often it can be reused:** many times: there are no fasteners to wear out; the life limit is fatigue of the springy arms, not taking it apart
+- **How often it can be reused:** many times: there are no fasteners to wear out; the life limit is [fatigue](../glossary.md#fatigue) of the springy arms, not taking it apart
 - **Sealing:** none: it is an open mechanism and nothing makes it seal
 - **Adjustable:** no: the click force is set by the arm's length and thickness; to change it you reprint or remould with a different arm
 - **Access needed:** end of a tube or shaft: the hub or wheel slides onto the end of a shaft; print-in-place demos need no access at all
@@ -168,17 +171,17 @@ Avoid it for heavy or safety-critical holding (hoists, anything above people): u
 
 - **Ways to make or get it:**
   - 3D print (FDM): the usual maker method; prints in one piece
-  - 3D print (resin): possible for small demos, but many standard resins are brittle, so thin arms may crack ⚑ [uncertain]
+  - 3D print (resin): possible for small demos, but many standard resins are [brittle](../glossary.md#brittle--ductile), so thin arms may crack ⚑ [uncertain]
   - CNC or laser cut: flat versions can be cut from sheet plastic such as acetal ⚑ [uncertain]
   - sheet metal: spring-steel blade pawls in metal ratchets (RoyMech, spring blade ratchet)
   - off-the-shelf part: a cable tie is a ready-made linear ratchet with a moulded flexing catch
-- **Printing it in one piece (print in place):** yes: the wheel, the springy catches and the frame can print already assembled and working, provided there is clearance between the moving parts (Prusa suggests at least 0.3 mm as a starting point)
+- **Printing it in one piece (print in place):** yes: the wheel, the springy catches and the frame can print already assembled and working, provided there is [clearance](../glossary.md#clearance) between the moving parts (Prusa suggests at least 0.3 mm as a starting point)
 - **Tools:** none: it prints or moulds in one piece; two-part versions push together by hand
-- **Difficulty:** moderate: it prints in one piece, but getting the arm stiffness, tip clearance and tooth shape right usually takes a few test prints
+- **Difficulty:** moderate: it prints in one piece, but getting the arm [stiffness](../glossary.md#stiffness), tip clearance and tooth shape right usually takes a few test prints
 
 ### 3D printing tips
 
-Orientation: print it lying flat so the arms bend sideways in the plane of the bed. Each arm is then built from continuous extrusion lines running along its length, and bending does not try to peel layers apart (Hubs' living-hinge rule: orient so the hinge's width, not its length, is built up layer by layer). Arm size: make each arm at least two perimeters wide (about 0.9 mm with a 0.4 mm nozzle; one perimeter, about 0.45 mm, is the absolute minimum, Prusa). For a given bend, stress rises with thickness and falls with length (standard cantilever formula, quoted in the print-bench design brief), so prefer longer, thinner arms to short, thick ones. Tapering the arm toward its tip (a constant-strength beam) gives the same stiffness at about two-thirds of the stress (DuPont, p. 36). Add a generous fillet where the arm joins the hub, because sharp corners start fatigue cracks (DuPont, p. 36). Clearance: leave at least 0.3 mm between wheel and frame and around the catch tips (Prusa), and check the first layer, since a squashed first layer (elephant's foot) is a common reason print-in-place parts fuse. Material: PETG or nylon for the arms; avoid PLA for anything that must click many times (Hackaday). Rest state: design so the catches sit in the tooth gaps with little or no bend when stopped; plastic springs held bent for long periods creep and lose force (DuPont, pp. 36-37 and 47). Tooth shape: make the locking face of each tooth point straight at the centre (radial) or slightly undercut, so the load pulls the catch in, and make the back of the tooth a shallow slope so the catch rides over it (one hobby brief used a radial locking flank and about a 60° drive flank). Use two or more catches spread round the wheel to share and balance the load. Typical print failures: an arm snapping at its root (add a fillet, taper it, use PETG or nylon, reduce how far it bends), arms taking a set so the clicks get weak (reduce preload), catches skipping under load (steeper locking face, stiffer arms, more catches) and fused parts (more clearance).
+Orientation: print it lying flat so the arms bend sideways in the plane of the bed. Each arm is then built from continuous extrusion lines running along its length, and bending does not try to [peel](../glossary.md#peel-vs-shear) layers apart (Hubs' living-hinge rule: orient so the hinge's width, not its length, is built up layer by layer). Arm size: make each arm at least two [perimeters](../glossary.md#perimeters) wide (about 0.9 mm with a 0.4 mm nozzle; one perimeter, about 0.45 mm, is the absolute minimum, Prusa). For a given bend, stress rises with thickness and falls with length (standard cantilever formula, quoted in the print-bench design brief), so prefer longer, thinner arms to short, thick ones. Tapering the arm toward its tip (a constant-strength beam) gives the same stiffness at about two-thirds of the stress (DuPont, p. 36). Add a generous [fillet](../glossary.md#chamfer--fillet) where the arm joins the hub, because sharp corners start fatigue cracks (DuPont, p. 36). Clearance: leave at least 0.3 mm between wheel and frame and around the catch tips (Prusa), and check the first layer, since a squashed first layer ([elephant's foot](../glossary.md#elephants-foot)) is a common reason print-in-place parts fuse. Material: PETG or nylon for the arms; avoid PLA for anything that must click many times (Hackaday). Rest state: design so the catches sit in the tooth gaps with little or no bend when stopped; plastic springs held bent for long periods creep and lose force (DuPont, pp. 36-37 and 47). Tooth shape: make the locking face of each tooth point straight at the centre ([radial](../glossary.md#axial--radial)) or slightly [undercut](../glossary.md#undercut), so the load pulls the catch in, and make the back of the tooth a shallow slope so the catch rides over it (one hobby brief used a radial locking flank and about a 60° drive flank). Use two or more catches spread round the wheel to share and balance the load. Typical print failures: an arm snapping at its root (add a fillet, [taper](../glossary.md#taper) it, use PETG or nylon, reduce how far it bends), arms taking a set so the clicks get weak (reduce [preload](../glossary.md#preload)), catches skipping under load (steeper locking face, stiffer arms, more catches) and fused parts (more clearance).
 
 ### Buying one (off-the-shelf parts)
 
@@ -186,13 +189,13 @@ Few ready-made compliant ratchets are sold as parts. Useful search terms: 'cable
 
 ## Rules of thumb
 
-- Plastic springs suit intermittent action, not constant load: 'Springs under constant load or deflection should be designed in spring steel' because of creep and stress relaxation (DuPont, General Design Principles, Module I, p. 36).
+- Plastic springs suit intermittent action, not constant load: 'Springs under constant load or [deflection](../glossary.md#deflection) should be designed in spring steel' because of creep and [stress relaxation](../glossary.md#stress-relaxation) (DuPont, General Design Principles, Module I, p. 36).
 - Ratchets with molded-in acetal springs 'function properly, providing the springs are not held in the loaded position for a long period of time' (DuPont, Module I, p. 47).
 - A tapered (constant-strength) spring arm reaches the same stiffness at two-thirds of the stress of a straight arm and with a quarter less material (DuPont, Module I, p. 36, Fig. 6.01).
 - Avoid sharp corners at the arm root; use generous fillets (DuPont, Module I, p. 36).
 - Start with at least 0.3 mm clearance between printed moving parts; the minimum printable wall is one extrusion width, about 0.45 mm for a 0.4 mm nozzle (Prusa Knowledge Base, Modeling with 3D printing in mind).
-- FDM living hinges: 0.4-0.6 mm thick with at least two layers, oriented so the hinge width is built up layer by layer; a nylon FDM example lasted only about 25 full folds, so a printed ratchet arm should bend far less than a folding hinge (Hubs, How to design living hinges for 3D printing).
-- Any ratchet can slip back by up to one tooth pitch before it catches (Wikipedia, Ratchet (device)).
+- FDM [living hinges](../glossary.md#living-hinge): 0.4-0.6 mm thick with at least two layers, oriented so the hinge width is built up layer by layer; a nylon FDM example lasted only about 25 full folds, so a printed ratchet arm should bend far less than a folding hinge (Hubs, How to design living hinges for 3D printing).
+- Any ratchet can slip back by up to one tooth [pitch](../glossary.md#pitch) before it catches (Wikipedia, Ratchet (device)).
 - Metal spring-blade ratchets, with proper heat treatment, give long life under light loading and can index to about one-tenth of a degree (RoyMech, Ratchets).
 - Hobby design brief example: 56 mm, 24-tooth wheel with two opposed PETG pawl beams 1.2 mm thick, 10 mm long and 8 mm wide, locking flank radial (0°), drive flank about 60°, 0.4 mm radial clearance, target click force 1-2 N at the rim (GitHub shaiss/print-bench issue #668) ⚑ [uncertain: an untested hobby brief, not a design guide].
 
@@ -212,7 +215,7 @@ Low hazard in small demos. Do not use a printed flexure ratchet as the only thin
 - Roller clutch (one-way bearing) and sprag clutch: silent one-way clutches with no tooth steps, but need hardened parts
 - Wrap-spring clutch: a coil spring grips a shaft one way; smooth and silent
 - Torque-limiting gear with flexing spring arms (compliant slip hub): same one-piece springy-arm idea, but made to slip when overloaded instead of locking
-- Detent: a springy catch that holds set positions but can be pushed past in both directions
+- [Detent](../glossary.md#detent): a springy catch that holds set positions but can be pushed past in both directions
 
 ## Make it yourself
 

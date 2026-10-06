@@ -124,6 +124,8 @@ sources:
 - https://www.animatedknots.com/whoopie-sling-knot
 - https://www.greenbelly.co/pages/whoopie-slings
 research: research/connection-types/results/Woven_selftightening_grip_fingertrap_grip.json
+glossary: [self-locking, torque, form-fit--force-fit--material-bond, taper, collet, creep, brittle--ductile, print-in-place,
+  gland]
 ---
 
 A tube woven from two sets of crossing spiral strands that slides over the end of a cable, rope or finger and then grips it harder the harder it is pulled, because pulling makes the weave longer and narrower.
@@ -154,7 +156,7 @@ When you need to grab the end of something round and fairly firm (a cable, rope,
 
 ## When not to use it
 
-Not for loads that push, twist or come from the side, and not where anything can push back on the tail (it releases): use a clamp, a cable gland or a knot/thimble instead. Not for short or tapered objects, because it needs a long straight length to grip. Not for permanent structural hanging with a pulling grip: use a rated support grip, or a proper end fitting such as a swaged or clamped termination. Not for life-safety lines or anything over people unless it is a rated product used within its working load. Not near live electrical conductors with steel mesh (use non-conductive grips). For a quick adjustable hold on thin cord, a cord lock or cam cleat is easier; for pulling electrical cable with a pulling eye already fitted, use that eye.
+Not for loads that push, twist or come from the side, and not where anything can push back on the tail (it releases): use a clamp, a cable [gland](../glossary.md#gland) or a knot/thimble instead. Not for short or tapered objects, because it needs a long straight length to grip. Not for permanent structural hanging with a pulling grip: use a rated support grip, or a proper end fitting such as a swaged or clamped termination. Not for life-safety lines or anything over people unless it is a rated product used within its working load. Not near live electrical conductors with steel mesh (use non-conductive grips). For a quick adjustable hold on thin cord, a cord lock or cam cleat is easier; for pulling electrical cable with a pulling eye already fitted, use that eye.
 
 ## Details
 
@@ -163,18 +165,18 @@ Not for loads that push, twist or come from the side, and not where anything can
   - lock, and release by hand: holds as long as it is pulled, and lets go when the tension is off and its ends are pushed together
   - seal it, or pass cables or fluid through: as a strain-relief grip it takes the pull or weight off an electrical cord where it hangs from a ceiling or enters a box (it does not seal)
 - **Movement:** none: once loaded nothing moves; the braid itself changes shape (longer and narrower as it tightens, shorter and wider as it releases), which is how it grips
-- **Directions it can move (degrees of freedom):** 0 once it is gripping under load: the cable can't slide out in the pull direction. Before it is loaded it slides freely along the cable (1). Cable and grip together can still twist, which is why pulling eyes are joined to the pull line with a swivel; Kellems says swivels are 'essential' on long high-tension pulls because torque builds up.
+- **Directions it can move (degrees of freedom):** 0 once it is gripping under load: the cable can't slide out in the pull direction. Before it is loaded it slides freely along the cable (1). Cable and grip together can still twist, which is why pulling eyes are joined to the pull line with a swivel; Kellems says swivels are 'essential' on long high-tension pulls because [torque](../glossary.md#torque) builds up.
 - **Special behaviour:**
-  - self-locking (holds under load, won't back-drive): the harder the pull, the tighter the weave squeezes, so it doesn't slip out under load
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): the harder the pull, the tighter the weave squeezes, so it doesn't slip out under load
   - hand-release only (locks under load, releases when a person operates it): push the ends towards the middle and it opens up (the toy's escape); cable grips come off once the pull is taken off
   - self-aligning or self-centring: the woven tube closes evenly all the way round and centres the cable or rope inside it
 - **How it holds:**
   - jamming (grains or a braid lock up under load): the braid narrows onto the object as it is pulled
-  - friction or clamping (force-fit): the squeeze makes friction along the whole gripped length
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the squeeze makes friction along the whole gripped length
 - **Input and output:** not applicable: it holds rather than passing motion on (back-drivable: no; pulling on it only tightens it, while pushing its tail towards the eye loosens it)
 - **Power:** passive (no power needed)
 - **Load:** Light to heavy, but only as a pull along the gripped object. The bamboo toy is very light and its strips break if pulled hard (Wikipedia). Kellems light-duty pulling grips for 0.50-0.61 in (13-16 mm) cable have an approximate breaking strength of 2,800 lb (12.5 kN), about 560 lb (2.5 kN) working load at Kellems' recommended safety factor of 5; Kellems' worked example is a 27,200 lb (121 kN) grip with a 5,440 lb (24 kN) maximum recommended load. A properly made long-bury splice in hollow-braid rope reaches 90-100% of the rope's breaking strength (Animated Knots). Weak against anything that pushes the tail back (which releases it), and it takes no sideways load or twist.
-- **Play and precision:** Noticeable: the braid stretches and tightens progressively, so the grip creeps a little along the object as it takes load ⚑ [uncertain: no source gives an amount]. A buried rope tail also shortens the rope by an amount that depends on how tightly the rope was braided, so Animated Knots advises loading it to 'reset' the braid and measuring. Each cable grip fits only a narrow diameter band (Kellems light-duty sizes step about every 1/8 in: 0.50-0.61 in, 0.62-0.74 in, 0.75-0.99 in). It centres the object but does not locate it precisely.
+- **Play and precision:** Noticeable: the braid stretches and tightens progressively, so the grip [creeps](../glossary.md#creep) a little along the object as it takes load ⚑ [uncertain: no source gives an amount]. A buried rope tail also shortens the rope by an amount that depends on how tightly the rope was braided, so Animated Knots advises loading it to 'reset' the braid and measuring. Each cable grip fits only a narrow diameter band (Kellems light-duty sizes step about every 1/8 in: 0.50-0.61 in, 0.62-0.74 in, 0.75-0.99 in). It centres the object but does not locate it precisely.
 - **Taking it apart:** removable: take the load off, push the mesh back towards the eye to open it and slide it off (Kellems describes pulling grips as reusable tools). A buried hollow-braid rope splice counts as semi-permanent, and it is usually stitched or locked so it stays put (Animated Knots).
 - **How often it can be reused:** many times: the toy works indefinitely and Kellems grips are 'designed to be a reusable tool', but strands kink, fray, corrode and break with use. Kellems' published breaking strengths apply only to new, unused grips, and a damaged grip must not be used (Kellems catalogue T-17, T-18).
 - **Sealing:** none: the open weave doesn't seal; for a sealed cable entry combine it with a cable gland or cord connector (see Cable gland and strain relief)
@@ -189,8 +191,8 @@ Not for loads that push, twist or come from the side, and not where anything can
   - off-the-shelf part: wire-mesh pulling, support, splicing and strain-relief grips (Kellems, Klein) and expandable braided sleeving (Techflex)
   - 3D print (FDM): flexible TPU strips printed flat and woven into a tube by hand (Printables 'Finger Trap (for flexible filament)')
   - other (hand work): weaving paper, bamboo or ribbon strips round a cylinder; burying a rope tail inside hollow-braid rope with a fid (Animated Knots)
-  - 3D print (resin): not suitable, because resins are too stiff and brittle for strands that must bend and slide ⚑ [uncertain: no source tested it]
-- **Printing it in one piece (print in place):** no: the strands must bend and slide over one another at every crossing, so the printable design (Nikorasu, Printables) is printed as two flat L-shaped TPU strips, 2 layers thick, which are woven together by hand around a pen and glued at the tab. No working print-in-place braided tube was found ⚑ [uncertain]. (Some 'finger trap' prints are a different mechanism: a rigid tube with angled flaps.)
+  - 3D print (resin): not suitable, because resins are too stiff and [brittle](../glossary.md#brittle--ductile) for strands that must bend and slide ⚑ [uncertain: no source tested it]
+- **Printing it in one piece (print in place):** no: the strands must bend and slide over one another at every crossing, so the printable design (Nikorasu, Printables) is printed as two flat L-shaped TPU strips, 2 layers thick, which are woven together by hand around a pen and glued at the tab. No working [print-in-place](../glossary.md#print-in-place) braided tube was found ⚑ [uncertain]. (Some 'finger trap' prints are a different mechanism: a rigid tube with angled flaps.)
 - **Tools:** none for the toy or a sleeve. Cable grips: banding tool and bands (e.g. Punch-Lok bands, brand) or tape to lock the tail. Rope: a fid or splicing tool to bury the tail, and a needle and thread to stitch it (Animated Knots); parachute riggers use a 'finger-trapping needle' (a threaded fid) or a finger-trapping wire (FAA Parachute Rigger Handbook).
 - **Difficulty:** easy to use, moderate to make: buy a mesh grip or a length of expandable braided sleeving, or weave strips by hand; printing a working braid in one go is hard because the strands must slide over each other at every crossing, so the printable version is flat TPU strips woven by hand
 
@@ -208,7 +210,7 @@ Wire-mesh cable pulling grips (search 'cable pulling grip', 'wire mesh grip', 'c
 - Working load = approximate breaking strength ÷ safety factor: Kellems recommends a factor of 5 for pulling grips and 10 for support grips (worked examples: 27,200 lb breaking → 5,440 lb; 1,610 lb breaking → 161 lb), and a greater factor 'where risk of injury to persons or property is involved' (Kellems catalogue, T-18).
 - Push the cable in fully ('up to the elbows of the aluminum shoulders') and apply two bands about 1 in and 2 in (25 and 50 mm) from the tail end, because 'accidental release can occur if an object contracts and pushes against the tail end of the mesh' (Kellems catalogue, T-15 and T-17).
 - Longer mesh holds more: Klein uses standard lengths 'in restricted space for short pulls' and longer lengths 'for higher pulling loads' (Klein Tools wire pulling grips catalogue).
-- Hollow-braid rope bury length: about 72 × the rope's diameter for slippery HMPE (Dyneema, Spectra), about half that for polyester; taper the tail and stitch or lock it so movement can't draw it out (Animated Knots, 'Long Bury Splice', citing Brion Toss and Starzinger).
+- Hollow-braid rope bury length: about 72 × the rope's diameter for slippery HMPE (Dyneema, Spectra), about half that for polyester; [taper](../glossary.md#taper) the tail and stitch or lock it so movement can't draw it out (Animated Knots, 'Long Bury Splice', citing Brion Toss and Starzinger).
 - Expandable braided sleeving covers about a 3:1 range of diameters: Techflex Flexo PET 1/4 in nominal fits from 1/8 in to 7/16 in (Techflex product table).
 - Use each grip only for its job: 'Do not use a pulling grip for any application other than pulling cable', and attach hardware only at the pulling eye (Kellems caution list, T-17).
 - Whoopie sling marks (a different splice from the long bury above): for slippery high-modulus fibres such as Dyneema, Animated Knots' approximate figures (after Atlantic Braids) put the first bury mark about 40 x the rope diameter from the end and the entry to the adjustable section about 75 x the diameter further on; for less slippery polyester, nylon or polyolefin rope about 25 x and 50 x. Leave the long end untapered so it acts as a stopper and is less likely to be pulled into the adjustable section (Animated Knots 'Whoopie Sling').
@@ -228,7 +230,7 @@ Pulling harder on a finger trap only tightens it; a strong trap (e.g. TPU) 'can 
 - Cam cleat and clam cleat: grip a rope harder as it pulls back, using toothed cams or grooves instead of a woven tube; hold a rope mid-length and release quickly
 - Granular jamming gripper (coffee-balloon gripper): also holds by jamming, but uses loose grains squeezed by vacuum instead of a braid squeezed by tension
 - Wrap-spring clutch: a coil wrapped round a shaft that tightens when dragged one way, the same self-energising idea in metal
-- Collet: a slotted sleeve squeezed onto a rod by a taper or nut; much stiffer and more precise, but needs tightening
+- [Collet](../glossary.md#collet): a slotted sleeve squeezed onto a rod by a taper or nut; much stiffer and more precise, but needs tightening
 - Capstan (rope wrapped round a drum): friction that grows along the wrap, used to hold big loads with a small pull
 - Friction hitch (Prusik knot): a cord wrapped round a rope that grips when loaded and slides when relaxed; a knot, not a tube
 - McKibben artificial muscle (braided pneumatic muscle): the same braided sleeve, inflated from inside, turns pressure into a pull; braid angles below 54.7° contract (IOP review)

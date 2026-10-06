@@ -124,6 +124,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Crimping_tool_04.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Crimp_terminals_ring_fork_and_spade_terminals_blade_quickdisconnect.json
+glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, gland]
 ---
 
 A metal terminal whose barrel is squeezed (crimped) onto a stripped wire end with a crimping tool, giving a ring or fork to clamp under a screw or stud, or a blade or receptacle that pushes onto a matching tab, so a wire can be fixed to a terminal or unplugged without soldering.
@@ -164,7 +165,7 @@ Don't use them without the right crimp tool and terminal size: pliers or a misma
 - **Special behaviour:**
   - quick-release: blade (quick-disconnect) terminals pull off and push on by hand, and a fork (spade) terminal can be removed or fitted while the screw is 'left partially screwed in' (Wikipedia 'Electrical connector', 'FASTON terminal')
 - **How it holds:**
-  - friction or clamping (force-fit): the crimp holds the wire by 'a high degree of static friction' from the deformed barrel (Wikipedia 'Crimp (joining)'), and a ring or fork is clamped under a screw head or nut
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the crimp holds the wire by 'a high degree of static friction' from the deformed barrel (Wikipedia 'Crimp (joining)'), and a ring or fork is clamped under a screw head or nut
   - spring force (a spring or springy part presses it in place): a blade receptacle is a sprung sleeve gripping the tab (Wikipedia 'Electrical connector')
   - shape (the parts interlock; form-fit): a ring encircles its screw, so it can't slide off if the screw loosens a little; insulated receptacles and bullets are held in a sleeve
 - **Input and output:** not applicable
@@ -177,7 +178,7 @@ Don't use them without the right crimp tool and terminal size: pliers or a misma
 - **Adjustable:** no
 - **Access needed:** one side only (blind) for a ring or fork going onto a stud or into a tapped hole, or a blade going onto a tab; both sides when a loose bolt and nut are used.
 - **Materials:** Terminals: copper, usually electro tin-plated against corrosion (Grote catalogue); heavy lugs of electrolytic (ETP) copper, with butted or brazed seams or seamless tubes (Grote catalogue); crimp metals generally copper, brass, aluminium or bronze (Hackaday 'Good In A Pinch'). A copper-terminal crimper must not be used on steel terminals (SG Tool Aid). Insulation: vinyl (PVC) rated for 75 °C continuous, nylon for 105 °C, bare terminals 75 °C (Grote catalogue); heat-shrink polyolefin with adhesive for sealed versions (Grote). Wire: stranded copper in the size range marked or colour-coded on the terminal; crimps suit 'cables of both small and large cross-sections' (Wikipedia 'Crimp (joining)').
-- **Heat, cold, water and wear:** Heat: vinyl-insulated terminals are rated 75 °C, nylon 105 °C (Grote catalogue). Vibration and flexing: a correct crimp resists vibration (Wikipedia 'Crimp (joining)'), but repeated bending breaks wires at the barrel and screws can loosen; Wikipedia notes closed-barrel crimps are 'less resilient to vibration' than open-barrel (Wikipedia 'Crimp (joining)'). Corrosion: tin plating 'prevents corrosion' (Grote), and sealed adhesive heat-shrink terminals keep out 'water, corrosion, salt and moisture' (Grote); GM found star washers under vehicle ground terminals increase 'the chance for corrosion' (GM TechLink). Loosening: 'terminal screws loosened by vibration, improper tightening' raise resistance, causing heating and 'thermal creep, which will cause the termination to loosen further' (Wikipedia 'High resistance connection').
+- **Heat, cold, water and wear:** Heat: vinyl-insulated terminals are rated 75 °C, nylon 105 °C (Grote catalogue). Vibration and flexing: a correct crimp resists vibration (Wikipedia 'Crimp (joining)'), but repeated bending breaks wires at the barrel and screws can loosen; Wikipedia notes closed-barrel crimps are 'less resilient to vibration' than open-barrel (Wikipedia 'Crimp (joining)'). Corrosion: tin plating 'prevents corrosion' (Grote), and sealed adhesive heat-shrink terminals keep out 'water, corrosion, salt and moisture' (Grote); GM found star washers under vehicle ground terminals increase 'the chance for corrosion' (GM TechLink). Loosening: 'terminal screws loosened by vibration, improper tightening' raise resistance, causing heating and 'thermal [creep](../glossary.md#creep), which will cause the termination to loosen further' (Wikipedia 'High resistance connection').
 
 ## Making it
 
@@ -185,7 +186,7 @@ Don't use them without the right crimp tool and terminal size: pliers or a misma
   - off-the-shelf part: terminals, lugs and crimp tools are bought; the joint is made by hand with a crimping tool
   - 3D print (FDM): covers, insulating boots, holders and keyed housings for spade and blade terminals, and adapters that hold blade terminals against battery contacts (Printables 1599622, 1306699, 70578, 220863)
 - **Printing it in one piece (print in place):** no: the terminal is metal and must be crimped; only covers, boots and housings around it are printed.
-- **Tools:** Wire strippers; a crimping tool whose die matches the terminal type and size (insulated or non-insulated, colour or wire size), ideally with a full-cycle ratchet that won't open until the crimp is complete (NASA-STD-8739.4A §12.3.1; Wikipedia 'Crimp (joining)'); for heavy lugs a large hex or indent crimper, mechanical or hydraulic, with rotating or swappable dies (SG Tool Aid crimper instructions; Wikipedia 'Crimp (joining)'); a heat gun for heat-shrink terminals (Grote catalogue); a screwdriver or spanner to fit ring and fork terminals.
+- **Tools:** Wire strippers; a crimping tool whose die matches the terminal type and size (insulated or non-insulated, colour or wire size), ideally with a full-cycle [ratchet](../glossary.md#ratchet) that won't open until the crimp is complete (NASA-STD-8739.4A §12.3.1; Wikipedia 'Crimp (joining)'); for heavy lugs a large hex or indent crimper, mechanical or hydraulic, with rotating or swappable dies (SG Tool Aid crimper instructions; Wikipedia 'Crimp (joining)'); a heat gun for heat-shrink terminals (Grote catalogue); a screwdriver or spanner to fit ring and fork terminals.
 - **Difficulty:** easy: with the right size terminal and a matching ratcheting crimper a crimp takes seconds, but 'if you use crappy crimp tools or crimps or just mismatch them ... You'll get pullouts and failures' (Hackaday 2023 'What Do You Do When You Can't Solder?'). Heavy lugs need a large crimper and more force (SG Tool Aid).
 
 ### 3D printing tips
@@ -206,7 +207,7 @@ Insulated and non-insulated ring terminals (by wire range and stud size), fork/s
 - Pull-test crimps: minimum pull strength 57 N (22 AWG), 142 N (18 AWG), 183 N (16 AWG), 290 N (14 AWG), 459 N (12 AWG), 707 N (10 AWG), 1281 N (8 AWG); otherwise at least 60% of the wire's own tensile strength (NASA-STD-8739.4A Table 12-1, §12.3.5).
 - Use a full-cycle ratcheting crimp tool and only the terminal-wire combinations the maker recommends; don't modify terminals or wires to fit (NASA-STD-8739.4A §12.3.1, §12.3.3-12.3.4).
 - Heavy lugs: set the crimper's dies for the lug type and wire size, crimp twice if the lug maker says so (first crimp at the open end), pull to check, and seal with double-wall adhesive heat-shrink (SG Tool Aid crimper instructions).
-- Earth terminals on painted metal: a lug 'will not ground the enclosure without either removing any exterior paint or installing ground wires' (Hammond ground kit bulletin); one minimum torque given for a 3/8 in brass ground stud is 50 in-lbf (5.6 N·m) (Hammond).
+- Earth terminals on painted metal: a lug 'will not ground the enclosure without either removing any exterior paint or installing ground wires' (Hammond ground kit bulletin); one minimum [torque](../glossary.md#torque) given for a 3/8 in brass ground stud is 50 in-lbf (5.6 N·m) (Hammond).
 
 ## Common failures
 
@@ -226,7 +227,7 @@ Fire from poor joints: a loose or badly crimped terminal becomes a high-resistan
 - Wire-to-board plug connectors: the much smaller crimp contacts used in multi-pin plastic housings
 - Heat-shrink tubing: seals and insulates bare terminals and lugs
 - Spring-clamp wire connector: tool-free alternative for joining wires
-- Cable gland and strain relief: stops pulls reaching the crimp
+- Cable [gland](../glossary.md#gland) and strain relief: stops pulls reaching the crimp
 - Wave and disc springs: Belleville washers keep bolted busbar and lug joints tight
 
 ## Make it yourself

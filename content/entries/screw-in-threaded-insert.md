@@ -123,9 +123,11 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Screwin_threaded_insert_wire_thread_insert_selftapping_insert.json
+glossary: [self-locking, torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
+  threadlocker, brittle--ductile, infill, peel-vs-shear]
 ---
 
-A threaded sleeve or a diamond-section wire coil that is screwed into a drilled or tapped hole to give soft, brittle or worn material a strong, reusable machine-screw thread.
+A threaded sleeve or a diamond-section wire coil that is screwed into a drilled or tapped hole to give soft, [brittle](../glossary.md#brittle--ductile) or worn material a strong, reusable machine-screw thread.
 
 **In plain words:** A metal sleeve with a thread on the outside and a thread on the inside (or a little coil of springy wire) that you screw into a hole, so soft or crumbly material gets a strong metal thread that a bolt can go in and out of many times, or so a stripped thread can be repaired. **Proper term:** Screw-in threaded insert (helical wire thread insert and self-tapping insert).
 
@@ -148,7 +150,7 @@ A few parts: the insert (a solid sleeve threaded inside and out, often with cutt
 
 ## When to use it
 
-Use a screw-in insert to repair a stripped thread in metal (the classic use of helical inserts); to give soft metals such as aluminium or magnesium, wood, plywood or MDF a thread that won't wear out as screws go in and out; and to put metal threads into resin (SLA/MSLA) prints and other thermosets, where heat-set inserts can't be melted in (Wikipedia; NASA RP-1228; SPIROL; CNC Kitchen). Helical inserts suit repairs because they need the least enlargement of the hole (NASA RP-1228). Self-tapping inserts are handy when you have no insert tap: they cut or form their own thread in a drilled hole (Wikipedia).
+Use a screw-in insert to repair a stripped thread in metal (the classic use of helical inserts); to give soft metals such as aluminium or magnesium, wood, plywood or MDF a thread that won't wear out as screws go in and out; and to put metal threads into resin (SLA/MSLA) prints and other thermosets, where [heat-set inserts](../glossary.md#heat-set-insert) can't be melted in (Wikipedia; NASA RP-1228; SPIROL; CNC Kitchen). Helical inserts suit repairs because they need the least enlargement of the hole (NASA RP-1228). Self-tapping inserts are handy when you have no insert tap: they cut or form their own thread in a drilled hole (Wikipedia).
 
 ## When not to use it
 
@@ -161,16 +163,16 @@ In thermoplastic FDM prints (PLA, PETG, ABS), use a heat-set insert or a nut tra
 - **Movement:** none
 - **Directions it can move (degrees of freedom):** 0: once fitted the insert can't move, and the screw clamps the parts together rigidly
 - **Special behaviour:**
-  - self-locking (holds under load, won't back-drive): only for screw-locking versions; helical inserts come with a deformed (crimped) coil that grips the screw (NASA RP-1228), and some solid inserts have a nylon patch; plain free-running inserts don't lock the screw
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): only for screw-locking versions; helical inserts come with a deformed (crimped) coil that grips the screw (NASA RP-1228), and some solid inserts have a nylon patch; plain free-running inserts don't lock the screw
   - none otherwise: it just provides a strong thread
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the insert's outside thread interlocks with the thread tapped or cut into the hole
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the insert's outside thread interlocks with the thread tapped or cut into the hole
   - friction or clamping (force-fit): helical coils are slightly oversize and spring out against the hole (NASA RP-1228); Tap-Lok-type self-tapping inserts lock by friction (Wikipedia); the screw then clamps the parts
   - material bond (glue, solvent or melting): adhesive-anchored inserts (E-Z LOK) and inserts glued in with epoxy in printed parts (Printables self-tapping insert cut-outs)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** medium to heavy in metal and wood, light to medium in plastic prints. Strong in pull-out and twist because the large outside thread spreads load (NASA RP-1228). In soft metals such as aluminium they give stronger threads than tapping the base metal directly (Wikipedia). In FDM prints a helical insert gave no gain: CNC Kitchen's M3 tests in PETG held 120 kg pull-out against 118 kg for a screw straight into plastic, and both stripped at 1 Nm, while a heat-set insert took 3 Nm. In resin, SPIROL rates self-tapping inserts a 'viable alternative' to press-in inserts but with limited back-out torque.
-- **Play and precision:** small: the insert gives a normal metal thread with ordinary screw clearance. The main precision issue is getting it in straight; a self-tapping insert that starts crooked or cross-threads stays crooked (Printables self-tapping insert cut-outs: 'take care getting the thread started to avoid crossthreading').
+- **Load:** medium to heavy in metal and wood, light to medium in plastic prints. Strong in pull-out and twist because the large outside thread spreads load (NASA RP-1228). In soft metals such as aluminium they give stronger threads than tapping the base metal directly (Wikipedia). In FDM prints a helical insert gave no gain: CNC Kitchen's M3 tests in PETG held 120 kg pull-out against 118 kg for a screw straight into plastic, and both stripped at 1 Nm, while a heat-set insert took 3 Nm. In resin, SPIROL rates self-tapping inserts a 'viable alternative' to press-in inserts but with limited back-out [torque](../glossary.md#torque).
+- **Play and precision:** small: the insert gives a normal metal thread with ordinary screw [clearance](../glossary.md#clearance). The main precision issue is getting it in straight; a self-tapping insert that starts crooked or cross-threads stays crooked (Printables self-tapping insert cut-outs: 'take care getting the thread started to avoid crossthreading').
 - **Taking it apart:** semi-permanent: the insert is meant to stay in, but can come out: helical inserts with an extraction tool ⚑ [uncertain], adhesive-locked E-Z LOK inserts with a bolt extractor or by heating above 149 °C (300 °F) (E-Z LOK); key-locked and TIME-SERT inserts are permanent (Wikipedia). The screw in it is removable many times.
 - **How often it can be reused:** many times: the screw can be put in and taken out many times without wearing the soft parent material, which is the point of fitting it (Wikipedia; E-Z LOK wood inserts 'allow for multiple assembly and disassembly cycles'). The insert itself is usually fitted once.
 - **Sealing:** none: it does not seal; fluid can pass along the threads unless a thread sealant or adhesive is used ⚑ [uncertain]
@@ -193,7 +195,7 @@ In thermoplastic FDM prints (PLA, PETG, ABS), use a heat-set insert or a nut tra
 
 ### 3D printing tips
 
-1) Resin (SLA/MSLA) prints are thermosets, so heat-set inserts don't melt in: a hot insert does nothing for a while, then the resin crumbles (CNC Kitchen). Use a press-in insert (most effective), a self-tapping insert (a viable alternative with lower back-out torque, but slow to fit and may unscrew from a part that is taken apart often), or a heat-set insert glued in with thick superglue or epoxy (SPIROL; CNC Kitchen). 2) Model the insert's outside thread into the print instead of relying on the insert to cut it: one designer shares threaded STEP cut-outs for M4-M10 self-tapping inserts plus a test block, then screws the insert in with a bolt and washer and a little epoxy (Printables 'Self Tapping Thread Insert Cut-out STEP Files'). In CNC Kitchen's resin tests, threads printed in the model held about twice the load of tapped threads in a notch-sensitive tough resin (106 kg against 55 kg), probably because the tap leaves notches. 3) Brittle resins can crack when threads are forced into them; Formlabs warns this for self-tapping screws in low-stretch resins and advises eye protection, and a self-tapping insert loads the hole the same way ⚑ [uncertain] (for inserts specifically). Prefer tough or durable resins. 4) Resin parts tend to fail by bursting rather than thread shear, because thread forces push outward on the hole (CNC Kitchen), so give the insert plenty of surrounding material; SPIROL recommends a solid boss at least 1.5 times the insert's outer (knurl) diameter, with the full benefit at 2 times, and more than 50% infill for FDM (written for press-in and heat-set inserts, but the same logic applies). 5) Printed hole sizes vary: about ±0.1 mm for SLA and ±0.3-0.5 mm for desktop FDM (SPIROL), so print a test block or drill the hole to size. 6) In FDM thermoplastic prints, a helical (Helicoil-type) insert added nothing over screwing straight into the plastic in CNC Kitchen's tests, so use heat-set inserts or nut traps instead unless you need a metal thread for wear. 7) Start the insert square and slowly to avoid cross-threading, and drive it flush with a bolt and washer or jam nut (Printables cut-out files).
+1) Resin (SLA/MSLA) prints are thermosets, so heat-set inserts don't melt in: a hot insert does nothing for a while, then the resin crumbles (CNC Kitchen). Use a press-in insert (most effective), a self-tapping insert (a viable alternative with lower back-out torque, but slow to fit and may unscrew from a part that is taken apart often), or a heat-set insert glued in with thick superglue or epoxy (SPIROL; CNC Kitchen). 2) Model the insert's outside thread into the print instead of relying on the insert to cut it: one designer shares threaded STEP cut-outs for M4-M10 self-tapping inserts plus a test block, then screws the insert in with a bolt and washer and a little epoxy (Printables 'Self Tapping Thread Insert Cut-out STEP Files'). In CNC Kitchen's resin tests, threads printed in the model held about twice the load of tapped threads in a notch-sensitive tough resin (106 kg against 55 kg), probably because the tap leaves notches. 3) Brittle resins can crack when threads are forced into them; Formlabs warns this for self-tapping screws in low-stretch resins and advises eye protection, and a self-tapping insert loads the hole the same way ⚑ [uncertain] (for inserts specifically). Prefer tough or durable resins. 4) Resin parts tend to fail by bursting rather than thread [shear](../glossary.md#peel-vs-shear), because thread forces push outward on the hole (CNC Kitchen), so give the insert plenty of surrounding material; SPIROL recommends a solid [boss](../glossary.md#boss) at least 1.5 times the insert's outer (knurl) diameter, with the full benefit at 2 times, and more than 50% [infill](../glossary.md#infill) for FDM (written for press-in and heat-set inserts, but the same logic applies). 5) Printed hole sizes vary: about ±0.1 mm for SLA and ±0.3-0.5 mm for desktop FDM (SPIROL), so print a test block or drill the hole to size. 6) In FDM thermoplastic prints, a helical (Helicoil-type) insert added nothing over screwing straight into the plastic in CNC Kitchen's tests, so use heat-set inserts or nut traps instead unless you need a metal thread for wear. 7) Start the insert square and slowly to avoid cross-threading, and drive it flush with a bolt and washer or jam nut (Printables cut-out files).
 
 ### Buying one (off-the-shelf parts)
 
@@ -206,7 +208,7 @@ Helical inserts: search 'helical insert', 'wire thread insert', 'screw thread in
 - For repairing a stripped thread, a wire thread insert needs the least hole enlargement; a solid bushing insert is preferred where there is room (NASA RP-1228).
 - Thread-forming self-tapping inserts make no chips but only work in softer materials (NASA RP-1228).
 - For a screw-in wood insert nut, drill the hole as deep as the insert plus any length of bolt that will go past its end (Wikipedia 'Threaded insert').
-- In hardwood use a slightly larger pilot hole to avoid splitting; softwoods split more easily if inserts are fitted badly (E-Z LOK, threaded inserts for wood).
+- In hardwood use a slightly larger [pilot hole](../glossary.md#pilot-hole) to avoid splitting; softwoods split more easily if inserts are fitted badly (E-Z LOK, threaded inserts for wood).
 - In SLA resin: press-in inserts are the most effective, self-tapping inserts a viable alternative with lower back-out torque, expansion inserts the weakest (SPIROL 'Inserts for 3D Printed Assemblies').
 - Give inserts in prints a solid boss at least 1.5x the insert's outer (knurl) diameter (full benefit at 2x) and over 50% infill in FDM (SPIROL, written for press-in and heat-set inserts).
 - In M3 PETG tests a helical insert held the same as a plain screw (pull-out 120 kg against 118 kg; both stripped at 1 Nm), while a heat-set insert took 3 Nm (CNC Kitchen).
@@ -225,11 +227,11 @@ Brittle resin prints can crack or burst when a thread is forced into them, throw
 - Heat-set threaded insert: melted into thermoplastic prints with a soldering iron; strongest choice in FDM, but can't be used in resin or other thermosets
 - Press-fit and expanding inserts (tap-in insert): pushed in cold and held by barbs or expansion; SPIROL rates press-in inserts the most effective choice in SLA resin
 - Self-tapping screw into plastic (thread-forming screw): screws straight into the part; simplest, but the plastic thread wears out after a few uses
-- Captive nut pocket (nut trap): an ordinary nut in a printed pocket; strong and cheap if the pocket can be reached
+- [Captive nut](../glossary.md#captive-nut) pocket (nut trap): an ordinary nut in a printed pocket; strong and cheap if the pocket can be reached
 - Blind threaded fixings (rivet nut, well nut): for thin sheet and tube walls, fitted from one side
 - Printed screw thread: the thread printed straight into the part; in CNC Kitchen's tests, modelled threads in resin were stronger than tapped ones
 - Ordinary screw joint (bolt and nut): the baseline; the insert turns a weak hole into the 'nut'
-- Threadlocking hardware and anaerobic threadlocker: lock the screw in the insert against vibration
+- Threadlocking hardware and anaerobic [threadlocker](../glossary.md#threadlocker): lock the screw in the insert against vibration
 
 ## Make it yourself
 

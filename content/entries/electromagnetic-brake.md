@@ -118,13 +118,15 @@ sources:
 - https://www.printables.com/model/1219484-z-brake-board-model (URL from Printables API, page not opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Electromagnetic_brake_poweroff_springapplied.json
+glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gear-ratio, solenoid, fail-safe--fail-secure,
+  clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert]
 ---
 
 Springs press a friction disc on the motor shaft between two plates so the shaft cannot turn, and while the machine runs an electric coil pulls the plate back against the springs, so the brake lets go only when powered and grabs automatically whenever power is cut.
 
 **In plain words:** A brake fitted to a motor that springs shut by itself whenever the power goes off, and is pulled open by an electromagnet while the machine is running, so an arm or lift cannot drop. **Proper term:** Spring-applied electromagnetic brake (power-off brake, electromagnetically released spring-set brake).
 
-**Also called:** power-off brake / fail-safe brake; spring-set brake / spring-applied brake / spring-actuated brake; holding brake / servo motor brake / motor brake; safety brake (mayr term for its spring-applied brakes); non-excited brake / de-energised brake (catalogue terms, e.g. OYOSTEPPER 'Non-excited brake'); electromagnetically released brake; stepper motor with brake / brake motor; solenoid brake (Wikipedia; older name for a spring-engaged, solenoid-released brake); Z brake / Z-motor brake (3D-printer community); ROBA-stop (brand, mayr); variants: permanent-magnet brake, tooth brake.
+**Also called:** power-off brake / [fail-safe](../glossary.md#fail-safe--fail-secure) brake; spring-set brake / spring-applied brake / spring-actuated brake; holding brake / servo motor brake / motor brake; safety brake (mayr term for its spring-applied brakes); non-excited brake / de-energised brake (catalogue terms, e.g. OYOSTEPPER 'Non-excited brake'); electromagnetically released brake; stepper motor with brake / brake motor; [solenoid](../glossary.md#solenoid) brake (Wikipedia; older name for a spring-engaged, solenoid-released brake); Z brake / Z-motor brake (3D-printer community); ROBA-stop (brand, mayr); variants: permanent-magnet brake, tooth brake.
 
 ## How it works
 
@@ -132,12 +134,12 @@ With no power, the compression springs push the armature plate against the frict
 
 ## Parts
 
-A small assembly that acts as one unit: a coil housing (field or stator) with the electromagnet coil, an armature plate, several compression springs, a friction disc (rotor) with lining, a splined or toothed hub fixed to the shaft, a mounting or friction plate, air-gap adjustment tubes and assembly bolts, and on some models a hand-release lever and a torque adjuster nut (INTORQ BFK458 parts list); plus a DC supply or rectifier and a switch.
+A small assembly that acts as one unit: a coil housing (field or stator) with the electromagnet coil, an armature plate, several compression springs, a friction disc (rotor) with lining, a splined or toothed hub fixed to the shaft, a mounting or friction plate, air-gap adjustment tubes and assembly bolts, and on some models a hand-release lever and a [torque](../glossary.md#torque) adjuster nut (INTORQ BFK458 parts list); plus a DC supply or rectifier and a switch.
 
 ## Everyday examples
 
 - Lifts (elevators): the machine brake 'is actuated by spring force and held open electrically; a power failure will cause the brake to engage and prevent the elevator from falling' (Wikipedia, Elevator)
-- Power wheelchairs and mobility scooters: 'When power is removed, the brake engages and locks the drivetrain', and a freewheel lever releases it by hand for pushing (Mobility Scooters Direct; Quantum Rehab)
+- Power wheelchairs and mobility scooters: 'When power is removed, the brake engages and locks the drivetrain', and a [freewheel](../glossary.md#freewheel) lever releases it by hand for pushing (Mobility Scooters Direct; Quantum Rehab)
 - Robot arms and cobots, whose joints hold their pose when switched off (Universal Robots manual; mayr ROBA servostop Cobot)
 - Vertical axes on CNC machines and 3D printers, which 'will fall due to gravity if bus power is removed' without a brake (Teknic)
 
@@ -147,7 +149,7 @@ Use it when a motor-driven axis must hold its position if power is switched off 
 
 ## When not to use it
 
-Not for repeated stopping from speed: use the motor's own braking or a brake rated for dynamic stopping (Advanced Motion Controls). If the drive already cannot be back-driven (a self-locking worm gear or lead screw) a brake may be unnecessary; a worm gear reducer is a common alternative on printer Z axes ⚑ [uncertain: seen only in search summaries]. Where the load is light and some slow drift is acceptable, shorting the motor windings slows a falling axis without a brake, but gives no holding force at standstill ⚑ [uncertain: seen only in search summaries of a Duet3D forum thread]. Where there is no electricity at all, use a mechanical brake, ratchet or lock.
+Not for repeated stopping from speed: use the motor's own braking or a brake rated for dynamic stopping (Advanced Motion Controls). If the drive already cannot be back-driven (a [self-locking](../glossary.md#self-locking) worm gear or lead screw) a brake may be unnecessary; a worm gear reducer is a common alternative on printer Z axes ⚑ [uncertain: seen only in search summaries]. Where the load is light and some slow drift is acceptable, shorting the motor windings slows a falling axis without a brake, but gives no [holding force](../glossary.md#holding-force) at standstill ⚑ [uncertain: seen only in search summaries of a Duet3D forum thread]. Where there is no electricity at all, use a mechanical brake, [ratchet](../glossary.md#ratchet) or lock.
 
 ## Details
 
@@ -161,14 +163,14 @@ Not for repeated stopping from speed: use the motor's own braking or a brake rat
   - self-locking (holds under load, won't back-drive): holds a vertical axis or robot joint against gravity with no power, up to its rated torque (Teknic)
   - torque-limiting (slips or clicks at a set force/torque): above its holding torque it slips; Universal Robots joint brakes include a friction clutch so a jammed arm can be pushed round by hand in an emergency (Universal Robots manual)
 - **How it holds:**
-  - friction or clamping (force-fit): the friction disc is clamped between the armature and the mounting plate
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the friction disc is clamped between the armature and the mounting plate
   - spring force (a spring or springy part presses it in place): compression springs supply the clamping force
   - magnetic: permanent-magnet versions hold by magnets instead of springs (Wikipedia)
   - shape (the parts interlock; form-fit): tooth brakes and solenoid pin arrestors lock with teeth or a pin (SEPAC; Kendrion)
-- **Input and output:** Not a transmission; it holds or releases a shaft. Catalogues give the static (holding) torque; the dynamic torque while slipping at speed can be lower (Ogura, electric-brake.com). Back-drivable: no while engaged, up to its rated torque; above it the disc slips. Fitted on the motor side of a gearbox, its holding torque is multiplied by the gear ratio at the output ⚑ [uncertain: standard gearing arithmetic, not from a brake source].
+- **Input and output:** Not a transmission; it holds or releases a shaft. Catalogues give the static (holding) torque; the dynamic torque while slipping at speed can be lower (Ogura, electric-brake.com). Back-drivable: no while engaged, up to its rated torque; above it the disc slips. Fitted on the motor side of a gearbox, its holding torque is multiplied by the [gear ratio](../glossary.md#gear-ratio) at the output ⚑ [uncertain: standard gearing arithmetic, not from a brake source].
 - **Power:** powered (needs electricity to release, typically 24 V DC; a NEMA 17 add-on brake uses 24 V and 5 W, OYOSTEPPER). When power is lost it locks (engages), which is the point of it. Power can be reduced after the armature has pulled in (Motion Control Tips), e.g. 'brief overexcitation and then... reduced holding voltage' (Kendrion). Permanent-magnet versions also engage when power is off, but if they fail they tend to 'fail open', whereas spring-set brakes 'always fail safely closed' (Thomson, Tech Briefs, 2016).
 - **Load:** Light to heavy depending on size, and only in twist (torque) about the shaft: about 0.24 N·m for a NEMA 17 stepper brake (OYOSTEPPER), 0.22-16 N·m for servo-motor brakes (Kendrion Servo Line), and up to 600 N·m holding torque for a large industrial brake (INTORQ BFK458-25). It is not meant to carry side loads.
-- **Play and precision:** small: spring-set brakes have a little backlash from the rotor-to-hub fit and armature clearance (Thomson, Tech Briefs, 2016; 'some backlash', Motion Control Tips); toothed hubs keep it minimal (Kendrion Servo Line); permanent-magnet brakes have near-zero backlash (Thomson). It tolerates no misalignment: the disc must slide freely on its hub and the mounting face must be square to the shaft (INTORQ).
+- **Play and precision:** small: spring-set brakes have a little [backlash](../glossary.md#backlash) from the rotor-to-hub fit and armature [clearance](../glossary.md#clearance) (Thomson, Tech Briefs, 2016; 'some backlash', Motion Control Tips); toothed hubs keep it minimal (Kendrion Servo Line); permanent-magnet brakes have near-zero backlash (Thomson). It tolerates no [misalignment](../glossary.md#misalignment): the disc must slide freely on its hub and the mounting face must be square to the shaft (INTORQ).
 - **Taking it apart:** removable: bolted to the motor end or a flange and fixed to the shaft through its hub; its own braking action is automatic, and some models have a hand-release lever (INTORQ; SEPAC)
 - **How often it can be reused:** many times: it engages every time the machine stops or loses power; as a holding brake engaged at standstill it wears very little, but every stop from speed wears the lining (Advanced Motion Controls; INTORQ)
 - **Sealing:** none: open brakes must be kept clean ('Keep rubbing surfaces free from grease, oil or any other contaminating material', INTORQ BFK458); many servo motors house the brake internally behind an IP65 enclosure (Advanced Motion Controls)
@@ -189,7 +191,7 @@ Not for repeated stopping from speed: use the motor's own braking or a brake rat
 
 ### 3D printing tips
 
-The brake itself cannot usefully be 3D printed; print only mounts and adapters. A printed mount must carry the full brake torque back into the frame, so make it stiff and bolt it with metal fasteners into heat-set inserts or through-holes ⚑ [uncertain: general practice]. Keep the mounting face flat and square to the shaft; INTORQ asks for a steel or cast-iron mating face square to the shaft, so where the rotor rubs against a surface use the brake's own friction plate or flange rather than a printed face. Heat: a brake stopping loads can reach 130 °C at its surface 'under unfavourable conditions' (INTORQ), and PLA softens above about 60 °C (Prusa Knowledge Base), so use a more heat-tolerant plastic or metal near brake motors ⚑ [uncertain: temperature of small holding brakes in hobby use not measured]. Keep grease and oil off the friction surfaces during assembly (INTORQ).
+The brake itself cannot usefully be 3D printed; print only mounts and adapters. A printed mount must carry the full brake torque back into the frame, so make it stiff and bolt it with metal fasteners into [heat-set inserts](../glossary.md#heat-set-insert) or through-holes ⚑ [uncertain: general practice]. Keep the mounting face flat and square to the shaft; INTORQ asks for a steel or cast-iron mating face square to the shaft, so where the rotor rubs against a surface use the brake's own friction plate or flange rather than a printed face. Heat: a brake stopping loads can reach 130 °C at its surface 'under unfavourable conditions' (INTORQ), and PLA softens above about 60 °C (Prusa Knowledge Base), so use a more heat-tolerant plastic or metal near brake motors ⚑ [uncertain: temperature of small holding brakes in hobby use not measured]. Keep grease and oil off the friction surfaces during assembly (INTORQ).
 
 ### Buying one (off-the-shelf parts)
 

@@ -148,17 +148,19 @@ sources:
 - https://www.youtube.com/watch?v=Eo1yQIZLVH4
 - https://www.youtube.com/watch?v=B0HB_SU4pyw
 research: research/connection-types/results/Telescoping_tube_twist_lock_cam_or_collet_twist_lock.json
+glossary: [self-locking, axial--radial, mechanical-advantage, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
+  taper, collet, creep, perimeters, infill, print-in-place]
 ---
 
 A lock for sliding tubes that holds them at any length by friction when you twist one section against the other (or turn a collar), and lets them slide again when you twist back.
 
-**In plain words:** Two tubes that slide one inside the other and lock at any length when you twist them: the twist makes a plastic plug swell inside the tube, or makes a ring squeeze the inner tube, so friction holds them. **Proper term:** Telescoping tube twist lock (internal expander or eccentric-cam twist lock; external collet twist collar).
+**In plain words:** Two tubes that slide one inside the other and lock at any length when you twist them: the twist makes a plastic plug swell inside the tube, or makes a ring squeeze the inner tube, so friction holds them. **Proper term:** Telescoping tube twist lock (internal expander or eccentric-cam twist lock; external [collet](../glossary.md#collet) twist collar).
 
 **Also called:** twist lock / twist-lock pole; internal lock, internal expander lock or expanding plug lock (trekking poles); twist collar lock or collet leg lock (camera tripods); cam twist lock or eccentric twist lock (tent poles, curtain rods); screw-to-lock telescoping tube; friction twist lock; Super Lock System (SLS) and Easy Lock System (ELS) (Leki (brand) names for its internal expander locks); twist lock plug (Valco (brand) TL series); twist-lock extension pole or whisker pole (painting, pool and boat poles).
 
 ## How it works
 
-Internal expander: turning one tube against the other screws the threaded rod into a cone-shaped plastic plug, which swells outward and presses on the inside wall of the outer tube; friction then stops the tubes sliding (Leki; Ryder-Walker; Wright patent: rotation 'will cause radial expansion of the collar' and 'frictional engagement' with the inner wall). Eccentric cam: an off-centre cam on the inner tube turns inside an off-centre ring; about a quarter turn (about 90 degrees) pushes the ring sideways against the outer tube wall and wedges it there (Levi and Quarberg patents; the printable tent-pole lock uses 'a circle offset by 1mm from center'). External collet: turning a threaded collar on the end of the outer tube squeezes a split plastic ring (a collet, 'C-ring') down onto the inner tube (Ulanzi; Wikipedia 'Collet'). Twisting back releases the squeeze so the tube slides.
+Internal expander: turning one tube against the other screws the threaded rod into a cone-shaped plastic plug, which swells outward and presses on the inside wall of the outer tube; friction then stops the tubes sliding (Leki; Ryder-Walker; Wright patent: rotation 'will cause [radial](../glossary.md#axial--radial) expansion of the collar' and 'frictional engagement' with the inner wall). Eccentric cam: an off-centre cam on the inner tube turns inside an off-centre ring; about a quarter turn (about 90 degrees) pushes the ring sideways against the outer tube wall and wedges it there (Levi and Quarberg patents; the printable tent-pole lock uses 'a circle offset by 1mm from center'). External collet: turning a threaded collar on the end of the outer tube squeezes a split plastic ring (a collet, 'C-ring') down onto the inner tube (Ulanzi; Wikipedia 'Collet'). Twisting back releases the squeeze so the tube slides.
 
 ## Parts
 
@@ -177,7 +179,7 @@ Use a twist lock when you want tubes that set to any length (not just fixed hole
 
 ## When not to use it
 
-Avoid it when the length must be changed quickly with gloves or cold hands, or when you can't see whether it is locked (a lever lock (flip lock) shows its state and is easier to work: Ulanzi; Backpacker). Avoid it for heavy or safety-critical loads, for loads that twist the tube, or for vibration: use a spring button lock or a pin through holes for set positions, or a set screw or bolted clamp for a permanent setting. Avoid it in sandy, salty or muddy places unless you can clean it often (use a lever lock or a sealed design). A square or keyed tube can't use it, because the tubes must turn to lock.
+Avoid it when the length must be changed quickly with gloves or cold hands, or when you can't see whether it is locked (a lever lock (flip lock) shows its state and is easier to work: Ulanzi; Backpacker). Avoid it for heavy or safety-critical loads, for loads that twist the tube, or for vibration: use a spring button lock or a pin through holes for set positions, or a [set screw](../glossary.md#set-screw) or bolted clamp for a permanent setting. Avoid it in sandy, salty or muddy places unless you can clean it often (use a lever lock or a sealed design). A square or keyed tube can't use it, because the tubes must turn to lock.
 
 ## Details
 
@@ -187,12 +189,12 @@ Avoid it when the length must be changed quickly with gloves or cold hands, or w
 - **Movement:** slide: in and out along the tube, over the length the overlap allows; when unlocked, round tubes can also turn (rotate+slide), and that turning is what works the lock
 - **Directions it can move (degrees of freedom):** Unlocked: 2 (slide along the tube and turn around it); the turn is used to lock. Locked: 0, held only by friction, so a big enough push, pull or twist can still make it slip.
 - **Special behaviour:**
-  - self-locking (holds under load, won't back-drive): once tightened, pushing on the pole does not undo the thread or cam, so it stays locked by friction; a cam design gives 'a large multiple' of force for a modest twist (Levi and Quarberg, US5011319)
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): once tightened, pushing on the pole does not undo the thread or cam, so it stays locked by friction; a cam design gives 'a large multiple' of force for a modest twist (Levi and Quarberg, US5011319)
   - hand-release only (locks under load, releases when a person operates it): it only unlocks when someone twists the sections or the collar back
   - quick-release: no tools, but slower than a lever lock; a tripod twist collar needs about half a turn (Benro guide), an eccentric cam about a quarter turn (Levi and Quarberg, US5549407)
   - motion conversion (inside the lock only): the twist is turned into a sideways squeeze by a screw thread, cone or cam; no motion is passed on
 - **How it holds:**
-  - friction or clamping (force-fit): a swelling plug, off-centre cam or squeezed collet presses the tube walls together and friction holds the length
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): a swelling plug, off-centre cam or squeezed collet presses the tube walls together and friction holds the length
   - spring force (partly): the plastic expander or collet is squashed a little and pushes back like a spring, which keeps up the pressure
 - **Input and output:** not applicable (the twist is turned into a sideways squeeze inside the lock, but no motion is passed on)
 - **Power:** passive (no power needed)
@@ -204,7 +206,7 @@ Avoid it when the length must be changed quickly with gloves or cold hands, or w
 - **Adjustable:** yes: the length can be set anywhere along the slide (stepless adjustment). How hard it grips depends on how far you twist it, and on worn or dirty expanders.
 - **Access needed:** end of a tube or shaft: the expander or cam is fitted into the end of the inner tube, and a collar goes on the end of the outer tube; once built it is worked from the outside by twisting.
 - **Materials:** Tubes: aluminium, carbon fibre, steel or PVC. Expanders and collets: hard or soft plastics, nylon or rubber (Leki; poolpole.com); threaded rod or screw: aluminium alloy or steel; collars: plastic or aluminium. Printed versions: PETG for the collet and forcing cone, PLA for handles and retainers (jslaker). Best with smooth, round, straight tubes; poor with rough or dented tubes, and with welded tube that has a seam inside (Speedy Metals).
-- **Heat, cold, water and wear:** Water, salt and grit corrode the threads and polish or gum up the plug, so it slips (Backpacker); sand or grit can seize it (Wright patent). Twist-type locks can freeze in the cold or be overtightened until they jam (Tomm patent: 'known to become overtightened and freeze in position'; Johnson and O'Connor patent: twisting devices can 'strip, jam, or in cold weather, freeze'). Heat and sun: Benro advises not leaving a tripod in the sun or heat. Printed parts: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa); plastic expanders and printed collets relax (creep) under constant squeeze, so they need retightening (goodprints3d).
+- **Heat, cold, water and wear:** Water, salt and grit corrode the threads and polish or gum up the plug, so it slips (Backpacker); sand or grit can seize it (Wright patent). Twist-type locks can freeze in the cold or be overtightened until they jam (Tomm patent: 'known to become overtightened and freeze in position'; Johnson and O'Connor patent: twisting devices can 'strip, jam, or in cold weather, freeze'). Heat and sun: Benro advises not leaving a tripod in the sun or heat. Printed parts: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa); plastic expanders and printed collets relax ([creep](../glossary.md#creep)) under constant squeeze, so they need retightening (goodprints3d).
 
 ## Making it
 
@@ -213,13 +215,13 @@ Avoid it when the length must be changed quickly with gloves or cold hands, or w
   - 3D print (FDM): printed collets, forcing cones, eccentric cams and collars for bought aluminium, carbon or PVC tubes
   - 3D print (resin): possible for small cams ⚑ [uncertain]
   - CNC: turned metal collets and threaded collars (lathe work)
-- **Printing it in one piece (print in place):** partly: a mostly print-in-place telescoping webcam stand that 'screw-locks' to height exists, but its top and cam screw are printed separately (BRE3DLOVE, Printables). Most printed twist locks are separate parts fitted to bought tubes.
+- **Printing it in one piece (print in place):** partly: a mostly [print-in-place](../glossary.md#print-in-place) telescoping webcam stand that 'screw-locks' to height exists, but its top and cam screw are printed separately (BRE3DLOVE, Printables). Most printed twist locks are separate parts fitted to bought tubes.
 - **Tools:** None to use. To service: a cloth or old toothbrush and a light grease (Backpacker). To make your own: a saw and file for the tubes, and glue to fix the printed body into the inner tube so it can't turn (the printable tent-pole design uses Araldite).
 - **Difficulty:** moderate: easy to buy (replacement expanders and twist-lock plugs are sold), but a printed collet or cam 'needs to be a relatively precise fit for the tubes, so it pretty much has to be generated for your material' (sdk, Printables).
 
 ### 3D printing tips
 
-1) Measure your tubes first and print a test piece: the printed tent-pole cam is 'just a circle offset by 1mm from center', its outside diameter is made 'exactly the same size as ID of the larger tube so it needs a tiny squeeze to fit', and the gap between the cam's hole and the body is 'about 1mm but you may need to adjust'; 'the smaller the tube diameters, the harder to get the tolerance correct' (Flex, Printables 232086). 2) Fix the printed body to the inner tube with glue (Araldite) or it 'will rotate when trying to lock the cam' (Flex). 3) Print the parts that take the squeeze solid: 'Forcing cone and collet printed at 100% infill PETG'; handles can be about 35% infill (jslaker, Printables 145516). 4) Use a parametric model (e.g. the OpenSCAD collet by sdk) so you can regenerate it for your tube sizes; its thin clamping 'wings' are delicate until assembled. 5) Allow at least 0.3 mm clearance for parts that must turn or slide (Prusa), and check vertical holes, which FDM prints undersize; drill them to size if they matter (Hubs). 6) Printed threads and cones are anisotropic: FDM parts are weaker across layers (Hubs), so print collets and cams with their axis vertical so the ring of perimeters carries the squeeze ⚑ [uncertain]. 7) Choose PETG over PLA for anything that stays tight: PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV (Prusa PLA), while PETG suits use below 80 °C (Prusa PETG); even so, a PETG clamp can 'lose compression over hours or days' (goodprints3d). 8) Leave long overlap: the ultralight printed tripod warns to keep the inner tube inside the outer one by at least the length of the lock housing 'otherwise it won't be rigid enough' (danec, Printables 911528). 9) Put a stop on the inner tube so the lock cannot be pulled out or slammed against the end: impact against the stop 'can cause irreversible damage' (Wright patent).
+1) Measure your tubes first and print a test piece: the printed tent-pole cam is 'just a circle offset by 1mm from center', its outside diameter is made 'exactly the same size as ID of the larger tube so it needs a tiny squeeze to fit', and the gap between the cam's hole and the body is 'about 1mm but you may need to adjust'; 'the smaller the tube diameters, the harder to get the [tolerance](../glossary.md#tolerance) correct' (Flex, Printables 232086). 2) Fix the printed body to the inner tube with glue (Araldite) or it 'will rotate when trying to lock the cam' (Flex). 3) Print the parts that take the squeeze solid: 'Forcing cone and collet printed at 100% [infill](../glossary.md#infill) PETG'; handles can be about 35% infill (jslaker, Printables 145516). 4) Use a parametric model (e.g. the OpenSCAD collet by sdk) so you can regenerate it for your tube sizes; its thin clamping 'wings' are delicate until assembled. 5) Allow at least 0.3 mm [clearance](../glossary.md#clearance) for parts that must turn or slide (Prusa), and check vertical holes, which FDM prints undersize; drill them to size if they matter (Hubs). 6) Printed threads and cones are anisotropic: FDM parts are weaker across layers (Hubs), so print collets and cams with their axis vertical so the ring of [perimeters](../glossary.md#perimeters) carries the squeeze ⚑ [uncertain]. 7) Choose PETG over PLA for anything that stays tight: PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV (Prusa PLA), while PETG suits use below 80 °C (Prusa PETG); even so, a PETG clamp can 'lose compression over hours or days' (goodprints3d). 8) Leave long overlap: the ultralight printed tripod warns to keep the inner tube inside the outer one by at least the length of the lock housing 'otherwise it won't be rigid enough' (danec, Printables 911528). 9) Put a stop on the inner tube so the lock cannot be pulled out or slammed against the end: impact against the stop 'can cause irreversible damage' (Wright patent).
 
 ### Buying one (off-the-shelf parts)
 
@@ -233,7 +235,7 @@ Trekking-pole expander plugs (twist-lock expanders) sold by tube diameter, e.g. 
 - Overlap: FRC robotics teams reserve about one quarter to one fifth of each stage's length for overlap (the older rule was 30%), and wobble at the tip grows with extended length divided by overlap: 0.01 in of play with 20 in out and 4 in of overlap gives about 0.04 in at the tip (Chief Delphi thread 'Telescoping Tubes Overlap').
 - Tube fit: allow at least 0.010 in between outer and inner diameters for steel DOM tube, and even then test, because many tubes have a weld seam inside (Speedy Metals); a supplier suggests 0.33-0.38 mm total clearance for 1 in aluminium tube in 7/8 in tube (Chalco, vendor guide).
 - Never oil the friction parts: grease the threads very lightly with a non-running lubricant, 'DO NOT use WD40 or oil', and roughen polished plugs and tube walls with sandpaper to restore grip (Backpacker, 'How to Fix Trekking Poles').
-- Older cam twist locks held only as hard as the user could twist; a cam with mechanical advantage turns a modest twist into a large locking force (Levi and Quarberg, US5011319).
+- Older cam twist locks held only as hard as the user could twist; a cam with [mechanical advantage](../glossary.md#mechanical-advantage) turns a modest twist into a large locking force (Levi and Quarberg, US5011319).
 
 ## Common failures
 
@@ -247,7 +249,7 @@ It can slip suddenly if worn, wet or not tight enough, so don't trust your full 
 
 - Telescoping tube lever lock (flip lock): an outside clamp collar squeezed by a flip lever; faster, works with gloves and shows whether it is locked, but sticks out and can snag
 - Spring button lock (snap button): a spring button pops through holes, so it locks positively (by shape) but only at set lengths
-- Keyless locking bush (taper-lock bush): the same idea of a cone or taper wedging parts together, used to fix hubs to shafts
+- Keyless locking bush (taper-lock bush): the same idea of a cone or [taper](../glossary.md#taper) wedging parts together, used to fix hubs to shafts
 - Internal tube anchors (star nut, expansion plug): an expanding plug that is tightened once to fix a part in a tube end, not used as a sliding lock
 - Eccentric cam lever (cam clamp): the off-centre cam principle, turned by a lever instead of by twisting the tube
 - Self-locking wedge (wedge clamp): holds by a shallow wedge, as the cone inside a twist lock does

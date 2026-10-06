@@ -1339,6 +1339,10 @@ JavaScript), KMODDL's collection (403), Granta EduPack and Swift & Booker (paid)
 
 ## 2. Glossary
 
+> **Moved 2026-10-06 (R26):** the glossary now lives in `content/glossary.yaml`, which is its
+> source from now on. `tools/make_entries.py` writes `content/glossary.md` from it and links the
+> first use of each term on every entry page (P9). The table below is the 2026-10-03 original.
+
 Every term below appears in the run 2 data. The number in brackets is how many of the 323
 entries use it (word-boundary search over all field values, 2026-10-03), so the most-used terms
 are the ones a reader is most likely to meet. Each definition is one plain sentence; the

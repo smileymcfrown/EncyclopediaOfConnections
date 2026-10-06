@@ -111,13 +111,15 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Balldetent_torque_limiter.json
+glossary: [misalignment, backlash, coaxial, detent, ratchet, pawl, torque, fail-safe--fail-secure, preload, hysteresis, clearance,
+  form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, brittle--ductile, peel-vs-shear]
 ---
 
-Spring-loaded steel balls sitting in dimples between two plates pass on the drive until the torque gets too high, then roll out of their dimples so the drive side spins free (or clicks round) instead of breaking the gears, motor or workpiece.
+Spring-loaded steel balls sitting in dimples between two plates pass on the drive until the [torque](../glossary.md#torque) gets too high, then roll out of their dimples so the drive side spins free (or clicks round) instead of breaking the gears, motor or workpiece.
 
 **In plain words:** A shaft connector where spring-pressed steel balls sit in little dimples and carry the drive; if something jams, the balls pop out of their dimples and the drive lets go instead of breaking. **Proper term:** Ball-detent torque limiter (ball-detent overload clutch, ball-detent safety coupling).
 
-**Also called:** ball detent torque limiter; ball-type torque limiter / ball torque limiter; overload clutch; safety clutch; safety coupling (when combined with a flexible shaft coupling); mechanical torque limiter; roller detent torque limiter (version with rollers instead of balls); drill clutch / torque clutch / clutch collar (on cordless drill-drivers); torque-limiting sprocket or pulley hub (when it carries a sprocket, gear or pulley).
+**Also called:** ball [detent](../glossary.md#detent) torque limiter; ball-type torque limiter / ball torque limiter; overload clutch; safety clutch; safety coupling (when combined with a flexible shaft coupling); mechanical torque limiter; roller detent torque limiter (version with rollers instead of balls); drill clutch / torque clutch / clutch collar (on cordless drill-drivers); torque-limiting sprocket or pulley hub (when it carries a sprocket, gear or pulley).
 
 ## How it works
 
@@ -129,17 +131,17 @@ A small assembly that acts as one unit: a hub, a drive flange or plate with dete
 
 ## Everyday examples
 
-- the numbered clutch collar on a cordless drill-driver, which slips and ratchets when the screw is tight enough
+- the numbered clutch collar on a cordless drill-driver, which slips and [ratchets](../glossary.md#ratchet) when the screw is tight enough
 - manual torque screwdrivers in which steel balls roll between indented plates pressed by a spring
 - servo axes on machine tools, robots, woodworking and packaging machines, where it protects against crashes and jams
 
 ## When to use it
 
-When a motor or gearbox could jam or crash and you want the drive to let go cleanly, quickly and repeatably, then carry on after the jam is cleared. Examples: robot arms and joints, CNC and 3D-printer axes, conveyors, packaging and printing lines, winders and spool drives. Use it when you need no backlash while running (positioning systems), when you want a switch to shut the motor off after a trip, or when timing must be kept after a reset (single-position type).
+When a motor or gearbox could jam or crash and you want the drive to let go cleanly, quickly and repeatably, then carry on after the jam is cleared. Examples: robot arms and joints, CNC and 3D-printer axes, conveyors, packaging and printing lines, winders and spool drives. Use it when you need no [backlash](../glossary.md#backlash) while running (positioning systems), when you want a switch to shut the motor off after a trip, or when timing must be kept after a reset (single-position type).
 
 ## When not to use it
 
-Not for continuous controlled slipping, such as keeping tension on a spool or a slip-to-hold function: use a friction slip clutch or a magnetic (hysteresis) clutch, which slip smoothly and steadily. Not for very high torques at low cost where occasional replacement is acceptable: a shear pin is simpler. Not where the limiter would have to carry large side loads or misalignment by itself. For a hand-turned cap or knob, a simpler ramp-tooth (clicking) limiter is enough. It is not a safety guard for people, because it protects the machine, not fingers.
+Not for continuous controlled slipping, such as keeping tension on a spool or a slip-to-hold function: use a friction slip clutch or a magnetic ([hysteresis](../glossary.md#hysteresis)) clutch, which slip smoothly and steadily. Not for very high torques at low cost where occasional replacement is acceptable: a [shear](../glossary.md#peel-vs-shear) pin is simpler. Not where the limiter would have to carry large side loads or [misalignment](../glossary.md#misalignment) by itself. For a hand-turned cap or knob, a simpler ramp-tooth (clicking) limiter is enough. It is not a safety guard for people, because it protects the machine, not fingers.
 
 ## Details
 
@@ -149,15 +151,15 @@ Not for continuous controlled slipping, such as keeping tension on a spool or a 
 - **Movement:** rotate: turns continuously with its shaft; on overload the two halves turn relative to each other, and the pressure ring slides a few millimetres along the shaft
 - **Directions it can move (degrees of freedom):** 0 between input and output while engaged: they turn as one piece. After tripping, 1: the halves can turn freely relative to each other, and the pressure ring moves axially, tied to that disengagement.
 - **Special behaviour:**
-  - torque-limiting (slips or clicks at a set force/torque): the spring preload sets the torque at which the balls leave their dimples
-  - fail-safe or breakaway: acts as a mechanical fuse that disconnects in about 3-5 ms, faster than electronic current limiting can react
+  - torque-limiting (slips or clicks at a set force/torque): the spring [preload](../glossary.md#preload) sets the torque at which the balls leave their dimples
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: acts as a mechanical fuse that disconnects in about 3-5 ms, faster than electronic current limiting can react
   - indexing (clicks into set positions): multi-position types re-engage at the next dimple; single-position (synchronous) types re-engage at only one position per turn so machine timing is kept; full-disengagement types stay apart after tripping until pushed back in by hand
-- **How it holds:** shape (the balls interlock with the dimples; form-fit), held in place by spring force (disc springs or coil springs press the balls into the dimples)
-- **Input and output:** Continuous rotation -> the same rotation at 1:1 until the trip torque, then the torque passed on drops to near zero. Works the same in both directions (a drill clutch limits torque equally both ways). Backlash-free while engaged in industrial designs; efficiency close to 100% while engaged ⚑ [uncertain: no figure published]. In line (coaxial), or a gear, sprocket or pulley mounted on the limiter hub. Back-drivable: yes, below the trip torque it is a solid coupling, so the output can drive the input.
+- **How it holds:** shape (the balls interlock with the dimples; [form-fit](../glossary.md#form-fit--force-fit--material-bond)), held in place by spring force (disc springs or coil springs press the balls into the dimples)
+- **Input and output:** Continuous rotation -> the same rotation at 1:1 until the trip torque, then the torque passed on drops to near zero. Works the same in both directions (a drill clutch limits torque equally both ways). Backlash-free while engaged in industrial designs; efficiency close to 100% while engaged ⚑ [uncertain: no figure published]. In line ([coaxial](../glossary.md#coaxial)), or a gear, sprocket or pulley mounted on the limiter hub. Back-drivable: yes, below the trip torque it is a solid coupling, so the output can drive the input.
 - **Power:** passive (no power needed). Many industrial units carry a switch plate that a proximity sensor or limit switch reads to cut the motor power after a trip; the limiter itself needs no power.
 - **Load:** light to heavy: from the clutch in a cordless drill to large industrial units on machine tools, packaging lines and conveyors ⚑ [uncertain: exact largest ratings not verified]. Strong in twist up to the trip torque in both directions; needs the manufacturer's radial-load and misalignment limits kept, so side loads from belts or misaligned shafts should be carried by bearings.
-- **Play and precision:** none to very small play: industrial designs transmit torque backlash-free. Trip accuracy is about ±5% (versus about ±20% for shear pins), with ±5-10% quoted for repeated trips. Single-position types return to exactly the same angle after reset. Tolerates little misalignment on its own, so pair it with a flexible coupling (a 'safety coupling') or support bearings.
-- **Taking it apart:** removable: mounts on a shaft with keyways, set screws or clamping hubs and can be taken off and refitted
+- **Play and precision:** none to very small play: industrial designs transmit torque backlash-free. Trip [accuracy](../glossary.md#repeatability--accuracy) is about ±5% (versus about ±20% for shear pins), with ±5-10% quoted for repeated trips. Single-position types return to exactly the same angle after reset. Tolerates little misalignment on its own, so pair it with a flexible coupling (a 'safety coupling') or support bearings.
+- **Taking it apart:** removable: mounts on a shaft with keyways, [set screws](../glossary.md#set-screw) or clamping hubs and can be taken off and refitted
 - **How often it can be reused:** effectively unlimited: it resets after each overload (automatically, or by hand for full-disengagement types), unlike a shear pin, as long as it is not left ratcheting for long
 - **Sealing:** none as a seal; industrial units are greased for life and are designed to keep dirt away from the balls ⚑ [uncertain how well sealed each type is]
 - **Adjustable:** yes: the trip torque is set by compressing the springs, turning an adjusting nut or ring on industrial units (within a marked range) or the numbered collar on a drill; changing the number or rate of springs changes the range
@@ -177,7 +179,7 @@ Not for continuous controlled slipping, such as keeping tension on a spool or a 
 
 ### 3D printing tips
 
-Use real steel balls. A printable ball-detent demonstrator (Printables 1063083) is built for a 6 mm ball bearing, and its author warns that a printed ball will not detent as smoothly. Use metal springs, because plastic springs held under constant load relax (DuPont design guide). Detent shape: a common starting point for detents is a 90° cone-shaped seat about 25-30% of the ball diameter deep. The holding force follows spring force x tan(half the seat angle + friction angle), so a shallower seat or a weaker spring trips at lower torque (secondary source). Put the balls in holes spaced round a circle in one printed plate, with the dimples in the facing plate, and spring the pressure plate along the shaft with an adjusting nut so you can tune the trip torque. Printed holes usually come out undersize, so test-fit the balls ⚑ [uncertain: no measured clearance]. Choose the reset style: equally spaced dimples reset themselves but click round until the jam clears, which wears plastic fast; an irregular spacing re-engages once per turn and keeps position timing, useful for a robot joint. Material: PETG (fine below about 80 °C) or nylon rather than PLA, which softens above about 60 °C and is brittle. Hardened balls will dent plastic seats under high spring force ⚑ [uncertain: no test data], so keep the torque low or press in metal seats (washers, bushings) where the balls run ⚑ [uncertain]. Calibrate with a weight on an arm (torque = weight force x arm length) and re-check after some trips. If a motor drives it, add a microswitch that the pressure plate presses when it lifts, to cut power after a trip ⚑ [uncertain: DIY adaptation of the industrial sensor plate].
+Use real steel balls. A printable ball-detent demonstrator (Printables 1063083) is built for a 6 mm ball bearing, and its author warns that a printed ball will not detent as smoothly. Use metal springs, because plastic springs held under constant load relax (DuPont design guide). Detent shape: a common starting point for detents is a 90° cone-shaped seat about 25-30% of the ball diameter deep. The [holding force](../glossary.md#holding-force) follows spring force x tan(half the seat angle + friction angle), so a shallower seat or a weaker spring trips at lower torque (secondary source). Put the balls in holes spaced round a circle in one printed plate, with the dimples in the facing plate, and spring the pressure plate along the shaft with an adjusting nut so you can tune the trip torque. Printed holes usually come out undersize, so test-fit the balls ⚑ [uncertain: no measured [clearance](../glossary.md#clearance)]. Choose the reset style: equally spaced dimples reset themselves but click round until the jam clears, which wears plastic fast; an irregular spacing re-engages once per turn and keeps position timing, useful for a robot joint. Material: PETG (fine below about 80 °C) or nylon rather than PLA, which softens above about 60 °C and is [brittle](../glossary.md#brittle--ductile). Hardened balls will dent plastic seats under high spring force ⚑ [uncertain: no test data], so keep the torque low or press in metal seats (washers, bushings) where the balls run ⚑ [uncertain]. Calibrate with a weight on an arm (torque = weight force x arm length) and re-check after some trips. If a motor drives it, add a microswitch that the pressure plate presses when it lifts, to cut power after a trip ⚑ [uncertain: DIY adaptation of the industrial sensor plate].
 
 ### Buying one (off-the-shelf parts)
 
@@ -206,7 +208,7 @@ Self-resetting types re-engage as soon as the load drops, so switch off and lock
 - Ratchet-tooth (cam-over) torque limiter: sloped teeth instead of balls; simpler and cheaper, used in caps, knobs and hand drivers, but it keeps clicking and is less accurate
 - Friction slip clutch: spring-pressed friction discs slip smoothly and can slip continuously, but wear, heat up when slipping and keep dragging instead of disconnecting
 - Shear pin: a weak pin breaks at overload; very simple, but must be replaced and is less accurate (about ±20%)
-- Pawl-and-spring and roller-detent torque limiters: a sprung pawl or rollers leave notches instead of balls
+- Pawl-and-spring and roller-detent torque limiters: a sprung [pawl](../glossary.md#pawl) or rollers leave notches instead of balls
 - Ball detent (spring plunger) indexing: the same ball-in-dimple idea used to click into set positions, with lower spring force
 - Magnetic torque limiter (synchronous magnetic coupling): magnets carry the drive through an air gap and slip with no contact or wear
 - Compliant slip hub / servo saver: one-piece springy arms give way under shock, with no separate balls or springs

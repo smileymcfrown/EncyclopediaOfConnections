@@ -142,6 +142,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:6_Pin_Header.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wiretoboard_plug_connectors_pin_header_and_crimp_housing.json
+glossary: [ratchet, pitch, form-fit--force-fit--material-bond, keying, gland]
 ---
 
 A plastic plug (housing) holding small sprung metal sockets that have been crimped onto wire ends pushes onto a matching row of pins (header) soldered to a circuit board, making a removable, often latched and polarised, low-current connection.
@@ -156,7 +157,7 @@ Each wire end is stripped and a small metal contact is squeezed onto it with a c
 
 ## Parts
 
-A few parts: the board half (a pin header, plain or in a shrouded box, soldered into the circuit board); the cable half (a moulded plastic housing); one crimp contact per wire (a stamped metal socket with a wire crimp and an insulation crimp, locked into the housing); and the wires. Many housings add a latch, ramp or friction lock and a polarising key (JST XH datasheet; Wikipedia 'Pin header'; SparkFun 'Connector Basics'). Related forms: jumper wires (wire with a single-way housing at each end), solderless breadboards (blocks of sprung clips at 0.1 in pitch), stacking headers, card-edge sockets and IC sockets.
+A few parts: the board half (a pin header, plain or in a shrouded box, soldered into the circuit board); the cable half (a moulded plastic housing); one crimp contact per wire (a stamped metal socket with a wire crimp and an insulation crimp, locked into the housing); and the wires. Many housings add a latch, ramp or friction lock and a polarising key (JST XH datasheet; Wikipedia 'Pin header'; SparkFun 'Connector Basics'). Related forms: jumper wires (wire with a single-way housing at each end), solderless breadboards (blocks of sprung clips at 0.1 in [pitch](../glossary.md#pitch)), stacking headers, card-edge sockets and IC sockets.
 
 ## Everyday examples
 
@@ -171,7 +172,7 @@ Use it whenever a low-current wire must connect to a circuit board and you may w
 
 ## When not to use it
 
-Not for mains voltage or for currents above a few amps: use proper high-current battery plugs, screw terminals or spring-clamp terminals sized for the load, and follow local law for any mains wiring (e.g. Approved Document P in England). Not where the joint must be permanent and vibration-proof with no latch (solder or crimp the wire directly, or use a latching series). Avoid breadboards in finished projects: they have 'relatively high resistance, and less reliable connections, which are subject to jostle and physical degradation' (Wikipedia 'Breadboard'). Avoid unkeyed, unshrouded headers for power, where a reversed or shifted plug can damage the board; use a keyed connector (see Keying). Don't solder wires onto crimp contacts instead of crimping them: 'It makes for easily damaged connections' (Hackaday 'Inside The Secret World Of Crimping').
+Not for mains voltage or for currents above a few amps: use proper high-current battery plugs, screw terminals or spring-clamp terminals sized for the load, and follow local law for any mains wiring (e.g. Approved Document P in England). Not where the joint must be permanent and vibration-proof with no latch (solder or crimp the wire directly, or use a latching series). Avoid breadboards in finished projects: they have 'relatively high resistance, and less reliable connections, which are subject to jostle and physical degradation' (Wikipedia 'Breadboard'). Avoid unkeyed, unshrouded headers for power, where a reversed or shifted plug can damage the board; use a keyed connector (see [Keying](../glossary.md#keying)). Don't solder wires onto crimp contacts instead of crimping them: 'It makes for easily damaged connections' (Hackaday 'Inside The Secret World Of Crimping').
 
 ## Details
 
@@ -186,7 +187,7 @@ Not for mains voltage or for currents above a few amps: use proper high-current 
   - self-aligning or self-centring: a shroud (box header) guides the plug onto the pins, and a notch, bump, missing pin or blocked socket makes it fit only one way round (polarised or keyed) (Wikipedia 'Pin header'; see Keying)
 - **How it holds:**
   - spring force (a spring or springy part presses it in place): each socket is a sprung metal contact that grips its pin (e.g. JST XH 'double-leaf contact'; breadboards use 'spring clips') (JST XH datasheet; Wikipedia 'Breadboard')
-  - shape (the parts interlock; form-fit): a latch or ramp on the housing hooks over the header, and each crimp contact is locked into its housing cavity, e.g. by a retaining clip (JST XH datasheet; NASA-STD-8739.4A §13.2.1)
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): a latch or ramp on the housing hooks over the header, and each crimp contact is locked into its housing cavity, e.g. by a retaining clip (JST XH datasheet; NASA-STD-8739.4A §13.2.1)
   - friction or clamping (force-fit): unlatched plugs and the crimp itself, which deforms the contact 'past its yield point' so it grips the wire by static friction (Wikipedia 'Electrical connector', 'Crimp (joining)')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed).
@@ -224,7 +225,7 @@ Male pin headers (straight or right-angle, single or double row, through-hole or
 - Name connectors by maker, series and pitch, e.g. 'JST-XH 2.50 mm', never just 'JST' or 'Molex' (Wikipedia 'JST connector'; Hackaday 'JST Is Not A Connector').
 - Check the current rating per contact for your wire size: JST-XH 3 A at 22 AWG, 250 V, wire 30-22 AWG, -25 to +85 °C; JST-PH 2 A at 24 AWG, 100 V, wire 32-24 AWG, -40 to +105 °C (JST XH and PH datasheets); breadboard clips 1 A at 5 V (Wikipedia 'Breadboard').
 - Breadboards: 0.1 in hole spacing, five clips per half-row, 22 AWG solid tin-plated copper jumpers; usable for signals up to about 10 MHz only (Wikipedia 'Breadboard').
-- Use only the wire size and contact combination the maker specifies, with the matching tool, and don't modify contacts or wire (NASA-STD-8739.4A §12.3.3-12.3.4); crimp tools should have a full-cycle ratchet (§12.3.1).
+- Use only the wire size and contact combination the maker specifies, with the matching tool, and don't modify contacts or wire (NASA-STD-8739.4A §12.3.3-12.3.4); crimp tools should have a full-cycle [ratchet](../glossary.md#ratchet) (§12.3.1).
 - Pull-test crimps: minimum crimp pull strength 22 N (28 AWG), 36 N (26 and 24 AWG), 57 N (22 AWG), 92 N (20 AWG), 142 N (18 AWG); for other combinations at least 60% of the wire's own tensile strength (NASA-STD-8739.4A Table 12-1, §12.3.5).
 - Leave 0.25 mm to 0.75 mm of bare wire between the insulation and the crimp barrel for 20 AWG and smaller (NASA-STD-8739.4A §10.1.4.b), and push each contact in until it is 'fully seated and locked' (§13.2.1).
 - Low-insertion-force contact versions are easier to plug but 'less resistant to the vibration' (JST XH datasheet; JST PH datasheet).
@@ -249,7 +250,7 @@ Low current only: overloaded or worn contacts heat up; female sockets 'can sprea
 - High-current battery plug: for motor and battery power above a few amps
 - Pogo pin: spring-loaded pins that touch flat pads, for docking and test jigs with no plug at all
 - Flat flexible cable and latching connector (FFC with ZIF): a thin ribbon slid into a latching board connector, for very fine pitches
-- Cable gland and strain relief: how to stop a pull on the cable reaching the crimp
+- Cable [gland](../glossary.md#gland) and strain relief: how to stop a pull on the cable reaching the crimp
 - Genderless connector: plugs where both halves are identical
 
 ## Make it yourself

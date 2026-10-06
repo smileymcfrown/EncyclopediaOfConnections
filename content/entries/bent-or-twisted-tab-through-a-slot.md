@@ -108,6 +108,7 @@ sources:
 - https://www.youtube.com/watch?v=NFyqSEom-MQ
 - https://www.youtube.com/watch?v=C0-GQxCs6Is
 research: research/connection-types/results/Bent_or_twisted_tab_through_a_slot_lanced_tab.json
+glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, layer-lines, infill]
 ---
 
 A tab on one sheet-metal part passes through a slot in the other and is then folded over or twisted about a quarter turn, so the parts line themselves up and are locked together with no screws, rivets, glue or heat.
@@ -118,7 +119,7 @@ A tab on one sheet-metal part passes through a slot in the other and is then fol
 
 ## How it works
 
-The tab is a snug fit in the slot, so pushing it through lines the two parts up (as in any tab-and-slot joint). The part of the tab that sticks out on the far side is then folded flat against the sheet or twisted about 90 degrees, which makes it too wide or the wrong shape to come back through the slot, so the parts are locked (SendCutSend; Metal Earth). Twisting also draws the two parts tightly together, making a firm joint (Metal Model Mania). The joint stays shut because ductile metal stays where it is bent instead of springing back (Machine Design).
+The tab is a snug fit in the slot, so pushing it through lines the two parts up (as in any tab-and-slot joint). The part of the tab that sticks out on the far side is then folded flat against the sheet or twisted about 90 degrees, which makes it too wide or the wrong shape to come back through the slot, so the parts are locked (SendCutSend; Metal Earth). Twisting also draws the two parts tightly together, making a firm joint (Metal Model Mania). The joint stays shut because [ductile](../glossary.md#brittle--ductile) metal stays where it is bent instead of springing back (Machine Design).
 
 ## Parts
 
@@ -152,12 +153,12 @@ Avoid it when the parts must be taken apart often (use screws, a T-slot joint, h
   - tensioning (takes up slack and holds): only for the twisted version, where the twist draws the two parts together into 'the tightest, strongest joint possible' (Metal Model Mania)
   - none of the other listed behaviours
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the folded or twisted tab can no longer pass back through the slot
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the folded or twisted tab can no longer pass back through the slot
   - friction or clamping (force-fit): a twisted or tightly folded tab also clamps the sheets together (Metal Model Mania; SendCutSend)
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Light to medium. Stronger when pulled at right angles to the folded tabs; weaker when pushed along the direction the tab is folded, where the tab can bend back and slip out of the slot. Angled tabs folded in opposite directions, more tabs, or tabs folded towards each other (the 'claw') make it stronger (SendCutSend; Metal Model Mania). Tests on lap joints with a centre tab showed that the fold direction decides how it breaks: a tab folded against the load unbends at its root, while one folded with the load bends the thin strip of sheet beside the slot; wider tabs or more tabs raise the strength (Kawamura 1988). Machine Design calls folded tabs 'moderately strong' joints.
-- **Play and precision:** Small play before locking, set by the slot clearance; a twisted tab pulls the parts tight and removes most of it (Metal Model Mania). A folded tab can leave slight play ⚑ [uncertain]. Location is as repeatable as the laser-cut or stamped slot. Almost no tolerance for misalignment, since the tab must enter the slot.
+- **Play and precision:** Small play before locking, set by the slot [clearance](../glossary.md#clearance); a twisted tab pulls the parts tight and removes most of it (Metal Model Mania). A folded tab can leave slight play ⚑ [uncertain]. Location is as repeatable as the laser-cut or stamped slot. Almost no [tolerance](../glossary.md#tolerance) for [misalignment](../glossary.md#misalignment), since the tab must enter the slot.
 - **Taking it apart:** semi-permanent (can be undone but may damage parts): tabs can be straightened and pulled out, but they are fragile and may break (Trains.com restoration guide: 'They break off easily, but most will withstand one disassembly without serious damage'). SendCutSend calls the bent-tab joint 'permanent or semi-permanent'.
 - **How often it can be reused:** once to a few times: Metal Earth warns that folding a piece back and forth along a fold line more than 2 times will weaken or break it; a toy-train restorer says most tabs survive one disassembly (Metal Earth help page; Trains.com).
 - **Sealing:** none: the slot and tab leave small gaps.
@@ -178,7 +179,7 @@ Avoid it when the parts must be taken apart often (use screws, a T-slot joint, h
 
 ### 3D printing tips
 
-Not applicable for the joint itself: it relies on metal that bends once and stays bent (Machine Design), whereas printed plastic tabs tend to spring back or crack along layer lines when bent ⚑ [uncertain]. In a printed part use a snap fit, heat staking (a melted plastic rivet) or a screw instead ⚑ [uncertain]. A 3D printer can still help: a fully printed bending tool for fine sheet metal, intended for building metal model kits, is on Thingiverse and Printables (blecheimer, CC BY-NC-SA 4.0; printed at 0.2 mm layers, three walls, 20% infill).
+Not applicable for the joint itself: it relies on metal that bends once and stays bent (Machine Design), whereas printed plastic tabs tend to spring back or crack along [layer lines](../glossary.md#layer-lines) when bent ⚑ [uncertain]. In a printed part use a snap fit, heat staking (a melted plastic rivet) or a screw instead ⚑ [uncertain]. A 3D printer can still help: a fully printed bending tool for fine sheet metal, intended for building metal model kits, is on Thingiverse and Printables (blecheimer, CC BY-NC-SA 4.0; printed at 0.2 mm layers, three walls, 20% [infill](../glossary.md#infill)).
 
 ### Buying one (off-the-shelf parts)
 

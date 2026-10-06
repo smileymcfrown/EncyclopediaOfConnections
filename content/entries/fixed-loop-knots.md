@@ -153,6 +153,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Directional_figure_8_knot.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Fixed_loop_knots_bowline_figureeight_loop_alpine_butterfly.json
+glossary: [form-fit--force-fit--material-bond, peel-vs-shear]
 ---
 
 Knots that make a loop that won't shrink or slip, at the end of a rope (bowline, figure-eight loop) or in its middle (alpine butterfly), to hook, clip or drop over something, and that untie by hand afterwards.
@@ -195,7 +196,7 @@ Never for climbing, rescue, swings, hammocks, lifting or anything that holds a p
   - none: the useful property is simply that the loop is fixed and does not tighten (an eye rather than a noose) (Wikipedia 'List of knot terminology'). Note that the directional figure eight is made to be pulled one way only: 'a strain from the wrong end actually capsizes the knot into one that slides, i.e., it functions as a noose' (Animated Knots 'Figure 8 Directional Loop')
   - quick-release: only in slipped forms, such as the Kalmyk loop (a slipped Eskimo bowline); a slipped knot is less secure but releases more easily (Animated Knots 'Bowline', 'Terminology')
 - **How it holds:**
-  - friction or clamping (force-fit): turns of rope squeeze the tail and standing part together when loaded (Wikipedia 'Knot')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): turns of rope squeeze the tail and standing part together when loaded (Wikipedia 'Knot')
   - shape (the parts interlock; form-fit): the closed loop surrounds the hook, post, ring or carabiner it hangs on
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
@@ -220,7 +221,7 @@ Never for climbing, rescue, swings, hammocks, lifting or anything that holds a p
 
 ### 3D printing tips
 
-Loops aren't printed, but they are often dropped over printed hooks and posts or clipped to printed rings. 1) Give a printed hook or post a smooth, generously rounded seat: rope is weakest where it bends tightly, and tests show thicker ropes, which bend more gently in a knot, keep more of their strength (CMC 2023: average 54%, 60% and 65% in 9.5, 11 and 12.5 mm rope) ⚑ [uncertain as a hook-sizing rule]. 2) Don't stretch a loop wide over a broad post or two hooks: a bowline pulled apart from inside (ring-loaded) can spill at low force (Šimon et al. 2020); if the loop must sit wide, the Eskimo bowline 'is preferred when the loop will be stretched wide' (Animated Knots 'Bowline'). 3) Printed hooks, rings and thimbles are for light loads only; one printed rope-ring designer notes such rings 'are for light rigging and organization, not life-safety loads' (Printables 1772939). 4) Orient a printed hook so the pull runs along its layers rather than trying to peel them apart ⚑ [uncertain]. 5) Practise on a printed ring-and-cleat trainer or knot board before relying on a knot (Printables 588348, 979503).
+Loops aren't printed, but they are often dropped over printed hooks and posts or clipped to printed rings. 1) Give a printed hook or post a smooth, generously rounded seat: rope is weakest where it bends tightly, and tests show thicker ropes, which bend more gently in a knot, keep more of their strength (CMC 2023: average 54%, 60% and 65% in 9.5, 11 and 12.5 mm rope) ⚑ [uncertain as a hook-sizing rule]. 2) Don't stretch a loop wide over a broad post or two hooks: a bowline pulled apart from inside (ring-loaded) can spill at low force (Šimon et al. 2020); if the loop must sit wide, the Eskimo bowline 'is preferred when the loop will be stretched wide' (Animated Knots 'Bowline'). 3) Printed hooks, rings and thimbles are for light loads only; one printed rope-ring designer notes such rings 'are for light rigging and organization, not life-safety loads' (Printables 1772939). 4) Orient a printed hook so the pull runs along its layers rather than trying to [peel](../glossary.md#peel-vs-shear) them apart ⚑ [uncertain]. 5) Practise on a printed ring-and-cleat trainer or knot board before relying on a knot (Printables 588348, 979503).
 
 ### Buying one (off-the-shelf parts)
 

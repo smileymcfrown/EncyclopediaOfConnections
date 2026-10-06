@@ -133,6 +133,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Granny_knot.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Basic_knots_overhand_knot_half_hitch_reef_knot.json
+glossary: [stiffness, form-fit--force-fit--material-bond, layer-lines]
 ---
 
 Three knots built from the same single tuck: the overhand makes a lump in the end of a cord so it can't slip through a hole, the half hitch ties a cord round a post or ring, and the reef knot ties the two ends of one cord round a bundle, with a slipped version that becomes the shoelace bow; they are the baseline that better knots for each job are compared with.
@@ -175,7 +176,7 @@ Never use them for climbing, lifting, swings, hammocks, towing or anything that 
   - quick-release: slipped knots, such as the shoelace bow (a doubly slipped reef knot), come undone with one pull on the free end; the bow 'has the stability of the reef knot but is significantly easier to untie' (Wikipedia 'Shoelace knot')
   - none for the plain overhand and half hitch: they simply hold by friction (Wikipedia 'Knot')
 - **How it holds:**
-  - friction or clamping (force-fit): turns of cord squeezed against each other and against the object (Wikipedia 'Knot'; 'Reef knot', Physical analysis)
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): turns of cord squeezed against each other and against the object (Wikipedia 'Knot'; 'Reef knot', Physical analysis)
   - shape (the parts interlock; form-fit): a stopper knot is a 'fixed thicker point' that can't pass through a narrow hole (Wikipedia 'Stopper knot')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
@@ -186,7 +187,7 @@ Never use them for climbing, lifting, swings, hammocks, towing or anything that 
 - **Sealing:** none
 - **Adjustable:** no: to change the tension or position, untie and re-tie; knots that can be slid to adjust tension are in Tensioning and adjustable hitches.
 - **Access needed:** not applicable: you need only a free end (or a bight) of the cord, and room to pass it round the post, ring or bundle.
-- **Materials:** Any cord, string, twine, shoelace, rope or flat tape, natural (cotton, hemp, sisal) or synthetic (nylon, polyester, polypropylene, high-modulus polyethylene such as Dyneema (brand)) (Wikipedia 'Rope'). Small cotton string has enough internal friction to stay tied easily, while stiff, thick kernmantle rope is hard to tie and may be slick enough to come apart once tied (Wikipedia 'Knot', Difficulty); synthetic ropes have a disadvantage in 'slipperiness' (Wikipedia 'Rope'). The reef knot doesn't hold if the two ends differ in size, stiffness or smoothness (ABOK quoted in Wikipedia 'Reef knot'). Flat webbing must be tied flat, without twists (Wikipedia 'Knot', Material).
+- **Materials:** Any cord, string, twine, shoelace, rope or flat tape, natural (cotton, hemp, sisal) or synthetic (nylon, polyester, polypropylene, high-modulus polyethylene such as Dyneema (brand)) (Wikipedia 'Rope'). Small cotton string has enough internal friction to stay tied easily, while stiff, thick kernmantle rope is hard to tie and may be slick enough to come apart once tied (Wikipedia 'Knot', Difficulty); synthetic ropes have a disadvantage in 'slipperiness' (Wikipedia 'Rope'). The reef knot doesn't hold if the two ends differ in size, [stiffness](../glossary.md#stiffness) or smoothness (ABOK quoted in Wikipedia 'Reef knot'). Flat webbing must be tied flat, without twists (Wikipedia 'Knot', Material).
 - **Heat, cold, water and wear:** Repeated pulling and slackening, flapping or vibration shake knots loose: 'Many knots can loosen with prolonged intermittent strain' (Animated Knots 'Safety'), and slipping is worse when a knot is 'repeatedly strained and let slack' or struck against hard objects (Wikipedia 'Knot'). Water: nylon 'absorbs water and is 10-15% weaker when wet', while polyester is not affected (Wikipedia 'Rope'). Sunlight: polypropylene has 'limited resistance to ultraviolet light, friction, and heat', and some synthetics are damaged by UV (Wikipedia 'Rope'). Rot: natural-fibre cords rot more readily than synthetics (Wikipedia 'Rope'). Heat: synthetic cords melt, which is how their ends are sealed (Wikipedia 'Rope').
 
 ## Making it
@@ -200,7 +201,7 @@ Never use them for climbing, lifting, swings, hammocks, towing or anything that 
 
 ### 3D printing tips
 
-Knots aren't printed, but cords are often knotted onto prints. 1) For a stopper behind a hole, make the hole only a little bigger than the cord so the overhand lump can't pull through; if it does, tie a double overhand, which makes a bigger stopper (Animated Knots 'Overhand Knot') ⚑ [uncertain for the hole sizing]. The overhand is 'one of the few stopper knots that can be tied tightly up against an object' (Animated Knots). 2) Round off the edges of holes, slots and posts where a loaded cord bends, so it doesn't chafe or cut through ⚑ [uncertain]. 3) Tie hitches round a solid post or bar on the part rather than a thin printed loop, which can snap along its layer lines ⚑ [uncertain]. 4) Use a printed knot-practice board to learn these and the better knots that replace them (Printables 619893). 5) Seal or whip the cut end of synthetic cord so it doesn't fray, but note the warning that hard melted ends can cut hands (Geoffrey Budworth, quoted in Wikipedia 'Rope'); see Rope-end finishing.
+Knots aren't printed, but cords are often knotted onto prints. 1) For a stopper behind a hole, make the hole only a little bigger than the cord so the overhand lump can't pull through; if it does, tie a double overhand, which makes a bigger stopper (Animated Knots 'Overhand Knot') ⚑ [uncertain for the hole sizing]. The overhand is 'one of the few stopper knots that can be tied tightly up against an object' (Animated Knots). 2) Round off the edges of holes, slots and posts where a loaded cord bends, so it doesn't chafe or cut through ⚑ [uncertain]. 3) Tie hitches round a solid post or bar on the part rather than a thin printed loop, which can snap along its [layer lines](../glossary.md#layer-lines) ⚑ [uncertain]. 4) Use a printed knot-practice board to learn these and the better knots that replace them (Printables 619893). 5) Seal or whip the cut end of synthetic cord so it doesn't fray, but note the warning that hard melted ends can cut hands (Geoffrey Budworth, quoted in Wikipedia 'Rope'); see Rope-end finishing.
 
 ### Buying one (off-the-shelf parts)
 

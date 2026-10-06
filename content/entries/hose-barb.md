@@ -139,6 +139,7 @@ sources:
 - https://en.wikipedia.org/wiki/Cross-linked_polyethylene
 - https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg
 research: research/connection-types/results/Hose_barb_barbed_tube_fitting.json
+glossary: [form-fit--force-fit--material-bond, collet, chamfer--fillet, perimeters, infill, o-ring, gland, check-valve]
 ---
 
 A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.
@@ -157,7 +158,7 @@ Single piece, plus the tube and an optional clamp. Parts: a hollow spigot with o
 
 ## Everyday examples
 
-- Aquarium air-pump tubing and its little check valves and tees (standard 3/16 in, about 5 mm, airline tubing; FishLab)
+- Aquarium air-pump tubing and its little [check valves](../glossary.md#check-valve) and tees (standard 3/16 in, about 5 mm, airline tubing; FishLab)
 - Garden drip-irrigation fittings pushed into polyethylene tubing (DripWorks; Printables 378315)
 - PC water-cooling loops, with hoses clamped onto barb fittings (Wikipedia, Hose clamp; Wikimedia Commons photo)
 - Car heater and coolant hoses held on with spring or screw clamps (Wikipedia, Hose clamp)
@@ -181,7 +182,7 @@ Don't use it for high pressure (well above about 100 psi), for pressure spikes, 
 - **Special behaviour:**
   - one-way (moves freely one way, locks the other): only in the sense that the barb's slope lets the tube slide on easily while its sharp back edge resists pulling the tube off; pulling actually makes the tube grip tighter (ISM; Hydraulics & Pneumatics)
 - **How it holds:**
-  - friction or clamping (force-fit): the stretched tube squeezes the barb stem, and a clamp adds more squeeze
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the stretched tube squeezes the barb stem, and a clamp adds more squeeze
   - shape (the parts interlock; form-fit): the tube relaxes behind the sharp barb edge, which hooks it; a clamp behind the barb also blocks the tube from sliding off (Wikipedia, Hose clamp)
 - **Input and output:** not applicable: it joins a tube and passes fluid, not motion
 - **Power:** passive (no power needed)
@@ -208,7 +209,7 @@ Don't use it for high pressure (well above about 100 psi), for pressure spikes, 
 
 ### 3D printing tips
 
-1) Orientation: most makers print barbs standing up, with the tube axis vertical, so each barb is a round ring of layers (Printables 1810917 printed this way in PLA and PA11 without supports; Printables 378315 printed a barb tee standing up with supports). Give the barbs a 45° slope on both sides so they print without supports (Printables 1765791 uses a '2x45° ridge profile'). 2) Leak-tight walls: use at least 3-4 perimeters, raise the nozzle temperature 5-10 °C and the extrusion multiplier 5-10%, keep layer height at no more than 60-65% of the nozzle size (Prusa Knowledge Base, Watertight prints); one drip-irrigation tee needed 6 perimeters to be water-tight under pressure (Printables 378315). Some designers print at 100% infill (Printables 1436108) or with walls thick enough to be solid. 3) Seam: set the seam to random, or scrape the seam smooth with a knife, because an aligned seam is a leak path along the barb (Printables 455268; Printables 1436108). 4) Material: PETG for water and outdoors; PLA only for dry indoor use (Printables 1829891); PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen), so avoid printed barbs on hot water or engine coolant. 5) Strength: add a fillet or internal reinforcement where the barb joins a flange or body, the usual snapping point (Printables 1765791). 6) Sizing: measure the tube's inside diameter and make the barb a little larger; commercial barbs range from about 10% to 100% larger than the nominal tube ID depending on style (Qosina); parametric generators let you set the barb lip, count and length (Printables 1829891, 1767584; Printables 69154). 7) Hold: leave room behind the barb for a clamp or cable tie (Printables 1436108). 8) Don't use printed barbs for high pressure or fuel (Printables 1436108).
+1) Orientation: most makers print barbs standing up, with the tube axis vertical, so each barb is a round ring of layers (Printables 1810917 printed this way in PLA and PA11 without supports; Printables 378315 printed a barb tee standing up with supports). Give the barbs a 45° slope on both sides so they print without supports (Printables 1765791 uses a '2x45° ridge profile'). 2) Leak-tight walls: use at least 3-4 [perimeters](../glossary.md#perimeters), raise the nozzle temperature 5-10 °C and the extrusion multiplier 5-10%, keep layer height at no more than 60-65% of the nozzle size (Prusa Knowledge Base, Watertight prints); one drip-irrigation tee needed 6 perimeters to be water-tight under pressure (Printables 378315). Some designers print at 100% [infill](../glossary.md#infill) (Printables 1436108) or with walls thick enough to be solid. 3) Seam: set the seam to random, or scrape the seam smooth with a knife, because an aligned seam is a leak path along the barb (Printables 455268; Printables 1436108). 4) Material: PETG for water and outdoors; PLA only for dry indoor use (Printables 1829891); PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen), so avoid printed barbs on hot water or engine coolant. 5) Strength: add a [fillet](../glossary.md#chamfer--fillet) or internal reinforcement where the barb joins a flange or body, the usual snapping point (Printables 1765791). 6) Sizing: measure the tube's inside diameter and make the barb a little larger; commercial barbs range from about 10% to 100% larger than the nominal tube ID depending on style (Qosina); parametric generators let you set the barb lip, count and length (Printables 1829891, 1767584; Printables 69154). 7) Hold: leave room behind the barb for a clamp or cable tie (Printables 1436108). 8) Don't use printed barbs for high pressure or fuel (Printables 1436108).
 
 ### Buying one (off-the-shelf parts)
 
@@ -237,12 +238,12 @@ A tube that blows off under pressure can spray hot or harmful fluid and whip abo
 
 ## Related
 
-- Push-to-connect (push-in) fitting: a toothed collet grips the outside of stiffer tubing and an O-ring seals it; releases with a collar, so it is better for frequent reconnection (Clippard; Beswick)
+- Push-to-connect (push-in) fitting: a toothed [collet](../glossary.md#collet) grips the outside of stiffer tubing and an [O-ring](../glossary.md#o-ring) seals it; releases with a collar, so it is better for frequent reconnection (Clippard; Beswick)
 - Compression fitting: a nut squeezes a ferrule onto the outside of hard or metal tubing, for higher pressures (Beswick; Wikipedia, Hose clamp)
 - Quick-disconnect coupling: for many connect-disconnect cycles (Beswick)
 - Hose clamp: the band clamp (worm-drive, ear, spring or wire) that holds a hose on a barb; its own entry covers the clamp types and how to fit them, so this entry keeps only a short summary (Wikipedia, Hose clamp)
 - O-ring seal: seals a rigid spigot inside a bore instead of stretching a tube
-- Cable gland: the equivalent idea for sealing a cable (not a tube) through a wall
+- Cable [gland](../glossary.md#gland): the equivalent idea for sealing a cable (not a tube) through a wall
 
 ## Make it yourself
 

@@ -128,17 +128,18 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Midprint_embedding_captive_nuts_magnets_and_bearings.json
+glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, perimeters, infill]
 ---
 
 A way of trapping a nut, magnet, bearing or other metal part completely inside a 3D print by pausing the printer at the right layer, inserting the part, and printing over it.
 
 **In plain words:** Stopping the 3D printer halfway, dropping a metal nut, magnet, bearing or steel balls into a pocket in the part, then letting it print the roof over them so they are sealed inside for good. **Proper term:** Mid-print embedding (pause-and-insert; embedded nuts, magnets and bearings).
 
-**Also called:** pause at height, pause at layer (Cura's 'Pause at Height' post-processing script); Insert pause print (M601) (PrusaSlicer's menu item; M601 is the pause command); Add Pause (Bambu Studio's layer-slider option); embedded nut, fully captive nut, encapsulated nut; embedded or hidden magnets; embedded ball bearing; BB bearing (printed bearing with steel or airsoft BBs dropped in during a pause); embedding hardware, inserting hardware while printing (Hackaday; JanTec Engineering); gap-cap technique (a printed lid placed over the inserted part before printing resumes; DigiKey, Hackaday); insert moulding or overmoulding (the injection-moulding equivalent, where metal parts are placed in the mould before the plastic is injected) ⚑ [uncertain].
+**Also called:** pause at height, pause at layer (Cura's 'Pause at Height' post-processing script); Insert pause print (M601) (PrusaSlicer's menu item; M601 is the pause command); Add Pause (Bambu Studio's layer-slider option); embedded nut, fully [captive nut](../glossary.md#captive-nut), encapsulated nut; embedded or hidden magnets; embedded ball bearing; BB bearing (printed bearing with steel or airsoft BBs dropped in during a pause); embedding hardware, inserting hardware while printing (Hackaday; JanTec Engineering); gap-cap technique (a printed lid placed over the inserted part before printing resumes; DigiKey, Hackaday); insert moulding or overmoulding (the injection-moulding equivalent, where metal parts are placed in the mould before the plastic is injected) ⚑ [uncertain].
 
 ## How it works
 
-The part is designed with a pocket the exact shape of the insert, whose top lines up with a layer boundary. In the slicer a pause is added at the layer that will close the pocket; the printer stops before that layer, parks the nozzle and keeps it hot (Prusa Knowledge Base). You drop the insert in and resume, and the next layers bridge over the pocket and seal it in (Prusa; Printables 'Embedded Nut Test 1'). The insert is then held by shape (form-fit) with plastic on every side, so it can't fall out or turn; a hole left in line with a nut lets a bolt reach it, and a magnet or bearing works through the thin plastic skin or through an opening.
+The part is designed with a pocket the exact shape of the insert, whose top lines up with a layer boundary. In the slicer a pause is added at the layer that will close the pocket; the printer stops before that layer, parks the nozzle and keeps it hot (Prusa Knowledge Base). You drop the insert in and resume, and the next layers bridge over the pocket and seal it in (Prusa; Printables 'Embedded Nut Test 1'). The insert is then held by shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)) with plastic on every side, so it can't fall out or turn; a hole left in line with a nut lets a bolt reach it, and a magnet or bearing works through the thin plastic skin or through an opening.
 
 ## Parts
 
@@ -153,7 +154,7 @@ A few parts: the printed body with a pocket (cavity), the inserted part or parts
 
 ## When to use it
 
-Use mid-print embedding when an insert must never fall out or be seen: hidden magnets for lids, catches and wall mounts; nuts deep inside a part where a side slot would weaken it or where there is no room for a heat-set insert; ball bearings or balls that must be trapped in a printed wheel or race; weights, steel rods or carbon-fibre rods to make a print heavier or stronger (JanTec Engineering reports up to 10 times stronger prints, via Hackaday); and LEDs or small electronics sealed into a shape. It gives strong metal threads without the weak slot of an ordinary nut trap (Thomas Sanladerer).
+Use mid-print embedding when an insert must never fall out or be seen: hidden magnets for lids, catches and wall mounts; nuts deep inside a part where a side slot would weaken it or where there is no room for a [heat-set insert](../glossary.md#heat-set-insert); ball bearings or balls that must be trapped in a printed wheel or race; weights, steel rods or carbon-fibre rods to make a print heavier or stronger (JanTec Engineering reports up to 10 times stronger prints, via Hackaday); and LEDs or small electronics sealed into a shape. It gives strong metal threads without the weak slot of an ordinary nut trap (Thomas Sanladerer).
 
 ## When not to use it
 
@@ -173,8 +174,8 @@ Avoid it when you can't stay with the printer, when printing many copies or a wh
   - magnetic: when magnets are embedded, the resulting joint between two parts holds magnetically
 - **Input and output:** not applicable (an embedded bearing lets a part spin but does not change speed or motion)
 - **Power:** passive (no power needed)
-- **Load:** medium: a nut backed by solid plastic resists being pulled out far better than threads in plastic. In CNC Kitchen's M3 tests in PETG (4 perimeters, 100% infill) a nut seated in a pocket and loaded against the plastic (pushed in, not embedded mid-print, but loaded the same way as an embedded nut) held about 166 kg before tearing a crater out, against 86 kg for a nut in a side slot and 118 kg for a screw straight into plastic; turning force was limited to about 2 N m by the plastic crushing. Magnets hold only as hard as the magnet allows, weakened by the plastic skin between them; bearings carry what the plastic housing allows.
-- **Play and precision:** small: the pocket needs about 0.1-0.3 mm of clearance so the insert drops in (Hubs; DPHacks; Rapid Elevation), so the insert can rattle slightly unless it is a tight fit or glued; its position is otherwise set as accurately as the printer prints the pocket
+- **Load:** medium: a nut backed by solid plastic resists being pulled out far better than threads in plastic. In CNC Kitchen's M3 tests in PETG (4 [perimeters](../glossary.md#perimeters), 100% [infill](../glossary.md#infill)) a nut seated in a pocket and loaded against the plastic (pushed in, not embedded mid-print, but loaded the same way as an embedded nut) held about 166 kg before tearing a crater out, against 86 kg for a nut in a side slot and 118 kg for a screw straight into plastic; turning force was limited to about 2 N m by the plastic crushing. Magnets hold only as hard as the magnet allows, weakened by the plastic skin between them; bearings carry what the plastic housing allows.
+- **Play and precision:** small: the pocket needs about 0.1-0.3 mm of [clearance](../glossary.md#clearance) so the insert drops in (Hubs; DPHacks; Rapid Elevation), so the insert can rattle slightly unless it is a tight fit or glued; its position is otherwise set as accurately as the printer prints the pocket
 - **Taking it apart:** permanent: the insert can only be removed by cutting or breaking the print; parts with embedded electronics can't be recovered if the electronics fail (Additive Inn). A bolt screwed into an embedded nut can still be undone.
 - **How often it can be reused:** once for the embedding itself; a bolt in an embedded nut can be undone many times because the threads are metal on metal (Thomas Sanladerer rates inserted nuts 5 of 5 for durability)
 - **Sealing:** none: it is not a sealing method; the insert is covered but the part is only as watertight as the print itself ⚑ [uncertain]
@@ -209,7 +210,7 @@ Hex nuts (ISO 4032 / DIN 934) and thin square nuts; neodymium disc or cylinder m
 - Magnet pockets: 0.2-0.3 mm larger than the magnet diameter, 2-3 solid layers below, 1-2 mm from outer walls (Rapid Elevation 'Magnets in prints'); with 0.2 mm layers put the magnet top 0.4 mm below the surface so 2 layers cover it (DPHacks).
 - Cover embedded magnets with at least 2 layers (0.4-0.6 mm) of plastic (Hackaday 'Ways to embed magnets in 3D prints and not ruin printers', 2026, on Lost In Tech's video).
 - Standard N-grade neodymium magnets work up to about 80 °C; M, H, SH, UH and EH grades up to 230 °C; they lose all magnetism near 320 °C (Wikipedia 'Neodymium magnet').
-- M3 nut in PETG: nut seated in a pocket and loaded against the plastic about 166 kg pull-out; nut in a side slot about 86 kg; screw directly into plastic about 118 kg; nut torque limit about 2 N m (CNC Kitchen 'Helicoils, threaded inserts and embedded nuts').
+- M3 nut in PETG: nut seated in a pocket and loaded against the plastic about 166 kg pull-out; nut in a side slot about 86 kg; screw directly into plastic about 118 kg; nut [torque](../glossary.md#torque) limit about 2 N m (CNC Kitchen 'Helicoils, threaded inserts and embedded nuts').
 - Printed 608-size BB bearing: 10 Daisy BBs (4.40 mm), pause at 4.60 mm for the tight version or 4.80 mm for the loose one; grease quietens it (Printables '608 Bearing using BBs', breeden).
 
 ## Common failures

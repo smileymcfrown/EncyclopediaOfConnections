@@ -122,6 +122,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hot_plate_welding_pressure_history.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Heatfused_plastic_pipe_socket_fusion_butt_fusion_electrofusion.json
+glossary: [form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
 ---
 
 Heat fusion joins polyethylene (PE) and polypropylene (PP-R) pipes and fittings by melting their mating surfaces, on a hot tool or with a heating wire built into the fitting, and pressing them together so they cool into one leak-proof piece as strong as the pipe, which is the standard way to join plastics that glue and solvent cement can't.
@@ -136,7 +137,7 @@ The principle is to heat both surfaces to a set temperature and then push them t
 
 ## Parts
 
-Single piece once made: pipe and fitting become one. Making it needs equipment: for socket fusion, a thermostatic heating iron with matched male and female heater faces (bushings), a pipe cutter, a chamfer tool and a depth gauge or cold ring; for butt fusion, a machine that clamps, aligns and faces the pipe ends, a heater plate and a way to apply a set force; for electrofusion, a fitting with a built-in heating coil, a control box (EF welder) and power supply, a peeling tool and alignment clamps (PPI Handbook ch. 9; Wikipedia; PIPA POP001).
+Single piece once made: pipe and fitting become one. Making it needs equipment: for socket fusion, a thermostatic heating iron with matched male and female heater faces (bushings), a pipe cutter, a [chamfer](../glossary.md#chamfer--fillet) tool and a depth gauge or cold ring; for butt fusion, a machine that clamps, aligns and faces the pipe ends, a heater plate and a way to apply a set force; for electrofusion, a fitting with a built-in heating coil, a control box (EF welder) and power supply, a peeling tool and alignment clamps (PPI Handbook ch. 9; Wikipedia; PIPA POP001).
 
 ## Everyday examples
 
@@ -162,10 +163,10 @@ For PVC, CPVC or ABS pipe (use Solvent welding). For PEX, which is cross-linked 
 - **Directions it can move (degrees of freedom):** 0: pipe and fitting become one piece.
 - **Special behaviour:**
   - none: a plain permanent fused joint
-- **How it holds:** material bond (glue, solvent or melting): the plastic of pipe and fitting is melted together and sets as one piece
+- **How it holds:** [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): the plastic of pipe and fitting is melted together and sets as one piece
 - **Input and output:** not applicable
 - **Power:** passive (no power needed) once made; making it needs a mains- or generator-powered heating iron, butt fusion machine or electrofusion control box
-- **Load:** Heavy for a plastic pipe joint: fused 'according to the pipe and/or fitting manufacturers' procedures, the joint area becomes as strong as, or stronger than, the pipe itself in both tensile and pressure properties' (PPI Handbook ch. 9). Strong in pull, pressure, bending and twist. Weak only when badly made: cold, contaminated or misaligned fusions can fail in a brittle way (Wikipedia 'Hot plate welding'; PIPA POP001).
+- **Load:** Heavy for a plastic pipe joint: fused 'according to the pipe and/or fitting manufacturers' procedures, the joint area becomes as strong as, or stronger than, the pipe itself in both tensile and pressure properties' (PPI Handbook ch. 9). Strong in pull, pressure, bending and twist. Weak only when badly made: cold, contaminated or misaligned fusions can fail in a [brittle](../glossary.md#brittle--ductile) way (Wikipedia 'Hot plate welding'; PIPA POP001).
 - **Play and precision:** No play. Alignment matters while it is being made: the pipe must go in straight and square, not twisted or at an angle, or voids form (CPChem); butt fusion machines align the pipe ends and re-round them (PPI; TEPPFA); electrofusion needs clamps to keep pipe and fitting still and stress-free until cool, and out-of-round (oval) pipe leaves an uneven gap that weakens the weld (PIPA POP001).
 - **Taking it apart:** permanent: a fused joint can only be cut out; repairs are made by cutting out a section and fitting new pipe, often with slide-over electrofusion couplers made for repairs (TEPPFA)
 - **How often it can be reused:** once
@@ -181,7 +182,7 @@ For PVC, CPVC or ABS pipe (use Solvent welding). For PEX, which is cross-linked 
   - off-the-shelf part (fusion pipe, fittings and electrofusion couplers from one pipe system)
   - 3D print (FDM): only for marking templates, depth gauges and tool stands, never for the pressure joint
 - **Printing it in one piece (print in place):** no: the joint is made by melting pipe and fitting together; it can't be printed
-- **Tools:** Socket fusion: fusion iron with the right-size heater faces, held steady by a helper or clamped in place (NIBCO); pipe cutter or shears that keep the pipe round; chamfer and deburring tool; depth gauge and cold ring (PE) or a felt-tip pen and marking template (PP-R); surface thermometer (pyrometer) to check the heater (PPI; CPChem). Butt fusion: butt fusion machine with clamps, facer (planer) and heater plate, plus a bead removal tool if required (PPI). Electrofusion: electrofusion control box with barcode reader, a stable generator or mains supply, a mechanical peeling tool, alignment and re-rounding clamps, ovality gauge, alcohol wipes and gloves, and a non-petroleum marker (PIPA POP001; PPI). All: clean lint-free cloths and isopropyl alcohol cleaner (NIBCO; PPI), heat-resistant gloves.
+- **Tools:** Socket fusion: fusion iron with the right-size heater faces, held steady by a helper or clamped in place (NIBCO); pipe cutter or [shears](../glossary.md#peel-vs-shear) that keep the pipe round; chamfer and deburring tool; depth gauge and cold ring (PE) or a felt-tip pen and marking template (PP-R); surface thermometer (pyrometer) to check the heater (PPI; CPChem). Butt fusion: butt fusion machine with clamps, facer (planer) and heater plate, plus a bead removal tool if required (PPI). Electrofusion: electrofusion control box with barcode reader, a stable generator or mains supply, a mechanical peeling tool, alignment and re-rounding clamps, ovality gauge, alcohol wipes and gloves, and a non-petroleum marker (PIPA POP001; PPI). All: clean lint-free cloths and isopropyl alcohol cleaner (NIBCO; PPI), heat-resistant gloves.
 - **Difficulty:** moderate for small PP-R and PE socket fusion: irons are affordable and the steps are simple, but timing, depth and cleanliness must be right; hard for butt fusion and electrofusion, which need costly machines, and for gas lines, where trained, qualified operators are required (PPI; Wikipedia 'Electrofusion')
 
 ### 3D printing tips

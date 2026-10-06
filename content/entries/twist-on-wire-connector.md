@@ -113,6 +113,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Lasdoppen_van_keramiek.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Twiston_wire_connector_wire_nut.json
+glossary: [form-fit--force-fit--material-bond, infill]
 ---
 
 A twist-on wire connector is an insulating cap with a tapered coil spring inside that is screwed by hand onto the stripped ends of several wires, drawing them together and squeezing them into one electrical joint while covering the bare metal.
@@ -151,7 +152,7 @@ Anything that moves, vibrates or gets pulled, such as vehicles, trailers, robots
 - **Directions it can move (degrees of freedom):** 0: the wires are locked together inside the coil
 - **Special behaviour:**
   - none: it is a plain clamping splice; its practical advantages are that it is fitted by hand with no special tool and can be unscrewed again (Wikipedia 'Twist-on wire connector')
-- **How it holds:** friction or clamping (force-fit): the tapered coil threads onto the wires and squeezes them together; spring force (a spring or springy part presses it in place): the coil spring expands as it goes on and keeps gripping (3M brochure: 'flexible spring that has generous room for expansion and a strong bite')
+- **How it holds:** friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the tapered coil threads onto the wires and squeezes them together; spring force (a spring or springy part presses it in place): the coil spring expands as it goes on and keeps gripping (3M brochure: 'flexible spring that has generous room for expansion and a strong bite')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
 - **Load:** Electrical: up to about 30 A (the connector itself is rated by wire size and voltage, not current: listed connectors take wire up to about AWG 10 and are rarely used on anything thicker (Wikipedia 'Twist-on wire connector'); the current is set by the wire and its fuse or breaker ⚑ [uncertain: no current rating found on an opened page]); rated for mains (listed connectors carry ratings such as 600 V in building wire and 1000 V in signs or light fittings (Ideal Wing-Nut instructions; 3M brochure), but mains work must follow local law and they are not certified in most European countries (Wikipedia)). Mechanical: light; it is not meant to take a pull: a badly fitted wire can come out 'with a light tug' (Hackaday commenter), and vibration loosens it, so it is not used on vehicles or trailers (Wikipedia).
@@ -174,7 +175,7 @@ Anything that moves, vibrates or gets pulled, such as vehicles, trailers, robots
 
 ### 3D printing tips
 
-Not applicable for the connector itself: real wire connectors are listed parts made from flame-retardant materials (Purdue 4-H) with a steel coil, so a printed copy must never be used to join wires that carry real current, and never on mains. Printable helpers exist: handles that grip several sizes of wire nut so they can be turned tighter than with fingers (print opening-down, 3 walls, 20% infill, Printables 887096) and a version that fits a 1/4 in square drive for a drill (any non-flexible filament, no supports, Printables 896471).
+Not applicable for the connector itself: real wire connectors are listed parts made from flame-retardant materials (Purdue 4-H) with a steel coil, so a printed copy must never be used to join wires that carry real current, and never on mains. Printable helpers exist: handles that grip several sizes of wire nut so they can be turned tighter than with fingers (print opening-down, 3 walls, 20% [infill](../glossary.md#infill), Printables 887096) and a version that fits a 1/4 in square drive for a drill (any non-flexible filament, no supports, Printables 896471).
 
 ### Buying one (off-the-shelf parts)
 

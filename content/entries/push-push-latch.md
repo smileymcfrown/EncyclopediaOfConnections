@@ -138,6 +138,8 @@ sources:
 - https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushpush_latch_pushtoopen_heartcam_latch.json
+glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
+  overhang--bridging]
 ---
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
@@ -175,17 +177,17 @@ Avoid it where the latched part is pulled or loaded outward, because the pin and
   - lock, and release by hand: holds a door, drawer, lid, card or button in, and releases it with a second push
   - click into set positions: alternates between two positions (in and latched, out and released) on each push
   - join and hold: keeps handle-less doors and drawers closed
-- **Movement:** slide: a short straight in-and-out stroke of the slider (with a small overtravel past the latched position), while the follower pin swings slightly sideways round the heart
+- **Movement:** slide: a short straight in-and-out [stroke](../glossary.md#stroke) of the slider (with a small overtravel past the latched position), while the follower pin swings slightly sideways round the heart
 - **Directions it can move (degrees of freedom):** 1: the slider moves along one straight line; the pin's sideways swing is guided by the track and is not a free motion
 - **Special behaviour:**
   - indexing (clicks into set positions): two alternating states; every two pushes send the pin once round the heart
   - quick-release: a push opens it and the spring pops the door, drawer or card out, so no handle or tool is needed
 - **How it holds:**
-  - shape (the parts interlock; form-fit): the pin is trapped in the notch of the heart
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the pin is trapped in the notch of the heart
   - spring force (a spring or springy part presses it in place): the return spring holds the pin in the notch and pops the part out when released
 - **Input and output:** Repeated straight pushes -> alternating latched and released states (a push-push toggle); one lap of the heart track per two pushes. In-line: the push and the spring act along the same line. Back-drivable: no; pulling on the latched part does not release it, and pulling hard can break the cam surface or bend the pin (Alps patent US4916276A). A hard shock that pushes the part further in, such as a car crash, can accidentally release it (EP1253271A2).
 - **Power:** passive (no power needed)
-- **Load:** light: holds a door, drawer, card or button in against small forces only; magnetic push-to-open cabinet latches are rated about 2 to 6 lbf (9 to 27 N) pull (McMaster-Carr); industrial push-push locking bolts cannot take axial load, and their pin retracts only by spring force (Konstruktionspraxis on GN 514). Weak against pulling the latched part out (Alps patent)
+- **Load:** light: holds a door, drawer, card or button in against small forces only; magnetic push-to-open cabinet latches are rated about 2 to 6 lbf (9 to 27 N) pull (McMaster-Carr); industrial push-push locking bolts cannot take [axial](../glossary.md#axial--radial) load, and their pin retracts only by spring force (Konstruktionspraxis on GN 514). Weak against pulling the latched part out (Alps patent)
 - **Play and precision:** Noticeable: the latched position sits a little short of the fully pushed position, and the part needs room to be pushed further in (overtravel) to latch or release (Kapy CAD; EP1253271A2). The pin-to-groove fit must be free but not loose, like a fine sliding fit: too tight and it seizes, too loose and the pin skips or derails (Kapy CAD). The door's strike must line up with the latch ⚑ [uncertain]
 - **Taking it apart:** tool-free quick release: the latched part is released with a push; the latch body itself is screwed, pressed or clipped into the cabinet or device
 - **How often it can be reused:** many times: designed for everyday use; e.g. push-push SD card connectors rated for more than 10,000 cycles, or 5,000 for an ultra-low-profile microSD version (MoarConn); printed versions wear out sooner as the steps round off
@@ -193,7 +195,7 @@ Avoid it where the latched part is pulled or loaded outward, because the pin and
 - **Adjustable:** usually no for simple and printed latches; some cabinet push-to-open fittings have adjustable length or opening force ⚑ [uncertain]
 - **Access needed:** one side only (blind): you just push on the front of the door, drawer or card; the latch is hidden inside
 - **Materials:** Moulded plastic housings and sliders with steel return springs; metal eject levers carrying the heart groove in card connectors (JAE patent US20020192991A1); polyamide (PA) button and nitrided steel pin on the GN 514 push-push locking bolt (Konstruktionspraxis). Printed versions: PETG or PLA bodies, a metal pen spring or compression spring, and ideally a steel wire (e.g. bent paperclip) as the follower arm (Printables 1601839, 496329)
-- **Heat, cold, water and wear:** Printed plastic springs and follower arms creep when the latch is left closed for days, so the latch stops popping out fully (Printables 534635, 376606); plastic springs always deform permanently under steady load and PLA is a very poor spring material (Hackaday). The groove steps wear with use (Omron patent). Vibration and shocks can unlatch it (MoarConn; EP1253271A2). Dust or debris in an open track may jam the pin ⚑ [uncertain].
+- **Heat, cold, water and wear:** Printed plastic springs and follower arms [creep](../glossary.md#creep) when the latch is left closed for days, so the latch stops popping out fully (Printables 534635, 376606); plastic springs always deform permanently under steady load and PLA is a very poor spring material (Hackaday). The groove steps wear with use (Omron patent). Vibration and shocks can unlatch it (MoarConn; EP1253271A2). Dust or debris in an open track may jam the pin ⚑ [uncertain].
 
 ## Making it
 
@@ -204,11 +206,11 @@ Avoid it where the latched part is pulled or loaded outward, because the pin and
   - CNC: machined metal heart-cam latches ⚑ [uncertain] (videos 'PUSH LATCH Mechanisms (DIY!)' by This Old Tony and 'Push-Push Cardioid Curve Latch' suggest home-machined versions; content not viewed)
 - **Printing it in one piece (print in place):** partly: the body and track print well but most reliable designs add a metal compression or pen spring and often a steel wire follower (Printables 496329, 1601839); fully printed versions with printed springs exist but their springs and arms creep when left latched for days (Printables 534635, 376606)
 - **Tools:** none to operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]
-- **Difficulty:** moderate: easy to buy or to print from a proven model, but designing your own needs a crisp track, careful clearances, a metal spring and preferably a metal follower pin, because printed arms and springs creep and wear
+- **Difficulty:** moderate: easy to buy or to print from a proven model, but designing your own needs a crisp track, careful [clearances](../glossary.md#clearance), a metal spring and preferably a metal follower pin, because printed arms and springs creep and wear
 
 ### 3D printing tips
 
-Split the part into a body and a cap that carries the track, so the heart groove is an open channel on a flat face with no internal overhangs (Kapy CAD). The steps in the groove floor that force one-way travel are the mechanism, not decoration: make them several full layers tall, about 0.5 to 1.5 mm, with the blocking face printed vertical so it stays sharp (Kapy CAD). Use a real metal spring with enough force across the whole stroke; printed springs relax and give inconsistent latching (Kapy CAD); one fully printed latch worked many times but its printed springs deformed permanently after being held compressed for several days (Printables 534635). A printed follower arm left bent in the latched position deformed until the case stopped opening, so the designer changed the track so the arm is not bent when closed (Printables 376606, which also recommends PETG for the arm and spring); a bent steel paperclip as the follower is more durable, more precise and allows a smaller mechanism (Printables 1601839, 12 mm x 10 mm with a pen spring). Aim for a free but not loose fit between pin and groove, measure the printed groove, and deepen the track if the pin derails (Kapy CAD). A 0.4 mm nozzle rounds the heart's sharp corners; consider a finer nozzle for small tracks (Kapy CAD). Proven printable examples use PETG with a standard ballpoint pen spring (Printables 496329) or PLA with two small compression springs in a unit about 30 mm x 30 mm (Printables 273742).
+Split the part into a body and a cap that carries the track, so the heart groove is an open channel on a flat face with no internal [overhangs](../glossary.md#overhang--bridging) (Kapy CAD). The steps in the groove floor that force one-way travel are the mechanism, not decoration: make them several full layers tall, about 0.5 to 1.5 mm, with the blocking face printed vertical so it stays sharp (Kapy CAD). Use a real metal spring with enough force across the whole stroke; printed springs relax and give inconsistent latching (Kapy CAD); one fully printed latch worked many times but its printed springs deformed permanently after being held compressed for several days (Printables 534635). A printed follower arm left bent in the latched position deformed until the case stopped opening, so the designer changed the track so the arm is not bent when closed (Printables 376606, which also recommends PETG for the arm and spring); a bent steel paperclip as the follower is more durable, more precise and allows a smaller mechanism (Printables 1601839, 12 mm x 10 mm with a pen spring). Aim for a free but not loose fit between pin and groove, measure the printed groove, and deepen the track if the pin derails (Kapy CAD). A 0.4 mm nozzle rounds the heart's sharp corners; consider a finer nozzle for small tracks (Kapy CAD). Proven printable examples use PETG with a standard ballpoint pen spring (Printables 496329) or PLA with two small compression springs in a unit about 30 mm x 30 mm (Printables 273742).
 
 ### Buying one (off-the-shelf parts)
 
@@ -216,7 +218,7 @@ Search: 'push to open latch', 'push latch', 'touch latch' (mechanical or magneti
 
 ## Rules of thumb
 
-- Groove-floor steps several layers tall, about 0.5 to 1.5 mm, with the blocking face vertical; a metal coil spring, not a printed flexure; pin-to-groove clearance like a fine sliding fit (Kapy CAD, 'Push-push latching button with a heart cam')
+- Groove-floor steps several layers tall, about 0.5 to 1.5 mm, with the blocking face vertical; a metal coil spring, not a printed [flexure](../glossary.md#flexure); pin-to-groove clearance like a fine sliding fit (Kapy CAD, 'Push-push latching button with a heart cam')
 - Steps in the groove floor wear with repeated use and let the pin go the wrong way; offsetting the track's corners in the direction of travel restricts direction even when worn (Omron patent US20150107980A1)
 - Don't let a pull on the latched part load the pin and heart directly: Alps separated the driving member from the slider so pulling does not break the cam or bend the pin (US4916276A)
 - Add an inertia lock where a crash or drop could push the part further in and release it, as in car glove boxes and drawers (DaimlerChrysler/Fischer, EP1253271A2)
@@ -236,7 +238,7 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 - Click-pen mechanism (rotating-cam push-push indexer): does the same push-on, push-off job with a toothed cam that turns one step per push instead of a pin running round a heart
 - Magnetic touch latch: a spring plunger with a magnet; holds a little more firmly and needs more force to open, but can't be used on drawers (Deslaurier)
 - Ball catch or roller catch: a spring-loaded ball or roller that simply holds a door shut; needs a handle to pull it open
-- Bistable compliant mechanism: a one-piece springy part with two resting positions, switched by pushing back and forth rather than pushing the same way twice
+- [Bistable](../glossary.md#bistable) [compliant mechanism](../glossary.md#compliant-mechanism): a one-piece springy part with two resting positions, switched by pushing back and forth rather than pushing the same way twice
 - Push-to-close cam latch: latches automatically when a door is pushed shut, but opens with a handle or button rather than a second push (Southco)
 - Compliant one-piece latch: a printed springy latch released by bending a handle
 - Push-push locking bolt (indexing plunger): an industrial pin that extends and retracts with alternate pushes using a heart curve (GN 514)

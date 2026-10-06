@@ -140,6 +140,8 @@ sources:
 - https://www.youtube.com/watch?v=cG9SiGAxTPY
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Geneva_drive_Maltese_cross.json
+glossary: [misalignment, self-locking, axial--radial, ratchet, pawl, crank, clearance, form-fit--force-fit--material-bond,
+  circlip, repeatability--accuracy, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
 A continuously turning drive wheel carries a pin that enters a slot in a driven wheel and turns it by a fixed step (360 degrees divided by the number of slots), then a raised locking disc on the drive wheel holds the driven wheel still until the next step.
@@ -154,7 +156,7 @@ The drive wheel turns steadily. Once per turn its pin slides into one of the dri
 
 ## Parts
 
-A few parts: a drive wheel (crank) carrying a pin, often with a small roller on it, and a raised locking disc with a cut-away; a driven wheel with n straight slots and curved notches between them (the 'Maltese cross'); two shafts with bearings held at an exact distance apart.
+A few parts: a drive wheel ([crank](../glossary.md#crank)) carrying a pin, often with a small roller on it, and a raised locking disc with a cut-away; a driven wheel with n straight slots and curved notches between them (the 'Maltese cross'); two shafts with bearings held at an exact distance apart.
 
 ## Everyday examples
 
@@ -169,7 +171,7 @@ Use it when a motor or crank turns steadily but you need something to move one s
 
 ## When not to use it
 
-Avoid it at high speed or with heavy, fast-moving loads, where its jolt at each start and stop causes vibration and wear; use a cam indexer, which can be shaped for smoother motion. Avoid it when you need only one or two stops per turn, a long move with a short pause, or unequal steps: use an intermittent (part-toothed) gear or a star wheel. When you need to change the step size, go backwards on command or stop anywhere, use a stepper motor or a servo instead. For stepping driven by a back-and-forth lever, use a ratchet and pawl.
+Avoid it at high speed or with heavy, fast-moving loads, where its jolt at each start and stop causes vibration and wear; use a cam indexer, which can be shaped for smoother motion. Avoid it when you need only one or two stops per turn, a long move with a short pause, or unequal steps: use an intermittent (part-toothed) gear or a star wheel. When you need to change the step size, go backwards on command or stop anywhere, use a stepper motor or a servo instead. For stepping driven by a back-and-forth lever, use a [ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl).
 
 ## Details
 
@@ -182,27 +184,27 @@ Avoid it at high speed or with heavy, fast-moving loads, where its jolt at each 
 - **Special behaviour:**
   - motion conversion (e.g. rotary to linear): continuous rotation becomes intermittent rotation, with a smooth start and stop of each step
   - indexing (clicks into set positions): the output stops at n equally spaced positions per turn
-  - self-locking (holds under load, won't back-drive): during each pause the locking disc blocks the output, so a load on the output cannot turn it and cannot drive the input; RoyMech notes the driven wheel is always under the driver's control, so it can't overrun
+  - [self-locking](../glossary.md#self-locking) (holds under load, won't back-drive): during each pause the locking disc blocks the output, so a load on the output cannot turn it and cannot drive the input; RoyMech notes the driven wheel is always under the driver's control, so it can't overrun
   - Geneva stop variant: with one slot closed, the drive wheel can only make a set number of turns, which was used to stop watch springs being over-wound or fully unwound (Wikipedia; 507 Mechanical Movements no. 212)
 - **How it holds:**
   - not a holding joint (it moves or passes on motion): it converts and passes on rotation
-  - shape (the parts interlock; form-fit): during each pause the round locking disc sits in the driven wheel's curved notch, which physically blocks it from turning
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): during each pause the round locking disc sits in the driven wheel's curved notch, which physically blocks it from turning
 - **Input and output:** Continuous rotation -> stepped (intermittent) rotation in the same plane. Step = 360 degrees / n, n = 3 to 18 slots in practice, 4 to 8 most common. Timing is fixed by n: an external Geneva moves for 1/2 - 1/n of each input turn (4 slots: moves 25%, rests 75%; 6 slots: moves 33%, rests 67%), an internal Geneva moves for more than half, a spherical one for exactly half. Peak output speed = input speed / (1/sin(180 degrees/n) - 1): about 2.4 times the input speed for 4 slots and equal to it for 6 slots. Efficiency: no reliable figure found ⚑ [uncertain]; losses come from the pin (or roller) sliding in the slot and the locking disc rubbing in its notch during the pause. Shafts: parallel for external and internal types; intersecting at right angles for the rare spherical type. Back-drivable: no during the pause (the locking disc blocks the output); during a step the pin is in control, so the output cannot run ahead.
 - **Power:** passive (no power needed); it is usually driven by a motor or hand crank, and if power is lost the output simply stays locked where it was during a pause
 - **Load:** Light to heavy depending on size: Bickford notes Genevas range from instrument sizes to machine-tool drives indexing spindle carriers weighing several tons, and quotes an 18-inch Geneva lasting 20 years indexing a one-ton carrier every few seconds. The weak points are the pin and the slot walls, which take a jolt each time the pin enters, and the locking disc during the pause. External Genevas can be smaller and take higher stresses than internal ones (Wikipedia). Printed plastic versions are for light loads and demonstrations.
-- **Play and precision:** The output is held during each pause by the locking disc sitting in its notch, so play comes from the clearance between those curved surfaces and between the pin and the slot; Wikipedia notes the locking disc keeps the image steady in film projectors. Centre distance must be held accurately so the locking disc works without jamming (cramping) and the pin meets the slots correctly, and a pin that is loose in its slot can chatter from side to side at speed (Bickford). Heavy machine tools add a separate locating and locking mechanism for exact final position (Bickford, fig. 9-14). It tolerates little misalignment between the shafts.
+- **Play and precision:** The output is held during each pause by the locking disc sitting in its notch, so play comes from the [clearance](../glossary.md#clearance) between those curved surfaces and between the pin and the slot; Wikipedia notes the locking disc keeps the image steady in film projectors. Centre distance must be held accurately so the locking disc works without jamming (cramping) and the pin meets the slots correctly, and a pin that is loose in its slot can chatter from side to side at speed (Bickford). Heavy machine tools add a separate locating and locking mechanism for exact final position (Bickford, fig. 9-14). It tolerates little [misalignment](../glossary.md#misalignment) between the shafts.
 - **Taking it apart:** removable: the two wheels sit on shafts or axles in a frame and can be taken apart (screws, retaining rings or push-fit axles)
 - **How often it can be reused:** many times: it can be dismantled and reassembled repeatedly; the limit is wear of the pin, slots and locking surfaces, not the assembly
 - **Sealing:** none: it is an open mechanism; it does not seal anything
 - **Adjustable:** No: the step angle and the move-to-pause timing are fixed by the number of slots once it is designed; only the starting position (phase) is set when assembling
 - **Access needed:** not applicable: it is two wheels on shafts in a frame, reached wherever the frame opens
-- **Materials:** Metal in machine tools, watches and projectors (heavy-duty machine-tool Genevas use replaceable wear shoes and drive rollers, per Bickford) ⚑ [uncertain: specific alloys not found]. 3D-printed plastics work for light duty: a Bucharest study printed Genevas in PLA, ABS, PLA with copper, PLA with bronze and acrylic (plexiglass), and found ABS and copper-filled PLA ran with much less noise and vibration (3DPrint.com on Rizescu et al.); osamutake recommends well-dried PETG for accuracy.
+- **Materials:** Metal in machine tools, watches and projectors (heavy-duty machine-tool Genevas use replaceable wear shoes and drive rollers, per Bickford) ⚑ [uncertain: specific alloys not found]. 3D-printed plastics work for light duty: a Bucharest study printed Genevas in PLA, ABS, PLA with copper, PLA with bronze and acrylic (plexiglass), and found ABS and copper-filled PLA ran with much less noise and vibration (3DPrint.com on Rizescu et al.); osamutake recommends well-dried PETG for [accuracy](../glossary.md#repeatability--accuracy).
 - **Heat, cold, water and wear:** Printed PLA softens above about 60 °C (Prusa), so keep PLA models away from heat; dust or grit in the slots and on the locking surfaces speeds wear ⚑ [uncertain]; running dry makes it noisy, and a little lubricant quiets it (TazaParts). Vibration: it causes its own vibration at speed because of the jolt at each step (Wikipedia).
 
 ## Making it
 
 - **Ways to make or get it:**
-  - 3D print (FDM): many printable demos, counters, clocks and toys, including print-in-place versions
+  - 3D print (FDM): many printable demos, counters, clocks and toys, including [print-in-place](../glossary.md#print-in-place) versions
   - laser cut: ⚑ [uncertain] the parts are flat profiles that a laser could cut from acrylic or plywood, no tested example found
   - CNC: the traditional way to make metal ones; slots and locking arcs are milled
   - off-the-shelf part: Bickford (1972) notes Genevas were sold ready-made by several makers; for hobby builds buy the shafts, bearings, pins and retaining rings
@@ -212,11 +214,11 @@ Avoid it at high speed or with heavy, fast-moving loads, where its jolt at each 
 
 ### 3D printing tips
 
-1) Get the geometry from a generator: Ben Brandt's online Geneva Drive Generator takes the crank radius, number of positions, pin diameter and clearance and gives the centre distance, slot length and width and locking-arc sizes, with an animation; tllilleh's OpenSCAD library (needs BOSL2) builds the parts. 2) Print the wheels flat on the bed; they need no supports. 3) Surface finish matters because the pin slides along the slots: osamutake uses 0.1 or 0.08 mm layers and a random seam position so the seams wear in instead of catching, and Shmoee recommends 0.12 mm layers for the Geneva wheel because Z-seams make it rough; sand or file any seam blobs if it sticks. 4) Clearances: 0.2-0.3 mm for print-in-place parts (TazaParts), about 0.15 mm radial clearance for gears on printed shafts (osamutake); PETG usually needs a little more clearance than PLA ⚑ [uncertain]. 5) Elephant's foot (a squashed first layer) and stringing make holes too tight: file the hole or sand the shaft (osamutake). 6) Use well-dried PETG for accuracy (osamutake); ABS and copper-filled PLA were quieter in the Bucharest study. 7) Smooth axles: flanged ball bearings (Joel uses F6901Z) or metal screws as axles (whlpr uses M3 x 14 screws); a drop of lubricant such as bike chain lube quiets it (TazaParts). 8) Make the pin round and smooth, and consider a metal pin or a small bearing as a roller for longer life ⚑ [uncertain]. 9) Keep the centre distance exact: mount both shafts in one rigid printed frame rather than two separate parts.
+1) Get the geometry from a generator: Ben Brandt's online Geneva Drive Generator takes the crank radius, number of positions, pin diameter and clearance and gives the centre distance, slot length and width and locking-arc sizes, with an animation; tllilleh's OpenSCAD library (needs BOSL2) builds the parts. 2) Print the wheels flat on the bed; they need no supports. 3) Surface finish matters because the pin slides along the slots: osamutake uses 0.1 or 0.08 mm layers and a random seam position so the seams wear in instead of catching, and Shmoee recommends 0.12 mm layers for the Geneva wheel because Z-seams make it rough; sand or file any seam blobs if it sticks. 4) Clearances: 0.2-0.3 mm for print-in-place parts (TazaParts), about 0.15 mm [radial](../glossary.md#axial--radial) clearance for gears on printed shafts (osamutake); PETG usually needs a little more clearance than PLA ⚑ [uncertain]. 5) [Elephant's foot](../glossary.md#elephants-foot) (a squashed first layer) and stringing make holes too tight: file the hole or sand the shaft (osamutake). 6) Use well-dried PETG for accuracy (osamutake); ABS and copper-filled PLA were quieter in the Bucharest study. 7) Smooth axles: flanged ball bearings (Joel uses F6901Z) or metal screws as axles (whlpr uses M3 x 14 screws); a drop of lubricant such as bike chain lube quiets it (TazaParts). 8) Make the pin round and smooth, and consider a metal pin or a small bearing as a roller for longer life ⚑ [uncertain]. 9) Keep the centre distance exact: mount both shafts in one rigid printed frame rather than two separate parts.
 
 ### Buying one (off-the-shelf parts)
 
-Shafts or axles (steel rod, LEGO Technic axles (brand)); flanged ball bearings (e.g. F6901Z); machine screws and nuts as axles (M3); retaining rings (circlips) or e-clips to hold wheels on shafts; a dowel pin or shoulder screw for the drive pin, optionally with a small ball bearing or track roller on it to reduce friction ⚑ [uncertain]; a gear motor or hand crank to drive it. Industrial alternatives are sold as cam indexers and rotary index tables (search 'indexing drive', 'rotary indexer').
+Shafts or axles (steel rod, LEGO Technic axles (brand)); flanged ball bearings (e.g. F6901Z); machine screws and nuts as axles (M3); retaining rings ([circlips](../glossary.md#circlip)) or e-clips to hold wheels on shafts; a dowel pin or shoulder screw for the drive pin, optionally with a small ball bearing or track roller on it to reduce friction ⚑ [uncertain]; a gear motor or hand crank to drive it. Industrial alternatives are sold as cam indexers and rotary index tables (search 'indexing drive', 'rotary indexer').
 
 ## Rules of thumb
 
@@ -235,7 +237,7 @@ Shafts or axles (steel rod, LEGO Technic axles (brand)); flanged ball bearings (
 
 ## Safety
 
-In motor-driven builds, the pin, slots and wheels form pinch and shear points that can trap fingers ⚑ [uncertain]; guard them. Because the locking disc holds the output firmly, forcing the output by hand can break the pin or locking surfaces ⚑ [uncertain]. At speed the sudden steps can throw loose items off a carousel.
+In motor-driven builds, the pin, slots and wheels form pinch and [shear](../glossary.md#peel-vs-shear) points that can trap fingers ⚑ [uncertain]; guard them. Because the locking disc holds the output firmly, forcing the output by hand can break the pin or locking surfaces ⚑ [uncertain]. At speed the sudden steps can throw loose items off a carousel.
 
 ## Related
 

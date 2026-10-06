@@ -125,17 +125,19 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shims_spacers_and_standoffs_packing_spacer_washer.json
+glossary: [self-locking, axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert,
+  kinematic-coupling, creep, infill, peel-vs-shear]
 ---
 
 A shim, spacer or standoff is a piece of known thickness or length put between two parts, so that the gap, height or spacing between them is set by that piece and then held when the parts are bolted or pressed together.
 
 **In plain words:** Thin packing pieces, washers or little tubes that you put between two parts to fill a gap, raise one part to the right height, or hold a circuit board up off a surface. **Proper term:** Shims, spacers and standoffs (packing, spacer washer).
 
-**Also called:** shim (Wikipedia 'Shim (spacer)'); packing, packer or packing piece (UK workshop usage) ⚑ [uncertain: no opened source]; shim stock / shimstock (thin sheet or foil cut to size); pre-cut shim / slotted shim / U-shaped shim (machine alignment shims that slide round a bolt); laminated shim / peel shim / peelable shim / peel-off shim (stacked foil layers peeled off one at a time); separable shim (layers held by glue spots on the edge only); spacer / spacer tube / spacer sleeve / unthreaded spacer / round spacer; spacer washer / plain washer used as a spacer / height washer (rowing oarlocks); standoff / stand-off / PCB standoff / hex standoff / threaded spacer / pillar / PCB support; male-female standoff, female-female standoff (Wikipedia 'Spacers and standoffs'); motherboard standoff / brass standoff (PCs); insulating standoff / nylon standoff; 'hex nut screw' (Dell's name for standoffs that take thumbscrews) (Wikipedia 'Spacers and standoffs'); also sold as 'jack nut' or 'jack post' for connector jackscrews ⚑ [uncertain: no opened source for these two names]; machinist's jack (a threaded spacer with a bolt in it, used as an adjustable support) (Wikipedia 'Jackscrew'); CPU shim (protects a processor when fitting a heat sink); tile spacer (masonry and tiling).
+**Also called:** shim (Wikipedia 'Shim (spacer)'); packing, packer or packing piece (UK workshop usage) ⚑ [uncertain: no opened source]; shim stock / shimstock (thin sheet or foil cut to size); pre-cut shim / slotted shim / U-shaped shim (machine alignment shims that slide round a bolt); laminated shim / [peel](../glossary.md#peel-vs-shear) shim / peelable shim / peel-off shim (stacked foil layers peeled off one at a time); separable shim (layers held by glue spots on the edge only); spacer / spacer tube / spacer sleeve / unthreaded spacer / round spacer; spacer washer / plain washer used as a spacer / height washer (rowing oarlocks); standoff / stand-off / PCB standoff / hex standoff / threaded spacer / pillar / PCB support; male-female standoff, female-female standoff (Wikipedia 'Spacers and standoffs'); motherboard standoff / brass standoff (PCs); insulating standoff / nylon standoff; 'hex nut screw' (Dell's name for standoffs that take thumbscrews) (Wikipedia 'Spacers and standoffs'); also sold as 'jack nut' or 'jack post' for connector jackscrews ⚑ [uncertain: no opened source for these two names]; machinist's jack (a threaded spacer with a bolt in it, used as an adjustable support) (Wikipedia 'Jackscrew'); CPU shim (protects a processor when fitting a heat sink); tile spacer (masonry and tiling).
 
 ## How it works
 
-Two parts that are clamped together end up exactly as far apart as whatever is squeezed between them, so putting in a piece of known thickness sets the gap, height or spacing. Flat shims are stacked or swapped until a part sits level, lines up or has the right clearance; a peel shim is a stack of bonded foils, and you peel off layers until it is the right thickness. Spacers and spacer washers are tubes or rings that a bolt passes through, so they hold two parts a set distance apart when the bolt is tightened. A standoff is a threaded pillar: one end screws to the base and the other takes the screw that holds a circuit board or panel, lifting it clear so solder joints on the back can't touch the surface (and, if it is nylon, insulating it).
+Two parts that are clamped together end up exactly as far apart as whatever is squeezed between them, so putting in a piece of known thickness sets the gap, height or spacing. Flat shims are stacked or swapped until a part sits level, lines up or has the right [clearance](../glossary.md#clearance); a peel shim is a stack of bonded foils, and you peel off layers until it is the right thickness. Spacers and spacer washers are tubes or rings that a bolt passes through, so they hold two parts a set distance apart when the bolt is tightened. A standoff is a threaded pillar: one end screws to the base and the other takes the screw that holds a circuit board or panel, lifting it clear so solder joints on the back can't touch the surface (and, if it is nylon, insulating it).
 
 ## Parts
 
@@ -154,7 +156,7 @@ Whenever something is slightly too low, too loose, not level or out of line and 
 
 ## When not to use it
 
-When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge (Self-locking wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, kinematic coupling, exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block.
+When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge ([Self-locking](../glossary.md#self-locking) wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, [kinematic coupling](../glossary.md#kinematic-coupling), exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block.
 
 ## Details
 
@@ -165,11 +167,11 @@ When the adjustment must be made often or continuously: use a levelling foot, lo
 - **Directions it can move (degrees of freedom):** 0 once clamped. The shim or spacer fixes the distance along the bolt; the bolt and clamping friction stop the parts moving the other ways.
 - **Special behaviour:**
   - none: it simply fills a gap with a known thickness. The 'adjustment' happens by choosing, stacking or peeling shims, not by any mechanism
-- **How it holds:** friction or clamping (force-fit): shims and spacers only work when squeezed by bolts or by the weight of the part; plus shape (form-fit) for standoffs, which screw into threads
+- **How it holds:** friction or clamping (force-fit): shims and spacers only work when squeezed by bolts or by the weight of the part; plus shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)) for standoffs, which screw into threads
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** Light to heavy, depending on material: metal shims under machine feet carry the full weight of motors and pumps in compression. Strong when squeezed (compression); they carry no pull (tension) themselves and resist sideways shear only by clamping friction and the bolt. Standoffs are light-duty: they hold circuit boards and panels and are weak in bending and at their small threads. Paper, card, wood and printed shims are light-duty and crush or creep under a constant heavy load.
-- **Play and precision:** No play once clamped. Precision depends on the shims: machine-alignment shims are made to small tolerances (ground stock about +/-0.0005 in for 0.020 in and thinner; rolled stock about +/-0.005 in for 0.025 in and thicker, according to Acoem), but every extra layer, plus dirt, rust or paint, adds error and springiness, so use as few as possible. Peel shims adjust in 0.05 to 0.1 mm steps (Jicey; ERIKS). Spacers and standoffs locate only along the bolt; sideways position comes from the holes.
+- **Load:** Light to heavy, depending on material: metal shims under machine feet carry the full weight of motors and pumps in compression. Strong when squeezed (compression); they carry no pull (tension) themselves and resist sideways shear only by clamping friction and the bolt. Standoffs are light-duty: they hold circuit boards and panels and are weak in bending and at their small threads. Paper, card, wood and printed shims are light-duty and crush or [creep](../glossary.md#creep) under a constant heavy load.
+- **Play and precision:** No play once clamped. Precision depends on the shims: machine-alignment shims are made to small [tolerances](../glossary.md#tolerance) (ground stock about +/-0.0005 in for 0.020 in and thinner; rolled stock about +/-0.005 in for 0.025 in and thicker, according to Acoem), but every extra layer, plus dirt, rust or paint, adds error and springiness, so use as few as possible. Peel shims adjust in 0.05 to 0.1 mm steps (Jicey; ERIKS). Spacers and standoffs locate only along the bolt; sideways position comes from the holes.
 - **Taking it apart:** removable: undo the bolts and slide out, add or swap shims; standoffs unscrew
 - **How often it can be reused:** many times for metal shims, washers and standoffs; a few times for paper, card, wood and printed shims, which crush, creep or crack; peel shims can only get thinner (layers once peeled can't be put back)
 - **Sealing:** none: shims and spacers leave or set a gap; to seal a joint use a gasket or sealing washer instead
@@ -182,7 +184,7 @@ When the adjustment must be made often or continuously: use a levelling foot, lo
 
 - **Ways to make or get it:**
   - off-the-shelf part (washers, spacer tubes, hex standoffs, pre-cut and laminated shims, shim stock)
-  - 3D print (FDM): spacers, step shims, printed standoffs (with heat-set inserts or self-tapping screws)
+  - 3D print (FDM): spacers, step shims, printed standoffs (with [heat-set inserts](../glossary.md#heat-set-insert) or self-tapping screws)
   - 3D print (resin): small threaded or self-tapping standoffs (Printables 601883 was resin-printed)
   - sheet metal: cut shims from shim stock or thin sheet with scissors or snips
   - laser cut: acrylic or plywood spacers and shim plates
@@ -193,7 +195,7 @@ When the adjustment must be made often or continuously: use a levelling foot, lo
 
 ### 3D printing tips
 
-Print spacers and standoffs standing up, so the hole is a true circle in the XY plane and the layers are squeezed (not split) by the clamping bolt ⚑ [uncertain: general practice, no opened page]. Use plenty of walls and high infill so the spacer doesn't crush: makers use about 80% infill for step shims (Printables 355004) and 100% for workshop table shims (Printables 777364). Make the hole slightly bigger than the screw (e.g. 3.2 mm for M3, as in the 'Spacer Kit' Printables 1182373) or, for a self-tapping standoff, slightly smaller (2.9 mm for M3 in Printables 601883). For threaded standoffs that are undone often, melt in a heat-set insert instead of tapping plastic. Choose the material for the heat: in an oven test under a small load, PLA started to give at about 60 °C, PETG at about 80 °C and ASA at about 110 °C (CNC Kitchen); and plastic under a constant clamp load slowly creeps (Thrinter), so a bolt through a printed spacer can lose tightness over time. For accurate gap-setting, print a shim sizer or gauge first (Printables 175528) and remember a printed shim's thickness is only as accurate as your first layer and layer height. Don't use printed parts as shims under heavy machinery: use metal.
+Print spacers and standoffs standing up, so the hole is a true circle in the XY plane and the layers are squeezed (not split) by the clamping bolt ⚑ [uncertain: general practice, no opened page]. Use plenty of walls and high [infill](../glossary.md#infill) so the spacer doesn't crush: makers use about 80% infill for step shims (Printables 355004) and 100% for workshop table shims (Printables 777364). Make the hole slightly bigger than the screw (e.g. 3.2 mm for M3, as in the 'Spacer Kit' Printables 1182373) or, for a self-tapping standoff, slightly smaller (2.9 mm for M3 in Printables 601883). For threaded standoffs that are undone often, melt in a heat-set insert instead of tapping plastic. Choose the material for the heat: in an oven test under a small load, PLA started to give at about 60 °C, PETG at about 80 °C and ASA at about 110 °C (CNC Kitchen); and plastic under a constant clamp load slowly creeps (Thrinter), so a bolt through a printed spacer can lose tightness over time. For accurate gap-setting, print a shim sizer or gauge first (Printables 175528) and remember a printed shim's thickness is only as accurate as your first layer and layer height. Don't use printed parts as shims under heavy machinery: use metal.
 
 ### Buying one (off-the-shelf parts)
 
@@ -220,12 +222,12 @@ Thin metal shims and cut shim stock have sharp edges and corners: handle with gl
 
 ## Related
 
-- Self-locking wedge (wedge clamp, taper key): tapered shims and folding wedges are covered there; they set a gap by sliding a taper rather than by stacking flat pieces
+- Self-locking wedge (wedge clamp, [taper](../glossary.md#taper) key): tapered shims and folding wedges are covered there; they set a gap by sliding a taper rather than by stacking flat pieces
 - Eccentric adjuster (eccentric nut, spacer or bushing): an off-centre spacer turned to shift a part sideways, then clamped
 - Levelling foot (adjustable foot, swivel levelling pad): screw-adjusted height instead of packing under a leg
 - Locking adjustment screws (push-pull screws, spring-loaded levelling screws): fine, repeatable height or tilt adjustment without loose shims
 - Slotted adjustment with a jacking screw (slotted mount, sliding motor plate): adjusts position sideways along slots
-- Tolerance ring (wavy-band press fit): an 'elastic shim' that takes up a radial gap between a shaft and a hole
+- Tolerance ring (wavy-band press fit): an 'elastic shim' that takes up a [radial](../glossary.md#axial--radial) gap between a shaft and a hole
 - Wave and disc springs (compact axial springs): spring washers that take up end float with a spring force instead of a fixed thickness
 - Thread-locking hardware (nylon-insert nut, lock washer, split pin): lock washers stop loosening; plain washers only spread load or space parts
 - Gasket (flat, cord-in-groove or cast-in-place): looks like a washer or shim but is made to seal
