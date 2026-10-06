@@ -71,7 +71,7 @@ def snippet(t, width=110):
 
 
 # ---------------------------------------------------------------- open points from review-notes.md
-SETTLED = re.compile(r'\*\*corrections?:?\*\*|^\*\*Cross-links for the update pass\*\*', re.I)
+SETTLED = re.compile(r'\*\*(?:corrections?|settled):?\*\*|^\*\*Cross-links for the update pass\*\*', re.I)
 LEAD = re.compile(r'(?:(?<=^)|(?<=[.;]\s))(?=\*[^*\n]{3,80}\*(?:\s*\(\d{1,3}\))?\s*:)')
 
 
@@ -81,8 +81,8 @@ def open_points(items):
     A bullet that discusses several entries ("*Dampers* (214): ... *Tendon-driven joint* (278): ...")
     is split into one point per entry. A point is matched by the entry's number in brackets, or by its
     name in italics. kind: content (figures that disagree, content points), sources (how a source was
-    read or should be cited) or scope (families and tagging). Points that record a correction already
-    made (**correction:**) and the R23 cross-link list (applied in the update pass) are left out."""
+    read or should be cited) or scope (families and tagging). Points marked as done (**correction:**
+    or **settled:**) and the R23 cross-link list (applied in the update pass) are left out."""
     names = {i: short(it['name']).lower() for i, it in enumerate(items, 1)}
     out = {}
 
