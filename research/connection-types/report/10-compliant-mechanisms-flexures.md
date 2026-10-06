@@ -1,6 +1,6 @@
 # compliant mechanisms & flexures: Bends instead of hinging
 
-[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
+[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). ⚑ marks what needs confirming; corrections are welcome (`research/needs-confirming.md`).
 
 ## 23 Bistable compliant mechanism (snap-through switch or hinge)
 
@@ -56,7 +56,7 @@
 - **seal**: none
 - **load**: light: it holds only against forces smaller than its snap-through force, and printed versions are small plastic flexures. Strongest along its snapping direction up to that force; weak against sideways loads, which can twist the flexing beams so they no longer snap cleanly (Qiu et al. 2004)
 - **adjustable**: no: the snap force and the two positions are set by the geometry (beam thickness, curve height, hinge angle, material); changing them means reprinting. Some research designs tune or switch off bistability with magnets or added parts (BYU bistable-to-monostable magnetic hinge; Chi et al. 2022)
-- **play_and_precision**: Play: none, because there are no pin joints; compliant mechanisms reduce or remove backlash (BYU CMR, Printables). Misalignment: off-axis pushes can twist the beams instead of snapping them (Qiu et al. 2004) *(unverified parts omitted)*
+- **play_and_precision**: Play: none, because there are no pin joints; compliant mechanisms reduce or remove backlash (BYU CMR, Printables). Repeatability: each stable position is set by the part's shape, so it returns to much the same place every time while the material stays springy; plastic creep or fatigue shifts the positions and weakens the snap over time ⚑ [uncertain]. Misalignment: off-axis pushes can twist the beams instead of snapping them (Qiu et al. 2004) *(⚑ parts need confirming)*
 - **access_needed**: not applicable
 - **materials**: Polypropylene is the best choice for moulded or milled flexing hinges (revpart; BYU recommends milled polypropylene sheet for its bistable switch). For FDM printing: PETG, ASA or ABS (Cableclips; PLA 'is not elastic enough'), nylon (Hubs), TPU for flexible dome and auxetic versions (PLA 'too brittle', Printables 604690). Metal versions use thin spring or stainless steel (slap bracelets use steel bands about 0.15 mm thick; Wikipedia) and robotics 'hair clip' mechanisms use PETG sheet about 0.38 to 0.76 mm thick, carbon fibre or steel (arXiv 2311.03212). Silicon for microscopic (MEMS) versions (Qiu et al. 2004)
 - **maker_difficulty**: moderate: it prints in one piece with no assembly, but getting a crisp snap that lasts needs the right material, print orientation and beam thickness, usually found by printing a few test versions
@@ -65,11 +65,14 @@
 
 - **processes**: 
   - 3D print (FDM): one-piece switches, clips, hinges and fidget toys
+  - 3D print (resin): possible with tough or flexible resins ⚑ [uncertain]
   - CNC: milled polypropylene sheet (BYU recommends this for its bistable switch)
-  - sheet metal: snap domes and bistable steel strips (snap bracelets) *(unverified parts omitted)*
+  - laser cut: flat flexure patterns in polypropylene or acrylic sheet ⚑ [uncertain]
+  - sheet metal: snap domes and bistable steel strips (snap bracelets)
+  - off-the-shelf part: snap domes or click domes for switches ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: yes: most designs print as one working piece (BYU bistable mechanism and switch, Cableclips); a few use short pieces of filament as pins, e.g. Gamma4D's hinged switch
-- **making_tips_3d_printing**: Choose a tough, springy plastic: Cableclips are tested in PETG, ASA and ABS, and PLA is not recommended because it is not elastic enough (Printables 328519); PLA flexures can wear out in tens of cycles, whereas a pinned-hinge version of the same switch passed 110,000 cycles in PLA (Gamma4D, Printables 488317). BYU notes that the fatigue and flex properties of your filament decide how many cycles a printed bistable switch lasts (Printables 581016). Orient the part so the flexing beams lie flat on the bed with layers running along their length, so bending does not pull layers apart; Hubs advises building the hinge so its width, not its length, is stacked layer by layer, and making FDM flexures 0.4 to 0.6 mm thick with at least two layers (Hubs). Print orientation of the springy parts is critical and a wrong orientation won't work (Hackaday, snap action mechanism). Use the slicer settings the designer gives, because wall count and line width set the flexure thickness (Cableclips). Give pre-curved snap beams a curve height well over 2.3 times their thickness and stop them twisting, e.g. with two beams joined at the middle (see rules of thumb). Round the corners where flexures meet thick parts, since flexure roots concentrate stress and fail by fatigue (Wikipedia, Compliant mechanism). Hubs suggests annealing living hinges in boiling water and flexing them while warm to extend life (Hubs). *(unverified parts omitted)*
-- **off_the_shelf_parts**: Mostly made, not bought. *(unverified parts omitted)*
+- **making_tips_3d_printing**: Choose a tough, springy plastic: Cableclips are tested in PETG, ASA and ABS, and PLA is not recommended because it is not elastic enough (Printables 328519); PLA flexures can wear out in tens of cycles, whereas a pinned-hinge version of the same switch passed 110,000 cycles in PLA (Gamma4D, Printables 488317). BYU notes that the fatigue and flex properties of your filament decide how many cycles a printed bistable switch lasts (Printables 581016). Orient the part so the flexing beams lie flat on the bed with layers running along their length, so bending does not pull layers apart; Hubs advises building the hinge so its width, not its length, is stacked layer by layer, and making FDM flexures 0.4 to 0.6 mm thick with at least two layers (Hubs). Print orientation of the springy parts is critical and a wrong orientation won't work (Hackaday, snap action mechanism). Use the slicer settings the designer gives, because wall count and line width set the flexure thickness (Cableclips). Give pre-curved snap beams a curve height well over 2.3 times their thickness and stop them twisting, e.g. with two beams joined at the middle (see rules of thumb). Round the corners where flexures meet thick parts, since flexure roots concentrate stress and fail by fatigue (Wikipedia, Compliant mechanism). Plastic springs creep under constant strain (Hackaday, 3D-printed springs), so a printed bistable part may snap more weakly after being stored in its bent state for a long time ⚑ [uncertain]. Hubs suggests annealing living hinges in boiling water and flexing them while warm to extend life (Hubs). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Mostly made, not bought. Related off-the-shelf items: 'snap dome' or 'metal dome' (tactile switch domes), 'snap-action switch' or 'microswitch' (a small spring snap-through mechanism in a housing), 'bistable spring' or 'tape spring', 'flip-top cap' or 'snap hinge cap' (moulded bottle closures with bistable hinges) ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Pre-curved beam: with Q = curve (apex) height / thickness, Q below 1.23 bends smoothly, 1.23 to 2.31 snaps but springs back (monostable), and above 2.31 it is bistable (Chi et al. 2022, Advanced Materials, citing Qiu et al.)
   - A single curved beam also needs its twisting (second) buckling mode blocked, e.g. by guiding the centre in a slot or, better, by joining two parallel curved beams at their centres; a gap of five beam thicknesses between the beams worked (Qiu, Lang and Slocum 2004)
@@ -88,9 +91,9 @@
   - Light switches and popper jumping toys (BYU CMR; Chi et al. 2022)
 - **when_to_use**: Use a bistable compliant mechanism when you want something to stay in one of two positions without a latch or power: an on/off switch or toggle, a clip or clasp that snaps open and shut, a lid or hinge that stays open or closed, a gripper that snaps shut on contact, or a valve or relay that only uses power to change state. It is ideal for 3D printing because it can be one piece with no assembly, no backlash and nothing to lubricate (BYU CMR), and its fast snap gives a clear click and a burst of force (Chi et al. 2022).
 - **when_not_to_use**: Avoid it for heavy loads or where it must hold against forces larger than its snap force (use a latch or an over-centre toggle clamp). Avoid printed plastic flexures for parts that must switch many thousands of times in PLA (use a pinned spring toggle, a metal spring or PP/nylon) and for parts held in the bent state in heat for long periods, where creep weakens the snap. Where you need many set positions, use a detent or ratchet; where you need a firm adjustable clamp, use a cam lever or toggle clamp; for a push-once-to-latch, push-again-to-release action, use a push-push latch.
-- **environment_limits**: Plastic flexures fatigue at their stress concentrations under repeated flexing (Wikipedia, Compliant mechanism) and plastic springs slowly deform (creep) under steady strain (Hackaday); PLA is the worst common filament for this (Hackaday; Cableclips). Energy is partly lost in each flex, which adds damping (Wikipedia, Compliant mechanism). Steel versions resist creep but can rust or crack through the covering (Wikipedia, Slap bracelet). *(unverified parts omitted)*
-- **safety_notes**: Metal strip versions can break or poke through their covering and cut, which led to school bans and recalls of cheap slap bracelets (Wikipedia, Slap bracelet). *(unverified parts omitted)*
-- **common_failures**: Won't stay in the second position (it snaps and springs back), because the curve is too shallow for its thickness or the beam twists instead of snapping; fix by increasing curve height over thickness or joining two beams at the middle (Qiu et al. 2004; Chi et al. 2022). Cracks at the roots of flexures from fatigue, especially in PLA (Wikipedia, Compliant mechanism; Gamma4D; Hubs). Layers splitting when the part was printed in the wrong orientation (Hackaday snap action mechanism). Snap getting weak or 'sloppy' with heavy use or after long storage in one state, from wear and creep (Hackaday; *(unverified parts omitted)*
+- **environment_limits**: Plastic flexures fatigue at their stress concentrations under repeated flexing (Wikipedia, Compliant mechanism) and plastic springs slowly deform (creep) under steady strain (Hackaday); PLA is the worst common filament for this (Hackaday; Cableclips). Heat speeds up creep and softens plastics, so avoid hot cars and sunny windows for PLA versions ⚑ [uncertain]. Energy is partly lost in each flex, which adds damping (Wikipedia, Compliant mechanism). Steel versions resist creep but can rust or crack through the covering (Wikipedia, Slap bracelet). *(⚑ parts need confirming)*
+- **safety_notes**: The snap releases stored energy suddenly, so a large or stiff one can pinch fingers or flick small parts ⚑ [uncertain]. Metal strip versions can break or poke through their covering and cut, which led to school bans and recalls of cheap slap bracelets (Wikipedia, Slap bracelet). *(⚑ parts need confirming)*
+- **common_failures**: Won't stay in the second position (it snaps and springs back), because the curve is too shallow for its thickness or the beam twists instead of snapping; fix by increasing curve height over thickness or joining two beams at the middle (Qiu et al. 2004; Chi et al. 2022). Cracks at the roots of flexures from fatigue, especially in PLA (Wikipedia, Compliant mechanism; Gamma4D; Hubs). Layers splitting when the part was printed in the wrong orientation (Hackaday snap action mechanism). Snap getting weak or 'sloppy' with heavy use or after long storage in one state, from wear and creep (Hackaday; Firgelli ⚑ [uncertain]). *(⚑ parts need confirming)*
 - **related**: 
   - Over-centre linkage and spring toggle: the rigid-link version with pin joints and a separate spring; more durable in PLA but more parts
   - Living hinge: a single thin flexing hinge with no stable positions of its own; add a snap geometry to make it bistable
@@ -107,7 +110,8 @@
   - [Bistable compliant switch mechanism.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png): Image of BYU's one-piece bistable compliant switch, used on the Wikipedia article Compliant mechanism *(licence: CC BY-SA 4.0 (BYU CMR))*
   - [Bistable Compliant Mechanism (BYU CMR, Printables)](https://www.printables.com/model/581013-bistable-compliant-mechanism): Animated GIF of a one-piece printed bistable mechanism snapping between its two positions, with references to BYU papers *(licence: CC BY-NC-SA (model page read via the Printables public API))*
   - [Simple Snap Action Mechanism Is 100% 3D Printed (Hackaday)](https://hackaday.com/2022/06/10/simple-snap-action-mechanism-is-100-3d-printed/): Article and pictures of a fully printed snap-action slide with two curved leaf springs, stressing print orientation *(licence: link only)*
-  - [Bistable and Multistable Actuators for Soft Robots: Structures, Materials, and Functionalities (Chi et al., Advanced Materials 2022)](https://d-nb.info/1254133046/34): Open-access review with diagrams of curved beams, curved plates, domes and flexure linkages, force-displacement and energy curves, and photos of everyday bistable objects (hair clips, tape measures, bottle caps) *(licence: Creative Commons Attribution (CC BY; open access))* *(unverified parts omitted)*
+  - [Bistable and Multistable Actuators for Soft Robots: Structures, Materials, and Functionalities (Chi et al., Advanced Materials 2022)](https://d-nb.info/1254133046/34): Open-access review with diagrams of curved beams, curved plates, domes and flexure linkages, force-displacement and energy curves, and photos of everyday bistable objects (hair clips, tape measures, bottle caps) *(licence: Creative Commons Attribution (CC BY; open access))*
+  - [Why Machines That Bend Are Better (Veritasium, YouTube)](https://www.youtube.com/watch?v=97t7Xj_iBv0): Video on compliant mechanisms (title and channel confirmed via YouTube oEmbed; content not viewed, so whether bistable examples are shown is ⚑ [uncertain]) *(licence: link only)* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
   - [Bistable Compliant Switch (BYU CMR, Printables)](https://www.printables.com/model/581016-bistable-compliant-switch): One-piece bistable switch based on a four-bar linkage with living hinges, with a short lesson on bistability; print in PLA or ABS or mill from 1/4 inch polypropylene sheet. Read through the Printables public API *(licence: CC BY-NC)*
   - [Cableclips - Bistable Compliant Mechanism (Bodo, Printables)](https://www.printables.com/model/328519-cableclips-bistable-compliant-mechanism): Reusable snap-open cable clips in nine sizes (8.5 to 30 mm); tested in PETG, ASA and ABS; PLA not recommended. Read through the Printables public API *(licence: CC BY-NC-ND)*
@@ -138,9 +142,26 @@
   - https://api.printables.com/graphql/
   - https://www.youtube.com/watch?v=97t7Xj_iBv0
 
+### Finder tags
+
+- **connects**: lid, door or cover ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks ⚑ *needs confirming (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks*
+- **tools**: none
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, links, making_tips_3d_printing, off_the_shelf_parts, play_and_precision, processes, safety_notes
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, links, making_tips_3d_printing, off_the_shelf_parts, play_and_precision, processes, safety_notes
 
 ## 49 Living hinge
 
@@ -154,8 +175,10 @@
   - integral hinge (term used in the MIT course document 'Design Issues on Living Hinges')
   - live hinge (name used by the BOSL2 OpenSCAD library)
   - flexure bearing or flexure hinge (the wider engineering family it belongs to; Wikipedia 'Flexure bearing')
+  - flip-top cap hinge, flip-top closure (packaging term) ⚑ [uncertain]
+  - film hinge ⚑ [uncertain]
   - flat hinge, double hinge and butterfly hinge (common living-hinge shapes for 3D printing; MatterHackers names flat, butterfly and kerf-bend hinges)
-  - kerf-bend living hinge (the laser-cut plywood or acrylic version made by a pattern of cuts; covered in its own entry 'Kerf bending') *(unverified parts omitted)*
+  - kerf-bend living hinge (the laser-cut plywood or acrylic version made by a pattern of cuts; covered in its own entry 'Kerf bending') *(⚑ parts need confirming)*
 - **family**: compliant mechanisms & flexures
 - **other_families**: hinges & pivots, print-in-place & 3D-printing joints
 - **one_liner**: A thinned strip of the same plastic that joins two stiff parts so they fold like a hinge, with no pin, no assembly and nothing to wear out or lose.
@@ -169,16 +192,19 @@
   - join and hold: keeps the lid attached to the box so it can't get lost (the lid is held shut by a separate snap or latch, not by the hinge)
 - **motion**: flex: folds (rotates by bending) through anything from 1 to 180 degrees (Protolabs 'Living Hinge Basics for Injection Molding'). There is no fixed pin, so the fold line moves slightly as it bends.
 - **degrees_of_freedom**: 1 intended: folding about the hinge line. The thin web also lets the lid twist a little, which is why lids with snap latches can tear at the ends of the hinge (MIT 'Design Issues on Living Hinges').
-- **special_behaviour**: none: a plain living hinge simply folds; it does not lock, click or limit force *(unverified parts omitted)*
+- **special_behaviour**: 
+  - none: a plain living hinge simply folds; it does not lock, click or limit force
+  - over-centre (snaps past a point and stays): only in bistable designs, where the hinge and a springy strip are shaped to snap fully open or fully shut, as on many flip-top caps ⚑ [uncertain] (see the entry 'Bistable compliant mechanism') *(⚑ parts need confirming)*
 - **holding_principle**: not a holding joint (it moves or passes on motion): it lets two parts fold; the lid stays attached only because it is the same piece of plastic, and a separate snap or latch holds it shut
 - **input_output**: not applicable
 - **power**: passive (no power needed)
 - **removability**: permanent: box, hinge and lid are one piece, so the lid can only be removed by cutting or tearing the hinge
 - **reuse_cycles**: not applicable to taking apart (it never comes apart). Fold life ranges from effectively unlimited to a few dozen folds: tests on moulded homopolymer polypropylene hinges were stopped after about a million flexes without failure, and one hinge survived 900,000 flexes including 300,000 at -28 °C (MIT 'Design Issues on Living Hinges'); 3D-printed hinges last tens to hundreds of flexes (Fictiv), for example about 25 folds for one FDM hinge and 30-50 for SLS nylon (Hubs).
 - **tools_needed**: none: it is made as part of the moulded or printed part. Warmth helps when first flexing a printed hinge: boiling water (Hubs), a warm print bed (Prusa forum) or taking the print off the bed while still warm (BYU CMR origami flasher)
+- **seal**: none: the hinge itself does not seal; a lid seals, if at all, with a separate rim or plug that snaps into the opening ⚑ [uncertain] *(⚑ parts need confirming)*
 - **load**: light: carries the weight of a lid and the pull of opening it. Once its molecules are lined up it is strong when pulled across the hinge, but weak against tearing and twisting, which start cracks at the hinge ends (MIT 'Design Issues on Living Hinges'). Not for load-bearing doors or arms; use a pin hinge instead.
 - **adjustable**: No: stiffness and fold angle are fixed by the hinge's thickness, length and material. The only 'adjustment' is training it by flexing it while warm straight after moulding or printing, and cooling it in the closed position if you want it to rest closed (MIT guide; Hubs).
-- **play_and_precision**: none: there is no play or rattle because nothing slides. It tolerates small misalignment because the thin web can twist slightly (MIT guide). *(unverified parts omitted)*
+- **play_and_precision**: none: there is no play or rattle because nothing slides. It is not a precise pivot, though: the fold line moves as it bends, so the lid's exact closed position is set by the rim or latch, not by the hinge ⚑ [uncertain]. It tolerates small misalignment because the thin web can twist slightly (MIT guide). *(⚑ parts need confirming)*
 - **access_needed**: not applicable: it is part of the moulded or printed part
 - **materials**: Best: polypropylene (PP), especially homopolymer and random-copolymer grades, then polyethylene (PE) (Wikipedia; MIT guide; Fictiv); impact-copolymer PP is recommended for cold use. Fillers such as talc, mica and glass fibre ruin hinge life (MIT guide). Harder or clear plastics such as K-Resin (SB) can work if the hinge is bent warm as it comes off the press (Protolabs). ABS is also used for moulded hinges (Wikipedia). For 3D printing: nylon (PA12 or PA11) in SLS or MJF gives the best printed hinges (Protolabs; Hubs); FDM hinges suit nylon, PP, TPU or TPE (Hubs; MatterHackers) and PETG (BYU CMR); MatterHackers says ABS and PLA are unsuitable, but thin PLA hinges printed flat work in boxes that are opened now and then (Printables 'Book box with living hinge'; Prusa forum). Urethane casting resins made for living hinges also exist (Fictiv). Plywood and acrylic can only 'hinge' with kerf-cut patterns (Wikipedia; see 'Kerf bending').
 - **maker_difficulty**: easy to moderate: a printed hinge is just a thin section and prints in one piece, but making it last more than a few dozen folds needs a bendy material (PP, nylon, TPU or PETG), the right print orientation and a few test prints; a hinge that lasts for years in daily use really needs injection-moulded polypropylene
@@ -193,7 +219,7 @@
   - other: stamping, blow moulding, extrusion and machining of PP (MIT guide), thermoforming (Wikipedia) and urethane casting (Fictiv)
 - **print_in_place**: yes: the hinge prints as part of the box in one go, usually lying flat so the hinge is the first two thin layers and the box folds up afterwards (Printables 'Book box with living hinge'; BOSL2 living_hinge_mask), or standing up so the hinge axis is vertical (Hubs). No added parts are needed.
 - **making_tips_3d_printing**: 1) Choose the material first: polypropylene (PP) flexes best but warps badly and only sticks to a PP build sheet or PP packing tape, so use a 5-10 mm brim and an enclosure if you can (Prusa knowledge base 'Polypropylene (PP)'); nylon, TPU or TPE are the other good choices (Hubs; MatterHackers), and PETG works (BYU CMR). PLA works only for hinges folded now and then, such as a box opened occasionally (Printables 'Book box with living hinge', printed in PLA at 0.2 mm layers). 2) Never let the fold line run along a layer boundary, because the layers will peel apart. Either print the part flat so the hinge is the bottom one or two layers with the extrusion lines running across the fold line (BYU's printed origami flasher uses two 0.1 mm bottom layers so every fold has two crossing layers of filament to bend on; a single 0.2 mm layer broke easily), or print it standing up so the hinge's width, not its length, is built up layer by layer, i.e. the hinge axis points up (Hubs). 3) Thickness: FDM hinges about 0.4-0.6 mm and at least two layers (Hubs); start at 0.5 mm (Fictiv). The 0.25-0.38 mm used in injection moulding is too thin for FDM (MatterHackers). SLS: 0.3-0.8 mm and at least 5 mm long (Hubs); Protolabs gives 0.02 in (0.5 mm) minimum for MJF and 0.03 in (0.76 mm) for SLS. 4) Make the hinge long enough to bend in a smooth curve rather than a sharp crease: for a 180-degree fold, hinge length L = pi x R, where R is the distance from the mating face to the hinge centre line (Protolabs; Fictiv); aim for a long curved outer surface and a short inner surface (Hubs). 5) Round every corner where the hinge meets the stiff parts, and add small shoulders so it bends in the middle (MIT guide; Fictiv). 6) Leave a small gap under the fold so the two halves don't collide when folded (BOSL2 living_hinge_mask adds a hinge gap). 7) Train the hinge while warm: take the print off the bed while still warm and fold it (BYU CMR), or dip it in boiling water, work it back and forth and let it cool in the closed position (Hubs); one maker heated a PLA hinge on a 75 °C bed for about 30 seconds and flexed it as it cooled (Prusa forum). 8) Split very long hinges into sections; moulding guides split hinges over about 6 in (150 mm) (MIT guide; Fictiv). 9) Print a test piece first to find the best thickness for your printer and filament (Printables 'Living Hinge Design Test'). 10) Expect a limited life: tens to hundreds of folds (Fictiv), about 25 folds for one FDM example (Hubs), so use a printed pin hinge for anything opened many times a day.
-- **off_the_shelf_parts**: None are needed; the hinge is part of the plastic. Useful supplies: polypropylene (PP) filament with a PP build sheet or PP tape (Prusa knowledge base), nylon or TPU filament, and polypropylene sheet for cut hinges (BYU FlexLinks). For a hinge that must last under heavy daily use, search for a 'piano hinge' ('continuous hinge') or a 'print-in-place hinge' instead. *(unverified parts omitted)*
+- **off_the_shelf_parts**: None are needed; the hinge is part of the plastic. Useful supplies: polypropylene (PP) filament with a PP build sheet or PP tape (Prusa knowledge base), nylon or TPU filament, and polypropylene sheet for cut hinges (BYU FlexLinks). Ready-made items to search for: 'hinged lid container', 'clamshell container', 'flip-top cap' or 'flip-top closure', 'pill box with hinged lid' ⚑ [uncertain]. For a hinge that must last under heavy daily use, search for a 'piano hinge' ('continuous hinge') or a 'print-in-place hinge' instead. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Injection-moulded polypropylene: start thin at 0.20-0.25 mm (0.008-0.010 in) and thicken only if needed, to at most 0.38 mm (0.015 in); keep the thin land about 1.5 mm (0.060 in) long; gate the mould so the plastic flows straight across the hinge; flex the hinge a few times straight after moulding while it is still warm (MIT course 2.75 document 'Design Issues on Living Hinges').
   - Protolabs' moulding example: 0.012 in (0.3 mm) thick, about 0.060 in (1.5 mm) long, a 0.008 in (0.2 mm) recess on the side it folds towards and a 0.030 in (0.76 mm) radius on the stretched side; it can fold from 1 to 180 degrees (Protolabs 'Living Hinge Basics for Injection Molding').
@@ -268,9 +294,26 @@
   - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
   - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 
+### Finder tags
+
+- **connects**: lid, door or cover
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none
+- **load_max**: light
+- **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes*
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, off_the_shelf_parts, play_and_precision, seal, special_behaviour
+- ⚑ **Fields with parts that need confirming:** aliases, off_the_shelf_parts, play_and_precision, seal, special_behaviour
 
 ## 50 Flexure hinge (notch, leaf-spring and cross-axis pivots)
 
@@ -314,10 +357,11 @@
 - **power**: passive (no power needed)
 - **removability**: permanent for one-piece notch, leaf and printed hinges (they are part of the part); removable for crossed pivots that clip together (BYU CMR Cross-Axis Flexure Pivot), for metal blades clamped between blocks, and for bought pivot bearings that mount in a hole (C-Flex design guide)
 - **reuse_cycles**: many times for clip-together, clamped and bought versions. The real limit is flex life, not taking it apart: effectively unlimited when the strain is kept low (a Riverhawk pivot was cycled over 12 billion times in twenty years; C-Flex rates 'indefinite life' below a set angle), but limited in 3D-printed plastic, which yields early and creeps (Akaki Kuumeri)
+- **tools_needed**: none for printed one-piece or clip-together hinges; a screwdriver or hex key to clamp metal blades between blocks ⚑ [uncertain]; bought pivot bearings are fitted into a bore ⚑ [uncertain: fitting method not checked] *(⚑ parts need confirming)*
 - **seal**: none
 - **load**: light to medium. Bought steel crossed-spring pivots are very stiff sideways (radial stiffness up to 100,000 lb/in) and carry radial loads up to 1,600 lb (about 7 kN) in the biggest sizes (Riverhawk); printed plastic hinges carry only light loads. Load capacity and stiffness fall as the rotation angle grows (C-Flex design guide; DSPE 'Infinity flexure'). A single blade is strong when pulled along its length, weaker when pushed (it can buckle) and weak against twisting (Wikipedia 'Flexure').
 - **adjustable**: No: stiffness and range are fixed by the section's thickness, length, width and material. You can limit travel with end stops (Akaki Kuumeri), and bought pivots come in thinner or thicker spring series: thinner springs give more range but less stiffness and load capacity (C-Flex design guide).
-- **play_and_precision**: none: no backlash, stiction or lost motion, so it can be adjusted in extremely fine steps (Riverhawk: increments of 0.00005 in; Physik Instrumente: guiding accuracy of a few nanometres or microradians). The axis is not perfectly fixed: the turning point shifts sideways as it rotates (centre shift), zero at rest and growing with angle (C-Flex design guide); circular notches drift least, while corner-filleted notches and long blades allow more angle but drift more (Linss et al., IntechOpen). Printed plastic creeps, so the rest position can wander after it has been held bent (Akaki Kuumeri; Sharkey et al.). *(unverified parts omitted)*
+- **play_and_precision**: none: no backlash, stiction or lost motion, so it can be adjusted in extremely fine steps (Riverhawk: increments of 0.00005 in; Physik Instrumente: guiding accuracy of a few nanometres or microradians). The axis is not perfectly fixed: the turning point shifts sideways as it rotates (centre shift), zero at rest and growing with angle (C-Flex design guide); circular notches drift least, while corner-filleted notches and long blades allow more angle but drift more (Linss et al., IntechOpen). Printed plastic creeps, so the rest position can wander after it has been held bent (Akaki Kuumeri; Sharkey et al.). As a one-piece part it has no fitting misalignment; clamped metal blades must be clamped square ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **access_needed**: not applicable: it is built into the part (bought pivot bearings can mount in a blind hole; C-Flex design guide)
 - **materials**: Metal: stainless or spring-steel flat springs (AISI 420 in Riverhawk pivots), beryllium copper, titanium and Inconel for special pivots (Riverhawk; C-Flex); high-strength aluminium such as 7075 for machined notch hinges (Linss et al., IntechOpen). Plastic: polypropylene sheet gives BYU's cut FlexLinks pivots the best flexibility and fatigue life; PLA and ABS work in printed instruments (Sharkey et al.), and PLA+ was the most useful in Akaki Kuumeri's tests, with PETG said to yield later and creep less. Plastics bend further than metals of the same size, giving more range (Sharkey et al.), but creep.
 - **maker_difficulty**: easy to moderate: a printed notch or leaf hinge is just a thin wall and prints in place, but getting thickness, length and range right takes test prints, and plastic yields and creeps; precise, long-life metal pivots are easiest to buy ready-made
@@ -328,10 +372,11 @@
   - 3D print (FDM): one-piece notch and leaf hinges and clip-together crossed pivots (OpenFlexure microscope; BYU CMR; Akaki Kuumeri's controllers)
   - CNC: machined notch hinges in aluminium or steel; the most accurate flexure guides are cut by wire EDM (Physik Instrumente; Linss et al.)
   - laser cut: flat plastic flexures; BYU FlexLinks can also be milled, water-jet cut or CNC-routed from polypropylene sheet
-  - off-the-shelf part: flexural pivot bearings (Free-Flex (brand), C-Flex (brand)) *(unverified parts omitted)*
+  - sheet metal: spring-steel or beryllium-copper blades clamped between blocks, or a clock's suspension spring ⚑ [uncertain: no build guide opened]
+  - off-the-shelf part: flexural pivot bearings (Free-Flex (brand), C-Flex (brand)) *(⚑ parts need confirming)*
 - **print_in_place**: yes: notch and leaf hinges print as part of the mechanism with no assembly (the OpenFlexure microscope body, with all its hinges, prints as one piece without supports; Sharkey et al.). Crossed-blade pivots, whose blades cross in space, are often printed as two identical halves that clip together (BYU CMR Cross-Axis Flexure Pivot; layer.works 'Simplified Snap-Fit Flexure Pivot').
 - **making_tips_3d_printing**: 1) Orient the flexure so it bends along the printed lines, not across layer joins. Two good options: (a) lay the flexure flat with its hinge axis horizontal, as OpenFlexure does, because a printer's layer height is thinner than its line width, so flat flexures can be thinner and stronger (Sharkey et al.); if it lies flat, make the lines run lengthwise along the flexure (Akaki Kuumeri); or (b) print the flexure as a thin standing wall with its hinge axis vertical, exactly two lines thick (Akaki Kuumeri: 'always printed vertically'; zalo's XY stage). Avoid a standing wall that bends about a horizontal axis, because the layers peel apart (Hubs advises against Z-direction cantilevers). 2) Starting sizes that worked: Akaki Kuumeri's 'flexure primitive' is 0.75 mm thick (two lines from a 0.4 mm nozzle), at least 10 mm wide (narrower twists too easily), at least 40 mm long (shorter doesn't bend well) and moved 5 mm at the tip; OpenFlexure's notch hinges are 0.72 mm thick, 1.5 mm long and 4 mm wide, bent no more than 6 degrees. 3) Check the strain before printing: the surface strain of a bent flexure is about thickness x angle (in radians) / (2 x length); OpenFlexure's 0.024 (2.4%) is already close to the yield strain of PLA and ABS (Sharkey et al.), so keep printed hinges at or below about that. 4) Add end stops so the hinge cannot be bent past its limit; OpenFlexure saw flexures snap only in designs where the motion was not constrained (Sharkey et al.; Akaki Kuumeri). 5) Design the hinge so it rests unbent, and never leave it under load: printed plastic creeps and won't return to centre after being held bent for a day (Akaki Kuumeri). 6) Fillet the corners where the flexure meets the stiff parts, and keep the print seam away from the flexure (use a seam painter or seam attractor) (Akaki Kuumeri; Line Arc Line). 7) Slicer settings for thin flexures: use the Classic perimeter generator rather than Arachne so the flexure is one or two clean lines (Line Arc Line), turn off 'detect thin walls' and set a 0.4 mm external perimeter, and check that two lines run along each flexure (zalo). 8) Materials: PLA or PLA+ is fine for light, occasional use (Akaki Kuumeri; Sharkey et al.); PETG or nylon for more flexing; PLA softens from about 60 °C (CNC Kitchen). 9) Crossed pivots: print two identical halves and clip them together with the clips at opposite ends (BYU CMR). 10) Print a small test piece first; OpenFlexure includes one to tune flexures and bridges for your printer (Sharkey et al.).
-- **off_the_shelf_parts**: Search for 'flexural pivot', 'flex pivot' or 'pivot bearing' (Free-Flex (brand, Riverhawk) in cantilevered single-ended and double-ended styles, 0.125-1 in diameter; C-Flex (brand) pivot bearings in 10, 20 and 30 spring series). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for 'flexural pivot', 'flex pivot' or 'pivot bearing' (Free-Flex (brand, Riverhawk) in cantilevered single-ended and double-ended styles, 0.125-1 in diameter; C-Flex (brand) pivot bearings in 10, 20 and 30 spring series). For making your own: 'spring steel strip' or 'shim stock', 'beryllium copper strip' (see safety notes), 'polypropylene sheet' for cut plastic flexures (BYU FlexLinks), and 'clock suspension spring' from clock-parts suppliers ⚑ [uncertain: supplier pages not opened]. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Surface strain in a bent flexure is about t x alpha / (2 L) (t thickness, L length, alpha bend angle in radians); 0.72 mm x 1.5 mm PLA hinges bent 6 degrees reach about 2.4% strain, close to the yield strain of PLA and ABS (Sharkey et al., Rev. Sci. Instrum. 87, 025104, 2016).
   - Printed flexure starting point: 0.75 mm thick (two 0.4 mm lines), at least 10 mm wide, at least 40 mm long, about 5 mm tip movement; use end stops and never leave it loaded (Akaki Kuumeri, '3D Printed Flexures' slides).
@@ -351,7 +396,7 @@
 - **when_to_use**: Use a flexure hinge when you need a small, smooth, precise rotation with no play and no friction: tilting mirrors and optics, fine-adjustment levers, weighing and measuring mechanisms, joysticks and controllers that spring back to centre, grippers, and pivots in places where oil, wear particles or dirt are a problem (vacuum, clean rooms, outdoors). In 3D printing it replaces a sloppy printed pin joint with a crisp, rattle-free one that prints in place, and it gives a built-in return spring for free.
 - **when_not_to_use**: Avoid it when you need a large angle or continuous rotation (use a pin hinge, a bearing or a living hinge for folding lids), when the joint carries heavy loads or shocks, when the part must stay deflected for long periods in plastic (it creeps; use a metal flexure or a bearing with a separate spring), or when the extra returning force would be a nuisance. For a folding lid use a living hinge; for straight-line motion use a parallel leaf-spring flexure; for heavy, long-range rotation use ball bearings or bushings.
 - **environment_limits**: Metal flexures suit hostile places: they work underwater, in a vacuum and at high temperatures (Wikipedia 'Flexure bearing'); steel Riverhawk pivots are rated from -400 °F to +1200 °F and have no lubricant to outgas in space; flexure stages need no lubricants and work in vacuum (Physik Instrumente). Metals still fatigue and eventually snap if bent too far too often (Wikipedia 'Flexure bearing'). Printed plastic hinges: PLA softens from about 60 °C and PETG from about 80 °C (CNC Kitchen); plastic creeps and takes a set if left bent (Akaki Kuumeri), and printed OpenFlexure stages drift slowly after large moves because of creep (Sharkey et al.).
-- **safety_notes**: Generally low risk. Printed flexures bent past their limit snap suddenly (Sharkey et al.). Beryllium-copper flexure material is safe to handle, but breathing its dust or fumes can cause chronic beryllium disease (Wikipedia 'Beryllium copper'), so never grind, sand or machine it without proper controls. *(unverified parts omitted)*
+- **safety_notes**: Generally low risk. Printed flexures bent past their limit snap suddenly (Sharkey et al.). Beryllium-copper flexure material is safe to handle, but breathing its dust or fumes can cause chronic beryllium disease (Wikipedia 'Beryllium copper'), so never grind, sand or machine it without proper controls. Thin spring-steel blades can have sharp edges ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **common_failures**: Bent too far, so the material yields (takes a permanent bend) or snaps; add end stops and check the strain (Sharkey et al.; Akaki Kuumeri). Fatigue cracks at the thinnest point or at sharp corners after many cycles, especially in metals bent near their limit (German Wikipedia 'Festkoerpergelenk'; Wikipedia 'Compliant mechanism'); fillet the corners and lower the angle. Creep in plastic: the hinge no longer returns to centre after being held bent (Akaki Kuumeri). Layer splitting when a printed flexure bends across layer joins (Hubs). A single blade twisting or buckling under side or compressive loads (Wikipedia 'Flexure'). Loss of support stiffness and axis shift at large angles (DSPE; C-Flex). Seams, blobs or stray infill lines on a printed flexure make it stiff or weak (Akaki Kuumeri; zalo).
 - **related**: 
   - Living hinge: a thin plastic web used to fold lids through large angles for a limited life, rather than for precise, small-angle pivots
@@ -412,9 +457,26 @@
   - https://www.youtube.com/watch?v=PaypcVFPs48
   - https://www.youtube.com/watch?v=K0wr_ZhhtbE
 
+### Finder tags
+
+- **connects**: lid, door or cover ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks [uncertain]; bought pivot bearings are f…"*
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** off_the_shelf_parts, play_and_precision, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** off_the_shelf_parts, play_and_precision, processes, safety_notes, tools_needed
 
 ## 51 Parallel leaf-spring flexure (linear flexure stage)
 
@@ -435,7 +497,7 @@
 - **family**: compliant mechanisms & flexures
 - **other_families**: sliding, telescoping & linear motion, print-in-place & 3D-printing joints
 - **one_liner**: Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.
-- **complexity**: A double parallelogram adds an intermediate stage between two sets of blades. A positioning stage adds a drive, such as an M3 screw, nut and thumbwheel or a stepper motor (Sharkey et al.; OpenFlexure). *(unverified parts omitted)*
+- **complexity**: Single piece when printed or machined from one block (base, two blades or two notch-hinged legs, and the platform), or a few parts when spring-steel blades are clamped between a base block and a moving block ⚑ [uncertain: no metal build guide opened]. A double parallelogram adds an intermediate stage between two sets of blades. A positioning stage adds a drive, such as an M3 screw, nut and thumbwheel or a stepper motor (Sharkey et al.; OpenFlexure). *(⚑ parts need confirming)*
 - **how_it_works**: Two blades of equal length form a parallelogram with the base and the platform. When you push the platform sideways, both blades bend into the same S shape, so the platform stays parallel to the base and moves almost in a straight line, while the blades' resistance to being stretched, squashed and twisted holds every other direction (Awtar et al.; Ingeniqs). Because the blades cannot change length, the platform dips slightly towards the base as it moves, by about 0.6 x travel squared / blade length; putting two parallelograms in series, with the middle stage moving half as far as the platform, cancels this dip (double parallelogram) (Ingeniqs; Awtar et al.). With nothing sliding there is no friction, stiction or play, so a flexure stage can be moved in steps of micrometres or even nanometres (Physik Instrumente; Sharkey et al.).
 
 ### Finder attributes
@@ -454,13 +516,15 @@
   - spring force (a spring or springy part presses it in place): the blades push the platform back towards the rest position
 - **input_output**: not applicable as a transmission; it is usually driven by a screw, piezo actuator or motor. Levers made of flexures can scale the motion: OpenFlexure's focus axis reduces screw motion 2.6 times, and with stepper motors and 1/16 microstepping it moves in steps of about 50 nm (Sharkey et al.). Back-drivable: yes, the blades are springs.
 - **power**: passive (no power needed) for the flexure itself; motorised stages need power to move, and a screw-driven stage stays where it is if power is lost
+- **removability**: permanent for one-piece printed or machined stages; removable when metal blades are clamped between blocks with screws ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times: nothing wears because nothing slides; the life limit is fatigue of the blades, which is long if they are bent well within the material's limit. Printed OpenFlexure stages had no flexures snap after 6 months of use (Sharkey et al.); FabianVeile's printed XY guide is designed to stay in the elastic region so it always returns to its start position (Printables)
+- **tools_needed**: none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain] *(⚑ parts need confirming)*
 - **seal**: none
 - **load**: light to medium in the directions it holds; very light in the travel direction by design. Stiff against loads along the blades and against tilting. Stiffness in the travel direction is 2 x E x w x t cubed / L cubed for two blades (Ingeniqs). Holding stiffness falls as it moves: about 30% lower at a travel of one tenth of the blade length for a simple parallelogram, and about 90% lower for a double parallelogram (Awtar et al.). A pushing (compressive) load along the blades softens them towards buckling, so hang loads from the blades rather than stand them on top where possible (Awtar et al.).
 - **adjustable**: Position: yes, that is its purpose; the platform is moved by a fine screw (an M3 screw moves 0.5 mm per turn, allowing sub-micron adjustment by hand; Sharkey et al.), a piezo or a motor. Stiffness and range: no, fixed by the blade thickness, length, width and material.
 - **play_and_precision**: none: no backlash, stiction or play. Repeatability of a printed OpenFlexure stage was under 1 micrometre for small moves and about 15 micrometres for 1 mm moves, with focus drift typically under 10 micrometres (Sharkey et al.); metal flexure-guided piezo stages reach guiding accuracy of a few nanometres or microradians (Physik Instrumente). The path is not perfectly straight: the dip is about 0.6 x travel squared / blade length (Ingeniqs; Awtar et al.), and for a four-bar of notch hinges the deviation from a straight line is about 1% of the lever length over its usable range (Sharkey et al.). Blades of unequal length make the platform tilt as it moves (Awtar et al.). Printed stages drift slowly after big moves because plastic creeps (Sharkey et al.).
 - **access_needed**: not applicable: it is built into the mechanism
-- **materials**: Metal: aluminium or steel blocks with the flexures cut in, as in single-point load cells (Transducer Techniques) and wire-EDM-cut precision stages (Physik Instrumente); flexures can be made from nonmagnetic materials (Physik Instrumente). Plastic: PLA (OpenFlexure; zalo's XY stage), PLA+ (Akaki Kuumeri), PETG or more flexible filaments (Line Arc Line). Plastic gives a longer range than an equal-sized metal flexure but creeps (Sharkey et al.). *(unverified parts omitted)*
+- **materials**: Metal: aluminium or steel blocks with the flexures cut in, as in single-point load cells (Transducer Techniques) and wire-EDM-cut precision stages (Physik Instrumente); flexures can be made from nonmagnetic materials (Physik Instrumente). Spring-steel or beryllium-copper strip for clamped blades ⚑ [uncertain]. Plastic: PLA (OpenFlexure; zalo's XY stage), PLA+ (Akaki Kuumeri), PETG or more flexible filaments (Line Arc Line). Plastic gives a longer range than an equal-sized metal flexure but creeps (Sharkey et al.). *(⚑ parts need confirming)*
 - **maker_difficulty**: easy to moderate: a printed parallel flexure is a simple one-piece print (FabianVeile's XY Linear Guide prints in about 45 minutes), but printing thin blades cleanly, avoiding creep and adding a fine screw drive takes some care; nanometre-grade metal stages are bought
 
 ### Making it
@@ -468,9 +532,11 @@
 - **processes**: 
   - 3D print (FDM): one-piece linear and XY flexure stages (OpenFlexure; zalo; FabianVeile; BYU CMR)
   - CNC: monolithic metal stages with flexures cut by wire EDM (Physik Instrumente) and machined load-cell bodies (Transducer Techniques)
-  - off-the-shelf part: piezo flexure stages and nanopositioners (Physik Instrumente); single-point load cells (Transducer Techniques) *(unverified parts omitted)*
+  - sheet metal: spring-steel blades clamped between blocks ⚑ [uncertain: no build guide opened]
+  - off-the-shelf part: piezo flexure stages and nanopositioners (Physik Instrumente); single-point load cells (Transducer Techniques) *(⚑ parts need confirming)*
 - **print_in_place**: yes: the whole guide prints as one working piece without supports (OpenFlexure microscope and Block Stage; zalo's XY Flexure Translation Stage; FabianVeile's XY Linear Guide). A positioning stage then needs an added drive, such as an M3 screw and nut (Sharkey et al.; Printables 'High-precision Compliant XY-Positioning Device'), which makes it 'partly' print-in-place.
 - **making_tips_3d_printing**: 1) Print the blades as thin standing walls, two lines thick with a 0.4 mm nozzle (about 0.75 mm), so they bend along the printed lines; Akaki Kuumeri's 'flexure primitive' is 0.75 mm thick, at least 10 mm wide and at least 40 mm long, and his linear mechanisms are built from it; if a flexure must lie flat, make the lines run lengthwise (Akaki Kuumeri). OpenFlexure instead lays its notch hinges flat with the hinge axes horizontal, because the layer height is thinner than the line width (Sharkey et al.). 2) Use slicer settings that give exactly one or two clean lines per blade: 'Classic' perimeter generator rather than Arachne (Line Arc Line), 'detect thin walls' off and 'detect bridging perimeters' on, external perimeter width 0.4 mm, and check that two lines run along each flexure (zalo). 3) Keep the print seam off the blades (paint it elsewhere or use a seam attractor) and fillet the corners where blades meet the blocks (Line Arc Line; Akaki Kuumeri). 4) Make the two blades identical in length and thickness, or the platform will tilt as it moves (Awtar et al.). 5) Size the travel: the peak bending stress of a guided blade is about 3 x E x t x travel / L squared (Ingeniqs), so longer, thinner blades allow more travel; printed four-bar stages use about plus or minus 10% of their lever length (Sharkey et al.). 6) Add end stops so the stage can't be pushed past its safe range; OpenFlexure only saw flexures snap in designs whose motion was not limited (Sharkey et al.; Akaki Kuumeri). 7) Don't leave it pushed to one side: plastic creeps and will not return to centre (Akaki Kuumeri); OpenFlexure stages drift more after a large move (Sharkey et al.). 8) For straighter travel, use two parallelograms in series (double parallelogram) or mirror-image pairs, as in zalo's 'mutually compensating' XY stage (zalo; Akaki Kuumeri's 'linear-er movement with two stages'). 9) For two axes, a table with parallelogram legs is stiffer out of plane than two stages stacked on each other when printed in plastic (Sharkey et al.). 10) Prefer PLA+ or PETG for light, occasional use; PLA softens from about 60 °C and PETG from about 80 °C (CNC Kitchen).
+- **off_the_shelf_parts**: Search for 'flexure stage', 'piezo flexure stage' or 'nanopositioner' (Physik Instrumente sells single-axis, stacked and parallel-kinematic types), 'single point load cell' or 'bending beam load cell' (Transducer Techniques), 'spring steel shim stock' or 'spring steel strip' for home-made blades ⚑ [uncertain], and for the drive an 'M3 screw' and 'M3 nut' with a printed thumbwheel, or a small '28BYJ-48' stepper motor as used by the OpenFlexure Block Stage. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Parasitic dip (shortening) of a simple parallelogram: about 0.6 x travel squared / blade length (Ingeniqs 'Two parallel leaf springs'; Awtar, Slocum and Sevincer, 'Characteristics of Beam-based Flexure Modules', kinematic coefficient -0.6). Example: 2 mm travel on 40 mm blades gives about 0.06 mm dip.
   - Travel-direction stiffness of two blades: 2 x E x w x t cubed / L cubed; peak bending stress: 3 x E x t x travel / L squared (Ingeniqs).
@@ -544,9 +610,26 @@
   - https://www.youtube.com/watch?v=JGbM6qZAwQY
   - https://www.youtube.com/watch?v=PaypcVFPs48
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades [uncertain]…"*
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** complexity, materials, off_the_shelf_parts, processes, removability, tools_needed
+- ⚑ **Fields with parts that need confirming:** complexity, materials, off_the_shelf_parts, processes, removability, tools_needed
 
 ## 52 Compliant gripper and force amplifier
 
@@ -591,12 +674,13 @@
 - **holding_principle**: 
   - friction or clamping (force-fit): the jaws squeeze the object and friction holds it
   - spring force (a spring or springy part presses it in place): the bent flexures keep pressure on the jaws in self-closing and bistable designs
-- **input_output**: Squeeze or linear push -> jaw closing (rotation or near-straight pinch). Force ratio is set by the lever arms (law of the lever) minus the energy lost bending the flexures (Midha et al. 2015). Displacement amplifiers for piezo drives reach about 31.6x (four-stage aluminium microgripper; Chen et al. 2019) to 65x (bridge-type amplifier; Wang et al. Back-drivable: yes, the jaws spring back when the input is released, except in over-centre or bistable locking versions. *(unverified parts omitted)*
+- **input_output**: Squeeze or linear push -> jaw closing (rotation or near-straight pinch). Force ratio is set by the lever arms (law of the lever) minus the energy lost bending the flexures (Midha et al. 2015). Displacement amplifiers for piezo drives reach about 31.6x (four-stage aluminium microgripper; Chen et al. 2019) to 65x (bridge-type amplifier; Wang et al. 2021), with output force reduced in proportion; how well these ratios carry over to printed plastic versions is ⚑ [uncertain]. Back-drivable: yes, the jaws spring back when the input is released, except in over-centre or bistable locking versions. *(⚑ parts need confirming)*
+- **power**: passive (no power needed) for hand tools; robot and micro versions are driven by a servo, motor, air or piezo actuator, and when power is lost the jaws simply spring back to their rest position (open or closed, depending on the design) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **removability**: tool-free quick release: it releases the object as soon as you stop squeezing (or flip the switch on bistable versions); the tool itself is one piece with nothing to take apart
-- **reuse_cycles**: many times, as long as the flexures bend only within their springy (elastic) range and the material is tough (PETG, polypropylene, nylon); thin FDM flexures pushed hard can fail in tens of cycles (an FDM living hinge lasted about 25 cycles; *(unverified parts omitted)*
+- **reuse_cycles**: many times, as long as the flexures bend only within their springy (elastic) range and the material is tough (PETG, polypropylene, nylon); thin FDM flexures pushed hard can fail in tens of cycles (an FDM living hinge lasted about 25 cycles; Hubs) and resin flexures may wear out quickly (Formlabs forum) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: none to use; none to assemble (one piece). A ballpoint refill or knife may be needed to free fused gaps after printing (FabianVeile, Printables)
 - **seal**: none
-- **load**: light: printed hand tools grip small objects and give modest force; the force is limited by what the thin flexures can take without yielding (Wikipedia, Compliant mechanism). *(unverified parts omitted)*
+- **load**: light: printed hand tools grip small objects and give modest force; the force is limited by what the thin flexures can take without yielding (Wikipedia, Compliant mechanism). Strong in the squeezing direction; weak against twisting and sideways loads that bend the flexures out of plane ⚑ [uncertain] *(⚑ parts need confirming)*
 - **adjustable**: no: the lever ratios and jaw gap are fixed by the shape; changing force or opening means reprinting with different flexure thickness or arm lengths (BYU surgical grippers note thinner flexures need less force)
 - **play_and_precision**: Play: none, because there are no pin joints (no backlash; Wikipedia, Compliant mechanism; Akaki Kuumeri). Repeatability: good while the plastic stays springy, but plastic creep and yielding shift the rest position over time (Akaki Kuumeri). Jaw alignment: jaws may not meet squarely if flexures are too thick or the print is slightly off, and designers work to keep the jaws parallel (BYU surgical grippers; IISc M2D2 collection)
 - **access_needed**: not applicable
@@ -609,11 +693,12 @@
   - 3D print (FDM): one-piece pliers, tweezers, grippers and robot claws
   - 3D print (resin): tough resins such as Formlabs Tough 1500 for small compliant mechanisms
   - CNC: milled from polypropylene sheet (BYU's fully compliant pliers) or wire-EDM or milled aluminium for precision microgrippers
+  - laser cut: flat flexure grippers from polypropylene or acrylic sheet ⚑ [uncertain]
   - sheet metal: bent or joined metal strips for tweezers and sugar tongs
-  - off-the-shelf part: tweezers and cross-locking tweezers *(unverified parts omitted)*
+  - off-the-shelf part: tweezers and cross-locking tweezers *(⚑ parts need confirming)*
 - **print_in_place**: yes: most designs print flat in one piece and work straight off the bed (BYU fully compliant pliers, FabianVeile's tweezers, quibeck's spring pliers), though some need narrow gaps broken free after printing
 - **making_tips_3d_printing**: Print the gripper flat so the flexures bend along the layer lines, never across them; if a flexure must lie flat, make sure its print lines run lengthwise (Akaki Kuumeri; Hubs recommends building the hinge width layer by layer). Size flexures to the nozzle: a 0.75 mm wall prints as exactly two lines with a 0.4 mm nozzle, and walls over three lines thick behave unpredictably; make them at least 10 mm wide so they don't twist and about 40 mm long so they bend smoothly (Akaki Kuumeri). Hubs gives 0.4 to 0.6 mm (at least two layers) for FDM living hinges. Thinner flexures give better jaw alignment for less squeezing force (BYU surgical grippers). Fillet corners where flexures meet thick parts, and move the slicer seam away from flexures (Akaki Kuumeri). Add end stops so the flexures can't be bent past their limit, and never store the tool clamped shut or under load, because printed plastic yields early and creeps (Akaki Kuumeri; FabianVeile adds a stop to his tweezers). Use PETG for longest life (BYU fully compliant pliers); quibeck recommends PETG with 3 to 4 walls for printed spring pliers. Check narrow gaps: very small clearances between a moving rod and fixed parts can fuse and need freeing with a thin tool (FabianVeile). Calibrate to avoid over-extrusion and elephant's foot, which make joints stiff (juh, Printables). Add rubber or grippy material to jaws if parts slip, because smooth PLA and PETG have low friction (Hartisch and Haninger 2023).
-- **off_the_shelf_parts**: Tweezers (fused or bent-strip) and cross-locking tweezers (also sold as reverse-action or self-closing tweezers) are metal compliant grippers you can buy (Wikipedia, Tweezers). Robot versions use a micro servo (e.g. SG90) or linear actuator to push the input. The rigid-link equivalents are locking pliers ('Vise-Grip' is a brand) and crimping pliers. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Tweezers (fused or bent-strip) and cross-locking tweezers (also sold as reverse-action or self-closing tweezers) are metal compliant grippers you can buy (Wikipedia, Tweezers). Robot versions use a micro servo (e.g. SG90) or linear actuator to push the input. For precision work, piezo stacks with flexure amplifiers are sold as 'amplified piezo actuators' or 'flexure-guided piezo actuators' ⚑ [uncertain]. The rigid-link equivalents are locking pliers ('Vise-Grip' is a brand) and crimping pliers. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Law of the lever: force gain = input lever arm / output lever arm, and movement shrinks by the same ratio (Wikipedia, Mechanical advantage)
   - In a compliant mechanism, the energy stored in bending the flexures reduces the mechanical advantage, so minimise flexure stiffness relative to the lever geometry (Midha, Bapat and Midha, ASME IDETC 2015)
@@ -633,7 +718,7 @@
   - Printed one-piece pliers and grabbers shared by BYU and makers (Printables)
 - **when_to_use**: Use a compliant gripper when you want a gripping tool, clamp or robot claw that prints in one piece with no pins, springs or assembly; when you need smooth, backlash-free jaw motion; when parts must be cheap, light, washable or scaled down (BYU's surgical grippers keep working when scaled down); or when you need to magnify a tiny actuator movement (piezo, shape-memory wire) or a weak squeeze. It suits small robots and classroom kits where lost screws are a problem (Hackaday, LittleArm v3), pick-up tools, crimp or clamp helpers and fidget-style demonstrators.
 - **when_not_to_use**: Avoid it for heavy crimping, cutting or gripping forces (use metal pliers, a toggle or over-centre linkage, or a screw clamp); for large jaw openings or continuous rotation, which flexures cannot give (Wikipedia, Compliant mechanism); for tools stored clamped shut or under constant load, where plastic creeps (use a pinned mechanism with a metal spring); and for high cycle counts in PLA (use PETG, PP or nylon, or a pinned hinge). If you need the jaws to stay perfectly parallel under load, add parallel leaf-spring flexures or use a rigid parallel gripper.
-- **environment_limits**: Printed plastic flexures yield early and creep: a flexure left bent for a day may not return to centre (Akaki Kuumeri). Repeated bending causes fatigue cracks at flexure stress concentrations (Wikipedia, Compliant mechanism). PLA softens above its glass transition (about 60 to 65 degrees C; An et al. *(unverified parts omitted)*
+- **environment_limits**: Printed plastic flexures yield early and creep: a flexure left bent for a day may not return to centre (Akaki Kuumeri). Repeated bending causes fatigue cracks at flexure stress concentrations (Wikipedia, Compliant mechanism). PLA softens above its glass transition (about 60 to 65 degrees C; An et al. 2018), so PLA grippers can deform in a hot car or dishwasher ⚑ [uncertain]. PETG and resin versions are not immune: resin compliant mechanisms have been reported to 'work OK at first and then break down pretty fast' (Formlabs forum, user report) ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: A force amplifier multiplies your squeeze, so its jaws can pinch skin hard; keep fingers out of the jaws. Thin printed flexures can snap suddenly, and sharp printed edges can cut hands (one maker redesigned BYU's surgical gripper so it 'could be held without drawing blood'; DeansElectronics, Printables).
 - **common_failures**: Flexures crack at their roots from fatigue or from being bent too far: add fillets and end stops (Wikipedia, Compliant mechanism; Akaki Kuumeri). Layers split when flexures bend across layer lines: reorient the print (Akaki Kuumeri; Hubs). The tool takes a permanent set (stays partly closed) after being stored under load: don't store it clamped (Akaki Kuumeri). Jaws don't meet or need too much force because flexures are too thick: thin them (BYU surgical grippers). Narrow gaps fuse during printing: widen the gap or free it with a thin tool (FabianVeile). Weaker grip than expected, because energy goes into bending the flexures (Midha et al. 2015). Objects slip on smooth plastic jaws: add rubber or texture (Hartisch and Haninger 2023).
 - **related**: 
@@ -649,16 +734,18 @@
 
 - **links**: 
   - [Compliant plier mechanism.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png): Drawing of BYU's single-piece compliant plier (vice grip) mechanism, used as the lead image of the Wikipedia article Compliant mechanism *(licence: CC BY-SA 4.0 (BYU CMR))*
+  - [Why Machines That Bend Are Better (Veritasium, YouTube)](https://www.youtube.com/watch?v=97t7Xj_iBv0): Video on compliant mechanisms with BYU's Larry Howell (title and channel confirmed via YouTube oEmbed; which grippers are shown not checked ⚑ [uncertain]) *(licence: link only)*
   - [Compliant Mechanism Collection (M2D2 Lab, Indian Institute of Science)](https://mecheng.iisc.ac.in/m2d2/CMcollection/): Photo gallery of physical compliant grippers, crimpers and displacement-amplifying mechanisms, with short notes on mechanical advantage *(licence: link only (no licence stated))*
   - [Design of a Compliant Mechanism Based Four-Stage Amplification Piezoelectric-Driven Asymmetric Microgripper (Chen et al., Micromachines 2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7020048/): Diagrams of bridge and lever amplifier stages and a photo of a one-piece aluminium microgripper *(licence: CC BY 4.0)*
-  - [Simple 3D Printed Robotic Arm Uses Compliant Mechanism (Hackaday)](https://hackaday.com/2020/02/09/simple-3d-printed-robotic-arm-uses-compliant-mechanism/): Photo of the LittleArm v3, whose gripper and forearm went from 8 parts to one printed compliant part with a zig-zag flexure *(licence: link only)* *(unverified parts omitted)*
+  - [Simple 3D Printed Robotic Arm Uses Compliant Mechanism (Hackaday)](https://hackaday.com/2020/02/09/simple-3d-printed-robotic-arm-uses-compliant-mechanism/): Photo of the LittleArm v3, whose gripper and forearm went from 8 parts to one printed compliant part with a zig-zag flexure *(licence: link only)* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
   - [Fully Compliant Pliers (BYU CMR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/525989-fully-compliant-pliers): One-piece compliant pliers; PETG recommended; originally designed to be milled from 1/4 inch polypropylene sheet *(licence: CC BY-NC)*
+  - [Fully Compliant Pliers by BYU_CMR (Thingiverse) (appeared in search results and as the source of the Commons image; page is JavaScript-only and was not read)](https://www.thingiverse.com/thing:3488009): Original Thingiverse upload of BYU's one-piece compliant pliers *(licence: ⚑ [uncertain])*
   - [Compliant Surgical Grippers (BYU CMR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/664175-compliant-surgical-grippers): Printable version of BYU's inverted L-arm surgical gripper, printed in PLA with no supports; small smooth-jaw or large toothed versions *(licence: CC BY-NC)*
   - [Thin Grippers / Tweezers (Compliant Mechanism) (FabianVeile, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/103548-thin-grippers-tweezers-compliant-mechanism): One-piece thumb-operated grabber for reaching small objects, with a built-in stop; prints in about an hour *(licence: CC BY-NC-SA)*
   - [Compliant pliers (Codeman3000, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/473734-compliant-pliers): Remix of BYU's pliers that snaps shut like a vice grip, in three sizes *(licence: CC BY)*
   - [Compliant parallel Clamp (Jack, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/499739-compliant-parallel-clamp): Clamp that keeps its jaws parallel using cross-axis flexural pivots *(licence: CC0 (Public Domain))*
-  - [Keychain / fully working compliant Robot Gripper (bistable) (FabianVeile, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/86228-keychain-fully-working-compliant-robot-gripper-bis): Tiny bistable gripper that snaps open and stays open; PLA, 0.12 mm layers *(licence: CC BY-NC-ND)* *(unverified parts omitted)*
+  - [Keychain / fully working compliant Robot Gripper (bistable) (FabianVeile, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/86228-keychain-fully-working-compliant-robot-gripper-bis): Tiny bistable gripper that snaps open and stays open; PLA, 0.12 mm layers *(licence: CC BY-NC-ND)* *(⚑ parts need confirming)*
 - **diagram_idea**: Side-by-side drawings of ordinary pinned pliers and one-piece compliant pliers, with the pins circled and replaced by thin bending sections, and arrows showing a small hand force over a long handle becoming a large jaw force over a short distance.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Compliant_mechanism
@@ -680,9 +767,26 @@
   - https://www.youtube.com/watch?v=97t7Xj_iBv0
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: something to grip
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: straight push or pull
+- **motion_out**: steady turning, straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, links, load, make_it_yourself, off_the_shelf_parts, power, processes, reuse_cycles
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, load, make_it_yourself, off_the_shelf_parts, power, processes, reuse_cycles
 
 ## 53 Fin-ray gripper (fin ray effect finger)
 
@@ -722,6 +826,7 @@
   - friction or clamping (force-fit): the gripper's actuator squeezes the fingers against the object and friction holds it
   - shape (the parts interlock; form-fit): the fingers wrap partly around the object, and notched fingertips can lock a part in place (Hartisch and Haninger 2023)
 - **input_output**: not applicable as a transmission: the finger is passive. A servo, motor-and-tendon, pneumatic bellows or parallel-jaw gripper closes the fingers, and the fingers turn contact pressure into a wrapping motion (Crooks et al. 2016)
+- **power**: passive (no power needed) for the finger itself; the gripper needs a motor, servo or air to close it, and if power is lost the grip is usually released unless the drive is self-locking ⚑ [uncertain] *(⚑ parts need confirming)*
 - **removability**: tool-free quick release: the gripper lets go as soon as it opens; the fingers are usually bolted to the gripper (removable with a screwdriver)
 - **reuse_cycles**: many times: soft TPU fingers flex repeatedly, but stiff PLA versions broke after a bit of use (juh, Printables), and PLA+ or PETG fingers can deform permanently where ribs meet the wall if overloaded (Hartisch and Haninger 2023)
 - **tools_needed**: screwdriver or hex key to bolt fingers to the gripper; none to operate
@@ -744,7 +849,7 @@
   - off-the-shelf part: ready-made adaptive gripper fingers from automation suppliers (e.g. Festo DHAS)
 - **print_in_place**: yes: a fin-ray finger prints as one piece; juh's gripper even prints the whole two-finger mechanism in place in PETG with flexure joints (Printables); mounting to a servo or gripper needs screws
 - **making_tips_3d_printing**: Print the finger lying flat so the ribs and walls are drawn in the plane of bending. A neat slicer trick replaces modelled ribs: model a solid finger, then in the slicer use 'lines' infill with 'connect infill lines' off, one wall about one nozzle width (0.4 mm) thick, and no top or bottom layers, so the infill lines become the ribs; use a modifier or support-blocker region to give the mounting base normal walls and solid top and bottom layers (Hartisch and Haninger 2023, GitHub README). Rib density and angle then become slicer settings: 10 to 30% infill at 0 to 40 degrees was tested; 10% PETG was too floppy to hold a part, 30% was stiff enough to damage delicate parts, and 40 degree ribs failed by buckling and permanent deformation (Hartisch and Haninger 2023). For TPU: 0.2 mm layers, about 220 degrees C nozzle, 20 mm/s, cooling and retraction off, direct-drive extruder (vekkax Fin-ray Soft Gripper). Use many walls (about 10) around screw holes in TPU so the mounts don't flex (SPIDERMONK, Printables). PETG is more forgiving than PLA+ (less permanent deformation; Hartisch and Haninger 2023) and PLA versions broke quickly (juh). Calibrate to avoid over-extrusion, stringing and elephant's foot, which stiffen print-in-place joints (juh). Add grip: rubber bands glued on, vulcanising fluid, spray-on rubber or foam, because smooth PLA or PETG is too slippery (SPIDERMONK; juh; Source Robotics; Hartisch and Haninger 2023). Avoid tiny hard-soft interfaces in dual-material prints; PLA-to-NinjaFlex joints broke, so the fingers were made entirely soft (Crooks et al. 2016). Don't wash PETG fingers in hot water, which deforms them (Bas, Printables).
-- **off_the_shelf_parts**: Ready-made fin-ray fingers are sold as 'adaptive gripper fingers' for pneumatic or electric parallel grippers, e.g. For DIY grippers: hobby servos (e.g. SG90 or HK15138), parallel-jaw gripper modules, and mounting hardware. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Ready-made fin-ray fingers are sold as 'adaptive gripper fingers' for pneumatic or electric parallel grippers, e.g. Festo DHAS (brand; blue polyurethane fingers in 60, 80 and 120 mm sizes per a supplier listing ⚑ [uncertain]). For DIY grippers: hobby servos (e.g. SG90 or HK15138), parallel-jaw gripper modules, and mounting hardware. Fin-ray grippers are sold ready-made for 'cobot' robot arms ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Angle the cross ribs (not at right angles to the base) to give a preferred bending direction; this needed less force, bent about 15% further and held about 40% more (560 g versus 390 g) than the symmetric design (Crooks et al., Frontiers in Robotics and AI 2016)
   - Make the outer (back) wall thicker than the gripping wall: 1 mm front wall with 2 mm back and bottom walls in TPU 95A (Adeli and Sayyaadi 2026)
@@ -757,11 +862,12 @@
 
 - **everyday_examples**: 
   - A fish's tail fin, which bends toward a finger pushed against it (Crooks et al. 2016; Make)
+  - Blue or grey soft gripper fingers on factory pick-and-place robots and cobot arms (Festo FinGripper and DHAS, brands) ⚑ [uncertain]
   - Fruit- and vegetable-picking robot grippers, e.g. designs for handling tomatoes (Adeli and Sayyaadi 2026)
-  - Student robot competition grippers (an FTC team's TPU fin-ray gripper, SPIDERMONK, Printables) *(unverified parts omitted)*
+  - Student robot competition grippers (an FTC team's TPU fin-ray gripper, SPIDERMONK, Printables) *(⚑ parts need confirming)*
 - **when_to_use**: Use fin-ray fingers when a robot or tool must pick up things of different shapes and sizes, or soft and fragile things (fruit, eggs, bottles, cans, packaging) without precise positioning or force sensors; when you want a cheap, printable, one-piece finger for a servo or parallel gripper; or when a gripper must tolerate misalignment, such as pushing plugs or parts into place (Crooks et al. 2016; Hackaday egg gripper; Hartisch and Haninger 2023).
 - **when_not_to_use**: Avoid it for heavy loads, high gripping forces or strong twisting (use rigid jaws or a vacuum cup); for tiny or very thin items such as needles or paper, and for tasks like stacking that need precise placement, because the fingers deform (Source Robotics); and for gripping at the very fingertip with a plain V-shaped finger (use a notched or flat-tipped finger or rigid tweezers; Hartisch and Haninger 2023). For grip that multiplies force, use a lever-based compliant gripper or pliers instead.
-- **environment_limits**: Hot water deforms PETG fingers, so don't clean them in it (Bas, Printables); PLA softens above about 60 to 65 degrees C (An et al. 2018). Printed fingers lose shape if overloaded, with permanent deformation where ribs meet the walls (Hartisch and Haninger 2023). *(unverified parts omitted)*
+- **environment_limits**: Hot water deforms PETG fingers, so don't clean them in it (Bas, Printables); PLA softens above about 60 to 65 degrees C (An et al. 2018). Printed fingers lose shape if overloaded, with permanent deformation where ribs meet the walls (Hartisch and Haninger 2023). TPU grip and stiffness change with temperature and TPU can wear or tear after long use ⚑ [uncertain]. Rubber coatings wear off and need renewing (juh) ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: Generally one of the safest grippers because the fingers are soft and limit crushing force; still keep fingers clear of the gripper's drive (servo linkages or tendons can pinch). Vulcanising fluid used as a grip coating gives off fumes; don't inhale them (juh, Printables).
 - **common_failures**: Objects slip because printed plastic is smooth: add rubber, foam or texture (Hartisch and Haninger 2023; SPIDERMONK). Finger too floppy (too few, thin or low-density ribs) or too stiff and crushes parts (too many ribs or high infill): tune rib density and angle (Hartisch and Haninger 2023). Ribs buckle or tear from the walls when overloaded or with steep rib angles (Hartisch and Haninger 2023). Finger twists or bends sideways under side loads: thicken or stiffen the outer wall and add side supports (Crooks et al. 2016). Mounting holes flex or tear in TPU: use many walls there (SPIDERMONK). Brittle PLA fingers crack: use TPU or PETG (juh). Hard-soft material interfaces break in dual-material prints (Crooks et al. 2016).
 - **related**: 
@@ -785,7 +891,9 @@
   - [Print-in-place flexure fin ray gripper (juh, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1134880-print-in-place-flexure-fin-ray-gripper): Fully printed, no-assembly fin-ray gripper in plain PETG (no TPU needed), servo-driven, fischertechnik-compatible *(licence: CC BY-NC-SA)*
   - [Fingergripper - Fin Ray Effect (Cartman, Printables) (URL seen in search results; read via Printables API)](https://www.printables.com/model/382440-fingergripper-fin-ray-effect): Small hand-held two-finger fin-ray gripper printed in TPU 95A, with STEP file for modification *(licence: CC BY-NC-SA)*
   - [Fin Ray Adaptive gripper for Gobilda pattern (SPIDERMONK, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern): TPU fin-ray gripper used by an FTC robotics team; print with at least 10 walls *(licence: CC BY)*
-  - [compliantfinray (Richard Hartisch, GitHub README)](https://raw.githubusercontent.com/richardhartisch/compliantfinray/main/README.md): CAD and STL files for printed fin-ray fingers, plus the Cura slicing method that turns infill lines into ribs *(licence: BSD 3-Clause)* *(unverified parts omitted)*
+  - [compliantfinray (Richard Hartisch, GitHub README)](https://raw.githubusercontent.com/richardhartisch/compliantfinray/main/README.md): CAD and STL files for printed fin-ray fingers, plus the Cura slicing method that turns infill lines into ribs *(licence: BSD 3-Clause)*
+  - [Fin-ray Soft Gripper (vekkax, GitHub)](https://github.com/vekkax/Fin-ray-Soft-Gripper/blob/main/README.md): Open-source servo gripper with TPU 95A fin-ray fingers, force sensor, STM32 firmware and TPU print settings *(licence: CC BY 4.0 according to Open Source For You; the README does not state a licence ⚑ [uncertain])*
+  - [Festo Fin Gripper paper model (Make:)](https://makezine.com/projects/festo-fin-gripper/): Cut-and-fold card fin-ray finger from Festo for Maker Camp 2014; two can be taped together into a claw *(licence: ⚑ [uncertain] (not shown))* *(⚑ parts need confirming)*
 - **diagram_idea**: Two side views of a pushing finger: a plain flexible strip bending away from the push, next to a triangular fin-ray finger with cross ribs whose tip curls toward and around a round object, with arrows showing the ribs passing the push to the back wall.
 - **sources**: 
   - https://www.frontiersin.org/articles/10.3389/frobt.2016.00070/full
@@ -807,9 +915,26 @@
   - https://www.youtube.com/watch?v=90cXfaFM4O8
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: something to grip
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, everyday_examples, make_it_yourself, off_the_shelf_parts, power
+- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, make_it_yourself, off_the_shelf_parts, power
 
 ## 174 Lamina emergent torsional joint (LET joint)
 
@@ -840,7 +965,7 @@
 ### Finder attributes
 
 - **job**: let it move (turn, slide or bend): a hinge made from the sheet itself, store energy: the twisted bars act as a return spring that pulls the panel back toward flat (US 9,157,497)
-- **motion**: flex: bends out of the plane of the sheet like a hinge, through large angles; a spring-steel example was modelled to 20° and a curved aluminium one simulated to 35° (US 9,157,497; Seymour et al. 2021), and plywood and printed demonstrators fold to form chairs and boxes (Wasatch Design Collective; *(unverified parts omitted)*
+- **motion**: flex: bends out of the plane of the sheet like a hinge, through large angles; a spring-steel example was modelled to 20° and a curved aluminium one simulated to 35° (US 9,157,497; Seymour et al. 2021), and plywood and printed demonstrators fold to form chairs and boxes (Wasatch Design Collective; BYU CMR Printables) ⚑ [uncertain] (for maximum angles) *(⚑ parts need confirming)*
 - **degrees_of_freedom**: 1 intended: 'A LET joint primarily provides one rotational degree-of-freedom through the torsional deflections of the torsional segments' (Chen, Magleby and Howell 2018); in practice it also allows some unwanted stretching, squashing and in-plane twisting (parasitic motion), and its centre of rotation moves as it bends (Seymour et al. 2021)
 - **special_behaviour**: 
   - none of the listed behaviours in the basic joint: it simply bends like a hinge and springs back toward flat (US 9,157,497)
@@ -849,9 +974,10 @@
 - **input_output**: not applicable
 - **power**: passive (no power needed)
 - **removability**: permanent: the joint is part of the sheet and cannot be taken apart
-- **tools_needed**: To use: none. *(unverified parts omitted)*
+- **reuse_cycles**: not taken apart at all; it can flex very many times if the twisting stress stays below the material's yield point, which gives 'much better fatigue properties' (Deferred Procrastination, lattice hinges); brittle materials such as acrylic, or joints bent past their design angle, may crack after few cycles ⚑ [uncertain] (for cycle counts) *(⚑ parts need confirming)*
+- **tools_needed**: To use: none. To make: a laser cutter, CNC router, water jet or stamping press for sheet, or a 3D printer; a few drops of glue if a folded model has to hold its shape (BYU CMR 'Mini Flex Chair' instructions) ⚑ [uncertain] (for water jet and stamping) *(⚑ parts need confirming)*
 - **seal**: none: the slots go right through the sheet, so it leaks air, water and light
-- **load**: light: it is designed to rotate easily, not to carry force. It is weakest against pushing or pulling along the sheet across the joint and against in-plane twisting, which bend the torsion bars; 'they are not suitable for high precision applications if these types of loads are applied' (Chen, Magleby and Howell 2018). Example: a 0.81 mm spring-steel outside LET joint needs about 0.60 N·m to turn it 20° (US 9,157,497). *(unverified parts omitted)*
+- **load**: light: it is designed to rotate easily, not to carry force. It is weakest against pushing or pulling along the sheet across the joint and against in-plane twisting, which bend the torsion bars; 'they are not suitable for high precision applications if these types of loads are applied' (Chen, Magleby and Howell 2018). Example: a 0.81 mm spring-steel outside LET joint needs about 0.60 N·m to turn it 20° (US 9,157,497). Folded structures such as the plywood LET chair get their strength from the overall folded shape rather than from the joints alone ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: no: stiffness and range are fixed by the cut pattern and the sheet thickness; change them by recutting with longer, thinner or more torsion bars
 - **play_and_precision**: No play or backlash (nothing slides; it is one piece) and it returns to flat repeatably, but its centre of rotation shifts as it bends (Seymour et al. 2021) and it moves sideways, stretches or squashes under loads other than a pure turning moment (Chen, Magleby and Howell 2018). Adding a thin membrane 'increases the stiffnesses of the translation along the y-axis and the rotation around the z-axis by more than 5000 times, while only increasing the rotation stiffness around the x-axis about one time' (Chen, Magleby and Howell 2018).
 - **access_needed**: not applicable
@@ -862,11 +988,13 @@
 
 - **processes**: 
   - laser cut: acrylic, plywood, polypropylene or thin sheet (BYU CMR 'LET Array'; Deferred Procrastination for the related lattice hinge)
+  - CNC: routed plywood furniture such as the single-sheet LET chair (Wasatch Design Collective) ⚑ [uncertain] (for the exact cutting process)
   - 3D print (FDM): printed flat in one piece (BYU CMR Printables models; Seymour et al. 2021 printed PETG test joints)
-  - micro-fabrication (MEMS): polysilicon joints (US 9,157,497) *(unverified parts omitted)*
+  - sheet metal: spring-steel joints (US 9,157,497), cut by laser, water jet or stamping ⚑ [uncertain] (for water jet and stamping)
+  - micro-fabrication (MEMS): polysilicon joints (US 9,157,497) *(⚑ parts need confirming)*
 - **print_in_place**: yes: the joint is just a pattern in a flat printed sheet, so it works straight off the bed with no assembly (BYU CMR 'Mini LET Joint Box' is 'all printed in one piece'); some folded models add a drop of glue to hold their final shape (BYU CMR 'Mini Flex Chair')
-- **making_tips_3d_printing**: 1) Print the sheet flat on the bed; it needs no supports and prints fast (BYU's Mini Flex Chair takes 'about an hour to print'). 3) Stiffness rises with thickness cubed and falls with bar length (k = K·G/L with K roughly w·t³/3; US 9,157,497), so the quickest way to make a joint softer and less stressed is a slightly thinner sheet or longer bars; widening the bar mostly adds stiffness. 4) Research prints used PETG at 100% infill on a Prusa i3 MK2 and measured a bending modulus of about 1.4 GPa, lower than typical datasheet values for moulded plastic, so measure or test your own material (Seymour et al. 2021). 7) To fold further, spread the motion over more bars or several joints side by side, as in BYU's LET arrays and in lattice hinges, where more links in series each twist less (Deferred Procrastination). *(unverified parts omitted)*
-- **off_the_shelf_parts**: None: it is a cut pattern, not a bought part. Related bought items: laser-cutting sheet stock (plywood, acrylic, polypropylene, spring-steel shim), and for membrane-enhanced joints a thin, strong film or tape bonded across the joint (the M-LET paper used metallic glass; the related lattice-hinge write-up suggests gluing 'a thinner material across the inside of the hinge to prevent expansion'; *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Print the sheet flat on the bed; it needs no supports and prints fast (BYU's Mini Flex Chair takes 'about an hour to print'). 2) The torsion bars are sized with their in-plane width w larger than the sheet thickness t, because the standard equations assume w > t (US 9,157,497); on an FDM printer make w a whole number of extrusion widths and t a whole number of layers ⚑ [uncertain]. 3) Stiffness rises with thickness cubed and falls with bar length (k = K·G/L with K roughly w·t³/3; US 9,157,497), so the quickest way to make a joint softer and less stressed is a slightly thinner sheet or longer bars; widening the bar mostly adds stiffness. 4) Research prints used PETG at 100% infill on a Prusa i3 MK2 and measured a bending modulus of about 1.4 GPa, lower than typical datasheet values for moulded plastic, so measure or test your own material (Seymour et al. 2021). 5) Prefer tough, springy filaments (PETG, nylon, polypropylene); stiff, brittle PLA is more likely to crack at the ends of the bars ⚑ [uncertain]. 6) Round the inside corners where slots end, since sharp corners concentrate stress ⚑ [uncertain]. 7) To fold further, spread the motion over more bars or several joints side by side, as in BYU's LET arrays and in lattice hinges, where more links in series each twist less (Deferred Procrastination). 8) Don't leave a printed plastic LET folded under load for long; plastics creep and it will take a set (Deferred Procrastination assumes 'no plastic creep for polymers') ⚑ [uncertain]. 9) Print a single test joint and fold it through the full angle a few dozen times before printing the whole project ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: None: it is a cut pattern, not a bought part. Related bought items: laser-cutting sheet stock (plywood, acrylic, polypropylene, spring-steel shim), and for membrane-enhanced joints a thin, strong film or tape bonded across the joint (the M-LET paper used metallic glass; the related lattice-hinge write-up suggests gluing 'a thinner material across the inside of the hinge to prevent expansion'; Deferred Procrastination) ⚑ [uncertain] (for suitable hobby films). *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Joint stiffness: torque T = k_eq × angle (in radians). For a symmetric outside LET joint, k_eq = 2·kT·kB / (kT + 2·kB), where kT is one torsion bar's stiffness and kB one connecting piece's bending stiffness; if the connecting pieces are much stiffer, k_eq = kT, and each bar twists only half the joint angle, 'also reducing the stress by half' (US 9,157,497, eqs. 1-4).
   - Inside LET joint: 1/k_eq = 1/(k1k5/(k1+k5) + k2k6/(k2+k6)) + 1/k9 + 1/(k3k7/(k3+k7) + k4k8/(k4+k8)); with rigid connecting pieces and equal bars it also reduces to k_eq = kT (US 9,157,497, eqs. 5-7; Seymour et al. 2021, eq. 1).
@@ -885,9 +1013,9 @@
   - Tiny torsional hinges in MEMS chips, one of the target uses named by BYU (BYU Technology Transfer)
 - **when_to_use**: Use a LET joint when you want a hinge in a flat part made from one sheet, with no pins, no assembly and no rubbing, and need it to turn through a large angle in a material that won't bend much on its own, such as plywood, acrylic, sheet metal or a printed plate (BYU Technology Transfer; US 9,157,497). It suits flat-pack and fold-up furniture, pop-up and origami-inspired mechanisms, deployable structures, toys and demonstrators, and small or micro devices where pin hinges are impractical. It is a good choice when off-axis stiffness is 'not as critical' (Jacobsen et al. 2009 abstract); with an added membrane it can also locate more accurately, and an outside LET joint has been used for high-precision positioning in National Ignition Facility target shrouds (Chen, Magleby and Howell 2018).
 - **when_not_to_use**: Avoid it where the hinge must carry large pushes, pulls or sideways loads, or must keep an exact pivot line (use a pin hinge, a flexure pivot such as a cross-axis pivot, or a membrane-enhanced LET), where it must hold a folded position without springing back (add a latch, detent or glue), where it must seal, or in a thin, flexible sheet that can simply bend (a plain living hinge or thin-web flexure is simpler). For a gentle curve rather than a sharp fold, a kerf-bending or lattice pattern spreads the bend better. If you plan to sell products using BYU's LET designs, check the patents first: US 9,157,497 covers the LET joint, and BYU's Printables files for its LET arrays are licensed for non-commercial use and state the design is protected under US patents 11852210 and 11549563.
-- **environment_limits**: The joint only springs back fully while the twisting stress stays below the material's yield point; beyond it the joint takes a permanent set and fatigues quickly (Deferred Procrastination). Metal and Nitinol joints are the most durable (Seymour et al. 2021; US 9,157,497). *(unverified parts omitted)*
+- **environment_limits**: The joint only springs back fully while the twisting stress stays below the material's yield point; beyond it the joint takes a permanent set and fatigues quickly (Deferred Procrastination). Plastic (including printed) joints creep if held folded under load and slowly lose their springback ⚑ [uncertain]; acrylic is brittle, and the heat of laser cutting may change its properties (Deferred Procrastination, as a possible explanation for early breakage). Plywood joints may stiffen, loosen or crack with changes in humidity ⚑ [uncertain]. Metal and Nitinol joints are the most durable (Seymour et al. 2021; US 9,157,497). *(⚑ parts need confirming)*
 - **safety_notes**: A folded LET structure stores spring energy and snaps back toward flat when released (US 9,157,497), so keep fingers and faces clear when folding large or steel ones. Brittle sheets such as acrylic can snap during bending (Deferred Procrastination) and leave sharp edges; laser-cut or stamped steel edges are sharp. Otherwise none known.
-- **common_failures**: Torsion bars crack or snap because they are too short, too thick or too few for the fold angle, or the material is brittle (Deferred Procrastination: acrylic test hinges broke before 90° except the one with the most links); fix by using longer or thinner bars, more bars in series, or a tougher material. The joint stretches, squashes or twists sideways under loads other than a pure turning moment (parasitic motion; Chen, Magleby and Howell 2018); fix with a membrane, better load paths or bracing. The hinge line wanders because the centre of rotation shifts as it bends (Seymour et al. 2021). Real stiffness differs from the model because printed or laser-cut material properties differ from datasheets and the laser kerf is ignored (Seymour et al. 2021; Deferred Procrastination). *(unverified parts omitted)*
+- **common_failures**: Torsion bars crack or snap because they are too short, too thick or too few for the fold angle, or the material is brittle (Deferred Procrastination: acrylic test hinges broke before 90° except the one with the most links); fix by using longer or thinner bars, more bars in series, or a tougher material. The joint takes a permanent set after being over-bent or held folded (Deferred Procrastination) ⚑ [uncertain] (for printed plastics). The joint stretches, squashes or twists sideways under loads other than a pure turning moment (parasitic motion; Chen, Magleby and Howell 2018); fix with a membrane, better load paths or bracing. The hinge line wanders because the centre of rotation shifts as it bends (Seymour et al. 2021). Real stiffness differs from the model because printed or laser-cut material properties differ from datasheets and the laser kerf is ignored (Seymour et al. 2021; Deferred Procrastination). *(⚑ parts need confirming)*
 - **related**: 
   - Living hinge: a thin web that bends instead of twisting; simpler, but needs a flexible material such as polypropylene, and 3D-printed living hinges are mostly for prototypes (Hubs: SLS ones 'typically last around 30-50 cycles')
   - Kerf bending (laser-cut living hinge): arrays of cuts that let a whole panel curve; lattice versions also work by twisting small links
@@ -931,9 +1059,26 @@
   - https://www.hubs.com/knowledge-base/how-design-living-hinges-3d-printing/
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks ⚑ *needs confirming (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks*
+- **tools**: power tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…model has to hold its shape (BYU CMR 'Mini Flex Chair' instructions) [uncertain] (for water jet and stamping)…"*
+- **load_max**: light
+- **usual_process**: laser cut
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, load, making_tips_3d_printing, motion, off_the_shelf_parts, processes, reuse_cycles, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, motion, off_the_shelf_parts, processes, reuse_cycles, tools_needed
 
 ## 175 Rolling-contact joint (CORE, Jacob's-ladder hinge)
 
@@ -954,7 +1099,8 @@
   - double hinge (each block is hinged to the next at either end)
   - ligament joint or crosswise-ligament rolling joint (robot fingers and prosthetic hands)
   - rolling-contact knee or rolling knee joint (prosthetics and braces)
-  - Rubik's Magic mechanism (the puzzle uses the same crossed-strand principle) *(unverified parts omitted)*
+  - Rubik's Magic mechanism (the puzzle uses the same crossed-strand principle)
+  - magic wallet (a two-panel Jacob's ladder) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **family**: compliant mechanisms & flexures
 - **other_families**: hinges & pivots, springs & energy storage, indexing & detents
 - **one_liner**: Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
@@ -979,6 +1125,7 @@
 - **input_output**: not applicable for a plain hinge. In tendon-driven robot fingers a pull on a tendon turns the joint, and optimised non-circular surfaces and pulleys varied the tip speed from near zero to about 4 times the average of a circular joint (PNAS 2026). Back-drivable: yes, it rolls freely both ways
 - **power**: passive (no power needed); robot and prosthetic versions are driven by tendons and motors, but the joint itself needs no power
 - **removability**: removable: straps held by screws, crimps or knots can be undone and re-tensioned (Watt and Pellegrino 2002); versions whose strap tabs are glued, like the printed D-CORE, are semi-permanent (BYU CMR)
+- **reuse_cycles**: many times when the straps are screwed or tied on ⚑ [uncertain]; glued or pressed-in straps may not survive taking apart *(⚑ parts need confirming)*
 - **tools_needed**: Depends on the build: none for a ribbon toy; pliers to press in pins or axles (Printables 'Roll gelenk' model); a screwdriver and crimping tool for wire or band anchors (Watt and Pellegrino 2002); superglue for the tabs of BYU's printed D-CORE
 - **seal**: none
 - **load**: light to medium. Strong when the blocks are pushed together (the curved faces bear on each other) and sideways: printed versions are 'surprisingly stable under sideways loads' (Printables 'Roll gelenk' model, translated), BYU's CORE Bearing has 'high resistance to radial loads', and ETH's Faive robot hand with rolling-contact joints held up to 10 kg in a power grasp (Toshimitsu et al. 2023). Weak in pulling the blocks apart, which is resisted only by the straps (Nature Communications 2018)
@@ -992,12 +1139,14 @@
 
 - **processes**: 
   - 3D print (FDM): blocks with grooves and anchor holes for cord ligaments (robot fingers), or thin-strap layers that are stacked and pinned together (Printables 'Roll gelenk')
+  - 3D print (resin): possible for small precise cams ⚑ [uncertain]
   - laser cut: cams and straps cut as flat layers from sheet, e.g. Teflon sheet (Nature Communications 2018) or the one-sheet D-CORE (BYU CMR)
   - CNC: traditionally machined rolling surfaces (PNAS 2026 notes 3D printing, moulding and machining)
   - woodwork: Jacob's ladder toys from wooden blocks and ribbon
-  - off-the-shelf part: cord, fishing line, wire rope or metal strip for the straps *(unverified parts omitted)*
-- **print_in_place**: partly: printed versions usually need assembly, either stacking printed strap-and-cam layers and pressing in axles (Printables 'Roll gelenk'), folding and gluing a flat D-CORE (BYU CMR), or threading cord ligaments (Laschkewitsch). *(unverified parts omitted)*
-- **making_tips_3d_printing**: Orient the part so the thin straps lie flat and their layers run along the strap, and keep layer seams off the thin bands: the maker of the PETG 'Roll gelenk' model (0.2 mm layers) warns the bands will not last long if seams sit on them (Printables 1039873, translated). Watch that print orientation does not put layer lines across the cord anchors, which weakened anchoring in Laschkewitsch's printed finger joint; he used interference-fit holes to grip nylon monofilament, found finer line slipped, and needed guide rails and end stops to limit rotation. Let thin printed flexures cool fully before flexing them: BYU warns that the thin compliant segments of its CORE Bearing are very susceptible to stress relaxation, especially while warm, and lose their springiness if worked too soon; a standard 0.4 mm nozzle is enough, and printing from the STEP file avoids faceted curves. For BYU's D-CORE, a drop of superglue on each tab keeps the flexures secure. Keep the rolling faces convex so the straps stay taut and the faces keep contact (PNAS 2026). Tough, springy filaments such as PETG are the usual choice for printed straps; For higher loads use cord ligaments (nylon monofilament, Dyneema) or metal bands rather than printed straps. *(unverified parts omitted)*
+  - off-the-shelf part: cord, fishing line, wire rope or metal strip for the straps *(⚑ parts need confirming)*
+- **print_in_place**: partly: printed versions usually need assembly, either stacking printed strap-and-cam layers and pressing in axles (Printables 'Roll gelenk'), folding and gluing a flat D-CORE (BYU CMR), or threading cord ligaments (Laschkewitsch). BYU's CORE Bearing fidget appears to print as one ready-to-use part ⚑ [uncertain] *(⚑ parts need confirming)*
+- **making_tips_3d_printing**: Orient the part so the thin straps lie flat and their layers run along the strap, and keep layer seams off the thin bands: the maker of the PETG 'Roll gelenk' model (0.2 mm layers) warns the bands will not last long if seams sit on them (Printables 1039873, translated). Watch that print orientation does not put layer lines across the cord anchors, which weakened anchoring in Laschkewitsch's printed finger joint; he used interference-fit holes to grip nylon monofilament, found finer line slipped, and needed guide rails and end stops to limit rotation. Give strap anchors a generous rounded fillet where the strap leaves the block, because a sharp corner concentrates stress and starts cracks (Kapy Academy explainer, uncited) ⚑ [uncertain]. Let thin printed flexures cool fully before flexing them: BYU warns that the thin compliant segments of its CORE Bearing are very susceptible to stress relaxation, especially while warm, and lose their springiness if worked too soon; a standard 0.4 mm nozzle is enough, and printing from the STEP file avoids faceted curves. For BYU's D-CORE, a drop of superglue on each tab keeps the flexures secure. Keep the rolling faces convex so the straps stay taut and the faces keep contact (PNAS 2026). Tough, springy filaments such as PETG are the usual choice for printed straps; PLA is stiffer but more brittle and creeps under steady tension (Kapy Academy, uncited) ⚑ [uncertain]. For higher loads use cord ligaments (nylon monofilament, Dyneema) or metal bands rather than printed straps. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: No single catalogue part; builders use: braided UHMWPE fishing line ('Dyneema (brand)'), nylon monofilament fishing line, nylon-coated stainless-steel wire rope with crimped sleeves (ferrules), spring-steel shim or strip for bands ⚑ [uncertain], grosgrain or cotton ribbon for toys ⚑ [uncertain], acetal (Delrin) or PTFE sheet for laser-cut cams, and set screws with lock nuts for tensioning (Watt and Pellegrino 2002). *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Keep straps thin compared with the cam radius: the bending stress in a band wrapped around a radius R is about E x t / (2R) (E = stiffness of the band material, t = band thickness), so stress rises with thickness and falls with radius (Lee and Jung 2012, bending formula); thin straps also cut the joint's stiffness, friction and hysteresis (Nature Communications 2018)
   - Worked example from a tested joint: laser-cut PTFE layers 3.175 mm thick, cam radius 50 mm and strap thickness 0.6 mm, i.e. cam radius about 83 times strap thickness (Nature Communications 2018)
@@ -1012,12 +1161,13 @@
 - **everyday_examples**: 
   - Jacob's ladder toy: wooden blocks joined by crossed ribbons that appear to cascade down (Wikipedia)
   - Rubik's Magic puzzle: tiles joined by crossed strands that fold in two directions (Wikipedia)
-  - Robot fingers and prosthetic knee designs (research and open-source robot hands such as ETH's Faive Hand) *(unverified parts omitted)*
+  - Magic wallet that opens both ways and 'moves' a banknote under its straps ⚑ [uncertain]
+  - Robot fingers and prosthetic knee designs (research and open-source robot hands such as ETH's Faive Hand) *(⚑ parts need confirming)*
 - **when_to_use**: Use a rolling-contact joint when you want a smooth, silent, low-friction hinge with no play and no lubrication, for example robot fingers, prosthetic or exoskeleton knees that should follow a natural moving pivot, animatronic legs, toys and fold-out panels. It suits small, compact joints because the joint is part of the structure itself (Hackaday 2024), it can take large side and radial loads for its size (BYU CMR), and it can be tuned: non-circular faces let you program the path or leverage (PNAS 2026), and stretched straps can add a built-in return spring or several stable positions.
 - **when_not_to_use**: Avoid it where you need a fixed pivot axis, such as a shaft carrying a gear or a pointer that must rotate about one point (BYU CMR); use a pin hinge, knuckle hinge or ball bearing instead. Avoid it where the joint will be pulled apart, since only the straps resist that; a clevis or pin joint is stronger in tension. For simple one-piece printed hinges a living hinge, flexure hinge or print-in-place pin hinge is easier to make. Where cords may stretch or loosen and nobody will re-tension them, a pin joint can be more reliable (ORCA hand paper).
-- **environment_limits**: Printed plastic straps and flexures relax (lose tension) over time, faster when warm; BYU warns its printed CORE Bearing's thin segments are very susceptible to stress relaxation, especially while warm. Cord ligaments can loosen over time (ORCA hand paper). *(unverified parts omitted)*
-- **safety_notes**: Cut metal strip used for bands has very sharp edges (Naked Scientists, on cut tape-measure steel). *(unverified parts omitted)*
-- **common_failures**: Straps or cords slipping at their anchors, especially thin monofilament; fix with interference-fit holes, crimps or clamps (Laschkewitsch). Straps loosening over time, giving play or letting the joint dislocate; add a tensioning screw (Watt and Pellegrino 2002; ORCA hand paper). Thin printed bands cracking at layer seams or where they leave the block; move seams away and round the corners (Printables 'Roll gelenk'; Binding when the rolling profile does not match the strap geometry (Laschkewitsch). Printed flexures losing springiness from stress relaxation if flexed while warm (BYU CORE Bearing). Extra friction and hysteresis when straps are too thick for the cam radius or stretched too much (Nature Communications 2018; PNAS 2026). *(unverified parts omitted)*
+- **environment_limits**: Printed plastic straps and flexures relax (lose tension) over time, faster when warm; BYU warns its printed CORE Bearing's thin segments are very susceptible to stress relaxation, especially while warm. Cord ligaments can loosen over time (ORCA hand paper). Nylon line can absorb water and stretch ⚑ [uncertain]. Grit between the rolling faces would make it rough or skid ⚑ [uncertain]. Metal bands and wires resist creep and heat better than printed plastic straps ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: The rolling faces close together like a pinch point, so keep fingers out of larger joints ⚑ [uncertain]. Cut metal strip used for bands has very sharp edges (Naked Scientists, on cut tape-measure steel). Tensioned wires or bands store energy and can whip if an anchor lets go ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **common_failures**: Straps or cords slipping at their anchors, especially thin monofilament; fix with interference-fit holes, crimps or clamps (Laschkewitsch). Straps loosening over time, giving play or letting the joint dislocate; add a tensioning screw (Watt and Pellegrino 2002; ORCA hand paper). Thin printed bands cracking at layer seams or where they leave the block; move seams away and round the corners (Printables 'Roll gelenk'; Kapy Academy ⚑ [uncertain]). Binding when the rolling profile does not match the strap geometry (Laschkewitsch). Printed flexures losing springiness from stress relaxation if flexed while warm (BYU CORE Bearing). Extra friction and hysteresis when straps are too thick for the cam radius or stretched too much (Nature Communications 2018; PNAS 2026). *(⚑ parts need confirming)*
 - **related**: 
   - Knuckle (butt) hinge or pin-in-hole pivot: a fixed axis and simple to make, but it rubs, needs clearance and so has some play
   - Flexure hinge (notch, leaf-spring or cross-axis pivot): bends instead of rolling; one piece, but limited to small angles and its stiffness rises with angle
@@ -1041,7 +1191,8 @@
   - [Developable Compliant Rolling-Contact Element (D-CORE) (BYU CMR, Printables)](https://www.printables.com/model/598201-developable-compliant-rolling-contact-element-d-co): Printable developable CORE hinge made flat with two mounts; tabs can be secured with superglue; includes background, applications and references. Read through the Printables public API *(licence: CC BY-NC)*
   - [CORE Bearing (BYU CMR, Printables)](https://www.printables.com/model/1752131-core-bearing): Fidget-spinner-like bearing made of three COREs arranged like planet gears, giving rotation with a built-in return spring; designed for a prosthetic knee; printing advice on stress relaxation. Read through the Printables public API; link listed on BYU's Maker Resources page *(licence: CC BY-NC)*
   - [Roll gelenk / rolling contact joints (Studi_Ha, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints): Simplified knee-like rolling-contact joint from stacked PETG layers with thin integral bands and press-in axles; assembly steps explain how the bands wrap the radii; STEP files included (description in German) *(licence: CC BY)*
-  - [Maker Resources (BYU Compliant Mechanisms Research)](https://compliantmechanisms.byu.edu/maker-resources): Index of BYU's free printable compliant mechanisms on Thingiverse and Printables, including the D-CORE and CORE Bearing *(licence: per model (BYU models are CC BY-NC))* *(unverified parts omitted)*
+  - [Jacobs Ladder Toy (Print-in-Place Model) (MeasureOnce, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/510296-jacobs-ladder-toy-print-in-place-model): Print-in-place Jacob's ladder toy with 0.4 mm joint clearance (do not scale); imitates the toy's flipping action, but whether it uses true rolling contact or printed pin joints is not stated ⚑ [uncertain] *(licence: CC BY-NC)*
+  - [Maker Resources (BYU Compliant Mechanisms Research)](https://compliantmechanisms.byu.edu/maker-resources): Index of BYU's free printable compliant mechanisms on Thingiverse and Printables, including the D-CORE and CORE Bearing *(licence: per model (BYU models are CC BY-NC))* *(⚑ parts need confirming)*
 - **diagram_idea**: Side view of two round-ended blocks touching at one point with two crossed straps drawn in contrasting colours (one wrapping over the top of the left block and under the right, the other the reverse), shown in three frames as the right block rolls around the left, with a dot marking how the contact point (the moving pivot) travels.
 - **sources**: 
   - https://www.nature.com/articles/s41467-018-07073-5
@@ -1068,9 +1219,26 @@
   - https://kapycad.com/en/academy/machines/rolling-contact-joint
   - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
 
+### Finder tags
+
+- **connects**: lid, door or cover ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable ⚑ *needs confirming (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched*
+- **clicks**: clicks ⚑ *needs confirming (best guess): the text uses both clicking and silent words*
+- **tools**: crimper, hand tools
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, print_in_place, processes, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, print_in_place, processes, reuse_cycles, safety_notes
 
 ## 176 Mechanical metamaterial mechanism (shear-cell hinge arrays)
 
@@ -1113,7 +1281,7 @@
 - **holding_principle**: 
   - not a holding joint (it moves or passes on motion): it is a one-piece mechanism
   - spring force (a spring or springy part presses it in place): in the door latch, springy cells push the latch bolt out and the handle back (Ion et al. 2016)
-- **input_output**: Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> closing jaws (pliers); one pen's movement -> a copied movement (pantograph). The ratio and path are set by the cell layout. Some input energy goes into bending the hinges and adding cells makes it stiffer, so it needs a noticeable operating force (Ion et al. Back-drivable: yes, it is elastic, but pushing the output along its path does not move the input back along the same path (Ion et al. 2019) *(unverified parts omitted)*
+- **input_output**: Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> closing jaws (pliers); one pen's movement -> a copied movement (pantograph). The ratio and path are set by the cell layout. Some input energy goes into bending the hinges and adding cells makes it stiffer, so it needs a noticeable operating force (Ion et al. 2016); efficiency ⚑ [uncertain]. Back-drivable: yes, it is elastic, but pushing the output along its path does not move the input back along the same path (Ion et al. 2019) *(⚑ parts need confirming)*
 - **power**: passive (no power needed); even the 'digital' versions are powered only by bistable springs that the user re-cocks (HPI 2017; Hackaday 2017)
 - **removability**: permanent: it is a single piece, so there is nothing to take apart
 - **reuse_cycles**: not applicable for assembly (single piece). As a mechanism it can be worked many times if its hinges stay within their elastic range: HPI ran a TPU (NinjaFlex) Jansen walker about 5000 times with a power drill with no visible fatigue (Ion et al. 2016); stiffer ABS copies cracked quickly (ProfHankD, Printables)
@@ -1124,16 +1292,17 @@
 - **play_and_precision**: Play: none, because it has no pins or sliding parts and moves by bending with virtually no friction (Ion et al. 2016). Precision: modest; HPI's physical test mechanisms followed their simulated paths with a mean error of 8.1% (Ion et al. 2019), and very soft TPU versions flop around under load (ProfHankD). Misalignment: forces in unintended directions and out-of-plane buckling must be resisted by padding cells (Ion et al. 2016)
 - **access_needed**: not applicable
 - **materials**: Flexible TPU filaments (NinjaFlex, SemiFlex) work best among common 3D-printing materials, better than PLA and some photo-curing resins; spring steel would be ideal but cannot be printed; for 2D laser-cut versions 3 mm rubber foam worked best, while ABS sheet and acrylic were not compliant enough (Ion et al. 2016). Laser-cut acrylic links with TPU hinges were used in Ion et al. 2019. PLA can work if stiff and flexible regions are designed so bending does not overstress their joints (ProfHankD HingePliers). Laser-cut PTFE (Teflon) sheet was used for rolling-contact lattices (Nature Communications 2018)
-- **maker_difficulty**: 2016; Ion et al. 2019) *(unverified parts omitted)*
+- **maker_difficulty**: moderate to hard: it prints in one piece with no assembly, but getting a working cell layout is unintuitive, thin hinges need a well-tuned printer, and flexible TPU is harder to print than PLA ⚑ [uncertain]; start from HPI's editor and published models (Ion et al. 2016; Ion et al. 2019) *(⚑ parts need confirming)*
 
 ### Making it
 
 - **processes**: 
   - 3D print (FDM): one-piece mechanisms in flexible TPU, printed on an Ultimaker 2 in HPI's work (Ion et al. 2016)
-  - laser cut: flat (2D) versions from 3 mm rubber foam (Ion et al. 2016), or acrylic links joined by printed TPU hinges (Ion et al. 2019) *(unverified parts omitted)*
+  - 3D print (resin): possible, but some photo-curing resins are too brittle (Ion et al. 2016); flexible resins may work ⚑ [uncertain]
+  - laser cut: flat (2D) versions from 3 mm rubber foam (Ion et al. 2016), or acrylic links joined by printed TPU hinges (Ion et al. 2019) *(⚑ parts need confirming)*
 - **print_in_place**: yes: the whole mechanism prints as one working piece with no assembly (Ion et al. 2016); mechanisms that need continuous rotation, such as a walker, need a separate axle added
-- **making_tips_3d_printing**: Use a flexible, springy filament: HPI printed all their demos in TPU (NinjaFlex) and found TPU works better than PLA or brittle resins, while ABS and acrylic sheet were too stiff (Ion et al. 2016). Shear cells work best when their internal hinges are thin, which needs a printer that can print fine detail reliably (Ion et al. 2016). Do not rely on a single thin hinge between two cells: it rips off easily, so build hinges as arrays of shear cells, and add a border of rigid cells around hinge arrays so all the little hinges share the load (a stretched array without the border broke at its central hinge) (Ion et al. 2016). Add padding cells around the moving part to stop the block buckling out of plane and to resist pushes in the wrong direction (Ion et al. 2016). Only bend the cells as far as they fully spring back: kept within its elastic range, HPI's TPU Jansen walker survived about 5000 cycles (Ion et al. 2016). If you use stiff PLA instead, design stiff regions and a separate springy flexure so bending never loads the joints between them: ProfHankD's PLA HingePliers print without supports in under an hour, use a 0.75 mm gap between the interlocking hinge surfaces, 0.25 mm layers and at least 25% infill, and warn that some slicers can break the thin spring into fragments, while his ABS copy of HPI's cell pattern cracked and his NinjaFlex version was too floppy (Printables 282608 and 282587). *(unverified parts omitted)*
-- **off_the_shelf_parts**: None needed; it is one printed part. Materials to search for: flexible TPU filament (e.g. 2016). *(unverified parts omitted)*
+- **making_tips_3d_printing**: Use a flexible, springy filament: HPI printed all their demos in TPU (NinjaFlex) and found TPU works better than PLA or brittle resins, while ABS and acrylic sheet were too stiff (Ion et al. 2016). Shear cells work best when their internal hinges are thin, which needs a printer that can print fine detail reliably (Ion et al. 2016). Do not rely on a single thin hinge between two cells: it rips off easily, so build hinges as arrays of shear cells, and add a border of rigid cells around hinge arrays so all the little hinges share the load (a stretched array without the border broke at its central hinge) (Ion et al. 2016). Add padding cells around the moving part to stop the block buckling out of plane and to resist pushes in the wrong direction (Ion et al. 2016). Only bend the cells as far as they fully spring back: kept within its elastic range, HPI's TPU Jansen walker survived about 5000 cycles (Ion et al. 2016). If you use stiff PLA instead, design stiff regions and a separate springy flexure so bending never loads the joints between them: ProfHankD's PLA HingePliers print without supports in under an hour, use a 0.75 mm gap between the interlocking hinge surfaces, 0.25 mm layers and at least 25% infill, and warn that some slicers can break the thin spring into fragments, while his ABS copy of HPI's cell pattern cracked and his NinjaFlex version was too floppy (Printables 282608 and 282587). Check your slicer preview to make sure thin hinge walls are actually printed ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: None needed; it is one printed part. Materials to search for: flexible TPU filament (e.g. 'NinjaFlex (brand)', 'SemiFlex (brand)', Shore 85A to 95A TPU ⚑ [uncertain]), rubber or EVA foam sheet for laser cutting ⚑ [uncertain], and a separate axle or shaft if continuous rotation is needed (Ion et al. 2016). *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Rigid cells are made rigid by one diagonal brace; a second diagonal is possible but not necessary (Ion et al. 2016)
   - Shear cells keep opposite edges parallel as they lean, and rigid cells also keep their angles, so a whole mechanism can be analysed by following these two constraints across the grid (Ion et al. 2019)
@@ -1152,7 +1321,7 @@
   - Auxetic 'rotating squares' pads and sheets that get wider when stretched (a related metamaterial, not a mechanism) (Printables 850437)
 - **when_to_use**: Use a metamaterial mechanism when you want a whole mechanism, such as a latch, gripper, lever pair, linkage or toy, printed as one piece with no assembly, no pins, no lubrication and no play, and when the forces are small to moderate. It suits flexible-filament printing, soft robots and interactive objects, and it is a good way to explore how hinges and linkages behave, especially with HPI's editor (Ion et al. 2016).
 - **when_not_to_use**: Avoid it for continuous rotation (use a shaft and bearing or gears), for heavy loads or anything security-related (use a metal latch or lock), for precise positioning (use a flexure stage or pinned linkage), and for mechanisms that must move with a very light touch, since adding cells makes it stiffer (Ion et al. 2016). If you only need one hinge, a living hinge or flexure hinge is simpler; if you need a springy one-piece tool in PLA, a conventional compliant mechanism with thicker links and one flexure may work better (ProfHankD).
-- **environment_limits**: Thin hinges fatigue if bent beyond the elastic range (Ion et al. 2016). Stiff PLA or ABS versions crack at hinge points if over-flexed (ProfHankD). *(unverified parts omitted)*
+- **environment_limits**: Flexible TPU parts are soft and lose stiffness when warm; the maker cannot rely on them for load-bearing parts in hot places ⚑ [uncertain]. Thin hinges fatigue if bent beyond the elastic range (Ion et al. 2016). Plastic springs relax under steady load, so a latch held open for long periods may weaken ⚑ [uncertain]. Stiff PLA or ABS versions crack at hinge points if over-flexed (ProfHankD). *(⚑ parts need confirming)*
 - **safety_notes**: None known for small demos. Do not use a printed plastic latch or combination lock to secure anything valuable; a Hackaday commenter noted a safe is 'perhaps the worst application for plastics' (Hackaday 2017).
 - **common_failures**: A single thin hinge or the central hinge of an array tearing when stretched; fix with hinge arrays and rigid-cell borders (Ion et al. 2016). The block buckling out of plane or moving the wrong way; add padding and support cells (Ion et al. 2016). Stiff materials (ABS, acrylic) cracking or not moving enough, and very soft TPU flopping so the rigid parts are not really rigid (Ion et al. 2016; ProfHankD). Thin hinges printing badly on a low-resolution printer (Ion et al. 2016), or a slicer breaking thin springs into fragments (ProfHankD). The real part moving differently from the simulation, by about 8% on average in HPI's tests (Ion et al. 2019).
 - **related**: 
@@ -1174,9 +1343,12 @@
   - [3D Printed Door Latch Has One Moving Part - Itself! (Hackaday, 2016)](https://hackaday.com/2016/09/14/3d-printed-door-latch-has-one-moving-part-itself/): Article with pictures of the TPU door latch and other demos, plus reader discussion of durability and practicality *(licence: link only)*
   - [Compliant rolling-contact architected materials for shape reconfigurability (Nature Communications, 2018)](https://www.nature.com/articles/s41467-018-07073-5): Open-access paper with figures comparing metamaterial building blocks (sharp-tip hinges, notch flexures, buckled beams, creases) and lattices made of rolling-contact joints, with supplementary movies *(licence: CC BY 4.0)*
 - **make_it_yourself**: 
+  - [Metamaterial Mechanisms Editor (online)](https://jfrohnhofen.github.io/metamaterial-mechanisms/): HPI's browser-based voxel editor for placing rigid and shear cells; the force simulation only works in the downloadable Windows version (per the project README) *(licence: not stated (no licence file found in the repository) ⚑ [uncertain])*
+  - [metamaterial-mechanisms editor source code README (GitHub, jfrohnhofen)](https://raw.githubusercontent.com/jfrohnhofen/metamaterial-mechanisms/master/README.md): Install instructions for the editor (node.js) and the simulation (Rhino 5, Grasshopper and Karamba on Windows); links to the Thingiverse collection of printable models *(licence: not stated ⚑ [uncertain])*
+  - [metamaterial DOOR LATCH by HassoPlattnerInstitute_HCI (Thingiverse) (title from search results; page opened but its content did not load for the research tool)](https://www.thingiverse.com/thing:2082638): Printable files for HPI's one-piece metamaterial door latch *(licence: ⚑ [uncertain])*
   - [HingePliers (a metamaterials experiment) (ProfHankD, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment): One-piece PLA long-nose pliers with a print-in-place hinge and built-in spring, plus notes on why ABS and NinjaFlex copies of HPI's cell pattern failed; print settings included *(licence: CC BY)*
   - [Mini HingePliers (a metamaterials experiment) (ProfHankD, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/282587-mini-hingepliers-a-metamaterials-experiment): Smaller, beefier one-piece version of the HingePliers; prints without supports *(licence: CC BY)*
-  - [Auxetic structure | Metamaterial (Filip Zitko, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/850437-auxetic-structure-metamaterial): Demonstration samples of an auxetic metamaterial that gets wider when pulled; the star sample needs flexible filament. A related metamaterial rather than a mechanism *(licence: CC BY)* *(unverified parts omitted)*
+  - [Auxetic structure | Metamaterial (Filip Zitko, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/850437-auxetic-structure-metamaterial): Demonstration samples of an auxetic metamaterial that gets wider when pulled; the star sample needs flexible filament. A related metamaterial rather than a mechanism *(licence: CC BY)* *(⚑ parts need confirming)*
 - **diagram_idea**: A 5 x 5 grid of square cells in which most cells have a diagonal brace (rigid) and one column has none (shear cells), shown before and after a push: the unbraced column leans into parallelograms and the braced block beside it rotates like a lever about the column, with a second frame showing the door latch layout where a turning handle shears the centre column and pulls the bolt in.
 - **sources**: 
   - https://hpi.de/baudisch/projects/metamaterial-mechanisms.html
@@ -1198,9 +1370,26 @@
   - https://en.wikipedia.org/wiki/Mechanical_metamaterial
   - https://www.nature.com/articles/s41467-018-07073-5
 
+### Finder tags
+
+- **connects**: lid, door or cover ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning ⚑ *needs confirming (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."*
+- **motion_out**: not applicable ⚑ *needs confirming (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."*
+- **shaft_layout**: not applicable ⚑ *needs confirming (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."*
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, power tools, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, make_it_yourself, maker_difficulty, making_tips_3d_printing, off_the_shelf_parts, processes
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, make_it_yourself, maker_difficulty, making_tips_3d_printing, off_the_shelf_parts, processes
 
 ## 177 Tape-spring hinge (measuring-tape fold)
 
@@ -1218,7 +1407,8 @@
   - composite tape-spring hinge (glass, Kevlar or carbon fibre versions)
   - bistable tape spring (a version that stays either rolled up or straight)
   - snap bracelet or slap bracelet (the bistable steel-strip toy that uses the same effect)
-  - tape measure antenna (radio antenna elements cut from a tape-measure blade) *(unverified parts omitted)*
+  - tape measure antenna (radio antenna elements cut from a tape-measure blade)
+  - Carpentier joint (European aerospace name for tape-spring hinges) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **family**: compliant mechanisms & flexures
 - **other_families**: hinges & pivots, springs & energy storage, locks, latches & catches
 - **one_liner**: A strip with a curved cross-section, like a tape-measure blade, clamped between two parts so that it folds by buckling into a kink and then unfolds itself and locks straight, giving a hinge with no pin, no friction and no latch.
@@ -1236,17 +1426,20 @@
 - **degrees_of_freedom**: 1 intended (folding about the kink). When folded the hinge is very floppy in other directions too (very low stiffness in the folded configuration, Watt and Pellegrino 2002); when straight it is stiff in all directions
 - **special_behaviour**: 
   - over-centre (snaps past a point and stays): once near straight the tape snaps back into its curved section and locks straight without any latch; folding it again needs a push past the peak (buckling) moment (Seffen and Pellegrino 1997)
-  - self-aligning or self-centring: elastic latching gives a highly repeatable, accurate deployed position (Watt and Pellegrino 2002) *(unverified parts omitted)*
+  - self-aligning or self-centring: elastic latching gives a highly repeatable, accurate deployed position (Watt and Pellegrino 2002)
+  - fail-safe or breakaway: an overload buckles the tape into a fold instead of breaking the parts, as long as the tape stays elastic ⚑ [uncertain] *(⚑ parts need confirming)*
 - **holding_principle**: spring force (a spring or springy part presses it in place): the curved section's own stiffness holds the hinge straight, and the stored bending energy drives it there
 - **input_output**: not applicable
 - **power**: passive (no power needed). Space versions are held folded by a restraint and then released, e.g. the ISIS CubeSat antenna uses a thermal knife that burns through a wire (cubesatshop.com); power is only needed for that release device, and once released the tape deploys on its own
 - **removability**: removable: the tapes are clamped or bolted to the parts (e.g. aluminium clamp blocks in the TSR hinge, Watt and Pellegrino 2002) and can be unscrewed
+- **reuse_cycles**: many times, as long as the fold never overstresses the tape; a tape that overshoots and yields is permanently damaged (Seffen and Pellegrino 1997); no cycle count found ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver for clamp screws ⚑ [uncertain] *(⚑ parts need confirming)*
 - **seal**: none
 - **load**: light: it locks strongly for its weight but deploys gently; a 135 mm long TSR hinge with one pair of 25.4 mm wide steel tapes needed only 0.1 to 0.3 N m to deploy but locked against 13 N m (Watt and Pellegrino 2002). Strong along the tape and stiff while straight; it resists bending that puts the tape's edges in tension (opposite-sense bending) better than bending the other way (equal-sense bending), which is softer and buckles sooner into a twisted fold (Seffen and Pellegrino 1997); once folded it carries almost no load
 - **adjustable**: no after assembly; the deployment and locking moments are set by the tape size, the number of stacked tapes (moments rise roughly in proportion) and the spacing between the tapes (Watt and Pellegrino 2002)
 - **play_and_precision**: Play: none; tape-spring hinges have zero friction and backlash. Repeatability: elastic latching gives highly repeatable and accurate positioning (Watt and Pellegrino 2002). Misalignment: tolerates little while folded because it is so floppy, which makes deployment paths uncertain; on latching the panel can rebound and re-buckle the tapes (twice in an undamped test) before finally locking (Watt and Pellegrino 2002)
 - **access_needed**: not applicable: the tape is clamped to both parts before use
-- **materials**: Steel tape-measure blade: the TSR hinge used 'Contractor Grade' steel tape 25.4 mm wide, 0.1 mm thick with a 15 mm cross-curve radius (Watt and Pellegrino 2002). Heat-treated beryllium copper (CuBe) sheet 0.1 mm thick (Seffen and Pellegrino 1997). Fibre composites (glass, Kevlar, carbon) for space hinges and booms (Roccor video; Kwok and Pellegrino). Plastics such as LDPE can form tape springs but relax during storage and deploy slowly (Kwok and Pellegrino). *(unverified parts omitted)*
+- **materials**: Steel tape-measure blade: the TSR hinge used 'Contractor Grade' steel tape 25.4 mm wide, 0.1 mm thick with a 15 mm cross-curve radius (Watt and Pellegrino 2002). Heat-treated beryllium copper (CuBe) sheet 0.1 mm thick (Seffen and Pellegrino 1997). Fibre composites (glass, Kevlar, carbon) for space hinges and booms (Roccor video; Kwok and Pellegrino). Plastics such as LDPE can form tape springs but relax during storage and deploy slowly (Kwok and Pellegrino). 3D-printed plastics are suited to the clamps and brackets rather than the spring itself ⚑ [uncertain] *(⚑ parts need confirming)*
 - **maker_difficulty**: easy to moderate: cut a strip from an old steel tape measure and clamp its ends to printed, wooden or metal brackets; the tricky parts are covering the razor-sharp cut edges (Naked Scientists), leaving enough free length so the fold does not damage the tape near the clamps (Watt and Pellegrino 2002), and softening the snap on latching
 
 ### Making it
@@ -1254,10 +1447,12 @@
 - **processes**: 
   - off-the-shelf part: a strip cut from a steel tape-measure blade (Watt and Pellegrino 2002; Naked Scientists)
   - 3D print (FDM): clamps, brackets and couplers that hold tape-measure strips, as in printed tape-measure antenna couplers (Becky Stern, Printables)
+  - sheet metal: beryllium copper or spring-steel strip formed to a curved section (Seffen and Pellegrino 1997); forming the curve at home is untested ⚑ [uncertain]
   - CNC: machined clamp blocks (aluminium blocks in the TSR hinge, Watt and Pellegrino 2002)
-  - composite layup: glass, Kevlar or carbon-fibre tape springs for space use (Roccor video) [advanced] *(unverified parts omitted)*
-- **making_tips_3d_printing**: Print the clamps and brackets, not the spring: use a steel tape-measure blade for the tape itself and print blocks that grip each end. Watt and Pellegrino sized their hinge so the tapes would not be damaged during folding, with 88 mm of free tape length for 25.4 mm wide tapes and a smallest workable hinge of 106 x 44 x 21 mm. Clamp two tapes back to back with their curves facing opposite ways so the hinge behaves the same in both fold directions and does not overshoot when it latches (Seffen and Pellegrino 1997). Becky Stern's printed tape-measure antenna couplers were printed at 20% infill (Printables 540996). Avoid printing the spring itself from PLA or other plastics that creep; plastic tape springs lose force during long storage, faster when warm (Kwok and Pellegrino); *(unverified parts omitted)*
-- **off_the_shelf_parts**: 'Roccor (brand)'); CubeSat deployable antenna systems with tape-spring elements (e.g. 'ISISPACE (brand)'); sound-damping tape (e.g. '3M 434 (brand)') to soften latching (Watt and Pellegrino 2002). *(unverified parts omitted)*
+  - composite layup: glass, Kevlar or carbon-fibre tape springs for space use (Roccor video) [advanced] *(⚑ parts need confirming)*
+- **print_in_place**: no: the springy strip is normally a metal tape-measure blade clamped into separate brackets; a printed plastic strip would relax and lose its snap over time (Kwok and Pellegrino, on polymer tape springs); not tested for printed plastics ⚑ [uncertain] *(⚑ parts need confirming)*
+- **making_tips_3d_printing**: Print the clamps and brackets, not the spring: use a steel tape-measure blade for the tape itself and print blocks that grip each end. Shape the clamping faces to match the tape's cross-curve so the curve is not flattened where it is held ⚑ [uncertain], and leave enough free tape between the clamps for the kink to form without reaching them; Watt and Pellegrino sized their hinge so the tapes would not be damaged during folding, with 88 mm of free tape length for 25.4 mm wide tapes and a smallest workable hinge of 106 x 44 x 21 mm. Clamp two tapes back to back with their curves facing opposite ways so the hinge behaves the same in both fold directions and does not overshoot when it latches (Seffen and Pellegrino 1997). Expect a sharp snap on latching: in tests the undamped hinge gave peaks of about 150 g, reduced to about 25 g by sticking sound-damping tape (3M 434) to both sides of each tape (Watt and Pellegrino 2002); a strip of damping or foam tape is an easy maker version ⚑ [uncertain]. Becky Stern's printed tape-measure antenna couplers were printed at 20% infill (Printables 540996). Avoid printing the spring itself from PLA or other plastics that creep; plastic tape springs lose force during long storage, faster when warm (Kwok and Pellegrino); PLA was not tested ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Steel tape measure ('carpenter's tape', 25 mm or 1 in blade; the TSR hinge used 'Contractor Grade' tape); beryllium copper strip (e.g. alloy C17200) ⚑ [uncertain]; composite tape-spring hinges from space suppliers (e.g. 'Roccor (brand)'); CubeSat deployable antenna systems with tape-spring elements (e.g. 'ISISPACE (brand)'); sound-damping tape (e.g. '3M 434 (brand)') to soften latching (Watt and Pellegrino 2002). *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - To keep the fold elastic (no permanent kink), the tape's cross-curve radius R divided by its thickness t must be at least E / (yield stress x (1 + Poisson's ratio)); for heat-treated beryllium copper this means R/t of at least 85.6 (Seffen and Pellegrino 1997). For comparison, the steel tape-measure blade used by Watt and Pellegrino (R = 15 mm, t = 0.1 mm) has R/t = 150
   - The kink's lengthwise radius is about equal to the tape's cross-curve radius R, so the fold is roughly a cylinder of radius R (Seffen and Pellegrino 1997)
@@ -1277,7 +1472,7 @@
   - Tape-measure radio antennas for amateur satellite reception, and tape-spring antennas on CubeSats (Printables 540996; cubesatshop.com ISIS antenna)
 - **when_to_use**: Use a tape-spring hinge when something should fold flat for storage and then open by itself and lock straight with no latch, pin or motor: fold-out antennas, booms, panels, flaps, legs, camera or sensor poles, toys and kinetic art. It is light, cheap, has zero friction and backlash, needs no lubrication, and has no moving parts to jam after long storage (Watt and Pellegrino 2002); because it deploys on its own stored strain energy it needs no motor (Communications Engineering 2024).
 - **when_not_to_use**: Avoid it where the folded part must be held in a controlled position or carry load while folded (it is very floppy when folded; Watt and Pellegrino 2002); use a detent hinge, friction hinge or knuckle hinge instead. Avoid it where a heavy load could buckle it when it should stay straight; add a locking pin or over-centre lock. Avoid it where a sudden snap would be dangerous or damaging, or where the hinge must move slowly and smoothly under control; use a damped or self-closing spring hinge.
-- **environment_limits**: Polymer and composite tape springs relax during storage, so the energy available to deploy drops; deployment slows with longer storage and higher temperature, and in severe cases they stop deploying on their own (Kwok and Pellegrino). *(unverified parts omitted)*
+- **environment_limits**: Polymer and composite tape springs relax during storage, so the energy available to deploy drops; deployment slows with longer storage and higher temperature, and in severe cases they stop deploying on their own (Kwok and Pellegrino). Temperature also matters for composite booms: one segment of the Mars Express MARSIS fibreglass-and-Kevlar radar boom deployed but did not lock until the spacecraft was turned to warm it in sunlight (ESA 2005) ⚑ [uncertain whether its hinges were tape springs]. Steel tape blades can rust where the coating is cut ⚑ [uncertain]. Vibration could unlatch a lightly locked hinge ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked Scientists), and note that slap bracelets were recalled because the steel band could pierce its cover and cut (Wikipedia, Slap bracelet). A folded tape spring stores energy and snaps open suddenly; latching shocks reached about 150 g on an undamped test hinge (Watt and Pellegrino 2002), so keep faces and fingers clear of larger ones.
 - **common_failures**: Permanent kink or weakened snap when the tape is folded too tightly or overshoots, because it yields (Seffen and Pellegrino 1997); choose a large enough R/t and add end stops. Rebounding and re-buckling instead of locking on the first try; mount tapes in opposed pairs and add damping tape (Seffen and Pellegrino 1997; Watt and Pellegrino 2002). Tapes damaged near the clamps when the free length is too short (Watt and Pellegrino 2002). Loss of deployment force after long storage in plastic or composite tapes (Kwok and Pellegrino). Buckling sideways into a twisted fold when bent the 'wrong' (equal-sense) way (Seffen and Pellegrino 1997).
 - **related**: 
@@ -1301,7 +1496,8 @@
 - **make_it_yourself**: 
   - [Snap bracelets from tape measures - Bistable structures (The Naked Scientists kitchen-science experiment)](https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures): Step-by-step home experiment turning a piece of old tape measure into a bistable snap bracelet, with a plain explanation of why the curved tape snaps and a safety warning about sharp edges *(licence: link only)*
   - [Tape Measure Yagi Antenna (Becky Stern, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/540996-tape-measure-yagi-antenna): Printed couplers that clamp tape-measure elements to a PVC mast; a good template for printing clamps that hold tape-spring strips (tutorial linked from the model) *(licence: CC BY-SA)*
-  - [120deg tape measure noaa satellite antenna (killowatt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna): Portable printed antenna mount that holds tape-measure elements for receiving NOAA weather satellites *(licence: CC BY)* *(unverified parts omitted)*
+  - [120deg tape measure noaa satellite antenna (killowatt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna): Portable printed antenna mount that holds tape-measure elements for receiving NOAA weather satellites *(licence: CC BY)*
+  - [Tape-spring hinge interactive calculator (Firgelli Automations)](https://www.firgelliauto.com/blogs/mechanisms/tape-spring-hinge): Browser calculator for tape radius, arc angle, thickness and number of tapes (vendor tool, uncited; check its results against Seffen and Pellegrino) ⚑ [uncertain] *(licence: link only)* *(⚑ parts need confirming)*
 - **diagram_idea**: Three frames of a curved strip clamped between two blocks: straight with its curved cross-section shown as an inset arc, then flattening in the middle at the peak moment, then folded with a short kink of radius R while the rest stays straight, beside a small moment-versus-angle graph showing the high peak and the low flat folding moment, with an arrow showing the snap back to straight.
 - **sources**: 
   - http://www.its.caltech.edu/~sslab/PUBLICATIONS/Tape-spring%20rolling%20hinges%202002.pdf
@@ -1321,9 +1517,26 @@
   - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: lid, door or cover ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable ⚑ *needs confirming (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched*
+- **clicks**: not applicable
+- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws [uncertain]…"*
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, print_in_place, processes, reuse_cycles, special_behaviour, tools_needed
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, print_in_place, processes, reuse_cycles, special_behaviour, tools_needed
 
 ## 178 Origami mechanisms (waterbomb, Kresling, thick-panel origami)
 
@@ -1344,7 +1557,8 @@
   - Miura fold, Miura-ori (Wikipedia 'Miura fold')
   - Yoshimura pattern (diamond-shaped buckling pattern of a squashed thin cylinder; Wikipedia 'Yoshimura buckling')
   - square twist and flasher (other named fold patterns used as mechanisms; Morgan et al. 2016; Ye et al. 2023)
-  - print-on-fabric origami, multiplanar origami (3D-printing methods; Printables; BYU CREATE Lab) *(unverified parts omitted)*
+  - print-on-fabric origami, multiplanar origami (3D-printing methods; Printables; BYU CREATE Lab)
+  - magic ball, waterbomb tube or 'origami ball' (waterbomb tessellation rolled into a tube or ball) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **family**: compliant mechanisms & flexures
 - **other_families**: hinges & pivots, motion conversion, springs & energy storage, print-in-place & 3D-printing joints
 - **one_liner**: A sheet or set of panels joined along a planned pattern of fold lines, so that it moves in one controlled way: folding flat, expanding, or shortening while it twists.
@@ -1356,7 +1570,8 @@
 - **job**: 
   - let it move (turn, slide or bend): panels swing about fold lines so a flat sheet folds up, opens out or changes shape in one planned way
   - change the kind of motion: a Kresling tube turns a push along its length into a twist, and a twist into a change of length (Kidambi and Wang 2020; ORI*lab)
-  - store energy: bistable patterns such as the Kresling tube or a paper bag snap between two stable shapes and push back like a spring (Wikipedia 'Rigid origami') *(unverified parts omitted)*
+  - store energy: bistable patterns such as the Kresling tube or a paper bag snap between two stable shapes and push back like a spring (Wikipedia 'Rigid origami')
+  - click into set positions: a bistable pattern rests only in its folded or its opened state ⚑ [uncertain for patterns other than Kresling and the paper bag] *(⚑ parts need confirming)*
 - **motion**: multiple: every fold is a small bend (flex) or pivot (rotate), and together they make the whole sheet fold flat, expand, or shorten while it twists; a single fold can travel through up to 180 degrees from flat to fully folded, and some thick-panel methods keep that full 180 degrees (Morgan et al. 2016)
 - **degrees_of_freedom**: Often 1 by design: a Miura fold opens and closes in one motion (Wikipedia 'Miura fold'), and a thick-panel waterbomb has one degree of freedom while the paper version has several (Liu et al. 2021). A Kresling tube moves mainly along one path, shortening as it twists, but it can also wobble sideways; research models treat it with six degrees of freedom (Kidambi and Wang 2020). Complex paper patterns with many creases can have many degrees of freedom and need guiding.
 - **special_behaviour**: 
@@ -1369,29 +1584,31 @@
   - spring force (a spring or springy part presses it in place): bent panels and creases push bistable patterns such as the Kresling tube into one of their stable shapes (Kidambi and Wang 2020)
   - material bond (glue, solvent or melting): in printed and thick-panel versions the panels are fused or glued to a shared flexible layer (fabric, nylon mesh or TPU) that forms every hinge (Printables 'Popup print on fabric'; Instructables BYU CREATE Lab; Ye et al. 2023)
   - shape (the parts interlock; form-fit): self-locking designs add printed stoppers or latches (Hackaday 2024)
-- **input_output**: Mostly used as a joint rather than a transmission. Waterbomb gripper: tendon pull from one motor -> four fingers close together (Liu et al. 2021). Miura sheet: pulling two opposite corners -> the whole sheet unfolds in both directions at once (Wikipedia 'Miura fold'). Liu et al. 2021). *(unverified parts omitted)*
-- **power**: passive (no power needed). Robot versions add power to fold them: a motor pulling tendons (Liu et al. 2021) or vacuum pumped out of an outer skin (Botrić and Gregov 2026). *(unverified parts omitted)*
+- **input_output**: Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the axis -> twist about the same axis (in line), and twisting it back-drives the length change (back-drivable: yes); the ratio depends on the crease geometry ⚑ [uncertain]. Waterbomb gripper: tendon pull from one motor -> four fingers close together (Liu et al. 2021). Miura sheet: pulling two opposite corners -> the whole sheet unfolds in both directions at once (Wikipedia 'Miura fold'). Efficiency: not measured in the sources found ⚑ [uncertain]; panels that must bend (Kresling) lose some energy, and printed TPU folds showed hysteresis (slightly different paths opening and closing; Liu et al. 2021). *(⚑ parts need confirming)*
+- **power**: passive (no power needed). Robot versions add power to fold them: a motor pulling tendons (Liu et al. 2021) or vacuum pumped out of an outer skin (Botrić and Gregov 2026). If that power is lost, the mechanism relaxes towards whatever shape its springy folds prefer, usually its as-made shape ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **removability**: permanent: the folds are part of the sheet, so it is not taken apart; the finished folded piece is fixed to other parts with ordinary fasteners. Thick-panel versions built with separate pin hinges can be unpinned.
 - **reuse_cycles**: once (it is one folded piece, not something you take apart). What matters instead is how many times it can fold: paper origami is fragile and fatigues with repeated folding (Liu et al. 2021); 3D-printed thin-plastic living hinges usually last only a few cycles (Hubs); PLA panels wrapped in TPU survived more than 100 fold-unfold cycles without the layers separating (Ye et al. 2023).
 - **tools_needed**: none to fold by hand. Making it: a ruler and a scoring tool or craft knife for card or plastic sheet; a 3D printer for printed versions, plus scissors, binder clips, a nylon mesh or fabric and heat-resistant Kapton tape for print-on-mesh methods (Instructables 'How to 3D Print Multiplanar Origami'); glue and fabric for panels on a fabric hinge layer; small hinges and screws for thick wooden panels.
 - **seal**: none: creases and gaps between panels leak. To make a sealed or airtight version, the fold pattern is put inside a flexible skin, as in vacuum-driven origami grippers with an elastomer membrane (Botrić and Gregov 2026).
 - **load**: light for paper and thin printed sheets: strong in the plane of a panel but weak at the creases. A 22 g TPU thick-panel waterbomb gripper lifted a 524 g mug (10 of 12 tries; Liu et al. 2021); a vacuum-driven paper-and-film waterbomb gripper reached a 70 N holding force (Botrić and Gregov 2026). Medium for engineered thick-panel structures: a stacked self-locking thick-panel Miura unit printed in PLA and TPU carried over 11,000 times its own weight and survived more than 100 cycles of 40% compression (Ye et al. 2023). Weak against loads that push the folds the way they want to fold.
 - **adjustable**: Partly: the fold angle can be set anywhere if friction or a lock holds it, and actuated versions are adjusted by how far the tendon or vacuum pulls. Bistable patterns only rest in their two stable shapes. The pattern itself cannot be changed after making.
-- **play_and_precision**: noticeable: flexible folds let panels shift. The printed TPU waterbomb gripper's fingertips were within 3 mm of the predicted positions, with small differences between opening and closing paths caused by the TPU's elastic hysteresis (Liu et al. 2021). Kresling tubes are sensitive to small changes in geometry and starting position and can wobble off-axis while deploying (Kidambi and Wang 2020). *(unverified parts omitted)*
+- **play_and_precision**: noticeable: flexible folds let panels shift. The printed TPU waterbomb gripper's fingertips were within 3 mm of the predicted positions, with small differences between opening and closing paths caused by the TPU's elastic hysteresis (Liu et al. 2021). Kresling tubes are sensitive to small changes in geometry and starting position and can wobble off-axis while deploying (Kidambi and Wang 2020). Rigid thick panels on real hinges are more precise ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **access_needed**: not applicable
-- **materials**: 2023), or a whole mechanism in 95A TPU with thin folds (Liu et al. 2021). Thick panels can be almost any solid material: one thick-origami sculpture used foam board for moving panels and MDF for the base, and a foldable circuit board used PCB panels and a metal plate (Morgan et al. 2016). For thin printed creases, Hubs recommends nylon or a flexible material such as TPU for the hinge. *(unverified parts omitted)*
+- **materials**: Paper and card for trying patterns; plastic sheet (polypropylene or polyester film) for durable folds ⚑ [uncertain]; rigid panels on a flexible layer: printed PLA on nylon mesh (BYU CREATE Lab), PLA printed onto fabric (Printables 'Popup print on fabric'), PLA, ABS or carbon-fibre-filled panels wrapped in TPU on a two-material printer (Ye et al. 2023), or a whole mechanism in 95A TPU with thin folds (Liu et al. 2021). Thick panels can be almost any solid material: one thick-origami sculpture used foam board for moving panels and MDF for the base, and a foldable circuit board used PCB panels and a metal plate (Morgan et al. 2016). For thin printed creases, Hubs recommends nylon or a flexible material such as TPU for the hinge. *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: paper and card versions are easy, but printed or thick-panel versions need hinge design (a flexible layer, offsets or gaps so thick panels don't collide), mid-print pauses to lay in mesh or fabric or a two-material printer, and some trial and error
 
 ### Making it
 
 - **processes**: 
   - 3D print (FDM): print the panels flat onto a fabric or nylon mesh layer laid in during a pause, print thin TPU folds, or print rigid panels wrapped in TPU on a two-material printer (Instructables BYU CREATE Lab; Printables 'Popup print on fabric'; Liu et al. 2021; Ye et al. 2023)
+  - laser cut: cut and score card or plastic sheet, or cut rigid panels to glue onto a fabric hinge layer ⚑ [uncertain: no laser-cutting source opened]
   - woodwork: thick panels (foam board, MDF, plywood) with hinges placed using the offset-panel method (Morgan et al. 2016)
+  - 3D print (resin): multi-material jetting printers can print rigid panels with rubbery folds, but this is rare for hobbyists ⚑ [uncertain]
   - hand folding: paper, card or plastic film for trying a pattern
-  - off-the-shelf part: not sold as a part; built from sheet, fabric, tape and hinges *(unverified parts omitted)*
+  - off-the-shelf part: not sold as a part; built from sheet, fabric, tape and hinges *(⚑ parts need confirming)*
 - **print_in_place**: partly: printed origami comes off the bed flat and already joined, with no assembly, but most methods need a fabric or nylon mesh layer laid in during a print pause (and Kapton tape where layers must not fuse), or a two-material printer; a single-material TPU design with thin folds prints fully in place (Liu et al. 2021)
 - **making_tips_3d_printing**: 1) Pick a hinge method. (a) Thin creases in one material: easiest, but Hackaday reports that on complex patterns 'crease lines become weak and overstrained to the point of failure'; Hubs says 3D-printed living hinges usually survive only a few cycles, suggests 0.4-0.6 mm thick with at least two layers, printed as one continuous strand across the hinge, and recommends nylon, or TPU on a two-material printer. (b) A flexible layer inside the print: print two or three layers, pause, lay fabric or nylon mesh flat over the bed and clip it at the corners without stretching it, then keep printing so the next layer bonds through the mesh (Instructables 'How to 3D Print Multiplanar Origami', BYU CREATE Lab, using PLA, 0.2 mm layers and 100% infill because the panels are thin). The 'Popup print on fabric' model uses only four 0.2 mm layers with fabric inserted after the second (Printables). (c) All-TPU: the thick-panel waterbomb gripper was printed in 95A TPU with 10 mm thick panels and folds only 0.2 mm thick and 1-1.2 mm wide, at 0.1 mm layers (Liu et al. 2021). (d) Two materials: wrap rigid PLA panels in TPU rather than just printing TPU on top; the wrapped version folded more than 100 times with no separation while the simply layered one delaminated (Ye et al. 2023). Placing the soft hinge material nearer one face biases that hinge to fold as a mountain or a valley (Hackaday 2024, describing Ye et al.). 2) Stop layers fusing where panels stack on top of each other: lay Kapton tape over those areas during a pause (not over the hinges), keep tape overlaps under a few millimetres and smooth out wrinkles, or print a gap filled with soluble PVA support on a multi-material printer (Instructables). A Kresling tube printed this way needs two mesh layers and one Kapton layer (Instructables). 3) Add the pauses in the slicer (e.g. PrusaSlicer's pause at layer) and make sure the print head is lifted clear and the clips won't hit the printer when it resumes (Instructables). 4) Thick panels need room to fold: put the hinge line on the top or bottom face (axis shift), offset the panels from a shared hinge plane, taper the panel edges, or leave gaps; with panels on a membrane, gaps of at least twice the panel thickness keep the full range of motion (Morgan et al. 2016, Table 1). 5) The simulation tool Origami Simulator can check how a crease pattern folds and export the folded shape as STL or OBJ before you print. 6) Remove Kapton after printing with tweezers or a dental pick, trim excess mesh with scissors or a craft knife, then work the folds gently a few times (Instructables).
-- **off_the_shelf_parts**: Nylon tulle or mesh, or thin woven fabric (for print-on-fabric hinges); polyimide tape, sold as Kapton (brand) tape; PVA soluble support filament; TPU flexible filament (e.g. Shore 95A); binder clips; nylon fishing line as tendons (Liu et al. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Nylon tulle or mesh, or thin woven fabric (for print-on-fabric hinges); polyimide tape, sold as Kapton (brand) tape; PVA soluble support filament; TPU flexible filament (e.g. Shore 95A); binder clips; nylon fishing line as tendons (Liu et al. 2021); small butt hinges or continuous (piano) hinges for thick wooden or plastic panels ⚑ [uncertain]; polypropylene sheet for folded plastic prototypes ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - Thick-panel waterbomb printed in TPU: fold width about 0.1 times the panel side length and fold thickness about 0.02 times the panel thickness, i.e. 0.2 mm thick and 1-1.2 mm wide folds on 10 mm panels, printed at 0.1 mm layers (Liu, Maiolino and You 2021, Frontiers in Robotics and AI).
   - Panels mounted on a flexible membrane keep their full range of motion only if the gaps between panels are at least twice the panel thickness (Morgan et al. 2016, Mechanical Sciences 7, Table 1).
@@ -1404,11 +1621,15 @@
 
 ### When to use it
 
-- **everyday_examples**: A paper shopping bag that folds flat and snaps open (Wikipedia 'Rigid origami'), Twisting a paper tube while pushing the ends together makes the diagonal Kresling folds by themselves (ORI*lab) *(unverified parts omitted)*
+- **everyday_examples**: 
+  - Satellite solar panel arrays folded with the Miura fold, which opens in one pull (Wikipedia 'Miura fold'); folded road maps use the same idea ⚑ [uncertain]
+  - A paper shopping bag that folds flat and snaps open (Wikipedia 'Rigid origami')
+  - Twisting a paper tube while pushing the ends together makes the diagonal Kresling folds by themselves (ORI*lab)
+  - The folded paper 'water bomb' balloon, which starts from the waterbomb base ⚑ [uncertain] *(⚑ parts need confirming)*
 - **when_to_use**: Use an origami mechanism when something must pack flat and open out, collapse and expand, or shorten while twisting, all in one planned movement: deployable covers and lampshades, collapsible tubes, bellows, grippers that close around objects, pop-up models, and folding boxes or cases. It is good when you want one printed or cut piece instead of many hinges and pins, when a single motor or pull should drive many joints at once (a one-degree-of-freedom pattern), or when you want a spring that snaps between two shapes (Kresling). Printing a flat sheet that folds into a 3D shape is also much quicker than printing the finished 3D shape (Hackaday 2024).
 - **when_not_to_use**: Avoid it for parts that carry heavy or shock loads, need precise positioning, or must fold thousands of times with thin printed plastic creases (use real pin hinges, a print-in-place hinge or a thick-panel design on metal hinges instead). If you only need one fold, a single living hinge or ordinary hinge is simpler. For something that simply extends in a straight line, a scissor linkage or telescoping tube is easier to design and stiffer. For a pattern that needs bending panels (Kresling), don't use thick rigid panels; choose a rigid-foldable pattern such as the Miura fold instead.
-- **environment_limits**: Printed versions share their plastics' limits: PLA starts to give at about 60 degrees C, PETG at 80 and ASA at 110 (CNC Kitchen oven test), so a PLA mechanism in a hot car or near a lamp can sag. TPU folds show elastic hysteresis, so opening and closing paths differ slightly (Liu et al. 2021). Paper and card fatigue with repeated folding (Liu et al. Thin printed creases fatigue and crack (Hubs; Hackaday 2025). Fabric or mesh hinges are only as good as the plastic's grip on them. *(unverified parts omitted)*
-- **safety_notes**: Few hazards. Laying mesh or tape during a print pause puts your hands close to a hot nozzle and bed; make sure the head has moved clear and clips won't hit the printer when it resumes (Instructables). Trimming mesh and lifting Kapton uses sharp knives and picks. *(unverified parts omitted)*
+- **environment_limits**: Printed versions share their plastics' limits: PLA starts to give at about 60 degrees C, PETG at 80 and ASA at 110 (CNC Kitchen oven test), so a PLA mechanism in a hot car or near a lamp can sag. TPU folds show elastic hysteresis, so opening and closing paths differ slightly (Liu et al. 2021). Paper and card fatigue with repeated folding (Liu et al. 2021) and are weakened by damp ⚑ [uncertain]. Thin printed creases fatigue and crack (Hubs; Hackaday 2025). Fabric or mesh hinges are only as good as the plastic's grip on them. *(⚑ parts need confirming)*
+- **safety_notes**: Few hazards. Laying mesh or tape during a print pause puts your hands close to a hot nozzle and bed; make sure the head has moved clear and clips won't hit the printer when it resumes (Instructables). Trimming mesh and lifting Kapton uses sharp knives and picks. Bistable snap-through designs and motor- or tendon-driven versions can pinch fingers ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **common_failures**: 1) Thin printed creases crack after a few folds: use a flexible layer (fabric, mesh or TPU) or a nylon or TPU hinge instead of thin PLA (Hackaday 2025; Hubs). 2) The soft hinge layer peels off the rigid panels: wrap the panels in the soft material, or let the plastic bond through the mesh (Ye et al. 2023; Instructables). 3) Thick panels collide and the pattern jams before it folds fully: use the offset-panel, tapered-panel or axis-shift method, or leave gaps of at least twice the thickness (Morgan et al. 2016). 4) Stacked panels fuse together: add Kapton tape or a soluble PVA gap between them, but never over a hinge (Instructables). 5) The print head catches on wrinkled mesh or tape, or on a clip: lay everything flat and watch the first layer after each pause (Instructables). 6) A Kresling tube won't stay in its second shape or deploys crookedly: its bistability and straightness are sensitive to small changes in the crease geometry, so test proportions in paper first (Kidambi and Wang 2020). 7) Positions drift or opening and closing differ slightly: a property of flexible folds (Liu et al. 2021); add stops if exact positions matter.
 - **related**: 
   - Living hinge: a single thin fold; an origami mechanism is many living hinges arranged in a pattern
@@ -1463,7 +1684,24 @@
   - https://seas.harvard.edu/news/new-pop-strategy-inspired-cuts-not-folds
   - https://news.ncsu.edu/2022/01/kirigami-robotic-grippers/
 
+### Finder tags
+
+- **connects**: boards or sheet ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: straight push or pull ⚑ *needs confirming (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."*
+- **motion_out**: not applicable ⚑ *needs confirming (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."*
+- **shaft_layout**: not applicable ⚑ *needs confirming (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."*
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: partly
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, environment_limits, everyday_examples, input_output, job, materials, off_the_shelf_parts, play_and_precision, power, processes, safety_notes
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, everyday_examples, input_output, job, materials, off_the_shelf_parts, play_and_precision, power, processes, safety_notes
 

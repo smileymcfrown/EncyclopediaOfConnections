@@ -1,6 +1,6 @@
 # one-way & ratchet: Moves one way only
 
-[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
+[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). ⚑ marks what needs confirming; corrections are welcome (`research/needs-confirming.md`).
 
 ## 7 Ratchet and pawl (incl. reversible ratchet)
 
@@ -50,15 +50,15 @@
 - **holding_principle**: 
   - shape (the parts interlock; form-fit): the pawl tip butts against the steep tooth face
   - spring force (a spring or springy part presses it in place): a spring, gravity or a springy pawl keeps the pawl in the teeth; the mechanism must be 'force-closed' in this way (Durley)
-- **input_output**: Used as a stop: rotation one way passes freely, rotation the other way is blocked; it is not back-drivable in the locked direction (the only way back is to lift the pawl). Used as a drive (ratchet feed or ratchet wrench): back-and-forth swinging of a lever -> one-way, stepped rotation of the wheel; each stroke advances a whole number of teeth, so the smallest step is 360 degrees divided by the number of teeth, and two pawls of different length offset by half a tooth halve that step (Machinery's Handbook). Shafts: the lever or frame and the wheel share one axle (in line). *(unverified parts omitted)*
+- **input_output**: Used as a stop: rotation one way passes freely, rotation the other way is blocked; it is not back-drivable in the locked direction (the only way back is to lift the pawl). Used as a drive (ratchet feed or ratchet wrench): back-and-forth swinging of a lever -> one-way, stepped rotation of the wheel; each stroke advances a whole number of teeth, so the smallest step is 360 degrees divided by the number of teeth, and two pawls of different length offset by half a tooth halve that step (Machinery's Handbook). Shafts: the lever or frame and the wheel share one axle (in line). Efficiency: little is lost apart from the pawl dragging and clicking over the teeth in the free direction ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **power**: passive (no power needed). If a motor drives through a ratchet and stops, the pawl keeps holding the load.
 - **removability**: removable: the wheel is keyed, pinned or clamped to its shaft and the pawl sits on a pin or screw, so it can be taken apart and refitted (NotesandSketches describes the wheel keyed to the shaft)
 - **reuse_cycles**: effectively unlimited: it is built to click thousands of times; the limit is wear of the tooth faces, pawl tip and pivot, not taking it apart
 - **tools_needed**: Usually a screwdriver or hex key for the pawl pivot screw and frame, and sometimes circlip pliers for retaining clips; print-in-place printed ratchets need none, only a firm first twist to break the parts free
-- **seal**: none: the teeth and pawl are open to dirt. *(unverified parts omitted)*
+- **seal**: none: the teeth and pawl are open to dirt. Tool heads such as socket wrenches enclose the mechanism, which keeps most dirt out but does not seal it ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **load**: Light to heavy depending on size and material: steel ratchet wheels are sized with a formula used for crane ratchets (Machinery's Handbook), while a well-designed PLA print has reached about 30 N·m in a ratcheting wrench (Hackaday on Gladius's design). It is strong against turning in the locked direction, where the tooth is loaded in bending and shear and the pawl mostly in compression; the pawl pivot pin carries almost the whole reaction force (Firgelli, vendor explainer). The free direction carries no load. Weak points are the pawl pivot, tooth tips and, in prints, layer lines.
 - **adjustable**: No fine adjustment: it can only hold at tooth positions. Finer steps come from more teeth, or from two or more pawls of different lengths offset by a fraction of a tooth (Machinery's Handbook); 'dual-pawl' socket wrenches click twice per tooth (Wikipedia 'Socket wrench').
-- **play_and_precision**: noticeable: it can slip back by up to one tooth spacing before the pawl catches (this backward slip is called backlash; Wikipedia 'Ratchet (device)'). Once caught it returns to the same tooth very repeatably; spring-blade indexing ratchets can position to about a tenth of a degree (RoyMech). *(unverified parts omitted)*
+- **play_and_precision**: noticeable: it can slip back by up to one tooth spacing before the pawl catches (this backward slip is called backlash; Wikipedia 'Ratchet (device)'). Once caught it returns to the same tooth very repeatably; spring-blade indexing ratchets can position to about a tenth of a degree (RoyMech). The pawl and wheel must stay in the same plane; small side float is fine as long as the pawl tip stays fully on the tooth face ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **access_needed**: not applicable: it is built into a mechanism (a winch, reel, tool head or gearbox) rather than joining two panels
 - **materials**: Hardened steel wheels and pawls for hoists, winches and hand tools (pawl tips are hardened; Firgelli, vendor explainer); brass and steel in clocks; moulded acetal (POM, 'Delrin' (brand)) and nylon for plastic ratchets, often with moulded-in springs (DuPont design guide); 3D prints in PLA for demos and PETG, ASA or nylon for use; springs in spring steel, because plastic springs that stay loaded relax (DuPont).
 - **maker_difficulty**: easy to moderate: easy to print a working demo (a wheel, a pawl, an M3 screw and a small spring); moderate to make one that carries real torque, because the tooth angle, pawl position, spring and print orientation all have to be right
@@ -67,8 +67,11 @@
 
 - **processes**: 
   - 3D print (FDM): demos, fidget toys and light-to-medium duty tools, including print-in-place and reversible designs
+  - 3D print (resin): small, fine-toothed ratchets ⚑ [uncertain]
+  - laser cut: the wheel and pawl are flat 2D profiles, so they can be cut from plywood or acrylic for models and toys ⚑ [uncertain]
   - CNC: steel ratchet wheels are milled with an angled cutter or hobbed with a special hob (Machinery's Handbook)
-  - off-the-shelf part: ratchet wheels, pawls, pawl springs, and complete ratchet winches, hoists and wrenches *(unverified parts omitted)*
+  - woodwork: large wooden ratchet wheels for toys, clock models and winches ⚑ [uncertain]
+  - off-the-shelf part: ratchet wheels, pawls, pawl springs, and complete ratchet winches, hoists and wrenches *(⚑ parts need confirming)*
 - **print_in_place**: yes (with springy printed pawls) / partly (classic pivoting pawl): print-in-place ratchets exist, e.g. joeDAcoolGUY's bi-directional ratchet screwdriver and a print-in-place 1/4-inch bit ratchet on Printables, which use springy printed parts and about 0.3 mm gaps. The classic layout with a pivoting pawl prints as separate parts and needs an added pivot screw and a metal spring (e.g. the 'Ratchet and Pawl Demo' needs an M3 screw and an extension spring).
 - **making_tips_3d_printing**: 1) Get the tooth and pawl geometry right first: make the locking face of each tooth steep (nearly pointing at the wheel centre) and place the pawl pivot so that a line drawn at right angles to the locking face passes between the wheel centre and the pawl pivot; then the load pulls the pawl in instead of throwing it out (Machinery's Handbook; for a pawl that pulls rather than pushes, the line must pass outside the pivot). A vendor explainer suggests a locking face of about 80-90 degrees to the tangent, with 85 degrees as a safe default (Firgelli). 2) Print the wheel and pawl lying flat (axle vertical), so the teeth and the pawl are loaded along the layers, not across them; prints are stronger in one direction, like wood (Prusa), and springy arms should not be built standing up in Z (Hubs). 3) For strength, use many perimeters or solid parts: a PLA ratcheting wrench reached about 30 N·m by slicing parts to be almost entirely perimeters (Hackaday on Gladius's design); Owenberry's 1/4-inch drive ratchet was printed in PETG at 100% infill. 4) Tooth size matters more than tooth count: in joeDAcoolGUY's tests the real failure mode was tooth flex and too little engagement length, and a 6 mm thick pawl on a 22 mm ratchet ring worked. 5) Clearances: start at 0.3 mm for parts that must move (Prusa); joeDAcoolGUY used 0.3 mm for free-moving parts and 0.15 mm where he wanted controlled friction. Watch for elephant's foot on small parts, which can jam the mechanism (Martin Rigatoni's reversible screwdriver notes, via the Printables API). 6) Springs: use a small metal spring (an extension spring, or half a pen spring as in Owenberry's design) to hold the pawl in; printed springs that stay loaded relax over time (DuPont), and one maker withdrew a printed ratchet screwdriver because it 'suffers from creep so doesn't last' (Printables API, model 82837). Springy printed pawls are fine for occasional light use, in PETG or nylon rather than PLA. 7) Use a metal screw or pin as the pawl pivot and don't clamp it tight; the 'Ratchet and Pawl Demo' says to leave the M3 screw slightly loose so the pawl can swing. 8) Reversible ratchets: the selector has to be guided or pushed from both sides, otherwise friction jams it once everything is enclosed (joeDAcoolGUY). 9) Print-in-place parts may need a firm first twist to break them free, and a little lubricant (silicone spray or light oil) makes the click smoother. 10) Material: PLA starts to soften at about 60 °C, PETG at about 80 °C and ASA at about 110 °C (CNC Kitchen), so don't leave a PLA ratchet in a hot car.
 - **off_the_shelf_parts**: Search terms: 'ratchet wheel' or 'ratchet gear', 'pawl', 'ratchet and pawl set', 'pawl spring' (usually a small torsion or extension spring), 'shoulder screw' or 'dowel pin' for the pivot, 'retaining ring' or 'E-clip'. Complete products that contain one: 'ratchet wrench' or 'socket wrench' (reversible, with 'fine-tooth' and 'dual-pawl' versions), 'ratcheting screwdriver', 'hand winch' with ratchet, 'ratchet lever hoist' (come-along), fishing-reel anti-reverse, and pawl-type bicycle freewheels. Silent, pawl-free alternatives are sold as 'one-way clutch', 'sprag clutch' or 'one-way needle bearing'.
@@ -93,9 +96,9 @@
   - A bicycle freewheel (most use spring-loaded pawls in a toothed ring) and the anti-reverse click in fishing reels and yacht winches
 - **when_to_use**: Use a ratchet and pawl when something should turn one way but never slip back: winding a winch, reel or spool, holding a lifted load while you reposition your hand, or tightening something step by step. It is also the simplest way to turn a back-and-forth lever into one-way stepped rotation (a ratchet wrench, a ratchet feed or a counter), and it gives an audible, felt click at each tooth. Choose the reversible version when you need to tighten and loosen with the same tool, as on socket wrenches and screwdrivers. It is cheap, easy to understand, easy to print, and you can release it on purpose by lifting the pawl.
 - **when_not_to_use**: Avoid it when you need to hold at any angle with no slip-back (it only holds at tooth positions): use a friction brake, a sprag clutch or a roller clutch (one-way bearing), which lock almost instantly with no backlash, or a worm drive. Avoid it where the clicking noise, wear or bounce at high speed are a problem (a vendor explainer puts the practical limit for ordinary spring-loaded pawls at a few hundred rpm, Firgelli): use a sprag or roller clutch. For a linear strip use a linear ratchet, and for a one-piece printed part with no pins or springs use a compliant (flexure-pawl) ratchet. Don't rely on a home-made ratchet to hold people or heavy loads overhead; use rated hardware.
-- **environment_limits**: Printed plastics soften with heat: PLA starts to give at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a PLA ratchet in a hot car may deform. Plastic springs and springy pawls lose force if they stay loaded (stress relaxation, DuPont), and PLA creeps most under constant load (thrinter creep test), so a printed pawl held flexed may stop snapping in fully. Vibration or very light loads can make a driven wheel jump ahead (RoyMech). *(unverified parts omitted)*
-- **safety_notes**: The pawl and teeth form a pinch point for fingers. Pawl springs can fly out when a mechanism is opened. A worn or badly shaped ratchet can skip under load, so home-made or printed ratchets must never be used for lifting people or holding loads overhead. *(unverified parts omitted)*
-- **common_failures**: 1) The pawl skips or is pushed out under load, because the locking face or pivot position is wrong (the load pushes the pawl out instead of pulling it in) or the pivot is worn: follow the Machinery's Handbook rule and keep the pivot snug. 2) The pawl doesn't drop in (it floats over the teeth) because the spring is too weak or has relaxed, the pawl is sticky, or dirt and grease are in the way: use a metal spring and keep it clean. 3) Tooth tips round over, chip or snap, or, in prints, shear off along layer lines: make teeth larger rather than more numerous (joeDAcoolGUY), print flat with many perimeters. 4) The wheel overshoots at light load (RoyMech): add a detent or light brake. 5) Too much slip-back (backlash) for the job: use finer teeth or several offset pawls, or a sprag or roller clutch. 7) Print-in-place parts are fused: increase clearance (about 0.3 mm) and check elephant's foot. *(unverified parts omitted)*
+- **environment_limits**: Printed plastics soften with heat: PLA starts to give at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a PLA ratchet in a hot car may deform. Plastic springs and springy pawls lose force if they stay loaded (stress relaxation, DuPont), and PLA creeps most under constant load (thrinter creep test), so a printed pawl held flexed may stop snapping in fully. Dirt, ice or thick grease can stop the pawl dropping into the teeth ⚑ [uncertain]. Steel ratchets rust outdoors unless greased or stainless ⚑ [uncertain]. Vibration or very light loads can make a driven wheel jump ahead (RoyMech). *(⚑ parts need confirming)*
+- **safety_notes**: A ratchet holding a load stores that load's energy: lifting the pawl on a loaded winch, hoist or reel lets the load run back and can spin the handle or drop the load, so take the weight first ⚑ [uncertain]. The pawl and teeth form a pinch point for fingers. Pawl springs can fly out when a mechanism is opened. A worn or badly shaped ratchet can skip under load, so home-made or printed ratchets must never be used for lifting people or holding loads overhead. *(⚑ parts need confirming)*
+- **common_failures**: 1) The pawl skips or is pushed out under load, because the locking face or pivot position is wrong (the load pushes the pawl out instead of pulling it in) or the pivot is worn: follow the Machinery's Handbook rule and keep the pivot snug. 2) The pawl doesn't drop in (it floats over the teeth) because the spring is too weak or has relaxed, the pawl is sticky, or dirt and grease are in the way: use a metal spring and keep it clean. 3) Tooth tips round over, chip or snap, or, in prints, shear off along layer lines: make teeth larger rather than more numerous (joeDAcoolGUY), print flat with many perimeters. 4) The wheel overshoots at light load (RoyMech): add a detent or light brake. 5) Too much slip-back (backlash) for the job: use finer teeth or several offset pawls, or a sprag or roller clutch. 6) Reversible selectors jam or sit halfway: guide the selector from both sides (joeDAcoolGUY) and add a detent so it snaps to each position ⚑ [uncertain]. 7) Print-in-place parts are fused: increase clearance (about 0.3 mm) and check elephant's foot. *(⚑ parts need confirming)*
 - **related**: 
   - Linear ratchet (cable-tie ratchet): the same idea on a straight toothed strip, so it slides one way instead of turning
   - Face ratchet (star ratchet): the teeth are on the faces of two spring-pressed discs, so every tooth engages at once instead of one pawl
@@ -156,9 +159,26 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: back-and-forth turning, straight push or pull
+- **motion_out**: steps
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks
+- **tools**: hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, input_output, play_and_precision, processes, safety_notes, seal
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, play_and_precision, processes, safety_notes, seal
 
 ## 8 Linear ratchet (cable-tie ratchet)
 
@@ -177,9 +197,10 @@
   - cable tie ratchet / zip tie / tie wrap / wire tie / hose tie / Ty-Rap (brand, the original cable tie) (Wikipedia 'Cable tie')
   - ladder strap and ratchet buckle (snowboard bindings, ski boots)
   - ratchet buckle
+  - ratchet clamp (plastic cable and hose clamps that close in toothed steps) ⚑ [uncertain]
   - running ratchet acting on a rack (Durley)
   - ratchet jack / lifting jack pawls (Machinery's Handbook, Fig. i)
-  - handle ratchet of locking forceps (haemostat or hemostat, artery forceps): a few interlocking teeth on each handle (Wikipedia 'Hemostat'); printed haemostat-style locking forceps and locking pliers are used as small hand clamps (Printables) *(unverified parts omitted)*
+  - handle ratchet of locking forceps (haemostat or hemostat, artery forceps): a few interlocking teeth on each handle (Wikipedia 'Hemostat'); printed haemostat-style locking forceps and locking pliers are used as small hand clamps (Printables) *(⚑ parts need confirming)*
 - **family**: one-way & ratchet
 - **other_families**: tensioning, reels & take-up, cord, strap, webbing & textile hardware, sliding, telescoping & linear motion
 - **one_liner**: A toothed strip or bar and a catch (pawl) that let it slide one way only, locking at each tooth, as in a cable tie, a snowboard-binding ladder strap or a ratchet jack.
@@ -209,22 +230,27 @@
 - **input_output**: Mostly not applicable: as a fastener it just holds. When driven (ratchet jack, ratchet buckle, ratchet feed), back-and-forth lever strokes -> step-by-step one-way linear motion, one or more teeth per stroke, with a second pawl holding during the return stroke (Machinery's Handbook, Fig. i; Burton patent US7086122). It cannot be back-driven: pulling the strip backwards only jams the pawl harder, until the pawl is lifted.
 - **power**: passive (no power needed)
 - **removability**: Standard cable tie: permanent in practice (cut it off; it can be opened by pushing a small flat object between the pawl and the teeth, but that damages it; Wikipedia 'Cable tie'). Releasable cable ties, ratchet clamps and ski or snowboard buckles: tool-free quick release. Rigid racks and pawls: removable.
-- **reuse_cycles**: Standard cable tie: once. Buckles, jacks and rigid ratchet bars: many times, limited by tooth wear. *(unverified parts omitted)*
+- **reuse_cycles**: Standard cable tie: once. Releasable ties: a few times to many times ⚑ [uncertain]. Buckles, jacks and rigid ratchet bars: many times, limited by tooth wear. *(⚑ parts need confirming)*
 - **tools_needed**: None to fit a cable tie; side cutters or flush cutters to remove it. A cable tie tensioning tool (tie gun) pulls to a set tension and cuts the tail off flush so no sharp edge is left (Wikipedia 'Cable tie'). Rigid versions need a screwdriver or hex key for the pawl pivot.
 - **seal**: none
-- **load**: Light to medium for plastic versions and heavy for steel jacks. *(unverified parts omitted)*
+- **load**: Light to medium for plastic versions and heavy for steel jacks. The strip is strong in pull along its length; cable ties are rated by their loop tensile strength, with small ties for light bundling and heavy-duty ties for more ⚑ [uncertain] (exact ratings vary by maker). Weak points: the pawl can be pried or twisted out, the teeth can shear off if the tie is overloaded, the head can crack if twisted, and side loads that tilt the strip in the head reduce grip ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: yes, in steps of one tooth: you can always tighten further; loosening needs the pawl to be released (or a new tie)
-- **play_and_precision**: noticeable: it can slide back up to one tooth spacing before locking (Wikipedia 'Ratchet (device)'). Two pawls offset by half a tooth halve the step (Machinery's Handbook). *(unverified parts omitted)*
+- **play_and_precision**: noticeable: it can slide back up to one tooth spacing before locking (Wikipedia 'Ratchet (device)'). Two pawls offset by half a tooth halve the step (Machinery's Handbook). A flexible strap tolerates a lot of angle and misalignment because it bends; a rigid rack needs a guide that keeps it square to the pawl ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **access_needed**: both sides: a cable tie or strap has to pass right round the object, though you tighten and cut it from one side; a rigid rack-and-pawl is built into a mechanism
-- **materials**: Cable ties: usually nylon 6,6; outdoor ties are UV-stabilised black nylon with carbon black (at least 2%, Wikipedia; available only in black, Nelco); heat-stabilised nylon, polypropylene, Tefzel and PEEK for heat or chemicals; blue ties with a metal additive for metal detectors; stainless steel ties for heat and corrosion (Wikipedia 'Cable tie'; Nelco). Jacks and industrial racks: steel. 3D prints: PLA+ works for light-duty printed cable ties, PETG or nylon for heavier use (Printables 'Zip/Cable Tie'). Coated stainless steel ties are made to prevent galvanic attack where they touch a different metal, such as zinc-coated cable tray (Wikipedia 'Cable tie'). *(unverified parts omitted)*
+- **materials**: Cable ties: usually nylon 6,6; outdoor ties are UV-stabilised black nylon with carbon black (at least 2%, Wikipedia; available only in black, Nelco); heat-stabilised nylon, polypropylene, Tefzel and PEEK for heat or chemicals; blue ties with a metal additive for metal detectors; stainless steel ties for heat and corrosion (Wikipedia 'Cable tie'; Nelco). Buckles and ladder straps: moulded plastics with metal levers ⚑ [uncertain]. Jacks and industrial racks: steel. 3D prints: PLA+ works for light-duty printed cable ties, PETG or nylon for heavier use (Printables 'Zip/Cable Tie'). Coated stainless steel ties are made to prevent galvanic attack where they touch a different metal, such as zinc-coated cable tray (Wikipedia 'Cable tie'). *(⚑ parts need confirming)*
 - **maker_difficulty**: easy to moderate: a printed zip tie or a rack and pawl is easy to make, but printed straps are weaker and creep more than moulded nylon ties, so for real use it is easier to buy cable ties
 
 ### Making it
 
-- **processes**: off-the-shelf part: cable ties, releasable ties, cable tie mounts, ratchet buckles with ladder straps, 3D print (FDM): printable zip ties, ratchet clamps and print-in-place ratcheting capos *(unverified parts omitted)*
+- **processes**: 
+  - off-the-shelf part: cable ties, releasable ties, cable tie mounts, ratchet buckles with ladder straps
+  - 3D print (FDM): printable zip ties, ratchet clamps and print-in-place ratcheting capos
+  - laser cut: flat racks and pawls in acrylic or plywood for models ⚑ [uncertain]
+  - CNC and sheet metal: steel ratchet bars and pawls for jacks and heavy clamps ⚑ [uncertain]
+  - injection moulding: how commercial cable ties and ratchet clamps are made ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: yes: a printable cable tie comes off the bed as one working piece (Printables 'Zip/Cable Tie', 7.2 inches long, about 10 minutes to print), and a ratcheting guitar capo prints in place without supports (Mikolas Zuza's remix of LoboCNC's design, via the Printables API). Designs with a pivoting pawl and a metal spring are 'partly'. Handle-ratchet clamps print in place too: a self-locking compliant forceps prints as one piece with a support tab to snap off (Printables 'Print in Place Self-Locking Compliant Foreceps', via the Printables API).
-- **making_tips_3d_printing**: 1) Print strips and pawls lying flat, so the strap is made of long continuous lines along its length and the springy pawl bends within the layers, not across them; prints are stronger in one direction (Prusa) and springy arms should not be built standing up in Z (Hubs). 3) Make the part that carries the pawl stiff: in the ratcheting capo remix, the original ratchet arm bent under load so the ratchet did not engage at all in the first half of its travel, which the remix fixed (Printables API, model 63610). 4) Material: PLA+ is fine for a light-duty printed cable tie; use PETG or a more flexible material such as nylon for heavier use (Printables 'Zip/Cable Tie'). A tie that holds tension all the time will creep, and PLA creeps the most (thrinter creep test), so re-tighten or use PETG or nylon. 7) Add a pull-tab to the pawl if you want to release and reuse it. 9) Printed locking forceps with flexing (compliant) joints: one single-piece design works better in PETG than PLA, prints flat side down with no supports, and survived 'over 150' open-and-close cycles; keep the layer seams off its four flexing joints, and treat it as a consumable because the joints eventually fail (Printables 'Hobby Locking Forceps - Single Piece with Compliant Joints', via the Printables API). *(unverified parts omitted)*
-- **off_the_shelf_parts**: The common truck 'ratchet strap' is a different device: a lever ratchet that winds webbing onto a spool, covered by the rotary ratchet entry. Cable tie mounts come adhesive-backed or screw-down, or you can print one and glue it on (Printables 'Cable tie mount', via the Printables API); 'releasable' ties have a tab that lifts the pawl (Wikipedia 'Cable tie'). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Print strips and pawls lying flat, so the strap is made of long continuous lines along its length and the springy pawl bends within the layers, not across them; prints are stronger in one direction (Prusa) and springy arms should not be built standing up in Z (Hubs). 2) Shape each tooth with a steep locking face and a gentle ramp, and angle the locking face so the pull on the strip draws the pawl deeper into the teeth; the rule from ratchet wheels applies: a line at right angles to the locking face should pass on the side that pulls the pawl in (Machinery's Handbook) ⚑ [uncertain] (rule stated for wheels). 3) Make the part that carries the pawl stiff: in the ratcheting capo remix, the original ratchet arm bent under load so the ratchet did not engage at all in the first half of its travel, which the remix fixed (Printables API, model 63610). 4) Material: PLA+ is fine for a light-duty printed cable tie; use PETG or a more flexible material such as nylon for heavier use (Printables 'Zip/Cable Tie'). A tie that holds tension all the time will creep, and PLA creeps the most (thrinter creep test), so re-tighten or use PETG or nylon. 5) Leave at least about 0.3 mm clearance where the strip slides through the head (Prusa), but not so much that the strip can tilt and slip past the pawl ⚑ [uncertain]. 6) Keep teeth reasonably coarse: tiny teeth made of one or two layers or line widths are weak and round over quickly ⚑ [uncertain]. 7) Add a pull-tab to the pawl if you want to release and reuse it. 8) Nylon absorbs moisture and becomes tougher and more flexible when it has taken some up ⚑ [uncertain], so dry printed nylon ties may be brittle at first. 9) Printed locking forceps with flexing (compliant) joints: one single-piece design works better in PETG than PLA, prints flat side down with no supports, and survived 'over 150' open-and-close cycles; keep the layer seams off its four flexing joints, and treat it as a consumable because the joints eventually fail (Printables 'Hobby Locking Forceps - Single Piece with Compliant Joints', via the Printables API). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search terms: 'cable ties' (standard, miniature, heavy-duty, 'releasable' or 'reusable' cable ties, 'UV-resistant black', 'heat-stabilised', 'metal-detectable', 'stainless steel cable ties' with ball-lock heads), 'cable tie mounts' and 'push-mount cable ties', 'cable tie tensioning tool' (tie gun), 'ratchet buckle' with 'ladder strap' (snowboard binding and ski-boot spares), 'ratchet cable clamp' ⚑ [uncertain]. The common truck 'ratchet strap' is a different device: a lever ratchet that winds webbing onto a spool, covered by the rotary ratchet entry. Cable tie mounts come adhesive-backed or screw-down, or you can print one and glue it on (Printables 'Cable tie mount', via the Printables API); 'releasable' ties have a tab that lifts the pawl (Wikipedia 'Cable tie'). *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - A linear ratchet that lifts step by step needs two pawls: one on the operating lever does the lifting, and a second, fixed pawl holds the load while the lever is returned (Machinery's Handbook, 27th ed., p. 2089, Fig. i, lifting jack).
   - Several pawls offset by a fraction of the tooth pitch give finer steps from strong, coarse teeth; two pawls differing by half a pitch halve the step (Machinery's Handbook p. 2089).
@@ -242,12 +268,13 @@
 - **everyday_examples**: 
   - A cable tie (zip tie) holding cables together
   - The toothed ladder strap and ratchet buckle on snowboard bindings and some ski boots
-  - Handcuffs, whose swinging toothed arm ratchets tighter and can't be opened back (a curved linear ratchet) *(unverified parts omitted)*
+  - Handcuffs, whose swinging toothed arm ratchets tighter and can't be opened back (a curved linear ratchet)
+  - Plastic ratchet clamps for cables and some caulking guns (many caulking guns instead use a tilting plate on a smooth rod) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **when_to_use**: Use a linear ratchet when something must be pulled or pushed tighter in one direction and must not slip back: bundling cables, strapping a part to a frame, closing a clamp or a strap round an object of unknown size, or lifting something in steps with a lever (a ratchet jack). Cable ties are the quickest, cheapest way to hold things together in prototypes and robots. Toothed-bar ratchets also appear in linear clamps and quick-release vices (DT Online), although many quick-grip style bar clamps grip a smooth bar with tilting plates instead (see binding-plate lock). Choose releasable ties, ratchet buckles or clamps with a release tab when you need to undo and redo it. A cable tie pulled tight just behind a hose barb is a cheap, common way to stop a soft tube pulling off (Qosina lists cable ties and Oetiker (brand) ear clamps as the common retention devices); for higher pressure, or a clamp you can undo, use a hose clamp. A haemostat-style locking clamp makes a handy one-handed hobby clamp for holding small parts: one printable version clamps anything from a sheet of paper up to about 8 mm (Printables 'Wide Range Hemostat locking plier', via the Printables API).
 - **when_not_to_use**: Avoid it when you need smooth, stepless adjustment (use a binding-plate lock, a cam buckle or a screw clamp), when you need to loosen as often as you tighten (use a buckle, hook-and-loop or a screw), when the load must be released gently under tension (use a screw or a winch with a brake), or for permanent structural joints (use screws or bolts). Don't use cable ties to hold heavy loads overhead, anything hot above their rating, or anything that moves and chafes the tie. For a rotating shaft use a rotary ratchet and pawl or a one-way clutch.
-- **environment_limits**: Standard nylon 6/6 ties are rated about -40 °C to 85 °C continuous, heat-stabilised nylon to about 104 °C (Nelco). Sunlight degrades natural (white) nylon ties; use UV-stabilised black ones outdoors (Wikipedia; Nelco). Stainless steel ties are for high heat and corrosive places (Wikipedia). Printed PLA ties soften from about 60 °C (CNC Kitchen) and creep under constant tension (thrinter creep test), so they loosen over time. *(unverified parts omitted)*
-- **safety_notes**: Cut tails leave sharp edges that can cut hands and cables; cut flush or use a tensioning tool (Wikipedia 'Cable tie'). Locking forceps (haemostats) are surgical instruments; printed or hobby versions are only for holding parts and must never be used on people or animals. *(unverified parts omitted)*
-- **common_failures**: 2) The tie snaps or the head cracks, often from overloading, sunlight (UV) or heat: use UV-black or heat-stabilised ties, or stainless ties. 3) Printed ties and clamps loosen over time from creep, especially in PLA: print in PETG or nylon and re-tighten. 4) The pawl doesn't engage because the part holding it bends (as in the original ratcheting capo, via the Printables API): stiffen that part. 5) Too coarse steps for a snug fit: use finer teeth or two offset pawls (Machinery's Handbook). *(unverified parts omitted)*
+- **environment_limits**: Standard nylon 6/6 ties are rated about -40 °C to 85 °C continuous, heat-stabilised nylon to about 104 °C (Nelco). Sunlight degrades natural (white) nylon ties; use UV-stabilised black ones outdoors (Wikipedia; Nelco). Stainless steel ties are for high heat and corrosive places (Wikipedia). Nylon ties can become brittle in cold, dry conditions ⚑ [uncertain]. Printed PLA ties soften from about 60 °C (CNC Kitchen) and creep under constant tension (thrinter creep test), so they loosen over time. *(⚑ parts need confirming)*
+- **safety_notes**: Cut tails leave sharp edges that can cut hands and cables; cut flush or use a tensioning tool (Wikipedia 'Cable tie'). Never put cable ties round a person's or animal's wrist, neck or limb, as they tighten easily but can't be loosened without cutting ⚑ [uncertain]. Over-tightening can crush cables or hoses ⚑ [uncertain]. A lever-driven ratchet (jack or buckle) stores energy, so releasing it under load can let the load or lever jump ⚑ [uncertain]. Locking forceps (haemostats) are surgical instruments; printed or hobby versions are only for holding parts and must never be used on people or animals. *(⚑ parts need confirming)*
+- **common_failures**: 1) The tie slips: worn or damaged teeth, a reused tie, or the tail threaded the wrong way up so the teeth miss the pawl ⚑ [uncertain]; use a new tie. 2) The tie snaps or the head cracks, often from overloading, sunlight (UV) or heat: use UV-black or heat-stabilised ties, or stainless ties. 3) Printed ties and clamps loosen over time from creep, especially in PLA: print in PETG or nylon and re-tighten. 4) The pawl doesn't engage because the part holding it bends (as in the original ratcheting capo, via the Printables API): stiffen that part. 5) Too coarse steps for a snug fit: use finer teeth or two offset pawls (Machinery's Handbook). *(⚑ parts need confirming)*
 - **related**: 
   - Ratchet and pawl (rotary): the same mechanism on a toothed wheel, for winches, reels and wrenches
   - Ratchet tie-down strap (ratchet buckle for webbing): despite the name it winds the strap onto a spool with a rotary ratchet, not a toothed strip
@@ -297,9 +324,26 @@
   - https://www.qosina.com/blog/how-to-select-the-correct-barbed-connector-for-your-single-use-system
   - https://api.printables.com/graphql/ (models 475661, 1405899, 920228 and 227957, read 2026-10-06)
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: straight push or pull
+- **motion_out**: steps, straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks
+- **tools**: none, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes*
+- **adjustable**: yes
+- **removability**: permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, common_failures, environment_limits, everyday_examples, load, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, everyday_examples, load, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, reuse_cycles, safety_notes
 
 ## 9 Face ratchet (star ratchet, face-engagement ratchet)
 
@@ -334,28 +378,34 @@
 - **degrees_of_freedom**: 1: relative rotation about the shared axis, allowed in one direction only; the sprung disc's small in-and-out movement along the axis is an internal motion that lets the teeth pass
 - **special_behaviour**: 
   - one-way (moves freely one way, locks the other): the defining behaviour
-  - torque-limiting (slips or clicks at a set force/torque): not in a true face ratchet, but if the locking faces are made sloping the same parts become a clicking torque limiter whose slip torque is set by the spring and slope *(unverified parts omitted)*
+  - torque-limiting (slips or clicks at a set force/torque): not in a true face ratchet, but if the locking faces are made sloping the same parts become a clicking torque limiter whose slip torque is set by the spring and slope
+  - self-aligning or self-centring: DT Swiss uses conical ratchet rings and conical springs to keep the rings aligned ⚑ [uncertain] (unclear whether this applies to flat face ratchets in general) *(⚑ parts need confirming)*
 - **holding_principle**: 
   - shape (the parts interlock; form-fit): the steep locking faces butt together
   - spring force (a spring or springy part presses it in place): the spring keeps the teeth pressed into mesh; if it is missing or too weak the ratchet slips (DT Swiss manual)
-- **input_output**: Rotation -> rotation at the same speed (1:1) in the drive direction; in the other direction the output overruns (freewheels) or the input can turn back without moving the output. Shafts in line (coaxial). Engagement angle (the free play before it catches) = 360°/number of teeth (DT Swiss). Not back-drivable in the locked direction. *(unverified parts omitted)*
+- **input_output**: Rotation -> rotation at the same speed (1:1) in the drive direction; in the other direction the output overruns (freewheels) or the input can turn back without moving the output. Shafts in line (coaxial). Engagement angle (the free play before it catches) = 360°/number of teeth (DT Swiss). Efficiency when locked is essentially 100% because the teeth lock solid ⚑ [uncertain]; while freewheeling there is some drag and wear from the spring pressure and grease. Not back-drivable in the locked direction. *(⚑ parts need confirming)*
 - **power**: passive (no power needed)
 - **removability**: removable: DT Swiss freehub bodies come off by hand and the ratchet rings and springs slide out for cleaning (freewheel.co.uk; DT Swiss manual); printed versions are held by a screw, nut or snap ring
 - **reuse_cycles**: many times: it can be taken apart and reassembled for cleaning and greasing; the limit is tooth wear
 - **tools_needed**: Often none to open (DT Swiss hubs: pull off the end cap and freehub body by hand); a special tool and a lot of force can be needed to undo the threaded ring nut in hub shells (singletrackworld forum); grease; for printed versions a screwdriver or hex key
 - **seal**: none: the ratchet itself doesn't seal; hubs add seals and grease around it
-- **load**: Medium to heavy for its size, because all the teeth share the load at once, creating far fewer point loads than pawls (DT Swiss) and giving a large contact area (Trifox). *(unverified parts omitted)*
+- **load**: Medium to heavy for its size, because all the teeth share the load at once, creating far fewer point loads than pawls (DT Swiss) and giving a large contact area (Trifox). Strong in drive torque; the weak points are the spring (too weak and the teeth can be forced apart), the axial push that the sloped teeth create, and, in 3D prints, teeth shearing off along layer lines at their roots ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: Not in position. The freewheeling drag and noise can be tuned with the amount of grease (less grease is louder but wears more; DT Swiss manual) and the spring strength; the engagement angle is set by the number of teeth.
-- **play_and_precision**: small to noticeable: it can turn back up to one tooth (engagement angle 360°/N, e.g. 10° for 36 teeth, 4° for 90 teeth; DT Swiss) before it catches. *(unverified parts omitted)*
+- **play_and_precision**: small to noticeable: it can turn back up to one tooth (engagement angle 360°/N, e.g. 10° for 36 teeth, 4° for 90 teeth; DT Swiss) before it catches. It needs the two discs coaxial and parallel; the sliding disc must slide freely along its splines or key but not tilt ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **access_needed**: end of a tube or shaft: the discs and spring are stacked onto the shaft from one end (e.g. the freehub body slides onto the hub axle)
-- **materials**: 3D prints in PETG, nylon or PLA; the spring should be steel, because plastic springs under constant load relax (DuPont). *(unverified parts omitted)*
+- **materials**: Steel ratchet rings in bicycle hubs (DT Swiss mentions steel ratchets for its high-tooth-count systems ⚑ [uncertain]); powder-metal parts in automotive one-way clutches (Stackpole International Powder Metal is the patent holder of US6907971B2); moulded plastics for light duty; 3D prints in PETG, nylon or PLA; the spring should be steel, because plastic springs under constant load relax (DuPont). *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: the CAD is simple, but you need a metal spring, a disc that slides along a keyed or hex shaft without jamming, and face teeth that print cleanly and don't shear off along layers
 
 ### Making it
 
-- **processes**: off-the-shelf part: bicycle hub ratchet rings and springs (spare kits), and face-type one-way clutches, 3D print (FDM): knobs, joints and demo one-way clutches with a metal spring *(unverified parts omitted)*
-- **print_in_place**: partly / no: usually printed as two discs and assembled with a metal spring and a screw or nut. *(unverified parts omitted)*
-- **making_tips_3d_printing**: 3) Overhangs up to about 45-60° print cleanly (Prusa), so teeth pointing up need no supports; if the teeth must face down onto the bed, one Hirth-joint library author suggests cutting off half of each tooth so no support is needed and it still meshes with full teeth (mechadense scad-lib-hirthjoints README). 4) The sliding disc needs a keyed, splined or hex bore with clearance so it can move along the shaft; start with about 0.3 mm (Prusa) and make sure it can't tilt and jam. 5) Use a metal spring (compression, wave or disc spring) to press the discs together, not a printed one: plastic springs under constant load relax (DuPont), and PLA creeps most (thrinter creep test). 7) Grease lightly: too much or the wrong grease stops the rings from engaging and they slip (DT Swiss manual). 8) Check that both toothed faces point at each other when assembling; one ring mounted upside down means no engagement (DT Swiss manual; freewheel.co.uk). 9) PLA softens from about 60 °C (CNC Kitchen); prefer PETG or nylon for anything used outdoors or in a warm place. *(unverified parts omitted)*
+- **processes**: 
+  - off-the-shelf part: bicycle hub ratchet rings and springs (spare kits), and face-type one-way clutches
+  - 3D print (FDM): knobs, joints and demo one-way clutches with a metal spring
+  - 3D print (resin): fine teeth for small knobs ⚑ [uncertain]
+  - CNC: milled face teeth ⚑ [uncertain]
+  - powder metal and injection moulding: how production face ratchets are made ⚑ [uncertain] *(⚑ parts need confirming)*
+- **print_in_place**: partly / no: usually printed as two discs and assembled with a metal spring and a screw or nut. Print-in-place versions with tapered teeth exist, such as shiura's print-in-place palm ratchet knob, whose 'tapered ratchet gear' is aligned and locked by pressing the knob towards the screw (Printables API, model 230516) ⚑ [uncertain] (unclear whether this counts as a true face ratchet). *(⚑ parts need confirming)*
+- **making_tips_3d_printing**: 1) Print each disc flat with its teeth pointing up; the teeth are then made of stacked layers, so keep them short and wide (low tooth height compared with the pitch) and use several teeth to share the load, because the drive force bends each tooth across the layer lines at its root ⚑ [uncertain]. 2) The sloping ramps come out as tiny stair-steps of layer lines, which make the click rough and wear faster; a finer layer height (or variable layer height) on the toothed band helps ⚑ [uncertain]. 3) Overhangs up to about 45-60° print cleanly (Prusa), so teeth pointing up need no supports; if the teeth must face down onto the bed, one Hirth-joint library author suggests cutting off half of each tooth so no support is needed and it still meshes with full teeth (mechadense scad-lib-hirthjoints README). 4) The sliding disc needs a keyed, splined or hex bore with clearance so it can move along the shaft; start with about 0.3 mm (Prusa) and make sure it can't tilt and jam. 5) Use a metal spring (compression, wave or disc spring) to press the discs together, not a printed one: plastic springs under constant load relax (DuPont), and PLA creeps most (thrinter creep test). 6) The spring force and ramp angle set how hard it is to turn the free way; the steep locking faces must be truly steep (or very slightly undercut) or the teeth will ride over under load and act as a torque limiter instead ⚑ [uncertain]. 7) Grease lightly: too much or the wrong grease stops the rings from engaging and they slip (DT Swiss manual). 8) Check that both toothed faces point at each other when assembling; one ring mounted upside down means no engagement (DT Swiss manual; freewheel.co.uk). 9) PLA softens from about 60 °C (CNC Kitchen); prefer PETG or nylon for anything used outdoors or in a warm place. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Search terms: 'ratchet kit' or 'star ratchet' spares for bicycle hubs (e.g. DT Swiss (brand) 36T, 54T), 'freehub body', 'compression spring', 'wave spring', 'disc spring' or 'Belleville washer', 'hex shaft' or 'splined shaft', 'thrust washer', 'circlip' or 'retaining ring', 'ratchet one-way clutch'. For a symmetric (both-ways) version look for 'Hirth coupling' or 'Hirth joint' (e.g. camera and lighting 'rosette' mounts).
 - **rules_of_thumb**: 
   - Engagement angle = 360° / number of teeth: 18 teeth = 20°, 36 = 10°, 54 = 6.67°, 72 = 5°, 90 = 4° (DT Swiss 'Ratchet technologies overview').
@@ -371,13 +421,14 @@
 
 - **everyday_examples**: 
   - Bicycle rear hubs of the 'star ratchet' type (e.g. DT Swiss (brand) hubs), which click as you coast
+  - Palm-ratchet screwdriver knobs and ratcheting knobs that click one way ⚑ [uncertain] (many such knobs use pawls instead)
   - Sawtooth one-way clutches in small-engine starters (Chinese patent CN203743242U)
-  - Related everyday cousins: clicking fuel caps (sloped teeth that slip, a torque limiter) and push-and-turn child-resistant caps *(unverified parts omitted)*
+  - Related everyday cousins: clicking fuel caps (sloped teeth that slip, a torque limiter) and push-and-turn child-resistant caps *(⚑ parts need confirming)*
 - **when_to_use**: Use a face ratchet when you want a one-way drive or freewheel that is compact along a shaft, strong for its size because every tooth shares the load, and easy to strip and clean, such as a hub, a winding knob, a one-way crank or a printed joint that should ratchet one way. It suits 3D printing because the teeth are on a flat face and it needs only two printed discs and a spring. With symmetric teeth instead of sawtooth teeth the same layout becomes an indexing joint that locks both ways.
-- **when_not_to_use**: If you want it to hold in both directions and be adjusted by hand, use a Hirth joint or a ball detent. If you want it to slip at a set torque, use a ratchet-tooth or ball-detent torque limiter. *(unverified parts omitted)*
-- **environment_limits**: Printed PLA discs soften from about 60 °C (CNC Kitchen). Plastic springs relax under constant load (DuPont), so use a steel spring. *(unverified parts omitted)*
+- **when_not_to_use**: Avoid it when you need zero backlash or silent freewheeling (use a sprag clutch or roller clutch), when the axial space for the sliding disc and spring isn't available (use a ratchet and pawl or a one-way bearing), or at high freewheeling speeds where constant clicking causes wear and noise ⚑ [uncertain]. If you want it to hold in both directions and be adjusted by hand, use a Hirth joint or a ball detent. If you want it to slip at a set torque, use a ratchet-tooth or ball-detent torque limiter. *(⚑ parts need confirming)*
+- **environment_limits**: It depends on its grease: too much or the wrong grease makes the rings slip (DT Swiss manual), and thick grease in cold weather may slow the rings re-engaging ⚑ [uncertain]. Dirt and water in the teeth increase wear ⚑ [uncertain]. Printed PLA discs soften from about 60 °C (CNC Kitchen). Plastic springs relax under constant load (DuPont), so use a steel spring. *(⚑ parts need confirming)*
 - **safety_notes**: On a bicycle, a freewheel that slips because of wrong lubrication can cause a fall; DT Swiss marks this as a risk of injury. The spring is compressed, so parts can jump out when the stack is opened. Fingers can be pinched between the toothed faces when turning it by hand.
-- **common_failures**: From the DT Swiss manual: the freewheel does not engage or slips because one or both ratchet rings are fitted upside down, there is too much or the wrong grease, the rings are worn, or a spring was left out. *(unverified parts omitted)*
+- **common_failures**: From the DT Swiss manual: the freewheel does not engage or slips because one or both ratchet rings are fitted upside down, there is too much or the wrong grease, the rings are worn, or a spring was left out. Other problems: a weak spring lets the teeth jump under load; a strong spring causes drag and wear; the sliding disc binds on its splines or key and can't lift or return ⚑ [uncertain]; printed teeth shear off along layer lines or wear on their stepped ramps ⚑ [uncertain]; and threaded retaining rings seize and are very hard to undo (singletrackworld forum). *(⚑ parts need confirming)*
 - **related**: 
   - Ratchet and pawl: one pawl catches a toothed wheel; simpler and needs no axial spring travel, but carries the load on one tooth
   - Linear ratchet: the same one-way idea on a straight toothed strip
@@ -394,9 +445,12 @@
 - **links**: 
   - [Ratchet Technologies Overview (DT Swiss)](https://www.dtswiss.com/en/wheels/wheels-technology/ratchet-technologies-overview): Diagrams of star-ratchet hub systems with two toothed rings and springs, and a table of tooth counts and engagement angles *(licence: link only)*
   - [DT SWISS Star Ratchet Explained ! & HOW TO Service freehub (YouTube, Alex - Cycle Fixation)](https://www.youtube.com/watch?v=-qO2c1GzQMU): Video of the two toothed ratchet rings and springs inside a hub, how they engage, and how to clean and grease them *(licence: link only (standard YouTube licence))*
-  - [US6907971B2 One-way clutch (Stackpole, Google Patents)](https://patents.google.com/patent/US6907971B2/en): Patent drawings of a spring-loaded face ratchet one-way clutch with inclined faces and axial locking faces *(licence: link only)* *(unverified parts omitted)*
+  - [DT Star Ratchet Hubs Technical Manuals (Internet Archive)](https://archive.org/details/dt-swiss-ratchet-hub-manual-v17-08-and-v22-09): Exploded diagrams of the ratchet rings, springs and ring nut, assembly steps and a troubleshooting table *(licence: link only ⚑ [uncertain])*
+  - [Durley, Kinematics of Machines, ch. IX 'Ratchet mechanisms and escapements' (Cornell eCommons scan)](https://ecommons.cornell.edu/server/api/core/bitstreams/809167fc-7cef-4c99-a0a1-60a708dede4f/content): Fig. 158: a jaw clutch with sloped jaws that works as a one-way (running) ratchet, next to a square-jaw clutch that locks both ways *(licence: old book scan, likely public domain ⚑ [uncertain])*
+  - [US6907971B2 One-way clutch (Stackpole, Google Patents)](https://patents.google.com/patent/US6907971B2/en): Patent drawings of a spring-loaded face ratchet one-way clutch with inclined faces and axial locking faces *(licence: link only)* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
-  - [scad-lib-hirthjoints (mechadense, OpenSCAD library README)](https://raw.githubusercontent.com/mechadense/scad-lib-hirthjoints/master/README.md): OpenSCAD library that generates correct face-toothed (Hirth) joints, flat or conical, with tooth count, radius and slant as parameters; a starting point for printed face teeth, though its teeth are symmetric, not sawtooth *(licence: LGPL-3.0)* *(unverified parts omitted)*
+  - [Print-in-Place Palm Ratchet - 6.5mm axis (Dracrius, Printables; remix of shiura's Print-in-place Palm Ratchet)](https://www.printables.com/model/432501-print-in-place-palm-ratchet-65mm-axis): Remixed shaft for shiura's print-in-place palm ratchet screwdriver knob, whose tapered ratchet teeth lock when you press the knob towards the screw; the rest of the knob comes from shiura's original. Details read through the Printables public API because the web page blocks automated access ⚑ [uncertain] (unclear whether the mechanism is a true face ratchet) *(licence: CC BY-NC-SA)*
+  - [scad-lib-hirthjoints (mechadense, OpenSCAD library README)](https://raw.githubusercontent.com/mechadense/scad-lib-hirthjoints/master/README.md): OpenSCAD library that generates correct face-toothed (Hirth) joints, flat or conical, with tooth count, radius and slant as parameters; a starting point for printed face teeth, though its teeth are symmetric, not sawtooth *(licence: LGPL-3.0)* *(⚑ parts need confirming)*
 - **diagram_idea**: Side view of two discs with sawtooth faces on a shaft with a spring behind the right-hand disc: first the discs lock and turn together; then, turned the other way, the ramps push the right disc back against the spring (shown compressing) until the tips pass and it snaps into the next gap, with an angle arc labelled '360° / number of teeth'.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Freewheel
@@ -419,9 +473,26 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: not applicable
+- **clicks**: clicks
+- **tools**: hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, everyday_examples, input_output, links, load, make_it_yourself, making_tips_3d_printing, materials, play_and_precision, print_in_place, processes, special_behaviour, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, everyday_examples, input_output, links, load, make_it_yourself, making_tips_3d_printing, materials, play_and_precision, print_in_place, processes, special_behaviour, when_not_to_use
 
 ## 10 Sprag clutch
 
@@ -554,6 +625,23 @@
   - https://www.youtube.com/watch?v=0gwzmLh03Bw
   - https://www.youtube.com/watch?v=CFKsOhuGhno
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: not applicable
+- **clicks**: silent ⚑ *needs confirming (best guess): the text uses both clicking and silent words*
+- **tools**: press or vice, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ## 11 Roller clutch (one-way bearing)
 
 *one-way & ratchet.* Rollers sit in ramped pockets and wedge tight when the shaft turns one way, but roll free the other way; sold as a ready-made one-way needle bearing
@@ -598,7 +686,7 @@
 - **holding_principle**: 
   - friction or clamping (force-fit): the rollers wedge between a ramp and a smooth shaft and hold by friction
   - not a holding joint (it moves or passes on motion): it passes on or blocks turning force between shaft and housing
-- **input_output**: Rotation -> rotation at 1:1 in the drive direction; freewheel (overrun) in the other. Efficiency: close to lossless when locked, with a small spring drag when overrunning. Shaft arrangement: in line (shaft inside ring). Back-drivable: the output can always run ahead in the free direction; turning it backwards relative to the input locks it, so with the ring fixed it is not back-drivable (anti-reverse). Motion rectifier: oscillating rotation or reciprocating linear motion -> continuous one-way rotation; Li et al.'s shock-absorber harvester (two roller clutches and three bevel gears) reached over 60 percent mechanical efficiency, compared with 30-45 percent for their conventional design. Take-up (delay) angle: small and growing with load; *(unverified parts omitted)*
+- **input_output**: Rotation -> rotation at 1:1 in the drive direction; freewheel (overrun) in the other. Efficiency: close to lossless when locked, with a small spring drag when overrunning. Shaft arrangement: in line (shaft inside ring). Back-drivable: the output can always run ahead in the free direction; turning it backwards relative to the input locks it, so with the ring fixed it is not back-drivable (anti-reverse). Motion rectifier: oscillating rotation or reciprocating linear motion -> continuous one-way rotation; Li et al.'s shock-absorber harvester (two roller clutches and three bevel gears) reached over 60 percent mechanical efficiency, compared with 30-45 percent for their conventional design. Take-up (delay) angle: small and growing with load; NTN's delay-angle chart spans 0 to 5 degrees ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **power**: passive (no power needed): springs and friction do the work
 - **removability**: semi-permanent (can be undone but may damage parts): drawn-cup clutches are press-fitted into the housing and can be pressed out, but the thin cup deforms easily; larger roller clutches with keyed hubs are removable
 - **reuse_cycles**: a few times: a press-fitted drawn cup can be removed and refitted only a few times before the fit or cup is damaged; the shaft slides in and out freely (turn it the free way while inserting, NTN)
@@ -606,7 +694,7 @@
 - **seal**: none: open drawn cups have no seals; they are pre-greased and rely on the surrounding parts to keep dirt out
 - **load**: light to medium: NTN drawn-cup clutches carry about 1.76 N·m on a 6 mm shaft (HF0612), 5.3 N·m on 10 mm (HF1012), 28.5 N·m on 20 mm (HF2016) and 121 N·m on 35 mm (HF3520); industrial roller clutches go much higher. Strong in twist in the locking direction only. The HF type carries no radial load and must have a bearing on each side; the HFL type has built-in needle bearings for radial load (NTN). Printed plastic versions carry only small torques
 - **adjustable**: no: nothing to adjust. To reverse the locking direction, press a drawn cup in the other way round (the free direction is marked on the ring face, NTN) or flip the hub of a printed version
-- **play_and_precision**: Play: small. Rollers are individually sprung so they always touch the shaft, which gives high indexing accuracy (Engineer Live), but there is a small take-up angle between input and output (NTN's 'delay angle', which rises with load and stays stable for over a million cycles; Repeatability: good for indexing. Misalignment: very little tolerated; NTN specifies shaft tolerance h5 (h6), shaft roundness IT3 and support bearings on both sides to keep it concentric *(unverified parts omitted)*
+- **play_and_precision**: Play: small. Rollers are individually sprung so they always touch the shaft, which gives high indexing accuracy (Engineer Live), but there is a small take-up angle between input and output (NTN's 'delay angle', which rises with load and stays stable for over a million cycles; NTN's chart spans 0 to 5 degrees ⚑ [uncertain]). Repeatability: good for indexing. Misalignment: very little tolerated; NTN specifies shaft tolerance h5 (h6), shaft roundness IT3 and support bearings on both sides to keep it concentric *(⚑ parts need confirming)*
 - **access_needed**: end of a tube or shaft: the clutch is pressed into a bore and the shaft is pushed through it
 - **materials**: Bought units: pressed alloy-steel cup, hardened steel needle rollers, glass-fibre-reinforced polyamide cage, steel springs. The shaft must be hardened steel (HRC 58-64, NTN) because the rollers run directly on it. Housings: steel, cast iron or aluminium alloy; for plastic housings use the knurled-outer-ring version (suffix R) (Engineer Live). Printed versions: PLA or PETG, with printed rollers or steel pins as rollers
 - **maker_difficulty**: easy to moderate: a bought one-way needle bearing just presses into a housing, but it needs a hardened, accurate shaft and a stiff housing; print-in-place plastic versions are easy to print but weak
@@ -619,7 +707,7 @@
   - 3D print (resin): fine print-in-place clutches (not tested in this research)
   - CNC: hardened shafts and precise housing bores for bought units
 - **print_in_place**: yes: several Printables designs print already assembled with the rollers inside (e.g. Jori's 32 mm model, Radim Mach's parametric bearing, Wakkie's bearing), though they are weak and may need breaking free; others are 'partly', adding pen springs (tylermor) or metal cylinders as rollers (ukman's one-way screwdriver)
-- **making_tips_3d_printing**: Two routes. (1) Print the whole clutch. Print-in-place designs put the hub, rollers and outer ring on the build plate together with the rotation axis vertical, so every roller and ramp is drawn round in the XY plane. Jori's 32 mm, 6 mm-tall model printed at 0.16 mm layers with no supports in under 30 minutes, but needed breaking free after printing (a hex key in the centre hole helps). Plastic grip is weak: tylermor found PLA works but 'max gripping torque is still kind of low', and used pen springs to press shoes against the rollers. For more grip, use steel rollers (dowel pins) in printed pockets, as in ukman's one-way screwdriver (Hackaday says it suits light assembly work, not high torque). Keep grease out of friction clutches, or use very little: NTN warns that too much grease stops even a steel clutch gripping properly. (2) Buy a drawn-cup clutch and print around it. Press it into the housing with a flat-ended tool on the marked face, never hammer it (NTN). Use the knurled 'R' version in plastic housings (Engineer Live). Use a hardened, ground steel shaft (e.g. a hardened dowel pin or linear rod), not a printed or soft shaft, and support it with a bearing on each side or use the HFL type. weav's printed spool gear with an HF0306 on a stock 3 mm rod has run for over six months in a low-torque filament box, but he notes the rod's hardness and roundness are unknown. *(unverified parts omitted)*
+- **making_tips_3d_printing**: Two routes. (1) Print the whole clutch. Print-in-place designs put the hub, rollers and outer ring on the build plate together with the rotation axis vertical, so every roller and ramp is drawn round in the XY plane. Radim Mach's parametric model is labelled '0.2' in its preview image, which suggests a 0.2 mm gap between parts ⚑ [uncertain]; a snippet from the now-offline Maker's Muse page said you need a printer that can manage 0.2 mm clearances ⚑ [uncertain]. Jori's 32 mm, 6 mm-tall model printed at 0.16 mm layers with no supports in under 30 minutes, but needed breaking free after printing (a hex key in the centre hole helps). Plastic grip is weak: tylermor found PLA works but 'max gripping torque is still kind of low', and used pen springs to press shoes against the rollers. For more grip, use steel rollers (dowel pins) in printed pockets, as in ukman's one-way screwdriver (Hackaday says it suits light assembly work, not high torque). Keep grease out of friction clutches, or use very little: NTN warns that too much grease stops even a steel clutch gripping properly. (2) Buy a drawn-cup clutch and print around it. Press it into the housing with a flat-ended tool on the marked face, never hammer it (NTN). Use the knurled 'R' version in plastic housings (Engineer Live). Make the housing wall thick: NTN asks for at least 0.75 x (outer diameter minus roller circle) in iron and 1.5 x in light alloy, so a printed housing needs at least that much or more ⚑ [uncertain]. Use a hardened, ground steel shaft (e.g. a hardened dowel pin or linear rod), not a printed or soft shaft, and support it with a bearing on each side or use the HFL type. weav's printed spool gear with an HF0306 on a stock 3 mm rod has run for over six months in a low-torque filament box, but he notes the rod's hardness and roundness are unknown. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Search: 'drawn cup roller clutch', 'one-way needle bearing', 'HF' series (e.g. HF0612 = 6 mm shaft, 12 mm wide; HF0306 = 3 mm shaft), 'HFL' series (with built-in bearings), 'HF...R' (knurled outer ring for plastic housings), 'one-way locking needle-roller bearing' and 'one-way clutch, roller engagement' (knurled or keyed hub) (McMaster), 'one-way-locking sprocket', 'freewheel', 'overrunning clutch'. Pair HF clutches with matching 'HK' drawn cup needle roller bearings as support bearings (NTN lists matching HK sizes). Shafts: hardened ground dowel pins or linear shafts. For a motion rectifier: two one-way bearings plus a gear pair or three bevel gears.
 - **rules_of_thumb**: 
   - Shaft (the rollers run on it): hardened to HRC 58-64 with at least 0.4 mm hardened depth, roughness 0.2 micrometre Ra, roundness IT3 (IT4) (NTN one-way clutch catalogue, Table 3)
@@ -698,9 +786,26 @@
   - https://www.youtube.com/watch?v=UIhCPl8eb7s
   - https://www.youtube.com/watch?v=oQ34BJk4HGs
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: not applicable
+- **clicks**: silent
+- **tools**: press or vice, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes*
+- **adjustable**: no
+- **removability**: semi-permanent
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** input_output, making_tips_3d_printing, play_and_precision
+- ⚑ **Fields with parts that need confirming:** input_output, making_tips_3d_printing, play_and_precision
 
 ## 12 Wrap-spring clutch (spring clutch)
 
@@ -773,7 +878,7 @@
   - CNC: turned steel or brass hubs of matched diameter for a stronger home-made clutch
   - woodwork: not suitable for the hubs
 - **print_in_place**: no: the spring has to be steel (printed plastic springs creep and lose their grip), so at best the hubs are printed separately and a metal spring is fitted over them
-- **making_tips_3d_printing**: Use a steel spring: plastic springs slowly deform under constant load (creep), and PLA in particular makes a poor spring (Hackaday, 'The Challenges Of 3D Printing Reliable Springs'). Printed hubs work for light duty: Johegy's replacement hub for a chain-operated roller blind clutch is printed in PETG or ASA/ABS with default settings and no supports, in the orientation of the supplied STL, and reuses the original springs; the original plastic hub had worn grooves where the springs rub, so expect printed hubs to wear too and use a tough, wear-resistant filament. Make the input and output hubs exactly the same diameter and keep them on one axis, because one spring spans both (Machine Design). Size the spring's inside diameter slightly smaller than the hubs so it grips lightly before any load (Machine Design). Keep the running surface either consistently dry or consistently lubricated, because the grip depends exponentially on friction (capstan equation), so a change in oiliness changes the torque a lot. For a quick test mechanism, salvage the clutch from a cheap chain-operated roller blind. *(unverified parts omitted)*
+- **making_tips_3d_printing**: Use a steel spring: plastic springs slowly deform under constant load (creep), and PLA in particular makes a poor spring (Hackaday, 'The Challenges Of 3D Printing Reliable Springs'). Printed hubs work for light duty: Johegy's replacement hub for a chain-operated roller blind clutch is printed in PETG or ASA/ABS with default settings and no supports, in the orientation of the supplied STL, and reuses the original springs; the original plastic hub had worn grooves where the springs rub, so expect printed hubs to wear too and use a tough, wear-resistant filament. Make the input and output hubs exactly the same diameter and keep them on one axis, because one spring spans both (Machine Design). Size the spring's inside diameter slightly smaller than the hubs so it grips lightly before any load (Machine Design). Printing the hub with its axis vertical should give the roundest cylinder, but the spring then runs across layer lines, so lightly sand or polish the surface ⚑ [uncertain]. Keep the running surface either consistently dry or consistently lubricated, because the grip depends exponentially on friction (capstan equation), so a change in oiliness changes the torque a lot. For a quick test mechanism, salvage the clutch from a cheap chain-operated roller blind. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Search: 'wrap spring clutch', 'spring clutch' (overrunning, start/coast, single revolution), 'wrap spring clutch-brake', 'electric wrap spring clutch', 'wrap spring brake', 'single revolution clutch', 'spring clutch with stop collar' (1, 2 or 4 stops), 'roller blind clutch' or 'chain clutch' (spares for chain-operated roller blinds). Units come in clockwise or counter-clockwise versions, with hub or shaft input, in bores from 1/4 inch upwards; electric versions come for 24 V DC or 115 V AC (Inertia Dynamics, Warner Electric).
 - **rules_of_thumb**: 
   - The spring's inside diameter is slightly smaller than the hub diameter, giving an interference fit that starts the wrap-down (Machine Design, 'Getting up to speed with wrap-spring clutch/brakes')
@@ -794,8 +899,8 @@
   - Packaging machines, printing presses, tape dispensers and staplers that start and stop once per cycle (Machine Design; Warner Electric)
 - **when_to_use**: Use a wrap-spring clutch when you need a compact one-way drive with a lot of torque for its size and no slip once engaged, or when you need to start and stop a continuously running shaft exactly one turn (or part turn) at a time with an accurate stop position: paper feeds, cut-off knives, dispensers, stitchers and indexing tables. It is also a simple, low-power way to make a hand-operated mechanism that holds its position against a load but moves when you operate it, as in a roller-blind chain drive. Electric versions need little power and switch in milliseconds (Reell).
 - **when_not_to_use**: Avoid it when you need a soft, gradual start or adjustable slip (use a friction clutch), when the drive must reverse under power (standard units drive one way only), above about 1,800 rpm, or for large shock and radial loads. Single-revolution clutches brake weakly, so use a full clutch-brake or a separate brake for high-inertia loads. For a one-way clutch with no drag or wear while overrunning at high speed, use a sprag clutch; for a fully printable one-way part, use a ratchet and pawl, a printed roller clutch or a compliant ratchet; for a simple positive on/off drive, use a dog clutch.
-- **environment_limits**: Grip depends on friction between spring and hub, and holding torque rises exponentially with the friction coefficient (capstan equation), so oil, grease, dust or wear on the hubs change how much it can carry; industrial units rely on oil-impregnated hubs to lubricate the spring (Inertia Dynamics) and some are sold as needing no lubrication or maintenance for life (Warner Electric). Printed plastic hubs wear where the spring rubs (Johegy) and plastic parts creep under steady load (Hackaday). *(unverified parts omitted)*
-- **safety_notes**: Engagement takes only a few milliseconds, so a machine driven through a single-revolution clutch starts suddenly: keep fingers clear of anything it drives (pinch points). A worn roller-blind clutch can let a heavy blind drop by itself (Johegy). In solenoid clutch-brakes, losing power stops the output and the brake spring holds it (Inertia Dynamics DCB). *(unverified parts omitted)*
+- **environment_limits**: Grip depends on friction between spring and hub, and holding torque rises exponentially with the friction coefficient (capstan equation), so oil, grease, dust or wear on the hubs change how much it can carry; industrial units rely on oil-impregnated hubs to lubricate the spring (Inertia Dynamics) and some are sold as needing no lubrication or maintenance for life (Warner Electric). No temperature ratings were found in the sources opened ⚑ [uncertain]. Printed plastic hubs wear where the spring rubs (Johegy) and plastic parts creep under steady load (Hackaday). *(⚑ parts need confirming)*
+- **safety_notes**: Engagement takes only a few milliseconds, so a machine driven through a single-revolution clutch starts suddenly: keep fingers clear of anything it drives (pinch points). A worn roller-blind clutch can let a heavy blind drop by itself (Johegy). Wound springs store energy and their ends are sharp; wear eye protection when fitting or removing them ⚑ [uncertain]. In solenoid clutch-brakes, losing power stops the output and the brake spring holds it (Inertia Dynamics DCB). *(⚑ parts need confirming)*
 - **common_failures**: Hub wear where the spring rubs, until the spring can no longer grip and the load slips or runs back (e.g. a roller blind that glides down by itself; Johegy); longer-life units add hardened wear rings at the spring crossover points (Inertia Dynamics). Springs that don't fully wrap down or release because the load inertia is too low, and excess wear when the maximum load inertia is exceeded (Machine Design). Bearing wear from side loads when the anti-rotation tab is mounted rigidly (Inertia Dynamics). Spring fatigue at the end of its cycle life (Machine Design). Changes in grip from contamination or lubricant, because torque depends exponentially on friction (Wikipedia, Capstan equation).
 - **related**: 
   - Sprag clutch: tilted blocks between rings; one-way only, can't be switched on and off, but carries very high torque and can run almost without contact at high speed
@@ -838,9 +943,26 @@
   - https://www.youtube.com/watch?v=92Ti7LBjfYQ
   - https://www.youtube.com/watch?v=AFFHEb4NEY4
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: slips and keeps going
+- **clicks**: silent
+- **tools**: hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, making_tips_3d_printing, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, safety_notes
 
 ## 13 Compliant ratchet and overrunning clutch (flexure pawl)
 
@@ -882,15 +1004,15 @@
   - tensioning (takes up slack and holds): in winders and cable ties it keeps the tension you wind or pull in
   - BYU variant only: centrifugal throw-out, meaning the pawls swing clear of the teeth at speed, so the freewheeling clutch runs with less rubbing, noise and wear (US 6,148,979)
 - **holding_principle**: shape (the parts interlock; form-fit): the tip of the catch hooks against a tooth face, spring force (a springy part presses it in place): the bent arm keeps the catch pressed into the teeth
-- **input_output**: Rotation in the driving direction -> the same rotation at 1:1 (it is a clutch, not a gearbox); in the other direction the wheel freewheels. Shafts in line. Efficient when driving because nothing slides once a catch is engaged; there is a small drag from the arms rubbing over the teeth when freewheeling. Back-drivable: no in the locking direction; free in the other direction. *(unverified parts omitted)*
+- **input_output**: Rotation in the driving direction -> the same rotation at 1:1 (it is a clutch, not a gearbox); in the other direction the wheel freewheels. Shafts in line. Efficient when driving because nothing slides once a catch is engaged; there is a small drag from the arms rubbing over the teeth when freewheeling. Back-drivable: no in the locking direction; free in the other direction. BYU reported a polypropylene clutch reaching over 66.2 N·m peak torque with under 0.01 N·m overrunning torque ⚑ [uncertain: figures from the listing of the 1998 ASME paper by Roach, Lyon and Howell; the page itself could not be opened]. *(⚑ parts need confirming)*
 - **power**: passive (no power needed)
 - **removability**: removable: two-part designs (pawl hub plus ratchet ring) slide apart; print-in-place versions are captive, so in practice they are permanent unless you cut them
 - **reuse_cycles**: many times: there are no fasteners to wear out; the life limit is fatigue of the springy arms, not taking it apart
 - **tools_needed**: none: it prints or moulds in one piece; two-part versions push together by hand
 - **seal**: none: it is an open mechanism and nothing makes it seal
-- **load**: Light to medium. Weak if the catch is loaded sideways or the thin arm has to carry the lock. Plastic versions suit hand-powered and small-motor loads, not lifting people or heavy overhead loads. *(unverified parts omitted)*
+- **load**: Light to medium. Strongest in the locking direction when the tooth pushes straight along the catch, so the stiff part of the pawl, not the thin spring arm, carries the load (the BYU patent uses separate support members for this; a BYU thesis reports the most torque with pawls loaded in compression ⚑ [uncertain: thesis seen only as a search listing]). Weak if the catch is loaded sideways or the thin arm has to carry the lock. Plastic versions suit hand-powered and small-motor loads, not lifting people or heavy overhead loads. *(⚑ parts need confirming)*
 - **adjustable**: no: the click force is set by the arm's length and thickness; to change it you reprint or remould with a different arm
-- **play_and_precision**: It returns to tooth positions repeatably. It tolerates a little wobble because the arms flex, but the catch tips must stay lined up with the teeth. *(unverified parts omitted)*
+- **play_and_precision**: Noticeable: like any ratchet it can slip back by up to one tooth before a catch lands (Wikipedia, Ratchet (device)); more teeth, or several catches offset by a fraction of a tooth, make the steps smaller ⚑ [uncertain: offset-pawl trick not verified on an opened page]. It returns to tooth positions repeatably. It tolerates a little wobble because the arms flex, but the catch tips must stay lined up with the teeth. *(⚑ parts need confirming)*
 - **access_needed**: end of a tube or shaft: the hub or wheel slides onto the end of a shaft; print-in-place demos need no access at all
 - **materials**: Moulded versions: polypropylene (named in the BYU patent because it is cheap and easy to mould); acetal (Delrin) gears with molded-in springs acting on a nylon ratchet wheel (DuPont design guide, Fig. 8.01); nylon (cable ties). Metal versions: heat-treated flat spring steel blades (RoyMech). 3D printing: PETG or nylon for the springy arms; PLA 'makes for a very poor spring material' (Hackaday). It is a mechanism, not a joining method, so it does not 'join' materials.
 - **maker_difficulty**: moderate: it prints in one piece, but getting the arm stiffness, tip clearance and tooth shape right usually takes a few test prints
@@ -899,8 +1021,10 @@
 
 - **processes**: 
   - 3D print (FDM): the usual maker method; prints in one piece
+  - 3D print (resin): possible for small demos, but many standard resins are brittle, so thin arms may crack ⚑ [uncertain]
+  - CNC or laser cut: flat versions can be cut from sheet plastic such as acetal ⚑ [uncertain]
   - sheet metal: spring-steel blade pawls in metal ratchets (RoyMech, spring blade ratchet)
-  - off-the-shelf part: a cable tie is a ready-made linear ratchet with a moulded flexing catch *(unverified parts omitted)*
+  - off-the-shelf part: a cable tie is a ready-made linear ratchet with a moulded flexing catch *(⚑ parts need confirming)*
 - **print_in_place**: yes: the wheel, the springy catches and the frame can print already assembled and working, provided there is clearance between the moving parts (Prusa suggests at least 0.3 mm as a starting point)
 - **making_tips_3d_printing**: Orientation: print it lying flat so the arms bend sideways in the plane of the bed. Each arm is then built from continuous extrusion lines running along its length, and bending does not try to peel layers apart (Hubs' living-hinge rule: orient so the hinge's width, not its length, is built up layer by layer). Arm size: make each arm at least two perimeters wide (about 0.9 mm with a 0.4 mm nozzle; one perimeter, about 0.45 mm, is the absolute minimum, Prusa). For a given bend, stress rises with thickness and falls with length (standard cantilever formula, quoted in the print-bench design brief), so prefer longer, thinner arms to short, thick ones. Tapering the arm toward its tip (a constant-strength beam) gives the same stiffness at about two-thirds of the stress (DuPont, p. 36). Add a generous fillet where the arm joins the hub, because sharp corners start fatigue cracks (DuPont, p. 36). Clearance: leave at least 0.3 mm between wheel and frame and around the catch tips (Prusa), and check the first layer, since a squashed first layer (elephant's foot) is a common reason print-in-place parts fuse. Material: PETG or nylon for the arms; avoid PLA for anything that must click many times (Hackaday). Rest state: design so the catches sit in the tooth gaps with little or no bend when stopped; plastic springs held bent for long periods creep and lose force (DuPont, pp. 36-37 and 47). Tooth shape: make the locking face of each tooth point straight at the centre (radial) or slightly undercut, so the load pulls the catch in, and make the back of the tooth a shallow slope so the catch rides over it (one hobby brief used a radial locking flank and about a 60° drive flank). Use two or more catches spread round the wheel to share and balance the load. Typical print failures: an arm snapping at its root (add a fillet, taper it, use PETG or nylon, reduce how far it bends), arms taking a set so the clicks get weak (reduce preload), catches skipping under load (steeper locking face, stiffer arms, more catches) and fused parts (more clearance).
 - **off_the_shelf_parts**: Few ready-made compliant ratchets are sold as parts. Useful search terms: 'cable tie' and 'releasable cable tie' (linear version with a moulded flexing pawl); 'flat spring', 'leaf spring' or 'spring steel shim' (to make a metal spring-blade pawl); 'ratchet wheel' (plastic or steel, to pair with a printed flexure pawl); 'one-way bearing' or 'one-way needle roller clutch' (a silent ready-made alternative). BYU's compliant overrunning clutch is shared as a free printable model (Thingiverse thing:3007265).
@@ -912,7 +1036,8 @@
   - Start with at least 0.3 mm clearance between printed moving parts; the minimum printable wall is one extrusion width, about 0.45 mm for a 0.4 mm nozzle (Prusa Knowledge Base, Modeling with 3D printing in mind).
   - FDM living hinges: 0.4-0.6 mm thick with at least two layers, oriented so the hinge width is built up layer by layer; a nylon FDM example lasted only about 25 full folds, so a printed ratchet arm should bend far less than a folding hinge (Hubs, How to design living hinges for 3D printing).
   - Any ratchet can slip back by up to one tooth pitch before it catches (Wikipedia, Ratchet (device)).
-  - Metal spring-blade ratchets, with proper heat treatment, give long life under light loading and can index to about one-tenth of a degree (RoyMech, Ratchets). *(unverified parts omitted)*
+  - Metal spring-blade ratchets, with proper heat treatment, give long life under light loading and can index to about one-tenth of a degree (RoyMech, Ratchets).
+  - Hobby design brief example: 56 mm, 24-tooth wheel with two opposed PETG pawl beams 1.2 mm thick, 10 mm long and 8 mm wide, locking flank radial (0°), drive flank about 60°, 0.4 mm radial clearance, target click force 1-2 N at the rim (GitHub shaiss/print-bench issue #668) ⚑ [uncertain: an untested hobby brief, not a design guide]. *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -922,7 +1047,7 @@
   - Plastic gear-and-ratchet parts in small machines, with the pawl springs moulded into the gear (DuPont design example, Fig. 8.01)
 - **when_to_use**: When you want a one-way or click-stop action in a printed or moulded part without buying springs and pins: winders and take-up spools, anti-reverse on a hand crank, one-way knobs, simple freewheels in toys and light hand tools, and teaching models. It is a good choice when the part should be cheap, one piece, and assemble in seconds (or not at all), when loads are light, and when the catch spends most of its time resting in a tooth gap rather than held bent.
 - **when_not_to_use**: Avoid it for heavy or safety-critical holding (hoists, anything above people): use a steel ratchet and pawl with a metal spring, or a worm drive. Avoid it where a catch must stay bent for long periods, because plastic springs creep and lose force (DuPont): use a metal spring. Avoid it when clicking or the one-tooth backlash matters: use a roller clutch or sprag clutch (silent, no tooth steps) or a wrap-spring clutch. Avoid PLA arms for high cycle counts: use PETG, nylon or a metal spring blade. Avoid fast freewheeling unless the design allows for it (the BYU centrifugal throw-out is one answer).
-- **environment_limits**: All plastic springs creep and relax if held bent, and temperature and chemicals change their spring properties (DuPont, Module I, p. 36); PLA is a very poor spring material (Hackaday, 2026). Nylon parts used outdoors need UV stabilising; outdoor cable ties use nylon with at least 2% carbon black (Wikipedia, Cable tie). Vibration is usually fine because a catch sits in a tooth gap, but a weak arm can let the catch bounce out. *(unverified parts omitted)*
+- **environment_limits**: All plastic springs creep and relax if held bent, and temperature and chemicals change their spring properties (DuPont, Module I, p. 36); PLA is a very poor spring material (Hackaday, 2026). Heat softens printed arms, so a ratchet left in a hot car or next to a motor can weaken and take a set ⚑ [uncertain: no temperature figure verified]. Nylon parts used outdoors need UV stabilising; outdoor cable ties use nylon with at least 2% carbon black (Wikipedia, Cable tie). Vibration is usually fine because a catch sits in a tooth gap, but a weak arm can let the catch bounce out. *(⚑ parts need confirming)*
 - **safety_notes**: Low hazard in small demos. Do not use a printed flexure ratchet as the only thing holding a raised load or a tension that could whip back, because the arms can fail suddenly from fatigue. Small printed parts are a choking hazard for young children.
 - **common_failures**: Arm cracks at its root after many clicks (fatigue, the main weakness of all flexing mechanisms because stress concentrates where they bend; Wikipedia, Compliant mechanism): add a fillet, taper the arm, use PETG or nylon, and reduce how far it bends. Arm takes a permanent bend so clicks become weak or it skips (creep): don't leave catches preloaded; use a tougher material or a metal spring. Catches skip or pop out under load: make the locking tooth face radial or undercut so the load pulls the catch in, add more catches, stiffen the arms. Print-in-place parts fused together: increase clearance to 0.3 mm or more and fix the first layer. Teeth or catch tips wear round: larger teeth or a harder material. Loud clicking or drag when freewheeling: lighter arms, fewer catches, or a centrifugal throw-out design (BYU).
 - **related**: 
@@ -938,8 +1063,13 @@
 
 - **links**: 
   - [File:ZipTieCrossSection.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG): Cutaway photo of a cable tie head showing the moulded springy catch (flexure pawl) against the strap's teeth *(licence: Public domain (released by the author, Mushrooshi))*
+  - [Compliant Overrunning Clutch - 3D printed (BYU Compliant Mechanisms Research Group)](https://www.youtube.com/watch?v=KbHqf4kF5Wk): BYU's printed one-piece compliant overrunning clutch working ⚑ [uncertain: title and channel verified through YouTube's oEmbed data; the video itself was not viewed] *(licence: YouTube standard licence; link only)*
   - [Ratchet mechanism for anti-reverse 1 (Nguyen Duc Thang, thang010146)](https://www.youtube.com/watch?v=rKYTr9NjgOA): CAD animation of a ratchet wheel that turns only one way because a flat spring acts as the pawl (description from Thang's catalogue, Part 2, p. 31) *(licence: link only)*
-  - [US6148979A: Compliant overrunning clutch with centrifugal throw-out (Roach and Howell, BYU)](https://patents.google.com/patent/US6148979A/en): Patent drawings of the one-piece pawl hub with slender biasing arms and support members inside a ratchet ring *(licence: patent document; link only)* *(unverified parts omitted)*
+  - [US6148979A: Compliant overrunning clutch with centrifugal throw-out (Roach and Howell, BYU)](https://patents.google.com/patent/US6148979A/en): Patent drawings of the one-piece pawl hub with slender biasing arms and support members inside a ratchet ring *(licence: patent document; link only)*
+  - [Ratchet (device), Wikipedia](https://en.wikipedia.org/wiki/Ratchet_(device)): Animated gear-and-pawl and rack-and-pawl ratchets, a ratchet drawing and a cable-tie cutaway *(licence: Text CC BY-SA 4.0; each image has its own Commons licence (Ratchet_Gear_and_Pawl.gif listed as CC BY-SA 4.0) ⚑ [uncertain: image licence seen only in a search listing])* *(⚑ parts need confirming)*
+- **make_it_yourself**: 
+  - [Compliant Overrunning Clutch by BYU_CMR (Thingiverse)](https://www.thingiverse.com/thing:3007265): Free printable model of BYU's compliant overrunning clutch (one-piece pawl hub plus ratchet ring) ⚑ [uncertain: the page was opened but its content did not render; title from the search listing and the run-1 preferred-sources list] *(licence: ⚑ [uncertain])*
+  - [Design brief: pip-ratchet, a print-in-place one-way wheel (GitHub issue)](https://github.com/shaiss/print-bench/issues/668): A hobby project's written design brief for a print-in-place ratchet with two PETG flexure pawls, giving dimensions, clearances, tooth angles and a test-coupon plan (a brief, not a finished, tested model) *(licence: ⚑ [uncertain])* *(⚑ parts need confirming)*
 - **diagram_idea**: Top view of a toothed ring with two springy arms inside: in frame 1 (free direction) a sloped tooth back lifts a catch and its arm bends, with a 'click' label; in frame 2 (locking direction) the steep tooth face pushes straight into the catch tip, the arm stays straight, and a force arrow runs along the arm into the hub.
 - **sources**: 
   - https://patents.google.com/patent/US6148979A/en
@@ -960,9 +1090,26 @@
   - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rKYTr9NjgOA&format=json
   - https://github.com/shaiss/print-bench/issues/668
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: not applicable
+- **clicks**: clicks
+- **tools**: none
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, links, load, make_it_yourself, play_and_precision, processes, rules_of_thumb
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, load, make_it_yourself, play_and_precision, processes, rules_of_thumb
 
 ## 14 Binding-plate lock (tilting friction plate)
 
@@ -1014,12 +1161,14 @@
 - **input_output**: Holding version: not a motion converter; it simply stops the rod moving back (back-drivable: no, unless the rod is oily, the plate edges are worn, or the plate is held square). Drive version (caulking gun, one-handed bar clamp): repeated trigger squeezes (back-and-forth swing) -> a step-by-step straight push of the rod. Smooth-rod caulking guns with a friction plate give a thrust ratio of about 10:1 or more; older notched ratchet-rod guns about 5:1 (Sashco). The rod runs along the gun or clamp, parallel to the push. Back-drivable: no while the holding plate is engaged.
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release: press the release plate or lever and the rod slides out
+- **reuse_cycles**: many times: it lets go and re-grips thousands of times, but the sharp edges of the hole slowly wear round until it starts to slip ⚑ [uncertain: no cycle count verified] *(⚑ parts need confirming)*
+- **tools_needed**: none to use or release; taking a tool apart to reverse or replace plates usually needs only a screwdriver or pliers ⚑ [uncertain] *(⚑ parts need confirming)*
 - **seal**: none: nothing makes it seal
 - **load**: Medium to heavy along the rod in the locking direction when hard steel plates bite a steel rod, bar or pipe (bar clamps, pipe clamps, caulking guns); zero in the free direction by design. Weak against twisting and sideways loads on the plate. The holding force depends on the rod surface: slick galvanized pipe, oily or glue-covered bars and worn plate edges slip (Sawmill Creek forum threads).
 - **adjustable**: yes: stepless, so it holds at any point along the rod; the hold position is set simply by where you stop
-- **play_and_precision**: This, plus the rod's springiness, is why caulk keeps oozing after you let go; drip-free guns deliberately let the rod retract a few millimetres when you press the release (Caulk Manufacturing). It tolerates a loose, rough fit: the hole only has to be loose enough for the plate to tip. *(unverified parts omitted)*
+- **play_and_precision**: Small: the rod creeps back a little while the plate tips from square to biting ⚑ [uncertain: amount not verified], then holds at any point along the rod (stepless, unlike a ratchet's tooth steps). This, plus the rod's springiness, is why caulk keeps oozing after you let go; drip-free guns deliberately let the rod retract a few millimetres when you press the release (Caulk Manufacturing). It tolerates a loose, rough fit: the hole only has to be loose enough for the plate to tip. *(⚑ parts need confirming)*
 - **access_needed**: end of a tube or shaft: the plate is threaded onto the rod or bar from one end
-- **materials**: Plates: hard steel, stamped from sheet, with a sharp sheared edge on one side of the hole that should face the direction it must bite (pipe-clamp and bar-clamp clutch plates, Sawmill Creek). Rods and bars: steel; black iron pipe grips better than galvanized pipe (Sawmill Creek). Housings and triggers: steel, cast metal or plastic. *(unverified parts omitted)*
+- **materials**: Plates: hard steel, stamped from sheet, with a sharp sheared edge on one side of the hole that should face the direction it must bite (pipe-clamp and bar-clamp clutch plates, Sawmill Creek). Rods and bars: steel; black iron pipe grips better than galvanized pipe (Sawmill Creek). Housings and triggers: steel, cast metal or plastic. For makers: a steel washer or cut steel plate on a steel rod; plastic plates or plastic rods wear and slip ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: the idea is simple and works with a drilled steel plate or washer, a spring and a steel rod, but the biting parts should be metal, because a printed plastic plate or rod will wear and slip
 
 ### Making it
@@ -1031,7 +1180,7 @@
   - 3D print (FDM): the housing, trigger, release lever and spring seats, not the biting plate
   - woodwork: frames and jaws for home-made clamps
 - **print_in_place**: no: the biting plate and the rod should be steel and a spring is needed; only the housing and levers are printed
-- **making_tips_3d_printing**: Print the frame, trigger and release lever, but keep the biting plate and the rod metal (a steel washer or cut steel plate on a ground steel rod or flat bar). Put the sharp, sheared edge of the hole on the side that should bite (Sawmill Creek). Add a small compression spring to hold the plate tipped and a lever or button that pushes it square to release. Print the housing so the plate's reaction force presses into solid walls rather than pulling layers apart (FFF prints are stronger in one direction than another, Prusa), with thick walls or solid infill around the edge the plate leans on. Keep grease and oil off the rod: lubricant lowers friction and can stop it locking (Kalsi says to design with the lubricant that will be present). *(unverified parts omitted)*
+- **making_tips_3d_printing**: Print the frame, trigger and release lever, but keep the biting plate and the rod metal (a steel washer or cut steel plate on a ground steel rod or flat bar). Make the plate's hole slightly bigger than the rod so it can tip a few degrees: too loose and it tips too far before biting, too tight and it may not release ⚑ [uncertain: no verified clearance figure]. Keep the plate thin compared with the rod: a tipped part binds when the friction coefficient is at least engagement length divided by width (Kalsi), so, for example, a 2 mm plate on a 10 mm rod needs a friction coefficient of only about 0.2 to lock ⚑ [uncertain: worked example is an application of Kalsi's rule, not a tested design]. Put the sharp, sheared edge of the hole on the side that should bite (Sawmill Creek). Add a small compression spring to hold the plate tipped and a lever or button that pushes it square to release. Print the housing so the plate's reaction force presses into solid walls rather than pulling layers apart (FFF prints are stronger in one direction than another, Prusa), with thick walls or solid infill around the edge the plate leans on. Keep grease and oil off the rod: lubricant lowers friction and can stop it locking (Kalsi says to design with the lubricant that will be present). *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Smooth-rod (friction-drive) caulking gun; one-handed trigger bar clamp, e.g. Quick-Grip (brand); pipe-clamp fixtures for black iron pipe (they hold with clutch plates); replacement 'clutch plates' for pipe and bar clamps; steel flat washers and fender washers; small compression springs; ground steel rod ('drill rod') or cold-rolled steel flat bar.
 - **rules_of_thumb**: 
   - Binding threshold: a tipped part binds if the friction coefficient is equal to or greater than engagement length divided by engagement width, e.g. 0.8 in / 4.0 in = 0.2 (Kalsi Seals Handbook, ch. D21 'Sticky drawer effect'). A binding plate is deliberately made far thinner than this ratio needs, so it always locks.
@@ -1052,7 +1201,7 @@
   - Hunter's climbing tree stand, which uses the sticky drawer effect on purpose to lock onto the tree (Kalsi, ch. D21, footnote)
 - **when_to_use**: When a rod, bar or pipe must hold at any point (not just at notches) against a push in one direction and release instantly by hand: clamps, pushers and feeders, adjustable stops and props, telescoping supports under light to medium loads, and simple trigger-driven straight-line drives. It works with cheap, rough parts; a steel washer on a steel rod will do.
 - **when_not_to_use**: Avoid it when the rod is plastic, oily, or slick-coated, because it slips: use a toothed linear ratchet instead. Avoid it for loads that must never drop, such as anything over people, unless it is a rated product: friction locks slip when surfaces are contaminated or edges wear, so use a positive lock (pin, toothed ratchet or screw). Avoid it where you need to hold both directions: use a clamp collar or set screw. Avoid it where you need exact, repeatable positions: use indexing holes or a detent.
-- **environment_limits**: Anything that lowers friction can stop it locking: oil, grease, glue or sealant on the rod (Kalsi: the threshold must be checked with the lubricant present; Caulk Manufacturing on sealant residue on caulk-gun rods). New galvanized coatings are slick and slip until scored (Sawmill Creek). Rust and dirt change the grip and can stop it releasing smoothly. *(unverified parts omitted)*
+- **environment_limits**: Anything that lowers friction can stop it locking: oil, grease, glue or sealant on the rod (Kalsi: the threshold must be checked with the lubricant present; Caulk Manufacturing on sealant residue on caulk-gun rods). New galvanized coatings are slick and slip until scored (Sawmill Creek). Rust and dirt change the grip and can stop it releasing smoothly. Steel plates and rods are unaffected by normal heat and cold; printed plastic housings may creep under a constant clamping load ⚑ [uncertain]. Strong vibration may let the rod creep in small steps ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: Pinch points between clamp jaws and at the trigger. A clamp or caulk gun stores force, so releasing it under load can make the jaw or rod jump. If the plate slips (oily rod, worn edges) the load moves suddenly; never rely on a home-made friction lock to hold a person or a heavy load overhead. Stamped plates can have sharp edges when you take a tool apart.
 - **common_failures**: Slipping: plate edges worn round, plates fitted backwards, weak spring, slick or galvanized bar, oily or glue-covered rod; fixes are to reverse, file or replace the plates so a sharp edge faces the load, fit a stronger spring, roughen or clean the bar, or switch to black pipe (Sawmill Creek). Rod won't retract or release smoothly: sealant or glue residue on the rod, or a burred rod (Caulk Manufacturing). Never locks: plate too thick for the rod or hole too tight to tip, so engagement length divided by width is higher than the friction coefficient (Kalsi). Rod marking: the biting edge scores the rod, so don't use it on finished surfaces.
 - **related**: 
@@ -1070,7 +1219,8 @@
   - [US4926722A: Quick-action bar clamp (Sorensen and Gatzemeyer, 1990)](https://patents.google.com/patent/US4926722A/en): Patent drawings of a one-handed bar clamp with a trigger-tipped driving lever and a canted, spring-loaded braking lever on the slide bar *(licence: patent document; link only)*
   - [US2530359A: Operating mechanism for plungers of caulking guns (Peterson, 1950)](https://patents.google.com/patent/US2530359A/en): Drawings of a caulking gun's feeding plates and spring-loaded holding plate that bind on the plunger rod, with the finger release *(licence: patent document; link only)*
   - [Kalsi Seals Handbook, Chapter D21: Sticky drawer effect](https://www.kalsi.com/handbook/D21_Sticky_drawer_effect.pdf): Diagrams of engagement length versus width and of tipped parts binding at opposite corners (Figs. 1 and 3) *(licence: © Kalsi Engineering; link only)*
-  - [Slocum, FUNdaMENTALS of Design, Topic 3 (p. 3-8, Saint-Venant's principle: bearings)](http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF): Sketches of slides that are stable, marginally stable, or jam, depending on their length-to-width ratio *(licence: © Alexander Slocum, free to read; link only)* *(unverified parts omitted)*
+  - [Slocum, FUNdaMENTALS of Design, Topic 3 (p. 3-8, Saint-Venant's principle: bearings)](http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF): Sketches of slides that are stable, marginally stable, or jam, depending on their length-to-width ratio *(licence: © Alexander Slocum, free to read; link only)*
+  - [Learn all about a caulk gun - Fundamentals of Painting - Trades Training Video Series (TEACH Construction Community Education)](https://www.youtube.com/watch?v=SSKu5k4xVPI): Parts and operation of a caulk gun ⚑ [uncertain: title and channel verified through YouTube's oEmbed data; the video itself was not viewed] *(licence: YouTube standard licence; link only)* *(⚑ parts need confirming)*
 - **diagram_idea**: Side view of a rod through a plate with an exaggerated oversized hole: on the left the plate is square and slides (green arrow); on the right it is tipped a few degrees, with two red contact dots on opposite edges of the hole, a curved arrow showing the load tipping it harder, a small spring holding it tipped, and a thumb pressing a release lever to square it.
 - **sources**: 
   - https://patents.google.com/patent/US4926722A/en
@@ -1089,7 +1239,24 @@
   - https://www.youtube.com/watch?v=SSKu5k4xVPI
   - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=SSKu5k4xVPI&format=json
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: back-and-forth turning
+- **motion_out**: steps, straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: silent
+- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…reverse or replace plates usually needs only a screwdriver or pliers [uncertain]…"*
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, links, making_tips_3d_printing, materials, play_and_precision, reuse_cycles, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, links, making_tips_3d_printing, materials, play_and_precision, reuse_cycles, tools_needed
 

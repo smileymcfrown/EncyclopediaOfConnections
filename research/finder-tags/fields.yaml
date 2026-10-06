@@ -1,0 +1,95 @@
+# Fixed-choice finder tags (P3, accepted 2026-10-06). One value or a list per entry.
+# propose.py fills them in from the run 2 results (tags.yaml). The owner accepted its values as the working
+# values on 2026-10-06 (R25); values nobody has confirmed yet are listed under `needs_confirming` and
+# marked on the site, so anyone can suggest a correction.
+# Options are written as they will appear in the finder's filters.
+
+connects:
+  kind: list
+  meaning: What the joint holds together (the "Hold together" branch and "attach X to Y" questions). Not applicable for mechanisms that don't join parts.
+  options: [3D-printed part, boards or sheet, "tube, rod or extrusion", shaft, "strap, cord or fabric", "lid, door or cover", "wall, rail, desk or grid", something to grip, wires, hoses or pipes, any solid parts, not applicable]
+
+power_source:
+  kind: list
+  meaning: What drives or holds it, if anything ("none" for purely passive types).
+  options: [none, electricity, compressed air, liquid, suction, heat]
+
+power_loss:
+  kind: one
+  meaning: What happens when its power is lost (only for types that use power, or whose text says).
+  options: [stays locked, lets go, keeps its last state, not applicable]
+
+motion_in:
+  kind: list
+  meaning: The movement that goes in (the "Change a movement" branch).
+  options: [steady turning, back-and-forth turning, steps, straight push or pull, back-and-forth straight, bending, pressure, heat, not applicable]
+
+motion_out:
+  kind: list
+  meaning: The movement that comes out.
+  options: [steady turning, back-and-forth turning, steps, straight push or pull, back-and-forth straight, bending, pressure, heat, not applicable]
+
+shaft_layout:
+  kind: list
+  meaning: How the input and output shafts are arranged (only where both turn).
+  options: [parallel, at an angle, in line, crossed, far apart, not applicable]
+
+overload_response:
+  kind: one
+  meaning: What it does when overloaded (the "Slip, click or let go if overloaded" branch). "Comes apart without damage, refit by hand" was added on 2026-10-06 (R25) for plugs, magnetic connectors and hook-and-loop that pull apart and are put back by hand; it is the fourth answer to "What should happen when it is overloaded?".
+  options: [slips and keeps going, clicks or pops out and resets, "comes apart without damage, refit by hand", breaks or lets go once, not applicable]
+
+clicks:
+  kind: one
+  meaning: Whether a one-way or indexing type clicks as it works.
+  options: [clicks, silent, not applicable]
+
+glue_traits:
+  kind: list
+  meaning: Glues only. What it is good at (the glue branch's "What matters most?").
+  options: [strongest, stays flexible, fills gaps, fast, can be undone]
+
+bonds_well:
+  kind: list
+  meaning: Glues only. Materials it bonds well.
+  options: [PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, resin prints, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, PVC, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam, stone or concrete]
+
+bonds_poorly:
+  kind: list
+  meaning: Glues only. Materials it bonds poorly or not at all.
+  options: [PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, resin prints, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, PVC, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam, stone or concrete]
+
+electrical_band:
+  kind: one
+  meaning: Entries tagged with the electrical family. The current band from the fixed lead-in of `load` (research rule, R22).
+  options: [signal only, up to about 3 A, up to about 30 A, above about 30 A, not a conductor, not applicable]
+
+tools:
+  kind: list
+  meaning: Tools needed to make, fit or use it (normalised from the free-text `tools_needed`).
+  options: [none, hand tools, soldering iron, drill and tap, press or vice, crimper, glue gun, heat gun, sewing or leather tools, welding or brazing torch, power tools]
+
+load_max:
+  kind: one
+  meaning: The heaviest load band the entry names (normalised from the free-text `load`; light / medium / heavy are rough bands for a maker's project).
+  options: [light, medium, heavy, not applicable]
+
+usual_process:
+  kind: one
+  meaning: How it is usually made or got (the `processes` field lists every possible method).
+  options: [3D print (FDM), 3D print (resin), CNC, laser cut, woodwork, sheet metal, off-the-shelf part, sewing or leatherwork, by hand (tied or wrapped)]
+
+adjustable:
+  kind: one
+  meaning: Normalised from the free-text `adjustable`.
+  options: ["yes", partly, "no"]
+
+removability:
+  kind: one
+  meaning: The first option the entry names (normalised).
+  options: [permanent, semi-permanent, removable, tool-free quick release]
+
+power:
+  kind: one
+  meaning: Normalised from the free-text `power`.
+  options: [passive, powered, both]

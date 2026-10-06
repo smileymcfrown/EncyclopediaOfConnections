@@ -1,6 +1,6 @@
 # sliding, telescoping & linear motion: Slides, telescopes and locks in place
 
-[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
+[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). ⚑ marks what needs confirming; corrections are welcome (`research/needs-confirming.md`).
 
 ## 70 Telescoping tube twist lock (cam or collet twist lock)
 
@@ -44,8 +44,8 @@
 - **removability**: tool-free quick release: twist to unlock and slide; the sections can usually be pulled fully apart past a 'stop' line for cleaning (Ryder-Walker)
 - **reuse_cycles**: many times: it is adjusted every trip, but the plastic expanders wear or get polished and need replacing now and then (Leki FAQ: 'purchase new expanders as yours might be worn'; Backpacker: high-mileage hikers may need to service them yearly)
 - **tools_needed**: None to use. To service: a cloth or old toothbrush and a light grease (Backpacker). To make your own: a saw and file for the tubes, and glue to fix the printed body into the inner tube so it can't turn (the printable tent-pole design uses Araldite).
-- **seal**: none as a rule: dirt, sand and water get onto the threads and friction surfaces and make it slip or seize (Backpacker; Wright patent: 'sand or grit entering the mechanical apparatus causing seizure'). *(unverified parts omitted)*
-- **load**: Light to medium, depending on size. It is strongest against a push or pull along the tube (that is the job), but the length is held only by friction, so an overload makes it slip rather than break. It is weakest in twist: turning the sections the 'unlock' way loosens it. The printable eccentric tent-pole lock 'easily holds body mass' in its largest size (Flex, Printables). *(unverified parts omitted)*
+- **seal**: none as a rule: dirt, sand and water get onto the threads and friction surfaces and make it slip or seize (Backpacker; Wright patent: 'sand or grit entering the mechanical apparatus causing seizure'). Some tripod twist collars have a wiper that wipes the leg clean as it slides in (Ulanzi), which makes them dust-resistant at best ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **load**: Light to medium, depending on size. It is strongest against a push or pull along the tube (that is the job), but the length is held only by friction, so an overload makes it slip rather than break. It is weakest in twist: turning the sections the 'unlock' way loosens it. Brand holding-force claims for internal twist locks exist but could not be verified on an opened page ⚑ [uncertain]; one vendor explainer gives only 3-8 kg for a basic nylon-ring twist lock (poolpole.com, vendor page with no test method) ⚑ [uncertain]. The printable eccentric tent-pole lock 'easily holds body mass' in its largest size (Flex, Printables). *(⚑ parts need confirming)*
 - **adjustable**: yes: the length can be set anywhere along the slide (stepless adjustment). How hard it grips depends on how far you twist it, and on worn or dirty expanders.
 - **play_and_precision**: No play when locked, because the plug or collet takes up the gap between the tubes; a long overlap is still needed to stop wobble (the printable PVC collet adds slide-on shims: 'Two appear sufficient to eliminate nearly all wobble with approximately 12" of extension', jslaker). The length is not repeatable unless you mark it (many poles have a printed scale). The tubes must be round and a close fit; it tolerates almost no sideways offset or angle.
 - **access_needed**: end of a tube or shaft: the expander or cam is fitted into the end of the inner tube, and a collar goes on the end of the outer tube; once built it is worked from the outside by twisting.
@@ -57,10 +57,11 @@
 - **processes**: 
   - off-the-shelf part: replacement expanders, twist-lock plugs and complete twist-lock poles
   - 3D print (FDM): printed collets, forcing cones, eccentric cams and collars for bought aluminium, carbon or PVC tubes
-  - CNC: turned metal collets and threaded collars (lathe work) *(unverified parts omitted)*
+  - 3D print (resin): possible for small cams ⚑ [uncertain]
+  - CNC: turned metal collets and threaded collars (lathe work) *(⚑ parts need confirming)*
 - **print_in_place**: partly: a mostly print-in-place telescoping webcam stand that 'screw-locks' to height exists, but its top and cam screw are printed separately (BRE3DLOVE, Printables). Most printed twist locks are separate parts fitted to bought tubes.
-- **making_tips_3d_printing**: 1) Measure your tubes first and print a test piece: the printed tent-pole cam is 'just a circle offset by 1mm from center', its outside diameter is made 'exactly the same size as ID of the larger tube so it needs a tiny squeeze to fit', and the gap between the cam's hole and the body is 'about 1mm but you may need to adjust'; 'the smaller the tube diameters, the harder to get the tolerance correct' (Flex, Printables 232086). 2) Fix the printed body to the inner tube with glue (Araldite) or it 'will rotate when trying to lock the cam' (Flex). 3) Print the parts that take the squeeze solid: 'Forcing cone and collet printed at 100% infill PETG'; handles can be about 35% infill (jslaker, Printables 145516). 4) Use a parametric model (e.g. the OpenSCAD collet by sdk) so you can regenerate it for your tube sizes; its thin clamping 'wings' are delicate until assembled. 5) Allow at least 0.3 mm clearance for parts that must turn or slide (Prusa), and check vertical holes, which FDM prints undersize; drill them to size if they matter (Hubs). 7) Choose PETG over PLA for anything that stays tight: PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV (Prusa PLA), while PETG suits use below 80 °C (Prusa PETG); even so, a PETG clamp can 'lose compression over hours or days' (goodprints3d). 8) Leave long overlap: the ultralight printed tripod warns to keep the inner tube inside the outer one by at least the length of the lock housing 'otherwise it won't be rigid enough' (danec, Printables 911528). 9) Put a stop on the inner tube so the lock cannot be pulled out or slammed against the end: impact against the stop 'can cause irreversible damage' (Wright patent). *(unverified parts omitted)*
-- **off_the_shelf_parts**: Trekking-pole expander plugs (twist-lock expanders) sold by tube diameter, e.g. 14-18 mm (Leki Easy Lock and Super Lock expanders (brand)); twist-lock plugs made to join two given tube IDs (Valco TL series (brand), e.g. Search terms: 'twist lock expander', 'telescopic pole twist lock', 'twist lock plug', 'tripod leg twist lock', 'internal expander trekking pole'. *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Measure your tubes first and print a test piece: the printed tent-pole cam is 'just a circle offset by 1mm from center', its outside diameter is made 'exactly the same size as ID of the larger tube so it needs a tiny squeeze to fit', and the gap between the cam's hole and the body is 'about 1mm but you may need to adjust'; 'the smaller the tube diameters, the harder to get the tolerance correct' (Flex, Printables 232086). 2) Fix the printed body to the inner tube with glue (Araldite) or it 'will rotate when trying to lock the cam' (Flex). 3) Print the parts that take the squeeze solid: 'Forcing cone and collet printed at 100% infill PETG'; handles can be about 35% infill (jslaker, Printables 145516). 4) Use a parametric model (e.g. the OpenSCAD collet by sdk) so you can regenerate it for your tube sizes; its thin clamping 'wings' are delicate until assembled. 5) Allow at least 0.3 mm clearance for parts that must turn or slide (Prusa), and check vertical holes, which FDM prints undersize; drill them to size if they matter (Hubs). 6) Printed threads and cones are anisotropic: FDM parts are weaker across layers (Hubs), so print collets and cams with their axis vertical so the ring of perimeters carries the squeeze ⚑ [uncertain]. 7) Choose PETG over PLA for anything that stays tight: PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV (Prusa PLA), while PETG suits use below 80 °C (Prusa PETG); even so, a PETG clamp can 'lose compression over hours or days' (goodprints3d). 8) Leave long overlap: the ultralight printed tripod warns to keep the inner tube inside the outer one by at least the length of the lock housing 'otherwise it won't be rigid enough' (danec, Printables 911528). 9) Put a stop on the inner tube so the lock cannot be pulled out or slammed against the end: impact against the stop 'can cause irreversible damage' (Wright patent). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Trekking-pole expander plugs (twist-lock expanders) sold by tube diameter, e.g. 14-18 mm (Leki Easy Lock and Super Lock expanders (brand)); twist-lock plugs made to join two given tube IDs (Valco TL series (brand), e.g. TL-4362 'locks 11 I.D. tube into 16 I.D. tube'); replacement tripod twist-lock leg assemblies sold by leg diameter ⚑ [uncertain];complete twist-lock extension poles and whisker poles; round aluminium or carbon fibre telescoping tube sets. Search terms: 'twist lock expander', 'telescopic pole twist lock', 'twist lock plug', 'tripod leg twist lock', 'internal expander trekking pole'. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - An eccentric-cam twist lock needs only about a quarter turn (about 90 degrees) to lock (Levi and Quarberg, US5549407); a tripod twist collar about half a turn (180 degrees) to release (Benro tripod guide).
   - Printable eccentric cam: offset the cam circle about 1 mm from the tube centre, make the cam's outside diameter equal to the outer tube's inside diameter, and leave about 1 mm between cam bore and body, then tune (Flex, Adjustable twist lock tent pole, Printables 232086).
@@ -81,7 +82,7 @@
 - **when_not_to_use**: Avoid it when the length must be changed quickly with gloves or cold hands, or when you can't see whether it is locked (a lever lock (flip lock) shows its state and is easier to work: Ulanzi; Backpacker). Avoid it for heavy or safety-critical loads, for loads that twist the tube, or for vibration: use a spring button lock or a pin through holes for set positions, or a set screw or bolted clamp for a permanent setting. Avoid it in sandy, salty or muddy places unless you can clean it often (use a lever lock or a sealed design). A square or keyed tube can't use it, because the tubes must turn to lock.
 - **environment_limits**: Water, salt and grit corrode the threads and polish or gum up the plug, so it slips (Backpacker); sand or grit can seize it (Wright patent). Twist-type locks can freeze in the cold or be overtightened until they jam (Tomm patent: 'known to become overtightened and freeze in position'; Johnson and O'Connor patent: twisting devices can 'strip, jam, or in cold weather, freeze'). Heat and sun: Benro advises not leaving a tripod in the sun or heat. Printed parts: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa); plastic expanders and printed collets relax (creep) under constant squeeze, so they need retightening (goodprints3d).
 - **safety_notes**: It can slip suddenly if worn, wet or not tight enough, so don't trust your full weight or an expensive camera to it without testing (Benro: make sure leg locks are tightly engaged before mounting gear, and remove the camera before adjusting leg sections). Overtightening can crack the collar (poolpole.com) or jam the lock, and a jammed lock needs high twisting force that strains the wrists (Tomm patent). Pinch point where the tubes slide together. None of the stored-energy hazards of springs.
-- **common_failures**: 1) Slipping under load because the plug is worn, polished, wet or greasy: clean, dry, lightly roughen the plug and tube wall, and keep oil off (Backpacker). 2) Jammed or seized from overtightening, corrosion or grit: twist firmly but not hard, clean after sandy or salty use, and grease the threads lightly (Backpacker; Wright patent; Benro). 3) Expander spins with the tube and won't tighten (worn threads or plug): replace the expander (Leki). 4) Pulled apart past the stop, or lost expander: many poles have a 'Stop Max' line; don't extend past it (Ryder-Walker); printed replacement expanders exist (Komperdell replacement on Printables). 6) Cracked collar or collet from overtightening (poolpole.com). 7) Printed versions: the body turns in the tube if not glued, and loose tolerances stop the cam gripping (Flex). *(unverified parts omitted)*
+- **common_failures**: 1) Slipping under load because the plug is worn, polished, wet or greasy: clean, dry, lightly roughen the plug and tube wall, and keep oil off (Backpacker). 2) Jammed or seized from overtightening, corrosion or grit: twist firmly but not hard, clean after sandy or salty use, and grease the threads lightly (Backpacker; Wright patent; Benro). 3) Expander spins with the tube and won't tighten (worn threads or plug): replace the expander (Leki). 4) Pulled apart past the stop, or lost expander: many poles have a 'Stop Max' line; don't extend past it (Ryder-Walker); printed replacement expanders exist (Komperdell replacement on Printables). 5) Loosening because the sections got twisted the unlock way in use ⚑ [uncertain]. 6) Cracked collar or collet from overtightening (poolpole.com). 7) Printed versions: the body turns in the tube if not glued, and loose tolerances stop the cam gripping (Flex). *(⚑ parts need confirming)*
 - **related**: 
   - Telescoping tube lever lock (flip lock): an outside clamp collar squeezed by a flip lever; faster, works with gloves and shows whether it is locked, but sticks out and can snag
   - Spring button lock (snap button): a spring button pops through holes, so it locks positively (by shape) but only at set lengths
@@ -105,7 +106,8 @@
   - [Adjustable twist lock tent pole (Flex, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/232086-adjustable-twist-lock-tent-pole): Four-section eccentric-cam twist lock for 12, 16 and 20 mm aluminium tube, with the design rule (1 mm offset circle) explained so you can make your own sizes *(licence: CC BY-SA)*
   - [parametric lock collet for telescopic rod v2 (sdk, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1459341-parametric-lock-collet-for-telescopic-rod-v2): OpenSCAD parametric collet with a compression crown and reduction sleeve to lock two snug-fitting aluminium or PVC tubes, e.g. for pinch rods or a bike-stand rod; STLs for 12+10 mm and 10+8 mm tubes in the first version *(licence: GNU LGPL)*
   - [Telescoping PVC Collet - 1" to 1.5" (jslaker, Printables)](https://www.printables.com/model/145516-telescoping-pvc-collet-1-to-15): Collet, forcing cone, threaded cap and anti-wobble shims for telescoping 1 in PVC pipe inside 1.5 in pipe, with print settings; read through the Printables public API *(licence: CC BY)*
-  - [Collapsible Webcam Stand | Telescoping | Screw to Lock (BRE3DLOVE, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/858680-collapsible-webcam-stand-telescoping-screw-to-lock): Mostly print-in-place telescoping stand, 45 mm collapsed to 300 mm extended, that screw-locks at height; includes a tolerance test *(licence: CC BY)* *(unverified parts omitted)*
+  - [Collapsible Webcam Stand | Telescoping | Screw to Lock (BRE3DLOVE, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/858680-collapsible-webcam-stand-telescoping-screw-to-lock): Mostly print-in-place telescoping stand, 45 mm collapsed to 300 mm extended, that screw-locks at height; includes a tolerance test *(licence: CC BY)*
+  - [Telescopic Pole Twist-Lock Mechanism (Polyfoil, Thingiverse) (page opened but its content loads by script; description from search results)](https://www.thingiverse.com/thing:4926237): Printed expanders and wedges that turn cheap DIY-store steel tubing into a twist-lock pole, using one nut and bolt to move a wedge in an expanding collar; the author says it is not for critical uses *(licence: ⚑ [uncertain] not visible)* *(⚑ parts need confirming)*
 - **diagram_idea**: A cut-away of two tubes, one inside the other, shown twice: unlocked, with a cone-shaped plug sitting loose on a threaded rod in the inner tube; locked, after a twist arrow, with the rod pulled into the cone so it swells (small outward arrows) and presses the outer tube wall, plus an inset of the eccentric version (two off-centre circles lining up, then wedging).
 - **sources**: 
   - https://patents.google.com/patent/US4419026A/en
@@ -142,9 +144,26 @@
   - https://www.youtube.com/watch?v=Eo1yQIZLVH4
   - https://www.youtube.com/watch?v=B0HB_SU4pyw
 
+### Finder tags
+
+- **connects**: tube, rod or extrusion, something to grip ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, load, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, processes, seal
+- ⚑ **Fields with parts that need confirming:** common_failures, load, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, processes, seal
 
 ## 71 Telescoping tube lever lock (flip lock)
 
@@ -202,7 +221,7 @@
   - 3D print (FDM): split collars, levers and replacement lever-lock parts, used with steel pivot bolts
   - CNC: machined aluminium collars and levers
 - **print_in_place**: no: the collar and lever are printed as separate parts and joined with a pin or bolt; the lever usually needs supports (Jori, Printables 110310).
-- **making_tips_3d_printing**: 1) Use a metal bolt or pin as the pivot and tension screw: Jori's 22 mm post clamp taps M5 threads into the printed ball head and clamp and uses an M5 x 50 screw (Printables 110310); Bebe's clamp uses an M6 furniture connector bolt (Printables 860826); the ultralight tripod uses M3 hardware (danec, Printables 911528). Add a tension nut or screw so you can tune the snap-shut force. 2) Give the slot in the collar a generous rounded end: 'a narrow split with a sharp inside corner creates a crack starter' (goodprints3d). 3) Orient the collar so continuous extrusion paths go round the ring and carry the hoop tension, rather than relying on layer bonds (goodprints3d; Hubs: FDM parts are weaker across layers). 4) Spread bolt loads with wide ears and washers or metal sleeves, because a screw bearing on a small printed ledge sinks in and makes the clamp go loose (goodprints3d). 5) Use tough material and enough walls: PETG for levers (Bogen and Harbor Freight replacement levers, Printables), ABS (Bebe), and more shells or infill for leg locks 'since it needs to be somewhat strong' (Pete Prodoehl, Printables 40021); default slicer settings in PLA gave 'a very flexible lever' (gjpc, Printables 34970). 6) Plan for creep: plastic under a constant squeeze relaxes, so a PETG clamp can 'lose compression over hours or days' (goodprints3d); nylon recovers better; PLA softens above 60 °C (Prusa) and PETG suits use below 80 °C (Prusa). 7) Leave at least 0.3 mm clearance on moving parts such as the lever pivot (Prusa), and drill critical holes to size because FDM prints vertical holes undersize (Hubs). 8) Keep plenty of overlap: at least the length of the lock housing (danec). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Use a metal bolt or pin as the pivot and tension screw: Jori's 22 mm post clamp taps M5 threads into the printed ball head and clamp and uses an M5 x 50 screw (Printables 110310); Bebe's clamp uses an M6 furniture connector bolt (Printables 860826); the ultralight tripod uses M3 hardware (danec, Printables 911528). Add a tension nut or screw so you can tune the snap-shut force. 2) Give the slot in the collar a generous rounded end: 'a narrow split with a sharp inside corner creates a crack starter' (goodprints3d). 3) Orient the collar so continuous extrusion paths go round the ring and carry the hoop tension, rather than relying on layer bonds (goodprints3d; Hubs: FDM parts are weaker across layers). 4) Spread bolt loads with wide ears and washers or metal sleeves, because a screw bearing on a small printed ledge sinks in and makes the clamp go loose (goodprints3d). 5) Use tough material and enough walls: PETG for levers (Bogen and Harbor Freight replacement levers, Printables), ABS (Bebe), and more shells or infill for leg locks 'since it needs to be somewhat strong' (Pete Prodoehl, Printables 40021); default slicer settings in PLA gave 'a very flexible lever' (gjpc, Printables 34970). 6) Plan for creep: plastic under a constant squeeze relaxes, so a PETG clamp can 'lose compression over hours or days' (goodprints3d); nylon recovers better; PLA softens above 60 °C (Prusa) and PETG suits use below 80 °C (Prusa). 7) Leave at least 0.3 mm clearance on moving parts such as the lever pivot (Prusa), and drill critical holes to size because FDM prints vertical holes undersize (Hubs). 8) Keep plenty of overlap: at least the length of the lock housing (danec). 9) For a printed collar clamping a separate printed or plastic outer tube, slot the outer tube's end too so it can close (Wikipedia 'Seatpost' describes the slit) ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Trekking-pole and tripod replacement lever locks sold by tube diameter (e.g. Leki Speed Lock 2 lever with its thumb-wheel tension adjuster, sold for 18/16 mm and other pole sizes (brand)); bicycle seatpost quick-release clamps (seat clamp with cam lever) sold by seat-tube diameter; cam levers and quick-release skewers; eccentric clamping levers; M3-M6 bolts, nuts and washers for printed collars. Search terms: 'flip lock', 'lever lock replacement', 'tripod leg lock', 'seatpost quick release clamp', 'cam lever clamp', 'quick release clamp tube'.
 - **rules_of_thumb**: 
   - Close the lever past its tightest point (top dead centre) so it locks positively and stays shut (Easton patent US8006711B2).
@@ -224,7 +243,7 @@
 - **when_to_use**: Use a lever lock when the length must be changed often and fast, by feel, with gloves or cold hands, and when you want to see at a glance whether it is locked (Ulanzi; Backpacker; Leki). Good for tripod and light-stand legs, trekking and camera poles, adjustable stands and robot or rig frames where you tune a length on the spot, and for fixing a post or pole in a holder at any height. It holds more reliably than a twist lock, and its tension can be set with a screw or dial.
 - **when_not_to_use**: Avoid it where a lever sticking out would snag or break (packs, crowded mechanisms): a twist lock is slimmer (Ulanzi). Avoid it for exact, repeatable set lengths or for loads that must never slip: use a spring button lock or a pin through holes. Avoid it on thin-walled or carbon tubes unless the clamp force is controlled, because squeezing can crush them. For a setting that is almost never changed, a bolted clamp collar or set screw is simpler. For long-term constant clamping in hot places, a printed plastic collar may creep loose: use metal or check it often.
 - **environment_limits**: Grit or sand in the lever joint can jam it (Ulanzi); dirt, polishing and wear make it slip (Backpacker); clean and dry after wet, sandy or salty use (Benro). Temperature changes make pole materials swell or shrink slightly, which 'can lead to your pole sections slipping or collapsing' unless the tension is readjusted (MSR). Vibration can loosen the tension screw over time: use thread-locker (Backpacker). Printed collars: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa) but still relaxes under constant squeeze (goodprints3d).
-- **safety_notes**: A lock set too loose can let a tripod or pole collapse under load: check it holds before mounting a camera or leaning on it (Benro: ensure leg locks are tightly engaged before mounting gear). Overtightening can crack the collar or crush a carbon tube (ManfrottoTripodParts). *(unverified parts omitted)*
+- **safety_notes**: Pinch points: fingers can be caught between the lever and collar as it snaps shut, and between the sliding tubes ⚑ [uncertain]. A lock set too loose can let a tripod or pole collapse under load: check it holds before mounting a camera or leaning on it (Benro: ensure leg locks are tightly engaged before mounting gear). Overtightening can crack the collar or crush a carbon tube (ManfrottoTripodParts). *(⚑ parts need confirming)*
 - **common_failures**: 1) Slips because the tension has loosened or the tube is polished or gunky: tighten the tension screw a quarter turn at a time and test, thread-lock it, and lightly sand the collar and inner tube (Backpacker; Enwild; Leki). 2) Lever won't close or is very stiff: tension too high; back it off (Leki). 3) Broken or lost lever, often from knocks in transport: replace it, or print one (gjpc's tripod lever, Bogen and Harbor Freight replacement levers, Printables). 4) Jammed by sand in the lever joint (Ulanzi): rinse and clean. 5) Cracked collar or crushed tube from overtightening, especially on carbon fibre (ManfrottoTripodParts). 6) Snagging the lever on gear. 7) Printed collars creeping loose over hours or days, or cracking at a sharp slot corner (goodprints3d): use a rounded slot end, washers and a tougher material.
 - **related**: 
   - Telescoping tube twist lock (cam or collet twist lock): locks by twisting; slimmer and cheaper, but slower, harder with gloves and more prone to slipping or jamming
@@ -278,9 +297,26 @@
   - https://www.youtube.com/watch?v=A3iBtWrVTrI
   - https://www.youtube.com/watch?v=zuleKwhwCn8
 
+### Finder tags
+
+- **connects**: tube, rod or extrusion ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** making_tips_3d_printing, safety_notes
+- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, safety_notes
 
 ## 72 Spring button lock (snap button, push-button tube lock)
 
@@ -326,10 +362,11 @@
 - **holding_principle**: shape (form-fit): the button sitting in the hole blocks sliding and turning, spring force: the spring leg keeps the button pushed out into the hole
 - **input_output**: not applicable
 - **power**: passive (no power needed)
+- **removability**: tool-free quick release: press the button to slide or pull the tubes apart; the clip itself can be pushed back into the tube and pulled out when needed ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times: it relocks at every adjustment; springs slowly tire and hole edges can wear, and plain steel clips rust in wet use (Bending Branches)
 - **tools_needed**: None to use. To fit: a drill for the holes (and a deburring tool), calipers to measure the inner tube's inside diameter; 'Drilling is required but adhesive is not' (Rock West). For thick-walled tube, Valco suggests drilling through and recessing the tube wall with a 1 in (25.4 mm) ball mill so the button can be pressed flush.
 - **seal**: none: the holes are open, so water, sand and grit get in, and debris and rust are its main maintenance problems (Bending Branches)
-- **load**: Light to medium. Holes are stress raisers and buttons can break under sideways (off-axis) loads (poolpole.com, vendor page). A supplier recommends spring buttons for 'lightweight equipment' and a pin through holes for heavy-duty or vibration use (Chalco). Plastic snap buttons are 'for use in lighter load applications' (Valco catalogue). Unlike friction locks it does not slip, so it holds its length until the button or tube breaks. *(unverified parts omitted)*
+- **load**: Light to medium. The load passes from one tube to the other through the small button pressing on the edge of the hole, so strength is set by the button and the tube wall around the hole; no maker's load rating was found ⚑ [uncertain]. Holes are stress raisers and buttons can break under sideways (off-axis) loads (poolpole.com, vendor page). A supplier recommends spring buttons for 'lightweight equipment' and a pin through holes for heavy-duty or vibration use (Chalco). Plastic snap buttons are 'for use in lighter load applications' (Valco catalogue). Unlike friction locks it does not slip, so it holds its length until the button or tube breaks. *(⚑ parts need confirming)*
 - **adjustable**: yes, in steps only: the length can be set at each hole; the step size is the hole spacing, fixed when the holes are drilled.
 - **play_and_precision**: Noticeable play: the button must be smaller than its hole, so the tubes can rattle and click. A crutch clicks because 'the push button used to adjust the length of the crutch is not snug in its hole' (Heinsalu); a tapered button whose big end is larger than the hole wedges in and removes the rattle (Temco patent US3947140A), and a rubber band or spring pulling the tubes one way keeps the button on one side of its hole (Heinsalu). Repeatability is very good: it always returns to the same holes. It needs the holes lined up exactly, both along and around the tube; tubes that can't turn line up automatically (Testrite).
 - **access_needed**: end of a tube or shaft: the clip is pushed into the open end of the inner tube; once fitted it is worked with one finger from the outside.
@@ -344,17 +381,18 @@
   - CNC: accurate rows of holes, and recessing thick tube walls
   - sheet metal: the clip itself is a formed spring-steel strip (made by suppliers; a steel strip from a binder clip can be reused)
 - **print_in_place**: no: the spring clip is a separate part that is squeezed into the tube; printed clips are printed flat and then inserted (BlueThunder05, Printables 942717).
-- **making_tips_3d_printing**: 1) Best combination: print the tubes, sleeves or brackets and buy a steel snap-button clip; plastic makes a poor long-term spring ('PLA makes for a very poor spring material', Hackaday). 2) Choose the clip by the inside diameter of the inner tube (McMaster-Carr; Rock West) and make sure the button sticks out far enough past the outer wall to press: Rock West warns that with a short button in 0.062 in walls 'large fingers may have difficult time depressing button'. Thick printed walls need a taller button or a recess around the hole (Valco: recess thick walls with a 1 in ball mill). 3) If you print the spring clip, print it lying flat so the springy leg's layers run along its length; Hubs advises avoiding snap-fit cantilevers 'built vertically in the Z direction', with at least 1 mm thickness at the base, a fillet of at least half the thickness and at least 5 mm width, in a tough material such as PETG, ABS or nylon rather than PLA. The pool-pole clip was 'modified so it could be printed flat' (BlueThunder05). 4) A printed spring stays squeezed inside the tube all the time, so it will creep and lose force; designs work best when the spring is relaxed most of the time (Hackaday), so check and replace printed clips. 6) Give printed tubes a flat, rib or square section so they can't turn and the holes always line up (Testrite's non-rotating tubes). 7) Allow at least 0.3 mm (Prusa) to 0.5 mm (Hubs, FDM) sliding clearance between printed tubes. 9) Heat: PLA softens above about 60 °C (Prusa); PETG suits use below about 80 °C (Prusa). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Best combination: print the tubes, sleeves or brackets and buy a steel snap-button clip; plastic makes a poor long-term spring ('PLA makes for a very poor spring material', Hackaday). 2) Choose the clip by the inside diameter of the inner tube (McMaster-Carr; Rock West) and make sure the button sticks out far enough past the outer wall to press: Rock West warns that with a short button in 0.062 in walls 'large fingers may have difficult time depressing button'. Thick printed walls need a taller button or a recess around the hole (Valco: recess thick walls with a 1 in ball mill). 3) If you print the spring clip, print it lying flat so the springy leg's layers run along its length; Hubs advises avoiding snap-fit cantilevers 'built vertically in the Z direction', with at least 1 mm thickness at the base, a fillet of at least half the thickness and at least 5 mm width, in a tough material such as PETG, ABS or nylon rather than PLA. The pool-pole clip was 'modified so it could be printed flat' (BlueThunder05). 4) A printed spring stays squeezed inside the tube all the time, so it will creep and lose force; designs work best when the spring is relaxed most of the time (Hackaday), so check and replace printed clips. 5) Holes in printed tubes: print the tube standing up so the holes are horizontal and add them in CAD, but expect the top of each hole to sag (bridges sag unless under about 5 mm, Hubs), then drill them to size (Hubs); drill slightly larger than the button (a size or two up is reported ⚑ [uncertain]). 6) Give printed tubes a flat, rib or square section so they can't turn and the holes always line up (Testrite's non-rotating tubes). 7) Allow at least 0.3 mm (Prusa) to 0.5 mm (Hubs, FDM) sliding clearance between printed tubes. 8) Plastic hole edges wear and let the button rattle: use thicker walls around holes, or tapered buttons (Temco patent) ⚑ [uncertain]. 9) Heat: PLA softens above about 60 °C (Prusa); PETG suits use below about 80 °C (Prusa). *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Snap buttons / tubing buttons / button clips: single-button and double-button (opposite side or same side), straight-leg and dog-leg (McMaster-Carr); single end (A-style) and double end (D-style) snap buttons, solid-head wire-spring buttons, ramp (one-way) buttons and plastic buttons (Valco (brand) catalogue); stainless button clips for composite tubes sized by tube ID (Rock West Composites (brand)); auto-depressing spring buttons (Testrite (brand) T-131); ready-made telescoping tube sets with spring-button locks (Testrite F style, round 1/2 in to 1-3/8 in). Search terms: 'snap button', 'spring button clip', 'tubing button', 'V clip tube', 'push button spring clip', 'kayak paddle spring clip'.
 - **rules_of_thumb**: 
   - Pick the clip by the inner tube's inside diameter: e.g. button 0.19 in for 0.375-0.625 in ID, 0.25 in for 0.50-0.85 in, 0.312 in for 0.59-1.25 in, 0.365 in for 1.00-1.50 in and 0.50 in for 1.14-2.25 in (Rock West Composites button clips).
   - Catalogue range: round tube ID 3/8 to 1 7/8 in and square tube inside width 5/16 to 1 3/8 in, button heights 3/16 to 3/8 in, leg lengths 1 1/4 to 3 1/2 in (McMaster-Carr 'Tubing Buttons').
   - The button must stick out well past the outer tube wall so a finger can press it; short buttons in 0.062 in walls are hard to press (Rock West); in thick-walled tube, recess the wall around the hole (Valco catalogue).
+  - Drill the holes one or two drill sizes larger than the button head (reported for Valco snap buttons; the maker's page could not be opened) ⚑ [uncertain].
   - Button clips work best with two tubes, which can then collapse fully inside each other (Rock West Composites).
   - Keep the tubes from turning (square, rectangular or keyed tubes) so buttons and holes line up by themselves (Testrite).
   - Remove rattle with a tapered button whose large end is bigger than the hole (Temco patent US3947140A) or by preloading the tubes one way, e.g. with an elastic band (Heinsalu, 'How to stop crutches from clicking').
   - Use spring buttons for light, portable equipment and a full pin through holes for heavy loads or vibration (Chalco, vendor guide); plastic buttons only for lighter loads (Valco).
-  - Overlap: FRC robotics teams reserve about one quarter to one fifth of each stage's length for overlap (Chief Delphi). *(unverified parts omitted)*
+  - Overlap: FRC robotics teams reserve about one quarter to one fifth of each stage's length for overlap (Chief Delphi). *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -366,8 +404,8 @@
 - **when_to_use**: Use a spring button when you want a few fixed lengths that are always the same, a lock that cannot slip, and one-finger operation: crutches, adjustable legs and stands, tent and canopy poles, paddles and handles that come apart, robot or rig frames with set sizes, and quick-fit attachments on the end of a tube. It is cheap, light, needs no adhesive and is easy to fit with a drill.
 - **when_not_to_use**: Don't use it when you need any length in between (use a twist lock or lever lock), when rattle is unacceptable (use a clamp, or a tapered or preloaded button), or for heavy, shock or vibration loads and anything where people could be hurt if the button shears (use a through-pin such as a ball-lock pin, or a bolt). Avoid plain steel clips in salt water (use 301 or 410 stainless). Avoid it where holes would weaken a thin or composite tube too much.
 - **environment_limits**: Water and salt rust plain steel clips, and grit gets in through the holes (Bending Branches); stainless versions resist corrosion, 301 most (McMaster-Carr). Plastic buttons don't rust (Valco). Printed clips and tubes: PLA softens above about 60 °C and degrades in UV (Prusa); PETG suits below about 80 °C (Prusa); printed springs creep and lose force over time (Hackaday). Vibration makes a loose button rattle and wear its hole (Heinsalu; Temco patent).
-- **safety_notes**: Make sure the button has fully popped out before loading (walkers, crutches, stands). The spring clip is under tension while you squeeze it into the tube and can spring out. Holes are stress concentrations, so a heavily loaded tube can crack at a hole (poolpole.com, vendor page). *(unverified parts omitted)*
-- **common_failures**: 1) Rattle and clicking from clearance between button and hole (Heinsalu): use a tapered button (Temco patent) or preload the tubes. 2) Hard to press because the button is too short for the wall thickness (Rock West): choose a taller button or recess the wall (Valco). 3) Holes don't line up because the tubes rotated: use square or keyed tubes (Testrite), or drill both tubes together. 4) Rust or grit jamming the button (Bending Branches): use stainless and rinse after use. 6) Button or clip breaking under side loads (poolpole.com) or the spring losing force: replace the clip; printed clips wear out sooner (Hackaday). *(unverified parts omitted)*
+- **safety_notes**: Pinch point: a finger pressing the button can be nipped between the tubes as they slide, and the button snaps out hard ⚑ [uncertain]. Make sure the button has fully popped out before loading (walkers, crutches, stands). The spring clip is under tension while you squeeze it into the tube and can spring out. Holes are stress concentrations, so a heavily loaded tube can crack at a hole (poolpole.com, vendor page). *(⚑ parts need confirming)*
+- **common_failures**: 1) Rattle and clicking from clearance between button and hole (Heinsalu): use a tapered button (Temco patent) or preload the tubes. 2) Hard to press because the button is too short for the wall thickness (Rock West): choose a taller button or recess the wall (Valco). 3) Holes don't line up because the tubes rotated: use square or keyed tubes (Testrite), or drill both tubes together. 4) Rust or grit jamming the button (Bending Branches): use stainless and rinse after use. 5) Worn or elongated holes, especially in plastic or soft aluminium ⚑ [uncertain]: add wall thickness or a metal sleeve. 6) Button or clip breaking under side loads (poolpole.com) or the spring losing force: replace the clip; printed clips wear out sooner (Hackaday). 7) The clip slipping down inside the inner tube if its hole is lost: fit the clip before cutting tubes to length ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **related**: 
   - Telescoping tube twist lock (cam or collet twist lock): stepless friction lock worked by twisting; can slip
   - Telescoping tube lever lock (flip lock): stepless friction clamp with a flip lever; faster to set any length but can slip
@@ -383,11 +421,13 @@
 
 - **links**: 
   - [Installing Locking Button in Telescoping Tube (Alcobra Metals Inc., YouTube)](https://www.youtube.com/watch?v=y3V6o3eca0g): Fitting a spring locking button into a telescoping tube (title and channel verified via YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+  - [Testrite Telescopic Tubing and Locks www.testriteoem.com (Testrite OEM & Testrite Aluminum, YouTube)](https://www.youtube.com/watch?v=Lp2uGtOGZRA): Telescoping tube sets and their locks, including spring buttons (title and channel verified via YouTube oEmbed; video content not reviewed in detail) ⚑ [uncertain] *(licence: link only (standard YouTube licence))*
   - [Tubing Buttons (McMaster-Carr)](https://www.mcmaster.com/products/tubing/end-type~button/): Catalogue drawings and sizes of single- and double-button, straight-leg and dog-leg tubing buttons, with materials *(licence: link only)*
   - [US3947140A, Connector for telescoping tubular stick members (Temco Products, Google Patents)](https://patents.google.com/patent/US3947140A/en): Patent drawings of a looped spring pushing a tapered lock button out through holes in telescoping tubes, designed to stop rattle *(licence: link only (US patent drawings))*
-  - [Button Clips (Rock West Composites)](https://www.rockwestcomposites.com/button-clips): Photos and sizes of stainless single-end straight spring-leg button clips for tubes from 0.375 to 2.25 in inside diameter *(licence: link only)* *(unverified parts omitted)*
+  - [Button Clips (Rock West Composites)](https://www.rockwestcomposites.com/button-clips): Photos and sizes of stainless single-end straight spring-leg button clips for tubes from 0.375 to 2.25 in inside diameter *(licence: link only)* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
-  - [Pool Pole Double Button Spring Clip (BlueThunder05, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/942717-pool-pole-double-button-spring-clip): A printed replacement double-button spring clip for a telescopic pool skimmer pole, redesigned to print flat (works without supports, cleaner with them) *(licence: CC BY-NC-SA)* *(unverified parts omitted)*
+  - [Pool Pole Double Button Spring Clip (BlueThunder05, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/942717-pool-pole-double-button-spring-clip): A printed replacement double-button spring clip for a telescopic pool skimmer pole, redesigned to print flat (works without supports, cleaner with them) *(licence: CC BY-NC-SA)*
+  - [[PythonSCAD] DiWhy Spring Lock Button Clip for tent poles powered by binder clips (jhnphn431, Thingiverse) (page opened but its content loads by script; description from search results)](https://www.thingiverse.com/thing:6752751): A parametric printed button that uses the steel wire 'wings' of an office binder clip as the spring, for tent poles, crutches and painter's poles *(licence: ⚑ [uncertain] not visible)* *(⚑ parts need confirming)*
 - **diagram_idea**: A cut-away of two nested tubes with a V-shaped spring clip inside the inner tube pushing its button out through a hole in both tubes (locked), then a second frame with a finger pressing the button flush and an arrow showing the outer tube sliding to the next hole.
 - **sources**: 
   - https://www.mcmaster.com/products/tubing/end-type~button/
@@ -416,9 +456,26 @@
   - https://www.youtube.com/watch?v=y3V6o3eca0g
   - https://www.youtube.com/watch?v=Lp2uGtOGZRA
 
+### Finder tags
+
+- **connects**: tube, rod or extrusion ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks ⚑ *needs confirming (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks*
+- **tools**: none, drill and tap, power tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, links, load, make_it_yourself, making_tips_3d_printing, removability, rules_of_thumb, safety_notes
+- ⚑ **Fields with parts that need confirming:** common_failures, links, load, make_it_yourself, making_tips_3d_printing, removability, rules_of_thumb, safety_notes
 
 ## 73 Dovetail slide with gib strip (dovetail ways)
 
@@ -502,8 +559,8 @@
   - Dovetail rails that mount telescopes and rifle scopes (the same shape used as a clamp mount, without a gib)
 - **when_to_use**: Use it when you need a stiff, strong, straight slide that can be tightened up as it wears: machine tool tables and tool slides, positioning stages, jigs and fixtures, camera, microscope and lab focusing stages, and slides that take shocks or vibration that would damage ball bearings. It suits hand-adjusted or slow screw-driven moves, long travels at low cost, and dusty workshops, since it has few parts to clog. For makers, a printed dovetail stage with a screw-pushed gib is a practical home-made X, XY or Z positioning stage.
 - **when_not_to_use**: Avoid it for fast, frequent or very low-friction motion: sliding friction is higher than ball or roller guides and, without the right oil, it can stick then jump (stick-slip); use a linear ball rail, linear bearings on round rods or V-wheels on extrusion instead. Avoid it where you can't lubricate or re-adjust it. For a tiny travel with no friction or play at all, use a flexure stage. For attaching and removing something quickly rather than sliding it, use a dovetail clamp (quick-release plate) instead.
-- **environment_limits**: Needs a film of oil to slide smoothly and resist wear; old oil collects grit and 'crud' that makes it stiff (Model Engineer forum), so clean and re-oil. Dovetail slides are largely immune to chemicals, dust and dirt compared with rolling-element guides (Wikipedia 'Linear-motion bearing'). *(unverified parts omitted)*
-- **safety_notes**: On machine tools the slide carries a cutting tool or workpiece next to spinning parts, so adjust gibs with the machine stopped. Otherwise none known. *(unverified parts omitted)*
+- **environment_limits**: Needs a film of oil to slide smoothly and resist wear; old oil collects grit and 'crud' that makes it stiff (Model Engineer forum), so clean and re-oil. Dovetail slides are largely immune to chemicals, dust and dirt compared with rolling-element guides (Wikipedia 'Linear-motion bearing'). Printed versions: PLA softens above about 60 C and PETG is fine up to about 80 C (Prusa). ⚑ [uncertain] Bare cast iron and steel ways rust if left dry, and printed plastic parts may creep under constant gib-screw pressure, so the gib may need re-tightening over time. *(⚑ parts need confirming)*
+- **safety_notes**: On machine tools the slide carries a cutting tool or workpiece next to spinning parts, so adjust gibs with the machine stopped. Sherline warns not to remove a gib-lock screw completely, because its damaged end thread can ruin the thread in the saddle. ⚑ [uncertain] Over-tightened gib screws can strip threads, especially in printed parts, and a screw-driven carriage can pinch fingers. Otherwise none known. *(⚑ parts need confirming)*
 - **common_failures**: 1) Wear makes the slide sloppy: re-adjust the gib; a tapered gib at the end of its travel can be shimmed with Mylar tape (Sherline). 2) Loose in the middle but tight at the ends: the ways are worn where most use happens and need scraping or re-machining, not just a tighter gib (Sherline; Hobby-Machinist forum). 3) A straight gib pressing only at the screw points, flexing and wearing unevenly, or creeping along the dovetail: use ball- or cone-ended screws in matching dimples or flats, dowel the strip, or change to a tapered gib (Model Engineer forum; john f's workshop; Hobby-Machinist forum). 4) Stiff or jerky motion (stick-slip) from dirt or the wrong lubricant: clean it and use way oil, not grease (Model Engineer forum; linearmotiontips). 5) Over-tightening binds the slide: adjust in tiny increments (Hobby-Machinist forum). 6) Printed slides: rough faces bind and thin parts crack; add grease, print in PETG and thicken weak features (Hungry_Hank; the_buff).
 - **related**: 
   - Linear ball-bearing rail (profile rail and carriage): much lower friction and faster, but less tolerant of shocks and dearer
@@ -526,8 +583,9 @@
 - **make_it_yourself**: 
   - [Linear Stage: Updated (the_buff, Printables) (page returned 403; details read through the Printables API)](https://www.printables.com/model/453719-linear-stage-updated): Printable 80 x 80 mm single-axis dovetail stage with 50 mm travel and a gib pressed by three M3 screws; stacks into an XY stage; PETG print settings included *(licence: Creative Commons Attribution (CC BY))*
   - [BOSL2 joiners.scad: dovetail() module (OpenSCAD library source)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad): Parametric male and female dovetails with adjustable angle, optional taper, chamfers, an entry slot and a $slop clearance setting for 3D printing *(licence: BSD 2-Clause)*
+  - [Dovetail Stepper Slide by 3DPRINTINGWORLD (Thingiverse) (page is JavaScript-only; details from search results)](https://www.thingiverse.com/thing:2805780): Direct-drive printed dovetail slide for a stepper motor, with a gib added to the dovetail way to adjust the clearance and reduce backlash *(licence: ⚑ [uncertain] not visible)*
   - [DOVETAIL SLIDE (JOBIN JOY, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/913209-dovetail-slide): Simple printable male and female dovetail slide demonstrator *(licence: Creative Commons Public Domain)*
-  - [Making dovetails - the first type - parallel gib (john f's workshop)](https://johnfsworkshop.org/milling-machine-how-to-make/milling-machine-how-to-make-dovetails-links/making-dovetails-the-first-type-parallel-gib/): Illustrated how-to for machining a metal dovetail slide with a screw-adjusted parallel gib and lock nuts *(licence: link only)* *(unverified parts omitted)*
+  - [Making dovetails - the first type - parallel gib (john f's workshop)](https://johnfsworkshop.org/milling-machine-how-to-make/milling-machine-how-to-make-dovetails-links/making-dovetails-the-first-type-parallel-gib/): Illustrated how-to for machining a metal dovetail slide with a screw-adjusted parallel gib and lock nuts *(licence: link only)* *(⚑ parts need confirming)*
 - **diagram_idea**: An end-on cross-section of the dovetail showing the base rail, the carriage wrapped around it and the gib strip in the gap on one side with three screws pushing it in, beside a top view of a tapered gib sliding lengthwise like a wedge, labelled 'slide 10 mm = 0.1 mm tighter'.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Way_(machine_tool_element)
@@ -560,9 +618,26 @@
   - https://www.thingiverse.com/thing:2805780
   - https://www.mcmaster.com/products/dovetail-slides/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, power tools, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, make_it_yourself, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, make_it_yourself, safety_notes
 
 ## 74 Threadless ball screw (rolling-ring drive)
 
@@ -601,8 +676,8 @@
 - **holding_principle**: 
   - friction or clamping (force-fit): only friction at the bearing-to-rod contacts moves the nut; there is no interlocking thread
   - spring force: commercial units keep the bearings pressed on with a factory-set thrust screw or springs; many printed nuts use a fixed interference set by the bolts instead
-- **input_output**: Continuous rotation of a smooth rod -> straight-line motion of the nut along the same axis (in line). Travel per turn rises with the bearing tilt (the Uhing patent gives feed proportional to tan of the tilt angle): a printed nut with about 10 degrees of tilt on an 8 mm rod moved about 4.5 mm per turn (2n2r5), and Uhing drives cover roughly 6-70 mm per turn depending on size, adjustable over about 10:1. Thrust: about 30 N to 3,600 N across Uhing sizes (15-80 mm shafts); Amacoil quotes up to 800 lb, and four-ring units give twice the thrust of three-ring units (Machine Design). *(unverified parts omitted)*
-- **power**: passive (no power needed) as a mechanism, but it is normally motor-driven. Uhing warns that operating the free-movement lever can let a load drop in an uncontrolled way *(unverified parts omitted)*
+- **input_output**: Continuous rotation of a smooth rod -> straight-line motion of the nut along the same axis (in line). Travel per turn rises with the bearing tilt (the Uhing patent gives feed proportional to tan of the tilt angle): a printed nut with about 10 degrees of tilt on an 8 mm rod moved about 4.5 mm per turn (2n2r5), and Uhing drives cover roughly 6-70 mm per turn depending on size, adjustable over about 10:1. Thrust: about 30 N to 3,600 N across Uhing sizes (15-80 mm shafts); Amacoil quotes up to 800 lb, and four-ring units give twice the thrust of three-ring units (Machine Design). Efficiency: high, because everything rolls (Uhing claims 'maximum efficiency' but gives no figure) ⚑ [uncertain]. Back-drivable: ⚑ [uncertain] a push along the rod tends to make the nut slip rather than hold, so do not rely on it to hold a load; printed Z-axes slipped when lifting (Soliforum). *(⚑ parts need confirming)*
+- **power**: passive (no power needed) as a mechanism, but it is normally motor-driven. If the motor stops, the nut is held only by friction on the rod, so a hanging load can creep or slide down ⚑ [uncertain]; Uhing warns that operating the free-movement lever can let a load drop in an uncontrolled way *(⚑ parts need confirming)*
 - **removability**: removable: loosen the bearing bolts (or, on commercial units, flip the free-movement lever that releases the preload) and slide the nut off the end of the rod
 - **reuse_cycles**: many times: nothing is permanently deformed when it is fitted; the bearings and rod are wear parts
 - **tools_needed**: Hex keys and spanners for the bearing bolts (M5 in 2n2r5's printed nut) and for the coupler set screws; a rag and suitable grease for the shaft. No special tools.
@@ -623,6 +698,7 @@
 - **making_tips_3d_printing**: 1) Start from a customisable design: 2n2r5's OpenSCAD threadless ballscrew (Thingiverse thing:124706) supports up to 5 bearings, many standard bearing sizes (603 to 696 series) and several rod sizes, and outputs both the pitch and the bearing angle; he settled on 625ZZ bearings (5 x 16 x 5 mm) on an 8 mm smooth rod with M5 x 15-20 mm bolts, washers and nuts. 2) Print strong: at most 0.15 mm layers, at least 3 perimeters and 100% infill, because there is a lot of force on the bearings and bolts; with less infill the plastic flexes, heat builds up and the bearings work loose, and nuts can pull through the plastic (2n2r5, Soliforum). 3) Tilt: most builders set the bearings at about 10 degrees; about 10 degrees on an 8 mm rod gave about 4.5 mm of travel per turn (2n2r5). Printing tolerances make the real angle, and so the pitch, only roughly right, so measure travel over many turns and calibrate your steps per mm. 4) Fitting: start with the bearings loose, about 5 mm proud of the nut body, slide the rod through, then tighten each bearing bolt one turn at a time until they seat; 2n2r5 offset each bearing 0.4 mm towards the rod in the model for a very tight grip. 5) If it slips, add bearings: one builder cured slipping on a lifting bed with a four-bearing nut plus a second offset set underneath (8 bearings), but another found a very tight four-bearing nut cut a shallow groove in the rod, so don't over-tighten (Soliforum). 6) Guide the load separately: let the nut only push, and carry the carriage on its own rails with a short, twist-free connection (Uhing; Machine Design). 7) Use a hardened, ground rod (a normal 3D-printer smooth rod), not soft steel or threaded rod. 8) Keep oil, silicone and graphite off the contact; a thin film of MoS2-free ball-bearing grease is what Uhing specifies (see environment_limits). 9) Expect drift: add an end-stop switch and home often, or use an encoder, for anything that must return to the same place (Hackaday comments; Maker's Muse).
 - **off_the_shelf_parts**: Deep-groove ball bearings (625ZZ, 608ZZ skate bearings), M5 bolts, washers and nuts; hardened, ground linear shaft ('smooth rod', e.g. 8 mm h6 case-hardened shaft as used on 3D-printer axes); flexible or rigid shaft coupler (e.g. 5 mm to 8 mm); complete rolling-ring linear drives: Uhing RG (variable pitch), RS (fixed pitch) and KI units (brand), sold in the US by Amacoil (brand), and Roh'Lix linear actuators (brand, Zero-Max); Uhing precision shafts, rubber shaft scrapers and load-carrier slides such as the Amacoil L4 (brand).
 - **rules_of_thumb**: 
+  - Travel per turn grows with the bearing tilt: the Uhing patent gives feed velocity proportional to tan(beta), beta being the angle between the rolling rings and the shaft (US4253342). Worked example: 2n2r5's printed nut at about 10 degrees on an 8 mm rod travelled about 4.5 mm per turn (Soliforum). ⚑ [uncertain] This matches travel per turn of roughly pi x rod diameter x tan(tilt) (pi x 8 x tan 10 degrees = 4.4 mm), which is our own geometry, not a quoted formula.
   - Most builders set the bearing angle to about 10 degrees (2n2r5, Soliforum).
   - Print the nut at 0.15 mm layers or finer, with at least 3 perimeters and 100% infill (2n2r5, Soliforum).
   - Thrust depends on bearing size and count: four-ring drives give twice the axial thrust of three-ring drives, and a large unit gives up to about 800 lb (Machine Design); Uhing sizes run from about 30 N (15 mm shaft) to 3,600 N (80 mm shaft) (Uhing).
@@ -630,18 +706,19 @@
   - Don't let the nut stall on a turning shaft: Uhing recommends switching off the shaft drive if the unit stands still for more than 5 s at full rated thrust, to protect the shaft (Uhing RG technical information).
   - Recommended shaft speed for Uhing units is 5 to 3,000 rpm; reversal needs a travel of about one shaft diameter at the end stop (Uhing RG technical information).
   - Carry heavy or off-centre loads on a separate slide: moment loads dramatically reduce thrust and increase bearing wear (Machine Design).
-  - No silicone lubricants: they cause slipping (Amacoil FAQ). Uhing specifies a thin film of MoS2-free ball-bearing grease on the shaft, monthly (Uhing technical information) or weekly (Amacoil FAQ). *(unverified parts omitted)*
+  - No silicone lubricants: they cause slipping (Amacoil FAQ). Uhing specifies a thin film of MoS2-free ball-bearing grease on the shaft, monthly (Uhing technical information) or weekly (Amacoil FAQ). *(⚑ parts need confirming)*
 
 ### When to use it
 
 - **everyday_examples**: 
   - Industrial wire, cable and yarn winding machines, where a rolling-ring traverse lays the product evenly on a spool and reverses at each end by itself (Uhing; Amacoil)
-  - Home-made 3D-printer Z axes from the RepRap era, which used printed threadless ball screws instead of lead screws (Hackaday) *(unverified parts omitted)*
+  - Some automatic doors, according to a Hackaday reader, with micro switches along the path to correct for any slip ⚑ [uncertain]
+  - Home-made 3D-printer Z axes from the RepRap era, which used printed threadless ball screws instead of lead screws (Hackaday) *(⚑ parts need confirming)*
 - **when_to_use**: Use it when you want smooth, quiet, backlash-free straight-line motion from a spinning rod and would rather it slipped than jammed or broke: moving a carriage back and forth for spraying, feeding or winding, long strokes where a long smooth rod is simpler than a long screw, and machines where an obstruction or bottoming out must not cause damage. Commercial units are the classic choice for level-winding wire and cable, because they reverse at the ends and change pitch mechanically without any electronics. It is also a fun, cheap printable demonstration of friction drive.
 - **when_not_to_use**: Avoid it where position must be exact and repeatable without feedback (CNC axes, printer axes without homing): it drifts; use a lead screw, ball screw, belt or rack. Avoid it for lifting or holding heavy loads, especially vertically: it slips, most of all going up, and a released load can drop; use a lead screw (self-locking with a fine lead) or a worm drive. Avoid heavy side loads on the nut, and oily or dirty conditions where the contact loses grip. For back-and-forth traversing with a fixed stroke, a reversing (diamond) screw is simpler to print and cannot slip.
 - **environment_limits**: Uhing units are rated for -10 to +80 C (RGK types to +50 C) (Uhing technical information) and have worked in Antarctica at -20 C (Uhing). Lubricants matter: silicone, graphite and MoS2 lubricants cause slip; a 2013 Amacoil article in Machine Design said no lubricant should be used at all, while Uhing's current instructions call for a thin film of MoS2-free ball-bearing grease, so follow the maker's own instructions. The smooth rod doesn't trap debris, but dirt between rod and bearings hurts grip, so scrapers are used in dirty places. Printed nuts: heat build-up loosens the bearings unless printed with 100% infill (2n2r5), and PLA softens above about 60 C (Prusa).
-- **safety_notes**: The moving traverse can crush, and must be guarded like the rotating shaft (Uhing security advice). On units with a free-movement lever, make sure the load cannot drop in an uncontrolled way before releasing it, or injury could result (Uhing). *(unverified parts omitted)*
-- **common_failures**: 1) Slipping: caused by the wrong lubricant, excessive load, poor mounting or long mounting screws, or worn bearings (Amacoil FAQ); printed nuts slip mostly when lifting (Soliforum). Fix with more or better-clamped bearings, less load, a separate guide and a clean rod. 2) Lost position (drift): small slips add up; home against a switch or add an encoder (Hackaday; Maker's Muse). 3) Worn rod: over-tight bearings or long periods of slipping on a turning shaft wear a groove in the rod (Soliforum; Uhing's 5-second stall rule). 5) Printed nut loosening or flexing over time: print with 100% infill and re-check the bolts (2n2r5). 6) Wobble or binding from a bent rod or a misaligned motor coupler (Soliforum). *(unverified parts omitted)*
+- **safety_notes**: The moving traverse can crush, and must be guarded like the rotating shaft (Uhing security advice). On units with a free-movement lever, make sure the load cannot drop in an uncontrolled way before releasing it, or injury could result (Uhing). Because it is a friction drive that can slip, never use it to hold a load over people. ⚑ [uncertain] A long spinning bare rod can also catch hair or loose clothing. *(⚑ parts need confirming)*
+- **common_failures**: 1) Slipping: caused by the wrong lubricant, excessive load, poor mounting or long mounting screws, or worn bearings (Amacoil FAQ); printed nuts slip mostly when lifting (Soliforum). Fix with more or better-clamped bearings, less load, a separate guide and a clean rod. 2) Lost position (drift): small slips add up; home against a switch or add an encoder (Hackaday; Maker's Muse). 3) Worn rod: over-tight bearings or long periods of slipping on a turning shaft wear a groove in the rod (Soliforum; Uhing's 5-second stall rule). 4) Worn bearings: ordinary ball bearings are not designed for the sideways thrust and spinning contact at the rod, so they wear faster than the special rolling rings in commercial units (Hackaday comments) ⚑ [uncertain]. 5) Printed nut loosening or flexing over time: print with 100% infill and re-check the bolts (2n2r5). 6) Wobble or binding from a bent rod or a misaligned motor coupler (Soliforum). *(⚑ parts need confirming)*
 - **related**: 
   - Lead screw and nut: a positive threaded drive that doesn't slip, holds position and can be self-locking, but has backlash and needs a threaded rod
   - Ball screw: balls in a threaded groove; precise and efficient but costly, and it jams or breaks rather than slipping
@@ -660,7 +737,10 @@
   - [Mechanism for bar advancing 1 (Nguyen Duc Thang, thang010146, YouTube)](https://www.youtube.com/watch?v=X7xW8_aRckM): CAD animation of the same friction principle: spring-loaded rollers set at an angle feed a smooth bar forward, with speed set by the roller angle *(licence: link only)*
   - [How RG Drives Work (Amacoil)](https://www.amacoil.com/products/rg-linear-drives/how-it-works/): Explanation of the ridged rolling-ring bearings, the pitch control lever and automatic mechanical reversal *(licence: link only)*
 - **make_it_yourself**: 
-  - [Thingiverse 'Threadless Ballscrew' - Customizable (SoliForum build thread by 2n2r5)](https://www.soliforum.com/topic/3343/thingiverse-threadless-ballscrew-customizable-level-2-techie/): Build log with bill of materials (3 x 625ZZ bearings, M5 bolts, 300 mm of 8 mm smooth rod, coupler), print settings, fitting procedure and users' slipping fixes *(licence: forum post (link only))* *(unverified parts omitted)*
+  - [OpenSCAD Threadless Ballscrew - Highly Customizable by 2n2r5 (Thingiverse) (page is JavaScript-only; details from search results and the author's Soliforum thread)](https://www.thingiverse.com/thing:124706): Customisable OpenSCAD nut for up to 5 bearings, with choice of bearing size, rod size and mounting holes; calculates pitch and bearing angle *(licence: ⚑ [uncertain] not visible)*
+  - [Thingiverse 'Threadless Ballscrew' - Customizable (SoliForum build thread by 2n2r5)](https://www.soliforum.com/topic/3343/thingiverse-threadless-ballscrew-customizable-level-2-techie/): Build log with bill of materials (3 x 625ZZ bearings, M5 bolts, 300 mm of 8 mm smooth rod, coupler), print settings, fitting procedure and users' slipping fixes *(licence: forum post (link only))*
+  - [Threadless Ball Screw. No More Backlash by MSollack (Thingiverse) (page is JavaScript-only; details from search results)](https://www.thingiverse.com/thing:112718): The original printable threadless ball screw nut that 2n2r5's OpenSCAD version is based on; slips without damage when the force limit is exceeded *(licence: ⚑ [uncertain] not visible)*
+  - [Threadless ballscrew. 5mm, 10mm, and 15mm pitch by mcentric (Thingiverse) (page is JavaScript-only; title from search results)](https://www.thingiverse.com/thing:310263/files): Printable nuts in three fixed pitches, to compare how the bearing angle changes the travel per turn *(licence: ⚑ [uncertain] not visible)* *(⚑ parts need confirming)*
 - **diagram_idea**: A smooth rod with three bearings around it, each drawn tilted a few degrees, and a dashed spiral showing the path each bearing's contact point rolls along; an arrow shows one rod turn moving the nut one 'pitch', and a second small view shows the tilt reversed to send the nut the other way.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Ball_screw
@@ -685,9 +765,26 @@
   - https://www.thingiverse.com/thing:112718
   - https://www.thingiverse.com/thing:310263/files
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: slips and keeps going
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, everyday_examples, input_output, make_it_yourself, power, rules_of_thumb, safety_notes
+- ⚑ **Fields with parts that need confirming:** common_failures, everyday_examples, input_output, make_it_yourself, power, rules_of_thumb, safety_notes
 
 ## 75 Reversing screw (diamond-thread or level-wind screw)
 
@@ -724,7 +821,7 @@
 - **holding_principle**: 
   - shape (form-fit): the follower is trapped in the groove, so the carriage is tied positively to the shaft's rotation and cannot slip (unlike a rolling-ring drive)
   - not a holding joint (it moves or passes on motion): its job is to drive the traverse
-- **input_output**: Continuous one-way rotation -> back-and-forth straight-line traverse of the follower, parallel to the shaft (in line), reversing automatically at each end, with a fixed stroke equal to the grooved length. Travel per screw turn = the groove lead; for level winding the drum-to-screw gear or sprocket ratio is chosen so the guide moves about one line diameter per spool turn (e.g. Bruncione's printed guide for 3/4 in garden hose uses a 6.5 mm step). Speed is steady along the stroke apart from a short slow-down and turn at each end. *(unverified parts omitted)*
+- **input_output**: Continuous one-way rotation -> back-and-forth straight-line traverse of the follower, parallel to the shaft (in line), reversing automatically at each end, with a fixed stroke equal to the grooved length. Travel per screw turn = the groove lead; for level winding the drum-to-screw gear or sprocket ratio is chosen so the guide moves about one line diameter per spool turn (e.g. Bruncione's printed guide for 3/4 in garden hose uses a 6.5 mm step). Speed is steady along the stroke apart from a short slow-down and turn at each end. Efficiency: a sliding follower, so broadly like a lead screw with a steep lead ⚑ [uncertain]. Back-drivable: ⚑ [uncertain] pushing the carriage does not reliably turn the shaft, particularly near the reversing ends. *(⚑ parts need confirming)*
 - **power**: passive (no power needed): usually driven from the same crank, motor or drum that turns the spool, so it stays in step automatically; if the drive stops, the carriage simply stops where it is
 - **removability**: removable: the follower lifts out of the groove or the carriage slides off, and the shaft comes out of its end bearings
 - **reuse_cycles**: many times: the follower (pawl) is the main wear part and is replaceable (Kolstrand supplies a spare pawl with its level winds)
@@ -732,7 +829,7 @@
 - **seal**: none: the grooves are open to dirt, which is why grit and sand are a main cause of sticking in fishing-reel level winds
 - **load**: Light to medium: the follower normally only pushes a line guide sideways. It is positive (it can't slip), but the small follower tip and the sharp points where the grooves cross are the weak spots. Heavy steel versions guide wire rope thousands of metres long on offshore winches (Bornemann). Side loads should be taken by a separate guide rod or rail, not by the screw.
 - **adjustable**: no, as a rule: the stroke and the lead are fixed by the groove shape; the traverse rate relative to the spool can only be changed by changing the gear or sprocket ratio between drum and screw (Wikipedia 'Wire rope spooling technology'), and a different line size may need a different screw (Bruncione)
-- **play_and_precision**: Play: small; the follower tip must fit the groove precisely (Mike's Reel Repair), and it wears. Repeatability: good, because it cannot slip and the carriage position is always tied to the shaft angle. The carriage pauses briefly at each end while the follower turns round. *(unverified parts omitted)*
+- **play_and_precision**: Play: small; the follower tip must fit the groove precisely (Mike's Reel Repair), and it wears. Repeatability: good, because it cannot slip and the carriage position is always tied to the shaft angle. The carriage pauses briefly at each end while the follower turns round. Misalignment: the shaft must be parallel to the carriage guide or the follower binds ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **access_needed**: end of a tube or shaft: the shaft is fitted into end bearings and the follower is dropped into the groove through the carriage
 - **materials**: Industrial level-winder screws: stainless steels, alloy steels, Inconel or titanium (Bornemann); stainless-steel diamond screws on fishing-boat level winds (Kolstrand). Fishing reels: a metal worm shaft with a small metal pawl, and line guides lined with ceramics such as silicon carbide on premium reels (Mike's Reel Repair). Printed: PETG (chuyskywalker; Bruncione suggests PETG with carbon fibre is best), PLA or PLA+ for light duty (juh; Pastamatic), Tough PLA for small precise screws (gzumwalt).
 - **maker_difficulty**: moderate: it prints in one piece without supports if printed upright with fine layers, but the crossing grooves and end U-turns must be accurate and the follower must swivel freely; drawing the groove path in CAD is the hard part, so start from an existing model
@@ -763,9 +860,9 @@
   - Yarn and thread winding on textile machines, and cable winding in cranes (Bornemann)
 - **when_to_use**: Use it to wind line, cable, hose, rope, yarn or filament evenly onto a spool, or anywhere you need a steady back-and-forth sliding motion with a fixed stroke from a shaft that only turns one way. It needs no electronics, switches or reversing motor, cannot slip, and stays in step with the spool automatically if it is geared from the same drive. It also makes a great printable kinetic toy or demonstrator (marble lifts, walkers).
 - **when_not_to_use**: Avoid it when the stroke or pitch must change, for example for different spool widths or line sizes: use a rolling-ring (threadless ball screw) traverse with adjustable end stops and pitch, or a stepper-driven lead screw with end switches. It is not for precise positioning or holding loads (use a lead screw), nor for heavy shock loads where the crossing points would chip. For a short back-and-forth stroke where uneven speed doesn't matter, a crank (slider-crank or Scotch yoke) or a cam is simpler.
-- **environment_limits**: Dirt, sand and salt in the open grooves cause sticking and wear, so fishing reels need regular cleaning and light lubrication (Mike's Reel Repair); marine and offshore screws are made of stainless steel, Inconel or titanium (Bornemann; Kolstrand). *(unverified parts omitted)*
-- **safety_notes**: Drill-driven printed winders should be started slowly (the Pastamatic instructions say to accelerate slowly). Otherwise none known. *(unverified parts omitted)*
-- **common_failures**: 1) Sticking or binding from dirt build-up, and a worn pawl: clean, lightly lubricate and replace the pawl (Mike's Reel Repair; Kolstrand ships a spare pawl). 2) The follower jumping into the other groove at a crossing and reversing early: use a longer, slimmer follower that straddles the crossings (US3779094); chipped crossing points on dual-thread screws cause early reversal and miswraps (US10640346B2). 3) Printed grooves rough or sagging so the follower catches: print upright at fine layers with good cooling, or split the screw into sections (juh; IrishUkulele). 5) Line piling up or leaving gaps: the traverse rate doesn't match the line size, so change the gear ratio or use a screw with a different lead (Bruncione; Wikipedia 'Wire rope spooling technology'). *(unverified parts omitted)*
+- **environment_limits**: Dirt, sand and salt in the open grooves cause sticking and wear, so fishing reels need regular cleaning and light lubrication (Mike's Reel Repair); marine and offshore screws are made of stainless steel, Inconel or titanium (Bornemann; Kolstrand). Printed PLA screws soften above about 60 C (Prusa). ⚑ [uncertain] Grease in the grooves collects grit, so use a light film and clean it often. *(⚑ parts need confirming)*
+- **safety_notes**: ⚑ [uncertain] The turning screw and the moving carriage are pinch points, and on winches the level wind moves under heavy cable load, so keep fingers and loose clothing clear while it runs. Drill-driven printed winders should be started slowly (the Pastamatic instructions say to accelerate slowly). Otherwise none known. *(⚑ parts need confirming)*
+- **common_failures**: 1) Sticking or binding from dirt build-up, and a worn pawl: clean, lightly lubricate and replace the pawl (Mike's Reel Repair; Kolstrand ships a spare pawl). 2) The follower jumping into the other groove at a crossing and reversing early: use a longer, slimmer follower that straddles the crossings (US3779094); chipped crossing points on dual-thread screws cause early reversal and miswraps (US10640346B2). 3) Printed grooves rough or sagging so the follower catches: print upright at fine layers with good cooling, or split the screw into sections (juh; IrishUkulele). 4) Follower jamming at the ends because it can't swivel round the U-turn: make sure it rotates freely in the carriage ⚑ [uncertain]. 5) Line piling up or leaving gaps: the traverse rate doesn't match the line size, so change the gear ratio or use a screw with a different lead (Bruncione; Wikipedia 'Wire rope spooling technology'). *(⚑ parts need confirming)*
 - **related**: 
   - Rolling-ring drive (threadless ball screw): also reverses automatically (by flipping the bearing tilt at end stops) and its stroke and pitch can be adjusted, but it is friction-driven and can slip
   - Lead screw and nut: one-way travel per direction of rotation; the motor must reverse to come back
@@ -787,7 +884,8 @@
   - [Level Winder (Diamond Screw) by chuyskywalker (Printables) (details read through the Printables API)](https://www.printables.com/model/418881-level-winder-diamond-screw): Small printable diamond-screw level winder demonstrator with a rotating round pawl, Fusion 360 source included; needs two 608 bearings and two M3 bolts *(licence: Creative Commons Public Domain)*
   - [Pastamatic - Filament Spool Winder (level winder with self reversing leadscrew) by GekoPrime (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/466883-pastamatic-filament-spool-winder-for-bambu-lab-x1c): Very popular drill-driven filament respooler built around a printed self-reversing lead screw; prints on one plate, uses 14 x 608 bearings, Fusion and STEP files provided *(licence: CC BY-NC-SA)*
   - [Self-reversing screw for fischertechnik / Umkehrspindel fuer fischertechnik by juh (Printables) (details read through the Printables API)](https://www.printables.com/model/215741-self-reversing-screw-for-fischertechnik-umkehrspin): Extendable self-reversing screw made of two end pieces and any number of 30 mm middle pieces, with detailed print tips *(licence: CC BY-NC-SA)*
-  - [Self reversing guide screw for cables, hoses etc. by Bruncione (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/153612-self-reversing-guide-screw-for-cables-hoses-etc): Scalable printed hose and cable guide with a 6.5 mm-step self-reversing screw for 3/4 in garden hose, running on stainless rods and a linear bearing *(licence: CC BY-NC)* *(unverified parts omitted)*
+  - [Self reversing guide screw for cables, hoses etc. by Bruncione (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/153612-self-reversing-guide-screw-for-cables-hoses-etc): Scalable printed hose and cable guide with a 6.5 mm-step self-reversing screw for 3/4 in garden hose, running on stainless rods and a linear bearing *(licence: CC BY-NC)*
+  - [70mm Level Winding Device utilizing Diamond Ball Screw (includes CAD links) by JawzX (Thingiverse) (page is JavaScript-only; details from search results)](https://www.thingiverse.com/thing:3510009): Printed level winder whose follower is three 4.5 mm steel BBs running in a diamond-screw groove, like a self-reversing ball screw *(licence: ⚑ [uncertain] not visible)* *(⚑ parts need confirming)*
 - **diagram_idea**: A side view of a shaft with a right-hand groove (one colour) and a left-hand groove (another colour) crossing in a diamond pattern and joined by U-turns at both ends, with a boat-shaped follower shown crossing an intersection, and arrows showing the shaft always turning one way while the follower goes out and back.
 - **sources**: 
   - https://www.bornemann-gewindetechnik.de/en/products/self-reversing-thread/
@@ -813,9 +911,26 @@
   - https://api.printables.com/graphql/
   - https://www.thingiverse.com/thing:3510009
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: back-and-forth straight
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, input_output, make_it_yourself, play_and_precision, safety_notes
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, make_it_yourself, play_and_precision, safety_notes
 
 ## 76 Multi-stage slide rigging (cascade and continuous string rigging)
 
@@ -855,11 +970,11 @@
   - tensioning (takes up slack and holds): good rigging includes spring tensioners or spring-loaded pulleys that keep the strings tight as the string path changes length during travel; gm0 'highly encourages' at least one spring tensioner per slide set
   - none of the locking behaviours: the rigging itself does not lock; a vertical lift sinks under its own weight unless the motor, its gearbox, a brake mode or counterbalance springs hold it (Chief Delphi 2019 thread)
 - **holding_principle**: not a holding joint (it moves or passes on motion): the strings carry pulling force (tension) from the spool to the stages; position is held only as long as the spool is held
-- **input_output**: Input: rotation of a motor-driven spool (or a belt pulley or sprocket). Output: straight-line extension. Continuous rigging: string wound in = carriage travel (1:1), and the force at the spool is roughly the load being lifted, which is why continuous spools 'can be powered by a system with a relatively low gear ratio' (gm0). Cascade rigging: the second stage moves 2 times as fast as the first, the third 3 times and so on (gm0), so the first string must pull about N times the load at the top (2x force on the first stage for a 2-stage lift: YETI; 'twice the speed and with half the force' at each stage: Waffles wiki). Adding stages to a cascade needs proportionally more gear reduction to keep the same speed, e.g. a 3:1 one-stage lift becomes 9:1 with three stages (gm0). Shaft arrangement: the spool shaft sits across (at right angles to) the slide direction. Back-drivable: yes, a vertical lift will drop when the motor is unpowered unless brake mode, counterbalance springs or a self-locking gearbox holds it (Chief Delphi 2019). *(unverified parts omitted)*
+- **input_output**: Input: rotation of a motor-driven spool (or a belt pulley or sprocket). Output: straight-line extension. Continuous rigging: string wound in = carriage travel (1:1), and the force at the spool is roughly the load being lifted, which is why continuous spools 'can be powered by a system with a relatively low gear ratio' (gm0). Cascade rigging: the second stage moves 2 times as fast as the first, the third 3 times and so on (gm0), so the first string must pull about N times the load at the top (2x force on the first stage for a 2-stage lift: YETI; 'twice the speed and with half the force' at each stage: Waffles wiki). Adding stages to a cascade needs proportionally more gear reduction to keep the same speed, e.g. a 3:1 one-stage lift becomes 9:1 with three stages (gm0). Efficiency: every pulley and bearing block adds some friction ⚑ [uncertain: no figure found]. Shaft arrangement: the spool shaft sits across (at right angles to) the slide direction. Back-drivable: yes, a vertical lift will drop when the motor is unpowered unless brake mode, counterbalance springs or a self-locking gearbox holds it (Chief Delphi 2019). *(⚑ parts need confirming)*
 - **power**: passive (no power needed) for the rigging itself, but it is almost always driven by an electric motor turning the spool. If power is lost the motor stops pulling, so a vertical lift can slide back down under gravity; brake mode alone may not be enough to hold it (Chief Delphi 2019).
 - **removability**: removable: strings are anchored with knots or, better, clamped under a bolt head so they can be re-tensioned or replaced quickly (gm0); belts are clamped in belt clamps (Instructables cascading slide)
 - **reuse_cycles**: many times: the slides, pulleys and spools can be re-rigged indefinitely; the strings themselves stretch, fray and are replaced as a wear item (gm0 notes that string loosens over time)
-- **tools_needed**: A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide). *(unverified parts omitted)*
+- **tools_needed**: Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide). *(⚑ parts need confirming)*
 - **seal**: none: an open framework of slides, pulleys and strings
 - **load**: Light to medium (competition robots lift game pieces and sometimes the robot itself: Brogan Pratt's printed FTC slide insert is described as lifting a 20 kg robot with two motors). Strings are only strong in pull (tension) and cannot push, so every direction you drive needs its own string or elastic. Braided UHMWPE (Dyneema/Spectra) kite line rated around 800 lb has been used on FRC elevators (Chief Delphi 2012). The weak points are sideways and bending loads on the extended slides: keep enough overlap between stages (about 20% of stage length) and at least two bearing blocks per side between stages (YETI wiki).
 - **adjustable**: Yes: string tension is adjusted at bolt clamps, spring tensioners, spring-loaded pulleys, or a pulley that slides along an extrusion (gm0); speed and pulling force can be traded by changing the spool diameter instead of the gearbox (new diameter = old diameter x old ratio / new ratio) (gm0); the number of stages can be changed.
@@ -873,9 +988,10 @@
 - **processes**: 
   - 3D print (FDM): pulleys, spools, bearing blocks, string anchors, slide inserts, and even complete printed slide stages (Instructables '3D Printable Cascading Linear Slide')
   - CNC: aluminium plates and bearing blocks for FRC-scale elevators
-  - off-the-shelf part: drawer slides, linear slide kits, pulley bearings, braided line, timing belts, chain and sprockets, constant-force springs *(unverified parts omitted)*
+  - laser cut: ⚑ [uncertain] flat side plates and spacers for small lifts
+  - off-the-shelf part: drawer slides, linear slide kits, pulley bearings, braided line, timing belts, chain and sprockets, constant-force springs *(⚑ parts need confirming)*
 - **print_in_place**: no: the stages, pulleys and spools are printed (or bought) separately, then assembled and rigged with string or belt by hand
-- **making_tips_3d_printing**: 1) Pulleys: printed pulleys can carry a pressed-in ball bearing; press it in with a clamp, vice or arbor press rather than hammering, which can crack the pulley or damage the bearing (Instructables cascading slide). 2) Abrasive lines such as kevlar cut into plastic: tie them round a washer rather than through a hole in a printed part, so the load is spread (gm0). 3) Anchor strings by clamping them under a bolt head rather than knotting them; it makes re-tensioning quick (gm0), and slippery UHMWPE line holds knots poorly (Wikipedia 'Ultra-high-molecular-weight polyethylene'). 4) Make the spool wide enough that the string never winds over itself, or its diameter and speed change (gm0). 5) Belts: the Instructables cascading slide loops belt over printed pulleys with about 50 mm of overlap in a printed belt clamp; the XRP two-stage elevator on Printables even prints its belt in TPU (tension is taken up with extra hardware). 6) Add a spring tensioner near the end of each string run (gm0). 7) Material: PLA softens above about 60 °C (Prusa), so use PETG (fine below about 80 °C: Prusa) for pulleys, spools and slide inserts that see load, friction heat or a hot car. 9) Line up every pulley in one plane with the string path: 'any amount of misalignment can lead to the string coming off of your pulley' (gm0). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Pulleys: printed pulleys can carry a pressed-in ball bearing; press it in with a clamp, vice or arbor press rather than hammering, which can crack the pulley or damage the bearing (Instructables cascading slide). 2) Abrasive lines such as kevlar cut into plastic: tie them round a washer rather than through a hole in a printed part, so the load is spread (gm0). 3) Anchor strings by clamping them under a bolt head rather than knotting them; it makes re-tensioning quick (gm0), and slippery UHMWPE line holds knots poorly (Wikipedia 'Ultra-high-molecular-weight polyethylene'). 4) Make the spool wide enough that the string never winds over itself, or its diameter and speed change (gm0). 5) Belts: the Instructables cascading slide loops belt over printed pulleys with about 50 mm of overlap in a printed belt clamp; the XRP two-stage elevator on Printables even prints its belt in TPU (tension is taken up with extra hardware). 6) Add a spring tensioner near the end of each string run (gm0). 7) Material: PLA softens above about 60 °C (Prusa), so use PETG (fine below about 80 °C: Prusa) for pulleys, spools and slide inserts that see load, friction heat or a hot car. 8) Print bearing blocks and slide inserts with the sliding faces smooth and the bolt holes vertical so layer lines are not loaded in peel ⚑ [uncertain: general FDM practice, not from a rigging source]. 9) Line up every pulley in one plane with the string path: 'any amount of misalignment can lead to the string coming off of your pulley' (gm0). *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Telescopic linear slides or drawer slides (ball-bearing telescopic slides; Misumi SAR two- and three-stage slides (brand); REV linear motion kit (brand)); slide inserts or pulley blocks; small ball bearings used as pulleys (e.g. 3x12x4 mm V-groove bearings in Brogan Pratt's printed insert; REV 4 mm thick, 12 mm pulley bearings); spools or winch drums; braided UHMWPE line (Dyneema/Spectra (brands)) or kevlar cord; GT2 or HTD timing belt with belt clamps and pulleys; roller chain and sprockets with inline chain tensioners; extension springs or spring-loaded pulleys as tensioners; constant-force springs for counterbalancing; surgical tubing for elastic retraction; 1/8 in PTFE tube with M5 push-to-connect fittings (John Guest (brand)) for routing string; cable carriers (drag chain, e.g. igus e-chain (brand)) or coil cord to carry wires along the extension.
 - **rules_of_thumb**: 
   - Cascade speed: stage 2 moves 2x as fast as stage 1 relative to the base, stage 3 3x, and so on (gm0 'Rigging').
@@ -898,8 +1014,8 @@
   - Kit slide systems such as the REV DUO three-stage cascading lift (REV Robotics docs)
 - **when_to_use**: Use it when something must reach much further than the space it packs into, such as a robot lift, a reach-out arm, a camera or sensor mast, or a model crane, and you want one motor to drive every stage. Choose cascade when you want smooth, predictable motion with every stage moving together, faster top-stage speed, strong pull-down for climbing from the early stages, or easy use of constant-force springs (FRCDesign; Chief Delphi 2022). Choose continuous when you want a low centre of gravity until you really need height (the heavy lower stages only move at the end), simpler gearing, or many stages (Waffles wiki; FRCDesign). Use belts instead of string when you want no re-tensioning and better precision and have room for bigger pulleys (gm0).
 - **when_not_to_use**: Avoid string rigging when the load must be pushed hard, held rigidly against side forces, or positioned precisely without a sensor: use a lead screw or ball screw, a rack and pinion, or a rigid chain actuator (push chain) instead. For one short stage, a single belt or chain loop or a lead screw is simpler. Avoid elastic (surgical tubing) retraction if speed matters: it slows extension considerably and its force changes with extension (gm0). Avoid continuous rigging if the intermediate stages must be in a known position (Chief Delphi 2022).
-- **environment_limits**: Braided UHMWPE line creeps (slowly stretches) under constant tension (Wikipedia), and string in general loosens over time (gm0), so expect to re-tension. UHMWPE fibre should not be used above about 90 °C for long periods (Wikipedia, citing DSM). Printed PLA pulleys and spools soften above about 60 °C (Prusa); PETG is fine below about 80 °C (Prusa). *(unverified parts omitted)*
-- **safety_notes**: The sliding stages and pulleys form pinch and shear points that move quickly (in cascade the top stage moves several times faster than the first), so keep fingers clear and test at low power. A lift can drop suddenly if a string snaps, an anchor slips or the motor loses power (Chief Delphi 2019). A tall extended lift raises the centre of gravity, especially cascade lifts at mid height (Waffles wiki), so a robot or stand can tip. UHMWPE line carries far less snap-back energy than steel wire rope (Wikipedia), but any tensioned line can whip if it breaks. *(unverified parts omitted)*
+- **environment_limits**: Braided UHMWPE line creeps (slowly stretches) under constant tension (Wikipedia), and string in general loosens over time (gm0), so expect to re-tension. UHMWPE fibre should not be used above about 90 °C for long periods (Wikipedia, citing DSM). Printed PLA pulleys and spools soften above about 60 °C (Prusa); PETG is fine below about 80 °C (Prusa). Dirt and grit in bearings and slide rails increase friction and change which stage moves first in continuous rigging ⚑ [uncertain]. Elastic tubing loses stretch with age ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: The sliding stages and pulleys form pinch and shear points that move quickly (in cascade the top stage moves several times faster than the first), so keep fingers clear and test at low power. A lift can drop suddenly if a string snaps, an anchor slips or the motor loses power (Chief Delphi 2019). Elastic retraction tubing and constant-force springs store energy and can snap back when unhooked ⚑ [uncertain]. A tall extended lift raises the centre of gravity, especially cascade lifts at mid height (Waffles wiki), so a robot or stand can tip. UHMWPE line carries far less snap-back energy than steel wire rope (Wikipedia), but any tensioned line can whip if it breaks. *(⚑ parts need confirming)*
 - **common_failures**: 1) String jumps off a pulley because it is not pulled straight (gm0): line up pulleys and add guards or shields (a printed 'bearing shield' for line retention exists on Printables). 2) Slack from string stretch, knots slipping, and the changing string path (gm0): clamp strings under bolts and fit spring tensioners. 3) String overlapping on the spool, changing its diameter so the extension and retraction spools fight or go slack (gm0): make the spool wider. 4) Left and right slides at different tension so the stages twist and bind (racking) (gm0 'Tensioners'; Chief Delphi 2022). 5) Free-floating retraction string tangling (gm0). 6) Elastic retraction making extension slow and letting the spool unwind (gm0). 7) Intermediate stages of a continuous lift moving in an unexpected order because of uneven friction (Chief Delphi 2012; 2022). 8) Abrasive string sawing through plastic parts (gm0: use a washer). 9) Wires to the moving end snagging: use a cable carrier or coil cord (gm0).
 - **related**: 
   - Drawer slide (telescopic ball-bearing slide): the nested slide hardware itself; rigging is what drives it
@@ -918,11 +1034,16 @@
 
 - **links**: 
   - [Rigging (Game Manual 0)](https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/rigging.html): Line diagrams of continuous rigging, cascade rigging, continuous retraction and cascade retraction, plus photos of FTC team lifts, belt-driven slides, string tensioners and cable carriers *(licence: CC BY-NC 2.0 (gm0 repository licence))*
-  - [Understanding Linear Slide Rigging For FTC (Lawton Skaling, YouTube)](https://www.youtube.com/watch?v=Qyfs6OcRtGQ): Video explanation of how linear slides are rigged for FTC robots *(licence: link only (standard YouTube licence))* *(unverified parts omitted)*
+  - [Cascade Elevator Introduction (FRCDesign.org)](https://frcdesign.org/learning-course/stage2/2d/introduction/): Photos of a cascade elevator (team 2468) and a continuous elevator (team 4414) and a 'Cascade Motion' figure showing all stages extending together *(licence: not stated on the page (link only) ⚑ [uncertain])*
+  - [Understanding Linear Slide Rigging For FTC (Lawton Skaling, YouTube)](https://www.youtube.com/watch?v=Qyfs6OcRtGQ): Video explanation of how linear slides are rigged for FTC robots *(licence: link only (standard YouTube licence))*
+  - [Three Stage Cascading Lift (REV Robotics documentation)](https://docs.revrobotics.com/duo-build/linear-motion-kit/three-stage-cascading-lift): Step-by-step photos of stringing a four-section cascading lift, with pulleys on the stage tops and surgical-tubing elastic retraction *(licence: link only ⚑ [uncertain])*
+  - [Operation of the forklift mast lift cylinder (fork-lift-training.co.uk)](https://www.fork-lift-training.co.uk/m/forklifttechnical/lift-cylinder-and-chains.html): Diagram of a forklift lift chain anchored at one end, running over a pulley on the rising cylinder to the fork carriage, which lifts twice as far as the cylinder *(licence: link only ⚑ [uncertain])* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
+  - [3D Printable Cascading Linear Slide (Instructables)](https://www.instructables.com/3D-Printable-Cascading-Linear-Slide/): Six-step guide to an inexpensive, mostly printed cascading slide for FTC robots: printed pulleys with pressed-in bearings, printed pulley attachments and stages, and a belt per stage clamped to the next stage *(licence: not visible in the page data read ⚑ [uncertain])*
   - [XRP Robot 2 Stage Elevator (smidgemcduff, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1484148-xrp-robot-2-stage-elevator): Printable two-stage elevator for the XRP educational robot, driven by an N20 motor, with ~8 mm bearings and a TPU-printed belt *(licence: CC BY)*
   - [Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics (Brogan Pratt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft): Printed pulley insert that turns two- and three-stage Misumi SAR drawer slides into string-rigged robot slides, using 3x12x4 mm V-groove bearings and M3 hardware; the description links an assembly and rigging tutorial video *(licence: CC BY-SA)*
-  - [Misumi Linear Slide Insert for SAR: (Belt Drive) FTC Robotics (Brogan Pratt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1242612-misumi-linear-slide-insert-for-sar-belt-drive-ftc): Belt-driven version of the same printed slide insert, for rigging the slides with belt instead of string *(licence: CC BY)* *(unverified parts omitted)*
+  - [Misumi Linear Slide Insert for SAR: (Belt Drive) FTC Robotics (Brogan Pratt, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1242612-misumi-linear-slide-insert-for-sar-belt-drive-ftc): Belt-driven version of the same printed slide insert, for rigging the slides with belt instead of string *(licence: CC BY)*
+  - [MISUMI Cascading Slide for FTC by LawtonS (Thingiverse) (appeared in search results; page not opened)](https://www.thingiverse.com/thing:4962925): Cascading linear slide prototype for FTC teams and hobbyists, described in the search snippet as expandable to as many stages as desired *(licence: ⚑ [uncertain] not checked)* *(⚑ parts need confirming)*
 - **diagram_idea**: Two side-by-side three-stage slides, one rigged continuous (one long string zig-zagging over every stage) and one rigged cascade (a separate string per stage anchored to the stage below), animated so the continuous one extends its top stage first while the cascade one extends all stages together with arrows labelled 1x, 2x, 3x speed.
 - **sources**: 
   - https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/rigging.html
@@ -946,9 +1067,26 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning, straight push or pull ⚑ *needs confirming (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form*
+- **motion_out**: straight push or pull ⚑ *needs confirming (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form*
+- **shaft_layout**: not applicable ⚑ *needs confirming (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form*
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying [uncertain]. A clamp, vice or arbor pres…"*
+- **load_max**: medium
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, links, make_it_yourself, making_tips_3d_printing, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, make_it_yourself, making_tips_3d_printing, processes, safety_notes, tools_needed
 
 ## 186 Drawer slide (telescopic ball-bearing slide)
 
@@ -976,7 +1114,7 @@
 - **other_families**: locks, latches & catches, brakes, dampers & speed control, indexing & detents
 - **one_liner**: Two or three nested steel or aluminium channels that roll on caged steel balls, letting a drawer, tray or robot stage pull out smoothly in a straight line, often its full length, with optional stops, locks, detents and soft-close.
 - **complexity**: A small assembly that acts as one unit, used in pairs: an outer (cabinet) member, an intermediate member in full-extension slides, an inner (drawer) member, strips of steel balls held in ball retainers (cages) between each pair of members, end stops, and often a disconnect lever, a hold-in detent, a lock-in or lock-out latch, and a self-close spring or soft-close damper (Wikipedia 'Drawer'; Accuride slide reference guide; Rockler).
-- **how_it_works**: Each member is a steel channel rolled into shape with grooves (ball races) along its edges (Wikipedia 'Drawer'). Rows of steel balls, spaced by a plastic or metal strip (ball retainer, or cage), sit in the grooves between one member and the next, so the members roll on the balls instead of rubbing (Wikipedia 'Linear-motion bearing'; Accuride). A three-part slide has a middle member that carries the drawer member further out, so the drawer can come out the full length of the slide (Wikipedia 'Drawer'); the members either move one after another (telescoping, in stages) or all together (progressive) (Accuride). Extra parts give a detent to stop the drawer creeping open, locks, a disconnect lever for removing the drawer, a spring that pulls the drawer shut, or a damper that slows it for the last few inches (Rockler; Accuride; Chambrelan). *(unverified parts omitted)*
+- **how_it_works**: Each member is a steel channel rolled into shape with grooves (ball races) along its edges (Wikipedia 'Drawer'). Rows of steel balls, spaced by a plastic or metal strip (ball retainer, or cage), sit in the grooves between one member and the next, so the members roll on the balls instead of rubbing (Wikipedia 'Linear-motion bearing'; Accuride). A three-part slide has a middle member that carries the drawer member further out, so the drawer can come out the full length of the slide (Wikipedia 'Drawer'); the members either move one after another (telescoping, in stages) or all together (progressive) (Accuride). The balls don't circulate: the ball cage rolls along between the members, moving about half as far as the member it carries ⚑ [uncertain], and stops at the ends keep the parts and balls together. Extra parts give a detent to stop the drawer creeping open, locks, a disconnect lever for removing the drawer, a spring that pulls the drawer shut, or a damper that slows it for the last few inches (Rockler; Accuride; Chambrelan). *(⚑ parts need confirming)*
 
 ### Finder attributes
 
@@ -1003,6 +1141,7 @@
 - **tools_needed**: screwdriver or drill-driver, tape measure and square or level, and ideally a positioning jig (Rockler; printable jigs on Printables); for robot lifts, countersunk M3 or M4 screws, nuts and often 3D-printed spacers (gm0)
 - **seal**: none: dirt, sawdust and chips get into the ball tracks and spoil the movement (gm0; Accuride slide reference guide)
 - **load**: light to heavy: Accuride groups slides as light duty up to 75 lb, medium duty 90 to 100 lb and heavy duty 100 to 600 lb per pair, with stainless and aluminium ranges up to 1,323 lb (Accuride slide reference guide); ordinary kitchen slides are about 75 to 100 lb (Rockler). Ratings are for a pair of 18 in slides fitted on their edges (on the drawer sides): they drop for longer slides, drop by at least 50% if the slides are laid flat under the drawer, and drop as extension increases (Accuride; Chambrelan). Strongest carrying weight down across the tall side of the slide; weakest to sideways loads and twisting when fully extended, where the slide bends (deflects) (Chambrelan lexicon; gm0)
+- **adjustable**: mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon) *(⚑ parts need confirming)*
 - **play_and_precision**: small in good steel slides; the fully extended slide bends (deflects) in proportion to the load (Chambrelan lexicon), and aluminium robot slides develop play as steel balls wear into the rails (gm0). The two slides must be parallel in both directions or they bind, though mounting one slightly higher than the other has little effect (Accuride). Side clearance must suit the slide, usually 1/2 in (12.7 mm) each side for ball-bearing side-mount slides (Rockler)
 - **access_needed**: one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side
 - **materials**: Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)
@@ -1020,6 +1159,7 @@
 - **off_the_shelf_parts**: Search for: 'ball bearing drawer slide' (side mount), 'full extension drawer slide', '3/4 extension drawer slide', 'over travel slide', 'undermount drawer slide', 'soft close drawer slide', 'self closing drawer slide', 'push to open drawer slide' or 'touch release slide', 'heavy duty drawer slide', 'locking drawer slide' or 'lock-in lock-out slide', 'drawer slide with detent', 'disconnect', 'telescopic slide rail', 'keyboard slide', 'double extension slide', 'stainless steel drawer slide', 'drawer slide jig'. Robotics: 'MISUMI SAR2 / SAR3 slide rail', 'goBILDA Viper slide' (brands; gm0). Brands: Accuride, Chambrelan (brands)
 - **rules_of_thumb**: 
   - Use the longest slide that fits; slide length is the closed length (Accuride slide reference guide); side-mount ball-bearing slides are usually the same length as the drawer box (Rockler).
+  - Ball-bearing side-mount slides usually need 1/2 in clearance between drawer and cabinet on each side (Rockler); many slides in Accuride's cross-section guide show a 0.50 in (12.7 mm) dimension, which appears to be that side space ⚑ [uncertain].
   - Load ratings are per pair, for 18 in slides; the rating decreases in proportion beyond 18 in, and static capacity is at least twice the rating (Accuride slide reference guide).
   - Mounting slides flat under a drawer cuts the load rating by at least 50% (Accuride); Chambrelan also advises mounting on the major axis rather than flat.
   - Mount the pair parallel in both the vertical and horizontal directions; one high and one low has little effect (Accuride).
@@ -1028,7 +1168,7 @@
   - Typical ratings: light duty up to 75 lb, medium 90 to 100 lb, heavy 100 to 600 lb per pair (Accuride); everyday kitchen slides about 75 to 100 lb (Rockler).
   - Commercial slides are designed for 0 to 180 F (about -18 to 82 C), indoors; re-grease cleaned slides with an EP (extreme pressure) grease (Accuride).
   - Robot lifts: mount two sets of slides facing each other to reduce sag (gm0).
-  - Caged (non-recirculating) slides can suffer cage creep when mounted vertically, used on short strokes or shaken; occasional full strokes re-centre the cage (linearmotiontips.com; Isotech). *(unverified parts omitted)*
+  - Caged (non-recirculating) slides can suffer cage creep when mounted vertically, used on short strokes or shaken; occasional full strokes re-centre the cage (linearmotiontips.com; Isotech). *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -1060,12 +1200,15 @@
   - [P1000133 Teleskopschienenfuehrung: rail guide of a drawer (Dynomat, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:P1000133_Teleskopschienenf%C3%BChrung.JPG): Close-up photo of telescopic drawer slides fitted to a furniture drawer, used in Wikipedia's 'Drawer' article *(licence: CC BY-SA 3.0 (also GFDL 1.2+ and earlier CC BY-SA versions))*
   - [Light Rail: telescopic drawer slides with ball bearings (Rollon91, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Light_Rail.jpg): Photo of telescopic ball-bearing slides, used in Wikipedia's 'Drawer' gallery *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
   - [Telescopic Rail (Rollon91, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Telescopic_Rail.jpg): Photo of a telescopic rail made of nested channels *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
-  - [Drawer Slides (Game Manual 0)](https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/drawer-slides.html): Robot photos and cross-section drawings of drawer slides stacked into multi-stage lifts with 3D-printed inserts, and slides mounted facing each other to reduce sag *(licence: CC BY-NC 2.0 (gm0 repository licence))* *(unverified parts omitted)*
+  - [Drawer Slides (Game Manual 0)](https://gm0.org/en/latest/docs/common-mechanisms/linear-motion-guide/drawer-slides.html): Robot photos and cross-section drawings of drawer slides stacked into multi-stage lifts with 3D-printed inserts, and slides mounted facing each other to reduce sag *(licence: CC BY-NC 2.0 (gm0 repository licence))*
+  - [What Are Ball Bearing Drawer Slides and How Do They Work? (YouTube, OneMonroe)](https://www.youtube.com/watch?v=8VGzHawd8c8): Explainer video on ball-bearing drawer slides (title and channel confirmed via YouTube oEmbed; content not viewed) ⚑ [uncertain] *(licence: link only (standard YouTube licence))*
+  - [How to Load Bearings into a 3D Printed Linear Slide (YouTube, EasilyBuild)](https://www.youtube.com/watch?v=VrYiAUcE6vI): Loading airsoft BBs into a printed ball slide (title and channel confirmed via YouTube oEmbed; content not viewed) ⚑ [uncertain] *(licence: link only (standard YouTube licence))* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
   - [Drawer Slide on Airsoft BBs (f3d) (Radek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1216090-drawer-slide-on-airsoft-bbs-f3d): Parametric Fusion 360 drawer slide running on 6 mm airsoft BBs, in 180, 210, 350 and 720 mm lengths, with 'free' (0.15 mm) and 'constriction' (0.10 mm) clearance versions and a reinforced heavy-duty version; assembly instructions for loading the balls. Read through the Printables public API. *(licence: CC BY-SA)*
   - [Smooth Drawer Slide without Bearings (Vollauszug - Open Drawer System) (JoshRC, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/95192-smooth-drawer-slide-without-bearings-vollauszug-op): A 400 mm full-extension printed slide that runs PLA on PLA with 0.25 mm clearance and no bearings or lubrication, for a 200 mm deep drawer. Read through the Printables public API. *(licence: CC BY-NC-SA)*
   - [Airsoft Ball Bearing Drawer Slide - Extended (savingprivatebrian15, Printables)](https://www.printables.com/model/346078-airsoft-ball-bearing-drawer-slide-extended): A 9 in version of an airsoft-BB ball slide, printed diagonally on a 220 x 220 mm bed (page appeared in search results; details read through the Printables public API) *(licence: CC BY)*
-  - [Double Drawer Slide Jig (Sorin B, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/184129-double-drawer-slide-jig): A reversible printed jig for positioning left- or right-hand drawer slides during installation. Read through the Printables public API. *(licence: CC BY)* *(unverified parts omitted)*
+  - [Airsoft Ball Bearing Drawer Slide by EasilyBuild (Thingiverse) (page is JavaScript-only; details from a search-engine summary)](https://www.thingiverse.com/thing:2098563): The original printed ball slide using airsoft pellets as bearings ⚑ [uncertain] *(licence: ⚑ [uncertain])*
+  - [Double Drawer Slide Jig (Sorin B, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/184129-double-drawer-slide-jig): A reversible printed jig for positioning left- or right-hand drawer slides during installation. Read through the Printables public API. *(licence: CC BY)* *(⚑ parts need confirming)*
 - **diagram_idea**: End-on cross-section of a three-part slide showing the outer, middle and inner channels with a ball on each side between each pair, plus a side view in three frames (closed, half open, fully open) showing the middle member and ball cages moving along as the drawer member extends.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Drawer
@@ -1092,9 +1235,26 @@
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks
+- **tools**: drill and tap, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments [uncertain]), and travel, detent force a…"*
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** adjustable, how_it_works, links, make_it_yourself, rules_of_thumb
+- ⚑ **Fields with parts that need confirming:** adjustable, how_it_works, links, make_it_yourself, rules_of_thumb
 
 ## 187 Ball screw
 
@@ -1236,6 +1396,23 @@
   - https://www.printables.com/model/645953-1204-ball-screw-nut-retaining-rod
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning, straight push or pull
+- **shaft_layout**: in line
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: press or vice, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ## 188 Differential screw (fine adjustment screw)
 
 *sliding, telescoping & linear motion.* One screw with two slightly different thread pitches, so each turn moves the part by only the small difference, for very fine adjustment
@@ -1315,7 +1492,7 @@
   - Historic machine levelling feet and astronomical micrometers (Wikipedia 'Differential screw')
 - **when_to_use**: Use it when you need very fine, steady adjustment that stays where you set it, but only have (or only want) coarse, strong, standard threads: focusing, aligning optics or lasers, setting an endstop or a bed height, fine feed of a tool, or a fine final tightening stage in a clamp. It is also the usual way to get steps finer than the finest threads that can be made, and a differential micrometer gives both a coarse and a fine knob in one unit.
 - **when_not_to_use**: Don't use it for long or fast travel: its range is short and each turn moves very little; use a lead screw or ball screw. Don't expect a big clamping force by hand, because friction on two threads doubles the starting torque (Home Metal Shop Club); use an ordinary screw clamp or a toggle clamp. If you need zero backlash, preload it with a spring or use a lever or flexure reducer instead (Wikipedia 'Fine adjustment screw'). If one fine thread is fine enough (e.g. an 80-100 tpi adjuster), that is simpler and cheaper.
-- **environment_limits**: Nothing special beyond ordinary threads: grit in fine threads makes them stick, and grease extends nut life, while phosphor bronze nuts can run without grease, e.g. in vacuum (Wikipedia 'Fine adjustment screw'). Superglue used to fix a ball tip on an adjuster can outgas and degrade over time (Wikipedia). Printed PLA parts soften above about 60 C (Prusa). *(unverified parts omitted)*
+- **environment_limits**: Nothing special beyond ordinary threads: grit in fine threads makes them stick, and grease extends nut life, while phosphor bronze nuts can run without grease, e.g. in vacuum (Wikipedia 'Fine adjustment screw'). Superglue used to fix a ball tip on an adjuster can outgas and degrade over time (Wikipedia). Printed PLA parts soften above about 60 C (Prusa). At micrometre level, temperature changes of the screw and frame shift the setting ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: None known for small adjusters. A printed differential clamp can build up more force than its printed threads and layers can take (Jack reinforces his with a glued-in rod), so don't rely on printed clamps for anything hazardous.
 - **common_failures**: 1) The moving nut turns with the screw, so nothing happens or the part creeps; guide it with a slot or square tube (Hackaday; Rehorst). 2) Doubled backlash makes the setting jump when you reverse; add a spring and approach from one side (Rehorst; Wikipedia). 3) Too stiff to turn under load because of friction on two threads (Home Metal Shop Club); grease the threads (Printables, Jack). 4) Running out of range because the screw travels 8-10 times further than the output; plan thread lengths (Rehorst). 5) A joined two-part screw unscrews itself; use thread-locker or epoxy (Rehorst). 6) Printed internal threads come out wrong-sized; print a test first (Sanford Prime revised his). 7) Buying a fake 'differential micrometer' that is just a fine single thread (Rehorst).
 - **related**: 
@@ -1362,9 +1539,26 @@
   - https://www.printables.com/model/107132-differential-screw-clamp
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, power tools, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits
+- ⚑ **Fields with parts that need confirming:** environment_limits
 
 ## 189 Rigid chain actuator (zip chain, push chain)
 
@@ -1405,8 +1599,8 @@
 - **holding_principle**: 
   - shape (form-fit): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
   - not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake
-- **input_output**: Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). *(unverified parts omitted)*
-- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). *(unverified parts omitted)*
+- **input_output**: Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). Rough efficiency: not stated in the makers' pages found ⚑ [uncertain]. Back-drivable: in principle yes, like a rack and pinion, unless the gearmotor or a brake holds it ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds against a strong wind or push when unpowered] *(⚑ parts need confirming)*
 - **removability**: removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)
 - **reuse_cycles**: many times: it is fitted once but runs for many cycles (Tsubaki expects about 4000 km of travel); brackets can be unbolted and refitted
 - **tools_needed**: Screwdriver, hex keys and spanners for the brackets; electrical tools for wiring the motor supply and switches; grease for industrial chains. Printed demo chains: none (pins and clips press in).
@@ -1471,7 +1665,8 @@
   - [3D Printed Rigid Chain Mechanism (Hackaday, 2020)](https://hackaday.com/2020/12/08/3d-printed-rigid-chain-mechanism/): Article with video of gzumwalt's printed two-chain zip beam and a snake-in-a-basket automaton built on it *(licence: link only)*
 - **make_it_yourself**: 
   - [PCN145 - Fully Printable Push Chain (FH, Printables)](https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain): Fully printable push chain inspired by window actuators that bends one way around a sprocket and is stiff when pushing; 14.5 mm pitch, Fusion 360 source files included *(licence: CC BY-SA)*
-  - [[MOC] Rigid Chain Actuator (ord, Eurobricks forum, 2022)](https://www.eurobricks.com/forum/forums/topic/191071-moc-rigid-chain-actuator/): LEGO Technic rigid chain actuator inspired by a window opener, with half pins on every second link that wedge the chain rigid *(licence: not stated)* *(unverified parts omitted)*
+  - [Rigid Chain Screw Actuator (ttsalo, Thingiverse) (appeared in search results; page needs JavaScript and was not read)](https://www.thingiverse.com/thing:2362604): Printable 'screw of theoretically unlimited length' that assembles and disassembles itself from chain-like parts, suggested as a printer Z lifter together with a guiding linkage *(licence: ⚑ [uncertain])*
+  - [[MOC] Rigid Chain Actuator (ord, Eurobricks forum, 2022)](https://www.eurobricks.com/forum/forums/topic/191071-moc-rigid-chain-actuator/): LEGO Technic rigid chain actuator inspired by a window opener, with half pins on every second link that wedge the chain rigid *(licence: not stated)* *(⚑ parts need confirming)*
 - **diagram_idea**: Side view of a housing with a sprocket feeding a chain out of the top: inside, the chain hangs loosely in a coil; outside, the links stand in a straight column with their shoulders touching, and a zoomed inset shows the shoulder contact and the one-way bending of two links, plus a second small panel with two chains zipping together back to back.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Rigid_chain_actuator
@@ -1498,9 +1693,26 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: electricity ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds aga…"*
+- **power_loss**: keeps its last state ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds aga…"*
+- **motion_in**: steady turning
+- **motion_out**: straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: powered
+
 ### Other info
 
-- **Fields with unverified parts:** input_output, make_it_yourself, power
+- ⚑ **Fields with parts that need confirming:** input_output, make_it_yourself, power
 
 ## 265 Linear guides (bushings on rods, wheels or carriages on rails)
 
@@ -1569,7 +1781,7 @@
   - woodwork: plain wooden runners and waxed slides for drawers and jigs (the simplest sliding guide; drawer jamming is Slocum's classic example)
 - **print_in_place**: no: printed linear guides are normally printed as separate bushings, carriages and clamps and then fitted onto metal rods, rails or aluminium extrusions
 - **making_tips_3d_printing**: 1) Holes print small: EngineerDog explains that printed holes shrink (cooling and polygon faceting) and suggests oversizing by about 0.13 mm (0.005 in) across the diameter or reaming. For a printed bushing on an 8 mm rod, UNIT3D supplies bores of 8.1-8.4 mm; in PC Blend at 0.15 mm layers 8.2 mm was the sweet spot, but the bushings later loosened with wear, so the designer planned to print 8.1 mm and drill out to 8 mm for more contact. Aim for a fit that does not rattle when you flick the carriage (UNIT3D). 2) Material: humebeam recommends nylon (PA) for printed bushings because it is low friction and durable on both steel and carbon-fibre rods; stevehlau's drylin-style bushing was designed for PLA with 3 perimeters and at least 10% infill. Tune flow first, because over- or under-extrusion changes the bore (humebeam). 3) Clamp, don't crush: hold metal ball bushings in a printed clamp (BOSL2 lmXuu_housing() draws one for any LMxUU size; LM8UU is 8 mm bore, 15 mm outside, 24 mm long) and do not over-tighten, because squeezing deforms the bushing and scratches the rod (Prusa). 4) Make the carriage long: keep bearing length at least equal to the spacing between rails, 1.6:1 is very good and 3:1 'awesome' (Slocum), and keep the drive force and load within twice the bearing spacing of the driven rail (igus 2:1 rule). 5) With two rods, make one side a tight 'fixed' bushing and the other a looser 'floating' one (igus) so small parallelism errors do not bind it. 6) Hold rods firmly: clamp each rod end over a good length (Slocum suggests clamping a fixed shaft over at least 3 shaft diameters), and print both rod supports in one rigid part or use a jig so the rods stay parallel. 7) On soft tubes (aluminium, carbon fibre) use plastic bushings, not steel-ball bushings, which wear grooves into them (gm0; humebeam). 8) PLA softens above 60 C and PETG is fine below 80 C (Prusa), so avoid PLA carriages near heated beds, motors or in hot cars. 9) Lubricate and clean the rods regularly (Prusa) unless the bushings are dry-running plastic; put grease or light oil inside ball bushings (the rod wipes it off otherwise) and avoid PTFE or dry lubricants and thick high-temperature grease, which can stop the balls circulating (RepRap wiki).
-- **off_the_shelf_parts**: Linear ball bearings (ball bushings) in LMxUU sizes such as LM8UU (8 x 15 x 24 mm), plus long (LM8LUU) and short (LM8SUU) versions (RepRap wiki) and flanged and open types; MGN7/9/12/15 and HGR15/20 sizes; HIWIN (brand) and many compatible makes); V-slot aluminium extrusion (OpenBuilds, brand) with Delrin or polycarbonate V-wheels, eccentric spacers and gantry plates; track rollers; crossed-roller slides; telescoping rails and drawer slides; McMaster-Carr lists 'Linear Bearings', 'Linear Bearing Housings', 'Carriages and Guide Rails', 'Track Rollers' and 'Telescoping Rails'. *(unverified parts omitted)*
+- **off_the_shelf_parts**: Linear ball bearings (ball bushings) in LMxUU sizes such as LM8UU (8 x 15 x 24 mm), plus long (LM8LUU) and short (LM8SUU) versions (RepRap wiki) and flanged and open types; SCxxUU pillow blocks with a bushing inside (RepRap wiki); linear bearing housings; hardened and chromed linear shafting; plain polymer linear bushings, e.g. drylin RJ4JP / RJUM (igus, brand); shaft support blocks (SK-type) and continuously supported rails (SBR-type) ⚑ [uncertain]; profile rail guides with carriages ('carriages and guide rails', e.g. MGN7/9/12/15 and HGR15/20 sizes; HIWIN (brand) and many compatible makes); V-slot aluminium extrusion (OpenBuilds, brand) with Delrin or polycarbonate V-wheels, eccentric spacers and gantry plates; track rollers; crossed-roller slides; telescoping rails and drawer slides; McMaster-Carr lists 'Linear Bearings', 'Linear Bearing Housings', 'Carriages and Guide Rails', 'Track Rollers' and 'Telescoping Rails'. *(⚑ parts need confirming)*
 - **rules_of_thumb**: 
   - igus 2:1 rule: the drive force and the load should act no further from the driven ('fixed') rail than twice the length over which its bearings are spread, or the carriage binds or chatters. Example: bearings 10 in apart on the fixed rail means forces within 20 in of it. A stronger motor does not fix it; spread the bearings further apart (igus, 'The 2:1 Rule and How to Define Fixed and Floating Bearings').
   - Carriage length to rail spacing (L/D): at least 1, 1.6:1 very good, 3:1 as good as it gets; if L/D is below 1, drive both sides of the slide (Slocum, FUNdaMENTALs of Design, Topic 3 p. 3-8 and Topic 10 p. 10-26).
@@ -1653,7 +1865,24 @@
   - https://www.printables.com/model/36291-unit3ds-lm8uu-linear-bearing
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: press or vice, power tools, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** off_the_shelf_parts
+- ⚑ **Fields with parts that need confirming:** off_the_shelf_parts
 

@@ -5,13 +5,15 @@ Generated for /research-report (run 2 of the Encyclopedia of Connections). Cover
 in fields.yaml, in outline order (research priority), with family, special_behaviour and motion
 in the table of contents, plus indexes by family and by special behaviour.
 
-Unverified content: anything marked [uncertain] is left out of the report but kept in the JSON.
-By default this works at the finest level that is still safe: a list item or a sentence that
-contains [uncertain] is dropped, and the rest of the field is kept (run 2's agents often mark
-just one claim in an otherwise verified field). Run with --strict to drop every field that
-contains [uncertain] or is listed in the file's `uncertain` array, as run 1's report did.
+Unverified content: since 2026-10-06 (R25) anything marked [uncertain] is shown, with the mark
+⚑ ("needs confirming") in front of the marker, so readers can see what still needs checking and
+suggest corrections. Each entry also lists its finder tags from research/finder-tags/tags.yaml,
+with ⚑ on the values that need confirming. Run with --drop for the older behaviour (a list item
+or sentence that contains [uncertain] is left out, and the rest of the field is kept), or with
+--strict to drop every field that contains [uncertain] or is listed in the file's `uncertain`
+array, as run 1's report did.
 
-Run from anywhere: python3 research/connection-types/generate_report.py [--strict]
+Run from anywhere: python3 research/connection-types/generate_report.py [--drop | --strict]
 """
 import json
 import re
@@ -29,6 +31,10 @@ REPORT = HERE / "report.md"
 REPORT_DIR = HERE / "report"  # one page per family (a single file would be too big for GitHub to show)
 
 STRICT = "--strict" in sys.argv
+DROP = "--drop" in sys.argv and not STRICT
+MARK = not (STRICT or DROP)          # the default since R25
+FLAG = "⚑"                           # "needs confirming", as in research/needs-confirming.md
+TAGS = HERE.parent / "finder-tags" / "tags.yaml"
 TOC_FIELDS = ["family", "special_behaviour", "motion"]
 TOC_LABELS = {"family": "Family", "special_behaviour": "Does", "motion": "Motion"}
 CATEGORY_TITLES = {
@@ -118,6 +124,17 @@ def prune(value):
     return value, False
 
 
+def mark_value(value):
+    """Put the needs-confirming mark in front of every [uncertain] marker."""
+    if isinstance(value, str):
+        return UNC_RE.sub(lambda m: f"{FLAG} " + m.group(0), value)
+    if isinstance(value, list):
+        return [mark_value(v) for v in value]
+    if isinstance(value, dict):
+        return {k: mark_value(v) for k, v in value.items()}
+    return value
+
+
 def md_text(text):
     return str(text).replace("\n", " ").strip()
 
@@ -204,6 +221,7 @@ def main():
                             json.loads(path.read_text(encoding="utf-8"))))
 
     done = sum(1 for _, d in records if d is not None)
+    tags = {t["num"]: t for t in yaml.safe_load(TAGS.read_text(encoding="utf-8"))} if TAGS.exists() else {}
     heading = {i: f"{i} {item['name']}" for i, (item, _) in enumerate(records, 1)}
     fam_order = list(family_labels) + sorted({it.get("category", "Other") for it, _ in records} - set(family_labels))
     fam_file = {f: f"{n:02d}-{re.sub(r'[^a-z0-9]+', '-', f.lower()).strip('-')}.md" for n, f in enumerate(fam_order, 1)}
@@ -226,6 +244,15 @@ def main():
     )
     if STRICT:
         out.append("Fields the research agents marked `[uncertain]` are left out here (they stay in the JSON files).\n")
+    elif MARK:
+        out.append(
+            f"**{FLAG} = needs confirming.** Anything the research agents could not confirm is shown "
+            f"with {FLAG} in front of its `[uncertain]` marker, and the field is flagged "
+            f"*({FLAG} parts need confirming)*. Each entry also lists its finder tags "
+            f"(`research/finder-tags/tags.yaml`), with {FLAG} on the values that need confirming. "
+            "Corrections are welcome: see `research/needs-confirming.md`. Open points found by "
+            "the research agents are in `review-notes.md`.\n"
+        )
     else:
         out.append(
             "Unverified content is left out: any sentence or list item the research agents marked "
@@ -248,7 +275,7 @@ def main():
             if not found or is_empty(val):
                 continue
             text = toc_value(f, val)
-            flag = " (?)" if contains_uncertain(val) else ""
+            flag = (f" {FLAG}" if MARK else " (?)") if contains_uncertain(val) else ""
             parts.append(f"{TOC_LABELS[f]}: {text}{flag}")
         out.append(line + (" - " + " | ".join(parts) if parts else ""))
     out.append("")
@@ -310,6 +337,9 @@ def main():
                     if f in uncertain or contains_uncertain(val):
                         continue
                     note = ""
+                elif MARK:
+                    note = f" *({FLAG} parts need confirming)*" if contains_uncertain(val) else ""
+                    val = mark_value(val)
                 else:
                     val, dropped = prune(val)
                     if is_empty(val):
@@ -320,6 +350,15 @@ def main():
                 out.append(f"### {CATEGORY_TITLES.get(cat, cat)}\n")
                 out.extend(lines)
                 out.append("")
+        tg = tags.get(i)
+        if tg and tg["name"] == item["name"]:
+            nc = tg.get("needs_confirming") or {}
+            out.append("### Finder tags\n")
+            for k, v in tg["tags"].items():
+                shown = ", ".join(v) if isinstance(v, list) else v
+                why = f" {FLAG} *needs confirming ({nc[k]['kind']}): {md_text(nc[k]['reason'])}*" if k in nc else ""
+                out.append(f"- **{k}**: {shown}{why}")
+            out.append("")
         extras = []
         for k, v in data.items():
             if k in INTERNAL_KEYS or k in all_field_names:
@@ -333,11 +372,12 @@ def main():
         if extras or uncertain:
             out.append("### Other info\n")
             for k, v in extras:
-                v, _ = prune(v) if not STRICT else (v, False)
+                v = mark_value(v) if MARK else (prune(v)[0] if DROP else v)
                 if not is_empty(v):
                     out.append(f"- **{k}**: {fmt_value(v)}")
             if uncertain:
-                out.append("- **Fields with unverified parts:** " + ", ".join(sorted(uncertain)))
+                out.append((f"- {FLAG} **Fields with parts that need confirming:** " if MARK else "- **Fields with unverified parts:** ")
+                           + ", ".join(sorted(uncertain)))
             out.append("")
 
     for fam, body in pages.items():
@@ -346,7 +386,8 @@ def main():
         label = family_labels.get(fam, "")
         head = [f"# {fam}" + (f": {label}" if label else "") + "\n",
                 "[Back to the index](../report.md). Entries are numbered as in the index "
-                "(research-priority order). Unverified parts are left out; see the index page.\n"]
+                "(research-priority order). " + (f"{FLAG} marks what needs confirming; corrections are welcome "
+                "(`research/needs-confirming.md`).\n" if MARK else "Unverified parts are left out; see the index page.\n")]
         (REPORT_DIR / fam_file[fam]).write_text("\n".join(head + body) + "\n", encoding="utf-8")
     print(f"Wrote {REPORT} and {len([b for b in pages.values() if b])} family pages in {REPORT_DIR} ({done}/{len(records)} items)")
 

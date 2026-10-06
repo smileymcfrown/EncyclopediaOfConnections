@@ -1,6 +1,6 @@
 # locating & alignment: Locates parts exactly
 
-[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
+[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). ⚑ marks what needs confirming; corrections are welcome (`research/needs-confirming.md`).
 
 ## 114 Kinematic coupling (balls in V-grooves)
 
@@ -141,6 +141,23 @@
   - https://www.youtube.com/watch?v=cfSHss5j5KU (verified via YouTube oEmbed)
   - https://api.printables.com/graphql/ (Printables models 1493826, 302854 and 1057179 read via the public API)
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, press or vice
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: tool-free quick release
+- **power**: passive
+
 ## 115 Self-centring cone and socket (taper locator)
 
 *locating & alignment.* A cone or tapered pin sliding into a matching socket, which guides two parts into line and centres them as they come together
@@ -184,21 +201,24 @@
 - **input_output**: not applicable
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release for locating cones and steep self-releasing tapers (just lift or unclamp); removable for self-holding tapers, which need a drift, ejector or a sharp tap to break them free (Wikipedia 'Machine taper'; Newman Tools); ground-glass joints can seize and need solvent, heat or cold to free them (Wikipedia 'Ground glass joint').
+- **reuse_cycles**: many times to effectively unlimited for hardened steel locators kept clean; printed plastic cones wear and pick up dents and nicks over time ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: none to use a locating cone. A drift (wedge) or ejector to release a self-holding machine taper (Wikipedia 'Machine taper'); a taper-pin reamer to prepare holes for steel taper pins (Wikipedia 'Taper pin'); a press or bore to fit industrial cone locators and their bushings, whose shank and bushing outside diameters match so both holes can be bored at once (Carr Lane).
 - **seal**: none for a locating cone. Precision tapers can seal: Luer slip fittings on syringes are leak-free by friction between the tapers (watertight), and greased ground-glass laboratory joints give a good seal (airtight) (Wikipedia 'Luer taper', 'Ground glass joint'). The seal comes from two accurately matched, smooth cone surfaces pressed together.
 - **load**: Light to heavy depending on material and size. Strong against sideways (shear) loads and against pushing further in, because the cone seats on its sloped faces. Weak against pulling apart unless it is a self-holding taper or clamped. A round cone gives no resistance to twisting except friction: self-holding tapers transmit turning force by friction (Newman Tools), but a plain locator needs a second pin or key.
 - **adjustable**: no: the cone sets one fixed centred position. The seating depth changes slightly if either cone is made a little too big or too small.
 - **play_and_precision**: none when seated: the cones touch all round, so a taper removes play instead of needing a clearance gap, and returns to the same place very repeatably (Wikipedia 'Machine taper': tools are 'precisely located both concentrically and axially'). Industrial cone locators are rated 'medium-accuracy' because they are designed to catch large starting errors (Carr Lane). Tolerates sideways offset up to about the radius of the cone's mouth and some tilt while engaging; size errors show up as a change in seating depth rather than as looseness. Two rigid cones on the same part will bind if their spacing doesn't match exactly, so use one cone plus a relieved or slotted second locator (Carr Lane).
 - **access_needed**: not applicable: the parts are simply pushed together along the cone's axis. Self-holding machine tapers need access to a drift slot or ejector to get them apart (Wikipedia 'Machine taper').
-- **materials**: Hardened steel pins with steel bushings for fixtures (Carr Lane); steel for machine tapers; glass for laboratory joints and plastic for Luer fittings (Wikipedia). For home-made locators any printable plastic works: smooth, slippery PLA or PETG centre best, while rubbery TPU grips and stops the cone sliding into the centre (Printables 'Universal Spool Centering Cone', STORM DESIGN). *(unverified parts omitted)*
+- **materials**: Hardened steel pins with steel bushings for fixtures (Carr Lane); steel for machine tapers; glass for laboratory joints and plastic for Luer fittings (Wikipedia). For home-made locators any printable plastic works: smooth, slippery PLA or PETG centre best, while rubbery TPU grips and stops the cone sliding into the centre (Printables 'Universal Spool Centering Cone', STORM DESIGN). Wood (turned cones) and machined aluminium also work ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **maker_difficulty**: easy: a cone and matching conical hole print well and centre reliably with a generous clearance. Hard only if you need a precision self-holding taper, which has to be ground or reamed accurately, so buy a standard Morse-taper part or taper pin instead.
 
 ### Making it
 
 - **processes**: 
   - 3D print (FDM): cones and conical sockets print well standing upright; the most common home approach (Printables centring-cone models)
+  - 3D print (resin): fine surface for small, accurate cones ⚑ [uncertain]
   - CNC: lathe taper turning or a tapered reamer for accurate male and female cones; drilling and countersinking for simple lead-in cones
-  - off-the-shelf part: cone locator pins and bushings, bullet-nose pins, taper pins and reamers, Morse-taper arbors (Carr Lane; McMaster-Carr; Wikipedia 'Taper pin') *(unverified parts omitted)*
+  - woodwork: turned cones and countersunk holes ⚑ [uncertain]
+  - off-the-shelf part: cone locator pins and bushings, bullet-nose pins, taper pins and reamers, Morse-taper arbors (Carr Lane; McMaster-Carr; Wikipedia 'Taper pin') *(⚑ parts need confirming)*
 - **print_in_place**: no: the cone and socket are separate parts that are meant to come apart and go back together.
 - **making_tips_3d_printing**: 1) Print cones and conical holes with their axis vertical so every layer is a true circle; the sloped face then shows fine stair-steps, which are smaller on steep-sided (shallow-angle) cones. Check the CAD model has enough facets, because a low-polygon 'circle' prints as a polygon (Prusa 'Modeling with 3D printing in mind'). Variable layer height smooths the slope (Prusa). 2) Overhangs: a cone pointing up needs no support. A conical socket opening downwards is an overhang; keep each wall within about 45 degrees of vertical (Hubs: overhangs print up to about 45 degrees; Prusa: 45-60 degrees) so no support is needed. 3) Choose the angle for the job: a slimmer cone centres more precisely and more easily, a wider one catches bigger starting errors. One designer threw away several spool-centring cones until he made the cone angle smaller, after which 'centering is now simple and works the first time' (Printables 'Universal Spool Centering Cone', STORM DESIGN). If you do not want the parts to stick, keep the half-angle well above the friction angle of the material (see rules of thumb), because shallow cones wedge tight. 4) Deliberately tight fits: AON3D suggests sloping a diameter by about 2 degrees and adding 0.2 mm crush ribs, so the part slides in easily and tightens only at the end. 5) Clearance: a plain locator can be modelled with zero clearance on the cone because it simply seats a little deeper or shallower; any cylindrical part next to the cone still needs at least 0.3 mm clearance, and FDM parts are only accurate to about 0.2 mm (Prusa). 6) Keep the seam and blobs off the sliding faces: set the Z-seam to the back or into a recess; one router-centring cone adds recesses 'for keeping seams away from faces that need to be smooth' (Printables 'Palm Router Centering Cone Tool', Vincent). 7) Material: use smooth, slippery PLA or PETG, not TPU, which grips and stops the cone sliding into the centre (Printables 'Universal Spool Centering Cone'). 8) Elephant's foot: add a 45-degree chamfer to edges touching the build plate so the first layers don't bulge and jam the fit (Hubs). 9) Instead of thin printed pins, which are weak under about 5 mm diameter (Hubs), use chamfered pins and holes or chamfered fins and slots; chamfers let the features print in several orientations and guide the parts together (Hackaday on Slant 3D's 'Alternative to Pins and Holes'). 10) If you need two locators on one part, make only one a full cone and let the second locate in one direction only (a slot or relieved pin) so the parts do not bind (Carr Lane).
 - **off_the_shelf_parts**: Search supplier catalogues for: 'cone locator pins' with matching 'mating bushings' (Carr Lane); 'bullet-nose locating pins' in 'round' and 'diamond' versions (Carr Lane); 'locating pins' by head type cone, diamond, round or tapered, and 'slotted bushings' that stop alignment pins binding (McMaster-Carr); 'taper pins' (1:50 metric, 1:48 inch) with 'taper pin reamers' (Wikipedia 'Taper pin'); 'Morse taper' (MT1, MT2...) arbors, sleeves and drifts (Wikipedia 'Machine taper'); 'conical seat lug nuts' (Wikipedia 'Lug nut'); 'Luer slip' and 'Luer lock' fittings (Wikipedia 'Luer taper').
@@ -223,8 +243,8 @@
   - Stackable storage bins (Gridfinity) whose chamfered feet drop into a baseplate grid, and filament-spool centring cones (Printables)
 - **when_to_use**: Use a cone and socket when two parts must go back together in exactly the same place again and again, especially when you can't see what you are doing, the parts are heavy or come together at an angle, or a robot or machine puts them together: tool changers, removable heads and covers, stacking modules, docking stations, fixtures and jigs (Carr Lane: 'quick assembly of two fixture pieces'; arXiv 2603.04760 self-aligning tool changer). Use a shallow self-holding taper when you want the fit itself to grip, as in machine tools and syringes. A taper is also a good choice in 3D printing because it removes play without needing an exact clearance: the part just sits a little deeper or shallower.
 - **when_not_to_use**: Don't rely on a round cone alone to stop parts turning: add a second pin, a flat or a key (see Keying and Locating pins and hole-and-slot). Don't use two full cones on the same part unless their spacing is exact; use one cone plus a slot or diamond pin (Carr Lane). Don't use a shallow taper where the parts must separate easily, because it can wedge and stick (Creitaru and Grigore 2011); use a steeper cone or a clamp instead. For the very best repeatability without over-constraint, use a kinematic coupling (balls in a cone, a V-groove and a flat) (Wikipedia 'Kinematic coupling'). For joints that must carry large pull-apart loads, add screws, latches or a bayonet; the cone only locates.
-- **environment_limits**: Dirt, chips and dents stop tapers seating: 'All machine tapers are sensitive to chips, nicks (dents), and dirt' and then neither locate accurately nor hold reliably (Wikipedia 'Machine taper'). Thermal expansion changes the fit: a stuck ground-glass joint can be freed by heating the outer part or cooling the inner one, and grease can be washed out by solvents, making glass joints seize (Wikipedia 'Ground glass joint'). Printed plastic cones soften with heat: in CNC Kitchen's test PLA began to give at about 60 °C, PETG at about 80 °C and ASA at about 110 °C. *(unverified parts omitted)*
-- **safety_notes**: Don't force a seized glass taper joint, which can break the glass; free it with solvent, gentle warming or cooling instead (Wikipedia 'Ground glass joint' describes these methods). *(unverified parts omitted)*
+- **environment_limits**: Dirt, chips and dents stop tapers seating: 'All machine tapers are sensitive to chips, nicks (dents), and dirt' and then neither locate accurately nor hold reliably (Wikipedia 'Machine taper'). Thermal expansion changes the fit: a stuck ground-glass joint can be freed by heating the outer part or cooling the inner one, and grease can be washed out by solvents, making glass joints seize (Wikipedia 'Ground glass joint'). Printed plastic cones soften with heat: in CNC Kitchen's test PLA began to give at about 60 °C, PETG at about 80 °C and ASA at about 110 °C. A self-holding taper in plastic may slowly loosen or creep under constant load ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Keep fingers out of the gap as heavy parts slide together, since the cone pulls them into line suddenly ⚑ [uncertain]. A self-holding tool knocked out of a Morse taper with a drift can drop, so support it as it comes free ⚑ [uncertain]. Don't force a seized glass taper joint, which can break the glass; free it with solvent, gentle warming or cooling instead (Wikipedia 'Ground glass joint' describes these methods). *(⚑ parts need confirming)*
 - **common_failures**: Cone angle wrong for the job: too wide and it doesn't slide into the centre (the spool-cone designer's first cones 'all ended up in the trash'), too shallow and it wedges and sticks (Printables 'Universal Spool Centering Cone'; Creitaru and Grigore 2011). Over-constraint: two cones or two round pins on one part bind if the spacing is slightly off (Carr Lane). Dirt, chips or dents on the cone faces spoil the location and grip (Wikipedia 'Machine taper'). Grippy material such as TPU stops the parts sliding into the centre (Printables 'Universal Spool Centering Cone'). 3D-printing defects: Z-seam blobs, supports or elephant's foot on the sliding faces (Printables 'Palm Router Centering Cone Tool'; Hubs). Tilted entry and jamming: a pin that starts off-centre can twist and wedge in a straight hole instead of sliding in, which lead-in cones and chamfers help prevent (Wikipedia 'Remote center compliance'). Parts can still turn about the axis if nothing else stops them.
 - **related**: 
   - Locating pins and hole-and-slot: straight pins with chamfered tips; more precise sideways fit but less able to catch a bad start
@@ -281,9 +301,26 @@
   - https://www.youtube.com/watch?v=1yOzPAO4_ds
   - https://www.youtube.com/watch?v=xog9YlMt9UU
 
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, press or vice, hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, materials, processes, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, materials, processes, reuse_cycles, safety_notes
 
 ## 116 Keying (one-way-only fit, poka-yoke)
 
@@ -320,7 +357,9 @@
   - join and hold: only as part of another joint (a connector, bayonet, peg joint or knob) that it makes foolproof; the key itself doesn't hold anything
 - **motion**: none: it is a static shape. During assembly the parts slide or turn together only in the permitted way.
 - **degrees_of_freedom**: Not a separate joint: keying doesn't take away a direction of movement so much as it removes the wrong choices (for example turning a plug 180 degrees). The joint it belongs to usually ends up with 0 degrees of freedom once assembled; a flat on a D-shaft also stops the knob slipping round the shaft.
-- **special_behaviour**: none of the listed behaviours exactly: its special job is mistake-proofing (the part cannot be fitted wrongly), which the list doesn't include *(unverified parts omitted)*
+- **special_behaviour**: 
+  - none of the listed behaviours exactly: its special job is mistake-proofing (the part cannot be fitted wrongly), which the list doesn't include
+  - self-aligning or self-centring: only when the key has sloped lead-ins, so it turns the part round to the right angle as it goes in ⚑ [uncertain] *(⚑ parts need confirming)*
 - **holding_principle**: 
   - shape (the parts interlock; form-fit): the key blocks wrong positions by shape
   - not a holding joint (it moves or passes on motion): the key only decides how parts go together; clips, screws, friction or a latch hold them
@@ -330,21 +369,25 @@
 - **reuse_cycles**: effectively unlimited if the key isn't forced; plastic keys can be worn, broken or deliberately removed (Wikipedia 'Pin Index Safety System': the system can be bypassed if pins are 'removed, damaged or corroded')
 - **tools_needed**: none to use. Adding keying to plain pin headers: pliers or cutters to remove one pin and a blanking pin to block the matching socket hole (Harwin).
 - **seal**: none: keying doesn't seal. (In the Pin Index system, the pins must line up before the cylinder can press on its sealing washer, so the wrong cylinder won't seal) (Wikipedia 'Pin Index Safety System').
-- **load**: light: keys are meant to guide, not to carry load. A small plastic key can be broken or bent if someone forces the part the wrong way; the pins of the Pin Index system are 4 mm in diameter by 6 mm long (Wikipedia 'Pin Index Safety System'). *(unverified parts omitted)*
+- **load**: light: keys are meant to guide, not to carry load. A small plastic key can be broken or bent if someone forces the part the wrong way; the pins of the Pin Index system are 4 mm in diameter by 6 mm long (Wikipedia 'Pin Index Safety System'). A D-flat on a shaft also carries the turning force of a knob ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: usually no. Some connector families have several built-in keying positions to choose from, or accept add-on keys, so look-alike connectors can be given different codes (Harwin).
 - **play_and_precision**: The key only needs to block the wrong positions, so it can have more clearance than the locating features; it doesn't have to set the position accurately. It must still be big enough that the difference between right and wrong is far larger than any looseness or manufacturing error, or the wrong way may be forced in (design-for-assembly advice to 'emphasize asymmetry', HKUST notes).
 - **access_needed**: not applicable: the key is built into the mating faces
-- **materials**: Any: the key is made in the same material as the part (moulded plastic for connectors and memory sticks, brass or steel for gas-cylinder pins and valves, printed PLA, PETG or ABS for home-made parts). *(unverified parts omitted)*
+- **materials**: Any: the key is made in the same material as the part (moulded plastic for connectors and memory sticks, brass or steel for gas-cylinder pins and valves, printed PLA, PETG or ABS for home-made parts). Tougher, less brittle plastics such as PETG survive being forced better than PLA ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **maker_difficulty**: easy: add an offset pin, a bigger pin, a notch or a flat in CAD before printing; no extra parts needed
 
 ### Making it
 
 - **processes**: 
   - 3D print (FDM): add the key in CAD, or place slicer cut connectors off-centre (PrusaSlicer Cut tool lets you click connectors anywhere on the cut face)
+  - 3D print (resin): fine keys and notches print accurately ⚑ [uncertain]
   - CNC: uneven hole patterns, flats on shafts and keyed slots
-  - off-the-shelf part: keyed or polarized connectors, D-shaft components, blanking pins and keying plugs (Harwin) *(unverified parts omitted)*
+  - laser cut: uneven tab spacing so a panel only fits one way round ⚑ [uncertain]
+  - woodwork: uneven dowel spacing or an asymmetric tenon ⚑ [uncertain]
+  - sheet metal: uneven tabs and slots ⚑ [uncertain]
+  - off-the-shelf part: keyed or polarized connectors, D-shaft components, blanking pins and keying plugs (Harwin) *(⚑ parts need confirming)*
 - **print_in_place**: no: keying is a feature of separate parts that are assembled later.
-- **making_tips_3d_printing**: 1) Break every symmetry, not just one: a square peg still fits four ways and a triangle three ways; use pins at uneven spacing, pins of two different sizes, one round and one square peg, or a single peg placed off-centre (Machine Design: use 'nonsymmetrical hole patterns'). 2) Exaggerate the difference: make the right and wrong options obviously different to the eye and the hand (HKUST DFA notes after Boothroyd and Dewhurst: 'emphasized asymmetry'). FDM parts are only accurate to about 0.2 mm and moving fits need 0.3 mm or more (Prusa), so pins of 5.0 and 5.3 mm are not a reliable key; use sizes that differ by several millimetres, or clearly different shapes. 4) Make keys sturdy: printed pins under about 5 mm diameter are weak and snap off (Hubs), which would defeat the key; chamfered fins and slots are stronger than thin pins and print without support (Hackaday on Slant 3D). 5) Chamfer the key and the entry of its slot so the right way slides in easily (Hackaday on Slant 3D; Hubs recommends a 45-degree chamfer on edges touching the bed to avoid elephant's foot). 6) D-shaped holes for knobs: print the hole vertically for roundness; one parametric D-shaft knob adds chamfers to the inside corners of the shaft relief so it 'should print and fit better' (Printables 'Parametric D-Shaft Knob', darthrax). 7) Split prints: in PrusaSlicer's Cut tool, connectors are placed by clicking on the cut face, so placing pegs unevenly keys the two halves (Prusa 'Cut tool'). 8) Add a visual cue as well (an arrow, dot or text moulded in), because machined-in or printed pictures 'cannot wear off' (Machine Design); this is the 'warning' kind of poka-yoke that backs up the physical key. 9) If orientation really doesn't matter, consider the opposite approach: make the part fully symmetrical so any way is right (HKUST DFA notes; USB-C is reversible, Wikipedia 'USB hardware'). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Break every symmetry, not just one: a square peg still fits four ways and a triangle three ways; use pins at uneven spacing, pins of two different sizes, one round and one square peg, or a single peg placed off-centre (Machine Design: use 'nonsymmetrical hole patterns'). 2) Exaggerate the difference: make the right and wrong options obviously different to the eye and the hand (HKUST DFA notes after Boothroyd and Dewhurst: 'emphasized asymmetry'). FDM parts are only accurate to about 0.2 mm and moving fits need 0.3 mm or more (Prusa), so pins of 5.0 and 5.3 mm are not a reliable key; use sizes that differ by several millimetres, or clearly different shapes. 3) Make the key touch first: put the key where it meets its slot before anything delicate touches, such as connector pins, snap hooks or thin walls, so a wrong attempt is stopped harmlessly ⚑ [uncertain]. 4) Make keys sturdy: printed pins under about 5 mm diameter are weak and snap off (Hubs), which would defeat the key; chamfered fins and slots are stronger than thin pins and print without support (Hackaday on Slant 3D). Consider which way the layers run: a key standing upright can break along its layer lines ⚑ [uncertain]. 5) Chamfer the key and the entry of its slot so the right way slides in easily (Hackaday on Slant 3D; Hubs recommends a 45-degree chamfer on edges touching the bed to avoid elephant's foot). 6) D-shaped holes for knobs: print the hole vertically for roundness; one parametric D-shaft knob adds chamfers to the inside corners of the shaft relief so it 'should print and fit better' (Printables 'Parametric D-Shaft Knob', darthrax). 7) Split prints: in PrusaSlicer's Cut tool, connectors are placed by clicking on the cut face, so placing pegs unevenly keys the two halves (Prusa 'Cut tool'). 8) Add a visual cue as well (an arrow, dot or text moulded in), because machined-in or printed pictures 'cannot wear off' (Machine Design); this is the 'warning' kind of poka-yoke that backs up the physical key. 9) If orientation really doesn't matter, consider the opposite approach: make the part fully symmetrical so any way is right (HKUST DFA notes; USB-C is reversible, Wikipedia 'USB hardware'). *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Search for: 'polarized connectors' and 'keyed connectors' (Wikipedia 'Electrical connector'); 'blanking pins', 'keying plugs' or 'polarizing keys' for pin headers and sockets (Harwin); 'D-shaft' or 'flatted shaft' potentiometers, rotary encoders and motors with matching 'D-bore' knobs and wheels (Printables D-shaft models); 'bullet-nose round pin' plus 'bullet-nose diamond pin' to locate a part from two holes (Carr Lane); 'offset-lug bayonet bulbs' (e.g. type 1157) (Wikipedia 'Bayonet mount'); 'pin-index yoke' valves for medical gases (Wikipedia 'Pin Index Safety System'). For ribbon cables: 'shrouded header' or 'box header', whose notch keys the plug (Wikipedia 'Pin header').
 - **rules_of_thumb**: 
   - Design parts that cannot be installed incorrectly: (a) add projections that block wrong assembly; (b) make mating features asymmetrical; (c) or make parts symmetrical so orientation doesn't matter; (d) if two parts can still go together wrongly, make a later part impossible to fit; (e) if all else fails, add assembly markers. Maximise symmetry, or emphasise asymmetry so the right orientation is found faster (HKUST course notes 'Design for Manufacturing/Assembly', after Boothroyd and Dewhurst's Product Design for Assembly).
@@ -366,9 +409,9 @@
   - Car tail-light bulbs with offset lugs, and petrol-station nozzles of different sizes (Wikipedia 'Bayonet mount'; EEK Mechanical)
 - **when_to_use**: Use keying whenever a part could physically go together more than one way but only one way is right, especially when the wrong way would damage something, be dangerous or be hard to spot: battery holders, power and signal connectors, parts with a visible 'front', lids with hinges or labels, split prints that must be glued in the right order, and kits that other people will assemble. Also use it to stop look-alike parts being swapped, by keying each variant differently (Harwin; Wikipedia 'DIMM'; Wikipedia 'Pin Index Safety System'). It costs almost nothing when designed in from the start (Machine Design 1998).
 - **when_not_to_use**: Don't key a part when any orientation would work: making it fully symmetrical is even better, because it can't be put in wrongly and needs no thought (HKUST DFA notes; USB-C is reversible, Wikipedia 'USB hardware'). Don't rely on keying where people may force parts or modify them: keys can be broken or removed, so for safety-critical connections add a second check such as different sizes, colours or labels (Wikipedia 'Pin Index Safety System'). Don't make keys so subtle that the right way isn't obvious, or users will keep trying the wrong way first (MacroFab warns against subtle top-bottom differences). Keying doesn't hold or locate precisely by itself: combine it with locating pins, a cone, or a latch.
-- **environment_limits**: The key is only as tough as the part: printed plastic keys soften with heat (in CNC Kitchen's test PLA began to give at about 60 °C, PETG at about 80 °C and ASA at about 110 °C). Metal keys can corrode: the Pin Index system can be bypassed when pins are corroded (Wikipedia 'Pin Index Safety System'). *(unverified parts omitted)*
-- **safety_notes**: Keying is often a safety feature, so never file off, cut away or bypass a key to make something fit; the Pin Index system can be defeated by removed or damaged pins, extra washers, or turning the cylinder upside down on some valves, which can connect the wrong gas (Wikipedia 'Pin Index Safety System'). Misconnections between look-alike medical tubing connectors are a known hazard, which is why non-interchangeable connector standards exist (Wikipedia 'Luer taper', ISO 80369). *(unverified parts omitted)*
-- **common_failures**: Key too small or too subtle, so the part can be forced in the wrong way or users can't tell which way is right (HKUST DFA notes; MacroFab). Symmetry not fully broken: a key that stops one wrong position but leaves another (e.g. a part that can still go in upside down) (fiveflute on 'partial symmetry that allows multiple assembly orientations'). Only one direction of mistake blocked, like fuel nozzles that stop diesel in a petrol car but not petrol in a diesel car (EEK Mechanical). Keys broken off, worn, corroded or deliberately removed (Wikipedia 'Pin Index Safety System'). On 3D prints, thin key pins snap along layer lines, and over-extrusion or elephant's foot makes the right way too tight, tempting people to force it (Hubs). Look-alikes that aren't keyed at all: barrel power plugs of the same size are used for different voltages and currents, and the outer contact is only 'usually' the ground, so the wrong power supply can fit, and 'use of the wrong power supply may cause severe equipment damage or even fire' (Wikipedia 'Coaxial power connector'); check the voltage and polarity marked on the supply, or use a keyed connector. *(unverified parts omitted)*
+- **environment_limits**: The key is only as tough as the part: printed plastic keys soften with heat (in CNC Kitchen's test PLA began to give at about 60 °C, PETG at about 80 °C and ASA at about 110 °C). Metal keys can corrode: the Pin Index system can be bypassed when pins are corroded (Wikipedia 'Pin Index Safety System'). Otherwise keying isn't affected by water, sunlight or vibration beyond the effect on the material itself ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Keying is often a safety feature, so never file off, cut away or bypass a key to make something fit; the Pin Index system can be defeated by removed or damaged pins, extra washers, or turning the cylinder upside down on some valves, which can connect the wrong gas (Wikipedia 'Pin Index Safety System'). Misconnections between look-alike medical tubing connectors are a known hazard, which is why non-interchangeable connector standards exist (Wikipedia 'Luer taper', ISO 80369). Forcing a keyed plug the wrong way can break it and expose contacts ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **common_failures**: Key too small or too subtle, so the part can be forced in the wrong way or users can't tell which way is right (HKUST DFA notes; MacroFab). Symmetry not fully broken: a key that stops one wrong position but leaves another (e.g. a part that can still go in upside down) (fiveflute on 'partial symmetry that allows multiple assembly orientations'). Only one direction of mistake blocked, like fuel nozzles that stop diesel in a petrol car but not petrol in a diesel car (EEK Mechanical). Keys broken off, worn, corroded or deliberately removed (Wikipedia 'Pin Index Safety System'). Key engages too late, so delicate pins or snaps are damaged before it stops the wrong fit ⚑ [uncertain]. On 3D prints, thin key pins snap along layer lines, and over-extrusion or elephant's foot makes the right way too tight, tempting people to force it (Hubs). Look-alikes that aren't keyed at all: barrel power plugs of the same size are used for different voltages and currents, and the outer contact is only 'usually' the ground, so the wrong power supply can fit, and 'use of the wrong power supply may cause severe equipment damage or even fire' (Wikipedia 'Coaxial power connector'); check the voltage and polarity marked on the supply, or use a keyed connector. *(⚑ parts need confirming)*
 - **related**: 
   - Locating pins and hole-and-slot: set the exact position; placing them unevenly also keys the part
   - Self-centring cone and socket (taper locator): centres parts but lets them turn, so it is often combined with a key
@@ -425,9 +468,26 @@
   - https://en.wikipedia.org/wiki/EIAJ_connector
   - https://en.wikipedia.org/wiki/Programmable_magnet
 
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, load, making_tips_3d_printing, materials, processes, safety_notes, special_behaviour
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, processes, safety_notes, special_behaviour
 
 ## 233 Elastic averaging (many-feature alignment)
 
@@ -474,7 +534,7 @@
 - **adjustable**: no: the position is set by the features' geometry. Toothed face couplings can be re-set to a different tooth angle (indexing) (Wikipedia, Hirth joint).
 - **play_and_precision**: No play once preloaded. Repeatability is better than any single feature, improving roughly with the square root of the number of contact points (MIT kinematic couplings site; Slocum), and 'can be nearly as high as in deterministic systems' (Willoughby 2005), although generally not as high as a well-made kinematic coupling (MIT kinematic couplings site). Examples: Willoughby's elastically averaged fibre-optic connector measured about 5 µm repeatability at five times scale, predicting about 0.5 µm at full size (Willoughby 2005); Ford's Duratec engine block used eight pin-and-hole joints, and their elastic averaging gave 4.85 µm realignment, but only with very tight hole tolerances (Slocum, Topic 9). It tolerates misalignment up to what the features can absorb elastically; beyond that they yield or the parts won't go together.
 - **access_needed**: not applicable: the parts are pushed together face to face and the features engage by themselves; bolted toothed couplings need access to the bolt.
-- **materials**: Injection-moulded plastics (LEGO bricks are ABS; GM uses elastically deformable features on car components) (Wikipedia, Lego; GM patent); ground steel for Hirth and curvic couplings (Wikipedia, Hirth joint; For 3D printing, tough, springy plastics such as PETG, ABS and nylon suit flexing features better than brittle ones (Hubs recommends ABS and nylon for 3D-printed snap fits). *(unverified parts omitted)*
+- **materials**: Injection-moulded plastics (LEGO bricks are ABS; GM uses elastically deformable features on car components) (Wikipedia, Lego; GM patent); ground steel for Hirth and curvic couplings (Wikipedia, Hirth joint; Slocum); sheet metal, laser-cut, waterjet-cut and additively manufactured parts (Teo & Slocum 2017 ⚑ [uncertain]). For 3D printing, tough, springy plastics such as PETG, ABS and nylon suit flexing features better than brittle ones (Hubs recommends ABS and nylon for 3D-printed snap fits). *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: adding many small ribs, bumps or teeth in CAD is easy, but getting the stiffness and interference right needs test prints; too stiff and the parts rock or jam (over-constraint), too soft and the location is sloppy (Slocum).
 
 ### Making it
@@ -482,11 +542,12 @@
 - **processes**: 
   - 3D print (FDM): printed ribs, springy fingers, studs-in-tubes and Hirth-type teeth (see make_it_yourself)
   - 3D print (resin)
+  - laser cut and waterjet cut: flexure features cut into sheet parts (Teo & Slocum 2017 ⚑ [uncertain])
   - CNC: ground or milled Hirth and curvic couplings (Wikipedia, Hirth joint)
   - injection moulding (not a maker process, but where most examples come from: LEGO, car trim) (Wikipedia, Lego; GM patent)
-  - off-the-shelf part: Hirth / curvic couplings and indexing tables *(unverified parts omitted)*
+  - off-the-shelf part: Hirth / curvic couplings and indexing tables *(⚑ parts need confirming)*
 - **print_in_place**: no: the two mating parts are printed separately, each with its compliant features built in, and then pushed together.
-- **making_tips_3d_printing**: 1) Use many small, evenly spread features rather than two or three big ones: the averaging improves roughly with the square root of the number of features (Slocum; GM patent). 2) Make each feature flex, not crush: for example a rigid rib pushed between two thin springy walls (GM patent US20150052725A1), slim cantilever fingers, or LEGO-style studs gripping thin-walled tubes, rather than solid bumps that get shaved off. Crush ribs, which deform permanently, fit well but leave the centre in 'an unpredictable location' (NewScrewdriver; Hackaday). 3) Keep the strain elastic: size the interference so the features deflect without yielding, because a feature that bends permanently no longer averages (Slocum). 4) Print so the flexing features bend within a layer (in the X-Y plane); avoid springy beams built vertically in Z, where layer bonding is weakest (Hubs snap-fit guide). 5) Round the root of each flexing feature: Hubs suggests a fillet radius of at least 0.5 times the base thickness. 6) Use tough, springy material (PETG, ABS, nylon) for features that stay deflected, since plastics creep under constant load (Hubs). 7) Add something that pushes the parts fully home and holds them there (a bolt, a snap or a clamp): elastic averaging only works when the joint is preloaded (MIT kinematic couplings site; Slocum). 8) Print a small test coupon first and tune the interference for your printer; LEGO-compatible brick models offer printable calibration pieces for exactly this (FLWE on Printables). 9) For printed Hirth teeth on the bed side, cutting off half the teeth avoids support material and still meshes with full teeth (mechadense, Printables). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Use many small, evenly spread features rather than two or three big ones: the averaging improves roughly with the square root of the number of features (Slocum; GM patent). 2) Make each feature flex, not crush: for example a rigid rib pushed between two thin springy walls (GM patent US20150052725A1), slim cantilever fingers, or LEGO-style studs gripping thin-walled tubes, rather than solid bumps that get shaved off. Crush ribs, which deform permanently, fit well but leave the centre in 'an unpredictable location' (NewScrewdriver; Hackaday). 3) Keep the strain elastic: size the interference so the features deflect without yielding, because a feature that bends permanently no longer averages (Slocum). 4) Print so the flexing features bend within a layer (in the X-Y plane); avoid springy beams built vertically in Z, where layer bonding is weakest (Hubs snap-fit guide). 5) Round the root of each flexing feature: Hubs suggests a fillet radius of at least 0.5 times the base thickness. 6) Use tough, springy material (PETG, ABS, nylon) for features that stay deflected, since plastics creep under constant load (Hubs). 7) Add something that pushes the parts fully home and holds them there (a bolt, a snap or a clamp): elastic averaging only works when the joint is preloaded (MIT kinematic couplings site; Slocum). 8) Print a small test coupon first and tune the interference for your printer; LEGO-compatible brick models offer printable calibration pieces for exactly this (FLWE on Printables). 9) For printed Hirth teeth on the bed side, cutting off half the teeth avoids support material and still meshes with full teeth (mechadense, Printables). 10) Add chamfers or lead-ins so all the features can start to engage before they have to flex ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Hirth couplings and curvic couplings (face-gear couplings); serrated-tooth circle dividers and indexing tables (MIT kinematic couplings site); spring (roll) pins as compliant locating pins (Slocum Topic 9); tolerance rings (wavy spring bands between a shaft and a bore); camera and tripod 'rosettes' (Hirth-toothed joints, e.g. the Manfrotto rosette) (Printables Hirth joint model description).
 - **rules_of_thumb**: 
   - Repeatability of a well-designed, preloaded elastically averaged coupling is 'approximately inversely proportional to the square root of the number of contact points' (MIT Precision Engineering Research Group, 'Coupling Types - Elastic Averaging'); GM's patent gives the minimised positional variance as Xmin = X/√N, where X is the variance of the locating features and N the number of features (GM patent US20150052725A1). So 4 features halve the error of one, and 16 quarter it.
@@ -496,7 +557,8 @@
   - Over-constraint is not the same as elastic averaging: just because parts bend does not mean averaging is happening; stiff, mismatched constraints only create parasitic loads, for example on bearings (Slocum, Topic 9, p. 9-32).
   - Example of the cost: Ford's Duratec block and bedplate needed the elastic averaging of eight pin-and-hole joints (not two dowels) to realign within 5 µm, which required hole size tolerance of ±0.008 mm and placement of ±0.04 mm on 16 holes; a quasi-kinematic coupling was designed to replace it (Slocum, Topic 9, 'Quasi-Kinematic Couplings: Automotive Example').
   - LEGO bricks rely on very consistent moulding: the moulds are held to within about 10-20 micrometres (Wikipedia, Lego, citing the LEGO Group).
-  - For printed flexing features: fillet the root with radius at least 0.5 times the thickness, and avoid flexing beams printed vertically in Z (Hubs, 'How to design snap-fit joints for 3D printing'). *(unverified parts omitted)*
+  - For printed flexing features: fillet the root with radius at least 0.5 times the thickness, and avoid flexing beams printed vertically in Z (Hubs, 'How to design snap-fit joints for 3D printing').
+  - Teo and Slocum report that a part with only four flexure-based elastic averaging features still assembled precisely onto its mate after large errors were deliberately introduced (Teo & Slocum, 'Principle of elastic averaging for rapid precision design', Precision Engineering 49, 2017, pp. 146-159) ⚑ [uncertain: from the abstract as quoted in search results; paper not opened]. *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -505,9 +567,9 @@
   - A five-legged office chair, whose slightly flexible legs all touch the floor instead of rocking on three (Slocum)
   - A spoked bicycle wheel: no single spoke is accurate or stiff, but together, tensioned, they make a true, strong wheel (Slocum)
   - Car components that GM aligns by pushing rigid ribs between pairs of springy walls (GM elastic averaging patent)
-- **when_to_use**: Willoughby 2005: 'more generous machining requirements'). It suits interfaces that must be both stiff and repeatable, since load is shared across many features (MIT kinematic couplings site), such as modular building systems, snap-together enclosures and lids, trays or tool holders that are swapped often, stacked gearbox stages (Slocum redesigned a Tamiya gearbox with LEGO-like bumps between stages), and toothed joints that must lock at chosen angles without play, such as Hirth couplings, which have no backlash once tightened, on tripod heads and adjustable arms (Slocum; Wikipedia, Hirth joint; Printables Hirth joint model for Manfrotto rosettes). *(unverified parts omitted)*
+- **when_to_use**: Use it when you want parts to line up accurately and repeatably but can't make them precisely, for example 3D-printed, laser-cut or moulded parts whose sizes vary a little from print to print or printer to printer (Teo & Slocum 2017 ⚑ [uncertain]; Willoughby 2005: 'more generous machining requirements'). It suits interfaces that must be both stiff and repeatable, since load is shared across many features (MIT kinematic couplings site), such as modular building systems, snap-together enclosures and lids, trays or tool holders that are swapped often, stacked gearbox stages (Slocum redesigned a Tamiya gearbox with LEGO-like bumps between stages), and toothed joints that must lock at chosen angles without play, such as Hirth couplings, which have no backlash once tightened, on tripod heads and adjustable arms (Slocum; Wikipedia, Hirth joint; Printables Hirth joint model for Manfrotto rosettes). *(⚑ parts need confirming)*
 - **when_not_to_use**: For the very highest repeatability a kinematic coupling (balls in V-grooves) is usually better (MIT kinematic couplings site; Slocum). If you only have two or three features, it is just an over-constrained fit that will bind or rock: use a pin in a hole plus a pin in a slot, or 3-2-1 exact-constraint locating (Slocum). If the parts move relative to each other (a carriage and a leadscrew, for instance), over-constraining them creates large forces that wear bearings: add compliance or clearance instead (Slocum, Topic 9). For a one-off press fit where exact centring doesn't matter, crush ribs are simpler (NewScrewdriver). Where the features would have to be loaded hard for a long time in a creep-prone plastic, use metal parts or a bolted joint.
-- **environment_limits**: Plastic features that stay deflected lose springiness over time through creep and relaxation, especially when warm, so fits loosen; printed parts are also weakened by fatigue from repeated assembly (Hubs). Metal toothed couplings can suffer fretting wear under vibration, which causes looseness that re-tightening the bolt can fix (Wikipedia, Hirth joint). *(unverified parts omitted)*
+- **environment_limits**: Plastic features that stay deflected lose springiness over time through creep and relaxation, especially when warm, so fits loosen; printed parts are also weakened by fatigue from repeated assembly (Hubs). Metal toothed couplings can suffer fretting wear under vibration, which causes looseness that re-tightening the bolt can fix (Wikipedia, Hirth joint). In an over-constrained joint any forced displacement turns into force on the parts, so parts made of materials that expand differently with heat may be strained or shift as temperature changes ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: None known beyond the ordinary: fingers can be pinched when pushing parts together, and stiff plastic features can snap and leave sharp edges if over-stressed.
 - **common_failures**: Features that yield or crush instead of flexing: the part fits once but no longer returns to the same place; reduce the interference or make features thinner and longer (Slocum; NewScrewdriver). Too few or too stiff features: the joint rocks, binds or needs huge force to assemble, which is over-constraint rather than averaging (Slocum). Too soft features: the part wobbles and location is poor, or features buckle (Slocum). No preload: parts not pushed fully home sit on the tips of a few features (MIT kinematic couplings site). Loosening over time from creep, relaxation and fatigue of plastic features (Hubs). Flexing features printed across the layer lines snap off (Hubs). Parasitic loads on bearings or shafts when a moving part is over-constrained (Slocum). Fretting wear in toothed couplings under vibration (Wikipedia, Hirth joint).
 - **related**: 
@@ -553,9 +615,26 @@
   - https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG
   - https://api.printables.com/graphql/ (Printables models 116754, 142352, 114737 and 430589 read via the public API)
 
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: clicks
+- **tools**: none, hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, making_tips_3d_printing, materials, processes, rules_of_thumb, when_to_use
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, materials, processes, rules_of_thumb, when_to_use
 
 ## 234 Locating pins and hole-and-slot
 
@@ -602,7 +681,7 @@
 - **seal**: none
 - **load**: Medium to heavy in sideways shear for steel pins (dowels help take heavy loads off the bolts holding the parts together, Forerunner 3D), but no strength along the pin: the parts simply pull apart unless bolted or clamped. Light for printed plastic pins, which snap easily, especially when printed standing up so the layer lines run across the pin. The pin in the slot only resists turning, so sideways loads are carried mainly by the round pin.
 - **adjustable**: No: the whole point is one fixed, repeatable position. The slot absorbs small spacing errors automatically, and a floating locating pin can shift up to 1/8 in (about 3 mm) in one direction to cope with larger spacing variations (Carr Lane), but the located position itself is not meant to be adjusted.
-- **play_and_precision**: Small play, set by the clearance between pin and hole: a 5 mm metric dowel (m6 tolerance) in a slip-fit hole made to +0.012/+0.024 mm gives about 0 to 0.020 mm clearance (Weinberg), and a dowelled engine-block joint repeated to about 5 micrometres (Slocum). Bolts alone in clearance holes let parts shift much more (an M6 bolt in a 6.6 mm hole has about 0.6 mm of slop). Tolerates hole-spacing errors along the slot (up to the slot's length), but not errors across it, and only a little tilt, so holes must be square to the face. *(unverified parts omitted)*
+- **play_and_precision**: Small play, set by the clearance between pin and hole: a 5 mm metric dowel (m6 tolerance) in a slip-fit hole made to +0.012/+0.024 mm gives about 0 to 0.020 mm clearance (Weinberg), and a dowelled engine-block joint repeated to about 5 micrometres (Slocum). Bolts alone in clearance holes let parts shift much more (an M6 bolt in a 6.6 mm hole has about 0.6 mm of slop). Printed holes and slots need more clearance (Hubs lists 0.5 mm tolerance for FDM interlocking parts, 0.2 mm for SLA and SLS), so expect a few tenths of a millimetre of play unless the holes are reamed to size ⚑ [uncertain: no measured figure for printed hole-and-slot joints found]. Tolerates hole-spacing errors along the slot (up to the slot's length), but not errors across it, and only a little tilt, so holes must be square to the face. *(⚑ parts need confirming)*
 - **access_needed**: one side only (blind): the part is set onto the pins from one side; a worn press-fit pin is easiest to knock out from the back through a through-hole (MISUMI recommends press-fit shanks where the back of the plate can be reached, and an air-vent flat for blind holes)
 - **materials**: Pins: hardened tool steel (e.g. O1 hardened to 60-63 HRC) or case-hardened carbon steel (1045, 45-50 HRC); 300-series or hardened 400-series stainless where rust is not acceptable; hard coatings such as hard chrome or TiCN for corrosive places (MISUMI). Standard dowel pins: unhardened parallel pins to ISO 2338, hardened to ISO 8734. Parts located: metal plates and castings, wood, plastic mouldings, sheet metal, circuit boards and 3D prints; in 3D prints use steel dowel pins (or printed pins for light duty) in printed, drilled or reamed holes.
 - **maker_difficulty**: easy for 3D prints, laser-cut sheet and wood: model or drill one snug round hole and one slot, and push in steel dowel pins; moderate for precise metalwork, which needs accurately placed reamed holes and a milled slot
@@ -668,7 +747,8 @@
   - [Dowel Pins as Locating Features - Ep. 5: How do I call out the Locating Holes and Slots? (GD&T Guy, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=CiJwMRodjV8): Video on specifying a locating hole and a locating slot on drawings for a two-dowel-pin locating scheme *(licence: link only)*
   - [Parallel pin DIN EN ISO8734 3D.png (Wikimedia Commons, Silberwolf)](https://commons.wikimedia.org/wiki/File:Parallel_pin_DIN_EN_ISO8734_3D.png): 3D view of a standard hardened dowel pin (parallel pin to DIN EN ISO 8734), the usual off-the-shelf locating pin *(licence: CC BY-SA 2.5)*
 - **make_it_yourself**: 
-  - [Hole Tolerance Gauge For Designing 3D Prints With Screws and Eccentric Nuts M3-M8 by Learn As You Go (Printables; URL from search results, details from Printables API, page not opened)](https://www.printables.com/model/466114-hole-tolerance-gauge-for-designing-3d-prints-with): Printable gauge with 3-8 mm holes in +0.0 to +0.3 mm steps; push a dowel pin or screw into the holes to find the printed hole size that gives the slip or press fit you want before designing a hole-and-slot joint *(licence: CC BY)* *(unverified parts omitted)*
+  - [Hole Tolerance Gauge For Designing 3D Prints With Screws and Eccentric Nuts M3-M8 by Learn As You Go (Printables; URL from search results, details from Printables API, page not opened)](https://www.printables.com/model/466114-hole-tolerance-gauge-for-designing-3d-prints-with): Printable gauge with 3-8 mm holes in +0.0 to +0.3 mm steps; push a dowel pin or screw into the holes to find the printed hole size that gives the slip or press fit you want before designing a hole-and-slot joint *(licence: CC BY)*
+  - [Cut tool (Prusa Knowledge Base)](https://help.prusa3d.com/article/cut-tool_1779): PrusaSlicer's Cut tool splits a model and adds plug, dowel or snap connectors with adjustable size and tolerance, a quick way to try pin-located split prints *(licence: link only (help article); PrusaSlicer itself is free open-source software ⚑ [uncertain: licence not checked])* *(⚑ parts need confirming)*
 - **diagram_idea**: Top view of a plate being lowered onto a base with two pins: on the left, pin A drops into a snug round hole and pin B into a slot that points at pin A, with arrows showing that A stops sliding and B only stops turning; on the right, the same plate with its holes spaced slightly too far apart still fits because pin B just sits further along the slot, next to a crossed-out version with two round holes that cannot both drop over the pins.
 - **sources**: 
   - https://www.carrlane.com/engineering-resources/technical-information/manual-workholding/locating-devices/locating-pins
@@ -699,9 +779,26 @@
   - https://www.hobby-machinist.com/threads/register.82685/
   - https://vxb.com/products/42mm-nema-17-stepper-motor-mounting-bracket-with-m
 
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, press or vice, power tools, hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** make_it_yourself, play_and_precision
+- ⚑ **Fields with parts that need confirming:** make_it_yourself, play_and_precision
 
 ## 235 Exact-constraint mounting (3-2-1 locating)
 
@@ -743,7 +840,7 @@
 - **seal**: none
 - **load**: Light to heavy, depending on the contact points: locators can carry large loads if the working forces are aimed into them (Carr Lane: locators, not clamps, should take the main cutting forces), but each is a small contact that dents under heavy load, which adds tiny extra constraints and friction (Slocum). Heavy loads are spread by giving each 'point' several contacts on a rocking beam (a whiffle tree, as in windscreen-wiper blades) or by many slightly springy contacts (elastic averaging) (Slocum). Weak against forces that pull the part off the points unless the push or clamp is larger; loads must act inside the triangle of the three main points or the part tips (Slocum, three-legged chair).
 - **adjustable**: Yes, if the contact points are adjustable: adjustable and equalizing supports set height for rough castings (Carr Lane), and a three-point 3D-printer bed is levelled with a fixed reference screw plus pitch and roll screws, each adjustment pivoting the bed on the other two without bending it (Rehorst). Fixed points give no adjustment but the best repeatability.
-- **play_and_precision**: No play while the nesting force holds the part against all six points. Tolerates differences in the part's size (the far sides simply sit in a different place) and heat growth away from the corner of the locators, but not dirt, chips or burrs on the contact points. *(unverified parts omitted)*
+- **play_and_precision**: No play while the nesting force holds the part against all six points. A steel 3-2-1 fixture repeats to about 3-5 micrometres, limited by friction and tiny dents at the point contacts (Slocum); a lightly built printed or wooden jig will be much coarser ⚑ [uncertain: no measured figure found]. Tolerates differences in the part's size (the far sides simply sit in a different place) and heat growth away from the corner of the locators, but not dirt, chips or burrs on the contact points. *(⚑ parts need confirming)*
 - **access_needed**: one side only (blind): the part is placed into the fixture from its open side
 - **materials**: Fixture bases: steel, aluminium, wood, MDF or 3D-printed plastic (Formlabs prints production fixtures in Nylon 12, and PETG or PLA suit light jobs). Contact points: hardened steel rest buttons, locating pins, ball-ended screws and steel balls for precise or long-lived fixtures; printed rounded bumps for light, occasional use. Any part material can be located, but locate from its most accurate (e.g. machined) surfaces (Carr Lane).
 - **maker_difficulty**: easy to moderate: the idea needs no special tools (a jig with three bumps underneath, two on one side and one at the end, plus a push), but choosing where the points and the push go takes some thought, and precise, hard-wearing points need added steel parts
@@ -827,7 +924,24 @@
   - https://www.youtube.com/watch?v=fF8h2N7wxko (verified via YouTube oEmbed)
   - https://api.printables.com/graphql/ (Printables models 1493826, 110874 and 951573 read via the public API)
 
+### Finder tags
+
+- **connects**: wall, rail, desk or grid ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, soldering iron, drill and tap, press or vice
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** play_and_precision
+- ⚑ **Fields with parts that need confirming:** play_and_precision
 

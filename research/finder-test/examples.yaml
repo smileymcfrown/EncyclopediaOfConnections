@@ -1,0 +1,1027 @@
+# Real-world examples for every finder answer (owner's request, 2026-10-06, R24).
+# Each answer is identified by its path of answer labels from the first question, as in tree.py.
+# `example` is shown next to the answer, or behind an (i) icon with a pop-up where space is short.
+# `explain` is a one-line explanation, for answers whose wording could mislead.
+# tree.py checks that every answer has an example; gen_docs.py lists them all in answers.md.
+# Status: drafted by Claude on 2026-10-06; the owner accepted them as working text without a line-by-line
+# review (R25). They count as "needs confirming" as a set: corrections are welcome (see research/needs-confirming.md).
+- path:
+  - Hold two things together (they stay still)
+  example: a shelf bracket on a wall, a lid clipped onto a box, two printed parts bolted together
+  explain: The parts stay still against each other once they are joined.
+- path:
+  - Hold two things together (they stay still)
+  - 3D-printed parts, or screws, nuts and magnets into a print
+  example: snapping a printed case shut, a brass insert melted into a print for a screw, magnets glued
+    into a lid
+- path:
+  - Hold two things together (they stay still)
+  - 3D-printed parts, or screws, nuts and magnets into a print
+  - No, never (permanent)
+  example: a model glued or riveted together for good, a part pressed onto a pin
+- path:
+  - Hold two things together (they stay still)
+  - 3D-printed parts, or screws, nuts and magnets into a print
+  - 'Yes'
+  example: a battery cover you will open again, a printed enclosure you need to get back into
+- path:
+  - Hold two things together (they stay still)
+  - 3D-printed parts, or screws, nuts and magnets into a print
+  - 'Yes'
+  - 'Yes'
+  example: a screw into a printed post, a nut trapped in a hexagonal pocket
+- path:
+  - Hold two things together (they stay still)
+  - 3D-printed parts, or screws, nuts and magnets into a print
+  - 'Yes'
+  - No (clips, pins, rings, magnets)
+  example: a snap-fit lid, a clip-on cover, a magnetic catch
+- path:
+  - Hold two things together (they stay still)
+  - 3D-printed parts, or screws, nuts and magnets into a print
+  - It is fabric, chain mail or a folding sheet made in the print
+  example: printed chain-mail armour for a costume, printed scales on a mesh fabric
+  explain: The print itself becomes the flexible fabric, chain or folding sheet.
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  example: a plywood box, an acrylic enclosure, a sheet-metal bracket
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - No, never (permanent)
+  example: a glued and nailed drawer, a riveted aluminium box
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - No, never (permanent)
+  - Wood or plywood
+  example: a dovetailed drawer, a nailed crate, a dowelled shelf
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - No, never (permanent)
+  - Sheet metal or plastic sheet
+  example: a riveted aluminium panel, a steel box held by bent tabs, a heat-staked plastic cover
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Now and then, with a tool
+  example: flat-pack furniture, a laser-cut box held together with screws in T-slots
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Now and then, with a tool
+  - Wood or plywood
+  example: flat-pack furniture with cam locks, a screwed timber frame
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Now and then, with a tool
+  - Sheet metal, plastic or laser-cut sheet
+  example: a laser-cut acrylic box with tabs and T-nuts, a sheet-metal case with clips
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Often, by hand, without tools
+  example: tongue-and-groove floor panels, a slot-together cardboard or plywood model
+- path:
+  - Hold two things together (they stay still)
+  - Tube, rod, pole or aluminium extrusion
+  example: a tent pole, an aluminium-extrusion printer frame, a hose on a pump
+- path:
+  - Hold two things together (they stay still)
+  - Tube, rod, pole or aluminium extrusion
+  - Yes (hoses, pipes and tubing)
+  example: aquarium tubing onto a pump, an air line onto a fitting, a hose onto a tap
+- path:
+  - Hold two things together (they stay still)
+  - Tube, rod, pole or aluminium extrusion
+  - No (frames, poles and rails)
+  example: a camping-pole joint, a corner of an aluminium-extrusion frame, a clamp on a bike bar
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  example: a pulley on a motor shaft, a servo horn, joining a motor to a lead screw
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - A wheel, gear, pulley or arm onto a shaft
+  example: a gear on a motor shaft, a knob on a volume control, a pulley on a stepper motor
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - A wheel, gear, pulley or arm onto a shaft
+  - 'Yes'
+  example: a printed gear pushed onto a motor's flat-sided shaft
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - A wheel, gear, pulley or arm onto a shaft
+  - No, it is metal or bought
+  example: a metal pulley with a grub screw, a bought gear with a key
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - Two shafts end to end
+  example: a motor driving a lead screw, a stepper motor joined to a gearbox
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - Two shafts end to end
+  - Exactly in line
+  example: a motor bolted straight onto a pump, two shafts in one rigid line
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - Two shafts end to end
+  - A little out of line (needs some give)
+  example: a flexible coupler between a 3D printer's motor and its lead screw
+- path:
+  - Hold two things together (they stay still)
+  - A wheel, gear or arm onto a shaft, or two shafts end to end
+  - Two shafts end to end
+  - At an angle, or along a bent path
+  example: a car's drive shaft, the flexible shaft of a rotary tool
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  example: a backpack strap, a tent guy line, a fabric cover sewn onto a frame
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Close an opening, or attach fabric (zip, hook-and-loop, press stud, button)
+  example: a jacket zip, a hook-and-loop strap, a press stud on a bag
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Tie, splice or lash it (knots, no hardware)
+  example: tying a boat to a post, lashing a bamboo trellis together
+  explain: Joints made from the rope or cord itself, with no buckle or clip.
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Tie, splice or lash it (knots, no hardware)
+  - Stop a cord pulling through, or finish its end
+  example: a knot behind a drawstring hole, a whipped or sealed rope end
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Tie, splice or lash it (knots, no hardware)
+  - Tie it to a post or ring, or join two cords
+  example: tying a dog lead to a post, joining two ropes end to end
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Tie, splice or lash it (knots, no hardware)
+  - Make a loop, or pull it tight and hold it
+  example: a loop to drop over a hook, pulling a load tight on a roof rack
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Tie, splice or lash it (knots, no hardware)
+  - Bind or lash things together
+  example: tying a sack shut, lashing two poles into a cross
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Sew or lace it
+  example: sewing a strap onto a bag, lacing a shoe or a leather pouch
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Fit a part (buckle, hook, shackle, grommet, rivet)
+  example: a backpack buckle, a carabiner, a metal eyelet in a tarp
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Fit a part (buckle, hook, shackle, grommet, rivet)
+  - Hook, link or swivel onto something
+  example: a carabiner on a key ring, a shackle on a chain, a fishing swivel
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Fit a part (buckle, hook, shackle, grommet, rivet)
+  - Join or grip strap and cord ends, or hold struts with cord
+  example: a backpack's side-release buckle, a shock-corded tent pole
+- path:
+  - Hold two things together (they stay still)
+  - Strap, cord, rope or fabric
+  - Fit a part (buckle, hook, shackle, grommet, rivet)
+  - Fix it to fabric or leather, or hold a fabric edge
+  example: eyelets in a tarp, rivets on jeans, an awning slid into a rail
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  example: a box lid, a cupboard door, a battery hatch
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  - It swings open on a hinge, or stays open at an angle
+  example: a laptop lid, a cupboard door, a toolbox lid that stays up
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  - Twist a lid, knob or fastener
+  example: a jar lid, a camera lens, a quarter-turn panel fastener
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  - Press, pull or flip a catch or lever
+  example: a toolbox clasp, a push-to-open cupboard door
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  - Press, pull or flip a catch or lever
+  - Yes (key, code, hidden catch or safety lock)
+  example: a padlock, a combination lock, a childproof catch
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  - Press, pull or flip a catch or lever
+  - No, it just has to stay shut
+  example: a draw latch on a toolbox, a magnetic cupboard catch
+- path:
+  - Hold two things together (they stay still)
+  - A lid, door or cover that opens and closes
+  - By power (button, remote, timer)
+  example: an electric door release, a latch a robot opens on command
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  example: a shelf on a wall, a phone holder on a bike bar, a camera on a tripod
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A wall or ceiling
+  example: a shelf, a picture frame, a coat hook
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A wall or ceiling
+  - Screws, anchors, hooks or slots
+  example: a wall plug and screw for a shelf, a keyhole slot for a picture frame, a pegboard
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A wall or ceiling
+  - Magnet or suction
+  example: a magnetic knife strip, a suction-cup shower caddy
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A wall or ceiling
+  - Sticky tape or pads
+  example: a stick-on hook, removable picture-hanging strips
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A bar, pole, tube or the edge of a desk
+  example: a phone mount on handlebars, a lamp clamped to the edge of a desk
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A tripod, camera or light stand
+  example: a phone holder on a tripod, a light on a stand, a camera rig
+- path:
+  - Hold two things together (they stay still)
+  - Something onto a wall, desk, bar, tripod, rail or grid
+  - A rail, extrusion or grid
+  example: a module clipped onto a DIN rail, a bracket on an aluminium extrusion, a tool on a pegboard
+- path:
+  - Hold two things together (they stay still)
+  - Something that has to be gripped or clamped
+  example: a drill chuck, a clamp holding work on a bench, a robot gripper
+- path:
+  - Hold two things together (they stay still)
+  - Something that has to be gripped or clamped
+  - I tighten it by hand (clamp, chuck, wedge)
+  example: a woodworking toggle clamp, a drill chuck, a wedge
+- path:
+  - Hold two things together (they stay still)
+  - Something that has to be gripped or clamped
+  - A robot or machine (gripper)
+  example: a robot's soft gripper, a suction cup on a pick-and-place arm
+- path:
+  - Hold two things together (they stay still)
+  - Melt them together (weld, braze or solder)
+  example: welding a steel frame, soldering a copper pipe, fixing a cracked plastic part with heat
+  explain: The parts are melted together into one piece, rather than glued.
+- path:
+  - Hold two things together (they stay still)
+  - Melt them together (weld, braze or solder)
+  - Metal
+  example: a welded bike frame, a soldered copper pipe, spot-welded battery tabs
+- path:
+  - Hold two things together (they stay still)
+  - Melt them together (weld, braze or solder)
+  - Plastic, or plastic film and coated fabric
+  example: fixing a cracked print with a soldering iron, sealing a plastic bag shut
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  example: gluing a broken mug, a printed part onto wood
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - 3D-printed plastic (PLA, PETG, ABS) or resin prints
+  example: gluing the two halves of a large print
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - 3D-printed plastic (PLA, PETG, ABS) or resin prints
+  - Strongest bond
+  example: a bracket that takes a load
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - 3D-printed plastic (PLA, PETG, ABS) or resin prints
+  - Stays flexible, or seals too
+  example: a joint that bends, a seam that must be waterproof
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - 3D-printed plastic (PLA, PETG, ABS) or resin prints
+  - Fills gaps, or builds up a shape
+  example: parts that fit badly, filling a hole, moulding a custom grip
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - 3D-printed plastic (PLA, PETG, ABS) or resin prints
+  - Can be undone later
+  example: a temporary jig, a display mount you will take down
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Slippery plastics (polyethylene, polypropylene, silicone)
+  example: a polypropylene storage box, a polyethylene bottle, a silicone mat
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Wood, paper or card
+  example: a wooden frame, a cardboard model
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Wood, paper or card
+  - Strongest bond
+  example: a chair joint, a wooden frame that takes a load
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Wood, paper or card
+  - Stays flexible, or seals too
+  example: laminate on a worktop, a paper or card hinge
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Wood, paper or card
+  - Fills gaps, or builds up a shape
+  example: a loose chair joint, a rotten patch in wood
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Wood, paper or card
+  - Can be undone later
+  example: antique furniture that may need repair, a temporary jig
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Metal or glass
+  example: a glass shelf bracket, a magnet onto steel
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Metal or glass
+  - Strongest bond
+  example: a metal bracket under load
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Metal or glass
+  - Stays flexible, or seals too
+  example: a sealed glass panel, a mirror on a wall
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Metal or glass
+  - Fills gaps, or builds up a shape
+  example: a cracked metal casting, building up a worn part
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Metal or glass
+  - Can be undone later
+  example: a removable sign on metal, a locked screw you may undo
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Rubber, fabric, leather or foam
+  example: a shoe sole, foam padding in a case, a leather patch
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Rubber, fabric, leather or foam
+  - Strongest bond
+  example: a leather strap repair, rubber feet on a tool
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Rubber, fabric, leather or foam
+  - Stays flexible, or seals too
+  example: a shoe sole that flexes, a foam seal, a fabric patch that bends
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Rubber, fabric, leather or foam
+  - Fills gaps, or builds up a shape
+  example: rebuilding a worn shoe heel, moulding a custom grip
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Rubber, fabric, leather or foam
+  - Can be undone later
+  example: a temporary foam insert, a removable patch
+- path:
+  - Hold two things together (they stay still)
+  - Any solid parts / something else
+  example: a bearing mount, a locating pin, a bolt through two parts
+  explain: For solid parts that don't fit the other answers; the next question asks where you can reach.
+- path:
+  - Hold two things together (they stay still)
+  - Any solid parts / something else
+  - Only one side, or only the end of a tube or shaft
+  example: fixing into a closed box from outside, or onto the end of a pipe
+- path:
+  - Hold two things together (they stay still)
+  - Any solid parts / something else
+  - Both sides
+  example: a bolt through two plates, a pivot pin through a bracket
+- path:
+  - Hold two things together (they stay still)
+  - Any solid parts / something else
+  - It does not matter
+  example: parts that only have to line up or latch, wherever you can reach them
+- path:
+  - Connect wires or power (electrical connections)
+  example: joining two wires, plugging a sensor into a board, a battery into a robot
+  explain: Joints that carry electric current, plus ways to insulate, protect and route the wires.
+- path:
+  - Connect wires or power (electrical connections)
+  - Wires to each other (a splice)
+  example: lengthening a lamp cable, joining wires inside a junction box
+- path:
+  - Connect wires or power (electrical connections)
+  - A wire to a board, terminal or device
+  example: a sensor plugged into a microcontroller board, a wire under a power-supply screw
+- path:
+  - Connect wires or power (electrical connections)
+  - A wire to a board, terminal or device
+  - Yes, it plugs in and out
+  example: a USB cable, a drone battery plug, a servo plug
+- path:
+  - Connect wires or power (electrical connections)
+  - A wire to a board, terminal or device
+  - No, it stays connected (screwed, crimped or wrapped)
+  example: a crimped ring under a car battery bolt, wires in a screw terminal block
+- path:
+  - Connect wires or power (electrical connections)
+  - Batteries, docks, and parts that touch or turn (no plug)
+  example: AA batteries in a holder, a robot vacuum on its charging dock, a magnetic phone charger
+- path:
+  - Connect wires or power (electrical connections)
+  - Wires on fabric, paper or a print (sewn, taped or painted on)
+  example: a light-up costume with sewn circuits, copper-tape circuits on a greeting card
+- path:
+  - Connect wires or power (electrical connections)
+  - Insulate, protect or route wires (sleeves, strain relief, lacing, hinges)
+  example: heat-shrink over a soldered joint, a cable through the wall of a box, wires through a laptop
+    hinge
+- path:
+  - Let something move (turn, slide, swing or bend)
+  example: a door hinge, a drawer slide, a wheel on an axle
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Swing or rock, less than a full turn (like a lid or arm)
+  example: a box lid, a robot arm's elbow, a seesaw
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Swing or rock, less than a full turn (like a lid or arm)
+  - Yes, print it assembled
+  example: a print-in-place hinge, an articulated printed toy
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Swing or rock, less than a full turn (like a lid or arm)
+  - Yes, print it assembled
+  - No, swing freely
+  example: a lid that swings freely, a flexible cable chain
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Swing or rock, less than a full turn (like a lid or arm)
+  - Yes, print it assembled
+  - 'Yes: hold, click or spring shut'
+  example: a laptop screen that stays at any angle, a hinge that clicks into positions, a self-closing
+    door
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Swing or rock, less than a full turn (like a lid or arm)
+  - No, I will assemble or buy it
+  example: a cupboard-door hinge, a parallel lifting arm
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Spin round and round (a wheel, roller or shaft)
+  example: a wheel, a turntable, a motor driving a gear
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Spin round and round (a wheel, roller or shaft)
+  - A wheel or part on a fixed axle or table
+  example: a cart wheel, a lazy Susan, a castor under a chair
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Spin round and round (a wheel, roller or shaft)
+  - A shaft driving another shaft
+  example: a motor driving a wheel through gears
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Spin round and round (a wheel, roller or shaft)
+  - A shaft driving another shaft
+  - Just pass the turning on
+  example: a drive shaft round a corner, a flexible drive shaft
+  explain: The turning is passed on to the other shaft without changing speed.
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Spin round and round (a wheel, roller or shaft)
+  - A shaft driving another shaft
+  - Turn one way only
+  example: a bicycle freewheel, a ratchet spanner
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Spin round and round (a wheel, roller or shaft)
+  - A shaft driving another shaft
+  - Change speed or split the drive (gears)
+  example: a gearbox on a motor, a car's differential
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Slide in a straight line, or telescope
+  example: a drawer, a telescopic pole, a 3D printer's moving axis
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Slide in a straight line, or telescope
+  - A tube or pole that telescopes and locks
+  example: a selfie stick, a walking pole, a tripod leg
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Slide in a straight line, or telescope
+  - A carriage, drawer or table on a rail
+  example: a kitchen drawer, a 3D printer's print head on its rail, a sliding table
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Slide in a straight line, or telescope
+  - Pushed along by a screw, chain or crank
+  example: a 3D printer's lead screw, a car jack, a syringe pump
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Bend or flex (no hinge pin)
+  example: a shampoo bottle's flip lid, a springy printed clip
+  explain: One piece bends instead of turning on a pin.
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Bend or flex (no hinge pin)
+  - Fold or swing like a hinge
+  example: a flip-top bottle cap, a laser-cut plywood box with bendy corners
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Bend or flex (no hinge pin)
+  - Move in a straight line, or act as a spring
+  example: a precision flexure stage, a printed leaf spring
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Bend or flex (no hinge pin)
+  - Grip, or snap between two positions
+  example: a soft robot finger, a bistable switch that clicks on and off
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Swivel or tilt in several directions (ball or universal joint)
+  example: a camera ball head, the end of a car's steering rod, a gooseneck lamp
+- path:
+  - Let something move (turn, slide, swing or bend)
+  - Follow a set path (e.g. swing out and stay level)
+  example: a lid that lifts out and stays level, a walking toy's legs, a camera iris
+  explain: A linkage guides the part along a fixed path instead of a simple swing.
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  example: a bike freewheel, a dial that clicks, a drill clutch that slips
+  explain: 'For moving parts that must behave in a certain way: one way only, clicking, slipping, locking
+    or slowing.'
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  example: a cable tie, a ratchet strap, a bike freewheel
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  - Turns
+  example: a ratchet spanner, a winch, a bike freewheel
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  - Turns
+  - Yes, clicks are fine (ratchets)
+  example: a ratchet spanner, a ratchet strap, a childproof cap
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  - Turns
+  - No, it must be smooth and silent
+  example: a silent bike freewheel, a seat-belt reel, a worm-gear winch
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  - Turns
+  - It is for air or liquid (one-way valves)
+  example: a bike-pump valve, a non-return valve on an aquarium air line
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  - Slides
+  example: a cable tie, a cam cleat on a sailing rope, a tent guy-line slider
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Move one way only (stop it going back)
+  - Bends, or something else
+  example: a push-on nut that won't come back off a stud, a hose barb
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Click into set positions
+  example: an adjustable chair height, a gear selector, a click pen
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Click into set positions
+  - Turns
+  example: a clicking knob, a folding knife blade, a ratcheting hinge
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Click into set positions
+  - Turns
+  - Hold a position I set by hand
+  example: a hinge that clicks at set angles, a knob with click stops
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Click into set positions
+  - Turns
+  - Step forward one position at a time
+  example: a click pen, a film-advance mechanism, a rotary indexing table
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Click into set positions
+  - Slides, bends or something else
+  example: a push-to-open drawer latch, the spring button on a telescopic pole
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  example: a cordless drill's torque clutch, a shear pin on a snow blower
+  explain: Protects the mechanism, or a person, when something jams or is pushed too hard.
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Slip, and keep going
+  example: a drill's clutch, a slipping drive belt, a friction hinge
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Slip, and keep going
+  - Yes, or partly
+  example: a printed gear that slips to protect a servo
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Slip, and keep going
+  - No, I will buy or machine it
+  example: a slip clutch on a conveyor, a centrifugal clutch on a go-kart
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Click or pop out, then reset by itself
+  example: a spring-and-ball torque limiter, a pressure relief valve
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Pull apart without damage, then refit it by hand
+  example: a magnetic laptop charger that pops off when someone trips on the cable, a hook-and-loop strap
+  explain: Nothing breaks and nothing resets by itself; it comes apart under a hard pull, and you push it back together.
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Break or let go once, on purpose (replace it after)
+  example: a shear pin, a tamper-evident cap, a fusible link
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Stay where I leave it, and let go when I release it
+  example: a lamp arm that stays put, a worm-gear winch, a trigger
+  explain: It holds by itself under load, and lets go only when you release it.
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Stay where I leave it, and let go when I release it
+  - Turns
+  example: the crank of a worm winch, the knob on a camera ball head
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Stay where I leave it, and let go when I release it
+  - Turns
+  - Lock so only a person can open it (key, code, trigger)
+  example: a padlock, a combination lock, a trigger and catch
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Stay where I leave it, and let go when I release it
+  - Turns
+  - Hold a load where it stops (brake or self-locking drive)
+  example: a hand winch, a worm-gear crank, a gooseneck arm
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Stay where I leave it, and let go when I release it
+  - Slides
+  example: a telescopic pole lock, a cord lock, a gas strut holding a hatch
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Stay where I leave it, and let go when I release it
+  - Bends, or something else
+  example: a snap-lock joint, a taper fit that holds by wedging
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Snap past a point and stay there (over-centre)
+  example: a toggle clamp, a toolbox clasp, a light switch
+  explain: 'Over-centre: it snaps past a balance point and is held there by its own spring or load.'
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Snap past a point and stay there (over-centre)
+  - Clamp or latch something shut
+  example: a woodworking toggle clamp, a toolbox draw latch, a bike quick-release lever
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Snap past a point and stay there (over-centre)
+  - Flip between two positions (switch, fold or stay)
+  example: a light switch, a snap bracelet, a folding stay that locks open
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slow it down, stop it, or keep its speed steady
+  example: a soft-close drawer, a bike brake, a clock's escapement
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slow it down, stop it, or keep its speed steady
+  - Stop it or hold it still (brakes)
+  example: a bike brake, a motor brake that holds a load
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slow it down, stop it, or keep its speed steady
+  - Cushion or smooth it (dampers)
+  example: a soft-close lid, rubber feet under a machine, a car's shock absorber
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slow it down, stop it, or keep its speed steady
+  - Keep a steady speed or level
+  example: a clock's escapement, a toilet cistern float, an engine governor
+- path:
+  - Change a movement (speed, force or kind of motion)
+  example: a gearbox, a car jack, the crank of a sewing machine
+  explain: Turns one kind of motion into another, or changes its speed, force or direction.
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  example: a gearbox on a motor, bicycle gears
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  - Side by side (parallel)
+  example: a bike chain, a timing belt on a 3D printer, two gears side by side
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  - At an angle (e.g. 90 degrees)
+  example: the bevel gears of a hand drill, the worm drive in a winch
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  - In line (one straight through the other)
+  example: a planetary gearbox on a motor, a robot joint gearbox
+  explain: The output shaft is on the same line as the motor shaft, as in a geared motor.
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  - Far apart, or the path bends (belts, cables, chains)
+  example: a bike chain, a bike brake cable, a pulley block
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Turning into straight-line motion, or back
+  example: a car jack, a sewing-machine needle, rack-and-pinion steering
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Turning into straight-line motion, or back
+  - A slow, precise push (screws)
+  example: a 3D printer's Z axis, a bench vice, a micrometer
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Turning into straight-line motion, or back
+  - Back and forth, again and again (cranks, cams)
+  example: a sewing-machine needle, an engine piston, a jigsaw blade
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Turning into straight-line motion, or back
+  - Long travel, or pulling (rack, belt, chain, cable, rope)
+  example: a rack-and-pinion gate opener, a winch, a 3D printer's belt
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Steady turning into steps, or into rocking
+  example: a film projector's step movement, a windscreen wiper, a rocking toy
+  explain: Steady turning becomes stop-start steps, or swinging back and forth.
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - A push or pull moved, multiplied or redirected
+  example: a bike brake lever and cable, a scissor lift, a car's brake pedal
+  explain: The same kind of movement, but moved somewhere else, made stronger or pointed another way.
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - A push or pull moved, multiplied or redirected
+  - Levers and linkages
+  example: a scissor lift, a toggle press, a pantograph
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - A push or pull moved, multiplied or redirected
+  - Cables, ropes, pulleys or liquid in tubes
+  example: a bike brake cable, a block and tackle, syringe hydraulics in a model robot arm
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Make movement from air, liquid, suction or heat
+  example: an air cylinder on a machine, a soft robot finger, a hydraulic jack
+- path:
+  - Tighten something, or take up slack
+  example: tightening a strap, tensioning a belt, a guy line
+- path:
+  - Tighten something, or take up slack
+  - A strap, lace, cord or rope
+  example: a ratchet strap, a boot lace, a tent guy line
+- path:
+  - Tighten something, or take up slack
+  - A strap, lace, cord or rope
+  - Click, wind or screw it tighter (ratchet, winch, turnbuckle)
+  example: a ratchet tie-down, a winch, a turnbuckle on a wire
+- path:
+  - Tighten something, or take up slack
+  - A strap, lace, cord or rope
+  - Grip by friction; release by hand (buckles, cord locks, hitches)
+  example: a backpack strap buckle, a cord lock on a hood, a trucker's hitch
+- path:
+  - Tighten something, or take up slack
+  - A strap, lace, cord or rope
+  - Pull back by itself (spring or elastic)
+  example: a retractable badge reel, a bungee cord, a shock-corded tent pole
+- path:
+  - Tighten something, or take up slack
+  - A belt, chain or cable in a machine
+  example: a 3D printer's belt tensioner, a bike chain tensioner
+- path:
+  - Tighten something, or take up slack
+  - Parts clamped or pulled together
+  example: a spring washer under a bolt, a wedge, a screw pulling two parts tight
+- path:
+  - Line parts up exactly, or adjust and level them
+  example: a lid that goes back exactly, levelling a printer bed, steadying a wobbly table
+- path:
+  - Line parts up exactly, or adjust and level them
+  - Put it back in exactly the same place every time
+  example: a camera that clicks back onto its mount, dowel pins in a two-part mould
+  explain: Locating features, so a part goes back exactly where it was without measuring.
+- path:
+  - Line parts up exactly, or adjust and level them
+  - Set a height, gap or position, then hold it
+  example: levelling feet on a washing machine, shims under a table leg, sliding a motor to tension a
+    belt
+- path:
+  - Line parts up exactly, or adjust and level them
+  - Fine-tune a tilt or angle with screws
+  example: a 3D printer's bed-levelling screws, the adjusting screws on a telescope mirror
+- path:
+  - Spring back, or store energy
+  example: a clothes peg, a retractable tape measure, a wind-up toy
+- path:
+  - Spring back, or store energy
+  - Push or pull in a straight line
+  example: a gas strut on a car boot, a retractable tape measure, a trigger spring
+- path:
+  - Spring back, or store energy
+  - A printed or bent springy part (flexure)
+  example: a printed leaf spring in a clip, a wave washer, a coil spring
+- path:
+  - Spring back, or store energy
+  - Twist back (torsion), or wind up
+  example: a clock spring, a self-closing gate hinge, a clothes peg
+- path:
+  - Seal it, or pass cables, air or liquid through
+  example: a waterproof box lid, a cable through the wall of a box, a hose onto a tap
+  explain: 'Both keep things where they belong: sealing keeps water, dust or air out of a joint, and a
+    pass-through gets a cable, hose or moving shaft through a wall without letting anything else in or
+    out.'
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Keep water, dust or air out of a joint that does not move
+  example: a waterproof lid gasket, a sealed seam on a tank
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Keep water, dust or air out of a joint that does not move
+  - No, never
+  example: a sealed seam on a water tank, a riveted gutter
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Keep water, dust or air out of a joint that does not move
+  - No, never
+  - Metal sheet, tube or pipe
+  example: a riveted gutter, the folded seam on a tin, a brazed pipe joint
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Keep water, dust or air out of a joint that does not move
+  - No, never
+  - Plastic, fabric or film, or a gap to fill
+  example: a heat-sealed bag, sealant round a bath, a waterproof tent seam
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Keep water, dust or air out of a joint that does not move
+  - 'Yes'
+  example: the O-ring in a torch, a gasket under a lid
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Seal round a moving shaft or rod
+  example: the seal round a pump shaft, the rubber boot over a car joint
+  explain: A seal that lets the shaft move or turn while keeping water or dust out.
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Get cables through a wall or past a moving joint
+  example: a cable gland on an outdoor box, a cable chain on a CNC machine, a slip ring in a turning sign
+  explain: Gets a cable through a wall, or across a joint that moves or turns, without damaging or tangling
+    it.
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Join hoses, pipes or tubes
+  example: a garden hose fitting, a copper water pipe, aquarium tubing
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Join hoses, pipes or tubes
+  - Screwed together (threads or a nut)
+  example: a tap connector, a car brake line, a gas fitting
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Join hoses, pipes or tubes
+  - Pushed on, clamped or clicked together
+  example: a click-on garden hose connector, a hose clamp on a car hose
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Join hoses, pipes or tubes
+  - Fused, soldered or brazed for good
+  example: soldered copper water pipe, heat-fused plastic water pipe
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Pump, store or control air or liquid (valves, pumps)
+  example: an aquarium air pump, a tap, a bike-pump valve
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Pump, store or control air or liquid (valves, pumps)
+  - Push air or liquid along (pumps)
+  example: an aquarium pump, a dosing pump, a squeeze bulb
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Pump, store or control air or liquid (valves, pumps)
+  - Let flow one way only, or let off pressure (safety)
+  example: a non-return valve, a pressure-cooker safety valve, a cistern float valve
+- path:
+  - Seal it, or pass cables, air or liquid through
+  - Pump, store or control air or liquid (valves, pumps)
+  - Switch, set or store the flow (valves, regulators, tanks)
+  example: a tap, the air regulator on a compressor, a solenoid valve
+- path:
+  - Hold or let go using power (electric, air or suction)
+  example: an electromagnet on a robot, an electric door lock, a suction gripper
+  explain: Holding that needs electricity, air pressure or suction, and lets go on command.
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Electricity
+  example: an electric door release, a holding electromagnet, a motor brake
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Electricity
+  - Lock, latch or hold by magnet, and let go on command
+  example: an electric door lock, an electromagnet picking up steel
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Electricity
+  - Brake, engage, switch or move something
+  example: the electromagnetic clutch on a car's air-con, a motor brake
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Compressed air
+  example: an air cylinder on a machine, a soft robot gripper, an air-hockey table
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Liquid (hydraulics, water)
+  example: a hydraulic jack, a dosing pump, a water pump
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Suction (vacuum)
+  example: a vacuum gripper lifting a sheet, a vacuum bed holding work on a CNC machine
