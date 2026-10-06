@@ -13,7 +13,8 @@
       "Kreg joint, Kreg jig (brand; Kreg Tool Company makes the best-known pocket-hole jigs and screws)",
       "lap joint, overlap joint, full lap, half lap, halving joint (Wikipedia 'Lap joint'; DT Online 'Halving Joint')",
       "end lap, corner lap, pull lap, half-lap splice, cross lap, tee lap, middle lap, dovetail lap, mitred half lap (Wikipedia 'Lap joint')",
-      "T-lap, scarf lap (Family Handyman 'Half Lap Joints')"
+      "T-lap, scarf lap (Family Handyman 'Half Lap Joints')",
+      "toe-nailing, toenailing or slant nailing: nails driven at a slant through the end or edge of one piece into the other (USDA Wood Handbook ch. 8)"
     ],
     "family": "interlocking joints & joinery",
     "other_families": [
@@ -73,7 +74,9 @@
       "Pocket-hole strength: about half a mortise and tenon and two-thirds of a two-dowel joint; joints start to open at about half their breaking load, and glue made no difference to the ultimate strength because the glue cracks before the screws reach full load; how deep the screws go into the second piece matters most (Matthias Wandel, woodgears.ca 'Testing pocket holes').",
       "Screwed joints: screw heads pulling into the wood, not the threads stripping, usually limit strength; flat-headed screws or washers help, and countersunk heads are worst. Avoid screw joints where furniture strength is critical, but they suit sawhorses, crates and scaffolding (woodgears.ca 'Wood joint strength testing').",
       "Half lap: remove half the thickness from each member (mark with a marking gauge) so the faces finish flush (Wikipedia 'Lap joint'; DT Online 'Halving Joint'); set the dado or blade height to exactly half the stock thickness using a test piece (Family Handyman).",
-      "Half-lap variants: the mitred half lap is the weakest because of its reduced glue area; a dovetail lap resists withdrawal where tension could pull the joint apart (Wikipedia 'Lap joint'). A well-made lap, scarf or finger joint in end grain can reach up to 90% of the tensile strength of clear wood (USDA Wood Handbook ch. 10)."
+      "Half-lap variants: the mitred half lap is the weakest because of its reduced glue area; a dovetail lap resists withdrawal where tension could pull the joint apart (Wikipedia 'Lap joint'). A well-made lap, scarf or finger joint in end grain can reach up to 90% of the tensile strength of clear wood (USDA Wood Handbook ch. 10).",
+      "Toe-nailing (slant nailing): toe-nailed joints are strongest when you use the largest nail that won't split the wood badly, start it about one-third of the nail's length from the end of the attached piece, drive it at about 30° to that piece, and bury the full shank without bruising the wood with hammer blows; lead holes of about 90% of the nail's shank diameter add a little holding power and reduce splitting (USDA FPL Wood Handbook, FPL-GTR-282, ch. 8, p. 8-5).",
+      "Clinching (bending the point of a nail over where it comes through): in dry or green wood a clinched smooth-shank nail resists pulling out 45% to 170% better than an unclinched one when pulled soon after driving, and nails clinched across the grain hold about 20% more than ones clinched along it; clinching is mostly used for boxes and crates (USDA FPL Wood Handbook, FPL-GTR-282, ch. 8, pp. 8-5 to 8-6)."
     ]
   },
   "guidance": {
@@ -83,7 +86,7 @@
       "Picture frames with mitred half-lap corners, and Lincoln Logs-style log cabins with lap joints (Family Handyman)",
       "Workshop shelves, benches and pallet-wood projects built with pocket screws (woodgears.ca; Kreg)"
     ],
-    "when_to_use": "Use a screwed or nailed butt joint for quick, cheap, rough or temporary work: building framing, workshop fixtures, crates, sawhorses and simple boxes (Wikipedia 'Butt joint'; woodgears.ca). Use pocket screws for face frames, cabinet carcases, table aprons and anything where you want fast assembly with no clamps and hidden screws, and where only one side can be reached (Wikipedia 'Pocket-hole joinery'). Use a glued half lap for strong, flat frames and grids (cabinet frames, door frames, stretchers), where its large long-grain glue area gives excellent shear strength (Wikipedia 'Lap joint'; Sawmill Creek summary of WOOD Magazine's torture test). Butt and lap joints are also the natural way to fasten 3D-printed or laser-cut parts together with screws or glue.",
+    "when_to_use": "Use a screwed or nailed butt joint for quick, cheap, rough or temporary work: building framing, workshop fixtures, crates, sawhorses and simple boxes (Wikipedia 'Butt joint'; woodgears.ca). Use pocket screws for face frames, cabinet carcases, table aprons and anything where you want fast assembly with no clamps and hidden screws, and where only one side can be reached (Wikipedia 'Pocket-hole joinery'). Use a glued half lap for strong, flat frames and grids (cabinet frames, door frames, stretchers), where its large long-grain glue area gives excellent shear strength (Wikipedia 'Lap joint'; Sawmill Creek summary of WOOD Magazine's torture test). Butt and lap joints are also the natural way to fasten 3D-printed or laser-cut parts together with screws or glue. Toe-nailing (slant nailing through the end or edge of one piece into the other) is a common way of joining wood framing; it 'requires greater skill in assembly than does ordinary end nailing but provides joints of greater strength and stability' (USDA Wood Handbook ch. 8).",
     "when_not_to_use": "Don't rely on screwed or pocket-screw butt joints for chairs or other furniture whose joints take repeated bending: they open up before they break (woodgears.ca); use mortise and tenon or dowel joints instead. Don't use a glued-only end-grain butt joint for anything load-bearing (USDA Wood Handbook ch. 10); reinforce it with dowels, biscuits, a spline or screws, or switch to a lap, finger or scarf joint. Avoid pocket holes in stock thinner than about 1/2 in. (Wikipedia; Kreg) and where both faces are visible (Wikipedia). For boxes and drawers seen from outside, finger or dovetail joints look better and hold better. For flat-pack furniture that must come apart often, use knock-down cam-lock or cross-dowel fittings rather than screws into particleboard edges.",
     "environment_limits": "Wood swells and shrinks with humidity, mostly across the grain (about twice as much tangentially as radially) and only 0.1-0.2% along it (USDA Wood Handbook ch. 4), so an end-to-edge (T) joint builds up large internal stresses as moisture changes and should be protected from changes in moisture content (USDA Wood Handbook ch. 10). Glue plus pocket screws helps stop gaps opening as the wood moves (Wikipedia 'Pocket-hole joinery'). Outdoors, use coated (Blue-Kote (brand)) or stainless pocket screws; zinc screws are for indoor use (Kreg Screw Guide), and a waterproof glue [uncertain]. Screwed PLA prints soften at about 60 °C and PETG at about 80 °C (CNC Kitchen).",
     "safety_notes": "Table saws (used for cutting ends square and for dado-cut half laps) can kick work back and cause amputations: use the guard, a push stick for small pieces, and keep hands out of the line of cut (OSHA table saw eTool). A pocket-hole bit or screw can split thin or hard stock suddenly; clamp the jig and work firmly [uncertain]. Screw points left poking through the far face are a scratch hazard; Wandel's deeper-drilled pocket screws came out the other side (woodgears.ca). Otherwise none known.",
@@ -96,7 +99,10 @@
       "Tongue-and-groove joint: an edge-to-edge butt joint with a ridge and groove added for alignment",
       "Knock-down cam-lock and cross-dowel connectors: hardware for butt joints in flat-pack furniture that can be taken apart",
       "Glued joint design (butt, lap and scarf joints; peel vs shear): why lap and scarf joints glue far better than butt joints",
-      "Heat-set threaded insert and captive nut pocket: better ways to screw 3D-printed parts together than self-tapping screws"
+      "Heat-set threaded insert and captive nut pocket: better ways to screw 3D-printed parts together than self-tapping screws",
+      "Wood screw: the usual fastener for screwed butt and lap joints, with advice on pilot and clearance holes",
+      "Nails, brads and tacks: the quick fastener for nailed butt joints, including toe-nailing and clinching",
+      "Metal brackets and plates: angle brackets, mending plates and joist hangers that reinforce a butt joint or carry its load"
     ]
   },
   "media": {
@@ -183,7 +189,8 @@
       "https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/",
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://www.osha.gov/etools/machine-guarding/saws/table",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf"
     ]
   },
   "uncertain": [

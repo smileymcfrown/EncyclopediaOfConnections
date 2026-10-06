@@ -10,7 +10,8 @@
       "concentric locator plus radial locator (fixture-design terms for the round pin and the pin that stops rotation)",
       "bullet-nose pins, cone locator pins, floating locating pins (variants with lead-in tips or sideways float)",
       "tooling holes and tooling pins (circuit boards, sheet metal and assembly fixtures)",
-      "dowel connectors / plug connectors (PrusaSlicer 'Cut' tool, for split 3D prints)"
+      "dowel connectors / plug connectors (PrusaSlicer 'Cut' tool, for split 3D prints)",
+      "spigot, register, pilot or pilot boss: a short round boss on one part that fits a matching bore in the other to centre it (Hobby-Machinist forum 'Register')"
     ],
     "family": "locating & alignment",
     "other_families": [
@@ -18,7 +19,7 @@
     ],
     "one_liner": "Two pins on one part fit into a snug round hole and a slot on the other: the round hole fixes the position, the slot (pointing along the line between the pins) only stops the part turning, so the parts line up in exactly one position and still go together when the hole spacing is slightly off.",
     "complexity": "A few parts: two pins (usually hardened steel dowel or locating pins pressed into one part, or pins printed on it); a matching snug round hole and a slot in the other part (or two round holes with one round pin and one 'diamond' pin that has its sides ground away); plus separate bolts, clamps or a latch to hold the parts together.",
-    "how_it_works": "A pin in a close-fitting round hole stops the part sliding in any direction across the joint face, but it can still spin around that pin. A second pin stops the spinning, but if it also sat in a tight round hole, the distance between the two holes would have to match the distance between the two pins exactly; in real parts it never does, so the parts jam or bend (the joint is over-constrained). Making the second hole a slot that points at the first hole, or using a diamond pin that only touches its hole on two narrow curved lands, lets the second pin slide a little along the line between the pins while still blocking rotation. The flat faces pressed together fix the remaining directions (height and the two tilts), and bolts or clamps hold the parts together, so the part sits in one position every time without strain."
+    "how_it_works": "A pin in a close-fitting round hole stops the part sliding in any direction across the joint face, but it can still spin around that pin. A second pin stops the spinning, but if it also sat in a tight round hole, the distance between the two holes would have to match the distance between the two pins exactly; in real parts it never does, so the parts jam or bend (the joint is over-constrained). Making the second hole a slot that points at the first hole, or using a diamond pin that only touches its hole on two narrow curved lands, lets the second pin slide a little along the line between the pins while still blocking rotation. The flat faces pressed together fix the remaining directions (height and the two tilts), and bolts or clamps hold the parts together, so the part sits in one position every time without strain. A related centring feature is the spigot or register (pilot boss): a short round boss on one part fits a close bore in the other, so the parts share one axis and the screws only clamp them together. Screw threads don't centre a part on their own ('threads are considered non-self centering so you need something to make it run concentric, the register', Hobby-Machinist forum), which is why lathe chuck backplates and stepper-motor faces have one. A spigot sets the centre but not the angle, so a pin, slot or the bolt pattern stops the part turning."
   },
   "finder_attributes": {
     "job": [
@@ -69,7 +70,8 @@
       "3D-printed parts: two true dowel holes are fine closer than 4 in (about 100 mm); farther apart, make one a slot; slots at least 0.125 in (minimum 0.05 in) long; for exact press or slip fits undersize by 0.025 in and ream after printing (Forerunner 3D rules 1-5, https://forerunner3d.com/design-guide-for-using-dowel-holes-in-3d-printed-parts/).",
       "Typical tolerances for interlocking 3D-printed parts: FDM 0.5 mm, SLA 0.2 mm, SLS 0.2 mm, material jetting 0.1 mm, versus 0.1 mm for injection moulding (Hubs, https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/).",
       "Do not rely on bolts to locate: an M6 bolt in a 6.6 mm clearance hole leaves about 0.6 mm of slop, which dowel pins remove (Mechanical Design Handbook blog, https://mechanical-design-handbook.blogspot.com/2025/12/the-engineers-guide-to-precision.html).",
-      "Pinned joints are good but not the best: replacing the dowels on an engine block's bearing caps with quasi-kinematic couplings improved repeatability from 5 to 1.5 micrometres, and split-groove kinematic couplings reduced pallet position variation by an order of magnitude compared with round-pin plus diamond-pin systems (Slocum 2010, pp. 13-14, https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf)."
+      "Pinned joints are good but not the best: replacing the dowels on an engine block's bearing caps with quasi-kinematic couplings improved repeatability from 5 to 1.5 micrometres, and split-groove kinematic couplings reduced pallet position variation by an order of magnitude compared with round-pin plus diamond-pin systems (Slocum 2010, pp. 13-14, https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf).",
+      "Spigot or register: make the bore as close a fit on the boss as you can without binding, and keep the mating face square to the bore so the part seats flat against it; the register 'provides most of the repeatability', so slightly loose threads don't matter (Hobby-Machinist forum 'Register', a moderator's answer, https://www.hobby-machinist.com/threads/register.82685/). Example: NEMA 17 motor brackets take a collar of up to 22 mm with screw holes 31 mm apart (VXB supplier page, https://vxb.com/products/42mm-nema-17-stepper-motor-mounting-bracket-with-m)."
     ]
   },
   "guidance": {
@@ -77,9 +79,11 @@
       "car engine blocks, where the top and bottom halves of the crankshaft bearings (the bearing caps) are lined up with dowel pins (Slocum's example)",
       "sheet-metal covers and service panels with one round or diamond-shaped hole and one slot over their locating screws, so they fit without forcing (MistyWest)",
       "circuit boards with tooling holes (some slotted) that drop onto pins in assembly and test fixtures (I-Connect007)",
-      "large 3D prints cut into pieces and joined with dowels or plugs made by the slicer's cut tool"
+      "large 3D prints cut into pieces and joined with dowels or plugs made by the slicer's cut tool",
+      "the round raised collar (pilot) on the face of a NEMA 17 stepper motor, which fits the centre hole of its mounting bracket; one supplier's bracket takes a collar up to 22 mm across, with screw holes 31 mm apart (VXB, a supplier)",
+      "a lathe chuck's backplate, centred on the spindle by a close-fitting register rather than by its thread (Hobby-Machinist forum 'Register')"
     ],
-    "when_to_use": "Whenever two parts must line up the same way every time and come apart again: covers and lids, removable jigs and fixtures, tool plates and brackets, split 3D prints that are glued or bolted together, laser-cut or sheet-metal panels, moulds and casting patterns, and anything bolted together where the bolts' clearance holes would otherwise let it shift. The hole-and-slot version is the right choice when the pins are far apart, the parts are made with loose tolerances (3D printing, sheet metal, wood), or the parts are made of different materials that grow differently with heat.",
+    "when_to_use": "Whenever two parts must line up the same way every time and come apart again: covers and lids, removable jigs and fixtures, tool plates and brackets, split 3D prints that are glued or bolted together, laser-cut or sheet-metal panels, moulds and casting patterns, and anything bolted together where the bolts' clearance holes would otherwise let it shift. The hole-and-slot version is the right choice when the pins are far apart, the parts are made with loose tolerances (3D printing, sheet metal, wood), or the parts are made of different materials that grow differently with heat. Use a spigot (register) instead when a round part such as a motor, flange, pulley or chuck must sit exactly on an axis; the screws then only clamp.",
     "when_not_to_use": "Not as the thing that holds parts together: add bolts, clamps, glue, magnets or a latch. Not when a part must return to within a few micrometres every time without any play: use a kinematic coupling (balls in V-grooves), which never jams. Not when parts must be guided in from far off-line: a self-centring cone and socket catches a bigger initial error. Not when the only goal is to stop a part going in the wrong way round: an extra offset pin or notch (keying) is simpler. For many small springy features sharing the job (e.g. mass-produced plastic parts), elastic averaging can be cheaper; for pins that must also lock, use a quick-release (ball-lock) pin or indexing plunger.",
     "environment_limits": "Steel pins in metal parts are stable over normal temperatures; where the two parts are different materials or change temperature, the slot (or a floating pin) lets them grow without binding, and cone locator pins are also used where parts expand with temperature (Carr Lane). Steel pins can rust; stainless steel or coatings such as hard chrome and TiCN help in corrosive places (MISUMI). Chips, dirt and coolant in the holes stop parts seating (Carr Lane). Printed plastic pins and holes soften with heat (PLA starts to give at about 60 °C, PETG at about 80 °C in CNC Kitchen's oven test) and creep under constant load, so press-fitted pins can loosen over time (Thrinter creep test).",
     "safety_notes": "Few hazards. Keep fingers out from between heavy parts as they are lowered onto the pins (pinch point), and wear eye protection when driving or pressing hardened pins. A standard dowel driven into a blind hole can be almost impossible to remove without drilling it out (Mechanical Design Handbook blog).",
@@ -93,7 +97,7 @@
       "Keying (one-way-only fit, poka-yoke): an extra offset pin or notch that only stops parts going on the wrong way round; less precise",
       "Elastic averaging (many-feature alignment): many slightly springy features share the locating job instead of two rigid pins",
       "Indexing plunger (pull-knob index pin) and quick-release (ball-lock) pin: pins that can be pulled out by hand to lock or release a position",
-      "Taper pin and spring pin: pins driven through both parts to fix them permanently, rather than letting them lift off"
+      "Drive-in fixing pins: roll pins, coiled spring pins, dowel pins and taper pins driven through both parts to fix them permanently, rather than letting them lift off"
     ]
   },
   "media": {
@@ -169,7 +173,9 @@
       "https://commons.wikimedia.org/wiki/File:Parallel_pin.svg (licence and description read via the Commons API)",
       "https://www.youtube.com/watch?v=C_vqMerH-oQ (verified via YouTube oEmbed)",
       "https://www.youtube.com/watch?v=CiJwMRodjV8 (verified via YouTube oEmbed)",
-      "https://api.printables.com/graphql/ (Printables model 466114 read via the public API)"
+      "https://api.printables.com/graphql/ (Printables model 466114 read via the public API)",
+      "https://www.hobby-machinist.com/threads/register.82685/",
+      "https://vxb.com/products/42mm-nema-17-stepper-motor-mounting-bracket-with-m"
     ]
   },
   "uncertain": [

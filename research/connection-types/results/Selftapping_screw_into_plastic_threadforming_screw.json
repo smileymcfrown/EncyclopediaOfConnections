@@ -9,7 +9,8 @@
       "sheet-metal screw, PK screw (after Parker-Kalon (brand)), type B (blunt-tip) tapping screw (Wikipedia 'Self-tapping screw')",
       "screwing a machine screw directly into an undersized printed hole ('self tap' hole in BOSL2; 'direct screwing' in CNC Kitchen tests)",
       "screw boss (the moulded post with a hole that the screw goes into) (Assembly Magazine; EJOT)",
-      "lobular or trilobular screw; self-forming thread with three lobes in the hole (Wikipedia 'Pentalobular screw thread'; Hackaday on Thomas Sanladerer)"
+      "lobular or trilobular screw; self-forming thread with three lobes in the hole (Wikipedia 'Pentalobular screw thread'; Hackaday on Thomas Sanladerer)",
+      "self-drilling screw, Tek (brand) screw: a tapping screw with a fluted drill point that drills its hole, cuts the thread and fastens in one go (Wikipedia 'Self-tapping screw', section 'Self-drilling screws')"
     ],
     "family": "print-in-place & 3D-printing joints",
     "other_families": [
@@ -43,7 +44,7 @@
     "adjustable": "no: only the tightness can be changed, and re-tightening risks stripping the thread.",
     "play_and_precision": "No play in the thread once formed. Location of the clamped part depends on its clearance hole, as for any screw joint. The screw roughly centres itself in its pilot hole [uncertain]. A screw driven in at an angle cuts a crooked thread, so drive it straight (Hubs).",
     "access_needed": "one side only (blind): the screw is driven into a hole in the far part from the near side.",
-    "materials": "Screws: hard steel, often case-hardened, with a thread running the full length (Wikipedia 'Self-tapping screw'). Suitable plastics: tough, ductile thermoplastics suit thread-forming screws (Assembly Magazine: plastics with a flexural modulus up to about 200,000 psi (about 1.4 GPa), or up to 400,000 psi with a larger hole); hard, brittle or glass-filled plastics and thermosets need thread-cutting screws or they crack (Assembly Magazine). Works in FDM prints (PLA, PETG, ABS, nylon, PC) and resin prints (Lost In Tech pilot-hole calculator lists these materials). Related screw types exist for wood (wood screws) and thin sheet metal (sheet-metal screws) (Wikipedia 'Self-tapping screw').",
+    "materials": "Screws: hard steel, often case-hardened, with a thread running the full length (Wikipedia 'Self-tapping screw'). Suitable plastics: tough, ductile thermoplastics suit thread-forming screws (Assembly Magazine: plastics with a flexural modulus up to about 200,000 psi (about 1.4 GPa), or up to 400,000 psi with a larger hole); hard, brittle or glass-filled plastics and thermosets need thread-cutting screws or they crack (Assembly Magazine). Works in FDM prints (PLA, PETG, ABS, nylon, PC) and resin prints (Lost In Tech pilot-hole calculator lists these materials). Related screw types exist for wood (wood screws) and thin sheet metal (sheet-metal screws) (Wikipedia 'Self-tapping screw'). Self-drilling screws have a drill-shaped tip that cuts through both wood and steel, so no pilot hole is needed (USDA FPL Wood Handbook ch. 8); winged versions ream a clearance hole in wood or plastic and their wings break off when they reach metal, so wood can be fixed to steel in one step from one side (Wikipedia 'Self-tapping screw').",
     "maker_difficulty": "easy: design a slightly undersized hole, then drive the screw in; the only skill is finding the right hole size for your printer and material with a quick test print (Hubs; Hackaday)."
   },
   "making": {
@@ -52,11 +53,11 @@
       "3D print (resin): works with correctly sized holes (Lost In Tech calculator includes resin) [uncertain]",
       "off-the-shelf part: moulded plastic housings with screw bosses, and the screws themselves",
       "woodwork: the same idea with wood screws, which are technically self-tapping (Wikipedia 'Self-tapping screw')",
-      "sheet metal: sheet-metal self-tapping screws in punched or drilled holes (Wikipedia 'Self-tapping screw')"
+      "sheet metal: sheet-metal self-tapping screws in punched or drilled holes (Wikipedia 'Self-tapping screw'); self-drilling (Tek (brand)-type) screws drill their own hole in sheet steel, and some have a sealing washer for fixing roofing sheets to purlins (Wikipedia 'Self-tapping screw')"
     ],
     "print_in_place": "no: the screw is added after printing; the printed part only needs a plain pilot hole.",
     "making_tips_3d_printing": "1) Hole size: printed holes come out undersized, so test first (CNC Kitchen; Hubs). A simple start from Hackaday is to make the lower hole the diameter of the screw's core (shaft without thread) and the upper part's hole big enough for the thread to pass. Screws for plastics are usually given a hole of about 0.8 x the thread diameter (EJOT/ATF brochure). For a machine screw driven straight into a print, BOSL2's 'self tap' hole is the nominal diameter minus about 0.72 x the pitch (e.g. about 2.64 mm for M3) and has a bevelled top to help the screw start. 2) Depth: give at least 1-1.5 x the screw diameter of thread engagement, more in plastics (Lost In Tech calculator; Field Fastener); moulding guides use 2 x (EJOT) to 2-3 x (Assembly Magazine). 3) Wall: make the wall around the hole at least one screw diameter thick (Hubs), i.e. a boss about 2-3 x the screw diameter across (EJOT; Assembly Magazine); thin walls bulge, split or delaminate (Hubs). 4) Orientation: print the hole vertical (along the Z axis) so perimeters wrap around it and the screw's outward push isn't splitting layers apart [uncertain]. More perimeters around the hole help; CNC Kitchen's test parts used four perimeters and 100% infill. 5) Add a small counterbore or chamfer (about screw diameter) at the entry so the edge doesn't crack and the screw starts straight (EJOT; Assembly Magazine; BOSL2). 6) Three lobes: a hole with three small ribs that the screw forms into lowers the stress on the part (Thomas Sanladerer, via Hackaday). 7) Drive slowly and straight and stop as soon as it is snug; don't use a pointed countersunk head, which wedges the plastic apart (Hubs; Assembly Magazine). 8) To reuse, turn the screw backwards until it drops into the old thread before tightening (Kolver).",
-    "off_the_shelf_parts": "Thread-forming screws for plastics (e.g. 30-degree 'PT' style or trilobular screws; brands include EJOT DELTA PT (brand), Plastite (brand) and Taptite (brand)) (ATF/EJOT brochure; Assembly Magazine; Wikipedia 'Pentalobular screw thread'); DIN 7981 tapping screws, which a Hackaday reader recommends as a consistent standard to buy; type B (blunt-tip) tapping screws for pilot holes; ordinary M2-M4 machine screws driven into undersized holes (CNC Kitchen; BOSL2); washers or flanged heads to spread the load (Wikipedia 'Self-tapping screw'; ATF/EJOT brochure; Hackaday).",
+    "off_the_shelf_parts": "Thread-forming screws for plastics (e.g. 30-degree 'PT' style or trilobular screws; brands include EJOT DELTA PT (brand), Plastite (brand) and Taptite (brand)) (ATF/EJOT brochure; Assembly Magazine; Wikipedia 'Pentalobular screw thread'); DIN 7981 tapping screws, which a Hackaday reader recommends as a consistent standard to buy; type B (blunt-tip) tapping screws for pilot holes; ordinary M2-M4 machine screws driven into undersized holes (CNC Kitchen; BOSL2); washers or flanged heads to spread the load (Wikipedia 'Self-tapping screw'; ATF/EJOT brochure; Hackaday). For sheet metal and wood to steel: self-drilling screws, with or without a sealing washer, and winged self-drilling screws (Wikipedia 'Self-tapping screw').",
     "rules_of_thumb": [
       "Screws for thermoplastics: pilot hole 0.8 x the screw's nominal diameter (up to 0.88 x for filled or stronger plastics), boss outside diameter 2 x, screw engagement depth 2 x, and a counterbore of 1.05 x diameter at the entry; keep draft in the core hole below 0.5 degrees per side (ATF / EJOT DELTA PT brochure, 2017, p. 11).",
       "Boss outside diameter 2-3 x the screw thread diameter; thread engagement 2-3 x the screw diameter; add a relief bore equal to the screw's outside diameter; thread-forming screws suit plastics with a flexural modulus up to 200,000 psi (up to 400,000 psi with a larger hole), harder plastics need thread-cutting screws; avoid conical (countersunk and oval) heads (Assembly Magazine 'Beware the Boss', 2004).",
@@ -65,7 +66,8 @@
       "Thread-forming screws need at least 1-1.5 x the screw diameter engaged even in steel, and more in softer materials such as plastic (Field Fastener 'Rules of Thumb for Thread Engagement').",
       "For a machine screw driven straight into plastic, make the hole the nominal diameter minus 0.72 x pitch for pitches below 1 mm, minus 0.6 x pitch above 1.5 mm (BOSL2 screws.scad, 'self tap' tolerance).",
       "M3 screw straight into a slightly undersized printed hole: pull-out 118 kg in PETG (142 kg in an earlier PLA test), but it strips at about 1 Nm; a heat-set insert takes 3-4 Nm (CNC Kitchen).",
-      "Tightening torque when fastening into plastic: the lower of 3 x the seating torque or halfway between seating and stripping torque; start at about 300 rpm if the screw maker gives no speed; when re-tightening into an existing thread, turn the screw backwards until it drops into the thread, engage about a quarter turn by hand, and use a lower torque (Kolver 'Fastening into Plastics')."
+      "Tightening torque when fastening into plastic: the lower of 3 x the seating torque or halfway between seating and stripping torque; start at about 300 rpm if the screw maker gives no speed; when re-tightening into an existing thread, turn the screw backwards until it drops into the thread, engage about a quarter turn by hand, and use a lower torque (Kolver 'Fastening into Plastics').",
+      "In wood, type A tapping screws (sheet-metal screws) hold about 10% more against pulling out than wood screws of the same diameter and thread length, from 1.16 times in dense woods such as oak to 1.05 times in light woods such as redwood; tapping screws are commonly used in particleboard, where care is needed not to strip the thread when tightening (USDA FPL Wood Handbook, FPL-GTR-282, ch. 8, pp. 8-10 to 8-11)."
     ]
   },
   "guidance": {
@@ -88,7 +90,8 @@
       "Ordinary screw joint (bolt and nut, machine screw): the baseline, reusable almost without limit",
       "Push-in plastic rivet (fir-tree clip, push rivet): no thread at all, pushed in by hand",
       "Heat staking (melted plastic rivet): a plastic post melted over, permanent",
-      "Blind threaded fixings (rivet nut, well nut): give a reusable thread in thin sheet or panels"
+      "Blind threaded fixings (rivet nut, well nut): give a reusable thread in thin sheet or panels",
+      "Wood screw: the pointed, coarse-threaded screw for wood, technically self-tapping too; a type A sheet-metal screw holds slightly better in wood (Wood Handbook)"
     ]
   },
   "media": {
@@ -174,7 +177,9 @@
       "https://commons.wikimedia.org/wiki/File:Z%C3%A1vito%C5%99ezn%C3%BD.png",
       "https://www.youtube.com/watch?v=8F4G-OyXHJs",
       "https://www.youtube.com/watch?v=HgEEtk85rAY",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf",
+      "https://en.wikipedia.org/wiki/Self-drilling_screw"
     ]
   },
   "uncertain": [
