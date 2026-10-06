@@ -252,6 +252,7 @@ items:
   - name: Heat-set threaded insert
     category: print-in-place & 3D-printing joints
     description: A knurled brass insert pressed into a plastic hole with a hot soldering iron, giving strong, reusable metal threads in a printed part
+    notes: Also covers SPIROL's insert advice for prints, including press-in inserts as the best choice in resin.
   # 57
   - name: Captive nut pocket (nut trap)
     category: print-in-place & 3D-printing joints
@@ -487,6 +488,7 @@ items:
   - name: Aluminium-extrusion connectors (T-slot nuts and brackets)
     category: clamping, magnetic & friction connections
     description: The nuts, brackets and hidden fasteners that slide into the grooves of T-slot aluminium extrusion to build 3D-printer, CNC and robot frames without welding
+    notes: Also covers strut channel and fixed-pitch hole-grid kits (goBILDA, Actobotics, Meccano) as the stepped alternative to a T-slot.
   # 114
   - name: Kinematic coupling (balls in V-grooves)
     category: locating & alignment
@@ -745,6 +747,7 @@ items:
   - name: Spring-steel push-on fasteners (push nut, speed nut, U-nut)
     category: snap & clip fits
     description: Stamped spring-steel clips whose prongs bite onto a plain shaft or screw when pushed on, fast to fit and resistant to shaking loose
+    notes: Also covers the cage nut (a square nut in a spring-steel cage) used in 19-inch racks.
   # 174
   - name: Lamina emergent torsional joint (LET joint)
     category: compliant mechanisms & flexures
@@ -770,6 +773,7 @@ items:
   - name: Press-fit and expanding inserts (tap-in insert)
     category: print-in-place & 3D-printing joints
     description: Threaded inserts that are pushed or tapped into a hole and held by barbs, or expand as the screw goes in, as an alternative to heat-set inserts
+    notes: 'Also covers SPIROL''s findings for prints: press-in inserts work best in resin, and expansion inserts are the weakest.'
   # 180
   - name: Gimbal
     category: hinges & pivots
@@ -999,6 +1003,7 @@ items:
   - name: Locating pins and hole-and-slot
     category: locating & alignment
     description: One pin in a round hole and one in a slot, so parts line up in exactly one position without jamming when sizes vary a little
+    notes: Also covers the spigot or register (a round boss in a bore that centres a motor face or chuck).
   # 235
   - name: Exact-constraint mounting (3-2-1 locating)
     category: locating & alignment
@@ -1075,6 +1080,7 @@ items:
   - name: Knock-down cam-lock and cross-dowel connectors
     category: interlocking joints & joinery
     description: Flat-pack fittings where a turning cam grabs a bolt head, or a barrel nut takes a bolt through the other panel, so furniture can be taken apart
+    notes: Also covers how Confirmat screws compare with cams.
   # ---- joinery for wood, sheet and panels (lowest priority by making method) ----
   # 251
   - name: Wedge dowel (click-in grooved dowel)
@@ -1110,10 +1116,12 @@ items:
   - name: Ordinary screw joint (bolt and nut, machine screw)
     category: clamping, magnetic & friction connections
     description: A bolt through the parts into a nut or tapped thread, clamping them together; the baseline everything else is compared with
+    notes: Also covers washers by job, the carriage (coach) bolt, and robot-kit hole grids.
   # 258
   - name: Self-tapping screw into plastic (thread-forming screw)
     category: print-in-place & 3D-printing joints
     description: A screw that cuts or forms its own thread in a plain hole in a printed or moulded part; simple but wears out after a few uses
+    notes: Also covers self-drilling (Tek-type) screws for sheet metal.
   # 259
   - name: Retaining ring (circlip, E-clip)
     category: snap & clip fits
@@ -1148,7 +1156,7 @@ items:
   - name: Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
     category: clutches & couplings
     description: The ordinary ways to fix a gear, pulley or wheel to a shaft, or join two shafts rigidly end to end
-    notes: Also covers shaft collars
+    notes: Also covers shaft collars. Also covers coiled spring pins through a hub, and welding or soldering a hub on for good.
   # 267
   - name: Spur gear pair and gear train (simple, compound, idler)
     category: gear trains, gearboxes & transmissions
@@ -1170,6 +1178,7 @@ items:
   - name: Butt and lap wood joints (screwed, pocket-hole, half-lap)
     category: interlocking joints & joinery
     description: Simple wood joints where parts meet end to face or overlap, held by screws, glue or angled pocket screws; the joinery baseline
+    notes: Also covers toe-nailing and clinched nails.
   # 272
   - name: Dowel and biscuit joints
     category: interlocking joints & joinery
