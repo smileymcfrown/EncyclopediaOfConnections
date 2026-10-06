@@ -1,0 +1,294 @@
+---
+title: Eccentric adjuster
+description: A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up
+  to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
+num: 129
+term: Eccentric adjuster (eccentric spacer, eccentric bushing or eccentric cam bolt)
+plain_name: 'A round spacer, nut or sleeve with its hole drilled off-centre: turn it with a spanner and the wheel, pulley
+  or shaft riding on it shifts a little sideways, then clamp it so it stays put'
+aliases:
+- eccentric nut (common 3D-printer name, e.g. on V-wheel carriages)
+- eccentric spacer (V-slot and OpenBuilds systems)
+- eccentric bushing / eccentric bush / offset bushing / eccentric sleeve
+- eccentric bottom bracket, EBB (bicycles) / 'the eccentric' (tandems)
+- eccentric hub (bicycle rear hubs; motorcycles with single-sided swingarms)
+- cam bolt / camber bolt / eccentric bolt with eccentric or offset washer (car wheel alignment)
+- eccentric stud cam follower / eccentric type cam follower (bearing catalogues)
+- cam height adjustment (cabinet hinge mounting plates)
+- eccentric-mounted tensioner pulley (engine timing belts)
+- Exzenter (German)
+family: adjusters, levellers & spacers
+other_families:
+- tensioning, reels & take-up
+- locating & alignment
+- clamping, magnetic & friction connections
+- sliding, telescoping & linear motion
+finder:
+  job: [tighten and hold tension, line parts up exactly, join and hold]
+  motion: rotate
+  special_behaviour: [tensioning, motion conversion]
+  holding_principle: [shape, friction or clamping]
+  reuse_cycles: many times
+  seal: none
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut]
+  connects: [not applicable]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: 'yes'
+  removability: removable
+  power: passive
+needs_confirming:
+  motion_in:
+    kind: best guess
+    reason: 'no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives
+      a sidew..."'
+  motion_out:
+    kind: best guess
+    reason: 'no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives
+      a sidew..."'
+  shaft_layout:
+    kind: best guess
+    reason: 'no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives
+      a sidew..."'
+confirmed: []
+open_points: []
+uncertain_fields: [off_the_shelf_parts, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
+diagram_idea: A face-on view of a hex spacer with its hole drawn off-centre and a V-wheel outline on it, shown at 0°, 90°
+  and 180° of rotation beside a rail, with a dimension arrow showing the wheel moving across by twice the offset and a small
+  arc showing it also rises and falls.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg
+  title: Eccentric bottom bracket.jpg (Wikimedia Commons, by AndrewDressel, 2007)
+  shows: 'Photo of an eccentric bottom bracket: the off-centre bearing plug inside an oversized bicycle frame shell'
+  license: GFDL or CC BY-SA 3.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Eccentric_animation.gif
+  title: Eccentric animation.gif (Wikimedia Commons, by ThreeE, 2008)
+  shows: Animation of a disc turning about an off-centre axle; shows how an off-centre hole makes the centre travel in a circle
+    (here used for motion rather than adjustment)
+  license: GFDL or CC BY-SA 3.0 (reuse with credit)
+- url: https://www.youtube.com/watch?v=I6NI7lGAv44
+  title: How to adjust Eccentric nuts 3dprinter correct adjustment no more flat wheels (FlixMySwitch, YouTube; title confirmed
+    via YouTube oEmbed)
+  shows: Video of adjusting the eccentric nuts on a 3D printer's V-wheels
+  license: link only
+- url: https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end
+  title: Chain Tension for Tandem Front End (Park Tool)
+  shows: Illustrated steps for rotating a tandem's front eccentric with a pin spanner to set chain tension, and the wedge-bolt
+    locking system
+  license: link only
+- url: https://www.thk.com/jp/en/products/other_rotary_guides/cam_follower/eccentric/
+  title: Cam Follower Eccentric Models CFH-AB (THK)
+  shows: Catalogue drawings of eccentric-stud cam followers whose position is set by turning the stud
+  license: link only (manufacturer page)
+make_it_yourself:
+- url: https://www.printables.com/model/466199-hole-tolerance-gauge-for-designing-3d-prints-with-
+  title: Hole Tolerance Gauge For Designing 3D Prints With Openbuilds Screws and Eccentric Nuts M5, M7 (Printables 466199;
+    URL from Printables API, page not opened)
+  what_it_is: Test print with 5 mm and 7 mm holes in 0.0-0.2 mm steps, to find the right printed hole size for M5 bolts and
+    OpenBuilds eccentric nuts
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/79881-long-eccentric-spacer-for-tronxy-x5s
+  title: Long eccentric spacer for Tronxy X5S (Printables 79881; URL from Printables API, page not opened)
+  what_it_is: Printed long eccentric spacer for V-slot wheels, with notes on its weak neck and on drilling 7.1 mm holes to
+    fit metal eccentric spacers
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/236807-vertical-x-carriage-w-eccentric-nut-v20
+  title: Vertical X Carriage (w/ eccentric nut) v2.0 (Printables 236807; URL from Printables API, page not opened)
+  what_it_is: Printed 3-wheel carriage for 2040 extrusion that uses one eccentric nut for fine adjustment; printed in PETG
+    after a PLA prototype wore
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/890104-long-eccentric-spacer-nut-wrench
+  title: Long Eccentric spacer / nut wrench! (Printables 890104; URL from Printables API, page not opened)
+  what_it_is: Printable long wrench for turning eccentric nuts in hard-to-reach places
+  license: CC BY-NC (Creative Commons Attribution-NonCommercial)
+sources:
+- https://www.makertechstore.com/products/eccentric-spacer
+- https://www.thk.com/jp/en/products/other_rotary_guides/cam_follower/eccentric/
+- https://www.ikont.co.jp/eg/product/needle/ndl0603.html
+- https://www.nodeshk.com/iko/catalogue/eccentric-cam.html
+- https://www.mrosupply.com/bearings/862859_cfes16_iko-bearing/
+- https://www.3dprintbeast.com/eccentric-nuts-ender-3-v2-pro/
+- https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end
+- https://www.sheldonbrown.com/synchain.html
+- https://www.sheldonbrown.com/gloss_e-f.html
+- https://www.montaguebikes.com/folding-bikes-blog/2016/03/adjusting-belt-tension-with-eccentric-bb/
+- https://www.canyonchasers.net/2018/09/single-sided-swingarm-chain-adjustment-tool/
+- https://en.wikipedia.org/wiki/Bottom_bracket
+- https://en.wikipedia.org/wiki/Eccentric_(mechanism)
+- https://en.wikipedia.org/wiki/Tensioner
+- https://en.wikipedia.org/wiki/Camber_angle
+- https://en.wikipedia.org/wiki/Duplex_worm
+- https://publications.blum.com/2022/catalogue/en/144/
+- https://www.hardwaresource.com/products/blum-in-line-mounting-plate-cam-adjustable
+- https://www.vwvortex.com/threads/diy-install-updated-mechanical-timing-belt-tensioner.8497345/
+- https://www.designwithajay.com/the-mechanics-of-eccentric-bushes/
+- https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg
+- https://commons.wikimedia.org/wiki/File:Eccentric_animation.gif
+- https://api.printables.com/graphql/
+- https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)
+research: research/connection-types/results/Eccentric_adjuster_eccentric_nut_spacer_or_bushing.json
+---
+
+A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
+
+**In plain words:** A round spacer, nut or sleeve with its hole drilled off-centre: turn it with a spanner and the wheel, pulley or shaft riding on it shifts a little sideways, then clamp it so it stays put. **Proper term:** Eccentric adjuster (eccentric spacer, eccentric bushing or eccentric cam bolt).
+
+**Also called:** eccentric nut (common 3D-printer name, e.g. on V-wheel carriages); eccentric spacer (V-slot and OpenBuilds systems); eccentric bushing / eccentric bush / offset bushing / eccentric sleeve; eccentric bottom bracket, EBB (bicycles) / 'the eccentric' (tandems); eccentric hub (bicycle rear hubs; motorcycles with single-sided swingarms); cam bolt / camber bolt / eccentric bolt with eccentric or offset washer (car wheel alignment); eccentric stud cam follower / eccentric type cam follower (bearing catalogues); cam height adjustment (cabinet hinge mounting plates); eccentric-mounted tensioner pulley (engine timing belts); Exzenter (German).
+
+## How it works
+
+The eccentric sits in a round hole or on a bolt and can turn about its own centre, but the part it carries sits in the off-centre hole, so as you turn it the carried part travels around a small circle whose radius is the offset (eccentricity). Half a turn takes it from one side to the other, giving a total sideways shift of twice the offset; turning further brings it back again, so unlike a normal nut it never gets 'tighter and tighter'. Once the belt, chain or wheel is at the right tightness you clamp the eccentric (nut, pinch bolt, set screws or wedge) so friction stops it turning. Because the carried part moves on an arc, it also moves slightly at right angles to the direction you want, for example an eccentric bottom bracket also changes the pedal height.
+
+## Parts
+
+A few parts: the eccentric itself (a round or hex-headed spacer, sleeve, plug or bolt with an off-centre bore or shank, often marked on its thin side); the axle, bolt or bearing that runs through the off-centre hole; the part being adjusted (a wheel, pulley, sprocket, bottom bracket or gear); and a clamp to lock it (a nut, pinch bolts, set screws or a wedge). Example: 'eccentric spacer, M5 bolt, V-wheel, lock nut'.
+
+## Everyday examples
+
+- the 'eccentric nuts' you turn with a 10 mm spanner to snug up the wheels on a 3D printer such as the Ender 3
+- the eccentric bottom bracket that tensions the chain or belt on a tandem, single-speed or belt-drive bicycle
+- cam bolts used in car wheel alignment to set camber
+- kitchen cabinet hinge mounting plates with a small cam screw for moving the door up or down
+
+## When to use it
+
+When you need a small, precise, lockable adjustment of where a wheel, pulley, sprocket, bearing or shaft sits: taking up play between rollers and a rail (V-slot carriages), setting chain or belt tension where the axles cannot slide (vertical bicycle dropouts, tandem timing chains, belt-drive bikes, motorcycles with single-sided swingarms), setting gear mesh or roller contact, or trimming alignment (car camber, cabinet doors, cam followers). It is compact, needs no slots, and holds its setting firmly once clamped.
+
+## When not to use it
+
+When tension must be kept up automatically as a belt or chain stretches: use a spring-loaded tensioner. When you need more travel than about twice the offset: use a slotted mount, sliding motor plate or jacking screw. When the part must not move sideways at all while you adjust it in one direction (the eccentric moves it on an arc): use a straight slide or screw adjuster. For precise, repeatable gear backlash: an eccentric centre-distance change disturbs tooth contact, so consider anti-backlash or duplex-worm gearing. In weak, soft or printed parts under heavy load: printed eccentrics can break and plastic creeps under the clamp.
+
+## Details
+
+- **What it does (jobs):**
+  - tighten and hold tension: takes up slack in a chain or belt, or presses rollers onto a rail
+  - line parts up exactly: sets a wheel, bearing, gear or hinge to the right position and takes up play
+  - join and hold: once clamped it is also the mounting for the axle or bolt it carries
+- **Movement:** rotate: you turn the eccentric through up to half a turn (180°) while adjusting, which shifts the carried part sideways along a short arc; none once it is clamped
+- **Directions it can move (degrees of freedom):** 0 once clamped. While adjusting, 1: turning the eccentric, which moves the carried part along an arc (mostly sideways, a little up or down).
+- **Special behaviour:**
+  - tensioning (takes up slack and holds): set once and clamped; it does not re-adjust itself as a belt or chain stretches (unlike a spring tensioner), so it must be reset as parts wear
+  - motion conversion (e.g. rotary to linear): a turn of the eccentric becomes a small, finely controllable sideways movement
+- **How it holds:** friction or clamping (force-fit): a nut, pinch bolt, set screws or a wedge clamps the eccentric so it cannot turn; plus shape (form-fit): the off-centre bore holds the axle or bolt
+- **Input and output:** An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sideways shift of up to twice the offset, e.g. about 0.79 mm in total for an OpenBuilds V-slot eccentric spacer, and 0.25-1.5 mm eccentricity on catalogue eccentric cam followers. The ratio is not constant: by geometry, the shift per degree is largest in the middle of the range and smallest near the two ends. Back-drivable: yes when unclamped, because a sideways load on the carried part tries to turn the eccentric; clamped, it is held only by friction, so under-tightened eccentrics can slip.
+- **Power:** passive (no power needed)
+- **Load:** light to heavy depending on size: V-slot wheel spacers and hinge cams are light-duty; bicycle eccentric bottom brackets, motorcycle eccentric hubs, car camber bolts and bearing cam followers carry heavy loads (catalogue eccentric cam followers have static load ratings of kilonewtons). Strong in straight shear across the bolt or axle; the weak direction is rotation: a load pushing the carried part sideways makes a turning force on the eccentric that only the clamp's friction resists, which is why under-clamped eccentrics creep, creak or slip.
+- **Play and precision:** none once clamped: it is used to remove play (e.g. between V-wheels and a rail, or in a chain). Very fine adjustment, down to a fraction of a millimetre, especially near the ends of its range. Tolerates only small misalignment corrections (at most twice the offset, typically well under a few millimetres, except large bicycle and motorcycle eccentrics). The carried part moves on an arc, so there is a small unwanted shift at right angles.
+- **Taking it apart:** removable: unclamp, then slide off or unscrew; set screws can dent the eccentric so it is harder to re-set finely
+- **How often it can be reused:** many times: metal eccentrics can be re-adjusted and re-used indefinitely if not corroded; printed eccentrics wear and can break at thin sections
+- **Sealing:** none
+- **Adjustable:** yes: that is its purpose; loosen the clamp, turn the eccentric to shift the part (total range twice the offset), and re-clamp
+- **Access needed:** one side only (blind) in most cases: V-slot spacers, cam bolts and hinge cams are turned from the head side; bicycle eccentric bottom brackets and motorcycle eccentric hubs are reached from the side of the frame or swingarm
+- **Materials:** Stainless steel (OpenBuilds eccentric spacers), steel (car cam bolts, cam-follower studs, cabinet hinge plates), aluminium or steel (bicycle eccentric bottom brackets and hubs), bronze or steel (industrial eccentric bushes). 3D-printed eccentrics in PETG or similar for light, low-stress uses, always with a metal bolt through them. The part around it can be metal, printed plastic, acrylic or wood; a metal eccentric spacer's collar needs a round hole of about 7.1 mm.
+- **Heat, cold, water and wear:** Corrosion can seize an eccentric in its housing: wedge-type bicycle eccentrics left unserviced 'can become corroded in place' (Sheldon Brown), and owners report having to tap stuck eccentric bottom brackets to turn them (Montague Bikes blog comments), so grease the outside of the eccentric. Vibration and cyclic load can make an under-clamped eccentric slowly turn and lose its setting ⚑ [uncertain: not confirmed on an opened page]. Printed eccentrics and printed plates creep under constant clamp load, more in heat ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part (most common: eccentric spacers, eccentric bushings, eccentric cam followers, eccentric bottom brackets, cam bolts)
+  - 3D print (FDM): design round pockets in printed plates to take bought eccentric spacers, or print light-duty eccentric spacers or bushings
+  - CNC or lathe: turning an off-centre bore (metal eccentric bushings)
+  - laser cut: round holes in acrylic or plywood gantry plates to take eccentric spacers
+- **Printing it in one piece (print in place):** no: the eccentric is a separate part fitted onto a bolt or into a hole; a printed eccentric still needs a metal bolt and nut
+- **Tools:** a spanner to turn it (10 mm for full-size OpenBuilds spacers and Ender 3 eccentric nuts, 8 mm for 'mini' spacers), plus a spanner or Allen key for the lock nut, ideally holding the eccentric with one tool while tightening the nut with another; a pin spanner (e.g. Park Tool SPA-1) for bicycle eccentric bottom brackets; a special hook spanner for motorcycle eccentric hubs; a screwdriver for cabinet hinge cams
+- **Difficulty:** easy to use bought ones (V-slot eccentric spacers are cheap and fit a round hole in a printed or cut plate); moderate to make your own: the off-centre hole must be accurate, which needs a lathe or careful printing, and printed ones are weak
+
+### 3D printing tips
+
+Easiest: print or cut the gantry plate or carriage with round holes that fit bought metal eccentric spacers (OpenBuilds spacers have a collar that 'fits into a 7.12mm hole'; one maker drilled acrylic plates to 7.1 mm), and use them on only one side of each set of wheels, with plain spacers on the other side. Print a hole-size test gauge first to find the right printed hole for M5 bolts and 7 mm eccentric collars on your printer (Printables 466199). Orient the printed plate so the holes are vertical (round in the XY plane) ⚑ [uncertain: general practice, not from an opened page]. If you print the eccentric spacer itself, keep it for light duty: one designer notes that the neck of his printed long eccentric spacer 'is a bit weak so the spacer shouldn't be turned under the stress' (Printables 79881). Mark the thin side of a home-made eccentric as OpenBuilds does with a divot, so you always know where the offset points. Leave room for a spanner (or print a long eccentric-nut wrench, Printables 890104). Clamp it with a proper nut and washer on a metal bolt; do not rely on friction of printed plastic alone, which creeps under constant clamp load ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Search terms: 'eccentric spacer' (V-slot, 5 mm bore, 6 mm or 1/4 in tall, 8 mm or 10 mm hex), 'eccentric nut' (3D printer V-wheels), 'eccentric bushing' or 'eccentric bush', 'eccentric cam follower' or 'eccentric stud cam follower' (e.g. IKO CFE and CFES, THK CFH-A and CFH-AB series; brands), 'eccentric bottom bracket' (bicycles), 'eccentric hub' (singlespeed bicycles with vertical dropouts), 'camber bolt' or 'cam bolt kit' (cars), 'cam adjustable mounting plate' (cabinet hinges, e.g. Blum CLIP top, brand). Supplier catalogues also list 'locating pin with eccentric head' ⚑ [uncertain: product page not opened].
+
+## Rules of thumb
+
+- Total adjustment is twice the eccentricity: half a turn moves the carried part from one side to the other (geometry). Examples: an OpenBuilds eccentric spacer gives 'a total range of adjustment of approximately 0.79mm' (MakerTechStore, https://www.makertechstore.com/products/eccentric-spacer); THK eccentric cam followers have 0.25-1.0 mm eccentricity (https://www.thk.com/jp/en/products/other_rotary_guides/cam_follower/eccentric/); IKO CFE 0.4-1.5 mm (https://www.ikont.co.jp/eg/product/needle/ndl0603.html); IKO CFES 0.25-0.6 mm (https://www.mrosupply.com/bearings/862859_cfes16_iko-bearing/).
+- V-wheel carriages: turn eccentric nuts in very small steps until the wheels roll smoothly and can easily be pushed both ways but the carriage never wobbles; too tight and the wheels grind and damage themselves and the rail (3D Print Beast, https://www.3dprintbeast.com/eccentric-nuts-ender-3-v2-pro/). Over-tight V-wheels develop flat spots (FlixMySwitch video title, https://www.youtube.com/watch?v=I6NI7lGAv44).
+- Tandem front chain set with an eccentric: about 1/2 inch (12 mm) of up-and-down play halfway between the axles, checked all the way round the crank rotation (Park Tool, https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end); for a synchronising chain, set it taut at the tightest point of the crank rotation (Sheldon Brown, https://www.sheldonbrown.com/synchain.html).
+- Choose the clamp to suit the frame: pinch-bolt eccentrics are easiest to adjust but are 'normally only used on steel frames because of the risk of breaking off the ears'; set screws are simple but dent the eccentric; wedge types must be kept greased or they corrode in place (Sheldon Brown, https://www.sheldonbrown.com/synchain.html).
+- Cabinet hinge mounting plates with a cam give about +/-2 mm of height adjustment (Blum catalogue 2022/2023, https://publications.blum.com/2022/catalogue/en/144/).
+- Car camber bolts with eccentric or offset washers can change camber by up to about two degrees (Wikipedia 'Camber angle', https://en.wikipedia.org/wiki/Camber_angle).
+- Setting gear backlash by turning an eccentric hub to change the centre distance shifts the tooth contact zone, can lower load capacity and efficiency, and causes start-up wear (Wikipedia 'Duplex worm', https://en.wikipedia.org/wiki/Duplex_worm).
+
+## Common failures
+
+(1) It slips and loses tension because the clamp was not tight enough or the load keeps trying to turn it; tighten to the proper torque and hold the eccentric while tightening. (2) It is seized by corrosion and will not turn; grease it at assembly (Sheldon Brown), and free a stuck one with gentle taps rather than by forcing the spanner, as bicycle owners report (Montague Bikes blog comments). (3) Set screws dent the eccentric, making fine re-adjustment difficult (Park Tool; Sheldon Brown). (4) Over-tightened V-wheels grind or develop flat spots; back it off until the carriage just runs without wobble. (5) Confusion because a full turn returns to the start: work in small steps and watch the effect, and use the thin-side mark. (6) An eccentric bottom bracket creaks ⚑ [uncertain: seen only in search results]. (7) A printed eccentric breaks at its thin neck when turned under load (Printables 79881). (8) Adjusting the eccentric also changes another dimension (pedal height, wheel toe) because it moves on an arc; check both after adjusting.
+
+## Safety
+
+Eccentrics set things that matter for safety, such as a car's wheel alignment, a motorcycle's chain tension or a bicycle's chain: re-tighten the clamp or pinch bolts to the maker's torque after adjusting, and check that the setting has not moved. When tightening the lock nut, hold the eccentric with a second tool so it does not turn and change the setting (VW Vortex forum, on an eccentric-mounted timing belt tensioner). A slack chain can come off ⚑ [uncertain]. Pinch-bolt eccentric shells on non-steel frames risk breaking the bolt ears (Sheldon Brown).
+
+## Related
+
+- Belt tensioner (spring-loaded idler): keeps tension automatically as the belt stretches, instead of a set-and-lock adjustment
+- Eccentric cam lever (cam clamp, quick-release skewer): also uses an off-centre shape, but to clamp quickly with a lever rather than to set a position
+- Cam and follower: an off-centre or shaped disc that moves a follower continuously as it turns (the same geometry used for motion)
+- Slotted adjustment with a jacking screw: slides the part along slots, often pushed by a separate screw, for a straight, longer adjustment range; less compact
+- Lead screw and nut (incl. anti-backlash nut): fine straight-line adjustment with a screw
+- Dovetail slide with gib strip: takes up play in a slide with an adjustable strip instead of an eccentric
+- Kinematic coupling: locates parts exactly without any adjustment
+- Turnbuckle: sets tension in a rod, wire or cable by screwing
+- Locking adjustment screws: opposing screws, or a screw and a spring, that set a tilt or height and lock it, rather than shifting a part sideways with an off-centre bush
+
+## Make it yourself
+
+- [Hole Tolerance Gauge For Designing 3D Prints With Openbuilds Screws and Eccentric Nuts M5, M7 (Printables 466199; URL from Printables API, page not opened)](https://www.printables.com/model/466199-hole-tolerance-gauge-for-designing-3d-prints-with-): Test print with 5 mm and 7 mm holes in 0.0-0.2 mm steps, to find the right printed hole size for M5 bolts and OpenBuilds eccentric nuts *(licence: CC BY (Creative Commons Attribution))*
+- [Long eccentric spacer for Tronxy X5S (Printables 79881; URL from Printables API, page not opened)](https://www.printables.com/model/79881-long-eccentric-spacer-for-tronxy-x5s): Printed long eccentric spacer for V-slot wheels, with notes on its weak neck and on drilling 7.1 mm holes to fit metal eccentric spacers *(licence: CC BY (Creative Commons Attribution))*
+- [Vertical X Carriage (w/ eccentric nut) v2.0 (Printables 236807; URL from Printables API, page not opened)](https://www.printables.com/model/236807-vertical-x-carriage-w-eccentric-nut-v20): Printed 3-wheel carriage for 2040 extrusion that uses one eccentric nut for fine adjustment; printed in PETG after a PLA prototype wore *(licence: CC BY (Creative Commons Attribution))*
+- [Long Eccentric spacer / nut wrench! (Printables 890104; URL from Printables API, page not opened)](https://www.printables.com/model/890104-long-eccentric-spacer-nut-wrench): Printable long wrench for turning eccentric nuts in hard-to-reach places *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+
+## Pictures, videos and models
+
+- [Eccentric bottom bracket.jpg (Wikimedia Commons, by AndrewDressel, 2007)](https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg): Photo of an eccentric bottom bracket: the off-centre bearing plug inside an oversized bicycle frame shell *(licence: GFDL or CC BY-SA 3.0 (reuse with credit))*
+- [Eccentric animation.gif (Wikimedia Commons, by ThreeE, 2008)](https://commons.wikimedia.org/wiki/File:Eccentric_animation.gif): Animation of a disc turning about an off-centre axle; shows how an off-centre hole makes the centre travel in a circle (here used for motion rather than adjustment) *(licence: GFDL or CC BY-SA 3.0 (reuse with credit))*
+- [How to adjust Eccentric nuts 3dprinter correct adjustment no more flat wheels (FlixMySwitch, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=I6NI7lGAv44): Video of adjusting the eccentric nuts on a 3D printer's V-wheels *(licence: link only)*
+- [Chain Tension for Tandem Front End (Park Tool)](https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end): Illustrated steps for rotating a tandem's front eccentric with a pin spanner to set chain tension, and the wedge-bolt locking system *(licence: link only)*
+- [Cam Follower Eccentric Models CFH-AB (THK)](https://www.thk.com/jp/en/products/other_rotary_guides/cam_follower/eccentric/): Catalogue drawings of eccentric-stud cam followers whose position is set by turning the stud *(licence: link only (manufacturer page))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `motion_in` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
+- ⚑ Finder value `motion_out` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
+- ⚑ Finder value `shaft_layout` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
+
+## Sources
+
+- <https://www.makertechstore.com/products/eccentric-spacer>
+- <https://www.thk.com/jp/en/products/other_rotary_guides/cam_follower/eccentric/>
+- <https://www.ikont.co.jp/eg/product/needle/ndl0603.html>
+- <https://www.nodeshk.com/iko/catalogue/eccentric-cam.html>
+- <https://www.mrosupply.com/bearings/862859_cfes16_iko-bearing/>
+- <https://www.3dprintbeast.com/eccentric-nuts-ender-3-v2-pro/>
+- <https://www.parktool.com/en-int/blog/repair-help/chain-tension-for-tandem-front-end>
+- <https://www.sheldonbrown.com/synchain.html>
+- <https://www.sheldonbrown.com/gloss_e-f.html>
+- <https://www.montaguebikes.com/folding-bikes-blog/2016/03/adjusting-belt-tension-with-eccentric-bb/>
+- <https://www.canyonchasers.net/2018/09/single-sided-swingarm-chain-adjustment-tool/>
+- <https://en.wikipedia.org/wiki/Bottom_bracket>
+- <https://en.wikipedia.org/wiki/Eccentric_(mechanism)>
+- <https://en.wikipedia.org/wiki/Tensioner>
+- <https://en.wikipedia.org/wiki/Camber_angle>
+- <https://en.wikipedia.org/wiki/Duplex_worm>
+- <https://publications.blum.com/2022/catalogue/en/144/>
+- <https://www.hardwaresource.com/products/blum-in-line-mounting-plate-cam-adjustable>
+- <https://www.vwvortex.com/threads/diy-install-updated-mechanical-timing-belt-tensioner.8497345/>
+- <https://www.designwithajay.com/the-mechanics-of-eccentric-bushes/>
+- <https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg>
+- <https://commons.wikimedia.org/wiki/File:Eccentric_animation.gif>
+- <https://api.printables.com/graphql/>
+- <https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)>

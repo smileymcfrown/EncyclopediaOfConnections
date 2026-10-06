@@ -1,0 +1,302 @@
+---
+title: Dovetail joint
+description: A wooden corner joint whose flared tails and matching wedge-shaped pins interlock so the joint can only slide
+  together one way, which lets it resist being pulled apart in the other direction; through dovetails show on both faces,
+  half-blind ones are hidden from the front.
+num: 245
+term: Dovetail joint (through dovetail and half-blind dovetail)
+plain_name: A corner joint where fan-shaped 'tails' on one board lock between wedge-shaped 'pins' on the other, so the boards
+  can't be pulled apart in one direction even without glue; the classic joint at the front corners of a good wooden drawer
+aliases:
+- dovetail; swallowtail, culvertail or fantail joint (European names; Wikipedia)
+- 'through dovetail, also called plain dovetail: end grain of both boards shows (Wikipedia)'
+- 'half-blind dovetail, also called lapped dovetail: the tails are hidden from the front by a thin lap (Wikipedia lists ''lapped''
+  dovetails; Fine Woodworking)'
+- English dovetail (a dovetail used in drawer construction; Wikipedia)
+- machine dovetails, router-cut or jig dovetails (WWGOA; German 'Maschinenzinken', Commons)
+- Schwalbenschwanzverbindung, Zinken, offene Zinken (German for dovetail, dovetailing and through dovetails; Commons file
+  descriptions)
+- 'parts: tails, pins, half pins, sockets, lap, tail board, pin board (WWGOA; Fine Woodworking)'
+- 'related variants with their own names: secret mitred (full-blind) dovetail, secret double-lapped dovetail, and the sliding
+  dovetail (''French dovetail'' when stopped in drawer work) (Wikipedia; sliding dovetail has its own entry)'
+- 'router jig and bit names a beginner may meet: Leigh jig (brand), Woodhaven jig (brand), 7° and 14° dovetail bits (Fine
+  Woodworking; WWGOA; Popular Woodworking)'
+family: interlocking joints & joinery
+other_families: []
+finder:
+  job: [join and hold]
+  motion: none
+  special_behaviour: []
+  holding_principle: [shape, material bond]
+  reuse_cycles: once
+  seal: dust-resistant
+  access_needed: both sides
+  print_in_place: 'no'
+  maker_difficulty: hard
+  processes: [CNC, 3D print (FDM), laser cut, 3D print (resin), woodwork]
+  connects: [boards or sheet]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [none, press or vice, power tools, hand tools]
+  load_max: heavy
+  usual_process: woodwork
+  adjustable: 'no'
+  removability: permanent
+  power: passive
+needs_confirming:
+  tools:
+    kind: source uncertain
+    reason: '`tools_needed` is marked [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups
+      [uncertain]. Glue and clamps.…"'
+confirmed: []
+open_points: []
+uncertain_fields: [reuse_cycles, tools_needed, seal, processes, making_tips_3d_printing, everyday_examples, when_not_to_use,
+  environment_limits, safety_notes, common_failures, make_it_yourself]
+diagram_idea: An exploded view of a drawer corner showing the side's flared tails and the front's wedge-shaped pins, with
+  a green arrow for the one direction the joint slides together, a red crossed-out arrow for the pull direction it resists,
+  and a small side-by-side of through versus half-blind showing the lap that hides the tails.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg
+  title: Joinery-throughdovetail.svg (Wikimedia Commons, by SilentC; SVG by Duncan Tate)
+  shows: Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia 'Dovetail
+    joint' article
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Joinery-halfblinddovetail.gif
+  title: Joinery-halfblinddovetail.gif (Wikimedia Commons, by SilentC)
+  shows: Exploded 3D drawing of a half-blind dovetail, showing how the sockets stop short of the front face to hide the tails
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail_cnc.svg
+  title: Joinery-throughdovetail cnc.svg (Wikimedia Commons, derived from SilentC and Duncan Tate by Westbahnhof)
+  shows: Drawing of a machine-made ('shaping machine') dovetail with rounded socket ends as left by a round cutter, for comparison
+    with the hand-cut shape
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:EB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg
+  title: EB1911 Joinery - Fig. 3. Dovetails (Wikimedia Commons, from the 1911 Encyclopaedia Britannica)
+  shows: Historic line drawing of dovetail joints from the 'Joinery' article of the 1911 Encyclopaedia Britannica
+  license: Public domain
+- url: https://www.youtube.com/watch?v=tZfZ9qNKkks
+  title: How to Layout Dovetails with Equal Pins (YouTube, Paul Sellers)
+  shows: Video demonstration of laying out a set of dovetails with equal-sized pins by hand
+  license: link only (standard YouTube licence)
+make_it_yourself:
+- url: https://www.printables.com/model/945051-18-16-and-dual-dovetail-markers
+  title: 1:8, 1:6 and Dual Dovetail Markers (Handy Handcrafts, Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable layout markers for 1:6 and 1:8 dovetails, plus a dual marker; STEP files included; print text-side
+    down in PLA. Read through the Printables public API.
+  license: 'CC0 / public domain (Printables: Creative Commons Public Domain)'
+- url: https://www.printables.com/model/247243-parametric-dovetail-markers
+  title: Parametric Dovetail Markers (scruss, Printables) (URL from Printables API, page not opened)
+  what_it_is: A full set of 25 × 50 mm dovetail markers from an OpenSCAD model, made for a hand-tool woodshop; print label
+    side down. Read through the Printables public API.
+  license: CC BY-SA
+- url: https://www.printables.com/model/406934-dovetail-joint-rybinovy-spoj
+  title: dovetail joint - rybinový spoj (STSUL.CZ, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printable school teaching model of a carpentry dovetail joint that stands on its own when assembled; print
+    in two colours. Read through the Printables public API; exact dovetail type not confirmed [uncertain].
+  license: CC BY
+- url: https://www.printables.com/model/984253-test-piece-for-dovetail-joint
+  title: Test piece for dovetail joint (MrSpaceman, Printables) (URL from Printables API, page not opened)
+  what_it_is: A small FreeCAD test piece for finding how much gap a printed dovetail needs on your printer. Read through the
+    Printables public API.
+  license: CC BY-SA
+- url: https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad
+  title: 'BOSL2 joiners.scad: dovetail() (OpenSCAD library)'
+  what_it_is: Parametric male and female dovetails with adjustable width, height, slope (default 1:6), taper, chamfer or rounding,
+    and a $slop clearance for printing
+  license: BSD 2-Clause
+- url: https://hackaday.io/project/170065-laser-cut-dovetail-enclosures
+  title: Laser-cut Dovetail Enclosures (Mark Wilson, Hackaday.io, 2020)
+  what_it_is: 'A method with photos for making real corner dovetails on a laser cutter: V-shaped tail openings plus notched
+    pin tabs with etched guide lines that are finished with a chisel'
+  license: link only
+sources:
+- https://en.wikipedia.org/wiki/Dovetail_joint
+- https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg
+- https://commons.wikimedia.org/wiki/File:Joinery-halfblinddovetail.gif
+- https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail_cnc.svg
+- https://commons.wikimedia.org/wiki/File:EB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg
+- https://commons.wikimedia.org/wiki/File:My_first_handcut_dovetails!.jpg
+- https://commons.wikimedia.org/wiki/File:Maschinenzinken1.jpg
+- https://commons.wikimedia.org/wiki/File:Offenezinken1.jpg
+- https://woodgears.ca/dovetail/dovetail_vs_boxjoint.html
+- https://woodgears.ca/dovetail/strength.html
+- https://www.finewoodworking.com/project-guides/joinery/half-blind-dovetails-cut-by-hand
+- https://www.woodcraft.com/blogs/cabinetry-furniture-making/making-hand-cut-half-blind-dovetails
+- https://www.woodcraft.com/blogs/magazine/expert-answers-proper-angles-for-dovetails
+- https://www.popularwoodworking.com/article/my-take-on-dovetail-angles/
+- https://www.wwgoa.com/post/routed-half-blind-dovetail-drawers-part-1
+- https://hackaday.io/project/170065-laser-cut-dovetail-enclosures
+- https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad
+- https://raw.githubusercontent.com/florianfesti/boxes/master/boxes/edges.py
+- https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://craftgineer.com/blog/laser-cut-finger-joint-boxes
+- https://www.rockler.com/learn/understanding-wood-glue
+- https://www.woodcraft.com/blogs/sanding-finishing/complete-guide-to-woodworking-glues
+- https://www.osha.gov/etools/machine-guarding/saws/table
+- https://www.youtube.com/watch?v=tZfZ9qNKkks
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Dovetail_joint_through_and_halfblind.json
+---
+
+A wooden corner joint whose flared tails and matching wedge-shaped pins interlock so the joint can only slide together one way, which lets it resist being pulled apart in the other direction; through dovetails show on both faces, half-blind ones are hidden from the front.
+
+**In plain words:** A corner joint where fan-shaped 'tails' on one board lock between wedge-shaped 'pins' on the other, so the boards can't be pulled apart in one direction even without glue; the classic joint at the front corners of a good wooden drawer. **Proper term:** Dovetail joint (through dovetail and half-blind dovetail).
+
+**Also called:** dovetail; swallowtail, culvertail or fantail joint (European names; Wikipedia); through dovetail, also called plain dovetail: end grain of both boards shows (Wikipedia); half-blind dovetail, also called lapped dovetail: the tails are hidden from the front by a thin lap (Wikipedia lists 'lapped' dovetails; Fine Woodworking); English dovetail (a dovetail used in drawer construction; Wikipedia); machine dovetails, router-cut or jig dovetails (WWGOA; German 'Maschinenzinken', Commons); Schwalbenschwanzverbindung, Zinken, offene Zinken (German for dovetail, dovetailing and through dovetails; Commons file descriptions); parts: tails, pins, half pins, sockets, lap, tail board, pin board (WWGOA; Fine Woodworking); related variants with their own names: secret mitred (full-blind) dovetail, secret double-lapped dovetail, and the sliding dovetail ('French dovetail' when stopped in drawer work) (Wikipedia; sliding dovetail has its own entry); router jig and bit names a beginner may meet: Leigh jig (brand), Woodhaven jig (brand), 7° and 14° dovetail bits (Fine Woodworking; WWGOA; Popular Woodworking).
+
+## How it works
+
+The tails are wider at their ends than at their roots, like a dove's spread tail, and the pins between them are cut to the matching wedge shape, so once assembled the tails can't be pulled out along the tail board's length: the wedge shapes jam against each other (Wikipedia). The joint goes together, and can come apart, only by sliding the tail board one way, at right angles to its face; in a drawer that is sideways, not the direction you pull, so the joint 'will not allow the drawer front to be pulled away from the sides' (WWGOA). In a through dovetail the ends of both boards show on the outside; in a half-blind dovetail the sockets stop short of the front face, leaving a thin lap that hides the tails, and the joint can only go together from inside the drawer (Wikipedia; Fine Woodworking). Glue on the long-grain faces carries much of the load, and the shape keeps the joint together even without it: 'once glued, a wooden dovetail joint requires no mechanical fasteners' (Wikipedia), and a well-fitted one 'locks together even without glue' (woodgears.ca).
+
+## Parts
+
+A few parts: two boards, a tail board (e.g. a drawer side) with flared tails cut in its end, and a pin board (e.g. a drawer front) with pins and the sockets between them, usually with a half pin at each edge; plus glue. In a half-blind dovetail the pin board keeps a thin 'lap' of wood over the ends of the tails (WWGOA; Fine Woodworking).
+
+## Everyday examples
+
+- The front corners of good-quality wooden drawers, where half-blind dovetails join the sides to the front (Wikipedia; WWGOA)
+- Wooden tool chests, blanket chests and jewellery boxes with through dovetails showing at the corners (Wikipedia; Commons 'My first handcut dovetails!.jpg')
+- Log houses and barns with dovetail-notched log corners (Wikipedia 'Dovetail joint' mentions log buildings; Commons category 'Dovetail joints' has many photos), and dovetailed cast-iron parts of the Iron Bridge in Shropshire (Commons files 'Ironbridge2.jpg' and 'Details of the Iron Bridge' in that category) ⚑ [uncertain]
+- Its sliding cousin on gun-sight rails, machine-tool slides and 3D-printed parts that are split to fit the printer (Wikipedia)
+
+## When to use it
+
+Use a dovetail when a corner will be pulled hard in one direction, as a drawer front is every time the drawer is opened, and you want the joint to hold by its shape as well as by glue (Wikipedia; WWGOA). Choose a half-blind dovetail when the front must look plain, as on a drawer front, and a through dovetail for boxes, chests and carcasses where showing the joint is part of the look; dovetails 'have become a signature of craftsmanship and are generally considered a feature' (Wikipedia). With a router jig it is quick enough for batches of drawers (WWGOA). It is also a good hand-tool skill project, and a printed dovetail marker helps with layout.
+
+## When not to use it
+
+Skip it when strength is the only goal: with modern wood glues a box joint is as strong or stronger and much quicker to cut, and 'the main reason to use dovetail joints nowadays is for their looks' (woodgears.ca). Nailed or screwed rabbet joints are enough for many shop drawers (woodgears.ca). Avoid corner dovetails on a laser cutter or 3-axis CNC unless you are ready for extra hand work, because the pins need angled faces (Hackaday.io); use a finger joint, tab-and-slot or T-slot joint instead. If the parts must come apart again, use knock-down fittings, a T-slot bolt joint or a sliding dovetail without glue. For joining a shelf into the middle of a side panel, or for a slide that must move, use a sliding dovetail. For a fully hidden corner, use a secret mitred dovetail or a mitre with splines ⚑ [uncertain].
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: a strong, permanent corner for boxes, drawers, chests and cabinet carcasses, which resists being pulled apart in the direction the drawer front or box side is loaded
+- **Movement:** none: a fixed corner
+- **Directions it can move (degrees of freedom):** 0 once glued. A dry joint has 1: it can only slide apart at right angles to the tail board's face, the way it was assembled; a half-blind joint can only move towards the inside of the box.
+- **Special behaviour:**
+  - none of the listed behaviours: it is a fixed joint. Its clever part is that the shape alone resists pulling in one direction, so it 'locks together even without glue' (woodgears.ca) and is 'difficult to pull ... apart and virtually impossible when glue is added' (Wikipedia)
+- **How it holds:**
+  - shape (the parts interlock; form-fit): the flared tails lock against pulling along the tail board, in one direction only
+  - material bond (glue, solvent or melting): wood glue on the long-grain faces; in woodgears.ca's tests the dovetails 'failed along the glue line' for the most part, or the wood of the pins sheared off
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** medium to heavy: very strong against pulling a drawer front off its sides, the direction the tails lock. But 'the dovetails are useful only for pulling from one piece, but not the other', and in woodgears.ca's tests glued box joints of the same width were as strong or stronger; the weak spot is the narrow root of each tail ('the tails have an inherent weak spot at their narrow base'), or the pins shearing off (woodgears.ca). In corner-bending tests on boards 10 cm wide and 2.7 cm thick, loaded 8 cm from the corner, dovetails averaged 162 lb on the scale (about 490 lb, or 220 kg, at the joint, since the rig multiplied the reading by three), about two-thirds of the best box joints (woodgears.ca).
+- **Play and precision:** None when well cut and glued. By hand, the fit is made 'one tail at a time', looking for 'the shiny spots that indicate where a joint is rubbing' and paring them (Woodcraft, Rogowski). With a router jig, a loose joint means raise the bit and a tight joint means lower it, adjusted with test cuts (WWGOA). The joint sets the corner square; it tolerates no misalignment.
+- **Taking it apart:** permanent: when glued, the usual case. A dry-fitted dovetail can be tapped apart during fitting, and an unglued one still holds together by shape, so it counts as semi-permanent while dry.
+- **How often it can be reused:** once when glued; a few times while dry-fitting, though every fit crushes the wood fibres a little and loosens a hand-fitted joint ⚑ [uncertain]
+- **Sealing:** dust-resistant: a tight, glued corner keeps dust out, but nothing in the joint makes it watertight ⚑ [uncertain]
+- **Adjustable:** no: once cut and glued it cannot be adjusted. While fitting, hand-cut joints are pared until they fit, and router-cut ones are tuned by changing the bit depth (WWGOA).
+- **Access needed:** both sides: both boards must be reachable to tap the joint together and clamp it; a half-blind dovetail can only be assembled from the inside of the box
+- **Materials:** Mainly wood, both softwood and hardwood; drawer sides are often made from closed-grain woods such as white birch, which tear out less when routed (WWGOA). Traditional slopes are 1:6 for softwoods and 1:8 for hardwoods (Wikipedia). Dovetail shapes are also used in metal (machine-tool slides, jet-engine turbine blade roots), masonry (lighthouses) and 3D printing (Wikipedia), though these are mostly sliding dovetails. Laser-cut dovetails have been made in 6 mm bamboo laminate with chisel finishing (Hackaday.io). 3D-printed dovetails work in PLA, PETG or ABS (BOSL2; Hubs prefers ABS over PLA for interlocking joints).
+- **Heat, cold, water and wear:** A dovetail's shape keeps holding even if the glue weakens, but the glue still decides long-term strength outdoors: standard PVA 'will not stand up well to moisture', 'Titebond III' (brand) is waterproof, and epoxy and polyurethane glues are waterproof (Rockler). White PVA glue creeps most under long-term load (Woodcraft glue guide). Wood shrinks and swells with humidity; in a box corner the grain of both boards usually runs the same way round the box, so they move together ⚑ [uncertain]. Softwood fibres crush more easily, which is one reason softer woods were given steeper tails (Wikipedia; Woodcraft) ⚑ [uncertain]. 3D-printed PLA dovetails soften in heat; use PETG, ASA or PC for hot or outdoor parts (Prusa).
+
+## Making it
+
+- **Ways to make or get it:**
+  - woodwork: hand-cut with saw and chisel, or machine-cut with a router and dovetail jig, or on a bandsaw (Fine Woodworking; WWGOA; woodgears.ca)
+  - CNC: 'dovetail joint made by a shaping machine', with rounded socket ends left by the round cutter (Commons 'Joinery-throughdovetail cnc.svg') ⚑ [uncertain for hobby CNC routers]
+  - laser cut: only with extra chisel work after cutting (Hackaday.io 'Laser-cut Dovetail Enclosures'), or as flat dovetails that join sheets edge to edge in the same plane (Boxes.py dovetail edge)
+  - 3D print (FDM): printed as separate parts; parametric dovetails in BOSL2 and printable teaching models (Printables)
+  - 3D print (resin): possible for small parts with tighter clearances (Hubs: 0.2 mm for SLA) ⚑ [uncertain]
+- **Printing it in one piece (print in place):** no: the tail and pin parts are printed separately and slid or tapped together
+- **Tools:** By hand: a dovetail saw, bench chisels, a mallet, a marking gauge, a marking knife, a square, and a sliding bevel or dovetail marker set to the chosen slope (Woodcraft, excerpt from Gary Rogowski; Fine Woodworking). By machine: a router with a dovetail bit and a dovetail jig, some with a bearing-guided bit or a template guide bushing (WWGOA; woodgears.ca), or a bandsaw with jigs (woodgears.ca); a CNC router needs special setups ⚑ [uncertain]. Glue and clamps.
+- **Difficulty:** hard by hand: 'a difficult joint to make manually, requiring skilled workmanship' (Wikipedia); moderate with a router jig, which is 'fairly easy if you know the tricks' (WWGOA); hard on a laser cutter or 3-axis CNC because the pins need faces angled out of the sheet's plane (Hackaday.io)
+
+### 3D printing tips
+
+1) For a printed box, a one-piece print or a sliding dovetail is usually more practical; corner dovetails are mainly printed as teaching models, puzzle boxes ('impossible dovetail' boxes on Printables) or to join panels too big for the bed ⚑ [uncertain]. 2) Print each part flat so the tails and pins lie in the plane of the layers: 'like wood, FFF prints are stronger in one direction than another' (Prusa), and the narrow root of a tail is the weak spot even in wood (woodgears.ca), so a tail printed standing up could snap along a layer line there ⚑ [uncertain]. 3) Clearance: Hubs gives 0.5 mm for FDM interlocking joints (0.2 mm for SLA and SLS); Prusa printers are accurate to at least 0.2 mm; in BOSL2's dovetail() the $slop setting widens and deepens the socket to leave a gap on 'each of the three sides'. 4) Slope: BOSL2 defaults to 1:6 and notes 'standard woodworking slopes are 4, 6, or 8'; steeper tails lock better but have thinner roots. 5) Chamfer or round the edges so parts slide together, and use elephant's foot compensation so the first layer doesn't widen the tails (Prusa; Hubs). 6) Print a small test piece first to find the clearance for your printer (e.g. 'Test piece for dovetail joint' on Printables). 7) Hubs prefers ABS over PLA for interlocking joints because it is more ductile; PETG is a common tough alternative ⚑ [uncertain]. 8) If gluing, remember glue needs a thin, even gap; a joint printed very tight may scrape glue off as it goes together (general joinery advice from Craftgineer for laser-cut joints) ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Dovetail router bits in several angles, such as 7°, 9° and 14°; jigs typically 'suggest ... we use a 14º-dovetail router bit to make the tails and a straight bit to cut the pins' (Popular Woodworking), and some jigs come with a bearing-guided bit so no template bushing is needed (WWGOA); router template guide bushings (woodgears.ca); dovetail jigs for half-blind and through dovetails, e.g. Leigh (brand) and Woodhaven (brand) (Fine Woodworking; WWGOA); dovetail saws, chisels and dovetail markers or gauges for 1:6 and 1:8 slopes (printable versions on Printables); wood glue.
+
+## Rules of thumb
+
+- Slope: typically 1:6 for softwoods and 1:8 for hardwoods, with 1:7 as a compromise, but 'a different slope does not affect the strength of the joint in different types of wood' (Wikipedia). 1:6 is about 9.5° and 1:8 about 7.1° (arctangent of 1/6 and 1/8). Forest Products Laboratory tests on angles from 7.5° to 17.5° 'showed no difference in joint strength', and antique furniture ranges from 7° to 14° (1:4), so choose by eye (Woodcraft, Chris Hedges).
+- Router jigs 'suggest ... a 14° dovetail router bit' for the tails and a straight bit for the pins; one experienced maker uses 12° for everything and has seen no failures (Popular Woodworking, Glen D. Huey, 2008).
+- Half-blind lap: for a 3/4 in (19 mm) drawer front, make the tails about 5/8 in (16 mm) long, leaving a 1/8 in (3 mm) lap; thicker looks clunky and thinner risks chiselling through; keep the same 5-to-1 ratio for other thicknesses (Christian Becksvoort, Fine Woodworking #250, 2015).
+- Alternative hand-cut layout: gauge the lap at about three-quarters of the drawer front's thickness, set the slope between 1:5 and 1:8, and make tails two to three times the size of the pins, keeping pins wide enough to chop out easily (Gary Rogowski, 'The Complete Illustrated Guide to Joinery', 2002, excerpted by Woodcraft).
+- Cut the tails first and use them as a template to mark the pins (Fine Woodworking, Becksvoort; Woodcraft, Rogowski).
+- Set the baseline on the pin board so the pins come out very slightly longer than the side is thick, then plane or sand them flush after assembly (Becksvoort, Fine Woodworking); Rogowski gauges 'just less than the thickness of the drawer side' on the inside face of the front, so check which result you want.
+- Router jig half-blinds are cut in one pass with both boards clamped in the jig; loose joint, raise the bit; tight joint, lower the bit. Make drawer heights a multiple of the jig's tail spacing (7/8 in on centre for the author's jig) so there is a half pin at the top and bottom (WWGOA, Bruce Kieffer, 2010).
+- Strength: a box joint with the same contact area would probably lose to a dovetail, but box joints are easier to make with more fingers going right through, and in two sets of tests glued box joints matched or beat dovetails; the dovetail's weak spot is the narrow base of each tail (woodgears.ca).
+- 3D printing: BOSL2 dovetail() defaults to slope 6 (1:6); its $slop value increases the socket width by twice $slop and its depth by $slop (BOSL2 joiners.scad). Hubs gives 0.5 mm clearance for FDM interlocking joints.
+- Laser cutting: the tails can be cut as V-shaped openings, but 'the pins require surfaces angled outside the plane of the laser'; cut the pins as rectangular tabs as wide as the widest part of the tail opening, notched at the base to the narrowest width, with etched guide lines, then split off the waste triangles with a chisel; this works best in thick material with a grain, such as 6 mm bamboo (Hackaday.io, Mark Wilson, 2020).
+
+## Common failures
+
+1) Gaps at the baseline or between tails and pins from sawing off the line or chopping past the gauge line; saw on the waste side, and for half-blinds don't make the lap thinner than about 1/8 in on a 3/4 in front or you may chisel through (Fine Woodworking). 2) Split boards from forcing a tight joint together; fit one tail at a time and pare the shiny rubbing spots (Woodcraft, Rogowski). 3) Weak, narrow tails or thin pins that shear off under load (woodgears.ca). 4) Router-jig joints too loose or too tight until the bit depth is tuned with test cuts; tear-out in open-grained woods (WWGOA). 5) Drawer parts sized so there is no half pin at the top or bottom, which looks wrong and leaves a weak partial tail (WWGOA). 6) Printed tails snapping at their narrow roots, or printed joints that won't close because of elephant's foot (Prusa) ⚑ [uncertain]. 7) Assembling a half-blind drawer from the wrong side, or gluing it up out of square ⚑ [uncertain].
+
+## Safety
+
+Sharp chisels and saws cause most hand-tool injuries; keep both hands behind the cutting edge and clamp the work ⚑ [uncertain]. Router jigs: the dovetail bit can't be lifted out of the cut mid-pass without damaging the work, so keep the router base flat on the jig and switch off before lifting ⚑ [uncertain]. Table-saw or bandsaw methods need normal guarding and push sticks (OSHA table saw eTool). Wood dust irritates the lungs; use extraction ⚑ [uncertain].
+
+## Related
+
+- Finger joint (box joint): straight fingers instead of flared ones; as strong or stronger when glued and much easier to cut, but it doesn't lock by shape (woodgears.ca)
+- Sliding dovetail: a flared tongue that slides along a matching groove, for shelves, drawer bottoms and slides; it locks against pull-out but still slides lengthwise
+- Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): printed dovetails used to join sections of a model that is too big for the printer
+- Butterfly key (bow-tie key): a separate double-dovetail insert that locks two boards across a joint or crack
+- Mortise and tenon: the main alternative for frames (legs and rails) rather than box corners
+- Japanese interlocking joints (splices and three-way corners): other joints that lock by shape alone, often with wedges or pegs
+- Tab-and-slot joint and T-slot joint: flat-sheet alternatives that a laser cutter can make directly
+- Knock-down cam-lock and cross-dowel connectors: for furniture that must come apart
+
+## Make it yourself
+
+- [1:8, 1:6 and Dual Dovetail Markers (Handy Handcrafts, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/945051-18-16-and-dual-dovetail-markers): Printable layout markers for 1:6 and 1:8 dovetails, plus a dual marker; STEP files included; print text-side down in PLA. Read through the Printables public API. *(licence: CC0 / public domain (Printables: Creative Commons Public Domain))*
+- [Parametric Dovetail Markers (scruss, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/247243-parametric-dovetail-markers): A full set of 25 × 50 mm dovetail markers from an OpenSCAD model, made for a hand-tool woodshop; print label side down. Read through the Printables public API. *(licence: CC BY-SA)*
+- [dovetail joint - rybinový spoj (STSUL.CZ, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/406934-dovetail-joint-rybinovy-spoj): A printable school teaching model of a carpentry dovetail joint that stands on its own when assembled; print in two colours. Read through the Printables public API; exact dovetail type not confirmed ⚑ [uncertain]. *(licence: CC BY)*
+- [Test piece for dovetail joint (MrSpaceman, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/984253-test-piece-for-dovetail-joint): A small FreeCAD test piece for finding how much gap a printed dovetail needs on your printer. Read through the Printables public API. *(licence: CC BY-SA)*
+- [BOSL2 joiners.scad: dovetail() (OpenSCAD library)](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad): Parametric male and female dovetails with adjustable width, height, slope (default 1:6), taper, chamfer or rounding, and a $slop clearance for printing *(licence: BSD 2-Clause)*
+- [Laser-cut Dovetail Enclosures (Mark Wilson, Hackaday.io, 2020)](https://hackaday.io/project/170065-laser-cut-dovetail-enclosures): A method with photos for making real corner dovetails on a laser cutter: V-shaped tail openings plus notched pin tabs with etched guide lines that are finished with a chisel *(licence: link only)*
+
+## Pictures, videos and models
+
+- [Joinery-throughdovetail.svg (Wikimedia Commons, by SilentC; SVG by Duncan Tate)](https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg): Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia 'Dovetail joint' article *(licence: CC BY-SA 3.0)*
+- [Joinery-halfblinddovetail.gif (Wikimedia Commons, by SilentC)](https://commons.wikimedia.org/wiki/File:Joinery-halfblinddovetail.gif): Exploded 3D drawing of a half-blind dovetail, showing how the sockets stop short of the front face to hide the tails *(licence: CC BY-SA 3.0)*
+- [Joinery-throughdovetail cnc.svg (Wikimedia Commons, derived from SilentC and Duncan Tate by Westbahnhof)](https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail_cnc.svg): Drawing of a machine-made ('shaping machine') dovetail with rounded socket ends as left by a round cutter, for comparison with the hand-cut shape *(licence: CC BY-SA 3.0)*
+- [EB1911 Joinery - Fig. 3. Dovetails (Wikimedia Commons, from the 1911 Encyclopaedia Britannica)](https://commons.wikimedia.org/wiki/File:EB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg): Historic line drawing of dovetail joints from the 'Joinery' article of the 1911 Encyclopaedia Britannica *(licence: Public domain)*
+- [How to Layout Dovetails with Equal Pins (YouTube, Paul Sellers)](https://www.youtube.com/watch?v=tZfZ9qNKkks): Video demonstration of laying out a set of dovetails with equal-sized pins by hand *(licence: link only (standard YouTube licence))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 19 sentences on this page marked [uncertain].
+- ⚑ Finder value `tools` = none, press or vice, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups ⚑ [uncertain]. Glue and clamps.…"
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Dovetail_joint>
+- <https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg>
+- <https://commons.wikimedia.org/wiki/File:Joinery-halfblinddovetail.gif>
+- <https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail_cnc.svg>
+- <https://commons.wikimedia.org/wiki/File:EB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg>
+- <https://commons.wikimedia.org/wiki/File:My_first_handcut_dovetails!.jpg>
+- <https://commons.wikimedia.org/wiki/File:Maschinenzinken1.jpg>
+- <https://commons.wikimedia.org/wiki/File:Offenezinken1.jpg>
+- <https://woodgears.ca/dovetail/dovetail_vs_boxjoint.html>
+- <https://woodgears.ca/dovetail/strength.html>
+- <https://www.finewoodworking.com/project-guides/joinery/half-blind-dovetails-cut-by-hand>
+- <https://www.woodcraft.com/blogs/cabinetry-furniture-making/making-hand-cut-half-blind-dovetails>
+- <https://www.woodcraft.com/blogs/magazine/expert-answers-proper-angles-for-dovetails>
+- <https://www.popularwoodworking.com/article/my-take-on-dovetail-angles/>
+- <https://www.wwgoa.com/post/routed-half-blind-dovetail-drawers-part-1>
+- <https://hackaday.io/project/170065-laser-cut-dovetail-enclosures>
+- <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/joiners.scad>
+- <https://raw.githubusercontent.com/florianfesti/boxes/master/boxes/edges.py>
+- <https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://craftgineer.com/blog/laser-cut-finger-joint-boxes>
+- <https://www.rockler.com/learn/understanding-wood-glue>
+- <https://www.woodcraft.com/blogs/sanding-finishing/complete-guide-to-woodworking-glues>
+- <https://www.osha.gov/etools/machine-guarding/saws/table>
+- <https://www.youtube.com/watch?v=tZfZ9qNKkks>
+- <https://api.printables.com/graphql/>

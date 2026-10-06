@@ -1,0 +1,299 @@
+---
+title: Drive-in fixing pins
+description: A drive-in fixing pin is a short metal pin driven into a hole that passes through two parts, locking them together
+  so they can't rotate or slide; spring pins (slotted roll pins and coiled pins) grip by springing outwards against the hole,
+  while solid dowel, grooved, knurled and taper pins grip by a tight or wedging fit.
+num: 365
+term: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin; cross-pinning)
+plain_name: A short steel pin hammered into a hole drilled right through two parts, such as a gear and its shaft, so they
+  can't turn or slide apart; it stays put because it is springy and presses on the hole, or because it is a tight fit
+aliases:
+- spring pin, tension pin (Wikipedia 'Spring pin')
+- slotted spring pin, roll pin, sellock pin, 'C' pin (Wikipedia 'Spring pin'); slotted pin (SPIROL)
+- coiled spring pin, spiral pin, coiled pin, coil pin, in light, standard and heavy duty (Wikipedia 'Spring pin'; SPIROL)
+- solid pin, press-fit pin; dowel pin, parallel pin, ground dowel (SPIROL 'How to Select the Proper Pin'); unhardened parallel
+  pins to ISO 2338 and hardened dowel pins to ISO 8734 (globalfastener standards tables)
+- grooved pin, parallel grooved pin with full-length diamond grooves (ISO 8740 abstract, Standard Norge); knurled pin, barbed
+  pin, headed barbed solid pin (SPIROL)
+- taper pin (1:50 metric, 1:48 inch), threaded taper pin, clock pin (Wikipedia 'Taper pin'); taper pins to ISO 2339 (Wikimedia
+  Commons file description); split taper pin (Bharatskills notes)
+- cross pin, cross-pinning, pinned hub, pinned gear, pinned collar (SPIROL 'How to Properly Pin a Shaft and Hub Assembly')
+- pin punch, roll pin punch, starter punch, drift or lineup punch, pin driving chuck (Wikipedia 'Punch (tool)'; SPIROL 'How
+  to Install a Coiled Spring Pin')
+family: everyday fasteners & fixings
+other_families: [locating & alignment, clutches & couplings]
+finder:
+  job: [join and hold, line parts up exactly, let it move]
+  motion: none
+  special_behaviour: [self-aligning or self-centring]
+  holding_principle: [shape, spring force, friction or clamping]
+  reuse_cycles: a few times
+  seal: none
+  access_needed: both sides
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), woodwork]
+  connects: [boards or sheet, shaft]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [steady turning]
+  motion_out: [steady turning]
+  shaft_layout: [in line]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [drill and tap, press or vice, power tools, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Drive-in fixing pins*: pin diameter (SPIROL at most 1/3 of the shaft; Bharatskills about 1/6); punches (Wikipedia:
+    never a standard punch on a roll pin; SPIROL: ball-end punches suit slotted, not coiled pins); printed holes (Creative3DP
+    undersize, Forerunner 3D ''a bit big''); lead-ins (Forerunner chamfers, SPIROL no countersinks). Drift bolts are not covered
+    (the Wood Handbook PDF didn''t load).'
+uncertain_fields: [processes, making_tips_3d_printing, environment_limits, safety_notes]
+diagram_idea: 'A cut-away of a gear hub on a shaft with a pin through both, showing the two shear faces where the hub meets
+  the shaft, plus end-on views of the four pin types side by side: a slotted roll pin (C shape) pressing outwards, a coiled
+  pin (spiral) pressing outwards, a solid grooved dowel, and a taper pin in its tapered hole with arrows ''drive in from the
+  big end, knock out from the small end''.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg
+  title: Spring-type slottet straigt pin labeled num.jpg (Wikimedia Commons, by Silberwolf)
+  shows: A slotted spring pin and a washer securing a shaft, with the parts numbered
+  license: CC BY-SA 2.5
+- url: https://commons.wikimedia.org/wiki/File:Coiled_spring_pin.JPG
+  title: Coiled spring pin.JPG (Wikimedia Commons, by Luish73)
+  shows: A coiled (spiral) spring pin, showing the rolled coils at its end
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Taper_pin_ISO2339_application_en.png
+  title: Taper pin ISO2339 application en.png (Wikimedia Commons, by Silberwolf)
+  shows: Cross-section drawing of a taper pin (ISO 2339) locking a splined shaft into a universal-joint yoke
+  license: CC BY-SA 2.5
+- url: https://commons.wikimedia.org/wiki/File:Roll_Pin_Punches.jpg
+  title: Roll Pin Punches.jpg (Wikimedia Commons, by KurtK3)
+  shows: A set of roll pin punches, with the centre pilot on each tip
+  license: CC BY-SA 3.0 / GFDL 1.2+
+- url: https://uk.spirol.com/assets/files/cldp-wp-how-to-properly-pin-a-shaft-and-hub-assembly-us.pdf
+  title: How to Properly Pin a Shaft and Hub Assembly (SPIROL white paper)
+  shows: Drawings of a coiled pin through a gear hub and shaft with the 1/3-shaft-diameter and 1.5 x pin-diameter wall rules,
+    a countersink putting the pin in bending, and two-point contact on a curved surface versus a flat
+  license: link only (copyright SPIROL)
+make_it_yourself:
+- url: https://www.printables.com/model/644253-round-drilling-guide-block-parametric
+  title: Round Drilling Guide Block (Parametric) (TheHamburglar, Printables) (URL from Printables API, page not opened)
+  what_it_is: Parametric printed block that holds a drill square to a rod or pipe, with guide holes from 1/16 to 1/2 in and
+    1 to 10 mm, for drilling cross holes for pins
+  license: CC BY-SA
+- url: https://www.printables.com/model/651256-drill-guide-for-pipes-round-stock
+  title: Drill guide for pipes / round stock (RocketJockey, Printables) (URL from Printables API, page not opened)
+  what_it_is: Printed guide that centres the drill on round stock, with 608 ball bearings and replaceable inserts for drills
+    up to 8 mm
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/645780-drill-bit-guide-for-pipetuberound
+  title: Drill Bit Guide for Pipe/Tube/Round (Garage_Tinkerer, Printables) (URL from Printables API, page not opened)
+  what_it_is: Simple printed guide for drilling on-centre holes in 10-30 mm tube and round bar, in metric and inch versions
+  license: CC BY-NC
+- url: https://www.printables.com/model/547983-simple-press-fit-clearance-test
+  title: Simple Press Fit & Clearance Test (DrKriegerAUS, Printables) (URL from Printables API, page not opened)
+  what_it_is: Tiny two-block test print with 16 combinations from -0.2 mm interference to +0.55 mm clearance, to find the
+    hole size that grips a pin on your printer
+  license: CC BY-NC
+sources:
+- https://en.wikipedia.org/wiki/Spring_pin
+- https://en.wikipedia.org/wiki/Taper_pin
+- https://en.wikipedia.org/wiki/Dowel
+- https://en.wikipedia.org/wiki/Punch_(tool)
+- https://uk.spirol.com/assets/files/cldp-wp-how-to-select-the-proper-pin-for-your-application-uk.pdf
+- https://uk.spirol.com/assets/files/cldp-wp-how-to-properly-pin-a-shaft-and-hub-assembly-us.pdf
+- https://uk.spirol.com/assets/files/cldp-wp-how-to-install-a-coiled-spring-pin-uk.pdf
+- https://cz.spirol.com/assets/files/cldp-wp-how-to-remove-a-coiled-spring-pin-us.pdf
+- https://uk.spirol.com/assets/files/sltp-wp-slotted-pin-inflexibility-leads-to-failure-us.pdf
+- https://www.spirol.com/product/coiled-spring-pins/light-duty-coiled-spring-pins
+- https://www.spirol.com/assets/files/cldp-500-extra-light-duty-coiled-pins-us.pdf
+- https://online.standard.no/en/iso-8740-2025
+- https://www.globalfastener.com/standards/detail_258.html
+- https://www.globalfastener.com/standards/detail_247.html
+- https://aimsindustrial.com.au/en-nz/collections/taper-pins
+- https://www.pts-uk.com/products/pins-and-keys/taper-pins
+- https://blendedlearning.bharatskills.gov.in/pluginfile.php/72954/mod_resource/content/1/Week%2051.pdf (Bharatskills vocational
+  notes on tapers and taper pins, CC BY)
+- https://www.osha.gov/Publications/osha3080.pdf
+- https://www.model-engineer.co.uk/?p=23511 (Model Engineer forum thread 'Drilling holes in round objects', 2014)
+- https://tools.creative3dp.com/blog/press-fit-tolerances-3d-printing/
+- https://forerunner3d.com/design-guide-for-using-dowel-holes-in-3d-printed-parts/
+- https://help.prusa3d.com/article/pla_2062
+- https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg
+- https://commons.wikimedia.org/wiki/File:Coiled_spring_pin.JPG
+- https://commons.wikimedia.org/wiki/File:Taper_pin_ISO2339_application_en.png
+- https://commons.wikimedia.org/wiki/File:Roll_Pin_Punches.jpg
+- https://commons.wikimedia.org/wiki/File:Parallel_pin_DIN_EN_ISO8734_3D.png
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Drivein_fixing_pins_roll_pin_coiled_spring_pin_dowel_pin_taper_pin.json
+---
+
+A drive-in fixing pin is a short metal pin driven into a hole that passes through two parts, locking them together so they can't rotate or slide; spring pins (slotted roll pins and coiled pins) grip by springing outwards against the hole, while solid dowel, grooved, knurled and taper pins grip by a tight or wedging fit.
+
+**In plain words:** A short steel pin hammered into a hole drilled right through two parts, such as a gear and its shaft, so they can't turn or slide apart; it stays put because it is springy and presses on the hole, or because it is a tight fit. **Proper term:** Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin; cross-pinning).
+
+**Also called:** spring pin, tension pin (Wikipedia 'Spring pin'); slotted spring pin, roll pin, sellock pin, 'C' pin (Wikipedia 'Spring pin'); slotted pin (SPIROL); coiled spring pin, spiral pin, coiled pin, coil pin, in light, standard and heavy duty (Wikipedia 'Spring pin'; SPIROL); solid pin, press-fit pin; dowel pin, parallel pin, ground dowel (SPIROL 'How to Select the Proper Pin'); unhardened parallel pins to ISO 2338 and hardened dowel pins to ISO 8734 (globalfastener standards tables); grooved pin, parallel grooved pin with full-length diamond grooves (ISO 8740 abstract, Standard Norge); knurled pin, barbed pin, headed barbed solid pin (SPIROL); taper pin (1:50 metric, 1:48 inch), threaded taper pin, clock pin (Wikipedia 'Taper pin'); taper pins to ISO 2339 (Wikimedia Commons file description); split taper pin (Bharatskills notes); cross pin, cross-pinning, pinned hub, pinned gear, pinned collar (SPIROL 'How to Properly Pin a Shaft and Hub Assembly'); pin punch, roll pin punch, starter punch, drift or lineup punch, pin driving chuck (Wikipedia 'Punch (tool)'; SPIROL 'How to Install a Coiled Spring Pin').
+
+## How it works
+
+The hole is drilled through both parts in line, and the pin is tapped in with a hammer or pressed in. A spring pin is slightly bigger than its hole, so it squeezes smaller as it goes in and then presses outwards on the hole wall; 'The force exerted by the pin against the hole wall retains it in the hole' (Wikipedia 'Spring pin'). A solid pin instead holds 'by displacing/deforming the host material', helped by grooves, knurls or barbs (SPIROL 'How to Select the Proper Pin'); a taper pin wedges tight in a matching tapered (reamed) hole and can be knocked out from its small end (Wikipedia 'Taper pin'; Bharatskills notes). Once in place, the pin crosses the joint line, so any force trying to turn or slide one part relative to the other has to shear the pin, usually across two faces at once (double shear), e.g. where it passes through both walls of a hub and the shaft inside (SPIROL 'How to Properly Pin a Shaft and Hub Assembly').
+
+## Parts
+
+Single piece: one pin, plus the matching drilled (or, for taper and precision dowel pins, reamed) hole through both parts. Slotted spring pin: a tube rolled from spring-steel strip with a slot along it; coiled spring pin: strip rolled into 2-1/4 coils; both have chamfered ends to start them in the hole (Wikipedia 'Spring pin'). Solid pins: a plain ground dowel, or a pin with grooves, knurls or barbs for grip (SPIROL; ISO 8740 abstract). Taper pin: a solid rod tapering 1:50 (metric) along its length, sometimes threaded at one end (Wikipedia 'Taper pin').
+
+## Everyday examples
+
+- A gear, pulley or collar pinned to a motor or gearbox shaft with a pin straight through hub and shaft (SPIROL 'How to Properly Pin a Shaft and Hub Assembly')
+- Hinge pins in cosmetic cases, car door handles, locks and latches, and a lever pinned to a valve rod (Wikipedia 'Spring pin', with photos)
+- Small roll pins used as shelf-support pegs in cabinets (Printables model 'Cabinet Shelf Pegs Supports 3mm Roll Pin', title from the Printables API), and a spring pin with a washer holding a shaft in place (Wikimedia Commons labelled photo)
+- Taper pins locking a collar, coupling or handwheel to a machine shaft (Bharatskills notes; PTS-UK taper pin page; Wikimedia Commons diagram of a taper pin in a shaft joint)
+
+## When to use it
+
+When a gear, pulley, collar, knob or lever must not turn or slide on a shaft and a set screw keeps working loose: a pin through hub and shaft is a positive lock (SPIROL 'How to Properly Pin a Shaft and Hub Assembly'). Coiled spring pins are the general choice for hub-and-shaft joints, especially with shock or vibration, because they 'prevent hole damage' and accept wider hole tolerances (SPIROL). Slotted roll pins when cost matters more than life, in static, non-critical steel parts (SPIROL). Ground dowel pins for 'highly critical alignment', e.g. two machined plates that must go back together in exactly the same place (SPIROL). Taper pins where parts must be taken apart and put back exactly, or to lock a collar or handwheel (Bharatskills notes). Grooved, knurled and barbed solid pins where the pin must never come out, or to plug a hole, carry bending, give a smooth bearing surface for a pawl or provide a head as a stop (SPIROL). Spring pins also make cheap hinge pins and axles (SPIROL; Wikipedia).
+
+## When not to use it
+
+Not where you want to slide or adjust the part along the shaft, or undo it often by hand: use a clamp hub, shaft collar or set screw (see Shaft-to-hub joints) or a Quick-release pin (ball-lock pin). Not in thin or hollow shafts or small hubs where the hole would take more than 1/3 of the shaft diameter: use a key, spline or Keyless locking bush (SPIROL; see Shaft-to-hub joints). Not when the pin is meant to break on overload: that is a Shear-pin coupling, sized to fail. Not for locating parts that must lift off easily: use Locating pins with a hole-and-slot layout. Not solid press-fit pins in parts that need servicing, because they damage the hole (SPIROL). Not heavy-duty or austenitic stainless pins in hardened parts, or standard pins in brittle plastic (SPIROL). For hinge pins you want to remove by hand, a clevis pin with a clip or R-clip is easier (see Clevis joint; Tool-free fasteners).
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: pins a gear, pulley, collar, lever or handle to a shaft, or two parts to each other, so they can't turn or slide (SPIROL: 'Hub/shaft', 'Joining', 'Stop' functions)
+  - line parts up exactly: dowel and taper pins locate parts precisely and repeatably (SPIROL: 'Ground Dowels are preferred for highly critical alignment applications'; Bharatskills: taper pins for 'self-alignment/location of components')
+  - let it move (turn, slide or bend): the same pins are used as hinge pins and axles, with a free fit in one part and a press fit in the other (SPIROL 'Hinge (free fit)'; Wikipedia 'Spring pin')
+- **Movement:** none: a fixing pin locks the parts; when used as a hinge pin or axle, rotate (one part turns on the pin) (SPIROL; Wikipedia 'Spring pin').
+- **Directions it can move (degrees of freedom):** 0 when fixing (the pin stops both turning and sliding); 1 (turning) when used as a hinge pin.
+- **Special behaviour:**
+  - self-aligning or self-centring: a taper pin pulls the parts into line as it is driven into its tapered hole and puts them back in exactly the same place when refitted; 'Taper pins help in assembling and dismantling of components without disturbing the location' (Bharatskills notes)
+  - none for spring, dowel and grooved pins: they simply lock the parts. Coiled spring pins also keep flexing after fitting, absorbing shock and vibration so the holes aren't hammered bigger (Wikipedia 'Spring pin'; SPIROL)
+- **How it holds:**
+  - shape (the parts interlock; form-fit): the pin crosses the joint line, so the parts can only move apart by shearing it (SPIROL 'How to Properly Pin a Shaft and Hub Assembly')
+  - spring force (a spring or springy part presses it in place): slotted and coiled spring pins 'retain themselves by exerting a radial force (tension) against the hole wall' (SPIROL 'How to Select the Proper Pin')
+  - friction or clamping (force-fit): solid dowel, grooved and knurled pins are press fits that 'rely on material displacement between the pin and the host components' (SPIROL); taper pins wedge in their tapered hole (Wikipedia 'Taper pin')
+- **Input and output:** When a pin fixes a hub, gear or coupling to a shaft: continuous rotation -> the same rotation, 1:1, in line, with no slip (a rigid link, so the output can drive the input backwards: back-drivable yes). Otherwise not applicable.
+- **Power:** passive (no power needed)
+- **Load:** Medium to heavy in shear, light to medium in axial pull-out. A cross pin carries torque or sideways load in double shear; even SPIROL's extra-light-duty 1/8 in (3.2 mm) coiled pin is rated at a minimum of 400 lb (about 1.8 kN) double-shear strength in carbon steel (SPIROL Series 500 data sheet), and heavier duties and solid pins are stronger (SPIROL). The weak point is often the parts, not the pin: a hole bigger than 1/3 of the shaft diameter weakens the shaft, and a hub wall thinner than 1.5 x the pin diameter 'will not match the shear strength of the pin' (SPIROL 'How to Properly Pin a Shaft and Hub Assembly'). Against being pushed or pulled out along their axis, solid pins are better than spring pins ('Superior resistance to axial load (push out / pull out)', SPIROL table). Under repeated shocks, slotted pins elongate their holes and crack, while coiled pins absorb impact (SPIROL 'Slotted Pin Inflexibility Leads to Failure').
+- **Play and precision:** Ground dowel pins in reamed holes give no play and the most precise location, at the cost of high insertion force and precision-machined holes (SPIROL). Coiled spring pins conform to the hole and allow 'wider hole tolerances', with good alignment from a 'light' press (SPIROL). For hub and shaft, the holes in both parts should match within 0.05 mm (0.002 in), or the parts can move slightly and the pin gets hammered (SPIROL). Taper pins have no play and relocate parts repeatably (Bharatskills notes). Misalignment tolerance: none; the holes in both parts must line up, and a drift (lineup) punch can be used to bring holes into line before the pin goes in (Wikipedia 'Punch (tool)').
+- **Taking it apart:** removable for spring pins and taper pins in through-holes: spring pins 'are serviceable in the same hole' and 'can be removed with no damage to the host components - if done properly' (SPIROL 'How to Select the Proper Pin', 'How to Remove a Coiled Spring Pin'); a taper pin is 'driven from LARGE end, removed from SMALL end with pin punch' (AIMS Industrial taper pin page), and some have a thread to pull them out with a nut (Wikipedia 'Taper pin'). Semi-permanent for solid press-fit pins: 'Solid Pins provide superior retention when an axial load is applied and are not removable / serviceable', and they 'immediately damage the hole upon installation' (SPIROL). Any pin in a blind hole is very hard to remove: SPIROL suggests spark erosion (EDM) or drilling it out, or leaving the pin standing proud so pliers can grip it.
+- **How often it can be reused:** a few times for spring pins: a coiled pin removed properly 'can be installed back into the assembly after the components are serviced' (SPIROL 'How to Remove a Coiled Spring Pin'); many times for taper pins, which 'can be removed from the small end and reinserted repeatedly without losing accuracy' (PTS-UK taper pin page; Bharatskills notes); once for solid press-fit, grooved, knurled and barbed pins (SPIROL).
+- **Sealing:** none: spring pins are hollow; a solid pin can plug a hole 'to restrict passage of liquids' but is not a seal (SPIROL 'How to Select the Proper Pin').
+- **Adjustable:** no: once driven, the parts are fixed in one position; to move them you drill a new hole.
+- **Access needed:** both sides for through-holes: the pin is driven in from one side and punched out from the other (SPIROL 'How to Remove a Coiled Spring Pin'). One side only is possible with a blind hole, but such pins are very hard to remove later (SPIROL).
+- **Materials:** Pins: high-carbon steel, stainless steel and alloy 6150 for coiled pins (Wikipedia 'Spring pin'); SPIROL light-duty coiled pins in high-carbon steel, 302/304 austenitic (nickel) stainless and 420 martensitic (chrome) stainless; dowel pins in hardened steel or martensitic stainless (ISO 8734) or unhardened steel and austenitic stainless (ISO 2338) (globalfastener tables); grooved pins in steel and stainless steel (ISO 8740 abstract). Parts joined: steel shafts and hubs (standard-duty coiled pins for mild steel and non-ferrous parts; heavy-duty only in hardened parts; 'austenitic (nickel) stainless steel pins should never be used in hardened components', SPIROL); soft, brittle or thin materials such as plastics, aluminium, die castings and ceramics with light-duty coiled pins (SPIROL light-duty page); plastic housings with barbed solid pins (SPIROL). Wood uses wooden dowels instead (Wikipedia 'Dowel'; see the joinery entries).
+- **Heat, cold, water and wear:** Corrosion: plain carbon-steel pins rust; stainless grades (302/304 austenitic, 420 martensitic) are available (SPIROL light-duty page; Wikipedia 'Spring pin'). Shock and vibration: coiled pins keep flexing after fitting and 'providing excellent performance to counter fatigue in dynamic applications' (Wikipedia 'Spring pin'), while slotted pins act like a rigid tube once fitted, so impacts elongate the hole until the pin cracks or falls out (SPIROL 'Slotted Pin Inflexibility Leads to Failure'). Heat: the steel pin is not the limit; in plastic parts the press fit relaxes over time and faster when warm (Creative3DP), and PLA softens above about 60 °C (Prusa knowledge base). Spring pins in soft plastic may slowly lose grip as the plastic creeps ⚑ [uncertain: no test data opened].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: pins and punches are bought
+  - CNC: drilling and reaming matched cross holes through shafts, hubs and plates (a drill press with a V-block is the hand-tool version) (SPIROL; Model Engineer forum)
+  - 3D print (FDM): printed hubs, hinges, levers and housings fixed or pivoted with steel spring or dowel pins; printed drill guides for cross-drilling round stock (Printables models in make_it_yourself)
+  - woodwork: wooden dowels are the woodworking relative (Wikipedia 'Dowel'); metal pins are also used as hinge pins in wooden boxes and toys ⚑ [uncertain]
+- **Printing it in one piece (print in place):** no: the pin is a bought steel part pressed into a printed or machined hole after printing.
+- **Tools:** A drill (ideally a drill press with a V-block or vice to drill straight through the centre of a round shaft) and a drill bit the size of the pin; for taper pins a pilot drill at the pin's small-end diameter followed by a matching taper-pin reamer, and a reamer for precision dowel holes (Wikipedia 'Taper pin'; AIMS Industrial; SPIROL; Model Engineer forum). A hammer, or for small pins a pin driving chuck in a hand press or air hammer (SPIROL 'How to Install a Coiled Spring Pin'). Punches: a pin punch to drive pins flush and out, a starter punch to loosen a stuck pin first, a roll pin punch (with a small centre pilot) for slotted roll pins, and a drift or lineup punch to bring holes into line (Wikipedia 'Punch (tool)'). Safety glasses (OSHA 3080).
+- **Difficulty:** moderate: the pins are cheap and fitting them is just hammering, but the hole must go straight through the centre of a round shaft and line up exactly with the hub, which needs a drill press with a V-block or a drilling jig (Model Engineer forum; SPIROL), and taper pins need a taper reamer (Wikipedia 'Taper pin').
+
+### 3D printing tips
+
+1) Pin choice for plastic: use light-duty coiled spring pins, which SPIROL recommends 'for soft, brittle or thin materials such as plastics' and close to edges; a medical-device maker cured cracking of a plastic yoke this way (SPIROL light-duty page). Slotted roll pins and solid press-fit pins push harder on the hole and are more likely to split a printed boss ⚑ [uncertain: inferred from SPIROL's advice, not tested on prints]. Barbed solid pins grip plastic but can 'walk out of the hole' in hinges (SPIROL light-duty page case study). 2) Hole size: printed holes usually come out 0.1-0.3 mm undersize (about 0.24 mm for a 5 mm hole in PLA with a 0.4 mm nozzle) (Creative3DP), but a print service that uses industrial printers says its printers 'USUALY print a bit big'; either way, print the hole a little small and drill or ream it to size after printing (Forerunner 3D rule 5: undersize by 0.025 in and ream). Print a fit-test coupon first (Printables 547983). 3) Drill through both parts together once they are assembled, so the holes line up; SPIROL asks for hub and shaft holes matched within 0.05 mm. 4) Avoid cracking along layer lines: round interference holes 'concentrate hoop stress and crack along layer lines' (Creative3DP); give the boss thick walls (SPIROL's metal rule is a hub wall at least 1.5 x the pin diameter; use more in plastic ⚑ [uncertain]) and, where possible, orient the part so the pin's outward push acts along the layers rather than prising them apart ⚑ [uncertain]. 5) Lead-in: Forerunner 3D suggests chamfering printed dowel holes to help alignment, but SPIROL advises against countersinks on hub and shaft holes because they leave part of the pin unsupported and bend it; use at most a tiny chamfer on the entry side only ⚑ [uncertain]. 6) Creep: plastic relaxes under the constant push of a press fit, so a pin in PLA can loosen over months, faster when warm; PLA 'gets soft and deforms at temperatures over 60 °C' (Creative3DP; Prusa knowledge base). 7) Use steel pins rather than printed ones for anything carrying load; a printed pin is weakest across its layers ⚑ [uncertain]. 8) Support the printed part on a solid block right under the hole while tapping a pin in, so the blow doesn't crack it ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Search catalogues for: 'slotted spring pin' or 'roll pin' (ISO 8752 heavy duty), 'coiled spring pin' or 'spiral pin' in light (ISO 8751), standard (ISO 8750) and heavy (ISO 8748) duty (Wikipedia 'Spring pin'); 'dowel pin' or 'parallel pin' (hardened to ISO 8734, unhardened to ISO 2338; size tables at globalfastener.com); 'grooved pin' (ISO 8740); 'knurled pin', 'barbed pin'; 'taper pin' (1:50, ISO 2339) and 'taper pin reamer' (Wikipedia 'Taper pin'); 'roll pin punch set', 'pin punch set', 'starter punch', 'drift punch' (Wikipedia 'Punch (tool)'); 'pin driving chuck' (SPIROL). For shear strengths and recommended hole sizes, use the maker's tables (e.g. SPIROL's coiled pin data sheets) rather than guessing.
+
+## Rules of thumb
+
+- The pin's nominal diameter is the hole size to drill: a coiled spring pin is made bigger than its nominal size and its chamfer smaller, so it starts easily and compresses into the hole (SPIROL 'How to Install a Coiled Spring Pin').
+- Cross hole in a shaft: no more than 1/3 of the shaft diameter; heavy-duty pins only pay off if the hole is under 1/4 of the shaft diameter or the shaft is hardened (SPIROL 'How to Properly Pin a Shaft and Hub Assembly'). Indian vocational notes give a general proportion for taper pins of pin diameter = 1/6 of the shaft diameter (Bharatskills notes).
+- Hub wall around the pin at least 1.5 x the pin diameter (SPIROL).
+- Match the holes: hub and shaft hole diameters within 0.05 mm (0.002 in) of each other, the hole centred in both parts, no countersinks, and no more than 0.13 mm (0.005 in) between shaft and hub (the gap between the two shear faces) (SPIROL).
+- Drilling into a curved surface: put a small flat at the hole entry so the pin bears all round instead of at two points (SPIROL Fig. 3); to find the centre of a round bar, spot-drill or file a small flat first, or hold the bar in a V-block centred under the drill (Model Engineer forum).
+- Stop pins: keep at least 60% of a spring pin's length in the fixed part (SPIROL 'How to Select the Proper Pin').
+- Duty: standard-duty coiled pins for most jobs in mild steel and non-ferrous parts; heavy duty only in hardened parts; light duty for plastics, soft or brittle materials and holes near an edge (SPIROL; Wikipedia 'Spring pin').
+- Taper pins: 1:50 taper on diameter for metric pins, 1:48 for inch pins; a metric taper-pin reamer is named by its small end, e.g. a 2 mm reamer runs from 1.9 mm to 2.86 mm (Wikipedia 'Taper pin'). Drill a pilot hole at the pin's small-end diameter through both parts, ream progressively with the matching taper reamer and test-fit: one supplier says the pin 'should engage about 70-80% before becoming tight', and is then tapped home gently, ending flush or slightly proud (AIMS Industrial taper pin page).
+- Punches: for removing a coiled pin, use a punch with a flat, square end the same nominal diameter as the hole, never one smaller than the pin's outer coil, and don't use ball-end punches on coiled pins (SPIROL 'How to Remove a Coiled Spring Pin'); for slotted roll pins use a roll pin punch no larger and no smaller than the pin's compressed diameter (Wikipedia 'Punch (tool)'). Wikipedia says standard pin punches 'should never be used on a roll pin', while SPIROL says round ball-end punches are 'effective for Slotted Pins'; both agree the punch must match the pin.
+
+## Common failures
+
+Hole damage and loosening: solid pins 'immediately damage the hole upon installation', and slotted pins under impact elongate the hole until the pin 'cracks, falls out of the hole, or does both' (SPIROL white papers). Pin bending or early fatigue from a gap or countersink between shaft and hub, which leaves part of the pin unsupported (SPIROL). Parts moving and hammering the pin because the holes in hub and shaft don't match closely (SPIROL: within 0.05 mm). Pin peeling back on a curved surface, because it only touches at two points; spot-face a small flat first (SPIROL Fig. 3). Cracked plastic or thin housings from too stiff a pin; use light-duty coiled pins (SPIROL light-duty page). Barbed solid pins walking out of plastic hinges (SPIROL case study). Holes drilled off-centre or not straight through a round shaft, so the pin won't go through or the part wobbles (Model Engineer forum). Roll pin ends collapsed or a punch jammed inside the pin from using a standard pin punch or the wrong size (Wikipedia 'Punch (tool)'). Pins stuck in blind holes that can't be removed (SPIROL). Wrong duty: heavy-duty or austenitic stainless pins in hardened parts (SPIROL).
+
+## Safety
+
+EYE PROTECTION: wear safety glasses when driving or punching out pins; OSHA says safety goggles 'must be worn to protect against hazards that may be encountered while using hand tools', and that punches, chisels and drift pins with 'mushroomed heads' may 'shatter on impact, sending sharp fragments flying' (OSHA 3080 'Hand and Power Tools'). Discard punches with mushroomed heads, and discard a roll pin punch whose tip is damaged, because it can't be reground properly (OSHA 3080; Wikipedia 'Punch (tool)'). Hold the punch in line with the pin and strike squarely, or the shank can bend or slip (Wikipedia 'Punch (tool)'). Small pins are hard to hold while hammering, so use a pin driving chuck or pliers rather than fingers (SPIROL 'How to Install a Coiled Spring Pin'). A pin can fly out of the far side of a hole when punched out; cover it or point it away from people ⚑ [uncertain]. Burrs on cut or drilled shafts are sharp ⚑ [uncertain].
+
+## Related
+
+- Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub): the other ways to fix a hub to a shaft; keys and splines carry more torque, set screws and clamp hubs can be adjusted
+- Locating pins and hole-and-slot: dowel pins used only to line parts up, with one round hole and one slot so the parts don't jam, rather than to fix them
+- Press fit (interference fit): the general principle behind solid dowel, grooved and knurled pins
+- Shear-pin coupling (breakaway link): a deliberately weak pin that breaks to protect the machine
+- Taper fit (Morse taper): a cone-in-cone fit, the same wedging idea as a taper pin but between a shaft and its socket
+- Quick-release pin (ball-lock pin) and Tool-free fasteners (hitch pin and R-clip): pins removed by hand, for joints taken apart often
+- Clevis joint (fork-and-pin joint): a pin through a fork as a pivot, held by a clip rather than a tight fit
+- Thread-locking hardware (split pin): a soft split pin through a hole stops a nut or clevis pin coming out, not for carrying load
+- Retaining ring (circlip, E-clip): snaps into a groove to stop sliding, but doesn't stop turning
+- Temporary sheet fastener (Cleco-type spring pin): a reusable spring-loaded pin that holds sheets while drilling and riveting
+- Plain pivot and rolling bearing (pin in hole, shoulder bolt): when the pin is meant to let a part turn
+- Wedge dowel (click-in grooved dowel) and wooden dowels: the woodworking relatives
+
+## Make it yourself
+
+- [Round Drilling Guide Block (Parametric) (TheHamburglar, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/644253-round-drilling-guide-block-parametric): Parametric printed block that holds a drill square to a rod or pipe, with guide holes from 1/16 to 1/2 in and 1 to 10 mm, for drilling cross holes for pins *(licence: CC BY-SA)*
+- [Drill guide for pipes / round stock (RocketJockey, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/651256-drill-guide-for-pipes-round-stock): Printed guide that centres the drill on round stock, with 608 ball bearings and replaceable inserts for drills up to 8 mm *(licence: CC BY-NC-SA)*
+- [Drill Bit Guide for Pipe/Tube/Round (Garage_Tinkerer, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/645780-drill-bit-guide-for-pipetuberound): Simple printed guide for drilling on-centre holes in 10-30 mm tube and round bar, in metric and inch versions *(licence: CC BY-NC)*
+- [Simple Press Fit & Clearance Test (DrKriegerAUS, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/547983-simple-press-fit-clearance-test): Tiny two-block test print with 16 combinations from -0.2 mm interference to +0.55 mm clearance, to find the hole size that grips a pin on your printer *(licence: CC BY-NC)*
+
+## Pictures, videos and models
+
+- [Spring-type slottet straigt pin labeled num.jpg (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg): A slotted spring pin and a washer securing a shaft, with the parts numbered *(licence: CC BY-SA 2.5)*
+- [Coiled spring pin.JPG (Wikimedia Commons, by Luish73)](https://commons.wikimedia.org/wiki/File:Coiled_spring_pin.JPG): A coiled (spiral) spring pin, showing the rolled coils at its end *(licence: CC BY-SA 3.0)*
+- [Taper pin ISO2339 application en.png (Wikimedia Commons, by Silberwolf)](https://commons.wikimedia.org/wiki/File:Taper_pin_ISO2339_application_en.png): Cross-section drawing of a taper pin (ISO 2339) locking a splined shaft into a universal-joint yoke *(licence: CC BY-SA 2.5)*
+- [Roll Pin Punches.jpg (Wikimedia Commons, by KurtK3)](https://commons.wikimedia.org/wiki/File:Roll_Pin_Punches.jpg): A set of roll pin punches, with the centre pilot on each tip *(licence: CC BY-SA 3.0 / GFDL 1.2+)*
+- [How to Properly Pin a Shaft and Hub Assembly (SPIROL white paper)](https://uk.spirol.com/assets/files/cldp-wp-how-to-properly-pin-a-shaft-and-hub-assembly-us.pdf): Drawings of a coiled pin through a gear hub and shaft with the 1/3-shaft-diameter and 1.5 x pin-diameter wall rules, a countersink putting the pin in bending, and two-point contact on a curved surface versus a flat *(licence: link only (copyright SPIROL))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ Research note: *Drive-in fixing pins*: pin diameter (SPIROL at most 1/3 of the shaft; Bharatskills about 1/6); punches (Wikipedia: never a standard punch on a roll pin; SPIROL: ball-end punches suit slotted, not coiled pins); printed holes (Creative3DP undersize, Forerunner 3D 'a bit big'); lead-ins (Forerunner chamfers, SPIROL no countersinks). Drift bolts are not covered (the Wood Handbook PDF didn't load).
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Spring_pin>
+- <https://en.wikipedia.org/wiki/Taper_pin>
+- <https://en.wikipedia.org/wiki/Dowel>
+- <https://en.wikipedia.org/wiki/Punch_(tool)>
+- <https://uk.spirol.com/assets/files/cldp-wp-how-to-select-the-proper-pin-for-your-application-uk.pdf>
+- <https://uk.spirol.com/assets/files/cldp-wp-how-to-properly-pin-a-shaft-and-hub-assembly-us.pdf>
+- <https://uk.spirol.com/assets/files/cldp-wp-how-to-install-a-coiled-spring-pin-uk.pdf>
+- <https://cz.spirol.com/assets/files/cldp-wp-how-to-remove-a-coiled-spring-pin-us.pdf>
+- <https://uk.spirol.com/assets/files/sltp-wp-slotted-pin-inflexibility-leads-to-failure-us.pdf>
+- <https://www.spirol.com/product/coiled-spring-pins/light-duty-coiled-spring-pins>
+- <https://www.spirol.com/assets/files/cldp-500-extra-light-duty-coiled-pins-us.pdf>
+- <https://online.standard.no/en/iso-8740-2025>
+- <https://www.globalfastener.com/standards/detail_258.html>
+- <https://www.globalfastener.com/standards/detail_247.html>
+- <https://aimsindustrial.com.au/en-nz/collections/taper-pins>
+- <https://www.pts-uk.com/products/pins-and-keys/taper-pins>
+- <https://blendedlearning.bharatskills.gov.in/pluginfile.php/72954/mod_resource/content/1/Week%2051.pdf (Bharatskills vocational notes on tapers and taper pins, CC BY)>
+- <https://www.osha.gov/Publications/osha3080.pdf>
+- <https://www.model-engineer.co.uk/?p=23511 (Model Engineer forum thread 'Drilling holes in round objects', 2014)>
+- <https://tools.creative3dp.com/blog/press-fit-tolerances-3d-printing/>
+- <https://forerunner3d.com/design-guide-for-using-dowel-holes-in-3d-printed-parts/>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg>
+- <https://commons.wikimedia.org/wiki/File:Coiled_spring_pin.JPG>
+- <https://commons.wikimedia.org/wiki/File:Taper_pin_ISO2339_application_en.png>
+- <https://commons.wikimedia.org/wiki/File:Roll_Pin_Punches.jpg>
+- <https://commons.wikimedia.org/wiki/File:Parallel_pin_DIN_EN_ISO8734_3D.png>
+- <https://api.printables.com/graphql/>

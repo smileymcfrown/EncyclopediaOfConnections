@@ -1,0 +1,311 @@
+---
+title: Rope-end finishing
+description: A finish put on the cut end of a rope, cord or strap (tight turns of twine, melted fibres, strands tucked back,
+  tape, a rubbery dip or a small cap) that holds the fibres together so the end does not fray, and often makes it easier to
+  thread through holes.
+num: 385
+term: Rope-end finishing (whipping, heat sealing or fusing, back splice, liquid whipping, aglet)
+plain_name: 'Ways to stop the cut end of a rope, cord, shoelace or strap from unravelling into a fuzzy tassel: wrap it tightly
+  with thin string, melt the plastic fibres into a solid tip, weave the strands back into the rope, wrap it in tape, dip it
+  in a rubbery liquid, or push a small tube or cap over it'
+aliases:
+- 'whipping or whipping knot: a binding of twine round a rope''s end ''to prevent its natural tendency to fray'' (Wikipedia
+  ''Whipping knot'')'
+- 'common whipping (ABOK #3443 according to Animated Knots; Wikipedia gives ABOK #3442), also called sailor''s, plain, ordinary
+  or ''wolf'' whipping'
+- 'sailmaker''s whipping or palm-and-needle whipping (ABOK #3446; the needle-free version is ABOK #3448, Wikipedia)'
+- 'West Country whipping, also printed as ''West County whipping'' (ABOK #3458)'
+- French whipping (a row of half hitches) and Portuguese whipping (ends reef-knotted together) (Wikipedia, quoting ABOK pp.
+  547-548)
+- heat sealing, fusing, melting, singeing or burning the end; makers often call melting a paracord end 'whipping' it (Printables
+  'Paracord Melting (Whipping) Form')
+- hot cutting with a hot knife or rope cutter (an electrically heated blade that cuts and seals in one go)
+- tape and cut (wrap tape, cut through the middle of it)
+- 'back splice or end splice (ABOK #2813), started with a crown knot (Animated Knots; Wikipedia ''Rope splicing'')'
+- liquid whipping, whip-end dip or rope-end dip; e.g. Star brite Dip-It Whip-It (brand)
+- glued end (thin superglue soaked into the cut end) (Edelrid)
+- aglet or aiglet, lace tip, shoelace tip, cord end, rope end cap; heat-shrink aglet
+- constrictor knot or a few turns of tape as a temporary stop until a proper whipping is put on (Wikipedia; Animated Knots)
+family: knots, lashings & sewn joints
+other_families: ['welding, brazing & soldering', adhesives & bonding, 'cord, strap, webbing & textile hardware']
+finder:
+  job: [join and hold, glue or bond]
+  motion: none
+  special_behaviour: []
+  holding_principle: [friction or clamping, material bond]
+  reuse_cycles: once
+  seal: none
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), 3D print (resin)]
+  connects: ['strap, cord or fabric']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [soldering iron, crimper, heat gun, sewing or leather tools, hand tools]
+  load_max: medium
+  usual_process: by hand (tied or wrapped)
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming:
+  load_max:
+    kind: best guess
+    reason: no light/medium/heavy band in `load`; defaulted to medium
+confirmed: []
+open_points:
+- kind: content
+  note: '*Rope-end finishing*: recorded side by side: the common whipping''s ABOK number (#3443 Animated Knots, #3442 Wikipedia);
+    whipping width (about one rope diameter, Ashley via Wikipedia and Animated Knots, against 1.5 diameters, Wikipedia *Common
+    whipping* and premiumropes); melt or whip synthetic rope (Wikipedia *Common whipping* says fuse; Animated Knots and Budworth
+    say a whipping is better). One liquid whipping product carries a California Prop 65 warning.'
+uncertain_fields: [processes, materials, environment_limits]
+diagram_idea: 'Five rope ends side by side, each cut open to show inside: a frayed end, a common whipping (turns of twine
+  squeezing the fibres), a heat-sealed end (fibres merged into a solid plastic tip, with a slim tip from a melting form next
+  to a fat bulb), a back splice (strands turned back and tucked over-and-under, twice as thick), and an aglet (a tube glued
+  or crimped over the end), each labelled with what holds it.'
+links:
+- url: https://www.animatedknots.com/rope-care-knots
+  title: Rope Care Knots (Animated Knots by Grog)
+  shows: Index of animated step-by-step whippings (common, sailmaker's, West Country) and the back splice, with notes on which
+    fibres can be heat-sealed and how to finish aramid-cored rope
+  license: Animated Knots content; link only
+- url: https://commons.wikimedia.org/wiki/File:Common-whipping.png
+  title: Common whipping (Wikimedia Commons)
+  shows: 'Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under'
+  license: CC BY-SA 3.0 (Hella, en.wikipedia)
+- url: https://commons.wikimedia.org/wiki/File:Sailmakers.jpg
+  title: Sailmaker's whipping (Wikimedia Commons)
+  shows: Photo of a finished sailmaker's whipping, with the frapping turns lying in the grooves of a three-strand rope
+  license: Public domain (Alan W. Grogono)
+- url: https://commons.wikimedia.org/wiki/File:FusedRopeEnds.png
+  title: Rope ends heat sealed with an electric knife (Wikimedia Commons)
+  shows: Photo of braided rope ends fused with a hot knife, next to an unsealed frayed end (File:Frayed.png on the same article)
+  license: CC BY-SA 3.0 (NE Ent)
+- url: https://commons.wikimedia.org/wiki/File:Three_Different_Aglets.jpg
+  title: Three different aglets (Wikimedia Commons)
+  shows: Three identical shoelaces tipped with copper, plastic and brass aglets
+  license: CC BY-SA 3.0 (Ian W. Fieggen)
+make_it_yourself:
+- url: https://www.printables.com/model/926284-paracord-melting-whipping-form-melt-neat-and-clean
+  title: Paracord Melting (Whipping) Form - Melt neat and clean ends on paracord (Printables) (URL from Printables API, page
+    not opened)
+  what_it_is: 'Two-part printed form: melt the cut end of paracord, then pull it through the funnel to get a slim tip without
+    a bulb, so it fits through holes in printed parts'
+  license: CC BY
+- url: https://www.printables.com/model/1322380-super-deluxe-paracord-melting-whipping-form-melt-n
+  title: Super Deluxe Paracord Melting (Whipping) Form (Printables) (URL from Printables API, page not opened)
+  what_it_is: Hinged version with grooves for 550 paracord of about 3.0-3.4 mm; hinge assembled with two M3 screws
+  license: CC BY-NC
+- url: https://www.printables.com/model/1462797-super-deluxe-paracord-melting-form-print-in-place
+  title: Super Deluxe Paracord Melting Form – Print-in-Place Remix (Printables) (URL from Printables API, page not opened)
+  what_it_is: Print-in-place version of the hinged melting form; printed flat in PETG with no supports
+  license: CC BY-NC
+- url: https://www.printables.com/model/624969-rope-end-caps-aglets
+  title: Rope End Caps (Aglets) (Printables) (URL from Printables API, page not opened)
+  what_it_is: Printed end caps for 10-14 mm (3/8-1/2 inch) boat ropes, fitted over a resin-stiffened rope tip with adhesive
+  license: CC0 (Creative Commons Public Domain)
+- url: https://www.printables.com/model/1740511-classic-aglet-2-6mm
+  title: Classic aglet 2-6mm (Printables) (URL from Printables API, page not opened)
+  what_it_is: Glue-on printed shoelace tips for 2-6 mm laces, about 1 g of PLA or PETG each
+  license: CC0 (Creative Commons Public Domain)
+- url: https://www.printables.com/model/421008-aglet-crimper
+  title: Aglet Crimper (Printables) (URL from Printables API, page not opened)
+  what_it_is: Printed crimping tool for metal aglets of about 5 mm diameter
+  license: CC BY
+sources:
+- https://www.animatedknots.com/rope-care-knots
+- https://www.animatedknots.com/common-whipping-knot
+- https://www.animatedknots.com/sailmakers-whipping-knot
+- https://www.animatedknots.com/west-country-whipping-knot
+- https://www.animatedknots.com/back-splice-knot
+- https://en.wikipedia.org/wiki/Whipping_knot
+- https://en.wikipedia.org/wiki/Common_whipping
+- https://en.wikipedia.org/wiki/Sailmaker%27s_whipping
+- https://en.wikipedia.org/wiki/West_Country_whipping
+- https://en.wikipedia.org/wiki/Back_splice (redirects to 'Rope splicing')
+- https://en.wikipedia.org/wiki/Aglet
+- https://edelrid.com/fr-fr/knowledge/knowledge-base/how-to-cut-ropes (Edelrid Knowledge Base, 'How to cut ropes', English
+  text)
+- https://www.premiumropes.com/blog/the-core-of-my-dyneema-rope-is-free-from-the-cover
+- https://www.ravenox.com/blogs/news/how-to-cut-and-finish-natural-and-synthetic-rope-without-fraying
+- https://www.practical-sailor.com/boat-maintenance/tools-gadgets/gonytia-hot-knife-proves-its-mettle/
+- https://www.ifixit.com/Guide/How+to+Repair+Frayed+Shoelaces/40139
+- https://www.ifixit.com/Guide/Trim+a+Webbing+Belt/181276
+- https://www.starbrite.com/products/star-brite-dip-it-whip-it-liquid-rope-whipping
+- https://www.nsw.gov.au/employment/dogging-and-rigging/guide/part-1-general-rigging-principles/lifting-equipment/fibre-rope-and-slings/construction-fibre-rope
+  (SafeWork NSW rigging guide, synthetic rope comparison chart)
+- https://www.ropelab.com.au/rope-materials/ (RopeLab, 'Rope Materials', 2016)
+- https://commons.wikimedia.org/wiki/File:Common-whipping.png
+- https://commons.wikimedia.org/wiki/File:Sailmakers.jpg
+- https://commons.wikimedia.org/wiki/File:FusedRopeEnds.png
+- https://commons.wikimedia.org/wiki/File:Three_Different_Aglets.jpg
+- https://api.printables.com/graphql/ (Printables models 926284, 1322380, 1462797, 624969, 1740511, 826101 'Craft Cord End
+  (Aglet)', 1486338 'Threaded Aglet – Screw-On Shoelace Tip', 421008 'Aglet Crimper'; pages not opened)
+research: research/connection-types/results/Ropeend_finishing_whipping_heatsealing_back_splice_aglet.json
+---
+
+A finish put on the cut end of a rope, cord or strap (tight turns of twine, melted fibres, strands tucked back, tape, a rubbery dip or a small cap) that holds the fibres together so the end does not fray, and often makes it easier to thread through holes.
+
+**In plain words:** Ways to stop the cut end of a rope, cord, shoelace or strap from unravelling into a fuzzy tassel: wrap it tightly with thin string, melt the plastic fibres into a solid tip, weave the strands back into the rope, wrap it in tape, dip it in a rubbery liquid, or push a small tube or cap over it. **Proper term:** Rope-end finishing (whipping, heat sealing or fusing, back splice, liquid whipping, aglet).
+
+**Also called:** whipping or whipping knot: a binding of twine round a rope's end 'to prevent its natural tendency to fray' (Wikipedia 'Whipping knot'); common whipping (ABOK #3443 according to Animated Knots; Wikipedia gives ABOK #3442), also called sailor's, plain, ordinary or 'wolf' whipping; sailmaker's whipping or palm-and-needle whipping (ABOK #3446; the needle-free version is ABOK #3448, Wikipedia); West Country whipping, also printed as 'West County whipping' (ABOK #3458); French whipping (a row of half hitches) and Portuguese whipping (ends reef-knotted together) (Wikipedia, quoting ABOK pp. 547-548); heat sealing, fusing, melting, singeing or burning the end; makers often call melting a paracord end 'whipping' it (Printables 'Paracord Melting (Whipping) Form'); hot cutting with a hot knife or rope cutter (an electrically heated blade that cuts and seals in one go); tape and cut (wrap tape, cut through the middle of it); back splice or end splice (ABOK #2813), started with a crown knot (Animated Knots; Wikipedia 'Rope splicing'); liquid whipping, whip-end dip or rope-end dip; e.g. Star brite Dip-It Whip-It (brand); glued end (thin superglue soaked into the cut end) (Edelrid); aglet or aiglet, lace tip, shoelace tip, cord end, rope end cap; heat-shrink aglet; constrictor knot or a few turns of tape as a temporary stop until a proper whipping is put on (Wikipedia; Animated Knots).
+
+## How it works
+
+A rope is many fibres twisted or braided together, and the twist or braid is what keeps them together; at a cut end nothing holds them, so they unlay and fray (Wikipedia 'Whipping knot'). Whipping wraps tight turns of twine round the end so friction squeezes the fibres together; in the sailmaker's whipping extra 'frapping turns' run along the grooves and lock the wraps so they cannot unwind if one is damaged (Animated Knots). Heat sealing melts plastic fibres (nylon, polyester, polypropylene, polyethylene) so they flow together and harden into one solid end (a material bond); aramid such as Kevlar only chars, and natural fibres such as cotton and hemp don't melt (Animated Knots; Ravenox). A back splice opens the strands, turns them back with a crown knot and weaves each strand over and under the rope's own strands, so the rope's grip holds them (Animated Knots). A liquid whipping, superglue or a glued or crimped aglet binds or clamps the fibres from outside; an aglet's 'firmness and narrow profile make it easier to hold and easier to feed through eyelets' (Wikipedia 'Aglet').
+
+## Parts
+
+Single piece or a few parts. Melting and the back splice use only the rope itself. Whipping adds whipping twine (and for the sailmaker's whipping on braided rope a needle and a sailmaker's palm; premiumropes). Tape, a liquid coating or superglue add one material. An aglet adds a small plastic or metal tube or cap, sometimes with glue, or a piece of heat-shrink tubing (Wikipedia 'Aglet'; iFixit 'How to Repair Frayed Shoelaces').
+
+## Everyday examples
+
+- The plastic tip (aglet) on a shoelace or hoodie drawstring (Wikipedia 'Aglet')
+- The melted, hard end of a paracord bracelet, lanyard or tent guy line (Printables melting forms)
+- The sealed cut end of a backpack strap or webbing belt (iFixit 'Trim a Webbing Belt')
+- Twine whipping on the ends of boat mooring and dock lines (Animated Knots 'Rope Care'; Wikipedia 'Whipping knot')
+
+## When to use it
+
+Every time you cut rope, cord, string, elastic cord or webbing, finish both ends before use; an end left 'un-whipped, unraveling and trailing in the water' is the classic neglect (Animated Knots). Melt the ends of synthetic cord and webbing for a quick finish, and for cords that must thread through printed holes or eyelets shape the tip in a melting form or add an aglet. Whip ropes you value, natural-fibre ropes that can't be melted, and ropes that are handled a lot (Animated Knots). Use a back splice on three-strand rope when you have no twine or tools, or where you want to feel the end by hand, 'as on a bucket lanyard' (Wikipedia 'Whipping knot'). Use liquid whipping for many ends at once or for colour-coding (Star brite), and superglue for thin or slippery cords with mixed fibres (Edelrid).
+
+## When not to use it
+
+Don't heat-seal natural fibres (cotton, hemp) or aramid (Kevlar): they char instead of melting (Animated Knots; Ravenox); whip or glue them. Don't rely on melting alone for ropes run through your hands: a hardened, sharp end can cut (Budworth, quoted by Wikipedia 'Whipping knot'); whip them, or whip and melt. Don't use a back splice where the end must pass through a pulley, block, fairlead or printed hole, because it doubles the thickness (Animated Knots; Wikipedia 'Rope splicing'); use a whipping. Don't use a common whipping on ends that will be handled, since it 'can slip off the rope easily' (Wikipedia 'Common whipping'); use a sailmaker's whipping. Tape is only a 'temporary or emergency substitute' (Wikipedia 'Whipping knot'). Don't use an open flame on unknown fibres or coated rope ('Do not improvise with an open flame around unknown fibers or coatings', Ravenox); follow the rope maker's method. A finish is never a repair for damaged rope (Ravenox): cut back to sound rope or replace it.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: binds the loose fibres of a cut rope, cord or strap end together so it can't fray or unravel
+  - glue or bond: heat sealing melts the fibres together, and liquid whipping or superglue glues them
+- **Movement:** none: the finish is fixed to the rope's end
+- **Directions it can move (degrees of freedom):** 0: nothing moves; the finish simply stays on the end of the rope (a common whipping can slide off if it is pushed, which is a failure, not a motion; Wikipedia 'Common whipping').
+- **Special behaviour:**
+  - none: it only stops fraying. A stiff aglet or a melted, tapered tip also makes the end easier to thread through eyelets and holes, which is a side benefit rather than a mechanism (Wikipedia 'Aglet'; Printables 'Super Deluxe Paracord Melting (Whipping) Form')
+- **How it holds:**
+  - friction or clamping (force-fit): whipping turns, tape, heat-shrink tubing and crimped metal aglets squeeze the fibres together; the back splice's tucked strands are gripped by the rope's own strands
+  - material bond (glue, solvent or melting): heat sealing fuses the fibres; liquid whipping, superglue and glued-on aglets bond them
+- **Input and output:** not applicable: it finishes a rope end and passes no motion on
+- **Power:** passive (no power needed) once made. A hot knife or soldering iron needs electricity only while you cut and seal.
+- **Load:** Not a load-carrying joint: it adds no strength. A back splice needs only 'about three complete tucks' because 'no load is applied to a back splice' (Animated Knots), and 'A neat end does not restore damaged rope or establish a working load rating' (Ravenox). What matters is how well the finish survives handling and rubbing: a sailmaker's whipping is 'the most secure whipping' (Animated Knots), a common whipping 'will slide off the end of the rope with little provocation' (Wikipedia 'Common whipping'), and a thin hot-cut seal 'does not survive compression or abuse' (Animated Knots). Never rely on any rope, knot or finish you made yourself to hold a person.
+- **Play and precision:** Not applicable for location, but the finished thickness matters: a back splice makes the end 'about twice the thickness of the rest of the rope' (Wikipedia 'Rope splicing') and 'usually prevents the rope's end from passing though blocks and pulleys' (Animated Knots); a free-melted end forms a bulb that may not pass through a hole sized for the cord, which is why makers use a melting form to make a slim tip (Printables 'Paracord Melting (Whipping) Form').
+- **Taking it apart:** Whipping and tape: removable (cut or unwind them off). Back splice: semi-permanent; it can be unpicked, but removing a splice 'leaves a distortion of the rope' (Wikipedia 'Rope splicing'). Melted, glued or dipped ends and glued or crimped aglets: permanent; cut the end off to remove them.
+- **How often it can be reused:** once: a finish is made for one end; to change it you cut it off and make a new one (a loosened West Country whipping can be re-tied a few times; Animated Knots)
+- **Sealing:** none: the finish keeps the fibres together but is not a water or air seal. Liquid whipping coats and protects the end 'from weather and abrasion' (Star brite), which is protection, not a watertight seal.
+- **Adjustable:** no: once made it stays where it is; to move or change it, cut it off and finish the end again
+- **Access needed:** end of a tube or shaft: you work on the cut end of the rope, cord or strap. Tape, or a painted ring of liquid whipping, can also go on in the middle of a length before you cut through it (Edelrid; Star brite; Wikipedia 'Whipping knot').
+- **Materials:** Which fibres can be melted: nylon (polyamide), polyester (Dacron), polypropylene and polyethylene, including ultra-high-molecular-weight polyethylene such as Dyneema (brand) (Wikipedia 'Whipping knot'; Animated Knots). Melting points: HMPE 149 °C, nylon 218-254 °C, polypropylene 166 °C and polyethylene 135 °C (SafeWork NSW rigging guide); RopeLab lists a decomposition point of 260 °C for polyester. Which can't: aramid (Kevlar, Technora, Twaron; brands) 'merely charred by heat' (Animated Knots), and natural cotton and hemp 'do not melt into a sealed end' (Ravenox); manila and sisal are natural too and need whipping or a glue finish ⚑ [uncertain: no opened source says manila or sisal can't be melted, though they are natural fibres (SafeWork NSW)]. Mixed ropes (Dyneema or aramid core in a polyester or nylon cover) don't fuse into one piece: 'the core is separated from the cover' (premiumropes), so glue them (Edelrid) or whip them. Twine: waxed polyester whipping twine (premiumropes) or traditional tarred hemp (marline) (Wikipedia 'Common whipping'). Aglets: plastic, copper or brass (Wikipedia 'Aglet'; Commons photo), printed PLA, PETG or flexible filament (Printables), or heat-shrink tubing (iFixit). Liquid whipping works 'on both natural and synthetic fibers' (Wikipedia 'Whipping knot'). Webbing (nylon or polyester) is hot-cut or melted the same way (iFixit 'Trim a Webbing Belt').
+- **Heat, cold, water and wear:** Heat: HMPE (Dyneema-type) fibre melts at 149 °C and starts to degrade at a 'critical temperature' of 65.5 °C; polypropylene melts at 166 °C and polyethylene at 135 °C (SafeWork NSW), so a sealed end of these ropes softens near a hot engine or heater, and the same low melting point is why they seal easily. Abuse: a thin hot-cut seal 'does not survive compression or abuse' (Animated Knots). Flexing: where a whipping will flex a lot, soak it with dilute spar varnish or superglue (Wikipedia 'Whipping knot'). Weather: liquid whipping is sold as weather- and abrasion-resistant (Star brite); printed rope end caps for boats should be 'ideally opaque and UV-resistant' (Printables 'Rope End Caps (Aglets)'). Wet natural fibre: manila 'will shrink in length and expand in diameter when wet' (SafeWork NSW), which can loosen or tighten a whipping as it wets and dries ⚑ [uncertain: no source says what this does to a whipping]. Shaking and wear: the square knot ending a West Country whipping 'can shake loose' (Animated Knots).
+
+## Making it
+
+- **Ways to make or get it:**
+  - hand ropework: whipping, back splice, tape and glue need no machine
+  - off-the-shelf part: whipping twine, hot knife, liquid whipping, heat-shrink tubing, plastic or metal aglets
+  - 3D print (FDM): printed melting forms that shape a melted paracord tip, printed aglets and rope end caps, and a printed aglet crimper (Printables models below)
+  - 3D print (resin): one printed rope-end-cap design soaks the rope tip in resin to stiffen it before the cap goes on (Printables 'Rope End Caps (Aglets)'); a resin-printed cap is possible but no source tested one ⚑ [uncertain]
+- **Printing it in one piece (print in place):** no: the finish is made on the rope itself, and printed aglets and caps are separate parts glued or screwed on. Among the printed helper tools, one melting-form remix prints already hinged ('prints fully assembled, no extra parts or screws required'; Printables 'Super Deluxe Paracord Melting Form – Print-in-Place Remix'); the original needs two M3 screws for its hinge.
+- **Tools:** A sharp knife or scissors. Whipping: whipping twine, and for the sailmaker's whipping a large needle (essential on braided or kernmantle rope) and a sailmaker's palm (Animated Knots; premiumropes). Heat sealing: a lighter or other flame, a hot knife (rope cutter, 'essentially just soldering irons with a cutting blade'), or a soldering iron; a heat-resistant surface and thin leather gloves (Edelrid). Back splice: none ('No additional tools or equipment are required', Animated Knots). Other finishes: tape; thin superglue (Edelrid); liquid whipping with its brush (Star brite); heat-shrink tubing plus a lighter or heat gun (iFixit); an aglet crimper for metal aglets (Printables 'Aglet Crimper').
+- **Difficulty:** easy for melting, tape, heat-shrink tips and the West Country whipping ('must be the easiest whipping to teach and learn', Animated Knots); moderate for the common whipping and back splice (a little practice); moderate to hard for the sailmaker's whipping on braided rope (needs a needle, a palm and care to space the frapping turns evenly; Animated Knots)
+
+### 3D printing tips
+
+1) Holes for cord in printed parts: a freely melted paracord end forms a bulb that won't go through a hole sized for the cord; one designer made a melting form because 'I always struggle getting a whipped (melted) paracord end though a reasonable size hole' (Printables 926284). Either make the hole a little bigger than the cord or shape the tip in a form. 2) Melting form use: start with a fresh cut (old melted ends stick), lay the cord in the groove with the cut end out of the wide funnel end, close the form, melt the tip without letting the flame touch it (touching chars it black), then pull the cord slowly through the form from the other side, and trim any wisp with side cutters (Printables 926284 and 1322380). The 'Super Deluxe' form fits 550 paracord of about 3.0-3.4 mm (Printables 1322380). 3) Form material: the author found 'the nylon from the paracord does not stick much to PLA' (Printables 926284); the print-in-place remix is printed flat in PETG at 0.2 mm layers with no supports (Printables 1462797). Work in a well-ventilated area and don't overheat the cord (same). 4) Printed aglets: one design comes in sizes for 2-6 mm laces, printed in PLA or PETG at 0.2 mm layers, 100% infill, no supports; wrap tape round the lace end, test the fit, then glue the lace into the tip (Printables 'Classic aglet 2-6mm'). A craft-cord end leaves 'a small amount of spare clearance' for superglue and prints best with a brim and support (Printables 'Craft Cord End (Aglet)'). A threaded aglet screws onto the lace, with glue optional (Printables 'Threaded Aglet – Screw-On Shoelace Tip'). 5) Rope end caps for 10-14 mm boat ropes: print at very slow speed with inner and outer brim and no supports, in flexible or rigid filament that is 'ideally opaque and UV-resistant'; the rope tip is stiffened with resin, filed to size and pushed in with adhesive (Printables 'Rope End Caps (Aglets)'). 6) Metal aglets: a printed crimper for 5 mm metal aglets prints best standing vertically (Printables 'Aglet Crimper'). 7) Typical failures: a cap or aglet that slips off (no glue, or too loose), a tip charred by the flame, and a wisp of melted plastic left on the tip.
+
+### Buying one (off-the-shelf parts)
+
+Search for: 'whipping twine' (waxed polyester), 'sail needles' and 'sailmaker's palm' (premiumropes); 'hot knife', 'rope cutter' or 'hot knife rope cutter' with rope and fabric blades (Practical Sailor names Engel, RoMech and Gonytia (brands); Edelrid); 'liquid rope whipping' or 'whip end dip' (e.g. Star brite Dip-It Whip-It (brand)); 'heat shrink tubing' (iFixit); 'aglets', 'lace tips' or 'cord ends', plastic or metal, and an 'aglet crimper' for metal ones (Wikipedia 'Aglet'; Printables); 'thin (low-viscosity) cyanoacrylate' (Edelrid); self-adhesive plastic tape (Wikipedia 'Whipping knot').
+
+## Rules of thumb
+
+- Width of a whipping, side by side: 'about equal to the diameter of the rope' (Ashley, ABOK p. 547, quoted by Wikipedia 'Whipping knot'; Animated Knots says the same for the West Country whipping); 'one and a half times wider than the rope is thick' (Wikipedia 'Common whipping'); 'approximately one and a half times the ropes diameter' (premiumropes).
+- Where to put it: a short distance, about one and a half rope diameters, from the end, then trim the rope end to no less than half the whipping's width beyond it (Wikipedia 'Common whipping'). The common whipping can go 'very close to the end of the rope, which is ideal if the end has already been melted' (Animated Knots).
+- Three to four recommended finishes and when to choose each (tying steps on Animated Knots): West Country whipping (ABOK #3458) when you want the easiest one with no needle, which fails slowly so you notice in time; common whipping (ABOK #3443) for a neat, quick finish with no visible ends, about 8 turns then 8 more over a loop of the twine, though it 'unravels very rapidly' if a turn is cut; sailmaker's whipping (ABOK #3446) for the most secure finish on ropes that are handled hard, with a needle on braided rope; back splice (ABOK #2813) for laid three-strand rope when you have no twine or tools, 'about three complete tucks', as long as the end needn't pass through blocks or holes (Animated Knots).
+- Melt and whip: 'nothing beats adding a properly applied whipping. If you value your ropes, whip and burn all their ends' (Animated Knots).
+- Heat sealing: a quick cut with a heated element 'provides very poor protection'; 'careful, prolonged heating' builds a thicker layer of solid plastic and protects better (Animated Knots). Use 'the cool (transparent) part of a butane lighter flame' (Wikipedia 'Whipping knot'), or hold the blue part of the flame close to the end without touching it (Printables 926284).
+- Tape first: wrap the end in a few turns of plastic tape before fusing and cut through the tape for a neater, narrower end (Wikipedia 'Whipping knot'); the same tape-and-cut start is used before gluing (Edelrid).
+- Hot knife: test the temperature on scrap first, cut larger ropes halfway from each side and then seal the ends, cut elastic bungee cord in one stroke at a slightly higher temperature so the cover and core fuse together, and cut on sheet metal or another heat-resistant surface (Practical Sailor).
+- Mixed-fibre and kernmantle ropes: where the core won't melt (aramid) whip short of the end, cut the core shorter than the sheath and melt the sheath over it (Animated Knots); for Dyneema or aramid cords, wrap tape, cut through it and soak the cut with thin superglue (Edelrid); 'Ropes with a braided core will always need a double-stitched whipping; a common whipping will slide off too easily' (premiumropes).
+- Liquid whipping: paint a ring where you will cut, let it dry, cut through the middle of the ring, then dip the end about 3/4 inch (about 19 mm) and leave it to dry overnight (Star brite directions).
+- Webbing ends: a 45° pointed tip 'is the easiest to feed through a buckle, but has the highest likelihood of fraying', and a square end 'is the least likely to fray' (iFixit 'Trim a Webbing Belt').
+- Heat-shrink aglet: cover only the frayed part, because tubing over sound lace 'could result in unwanted indents', and keep the flame moving all round the tube (iFixit 'How to Repair Frayed Shoelaces').
+
+## Common failures
+
+Whipping slides off or unravels: common whippings slide off easily and unravel quickly once a turn is cut (Wikipedia; Animated Knots); use a sailmaker's whipping, bury the ends with a needle, and melt the end too. West Country whipping loosens one half knot at a time (Animated Knots): retie it, or replace it with a better whipping. Melted end crumbles: a quick hot cut leaves too thin a layer (Animated Knots); heat longer and more evenly. Melted end has a fat bulb that won't fit through holes: shape it in a melting form (Printables 926284). End is black and charred: the flame touched the cord (Printables 926284); use the clear part of the flame. Core pulls back into the cover, or the cover slides off the core, on Dyneema- or aramid-cored rope: melting doesn't join different fibres (premiumropes; Edelrid); whip with stitches through the core or glue it. Back splice too bulky: use a whipping instead (Animated Knots). Tape peels off: it is only temporary (Wikipedia). Aglet slides off: glue it, or use a crimped metal aglet (Printables; Wikipedia 'Aglet'). Heat-shrink tip leaves dents in the lace: covered too much sound lace (iFixit).
+
+## Safety
+
+Burns: flames, hot knives and soldering irons burn, and molten nylon is hot and sticky; one maker 'tried rolling the hot end with my fingers (and got burned)' (Printables 926284). A hot-knife blade 'remains hot for a few minutes after use' (Practical Sailor). Wear heat-resistant gloves (ideally thin leather) and work on a heat-resistant surface (Edelrid). Fumes: 'When melting and bonding synthetic fibers, toxic vapors are generated that should not be inhaled' (Edelrid), and 'Melting plastic on the hot knife causes noxious fumes' (iFixit); work outdoors or in a well-ventilated room (Edelrid). Particle filters don't remove the smell; vent outside or use a carbon filter (Practical Sailor). Sharp sealed ends: Geoffrey Budworth calls heat sealing 'lazy and dangerous' after a hardened rope end sliced a tugboat operator's palm 'down to the sinews' as it pulled through his grip (Wikipedia 'Whipping knot', citing The Knot Book, 1985, p. 37). Glue: superglue needs gloves and ventilation (Edelrid); one liquid whipping carries a California Prop 65 warning for ethylbenzene and lead (Star brite). Strength: a finish adds no strength, and no home-made knot, splice or finished rope should ever hold a person.
+
+## Related
+
+- Stopper knots and cord-end anchors: stop a cord pulling out through a hole; a stopper doesn't stop fraying, so finish the end as well
+- Rope splices (eye splice, short splice, braided-rope splice): the back splice is the simplest splice; other splices make loops and joins
+- Binding knots and seizings (constrictor knot, seizing, cable lacing): a constrictor knot is the quick temporary stop before whipping; a seizing binds two ropes together rather than one end
+- Heat-shrink tubing (heat-shrink sleeve, adhesive-lined heat-shrink): the same tubing makes a quick aglet
+- Heat-sealed seam (heat-sealed plastic film and coated fabric): melting thermoplastic to join two pieces, rather than to seal one end
+- Cyanoacrylate (superglue): thin superglue soaks into and stiffens a cut end
+- Wire-end ferrule (bootlace ferrule, end sleeve): the electrical version, a metal tube crimped over the strands of a wire end
+- Lacing (cord through rows of holes or eyelets): aglets and slim melted tips make laces easy to thread
+- Sewn seams and hand stitches: folding and stitching a hem is the sewn way to stop a fabric or webbing edge fraying
+- Cord lock (spring toggle): often used together with a cord-end cap or a knot on a drawstring end
+
+## Make it yourself
+
+- [Paracord Melting (Whipping) Form - Melt neat and clean ends on paracord (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/926284-paracord-melting-whipping-form-melt-neat-and-clean): Two-part printed form: melt the cut end of paracord, then pull it through the funnel to get a slim tip without a bulb, so it fits through holes in printed parts *(licence: CC BY)*
+- [Super Deluxe Paracord Melting (Whipping) Form (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1322380-super-deluxe-paracord-melting-whipping-form-melt-n): Hinged version with grooves for 550 paracord of about 3.0-3.4 mm; hinge assembled with two M3 screws *(licence: CC BY-NC)*
+- [Super Deluxe Paracord Melting Form – Print-in-Place Remix (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1462797-super-deluxe-paracord-melting-form-print-in-place): Print-in-place version of the hinged melting form; printed flat in PETG with no supports *(licence: CC BY-NC)*
+- [Rope End Caps (Aglets) (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/624969-rope-end-caps-aglets): Printed end caps for 10-14 mm (3/8-1/2 inch) boat ropes, fitted over a resin-stiffened rope tip with adhesive *(licence: CC0 (Creative Commons Public Domain))*
+- [Classic aglet 2-6mm (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1740511-classic-aglet-2-6mm): Glue-on printed shoelace tips for 2-6 mm laces, about 1 g of PLA or PETG each *(licence: CC0 (Creative Commons Public Domain))*
+- [Aglet Crimper (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/421008-aglet-crimper): Printed crimping tool for metal aglets of about 5 mm diameter *(licence: CC BY)*
+
+## Pictures, videos and models
+
+- [Rope Care Knots (Animated Knots by Grog)](https://www.animatedknots.com/rope-care-knots): Index of animated step-by-step whippings (common, sailmaker's, West Country) and the back splice, with notes on which fibres can be heat-sealed and how to finish aramid-cored rope *(licence: Animated Knots content; link only)*
+- [Common whipping (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Common-whipping.png): Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under *(licence: CC BY-SA 3.0 (Hella, en.wikipedia))*
+- [Sailmaker's whipping (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Sailmakers.jpg): Photo of a finished sailmaker's whipping, with the frapping turns lying in the grooves of a three-strand rope *(licence: Public domain (Alan W. Grogono))*
+- [Rope ends heat sealed with an electric knife (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:FusedRopeEnds.png): Photo of braided rope ends fused with a hot knife, next to an unsealed frayed end (File:Frayed.png on the same article) *(licence: CC BY-SA 3.0 (NE Ent))*
+- [Three different aglets (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Three_Different_Aglets.jpg): Three identical shoelaces tipped with copper, plastic and brass aglets *(licence: CC BY-SA 3.0 (Ian W. Fieggen))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 3 sentences on this page marked [uncertain].
+- ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
+- ⚑ Research note: *Rope-end finishing*: recorded side by side: the common whipping's ABOK number (#3443 Animated Knots, #3442 Wikipedia); whipping width (about one rope diameter, Ashley via Wikipedia and Animated Knots, against 1.5 diameters, Wikipedia *Common whipping* and premiumropes); melt or whip synthetic rope (Wikipedia *Common whipping* says fuse; Animated Knots and Budworth say a whipping is better). One liquid whipping product carries a California Prop 65 warning.
+
+## Sources
+
+- <https://www.animatedknots.com/rope-care-knots>
+- <https://www.animatedknots.com/common-whipping-knot>
+- <https://www.animatedknots.com/sailmakers-whipping-knot>
+- <https://www.animatedknots.com/west-country-whipping-knot>
+- <https://www.animatedknots.com/back-splice-knot>
+- <https://en.wikipedia.org/wiki/Whipping_knot>
+- <https://en.wikipedia.org/wiki/Common_whipping>
+- <https://en.wikipedia.org/wiki/Sailmaker%27s_whipping>
+- <https://en.wikipedia.org/wiki/West_Country_whipping>
+- <https://en.wikipedia.org/wiki/Back_splice (redirects to 'Rope splicing')>
+- <https://en.wikipedia.org/wiki/Aglet>
+- <https://edelrid.com/fr-fr/knowledge/knowledge-base/how-to-cut-ropes (Edelrid Knowledge Base, 'How to cut ropes', English text)>
+- <https://www.premiumropes.com/blog/the-core-of-my-dyneema-rope-is-free-from-the-cover>
+- <https://www.ravenox.com/blogs/news/how-to-cut-and-finish-natural-and-synthetic-rope-without-fraying>
+- <https://www.practical-sailor.com/boat-maintenance/tools-gadgets/gonytia-hot-knife-proves-its-mettle/>
+- <https://www.ifixit.com/Guide/How+to+Repair+Frayed+Shoelaces/40139>
+- <https://www.ifixit.com/Guide/Trim+a+Webbing+Belt/181276>
+- <https://www.starbrite.com/products/star-brite-dip-it-whip-it-liquid-rope-whipping>
+- <https://www.nsw.gov.au/employment/dogging-and-rigging/guide/part-1-general-rigging-principles/lifting-equipment/fibre-rope-and-slings/construction-fibre-rope (SafeWork NSW rigging guide, synthetic rope comparison chart)>
+- <https://www.ropelab.com.au/rope-materials/ (RopeLab, 'Rope Materials', 2016)>
+- <https://commons.wikimedia.org/wiki/File:Common-whipping.png>
+- <https://commons.wikimedia.org/wiki/File:Sailmakers.jpg>
+- <https://commons.wikimedia.org/wiki/File:FusedRopeEnds.png>
+- <https://commons.wikimedia.org/wiki/File:Three_Different_Aglets.jpg>
+- <https://api.printables.com/graphql/ (Printables models 926284, 1322380, 1462797, 624969, 1740511, 826101 'Craft Cord End (Aglet)', 1486338 'Threaded Aglet – Screw-On Shoelace Tip', 421008 'Aglet Crimper'; pages not opened)>

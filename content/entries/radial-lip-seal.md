@@ -1,0 +1,267 @@
+---
+title: Radial lip seal
+description: A ring pressed into a round hole around a spinning shaft, whose spring-loaded rubber lip rides on the shaft on
+  a thin film of oil, so the shaft can turn for years while the oil stays in and dirt and splashes stay out.
+num: 295
+term: Radial shaft seal (rotary shaft lip seal), commonly called an oil seal
+plain_name: A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes
+  out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out
+aliases:
+- rotary lip seal, radial lip seal (Wikipedia 'Radial shaft seal')
+- oil seal, shaft seal (trade names used by suppliers; American Rubber Corp)
+- Simmerring or Simmer-Ring (brand of Freudenberg Sealing Technologies, often used as a generic name; Wikipedia)
+- Radial-Wellendichtring or RWDR (German, as in DIN 3760; Wikipedia, Wikimedia Commons)
+- gufero (Czech workshop name; Wikimedia Commons file titles)
+- 'TC oil seal (main lip plus dust lip) and SC oil seal (single lip): supplier type codes (American Rubber Corp)'
+- CR seal (SKF CR Seals product line), e.g. HMS5 and HMSA10 (SKF)
+- pressure radial shaft seal (short, stiff lip for hydraulic pumps and motors; Parker)
+- 'by use: crankshaft seal, axle seal, pinion seal, power steering seal, pump seal, valve stem seal (Wikipedia ''Radial shaft
+  seal'')'
+family: seals & pass-throughs
+other_families: ['hydraulics, pneumatics & vacuum']
+finder:
+  job:
+  - seal it, or pass cables or fluid through
+  motion: rotate
+  special_behaviour: []
+  holding_principle: [not a holding joint, friction or clamping, spring force]
+  reuse_cycles: once
+  seal: watertight
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), 3D print (resin)]
+  connects: [shaft]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [press or vice, hand tools]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: semi-permanent
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: worked out from its name, but joining parts is not one of its two main jobs
+  removability:
+    kind: source uncertain
+    reason: '`removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted
+      [uncertain].…"'
+confirmed: []
+open_points: []
+uncertain_fields: [materials, removability, reuse_cycles, adjustable, making_tips_3d_printing, safety_notes, common_failures]
+diagram_idea: Cross-section of a shaft passing out of an oil-filled box, with the seal's metal ring pressed in the hole, its
+  rubber lip pointing at the oil and a garter spring squeezing it on, plus an inset close-up showing the thin oil film under
+  the lip and arrows of oil being pumped back in as the shaft turns.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
+  title: Radial sealing CAD sectional view num.svg (Wikimedia Commons, by Jahobr, vectorised by Sunspeanzler)
+  shows: 'Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring,
+    sealing lip, garter spring and optional dust lip'
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
+  title: RWDR mit Fettpunkten im Schnitt (Wikimedia Commons, by Christoph Olbrich)
+  shows: Schematic cross-section of a radial shaft seal with grease applied to the sealing edge
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
+  title: Gufero s prachovkou (Wikimedia Commons, photo by Juandev)
+  shows: Photo of a real radial shaft seal with a dust lip
+  license: CC BY-SA 3.0
+- url: https://www.ashtonseals.co.uk/files/mydocs/parker/radial-shaft-seals.pdf
+  title: Radial Shaft Seals catalogue (Parker Hannifin, PDF hosted by Ashton Seals)
+  shows: Cross-section drawings of seal profiles, the lip contact area, and dimensioned shaft and bore chamfer drawings
+  license: link only
+- url: https://cdn.skfmediahub.skf.com/api/public/0901d196807662c1/pdf_preview_medium/810-701_CRSeals_Handbook_Nov_2024_pdf_preview_medium.pdf
+  title: 'CR Seals handbook: Industrial shaft seals (SKF, November 2024)'
+  shows: Installation tool drawings, wear sleeve fitting steps, and photos of common seal failures (cut lips, wear, cracking,
+    inverted lips)
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/1009455-oil-seal-installer-40mm-id-x-55mm-od
+  title: Oil Seal Installer - 40mm ID x 55mm OD (Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable driver that presses a 40 x 55 mm oil seal in evenly; a bolt and washer through the centre can apply
+    even pressure
+  license: CC BY-NC
+- url: https://www.printables.com/model/683255-anchor-windlass-shaft-seal-powermate-powerwinch-50
+  title: Anchor Windlass shaft seal Powermate Powerwinch 501 (Printables) (URL from Printables API, page not opened)
+  what_it_is: An improvised replacement shaft seal printed in 95A TPU (about 90 mm ID, 114 mm OD), greased and fitted to a
+    boat winch; the maker says time will tell how long it lasts
+  license: CC BY
+- url: https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer
+  title: Kitchenaid Motor Shaft Seal - Pro Mixer (Printables) (URL from Printables API, page not opened)
+  what_it_is: Printed replacement for the seal between a stand mixer's motor shaft and its gearbox, made after gearbox grease
+    leaked into the motor
+  license: CC BY-SA
+sources:
+- https://en.wikipedia.org/wiki/Radial_shaft_seal
+- https://www.ashtonseals.co.uk/files/mydocs/parker/radial-shaft-seals.pdf
+- https://www.skf.com/skf/campaign/newindustrialoffers/upload/products/Radial%20Shaft%20Seals%20for%20catalogue%20gearboxes/Maximizing%20bearing%20performance.pdf
+- https://allsealsinc.com/skf/SKF_catalog.pdf
+- https://cdn.skfmediahub.skf.com/api/public/0901d196807662c1/pdf_preview_medium/810-701_CRSeals_Handbook_Nov_2024_pdf_preview_medium.pdf
+- https://www.americanrubbercorp.com/products/oil-seals/oil-seal-size-chart/
+- https://bluerobotics.com/store/thrusters/t100-t200-thrusters/t200-thruster-r2-rp/
+- https://discuss.bluerobotics.com/t/marine-rotary-shaft-seal/15372
+- https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm
+- https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+- http://thrinter.com/creep-abs-pla-petg-alloy-910/
+- https://www.printables.com/model/1009455-oil-seal-installer-40mm-id-x-55mm-od
+- https://www.printables.com/model/683255-anchor-windlass-shaft-seal-powermate-powerwinch-50
+- https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer
+- https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
+- https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
+- https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
+research: research/connection-types/results/Radial_lip_seal_rotary_shaft_seal_oil_seal.json
+---
+
+A ring pressed into a round hole around a spinning shaft, whose spring-loaded rubber lip rides on the shaft on a thin film of oil, so the shaft can turn for years while the oil stays in and dirt and splashes stay out.
+
+**In plain words:** A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out. **Proper term:** Radial shaft seal (rotary shaft lip seal), commonly called an oil seal.
+
+**Also called:** rotary lip seal, radial lip seal (Wikipedia 'Radial shaft seal'); oil seal, shaft seal (trade names used by suppliers; American Rubber Corp); Simmerring or Simmer-Ring (brand of Freudenberg Sealing Technologies, often used as a generic name; Wikipedia); Radial-Wellendichtring or RWDR (German, as in DIN 3760; Wikipedia, Wikimedia Commons); gufero (Czech workshop name; Wikimedia Commons file titles); TC oil seal (main lip plus dust lip) and SC oil seal (single lip): supplier type codes (American Rubber Corp); CR seal (SKF CR Seals product line), e.g. HMS5 and HMSA10 (SKF); pressure radial shaft seal (short, stiff lip for hydraulic pumps and motors; Parker); by use: crankshaft seal, axle seal, pinion seal, power steering seal, pump seal, valve stem seal (Wikipedia 'Radial shaft seal').
+
+## How it works
+
+The seal is pressed into the housing hole with a tight fit (interference fit), which stops it turning and seals around its outside (Parker, p. 8). Its lip is made slightly smaller than the shaft and the garter spring squeezes it on, with a light force of about 0.1-0.15 N per millimetre of shaft circumference, touching along a band only about 0.2 mm wide (Parker, pp. 7-8). When the shaft turns, the lip lifts very slightly on a thin film of oil, and the lip's shape (a steeper angle on the oil side) plus tiny surface textures pump any escaping oil back inside (pump-back), so it runs lubricated instead of dry (Parker, p. 8; Wikipedia). An O-ring squeezed hard against a fast-turning shaft would rub dry and wear through; the lip seal's light, oil-lubricated contact is what lets it live on a spinning shaft.
+
+## Parts
+
+A small assembly that acts as one unit: a metal stiffening ring (metal insert or case), a rubber body with the main sealing lip, a ring-shaped coil spring that squeezes the lip (garter spring), and often a second small dust lip (Parker 'Radial Shaft Seals' catalogue, p. 7; Wikimedia Commons 'Radial sealing CAD sectional view'). It also needs a hard, smooth shaft and a round housing hole (bore) of the right size.
+
+## Everyday examples
+
+- The seals where the crankshaft and the axles come out of a car's engine and gearbox, and in the power steering pump (Wikipedia 'Radial shaft seal')
+- The seal on a washing machine's pump or drum shaft (Parker lists washing machines; Wikimedia Commons photos of a washing-machine pump seal)
+- The seal on the motor shaft of a stand mixer's gearbox, which stops grease getting into the motor (Printables 'Kitchenaid Motor Shaft Seal')
+- Seals in power drills, industrial gearboxes and wind turbines (Parker, p. 7)
+
+## When to use it
+
+Use a lip seal wherever a turning shaft comes out of something filled with oil or grease, such as a gearbox, a pump, a motor housing or a bearing block, and you need to keep the lubricant in and dust, dirt and splashes out (SKF seals overview; Parker). It is cheap, standard, compact and handles continuous rotation at high speed for a long time, provided the shaft is hard and smooth, the lip is lubricated and the pressure is low. Choose one with a dust lip where there is dirt outside (Parker, p. 7) and a pressure-rated type for hydraulic pumps and motors (Parker).
+
+## When not to use it
+
+Don't use one on parts that don't turn (use an O-ring or a gasket), on a sliding rod (use a rod seal and wiper; SKF seals overview), or where you only need to keep out dust and splashes with no friction or wear (use a labyrinth seal or a V-ring). Avoid it where the lip would run dry or on a soft or printed shaft (Parker: dry running wears the lip). For real pressure, use a pressure-rated lip seal or a mechanical face seal; a Blue Robotics forum member notes that lip seals 'need more force to turn as the pressure increases' and suggests keeping the shaft small (Blue Robotics forum). For underwater robots, flooded motors avoid shaft seals altogether: the Blue Robotics T200 thruster 'eliminates the need for shaft seals, magnetic couplings, and air- or oil-filled compartments' (Blue Robotics). To drive through a wall with no leakage at all, use a magnetic coupling.
+
+## Details
+
+- **What it does (jobs):**
+  - seal it, or pass cables or fluid through: lets a turning shaft pass through the wall of an oil- or grease-filled housing (gearbox, pump, motor, bearing) while keeping lubricant in and dirt, dust and splashed water out (SKF overview: retain the lubricant, separate two media, seal under pressure, exclude dirt and moisture)
+- **Movement:** rotate: the shaft turns continuously inside the seal, in either direction, at surface speeds up to about 12 m/s for nitrile rubber and up to 40 m/s for fluororubber in Parker's standard seal (Parker, p. 14). It is made for turning, not sliding: sliding rods use rod seals and wipers instead (SKF seals overview).
+- **Directions it can move (degrees of freedom):** 1: the shaft turns relative to the housing. The seal does not guide or support the shaft; bearings must do that, and the seal should sit close to a bearing so the shaft doesn't wobble under the lip (Parker, p. 12).
+- **Special behaviour:**
+  - none: it just seals. Its clever side is that the lip follows small wobbles of the shaft (it is spring-loaded and flexible) and actively pumps leaking oil back inside when the shaft turns (pump-back effect) (Parker, pp. 7-8; SKF HMS5 brochure)
+- **How it holds:**
+  - not a holding joint (it moves or passes on motion): it does not hold parts together
+  - friction or clamping (force-fit): the seal itself stays in the housing by a press fit of its outside diameter in the bore (Parker, p. 9)
+  - spring force (a spring or springy part presses it in place): the garter spring and the rubber's own springiness keep the lip pressed on the shaft (Parker, p. 7)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** light: it carries no load and 'must not be axially strained and must not be used to transmit forces' (Parker, p. 11). The shaft has to be held by bearings; the seal only needs a light press fit in its bore.
+- **Play and precision:** not applicable for locating. It needs accurate parts around it: shaft tolerance h11 and bore tolerance H8 (Parker, pp. 10-11; SKF HMS5 brochure). The lip tolerates small shaft wobble (runout) and offset between shaft and bore, but less at high speed, because the lip cannot follow fast enough, and pressure seals tolerate 50-70% less (Parker, p. 12).
+- **Taking it apart:** semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain]. Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).
+- **How often it can be reused:** once: treat it as a replacement part; a seal whose lip is dirty, cut or otherwise damaged will leak and should be replaced (SKF CR Seals handbook, installation checklist); whether an undamaged seal can safely be refitted is not stated there ⚑ [uncertain]
+- **Sealing:** watertight: the lip keeps oil in and splashes and dirt out, but standard seals are only for near-zero pressure, about 0.5 bar or less (Parker VA, p. 14; SKF HMS5: 0.03 MPa = 0.3 bar). Special pressure seals with short stiff lips, and metal back-up rings for the higher ratings, handle 10, 30 or 60 bar in hydraulic pumps and motors (Parker VP, VT and VV types, pp. 49-60).
+- **Adjustable:** No. The only choices are how deep it is pressed in (so a new lip can run on an unworn part of the shaft ⚑ [uncertain]) and fitting a thin wear sleeve over a grooved shaft so the original seal size still fits (SKF Speedi-Sleeve (brand), 0.28 mm wall; SKF seals overview).
+- **Access needed:** end of a tube or shaft: the seal slides on over the end of the shaft and is pressed into the bore from one side. For big shafts that can't be pulled out, split seals that wrap round the shaft exist (SKF CR Seals handbook, split seals HS8).
+- **Materials:** Lip rubbers (Parker, p. 13): nitrile rubber (NBR, -30 to +100 C, the standard choice for mineral oils), hydrogenated nitrile (HNBR, -35 to +140 C), fluororubber (FKM, Viton (brand), -20 to +200 C), silicone (MVQ, -60 to +200 C) and EPDM (-40 to +150 C); also polyacrylate (ACM) and ethylene-acrylic (AEM) (Wikipedia) and PTFE lips for special duty (Parker; SKF). Rubber hardness is typically 70-85 Shore A (Wikipedia). Case: mild or stainless steel; spring: spring steel or stainless (Parker; SKF HMS5). The shaft must be hard steel (at least 45 HRC) or fitted with a hard stainless wear sleeve (Parker, p. 11; SKF). Printed plastic is not a suitable running surface for the lip ⚑ [uncertain].
+- **Heat, cold, water and wear:** Temperature depends on the rubber: nitrile -30 to +100 C, HNBR -35 to +140 C, FKM -20 to +200 C, silicone -60 to +200 C, EPDM -40 to +150 C (Parker, p. 13). Friction heat at the lip is the main limit; it hardens nitrile and causes axial cracks (Parker, p. 6), and life roughly halves for each 10 C rise (Parker). FKM can harden and crack when amine additives in some oils react with it, generally at 210 F (about 99 C) or more (SKF CR Seals handbook). Rubber ages in heat, sunlight (UV) and ozone: SKF says to store seals at 15-25 C and 40-70% humidity, away from sunlight, electric motors and fluorescent lights (which make ozone), and never hang them on a nail, which distorts the lip (SKF CR Seals handbook, pp. 32-33). Check that the rubber suits the fluid (Parker). A printed housing softens long before the seal does: PLA at about 60 C, PETG at about 80 C (CNC Kitchen).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: the seal is always bought, by shaft diameter x bore diameter x width in mm, e.g. '10 x 22 x 7' (American Rubber Corp), to DIN 3760 or ISO 6194 sizes (Wikipedia)
+  - CNC (lathe): the classic way to make the bore and the shaft seat; the shaft running surface is then hardened and plunge-ground and polished (Parker, p. 10)
+  - 3D print (FDM) or 3D print (resin): only for the housing that holds the seal (with care over bore size) and for seal-installation tools (Printables 'Oil Seal Installer'); printed TPU seals are improvised one-off repairs (Printables winch shaft seal)
+- **Printing it in one piece (print in place):** no: the seal is a bought rubber-and-metal part pressed into a housing; even improvised TPU replacements are printed separately and fitted (Printables 'Anchor Windlass shaft seal')
+- **Tools:** press or seal driver: an arbor press if possible, otherwise a soft-faced hammer on an installation tool whose outside diameter is larger than the bore, so the seal goes in square (SKF CR Seals handbook, pp. 24-25). A thin-walled installation sleeve to cover keyways, splines, threads or sharp shoulders (SKF CR Seals handbook; Parker, p. 11), the oil or grease to be sealed for pre-lubricating the lip, and a seal puller or pry tool for removal. Printable seal drivers exist (Printables 'Oil Seal Installer').
+- **Difficulty:** moderate: buying a standard seal and pressing it in is easy, but the shaft needs a hard, smooth, ground surface and the bore must be round and accurately sized, which a 3D printer can't make directly, so use a bought hardened shaft or wear sleeve and size-test the bore
+
+### 3D printing tips
+
+1) Buy the seal first and design around it; sizes are written shaft x bore x width (American Rubber Corp). 2) Choose a seal with a rubber-covered outside (e.g. TC or SC type): SKF says a rubber outside diameter seals well 'also at considerable surface roughness or a split housing' (SKF HMS5 brochure), which suits a printed or split housing better than a bare metal outside ⚑ [uncertain as applied to prints]. 3) The bore must grip the seal: real seals are made about 0.08-0.30 mm bigger than a bore of up to 50 mm (press-fit allowance, Parker, p. 9) and bores are toleranced H8, so print a test ring of bore sizes, or print slightly small and ream or bore it out; alternatively hold the seal with a screwed-on retaining plate ⚑ [uncertain]. 4) Add a 15-30 degree lead-in chamfer at the mouth of the bore (SKF CR Seals handbook, p. 48) and make the bore at least the seal width plus 0.3 mm deep (SKF, p. 48); add two small push-out holes in the bottom shoulder for later removal (SKF, p. 48). 5) Never let the lip run on plastic or soft metal: the shaft surface needs at least 45 HRC and Ra 0.2-0.6 micrometres with no spiral grinding marks (Parker, pp. 10-11). Use a hardened, ground steel shaft or press an SKF Speedi-Sleeve (brand) or similar wear sleeve over it ⚑ [uncertain whether ordinary linear-motion rods meet the no-spiral requirement]. 6) Chamfer the shaft end, and cover keyways, flats, threads and set-screw holes with a thin printed or tape sleeve while sliding the seal on (SKF CR Seals handbook; Parker, p. 11: thin-walled plastic or aluminium sleeves). 7) Press it in square with a flat driver whose outside is larger than the bore; printable seal drivers exist (Printables 'Oil Seal Installer'); don't hit the seal directly (SKF CR Seals handbook). 8) Point the main lip at the oil (SKF CR Seals handbook) and wipe the lip with the oil or grease being sealed before fitting; fill only about 30% of the gap between the main lip and dust lip with grease (Parker, p. 7). 9) Mount the seal close to a bearing so the shaft can't wobble under the lip (Parker, p. 12). 10) Printed housings near hot gearboxes or motors: PLA starts to soften at about 60 C and PETG at about 80 C (CNC Kitchen), and PLA creeps under constant stress (Thrinter), which can loosen a press fit over time; PETG, ASA or nylon, or a retaining plate, are safer ⚑ [uncertain]. 11) Printed TPU 'shaft seals' are a stop-gap: one maker printed a winch shaft seal in 95A TPU with 3 perimeters and grease and says 'time will tell how long it lasts' (Printables).
+
+### Buying one (off-the-shelf parts)
+
+Search: 'oil seal' or 'radial shaft seal' plus size, e.g. '12x22x7 TC NBR' (TC = main lip plus dust lip, SC = single lip; American Rubber Corp), 'rotary shaft seal DIN 3760', 'FKM oil seal' or 'Viton oil seal' (brand) for heat, 'Simmerring' (brand, Freudenberg), SKF HMS5 (single lip) and HMSA10 (with auxiliary lip) (SKF HMS5 brochure), Parker VA (single lip) and VB (with dust lip) (Parker). Pressure-rated 'pressure radial shaft seal' for hydraulic pumps (Parker VP to VW). Repairs: 'wear sleeve' or 'Speedi-Sleeve' (brand) (SKF). Tools: 'seal driver set' or 'bearing and seal driver kit', 'seal puller', 'installation sleeve'. Related seals: 'V-ring seal' (axial secondary seal) (SKF seals overview).
+
+## Rules of thumb
+
+- Shaft hardness at least 45 HRC with at least 0.3 mm hardened depth; at least 55 HRC above 4 m/s surface speed, in heavy dirt or at 0.5-5 bar; 60-65 HRC at higher pressures (Parker 'Radial Shaft Seals' catalogue, p. 11).
+- Shaft surface roughness Ra 0.2-0.6 micrometres (Rz 1-4, Rmax under 6.3) for standard DIN 3760 seals, and Ra 0.2-0.4 for pressure seals (Parker, p. 11). SKF gives Ra 0.2-0.8 (DIN 3760) or 0.2-0.5 (ISO 6194) (SKF HMS5 brochure). Too rough wears the lip; overly smooth can leak early (SKF CR Seals handbook, failure modes).
+- No spiral marks: finish the running surface by plunge grinding then polishing, so there is no thread-like 'lead' that pumps oil out; a string resting on the oiled, turning shaft that drifts sideways shows lead (Parker, p. 10; SKF CR Seals handbook, p. 48: directionality 0 plus or minus 0.05 degrees).
+- Fits: shaft h11, housing bore H8 with Ra 1.6-4 micrometres (Parker, pp. 10-11; SKF HMS5 brochure gives bore Ra 1.6-6.3 for DIN 3760).
+- Shaft lead-in chamfer 15-30 degrees, reducing the diameter by 1.5 mm for shafts under 10 mm, 2.0 mm for 10-20 mm, 2.5 mm for 20-30 mm, 3.0 mm for 30-40 mm and 3.5 mm for 40-50 mm (Parker, p. 11).
+- Bore: 15-30 degree lead-in chamfer, and depth at least the seal width plus 0.3 mm for metric metal-reinforced seals (SKF CR Seals handbook, p. 48).
+- Pressure: standard seals 0.5 bar or less (Parker VA, p. 14), and less as speed rises: 0.5 bar up to 1,000 rpm (2.8 m/s), 0.35 bar up to 2,000 rpm, 0.2 bar up to 3,000 rpm (Parker, p. 10).
+- Speed limits for Parker's standard seal: nitrile 12 m/s, HNBR 25 m/s, fluororubber 40 m/s (Parker, p. 14); SKF HMS5 nitrile up to 14 m/s (SKF HMS5 brochure). Surface speed in m/s = 3.14 x shaft diameter (mm) x rpm / 60,000, e.g. a 20 mm shaft at 3,000 rpm runs at about 3.1 m/s (worked example).
+- Heat is the enemy: the service life of the system can be cut in half by each 10 C rise at the lip contact (Parker, p. 6).
+- Lip load is only about 0.1-0.15 N per mm of circumference, rising 2-5 times in pressure seals (Parker, p. 7); the lip touches a band about 0.2 mm wide (Parker, p. 8).
+- Fill only about 30% of the space between the main lip and the dust lip with grease (Parker, p. 7).
+
+## Common failures
+
+Leaks from a nicked or cut lip, caused by sliding it over keyways, splines, threads or sharp edges or by sharp tools: cover them with a sleeve or tape and keep screwdrivers away from the lip (SKF CR Seals handbook, failure modes). Damage during fitting from a missing bore chamfer, hitting the seal directly or an undersized bore (SKF). Fitted backwards: the main lip must face the oil (SKF). Excessive wear from a rough shaft, dirt, lack of lubrication, too much interference or pressure (SKF). Lip turned inside out by pressure or poor assembly (SKF). Spiral grinding marks on the shaft that pump oil out (Parker, p. 10). A worn groove in the shaft under the old lip: fit a wear sleeve (SKF). Overheating: nitrile hardens and cracks (Parker; SKF). Running dry, especially the dust lip, if not greased at fitting (Parker, p. 7). Shaft wobble or misalignment beyond what the lip can follow, worse at high speed; fit the seal close to a bearing (Parker, p. 12). A soft or plastic shaft that the lip wears into ⚑ [uncertain].
+
+## Safety
+
+Fluororubber (FKM, Viton (brand)) and PTFE seals give off dangerous fumes above 300 C, e.g. in a fire or when parts are cut or burned; SKF says to see a doctor after skin contact with residues or breathing the vapour (SKF seals overview, 'Important safety note'). Seals on hydraulic pumps and motors can hold oil under pressure (pressure seals up to 60 bar; Parker): release the pressure before working on them, because fluid jets can inject oil through the skin, possibly at pressures as low as 7 bar, and need urgent hospital treatment (HSE safety bulletin 'Hydraulic injection injury'). Keep hair, sleeves and fingers clear of turning shafts while testing ⚑ [uncertain]. When hammering a seal in, use a soft-faced hammer on a driver, not on the seal (SKF CR Seals handbook).
+
+## Related
+
+- O-ring seal: the standard seal for parts that don't move or move slowly; on a fast-spinning shaft a lip seal is used instead
+- Labyrinth seal (baffle seal): no contact, so no wear or friction, but only keeps out dust and splashes; often paired with a lip seal
+- V-ring seal (axial lip seal): an all-rubber ring that turns with the shaft and seals against a flat face; used as a secondary seal or slinger in front of a lip seal (SKF seals overview)
+- Mechanical face seal (rotating face seal): two very flat hard rings (often ceramic) rubbing face to face, for pumps and higher pressures (Wikipedia; Blue Robotics forum)
+- Magnetic coupling: passes turning motion through a closed wall so no shaft seal is needed
+- Gasket and silicone sealant: for static joints in the same housing (covers and flanges)
+- Bellows boot (gaiter): a flexible dust cover for sliding or bending joints rather than spinning shafts
+- Slip ring and rotary union: a rotary union uses rotating seals to carry fluid into a turning shaft
+- Rod seal and wiper: the sliding-rod equivalent used in hydraulic cylinders (SKF seals overview)
+
+## Make it yourself
+
+- [Oil Seal Installer - 40mm ID x 55mm OD (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1009455-oil-seal-installer-40mm-id-x-55mm-od): Printable driver that presses a 40 x 55 mm oil seal in evenly; a bolt and washer through the centre can apply even pressure *(licence: CC BY-NC)*
+- [Anchor Windlass shaft seal Powermate Powerwinch 501 (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/683255-anchor-windlass-shaft-seal-powermate-powerwinch-50): An improvised replacement shaft seal printed in 95A TPU (about 90 mm ID, 114 mm OD), greased and fitted to a boat winch; the maker says time will tell how long it lasts *(licence: CC BY)*
+- [Kitchenaid Motor Shaft Seal - Pro Mixer (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer): Printed replacement for the seal between a stand mixer's motor shaft and its gearbox, made after gearbox grease leaked into the motor *(licence: CC BY-SA)*
+
+## Pictures, videos and models
+
+- [Radial sealing CAD sectional view num.svg (Wikimedia Commons, by Jahobr, vectorised by Sunspeanzler)](https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg): Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring, sealing lip, garter spring and optional dust lip *(licence: CC BY-SA 3.0)*
+- [RWDR mit Fettpunkten im Schnitt (Wikimedia Commons, by Christoph Olbrich)](https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png): Schematic cross-section of a radial shaft seal with grease applied to the sealing edge *(licence: CC BY-SA 3.0)*
+- [Gufero s prachovkou (Wikimedia Commons, photo by Juandev)](https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg): Photo of a real radial shaft seal with a dust lip *(licence: CC BY-SA 3.0)*
+- [Radial Shaft Seals catalogue (Parker Hannifin, PDF hosted by Ashton Seals)](https://www.ashtonseals.co.uk/files/mydocs/parker/radial-shaft-seals.pdf): Cross-section drawings of seal profiles, the lip contact area, and dimensioned shaft and bore chamfer drawings *(licence: link only)*
+- [CR Seals handbook: Industrial shaft seals (SKF, November 2024)](https://cdn.skfmediahub.skf.com/api/public/0901d196807662c1/pdf_preview_medium/810-701_CRSeals_Handbook_Nov_2024_pdf_preview_medium.pdf): Installation tool drawings, wear sleeve fitting steps, and photos of common seal failures (cut lips, wear, cracking, inverted lips) *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain].…"
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Radial_shaft_seal>
+- <https://www.ashtonseals.co.uk/files/mydocs/parker/radial-shaft-seals.pdf>
+- <https://www.skf.com/skf/campaign/newindustrialoffers/upload/products/Radial%20Shaft%20Seals%20for%20catalogue%20gearboxes/Maximizing%20bearing%20performance.pdf>
+- <https://allsealsinc.com/skf/SKF_catalog.pdf>
+- <https://cdn.skfmediahub.skf.com/api/public/0901d196807662c1/pdf_preview_medium/810-701_CRSeals_Handbook_Nov_2024_pdf_preview_medium.pdf>
+- <https://www.americanrubbercorp.com/products/oil-seals/oil-seal-size-chart/>
+- <https://bluerobotics.com/store/thrusters/t100-t200-thrusters/t200-thruster-r2-rp/>
+- <https://discuss.bluerobotics.com/t/marine-rotary-shaft-seal/15372>
+- <https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm>
+- <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
+- <http://thrinter.com/creep-abs-pla-petg-alloy-910/>
+- <https://www.printables.com/model/1009455-oil-seal-installer-40mm-id-x-55mm-od>
+- <https://www.printables.com/model/683255-anchor-windlass-shaft-seal-powermate-powerwinch-50>
+- <https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer>
+- <https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg>
+- <https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png>
+- <https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg>

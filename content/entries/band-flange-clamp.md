@@ -1,0 +1,288 @@
+---
+title: Band flange clamp
+description: A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it
+  is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
+num: 170
+term: V-band clamp (V-section band clamp, Marman clamp); the food and brewing version is the tri-clamp (sanitary clamp coupling)
+plain_name: 'A hinged metal ring with a V-shaped groove inside: you wrap it round two pipe ends that each have a lip, tighten
+  one nut or flip one lever, and the V squeezes the lips together so the joint holds and seals'
+aliases:
+- Marman clamp / Marman ring (after the Marman Products Company)
+- V-band coupling, V-retainer coupling, V-section band clamp (engineering papers)
+- clamp band / clamp band joint (spacecraft separation systems)
+- exhaust V-band, turbo V-band (cars)
+- tri-clamp, Tri-Clamp (brand), tri-clover fitting, Tri-Clover (brand)
+- sanitary fitting, sanitary clamp, hygienic clamp coupling, clamp ferrule, S-clamp fitting, 3A pipe fitting
+- ISO 2852 / DIN 32676 / BS 4825-3 / ASME BPE / SMS 3019 clamp fittings (standards the sizes follow)
+- single pin hinge clamp, double pin hinge clamp, high pressure (bolted) clamp, squeeze clamp (tri-clamp styles)
+- 13MHHM clamp (a common tri-clamp part-number series)
+- KF flange clamp / QF (Quick Flange) / Klein Flansch / NW flange clamp (vacuum-system version with a centring ring and O-ring)
+- clamp-together ducting clip (dust extraction; e.g. Nordfab Quick-Fit (brand))
+- band flange clamp, flange band clamp
+- grooved pipe coupling, grooved coupling, sleeve-clamp fitting (the grooved-pipe cousin for large steel pipe); Victaulic
+  (brand) coupling (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting')
+family: quick-release & tool-free
+other_families:
+- seals & pass-throughs
+- clamping, magnetic & friction connections
+- locating & alignment
+- over-centre, toggle & cam clamps
+finder:
+  job:
+  - join and hold
+  - seal it, or pass cables or fluid through
+  - line parts up exactly
+  - lock, and release by hand
+  motion: none
+  special_behaviour: [quick-release, self-aligning or self-centring, over-centre]
+  holding_principle: [friction or clamping, shape]
+  reuse_cycles: many times
+  seal: airtight or pressure
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), sheet metal]
+  connects: [hoses or pipes]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [none, welding or brazing torch, press or vice, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: partly
+  removability: tool-free quick release
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points: []
+uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, when_not_to_use, safety_notes]
+diagram_idea: 'A cross-section through the joint: two pipe ends with sloped flange backs and a gasket between them, the V-band
+  around them; arrows show band tension going round the ring, turning into inward arrows at the V, and then into arrows along
+  the pipe pressing the faces and gasket together.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif
+  title: Typical Marman Clamp System (Wikimedia Commons, from NASA guideline GD-ED-2214)
+  shows: 'Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together'
+  license: Public domain (NASA)
+- url: https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg
+  title: Marman clamp flanges (Wikimedia Commons, by Andy Dingley)
+  shows: Photo of aerospace duct and fuel hose ends with the flanges that Marman clamps grip
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Engine_research_(9069970928),_clamp.jpg
+  title: Engine research, clamp (Wikimedia Commons, Oak Ridge National Laboratory)
+  shows: Close-up photo of a Marman (V-band) clamp, cropped from an Oak Ridge National Laboratory engine-research photo
+  license: CC BY 2.0
+- url: https://www.youtube.com/watch?v=IUru_JmA1YU
+  title: How to Assemble a Tri-Clamp® Connection (Central States Industrial, YouTube)
+  shows: Putting together two ferrules, a gasket and a hinged clamp (title and channel verified via YouTube oEmbed)
+  license: link only (standard YouTube licence)
+- url: https://burnsstainless.com/blogs/articles-1/the-tech-behind-the-v-band-clamp
+  title: The Tech Behind the V-Band Clamp (Burns Stainless)
+  shows: Illustrated explanation of how band tension becomes axial load, the 40° flange angle, and one-, two-, three- and
+    four-segment clamps
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/1844054-v-band-clamp-quick-release
+  title: V-band clamp, quick release (Rick, Printables) (URL from Printables API, page not opened)
+  what_it_is: 'A printable PETG V-band clamp for joining tubes with an airtight seal: two printed tube interfaces (one with
+    an O-ring groove), a band with three glued-on V-blocks, an M5x50 bolt and nut, and a 31x1.5 mm NBR O-ring'
+  license: CC BY-SA
+- url: https://www.printables.com/model/401121-triclamp-dn25
+  title: TriClamp DN25 (Tomas, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printable DN25 tri-clamp ferrule with a 50.50 mm flange, printed in PETG and used with stainless pipes; the
+    author prints it with the 'Seamside' on a flat PEI bed
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/1354955-triclamp-15-adapter-for-speidel-airlock
+  title: Triclamp 1.5" adapter for Speidel Airlock (irohlfs, Printables) (URL from Printables API, page not opened)
+  what_it_is: An adapter that fits a fermentation airlock onto a 1.5 in tri-clamp port on a home-brew fermenter
+  license: CC BY-NC
+- url: https://www.printables.com/model/36103-big-mouth-bubbler-tri-clamp
+  title: Big Mouth Bubbler Tri-Clamp (JMcK, Printables) (URL from Printables API, page not opened)
+  what_it_is: A fully printed 'tri-clamp-ish' collar, adapter ring and pin that holds a fermenter lid on; shows the band-over-flange
+    idea in plastic with no hardware
+  license: CC BY
+sources:
+- https://en.wikipedia.org/wiki/Marman_clamp
+- https://upload.wikimedia.org/wikipedia/commons/e/ee/Guideline_No._GD-Ed-2214_Marman_Clamp_Systems_Design_Guidelines.pdf
+- https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif
+- https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg
+- https://commons.wikimedia.org/wiki/File:Engine_research_(9069970928),_clamp.jpg
+- https://burnsstainless.com/blogs/articles-1/the-tech-behind-the-v-band-clamp
+- https://exoracing.co.uk/blog/what-is-a-vband-clamp/
+- https://en.wikipedia.org/wiki/ISO_2852
+- https://en.wikipedia.org/wiki/Vacuum_flange
+- https://traskinstrumentation.com/pdf/app_notes/Tri-Clamp_Connection.pdf
+- https://hollandapt.com/wp-content/uploads/2022/11/1580486715Gasket-Dimensional-Chart.pdf
+- https://www.mgnewell.com/wp-content/uploads/2019/07/A-toast-to-triclamps.pdf
+- https://www.geterbrewed.com/blog/2024/07/03/tri-clamp-fittings-understanding-the-basics/
+- https://www.nordfab.com/en/technical/how-to-install-quick-fit-ducting
+- https://www.nordfab.com/en-US/Technical/nordfab-ducting-general-engineering-specification
+- https://help.prusa3d.com/article/pla_2062
+- https://help.prusa3d.com/article/petg_2059
+- https://api.printables.com/graphql/
+- https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=IUru_JmA1YU&format=json
+- https://www.youtube.com/watch?v=IUru_JmA1YU
+- https://en.wikipedia.org/wiki/Victaulic
+- https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+research: research/connection-types/results/Band_flange_clamp_Vband_clamp_triclamp.json
+---
+
+A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
+
+**In plain words:** A hinged metal ring with a V-shaped groove inside: you wrap it round two pipe ends that each have a lip, tighten one nut or flip one lever, and the V squeezes the lips together so the joint holds and seals. **Proper term:** V-band clamp (V-section band clamp, Marman clamp); the food and brewing version is the tri-clamp (sanitary clamp coupling).
+
+**Also called:** Marman clamp / Marman ring (after the Marman Products Company); V-band coupling, V-retainer coupling, V-section band clamp (engineering papers); clamp band / clamp band joint (spacecraft separation systems); exhaust V-band, turbo V-band (cars); tri-clamp, Tri-Clamp (brand), tri-clover fitting, Tri-Clover (brand); sanitary fitting, sanitary clamp, hygienic clamp coupling, clamp ferrule, S-clamp fitting, 3A pipe fitting; ISO 2852 / DIN 32676 / BS 4825-3 / ASME BPE / SMS 3019 clamp fittings (standards the sizes follow); single pin hinge clamp, double pin hinge clamp, high pressure (bolted) clamp, squeeze clamp (tri-clamp styles); 13MHHM clamp (a common tri-clamp part-number series); KF flange clamp / QF (Quick Flange) / Klein Flansch / NW flange clamp (vacuum-system version with a centring ring and O-ring); clamp-together ducting clip (dust extraction; e.g. Nordfab Quick-Fit (brand)); band flange clamp, flange band clamp; grooved pipe coupling, grooved coupling, sleeve-clamp fitting (the grooved-pipe cousin for large steel pipe); Victaulic (brand) coupling (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting').
+
+## How it works
+
+Tightening the nut or lever shortens the band, so the V-shaped groove presses inwards all the way round. The inside faces of the V sit on the sloped backs of the two flanges, and like a wedge they turn that inward squeeze into a push along the pipe that draws the two faces together (Wikipedia 'Marman clamp'; NASA GD-ED-2214). With the common 40° included angle the band gives about an 8.6 to 1 gain in force before friction (Burns Stainless). Because the squeeze acts all round the joint rather than at a few bolts, it presses a gasket or O-ring evenly, and the V also centres the two ends on each other (Burns Stainless; Exoracing). A close cousin for large steel pipe is the grooved pipe coupling: instead of welded-on flanges, a groove is rolled or cut near each pipe end, a gasket is wrapped round both ends, and a coupling housing bolted round the rubber (elastomeric) gasket engages the grooves. The gasket is 'pressure-responsive': pressure inside the pipe presses its lips harder onto the pipe, and the joint comes apart by unbolting the housing (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting').
+
+## Parts
+
+A few parts: two matching flanged ends (weld-on flanges, 'ferrules' in sanitary work) with sloped backs; a clamp band made of one or more V-section segments, often hinged; one closure (a T-bolt and nut, wing nut, or over-centre lever); and usually a seal between the faces (a flat gasket with beads for tri-clamps, an O-ring on a metal centring ring for KF vacuum flanges, or none for male/female exhaust flanges).
+
+## Everyday examples
+
+- Tri-clamp fittings on home-brewing fermenters, kettles and stills (Get Er Brewed; Printables models)
+- The V-band joint on a car's turbo outlet or exhaust downpipe (Exoracing)
+- Clip-together metal ducting on workshop dust extraction (Nordfab)
+- Flanged aircraft fuel hoses and bleed-air ducts, and the ring that holds a satellite on top of its rocket (Wikipedia 'Marman clamp')
+
+## When to use it
+
+Use a band flange clamp when two round ends must join strongly and seal, but come apart often or quickly: brewing and food pipework that must be taken apart for cleaning (Get Er Brewed), vacuum lines (KF), dust and fume ducting (Nordfab), exhaust and turbo joints that are hot and hard to reach (Exoracing), and printed adapters that let hobby kit connect to standard sanitary fittings. It is lighter and quicker than a bolted flange (Wikipedia 'Marman clamp') and the closure can be turned to face wherever you can reach (Burns Stainless). Grooved pipe couplings do the same job on large steel pipes in buildings and plants, where they replace flanges and welding (so no hot work is needed on site), and come in flexible types that allow a little angular movement and rigid types that don't (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting').
+
+## When not to use it
+
+Don't use it to pull badly aligned pipes together or to hide poor routing; fix the pipework first (Exoracing). Where the joint must carry big twisting or sideways loads, add lips, pins or keys, or use a bolted flange (NASA GD-ED-2214). For joints that never come apart, welding or a bolted flange is cheaper; for small hoses, a hose clamp, push-fit or threaded fitting is simpler; for square or non-round parts, use a latch or bolted flange. Don't rely on printed plastic versions for hot, pressurised or food-safety-critical lines ⚑ [uncertain: precaution].
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: joins two pipes, ducts, tanks or housings end to end
+  - seal it, or pass cables or fluid through: presses a gasket or O-ring (or matched metal faces) to make a leak-tight pipe joint
+  - line parts up exactly: the V and male/female flanges or centring rings centre the two ends on each other
+  - lock, and release by hand: wing-nut and lever versions are done up and undone by hand
+- **Movement:** none: it holds the two ends rigidly. Before tightening, the joint can be turned to any angle round the pipe, which helps line up pipework (Exoracing; Burns Stainless).
+- **Directions it can move (degrees of freedom):** 0 when tightened. When loose, 1: the two ends can be turned (clocked) round their common axis before tightening.
+- **Special behaviour:**
+  - quick-release: one nut, wing nut or lever replaces a ring of bolts, so the joint comes apart quickly for cleaning or service (Burns Stainless; Get Er Brewed); some clamps have a quick-release latch, and ducting clips use an over-centre spring lever (Nordfab)
+  - self-aligning or self-centring: the V wedge and male/female flanges (or a KF centring ring) centre the two ends as the clamp closes (Exoracing; Wikipedia 'Vacuum flange')
+  - over-centre (snaps past a point and stays): only in lever-closed versions such as clamp-together ducting clips, which use an 'over-center, spring-lever action' with a safety pin (Nordfab)
+- **How it holds:**
+  - friction or clamping (force-fit): the band tension, turned into end pressure by the wedge, clamps the faces together; twisting and sideways slip are resisted only by friction unless the design adds lips, pins or keys (NASA GD-ED-2214)
+  - shape (form-fit): the lips of the V hook behind both flanges, so the ends cannot pull apart without stretching the band
+- **Input and output:** not applicable
+- **Power:** passive (no power needed). Spacecraft separation versions are released by pyrotechnic or pin-puller devices and so need power to let go (Wikipedia 'Marman clamp').
+- **Load:** Medium to heavy along the pipe (pulling the ends apart) and in bending, which is what the wedge is designed for; weaker in twisting and in sideways sliding across the joint, which rely on friction, so NASA advises lips, pins or splines to carry shear and torsion (NASA GD-ED-2214). Printed plastic versions are light-duty.
+- **Play and precision:** No play once tight, and it re-centres the same way every time it is refitted (male/female flanges, gasket beads or a centring ring). It tolerates very little angular or sideways misalignment: 'Do not use the clamp to drag a badly misaligned exhaust into place' (Exoracing). The V must not bottom out on the flanges before full load, so V-band makers keep an apex gap and foot clearances of about 0.062 in (Burns Stainless).
+- **Taking it apart:** tool-free quick release for wing-nut, lever and hinged sanitary clamps; removable (needs a spanner or socket) for T-bolt V-band clamps
+- **How often it can be reused:** many times: made for joints that are opened often for cleaning or service (Get Er Brewed; Burns Stainless); gaskets and O-rings wear and are replaced more often than the clamp ⚑ [uncertain: no replacement interval found]
+- **Sealing:** airtight or pressure: a bead-edged gasket sits in grooves in both ferrule faces (tri-clamp), an O-ring on a metal centring ring (KF vacuum flanges), or matched male/female metal faces that usually need no gasket (exhaust V-bands) (Wikipedia 'ISO 2852' and 'Vacuum flange'; Exoracing). One catalogue lists hinged sanitary clamps at up to 50 bar working pressure for 1-1.5 in sizes at 150 °C, falling to 10 bar at 12 in, and says the rating depends on the seal (Connectors Verbindungstechnik). Clamp-together dust ducting is 'not sold as an airtight system' (Nordfab).
+- **Adjustable:** Partly: the joint can be rotated to any angle before it is tightened, and the clamp's closure can be placed wherever it is easiest to reach (Burns Stainless; Exoracing). Clamp tension is set by the nut; there is no length adjustment (a separate slip sleeve does that in ducting, Nordfab).
+- **Access needed:** end of a tube or shaft: you need to reach around the outside of the joint to fit the band, but not inside it; the closure can be turned to face whichever side is reachable (Burns Stainless)
+- **Materials:** Sanitary clamps and ferrules in 304 or 316L stainless steel (M.G. Newell; Connectors); exhaust V-bands in stainless steel (Exoracing); spacecraft clamps with aluminium rings, aluminium, titanium or stainless V-segments and a stainless strap (NASA GD-ED-2214). Gaskets in silicone, EPDM, FKM (Viton (brand)), PTFE or nitrile (Buna-N) (M.G. Newell). Joins metal tube, tanks and housings; printed versions in PETG, polycarbonate-carbon fibre or annealed high-temperature PLA work for light, low-pressure jobs (Printables models).
+- **Heat, cold, water and wear:** The seal usually sets the temperature limit: EPDM 132 °C (briefly 150 °C), silicone, FKM and PTFE 150 °C (Connectors catalogue); nitrile ducting seals 70 °C constant (Nordfab). Heat cycles change the band tension because band and rings are often different metals (NASA GD-ED-2214), so re-check exhaust clamps after heat cycling (Exoracing). Printed parts: PLA softens above about 60 °C and PETG is for use below about 80 °C (Prusa). Stainless steel parts resist corrosion; NASA recommends stress-corrosion-resistant materials and avoiding galling metal pairs (NASA GD-ED-2214).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: clamps, ferrules, flanges and gaskets are bought as matched sets
+  - sheet metal: welding weld-on flanges or ferrules to stainless tube and exhaust pipe (Exoracing)
+  - 3D print (FDM): ferrule adapters, caps and small low-pressure V-band clamps (PETG, PC-CF, annealed HTPLA; Printables)
+  - CNC: turning custom flanges or adapters ⚑ [uncertain: no source opened for this]
+- **Printing it in one piece (print in place):** no: the flanges, band, bolt and seal are separate parts; printed versions still use a bought bolt, nut and O-ring (Printables 'V-band clamp, quick release')
+- **Tools:** None for wing-nut and lever clamps (sanitary clamps are 'typically tightened by hand', M.G. Newell); a spanner or socket for nut-and-bolt V-bands, and optionally a torque tool to avoid over-tightening (M.G. Newell). Fitting weld-on flanges or ferrules needs welding (Exoracing); ducting needs a saw and file (Nordfab). Grooved pipe couplings: a roll-grooving or cutting tool for the pipe ends, and a socket or impact wrench for the housing bolts (Wikipedia 'Piping and plumbing fitting').
+- **Difficulty:** easy with bought parts: buy a matched clamp, ferrules or flanges and gasket, then tighten by hand. Moderate if the flanges must be welded to your pipe, or if you 3D-print adapters and small clamps that must seal.
+
+### 3D printing tips
+
+1) Buy the steel clamp and gasket and print only the fitting (ferrule, cap or adapter), sticking to standard ferrule sizes: 1 in and 1.5 in sanitary fittings share a 50.5 mm flange and the same clamp, and 2 in uses 64 mm (Holland gasket chart; Connectors catalogue). A printed DN25 tri-clamp ferrule was drawn with a 50.50 mm flange; its author warns that scaling the model up 'will NOT fit to DIN-Sizes anymore' (Printables, TriClamp DN25). 2) The same model's author prints with the 'Seamside' on a flat PEI bed, which appears to mean the sealing face, so that face comes out flat ⚑ [uncertain: wording unclear]. 3) Material: PETG has worked for ferrules and a printed V-band clamp (Printables); PETG suits use below about 80 °C and PLA softens above about 60 °C (Prusa), so keep PLA away from hot wort, steam or cleaning at temperature. Other makers used polycarbonate-carbon fibre, or high-temperature PLA annealed at 110 °C (Printables). 4) A printed V-band clamp by Rick on Printables uses PETG, an M5x50 bolt and nut, and a 31x1.5 mm NBR 70 O-ring; each tube gets two printed interfaces (one with the O-ring groove, printed at the top of the part), and three V-blocks are glued to a band, the same segmented idea as metal clamps with several V-segments (Burns Stainless). 5) If you design your own V, copy the proven geometry: a 40° included angle (20° each side), because shallower angles need very good friction control and steeper ones need much more band tension (Burns Stainless; NASA GD-ED-2214). 6) Tighten by hand and don't over-tighten: over-tightening squeezes the gasket into the bore and can distort clamps and flanges (M.G. Newell; Exoracing). Plastic parts will also slowly creep under constant clamping load, so re-check tightness ⚑ [uncertain: no test data found for printed clamps]. 7) Test for leaks with water at low pressure before trusting a printed fitting, and don't use printed parts on pressurised or hot lines ⚑ [uncertain: precaution, not from a tested source].
+
+### Buying one (off-the-shelf parts)
+
+V-band clamp kits: a clamp plus matched male and female weld-on flanges in stainless steel, sold by pipe size (e.g. 2, 2.5, 3, 3.5, 4 in), with nut or quick-release latch (Exoracing; Burns Stainless). Sanitary (tri-clamp) parts: single pin and double pin hinged clamps with wing nuts, high-pressure bolted clamps, squeeze clamps (M.G. Newell), 13MHHM-series clamps (Holland), ferrules for weld or tube, end caps, reducers, tees, elbows and sight glasses (Get Er Brewed), gaskets in silicone, EPDM, FKM, PTFE and nitrile (M.G. Newell). Vacuum KF (QF) flanges, centring rings with O-rings (AS568 sizes) and hinged wing-nut clamps, DN10 to DN50 (Wikipedia 'Vacuum flange'). Clamp-together ducting with rolled edges and lever clips for dust extraction (Nordfab (brand)). Search terms: 'V-band clamp', 'Marman clamp', 'tri-clamp', 'sanitary clamp', 'KF clamp', 'clamp together ducting'.
+
+## Rules of thumb
+
+- V-band flange included angle is usually 40° (range 30-90°); with 40° the band gives about 8.6 to 1 axial force before friction (Burns Stainless).
+- The angle between the joint face and the flange's sloped back is usually 15-20°; less than 15° needs extremely good friction control, and larger angles need a lot more preload (NASA GD-ED-2214).
+- Strap load = wD(tanβ - µ)/(1 + µ tanβ), or wD tanβ with no friction, where w is the line load round the joint, D the ring diameter, β the flange angle and µ the friction coefficient; set the preload so the joint does not gap at the largest expected load (NASA GD-ED-2214).
+- Carry sideways shear and twisting across the joint with lips, pins or splines rather than friction (NASA GD-ED-2214).
+- Keep about 0.062 in clearance at the V's apex and feet so it does not bottom out on the flanges before full load (Burns Stainless).
+- Tri-clamp sizes: 1 in and 1.5 in fittings share a 50.5 mm (2.00 in) flange and one clamp size; 2 in uses 64 mm (2.52 in) (Holland gasket chart).
+- Hinged sanitary clamp (SH type): 1-1.5 in rated 50 bar working at 150 °C (120 bar test), 4 in 35 bar, 12 in 10 bar, depending on the seal; wing nut torque 5 Nm, hex nut 20 Nm (Connectors Verbindungstechnik catalogue).
+- Gasket temperature limits: EPDM 132 °C (briefly 150 °C); silicone, FKM and PTFE 150 °C (Connectors catalogue); nitrile ducting clamp seals 70 °C constant, 90 °C intermittent (158/194 °F, Nordfab).
+- Hand tightening is usually enough for a sanitary clamp; over-tightening pushes the gasket into the bore and under-tightening leaks; check that pressure ratings are for the whole union, not just the clamp (M.G. Newell).
+- Match clamp and flanges as a set, and don't pull misaligned pipes together with the clamp (Exoracing).
+- KF vacuum flanges come in DN10-DN50; DN10/16, DN20/25 and DN32/40 share flange dimensions and clamps (Wikipedia 'Vacuum flange').
+
+## Common failures
+
+1) Leaks from a gasket that is not seated in both ferrule grooves, 'one of the main causes of leaks' (M.G. Newell); seat it before tightening. 2) Over-tightening pinches the gasket into the bore or distorts the clamp and flanges; under-tightening leaks (M.G. Newell; Exoracing). 3) Mismatched clamp and flange profiles from different makers, so the clamp doesn't seat (Exoracing); buy matched sets. 4) Warped or misaligned welded flanges; tack, test-fit, then finish-weld (Exoracing). 5) The V bottoming out on the flanges before full load, so the joint is loose (Burns Stainless). 6) Uneven band tension from friction, so part of the joint is under-clamped; NASA tightens in steps and taps round the band to even it out (NASA GD-ED-2214). 7) Loss of tension after heat cycles (Exoracing; NASA GD-ED-2214). 8) Wrong gasket bore for the pipe, since 1 in and 1.5 in fittings share one flange size (Holland gasket chart).
+
+## Safety
+
+A tensioned band stores energy: NASA warns the stored energy in large clamp straps 'is usually high enough to cause serious injury should failure occur' and recommends protective measures during installation (NASA GD-ED-2214). Never open a clamp on a line that is still under pressure or vacuum, or full of hot liquid ⚑ [uncertain: standard practice, no source opened]. Exhaust V-bands get very hot. Cut duct edges are sharp (Nordfab). Lever clips on ducting should have their safety pin fitted so the handle can't spring open (Nordfab). In food and brewing use, an over-tightened gasket bulges into the pipe and traps deposits that are hard to clean (M.G. Newell).
+
+## Related
+
+- Bolted flange: a ring of bolts clamps two flanges; stronger in shear and twist but heavier and slower to undo (Wikipedia 'Marman clamp')
+- Hose clamp: a flat band (worm-drive, ear or spring) that squeezes a hose onto a spigot; no wedge action, for low pressure (Wikipedia notes a flat-strap variety for low-pressure use)
+- Bayonet mount: push and twist to lock lugs under ledges; faster, but needs moulded lugs rather than a separate clamp
+- Quick couplers (sleeve-lock hose couplings): push-in couplings held by balls or latches, for hoses that connect and disconnect under a shut-off
+- Draw latch (over-centre latch): the same over-centre lever idea used to pull a lid or case shut
+- Threaded pipe union: a nut that pulls two pipe ends together; needs turning and room to swing a spanner
+- Conflat (CF) and ISO-K/ISO-F vacuum flanges: bolted or claw-clamped vacuum joints used above KF sizes or for ultra-high vacuum (Wikipedia 'Vacuum flange')
+- Slip joint with clamp (exhaust): pipes slide inside each other; adjustable but can leak or seize (Exoracing)
+- Cam latch (quarter-turn cam lock): a quick panel fastener, not a pipe seal
+
+## Make it yourself
+
+- [V-band clamp, quick release (Rick, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1844054-v-band-clamp-quick-release): A printable PETG V-band clamp for joining tubes with an airtight seal: two printed tube interfaces (one with an O-ring groove), a band with three glued-on V-blocks, an M5x50 bolt and nut, and a 31x1.5 mm NBR O-ring *(licence: CC BY-SA)*
+- [TriClamp DN25 (Tomas, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/401121-triclamp-dn25): A printable DN25 tri-clamp ferrule with a 50.50 mm flange, printed in PETG and used with stainless pipes; the author prints it with the 'Seamside' on a flat PEI bed *(licence: CC BY-NC-SA)*
+- [Triclamp 1.5" adapter for Speidel Airlock (irohlfs, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1354955-triclamp-15-adapter-for-speidel-airlock): An adapter that fits a fermentation airlock onto a 1.5 in tri-clamp port on a home-brew fermenter *(licence: CC BY-NC)*
+- [Big Mouth Bubbler Tri-Clamp (JMcK, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/36103-big-mouth-bubbler-tri-clamp): A fully printed 'tri-clamp-ish' collar, adapter ring and pin that holds a fermenter lid on; shows the band-over-flange idea in plastic with no hardware *(licence: CC BY)*
+
+## Pictures, videos and models
+
+- [Typical Marman Clamp System (Wikimedia Commons, from NASA guideline GD-ED-2214)](https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif): Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together *(licence: Public domain (NASA))*
+- [Marman clamp flanges (Wikimedia Commons, by Andy Dingley)](https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg): Photo of aerospace duct and fuel hose ends with the flanges that Marman clamps grip *(licence: CC BY-SA 3.0)*
+- [Engine research, clamp (Wikimedia Commons, Oak Ridge National Laboratory)](https://commons.wikimedia.org/wiki/File:Engine_research_(9069970928),_clamp.jpg): Close-up photo of a Marman (V-band) clamp, cropped from an Oak Ridge National Laboratory engine-research photo *(licence: CC BY 2.0)*
+- [How to Assemble a Tri-Clamp® Connection (Central States Industrial, YouTube)](https://www.youtube.com/watch?v=IUru_JmA1YU): Putting together two ferrules, a gasket and a hinged clamp (title and channel verified via YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+- [The Tech Behind the V-Band Clamp (Burns Stainless)](https://burnsstainless.com/blogs/articles-1/the-tech-behind-the-v-band-clamp): Illustrated explanation of how band tension becomes axial load, the 40° flange angle, and one-, two-, three- and four-segment clamps *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 7 sentences on this page marked [uncertain].
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Marman_clamp>
+- <https://upload.wikimedia.org/wikipedia/commons/e/ee/Guideline_No._GD-Ed-2214_Marman_Clamp_Systems_Design_Guidelines.pdf>
+- <https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif>
+- <https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg>
+- <https://commons.wikimedia.org/wiki/File:Engine_research_(9069970928),_clamp.jpg>
+- <https://burnsstainless.com/blogs/articles-1/the-tech-behind-the-v-band-clamp>
+- <https://exoracing.co.uk/blog/what-is-a-vband-clamp/>
+- <https://en.wikipedia.org/wiki/ISO_2852>
+- <https://en.wikipedia.org/wiki/Vacuum_flange>
+- <https://traskinstrumentation.com/pdf/app_notes/Tri-Clamp_Connection.pdf>
+- <https://hollandapt.com/wp-content/uploads/2022/11/1580486715Gasket-Dimensional-Chart.pdf>
+- <https://www.mgnewell.com/wp-content/uploads/2019/07/A-toast-to-triclamps.pdf>
+- <https://www.geterbrewed.com/blog/2024/07/03/tri-clamp-fittings-understanding-the-basics/>
+- <https://www.nordfab.com/en/technical/how-to-install-quick-fit-ducting>
+- <https://www.nordfab.com/en-US/Technical/nordfab-ducting-general-engineering-specification>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://help.prusa3d.com/article/petg_2059>
+- <https://api.printables.com/graphql/>
+- <https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=IUru_JmA1YU&format=json>
+- <https://www.youtube.com/watch?v=IUru_JmA1YU>
+- <https://en.wikipedia.org/wiki/Victaulic>
+- <https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting>

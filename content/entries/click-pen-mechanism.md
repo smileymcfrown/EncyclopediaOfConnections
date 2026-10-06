@@ -1,0 +1,292 @@
+---
+title: Click-pen mechanism
+description: A push button, a spring and a small toothed part that turns a fixed step every time you push, so the same push
+  alternately locks a part out and lets it spring back in (or steps a dial round by one position).
+num: 25
+term: Rotating-cam push-push mechanism (click-pen mechanism, rotary ratchet cam indexer)
+plain_name: 'The clicky button on a retractable pen: push once and the tip pops out and stays out, push again and it goes
+  back in'
+aliases:
+- click pen mechanism / clicky pen mechanism
+- retractable pen mechanism / retractable ballpoint mechanism
+- protract-retract mechanism (patent wording, US 3,137,276)
+- rotating-ratcheting mechanism (patent wording for flashlight clicker switches, US 4,827,385)
+- clicker switch / clicky tail switch (flashlights)
+- alternate-action mechanism / push-on push-off (latching push-button switches)
+- push-push switch or push-push button (Nguyen Duc Thang's animation names)
+- barrel cam for 180 deg. rotation (Thang's name for the cylindrical-cam version)
+- thrust device, cam body, rotator, plunger (names for its parts)
+- rotary cam indexer / push-to-index (when each push is used to step a dial round)
+family: indexing & detents
+other_families: ['locks, latches & catches', motion conversion, one-way & ratchet]
+finder:
+  job: [click into set positions, 'lock, and release by hand', change the kind of motion]
+  motion: rotate+slide
+  special_behaviour: [indexing, one-way, hand-release only, motion conversion]
+  holding_principle: [shape, spring force]
+  reuse_cycles: many times
+  seal: none
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, 3D print (FDM), 3D print (resin)]
+  connects: [not applicable]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [straight push or pull]
+  motion_out: [steps]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: clicks
+  tools: [none]
+  load_max: light
+  usual_process: 3D print (FDM)
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points: []
+uncertain_fields: [input_output, reuse_cycles, load, materials, processes, everyday_examples, environment_limits]
+diagram_idea: 'Show the inside of the tube ''unrolled'' flat as a strip of ribs with alternating deep channels and short ledges,
+  and trace one lug''s zig-zag path over four pushes: down onto the button''s sloped teeth, up onto a ledge (tip out), down
+  again, then up a deep channel (tip in), with a small pen outline beside each step.'
+links:
+- url: https://www.youtube.com/watch?v=MhVw-MHGv4s
+  title: How a Retractable Ballpoint Pen Works (engineerguy, Bill Hammack)
+  shows: 'A Parker Jotter taken apart, with an animation (from about 1:50) of the cam body slipping on and off the stop members
+    (Make: and Hackaday descriptions; title checked with YouTube oEmbed)'
+  license: YouTube standard licence; link only
+- url: https://sketchfab.com/3d-models/click-pen-mechanism-09101179ca374ecb8d1dfae7c13d0dd6
+  title: Click pen mechanism, by C. Yamahata (Sketchfab)
+  shows: Rotatable 3D cutaway of a retractable pen showing the push button with ratchet, the spring-loaded follower and the
+    cam; downloadable
+  license: CC BY-NC (Creative Commons Attribution-NonCommercial)
+- url: https://www.youtube.com/watch?v=ML31YEnlODk
+  title: Barrel cam for 180 deg. rotation 2b (Nguyen Duc Thang, thang010146)
+  shows: 'CAD animation of a push-push barrel cam: ''Each push makes blue cam shaft go down and turn 180 deg. when going up'',
+    with the unrolled cam groove shown beside it (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 15)'
+  license: link only
+- url: https://www.youtube.com/watch?v=qXnld2Yqf7I
+  title: Push-push switch (Nguyen Duc Thang, thang010146)
+  shows: CAD animation of the same barrel cam used to switch electrical contacts on and off with each push (Thang, Part 3,
+    p. 15)
+  license: link only
+- url: https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3
+  title: Ballpoint pen's click mechanism (Latch mechanism V3), by Adam (Printables)
+  shows: Enlarged see-through printable model of the pen click mechanism with an animated GIF of its working (details read
+    through the Printables public API because the web page blocks automated access)
+  license: Creative Commons Public Domain
+make_it_yourself:
+- url: https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3
+  title: Ballpoint pen's click mechanism (Latch mechanism V3), by Adam
+  what_it_is: Printable demonstrator of the click mechanism; needs 3 M3 screws and a 4 x 20 mm spring from a ballpoint pen;
+    0.15 mm layers, PLA, no supports; grease or sand the bevelled faces (read through the Printables API)
+  license: Creative Commons Public Domain
+- url: https://www.printables.com/model/114490-clicky-pen-mechanism
+  title: clicky pen mechanism, by Gamma4D
+  what_it_is: Printable clicky-pen mechanism in several versions, driven by a rubber band; prints without supports and includes
+    tolerances; print at 120-150% scale and use grease (read through the Printables API)
+  license: Creative Commons Attribution (CC BY)
+- url: https://www.printables.com/model/127961-click-pen
+  title: CLICK pen, by rorys3D
+  what_it_is: A complete working printable pen with the real retractable click mechanism (barrel, tip, plunger and cam printed;
+    add a pen refill and spring); assembly video at https://www.youtube.com/watch?v=8p4-5Gi62YA (read through the Printables
+    API)
+  license: Creative Commons Attribution-NonCommercial-NoDerivatives
+- url: https://www.printables.com/model/1191787-single-piece-functional-click-pen-for-mjf-or-sls
+  title: Single piece functional click pen for MJF or SLS, by marc kerger
+  what_it_is: A click pen printed as one piece, springs and click-and-release mechanism included, that can only be made on
+    support-free powder-bed printers (SLS or MJF); add a refill (read through the Printables API)
+  license: Creative Commons Attribution-NonCommercial-NoDerivatives
+- url: https://www.printables.com/model/1684314-clicky-button-pen-mechanism-fidget
+  title: Clicky Button Pen Mechanism Fidget, by Endless
+  what_it_is: A four-part printed clicky button using the pen mechanism and any standard pen spring (read through the Printables
+    API)
+  license: Creative Commons Public Domain
+sources:
+- https://en.wikipedia.org/wiki/Retractable_pen
+- https://hackaday.com/2015/09/22/how-retractable-pens-work/
+- https://www.youtube.com/watch?v=MhVw-MHGv4s
+- https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=MhVw-MHGv4s&format=json
+- https://penvibe.com/how-pens-work/
+- https://makezine.com/article/craft/retractable-pen-work/
+- https://sketchfab.com/3d-models/click-pen-mechanism-09101179ca374ecb8d1dfae7c13d0dd6
+- https://patents.google.com/patent/US3137276A/en
+- https://patents.google.com/patent/US2865331A/en
+- https://patents.google.com/patent/US7880100B2/en
+- https://patents.google.com/patent/US4827385A/en
+- https://cs448m.github.io/lectures/machines/doc/3.pdf
+- https://www.youtube.com/watch?v=ML31YEnlODk (verified via YouTube oEmbed)
+- https://www.youtube.com/watch?v=qXnld2Yqf7I (verified via YouTube oEmbed)
+- https://hackaday.com/2019/08/05/clicky-signspinner-works-just-like-a-retractable-pen/
+- https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3 (read via https://api.printables.com/graphql/)
+- https://www.printables.com/model/114490-clicky-pen-mechanism (read via https://api.printables.com/graphql/)
+- https://www.printables.com/model/127961-click-pen (read via https://api.printables.com/graphql/)
+- https://www.printables.com/model/1191787-single-piece-functional-click-pen-for-mjf-or-sls (read via https://api.printables.com/graphql/)
+- https://www.printables.com/model/1051321-ballpoint-pen-mechanism (read via https://api.printables.com/graphql/)
+- https://www.printables.com/model/1684314-clicky-button-pen-mechanism-fidget (read via https://api.printables.com/graphql/)
+- https://api.printables.com/graphql/
+- https://www.youtube.com/watch?v=8p4-5Gi62YA (verified via YouTube oEmbed)
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
+- https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+research: research/connection-types/results/Clickpen_mechanism_rotatingcam_pushpush_indexer.json
+---
+
+A push button, a spring and a small toothed part that turns a fixed step every time you push, so the same push alternately locks a part out and lets it spring back in (or steps a dial round by one position).
+
+**In plain words:** The clicky button on a retractable pen: push once and the tip pops out and stays out, push again and it goes back in. **Proper term:** Rotating-cam push-push mechanism (click-pen mechanism, rotary ratchet cam indexer).
+
+**Also called:** click pen mechanism / clicky pen mechanism; retractable pen mechanism / retractable ballpoint mechanism; protract-retract mechanism (patent wording, US 3,137,276); rotating-ratcheting mechanism (patent wording for flashlight clicker switches, US 4,827,385); clicker switch / clicky tail switch (flashlights); alternate-action mechanism / push-on push-off (latching push-button switches); push-push switch or push-push button (Nguyen Duc Thang's animation names); barrel cam for 180 deg. rotation (Thang's name for the cylindrical-cam version); thrust device, cam body, rotator, plunger (names for its parts); rotary cam indexer / push-to-index (when each push is used to step a dial round).
+
+## How it works
+
+When you push the button, its sloped teeth drive the rotator down past the ends of the fixed ribs inside the tube. Pressed against those slopes by the spring, the rotator twists a little. When you let go, the spring pushes it back up and it slides along the sloped top of the nearest rib, twisting a little more, until its lugs drop into the next gap. The gaps alternate: a shallow notch catches the lugs and holds the tip out, while a deep channel lets the lugs slide all the way up so the spring pulls the tip back in (US 3,137,276; Thang, 'Barrel cam for 180 deg. rotation': 'Key factor is different depths of the cam groove'). Because the rotator always turns the same way by one step per push, every push swaps between the two states, and the clicks you hear are the rotator snapping onto the ledges (Pen Vibe; Make:).
+
+## Parts
+
+A small assembly that acts as one unit, usually 3 moving parts plus a spring: (1) a push button (plunger) with sloped saw teeth on its lower end; (2) a turning part (the rotator, cam body or cam follower) with lugs or teeth, sitting on the refill or shaft; (3) a fixed tube (the barrel or housing) whose inside wall has ribs separated by channels of two kinds, long deep channels and short shallow notches; (4) a return spring that pushes the rotator back up. The Sketchfab cutaway by C. Yamahata names the three main parts as push button (with ratchet), follower (spring-loaded by the ink cartridge) and cam.
+
+## Everyday examples
+
+- A retractable ballpoint or gel pen (the classic example; the Parker Jotter is the one Bill Hammack takes apart)
+- A flashlight with a clicky tail switch: US 4,827,385 describes its switch as 'of the rotating-ratcheting type used extensively in retractable ball point pens'
+- Push-on, push-off latching buttons on lamps and appliances (alternate-action switches) ⚑ [uncertain: individual products not checked]
+- A maker's dishwasher 'clean/dirty' sign that turns a quarter turn on each push (Hackaday, 2019)
+
+## When to use it
+
+Use it when one button, pushed the same way every time, should switch between two states: out and in, on and off, open and locked. It fits neatly inside a tube or round housing, so it suits pens, torches, retractable tools, pop-out buttons and hidden compartments. It is also a compact way to step something round by a fixed amount per push, such as a status dial, a counter or a rotary switch, without a motor.
+
+## When not to use it
+
+Avoid it for anything that carries real load or must never slip (use a ball-lock pin, index plunger or ratchet and pawl). Avoid it in a flat panel with little depth, where a heart-cam push-push latch or a slide latch fits better. Avoid it where the user must be able to see or set the state directly (a toggle switch or slide switch shows its position). Avoid it in dusty, gritty or sticky places, where grit in the small teeth makes it jam, and where very high reliability is needed (Streamlight's patent calls clicker switches less reliable than desired). If you need many positions rather than two, use a detent or ratchet indexer.
+
+## Details
+
+- **What it does (jobs):**
+  - click into set positions: each push steps the rotator round one position and it stops there
+  - lock, and release by hand: the first push locks the tip out against writing pressure, the next push releases it
+  - change the kind of motion: a straight push becomes a stepped turn (used to rotate a dial or switch contacts)
+- **Movement:** rotate+slide: the button slides a few millimetres; the rotator slides in and out and turns one step (a fraction of a turn) per push, always in the same direction
+- **Directions it can move (degrees of freedom):** 1 as the user sees it: the button only slides in and out. Inside, the rotator both slides and turns, but the cam teeth tie the two together, so the push alone decides where it goes
+- **Special behaviour:**
+  - indexing (clicks into set positions): the rotator steps round one position per push and rests on a ledge or in a channel
+  - one-way (moves freely one way, locks the other): the sloped teeth only ever turn the rotator in one direction, like a ratchet
+  - hand-release only (locks under load, releases when a person operates it): once the tip is out, writing pressure pushes the lugs harder onto the ledges, so only another push on the button retracts it
+  - motion conversion (e.g. rotary to linear): a straight push becomes a stepped rotation; flashlight clicker switches, the Hackaday 'signspinner' indicator and Thang's 'Push-push switch' use that rotation to turn contacts or a dial
+- **How it holds:**
+  - shape (the parts interlock; form-fit): the rotator's lugs sit on the ledges (shallow notches) of the fixed ribs
+  - spring force (a spring or springy part presses it in place): the return spring keeps the lugs pressed onto the ledges or up the channels
+- **Input and output:** Linear push (a stroke of a few mm) -> alternating two-position output along the same axis (tip out / tip in), plus a stepped rotation of the rotator. One full out-and-in cycle takes two pushes. The rotator turns a fixed step per push: Pen Vibe describes the Parker Jotter's cam body turning 45 degrees as the button goes down and another 45 degrees as it comes back up; a reader comment on Hackaday says the Jotter turns the refill 180 degrees per click to even out tip wear ⚑ [uncertain: the two sources disagree and neither is an official specification]. Shafts in line. Efficiency is low because every click slides plastic over plastic against the spring. Back-drivable: no; pushing on the tip or pulling the button does not change state, only another full push does.
+- **Power:** passive (no power needed); electrical switches built on it (flashlight clicky switches, latching push buttons) use it to open and close contacts but do not need power to move it
+- **Load:** Light. It only has to hold the tip against writing pressure, which pushes the lugs straight onto the ledges (strong direction). It is weak against sideways knocks and twisting, and the small plastic teeth can chip if forced ⚑ [uncertain: no load rating found].
+- **Play and precision:** Small axial play: the lugs come to rest in the same place each time because they sit on fixed ledges. Rotation is repeatable to one step. It needs the parts to be concentric; if the button or rotator wobbles in the tube, the teeth can miss and it jams or skips.
+- **Taking it apart:** removable: pens and printed demos unscrew or pull apart so the refill and spring can be replaced; the mechanism itself is not a joining method
+- **How often it can be reused:** many times: it is meant to be clicked thousands of times; wear of the small sloped teeth and fatigue of the spring set its life ⚑ [uncertain: no cycle figure found on an opened page]
+- **Sealing:** none: nothing in it seals, and dirt or lint in the teeth can make it stick
+- **Adjustable:** no: the number of positions and the stroke are fixed by the tooth and channel layout; to change them you redesign or reprint
+- **Access needed:** end of a tube or shaft: the parts slide into the end of a tube (a pen barrel or switch housing) and the button sticks out of that end
+- **Materials:** Moulded plastic in pens and switches: US 3,137,276 notes that the push button and rotating lug member 'can also be constituted by injection molded pieces'. Metal pens often keep plastic mechanism parts inside a metal barrel ⚑ [uncertain]. Printed demos work in PLA with a steel pen spring (Printables 695673, 127961); a printed spring needs PETG or ABS rather than PLA (Hackaday signspinner). It is a mechanism, not a way of joining materials.
+- **Heat, cold, water and wear:** Grit, lint, dried ink or glue in the teeth make it stick. Plastic return springs lose force over time if held compressed (DuPont, pp. 36-37), so use a metal spring. Heat softens printed parts, so a PLA version left in a hot car may deform and jam ⚑ [uncertain: no temperature figure verified]. Cold makes grease stiffer and the click heavier ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - 3D print (FDM): works best when printed larger than pen size; several free demo and complete-pen models exist
+  - 3D print (resin): suits the small, fine teeth of pen-sized versions ⚑ [uncertain: no tested resin model opened]
+  - 3D print (powder bed, SLS or MJF nylon): one designer made a complete working click pen as a single printed piece that only powder-bed printers can make (Printables 1191787)
+  - injection moulding: how commercial pens and clicker switches are made (US 3,137,276)
+  - off-the-shelf part: a spare retractable pen, its refill and spring, or a latching push-button switch already contain the mechanism
+- **Printing it in one piece (print in place):** no for FDM: the button, rotator and tube are printed separately and slid together with a metal spring (or a printed PETG spring or a rubber band). The exception is a single-piece click pen designed for SLS or MJF powder-bed printing, which is fully working straight off the printer apart from the refill (Printables 1191787).
+- **Tools:** none to use; to build a printed one you need the printed parts, a spring (a spare ballpoint-pen spring is common) and sometimes grease or fine sandpaper (Printables models 695673 and 114490)
+- **Difficulty:** moderate: the parts are small and the sloped teeth must meet cleanly, so pen-sized versions are hard to print well; makers print it larger (120-150% scale on one Printables model), grease or sand the sliding faces, and expect the first clicks to 'grind in'
+
+### 3D printing tips
+
+Size: pen-sized teeth are at the edge of what FDM can print; one designer recommends printing their mechanism at 120-150% scale and says their smallest version 'is difficult to print easily' (Printables 114490). Orientation: print the tube and rotator standing up so the teeth and ribs are round and centred, and print without supports where the model allows (all the Printables demos opened print without supports); keep slopes at or below about 45-60 degrees from vertical so they print cleanly (Prusa). Layers: 0.15-0.2 mm layers give smoother slopes (Printables 695673 uses 0.15 mm, 2 perimeters, 20% infill, PLA; the rorys3D 'CLICK pen' uses 0.2 mm and PLA). Clearance: leave about 0.3 mm between parts that slide or turn (Prusa); too tight and the rotator will not twist, too loose and the lugs miss the ledges. Finishing: remove any brim, clean the tips of the plunger teeth, and grease or lightly sand the sloped faces; the first few clicks grind the parts in (Printables 695673, 127961, 1051321). Spring: use a steel pen spring (Printables 695673 uses a 4 mm x 20 mm spring from a ballpoint pen) because plastic springs held compressed creep and weaken (DuPont design guide, pp. 36-37); if you must print the spring, use PETG or ABS, not PLA (Hackaday signspinner; Hackaday 2026 on printed springs). Typical failures: the rotator sticks half-way (burrs, elephant's foot or too little clearance), it skips straight through without locking (rounded ledge tips, weak spring, wrong scale), or it wears after many clicks (use PETG or nylon for the rotator and grease it).
+
+### Buying one (off-the-shelf parts)
+
+Search terms: 'retractable pen refill' and 'pen spring' (to reuse in printed pens); 'latching push button switch', 'alternate action push button switch' or 'push-on push-off switch' (switches with the mechanism built in); 'clicky tail switch' or 'forward clicky' / 'reverse clicky' switch (flashlight parts). A cheap retractable pen is the easiest source of a working mechanism to study.
+
+## Rules of thumb
+
+- The fixed ribs inside the tube are separated by two kinds of gap: deep channels that let the rotator's lugs slide right up (tip in) and shallow ones that stop them (tip out). Deep and shallow gaps alternate round the tube (US 3,137,276; Thang, 'Barrel cam for 180 deg. rotation 1b/2b': 'Key factor is different depths of the cam groove').
+- One patented layout uses four lugs on the push button and four on the rotating member (US 3,137,276, Weisser, filed 1955).
+- Pen Vibe's explanation of the Parker Jotter: the cam body turns 45 degrees as the button is pushed and another 45 degrees as it is released, giving two clicks per push.
+- Printed demos: print at 120-150% scale if the teeth are small, and grease the sliding faces (Printables 114490, Gamma4D); 0.15 mm layers, 2 perimeters, no supports, PLA, lubricate or sand the bevelled faces (Printables 695673).
+- Start with at least 0.3 mm clearance between moving printed parts; slopes print cleanly up to about 45-60 degrees overhang (Prusa Knowledge Base, Modeling with 3D printing in mind).
+- Do not use PLA for the spring: PLA 'makes for a very poor spring material' (Hackaday, 2026), and the signspinner maker used PETG for the printed spring because PLA would not survive being compressed.
+- Plastic springs held under constant deflection creep; use a metal spring for anything that stays compressed (DuPont General Design Principles, Module I, pp. 36-37).
+- Clicker switches are 'very inexpensive' and give tactile feedback, but are 'relatively mechanically complex, having a spring-loaded rotating ratcheting mechanism, and so tend to be less reliable than is desired' (US 7,880,100, Streamlight).
+
+## Common failures
+
+Sticks half-way or will not turn: burrs, elephant's foot or too little clearance; clean and grease the sloped faces, sand lightly, or reprint with more clearance. Clicks but will not stay out: the tips of the ledges are rounded or worn, the spring is weak, or the parts are too small to print accurately; print larger and use a fresh metal spring. Turns but jams on the next push: the parts are not concentric or the lugs are too loose in the channels. Wears out after many clicks: small plastic teeth rub on every push; use PETG or nylon and grease, or buy a moulded mechanism. Printed spring goes weak: PLA springs creep; use PETG or a steel spring.
+
+## Safety
+
+Low hazard. The spring can jump out when you take one apart. Small printed parts and springs are a choking hazard for young children.
+
+## Related
+
+- Push-push latch (heart-cam latch): the flat version; a pin follows a heart-shaped track instead of a turning part stepping round a tube
+- Ratchet and pawl: also turns one way by one tooth at a time, but is driven round by a lever or handle and does not alternate between two held states
+- Geneva drive and other stepping mechanisms: turn continuous rotation (not a push) into steps
+- Bistable compliant mechanism (snap-through switch): two stable states from one springy printed part, but it is flipped back and forth rather than pushed the same way each time
+- Ball detent or compliant detent: clicks into set positions but you choose the direction; nothing makes it alternate
+- Sideways-shifting cam (US 2,865,331, Paper Mate, 1958): an early retractable-pen design where the follower moves sideways between two bores instead of turning
+- Twist-action pens: a helical cam turned by hand instead of pushed
+
+## Make it yourself
+
+- [Ballpoint pen's click mechanism (Latch mechanism V3), by Adam](https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3): Printable demonstrator of the click mechanism; needs 3 M3 screws and a 4 x 20 mm spring from a ballpoint pen; 0.15 mm layers, PLA, no supports; grease or sand the bevelled faces (read through the Printables API) *(licence: Creative Commons Public Domain)*
+- [clicky pen mechanism, by Gamma4D](https://www.printables.com/model/114490-clicky-pen-mechanism): Printable clicky-pen mechanism in several versions, driven by a rubber band; prints without supports and includes tolerances; print at 120-150% scale and use grease (read through the Printables API) *(licence: Creative Commons Attribution (CC BY))*
+- [CLICK pen, by rorys3D](https://www.printables.com/model/127961-click-pen): A complete working printable pen with the real retractable click mechanism (barrel, tip, plunger and cam printed; add a pen refill and spring); assembly video at https://www.youtube.com/watch?v=8p4-5Gi62YA (read through the Printables API) *(licence: Creative Commons Attribution-NonCommercial-NoDerivatives)*
+- [Single piece functional click pen for MJF or SLS, by marc kerger](https://www.printables.com/model/1191787-single-piece-functional-click-pen-for-mjf-or-sls): A click pen printed as one piece, springs and click-and-release mechanism included, that can only be made on support-free powder-bed printers (SLS or MJF); add a refill (read through the Printables API) *(licence: Creative Commons Attribution-NonCommercial-NoDerivatives)*
+- [Clicky Button Pen Mechanism Fidget, by Endless](https://www.printables.com/model/1684314-clicky-button-pen-mechanism-fidget): A four-part printed clicky button using the pen mechanism and any standard pen spring (read through the Printables API) *(licence: Creative Commons Public Domain)*
+
+## Pictures, videos and models
+
+- [How a Retractable Ballpoint Pen Works (engineerguy, Bill Hammack)](https://www.youtube.com/watch?v=MhVw-MHGv4s): A Parker Jotter taken apart, with an animation (from about 1:50) of the cam body slipping on and off the stop members (Make: and Hackaday descriptions; title checked with YouTube oEmbed) *(licence: YouTube standard licence; link only)*
+- [Click pen mechanism, by C. Yamahata (Sketchfab)](https://sketchfab.com/3d-models/click-pen-mechanism-09101179ca374ecb8d1dfae7c13d0dd6): Rotatable 3D cutaway of a retractable pen showing the push button with ratchet, the spring-loaded follower and the cam; downloadable *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+- [Barrel cam for 180 deg. rotation 2b (Nguyen Duc Thang, thang010146)](https://www.youtube.com/watch?v=ML31YEnlODk): CAD animation of a push-push barrel cam: 'Each push makes blue cam shaft go down and turn 180 deg. when going up', with the unrolled cam groove shown beside it (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 15) *(licence: link only)*
+- [Push-push switch (Nguyen Duc Thang, thang010146)](https://www.youtube.com/watch?v=qXnld2Yqf7I): CAD animation of the same barrel cam used to switch electrical contacts on and off with each push (Thang, Part 3, p. 15) *(licence: link only)*
+- [Ballpoint pen's click mechanism (Latch mechanism V3), by Adam (Printables)](https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3): Enlarged see-through printable model of the pen click mechanism with an animated GIF of its working (details read through the Printables public API because the web page blocks automated access) *(licence: Creative Commons Public Domain)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 8 sentences on this page marked [uncertain].
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Retractable_pen>
+- <https://hackaday.com/2015/09/22/how-retractable-pens-work/>
+- <https://www.youtube.com/watch?v=MhVw-MHGv4s>
+- <https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=MhVw-MHGv4s&format=json>
+- <https://penvibe.com/how-pens-work/>
+- <https://makezine.com/article/craft/retractable-pen-work/>
+- <https://sketchfab.com/3d-models/click-pen-mechanism-09101179ca374ecb8d1dfae7c13d0dd6>
+- <https://patents.google.com/patent/US3137276A/en>
+- <https://patents.google.com/patent/US2865331A/en>
+- <https://patents.google.com/patent/US7880100B2/en>
+- <https://patents.google.com/patent/US4827385A/en>
+- <https://cs448m.github.io/lectures/machines/doc/3.pdf>
+- <https://www.youtube.com/watch?v=ML31YEnlODk (verified via YouTube oEmbed)>
+- <https://www.youtube.com/watch?v=qXnld2Yqf7I (verified via YouTube oEmbed)>
+- <https://hackaday.com/2019/08/05/clicky-signspinner-works-just-like-a-retractable-pen/>
+- <https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3 (read via https://api.printables.com/graphql/)>
+- <https://www.printables.com/model/114490-clicky-pen-mechanism (read via https://api.printables.com/graphql/)>
+- <https://www.printables.com/model/127961-click-pen (read via https://api.printables.com/graphql/)>
+- <https://www.printables.com/model/1191787-single-piece-functional-click-pen-for-mjf-or-sls (read via https://api.printables.com/graphql/)>
+- <https://www.printables.com/model/1051321-ballpoint-pen-mechanism (read via https://api.printables.com/graphql/)>
+- <https://www.printables.com/model/1684314-clicky-button-pen-mechanism-fidget (read via https://api.printables.com/graphql/)>
+- <https://api.printables.com/graphql/>
+- <https://www.youtube.com/watch?v=8p4-5Gi62YA (verified via YouTube oEmbed)>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/>
+- <https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf>

@@ -1,0 +1,299 @@
+---
+title: Plain pivot and rolling bearing
+description: A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve
+  (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.
+num: 264
+term: Revolute joint (pin joint) made with a plain bearing (pin in a hole or bushing, shoulder bolt) or a rolling-element
+  bearing (ball bearing)
+plain_name: 'The basic way to make something turn: a pin, bolt or shaft through a hole, either rubbing straight on the hole
+  (or on a slippery sleeve pushed into it), or running in a ball bearing, a ring with steel balls inside, so it spins more
+  easily'
+aliases:
+- pin joint, hinge joint, turning pair (revolute joint; Wikipedia)
+- pivot, pivot pin, axle, pintle
+- plain bearing, sliding bearing, sleeve bearing, journal bearing, friction bearing ('simply a shaft rotating in a hole';
+  Wikipedia)
+- bush or bushing, flanged bushing, split bushing; thrust washer (the flat version that takes end thrust) (Wikipedia, Plain
+  bearing)
+- oil-impregnated sintered bronze bushing, SAE 841 bronze, Oilite (brand) (Wikipedia)
+- self-lubricating plastic bushing; iglidur and iglide (igus brands)
+- shoulder bolt, shoulder screw, stripper bolt (Machine Design)
+- rolling-element bearing, rolling bearing, anti-friction bearing (Wikipedia; I Dig Hardware uses 'antifriction bearing')
+- ball bearing, deep-groove ball bearing, Conrad bearing (the usual construction; Wikipedia)
+- 608 bearing or skateboard bearing (8 mm bore, 22 mm outside, 7 mm wide; Wikipedia, 123bearing)
+- 2Z (metal shields on both sides; 123bearing) and 2RS (rubber seals on both sides; Commons drawing description) bearing suffixes;
+  ZZ is another common shield suffix [uncertain]
+- pillow block (a housing that holds a bushing or bearing; GM0)
+- live axle (the shaft turns with the part and is held in bearings; GM0) and dead axle (the part turns on a fixed shaft) [uncertain]
+family: hinges & pivots
+other_families: [print-in-place & 3D-printing joints]
+finder:
+  job: [let it move, join and hold]
+  motion: rotate
+  special_behaviour: [self-aligning or self-centring]
+  holding_principle: [not a holding joint, shape, friction or clamping]
+  reuse_cycles: many times
+  seal: none
+  access_needed: both sides
+  print_in_place: partly
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, 3D print (resin), woodwork]
+  connects: [any solid parts]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [drill and tap, press or vice, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: joins parts, but no specific kind of part found; set to any solid parts
+confirmed: []
+open_points: []
+uncertain_fields: [aliases, reuse_cycles, load, processes, making_tips_3d_printing, off_the_shelf_parts, everyday_examples,
+  environment_limits, safety_notes, common_failures]
+diagram_idea: 'Side-by-side cut-aways of the same arm on a pivot: left, a shoulder screw through a bronze bushing with the
+  sliding contact line highlighted; right, the arm on a ball bearing with the balls rolling between inner and outer rings,
+  arrows showing the radial load, and a note that the ring turning relative to the load gets the tight fit.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:BallBearing.gif
+  title: File:BallBearing.gif (Wikimedia Commons)
+  shows: Animation of a ball bearing turning, with the balls rolling between the rings
+  license: CC BY-SA 3.0 (PlusMinus)
+- url: https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png
+  title: File:Radial-deep-groove-ball-bearing din625-t1 2rs 120.png (Wikimedia Commons)
+  shows: Cut-away drawing of a deep-groove ball bearing with rubber seals on both sides (2RS) and a riveted steel cage
+  license: CC BY 2.5 (Silberwolf)
+- url: https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png
+  title: File:Revolute Pin Joint.png (Wikimedia Commons)
+  shows: Cut-away view of a pin joint with shoulders (a pin turning in a hole)
+  license: CC BY-SA 4.0 (I.Elgamal)
+- url: https://commons.wikimedia.org/wiki/File:Bearing_Spacer_Proper_Length_-_inline_skate_wheel_assembly_-_with_labels.svg
+  title: File:Bearing Spacer Proper Length - inline skate wheel assembly - with labels.svg (Wikimedia Commons)
+  shows: Labelled cross-section of an inline-skate wheel on two ball bearings with a spacer between them
+  license: CC BY-SA 4.0 (Fred Hsu)
+- url: https://www.youtube.com/watch?v=lIEHscqWJAk
+  title: How Ball Bearings Work | 3D Animation | Working Principle (saVRee, YouTube; title confirmed through YouTube oEmbed,
+    video not watched)
+  shows: 3D animation of the parts of a ball bearing and how they work
+  license: link only (standard YouTube licence)
+make_it_yourself:
+- url: https://www.printables.com/model/276409-ultimate-608-bearing-with-calibration-kit
+  title: Ultimate 608 Bearing with Calibration Kit V2 (Matvey Kukuy, Printables) (URL linked from the Hackaday article; page
+    not opened, details read through the Printables API)
+  what_it_is: Print-in-place 608-size bearings plus 64 calibration models and a test tool to find the radial and tenon tolerances
+    that work on your printer
+  license: CC0 (Creative Commons Public Domain)
+- url: https://www.printables.com/model/1293573-608-bearing-tolerance-tester
+  title: 608 bearing tolerance tester (Handy Maker, Printables) (URL from Printables API, page not opened)
+  what_it_is: Small test prints of a 608 bearing's outer and inner fits in 0.1 mm steps, to find how to scale your bearing
+    pockets
+  license: CC BY-SA
+- url: https://www.printables.com/model/693434-3d-printed-bearing-without-balls-bushings
+  title: 3D Printed Bearing (without balls) / Bushings (SabLei, Printables) (URL from Printables API, page not opened)
+  what_it_is: Print-in-place ball-less bearings (bushings) in many standard bearing sizes, freed by squeezing with pliers
+    and lubricated with PTFE or silicone spray
+  license: CC BY-NC-SA
+sources:
+- https://en.wikipedia.org/wiki/Revolute_joint
+- https://en.wikipedia.org/wiki/Plain_bearing
+- https://en.wikipedia.org/wiki/SAE_841
+- https://en.wikipedia.org/wiki/Rolling-element_bearing
+- https://en.wikipedia.org/wiki/Ball_bearing
+- https://en.wikipedia.org/wiki/Bolt_(fastener)
+- https://commons.wikimedia.org/wiki/File:BallBearing.gif
+- https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png
+- https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png
+- https://commons.wikimedia.org/wiki/File:Bearing_Spacer_Proper_Length_-_inline_skate_wheel_assembly_-_with_labels.svg
+- https://commons.wikimedia.org/wiki/File:Deep_Groove_Ball_Bearing_Structure.png
+- https://commons.wikimedia.org/wiki/File:Pivotement_charge_radiale.svg
+- https://www.123bearing.com/bearing-housing/deep-groove-bearing/single-row/608-2z-skf
+- https://www.nsk.com/tools-resources/abc-bearings/fits-and-internal-clearance/
+- https://www.machinedesign.com/fastening-joining/article/21834322/the-basics-of-shoulder-screws
+- https://www.igus.eu/plain-bearing/wiki/tolerances
+- https://blog.igus.eu/tribo-filament-iglidur-i150-in-wear-test-test-video/
+- https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html
+- https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html
+- https://idighardware.com/2016/07/decoded-nfpa-80-requirements-for-hinges/
+- https://hackaday.com/2022/09/17/3d-printable-bearings-that-actually-work-no-cad-tweaking-required/
+- https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/
+- https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+- https://www.youtube.com/watch?v=lIEHscqWJAk
+- https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Washer_(hardware)
+research: research/connection-types/results/Plain_pivot_and_rolling_bearing_pin_in_hole_shoulder_bolt_ball_bearing.json
+---
+
+A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.
+
+**In plain words:** The basic way to make something turn: a pin, bolt or shaft through a hole, either rubbing straight on the hole (or on a slippery sleeve pushed into it), or running in a ball bearing, a ring with steel balls inside, so it spins more easily. **Proper term:** Revolute joint (pin joint) made with a plain bearing (pin in a hole or bushing, shoulder bolt) or a rolling-element bearing (ball bearing).
+
+**Also called:** pin joint, hinge joint, turning pair (revolute joint; Wikipedia); pivot, pivot pin, axle, pintle; plain bearing, sliding bearing, sleeve bearing, journal bearing, friction bearing ('simply a shaft rotating in a hole'; Wikipedia); bush or bushing, flanged bushing, split bushing; thrust washer (the flat version that takes end thrust) (Wikipedia, Plain bearing); oil-impregnated sintered bronze bushing, SAE 841 bronze, Oilite (brand) (Wikipedia); self-lubricating plastic bushing; iglidur and iglide (igus brands); shoulder bolt, shoulder screw, stripper bolt (Machine Design); rolling-element bearing, rolling bearing, anti-friction bearing (Wikipedia; I Dig Hardware uses 'antifriction bearing'); ball bearing, deep-groove ball bearing, Conrad bearing (the usual construction; Wikipedia); 608 bearing or skateboard bearing (8 mm bore, 22 mm outside, 7 mm wide; Wikipedia, 123bearing); 2Z (metal shields on both sides; 123bearing) and 2RS (rubber seals on both sides; Commons drawing description) bearing suffixes; ZZ is another common shield suffix ⚑ [uncertain]; pillow block (a housing that holds a bushing or bearing; GM0); live axle (the shaft turns with the part and is held in bearings; GM0) and dead axle (the part turns on a fixed shaft) ⚑ [uncertain].
+
+## How it works
+
+In a plain pivot the pin simply turns in the hole, sliding on its surface. The pin must be a little smaller than the hole to move, so it really touches along a line, and friction and wear depend on the two materials and on lubrication (Wikipedia, Revolute joint and Plain bearing). Pairing a hard, smooth pin with a softer, slippery sleeve (bronze, oil-filled sintered bronze, or a plastic such as nylon or acetal) makes it run smoothly and puts the wear on the cheap sleeve, which is replaced when worn (Wikipedia, Plain bearing). A ball bearing swaps sliding for rolling: balls roll between grooved inner and outer rings, so friction is much lower (Wikipedia, Rolling-element bearing; GM0). The ring that turns relative to the load is fitted tight on its shaft or in its housing so it can't slip round, and the other ring is a looser fit (NSK). The simplest bearing for a push along the pin (end float) is a thrust washer, the flat 'thrust form' of a bushing (Wikipedia, Plain bearing): a ring of metal such as bronze, or of plastic such as nylon or PTFE, between the turning part and the fixed face beside it, used where a rolling thrust bearing isn't worth its cost or won't fit (Wikipedia, Washer (hardware)).
+
+## Parts
+
+A few parts for a plain pivot: a pin, bolt or shaft, the hole it turns in (often lined with a bushing), and something to stop it sliding out (a head and nut, a shoulder, a retaining ring or a shaft collar), usually with washers. A ball bearing is a small assembly that acts as one unit: inner ring, outer ring, balls, a cage that keeps them spaced, grease, and often shields or seals (Wikipedia, Rolling-element bearing and Ball bearing).
+
+## Everyday examples
+
+- Skateboard and inline-skate wheels, each running on two 608 ball bearings (Wikipedia, Ball bearing)
+- Fidget spinners, built around ball bearings (Wikipedia, Ball bearing)
+- The lever of a door handle turning on its spindle (Wikipedia, Revolute joint photo)
+- Scissors and pliers, whose two halves turn on one rivet or screw ⚑ [uncertain]
+
+## When to use it
+
+Use a plain pivot (a bolt, shoulder screw or pin in a hole, ideally with a bushing) for levers, arms, linkages, folding parts and anything that turns slowly, occasionally or back and forth: it is cheap, compact and strong for its size (Wikipedia, Plain bearing). A shoulder screw is the neat choice when a part must turn on a bolt without being clamped (Machine Design). Use ball bearings for anything that spins continuously or fast, such as wheels, pulleys, spools, fans and drive shafts, where low friction and accurate location matter; robotics guides recommend bearings for drivetrains and high speeds and bushings for low loads or tight budgets (GM0). Add a thrust washer where a turning part would otherwise rub against a fixed face or a pin head; washers are used in rotating devices as a bearing and as a wear pad (Wikipedia, Washer (hardware)).
+
+## When not to use it
+
+Don't run a plain printed pin in a printed hole fast and continuously under load: it heats and wears (see the PV limits); use a ball bearing or a bronze or plastic bushing. Don't hang a tipping load on a single ball bearing; use two spaced apart, or a turntable bearing for a wide, flat turning platform. Ball bearings that only rock back and forth over a small angle, or sit still while vibrating, suffer false brinelling (Wikipedia), so a bushing may be better there. For tiny angles with no play and no wear, use a flexure hinge; for straight-line motion, use linear guides; for a pivot that must also tilt, use a ball-and-socket joint or rod end.
+
+## Details
+
+- **What it does (jobs):**
+  - let it move (turn, slide or bend): lets a lever, arm, wheel, pulley or shaft turn
+  - join and hold: holds the turning part in place on its support, taking the load across the pin
+- **Movement:** rotate: unlimited continuous turning (wheels, shafts, spools) or any part of a turn (levers, arms, linkages). A loose pin in a plain hole can also slide along its length unless a head, shoulder, collar or retaining ring stops it (rotate+slide).
+- **Directions it can move (degrees of freedom):** 1 when the pin or shaft is held at both ends along its length: turning about its axis (Wikipedia, Revolute joint). A loose pin in a hole also lets the part slide along the pin (2) and wobble through the clearance. A single ball bearing allows a little tilt (Wikipedia, Ball bearing), so a shaft is normally held by two bearings spaced apart.
+- **Special behaviour:**
+  - none: it just lets parts turn, with less friction when a ball bearing is used
+  - self-aligning or self-centring: only special self-aligning ball bearings, whose outer ring has a spherical track, tolerate a shaft that is not quite in line (Wikipedia, Ball bearing)
+- **How it holds:**
+  - not a holding joint (it moves or passes on motion): it lets parts turn
+  - shape (the parts interlock; form-fit): the pin through the hole stops every movement except turning; a head, nut, shoulder, collar or retaining ring stops it sliding out (GM0: retain the shaft in both directions)
+  - friction or clamping (force-fit): bearings and bushings are usually held by a press (interference) fit (NSK; igus)
+- **Input and output:** not applicable: a pivot or bearing supports a turning part rather than changing motion. A shaft running in bearings passes rotation straight along itself (in line, 1:1). Ball bearings waste less energy than bushings (GM0).
+- **Power:** passive (no power needed)
+- **Load:** Light to heavy, depending on size and material. Plain bearings are the cheapest, most compact type and carry high loads for their size (Wikipedia, Plain bearing). A 608-2Z ball bearing is rated 3.45 kN dynamic and 1.37 kN static (SKF data via 123bearing). Strongest across the pin or shaft (radial load); deep-groove ball bearings also take some push along the shaft, about 50% of their radial rating, or 25% for small or light bearings (Wikipedia, citing SKF). Weak against tipping loads on a single bearing: a sideways twist can distort the outer ring until the balls escape (Wikipedia, Ball bearing), so use two bearings spaced apart. In printed parts the plastic around the hole usually wears or creeps before a metal pin fails ⚑ [uncertain].
+- **Play and precision:** Plain pivot: small to noticeable play, because the clearance needed for movement means the pin only touches along a line (Wikipedia, Revolute joint); printed pins in printed holes need at least 0.3 mm clearance (Prusa) and so wobble noticeably, while precision shoulder screws are made 0.013 to 0.038 mm under size for a close but free fit in bearings and pulleys (Machine Design). Ball bearing: small play that can be removed by preloading a pair (Wikipedia), good repeatability, and some tolerance of misalignment (Wikipedia, Ball bearing), though self-aligning types are needed for more.
+- **Taking it apart:** removable: pull the pin or undo the bolt or shoulder screw; pressed-in bushings and bearings are harder to remove and may be damaged when pressed out
+- **How often it can be reused:** many times: pins, bolts and shoulder screws can be taken out and put back many times; press-fitted bearings and bushings in printed parts only a few times, since each press wears the fit ⚑ [uncertain]
+- **Sealing:** none: a pin in a hole does not seal. Bearings come with metal shields (2Z) or rubber seals (2RS) that keep dirt out of the bearing itself and hold its grease in; seals add friction (Wikipedia, Rolling-element bearing)
+- **Adjustable:** No for a basic pivot. End float is set with washers or shims; a pair of ball bearings can be preloaded against each other to take out their internal play (Wikipedia, Ball bearing). Eccentric bushings let a pivot's position be adjusted (see Eccentric adjuster).
+- **Access needed:** both sides for a through-bolt with a nut; one side only (blind) for a shoulder screw or bolt screwed into a tapped hole or threaded insert; end of a tube or shaft for sliding a bearing, bushing, collar or retaining ring onto a shaft.
+- **Materials:** Pins and shafts: steel, hardened and polished to run in bushings, or stainless steel (Wikipedia, Plain bearing). Bushings: bronze, oil-impregnated sintered bronze (SAE 841 / Oilite), cast iron, graphite, and plastics such as nylon, acetal, PTFE, UHMWPE and PEEK (Wikipedia, Plain bearing); even self-lubricating wood (lignum vitae) in clocks (Wikipedia). Ball bearings: chrome steel (608-2Z; 123bearing), stainless steel or plastic. Printed housings in PLA, PETG, ASA or wear-resistant 'tribo' filaments (igus claims up to 50 times the abrasion resistance of ordinary filament). Joins almost anything.
+- **Heat, cold, water and wear:** Plastic bushings: nylon is listed for about -29 to 121 °C and acetal about -29 to 82 °C, while SAE 841 bronze is listed to about 104 °C (Wikipedia, Plain bearing table, converted from °F). Plastic bearings creep, expand with heat and soften when warm (Wikipedia, Plain bearing), and absorb moisture; igus sizes its bushings to cope with humidity up to 70% (igus). Printed PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen). Ball bearings: grit and water in the lubricant greatly shorten their life, and seals help but add friction (Wikipedia, Rolling-element bearing); vibration while standing still presses the grease out (false brinelling; Wikipedia). Plain steel pins and bearings rust outdoors unless stainless or protected ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: ball bearings (608 and other ISO 15 sizes), bushings, thrust washers, shoulder screws, dowel pins, shafts, collars, retaining rings
+  - 3D print (FDM): printed housings with pressed-in bearings or bushings and metal pins, or fully printed bearings and bushings (Printables 276409, 693434)
+  - CNC: machined holes, shafts and bearing seats for accurate fits
+  - woodwork: dowel or bolt pivots in wood; piano keys pivot on centre pins in felt bushings (Wikipedia, Plain bearing)
+  - laser cut: pivot holes in plywood or acrylic with a bolt or shoulder screw as the pin ⚑ [uncertain]
+  - 3D print (resin): pivot holes and bearing pockets in resin parts ⚑ [uncertain]
+- **Printing it in one piece (print in place):** partly: most printed pivots are a printed part plus an added bolt, pin, bushing or ball bearing. Whole 608-size bearings can be printed in place after calibrating two tolerances (Printables 276409; Hackaday), and ball-less printed bushings print as one piece and are squeezed free with pliers (Printables 693434).
+- **Tools:** Hex key or spanner for a bolt or shoulder screw; circlip pliers for retaining rings; a vice, arbor press or clamp with a flat punch to press in bushings and bearings (igus: use a flat press, not a centring pin); a drill or reamer to bring printed holes to size (Hubs). None for a pin held by a clip.
+- **Difficulty:** easy: a bolt through a drilled hole, or a ball bearing pressed into a printed pocket, is one of the first mechanisms most makers build; getting a snug bearing press fit in a print usually takes one or two test prints (Hackaday; Printables 1293573).
+
+### 3D printing tips
+
+1) Use metal for the pin: printed pins under 5 mm are weak, so insert an off-the-shelf pin into a drilled hole (Hubs). If a bolt is the pin, let its smooth shank, not its threads, sit in the hole; threads in the hole cause fretting wear (Wikipedia, Bolt). A shoulder screw is made for this: its shoulder is the pivot and the thread clamps it down (Machine Design). 2) Hole size: holes printed upright come out undersized, so print them slightly small and drill or ream to size (Hubs); for parts that move, start with at least 0.3 mm clearance (Prusa). 3) Bearing pockets: a 0.1 mm difference noticeably changes a press fit (Hackaday); crush ribs, small ridges inside the pocket that squash as the bearing goes in, make the fit far more forgiving (Hackaday). Print a quick tolerance tester at your final settings and scale up or down in 0.1 mm steps (Printables 1293573). To trap a bearing inside a part, see Mid-print embedding. 4) Printed bearings: calibrate the radial and 'tenon' tolerances by halving the range each test (binary search); the designer got the best results in PLA at 0.16 mm layers with grease, and warns against filling the bed with copies, which prints differently from one part (Hackaday; Printables 276409). 5) Hold the shaft in both directions, with a washer that touches only the bearing's inner ring so nothing rubs (GM0). 6) Use two bearings spaced apart for any shaft or arm with a sideways load; one bearing can be wrecked by tipping (Wikipedia, Ball bearing). 7) Lubricate printed bushings with a plastic-safe grease or spray such as PTFE or silicone (Hackaday; Printables 693434), or print sliding parts in a wear-resistant filament (igus, manufacturer's claim). 8) Heat: PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen), and a fast plain printed pivot warms up from friction ⚑ [uncertain], so use PETG, ASA or a real bushing for continuous rotation.
+
+### Buying one (off-the-shelf parts)
+
+Search for: '608-2Z' or '608-2RS' (8 x 22 x 7 mm), other deep-groove ball bearings by ISO 15 number, 'flanged ball bearing' ⚑ [uncertain], 'sleeve bearing' or 'bushing', 'flanged bushing', 'oil-embedded' or 'sintered bronze bushing' (SAE 841), 'plastic plain bearing' (iglidur, brand), 'thrust washer', 'shoulder screw' or 'shoulder bolt' (ASME B18.3 inch, B18.3.3M metric; 6 to 24 mm commercial shoulders; Machine Design), 'precision shoulder screw', 'dowel pin', 'clevis pin', 'shaft collar' (clamping or set-screw), 'retaining ring' or 'E-clip', 'pillow block' (GM0), 'shim washer'.
+
+## Rules of thumb
+
+- Pick a bushing material by PV (pressure on the projected area x sliding speed): maximum PV about 1.75 MPa·m/s for SAE 841 oil-impregnated bronze, 0.11 for nylon, 0.09 for acetal and 0.04 for plain PTFE (Wikipedia, Plain bearing, from McMaster-Carr catalogue data).
+- Plastic plain bearings (igus): housing hole H7, shaft at least h9, press-fit oversize up to 2% of the inside diameter; press in with a flat punch, not a centring pin (igus iglidur tolerances).
+- Deep-groove ball bearings take axial (end) loads of about 50% of their radial rating, or 25% for small or light bearings (Wikipedia, Ball bearing, citing SKF).
+- Tight fit on the ring that turns relative to the load, looser fit on the other ring; too loose and the ring creeps round in its seat, too tight and it can crack or lose its internal clearance and overheat (NSK).
+- 608 bearing: 8 mm bore, 22 mm outside diameter, 7 mm wide; SKF 608-2Z rated 3.45 kN dynamic, 1.37 kN static (123bearing); the usual skateboard wheel bearing (Wikipedia).
+- Precision shoulder screws: shoulder 0.013 to 0.038 mm under nominal and shoulder length 0.013 to 0.063 mm over nominal (metric), so a part of nominal size turns freely; commercial shoulder lengths are only +/-0.125 mm, so a full-width part can bind (Machine Design).
+- Bolt as a pivot: make the smooth (unthreaded) grip length about equal to the thickness of the parts and washers it passes through (Wikipedia, Bolt).
+- Printed pivots: at least 0.3 mm clearance for moving parts (Prusa); drill critical upright holes to size, and use off-the-shelf pins below 5 mm diameter (Hubs).
+
+## Common failures
+
+Plain pivots: the hole wears oval and the joint gets sloppy; threads left in the hole fret the hole (Wikipedia, Bolt); dry or overloaded bushings gall and seize when lubrication fails (Wikipedia, Plain bearing); a pivot bolt that turns with the part slowly unscrews, so use a shoulder screw or a locking nut ⚑ [uncertain]; thin printed pins snap (Hubs). Ball bearings: a ring fitted too loosely creeps round in its seat and wears it, and one fitted too tightly cracks or runs hot (NSK); dirt and water ruin them (Wikipedia); a single bearing under a sideways twist collapses (Wikipedia, Ball bearing). Printed parts: pockets come out too tight or too loose (Hackaday, crush ribs), and printed bearings fuse or bind unless their tolerances are calibrated (Printables 276409).
+
+## Safety
+
+Pivoting levers and arms make scissor-like pinch points ⚑ [uncertain]. Spinning parts on bearings can catch hair, loose clothing or fingers. When pressing in bearings, push on the ring you are fitting rather than through the balls, and wear eye protection, because too much interference can crack a ring (NSK: excessive interference can crack the inner ring) ⚑ [uncertain].
+
+## Related
+
+- Clevis joint (fork-and-pin joint): a pin supported on both sides by a fork, so it is loaded in double shear
+- Knuckle hinge (butt hinge): a pin pivot spread along a door edge through interleaved knuckles
+- Turntable bearing (lazy-Susan bearing, slewing ring): a thin, wide ring bearing for platforms and tipping loads
+- Roller clutch (one-way bearing): a bearing that turns freely one way and locks the other
+- Flexure hinge: bends instead of sliding or rolling; no play and no wear, but only a small angle
+- Rolling-contact joint (CORE, Jacob's-ladder hinge): two curved surfaces roll on each other instead of turning on a pin
+- Linear guides: bushings and bearings for straight-line motion
+- Press fit (interference fit): how bearings and bushings are usually held in place
+- Retaining ring (circlip, E-clip): stops a pin or shaft sliding out
+- Shaft-to-hub joints (key, set screw, D-flat, clamp hub): fix a gear or wheel to the turning shaft
+- Mid-print embedding: trapping a bearing inside a printed part
+- Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt
+- Castor: a wheel turning on an axle in a bracket, with a second, swivel bearing on top so the wheel trails behind and steers itself
+- Ball caster: a large ball carried on small bearing balls, so it rolls in every direction instead of turning about one axis
+
+## Make it yourself
+
+- [Ultimate 608 Bearing with Calibration Kit V2 (Matvey Kukuy, Printables) (URL linked from the Hackaday article; page not opened, details read through the Printables API)](https://www.printables.com/model/276409-ultimate-608-bearing-with-calibration-kit): Print-in-place 608-size bearings plus 64 calibration models and a test tool to find the radial and tenon tolerances that work on your printer *(licence: CC0 (Creative Commons Public Domain))*
+- [608 bearing tolerance tester (Handy Maker, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1293573-608-bearing-tolerance-tester): Small test prints of a 608 bearing's outer and inner fits in 0.1 mm steps, to find how to scale your bearing pockets *(licence: CC BY-SA)*
+- [3D Printed Bearing (without balls) / Bushings (SabLei, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/693434-3d-printed-bearing-without-balls-bushings): Print-in-place ball-less bearings (bushings) in many standard bearing sizes, freed by squeezing with pliers and lubricated with PTFE or silicone spray *(licence: CC BY-NC-SA)*
+
+## Pictures, videos and models
+
+- [File:BallBearing.gif (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:BallBearing.gif): Animation of a ball bearing turning, with the balls rolling between the rings *(licence: CC BY-SA 3.0 (PlusMinus))*
+- [File:Radial-deep-groove-ball-bearing din625-t1 2rs 120.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png): Cut-away drawing of a deep-groove ball bearing with rubber seals on both sides (2RS) and a riveted steel cage *(licence: CC BY 2.5 (Silberwolf))*
+- [File:Revolute Pin Joint.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png): Cut-away view of a pin joint with shoulders (a pin turning in a hole) *(licence: CC BY-SA 4.0 (I.Elgamal))*
+- [File:Bearing Spacer Proper Length - inline skate wheel assembly - with labels.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Bearing_Spacer_Proper_Length_-_inline_skate_wheel_assembly_-_with_labels.svg): Labelled cross-section of an inline-skate wheel on two ball bearings with a spacer between them *(licence: CC BY-SA 4.0 (Fred Hsu))*
+- [How Ball Bearings Work | 3D Animation | Working Principle (saVRee, YouTube; title confirmed through YouTube oEmbed, video not watched)](https://www.youtube.com/watch?v=lIEHscqWJAk): 3D animation of the parts of a ball bearing and how they work *(licence: link only (standard YouTube licence))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 13 sentences on this page marked [uncertain].
+- ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Revolute_joint>
+- <https://en.wikipedia.org/wiki/Plain_bearing>
+- <https://en.wikipedia.org/wiki/SAE_841>
+- <https://en.wikipedia.org/wiki/Rolling-element_bearing>
+- <https://en.wikipedia.org/wiki/Ball_bearing>
+- <https://en.wikipedia.org/wiki/Bolt_(fastener)>
+- <https://commons.wikimedia.org/wiki/File:BallBearing.gif>
+- <https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png>
+- <https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png>
+- <https://commons.wikimedia.org/wiki/File:Bearing_Spacer_Proper_Length_-_inline_skate_wheel_assembly_-_with_labels.svg>
+- <https://commons.wikimedia.org/wiki/File:Deep_Groove_Ball_Bearing_Structure.png>
+- <https://commons.wikimedia.org/wiki/File:Pivotement_charge_radiale.svg>
+- <https://www.123bearing.com/bearing-housing/deep-groove-bearing/single-row/608-2z-skf>
+- <https://www.nsk.com/tools-resources/abc-bearings/fits-and-internal-clearance/>
+- <https://www.machinedesign.com/fastening-joining/article/21834322/the-basics-of-shoulder-screws>
+- <https://www.igus.eu/plain-bearing/wiki/tolerances>
+- <https://blog.igus.eu/tribo-filament-iglidur-i150-in-wear-test-test-video/>
+- <https://gm0.org/en/latest/docs/hardware-components/kit-and-hardware-guide/kit-glossary.html>
+- <https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html>
+- <https://idighardware.com/2016/07/decoded-nfpa-80-requirements-for-hinges/>
+- <https://hackaday.com/2022/09/17/3d-printable-bearings-that-actually-work-no-cad-tweaking-required/>
+- <https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/>
+- <https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
+- <https://www.youtube.com/watch?v=lIEHscqWJAk>
+- <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Washer_(hardware)>

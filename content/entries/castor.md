@@ -1,0 +1,285 @@
+---
+title: Castor
+description: An unpowered wheel in a fixed or swivelling bracket fixed under an object so it can be rolled; a swivel castor's
+  wheel trails behind its pivot so it lines itself up with the direction of travel, and braked versions lock the wheel, the
+  swivel or both.
+num: 396
+term: Castor (swivel castor, fixed castor, locking castor)
+plain_name: A small wheel in a bracket screwed under a cart, robot, chair or piece of furniture so it can be rolled about;
+  on the swivelling kind the wheel trails a little behind its pivot so it swings round by itself to follow wherever you push,
+  and a lock or brake stops it rolling, swivelling or both
+aliases:
+- caster (US spelling), castor wheel, caster wheel
+- swivel castor, swivel caster, pivoting castor; fixed castor, rigid castor, rigid caster
+- braked castor, castor with wheel brake, total lock castor (wheel and swivel head brake), directional lock castor, swivel
+  lock (Wikipedia 'Caster'; Blickle)
+- central locking castor, central brake system (one lever or pedal locks several castors, e.g. on hospital beds)
+- top plate castor (plate fitting), bolt hole castor, threaded stem castor, grip ring stem castor, expanding adapter stem
+  castor (mounting types, Blickle; CasterHQ)
+- kingpinless castor, twin-wheel castor, spring-loaded castor, heavy-duty castor, industrial caster
+- trail, trailing distance, offset, swivel lead (the distance the wheel sits behind the pivot)
+- Lenkrolle (German, swivel castor; seen in Printables model titles)
+- furniture glide, glide, slider, caster cup (non-rolling alternatives covered here)
+- 'Standards: European castor and wheel standards DIN EN 12526 to 12533 (as cited by Blickle)'
+family: hinges & pivots
+other_families: ['sliding, telescoping & linear motion', 'brakes, dampers & speed control']
+finder:
+  job:
+  - let it move
+  - lock, and release by hand
+  - slow it, stop it or keep its speed steady
+  motion: multiple
+  special_behaviour: [self-aligning or self-centring, hand-release only, fail-safe or breakaway]
+  holding_principle: [shape, not a holding joint]
+  reuse_cycles: many times
+  seal: none
+  access_needed: one side only
+  print_in_place: partly
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), sheet metal, woodwork]
+  connects: [not applicable]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [drill and tap, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Castor*: the agent added brakes, dampers & speed control to `other_families` for locking castors (the outline asked
+    only for sliding); keep or drop when reviewing. HSE INDG478 rates 3-5° slopes ''reasonable'' and over 5° steep for pushing
+    carts.'
+uncertain_fields: [making_tips_3d_printing, safety_notes]
+diagram_idea: A side view of a swivel castor with the vertical pivot axis drawn as a dashed line and the wheel's contact point
+  a short distance behind it (labelled 'trail'), then a top-view animation of a trolley being pushed sideways while its swivel
+  castors swing round to trail behind their pivots, with small icons for a wheel brake, a total lock and a directional lock.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png
+  title: Nachlauf Einkaufswagen.png (Wikimedia Commons)
+  shows: Sketch of the caster trail (offset) of a shopping trolley's swivel castor
+  license: CC BY-SA 3.0 / GFDL (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
+  title: Swivel caster.jpg (Wikimedia Commons)
+  shows: A swivel castor with a solid hard rubber wheel on a clothing rack
+  license: Public domain
+- url: https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG
+  title: Swivel caster with wheel lock.JPG (Wikimedia Commons)
+  shows: A swivel castor with a wheel-lock pedal
+  license: CC BY-SA 3.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG
+  title: Caster - Central locking mechanism - Stryker hydraulic stretcher.JPG (Wikimedia Commons)
+  shows: The central locking mechanism that locks all castors of a stretcher at once
+  license: CC BY-SA 3.0 (reuse with credit)
+- url: https://www.blickle.com/guide/manouevrability
+  title: 'Manoeuvrability: castor arrangements (Blickle guide)'
+  shows: Diagrams of six castor layouts (three or four swivel, two swivel and two fixed, six-castor layouts) with their pros
+    and cons
+  license: link only (manufacturer page)
+make_it_yourself:
+- url: https://www.printables.com/model/457891-fully-printable-swiveling-locking-caster
+  title: Fully Printable Swiveling, Locking Caster (Printables 457891; URL from Printables API, page not opened)
+  what_it_is: A 4 in fully printed swivel castor with printed ball and thrust bearings, a TPU tyre and a wheel lock; light
+    loads only
+  license: CC BY-NC
+- url: https://www.printables.com/model/1290281-print-in-place-fixed-caster-wheel
+  title: Print in Place Fixed Caster Wheel (Printables 1290281; URL from Printables API, page not opened)
+  what_it_is: A fixed castor that prints already assembled
+  license: GPL v3.0
+- url: https://www.printables.com/model/1082563-low-profile-caster-roller-608-bearing
+  title: Low Profile Caster / Roller - 608 Bearing (Printables 1082563; URL from Printables API, page not opened)
+  what_it_is: A low fixed roller built round 608 skateboard bearings and a 1/4-20 screw; PETG recommended
+  license: CC BY
+- url: https://www.printables.com/model/1065367-swivel-lock-for-swivel-casters-on-the-harbor-freig
+  title: Swivel Lock for Swivel Casters on the Harbor Freight 1-Drawer Service Cart (Printables 1065367; URL from Printables
+    API, page not opened)
+  what_it_is: Printed directional (swivel) locks that turn two swivel castors into fixed ones so a cart pushes straight
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/1033755-one-bolt-swivel-caster-mount-for-ikea-bror-shelf
+  title: One Bolt Swivel Caster Mount for Ikea Bror Shelf (Printables 1033755; URL from Printables API, page not opened)
+  what_it_is: Printed PLA-CF adapter for fitting single-bolt swivel castors under a steel shelf
+  license: GPL v3.0
+- url: https://www.printables.com/model/414281-simple-furniture-glide
+  title: Simple furniture glide (Printables 414281; URL from Printables API, page not opened)
+  what_it_is: A screw-on PETG furniture glide for 16 mm chipboard
+  license: CC BY
+sources:
+- https://en.wikipedia.org/wiki/Caster
+- https://www.blickle.com/guide/manouevrability
+- https://www.blickle.com/guide/castor-wheels-with-brakes
+- https://www.blickle.com/guide/versions-options
+- https://www.blickle.com/guide/swivel-castors
+- https://www.blickle.com/guide/trolley-castors
+- https://www.blickle.com/guide/wheel-series
+- https://www.castors-online.co.uk/blog/how-to-calculate-the-load-capacity-you-actually-need
+- https://casterhq.com/pages/caster-mounting-types
+- https://www.hse.gov.uk/pubns/indg478.pdf
+- https://patents.google.com/patent/US7404232
+- http://thrinter.com/creep-abs-pla-petg-alloy-910/
+- https://help.prusa3d.com/article/pla_2062
+- https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png
+- https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
+- https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG
+- https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG
+- https://commons.wikimedia.org/wiki/File:Caster-wheels-chair.jpg
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Castor_swivel_castor_fixed_castor_locking_castor.json
+---
+
+An unpowered wheel in a fixed or swivelling bracket fixed under an object so it can be rolled; a swivel castor's wheel trails behind its pivot so it lines itself up with the direction of travel, and braked versions lock the wheel, the swivel or both.
+
+**In plain words:** A small wheel in a bracket screwed under a cart, robot, chair or piece of furniture so it can be rolled about; on the swivelling kind the wheel trails a little behind its pivot so it swings round by itself to follow wherever you push, and a lock or brake stops it rolling, swivelling or both. **Proper term:** Castor (swivel castor, fixed castor, locking castor).
+
+**Also called:** caster (US spelling), castor wheel, caster wheel; swivel castor, swivel caster, pivoting castor; fixed castor, rigid castor, rigid caster; braked castor, castor with wheel brake, total lock castor (wheel and swivel head brake), directional lock castor, swivel lock (Wikipedia 'Caster'; Blickle); central locking castor, central brake system (one lever or pedal locks several castors, e.g. on hospital beds); top plate castor (plate fitting), bolt hole castor, threaded stem castor, grip ring stem castor, expanding adapter stem castor (mounting types, Blickle; CasterHQ); kingpinless castor, twin-wheel castor, spring-loaded castor, heavy-duty castor, industrial caster; trail, trailing distance, offset, swivel lead (the distance the wheel sits behind the pivot); Lenkrolle (German, swivel castor; seen in Printables model titles); furniture glide, glide, slider, caster cup (non-rolling alternatives covered here); Standards: European castor and wheel standards DIN EN 12526 to 12533 (as cited by Blickle).
+
+## How it works
+
+A fixed (rigid) castor's wheel always points one way, so it rolls only straight. A swivel castor's fork turns on a vertical pivot, and its axle sits a short distance behind that pivot (the offset or trail); when you push in a new direction the drag of the wheel pulls it round to trail behind the pivot, like a shopping trolley's front wheels. 'If there is no offset, the wheel will not rotate if not facing the correct direction' (Wikipedia 'Caster'). A wheel brake presses a cam onto the tyre so it can't roll, but the castor can still swing round in a small circle; a total lock also locks the swivel, and a directional lock locks only the swivel so the castor rolls straight like a fixed one (Wikipedia 'Caster').
+
+## Parts
+
+A small assembly that acts as one unit: a wheel (tyre and centre) on an axle with a plain or ball bearing, a fork (bracket or yoke), and the fitting (a top plate with four bolt holes, a single bolt hole, or a stem). A swivel castor adds a swivel head (a kingpin and ball races, or a kingpinless ring bearing) between the fitting and the fork. Braked castors add a pedal and cam pressing on the wheel and, for total lock, a lock on the swivel head; central locking adds a shaft or cam running down through each castor from one lever (Wikipedia 'Caster'; Blickle).
+
+## Everyday examples
+
+- a supermarket trolley: swivel castors at the front, fixed ones at the back in North America (Wikipedia 'Caster')
+- an office chair's castors (Wikimedia Commons 'Caster-wheels-chair.jpg')
+- a hospital bed or stretcher whose castors all lock with one pedal (central locking, Wikipedia 'Caster')
+- a tool cart or garage trolley with two swivel and two fixed castors (Printables 1065367; Blickle)
+
+## When to use it
+
+When something heavy or bulky must be moved around a room, workshop or building by hand: workbenches, tool carts, shelving, plant stands, printer tables, robot bases and furniture. Use swivel castors where it must turn in tight spaces, fixed castors where it should track straight (two of each is the usual choice), total-lock or central-locking castors where it must stay put while being worked on, and larger wheels for rough floors, cables and thresholds. For small two-wheeled robots, a swivel castor is the alternative to a ball caster when the floor is rough.
+
+## When not to use it
+
+On smooth floors where a light robot must start in any direction instantly: a ball caster doesn't have to swing round first. Where a machine must stand rock-steady (a 3D printer, a lathe, a bandsaw on its base), use levelling feet, a truck lock or retractable castors, because even braked castors allow a little movement (Wikipedia 'Caster'). For straight, guided motion use a linear slide or rail. For things that are only occasionally slid a short way, furniture glides are simpler: a glide is a cap or foot that lets furniture slide 'over the surface on which it is supported' (US patent 7,404,232). For very heavy loads on rough ground, use pneumatic or large heavy-duty wheels, or an air caster on smooth floors.
+
+## Details
+
+- **What it does (jobs):**
+  - let it move (turn, slide or bend): lets a cart, robot, chair or piece of furniture roll across the floor and turn
+  - lock, and release by hand: braked, total-lock and directional-lock castors are locked and released with a pedal or lever
+  - slow it, stop it or keep its speed steady: parking locks hold the load still; some drum and dead-man's brakes can also slow a moving trolley (Blickle)
+- **Movement:** multiple: the wheel turns without limit; a swivel castor's fork also turns through 360 degrees about its vertical pivot (Wikipedia 'Caster'), so the object can roll in any direction and turn on the spot; a fixed castor only rolls straight; none when fully locked
+- **Directions it can move (degrees of freedom):** Fixed castor: 1 (the wheel turns on its axle). Swivel castor: 2 (wheel rolling plus swivel), giving the object 3 on a flat floor (forwards and backwards, sideways after the castors swing round, and turning on the spot). Wheel brake on: the swivel is still free, so the object can still shift a little in a circle the size of the offset; total lock: 0 (Wikipedia 'Caster').
+- **Special behaviour:**
+  - self-aligning or self-centring: the trail makes a swivel castor swing round to follow the direction of travel and keeps a trolley running straight without steering (Wikipedia 'Caster')
+  - hand-release only (locks under load, releases when a person operates it): braked and total-lock castors stay locked under load until the pedal or lever is released; central locking does several castors with one lever (Wikipedia 'Caster'; Blickle)
+  - fail-safe or breakaway: only in dead-man's brake versions, where a spring applies the brake unless a lever or cable holds it off (Blickle)
+- **How it holds:** not a holding joint (it moves or passes on motion) for the rolling and swivelling; the fitting holds by shape and friction (bolts through a top plate, a threaded stem, a grip-ring stem that snaps into a groove, or an expanding rubber sleeve inside a tube); the brakes hold by friction (non-positive locking) or by shape (positive locking, e.g. a brake spring locking into a toothed disc in the swivel head) (Blickle 'Versions / options'; CasterHQ)
+- **Input and output:** not applicable: it supports a load and rolls; it does not pass motion on
+- **Power:** passive (no power needed)
+- **Load:** Light to very heavy: from furniture and office-chair castors to industrial castors carrying 'up to thirty thousand pounds' (Wikipedia 'Caster'). Each castor has a rated load; size them so three castors can carry the whole load, because on real floors a four-castor trolley often rests on only three (P&L Castors). Strong straight down; weaker against side knocks, kerbs and drops, and stem fittings are the weak point compared with top plates, because 'the stem will pull out before the wheel fails' (CasterHQ, vendor guide).
+- **Play and precision:** Some play: the swivel head and wheel bearing have small clearances, and a braked swivel castor can still move in a small circle (Wikipedia 'Caster'). Not a locator: castors let things roll and need a total lock, truck lock or levelling feet to hold position. They roll over small bumps; larger wheels bridge gaps such as the one into a lift (Wikipedia 'Caster').
+- **Taking it apart:** removable: top-plate and bolt-hole castors unbolt; threaded stems unscrew; grip-ring stems pull out of their socket; expanding adapters release when their bolt is loosened (CasterHQ). Glides tap or screw on.
+- **How often it can be reused:** many times: castors can be moved from one cart to another; grip-ring stems lose grip after many fittings (CasterHQ says the ring loses tension after about 10,000 insert and remove cycles, a vendor figure) and expanding rubber sleeves age (CasterHQ)
+- **Sealing:** none for most; dust-resistant where a thread guard and bearing seal keep hair, threads and dirt out of the wheel bearing (Blickle wheel series options such as 'thread guard with ball bearing seal')
+- **Adjustable:** no for the castor itself, apart from locking or unlocking; arrangement and height are chosen at fitting (Blickle uses slightly higher fixed castors in some layouts)
+- **Access needed:** one side only (blind) for most: fitted from underneath into tapped holes, sockets, tube ends or wood; both sides when the top-plate bolts need nuts above
+- **Materials:** Wheels of rubber, thermoplastic rubber (TPE), polyurethane, nylon, cast iron or steel; brackets of pressed steel, stainless steel or plastic (Blickle). Softer treads protect floors and run quietly; harder wheels roll more easily and pick up less debris (Wikipedia 'Caster'). Printed versions use PETG, ABS or PLA bodies, TPU tyres and bought 608 skateboard bearings (Printables 457891, 1082563, 336295).
+- **Heat, cold, water and wear:** Heat lowers wheel load ratings (Blickle wheel tables, from about +30 to +60 °C depending on tread). Expanding rubber stems age in chemicals, heat and wash-down (CasterHQ). Hair, threads and grit wind into the bearings unless there is a thread guard (Blickle options). Wet, damp or debris-covered floors, carpet, gravel, sand and mud make pushing harder and are rated 'poor' or 'reasonable' by HSE (INDG478). Rubber treads can leave marks; non-marking treads exist (Blickle). Printed PLA parts creep under constant load and soften above about 60 °C (Thrinter; Prusa). Stainless brackets are used where hygiene or corrosion matters (Blickle).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part (most common)
+  - 3D print (FDM): mounting adapters, swivel locks, light-duty wheels around bought bearings, glides
+  - woodwork: mounting blocks and bases; screw-on castors under furniture
+  - sheet metal: brackets and adapter plates
+  - CNC: machined hubs, adapter plates
+- **Printing it in one piece (print in place):** partly: a simple fixed castor can be printed already assembled (Printables 1290281 'Print in Place Fixed Caster Wheel'), but most printed castors are assembled from separate parts with a bought bearing, a bolt as axle or a TPU tyre; one fully printed swivelling, locking castor even prints its own ball and thrust bearings but is assembled afterwards (Printables 457891)
+- **Tools:** spanner or socket and drill for top-plate and bolt-hole castors; spanner and thread-locker for threaded stems; a soft mallet for grip-ring stems; a hex key for expanding adapters (CasterHQ); screwdriver for screw-on glides
+- **Difficulty:** easy to fit bought castors; moderate to print light-duty castors or mounts; hard to print one that rolls well under heavy load (a fully printed locking castor broke under a heavy planer table, Printables 457891)
+
+### 3D printing tips
+
+For anything heavier than a light robot or a drawer, buy the castor and print only the adapter: a printed one-bolt (8 mm) swivel-castor mount for a steel shelf in PLA-CF, with 5 walls and 50 % infill, carried about 125 lb (57 kg) for two months (Printables 1033755). If you print the wheel, run it on bought bearings such as 608 skateboard bearings (Printables 336295, 1082563, 88814) and use a metal bolt as the axle; print wheels with high infill so the axle part is strong (Printables 53619, PETG). A TPU tyre grips and is quiet, but a soft tyre rolls badly under heavy load; a fully printed 4 in locking castor held a heavy planer table standing still but broke when rolled (Printables 457891). Springy parts such as a lock lever with a built-in spring are better in PETG than PLA (Printables 457891). Printed swivel locks that clamp onto a cart's castors were printed in ASA with 6 walls and 25 % infill (Printables 1065367). Avoid PLA for castors or mounts that carry weight for months: PLA creeps under constant load and softens above about 60 °C (Thrinter creep test; Prusa PLA page). Printing a wheel lying flat so the tread is made of perimeters is the usual choice ⚑ [uncertain: not tested on an opened page].
+
+### Buying one (off-the-shelf parts)
+
+Search terms: 'swivel castor' or 'swivel caster', 'fixed castor' or 'rigid caster', 'braked castor' or 'castor with wheel brake', 'total lock castor' (wheel and swivel brake), 'directional lock castor' or 'swivel lock', 'central locking castor' or 'central brake castor', 'top plate castor' (plate sizes and bolt patterns are in maker catalogues), 'bolt hole castor', 'threaded stem castor', 'grip ring stem castor', 'expanding adapter castor' (for tube legs), 'kingpinless castor', 'twin wheel castor', 'spring-loaded castor', 'non-marking castor wheel', 'castor with thread guard', 'truck lock' or 'floor lock', 'furniture glide' (nail-on, screw-in, swivel or felt), 'caster cups', '608 bearing' for printed wheels.
+
+## Rules of thumb
+
+- Size castors by the heaviest total (trolley plus heaviest load) and don't divide by four: assume only three of four castors carry it, e.g. 300 kg total needs castors of at least 100 kg each, plus extra margin for kerbs and thresholds (P&L Castors, https://www.castors-online.co.uk/blog/how-to-calculate-the-load-capacity-you-actually-need). Never exceed the rated capacity; HSE's pushing and pulling tool scores that as 'Unacceptable' (HSE INDG478, https://www.hse.gov.uk/pubns/indg478.pdf).
+- Slopes: HSE's tool treats a 3 to 5 degree slope as 'reasonable' and over 5 degrees as a 'steep slope' (poor), along with soft ground such as gravel or mud (HSE INDG478, as above).
+- Trail: a swivel castor must have an offset to self-align; more trailing distance reduces flutter at moderate speeds but needs more room to swivel (Wikipedia 'Caster', https://en.wikipedia.org/wiki/Caster).
+- Bigger wheels roll more easily over rough floors and gaps, but need a taller bracket and more swivel space; wide wheels resist swivelling under load, so use twin narrow wheels instead (Wikipedia 'Caster', as above).
+- Layout: two swivel and two fixed castors is the most common arrangement, easy to steer in a straight line and round corners; four swivel castors suit narrow routes but are hard to push straight, which directional locks on two castors improve; three swivel castors make a trolley more likely to tip (Blickle castor arrangements, https://www.blickle.com/guide/manouevrability).
+- Heat: wheel ratings fall when warm, e.g. Blickle lists working ranges of -20 to +60 °C for a thermoplastic rubber wheel with load capacity reduced above +30 °C, and -20 to +80 °C for an elastic solid rubber wheel with reduced capacity above +35 °C (Blickle wheel series, https://www.blickle.com/guide/wheel-series).
+- Threaded stems: use thread-locker or a nylon-insert lock nut, because vibration loosens them (CasterHQ mounting guide, https://casterhq.com/pages/caster-mounting-types).
+
+## Common failures
+
+(1) Flutter (shimmy) at speed: increase the trail, add swivel friction, use lighter wheels or heavier grease (Wikipedia 'Caster'). (2) A cart with four swivel castors won't go straight: fit directional locks or swap two for fixed castors (Blickle; Printables 1065367). (3) Overloaded castors flatten, crack or stop swivelling because they were sized for a quarter of the load (P&L Castors). (4) Threaded stems vibrate loose or cross-thread; grip-ring stems fall out of worn sockets; expanding sleeves degrade (CasterHQ). (5) Hair and thread wrap round the axle and jam the wheel (Blickle offers thread guards). (6) Wide wheels resist swivelling under heavy load (Wikipedia). (7) Swivel heads wear loose; kingpinless designs avoid 'most causes of swivel caster failure' (Wikipedia). (8) Printed castors and mounts creep or break when rolled under heavy load (Printables 457891; Thrinter). (9) A braked cart still shifts because only the wheel is locked (Wikipedia).
+
+## Safety
+
+A rolling load can run away or tip: lock the castors on any slope, and avoid slopes over about 5 degrees when pushing by hand (HSE INDG478). Respect each castor's rated load and size for three castors carrying the load (P&L Castors); loads over the rated capacity are 'Unacceptable' (HSE). A wheel brake alone still lets the castor swing, so a 'locked' cart can shift; use total-lock castors or a truck lock where it must not move (Wikipedia 'Caster'; Blickle). Most castor brakes are parking locks, not brakes for slowing a moving trolley (Blickle). Three-swivel layouts and some six-castor layouts make trolleys more likely to tip (Blickle). Flutter at speed 'can cause a vehicle to suddenly move in an unwanted direction' (Wikipedia). Castors can run over feet; toe guards are one of the ergonomic additions (Wikipedia). A home-made castor should never support a person, such as a chair or a creeper board ⚑ [uncertain: general caution].
+
+## Related
+
+- Ball caster (ball transfer unit): rolls in any direction at once without swinging round; better for small robots on smooth floors, worse on rough floors and for heavy carts
+- Air bearing and air caster: floats heavy loads on air instead of rolling
+- Plain pivot and rolling bearing (pin in hole, ball bearing): the wheel's axle bearing, and the basic wheel on a fixed axle with no swivel
+- Turntable bearing (lazy Susan): the same kind of flat ring bearing as a castor's swivel head
+- Internal tube anchors (star nut, expansion plug): the expanding stems and inserts that hold castors in tube legs
+- Levelling foot (adjustable foot, swivel levelling pad): holds a machine still and level instead of letting it roll
+- Friction brake (band, drum or disc brake): the general type that castor wheel brakes and drum brakes belong to
+- Omni wheel and mecanum wheel: driven wheels that can also move sideways (Wikipedia 'Caster', other types of wheels)
+- Furniture glides and caster cups: non-rolling feet that slide or stop castors moving (Wikipedia 'Caster' mentions caster cups)
+
+## Make it yourself
+
+- [Fully Printable Swiveling, Locking Caster (Printables 457891; URL from Printables API, page not opened)](https://www.printables.com/model/457891-fully-printable-swiveling-locking-caster): A 4 in fully printed swivel castor with printed ball and thrust bearings, a TPU tyre and a wheel lock; light loads only *(licence: CC BY-NC)*
+- [Print in Place Fixed Caster Wheel (Printables 1290281; URL from Printables API, page not opened)](https://www.printables.com/model/1290281-print-in-place-fixed-caster-wheel): A fixed castor that prints already assembled *(licence: GPL v3.0)*
+- [Low Profile Caster / Roller - 608 Bearing (Printables 1082563; URL from Printables API, page not opened)](https://www.printables.com/model/1082563-low-profile-caster-roller-608-bearing): A low fixed roller built round 608 skateboard bearings and a 1/4-20 screw; PETG recommended *(licence: CC BY)*
+- [Swivel Lock for Swivel Casters on the Harbor Freight 1-Drawer Service Cart (Printables 1065367; URL from Printables API, page not opened)](https://www.printables.com/model/1065367-swivel-lock-for-swivel-casters-on-the-harbor-freig): Printed directional (swivel) locks that turn two swivel castors into fixed ones so a cart pushes straight *(licence: CC BY-NC-SA)*
+- [One Bolt Swivel Caster Mount for Ikea Bror Shelf (Printables 1033755; URL from Printables API, page not opened)](https://www.printables.com/model/1033755-one-bolt-swivel-caster-mount-for-ikea-bror-shelf): Printed PLA-CF adapter for fitting single-bolt swivel castors under a steel shelf *(licence: GPL v3.0)*
+- [Simple furniture glide (Printables 414281; URL from Printables API, page not opened)](https://www.printables.com/model/414281-simple-furniture-glide): A screw-on PETG furniture glide for 16 mm chipboard *(licence: CC BY)*
+
+## Pictures, videos and models
+
+- [Nachlauf Einkaufswagen.png (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png): Sketch of the caster trail (offset) of a shopping trolley's swivel castor *(licence: CC BY-SA 3.0 / GFDL (reuse with credit))*
+- [Swivel caster.jpg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg): A swivel castor with a solid hard rubber wheel on a clothing rack *(licence: Public domain)*
+- [Swivel caster with wheel lock.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG): A swivel castor with a wheel-lock pedal *(licence: CC BY-SA 3.0 (reuse with credit))*
+- [Caster - Central locking mechanism - Stryker hydraulic stretcher.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG): The central locking mechanism that locks all castors of a stretcher at once *(licence: CC BY-SA 3.0 (reuse with credit))*
+- [Manoeuvrability: castor arrangements (Blickle guide)](https://www.blickle.com/guide/manouevrability): Diagrams of six castor layouts (three or four swivel, two swivel and two fixed, six-castor layouts) with their pros and cons *(licence: link only (manufacturer page))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 2 sentences on this page marked [uncertain].
+- ⚑ Research note: *Castor*: the agent added brakes, dampers & speed control to `other_families` for locking castors (the outline asked only for sliding); keep or drop when reviewing. HSE INDG478 rates 3-5° slopes 'reasonable' and over 5° steep for pushing carts.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Caster>
+- <https://www.blickle.com/guide/manouevrability>
+- <https://www.blickle.com/guide/castor-wheels-with-brakes>
+- <https://www.blickle.com/guide/versions-options>
+- <https://www.blickle.com/guide/swivel-castors>
+- <https://www.blickle.com/guide/trolley-castors>
+- <https://www.blickle.com/guide/wheel-series>
+- <https://www.castors-online.co.uk/blog/how-to-calculate-the-load-capacity-you-actually-need>
+- <https://casterhq.com/pages/caster-mounting-types>
+- <https://www.hse.gov.uk/pubns/indg478.pdf>
+- <https://patents.google.com/patent/US7404232>
+- <http://thrinter.com/creep-abs-pla-petg-alloy-910/>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png>
+- <https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg>
+- <https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG>
+- <https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG>
+- <https://commons.wikimedia.org/wiki/File:Caster-wheels-chair.jpg>
+- <https://api.printables.com/graphql/>

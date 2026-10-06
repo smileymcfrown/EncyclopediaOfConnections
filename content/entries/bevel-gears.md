@@ -1,0 +1,298 @@
+---
+title: Bevel gears
+description: Two gears with teeth cut on cones whose tips meet at one point, used to pass rotation between shafts that meet
+  at an angle (usually 90 degrees), either at 1:1 (mitre gears) or with a speed change; a crown gear is a flat version that
+  meshes with an ordinary straight-toothed gear.
+num: 98
+term: Bevel gears (bevel gear pair), including mitre gears and crown gears
+plain_name: Cone-shaped gears that meet at a corner, so a shaft turning one way can turn another shaft set at an angle to
+  it, usually a right angle (like the crank of a hand drill turning the chuck)
+aliases:
+- bevel gear / bevel gear pair / bevel gearing
+- mitre gear / miter gear (a 1:1 pair with equal teeth, usually at 90 degrees)
+- angular mitre or angular bevel gears (for shaft angles other than 90 degrees, e.g. 45, 60 or 120 degrees)
+- straight bevel gear; spiral bevel gear; zerol bevel gear (curved teeth with zero spiral angle)
+- hypoid gear (spiral-bevel-like pair with offset shafts, used in car axles)
+- crown gear / face gear / contrate wheel / crown wheel (flat wheel with teeth on its face; meshes with an ordinary spur pinion)
+- planar bevel gear (a bevel gear with a 90-degree pitch angle, also sometimes called a crown gear)
+- crown wheel and pinion / ring and pinion (car final drive)
+- right-angle gearbox / bevel gearbox / angle drive / T-gearbox
+- conical gearing (old name, 507 Mechanical Movements)
+- Kegelrad (German); Kronrad (German for crown gear)
+family: gear trains, gearboxes & transmissions
+other_families: []
+finder:
+  job: [change speed or turning force]
+  motion: rotate
+  special_behaviour: []
+  holding_principle: [not a holding joint]
+  reuse_cycles: many times
+  seal: none
+  access_needed: not applicable
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), woodwork]
+  connects: [not applicable]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [steady turning]
+  motion_out: [steady turning]
+  shaft_layout: [at an angle, crossed]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: 'yes'
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points: []
+uncertain_fields: [input_output, print_in_place, making_tips_3d_printing, off_the_shelf_parts, environment_limits, common_failures]
+diagram_idea: Two see-through cones touching tip to tip where two shafts cross, then teeth 'growing' on the cones; a 20-tooth
+  pinion turns a 40-tooth gear at half speed, with arrows showing each gear being pushed back along its shaft, away from the
+  cone tip.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Kegelrad.gif
+  title: Kegelrad.gif (Wikimedia Commons, by Ralf Pfeifer)
+  shows: Animation of a bevel gear pair showing its key geometric feature, the pitch cones meeting at a point
+  license: GFDL 1.2+ / CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Kronrad1.gif
+  title: Kronrad1.gif (Wikimedia Commons, by Ralf Pfeifer)
+  shows: Diagram of how crown gears work with a spur pinion, an application example and a comparison with bevel gears
+  license: GFDL 1.2+ / CC BY-SA 3.0
+- url: https://507movements.com/mm_026.html
+  title: '507 Mechanical Movements, No. 26: crown-wheel and spur gear'
+  shows: Historic 1868 drawing (with an animated version) of a crown wheel driven by a spur gear, noted as only for light
+    work
+  license: Book public domain; website animation link only
+- url: https://www.youtube.com/watch?v=ymHzbN1oK1w
+  title: How Bevel Gears Work (Daniel Izzo, YouTube; linked from Wikipedia 'Bevel gear')
+  shows: Video explanation of how bevel gears mesh and turn motion through an angle
+  license: link only (standard YouTube licence)
+make_it_yourself:
+- url: https://github.com/BelfrySCAD/BOSL2/wiki/gears.scad
+  title: 'BOSL2 gears.scad: bevel_gear() and crown_gear() (OpenSCAD library)'
+  what_it_is: Parametric OpenSCAD generator for matched straight, zerol and spiral bevel gear pairs at any shaft angle, and
+    crown (face) gears with a matching spur pinion, with backlash settings
+  license: BSD 2-Clause
+- url: https://raw.githubusercontent.com/looooo/freecad.gears/master/README.md
+  title: FreeCAD Gears workbench (freecad.gears / FCGear), README
+  what_it_is: FreeCAD add-on that creates spherical involute bevel gears (including spiral), crown gears, helical and other
+    gears with full parameter control
+  license: GPL-3.0
+- url: https://www.printables.com/model/607786-bevel-gear-tester-with-parametric-gears
+  title: Bevel Gear tester with parametric gears by MeideC (URL from Printables API, page not opened)
+  what_it_is: Motor-driven bevel gear test rig with Fusion 360 parameters for module, tooth counts and backlash, and a bearing
+    inside the larger gear
+  license: CC BY
+- url: https://www.printables.com/model/1210377-metric-miter-gears-90deg
+  title: Metric Miter Gears 90 degrees by Michael Hathaway (URL from Printables API, page not opened)
+  what_it_is: 'Printable 1:1 mitre gear pair with STEP file: module 1, 20 teeth, 20-degree pressure angle, 8 mm shaft, 20
+    mm mounting distance, M4 set screw'
+  license: CC BY-SA
+- url: https://www.printables.com/model/11954-involute-bevel-gear-generator
+  title: Involute Bevel Gear generator by Oryhara (URL from Printables API, page not opened)
+  what_it_is: Bevel gear generator based on an OpenSCAD gear script; the author reports printed gears mesh properly
+  license: CC BY
+- url: https://huangyan920.github.io/Mechanical/
+  title: 'HUANGYAN920 Mechanical: interactive mechanism animations (entries ''BEVEL-GEAR'', ''SPIRAL-BEVEL'', ''CROWN-GEAR'')'
+  what_it_is: Browser animations of bevel, spiral bevel and crown gear drives; its quick notes list a 1:1 to 1:5 ratio range,
+    so check numbers against KHK
+  license: MIT
+sources:
+- https://en.wikipedia.org/wiki/Bevel_gear
+- https://en.wikipedia.org/w/index.php?title=Bevel_gear&action=raw
+- https://en.wikipedia.org/wiki/Crown_gear
+- https://en.wikipedia.org/wiki/Gear
+- https://en.wikipedia.org/wiki/Miter_gear
+- https://khkgears.net/new/bevel_gears.html
+- https://khkgears.net/new/miter_gears.html
+- https://khkgears.net/pdf/2025/miter-gears.pdf
+- https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_types_terminology.html
+- https://khkgears.net/new/gear_knowledge/abcs_of_gears-b/gear_types_and_characteristics.html
+- https://khkgears.net/new/gear_knowledge/gear-nomenclature/thrust-forces-acting-on-gears.html
+- https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_forces.html
+- https://roymech.org/Useful_Tables/Drive/Bevel_Gears.html
+- https://www.tec-science.com/mechanical-power-transmission/gear-types/bevel-gears/
+- https://www.mcmaster.com/products/bevel-gears/
+- https://www.mcmaster.com/products/miter-gears/
+- https://www.igus.com/custom-parts-services/3d-printing/3d-printed-gear
+- https://507movements.com/mm_026.html
+- https://507movements.com/toc.html
+- https://commons.wikimedia.org/wiki/Category:Bevel_gears
+- https://commons.wikimedia.org/wiki/File:Kegelrad.gif
+- https://commons.wikimedia.org/wiki/File:Kronrad1.gif
+- https://www.youtube.com/watch?v=ymHzbN1oK1w
+- https://github.com/BelfrySCAD/BOSL2/wiki/gears.scad
+- https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad
+- https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
+- https://raw.githubusercontent.com/looooo/freecad.gears/master/README.md
+- https://huangyan920.github.io/Mechanical/
+- https://api.printables.com/graphql/
+- https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/
+- https://howtomechatronics.com/how-it-works/how-to-3d-print-gears-the-ultimate-guide/
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://help.prusa3d.com/article/pla_2062
+research: research/connection-types/results/Bevel_gears_incl_mitre_and_crown_gears.json
+---
+
+Two gears with teeth cut on cones whose tips meet at one point, used to pass rotation between shafts that meet at an angle (usually 90 degrees), either at 1:1 (mitre gears) or with a speed change; a crown gear is a flat version that meshes with an ordinary straight-toothed gear.
+
+**In plain words:** Cone-shaped gears that meet at a corner, so a shaft turning one way can turn another shaft set at an angle to it, usually a right angle (like the crank of a hand drill turning the chuck). **Proper term:** Bevel gears (bevel gear pair), including mitre gears and crown gears.
+
+**Also called:** bevel gear / bevel gear pair / bevel gearing; mitre gear / miter gear (a 1:1 pair with equal teeth, usually at 90 degrees); angular mitre or angular bevel gears (for shaft angles other than 90 degrees, e.g. 45, 60 or 120 degrees); straight bevel gear; spiral bevel gear; zerol bevel gear (curved teeth with zero spiral angle); hypoid gear (spiral-bevel-like pair with offset shafts, used in car axles); crown gear / face gear / contrate wheel / crown wheel (flat wheel with teeth on its face; meshes with an ordinary spur pinion); planar bevel gear (a bevel gear with a 90-degree pitch angle, also sometimes called a crown gear); crown wheel and pinion / ring and pinion (car final drive); right-angle gearbox / bevel gearbox / angle drive / T-gearbox; conical gearing (old name, 507 Mechanical Movements); Kegelrad (German); Kronrad (German for crown gear).
+
+## How it works
+
+Picture two cones rolling on each other with their points touching: the teeth are cut on those imaginary cones (the pitch cones) and get smaller towards the tip, so the gears roll together without slipping even though their shafts meet at an angle. The speed ratio is the number of teeth on one gear divided by the number on the other; equal gears (mitre gears) just carry the drive round the corner. Because the teeth are sloped, the load pushes each gear back along its own shaft, away from the cone tip, so the gears must be fixed in place and the shafts held at the right angle and distance, or the teeth only touch at their ends. A crown gear has teeth standing straight up from a flat face, so a plain spur pinion meshes with it and can even slide along its own axis without spoiling the mesh.
+
+## Parts
+
+A few parts: the two gears (a small pinion and a larger gear for a speed change, or two identical mitre gears for 1:1; spiral ones come as a left-hand plus right-hand pair), two shafts with bearings, set screws, keys or pins that stop each gear sliding along its shaft, thrust washers or bearings to take the push along each shaft, and usually a frame or housing that holds the shafts at exactly the right angle and distance. A crown gear set is a flat face gear plus an ordinary spur pinion.
+
+## Everyday examples
+
+- A hand (egg-beater) drill: turning the side crank spins the chuck at right angles and faster (Wikipedia 'Bevel gear')
+- The crown wheel and pinion in a car's rear axle, which turn the drive from the prop shaft to the wheels
+- Roller shutter doors, floodgate lifters and old grain mills (photos in Wikipedia 'Bevel gear')
+- Shaft-driven bicycles, with a bevel ring gear at the rear wheel
+
+## When to use it
+
+Use bevel gears when a motor or crank has to drive a shaft that points a different way, in a small space: a motor lying along a robot arm driving a joint at right angles, a vertical motor driving a horizontal axle, a side crank on a winch or toy, a turntable or pan mechanism, or one shaft driving two others in a T. Mitre gears just turn the corner at 1:1; a bevel pair can also give a modest speed change. They are efficient (about 98-99%) and quiet in spiral form, so they suit continuous drives. A crown gear with a spur pinion is the easy option for light, low-speed toys and models, because the pinion's position along its shaft is not critical.
+
+## When not to use it
+
+For a big reduction at right angles, or when the output must stay put when the motor stops, use a worm drive (worm drives are self-locking but much less efficient). If the shafts don't actually meet (they pass each other), use crossed helical (screw) gears or a worm; for parallel shafts use spur or helical gears or a belt. If you can't hold the two shafts rigidly at the right angle and distance (flexible printed frames), bevel gears will skip and wear; use a crown gear with a spur pinion, a belt, or a universal joint for small angles at 1:1. For high speeds or quiet running, avoid straight bevels and use spiral bevel gears (Wikipedia 'Bevel gear').
+
+## Details
+
+- **What it does (jobs):**
+  - change speed or turning force: passes rotation round a corner (usually 90 degrees); mitre gears only change the direction (1:1), bevel pairs also change speed, typically up to about 4:1 or 5:1 in one step, and hypoid pairs up to about 60:1
+- **Movement:** rotate: continuous rotation in, continuous rotation out on a shaft at an angle to the first (usually 90 degrees; KHK angular mitre gears cover 45 to 120 degrees); unlimited range, either direction
+- **Directions it can move (degrees of freedom):** 1: once the gears mesh, turning one fixes the other's position through the gear ratio
+- **Special behaviour:**
+  - none: it simply passes rotation round a corner at a fixed ratio (for 'clever' uses, see the differential, which is built from bevel gears)
+- **How it holds:**
+  - not a holding joint (it moves or passes on motion): interlocking teeth pass rotation from one shaft to the other
+- **Input and output:** Continuous rotation -> continuous rotation on a shaft that meets the first at an angle (a crown gear with a spur pinion also works at 90 degrees). Ratio = teeth on the driven gear / teeth on the driving gear; mitre gears are 1:1. Straight bevel pairs are sold in ratios of about 1.5:1 to 4:1 (KHK stock gears; RoyMech 'ratios from 1:2 to 4:1'; McMaster-Carr 3:2 to 5:1); hypoid sets reach 60:1 and more (Wikipedia 'Gear'; KHK MHP hypoid series 15 to 60). Efficiency: 98-99% per mesh (KHK), because the teeth mostly roll rather than slide. Shafts: intersecting (hypoid: crossed with an offset). Back-drivable: yes; like spur gears, the output can drive the input backwards, so a bevel pair will not hold a load by itself ⚑ [uncertain] (inferred from the high rolling efficiency, not stated by a source).
+- **Power:** passive (no power needed)
+- **Load:** Light to heavy depending on type and size: steel spiral bevel gears carry high loads at high speed (car axles, helicopter drives), straight bevel gears are for lower speeds (Wikipedia: generally below 1000 ft/min at the pitch line, or under 1000 rpm for small gears), and crown gears are for light work only because their teeth must be thin (507 Mechanical Movements No. 26). Weak points: the small inner end of the teeth, and the push along each shaft (thrust) that tries to separate the gears, so shafts must be stiff and gears mounted close to their bearings (KHK).
+- **Play and precision:** Small to noticeable backlash depending on quality (e.g. KHK ground spiral mitre gears, module 2 to 4: about 0.04-0.15 mm). Little tolerance for misalignment: KHK asks for a mounting distance within +-0.025 mm and a shaft angle within +2 arc-minutes / -0; errors in mounting distance, offset or shaft angle move the contact to the tips, roots, toes or heels of the teeth, causing noise and uneven wear. Under load the contact moves towards the outer end as the shafts flex (KHK). Crown gear plus spur pinion is more forgiving along the pinion's axis.
+- **Taking it apart:** removable: each gear is fixed to its shaft by a set screw, key, pin or clamp and can be taken off and refitted
+- **How often it can be reused:** many times: the limit is tooth wear, not taking it apart
+- **Sealing:** none: the gears seal nothing; industrial right-angle bevel gearboxes are enclosed so the housing keeps oil in and dirt out
+- **Adjustable:** Yes, when assembling: backlash and tooth contact are set by moving one gear along its shaft (with shims or spacers); at a 90-degree shaft angle, moving a gear along its axis by about 1.03 times the wanted change changes the backlash by that amount (KHK mitre gear catalogue: 1.46 times at 60 degrees, 0.84 times at 120 degrees). A crown gear's spur pinion can slide along its own axis without affecting the mesh (BOSL2 docs; tec-science). Not adjustable while running.
+- **Access needed:** not applicable: the gears sit on shafts inside a frame or housing
+- **Materials:** Steel (S45C carbon steel, carburised SCM415 alloy steel), stainless steel (SUS303) for rust resistance, sintered metal, MC901 nylon (runs without lubricant) and injection-moulded acetal (Duracon (brand)) for light loads (KHK); McMaster-Carr sells nylon and acetal mitre gears that 'run quieter than metal gears'. Old grain mills used large bevel and crown wheels with wooden teeth (Wikipedia photo, Dordrecht mill). For 3D printing: PLA, PETG, nylon; igus prints bevel gears in iglidur i3 (brand), a self-lubricating polymer. EngineerDog ranks nylon > PLA > ABS > PETG for printed gears.
+- **Heat, cold, water and wear:** PLA gears soften and deform above about 60 C (Prusa). Plastic mitre gears change dimensions (bore, teeth, backlash) with temperature and humidity (KHK mitre catalogue on MC901 nylon). Plain steel gears rust; stainless (SUS303) gears are available for wet places (KHK). Vibration and the gears' own thrust can loosen set screws and let gears walk along their shafts, so fasten them firmly (KHK). Greased open gears pick up dust and grit ⚑ [uncertain] (general experience).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: mitre, bevel, spiral bevel and hypoid gears in steel, stainless steel, nylon and acetal; right-angle gearboxes
+  - 3D print (FDM): light-duty bevel, mitre and crown gears from generators (BOSL2, FreeCAD Gears)
+  - CNC: traditionally cut on special Gleason-type bevel gear machines (RoyMech); 5-axis milling is also used (Wikipedia 'Bevel gear')
+  - woodwork: historic mill gearing (bevel and crown wheels with wooden teeth)
+- **Printing it in one piece (print in place):** no: bevel gears are normally printed as separate gears and assembled on shafts in a frame; ⚑ [uncertain] some fidget toys print meshed gears together, but I found no confirmed print-in-place bevel pair
+- **Tools:** Hex key or screwdriver for set screws; keys or taper pins for heavier drives; shims or spacers to set the mounting distance and backlash; grease or oil (nylon gears such as KHK MC901 can run without lubricant)
+- **Difficulty:** moderate: mitre and bevel gears are cheap to buy and easy to generate and print, but the pair must be designed together and the two shafts held rigidly at exactly the right angle and distance, with something to stop the gears pushing apart
+
+### 3D printing tips
+
+1) Generate the pair, don't draw it: BOSL2 bevel_gear() needs both tooth counts and the shaft angle because bevel gears only work in designed pairs; it also makes spiral, zerol and straight teeth and crown_gear() for a face gear with a spur pinion; the FreeCAD Gears workbench makes spherical-involute bevel and crown gears; on Printables, MeideC's 'Bevel Gear tester with parametric gears' (Fusion 360) exposes module, tooth counts and backlash, and Michael Hathaway's 'Metric Miter Gears 90' gives a ready STEP pair (module 1, 20 teeth, 8 mm shaft, 20 mm mounting distance). 2) Put the cone tips together: the apexes of both pitch cones must meet where the shaft axes cross (BOSL2 docs); place each gear by its mounting distance, not by eye. 3) Keep the face width to about one third of the cone distance or less (RoyMech; BOSL2's default is the smaller of cone distance/3 and 10 x module), otherwise the inner ends of the teeth get too small to print. 4) Orientation: print each gear lying on its flat back with the teeth pointing up, so the tooth flanks are sloping walls rather than overhangs ⚑ [uncertain] (common practice, not a tested rule); Prusa printers print 45-60 degree overhangs cleanly. 5) Add a little backlash (BOSL2 backlash setting) and start around 0.3 mm clearance for moving parts (Prusa). 6) Stop them walking apart: bevel gears push along their shafts, so fix each gear (set screw on a D-flat, captive nut, shoulder or clip), mount it close to a bearing and make the frame stiff (KHK); MeideC's tester puts a bearing inside the larger gear. 7) Choose tooth counts with no common factor for even wear (BOSL2). 8) Strength: 5 or more walls and at least 35% infill (HowToMechatronics); a 20-degree pressure angle is standard for bevel gears (BOSL2), and EngineerDog suggests 25 degrees for stronger small printed gears. 9) Grease lightly with white lithium, PTFE or silicone grease (EngineerDog). 10) If alignment is hard to get right, a crown gear with a spur pinion tolerates the pinion sliding along its axis (BOSL2; tec-science), but it is for light loads (507 Movements No. 26). 11) Hobby generators often approximate the true bevel tooth shape; Wikipedia notes such simplified 'involute bevel gears' can be 10-28% weaker and noisier, which is acceptable for light hobby loads. 12) PLA softens above about 60 C (Prusa), so avoid it next to hot motors.
+
+### Buying one (off-the-shelf parts)
+
+Mitre gears (miter gears): straight, spiral ('high-power metal miter gears', sold as left/right pairs) and angular mitre gears for 45, 60 and 120 degree shafts; bevel gear pairs sold as large gear + small gear by speed ratio (e.g. 3:2, 2:1, 5:2, 3:1, 4:1, 5:1); high-load spiral bevel gears; hypoid gear sets; plastic (nylon, acetal) mitre and bevel gears; bore types: round bore, round bore with set screw, keyed bore with set screw (McMaster-Carr, KHK). Right-angle gearboxes (bevel gearboxes, T-gearboxes). Crown gear and pinion sets for RC cars. LEGO Technic bevel and crown gears (brand) ⚑ [uncertain]. Thrust washers, flanged ball bearings, shaft collars.
+
+## Rules of thumb
+
+- Ratio = teeth on driven gear / teeth on driving gear; mitre gears are a 1:1 pair at 90 degrees (Wikipedia 'Bevel gear'; KHK).
+- Stock ratios: straight bevel about 1.5 to 4 (KHK), 3:2 to 5:1 (McMaster-Carr), 'ratios from 1:2 to 4:1' (RoyMech); hypoid 60:1 and higher in one set (Wikipedia 'Gear').
+- Efficiency 98-99% per mesh (KHK bevel gears page; KHK technical reference: intersecting-axis gears 98.0-99.0%).
+- Straight bevel gears: keep the pitch-line speed under about 1000 ft/min, or under 1000 rpm for small gears; use spiral bevels above that (Wikipedia 'Bevel gear').
+- Face width no more than about one third of the cone distance (RoyMech; BOSL2 default min(cone distance/3, 10 x module)).
+- Bevel gears must be designed as a pair for the shaft angle; one gear works only with its partner (Wikipedia 'Bevel gear'; BOSL2 docs). Straight mitre gears can mate with an identical copy, but spiral mitre gears need a right-hand + left-hand pair (KHK).
+- Mounting accuracy: mounting distance +-0.025 mm and shaft angle +2'/-0 (KHK bevel gears page); correct tooth contact is mid-flank and mid-face, slightly towards the small end (toe) (KHK mitre catalogue).
+- Backlash tuning at 90 degrees: axial movement of about 1.03 x the backlash change (KHK mitre catalogue table).
+- Thrust: bevel gears push away from the cone apex (RoyMech); for spiral bevels the thrust direction changes with spiral hand and direction of rotation (KHK). Mount gears close to bearings, make the housing stiff, and fasten the gears so thrust cannot move them (KHK).
+- Crown gear and spur pinion: the pinion can move along its axis without affecting the mesh and there is no axial force on it (tec-science; BOSL2), but crown-wheel teeth are thin, so use it for light work (507 Mechanical Movements No. 26).
+
+## Common failures
+
+1) The gears push apart and skip or click under load: make the frame and shafts stiffer, put bearings close to the gears and fix the gears so they can't slide (KHK). 2) Noise and uneven wear from the wrong mounting distance, a shaft offset or a wrong shaft angle; the contact pattern moves to the tips, roots, toes or heels (KHK). 3) Gears that were not designed as a pair (different tooth counts, pressure angle or shaft angle) don't mesh properly; bevel gears only work with their designed partner (Wikipedia; BOSL2). 4) Two spiral mitre gears of the same hand won't mesh; buy a left + right pair (KHK). 5) Set screws loosen and the gear walks off: use a flat on the shaft, thread-locker, a key or a pin. 6) Straight bevel teeth break or get noisy at high speed; use spiral bevels (Wikipedia). 7) ⚑ [uncertain] Printed teeth too thin at the inner end break off first; keep the face width to a third of the cone distance or less and use a bigger module.
+
+## Safety
+
+The point where the teeth meet is an in-running nip that can trap fingers, hair or clothing; switch off power before working on gears and don't touch rotating gears (KHK safety precautions). A small motor driving through a reduction can produce a lot of turning force. KHK warns that large ring-style bevel gears must be secured with taper pins, as bolts alone are dangerous.
+
+## Related
+
+- Spur gear pair: the baseline for parallel shafts; can't turn a corner
+- Crown (face) gear with a spur pinion: turns a corner with an ordinary pinion that can slide along its axis; light loads only
+- Spiral bevel, zerol and hypoid gears: bevel variants for smoother, stronger or offset drives (hypoid for large ratios in car axles)
+- Worm drive: also turns 90 degrees, with a much larger reduction and often self-locking, but only about 30-90% efficient (KHK)
+- Crossed helical (screw) gears: for shafts that cross without meeting; quiet but light loads only, 70-95% efficient (KHK)
+- Differential: a cage of bevel gears that splits one drive between two outputs
+- Universal joint: passes rotation at 1:1 between shafts at a smaller, changeable angle
+
+## Make it yourself
+
+- [BOSL2 gears.scad: bevel_gear() and crown_gear() (OpenSCAD library)](https://github.com/BelfrySCAD/BOSL2/wiki/gears.scad): Parametric OpenSCAD generator for matched straight, zerol and spiral bevel gear pairs at any shaft angle, and crown (face) gears with a matching spur pinion, with backlash settings *(licence: BSD 2-Clause)*
+- [FreeCAD Gears workbench (freecad.gears / FCGear), README](https://raw.githubusercontent.com/looooo/freecad.gears/master/README.md): FreeCAD add-on that creates spherical involute bevel gears (including spiral), crown gears, helical and other gears with full parameter control *(licence: GPL-3.0)*
+- [Bevel Gear tester with parametric gears by MeideC (URL from Printables API, page not opened)](https://www.printables.com/model/607786-bevel-gear-tester-with-parametric-gears): Motor-driven bevel gear test rig with Fusion 360 parameters for module, tooth counts and backlash, and a bearing inside the larger gear *(licence: CC BY)*
+- [Metric Miter Gears 90 degrees by Michael Hathaway (URL from Printables API, page not opened)](https://www.printables.com/model/1210377-metric-miter-gears-90deg): Printable 1:1 mitre gear pair with STEP file: module 1, 20 teeth, 20-degree pressure angle, 8 mm shaft, 20 mm mounting distance, M4 set screw *(licence: CC BY-SA)*
+- [Involute Bevel Gear generator by Oryhara (URL from Printables API, page not opened)](https://www.printables.com/model/11954-involute-bevel-gear-generator): Bevel gear generator based on an OpenSCAD gear script; the author reports printed gears mesh properly *(licence: CC BY)*
+- [HUANGYAN920 Mechanical: interactive mechanism animations (entries 'BEVEL-GEAR', 'SPIRAL-BEVEL', 'CROWN-GEAR')](https://huangyan920.github.io/Mechanical/): Browser animations of bevel, spiral bevel and crown gear drives; its quick notes list a 1:1 to 1:5 ratio range, so check numbers against KHK *(licence: MIT)*
+
+## Pictures, videos and models
+
+- [Kegelrad.gif (Wikimedia Commons, by Ralf Pfeifer)](https://commons.wikimedia.org/wiki/File:Kegelrad.gif): Animation of a bevel gear pair showing its key geometric feature, the pitch cones meeting at a point *(licence: GFDL 1.2+ / CC BY-SA 3.0)*
+- [Kronrad1.gif (Wikimedia Commons, by Ralf Pfeifer)](https://commons.wikimedia.org/wiki/File:Kronrad1.gif): Diagram of how crown gears work with a spur pinion, an application example and a comparison with bevel gears *(licence: GFDL 1.2+ / CC BY-SA 3.0)*
+- [507 Mechanical Movements, No. 26: crown-wheel and spur gear](https://507movements.com/mm_026.html): Historic 1868 drawing (with an animated version) of a crown wheel driven by a spur gear, noted as only for light work *(licence: Book public domain; website animation link only)*
+- [How Bevel Gears Work (Daniel Izzo, YouTube; linked from Wikipedia 'Bevel gear')](https://www.youtube.com/watch?v=ymHzbN1oK1w): Video explanation of how bevel gears mesh and turn motion through an angle *(licence: link only (standard YouTube licence))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 6 sentences on this page marked [uncertain].
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Bevel_gear>
+- <https://en.wikipedia.org/w/index.php?title=Bevel_gear&action=raw>
+- <https://en.wikipedia.org/wiki/Crown_gear>
+- <https://en.wikipedia.org/wiki/Gear>
+- <https://en.wikipedia.org/wiki/Miter_gear>
+- <https://khkgears.net/new/bevel_gears.html>
+- <https://khkgears.net/new/miter_gears.html>
+- <https://khkgears.net/pdf/2025/miter-gears.pdf>
+- <https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_types_terminology.html>
+- <https://khkgears.net/new/gear_knowledge/abcs_of_gears-b/gear_types_and_characteristics.html>
+- <https://khkgears.net/new/gear_knowledge/gear-nomenclature/thrust-forces-acting-on-gears.html>
+- <https://khkgears.net/new/gear_knowledge/gear_technical_reference/gear_forces.html>
+- <https://roymech.org/Useful_Tables/Drive/Bevel_Gears.html>
+- <https://www.tec-science.com/mechanical-power-transmission/gear-types/bevel-gears/>
+- <https://www.mcmaster.com/products/bevel-gears/>
+- <https://www.mcmaster.com/products/miter-gears/>
+- <https://www.igus.com/custom-parts-services/3d-printing/3d-printed-gear>
+- <https://507movements.com/mm_026.html>
+- <https://507movements.com/toc.html>
+- <https://commons.wikimedia.org/wiki/Category:Bevel_gears>
+- <https://commons.wikimedia.org/wiki/File:Kegelrad.gif>
+- <https://commons.wikimedia.org/wiki/File:Kronrad1.gif>
+- <https://www.youtube.com/watch?v=ymHzbN1oK1w>
+- <https://github.com/BelfrySCAD/BOSL2/wiki/gears.scad>
+- <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad>
+- <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE>
+- <https://raw.githubusercontent.com/looooo/freecad.gears/master/README.md>
+- <https://huangyan920.github.io/Mechanical/>
+- <https://api.printables.com/graphql/>
+- <https://engineerdog.com/2017/01/07/a-practical-guide-to-fdm-3d-printing-gears/>
+- <https://howtomechatronics.com/how-it-works/how-to-3d-print-gears-the-ultimate-guide/>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://help.prusa3d.com/article/pla_2062>

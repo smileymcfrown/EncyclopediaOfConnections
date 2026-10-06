@@ -1,0 +1,274 @@
+---
+title: Cam buckle
+description: A strap buckle in which a spring presses a toothed cam against the webbing, so the strap pulls through one way
+  to tighten, is gripped harder the more the load pulls back, and slides free when you press the cam's lever.
+num: 123
+term: Cam buckle (webbing cam buckle; cam strap)
+plain_name: 'A buckle on a strap with a springy toothed flap inside: pull the loose end and the strap slides through tight,
+  let go and the teeth pinch it so it can''t slip back, then press the flap to loosen it'
+aliases:
+- cam lock buckle
+- cam buckle strap / cam strap
+- cam buckle tie-down
+- spring-loaded cam buckle
+- lashing strap with cam buckle
+- roller cam buckle (version with a roller under the webbing)
+- Klemmschloss / Spanngurt mit Klemmverschluss (German)
+- NRS strap (brand)
+- Rollercam (brand)
+- cam band (scuba tank strap; usually an over-centre lever buckle, a different mechanism)
+family: cord, strap, webbing & textile hardware
+other_families: [one-way & ratchet, self-locking & anti-back-drive, quick-release & tool-free, 'tensioning, reels & take-up']
+finder:
+  job: [tighten and hold tension, stop it moving back, 'lock, and release by hand', join and hold]
+  motion: slide
+  special_behaviour: [one-way, self-locking, hand-release only, quick-release, tensioning]
+  holding_principle: [friction or clamping, spring force]
+  reuse_cycles: effectively unlimited
+  seal: none
+  access_needed: not applicable
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), 3D print (resin), sheet metal]
+  connects: ['strap, cord or fabric']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: clicks
+  tools: [none, sewing or leather tools]
+  load_max: medium
+  usual_process: off-the-shelf part
+  adjustable: 'yes'
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: worked out from its name, but joining parts is not one of its two main jobs
+confirmed: []
+open_points: []
+uncertain_fields: [reuse_cycles, load, play_and_precision, processes, print_in_place, making_tips_3d_printing, when_not_to_use,
+  environment_limits, safety_notes, common_failures, links]
+diagram_idea: 'Side cut-away of a cam buckle: webbing running between a fixed bar and a toothed cam on a pivot with a small
+  spring; a green arrow shows the tail pulled to tighten (cam lifts slightly), a red arrow shows the load pulling back (cam
+  rolls in and teeth dig in), and a thumb pressing the lever to lift the cam and release.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
+  title: Spanngurt mit Klemmverschluss.jpg (tie-down strap with cam buckle), Wikimedia Commons, by HobbyAstronaut
+  shows: Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap
+  license: CC0 1.0 (public domain dedication)
+- url: https://patents.google.com/patent/US3678542A/en
+  title: 'US 3,678,542: Cam buckle (Ernest Prete Jr, Ancra, 1972), Google Patents'
+  shows: Drawings of a U-shaped frame, serrated pressure plate, serrated cam lever and coil spring gripping a cargo strap
+  license: US patent document; public domain in the US; link only
+- url: https://patents.google.com/patent/US6877189B2/en
+  title: 'US 6,877,189 B2: Roller cam buckle (Simonson, 2005), Google Patents'
+  shows: Drawings comparing a plain (static) cam buckle with a roller cam buckle, and the friction losses between pull and
+    strap tension
+  license: US patent document; public domain in the US; link only
+- url: https://www.youtube.com/watch?v=ZCWvEj7m1D4
+  title: Cam Buckle Tie-Down 101 (Ancra Cargo)
+  shows: 'Basic set-up and operation of a cam buckle tie-down strap [uncertain: title and channel confirmed through YouTube''s
+    oEmbed data; the video itself was not watched]'
+  license: YouTube standard licence; link only
+- url: https://www.youtube.com/watch?v=gta9DVFgFRo
+  title: How to Use a Cam Buckle 201 (Kinedyne LLC)
+  shows: 'Using a cam buckle strap to secure cargo [uncertain: title and channel confirmed through YouTube''s oEmbed data;
+    the video itself was not watched]'
+  license: YouTube standard licence; link only
+make_it_yourself:
+- url: https://www.printables.com/model/1743944-cam-buckle
+  title: Cam buckle by Radulf3d, Printables (URL from Printables API, page not opened)
+  what_it_is: A simple printable cam buckle for straps up to 25 mm wide, for light loads, bags and gear; printed in PETG;
+    editable files included
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/817333-cam-lock-buckle-repair
+  title: cam lock buckle repair by Scott Lomas, Printables
+  what_it_is: A bolt-on cam-lock buckle that replaces a broken sewn-in one using an M3 screw; made for 20 mm (3/4 in) straps
+    and scalable to other widths; print in the orientations provided. Details read through the Printables public API; the
+    page URL appeared in search results.
+  license: CC BY-NC
+- url: https://www.printables.com/model/491473-camera-buckle
+  title: Camera buckle by Robin Lunde, Printables (URL from Printables API, page not opened)
+  what_it_is: A printed cam-style buckle for about 27 mm (1 in) straps, uploaded from a Cults3D design; printed in PETG and
+    used on a dog harness; the small rear cross-bar broke off
+  license: CC BY-NC
+sources:
+- https://patents.google.com/patent/US3678542A/en
+- https://patents.google.com/patent/US6877189B2/en
+- https://de.wikipedia.org/wiki/Spanngurt
+- https://en.wikipedia.org/wiki/Scuba_set
+- https://en.wikipedia.org/wiki/Webbing
+- https://www.nrs.com/nrs-heavy-duty-1-cam-buckle/pkkf
+- https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc
+- https://www.raftingmag.com/rafting-magazine/advice-for-working-with-cam-straps
+- https://rollercam.com/blogs/news/cam-straps-and-ratchet-straps-are-not-the-same
+- https://dccargo.com/blogs/diy-movers-recreational-haulers/how-to-tie-down-a-kayak-or-canoe-to-a-roof-rack-with-cam-straps
+- https://milspecmonkey.com/store/hardware-diy/415-spring-loaded-cam-buckle.html
+- https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
+- https://www.youtube.com/watch?v=ZCWvEj7m1D4
+- https://www.youtube.com/watch?v=gta9DVFgFRo
+- https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ZCWvEj7m1D4&format=json
+- https://api.printables.com/graphql/
+- https://www.printables.com/model/817333-cam-lock-buckle-repair
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://help.prusa3d.com/article/pla_2062
+- https://help.prusa3d.com/article/petg_2059
+- https://help.prusa3d.com/article/asa_1809
+research: research/connection-types/results/Cam_buckle_webbing_cam_buckle.json
+---
+
+A strap buckle in which a spring presses a toothed cam against the webbing, so the strap pulls through one way to tighten, is gripped harder the more the load pulls back, and slides free when you press the cam's lever.
+
+**In plain words:** A buckle on a strap with a springy toothed flap inside: pull the loose end and the strap slides through tight, let go and the teeth pinch it so it can't slip back, then press the flap to loosen it. **Proper term:** Cam buckle (webbing cam buckle; cam strap).
+
+**Also called:** cam lock buckle; cam buckle strap / cam strap; cam buckle tie-down; spring-loaded cam buckle; lashing strap with cam buckle; roller cam buckle (version with a roller under the webbing); Klemmschloss / Spanngurt mit Klemmverschluss (German); NRS strap (brand); Rollercam (brand); cam band (scuba tank strap; usually an over-centre lever buckle, a different mechanism).
+
+## How it works
+
+The webbing runs through the frame between a fixed bar or plate and a toothed cam on a pivot pin. A spring pushes the cam toward the bar so its teeth press on the webbing (US 3,678,542; German Wikipedia 'Spanngurt'). Pulling the loose tail drags the teeth the opening way, so the webbing slides through and tightens; when you let go, the load pulls the webbing the other way, which pulls the cam face closer to the bar, so 'a belt cannot be pulled out of the buckle unless [the] lever ... is first depressed' (US 3,678,542). Pressing the lever against its spring lifts the teeth and the strap slides freely either way. Because you tighten it by hand, it can't be over-tensioned the way a ratchet can (DC Cargo), and friction in a plain cam buckle means the strap tension can be 'two to three times less' than your pull (US 6,877,189).
+
+## Parts
+
+A few parts: a U-shaped frame (die-cast zinc, pressed steel, stainless steel or plastic) with a bar or plate the webbing presses against; a toothed (serrated or knurled) cam lever on a pivot pin; a coil or torsion spring; sometimes a separate serrated pressure plate (US 3,678,542) or a roller (Rollercam; US 6,877,189); plus the webbing, usually sewn to the buckle at one end.
+
+## Everyday examples
+
+- Roof-rack straps for kayaks, canoes and surfboards (DC Cargo)
+- Rafting straps holding gear and frames on whitewater rafts; NRS first sold its 1-inch strap in 1978 for this (NRS)
+- Bag, backpack and bike-rack straps (German Wikipedia: tie-down straps are used to close bags and backpacks)
+- Military and tactical webbing: quick-release cam buckles go back to ALICE gear and are used on modern slings (Milspec Monkey)
+
+## When to use it
+
+When a strap needs to be pulled snug by hand, hold at any length and come off in one press: tying kayaks, canoes and boards to roof racks, lashing gear to rafts and trailers, bundling timber, pipes or tent poles, closing bags and bike loads. It is the better choice when over-tightening could damage the load, because a hand pull can't crush a hull the way a ratchet can (DC Cargo), and it is quick and simple to use (Rollercam).
+
+## When not to use it
+
+Avoid it for heavy cargo on trucks and trailers that needs high tension or a rated working load: use ratchet straps (Rollercam; Rafting Magazine). Avoid it for lifting, climbing, rescue or anchor lines: Rafting Magazine says cam straps make poor flip lines, because 1-inch tubular webbing is far stronger (about 4,000 lb against 1,500 lb). Avoid it where the lever could be snagged or pressed by accident and let the load go ⚑ [uncertain], and on very thin, stiff or slippery webbing that the cam can't bite ⚑ [uncertain]. For a strap you set once and rarely adjust, a ladder-lock buckle or tri-glide is simpler and has no spring.
+
+## Details
+
+- **What it does (jobs):**
+  - tighten and hold tension: pull the tail to cinch a strap round a load and it stays tight
+  - stop it moving back (one-way): the webbing slides through only in the tightening direction
+  - lock, and release by hand: press the lever and the strap slides free
+  - join and hold: ties a load, a bundle or a boat to a rack, frame or trailer
+- **Movement:** slide: the webbing pulls through in one direction, with no fixed steps (stepless); the cam itself only rocks a little on its pin
+- **Directions it can move (degrees of freedom):** 1 for the webbing: it moves only along its length, and only in the tightening direction unless the lever is pressed. The cam turns about one pin (1).
+- **Special behaviour:**
+  - one-way (moves freely one way, locks the other): the strap slides through to tighten and locks against the load
+  - self-locking (holds under load, won't back-drive): the load pulls the cam tighter onto the webbing
+  - hand-release only (locks under load, releases when a person operates it): press the thumb lever against its spring to free the strap
+  - quick-release: one press and the strap can be pulled out completely
+  - tensioning (takes up slack and holds): pulling the tail takes up slack and holds the strap at any length; the tension is limited to what you can pull by hand
+- **How it holds:**
+  - friction or clamping (force-fit): the toothed cam pinches the webbing against a bar or plate, and the load pulls it tighter
+  - spring force (a spring or springy part presses it in place): a small spring keeps the cam pressed on the webbing so it catches as soon as you let go
+- **Input and output:** not applicable: it holds a strap rather than passing motion on (back-drivable: no while the cam is engaged; pressing the lever releases it)
+- **Power:** passive (no power needed)
+- **Load:** Light to medium, as a straight pull along the strap. NRS 1-inch heavy-duty strap: minimum breaking strength 1,500 lb, working load limit 500 lb; 1.5-inch strap: 2,000 lb breaking load, 650 lb working load limit (NRS; Rafting Magazine). The NRS 1-inch buckle alone has 'over 2,000 lb. load capacity', so the webbing is usually the weak link. The tension you can put in is limited to a hand pull (DC Cargo) and reduced by buckle friction (US 6,877,189), so for heavy cargo ratchet straps are used instead (Rollercam). Weak against the lever being pressed or snagged, which releases it ⚑ [uncertain].
+- **Play and precision:** Small: the webbing slips back a little while the cam bites ⚑ [uncertain: no source gives an amount]. Stepless, so it holds at any length. The webbing must match the slot width and suit the gap: Milspec Monkey notes its 1.5-inch slot 'works better with thicker textured webbing'. Polypropylene webbing has 'quite a bit of elasticity and creep under loads' (Rafting Magazine), so straps can loosen slightly over time.
+- **Taking it apart:** tool-free quick release: press the lever and pull the strap out
+- **How often it can be reused:** effectively unlimited for the buckle, which is reused on every trip; the webbing wears out first (fraying, UV, cuts) and the cam teeth slowly wear ⚑ [uncertain: no cycle count found]
+- **Sealing:** none: nothing makes it seal
+- **Adjustable:** yes: stepless; pull the tail to tighten, or press the lever and let some strap slide out to loosen
+- **Access needed:** not applicable: the strap wraps around the load or through a rack, and you only need to reach the buckle to tighten or release it
+- **Materials:** Frames and cams: die-cast zinc (NRS), pressed steel, stainless steel, aluminium, or moulded plastic for light straps; springs and pivot pins: stainless steel (NRS). Webbing: polypropylene (NRS: floats, UV-treated, doesn't stretch when wet), polyester (most load-securing straps) or polyamide (nylon). DIN EN 12195-2, as summarised by German Wikipedia, gives temperature ranges of -40 to 120 °C for polyester, -40 to 100 °C for polyamide and -40 to 80 °C for polypropylene webbing.
+- **Heat, cold, water and wear:** Webbing sets most of the limits: DIN EN 12195-2 (via German Wikipedia) gives about -40 to 80 °C for polypropylene, -40 to 100 °C for polyamide and -40 to 120 °C for polyester webbing. Polypropylene creeps under load, but it keeps its strength when wet, resists rot and UV well and floats (Rafting Magazine). Wind vibration can melt or fray a strap unless it is twisted (NRS). NRS's zinc buckle is 'resistant to salt water' with stainless springs; plain steel buckles may rust ⚑ [uncertain]. Sand, grit or ice in the cam can stop it biting or releasing ⚑ [uncertain]. Printed buckles: PLA softens above about 60 °C and degrades in UV; PETG is fine outdoors below about 80 °C; ASA is UV-resistant up to 93 °C (Prusa material pages).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: buckles sold on their own to sew onto your own webbing, or complete cam straps
+  - sheet metal: pressed-steel frames and cams on many cheap buckles (German Wikipedia: cast metal or formed steel sheet)
+  - 3D print (FDM): frame and cam for light straps, with a metal pin and spring
+  - 3D print (resin): small light-duty buckles ⚑ [uncertain: no tested example found]
+  - CNC: aluminium frames and cams ⚑ [uncertain]
+- **Printing it in one piece (print in place):** no: it needs a pivot pin, a spring and a toothed cam fitted inside the frame, so it is printed as separate parts and assembled (or the frame is printed and a bought cam and spring are fitted) ⚑ [uncertain: no print-in-place design found]
+- **Tools:** none to use. To make your own strap: a sewing machine or heavy needle to sew the webbing to the buckle's bar, or a bolt-on buckle (a printable repair buckle uses an M3 screw, Printables 817333). NRS sells its buckles separately for custom straps but 'cannot guarantee the strength of custom straps'.
+- **Difficulty:** moderate: fitting a bought buckle is easy (sew or bolt it to webbing), but making one means printing a frame and toothed cam and adding a metal pin and spring, and a printed buckle only suits light straps and should be tested before you trust it
+
+### 3D printing tips
+
+Printed cam buckles exist for light loads: Radulf3d's Printables 'Cam buckle' for straps up to 25 mm wide is printed in PETG and meant for 'light loads, bags, gear'; Scott Lomas's 'cam lock buckle repair' bolts onto a strap with an M3 screw, is made for 20 mm (3/4 in) straps and should be printed 'in the orientations provided for maximum strength'; Robin Lunde's PETG 'Camera buckle' (for about 27 mm straps) holds a dog harness, but its small rear cross-bar broke off. Lessons: print the frame so the bar the webbing wraps round runs along the layers, not across them, since FFF prints are stronger in one direction than another (Prusa); make that bar and the pivot bosses thick; use a metal pin or screw for the pivot and a small metal spring; give the cam blunt teeth that dig into the webbing weave rather than cutting it ⚑ [uncertain]; and allow for webbing thickness, since the cam must still close on the strap. Material: PETG or ASA rather than PLA, because PLA softens above about 60 °C (a car roof in summer sun can get hot) and degrades in UV (Prusa PLA page); PETG suits outdoor parts below about 80 °C and ASA resists UV and heat up to 93 °C (Prusa). Test a printed buckle at the load you need before relying on it, and never use one for anything that carries a person or could fall on someone.
+
+### Buying one (off-the-shelf parts)
+
+Cam buckles sold loose by webbing width (e.g. 1 in and 1.5 in; search 'cam buckle', 'cam lock buckle', 'spring loaded cam buckle'); die-cast zinc or stainless heavy-duty buckles (e.g. the NRS 1-inch HD cam buckle); roller cam buckles (Rollercam); complete cam straps and loop straps (NRS, Rollercam, Ancra, Kinedyne); buckle bumpers (covers that stop the buckle scratching paint); polypropylene, polyester and nylon webbing in matching widths.
+
+## Rules of thumb
+
+- Working load limit is about one third of breaking strength: NRS 1-inch strap 1,500 lb breaking, 500 lb working load limit; 1.5-inch 2,000 lb breaking, 650 lb working load limit (NRS product page; Rafting Magazine).
+- Tension is limited to your hand pull: 'You get exactly as much tension as your arm can produce and not one pound more' (DC Cargo). Friction in a plain (static) cam buckle can make the strap tension 'two to three times less' than the pull on the tail (US 6,877,189); roller cam buckles reduce that friction (Rollercam; US 6,877,189).
+- Add straps rather than trusting one: Rafting Magazine's example of five 125 lb boats on two 1-inch straps is outside the straps' working load limit; use more straps, wider 1.5-inch straps, and at least four contact points even for small boats.
+- Snug, not crushing: on kayaks and canoes, pull 'until the boat stops moving when you push it side to side, then stop'; if the hull flexes inward you have gone too far (DC Cargo).
+- Put two or three twists in a long open span of strap to stop it humming in the wind (DC Cargo); NRS warns this vibration can 'melt or fray your strap'.
+- Keep the buckle off the load's surface: a buckle pressed flat on a hull 'vibrates a pressure mark into the plastic' (DC Cargo); NRS sells buckle bumpers to protect vehicles and composite kayaks (Rafting Magazine).
+- The cam's surface roughness and its angle to the bar decide whether the buckle can still be released under load (German Wikipedia, 'Spanngurt').
+
+## Common failures
+
+Strap slips: webbing too thin or worn, cam teeth worn smooth, spring weak or broken, or grit or ice in the cam ⚑ [uncertain]; replace the buckle or strap. Buckle lets go: lever pressed or snagged by accident ⚑ [uncertain]. Strap loosens on a long drive: polypropylene creep and settling of the load (Rafting Magazine); stop and re-tension. Strap frays or melts: wind flutter (twist it, NRS) or rubbing on sharp edges. Load damage: buckle pressed against the hull or paint (DC Cargo). Load lost: too few straps for the weight (Rafting Magazine). Printed buckles: thin cross-bars break (Robin Lunde's Printables note).
+
+## Safety
+
+Never use a cam strap to lift or hold a person, or as a rescue or anchor line (Rafting Magazine). A loose strap tail 'whipping at highway speed will crack a windshield, scratch paint, or work the buckle loose', so tie off or tuck the tail (DC Cargo). A heavy metal buckle thrown over a car can crack a window (Rafting Magazine). Pinch points between the cam and frame when pressing the lever ⚑ [uncertain]. If one of two straps fails, the load can shift and break the other, so use enough straps (Rafting Magazine).
+
+## Related
+
+- Ratchet tie-down strap (ratchet buckle): winds webbing onto a spool with a lever, giving much higher tension for heavy cargo, but can over-tighten and crush (DC Cargo; Rollercam)
+- Ladder-lock buckle (tension lock) and tri-glide: slotted buckles with no spring or cam that hold by friction when loaded
+- Side-release buckle: joins two strap ends with springy arms but doesn't tension the strap
+- Over-centre cam band buckle (scuba tank strap): a lever that snaps past centre to tension a band (Wikipedia 'Scuba set')
+- Cam cleat: the same spring-loaded toothed-cam idea for round rope, released by lifting the rope out
+- Cord lock (spring toggle): a spring plunger that pinches a thin cord
+- Binding-plate lock (tilting friction plate): a tilting plate that bites a rod one way
+
+## Make it yourself
+
+- [Cam buckle by Radulf3d, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/1743944-cam-buckle): A simple printable cam buckle for straps up to 25 mm wide, for light loads, bags and gear; printed in PETG; editable files included *(licence: CC BY-NC-SA)*
+- [cam lock buckle repair by Scott Lomas, Printables](https://www.printables.com/model/817333-cam-lock-buckle-repair): A bolt-on cam-lock buckle that replaces a broken sewn-in one using an M3 screw; made for 20 mm (3/4 in) straps and scalable to other widths; print in the orientations provided. Details read through the Printables public API; the page URL appeared in search results. *(licence: CC BY-NC)*
+- [Camera buckle by Robin Lunde, Printables (URL from Printables API, page not opened)](https://www.printables.com/model/491473-camera-buckle): A printed cam-style buckle for about 27 mm (1 in) straps, uploaded from a Cults3D design; printed in PETG and used on a dog harness; the small rear cross-bar broke off *(licence: CC BY-NC)*
+
+## Pictures, videos and models
+
+- [Spanngurt mit Klemmverschluss.jpg (tie-down strap with cam buckle), Wikimedia Commons, by HobbyAstronaut](https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg): Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap *(licence: CC0 1.0 (public domain dedication))*
+- [US 3,678,542: Cam buckle (Ernest Prete Jr, Ancra, 1972), Google Patents](https://patents.google.com/patent/US3678542A/en): Drawings of a U-shaped frame, serrated pressure plate, serrated cam lever and coil spring gripping a cargo strap *(licence: US patent document; public domain in the US; link only)*
+- [US 6,877,189 B2: Roller cam buckle (Simonson, 2005), Google Patents](https://patents.google.com/patent/US6877189B2/en): Drawings comparing a plain (static) cam buckle with a roller cam buckle, and the friction losses between pull and strap tension *(licence: US patent document; public domain in the US; link only)*
+- [Cam Buckle Tie-Down 101 (Ancra Cargo)](https://www.youtube.com/watch?v=ZCWvEj7m1D4): Basic set-up and operation of a cam buckle tie-down strap ⚑ [uncertain: title and channel confirmed through YouTube's oEmbed data; the video itself was not watched] *(licence: YouTube standard licence; link only)*
+- [How to Use a Cam Buckle 201 (Kinedyne LLC)](https://www.youtube.com/watch?v=gta9DVFgFRo): Using a cam buckle strap to secure cargo ⚑ [uncertain: title and channel confirmed through YouTube's oEmbed data; the video itself was not watched] *(licence: YouTube standard licence; link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 16 sentences on this page marked [uncertain].
+- ⚑ Finder value `connects` = strap, cord or fabric (best guess): worked out from its name, but joining parts is not one of its two main jobs
+
+## Sources
+
+- <https://patents.google.com/patent/US3678542A/en>
+- <https://patents.google.com/patent/US6877189B2/en>
+- <https://de.wikipedia.org/wiki/Spanngurt>
+- <https://en.wikipedia.org/wiki/Scuba_set>
+- <https://en.wikipedia.org/wiki/Webbing>
+- <https://www.nrs.com/nrs-heavy-duty-1-cam-buckle/pkkf>
+- <https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc>
+- <https://www.raftingmag.com/rafting-magazine/advice-for-working-with-cam-straps>
+- <https://rollercam.com/blogs/news/cam-straps-and-ratchet-straps-are-not-the-same>
+- <https://dccargo.com/blogs/diy-movers-recreational-haulers/how-to-tie-down-a-kayak-or-canoe-to-a-roof-rack-with-cam-straps>
+- <https://milspecmonkey.com/store/hardware-diy/415-spring-loaded-cam-buckle.html>
+- <https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg>
+- <https://www.youtube.com/watch?v=ZCWvEj7m1D4>
+- <https://www.youtube.com/watch?v=gta9DVFgFRo>
+- <https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ZCWvEj7m1D4&format=json>
+- <https://api.printables.com/graphql/>
+- <https://www.printables.com/model/817333-cam-lock-buckle-repair>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://help.prusa3d.com/article/petg_2059>
+- <https://help.prusa3d.com/article/asa_1809>

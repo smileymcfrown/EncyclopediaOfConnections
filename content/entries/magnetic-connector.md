@@ -1,0 +1,296 @@
+---
+title: Magnetic connector
+description: Two connector halves with magnets that pull them together and line them up, so spring-loaded pins on one half
+  press onto flat pads on the other to carry power or data, and the halves separate cleanly when pulled too hard.
+num: 331
+term: Magnetic connector (magnetic pogo connector, magnetic breakaway power connector)
+plain_name: A plug and socket that snap together by themselves with magnets, where little springy pins press on flat metal
+  pads to carry power or signals, and that simply pop apart instead of breaking if someone trips over the cable
+aliases:
+- magnetic pogo connector or magnetic pogo pin connector (maker and seller names; Adafruit, Printables)
+- magnetic breakaway connector or break-away power cord (CPSC, for deep fryers)
+- magnetically attached power connector (Wikipedia 'MagSafe')
+- MagSafe (Apple, brand) for its magnetic laptop power plugs; Apple also uses the name for an unrelated iPhone wireless-charging
+  ring (Wikipedia; Hackaday)
+- Maxnetic (Mill-Max, brand) magnetic spring-loaded connectors
+- DIY magnetic connector (Adafruit product name)
+- magnetic electrical connector or quick-disconnect terminal (Printables; Hackaday)
+- littleBits (brand) modules, which snap together with small magnets (Wikipedia 'LittleBits')
+family: electrical connections
+other_families:
+- clamping, magnetic & friction connections
+- quick-release & tool-free
+finder:
+  job: [join and hold, slip or let go when overloaded, line parts up exactly]
+  motion: none
+  special_behaviour: [quick-release, fail-safe or breakaway, self-aligning or self-centring]
+  holding_principle: [magnetic, spring force]
+  reuse_cycles: effectively unlimited
+  seal: none
+  access_needed: one side only
+  print_in_place: partly
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), 3D print (resin), woodwork]
+  connects: [wires]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: comes apart without damage, refit by hand
+  clicks: not applicable
+  electrical_band: up to about 30 A
+  tools: [none, soldering iron]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  load_max:
+    kind: best guess
+    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+confirmed: []
+open_points: []
+uncertain_fields: [load, play_and_precision, making_tips_3d_printing, safety_notes, common_failures]
+diagram_idea: 'Two side-view frames: (1) plug and socket a few millimetres apart, with arrows showing magnets (N and S marked,
+  mirrored) pulling them together and into line, pogo pins on one side and flat pads on the other; (2) mated, with the pins
+  pushed in halfway, then a cable yanked sideways and the plug popping off cleanly; plus an inset showing the plug turned
+  round and the like poles pushing it away.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:MagSafe1.jpg
+  title: MagSafe Connector for Late 2008 MacBook (Wikimedia Commons, by Shannon Savage)
+  shows: Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud
+  license: public domain
+- url: https://commons.wikimedia.org/wiki/File:MagSafe-Pinout.svg
+  title: MagSafe pinout (Wikimedia Commons, by Max Naylor)
+  shows: 'Diagram of the MagSafe plug face: mirrored power and ground pins, centre signal pin, and the area that acts as the
+    magnet attractor'
+  license: GFDL 1.2+ / CC BY-SA 3.0, 2.5, 2.0, 1.0
+- url: https://commons.wikimedia.org/wiki/File:Magsafe_tipoff_2.jpg
+  title: MagSafe L-type adaptor that lost its tip (Wikimedia Commons, by Anihl)
+  shows: 'A typical failure: the plug tip broken away from the cable after about six months of use'
+  license: CC BY-SA 3.0
+- url: https://www.adafruit.com/product/5360
+  title: DIY Magnetic Connector - Right Angle Three Contact Pins (Adafruit)
+  shows: Product photos of a two-half magnetic pogo connector with three 0.1 in pins; the description says the halves repel
+    if joined backwards (vendor page)
+  license: link only
+- url: https://hackaday.com/2024/07/27/print-your-own-magnetic-connector/
+  title: Print Your Own Magnetic Connector (Hackaday, 2024)
+  shows: Article with photo of a 3D-printed two-conductor magnetic connector, explaining magnet polarity for one-way mating
+    and the problem of soldering to magnets
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/70240-magnetic-connector-for-a-3-pins-spring-loaded-pogo
+  title: Magnetic connector for a 3 pins spring loaded pogo (Adjuro, Printables) (URL from Printables API, page not opened)
+  what_it_is: Printed magnetic housing pair for Mill-Max 3-pin spring-loaded and target headers, using eight 6 x 2 mm neodymium
+    magnets and M2.5 screws; PETG or PLA, no supports. Read through the Printables public API.
+  license: CC BY
+- url: https://www.printables.com/model/899384-magnetic-electrical-connector
+  title: Magnetic electrical connector (DarthKaker, Printables) (link taken from the Hackaday article; page not opened)
+  what_it_is: Two-conductor printed connector where 5 x 1 mm neodymium magnets carry the current; magnets fitted in reverse
+    polarity so it self-positions and can't short; PETG with TPU95 cable reinforcement; made as an emergency quick disconnect
+    for a heated waistcoat on a motorbike. Read through the Printables public API.
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/1564668-housing-for-3-pin-magnetic-pogo-connector
+  title: Housing for 3-Pin Magnetic Pogo Connector (Bugo, Printables) (URL from Printables API, page not opened)
+  what_it_is: Housing with grip and protection for a bought 3-pin magnetic pogo connector, used to disconnect LED strips on
+    movable furniture; M3 screws and nuts. Read through the Printables public API.
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/1611233-2-pin-magnetic-pogo-pin-connector-mount
+  title: 2 Pin Magnetic Pogo pin connector mount (Glen Bayley, Printables) (URL from Printables API, page not opened)
+  what_it_is: Press-fit mounts that set a round 2-pin magnetic pogo connector flush into wood, with a print-in-place sliding
+    holder that retracts the pin side; Fusion 360 source with a diameter parameter. Read through the Printables public API.
+  license: CC BY-SA
+- url: https://www.printables.com/model/1020888-magnetic-pogo-pin-connector-housings
+  title: Magnetic Pogo Pin Connector Housings (John Silvia, Printables) (URL from Printables API, page not opened)
+  what_it_is: Resin-printed in-line housings for 6-pin and 2-pin magnetic pogo connectors, including a flexible-resin outer
+    shell for grip and strain relief. Read through the Printables public API.
+  license: CC BY-SA
+sources:
+- https://en.wikipedia.org/wiki/MagSafe
+- https://en.wikipedia.org/wiki/Pogo_pin
+- https://en.wikipedia.org/wiki/LittleBits
+- https://www.adafruit.com/product/5360
+- https://www.adafruit.com/product/5470
+- https://mill-max.com/products/new/maxneticr-spring-loaded-connectors
+- https://www.mill-max.com/products/new/introducing-100-pitch-maxnetic-connectors
+- https://www.mill-max.com/engineering-notebooks/maxnetic-connector-technology
+- https://www.mill-max.com/engineering-notebooks/spring-loaded-pogo-pins-connectors/faqs
+- https://hackaday.com/2024/07/27/print-your-own-magnetic-connector/
+- https://hackaday.com/2018/11/15/magnets-and-printed-parts-make-quick-disconnect-terminals/
+- https://hackaday.com/2025/02/25/tech-in-plain-sight-magsafe-and-how-to-roll-your-own/
+- https://www.cpsc.gov/Newsroom/News-Releases/2001/CPSC-Announces-New-Standard-for-Break-Away-Power-Cords-on-Electric-Deep-Fryers
+- https://ulse.org/standards-and-engagement/standards-matter/standards-household-deep-fryers-helping-reduce
+- https://www.kjmagnetics.com/neodymium-magnet-safety.asp
+- https://www.kjmagnetics.com/blog/magnet-shear-force
+- https://www.kjmagnetics.com/blog/temperature-and-neodymium-magnets
+- https://www.govinfo.gov/content/pkg/FR-2022-01-10/html/2021-27826.htm
+- https://patents.google.com/patent/US9196979B2/en
+- https://icreaterobot-docs.readthedocs.io/en/latest/docs/ICBlocks/06MaintenanceandDebug/02CleaningMagneticConnectors/01ReadBeforeOperation.html
+- https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+- https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
+- https://commons.wikimedia.org/wiki/File:MagSafe1.jpg
+- https://commons.wikimedia.org/wiki/File:MagSafe-Pinout.svg
+- https://commons.wikimedia.org/wiki/File:Magsafe_tipoff_2.jpg
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Magnetic_connector_magnetic_pogo_connector_magnetic_breakaway_power_connector.json
+---
+
+Two connector halves with magnets that pull them together and line them up, so spring-loaded pins on one half press onto flat pads on the other to carry power or data, and the halves separate cleanly when pulled too hard.
+
+**In plain words:** A plug and socket that snap together by themselves with magnets, where little springy pins press on flat metal pads to carry power or signals, and that simply pop apart instead of breaking if someone trips over the cable. **Proper term:** Magnetic connector (magnetic pogo connector, magnetic breakaway power connector).
+
+**Also called:** magnetic pogo connector or magnetic pogo pin connector (maker and seller names; Adafruit, Printables); magnetic breakaway connector or break-away power cord (CPSC, for deep fryers); magnetically attached power connector (Wikipedia 'MagSafe'); MagSafe (Apple, brand) for its magnetic laptop power plugs; Apple also uses the name for an unrelated iPhone wireless-charging ring (Wikipedia; Hackaday); Maxnetic (Mill-Max, brand) magnetic spring-loaded connectors; DIY magnetic connector (Adafruit product name); magnetic electrical connector or quick-disconnect terminal (Printables; Hackaday); littleBits (brand) modules, which snap together with small magnets (Wikipedia 'LittleBits').
+
+## How it works
+
+Magnets in the two halves attract and pull the faces together, often from several millimetres away, while shaped housings and the magnets themselves slide the halves into line (Mill-Max: alignment from up to 12.7 mm apart). The magnet pull squashes the spring-loaded pins onto their pads, so the springs keep a steady contact force without any latch (see 'Pogo pin'). If the cable is pulled harder than the magnets can hold, especially sideways, the halves simply come apart instead of tearing the socket or dragging the device off the table (Wikipedia 'MagSafe'; CPSC). Placing the magnets with opposite poles facing out, for example one north and one south in each half, makes the plug fit only one way: turned round, it is pushed away (Adafruit; Hackaday).
+
+## Parts
+
+A small assembly that acts as one unit on each side: one half has spring-loaded (pogo) pins, the other has flat or cupped target pads or pins, and each half has one or more permanent magnets (or a magnet facing a steel plate) in a shaped housing that guides the halves together (Mill-Max; Adafruit; Wikipedia 'MagSafe'). Plus the cable and its strain relief.
+
+## Everyday examples
+
+- Apple MagSafe laptop chargers, which pop off when someone trips over the cable (Wikipedia 'MagSafe')
+- The magnetic break-away power cord on an electric deep fryer (CPSC; ULSE)
+- littleBits electronic building blocks, which snap together with small magnets (Wikipedia 'LittleBits')
+- Educational robot building blocks that connect through magnetic ports with four spring probes and two magnets (ICreateRobot ICBlocks documentation)
+
+## When to use it
+
+Use a magnetic connector where a cable might be yanked or tripped over and you'd rather it let go than damage the socket or pull the device off a table: chargers, lamps, wearable or handheld gadgets, and appliances (Wikipedia 'MagSafe'; CPSC). It also suits modules that are clicked together and pulled apart often, such as robot or educational building blocks and removable furniture lighting (littleBits; ICBlocks; Printables mount), connections made one-handed or without looking (blind mating), and places where users struggle to line up a small plug (Mill-Max). Polarised versions stop a plug being joined the wrong way round.
+
+## When not to use it
+
+Don't use one where the connection must not come apart under vibration, shock or a heavy cable, or where an accidental disconnect would be dangerous; use a latching plug or a screwed terminal instead. Don't use it for mains voltage, or anywhere the exposed live pins could be touched or shorted; use a certified plug and socket (see 'Standard plug-and-socket connector'). Avoid it near steel swarf, filings, staples or other magnetic debris, which the magnets collect (patent US9196979). Keep it away from small children and from people with pacemakers or implanted defibrillators. For a connection that only holds, with no current, see 'Magnet joint'; for one that is switched on and off electrically, see 'Electro-permanent magnet'; for docking without magnets, see 'Pogo pin'.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: makes and holds an electrical connection by magnetic pull, with no latch to work
+  - slip or let go when overloaded: pops apart safely when the cable is yanked (breakaway)
+  - line parts up exactly: the magnets and housing pull the contacts into line as the halves meet
+- **Movement:** none: once mated the halves don't move. The pins inside slide a short stroke (Mill-Max Maxnetic pins have 2.3 mm maximum stroke) to take up the gap.
+- **Directions it can move (degrees of freedom):** 0: once mated the two halves are held fixed against each other by the magnets; they can be pulled apart in any direction, which is the breakaway action
+- **Special behaviour:**
+  - quick-release: no aligning, plugging or latching; the halves are pulled together and held by magnets, and are pulled apart by hand (Mill-Max 'zero force mating')
+  - fail-safe or breakaway: lets go without damage if the cable is tugged, so the laptop or appliance isn't pulled over (Wikipedia 'MagSafe'); required in principle for US household deep fryers, whose short detachable cords are meant to come away if pulled (UL 1083 via ULSE; CPSC)
+  - self-aligning or self-centring: the magnets and shaped housings pull the contacts into line (Mill-Max 'self-alignment, self-location'); with polarised magnets a wrongly turned plug is pushed away instead of connecting (Adafruit; Mill-Max)
+- **How it holds:**
+  - magnetic: permanent (usually neodymium) magnets hold the halves together (Mill-Max)
+  - spring force (a spring or springy part presses it in place): the pogo pins' springs keep each contact pressed on its pad
+- **Input and output:** not applicable
+- **Power:** passive (no power needed): permanent magnets hold the halves without power. The connector carries power, but losing power changes nothing about how it holds. (A switchable version using an electro-permanent magnet is a separate entry.)
+- **Load:** Electrical: up to about 30 A, extra-low voltage only. Mill-Max Maxnetic connectors are rated 7.2 A per pin at 4 mm pitch and 5.2 A per pin at 2.54 mm pitch (derated, single pin in free air); MagSafe 3 delivers up to 140 W (Wikipedia). Cheap hobby connectors are sold at a few amps (one Printables designer uses a 2 A-rated 3-pin connector) ⚑ [uncertain] (many have no published rating). Not for mains. Mechanical: light, on purpose. Mill-Max quotes 1.4 lb (636 g) average separation force (1 lb minimum) for its 4 mm series, and from 0.57 lb (259 g) to 1.6 lb (726 g) for its 2.54 mm series. Magnets resist a sideways (shear) pull with only about half their straight-pull force (K&J Magnetics), so a sideways yank releases the plug more easily than a straight pull.
+- **Play and precision:** small: the magnets and housing pull the pins onto their pads every time, and the pads only need to catch the pin tips (Mill-Max 'self-location'). It tolerates large misalignment while mating (Mill-Max: pulls into alignment from up to 12.7 mm apart), but small rocking of the plug can break contact on cheap designs ⚑ [uncertain].
+- **Taking it apart:** tool-free quick release: pull the halves apart by hand; they also come apart on their own if pulled hard enough
+- **How often it can be reused:** effectively unlimited: Mill-Max Maxnetic pins have a cycle life of up to 1,000,000 cycles (Mill-Max). In practice the cable often fails first: early MagSafe cables had complaints of the plug separating from the cord, frayed wires and pin springs losing elasticity (Wikipedia 'MagSafe').
+- **Sealing:** none: ready-made hobby magnetic pogo connectors are not sealed, and the magnets corrode in damp conditions unless protected (K&J Magnetics). The pins can be put in a gasketed housing, as for ordinary pogo pins (Mill-Max FAQ).
+- **Adjustable:** no: the holding force is set by the magnets chosen and the gap between them; to change it, swap magnets or change the housing
+- **Access needed:** one side only (blind): the plug is offered up to the socket face and the magnets do the rest; useful for blind mating (Mill-Max)
+- **Materials:** Contacts: gold-plated spring-loaded pins and gold-plated target pins or pads (Mill-Max). Magnets: neodymium (NdFeB) on both halves in Mill-Max connectors; MagSafe 1 used a steel shroud on the plug as the 'ferrous attractor' for the magnet in the laptop (Wikipedia). Neodymium magnets are usually nickel-copper-nickel plated, brittle, and not waterproof (K&J Magnetics). DIY housings are printed in PETG, PLA, TPU or resin (Printables designs).
+- **Heat, cold, water and wear:** Heat: standard neodymium magnets are usually rated to about 80 °C and lose strength permanently if overheated (K&J Magnetics); printed housings soften first, PLA at about 60 °C and PETG at 80 °C (CNC Kitchen). Water: neodymium magnets corrode in moist conditions and lose strength unless sealed or coated (K&J Magnetics); pogo pins are not sealed (Mill-Max FAQ). Dirt: the magnets attract clips, staples and other steel bits onto the contacts, which can obstruct the pins or short the plug and socket (patent US9196979); grime builds up on the probes and contact points and causes signal errors, so they need periodic cleaning with a stiff brush and electronics cleaner (ICreateRobot ICBlocks maintenance guide). Ageing: pin springs can lose elasticity with long use (Wikipedia 'MagSafe'), while the magnets themselves keep their strength if not overheated.
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: ready-made magnetic pogo connector pairs (Adafruit, Mill-Max) and the magnets and pins for DIY versions
+  - 3D print (FDM): housings, cable boots and mounts for bought connectors, or DIY shells holding disc magnets (Printables designs in PETG, PLA and TPU)
+  - 3D print (resin): small, detailed housings; one designer found them too fine for FDM and used flexible resin for the outer shell (Printables 'Magnetic Pogo Pin Connector Housings')
+  - woodwork: mounts let into furniture with a Forstner bit or router so a light module connects when slid in place (Printables '2 Pin Magnetic Pogo pin connector mount')
+- **Printing it in one piece (print in place):** partly: the housing prints in one piece (one Printables mount even has a print-in-place sliding holder), but the magnets and pins are bought and pressed, glued or screwed in.
+- **Tools:** None to connect or disconnect. To build one: a soldering iron for the pins or wires, glue (epoxy or superglue) or press-fit pockets for the magnets, and screws if the housing is screwed together (Printables designs).
+- **Difficulty:** easy: ready-made magnetic pogo pairs just need soldering and a housing; building your own from separate magnets and pins is moderate, mainly because the magnet poles must be put in the right way round and the pins set to the right height
+
+### 3D printing tips
+
+1) Magnet polarity: in each housing put one magnet north-out and one south-out, and the opposite in the mating half, so the halves line themselves up and can't be joined the wrong way (Hackaday 'Print Your Own Magnetic Connector'; the designer of Printables 'Magnetic electrical connector' says this prevents short circuits). Mark each magnet's pole before fitting, because you can't see or feel which pole is which ⚑ [uncertain]. 2) Fixing magnets: press-fit pockets, glue or a sealed pocket; see 'Magnet joint' and 'Mid-print embedding' for the methods. 3) Soldering to magnets: some DIY designs solder the wires straight onto plated magnets so the magnets carry the current, but heating magnets weakens them; one maker accepted a weaker magnet, and Hackaday suggests soldering to a thin washer glued to the magnet, or using separate contacts and keeping the magnets only for holding (Hackaday 2018 and 2024). Neodymium magnets are typically rated to about 80 °C (K&J Magnetics). 4) Pins for current, magnets for holding: commercial designs use spring-loaded pins for the contacts and separate magnets that only hold and align (Mill-Max; ICBlocks guide), and Hackaday suggests using magnets for alignment with a separate arrangement for the contacts. 5) Strain relief: a flexible TPU boot or outer shell stops the cable breaking where it leaves the plug (Printables 'Magnetic electrical connector' used TPU95 reinforcement; 'Magnetic Pogo Pin Connector Housings' used a flexible-resin outer shell); poor strain relief was the main MagSafe complaint (Wikipedia). 6) Fit: housings for bought connectors need tight, calibrated tolerances; one designer recommends 0.1-0.2 mm layers, 3-4 walls and no supports (Printables 'Housing for 3-Pin Magnetic Pogo Connector'). 7) Recess the pins: a mount that lets the pin side drop back when unmated protects the plungers (Printables '2 Pin Magnetic Pogo pin connector mount' uses a print-in-place slide with 2 mm travel each way). 8) Heat: PLA gives at about 60 °C, PETG at 80 °C and ASA at 110 °C (CNC Kitchen), so a PLA housing near a hot charger or in a car can let magnets loosen.
+
+### Buying one (off-the-shelf parts)
+
+Ready-made pairs: 'magnetic pogo connector', 'magnetic spring-loaded connector' or 'DIY magnetic connector', in right-angle or straight PCB-mount versions with 2 to 10 contacts (Adafruit's range includes 3 contacts at 2.54 mm (0.1 in) pitch and up to 9 contacts at 2.2 mm pitch, which Adafruit notes is too small for breadboards; Mill-Max Maxnetic (brand) 872/873 single-row and 874/875 double-row series at 2.54 mm pitch, plus a 4 mm-pitch series with solder-cup cable halves). DIY parts: neodymium disc magnets (Printables designs use 6 x 2 mm and 5 x 1 mm discs), spring-loaded pin headers and matching target headers (one Printables design uses Mill-Max 854- and 858-series headers), and flexible cable. For holding-only magnets, see 'Magnet joint'.
+
+## Rules of thumb
+
+- Use opposite poles in each half (one N-out, one S-out, mirrored in the mate) so a wrongly turned plug repels; Adafruit and Mill-Max build their connectors this way to prevent short circuits (Hackaday 2024; Adafruit product 5360; Mill-Max).
+- Let the spring-loaded pins carry the current and keep the magnets for holding and alignment, as Mill-Max Maxnetic connectors and ICBlocks robot ports do ('two strong magnets for attachment but not for signal transmission'); Hackaday suggests the same for DIY designs instead of soldering wires to magnets (Mill-Max; ICreateRobot ICBlocks guide; Hackaday 2024).
+- Expect about 1-1.6 lb (0.45-0.73 kg) of separation force from a commercial 2-6 pin connector: Mill-Max quotes 1.4 lb average (1 lb minimum) for the 4 mm series and 0.57-1.6 lb for the 2.54 mm series.
+- A sideways pull separates magnets at roughly half the straight-pull force (K&J Magnetics shear tests), which helps a cable break away when tripped over.
+- Keep magnets below about 80 °C, the usual rating for standard neodymium grades (K&J Magnetics), so take care soldering near them.
+- Spring-loaded pins in Mill-Max magnetic connectors have 2.3 mm (0.090 in) maximum stroke, 20 milliohms contact resistance and up to 1,000,000 cycles (Mill-Max).
+- MagSafe 1 kept the plug at a low voltage (about 6.86 V) until it detected the laptop's load, then switched to full voltage (Wikipedia 'MagSafe'); a mirror-image pin layout let the plug fit either way up (Wikipedia).
+- US household deep fryers must have a short (2-3 ft) detachable cord that comes away if pulled, so the fryer doesn't tip; these cords are held on by a magnet (UL 1083 via ULSE; CPSC 2001).
+
+## Common failures
+
+1) Cable breaks or pulls out of the plug, the commonest MagSafe complaint, with frayed wires and overheating reported: add a flexible boot and strain relief (Wikipedia 'MagSafe'; TPU boot on Printables designs). 2) The plug tip breaks off (Commons photo 'Magsafe tipoff 2'). 3) Intermittent power or data from dirty contacts or debris on the face: keep it clean and brush the pins (ICBlocks guide; patent US9196979). 4) Weak pin springs (Wikipedia 'MagSafe'). 5) A DIY plug that fits the wrong way round and shorts: use opposite poles in each half (Hackaday; Printables 'Magnetic electrical connector'). 6) Magnets weakened by soldering heat (Hackaday 2018) or knocked loose in a soft or hot housing: fix them well and keep them cool (K&J; CNC Kitchen). 7) Too weak to stay connected under the cable's weight, or too strong to break away: choose magnets for the cable and test the pull-off force ⚑ [uncertain]. 8) Chipped or cracked magnets from snapping together (K&J Magnetics).
+
+## Safety
+
+Small strong magnets can be swallowed: if two or more (or a magnet and a piece of steel) are swallowed they can pull together through the intestine walls and need emergency surgery (K&J Magnetics; US CPSC proposed magnet standard, Federal Register 10 January 2022). Glue and enclose magnets so they can't come out, and keep loose magnets away from children. Magnets can pinch fingers, and can chip or shatter if they snap together, so wear eye protection; they can affect pacemakers and implanted defibrillators; don't drill or grind them, as the dust is flammable (K&J Magnetics). Keep to extra-low voltage (UK Approved Document P: not more than 50 V AC or 120 V ripple-free DC); the contacts are bare when apart, so never use a DIY magnetic connector for mains, and mains work must follow local law. A live socket can be shorted by steel debris pulled onto it (patent US9196979); fit a fuse or current limit ⚑ [uncertain] (as general advice). Fake MagSafe chargers sold online were sometimes unsafe (Wikipedia).
+
+## Related
+
+- Pogo pin (spring-loaded contact pin): the same pins without magnets; something else must hold the parts together
+- Magnet joint (embedded magnets, magnetic catch): magnets used only to hold or close; no current
+- Electro-permanent magnet: a magnet that is switched on or off by a pulse of current, for docking that releases on command
+- Magnetic-assisted buckle: magnets line up and pull the halves together while a mechanical catch carries the load
+- Genderless connector: identical halves that mate either way, without magnets
+- Standard plug-and-socket connector (USB, barrel jack): a certified plug that holds by friction or a latch and doesn't break away
+- Wire-to-board plug connectors: latching plugs for permanent internal wiring
+- Cable gland and strain relief: needed where the cable leaves the plug, the usual weak point
+
+## Make it yourself
+
+- [Magnetic connector for a 3 pins spring loaded pogo (Adjuro, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/70240-magnetic-connector-for-a-3-pins-spring-loaded-pogo): Printed magnetic housing pair for Mill-Max 3-pin spring-loaded and target headers, using eight 6 x 2 mm neodymium magnets and M2.5 screws; PETG or PLA, no supports. Read through the Printables public API. *(licence: CC BY)*
+- [Magnetic electrical connector (DarthKaker, Printables) (link taken from the Hackaday article; page not opened)](https://www.printables.com/model/899384-magnetic-electrical-connector): Two-conductor printed connector where 5 x 1 mm neodymium magnets carry the current; magnets fitted in reverse polarity so it self-positions and can't short; PETG with TPU95 cable reinforcement; made as an emergency quick disconnect for a heated waistcoat on a motorbike. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+- [Housing for 3-Pin Magnetic Pogo Connector (Bugo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1564668-housing-for-3-pin-magnetic-pogo-connector): Housing with grip and protection for a bought 3-pin magnetic pogo connector, used to disconnect LED strips on movable furniture; M3 screws and nuts. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+- [2 Pin Magnetic Pogo pin connector mount (Glen Bayley, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1611233-2-pin-magnetic-pogo-pin-connector-mount): Press-fit mounts that set a round 2-pin magnetic pogo connector flush into wood, with a print-in-place sliding holder that retracts the pin side; Fusion 360 source with a diameter parameter. Read through the Printables public API. *(licence: CC BY-SA)*
+- [Magnetic Pogo Pin Connector Housings (John Silvia, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1020888-magnetic-pogo-pin-connector-housings): Resin-printed in-line housings for 6-pin and 2-pin magnetic pogo connectors, including a flexible-resin outer shell for grip and strain relief. Read through the Printables public API. *(licence: CC BY-SA)*
+
+## Pictures, videos and models
+
+- [MagSafe Connector for Late 2008 MacBook (Wikimedia Commons, by Shannon Savage)](https://commons.wikimedia.org/wiki/File:MagSafe1.jpg): Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud *(licence: public domain)*
+- [MagSafe pinout (Wikimedia Commons, by Max Naylor)](https://commons.wikimedia.org/wiki/File:MagSafe-Pinout.svg): Diagram of the MagSafe plug face: mirrored power and ground pins, centre signal pin, and the area that acts as the magnet attractor *(licence: GFDL 1.2+ / CC BY-SA 3.0, 2.5, 2.0, 1.0)*
+- [MagSafe L-type adaptor that lost its tip (Wikimedia Commons, by Anihl)](https://commons.wikimedia.org/wiki/File:Magsafe_tipoff_2.jpg): A typical failure: the plug tip broken away from the cable after about six months of use *(licence: CC BY-SA 3.0)*
+- [DIY Magnetic Connector - Right Angle Three Contact Pins (Adafruit)](https://www.adafruit.com/product/5360): Product photos of a two-half magnetic pogo connector with three 0.1 in pins; the description says the halves repel if joined backwards (vendor page) *(licence: link only)*
+- [Print Your Own Magnetic Connector (Hackaday, 2024)](https://hackaday.com/2024/07/27/print-your-own-magnetic-connector/): Article with photo of a 3D-printed two-conductor magnetic connector, explaining magnet polarity for one-way mating and the problem of soldering to magnets *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 5 sentences on this page marked [uncertain].
+- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/MagSafe>
+- <https://en.wikipedia.org/wiki/Pogo_pin>
+- <https://en.wikipedia.org/wiki/LittleBits>
+- <https://www.adafruit.com/product/5360>
+- <https://www.adafruit.com/product/5470>
+- <https://mill-max.com/products/new/maxneticr-spring-loaded-connectors>
+- <https://www.mill-max.com/products/new/introducing-100-pitch-maxnetic-connectors>
+- <https://www.mill-max.com/engineering-notebooks/maxnetic-connector-technology>
+- <https://www.mill-max.com/engineering-notebooks/spring-loaded-pogo-pins-connectors/faqs>
+- <https://hackaday.com/2024/07/27/print-your-own-magnetic-connector/>
+- <https://hackaday.com/2018/11/15/magnets-and-printed-parts-make-quick-disconnect-terminals/>
+- <https://hackaday.com/2025/02/25/tech-in-plain-sight-magsafe-and-how-to-roll-your-own/>
+- <https://www.cpsc.gov/Newsroom/News-Releases/2001/CPSC-Announces-New-Standard-for-Break-Away-Power-Cords-on-Electric-Deep-Fryers>
+- <https://ulse.org/standards-and-engagement/standards-matter/standards-household-deep-fryers-helping-reduce>
+- <https://www.kjmagnetics.com/neodymium-magnet-safety.asp>
+- <https://www.kjmagnetics.com/blog/magnet-shear-force>
+- <https://www.kjmagnetics.com/blog/temperature-and-neodymium-magnets>
+- <https://www.govinfo.gov/content/pkg/FR-2022-01-10/html/2021-27826.htm>
+- <https://patents.google.com/patent/US9196979B2/en>
+- <https://icreaterobot-docs.readthedocs.io/en/latest/docs/ICBlocks/06MaintenanceandDebug/02CleaningMagneticConnectors/01ReadBeforeOperation.html>
+- <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
+- <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf>
+- <https://commons.wikimedia.org/wiki/File:MagSafe1.jpg>
+- <https://commons.wikimedia.org/wiki/File:MagSafe-Pinout.svg>
+- <https://commons.wikimedia.org/wiki/File:Magsafe_tipoff_2.jpg>
+- <https://api.printables.com/graphql/>

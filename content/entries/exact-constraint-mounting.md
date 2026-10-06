@@ -1,0 +1,270 @@
+---
+title: Exact-constraint mounting
+description: 'A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part:
+  three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles
+  in the same position without being held twice over, bent or left wobbling.'
+num: 235
+term: Exact-constraint (kinematic) mounting; 3-2-1 locating principle (six-point location)
+plain_name: Holding a part against exactly six small touching points (three underneath, two along one side, one at the end)
+  and pushing it gently into them, so it settles in the same place every time without rocking, rattling or being bent
+aliases:
+- 3-2-1 principle, 3-2-1 location, 3-2-1 fixturing, six-point location, six-point locating principle
+- exact constraint design, exactly constrained mounting, kinematic design, kinematic mounting (Blanding; Hale)
+- semi-kinematic or quasi-kinematic design (practical versions with small contact areas instead of true points)
+- 'isostatic mounting (term used in French and other European engineering: isostatic = exactly constrained, hyperstatic =
+  over-constrained, hypostatic = under-constrained)'
+- three-point support, three-point mounting, three-point bed levelling or tramming (3D printers)
+- 'datum reference frame: primary, secondary and tertiary datums A, B and C controlling 3, 2 and 1 degrees of freedom (GD&T,
+  ASME Y14.5)'
+- locators, rest buttons and nesting force; plane, concentric and radial location (fixture-design terms)
+- 'cone (or tetrahedron), vee and flat coupling / Kelvin clamp: a kinematic coupling with its six contacts arranged 3-2-1'
+family: locating & alignment
+other_families: ['adjusters, levellers & spacers']
+finder:
+  job: [line parts up exactly]
+  motion: none
+  special_behaviour: [self-aligning or self-centring]
+  holding_principle: [shape, friction or clamping, spring force]
+  reuse_cycles: effectively unlimited
+  seal: none
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, 3D print (resin), woodwork]
+  connects: ['wall, rail, desk or grid']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [none, soldering iron, drill and tap, press or vice]
+  load_max: heavy
+  usual_process: 3D print (FDM)
+  adjustable: 'yes'
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: worked out from its name, but joining parts is not one of its two main jobs
+confirmed: []
+open_points: []
+uncertain_fields: [play_and_precision]
+diagram_idea: 'Three-step drawing of a brick-shaped part being placed in a corner jig: first it rests on three dots under
+  its bottom face (arrows show it can still slide and swivel), then it is pushed against two dots on the long back wall, then
+  against one dot on the end wall, with a spring arrow pushing it diagonally into the corner; a side panel shows a four-legged
+  version rocking on its high leg.'
+links:
+- url: https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles
+  title: Locating & Clamping Principles for Jig & Fixture Design (Carr Lane Mfg.)
+  shows: Figures of the 12 degrees of freedom, the 3-2-1 method step by step (three supports, then two side locators, then
+    one end locator), locator spacing, redundant locators, foolproofing pins, spring-loaded locators and clamp placement
+  license: link only (copyright Carr Lane Manufacturing)
+- url: https://formlabs.com/white-papers/how-to-3d-print-in-house-jigs-fixtures-and-other-manufacturing-aids/
+  title: How to 3D Print In-House Jigs, Fixtures, and Other Manufacturing Aids (Formlabs white paper page)
+  shows: Illustrated explanation of degrees of freedom, exact constraint, under- and over-constraint (three-legged stool versus
+    four-legged chair) and 3D-printed corner locators
+  license: link only
+- url: https://www.mistywest.com/posts/make-parts-fit-right-the-first-time-with-exact-constraint-analysis/
+  title: Make Parts Fit Right the First Time with Exact Constraint Analysis (MistyWest)
+  shows: Blanding-style constraint-line diagrams in 2D, the V-block and flat, and an over-constrained sheet-metal panel redesigned
+    to exactly three constraints
+  license: link only
+- url: https://www.youtube.com/watch?v=fF8h2N7wxko
+  title: 01_02_P1 The 3-2-1 Principle of Locating a Part in Fixtures and Jigs (Industrial Engineering and Manufacturing, YouTube;
+    title confirmed via YouTube oEmbed)
+  shows: Video lesson on restricting a part's degrees of freedom with 3-2-1 locators
+  license: link only
+- url: https://commons.wikimedia.org/wiki/File:6DOF_en.jpg
+  title: 6DOF en.jpg (Wikimedia Commons, Horia Ionescu)
+  shows: 'Diagram of the six degrees of freedom of a body: three slides and three rotations'
+  license: Public domain
+make_it_yourself:
+- url: https://www.printables.com/model/1493826-pocket-kinematic-coupling
+  title: Pocket Kinematic Coupling by BYU CMR (Printables) (URL from Printables API, page not opened)
+  what_it_is: Pocket-sized modular kit from BYU's Compliant Mechanisms and Robotics group for building and testing exactly
+    constrained couplings in seconds, inspired by a model in Alexander Slocum's lectures
+  license: CC BY-NC
+- url: https://www.printables.com/model/110874-anet-a8-3-points-bed-levelling-conversion
+  title: Anet A8 3 points bed levelling conversion by aRGiRob (Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable parts that convert a four-screw printer bed to three-point levelling (needs 2 M3x8 screws and 5 M3
+    nuts, no drilling)
+  license: CC BY
+- url: https://www.printables.com/model/951573-optical-kinematic-mount-low-profile-3-axis
+  title: Optical Kinematic Mount - Low profile 3-axis by Bryan (Printables) (URL from Printables API, page not opened)
+  what_it_is: 'Printed PETG laser mount that pivots on a 7 mm steel ball and is adjusted by round-ended M3 screws in heat-set
+    inserts pressing on small stainless plates, held by springs: a practical exactly constrained, adjustable mount'
+  license: CC BY-NC-SA
+sources:
+- https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles
+- https://www.carrlane.com/engineering-resources/technical-information/manual-workholding/locating-devices/locating-pins
+- 'https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf (Slocum, A., ''Kinematic couplings:
+  A review of design principles and applications'', Int. J. Machine Tools and Manufacture 50(4), 2010; MIT open-access author''s
+  manuscript, CC BY-NC-SA 3.0)'
+- https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004/3aa5862a1724b75c3e4aa7a6fee6c511_reading_l3.pdf (Hale,
+  L. C., 'Principles and techniques for designing precision machines', PhD thesis, 1999, sections 2.6-2.7 and 6.1; MIT OpenCourseWare
+  2.76 reading, CC BY-NC-SA 4.0)
+- https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004/resources/reading_l3/
+- https://formlabs.com/white-papers/how-to-3d-print-in-house-jigs-fixtures-and-other-manufacturing-aids/
+- https://www.mistywest.com/posts/make-parts-fit-right-the-first-time-with-exact-constraint-analysis/
+- https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html
+- https://hackaday.com/2019/09/11/books-you-should-read-exact-constraint-machine-design-using-kinematic-principles/
+- 'https://www.asme.org/publications-submissions/books/find-book/exact-constraint-machine-design-using-kinematic-principles
+  (Blanding, D. L., ''Exact Constraint: Machine Design Using Kinematic Principles'', ASME Press, 1999; publisher page)'
+- https://en.wikipedia.org/wiki/Datum_reference (read as raw wikitext)
+- https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+- http://thrinter.com/creep-abs-pla-petg-alloy-910/
+- https://commons.wikimedia.org/wiki/File:6DOF_en.jpg
+- https://commons.wikimedia.org/wiki/File:Kelvin_Kinematic_Coupling.png
+- https://www.youtube.com/watch?v=fF8h2N7wxko (verified via YouTube oEmbed)
+- https://api.printables.com/graphql/ (Printables models 1493826, 110874 and 951573 read via the public API)
+research: research/connection-types/results/Exactconstraint_mounting_321_locating.json
+---
+
+A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part: three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles in the same position without being held twice over, bent or left wobbling.
+
+**In plain words:** Holding a part against exactly six small touching points (three underneath, two along one side, one at the end) and pushing it gently into them, so it settles in the same place every time without rocking, rattling or being bent. **Proper term:** Exact-constraint (kinematic) mounting; 3-2-1 locating principle (six-point location).
+
+**Also called:** 3-2-1 principle, 3-2-1 location, 3-2-1 fixturing, six-point location, six-point locating principle; exact constraint design, exactly constrained mounting, kinematic design, kinematic mounting (Blanding; Hale); semi-kinematic or quasi-kinematic design (practical versions with small contact areas instead of true points); isostatic mounting (term used in French and other European engineering: isostatic = exactly constrained, hyperstatic = over-constrained, hypostatic = under-constrained); three-point support, three-point mounting, three-point bed levelling or tramming (3D printers); datum reference frame: primary, secondary and tertiary datums A, B and C controlling 3, 2 and 1 degrees of freedom (GD&T, ASME Y14.5); locators, rest buttons and nesting force; plane, concentric and radial location (fixture-design terms); cone (or tetrahedron), vee and flat coupling / Kelvin clamp: a kinematic coupling with its six contacts arranged 3-2-1.
+
+## How it works
+
+A loose solid part can move in six ways: slide along three directions and turn about three axes. Each small contact point stops one of those movements, so six well-placed points fix the part exactly: three points under its main face stop it dropping and tipping either way, two points along a side stop it sliding sideways and swivelling flat, and one point at the end stops the last slide. A 'nesting force' (weight, a spring or a clamp) pushes the part so it touches all six at once. Add a seventh point doing the same job (over-constraint) and the part rocks on the high point or has to bend to touch them all, like a four-legged chair on an uneven floor; leave one out (under-constraint) and it can slide or rattle.
+
+## Parts
+
+A design rule more than a part: a base, jig or frame with six small contact points (rest buttons, pins, rounded bumps, ball-ended screws or short edges), plus something that pushes the part into them (its own weight, a spring plunger, a clamp or magnets). A flat part sliding on a table needs only three points in the plane: two along one edge and one on another.
+
+## Everyday examples
+
+- a three-legged stool or camera tripod, which never rocks, while a four-legged chair wobbles on an uneven floor
+- a bench vice: its fixed jaw and base locate the part and the moving jaw only clamps it (Carr Lane)
+- 3D-printer beds levelled on three screws instead of four, so levelling does not bend the bed (Rehorst)
+- pushing a photo into the corner of a scanner's glass: face on the glass, one edge against the side guide, one against the top
+
+## When to use it
+
+When a part must go back into the same place every time and must not be bent by its holder: jigs and nests for drilling, sawing, gluing, soldering, engraving or laser-cutting repeat parts; mounting sensors, cameras, lenses, mirrors and laser modules; supporting a heated printer bed or any flat plate that must stay flat; fitting covers and panels so they neither rattle nor bind; and any assembly of parts made to loose tolerances (3D prints, sheet metal, castings) that must fit without forcing. It is also a checking tool: count the contacts to find out why something jams (too many) or rattles (too few).
+
+## When not to use it
+
+When loads are heavy, shock-like or come from any direction, point contacts dent and the part can be lifted off them: add strong clamps or bolts, or spread the load with many contacts (elastic averaging, flat faces bolted together with dowel pins). When a thin or flexible part must be supported all over, e.g. a sheet under a cutter, exact constraint leaves it undersupported and it deflects (Formlabs): support it on a full flat bed or many points. When a part must come off and go back to micrometre repeatability, use a kinematic coupling (balls in V-grooves). When the goal is only to stop a part being put in the wrong way round, keying (poka-yoke) is simpler. When two parts just need lining up across a face, two pins in a hole and a slot do the job.
+
+## Details
+
+- **What it does (jobs):**
+  - line parts up exactly: makes a part (workpiece in a jig, sensor, camera or optic, printer bed, panel, module) sit in the same position every time, without bending it
+- **Movement:** none once the part is nested and clamped
+- **Directions it can move (degrees of freedom):** 0 when the part is pushed against all six points: 3 + 2 + 1 = 6 contact points each remove one of the six degrees of freedom, with none removed twice. Fixture books count 12 directions (both ways along and around each axis): the six locators stop 9 of them and the clamp or nesting force stops the other 3 (Carr Lane). If some motion is wanted, use fewer constraints: the number needed is n = 6 + f - d, where d is the number of motions you want to keep and f counts floppy bending modes of a flexible part (Hale).
+- **Special behaviour:**
+  - self-aligning or self-centring: pushed by the nesting force, the part slides over the contact points into its one resting place even when its own size varies a little; spring-loaded buttons are used to push the workpiece against the fixed locators before clamping (Carr Lane)
+  - none of the other listed behaviours; its extra benefit is 'no strain': because nothing is held twice, the part is not bent when it (or the base) is slightly the wrong size or grows with heat
+- **How it holds:** shape (the six contact points set the position; form-fit) together with spring force, gravity, or friction or clamping (the nesting force or clamp that keeps the part against the points). The locators on their own do not hold the part down.
+- **Input and output:** not applicable
+- **Power:** passive (no power needed); production fixtures sometimes use hydraulic or air-powered clamps to apply the push
+- **Load:** Light to heavy, depending on the contact points: locators can carry large loads if the working forces are aimed into them (Carr Lane: locators, not clamps, should take the main cutting forces), but each is a small contact that dents under heavy load, which adds tiny extra constraints and friction (Slocum). Heavy loads are spread by giving each 'point' several contacts on a rocking beam (a whiffle tree, as in windscreen-wiper blades) or by many slightly springy contacts (elastic averaging) (Slocum). Weak against forces that pull the part off the points unless the push or clamp is larger; loads must act inside the triangle of the three main points or the part tips (Slocum, three-legged chair).
+- **Play and precision:** No play while the nesting force holds the part against all six points. A steel 3-2-1 fixture repeats to about 3-5 micrometres, limited by friction and tiny dents at the point contacts (Slocum); a lightly built printed or wooden jig will be much coarser ⚑ [uncertain: no measured figure found]. Tolerates differences in the part's size (the far sides simply sit in a different place) and heat growth away from the corner of the locators, but not dirt, chips or burrs on the contact points.
+- **Taking it apart:** tool-free quick release: the part lifts out as soon as the clamp or push is released; the contact points on the base stay fixed (removable if the part is bolted down)
+- **How often it can be reused:** effectively unlimited for loading and unloading parts; hardened steel contact points last a long time, while printed plastic points dent, wear and creep, and point contacts slowly fret (Slocum notes friction and contact deformation limit repeatability)
+- **Sealing:** none
+- **Adjustable:** Yes, if the contact points are adjustable: adjustable and equalizing supports set height for rough castings (Carr Lane), and a three-point 3D-printer bed is levelled with a fixed reference screw plus pitch and roll screws, each adjustment pivoting the bed on the other two without bending it (Rehorst). Fixed points give no adjustment but the best repeatability.
+- **Access needed:** one side only (blind): the part is placed into the fixture from its open side
+- **Materials:** Fixture bases: steel, aluminium, wood, MDF or 3D-printed plastic (Formlabs prints production fixtures in Nylon 12, and PETG or PLA suit light jobs). Contact points: hardened steel rest buttons, locating pins, ball-ended screws and steel balls for precise or long-lived fixtures; printed rounded bumps for light, occasional use. Any part material can be located, but locate from its most accurate (e.g. machined) surfaces (Carr Lane).
+- **Heat, cold, water and wear:** The principle works anywhere and copes well with temperature change: because nothing is held twice, a part or bed can grow with heat without bowing (Rehorst's three-point kinematic bed plate rests on its screws so it can expand freely). Printed fixtures soften with heat (PLA starts to give at about 60 °C, PETG about 80 °C, ASA about 110 °C in CNC Kitchen's test) and creep under a constant clamp or spring (Thrinter creep test), so the push fades and plastic contact points flatten over time; use steel contact points and metal springs for long-term loads. Chips, dust, coolant and burrs on the contact points shift the part (Carr Lane). Vibration can walk a part off its points if the push is weak.
+
+## Making it
+
+- **Ways to make or get it:**
+  - 3D print (FDM): jigs, nests and corner locators with built-in rounded contact bumps and clamp mounts
+  - 3D print (resin) and SLS: stiffer, more accurate fixtures (e.g. Nylon 12 locating jigs, Formlabs)
+  - CNC: fixture plates with rest buttons, locating pins and adjustable supports
+  - laser cut: plates, fences and stops cut from sheet
+  - woodwork: jigs with a fence and a stop block
+  - off-the-shelf part: rest buttons, locating pins, spring plungers, toggle clamps, adjustable supports
+- **Printing it in one piece (print in place):** no: the fixture prints as one piece, but it is a separate holder for another part; steel contact points, inserts, springs or clamps are usually added
+- **Tools:** none to load or unload the part (just the clamp handle); to make a fixture: drill and tap for rest buttons or adjusting screws, a vice or press to fit steel balls or pins, heat-set inserts and a soldering iron for printed jigs
+- **Difficulty:** easy to moderate: the idea needs no special tools (a jig with three bumps underneath, two on one side and one at the end, plus a push), but choosing where the points and the push go takes some thought, and precise, hard-wearing points need added steel parts
+
+### 3D printing tips
+
+Give the jig six small, rounded contact points instead of large flat faces: three bumps under the part's main face, two along its longest side and one at the end, each set as far apart as the part allows (Carr Lane: widely spaced locators make small errors matter less and stop the part wobbling). Keep every other surface clear with a gap so it cannot touch; MistyWest first removes all the accidental contacts from an over-constrained panel and then adds back exactly the ones needed. Build the locators into the printed jig as one seamless part, using rounded or diamond-shaped locators that touch over a small area so the part does not bind, and add ribs and fillets for stiffness rather than solid material (Formlabs). Leave relief pockets in inside corners so burrs, dust or the part's own corner radius cannot stop it reaching the points (Carr Lane Fig. 3-14; Formlabs corner locator). Choose the locating surfaces the part is measured from, so the part is referenced the same way it was designed (Carr Lane Fig. 3-16). Add a push aimed so it presses the part into all the points at once: a printed flexure, a spring plunger or a toggle clamp, with the clamping force directed into the supports so the part is not bent (Carr Lane Figs. 3-19 and 3-23). Plastic dents and creeps under a constant load, so for precise or long-term use press steel balls, dowel pins or ball-ended screws into the print, or run screws through heat-set inserts so the height can be tuned; one printed optical mount adds small stainless plates so its adjusting screws do not dig into the plastic (Printables 'Optical Kinematic Mount'). Keep PLA jigs away from heat (it starts to soften at about 60 °C, CNC Kitchen). The same thinking fixes wobbly 3D-printer beds: support the bed on three screws instead of four (Rehorst; printable 3-point conversions exist).
+
+### Buying one (off-the-shelf parts)
+
+Rest buttons (fixture rest pads), locating pins and diamond pins, ball-ended (spherical-head) thrust screws and set screws, adjustable supports and equalizing (rocking) supports, spring plungers and spring-loaded locating buttons, toggle clamps and strap clamps, fixture plates and tooling plates, V-blocks, precision steel balls, heat-set inserts; for 3D-printer beds, three-point levelling kits and kinematic bed mounts.
+
+## Rules of thumb
+
+- Count the constraints: a solid part needs six independent contacts to be fixed; in general n = 6 + f - d, where d is the number of motions you want to keep and f the number of floppy bending modes; the design is exactly constrained if removing any one contact frees exactly one motion (Hale 1999, pp. 81 and 174, https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004/3aa5862a1724b75c3e4aa7a6fee6c511_reading_l3.pdf).
+- The 3-2-1 sequence: put one face on three support points, push a second face against two points, then push a third face against one point, letting the part slide over the earlier points as it settles (Slocum 2010, author's manuscript pp. 2-3, https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf).
+- Three supports on the main face stop 5 of the 12 directions of motion, two locators on a side bring it to 8, and one on the end to 9; clamps stop the last 3 (Carr Lane, Figs. 3-4 to 3-6, https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles).
+- Avoid redundant locators (two locators controlling the same motion): parts vary in size and will not touch both, which harms accuracy and can damage the part or fixture (Carr Lane, Fig. 3-15, https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles).
+- Space locators as far apart as practical: a 0.001 in position error barely matters with wide spacing but noticeably shifts the part with close spacing, and very close locators let the part wobble (Carr Lane, Figs. 3-12 and 3-13, https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles).
+- Aim clamping forces into the locators or supports, and let the locators, not the clamps, take the main working forces (Carr Lane, Figs. 3-22 to 3-27, https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles).
+- Holder tolerances are usually 20-50% of the part's tolerances (Carr Lane, https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles).
+- Expect about 3-5 micrometres repeatability from a practical steel 3-2-1 fixture, limited by friction and point-contact deformation; kinematic couplings do better (Slocum 2010, p. 3, https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf).
+- A three-legged stool has just enough constraint and never rocks; a four-legged chair is over-constrained and rocks on an uneven floor, trading a need for flatter floors for more stability (Formlabs, https://formlabs.com/white-papers/how-to-3d-print-in-house-jigs-fixtures-and-other-manufacturing-aids/); a three-legged chair tips unless the load stays inside its triangle (Slocum 2010, p. 2, https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf).
+- Level a printer bed on three screws (reference, pitch and roll): each adjustment pivots the bed on the other two so nothing bends; Rehorst's 300 x 300 mm beds on three points were flat enough for edge-to-edge printing in 200 micrometre layers (Rehorst, https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html).
+- In drawings, datum A (a face) controls 3 degrees of freedom, datum B (an edge) 2 and datum C (another edge) 1, so 3 + 2 + 1 = 6 (Wikipedia 'Datum reference', citing ASME Y14.5, https://en.wikipedia.org/wiki/Datum_reference).
+- Extra (redundant) constraints may be added for stiffness or load capacity, but they give up some benefits of exact constraint, so start from the exactly constrained design and add them knowingly (Hale 1999, p. 82, https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004/3aa5862a1724b75c3e4aa7a6fee6c511_reading_l3.pdf; Slocum 2010, p. 2).
+
+## Common failures
+
+(1) Over-constraint: more contacts than needed (four chair legs, four bed screws, a panel held by nine tight screws), so the part rocks, jams or is bent; remove the extras (MistyWest; Rehorst; Formlabs). (2) Under-constraint: too few contacts, so the part rattles, slides or can be loaded wrongly; add the missing point. (3) Locators too close together, magnifying small errors and letting the part wobble (Carr Lane Fig. 3-13). (4) Push in the wrong direction, so the part is not pressed against all six points at once; aim it between the points. (5) Clamping over an unsupported area, which bends the part; clamp over the supports (Carr Lane Figs. 3-26 and 3-27). (6) Chips, dust or burrs on the contact points or in corners; relieve corners and keep points clean (Carr Lane Fig. 3-14). (7) Soft points denting, wearing or creeping (printed plastic), or point contacts deforming under heavy loads and adding friction (Slocum). (8) Locating from the wrong surfaces, so accurate parts come out wrong; locate from the surfaces the part is measured from (Carr Lane Fig. 3-16).
+
+## Safety
+
+Clamps and spring plungers can pinch fingers. In machining, a part that is under-constrained can move during the cut, which Formlabs warns 'can pose a significant danger to machine operators and equipment'; always clamp against the locators. Otherwise none known.
+
+## Related
+
+- Locating pins and hole-and-slot: the pin version of the same rule: a pin in a round hole and a pin in a slot, plus the flat faces, fix a part without jamming
+- Kinematic coupling (balls in V-grooves): an exactly constrained joint made of six point contacts that can be lifted off and replaced to micrometres; the cone, vee and flat (Kelvin) version is literally 3-2-1
+- Elastic averaging (many-feature alignment): the opposite approach: many slightly springy contacts share the job, giving stiffness and load capacity instead of exactness
+- Self-centring cone and socket (taper locator): centres a part with one tapered contact; simple, but over-constrains if more than one is used
+- Keying (one-way-only fit, poka-yoke): stops a part being loaded the wrong way round; Carr Lane adds foolproofing pins to 3-2-1 fixtures for this
+- Flexure hinge and parallel leaf-spring flexure: the same constraint counting used to allow exactly the motions you want
+- Toggle clamp and spring plunger: common ways to supply the push (nesting force) that keeps the part on its points
+
+## Make it yourself
+
+- [Pocket Kinematic Coupling by BYU CMR (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1493826-pocket-kinematic-coupling): Pocket-sized modular kit from BYU's Compliant Mechanisms and Robotics group for building and testing exactly constrained couplings in seconds, inspired by a model in Alexander Slocum's lectures *(licence: CC BY-NC)*
+- [Anet A8 3 points bed levelling conversion by aRGiRob (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/110874-anet-a8-3-points-bed-levelling-conversion): Printable parts that convert a four-screw printer bed to three-point levelling (needs 2 M3x8 screws and 5 M3 nuts, no drilling) *(licence: CC BY)*
+- [Optical Kinematic Mount - Low profile 3-axis by Bryan (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/951573-optical-kinematic-mount-low-profile-3-axis): Printed PETG laser mount that pivots on a 7 mm steel ball and is adjusted by round-ended M3 screws in heat-set inserts pressing on small stainless plates, held by springs: a practical exactly constrained, adjustable mount *(licence: CC BY-NC-SA)*
+
+## Pictures, videos and models
+
+- [Locating & Clamping Principles for Jig & Fixture Design (Carr Lane Mfg.)](https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles): Figures of the 12 degrees of freedom, the 3-2-1 method step by step (three supports, then two side locators, then one end locator), locator spacing, redundant locators, foolproofing pins, spring-loaded locators and clamp placement *(licence: link only (copyright Carr Lane Manufacturing))*
+- [How to 3D Print In-House Jigs, Fixtures, and Other Manufacturing Aids (Formlabs white paper page)](https://formlabs.com/white-papers/how-to-3d-print-in-house-jigs-fixtures-and-other-manufacturing-aids/): Illustrated explanation of degrees of freedom, exact constraint, under- and over-constraint (three-legged stool versus four-legged chair) and 3D-printed corner locators *(licence: link only)*
+- [Make Parts Fit Right the First Time with Exact Constraint Analysis (MistyWest)](https://www.mistywest.com/posts/make-parts-fit-right-the-first-time-with-exact-constraint-analysis/): Blanding-style constraint-line diagrams in 2D, the V-block and flat, and an over-constrained sheet-metal panel redesigned to exactly three constraints *(licence: link only)*
+- [01_02_P1 The 3-2-1 Principle of Locating a Part in Fixtures and Jigs (Industrial Engineering and Manufacturing, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=fF8h2N7wxko): Video lesson on restricting a part's degrees of freedom with 3-2-1 locators *(licence: link only)*
+- [6DOF en.jpg (Wikimedia Commons, Horia Ionescu)](https://commons.wikimedia.org/wiki/File:6DOF_en.jpg): Diagram of the six degrees of freedom of a body: three slides and three rotations *(licence: Public domain)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 1 sentence on this page marked [uncertain].
+- ⚑ Finder value `connects` = wall, rail, desk or grid (best guess): worked out from its name, but joining parts is not one of its two main jobs
+
+## Sources
+
+- <https://www.carrlane.com/engineering-resources/fixture-design-principles/locating-clamping-principles>
+- <https://www.carrlane.com/engineering-resources/technical-information/manual-workholding/locating-devices/locating-pins>
+- <https://web.mit.edu/2.70/Reading%20Materials/Kinematic%20coupling%20review%20article.pdf (Slocum, A., 'Kinematic couplings: A review of design principles and applications', Int. J. Machine Tools and Manufacture 50(4), 2010; MIT open-access author's manuscript, CC BY-NC-SA 3.0)>
+- <https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004/3aa5862a1724b75c3e4aa7a6fee6c511_reading_l3.pdf (Hale, L. C., 'Principles and techniques for designing precision machines', PhD thesis, 1999, sections 2.6-2.7 and 6.1; MIT OpenCourseWare 2.76 reading, CC BY-NC-SA 4.0)>
+- <https://ocw.mit.edu/courses/2-76-multi-scale-system-design-fall-2004/resources/reading_l3/>
+- <https://formlabs.com/white-papers/how-to-3d-print-in-house-jigs-fixtures-and-other-manufacturing-aids/>
+- <https://www.mistywest.com/posts/make-parts-fit-right-the-first-time-with-exact-constraint-analysis/>
+- <https://drmrehorst.blogspot.com/2017/07/3-point-print-bed-leveling-vs-4-point.html>
+- <https://hackaday.com/2019/09/11/books-you-should-read-exact-constraint-machine-design-using-kinematic-principles/>
+- <https://www.asme.org/publications-submissions/books/find-book/exact-constraint-machine-design-using-kinematic-principles (Blanding, D. L., 'Exact Constraint: Machine Design Using Kinematic Principles', ASME Press, 1999; publisher page)>
+- <https://en.wikipedia.org/wiki/Datum_reference (read as raw wikitext)>
+- <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
+- <http://thrinter.com/creep-abs-pla-petg-alloy-910/>
+- <https://commons.wikimedia.org/wiki/File:6DOF_en.jpg>
+- <https://commons.wikimedia.org/wiki/File:Kelvin_Kinematic_Coupling.png>
+- <https://www.youtube.com/watch?v=fF8h2N7wxko (verified via YouTube oEmbed)>
+- <https://api.printables.com/graphql/ (Printables models 1493826, 110874 and 951573 read via the public API)>
