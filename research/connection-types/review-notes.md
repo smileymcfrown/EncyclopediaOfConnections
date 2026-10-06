@@ -241,16 +241,21 @@ Collected from the update agents' hand-back reports. Plan and per-entry list: `u
 
 ### Sources and links
 - *Capstan and windlass* (151) and *Lantern gear* (204) already have the maximum five `links`, so the Commons Spanish windlass photo (CC BY-SA 3.0) and the *507 Mechanical Movements* pages are only in `sources`; swap one in when publishing if preferred.
+- *Basic latches* (262) and *Basic strap and garment closures* (269) already have five `links`; the Commons hook-and-eye photo (CC BY-SA 3.0 / GFDL 1.2) is a candidate to swap in.
 
 ### Conflicting figures and content points
 - *Ball-and-socket joint* (65): the pyramid alignment adaptor's tilt differs by size: ±5° for Blatchford's child-size mini adaptor (938373) and ±7° for its full-size one (938050), both recorded. Its exact geometry ('an inverted four-sided pyramid' pressed by four set screws) is only in patents that couldn't be read, so the entry says 'a pyramid-shaped boss in a socket with four set screws'.
 - *Belt tensioner* (128): the mounting scope search also suggested tagging it with the adjusters family; the plan didn't, so it is left for the owner.
 - *Vacuum gripper* (109) and *Bernoulli gripper* (277): electroadhesion figures recorded side by side (Hackaday 2019: a sheet of paper held with 5 mN of shear at 3 kV; the open-source board's README, 100 × 100 mm at 1.4 kV: 9 N uncoated, 4 N with a PlastiDip coat, 2.5 N with Kapton). Not in the files: the README's 90 mN/cm² is far below Wikipedia's claimed 0.5-1.5 N/cm²; check before publishing.
 - *Dampers* (214): the maker uses of crush absorbers (drone and robot bumpers, egg-drop padding) are written as advice with no source found; check them. *Tendon-driven joint* (278): a cable-closed grip figure measured on people was left out on purpose. *Reciprocal frame* (298): **correction:** its *Tensegrity* related item said tensegrity was out of scope; that clause was removed now that *Tensegrity* is item 345. *Spline shaft* (190) was stored with a 1-space indent; it is now 2-space, so its diff is large, but only `everyday_examples` and `sources` changed.
+- *Woven self-tightening grip* (148): whoopie-sling bury lengths (Animated Knots: about 40× the rope diameter, 75× for Dyneema-type fibres, or 25× and 50× for polyester and nylon) sit beside the entry's long bury splice (about 72× for HMPE), labelled as a different splice. *Pulley system* (206): low-friction ring efficiency (Practical Sailor: 80-83% with Dyneema, 50-60% with polyester double braid, against 95-97% for ball-bearing blocks) recorded beside Petzl (50-98%) and CMC (about 50% for a carabiner).
+- *PVA wood glue* (223): Aleene's says fabric glues are acrylic-based, not PVA, so 'fabric glue' is an alias with that caveat. *Linear ratchet* (8): Wikipedia marks the 2% carbon-black figure for UV-resistant ties 'citation needed' (now noted); the haemostat-style printed clamps are worded neutrally because the Printables descriptions don't say they ratchet. Wikipedia *Cable tie*'s opening names a brand that looks like vandalism; not used. *Shock-corded sectional pole* (152) and *Ratchet tie-down strap* (153) link to *Wire-rope terminations* as weak fits, with reasons that say when they apply.
+- **Corrections:** *Capstan cable drive* (101), *Shock-corded sectional pole* (152) and *Ratchet tie-down strap* (153) had '(URL from Printables API, page not opened)' inside a link's `url`; it is now in the link's `title`. In *Guy-line slider* (154) and *Spring-gate hook* (156), two related items that each named part of one new entry were merged under its name, keeping all their text.
 
 ### Blocked or unreadable (nothing cited from them)
 - Google Patents (503) and Justia (403) for prosthetic pyramid-adaptor patents; USPTO PDFs of the same patents downloaded but are scanned images with no text.
 - hackster.io (Cloudflare 403 to curl and WebFetch; replaced by the designer's GitHub README, Hackaday 2019 and NC State's release), the Wayback availability API (429).
+- hammockgear.com (403), prym.com (404), wawak.com (403; a retailer page was used for Fray Check), the Commons API (429 at times; licences read from file pages).
 
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,

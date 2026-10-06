@@ -49,6 +49,7 @@ items:
   - name: Linear ratchet (cable-tie ratchet)
     category: one-way & ratchet
     description: A toothed strip and a catch that let it slide one way only, as in a cable tie or the ladder strap on a snowboard binding (ratchet tie-down straps use a rotary ratchet, and most quick-grip clamps use a binding plate instead)
+    notes: Also covers cable ties as a fastener (tie mounts, coated stainless ties, a tie behind a hose barb) and the handle ratchet of locking forceps, as printed hobby clamps (never for use on people).
   # 9
   - name: Face ratchet (star ratchet, face-engagement ratchet)
     category: one-way & ratchet
@@ -520,10 +521,12 @@ items:
   - name: Cam cleat
     category: cord, strap, webbing & textile hardware
     description: Two spring-loaded toothed cams that let a rope pull through one way and grip it the other way; lift the rope up and out to release
+    notes: Also covers the plain horn cleat and its cleat hitch as the basic version.
   # 122
   - name: Clam cleat (grooved V-cleat)
     category: cord, strap, webbing & textile hardware
     description: A block with ridged V-shaped grooves that jams a rope pulled into it and releases when the rope is lifted out; no moving parts
+    notes: Also covers the plain horn cleat and its cleat hitch as the basic version.
   # 123
   - name: Cam buckle (webbing cam buckle)
     category: cord, strap, webbing & textile hardware
@@ -541,6 +544,7 @@ items:
   - name: Cord lock (spring toggle)
     category: cord, strap, webbing & textile hardware
     description: A spring-loaded plunger in a small barrel that grips a cord passing through it; squeeze to slide and adjust
+    notes: Also covers the drawstring itself, threaded through a hem or casing or laced through holes.
   # 127
   - name: Magnetic-assisted buckle (magnet guides, catch locks)
     category: cord, strap, webbing & textile hardware
@@ -631,6 +635,7 @@ items:
   - name: Woven self-tightening grip (finger-trap grip)
     category: self-locking & anti-back-drive
     description: A braided tube that gets narrower and grips harder the more it is pulled, like a Chinese finger trap or a cable-pulling sock
+    notes: Also covers the whoopie sling (an adjustable spliced sling using the finger-trap grip).
   # 149
   - name: Rope grab and ascender (cam rope clamp)
     category: cord, strap, webbing & textile hardware
@@ -869,6 +874,7 @@ items:
   - name: Pulley system (block and tackle, differential hoist)
     category: gear trains, gearboxes & transmissions
     description: Ropes running over several pulleys so a small pull lifts a big load; a differential chain hoist also holds the load by itself
+    notes: Also covers low-friction rings as a pulley with no moving parts.
   # 207
   - name: Electromagnetic clutch
     category: powered & active connectors
@@ -940,6 +946,7 @@ items:
   - name: PVA wood glue (white and yellow glue)
     category: adhesives & bonding
     description: A water-based glue that dries by soaking into porous materials like wood, paper and cork; strong on wood, with water-resistant grades
+    notes: Also covers fabric and tacky glues (many are acrylic, not PVA) and anti-fray seam sealant.
   # 224
   - name: Contact adhesive (contact cement)
     category: adhesives & bonding
@@ -1115,6 +1122,7 @@ items:
   - name: Basic latches (spring latch, slide bolt, hook and eye)
     category: locks, latches & catches
     description: The everyday door latch with a sloped spring bolt, a sliding bolt, and a hook in an eye; the latch baseline
+    notes: Also covers the sewn garment hook and eye.
   # 263
   - name: Knuckle hinge (butt hinge)
     category: hinges & pivots
@@ -1145,6 +1153,7 @@ items:
   - name: Basic strap and garment closures (prong buckle, button, toggle and loop)
     category: cord, strap, webbing & textile hardware
     description: The everyday belt buckle with a prong, buttons and toggles in loops; the strap and textile baseline
+    notes: Also covers sewn garment hooks and eyes and sew-on snaps.
   # 270
   - name: Glued joint design (butt, lap and scarf joints; peel vs shear)
     category: adhesives & bonding
