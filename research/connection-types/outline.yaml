@@ -565,6 +565,7 @@ items:
   - name: Gasket (flat, cord-in-groove or cast-in-place)
     category: seals & pass-throughs
     description: A soft layer or cord squeezed between a lid and a housing to seal an opening that isn't round, often pressed into a groove by a ridge on the lid
+    notes: 'Also covers sealing washers: the bonded seal (Dowty washer), crush washers and tap washers.'
   # 132
   - name: Labyrinth seal (baffle seal)
     category: seals & pass-throughs
@@ -573,6 +574,7 @@ items:
   - name: Hose barb (barbed tube fitting)
     category: seals & pass-throughs
     description: A spigot with sharp ridges that soft tubing is pushed over and gripped by; for low pressure, with a clip added for more hold
+    notes: Also covers PEX crimp and clamp-ring fittings and PEX plugs.
   # 134
   - name: Cable gland and strain relief
     category: seals & pass-throughs
@@ -594,10 +596,12 @@ items:
   - name: Two-part epoxy
     category: adhesives & bonding
     description: A resin and hardener mixed together that set into a strong, gap-filling solid; slow or fast types, for metal, wood, most plastics and composites
+    notes: Also covers J-B Weld (brand), the epoxy makers often suggest instead of welding.
   # 139
   - name: Solvent welding (solvent cement)
     category: adhesives & bonding
     description: A solvent that softens the surfaces of certain plastics so they fuse together as it evaporates, like acetone on ABS or cement on acrylic and PVC
+    notes: Also covers why PE and PP pipe is heat-fused instead.
   # 140
   - name: UV-curing adhesive (incl. resin used as glue)
     category: adhesives & bonding
@@ -606,6 +610,7 @@ items:
   - name: Hot-melt adhesive (glue gun)
     category: adhesives & bonding
     description: A plastic stick melted in a glue gun that sticks as it cools; quick and gap-filling but weak and softens with heat
+    notes: Also covers PLA glue sticks in a high-temperature glue gun, and a dab of hot glue to stop screw-terminal wires working loose.
   # 142
   - name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
     category: adhesives & bonding
@@ -710,6 +715,7 @@ items:
   - name: Quick couplers for tubes and hoses (push-to-connect, sleeve lock)
     category: quick-release & tool-free
     description: Fittings that grip a tube when it is pushed in and release when a collar is pressed or a sleeve is pulled back
+    notes: Also covers cam-and-groove (camlock) couplings, plastic thumb-latch lab couplings, and push-fit plumbing reuse and square-cut rules.
   # 167
   - name: DIN-rail clip (top-hat rail snap mount)
     category: quick-release & tool-free
@@ -726,6 +732,7 @@ items:
   - name: Band flange clamp (V-band clamp, tri-clamp)
     category: quick-release & tool-free
     description: A hinged band with a V-shaped groove that wedges two flanged ends together as it is tightened, for quick-disconnect pipes, ducts and brewing kit
+    notes: Also covers the grooved pipe coupling (rolled grooves, a gasket and a bolted housing).
   # 171
   - name: Temporary sheet fastener (Cleco-type spring pin)
     category: quick-release & tool-free
@@ -891,6 +898,7 @@ items:
   - name: Compression fitting (ferrule fitting)
     category: seals & pass-throughs
     description: A nut that squeezes a ring (ferrule or olive) onto a tube to grip and seal it, undone and remade with spanners
+    notes: Also covers sink-trap slip joints, press (crimp) fittings, and the rules that compression joints must stay reachable and aren't for brake-pipe repairs.
   # 211
   - name: Friction brake (band, drum or disc brake)
     category: brakes, dampers & speed control
