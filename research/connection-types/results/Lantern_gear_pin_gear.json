@@ -17,7 +17,7 @@
     ],
     "one_liner": "A pinion whose 'teeth' are round pins set between two discs, driven by a wheel with specially shaped (cycloidal) teeth; it is easy to make by drilling holes and pushing in dowels or steel pins, and was used for centuries in mills and clocks.",
     "complexity": "A few parts: the lantern (two discs, a ring of pins or dowels between them, and a shaft or hub), and a mating wheel with teeth shaped for that exact number of pins (or a flat rack with such teeth). Optional: bushings or small bearings over the pins so they roll instead of slide",
-    "how_it_works": "The pins sit on the lantern's pitch circle, and each tooth of the mating wheel pushes one pin at a time round, like a finger pushing the bars of a turning birdcage (Wikipedia 'Gear'). The wheel's tooth shape is the path the centre of a pin traces as the two pitch circles roll on each other (an epicycloid), moved inwards by the pin's radius, which gives smooth, steady motion (tec-science; Chief Delphi tutorial). Speed changes by the ratio of teeth to pins, as with any gear. Because each pin is held at both ends, even a lantern with very few pins is strong, and dirt can fall through between the pins instead of packing into tooth roots (Wikipedia; Chief Delphi)."
+    "how_it_works": "The pins sit on the lantern's pitch circle, and each tooth of the mating wheel pushes one pin at a time round, like a finger pushing the bars of a turning birdcage (Wikipedia 'Gear'). The wheel's tooth shape is the path the centre of a pin traces as the two pitch circles roll on each other (an epicycloid), moved inwards by the pin's radius, which gives smooth, steady motion (tec-science; Chief Delphi tutorial). Speed changes by the ratio of teeth to pins, as with any gear. Because each pin is held at both ends, even a lantern with very few pins is strong, and dirt can fall through between the pins instead of packing into tooth roots (Wikipedia; Chief Delphi). The mangle wheel is the round cousin of the mangle rack: it 'converts continuous rotary motion of pinion into reciprocating rotary motion of wheel' (507 Mechanical Movements no. 36). In no. 194 the wheel carries a single ring of pins and a toothed pinion runs round the inside of the ring and then the outside, its shaft guided 'by a groove in the wheel' and fitted with a universal joint so it can swing, so the 'speed is equal in both directions'; in no. 192 the teeth and groove are set off-centre, so the 'speed varies in every part of a revolution' (507 Mechanical Movements nos. 192 and 194)."
   },
   "finder_attributes": {
     "job": [
@@ -34,7 +34,7 @@
       "not a holding joint (it moves or passes on motion): it transmits rotation",
       "shape (the parts interlock; form-fit): the wheel's teeth push the pins"
     ],
-    "input_output": "Continuous rotation -> continuous rotation (or rotation -> straight-line motion with a rack). Ratio = number of teeth on the wheel / number of pins on the lantern. Shafts: parallel with a spur-type wheel; at right angles when a wheel with teeth on its face or rim drives the lantern, as with a mill's pit wheel driving the wallower on the upright shaft (Wikipedia 'Glossary of mill machinery'; Pede's Mill). Efficiency: [uncertain] Wikipedia claims cage gears are more efficient than solid pinions but gives no source; pins that turn on bearings give rolling instead of sliding contact (osamutake), and an industrial rack-and-roller-pinion system is claimed at over 99% (Nexen, via Linear Motion Tips; vendor claim). Contact ratio is fairly low, because the pins mesh mostly on one side of the pitch point (tec-science). Back-drivable: yes, though clock tradition says the lantern should be the driven part, not the driver (Wikipedia 'Gear'; Malcolm Wild via Model Engineer forum); other clockmakers call this rule 'likely a myth'.",
+    "input_output": "Continuous rotation -> continuous rotation (or rotation -> straight-line motion with a rack). Ratio = number of teeth on the wheel / number of pins on the lantern. Shafts: parallel with a spur-type wheel; at right angles when a wheel with teeth on its face or rim drives the lantern, as with a mill's pit wheel driving the wallower on the upright shaft (Wikipedia 'Glossary of mill machinery'; Pede's Mill). Efficiency: [uncertain] Wikipedia claims cage gears are more efficient than solid pinions but gives no source; pins that turn on bearings give rolling instead of sliding contact (osamutake), and an industrial rack-and-roller-pinion system is claimed at over 99% (Nexen, via Linear Motion Tips; vendor claim). Contact ratio is fairly low, because the pins mesh mostly on one side of the pitch point (tec-science). Back-drivable: yes, though clock tradition says the lantern should be the driven part, not the driver (Wikipedia 'Gear'; Malcolm Wild via Model Engineer forum); other clockmakers call this rule 'likely a myth'. Mangle wheel: continuous rotation of the pinion -> back-and-forth rotation of the wheel (507 Mechanical Movements nos. 36, 192 and 194).",
     "power": "passive (no power needed); it only passes on the power put into it. If the drive stops, nothing holds the output",
     "removability": "removable: the lantern and wheel slide off their shafts; pins can be knocked out and replaced one at a time",
     "reuse_cycles": "many times: the gears can be taken apart and refitted repeatedly, and worn pins (or worn wooden cogs on the mating wheel) can be replaced individually (Pede's Mill; NAWCC forum)",
@@ -89,9 +89,10 @@
       "Rack and pinion: a lantern pinion can run on a rack, or a toothed pinion on a pin rack (Chief Delphi; tec-science)",
       "Cycloidal drive: its fixed ring of pins or rollers works like an internal lantern gear",
       "Peg wheels (cog-and-rung gearing): pegs meshing with pegs or rungs; the oldest form of gear, tolerant but high-friction (NAWCC forum)",
-      "Geneva drive and intermittent gears: also use pins, but to give stop-and-go motion",
+      "Geneva drive: also uses pins, but to give stop-and-go motion",
       "Pin-wheel and slotted pinion (507 Mechanical Movements no. 208): pins on the face of a wheel drive a slotted pinion, giving three speeds by sliding the pinion between three circles of pins",
-      "Roller pinion (e.g. Nexen RPS, brand): an industrial lantern pinion with rollers on bearings running on a special rack, with zero backlash (Linear Motion Tips)"
+      "Roller pinion (e.g. Nexen RPS, brand): an industrial lantern pinion with rollers on bearings running on a special rack, with zero backlash (Linear Motion Tips)",
+      "Intermittent gear: a part-toothed gear whose driven gear moves in steps with pauses; the mangle wheel and mangle rack (covered here) instead turn steady rotation into back-and-forth motion"
     ]
   },
   "media": {
@@ -179,7 +180,10 @@
       "https://api.printables.com/graphql/",
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://help.prusa3d.com/article/pla_2062",
-      "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions"
+      "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions",
+      "https://507movements.com/mm_036.html",
+      "https://507movements.com/mm_192.html",
+      "https://507movements.com/mm_194.html"
     ]
   },
   "uncertain": [

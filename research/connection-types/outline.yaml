@@ -152,6 +152,7 @@ items:
   - name: Detent hinge (click hinge, position hinge)
     category: indexing & detents
     description: A hinge that clicks and holds at set angles, like a laptop stand or folding table leg
+    notes: Also covers drop-ring, bail and dial locks borrowed from orthotic knee joints as hinge-lock ideas, described for maker use only.
   # 34
   - name: Hirth joint (face-spline coupling)
     category: indexing & detents
@@ -291,6 +292,7 @@ items:
   - name: Posable segmented arm (snap-together ball chain, gooseneck)
     category: hinges & pivots
     description: A chain of small ball-and-socket segments that snap together and hold any shape by friction, like a coolant hose or a flexible phone holder
+    notes: Also covers the magnetic dial-indicator stand, whose single knob locks all its joints.
   # 67
   - name: Clevis joint (fork-and-pin joint, prong mount)
     category: hinges & pivots
@@ -376,7 +378,7 @@ items:
   - name: Four-bar linkage (incl. parallelogram linkage)
     category: motion conversion
     description: Four bars joined in a loop by pivots, which turns one motion into another shaped motion; the basic building block of most linkages
-    notes: Also covers the pantograph (a parallelogram linkage that copies motion at a larger or smaller scale)
+    notes: Also covers the pantograph (a parallelogram linkage that copies motion at a larger or smaller scale). Also covers lost motion (deliberate free play before the driven part is picked up).
   # 88
   - name: Rack and pinion
     category: motion conversion
@@ -466,10 +468,12 @@ items:
   - name: Vacuum (suction) gripper
     category: powered & active connectors
     description: A soft cup connected to a vacuum pump or generator that grips smooth objects by suction and lets go when the vacuum is released
+    notes: Also covers electroadhesion as an alternative, with a high-voltage safety note.
   # 110
   - name: Granular jamming gripper (coffee-balloon gripper)
     category: powered & active connectors
     description: A soft bag of coffee grounds or grains that moulds around an object, then goes rigid and grips it when the air is sucked out
+    notes: Also covers layer jamming (a stack of paper or film stiffened by vacuum).
   # 111
   - name: Magnet joint (embedded magnets, magnetic catch)
     category: clamping, magnetic & friction connections
@@ -639,6 +643,7 @@ items:
   - name: Capstan and windlass (incl. differential windlass)
     category: tensioning, reels & take-up
     description: A drum turned by a crank that winds in rope with a big force; rope wrapped round a drum also holds a large load with a small pull
+    notes: Also covers the Spanish windlass (a rope loop twisted with a stick to pull two points together), for non-medical use only.
   # 152
   - name: Shock-corded sectional pole
     category: tensioning, reels & take-up
@@ -748,6 +753,7 @@ items:
   - name: Origami mechanisms (waterbomb, Kresling, thick-panel origami)
     category: compliant mechanisms & flexures
     description: Fold patterns used as joints so flat sheets or panels fold up, expand or twist in a planned way
+    notes: Also covers kirigami (a slit sheet that pops into 3D when stretched, and kirigami grippers).
   # 179
   - name: Press-fit and expanding inserts (tap-in insert)
     category: print-in-place & 3D-printing joints
@@ -796,7 +802,7 @@ items:
   - name: Spline shaft (sliding spline)
     category: clutches & couplings
     description: A shaft with lengthwise ridges fitting a matching hub, passing turning force while letting the hub slide along the shaft
-    notes: Also covers hex shafts and LEGO-style cross axles
+    notes: Also covers hex shafts and LEGO-style cross axles. Also covers the Bendix starter drive as the helical-spline example.
   # 191
   - name: Constant-velocity joint (CV joint)
     category: clutches & couplings
@@ -854,6 +860,7 @@ items:
   - name: Lantern gear (pin gear)
     category: gear trains, gearboxes & transmissions
     description: A gear made of pins between two discs, easy to make from dowels or laser-cut sheet, used in mills and simple machines
+    notes: Also covers the mangle wheel (steady turning into back-and-forth turning).
   # 205
   - name: Friction drives and CVTs (friction wheel, variator)
     category: gear trains, gearboxes & transmissions
@@ -894,6 +901,7 @@ items:
   - name: Dampers (rotary and linear soft-close dampers)
     category: brakes, dampers & speed control
     description: Parts filled with oil or air that slow a movement down, so lids, drawers and doors close gently instead of slamming
+    notes: Also covers one-shot crush absorbers (crushable foam, honeycomb and crumple zones) that must be replaced after one hit.
   # 215
   - name: Elastomer isolation mount (rubber bobbin mount, isolator grommet)
     category: brakes, dampers & speed control
@@ -1176,12 +1184,12 @@ items:
   - name: Bernoulli gripper (non-contact air gripper)
     category: powered & active connectors
     description: A pad that blows a thin, fast stream of air outwards so the low pressure draws a flat part close and holds it on a cushion of air, for thin wafers, glass, film or fabric
-    notes: Unlike the Vacuum (suction) gripper it has no seal and barely touches the part. Also list hydraulics, pneumatics & vacuum in other_families
+    notes: Unlike the Vacuum (suction) gripper it has no seal and barely touches the part. Also covers electroadhesion as an alternative, with a high-voltage safety note. Also list hydraulics, pneumatics & vacuum in other_families
   # 278
   - name: Tendon-driven joint (cable-pulled finger or tentacle)
     category: motion conversion
     description: A string pulled from a distance bends a chain of hinged or flexible segments, as in printed robot hands and tentacles, with elastic cord or a second string pulling them back
-    notes: Different from the Bowden cable (only the sleeve) and the Posable segmented arm (not driven)
+    notes: Different from the Bowden cable (only the sleeve) and the Posable segmented arm (not driven). Also covers spring-closed (voluntary-opening) versus cable-closed (voluntary-closing) grippers, described for maker use only.
   # 279
   - name: Walking linkage (Jansen and Klann leg mechanisms)
     category: motion conversion
@@ -1212,7 +1220,7 @@ items:
   - name: Multi-turn rotation limiter (travelling-nut and stacked-ring stops)
     category: hinges & pivots
     description: A hard stop that lets a shaft turn more than one full turn and then halts it, for example so a robot turret can't wind its cables off
-    notes: Also covers stop work on clock mainsprings; the Geneva stop is covered under Geneva drive
+    notes: Also covers stop work on clock mainsprings; the Geneva stop is covered under Geneva drive. Also covers lost motion, the principle behind its stacked-ring stops.
   # 286
   - name: Genderless connector (hermaphroditic coupling)
     category: quick-release & tool-free
@@ -1283,7 +1291,7 @@ items:
   - name: Syringe hydraulics (hydraulic lever, Pascal's principle)
     category: hydraulics, pneumatics & vacuum
     description: Two syringes or cylinders joined by a water-filled tube, so pushing one plunger pushes the other; a small one driving a big one trades distance for force, as in school hydraulic arms, car jacks and bike brakes
-    notes: Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also list gear trains, gearboxes & transmissions in other_families
+    notes: Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also covers hydraulic motion reduction for fine positioning (the micromanipulator principle). Also list gear trains, gearboxes & transmissions in other_families
   # 301
   - name: Air or hydraulic cylinder (pneumatic cylinder, hydraulic ram)
     category: hydraulics, pneumatics & vacuum

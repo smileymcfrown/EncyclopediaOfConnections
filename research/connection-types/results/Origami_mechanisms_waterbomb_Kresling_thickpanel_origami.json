@@ -102,8 +102,10 @@
       "Iris mechanism: another way to open and close an aperture by twisting",
       "Bistable compliant mechanism (snap-through): a flexure designed to have two stable positions, like a bistable Kresling tube",
       "Print-in-place hinge: separate pin hinges for thick printed panels",
-      "Mechanical metamaterial mechanism (shear-cell hinge arrays): grids of printed cells that bend in planned ways",
-      "Kirigami: origami with cuts added, used for stretchable and pop-up sheets [uncertain]"
+      "Mechanical metamaterial mechanism: grids of printed cells (shear-cell hinge arrays) that bend in planned ways",
+      "Kirigami: cuts instead of folds; a thin perforated sheet 'can be transformed into a foldable 3D structure by simply stretching the cut material' (Harvard SEAS 2017), and a sheet cut with parallel slits curves into a 3D shape that can surround a fragile object such as an egg yolk and lift it, 'similar to the way we cup our hands around an object' (NC State 2022)",
+      "Kerf bending: a pattern of laser cuts that lets stiff plywood or acrylic bend round curves or fold like a hinge, using cuts where origami uses creases",
+      "Printing onto fabric: the same pause-and-lay-in-mesh method used here for hinges, used on its own to fix cloth to a print or make flexible scale armour"
     ]
   },
   "media": {
@@ -188,7 +190,9 @@
       "https://commons.wikimedia.org/wiki/File:Miura-ori.gif",
       "https://www.youtube.com/watch?v=FNVBK7-h9Fs",
       "https://www.youtube.com/watch?v=9Kdw_rEk18w",
-      "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament"
+      "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
+      "https://seas.harvard.edu/news/new-pop-strategy-inspired-cuts-not-folds",
+      "https://news.ncsu.edu/2022/01/kirigami-robotic-grippers/"
     ]
   },
   "uncertain": [
@@ -202,7 +206,6 @@
     "off_the_shelf_parts",
     "everyday_examples",
     "environment_limits",
-    "safety_notes",
-    "related"
+    "safety_notes"
   ]
 }

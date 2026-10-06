@@ -14,11 +14,12 @@
     "family": "powered & active connectors",
     "other_families": [
       "clamping, magnetic & friction connections",
-      "hydraulics, pneumatics & vacuum"
+      "hydraulics, pneumatics & vacuum",
+      "compliant mechanisms & flexures"
     ],
     "one_liner": "A soft rubber bag filled with grains such as ground coffee that flows around an object when pressed onto it, then locks rigid and grips it when a pump sucks the air out, and softens and lets go when air is let back in.",
     "complexity": "A small assembly that acts as one unit: a stretchy airtight bag (often a latex party balloon), loose grains inside it (ground coffee is the usual choice), a filter so grains aren't sucked out, a rigid base or funnel with a hose connection, and a vacuum source (pump, venturi or even a large syringe) with a valve; better versions add a rigid collar round the bag and a compressed-air port to reset it (Brown et al. 2010; Amend et al. 2012: 12 components including five screws).",
-    "how_it_works": "Loose grains in a bag behave almost like a liquid, so when the soft bag is pressed onto an object it flows around it and takes its shape. When the air is pumped out, the outside air pressure squeezes the bag and the grains lock against each other (a 'jamming transition'), so the bag goes solid; a volume change of under 0.5 % is enough (Brown et al. 2010). The hardened bag then holds the object in three ways: friction from the bag pinching around it, suction where the rubber seals onto a smooth surface, and interlocking where it has wrapped around bumps or more than half-way round the object (Brown et al. 2010). Letting air back in unjams the grains so the bag softens and lets go, and a short puff of compressed air resets it faster, or even shoots the object away (Amend et al. 2012; Make:)."
+    "how_it_works": "Loose grains in a bag behave almost like a liquid, so when the soft bag is pressed onto an object it flows around it and takes its shape. When the air is pumped out, the outside air pressure squeezes the bag and the grains lock against each other (a 'jamming transition'), so the bag goes solid; a volume change of under 0.5 % is enough (Brown et al. 2010). The hardened bag then holds the object in three ways: friction from the bag pinching around it, suction where the rubber seals onto a smooth surface, and interlocking where it has wrapped around bumps or more than half-way round the object (Brown et al. 2010). Letting air back in unjams the grains so the bag softens and lets go, and a short puff of compressed air resets it faster, or even shoots the object away (Amend et al. 2012; Make:). A flat cousin, layer jamming, uses a stack of thin sheets instead of grains: 'a stack of paper inside an airtight plastic envelope' bends easily, but under vacuum the outside air presses the layers together and the friction 'couples the layers into a coherent beam with a far greater bending stiffness', so a bendy strip or flexure hinge can be locked stiff on demand (Aktaş and Howe 2019)."
   },
   "finder_attributes": {
     "job": [
@@ -67,7 +68,9 @@
       "Size limit: without a positive-pressure reset, success falls off sharply once the object's radius reaches about 65 % of the gripper's radius (Amend et al. 2012); hemispheres larger than about half the gripper and thin disks lying flat couldn't be picked up (Brown et al. 2010)",
       "Smooth, airtight object surfaces are held about 10 times harder than porous or powdered ones, because the rubber seals and adds suction (Brown et al. 2010, Fig. 2)",
       "Reset between grips: without kneading the bag back to an even shape or blowing air in, the grip on the next object gets worse quickly; a 0.1 s burst of compressed air resets it and improved reliability by up to 85 % and position-error tolerance by up to 25 % (Amend et al. 2012)",
-      "Grain choice: finer grains conform better, but very fine powders stick and flow poorly, and pumping time rises because air flow through the grains scales with grain diameter squared (Brown et al. 2010); coffee is light but jams well, while sand jams better but is too heavy (Cornell Chronicle 2010). Grain shape and size strongly affect grip and there is no single best shape (Howard et al. 2021)"
+      "Grain choice: finer grains conform better, but very fine powders stick and flow poorly, and pumping time rises because air flow through the grains scales with grain diameter squared (Brown et al. 2010); coffee is light but jams well, while sand jams better but is too heavy (Cornell Chronicle 2010). Grain shape and size strongly affect grip and there is no single best shape (Howard et al. 2021)",
+      "Layer jamming: two stacks of 50 strips of 0.1 mm printer paper in a stretchy plastic (TPE) envelope gave a 63-fold change in stiffness between vented and under vacuum (Aktaş and Howe, IROS 2019); stiffness rises with the vacuum and with the number of sheets (Mitsuda and Tanaka 2023).",
+      "A layer-jamming stack bends like a notebook, in one direction only: paper and other non-stretchy sheets wrinkle if forced over a curved (dome-shaped) surface, stretchy rubber sheets fit but give a lower stiffness, and woven fabric (mesh) sheets fit curved surfaces without wrinkling because they can stretch diagonally (Mitsuda and Tanaka 2023, preprint)."
     ]
   },
   "guidance": {
@@ -76,7 +79,7 @@
       "A bean bag, which moulds to whatever presses on it (the gripper is often called a 'bean bag' gripper) (Hackaday)",
       "Factory robot grippers sold as VERSABALL (brand) (New Atlas)"
     ],
-    "when_to_use": "Use it when a robot must pick up many different, unfamiliar or oddly shaped rigid objects without sensors, grasp planning or precise positioning; for fragile things such as raw eggs; to pick up several objects at once while keeping their spacing; or when you want a cheap, soft, easily built gripper for a hobby robot arm (Brown et al. 2010; Amend et al. 2012). Its sealed construction also suits wet or messy work and is easy to clean (Amend et al. 2012).",
+    "when_to_use": "Use it when a robot must pick up many different, unfamiliar or oddly shaped rigid objects without sensors, grasp planning or precise positioning; for fragile things such as raw eggs; to pick up several objects at once while keeping their spacing; or when you want a cheap, soft, easily built gripper for a hobby robot arm (Brown et al. 2010; Amend et al. 2012). Its sealed construction also suits wet or messy work and is easy to clean (Amend et al. 2012). For a flat strip, hinge or pad that must switch between floppy and stiff, use layer jamming (a stack of paper or film in a vacuum envelope) instead of grains (Aktaş and Howe 2019).",
     "when_not_to_use": "Avoid it for thin flat objects lying flat, very soft objects such as cotton balls, and objects too big for the bag to wrap round (Brown et al. 2010); for small or thin parts such as screws, nuts or micro SD cards, which a simple gripper may fail to grip (Schertz); and for heavier smooth objects with no edges to grip (Hackaday, James Bruton's build). Use a vacuum gripper for flat smooth parts, mechanical jaws for precise placement or heavy loads, and fin-ray fingers when you need a soft grip without a pump. It is also slower than a suction cup, taking about a second to jam (Amend et al. 2012).",
     "environment_limits": "Jamming itself doesn't depend on temperature, so the bag material sets the limits (Amend et al. 2012): a natural-rubber (latex) bag is rated roughly -25 to +80 °C long-term and has poor ozone and oil resistance, while silicone rubber manages roughly -30 to +180 °C (Schmalz material overview, for rubber suction cups). The airtight bag suits wet or dirty environments (Amend et al. 2012). Latex ages and can split with use and sunlight [uncertain]; damp coffee grounds may clump or go mouldy, so keep the fill dry [uncertain].",
     "safety_notes": "Latex balloons can trigger allergic reactions in people with latex allergy (Wikipedia 'Latex allergy'); use a silicone skin instead. A positive-pressure blast can shoot objects across the room (Make:), about 0.6 m in tests (Amend et al. 2012), so aim it safely. Treat compressed-air lines with care. Otherwise it is gentle: its soft state between grips may make it safer near people than hard grippers (Amend et al. 2012).",
@@ -172,7 +175,9 @@
       "https://media.schmalz.com/MAM_Library/Dokumente/Auswahlhilfen/VA/272fbdc64cc1_Document_Selection_Guidelines_Material_Suction_Cup_EN_2025.pdf",
       "https://help.prusa3d.com/article/watertight-prints_112324",
       "https://www.youtube.com/watch?v=ZKOI_lVDPpw",
-      "https://www.youtube.com/watch?v=0d4f8fEysf8"
+      "https://www.youtube.com/watch?v=0d4f8fEysf8",
+      "https://par.nsf.gov//servlets/purl/10126137",
+      "https://br.ci.ritsumei.ac.jp/AdvEngMatr2023preprint.pdf"
     ]
   },
   "uncertain": [

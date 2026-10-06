@@ -240,13 +240,17 @@ returned 429 (rate limit) for part of the run; agents retried. McMaster-Carr, B�
 Collected from the update agents' hand-back reports. Plan and per-entry list: `update-pass-2026-10-06.md`.
 
 ### Sources and links
+- *Capstan and windlass* (151) and *Lantern gear* (204) already have the maximum five `links`, so the Commons Spanish windlass photo (CC BY-SA 3.0) and the *507 Mechanical Movements* pages are only in `sources`; swap one in when publishing if preferred.
 
 ### Conflicting figures and content points
 - *Ball-and-socket joint* (65): the pyramid alignment adaptor's tilt differs by size: ±5° for Blatchford's child-size mini adaptor (938373) and ±7° for its full-size one (938050), both recorded. Its exact geometry ('an inverted four-sided pyramid' pressed by four set screws) is only in patents that couldn't be read, so the entry says 'a pyramid-shaped boss in a socket with four set screws'.
 - *Belt tensioner* (128): the mounting scope search also suggested tagging it with the adjusters family; the plan didn't, so it is left for the owner.
+- *Vacuum gripper* (109) and *Bernoulli gripper* (277): electroadhesion figures recorded side by side (Hackaday 2019: a sheet of paper held with 5 mN of shear at 3 kV; the open-source board's README, 100 × 100 mm at 1.4 kV: 9 N uncoated, 4 N with a PlastiDip coat, 2.5 N with Kapton). Not in the files: the README's 90 mN/cm² is far below Wikipedia's claimed 0.5-1.5 N/cm²; check before publishing.
+- *Dampers* (214): the maker uses of crush absorbers (drone and robot bumpers, egg-drop padding) are written as advice with no source found; check them. *Tendon-driven joint* (278): a cable-closed grip figure measured on people was left out on purpose. *Reciprocal frame* (298): **correction:** its *Tensegrity* related item said tensegrity was out of scope; that clause was removed now that *Tensegrity* is item 345. *Spline shaft* (190) was stored with a 1-space indent; it is now 2-space, so its diff is large, but only `everyday_examples` and `sources` changed.
 
 ### Blocked or unreadable (nothing cited from them)
 - Google Patents (503) and Justia (403) for prosthetic pyramid-adaptor patents; USPTO PDFs of the same patents downloaded but are scanned images with no text.
+- hackster.io (Cloudflare 403 to curl and WebFetch; replaced by the designer's GitHub README, Hackaday 2019 and NC State's release), the Wayback availability API (429).
 
 ## Extra items suggested by agents (added 2026-09-29 as items 275-277)
 - **Iris valve (twisted fabric-sleeve valve)**: currently a variant inside *Iris mechanism*,
