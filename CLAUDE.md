@@ -11,5 +11,10 @@ move and adjust parts, for hobbyist makers. It includes a guided flow chart for 
 - Research uses the copied-in deep-research skills (`/research`, `/research-deep`,
   `/research-add-items`, `/research-add-fields`, `/research-report`). See
   `.claude/skills/research/VENDORED.md`. Field definitions are in `research/fields/`.
+- The entry pages (`content/entries/`), glossary page and finder data (`content/finder/`) are
+  generated: change the research JSON, `research/finder-tags/tags.yaml`, `content/glossary.yaml` or
+  `research/finder-test/`, then run `python3 tools/make_entries.py`, `python3 tools/check_entries.py`
+  and `python3 tools/export_finder.py`. The site is in `site/` (`npm run build`); see `site/README.md`.
+- Anything not yet confirmed stays visible and is marked ⚑ "needs confirming" (`research/needs-confirming.md`).
 - Writing style for all content: plain English first, with the proper engineering term in
   brackets. Cite sources, and never invent URLs.
