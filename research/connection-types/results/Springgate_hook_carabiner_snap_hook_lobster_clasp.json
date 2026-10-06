@@ -87,8 +87,7 @@
     "common_failures": "Gate sticks or doesn't close fully: dirt, grit or a tired spring; clean, oil the hinge and check it snaps shut (DMM). Twist-lock sleeve jammed after being tightened under load (Wikipedia). Accidental opening: a rope or edge pushes the gate (roll-out; OSHA), gate flutter or shutter (WeighMyRack), or a sleeve left unlocked; use lockers or orient the gate away from rock and edges. Breaks below its rating: cross-loaded, off-axis or nose-hooked (Black Diamond QC Lab). Worn grooves and sharp edges that damage rope (DMM). Cheap zinc or plastic snaps bend or break under loads they were never rated for (Wikipedia 'Bolt snap'). Printed clips: gate cracks at its flex point if printed too hot or in brittle material, or the body splits along layers if printed standing up (n.leinad; Doormat_1).",
     "related": [
       "Quick-release hooks (pelican hook, snap shackle, three-ring release): can be opened while the load is still pulling, which a spring-gate hook cannot",
-      "Quick link (maillon): a screw-closed link that is stronger across its gate but slower to open (listed under 'See also' in Wikipedia's 'Carabiner')",
-      "D-shackle and pin shackle: bolt-closed and stronger, needing a pin to be unscrewed",
+      "Shackle and quick link: the quick link (maillon), 'a metal link, similar to a carabiner' closed by a threaded sleeve instead of a hinged gate (Wikipedia 'Maillon'), is stronger across its gate but slower to open (also listed under 'See also' in Wikipedia's 'Carabiner'); D-shackles and pin shackles are bolt-closed and stronger, needing a pin to be unscrewed",
       "S-hook and open hook: no gate at all, so things can fall off",
       "Cantilever snap fit: the same springy-latch idea moulded into plastic parts",
       "Side-release buckle: a springy plastic latch for joining two straps, released by squeezing",
@@ -181,7 +180,8 @@
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://help.prusa3d.com/article/pla_2062",
       "https://help.prusa3d.com/article/petg_2059",
-      "https://help.prusa3d.com/article/asa_1809"
+      "https://help.prusa3d.com/article/asa_1809",
+      "https://en.wikipedia.org/wiki/Maillon"
     ]
   },
   "uncertain": [

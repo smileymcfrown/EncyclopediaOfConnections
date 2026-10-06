@@ -20,7 +20,7 @@
     ],
     "one_liner": "A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.",
     "complexity": "A few parts: a barrel or body (housing) with a hole across it, a plunger (toggle, piston) with a matching cross hole and a thumb button, and a spring (usually a small metal coil spring). Some designs replace the metal spring with a springy plastic part moulded onto the plunger (e.g. a W-shaped spring in patent US4622723), and some have no spring at all, using a wedge-shaped plunger instead.",
-    "how_it_works": "The cord runs through a hole in the barrel and a hole in the plunger. The spring pushes the plunger outward, so its hole sits off-centre from the barrel's holes and the cord is pinched between the edge of the plunger hole and the barrel wall. Friction holds the cord in either direction (a spring-loaded clamp). Pressing the plunger in against the spring lines the holes up, the pinch is released and the lock slides along the cord; let go and it grips again. How hard it grips depends on the spring force and on how well the cord fills the hole."
+    "how_it_works": "The cord runs through a hole in the barrel and a hole in the plunger. The spring pushes the plunger outward, so its hole sits off-centre from the barrel's holes and the cord is pinched between the edge of the plunger hole and the barrel wall. Friction holds the cord in either direction (a spring-loaded clamp). Pressing the plunger in against the spring lines the holes up, the pinch is released and the lock slides along the cord; let go and it grips again. How hard it grips depends on the spring force and on how well the cord fills the hole. The cord it grips is usually a drawstring, a string, rope or lace used to 'draw' (gather or shorten) fabric: it may be threaded through a hem or casing (a continuous tube of material), laced through holes, which may be lined with eyelets, or run through loops, and it is held drawn either by tying its ends or with a cord lock; its ends are often finished with a sheath called an aglet (Wikipedia 'Drawstring')."
   },
   "finder_attributes": {
     "job": [
@@ -79,7 +79,7 @@
     "when_to_use": "When you want to cinch a cord or drawstring and have it stay put without a knot, and loosen it with one squeeze: hoods, hems, stuff sacks, shock-cord lacing, lanyards, headlamp bands and simple cord tensioning on light gear. Good with gloves on or cold fingers, which is why mountaineers use them (Wikipedia).",
     "when_not_to_use": "Not for holding real loads, such as guy lines in wind, hanging things or tie-downs: use a guy-line slider, a cam cleat, a knot or a buckle. Not on drawstrings in the hood or neck area of young children's clothing, where cords are a strangulation and entrapment hazard (EN 14682 in Europe prohibits them there for young children). Not in salt water with cheap steel springs (choose stainless). For flat webbing use a ladder lock or cam buckle instead.",
     "environment_limits": "Cheap steel springs rust in salt water and lose grip. All-plastic enclosed locks can jam with salt, pollen and dirt. Stainless springs survived a 6-week salt-water test (informal forum test). PLA printed parts warped in a washer and dryer, while ABS was fine. Acetal bodies generally handle cold and wet well [uncertain for specific products]. A drawcord that is too thin or slippery for the hole will not hold at all.",
-    "safety_notes": "Drawstrings and cords on children's clothing are a strangulation and entrapment risk. The European standard EN 14682 prohibits drawstrings and functional cords in the hood and neck area of clothes for young children (its strictest rules apply under 7 years) and also sets rules for toggles; more than 3,100 recalls of children's clothing with dangerous cords appear on the EU Safety Gate system. The small parts and springs are a choking hazard. The springs are small and can fly out if a lock is forced apart.",
+    "safety_notes": "Drawstrings and cords on children's clothing are a strangulation and entrapment risk. The European standard EN 14682 prohibits drawstrings and functional cords in the hood and neck area of clothes for young children (its strictest rules apply under 7 years) and also sets rules for toggles; more than 3,100 recalls of children's clothing with dangerous cords appear on the EU Safety Gate system. The small parts and springs are a choking hazard. The springs are small and can fly out if a lock is forced apart. In the US, the Consumer Product Safety Commission issued guidelines on drawstrings in children's upper outerwear in 1996, and it received reports of 22 deaths and 48 non-fatal incidents from children's clothing drawstrings between 1985 and 1999 (Wikipedia 'Drawstring').",
     "common_failures": "(1) It won't hold: the cord is too thin for the hole, the spring is too weak (common in cheap 'ball' types), or the cord is slippery. Fix it by using a smaller or stiffer-spring lock, double the cord, or use thicker cord. (2) The spring rusts or loses its springiness, especially in salt water; choose stainless springs and rinse the lock. (3) It jams with dirt, salt or ice; rinse and work it. (4) The plunger falls out or the body cracks (cheap plastic, or a printed part with low infill); choose good acetal parts, or print at 100% infill with a snap-captured plunger. (5) The cord frays at sharp hole edges; round the edges or choose a smoother lock. (6) The cord end pulls back out through the lock; knot the end or add a cord end cap.",
     "related": [
       "Guy-line slider (friction line tensioner): holds a cord by friction around a plate with holes, with no spring; for tent guy lines",
@@ -88,7 +88,9 @@
       "Springless cord locks and toggles: a wedge or V-shaped plunger or a springy body does the job of the spring; one type grips harder in one direction",
       "Knot or cord end: permanent or fixed stop with no adjustment",
       "Spring plunger (ball detent): the same 'spring pushes a plunger' idea used to hold parts in position, not to grip a cord",
-      "Ratcheting reel closure (dial lacing): tightens a lace with a clicking reel for higher, repeatable tension"
+      "Ratcheting reel closure (dial lacing): tightens a lace with a clicking reel for higher, repeatable tension",
+      "Lacing: a cord threaded back and forth through rows of holes or eyelets, one of the ways a drawstring is run; a cord lock can hold its ends instead of a bow",
+      "Eyelets and grommets: the metal or plastic rings that line the holes a drawstring or lace runs through"
     ]
   },
   "media": {
@@ -171,7 +173,8 @@
       "https://www.productipedia.com/kb/productipedia/compliance-resources/dangerous-drawstrings-and-cords",
       "https://api.printables.com/graphql/",
       "https://www.printables.com/model/213436-generic-spherical-cord-lock-cord-stopper-drawstrin (read via https://api.printables.com/graphql/)",
-      "https://www.youtube.com/watch?v=N9SbpknBo1g (verified via YouTube oEmbed)"
+      "https://www.youtube.com/watch?v=N9SbpknBo1g (verified via YouTube oEmbed)",
+      "https://en.wikipedia.org/wiki/Drawstring"
     ]
   },
   "uncertain": [

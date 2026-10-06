@@ -87,7 +87,9 @@
       "Threaded (screw-together) pole joints: resist pulling apart but are slower to assemble (e.g. Printables 'Alastor's Staff - 4-Parts Threaded Pole')",
       "Poles linked only by a chain or non-stretch cord: keeps sections together without pulling them home (Wikipedia 'Tent' mentions poles 'linked by chain or cord')",
       "Constant-force spring (spring-return reel): another way to keep a line under steady tension",
-      "Guy-line slider (friction line tensioner): tensions a tent's cords rather than holding its poles together"
+      "Guy-line slider (friction line tensioner): tensions a tent's cords rather than holding its poles together",
+      "Stopper knots and cord-end anchors: the knot trapped under an end tip or plug that anchors the shock cord at each end of the pole",
+      "Wire-rope terminations: crimped stops and sleeves that anchor a steel cable end the way a knot anchors the shock cord, for poles or masts linked by non-stretch cable"
     ]
   },
   "media": {
@@ -125,20 +127,20 @@
         "license": "CC BY-NC-ND 4.0 on this page (the Printables copy lists CC BY-NC-SA)"
       },
       {
-        "url": "https://www.printables.com/model/1831756-tent-pole-bungee-end-caps (URL from Printables API, page not opened)",
-        "title": "Tent Pole Bungee End Caps (Caitlin, Printables)",
+        "url": "https://www.printables.com/model/1831756-tent-pole-bungee-end-caps",
+        "title": "Tent Pole Bungee End Caps (Caitlin, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Printables copy of the end-cap generator and STLs for common carbon and fibreglass tent-pole diameters",
         "license": "CC BY-NC-SA"
       },
       {
-        "url": "https://www.printables.com/model/1054510-aluminum-pole-shock-cord-retainer-insert (URL from Printables API, page not opened)",
-        "title": "Aluminum Pole Shock Cord Retainer Insert (Hubschrauber, Printables)",
+        "url": "https://www.printables.com/model/1054510-aluminum-pole-shock-cord-retainer-insert",
+        "title": "Aluminum Pole Shock Cord Retainer Insert (Hubschrauber, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Slotted plug that holds a knotted shock-cord end inside a pole of about 10 mm inside diameter; designer recommends ABS and 100% infill",
         "license": "CC BY-NC"
       },
       {
-        "url": "https://www.printables.com/model/1466709-terminator-for-bungee-cord-pole-vault-etc (URL from Printables API, page not opened)",
-        "title": "Terminator for Bungee Cord (Robulus, Printables)",
+        "url": "https://www.printables.com/model/1466709-terminator-for-bungee-cord-pole-vault-etc",
+        "title": "Terminator for Bungee Cord (Robulus, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Three-hole printed part that anchors an elastic cord without a knot, with smooth, rounded rubbing surfaces to limit wear",
         "license": "CC BY"
       },

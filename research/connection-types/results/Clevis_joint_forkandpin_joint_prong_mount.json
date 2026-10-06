@@ -8,7 +8,7 @@
       "fork joint, fork head or clevis fork head (threaded fork ends to DIN 71752 / ISO 8140, used on pneumatic cylinders and gas struts)",
       "rod clevis or cylinder clevis",
       "knuckle joint (a forked rod end and an eye rod end joined by a knuckle pin; NPTEL machine design course)",
-      "shackle (a U-shaped clevis together with its pin, as used in rigging; Wikipedia)",
+      "shackle (a U-shaped clevis together with its pin, as used in rigging; Wikipedia); rigging shackles have their own entry, Shackle and quick link",
       "clevis joint with folding spring bolt, or with bolt and circlip (catalogue names; mbo Osswald, igus)",
       "hitch pin and clevis (trailer and tractor drawbars) [uncertain]",
       "prong mount, finger mount, 2-prong and 3-prong mount (action cameras)",
@@ -97,7 +97,9 @@
       "Hirth joint: toothed faces clamped by a bolt; holds set angles far more firmly than a friction prong mount",
       "Detent hinge: clicks and holds at set angles instead of any angle",
       "Friction hinge: holds any angle by built-in friction, with no thumbscrew to tighten",
-      "Knuckle hinge (butt hinge): the same fork-and-tongue idea repeated along a long edge"
+      "Knuckle hinge (butt hinge): the same fork-and-tongue idea repeated along a long edge",
+      "Shackle and quick link: the rigging cousin of a clevis, a U-shaped link closed by a screw pin or bolt that joins chain, rope and straps rather than acting as a pivot",
+      "Tripod and stand screw mount: the 1/4-20 camera thread that a mounting-finger adapter turns a prong mount into"
     ]
   },
   "media": {

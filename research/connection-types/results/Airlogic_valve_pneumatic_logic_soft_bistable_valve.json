@@ -102,7 +102,8 @@
       "Push-push latch and click-pen mechanism: mechanical versions of the 'push once on, push again off' toggle that air logic can also do (Preston et al. 2019)",
       "Soft pneumatic bending actuator, pneumatic artificial muscle and bellows actuators: the soft 'muscles' that air-logic circuits switch",
       "Pressure regulator and pressure relief valve: needed to give logic circuits a safe, steady supply",
-      "Microcontroller with solenoid valves: the electronic alternative for complex behaviour"
+      "Microcontroller with solenoid valves: the electronic alternative for complex behaviour",
+      "Heat-sealed seam: how the TPU-film piston of the drinking-straw soft valve is made, heat-sealed with parchment paper as a release layer (Decker et al. 2022)"
     ]
   },
   "media": {

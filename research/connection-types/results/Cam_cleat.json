@@ -22,7 +22,7 @@
     ],
     "one_liner": "A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.",
     "complexity": "A small assembly that acts as one unit: a base plate with two pivot posts; two toothed cams (jaws, which Harken calls pawls); one or two torsion springs per cam; and, on better cleats, ball bearings (Harken's standard 150 uses 66 small Delrin balls in three rows), washers and cam caps. Often fitted with add-ons: a fairlead (guide loop) over the jaws, a riser or a 15° wedge. Some designs gear the two cams together so they open and close as a mirrored pair (US 4,620,499).",
-    "how_it_works": "Two cams sit side by side on pivots, and springs turn them so their toothed, curved faces meet in the middle. The curve is off-centre (eccentric): the teeth get further from the pivot along the cam, so turning the cams one way widens the gap and turning them the other way narrows it (US 4,620,499). Pulling the rope toward you drags the teeth the opening way and the rope slides through; when the load pulls back, the rope drags the teeth the closing way and wedges itself in, so 'as the load on the line increases, the cams' pressure and grip increase as well' (SAIL Magazine). German Wikipedia notes the jaws usually follow a logarithmic spiral so the rope is gripped at the same angle whatever its diameter. To free it you tension the tail and lift it up and out of the jaws (Upffront, Wikipedia)."
+    "how_it_works": "Two cams sit side by side on pivots, and springs turn them so their toothed, curved faces meet in the middle. The curve is off-centre (eccentric): the teeth get further from the pivot along the cam, so turning the cams one way widens the gap and turning them the other way narrows it (US 4,620,499). Pulling the rope toward you drags the teeth the opening way and the rope slides through; when the load pulls back, the rope drags the teeth the closing way and wedges itself in, so 'as the load on the line increases, the cams' pressure and grip increase as well' (SAIL Magazine). German Wikipedia notes the jaws usually follow a logarithmic spiral so the rope is gripped at the same angle whatever its diameter. To free it you tension the tail and lift it up and out of the jaws (Upffront, Wikipedia). The basic version with no moving parts is the horn cleat, the traditional fitting with two 'horns' (Wikipedia 'Cleat (nautical)'): the rope is made fast with a cleat hitch (ABOK #1615), a turn round the far horn, figure-eight crossings over the top and often a final locking half hitch (Wikipedia 'Cleat hitch'; Animated Knots 'Cleat Hitch (Dock Line)'). It holds bigger loads and can't be flicked loose, but it is slower to tie and untie."
   },
   "finder_attributes": {
     "job": [
@@ -75,7 +75,8 @@
       "When a cleat is mounted upside down, 'add a second spring to each cam alongside the original', and 'do not over-tighten mounting screws; pawls will bind' (Harken Quick Service sheet).",
       "Tooth shape from Helms's extruded cam cleat patent (US 3,730,129): tooth tips rounded to about 10 mils (0.25 mm), with 5-30 mils (0.13-0.76 mm) satisfactory; the rear face of each tooth at about 90° (85-95°) to the cam arc; and the cam arc's centre set back about one-third of its radius and out about one-sixth, giving a fairly flat arc so 'at least four teeth of each jaw' grip the line.",
       "Strength is rarely the limit; release is. In Practical Sailor's 1992 test of 16 cleats the best 'easily withstood a 1,000-lb linear pull, without slipping', but freeing a heavily loaded line is hard and risky (Practical Sailor).",
-      "Blunter teeth are kinder to rope: early cam cleats' 'too-sharp cam teeth chewed voraciously on any line', and makers moved to 'blunter, more line-lenient teeth' (Practical Sailor)."
+      "Blunter teeth are kinder to rope: early cam cleats' 'too-sharp cam teeth chewed voraciously on any line', and makers moved to 'blunter, more line-lenient teeth' (Practical Sailor).",
+      "If you use a horn cleat instead: lead the rope round the far horn first, because 'starting round the wrong horn increases the risk of a Cleat Hitch jamming'; don't take a full round turn under the first horn, which can jam so the rope can't be released while loaded; two figure-eight crossovers are 'the bare minimum, and only for temporary use in sheltered conditions'; and leave off the final locking half hitch on lines that must be let go quickly, such as towlines and sail sheets (Animated Knots 'Cleat Hitch (Dock Line)')."
     ]
   },
   "guidance": {
@@ -92,13 +93,14 @@
     "common_failures": "Line pops out of the cams: the lead is not fair; add a riser, wedge or fairlead so the line enters straight (Harken). Cams do not snap shut: springs damaged or missing; replace them (Harken). Line drops out of an upside-down cleat: fit a second spring per cam (Harken). Stiff or uneven cam motion: dirt or salt, or missing bearing balls; flush with fresh water and refit the right number of balls (Harken). Cams bind after fitting: mounting screws over-tightened (Harken). Rope slips: rope too thin, worn, slippery or outside the rated range, or teeth worn smooth; use the right cleat size and replace worn parts. Rope fuzzes or wears: sharp teeth; choose line-friendly cleats (Practical Sailor's abrasion tests rated Harken Carbo-Cam, Ronstan C-Cleat, Spinlock PX and RWO Carbocleat best).",
     "related": [
       "Clam cleat (grooved V-cleat): one solid piece with no springs, more compact and cheaper, but the rope is less easily released under load (Wikipedia); in Practical Sailor's 1997 abrasion test Clamcleats and Ronstan V-Cleats wore rope less than cam cleats",
-      "Horn cleat with a cleat hitch: slower to tie and untie, but holds higher loads and can't be knocked loose by accident",
+      "Hitches to a post, rail, ring or eye: includes the cleat hitch on a horn cleat, slower to tie and untie, but holds higher loads and can't be knocked loose by accident",
       "Rope clutch or jammer: a lever-operated cam that holds higher loads for longer, such as halyards, and releases under load (Upffront)",
       "Rope grab and ascender (cam rope clamp): a single toothed cam presses the rope against a fixed wall, for climbing and hauling",
       "Cord lock (spring toggle): a spring plunger that pinches a thin cord, for very light loads",
       "Cam buckle (webbing cam buckle): the same one-way toothed-cam idea for flat straps, released by pressing a lever",
       "Binding-plate lock (tilting friction plate): a tipped plate wedges on a rod instead of cams wedging a rope",
-      "Sprag clutch: the same wedge-tighter-under-load principle, used between rotating shafts"
+      "Sprag clutch: the same wedge-tighter-under-load principle, used between rotating shafts",
+      "Tensioning and adjustable hitches: knots such as the trucker's hitch and taut-line hitch that pull a line tight and hold it with no hardware at all"
     ]
   },
   "media": {
@@ -188,7 +190,9 @@
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://help.prusa3d.com/article/pla_2062",
       "https://help.prusa3d.com/article/petg_2059",
-      "https://help.prusa3d.com/article/asa_1809"
+      "https://help.prusa3d.com/article/asa_1809",
+      "https://en.wikipedia.org/wiki/Cleat_hitch",
+      "https://www.animatedknots.com/cleat-hitch-knot-dock-line"
     ]
   },
   "uncertain": [

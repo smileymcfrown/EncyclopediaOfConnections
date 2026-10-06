@@ -9,7 +9,8 @@
       "structural adhesive, engineering adhesive (Wikipedia)",
       "epoxy putty (a kneadable two-part stick), e.g. Milliput (brand) (Wikipedia 'Cyanoacrylate')",
       "laminating, boat-building or 'marine' epoxy, e.g. WEST SYSTEM (brand) (Wikipedia; West System)",
-      "Loctite Epoxy / Hysol, Z-Poxy, J-B Weld, Araldite (brands; Loctite, Prusa, Wikipedia references)"
+      "Loctite Epoxy / Hysol, Z-Poxy, J-B Weld, Araldite (brands; Loctite, Prusa, Wikipedia references)",
+      "J-B Weld or JB Weld (brand): a two-part epoxy whose name sounds like welding (it began as 'Just Bond'), so makers use it as a verb ('you can probably jb-weld it') and suggest it instead of welding, e.g. for fixing a flange onto a small motor shaft (Wikipedia 'J-B Weld'; r/robotics thread read through the Arctic Shift archive)"
     ],
     "family": "adhesives & bonding",
     "other_families": [
@@ -171,7 +172,10 @@
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://api.printables.com/graphql/",
       "https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg",
-      "https://www.youtube.com/watch?v=DdNfOTLx0q4"
+      "https://www.youtube.com/watch?v=DdNfOTLx0q4",
+      "https://en.wikipedia.org/wiki/J-B_Weld",
+      "https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx",
+      "https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200"
     ]
   },
   "uncertain": [

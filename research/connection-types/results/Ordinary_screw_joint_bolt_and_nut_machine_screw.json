@@ -9,7 +9,8 @@
       "machine screw and nut; machine screw into a tapped (threaded) hole (Wikipedia 'Screw')",
       "cap screw, socket-head cap screw, hex bolt, set of 'nuts, bolts and washers'",
       "tension joint and shear joint (the two main engineering types: preloaded, slip-resistant or bearing type) (Wikipedia 'Bolted joint')",
-      "threaded fastener, threaded connection"
+      "threaded fastener, threaded connection",
+      "carriage bolt (coach bolt, round-head square-neck bolt; cup-head bolt in Australia and New Zealand): the square neck under its domed head locks in a square hole or sinks into wood, so the nut can be done up from the other side with one spanner (Wikipedia 'Carriage bolt')"
     ],
     "family": "clamping, magnetic & friction connections",
     "other_families": [
@@ -59,7 +60,7 @@
     ],
     "print_in_place": "no: the screw and nut are separate metal parts added after printing (they can be embedded mid-print, but that is a separate technique).",
     "making_tips_3d_printing": "1) Holes: vertical holes print undersized; print them slightly small and drill to size if accuracy matters (Hubs 'How to design parts for FDM 3D printing'). Print a hole test (see make_it_yourself) to find your printer's clearance sizes. 2) Horizontal holes droop at the top; use a teardrop or octagonal shape (BOSL2 screw_hole() has a teardrop option). 3) Counterbores for screw heads that start in mid-air can be printed without supports by a few layers of bridging, or by a thin sacrificial layer drilled out afterwards (Hackaday 'Look Ma, No Support For My Floating Holes!'). 4) Walls around a threaded hole should be at least as thick as the screw diameter (e.g. 5 mm for M5), or the part may bulge, split or delaminate (Hubs). 5) Nut pockets: 0.2 mm larger than the nut (0.1 mm per side) is a starting point (Hubs); a nut pocket where the screw pulls the nut against solid plastic (bottom pocket) held 166 kg in CNC Kitchen's PETG tests versus 86 kg for a side pocket. 6) Don't over-tighten: plastic under the head creeps and the clamp loosens over time; an M6 bolt through PLA lost about 3% and through PETG about 11.5% of its undoing torque in a week (Amza et al. 2021). Use large washers to spread the load (filamentspecs). 7) For parts that will be taken apart often, use heat-set inserts or nuts rather than screwing into plastic (Hubs; CNC Kitchen). 8) PLA softens above about 60 °C, so clamped PLA parts may loosen in a hot place (Prusa knowledge base).",
-    "off_the_shelf_parts": "Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head) screws, pan-head and cheese-head machine screws; hex nuts, nylon-insert lock nuts (nyloc), flange nuts, square nuts, thin jam nuts; flat washers, fender (penny) washers, conical (Belleville) washers; threadlocker; threaded rod and studs. Metric sizes (M2, M2.5, M3, M4, M5, M6...) and ISO property classes (e.g. 8.8, A2-70 stainless) are the terms used in catalogues (Wikipedia 'Screw'; Wikipedia 'Nut (hardware)'; NASA RP-1228).",
+    "off_the_shelf_parts": "Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head) screws, pan-head and cheese-head machine screws; hex nuts, nylon-insert lock nuts (nyloc), flange nuts, square nuts, thin jam nuts; flat washers, fender (penny) washers, conical (Belleville) washers; threadlocker; threaded rod and studs. Metric sizes (M2, M2.5, M3, M4, M5, M6...) and ISO property classes (e.g. 8.8, A2-70 stainless) are the terms used in catalogues (Wikipedia 'Screw'; Wikipedia 'Nut (hardware)'; NASA RP-1228). Washers by job (Wikipedia 'Washer (hardware)'): plain (flat) washers spread the load and cover a hole bigger than the nut; fender, penny or repair washers have a large outside diameter for thin sheet metal and for holes enlarged by rust or wear; hardened steel washers keep the preload in high-quality joints by stopping the surface under the nut from being dented (brinelling); insulating and shoulder washers (often nylon) keep steel screws off aluminium to prevent galvanic corrosion and isolate the screw electrically; a torque washer with a square hole and teeth stops a carriage bolt spinning in wood. Carriage (coach) bolts, with a square neck under a domed head (Wikipedia 'Carriage bolt').",
     "rules_of_thumb": [
       "Clearance holes (ISO 273, fine / medium / coarse): M2 2.2/2.4/2.6 mm, M2.5 2.7/2.9/3.1, M3 3.2/3.4/3.6, M4 4.3/4.5/4.8, M5 5.3/5.5/5.8, M6 6.4/6.6/7.0, M8 8.4/9.0/10.0 (Engineering Hardware 'Clearance Hole Sizes (ISO 273)').",
       "Thread engagement in a tapped hole: at least about 1 x the screw diameter in steel and 2 x in aluminium (Nord-Lock 'The Experts: Thread engagement in a tapped hole'); at least 1-1.5 x diameter even in steel, and more in plastics (Field Fastener 'Rules of Thumb for Thread Engagement').",
@@ -74,12 +75,13 @@
   },
   "guidance": {
     "everyday_examples": [
-      "Meccano (brand) and similar construction sets, whose metal strips and plates are joined with small nuts and bolts (Wikipedia 'Meccano')",
+      "Meccano (brand) and similar construction sets, whose metal strips and plates are joined with small nuts and bolts through holes at a standard 1/2 in (12.7 mm) spacing (Wikipedia 'Meccano')",
       "Car wheel nuts, tightened to a set torque (Wikipedia 'Bolted joint')",
       "Steel structures and machines, where bolted joints are 'one of the most common elements' (Wikipedia 'Bolted joint')",
-      "Flat-pack furniture, bicycles and 3D printers held together with hex-key machine screws [uncertain]"
+      "Flat-pack furniture, bicycles and 3D printers held together with hex-key machine screws [uncertain]",
+      "Robot building kits with a fixed grid of holes, such as goBILDA (brand), with 4 mm holes on an 8 mm grid for M4 screws, and its inch-based relative Actobotics (brand) (Game Manual 0)"
     ],
-    "when_to_use": "Use it whenever parts must be strong, easy to make and able to come apart again for repair, adjustment or transport: frames, brackets, enclosures, robot and 3D-printer parts, jigs and prototypes. Parts are cheap and standard, the clamping force can be set with a torque tool, positions can be adjusted before tightening, and the joint can be undone and redone many times (Wikipedia 'Bolted joint'). It is the baseline to compare every other connection against.",
+    "when_to_use": "Use it whenever parts must be strong, easy to make and able to come apart again for repair, adjustment or transport: frames, brackets, enclosures, robot and 3D-printer parts, jigs and prototypes. Parts are cheap and standard, the clamping force can be set with a torque tool, positions can be adjusted before tightening, and the joint can be undone and redone many times (Wikipedia 'Bolted joint'). It is the baseline to compare every other connection against. Use a carriage bolt through wood or a square-holed metal strap when you can only turn the nut: the square neck stops the bolt turning, and because its smooth domed head can't be gripped from outside, it is used in locks and hinges that must only be undone from one side (Wikipedia 'Carriage bolt').",
     "when_not_to_use": "Avoid it when you can't reach both sides and have no threaded hole (use a blind rivet, rivet nut or well nut instead); when you need tool-free, very fast assembly (use a snap fit, cam lock or quick-release pin); when parts must line up exactly every time (add dowel pins); when heavy vibration is expected without proper preload or locking (use locknuts, threadlocker or rivets) (Bolt Science); when the joint must seal without extra parts (add a gasket); or in thin, soft material that crushes under the head (use large washers, inserts or glue) (Hubs; filamentspecs). For permanent, cheap mass production, rivets, welding, clinching or snap fits are faster.",
     "environment_limits": "Vibration and small sideways slips are the main cause of loosening; keep the preload high enough to stop the joint slipping (Bolt Science). Differences in temperature or between clamped materials also cause slip and loosening (Bolt Science). Corrosion, especially steel against aluminium or in damp conditions, and 'embedding' (the surfaces settling) lose preload over time (Wikipedia 'Bolted joint'). Plastic clamped parts creep: 3% loss for PLA and 11.5% for PETG in one week at room temperature in one test, more after UV ageing for PETG (Amza et al. 2021); PLA softens above about 60 °C (Prusa).",
     "safety_notes": "Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp [uncertain].",
@@ -93,7 +95,10 @@
       "Anaerobic adhesive (threadlocker): glue for threads that stops loosening and seals",
       "Rivet and clinching: permanent sheet joints with no thread to loosen",
       "Cam lock and knock-down fittings: furniture fastenings that tighten with a quarter turn instead of many turns",
-      "Printed screw thread: threads printed into the part; fine for big coarse threads only"
+      "Printed screw thread: threads printed into the part; fine for big coarse threads only",
+      "Aluminium-extrusion connectors: bolts into nuts that slide in the slots of aluminium bars, so parts can be moved anywhere along a frame instead of only to drilled holes",
+      "Wood screw: a pointed, coarse-threaded screw that cuts its own thread in wood, so no nut or tapped hole is needed",
+      "Threaded rod and studs: a rod threaded along its length, used with nuts as a long bolt, tie rod or adjustable spacer"
     ]
   },
   "media": {
@@ -175,7 +180,9 @@
       "https://commons.wikimedia.org/wiki/File:Bolted_joint_in_the_part_body_(color).svg",
       "https://commons.wikimedia.org/wiki/File:Bolted_joint_spring_analogy.svg",
       "https://commons.wikimedia.org/wiki/File:Bolt-in-shear.svg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Carriage_bolt",
+      "https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html"
     ]
   },
   "uncertain": [

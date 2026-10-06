@@ -10,7 +10,9 @@
       "tongue-and-groove gasket seal (a ridge on the lid pressing the gasket into a groove) [uncertain]",
       "formed-in-place gasket (FIPG), liquid gasket, RTV gasket maker (liquid sealant applied wet and closed while uncured; ThreeBond Technical News 91; Permatex)",
       "cured-in-place gasket (CIPG), dispensed gasket, poured-in-place gasket (bead cured before the parts are closed; ThreeBond; Stockwell mentions poured-in-place gaskets)",
-      "weatherstrip or seal strip (self-adhesive foam strip used as a lid gasket) [uncertain]"
+      "weatherstrip or seal strip (self-adhesive foam strip used as a lid gasket) [uncertain]",
+      "sealing washer: a small ring-shaped gasket under a bolt, plug or pipe fitting; Wikipedia notes that the rubber or fibre 'washers' in taps are really gaskets (Wikipedia 'Washer (hardware)')",
+      "bonded seal, Dowty seal or Dowty washer (a steel washer with a bonded rubber inner ring; Wikipedia 'Bonded seal'), crush washer (soft aluminium or copper), rubber or fibre tap washer (Wikipedia 'Washer (hardware)')"
     ],
     "family": "seals & pass-throughs",
     "other_families": [
@@ -76,9 +78,10 @@
       "The rubber seal round a rugged phone's battery cover, rated IP67 (Wikimedia Commons photo of a CAT B25 cover)",
       "The silicone ring in the lid of a clip-lock food storage box (Prusa tested a printed copy of a Lock&Lock (brand) box with a gasket)",
       "The gasket under a car engine's valve cover or cylinder head (Wikipedia 'Gasket', see also 'Head gasket')",
-      "The seal round the door of an outdoor electrical cabinet or junction box (Stockwell 'Enclosure Gaskets')"
+      "The seal round the door of an outdoor electrical cabinet or junction box (Stockwell 'Enclosure Gaskets')",
+      "The rubber or fibre washer inside a tap (faucet) that seals its valve against water leaks: a small ring gasket usually just called a washer (Wikipedia 'Washer (hardware)')"
     ],
-    "when_to_use": "Use a gasket to seal a lid, door, panel or flange that is square, long or an odd shape, where a round O-ring won't fit, and where the faces are not perfectly flat or smooth, since the soft material fills the unevenness. It suits printed and moulded project boxes, junction boxes, outdoor sensor cases, access panels and pipe flanges, and splash-proof to briefly submersible boxes. Choose a cord-in-groove gasket for printed boxes that you open now and then, a flat foam or sheet gasket for light dust and splash sealing, and a formed-in-place silicone bead for a joint you rarely or never open.",
+    "when_to_use": "Use a gasket to seal a lid, door, panel or flange that is square, long or an odd shape, where a round O-ring won't fit, and where the faces are not perfectly flat or smooth, since the soft material fills the unevenness. It suits printed and moulded project boxes, junction boxes, outdoor sensor cases, access panels and pipe flanges, and splash-proof to briefly submersible boxes. Choose a cord-in-groove gasket for printed boxes that you open now and then, a flat foam or sheet gasket for light dust and splash sealing, and a formed-in-place silicone bead for a joint you rarely or never open. For a single bolt, drain plug or threaded port, use a sealing washer, which is a small ring gasket: a rubber or fibre washer for taps and water joints, a bonded seal (Dowty washer), whose 'central rubber ring' gives 'a strong seal against high pressure liquid or gas' and, because its steel outer ring holds the rubber in place, needs no groove in the parts (Wikipedia 'Bonded seal'), or a crush washer of soft aluminium or copper, used to seal fluid or gas connections in hydraulic systems and engines (Wikipedia 'Washer (hardware)'). The Parallel pipe thread with a sealing washer entry shows how these seal straight-threaded pipe and hose joints.",
     "when_not_to_use": "For a round opening that must be really watertight or hold pressure, use an O-ring (Prusa found O-rings far more reliable than gaskets at depth). For a moving shaft or rod, use an O-ring, lip seal or labyrinth seal, since gaskets are static only. To keep out only dust and rain with no rubber to wear or lose, a labyrinth (overlapping lip) may be enough. For cables through the wall, use a cable gland. For a permanently closed joint, a silicone sealant or glue is simpler. Avoid thin, flexible printed lids with few screws for anything that must survive immersion; they bow and leak.",
     "environment_limits": "Silicone gaskets resist UV, ozone and salt water and spring back well; other rubbers and foams age faster (Stockwell). Gasket life depends on UV, ozone, temperature, chemicals and wear (Stockwell 'Enclosure Gaskets'). All rubbers and foams slowly creep and take a permanent set under constant squeeze, so old gaskets stop springing back (Fictiv; Rogers). Rain on a hot box cools it and creates suction that can pull pooled water in past a gasket, so vent the enclosure (Stockwell). RTV silicone needs about 24 hours to cure, longer when cold or dry (Permatex). Printed housings soften: PLA from about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), and PLA lids creep under the steady push of the gasket (Thrinter).",
     "safety_notes": "Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it gives off toxic, corrosive hydrogen chloride gas; if you don't know what the rubber is, don't cut it (Materials Education 'Materials for Laser Cutter Machines'). Epoxy used to seal printed walls needs gloves and a respirator (Prusa blog). A gasketed printed box is not a certified enclosure: use a proper IP-rated box for mains voltage (Printables 'Outdoor Enclosure for Govee Light Controller' author's note).",
@@ -90,7 +93,9 @@
       "Cable gland and strain relief: seals cables passing through the gasketed box",
       "Draw latch (over-centre latch): a common way to pull a gasketed lid down evenly without tools",
       "Tongue-and-groove joint: the joinery cousin; in enclosures the tongue on the lid presses the gasket into the groove",
-      "Double-sided foam tape (acrylic foam pressure-sensitive adhesive): bonds a panel on with a foam layer that may also act as a light seal [uncertain]"
+      "Double-sided foam tape (acrylic foam pressure-sensitive adhesive): bonds a panel on with a foam layer that may also act as a light seal [uncertain]",
+      "Parallel pipe thread with a sealing washer: a straight-threaded pipe or hose joint in which a small ring gasket (washer, bonded seal or O-ring) squeezed against a flat face does the sealing",
+      "Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen spline) instead of sealing a lid"
     ]
   },
   "media": {
@@ -177,7 +182,9 @@
       "https://commons.wikimedia.org/wiki/File:Joints_plats.JPG",
       "https://api.printables.com/graphql/",
       "https://printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec",
-      "https://www.printables.com/model/12311-waterproof-housing-test-tpu-o-ring"
+      "https://www.printables.com/model/12311-waterproof-housing-test-tpu-o-ring",
+      "https://en.wikipedia.org/wiki/Washer_(hardware)",
+      "https://en.wikipedia.org/wiki/Bonded_seal"
     ]
   },
   "uncertain": [
