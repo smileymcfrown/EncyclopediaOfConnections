@@ -81,7 +81,9 @@ entry names and families, in `research/finder-test/tags.py`):
 
 The finder asks **one question that everyone answers** (the job), then **one to three questions
 that depend on that answer**. Answers are short, in plain words, and each has a picture or icon
-in the finished site. The numbers are how many entries each answer leaves.
+in the finished site. **Each answer also gets a real-world example** (owner, 2026-10-06), next to
+it or behind an (i) icon with a pop-up. Answers whose wording can mislead also get a one-line
+explanation, for example *Seal it, or pass cables, air or liquid through*. The numbers are how many entries each answer leaves.
 
 **Question 1. What do you need it to do?** (pick one)
 
@@ -1667,6 +1669,21 @@ Risks, and how to handle them:
 
 ## 4. Decisions proposed for the owner
 
+**Owner's review (2026-10-06, R24):** all nine proposals are accepted, with three notes:
+1. **Every answer gets a real-world example.** It sits next to the answer, or behind a small (i)
+   icon with a pop-up where space is short. This applies to every question where the mechanism
+   or family may not be clear. Examples: the answers to *Change a movement → What change do you
+   need?* (turning into straight-line motion, steady turning into steps …), and *Seal it, or pass
+   cables, air or liquid through*, where "pass through" looks like the opposite of "seal" at
+   first. These answers also get a one-line explanation.
+2. **The site's code is MIT-licensed.** Content stays CC BY-SA.
+3. **The owner checks the finder tags in a careful review session.** The site launches as a
+   **Beta** that asks users to report missing mechanisms, errors and problems, and it is meant to
+   become a community project.
+
+P1 now has 10 first answers, because electrical connections got its own answer in the
+2026-10-06 re-test (1.4).
+
 | # | Proposal | Section |
 |---|---|---|
 | P1 | **Finder shape:** ask the job first (9 plain answers), then 1-3 questions that depend on it, then a shortlist with a tick-box panel that shows counts and greys out empty options. Every question has "I'm not sure" and Back; a search box is always on screen | 1.2-1.5 |
@@ -1679,8 +1696,7 @@ Risks, and how to handle them:
 | P8 | **Diagrams:** SVG drawn per entry (animated with CSS or SMIL) as the default, Mermaid for charts, OpenSCAD for 3D, video loops instead of GIFs, link out to linkage simulators; no Lottie or three.js | 3.4 |
 | P9 | **Glossary:** publish the 107 terms as a page and link each term's first use on every entry page | 2 |
 
-Open questions this raises:
-- **Licence for the site's code** (scripts, finder, layouts): CC BY-SA is for content, not code.
-  MIT is the usual choice for code like this.
-- **Who checks the new finder tags?** About 323 × 10 values; a script can propose them, but each
-  family needs a human (or a careful review session) to confirm.
+Open questions this raised, both answered on 2026-10-06:
+- **Licence for the site's code** (scripts, finder, layouts): MIT.
+- **Who checks the new finder tags?** The owner, in a careful review session, after a script has
+  proposed them (now about 409 × 10 values).
