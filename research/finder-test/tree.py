@@ -14,6 +14,25 @@ def P(t): return lambda e: t in e['pkind']
 def IO(*t): return lambda e: bool(set(e['ioc']) & set(t))
 def SH(*t): return lambda e: bool(set(e['shafts']) & set(t))
 def N(p): return lambda e: rx(p, e['name'])
+
+# Finder tags from research/finder-tags/tags.yaml (P3; the owner accepted them as working values, R25).
+# TG(field, *values) matches an entry whose tag has one of the values. When the value it matched on still
+# needs confirming, walk() remembers it, so the shortlist can mark that entry (⚑) on that path.
+import yaml
+_TAGS = {t['num']: t for t in yaml.safe_load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'finder-tags', 'tags.yaml')))}
+for _e in E:
+    _t = _TAGS[_e['num']]
+    assert _t['name'] == _e['name'], (_e['num'], _t['name'], _e['name'])
+    _e['tg'], _e['nc'] = _t['tags'], _t['needs_confirming']
+USED = None
+def TG(field, *values):
+    def f(e):
+        v = e['tg'].get(field); vals = v if isinstance(v, list) else [v]
+        ok = bool(set(vals) & set(values))
+        if ok and USED is not None and field in e['nc']: USED.add((e['num'], field))
+        return ok
+    return f
+OVERLOAD = ('slips and keeps going', 'clicks or pops out and resets', 'comes apart without damage, refit by hand', 'breaks or lets go once')
 def OR(*ps): return lambda e: any(p(e) for p in ps)
 def AND(*ps): return lambda e: all(p(e) for p in ps)
 def NOT(p): return lambda e: not p(e)
@@ -36,7 +55,7 @@ def Q(question, *answers): return (question, list(answers))
 def A(label, pred, child=None): return (label, pred, child)
 GLUE_NEED=Q('What matters most?',
   A('Strongest bond', N(r'epoxy|structural acrylic|polyurethane|cyanoacrylate|solvent weld|UV-curing|anaerobic|PVA|glued joint')),
-  A('Stays flexible, or seals too', N(r'silicone|contact adhesive|elastomeric|hot-melt|foam tape')),
+  A('Stays flexible, or seals too', N(r'silicone|contact adhesive|elastomeric|hot-melt|foam tape|fusible web')),
   A('Fills gaps, or builds up a shape', N(r'epoxy|polyurethane|hot-melt|thermoplastic|silicone')),
   A('Can be undone later', OR(R('tools','hand'), N(r'stretch-release|hide glue|hot-melt|thermoplastic'))))
 
@@ -143,7 +162,7 @@ TREE=Q('What do you need it to do?',
          A('Grip, or snap between two positions', N(r'bistable|gripper|fin-ray|jamming')))),
      A('Swivel or tilt in several directions (ball or universal joint)', AND(OR(M('multiple'), N(r'ball-and-socket|gimbal')), N(r'rod end|universal|schmidt|posable|ball|gimbal|CV'))),
      A('Follow a set path (e.g. swing out and stay level)', N(r'four-bar|straight-line|walking|scissor|bell crank|lid and flap|iris|origami|tendon|virtual-pivot')))),
- A('Control a movement (one way only, clicks, slips, locks, slows)', OR(J('stop it moving back','click into set positions','slip or let go when overloaded','slow it, stop it or keep its speed steady'), SB('one-way','indexing','torque-limiting','self-locking','hand-release only','over-centre',k=1), N(r'fusible|shear|breakaway')),
+ A('Control a movement (one way only, clicks, slips, locks, slows)', OR(J('stop it moving back','click into set positions','slip or let go when overloaded','slow it, stop it or keep its speed steady'), SB('one-way','indexing','torque-limiting','self-locking','hand-release only','over-centre',k=1), N(r'fusible|shear|breakaway'), TG('overload_response', *OVERLOAD)),
    Q('What should it do?',
      A('Move one way only (stop it going back)', OR(J('stop it moving back'), SB('one-way',k=1)), Q('Does it turn or slide?',
          A('Turns', M('rotate','rotate+slide','multiple'), Q('Is clicking OK?',
@@ -157,12 +176,13 @@ TREE=Q('What do you need it to do?',
              A('Hold a position I set by hand', NOT(N(r'click-pen|geneva|intermittent|ratchet'))),
              A('Step forward one position at a time', N(r'click-pen|geneva|intermittent|ratchet')))),
          A('Slides, bends or something else', M('slide','rotate+slide','flex','none')))),
-     A('Slip, click or let go if overloaded', OR(J('slip or let go when overloaded'), SB('torque-limiting',k=1), F('torque limiting & slip'), N(r'fusible')), Q('What should happen when it is overloaded?',
-         A('Slip, and keep going', N(r'friction|magnetic coupling|tolerance|belt|centrifugal|series-elastic|slip|threadless|governor'), Q('Will you 3D print it?',
+     A('Slip, click or let go if overloaded', OR(J('slip or let go when overloaded'), SB('torque-limiting',k=1), F('torque limiting & slip'), N(r'fusible'), TG('overload_response', *OVERLOAD)), Q('What should happen when it is overloaded?',
+         A('Slip, and keep going', TG('overload_response', 'slips and keeps going'), Q('Will you 3D print it?',
              A('Yes, or partly', lambda e: e['pip'] in ('yes','partly') or 'fdm' in e['processes'] and e['difficulty']=='easy'),
              A('No, I will buy or machine it', lambda e: not (e['pip'] in ('yes','partly') or 'fdm' in e['processes'] and e['difficulty']=='easy')))),
-         A('Click or pop out, then reset by itself', N(r'ball-detent|ratchet-tooth|torque-limiting gear|relief|thermal')),
-         A('Break or let go once, on purpose (replace it after)', N(r'shear|breakaway|tamper|fusible|burn')))),
+         A('Click or pop out, then reset by itself', TG('overload_response', 'clicks or pops out and resets')),
+         A('Pull apart without damage, then refit it by hand', TG('overload_response', 'comes apart without damage, refit by hand')),
+         A('Break or let go once, on purpose (replace it after)', TG('overload_response', 'breaks or lets go once')))),
      A('Stay where I leave it, and let go when I release it', AND(OR(SB('self-locking','hand-release only',k=1), F('self-locking & anti-back-drive')), NOT(F('knots, lashings & sewn joints','adjusters, levellers & spacers','everyday fasteners & fixings'))), Q('Does it turn or slide?',
          A('Turns', M('rotate','rotate+slide','multiple'), Q('What should it do?',
              A('Lock so only a person can open it (key, code, trigger)', N(r'combination|tumbler|hidden|sear|servo|cam latch|rotary latch|multi-point')),
@@ -256,13 +276,22 @@ def check_examples():
     extra = [p for p in ex if p not in set(paths)]
     return missing, extra
 
-def walk(node, S, path, out):
+def walk(node, S, path, out, flags=None):
+    """Every leaf as (path, entries, flags). flags maps an entry number to the tag fields whose
+    needs-confirming values put it on this path."""
+    global USED
     q, answers = node
     for label, pred, child in answers:
-        T=[e for e in S if pred(e)]
-        p=path+[label]
-        if child is None: out.append((p,T))
-        else: walk(child, T, p, out)
+        USED = set()
+        T = [e for e in S if pred(e)]
+        used, USED = USED, None
+        keep = {e['num'] for e in T}
+        fl = {k: set(v) for k, v in (flags or {}).items() if k in keep}
+        for num, field in used:
+            if num in keep: fl.setdefault(num, set()).add(field)
+        p = path + [label]
+        if child is None: out.append((p, T, fl))
+        else: walk(child, T, p, out, fl)
 
 if __name__=='__main__':
     HERE=os.path.dirname(os.path.abspath(__file__))
@@ -272,13 +301,14 @@ if __name__=='__main__':
     out=[]; walk(TREE,E,[],out)
     reached=set()
     verbose='-v' in sys.argv
-    for p,T in out:
+    for p,T,fl in out:
         reached|={e['num'] for e in T}
         flag='OK ' if 3<=len(T)<=10 else ('BIG' if len(T)>10 else 'SML')
         print(f"{flag} {len(T):3}  {' > '.join(x[:38] for x in p)}")
-        if verbose: print('        ', '; '.join(f"{e['num']} {e['name'][:28]}" for e in T))
+        if verbose: print('        ', '; '.join(f"{e['num']} {e['name'][:28]}" + (' ⚑' if e['num'] in fl else '') for e in T))
     un=[e for e in E if e['num'] not in reached]
-    print('\nleaves',len(out),'OK',sum(3<=len(T)<=10 for _,T in out),'BIG',sum(len(T)>10 for _,T in out),'SMALL',sum(len(T)<3 for _,T in out))
+    print('\nleaves',len(out),'OK',sum(3<=len(T)<=10 for _,T,_ in out),'BIG',sum(len(T)>10 for _,T,_ in out),'SMALL',sum(len(T)<3 for _,T,_ in out))
+    print('entries on a path because of a value that needs confirming',sum(len(fl) for _,_,fl in out))
     print('unreached',len(un)); [print('  ',e['num'],e['name'][:60],'|',e['family'],e['job'][:2],e['motion']) for e in un]
     # every answer needs a real-world example (examples.yaml; owner's request 2026-10-06)
     missing, extra = check_examples()

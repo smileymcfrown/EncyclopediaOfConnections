@@ -3,6 +3,8 @@
 # `example` is shown next to the answer, or behind an (i) icon with a pop-up where space is short.
 # `explain` is a one-line explanation, for answers whose wording could mislead.
 # tree.py checks that every answer has an example; gen_docs.py lists them all in answers.md.
+# Status: drafted by Claude on 2026-10-06; the owner accepted them as working text without a line-by-line
+# review (R25). They count as "needs confirming" as a set: corrections are welcome (see research/needs-confirming.md).
 - path:
   - Hold two things together (they stay still)
   example: a shelf bracket on a wall, a lid clipped onto a box, two printed parts bolted together
@@ -701,6 +703,12 @@
   - Slip, click or let go if overloaded
   - Click or pop out, then reset by itself
   example: a spring-and-ball torque limiter, a pressure relief valve
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Pull apart without damage, then refit it by hand
+  example: a magnetic laptop charger that pops off when someone trips on the cable, a hook-and-loop strap
+  explain: Nothing breaks and nothing resets by itself; it comes apart under a hard pull, and you push it back together.
 - path:
   - Control a movement (one way only, clicks, slips, locks, slows)
   - Slip, click or let go if overloaded

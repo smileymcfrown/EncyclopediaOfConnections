@@ -81,7 +81,7 @@ flowchart LR
   a28(["Follow a set path (e.g. swing out and stay level) · 8"])
   q22 --> a28
   class a28 leaf
-  a29["Control a movement (one way only, clicks, slips, locks, slows) · 123"]
+  a29["Control a movement (one way only, clicks, slips, locks, slows) · 133"]
   q0 --> a29
   q30{"What should it do?"}
   a29 --> q30
@@ -91,7 +91,7 @@ flowchart LR
   a32["Click into set positions · 20"]
   q30 --> a32
   class a32 more
-  a33["Slip, click or let go if overloaded · 21"]
+  a33["Slip, click or let go if overloaded · 40"]
   q30 --> a33
   class a33 more
   a34["Stay where I leave it, and let go when I release it · 34"]
@@ -427,7 +427,7 @@ flowchart LR
   a160(["Strongest bond · 7"])
   q159 --> a160
   class a160 leaf
-  a161(["Stays flexible, or seals too · 3"])
+  a161(["Stays flexible, or seals too · 4"])
   q159 --> a161
   class a161 leaf
   a162(["Fills gaps, or builds up a shape · 4"])
@@ -459,7 +459,7 @@ flowchart LR
   a172(["Strongest bond · 5"])
   q171 --> a172
   class a172 leaf
-  a173(["Stays flexible, or seals too · 4"])
+  a173(["Stays flexible, or seals too · 5"])
   q171 --> a173
   class a173 leaf
   a174(["Fills gaps, or builds up a shape · 3"])
@@ -594,7 +594,7 @@ flowchart LR
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
 
-### Branch 4: Control a movement (one way only, clicks, slips, locks, slows) (123 entries)
+### Branch 4: Control a movement (one way only, clicks, slips, locks, slows) (133 entries)
 
 ```mermaid
 flowchart LR
@@ -639,69 +639,72 @@ flowchart LR
   a234(["Slides, bends or something else · 7"])
   q229 --> a234
   class a234 leaf
-  a235["Slip, click or let go if overloaded · 21"]
+  a235["Slip, click or let go if overloaded · 40"]
   q218 --> a235
   q236{"What should happen when it is overloaded?"}
   a235 --> q236
-  a237["Slip, and keep going · 12"]
+  a237["Slip, and keep going · 20"]
   q236 --> a237
   q238{"Will you 3D print it?"}
   a237 --> q238
-  a239(["Yes, or partly · 6"])
+  a239(["Yes, or partly · 10"])
   q238 --> a239
   class a239 leaf
-  a240(["No, I will buy or machine it · 6"])
+  a240(["No, I will buy or machine it · 10"])
   q238 --> a240
   class a240 leaf
   a241(["Click or pop out, then reset by itself · 6"])
   q236 --> a241
   class a241 leaf
-  a242(["Break or let go once, on purpose (replace it after) · 5"])
+  a242(["Pull apart without damage, then refit it by hand · 5"])
   q236 --> a242
   class a242 leaf
-  a243["Stay where I leave it, and let go when I release it · 34"]
-  q218 --> a243
-  q244{"Does it turn or slide?"}
-  a243 --> q244
-  a245["Turns · 19"]
-  q244 --> a245
-  q246{"What should it do?"}
-  a245 --> q246
-  a247(["Lock so only a person can open it (key, code, trigger) · 8"])
-  q246 --> a247
-  class a247 leaf
-  a248(["Hold a load where it stops (brake or self-locking drive) · 10"])
-  q246 --> a248
+  a243(["Break or let go once, on purpose (replace it after) · 6"])
+  q236 --> a243
+  class a243 leaf
+  a244["Stay where I leave it, and let go when I release it · 34"]
+  q218 --> a244
+  q245{"Does it turn or slide?"}
+  a244 --> q245
+  a246["Turns · 19"]
+  q245 --> a246
+  q247{"What should it do?"}
+  a246 --> q247
+  a248(["Lock so only a person can open it (key, code, trigger) · 8"])
+  q247 --> a248
   class a248 leaf
-  a249(["Slides · 8"])
-  q244 --> a249
+  a249(["Hold a load where it stops (brake or self-locking drive) · 10"])
+  q247 --> a249
   class a249 leaf
-  a250(["Bends, or something else · 9"])
-  q244 --> a250
+  a250(["Slides · 8"])
+  q245 --> a250
   class a250 leaf
-  a251["Snap past a point and stay there (over-centre) · 13"]
-  q218 --> a251
-  q252{"What is it for?"}
-  a251 --> q252
-  a253(["Clamp or latch something shut · 5"])
-  q252 --> a253
-  class a253 leaf
-  a254(["Flip between two positions (switch, fold or stay) · 8"])
-  q252 --> a254
+  a251(["Bends, or something else · 9"])
+  q245 --> a251
+  class a251 leaf
+  a252["Snap past a point and stay there (over-centre) · 13"]
+  q218 --> a252
+  q253{"What is it for?"}
+  a252 --> q253
+  a254(["Clamp or latch something shut · 5"])
+  q253 --> a254
   class a254 leaf
-  a255["Slow it down, stop it, or keep its speed steady · 18"]
-  q218 --> a255
-  q256{"What do you need?"}
-  a255 --> q256
-  a257(["Stop it or hold it still (brakes) · 4"])
-  q256 --> a257
-  class a257 leaf
-  a258(["Cushion or smooth it (dampers) · 6"])
-  q256 --> a258
+  a255(["Flip between two positions (switch, fold or stay) · 8"])
+  q253 --> a255
+  class a255 leaf
+  a256["Slow it down, stop it, or keep its speed steady · 18"]
+  q218 --> a256
+  q257{"What do you need?"}
+  a256 --> q257
+  a258(["Stop it or hold it still (brakes) · 4"])
+  q257 --> a258
   class a258 leaf
-  a259(["Keep a steady speed or level · 7"])
-  q256 --> a259
+  a259(["Cushion or smooth it (dampers) · 6"])
+  q257 --> a259
   class a259 leaf
+  a260(["Keep a steady speed or level · 7"])
+  q257 --> a260
+  class a260 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -710,52 +713,52 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q260{"What change do you need?"}
-  a261["Faster, slower or stronger turning · 21"]
-  q260 --> a261
-  q262{"How are the input and output shafts arranged?"}
-  a261 --> q262
-  a263(["Side by side (parallel) · 10"])
-  q262 --> a263
-  class a263 leaf
-  a264(["At an angle (e.g. 90 degrees) · 7"])
-  q262 --> a264
+  q261{"What change do you need?"}
+  a262["Faster, slower or stronger turning · 21"]
+  q261 --> a262
+  q263{"How are the input and output shafts arranged?"}
+  a262 --> q263
+  a264(["Side by side (parallel) · 10"])
+  q263 --> a264
   class a264 leaf
-  a265(["In line (one straight through the other) · 7"])
-  q262 --> a265
+  a265(["At an angle (e.g. 90 degrees) · 7"])
+  q263 --> a265
   class a265 leaf
-  a266(["Far apart, or the path bends (belts, cables, chains) · 5"])
-  q262 --> a266
+  a266(["In line (one straight through the other) · 7"])
+  q263 --> a266
   class a266 leaf
-  a267["Turning into straight-line motion, or back · 27"]
-  q260 --> a267
-  q268{"What kind of straight-line motion?"}
-  a267 --> q268
-  a269(["A slow, precise push (screws) · 7"])
-  q268 --> a269
-  class a269 leaf
-  a270(["Back and forth, again and again (cranks, cams) · 5"])
-  q268 --> a270
+  a267(["Far apart, or the path bends (belts, cables, chains) · 5"])
+  q263 --> a267
+  class a267 leaf
+  a268["Turning into straight-line motion, or back · 27"]
+  q261 --> a268
+  q269{"What kind of straight-line motion?"}
+  a268 --> q269
+  a270(["A slow, precise push (screws) · 7"])
+  q269 --> a270
   class a270 leaf
-  a271(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
-  q268 --> a271
+  a271(["Back and forth, again and again (cranks, cams) · 5"])
+  q269 --> a271
   class a271 leaf
-  a272(["Steady turning into steps, or into rocking · 7"])
-  q260 --> a272
+  a272(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
+  q269 --> a272
   class a272 leaf
-  a273["A push or pull moved, multiplied or redirected · 14"]
-  q260 --> a273
-  q274{"How?"}
-  a273 --> q274
-  a275(["Levers and linkages · 9"])
-  q274 --> a275
-  class a275 leaf
-  a276(["Cables, ropes, pulleys or liquid in tubes · 5"])
-  q274 --> a276
+  a273(["Steady turning into steps, or into rocking · 7"])
+  q261 --> a273
+  class a273 leaf
+  a274["A push or pull moved, multiplied or redirected · 14"]
+  q261 --> a274
+  q275{"How?"}
+  a274 --> q275
+  a276(["Levers and linkages · 9"])
+  q275 --> a276
   class a276 leaf
-  a277(["Make movement from air, liquid, suction or heat · 8"])
-  q260 --> a277
+  a277(["Cables, ropes, pulleys or liquid in tubes · 5"])
+  q275 --> a277
   class a277 leaf
+  a278(["Make movement from air, liquid, suction or heat · 8"])
+  q261 --> a278
+  class a278 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -764,26 +767,26 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q278{"What are you tightening?"}
-  a279["A strap, lace, cord or rope · 21"]
-  q278 --> a279
-  q280{"How should it hold?"}
-  a279 --> q280
-  a281(["Click, wind or screw it tighter (ratchet, winch, turnbuckle) · 6"])
-  q280 --> a281
-  class a281 leaf
-  a282(["Grip by friction; release by hand (buckles, cord locks, hitches) · 8"])
-  q280 --> a282
+  q279{"What are you tightening?"}
+  a280["A strap, lace, cord or rope · 21"]
+  q279 --> a280
+  q281{"How should it hold?"}
+  a280 --> q281
+  a282(["Click, wind or screw it tighter (ratchet, winch, turnbuckle) · 6"])
+  q281 --> a282
   class a282 leaf
-  a283(["Pull back by itself (spring or elastic) · 3"])
-  q280 --> a283
+  a283(["Grip by friction; release by hand (buckles, cord locks, hitches) · 8"])
+  q281 --> a283
   class a283 leaf
-  a284(["A belt, chain or cable in a machine · 6"])
-  q278 --> a284
+  a284(["Pull back by itself (spring or elastic) · 3"])
+  q281 --> a284
   class a284 leaf
-  a285(["Parts clamped or pulled together · 10"])
-  q278 --> a285
+  a285(["A belt, chain or cable in a machine · 6"])
+  q279 --> a285
   class a285 leaf
+  a286(["Parts clamped or pulled together · 10"])
+  q279 --> a286
+  class a286 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -792,16 +795,16 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q286{"What do you need?"}
-  a287(["Put it back in exactly the same place every time · 7"])
-  q286 --> a287
-  class a287 leaf
-  a288(["Set a height, gap or position, then hold it · 5"])
-  q286 --> a288
+  q287{"What do you need?"}
+  a288(["Put it back in exactly the same place every time · 7"])
+  q287 --> a288
   class a288 leaf
-  a289(["Fine-tune a tilt or angle with screws · 4"])
-  q286 --> a289
+  a289(["Set a height, gap or position, then hold it · 5"])
+  q287 --> a289
   class a289 leaf
+  a290(["Fine-tune a tilt or angle with screws · 4"])
+  q287 --> a290
+  class a290 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -810,16 +813,16 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q290{"How should it push back?"}
-  a291(["Push or pull in a straight line · 7"])
-  q290 --> a291
-  class a291 leaf
-  a292(["A printed or bent springy part (flexure) · 8"])
-  q290 --> a292
+  q291{"How should it push back?"}
+  a292(["Push or pull in a straight line · 7"])
+  q291 --> a292
   class a292 leaf
-  a293(["Twist back (torsion), or wind up · 8"])
-  q290 --> a293
+  a293(["A printed or bent springy part (flexure) · 8"])
+  q291 --> a293
   class a293 leaf
+  a294(["Twist back (torsion), or wind up · 8"])
+  q291 --> a294
+  class a294 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -828,56 +831,56 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q294{"What do you need?"}
-  a295["Keep water, dust or air out of a joint that does not move · 16"]
-  q294 --> a295
-  q296{"Will you need to take it apart again?"}
-  a295 --> q296
-  a297["No, never · 10"]
-  q296 --> a297
-  q298{"What are the parts?"}
-  a297 --> q298
-  a299(["Metal sheet, tube or pipe · 6"])
-  q298 --> a299
-  class a299 leaf
-  a300(["Plastic, fabric or film, or a gap to fill · 4"])
-  q298 --> a300
+  q295{"What do you need?"}
+  a296["Keep water, dust or air out of a joint that does not move · 16"]
+  q295 --> a296
+  q297{"Will you need to take it apart again?"}
+  a296 --> q297
+  a298["No, never · 10"]
+  q297 --> a298
+  q299{"What are the parts?"}
+  a298 --> q299
+  a300(["Metal sheet, tube or pipe · 6"])
+  q299 --> a300
   class a300 leaf
-  a301(["Yes · 6"])
-  q296 --> a301
+  a301(["Plastic, fabric or film, or a gap to fill · 4"])
+  q299 --> a301
   class a301 leaf
-  a302(["Seal round a moving shaft or rod · 4"])
-  q294 --> a302
+  a302(["Yes · 6"])
+  q297 --> a302
   class a302 leaf
-  a303(["Get cables through a wall or past a moving joint · 8"])
-  q294 --> a303
+  a303(["Seal round a moving shaft or rod · 4"])
+  q295 --> a303
   class a303 leaf
-  a304["Join hoses, pipes or tubes · 11"]
-  q294 --> a304
-  q305{"How is it joined?"}
-  a304 --> q305
-  a306(["Screwed together (threads or a nut) · 4"])
-  q305 --> a306
-  class a306 leaf
-  a307(["Pushed on, clamped or clicked together · 4"])
-  q305 --> a307
+  a304(["Get cables through a wall or past a moving joint · 8"])
+  q295 --> a304
+  class a304 leaf
+  a305["Join hoses, pipes or tubes · 11"]
+  q295 --> a305
+  q306{"How is it joined?"}
+  a305 --> q306
+  a307(["Screwed together (threads or a nut) · 4"])
+  q306 --> a307
   class a307 leaf
-  a308(["Fused, soldered or brazed for good · 3"])
-  q305 --> a308
+  a308(["Pushed on, clamped or clicked together · 4"])
+  q306 --> a308
   class a308 leaf
-  a309["Pump, store or control air or liquid (valves, pumps) · 18"]
-  q294 --> a309
-  q310{"What should it do?"}
-  a309 --> q310
-  a311(["Push air or liquid along (pumps) · 7"])
-  q310 --> a311
-  class a311 leaf
-  a312(["Let flow one way only, or let off pressure (safety) · 4"])
-  q310 --> a312
+  a309(["Fused, soldered or brazed for good · 3"])
+  q306 --> a309
+  class a309 leaf
+  a310["Pump, store or control air or liquid (valves, pumps) · 18"]
+  q295 --> a310
+  q311{"What should it do?"}
+  a310 --> q311
+  a312(["Push air or liquid along (pumps) · 7"])
+  q311 --> a312
   class a312 leaf
-  a313(["Switch, set or store the flow (valves, regulators, tanks) · 7"])
-  q310 --> a313
+  a313(["Let flow one way only, or let off pressure (safety) · 4"])
+  q311 --> a313
   class a313 leaf
+  a314(["Switch, set or store the flow (valves, regulators, tanks) · 7"])
+  q311 --> a314
+  class a314 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -886,26 +889,26 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q314{"What will power it?"}
-  a315["Electricity · 11"]
-  q314 --> a315
-  q316{"What should it do?"}
-  a315 --> q316
-  a317(["Lock, latch or hold by magnet, and let go on command · 6"])
-  q316 --> a317
-  class a317 leaf
-  a318(["Brake, engage, switch or move something · 5"])
-  q316 --> a318
+  q315{"What will power it?"}
+  a316["Electricity · 11"]
+  q315 --> a316
+  q317{"What should it do?"}
+  a316 --> q317
+  a318(["Lock, latch or hold by magnet, and let go on command · 6"])
+  q317 --> a318
   class a318 leaf
-  a319(["Compressed air · 8"])
-  q314 --> a319
+  a319(["Brake, engage, switch or move something · 5"])
+  q317 --> a319
   class a319 leaf
-  a320(["Liquid (hydraulics, water) · 6"])
-  q314 --> a320
+  a320(["Compressed air · 8"])
+  q315 --> a320
   class a320 leaf
-  a321(["Suction (vacuum) · 6"])
-  q314 --> a321
+  a321(["Liquid (hydraulics, water) · 6"])
+  q315 --> a321
   class a321 leaf
+  a322(["Suction (vacuum) · 6"])
+  q315 --> a322
+  class a322 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```

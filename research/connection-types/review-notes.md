@@ -3,6 +3,11 @@
 Collected from the research agents' hand-back reports during `/research-deep`. None of these
 break validation; they are clean-ups for the report step or Phase 1.
 
+**Needs confirming (R25, 2026-10-06):** every point here that is not marked as settled counts as
+*needs confirming* (⚑). When the entries become pages (P5), each entry's open points are copied onto
+its page with the ⚑ mark, so readers can help settle them. When a point is settled, say how in its
+bullet. The full list of what needs confirming is in `research/needs-confirming.md`.
+
 ## Sources and links
 - **Books read from unofficial PDF copies** (listed in `sources`, not in `links`): *Machinery's
   Handbook* 27th ed. from theswissbay.ch (*Ratchet and pawl*, *Linear ratchet*, pp. 2088–2089)

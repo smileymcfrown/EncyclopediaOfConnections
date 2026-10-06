@@ -1,6 +1,7 @@
 # Fixed-choice finder tags (P3, accepted 2026-10-06). One value or a list per entry.
-# propose.py fills them in from the run 2 result files; the owner checks them family by family
-# in a review session (tags.yaml, status: proposed -> checked).
+# propose.py fills them in from the run 2 results (tags.yaml). The owner accepted its values as the working
+# values on 2026-10-06 (R25); values nobody has confirmed yet are listed under `needs_confirming` and
+# marked on the site, so anyone can suggest a correction.
 # Options are written as they will appear in the finder's filters.
 
 connects:
@@ -35,7 +36,7 @@ shaft_layout:
 
 overload_response:
   kind: one
-  meaning: What it does when overloaded (the "Slip, click or let go if overloaded" branch). "Comes apart without damage" is new (R24) and has no finder answer yet; for plugs, magnetic connectors and hook-and-loop that pull apart and are put back by hand.
+  meaning: What it does when overloaded (the "Slip, click or let go if overloaded" branch). "Comes apart without damage, refit by hand" was added on 2026-10-06 (R25) for plugs, magnetic connectors and hook-and-loop that pull apart and are put back by hand; it is the fourth answer to "What should happen when it is overloaded?".
   options: [slips and keeps going, clicks or pops out and resets, "comes apart without damage, refit by hand", breaks or lets go once, not applicable]
 
 clicks:

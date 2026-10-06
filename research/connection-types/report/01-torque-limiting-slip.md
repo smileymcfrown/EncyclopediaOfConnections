@@ -1,6 +1,6 @@
 # torque limiting & slip: Slips or lets go when overloaded
 
-[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
+[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). ⚑ marks what needs confirming; corrections are welcome (`research/needs-confirming.md`).
 
 ## 2 Ratchet-tooth torque limiter (clicking torque-limiting cap or knob)
 
@@ -41,8 +41,9 @@
   - indexing (clicks into set positions): each slip ends with the teeth dropping into the next gap, giving the audible and felt click that tells you the limit is reached
   - fail-safe or breakaway: it resets itself instantly, with nothing to replace after an overload
 - **holding_principle**: shape (the sloped teeth interlock; form-fit) held together by spring force (a spring presses the toothed rings into each other); friction on the tooth slopes adds to the torque it can carry
-- **input_output**: Continuous rotation -> the same rotation at 1:1 until the set torque, then the output stops while the input keeps clicking round. In line (coaxial). Back-drivable: yes; below the limit it behaves like a solid coupling, and in the undo direction lopsided teeth drive positively with no limit. *(unverified parts omitted)*
+- **input_output**: Continuous rotation -> the same rotation at 1:1 until the set torque, then the output stops while the input keeps clicking round. Nearly lossless while engaged (a solid tooth drive) ⚑ [uncertain: no efficiency figure published]. In line (coaxial). Back-drivable: yes; below the limit it behaves like a solid coupling, and in the undo direction lopsided teeth drive positively with no limit. *(⚑ parts need confirming)*
 - **power**: passive (no power needed)
+- **removability**: removable: the cap or knob screws on and off by hand (tool-free), and the limiter inside is a unit held by a clip or screw that can be taken apart for service; moulded fuel caps are usually not meant to be opened ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times: one maker's torque-limiting knobs were tested to 60,000 tightening cycles with unchanged torque values; disposable medical torque-limiting drivers are made for single or limited use
 - **tools_needed**: none to use. Assembly: screwdriver, circlip pliers or a snap fit; adjustable versions need a screwdriver, hex key or spacer to set the spring force
 - **seal**: none by itself. In a fuel or radiator cap the separate O-ring gasket seals; the limiter stops that gasket being crushed by over-tightening
@@ -55,7 +56,11 @@
 
 ### Making it
 
-- **processes**: 3D print (FDM): toothed clutch plates plus a bought metal spring, CNC (metal toothed rings for durable tools), off-the-shelf part: torque-limiting knobs, caps and screwdrivers *(unverified parts omitted)*
+- **processes**: 
+  - 3D print (FDM): toothed clutch plates plus a bought metal spring
+  - 3D print (resin) ⚑ [uncertain: resin teeth may chip]
+  - CNC (metal toothed rings for durable tools)
+  - off-the-shelf part: torque-limiting knobs, caps and screwdrivers *(⚑ parts need confirming)*
 - **print_in_place**: no: the two toothed plates, the handle/housing and the adjuster are printed separately and assembled with a bought metal spring, because a printed spring left permanently preloaded slowly loses force
 - **making_tips_3d_printing**: A proven layout is Printables 30226 'Torque Limiting Screw Driver' (public domain): two printed handle halves, two printed saw-tooth clutch plates and a coil spring, taking any 1/4 in hex bit, with a spacer that adds spring preload to raise the maximum torque. Its author says it is best for low torques. Material: several printed torque tools recommend PETG. One maker found PLA too brittle and prone to deforming under pressure and printed with 5 walls, 5 top and bottom layers and 30% infill ('Tunable torque wrench', Printables 115459). Others recommend PETG, ABS or nylon, printed with a 0.4 mm nozzle, 3 perimeters and 0.2 mm layers ('TORQUEY', Printables 1244374). Tooth faces: print the plates flat with the teeth facing up and use fine layers, because the sloped faces come out as small steps that change the click torque. Sand off burrs and grease the teeth; the tunable wrench author also sands the gears and adds grease. Spring: use a metal spring, not a printed one. DuPont's design guide warns that moulded plastic springs in ratchets and torque-limiting gears must not stay in the loaded position for long periods. One printed-wrench author also says to back the preload off to zero when the tool is stored. Calibrate: fit an arm, hang a known weight and loosen the spring until it just slips; torque = weight force x arm length. The tunable wrench's arm gives 0.5 Nm per 1 kg. Expect the torque to vary with filament brand and print settings. Test each print against a real torque tool before trusting it.
 - **off_the_shelf_parts**: Torque-limiting clamping knobs (e.g. Elesa+Ganter VTD, brand: 2, 3, 4 or 6 Nm, thread M5-M12); cam-over torque screwdrivers and fixed-torque (preset) drivers; disposable torque-limiting drivers (medical); torque-limiting fuel/radiator caps (vehicle-specific); micrometers with a ratchet stop. Hardware for DIY: compression springs, wave springs (wave washers), disc springs (Belleville washers), 1/4 in hex bits and bit holders, thrust washers.
@@ -76,7 +81,7 @@
   - torque-limiting clamping knobs on lab machines and sharpening jigs
 - **when_to_use**: When a person tightens something by hand and must not over-tighten it: caps with a rubber seal (fuel, radiator, bottles), small screws in plastic, carbon or electronics, clamping knobs on jigs and lab kit, measuring tools, and printer nozzles. Also when you want the click as feedback that the right tightness has been reached, and when the part must still come off easily (lopsided teeth give a solid grip in the undo direction). Cheap, compact, needs no power, and resets itself at once.
 - **when_not_to_use**: Not for continuous slipping under power: the teeth hammer and wear, so for a motor drive that may jam use a ball-detent torque limiter (clean disengagement, can trip a switch) or a friction slip clutch (smooth, silent slip). Not where you need an accurate, certified torque on safety-critical bolts: use a calibrated torque wrench or screwdriver. Not where torque must be limited equally in both directions with a solid undo grip at the same time; that needs symmetric teeth or a ball or friction design. Printed versions are not for more than a few Nm.
-- **environment_limits**: Heat: plastic spring fingers relax and stop working near hot engines, which is why rigid, heat-stable teeth and a metal wave washer were used in a fuel-cap patent. Printed PLA softens and deforms above about 60 °C, while PETG is fine below about 80 °C. Fuel caps: the rubber gasket hardens and cracks from petrol, heat and weather, and dirt or sand on the threads spoils the seal. *(unverified parts omitted)*
+- **environment_limits**: Heat: plastic spring fingers relax and stop working near hot engines, which is why rigid, heat-stable teeth and a metal wave washer were used in a fuel-cap patent. Printed PLA softens and deforms above about 60 °C, while PETG is fine below about 80 °C. Fuel caps: the rubber gasket hardens and cracks from petrol, heat and weather, and dirt or sand on the threads spoils the seal. Wear: every click rubs the tooth slopes, so the torque drifts as plastic teeth wear or as grease dries or gets dirty ⚑ [uncertain: no drift figures for plastic versions]. Water or vibration: no specific limits found ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: A clicking limiter is not a calibrated tool. Printed ones vary with filament and print settings, and one maker found that a printed nozzle wrench did not tighten enough and let filament leak. Use a calibrated tool for safety-critical fasteners such as brakes and structural bolts. A fuel cap that no longer clicks may leak fuel vapour and trigger a check-engine light, so replace it. Adjustable versions store some spring energy, so open them carefully. Otherwise no special hazards are known.
 - **common_failures**: (1) Teeth wear or round off, so it clicks early or slips at a lower torque; use harder materials (acetal, nylon, steel), more teeth and grease. (2) The spring relaxes, especially plastic spring fingers or springs left preloaded in storage, so the torque falls; use metal springs and store adjustable tools at zero preload. (3) It will not click at all (broken pawl, jammed teeth or debris); clean it or replace the unit. (4) Cross-threading or a damaged gasket makes a cap feel wrong or leak even though it clicks. (5) Tooth chips in brittle prints (PLA, some resins); use PETG or nylon with more walls. (6) Torque set too low for the job, like the printed nozzle wrench that let filament leak; calibrate against a real torque tool.
 - **related**: 
@@ -121,9 +126,26 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
 
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: clicks or pops out and resets
+- **clicks**: clicks
+- **tools**: none, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, processes, removability
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, processes, removability
 
 ## 3 Ball-detent torque limiter
 
@@ -161,16 +183,17 @@
   - fail-safe or breakaway: acts as a mechanical fuse that disconnects in about 3-5 ms, faster than electronic current limiting can react
   - indexing (clicks into set positions): multi-position types re-engage at the next dimple; single-position (synchronous) types re-engage at only one position per turn so machine timing is kept; full-disengagement types stay apart after tripping until pushed back in by hand
 - **holding_principle**: shape (the balls interlock with the dimples; form-fit), held in place by spring force (disc springs or coil springs press the balls into the dimples)
-- **input_output**: Continuous rotation -> the same rotation at 1:1 until the trip torque, then the torque passed on drops to near zero. Works the same in both directions (a drill clutch limits torque equally both ways). In line (coaxial), or a gear, sprocket or pulley mounted on the limiter hub. Back-drivable: yes, below the trip torque it is a solid coupling, so the output can drive the input. *(unverified parts omitted)*
+- **input_output**: Continuous rotation -> the same rotation at 1:1 until the trip torque, then the torque passed on drops to near zero. Works the same in both directions (a drill clutch limits torque equally both ways). Backlash-free while engaged in industrial designs; efficiency close to 100% while engaged ⚑ [uncertain: no figure published]. In line (coaxial), or a gear, sprocket or pulley mounted on the limiter hub. Back-drivable: yes, below the trip torque it is a solid coupling, so the output can drive the input. *(⚑ parts need confirming)*
 - **power**: passive (no power needed). Many industrial units carry a switch plate that a proximity sensor or limit switch reads to cut the motor power after a trip; the limiter itself needs no power.
 - **removability**: removable: mounts on a shaft with keyways, set screws or clamping hubs and can be taken off and refitted
 - **reuse_cycles**: effectively unlimited: it resets after each overload (automatically, or by hand for full-disengagement types), unlike a shear pin, as long as it is not left ratcheting for long
 - **tools_needed**: hex keys or spanners to mount on the shaft; a spanner (pin) wrench to turn the adjusting ring on industrial units; none to adjust a drill clutch (turn the collar). Printed versions: screwdriver and the hardware for the springs
-- **load**: Strong in twist up to the trip torque in both directions; needs the manufacturer's radial-load and misalignment limits kept, so side loads from belts or misaligned shafts should be carried by bearings. *(unverified parts omitted)*
+- **seal**: none as a seal; industrial units are greased for life and are designed to keep dirt away from the balls ⚑ [uncertain how well sealed each type is] *(⚑ parts need confirming)*
+- **load**: light to heavy: from the clutch in a cordless drill to large industrial units on machine tools, packaging lines and conveyors ⚑ [uncertain: exact largest ratings not verified]. Strong in twist up to the trip torque in both directions; needs the manufacturer's radial-load and misalignment limits kept, so side loads from belts or misaligned shafts should be carried by bearings. *(⚑ parts need confirming)*
 - **adjustable**: yes: the trip torque is set by compressing the springs, turning an adjusting nut or ring on industrial units (within a marked range) or the numbered collar on a drill; changing the number or rate of springs changes the range
 - **play_and_precision**: none to very small play: industrial designs transmit torque backlash-free. Trip accuracy is about ±5% (versus about ±20% for shear pins), with ±5-10% quoted for repeated trips. Single-position types return to exactly the same angle after reset. Tolerates little misalignment on its own, so pair it with a flexible coupling (a 'safety coupling') or support bearings.
 - **access_needed**: end of a tube or shaft: it slides onto a shaft end, or sits between two shaft ends as a coupling
-- **materials**: Hardened steel balls (e.g. DIY/printed versions use PETG, ABS or nylon bodies with real steel balls (e.g. 6 mm bearing balls) and metal coil springs. *(unverified parts omitted)*
+- **materials**: Hardened steel balls (e.g. 52100 chrome steel), hardened steel detent plates, steel disc springs, steel or aluminium housings; drill clutches use steel balls in a plastic or metal gearbox housing ⚑ [uncertain which parts are plastic]. DIY/printed versions use PETG, ABS or nylon bodies with real steel balls (e.g. 6 mm bearing balls) and metal coil springs. *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: steel balls and springs are cheap and a printed body works for light loads (small robots, printer mechanisms, spool drives), but plastic dimples wear and dent with repeated trips and the trip torque has to be calibrated; buy an industrial unit for real machine protection
 
 ### Making it
@@ -180,7 +203,7 @@
   - CNC: hardened steel detent plates and hubs for durable units
   - off-the-shelf part: industrial ball-detent torque limiters and torque-limiting sprocket hubs
 - **print_in_place**: no: the steel balls and metal springs must be added and the torque set during assembly, so the parts are printed separately and assembled
-- **making_tips_3d_printing**: Use real steel balls. A printable ball-detent demonstrator (Printables 1063083) is built for a 6 mm ball bearing, and its author warns that a printed ball will not detent as smoothly. Use metal springs, because plastic springs held under constant load relax (DuPont design guide). Detent shape: a common starting point for detents is a 90° cone-shaped seat about 25-30% of the ball diameter deep. The holding force follows spring force x tan(half the seat angle + friction angle), so a shallower seat or a weaker spring trips at lower torque (secondary source). Put the balls in holes spaced round a circle in one printed plate, with the dimples in the facing plate, and spring the pressure plate along the shaft with an adjusting nut so you can tune the trip torque. Choose the reset style: equally spaced dimples reset themselves but click round until the jam clears, which wears plastic fast; an irregular spacing re-engages once per turn and keeps position timing, useful for a robot joint. Material: PETG (fine below about 80 °C) or nylon rather than PLA, which softens above about 60 °C and is brittle. Calibrate with a weight on an arm (torque = weight force x arm length) and re-check after some trips. *(unverified parts omitted)*
+- **making_tips_3d_printing**: Use real steel balls. A printable ball-detent demonstrator (Printables 1063083) is built for a 6 mm ball bearing, and its author warns that a printed ball will not detent as smoothly. Use metal springs, because plastic springs held under constant load relax (DuPont design guide). Detent shape: a common starting point for detents is a 90° cone-shaped seat about 25-30% of the ball diameter deep. The holding force follows spring force x tan(half the seat angle + friction angle), so a shallower seat or a weaker spring trips at lower torque (secondary source). Put the balls in holes spaced round a circle in one printed plate, with the dimples in the facing plate, and spring the pressure plate along the shaft with an adjusting nut so you can tune the trip torque. Printed holes usually come out undersize, so test-fit the balls ⚑ [uncertain: no measured clearance]. Choose the reset style: equally spaced dimples reset themselves but click round until the jam clears, which wears plastic fast; an irregular spacing re-engages once per turn and keeps position timing, useful for a robot joint. Material: PETG (fine below about 80 °C) or nylon rather than PLA, which softens above about 60 °C and is brittle. Hardened balls will dent plastic seats under high spring force ⚑ [uncertain: no test data], so keep the torque low or press in metal seats (washers, bushings) where the balls run ⚑ [uncertain]. Calibrate with a weight on an arm (torque = weight force x arm length) and re-check after some trips. If a motor drives it, add a microswitch that the pressure plate presses when it lifts, to cut power after a trip ⚑ [uncertain: DIY adaptation of the industrial sensor plate]. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Ball-detent torque limiters in single-position (synchronous), multi-position, load-holding and full-disengagement (free-wheeling) versions; torque-limiter couplings combined with flexible (elastomer spider or bellows) couplings, sold as 'safety couplings'; torque-limiting sprocket, gear or pulley hubs (listed as 'chain and belt torque limiters' in supplier catalogues); spring plungers and ball plungers; hardened chrome-steel balls; disc springs (Belleville washers); proximity sensors or limit switches for trip detection. Supplier vocabulary: 'torque limiter', 'overload clutch', 'safety coupling', 'ball detent torque limiter' (e.g. McMaster-Carr 'Torque Limiters').
 - **rules_of_thumb**: 
   - Set the trip torque above normal running torque with a service factor: trip torque = service factor x running torque, with about 1.25 for normal duty and 1.5 for heavy shock loads (https://www.motioncontroltips.com/three-torque-limiter-options-compared-and-trip-torque-explained/).
@@ -199,7 +222,7 @@
   - servo axes on machine tools, robots, woodworking and packaging machines, where it protects against crashes and jams
 - **when_to_use**: When a motor or gearbox could jam or crash and you want the drive to let go cleanly, quickly and repeatably, then carry on after the jam is cleared. Examples: robot arms and joints, CNC and 3D-printer axes, conveyors, packaging and printing lines, winders and spool drives. Use it when you need no backlash while running (positioning systems), when you want a switch to shut the motor off after a trip, or when timing must be kept after a reset (single-position type).
 - **when_not_to_use**: Not for continuous controlled slipping, such as keeping tension on a spool or a slip-to-hold function: use a friction slip clutch or a magnetic (hysteresis) clutch, which slip smoothly and steadily. Not for very high torques at low cost where occasional replacement is acceptable: a shear pin is simpler. Not where the limiter would have to carry large side loads or misalignment by itself. For a hand-turned cap or knob, a simpler ramp-tooth (clicking) limiter is enough. It is not a safety guard for people, because it protects the machine, not fingers.
-- **environment_limits**: Heat: spring force falls as springs warm. Music-wire springs lose about 3% of their rate per 100 °C (secondary source), and disc springs can take a set over time, lowering the trip torque. Printed bodies: PLA softens above about 60 °C and PETG is fine below about 80 °C (Prusa). Vibration can make lightly set detents skip. High speed: repeated re-engagement above about 2500 rpm can damage balls and detents, so re-engage at low speed. *(unverified parts omitted)*
+- **environment_limits**: Heat: spring force falls as springs warm. Music-wire springs lose about 3% of their rate per 100 °C (secondary source), and disc springs can take a set over time, lowering the trip torque. Printed bodies: PLA softens above about 60 °C and PETG is fine below about 80 °C (Prusa). Dirt and grit in the balls and dimples change the trip torque and speed up wear, so industrial units are greased for life ⚑ [uncertain: sealing level varies]. Vibration can make lightly set detents skip. High speed: repeated re-engagement above about 2500 rpm can damage balls and detents, so re-engage at low speed. *(⚑ parts need confirming)*
 - **safety_notes**: Self-resetting types re-engage as soon as the load drops, so switch off and lock out the motor before clearing a jam, or the machine may start moving again. Disc springs store energy: take units apart carefully (one maker requires installation by a qualified technician, and warns that dismantling voids the warranty). Full-disengagement types must be pushed back in by hand, at low speed only. A limiter protects the machine, not people, so keep guards in place. Small steel balls are a swallowing hazard for children.
 - **common_failures**: (1) Wear of balls and detents from long ratcheting after a jam; add a sensor that stops the motor, or use a full-disengagement type. (2) Denting (brinelling) of seats with soft balls or seats, especially in printed plastic; use hardened balls and hard seats. (3) Springs lose force or take a set, so it trips early; check the setting and keep it away from heat. (4) Set too low, giving nuisance trips on start-up shock; use a service factor. Set too high, so it gives no protection; set it below the damage torque. (5) Dirt or dried grease makes the trip torque erratic. (6) Side loads or misalignment wear the internal bearing; add a flexible coupling or support bearings. (7) Re-engaging at high speed damages the detents.
 - **related**: 
@@ -216,9 +239,12 @@
 
 - **links**: 
   - [Torque limiter with balls Make Ringspann.JPG (Wikimedia Commons, S.J. de Waard, 2013)](https://commons.wikimedia.org/wiki/File:Torque_limiter_with_balls_Make_Ringspann.JPG): Photo of an industrial ball-type torque limiter on display at Europort 2013 *(licence: CC BY-SA 3.0 and GFDL 1.2+ (reuse with credit))*
+  - [Ikea Fixa - torque limiter and motor (Wikimedia Commons, Raimond Spekking, 2024)](https://commons.wikimedia.org/wiki/File:Ikea_Fixa_-torque_limiter_and_motor-1227.jpg): A cordless drill's gearbox and motor taken out of the tool, with the numbered torque-limiter (clutch) collar; the inside of the clutch is not visible, so it is not confirmed that this model uses balls ⚑ [uncertain] *(licence: CC BY-SA 4.0 (reuse with credit))*
   - [R+W ST Series Industrial Torque Limiters (R+W Coupling Technology, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=VLEFE714iPQ): Manufacturer video of industrial ball-detent torque limiters *(licence: link only)*
   - [Nexen Mechanical Torque Limiter installation, operation and maintenance manual (L-21219-F-0719)](https://www.nexengroup.com/media/gated_content/LitPDF/21219.pdf): Numbered cut-away drawing (balls, detents, disc springs, actuation ring, adjusting ring, proximity sensor) and engaged/disengaged diagrams for single-position, multi-position and full-disengagement types *(licence: link only)*
-  - [Ball detent torque limiters: How do they work and when are they used? (Motion Control Tips)](https://www.motioncontroltips.com/how-do-ball-detent-torque-limiters-work-and-when-are-they-used/): Plain explanation with product images of how balls, detents and disc springs work, and of multi-position vs single-position reset *(licence: link only)* *(unverified parts omitted)*
+  - [Ball detent torque limiters: How do they work and when are they used? (Motion Control Tips)](https://www.motioncontroltips.com/how-do-ball-detent-torque-limiters-work-and-when-are-they-used/): Plain explanation with product images of how balls, detents and disc springs work, and of multi-position vs single-position reset *(licence: link only)* *(⚑ parts need confirming)*
+- **make_it_yourself**: 
+  - [Ball detent mechanism by Ragesh (Printables 1063083; details read via the Printables public API)](https://www.printables.com/model/1063083-ball-detent-mechanism): Printable six-position (60°) rotary ball detent in 4 printed parts, using a 6 mm steel ball, a spring and an M3 screw and nut. It shows the ball-in-dimple principle; with a stiffer spring and a drive shaft, the same layout behaves as a multi-position torque limiter ⚑ [uncertain: not tested as a limiter] *(licence: Creative Commons Attribution (CC BY))* *(⚑ parts need confirming)*
 - **diagram_idea**: A side section through two plates with a steel ball half in a hole and half in a cone-shaped dimple, disc springs pushing from behind. Show three frames: normal drive (the ball pushes on the dimple slope and the springs hold), overload (the ball rolls up the slope and the pressure plate moves back, tripping a switch), and reset (the ball drops into the next dimple, or the only matching one on single-position types).
 - **sources**: 
   - https://en.wikipedia.org/wiki/Torque_limiter
@@ -242,9 +268,26 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
 
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: clicks or pops out and resets
+- **clicks**: clicks
+- **tools**: drill and tap, hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, links, load, make_it_yourself, making_tips_3d_printing, materials, seal
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, load, make_it_yourself, making_tips_3d_printing, materials, seal
 
 ## 4 Friction slip clutch (slip coupling, slipper clutch)
 
@@ -295,19 +338,21 @@
 - **reuse_cycles**: effectively unlimited: it can slip and re-grip over and over and can be taken apart many times, though the friction faces wear and the torque setting drifts, so it needs checking and occasional new pads
 - **tools_needed**: A spanner (wrench) or screwdriver for the adjusting nut; circlip pliers for small units whose spring is held by a circlip (Commons photo notes the circlip is 'a little tricky to fit'); sometimes a hex key for the hub's set screw
 - **seal**: none: it is an open mechanism; oil, grease or water on the friction faces changes the slip torque, so it should be kept dry and clean or covered
-- **load**: Strong in twist up to its set slip torque by design; it is not meant to carry large side loads or thrust on its own, so the shaft needs its own bearings *(unverified parts omitted)*
+- **load**: Light to heavy depending on size: hobby versions carry light loads (a few N·cm in a toy clutch gear to about 1 N·m in printed designs ⚑ [uncertain]); industrial friction torque limiters are sold from about 1 N·m up to 23,000 N·m (ComInTec range quoted in CDA). Strong in twist up to its set slip torque by design; it is not meant to carry large side loads or thrust on its own, so the shaft needs its own bearings *(⚑ parts need confirming)*
 - **adjustable**: yes: turning the adjusting nut changes how hard the spring presses (industrial units: tighten until it no longer slips in normal running, then a further half turn; RC slipper clutches are adjusted in 1/8-turn steps). Changing the spring or adding friction discs changes the range
 - **play_and_precision**: No backlash while gripping if the friction plate is mounted rigidly; if the plate slides on a spline to follow the spring, the spline adds backlash, and Slocum advises mounting the plate on a thin flexible disc (diaphragm) for precision work. Repeatability of the slip torque is modest (industrial units about +/-15%). After any slip the output has lost its angular position relative to the input, so a robot joint needs re-homing if its position sensor is on the motor side. It does not tolerate much shaft misalignment; use a flexible coupling as well if the shafts are not in line
 - **access_needed**: end of a tube or shaft: the parts slide onto a shaft end and are clamped by a nut or circlip on that end
-- **materials**: Oil and grease must be kept off the friction faces *(unverified parts omitted)*
+- **materials**: Industrial: steel hub and pressure plates, bonded friction rings (organic lining material ⚑ [uncertain]), steel disc springs, a bronze or plastic plain bearing inside the driven part. Maker versions: printed plates or gears (PETG is preferred over PLA because slipping makes heat and the parts must flex slightly), a metal compression spring or wave washer, a lock nut on a threaded rod or bolt, and optionally friction pads such as felt, cork, leather or rubber O-rings between printed faces ⚑ [uncertain]. Oil and grease must be kept off the friction faces *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: easy to print and assemble with a bolt, a spring and a lock nut, but getting a steady slip torque takes trial and error (spring choice, friction material, and printed parts that soften or creep); ready-made friction torque limiters and RC slipper clutches can be bought instead
 
 ### Making it
 
 - **processes**: 
   - 3D print (FDM): plates, gear with friction faces, pressure plate and spool hubs; add a metal spring and nut
+  - 3D print (resin): possible for small clock or instrument clutches ⚑ [uncertain]
   - CNC or lathe: metal hubs and pressure plates
-  - off-the-shelf part: industrial friction torque limiters (hub type for sprockets and pulleys, or coupling type), RC slipper clutch assemblies and pads, toy-kit clutch gears *(unverified parts omitted)*
+  - laser cut: flat friction discs from acrylic, plywood, cork or felt sheet ⚑ [uncertain]
+  - off-the-shelf part: industrial friction torque limiters (hub type for sprockets and pulleys, or coupling type), RC slipper clutch assemblies and pads, toy-kit clutch gears *(⚑ parts need confirming)*
 - **print_in_place**: no: the plates, spring and nut are separate parts that are assembled, and the spring and nut are normally bought metal parts; this is what allows the torque to be adjusted
 - **making_tips_3d_printing**: Print the rubbing plates flat on the bed so the friction faces are smooth top or bottom surfaces, not layer edges. Use PETG (or ASA, nylon) rather than PLA for parts that slip or flex: the RC slipping-gear designer on Printables says the clutch 'needs to flex and accept some heat - so PETG is better than PLA', and the Printables clock friction clutch 'does not work printed in PLA' and needs a tolerance-calibrated PETG profile. PLA softens and deforms above about 60 °C (Prusa), which slipping can reach. Let a metal coil spring, wave washer or disc spring provide the clamping force rather than squeezed plastic, because plastic springs and clamped plastic lose force over time (stress relaxation, DuPont). Key alternate discs to input and output the simple way shown in Thang's 'Safety clutch 4': square holes locking some discs to one shaft and round holes riding on a square rod for the others. Use a lock nut (nylon insert) on a threaded rod or bolt so the setting does not unwind; the Printables spool holder runs on an 8 mm or 5/16 in threaded rod. Expect the first hours of use to change the torque as the faces bed in, and test the slip torque with a drill on its lowest clutch setting, as the RC slipping-gear designer suggests. Keep all grease away from the friction faces, but lubricate any separate bearing surfaces
 - **off_the_shelf_parts**: Friction torque limiter (hub type, carries a sprocket, gear or pulley between two friction rings, with disc springs and an adjusting nut); torque limiter coupling; slip clutch; RC slipper clutch assembly, slipper pads and slipper spring; spur gear with slipper hub; disc springs (Belleville washers); wave washers; compression springs; nylon-insert lock nuts; threaded rod; plain bearings or 608 ball bearings for spool holders; toy-kit clutch gears (e.g. LEGO Technic (brand) 24-tooth clutch gear). Supplier category names: 'torque limiters', 'slip clutches', 'friction torque limiters'
@@ -330,7 +375,7 @@
   - The friction clutch that lets you move a clock's hands to set the time without stopping the movement (Printables 'Friction Clutch for Clock'); also the LEGO Technic (brand) clutch gear used so a motor can keep running when steering hits its end stop (Sariel)
 - **when_to_use**: When a motor or gearbox could jam or hit an end stop and you want it to slip safely and carry on afterwards without replacing anything: robot arm joints and grippers (Slocum: a clutch keeps gear teeth from being sheared off when a driven part hits a rigid object), RC car drivetrains, conveyor and winch drives, window-blind and curtain drives, knobs that must not over-drive a mechanism at its end stops, clock hand-setting. Also when you want a steady, adjustable drag, such as a spool holder or fishing reel. Good when overloads may happen often, because it resets by itself
 - **when_not_to_use**: Not when the load must be held against gravity or position must never be lost, because a slipping clutch lets the load move and the output loses its position (use a worm drive, brake or other self-locking drive, or a ball-detent limiter that snaps back to the same position). Not where it would slip for long periods at speed, since heat and wear build up (stop the motor using current sensing, or use a magnetic or hysteresis coupling). Not where an exact trip torque is needed, since friction limiters vary by about +/-15% (use a ball-detent torque limiter). Not where you need the drive fully disconnected on overload (use a disconnect-type ball-detent limiter or a shear pin). Not in oily places unless it is sealed or oil-rated
-- **environment_limits**: Oil or grease on the faces causes a large torque drop and water a temporary one (CDA Magazine / ComInTec). Heat from slipping raises temperature; printed PLA parts soften and deform above about 60 °C (Prusa PLA guide), PETG is rated for use below about 80 °C (Prusa PETG guide). Plastic parts that are clamped lose force over time through stress relaxation (DuPont design guide), so use a metal spring. *(unverified parts omitted)*
+- **environment_limits**: Oil or grease on the faces causes a large torque drop and water a temporary one (CDA Magazine / ComInTec). Heat from slipping raises temperature; printed PLA parts soften and deform above about 60 °C (Prusa PLA guide), PETG is rated for use below about 80 °C (Prusa PETG guide). Plastic parts that are clamped lose force over time through stress relaxation (DuPont design guide), so use a metal spring. Slip torque drifts as the faces wear, bed in, glaze or pick up dirt, so recheck the setting now and then; long periods without slipping can change the first slip torque ⚑ [uncertain] *(⚑ parts need confirming)*
 - **safety_notes**: It limits torque but does not make a machine finger-safe: the set torque can still pinch or crush, and the input side keeps turning while the output is stalled. On a lifting axis or robot arm, an overload can let the load drop or sag. Slipping parts can get hot. The spring is preloaded, so undo the nut carefully. Disconnect power (or remove the spark plug lead on engines) before adjusting
 - **common_failures**: Set too tight: it never slips, and gears or motors break anyway; set too loose: it slips in normal use, overheats and wears or burns out the pads (RCexplained; PetitRC). Oil, grease or water on the faces makes it slip early (ComInTec). Printed parts soften, glaze or wear from heat when they slip for long; printed or clamped plastic springs relax so the torque falls over time (DuPont). The nut unwinds and changes the setting (use a lock nut). Wear on the faces lowers the spring force and the torque unless the spring has a flat force curve. Avoid these by using a metal spring and lock nut, keeping it clean and dry, sizing it so it only slips on real overloads, and checking the setting regularly
 - **related**: 
@@ -349,7 +394,8 @@
   - [Slipping Clutch parts (Wikimedia Commons photo by tony_duell)](https://commons.wikimedia.org/wiki/File:Slipping_Clutch_parts.jpg): Photo of the separate parts of a small real slipping clutch that sits between a gearbox and a chart roller *(licence: CC BY 2.0 (reuse with credit))*
   - [Slipping Clutch assembled (Wikimedia Commons photo by tony_duell)](https://commons.wikimedia.org/wiki/File:Slipping_Clutch_assembled.jpg): The same slipping clutch assembled, with its spring retained by a circlip *(licence: CC BY 2.0 (reuse with credit))*
   - [Safety clutch 4 (Nguyen Duc Thang, YouTube thang010146)](https://youtu.be/Rrpg253rWto): CAD animation: friction discs pressed together by an adjustable spring; square discs locked to one shaft and round discs to the other, slipping when overloaded *(licence: link only (YouTube, all rights reserved))*
-  - [Safety Friction Clutch (DMG-Lib, Artobolevsky mechanism collection no. 452)](https://www.dmg-lib.org/dmglib/handler?mcdsc=3847025): Drawing of a safety friction clutch from Artobolevsky's mechanism collection, with a permanent DMG-Lib link *(licence: link only (DMG-Lib conditions of use))* *(unverified parts omitted)*
+  - [Safety Friction Clutch (DMG-Lib, Artobolevsky mechanism collection no. 452)](https://www.dmg-lib.org/dmglib/handler?mcdsc=3847025): Drawing of a safety friction clutch from Artobolevsky's mechanism collection, with a permanent DMG-Lib link *(licence: link only (DMG-Lib conditions of use))*
+  - [Limiteur de couple (Wikimedia Commons diagram by Jean-Jacques Milan)](https://commons.wikimedia.org/wiki/File:Limiteur_de_couple.png): Simple diagram of a torque limiter pressed by disc springs (the file page does not state which type is drawn ⚑ [uncertain]) *(licence: GFDL 1.2+ or CC BY-SA 3.0 (reuse with credit))* *(⚑ parts need confirming)*
 - **make_it_yourself**: 
   - [Parametric Hangable Any-Direction Continuous Slip Clutch with optional Auto-Rewind Universal Spool Holder (Riskable, Printables)](https://www.printables.com/model/24154-parametric-hangable-any-direction-continuous-slip-): Parametric OpenSCAD filament spool holder with an adjustable continuous slip clutch that keeps tension on the filament, on an 8 mm or 5/16 in threaded rod with skate bearings; video at https://www.youtube.com/watch?v=kHT3rltCInU (web page bot-blocked here; details read through the Printables API) *(licence: CC BY-NC)*
   - [Friction Clutch for Clock (jattie, Printables)](https://www.printables.com/model/948932-friction-clutch-for-clock): Adjustable friction clutch for a printed pendulum clock so the hands can be set without disconnecting the drivetrain; Fusion 360 source included; needs a tolerance-calibrated PETG profile (details read through the Printables API) *(licence: GPL 3.0)*
@@ -382,9 +428,26 @@
   - https://www.youtube.com/watch?v=kHT3rltCInU
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: shaft ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: slips and keeps going
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, links, load, materials, processes
+- ⚑ **Fields with parts that need confirming:** environment_limits, links, load, materials, processes
 
 ## 5 Torque-limiting gear with flexing spring arms (compliant slip hub)
 
@@ -406,10 +469,11 @@
   - clutch gear
   - friction hub
   - spring-arm clutch
+  - gear saver or motor saver (maker term) ⚑ [uncertain]
   - friction-type torque limiter with a split resin sleeve (printer paper-feed parts)
   - servo saver (RC cars: a sprung or flexible servo arm)
   - adjustable servo saver
-  - flexible servo arm / flexible servo horn *(unverified parts omitted)*
+  - flexible servo arm / flexible servo horn *(⚑ parts need confirming)*
 - **family**: torque limiting & slip
 - **other_families**: compliant mechanisms & flexures, print-in-place & 3D-printing joints, clutches & couplings
 - **one_liner**: A gear or hub whose own flexible arms grip the shaft by spring force, so it drives normally but slips instead of stripping teeth when overloaded, with no separate springs, balls or nuts.
@@ -419,7 +483,7 @@
 ### Finder attributes
 
 - **job**: slip or let go when overloaded: protects plastic gear teeth, small motors and servos, join and hold: it also holds the gear on its shaft, with no key or set screw
-- **motion**: rotate: 1:1 rotation while gripping; unlimited slipping rotation when overloaded. *(unverified parts omitted)*
+- **motion**: rotate: 1:1 rotation while gripping; unlimited slipping rotation when overloaded. Servo saver: rotate, a limited give of some degrees that springs back to centre (exact angle not found ⚑ [uncertain]) *(⚑ parts need confirming)*
 - **degrees_of_freedom**: 0 while gripping (gear and shaft turn together); 1 while slipping (the gear turns relative to the shaft). Servo saver: 1 (the arm can turn a little relative to the servo shaft against a spring)
 - **special_behaviour**: 
   - torque-limiting: slips (or gives, for a servo saver) at a torque set by the stiffness and pre-bend of its arms
@@ -427,7 +491,8 @@
   - Resets itself: nothing to replace after an overload, unlike a shear pin
 - **holding_principle**: 
   - friction or clamping (force-fit): the arms press on the shaft and friction carries the torque
-  - spring force (a spring or springy part presses it in place): the arms are the spring; a servo saver uses a coil or torsion spring or flexible TPU *(unverified parts omitted)*
+  - spring force (a spring or springy part presses it in place): the arms are the spring; a servo saver uses a coil or torsion spring or flexible TPU
+  - shape (form-fit): some versions have arm tips that sit in notches and hop over them when overloaded, like a detent ⚑ [uncertain] *(⚑ parts need confirming)*
 - **input_output**: continuous rotation -> the same rotation, ratio 1:1, until the slip torque; then the output stops or slows while the input keeps turning. Efficiency close to 100% while gripping; slipping power becomes heat. Gear or hub mounted on a shaft (shafts in line or the gear meshing with parallel shafts). Back-drivable: yes, it slips at roughly the same torque in both directions. Servo saver: servo arm angle -> steering link angle 1:1, with springy give under shock
 - **power**: passive (no power needed)
 - **removability**: removable: the gear or hub pushes or snaps onto the shaft and can be pulled off; a servo saver screws onto the servo's splined output
@@ -436,27 +501,30 @@
 - **seal**: none
 - **load**: light (to medium for larger moulded gears): suited to small instrument, dial, toy and printer drives and RC steering. DuPont suggests torque-limiting gears for plastic gear drives in meat grinders, can openers and hand drill presses, and says split-hub couplings are fine where the required torque is very low. Strong only in twist up to the slip torque; side loads must be carried by the shaft and its bearings
 - **adjustable**: mostly no: the slip torque is fixed by the arm thickness, length, material and how much they are pre-bent; to change it, reprint with a different fit or height, or add an O-ring or metal ring spring around a split hub. Some servo savers have a threaded collar that sets the spring preload (tamiyamodel.com: adjustable types let you adjust the spring tension)
-- **play_and_precision**: Little or no play while gripping (DuPont even uses springy flexing gear parts to remove backlash). After it slips the output loses its angular position, so re-home anything with a position sensor on the motor side. A servo saver adds some play (steering 'slop'), and some models add a slight delay in steering response (tamiyamodel.com). *(unverified parts omitted)*
+- **play_and_precision**: Little or no play while gripping (DuPont even uses springy flexing gear parts to remove backlash). After it slips the output loses its angular position, so re-home anything with a position sensor on the motor side. A servo saver adds some play (steering 'slop'), and some models add a slight delay in steering response (tamiyamodel.com). Because the arms flex it tolerates small variations in shaft diameter ⚑ [uncertain] *(⚑ parts need confirming)*
 - **access_needed**: end of a tube or shaft: it slides or snaps onto the shaft end
-- **materials**: Moulded: acetal (POM, e.g. Delrin (brand)) gears on nylon shafts (DuPont examples); a resin sleeve with axial slits squeezed by a metal ring spring (printer torque limiter patent). 3D printed: PETG (flexes and tolerates heat, preferred by Printables designers), nylon, ABS, or TPU for flexible servo arms; avoid PLA for flexing arms because it is brittle and relaxes under constant load. Servo savers: plastic or aluminium arms with a steel coil spring, metal sleeve and nut. *(unverified parts omitted)*
+- **materials**: Moulded: acetal (POM, e.g. Delrin (brand)) gears on nylon shafts (DuPont examples); a resin sleeve with axial slits squeezed by a metal ring spring (printer torque limiter patent). 3D printed: PETG (flexes and tolerates heat, preferred by Printables designers), nylon, ABS, or TPU for flexible servo arms; avoid PLA for flexing arms because it is brittle and relaxes under constant load. Servo savers: plastic or aluminium arms with a steel coil spring, metal sleeve and nut. Works best gripping a smooth metal shaft ⚑ [uncertain] *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: it prints in one piece with no extra hardware, but the grip depends on a tiny amount of interference (a fraction of a millimetre) and on the material, so expect several test prints and tuning; ready-made RC servo savers are easy to buy and fit
 
 ### Making it
 
 - **processes**: 
   - 3D print (FDM): PETG, nylon, ABS or TPU gears, hubs and flexible servo arms
+  - 3D print (resin): tough or flexible resins for small gears ⚑ [uncertain]
   - injection moulding (industrial): acetal and nylon gears with moulded-in springs (DuPont)
   - CNC: flexural elements machined into a gear's hub (Slocum)
-  - off-the-shelf part: RC servo savers, printer-type friction torque limiters, toy-kit clutch gears *(unverified parts omitted)*
+  - off-the-shelf part: RC servo savers, printer-type friction torque limiters, toy-kit clutch gears *(⚑ parts need confirming)*
 - **print_in_place**: yes: the gear or hub with its spring arms prints as one finished, working piece that simply pushes onto a shaft. Long-life designs add a separate metal ring spring or O-ring around the split hub, which makes them 'partly'
-- **making_tips_3d_printing**: Print the gear flat on the bed so the spring arms lie in the layer plane and bend within the layers; do not build flexing arms vertically in Z, because layer bonds are weak (Hubs snap-fit guide). Make each arm at least 1 mm thick at its root and add a fillet of at least half the arm thickness where it joins the hub (Hubs). Use PETG, nylon, ABS or TPU rather than PLA: the Printables RC slipping-gear designer prints the clutch part in PETG because it 'needs to flex and accept some heat', while PLA is fine for the other parts; Make the grip parametric (interference and hub height) and print two or three versions: the Printables designer's first version would not slip at all, and he then offered a 'slips quite easily' part and a stronger part. Test the slip with a drill on its lowest torque setting holding the gear, as that designer suggests. Do not let the arms stay bent when not needed: DuPont's torque-limiting gear uses three pivoting springs so they do not remain loaded by accident, and plastic springs lose force under constant load (stress relaxation), so for a steady torque over a long time add a metal ring spring around the hub (DuPont). For a flexible servo arm, the Printables TPU servo saver was printed at 0.1 mm layers, 230 °C nozzle, 60 °C bed, 20 mm/s, retraction off, in two stiffnesses. Slipping makes heat; PLA softens above about 60 °C (Prusa) *(unverified parts omitted)*
+- **making_tips_3d_printing**: Print the gear flat on the bed so the spring arms lie in the layer plane and bend within the layers; do not build flexing arms vertically in Z, because layer bonds are weak (Hubs snap-fit guide). Make each arm at least 1 mm thick at its root and add a fillet of at least half the arm thickness where it joins the hub (Hubs). Use PETG, nylon, ABS or TPU rather than PLA: the Printables RC slipping-gear designer prints the clutch part in PETG because it 'needs to flex and accept some heat', while PLA is fine for the other parts; Hubs calls PLA too brittle for repeated flexing; the flexure slip clutch on Thingiverse also recommends PETG because its springs keep their tension over time ⚑ [uncertain]. Make the grip parametric (interference and hub height) and print two or three versions: the Printables designer's first version would not slip at all, and he then offered a 'slips quite easily' part and a stronger part. Test the slip with a drill on its lowest torque setting holding the gear, as that designer suggests. Do not let the arms stay bent when not needed: DuPont's torque-limiting gear uses three pivoting springs so they do not remain loaded by accident, and plastic springs lose force under constant load (stress relaxation), so for a steady torque over a long time add a metal ring spring around the hub (DuPont). For a flexible servo arm, the Printables TPU servo saver was printed at 0.1 mm layers, 230 °C nozzle, 60 °C bed, 20 mm/s, retraction off, in two stiffnesses. Slipping makes heat; PLA softens above about 60 °C (Prusa) *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Servo saver (RC car steering), adjustable servo saver, aluminium servo saver, servo saver spring; servo horn (servo arm) for the servo's spline; friction-type torque limiter for office equipment (split resin sleeve with coil or C-ring spring, as in US patent application US20030050121A1); toy-kit clutch gears (e.g. LEGO Technic (brand) 24-tooth clutch gear); O-rings or spring-steel C-rings to add grip around a split hub; tolerance rings (a metal alternative)
 - **rules_of_thumb**: 
   - Torque-limiting devices are very useful on plastic gears to stop tooth damage on overload, e.g. in meat grinders, can openers and hand drill presses; the springs must not remain accidentally in the loaded position, which DuPont's example achieves with three pivoting springs (DuPont Design Guide Module I, ch. 8 'Gears', pp. 47-48, Fig. 8.05)
   - A split hub used as a slipping coupling is fine where the torque is very low (e.g. a small dial setting device); if a constant torque must be carried for a long time, add a metal spring around the hub to keep the force constant (DuPont Module I, p. 48, Fig. 8.06)
   - Plastic interference fits on shafts only suit low torque, because stress relaxation of the plastic can let them slip over time (DuPont Module I, p. 63): design the slip torque with margin and expect it to fall
   - Machine or mould flexural elements into the gear's hub to keep a steady preload between gear and shaft, rather than relying on a plain press fit as the clutch (Slocum, FUNdaMENTALs of Design, Topic 5, 'Wheels: Clutches & Differentials')
-  - Flexing arms for FDM: root thickness at least 1 mm, root fillet radius at least 0.5 x the thickness, never build them vertically in Z; prefer ABS, nylon or TPU (Hubs, 'How to design snap-fit joints for 3D printing') *(unverified parts omitted)*
+  - Flexing arms for FDM: root thickness at least 1 mm, root fillet radius at least 0.5 x the thickness, never build them vertically in Z; prefer ABS, nylon or TPU (Hubs, 'How to design snap-fit joints for 3D printing')
+  - Slip torque is roughly friction coefficient x total pressing force of all arms x shaft radius (the friction clutch rule T = mu x W x R applied to a hub; derived, not from a design guide ⚑ [uncertain])
+  - Servo saver setting: stiff enough that normal steering does not make it give, loose enough to give on impacts ⚑ [uncertain] *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -466,8 +534,8 @@
   - Printer paper-feed rollers that use a one-piece resin torque limiter (split sleeve with a ring spring) (US patent application US20030050121A1)
   - Dial and clock setting knobs that turn with a light, slipping grip (DuPont Fig. 8.06)
 - **when_to_use**: When you want simple, built-in overload protection in a printed or moulded part with no extra hardware: toy and hobby gear drives, small robot grippers, pan-tilt heads and end-stop protection for small geared motors, settable dials and knobs, and servo protection in RC cars and small robots. Good when part count, size and cost matter more than an exact or adjustable slip torque
-- **when_not_to_use**: Not for high or precisely known torques, or where the torque must stay the same for years under constant load, because plastic arms relax and wear (use an adjustable friction slip clutch with a metal spring, or a ball-detent torque limiter). Not where the part must hold its position or hold a load against gravity. Not where it may slip for long periods or in hot places (plastic softens). *(unverified parts omitted)*
-- **environment_limits**: Plastic springs lose force over time under constant load (stress relaxation), faster when warm, so the slip torque drops (DuPont Module I, pp. 47-48 and 63). PLA softens and deforms above about 60 °C (Prusa PLA guide); PETG is rated for use below about 80 °C (Prusa PETG guide). Heat from slipping adds to this. *(unverified parts omitted)*
+- **when_not_to_use**: Not for high or precisely known torques, or where the torque must stay the same for years under constant load, because plastic arms relax and wear (use an adjustable friction slip clutch with a metal spring, or a ball-detent torque limiter). Not where the part must hold its position or hold a load against gravity. Not where it may slip for long periods or in hot places (plastic softens). For servos in robots, lowering the servo's torque or current limit in software is another option ⚑ [uncertain] *(⚑ parts need confirming)*
+- **environment_limits**: Plastic springs lose force over time under constant load (stress relaxation), faster when warm, so the slip torque drops (DuPont Module I, pp. 47-48 and 63). PLA softens and deforms above about 60 °C (Prusa PLA guide); PETG is rated for use below about 80 °C (Prusa PETG guide). Heat from slipping adds to this. Cold makes plastic arms more brittle and more likely to snap ⚑ [uncertain]. Grease or oil on the shaft lowers the grip ⚑ [uncertain] *(⚑ parts need confirming)*
 - **safety_notes**: Low risk. It limits torque but does not make a mechanism finger-safe. A printed arm can crack and fall into a gearbox. None known beyond the usual pinch points of gears and steering linkages
 - **common_failures**: Too tight: it never slips and the teeth strip anyway (the Printables RC slipping-gear designer's first version would not slip). Too loose, or loosened over time by stress relaxation: it slips in normal use (DuPont). Arms crack at the root if they are thin, have no fillet, are printed vertically or are made of brittle PLA (Hubs). Long slipping heats and wears the hub and shaft. Printed servo savers can be weaker than the moulded originals and break often (Printables HPI servo saver replacement). Servo saver too soft: vague steering ('slop'). Avoid by tuning with test prints, using PETG, nylon or TPU, adding fillets, and adding a metal ring spring where the torque must stay steady
 - **related**: 
@@ -488,8 +556,10 @@
   - [Safety clutch 14 (Nguyen Duc Thang, YouTube thang010146)](https://youtu.be/Apye3XXRpYU): CAD animation: two parts of an arm held in line by a leaf spring that bends and lets them rotate apart when the machine crashes, the same idea as an RC servo saver *(licence: link only (YouTube, all rights reserved))*
   - [US20030050121A1 'Torque limiter and rotary member with the torque limiter' (Google Patents)](https://patents.google.com/patent/US20030050121A1/en): Patent drawings of a one-piece resin gear boss with a slit sleeve squeezed onto a shaft by a ring spring, used in printer paper feeds *(licence: link only (patent document))*
 - **make_it_yourself**: 
+  - [Slipping gear / clutch gear for RC cars (Prism08, Printables)](https://www.printables.com/model/490489-slipping-gear-clutch-gear-for-rc-cars): Printable slipping gear (20-tooth helical, module 1.5) made of a gear, a ring and a clutch part that must flex (exact arm geometry not seen ⚑ [uncertain]); two versions, one that slips easily and a stronger one, plus a test axle for a drill; clutch printed in PETG (web page bot-blocked here; details read through the Printables API) *(licence: CC BY-NC)*
+  - [Flexure slip clutch (yehar, Thingiverse)](https://www.thingiverse.com/thing:6734746): Parametric OpenSCAD flexure-spring friction clutch to use as a torque limiter or gear/motor saver; torque set by a 'tight' parameter and the height; PETG recommended (page opened but its content loads by JavaScript; details from a search-engine summary ⚑ [uncertain]) *(licence: Creative Commons Public Domain Dedication ⚑ [uncertain])*
   - [Orlandoo Hunter OH32X02 Servo Saver (Aspengt, Printables model id 383115)](https://api.printables.com/graphql/): Replacement servo arm for a micro RC truck printed in TPU so the arm itself flexes and acts as a servo saver, in two stiffnesses (read through the Printables public API; the web page could not be opened here) *(licence: CC BY-NC-SA)*
-  - [Servo Saver Replacement for HPI Firestorm RC Truggy (Timo, Printables model id 74078)](https://api.printables.com/graphql/): Printable PETG servo saver that reuses the original spring, metal sleeve and nut; the designer notes it is weaker than the original and also offers a solid version whose protection is breaking (read through the Printables public API) *(licence: CC BY-NC-SA)* *(unverified parts omitted)*
+  - [Servo Saver Replacement for HPI Firestorm RC Truggy (Timo, Printables model id 74078)](https://api.printables.com/graphql/): Printable PETG servo saver that reuses the original spring, metal sleeve and nut; the designer notes it is weaker than the original and also offers a solid version whose protection is breaking (read through the Printables public API) *(licence: CC BY-NC-SA)* *(⚑ parts need confirming)*
 - **diagram_idea**: Front view of a gear whose hub is cut into three curved spring arms pressing on a round shaft, animated so the gear drives the shaft normally, then the shaft is blocked and the gear keeps turning with the arms sliding round it; beside it, a servo arm split in two halves joined by a spring that bends when a wheel is knocked and springs back.
 - **sources**: 
   - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
@@ -510,9 +580,26 @@
   - https://api.printables.com/graphql/
   - https://uomustansiriyah.edu.iq/media/lectures/5/5_2021_12_11!08_29_17_PM.pdf
 
+### Finder tags
+
+- **connects**: shaft
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: parallel, in line
+- **overload_response**: slips and keeps going
+- **clicks**: not applicable
+- **tools**: none, press or vice, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, motion, play_and_precision, processes, rules_of_thumb, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, motion, play_and_precision, processes, rules_of_thumb, when_not_to_use
 
 ## 6 Shear-pin coupling (breakaway link)
 
@@ -564,7 +651,7 @@
 - **adjustable**: no: to change the breaking load you fit a different pin (diameter, neck size, material) or a different number of pins
 - **play_and_precision**: Little or no play if the pin fits its holes closely; it keeps the exact angular position until it breaks. The breaking torque can be quite accurate when the neck diameter and material are closely controlled (Dalton), but fatigue, wear, corrosion and material batch all shift it. It tolerates no misalignment, since it is a rigid joint
 - **access_needed**: both sides: the pin passes right through the hub and shaft and the broken pieces have to be driven out from one side to the other (screw-in nylon rocket pins need only one side)
-- **materials**: Pins: metals chosen and tempered to be brittle (so they snap rather than bend) and resistant to fatigue (Wikipedia 'Shear pin'), such as brass (a 6 mm brass pin in a stand-mixer pasta-roller attachment, per a Printables repair model), stainless steel (316 for salt water, JLM Marine), specified low-strength bolts (snowblowers), and nylon screws (rocketry). Hubs and coupling halves are made harder than the pin; Dalton hardens its coupling halves to 45-50 HRC. Printed breakaway links: PLA snaps cleanly but softens with heat; *(unverified parts omitted)*
+- **materials**: Pins: metals chosen and tempered to be brittle (so they snap rather than bend) and resistant to fatigue (Wikipedia 'Shear pin'), such as brass (a 6 mm brass pin in a stand-mixer pasta-roller attachment, per a Printables repair model), stainless steel (316 for salt water, JLM Marine), specified low-strength bolts (snowblowers), and nylon screws (rocketry). Hubs and coupling halves are made harder than the pin; Dalton hardens its coupling halves to 45-50 HRC. Printed breakaway links: PLA snaps cleanly but softens with heat; PETG and nylon tend to bend before breaking ⚑ [uncertain] *(⚑ parts need confirming)*
 - **maker_difficulty**: easy to make (drill a cross hole and fit a softer pin, or print a part with a thin neck) but hard to calibrate: the breaking load of small pins and printed parts varies, so make spares and test-break several
 
 ### Making it
@@ -573,7 +660,8 @@
   - off-the-shelf part: shear pins and shear bolts made for the machine, outboard propeller shear pins, nylon shear screws, shear-pin hubs and sprockets, shear-pin couplings
   - drilling (metal or woodwork): cross-drill the hub and shaft together so the holes line up
   - CNC or lathe: pins with an accurately turned neck
-  - 3D print (FDM): printed weak links, breakaway arms and test pins *(unverified parts omitted)*
+  - 3D print (FDM): printed weak links, breakaway arms and test pins
+  - laser cut: thin breakaway tabs in acrylic or plywood ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: no: the pin is a separate, replaceable part by design. A one-piece printed breakaway link (a part with a deliberately thin neck) is possible, but then the whole part is reprinted after it breaks
 - **making_tips_3d_printing**: A printed part can be the weak link, e.g. a printed PLA servo saver made at 100% infill that is designed to break at a marked point on impact and was tested to do so (Printables servo saver for a DT-03 buggy), or a printed pin through a metal hub. Print orientation decides where it breaks: layers are the weakest direction, so either put the intended break across the layers deliberately, or print pins lying down and put the weak neck in the geometry. In a shear test of upright-printed 10 mm PLA pins, pins built from concentric perimeters broke predictably at about 46 MPa shear stress, while zig-zag infill gave random failures (Birosz et al., Polymers 2022), so use concentric infill or all perimeters for repeatable pins. Keep the same material, printer and settings for every copy, test-break at least a few, and keep printed spares. PLA softens above about 60 °C (Prusa) and creeps under steady load, so a PLA link can break early in a hot place or after long loading. Do not swap a machine's specified metal shear pin for a printed one on powered equipment (a Printables snowblower shear bolt printed in PLA exists) unless you have tested that it breaks at the right load, because a pin that is too weak breaks in normal use and one that is too strong protects nothing
 - **off_the_shelf_parts**: Shear pin, shear bolt (snowblower auger shear bolts, commonly 1/4 in or 5/16 in, per YouRepair), outboard propeller shear pin with split (cotter) pin, shear-pin hub, shear-pin sprocket, roller chain shear pin coupling, nylon shear pins (2-56 nylon machine screws for rocketry), split pins, nylon-insert lock nuts; replacement shear pins are sold for each shear-pin hub size
@@ -594,9 +682,9 @@
   - The plastic seal that holds a fire extinguisher's pull pin until you tug it (Wikipedia 'Shear pin'), and the nylon screws that hold a model rocket's nose cone on until the ejection charge fires (Apogee)
 - **when_to_use**: When overloads are rare but would be expensive (a rock in an auger, a propeller strike, a robot arm crash), when you want the drive fully disconnected on overload, and when you need a cheap, compact, very simple protector that transmits the normal load with no slip or backlash. Also when something must hold firmly until a clear force is reached and then let go completely: rocket nose cones, tamper seals, breakaway mounts, and printed weak links that protect an expensive servo or gearbox
 - **when_not_to_use**: Not when overloads happen often, because every trip means stopping and fitting a new pin (use a friction slip clutch or a resettable ball-detent torque limiter). Not in a lifting or load-holding path where losing the drive would let a load fall or run back, unless that is safe. Not with vibrating or repeatedly reversing loads near the limit, which fatigue the pin so it breaks early. Not where an operator is likely to 'fix' repeated breaking by fitting a stronger bolt
-- **environment_limits**: Fatigue from repeated loads lowers the breaking force, which is why pins are made fatigue-resistant (Wikipedia 'Shear pin'). Corrosion can weaken a pin or seize it in its hole; stainless (316) pins and marine grease are used on boats (JLM Marine). Printed PLA links soften above about 60 °C (Prusa) and creep under steady load. *(unverified parts omitted)*
-- **safety_notes**: When the pin breaks the drive suddenly runs free: the motor races, and anything it was holding can drop or run back. Stop the engine or motor and remove the spark plug lead or unplug it before replacing a pin (JLM Marine; YouRepair). Never fit a stronger bolt in place of a shear pin: it removes the protection and can wreck the gearbox or bend the auger (YouRepair; JLM Marine). Rocketry shear pins are part of a pyrotechnic system; follow rocketry safety rules *(unverified parts omitted)*
-- **common_failures**: Never breaks because a stronger bolt was fitted, so the gearbox or shaft is damaged instead (YouRepair; JLM Marine). Bends instead of snapping if the pin is too ductile, which can jam the hub (Wikipedia on brittleness). Printed pins vary with print settings and orientation (Birosz et al.). Avoid these by using the specified pin, keeping spares, greasing against corrosion, and testing printed links *(unverified parts omitted)*
+- **environment_limits**: Fatigue from repeated loads lowers the breaking force, which is why pins are made fatigue-resistant (Wikipedia 'Shear pin'). Corrosion can weaken a pin or seize it in its hole; stainless (316) pins and marine grease are used on boats (JLM Marine). Printed PLA links soften above about 60 °C (Prusa) and creep under steady load. Nylon changes strength as it absorbs moisture, and plastics become more brittle in the cold ⚑ [uncertain] *(⚑ parts need confirming)*
+- **safety_notes**: When the pin breaks the drive suddenly runs free: the motor races, and anything it was holding can drop or run back. Stop the engine or motor and remove the spark plug lead or unplug it before replacing a pin (JLM Marine; YouRepair). Never fit a stronger bolt in place of a shear pin: it removes the protection and can wreck the gearbox or bend the auger (YouRepair; JLM Marine). Pieces can fly when testing pins to failure, so wear eye protection ⚑ [uncertain]. Rocketry shear pins are part of a pyrotechnic system; follow rocketry safety rules *(⚑ parts need confirming)*
+- **common_failures**: Breaks too early in normal running because of fatigue, corrosion, a notch or scratch, or worn oval holes (Wikipedia on fatigue; the worn-hole cause is ⚑ [uncertain]). Never breaks because a stronger bolt was fitted, so the gearbox or shaft is damaged instead (YouRepair; JLM Marine). Bends instead of snapping if the pin is too ductile, which can jam the hub (Wikipedia on brittleness). Printed pins vary with print settings and orientation (Birosz et al.). Avoid these by using the specified pin, keeping spares, greasing against corrosion, and testing printed links *(⚑ parts need confirming)*
 - **related**: 
   - Friction slip clutch (slip coupling, slipper clutch): slips and keeps going, then resets by itself; nothing to replace, but less exact and gets hot if it slips for long
   - Ball-detent torque limiter: disconnects or clicks at a set torque and resets itself, so it suits frequent overloads, but it costs more and is bigger
@@ -636,9 +724,26 @@
   - https://youtu.be/YJbl6bSFY4U
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: shaft
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: breaks or lets go once
+- **clicks**: not applicable
+- **tools**: drill and tap, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, materials, processes, safety_notes
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, materials, processes, safety_notes
 
 ## 143 Magnetic coupling and magnetic gear
 
@@ -681,9 +786,10 @@
 - **special_behaviour**: 
   - torque-limiting (slips or clicks at a set force/torque): slips when the load exceeds the magnetic pull-out torque, and nothing breaks (Wikipedia 'Magnetic coupling', 'Magnetic gear')
   - fail-safe or breakaway: an overload or jam disconnects the drive instead of damaging the motor or gears; note that a synchronous coupling usually stays slipping until the motor is stopped and restarted (Michael Smith Engineers)
-  - self-aligning or self-centring: accepts more shaft misalignment than mechanical couplings (Wikipedia 'Magnetic coupling') and transmits less vibration (K&J Magnetics) *(unverified parts omitted)*
+  - self-aligning or self-centring: accepts more shaft misalignment than mechanical couplings (Wikipedia 'Magnetic coupling') and transmits less vibration (K&J Magnetics)
+  - quick-release: face-to-face types simply pull apart with no fasteners (e.g. lifting a beaker off a magnetic stirrer) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **holding_principle**: magnetic: attraction between opposite poles (or eddy currents induced in a conductor) carries the torque; not a holding joint in the usual sense, since it passes motion on
-- **input_output**: Continuous rotation -> continuous rotation. Coupling: 1:1, in step with no slip below the torque limit (synchronous). Magnetic gears: side-by-side 'spur' magnetic gears give small whole-number ratios (Wikipedia 'Magnetic coupling'); coaxial flux-modulated gears give ratio = number of steel pole pieces / pole pairs on the fast rotor when the outer rotor is held (e.g. 17 pieces and 4 pole pairs = 4.25:1, Som et al.), with ratios from 1.01:1 to 1000:1 reported (Wikipedia 'Magnetic coupling'); printed examples 3:1 (Forge, Printables) and 12:1 with reversal (William Fraser, via Hackaday). Eddy-current couplings always slip a little, so the output runs slower than the input. Shaft arrangement: in line (face or coaxial types), parallel (spur-type magnetic gears), or at an angle (first-order gears) (Wikipedia 'Magnetic gear'). Back-drivable: yes *(unverified parts omitted)*
+- **input_output**: Continuous rotation -> continuous rotation. Coupling: 1:1, in step with no slip below the torque limit (synchronous). Magnetic gears: side-by-side 'spur' magnetic gears give small whole-number ratios (Wikipedia 'Magnetic coupling'); coaxial flux-modulated gears give ratio = number of steel pole pieces / pole pairs on the fast rotor when the outer rotor is held (e.g. 17 pieces and 4 pole pairs = 4.25:1, Som et al.), with ratios from 1.01:1 to 1000:1 reported (Wikipedia 'Magnetic coupling'); printed examples 3:1 (Forge, Printables) and 12:1 with reversal (William Fraser, via Hackaday). Efficiency: no rubbing apart from bearings, so high when running in step through air or plastic ⚑ [uncertain]; a metal wall adds eddy-current losses that rise with the square of speed and the square of the drive radius (Michael Smith Engineers); variable-ratio (field-coil) magnetic gears are below 75% (Wikipedia 'Magnetic gear'). Eddy-current couplings always slip a little, so the output runs slower than the input. Shaft arrangement: in line (face or coaxial types), parallel (spur-type magnetic gears), or at an angle (first-order gears) (Wikipedia 'Magnetic gear'). Back-drivable: yes *(⚑ parts need confirming)*
 - **power**: passive (no power needed) with permanent magnets. Electromagnet versions exist (e.g. variable-ratio magnetic gears and powered stirrers): they transmit nothing when power is lost
 - **removability**: tool-free quick release for face-to-face and stirrer types (the halves just lift apart); removable for shaft-mounted couplings (each hub comes off its shaft with the usual set screw or key)
 - **reuse_cycles**: effectively unlimited: nothing touches, so only the bearings wear (Wikipedia 'Magnetic gear': 'wear is limited to bearings')
@@ -701,9 +807,10 @@
 - **processes**: 
   - 3D print (FDM): magnet carriers, hubs and gear rings with pockets for disc or block magnets
   - off-the-shelf part: neodymium magnets, magnetic stirrer bars and drives, magnetic-drive pumps, industrial co-axial magnetic couplings
-  - CNC: metal hubs and thin non-magnetic walls or cans *(unverified parts omitted)*
+  - CNC: metal hubs and thin non-magnetic walls or cans
+  - laser cut: acrylic or plywood discs holding magnets ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: partly: the carriers and gear rings can be printed (even as a print-in-place assembly), but the magnets, and steel pole pieces for a magnetic gear, must be added, e.g. by pausing the print or pressing them in afterwards; a printed 0.2 N·m magnetic torque wrench prints in place and then has two magnets inserted (Printables 587851)
-- **making_tips_3d_printing**: Arrange the magnets in a ring with poles alternating north and south facing the other half, which K&J Magnetics found gives the most strength, and match the same pattern on the other half. Check which way each magnet faces before gluing it in (the drybox coupling designer warns that mixing them up does happen), and add small holes behind the pockets so a misplaced magnet can be pushed out with a paperclip (Forge, 3:1 Magnetic Gearbox). Fix magnets with a press fit or superglue; BYU CMR's printed magnetic gears may need superglue depending on printer tolerance. Keep the gap as small as the wall allows, because torque falls fast with distance, and estimate slip torque before printing with the K&J method (pull force of one magnet pair at your gap x 0.44 x radius x number of magnets). A face-to-face coupling pulls the halves together: support it with a thrust bearing (Wikipedia) or use fewer magnets, as K&J did when too much attraction made their boat's propeller drag on the hull. A steel washer or plate behind the magnets boosts the field (K&J). For a coaxial magnetic gear, the pole pieces must be magnetic (plain steel, not stainless) and their number should equal the sum of the inner and outer pole pairs (Som et al.; povsky and Forge specify steel grub screws). Small magnet pockets need fine detail: povsky's mini gear needs a 0.25 mm or smaller nozzle and a brim; Forge used 3 walls, 13% infill and a 0.4 mm nozzle. Keep it cool: PLA softens above about 60 °C (Prusa) and standard NdFeB magnets are rated to about 80 °C (Wikipedia), so keep motors and hot parts away. Magnets are brittle: don't file or drill them, and keep their plating intact or they corrode (drybox coupling, Printables; Wikipedia 'Neodymium magnet') *(unverified parts omitted)*
+- **making_tips_3d_printing**: Arrange the magnets in a ring with poles alternating north and south facing the other half, which K&J Magnetics found gives the most strength, and match the same pattern on the other half. Check which way each magnet faces before gluing it in (the drybox coupling designer warns that mixing them up does happen), and add small holes behind the pockets so a misplaced magnet can be pushed out with a paperclip (Forge, 3:1 Magnetic Gearbox). Fix magnets with a press fit or superglue; BYU CMR's printed magnetic gears may need superglue depending on printer tolerance. Keep the gap as small as the wall allows, because torque falls fast with distance, and estimate slip torque before printing with the K&J method (pull force of one magnet pair at your gap x 0.44 x radius x number of magnets). A face-to-face coupling pulls the halves together: support it with a thrust bearing (Wikipedia) or use fewer magnets, as K&J did when too much attraction made their boat's propeller drag on the hull. A steel washer or plate behind the magnets boosts the field (K&J). For a coaxial magnetic gear, the pole pieces must be magnetic (plain steel, not stainless) and their number should equal the sum of the inner and outer pole pairs (Som et al.; povsky and Forge specify steel grub screws). Small magnet pockets need fine detail: povsky's mini gear needs a 0.25 mm or smaller nozzle and a brim; Forge used 3 walls, 13% infill and a 0.4 mm nozzle. For a smooth slip clutch, one maker runs magnets against an iron washer rather than against other magnets, because magnet-to-magnet gives a jerky, stepping slip (GRAVITY magnetic clutch, Printables) ⚑ [uncertain]. Keep it cool: PLA softens above about 60 °C (Prusa) and standard NdFeB magnets are rated to about 80 °C (Wikipedia), so keep motors and hot parts away. Magnets are brittle: don't file or drill them, and keep their plating intact or they corrode (drybox coupling, Printables; Wikipedia 'Neodymium magnet') *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Neodymium (NdFeB) disc, block and ring magnets (e.g. 6 x 3 mm or 5/16 in discs; nickel-plated), samarium-cobalt magnets for heat, magnetic stirrer bars (stir bars, 'fleas') and stirrer drive magnets, magnetic-drive (mag-drive, sealless) pumps, co-axial and face (disc) magnetic couplings, eddy-current and hysteresis clutches and brakes, deep-groove ball bearings (608, 6082RS, 5 x 10 x 4 mm), thrust bearings, steel (not stainless) grub screws or bars as pole pieces, steel washers or plates as back iron
 - **rules_of_thumb**: 
   - Estimate slip torque: find the straight-line pull between one magnet pair at your gap (from a pull-force calculator), multiply by 0.44 to get the sideways (shear) force, then by the distance from the magnet centre to the axis, then by the number of magnets on one side; e.g. two 5/16 in x 1/4 in discs 1/8 in apart pull 1.03 lb, giving about 0.45 lb x 0.4 in x 6 magnets = about 1.08 in-lb (0.12 N·m). K&J say this is only a rough starting point: test it (K&J Magnetics, 'Magnetic Couplers Powering a Boat')
@@ -725,7 +832,7 @@
   - Magnetic gear fidget toys and desk spinners, where one magnet wheel turns another without touching (Printables magnetic gear models)
 - **when_to_use**: When you need to turn something on the other side of a wall without drilling a hole or fitting a seal: a pump or stirrer in a sealed tank, a propeller through a boat or submarine hull, a mixer in a sealed container, a fan or roller inside a filament drybox. When you want a drive that slips harmlessly on overload or a jam and never needs a part replaced. When shafts are hard to line up exactly, or you want to stop vibration and noise passing from motor to load. For quiet, contact-free, wear-free drives in dirty, wet or vacuum environments, and for magnetic gear toys and demonstrations
 - **when_not_to_use**: Not for high torque in a small space: toothed gears, belts or rigid couplings carry far more for their size (use a planetary gear set, belt or jaw coupling). Not for holding a load against gravity, since it can slip and let the load drop or run back (use a worm drive or a brake). Not where the output angle must be exact under changing loads, because it winds up like a spring (use a rigid coupling or gears). Not in hot places with standard NdFeB magnets or PLA parts, near compasses, magnetic cards or steel swarf, or where small magnets could reach young children. If you need a slip clutch that re-engages by itself at speed, a friction slip clutch or ball-detent torque limiter may suit better, because a synchronous magnetic coupling usually needs stopping to re-lock
-- **environment_limits**: Heat: magnets weaken as they warm and can be permanently demagnetised above their rated temperature (Michael Smith Engineers); standard NdFeB grades are rated to about 80 °C, high-temperature grades to 230 °C, and samarium-cobalt higher (Wikipedia 'Neodymium magnet'). When a coupling with a metal wall slips out of step, eddy currents heat the wall (Michael Smith Engineers). Printed PLA carriers soften above about 60 °C (Prusa). Water: sintered NdFeB corrodes and can crumble unless plated or coated, so underwater couplings need coated or sealed magnets (Wikipedia 'Neodymium magnet'). Vibration: the air gap isolates vibration rather than passing it on (K&J Magnetics; Wikipedia 'Magnetic coupling'). *(unverified parts omitted)*
+- **environment_limits**: Heat: magnets weaken as they warm and can be permanently demagnetised above their rated temperature (Michael Smith Engineers); standard NdFeB grades are rated to about 80 °C, high-temperature grades to 230 °C, and samarium-cobalt higher (Wikipedia 'Neodymium magnet'). When a coupling with a metal wall slips out of step, eddy currents heat the wall (Michael Smith Engineers). Printed PLA carriers soften above about 60 °C (Prusa). Water: sintered NdFeB corrodes and can crumble unless plated or coated, so underwater couplings need coated or sealed magnets (Wikipedia 'Neodymium magnet'). Magnets pick up steel dust and swarf in the gap ⚑ [uncertain]. Vibration: the air gap isolates vibration rather than passing it on (K&J Magnetics; Wikipedia 'Magnetic coupling'). No creep or wear in the coupling itself; permanent magnets lose only a little strength over time at normal temperatures ⚑ [uncertain] *(⚑ parts need confirming)*
 - **safety_notes**: Strong neodymium magnets can snap together and pinch or even break fingers, and can chip or shatter, throwing sharp fragments (wear eye protection); swallowed small magnets can pinch the intestines together and have killed children, so keep them away from young children and secure them well in toys (Wikipedia 'Neodymium magnet'). Strong fields can wipe magnetic cards and upset nearby sensors (Wikipedia 'Neodymium magnet'). Because the coupling slips on overload, a motor may keep spinning while the load stops; never rely on it to hold a raised load. Pumps: a decoupled drive can overheat a metal containment shell (Michael Smith Engineers)
 - **common_failures**: Slips too easily because the gap is too big, the magnets are too small or too few, or the start-up acceleration is too high; and then stays slipping until the motor is stopped (K&J Magnetics; Michael Smith Engineers; Wikipedia 'Magnetic stirrer'). Too much pull between face-to-face halves, so bearings or the parts rub and the motor stalls (K&J Magnetics' boat demo). One or more magnets glued in the wrong way round, which weakens and roughens the drive (drybox coupling tip, Printables). Magnets pulling out of printed pockets or cracking (they are brittle). Pole pieces made of stainless steel in a magnetic gear, which doesn't work because most stainless is not magnetic enough (povsky: use steel, 'NOT STAINLESS'). Magnets weakened by heat or corroded by water (Michael Smith Engineers; Wikipedia 'Neodymium magnet'). Printed carriers softening near a hot motor
 - **related**: 
@@ -778,9 +885,26 @@
   - https://www.printables.com/model/42412-mini-3d-printed-magnetic-gear
   - https://www.printables.com/model/276863-31-magnetic-gearbox
 
+### Finder tags
+
+- **connects**: shaft ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: parallel, at an angle, in line
+- **overload_response**: slips and keeps going
+- **clicks**: not applicable
+- **tools**: press or vice, hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, input_output, making_tips_3d_printing, processes, special_behaviour
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, making_tips_3d_printing, processes, special_behaviour
 
 ## 144 Tolerance ring (wavy-band press fit)
 
@@ -792,6 +916,7 @@
 - **term**: Tolerance ring (corrugated spring-steel frictional fastener)
 - **aliases**: 
   - tolerance ring
+  - corrugated ring, wavy band, wave ring ⚑ [uncertain] (note: 'wave ring' is also used for wave spring washers)
   - bearing tolerance ring, bearing shim (McMaster-Carr wording)
   - elastic shim
   - frictional fastener
@@ -799,7 +924,7 @@
   - BN ring or SV ring (waves facing outward, fitted over a shaft: 'shaft variable')
   - tabbed, flanged, multiplex and crown rings (variants)
   - Rencol ring (Saint-Gobain brand)
-  - Toleranzring (German) *(unverified parts omitted)*
+  - Toleranzring (German) *(⚑ parts need confirming)*
 - **family**: torque limiting & slip
 - **other_families**: clamping, magnetic & friction connections, clutches & couplings, locating & alignment
 - **one_liner**: A thin spring-steel strip with a row of waves, curled into a ring and pressed between a shaft and a bore, where every wave acts as a small stiff spring, so the joint holds by friction, copes with loose machining and different heat growth, centres the parts, and slips at a predictable torque instead of breaking.
@@ -821,9 +946,10 @@
 - **holding_principle**: 
   - friction or clamping (force-fit): the squashed waves press the parts together and friction carries the load
   - spring force (a spring or springy part presses it in place): each wave is a small radial spring, which keeps the grip as sizes change with tolerance and temperature
-- **input_output**: Continuous rotation -> the same rotation, ratio 1:1, with zero backlash while holding (Saint-Gobain RENCOL appliance brochure: 'Zero backlash system as parts are physically connected through tolerance ring'); when the slip torque is exceeded the output stops or slips while the input keeps turning. Shaft arrangement: in line (a hub, gear or bearing on a shaft). Back-drivable: yes *(unverified parts omitted)*
+- **input_output**: Continuous rotation -> the same rotation, ratio 1:1, with zero backlash while holding (Saint-Gobain RENCOL appliance brochure: 'Zero backlash system as parts are physically connected through tolerance ring'); when the slip torque is exceeded the output stops or slips while the input keeps turning. Close to 100% efficient while holding (no sliding) ⚑ [uncertain]. Shaft arrangement: in line (a hub, gear or bearing on a shaft). Back-drivable: yes *(⚑ parts need confirming)*
 - **power**: passive (no power needed)
-- **removability**: removable: unlike glue or a heavy press fit it can be pressed apart for rework or repair (USA Tolerance Rings FAQ: 'allowing for future disassembly of components'; *(unverified parts omitted)*
+- **removability**: removable: unlike glue or a heavy press fit it can be pressed apart for rework or repair (USA Tolerance Rings FAQ: 'allowing for future disassembly of components'; Saint-Gobain: 'Allows rework'), but it needs a press or puller, and a ring flattened or scratched by a crooked fit should be replaced ⚑ [uncertain] *(⚑ parts need confirming)*
+- **reuse_cycles**: a few times: the joint can be taken apart and re-assembled (Saint-Gobain appliance brochure: 'Allows easy and repeatable disassembly and re assembly'); each overload slip and each re-assembly can wear or damage the waves and surfaces, so performance may drop (USA Tolerance Rings catalogue); how many times is not stated ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: An arbor press (or a vice or bench press for small rings) and a fixture to push the parts together squarely; hammering or aligning by hand risks crushing waves on one side (USA Tolerance Rings catalogue). Very light rings can be pushed in by hand. A lathe, reamer or accurate drill to make the bore and shaft, with a rounded or chamfered lead-in
 - **seal**: none: the gaps between the waves leave open channels along the joint
 - **load**: Medium to heavy for its size: e.g. a V-belt pulley on a 30 mm shaft held by one ring transfers at least 88 N·m (about a 4.3 kW motor at 1,400 rpm with a safety factor of 3) (Bosch Rexroth tolerance ring catalogue); rings range from 'strong enough for off-road equipment' to 'delicate enough to hold miniature ball bearings' (USA Tolerance Rings FAQ). Carries twist (torque), end pull (axial) and side (radial) loads together, but the highest torque and the highest radial capacity cannot both be had at once: torque is highest at the tightest fit, while radial capacity falls at the tightest fit (USA Tolerance Rings catalogue). Weak against shocks in the 'free' arrangement; a shoulder close to the mating part protects the ring (USA Tolerance Rings catalogue)
@@ -838,9 +964,10 @@
 - **processes**: 
   - off-the-shelf part: the ring itself (stamped and rolled spring or stainless steel strip)
   - CNC: lathe-turned or machined bores, shafts, grooves and lead-in chamfers
-  - 3D print (FDM): a printed housing, hub or knob can take a steel ring, with care (plastic creeps) *(unverified parts omitted)*
+  - 3D print (FDM): a printed housing, hub or knob can take a steel ring, with care (plastic creeps)
+  - woodwork, laser cut, sheet metal: not suitable (they can't hold a round bore to the needed size) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: no: the steel ring is a separate bought part pressed in after the housing or hub is made
-- **making_tips_3d_printing**: The ring can't usefully be printed (its waves must be hard spring steel), but a steel ring can be fitted into a printed housing or hub: tolerance rings are used to mount ball bearings in moulded plastic housings, where they cope with size variation and heat growth (Machine Design), and the classic use is saving a hole that came out oversize (USA Tolerance Rings catalogue). Expect lower and less lasting grip than in metal, because plastic housings 'introduce creep and relaxation concerns' (USA Tolerance Rings blog) and catalogue torque values only apply to steel-on-steel or non-ferrous pairs up to 100 °C (Bosch Rexroth). Keep printed parts well below PLA's softening point of about 60 °C (Prusa), or use PETG, ABS, ASA or nylon. Add a generous radius or a shallow 15-20° chamfer on the entry edge (USA Tolerance Rings; Bosch Rexroth) and ideally a groove with square walls to trap the ring (the 'centred' arrangement), which also lets a shoulder take shock loads instead of the waves. Press the parts together squarely in a vice or press rather than hammering. For a printable, all-plastic alternative, use crush ribs or flexing fingers designed into the print (see Related) *(unverified parts omitted)*
+- **making_tips_3d_printing**: The ring can't usefully be printed (its waves must be hard spring steel), but a steel ring can be fitted into a printed housing or hub: tolerance rings are used to mount ball bearings in moulded plastic housings, where they cope with size variation and heat growth (Machine Design), and the classic use is saving a hole that came out oversize (USA Tolerance Rings catalogue). Expect lower and less lasting grip than in metal, because plastic housings 'introduce creep and relaxation concerns' (USA Tolerance Rings blog) and catalogue torque values only apply to steel-on-steel or non-ferrous pairs up to 100 °C (Bosch Rexroth). Keep printed parts well below PLA's softening point of about 60 °C (Prusa), or use PETG, ABS, ASA or nylon. Make the bore to the ring maker's table for that ring (bore = shaft diameter + twice the wave height, minus the compression) and print it undersize then drill or ream it, since printed holes come out small and faceted ⚑ [uncertain]. Print the bore with its axis vertical so it is round ⚑ [uncertain]. Add a generous radius or a shallow 15-20° chamfer on the entry edge (USA Tolerance Rings; Bosch Rexroth) and ideally a groove with square walls to trap the ring (the 'centred' arrangement), which also lets a shoulder take shock loads instead of the waves. Press the parts together squarely in a vice or press rather than hammering. For a printable, all-plastic alternative, use crush ribs or flexing fingers designed into the print (see Related) *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Tolerance ring (AN/HV type for a housing bore, BN/SV type for a shaft, ANL/HVL light-duty for small bearings), bearing tolerance ring or bearing shim (sold by bearing size, e.g. R2 to 6316; McMaster-Carr), tabbed tolerance ring (resists walking out under vibration), flanged tolerance ring, multiplex and crown rings (Saint-Gobain RENCOL brochure); Bosch Rexroth series R0810 (AN), R0820 (BN), R0801 (ANL), R0804 (slanted-edge, for large bearings in light-metal housings); ball bearings, pulleys, fan hubs and knobs designed for tolerance-ring mounting
 - **rules_of_thumb**: 
   - Slip torque estimate: T = 0.5 x d x (friction coefficient) x (total wave spring force), where the total force = wave compression x single-wave stiffness x number of waves; single-wave stiffness k ≈ c x E x w x (t/p)^3 with c about 3-7; steel on steel friction about 0.15; waves stay elastic up to roughly 10-18% compression. Use only as an order-of-magnitude guide (USA Tolerance Rings, 'Tech Information on Tolerance Rings')
@@ -864,8 +991,8 @@
 - **when_to_use**: When you need to fix a bearing, gear, pulley, fan or knob to a shaft or into a housing without keys, set screws, splines or glue, and without machining to a very tight press-fit size. When the two parts are different materials that grow differently with heat (a steel bearing in an aluminium or plastic housing). When you want a compact, zero-backlash drive that slips at a set torque to protect a motor or gearbox from jams and shock loads, or a telescoping part that slides at a set force. To rescue a worn or oversize bore (open it up to fit a ring). When you may want to take the joint apart again later
 - **when_not_to_use**: Not as a clutch that slips often or for long: continuous slipping wears the surfaces and changes the torque (use a friction slip clutch, a ball-detent torque limiter or a magnetic coupling). Not where the release torque must be exact (a ball-detent torque limiter is more precise). Not for very high torque on a small shaft where a key, spline or keyless locking bush would be stronger. Not in soft or thin-walled plastic parts that will creep and loosen (use a screw clamp hub, crush ribs designed for plastic, or glue). Not where you can't press the parts together squarely, or need a seal along the joint
 - **environment_limits**: Heat: ratings differ between makers. Carbon-steel rings: about 120 °C continuous (Euro-Bearings), 250 °F / 121 °C (USA Tolerance Rings) or 200 °C continuous with brief peaks to 250 °C (Bosch Rexroth). Stainless (301) rings: 250 °C continuous, brief peaks to 300 °C (Bosch Rexroth; Euro-Bearings), or 450 °F / 232 °C (USA Tolerance Rings). Monel K-500 rings have been used to 600 °F (316 °C) and Hastelloy C-276 to 900 °F (482 °C) (USA Tolerance Rings FAQ). Catalogue torque values apply up to 100 °C (Bosch Rexroth). Corrosion: carbon steel rusts; stainless resists water and outdoor use (McMaster-Carr; USA Tolerance Rings FAQ). Vibration: rings can 'walk out' in high vibration, which tabbed rings prevent (Saint-Gobain RENCOL brochure); rings behave as springs and shift vibration frequencies rather than damping them, which can reduce or increase noise (USA Tolerance Rings FAQ), although Wikipedia and McMaster-Carr describe them as damping vibration. Creep: plastic housings creep and relax, lowering grip over time (USA Tolerance Rings blog)
-- **safety_notes**: Thin stamped steel rings can have sharp edges; handle with gloves. Press parts together with a proper press and fixture rather than hammering. As a torque limiter it lets the drive slip, so a motor may keep turning while the load stops, and a slipping joint should not be relied on to hold a raised load. *(unverified parts omitted)*
-- **common_failures**: Waves crushed on one side because the parts were pushed together at an angle or hammered, or cut by a sharp entry edge, which lowers the grip (USA Tolerance Rings catalogue). Slips in normal use because the fit was on the loose side of the tolerances, a shock or start-up load was higher than expected, or a plastic housing crept (USA Tolerance Rings catalogue and blog). Performance drops after repeated overload slips (USA Tolerance Rings catalogue: 'degradation of performance may result'). Ring walks out of a plain bore under vibration (use a groove or a tabbed ring) (Saint-Gobain). Torque changes with heat because the parts grow apart or together (USA Tolerance Rings blog). Avoid by designing for worst-case tolerances, using chamfers and grooves, pressing squarely and testing the slip torque *(unverified parts omitted)*
+- **safety_notes**: Thin stamped steel rings can have sharp edges; handle with gloves. Press parts together with a proper press and fixture rather than hammering. As a torque limiter it lets the drive slip, so a motor may keep turning while the load stops, and a slipping joint should not be relied on to hold a raised load. Its torque can drift with wear, heat and plastic creep, so don't use it as the only safety device where slipping too late or too early could hurt someone ⚑ [uncertain] *(⚑ parts need confirming)*
+- **common_failures**: Waves crushed on one side because the parts were pushed together at an angle or hammered, or cut by a sharp entry edge, which lowers the grip (USA Tolerance Rings catalogue). Slips in normal use because the fit was on the loose side of the tolerances, a shock or start-up load was higher than expected, or a plastic housing crept (USA Tolerance Rings catalogue and blog). Performance drops after repeated overload slips (USA Tolerance Rings catalogue: 'degradation of performance may result'). Ring walks out of a plain bore under vibration (use a groove or a tabbed ring) (Saint-Gobain). Torque changes with heat because the parts grow apart or together (USA Tolerance Rings blog). Excessive pressing force or a cracked brittle part if the fit is too tight ⚑ [uncertain]. Avoid by designing for worst-case tolerances, using chamfers and grooves, pressing squarely and testing the slip torque *(⚑ parts need confirming)*
 - **related**: 
   - Press fit (interference fit): solid metal-to-metal grip that needs much tighter machining, can crack brittle parts and loosens when parts grow differently with heat
   - Crush ribs and spring-fit features (compliant press fit): the printable plastic version of the same idea, with small ribs or flexing fingers moulded into the hole
@@ -905,7 +1032,24 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://www.youtube.com/watch?v=48arfVE4BzU
 
+### Finder tags
+
+- **connects**: 3D-printed part, shaft
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: in line
+- **overload_response**: slips and keeps going
+- **clicks**: not applicable
+- **tools**: drill and tap, press or vice, power tools, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** aliases, common_failures, input_output, making_tips_3d_printing, processes, removability, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, input_output, making_tips_3d_printing, processes, removability, reuse_cycles, safety_notes
 

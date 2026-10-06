@@ -21,7 +21,8 @@ reddit.com link and the archive address actually read.
   all 323 entries: **115 answer paths, every one ends on 3-10 entries (5.9 on average), no dead
   ends, and every entry is reachable.** Re-tested on 2026-10-06 with all 409 entries: a tenth
   first answer for electrical connections and a few new questions give **140 paths, all 3-10
-  entries (5.9 on average), every entry reachable** (1.4). 25 real forum questions were run through it: 17 reach a
+  entries (5.9 on average), every entry reachable** (1.4). A fourth overload answer (R25) makes
+  it 141 paths, still all 3-10 entries. 25 real forum questions were run through it: 17 reach a
   good answer, 7 partly, 1 is outside the encyclopedia's scope. The test scripts are in `research/finder-test/`.
 - **But** the test only passes because of some draft tags worked out from entry names. About half
   of the answers need data the entries don't have yet as fixed choices (what the parts are, what
@@ -72,17 +73,20 @@ entry names and families, in `research/finder-test/tags.py`):
 | `power_source` | none / electricity / compressed air / liquid / suction / heat | The "powered" branch; also a safety filter |
 | `power_loss` | stays locked / lets go / keeps its last state / not applicable | Asked by the plan in PROJECT.md (`power` field), but stored as free text |
 | `motion_in`, `motion_out`, `shaft_layout` | steady turning / back-and-forth turning / steps / straight push or pull / back-and-forth straight / bending / pressure / heat; parallel / at an angle / in line / crossed / far apart | The "change a movement" branch; split out of `input_output` |
-| `overload_response` | slips and keeps going / clicks or pops out and resets / breaks or lets go once | The "slip if overloaded" branch |
+| `overload_response` | slips and keeps going / clicks or pops out and resets / comes apart without damage, refit by hand (added R25) / breaks or lets go once | The "slip if overloaded" branch |
 | `clicks` | clicks / silent | The "one way only" branch: ratchets click; sprag, roller and wrap-spring clutches are silent |
 | `glue_traits`, `bonds_well`, `bonds_poorly` | strongest / stays flexible / fills gaps / fast / can be undone; material lists | The glue branch. The `materials` text mixes "bonds well" and "poor" lists, so the material question needs them split |
 | `usual_process` | one of the `processes` options | `processes` lists everything possible |
 
-**Update 2026-10-06 (P3 accepted):** `research/finder-tags/` now proposes a value for every field
-above (plus fixed-choice `tools`, `load_max`, `adjustable`, `removability`, `power` and
-`electrical_band`) for all 409 entries. The owner checks them family by family in a review session.
-The tag fields and their options are in `research/finder-tags/fields.yaml`. One option is new:
-`overload_response` gains "comes apart without damage, refit by hand" for plugs, magnetic
-connectors and hook-and-loop, for the owner to accept or drop.
+**Update 2026-10-06 (P3, R25):** `research/finder-tags/` now gives every entry a value for each
+field above, plus fixed-choice `tools`, `load_max`, `adjustable`, `removability`, `power` and
+`electrical_band`. The values are proposed by a script and accepted by the owner as the working
+values. Values that the script was unsure of, or that come from research text marked
+[uncertain], are listed as **needs confirming** (⚑), so they can be revisited and marked on the
+site (`research/needs-confirming.md`). The fields and their options are in
+`research/finder-tags/fields.yaml`. `overload_response` gained a fourth option, "comes apart
+without damage, refit by hand", for plugs, magnetic connectors and hook-and-loop. It is also the
+fourth answer to *What should happen when it is overloaded?*
 
 ### 1.2 The questions
 
@@ -127,7 +131,7 @@ fasteners under *boards*, *wall* and *shaft*, adjusters under the widened *line 
 | Hold together | What are you joining? | 3D-printed parts, or screws, nuts and magnets into a print · Boards, panels or sheet · Tube, rod, pole or extrusion · A wheel, gear or arm onto a shaft, or two shafts · Strap, cord, rope or fabric · A lid, door or cover that opens · Something onto a wall, desk, bar, tripod, rail or grid · Something to grip or clamp · Melt them together (weld, braze or solder) · I just want to glue it · Any solid parts / something else | Printed parts: *Will you need to take it apart again?* (never / yes / it is fabric, chain mail or a folding sheet made in the print), then *Is there a screw?* · Tube: *Does it carry air or liquid?* · Boards: *Will you need to take it apart again?* (never / now and then with a tool / often by hand), then *What is the sheet made of?* · Shaft: *A part onto a shaft, or two shafts?*, then *Will you print it?* or *How well do the shafts line up?* · Strap: *Close an opening or attach fabric / tie, splice or lash it / sew or lace it / fit a part*, then for knots *What should the knot do?* (stop or finish an end / tie to a post or join two cords / make a loop or hold tension / bind or lash) and for parts *What should the part do?* (hook, link or swivel / join or grip strap ends / fix to fabric or leather) · Lid: *How should it open?* (on a hinge or stays open at an angle / twist / catch or lever / by power), then *Should it lock?* · Wall, desk, bar or tripod: *What is it going onto?* (a wall or ceiling / a bar, pole or desk edge / a tripod or stand / a rail, extrusion or grid), then for walls *How should it hold?* (screws, anchors, hooks or slots / magnet or suction / tape) · Melt: *Metal, or plastic?* · Grip: *By hand or by a robot?* · Glue: *What are you gluing?* (printed plastic / slippery plastics / wood / metal or glass / rubber, fabric or foam), then *What matters most?* (strongest / flexible / fills gaps / can be undone) · Any: *Where can you reach?* (one side / both sides / doesn't matter) |
 | Connect wires or power | What are you connecting? | Wires to each other (a splice) · A wire to a board, terminal or device · Batteries, docks and parts that touch or turn · Wires on fabric, paper or a print · Insulate, protect or route wires | Board, terminal or device: *Will you unplug it often?* |
 | Let it move | How should it move? | Swing or rock, under a full turn · Spin round and round · Slide or telescope · Bend or flex · Swivel or tilt (ball or universal joint) · Follow a set path (e.g. swing out and stay level) | Swing: *Print in one piece?*, then *Should it stay where you put it?* · Spin: *A wheel on an axle, or a shaft driving a shaft?*, then *Just pass the turning on / one way only / change speed* · Slide: *Telescoping tube / carriage on a rail / pushed by a screw or crank* · Bend: *Hinge / straight-line or spring / grip or snap* |
-| Control a movement | What should it do? | Move one way only · Click into set positions · Slip, click or let go if overloaded · Stay where I leave it until I release it · Snap past a point and stay (over-centre) · Slow it, stop it or keep its speed steady | *Does it turn or slide?*, then for turning: *Is clicking OK?* (ratchets) or *must it be silent?* (sprag, roller, wrap-spring), *Hold a position I set / step forward*, *Lock so only a person can open it / hold a load where it stops* · Overload: *Slip and keep going / pop out and reset / break once* · Over-centre: *Clamp shut / flip between two positions* · Slow: *Brake / damper / steady speed* |
+| Control a movement | What should it do? | Move one way only · Click into set positions · Slip, click or let go if overloaded · Stay where I leave it until I release it · Snap past a point and stay (over-centre) · Slow it, stop it or keep its speed steady | *Does it turn or slide?*, then for turning: *Is clicking OK?* (ratchets) or *must it be silent?* (sprag, roller, wrap-spring), *Hold a position I set / step forward*, *Lock so only a person can open it / hold a load where it stops* · Overload: *Slip and keep going / pop out and reset / pull apart and refit by hand / break once* · Over-centre: *Clamp shut / flip between two positions* · Slow: *Brake / damper / steady speed* |
 | Change a movement | What change do you need? | Faster, slower or stronger turning · Turning into straight-line motion, or back · Steady turning into steps or rocking · A push or pull moved, multiplied or redirected · Movement from air, liquid, suction or heat | Gears: *How are the shafts arranged?* (side by side / at an angle / in line / far apart) · Straight line: *Precise push (screws) / back and forth (cranks, cams) / long travel (rack, belt, chain, rope)* · Push or pull: *Levers and linkages / cables, pulleys or liquid* |
 | Tighten | What are you tightening? | Strap, lace, cord or rope · Belt, chain or cable in a machine · Parts clamped together | Strap: *Click, wind or screw it tighter / grip by friction / pulls back by itself* |
 | Line up or adjust | What do you need? | Put it back in exactly the same place every time · Set a height, gap or position, then hold it · Fine-tune a tilt or angle with screws | |
@@ -233,6 +237,16 @@ even more: these are the fields Phase 1 should set by hand. The 25 forum questio
 not re-run; several of their gaps (welding prints, hose clamps, screw-in inserts, roll pins,
 sewing a part on, edge trim, a cable through a hinge, an expanding gripper) are entries now.
 
+**Update 2026-10-06 (R25):** the overload question now uses the `overload_response` finder tag
+(`research/finder-tags/`) and has a fourth answer, *Pull apart without damage, then refit it by
+hand*: the magnet joint, hook-and-loop, quick couplers, the magnetic connector and the plain plug
+and socket. Result: **141 paths, all 3-10 entries (5.9 on average), every entry reachable, 201
+answers.** Shortlist sizes: 3 (14 paths), 4 (26), 5 (24), 6 (25), 7 (19), 8 (16), 9 (9), 10 (8).
+Iron-on fusible web had been reached only through a name match on "fusible". It now sits with the
+flexible glues. This is the first answer that uses the new tags, and the other answers move over
+when the finder is built (Phase 2). `paths.md` marks with ⚑ each entry that is on a path because of
+a tag value that still needs confirming.
+
 ### 1.5 Strict decision tree, or "tick what applies"?
 
 **A strict tree (one answer per question) works best for the first two or three questions**,
@@ -274,7 +288,8 @@ results page shows the shortlist as cards *and* the tick-box panel with counts; 
 ### 1.6 Draft flow chart
 
 The charts below are generated from the tested tree (`research/finder-test/gen_docs.py`), so
-they match the test exactly (regenerated 2026-10-06 for all 409 entries). The number after each answer is how many entries it leaves. Green
+they match the test exactly (regenerated 2026-10-06 for all 409 entries, and again for the
+fourth overload answer, R25). The number after each answer is how many entries it leaves. Green
 rounded boxes end on a shortlist; orange boxes lead to another question (shown in the branch
 charts). Each shortlist's entries are listed in `research/finder-test/paths.md`.
 
@@ -361,7 +376,7 @@ flowchart LR
   a28(["Follow a set path (e.g. swing out and stay level) · 8"])
   q22 --> a28
   class a28 leaf
-  a29["Control a movement (one way only, clicks, slips, locks, slows) · 123"]
+  a29["Control a movement (one way only, clicks, slips, locks, slows) · 133"]
   q0 --> a29
   q30{"What should it do?"}
   a29 --> q30
@@ -371,7 +386,7 @@ flowchart LR
   a32["Click into set positions · 20"]
   q30 --> a32
   class a32 more
-  a33["Slip, click or let go if overloaded · 21"]
+  a33["Slip, click or let go if overloaded · 40"]
   q30 --> a33
   class a33 more
   a34["Stay where I leave it, and let go when I release it · 34"]
@@ -707,7 +722,7 @@ flowchart LR
   a160(["Strongest bond · 7"])
   q159 --> a160
   class a160 leaf
-  a161(["Stays flexible, or seals too · 3"])
+  a161(["Stays flexible, or seals too · 4"])
   q159 --> a161
   class a161 leaf
   a162(["Fills gaps, or builds up a shape · 4"])
@@ -739,7 +754,7 @@ flowchart LR
   a172(["Strongest bond · 5"])
   q171 --> a172
   class a172 leaf
-  a173(["Stays flexible, or seals too · 4"])
+  a173(["Stays flexible, or seals too · 5"])
   q171 --> a173
   class a173 leaf
   a174(["Fills gaps, or builds up a shape · 3"])
@@ -874,7 +889,7 @@ flowchart LR
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
 
-#### Branch 4: Control a movement (one way only, clicks, slips, locks, slows) (123 entries)
+#### Branch 4: Control a movement (one way only, clicks, slips, locks, slows) (133 entries)
 
 ```mermaid
 flowchart LR
@@ -919,69 +934,72 @@ flowchart LR
   a234(["Slides, bends or something else · 7"])
   q229 --> a234
   class a234 leaf
-  a235["Slip, click or let go if overloaded · 21"]
+  a235["Slip, click or let go if overloaded · 40"]
   q218 --> a235
   q236{"What should happen when it is overloaded?"}
   a235 --> q236
-  a237["Slip, and keep going · 12"]
+  a237["Slip, and keep going · 20"]
   q236 --> a237
   q238{"Will you 3D print it?"}
   a237 --> q238
-  a239(["Yes, or partly · 6"])
+  a239(["Yes, or partly · 10"])
   q238 --> a239
   class a239 leaf
-  a240(["No, I will buy or machine it · 6"])
+  a240(["No, I will buy or machine it · 10"])
   q238 --> a240
   class a240 leaf
   a241(["Click or pop out, then reset by itself · 6"])
   q236 --> a241
   class a241 leaf
-  a242(["Break or let go once, on purpose (replace it after) · 5"])
+  a242(["Pull apart without damage, then refit it by hand · 5"])
   q236 --> a242
   class a242 leaf
-  a243["Stay where I leave it, and let go when I release it · 34"]
-  q218 --> a243
-  q244{"Does it turn or slide?"}
-  a243 --> q244
-  a245["Turns · 19"]
-  q244 --> a245
-  q246{"What should it do?"}
-  a245 --> q246
-  a247(["Lock so only a person can open it (key, code, trigger) · 8"])
-  q246 --> a247
-  class a247 leaf
-  a248(["Hold a load where it stops (brake or self-locking drive) · 10"])
-  q246 --> a248
+  a243(["Break or let go once, on purpose (replace it after) · 6"])
+  q236 --> a243
+  class a243 leaf
+  a244["Stay where I leave it, and let go when I release it · 34"]
+  q218 --> a244
+  q245{"Does it turn or slide?"}
+  a244 --> q245
+  a246["Turns · 19"]
+  q245 --> a246
+  q247{"What should it do?"}
+  a246 --> q247
+  a248(["Lock so only a person can open it (key, code, trigger) · 8"])
+  q247 --> a248
   class a248 leaf
-  a249(["Slides · 8"])
-  q244 --> a249
+  a249(["Hold a load where it stops (brake or self-locking drive) · 10"])
+  q247 --> a249
   class a249 leaf
-  a250(["Bends, or something else · 9"])
-  q244 --> a250
+  a250(["Slides · 8"])
+  q245 --> a250
   class a250 leaf
-  a251["Snap past a point and stay there (over-centre) · 13"]
-  q218 --> a251
-  q252{"What is it for?"}
-  a251 --> q252
-  a253(["Clamp or latch something shut · 5"])
-  q252 --> a253
-  class a253 leaf
-  a254(["Flip between two positions (switch, fold or stay) · 8"])
-  q252 --> a254
+  a251(["Bends, or something else · 9"])
+  q245 --> a251
+  class a251 leaf
+  a252["Snap past a point and stay there (over-centre) · 13"]
+  q218 --> a252
+  q253{"What is it for?"}
+  a252 --> q253
+  a254(["Clamp or latch something shut · 5"])
+  q253 --> a254
   class a254 leaf
-  a255["Slow it down, stop it, or keep its speed steady · 18"]
-  q218 --> a255
-  q256{"What do you need?"}
-  a255 --> q256
-  a257(["Stop it or hold it still (brakes) · 4"])
-  q256 --> a257
-  class a257 leaf
-  a258(["Cushion or smooth it (dampers) · 6"])
-  q256 --> a258
+  a255(["Flip between two positions (switch, fold or stay) · 8"])
+  q253 --> a255
+  class a255 leaf
+  a256["Slow it down, stop it, or keep its speed steady · 18"]
+  q218 --> a256
+  q257{"What do you need?"}
+  a256 --> q257
+  a258(["Stop it or hold it still (brakes) · 4"])
+  q257 --> a258
   class a258 leaf
-  a259(["Keep a steady speed or level · 7"])
-  q256 --> a259
+  a259(["Cushion or smooth it (dampers) · 6"])
+  q257 --> a259
   class a259 leaf
+  a260(["Keep a steady speed or level · 7"])
+  q257 --> a260
+  class a260 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -990,52 +1008,52 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q260{"What change do you need?"}
-  a261["Faster, slower or stronger turning · 21"]
-  q260 --> a261
-  q262{"How are the input and output shafts arranged?"}
-  a261 --> q262
-  a263(["Side by side (parallel) · 10"])
-  q262 --> a263
-  class a263 leaf
-  a264(["At an angle (e.g. 90 degrees) · 7"])
-  q262 --> a264
+  q261{"What change do you need?"}
+  a262["Faster, slower or stronger turning · 21"]
+  q261 --> a262
+  q263{"How are the input and output shafts arranged?"}
+  a262 --> q263
+  a264(["Side by side (parallel) · 10"])
+  q263 --> a264
   class a264 leaf
-  a265(["In line (one straight through the other) · 7"])
-  q262 --> a265
+  a265(["At an angle (e.g. 90 degrees) · 7"])
+  q263 --> a265
   class a265 leaf
-  a266(["Far apart, or the path bends (belts, cables, chains) · 5"])
-  q262 --> a266
+  a266(["In line (one straight through the other) · 7"])
+  q263 --> a266
   class a266 leaf
-  a267["Turning into straight-line motion, or back · 27"]
-  q260 --> a267
-  q268{"What kind of straight-line motion?"}
-  a267 --> q268
-  a269(["A slow, precise push (screws) · 7"])
-  q268 --> a269
-  class a269 leaf
-  a270(["Back and forth, again and again (cranks, cams) · 5"])
-  q268 --> a270
+  a267(["Far apart, or the path bends (belts, cables, chains) · 5"])
+  q263 --> a267
+  class a267 leaf
+  a268["Turning into straight-line motion, or back · 27"]
+  q261 --> a268
+  q269{"What kind of straight-line motion?"}
+  a268 --> q269
+  a270(["A slow, precise push (screws) · 7"])
+  q269 --> a270
   class a270 leaf
-  a271(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
-  q268 --> a271
+  a271(["Back and forth, again and again (cranks, cams) · 5"])
+  q269 --> a271
   class a271 leaf
-  a272(["Steady turning into steps, or into rocking · 7"])
-  q260 --> a272
+  a272(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
+  q269 --> a272
   class a272 leaf
-  a273["A push or pull moved, multiplied or redirected · 14"]
-  q260 --> a273
-  q274{"How?"}
-  a273 --> q274
-  a275(["Levers and linkages · 9"])
-  q274 --> a275
-  class a275 leaf
-  a276(["Cables, ropes, pulleys or liquid in tubes · 5"])
-  q274 --> a276
+  a273(["Steady turning into steps, or into rocking · 7"])
+  q261 --> a273
+  class a273 leaf
+  a274["A push or pull moved, multiplied or redirected · 14"]
+  q261 --> a274
+  q275{"How?"}
+  a274 --> q275
+  a276(["Levers and linkages · 9"])
+  q275 --> a276
   class a276 leaf
-  a277(["Make movement from air, liquid, suction or heat · 8"])
-  q260 --> a277
+  a277(["Cables, ropes, pulleys or liquid in tubes · 5"])
+  q275 --> a277
   class a277 leaf
+  a278(["Make movement from air, liquid, suction or heat · 8"])
+  q261 --> a278
+  class a278 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -1044,26 +1062,26 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q278{"What are you tightening?"}
-  a279["A strap, lace, cord or rope · 21"]
-  q278 --> a279
-  q280{"How should it hold?"}
-  a279 --> q280
-  a281(["Click, wind or screw it tighter (ratchet, winch, turnbuckle) · 6"])
-  q280 --> a281
-  class a281 leaf
-  a282(["Grip by friction; release by hand (buckles, cord locks, hitches) · 8"])
-  q280 --> a282
+  q279{"What are you tightening?"}
+  a280["A strap, lace, cord or rope · 21"]
+  q279 --> a280
+  q281{"How should it hold?"}
+  a280 --> q281
+  a282(["Click, wind or screw it tighter (ratchet, winch, turnbuckle) · 6"])
+  q281 --> a282
   class a282 leaf
-  a283(["Pull back by itself (spring or elastic) · 3"])
-  q280 --> a283
+  a283(["Grip by friction; release by hand (buckles, cord locks, hitches) · 8"])
+  q281 --> a283
   class a283 leaf
-  a284(["A belt, chain or cable in a machine · 6"])
-  q278 --> a284
+  a284(["Pull back by itself (spring or elastic) · 3"])
+  q281 --> a284
   class a284 leaf
-  a285(["Parts clamped or pulled together · 10"])
-  q278 --> a285
+  a285(["A belt, chain or cable in a machine · 6"])
+  q279 --> a285
   class a285 leaf
+  a286(["Parts clamped or pulled together · 10"])
+  q279 --> a286
+  class a286 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -1072,16 +1090,16 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q286{"What do you need?"}
-  a287(["Put it back in exactly the same place every time · 7"])
-  q286 --> a287
-  class a287 leaf
-  a288(["Set a height, gap or position, then hold it · 5"])
-  q286 --> a288
+  q287{"What do you need?"}
+  a288(["Put it back in exactly the same place every time · 7"])
+  q287 --> a288
   class a288 leaf
-  a289(["Fine-tune a tilt or angle with screws · 4"])
-  q286 --> a289
+  a289(["Set a height, gap or position, then hold it · 5"])
+  q287 --> a289
   class a289 leaf
+  a290(["Fine-tune a tilt or angle with screws · 4"])
+  q287 --> a290
+  class a290 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -1090,16 +1108,16 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q290{"How should it push back?"}
-  a291(["Push or pull in a straight line · 7"])
-  q290 --> a291
-  class a291 leaf
-  a292(["A printed or bent springy part (flexure) · 8"])
-  q290 --> a292
+  q291{"How should it push back?"}
+  a292(["Push or pull in a straight line · 7"])
+  q291 --> a292
   class a292 leaf
-  a293(["Twist back (torsion), or wind up · 8"])
-  q290 --> a293
+  a293(["A printed or bent springy part (flexure) · 8"])
+  q291 --> a293
   class a293 leaf
+  a294(["Twist back (torsion), or wind up · 8"])
+  q291 --> a294
+  class a294 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -1108,56 +1126,56 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q294{"What do you need?"}
-  a295["Keep water, dust or air out of a joint that does not move · 16"]
-  q294 --> a295
-  q296{"Will you need to take it apart again?"}
-  a295 --> q296
-  a297["No, never · 10"]
-  q296 --> a297
-  q298{"What are the parts?"}
-  a297 --> q298
-  a299(["Metal sheet, tube or pipe · 6"])
-  q298 --> a299
-  class a299 leaf
-  a300(["Plastic, fabric or film, or a gap to fill · 4"])
-  q298 --> a300
+  q295{"What do you need?"}
+  a296["Keep water, dust or air out of a joint that does not move · 16"]
+  q295 --> a296
+  q297{"Will you need to take it apart again?"}
+  a296 --> q297
+  a298["No, never · 10"]
+  q297 --> a298
+  q299{"What are the parts?"}
+  a298 --> q299
+  a300(["Metal sheet, tube or pipe · 6"])
+  q299 --> a300
   class a300 leaf
-  a301(["Yes · 6"])
-  q296 --> a301
+  a301(["Plastic, fabric or film, or a gap to fill · 4"])
+  q299 --> a301
   class a301 leaf
-  a302(["Seal round a moving shaft or rod · 4"])
-  q294 --> a302
+  a302(["Yes · 6"])
+  q297 --> a302
   class a302 leaf
-  a303(["Get cables through a wall or past a moving joint · 8"])
-  q294 --> a303
+  a303(["Seal round a moving shaft or rod · 4"])
+  q295 --> a303
   class a303 leaf
-  a304["Join hoses, pipes or tubes · 11"]
-  q294 --> a304
-  q305{"How is it joined?"}
-  a304 --> q305
-  a306(["Screwed together (threads or a nut) · 4"])
-  q305 --> a306
-  class a306 leaf
-  a307(["Pushed on, clamped or clicked together · 4"])
-  q305 --> a307
+  a304(["Get cables through a wall or past a moving joint · 8"])
+  q295 --> a304
+  class a304 leaf
+  a305["Join hoses, pipes or tubes · 11"]
+  q295 --> a305
+  q306{"How is it joined?"}
+  a305 --> q306
+  a307(["Screwed together (threads or a nut) · 4"])
+  q306 --> a307
   class a307 leaf
-  a308(["Fused, soldered or brazed for good · 3"])
-  q305 --> a308
+  a308(["Pushed on, clamped or clicked together · 4"])
+  q306 --> a308
   class a308 leaf
-  a309["Pump, store or control air or liquid (valves, pumps) · 18"]
-  q294 --> a309
-  q310{"What should it do?"}
-  a309 --> q310
-  a311(["Push air or liquid along (pumps) · 7"])
-  q310 --> a311
-  class a311 leaf
-  a312(["Let flow one way only, or let off pressure (safety) · 4"])
-  q310 --> a312
+  a309(["Fused, soldered or brazed for good · 3"])
+  q306 --> a309
+  class a309 leaf
+  a310["Pump, store or control air or liquid (valves, pumps) · 18"]
+  q295 --> a310
+  q311{"What should it do?"}
+  a310 --> q311
+  a312(["Push air or liquid along (pumps) · 7"])
+  q311 --> a312
   class a312 leaf
-  a313(["Switch, set or store the flow (valves, regulators, tanks) · 7"])
-  q310 --> a313
+  a313(["Let flow one way only, or let off pressure (safety) · 4"])
+  q311 --> a313
   class a313 leaf
+  a314(["Switch, set or store the flow (valves, regulators, tanks) · 7"])
+  q311 --> a314
+  class a314 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -1166,26 +1184,26 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  q314{"What will power it?"}
-  a315["Electricity · 11"]
-  q314 --> a315
-  q316{"What should it do?"}
-  a315 --> q316
-  a317(["Lock, latch or hold by magnet, and let go on command · 6"])
-  q316 --> a317
-  class a317 leaf
-  a318(["Brake, engage, switch or move something · 5"])
-  q316 --> a318
+  q315{"What will power it?"}
+  a316["Electricity · 11"]
+  q315 --> a316
+  q317{"What should it do?"}
+  a316 --> q317
+  a318(["Lock, latch or hold by magnet, and let go on command · 6"])
+  q317 --> a318
   class a318 leaf
-  a319(["Compressed air · 8"])
-  q314 --> a319
+  a319(["Brake, engage, switch or move something · 5"])
+  q317 --> a319
   class a319 leaf
-  a320(["Liquid (hydraulics, water) · 6"])
-  q314 --> a320
+  a320(["Compressed air · 8"])
+  q315 --> a320
   class a320 leaf
-  a321(["Suction (vacuum) · 6"])
-  q314 --> a321
+  a321(["Liquid (hydraulics, water) · 6"])
+  q315 --> a321
   class a321 leaf
+  a322(["Suction (vacuum) · 6"])
+  q315 --> a322
+  class a322 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
@@ -1545,6 +1563,8 @@ finder:                       # fixed choices only; these drive the finder and t
   maker_difficulty: hard
   usual_process: off-the-shelf part   # new
   clicks: silent              # new
+needs_confirming:             # added R25: shown with ⚑ and a "suggest a correction" link
+  clicks: {kind: best guess, reason: the text uses both clicking and silent words}
 media:
   - file: sprag-clutch.png    # copied into the repo, not hotlinked
     title: Sprag clutch.png
@@ -1562,14 +1582,19 @@ sources: [...]
 
 What the conversion script does: copies identity and media fields across; turns each finder
 field into its fixed choices (as `research/finder-test/normalise.py` already does) and keeps the
-explanation text for the page; drops sentences marked `[uncertain]` from the page (as the run 2
-report does) but keeps them in the JSON; writes the long fields (how it works, when to use, when
+explanation text for the page; ~~drops sentences marked `[uncertain]` from the page (as the run 2
+report does) but keeps them in the JSON~~ **(changed 2026-10-06, R25)** keeps sentences marked
+`[uncertain]` on the page, shown as *needs confirming* (⚑) with a "suggest a correction" link,
+and copies the entry's `needs_confirming` tags and its open points from `review-notes.md` into
+the front matter; writes the long fields (how it works, when to use, when
 not to use, making tips, rules of thumb, common failures, safety notes, related) as headings.
 
 ### 3.3 Building the interactive finder
 
 - At build time, write two small files: **`finder.json`** (for each entry: its address, name,
-  plain name, family and the fixed finder values; an estimated 100 KB or so for 323 entries) and
+  plain name, family and the fixed finder values; an estimated 100 KB or so for 323 entries; since
+  R25 also which of those values need confirming, so a shortlist card can show ⚑ when an entry is
+  there because of one) and
   **`finder-tree.json`** (the questions, answers and rules, exported from the tested tree in
   `research/finder-test/tree.py`).
 - **The guided finder is one page with a small plain-JavaScript script (no framework)** that walks
@@ -1691,6 +1716,13 @@ Risks, and how to handle them:
    **Beta** that asks users to report missing mechanisms, errors and problems, and it is meant to
    become a community project.
 
+**Follow-up (2026-10-06, R25):** many of the tags the script was unsure of are hard to settle
+without knowing every mechanism, so the owner accepted the script's values as the working values
+for now. Everything not yet confirmed is marked **needs confirming** (⚑) wherever it appears, and
+the site will show the same mark with a link to suggest a correction, wiki-style
+(`research/needs-confirming.md`). The fourth overload answer (*pull apart without damage, then
+refit it by hand*) is kept.
+
 P1 now has 10 first answers, because electrical connections got its own answer in the
 2026-10-06 re-test (1.4).
 
@@ -1709,4 +1741,6 @@ P1 now has 10 first answers, because electrical connections got its own answer i
 Open questions this raised, both answered on 2026-10-06:
 - **Licence for the site's code** (scripts, finder, layouts): MIT.
 - **Who checks the new finder tags?** The owner, in a careful review session, after a script has
-  proposed them (now about 409 × 10 values).
+  proposed them (now about 409 × 10 values). *Changed the same day (R25):* the script's values are
+  the working values, unconfirmed ones are marked *needs confirming* (⚑), and readers of the Beta
+  site help confirm them.

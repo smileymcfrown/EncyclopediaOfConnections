@@ -1,6 +1,6 @@
 # over-centre, toggle & cam clamps: Snaps past a dead point and stays
 
-[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). Unverified parts are left out; see the index page.
+[Back to the index](../report.md). Entries are numbered as in the index (research-priority order). ⚑ marks what needs confirming; corrections are welcome (`research/needs-confirming.md`).
 
 ## 19 Over-centre linkage (toggle linkage)
 
@@ -46,15 +46,15 @@
 - **holding_principle**: 
   - shape (form-fit): the lock is geometric; the knee sits on the wrong side of the straight line and bears against a stop
   - spring force (a spring or springy part presses it in place): the clamping force it holds comes from the parts, a pad, a gasket or the workpiece being squeezed or stretched slightly (elastic preload) as the knee passes straight
-- **input_output**: Input: a swing of the handle or a sideways push on the knee -> output: a short push or pull along the links, or a small swing of an output lever. For a symmetrical toggle pushed at the knee, output force = input force / (2 x tan of each link's angle from straight) (formula from the Firgelli blog, consistent with Britannica's 'about 29 times at 1 degree'): roughly 5.7:1 at 5 degrees and 28:1 at 1 degree, rising towards infinity at straight, although friction and flexing keep real forces much lower (Sclater p.106). Shaft arrangement: not applicable (links and pins working in one plane). Back-drivable: yes before it reaches centre; no once it is past centre and resting on its stop. *(unverified parts omitted)*
+- **input_output**: Input: a swing of the handle or a sideways push on the knee -> output: a short push or pull along the links, or a small swing of an output lever. For a symmetrical toggle pushed at the knee, output force = input force / (2 x tan of each link's angle from straight) (formula from the Firgelli blog, consistent with Britannica's 'about 29 times at 1 degree'): roughly 5.7:1 at 5 degrees and 28:1 at 1 degree, rising towards infinity at straight, although friction and flexing keep real forces much lower (Sclater p.106). Rough efficiency: ⚑ [uncertain] not usually quoted; the losses are friction in the pins. Shaft arrangement: not applicable (links and pins working in one plane). Back-drivable: yes before it reaches centre; no once it is past centre and resting on its stop. *(⚑ parts need confirming)*
 - **power**: passive (no power needed). Powered versions exist, where an air cylinder, hydraulic ram or motor moves the knee (pneumatic toggle clamps, aircraft landing gear); because the lock is geometric, DESTACO states its pneumatic toggle clamps stay mechanically locked even with total loss of air pressure, so it keeps its last state
 - **removability**: tool-free quick release: the lock opens by hand with a flick of the handle; the linkage itself is pinned or bolted together and can be taken apart with tools
 - **reuse_cycles**: effectively unlimited: locking and unlocking does not wear it out quickly; the limit is wear of the pins and holes, and creep or wear in plastic parts
 - **tools_needed**: None to operate. To build or fit: a drill, pins or shoulder bolts with lock nuts, and spanners or hex keys; often a screw or shim to set how far past centre it goes
 - **seal**: none: it is a locking linkage. It only helps to seal when it squeezes a lid onto a gasket (see Draw latch)
-- **load**: Medium to very heavy depending on size: the load runs straight along the links as a pure push or pull, which is their strong direction, and machines such as stone crushers and toggle presses use it for very large forces (Sclater p.106). Weak points: the pins (in shear), the stop (it takes the locking force) and any sideways or twisting load that bends the links; *(unverified parts omitted)*
+- **load**: Medium to very heavy depending on size: the load runs straight along the links as a pure push or pull, which is their strong direction, and machines such as stone crushers and toggle presses use it for very large forces (Sclater p.106). Weak points: the pins (in shear), the stop (it takes the locking force) and any sideways or twisting load that bends the links; Firgelli lists link bending under off-axis loading as a failure mode ⚑ [uncertain] *(⚑ parts need confirming)*
 - **adjustable**: Usually yes: a screw or threaded link changes the effective length, which sets the clamping force and how far past centre it locks (the adjusting screw of locking pliers, Wikipedia; the spindle of a toggle clamp; the threaded hook of a draw latch). Setting it too tight can stop it passing centre or leave it sitting exactly on centre, unlocked (US patent 4,925,221)
-- **play_and_precision**: Small play, set by the pin clearances; the locked position is very repeatable because it always ends against the same stop. Near straight the output hardly moves, so small errors in link length change the clamping force a lot; *(unverified parts omitted)*
+- **play_and_precision**: Small play, set by the pin clearances; the locked position is very repeatable because it always ends against the same stop. Near straight the output hardly moves, so small errors in link length change the clamping force a lot; Firgelli suggests matching press links to about +/-0.05 mm pin to pin ⚑ [uncertain]. The pin axes should be parallel; it tolerates little twist or misalignment ⚑ [uncertain] *(⚑ parts need confirming)*
 - **access_needed**: not applicable: it is a mechanism built into a device; you only need to reach the handle or knee that operates it
 - **materials**: Steel links with hardened steel pins for tools, clamps and presses; stainless steel for wet places; for makers: aluminium, hardwood with metal-rod pivots, laser-cut acrylic or plywood plates (Teaching Tech's launcher), and 3D prints (PETG, PLA, nylon) with bolts or steel rod as pins
 - **maker_difficulty**: easy to moderate: two bars and three pins are easy to make, but placing the stop correctly (a few degrees past straight) and giving it enough springiness to hold a clamping force takes some trial and error
@@ -68,16 +68,17 @@
   - CNC and sheet metal: machined or stamped steel links for strong versions
   - off-the-shelf part: toggle clamps, draw latches and locking pliers are ready-made over-centre linkages
 - **print_in_place**: yes, for small demos and latches: ConceivablyEngineering's 'Sturdy print-in-place draw latch' prints already assembled as a working over-centre linkage with 0.2-0.3 mm gaps. Load-bearing linkages are normally printed as separate parts and joined with metal pins or bolts (e.g. Mick Stuart's 'Over Centre Latch' uses an M5 bolt).
-- **making_tips_3d_printing**: 1) Design the stop first. Decide the locked position a little past straight and give the knee or handle a solid surface to rest on. Sclater's sourcebook says that for positive locking the closed position should be 'slightly beyond the toggle position', and German Wikipedia notes the locking effect needs a mechanical stop. 2) Build in a little springiness. The lock only holds a force if something is squeezed or stretched as the knee passes straight: a TPU pad (PA1_MAKER prints the clamp pad in TPU), a slightly flexible hook or loop, or a gasket. With nothing springy it either won't pass centre or holds with no force. 3) Use metal pins. M3-M5 bolts with nyloc nuts, or steel rod (Glenn Brockett's over-centre latch uses 2.2 mm welding rod and says filament pins 'may work, not advised'); printed pins wear quickly and add play, which reduces how far past centre it sits. 4) Clearances: about 0.2-0.3 mm for print-in-place joints; slight under-extrusion on the first layer helps the joints come free (ConceivablyEngineering). 5) Orientation: the links carry push and pull along their length, so print them lying flat with the layers running along the link, and orient pin bosses so the lever's shear force doesn't split layers (PA1_MAKER). Glenn Brockett warns 'You MUST have good layer adhesion or it will break'. 6) Strength: thick walls matter more than infill (1.2 mm shells, ConceivablyEngineering; 5-7 walls, PA1_MAKER; at least 3 perimeters and over 30% infill for latches, zx82net). Size parts for the multiplied force at the knee, not your hand force: Mick Stuart notes his printed latch was easy to test to destruction because 'it has a fair bit of leverage'. 7) Material: use PETG (or better) for anything warm, outdoors or under constant load; PLA softens and deforms above about 60 °C and PETG is good to about 80 °C (Prusa), and printed PLA latches can creep and loosen over time (zx82net). 8) Tune by test: make sure the moving pivot really passes the line between the other two, or it won't snap closed (TECbot); scaling a printed latch by just 2% in X and Y noticeably changes its tightness (zx82net). *(unverified parts omitted)*
+- **making_tips_3d_printing**: 1) Design the stop first. Decide the locked position a little past straight and give the knee or handle a solid surface to rest on. Sclater's sourcebook says that for positive locking the closed position should be 'slightly beyond the toggle position', and German Wikipedia notes the locking effect needs a mechanical stop. Blog guides suggest about 1-3 degrees past straight for clamps and 5-10 degrees for latches (Firgelli) ⚑ [uncertain]; make the stop adjustable (slotted hole, set screw or shim) so you can tune it. 2) Build in a little springiness. The lock only holds a force if something is squeezed or stretched as the knee passes straight: a TPU pad (PA1_MAKER prints the clamp pad in TPU), a slightly flexible hook or loop, or a gasket. With nothing springy it either won't pass centre or holds with no force. 3) Use metal pins. M3-M5 bolts with nyloc nuts, or steel rod (Glenn Brockett's over-centre latch uses 2.2 mm welding rod and says filament pins 'may work, not advised'); printed pins wear quickly and add play, which reduces how far past centre it sits. 4) Clearances: about 0.2-0.3 mm for print-in-place joints; slight under-extrusion on the first layer helps the joints come free (ConceivablyEngineering). 5) Orientation: the links carry push and pull along their length, so print them lying flat with the layers running along the link, and orient pin bosses so the lever's shear force doesn't split layers (PA1_MAKER). Glenn Brockett warns 'You MUST have good layer adhesion or it will break'. 6) Strength: thick walls matter more than infill (1.2 mm shells, ConceivablyEngineering; 5-7 walls, PA1_MAKER; at least 3 perimeters and over 30% infill for latches, zx82net). Size parts for the multiplied force at the knee, not your hand force: Mick Stuart notes his printed latch was easy to test to destruction because 'it has a fair bit of leverage'. 7) Material: use PETG (or better) for anything warm, outdoors or under constant load; PLA softens and deforms above about 60 °C and PETG is good to about 80 °C (Prusa), and printed PLA latches can creep and loosen over time (zx82net). 8) Tune by test: make sure the moving pivot really passes the line between the other two, or it won't snap closed (TECbot); scaling a printed latch by just 2% in X and Y noticeably changes its tightness (zx82net). *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Ready-made over-centre devices: toggle clamps (hold-down, push-pull, latch-action and squeeze-action), draw latches (toggle latches) with keepers, locking pliers (Vise-Grip (brand), Mole grips (brand)), and folding table leg braces. Pivot hardware for home-made linkages: shoulder bolts, clevis pins, dowel pins, nyloc (nylon-insert lock) nuts and washers.
 - **rules_of_thumb**: 
   - Force multiplication of a symmetrical toggle pushed at the knee: F_out = F_in / (2 tan θ), where θ is each link's angle from straight; about 29 times at 1 degree (Britannica 'Toggle mechanism'; formula as given by the Firgelli blog).
   - Maximum clamping force is reached when the three pivot points are in a straight line (DESTACO).
   - Friction keeps real forces far below the theoretical infinity at the straight position, though they are still high (Sclater, Mechanisms and Mechanical Devices Sourcebook, 4th ed., p.106).
   - For positive locking, the closed position should be slightly beyond the toggle (straight) position; a small unlatching force then opens it (Sclater, 4th ed., p.106, Fig. 5). The locking effect needs a mechanical stop (German Wikipedia 'Kniehebel').
+  - Keep the distance past centre small and controlled: DESTACO calls the over-centre travel of its clamps 'a carefully calculated and controlled dimension' that balances maximum holding force against positive locking (DESTACO, via M.J. Vail). Blog figures: 1-3 degrees for clamps and toggle presses; 5-10 degrees for latches, with less than about 2-3 degrees likely to shake open (Firgelli) ⚑ [uncertain].
   - If a latch is adjusted too tight it can finish exactly on centre, looking closed but unlocked; too loose leaves a gap that lets vibration work on it (US patent 4,925,221, toggle latch with automatic safety catch).
   - Locking pliers pass through their tightest point and then relax slightly, so to open them they have to be squeezed tighter first (Wikipedia 'Locking pliers').
-  - IFToMM calls the straight-line position a 'dead point': a configuration in which the input cannot move the mechanism without help from the motion of another link (IFToMM terminology 2.2.57). *(unverified parts omitted)*
+  - IFToMM calls the straight-line position a 'dead point': a configuration in which the input cannot move the mechanism without help from the motion of another link (IFToMM terminology 2.2.57). *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -89,7 +90,7 @@
 - **when_to_use**: Use an over-centre linkage when something must lock firmly in one position and still open quickly by hand, with no key, spring catch or screw: folding legs, braces and stands that must not collapse, lids and doors that must be pulled tight, clamps that hold work, and robot mechanisms that should hold a position without motor power (Game Manual 0 notes over-centring makes a linkage harder to back-drive). It is also the classic way to get a very large force over the last millimetre of a stroke from a small hand or motor force: presses, crimpers, punches and crushers.
 - **when_not_to_use**: Avoid it when you need to hold at many different positions (it locks only at its end point): use a ratchet, a friction hinge or a screw instead. Avoid it when the load can come from the opposite direction or when vibration is severe and safety matters, unless you add a secondary catch or pin (aircraft door toggle latches and folding-table braces add safety catches; US 4,925,221, EP 1044630). Where you need a long, even squeezing force, or the part thickness varies a lot, a screw clamp is easier to set. For a snap that holds in two positions with no stop, a bistable spring (compliant) mechanism may be simpler.
 - **environment_limits**: Metal linkages are limited mainly by corrosion and pin wear: use stainless steel in wet places. Plastic and printed ones lose holding force over time as the squeezed parts creep and relax: printed PLA latches can loosen (zx82net), and PLA softens above about 60 °C and PETG above about 80 °C (Prusa; CNC Kitchen saw PLA start to give at 60 °C, PETG at 80 °C and ASA at 110 °C). Vibration can bump a handle that sits only just past centre back over (Roche; US 4,925,221).
-- **safety_notes**: Pinch and crush points: the force near straight is huge (about 29 times the input at 1 degree, Britannica), so keep fingers out of the links and the jaws (Roche cites pinch points as a common hazard). Don't rely on a printed or unsecured over-centre lock to hold people or heavy loads (folding tables and aircraft gear add safety catches). If the stop breaks or wears away, the linkage can fold the other way and collapse. *(unverified parts omitted)*
+- **safety_notes**: Pinch and crush points: the force near straight is huge (about 29 times the input at 1 degree, Britannica), so keep fingers out of the links and the jaws (Roche cites pinch points as a common hazard). Stored energy: the squeezed parts push back, so a handle can spring open when released ⚑ [uncertain]. Don't rely on a printed or unsecured over-centre lock to hold people or heavy loads (folding tables and aircraft gear add safety catches). If the stop breaks or wears away, the linkage can fold the other way and collapse. *(⚑ parts need confirming)*
 - **common_failures**: 1) Not far enough past centre: it sits on or very near centre and shakes or springs open; move the stop or adjust the length so it clearly snaps over (US 4,925,221). 2) Too tight: it cannot be pushed past centre, or forcing it bends links or cracks printed parts; back off the adjustment (Roche). 3) Worn or sloppy pins: clearance reduces the preload and how far past centre it sits; use metal pins and replace worn ones (Firgelli lists knee-pin wear first). 4) Creep: plastic parts and pads relax under constant squeeze and the lock goes slack (zx82net); use PETG or nylon, or a metal spring element. 5) Missing or weak stop: the knee over-travels and the load folds it; make the stop solid. 6) Printed parts snapping along layers under the multiplied force; print for strength and orient layers along the links.
 - **related**: 
   - Toggle clamp: a ready-made over-centre linkage that presses work down or pushes it sideways
@@ -162,9 +163,26 @@
   - https://api.printables.com/graphql/
   - https://huangyan920.github.io/Mechanical/
 
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: back-and-forth turning, straight push or pull ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named*
+- **motion_out**: back-and-forth turning, straight push or pull ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named*
+- **shaft_layout**: not applicable ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named*
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, hand tools
+- **load_max**: heavy
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** input_output, load, making_tips_3d_printing, play_and_precision, rules_of_thumb, safety_notes
+- ⚑ **Fields with parts that need confirming:** input_output, load, making_tips_3d_printing, play_and_precision, rules_of_thumb, safety_notes
 
 ## 20 Toggle clamp
 
@@ -217,7 +235,7 @@
 - **reuse_cycles**: effectively unlimited: clamping and unclamping is its normal use; the mounting can also be moved many times
 - **tools_needed**: None to use. To fit and adjust: a drill, screws or through-bolts with washers and lock nuts (Roche), and a spanner for the spindle lock nuts; Popular Woodworking suggests swapping one hex nut for a wing nut so the spindle can be adjusted by hand
 - **seal**: none: it only presses parts; latch-action versions can hold a lid down on a gasket, and the gasket does the sealing
-- **load**: Light to heavy depending on size and style. Typical maximum holding capacities: horizontal up to about 1,300 lbf (5.8 kN), vertical up to about 5,060 lbf (22.5 kN), push-pull 100-16,000 lbf (0.4-71 kN), latch up to 7,500 lbf (33 kN), squeeze 100-1,200 lbf (0.4-5.3 kN) (Rowse); Halder's range is 0.25-8 kN. Strongest in the clamping direction; holding capacity is rated with the spindle nearest the handle or base and falls as the spindle moves out along the arm (DESTACO; Carr Lane). *(unverified parts omitted)*
+- **load**: Light to heavy depending on size and style. Typical maximum holding capacities: horizontal up to about 1,300 lbf (5.8 kN), vertical up to about 5,060 lbf (22.5 kN), push-pull 100-16,000 lbf (0.4-71 kN), latch up to 7,500 lbf (33 kN), squeeze 100-1,200 lbf (0.4-5.3 kN) (Rowse); Halder's range is 0.25-8 kN. Strongest in the clamping direction; holding capacity is rated with the spindle nearest the handle or base and falls as the spindle moves out along the arm (DESTACO; Carr Lane). Sideways (shear) loads on the spindle and arm are its weak direction, so let fixed stops take cutting and sliding forces ⚑ [uncertain] *(⚑ parts need confirming)*
 - **adjustable**: Yes: the threaded spindle screws up and down (or in and out) to set the clamping height and force, and on open (slotted) arms it can be moved along the arm; latch types have threaded U-bolts or hooks; auto-adjusting models adapt to different thicknesses by themselves (McMaster-Carr); spring-action spindles allow more variation (Carr Lane)
 - **play_and_precision**: Small play; it closes to the same point every time, a 'more consistent clamping point' than a cam-action clamp (DESTACO). The rubber tip and slight flexing let it accept slightly different part thicknesses without readjustment (Carr Lane). It is not a locating device on its own: push the part against fixed stops or pins and let the clamp hold it there (Roche)
 - **access_needed**: one side only (blind) when screwed down from the top into a jig or bench; through-bolts (recommended by Roche for vibration) need both sides
@@ -229,7 +247,8 @@
 - **processes**: 
   - off-the-shelf part: the usual choice; cheap and widely available
   - 3D print (FDM): several mostly or fully printed designs for light jigs and 3D-printer or drill-press hold-downs
-  - woodwork: shop-made hardwood clamps with metal-rod pivots (Woodsmith) *(unverified parts omitted)*
+  - woodwork: shop-made hardwood clamps with metal-rod pivots (Woodsmith)
+  - CNC and sheet metal: commercial clamps are steel parts pinned or riveted together ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: no: the printed designs found are printed as separate parts and assembled with bolts (DrTomFlint, PA1_MAKER, Tom), with printed pins and a few drops of glue (Cristian), or assembled with no fasteners or glue (Macshay)
 - **making_tips_3d_printing**: 1) Pins: use steel bolts through the pivots (M3-M6 in the designs found, with lock nuts), not printed pins, for anything that takes real force; DrTomFlint's clamp uses two M3x20, two M3x40 and one M4x12 screw, Tom's PETG 'Kniehebelspanner' uses M5 bolts with lock nuts. Fully printed designs (Cristian's vertical-lever clamp, printed pins glued in; Macshay's no-fastener clamp) suit light duty. 2) Walls over infill: PA1_MAKER recommends at least 5 walls (7 used) with 25% infill; DrTomFlint uses 3 perimeters for the base, link and handle and 5 perimeters for the arm to reduce flex; Tom printed 15 outer lines in PETG for stiffness. 3) Orientation: lay parts out so the lever's shear forces run along the layers, and raise the nozzle temperature a little on the shaft parts for better layer bonding (PA1_MAKER). Print threaded parts with fine layers (0.15 mm, DrTomFlint) so the threads are clean. 4) Threads and nuts: use a real bolt as the spindle and embed a nut by pausing the print (Tom pauses to insert an M6 nut); threaded blocks and arms may need supports. 5) Pad: print the clamping pad in TPU so it grips and adds a little springiness, which the over-centre lock needs to hold a force (PA1_MAKER). 6) Set the stop and spindle so the pad touches the work slightly before the handle goes over centre; the handle should snap down with firm hand pressure (Roche). 7) Material: PETG or tougher for workshop use; PLA softens above about 60 °C (Prusa) and can creep under a constant clamping load (zx82net observed printed PLA latches loosening). 8) Mount it on a stiff base with all mounting holes used (DESTACO), or on a T-slot adapter (DrTomFlint's design fastens to aluminium T-slot extrusion).
 - **off_the_shelf_parts**: Hold-down toggle clamps (vertical-handle and horizontal-handle; low-profile, compact, heavy-duty and auto-adjusting versions), push-pull (straight-line) toggle clamps with plungers and optional locking handles, latch-style toggle clamps with a U-bolt or hook and a latch plate (including right-angle versions for lids), squeeze-action clamps (toggle pliers), pneumatic (air-powered) toggle clamps and power clamps, and clamp spindles (hex-head, rubber-cushioned or spring-action) with lock nuts (McMaster-Carr; Carr Lane; Halder; JW Winco).
@@ -252,7 +271,7 @@
   - Latch-style versions on old-fashioned Kilner jars and swing-top bottles (Rowse)
 - **when_to_use**: Use a toggle clamp when you clamp the same kind of part again and again and want it fast, one-handed and repeatable: jigs for routing, sawing, drilling, gluing and welding, test and assembly fixtures, and holding panels or lids shut (latch style). Pick a horizontal-handle clamp where height above the work is limited, a vertical-handle clamp for more holding force, a push-pull clamp to push a part sideways against a stop, a latch clamp to pull two parts together, and a squeeze clamp to grip parts between jaws (Rowse; Carr Lane).
 - **when_not_to_use**: Avoid it when part thickness varies a lot from one clamping to the next, since each change needs the spindle readjusted: use a screw clamp, F-clamp or an auto-adjusting clamp instead. Avoid it when you need very high, finely set clamping force or heavy machining of steel; Carr Lane notes toggle clamps suit wood, plastics, carbon fibre and non-ferrous metals because their clamping force is limited, so use screw clamps, strap clamps or a vice. Don't use it where there is no room for the handle to swing, or where it can be bumped open without a locking handle. It is not a locating device: pair it with stops or pins.
-- **environment_limits**: Zinc-plated steel rusts outdoors or in washdown areas; stainless versions resist corrosion and suit elevated temperatures (JW Winco; Carr Lane). Printed clamps: PLA softens and deforms above about 60 °C and PETG is fine below about 80 °C (Prusa); plastic parts and pads creep under a clamp that stays closed for a long time, so the grip loosens. In high-vibration or high-cycle work, check that the handle cannot be bumped free (Roche) and consider positive-locking handles (Carr Lane). *(unverified parts omitted)*
+- **environment_limits**: Zinc-plated steel rusts outdoors or in washdown areas; stainless versions resist corrosion and suit elevated temperatures (JW Winco; Carr Lane). Rubber spindle tips wear and harden over time ⚑ [uncertain]. Printed clamps: PLA softens and deforms above about 60 °C and PETG is fine below about 80 °C (Prusa); plastic parts and pads creep under a clamp that stays closed for a long time, so the grip loosens. In high-vibration or high-cycle work, check that the handle cannot be bumped free (Roche) and consider positive-locking handles (Carr Lane). *(⚑ parts need confirming)*
 - **safety_notes**: Pinch points: keep fingers out of the linkage and from under the spindle while closing it (Roche, citing OSHA machine-guarding guidance on pinch points). DESTACO fits red handle grips and a patented safety feature to prevent accidental injury to the operator when opening the clamp, so treat opening as a hazard too. Do not exceed the stated holding capacity, which already includes a safety factor (DESTACO). Check that the clamp handle, arm and screws are clear of saw blades and cutters before starting a machine (Roche). Printed clamps can snap suddenly under the multiplied force.
 - **common_failures**: 1) Spindle set too high or too low: too high and the handle won't go over centre (forcing it bends parts or wears the clamp); too low and the part is not held. Set it so the pad touches just before over centre (Roche). 2) Workpiece slips: the clamp pushes the part away from its stops; align the clamp so it pushes the part into its supports (Roche). 3) Mounting screws loosen or the jig flexes: use through-bolts, lock nuts and a stiff base (Roche). 4) Overloading: exceeding holding capacity, or clamping far out on the arm where capacity is lower, bends the arm or links (DESTACO; Carr Lane). 5) Worn pins and linkages reduce the lock; inspect, clean, lubricate and replace worn parts (Roche). 6) Printed clamps: layers split along the arm or pins shear; print with more walls and use steel bolts.
 - **related**: 
@@ -260,7 +279,8 @@
   - Draw latch (over-centre latch): the same linkage made into a lid or door fastener; a latch-action toggle clamp is a heavy-duty draw latch
   - Eccentric cam lever (cam clamp): clamps by flipping an off-centre cam; quicker to make, but its clamping point is less consistent than toggle action (DESTACO)
   - Locking pliers: a hand-held squeeze-action toggle clamp with a screw to set the jaw opening
-  - Screw clamp (F-clamp, C-clamp): slower, but adapts to any thickness and gives more adjustable force *(unverified parts omitted)*
+  - Screw clamp (F-clamp, C-clamp): slower, but adapts to any thickness and gives more adjustable force
+  - Magnetic or vacuum hold-downs: hold flat parts without any arm over the top ⚑ [uncertain] *(⚑ parts need confirming)*
 
 ### Pictures, videos and models
 
@@ -316,9 +336,26 @@
   - https://api.printables.com/graphql/
   - https://huangyan920.github.io/Mechanical/
 
+### Finder tags
+
+- **connects**: something to grip
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: back-and-forth turning ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named*
+- **motion_out**: back-and-forth turning, straight push or pull ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named*
+- **shaft_layout**: not applicable ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named*
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** environment_limits, load, processes, related
+- ⚑ **Fields with parts that need confirming:** environment_limits, load, processes, related
 
 ## 21 Draw latch (over-centre latch)
 
@@ -354,6 +391,7 @@
   - lock, and release by hand: opens and closes with one flick of the lever; many take a padlock or have a secondary lock
   - tighten and hold tension: draws the two parts together and keeps them squeezed, removing rattle
   - seal it, or pass cables or fluid through: only indirectly, by squeezing a lid onto a gasket or O-ring, which does the actual sealing (Southco)
+- **motion**: rotate: the lever and loop swing on pins through a limited arc (Firgelli gives roughly 90-180 degrees for the lever ⚑ [uncertain]); the joined parts are pulled together by only a small distance *(⚑ parts need confirming)*
 - **degrees_of_freedom**: 1 while closing: the lever angle sets the position of the loop and the gap between the parts; effectively 0 once closed and locked over centre
 - **special_behaviour**: 
   - over-centre (snaps past a point and stays): the loop's pivot passes the line between the lever pivot and the keeper and the latch snaps shut (RS: once past the cam point it 'will snap soundly into place and remain securely closed')
@@ -365,12 +403,13 @@
   - shape (form-fit): the loop or hook physically hooks over the keeper
   - friction or clamping (force-fit): the over-centre lever holds the two parts pressed together with a preload
   - spring force (a spring or springy part presses it in place): flexible latches hold by the stretch of rubber, and the steel loops of rigid latches stretch very slightly
-- **input_output**: not applicable: it is a fastening latch, not a drive. *(unverified parts omitted)*
+- **input_output**: not applicable: it is a fastening latch, not a drive. For reference, the lever multiplies hand force by roughly the handle length divided by the offset of the loop's pivot (the Firgelli blog's example: a 65 mm handle and 5 mm offset give about 13:1) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release: it opens and closes by hand; the latch body and keeper are screwed, bolted or riveted on and can be removed with tools
+- **reuse_cycles**: many times: opening and closing is its normal use; metal latches last many thousands of cycles, while rubber straps age and printed plastic latches wear and creep sooner ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: None to open or close. To fit: a drill and a screwdriver (screws or bolts) or a rivet tool; a spanner to set a threaded hook; optionally a padlock
 - **seal**: none by itself. It is used to make a seal watertight or dust-resistant by pressing a lid onto a gasket or O-ring (Southco: draw latches give 'mechanical advantage to compress gaskets and ensure sealing'). Maker example: a printed rugged box with a TPU seal and tight printed latches survived 10 minutes under 10 cm of water with no leak (zx82net)
-- **load**: Light to heavy in tension (pulling the two parts together). For example, Southco's A1 adjustable draw latches are rated up to 1,550 N (350 lb), 3,110 N (700 lb) and 4,450 N (1,000 lb) for small, medium and large sizes; RS groups latches into light, medium and heavy duty. The keeper and its screws must be as strong as the latch (RS) *(unverified parts omitted)*
+- **load**: Light to heavy in tension (pulling the two parts together). For example, Southco's A1 adjustable draw latches are rated up to 1,550 N (350 lb), 3,110 N (700 lb) and 4,450 N (1,000 lb) for small, medium and large sizes; RS groups latches into light, medium and heavy duty. Weak sideways (shear) and against prying, so let hinges, lips or locating pins take sideways loads ⚑ [uncertain]. The keeper and its screws must be as strong as the latch (RS) *(⚑ parts need confirming)*
 - **adjustable**: Yes on adjustable models: a threaded hook or rod changes the reach and the clamping force (Southco A1: grip range up to 144 mm and span adjustment up to 33 mm). Fixed models are adjusted by moving or shimming the keeper. Printed latches can be tuned by scaling the latch by about 2% in X and Y (zx82net)
 - **play_and_precision**: No play once closed, because it is preloaded. It tolerates small misalignment, but the keeper position matters: set too far away, the lever can't pass centre; set too close, it closes loosely, and an over-adjusted latch can even end up exactly on centre, looking closed but unlocked (US patent 4,925,221). Rubber latches tolerate misalignment best (Boat Outfitters). Wikipedia notes a draw latch does not need to be fully closed to hold the two halves together
 - **access_needed**: one side only (blind): both parts are fixed with screws or rivets from the outside and it is operated from outside; through-bolts need both sides
@@ -379,7 +418,10 @@
 
 ### Making it
 
-- **processes**: off-the-shelf part: the usual choice; many sizes and materials, 3D print (FDM): print-in-place latches, or separate printed parts pinned with M3-M5 screws or steel rod *(unverified parts omitted)*
+- **processes**: 
+  - off-the-shelf part: the usual choice; many sizes and materials
+  - 3D print (FDM): print-in-place latches, or separate printed parts pinned with M3-M5 screws or steel rod
+  - sheet metal: commercial latches are usually stamped steel parts ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: yes: ConceivablyEngineering's 'Sturdy print-in-place draw latch' prints already assembled with no supports and 0.2-0.3 mm gaps. Stronger printed latches are printed as separate parts joined with bolts or steel rod (TECbot, Glenn Brockett, the parametric Rugged Storage Box).
 - **making_tips_3d_printing**: 1) Geometry: the loop's pivot must swing past the line from the lever pivot to the keeper, or the latch won't snap closed; mount the hook or keeper so this happens (TECbot: 'make sure the hook is mounted low enough that the loop passes the center pivot'). Add a stop on the lever so it can't over-travel. 2) Print-in-place: 0.2-0.3 mm gaps between moving parts, slight under-extrusion especially on the first layer so the joints free up, thick shells (1.2 mm) with infill of secondary importance; the latch can be fixed with up to four M3 screws or glued (ConceivablyEngineering). 3) Pins: bolts (M5 main pivot in TECbot's latch, with the nut pressed flush using a soldering iron) or steel rod (Glenn Brockett uses 2.2 mm welding rod; filament 'may work, not advised'). The Rugged Storage Box fixes each latch with two M3x40 screws that act as pins. 4) Strength and layers: 'You MUST have good layer adhesion or it will break' (Glenn Brockett). zx82net recommends at least 3 perimeters and over 30% infill for latches and hinges. 5) Material: PETG for outdoor or long-term use; zx82net found PLA latches work at first but can creep over time, loosening the latch and the seal; PLA softens above about 60 °C (Prusa). 6) Tuning: print two sizes and pick the tightness you like; scaling the latch by 2% in X and Y makes a significant difference (zx82net). Tight tolerances may need a little trimming (Glenn Brockett). 7) Sealing: for a watertight box, add a flexible seal (TPU gasket or a 1.75 mm TPU filament in a groove) for the latch to squeeze (zx82net; Rugged Storage Box). 8) Keep printed latches for boxes and light panels; they are 'not sturdy compared to non-printed, non-plastic latches' (ConceivablyEngineering).
 - **off_the_shelf_parts**: Draw latches / toggle latches in fixed-grip, adjustable (threaded hook or U-bolt) and locking (padlockable or key-locking) versions, with matching keepers (catch plates or strikes); concealed and rotary draw latches; flexible rubber T-handle draw latches with keepers; latch-action toggle clamps (hook or U-bolt with latch plate) for heavy lids and doors; latches with a secondary safety catch; wire bail closures for jars (Southco; RS; Carr Lane; Boat Outfitters).
@@ -388,7 +430,8 @@
   - Longer handles need less force to close against the same over-centre resistance (RS).
   - The loop must pass the centre pivot for the over-centre action to work (TECbot, Printables 'Over-Center Toggle Latch').
   - Adjust carefully: under-adjustment leaves a gap that lets vibration and airflow work on the panel; over-adjustment can reduce the over-centre movement or leave the latch looking closed while sitting on centre, unlocked, which is why the aircraft toggle latch in US patent 4,925,221 adds an automatic safety catch.
-  - Printed draw latches: 0.2-0.3 mm print-in-place gaps and 1.2 mm shells (ConceivablyEngineering); scaling by 2% changes tightness noticeably (zx82net). *(unverified parts omitted)*
+  - Printed draw latches: 0.2-0.3 mm print-in-place gaps and 1.2 mm shells (ConceivablyEngineering); scaling by 2% changes tightness noticeably (zx82net).
+  - Blog guidance on spacing and preload: about one latch per 200-300 mm of gasket perimeter with one within 100 mm of each corner; the latch should close about 1-3 mm past dead centre; rubber latches should be stretched to about 110-115% of their free length (Firgelli) ⚑ [uncertain]. *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -399,9 +442,9 @@
   - The wire clip on Kilner-type jars and swing-top bottles (Rowse; Wikipedia 'Flip-top')
 - **when_to_use**: Use a draw latch when a lid, door or panel must be pulled tightly closed and opened quickly by hand: cases and toolboxes, access panels and machine covers, boxes with a gasket that must be squeezed to keep water or dust out, and anything that rattles. It suits places where the catch is on a separate part from the latch, and where some misalignment must be pulled in. Choose a rubber (flexible) latch for quiet, corrosion-free, forgiving closure on coolers and lockers, and an adjustable or locking steel latch for higher loads or security (Boat Outfitters; Southco; RS).
 - **when_not_to_use**: Avoid it where the latch must be flush or hidden (use a concealed latch, quarter-turn fastener or magnetic catch), where the part is opened constantly with no need for pull-down force (a simple snap fit, magnetic catch or ball catch is enough), where real security is needed (add a padlock or use a cam lock), and where the latch sticks out and could be knocked open or catch on things. Don't use it as the only closure for something under internal pressure or that must never open in service without a secondary safety catch (US 4,925,221).
-- **environment_limits**: Zinc-plated steel and zinc die-castings corrode outdoors; stainless steel suits marine and washdown use (RS; Boat Outfitters). Printed latches: PLA softens above about 60 °C and PETG is fine below about 80 °C (Prusa), and PLA latches can creep and loosen over time (zx82net). The over-centre lock resists vibration, but a latch set only just past centre can shake open, so vibration-critical uses add a secondary safety catch (US 4,925,221). *(unverified parts omitted)*
-- **safety_notes**: A latch that looks closed may be sitting on centre and unlocked if it is badly adjusted (US 4,925,221). Don't rely on a printed latch where failure could hurt someone. *(unverified parts omitted)*
-- **common_failures**: 1) Won't close, or needs two hands: the keeper is too far away or the gasket too thick; move or shim the keeper, or use an adjustable latch. 2) Closes loosely or rattles: the keeper is too close or has moved (loose screws), or the loop has stretched; re-set the keeper, tighten screws, use an adjustable hook. 3) Pops open under vibration or knocks: it is only just past centre, or on centre; adjust so it clearly snaps over, and add a secondary catch if needed (US 4,925,221). 4) Keeper or its screws pull out before the latch fails: rate and fix the keeper as strongly as the latch (RS). 5) Printed latches break at the layer lines or creep loose; improve layer adhesion, use PETG and metal pins (Glenn Brockett; zx82net). *(unverified parts omitted)*
+- **environment_limits**: Zinc-plated steel and zinc die-castings corrode outdoors; stainless steel suits marine and washdown use (RS; Boat Outfitters). EPDM rubber latches resist corrosion and damp vibration, but rubber ages; the Firgelli blog claims UV and heat cycling can cost rubber latches 20-30% of their preload within three years ⚑ [uncertain]. Printed latches: PLA softens above about 60 °C and PETG is fine below about 80 °C (Prusa), and PLA latches can creep and loosen over time (zx82net). The over-centre lock resists vibration, but a latch set only just past centre can shake open, so vibration-critical uses add a secondary safety catch (US 4,925,221). *(⚑ parts need confirming)*
+- **safety_notes**: Pinch point: fingers can be trapped between the lever and the base, or between the lid and the box, as it snaps shut ⚑ [uncertain]. A tightly set lever can flick up when released, because the squeezed gasket and stretched loop push back ⚑ [uncertain]. A latch that looks closed may be sitting on centre and unlocked if it is badly adjusted (US 4,925,221). Don't rely on a printed latch where failure could hurt someone. *(⚑ parts need confirming)*
+- **common_failures**: 1) Won't close, or needs two hands: the keeper is too far away or the gasket too thick; move or shim the keeper, or use an adjustable latch. 2) Closes loosely or rattles: the keeper is too close or has moved (loose screws), or the loop has stretched; re-set the keeper, tighten screws, use an adjustable hook. 3) Pops open under vibration or knocks: it is only just past centre, or on centre; adjust so it clearly snaps over, and add a secondary catch if needed (US 4,925,221). 4) Keeper or its screws pull out before the latch fails: rate and fix the keeper as strongly as the latch (RS). 5) Printed latches break at the layer lines or creep loose; improve layer adhesion, use PETG and metal pins (Glenn Brockett; zx82net). 6) Rubber latches crack or lose tension with age and sunlight; replace them periodically ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **related**: 
   - Over-centre linkage (toggle linkage): the principle a draw latch is built on
   - Toggle clamp (latch-action type): a heavy-duty draw latch, usually with a threaded U-bolt, for doors and lids and for fixtures
@@ -458,9 +501,26 @@
   - https://www.printables.com/model/1274025-print-in-place-draw-latch
   - https://api.printables.com/graphql/
 
+### Finder tags
+
+- **connects**: lid, door or cover
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, drill and tap, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes*
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, input_output, load, motion, processes, reuse_cycles, rules_of_thumb, safety_notes
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, load, motion, processes, reuse_cycles, rules_of_thumb, safety_notes
 
 ## 22 Eccentric cam lever (cam clamp, quick-release skewer)
 
@@ -504,12 +564,13 @@
 - **holding_principle**: 
   - friction or clamping (force-fit): the parts are held by being squeezed together; the cam itself is held shut by friction on its shallow slope
   - shape (the parts interlock; form-fit): only for over-centre cams, where the lever must climb back over a small bump in the cam profile to open
-- **input_output**: Force gain about 17 to 25 times: e.g. 75 N at the end of a 44 mm lever gives 1,250 to 1,750 N, and 350 N on a 101 mm lever gives 6,100 to 8,000 N (Ganter). In-line arrangement: the lever usually pulls on a rod or stud through its own pivot. Back-drivable: no when correctly designed (self-locking or over-centre), but eccentric cams can shake loose under strong vibration (Carr Lane). *(unverified parts omitted)*
+- **input_output**: Lever rotation (about a quarter to half turn) -> short straight clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli ⚑ [uncertain]). Force gain about 17 to 25 times: e.g. 75 N at the end of a 44 mm lever gives 1,250 to 1,750 N, and 350 N on a 101 mm lever gives 6,100 to 8,000 N (Ganter). In-line arrangement: the lever usually pulls on a rod or stud through its own pivot. Back-drivable: no when correctly designed (self-locking or over-centre), but eccentric cams can shake loose under strong vibration (Carr Lane). *(⚑ parts need confirming)*
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release: flipping the lever releases the clamp by hand; setting the tightness once needs only finger-turning of the adjusting nut or knob
 - **reuse_cycles**: many times: made to be opened and closed daily (bike wheels, jigs, poles); cams and washers slowly wear, and printed plastic cams creep
+- **tools_needed**: none to operate; fingers to set the adjusting nut on skewers (Sheldon Brown) or a tension dial on some pole locks (MSR); a hex key or screwdriver to fit an industrial lever on its stud or to adjust the tension screw on some other pole and tripod locks ⚑ [uncertain] *(⚑ parts need confirming)*
 - **seal**: none: it only clamps; internal-cam skewers enclose the cam, which keeps dirt out of the mechanism but seals nothing (Sheldon Brown)
-- **load**: Strong in straight pull along the rod; the joint it makes resists sliding (shear) only by friction, so a sideways or twisting load, such as disc-brake forces on a wheel, can make it slip or loosen (Wikipedia, Sheldon Brown) *(unverified parts omitted)*
+- **load**: medium to heavy for its size: industrial cam levers give about 1.25 to 8 kN of clamping force (Ganter GN 927 table); bike skewers are quoted at about 550 kgf (external cam) to 550 to 800 kgf (internal cam) by Brainy Biker, but only 1,000 to 2,500 N by Firgelli, so real values vary a lot ⚑ [uncertain]. Strong in straight pull along the rod; the joint it makes resists sliding (shear) only by friction, so a sideways or twisting load, such as disc-brake forces on a wheel, can make it slip or loosen (Wikipedia, Sheldon Brown) *(⚑ parts need confirming)*
 - **adjustable**: yes: the adjusting nut or threaded stud sets the starting gap and so the clamping force (Sheldon Brown); industrial levers offer an adjustable bearing plate (JW Winco); some trekking-pole lever locks have a tension dial for adjusting on the go (MSR)
 - **play_and_precision**: Play: none once clamped (held by friction). Repeatability: the clamp force repeats as long as the adjusting nut is not moved; position repeats only as well as whatever locating features the clamped parts have. Misalignment: tolerates small errors because it just squeezes, but the cam must bear squarely on its washer; on external-cam skewers a curved plastic washer can turn 90 degrees so the cam presses on the wrong face and the clamp goes dangerously loose (Sheldon Brown)
 - **access_needed**: both sides for through-rod types (lever on one end, nut on the other, as on bike skewers); one side only (blind) when the lever's stud screws into a tapped hole
@@ -522,9 +583,10 @@
   - off-the-shelf part (clamping levers with eccentric cam, cam handles, bike quick-release skewers)
   - 3D print (FDM): cam levers and clips around a metal bolt or pin; print-in-place bag clips
   - woodwork: traditional hardwood cam clamps and jig hold-downs
-  - CNC: machined metal cams and levers for heavier clamping *(unverified parts omitted)*
+  - CNC: machined metal cams and levers for heavier clamping
+  - laser cut: flat cam levers from plywood or acrylic ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: partly: most printed cam levers need an added bolt or pin as the pivot and a nut or threaded stud to pull on (e.g. mikan's cam lever needs an M3 or M4 bolt); small light-duty designs such as Andrei's bag clip print fully assembled as three hinged parts (Printables)
-- **making_tips_3d_printing**: Make the cam slope at the closed position shallower than the slip (friction) angle of your plastic: Andrei's print-in-place bag clip uses a quick-closing first quarter turn, then a quarter turn with a 10-degree slope, measured to be below the slip angle for PLA, which gives the most force and cannot back-drive, and ends with a short constant-radius section that gives a satisfying lock (Printables 27216). His clip has 0.1 mm clearance on the printed shaft (with 0.15, 0.20 and 0.30 mm versions for looser printers) and 0.15 mm layers because the vertical gaps are exactly three layers; other layer heights change the gaps. Use a steel bolt or pin as the pivot and a washer under the cam, as in the CNC side clamp, which uses an M6 bolt and a 6 x 25 mm washer, PETG, 6 walls, 25 percent gyroid infill, and is printed on its side for strength, not flat (Printables 1676459). Walls matter more than infill for printed clamps (3 shells recommended, Hackaday.io bar clamps). Expect printed cams to lose some clamp force over time, because plastic under constant load creeps and PLA makes a poor spring (Hackaday, 'The Challenges Of 3D Printing Reliable Springs'); *(unverified parts omitted)*
+- **making_tips_3d_printing**: Make the cam slope at the closed position shallower than the slip (friction) angle of your plastic: Andrei's print-in-place bag clip uses a quick-closing first quarter turn, then a quarter turn with a 10-degree slope, measured to be below the slip angle for PLA, which gives the most force and cannot back-drive, and ends with a short constant-radius section that gives a satisfying lock (Printables 27216). His clip has 0.1 mm clearance on the printed shaft (with 0.15, 0.20 and 0.30 mm versions for looser printers) and 0.15 mm layers because the vertical gaps are exactly three layers; other layer heights change the gaps. Use a steel bolt or pin as the pivot and a washer under the cam, as in the CNC side clamp, which uses an M6 bolt and a 6 x 25 mm washer, PETG, 6 walls, 25 percent gyroid infill, and is printed on its side for strength, not flat (Printables 1676459). Walls matter more than infill for printed clamps (3 shells recommended, Hackaday.io bar clamps). Print the lever so its layers run along its length ⚑ [uncertain]. Expect printed cams to lose some clamp force over time, because plastic under constant load creeps and PLA makes a poor spring (Hackaday, 'The Challenges Of 3D Printing Reliable Springs'); PETG or nylon are safer for anything left clamped for weeks ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **off_the_shelf_parts**: Search: 'clamping lever with eccentric cam' (e.g. GN 927 series, lever lengths 44 to 101 mm, threads M3 to M12 or 8-32 to 3/8-16, tapped or threaded-stud versions, with or without adjustable bearing plate; JW Winco/Ganter), 'cam handle' or 'cam lever' (Carr Lane), 'cam edge clamp', 'cam action strap clamp', 'spiral cam clamp', 'quick release skewer' (internal cam or external cam; front and rear lengths), 'quick release seatpost clamp', 'lever lock' or 'flick lock' spare parts for trekking poles and tripods.
 - **rules_of_thumb**: 
   - Self-locking needs the cam rise angle to be no bigger than the friction angle, phi = atan(mu); for steel on dry hardwood (mu about 0.3) keep the profile within about 17 degrees of the tangent at the lock point (Firgelli, Cam clamp)
@@ -545,9 +607,9 @@
   - Sash window locks, where a cam pulls the window shut and locks itself (Wikipedia, Cam (mechanism))
 - **when_to_use**: Use a cam lever when something must be clamped firmly but released and re-clamped often and fast, with no tools and even with cold or gloved hands: wheels and seat posts, adjustable poles and tripod legs, fences and stops on woodworking jigs, work-holding in drill jigs and assembly fixtures, and brackets that slide on aluminium extrusion. It is also a neat way for makers to add a strong, adjustable clamp using one bolt and a printed lever.
 - **when_not_to_use**: Avoid it where there is strong vibration or shock (use a screw clamp, a toggle clamp or a positive lock), because eccentric cams can shake loose and have only one true locking point (Carr Lane). Avoid it where a sideways or twisting load tries to drag the clamped parts, such as disc-brake wheels, where a through-axle is safer (Wikipedia, Sheldon Brown). Don't use it where the clamp must hold a precise position against large loads on its own; add a pin or shoulder to locate the parts. If you need even more holding force or a firm over-centre lock with a visible open/closed state, use a toggle clamp or draw latch; for a permanent joint, use a bolt or glue.
-- **environment_limits**: BikeRadar suggests testing a skewer with a drop of oil on the cam to reveal poor designs). Vibration can loosen eccentric and spiral cams (Carr Lane). Temperature swings make pole materials swell or shrink slightly, which can make cam-locked pole sections slip (MSR). Printed plastic cams and levers creep under constant load and lose clamping force over time (Hackaday). *(unverified parts omitted)*
-- **safety_notes**: A bike quick release that is left open, or closed like a wing nut without real clamping force, can let the wheel fall out; forks have 'lawyer lips' (raised tabs) as a backup, and disc-brake forces tend to push the axle out of the dropouts (Wikipedia, Sheldon Brown). On external-cam skewers the curved plastic washer can rotate so the cam presses on its flat and the clamp goes loose enough for the wheel to fall out (Sheldon Brown). Quick-release wheels are easy to steal (Wikipedia). *(unverified parts omitted)*
-- **common_failures**: Not actually clamped: the lever is closed without enough resistance, or used like a wing nut (Sheldon Brown); fix by tightening the adjusting nut until closing leaves a mark on your palm. Adjusting nut too tight, so the lever can't close fully and sits short of its locking point (Sheldon Brown). Brainy Biker). Slipping when contact pads glaze or pivot holes wear oval, and crushed cam lobes in softwood clamps (Firgelli). Shaking loose under vibration (Carr Lane). *(unverified parts omitted)*
+- **environment_limits**: Grip depends on friction, so oil, grease, paint or anodising on the clamped faces lowers the holding force (Firgelli ⚑ [uncertain]; BikeRadar suggests testing a skewer with a drop of oil on the cam to reveal poor designs). Vibration can loosen eccentric and spiral cams (Carr Lane). Temperature swings make pole materials swell or shrink slightly, which can make cam-locked pole sections slip (MSR). Printed plastic cams and levers creep under constant load and lose clamping force over time (Hackaday). No temperature ratings for the standard metal levers were found in the sources opened ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: A bike quick release that is left open, or closed like a wing nut without real clamping force, can let the wheel fall out; forks have 'lawyer lips' (raised tabs) as a backup, and disc-brake forces tend to push the axle out of the dropouts (Wikipedia, Sheldon Brown). On external-cam skewers the curved plastic washer can rotate so the cam presses on its flat and the clamp goes loose enough for the wheel to fall out (Sheldon Brown). Quick-release wheels are easy to steal (Wikipedia). The lever snaps shut with force, so keep fingers out from between lever and frame ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **common_failures**: Not actually clamped: the lever is closed without enough resistance, or used like a wing nut (Sheldon Brown); fix by tightening the adjusting nut until closing leaves a mark on your palm. Adjusting nut too tight, so the lever can't close fully and sits short of its locking point (Sheldon Brown). Loss of force from worn or dirty cams and missing or worn washers, and from compressible plastic washers on cheap external cams (Firgelli ⚑ [uncertain]; Brainy Biker). Slipping when contact pads glaze or pivot holes wear oval, and crushed cam lobes in softwood clamps (Firgelli). Shaking loose under vibration (Carr Lane). On printed levers: creep that slowly reduces clamp force, and levers snapping along layer lines ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **related**: 
   - Toggle clamp and over-centre linkage: use links that go past a straight line instead of a cam; usually give more holding force and a more definite locked position
   - Draw latch: an over-centre lever that pulls two parts together through a hook, for lids and cases
@@ -570,7 +632,8 @@
 - **make_it_yourself**: 
   - [Bag Clip (PRINT IN PLACE CAM) (Andrei, Printables)](https://www.printables.com/model/27216-bag-clip-print-in-place-cam): Print-in-place clip whose cam gives mechanical advantage and locks, with a documented cam profile (10-degree self-locking slope) and clearance versions of 0.1 to 0.3 mm. Details read through the Printables public API because the web page blocks automated access *(licence: GPL 3.0)*
   - [Cam lever - quick release clamp (mikan, Printables)](https://www.printables.com/model/1539611-cam-lever-quick-release-clamp): Printable cam lever that works with an M3 or M4 bolt and nut (thread longer than 20 mm recommended). Read through the Printables public API *(licence: CC0 (public domain))*
-  - [CNC Side Clamp Eccentric - Strong Hold and Low profile (Wood Burning Studio, Printables)](https://www.printables.com/model/1676459-cnc-side-clamp-eccentric-strong-hold-and-low-profi): Low-profile eccentric side clamp for CNC routing, with print settings (PETG, 6 walls, printed on its side) and an M6 bolt and washer. Read through the Printables public API *(licence: CC BY-NC)* *(unverified parts omitted)*
+  - [CNC Side Clamp Eccentric - Strong Hold and Low profile (Wood Burning Studio, Printables)](https://www.printables.com/model/1676459-cnc-side-clamp-eccentric-strong-hold-and-low-profi): Low-profile eccentric side clamp for CNC routing, with print settings (PETG, 6 walls, printed on its side) and an M6 bolt and washer. Read through the Printables public API *(licence: CC BY-NC)*
+  - [Universal Quick-Release Bar Clamps (Hackaday.io)](https://hackaday.io/project/152898-universal-quick-release-bar-clamps): Parametric OpenSCAD/Customizer cam-lock clamps that slide onto T-slot aluminium extrusion ('lift to lock, push to release'), with files on Thingiverse *(licence: not stated on the Hackaday.io page ⚑ [uncertain])* *(⚑ parts need confirming)*
 - **diagram_idea**: Side view of a lever with an off-centre round cam pressing on a washer over two plates: three frames show the gap closing as the lever swings, a small graph of cam height against lever angle rising steeply then flattening (with a tiny dip past the peak for the over-centre version), and an inset wedge showing that the slope at the closed position is shallower than the friction angle.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Quick_release_skewer
@@ -594,7 +657,24 @@
   - https://www.youtube.com/watch?v=vaeRNEE9wmU
   - https://www.youtube.com/watch?v=fkTCNT-1sJ8
 
+### Finder tags
+
+- **connects**: something to grip
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning ⚑ *needs confirming (source uncertain): `input_output` is marked [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli [uncertain])…"*
+- **motion_out**: straight push or pull ⚑ *needs confirming (source uncertain): `input_output` is marked [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli [uncertain])…"*
+- **shaft_layout**: not applicable ⚑ *needs confirming (source uncertain): `input_output` is marked [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli [uncertain])…"*
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ud or to adjust the tension screw on some other pole and tripod locks [uncertain]…"*
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+
 ### Other info
 
-- **Fields with unverified parts:** common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, processes, safety_notes, tools_needed
 
