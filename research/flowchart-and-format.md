@@ -77,6 +77,13 @@ entry names and families, in `research/finder-test/tags.py`):
 | `glue_traits`, `bonds_well`, `bonds_poorly` | strongest / stays flexible / fills gaps / fast / can be undone; material lists | The glue branch. The `materials` text mixes "bonds well" and "poor" lists, so the material question needs them split |
 | `usual_process` | one of the `processes` options | `processes` lists everything possible |
 
+**Update 2026-10-06 (P3 accepted):** `research/finder-tags/` now proposes a value for every field
+above (plus fixed-choice `tools`, `load_max`, `adjustable`, `removability`, `power` and
+`electrical_band`) for all 409 entries. The owner checks them family by family in a review session.
+The tag fields and their options are in `research/finder-tags/fields.yaml`. One option is new:
+`overload_response` gains "comes apart without damage, refit by hand" for plugs, magnetic
+connectors and hook-and-loop, for the owner to accept or drop.
+
 ### 1.2 The questions
 
 The finder asks **one question that everyone answers** (the job), then **one to three questions

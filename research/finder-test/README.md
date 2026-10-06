@@ -14,7 +14,7 @@ python3 gen_docs.py .  # rewrites mermaid.md (the charts), paths.md (every path 
 | File | What it does |
 |------|--------------|
 | `normalise.py` | Turns the free-text finder fields (motion, removability, seal, load, …) into fixed answer options, using the first option each entry names |
-| `tags.py` | Draft tags the data doesn't have yet, worked out from entry names and families: what the parts are (`connects`), what powers it, input → output motion, shaft layout. **Rough, rule-based; to be replaced by real fields in Phase 1** |
+| `tags.py` | Draft tags the data doesn't have yet, worked out from entry names and families: what the parts are (`connects`), what powers it, input → output motion, shaft layout. **Rough, rule-based; to be replaced by the checked tags in `../finder-tags/` (P3)** |
 | `tree.py` | The draft question tree. Each answer is a rule over the fields and tags. Prints `OK` (3-10 entries), `BIG` (over 10) or `SML` (under 3) for every path, and any entry no path reaches |
 | `examples.yaml` | A real-world example for every answer, plus a one-line explanation where the wording could mislead (owner's request, 2026-10-06). `tree.py` reports any answer without one |
 | `gen_docs.py` | Writes `mermaid.md`, `paths.md` and `answers.md` (every question with its answers, examples and explanations) from `tree.py` and `examples.yaml`, so they always match the tested tree |
