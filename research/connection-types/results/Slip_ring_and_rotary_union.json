@@ -79,19 +79,20 @@
       "The swivel 'untangler' on a telephone handset cord (Wikimedia Commons)"
     ],
     "when_to_use": "Use a slip ring when something must keep turning the same way while powered or sending signals: robot turrets and spinning lidar heads, camera motion-control rigs, motorised turntables with lights, spinning clocks and displays, cable reels that stay connected while unwinding (Hackaday; Adafruit; Printables 950300). Use a rotary union when a liquid, air or vacuum has to reach a turning part: car-wash brushes and spinners, coolant or air through a machine-tool spindle, rotary index tables and chucks, swivelling hose connectors (Wikipedia, Rotary union; GTI Spindle; Printables 386782). They avoid the weight, bulk and fatigue of cable loops (TME Systems).",
-    "when_not_to_use": "If the part only turns part of a revolution, or a few turns back and forth, use a cable loop, clock-spring (spiral) cable or a bidirectional cable chain; they are cheaper and have no sliding contacts to wear or add noise (Chief Delphi; Wikipedia, Clockspring). For very high speed or fast data, use a contactless (inductive) coupler or a fibre optic rotary joint (Wikipedia, Rotary transformer; Moog). Don't feed high motor currents through tiny capsule rings (2 A per ring; Adafruit). For a battery-powered rotating part that only needs occasional data, put the battery on the rotating side and use a wireless link instead [uncertain].",
+    "when_not_to_use": "If the part only turns part of a revolution, or a few turns back and forth, use a cable loop, clock-spring (spiral) cable or a bidirectional cable chain; they are cheaper and have no sliding contacts to wear or add noise (Chief Delphi; Wikipedia, Clockspring). For very high speed or fast data, use a contactless (inductive) coupler or a fibre optic rotary joint (Wikipedia, Rotary transformer; Moog). Don't feed high motor currents through tiny capsule rings (2 A per ring; Adafruit). For a battery-powered rotating part that only needs occasional data, put the battery on the rotating side and use a wireless link instead [uncertain]. A clockspring is 'a flat multicore cable wound in a spiral shape' inside a drum, which winds and unwinds as the part turns, as behind a car's steering wheel (Wikipedia 'Clockspring'); a car's clockspring typically gives about five full turns from one end stop to the other and must be fitted at the middle of its travel, or the ribbon stretches and breaks at full lock (YouCanic).",
     "environment_limits": "Hobby capsule slip rings: -20 to +80 °C, 0-300 rpm (SRC012/SRC022 data sheets); running faster shortens life and adds noise (Adafruit). Dust wears brush contacts and industrial units need IP65/IP67 sealing in dusty or wet places (TME Systems). Mercury-wetted rings freeze at about -40 °C (Wikipedia). Rotary union life falls with speed, pressure, heat, dirty fluid and pressure pulses (GTI Spindle); O-ring rotary seals are not usually used below -40 °C or above 121 °C (Canyon Components). Printed parts: PLA gives at about 60 °C and PETG at about 80 °C (CNC Kitchen); friction in rotary seals generates heat (Canyon Components).",
     "safety_notes": "Mains voltage through a small capsule slip ring is risky: Hackaday called one small unit's mains rating 'wishful thinking'; use extra-low voltage where you can and enclose DIY rings with exposed copper contacts [uncertain]. Mercury-wetted slip rings contain toxic mercury (Wikipedia). Rotating machinery has pinch and entanglement points, and a turret with endless rotation can wrap loose cables round itself if wired wrongly [uncertain]. Pressurised rotary unions can leak or spray the working fluid (GTI Spindle).",
     "common_failures": "Brush and ring wear causing electrical noise, flickering or data errors, especially with dust or at high speed (TME Systems; Wikipedia, Rotary transformer: slip rings suffer friction, wear and intermittent contact). DIY contacts losing touch under vibration (Printables 103824) or rubbing with high friction (Hackaday, double pendulum). Low-current contacts flickering: one maker found the more current flowing, the more even the contact, so too few LEDs flickered (Printables 47896) [uncertain]. Lead wires fatiguing when the slip ring is mounted off-axis (Chief Delphi). A slip ring used as the axle and bent by side loads (Hackaday comments). Rotary unions: worn seals from dirty fluid, side-loaded hoses, running dry or overspeed, then leaks (GTI Spindle).",
     "related": [
-      "Cable loop (service loop) or clock-spring spiral cable: cheaper, no sliding contacts, but only for a limited number of turns (Chief Delphi; Wikipedia, Clockspring)",
+      "Cable through a hinge: a service loop, a cable along the pivot axis, or a clockspring (spiral flat cable) for joints that turn less than a full turn or only a few turns; cheaper, with no sliding contacts (Chief Delphi; Wikipedia, Clockspring)",
       "Bidirectional (twisting) cable chain: guides cables round a turret for limited rotation (Printables 919579; Chief Delphi)",
       "Rotary transformer (contactless slip ring): passes power and data through coils without wear, but less power (Wikipedia)",
       "Fibre optic rotary joint: passes light signals for very fast data (Moog)",
       "Audio jack and plug used as a slip ring: a cheap hack for a few low-current circuits (Hackaday)",
       "Turntable bearing (lazy Susan, slewing ring): carries the turning platform's load; its large centre hole is where a through-bore slip ring or rotary union often sits",
       "Cable gland: seals a cable where it passes through a fixed wall, rather than a turning joint",
-      "Detangler: the mechanical (cable-pull) equivalent for BMX brake cables (Wikipedia)"
+      "Detangler: the mechanical (cable-pull) equivalent for BMX brake cables (Wikipedia)",
+      "Flat flexible cable and latching connector: thin flat cable made for places where wiring flexes again and again; a clockspring is a flat multicore cable wound into a spiral (Wikipedia, Flexible flat cable; Clockspring)"
     ]
   },
   "media": {
@@ -192,7 +193,9 @@
       "https://commons.wikimedia.org/wiki/File:Rotary-union-components.jpg",
       "https://commons.wikimedia.org/wiki/File:Untangler.jpg",
       "https://www.youtube.com/watch?v=XTPcSdeAd2Q",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.youcanic.com/properly-set-a-new-clock-spring/",
+      "https://en.wikipedia.org/wiki/Flexible_flat_cable"
     ]
   },
   "uncertain": [
