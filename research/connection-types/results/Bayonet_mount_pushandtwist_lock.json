@@ -10,7 +10,8 @@
       "L-slot and pin joint (pins in L-shaped slots)",
       "bayonet lens mount (camera lenses, using flat tabs or flanges instead of pins)",
       "BNC connector (Bayonet Neill-Concelman, a bayonet-locking coax connector)",
-      "twist-on lid (pressure cookers)"
+      "twist-on lid (pressure cookers)",
+      "quarter-turn mount / quarter-turn adapter (bike-computer and GPS handlebar mounts, e.g. Garmin (brand)-type)"
     ],
     "family": "quick-release & tool-free",
     "other_families": [
@@ -20,7 +21,7 @@
     ],
     "one_liner": "Two round parts that join end to end: push the pins or tabs on one part into notches in the other, twist a short way (typically a quarter turn or less) so they slide under ledges, and a spring or springy bump holds them locked until you push and twist back.",
     "complexity": "A few parts: a male part with 1-4 radial pins, lugs or flat tabs (bayonet lugs); a female part with matching notches and L-shaped or J-shaped slots or ledges; and usually something springy that pushes the parts apart so the pins sit in a small locking notch (a coil spring in a lamp holder, a leaf spring or spring-loaded locking pin in a lens mount, a gasket, O-ring or printed flexing bump in lids).",
-    "how_it_works": "Each pin or tab lines up with an entry notch and slides straight in until it reaches the bottom of the slot. Twisting then carries the pin sideways along the short arm of the L, under a ledge, so the parts can no longer be pulled apart. A spring (or a squashed gasket) pushes the parts apart slightly, which drops the pin into a small hook at the end of the slot (the serif) or against a detent, so it cannot twist back by itself. To separate, you push the parts together against the spring, twist back the other way, and pull apart."
+    "how_it_works": "Each pin or tab lines up with an entry notch and slides straight in until it reaches the bottom of the slot. Twisting then carries the pin sideways along the short arm of the L, under a ledge, so the parts can no longer be pulled apart. A spring (or a squashed gasket) pushes the parts apart slightly, which drops the pin into a small hook at the end of the slot (the serif) or against a detent, so it cannot twist back by itself. To separate, you push the parts together against the spring, twist back the other way, and pull apart. A flat version is the quarter-turn mount on bike computers (Garmin (brand)-type): you 'align the tabs on the back' of the device with the notches in the handlebar mount, then 'press down slightly and turn' it clockwise 'until it locks into place'; Garmin calls the mount's part the 'quarter-turn adapter', and a lever adapter can replace it, so the device drops in and a lever snaps closed to lock it (Garmin Out-Front Mount instructions)."
   },
   "finder_attributes": {
     "job": [
@@ -68,7 +69,8 @@
       "BNC connectors use two lugs in slots and lock with a quarter turn of the coupling nut (Wikipedia, https://en.wikipedia.org/wiki/BNC_connector).",
       "Twist-on pressure cooker lids lock by twisting about 30° so slots in the lid engage flanges on the pot (Wikipedia, https://en.wikipedia.org/wiki/Pressure_cooking).",
       "Printed interlocking joints: about 0.5 mm clearance for FDM; about 0.2 mm for small resin parts, up to 0.4 mm for larger ones (Formlabs, https://formlabs.com/blog/how-to-3d-print-interlocking-joints/).",
-      "Springy locking features: don't build them standing up in Z, fillet the root at 0.5 times the thickness or more, allow about 0.5 mm FDM clearance, and use PETG, ABS or nylon rather than PLA (Hubs, https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/)."
+      "Springy locking features: don't build them standing up in Z, fillet the root at 0.5 times the thickness or more, allow about 0.5 mm FDM clearance, and use PETG, ABS or nylon rather than PLA (Hubs, https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/).",
+      "Screw-in lens mounts are the threaded alternative on small cameras. The S-mount (M12 lens) uses an M12 x 0.5 thread and has no flange, so there is no fixed lens-to-sensor distance and the lens must be screwed in or out to focus (Wikipedia, https://en.wikipedia.org/wiki/S-mount_(CCTV_lens)). The C-mount uses a 1-32 UN 2A thread (1 in across, 32 threads per inch) with a flange focal distance of 17.526 mm; the CS-mount has the same thread but 12.526 mm, so a 5 mm spacer ring lets a C-mount lens work on a CS-mount camera (Wikipedia, https://en.wikipedia.org/wiki/C_mount)."
     ]
   },
   "guidance": {
@@ -90,7 +92,8 @@
       "Ordinary screw thread: clamps to any tightness and carries more load, but needs many turns and can cross-thread",
       "Breech-lock ring lens mount (e.g. early Canon FD): a turning collar locks the lens so the lens itself doesn't rotate",
       "Snap fit: clicks together with a push only, but is often harder to undo",
-      "Hang-on mounts (keyhole slot): a head slides into a slot and drops down, a flat-panel cousin of the L-slot"
+      "Hang-on mounts (keyhole slot): a head slides into a slot and drops down, a flat-panel cousin of the L-slot",
+      "Threaded lens mounts (S-mount, C-mount, CS-mount): screw-in lens mounts on webcams, CCTV and machine-vision cameras; slower to change than a bayonet, but small, cheap and focused simply by screwing the lens in or out (Wikipedia)"
     ]
   },
   "media": {
@@ -174,7 +177,10 @@
       "https://www.youtube.com/watch?v=C6kF1huqRMU (verified via YouTube oEmbed)",
       "https://www.printables.com/model/1168046-container-sets-with-bayonet-lock (read via https://api.printables.com/graphql/)",
       "https://www.printables.com/model/193397-twist-lock-connector (read via https://api.printables.com/graphql/)",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.adorama.com/col/productManuals/GP0101334000.pdf",
+      "https://en.wikipedia.org/wiki/S-mount_(CCTV_lens)",
+      "https://en.wikipedia.org/wiki/C_mount"
     ]
   },
   "uncertain": [

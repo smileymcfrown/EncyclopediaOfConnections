@@ -86,11 +86,13 @@
       "Push-in plastic rivet (fir-tree clip, push rivet): a separate plastic rivet that pushes in and can often be removed, instead of melting part of the part itself",
       "Blind rivet (pop rivet): a metal rivet set from one side; stronger, but a separate part",
       "Cantilever snap fit: a moulded or printed hook that clicks in and can be undone, instead of a permanent melted head",
-      "Solvent welding and ultrasonic welding: fuse two plastic surfaces together (material bond) instead of forming a mechanical head",
+      "Solvent welding: fuses two plastic surfaces with a solvent (material bond) instead of forming a mechanical head",
+      "Ultrasonic weld: melts and fuses two plastic surfaces by high-frequency vibration (material bond) instead of forming a mechanical head; ultrasonic staking uses the same vibration to melt a post into a head (Dukane)",
       "Hot-melt adhesive (glue gun): also melted plastic, but used as a separate glue rather than reshaping the part",
       "Mid-print embedding: traps a nut, magnet or bearing inside the print instead of fixing it on afterwards",
       "Clinching and bent tabs through slots: the sheet-metal cousins that deform the material cold to lock parts together",
-      "Split-part joints for large prints: heat staking is one of the ways to fix split pieces together"
+      "Split-part joints for large prints: heat staking is one of the ways to fix split pieces together",
+      "Melted plastic weld: uses the same soldering iron, but melts the faces of two parts, often with extra plastic from a rod or filament, into one continuous seam instead of forming a rivet head"
     ]
   },
   "media": {

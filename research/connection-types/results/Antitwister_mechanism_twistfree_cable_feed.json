@@ -76,19 +76,20 @@
       "The plate trick and the Balinese candle dance, where a hand holding a plate or candle turns twice and the arm ends up untwisted (Wikipedia, Plate trick)"
     ],
     "when_to_use": "Use an anti-twister when a part must keep spinning the same way and you want a continuous cable or tube to it, with no sliding contacts and no rotating seals: low-noise power or signals for small electronics (Wikipedia: brushes introduce 'unacceptable levels of noise'), sealed or sterile liquid paths (blood processing; US9545637), equipment working under high g in a centrifuge that needs electrical measurements (US3586413), or a striking science demonstration or kinetic sculpture (Printables 1128267; Holroyd). It also suits links that can't easily go through a slip ring, such as a tube carrying liquid alongside wires (US3586413 lists hydraulic, pneumatic and optical uses).",
-    "when_not_to_use": "If the part only turns part of a revolution or a few turns back and forth, a simple service loop, a clock-spring spiral cable or a rotary cable carrier is simpler (see Slip ring and rotary union; igus Twisterband turns through 3,000 degrees). If you need to reach or see the spinning part from a fixed side at all times, the swinging loop gets in the way (Holroyd 2022); use a slip ring, rotary union or a wireless link instead. Holroyd notes that 'the practical applications of such anti-twist mechanisms seem limited'. For low-cost, low-current hobby projects a bought capsule slip ring is smaller and easier. Very high speeds heat and fatigue the flexing cable (US4439178).",
+    "when_not_to_use": "If the part only turns part of a revolution or a few turns back and forth, a simple service loop, a clock-spring spiral cable or a rotary cable carrier is simpler (see Cable through a hinge and Slip ring and rotary union; igus Twisterband turns through 3,000 degrees). If you need to reach or see the spinning part from a fixed side at all times, the swinging loop gets in the way (Holroyd 2022); use a slip ring, rotary union or a wireless link instead. Holroyd notes that 'the practical applications of such anti-twist mechanisms seem limited'. For low-cost, low-current hobby projects a bought capsule slip ring is smaller and easier. Very high speeds heat and fatigue the flexing cable (US4439178). A clockspring is 'a flat multicore cable wound in a spiral shape' inside a drum, which winds and unwinds as the part turns, as behind a car's steering wheel (Wikipedia 'Clockspring'); a car's clockspring typically gives about five full turns from one end stop to the other and must be fitted at the middle of its travel, or the ribbon stretches and breaks at full lock (YouCanic).",
     "environment_limits": "The cable fatigues from constant bending and may 'corkscrew' and break its conductors (igus, Basics of Cable Carriers). A flexing tube heats up from flexure friction (US4439178), and bearing surfaces on the tube heat up from friction too (US9545637). Printed PLA parts start to give at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). Dust and wear affect it less than a slip ring because nothing slides electrically [uncertain].",
     "safety_notes": "The carrier arm and cable loop sweep round the rotor, making entanglement and pinch points; guard the whole sweep zone [uncertain: general machine-safety practice]. A cable that fatigues can expose its conductors, so avoid mains voltage in a DIY loop or protect it with a fuse and enclosure [uncertain]. In fluid systems, wear where the tube runs in its bearing can cut into the tube and cause 'leakage of the fluid through the umbilicus' (US9545637).",
     "common_failures": "1) Wrong or slipping ratio: any drive that isn't exactly 2:1 lets twist build up every turn [uncertain: inferred from the principle]; use gears or a toothed belt. 2) Cable fatigue: conductors break from repeated bending and corkscrewing; use flexible, carrier-rated cable, a large bend radius and strain relief at both ends (igus, Basics of Cable Carriers). 3) Heating and wear of the flexing tube where it runs in its support bearing, leading to leaks (US4439178; US9545637). 4) The loop hitting the rotor, frame or nearby objects as it sweeps round (Holroyd). 5) Printed demo: print-in-place gears fused together until broken loose, and PLA snap fits cracking (Printables 1128267).",
     "related": [
       "Slip ring and rotary union: also allow endless rotation, but through sliding brushes or rotating seals, which wear and add electrical noise or leak (Wikipedia, Anti-twister mechanism; Slip ring)",
-      "Clock-spring (spiral) cable and service loop: no moving contacts, but only a limited number of turns",
+      "Cable through a hinge: a service loop or a clockspring (spiral flat cable) also needs no moving contacts, but allows only part of a turn or a few turns (a car's clockspring about five from end to end, YouCanic)",
       "Cable carrier (drag chain), including rotary carriers such as igus Twisterband (brand): guide cables through a limited rotation (up to 3,000 degrees) rather than endless turns (igus, Basics of Cable Carriers)",
       "Multi-turn rotation limiter: stops a shaft after a set number of turns, so a plain cable loop isn't over-twisted",
       "Planetary gear set: the usual way to get the exact 2:1 carrier speed (Printables 1128267)",
       "Spinor linkage: a chain of hinged links driven by an internal shaft that does the same job without a separate flexible cable (Holroyd 2022)",
       "Flexible drive shaft: a rotating cable that carries turning motion, rather than a cable that must not twist",
-      "Gimbal: lets a part point in any direction with nested rings, not continuous spin with a cable"
+      "Gimbal: lets a part point in any direction with nested rings, not continuous spin with a cable",
+      "Flat flexible cable and latching connector: thin flat cable made for repeated flexing; wound into a spiral drum it becomes a clockspring (Wikipedia 'Clockspring')"
     ]
   },
   "media": {
@@ -156,7 +157,9 @@
       "https://www.youtube.com/watch?v=oRPCoEq05Zk",
       "https://www.youtube.com/watch?v=ulrcyZpA0rE",
       "https://api.printables.com/graphql/",
-      "https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec"
+      "https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec",
+      "https://en.wikipedia.org/wiki/Clockspring",
+      "https://www.youcanic.com/properly-set-a-new-clock-spring/"
     ]
   },
   "uncertain": [

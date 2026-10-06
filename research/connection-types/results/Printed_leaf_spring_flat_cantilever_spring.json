@@ -93,7 +93,9 @@
       "Cantilever snap fit: the same bending arm with a hook on the end, used to clip parts together",
       "Compliant detent (flexure click arm) and compliant ratchet: leaf springs used to make clicks and one-way motion",
       "Living hinge: a thin web that folds through a large angle; it is a hinge, not a spring",
-      "Spiral power spring and constant-force spring: flat strips coiled up to store more energy or give a steady pull"
+      "Spiral power spring and constant-force spring: flat strips coiled up to store more energy or give a steady pull",
+      "Battery holder and battery contacts: springy metal leaf (and coil) contacts that press on a cell's ends; buy metal ones, because a printed plastic spring that stays pressed relaxes",
+      "Pogo pin: a spring-loaded contact pin, where a tiny coil spring in a tube pushes a contact out; flat leaf-spring contact fingers do the same job where there is no room for a pin"
     ]
   },
   "media": {

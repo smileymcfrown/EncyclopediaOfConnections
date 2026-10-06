@@ -10,7 +10,8 @@
       "French cleat, interlocking cleat, bevelled (beveled) cleat, hanging cleat",
       "cleat wall / French cleat tool wall / cleat rail",
       "Z-clip, Z-bar, panel clip, interlocking hanging clip (extruded aluminium version of the French cleat)",
-      "aluminium French cleat / hanging rail / wall mounting bracket"
+      "aluminium French cleat / hanging rail / wall mounting bracket",
+      "VESA mount / VESA hole pattern (Flat Display Mounting Interface, FDMI): the standard square of four screw holes on the back of monitors and TVs, which a wall bracket or a French-cleat plate screws to"
     ],
     "family": "quick-release & tool-free",
     "other_families": [
@@ -19,7 +20,7 @@
     ],
     "one_liner": "Two gravity-held wall mounts that let an object be lifted on and off without tools: a keyhole slot in the object drops over a screw head in the wall, and a French cleat is a pair of bevelled strips, one on the wall and one on the object, that hook together under the object's weight.",
     "complexity": "A few parts. Keyhole slot: a slot with a round entry hole and a narrower undercut channel, cut into the back of the object or provided by a metal keyhole plate, plus a round- or pan-headed screw (or nail) left sticking out of the wall. French cleat: two strips with matching bevelled edges (one screwed to the wall, one to the object), usually plus a plain spacer strip at the bottom of the object; the aluminium Z-clip is the same idea as two small extrusions.",
-    "how_it_works": "Keyhole slot: the round end of the slot is big enough for the screw head to pass through, and the narrow part only lets the screw's shank through; behind the narrow part there is a hollow pocket for the head. You push the object onto the screw head at the round end, then let it drop, so the head slides behind the narrow part and the object's weight keeps it there. To remove it, lift it up and pull it off. French cleat: the wall strip's bevel faces up and towards the wall, and the object's strip has the opposite bevel facing down. When the object is lowered on, the two slopes hook together, and the weight wedges the object down and in against the wall, so it can't move down or pull outwards ('The bevel stops that from happening', The Honest Carpenter). A plain strip of the same thickness at the bottom keeps the object upright (Stumpy Nubs). To remove it, lift it up and off. Aluminium Z-clips 'wedge together to lock panels in place. Simply lift and remove' (Rockler)."
+    "how_it_works": "Keyhole slot: the round end of the slot is big enough for the screw head to pass through, and the narrow part only lets the screw's shank through; behind the narrow part there is a hollow pocket for the head. You push the object onto the screw head at the round end, then let it drop, so the head slides behind the narrow part and the object's weight keeps it there. To remove it, lift it up and pull it off. French cleat: the wall strip's bevel faces up and towards the wall, and the object's strip has the opposite bevel facing down. When the object is lowered on, the two slopes hook together, and the weight wedges the object down and in against the wall, so it can't move down or pull outwards ('The bevel stops that from happening', The Honest Carpenter). A plain strip of the same thickness at the bottom keeps the object upright (Stumpy Nubs). To remove it, lift it up and off. Aluminium Z-clips 'wedge together to lock panels in place. Simply lift and remove' (Rockler). Screens use a standard screw pattern instead of a keyhole: the VESA mount (Flat Display Mounting Interface) is four threaded holes 'arranged in a square' on the back of the screen, and a stand, wall bracket or printed French-cleat plate is screwed to them (Wikipedia 'VESA mount')."
   },
   "finder_attributes": {
     "job": [
@@ -69,7 +70,8 @@
       "A steel keyhole mounting plate with #6 flat-head screws is rated up to 30 lb (13.6 kg) when properly mounted (Craftparts).",
       "Leave enough space above a Z-clip-hung panel to lift it off: 1/4 to 3/4 in depending on the clip (Monarch Metal).",
       "Two vertical keyholes are the simplest and most secure layout (Carbide 3D community forum).",
-      "FDM overhangs up to about 45° print without supports, so 45° cleats print cleanly (Hubs)."
+      "FDM overhangs up to about 45° print without supports, so 45° cleats print cleanly (Hubs).",
+      "VESA screen mounts: four screw holes in a square; the original pattern is 100 x 100 mm and 75 x 75 mm was added for smaller displays; the smaller patterns use 'standard M4 machine screws', while 200 x 200 mm and larger use M6 or M8; if the screen maker supplies screws, use those rather than the bracket's. The standard also sets a maximum screen weight and screw length for each pattern, so check its tables (Wikipedia 'VESA mount')."
     ]
   },
   "guidance": {
@@ -82,7 +84,7 @@
     "when_to_use": "Use a keyhole slot for light-to-medium items that should sit flush against a wall with hidden hardware: picture frames, signs, small shelves, routers, printed organisers. Use a French cleat for heavier items and for anything you want to move around or take down often: wall cabinets, shelves, mirrors, tool holders on a cleat wall. The wall side can be screwed into studs wherever they are, and the object is simply lifted on, with no fine manoeuvring and no need to hold its full weight while fixing it (Wikipedia).",
     "when_not_to_use": "Avoid gravity-held mounts where the object could be bumped upwards or shaken off (children's rooms, vehicles, boats, earthquake zones, vibrating machines) unless you add a lock screw, cleat lock or bottom fixing (Wikipedia; cyberbobcity). Don't use them where the load pulls the object away from the wall or upwards (a pull-up bar, a hanging hoist); through-bolt instead. Avoid them on ceilings or under shelves. Keyholes in thin or brittle material are poor for heavy items; use a French cleat. For many small items that you reposition constantly, a pegboard or grid system gives more positions. When the item must go back in exactly the same place, use locating pins or a dovetail clamp.",
     "environment_limits": "PLA softens above about 60 °C and degrades in UV light, and PETG is suitable to about 80 °C (Prusa), so printed hooks and keyhole lips in hot garages or sunny windows should be PETG. Printed parts under constant load can sag (creep) over time, although one PLA cleat mount carrying a 6.27 kg monitor showed no noticeable sag after six months (Morris Lazootin). Vibration can walk an object up and off a gravity mount; Z-clips were recommended over keyholes for their vibration resistance (Carbide 3D forum). [uncertain] Wooden cleats can swell and bind in damp places; plywood is more stable than solid wood.",
-    "safety_notes": "A heavy object falling is the main hazard: fix the wall side into studs or into anchors rated for the load (Stumpy Nubs; Popular Woodworking), and don't use brittle drywall screws (The Honest Carpenter). Anything hung this way can be knocked upwards and off, so fix the bottom of heavy cabinets to the wall (Wikipedia) or add a cleat lock. Add a bottom spacer so the object can't tip forward (Stumpy Nubs). Drill pilot holes and lubricate screws so they aren't weakened when driven into studs (Sawmill Creek forum). [uncertain] Check for hidden pipes and cables before drilling into walls.",
+    "safety_notes": "A heavy object falling is the main hazard: fix the wall side into studs or into anchors rated for the load (Stumpy Nubs; Popular Woodworking), and don't use brittle drywall screws (The Honest Carpenter). Anything hung this way can be knocked upwards and off, so fix the bottom of heavy cabinets to the wall (Wikipedia) or add a cleat lock. Add a bottom spacer so the object can't tip forward (Stumpy Nubs). Drill pilot holes and lubricate screws so they aren't weakened when driven into studs (Sawmill Creek forum). [uncertain] Check for hidden pipes and cables before drilling into walls. For screens, use the screws the screen maker supplies and a VESA pattern rated for the screen's weight; a heavier screen needs the next larger pattern (Wikipedia 'VESA mount').",
     "common_failures": "1) Holders knocked up and off a cleat wall (cyberbobcity): add a cleat lock or screw. 2) Cabinet tipping forward because there is no bottom spacer (Stumpy Nubs). 3) Solid-wood cleat splitting along the grain (Stumpy Nubs): use plywood. 4) Drywall screws snapping (The Honest Carpenter): use deck or structural screws into studs. 5) Keyhole screw head set too far out (the object rattles) or not far enough (it won't engage): adjust the screw depth (Fine Woodworking). 6) With two keyholes, one screw engages first and the object levers on it and scratches the wall (Carbide 3D forum): space the screws with a template and use vertical slots. 7) A thin printed lip cracking and letting the screw head pull through (layer.works uses a 1 mm lip; thicken it for heavier items). 8) Chatter and poor slots when routing keyholes: pre-clear with a smaller end mill and cut slowly (Carbide 3D forum).",
     "related": [
       "Modular grid mounting systems (pegboard, Gridfinity-style grids): many hang-on positions on a grid instead of one rail or screw",
@@ -93,7 +95,8 @@
       "Double-sided foam tape and stretch-release adhesive strips: glue-on hanging with no holes, but weaker and not easily repositioned; can be combined with cleats (Carbide 3D forum)",
       "Magnet joint (embedded magnets, magnetic catch): tool-free for light items on steel surfaces",
       "Basic latches (spring latch, slide bolt, hook and eye): hooks and eyes are the simplest hang-on joint",
-      "DIN-rail clip (top-hat rail snap mount): hooks over a standard rail and snaps on, so it can't be lifted off by accident"
+      "DIN-rail clip (top-hat rail snap mount): hooks over a standard rail and snaps on, so it can't be lifted off by accident",
+      "Tripod and stand screw mount: the other common standard screw interface (a 1/4-20 or 3/8-16 socket), for screwing a device onto a stand or arm rather than hanging it on a wall"
     ]
   },
   "media": {
@@ -197,7 +200,8 @@
       "https://help.prusa3d.com/article/petg_2059",
       "https://api.printables.com/graphql/",
       "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=xFvced0deZ8&format=json",
-      "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=t5TXVzlAuzw&format=json"
+      "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=t5TXVzlAuzw&format=json",
+      "https://en.wikipedia.org/wiki/VESA_mount"
     ]
   },
   "uncertain": [

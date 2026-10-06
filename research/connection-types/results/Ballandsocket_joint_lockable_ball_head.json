@@ -12,7 +12,8 @@
       "ball-and-socket mount or double-socket arm ('RAM mount', RAM Mounts (brand))",
       "tow ball and coupling (trailer hitch)",
       "Kugelgelenk (German), rotule (French)",
-      "universal ball joint (maker name on model sites, though a true universal joint is a different mechanism)"
+      "universal ball joint (maker name on model sites, though a true universal joint is a different mechanism)",
+      "pyramid adaptor / pyramid adapter (a screw-locked tilt joint from artificial legs; Ottobock (brand) patented it in 1969)"
     ],
     "family": "hinges & pivots",
     "other_families": [
@@ -23,7 +24,7 @@
     ],
     "one_liner": "A ball on one part sits in a matching cup (socket) on the other so it can turn about any axis through the ball's centre but can't pull out; friction holds it at an angle, and a knob, nut or clamp can squeeze the cup to lock it.",
     "complexity": "A few parts. Basic: a ball on a neck or stud, and a socket whose rim wraps past the ball's widest point. Snap-in versions have a socket split by slots into springy fingers (US4607976, Covestro p. 5). Lockable versions add a clamp: a knob screw pushing a friction pad or cone-shaped compression ring against the ball (tripod ball heads; Lensrentals teardown); a threaded union nut or collar that squeezes the slotted socket fingers (printed lockable ball joints); or two half-cups pulled together by one bolt and knob to grip two balls at once, with a spring pushing them apart when loosened (double-socket arm).",
-    "how_it_works": "The ball's centre stays fixed inside the cup, so the attached part can swing in any direction and spin, but can't move sideways or pull out (a spherical joint: three turning freedoms, no sliding; Wikipedia 'Kinematic pair'). The socket's lip curls past the ball's widest point (an undercut), so the ball either snaps in by bending the socket's slotted fingers or is trapped by a cap or nut. How firmly it holds an angle depends on how hard the cup presses on the ball: a light press gives a stiff 'friction joint' that holds light things in any position; tightening a knob or nut presses harder and locks it (a ball head's bearing cup 'distorts a bit with pressure, exerting more friction at higher pressures', Lensrentals). The tilt is limited by the neck hitting the rim of the cup, so an ordinary spherical joint can't turn through more than 180° (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 172)."
+    "how_it_works": "The ball's centre stays fixed inside the cup, so the attached part can swing in any direction and spin, but can't move sideways or pull out (a spherical joint: three turning freedoms, no sliding; Wikipedia 'Kinematic pair'). The socket's lip curls past the ball's widest point (an undercut), so the ball either snaps in by bending the socket's slotted fingers or is trapped by a cap or nut. How firmly it holds an angle depends on how hard the cup presses on the ball: a light press gives a stiff 'friction joint' that holds light things in any position; tightening a knob or nut presses harder and locks it (a ball head's bearing cup 'distorts a bit with pressure, exerting more friction at higher pressures', Lensrentals). The tilt is limited by the neck hitting the rim of the cup, so an ordinary spherical joint can't turn through more than 180° (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 172). A flat, screw-locked cousin is the pyramid alignment adaptor used between the modules of artificial legs: a short pyramid-shaped boss (the 'male pyramid') on one part sits in a matching socket (the 'female pyramid' or receiver) on the other, which carries four set screws; before the screws are tightened the joint can be turned a full circle and tilted a few degrees, and tightening the four screws locks that alignment (Blatchford 938373 and 938050 instructions; College Park 4-hole pyramid receiver instructions). Wikipedia ('Ottobock') says the adaptor 'allows static corrections as well as the exchange of the modules'. It is described here only as an idea for non-medical maker builds."
   },
   "finder_attributes": {
     "job": [
@@ -77,7 +78,8 @@
       "Bigger balls hold more: for heavier devices 'go bigger. The penalty for oversizing is small' (Mountguys); HD_Creator scaled a 12 mm lockable joint to 18 mm for a stronger lock (Printables).",
       "Keep arms between ball joints short: 'Short arms are best when stability matters most' (Mountguys).",
       "A ball head's bearing cup is a firm plastic that grips harder the harder it is pressed; most ball-head failures (about 90% in Lensrentals' repair experience) are stripped friction-knob threads or a bent push rod, not the ball (Lensrentals).",
-      "Acetal (Delrin) socket with a nylon ball gives low wear even completely dry (DuPont design guide, p. 45)."
+      "Acetal (Delrin) socket with a nylon ball gives low wear even completely dry (DuPont design guide, p. 45).",
+      "Pyramid alignment adaptors (prosthetics product data, quoted only to show the idea's range): Blatchford's child-size mini-pyramid tube adaptor gives '360° rotation' and '±5° angular' adjustment (938373), while its full-size female pyramid adaptor gives 360° rotation and '±7° tilt from vertical' (938050); both lock with four pyramid set screws (Blatchford instructions for use), and College Park's 4-hole pyramid receivers use four M8 set screws."
     ]
   },
   "guidance": {
@@ -87,10 +89,10 @@
       "A trailer tow ball and coupling (Wikipedia 'Tow hitch') and a car's suspension ball joints (Wikipedia 'Ball joint')",
       "Car and bike phone or GPS mounts with a rubber ball and a clamping arm (Mountguys), and doll or action-figure joints (Wikipedia 'Ball joint')"
     ],
-    "when_to_use": "Use a ball-and-socket joint when something must be aimed in any direction from one point: cameras, lights, phones, sensors, fans, mirrors and webcams; levelling feet that must sit flat on an uneven floor; poseable figures and models. Use a friction ball joint when light parts should stay where posed, and a lockable one (knob, union nut or double-socket arm) when the device is heavier or must not drift. It is also the joint to choose when two parts need to line up by themselves despite angle errors (self-aligning).",
+    "when_to_use": "Use a ball-and-socket joint when something must be aimed in any direction from one point: cameras, lights, phones, sensors, fans, mirrors and webcams; levelling feet that must sit flat on an uneven floor; poseable figures and models. Use a friction ball joint when light parts should stay where posed, and a lockable one (knob, union nut or double-socket arm) when the device is heavier or must not drift. It is also the joint to choose when two parts need to line up by themselves despite angle errors (self-aligning). The pyramid-adaptor idea suits a compact tilt joint between two modules, such as robot legs or sensor mounts, that is set once with screws and then locked, where full rotation and a few degrees of tilt are enough.",
     "when_not_to_use": "Avoid it when you need movement about one axis only, since a ball lets the part flop sideways too (use an ordinary hinge or pivot); when you need to repeat exact angles (use a detent, indexing plunger or a geared pan-tilt head; ball heads are poor at precise alignment, Wikipedia 'Tripod head'); when twisting must be passed through the joint (use a universal joint or a pin spherical joint); when tilt beyond about 90° each way is needed (use a universal joint or a gimbal); and for heavy loads that must be locked on a small printed ball (use a bought metal ball head or a larger ball).",
     "environment_limits": "Printed PLA joints soften from about 60 °C and PETG from about 80 °C under load (CNC Kitchen), so avoid PLA in a hot car; PLA creeps under a constant squeeze, so friction joints loosen (thrinter; DuPont stress relaxation, p. 23). Dirt and water get into open joints: car ball joints use a rubber boot and grease (Wikipedia 'Ball joint'). Ball heads need no internal lubrication (Lensrentals), and grease on a friction joint would reduce its holding power [uncertain]. Vibration can slowly shift a friction-held joint; longer arms and smaller balls make this worse (Mountguys).",
-    "safety_notes": "A locked ball head or mount can let go suddenly if the knob is loosened with a heavy camera or device on it, so hold the device while unlocking [uncertain]. In cars a failed suspension ball joint lets the wheel angle go free and can cause loss of control (Wikipedia 'Ball joint'); a trailer coupling must be fully latched on the tow ball. Snapping balls into tight sockets pinches fingers, and overtightening printed lock rings can crack the socket (Hackaday 2018). Small printed balls and sockets from toys are a choking hazard for young children [uncertain].",
+    "safety_notes": "A locked ball head or mount can let go suddenly if the knob is loosened with a heavy camera or device on it, so hold the device while unlocking [uncertain]. In cars a failed suspension ball joint lets the wheel angle go free and can cause loss of control (Wikipedia 'Ball joint'); a trailer coupling must be fully latched on the tow ball. Snapping balls into tight sockets pinches fingers, and overtightening printed lock rings can crack the socket (Hackaday 2018). Small printed balls and sockets from toys are a choking hazard for young children [uncertain]. The pyramid adaptor comes from prosthetics and is described here only for non-medical maker builds: never make, modify or repair parts for an artificial limb or anything worn on the body; those are medical devices, and the makers' instructions reserve fitting for a qualified practitioner (Blatchford).",
     "common_failures": "The joint won't hold its angle because the friction is too low, the socket has worn or relaxed, or the load is too heavy for the ball size (fix: tighten the lock, use a bigger ball or a shorter arm; Mountguys). The ball pops out because the socket lip is too shallow or the fingers have relaxed (make a deeper undercut or add a locking ring). The socket cracks on assembly or when locking because the undercut or clamping force is too large, or layer lines split (Covestro; Hackaday 2018). Knob threads strip or the push rod bends in ball heads (Lensrentals). Print-in-place joints fuse because the gap is too small (use a test ring; Rob C, Printables). Car ball joints wear and click or clunk (Wikipedia 'Ball joint').",
     "related": [
       "Posable segmented arm (ball chain, modular hose): many small ball-and-socket joints in a row",
@@ -99,7 +101,9 @@
       "Pan-tilt head and clevis joint with thumbscrew: separate axes that can be set precisely one at a time",
       "Friction hinge: the same stay-where-you-leave-it friction, but about one axis",
       "Spherical plain bearing / self-aligning bearing: a ball-and-socket used to let a shaft or link self-align",
-      "Magnet joint: a steel ball held in a seat by a magnet, which lets go instead of breaking"
+      "Magnet joint: a steel ball held in a seat by a magnet, which lets go instead of breaking",
+      "Levelling foot: the swivel pad under a levelling foot is a small ball-and-socket joint that lets the pad lie flat on an uneven floor",
+      "Locking adjustment screws: opposing screws that set a tilt or height and then lock it, as the four set screws of a pyramid alignment adaptor do"
     ]
   },
   "media": {
@@ -213,7 +217,11 @@
       "https://api.printables.com/graphql/",
       "https://www.printables.com/model/368218-lockable-ball-joint/comments",
       "https://www.printables.com/model/370429-generic-lockable-ball-joint",
-      "https://www.printables.com/model/789688-adjustablelockable-ball-joint-phone-holder-for-pru"
+      "https://www.printables.com/model/789688-adjustablelockable-ball-joint-phone-holder-for-pru",
+      "https://www.blatchfordmobility.com/media/ir1ilehd/938373pk2-iss1.pdf",
+      "https://www.blatchfordmobility.com/media/iiupykot/938050pk3-iss1.pdf",
+      "https://www.college-park.com/media/wysiwyg/pdf/instructions/components/CPI-INS-4HPR.pdf",
+      "https://en.wikipedia.org/wiki/Ottobock"
     ]
   },
   "uncertain": [

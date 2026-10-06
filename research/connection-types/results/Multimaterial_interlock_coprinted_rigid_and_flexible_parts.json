@@ -87,7 +87,8 @@
       "Overmoulding / two-shot injection moulding: the factory version, where soft TPE or silicone is moulded over a rigid part with chemical bonding and mechanical interlocks (Protolabs)",
       "Adhesive bonding (e.g. cyanoacrylate, flexible craft glues): joins separately printed soft and rigid parts, but some plastics such as PP and PE are hard to glue",
       "Dovetail joint (woodwork): the same shape-locking idea used between wooden boards",
-      "Compliant mechanisms and flexures: often the reason to combine a flexible and a rigid material in one print"
+      "Compliant mechanisms and flexures: often the reason to combine a flexible and a rigid material in one print",
+      "Printing onto fabric: pausing the print to lay in a mesh or fabric that the next layers lock through, joining cloth to plastic rather than two printed plastics"
     ]
   },
   "media": {

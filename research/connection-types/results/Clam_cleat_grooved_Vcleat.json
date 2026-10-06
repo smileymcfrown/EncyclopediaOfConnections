@@ -23,7 +23,7 @@
     ],
     "one_liner": "A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.",
     "complexity": "single piece: one moulded or cast block (two ridged walls joined by a base), fixed with two screws or bolts. Some versions add a built-in fairlead (guide loop) that steers the rope into the teeth, a becket (a loop to tie a rope end to), a cage or keeper that holds the rope near the cleat, or a tapered pad to set the angle.",
-    "how_it_works": "The groove narrows toward the bottom, and both walls carry ridges that slope toward the end the load pulls from (45° in Reginald Emery's original design, US 3,574,900). When a tensioned rope is laid in and the load pulls it along the groove, the sloping ridges drag it down into the narrowing V, so 'the stronger the pull, the more the rope is forced into the V-shaped slot and hence the firmer is the grip' (US 3,574,900). Nothing moves except the rope, so there are no springs to break or seize (Ronstan). To release, pull the tail 'upward and backward' so the rope rides up the ridges and out of the mouth of the groove (Ronstan; US 3,574,900)."
+    "how_it_works": "The groove narrows toward the bottom, and both walls carry ridges that slope toward the end the load pulls from (45° in Reginald Emery's original design, US 3,574,900). When a tensioned rope is laid in and the load pulls it along the groove, the sloping ridges drag it down into the narrowing V, so 'the stronger the pull, the more the rope is forced into the V-shaped slot and hence the firmer is the grip' (US 3,574,900). Nothing moves except the rope, so there are no springs to break or seize (Ronstan). To release, pull the tail 'upward and backward' so the rope rides up the ridges and out of the mouth of the groove (Ronstan; US 3,574,900). The basic version with no moving parts is the horn cleat, the traditional fitting with two 'horns' (Wikipedia 'Cleat (nautical)'): the rope is made fast with a cleat hitch (ABOK #1615), a turn round the far horn, figure-eight crossings over the top and often a final locking half hitch (Wikipedia 'Cleat hitch'; Animated Knots 'Cleat Hitch (Dock Line)'). It holds bigger loads and can't be flicked loose, but it is slower to tie and untie."
   },
   "finder_attributes": {
     "job": [
@@ -75,7 +75,8 @@
       "Seat the rope on all the ridges: if the rearmost ridges don't grip, 'the loading the string can withstand can be as much as fifty per cent less than when all of the ridges grip' (US 5,675,872). The same patent angles the ridge crests so they close in by about 2.5° (range 0.5-8°) from front to rear to improve grip.",
       "Nylon cleats suit light loads; where 'high loads or surges are encountered aluminium cleats are recommended' (Ronstan).",
       "Don't tension by dragging the rope back through the teeth: it 'will quickly burn out a nylon cleat'; alloy cleats cope, as long as the rope is clean (Clamcleat FAQ text reproduced by Mastrant).",
-      "Where the rope can't be led straight in, use a cleat with an integral fairlead: the Clamcleat CL231 guides rope into the teeth 'from up to 90 degrees' (Premium Ropes)."
+      "Where the rope can't be led straight in, use a cleat with an integral fairlead: the Clamcleat CL231 guides rope into the teeth 'from up to 90 degrees' (Premium Ropes).",
+      "If you use a horn cleat instead: lead the rope round the far horn first, because 'starting round the wrong horn increases the risk of a Cleat Hitch jamming'; don't take a full round turn under the first horn, which can jam so the rope can't be released while loaded; two figure-eight crossovers are 'the bare minimum, and only for temporary use in sheltered conditions'; and leave off the final locking half hitch on lines that must be let go quickly, such as towlines and sail sheets (Animated Knots 'Cleat Hitch (Dock Line)')."
     ]
   },
   "guidance": {
@@ -92,12 +93,13 @@
     "common_failures": "Slipping: rope too thin for the groove, worn or glazed, or not pressed down far enough to reach all the ridges (up to 50% less holding, US 5,675,872); fix by using the right cleat size and seating the rope fully. Ridges burnt or worn smooth: rope dragged back through the teeth under load, or sandy rope (Mastrant); use aluminium or hard-anodised cleats for this kind of use. Rope pops out or won't enter: poor lead angle; add a fairlead, cage or tapered pad, or re-site the cleat. Can't release: too much load for the cleat; take the load off first. Rope fuzz and wear: sharp or damaged ridges.",
     "related": [
       "Cam cleat: two spring-loaded toothed cams instead of fixed ridges; easier to release under load and better for constant pulling-through, but has springs and moving parts (Wikipedia; Ronstan)",
-      "Horn cleat with a cleat hitch: slower, but holds bigger loads and can't be knocked loose",
+      "Hitches to a post, rail, ring or eye: includes the cleat hitch on a horn cleat; slower, but holds bigger loads and can't be knocked loose",
       "Tapered jam cleat (horn type): the rope is wedged under a tapering horn rather than in a ridged groove (Wikipedia gallery)",
       "Guy-line slider (friction line tensioner): a plate with holes that holds a tent line by friction, even simpler and lighter",
       "Cord lock (spring toggle): a spring plunger for thin cords",
       "Rope clutch or jammer: a lever-operated cam for high, long-held loads",
-      "Ladder-lock buckle: the flat-webbing equivalent that holds by friction when loaded and slides when tilted"
+      "Ladder-lock buckle: the flat-webbing equivalent that holds by friction when loaded and slides when tilted",
+      "Tensioning and adjustable hitches: knots such as the trucker's hitch and taut-line hitch that pull a line tight and hold it with no hardware at all"
     ]
   },
   "media": {
@@ -178,7 +180,9 @@
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://help.prusa3d.com/article/pla_2062",
       "https://help.prusa3d.com/article/petg_2059",
-      "https://help.prusa3d.com/article/asa_1809"
+      "https://help.prusa3d.com/article/asa_1809",
+      "https://en.wikipedia.org/wiki/Cleat_hitch",
+      "https://www.animatedknots.com/cleat-hitch-knot-dock-line"
     ]
   },
   "uncertain": [

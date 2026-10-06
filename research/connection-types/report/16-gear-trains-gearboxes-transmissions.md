@@ -1364,6 +1364,8 @@
   - Bowden cable / tendon drive: pulls a joint from a distance through a sleeve instead of wrapping around drums; adds friction at every bend
   - Winch or capstan (nautical): uses the same capstan friction to haul rope in, with no fixed return loop
   - Worm drive: large reduction that usually can't be back-driven; the opposite choice when you want the joint to hold still
+  - Stopper knots and cord-end anchors: knots, plugs and clamps that anchor a synthetic rope's ends to the big drum, usually the weakest point of the drive
+  - Wire-rope terminations: crimped sleeves and ball or stop fittings for anchoring steel cable ends to the drums
 
 ### Pictures, videos and models
 
@@ -1374,7 +1376,7 @@
   - [Strong, Accurate, and Low-Cost Robot Manipulator (Forte), arXiv 2507.15693](https://arxiv.org/abs/2507.15693): Fig. 2: exploded view of a 3D-printed capstan drive with a stationary capstan and cable routing through the sheave *(licence: CC BY 4.0)*
   - [CS235: Applied Robot Design, Lecture 7 - Introduction to Cable Transmissions (Stanford, YouTube)](https://www.youtube.com/watch?v=jKZIvseA1Nk): University lecture on cable transmissions and capstan drives for robots *(licence: link only (standard YouTube licence))*
 - **make_it_yourself**: 
-  - [Capstan gear for delta-robot (holgersindbaek, Printables)](https://www.printables.com/model/470672-capstan-gear-for-delta-robot (URL from Printables API, page not opened)): Printable capstan drive used on a peg-solitaire-playing delta robot; the author suggests reworking the sizes from his published calculations *(licence: CC BY)* *(unverified parts omitted)*
+  - [Capstan gear for delta-robot (holgersindbaek, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/470672-capstan-gear-for-delta-robot): Printable capstan drive used on a peg-solitaire-playing delta robot; the author suggests reworking the sizes from his published calculations *(licence: CC BY)* *(unverified parts omitted)*
 - **diagram_idea**: Top view of a small drum and a large drum side by side with one cable coming off the big drum, wrapping three spiral turns round the small drum and returning to the big drum, with arrows showing the small drum turning eight times for one slow sweep of the big drum, and an inset graph of grip rising steeply with each extra wrap.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Capstan_equation
@@ -1936,6 +1938,8 @@
 
 *gear trains, gearboxes & transmissions.* A gear made of pins between two discs, easy to make from dowels or laser-cut sheet, used in mills and simple machines
 
+*Also covers:* Also covers the mangle wheel (steady turning into back-and-forth turning).
+
 ### What it is
 
 - **plain_name**: A gear made of a ring of round pins (like dowels) held between two discs, like the bars of a round birdcage, which meshes with a toothed wheel
@@ -1952,7 +1956,7 @@
 - **other_families**: motion conversion
 - **one_liner**: A pinion whose 'teeth' are round pins set between two discs, driven by a wheel with specially shaped (cycloidal) teeth; it is easy to make by drilling holes and pushing in dowels or steel pins, and was used for centuries in mills and clocks.
 - **complexity**: A few parts: the lantern (two discs, a ring of pins or dowels between them, and a shaft or hub), and a mating wheel with teeth shaped for that exact number of pins (or a flat rack with such teeth). Optional: bushings or small bearings over the pins so they roll instead of slide
-- **how_it_works**: The pins sit on the lantern's pitch circle, and each tooth of the mating wheel pushes one pin at a time round, like a finger pushing the bars of a turning birdcage (Wikipedia 'Gear'). The wheel's tooth shape is the path the centre of a pin traces as the two pitch circles roll on each other (an epicycloid), moved inwards by the pin's radius, which gives smooth, steady motion (tec-science; Chief Delphi tutorial). Speed changes by the ratio of teeth to pins, as with any gear. Because each pin is held at both ends, even a lantern with very few pins is strong, and dirt can fall through between the pins instead of packing into tooth roots (Wikipedia; Chief Delphi).
+- **how_it_works**: The pins sit on the lantern's pitch circle, and each tooth of the mating wheel pushes one pin at a time round, like a finger pushing the bars of a turning birdcage (Wikipedia 'Gear'). The wheel's tooth shape is the path the centre of a pin traces as the two pitch circles roll on each other (an epicycloid), moved inwards by the pin's radius, which gives smooth, steady motion (tec-science; Chief Delphi tutorial). Speed changes by the ratio of teeth to pins, as with any gear. Because each pin is held at both ends, even a lantern with very few pins is strong, and dirt can fall through between the pins instead of packing into tooth roots (Wikipedia; Chief Delphi). The mangle wheel is the round cousin of the mangle rack: it 'converts continuous rotary motion of pinion into reciprocating rotary motion of wheel' (507 Mechanical Movements no. 36). In no. 194 the wheel carries a single ring of pins and a toothed pinion runs round the inside of the ring and then the outside, its shaft guided 'by a groove in the wheel' and fitted with a universal joint so it can swing, so the 'speed is equal in both directions'; in no. 192 the teeth and groove are set off-centre, so the 'speed varies in every part of a revolution' (507 Mechanical Movements nos. 192 and 194).
 
 ### Finder attributes
 
@@ -1965,7 +1969,7 @@
   - motion conversion (rotary to linear): with a pin rack or toothed rack; 507 Mechanical Movements no. 199 uses a part-pinned lantern to push a frame back and forth (a mangle rack)
   - none of the other clever behaviours: it does not lock, slip or index by itself
 - **holding_principle**: not a holding joint (it moves or passes on motion): it transmits rotation, shape (the parts interlock; form-fit): the wheel's teeth push the pins
-- **input_output**: Continuous rotation -> continuous rotation (or rotation -> straight-line motion with a rack). Ratio = number of teeth on the wheel / number of pins on the lantern. Shafts: parallel with a spur-type wheel; at right angles when a wheel with teeth on its face or rim drives the lantern, as with a mill's pit wheel driving the wallower on the upright shaft (Wikipedia 'Glossary of mill machinery'; Pede's Mill). Contact ratio is fairly low, because the pins mesh mostly on one side of the pitch point (tec-science). Back-drivable: yes, though clock tradition says the lantern should be the driven part, not the driver (Wikipedia 'Gear'; Malcolm Wild via Model Engineer forum); other clockmakers call this rule 'likely a myth'. *(unverified parts omitted)*
+- **input_output**: Continuous rotation -> continuous rotation (or rotation -> straight-line motion with a rack). Ratio = number of teeth on the wheel / number of pins on the lantern. Shafts: parallel with a spur-type wheel; at right angles when a wheel with teeth on its face or rim drives the lantern, as with a mill's pit wheel driving the wallower on the upright shaft (Wikipedia 'Glossary of mill machinery'; Pede's Mill). Contact ratio is fairly low, because the pins mesh mostly on one side of the pitch point (tec-science). Back-drivable: yes, though clock tradition says the lantern should be the driven part, not the driver (Wikipedia 'Gear'; Malcolm Wild via Model Engineer forum); other clockmakers call this rule 'likely a myth'. Mangle wheel: continuous rotation of the pinion -> back-and-forth rotation of the wheel (507 Mechanical Movements nos. 36, 192 and 194). *(unverified parts omitted)*
 - **power**: passive (no power needed); it only passes on the power put into it. If the drive stops, nothing holds the output
 - **removability**: removable: the lantern and wheel slide off their shafts; pins can be knocked out and replaced one at a time
 - **reuse_cycles**: many times: the gears can be taken apart and refitted repeatedly, and worn pins (or worn wooden cogs on the mating wheel) can be replaced individually (Pede's Mill; NAWCC forum)
@@ -2018,9 +2022,10 @@
   - Rack and pinion: a lantern pinion can run on a rack, or a toothed pinion on a pin rack (Chief Delphi; tec-science)
   - Cycloidal drive: its fixed ring of pins or rollers works like an internal lantern gear
   - Peg wheels (cog-and-rung gearing): pegs meshing with pegs or rungs; the oldest form of gear, tolerant but high-friction (NAWCC forum)
-  - Geneva drive and intermittent gears: also use pins, but to give stop-and-go motion
+  - Geneva drive: also uses pins, but to give stop-and-go motion
   - Pin-wheel and slotted pinion (507 Mechanical Movements no. 208): pins on the face of a wheel drive a slotted pinion, giving three speeds by sliding the pinion between three circles of pins
   - Roller pinion (e.g. Nexen RPS, brand): an industrial lantern pinion with rollers on bearings running on a special rack, with zero backlash (Linear Motion Tips)
+  - Intermittent gear: a part-toothed gear whose driven gear moves in steps with pauses; the mangle wheel and mangle rack (covered here) instead turn steady rotation into back-and-forth motion
 
 ### Pictures, videos and models
 
@@ -2061,6 +2066,9 @@
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://help.prusa3d.com/article/pla_2062
   - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+  - https://507movements.com/mm_036.html
+  - https://507movements.com/mm_192.html
+  - https://507movements.com/mm_194.html
 
 ### Other info
 
@@ -2217,6 +2225,8 @@
 
 *gear trains, gearboxes & transmissions.* Ropes running over several pulleys so a small pull lifts a big load; a differential chain hoist also holds the load by itself
 
+*Also covers:* Also covers low-friction rings as a pulley with no moving parts.
+
 ### What it is
 
 - **plain_name**: A rope run back and forth between two sets of pulley wheels, so pulling a long length of rope gently lifts a heavy load a short way; a chain version (chain hoist) holds the load by itself when you let go
@@ -2233,7 +2243,7 @@
 - **other_families**: tensioning, reels & take-up, cord, strap, webbing & textile hardware, self-locking & anti-back-drive, one-way & ratchet, brakes, dampers & speed control
 - **one_liner**: Two blocks of pulleys with one rope threaded back and forth between them, so the load hangs on several rope parts and a pull of only a fraction of its weight lifts it (at the cost of pulling that many times more rope); the differential chain hoist uses two joined chain wheels of slightly different size to get a very large gain and, because its friction is high, holds the load by itself.
 - **complexity**: A small assembly: a fixed (standing) block and a moving (running) block, each with one or more sheaves (grooved pulley wheels) on an axle between side plates (cheeks), with a hook, shackle, eye or becket for tying the rope end, plus the rope itself. A differential hoist has an upper block with two chain wheels of slightly different size joined together, a lower block with one pulley and a hook, and an endless chain (Wikipedia 'Differential pulley'). A modern manual chain hoist has a hand chain and hand wheel, a gear reduction, a load-chain sprocket, welded load chain, hooks with latches, and a load brake made of friction plates, a ratchet disc and a pawl (Global Industrial manual chain hoist manual).
-- **how_it_works**: The rope tension is the same all along the rope, so if the moving block and its load hang from n parts of the rope, each part carries 1/n of the load and you only need to pull with 1/n of the weight; in exchange you pull n metres of rope for every metre the load rises (Wikipedia 'Block and tackle'; Petzl). Friction in each sheave eats some of this gain, so real tackles give less than n (Wikipedia; CMC). In a differential hoist an endless chain runs round a big and a slightly smaller chain wheel fixed together and down round a hanging pulley; each turn winds in chain on the big wheel while letting out almost as much from the small one, so the load rises only by half the difference, giving a gain of 2R/(R - r) (Wikipedia 'Differential pulley'). Because this gain comes with a lot of friction (efficiency below 50%), the load can't run the hoist backwards, so it stays put when you let go (Wikipedia; NPTEL 'Reversibility of a machine'). Modern chain hoists get the same result with gears and a load brake that clamps shut and catches on a ratchet whenever you stop pulling (Global Industrial manual).
+- **how_it_works**: The rope tension is the same all along the rope, so if the moving block and its load hang from n parts of the rope, each part carries 1/n of the load and you only need to pull with 1/n of the weight; in exchange you pull n metres of rope for every metre the load rises (Wikipedia 'Block and tackle'; Petzl). Friction in each sheave eats some of this gain, so real tackles give less than n (Wikipedia; CMC). In a differential hoist an endless chain runs round a big and a slightly smaller chain wheel fixed together and down round a hanging pulley; each turn winds in chain on the big wheel while letting out almost as much from the small one, so the load rises only by half the difference, giving a gain of 2R/(R - r) (Wikipedia 'Differential pulley'). Because this gain comes with a lot of friction (efficiency below 50%), the load can't run the hoist backwards, so it stays put when you let go (Wikipedia; NPTEL 'Reversibility of a machine'). Modern chain hoists get the same result with gears and a load brake that clamps shut and catches on a ratchet whenever you stop pulling (Global Industrial manual). Where weight and cost matter more than efficiency, a low-friction ring can stand in for a pulley: a smooth, grooved ring that the rope simply slides round, with no moving parts. Round a 180-degree bend Practical Sailor measured 80-83% efficiency with a small 12-plait Dyneema line but only 50-60% with a fat polyester double braid, against about 95-97% for ball-bearing blocks (Practical Sailor 'Sizing Up Improvements In Low Friction Rings').
 
 ### Finder attributes
 
@@ -2274,6 +2284,7 @@
   - off-the-shelf part: pulley blocks, rescue pulleys, snatch blocks, manual chain hoists, lever hoists, rope and chain *(unverified parts omitted)*
 - **print_in_place**: partly: fully printed pulleys exist, such as a block and tackle with printed herringbone gear-bearing pulleys (Printables, DrJones) and a 100% printed pulley (Printables, Meister Edel), but they have more friction than ball-bearing sheaves; printed bearings were 'not effective for any meaningful loads' in one parametric design (Printables 'Block and Tackle'). Most designs use 608 bearings and bolts. *(unverified parts omitted)*
 - **making_tips_3d_printing**: 1) Use real ball bearings in the sheaves: in Vincent Sanders' parametric 'Block and Tackle' (Printables) printed bearings worked but had very high friction, while 608 bearings let a 4:1 double tackle with 4 mm paracord hold 50 kg several times. DrJones's printed gear-bearing 4:1 tackle needed 5.1 kg of pull to lift 15 kg, only about 3:1 in practice (Printables). 2) Print strong: Sanders used PLA, 0.2 mm layers, 6 perimeters, 6 top and bottom layers and 15% cubic infill; floano's pulley (PETG, 0.2 mm layers, 5 walls) was tested with 120 kg; Meister Edel suggests about 6 perimeters and 100% infill (all Printables). 3) Let steel bolts take the load and make the plastic squeeze towards the bolt rather than tear out at the end of a hole (floano, Printables); print the side plates lying flat, which needs no supports. 4) Size the groove for the rope: the rope must sit fully inside the sheave (Sanders); groove width at least 1.1 x rope diameter, and sheave diameter at least 6 x rope diameter for double-braid and kernmantle rope or 10 x for three-strand rope (ANSI/ASSP A10.48, via Inside Towers). Sanders thinks a larger bearing (6002 or 6003) suits 6 mm rope better than a 608. 5) Reeve carefully: in a threefold purchase the blocks end up at 90 degrees to each other, which avoids wear and friction when they are pulled close together (Sanders). Add a sheave guard so the rope can't jump off (an option in Sanders' design). 6) For printed plain bearings add oil holes and use oil (Meister Edel used bike chain oil). 8) Tie off with a secure knot such as a buntline hitch (Sanders), remembering that knots reduce rope strength (CERTEX). 9) Printed blocks come with no guarantee: test them well above your load and never use them over people (Sanders; Global Industrial manual). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Low-friction rings (LFRs) as a light, cheap substitute for blocks on rarely adjusted lines (Practical Sailor). *(unverified parts omitted)*
 - **rules_of_thumb**: 
   - Ideal force gain = number of rope parts supporting the moving block; you pull that many metres of rope for each metre of lift (Wikipedia 'Block and tackle'; Petzl: 3 m of rope for 1 m of lift on a 3:1).
   - Friction adds up with every sheave: efficiency = (K^N - 1) / (K^S x N x (K - 1)), with N the ideal gain, S the number of sheaves and K about 1.04 for roller-bearing sheaves or 1.09 for plain-bearing sheaves with wire rope (Wikipedia 'Block and tackle'). Adding sheaves beyond a point doesn't help (Wikipedia).
@@ -2284,6 +2295,7 @@
   - Wire rope lasts much longer on bigger sheaves: raising D/d from 26 to 35 nearly doubles its bending life (relative life 17 to 32), and reverse bends between sheaves speed up fatigue (Mazzella).
   - Rope safe working load = minimum breaking strength / safety factor, with factors of 5 to 12 for non-critical uses, reduced further for lifting over people, shock or sustained loads; knots lower the strength significantly (CERTEX, citing the Cordage Institute).
   - The anchor for the fixed block carries the load plus your pull, e.g. 200 kg for a 100 kg load pulled down through one pulley (Petzl).
+  - Low-friction rings instead of sheaves: because of their friction, about 8:1 is the practical limit for a ring tackle with Dyneema line and 4:1 with polyester; for more purchase, build the first 4:1 with rings and pull its tail with a small ball-bearing tackle (Practical Sailor 'Sizing Up Improvements In Low Friction Rings'). Rings 'have no place in sheet tackles or other lines that are adjusted frequently through a wide range' (Practical Sailor 'Low-friction Rings').
 
 ### When to use it
 
@@ -2295,7 +2307,7 @@
 - **when_to_use**: When you need to lift or haul something much heavier than you can pull, slowly and over a short distance, and there is a strong anchor above or ahead of the load: lifting an engine, hauling a boat or a log, tensioning a line, raising storage or a hammock. Use a chain hoist when the load must stay put when you let go. Use a rope tackle with a cleat or rope grab when you want something light and portable, and ball-bearing pulleys to keep the friction low.
 - **when_not_to_use**: Don't lift people or loads over people with it unless it is rated equipment used by trained people (Global Industrial manual: never lift people; Petzl: specific training required). It is a poor choice for long lifts at high gain, because the rope length multiplies (Wikipedia), and for precise positioning (use a lead screw or rack instead). For long hauls a winch or windlass that stores the rope on a drum is easier; for pulling horizontally a lever hoist (come-along) is handy; for small tension adjustments a turnbuckle or ratchet strap is simpler.
 - **environment_limits**: All synthetic ropes degrade in sunlight, and polypropylene far more than polyester or nylon; store ropes out of direct sun and away from strong acids and alkalis (CERTEX). Keep a chain hoist's brake dry: no oil or grease on the friction surfaces (Global Industrial manual). Printed blocks: PLA only for short loads, PETG or stronger for loads that stay on (Printables, Meister Edel). Wire rope fatigues on small sheaves (Mazzella). *(unverified parts omitted)*
-- **safety_notes**: Never stand or walk under a suspended load, and never lift people with a hoist (Global Industrial manual). A rope that breaks under load snaps back at high speed; stay out of its path (CERTEX). The anchor carries more than the load (Petzl), so check it. Don't leave a load hanging in the air and check the brake before each lift (Global Industrial manual). Printed blocks carry no warranty (Printables, Sanders). *(unverified parts omitted)*
+- **safety_notes**: Never stand or walk under a suspended load, and never lift people with a hoist (Global Industrial manual). A rope that breaks under load snaps back at high speed; stay out of its path (CERTEX). The anchor carries more than the load (Petzl), so check it. Don't leave a load hanging in the air and check the brake before each lift (Global Industrial manual). Printed blocks carry no warranty (Printables, Sanders). Printed rope rings are 'for light rigging and organization, not life-safety loads' (MarineLab3D, Printables). *(unverified parts omitted)*
 - **common_failures**: 1) Too much friction, so the real gain is far below the rope count (printed bearings, carabiners as pulleys, many sheaves): use ball-bearing sheaves (Printables; CMC; Wikipedia). 2) Rope jumping off a sheave or rubbing on the cheeks from side pulls or a groove that's too narrow: add a sheave guard and size the groove (Printables, Sanders; ANSI/ASSP A10.48). 3) Rope wear and chafe when the blocks twist or are pulled together (chocked); reeve so the blocks sit at 90 degrees (Sanders). 4) Printed blocks cracking near their limit (noises at about 100 kg with 6 mm rope; Sanders). 5) Chain hoist brake slipping because the friction plates are oily, glazed or worn: keep the brake dry and check it for slippage before each use (Global Industrial manual). 6) Twisted chain or a jammed chain wheel from off-angle pulling or letting the load touch the hoist (Global Industrial manual). 7) Stretched or cracked hooks and worn or stretched chain (Global Industrial manual). 8) Knot slipping or weakening the rope (CERTEX). 9) Anchor failure from the extra load of the hauling force (Petzl).
 - **related**: 
   - Capstan and windlass (incl. differential windlass): wind rope onto a drum instead of multiplying rope parts; the Chinese windlass is the rope version of the differential hoist (Wikipedia 'Differential pulley')
@@ -2306,7 +2318,8 @@
   - Multistage slide rigging (cascade and continuous string rigging): uses the same pulley-and-cable principle to move telescoping slides
   - Whippletree (load-equalising lever): shares a pull between several points, as a moving pulley shares the load between rope parts
   - Spring balancer (gravity compensation): holds a load's weight with a spring instead of multiplying a pull
-  - Bowden cable: carries a pull round bends with a sleeve instead of pulleys *(unverified parts omitted)*
+  - Bowden cable: carries a pull round bends with a sleeve instead of pulleys
+  - Tensioning and adjustable hitches: the trucker's hitch ties a rope pulley into the line itself, giving a pulley-like gain with no blocks *(unverified parts omitted)*
 
 ### Pictures, videos and models
 
@@ -2322,6 +2335,7 @@
   - [Strong Single and Double Pulley for rope (608 bearings) (floano, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/440677-strong-single-and-double-pulley-for-rope-608-beari): Single and double pulleys for rope up to 12 mm with two 608 bearings per wheel and M8 bolts; tested with 120 kg *(licence: CC BY-NC-SA)*
   - [Project: Pulley systems V2 (Michal Fanta, Printables) (URL appeared in search results; details from Printables API)](https://www.printables.com/model/6380-project-pulley-systems-v2): Classroom project: parametric single or multiple printed pulleys with a planetary gear bearing, for demonstrating how pulley blocks change the force needed *(licence: CC BY)*
   - [HUANGYAN920 Mechanical: interactive mechanism library (entry ROPE-PULLEY no. 225)](https://huangyan920.github.io/Mechanical/): Browser animation of a fixed and moving pulley set lifting a load *(licence: MIT (code))*
+  - [Low-Friction Rope Ring / Lashing Thimble - Sized to Your Line (Parametric) (MarineLab3D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1772939-low-friction-rope-ring-lashing-thimble-sized-to-yo): A printable grooved low-friction ring (soft-shackle or lashing-thimble style); the default fits 4-16 mm line; the designer suggests CF-nylon or nylon PA12 (PETG for light loads), 4 or more walls, 60-100% infill and 0.2 mm layers, and notes printed rings are 'for light rigging and organization, not life-safety loads'. Read through the Printables public API. *(licence: CC BY-NC-ND (Creative Commons Attribution-NonCommercial-NoDerivatives))*
 - **diagram_idea**: Side-by-side drawings of a 1:1 single fixed pulley, a 2:1 moving pulley and a 4:1 double tackle, with each supporting rope part labelled with its share of the load (e.g. 25 kg each for 100 kg) and a ruler showing 4 m of rope pulled for 1 m of lift, plus an inset of a differential chain hoist's two joined chain wheels of slightly different size.
 - **sources**: 
   - https://en.wikipedia.org/wiki/Block_and_tackle
@@ -2345,6 +2359,9 @@
   - https://www.printables.com/model/677445-strong-pulley-100-3d-printable-scaleable-durable
   - https://huangyan920.github.io/Mechanical/
   - https://api.printables.com/graphql/
+  - https://www.practical-sailor.com/sails-rigging-deckgear/sizing-up-improvements-in-low-friction-rings/
+  - https://www.practical-sailor.com/sails-rigging-deckgear/low-friction-rings/
+  - https://api.printables.com/graphql/ (model 1772939, read 2026-10-06)
 
 ### Other info
 

@@ -87,11 +87,12 @@
       "Belt tensioner (spring-loaded idler): keeps tension automatically as the belt stretches, instead of a set-and-lock adjustment",
       "Eccentric cam lever (cam clamp, quick-release skewer): also uses an off-centre shape, but to clamp quickly with a lever rather than to set a position",
       "Cam and follower: an off-centre or shaped disc that moves a follower continuously as it turns (the same geometry used for motion)",
-      "Slotted mount or jacking screw (adjustable centres): a straight, longer adjustment range; less compact",
+      "Slotted adjustment with a jacking screw: slides the part along slots, often pushed by a separate screw, for a straight, longer adjustment range; less compact",
       "Lead screw and nut (incl. anti-backlash nut): fine straight-line adjustment with a screw",
       "Dovetail slide with gib strip: takes up play in a slide with an adjustable strip instead of an eccentric",
       "Kinematic coupling: locates parts exactly without any adjustment",
-      "Turnbuckle: sets tension in a rod, wire or cable by screwing"
+      "Turnbuckle: sets tension in a rod, wire or cable by screwing",
+      "Locking adjustment screws: opposing screws, or a screw and a spring, that set a tilt or height and lock it, rather than shifting a part sideways with an off-centre bush"
     ]
   },
   "media": {

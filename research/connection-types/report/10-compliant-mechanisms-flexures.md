@@ -1329,6 +1329,8 @@
 
 *compliant mechanisms & flexures.* Fold patterns used as joints so flat sheets or panels fold up, expand or twist in a planned way
 
+*Also covers:* Also covers kirigami (a slit sheet that pops into 3D when stretched, and kirigami grippers).
+
 ### What it is
 
 - **plain_name**: A flat sheet, or a set of flat panels, with a planned pattern of folds so it can fold up small, spring open, or twist and shrink like a paper lantern; the folds themselves act as the joints
@@ -1416,7 +1418,10 @@
   - Iris mechanism: another way to open and close an aperture by twisting
   - Bistable compliant mechanism (snap-through): a flexure designed to have two stable positions, like a bistable Kresling tube
   - Print-in-place hinge: separate pin hinges for thick printed panels
-  - Mechanical metamaterial mechanism (shear-cell hinge arrays): grids of printed cells that bend in planned ways *(unverified parts omitted)*
+  - Mechanical metamaterial mechanism: grids of printed cells (shear-cell hinge arrays) that bend in planned ways
+  - Kirigami: cuts instead of folds; a thin perforated sheet 'can be transformed into a foldable 3D structure by simply stretching the cut material' (Harvard SEAS 2017), and a sheet cut with parallel slits curves into a 3D shape that can surround a fragile object such as an egg yolk and lift it, 'similar to the way we cup our hands around an object' (NC State 2022)
+  - Kerf bending: a pattern of laser cuts that lets stiff plywood or acrylic bend round curves or fold like a hinge, using cuts where origami uses creases
+  - Printing onto fabric: the same pause-and-lay-in-mesh method used here for hinges, used on its own to fix cloth to a print or make flexible scale armour
 
 ### Pictures, videos and models
 
@@ -1455,8 +1460,10 @@
   - https://www.youtube.com/watch?v=FNVBK7-h9Fs
   - https://www.youtube.com/watch?v=9Kdw_rEk18w
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+  - https://seas.harvard.edu/news/new-pop-strategy-inspired-cuts-not-folds
+  - https://news.ncsu.edu/2022/01/kirigami-robotic-grippers/
 
 ### Other info
 
-- **Fields with unverified parts:** aliases, environment_limits, everyday_examples, input_output, job, materials, off_the_shelf_parts, play_and_precision, power, processes, related, safety_notes
+- **Fields with unverified parts:** aliases, environment_limits, everyday_examples, input_output, job, materials, off_the_shelf_parts, play_and_precision, power, processes, safety_notes
 

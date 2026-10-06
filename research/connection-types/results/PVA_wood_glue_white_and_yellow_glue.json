@@ -9,7 +9,9 @@
       "wood glue; woodworking glue; joiner's glue [uncertain: common usage]",
       "cross-linking PVA; Type II glue; Type I (waterproof) wood glue; D2, D3, D4 wood glue (Titebond; FPL Wood Handbook ch.10; IVK EN 204 leaflet)",
       "brand names beginners search for (brands): Titebond Original, II and III (Titebond); Elmer's Carpenter's Wood Glue (Rockler); Lepage (Wikipedia 'Wood glue'); Ponal (Printables model name)",
-      "not to be confused with PVA (polyvinyl alcohol) water-soluble 3D-printing support filament, a different polymer (Wikipedia 'Polyvinyl acetate': 'Not to be confused with Polyvinyl alcohol')"
+      "not to be confused with PVA (polyvinyl alcohol) water-soluble 3D-printing support filament, a different polymer (Wikipedia 'Polyvinyl acetate': 'Not to be confused with Polyvinyl alcohol')",
+      "tacky glue: a thick, fast-grabbing PVA craft glue that sticks on contact ('A PVA Glue (polyvinyl acetate white glue) with a thick, fast-grabbing formula', Aleene's glossary); Aleene's Original Tacky Glue (brand)",
+      "fabric glue (only some are PVA: Aleene's (brand) says fabric glues are made with acrylic instead, which is more water-resistant and flexible than PVA and holds up better in the wash, Aleene's FAQ; solvent-based fabric adhesives are covered under Elastomeric solvent glue)"
     ],
     "family": "adhesives & bonding",
     "other_families": [],
@@ -90,7 +92,9 @@
       "Hot-melt adhesive (glue gun): fast, gap-filling but weak and heat-sensitive; for temporary holds and crafts",
       "Elastomeric solvent glue (flexible craft glue): stays rubbery and bonds non-porous and dissimilar materials that PVA can't",
       "Dowel and biscuit joints, and Butt and lap wood joints: the joinery that PVA is usually used with",
-      "Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain"
+      "Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain",
+      "Liquid seam sealant (anti-fray liquid, e.g. Fray Check (brand)): a colourless liquid dabbed on buttonholes, seams and cut edges that stops fabric fraying by reinforcing the fibres (Prym Fray Check product description); it seals an edge rather than joining two parts",
+      "Iron-on fusible web: a dry sheet or tape of heat-activated glue ironed between two layers of fabric to bond them, an alternative to liquid fabric glue for hems and patches"
     ]
   },
   "media": {
@@ -175,7 +179,11 @@
       "https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg",
       "https://commons.wikimedia.org/wiki/File:Using_wood_glue.JPG",
       "https://commons.wikimedia.org/wiki/File:Pva_wood_glue.jpg",
-      "https://api.printables.com/graphql/ (models 86892, 1065435, 1450540, 236948, 32037)"
+      "https://api.printables.com/graphql/ (models 86892, 1065435, 1450540, 236948, 32037)",
+      "https://aleenes.com/blogs/glossary/tacky-glue",
+      "https://aleenes.com/blogs/glossary/polyvinyl-acetate-glue",
+      "https://aleenes.com/a/faq",
+      "https://www.coolcrafting.co.uk/product/prym-fray-check/"
     ]
   },
   "uncertain": [

@@ -15,7 +15,10 @@
       "aluminium profile / aluminium extrusion / 2020, 3030, 4040 extrusion / strut profile / system profile (the bars they fit)",
       "V-slot (brand, OpenBuilds: a V-grooved profile that also works as a rail for wheels)",
       "80/20 (brand), item (brand), MISUMI HFS (brand), Bosch Rexroth (brand), MakerBeam (brand)",
-      "Nutenstein (German)"
+      "Nutenstein (German)",
+      "strut channel, metal framing channel, Unistrut (brand)-type channel: the heavier sheet-steel relative, with inward-curving lips and a channel nut that 'may have a spring' (Wikipedia 'Strut channel')",
+      "channel nut, spring nut (the nut used inside strut channel; Wikipedia 'Strut channel')",
+      "fixed-pitch hole-grid systems: goBILDA (brand), Actobotics (brand) and Meccano (brand), the stepped alternative to a continuous slot (Game Manual 0; Wikipedia 'Meccano')"
     ],
     "family": "clamping, magnetic & friction connections",
     "other_families": [
@@ -24,7 +27,7 @@
     ],
     "one_liner": "A family of nuts, bolts, brackets and hidden connectors that lock into the T-shaped grooves of aluminium extrusion, clamping onto the groove's lips when tightened so bars, panels, motors and accessories can be bolted together anywhere along their length and moved later.",
     "complexity": "A few parts per joint: the extrusion itself (a bar with a T- or V-shaped groove on each side and a hole down the middle), a nut that sits inside the groove (plain block, drop-in or spring-loaded), a screw, and usually a bracket, plate or internal connector; hidden joints may add an end-tapped thread and a drilled access hole.",
-    "how_it_works": "Each side of the bar has a narrow slot opening over a wider hidden channel. The nut is wider than the opening, so once inside it cannot be pulled out through the slot (it interlocks), but it can slide along the groove. When the screw through a bracket or part is tightened, it pulls the nut up against the underside of the slot lips and clamps everything together, so friction (and on some nuts, teeth or ridges biting into the anodised surface) stops sliding. Slide-in nuts must be threaded on from an open end of the bar; drop-in and roll-in nuts are shaped so they can be pushed in anywhere and turned 90 degrees to lock, often with a spring or ball to hold them in place while you fit the screw. Hidden joints instead screw into the tapped centre hole in the end of one bar, with the screw head or a connector clamping inside the other bar's slot."
+    "how_it_works": "Each side of the bar has a narrow slot opening over a wider hidden channel. The nut is wider than the opening, so once inside it cannot be pulled out through the slot (it interlocks), but it can slide along the groove. When the screw through a bracket or part is tightened, it pulls the nut up against the underside of the slot lips and clamps everything together, so friction (and on some nuts, teeth or ridges biting into the anodised surface) stops sliding. Slide-in nuts must be threaded on from an open end of the bar; drop-in and roll-in nuts are shaped so they can be pushed in anywhere and turned 90 degrees to lock, often with a spring or ball to hold them in place while you fit the screw. Hidden joints instead screw into the tapped centre hole in the end of one bar, with the screw head or a connector clamping inside the other bar's slot. Two relatives use the same ideas. Strut channel (Unistrut (brand)-type) is sheet metal folded into an open channel whose lips curve inwards; parts are fixed 'with a bolt, threaded into a channel nut, that may have a spring to ease installation', and punched versions also have holes or slots at fixed spacings for fixing the channel to walls (Wikipedia 'Strut channel'). Fixed-pitch hole-grid kits swap the continuous slot for a regular grid of holes, so parts can only be moved in whole steps: goBILDA (brand) uses '4mm holes on 8mm grid, M4 screws', Actobotics (brand) is its inch-based relative (Game Manual 0), and Meccano (brand) strips have holes at a standard 1/2 in (12.7 mm) spacing (Wikipedia 'Meccano')."
   },
   "finder_attributes": {
     "job": [
@@ -44,10 +47,10 @@
     "tools_needed": "Hex (Allen) keys or a T-handle hex wrench; a torque screwdriver helps avoid over-tightening. A saw with a square cut or pre-cut lengths. For hidden joints: a tap to thread the end holes and a drill (with a drilling jig) for access holes; anchor fasteners need a counterbore; 80/20's self-tapping S12 connecting screws need only a T40 or T50 power bit and drill.",
     "seal": "none (the open slots can be closed with slot cover strips, but the joint does not seal)",
     "load": "Medium to heavy, depending on size: item's small steel 'T-Slot Nut 5 St M5' (Line 5) is rated 500 N (about 50 kgf) at 4.5 Nm, an item hammerhead nut for 8 mm slots 1,000 N, and a heavy-duty M12 T-slot nut 10,000 N (Wikipedia, citing item). Strong against pulling the nut out through the slot; sliding along the groove is resisted only by clamping friction, so slip under shear is the usual weak point; a joint with a single screw is weak in twist. Printed nuts and brackets are for light duty only.",
-    "adjustable": "Yes: loosen the screw, slide the nut, bracket or part along the groove to any position, and re-tighten; drop-in and roll-in nuts can be added later in the middle of a bar. Hidden end-tapped joints and end fasteners are fixed in position.",
+    "adjustable": "Yes: loosen the screw, slide the nut, bracket or part along the groove to any position, and re-tighten; drop-in and roll-in nuts can be added later in the middle of a bar. Hidden end-tapped joints and end fasteners are fixed in position. Hole-grid kits adjust only in steps of the grid, e.g. 8 mm on goBILDA (Game Manual 0).",
     "play_and_precision": "No play once tightened, but the position is only as good as the cut ends and your assembly: squareness is not automatic (Voron's build guide says measure the diagonals, which should differ by less than 2 mm, and notes that blind-jointed bars may rotate until panels and corners are fitted). Butt fasteners give 'near perfect alignment' end to end (80/20). Slot widths and shapes differ between systems (e.g. 5.25 mm versus 6 mm slots on so-called 20-series bars, and I-type versus B-type profiles), so nuts from one system may fit loosely or bend another's slot lips.",
     "access_needed": "one side only (blind) for T-nuts and brackets, which bolt on from the outside face; hidden end-tapped joints and end fasteners need the end of the bar tapped and an access hole drilled in the mating bar to reach the screw head",
-    "materials": "Bars: extruded aluminium, typically 6105-T5 (Wikipedia) or EN AW-6063 T66 (maunsystem), usually anodised. Nuts: zinc-plated or black-zinc carbon steel (80/20 standard slide-in nuts are 1215 carbon steel), stainless steel, or die-cast zinc for light-duty nuts. Brackets and connectors: die-cast zinc, aluminium or steel. 3D-printed PLA or PETG nuts and brackets for light accessories and prototypes. Panels of acrylic, polycarbonate, wood, sheet metal or mesh are fixed into the slots with the same nuts.",
+    "materials": "Bars: extruded aluminium, typically 6105-T5 (Wikipedia) or EN AW-6063 T66 (maunsystem), usually anodised. Nuts: zinc-plated or black-zinc carbon steel (80/20 standard slide-in nuts are 1215 carbon steel), stainless steel, or die-cast zinc for light-duty nuts. Brackets and connectors: die-cast zinc, aluminium or steel. 3D-printed PLA or PETG nuts and brackets for light accessories and prototypes. Panels of acrylic, polycarbonate, wood, sheet metal or mesh are fixed into the slots with the same nuts. Strut channel is usually zinc-coated (galvanised), painted, epoxy- or powder-coated sheet steel, with stainless steel, aluminium or fibreglass versions for corrosive or food-processing places (Wikipedia 'Strut channel').",
     "maker_difficulty": "easy: bolt-together with hex keys using bought nuts and brackets; moderate if you make hidden blind joints, which need accurate tapping and drilling of access holes"
   },
   "making": {
@@ -70,7 +73,9 @@
       "Screw length: long enough to pass fully through the nut without bottoming on the extrusion, e.g. a 10 mm bracket plus a 6 mm nut takes a 15 mm screw, leaving a 1 mm margin (Hackaday, https://hackaday.com/2021/05/25/getting-started-with-aluminum-extrusions/).",
       "Hidden joints need machining: 80/20 end fasteners need an end tap in one bar and an access hole in the other; anchor fasteners need a counterbore; its self-tapping S12 connecting screws need no machining (80/20 Catalog 17, Metric Fastening Options, pp. 712-713, 737, 739, 741, http://www.gawirth.net/Metric_Fastening_Options_8020_Catalog_17.pdf).",
       "Check squareness: build on a flat surface and measure the diagonals, which should differ by less than 2 mm; blind-jointed bars may rotate until panels and corners are fitted (Voron mechanical assembly guide, https://docs.vorondesign.com/build/mechanical/).",
-      "Heavy loads need heavy-duty nuts: a heavy-duty T-slot nut with an M12 screw is rated to 10,000 N (Wikipedia, citing item, https://en.wikipedia.org/wiki/T-slot_nut)."
+      "Heavy loads need heavy-duty nuts: a heavy-duty T-slot nut with an M12 screw is rated to 10,000 N (Wikipedia, citing item, https://en.wikipedia.org/wiki/T-slot_nut).",
+      "Strut channel from different makers fits together because they follow the Metal Framing Manufacturers Association standard (MFMA-4, as of 2020); the basic channel is about 41 mm (1 5/8 in) square, and nuts inside the channel need special sockets, because normal sockets won't fit through the opening (Wikipedia 'Strut channel', https://en.wikipedia.org/wiki/Strut_channel).",
+      "goBILDA's grid is 4 mm holes on an 8 mm pitch with M4 screws; its 8 mm pitch chain and HTD 3 mm and 5 mm belts fit exactly centre to centre on the grid (Game Manual 0, goBILDA page, https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html)."
     ]
   },
   "guidance": {
@@ -78,9 +83,10 @@
       "the frame of a Creality Ender-3 or Voron 3D printer, with T-nuts holding the motors, rails and panels",
       "hobby CNC routers and laser-cutter frames built from 2020 or 4040 extrusion",
       "workshop enclosures, machine guards and grow-light racks with acrylic panels held in the slots",
-      "a bicycle trailer or camper-van shelving built from aluminium profile (Wikipedia shows a trekking trailer carrying Euroboxes)"
+      "a bicycle trailer or camper-van shelving built from aluminium profile (Wikipedia shows a trekking trailer carrying Euroboxes)",
+      "strut channel (Unistrut (brand)-type) frames supporting pipes, electrical conduit and ventilation ducts in buildings, sometimes hung from threaded rod (Wikipedia 'Strut channel')"
     ],
-    "when_to_use": "When you want a strong, stiff metal frame that you can build with hand tools, adjust, and change later: 3D-printer, CNC and laser frames, robot chassis, test rigs, jigs, enclosures, workbenches, camera or lighting rigs, and shelving. Great when you do not know the final layout yet, because every part can slide along the grooves and new parts can be added mid-bar with drop-in nuts. Also useful as a mounting grid: any accessory with a slot-sized screw can be clamped anywhere along the bar.",
+    "when_to_use": "When you want a strong, stiff metal frame that you can build with hand tools, adjust, and change later: 3D-printer, CNC and laser frames, robot chassis, test rigs, jigs, enclosures, workbenches, camera or lighting rigs, and shelving. Great when you do not know the final layout yet, because every part can slide along the grooves and new parts can be added mid-bar with drop-in nuts. Also useful as a mounting grid: any accessory with a slot-sized screw can be clamped anywhere along the bar. Strut channel suits cheaper, heavier frames for building services and the workshop: pipe, cable and duct supports, workbenches, shelving and equipment racks, which go together 'with minimal tools' and can be changed later (Wikipedia 'Strut channel'). A hole-grid kit suits robots, where parts should land on standard spacings, for example shafts placed so that chain and belts fit exactly between grid holes (Game Manual 0).",
     "when_not_to_use": "Not for the cheapest or lightest builds, where wood, plywood or printed parts with captive nuts are cheaper; every joint needs special nuts and brackets (Hackaday: 'what you do need is a lot of special parts'), and their cost adds up. Not for permanent heavy structures that are never changed, where welding or bolted steel is cheaper and stronger; for building services use strut channel. Not where a joint must resist large sliding or twisting loads with only one screw: use two screws per joint, gussets, joining plates or butt fasteners, or add a diagonal brace. Not for precise locating on its own: add dowel pins, a kinematic coupling or a machined reference edge. Not for load-bearing joints with printed T-nuts or brackets.",
     "environment_limits": "Anodised aluminium and zinc-plated or stainless nuts cope with normal indoor and outdoor conditions; heat is not a problem for the metal parts at maker temperatures, but aluminium grows about 24 µm per metre per °C, so a 300 mm aluminium plate grows about 0.58 mm from 25 °C to 105 °C (Rehorst), which matters where aluminium is bolted rigidly to steel or to a heated bed. Vibration can loosen screws over time: 80/20 sells 'vibration-proof' fasteners (Drop-Lock studs, anchor fasteners), item's hammerhead nut has a self-locking thread, and Voron builders are advised to use threadlocker and proper torque (Wikipedia, Voron 2.4). Printed nuts and brackets creep and soften with heat, especially PLA.",
     "safety_notes": "Freshly cut extrusion has sharp burrs: deburr the ends and wear gloves and eye protection when cutting and drilling aluminium. Large frames are heavy and can tip over or pinch fingers while being squared; support them while tightening. Do not rely on printed T-nuts or brackets for anything that holds weight overhead or on a moving machine. Using a nut made for a different slot type can bend open the slot lips (maunsystem), leaving a weak joint that may let go later; over-tightening can strip threads or crack die-cast zinc nuts, which item rates for only 1-1.5 Nm.",
@@ -88,12 +94,13 @@
     "related": [
       "Captive nut pocket (nut trap): a nut held in a printed hexagonal pocket; similar job in plastic parts, but fixed in one position instead of sliding along a groove",
       "Heat-set threaded insert: a permanent metal thread melted into a plastic part; not adjustable along a slot",
-      "Strut channel (e.g. Unistrut-type steel channel): the same slot-and-nut idea in cheaper, heavier steel for building services (Wikipedia 'See also')",
+      "Strut channel (e.g. Unistrut-type steel channel): the same slot-and-nut idea in cheaper, heavier steel for building services (Wikipedia 'See also'); described as a variant under how it works",
       "Modular grid mounting systems (pegboard, Gridfinity-style grids): hang or clip accessories on a grid of holes instead of sliding them along a continuous groove",
       "Quick-release plate (dovetail clamp): a clamp that slides and locks in a dovetail groove, usually released by a lever or knob",
       "Dovetail slide with gib strip: a groove joint designed for smooth sliding motion rather than clamping",
       "Knock-down furniture fittings (cam locks, cross dowels): hidden bolt-together joints for panels and wood rather than metal bars",
-      "V-slot wheels and linear rails: use the same extrusion grooves as a track for moving carriages"
+      "V-slot wheels and linear rails: use the same extrusion grooves as a track for moving carriages",
+      "Threaded rod and studs: long bolts, tie rods and hangers; strut channel frames can be hung from threaded rod"
     ]
   },
   "media": {
@@ -103,12 +110,6 @@
         "title": "T-Nut - Installed in a T-Slot.png (Wikimedia Commons, Robert Hewitt / ManufacturingET org)",
         "shows": "CAD render of a rotating T-nut (red) sitting in the T-slot of an extrusion; the related CAD model of a T-Nut 1-3 images in the same Wikipedia gallery show the nut from several angles",
         "license": "CC BY-SA 3.0"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/File:Kaffeemaschine_2.0_Rahmen_Schienenmutter1_ICEBE_B25.jpg",
-        "title": "Kaffeemaschine 2.0 Rahmen Schienenmutter1 ICEBE B25.jpg (Wikimedia Commons, Best Tech Nick 25)",
-        "shows": "Photo of a tee nut fastening an acrylic panel to an aluminium profile frame; companion file 'Kaffeemaschine 2.0 Rahmen Winkel ICEBE B25.jpg' shows an L-shaped corner bracket on the same frame",
-        "license": "CC BY-SA 4.0"
       },
       {
         "url": "https://en.wikipedia.org/wiki/T-slot_structural_framing",
@@ -127,6 +128,12 @@
         "title": "Aluminum Extrusion Blind Joints – The RIGHT Way to Do It (Brogan M. Pratt, YouTube; title confirmed via YouTube oEmbed)",
         "shows": "Video of making hidden blind joints: tapping the end of one bar and drilling an access hole in the other",
         "license": "link only"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:SpringNutInPlace.jpg",
+        "title": "SpringNutInPlace.jpg (Wikimedia Commons, by Bob Blaylock)",
+        "shows": "Photo of a spring-loaded channel nut sitting inside the lips of a strut channel, ready for a bolt (used on Wikipedia 'Strut channel')",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "make_it_yourself": [
@@ -187,7 +194,11 @@
       "https://www.youtube.com/watch?v=-I9Jsa1x880 (verified via YouTube oEmbed)",
       "https://www.youtube.com/watch?v=NLeTvSaPJIs (verified via YouTube oEmbed; 'Corner Brackets | Design for Mass Production 3D Printing', Slant 3D)",
       "https://api.printables.com/graphql/ (Printables models 382730, 1245868, 203578, 815359, 122072, 145209 and 1069061 read via the public API)",
-      "https://www.printables.com/model/122072-strong-corner-bracket-for-2020-aluminium-extrusion (search result)"
+      "https://www.printables.com/model/122072-strong-corner-bracket-for-2020-aluminium-extrusion (search result)",
+      "https://en.wikipedia.org/wiki/Strut_channel",
+      "https://en.wikipedia.org/wiki/Meccano",
+      "https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html",
+      "https://commons.wikimedia.org/wiki/File:SpringNutInPlace.jpg"
     ]
   },
   "uncertain": []

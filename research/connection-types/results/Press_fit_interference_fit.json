@@ -93,7 +93,8 @@
       "Press-fit and expanding inserts (tap-in insert) and heat-set threaded inserts: metal threads fixed into plastic by pressing or melting",
       "Mid-print embedding (captive nuts, magnets and bearings): traps the part inside the print instead of pressing it into a hole",
       "Dowel and biscuit joints: the woodworking version, usually with glue",
-      "Annular snap fit: a ring-shaped bump that clicks into a groove, so it holds by shape rather than by squeeze"
+      "Annular snap fit: a ring-shaped bump that clicks into a groove, so it holds by shape rather than by squeeze",
+      "Drive-in fixing pins: a dowel, grooved, knurled or spring pin tapped into a hole drilled through the parts; a spring (roll or coiled) pin grips by its own springiness, so it accepts looser hole sizes than a solid pin pressed in"
     ]
   },
   "media": {

@@ -144,6 +144,8 @@
 
 *quick-release & tool-free.* Push in and twist a short way so pins or lugs slide under ledges and lock; used on camera lenses, light bulbs and lids
 
+*Also covers:* Also covers the quarter-turn bike-computer mount, and threaded lens mounts (S-mount, C-mount, CS-mount) as the screw-in alternative.
+
 ### What it is
 
 - **plain_name**: Push the two round parts together, give a short twist, and pins or tabs slide under little ledges and lock; push and twist back to take it apart
@@ -157,11 +159,12 @@
   - bayonet lens mount (camera lenses, using flat tabs or flanges instead of pins)
   - BNC connector (Bayonet Neill-Concelman, a bayonet-locking coax connector)
   - twist-on lid (pressure cookers)
+  - quarter-turn mount / quarter-turn adapter (bike-computer and GPS handlebar mounts, e.g. Garmin (brand)-type)
 - **family**: quick-release & tool-free
 - **other_families**: locks, latches & catches, locating & alignment, seals & pass-throughs
 - **one_liner**: Two round parts that join end to end: push the pins or tabs on one part into notches in the other, twist a short way (typically a quarter turn or less) so they slide under ledges, and a spring or springy bump holds them locked until you push and twist back.
 - **complexity**: A few parts: a male part with 1-4 radial pins, lugs or flat tabs (bayonet lugs); a female part with matching notches and L-shaped or J-shaped slots or ledges; and usually something springy that pushes the parts apart so the pins sit in a small locking notch (a coil spring in a lamp holder, a leaf spring or spring-loaded locking pin in a lens mount, a gasket, O-ring or printed flexing bump in lids).
-- **how_it_works**: Each pin or tab lines up with an entry notch and slides straight in until it reaches the bottom of the slot. Twisting then carries the pin sideways along the short arm of the L, under a ledge, so the parts can no longer be pulled apart. A spring (or a squashed gasket) pushes the parts apart slightly, which drops the pin into a small hook at the end of the slot (the serif) or against a detent, so it cannot twist back by itself. To separate, you push the parts together against the spring, twist back the other way, and pull apart.
+- **how_it_works**: Each pin or tab lines up with an entry notch and slides straight in until it reaches the bottom of the slot. Twisting then carries the pin sideways along the short arm of the L, under a ledge, so the parts can no longer be pulled apart. A spring (or a squashed gasket) pushes the parts apart slightly, which drops the pin into a small hook at the end of the slot (the serif) or against a detent, so it cannot twist back by itself. To separate, you push the parts together against the spring, twist back the other way, and pull apart. A flat version is the quarter-turn mount on bike computers (Garmin (brand)-type): you 'align the tabs on the back' of the device with the notches in the handlebar mount, then 'press down slightly and turn' it clockwise 'until it locks into place'; Garmin calls the mount's part the 'quarter-turn adapter', and a lever adapter can replace it, so the device drops in and a lever snaps closed to lock it (Garmin Out-Front Mount instructions).
 
 ### Finder attributes
 
@@ -206,6 +209,7 @@
   - Twist-on pressure cooker lids lock by twisting about 30° so slots in the lid engage flanges on the pot (Wikipedia, https://en.wikipedia.org/wiki/Pressure_cooking).
   - Printed interlocking joints: about 0.5 mm clearance for FDM; about 0.2 mm for small resin parts, up to 0.4 mm for larger ones (Formlabs, https://formlabs.com/blog/how-to-3d-print-interlocking-joints/).
   - Springy locking features: don't build them standing up in Z, fillet the root at 0.5 times the thickness or more, allow about 0.5 mm FDM clearance, and use PETG, ABS or nylon rather than PLA (Hubs, https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/).
+  - Screw-in lens mounts are the threaded alternative on small cameras. The S-mount (M12 lens) uses an M12 x 0.5 thread and has no flange, so there is no fixed lens-to-sensor distance and the lens must be screwed in or out to focus (Wikipedia, https://en.wikipedia.org/wiki/S-mount_(CCTV_lens)). The C-mount uses a 1-32 UN 2A thread (1 in across, 32 threads per inch) with a flange focal distance of 17.526 mm; the CS-mount has the same thread but 12.526 mm, so a 5 mm spacer ring lets a C-mount lens work on a CS-mount camera (Wikipedia, https://en.wikipedia.org/wiki/C_mount).
 
 ### When to use it
 
@@ -227,6 +231,7 @@
   - Breech-lock ring lens mount (e.g. early Canon FD): a turning collar locks the lens so the lens itself doesn't rotate
   - Snap fit: clicks together with a push only, but is often harder to undo
   - Hang-on mounts (keyhole slot): a head slides into a slot and drops down, a flat-panel cousin of the L-slot
+  - Threaded lens mounts (S-mount, C-mount, CS-mount): screw-in lens mounts on webcams, CCTV and machine-vision cameras; slower to change than a bayonet, but small, cheap and focused simply by screwing the lens in or out (Wikipedia)
 
 ### Pictures, videos and models
 
@@ -264,6 +269,9 @@
   - https://www.printables.com/model/1168046-container-sets-with-bayonet-lock (read via https://api.printables.com/graphql/)
   - https://www.printables.com/model/193397-twist-lock-connector (read via https://api.printables.com/graphql/)
   - https://api.printables.com/graphql/
+  - https://www.adorama.com/col/productManuals/GP0101334000.pdf
+  - https://en.wikipedia.org/wiki/S-mount_(CCTV_lens)
+  - https://en.wikipedia.org/wiki/C_mount
 
 ### Other info
 
@@ -704,7 +712,7 @@
 - **other_families**: clamping, magnetic & friction connections, locating & alignment, sliding, telescoping & linear motion, over-centre, toggle & cam clamps
 - **one_liner**: A two-part mount in which a plate or rail with bevelled (dovetail) edges is trapped and squeezed by a matching clamp, so a camera, light, sight or instrument can be locked on in the same position in seconds and released by hand.
 - **complexity**: A few parts: the plate (a bar with bevelled long edges, usually with a camera screw such as a 1/4-20 UNC D-ring screw); the clamp body with one fixed jaw and one moving jaw; a knob screw or cam lever that closes the moving jaw; and often safety stops (screws or pins at the ends of the plate). Drop-in systems add a sprung latch lever and a second safety catch. Rails (Picatinny, NATO, Weaver) are long plates fixed to the gun or rig, with the clamp on the accessory. A cold shoe is just a channel with two inward lips and a leaf spring.
-- **how_it_works**: The plate's two long edges are bevelled like a dovetail (45° on Arca-type plates, Wikipedia 'Tripod head'). The clamp has a fixed jaw and a moving jaw with matching sloped faces. Turning the knob (a screw) or flipping the lever pushes the moving jaw in; the sloped faces act like wedges, squeezing the plate sideways and pulling it down onto the clamp's flat base, so it can't lift, slide or wobble. Loosen the jaw and the plate slides out along its length or lifts out; safety stops at the plate's ends catch it if the clamp is only slightly loose ('the plate moves freely within the channel and comes to a stop at the safety pins', Arca-Swiss USA). Drop-in systems such as the RC2 plate have two bevelled edges and are held by a lever that is 'secured once the QPR is in place, by a secondary smaller lever' (Talk Photography forum). Picatinny and Weaver rails reverse the parts: a long bevelled rail with cross slots sits on the gun or rig, the accessory's clamp grips it, and the clamp's locking screw passes through a slot so the accessory can't slide (Wikipedia 'Weaver rail mount'). A cold shoe is the simplest version: a flat foot slides into a channel with inward lips and is held by leaf-spring friction, sometimes plus a clamping screw or sliding clamp (Wikipedia 'Hot shoe').
+- **how_it_works**: The plate's two long edges are bevelled like a dovetail (45° on Arca-type plates, Wikipedia 'Tripod head'). The clamp has a fixed jaw and a moving jaw with matching sloped faces. Turning the knob (a screw) or flipping the lever pushes the moving jaw in; the sloped faces act like wedges, squeezing the plate sideways and pulling it down onto the clamp's flat base, so it can't lift, slide or wobble. Loosen the jaw and the plate slides out along its length or lifts out; safety stops at the plate's ends catch it if the clamp is only slightly loose ('the plate moves freely within the channel and comes to a stop at the safety pins', Arca-Swiss USA). Drop-in systems such as the RC2 plate have two bevelled edges and are held by a lever that is 'secured once the QPR is in place, by a secondary smaller lever' (Talk Photography forum). Picatinny and Weaver rails reverse the parts: a long bevelled rail with cross slots sits on the gun or rig, the accessory's clamp grips it, and the clamp's locking screw passes through a slot so the accessory can't slide (Wikipedia 'Weaver rail mount'). A cold shoe is the simplest version: a flat foot slides into a channel with inward lips and is held by leaf-spring friction, sometimes plus a clamping screw or sliding clamp (Wikipedia 'Hot shoe'). Wikipedia describes the shoe as 'an angled metal bracket', shaped like an upside-down, squared-off U, and most have leaf springs under its two 'teeth'; a hot shoe is the same bracket with a metal contact in the middle that fires a flash, and its size is set by ISO 518:2006.
 
 ### Finder attributes
 
@@ -778,6 +786,8 @@
   - DIN-rail clip (top-hat rail snap mount): snaps modules onto a standard rail without a clamp
   - Magnet joint (embedded magnets, magnetic catch): even quicker for light items, but weaker and less positive
   - Modular grid mounting systems (pegboard, Gridfinity-style grids): many fixed positions instead of one sliding rail
+  - Tripod and stand screw mount: the single 1/4-20 or 3/8-16 camera screw that fixes a plate to the camera, and the plain alternative when quick swapping isn't needed
+  - Clamp-on accessory mount for bars, poles and edges: for fixing a plate, clamp or shoe to a bar, pole, desk edge or camera-rig rod (15 mm rod clamps) rather than to a threaded hole
 
 ### Pictures, videos and models
 
@@ -822,6 +832,8 @@
 
 *quick-release & tool-free.* A head slides into a keyhole-shaped slot, or two bevelled rails hook together, so things hang securely and lift off without tools
 
+*Also covers:* Also covers VESA screen mounts (the standard square of screw holes on screens and monitor arms).
+
 ### What it is
 
 - **plain_name**: Ways to hang something on a wall so it just lifts on and off: a keyhole-shaped hole on the back that drops over a screw head, or two strips with sloping edges that hook over each other
@@ -835,11 +847,12 @@
   - cleat wall / French cleat tool wall / cleat rail
   - Z-clip, Z-bar, panel clip, interlocking hanging clip (extruded aluminium version of the French cleat)
   - aluminium French cleat / hanging rail / wall mounting bracket
+  - VESA mount / VESA hole pattern (Flat Display Mounting Interface, FDMI): the standard square of four screw holes on the back of monitors and TVs, which a wall bracket or a French-cleat plate screws to
 - **family**: quick-release & tool-free
 - **other_families**: interlocking joints & joinery, sliding, telescoping & linear motion
 - **one_liner**: Two gravity-held wall mounts that let an object be lifted on and off without tools: a keyhole slot in the object drops over a screw head in the wall, and a French cleat is a pair of bevelled strips, one on the wall and one on the object, that hook together under the object's weight.
 - **complexity**: A few parts. Keyhole slot: a slot with a round entry hole and a narrower undercut channel, cut into the back of the object or provided by a metal keyhole plate, plus a round- or pan-headed screw (or nail) left sticking out of the wall. French cleat: two strips with matching bevelled edges (one screwed to the wall, one to the object), usually plus a plain spacer strip at the bottom of the object; the aluminium Z-clip is the same idea as two small extrusions.
-- **how_it_works**: Keyhole slot: the round end of the slot is big enough for the screw head to pass through, and the narrow part only lets the screw's shank through; behind the narrow part there is a hollow pocket for the head. You push the object onto the screw head at the round end, then let it drop, so the head slides behind the narrow part and the object's weight keeps it there. To remove it, lift it up and pull it off. French cleat: the wall strip's bevel faces up and towards the wall, and the object's strip has the opposite bevel facing down. When the object is lowered on, the two slopes hook together, and the weight wedges the object down and in against the wall, so it can't move down or pull outwards ('The bevel stops that from happening', The Honest Carpenter). A plain strip of the same thickness at the bottom keeps the object upright (Stumpy Nubs). To remove it, lift it up and off. Aluminium Z-clips 'wedge together to lock panels in place. Simply lift and remove' (Rockler).
+- **how_it_works**: Keyhole slot: the round end of the slot is big enough for the screw head to pass through, and the narrow part only lets the screw's shank through; behind the narrow part there is a hollow pocket for the head. You push the object onto the screw head at the round end, then let it drop, so the head slides behind the narrow part and the object's weight keeps it there. To remove it, lift it up and pull it off. French cleat: the wall strip's bevel faces up and towards the wall, and the object's strip has the opposite bevel facing down. When the object is lowered on, the two slopes hook together, and the weight wedges the object down and in against the wall, so it can't move down or pull outwards ('The bevel stops that from happening', The Honest Carpenter). A plain strip of the same thickness at the bottom keeps the object upright (Stumpy Nubs). To remove it, lift it up and off. Aluminium Z-clips 'wedge together to lock panels in place. Simply lift and remove' (Rockler). Screens use a standard screw pattern instead of a keyhole: the VESA mount (Flat Display Mounting Interface) is four threaded holes 'arranged in a square' on the back of the screen, and a stand, wall bracket or printed French-cleat plate is screwed to them (Wikipedia 'VESA mount').
 
 ### Finder attributes
 
@@ -886,6 +899,7 @@
   - Leave enough space above a Z-clip-hung panel to lift it off: 1/4 to 3/4 in depending on the clip (Monarch Metal).
   - Two vertical keyholes are the simplest and most secure layout (Carbide 3D community forum).
   - FDM overhangs up to about 45° print without supports, so 45° cleats print cleanly (Hubs).
+  - VESA screen mounts: four screw holes in a square; the original pattern is 100 x 100 mm and 75 x 75 mm was added for smaller displays; the smaller patterns use 'standard M4 machine screws', while 200 x 200 mm and larger use M6 or M8; if the screen maker supplies screws, use those rather than the bracket's. The standard also sets a maximum screen weight and screw length for each pattern, so check its tables (Wikipedia 'VESA mount').
 
 ### When to use it
 
@@ -897,7 +911,7 @@
 - **when_to_use**: Use a keyhole slot for light-to-medium items that should sit flush against a wall with hidden hardware: picture frames, signs, small shelves, routers, printed organisers. Use a French cleat for heavier items and for anything you want to move around or take down often: wall cabinets, shelves, mirrors, tool holders on a cleat wall. The wall side can be screwed into studs wherever they are, and the object is simply lifted on, with no fine manoeuvring and no need to hold its full weight while fixing it (Wikipedia).
 - **when_not_to_use**: Avoid gravity-held mounts where the object could be bumped upwards or shaken off (children's rooms, vehicles, boats, earthquake zones, vibrating machines) unless you add a lock screw, cleat lock or bottom fixing (Wikipedia; cyberbobcity). Don't use them where the load pulls the object away from the wall or upwards (a pull-up bar, a hanging hoist); through-bolt instead. Avoid them on ceilings or under shelves. Keyholes in thin or brittle material are poor for heavy items; use a French cleat. For many small items that you reposition constantly, a pegboard or grid system gives more positions. When the item must go back in exactly the same place, use locating pins or a dovetail clamp.
 - **environment_limits**: PLA softens above about 60 °C and degrades in UV light, and PETG is suitable to about 80 °C (Prusa), so printed hooks and keyhole lips in hot garages or sunny windows should be PETG. Printed parts under constant load can sag (creep) over time, although one PLA cleat mount carrying a 6.27 kg monitor showed no noticeable sag after six months (Morris Lazootin). Vibration can walk an object up and off a gravity mount; *(unverified parts omitted)*
-- **safety_notes**: A heavy object falling is the main hazard: fix the wall side into studs or into anchors rated for the load (Stumpy Nubs; Popular Woodworking), and don't use brittle drywall screws (The Honest Carpenter). Anything hung this way can be knocked upwards and off, so fix the bottom of heavy cabinets to the wall (Wikipedia) or add a cleat lock. Add a bottom spacer so the object can't tip forward (Stumpy Nubs). *(unverified parts omitted)*
+- **safety_notes**: A heavy object falling is the main hazard: fix the wall side into studs or into anchors rated for the load (Stumpy Nubs; Popular Woodworking), and don't use brittle drywall screws (The Honest Carpenter). Anything hung this way can be knocked upwards and off, so fix the bottom of heavy cabinets to the wall (Wikipedia) or add a cleat lock. Add a bottom spacer so the object can't tip forward (Stumpy Nubs). For screens, use the screws the screen maker supplies and a VESA pattern rated for the screen's weight; a heavier screen needs the next larger pattern (Wikipedia 'VESA mount'). *(unverified parts omitted)*
 - **common_failures**: 1) Holders knocked up and off a cleat wall (cyberbobcity): add a cleat lock or screw. 2) Cabinet tipping forward because there is no bottom spacer (Stumpy Nubs). 3) Solid-wood cleat splitting along the grain (Stumpy Nubs): use plywood. 4) Drywall screws snapping (The Honest Carpenter): use deck or structural screws into studs. 5) Keyhole screw head set too far out (the object rattles) or not far enough (it won't engage): adjust the screw depth (Fine Woodworking). 6) With two keyholes, one screw engages first and the object levers on it and scratches the wall (Carbide 3D forum): space the screws with a template and use vertical slots. 7) A thin printed lip cracking and letting the screw head pull through (layer.works uses a 1 mm lip; thicken it for heavier items). 8) Chatter and poor slots when routing keyholes: pre-clear with a smaller end mill and cut slowly (Carbide 3D forum).
 - **related**: 
   - Modular grid mounting systems (pegboard, Gridfinity-style grids): many hang-on positions on a grid instead of one rail or screw
@@ -909,6 +923,7 @@
   - Magnet joint (embedded magnets, magnetic catch): tool-free for light items on steel surfaces
   - Basic latches (spring latch, slide bolt, hook and eye): hooks and eyes are the simplest hang-on joint
   - DIN-rail clip (top-hat rail snap mount): hooks over a standard rail and snaps on, so it can't be lifted off by accident
+  - Tripod and stand screw mount: the other common standard screw interface (a 1/4-20 or 3/8-16 socket), for screwing a device onto a stand or arm rather than hanging it on a wall
 
 ### Pictures, videos and models
 
@@ -950,6 +965,7 @@
   - https://api.printables.com/graphql/
   - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=xFvced0deZ8&format=json
   - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=t5TXVzlAuzw&format=json
+  - https://en.wikipedia.org/wiki/VESA_mount
 
 ### Other info
 
@@ -1129,6 +1145,8 @@
 
 *quick-release & tool-free.* Fittings that grip a tube when it is pushed in and release when a collar is pressed or a sleeve is pulled back
 
+*Also covers:* Also covers cam-and-groove (camlock) couplings, plastic thumb-latch lab couplings, and push-fit plumbing reuse and square-cut rules.
+
 ### What it is
 
 - **plain_name**: A fitting you just push a tube into: hidden teeth grab the tube and a rubber ring seals it, and it only lets go when you press a collar in (or, on hose couplers, pull a sleeve back)
@@ -1142,11 +1160,14 @@
   - quick disconnect (QD), quick coupler, quick-release coupling, air coupler, air-line fitting, pneumatic coupling (Wikipedia, Air-line fitting; Midstate)
   - ball-latching or snap-type coupler; the two halves are the male nipple or plug and the female coupler or socket (Midstate; Wikipedia, Air-line fitting)
   - click-on garden hose connector, Hozelock (brand) or Gardena (brand) connector (Wikipedia, Hose coupling)
+  - cam-and-groove coupling, camlock (cam lock) fitting, Type A to F camlocks (letter codes for the male adapter and female coupler ends) (Wikipedia 'Cam and groove'). Name clash: on Printables, 'CAMLOCK' also names a 3D-printed vacuum-hose (dust-extraction) connector system, not this coupling (Printables models 493835 and 624672, read through the Printables API)
+  - thumb-latch coupling, plastic quick-disconnect coupling, valved (shut-off) coupling, multi-lumen (twin-tube) coupling; THOMAFLUID (brand) (RCT catalogue page)
+  - CPC or Colder (brand) coupling: thumb-latch plastic couplings, with or without valves, from Colder Products Company (Fresh Water Systems CPC page)
 - **family**: quick-release & tool-free
-- **other_families**: seals & pass-throughs, self-locking & anti-back-drive, hydraulics, pneumatics & vacuum
+- **other_families**: seals & pass-throughs, self-locking & anti-back-drive, hydraulics, pneumatics & vacuum, over-centre, toggle & cam clamps
 - **one_liner**: A tube fitting that locks a plastic or soft-metal tube in place and seals it as soon as the tube is pushed in, and releases it by hand when you push its release collar in, or (for hose couplers) a pair of plug-and-socket halves that snap together and come apart when you slide back a spring-loaded sleeve.
 - **complexity**: A small assembly that acts as one unit. Push-to-connect fitting: body (often with a threaded stud for a port), collet or gripper ring with stainless-steel teeth, release collar or button, O-ring seal, and a tube stop inside; an optional plastic locking clip stops the collar being pushed in (Clippard; John Guest via US Plastic; Fresh Water Systems). Sleeve-type quick coupler: a female coupler (socket) holding a ring of steel balls, a spring-loaded sliding sleeve, seals and often a shut-off valve, plus a separate male nipple (plug) with a groove round it (Wikipedia, Air-line fitting; Midstate).
-- **how_it_works**: Push-to-connect: the tube slides through a ring of angled metal teeth (the collet) and an O-ring until it hits a stop; if the tube is pulled, or pressure pushes it outward, the collet is dragged into a tapered groove that squeezes its teeth into the tube, so it grips harder the more you pull, while the O-ring seals round the outside of the tube (Wikipedia, Quick connect fitting; Fresh Water Systems). Pressing the collar squarely into the body spreads the teeth off the tube so it can be pulled out (John Guest via US Plastic). Sleeve couplers: when the plug is pushed in, spring-loaded balls in the socket drop into a groove on the plug and the sleeve slides over them to trap them; pulling the sleeve back gives the balls room to move out and frees the plug (Wikipedia, Air-line fitting; Midstate). Garden-hose click connectors work the same way, with a spring-loaded outer barrel that locks onto the male end (Wikipedia, Hose coupling).
+- **how_it_works**: Push-to-connect: the tube slides through a ring of angled metal teeth (the collet) and an O-ring until it hits a stop; if the tube is pulled, or pressure pushes it outward, the collet is dragged into a tapered groove that squeezes its teeth into the tube, so it grips harder the more you pull, while the O-ring seals round the outside of the tube (Wikipedia, Quick connect fitting; Fresh Water Systems). Pressing the collar squarely into the body spreads the teeth off the tube so it can be pulled out (John Guest via US Plastic). Sleeve couplers: when the plug is pushed in, spring-loaded balls in the socket drop into a groove on the plug and the sleeve slides over them to trap them; pulling the sleeve back gives the balls room to move out and frees the plug (Wikipedia, Air-line fitting; Midstate). Garden-hose click connectors work the same way, with a spring-loaded outer barrel that locks onto the male end (Wikipedia, Hose coupling). Cam-and-groove (camlock) couplings, used on larger hoses, have two cam levers on the female coupler: swinging them shut pulls the grooved male adapter into the socket against a gasket, and the levers lock by over-centre geometry so they can't open by accident; because the groove runs all the way round, no lining up is needed and the gasket is squeezed the same amount every time (Wikipedia 'Cam and groove'). Small plastic thumb-latch couplings for lab and analyser tubing lock by themselves when the nipple is plugged in and come apart after 'a short thumb pressure on the lock', all with one hand; the nipple seals with an O-ring, and either half can have a shut-off valve so the line stays closed when parted (RCT catalogue page).
 
 ### Finder attributes
 
@@ -1154,7 +1175,7 @@
   - seal it, or pass cables or fluid through: joins a tube or hose so air, water or other fluid passes without leaking
   - join and hold: holds the tube in against pulling and internal pressure
   - lock, and release by hand: pressing the collar or pulling the sleeve undoes it with no tools
-- **motion**: none: the tube or plug is held still once connected. Elbow and branch versions can be turned to point the right way after connecting but must not be used while turning; for tubes that keep rotating or swinging, rotary (swivel) fittings are used instead (SMC KQG2 manual)
+- **motion**: none: the tube or plug is held still once connected. Plumbing push-fit joints stay rotatable after assembly (Wikipedia 'Piping and plumbing fitting'), and elbow and branch versions can be turned to point the right way after connecting but must not be used while turning; for tubes that keep rotating or swinging, rotary (swivel) fittings are used instead (SMC KQG2 manual)
 - **degrees_of_freedom**: 0: the tube is locked in place along and around its axis in normal use; the tube moves back slightly when first pulled, as the teeth bite (Clippard: pull the tubing back gently until the gripper ring grips)
 - **special_behaviour**: 
   - quick-release (tool-free): press the collar or button in (push-to-connect) or pull the sleeve back (couplers) and the tube or plug comes out (John Guest via US Plastic; Midstate)
@@ -1168,14 +1189,14 @@
 - **input_output**: not applicable: it joins tubes and passes fluid, not motion
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release: press the release collar in and pull the tube out, or pull back the coupler sleeve; the system must be depressurised first (John Guest via US Plastic; SMC KQG2 manual)
-- **reuse_cycles**: many times: the fitting can be re-used (John Guest via US Plastic), but the teeth mark the tube, so cut off the marked end before pushing a used tube back in (SMC KQG2 manual; Clippard); frequent removal gradually scratches the tube until it leaks past the O-ring (Fresh Water Systems). Sleeve-type quick couplers are made for frequent connecting and disconnecting (Midstate)
+- **reuse_cycles**: many times: the fitting can be re-used (John Guest via US Plastic), but the teeth mark the tube, so cut off the marked end before pushing a used tube back in (SMC KQG2 manual; Clippard); frequent removal gradually scratches the tube until it leaks past the O-ring (Fresh Water Systems). Sleeve-type quick couplers are made for frequent connecting and disconnecting (Midstate); plumbing push-fit ('push-to-pull') fittings 'can easily be removed and re-used' (Wikipedia 'Piping and plumbing fitting')
 - **tools_needed**: None to connect or release (a small printed or bought release tool helps with tiny collets; Printables 198167, 285470). A proper tube cutter for a square cut; don't use pliers, nippers or scissors, which squash the tube (SMC KQG2 manual). A spanner to screw a threaded fitting into its port (Clippard; SMC)
 - **seal**: airtight or pressure: an O-ring inside the fitting seals round the outside of the tube (Wikipedia, Quick connect fitting). Example ratings: small plastic push-in fittings 0-150 psig and vacuum to 29.5 inHg (Clippard); stainless push-in fittings -100 kPa to 1 MPa, but not for holding a vacuum in a leak tester because they leak slightly (SMC KQG2 manual). Quick couplers seal with O-rings or a compressed tip, and valved (shut-off) couplers close off the flow when parted (Wikipedia, Air-line fitting; Midstate)
 - **load**: medium for its size: holds tube pull-out of more than 20 lb (about 9 kg) when not pressurised in a small plastic fitting (Clippard) and full rated pressure. Strong against pulling straight out; weak against side loads, bending close to the fitting, twisting, rotation, vibration and impact, which can crack the fitting or release or burst the tube (SMC KQG2 manual; Fresh Water Systems)
 - **adjustable**: no: the grip and seal are set by the fitting and the tube size; elbow fittings can only be swivelled to aim them (SMC KQG2 manual)
 - **play_and_precision**: small: the tube shifts back slightly as the teeth bite (Clippard). It tolerates almost no misalignment: push the tube in straight (within about 0-5 degrees) and keep side loads off it (SMC KQG2 manual; Fresh Water Systems). It is not used to locate parts
 - **access_needed**: end of a tube or shaft: you need the cut end of the tube and room to push it straight in and to press the release collar with a finger or tool; the fitting body is either inline or screwed into a port
-- **materials**: Fittings: plastic body with nickel-plated brass stud, stainless-steel gripper ring and Buna-N (nitrile) seals (Clippard); all-stainless 316 versions with FKM seals for steam (SMC KQG2 manual); quick couplers in carbon steel, brass or stainless (Midstate) or plastics such as acetal, polypropylene, nylon and PEEK (Wikipedia, Quick connect fitting). Tubes: nylon, polyurethane, polyethylene or polypropylene (Clippard); soft copper, brass or mild steel tube if within tolerance, but not hard metal tube (John Guest via US Plastic); fluoropolymer (FEP, PFA, PTFE) tube with an inner sleeve where temperatures swing (SMC KQG2 manual). Soft or thin-walled tubing needs a tube insert (John Guest via US Plastic). 3D printers use 4 mm PTFE tube in PC4 fittings (Printables 529258)
+- **materials**: Fittings: plastic body with nickel-plated brass stud, stainless-steel gripper ring and Buna-N (nitrile) seals (Clippard); all-stainless 316 versions with FKM seals for steam (SMC KQG2 manual); quick couplers in carbon steel, brass or stainless (Midstate) or plastics such as acetal, polypropylene, nylon and PEEK (Wikipedia, Quick connect fitting). Tubes: nylon, polyurethane, polyethylene or polypropylene (Clippard); soft copper, brass or mild steel tube if within tolerance, but not hard metal tube (John Guest via US Plastic); fluoropolymer (FEP, PFA, PTFE) tube with an inner sleeve where temperatures swing (SMC KQG2 manual). Soft or thin-walled tubing needs a tube insert (John Guest via US Plastic). 3D printers use 4 mm PTFE tube in PC4 fittings (Printables 529258). Cam-and-groove couplings: stainless steel, aluminium, brass or polypropylene (Wikipedia 'Cam and groove'); plastic thumb-latch couplings: acetal (POM) bodies with nitrile (NBR) seals (RCT catalogue page)
 - **maker_difficulty**: easy to fit, hard to make: buy one and print the housing or adapter around it; the hardened teeth and accurate O-ring groove are hard to print, and printed versions are experimental (Printables 1094373 is 'work in progress'; Printables 1572668 warns printed collars hold the tube less well than ones with metal teeth)
 
 ### Making it
@@ -1200,6 +1221,9 @@
   - Keep surge (pressure spike) pressure below the maximum working pressure, or the tube may be pushed out (SMC KQG2 manual).
   - Quick-coupler plugs and sockets must share the same profile; mismatched pairs may still latch but seal poorly (Wikipedia, Air-line fitting).
   - Printed moving parts (sleeves, collars, latches): start with at least 0.3 mm clearance (Prusa Knowledge Base, Modeling with 3D printing in mind).
+  - Plumbing push-fit: cut the pipe end square so it sits against the stop, and cleanly so it doesn't damage the O-ring as it goes in (Wikipedia 'Piping and plumbing fitting').
+  - Example rating for a small twin-tube plastic thumb-latch coupling: -40 to +80 °C and up to 6.9 bar per line at 20 °C (RCT catalogue page, THOMAFLUID multi-lumen coupling).
+  - Cam-and-groove couplings are made to interchangeable standards (A-A-59326, which replaced MIL-C-27487; BS EN 14420-7; DIN 2828) in sizes from 1/2 in to 8 in, so halves from different makers fit (Wikipedia 'Cam and groove').
 
 ### When to use it
 
@@ -1208,15 +1232,15 @@
   - Plastic tubing on under-sink water filters and reverse-osmosis units (Fresh Water Systems; Printables 198167)
   - Click-on garden hose connectors (Hozelock (brand) or Gardena (brand) style) (Wikipedia, Hose coupling)
   - Workshop compressed-air hoses snapped onto air tools and tyre inflators with a pull-back-sleeve coupler (Wikipedia, Air-line fitting; Midstate)
-- **when_to_use**: Use a push-to-connect fitting when you need to join firm plastic tubing (nylon, polyurethane, polyethylene, PTFE) quickly and neatly for compressed air, vacuum, water or other low-to-medium pressure fluids, and you may want to take it apart again: pneumatic models and robots, water filters and cooling, aquarium and hydroponic setups, and 3D-printer Bowden and filament-guide tubes. It connects with one push and no tools, gives high flow because nothing narrows the bore, and suits frequent reconnection better than a barb (Clippard). Use a sleeve-type quick coupler (plug and socket) when a hose must be connected and unplugged often, one-handed, e.g. swapping air tools, and choose shut-off (valved) couplings so the line doesn't empty when parted (Midstate; Wikipedia, Quick connect fitting).
-- **when_not_to_use**: Don't use push-in fittings with soft, stretchy tubing (silicone, soft PVC): use a hose barb with a clamp, or add a tube insert (Clippard; John Guest via US Plastic). Don't use them where the tube rotates, swings, or travels with a moving part: use rotary fittings, coiled tubing, or a cable carrier (SMC KQG2 manual). Avoid heavy vibration or shock, strong side loads, hard metal tubes, very high pressures and pressure spikes: use compression, threaded or crimped fittings (SMC KQG2 manual; John Guest via US Plastic). If you want the cheapest, most leak-free joint that you never undo, a barb is better (Clippard). Don't rely on a 3D-printed push-in fitting for real compressed-air pressure; printed ones are experimental (Printables 1094373).
+- **when_to_use**: Use a push-to-connect fitting when you need to join firm plastic tubing (nylon, polyurethane, polyethylene, PTFE) quickly and neatly for compressed air, vacuum, water or other low-to-medium pressure fluids, and you may want to take it apart again: pneumatic models and robots, water filters and cooling, aquarium and hydroponic setups, and 3D-printer Bowden and filament-guide tubes. It connects with one push and no tools, gives high flow because nothing narrows the bore, and suits frequent reconnection better than a barb (Clippard). Use a sleeve-type quick coupler (plug and socket) when a hose must be connected and unplugged often, one-handed, e.g. swapping air tools, and choose shut-off (valved) couplings so the line doesn't empty when parted (Midstate; Wikipedia, Quick connect fitting). Choose a cam-and-groove (camlock) coupling for large liquid hoses that are swapped often in dirty conditions where threads would clog, such as pump-truck and tanker hoses or drum filling, since it connects without tools and can't be over- or under-tightened (Wikipedia 'Cam and groove'); choose small plastic thumb-latch couplings for lab, analyser and other small-bore tubing that has to be plugged and unplugged one-handed (RCT catalogue page; Fresh Water Systems CPC page).
+- **when_not_to_use**: Don't use push-in fittings with soft, stretchy tubing (silicone, soft PVC): use a hose barb with a clamp, or add a tube insert (Clippard; John Guest via US Plastic). Don't use them where the tube rotates, swings, or travels with a moving part: use rotary fittings, coiled tubing, or a cable carrier (SMC KQG2 manual). Avoid heavy vibration or shock, strong side loads, hard metal tubes, very high pressures and pressure spikes: use compression, threaded or crimped fittings (SMC KQG2 manual; John Guest via US Plastic). If you want the cheapest, most leak-free joint that you never undo, a barb is better (Clippard). Don't rely on a 3D-printed push-in fitting for real compressed-air pressure; printed ones are experimental (Printables 1094373). Don't use cam-and-groove couplings for compressed air, steam or other gases (Wikipedia 'Cam and groove'); use an air coupler rated for gas.
 - **environment_limits**: Heat and cold: small plastic push-in fittings are rated 32-140 °F (0-60 °C) (Clippard); stainless versions -5 to 150 °C, no freezing (SMC KQG2 manual). Below about 5 °C, water in the line can freeze and damage seals (SMC). Warmer water lowers the pressure rating (Fresh Water Systems). Polyurethane tube swells with pressure and heat, so a used tube may no longer fit back in (SMC). Sunlight, vibration and chemicals: avoid long direct sunlight, heavy vibration or shock, radiant heat, corrosive gases, sea water, and cutting oils or coolants unless the fitting is rated for them (SMC KQG2 manual). Ageing: after many years the O-ring can dry out and drip (Fresh Water Systems). Printed parts: PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen).
-- **safety_notes**: Always release the pressure before disconnecting (John Guest via US Plastic; SMC KQG2 manual): a hose or tube freed under pressure can whip about, and ISO 4414 'safety' couplings vent the air in two stages before releasing for this reason (Wikipedia, Air-line fitting). With single shut-off couplings, only one half seals, so the other half may still spray or vent (Midstate). Pressure spikes (surge) above the rating can push the tube out (SMC). Near welding spatter, ordinary plastic fittings and tubing are a fire risk; flame-resistant ones exist (SMC KQG2 manual). *(unverified parts omitted)*
+- **safety_notes**: Always release the pressure before disconnecting (John Guest via US Plastic; SMC KQG2 manual): a hose or tube freed under pressure can whip about, and ISO 4414 'safety' couplings vent the air in two stages before releasing for this reason (Wikipedia, Air-line fitting). With single shut-off couplings, only one half seals, so the other half may still spray or vent (Midstate). Pressure spikes (surge) above the rating can push the tube out (SMC). Near welding spatter, ordinary plastic fittings and tubing are a fire risk; flame-resistant ones exist (SMC KQG2 manual). Cam-and-groove (camlock) couplings 'are not recommended for any type of compressed gas service, including steam or air' (Wikipedia 'Cam and groove'); keep them for liquids, and fit the lever safety pins where the coupling has them. *(unverified parts omitted)*
 - **common_failures**: Leaks because the tube wasn't pushed in far enough to pass the O-ring (the most common cause), a slanted cut, a sharp tube end that nicked the O-ring, or a side load that squashed the O-ring oval (Fresh Water Systems); fix by re-cutting square and pushing fully home with a depth mark. Tube works loose or slips out: tube too soft, undersized or scored (Clippard; John Guest via US Plastic), frequent removal scratching the tube (Fresh Water Systems), pressure surges (SMC), or on 3D printers the constant push-pull of retraction and vibration pushing the release collar in; a collet clip under the collar stops this (Printables 135121). A tube re-used without cutting off the marked end, or swollen polyurethane tube, won't reseal or re-insert (SMC KQG2 manual). Fittings crack if the tube is rotated, levered or vibrated at the fitting (SMC). Quick couplers: mismatched plug profiles latch but leak (Wikipedia, Air-line fitting).
 - **related**: 
   - Hose barb: a ridged spigot inside soft tubing; cheaper and seals better on soft tube, but hard to undo (Clippard)
   - Bayonet mount (push-and-twist lock): the idea behind quarter-turn hose couplings such as Storz and GEKA (Wikipedia, Hose coupling)
-  - Cam-and-groove (camlock) coupling: two cam arms clamp a grooved adapter against a gasket; used for large hoses (Wikipedia, Hose coupling)
+  - Cam-and-groove (camlock) coupling: covered in this entry as a lever-locked variant for large hoses; two cam arms clamp a grooved adapter against a gasket and lock over-centre (Wikipedia, Hose coupling; Wikipedia 'Cam and groove')
   - Band flange clamp (tri-clamp): a hinged clamp squeezes two flanged ends onto a gasket, for sanitary pipes (Wikipedia, Hose coupling)
   - Quick-release pin (ball-lock pin): uses the same spring-loaded balls to lock a pin instead of a hose plug
   - Slip ring and rotary union: when the tube must keep turning, a rotary joint is needed instead (SMC recommends rotary fittings)
@@ -1257,6 +1281,10 @@
   - https://www.youtube.com/watch?v=wzRT6BrN-tU
   - https://www.youtube.com/watch?v=HUotgU8YAtI
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Cam_and_groove
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://www.rct-online.de/en/tube-hose-connectors/quick-disconnect-couplings-made-of-plastic/multi-lumen-quick-disconnect-couplings/29228/multi-lumen-quick-disconnect-nipple-made-of-pom
+  - https://www.freshwatersystems.com/collections/Colder-Products
 
 ### Other info
 
@@ -1265,6 +1293,8 @@
 ## 167 DIN-rail clip (top-hat rail snap mount)
 
 *quick-release & tool-free.* A spring clip that hooks over one edge of a standard metal rail and snaps onto the other, so modules click on and off
+
+*Also covers:* Also covers terminal blocks, the commonest thing on a DIN rail.
 
 ### What it is
 
@@ -1335,7 +1365,7 @@
   - Terminal blocks, relays, power supplies and controllers in machine and control cabinets (Wikipedia, DIN rail; Phoenix Contact white paper)
   - Home-automation and lighting-control modules in a wall-mounted enclosure (Crestron)
   - The electronics bay of some DIY 3D printers, where boards are clipped onto a rail (Printables 592735 'DIN Rail Clip (Voron Heat Insert)', Voron (brand))
-- **when_to_use**: Use a DIN-rail clip when you want several modules or home-made boxes and boards to sit tidily in a row inside a cabinet, enclosure or printer frame, and to be added, moved or swapped later without drilling new holes (Phoenix Contact white paper). It is ideal for relays, power supplies, microcontroller boards, terminal blocks and small sensors, because the standard rail makes parts from different makers interchangeable and a printed clip lets you put almost any board on it (Wikipedia, DIN rail; hzeller).
+- **when_to_use**: Use a DIN-rail clip when you want several modules or home-made boxes and boards to sit tidily in a row inside a cabinet, enclosure or printer frame, and to be added, moved or swapped later without drilling new holes (Phoenix Contact white paper). It is ideal for relays, power supplies, microcontroller boards, terminal blocks and small sensors, because the standard rail makes parts from different makers interchangeable and a printed clip lets you put almost any board on it (Wikipedia, DIN rail; hzeller). Terminal blocks are what usually go on a rail. The rail itself began in the late 1920s as a way to fit more wire connections closer together than nuts and bolts on a panel allowed: Phoenix Contact and the German power utility RWE gave each porcelain terminal block a 'spring-loaded snap foot' for a mounting rail; today 'a dizzying array of terminal block versions', plus circuit breakers, power supplies, controllers and relays, are made for the 35 mm rail (Phoenix Contact white paper). A row of screw or spring-clamp terminal blocks on a rail is a tidy way to join the wires in a printed or bought enclosure.
 - **when_not_to_use**: Don't rely on it for heavy parts, parts that are pulled or levered upward, or heavy vibration and shock without end stops and a well-fixed rail; screw the part directly to the panel or use stronger steel 'latch release' clips (Winford Engineering; Phoenix Contact white paper). It is not a precise locator: use dowel pins or a kinematic mount if the part must return to exactly the same spot. Outdoors or where it must seal, use a sealed enclosure (the clip itself doesn't seal). For a hang-on wall mount with no rail, a keyhole slot or French cleat is simpler.
 - **environment_limits**: Heat: electrical cabinets get warm; a printed PLA clip starts to give at about 60 °C (CNC Kitchen) and its plastic spring can slowly relax and loosen under constant load (DuPont General Design Principles, p. 36); a commercial glass-fibre nylon 66 clip example is rated -20 to 65 °C (Enable-IT). Vibration: modules can slide along the rail unless end stops are fitted (Aera Electrical Products); heavy modules need closer rail fixing (Phoenix Contact white paper). *(unverified parts omitted)*
 - **safety_notes**: DIN rails usually live in cabinets with mains voltage: switch off and isolate before clipping modules on or off, and follow the electrical codes (Crestron). The rail is metal and may be earthed (Wikipedia, DIN rail), so bare solder joints on a board clipped to it can short; use an insulating floor (hzeller) or standoffs. Leave ventilation holes of modules unblocked (Crestron). *(unverified parts omitted)*
@@ -1348,6 +1378,8 @@
   - G-rail mounting: on the older asymmetric G rail, equipment is hooked over the deep lip and rotated until it clips onto the shallow side (Wikipedia, DIN rail)
   - Quick-release plate (dovetail clamp): slides into a dovetail and is clamped, for camera gear
   - Magnet joint: also tool-free, but can slide off under side loads and needs a steel surface
+  - Screw terminal: screw terminal blocks are the commonest modules clipped onto a rail (Phoenix Contact white paper)
+  - Spring-clamp wire connector: spring-clamp and push-in terminal blocks also snap onto the rail; a spring, not a screw, holds the wire
 
 ### Pictures, videos and models
 
@@ -1656,6 +1688,8 @@
 
 *quick-release & tool-free.* A hinged band with a V-shaped groove that wedges two flanged ends together as it is tightened, for quick-disconnect pipes, ducts and brewing kit
 
+*Also covers:* Also covers the grooved pipe coupling (rolled grooves, a gasket and a bolted housing).
+
 ### What it is
 
 - **plain_name**: A hinged metal ring with a V-shaped groove inside: you wrap it round two pipe ends that each have a lip, tighten one nut or flip one lever, and the V squeezes the lips together so the joint holds and seals
@@ -1673,11 +1707,12 @@
   - KF flange clamp / QF (Quick Flange) / Klein Flansch / NW flange clamp (vacuum-system version with a centring ring and O-ring)
   - clamp-together ducting clip (dust extraction; e.g. Nordfab Quick-Fit (brand))
   - band flange clamp, flange band clamp
+  - grooved pipe coupling, grooved coupling, sleeve-clamp fitting (the grooved-pipe cousin for large steel pipe); Victaulic (brand) coupling (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting')
 - **family**: quick-release & tool-free
 - **other_families**: seals & pass-throughs, clamping, magnetic & friction connections, locating & alignment, over-centre, toggle & cam clamps
 - **one_liner**: A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
 - **complexity**: A few parts: two matching flanged ends (weld-on flanges, 'ferrules' in sanitary work) with sloped backs; a clamp band made of one or more V-section segments, often hinged; one closure (a T-bolt and nut, wing nut, or over-centre lever); and usually a seal between the faces (a flat gasket with beads for tri-clamps, an O-ring on a metal centring ring for KF vacuum flanges, or none for male/female exhaust flanges).
-- **how_it_works**: Tightening the nut or lever shortens the band, so the V-shaped groove presses inwards all the way round. The inside faces of the V sit on the sloped backs of the two flanges, and like a wedge they turn that inward squeeze into a push along the pipe that draws the two faces together (Wikipedia 'Marman clamp'; NASA GD-ED-2214). With the common 40° included angle the band gives about an 8.6 to 1 gain in force before friction (Burns Stainless). Because the squeeze acts all round the joint rather than at a few bolts, it presses a gasket or O-ring evenly, and the V also centres the two ends on each other (Burns Stainless; Exoracing).
+- **how_it_works**: Tightening the nut or lever shortens the band, so the V-shaped groove presses inwards all the way round. The inside faces of the V sit on the sloped backs of the two flanges, and like a wedge they turn that inward squeeze into a push along the pipe that draws the two faces together (Wikipedia 'Marman clamp'; NASA GD-ED-2214). With the common 40° included angle the band gives about an 8.6 to 1 gain in force before friction (Burns Stainless). Because the squeeze acts all round the joint rather than at a few bolts, it presses a gasket or O-ring evenly, and the V also centres the two ends on each other (Burns Stainless; Exoracing). A close cousin for large steel pipe is the grooved pipe coupling: instead of welded-on flanges, a groove is rolled or cut near each pipe end, a gasket is wrapped round both ends, and a coupling housing bolted round the rubber (elastomeric) gasket engages the grooves. The gasket is 'pressure-responsive': pressure inside the pipe presses its lips harder onto the pipe, and the joint comes apart by unbolting the housing (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting').
 
 ### Finder attributes
 
@@ -1699,7 +1734,7 @@
 - **power**: passive (no power needed). Spacecraft separation versions are released by pyrotechnic or pin-puller devices and so need power to let go (Wikipedia 'Marman clamp').
 - **removability**: tool-free quick release for wing-nut, lever and hinged sanitary clamps; removable (needs a spanner or socket) for T-bolt V-band clamps
 - **reuse_cycles**: many times: made for joints that are opened often for cleaning or service (Get Er Brewed; *(unverified parts omitted)*
-- **tools_needed**: None for wing-nut and lever clamps (sanitary clamps are 'typically tightened by hand', M.G. Newell); a spanner or socket for nut-and-bolt V-bands, and optionally a torque tool to avoid over-tightening (M.G. Newell). Fitting weld-on flanges or ferrules needs welding (Exoracing); ducting needs a saw and file (Nordfab).
+- **tools_needed**: None for wing-nut and lever clamps (sanitary clamps are 'typically tightened by hand', M.G. Newell); a spanner or socket for nut-and-bolt V-bands, and optionally a torque tool to avoid over-tightening (M.G. Newell). Fitting weld-on flanges or ferrules needs welding (Exoracing); ducting needs a saw and file (Nordfab). Grooved pipe couplings: a roll-grooving or cutting tool for the pipe ends, and a socket or impact wrench for the housing bolts (Wikipedia 'Piping and plumbing fitting').
 - **seal**: airtight or pressure: a bead-edged gasket sits in grooves in both ferrule faces (tri-clamp), an O-ring on a metal centring ring (KF vacuum flanges), or matched male/female metal faces that usually need no gasket (exhaust V-bands) (Wikipedia 'ISO 2852' and 'Vacuum flange'; Exoracing). One catalogue lists hinged sanitary clamps at up to 50 bar working pressure for 1-1.5 in sizes at 150 °C, falling to 10 bar at 12 in, and says the rating depends on the seal (Connectors Verbindungstechnik). Clamp-together dust ducting is 'not sold as an airtight system' (Nordfab).
 - **load**: Medium to heavy along the pipe (pulling the ends apart) and in bending, which is what the wedge is designed for; weaker in twisting and in sideways sliding across the joint, which rely on friction, so NASA advises lips, pins or splines to carry shear and torsion (NASA GD-ED-2214). Printed plastic versions are light-duty.
 - **adjustable**: Partly: the joint can be rotated to any angle before it is tightened, and the clamp's closure can be placed wherever it is easiest to reach (Burns Stainless; Exoracing). Clamp tension is set by the nut; there is no length adjustment (a separate slip sleeve does that in ducting, Nordfab).
@@ -1737,14 +1772,14 @@
   - The V-band joint on a car's turbo outlet or exhaust downpipe (Exoracing)
   - Clip-together metal ducting on workshop dust extraction (Nordfab)
   - Flanged aircraft fuel hoses and bleed-air ducts, and the ring that holds a satellite on top of its rocket (Wikipedia 'Marman clamp')
-- **when_to_use**: Use a band flange clamp when two round ends must join strongly and seal, but come apart often or quickly: brewing and food pipework that must be taken apart for cleaning (Get Er Brewed), vacuum lines (KF), dust and fume ducting (Nordfab), exhaust and turbo joints that are hot and hard to reach (Exoracing), and printed adapters that let hobby kit connect to standard sanitary fittings. It is lighter and quicker than a bolted flange (Wikipedia 'Marman clamp') and the closure can be turned to face wherever you can reach (Burns Stainless).
+- **when_to_use**: Use a band flange clamp when two round ends must join strongly and seal, but come apart often or quickly: brewing and food pipework that must be taken apart for cleaning (Get Er Brewed), vacuum lines (KF), dust and fume ducting (Nordfab), exhaust and turbo joints that are hot and hard to reach (Exoracing), and printed adapters that let hobby kit connect to standard sanitary fittings. It is lighter and quicker than a bolted flange (Wikipedia 'Marman clamp') and the closure can be turned to face wherever you can reach (Burns Stainless). Grooved pipe couplings do the same job on large steel pipes in buildings and plants, where they replace flanges and welding (so no hot work is needed on site), and come in flexible types that allow a little angular movement and rigid types that don't (Wikipedia 'Victaulic'; Wikipedia 'Piping and plumbing fitting').
 - **when_not_to_use**: Don't use it to pull badly aligned pipes together or to hide poor routing; fix the pipework first (Exoracing). Where the joint must carry big twisting or sideways loads, add lips, pins or keys, or use a bolted flange (NASA GD-ED-2214). For joints that never come apart, welding or a bolted flange is cheaper; for small hoses, a hose clamp, push-fit or threaded fitting is simpler; for square or non-round parts, use a latch or bolted flange. *(unverified parts omitted)*
 - **environment_limits**: The seal usually sets the temperature limit: EPDM 132 °C (briefly 150 °C), silicone, FKM and PTFE 150 °C (Connectors catalogue); nitrile ducting seals 70 °C constant (Nordfab). Heat cycles change the band tension because band and rings are often different metals (NASA GD-ED-2214), so re-check exhaust clamps after heat cycling (Exoracing). Printed parts: PLA softens above about 60 °C and PETG is for use below about 80 °C (Prusa). Stainless steel parts resist corrosion; NASA recommends stress-corrosion-resistant materials and avoiding galling metal pairs (NASA GD-ED-2214).
 - **safety_notes**: A tensioned band stores energy: NASA warns the stored energy in large clamp straps 'is usually high enough to cause serious injury should failure occur' and recommends protective measures during installation (NASA GD-ED-2214). Exhaust V-bands get very hot. Cut duct edges are sharp (Nordfab). Lever clips on ducting should have their safety pin fitted so the handle can't spring open (Nordfab). In food and brewing use, an over-tightened gasket bulges into the pipe and traps deposits that are hard to clean (M.G. Newell). *(unverified parts omitted)*
 - **common_failures**: 1) Leaks from a gasket that is not seated in both ferrule grooves, 'one of the main causes of leaks' (M.G. Newell); seat it before tightening. 2) Over-tightening pinches the gasket into the bore or distorts the clamp and flanges; under-tightening leaks (M.G. Newell; Exoracing). 3) Mismatched clamp and flange profiles from different makers, so the clamp doesn't seat (Exoracing); buy matched sets. 4) Warped or misaligned welded flanges; tack, test-fit, then finish-weld (Exoracing). 5) The V bottoming out on the flanges before full load, so the joint is loose (Burns Stainless). 6) Uneven band tension from friction, so part of the joint is under-clamped; NASA tightens in steps and taps round the band to even it out (NASA GD-ED-2214). 7) Loss of tension after heat cycles (Exoracing; NASA GD-ED-2214). 8) Wrong gasket bore for the pipe, since 1 in and 1.5 in fittings share one flange size (Holland gasket chart).
 - **related**: 
   - Bolted flange: a ring of bolts clamps two flanges; stronger in shear and twist but heavier and slower to undo (Wikipedia 'Marman clamp')
-  - Hose clamp (worm-drive band clamp): a flat band that squeezes a hose onto a spigot; no wedge action, for low pressure (Wikipedia notes a flat-strap variety for low-pressure use)
+  - Hose clamp: a flat band (worm-drive, ear or spring) that squeezes a hose onto a spigot; no wedge action, for low pressure (Wikipedia notes a flat-strap variety for low-pressure use)
   - Bayonet mount: push and twist to lock lugs under ledges; faster, but needs moulded lugs rather than a separate clamp
   - Quick couplers (sleeve-lock hose couplings): push-in couplings held by balls or latches, for hoses that connect and disconnect under a shut-off
   - Draw latch (over-centre latch): the same over-centre lever idea used to pull a lid or case shut
@@ -1788,6 +1823,8 @@
   - https://api.printables.com/graphql/
   - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=IUru_JmA1YU&format=json
   - https://www.youtube.com/watch?v=IUru_JmA1YU
+  - https://en.wikipedia.org/wiki/Victaulic
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 
 ### Other info
 
@@ -2161,6 +2198,7 @@
   - Gender changer adapter: the other way to join two connectors of the same gender (Wikipedia)
   - Stackable connectors (Arduino shields, stackable banana plugs): male on one face and female on the other, 'often described' as hermaphroditic but not in the strict sense (Wikipedia)
   - Mixed-gender connectors: contain both pins and sockets but still need a matching opposite connector, so they are not truly genderless (Wikipedia)
+  - High-current battery plug: gendered XT60-type, Deans-type and bullet plugs for battery packs; the genderless Anderson Powerpole and SAE leads stay in this entry
 
 ### Pictures, videos and models
 

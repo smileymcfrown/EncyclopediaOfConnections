@@ -9,12 +9,12 @@ def connects(e):
     n=e['name']; t=set()
     f=e['family']
     if f in ('print-in-place & 3D-printing joints','snap & clip fits') or rx(r'insert|nut trap|crush rib|heat stak|thread-forming|self-tapping|magnet joint|press fit|split-part|printed screw|multi-material|mid-print|tolerance ring',n): t.add('printed')
-    if f=='interlocking joints & joinery' or rx(r'rivet|clinch|sheet|panel|knock-down|cleco|push nut|speed nut|tab|butterfly|dowel|biscuit|wedge dowel|T-slot joint|lever-cam',n) and not rx(r'turntable',n): t.add('sheet')
+    if (f=='interlocking joints & joinery' or rx(r'rivet|clinch|sheet|panel|knock-down|cleco|push nut|speed nut|tab|butterfly|dowel|biscuit|wedge dowel|T-slot joint|lever-cam|wood screw|nails, brads|staples for wood|metal brackets',n)) and not rx(r'turntable',n) and f!='cord, strap, webbing & textile hardware': t.add('sheet')
     if rx(r'tube|extrusion|pole|T-slot nut|star nut|expansion plug|telescop|clamp-on|collet|scaffold|spring bar|spring button|cam lever',n): t.add('tube')
-    if f=='clutches & couplings' or rx(r'shaft|hub|horn|keyless|taper fit|tolerance ring|retaining ring|collet|spline|coupling|press fit|dog clutch|scroll',n): t.add('shaft')
-    if f=='cord, strap, webbing & textile hardware' or (rx(r'\bcord|rope|strap|webbing|\blace|buckle|zipper|hook-and-loop|press stud|cable tie|knot|garment|carabiner|shock-corded|woven',n) and not rx(r'gasket',n)): t.add('cord')
+    if f=='clutches & couplings' or rx(r'shaft|hub|horn|keyless|taper fit|tolerance ring|retaining ring|collet|spline|coupling|press fit|dog clutch|scroll|fixing pin',n): t.add('shaft')
+    if f in ('cord, strap, webbing & textile hardware','knots, lashings & sewn joints') or (rx(r'\bcord|rope|strap|webbing|\blace|buckle|zipper|hook-and-loop|press stud|cable tie|knot|garment|carabiner|shock-corded|woven',n) and not rx(r'gasket',n)): t.add('cord')
     if rx(r'latch|catch|hinge|\blid|door|hatch|quarter-turn|cam lock|draw latch|magnet joint|bayonet|interrupted-screw|band flange|tamper|mechanical interlock|tumbler|combination lock|folding-blade',n) and not rx(r'thread-locking|self-locking wedge|knock-down',n): t.add('lid')
-    if rx(r'mount|hang|DIN-rail|grid|suction|quick-release plate|switchable permanent|foam tape|stretch-release|vacuum hold|magnet joint|quick-release pin|genderless|indexable clamping|isolation',n): t.add('mount')
+    if rx(r'mount|hang|DIN-rail|grid|suction|quick-release plate|switchable permanent|foam tape|stretch-release|vacuum hold|magnet joint|quick-release pin|genderless|indexable clamping|isolation|wall plug|hollow-wall|eye bolts|spring clip clamp',n): t.add('mount')
     if f=='adhesives & bonding' or rx(r'glued joint',n): t.add('glue')
     if rx(r'gripper|tongs|toggle clamp|cam lever|self-locking wedge|scroll|collet',n): t.add('grip')
     return t

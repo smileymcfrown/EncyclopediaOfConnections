@@ -87,7 +87,9 @@
       "Wax motors and bimetal strips: other heat-driven actuators, usually heated by their surroundings and bought as finished parts [uncertain]",
       "Electroactive polymer and dielectric elastomer actuators: artificial muscles driven directly by electric fields instead of heat (Wikipedia 'Artificial muscle')",
       "Carbon nanotube yarn muscles: the more expensive lab ancestors that first showed twist-based coiled actuation (Haines et al. 2016)",
-      "Coil spring: the same shape used passively; the heat-set muscle behaves like a soft extension spring when cool"
+      "Coil spring: the same shape used passively; the heat-set muscle behaves like a soft extension spring when cool",
+      "Stopper knots and cord-end anchors: knots round a hook or clip, and other ways to anchor the muscle's ends so they can't slip or spin",
+      "Wire-rope terminations: crimped metal sleeves (ferrules) like those used to anchor muscle ends and heater wires"
     ]
   },
   "media": {

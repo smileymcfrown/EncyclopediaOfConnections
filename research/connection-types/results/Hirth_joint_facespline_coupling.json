@@ -77,7 +77,7 @@
       "Both halves need the same tooth count; symmetric teeth are best for registration and loads in either direction, and coned teeth need opposite cone angles on the two halves (BOSL2 hirth() documentation).",
       "There is no ISO, DIN or AGMA standard for Hirth rings; they are designed and made as mating pairs (Croccolo et al. 2018; Wikipedia).",
       "Industrial reference points: 24-720 teeth, 50-900 mm diameter, indexing accuracy 1-2 seconds of arc, repeat accuracy under 0.001 mm (Voith Hirth serrations page).",
-      "Hang the load so its weight tightens the clamp handle, not loosens it: 'handle on the right, load on the right' for a grip head (Matthews Studio Equipment)."
+      "Hang the load so its weight tightens the clamp handle, not loosens it: 'handle on the right, load on the right' for a grip head (Matthews Studio Equipment). Wikipedia 'C-stand' gives the same rule: set the gear to one side of the grip head so its weight turns the locking knob clockwise ('righty tighty'), or the weight slowly loosens the head until the gear drops."
     ]
   },
   "guidance": {
@@ -90,7 +90,7 @@
     "when_to_use": "Use it for any adjustable arm, bracket or mount that must hold its angle firmly under load, where set steps are fine and you want to find the same setting again: camera and phone mounts, light and monitor arms, sensor or webcam brackets, tripod and tool attachments, folding stands, or rotating fixtures on a workbench. It is also a strong, play-free way to join two shaft pieces or a hub to a shaft that must come apart for servicing, and to make a rotating table lock precisely at fixed positions.",
     "when_not_to_use": "Avoid it when you need any angle, not steps (use a friction clamp, a lockable ball head or a clamping hub), when the joint must move freely while in use (use a hinge or bearing), or when you need quick snap-to-position clicks without a screw (use a ball detent or detent hinge). Don't rely on it where a person can't retighten it and it could loosen through vibration without a locking method; add a thread-locking screw or spring. For a one-way ratchet feel use a face ratchet, and for drive that engages and disengages while running use a dog clutch.",
     "environment_limits": "Heat: PLA softens and deforms above about 60 °C (Prusa), so use PETG, ASA or nylon near lamps and in cars; diystrument recommends a heat deflection temperature of at least 70 °C for studio lights. Plastic under a constant clamping force slowly creeps and loses some clamp (in Thrinter's test none of the printed clips fully recovered their shape after a day under stress), so printed joints may need retightening. Rust, dirt and wear raise the friction between the teeth, which stops them centring properly (Croccolo et al.). Vibration: if the clamp is loose the teeth can rub and wear (fretting); Wikipedia notes tightness can be restored by retightening. Water, UV and chemicals: no limits beyond those of the material used.",
-    "safety_notes": "A joint that is not fully tightened, or has worn teeth or a stripped thread, can let go suddenly and drop what it holds; film-set grip heads that slip can swing a flag onto an actor (Matthews Studio Equipment). Load it so the weight tightens the handle, check the teeth are fully seated (not resting tip-on-tip) before letting go [uncertain], and never rely on a worn joint over people. Fingers can be pinched between the toothed faces while adjusting [uncertain].",
+    "safety_notes": "A joint that is not fully tightened, or has worn teeth or a stripped thread, can let go suddenly and drop what it holds; film-set grip heads that slip can swing a flag onto an actor (Matthews Studio Equipment). Load it so the weight tightens the handle: on a C-stand grip head the gear must hang to the side that makes its weight turn the locking knob clockwise, or the weight slowly loosens the head and 'eventually' drops the gear (Wikipedia 'C-stand'). Also check the teeth are fully seated (not resting tip-on-tip) before letting go [uncertain], and never rely on a worn joint over people. Fingers can be pinched between the toothed faces while adjusting [uncertain].",
     "common_failures": "1) Slipping or jumping a tooth under load because the screw is too loose, the teeth are worn, or the thread is stripped (Matthews Studio Equipment): tighten fully, replace worn parts, use metal threads or inserts. 2) Rocking or not seating flat because the printed tooth geometry is wrong (lendres): generate teeth with a proper tool. 3) Teeth landing tip-on-tip so the joint seems tight but isn't engaged [uncertain]: wiggle until they drop fully into mesh before tightening. 4) Printed pins or thin sections breaking from fatigue, especially when over-tightened (diystrument): use metal fasteners and thicker walls. 5) Plastic creep or heat softening loosening the clamp: choose a heat-resistant material and retighten. 6) Loss of centring accuracy from high friction caused by wear or rust (Croccolo et al.). 7) Mismatched halves (different tooth counts or cone angles) that never mesh (BOSL2).",
     "related": [
       "Face ratchet (star ratchet): also teeth on the end faces, but saw-shaped so it turns one way and clicks over the other; a Hirth joint's symmetric teeth lock both ways",
@@ -100,7 +100,8 @@
       "Indexing plunger (pull-knob index pin): a single pin dropping into a ring of holes; fewer positions and some play, but no screw to undo",
       "Ball detent or detent hinge: clicks into positions but can be forced past them, so it does not lock",
       "Lockable ball head (ball-and-socket joint): holds any angle in several directions by friction, but can slip under heavy load",
-      "Kinematic coupling (balls in V-grooves): also returns to exactly the same position when refitted, but uses only three contact points and is not for torque"
+      "Kinematic coupling (balls in V-grooves): also returns to exactly the same position when refitted, but uses only three contact points and is not for torque",
+      "Tripod and stand screw mount: the single standard thread (1/4-20 or 3/8-16) or stand spigot that rosettes and grip heads are often fixed with; it uses anti-twist pins rather than teeth to stop the part turning"
     ]
   },
   "media": {
@@ -196,7 +197,8 @@
       "https://www.youtube.com/watch?v=Ln_RCAz2qmY",
       "https://www.youtube.com/watch?v=jiHUEhja9V0",
       "https://help.prusa3d.com/article/pla_2062",
-      "http://thrinter.com/creep-abs-pla-petg-alloy-910/"
+      "http://thrinter.com/creep-abs-pla-petg-alloy-910/",
+      "https://en.wikipedia.org/wiki/C-stand"
     ]
   },
   "uncertain": [

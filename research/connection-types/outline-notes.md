@@ -135,10 +135,12 @@ At 18 items per batch (6 agents × 3 items), tier 1 takes 8 batches and all 274 
   everyday fasteners & fixings (257, 260, 222, 274); adjusters, levellers & spacers (188, 150,
   146, 235, 73); welding, brazing & soldering (139, 141, 297, 56, 61); knots, lashings & sewn
   joints (154, 153, 121, 122, 149, 155).
-- **Notes additions to researched entries (about 70) are not in the outline yet.** The report
-  shows outline notes as "Also covers", so adding them before the entries are updated would claim
-  content the entries don't have. They are listed in section 7 of the combined file and are
-  applied in an update pass after items 324-409 are researched.
+- **Notes additions to researched entries:** applied on 2026-10-06 (R23) in an update pass
+  (`update-pass-2026-10-06.md`). Six research agents re-opened the sources and added the
+  content to 96 researched entries (56 with new content, 39 with cross-links only, one already
+  covered). The outline notes of those 56 then gained an "Also covers" sentence. Until then
+  they were held back, because the report shows outline notes as "Also covers" and would have
+  claimed content the entries didn't have.
 - **New research rules** (`fields.yaml`): electrical connections (no mains instructions; a fixed
   rating lead-in in `load`), heat joining (burns, fire, fumes, arc light), knots (grouped by job,
   ABOK numbers through Wikipedia, tying steps linked out) and mounting standards (named, not

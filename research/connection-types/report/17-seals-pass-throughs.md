@@ -138,6 +138,8 @@
 
 *seals & pass-throughs.* A soft layer or cord squeezed between a lid and a housing to seal an opening that isn't round, often pressed into a groove by a ridge on the lid
 
+*Also covers:* Also covers sealing washers: the bonded seal (Dowty washer), crush washers and tap washers.
+
 ### What it is
 
 - **plain_name**: A soft strip, sheet or bead of rubber, foam or silicone squashed between a lid and a box (or two flat flanges) so water and dust can't get through the seam; used when the opening is square or an odd shape
@@ -148,7 +150,9 @@
   - enclosure gasket, door gasket, panel gasket (Stockwell Elastomerics)
   - cord gasket, foam cord gasket, sealing cord, round silicone sealing cord (a rubber or foam cord laid in a groove; Hackaday.io 'OpenDendrometer'; Printables pb-tec box)
   - formed-in-place gasket (FIPG), liquid gasket, RTV gasket maker (liquid sealant applied wet and closed while uncured; ThreeBond Technical News 91; Permatex)
-  - cured-in-place gasket (CIPG), dispensed gasket, poured-in-place gasket (bead cured before the parts are closed; ThreeBond; Stockwell mentions poured-in-place gaskets) *(unverified parts omitted)*
+  - cured-in-place gasket (CIPG), dispensed gasket, poured-in-place gasket (bead cured before the parts are closed; ThreeBond; Stockwell mentions poured-in-place gaskets)
+  - sealing washer: a small ring-shaped gasket under a bolt, plug or pipe fitting; Wikipedia notes that the rubber or fibre 'washers' in taps are really gaskets (Wikipedia 'Washer (hardware)')
+  - bonded seal, Dowty seal or Dowty washer (a steel washer with a bonded rubber inner ring; Wikipedia 'Bonded seal'), crush washer (soft aluminium or copper), rubber or fibre tap washer (Wikipedia 'Washer (hardware)') *(unverified parts omitted)*
 - **family**: seals & pass-throughs
 - **other_families**: adhesives & bonding
 - **one_liner**: A soft layer, cord or bead squeezed between two mating surfaces that fills their bumps and gaps so liquid and dust can't leak through the joint, even when the opening isn't round.
@@ -208,7 +212,8 @@
   - The silicone ring in the lid of a clip-lock food storage box (Prusa tested a printed copy of a Lock&Lock (brand) box with a gasket)
   - The gasket under a car engine's valve cover or cylinder head (Wikipedia 'Gasket', see also 'Head gasket')
   - The seal round the door of an outdoor electrical cabinet or junction box (Stockwell 'Enclosure Gaskets')
-- **when_to_use**: Use a gasket to seal a lid, door, panel or flange that is square, long or an odd shape, where a round O-ring won't fit, and where the faces are not perfectly flat or smooth, since the soft material fills the unevenness. It suits printed and moulded project boxes, junction boxes, outdoor sensor cases, access panels and pipe flanges, and splash-proof to briefly submersible boxes. Choose a cord-in-groove gasket for printed boxes that you open now and then, a flat foam or sheet gasket for light dust and splash sealing, and a formed-in-place silicone bead for a joint you rarely or never open.
+  - The rubber or fibre washer inside a tap (faucet) that seals its valve against water leaks: a small ring gasket usually just called a washer (Wikipedia 'Washer (hardware)')
+- **when_to_use**: Use a gasket to seal a lid, door, panel or flange that is square, long or an odd shape, where a round O-ring won't fit, and where the faces are not perfectly flat or smooth, since the soft material fills the unevenness. It suits printed and moulded project boxes, junction boxes, outdoor sensor cases, access panels and pipe flanges, and splash-proof to briefly submersible boxes. Choose a cord-in-groove gasket for printed boxes that you open now and then, a flat foam or sheet gasket for light dust and splash sealing, and a formed-in-place silicone bead for a joint you rarely or never open. For a single bolt, drain plug or threaded port, use a sealing washer, which is a small ring gasket: a rubber or fibre washer for taps and water joints, a bonded seal (Dowty washer), whose 'central rubber ring' gives 'a strong seal against high pressure liquid or gas' and, because its steel outer ring holds the rubber in place, needs no groove in the parts (Wikipedia 'Bonded seal'), or a crush washer of soft aluminium or copper, used to seal fluid or gas connections in hydraulic systems and engines (Wikipedia 'Washer (hardware)'). The Parallel pipe thread with a sealing washer entry shows how these seal straight-threaded pipe and hose joints.
 - **when_not_to_use**: For a round opening that must be really watertight or hold pressure, use an O-ring (Prusa found O-rings far more reliable than gaskets at depth). For a moving shaft or rod, use an O-ring, lip seal or labyrinth seal, since gaskets are static only. To keep out only dust and rain with no rubber to wear or lose, a labyrinth (overlapping lip) may be enough. For cables through the wall, use a cable gland. For a permanently closed joint, a silicone sealant or glue is simpler. Avoid thin, flexible printed lids with few screws for anything that must survive immersion; they bow and leak.
 - **environment_limits**: Silicone gaskets resist UV, ozone and salt water and spring back well; other rubbers and foams age faster (Stockwell). Gasket life depends on UV, ozone, temperature, chemicals and wear (Stockwell 'Enclosure Gaskets'). All rubbers and foams slowly creep and take a permanent set under constant squeeze, so old gaskets stop springing back (Fictiv; Rogers). Rain on a hot box cools it and creates suction that can pull pooled water in past a gasket, so vent the enclosure (Stockwell). RTV silicone needs about 24 hours to cure, longer when cold or dry (Permatex). Printed housings soften: PLA from about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), and PLA lids creep under the steady push of the gasket (Thrinter).
 - **safety_notes**: Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it gives off toxic, corrosive hydrogen chloride gas; if you don't know what the rubber is, don't cut it (Materials Education 'Materials for Laser Cutter Machines'). Epoxy used to seal printed walls needs gloves and a respirator (Prusa blog). A gasketed printed box is not a certified enclosure: use a proper IP-rated box for mains voltage (Printables 'Outdoor Enclosure for Govee Light Controller' author's note).
@@ -219,7 +224,9 @@
   - Silicone and MS-polymer adhesive sealants: the same material as a formed-in-place gasket, used to seal and bond permanently
   - Cable gland and strain relief: seals cables passing through the gasketed box
   - Draw latch (over-centre latch): a common way to pull a gasketed lid down evenly without tools
-  - Tongue-and-groove joint: the joinery cousin; in enclosures the tongue on the lid presses the gasket into the groove *(unverified parts omitted)*
+  - Tongue-and-groove joint: the joinery cousin; in enclosures the tongue on the lid presses the gasket into the groove
+  - Parallel pipe thread with a sealing washer: a straight-threaded pipe or hose joint in which a small ring gasket (washer, bonded seal or O-ring) squeezed against a flat face does the sealing
+  - Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen spline) instead of sealing a lid *(unverified parts omitted)*
 
 ### Pictures, videos and models
 
@@ -260,6 +267,8 @@
   - https://api.printables.com/graphql/
   - https://printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec
   - https://www.printables.com/model/12311-waterproof-housing-test-tpu-o-ring
+  - https://en.wikipedia.org/wiki/Washer_(hardware)
+  - https://en.wikipedia.org/wiki/Bonded_seal
 
 ### Other info
 
@@ -391,6 +400,8 @@
 
 *seals & pass-throughs.* A spigot with sharp ridges that soft tubing is pushed over and gripped by; for low pressure, with a clip added for more hold
 
+*Also covers:* Also covers PEX crimp and clamp-ring fittings and PEX plugs.
+
 ### What it is
 
 - **plain_name**: A short pipe with sharp ridges round it that you push a soft tube over; the ridges bite into the inside of the tube so it seals and won't pull off, and a clip round the tube holds it on harder
@@ -402,12 +413,13 @@
   - single-barb or 'line contact' barb (Beswick; Hydraulics & Pneumatics)
   - hose splicer, hose coupler, hose mender, barb-to-barb reducer, barb tee, barb wye (names for fittings with a barb on each end; Printables model titles)
   - slip-in fitting, barbed insert fitting (drip irrigation; DripWorks)
-  - airline connector (aquarium air tubing) *(unverified parts omitted)*
+  - airline connector (aquarium air tubing)
+  - PEX crimp fitting, PEX clamp (cinch) ring fitting, PEX plug: barbed insert fittings for PEX plumbing pipe, held by a metal ring squeezed on with a tool (Wikipedia 'Piping and plumbing fitting'; Wikipedia 'Cross-linked polyethylene') *(unverified parts omitted)*
 - **family**: seals & pass-throughs
 - **other_families**: clamping, magnetic & friction connections, hydraulics, pneumatics & vacuum
 - **one_liner**: A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.
 - **complexity**: Single piece, plus the tube and an optional clamp. Parts: a hollow spigot with one or more ridges (barbs), each with a gentle slope and a sharp back edge; a plain cylindrical stem behind the barb for the tube to relax onto; and on the other end another barb, a thread, a flange or a tee (Tameson; ISM). Retention device if used: a worm-drive, spring, wire or ear clamp, or a cable tie (Wikipedia, Hose clamp; Qosina).
-- **how_it_works**: The tube is pushed up the slope of the barb, stretching it wider than its own inside diameter; once past the sharp edge it springs back and squeezes the plain stem behind it (ISM). That squeeze makes the seal, and the sharp edge makes a line of high contact pressure that grips the tube (Beswick). Pulling on the tube makes it get thinner and grip even tighter, but a pressure spike swells the tube and can loosen it, which is why a clamp is added for higher pressure (ISM; Qosina). A clamp placed just behind the barb also blocks the tube from sliding off, because the clamp would have to stretch over the barb (Wikipedia, Hose clamp).
+- **how_it_works**: The tube is pushed up the slope of the barb, stretching it wider than its own inside diameter; once past the sharp edge it springs back and squeezes the plain stem behind it (ISM). That squeeze makes the seal, and the sharp edge makes a line of high contact pressure that grips the tube (Beswick). Pulling on the tube makes it get thinner and grip even tighter, but a pressure spike swells the tube and can loosen it, which is why a clamp is added for higher pressure (ISM; Qosina). A clamp placed just behind the barb also blocks the tube from sliding off, because the clamp would have to stretch over the barb (Wikipedia, Hose clamp). PEX plumbing pipe uses the same barb idea with a ring instead of a clamp: the fitting is pushed into the pipe and a metal crimp ring, or a stainless-steel clamp (cinch) ring, is squeezed round the outside with a crimping or cinching tool; a PEX plug, for example, is 'a short barbed fitting with a blank end' that is 'sealed watertight with a PEX crimp' (Wikipedia 'Piping and plumbing fitting'; Wikipedia 'Cross-linked polyethylene'; Wikimedia Commons PEX tools photo). Other PEX joints are made with an expander tool, or with compression or push-fit fittings (Wikipedia 'Cross-linked polyethylene').
 
 ### Finder attributes
 
@@ -423,7 +435,7 @@
 - **power**: passive (no power needed)
 - **removability**: semi-permanent (can be undone but may damage parts): a well-matched barb is designed to be very hard to pull off (Beswick), so the tube end is often cut off; the fitting itself can usually be reused with a new tube (Tameson). *(unverified parts omitted)*
 - **reuse_cycles**: a few times: the barb can be reused many times, but each removal usually costs a cut or stretched tube end (Tameson)
-- **tools_needed**: None to push on (hot water or a hair dryer helps soften stiff tubing; Drip Depot). A knife or tube cutter for a square cut; pliers for spring clamps, a screwdriver or nut driver for worm-drive clamps, a special pincer tool for ear clamps (Wikipedia, Hose clamp); cable ties need only a cutter.
+- **tools_needed**: None to push on (hot water or a hair dryer helps soften stiff tubing; Drip Depot). A knife or tube cutter for a square cut; pliers for spring clamps, a screwdriver or nut driver for worm-drive clamps, a special pincer tool for ear clamps (Wikipedia, Hose clamp); cable ties need only a cutter. PEX crimp and clamp-ring fittings need a crimping or cinching tool, and some PEX joints an expander tool (Wikipedia 'Cross-linked polyethylene'; Wikimedia Commons PEX tools photo).
 - **seal**: airtight or pressure: the stretched tube squeezing the plain stem behind the barb makes the seal, good for low pressures (ISM: 125 psi or lower); a clamp adds sealing force and resists blow-off (Beswick). Printed barbs are only as tight as their walls (Prusa Knowledge Base)
 - **load**: light: holds a tube against pulling and low pressure. Strong against pull (the tube grips tighter; ISM), weaker against pressure spikes that swell the tube (ISM; Qosina). Metal and moulded barbs are strong in bending; printed barbs are weakest where the barb joins a flange or body and can snap there if the tube is levered sideways (Printables 1765791).
 - **adjustable**: no: the grip is set by the barb size, the tube's hardness and the clamp; you can only tighten a screw clamp
@@ -437,7 +449,7 @@
 - **processes**: off-the-shelf part: brass, stainless and plastic barbs, tees, wyes, reducers and barb-to-thread adapters, 3D print (FDM): single-piece barbs and adapters, often printed standing up *(unverified parts omitted)*
 - **print_in_place**: yes: a barbed fitting is a single printed part with nothing to assemble; you just push the tube on (some multi-part designs, such as Printables 1436108, are printed in pieces and glued)
 - **making_tips_3d_printing**: 1) Orientation: most makers print barbs standing up, with the tube axis vertical, so each barb is a round ring of layers (Printables 1810917 printed this way in PLA and PA11 without supports; Printables 378315 printed a barb tee standing up with supports). Give the barbs a 45° slope on both sides so they print without supports (Printables 1765791 uses a '2x45° ridge profile'). 2) Leak-tight walls: use at least 3-4 perimeters, raise the nozzle temperature 5-10 °C and the extrusion multiplier 5-10%, keep layer height at no more than 60-65% of the nozzle size (Prusa Knowledge Base, Watertight prints); one drip-irrigation tee needed 6 perimeters to be water-tight under pressure (Printables 378315). Some designers print at 100% infill (Printables 1436108) or with walls thick enough to be solid. 3) Seam: set the seam to random, or scrape the seam smooth with a knife, because an aligned seam is a leak path along the barb (Printables 455268; Printables 1436108). 4) Material: PETG for water and outdoors; PLA only for dry indoor use (Printables 1829891); PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen), so avoid printed barbs on hot water or engine coolant. 5) Strength: add a fillet or internal reinforcement where the barb joins a flange or body, the usual snapping point (Printables 1765791). 6) Sizing: measure the tube's inside diameter and make the barb a little larger; commercial barbs range from about 10% to 100% larger than the nominal tube ID depending on style (Qosina); parametric generators let you set the barb lip, count and length (Printables 1829891, 1767584; Printables 69154). 7) Hold: leave room behind the barb for a clamp or cable tie (Printables 1436108). 8) Don't use printed barbs for high pressure or fuel (Printables 1436108).
-- **off_the_shelf_parts**: Search for: 'hose barb', 'barbed fitting', 'barb x NPT' or 'barb x BSP' adapters ('hose tail' in the UK), 'barb tee', 'barb wye', 'barbed reducer', 'hose mender' or 'hose splicer', 'single-barb fitting', 'Luer to barb' (medical and lab), 'aquarium airline connector' (3/16 in, about 5 mm tubing; FishLab), 'drip irrigation barbed fitting' (DripWorks). Retention: 'worm drive hose clamp' ('Jubilee Clip' (brand) in the UK), 'spring hose clamp', 'wire hose clamp', 'ear clamp' or 'stepless ear clamp' (Oetiker (brand)) (Wikipedia, Hose clamp; Qosina), 'cable tie'. Tubing: 'silicone tubing', 'PVC tubing', 'polyurethane tubing 85A'.
+- **off_the_shelf_parts**: Search for: 'hose barb', 'barbed fitting', 'barb x NPT' or 'barb x BSP' adapters ('hose tail' in the UK), 'barb tee', 'barb wye', 'barbed reducer', 'hose mender' or 'hose splicer', 'single-barb fitting', 'Luer to barb' (medical and lab), 'aquarium airline connector' (3/16 in, about 5 mm tubing; FishLab), 'drip irrigation barbed fitting' (DripWorks). Retention: 'worm drive hose clamp' ('Jubilee Clip' (brand) in the UK), 'spring hose clamp', 'wire hose clamp', 'ear clamp' or 'stepless ear clamp' (Oetiker (brand)) (Wikipedia, Hose clamp; Qosina), 'cable tie'. Tubing: 'silicone tubing', 'PVC tubing', 'polyurethane tubing 85A'. The Hose clamp entry covers how to choose and fit each clamp type; they are listed here only as the retention summary. PEX plumbing: 'PEX crimp fitting' with copper 'crimp rings' or stainless 'cinch rings' (clamp rings), a 'PEX crimp tool' or 'cinch tool', 'PEX plug', and a 'PEX expander tool' (Wikipedia 'Cross-linked polyethylene'; Wikipedia 'Piping and plumbing fitting'; Wikimedia Commons PEX tools photo).
 - **rules_of_thumb**: 
   - Barbed fittings are for low pressure: 'low-pressure (125 psi or lower) fluid, gas and air' (ISM, Barb Connectors in Depth); usually below 150 or 125 psi because the soft tubing is the limit (Beswick white paper).
   - Add a clamp when pressure approaches 80 to 100+ psi (depending on tube ID, wall and durometer); clamps also help with pressure pulses and heat (Beswick white paper). For drip irrigation, DripWorks advises stainless hose clamps above 20 psi.
@@ -467,7 +479,7 @@
   - Push-to-connect (push-in) fitting: a toothed collet grips the outside of stiffer tubing and an O-ring seals it; releases with a collar, so it is better for frequent reconnection (Clippard; Beswick)
   - Compression fitting: a nut squeezes a ferrule onto the outside of hard or metal tubing, for higher pressures (Beswick; Wikipedia, Hose clamp)
   - Quick-disconnect coupling: for many connect-disconnect cycles (Beswick)
-  - Hose clamp: not a fitting on its own, but the add-on that seals and holds a hose on a barb (Wikipedia, Hose clamp)
+  - Hose clamp: the band clamp (worm-drive, ear, spring or wire) that holds a hose on a barb; its own entry covers the clamp types and how to fit them, so this entry keeps only a short summary (Wikipedia, Hose clamp)
   - O-ring seal: seals a rigid spigot inside a bore instead of stretching a tube
   - Cable gland: the equivalent idea for sealing a cable (not a tube) through a wall
 
@@ -504,6 +516,9 @@
   - https://commons.wikimedia.org/wiki/File:PC_watercooling_T-Line-2009-12-03.jpg
   - https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://en.wikipedia.org/wiki/Cross-linked_polyethylene
+  - https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg
 
 ### Other info
 
@@ -512,6 +527,8 @@
 ## 134 Cable gland and strain relief
 
 *seals & pass-throughs.* A threaded fitting whose nut squeezes a rubber insert around a cable, sealing the hole and stopping the cable being pulled out
+
+*Also covers:* Also covers strain relief for electrical joints, rubber, membrane and desk grommets, cable lacing, and the underwriter's knot.
 
 ### What it is
 
@@ -560,7 +577,7 @@
   - sheet metal: punched or drilled clearance holes in metal boxes *(unverified parts omitted)*
 - **print_in_place**: no: a gland is printed as separate parts (body, clamping cage or insert, cap nut, and usually a TPU seal) and screwed together round the cable (Printables 114283; Printables 1389492)
 - **making_tips_3d_printing**: 1) Easiest route: print the enclosure with a plain clearance hole and fit a bought gland with its locknut and O-ring; the metric clearance hole is the thread size +0 to +0.2 mm, e.g. 20.0-20.2 mm for M20 (Lapp T21; IEC 62444 Table 1). 2) Printed thread instead of a locknut: M12x1.5 to M20x1.5 threads print, but warp-prone materials such as ABS can distort the small thread (Printables 1117046 recommends a brim and notes Polymaker ABS warped on the M12 thread). 3) Printing a whole gland: PETG or 'soft PLA' worked better than ABS for the flexing fingers; use 0.1-0.15 mm layers for small threads and 2-3 perimeters filling the thin walls (Printables 114283). Normal PLA is too stiff for the clamping fingers; use TPU for the seal and O-ring (Printables 1389492). 4) Don't over-tighten printed fingers: they can snap, and the gland then won't be reusable (Printables 114283). 5) Sizing a printed gland: in one design the wall hole is always the cable channel D + 5 mm and the thread length is the wall thickness + 6 mm (5 mm nut + 1 mm) (Printables 114283). 6) TPU strain-relief boot: 95A TPU, one perimeter, little infill, bore 1 mm smaller than the cable (Printables 1474155). 7) Printed gaskets between two printed surfaces didn't seal in Prusa's tests; O-rings with silicone grease were the reliable choice (Prusa blog, Watertight 3D printing part 2). 8) Hot-glue overmould: print a two-part mould in PETG (to survive hot glue), coat it with a release agent such as silicone or vegetable oil, and cast hot glue round the cable and connector for a moulded strain relief (Hackaday, 2020 and 2024). 9) Don't use printed glands where mains wiring or an inspected installation needs certified parts (Printables 1389492). *(unverified parts omitted)*
-- **off_the_shelf_parts**: Search for: 'cable gland M20x1.5' (and M12, M16, M25 ...), 'PG7 cable gland', 'nylon cable gland IP68', 'brass cable gland', 'cable gland locknut' (Lapp calls it a counter nut), 'cable gland O-ring' or 'sealing washer', 'reducing seal insert', 'multi-hole seal insert', 'split cable gland' (for cables with plugs), 'EMC cable gland', 'armoured cable gland', 'blanking plug', 'breather' or 'vent plug' (pressure equalisation; *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'cable gland M20x1.5' (and M12, M16, M25 ...), 'PG7 cable gland', 'nylon cable gland IP68', 'brass cable gland', 'cable gland locknut' (Lapp calls it a counter nut), 'cable gland O-ring' or 'sealing washer', 'reducing seal insert', 'multi-hole seal insert', 'split cable gland' (for cables with plugs), 'EMC cable gland', 'armoured cable gland', 'blanking plug', 'breather' or 'vent plug' (pressure equalisation; Grommets: 'rubber grommet' or 'insulating bushing' for round holes, 'grommet edging' or 'grommet strip' for long or odd cut-outs (Wikipedia 'Grommet'), 'membrane grommet' (closed, or cross-cut or slit) (A.R.T. Components catalogue), 'desk grommet' or 'cable grommet' for furniture (Wikipedia 'Cable grommet'); for looms, 'lacing tape' or 'lacing cord' (Wikipedia 'Cable lacing'). *(unverified parts omitted)*
 - **rules_of_thumb**: 
   - Choose the gland by the cable's outside diameter, which must fall inside the clamping range, e.g. Lapp SKINTOP ST-M: M12 3.5-7 mm, M16 4.5-10 mm, M20 7-13 mm, M25 8-17 mm, M32 11-21 mm; reducing-insert versions take thinner cable (Lapp SKINTOP ST-M catalogue page; MSR-M M20: 5-10 mm, Lapp MS-M data sheet).
   - Clearance holes for metric entry threads (EN 60423): M12 12.0, M16 16.0, M20 20.0, M25 25.0 mm, each +0.2 mm; M32 and M40 +0.3 mm (Lapp Technical Table T21; IEC 62444 Table 1). PG threads: PG7 12.8, PG9 15.5, PG11 18.9, PG13.5 20.7 mm (each -0.2 mm) (Lapp T21).
@@ -570,26 +587,34 @@
   - Strain relief placement: for PROFINET cables, strain relief is recommended about 1 m (3.5 ft) from the connection point (Wikipedia, Cable management).
   - Printed gland (Printables 114283): hole in the wall = cable channel D + 5 mm; thread length = wall thickness + 6 mm.
   - Printed TPU strain relief: bore about 1 mm smaller than the cable (Printables 1474155).
+  - Bend radius for finished cables and harnesses: a bundle of AWG 10 or thinner wires (no coax) should bend no tighter than 3 times its outside diameter, ideally 10 times; a single coaxial cable no tighter than 6 times, ideally 10 times; polyimide (Kapton) insulated wire 10 times, ideally 15 times (NASA-STD-8739.4A, Table 7-1, https://nepp.nasa.gov/files/27631/nstd87394a.pdf).
+  - Keep splices out of places where the cable flexes or bends tightly, and at least two harness diameters from where a branch leaves the bundle (NASA-STD-8739.4A, sections 7.2.36 and 7.2.37).
 
 ### When to use it
 
 - **everyday_examples**: 
   - The grey or black screw-cap fittings where cables enter outdoor junction boxes, lamps and solar boxes (Wikimedia Commons, category Cable glands)
   - PG7 glands on 3D printers, where the toolhead cable bundle enters the print head (Printables Voron models) *(unverified parts omitted)*
-- **when_to_use**: Use a cable gland whenever a cable enters a box that must stay sealed against dust and water (outdoor sensors, garden lights, pond pumps, boat electronics, printed enclosures) or where a tug on the cable must never pull on the wires or solder joints inside (robots, power tools, anything with a mains cord). It also neatly finishes the hole so sharp edges can't cut the cable. Pick a split gland when the cable already has a plug on it, and a multi-hole insert when several cables share one hole (Wikipedia; Lapp).
-- **when_not_to_use**: For a cable that moves constantly, a gland only fixes the end; add a cable carrier (drag chain) or bend relief for the moving part (Wikipedia, Cable management). For many pre-terminated cables through one cut-out, use a split cable-entry frame (Wikipedia). *(unverified parts omitted)*
+- **when_to_use**: Use a cable gland whenever a cable enters a box that must stay sealed against dust and water (outdoor sensors, garden lights, pond pumps, boat electronics, printed enclosures) or where a tug on the cable must never pull on the wires or solder joints inside (robots, power tools, anything with a mains cord). It also neatly finishes the hole so sharp edges can't cut the cable. Pick a split gland when the cable already has a plug on it, and a multi-hole insert when several cables share one hole (Wikipedia; Lapp). Every electrical joint needs strain relief, not only the place where a cable enters a box. NASA's wiring workmanship standard requires that 'wires exiting from connectors shall be stress relieved' (given a formed length of slack, so the terminations aren't strained), that stress relief is provided where harness wires enter connectors ('connector backshells, encapsulation, and stress relief boots'), and that splices 'shall not be located in areas of the cable where flexing may occur' (NASA-STD-8739.4A, sections 7.2.20, 7.2.28 and 7.2.36). So clamp or tie the cable close to every soldered, crimped or screwed joint, so that pulls and bending stop at the clamp instead of at the joint. Inside the box, support the wires too ('to minimize shock and vibration induced stress', section 7.2.29): a neat way is cable lacing, which binds a bundle (loom) with waxed cord or flat lacing tape in running lockstitches plus single spot ties and 'does not create obstructions along the length of the cable' as cable ties do (Wikipedia 'Cable lacing'; NASA-STD-8739.4A chapter 9). An older, tool-free strain relief is the underwriter's knot (electrician's knot, ABOK #237), tied in the two inner wires of a lamp or appliance cord just inside the lamp holder or plug, so that 'strain on the line is taken by the knot and does not affect the connections' (Animated Knots; Wikipedia 'Underwriter's knot'); this entry gives no mains wiring steps.
+- **when_not_to_use**: For a cable that moves constantly, a gland only fixes the end; add a cable carrier (drag chain) or bend relief for the moving part (Wikipedia, Cable management). For many pre-terminated cables through one cut-out, use a split cable-entry frame (Wikipedia). A plain rubber grommet (cable grommet; in electrical work an 'insulating bushing') is enough if you only need to protect the cable from the sharp edge of a punched or drilled hole: the commonest are moulded rubber bushings for holes up to about 51 mm (2 in), long or odd-shaped cut-outs get continuous 'grommet edging' instead, and tight rubber grommets also keep out some dirt, air and water (Wikipedia 'Grommet'). A membrane grommet has its hole closed by a thin skin that the cable is pushed through; the torn skin grips the cable and, in one patented design, 'forms a weatherproof seal' (the cable end is first dipped in water as a lubricant, US4460805A); suppliers sell closed membranes and pre-cut cross-cut or slit ones (A.R.T. Components catalogue). In furniture, a two-piece desk grommet (a liner in the hole and a cap with an often adjustable opening, which can be closed off by turning one piece 90°) tidies cables through a desk top (Wikipedia 'Cable grommet'). *(unverified parts omitted)*
 - **environment_limits**: Nylon glands: Lapp SKINTOP ST-M is rated -40 to +100 °C when fixed and -20 to +100 °C when the cable moves; Hummel HSK-K -40 to +100 °C; brass Lapp MS-M -40 to +100 °C static and -25 to +100 °C dynamic (manufacturers' data). Choose black glands for sunlight: Lapp marks the black version of its ST-M as UV-resistant. IEC 62444 tests plastic glands after 168 h in an oven at 70 °C (IEC 62444 preview), and IP69 versions withstand hot high-pressure cleaning (Lapp). Printed glands: PLA gives at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen). *(unverified parts omitted)*
-- **safety_notes**: For mains voltage use certified glands and follow wiring rules; a printed gland isn't a certified electrical component and has no fire rating (Printables 1389492). Over-tightening can crush and damage cable insulation (Lapp T21). Metal glands on armoured or shielded cable may be part of the earthing (grounding) path (Wikipedia). *(unverified parts omitted)*
+- **safety_notes**: For mains voltage use certified glands and follow wiring rules; a printed gland isn't a certified electrical component and has no fire rating (Printables 1389492). Over-tightening can crush and damage cable insulation (Lapp T21). Metal glands on armoured or shielded cable may be part of the earthing (grounding) path (Wikipedia). Mains work must follow local law (in England, Approved Document P requires 'reasonable provision' in the design and installation of electrical installations 'to protect persons operating, maintaining or altering the installations from fire or injury'); this entry gives no mains wiring steps. *(unverified parts omitted)*
 - **common_failures**: Leaks because the cable is too thin for the gland (the seal can't close), the cable isn't round, or the O-ring or seal under the body is missing; choose a gland whose clamping range includes the cable (Lapp). Crushed insulation or split seals from over-tightening; follow the torque table (Lapp T21). Printed glands: fingers snap when clamped too far (Printables 114283), small threads warp in ABS (Printables 1117046), and printed gaskets don't seal (Prusa blog). Cable breaks just outside the gland where it bends repeatedly: add a bend relief (Wikimedia Commons, glands with bend protection) or clamp the cable further along. *(unverified parts omitted)*
 - **related**: 
-  - Rubber grommet: lines a hole to protect the cable but doesn't grip or fully seal it
+  - Rubber grommet (cable grommet, insulating bushing): lines a hole to protect the cable from the sharp edge but doesn't anchor it; membrane grommets also grip and seal (Wikipedia 'Grommet'; US4460805A)
   - Strain-relief bushing (snap-in cordgrip): a one-piece plastic bush squeezed onto a cord and snapped into a panel hole; cheaper, often not sealed (Heyco)
   - Wire mesh cord grip: a woven wire sleeve that tightens as the cable is pulled (Wikipedia, Cable management)
   - Cable tie on a strain-relief plate or tie mount: cheap strain relief with no sealing (Wikipedia, Cable management)
   - Overmoulded boot or bend relief: moulded rubber or hot glue round the cable where it leaves a plug (Hackaday)
   - Cable carrier (drag chain): guides a moving cable along an axis; glands or strain-relief plates fix its ends (Wikipedia, Cable management)
   - Hose barb: the equivalent for joining a soft tube to a fitting
-  - O-ring seal and gasket: seal the lid or the gland body to the box *(unverified parts omitted)*
+  - O-ring seal and gasket: seal the lid or the gland body to the box
+  - Push-on edge trim: grommet edging, a continuous rubber or plastic strip that lines long or odd-shaped cut-outs where a round grommet won't fit (Wikipedia 'Grommet')
+  - Heat-shrink tubing: covers and protects a joint; NASA also uses it to build up a thin wire so a connector's sealing grommet grips it (NASA-STD-8739.4A)
+  - Soldered wire joint: a joint that needs strain relief close by; keep it out of places where the cable flexes (NASA-STD-8739.4A section 7.2.36)
+  - Crimp terminals: many have an insulation crimp (integral strain relief) that grips the wire's insulation as well as its conductor (NASA-STD-8739.4A)
+  - Binding knots and seizings: includes cable lacing, which ties a wire bundle into a neat loom with lacing cord or tape (Wikipedia 'Cable lacing')
+  - Stopper knots and cord-end anchors: the underwriter's knot (ABOK #237) is a stopper knot that takes the pull off the terminals inside a lamp holder or plug (Wikipedia 'Underwriter's knot') *(unverified parts omitted)*
 
 ### Pictures, videos and models
 
@@ -627,6 +652,15 @@
   - https://commons.wikimedia.org/wiki/File:KVT_Teilbare_Kabelverschraubung.jpg
   - https://www.youtube.com/watch?v=v4E1c1ere5U
   - https://api.printables.com/graphql/
+  - https://nepp.nasa.gov/files/27631/nstd87394a.pdf
+  - https://en.wikipedia.org/wiki/Grommet
+  - https://en.wikipedia.org/wiki/Cable_grommet
+  - https://patents.google.com/patent/US4460805 (read via WebFetch: Google Patents blocked direct download)
+  - https://www.artcomponents.com/en/cable-fastening-protection/membrane-grommets/closed-membrane-grommets/22169/dt-m-13520/2420t-rubber-membrane-grommet-with-closed-membrane-tpe-black
+  - https://www.animatedknots.com/underwriters-knot
+  - https://en.wikipedia.org/wiki/Underwriter%27s_knot
+  - https://en.wikipedia.org/wiki/Cable_lacing
+  - https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
 
 ### Other info
 
@@ -635,6 +669,8 @@
 ## 135 Slip ring and rotary union
 
 *seals & pass-throughs.* A joint with sliding contacts (or seals) that carries power, signals or fluid across something that keeps turning, so cables never wind up, as in robot turrets
+
+*Also covers:* Also covers the clockspring (spiral flat cable) as a limited-rotation alternative.
 
 ### What it is
 
@@ -705,12 +741,12 @@
   - A car's steering-wheel clock spring, a spiral flat cable that does the same job for a limited number of turns (Wikipedia, Clockspring)
   - The swivel 'untangler' on a telephone handset cord (Wikimedia Commons)
 - **when_to_use**: Use a slip ring when something must keep turning the same way while powered or sending signals: robot turrets and spinning lidar heads, camera motion-control rigs, motorised turntables with lights, spinning clocks and displays, cable reels that stay connected while unwinding (Hackaday; Adafruit; Printables 950300). Use a rotary union when a liquid, air or vacuum has to reach a turning part: car-wash brushes and spinners, coolant or air through a machine-tool spindle, rotary index tables and chucks, swivelling hose connectors (Wikipedia, Rotary union; GTI Spindle; Printables 386782). They avoid the weight, bulk and fatigue of cable loops (TME Systems).
-- **when_not_to_use**: If the part only turns part of a revolution, or a few turns back and forth, use a cable loop, clock-spring (spiral) cable or a bidirectional cable chain; they are cheaper and have no sliding contacts to wear or add noise (Chief Delphi; Wikipedia, Clockspring). For very high speed or fast data, use a contactless (inductive) coupler or a fibre optic rotary joint (Wikipedia, Rotary transformer; Moog). Don't feed high motor currents through tiny capsule rings (2 A per ring; Adafruit). *(unverified parts omitted)*
+- **when_not_to_use**: If the part only turns part of a revolution, or a few turns back and forth, use a cable loop, clock-spring (spiral) cable or a bidirectional cable chain; they are cheaper and have no sliding contacts to wear or add noise (Chief Delphi; Wikipedia, Clockspring). For very high speed or fast data, use a contactless (inductive) coupler or a fibre optic rotary joint (Wikipedia, Rotary transformer; Moog). Don't feed high motor currents through tiny capsule rings (2 A per ring; Adafruit). A clockspring is 'a flat multicore cable wound in a spiral shape' inside a drum, which winds and unwinds as the part turns, as behind a car's steering wheel (Wikipedia 'Clockspring'); a car's clockspring typically gives about five full turns from one end stop to the other and must be fitted at the middle of its travel, or the ribbon stretches and breaks at full lock (YouCanic). *(unverified parts omitted)*
 - **environment_limits**: Hobby capsule slip rings: -20 to +80 °C, 0-300 rpm (SRC012/SRC022 data sheets); running faster shortens life and adds noise (Adafruit). Dust wears brush contacts and industrial units need IP65/IP67 sealing in dusty or wet places (TME Systems). Mercury-wetted rings freeze at about -40 °C (Wikipedia). Rotary union life falls with speed, pressure, heat, dirty fluid and pressure pulses (GTI Spindle); O-ring rotary seals are not usually used below -40 °C or above 121 °C (Canyon Components). Printed parts: PLA gives at about 60 °C and PETG at about 80 °C (CNC Kitchen); friction in rotary seals generates heat (Canyon Components).
 - **safety_notes**: Mercury-wetted slip rings contain toxic mercury (Wikipedia). Pressurised rotary unions can leak or spray the working fluid (GTI Spindle). *(unverified parts omitted)*
 - **common_failures**: Brush and ring wear causing electrical noise, flickering or data errors, especially with dust or at high speed (TME Systems; Wikipedia, Rotary transformer: slip rings suffer friction, wear and intermittent contact). DIY contacts losing touch under vibration (Printables 103824) or rubbing with high friction (Hackaday, double pendulum). Lead wires fatiguing when the slip ring is mounted off-axis (Chief Delphi). A slip ring used as the axle and bent by side loads (Hackaday comments). Rotary unions: worn seals from dirty fluid, side-loaded hoses, running dry or overspeed, then leaks (GTI Spindle). *(unverified parts omitted)*
 - **related**: 
-  - Cable loop (service loop) or clock-spring spiral cable: cheaper, no sliding contacts, but only for a limited number of turns (Chief Delphi; Wikipedia, Clockspring)
+  - Cable through a hinge: a service loop, a cable along the pivot axis, or a clockspring (spiral flat cable) for joints that turn less than a full turn or only a few turns; cheaper, with no sliding contacts (Chief Delphi; Wikipedia, Clockspring)
   - Bidirectional (twisting) cable chain: guides cables round a turret for limited rotation (Printables 919579; Chief Delphi)
   - Rotary transformer (contactless slip ring): passes power and data through coils without wear, but less power (Wikipedia)
   - Fibre optic rotary joint: passes light signals for very fast data (Moog)
@@ -718,6 +754,7 @@
   - Turntable bearing (lazy Susan, slewing ring): carries the turning platform's load; its large centre hole is where a through-bore slip ring or rotary union often sits
   - Cable gland: seals a cable where it passes through a fixed wall, rather than a turning joint
   - Detangler: the mechanical (cable-pull) equivalent for BMX brake cables (Wikipedia)
+  - Flat flexible cable and latching connector: thin flat cable made for places where wiring flexes again and again; a clockspring is a flat multicore cable wound into a spiral (Wikipedia, Flexible flat cable; Clockspring)
 
 ### Pictures, videos and models
 
@@ -767,6 +804,8 @@
   - https://commons.wikimedia.org/wiki/File:Untangler.jpg
   - https://www.youtube.com/watch?v=XTPcSdeAd2Q
   - https://api.printables.com/graphql/
+  - https://www.youcanic.com/properly-set-a-new-clock-spring/
+  - https://en.wikipedia.org/wiki/Flexible_flat_cable
 
 ### Other info
 
@@ -904,6 +943,8 @@
 
 *seals & pass-throughs.* A nut that squeezes a ring (ferrule or olive) onto a tube to grip and seal it, undone and remade with spanners
 
+*Also covers:* Also covers sink-trap slip joints, press (crimp) fittings, and the rules that compression joints must stay reachable and aren't for brake-pipe repairs.
+
 ### What it is
 
 - **plain_name**: A nut on a pipe that you tighten with spanners; as it screws down it squashes a small ring (the olive) round the pipe, so the joint grips the pipe and doesn't leak, and you can undo it again later
@@ -918,11 +959,12 @@
   - Klemmringverschraubung, Schneidringverschraubung (German; Wikimedia Commons categories), knelkoppeling (Dutch; Wikimedia Commons file name)
   - Swagelok-type fitting (Swagelok is a brand); Ermeto (brand, the original cutting ring fitting; Wikipedia, Cutting ring fitting)
   - 'compression fitting' is also what PC water-cooling builders call a barb with a screw-down collar (soft tube) or an O-ring fitting (hard tube); these work differently (TitanRig)
+  - lock-bush fitting (Wikipedia 'Piping and plumbing fitting')
 - **family**: seals & pass-throughs
 - **other_families**: clamping, magnetic & friction connections, hydraulics, pneumatics & vacuum
 - **one_liner**: A threaded nut that, when tightened, drives a ring (ferrule or olive) into a tapered seat in the fitting body, squeezing the ring onto the outside of a tube so it both seals and grips the tube, for water, air, gas, oil and hydraulic lines that you may need to take apart later.
 - **complexity**: A few parts: the fitting body (with a thread, a tapered seat and a stop, or shoulder, for the tube), a compression nut, and one or two rings (ferrules or olives); for soft plastic pipe also a stiffening insert pushed into the pipe end (Beswick; Kalsi Plastics; Wikipedia, Compression fitting).
-- **how_it_works**: You slide the nut and then the ring onto the tube and push the tube into the body until it hits the stop. Tightening the nut pushes the ring into the cone-shaped seat inside the body, and the cone squeezes the ring inwards onto the tube, which makes the seal (Beswick). The ring seals against both the tube and the body's seat, so fluid never reaches the threads and no thread sealant is needed; the squeeze also grips (and slightly deforms) the tube so it can't pull out (Wikipedia, Compression fitting). Hydraulic 'cutting ring' versions have sharp edges that cut into the tube's surface for more hold at high pressure (Wikipedia, Cutting ring fitting).
+- **how_it_works**: You slide the nut and then the ring onto the tube and push the tube into the body until it hits the stop. Tightening the nut pushes the ring into the cone-shaped seat inside the body, and the cone squeezes the ring inwards onto the tube, which makes the seal (Beswick). The ring seals against both the tube and the body's seat, so fluid never reaches the threads and no thread sealant is needed; the squeeze also grips (and slightly deforms) the tube so it can't pull out (Wikipedia, Compression fitting). Hydraulic 'cutting ring' versions have sharp edges that cut into the tube's surface for more hold at high pressure (Wikipedia, Cutting ring fitting). Two relatives use the same squeeze-a-ring idea. The slip-joint fitting on sink and bath waste traps has a loose slip nut and a rubber or nylon slip-joint washer; the pipe doesn't need to be cut to an exact length, and many can be done up or undone by hand to clear a trap. Press (crimp) fittings come with an O-ring or sealant already inside and are squeezed permanently onto the pipe by a powered press tool; the joint can even be made on wet pipe (Wikipedia 'Piping and plumbing fitting').
 
 ### Finder attributes
 
@@ -972,19 +1014,21 @@
   - Copper pipe joins made with a nut and olive in home plumbing (DIYdata; Brassland)
   - Brass or plastic fittings on blue MDPE water pipe to garden taps and outbuildings (Kalsi Plastics)
   - Compression fittings holding PTFE tube on some 3D-printer extruders instead of push-fit couplers (Prusa forum; Printables 890869)
-- **when_to_use**: Use a compression fitting to join rigid or semi-rigid tube (copper, steel, stainless, hard plastic, or plastic pipe with an insert) when the joint must hold pressure, seal gas or liquid, and still come apart for maintenance, or where you can't use a flame to solder (Wikipedia, Compression fitting). For makers: water and air lines on projects, compressed-air tools, hydroponics, lab rigs, coffee-machine or cooling projects, and gripping a PTFE Bowden tube firmly where push-fit collets let it wear or slip (Prusa forum; Printables 890869).
-- **when_not_to_use**: Don't use it on soft, stretchy tubing such as silicone or soft PVC: use a hose barb with a clamp, or a push-to-connect fitting for semi-rigid tube (Beswick). Avoid it where the pipe will be flexed, bent or shaken, e.g. by water hammer: a soldered joint copes better (Wikipedia, Compression fitting). If you connect and disconnect often, use a quick coupler. *(unverified parts omitted)*
+- **when_to_use**: Use a compression fitting to join rigid or semi-rigid tube (copper, steel, stainless, hard plastic, or plastic pipe with an insert) when the joint must hold pressure, seal gas or liquid, and still come apart for maintenance, or where you can't use a flame to solder (Wikipedia, Compression fitting). For makers: water and air lines on projects, compressed-air tools, hydroponics, lab rigs, coffee-machine or cooling projects, and gripping a PTFE Bowden tube firmly where push-fit collets let it wear or slip (Prusa forum; Printables 890869). Use a slip-joint fitting (hand-tight nut and washer) on waste traps that you may need to take off to clean, and press fittings where you want a fast, permanent joint and have the press tool (Wikipedia 'Piping and plumbing fitting').
+- **when_not_to_use**: Don't use it on soft, stretchy tubing such as silicone or soft PVC: use a hose barb with a clamp, or a push-to-connect fitting for semi-rigid tube (Beswick). Avoid it where the pipe will be flexed, bent or shaken, e.g. by water hammer: a soldered joint copes better (Wikipedia, Compression fitting). If you connect and disconnect often, use a quick coupler. Keep compression joints where you can reach them: because they sometimes need re-tightening to stop slow leaks, they are generally restricted to accessible places such as under a sink and 'prohibited in concealed locations such as the interiors of walls' (Wikipedia 'Piping and plumbing fitting'). Never repair car brake pipes with them: the UK MOT inspection manual says 'compression joints of a type using separate ferrules are not suitable' (DVSA MOT inspection manual 1.1.11); see the Flare fitting entry. *(unverified parts omitted)*
 - **environment_limits**: Metal fittings handle heat and cold well, but the tube and ring material set the limits. Vibration and flexing can loosen or fatigue the joint (Wikipedia, Compression fitting). Plastic pipe and printed parts can creep: a PLA printed nut may need re-tightening every few prints (Printables 890869), and PLA softens at about 60 °C and PETG at about 80 °C (CNC Kitchen). Mixing parts from different makers can cause leaks (Swagelok MS-12-01).
-- **safety_notes**: Always release the pressure before undoing a fitting (Swagelok MS-12-01): a fitting undone under pressure can spray fluid or blow apart. Pressurised gas and hydraulic lines can store a lot of energy; don't use printed fittings for gas, fuel or high pressure unless tested. Mind cuts from sharp tube ends and burrs. *(unverified parts omitted)*
-- **common_failures**: Leaks from over-tightening, which deforms the ferrule into surface contact (Beswick; Wikipedia, Compression fitting); leaks from under-tightening (Swagelok gap gauge). Tube not pushed fully in, cut out of square, not deburred, or scratched where the olive sits (Brassland; Swagelok). Ring fitted backwards or missing, or parts from different makers mixed (Wikipedia; Swagelok). Soft or plastic pipe without an insert collapses and leaks (Beswick; Kalsi Plastics). A reused olive fails to reseal; fit a new one on fresh pipe if in doubt (Brassland; Wikipedia, Compression fitting). Joint loosens under vibration or bending (Wikipedia, Compression fitting). Advice on reuse conflicts: instrument fittings are designed to be remade many times, plumbing olives often not.
+- **safety_notes**: Always release the pressure before undoing a fitting (Swagelok MS-12-01): a fitting undone under pressure can spray fluid or blow apart. Pressurised gas and hydraulic lines can store a lot of energy; don't use printed fittings for gas, fuel or high pressure unless tested. Mind cuts from sharp tube ends and burrs. Brake pipes are safety-critical: in the UK, brake pipe repairs need suitable connectors, and 'compression joints of a type using separate ferrules are not suitable' (DVSA MOT inspection manual 1.1.11). *(unverified parts omitted)*
+- **common_failures**: Leaks from over-tightening, which deforms the ferrule into surface contact (Beswick; Wikipedia, Compression fitting); leaks from under-tightening (Swagelok gap gauge). Tube not pushed fully in, cut out of square, not deburred, or scratched where the olive sits (Brassland; Swagelok). Ring fitted backwards or missing, or parts from different makers mixed (Wikipedia; Swagelok). Soft or plastic pipe without an insert collapses and leaks (Beswick; Kalsi Plastics). A reused olive fails to reseal; fit a new one on fresh pipe if in doubt (Brassland; Wikipedia, Compression fitting). Joint loosens under vibration or bending (Wikipedia, Compression fitting). Advice on reuse conflicts: instrument fittings are designed to be remade many times, plumbing olives often not. Slow leaks can develop over time and need the nut re-tightening, which is why compression joints are kept where they can be reached (Wikipedia 'Piping and plumbing fitting').
 - **related**: 
   - Hose barb: soft tubing stretched over a ridged spigot, for low pressure; cheaper but not for hard tube (Beswick)
   - Push-to-connect (push-fit) coupler: grips the tube with a toothed collet and seals with an O-ring; faster to connect and release, but lower grip on PTFE and can wear it (Prusa forum)
-  - Flare fitting: the tube end is flared with a tool and clamped by a nut, with no separate ring; used for gas, brake and refrigeration lines (Wikipedia, Flare fitting)
+  - Flare fitting: the tube end is flared with a tool and clamped by a nut, with no separate ring; used for gas, brake and refrigeration lines, and the joint to use for brake pipe repairs, where ferrule-type compression joints are not allowed (Wikipedia, Flare fitting; DVSA)
   - Cutting ring (bite-type) fitting: a hydraulic compression fitting whose ring cuts into the tube (Wikipedia, Cutting ring fitting)
   - Cable gland: the same nut-squeezes-a-seal idea, but the seal is a rubber insert round a cable
-  - Soldered (sweat) joint: permanent and more tolerant of vibration, but needs a flame (Wikipedia, Compression fitting)
+  - Soldered metal joint: a soldered (sweat) copper pipe joint is permanent and more tolerant of vibration, but needs a flame (Wikipedia, Compression fitting)
   - PC water-cooling 'compression fittings': a barb with a threaded collar (soft tube) or an O-ring collar (hard tube), not a ferrule (TitanRig)
+  - Tapered pipe thread: a threaded pipe joint (NPT or BSPT) in which the wedging thread, sealed with PTFE tape or pipe dope, makes the seal; in a compression fitting the thread only pulls the nut on and the ring seals
+  - Parallel pipe thread with a sealing washer: a straight thread that squeezes a washer, bonded seal or O-ring against a flat face; another pipe joint that can be undone and remade, common on taps and hoses
 
 ### Pictures, videos and models
 
@@ -1022,6 +1066,8 @@
   - https://commons.wikimedia.org/wiki/File:Fitok_Tube_Fittings.jpg
   - https://commons.wikimedia.org/wiki/File:Compression_fitting_isolating_valve_15mm_screwdriver_turn.jpg
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+  - https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes
 
 ### Other info
 
@@ -1320,6 +1366,8 @@
 
 *seals & pass-throughs.* A loop of cable carried round at exactly half the speed of a spinning part, so power or signals can pass to it through endless turns without a slip ring and without the cable twisting
 
+*Also covers:* Also covers the clockspring (spiral flat cable) as the limited-rotation alternative.
+
 ### What it is
 
 - **plain_name**: A cable that loops up, over and down onto a spinning turntable, while an arm carries the loop round at exactly half the turntable's speed, so the turntable can spin for ever without the cable winding up or twisting, and without any sliding contacts
@@ -1386,19 +1434,20 @@
   - Dirac's belt trick: turn a belt buckle round twice and the belt can be untwisted without turning it back (Wikipedia, Plate trick)
   - The plate trick and the Balinese candle dance, where a hand holding a plate or candle turns twice and the arm ends up untwisted (Wikipedia, Plate trick)
 - **when_to_use**: Use an anti-twister when a part must keep spinning the same way and you want a continuous cable or tube to it, with no sliding contacts and no rotating seals: low-noise power or signals for small electronics (Wikipedia: brushes introduce 'unacceptable levels of noise'), sealed or sterile liquid paths (blood processing; US9545637), equipment working under high g in a centrifuge that needs electrical measurements (US3586413), or a striking science demonstration or kinetic sculpture (Printables 1128267; Holroyd). It also suits links that can't easily go through a slip ring, such as a tube carrying liquid alongside wires (US3586413 lists hydraulic, pneumatic and optical uses).
-- **when_not_to_use**: If the part only turns part of a revolution or a few turns back and forth, a simple service loop, a clock-spring spiral cable or a rotary cable carrier is simpler (see Slip ring and rotary union; igus Twisterband turns through 3,000 degrees). If you need to reach or see the spinning part from a fixed side at all times, the swinging loop gets in the way (Holroyd 2022); use a slip ring, rotary union or a wireless link instead. Holroyd notes that 'the practical applications of such anti-twist mechanisms seem limited'. For low-cost, low-current hobby projects a bought capsule slip ring is smaller and easier. Very high speeds heat and fatigue the flexing cable (US4439178).
+- **when_not_to_use**: If the part only turns part of a revolution or a few turns back and forth, a simple service loop, a clock-spring spiral cable or a rotary cable carrier is simpler (see Cable through a hinge and Slip ring and rotary union; igus Twisterband turns through 3,000 degrees). If you need to reach or see the spinning part from a fixed side at all times, the swinging loop gets in the way (Holroyd 2022); use a slip ring, rotary union or a wireless link instead. Holroyd notes that 'the practical applications of such anti-twist mechanisms seem limited'. For low-cost, low-current hobby projects a bought capsule slip ring is smaller and easier. Very high speeds heat and fatigue the flexing cable (US4439178). A clockspring is 'a flat multicore cable wound in a spiral shape' inside a drum, which winds and unwinds as the part turns, as behind a car's steering wheel (Wikipedia 'Clockspring'); a car's clockspring typically gives about five full turns from one end stop to the other and must be fitted at the middle of its travel, or the ribbon stretches and breaks at full lock (YouCanic).
 - **environment_limits**: The cable fatigues from constant bending and may 'corkscrew' and break its conductors (igus, Basics of Cable Carriers). A flexing tube heats up from flexure friction (US4439178), and bearing surfaces on the tube heat up from friction too (US9545637). Printed PLA parts start to give at about 60 degrees C and PETG at about 80 degrees C (CNC Kitchen). *(unverified parts omitted)*
 - **safety_notes**: In fluid systems, wear where the tube runs in its bearing can cut into the tube and cause 'leakage of the fluid through the umbilicus' (US9545637). *(unverified parts omitted)*
 - **common_failures**: 2) Cable fatigue: conductors break from repeated bending and corkscrewing; use flexible, carrier-rated cable, a large bend radius and strain relief at both ends (igus, Basics of Cable Carriers). 3) Heating and wear of the flexing tube where it runs in its support bearing, leading to leaks (US4439178; US9545637). 4) The loop hitting the rotor, frame or nearby objects as it sweeps round (Holroyd). 5) Printed demo: print-in-place gears fused together until broken loose, and PLA snap fits cracking (Printables 1128267). *(unverified parts omitted)*
 - **related**: 
   - Slip ring and rotary union: also allow endless rotation, but through sliding brushes or rotating seals, which wear and add electrical noise or leak (Wikipedia, Anti-twister mechanism; Slip ring)
-  - Clock-spring (spiral) cable and service loop: no moving contacts, but only a limited number of turns
+  - Cable through a hinge: a service loop or a clockspring (spiral flat cable) also needs no moving contacts, but allows only part of a turn or a few turns (a car's clockspring about five from end to end, YouCanic)
   - Cable carrier (drag chain), including rotary carriers such as igus Twisterband (brand): guide cables through a limited rotation (up to 3,000 degrees) rather than endless turns (igus, Basics of Cable Carriers)
   - Multi-turn rotation limiter: stops a shaft after a set number of turns, so a plain cable loop isn't over-twisted
   - Planetary gear set: the usual way to get the exact 2:1 carrier speed (Printables 1128267)
   - Spinor linkage: a chain of hinged links driven by an internal shaft that does the same job without a separate flexible cable (Holroyd 2022)
   - Flexible drive shaft: a rotating cable that carries turning motion, rather than a cable that must not twist
   - Gimbal: lets a part point in any direction with nested rings, not continuous spin with a cable
+  - Flat flexible cable and latching connector: thin flat cable made for repeated flexing; wound into a spiral drum it becomes a clockspring (Wikipedia 'Clockspring')
 
 ### Pictures, videos and models
 
@@ -1430,6 +1479,8 @@
   - https://www.youtube.com/watch?v=ulrcyZpA0rE
   - https://api.printables.com/graphql/
   - https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
+  - https://en.wikipedia.org/wiki/Clockspring
+  - https://www.youcanic.com/properly-set-a-new-clock-spring/
 
 ### Other info
 

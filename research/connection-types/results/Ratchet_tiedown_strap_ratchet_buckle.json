@@ -96,8 +96,9 @@
       "Ratcheting reel closure (dial lacing system): a small ratchet that winds a lace onto a spool, released by hand",
       "Linear ratchet (cable-tie ratchet): a toothed strip that tightens one way, usually permanent",
       "Turnbuckle: tightens a rod or cable with a screw; slower but compact and permanent",
-      "Trucker's hitch: a rope knot giving a pulley-like pull to tension a rope without hardware (Wikipedia 'Web lashing assembly' see-also)",
-      "Bungee cord: elastic tie-down with little force and a snap-back hazard (Wikipedia 'Bungee cord')"
+      "Tensioning and adjustable hitches: the trucker's hitch, a rope knot giving a pulley-like pull to tension a rope without hardware (Wikipedia 'Web lashing assembly' see-also)",
+      "Bungee cord: elastic tie-down with little force and a snap-back hazard (Wikipedia 'Bungee cord')",
+      "Wire-rope terminations: wire-rope clips, thimbles and crimped sleeves, for tie-downs and lashings made of steel cable instead of webbing"
     ]
   },
   "media": {
@@ -135,26 +136,26 @@
     ],
     "make_it_yourself": [
       {
-        "url": "https://www.printables.com/model/1756442-strap-ratchet-no-supports-snaps-together-mountable (URL from Printables API, page not opened)",
-        "title": "Strap Ratchet no supports snaps together mountable (neotoy, Printables)",
+        "url": "https://www.printables.com/model/1756442-strap-ratchet-no-supports-snaps-together-mountable",
+        "title": "Strap Ratchet no supports snaps together mountable (neotoy, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Printable snap-together strap ratchet with a spool and locking key; about 2 hours and 70 g of filament",
         "license": "Open Community License v1"
       },
       {
-        "url": "https://www.printables.com/model/1306457-paracord-tensionerratchet (URL from Printables API, page not opened)",
-        "title": "Paracord Tensioner/Ratchet (Mountainstorm, Printables)",
+        "url": "https://www.printables.com/model/1306457-paracord-tensionerratchet",
+        "title": "Paracord Tensioner/Ratchet (Mountainstorm, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Enclosed ratchet tensioner for paracord with a latch-open release; needs M3 bolts and a small rubber band as the pawl spring",
         "license": "Public domain (CC0)"
       },
       {
-        "url": "https://www.printables.com/model/723778-ratchet-wire-tensioner-hex (URL from Printables API, page not opened)",
-        "title": "Ratchet wire tensioner Hex (Vivishka, Printables)",
+        "url": "https://www.printables.com/model/723778-ratchet-wire-tensioner-hex",
+        "title": "Ratchet wire tensioner Hex (Vivishka, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Tiny ratchet spool tensioner for Kevlar string, fishing line or fine wire, turned with a 1/4 in hex socket; lifts about 5 kg",
         "license": "CC BY-SA"
       },
       {
-        "url": "https://www.printables.com/model/121221-strap-tensioner-load-optimized (URL from Printables API, page not opened)",
-        "title": "Strap tensioner - load optimized (HD_Creator, Printables)",
+        "url": "https://www.printables.com/model/121221-strap-tensioner-load-optimized",
+        "title": "Strap tensioner - load optimized (HD_Creator, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Printable 25 mm and 20 mm friction strap tensioner (not a ratchet), load-tested to 120 kg in PLA and PETG; useful to compare with a ratchet",
         "license": "Public domain (CC0)"
       }

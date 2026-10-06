@@ -6,6 +6,8 @@
 
 *clamping, magnetic & friction connections.* Pairs of magnets, or a magnet and a steel plate, set into parts so they snap together, align themselves and pull apart by hand
 
+*Also covers:* Also covers programmable (coded) magnet arrays that only mate with a matching pattern.
+
 ### What it is
 
 - **plain_name**: Small, strong magnets hidden in two parts (or a magnet facing a bit of steel) so the parts snap together with a click, line themselves up, and pull apart by hand
@@ -17,12 +19,13 @@
   - magnetic closure or magnetic clasp (boxes, bags, cases)
   - magnet and strike plate (magnet and steel counter plate)
   - neodymium (rare-earth) magnet joint
-  - magnetic breakaway connector, e.g. MagSafe (Apple, brand)
+  - magnetic breakaway connector, e.g. MagSafe (Apple, brand); magnetic plugs that also carry current through contacts have their own entry, Magnetic connector
+  - programmable, correlated or coded magnets (patterns of magnets with alternating poles that only mate with a matching pattern); Polymagnets (brand, trademark of Correlated Magnetics Research) (Wikipedia 'Programmable magnet')
 - **family**: clamping, magnetic & friction connections
 - **other_families**: quick-release & tool-free, locks, latches & catches, locating & alignment
 - **one_liner**: Pairs of permanent magnets, or a magnet and a piece of steel, set into the faces of two parts so the parts pull together, roughly line themselves up and stay shut, yet can be pulled apart by hand.
 - **complexity**: A few parts: two magnets (or one magnet and a steel washer, plate or ball), the pockets or housings they sit in, and usually glue or a press fit to keep them there. A cabinet magnetic catch is a small ready-made unit: a plastic housing holding a flat magnet with steel plates beside it, plus a separate steel strike plate or bracket on the door (as seen in a photo of one taken apart, Wikimedia Commons 'Magnetic Catch parts').
-- **how_it_works**: A permanent magnet pulls hard on steel and on the opposite pole of another magnet, and the pull is strongest when the faces touch: even a gap of well under a millimetre can halve it (K&J 'How much will a magnet hold?'). Set into two mating faces, the magnets pull the parts shut and hold them there with no power. Straight pulling apart is resisted by the full magnetic force, but sliding sideways is resisted mainly by friction, which is only about 10-25 % of the pull (K&J; supermagnete). Because two magnets pull hardest towards each other when slightly offset and settle where they line up, the parts also pull themselves roughly into line as they close (K&J 'Magnet shear force with doors').
+- **how_it_works**: A permanent magnet pulls hard on steel and on the opposite pole of another magnet, and the pull is strongest when the faces touch: even a gap of well under a millimetre can halve it (K&J 'How much will a magnet hold?'). Set into two mating faces, the magnets pull the parts shut and hold them there with no power. Straight pulling apart is resisted by the full magnetic force, but sliding sideways is resisted mainly by friction, which is only about 10-25 % of the pull (K&J; supermagnete). Because two magnets pull hardest towards each other when slightly offset and settle where they line up, the parts also pull themselves roughly into line as they close (K&J 'Magnet shear force with doors'). A cleverer version sets many small magnets side by side with their poles alternating in a planned pattern (programmable, correlated or coded magnets). Two patterns made to match pull together and lock, while a pattern that doesn't match won't: Wikipedia says they 'can be programmed to interact only with other magnetic structures that have been coded to respond', and the inventors' patent describes sets of codes that act 'as a unique identifier or key, requiring a matching part to operate the device' (Wikipedia 'Programmable magnet'; US7843297B2).
 
 ### Finder attributes
 
@@ -81,7 +84,7 @@
   - Magnetic catches that hold cupboard and cabinet doors shut (Wikimedia Commons 'Magnetic Catch parts')
   - Magnetic laptop chargers (MagSafe, brand) and magnetic plugs on deep fryers, which pull out safely if the cable is tugged (Wikipedia 'MagSafe')
   - Boxes and cases with magnetic lids, e.g. 3D-printed magnetic boxes (Printables)
-- **when_to_use**: Use it for lids, doors, covers, access panels, detachable modules, tool holders, display pieces and cosplay parts that should close with a satisfying click, stay shut against light loads and come apart by hand many times with no wear (Rapid Elevation; K&J FAQ); when parts should find their own position as they close (K&J); where a connection should break away safely instead of breaking, such as a cable or a part that could snag (Wikipedia 'MagSafe'); and where you want a hidden fastening with no visible latch.
+- **when_to_use**: Use it for lids, doors, covers, access panels, detachable modules, tool holders, display pieces and cosplay parts that should close with a satisfying click, stay shut against light loads and come apart by hand many times with no wear (Rapid Elevation; K&J FAQ); when parts should find their own position as they close (K&J); where a connection should break away safely instead of breaking, such as a cable or a part that could snag (Wikipedia 'MagSafe'); and where you want a hidden fastening with no visible latch. Use a coded magnet pattern when a lid or module should only fit one way round or only with its own partner, a magnetic form of keying. The four jobs these patterns are designed for are 'align, attach, latch, and spring', and they 'may be constructed from discrete permanent magnets', so a simple one can be laid out from separate disc magnets in printed pockets, alternating north and south (Wikipedia 'Programmable magnet'). Wikipedia also says they give 'stronger shear resistance' than ordinary magnets, but its article is flagged as reading like a press release, so treat that as the makers' claim.
 - **when_not_to_use**: Avoid it where the joint takes large sideways, peeling or twisting loads, since magnets are weak in shear (15-25 % of pull, supermagnete): add a lip or pins, or use a snap fit, bayonet or screws instead. Don't rely on it for heavy or safety-critical loads, or where the parts must stay together in a crash or drop: use a mechanical latch, or a magnetic-assisted buckle where the magnet only guides and a catch carries the load. Avoid it in hot places above about 80 °C for standard magnets (Wikipedia), outdoors or underwater without corrosion protection (K&J), near pacemakers, and in anything small children could take apart (K&J safety page).
 - **environment_limits**: Heat: standard N-grade neodymium magnets are rated to about 80 °C and lose strength above that; letter grades reach about 230 °C and all lose their magnetism near 320 °C (Wikipedia 'Neodymium magnet'; K&J safety page). The plastic around them usually fails first: PLA softens at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a press-fit magnet in PLA can loosen in a hot car. Water: plated neodymium magnets are not waterproof and corrode outdoors or when wet, losing strength (K&J safety page); badly corroded sintered magnets can crumble to powder (Wikipedia). Over time they lose less than 1 % in 10 years if not overheated (K&J FAQ), but press fits can loosen through creep (Slant 3D via Hackaday). *(unverified parts omitted)*
 - **safety_notes**: Keep neodymium magnets away from children: if two or more small magnets are swallowed they can pinch the intestine between them and need emergency surgery (K&J safety page; Wikipedia), so glue or seal magnets in well. Larger magnets can pinch skin painfully or, when big, break bones; magnets that slam together can chip or shatter and throw sharp pieces, so wear eye protection (K&J safety page; Wikipedia). Strong magnets can switch off or upset pacemakers and implanted defibrillators, and can damage bank cards and magnetic media (K&J safety page). People with a nickel allergy should avoid long contact with nickel-plated magnets. Don't drill or grind magnets: the dust is flammable (K&J safety page).
@@ -93,7 +96,9 @@
   - Holding electromagnet and electro-permanent magnet: magnets switched by electricity instead of being always on
   - Hidden latches (magnetic-key latch): a magnet held outside a box moves a hidden catch inside
   - Snap fits and push-push latches: mechanical ways to hold a lid or door shut that take sideways loads better
-  - Magnetic coupling and magnetic gear: magnets that pass turning force through a gap instead of holding parts together *(unverified parts omitted)*
+  - Magnetic coupling and magnetic gear: magnets that pass turning force through a gap instead of holding parts together
+  - Magnetic connector: a magnetic plug that also carries current through spring contacts (MagSafe-style chargers, magnetic pogo connectors); this entry only holds parts together
+  - Keying: makes parts fit only the right way round or only with the right partner; coded magnet patterns do the same job magnetically (Wikipedia 'Programmable magnet') *(unverified parts omitted)*
 
 ### Pictures, videos and models
 
@@ -129,6 +134,8 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://commons.wikimedia.org/wiki/File:Magnetic_Catch_parts.jpg
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Programmable_magnet
+  - https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)
 
 ### Other info
 
@@ -268,6 +275,8 @@
 
 *clamping, magnetic & friction connections.* The nuts, brackets and hidden fasteners that slide into the grooves of T-slot aluminium extrusion to build 3D-printer, CNC and robot frames without welding
 
+*Also covers:* Also covers strut channel and fixed-pitch hole-grid kits (goBILDA, Actobotics, Meccano) as the stepped alternative to a T-slot.
+
 ### What it is
 
 - **plain_name**: Special nuts that slide or drop into the grooves along aluminium frame bars, plus the brackets and hidden connectors that bolt onto them, so you can build and rearrange a frame with just hex keys, no welding
@@ -286,11 +295,14 @@
   - V-slot (brand, OpenBuilds: a V-grooved profile that also works as a rail for wheels)
   - 80/20 (brand), item (brand), MISUMI HFS (brand), Bosch Rexroth (brand), MakerBeam (brand)
   - Nutenstein (German)
+  - strut channel, metal framing channel, Unistrut (brand)-type channel: the heavier sheet-steel relative, with inward-curving lips and a channel nut that 'may have a spring' (Wikipedia 'Strut channel')
+  - channel nut, spring nut (the nut used inside strut channel; Wikipedia 'Strut channel')
+  - fixed-pitch hole-grid systems: goBILDA (brand), Actobotics (brand) and Meccano (brand), the stepped alternative to a continuous slot (Game Manual 0; Wikipedia 'Meccano')
 - **family**: clamping, magnetic & friction connections
 - **other_families**: interlocking joints & joinery, sliding, telescoping & linear motion
 - **one_liner**: A family of nuts, bolts, brackets and hidden connectors that lock into the T-shaped grooves of aluminium extrusion, clamping onto the groove's lips when tightened so bars, panels, motors and accessories can be bolted together anywhere along their length and moved later.
 - **complexity**: A few parts per joint: the extrusion itself (a bar with a T- or V-shaped groove on each side and a hole down the middle), a nut that sits inside the groove (plain block, drop-in or spring-loaded), a screw, and usually a bracket, plate or internal connector; hidden joints may add an end-tapped thread and a drilled access hole.
-- **how_it_works**: Each side of the bar has a narrow slot opening over a wider hidden channel. The nut is wider than the opening, so once inside it cannot be pulled out through the slot (it interlocks), but it can slide along the groove. When the screw through a bracket or part is tightened, it pulls the nut up against the underside of the slot lips and clamps everything together, so friction (and on some nuts, teeth or ridges biting into the anodised surface) stops sliding. Slide-in nuts must be threaded on from an open end of the bar; drop-in and roll-in nuts are shaped so they can be pushed in anywhere and turned 90 degrees to lock, often with a spring or ball to hold them in place while you fit the screw. Hidden joints instead screw into the tapped centre hole in the end of one bar, with the screw head or a connector clamping inside the other bar's slot.
+- **how_it_works**: Each side of the bar has a narrow slot opening over a wider hidden channel. The nut is wider than the opening, so once inside it cannot be pulled out through the slot (it interlocks), but it can slide along the groove. When the screw through a bracket or part is tightened, it pulls the nut up against the underside of the slot lips and clamps everything together, so friction (and on some nuts, teeth or ridges biting into the anodised surface) stops sliding. Slide-in nuts must be threaded on from an open end of the bar; drop-in and roll-in nuts are shaped so they can be pushed in anywhere and turned 90 degrees to lock, often with a spring or ball to hold them in place while you fit the screw. Hidden joints instead screw into the tapped centre hole in the end of one bar, with the screw head or a connector clamping inside the other bar's slot. Two relatives use the same ideas. Strut channel (Unistrut (brand)-type) is sheet metal folded into an open channel whose lips curve inwards; parts are fixed 'with a bolt, threaded into a channel nut, that may have a spring to ease installation', and punched versions also have holes or slots at fixed spacings for fixing the channel to walls (Wikipedia 'Strut channel'). Fixed-pitch hole-grid kits swap the continuous slot for a regular grid of holes, so parts can only be moved in whole steps: goBILDA (brand) uses '4mm holes on 8mm grid, M4 screws', Actobotics (brand) is its inch-based relative (Game Manual 0), and Meccano (brand) strips have holes at a standard 1/2 in (12.7 mm) spacing (Wikipedia 'Meccano').
 
 ### Finder attributes
 
@@ -308,10 +320,10 @@
 - **tools_needed**: Hex (Allen) keys or a T-handle hex wrench; a torque screwdriver helps avoid over-tightening. A saw with a square cut or pre-cut lengths. For hidden joints: a tap to thread the end holes and a drill (with a drilling jig) for access holes; anchor fasteners need a counterbore; 80/20's self-tapping S12 connecting screws need only a T40 or T50 power bit and drill.
 - **seal**: none (the open slots can be closed with slot cover strips, but the joint does not seal)
 - **load**: Medium to heavy, depending on size: item's small steel 'T-Slot Nut 5 St M5' (Line 5) is rated 500 N (about 50 kgf) at 4.5 Nm, an item hammerhead nut for 8 mm slots 1,000 N, and a heavy-duty M12 T-slot nut 10,000 N (Wikipedia, citing item). Strong against pulling the nut out through the slot; sliding along the groove is resisted only by clamping friction, so slip under shear is the usual weak point; a joint with a single screw is weak in twist. Printed nuts and brackets are for light duty only.
-- **adjustable**: Yes: loosen the screw, slide the nut, bracket or part along the groove to any position, and re-tighten; drop-in and roll-in nuts can be added later in the middle of a bar. Hidden end-tapped joints and end fasteners are fixed in position.
+- **adjustable**: Yes: loosen the screw, slide the nut, bracket or part along the groove to any position, and re-tighten; drop-in and roll-in nuts can be added later in the middle of a bar. Hidden end-tapped joints and end fasteners are fixed in position. Hole-grid kits adjust only in steps of the grid, e.g. 8 mm on goBILDA (Game Manual 0).
 - **play_and_precision**: No play once tightened, but the position is only as good as the cut ends and your assembly: squareness is not automatic (Voron's build guide says measure the diagonals, which should differ by less than 2 mm, and notes that blind-jointed bars may rotate until panels and corners are fitted). Butt fasteners give 'near perfect alignment' end to end (80/20). Slot widths and shapes differ between systems (e.g. 5.25 mm versus 6 mm slots on so-called 20-series bars, and I-type versus B-type profiles), so nuts from one system may fit loosely or bend another's slot lips.
 - **access_needed**: one side only (blind) for T-nuts and brackets, which bolt on from the outside face; hidden end-tapped joints and end fasteners need the end of the bar tapped and an access hole drilled in the mating bar to reach the screw head
-- **materials**: Bars: extruded aluminium, typically 6105-T5 (Wikipedia) or EN AW-6063 T66 (maunsystem), usually anodised. Nuts: zinc-plated or black-zinc carbon steel (80/20 standard slide-in nuts are 1215 carbon steel), stainless steel, or die-cast zinc for light-duty nuts. Brackets and connectors: die-cast zinc, aluminium or steel. 3D-printed PLA or PETG nuts and brackets for light accessories and prototypes. Panels of acrylic, polycarbonate, wood, sheet metal or mesh are fixed into the slots with the same nuts.
+- **materials**: Bars: extruded aluminium, typically 6105-T5 (Wikipedia) or EN AW-6063 T66 (maunsystem), usually anodised. Nuts: zinc-plated or black-zinc carbon steel (80/20 standard slide-in nuts are 1215 carbon steel), stainless steel, or die-cast zinc for light-duty nuts. Brackets and connectors: die-cast zinc, aluminium or steel. 3D-printed PLA or PETG nuts and brackets for light accessories and prototypes. Panels of acrylic, polycarbonate, wood, sheet metal or mesh are fixed into the slots with the same nuts. Strut channel is usually zinc-coated (galvanised), painted, epoxy- or powder-coated sheet steel, with stainless steel, aluminium or fibreglass versions for corrosive or food-processing places (Wikipedia 'Strut channel').
 - **maker_difficulty**: easy: bolt-together with hex keys using bought nuts and brackets; moderate if you make hidden blind joints, which need accurate tapping and drilling of access holes
 
 ### Making it
@@ -335,6 +347,8 @@
   - Hidden joints need machining: 80/20 end fasteners need an end tap in one bar and an access hole in the other; anchor fasteners need a counterbore; its self-tapping S12 connecting screws need no machining (80/20 Catalog 17, Metric Fastening Options, pp. 712-713, 737, 739, 741, http://www.gawirth.net/Metric_Fastening_Options_8020_Catalog_17.pdf).
   - Check squareness: build on a flat surface and measure the diagonals, which should differ by less than 2 mm; blind-jointed bars may rotate until panels and corners are fitted (Voron mechanical assembly guide, https://docs.vorondesign.com/build/mechanical/).
   - Heavy loads need heavy-duty nuts: a heavy-duty T-slot nut with an M12 screw is rated to 10,000 N (Wikipedia, citing item, https://en.wikipedia.org/wiki/T-slot_nut).
+  - Strut channel from different makers fits together because they follow the Metal Framing Manufacturers Association standard (MFMA-4, as of 2020); the basic channel is about 41 mm (1 5/8 in) square, and nuts inside the channel need special sockets, because normal sockets won't fit through the opening (Wikipedia 'Strut channel', https://en.wikipedia.org/wiki/Strut_channel).
+  - goBILDA's grid is 4 mm holes on an 8 mm pitch with M4 screws; its 8 mm pitch chain and HTD 3 mm and 5 mm belts fit exactly centre to centre on the grid (Game Manual 0, goBILDA page, https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html).
 
 ### When to use it
 
@@ -343,7 +357,8 @@
   - hobby CNC routers and laser-cutter frames built from 2020 or 4040 extrusion
   - workshop enclosures, machine guards and grow-light racks with acrylic panels held in the slots
   - a bicycle trailer or camper-van shelving built from aluminium profile (Wikipedia shows a trekking trailer carrying Euroboxes)
-- **when_to_use**: When you want a strong, stiff metal frame that you can build with hand tools, adjust, and change later: 3D-printer, CNC and laser frames, robot chassis, test rigs, jigs, enclosures, workbenches, camera or lighting rigs, and shelving. Great when you do not know the final layout yet, because every part can slide along the grooves and new parts can be added mid-bar with drop-in nuts. Also useful as a mounting grid: any accessory with a slot-sized screw can be clamped anywhere along the bar.
+  - strut channel (Unistrut (brand)-type) frames supporting pipes, electrical conduit and ventilation ducts in buildings, sometimes hung from threaded rod (Wikipedia 'Strut channel')
+- **when_to_use**: When you want a strong, stiff metal frame that you can build with hand tools, adjust, and change later: 3D-printer, CNC and laser frames, robot chassis, test rigs, jigs, enclosures, workbenches, camera or lighting rigs, and shelving. Great when you do not know the final layout yet, because every part can slide along the grooves and new parts can be added mid-bar with drop-in nuts. Also useful as a mounting grid: any accessory with a slot-sized screw can be clamped anywhere along the bar. Strut channel suits cheaper, heavier frames for building services and the workshop: pipe, cable and duct supports, workbenches, shelving and equipment racks, which go together 'with minimal tools' and can be changed later (Wikipedia 'Strut channel'). A hole-grid kit suits robots, where parts should land on standard spacings, for example shafts placed so that chain and belts fit exactly between grid holes (Game Manual 0).
 - **when_not_to_use**: Not for the cheapest or lightest builds, where wood, plywood or printed parts with captive nuts are cheaper; every joint needs special nuts and brackets (Hackaday: 'what you do need is a lot of special parts'), and their cost adds up. Not for permanent heavy structures that are never changed, where welding or bolted steel is cheaper and stronger; for building services use strut channel. Not where a joint must resist large sliding or twisting loads with only one screw: use two screws per joint, gussets, joining plates or butt fasteners, or add a diagonal brace. Not for precise locating on its own: add dowel pins, a kinematic coupling or a machined reference edge. Not for load-bearing joints with printed T-nuts or brackets.
 - **environment_limits**: Anodised aluminium and zinc-plated or stainless nuts cope with normal indoor and outdoor conditions; heat is not a problem for the metal parts at maker temperatures, but aluminium grows about 24 µm per metre per °C, so a 300 mm aluminium plate grows about 0.58 mm from 25 °C to 105 °C (Rehorst), which matters where aluminium is bolted rigidly to steel or to a heated bed. Vibration can loosen screws over time: 80/20 sells 'vibration-proof' fasteners (Drop-Lock studs, anchor fasteners), item's hammerhead nut has a self-locking thread, and Voron builders are advised to use threadlocker and proper torque (Wikipedia, Voron 2.4). Printed nuts and brackets creep and soften with heat, especially PLA.
 - **safety_notes**: Freshly cut extrusion has sharp burrs: deburr the ends and wear gloves and eye protection when cutting and drilling aluminium. Large frames are heavy and can tip over or pinch fingers while being squared; support them while tightening. Do not rely on printed T-nuts or brackets for anything that holds weight overhead or on a moving machine. Using a nut made for a different slot type can bend open the slot lips (maunsystem), leaving a weak joint that may let go later; over-tightening can strip threads or crack die-cast zinc nuts, which item rates for only 1-1.5 Nm.
@@ -351,21 +366,22 @@
 - **related**: 
   - Captive nut pocket (nut trap): a nut held in a printed hexagonal pocket; similar job in plastic parts, but fixed in one position instead of sliding along a groove
   - Heat-set threaded insert: a permanent metal thread melted into a plastic part; not adjustable along a slot
-  - Strut channel (e.g. Unistrut-type steel channel): the same slot-and-nut idea in cheaper, heavier steel for building services (Wikipedia 'See also')
+  - Strut channel (e.g. Unistrut-type steel channel): the same slot-and-nut idea in cheaper, heavier steel for building services (Wikipedia 'See also'); described as a variant under how it works
   - Modular grid mounting systems (pegboard, Gridfinity-style grids): hang or clip accessories on a grid of holes instead of sliding them along a continuous groove
   - Quick-release plate (dovetail clamp): a clamp that slides and locks in a dovetail groove, usually released by a lever or knob
   - Dovetail slide with gib strip: a groove joint designed for smooth sliding motion rather than clamping
   - Knock-down furniture fittings (cam locks, cross dowels): hidden bolt-together joints for panels and wood rather than metal bars
   - V-slot wheels and linear rails: use the same extrusion grooves as a track for moving carriages
+  - Threaded rod and studs: long bolts, tie rods and hangers; strut channel frames can be hung from threaded rod
 
 ### Pictures, videos and models
 
 - **links**: 
   - [T-Nut - Installed in a T-Slot.png (Wikimedia Commons, Robert Hewitt / ManufacturingET org)](https://commons.wikimedia.org/wiki/File:T-Nut_-_Installed_in_a_T-Slot.png): CAD render of a rotating T-nut (red) sitting in the T-slot of an extrusion; the related CAD model of a T-Nut 1-3 images in the same Wikipedia gallery show the nut from several angles *(licence: CC BY-SA 3.0)*
-  - [Kaffeemaschine 2.0 Rahmen Schienenmutter1 ICEBE B25.jpg (Wikimedia Commons, Best Tech Nick 25)](https://commons.wikimedia.org/wiki/File:Kaffeemaschine_2.0_Rahmen_Schienenmutter1_ICEBE_B25.jpg): Photo of a tee nut fastening an acrylic panel to an aluminium profile frame; companion file 'Kaffeemaschine 2.0 Rahmen Winkel ICEBE B25.jpg' shows an L-shaped corner bracket on the same frame *(licence: CC BY-SA 4.0)*
   - [T-slot structural framing (Wikipedia)](https://en.wikipedia.org/wiki/T-slot_structural_framing): Photos of T-slotted profiles, a cross-section drawing of 80/20 fractional profiles, a 1964 patent drawing, the table of standard profile sizes and the T-nut gallery *(licence: text CC BY-SA 4.0; images per file (e.g. 8020-Fractional-Profiles-1.svg is CC BY-SA 3.0))*
   - [Getting Started With Aluminum Extrusions (Hackaday, Al Williams, 2021)](https://hackaday.com/2021/05/25/getting-started-with-aluminum-extrusions/): Beginner guide with photos of profiles, slide-in, drop-in and spring T-nuts, brackets, inner brackets and blind (end-tapped) joints, plus printed extrusion accessories *(licence: link only)*
   - [Aluminum Extrusion Blind Joints – The RIGHT Way to Do It (Brogan M. Pratt, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=-I9Jsa1x880): Video of making hidden blind joints: tapping the end of one bar and drilling an access hole in the other *(licence: link only)*
+  - [SpringNutInPlace.jpg (Wikimedia Commons, by Bob Blaylock)](https://commons.wikimedia.org/wiki/File:SpringNutInPlace.jpg): Photo of a spring-loaded channel nut sitting inside the lips of a strut channel, ready for a bolt (used on Wikipedia 'Strut channel') *(licence: CC BY-SA 4.0)*
 - **make_it_yourself**: 
   - [Customizable Plate Bracket for Aluminium Extrusion Profiles (Misumi 2020, 2040, 4040, ...) (StarrEngineer's Printables port of mightynozzle's Thingiverse thing:2503622) (URL from Printables API, page not opened)](https://www.printables.com/model/382730-customizable-plate-bracket-for-aluminium-extrusion): OpenSCAD/Customizer generator that produces 21 plate brackets (L, T, cross and more) for any extrusion width, number of rails, bracket length and thickness and screw-hole settings; featured on Hackaday in 2017 *(licence: CC BY-NC)*
   - [T-nut for 2020 aluminium extrusion profile by ORM (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1245868-t-nut-for-2020-aluminium-extrusion-profile): Pack of printable T-nuts for 2020 profiles: drop-in and slide-in, pre-threaded or holding a standard nut, single and double, with print settings *(licence: CC BY-NC)*
@@ -399,6 +415,10 @@
   - https://www.youtube.com/watch?v=NLeTvSaPJIs (verified via YouTube oEmbed; 'Corner Brackets | Design for Mass Production 3D Printing', Slant 3D)
   - https://api.printables.com/graphql/ (Printables models 382730, 1245868, 203578, 815359, 122072, 145209 and 1069061 read via the public API)
   - https://www.printables.com/model/122072-strong-corner-bracket-for-2020-aluminium-extrusion (search result)
+  - https://en.wikipedia.org/wiki/Strut_channel
+  - https://en.wikipedia.org/wiki/Meccano
+  - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
+  - https://commons.wikimedia.org/wiki/File:SpringNutInPlace.jpg
 
 ## 216 Suction cup
 
@@ -764,6 +784,7 @@
   - Mid-print embedding (captive nuts, magnets and bearings): traps the part inside the print instead of pressing it into a hole
   - Dowel and biscuit joints: the woodworking version, usually with glue
   - Annular snap fit: a ring-shaped bump that clicks into a groove, so it holds by shape rather than by squeeze
+  - Drive-in fixing pins: a dowel, grooved, knurled or spring pin tapped into a hole drilled through the parts; a spring (roll or coiled) pin grips by its own springiness, so it accepts looser hole sizes than a solid pin pressed in
 
 ### Pictures, videos and models
 
@@ -816,7 +837,7 @@
   - watchmaker collets ('split wire chucks'), sized by their outer thread, e.g. 8 mm
   - router collet; rotary-tool collet, e.g. Dremel (brand) 480-483 collets with the 4485 collet nut
   - draw-in collet versus dead-length (non-draw-in) collet
-  - emergency collet / soft collet (bought unhardened and machined to an odd size); step collet; expanding collet (grips the inside of a bore, like an expanding mandrel)
+  - emergency collet / soft collet (bought unhardened and machined to an odd size); step collet; expanding collet (grips the inside of a bore, like an expanding mandrel; see 'Expanding internal grip')
   - pin chuck / pin vise: a tiny collet holder for drills under about 1 mm
   - multi-size collet, e.g. Rubber-Flex (brand, Jacobs): steel blades held in rubber
   - Autolock collet / Clarkson chuck (self-tightening collet for threaded-shank cutters)
@@ -903,6 +924,7 @@
   - Quick couplers for tubes and hoses (push-to-connect): the 'collet' in a push-fit pneumatic fitting is a ring of gripping teeth that bites the tube, a different mechanism with the same name
   - Self-centring cone and socket (taper locator): uses a cone only to locate, not to grip
   - SDS chucks (and hex quick-change bit holders): hold bits by shape (grooves or flats) instead of friction, so they can't slip but only take special shanks (SDS: Wikipedia 'Chuck (engineering)')
+  - Expanding internal grip: the expanding collet and expanding mandrel, which grow outward to grip the inside of a hole, tube or ring instead of squeezing a rod from outside
 
 ### Pictures, videos and models
 
@@ -955,6 +977,8 @@
 
 *clamping, magnetic & friction connections.* Tees, elbows and crosses that slide onto round tube and lock with set screws, building frames and rails that can be taken apart
 
+*Also covers:* Also covers rod-to-rod cross clamps (the lab boss head) and the external-fixator frame idea, described only for building frames and jigs.
+
 ### What it is
 
 - **plain_name**: Chunky metal tees, elbows and crosses that you slide onto plain round pipe and lock by tightening a screw with an Allen key, so you can build rails, racks, desks and frames like a construction kit, with no welding or threading, and take them apart again
@@ -969,10 +993,11 @@
   - tee (single socket tee, three socket tee), elbow, cross, side outlet tee, base flange, wall flange, swivel fitting (names of fitting types in the Kee Klamp manual)
   - lean pipe / pipe-and-joint system: 28 mm plastic-coated steel pipe joined by bolted metal clamp joints, used for workshop racks and trolleys (WJ-LEAN)
   - scaffold coupler (right-angle coupler, swivel coupler, sleeve coupler): the bolted clamp-on cousin used on scaffolding tubes (Wikipedia 'Scaffolding')
+  - rod-to-rod cross clamp; boss head, clamp holder or clamp fastener (the laboratory version that locks a clamp to a stand rod; Wikipedia 'Clamp stand')
 - **family**: clamping, magnetic & friction connections
 - **one_liner**: Cast metal fittings with round sockets that slip over plain tube and are locked on by a set screw pressing on the tube, so tees, elbows, crosses and flanges can join cut lengths of pipe into strong frames and railings that can be adjusted or taken apart.
 - **complexity**: A few parts per joint: the fitting (a one-piece casting with one to four sockets, e.g. elbow, tee, cross or flange), one set screw (grub screw) per socket, and the plain tubes it joins; some split, hinged and swivel fittings are two or three pieces bolted together (Kee Klamp manual).
-- **how_it_works**: Each socket of the fitting is a round hole slightly larger than the pipe, so the fitting slides onto the pipe and can be moved to any position and angle (Wikipedia 'Structural pipe fitting'). A set screw in a threaded hole in the socket wall is then tightened with a hex key; it presses on the pipe, pushing it against the far side of the socket, and 'the sharp edge of the set screw locks the fitting into the pipe' (Simplified Building). Friction plus that small bite hold the joint against sliding and turning; loosen the screw and the fitting slides free again, so the structure can be adjusted or taken apart (Wikipedia 'Structural pipe fitting').
+- **how_it_works**: Each socket of the fitting is a round hole slightly larger than the pipe, so the fitting slides onto the pipe and can be moved to any position and angle (Wikipedia 'Structural pipe fitting'). A set screw in a threaded hole in the socket wall is then tightened with a hex key; it presses on the pipe, pushing it against the far side of the socket, and 'the sharp edge of the set screw locks the fitting into the pipe' (Simplified Building). Friction plus that small bite hold the joint against sliding and turning; loosen the screw and the fitting slides free again, so the structure can be adjusted or taken apart (Wikipedia 'Structural pipe fitting'). A light-duty relative is the rod-to-rod cross clamp, such as the lab boss head (clamp holder): a stand rod and a clamp's rod go into its two jaws, and thumbscrews lock them 'at any height or angle', normally at 90° to each other; swivel and all-position holders allow other angles, and 'in some cases it can be used to attach support rods together' (Wikipedia 'Clamp stand').
 
 ### Finder attributes
 
@@ -1027,10 +1052,10 @@
   - Market stalls, shop clothing rails and pipe shelving (Wikipedia 'Kee Klamp'; Simplified Building)
   - Home-made pipe desks, parkour and ninja-warrior training rigs (Wikipedia 'Kee Klamp')
   - Film and TV lighting and camera rigs built from aluminium Speed-Rail (Hollaender)
-- **when_to_use**: Use them to build strong, rigid frames from round pipe without welding, threading or special skills: railings, racks, shelves, desks, workbenches, gates, gym rigs, greenhouse or grow-tent frames, camera and lighting rigs. They suit projects you may want to adjust, extend or take apart and rebuild, and outdoor structures when galvanised or aluminium (Wikipedia 'Structural pipe fitting'; Simplified Building). They are also handy for adding a crossbar or mount to an existing tube frame with split or two-piece clamps (Kee Klamp manual; jprince).
-- **when_not_to_use**: Avoid them for thin-wall tube such as electrical conduit, bike or tent tubing, or soft plastic pipe unless the fitting is made for it (the set screw can crush or dent the tube; Kee requires at least 3.2 mm wall for non-standard tube): use split clamps, plastic push-fit connectors or internal tube anchors instead. For square or rectangular frames use aluminium extrusion with T-slot connectors. For a light, cheap, permanent frame, welding or glued PVC fittings may be cheaper: Wikipedia notes that for simple installations welding can cost less than Key Klamp. Where precise alignment matters (machines, printers), use extrusion or machined brackets. For safety-critical guardrails, use only certified fittings and the maker's load tables.
+- **when_to_use**: Use them to build strong, rigid frames from round pipe without welding, threading or special skills: railings, racks, shelves, desks, workbenches, gates, gym rigs, greenhouse or grow-tent frames, camera and lighting rigs. They suit projects you may want to adjust, extend or take apart and rebuild, and outdoor structures when galvanised or aluminium (Wikipedia 'Structural pipe fitting'; Simplified Building). They are also handy for adding a crossbar or mount to an existing tube frame with split or two-piece clamps (Kee Klamp manual; jprince). For jigs and frames that must hold short rods or pins at odd angles, one idea borrowed from medicine is the external-fixator frame: pins are joined to an outside rod by 'special ball-and-socket joints', which are adjusted to set each pin's position and make a rigid support (Wikipedia 'External fixation'). It is mentioned here only as a frame-building idea for non-medical maker use.
+- **when_not_to_use**: Avoid them for thin-wall tube such as electrical conduit, bike or tent tubing, or soft plastic pipe unless the fitting is made for it (the set screw can crush or dent the tube; Kee requires at least 3.2 mm wall for non-standard tube): use split clamps (see 'Clamp-on accessory mount for bars, poles and edges'), plastic push-fit connectors or internal tube anchors instead. For square or rectangular frames use aluminium extrusion with T-slot connectors. For a light, cheap, permanent frame, welding or glued PVC fittings may be cheaper: Wikipedia notes that for simple installations welding can cost less than Key Klamp. Where precise alignment matters (machines, printers), use extrusion or machined brackets. For safety-critical guardrails, use only certified fittings and the maker's load tables.
 - **environment_limits**: Galvanised iron fittings with coated set screws are made for outdoor and industrial use (Kee Klamp manual); aluminium alloy 535 fittings are very corrosion resistant and suited to harsh environments (Hollaender); stainless set screws are fitted on aluminium fittings (Simplified Building). Vibration: Kee's 4 g, 24-hour vibration test showed no loosening, but dynamic loads call for periodic checks of set screws (Kee Safety technical specification; Simplified Building). Printed plastic fittings creep and loosen under constant clamping and heat; PLA softens above about 60 °C and degrades in sunlight (Prusa).
-- **safety_notes**: If a frame will hold people (railings, guardrails, climbing or gym rigs) or overhead loads, follow the maker's load tables, torque figures and certification: Kee's ratings apply only to standard tube and correctly torqued screws (Kee Klamp manual; Simplified Building). A set screw that is under-tightened or on thin tube can slip and let a joint collapse suddenly. Structures made only of swivel fittings are not rigid (Kee Klamp manual). *(unverified parts omitted)*
+- **safety_notes**: If a frame will hold people (railings, guardrails, climbing or gym rigs) or overhead loads, follow the maker's load tables, torque figures and certification: Kee's ratings apply only to standard tube and correctly torqued screws (Kee Klamp manual; Simplified Building). A set screw that is under-tightened or on thin tube can slip and let a joint collapse suddenly. Structures made only of swivel fittings are not rigid (Kee Klamp manual). The external-fixator frame idea is for building jigs and frames only: never make or use anything like it on a person. *(unverified parts omitted)*
 - **common_failures**: 1) Joint slips along or turns round the pipe: set screw not tight enough, tube too thin or undersized, or a single screw resisting twist (Kee Klamp manual; Simplified Building). Fix: torque correctly, use standard tube, drill and pin highly loaded joints. 2) Screws loosening under repeated or dynamic loads (Simplified Building). Fix: check periodically. 3) Wobbly or out-of-square frame: pipes cut to the wrong length, screws tightened before the frame was plumb, or too many swivel fittings (Hollaender; Kee Klamp manual). 4) Can't fit a fitting because the pipe ends are already captured: plan the assembly order or use split fittings (Kee Klamp manual). 5) Corrosion where the galvanising or coating is damaged; use coated or stainless screws (Kee Klamp manual; Simplified Building). *(unverified parts omitted)*
 - **related**: 
   - Aluminium-extrusion connectors (T-slot nuts and brackets): the equivalent kit system for square aluminium profiles; more precise and easier to attach accessories, but square rather than round
@@ -1042,6 +1067,8 @@
   - Threaded pipe fittings (plumbing tees and elbows): screw onto threaded pipe ends, so pipes must be cut and threaded to exact lengths and can't be slid or rotated
   - Plastic push-fit tube connectors (e.g. PVC furniture fittings and printed 3-way connectors): cheap and light, held by a tight fit or glue rather than screws
   - Ordinary screw joint (bolt and nut): drilling through tubes and bolting them gives a positive joint but weakens the tube and can't be slid
+  - Clamp-on accessory mount for bars, poles and edges: split bar clamps, U-bolts, pipe clamps and camera-rod clamps that grip a tube from outside to fix one accessory to it; the better choice on thin-wall tube
+  - Strut hub: joins three or more straight struts at fixed compound angles in one node, for domes and space frames rather than right-angle pipe frames
 
 ### Pictures, videos and models
 
@@ -1077,6 +1104,8 @@
   - https://help.prusa3d.com/article/petg_2059
   - https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg
   - https://commons.wikimedia.org/wiki/File:Coupler_1.jpg
+  - https://en.wikipedia.org/wiki/Clamp_stand
+  - https://en.wikipedia.org/wiki/External_fixation
 
 ### Other info
 
@@ -1175,6 +1204,8 @@
   - Keyless locking bush (shaft locking device): tapered rings that expand into a hub bore and shrink onto a shaft, a much stronger cousin of the cone expander
   - Self-locking wedge (wedge clamp, taper key): the wedge principle behind the quill-stem wedge and printed wedge plugs
   - Hose barb (barbed tube fitting): barbs that hold a soft hose from inside, and also seal
+  - Castor: the wheel that an expanding caster stem or a threaded tube insert holds in the end of a tube leg
+  - Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for
 
 ### Pictures, videos and models
 
@@ -1305,7 +1336,8 @@
   - Aluminium-extrusion connectors (T-slot nuts and brackets): drop-in nuts for the slots of aluminium extrusion, the extrusion's own blind fixing
   - Temporary sheet fastener (Cleco-type spring pin): also fitted from one side, but only holds sheets temporarily while drilling or riveting
   - Gasket and O-ring seal entries: for sealing without a thread; a well nut is effectively a gasket and a nut in one
-  - Hollow-wall anchors (molly bolt, toggle bolt): the same blind idea for plasterboard walls; Wikipedia compares the well nut to a molly bolt
+  - Hollow-wall anchors: toggles, molly bolts and self-drilling plasterboard anchors use the same blind idea in plasterboard walls; Wikipedia compares the well nut to a molly bolt
+  - Wall plug: a plastic sleeve that swells in a drilled hole in brick or concrete as a screw goes in; for solid walls, where a rivet nut or well nut has no hollow space behind to bulge into
 
 ### Pictures, videos and models
 
@@ -1354,6 +1386,8 @@
 
 *clamping, magnetic & friction connections.* A bolt through the parts into a nut or tapped thread, clamping them together; the baseline everything else is compared with
 
+*Also covers:* Also covers washers by job, the carriage (coach) bolt, and robot-kit hole grids.
+
 ### What it is
 
 - **plain_name**: A metal screw or bolt goes through holes in the parts and is tightened into a nut, or into a hole with a thread cut in it, squeezing the parts together; undo it and everything comes apart again
@@ -1366,6 +1400,7 @@
   - cap screw, socket-head cap screw, hex bolt, set of 'nuts, bolts and washers'
   - tension joint and shear joint (the two main engineering types: preloaded, slip-resistant or bearing type) (Wikipedia 'Bolted joint')
   - threaded fastener, threaded connection
+  - carriage bolt (coach bolt, round-head square-neck bolt; cup-head bolt in Australia and New Zealand): the square neck under its domed head locks in a square hole or sinks into wood, so the nut can be done up from the other side with one spanner (Wikipedia 'Carriage bolt')
 - **family**: clamping, magnetic & friction connections
 - **other_families**: everyday fasteners & fixings
 - **one_liner**: A threaded fastener passes through clearance holes and is tightened into a nut or a tapped hole, stretching slightly like a stiff spring so it clamps the parts together; it is the standard removable joint that other connections are compared with.
@@ -1408,7 +1443,7 @@
   - sheet metal: drilled or punched holes; self-clinching or rivet nuts give a thread in thin sheet *(unverified parts omitted)*
 - **print_in_place**: no: the screw and nut are separate metal parts added after printing (they can be embedded mid-print, but that is a separate technique).
 - **making_tips_3d_printing**: 1) Holes: vertical holes print undersized; print them slightly small and drill to size if accuracy matters (Hubs 'How to design parts for FDM 3D printing'). Print a hole test (see make_it_yourself) to find your printer's clearance sizes. 2) Horizontal holes droop at the top; use a teardrop or octagonal shape (BOSL2 screw_hole() has a teardrop option). 3) Counterbores for screw heads that start in mid-air can be printed without supports by a few layers of bridging, or by a thin sacrificial layer drilled out afterwards (Hackaday 'Look Ma, No Support For My Floating Holes!'). 4) Walls around a threaded hole should be at least as thick as the screw diameter (e.g. 5 mm for M5), or the part may bulge, split or delaminate (Hubs). 5) Nut pockets: 0.2 mm larger than the nut (0.1 mm per side) is a starting point (Hubs); a nut pocket where the screw pulls the nut against solid plastic (bottom pocket) held 166 kg in CNC Kitchen's PETG tests versus 86 kg for a side pocket. 6) Don't over-tighten: plastic under the head creeps and the clamp loosens over time; an M6 bolt through PLA lost about 3% and through PETG about 11.5% of its undoing torque in a week (Amza et al. 2021). Use large washers to spread the load (filamentspecs). 7) For parts that will be taken apart often, use heat-set inserts or nuts rather than screwing into plastic (Hubs; CNC Kitchen). 8) PLA softens above about 60 °C, so clamped PLA parts may loosen in a hot place (Prusa knowledge base).
-- **off_the_shelf_parts**: Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head) screws, pan-head and cheese-head machine screws; hex nuts, nylon-insert lock nuts (nyloc), flange nuts, square nuts, thin jam nuts; flat washers, fender (penny) washers, conical (Belleville) washers; threadlocker; threaded rod and studs. Metric sizes (M2, M2.5, M3, M4, M5, M6...) and ISO property classes (e.g. 8.8, A2-70 stainless) are the terms used in catalogues (Wikipedia 'Screw'; Wikipedia 'Nut (hardware)'; NASA RP-1228).
+- **off_the_shelf_parts**: Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head) screws, pan-head and cheese-head machine screws; hex nuts, nylon-insert lock nuts (nyloc), flange nuts, square nuts, thin jam nuts; flat washers, fender (penny) washers, conical (Belleville) washers; threadlocker; threaded rod and studs. Metric sizes (M2, M2.5, M3, M4, M5, M6...) and ISO property classes (e.g. 8.8, A2-70 stainless) are the terms used in catalogues (Wikipedia 'Screw'; Wikipedia 'Nut (hardware)'; NASA RP-1228). Washers by job (Wikipedia 'Washer (hardware)'): plain (flat) washers spread the load and cover a hole bigger than the nut; fender, penny or repair washers have a large outside diameter for thin sheet metal and for holes enlarged by rust or wear; hardened steel washers keep the preload in high-quality joints by stopping the surface under the nut from being dented (brinelling); insulating and shoulder washers (often nylon) keep steel screws off aluminium to prevent galvanic corrosion and isolate the screw electrically; a torque washer with a square hole and teeth stops a carriage bolt spinning in wood. Carriage (coach) bolts, with a square neck under a domed head (Wikipedia 'Carriage bolt').
 - **rules_of_thumb**: 
   - Clearance holes (ISO 273, fine / medium / coarse): M2 2.2/2.4/2.6 mm, M2.5 2.7/2.9/3.1, M3 3.2/3.4/3.6, M4 4.3/4.5/4.8, M5 5.3/5.5/5.8, M6 6.4/6.6/7.0, M8 8.4/9.0/10.0 (Engineering Hardware 'Clearance Hole Sizes (ISO 273)').
   - Thread engagement in a tapped hole: at least about 1 x the screw diameter in steel and 2 x in aluminium (Nord-Lock 'The Experts: Thread engagement in a tapped hole'); at least 1-1.5 x diameter even in steel, and more in plastics (Field Fastener 'Rules of Thumb for Thread Engagement').
@@ -1423,10 +1458,11 @@
 ### When to use it
 
 - **everyday_examples**: 
-  - Meccano (brand) and similar construction sets, whose metal strips and plates are joined with small nuts and bolts (Wikipedia 'Meccano')
+  - Meccano (brand) and similar construction sets, whose metal strips and plates are joined with small nuts and bolts through holes at a standard 1/2 in (12.7 mm) spacing (Wikipedia 'Meccano')
   - Car wheel nuts, tightened to a set torque (Wikipedia 'Bolted joint')
-  - Steel structures and machines, where bolted joints are 'one of the most common elements' (Wikipedia 'Bolted joint') *(unverified parts omitted)*
-- **when_to_use**: Use it whenever parts must be strong, easy to make and able to come apart again for repair, adjustment or transport: frames, brackets, enclosures, robot and 3D-printer parts, jigs and prototypes. Parts are cheap and standard, the clamping force can be set with a torque tool, positions can be adjusted before tightening, and the joint can be undone and redone many times (Wikipedia 'Bolted joint'). It is the baseline to compare every other connection against.
+  - Steel structures and machines, where bolted joints are 'one of the most common elements' (Wikipedia 'Bolted joint')
+  - Robot building kits with a fixed grid of holes, such as goBILDA (brand), with 4 mm holes on an 8 mm grid for M4 screws, and its inch-based relative Actobotics (brand) (Game Manual 0) *(unverified parts omitted)*
+- **when_to_use**: Use it whenever parts must be strong, easy to make and able to come apart again for repair, adjustment or transport: frames, brackets, enclosures, robot and 3D-printer parts, jigs and prototypes. Parts are cheap and standard, the clamping force can be set with a torque tool, positions can be adjusted before tightening, and the joint can be undone and redone many times (Wikipedia 'Bolted joint'). It is the baseline to compare every other connection against. Use a carriage bolt through wood or a square-holed metal strap when you can only turn the nut: the square neck stops the bolt turning, and because its smooth domed head can't be gripped from outside, it is used in locks and hinges that must only be undone from one side (Wikipedia 'Carriage bolt').
 - **when_not_to_use**: Avoid it when you can't reach both sides and have no threaded hole (use a blind rivet, rivet nut or well nut instead); when you need tool-free, very fast assembly (use a snap fit, cam lock or quick-release pin); when parts must line up exactly every time (add dowel pins); when heavy vibration is expected without proper preload or locking (use locknuts, threadlocker or rivets) (Bolt Science); when the joint must seal without extra parts (add a gasket); or in thin, soft material that crushes under the head (use large washers, inserts or glue) (Hubs; filamentspecs). For permanent, cheap mass production, rivets, welding, clinching or snap fits are faster.
 - **environment_limits**: Vibration and small sideways slips are the main cause of loosening; keep the preload high enough to stop the joint slipping (Bolt Science). Differences in temperature or between clamped materials also cause slip and loosening (Bolt Science). Corrosion, especially steel against aluminium or in damp conditions, and 'embedding' (the surfaces settling) lose preload over time (Wikipedia 'Bolted joint'). Plastic clamped parts creep: 3% loss for PLA and 11.5% for PETG in one week at room temperature in one test, more after UV ageing for PETG (Amza et al. 2021); PLA softens above about 60 °C (Prusa).
 - **safety_notes**: Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. *(unverified parts omitted)*
@@ -1441,6 +1477,9 @@
   - Rivet and clinching: permanent sheet joints with no thread to loosen
   - Cam lock and knock-down fittings: furniture fastenings that tighten with a quarter turn instead of many turns
   - Printed screw thread: threads printed into the part; fine for big coarse threads only
+  - Aluminium-extrusion connectors: bolts into nuts that slide in the slots of aluminium bars, so parts can be moved anywhere along a frame instead of only to drilled holes
+  - Wood screw: a pointed, coarse-threaded screw that cuts its own thread in wood, so no nut or tapped hole is needed
+  - Threaded rod and studs: a rod threaded along its length, used with nuts as a long bolt, tie rod or adjustable spacer
 
 ### Pictures, videos and models
 
@@ -1481,6 +1520,8 @@
   - https://commons.wikimedia.org/wiki/File:Bolted_joint_spring_analogy.svg
   - https://commons.wikimedia.org/wiki/File:Bolt-in-shear.svg
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Carriage_bolt
+  - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
 
 ### Other info
 

@@ -20,7 +20,7 @@
     ],
     "one_liner": "Four bars joined by four pivots into a closed loop, one bar fixed, so that turning or swinging one bar moves the rest in a single set way: turning into swinging, swinging into turning, a part kept level (parallelogram), or a drawing traced at a new scale (pantograph).",
     "complexity": "A few parts: a fixed base (ground link) with two pivots; an input link (crank or lever); a floating link between the moving ends (coupler); an output link (rocker or follower); four pivot pins, bolts or bearings. A pantograph uses a parallelogram with two arms extended, one fixed pivot, a tracing point and a pen.",
-    "how_it_works": "Because the four bars form a closed loop, fixing one bar leaves only one way for the others to move: set the input's angle and every other part's position follows (one degree of freedom). The link lengths decide what happens: by Grashof's rule, if the shortest plus the longest bar are no longer than the other two added together, the shortest bar can turn all the way round, giving a crank-rocker (input turns, output swings), a double crank (both turn) or a double rocker (both swing) depending on which bar is shortest (Wikipedia; MechSimulator). Points on the coupler trace curves (coupler curves) ranging from near-straight lines to figure-eights. When opposite bars are equal (a parallelogram) the coupler stays parallel to the fixed bar, so a lamp head, loader bucket or wiper blade keeps its angle (Carnegie Mellon notes; Wikipedia); a pantograph arranges a parallelogram so that a fixed point, a tracing point and a pen stay on one straight line, so the pen copies the tracer's path scaled by the ratio of their distances from the fixed point (Nguyen Duc Thang, 'Bar pantograph 1'; 507 Mechanical Movements no. 246)."
+    "how_it_works": "Because the four bars form a closed loop, fixing one bar leaves only one way for the others to move: set the input's angle and every other part's position follows (one degree of freedom). The link lengths decide what happens: by Grashof's rule, if the shortest plus the longest bar are no longer than the other two added together, the shortest bar can turn all the way round, giving a crank-rocker (input turns, output swings), a double crank (both turn) or a double rocker (both swing) depending on which bar is shortest (Wikipedia; MechSimulator). Points on the coupler trace curves (coupler curves) ranging from near-straight lines to figure-eights. When opposite bars are equal (a parallelogram) the coupler stays parallel to the fixed bar, so a lamp head, loader bucket or wiper blade keeps its angle (Carnegie Mellon notes; Wikipedia); a pantograph arranges a parallelogram so that a fixed point, a tracing point and a pen stay on one straight line, so the pen copies the tracer's path scaled by the ratio of their distances from the fixed point (Nguyen Duc Thang, 'Bar pantograph 1'; 507 Mechanical Movements no. 246). A mechanism can also be given deliberate lost motion (free play before the driven part is picked up), so the output waits while the input moves: in Nguyen Duc Thang's 'Motion delay mechanism 1' a crank 'rotates idly' on its gear's shaft, so the output rack 'moves only after the blue gear makes around two revolutions', and adding more idle cranks lengthens the delay (Thang, 2700 Animated Mechanical Mechanisms part 2, p. 119)."
   },
   "finder_attributes": {
     "job": [
@@ -96,7 +96,8 @@
       "Quick-return mechanism (Whitworth, crank and slotted lever): uses a slotted link to make the return faster",
       "Virtual-pivot linkage (remote centre of motion): a linkage arranged so a part rotates about a point in empty space",
       "Bell crank (angle lever): a single L-shaped lever often used as one link of a linkage",
-      "Oldham coupling: like a parallel link coupling, passes rotation between offset parallel shafts, but by sliding rather than pivots"
+      "Oldham coupling: like a parallel link coupling, passes rotation between offset parallel shafts, but by sliding rather than pivots",
+      "Multi-turn rotation limiter: its stacked-ring stops use the same lost-motion idea, each ring turning idly until it picks up the next"
     ]
   },
   "media": {
@@ -223,7 +224,8 @@
       "https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/",
       "https://www.mcmaster.com/products/rod-ends/",
       "https://www.mcmaster.com/products/shoulder-bolts/",
-      "https://www.mcmaster.com/products/sleeve-bearings/"
+      "https://www.mcmaster.com/products/sleeve-bearings/",
+      "https://cs448m.github.io/lectures/machines/doc/2.pdf"
     ]
   },
   "uncertain": [

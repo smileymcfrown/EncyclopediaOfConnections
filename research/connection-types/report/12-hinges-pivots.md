@@ -117,6 +117,8 @@
 
 *hinges & pivots.* A hinge with built-in friction that stays at any angle you leave it, like a laptop screen
 
+*Also covers:* Also covers hollow-shaft friction hinges that pass wires through the pivot.
+
 ### What it is
 
 - **plain_name**: A stiff hinge that stays at whatever angle you leave it, like a laptop screen that doesn't flop back or fall shut
@@ -132,6 +134,7 @@
   - clip friction hinge (Reell's patented design with C-shaped clips on a shaft)
   - friction stay (for windows; a sliding version, see 'Lid and flap stays')
   - stay-open hinge or stiff hinge (maker wording)
+  - hollow-shaft friction hinge or hollow torque insert (a friction hinge with an open centre, so wires, cables, tubing and connectors pass through the pivot; Reell HTH60 and HTI360 (brand))
 - **family**: hinges & pivots
 - **other_families**: clamping, magnetic & friction connections, torque limiting & slip
 - **one_liner**: A hinge with a built-in, controlled amount of rubbing (friction) inside it, so that it holds a lid, screen or door at any angle against its own weight but still turns smoothly when you push it.
@@ -173,13 +176,13 @@
   - woodwork: fitting bought friction hinges to lids, flaps and cabinets *(unverified parts omitted)*
 - **print_in_place**: partly: print-in-place hinges can be given friction by adding a bolt and nut to squeeze the knuckles (e.g. KatDelgado's 'Friction Hinge Mechanism' is printed as separate parts (threaded barrel, two caps, threaded slider) and screwed together. *(unverified parts omitted)*
 - **making_tips_3d_printing**: 1) Don't rely on a tight printed fit for the friction. Plastic that is held squeezed slowly loses its grip (stress relaxation), so a press-fitted or tight hinge loosens, and heat speeds this up (DuPont design guide, pp. 23 and 72). DuPont's advice for plastic friction couplings: if a constant torque must be held for a long time, add a metal spring to keep the force constant (p. 48). PLA creeps most, PETG less (thrinter creep test). 2) Easiest reliable design: print ordinary knuckles with normal clearance (at least 0.3 mm for moving parts, Prusa) and make the friction adjustable: a steel bolt as the pin, a nylon-insert lock nut, and rubber O-rings or a flexible TPU ring pressed between the knuckle faces. The rubber keeps pressing as parts wear, like a spring washer. 3) For a hinge that needs no bolt, KatDelgado's printed 'Friction Hinge Mechanism' turns rotation into sliding: a threaded barrel drives a slider along a hex (later square) shaft, and the rub of the slider on the shaft gives the resistance. The published phone-stand settings were a 0.15 mm per face offset on the shaft and a 14 mm long slider, with threads offset 0.1 mm; the caps must be held so they can't be pushed apart; a square shaft printed lying flat worked more consistently because no layer lines catch (Printables, CC BY). 4) In OpenSCAD, BOSL2's knuckle_hinge() can make the pin hole for a machine screw (pin_diam="M3"), with clearance holes through most knuckles and a self-tapping hole in the last one; its print-in-place option uses interlocking cones whose angle changes how tight the hinge is (BOSL2 hinges.scad). 5) Work out the torque you need before choosing sizes: lid weight times the sideways distance from the hinge pin to the lid's centre of gravity, worst when the lid is horizontal, plus a margin (see rules of thumb). A small printed friction hinge held up a phone in a case (KatDelgado); bigger lids need two hinges, a metal hinge or a stay. 6) Print knuckles so that bending doesn't split the layers: printed layers bond at only about half the in-plane strength (vertical PLA hooks failed at 55% and PETG at 46% of the flat-printed load, CNC Kitchen). 7) Material: PETG or ASA for anything warm; PLA started to give way at 60 °C and PETG at 80 °C in CNC Kitchen's hot-load test, and friction parts creep faster when warm. *(unverified parts omitted)*
-- **off_the_shelf_parts**: Search for: 'friction hinge', 'torque hinge', 'constant torque hinge', 'position control hinge', 'free-stop hinge', 'adjustable friction hinge', 'one-way torque hinge', 'torque insert' (Reell), 'laptop hinge' (replacement part by model number), 'friction stay' (windows). Parts for DIY friction: 'nylon-insert lock nut' (nyloc), 'spring washer', 'Belleville washer' or 'disc spring', 'wave washer', 'friction washer', 'O-ring', 'shoulder bolt'. Makers: Reell, Southco, Sugatsune, Elesa (brands).
+- **off_the_shelf_parts**: Search for: 'friction hinge', 'torque hinge', 'constant torque hinge', 'position control hinge', 'free-stop hinge', 'adjustable friction hinge', 'one-way torque hinge', 'torque insert' (Reell), 'laptop hinge' (replacement part by model number), 'friction stay' (windows). Parts for DIY friction: 'nylon-insert lock nut' (nyloc), 'spring washer', 'Belleville washer' or 'disc spring', 'wave washer', 'friction washer', 'O-ring', 'shoulder bolt'. Makers: Reell, Southco, Sugatsune, Elesa (brands). For wires through the pivot: 'hollow shaft hinge', 'hollow shaft friction hinge' or 'hollow torque insert' (Reell HTH60 with an 18 mm bore, HTI360 with a 5 mm bore).
 - **rules_of_thumb**: 
   - Torque needed = weight x horizontal distance from the hinge axis to the centre of gravity (Reell; Sugatsune: M = X1 x m, e.g. a 0.8 kg door with its centre of gravity 0.2 m from the axis needs about 1.57 N·m, or 0.79 N·m per hinge when two hinges share it). It is greatest when the panel is horizontal; one guide writes it as weight x distance x cos(angle) (Mansfield).
   - For a plain, even panel the centre of gravity is halfway across, so torque = (distance from hinge to door edge x weight) / 2 (Sugatsune 'The ABC's of Torque Hinges').
   - Add a margin: Sugatsune adds about 20% (with ±20% torque tolerance, the door's moment should be 20% below the hinge's average torque); Design World and Mansfield suggest adding about 30%.
   - Adding hinges shares the load: divide the total torque by the number of hinges (Sugatsune).
-  - Typical commercial holding torque: tenths of a N·m up to about 20 N·m per hinge (Design World); Reell's largest hold 11.3 N·m each (Reell).
+  - Typical commercial holding torque: tenths of a N·m up to about 20 N·m per hinge (Design World); Reell's largest hold 11.3 N·m each (Reell). Reell's hollow-shaft hinge page gives 'up to 11.5 N-m of torque' for its hollow-shaft range, slightly more than the 11.3 N·m above (both Reell figures recorded side by side).
   - Typical life: 20,000 to 50,000 cycles within torque tolerance (Mansfield); Elesa CFU tested to more than 60,000 cycles with unchanged torque.
   - Standard friction hinges are usually rated about -20 °C to 65 °C; special oven hinges go higher (Mansfield).
   - Plastic friction or spring parts lose force over time by stress relaxation; for a torque that must stay constant for a long time, add a metal spring (DuPont design guide, p. 48).
@@ -193,7 +196,7 @@
   - Car centre-console lids and infotainment screens (Design World)
   - Casement windows on friction stays, which hold the sash open against wind (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 149)
   - Medical equipment arms and covers, and aircraft seat headrests (Design World)
-- **when_to_use**: Use a friction hinge when a lid, screen, flap, visor or light should stay at any angle you leave it, without a separate stay, catch or knob to tighten: laptop-style lids, display and tablet stands, folding phone stands, instrument covers, camera or lamp arms that tilt, and printer-enclosure doors that shouldn't swing shut. It gives a smooth, quality feel with no clicks and stops lids from slamming. Use a one-way torque hinge when a lid should open easily but close slowly under its own weight.
+- **when_to_use**: Use a friction hinge when a lid, screen, flap, visor or light should stay at any angle you leave it, without a separate stay, catch or knob to tighten: laptop-style lids, display and tablet stands, folding phone stands, instrument covers, camera or lamp arms that tilt, and printer-enclosure doors that shouldn't swing shut. It gives a smooth, quality feel with no clicks and stops lids from slamming. Use a one-way torque hinge when a lid should open easily but close slowly under its own weight. When wires must cross the hinge, choose a hollow-shaft friction hinge: it has an open centre that 'allows wires, cables, tubing, and connectors to pass directly through the pivot point center', so the wiring is hidden inside the joint; Reell sells them with 5 mm and 18 mm bores (internal diameters), 360° rotation and up to 11.5 N·m (Reell, hollow shaft hinges page). Reell lists medical equipment arms and monitors, vehicle displays, adjustable lighting or camera systems and robots with internal wiring as uses.
 - **when_not_to_use**: Avoid it for heavy or long doors and hoods, where the needed torque is too high or the hinge would be hard to move (use a counterbalance hinge, torsion spring or gas strut; Machine Design, Design World); when you need exact, repeatable angles (use a detent hinge or an indexing plunger); when the position must not move if bumped or loaded (use a locking stay, a clevis with a thumbscrew or a Hirth joint); when the panel's weight changes a lot (use an adjustable friction hinge; Design World); and in hot or oily places where friction changes (choose a sealed, stainless or high-temperature type).
 - **environment_limits**: Standard friction hinges are rated about -20 °C to 65 °C, with special high-temperature types for ovens (Mansfield). Heat, humidity, chemicals and dirt change friction, and metal-on-polymer friction degrades under heat and chemicals (Mansfield); stainless steel and sealed mechanisms resist corrosion (Design World; Sugatsune). Printed hinges: PLA starts to give way at about 60 °C and PETG at about 80 °C under load (CNC Kitchen), and squeezed plastic relaxes over time, faster when warm, so the hinge slowly loosens (DuPont, p. 72; thrinter). *(unverified parts omitted)*
 - **safety_notes**: A friction hinge only resists; it doesn't lock. If the torque is too low for the lid, or the lid gets heavier (added parts) or is bumped, it can drop and pinch fingers or hit a head; size the torque with a margin and use a stay for heavy lids. Hinges are pinch points at the knuckle. Adjustable hinges can be set below the holding threshold by mistake (Mansfield). Laptop hinge repairs involve spring-loaded washer stacks and cracked plastic mounts (Restarters wiki).
@@ -208,6 +211,7 @@
   - Ball-and-socket joint with friction: the same holding idea in every direction (Reell also makes friction spherical joints)
   - Clevis joint with thumbscrew: holds any angle by clamping, which is firmer but needs a knob turned each time
   - Ordinary butt hinge and print-in-place hinge: swing freely with no holding
+  - Cable through a hinge: how to carry wires across a pivot without pinching or breaking them; a hollow-shaft friction hinge is one way, passing them through its open centre (Reell)
 
 ### Pictures, videos and models
 
@@ -247,6 +251,7 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
+  - https://reell.com/products/hollow-shaft-hinges
 
 ### Other info
 
@@ -255,6 +260,8 @@
 ## 65 Ball-and-socket joint (lockable ball head)
 
 *hinges & pivots.* A ball held in a cup that can swivel in any direction, sometimes with a clamp to lock it; can be printed in place
+
+*Also covers:* Also covers the pyramid alignment adaptor from prosthetics as a compact screw-locked tilt joint, described for maker use only.
 
 ### What it is
 
@@ -271,11 +278,12 @@
   - tow ball and coupling (trailer hitch)
   - Kugelgelenk (German), rotule (French)
   - universal ball joint (maker name on model sites, though a true universal joint is a different mechanism)
+  - pyramid adaptor / pyramid adapter (a screw-locked tilt joint from artificial legs; Ottobock (brand) patented it in 1969)
 - **family**: hinges & pivots
 - **other_families**: snap & clip fits, clamping, magnetic & friction connections, print-in-place & 3D-printing joints, quick-release & tool-free
 - **one_liner**: A ball on one part sits in a matching cup (socket) on the other so it can turn about any axis through the ball's centre but can't pull out; friction holds it at an angle, and a knob, nut or clamp can squeeze the cup to lock it.
 - **complexity**: A few parts. Basic: a ball on a neck or stud, and a socket whose rim wraps past the ball's widest point. Snap-in versions have a socket split by slots into springy fingers (US4607976, Covestro p. 5). Lockable versions add a clamp: a knob screw pushing a friction pad or cone-shaped compression ring against the ball (tripod ball heads; Lensrentals teardown); a threaded union nut or collar that squeezes the slotted socket fingers (printed lockable ball joints); or two half-cups pulled together by one bolt and knob to grip two balls at once, with a spring pushing them apart when loosened (double-socket arm).
-- **how_it_works**: The ball's centre stays fixed inside the cup, so the attached part can swing in any direction and spin, but can't move sideways or pull out (a spherical joint: three turning freedoms, no sliding; Wikipedia 'Kinematic pair'). The socket's lip curls past the ball's widest point (an undercut), so the ball either snaps in by bending the socket's slotted fingers or is trapped by a cap or nut. How firmly it holds an angle depends on how hard the cup presses on the ball: a light press gives a stiff 'friction joint' that holds light things in any position; tightening a knob or nut presses harder and locks it (a ball head's bearing cup 'distorts a bit with pressure, exerting more friction at higher pressures', Lensrentals). The tilt is limited by the neck hitting the rim of the cup, so an ordinary spherical joint can't turn through more than 180° (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 172).
+- **how_it_works**: The ball's centre stays fixed inside the cup, so the attached part can swing in any direction and spin, but can't move sideways or pull out (a spherical joint: three turning freedoms, no sliding; Wikipedia 'Kinematic pair'). The socket's lip curls past the ball's widest point (an undercut), so the ball either snaps in by bending the socket's slotted fingers or is trapped by a cap or nut. How firmly it holds an angle depends on how hard the cup presses on the ball: a light press gives a stiff 'friction joint' that holds light things in any position; tightening a knob or nut presses harder and locks it (a ball head's bearing cup 'distorts a bit with pressure, exerting more friction at higher pressures', Lensrentals). The tilt is limited by the neck hitting the rim of the cup, so an ordinary spherical joint can't turn through more than 180° (Thang, 2700 Animated Mechanical Mechanisms, Part 3, p. 172). A flat, screw-locked cousin is the pyramid alignment adaptor used between the modules of artificial legs: a short pyramid-shaped boss (the 'male pyramid') on one part sits in a matching socket (the 'female pyramid' or receiver) on the other, which carries four set screws; before the screws are tightened the joint can be turned a full circle and tilted a few degrees, and tightening the four screws locks that alignment (Blatchford 938373 and 938050 instructions; College Park 4-hole pyramid receiver instructions). Wikipedia ('Ottobock') says the adaptor 'allows static corrections as well as the exchange of the modules'. It is described here only as an idea for non-medical maker builds.
 
 ### Finder attributes
 
@@ -325,6 +333,7 @@
   - Keep arms between ball joints short: 'Short arms are best when stability matters most' (Mountguys).
   - A ball head's bearing cup is a firm plastic that grips harder the harder it is pressed; most ball-head failures (about 90% in Lensrentals' repair experience) are stripped friction-knob threads or a bent push rod, not the ball (Lensrentals).
   - Acetal (Delrin) socket with a nylon ball gives low wear even completely dry (DuPont design guide, p. 45).
+  - Pyramid alignment adaptors (prosthetics product data, quoted only to show the idea's range): Blatchford's child-size mini-pyramid tube adaptor gives '360° rotation' and '±5° angular' adjustment (938373), while its full-size female pyramid adaptor gives 360° rotation and '±7° tilt from vertical' (938050); both lock with four pyramid set screws (Blatchford instructions for use), and College Park's 4-hole pyramid receivers use four M8 set screws.
 
 ### When to use it
 
@@ -333,10 +342,10 @@
   - Your hip and shoulder (Wikipedia 'Ball-and-socket joint')
   - A trailer tow ball and coupling (Wikipedia 'Tow hitch') and a car's suspension ball joints (Wikipedia 'Ball joint')
   - Car and bike phone or GPS mounts with a rubber ball and a clamping arm (Mountguys), and doll or action-figure joints (Wikipedia 'Ball joint')
-- **when_to_use**: Use a ball-and-socket joint when something must be aimed in any direction from one point: cameras, lights, phones, sensors, fans, mirrors and webcams; levelling feet that must sit flat on an uneven floor; poseable figures and models. Use a friction ball joint when light parts should stay where posed, and a lockable one (knob, union nut or double-socket arm) when the device is heavier or must not drift. It is also the joint to choose when two parts need to line up by themselves despite angle errors (self-aligning).
+- **when_to_use**: Use a ball-and-socket joint when something must be aimed in any direction from one point: cameras, lights, phones, sensors, fans, mirrors and webcams; levelling feet that must sit flat on an uneven floor; poseable figures and models. Use a friction ball joint when light parts should stay where posed, and a lockable one (knob, union nut or double-socket arm) when the device is heavier or must not drift. It is also the joint to choose when two parts need to line up by themselves despite angle errors (self-aligning). The pyramid-adaptor idea suits a compact tilt joint between two modules, such as robot legs or sensor mounts, that is set once with screws and then locked, where full rotation and a few degrees of tilt are enough.
 - **when_not_to_use**: Avoid it when you need movement about one axis only, since a ball lets the part flop sideways too (use an ordinary hinge or pivot); when you need to repeat exact angles (use a detent, indexing plunger or a geared pan-tilt head; ball heads are poor at precise alignment, Wikipedia 'Tripod head'); when twisting must be passed through the joint (use a universal joint or a pin spherical joint); when tilt beyond about 90° each way is needed (use a universal joint or a gimbal); and for heavy loads that must be locked on a small printed ball (use a bought metal ball head or a larger ball).
 - **environment_limits**: Printed PLA joints soften from about 60 °C and PETG from about 80 °C under load (CNC Kitchen), so avoid PLA in a hot car; PLA creeps under a constant squeeze, so friction joints loosen (thrinter; DuPont stress relaxation, p. 23). Dirt and water get into open joints: car ball joints use a rubber boot and grease (Wikipedia 'Ball joint'). Vibration can slowly shift a friction-held joint; longer arms and smaller balls make this worse (Mountguys). *(unverified parts omitted)*
-- **safety_notes**: In cars a failed suspension ball joint lets the wheel angle go free and can cause loss of control (Wikipedia 'Ball joint'); a trailer coupling must be fully latched on the tow ball. Snapping balls into tight sockets pinches fingers, and overtightening printed lock rings can crack the socket (Hackaday 2018). *(unverified parts omitted)*
+- **safety_notes**: In cars a failed suspension ball joint lets the wheel angle go free and can cause loss of control (Wikipedia 'Ball joint'); a trailer coupling must be fully latched on the tow ball. Snapping balls into tight sockets pinches fingers, and overtightening printed lock rings can crack the socket (Hackaday 2018). The pyramid adaptor comes from prosthetics and is described here only for non-medical maker builds: never make, modify or repair parts for an artificial limb or anything worn on the body; those are medical devices, and the makers' instructions reserve fitting for a qualified practitioner (Blatchford). *(unverified parts omitted)*
 - **common_failures**: The joint won't hold its angle because the friction is too low, the socket has worn or relaxed, or the load is too heavy for the ball size (fix: tighten the lock, use a bigger ball or a shorter arm; Mountguys). The ball pops out because the socket lip is too shallow or the fingers have relaxed (make a deeper undercut or add a locking ring). The socket cracks on assembly or when locking because the undercut or clamping force is too large, or layer lines split (Covestro; Hackaday 2018). Knob threads strip or the push rod bends in ball heads (Lensrentals). Print-in-place joints fuse because the gap is too small (use a test ring; Rob C, Printables). Car ball joints wear and click or clunk (Wikipedia 'Ball joint').
 - **related**: 
   - Posable segmented arm (ball chain, modular hose): many small ball-and-socket joints in a row
@@ -346,6 +355,8 @@
   - Friction hinge: the same stay-where-you-leave-it friction, but about one axis
   - Spherical plain bearing / self-aligning bearing: a ball-and-socket used to let a shaft or link self-align
   - Magnet joint: a steel ball held in a seat by a magnet, which lets go instead of breaking
+  - Levelling foot: the swivel pad under a levelling foot is a small ball-and-socket joint that lets the pad lie flat on an uneven floor
+  - Locking adjustment screws: opposing screws that set a tilt or height and then lock it, as the four set screws of a pyramid alignment adaptor do
 
 ### Pictures, videos and models
 
@@ -398,6 +409,10 @@
   - https://www.printables.com/model/368218-lockable-ball-joint/comments
   - https://www.printables.com/model/370429-generic-lockable-ball-joint
   - https://www.printables.com/model/789688-adjustablelockable-ball-joint-phone-holder-for-pru
+  - https://www.blatchfordmobility.com/media/ir1ilehd/938373pk2-iss1.pdf
+  - https://www.blatchfordmobility.com/media/iiupykot/938050pk3-iss1.pdf
+  - https://www.college-park.com/media/wysiwyg/pdf/instructions/components/CPI-INS-4HPR.pdf
+  - https://en.wikipedia.org/wiki/Ottobock
 
 ### Other info
 
@@ -406,6 +421,8 @@
 ## 66 Posable segmented arm (snap-together ball chain, gooseneck)
 
 *hinges & pivots.* A chain of small ball-and-socket segments that snap together and hold any shape by friction, like a coolant hose or a flexible phone holder
+
+*Also covers:* Also covers the magnetic dial-indicator stand, whose single knob locks all its joints.
 
 ### What it is
 
@@ -465,7 +482,7 @@
   - sheet metal / wire forming: coiled-wire goosenecks (made by specialist manufacturers) *(unverified parts omitted)*
 - **print_in_place**: no: segments are printed separately (usually one per part or many on one plate) and snapped together; Printables also has print-in-place articulated toy animals with ball-socket joints, but posable arms are normally assembled
 - **making_tips_3d_printing**: 1) Material: use PETG, not PLA. PLA creeps and 'will creep and get loose over time' in ball-socket tubing (Jack, Printables 'Ball-Socket joint tubing'); PLA showed the most creep in a clip test (thrinter) and softens from about 60 °C (CNC Kitchen). PETG also flexes more than PLA, which helps the segments bend slightly as they snap together (bulbasaur0), and printed PETG links are 'plenty sturdy' (nickcin). 2) Orientation: print each segment standing up with the ball down and the socket up, so the ball is round and supports don't end up inside the socket; add a small brim or brace if tall segments might break off the bed (nickcin 'Snap Ball Socket Joint Link'; Alex Rich). 3) Settings from working designs: 0.2 mm layers, 2 perimeters, 100% infill, no supports, random seam (Daniel Vitanza 'Modular Hoses (Loc-line like)'); walls two perimeters thick (0.8 mm with a 0.4 mm nozzle) for hollow hose segments (bulbasaur0). 4) Tune the friction by printing versions: Vitanza offers 'light' segments that are easy to bend but hold only light electronics and 'hard' ones that hold more but are tougher to move, because grease or lubricant didn't work well for printed segments. 5) Assembly: line the two segments up on the same axis and press hard until the ball is fully inside, then bend each joint once to break in the rough printed surface (Vitanza). For big segments use pliers or a clamp. 6) If it keeps popping apart, add a locking nut on each joint: Alex Rich's design uses a quarter-turn twist-lock nut over a slotted socket, with several lock positions to take up wear (Printables 'Locking ball and socket arm'; hackaday.io). Don't overtighten printed lock rings with tools: one PLA socket cracked (Hackaday 2018). 7) For a whole arm that locks at once, thread a strong cord or cable through a central hole and tighten it with a knob or screw; tension squeezes every joint (US6730020); a 4 mm hole in each segment also lets you run wires for a lamp (nickcin). *(unverified parts omitted)*
-- **off_the_shelf_parts**: Search for: 'modular hose', 'modular coolant hose', 'coolant hose kit', 'hose assembly pliers', 'flare nozzle', 'round nozzle' and 'hose segments' in 1/4 in, 1/2 in, 3/4 in or 2.5 in (vacuum) sizes (Loc-Line (brand) and compatible brands); 'gooseneck tubing', 'flexible gooseneck', 'stayput tubing'; 'flexible arm phone holder', 'magnetic base flexible arm', 'helping hands'; 'flexible tripod' (GorillaPod (brand)); Note that cheap copies may use incompatible connectors (AIMS). *(unverified parts omitted)*
+- **off_the_shelf_parts**: Search for: 'modular hose', 'modular coolant hose', 'coolant hose kit', 'hose assembly pliers', 'flare nozzle', 'round nozzle' and 'hose segments' in 1/4 in, 1/2 in, 3/4 in or 2.5 in (vacuum) sizes (Loc-Line (brand) and compatible brands); 'gooseneck tubing', 'flexible gooseneck', 'stayput tubing'; 'flexible arm phone holder', 'magnetic base flexible arm', 'articulating arm magnetic base' (a dial-indicator stand whose joints all lock with one knob; Protool), 'helping hands'; 'flexible tripod' (GorillaPod (brand)); Note that cheap copies may use incompatible connectors (AIMS). *(unverified parts omitted)*
 - **rules_of_thumb**: 
   - Modular coolant hose sizes and working pressures: 1/4 in system 30-50 psi; 1/2 in 20-30 psi; 3/4 in 10-20 psi (Loc-Line catalogue, RS Components copy, p. 1).
   - Acetal modular hose: melting point 165 °C, maximum operating temperature 76 °C (Loc-Line catalogue p. 1).
@@ -483,6 +500,7 @@
   - Gooseneck desk lamps and conference microphones (Wikipedia 'Gooseneck lamp'; 'Gooseneck (fixture)')
   - Flexible phone holders and soldering 'helping hands' arms (Hackaday 2018)
   - Bendy tripod legs such as the original GorillaPod (brand), which had nine ball-and-socket joints per leg (webBikeWorld)
+  - A machinist's magnetic dial-indicator stand (articulating-arm magnetic base), whose 'Arm has 3 articulating joints that can be locked with the single hand knob' (Protool; Penn Tool): the central-locking idea with a few big joints instead of many small ones
 - **when_to_use**: Use it when something light has to be aimed or held in an awkward spot and re-aimed often: coolant, air-blast or vacuum nozzles, lights, magnifiers, webcams, phones, sensors, fans, and parts held for soldering. It routes around obstacles, carries fluid, air or cables inside, reaches in 3D without any tools, and is easy to lengthen or shorten. Printed versions are cheap to make in any colour and length. Choose a locking version (locking nuts or a tensioned cable) when it must hold something heavier or survive knocks.
 - **when_not_to_use**: Avoid it for heavy loads or long reaches (use a jointed arm with lockable joints, a ball-head mount with a short arm, or a monitor arm); where the position must be exact and repeatable (use a rigid bracket or indexed joints); on machines with hot chips, which melt acetal hose (AIMS), or at high fluid pressure (use metal pipe or proper hose); and where it will be yanked lengthwise, since unlocked chains pop apart (use locking segments). For carrying cables along a machine's moving axis use a cable carrier (drag chain) instead, which bends in one plane and doesn't need to hold a shape.
 - **environment_limits**: Acetal modular hose: maximum operating temperature 76 °C (melts at 165 °C); not resistant to strong acids, strong bases or bleach (Loc-Line catalogue); hot chips from machining can melt it, so aim it 30-45° away from where chips fly (AIMS). Acid-resistant polyester versions exist (Loc-Line; AIMS). Vibration and repeated adjusting can make segments drift or pop off over time (AIMS), although the maker says vibration creep is eliminated (Loc-Line). Printed PLA segments creep and loosen and soften from about 60 °C (thrinter; CNC Kitchen; Jack, Printables). Flexible aluminium-core arms can snap if bent back and forth too often, while ball-joint legs are very hard to break (Gizmodo on GorillaPod redesign).
@@ -538,6 +556,8 @@
   - https://www.printables.com/model/80144-articulated-arm
   - https://www.printables.com/model/901942-locking-profile-snake
   - https://www.printables.com/model/1114209-articulated-arm
+  - https://www.protool-ltd.co.uk/collections/asimeto-articulating-arm-magnetic-bases-602-series
+  - https://www.penntoolco.com/asimeto-articulating-arm-magnetic-base-w-176-lbs-hold-power-602-03-1/
 
 ### Other info
 
@@ -557,7 +577,7 @@
   - fork joint, fork head or clevis fork head (threaded fork ends to DIN 71752 / ISO 8140, used on pneumatic cylinders and gas struts)
   - rod clevis or cylinder clevis
   - knuckle joint (a forked rod end and an eye rod end joined by a knuckle pin; NPTEL machine design course)
-  - shackle (a U-shaped clevis together with its pin, as used in rigging; Wikipedia)
+  - shackle (a U-shaped clevis together with its pin, as used in rigging; Wikipedia); rigging shackles have their own entry, Shackle and quick link
   - clevis joint with folding spring bolt, or with bolt and circlip (catalogue names; mbo Osswald, igus)
   - prong mount, finger mount, 2-prong and 3-prong mount (action cameras)
   - GoPro mount (brand) and GoPro's own names 'mounting fingers' and 'mounting buckle'
@@ -633,6 +653,8 @@
   - Detent hinge: clicks and holds at set angles instead of any angle
   - Friction hinge: holds any angle by built-in friction, with no thumbscrew to tighten
   - Knuckle hinge (butt hinge): the same fork-and-tongue idea repeated along a long edge
+  - Shackle and quick link: the rigging cousin of a clevis, a U-shaped link closed by a screw pin or bolt that joins chain, rope and straps rather than acting as a pivot
+  - Tripod and stand screw mount: the 1/4-20 camera thread that a mounting-finger adapter turns a prong mount into
 
 ### Pictures, videos and models
 
@@ -1903,6 +1925,8 @@
 
 *hinges & pivots.* A shaft or pin turning in a hole, or in a ball bearing, as the basic way to make something rotate
 
+*Also covers:* Also covers thrust washers as the simplest end-float bearing.
+
 ### What it is
 
 - **plain_name**: The basic way to make something turn: a pin, bolt or shaft through a hole, either rubbing straight on the hole (or on a slippery sleeve pushed into it), or running in a ball bearing, a ring with steel balls inside, so it spins more easily
@@ -1923,7 +1947,7 @@
 - **other_families**: print-in-place & 3D-printing joints
 - **one_liner**: A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.
 - **complexity**: A few parts for a plain pivot: a pin, bolt or shaft, the hole it turns in (often lined with a bushing), and something to stop it sliding out (a head and nut, a shoulder, a retaining ring or a shaft collar), usually with washers. A ball bearing is a small assembly that acts as one unit: inner ring, outer ring, balls, a cage that keeps them spaced, grease, and often shields or seals (Wikipedia, Rolling-element bearing and Ball bearing).
-- **how_it_works**: In a plain pivot the pin simply turns in the hole, sliding on its surface. The pin must be a little smaller than the hole to move, so it really touches along a line, and friction and wear depend on the two materials and on lubrication (Wikipedia, Revolute joint and Plain bearing). Pairing a hard, smooth pin with a softer, slippery sleeve (bronze, oil-filled sintered bronze, or a plastic such as nylon or acetal) makes it run smoothly and puts the wear on the cheap sleeve, which is replaced when worn (Wikipedia, Plain bearing). A ball bearing swaps sliding for rolling: balls roll between grooved inner and outer rings, so friction is much lower (Wikipedia, Rolling-element bearing; GM0). The ring that turns relative to the load is fitted tight on its shaft or in its housing so it can't slip round, and the other ring is a looser fit (NSK).
+- **how_it_works**: In a plain pivot the pin simply turns in the hole, sliding on its surface. The pin must be a little smaller than the hole to move, so it really touches along a line, and friction and wear depend on the two materials and on lubrication (Wikipedia, Revolute joint and Plain bearing). Pairing a hard, smooth pin with a softer, slippery sleeve (bronze, oil-filled sintered bronze, or a plastic such as nylon or acetal) makes it run smoothly and puts the wear on the cheap sleeve, which is replaced when worn (Wikipedia, Plain bearing). A ball bearing swaps sliding for rolling: balls roll between grooved inner and outer rings, so friction is much lower (Wikipedia, Rolling-element bearing; GM0). The ring that turns relative to the load is fitted tight on its shaft or in its housing so it can't slip round, and the other ring is a looser fit (NSK). The simplest bearing for a push along the pin (end float) is a thrust washer, the flat 'thrust form' of a bushing (Wikipedia, Plain bearing): a ring of metal such as bronze, or of plastic such as nylon or PTFE, between the turning part and the fixed face beside it, used where a rolling thrust bearing isn't worth its cost or won't fit (Wikipedia, Washer (hardware)).
 
 ### Finder attributes
 
@@ -1975,7 +1999,7 @@
   - Skateboard and inline-skate wheels, each running on two 608 ball bearings (Wikipedia, Ball bearing)
   - Fidget spinners, built around ball bearings (Wikipedia, Ball bearing)
   - The lever of a door handle turning on its spindle (Wikipedia, Revolute joint photo) *(unverified parts omitted)*
-- **when_to_use**: Use a plain pivot (a bolt, shoulder screw or pin in a hole, ideally with a bushing) for levers, arms, linkages, folding parts and anything that turns slowly, occasionally or back and forth: it is cheap, compact and strong for its size (Wikipedia, Plain bearing). A shoulder screw is the neat choice when a part must turn on a bolt without being clamped (Machine Design). Use ball bearings for anything that spins continuously or fast, such as wheels, pulleys, spools, fans and drive shafts, where low friction and accurate location matter; robotics guides recommend bearings for drivetrains and high speeds and bushings for low loads or tight budgets (GM0).
+- **when_to_use**: Use a plain pivot (a bolt, shoulder screw or pin in a hole, ideally with a bushing) for levers, arms, linkages, folding parts and anything that turns slowly, occasionally or back and forth: it is cheap, compact and strong for its size (Wikipedia, Plain bearing). A shoulder screw is the neat choice when a part must turn on a bolt without being clamped (Machine Design). Use ball bearings for anything that spins continuously or fast, such as wheels, pulleys, spools, fans and drive shafts, where low friction and accurate location matter; robotics guides recommend bearings for drivetrains and high speeds and bushings for low loads or tight budgets (GM0). Add a thrust washer where a turning part would otherwise rub against a fixed face or a pin head; washers are used in rotating devices as a bearing and as a wear pad (Wikipedia, Washer (hardware)).
 - **when_not_to_use**: Don't run a plain printed pin in a printed hole fast and continuously under load: it heats and wears (see the PV limits); use a ball bearing or a bronze or plastic bushing. Don't hang a tipping load on a single ball bearing; use two spaced apart, or a turntable bearing for a wide, flat turning platform. Ball bearings that only rock back and forth over a small angle, or sit still while vibrating, suffer false brinelling (Wikipedia), so a bushing may be better there. For tiny angles with no play and no wear, use a flexure hinge; for straight-line motion, use linear guides; for a pivot that must also tilt, use a ball-and-socket joint or rod end.
 - **environment_limits**: Plastic bushings: nylon is listed for about -29 to 121 °C and acetal about -29 to 82 °C, while SAE 841 bronze is listed to about 104 °C (Wikipedia, Plain bearing table, converted from °F). Plastic bearings creep, expand with heat and soften when warm (Wikipedia, Plain bearing), and absorb moisture; igus sizes its bushings to cope with humidity up to 70% (igus). Printed PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen). Ball bearings: grit and water in the lubricant greatly shorten their life, and seals help but add friction (Wikipedia, Rolling-element bearing); vibration while standing still presses the grease out (false brinelling; Wikipedia). *(unverified parts omitted)*
 - **safety_notes**: Spinning parts on bearings can catch hair, loose clothing or fingers. *(unverified parts omitted)*
@@ -1993,6 +2017,8 @@
   - Shaft-to-hub joints (key, set screw, D-flat, clamp hub): fix a gear or wheel to the turning shaft
   - Mid-print embedding: trapping a bearing inside a printed part
   - Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt
+  - Castor: a wheel turning on an axle in a bracket, with a second, swivel bearing on top so the wheel trails behind and steers itself
+  - Ball caster: a large ball carried on small bearing balls, so it rolls in every direction instead of turning about one axis
 
 ### Pictures, videos and models
 
@@ -2035,6 +2061,7 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://www.youtube.com/watch?v=lIEHscqWJAk
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Washer_(hardware)
 
 ### Other info
 
@@ -2044,7 +2071,7 @@
 
 *hinges & pivots.* A hard stop that lets a shaft turn more than one full turn and then halts it, for example so a robot turret can't wind its cables off
 
-*Also covers:* Also covers stop work on clock mainsprings; the Geneva stop is covered under Geneva drive
+*Also covers:* Also covers stop work on clock mainsprings; the Geneva stop is covered under Geneva drive. Also covers lost motion, the principle behind its stacked-ring stops.
 
 ### What it is
 
@@ -2067,7 +2094,7 @@
 - **other_families**: seals & pass-throughs, springs & energy storage, brakes, dampers & speed control, locating & alignment
 - **one_liner**: A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.
 - **complexity**: A few parts. Travelling-nut type: a threaded section on the shaft, a nut that is kept from turning (by a guide rod or slot), and two end stops (frame faces, collars, or a pin on the nut meeting a finger on the shaft). Stacked-ring type: a driving pin or lug on the shaft, a stack of loose rings or discs each with its own pin or lug, and one fixed stop on the frame. Gear type: a small gear on the shaft driving a larger gear or worm wheel that carries a stop pin, or two gears with slightly different tooth counts each carrying a stop. Clock and watch stop work: a finger piece on the mainspring barrel arbor and a Maltese-cross wheel, or a wheel with one tall tooth. In Thang's examples the whole thing is driven through a friction slip clutch.
-- **how_it_works**: Each design counts turns mechanically and only blocks the shaft when the count reaches either end of the range. In the travelling-nut type (traveling nut), the shaft's thread pushes a nut that cannot turn along the shaft by one thread lead per turn, until the nut reaches a stop at one end or the other. In the stacked-ring type (stacked washers or pinned discs), a lug on the shaft picks up the first ring after nearly one turn, that ring picks up the next ring on the following turn, and so on until the last ring hits a fixed stop, so every ring adds almost one more turn. In gear types, a reduction gear (or two gears with slightly different tooth counts, a hunting-tooth stop) turns a stop so slowly that it only meets its partner after many turns; clock stop work does the same with a Maltese cross that has one wider, blocking arm, or a wheel with one extra-tall tooth that jams in one shallow notch.
+- **how_it_works**: Each design counts turns mechanically and only blocks the shaft when the count reaches either end of the range. In the travelling-nut type (traveling nut), the shaft's thread pushes a nut that cannot turn along the shaft by one thread lead per turn, until the nut reaches a stop at one end or the other. In the stacked-ring type (stacked washers or pinned discs), a lug on the shaft picks up the first ring after nearly one turn, that ring picks up the next ring on the following turn, and so on until the last ring hits a fixed stop, so every ring adds almost one more turn. In gear types, a reduction gear (or two gears with slightly different tooth counts, a hunting-tooth stop) turns a stop so slowly that it only meets its partner after many turns; clock stop work does the same with a Maltese cross that has one wider, blocking arm, or a wheel with one extra-tall tooth that jams in one shallow notch. The stacked-ring type works by deliberate lost motion (free play before the driven part is picked up): each ring turns idly until its lug is caught. The same principle gives a motion delay: in Thang's 'Motion delay mechanism 1' a crank 'rotates idly' on its gear's shaft, so the output rack moves only after the gear has made about two revolutions, and more idle cranks make the delay longer (Thang, 2700 Animated Mechanical Mechanisms part 2, p. 119).
 
 ### Finder attributes
 
@@ -2130,7 +2157,7 @@
 - **related**: 
   - Geneva drive (Geneva stop): a Maltese cross with one slot closed limits winding to a few turns; covered in its own entry (507 Mechanical Movements no. 212)
   - Slip ring and rotary union: lets a shaft turn endlessly while passing power, signals or fluid, so no stop is needed, but it costs more and has sliding contacts
-  - Cable loop, spiral (clock-spring) cable or twisting cable chain: carries cables across a turning joint for a limited angle; a multi-turn stop keeps the rotation inside that limit
+  - Cable through a hinge: carries cables across a joint that turns a limited amount, as a slack loop, a spiral flat cable (clockspring) or a twisting cable chain; a multi-turn stop keeps the rotation inside that limit
   - Simple end stop (pin and lug, single-turn stop): blocks rotation after less than one turn; simpler, but can't allow a full turn or more (US3662610A describes fingers that 'limit rotation after slightly less than one turn')
   - Rotary limit switch (as in roller-shutter tube motors): the same turn counting, but it switches the motor off with cams rather than blocking the shaft (Walter Motor)
   - Lead screw and nut: the same thread-and-nut idea, used to move a load rather than to count turns
@@ -2182,6 +2209,7 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://cs448m.github.io/lectures/machines/doc/2.pdf
 
 ### Other info
 

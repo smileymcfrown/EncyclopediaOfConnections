@@ -91,7 +91,10 @@
       "Tamper-evident breakaway bridge (frangible link) and shear-pin coupling: one-shot links that break by force instead of heat",
       "Thermal fuse (thermal cutoff): an electrical one-shot link that opens a circuit when a pellet or fusible element melts (Wikipedia)",
       "Galvanic timed release and dissolvable links: ocean releases that let go after a set time as a metal link corrodes in seawater (Hardy 2022)",
-      "Pyrotechnic cable cutter: an explosive charge cuts the cord in milliseconds, but gives shock and cannot be tested before use (Tibbitts 1988 lists these drawbacks for pyrotechnic initiators)"
+      "Pyrotechnic cable cutter: an explosive charge cuts the cord in milliseconds, but gives shock and cannot be tested before use (Tibbitts 1988 lists these drawbacks for pyrotechnic initiators)",
+      "Crimp terminals: ring terminals clamped under screws connect the nichrome heater wire in the NRL cutter (Thurn et al. 2012)",
+      "Heat-shrink tubing: insulates the leads and joints of hobby balloon cutters (Bovine Aerospace)",
+      "Soldered metal joint: a fusible link is two metal pieces soldered together with a low-melting alloy chosen to let go at a set temperature"
     ]
   },
   "media": {

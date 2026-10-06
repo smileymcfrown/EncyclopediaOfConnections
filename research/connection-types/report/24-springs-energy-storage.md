@@ -466,6 +466,8 @@
   - Compliant detent (flexure click arm) and compliant ratchet: leaf springs used to make clicks and one-way motion
   - Living hinge: a thin web that folds through a large angle; it is a hinge, not a spring
   - Spiral power spring and constant-force spring: flat strips coiled up to store more energy or give a steady pull
+  - Battery holder and battery contacts: springy metal leaf (and coil) contacts that press on a cell's ends; buy metal ones, because a printed plastic spring that stays pressed relaxes
+  - Pogo pin: a spring-loaded contact pin, where a tiny coil spring in a tube pushes a contact out; flat leaf-spring contact fingers do the same job where there is no room for a pin
 
 ### Pictures, videos and models
 
@@ -916,6 +918,8 @@
 
 *springs & energy storage.* Wire wound into a coil that pushes, pulls or twists back; the baseline spring
 
+*Also covers:* Also covers the repelling-magnet (magnetic) spring as an alternative.
+
 ### What it is
 
 - **plain_name**: A springy wire wound into a spiral (like a small, stiff Slinky) that pushes back when you squash it, pulls back when you stretch it, or twists back when you turn its arms; the ordinary spring inside pens, clothes pegs, mousetraps and garage doors
@@ -985,6 +989,7 @@
   - Springs in parallel add their stiffnesses; springs in series add their softness (compliance), so two identical springs end to end are half as stiff (Wikipedia 'Spring (device)', https://en.wikipedia.org/wiki/Spring_(device)).
   - Maximum operating temperatures for common spring wires: music wire and carbon steels about 250 °F (121 °C); oil-tempered chrome silicon 475 °F (246 °C); stainless 302/304 and 316 about 550 °F (288 °C); 17-7 PH stainless 650 °F (343 °C); phosphor bronze 200 °F (93 °C) (Lee Spring, https://www.leespring.com/spring-materials).
   - Extension springs that balance heavy things (e.g. garage doors) should always have a safety cable running through the middle, tied to solid points at both ends, so a broken spring cannot fly (Wikipedia 'Garage door', https://en.wikipedia.org/wiki/Garage_door).
+  - Repelling magnets as a spring (magnetic spring): the force 'doesn't increase in a straight line like the spring'; it stays very weak for most of the travel and then rises very quickly. In K&J's scale pogo-stick test two repelling ring magnets stored less than 0.32 J (2.8 in-lb) when fully compressed, against about 1.65 J (14.6 in-lb) for the coil spring; adding more magnets raised the force but the stack's thickness cut the travel (K&J Magnetics, https://www.kjmagnetics.com/blog/magnetic-springs).
 
 ### When to use it
 
@@ -994,7 +999,7 @@
   - the extension springs around the edge of a trampoline and on the side of an up-and-over garage door (Lee Spring; Wikipedia 'Garage door')
   - the coiled battery contact spring in a TV remote or torch (Wikipedia 'Spring (device)')
 - **when_to_use**: Whenever something needs to spring back by itself: return buttons, triggers, levers, latches and lids to their rest position; keep a belt, cable or clamp under steady tension; press a detent ball, pawl or friction pad into place; balance a hinged part; or cushion a bump. Choose a compression spring for a push (it is also safest, because when it breaks the pieces are still trapped between the parts), an extension spring for a pull between two points (it needs no guide and its initial tension holds things firmly shut), and a torsion spring to turn something back about a hinge pin, such as a spring-loaded lid, door or clip. For a maker, a bought steel spring is almost always better than a printed or improvised one.
-- **when_not_to_use**: Not where there is very little height: use wave springs or disc (Belleville) springs, which give the same force in much less space. Not for long travel with nearly constant force: use a constant-force spring or a gas spring. Not for long-lasting force made from printed plastic: plastic creeps and relaxes, so use a steel spring or at least PETG and accept a short life; for a printed one-piece spring a flat leaf spring or ortho-planar spring prints better than a coil. Not for twisting a torsion spring the 'opening' way: turn it round or use a spring wound the other hand. Not as a shock absorber on its own: a spring stores and returns energy and will bounce, so add a damper. Not for precise positioning: a spring only gives force, so use a stop, detent or locating feature to set the position.
+- **when_not_to_use**: Not where there is very little height: use wave springs or disc (Belleville) springs, which give the same force in much less space. Not for long travel with nearly constant force: use a constant-force spring or a gas spring. Not for long-lasting force made from printed plastic: plastic creeps and relaxes, so use a steel spring or at least PETG and accept a short life; for a printed one-piece spring a flat leaf spring or ortho-planar spring prints better than a coil. Not for twisting a torsion spring the 'opening' way: turn it round or use a spring wound the other hand. Not as a shock absorber on its own: a spring stores and returns energy and will bounce, so add a damper. Not for precise positioning: a spring only gives force, so use a stop, detent or locating feature to set the position. Not where the push has to work across a gap or through a wall with no contact: repelling magnets can act as a spring (a magnetic spring) and work across an air gap, though they cost more than coil springs and their force stays weak until they are close together, then rises very steeply (K&J Magnetics 'Magnetic springs'); see Magnetic detent.
 - **environment_limits**: Heat: music wire and carbon-steel springs are rated to about 121 °C (250 °F), stainless 302/304 and 316 to about 288 °C, 17-7 PH stainless to about 343 °C and phosphor bronze to about 93 °C (Lee Spring); above these they take a set and lose force. Water and corrosion: bare music wire rusts (it is sold uncoated, or zinc or cadmium plated; Lee Spring), so use stainless steel outdoors and 316 in salt water (Lee Spring notes it resists chloride attack); humid coastal air noticeably shortens garage door spring life (Wikipedia 'Garage door'). Fatigue: springs that cycle a lot must be stressed less; stock extension spring maximum loads are set for about 50,000 cycles (MW Components). Over-stress: a spring squashed or stretched too far takes a permanent set (gets shorter or longer) and loses force (Lee Spring). Printed plastic springs creep under steady load and lose most of their springiness over months (Hackaday, 2026, reader comments), and soften at much lower temperatures than steel.
 - **safety_notes**: Stored energy: large springs, especially garage door torsion springs, are extremely dangerous; many people have been injured or killed adjusting them, and a broken spring or failed part can fly off or let a heavy door fall (Wikipedia 'Garage door'); leave these to trained people. Extension springs on doors and heavy balances need a safety cable through the middle (Wikipedia). Winding or cutting spring wire: the wire whips or stabs when tension is released and cut ends are sharp; wear eye protection and cut-resistant gloves (warnings on the Printables 'Extension spring jig' and 'Metal Torsion Spring Maker' pages). Small compression springs can shoot out when a part is taken apart; point it away from your face. Pinch points between coils of extension springs and between a torsion spring's legs.
 - **common_failures**: (1) Buckling: a long, thin compression spring bows sideways and can pop out; guide it on a rod or in a hole, or use a shorter, fatter spring (Compression Spring Store; Lee Spring). (2) Binding: the spring rubs or jams because its diameter grows (compression) or shrinks (torsion) under load; leave clearance (Lee Spring; RoyMech). (3) Bottoming out (going solid) and taking a set: squashed until all coils touch, it gets permanently shorter and weaker; add a hard stop or pick a spring with more travel (Lee Spring white paper). (4) Broken hooks on extension springs: the hook is the most stressed point; keep the pull in line and choose a spring with a lower stress or a better end (MW Components). (5) Torsion spring loaded the wrong way (unwinding), or a mandrel that is too big: over-stress and early breakage; check the direction of wind and size the rod to about 90% of the loaded inside diameter (Lee Spring). (6) Fatigue cracks after many cycles, and corrosion; use stainless or coated springs and keep stresses low. (7) Plastic springs slowly losing their push (creep); replace with steel.
@@ -1008,6 +1013,9 @@
   - Wrap-spring clutch: uses a close-wound coil spring gripping a shaft as a one-way clutch rather than as an energy store
   - Spring balancer (gravity compensation): arranges coil springs so they cancel the weight of an arm or lid at every angle
   - Shock-corded sectional pole and elastic cord: rubber is a softer, cheaper tension spring that also damps, but it ages and creeps faster than steel
+  - Magnetic detent: magnet click stops; repelling magnets can also be used as a spring (magnetic spring), which works across an air gap but whose force rises steeply only at the end of travel (K&J Magnetics)
+  - Battery holder and battery contacts: a coil (often conical) spring presses on one end of a cell as its contact
+  - Pogo pin: a spring-loaded contact pin, where a tiny compression spring inside a tube pushes a contact pin out against a pad
 
 ### Pictures, videos and models
 
@@ -1052,6 +1060,7 @@
   - https://commons.wikimedia.org/wiki/Category:Coil_springs
   - https://www.youtube.com/watch?v=GuV63yW01TY (verified via YouTube oEmbed)
   - https://api.printables.com/graphql/ (Printables models 625029, 138561, 1004393, 468530, 110017 and 831166 read via the public API)
+  - https://www.kjmagnetics.com/blog/magnetic-springs
 
 ### Other info
 
@@ -1147,6 +1156,7 @@
   - Elastomer isolation mount (rubber bobbin, grommet): rubber used squashed or sheared to soak up vibration rather than stretched as a spring
   - Series-elastic coupling: puts a deliberate spring (sometimes elastic) between a motor and its load to measure and soften force
   - Pneumatic artificial muscle (McKibben muscle): a rubber tube inside a braid that pulls when pumped up with air
+  - Stopper knots and cord-end anchors: a knot behind a hole or a printed cord-end anchor to tie off elastic cord, as at the palm end of printed hands
 
 ### Pictures, videos and models
 

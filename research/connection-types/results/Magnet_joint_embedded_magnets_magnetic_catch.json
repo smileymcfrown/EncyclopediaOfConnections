@@ -9,7 +9,8 @@
       "magnetic closure or magnetic clasp (boxes, bags, cases)",
       "magnet and strike plate (magnet and steel counter plate)",
       "neodymium (rare-earth) magnet joint",
-      "magnetic breakaway connector, e.g. MagSafe (Apple, brand)"
+      "magnetic breakaway connector, e.g. MagSafe (Apple, brand); magnetic plugs that also carry current through contacts have their own entry, Magnetic connector",
+      "programmable, correlated or coded magnets (patterns of magnets with alternating poles that only mate with a matching pattern); Polymagnets (brand, trademark of Correlated Magnetics Research) (Wikipedia 'Programmable magnet')"
     ],
     "family": "clamping, magnetic & friction connections",
     "other_families": [
@@ -19,7 +20,7 @@
     ],
     "one_liner": "Pairs of permanent magnets, or a magnet and a piece of steel, set into the faces of two parts so the parts pull together, roughly line themselves up and stay shut, yet can be pulled apart by hand.",
     "complexity": "A few parts: two magnets (or one magnet and a steel washer, plate or ball), the pockets or housings they sit in, and usually glue or a press fit to keep them there. A cabinet magnetic catch is a small ready-made unit: a plastic housing holding a flat magnet with steel plates beside it, plus a separate steel strike plate or bracket on the door (as seen in a photo of one taken apart, Wikimedia Commons 'Magnetic Catch parts').",
-    "how_it_works": "A permanent magnet pulls hard on steel and on the opposite pole of another magnet, and the pull is strongest when the faces touch: even a gap of well under a millimetre can halve it (K&J 'How much will a magnet hold?'). Set into two mating faces, the magnets pull the parts shut and hold them there with no power. Straight pulling apart is resisted by the full magnetic force, but sliding sideways is resisted mainly by friction, which is only about 10-25 % of the pull (K&J; supermagnete). Because two magnets pull hardest towards each other when slightly offset and settle where they line up, the parts also pull themselves roughly into line as they close (K&J 'Magnet shear force with doors')."
+    "how_it_works": "A permanent magnet pulls hard on steel and on the opposite pole of another magnet, and the pull is strongest when the faces touch: even a gap of well under a millimetre can halve it (K&J 'How much will a magnet hold?'). Set into two mating faces, the magnets pull the parts shut and hold them there with no power. Straight pulling apart is resisted by the full magnetic force, but sliding sideways is resisted mainly by friction, which is only about 10-25 % of the pull (K&J; supermagnete). Because two magnets pull hardest towards each other when slightly offset and settle where they line up, the parts also pull themselves roughly into line as they close (K&J 'Magnet shear force with doors'). A cleverer version sets many small magnets side by side with their poles alternating in a planned pattern (programmable, correlated or coded magnets). Two patterns made to match pull together and lock, while a pattern that doesn't match won't: Wikipedia says they 'can be programmed to interact only with other magnetic structures that have been coded to respond', and the inventors' patent describes sets of codes that act 'as a unique identifier or key, requiring a matching part to operate the device' (Wikipedia 'Programmable magnet'; US7843297B2)."
   },
   "finder_attributes": {
     "job": [
@@ -82,7 +83,7 @@
       "Magnetic laptop chargers (MagSafe, brand) and magnetic plugs on deep fryers, which pull out safely if the cable is tugged (Wikipedia 'MagSafe')",
       "Boxes and cases with magnetic lids, e.g. 3D-printed magnetic boxes (Printables)"
     ],
-    "when_to_use": "Use it for lids, doors, covers, access panels, detachable modules, tool holders, display pieces and cosplay parts that should close with a satisfying click, stay shut against light loads and come apart by hand many times with no wear (Rapid Elevation; K&J FAQ); when parts should find their own position as they close (K&J); where a connection should break away safely instead of breaking, such as a cable or a part that could snag (Wikipedia 'MagSafe'); and where you want a hidden fastening with no visible latch.",
+    "when_to_use": "Use it for lids, doors, covers, access panels, detachable modules, tool holders, display pieces and cosplay parts that should close with a satisfying click, stay shut against light loads and come apart by hand many times with no wear (Rapid Elevation; K&J FAQ); when parts should find their own position as they close (K&J); where a connection should break away safely instead of breaking, such as a cable or a part that could snag (Wikipedia 'MagSafe'); and where you want a hidden fastening with no visible latch. Use a coded magnet pattern when a lid or module should only fit one way round or only with its own partner, a magnetic form of keying. The four jobs these patterns are designed for are 'align, attach, latch, and spring', and they 'may be constructed from discrete permanent magnets', so a simple one can be laid out from separate disc magnets in printed pockets, alternating north and south (Wikipedia 'Programmable magnet'). Wikipedia also says they give 'stronger shear resistance' than ordinary magnets, but its article is flagged as reading like a press release, so treat that as the makers' claim.",
     "when_not_to_use": "Avoid it where the joint takes large sideways, peeling or twisting loads, since magnets are weak in shear (15-25 % of pull, supermagnete): add a lip or pins, or use a snap fit, bayonet or screws instead. Don't rely on it for heavy or safety-critical loads, or where the parts must stay together in a crash or drop: use a mechanical latch, or a magnetic-assisted buckle where the magnet only guides and a catch carries the load. Avoid it in hot places above about 80 °C for standard magnets (Wikipedia), outdoors or underwater without corrosion protection (K&J), near pacemakers, and in anything small children could take apart (K&J safety page).",
     "environment_limits": "Heat: standard N-grade neodymium magnets are rated to about 80 °C and lose strength above that; letter grades reach about 230 °C and all lose their magnetism near 320 °C (Wikipedia 'Neodymium magnet'; K&J safety page). The plastic around them usually fails first: PLA softens at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a press-fit magnet in PLA can loosen in a hot car. Water: plated neodymium magnets are not waterproof and corrode outdoors or when wet, losing strength (K&J safety page); badly corroded sintered magnets can crumble to powder (Wikipedia). Over time they lose less than 1 % in 10 years if not overheated (K&J FAQ), but press fits can loosen through creep (Slant 3D via Hackaday). Vibration and shocks can slide the parts apart because sideways grip is only friction [uncertain].",
     "safety_notes": "Keep neodymium magnets away from children: if two or more small magnets are swallowed they can pinch the intestine between them and need emergency surgery (K&J safety page; Wikipedia), so glue or seal magnets in well. Larger magnets can pinch skin painfully or, when big, break bones; magnets that slam together can chip or shatter and throw sharp pieces, so wear eye protection (K&J safety page; Wikipedia). Strong magnets can switch off or upset pacemakers and implanted defibrillators, and can damage bank cards and magnetic media (K&J safety page). People with a nickel allergy should avoid long contact with nickel-plated magnets. Don't drill or grind magnets: the dust is flammable (K&J safety page).",
@@ -95,7 +96,9 @@
       "Hidden latches (magnetic-key latch): a magnet held outside a box moves a hidden catch inside",
       "Snap fits and push-push latches: mechanical ways to hold a lid or door shut that take sideways loads better",
       "Kinematic coupling: locates parts exactly with balls in grooves; magnets can supply the force that holds it together [uncertain]",
-      "Magnetic coupling and magnetic gear: magnets that pass turning force through a gap instead of holding parts together"
+      "Magnetic coupling and magnetic gear: magnets that pass turning force through a gap instead of holding parts together",
+      "Magnetic connector: a magnetic plug that also carries current through spring contacts (MagSafe-style chargers, magnetic pogo connectors); this entry only holds parts together",
+      "Keying: makes parts fit only the right way round or only with the right partner; coded magnet patterns do the same job magnetically (Wikipedia 'Programmable magnet')"
     ]
   },
   "media": {
@@ -187,7 +190,9 @@
       "https://www.youtube.com/watch?v=BwUzOJ8B_H0",
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://commons.wikimedia.org/wiki/File:Magnetic_Catch_parts.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Programmable_magnet",
+      "https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)"
     ]
   },
   "uncertain": [

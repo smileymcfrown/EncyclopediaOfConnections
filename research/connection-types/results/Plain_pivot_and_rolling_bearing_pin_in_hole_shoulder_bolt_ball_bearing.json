@@ -23,7 +23,7 @@
     ],
     "one_liner": "A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.",
     "complexity": "A few parts for a plain pivot: a pin, bolt or shaft, the hole it turns in (often lined with a bushing), and something to stop it sliding out (a head and nut, a shoulder, a retaining ring or a shaft collar), usually with washers. A ball bearing is a small assembly that acts as one unit: inner ring, outer ring, balls, a cage that keeps them spaced, grease, and often shields or seals (Wikipedia, Rolling-element bearing and Ball bearing).",
-    "how_it_works": "In a plain pivot the pin simply turns in the hole, sliding on its surface. The pin must be a little smaller than the hole to move, so it really touches along a line, and friction and wear depend on the two materials and on lubrication (Wikipedia, Revolute joint and Plain bearing). Pairing a hard, smooth pin with a softer, slippery sleeve (bronze, oil-filled sintered bronze, or a plastic such as nylon or acetal) makes it run smoothly and puts the wear on the cheap sleeve, which is replaced when worn (Wikipedia, Plain bearing). A ball bearing swaps sliding for rolling: balls roll between grooved inner and outer rings, so friction is much lower (Wikipedia, Rolling-element bearing; GM0). The ring that turns relative to the load is fitted tight on its shaft or in its housing so it can't slip round, and the other ring is a looser fit (NSK)."
+    "how_it_works": "In a plain pivot the pin simply turns in the hole, sliding on its surface. The pin must be a little smaller than the hole to move, so it really touches along a line, and friction and wear depend on the two materials and on lubrication (Wikipedia, Revolute joint and Plain bearing). Pairing a hard, smooth pin with a softer, slippery sleeve (bronze, oil-filled sintered bronze, or a plastic such as nylon or acetal) makes it run smoothly and puts the wear on the cheap sleeve, which is replaced when worn (Wikipedia, Plain bearing). A ball bearing swaps sliding for rolling: balls roll between grooved inner and outer rings, so friction is much lower (Wikipedia, Rolling-element bearing; GM0). The ring that turns relative to the load is fitted tight on its shaft or in its housing so it can't slip round, and the other ring is a looser fit (NSK). The simplest bearing for a push along the pin (end float) is a thrust washer, the flat 'thrust form' of a bushing (Wikipedia, Plain bearing): a ring of metal such as bronze, or of plastic such as nylon or PTFE, between the turning part and the fixed face beside it, used where a rolling thrust bearing isn't worth its cost or won't fit (Wikipedia, Washer (hardware))."
   },
   "finder_attributes": {
     "job": [
@@ -84,7 +84,7 @@
       "The lever of a door handle turning on its spindle (Wikipedia, Revolute joint photo)",
       "Scissors and pliers, whose two halves turn on one rivet or screw [uncertain]"
     ],
-    "when_to_use": "Use a plain pivot (a bolt, shoulder screw or pin in a hole, ideally with a bushing) for levers, arms, linkages, folding parts and anything that turns slowly, occasionally or back and forth: it is cheap, compact and strong for its size (Wikipedia, Plain bearing). A shoulder screw is the neat choice when a part must turn on a bolt without being clamped (Machine Design). Use ball bearings for anything that spins continuously or fast, such as wheels, pulleys, spools, fans and drive shafts, where low friction and accurate location matter; robotics guides recommend bearings for drivetrains and high speeds and bushings for low loads or tight budgets (GM0).",
+    "when_to_use": "Use a plain pivot (a bolt, shoulder screw or pin in a hole, ideally with a bushing) for levers, arms, linkages, folding parts and anything that turns slowly, occasionally or back and forth: it is cheap, compact and strong for its size (Wikipedia, Plain bearing). A shoulder screw is the neat choice when a part must turn on a bolt without being clamped (Machine Design). Use ball bearings for anything that spins continuously or fast, such as wheels, pulleys, spools, fans and drive shafts, where low friction and accurate location matter; robotics guides recommend bearings for drivetrains and high speeds and bushings for low loads or tight budgets (GM0). Add a thrust washer where a turning part would otherwise rub against a fixed face or a pin head; washers are used in rotating devices as a bearing and as a wear pad (Wikipedia, Washer (hardware)).",
     "when_not_to_use": "Don't run a plain printed pin in a printed hole fast and continuously under load: it heats and wears (see the PV limits); use a ball bearing or a bronze or plastic bushing. Don't hang a tipping load on a single ball bearing; use two spaced apart, or a turntable bearing for a wide, flat turning platform. Ball bearings that only rock back and forth over a small angle, or sit still while vibrating, suffer false brinelling (Wikipedia), so a bushing may be better there. For tiny angles with no play and no wear, use a flexure hinge; for straight-line motion, use linear guides; for a pivot that must also tilt, use a ball-and-socket joint or rod end.",
     "environment_limits": "Plastic bushings: nylon is listed for about -29 to 121 °C and acetal about -29 to 82 °C, while SAE 841 bronze is listed to about 104 °C (Wikipedia, Plain bearing table, converted from °F). Plastic bearings creep, expand with heat and soften when warm (Wikipedia, Plain bearing), and absorb moisture; igus sizes its bushings to cope with humidity up to 70% (igus). Printed PLA starts to give at about 60 °C and PETG at about 80 °C (CNC Kitchen). Ball bearings: grit and water in the lubricant greatly shorten their life, and seals help but add friction (Wikipedia, Rolling-element bearing); vibration while standing still presses the grease out (false brinelling; Wikipedia). Plain steel pins and bearings rust outdoors unless stainless or protected [uncertain].",
     "safety_notes": "Pivoting levers and arms make scissor-like pinch points [uncertain]. Spinning parts on bearings can catch hair, loose clothing or fingers. When pressing in bearings, push on the ring you are fitting rather than through the balls, and wear eye protection, because too much interference can crack a ring (NSK: excessive interference can crack the inner ring) [uncertain].",
@@ -101,7 +101,9 @@
       "Retaining ring (circlip, E-clip): stops a pin or shaft sliding out",
       "Shaft-to-hub joints (key, set screw, D-flat, clamp hub): fix a gear or wheel to the turning shaft",
       "Mid-print embedding: trapping a bearing inside a printed part",
-      "Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt"
+      "Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt",
+      "Castor: a wheel turning on an axle in a bracket, with a second, swivel bearing on top so the wheel trails behind and steers itself",
+      "Ball caster: a large ball carried on small bearing balls, so it rolls in every direction instead of turning about one axis"
     ]
   },
   "media": {
@@ -185,7 +187,8 @@
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://www.youtube.com/watch?v=lIEHscqWJAk",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Washer_(hardware)"
     ]
   },
   "uncertain": [

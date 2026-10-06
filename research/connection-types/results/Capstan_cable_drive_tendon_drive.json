@@ -82,7 +82,9 @@
       "Strain-wave (harmonic) drive and cycloidal drive: high-ratio, near-zero-backlash gearboxes that turn continuously but are complex and harder to back-drive",
       "Bowden cable / tendon drive: pulls a joint from a distance through a sleeve instead of wrapping around drums; adds friction at every bend",
       "Winch or capstan (nautical): uses the same capstan friction to haul rope in, with no fixed return loop",
-      "Worm drive: large reduction that usually can't be back-driven; the opposite choice when you want the joint to hold still"
+      "Worm drive: large reduction that usually can't be back-driven; the opposite choice when you want the joint to hold still",
+      "Stopper knots and cord-end anchors: knots, plugs and clamps that anchor a synthetic rope's ends to the big drum, usually the weakest point of the drive",
+      "Wire-rope terminations: crimped sleeves and ball or stop fittings for anchoring steel cable ends to the drums"
     ]
   },
   "media": {
@@ -126,8 +128,8 @@
         "license": "[uncertain] no licence file found in the repository"
       },
       {
-        "url": "https://www.printables.com/model/470672-capstan-gear-for-delta-robot (URL from Printables API, page not opened)",
-        "title": "Capstan gear for delta-robot (holgersindbaek, Printables)",
+        "url": "https://www.printables.com/model/470672-capstan-gear-for-delta-robot",
+        "title": "Capstan gear for delta-robot (holgersindbaek, Printables) (URL from Printables API, page not opened)",
         "what_it_is": "Printable capstan drive used on a peg-solitaire-playing delta robot; the author suggests reworking the sizes from his published calculations",
         "license": "CC BY"
       }
