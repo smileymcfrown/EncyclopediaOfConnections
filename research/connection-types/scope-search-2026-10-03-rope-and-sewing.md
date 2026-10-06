@@ -343,7 +343,7 @@ keder rails, leather rivets, Chicago screws) stays with the other hardware in th
 - **What to cover:** clove hitch (ABOK #1245): "it slips and, paradoxically, can also bind",
   and "is not a knot to be used alone"; fine for a temporary hold such as stage scenery. Round
   turn and two half hitches: the round turn "should take the initial strain while you complete
-  the knot", and it is one of four knots Animated Knots says "can be tied and untied under load".
+  the knot", and it is one of four knots Animated Knots says "can be tied and untied under load". *[Correction 2026-10-06: the round-turn page, re-checked through WebFetch, says only that the round turn "should take the initial strain while you complete the knot"; the "tied and untied under load" wording was not found, so the* Hitches *entry leaves it out.]*
   Cow hitch (lark's head, girth hitch): ties a loop or strap to a ring, bar, tag or zip pull, but
   "Can fail unless equal tension is applied to both of the standing parts" (Wikipedia; ABOK
   #1673, #1802). Timber hitch for a pole or log. The half hitch (ABOK #50) as the building block.
