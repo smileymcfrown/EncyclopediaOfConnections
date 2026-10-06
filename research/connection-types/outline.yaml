@@ -285,6 +285,7 @@ items:
   - name: Friction hinge (torque hinge)
     category: hinges & pivots
     description: A hinge with built-in friction that stays at any angle you leave it, like a laptop screen
+    notes: Also covers hollow-shaft friction hinges that pass wires through the pivot.
   # 65
   - name: Ball-and-socket joint (lockable ball head)
     category: hinges & pivots
@@ -450,6 +451,7 @@ items:
   - name: Electro-permanent magnet
     category: powered & active connectors
     description: A magnet that is switched on or off by a short electric pulse and then holds (or stays released) with no power at all
+    notes: Also covers power-free magnetic docking of robot modules (electro-permanent docking faces).
   # 105
   - name: Solenoid latch (solenoid lock, electric strike)
     category: powered & active connectors
@@ -480,6 +482,7 @@ items:
   - name: Magnet joint (embedded magnets, magnetic catch)
     category: clamping, magnetic & friction connections
     description: Pairs of magnets, or a magnet and a steel plate, set into parts so they snap together, align themselves and pull apart by hand
+    notes: Also covers programmable (coded) magnet arrays that only mate with a matching pattern.
   # 112
   - name: Switchable permanent magnet (rotary magnetic base)
     category: clamping, magnetic & friction connections
@@ -502,6 +505,7 @@ items:
   - name: Keying (one-way-only fit, poka-yoke)
     category: locating & alignment
     description: Uneven pins, notches, tapers or shapes that let a part go together only the right way round, preventing mistakes
+    notes: Also covers pin headers and size-keyed barrel plugs as everyday cases, and look-alike barrel plugs as a keying failure.
   # 117
   - name: Constant-force spring (spring-return reel)
     category: springs & energy storage
@@ -581,10 +585,12 @@ items:
   - name: Cable gland and strain relief
     category: seals & pass-throughs
     description: A threaded fitting whose nut squeezes a rubber insert around a cable, sealing the hole and stopping the cable being pulled out
+    notes: Also covers strain relief for electrical joints, rubber, membrane and desk grommets, cable lacing, and the underwriter's knot.
   # 135
   - name: Slip ring and rotary union
     category: seals & pass-throughs
     description: A joint with sliding contacts (or seals) that carries power, signals or fluid across something that keeps turning, so cables never wind up, as in robot turrets
+    notes: Also covers the clockspring (spiral flat cable) as a limited-rotation alternative.
   # 136
   - name: Cable carrier (drag chain, energy chain)
     category: seals & pass-throughs
@@ -722,6 +728,7 @@ items:
   - name: DIN-rail clip (top-hat rail snap mount)
     category: quick-release & tool-free
     description: A spring clip that hooks over one edge of a standard metal rail and snaps onto the other, so modules click on and off
+    notes: Also covers terminal blocks, the commonest thing on a DIN rail.
   # 168
   - name: Indexable clamping lever (ratchet handle)
     category: quick-release & tool-free
@@ -1165,6 +1172,7 @@ items:
   - name: Coil spring (compression, extension, torsion)
     category: springs & energy storage
     description: Wire wound into a coil that pushes, pulls or twists back; the baseline spring
+    notes: Also covers the repelling-magnet (magnetic) spring as an alternative.
   # 269
   - name: Basic strap and garment closures (prong buckle, button, toggle and loop)
     category: cord, strap, webbing & textile hardware
@@ -1274,6 +1282,7 @@ items:
   - name: Anti-twister mechanism (twist-free cable feed)
     category: seals & pass-throughs
     description: A loop of cable carried round at exactly half the speed of a spinning part, so power or signals can pass to it through endless turns without a slip ring and without the cable twisting
+    notes: Also covers the clockspring (spiral flat cable) as the limited-rotation alternative.
   # 292
   - name: Weight-activated gripping tongs (lifting tongs, lewis)
     category: self-locking & anti-back-drive
