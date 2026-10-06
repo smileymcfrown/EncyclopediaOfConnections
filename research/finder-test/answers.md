@@ -13,7 +13,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Hold two things together (they stay still) | 225 | a shelf bracket on a wall, a lid clipped onto a box, two printed parts bolted together | The parts stay still against each other once they are joined. |
+| Hold two things together (they stay still) | 226 | a shelf bracket on a wall, a lid clipped onto a box, two printed parts bolted together | The parts stay still against each other once they are joined. |
 | Connect wires or power (electrical connections) | 30 | joining two wires, plugging a sensor into a board, a battery into a robot | Joints that carry electric current, plus ways to insulate, protect and route the wires. |
 | Let something move (turn, slide, swing or bend) | 98 | a door hinge, a drawer slide, a wheel on an axle |  |
 | Control a movement (one way only, clicks, slips, locks, slows) | 133 | a bike freewheel, a dial that clicks, a drill clutch that slips | For moving parts that must behave in a certain way: one way only, clicking, slipping, locking or slowing. |
@@ -34,7 +34,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Tube, rod, pole or aluminium extrusion | 12 | a tent pole, an aluminium-extrusion printer frame, a hose on a pump |  |
 | A wheel, gear or arm onto a shaft, or two shafts end to end | 26 | a pulley on a motor shaft, a servo horn, joining a motor to a lead screw |  |
 | Strap, cord, rope or fabric | 32 | a backpack strap, a tent guy line, a fabric cover sewn onto a frame |  |
-| A lid, door or cover that opens and closes | 29 | a box lid, a cupboard door, a battery hatch |  |
+| A lid, door or cover that opens and closes | 30 | a box lid, a cupboard door, a battery hatch |  |
 | Something onto a wall, desk, bar, tripod, rail or grid | 26 | a shelf on a wall, a phone holder on a bike bar, a camera on a tripod |  |
 | Something that has to be gripped or clamped | 12 | a drill chuck, a clamp holding work on a bench, a robot gripper |  |
 | Melt them together (weld, braze or solder) | 11 | welding a steel frame, soldering a copper pipe, fixing a cracked plastic part with heat | The parts are melted together into one piece, rather than glued. |
@@ -47,7 +47,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | No, never (permanent) | 10 | a model glued or riveted together for good, a part pressed onto a pin |  |
-| Yes | 15 | a battery cover you will open again, a printed enclosure you need to get back into |  |
+| Yes | 16 | a battery cover you will open again, a printed enclosure you need to get back into |  |
 | It is fabric, chain mail or a folding sheet made in the print | 3 | printed chain-mail armour for a costume, printed scales on a mesh fabric | The print itself becomes the flexible fabric, chain or folding sheet. |
 
 ##### Is there a screw or bolt?
@@ -55,7 +55,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes | 6 | a screw into a printed post, a nut trapped in a hexagonal pocket |  |
+| Yes | 7 | a screw into a printed post, a nut trapped in a hexagonal pocket |  |
 | No (clips, pins, rings, magnets) | 9 | a snap-fit lid, a clip-on cover, a magnetic catch |  |
 
 #### Will you need to take it apart again?
@@ -150,7 +150,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| It swings open on a hinge, or stays open at an angle | 6 | a laptop lid, a cupboard door, a toolbox lid that stays up |  |
+| It swings open on a hinge, or stays open at an angle | 7 | a laptop lid, a cupboard door, a toolbox lid that stays up |  |
 | Twist a lid, knob or fastener | 6 | a jar lid, a camera lens, a quarter-turn panel fastener |  |
 | Press, pull or flip a catch or lever | 14 | a toolbox clasp, a push-to-open cupboard door |  |
 | By power (button, remote, timer) | 3 | an electric door release, a latch a robot opens on command |  |

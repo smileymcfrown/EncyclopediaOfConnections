@@ -245,7 +245,7 @@ answers.** Shortlist sizes: 3 (14 paths), 4 (26), 5 (24), 6 (25), 7 (19), 8 (16)
 Iron-on fusible web had been reached only through a name match on "fusible". It now sits with the
 flexible glues. This is the first answer that uses the new tags, and the other answers move over
 when the finder is built (Phase 2). `paths.md` marks with ⚑ each entry that is on a path because of
-a tag value that still needs confirming.
+a tag value that still needs confirming. Two small changes on 2026-10-06 (R26, after the forum re-check in 1.7) keep it at 141 paths, all 3-10 entries.
 
 ### 1.5 Strict decision tree, or "tick what applies"?
 
@@ -298,7 +298,7 @@ charts). Each shortlist's entries are listed in `research/finder-test/paths.md`.
 ```mermaid
 flowchart LR
   q0{"What do you need it to do?"}
-  a1["Hold two things together (they stay still) · 225"]
+  a1["Hold two things together (they stay still) · 226"]
   q0 --> a1
   q2{"What are you joining?"}
   a1 --> q2
@@ -317,7 +317,7 @@ flowchart LR
   a7["Strap, cord, rope or fabric · 32"]
   q2 --> a7
   class a7 more
-  a8["A lid, door or cover that opens and closes · 29"]
+  a8["A lid, door or cover that opens and closes · 30"]
   q2 --> a8
   class a8 more
   a9["Something onto a wall, desk, bar, tripod, rail or grid · 26"]
@@ -495,7 +495,7 @@ flowchart LR
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
 
-#### Branch 1: Hold two things together (they stay still) (225 entries)
+#### Branch 1: Hold two things together (they stay still) (226 entries)
 
 ```mermaid
 flowchart LR
@@ -507,11 +507,11 @@ flowchart LR
   a75(["No, never (permanent) · 10"])
   q74 --> a75
   class a75 leaf
-  a76["Yes · 15"]
+  a76["Yes · 16"]
   q74 --> a76
   q77{"Is there a screw or bolt?"}
   a76 --> q77
-  a78(["Yes · 6"])
+  a78(["Yes · 7"])
   q77 --> a78
   class a78 leaf
   a79(["No (clips, pins, rings, magnets) · 9"])
@@ -623,11 +623,11 @@ flowchart LR
   a121(["Fix it to fabric or leather, or hold a fabric edge · 4"])
   q118 --> a121
   class a121 leaf
-  a122["A lid, door or cover that opens and closes · 29"]
+  a122["A lid, door or cover that opens and closes · 30"]
   q72 --> a122
   q123{"How should it open?"}
   a122 --> q123
-  a124(["It swings open on a hinge, or stays open at an angle · 6"])
+  a124(["It swings open on a hinge, or stays open at an angle · 7"])
   q123 --> a124
   class a124 leaf
   a125(["Twist a lid, knob or fastener · 6"])
@@ -1281,6 +1281,51 @@ under lids, one *take it apart: yes* answer for printed parts (releasable snap f
   external-thread inserts); roll pins and cross-pinning; sewing or lacing a part on; push-on edge
   trim and U-channel grommets; carrying a cable through a hinge; an expanding internal gripper or
   mandrel. Electrical wire joints are out of scope unless the owner wants them.
+
+#### Re-check on the current tree (2026-10-06, R26)
+
+The 25 questions were run again through the current tree, with the same answers as above where
+those answers still exist. A script (in the session's scratch space) checked whether the entries
+each asker needed are on the shortlist. **Result: 21 of 25 reach a good answer and 4 partly; none is
+out of scope.** Eight did better than before, mostly because the gap types found on 2026-10-03
+became entries in R22. Two of those needed a small change to the tree today, made by Claude
+while the owner was away (decision D26 in `PROJECT.md`):
+- *Cable through a hinge* now also counts as holding two things together, so it sits on the hinge
+  answer as well as the electrical and seal answers;
+- inserts count as "comes apart" under *3D-printed parts*, so *Screw-in threaded insert* and
+  *Press-fit and expanding inserts* sit on *Yes → Yes, a screw*. The insert stays put, but the screw
+  comes out.
+
+The four answers that remain *Partly* would need a change of question rather than of data, and are
+left as they are.
+
+| # | Path now (shortlist size) | Result | Change since 2026-10-03 |
+|---|---|---|---|
+| 1 | Control a movement (one way only, clicks, slips, locks, slows) → Click into set positions → Turns → Hold a position I set by hand (8) | **Good**: 34 Hirth joint | as before |
+| 2 | Hold two things together (they stay still) → A lid, door or cover that opens and closes → Press, pull or flip a catch or lever → No, it just has to stay shut (9) | **Good**: 24 Push-push latch | as before |
+| 3 | Hold two things together (they stay still) → A lid, door or cover that opens and closes → It swings open on a hinge, or stays open at an angle (7) | **Partly**: 185 Lid and flap stays | as before: the strut itself (8 Linear ratchet) is on *Control → Move one way only → Slides* |
+| 4 | Control a movement (one way only, clicks, slips, locks, slows) → Move one way only (stop it going back) → Turns → No, it must be smooth and silent (7) | **Good**: 15 Bidirectional anti-back-drive clutch | as before |
+| 5 | Control a movement (one way only, clicks, slips, locks, slows) → Slow it down, stop it, or keep its speed steady → Stop it or hold it still (brakes) (4) | **Good**: 108 Electromagnetic brake, 211 Friction brake | as before |
+| 6 | Control a movement (one way only, clicks, slips, locks, slows) → Slip, click or let go if overloaded → Slip, and keep going → No, I will buy or machine it (10) | **Good**: 4 Friction slip clutch | as before; 143 Magnetic coupling is on the *Yes, or partly* side |
+| 7 | Spring back, or store energy → Push or pull in a straight line (7) | **Partly**: 26 Sear and trigger | as before: 36 Intermittent gear, 88 Rack and pinion and 268 Coil spring sit on other paths |
+| 8 | Let something move (turn, slide, swing or bend) → Follow a set path (e.g. swing out and stay level) (8) | **Good**: 87 Four-bar linkage | as before |
+| 9 | Hold two things together (they stay still) → Something that has to be gripped or clamped → A robot or machine (gripper) (6) | **Good**: 339 Expanding internal grip | **better**: 339 Expanding internal grip (added in R22) is on the gripper list |
+| 10 | Hold two things together (they stay still) → A lid, door or cover that opens and closes → It swings open on a hinge, or stays open at an angle (7) | **Good**: 263 Knuckle hinge, 338 Cable through a hinge | **better (fixed today)**: 338 Cable through a hinge now also sits on the hinge answer |
+| 11 | Let something move (turn, slide, swing or bend) → Slide in a straight line, or telescope → A tube or pole that telescopes and locks (4) | **Good**: 72 Spring button lock | as before |
+| 12 | Hold two things together (they stay still) → 3D-printed parts, or screws, nuts and magnets into a print → Yes → No (clips, pins, rings, magnets) (9) | **Good**: 47 Snap pin, 45 Annular snap fit | as before |
+| 13 | Hold two things together (they stay still) → Tube, rod, pole or aluminium extrusion → No (frames, poles and rails) (8) | **Good**: 22 Eccentric cam lever | as before |
+| 14 | Hold two things together (they stay still) → 3D-printed parts, or screws, nuts and magnets into a print → Yes → No (clips, pins, rings, magnets) (9) | **Good**: 44 Cantilever snap fit, 47 Snap pin | as before |
+| 15 | Hold two things together (they stay still) → 3D-printed parts, or screws, nuts and magnets into a print → Yes → No (clips, pins, rings, magnets) (9) | **Partly**: 47 Snap pin, 44 Cantilever snap fit | as before: 59 Crush ribs is stored as semi-permanent, so it shows under *No, never* |
+| 16 | Hold two things together (they stay still) → 3D-printed parts, or screws, nuts and magnets into a print → Yes → Yes (7) | **Good**: 56 Heat-set threaded insert, 57 Captive nut pocket, 258 Self-tapping screw into plastic | as before |
+| 17 | Hold two things together (they stay still) → A wheel, gear or arm onto a shaft, or two shafts end to end → A wheel, gear, pulley or arm onto a shaft → Yes (6) | **Good**: 82 Servo horn and spline hub, 5 Torque-limiting gear with flexing spring arms | as before |
+| 18 | Hold two things together (they stay still) → A wheel, gear or arm onto a shaft, or two shafts end to end → A wheel, gear, pulley or arm onto a shaft → No, it is metal or bought (9) | **Good**: 266 Shaft-to-hub joints and rigid couplings, 365 Drive-in fixing pins | **better**: 365 Drive-in fixing pins (roll pins, R22) is on the list |
+| 19 | Hold two things together (they stay still) → Strap, cord, rope or fabric → Close an opening, or attach fabric (zip, hook-and-loop, press stud, button) (4) | **Good**: 157 Hook-and-loop fastener | **better**: 333 Sew-on part (R22) is on the neighbouring *Sew or lace it* answer |
+| 20 | Hold two things together (they stay still) → I just want to glue it → Slippery plastics (polyethylene, polypropylene, silicone) (6) | **Partly**: 226 Structural acrylic and low-surface-energy plastic adhesives | as before: the better answer, 368 Push-on edge trim (R22), is under *3D-printed parts → Yes → No*, not on the glue path the asker chose |
+| 21 | Seal it, or pass cables, air or liquid through → Keep water, dust or air out of a joint that does not move → No, never → Plastic, fabric or film, or a gap to fill (4) | **Good**: 227 Silicone and MS-polymer adhesive sealants, 232 Epoxy putty | **better**: 342 Melted plastic weld (R22) is under *Hold together → Melt them together → Plastic* |
+| 22 | Seal it, or pass cables, air or liquid through → Keep water, dust or air out of a joint that does not move → Yes (6) | **Good**: 131 Gasket | **better**: the hose clamp the asker chose, 364 Hose clamp (R22), is under *Seal it → Join hoses, pipes or tubes → Pushed on, clamped* |
+| 23 | Seal it, or pass cables, air or liquid through → Keep water, dust or air out of a joint that does not move → Yes (6) | **Good**: 131 Gasket | as before |
+| 24 | Hold two things together (they stay still) → 3D-printed parts, or screws, nuts and magnets into a print → Yes → Yes (7) | **Good**: 58 Printed screw thread, 179 Press-fit and expanding inserts, 57 Captive nut pocket, 332 Screw-in threaded insert | **better (fixed today)**: 332 Screw-in threaded insert now also sits under *Yes → Yes, a screw* |
+| 25 | Connect wires or power (electrical connections) → Wires to each other (a splice) (6) | **Good**: 348 Crimped butt splice, 349 Spring-clamp wire connector, 358 Twist-on wire connector | **better**: the electrical answer (R22) gives 348 Crimped butt splice, 349 Spring-clamp wire connector and 358 Twist-on wire connector |
 
 ### 1.8 Existing selection charts and decision tools: what to borrow
 
