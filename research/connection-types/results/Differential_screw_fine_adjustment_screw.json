@@ -92,7 +92,8 @@
       "Parallel leaf-spring flexure (linear flexure stage): a bending stage, often with a lever that divides a screw's motion for backlash-free fine positioning",
       "Eccentric adjuster: a turning off-centre bush for small, coarse-to-fine position tweaks",
       "Kinematic coupling: fine adjusters usually push on kinematic mounts in optics",
-      "Compound planetary gearbox (split-ring / Wolfrom) and strain-wave gear: large reductions from the difference between two nearly equal tooth counts"
+      "Compound planetary gearbox (split-ring / Wolfrom) and strain-wave gear: large reductions from the difference between two nearly equal tooth counts",
+      "Locking adjustment screws: pairs of opposing screws, or a screw and a spring, that set a tilt or height and then lock it; simpler when an ordinary thread is fine enough"
     ]
   },
   "media": {

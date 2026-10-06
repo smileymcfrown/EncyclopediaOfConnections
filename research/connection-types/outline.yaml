@@ -156,7 +156,7 @@ items:
   - name: Hirth joint (face-spline coupling)
     category: indexing & detents
     description: Two faces with radial teeth that mesh to lock parts at a chosen angle; loosen, turn to the next tooth, tighten (adjustable arms, camera mounts)
-    notes: Also covers the ARRI rosette used on film and camera accessories
+    notes: Also covers the ARRI rosette used on film and camera accessories. Also covers the C-stand grip-head rule (hang the load so its weight tightens the knob).
   # 35
   - name: Geneva drive (Maltese cross)
     category: motion conversion
@@ -169,6 +169,7 @@ items:
   - name: Bayonet mount (push-and-twist lock)
     category: quick-release & tool-free
     description: Push in and twist a short way so pins or lugs slide under ledges and lock; used on camera lenses, light bulbs and lids
+    notes: Also covers the quarter-turn bike-computer mount, and threaded lens mounts (S-mount, C-mount, CS-mount) as the screw-in alternative.
   # 38
   - name: Interrupted-screw lock (interrupted thread, breech lock)
     category: quick-release & tool-free
@@ -191,6 +192,7 @@ items:
   - name: Hang-on mounts (keyhole slot, French cleat)
     category: quick-release & tool-free
     description: A head slides into a keyhole-shaped slot, or two bevelled rails hook together, so things hang securely and lift off without tools
+    notes: Also covers VESA screen mounts (the standard square of screw holes on screens and monitor arms).
   # 43
   - name: Modular grid mounting systems (pegboard, Gridfinity-style grids)
     category: quick-release & tool-free
@@ -284,6 +286,7 @@ items:
   - name: Ball-and-socket joint (lockable ball head)
     category: hinges & pivots
     description: A ball held in a cup that can swivel in any direction, sometimes with a clamp to lock it; can be printed in place
+    notes: Also covers the pyramid alignment adaptor from prosthetics as a compact screw-locked tilt joint, described for maker use only.
   # 66
   - name: Posable segmented arm (snap-together ball chain, gooseneck)
     category: hinges & pivots
@@ -916,6 +919,7 @@ items:
   - name: Clamp-on tube fittings (slip-on structural fittings)
     category: clamping, magnetic & friction connections
     description: Tees, elbows and crosses that slide onto round tube and lock with set screws, building frames and rails that can be taken apart
+    notes: Also covers rod-to-rod cross clamps (the lab boss head) and the external-fixator frame idea, described only for building frames and jigs.
   # 221
   - name: Internal tube anchors (star nut, expansion plug)
     category: clamping, magnetic & friction connections
@@ -1111,6 +1115,7 @@ items:
   - name: Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing)
     category: hinges & pivots
     description: A shaft or pin turning in a hole, or in a ball bearing, as the basic way to make something rotate
+    notes: Also covers thrust washers as the simplest end-float bearing.
   # 265
   - name: Linear guides (bushings on rods, wheels or carriages on rails)
     category: sliding, telescoping & linear motion

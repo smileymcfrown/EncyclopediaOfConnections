@@ -9,7 +9,7 @@
       "watchmaker collets ('split wire chucks'), sized by their outer thread, e.g. 8 mm",
       "router collet; rotary-tool collet, e.g. Dremel (brand) 480-483 collets with the 4485 collet nut",
       "draw-in collet versus dead-length (non-draw-in) collet",
-      "emergency collet / soft collet (bought unhardened and machined to an odd size); step collet; expanding collet (grips the inside of a bore, like an expanding mandrel)",
+      "emergency collet / soft collet (bought unhardened and machined to an odd size); step collet; expanding collet (grips the inside of a bore, like an expanding mandrel; see 'Expanding internal grip')",
       "pin chuck / pin vise: a tiny collet holder for drills under about 1 mm",
       "multi-size collet, e.g. Rubber-Flex (brand, Jacobs): steel blades held in rubber",
       "Autolock collet / Clarkson chuck (self-tightening collet for threaded-shank cutters)",
@@ -104,7 +104,8 @@
       "Three-jaw (scroll) chuck: grips a much wider range of sizes but centres less precisely (Wikipedia 'Chuck (engineering)')",
       "Quick couplers for tubes and hoses (push-to-connect): the 'collet' in a push-fit pneumatic fitting is a ring of gripping teeth that bites the tube, a different mechanism with the same name",
       "Self-centring cone and socket (taper locator): uses a cone only to locate, not to grip",
-      "SDS chucks (and hex quick-change bit holders): hold bits by shape (grooves or flats) instead of friction, so they can't slip but only take special shanks (SDS: Wikipedia 'Chuck (engineering)')"
+      "SDS chucks (and hex quick-change bit holders): hold bits by shape (grooves or flats) instead of friction, so they can't slip but only take special shanks (SDS: Wikipedia 'Chuck (engineering)')",
+      "Expanding internal grip: the expanding collet and expanding mandrel, which grow outward to grip the inside of a hole, tube or ring instead of squeezing a rod from outside"
     ]
   },
   "media": {
