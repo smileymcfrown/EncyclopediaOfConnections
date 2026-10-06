@@ -83,7 +83,10 @@ The finder asks **one question that everyone answers** (the job), then **one to 
 that depend on that answer**. Answers are short, in plain words, and each has a picture or icon
 in the finished site. **Each answer also gets a real-world example** (owner, 2026-10-06), next to
 it or behind an (i) icon with a pop-up. Answers whose wording can mislead also get a one-line
-explanation, for example *Seal it, or pass cables, air or liquid through*. The numbers are how many entries each answer leaves.
+explanation, for example *Seal it, or pass cables, air or liquid through*. Drafts for all 200
+answers (22 with explanations) are in `research/finder-test/examples.yaml`, listed question by
+question in `research/finder-test/answers.md` for review. The finder test checks that every
+answer has one. The numbers are how many entries each answer leaves.
 
 **Question 1. What do you need it to do?** (pick one)
 

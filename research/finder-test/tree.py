@@ -236,6 +236,26 @@ TREE=Q('What do you need it to do?',
      A('Suction (vacuum)', P('suction')))),
 )
 
+def answer_paths(node=None, path=()):
+    """Every answer (not only the last ones), as a tuple of answer labels from the first question."""
+    q, answers = node or TREE
+    for label, pred, child in answers:
+        p = path + (label,)
+        yield q, p
+        if child: yield from answer_paths(child, p)
+
+def load_examples():
+    import yaml
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'examples.yaml')
+    if not os.path.exists(f): return {}
+    return {tuple(x['path']): x for x in yaml.safe_load(open(f))}
+
+def check_examples():
+    ex = load_examples(); paths = [p for _, p in answer_paths()]
+    missing = [p for p in paths if not ex.get(p, {}).get('example')]
+    extra = [p for p in ex if p not in set(paths)]
+    return missing, extra
+
 def walk(node, S, path, out):
     q, answers = node
     for label, pred, child in answers:
@@ -260,3 +280,7 @@ if __name__=='__main__':
     un=[e for e in E if e['num'] not in reached]
     print('\nleaves',len(out),'OK',sum(3<=len(T)<=10 for _,T in out),'BIG',sum(len(T)>10 for _,T in out),'SMALL',sum(len(T)<3 for _,T in out))
     print('unreached',len(un)); [print('  ',e['num'],e['name'][:60],'|',e['family'],e['job'][:2],e['motion']) for e in un]
+    # every answer needs a real-world example (examples.yaml; owner's request 2026-10-06)
+    missing, extra = check_examples()
+    print('answers without an example',len(missing)); [print('   ',' > '.join(p)) for p in missing]
+    if extra: print('examples for answers that no longer exist',len(extra)); [print('   ',' > '.join(p)) for p in extra]
