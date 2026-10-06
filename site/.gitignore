@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+# made by ../tools/sync_site.py
+src/content/docs/entries/
+src/content/docs/families/
+src/content/docs/glossary.md
+src/content/docs/needs-confirming.md
+src/sidebar.json
+public/data/

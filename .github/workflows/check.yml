@@ -1,0 +1,46 @@
+name: Check
+# Runs the project's checks on every pull request: the finder path test (every path ends on 3-10
+# entries, every entry reachable, every answer has an example), the entry pages, the finder data,
+# and a build of the site.
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml==6.0.1
+      - name: Finder test
+        working-directory: research/finder-test
+        run: |
+          python3 normalise.py
+          python3 tree.py | tee tree.log
+          grep -q "BIG 0 SMALL 0" tree.log
+          grep -q "^unreached 0" tree.log
+          grep -q "^answers without an example 0" tree.log
+      - name: Entry pages are up to date and valid
+        run: |
+          python3 tools/make_entries.py
+          python3 tools/check_entries.py
+          git diff --exit-code -- content || (echo "content/ is out of date: run python3 tools/make_entries.py and commit the result" && exit 1)
+      - name: Finder data is up to date
+        run: |
+          python3 tools/export_finder.py
+          git diff --exit-code -- content/finder || (echo "content/finder is out of date: run python3 tools/export_finder.py and commit the result" && exit 1)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Build the site
+        working-directory: site
+        run: |
+          npm ci
+          npm run build

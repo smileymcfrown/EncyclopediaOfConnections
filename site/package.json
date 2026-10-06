@@ -1,0 +1,16 @@
+{
+  "name": "encyclopaedia-of-connections-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "python3 ../tools/sync_site.py",
+    "dev": "npm run sync && astro dev",
+    "build": "npm run sync && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.42.5",
+    "astro": "^7.3.5",
+    "sharp": "^0.35.5"
+  }
+}

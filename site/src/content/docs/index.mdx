@@ -1,0 +1,37 @@
+---
+title: The Encyclopaedia of Connections
+description: Every way to join, move, lock and adjust parts, for hobbyist makers, with a guided finder.
+template: splash
+hero:
+  tagline: Every way to join, move, lock and adjust parts, explained in plain words for makers who don't know the proper names yet.
+  actions:
+    - text: Find a connection
+      link: finder/
+      icon: right-arrow
+    - text: Browse the glossary
+      link: glossary/
+      variant: minimal
+banner:
+  content: '<strong>Beta:</strong> this encyclopaedia is new and still being checked. Anything marked ⚑ needs confirming. <a href="help/">Help improve it</a>.'
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Not sure what it's called?" icon="magnifier">
+    The [finder](finder/) asks what you need it to do, in plain words, and gives you a shortlist of
+    options with their proper names. Or search for any word you know.
+  </Card>
+  <Card title="409 connection types" icon="puzzle">
+    From snap fits and living hinges to sprag clutches and knots, in 31 families (see the sidebar).
+    Each page covers how it works, when to use it, how to make or buy it, and what goes wrong.
+  </Card>
+  <Card title="Made for 3D printing and more" icon="setting">
+    Tips for printing, buying, CNC, laser cutting, woodwork and sheet metal, with links to
+    models you can make and pictures you can learn from.
+  </Card>
+  <Card title="A Beta, built with you" icon="heart">
+    Anything nobody has confirmed yet is marked ⚑ (see [needs confirming](needs-confirming/)). If you
+    know better, or something is missing, please [help](help/).
+  </Card>
+</CardGrid>

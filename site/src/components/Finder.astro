@@ -1,0 +1,198 @@
+---
+// The guided finder (P1, P6): plain JavaScript over public/data/finder-tree.json and finder.json,
+// both made by ../tools/export_finder.py from the tested tree. The answers chosen are kept in the
+// page address (#a=0.3.1), so Back works and a result can be shared.
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<div class="finder" data-base={base}>
+  <nav class="finder-trail" aria-label="Your answers"></nav>
+  <div class="finder-body" aria-live="polite">
+    <p>Loading the finder…</p>
+    <noscript>The finder needs JavaScript. You can still browse the families in the sidebar, or search.</noscript>
+  </div>
+</div>
+
+<script>
+  type Answer = { label: string; example?: string; explain?: string; entries: number[];
+                  needs_confirming: Record<string, string[]>; next?: Question };
+  type Question = { question: string; answers: Answer[] };
+  type Entry = { num: number; page: string; title: string; description: string; family: string;
+                 finder: Record<string, string | string[]>; needs_confirming: string[] };
+
+  // The tick-box panel (1.5 of research/flowchart-and-format.md): a few fields every entry has.
+  const FILTERS: [string, string][] = [
+    ['removability', 'Can you take it apart?'],
+    ['print_in_place', 'Prints in one piece?'],
+    ['maker_difficulty', 'How hard to make?'],
+    ['load_max', 'Load'],
+    ['power', 'Power'],
+    ['usual_process', 'Usually made by'],
+  ];
+
+  const root = document.querySelector<HTMLElement>('.finder')!;
+  const base = root.dataset.base ?? '';
+  const trail = root.querySelector<HTMLElement>('.finder-trail')!;
+  const body = root.querySelector<HTMLElement>('.finder-body')!;
+  let tree: Question;
+  const byNum = new Map<number, Entry>();
+  const ticked = new Map<string, Set<string>>();
+
+  const el = (tag: string, attrs: Record<string, string> = {}, ...kids: (Node | string)[]) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    n.append(...kids);
+    return n;
+  };
+  const values = (e: Entry, f: string) => {
+    const v = e.finder[f];
+    return v === undefined ? [] : Array.isArray(v) ? v : [v];
+  };
+
+  function readHash(): { steps: number[]; unsure: boolean } {
+    const h = new URLSearchParams(location.hash.slice(1));
+    const a = h.get('a');
+    return { steps: a ? a.split('.').map(Number).filter((n) => !Number.isNaN(n)) : [], unsure: h.get('unsure') === '1' };
+  }
+  function go(steps: number[], unsure = false) {
+    const p = new URLSearchParams();
+    if (steps.length) p.set('a', steps.join('.'));
+    if (unsure) p.set('unsure', '1');
+    location.hash = p.toString();
+  }
+
+  function render() {
+    const { steps, unsure } = readHash();
+    let q: Question | undefined = tree;
+    const chosen: Answer[] = [];
+    for (const i of steps) {
+      const a: Answer | undefined = q?.answers[i];
+      if (!a) break;
+      chosen.push(a);
+      q = a.next;
+    }
+    ticked.clear();
+    trail.replaceChildren();
+    if (chosen.length) {
+      const ol = el('ol');
+      chosen.forEach((a, i) => {
+        const b = el('button', { type: 'button' }, a.label);
+        b.addEventListener('click', () => go(steps.slice(0, i)));
+        ol.append(el('li', {}, b));
+      });
+      const back = el('button', { type: 'button', class: 'finder-back' }, '← Back');
+      back.addEventListener('click', () => go(steps.slice(0, -1)));
+      const restart = el('button', { type: 'button', class: 'finder-back' }, 'Start again');
+      restart.addEventListener('click', () => go([]));
+      trail.append(ol, back, restart);
+    }
+    const last = chosen[chosen.length - 1];
+    if (q && !unsure) return showQuestion(q, steps);
+    // a shortlist: the last answer's entries, or every option of the question if "I'm not sure"
+    const nums = unsure && q ? [...new Set(q.answers.flatMap((a) => a.entries))] : last.entries;
+    const flags: Record<string, string[]> = unsure && q
+      ? Object.assign({}, ...q.answers.map((a) => a.needs_confirming)) : last.needs_confirming;
+    showList(nums.map((n) => byNum.get(n)!).filter(Boolean), flags, unsure);
+  }
+
+  function showQuestion(q: Question, steps: number[]) {
+    const list = el('ul', { class: 'finder-answers' });
+    q.answers.forEach((a, i) => {
+      const b = el('button', { type: 'button', class: 'finder-answer' },
+        el('span', { class: 'finder-label' }, a.label),
+        el('span', { class: 'finder-count' }, `${a.entries.length}`));
+      b.addEventListener('click', () => go([...steps, i]));
+      const li = el('li', {}, b);
+      if (a.example) li.append(el('p', { class: 'finder-example' }, `For example: ${a.example}`));
+      if (a.explain) li.append(el('details', { class: 'finder-explain' }, el('summary', {}, 'ⓘ What does this mean?'), a.explain));
+      list.append(li);
+    });
+    const unsure = el('button', { type: 'button', class: 'finder-unsure' }, "I'm not sure: show me all of these");
+    unsure.addEventListener('click', () => go(steps, true));
+    body.replaceChildren(el('h2', {}, q.question), list, unsure);
+    body.querySelector<HTMLElement>('h2')?.focus?.();
+  }
+
+  function showList(es: Entry[], flags: Record<string, string[]>, unsure: boolean) {
+    const panel = el('div', { class: 'finder-panel' });
+    const cards = el('ul', { class: 'finder-cards' });
+    const heading = el('h2', {});
+    const draw = () => {
+      const shown = es.filter((e) => [...ticked].every(([f, set]) => !set.size || values(e, f).some((v) => set.has(v))));
+      heading.textContent = `${shown.length} ${shown.length === 1 ? 'match' : 'matches'}` + (unsure ? ' (you weren\'t sure, so these are all the options)' : '');
+      panel.replaceChildren(el('p', { class: 'finder-panel-title' }, 'Tick what applies to narrow the list:'));
+      for (const [f, label] of FILTERS) {
+        const counts = new Map<string, number>();
+        for (const e of es) for (const v of values(e, f)) counts.set(v, 0);
+        for (const e of shown) for (const v of values(e, f)) counts.set(v, (counts.get(v) ?? 0) + 1);
+        if (counts.size < 2) continue;
+        const fs = el('fieldset', {}, el('legend', {}, label));
+        for (const [v, n] of [...counts].sort()) {
+          const set = ticked.get(f) ?? new Set<string>();
+          const box = el('input', { type: 'checkbox' }) as HTMLInputElement;
+          box.checked = set.has(v);
+          box.disabled = n === 0 && !box.checked;
+          box.addEventListener('change', () => {
+            box.checked ? set.add(v) : set.delete(v);
+            ticked.set(f, set);
+            draw();
+          });
+          fs.append(el('label', { class: n === 0 ? 'finder-none' : '' }, box, ` ${v} (${n})`));
+        }
+        panel.append(fs);
+      }
+      cards.replaceChildren(...shown.map((e) => {
+        const li = el('li', { class: 'finder-card' },
+          el('a', { href: `${base}/entries/${e.page}/` }, e.title),
+          el('p', {}, e.description),
+          el('p', { class: 'finder-family' }, e.family));
+        const f = flags[String(e.num)];
+        if (f) li.append(el('p', { class: 'finder-flag', title: `Needs confirming: ${f.join(', ')}` },
+          `⚑ It is here because of a finder value that needs confirming (${f.join(', ')}).`));
+        return li;
+      }));
+    };
+    draw();
+    body.replaceChildren(heading, panel, cards);
+  }
+
+  Promise.all([
+    fetch(`${base}/data/finder-tree.json`).then((r) => r.json()),
+    fetch(`${base}/data/finder.json`).then((r) => r.json()),
+  ]).then(([t, es]: [Question, Entry[]]) => {
+    tree = t;
+    for (const e of es) byNum.set(e.num, e);
+    render();
+    window.addEventListener('hashchange', render);
+  }).catch(() => {
+    body.replaceChildren(el('p', {}, 'Sorry, the finder could not load its data. Try reloading the page.'));
+  });
+</script>
+
+<style is:global>
+  .finder-trail ol { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; list-style: none; padding: 0; margin: 0 0 0.5rem; }
+  .finder-trail li + li::before { content: '›'; margin-right: 0.5rem; color: var(--sl-color-gray-3); }
+  .finder button { font: inherit; cursor: pointer; }
+  .finder-trail button { background: none; border: none; padding: 0; color: var(--sl-color-text-accent); text-decoration: underline; }
+  .finder-back { margin-right: 1rem; }
+  .finder-answers { list-style: none; padding: 0; display: grid; gap: 0.75rem; }
+  .finder-answers li { margin: 0; }
+  .finder-answer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; width: 100%; text-align: left;
+    padding: 0.75rem 1rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; background: var(--sl-color-gray-6); color: var(--sl-color-white); }
+  .finder-answer:hover, .finder-answer:focus-visible { border-color: var(--sl-color-accent); }
+  .finder-count { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); white-space: nowrap; }
+  .finder-example { margin: 0.25rem 0 0 1rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
+  .finder-explain { margin: 0.25rem 0 0 1rem; font-size: var(--sl-text-sm); }
+  .finder-unsure { margin-top: 1rem; background: none; border: 1px dashed var(--sl-color-gray-4); border-radius: 0.5rem; padding: 0.5rem 1rem; color: var(--sl-color-gray-2); }
+  .finder-panel { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0; }
+  .finder-panel-title { width: 100%; margin: 0; }
+  .finder-panel fieldset { border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; padding: 0.5rem 0.75rem; margin: 0; }
+  .finder-panel label { display: block; font-size: var(--sl-text-sm); }
+  .finder-none { color: var(--sl-color-gray-4); }
+  .finder-cards { list-style: none; padding: 0; display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+  .finder-card { margin: 0; padding: 0.75rem 1rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; }
+  .finder-card a { font-weight: 600; }
+  .finder-card p { margin: 0.25rem 0 0; font-size: var(--sl-text-sm); }
+  .finder-family { color: var(--sl-color-gray-3); }
+  .finder-flag { color: var(--sl-color-orange-high, inherit); }
+</style>
