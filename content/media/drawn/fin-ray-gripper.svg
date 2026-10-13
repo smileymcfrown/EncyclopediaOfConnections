@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two side views of a gripper finger pressed by a round object: on the left a plain flexible strip bends away from the push, and on the right a triangular fin-ray finger with cross ribs passes the push to its back wall so its tip curls toward the object and wraps around it.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none">
+<line x1="400" y1="20" x2="400" y2="410" stroke="#cccccc" stroke-width="2"/>
+<!-- plain strip -->
+<line x1="190" y1="380" x2="190" y2="90" stroke="#999999" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M190,380 Q188,260 120,110" stroke="#222" stroke-width="14"/>
+<path d="M190,380 Q188,260 120,110" stroke="#d8f0d2" stroke-width="8"/>
+<circle cx="221" cy="252" r="42" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="306" y1="252" x2="272" y2="252" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M176,104 Q150,88 128,100" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="120" y="380" width="150" height="22" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<!-- fin-ray finger -->
+<polygon points="510,380 610,380 560,90" stroke="#999999" stroke-width="2" stroke-dasharray="7 6"/>
+<circle cx="660" cy="240" r="44" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="3">
+<line x1="513.1" y1="327.3" x2="610.7" y2="338.6"/>
+<line x1="526.8" y1="281.2" x2="611.4" y2="297.3"/>
+<line x1="551" y1="240.5" x2="612.1" y2="258.4"/>
+<line x1="583.3" y1="208.7" x2="612.1" y2="222.6"/>
+<line x1="622.1" y1="186" x2="635.3" y2="195.4"/>
+</g>
+<path id="back" d="M510,380 C505,280 560,190 676,170" stroke="#222" stroke-width="14"/>
+<path id="front" d="M610,380 L612.1,257.4 A51,51 0 0 1 651.1,189.8 L676,170" stroke="#222" stroke-width="14"/>
+<path d="M510,380 C505,280 560,190 676,170" stroke="#d8f0d2" stroke-width="8"/>
+<path d="M610,380 L612.1,257.4 A51,51 0 0 1 651.1,189.8 L676,170" stroke="#d8f0d2" stroke-width="8"/>
+<rect x="470" y="380" width="180" height="22" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<line x1="776" y1="240" x2="722" y2="240" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="600" y1="287" x2="548" y2="277" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="602" y1="245" x2="566" y2="234" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M568,94 Q644,92 668,152" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="486" y1="232" x2="548" y2="256" stroke="#222" stroke-width="2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">Plain flexible strip</text>
+<text x="600" y="36" font-size="21" font-weight="bold">Fin-ray finger</text>
+<text x="221" y="258">object</text>
+<text x="660" y="246">object</text>
+<text x="92" y="70">bends away</text>
+<text x="676" y="84">tip curls in</text>
+<text x="452" y="226">cross ribs</text>
+<text x="456" y="320">back wall</text>
+<text x="200" y="430">bends away: barely holds</text>
+<text x="600" y="430">ribs push the back wall, so it wraps round</text>
+</g>
+</svg>

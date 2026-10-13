@@ -121,10 +121,19 @@ sources:
 - https://www.printables.com/model/280920-clicky-knob
 - https://www.printables.com/model/308024-super-clicky-fidget-knob
 research: research/connection-types/results/Compliant_detent_flexure_click_arm.json
-image: null
+image:
+  file: drawn/compliant-detent.svg
+  alt: 'Three steps of a compliant detent: a springy arm growing from the housing rests its rounded tip in a notch of a wheel,
+    a tooth bends the arm upwards as the wheel turns, and the tip drops into the next notch with a click; an inset shows a
+    watch star wheel held by a jumper spring in the same way.'
+  drawn: true
 glossary: [detent, ratchet, pawl, torque, stiffness, flexure, cantilever, deflection, clearance, form-fit--force-fit--material-bond,
   taper, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, print-in-place, peel-vs-shear]
 ---
+
+![Three steps of a compliant detent: a springy arm growing from the housing rests its rounded tip in a notch of a wheel, a tooth bends the arm upwards as the wheel turns, and the tip drops into the next](../media/drawn/compliant-detent.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A notched wheel or track plus a springy arm made as part of the plastic (or a thin steel jumper spring) that drops into each notch, giving a turning or sliding part positive click positions without separate springs, balls or pins.
 
