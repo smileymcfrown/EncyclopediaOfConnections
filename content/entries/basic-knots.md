@@ -133,6 +133,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Granny_knot.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Basic_knots_overhand_knot_half_hitch_reef_knot.json
+image: null
 glossary: [stiffness, form-fit--force-fit--material-bond, layer-lines]
 ---
 

@@ -134,6 +134,7 @@ sources:
 - https://www.youtube.com/watch?v=DQzh1K6oNJQ
 - https://api.printables.com/graphql/ (models 1594528, 1355605, 932095, 640345)
 research: research/connection-types/results/Pushon_edge_trim_Uchannel_edging_grommet_edging.json
+image: null
 glossary: [cantilever, form-fit--force-fit--material-bond, spline, creep, infill, warping--shrinkage, gland]
 ---
 

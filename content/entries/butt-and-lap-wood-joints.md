@@ -136,6 +136,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf
 research: research/connection-types/results/Butt_and_lap_wood_joints_screwed_pockethole_halflap.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, spline, heat-set-insert, captive-nut, pilot-hole, counterbore--countersink,
   repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear]
 ---

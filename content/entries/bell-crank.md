@@ -138,6 +138,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/518385-traxxas-rustler-2wd-steering-bellcrank
 research: research/connection-types/results/Bell_crank_angle_lever.json
+image: null
 glossary: [misalignment, backlash, axial--radial, dead-point, over-centre, mechanical-advantage, pitch, crank, linkage, actuator,
   stiffness, clearance, form-fit--force-fit--material-bond, spline, boss, repeatability--accuracy, creep, brittle--ductile,
   infill, print-in-place]

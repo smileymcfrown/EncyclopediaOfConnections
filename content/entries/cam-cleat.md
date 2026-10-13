@@ -133,6 +133,7 @@ sources:
 - https://en.wikipedia.org/wiki/Cleat_hitch
 - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 research: research/connection-types/results/Cam_cleat.json
+image: null
 glossary: [self-locking, pawl, sprag, torsion, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 

@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
 - https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png
 research: research/connection-types/results/Internal_tube_anchors_star_nut_expansion_plug.json
+image: null
 glossary: [self-locking, tolerance, form-fit--force-fit--material-bond, taper, collet, heat-set-insert, brittle--ductile,
   layer-lines, infill]
 ---

@@ -141,6 +141,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Solder_fittings
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Soldered_metal_joint_soft_soldering_of_metal_parts_sweatsoldered_copper_pipe.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, infill, warping--shrinkage,
   peel-vs-shear]
 ---

@@ -146,6 +146,7 @@ sources:
 - https://www.youtube.com/watch?v=A_gthivH21c (verified via YouTube oEmbed)
 - https://www.youtube.com/watch?v=Od7TsxxAIY4 (verified via YouTube oEmbed)
 research: research/connection-types/results/Burnwire_and_fusiblelink_release_oneshot_thermal_release.json
+image: null
 glossary: [self-locking, actuator, solenoid, fail-safe--fail-secure, preload, form-fit--force-fit--material-bond, creep]
 ---
 

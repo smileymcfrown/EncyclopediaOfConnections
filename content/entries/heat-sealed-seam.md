@@ -124,6 +124,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Heat_seal_film.jpg
 - https://api.printables.com/graphql/ (models 732684, 11188)
 research: research/connection-types/results/Heatsealed_seam_heatsealed_plastic_film_and_coated_fabric.json
+image: null
 glossary: [stroke, bistable, actuator, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 

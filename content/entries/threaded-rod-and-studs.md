@@ -161,6 +161,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Gewindestangenschere_Makita.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Threaded_rod_and_studs_allthread_studding_hanger_bolt.json
+image: null
 glossary: [backlash, self-locking, axial--radial, torque, pitch, idler, preload, cantilever, clearance, form-fit--force-fit--material-bond,
   pilot-hole, threadlocker, chamfer--fillet, undercut, creep, galling--fretting, infill, warping--shrinkage, peel-vs-shear]
 ---

@@ -115,6 +115,7 @@ sources:
 - https://www.youtube.com/watch?v=Z73rnbUEdN8
 - https://www.youtube.com/watch?v=thBy5z0Kanc
 research: research/connection-types/results/Temporary_sheet_fastener_Clecotype_spring_pin.json
+image: null
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, pilot-hole, creep, peel-vs-shear]
 ---
 

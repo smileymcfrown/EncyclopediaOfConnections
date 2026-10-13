@@ -119,6 +119,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Flare_fitting_flared_tube_fitting_double_flare.json
+image: null
 glossary: [misalignment, torque, form-fit--force-fit--material-bond, brittle--ductile, cure, o-ring]
 ---
 

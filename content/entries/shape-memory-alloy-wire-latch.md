@@ -103,6 +103,7 @@ sources:
   opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shapememoryalloy_wire_latch_nitinol_muscle_wire.json
+image: null
 glossary: [self-locking, stroke, detent, pawl, actuator, solenoid, flexure, form-fit--force-fit--material-bond, fatigue]
 ---
 

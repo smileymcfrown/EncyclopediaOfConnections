@@ -133,6 +133,7 @@ sources:
 - https://www.youtube.com/watch?v=mSnDKx-UV8M
 - https://api.printables.com/graphql/ (model 833859)
 research: research/connection-types/results/Ultrasonic_weld_ultrasonic_plastic_welding_energy_director.json
+image: null
 glossary: [axial--radial, cantilever, hysteresis, tolerance, form-fit--force-fit--material-bond, boss, repeatability--accuracy,
   creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, support-material, warping--shrinkage, peel-vs-shear]
 ---

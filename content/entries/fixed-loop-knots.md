@@ -153,6 +153,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Directional_figure_8_knot.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Fixed_loop_knots_bowline_figureeight_loop_alpine_butterfly.json
+image: null
 glossary: [form-fit--force-fit--material-bond, peel-vs-shear]
 ---
 

@@ -138,6 +138,7 @@ sources:
 - https://www.youtube.com/watch?v=hsmqOMNsekg
 - https://www.youtube.com/watch?v=R_r53OCHYKU
 research: research/connection-types/results/Elastomeric_solvent_glue_flexible_craft_glue.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, cure, peel-vs-shear]
 ---
 

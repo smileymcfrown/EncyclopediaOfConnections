@@ -115,6 +115,7 @@ sources:
 - https://www.printables.com/model/354565-fixing-screw-for-a-bajonett-fastener (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Quarterturn_fastener_Dzustype.json
+image: null
 glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---

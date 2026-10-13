@@ -156,6 +156,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Basic_latches_spring_latch_slide_bolt_hook_and_eye.json
+image: null
 glossary: [misalignment, axial--radial, over-centre, solenoid, flexure, clearance, form-fit--force-fit--material-bond, chamfer--fillet,
   creep, brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---

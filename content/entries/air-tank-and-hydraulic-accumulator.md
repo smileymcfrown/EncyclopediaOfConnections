@@ -153,6 +153,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bicycle_CO%E2%82%82_inflator_with_threaded_16_g_cartridges.jpg
 - https://commons.wikimedia.org/wiki/File:Kocsis_Tech_80gal_6.5ksi_piston_accumulator.JPG
 research: research/connection-types/results/Air_tank_and_hydraulic_accumulator_pressure_reservoir.json
+image: null
 glossary: [reciprocating, stroke, actuator, fail-safe--fail-secure, creep, fatigue, brittle--ductile, lubrication, check-valve,
   regulator, water-hammer]
 ---

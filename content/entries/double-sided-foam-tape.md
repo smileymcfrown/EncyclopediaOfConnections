@@ -137,6 +137,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/1237722-simple-hook
 research: research/connection-types/results/Doublesided_foam_tape_acrylic_foam_pressuresensitive_adhesive.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, elephants-foot, cure, surface-energy, primer, peel-vs-shear]
 ---
 

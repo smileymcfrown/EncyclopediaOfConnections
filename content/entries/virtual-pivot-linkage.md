@@ -129,6 +129,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Virtualpivot_linkage_remote_centre_of_motion.json
+image: null
 glossary: [misalignment, backlash, stroke, pitch, linkage, flexure, clearance, chamfer--fillet, creep, lubrication, perimeters,
   print-in-place, peel-vs-shear]
 ---

@@ -127,6 +127,7 @@ sources:
 - https://www.youtube.com/watch?v=yNZ2mqYNLYI
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selffolding_print_4D_printing.json
+image: null
 glossary: [bistable, actuator, compliant-mechanism, living-hinge, form-fit--force-fit--material-bond, print-in-place, peel-vs-shear]
 ---
 

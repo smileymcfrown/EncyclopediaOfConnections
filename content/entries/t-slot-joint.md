@@ -142,6 +142,7 @@ sources:
 - https://www.youtube.com/watch?v=T51lx0ChgdU
 - https://www.youtube.com/watch?v=57OT_SIW96U
 research: research/connection-types/results/Tslot_joint_captive_nut_and_bolt_joint.json
+image: null
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert, captive-nut, creep,
   perimeters, kerf]
 ---

@@ -129,6 +129,7 @@ sources:
 - https://en.wikipedia.org/wiki/Victaulic
 - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 research: research/connection-types/results/Band_flange_clamp_Vband_clamp_triclamp.json
+image: null
 glossary: [misalignment, axial--radial, over-centre, torque, preload, torsion, clearance, form-fit--force-fit--material-bond,
   spline, creep, galling--fretting, peel-vs-shear, o-ring]
 ---

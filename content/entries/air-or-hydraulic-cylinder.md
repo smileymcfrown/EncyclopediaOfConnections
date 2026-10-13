@@ -152,6 +152,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Pneumatic_cylinder_(animation).gif
 - https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg
 research: research/connection-types/results/Air_or_hydraulic_cylinder_pneumatic_cylinder_hydraulic_ram.json
+image: null
 glossary: [misalignment, self-locking, oscillating, stroke, actuator, solenoid, fail-safe--fail-secure, creep, lubrication,
   infill, o-ring, gland, regulator]
 ---

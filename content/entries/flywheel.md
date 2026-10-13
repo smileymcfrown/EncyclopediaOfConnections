@@ -120,6 +120,7 @@ sources:
 - https://www.youtube.com/watch?v=P-xT0xrK6AE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Flywheel_inertia_wheel_friction_motor.json
+image: null
 glossary: [stroke, freewheel, torque, gear-ratio, crank, set-screw, creep, fatigue, infill, elephants-foot]
 ---
 

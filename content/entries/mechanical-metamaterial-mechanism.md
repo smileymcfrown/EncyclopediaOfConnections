@@ -142,6 +142,7 @@ sources:
 - https://en.wikipedia.org/wiki/Mechanical_metamaterial
 - https://www.nature.com/articles/s41467-018-07073-5
 research: research/connection-types/results/Mechanical_metamaterial_mechanism_shearcell_hinge_arrays.json
+image: null
 glossary: [misalignment, over-centre, bistable, linkage, stiffness, flexure, compliant-mechanism, living-hinge, fatigue, brittle--ductile,
   lubrication, infill, print-in-place, kerf, peel-vs-shear]
 ---

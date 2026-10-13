@@ -124,6 +124,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Crimping_tool_04.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Crimp_terminals_ring_fork_and_spade_terminals_blade_quickdisconnect.json
+image: null
 glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, gland]
 ---
 

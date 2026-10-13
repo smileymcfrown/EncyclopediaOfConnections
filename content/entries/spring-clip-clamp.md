@@ -131,6 +131,7 @@ sources:
 - 'https://api.printables.com/graphql/ (Printables API: models 617245, 1707408, 1096058, 33109, 559737, 904305, 659163, 982731,
   9024; titles of 586755 and 466832 from search results)'
 research: research/connection-types/results/Spring_clip_clamp_clothespeg_clip_spring_clamp_clipon_holder.json
+image: null
 glossary: [dead-point, over-centre, ratchet, flexure, compliant-mechanism, cantilever, torsion, clearance, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, brittle--ductile, layer-lines, perimeters, infill, print-in-place, o-ring]
 ---

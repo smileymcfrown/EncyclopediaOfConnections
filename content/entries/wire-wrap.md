@@ -143,6 +143,7 @@ sources:
 - https://www.thingiverse.com/thing:4273748
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wire_wrap_wirewrapped_connection.json
+image: null
 glossary: [tolerance, form-fit--force-fit--material-bond, fatigue]
 ---
 

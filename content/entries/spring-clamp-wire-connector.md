@@ -138,6 +138,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Fahnestock_clip.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Springclamp_wire_connector_lever_connector_pushin_wire_connector.json
+image: null
 glossary: [tolerance, form-fit--force-fit--material-bond, creep, infill, overhang--bridging]
 ---
 

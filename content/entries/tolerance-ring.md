@@ -109,6 +109,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://www.youtube.com/watch?v=48arfVE4BzU
 research: research/connection-types/results/Tolerance_ring_wavyband_press_fit.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, pitch, fail-safe--fail-secure, stiffness, damping, tolerance, interference-fit,
   form-fit--force-fit--material-bond, holding-force, set-screw, spline, chamfer--fillet, creep, brittle--ductile, peel-vs-shear]
 ---

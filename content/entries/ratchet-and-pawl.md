@@ -147,6 +147,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 research: research/connection-types/results/Ratchet_and_pawl_incl_reversible_ratchet.json
+image: null
 glossary: [backlash, self-locking, stroke, detent, ratchet, pawl, freewheel, sprag, torque, pitch, flexure, deflection, torsion,
   clearance, form-fit--force-fit--material-bond, circlip, chamfer--fillet, creep, stress-relaxation, layer-lines, perimeters,
   infill, print-in-place, elephants-foot, peel-vs-shear]

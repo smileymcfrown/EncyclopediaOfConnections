@@ -131,6 +131,7 @@ sources:
 - https://www.youtube.com/watch?v=lYXTiJo_FQQ
 - https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)
 research: research/connection-types/results/Blind_threaded_fixings_rivet_nut_well_nut.json
+image: null
 glossary: [axial--radial, torque, damping, clearance, tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert,
   captive-nut, creep, brittle--ductile, perimeters, infill, peel-vs-shear, o-ring]
 ---

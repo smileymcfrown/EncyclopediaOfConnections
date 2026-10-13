@@ -131,6 +131,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Swivels
 - 'https://api.printables.com/graphql/ (Printables API: models 983933, 367523, 1332089, 1208378, 1636795)'
 research: research/connection-types/results/Inline_swivel_rope_swivel_chain_swivel_ballbearing_swivel.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, creep, infill, print-in-place]
 ---
 

@@ -113,6 +113,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shockcorded_sectional_pole.json
+image: null
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, stress-concentration,
   layer-lines, perimeters, infill]
 ---

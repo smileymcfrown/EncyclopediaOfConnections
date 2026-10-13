@@ -154,6 +154,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:5_2_solenoid_valve_example.svg
 - https://commons.wikimedia.org/wiki/File:Distributeurs_connexions.svg
 research: research/connection-types/results/Switching_valve_directional_control_valve_solenoid_valve.json
+image: null
 glossary: [bistable, detent, actuator, solenoid, fail-safe--fail-secure, infill, check-valve, regulator, water-hammer]
 ---
 

@@ -155,6 +155,7 @@ sources:
 - https://www.mcmaster.com/products/sleeve-bearings/
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 research: research/connection-types/results/Fourbar_linkage_incl_parallelogram_linkage.json
+image: null
 glossary: [degrees-of-freedom, misalignment, backlash, stroke, over-centre, crank, linkage, actuator, clearance, tolerance,
   brittle--ductile, lubrication, print-in-place, peel-vs-shear]
 ---

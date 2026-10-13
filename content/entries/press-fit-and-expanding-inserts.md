@@ -123,6 +123,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.spirol.com/assets/files/inserts-for-3d-printed-assemblies-us.pdf
 research: research/connection-types/results/Pressfit_and_expanding_inserts_tapin_insert.json
+image: null
 glossary: [torque, pitch, interference-fit, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   undercut, brittle--ductile, perimeters, infill]
 ---

@@ -131,6 +131,7 @@ sources:
 - https://www.printables.com/model/931664-print-in-place-scissor-lift-no-support-needed
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Scissor_linkage_lazy_tongs_scissor_lift.json
+image: null
 glossary: [self-locking, stroke, crank, linkage, actuator, clearance, form-fit--force-fit--material-bond, circlip, creep,
   infill, print-in-place, peel-vs-shear]
 ---

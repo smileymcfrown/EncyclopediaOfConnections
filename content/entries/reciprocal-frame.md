@@ -125,6 +125,7 @@ sources:
 - https://www.youtube.com/watch?v=5l4I-caLoxY
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Reciprocal_frame_selfsupporting_stick_bridge.json
+image: null
 glossary: [self-locking, pitch, deflection, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 

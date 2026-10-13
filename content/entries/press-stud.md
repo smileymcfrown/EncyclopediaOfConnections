@@ -120,6 +120,7 @@ sources:
 - https://www.youtube.com/watch?v=OlRwHwo6eW8
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Press_stud_snap_fastener_popper.json
+image: null
 glossary: [misalignment, detent, fail-safe--fail-secure, cantilever, form-fit--force-fit--material-bond, brittle--ductile,
   infill, peel-vs-shear]
 ---

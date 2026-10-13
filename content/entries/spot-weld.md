@@ -141,6 +141,7 @@ sources:
 - https://www.printables.com/model/1322762-18650-battery-welding-jig
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Spot_weld_resistance_spot_welding.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, repeatability--accuracy, fatigue, warping--shrinkage, peel-vs-shear,
   regulator]
 ---

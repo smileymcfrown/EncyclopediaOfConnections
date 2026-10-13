@@ -125,6 +125,7 @@ sources:
 - https://www.printables.com/model/870039-screw-jack
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lead_screw_and_nut_incl_antibacklash_nut.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, pitch, crank, actuator, preload, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, over-constraint, repeatability--accuracy, creep, lubrication, perimeters, cure]
 ---

@@ -132,6 +132,7 @@ sources:
 - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 research: research/connection-types/results/Clickpen_mechanism_rotatingcam_pushpush_indexer.json
+image: null
 glossary: [axial--radial, stroke, bistable, detent, ratchet, pawl, compliant-mechanism, deflection, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, perimeters, infill, elephants-foot, overhang--bridging]
 ---

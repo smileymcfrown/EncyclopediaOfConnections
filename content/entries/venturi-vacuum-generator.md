@@ -134,6 +134,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Airlift_Pump_vs_Geyser_Pump.JPG
 - https://www.youtube.com/watch?v=l-wZYJXpVFg
 research: research/connection-types/results/Venturi_vacuum_generator_vacuum_ejector_aspirator.json
+image: null
 glossary: [self-locking, solenoid, holding-force, creep, layer-lines, perimeters, infill, check-valve, regulator, water-hammer,
   venturi]
 ---

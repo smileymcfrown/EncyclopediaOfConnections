@@ -125,6 +125,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shims_spacers_and_standoffs_packing_spacer_washer.json
+image: null
 glossary: [self-locking, axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert,
   kinematic-coupling, creep, infill, peel-vs-shear]
 ---

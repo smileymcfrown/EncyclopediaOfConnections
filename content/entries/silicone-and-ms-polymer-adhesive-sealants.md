@@ -140,6 +140,7 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
 research: research/connection-types/results/Silicone_and_MSpolymer_adhesive_sealants.json
+image: null
 glossary: [stiffness, damping, form-fit--force-fit--material-bond, cure, primer, peel-vs-shear, o-ring]
 ---
 

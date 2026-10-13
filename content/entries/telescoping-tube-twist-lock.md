@@ -148,6 +148,7 @@ sources:
 - https://www.youtube.com/watch?v=Eo1yQIZLVH4
 - https://www.youtube.com/watch?v=B0HB_SU4pyw
 research: research/connection-types/results/Telescoping_tube_twist_lock_cam_or_collet_twist_lock.json
+image: null
 glossary: [self-locking, axial--radial, mechanical-advantage, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, collet, creep, perimeters, infill, print-in-place]
 ---

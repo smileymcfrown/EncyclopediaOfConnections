@@ -147,6 +147,7 @@ sources:
 - https://www.printables.com/model/1274025-print-in-place-draw-latch
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Draw_latch_overcentre_latch.json
+image: null
 glossary: [misalignment, self-locking, over-centre, mechanical-advantage, linkage, preload, cantilever, tolerance, form-fit--force-fit--material-bond,
   creep, layer-lines, perimeters, infill, print-in-place, peel-vs-shear, o-ring]
 ---

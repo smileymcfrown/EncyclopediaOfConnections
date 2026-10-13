@@ -120,6 +120,7 @@ sources:
 - https://www.thingiverse.com/thing:2764962
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Variableradius_pulley_fusee_compoundbow_cam.json
+image: null
 glossary: [stroke, ratchet, torque, idler, cam-and-follower, hysteresis, form-fit--force-fit--material-bond, repeatability--accuracy,
   creep, fatigue]
 ---

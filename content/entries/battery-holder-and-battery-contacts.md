@@ -127,6 +127,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:LeakedBattery_2585a.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Battery_holder_and_battery_contacts_spring_battery_contact_coincell_holder.json
+image: null
 glossary: [cantilever, torsion, tolerance, form-fit--force-fit--material-bond, keying, creep, print-in-place]
 ---
 

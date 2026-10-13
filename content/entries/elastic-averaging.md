@@ -123,6 +123,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG
 - https://api.printables.com/graphql/ (Printables models 116754, 142352, 114737 and 430589 read via the public API)
 research: research/connection-types/results/Elastic_averaging_manyfeature_alignment.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, flexure, cantilever, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep, fatigue, brittle--ductile, galling--fretting, layer-lines, support-material]

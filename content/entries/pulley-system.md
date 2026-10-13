@@ -148,6 +148,7 @@ sources:
 - https://www.practical-sailor.com/sails-rigging-deckgear/low-friction-rings/
 - https://api.printables.com/graphql/ (model 1772939, read 2026-10-06)
 research: research/connection-types/results/Pulley_system_block_and_tackle_differential_hoist.json
+image: null
 glossary: [self-locking, ratchet, pawl, mechanical-advantage, pitch, form-fit--force-fit--material-bond, creep, fatigue, perimeters,
   infill]
 ---

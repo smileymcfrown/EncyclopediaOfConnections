@@ -126,6 +126,7 @@ sources:
 - https://www.youtube.com/watch?v=uJO7mv4-0PY
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Turntable_bearing_lazySusan_bearing_slewing_ring.json
+image: null
 glossary: [misalignment, axial--radial, thrust-load, torque, clearance, tolerance, form-fit--force-fit--material-bond, lubrication]
 ---
 

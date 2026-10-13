@@ -128,6 +128,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Horizontal_rear_dropout.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Slotted_adjustment_with_a_jacking_screw_slotted_mount_sliding_motor_plate.json
+image: null
 glossary: [misalignment, self-locking, pitch, idler, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert,
   captive-nut, creep, perimeters, infill]
 ---

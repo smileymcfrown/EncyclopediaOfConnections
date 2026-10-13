@@ -122,6 +122,7 @@ sources:
 - https://www.youtube.com/watch?v=90cXfaFM4O8
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Finray_gripper_fin_ray_effect_finger.json
+image: null
 glossary: [misalignment, backlash, self-locking, linkage, actuator, stiffness, flexure, living-hinge, tolerance, form-fit--force-fit--material-bond,
   brittle--ductile, infill, print-in-place, elephants-foot]
 ---

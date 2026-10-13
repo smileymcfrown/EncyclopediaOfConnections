@@ -119,6 +119,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing.svg
 - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing_and_capstone.svg
 research: research/connection-types/results/Knifeedge_and_jewel_pivots_lowfriction_point_pivots.json
+image: null
 glossary: [misalignment, oscillating, detent, flexure, torsion, form-fit--force-fit--material-bond, kinematic-coupling, repeatability--accuracy,
   creep, brittle--ductile, lubrication, print-in-place]
 ---

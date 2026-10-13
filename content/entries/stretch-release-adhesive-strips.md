@@ -127,6 +127,7 @@ sources:
 - https://www.youtube.com/watch?v=luSNQjWUEx0
 - https://www.youtube.com/watch?v=QttXI2UnXwI
 research: research/connection-types/results/Stretchrelease_adhesive_strips.json
+image: null
 glossary: [lever-arm, form-fit--force-fit--material-bond, creep, primer, peel-vs-shear]
 ---
 

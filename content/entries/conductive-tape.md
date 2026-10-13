@@ -156,6 +156,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Corroded_copper_tape.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_tape_copper_foil_tape_conductive_fabric_tape.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, peel-vs-shear]
 ---
 

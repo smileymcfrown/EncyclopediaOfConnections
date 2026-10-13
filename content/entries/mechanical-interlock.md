@@ -115,6 +115,7 @@ sources:
   not opened; details read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Mechanical_interlock.json
+image: null
 glossary: [misalignment, detent, ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, deflection, clearance, form-fit--force-fit--material-bond,
   holding-force, keying, creep, layer-lines, peel-vs-shear]
 ---

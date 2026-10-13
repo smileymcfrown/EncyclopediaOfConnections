@@ -154,6 +154,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg
 - https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
 research: research/connection-types/results/Elastic_band_and_elastic_cord_springs_elastomer_springs.json
+image: null
 glossary: [misalignment, actuator, stiffness, preload, damping, hysteresis, creep, stress-relaxation, layer-lines, peel-vs-shear,
   o-ring]
 ---

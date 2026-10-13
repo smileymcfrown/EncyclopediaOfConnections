@@ -136,6 +136,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cable-lacing-nasa-style-spot-ties.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Binding_knots_and_seizings_constrictor_knot_seizing_cable_lacing.json
+image: null
 glossary: [self-locking, ratchet, form-fit--force-fit--material-bond, boss, creep, peel-vs-shear, gland]
 ---
 

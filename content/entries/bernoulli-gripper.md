@@ -139,6 +139,7 @@ sources:
 - https://hackaday.com/2019/03/09/look-ma-no-glue-electrostatic-adhesion-as-if-by-magic/
 - https://en.wikipedia.org/wiki/Electroadhesion
 research: research/connection-types/results/Bernoulli_gripper_noncontact_air_gripper.json
+image: null
 glossary: [axial--radial, solenoid, form-fit--force-fit--material-bond, creep, brittle--ductile, peel-vs-shear, regulator,
   venturi]
 ---

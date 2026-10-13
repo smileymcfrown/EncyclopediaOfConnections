@@ -131,6 +131,7 @@ sources:
 - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
 - https://en.wikipedia.org/wiki/Medium-density_fibreboard
 research: research/connection-types/results/Snaplock_sheet_joint_barbed_or_spring_finger.json
+image: null
 glossary: [misalignment, stiffness, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, captive-nut,
   chamfer--fillet, creep, brittle--ductile, layer-lines, kerf, peel-vs-shear]
 ---

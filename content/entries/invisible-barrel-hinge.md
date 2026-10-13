@@ -131,6 +131,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Invisible_barrel_hinge_Sosstype.json
+image: null
 glossary: [linkage, stiffness, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---

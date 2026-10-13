@@ -132,6 +132,7 @@ sources:
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf
 - https://en.wikipedia.org/wiki/Self-drilling_screw
 research: research/connection-types/results/Selftapping_screw_into_plastic_threadforming_screw.json
+image: null
 glossary: [torque, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, creep, stress-relaxation, brittle--ductile, perimeters, infill, warping--shrinkage,
   o-ring]

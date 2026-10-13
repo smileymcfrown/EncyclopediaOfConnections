@@ -89,6 +89,7 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wedge_dowel_clickin_grooved_dowel.json
+image: null
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, layer-lines, peel-vs-shear]
 ---
 

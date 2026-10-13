@@ -120,6 +120,7 @@ sources:
 - https://prusament.com/wp-content/uploads/2022/10/PLA_Prusament_TDS_2021_10_EN.pdf
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Keyless_locking_bush_taperlock_bush_shaft_locking_device.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, deflection, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, set-screw, spline, taper, collet, creep, brittle--ductile, layer-lines]
 ---

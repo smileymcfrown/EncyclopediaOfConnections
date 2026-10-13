@@ -140,6 +140,7 @@ sources:
 - https://www.youtube.com/watch?v=a74VjSCPp3E (verified via YouTube oEmbed)
 - https://www.youtube.com/watch?v=MLQ-xspxA7o (verified via YouTube oEmbed)
 research: research/connection-types/results/Ladder_lock_buckle_tension_lock_triglide.json
+image: null
 glossary: [self-locking, ratchet, stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
   infill, overhang--bridging]
 ---

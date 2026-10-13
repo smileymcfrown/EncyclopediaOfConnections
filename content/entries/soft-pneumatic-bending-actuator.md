@@ -128,6 +128,7 @@ sources:
 - https://www.youtube.com/watch?v=basxnQF3ea4 (title and channel confirmed via YouTube oEmbed)
 - 'https://api.printables.com/graphql/ (Printables API: models 232284, 386241, 11188)'
 research: research/connection-types/results/Soft_pneumatic_bending_actuator_airpowered_soft_finger.json
+image: null
 glossary: [misalignment, self-locking, linkage, actuator, solenoid, stiffness, flexure, hysteresis, fatigue, infill, cure,
   pot-life--working-time, peel-vs-shear, regulator]
 ---

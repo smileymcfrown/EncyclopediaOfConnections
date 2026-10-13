@@ -133,6 +133,7 @@ sources:
 - https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/LICENSE
 - https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md
 research: research/connection-types/results/Twistedstring_actuator.json
+image: null
 glossary: [backlash, self-locking, axial--radial, stroke, torque, gear-ratio, actuator, torsion, creep, fatigue]
 ---
 

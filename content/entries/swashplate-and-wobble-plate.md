@@ -139,6 +139,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/934945-swash-plate-engine-no-extra-hardware-needed
 research: research/connection-types/results/Swashplate_and_wobble_plate.json
+image: null
 glossary: [axial--radial, coaxial, reciprocating, stroke, pitch, cam-and-follower, crank, linkage, clearance, form-fit--force-fit--material-bond,
   circlip, lubrication, check-valve]
 ---

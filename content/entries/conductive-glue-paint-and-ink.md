@@ -135,6 +135,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Making_Conductive_Ink.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_glue_paint_and_ink_electrically_conductive_adhesive_silver_epoxy.json
+image: null
 glossary: [form-fit--force-fit--material-bond, captive-nut, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
 

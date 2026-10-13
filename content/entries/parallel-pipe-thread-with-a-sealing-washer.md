@@ -160,6 +160,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:U.S._Navy_Constructionman_Jennifer_Stewart,_foreground,_attaches_a_toilet_tank_to_the_bowl_of_a_bathroom_as_Jeffery_Brown_tightens_a_dielectric_union_on_a_water_heater_at_Sheppard_Air_Force_Base,_Texas,_July_25_110725-F-NS900-013.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Parallel_pipe_thread_with_a_sealing_washer_BSPP_gardenhose_thread_pipe_union.json
+image: null
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, captive-nut, boss, creep, perimeters,
   infill, o-ring, gland, water-hammer]
 ---

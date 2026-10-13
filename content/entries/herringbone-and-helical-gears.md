@@ -155,6 +155,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.thingiverse.com/thing:53451
 research: research/connection-types/results/Herringbone_and_helical_gears.json
+image: null
 glossary: [backlash, self-locking, axial--radial, thrust-load, torque, gear-ratio, pitch, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, chamfer--fillet, lubrication, infill, print-in-place, elephants-foot, overhang--bridging]
 ---

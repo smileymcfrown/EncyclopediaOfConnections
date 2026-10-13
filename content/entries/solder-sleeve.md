@@ -134,6 +134,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Soe_self-solder_sleeve_2.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solder_sleeve_solderseal_splice.json
+image: null
 glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland]
 ---
 

@@ -140,6 +140,7 @@ sources:
 - https://www.youtube.com/watch?v=cG9SiGAxTPY
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Geneva_drive_Maltese_cross.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, ratchet, pawl, crank, clearance, form-fit--force-fit--material-bond,
   circlip, repeatability--accuracy, print-in-place, elephants-foot, peel-vs-shear]
 ---

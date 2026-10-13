@@ -127,6 +127,7 @@ sources:
 - https://help.prusa3d.com/article/asa_1809
 - https://en.wikipedia.org/wiki/Maillon
 research: research/connection-types/results/Springgate_hook_carabiner_snap_hook_lobster_clasp.json
+image: null
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, fatigue, brittle--ductile, layer-lines, perimeters,
   infill, print-in-place]
 ---

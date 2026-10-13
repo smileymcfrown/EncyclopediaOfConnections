@@ -121,6 +121,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cable_drag_chain-plastic.jpg
 - https://www.youtube.com/watch?v=dMEKEeV_7Ls
 research: research/connection-types/results/Cable_carrier_drag_chain_energy_chain.json
+image: null
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, boss, chamfer--fillet, creep, brittle--ductile,
   infill, print-in-place, gland]
 ---

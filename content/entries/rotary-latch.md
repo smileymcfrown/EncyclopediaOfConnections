@@ -124,6 +124,7 @@ sources:
 - https://www.printables.com/model/130253-spring-loaded-latching-mechanism (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rotary_latch_claw_latch.json
+image: null
 glossary: [misalignment, self-locking, over-centre, detent, ratchet, pawl, actuator, solenoid, flexure, torsion, clearance,
   tolerance, form-fit--force-fit--material-bond, holding-force, creep, layer-lines, infill, o-ring]
 ---

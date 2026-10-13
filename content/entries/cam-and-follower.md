@@ -175,6 +175,7 @@ sources:
 - https://sketchfab.com/3d-models/level-wind-mechanism-baitcasting-fishing-reel-0d4a3f6123eb409a9ce6391ddcd72048
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Cam_and_follower_plate_barrel_and_face_cams.json
+image: null
 glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, detent, pawl, pitch, cam-and-follower, crank,
   linkage, actuator, stiffness, preload, clearance, form-fit--force-fit--material-bond, set-screw, undercut, repeatability--accuracy,
   infill, print-in-place, overhang--bridging]

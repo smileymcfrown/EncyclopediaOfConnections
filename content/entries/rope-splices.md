@@ -154,6 +154,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:1871_illustration_rope_splices.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rope_splices_eye_splice_short_splice_braidedrope_splice.json
+image: null
 glossary: [self-locking, form-fit--force-fit--material-bond, taper, perimeters, infill]
 ---
 

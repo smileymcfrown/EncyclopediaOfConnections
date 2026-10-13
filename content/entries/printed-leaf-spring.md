@@ -126,6 +126,7 @@ sources:
 - https://www.youtube.com/watch?v=AAKsl8zW-Ds
 - https://www.youtube.com/watch?v=hHZo82-PtT8
 research: research/connection-types/results/Printed_leaf_spring_flat_cantilever_spring.json
+image: null
 glossary: [detent, ratchet, pawl, stiffness, preload, flexure, living-hinge, cantilever, deflection, torsion, taper, chamfer--fillet,
   creep, stress-relaxation, fatigue, brittle--ductile, stress-concentration, layer-lines, infill, peel-vs-shear]
 ---

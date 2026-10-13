@@ -137,6 +137,7 @@ sources:
 - https://www.youtube.com/watch?v=kHT3rltCInU
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_slip_clutch_slip_coupling_slipper_clutch.json
+image: null
 glossary: [misalignment, backlash, self-locking, torque, gear-ratio, hysteresis, tolerance, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, repeatability--accuracy, creep, stress-relaxation, peel-vs-shear, o-ring]
 ---

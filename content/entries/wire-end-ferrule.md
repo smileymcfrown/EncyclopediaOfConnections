@@ -129,6 +129,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Lautsprecherkabel_Aderendhuelsen_Makro.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wireend_ferrule_bootlace_ferrule_end_sleeve.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, gland]
 ---
 

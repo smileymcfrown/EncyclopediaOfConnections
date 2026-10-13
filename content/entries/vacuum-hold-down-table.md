@@ -137,6 +137,7 @@ sources:
 - https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig
 - https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement
 research: research/connection-types/results/Vacuum_holddown_table_vacuum_table.json
+image: null
 glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, check-valve, venturi]
 ---
 

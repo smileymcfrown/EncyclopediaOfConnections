@@ -126,6 +126,7 @@ sources:
 - https://www.printables.com/model/792603-rack-and-pinion-gear-educational-model
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rack_and_pinion.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, ratchet, pawl, torque, pitch, crank, actuator, stiffness,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, lubrication, perimeters,
   infill, print-in-place]

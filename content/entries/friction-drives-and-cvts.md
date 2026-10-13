@@ -141,6 +141,7 @@ sources:
 - https://huangyan920.github.io/Mechanical/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_drives_and_CVTs_friction_wheel_variator.json
+image: null
 glossary: [misalignment, backlash, freewheel, torque, idler, form-fit--force-fit--material-bond, set-screw, creep, fatigue,
   layer-lines, cure, o-ring]
 ---

@@ -148,6 +148,7 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 926284, 1322380, 1462797, 624969, 1740511, 826101 'Craft Cord End
   (Aglet)', 1486338 'Threaded Aglet – Screw-On Shoelace Tip', 421008 'Aglet Crimper'; pages not opened)
 research: research/connection-types/results/Ropeend_finishing_whipping_heatsealing_back_splice_aglet.json
+image: null
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, infill, print-in-place, peel-vs-shear]
 ---
 

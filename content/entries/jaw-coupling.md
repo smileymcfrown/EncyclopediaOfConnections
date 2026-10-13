@@ -124,6 +124,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Jaw_coupling_spider_coupling.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure, stiffness, preload, damping, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, repeatability--accuracy, shore-hardness, peel-vs-shear]
 ---

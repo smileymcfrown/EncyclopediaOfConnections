@@ -122,6 +122,7 @@ sources:
 - https://www.youtube.com/watch?v=r0zpqhhcmp4
 - https://api.printables.com/graphql/ (models 692350, 737519, 1287251)
 research: research/connection-types/results/Frictionwelded_plastic_rotarytool_friction_welding_spin_welding.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, collet, fatigue, infill, check-valve]
 ---
 

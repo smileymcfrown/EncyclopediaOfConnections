@@ -126,6 +126,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://api.sketchfab.com/v3/models/08a6044f319440abbc99dc61e6fa2801
 research: research/connection-types/results/Friction_clutch_plate_or_cone_clutch.json
+image: null
 glossary: [misalignment, backlash, back-driving, axial--radial, sprag, torque, idler, linkage, hysteresis, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, creep]
 ---

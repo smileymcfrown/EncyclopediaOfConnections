@@ -129,6 +129,7 @@ sources:
 - https://www.printables.com/model/1109394-dram-pill-bottle-with-protective-cap-mechanism (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushandturn_childresistant_cap.json
+image: null
 glossary: [coaxial, ratchet, torque, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
   print-in-place, regulator]
 ---

@@ -126,6 +126,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Oldham_coupling.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, crank, fail-safe--fail-secure, stiffness, damping,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, spline, repeatability--accuracy, creep, infill, elephants-foot,
   peel-vs-shear]

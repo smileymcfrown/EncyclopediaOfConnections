@@ -124,6 +124,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rigid_chain_actuator_zip_chain_push_chain.json
+image: null
 glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
   overhang--bridging]
 ---

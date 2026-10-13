@@ -133,6 +133,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg
 - https://commons.wikimedia.org/wiki/File:Depiction_of_a_two-gauge_pressure_regulator_connected_to_a_cylinder.png
 research: research/connection-types/results/Pressure_regulator_pressurereducing_valve.json
+image: null
 glossary: [oscillating, actuator, solenoid, cantilever, damping, hysteresis, boss, repeatability--accuracy, creep, infill,
   o-ring, check-valve, regulator]
 ---

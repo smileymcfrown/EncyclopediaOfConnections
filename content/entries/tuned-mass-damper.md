@@ -116,6 +116,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Tuned_mass_damper_-_Taipei_101_-_Wikimania_2007_0224.jpg
 - https://commons.wikimedia.org/wiki/File:Stockbridge_damper_new_with_ruler.jpg
 research: research/connection-types/results/Tuned_mass_damper_vibration_absorber.json
+image: null
 glossary: [stiffness, cantilever, deflection, damping, repeatability--accuracy, creep, fatigue, peel-vs-shear]
 ---
 

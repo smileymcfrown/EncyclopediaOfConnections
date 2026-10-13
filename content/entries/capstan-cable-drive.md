@@ -108,6 +108,7 @@ sources:
 - https://www.youtube.com/watch?v=jKZIvseA1Nk
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Capstan_cable_drive_tendon_drive.json
+image: null
 glossary: [misalignment, backlash, back-driving, self-locking, torque, pitch, actuator, stiffness, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, fatigue, layer-lines, infill]
 ---

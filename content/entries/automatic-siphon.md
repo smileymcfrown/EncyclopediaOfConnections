@@ -142,6 +142,7 @@ sources:
 - https://www.youtube.com/watch?v=B9j8-Cf1ZW8
 - https://www.youtube.com/watch?v=hpVzsM_7uZo
 research: research/connection-types/results/Automatic_siphon_bell_siphon.json
+image: null
 glossary: [back-driving, over-centre, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters, overhang--bridging,
   cure, primer, check-valve, water-hammer]
 ---

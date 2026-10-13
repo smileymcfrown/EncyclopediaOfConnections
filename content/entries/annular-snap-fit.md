@@ -127,6 +127,7 @@ sources:
 - https://www.printables.com/model/151102-snap-fit-joint-test-prints-eight-versions
 - https://www.fictiv.com/tools/snap-fit-calculator
 research: research/connection-types/results/Annular_snap_fit.json
+image: null
 glossary: [misalignment, cantilever, deflection, clearance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   circlip, chamfer--fillet, undercut, return-angle, repeatability--accuracy, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, o-ring]

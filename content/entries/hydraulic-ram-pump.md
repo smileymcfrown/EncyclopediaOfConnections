@@ -150,6 +150,7 @@ sources:
 - https://www.thingiverse.com/thing:5530720
 - https://www.thingiverse.com/thing:2762294
 research: research/connection-types/results/Hydraulic_ram_pump_waterhammer_pump.json
+image: null
 glossary: [stroke, fatigue, perimeters, infill, primer, o-ring, check-valve, water-hammer]
 ---
 

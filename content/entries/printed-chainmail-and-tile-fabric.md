@@ -129,6 +129,7 @@ sources:
 - https://www.youtube.com/watch?v=HsGCIl4KjGs
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Printed_chainmail_and_tile_fabric_printinplace_interlinked_fabric.json
+image: null
 glossary: [degrees-of-freedom, stiffness, living-hinge, clearance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, overhang--bridging, kerf]
 ---

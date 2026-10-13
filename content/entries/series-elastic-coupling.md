@@ -139,6 +139,7 @@ sources:
 - https://tamiyamodel.com/how-does-a-servo-saver-work/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Serieselastic_coupling_series_elastic_actuator.json
+image: null
 glossary: [misalignment, backlash, self-locking, torque, linkage, actuator, fail-safe--fail-secure, stiffness, deflection,
   torsion, damping, hysteresis, tolerance, spline, heat-set-insert, creep, fatigue, perimeters, infill]
 ---

@@ -112,6 +112,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Elevator_speed_governor.jpg
 - https://www.youtube.com/watch?v=aunIE33GYZc
 research: research/connection-types/results/Inertialocking_reel_seatbelt_lock_centrifugal_catch.json
+image: null
 glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
 

@@ -106,6 +106,7 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rKYTr9NjgOA&format=json
 - https://github.com/shaiss/print-bench/issues/668
 research: research/connection-types/results/Compliant_ratchet_and_overrunning_clutch_flexure_pawl.json
+image: null
 glossary: [backlash, axial--radial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, stiffness, preload, flexure,
   compliant-mechanism, living-hinge, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   undercut, creep, stress-relaxation, fatigue, brittle--ductile, perimeters, print-in-place, elephants-foot, peel-vs-shear]

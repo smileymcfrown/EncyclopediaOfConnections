@@ -111,6 +111,7 @@ sources:
 - https://www.thingiverse.com/thing:4640046
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Schmidt_coupling_offset_coupling.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, infill,
   print-in-place]
 ---

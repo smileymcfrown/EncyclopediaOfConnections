@@ -134,6 +134,7 @@ sources:
 - https://www.printables.com/model/274563-print-in-place-rotary-fidget-detent-knob-with-dete (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_detent_spring_plunger.json
+image: null
 glossary: [misalignment, detent, ratchet, pawl, torque, flexure, clearance, form-fit--force-fit--material-bond, holding-force,
   set-screw, counterbore--countersink, creep, brittle--ductile, warping--shrinkage, o-ring]
 ---

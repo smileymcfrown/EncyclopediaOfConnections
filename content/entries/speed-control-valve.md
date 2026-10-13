@@ -139,6 +139,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Symbol_Retract_resistor_check_valve.svg
 - https://commons.wikimedia.org/wiki/File:Needle_valve.jpg
 research: research/connection-types/results/Speedcontrol_valve_flow_control_valve_needle_valve.json
+image: null
 glossary: [stroke, actuator, solenoid, stick-slip, tolerance, repeatability--accuracy, infill, check-valve, regulator]
 ---
 

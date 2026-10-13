@@ -139,6 +139,7 @@ sources:
 - https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)
 research: research/connection-types/results/Glued_joint_design_butt_lap_and_scarf_joints_peel_vs_shear.json
+image: null
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, creep, fatigue,
   stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear]
 ---

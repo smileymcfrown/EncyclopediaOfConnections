@@ -108,6 +108,7 @@ sources:
 - https://www.youtube.com/watch?v=JCB8fTl-A7U
 - https://www.youtube.com/watch?v=UfnTRo0zyO0
 research: research/connection-types/results/Selfclinching_fastener_pressin_nut_or_stud.json
+image: null
 glossary: [misalignment, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, chamfer--fillet, undercut,
   brittle--ductile]
 ---

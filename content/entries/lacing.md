@@ -128,6 +128,7 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 1745470, 585678, 213352, 1559852 'shoe lace hook', 254898 'Shoelaces
   lacing system', 1654691, 247728 'lamellar armor', 899079; pages not opened)
 research: research/connection-types/results/Lacing_cord_through_rows_of_holes_or_eyelets.json
+image: null
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, perimeters, infill]
 ---
 

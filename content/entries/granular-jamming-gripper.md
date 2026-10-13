@@ -125,6 +125,7 @@ sources:
 - https://par.nsf.gov//servlets/purl/10126137
 - https://br.ci.ritsumei.ac.jp/AdvEngMatr2023preprint.pdf
 research: research/connection-types/results/Granular_jamming_gripper_coffeeballoon_gripper.json
+image: null
 glossary: [misalignment, solenoid, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, holding-force, perimeters,
   o-ring, venturi]
 ---

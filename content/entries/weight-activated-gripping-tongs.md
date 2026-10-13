@@ -116,6 +116,7 @@ sources:
 - https://www.youtube.com/watch?v=76zOAf3uXUA
 - https://www.youtube.com/watch?v=WcCxJ-tkP4I
 research: research/connection-types/results/Weightactivated_gripping_tongs_lifting_tongs_lewis.json
+image: null
 glossary: [self-locking, lever-arm, linkage, damping, form-fit--force-fit--material-bond, taper, creep]
 ---
 

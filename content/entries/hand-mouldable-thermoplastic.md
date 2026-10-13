@@ -141,6 +141,7 @@ sources:
 - https://www.youtube.com/watch?v=s1OqZSYmStU
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Handmouldable_thermoplastic_polycaprolactone.json
+image: null
 glossary: [form-fit--force-fit--material-bond, undercut, repeatability--accuracy, creep, brittle--ductile, overhang--bridging,
   cure, pot-life--working-time, peel-vs-shear]
 ---

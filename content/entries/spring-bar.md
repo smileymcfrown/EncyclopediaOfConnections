@@ -125,6 +125,7 @@ sources:
 - https://www.youtube.com/watch?v=geJNpse5Qmg
 - https://www.youtube.com/watch?v=SUjvCixHpyg
 research: research/connection-types/results/Spring_bar_springloaded_telescoping_pin.json
+image: null
 glossary: [self-locking, detent, clearance, form-fit--force-fit--material-bond, fatigue, infill, peel-vs-shear]
 ---
 

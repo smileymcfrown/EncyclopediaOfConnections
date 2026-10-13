@@ -124,6 +124,7 @@ sources:
 - https://www.printables.com/model/838562-spooler-hub-with-a-quick-thread-design (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Interruptedscrew_lock_interrupted_thread_breech_lock.json
+image: null
 glossary: [misalignment, detent, preload, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, stress-concentration,
   galling--fretting, print-in-place, o-ring]
 ---

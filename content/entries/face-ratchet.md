@@ -108,6 +108,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 research: research/connection-types/results/Face_ratchet_star_ratchet_faceengagement_ratchet.json
+image: null
 glossary: [backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, flexure, clearance,
   form-fit--force-fit--material-bond, spline, circlip, undercut, creep, lubrication, layer-lines, print-in-place, overhang--bridging,
   peel-vs-shear]

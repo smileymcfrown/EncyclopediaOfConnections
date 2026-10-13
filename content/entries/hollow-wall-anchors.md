@@ -146,6 +146,7 @@ sources:
 - https://www.youtube.com/watch?v=lHb-Tcvkn7M
 - https://api.printables.com/graphql/ (models 730522, 139109, 61117, 404072, 1216670)
 research: research/connection-types/results/Hollowwall_anchors_toggle_molly_selfdrilling_plasterboard_anchor.json
+image: null
 glossary: [axial--radial, ratchet, torque, flexure, compliant-mechanism, form-fit--force-fit--material-bond, creep, brittle--ductile,
   perimeters, infill, peel-vs-shear]
 ---

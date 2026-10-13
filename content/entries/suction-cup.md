@@ -129,6 +129,7 @@ sources:
 - https://www.printables.com/model/70715-suction-cup
 - https://www.thingiverse.com/thing:3195496
 research: research/connection-types/results/Suction_cup.json
+image: null
 glossary: [over-centre, lever-arm, form-fit--force-fit--material-bond, holding-force, creep, perimeters, infill, peel-vs-shear]
 ---
 

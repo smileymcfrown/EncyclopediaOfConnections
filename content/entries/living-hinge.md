@@ -127,6 +127,7 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 research: research/connection-types/results/Living_hinge.json
+image: null
 glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
   fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear]
 ---

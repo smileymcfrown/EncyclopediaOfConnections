@@ -138,6 +138,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Compound_planetary_gearbox_splitring_or_Wolfrom_planetary.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, coaxial, ratchet, torque, gear-ratio, pitch, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, heat-set-insert, creep, infill, print-in-place]
 ---

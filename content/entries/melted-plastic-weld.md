@@ -126,6 +126,7 @@ sources:
 - https://www.youtube.com/watch?v=3XdRiVKAcUA
 - https://api.printables.com/graphql/ (models 875756, 11188, 856329)
 research: research/connection-types/results/Melted_plastic_weld_plastic_welding_with_a_soldering_iron_3D_pen_or_hotair_gun.json
+image: null
 glossary: [actuator, form-fit--force-fit--material-bond, spline, repeatability--accuracy, creep, infill, warping--shrinkage,
   peel-vs-shear]
 ---

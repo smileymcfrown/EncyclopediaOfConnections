@@ -117,6 +117,7 @@ sources:
 - https://www.youtube.com/watch?v=53Q4ct6bQeY
 - https://www.youtube.com/watch?v=DHcrX_ZnByA
 research: research/connection-types/results/Tabandslot_joint_selffixturing_sheet_joint.json
+image: null
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
   fatigue, brittle--ductile, stress-concentration, elephants-foot, warping--shrinkage, kerf]
 ---

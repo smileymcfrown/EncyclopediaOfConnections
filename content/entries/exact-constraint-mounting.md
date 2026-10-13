@@ -121,6 +121,7 @@ sources:
 - https://www.youtube.com/watch?v=fF8h2N7wxko (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 1493826, 110874 and 951573 read via the public API)
 research: research/connection-types/results/Exactconstraint_mounting_321_locating.json
+image: null
 glossary: [degrees-of-freedom, axial--radial, pitch, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, heat-set-insert, chamfer--fillet, keying, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep]

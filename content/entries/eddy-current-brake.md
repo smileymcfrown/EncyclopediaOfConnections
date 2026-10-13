@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Eddycurrent_brake_magnetic_brake.json
+image: null
 glossary: [axial--radial, ratchet, torque, linkage, fail-safe--fail-secure, damping, hysteresis, holding-force]
 ---
 

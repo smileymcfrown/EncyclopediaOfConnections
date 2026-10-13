@@ -132,6 +132,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Gestickte_Textile_Sensorfl%C3%A4chen.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_thread_sewn_circuit_etextile_stitching.json
+image: null
 glossary: [form-fit--force-fit--material-bond, layer-lines, infill]
 ---
 

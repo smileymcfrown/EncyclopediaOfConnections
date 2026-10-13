@@ -150,6 +150,7 @@ sources:
 - https://www.printables.com/model/129102-parametric-strandbeest-in-openscad (URL from Printables API, page not opened)
 - https://www.printables.com/model/1081125-crawler-mechanism (URL from Printables API, page not opened)
 research: research/connection-types/results/Walking_linkage_Jansen_and_Klann_leg_mechanisms.json
+image: null
 glossary: [misalignment, stroke, dead-point, torque, cam-and-follower, crank, linkage, actuator, stiffness, clearance, tolerance,
   form-fit--force-fit--material-bond, repeatability--accuracy, brittle--ductile, print-in-place]
 ---

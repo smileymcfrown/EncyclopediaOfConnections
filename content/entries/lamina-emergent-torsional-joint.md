@@ -131,6 +131,7 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-living-hinges-3d-printing/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lamina_emergent_torsional_joint_LET_joint.json
+image: null
 glossary: [backlash, detent, torque, stiffness, flexure, compliant-mechanism, living-hinge, deflection, torsion, clearance,
   creep, fatigue, brittle--ductile, infill, print-in-place, kerf, peel-vs-shear]
 ---

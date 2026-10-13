@@ -131,6 +131,7 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=9G27wH-xhRg&format=json
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=4ESNT3DTDMs&format=json
 research: research/connection-types/results/Quickrelease_plate_camera_plate_dovetail_clamp.json
+image: null
 glossary: [tolerance, form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep,
   layer-lines, perimeters, infill, print-in-place, overhang--bridging]
 ---

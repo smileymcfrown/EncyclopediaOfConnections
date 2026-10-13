@@ -146,6 +146,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Master_cylinder_diagram.svg
 - https://en.wikipedia.org/wiki/Micromanipulator
 research: research/connection-types/results/Syringe_hydraulics_hydraulic_lever_Pascals_principle.json
+image: null
 glossary: [misalignment, backlash, self-locking, stroke, dead-point, torque, lever-arm, crank, linkage, actuator, stiffness,
   preload, taper, creep, o-ring, check-valve]
 ---

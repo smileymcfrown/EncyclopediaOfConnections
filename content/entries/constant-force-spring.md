@@ -124,6 +124,7 @@ sources:
 - https://www.youtube.com/watch?v=uYQcxv_KuMQ
 - https://www.youtube.com/watch?v=65KoSqo3F_0
 research: research/connection-types/results/Constantforce_spring_springreturn_reel.json
+image: null
 glossary: [stroke, torque, idler, linkage, deflection, damping, clearance, tolerance, creep, stress-relaxation, fatigue]
 ---
 

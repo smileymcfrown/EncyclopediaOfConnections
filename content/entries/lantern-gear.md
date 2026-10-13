@@ -126,6 +126,7 @@ sources:
 - https://507movements.com/mm_192.html
 - https://507movements.com/mm_194.html
 research: research/connection-types/results/Lantern_gear_pin_gear.json
+image: null
 glossary: [backlash, axial--radial, reciprocating, torque, pitch, clearance, form-fit--force-fit--material-bond, set-screw,
   kerf, peel-vs-shear]
 ---

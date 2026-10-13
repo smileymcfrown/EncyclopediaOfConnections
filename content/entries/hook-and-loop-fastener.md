@@ -121,6 +121,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Micrograph_of_hook_and_loop_fastener,(Velcro_like).jpg
 - https://commons.wikimedia.org/wiki/File:3M_Dual_Lock.jpg
 research: research/connection-types/results/Hookandloop_fastener.json
+image: null
 glossary: [misalignment, fail-safe--fail-secure, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 

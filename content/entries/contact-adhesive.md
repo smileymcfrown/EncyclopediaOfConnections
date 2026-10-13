@@ -126,6 +126,7 @@ sources:
 - https://www.youtube.com/watch?v=Oqh01j7ZG_s
 - https://api.printables.com/graphql/ (models 321669, 1130696, 1065435, 236948)
 research: research/connection-types/results/Contact_adhesive_contact_cement.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 

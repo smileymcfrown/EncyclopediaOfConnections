@@ -109,6 +109,7 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Geared_hinge_continuous_gear_hinge.json
+image: null
 glossary: [backlash, detent, torque, living-hinge, clearance, tolerance, creep, perimeters, print-in-place, overhang--bridging]
 ---
 

@@ -133,6 +133,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/flexible-materials_2057
 research: research/connection-types/results/Strainwave_gear_harmonic_drive.json
+image: null
 glossary: [misalignment, backlash, self-locking, coaxial, ratchet, torque, linkage, fail-safe--fail-secure, stiffness, hysteresis,
   tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert, repeatability--accuracy, creep, fatigue, brittle--ductile,
   infill, print-in-place]

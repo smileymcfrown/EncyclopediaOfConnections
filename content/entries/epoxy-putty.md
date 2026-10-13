@@ -117,6 +117,7 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
 research: research/connection-types/results/Epoxy_putty_kneadable_twopart_putty.json
+image: null
 glossary: [form-fit--force-fit--material-bond, undercut, creep, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
 

@@ -136,6 +136,7 @@ sources:
 - https://www.youtube.com/watch?v=CHKZcGKcE24
 - https://www.youtube.com/watch?v=VfqbIIk6YKs
 research: research/connection-types/results/Spiral_power_spring_clock_spring.json
+image: null
 glossary: [ratchet, pawl, torque, preload, torsion, hysteresis, collet, creep, fatigue, lubrication, perimeters, infill, peel-vs-shear,
   regulator]
 ---

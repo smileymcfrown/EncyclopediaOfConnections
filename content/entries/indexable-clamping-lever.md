@@ -109,6 +109,7 @@ sources:
 - https://www.youtube.com/watch?v=9jrhdVD3Szs
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Indexable_clamping_lever_ratchet_handle.json
+image: null
 glossary: [backlash, stroke, over-centre, ratchet, pawl, torque, linkage, clearance, form-fit--force-fit--material-bond, spline,
   heat-set-insert, boss, creep, perimeters, infill]
 ---

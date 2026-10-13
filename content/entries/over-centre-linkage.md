@@ -168,6 +168,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://huangyan920.github.io/Mechanical/
 research: research/connection-types/results/Overcentre_linkage_toggle_linkage.json
+image: null
 glossary: [misalignment, self-locking, stroke, dead-point, over-centre, bistable, ratchet, pawl, linkage, preload, compliant-mechanism,
   clearance, form-fit--force-fit--material-bond, holding-force, set-screw, boss, creep, perimeters, infill, print-in-place,
   peel-vs-shear]

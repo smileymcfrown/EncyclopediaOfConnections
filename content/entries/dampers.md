@@ -144,6 +144,7 @@ sources:
 - https://en.wikipedia.org/wiki/Impact_attenuator
 - https://en.wikipedia.org/wiki/Crumple_zone
 research: research/connection-types/results/Dampers_rotary_and_linear_softclose_dampers.json
+image: null
 glossary: [axial--radial, stroke, detent, torque, gear-ratio, actuator, damping, clearance, creep, perimeters, peel-vs-shear,
   o-ring, check-valve]
 ---

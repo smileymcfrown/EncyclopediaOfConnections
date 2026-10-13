@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Rj-45_male_compare.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Insulationdisplacement_connector_IDC_ribboncable_plug_punchdown_Ttap.json
+image: null
 glossary: [pitch, form-fit--force-fit--material-bond, keying, infill]
 ---
 

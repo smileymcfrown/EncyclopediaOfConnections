@@ -1,0 +1,39 @@
+name: Fetch pictures
+# Copies one picture per entry from Wikimedia Commons (tools/fetch_images.py) and commits them back
+# to the same branch. Runs on GitHub's machines because Wikimedia limits shared cloud addresses.
+# Start it by hand (Actions → Fetch pictures → Run workflow), or push a commit to a branch other
+# than main whose message contains "[fetch pictures]".
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore: [main]
+permissions:
+  contents: write
+concurrency:
+  group: fetch-pictures-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  fetch:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[fetch pictures]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml==6.0.1 pillow
+      - name: Fetch pictures from Wikimedia Commons
+        run: python3 tools/fetch_images.py
+      - name: Remake the entry pages
+        run: |
+          python3 tools/make_entries.py
+          python3 tools/check_entries.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "Pictures from Wikimedia Commons (tools/fetch_images.py)"
+          git push

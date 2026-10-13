@@ -167,6 +167,7 @@ sources:
 - https://www.youtube.com/watch?v=X5caSAb4kz0
 - https://www.youtube.com/watch?v=QJdBp5dGrww
 research: research/connection-types/results/Airlogic_valve_pneumatic_logic_soft_bistable_valve.json
+image: null
 glossary: [oscillating, stroke, over-centre, bistable, actuator, solenoid, fail-safe--fail-secure, stiffness, compliant-mechanism,
   hysteresis, perimeters, infill, support-material, check-valve, regulator]
 ---

@@ -131,6 +131,7 @@ sources:
 - https://www.printables.com/model/1595516-permatag-tamper-proof-airtag-case-sealed-during-pr (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tamperevident_breakaway_bridge_frangible_link.json
+image: null
 glossary: [ratchet, fail-safe--fail-secure, living-hinge, cantilever, form-fit--force-fit--material-bond, captive-nut, creep,
   brittle--ductile, layer-lines, perimeters, infill, support-material]
 ---

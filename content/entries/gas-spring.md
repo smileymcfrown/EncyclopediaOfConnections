@@ -137,6 +137,7 @@ sources:
 - https://www.youtube.com/watch?v=zNp5qmd650M
 - https://www.youtube.com/watch?v=HojDjwwRZ04
 research: research/connection-types/results/Gas_spring_incl_lockable_gas_spring.json
+image: null
 glossary: [self-locking, stroke, over-centre, ratchet, torque, linkage, damping, tolerance, heat-set-insert, chamfer--fillet,
   creep, infill]
 ---

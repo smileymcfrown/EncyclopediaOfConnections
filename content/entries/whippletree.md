@@ -129,6 +129,7 @@ sources:
 - https://www.youtube.com/watch?v=G_SC7oWL78A
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Whippletree_loadequalising_lever.json
+image: null
 glossary: [misalignment, torque, crank, linkage, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 

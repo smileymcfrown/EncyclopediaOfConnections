@@ -137,6 +137,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.thingiverse.com/thing:2745891
 research: research/connection-types/results/Thermal_actuators_bimetal_strip_wax_motor.json
+image: null
 glossary: [stroke, over-centre, bistable, linkage, actuator, solenoid, fail-safe--fail-secure, compliant-mechanism, deflection,
   hysteresis, creep]
 ---

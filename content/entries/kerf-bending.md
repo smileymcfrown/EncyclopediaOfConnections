@@ -137,6 +137,7 @@ sources:
 - https://www.youtube.com/watch?v=QvcpBnxsQws
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Kerf_bending_lasercut_living_hinge.json
+image: null
 glossary: [stiffness, flexure, living-hinge, torsion, clearance, form-fit--force-fit--material-bond, repeatability--accuracy,
   creep, fatigue, brittle--ductile, kerf, peel-vs-shear]
 ---

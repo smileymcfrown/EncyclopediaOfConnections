@@ -122,6 +122,7 @@ sources:
 - https://www.youtube.com/watch?v=y3V6o3eca0g
 - https://www.youtube.com/watch?v=Lp2uGtOGZRA
 research: research/connection-types/results/Spring_button_lock_snap_button_pushbutton_tube_lock.json
+image: null
 glossary: [detent, preload, cantilever, clearance, form-fit--force-fit--material-bond, collet, chamfer--fillet, repeatability--accuracy,
   creep, stress-concentration, peel-vs-shear]
 ---

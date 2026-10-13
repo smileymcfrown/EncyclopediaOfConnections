@@ -142,6 +142,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:6_Pin_Header.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wiretoboard_plug_connectors_pin_header_and_crimp_housing.json
+image: null
 glossary: [ratchet, pitch, form-fit--force-fit--material-bond, keying, gland]
 ---
 

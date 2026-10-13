@@ -136,6 +136,7 @@ sources:
 - https://www.youtube.com/watch?v=mdq4OryG9D8
 - https://www.youtube.com/watch?v=kPmZA2VUVew
 research: research/connection-types/results/Collet_and_keyless_chuck.json
+image: null
 glossary: [misalignment, ratchet, torque, clearance, form-fit--force-fit--material-bond, set-screw, taper, collet, repeatability--accuracy,
   creep, brittle--ductile, perimeters, infill]
 ---

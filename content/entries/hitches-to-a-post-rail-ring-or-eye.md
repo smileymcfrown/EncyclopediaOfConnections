@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:PalomarKnotSequence.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hitches_to_a_post_rail_ring_or_eye_clove_hitch_round_turn_and_two_half_hitches.json
+image: null
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, infill, peel-vs-shear]
 ---
 

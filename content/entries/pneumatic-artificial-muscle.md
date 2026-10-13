@@ -152,6 +152,7 @@ sources:
 - https://www.youtube.com/watch?v=oBkdKeTJ5NY
 - https://www.youtube.com/watch?v=iZ5Mo0pjALI
 research: research/connection-types/results/Pneumatic_artificial_muscle_McKibben_muscle.json
+image: null
 glossary: [misalignment, self-locking, stroke, lever-arm, linkage, actuator, solenoid, fail-safe--fail-secure, stiffness,
   hysteresis, form-fit--force-fit--material-bond, creep, fatigue, layer-lines, infill, regulator]
 ---

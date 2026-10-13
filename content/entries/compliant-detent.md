@@ -121,6 +121,7 @@ sources:
 - https://www.printables.com/model/280920-clicky-knob
 - https://www.printables.com/model/308024-super-clicky-fidget-knob
 research: research/connection-types/results/Compliant_detent_flexure_click_arm.json
+image: null
 glossary: [detent, ratchet, pawl, torque, stiffness, flexure, cantilever, deflection, clearance, form-fit--force-fit--material-bond,
   taper, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, print-in-place, peel-vs-shear]
 ---

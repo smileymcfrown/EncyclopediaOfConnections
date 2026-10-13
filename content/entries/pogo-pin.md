@@ -152,6 +152,7 @@ sources:
 - https://www.youtube.com/watch?v=NGZ_vd6qmeQ
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pogo_pin_springloaded_contact_pin.json
+image: null
 glossary: [misalignment, stroke, detent, pitch, deflection, tolerance, o-ring]
 ---
 

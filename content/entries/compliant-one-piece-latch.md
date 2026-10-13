@@ -123,6 +123,7 @@ sources:
 - https://www.printables.com/model/1510729-universal-3d-printable-spring-latch-mechanism-no-s (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Compliant_onepiece_latch_flexure_latch.json
+image: null
 glossary: [misalignment, dead-point, over-centre, detent, fail-safe--fail-secure, stiffness, preload, flexure, compliant-mechanism,
   cantilever, deflection, clearance, tolerance, form-fit--force-fit--material-bond, holding-force, taper, chamfer--fillet,
   undercut, return-angle, creep, fatigue, brittle--ductile, stress-concentration, perimeters, print-in-place, elephants-foot]

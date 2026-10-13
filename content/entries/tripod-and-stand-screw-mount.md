@@ -136,6 +136,7 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tripod_and_stand_screw_mount_tripod_socket_camera_thread.json
+image: null
 glossary: [torque, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, creep]
 ---
 

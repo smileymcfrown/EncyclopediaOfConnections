@@ -129,6 +129,7 @@ sources:
 - https://www.printables.com/model/1784755-basic-trigger-mechanism-for-releasing-a-string (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Sear_and_trigger_trip_release_mechanism.json
+image: null
 glossary: [self-locking, dead-point, over-centre, detent, ratchet, pawl, linkage, actuator, solenoid, fail-safe--fail-secure,
   deflection, torsion, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, perimeters,
   infill, elephants-foot]

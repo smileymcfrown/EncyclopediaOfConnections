@@ -132,6 +132,7 @@ sources:
 - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 - https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes
 research: research/connection-types/results/Compression_fitting_ferrule_fitting.json
+image: null
 glossary: [form-fit--force-fit--material-bond, collet, creep, fatigue, galling--fretting, perimeters, infill, overhang--bridging,
   o-ring, gland, water-hammer]
 ---

@@ -146,6 +146,7 @@ sources:
 - https://www.youtube.com/watch?v=RHklazqg3bs
 - https://www.youtube.com/watch?v=pJVdq6K-zro
 research: research/connection-types/results/Iris_valve_twistedsleeve_valve.json
+image: null
 glossary: [misalignment, torque, actuator, solenoid, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters,
   infill, gland, regulator]
 ---

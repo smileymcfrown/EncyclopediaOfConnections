@@ -158,6 +158,7 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - 'https://api.printables.com/graphql/ (Printables API: models 1340235, 1318189, 198880, 196277, 446009, 174610, 367208, 1343635)'
 research: research/connection-types/results/Levelling_foot_adjustable_foot_swivel_levelling_pad.json
+image: null
 glossary: [self-locking, ratchet, pitch, clearance, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, infill,
   o-ring]
 ---

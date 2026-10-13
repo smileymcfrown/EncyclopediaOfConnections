@@ -124,6 +124,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg
 - https://commons.wikimedia.org/wiki/File:WP_zip.jpg
 research: research/connection-types/results/Zipper_slide_fastener.json
+image: null
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, print-in-place]
 ---
 

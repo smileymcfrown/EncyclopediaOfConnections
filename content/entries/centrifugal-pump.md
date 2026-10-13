@@ -148,6 +148,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Pump_Impellers-1.jpg
 - https://www.youtube.com/watch?v=WUal9LXc0iM
 research: research/connection-types/results/Centrifugal_pump_impeller_pump.json
+image: null
 glossary: [torque, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, print-in-place, o-ring, check-valve,
   water-hammer]
 ---

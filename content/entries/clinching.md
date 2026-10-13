@@ -118,6 +118,7 @@ sources:
 - https://www.youtube.com/watch?v=P1iMcCI70R0
 - https://www.youtube.com/watch?v=sMMJCkvOEXY
 research: research/connection-types/results/Clinching_press_joining_without_rivets.json
+image: null
 glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear]
 ---
 

@@ -133,6 +133,7 @@ sources:
 - https://www.printables.com/model/642115-filament-spool-winder-split-worm-gear
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Worm_drive_worm_and_worm_wheel.json
+image: null
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, ratchet, pawl, torque, gear-ratio, pitch, clearance,
   form-fit--force-fit--material-bond, set-screw, creep, lubrication, perimeters, print-in-place, overhang--bridging]
 ---

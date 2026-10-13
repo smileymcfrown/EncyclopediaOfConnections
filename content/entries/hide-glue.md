@@ -119,6 +119,7 @@ sources:
 - https://www.youtube.com/watch?v=Raq3pbGmmOg
 - https://www.youtube.com/watch?v=OKkCHM0sDks
 research: research/connection-types/results/Hide_glue_animal_glue.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, warping--shrinkage, cure, pot-life--working-time,
   open-time, peel-vs-shear]
 ---

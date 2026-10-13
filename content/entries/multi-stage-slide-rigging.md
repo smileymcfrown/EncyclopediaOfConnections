@@ -140,6 +140,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Multistage_slide_rigging_cascade_and_continuous_string_rigging.json
+image: null
 glossary: [misalignment, self-locking, gear-ratio, actuator, tolerance, creep, layer-lines, peel-vs-shear]
 ---
 

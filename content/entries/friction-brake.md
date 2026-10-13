@@ -134,6 +134,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Broms,_fig_3,_Nordisk_familjebok.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_brake_band_drum_or_disc_brake.json
+image: null
 glossary: [self-locking, ratchet, pawl, freewheel, sprag, torque, lever-arm, linkage, solenoid, clearance, form-fit--force-fit--material-bond,
   creep, o-ring]
 ---

@@ -123,6 +123,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Screwin_threaded_insert_wire_thread_insert_selftapping_insert.json
+image: null
 glossary: [self-locking, torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   threadlocker, brittle--ductile, infill, peel-vs-shear]
 ---

@@ -147,6 +147,7 @@ sources:
 - https://www.youtube.com/watch?v=XC5Q41YFXxo
 - https://www.youtube.com/watch?v=qUhpfSVS-LU
 research: research/connection-types/results/Japanese_interlocking_joints_splices_and_threeway_corners.json
+image: null
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
   layer-lines, infill, overhang--bridging]
 ---

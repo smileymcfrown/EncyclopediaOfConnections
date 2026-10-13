@@ -129,6 +129,7 @@ sources:
 - https://en.wikipedia.org/wiki/Clamp_stand
 - https://en.wikipedia.org/wiki/External_fixation
 research: research/connection-types/results/Clampon_tube_fittings_slipon_structural_fittings.json
+image: null
 glossary: [self-locking, axial--radial, ratchet, torque, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   collet, heat-set-insert, captive-nut, boss, creep, infill]
 ---

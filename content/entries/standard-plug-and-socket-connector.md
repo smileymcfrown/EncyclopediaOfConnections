@@ -132,6 +132,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Assortment_of_keystone_modules.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Standard_plugandsocket_connector_USB_barrel_jack_audio_jack_RJ45.json
+image: null
 glossary: [coaxial, fail-safe--fail-secure, form-fit--force-fit--material-bond, keying, repeatability--accuracy, creep, galling--fretting,
   warping--shrinkage, o-ring, gland, ip-rating]
 ---

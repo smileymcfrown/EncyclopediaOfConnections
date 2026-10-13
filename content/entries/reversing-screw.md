@@ -129,6 +129,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.thingiverse.com/thing:3510009
 research: research/connection-types/results/Reversing_screw_diamondthread_or_levelwind_screw.json
+image: null
 glossary: [misalignment, stroke, pawl, gear-ratio, pitch, cam-and-follower, crank, clearance, form-fit--force-fit--material-bond,
   repeatability--accuracy, lubrication, infill, overhang--bridging]
 ---

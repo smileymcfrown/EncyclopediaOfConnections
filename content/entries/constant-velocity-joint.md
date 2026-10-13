@@ -152,6 +152,7 @@ sources:
 - https://youtu.be/r2UDc4A8huY
 - https://www.youtube.com/watch?v=nYLRZBvCwPE
 research: research/connection-types/results/Constantvelocity_joint_CV_joint.json
+image: null
 glossary: [misalignment, backlash, torque, preload, clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip,
   layer-lines, infill, print-in-place]
 ---

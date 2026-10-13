@@ -124,6 +124,7 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts
 research: research/connection-types/results/Captive_nut_pocket_nut_trap.json
+image: null
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, creep, overhang--bridging]
 ---
 

@@ -127,6 +127,7 @@ sources:
 - https://www.youtube.com/watch?v=RasWKQfpFzY
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Strut_hub_geodesic_dome_hub_spaceframe_node.json
+image: null
 glossary: [form-fit--force-fit--material-bond, set-screw, threadlocker, repeatability--accuracy, creep, infill, regulator]
 ---
 

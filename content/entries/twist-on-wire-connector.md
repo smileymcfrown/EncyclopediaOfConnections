@@ -113,6 +113,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Lasdoppen_van_keramiek.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Twiston_wire_connector_wire_nut.json
+image: null
 glossary: [form-fit--force-fit--material-bond, infill]
 ---
 

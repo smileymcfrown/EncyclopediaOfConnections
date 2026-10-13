@@ -139,6 +139,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Clipon_concealed_hinge_cup_hinge.json
+image: null
 glossary: [over-centre, linkage, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss,
   pilot-hole, creep, print-in-place, peel-vs-shear]
 ---

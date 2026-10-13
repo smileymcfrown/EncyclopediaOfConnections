@@ -119,6 +119,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bowden_cable_pushpull_cable.json
+image: null
 glossary: [misalignment, backlash, linkage, stick-slip, form-fit--force-fit--material-bond, chamfer--fillet, fatigue]
 ---
 

@@ -128,6 +128,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Heat_shrink_cable_repair_tubing_(HSRS-N).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Heatshrink_tubing_heatshrink_sleeve_adhesivelined_heatshrink.json
+image: null
 glossary: [ratchet, form-fit--force-fit--material-bond, warping--shrinkage, gland]
 ---
 

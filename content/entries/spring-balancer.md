@@ -116,6 +116,7 @@ sources:
 - https://www.youtube.com/watch?v=WnDc7tv79HM
 - https://www.youtube.com/watch?v=oBnVt-Si2o0
 research: research/connection-types/results/Spring_balancer_gravity_compensation.json
+image: null
 glossary: [torque, linkage, stiffness, torsion, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue,
   perimeters, infill]
 ---

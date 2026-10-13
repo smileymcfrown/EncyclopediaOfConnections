@@ -111,6 +111,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Super_glue.jpg
 - https://www.youtube.com/watch?v=VZqf5rOJNCE
 research: research/connection-types/results/Cyanoacrylate_superglue.json
+image: null
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, layer-lines, warping--shrinkage, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---

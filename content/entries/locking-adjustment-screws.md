@@ -139,6 +139,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Mirrormount1.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Locking_adjustment_screws_pushpull_screws_springloaded_levelling_screws.json
+image: null
 glossary: [misalignment, self-locking, detent, torque, pitch, preload, clearance, form-fit--force-fit--material-bond, set-screw,
   heat-set-insert, captive-nut, kinematic-coupling, fatigue, brittle--ductile, infill]
 ---

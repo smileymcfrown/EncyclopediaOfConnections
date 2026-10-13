@@ -142,6 +142,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/43599-test-print-crush-ribs-version02
 research: research/connection-types/results/Crush_ribs_and_springfit_features_compliant_press_fit.json
+image: null
 glossary: [stiffness, cantilever, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   taper, captive-nut, chamfer--fillet, elastic-averaging, creep, brittle--ductile, layer-lines, perimeters, kerf, o-ring]
 ---

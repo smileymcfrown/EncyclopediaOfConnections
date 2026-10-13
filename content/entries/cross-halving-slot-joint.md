@@ -132,6 +132,7 @@ sources:
 - https://en.wikipedia.org/wiki/Medium-density_fibreboard
 - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
 research: research/connection-types/results/Crosshalving_slot_joint_eggcrate_joint.json
+image: null
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, creep, elephants-foot,
   kerf]
 ---

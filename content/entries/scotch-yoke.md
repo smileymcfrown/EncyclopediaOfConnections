@@ -140,6 +140,7 @@ sources:
 - https://huangyan920.github.io/Mechanical/
 - https://raw.githubusercontent.com/HUANGYAN920/Mechanical/main/README.md
 research: research/connection-types/results/Scotch_yoke.json
+image: null
 glossary: [misalignment, backlash, reciprocating, oscillating, stroke, torque, cam-and-follower, crank, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, circlip, lubrication, infill, print-in-place, peel-vs-shear]
 ---

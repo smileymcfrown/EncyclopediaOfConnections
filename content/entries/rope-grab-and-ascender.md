@@ -129,6 +129,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Rope_grab_and_ascender_cam_rope_clamp.json
+image: null
 glossary: [self-locking, ratchet, pawl, sprag, clearance, form-fit--force-fit--material-bond, threadlocker, infill]
 ---
 

@@ -129,6 +129,7 @@ sources:
 - https://www.youtube.com/watch?v=pe3wTSXQa2c
 - https://www.youtube.com/watch?v=qlPg8I8ZB1U
 research: research/connection-types/results/Selflocking_wedge_wedge_clamp_taper_key.json
+image: null
 glossary: [self-locking, sprag, torque, mechanical-advantage, crank, form-fit--force-fit--material-bond, taper, threadlocker,
   creep, perimeters, infill, warping--shrinkage, kerf]
 ---

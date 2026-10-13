@@ -152,6 +152,7 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 208733 'Sewing Machine Seam Guide', 1194803, 25814, 799176, 1296154,
   1086487, 1224263 'Stitching Pony for Leather', 651335; pages not opened)
 research: research/connection-types/results/Sewn_seams_and_hand_stitches_lockstitch_saddle_stitch_flatfelled_seam.json
+image: null
 glossary: [form-fit--force-fit--material-bond, spline, repeatability--accuracy, peel-vs-shear]
 ---
 

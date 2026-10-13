@@ -107,6 +107,7 @@ sources:
 - https://www.printables.com/model/151102-snap-fit-joint-test-prints-eight-versions (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Torsional_snap_fit.json
+image: null
 glossary: [misalignment, over-centre, fail-safe--fail-secure, stiffness, flexure, cantilever, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, holding-force, chamfer--fillet, undercut, creep, fatigue, brittle--ductile, perimeters,
   infill, elephants-foot, peel-vs-shear]

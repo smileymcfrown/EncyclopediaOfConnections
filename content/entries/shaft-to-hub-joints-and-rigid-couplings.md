@@ -140,6 +140,7 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=1kcikdx&limit=200
 research: research/connection-types/results/Shafttohub_joints_and_rigid_couplings_key_set_screw_Dflat_clamp_hub.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure, stiffness, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, set-screw, spline, taper, collet, circlip, heat-set-insert, captive-nut, threadlocker,
   undercut, repeatability--accuracy, creep, brittle--ductile, galling--fretting, print-in-place, peel-vs-shear]

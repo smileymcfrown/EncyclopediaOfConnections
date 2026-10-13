@@ -143,6 +143,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Car_hub_cotter_pin.jpg
 - https://www.youtube.com/oembed (titles of 4H-HOHZ3chA and IKwWu2w1gGk)
 research: research/connection-types/results/Threadlocking_hardware_nyloninsert_nut_lock_washer_split_pin.json
+image: null
 glossary: [self-locking, axial--radial, torque, pitch, linkage, preload, form-fit--force-fit--material-bond, circlip, heat-set-insert,
   captive-nut, threadlocker, creep, fatigue, peel-vs-shear]
 ---

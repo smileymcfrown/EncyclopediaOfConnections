@@ -132,6 +132,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://en.wikipedia.org/wiki/Washer_(hardware)
 research: research/connection-types/results/Plain_pivot_and_rolling_bearing_pin_in_hole_shoulder_bolt_ball_bearing.json
+image: null
 glossary: [misalignment, axial--radial, linkage, flexure, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, galling--fretting, lubrication, peel-vs-shear]
 ---

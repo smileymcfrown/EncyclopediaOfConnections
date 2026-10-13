@@ -113,6 +113,7 @@ sources:
 - https://www.printables.com/model/107132-differential-screw-clamp
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Differential_screw_fine_adjustment_screw.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, mechanical-advantage, pitch, preload, flexure, tolerance,
   form-fit--force-fit--material-bond, kinematic-coupling, creep]
 ---

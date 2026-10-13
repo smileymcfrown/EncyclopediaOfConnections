@@ -137,6 +137,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/
 research: research/connection-types/results/Quickreturn_mechanism_Whitworth_crank_and_slotted_lever.json
+image: null
 glossary: [misalignment, axial--radial, reciprocating, stroke, dead-point, cam-and-follower, crank, linkage, actuator, clearance,
   form-fit--force-fit--material-bond, circlip, heat-set-insert, return-angle, lubrication, infill, print-in-place, elephants-foot,
   pot-life--working-time, peel-vs-shear]

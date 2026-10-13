@@ -136,6 +136,7 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 1510812, 241564, 352444, 1588728 and 1069910 read via the public
   API)
 research: research/connection-types/results/Wave_and_disc_springs_compact_axial_springs.json
+image: null
 glossary: [axial--radial, over-centre, detent, torque, stiffness, preload, cantilever, deflection, torsion, damping, hysteresis,
   clearance, tolerance, circlip, creep, fatigue, brittle--ductile, overhang--bridging]
 ---

@@ -148,6 +148,7 @@ sources:
 - https://seas.harvard.edu/news/new-pop-strategy-inspired-cuts-not-folds
 - https://news.ncsu.edu/2022/01/kirigami-robotic-grippers/
 research: research/connection-types/results/Origami_mechanisms_waterbomb_Kresling_thickpanel_origami.json
+image: null
 glossary: [degrees-of-freedom, self-locking, over-centre, bistable, linkage, flexure, compliant-mechanism, living-hinge, hysteresis,
   form-fit--force-fit--material-bond, holding-force, taper, fatigue, infill, print-in-place, kerf, peel-vs-shear]
 ---

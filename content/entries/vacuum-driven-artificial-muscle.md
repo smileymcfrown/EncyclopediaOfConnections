@@ -119,6 +119,7 @@ sources:
 - https://www.softrobotics.io/post/making-simple-origami-soft-robots-from-low-cost-household-materials
 - https://en.wikipedia.org/wiki/Suction_cup
 research: research/connection-types/results/Vacuumdriven_artificial_muscle_origami_vacuum_muscle.json
+image: null
 glossary: [stroke, actuator, solenoid, fail-safe--fail-secure, creep, regulator, venturi]
 ---
 

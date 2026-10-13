@@ -143,6 +143,7 @@ sources:
 - https://www.youtube.com/watch?v=rQwg55PHdAc
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Servo_horn_and_spline_hub.json
+image: null
 glossary: [misalignment, axial--radial, torque, idler, crank, linkage, actuator, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert]
 ---

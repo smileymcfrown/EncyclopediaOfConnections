@@ -139,6 +139,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Flexible_beam_coupling_helicalslot_coupling.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, actuator, stiffness, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill,
   overhang--bridging]

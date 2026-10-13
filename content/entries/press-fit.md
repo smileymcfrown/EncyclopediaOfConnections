@@ -116,6 +116,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Press_fit_interference_fit.json
+image: null
 glossary: [misalignment, torque, stiffness, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   set-screw, taper, captive-nut, chamfer--fillet, creep, brittle--ductile, stress-concentration, galling--fretting, layer-lines,
   perimeters, o-ring]

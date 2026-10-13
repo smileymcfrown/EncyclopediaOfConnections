@@ -118,6 +118,7 @@ sources:
 - https://www.printables.com/model/1219484-z-brake-board-model (URL from Printables API, page not opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Electromagnetic_brake_poweroff_springapplied.json
+image: null
 glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gear-ratio, solenoid, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert]
 ---

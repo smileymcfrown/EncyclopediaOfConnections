@@ -139,6 +139,7 @@ sources:
 - https://www.printables.com/model/36291-unit3ds-lm8uu-linear-bearing
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Linear_guides_bushings_on_rods_wheels_or_carriages_on_rails.json
+image: null
 glossary: [misalignment, self-locking, stroke, detent, torque, preload, flexure, clearance, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, repeatability--accuracy, creep, perimeters, infill]
 ---

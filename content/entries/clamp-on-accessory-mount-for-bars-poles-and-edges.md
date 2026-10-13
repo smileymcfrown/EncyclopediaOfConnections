@@ -147,6 +147,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Pipe-Clamps-with-Rubber_12704-360x480_(5000534544).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Clampon_accessory_mount_for_bars_poles_and_edges_handlebar_clamp_desk_clamp_Ubolt.json
+image: null
 glossary: [over-centre, ratchet, torque, form-fit--force-fit--material-bond, set-screw, taper, collet, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, print-in-place]
 ---

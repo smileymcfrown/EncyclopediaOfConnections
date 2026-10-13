@@ -141,6 +141,7 @@ sources:
 - https://www.youtube.com/watch?v=JTdSBcmtmsk
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Spur_gear_pair_and_gear_train_simple_compound_idler.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, idler, crank, cantilever, clearance, tolerance,
   form-fit--force-fit--material-bond, set-screw, circlip, undercut, repeatability--accuracy, creep, brittle--ductile, lubrication,
   infill, print-in-place, elephants-foot]

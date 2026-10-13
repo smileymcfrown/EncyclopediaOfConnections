@@ -161,6 +161,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Straightline_linkages_Watt_Chebyshev_Peaucellier.json
+image: null
 glossary: [stroke, pitch, idler, crank, linkage, flexure, clearance, form-fit--force-fit--material-bond, heat-set-insert,
   repeatability--accuracy, print-in-place]
 ---

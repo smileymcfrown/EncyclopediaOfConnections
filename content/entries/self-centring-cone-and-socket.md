@@ -140,6 +140,7 @@ sources:
 - https://www.youtube.com/watch?v=1yOzPAO4_ds
 - https://www.youtube.com/watch?v=xog9YlMt9UU
 research: research/connection-types/results/Selfcentring_cone_and_socket_taper_locator.json
+image: null
 glossary: [misalignment, self-locking, clearance, form-fit--force-fit--material-bond, taper, counterbore--countersink, chamfer--fillet,
   keying, kinematic-coupling, over-constraint, elastic-averaging, repeatability--accuracy, creep, elephants-foot, overhang--bridging,
   peel-vs-shear]

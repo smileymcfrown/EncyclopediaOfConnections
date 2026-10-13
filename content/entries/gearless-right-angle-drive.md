@@ -134,6 +134,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Gearless_rightangle_drive_Hobsons_joint_elbow_mechanism.json
+image: null
 glossary: [misalignment, axial--radial, ratchet, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   fatigue, lubrication, print-in-place, elephants-foot]
 ---

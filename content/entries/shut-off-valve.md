@@ -147,6 +147,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Globe_valve_diagram.svg
 - https://commons.wikimedia.org/wiki/File:Tap.png
 research: research/connection-types/results/Shutoff_valve_tap_ball_valve_stopcock.json
+image: null
 glossary: [misalignment, actuator, solenoid, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, brittle--ductile,
   perimeters, infill, print-in-place, o-ring, check-valve, regulator, water-hammer]
 ---

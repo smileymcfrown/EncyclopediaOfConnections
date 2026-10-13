@@ -153,6 +153,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Valvola_Schrader.jpg
 - https://commons.wikimedia.org/wiki/File:Schrader_valve_opening_and_closing_on_a_tire.gif
 research: research/connection-types/results/Check_valve_oneway_valve_flap_ball_or_duckbill.json
+image: null
 glossary: [ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond, fatigue,
   infill, print-in-place, o-ring, check-valve, water-hammer]
 ---

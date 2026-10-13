@@ -142,6 +142,7 @@ sources:
 - https://www.youtube.com/watch?v=PaypcVFPs48
 - https://www.youtube.com/watch?v=K0wr_ZhhtbE
 research: research/connection-types/results/Flexure_hinge_notch_leafspring_and_crossaxis_pivots.json
+image: null
 glossary: [misalignment, backlash, axial--radial, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever,
   torsion, chamfer--fillet, repeatability--accuracy, creep, fatigue, infill, print-in-place, peel-vs-shear, regulator]
 ---

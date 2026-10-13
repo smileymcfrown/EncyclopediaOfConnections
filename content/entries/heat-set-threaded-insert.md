@@ -128,6 +128,7 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.spirol.com/assets/files/inserts-for-3d-printed-assemblies-us.pdf
 research: research/connection-types/results/Heatset_threaded_insert.json
+image: null
 glossary: [deflection, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, chamfer--fillet, creep, perimeters,
   infill]
 ---

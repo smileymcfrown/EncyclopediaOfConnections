@@ -118,6 +118,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ratchet_tiedown_strap_ratchet_buckle.json
+image: null
 glossary: [oscillating, stroke, ratchet, pawl, clearance, form-fit--force-fit--material-bond, chamfer--fillet, lubrication]
 ---
 

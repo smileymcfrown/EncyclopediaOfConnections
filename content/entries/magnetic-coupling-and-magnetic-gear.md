@@ -137,6 +137,7 @@ sources:
 - https://www.printables.com/model/42412-mini-3d-printed-magnetic-gear
 - https://www.printables.com/model/276863-31-magnetic-gearbox
 research: research/connection-types/results/Magnetic_coupling_and_magnetic_gear.json
+image: null
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fail-secure, hysteresis, tolerance, set-screw,
   creep, brittle--ductile, infill, print-in-place, peel-vs-shear]
 ---

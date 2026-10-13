@@ -143,6 +143,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lid_and_flap_stays_folding_stay_friction_stay.json
+image: null
 glossary: [dead-point, over-centre, detent, torque, linkage, torsion, clearance, form-fit--force-fit--material-bond, creep,
   layer-lines]
 ---

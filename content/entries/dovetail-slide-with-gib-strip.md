@@ -130,6 +130,7 @@ sources:
 - https://www.thingiverse.com/thing:2805780
 - https://www.mcmaster.com/products/dovetail-slides/
 research: research/connection-types/results/Dovetail_slide_with_gib_strip_dovetail_ways.json
+image: null
 glossary: [misalignment, stiffness, flexure, stick-slip, clearance, form-fit--force-fit--material-bond, set-screw, taper,
   chamfer--fillet, repeatability--accuracy, creep, perimeters, infill, overhang--bridging]
 ---

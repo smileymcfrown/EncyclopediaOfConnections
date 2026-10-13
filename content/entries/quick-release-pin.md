@@ -130,6 +130,7 @@ sources:
 - https://www.youtube.com/watch?v=qLTZiNngk9c
 - https://www.youtube.com/watch?v=fgiiHIQu9Sk
 research: research/connection-types/results/Quickrelease_pin_balllock_pin.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, detent, tolerance, form-fit--force-fit--material-bond, counterbore--countersink,
   creep, fatigue, perimeters, infill, peel-vs-shear]
 ---

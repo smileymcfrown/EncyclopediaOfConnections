@@ -123,6 +123,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Cage_nuts
 - https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
 research: research/connection-types/results/Springsteel_pushon_fasteners_push_nut_speed_nut_Unut.json
+image: null
 glossary: [misalignment, self-locking, thrust-load, torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   circlip, heat-set-insert, captive-nut, boss, creep, brittle--ductile]
 ---

@@ -150,6 +150,7 @@ sources:
 - https://ehs.mit.edu/workplace-safety-program/laser-cutter-safety/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Finger_joint_box_joint.json
+image: null
 glossary: [misalignment, living-hinge, clearance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
   creep, brittle--ductile, stress-concentration, layer-lines, elephants-foot, overhang--bridging, kerf, end-grain]
 ---

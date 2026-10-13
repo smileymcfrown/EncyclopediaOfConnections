@@ -120,6 +120,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Brazing
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Brazed_joint_brazing_silver_soldering_hard_soldering.json
+image: null
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
 ---
 

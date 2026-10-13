@@ -140,6 +140,7 @@ sources:
   API)
 - https://www.kjmagnetics.com/blog/magnetic-springs
 research: research/connection-types/results/Coil_spring_compression_extension_torsion.json
+image: null
 glossary: [axial--radial, over-centre, detent, ratchet, pawl, torque, pitch, stiffness, preload, cantilever, deflection, torsion,
   damping, clearance, tolerance, creep, fatigue, perimeters, infill, peel-vs-shear]
 ---

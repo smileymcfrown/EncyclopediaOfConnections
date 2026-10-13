@@ -124,6 +124,7 @@ sources:
 - https://www.animatedknots.com/whoopie-sling-knot
 - https://www.greenbelly.co/pages/whoopie-slings
 research: research/connection-types/results/Woven_selftightening_grip_fingertrap_grip.json
+image: null
 glossary: [self-locking, torque, form-fit--force-fit--material-bond, taper, collet, creep, brittle--ductile, print-in-place,
   gland]
 ---

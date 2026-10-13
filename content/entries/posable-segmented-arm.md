@@ -153,6 +153,7 @@ sources:
 - https://www.protool-ltd.co.uk/collections/asimeto-articulating-arm-magnetic-bases-602-series
 - https://www.penntoolco.com/asimeto-articulating-arm-magnetic-base-w-176-lbs-hold-power-602-03-1/
 research: research/connection-types/results/Posable_segmented_arm_snaptogether_ball_chain_gooseneck.json
+image: null
 glossary: [stiffness, form-fit--force-fit--material-bond, creep, perimeters, infill, print-in-place]
 ---
 

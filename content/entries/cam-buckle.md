@@ -119,6 +119,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Cam_buckle_webbing_cam_buckle.json
+image: null
 glossary: [self-locking, over-centre, ratchet, torsion, form-fit--force-fit--material-bond, boss, creep, print-in-place]
 ---
 

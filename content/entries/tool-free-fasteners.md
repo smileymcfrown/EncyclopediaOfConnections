@@ -138,6 +138,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:DIN_316_M5x30_Winged_Screw_Fl%C3%BCgelschraube.jpg
 - https://commons.wikimedia.org/wiki/File:Bicycle_wing_nuts.jpg
 research: research/connection-types/results/Toolfree_fasteners_thumbscrew_wing_nut_hitch_pin_and_Rclip.json
+image: null
 glossary: [torque, lever-arm, linkage, clearance, form-fit--force-fit--material-bond, captive-nut, creep, peel-vs-shear]
 ---
 

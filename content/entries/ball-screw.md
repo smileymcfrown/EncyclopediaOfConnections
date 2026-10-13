@@ -130,6 +130,7 @@ sources:
 - https://www.printables.com/model/645953-1204-ball-screw-nut-retaining-rod
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_screw.json
+image: null
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, stroke, torque, pitch, actuator, stiffness,
   preload, flexure, clearance, form-fit--force-fit--material-bond, spline, repeatability--accuracy, fatigue, lubrication,
   elephants-foot]

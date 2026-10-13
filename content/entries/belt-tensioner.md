@@ -116,6 +116,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=-2bxol03MO8 (verified via YouTube oEmbed)
 research: research/connection-types/results/Belt_tensioner_springloaded_idler.json
+image: null
 glossary: [misalignment, freewheel, pitch, idler, stiffness, preload, deflection, torsion, creep, infill]
 ---
 

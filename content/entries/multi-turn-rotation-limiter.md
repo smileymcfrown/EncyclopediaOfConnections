@@ -137,6 +137,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 research: research/connection-types/results/Multiturn_rotation_limiter_travellingnut_and_stackedring_stops.json
+image: null
 glossary: [backlash, back-driving, axial--radial, ratchet, torque, gear-ratio, pitch, crank, actuator, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, creep, print-in-place, peel-vs-shear]
 ---

@@ -147,6 +147,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Jumper_cable_sequence.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Binding_post_and_banana_plug_testlead_connector_crocodile_clip.json
+image: null
 glossary: [coaxial, clearance, form-fit--force-fit--material-bond, set-screw, overhang--bridging]
 ---
 

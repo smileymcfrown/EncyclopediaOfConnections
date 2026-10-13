@@ -120,6 +120,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Flexible_drive_shaft_rotating_cable.json
+image: null
 glossary: [misalignment, backlash, torque, crank, stiffness, deflection, torsion, tolerance, form-fit--force-fit--material-bond,
   collet]
 ---

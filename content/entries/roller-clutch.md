@@ -142,6 +142,7 @@ sources:
 - https://www.youtube.com/watch?v=UIhCPl8eb7s
 - https://www.youtube.com/watch?v=oQ34BJk4HGs
 research: research/connection-types/results/Roller_clutch_oneway_bearing.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, reciprocating, oscillating, stroke, ratchet, pawl, freewheel,
   sprag, torque, crank, flexure, clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication,
   print-in-place]

@@ -118,6 +118,7 @@ sources:
 - https://www.thingiverse.com/thing:112718
 - https://www.thingiverse.com/thing:310263/files
 research: research/connection-types/results/Threadless_ball_screw_rollingring_drive.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, pitch, actuator, fail-safe--fail-secure, preload,
   tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, perimeters, infill]
 ---

@@ -117,6 +117,7 @@ sources:
 - https://github.com/BelfrySCAD/BOSL2/wiki/threading.scad
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Half_nut_split_nut_quickaction_nut.json
+image: null
 glossary: [misalignment, backlash, self-locking, over-centre, ratchet, pawl, linkage, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, perimeters, infill, elephants-foot]
 ---

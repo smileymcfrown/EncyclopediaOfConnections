@@ -132,6 +132,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Caster-wheels-chair.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Castor_swivel_castor_fixed_castor_locking_castor.json
+image: null
 glossary: [fail-safe--fail-secure, clearance, creep, perimeters, infill]
 ---
 

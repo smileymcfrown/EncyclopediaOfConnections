@@ -160,6 +160,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Diaphragm_pumps
 - https://www.youtube.com/watch?v=5a-UdttYEVs
 research: research/connection-types/results/Diaphragm_pump_and_squeeze_bulb_membrane_pump_micro_air_pump.json
+image: null
 glossary: [reciprocating, stroke, torque, crank, actuator, infill, primer, peel-vs-shear, o-ring, check-valve, venturi]
 ---
 

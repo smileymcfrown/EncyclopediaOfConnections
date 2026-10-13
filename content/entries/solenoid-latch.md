@@ -127,6 +127,7 @@ sources:
 - https://www.thingiverse.com/thing:6071727 (search result snippet only)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solenoid_latch_solenoid_lock_electric_strike.json
+image: null
 glossary: [misalignment, stroke, bistable, solenoid, fail-safe--fail-secure, preload, clearance, form-fit--force-fit--material-bond,
   heat-set-insert, perimeters, peel-vs-shear]
 ---

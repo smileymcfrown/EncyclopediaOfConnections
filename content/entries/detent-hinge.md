@@ -128,6 +128,7 @@ sources:
 - https://data.epo.org/publication-server/rest/v1.2/patents/EP0016268NWB1/document.html
 - https://www.slideshare.net/slideshow/orthotic-knee-joints/233011007
 research: research/connection-types/results/Detent_hinge_click_hinge_position_hinge.json
+image: null
 glossary: [over-centre, bistable, detent, ratchet, pawl, torque, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---

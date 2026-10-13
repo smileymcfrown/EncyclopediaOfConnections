@@ -152,6 +152,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Espagnolette_(Diderot,_Encyclopedie,_Tafelbd.IX,_1771,_Tf._XXXIV).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Multipoint_bolt_espagnolette_crmone_bolt_lock_rods.json
+image: null
 glossary: [misalignment, over-centre, detent, pitch, linkage, stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet,
   creep, infill, print-in-place, cure, peel-vs-shear]
 ---

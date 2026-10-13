@@ -131,6 +131,7 @@ sources:
 - https://www.printables.com/model/1521983-beam-interlocking-issue-demonstration (URL from Printables API, page not opened)
 - https://www.printables.com/model/66504-tpupla-hybrid-box-square-version (URL from Printables API, page not opened)
 research: research/connection-types/results/Multimaterial_interlock_coprinted_rigid_and_flexible_parts.json
+image: null
 glossary: [flexure, compliant-mechanism, living-hinge, clearance, form-fit--force-fit--material-bond, undercut, repeatability--accuracy,
   creep, print-in-place, overhang--bridging, peel-vs-shear]
 ---

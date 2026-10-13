@@ -117,6 +117,7 @@ sources:
 - https://www.youtube.com/watch?v=5M9I_bBrnZ0
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Welded_metal_joint_fusion_welding_stick_MIG_TIG_and_gas_welding.json
+image: null
 glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
   warping--shrinkage, peel-vs-shear, regulator]
 ---

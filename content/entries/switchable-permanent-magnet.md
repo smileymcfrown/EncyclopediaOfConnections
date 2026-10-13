@@ -136,6 +136,7 @@ sources:
 - https://www.printables.com/model/13192-diy-switchable-magnet (search result)
 - https://www.thingiverse.com/thing:3623166 (search result snippet only)
 research: research/connection-types/results/Switchable_permanent_magnet_rotary_magnetic_base.json
+image: null
 glossary: [detent, preload, tolerance, kinematic-coupling, creep, brittle--ductile, layer-lines, overhang--bridging, peel-vs-shear]
 ---
 

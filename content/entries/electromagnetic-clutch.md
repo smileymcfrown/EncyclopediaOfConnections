@@ -121,6 +121,7 @@ sources:
 - https://www.youtube.com/watch?v=F87u7IQL-3M (verified via YouTube oEmbed; 'Making A DIY SawStop!', Ruth Amos)
 - https://www.thingiverse.com/thing:4647488
 research: research/connection-types/results/Electromagnetic_clutch.json
+image: null
 glossary: [misalignment, backlash, self-locking, freewheel, torque, solenoid, fail-safe--fail-secure, hysteresis, tolerance,
   form-fit--force-fit--material-bond, set-screw, repeatability--accuracy]
 ---

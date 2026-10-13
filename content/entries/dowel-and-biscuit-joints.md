@@ -134,6 +134,7 @@ sources:
 - https://www.youtube.com/watch?v=DTv8JG5eDFk
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Dowel_and_biscuit_joints.json
+image: null
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, infill, end-grain,
   peel-vs-shear]
 ---

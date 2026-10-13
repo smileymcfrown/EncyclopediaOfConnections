@@ -142,6 +142,7 @@ sources:
 - https://www.youtube.com/watch?v=tZfZ9qNKkks
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Dovetail_joint_through_and_halfblind.json
+image: null
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, spline, chamfer--fillet, creep, brittle--ductile,
   elephants-foot, end-grain, peel-vs-shear]
 ---

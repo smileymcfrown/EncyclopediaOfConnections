@@ -129,6 +129,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
 research: research/connection-types/results/Noncircular_gears.json
+image: null
 glossary: [backlash, axial--radial, stroke, torque, pitch, cam-and-follower, linkage, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, undercut, repeatability--accuracy, elephants-foot, overhang--bridging]
 ---

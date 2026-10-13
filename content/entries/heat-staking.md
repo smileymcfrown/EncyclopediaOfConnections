@@ -123,6 +123,7 @@ sources:
 - https://www.youtube.com/watch?v=r5LH1H1qd7s
 - https://www.youtube.com/watch?v=BIE6XcfOs_Y
 research: research/connection-types/results/Heat_staking_melted_plastic_rivet.json
+image: null
 glossary: [flexure, cantilever, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss, counterbore--countersink,
   chamfer--fillet, creep, peel-vs-shear]
 ---

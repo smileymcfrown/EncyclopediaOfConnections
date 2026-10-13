@@ -126,6 +126,7 @@ sources:
 - https://en.wikipedia.org/wiki/EIAJ_connector
 - https://en.wikipedia.org/wiki/Programmable_magnet
 research: research/connection-types/results/Keying_onewayonly_fit_pokayoke.json
+image: null
 glossary: [degrees-of-freedom, coaxial, clearance, form-fit--force-fit--material-bond, spline, taper, chamfer--fillet, keying,
   repeatability--accuracy, brittle--ductile, layer-lines, elephants-foot]
 ---

@@ -124,6 +124,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://uomustansiriyah.edu.iq/media/lectures/5/5_2021_12_11!08_29_17_PM.pdf
 research: research/connection-types/results/Torquelimiting_gear_with_flexing_spring_arms_compliant_slip_hub.json
+image: null
 glossary: [backlash, axial--radial, detent, ratchet, pawl, torque, linkage, stiffness, preload, flexure, torsion, tolerance,
   interference-fit, form-fit--force-fit--material-bond, set-screw, spline, chamfer--fillet, stress-relaxation, brittle--ductile,
   peel-vs-shear, o-ring]

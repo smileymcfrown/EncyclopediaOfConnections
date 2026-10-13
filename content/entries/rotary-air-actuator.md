@@ -120,6 +120,7 @@ sources:
 - https://www.printables.com/model/218779-m-45-multipurpose-pneumatic-stepper-motor
 - https://www.printables.com/model/44562-pneumatic-stepper-motor-t-8
 research: research/connection-types/results/Rotary_air_actuator_vane_or_rackandpinion_rotary_actuator.json
+image: null
 glossary: [misalignment, backlash, oscillating, stroke, torque, actuator, solenoid, fail-safe--fail-secure, stick-slip, spline,
   repeatability--accuracy, infill]
 ---

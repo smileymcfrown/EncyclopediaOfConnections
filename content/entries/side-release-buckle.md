@@ -128,6 +128,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=CCYB_KHfF_I (verified via YouTube oEmbed)
 research: research/connection-types/results/Siderelease_buckle.json
+image: null
 glossary: [stiffness, flexure, cantilever, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, creep, fatigue,
   layer-lines, perimeters, infill, support-material]
 ---

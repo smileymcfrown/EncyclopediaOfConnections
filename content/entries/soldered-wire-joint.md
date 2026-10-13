@@ -140,6 +140,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cold_solder_joint2.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Soldered_wire_joint_soldered_splice.json
+image: null
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland]
 ---
 

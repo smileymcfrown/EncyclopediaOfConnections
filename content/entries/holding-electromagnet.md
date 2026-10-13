@@ -143,6 +143,7 @@ sources:
 - https://www.printables.com/model/257865-electromagnet-lets-create-your-own-electromagnet (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Holding_electromagnet_maglock.json
+image: null
 glossary: [misalignment, axial--radial, solenoid, fail-safe--fail-secure, holding-force, heat-set-insert, creep, infill, peel-vs-shear]
 ---
 

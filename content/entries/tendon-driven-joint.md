@@ -144,6 +144,7 @@ sources:
 - https://www.youtube.com/watch?v=EVMatHNgC6s
 - https://en.wikipedia.org/wiki/Prosthesis
 research: research/connection-types/results/Tendondriven_joint_cablepulled_finger_or_tentacle.json
+image: null
 glossary: [misalignment, backlash, torque, linkage, actuator, stiffness, flexure, hysteresis, creep, fatigue]
 ---
 

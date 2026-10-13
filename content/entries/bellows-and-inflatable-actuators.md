@@ -131,6 +131,7 @@ sources:
 - https://www.youtube.com/watch?v=oRjFFgAZQnk
 - https://www.youtube.com/watch?v=UFrWfnwD3aU
 research: research/connection-types/results/Bellows_and_inflatable_actuators_air_bag_air_spring.json
+image: null
 glossary: [misalignment, stroke, actuator, solenoid, fail-safe--fail-secure, clearance, fatigue, brittle--ductile, lubrication,
   overhang--bridging, cure, o-ring, regulator]
 ---

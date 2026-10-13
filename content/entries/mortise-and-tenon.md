@@ -120,6 +120,7 @@ sources:
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Mortise_and_tenon_incl_wedged_drawbored_and_tusk_tenons.json
+image: null
 glossary: [self-locking, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, chamfer--fillet, brittle--ductile,
   stress-concentration, layer-lines, perimeters, infill, warping--shrinkage, kerf, peel-vs-shear]
 ---

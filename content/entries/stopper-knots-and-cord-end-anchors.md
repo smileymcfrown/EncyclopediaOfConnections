@@ -149,6 +149,7 @@ sources:
   147380 'quick Paracord rope clamp 4mm & thimble', 762828 'Cable Stop Clamp', 1710271 'Parametric Multi-Cord Anchor (Hanging
   Hub)', 603958 'Cord end'; pages not opened)
 research: research/connection-types/results/Stopper_knots_and_cordend_anchors.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, gland]
 ---
 

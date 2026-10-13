@@ -130,6 +130,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Countersunk_and_counterbored_holes_cross-section.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wood_screw_including_coach_screw_and_Confirmat_screw.json
+image: null
 glossary: [torque, clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, creep, brittle--ductile,
   end-grain, peel-vs-shear]
 ---

@@ -135,6 +135,7 @@ sources:
 - https://www.youtube.com/watch?v=7zd1MJYeSAs (verified via YouTube oEmbed)
 - https://www.youtube.com/watch?v=jnJbxS_e6YY (verified via YouTube oEmbed)
 research: research/connection-types/results/Magneticassisted_buckle_magnet_guides_catch_locks.json
+image: null
 glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep,
   brittle--ductile, layer-lines, infill, peel-vs-shear]
 ---

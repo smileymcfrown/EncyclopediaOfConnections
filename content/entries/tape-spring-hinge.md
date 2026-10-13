@@ -125,6 +125,7 @@ sources:
 - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tapespring_hinge_measuringtape_fold.json
+image: null
 glossary: [misalignment, backlash, self-locking, over-centre, bistable, detent, linkage, fail-safe--fail-secure, stiffness,
   flexure, compliant-mechanism, living-hinge, damping, repeatability--accuracy, creep, lubrication, infill]
 ---

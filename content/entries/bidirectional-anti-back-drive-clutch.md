@@ -106,6 +106,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 research: research/connection-types/results/Bidirectional_antibackdrive_clutch_reverseinput_blocking_clutch.json
+image: null
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, sprag, torque, crank, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
   circlip, creep, perimeters, regulator]
 ---

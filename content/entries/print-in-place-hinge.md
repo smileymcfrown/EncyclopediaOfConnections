@@ -142,6 +142,7 @@ sources:
 - https://raw.githubusercontent.com/rohingosling/OpenSCAD/master/README.md
 - https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/pr9060925
 research: research/connection-types/results/Printinplace_hinge.json
+image: null
 glossary: [misalignment, detent, torque, flexure, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, brittle--ductile, layer-lines, perimeters, infill, print-in-place, elephants-foot, overhang--bridging,
   support-material]

@@ -143,6 +143,7 @@ sources:
 - https://www.printables.com/model/258188-magnetic-combination-lock-puzzle-box (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hidden_latches_magnetickey_latch_puzzle_lock.json
+image: null
 glossary: [solenoid, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 

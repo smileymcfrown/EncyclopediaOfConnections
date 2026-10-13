@@ -142,6 +142,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=97t7Xj_iBv0
 research: research/connection-types/results/Bistable_compliant_mechanism_snapthrough_switch_or_hinge.json
+image: null
 glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linkage, actuator, flexure, compliant-mechanism,
   living-hinge, cantilever, damping, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue, brittle--ductile,
   stress-concentration]

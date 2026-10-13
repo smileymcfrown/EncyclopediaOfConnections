@@ -110,6 +110,7 @@ sources:
 - https://www.youtube.com/watch?v=0gwzmLh03Bw
 - https://www.youtube.com/watch?v=CFKsOhuGhno
 research: research/connection-types/results/Sprag_clutch.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, ratchet, pawl, freewheel, sprag, torque, crank, flexure, clearance,
   tolerance, form-fit--force-fit--material-bond, set-screw, taper, repeatability--accuracy, lubrication]
 ---

@@ -142,6 +142,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Concrete_Screw.png
 - https://api.printables.com/graphql/ (models 27569, 225390, 31252, 1058922)
 research: research/connection-types/results/Wall_plug_expansion_anchor_for_solid_walls.json
+image: null
 glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, undercut, repeatability--accuracy,
   creep, perimeters, infill, cure, peel-vs-shear]
 ---

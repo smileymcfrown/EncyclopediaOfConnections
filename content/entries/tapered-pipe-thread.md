@@ -139,6 +139,7 @@ sources:
 - https://www.youtube.com/watch?v=S6-akMHP5Rc
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tapered_pipe_thread_NPT_BSPT_PTFE_tape_pipe_dope.json
+image: null
 glossary: [torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, taper, boss, threadlocker,
   galling--fretting, lubrication, perimeters, infill, cure, peel-vs-shear, o-ring]
 ---

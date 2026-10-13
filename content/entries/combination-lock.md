@@ -136,6 +136,7 @@ sources:
   not opened)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Combination_lock_wheel_pack.json
+image: null
 glossary: [detent, solenoid, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, lubrication, infill,
   print-in-place, elephants-foot]
 ---

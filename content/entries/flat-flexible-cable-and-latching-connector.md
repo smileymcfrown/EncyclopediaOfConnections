@@ -137,6 +137,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Flat_flexible_cable_and_latching_connector_FFC_with_ZIF_connector.json
+image: null
 glossary: [pitch, clearance, form-fit--force-fit--material-bond, keying, fatigue, gland]
 ---
 

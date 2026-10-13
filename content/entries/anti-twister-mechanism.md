@@ -133,6 +133,7 @@ sources:
 - https://en.wikipedia.org/wiki/Clockspring
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
 research: research/connection-types/results/Antitwister_mechanism_twistfree_cable_feed.json
+image: null
 glossary: [backlash, idler, linkage, flexure, clearance, form-fit--force-fit--material-bond, fatigue, print-in-place]
 ---
 

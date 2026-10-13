@@ -125,6 +125,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wirerope_terminations_wirerope_clip_thimble_crimped_sleeve.json
+image: null
 glossary: [torque, form-fit--force-fit--material-bond, counterbore--countersink, creep, perimeters, peel-vs-shear, regulator]
 ---
 

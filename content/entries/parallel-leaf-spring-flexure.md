@@ -130,6 +130,7 @@ sources:
 - https://www.youtube.com/watch?v=JGbM6qZAwQY
 - https://www.youtube.com/watch?v=PaypcVFPs48
 research: research/connection-types/results/Parallel_leafspring_flexure_linear_flexure_stage.json
+image: null
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---

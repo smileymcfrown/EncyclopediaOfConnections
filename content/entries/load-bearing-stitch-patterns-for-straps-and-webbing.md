@@ -113,6 +113,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Loadbearing_stitch_patterns_for_straps_and_webbing_bar_tack_boxX_stitch.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 

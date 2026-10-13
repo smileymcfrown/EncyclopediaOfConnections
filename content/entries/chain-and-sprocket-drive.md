@@ -138,6 +138,7 @@ sources:
 - https://cq-warehouse.readthedocs.io/en/latest/chain.html
 - https://raw.githubusercontent.com/gumyr/cq_warehouse/main/LICENSE
 research: research/connection-types/results/Chain_and_sprocket_drive.json
+image: null
 glossary: [misalignment, backlash, self-locking, torque, pitch, idler, actuator, clearance, form-fit--force-fit--material-bond,
   set-screw, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill, o-ring]
 ---

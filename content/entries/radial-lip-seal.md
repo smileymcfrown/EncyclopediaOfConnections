@@ -117,6 +117,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
 - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
 research: research/connection-types/results/Radial_lip_seal_rotary_shaft_seal_oil_seal.json
+image: null
 glossary: [misalignment, axial--radial, tolerance, interference-fit, form-fit--force-fit--material-bond, spline, chamfer--fillet,
   creep, lubrication, perimeters, o-ring]
 ---

@@ -131,6 +131,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Grommets
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Eyelets_and_grommets_for_fabric_leather_and_sheet.json
+image: null
 glossary: [stroke, form-fit--force-fit--material-bond, spline, fatigue, brittle--ductile, gland]
 ---
 

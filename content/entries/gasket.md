@@ -134,6 +134,7 @@ sources:
 - https://en.wikipedia.org/wiki/Washer_(hardware)
 - https://en.wikipedia.org/wiki/Bonded_seal
 research: research/connection-types/results/Gasket_flat_cordingroove_or_castinplace.json
+image: null
 glossary: [over-centre, deflection, form-fit--force-fit--material-bond, spline, creep, stress-relaxation, perimeters, cure,
   o-ring, gland]
 ---

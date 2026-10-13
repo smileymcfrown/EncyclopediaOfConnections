@@ -140,6 +140,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Schlauchpumpe_Funktionsprinzip.gif
 - https://www.youtube.com/watch?v=zWozq_wuAx4
 research: research/connection-types/results/Peristaltic_pump_tube_pump_roller_pump.json
+image: null
 glossary: [self-locking, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond, creep, fatigue, infill,
   print-in-place, overhang--bridging, check-valve]
 ---

@@ -133,6 +133,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:BarrierStrip.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Screw_terminal_terminal_block_barrier_strip_connector_strip.json
+image: null
 glossary: [torque, pitch, form-fit--force-fit--material-bond, set-screw, creep, overhang--bridging]
 ---
 

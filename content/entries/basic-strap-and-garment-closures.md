@@ -141,6 +141,7 @@ sources:
 - https://en.wikipedia.org/wiki/Hook-and-eye_closure
 - https://en.wikipedia.org/wiki/Snap_fastener
 research: research/connection-types/results/Basic_strap_and_garment_closures_prong_buckle_button_toggle_and_loop.json
+image: null
 glossary: [self-locking, ratchet, clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, perimeters,
   infill]
 ---

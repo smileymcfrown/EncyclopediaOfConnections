@@ -112,6 +112,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Chicago_screw_binding_screw_sex_bolt.json
+image: null
 glossary: [form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, threadlocker, creep, cure, primer, peel-vs-shear]
 ---
 

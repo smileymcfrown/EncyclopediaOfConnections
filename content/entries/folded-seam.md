@@ -127,6 +127,7 @@ sources:
 - https://www.youtube.com/watch?v=OHbKJgdsjJ8
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Folded_seam_hem_lock_seam_Pittsburgh_lock.json
+image: null
 glossary: [pitch, stiffness, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 

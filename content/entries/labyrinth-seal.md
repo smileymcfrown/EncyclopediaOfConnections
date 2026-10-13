@@ -123,6 +123,7 @@ sources:
 - https://www.printables.com/model/411004-compact-stevenson-screen
 - https://www.printables.com/model/1659930-86mm-x-86mm-splash-proof-switch-and-socket-box
 research: research/connection-types/results/Labyrinth_seal_baffle_seal.json
+image: null
 glossary: [axial--radial, freewheel, clearance, lubrication, o-ring, gland]
 ---
 

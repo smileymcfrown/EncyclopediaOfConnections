@@ -115,6 +115,7 @@ sources:
 - https://www.youtube.com/watch?v=92Ti7LBjfYQ
 - https://www.youtube.com/watch?v=AFFHEb4NEY4
 research: research/connection-types/results/Wrapspring_clutch_spring_clutch.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, coaxial, ratchet, pawl, freewheel, sprag, torque, actuator, solenoid,
   interference-fit, form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, creep, fatigue,
   lubrication, layer-lines, overhang--bridging]

@@ -161,6 +161,7 @@ sources:
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
 - https://en.wikipedia.org/wiki/Flexible_flat_cable
 research: research/connection-types/results/Slip_ring_and_rotary_union.json
+image: null
 glossary: [torque, clearance, fatigue, o-ring, gland]
 ---
 

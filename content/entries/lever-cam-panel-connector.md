@@ -128,6 +128,7 @@ sources:
 - https://www.youtube.com/watch?v=_ShyDBsx8WA
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Levercam_panel_connector_selfclamping_click_connector.json
+image: null
 glossary: [over-centre, preload, tolerance, form-fit--force-fit--material-bond, captive-nut, undercut, perimeters, infill,
   peel-vs-shear]
 ---

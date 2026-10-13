@@ -108,6 +108,7 @@ sources:
 - https://www.youtube.com/watch?v=NFyqSEom-MQ
 - https://www.youtube.com/watch?v=C0-GQxCs6Is
 research: research/connection-types/results/Bent_or_twisted_tab_through_a_slot_lanced_tab.json
+image: null
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, layer-lines, infill]
 ---
 

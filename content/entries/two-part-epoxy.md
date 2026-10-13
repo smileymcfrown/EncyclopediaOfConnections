@@ -132,6 +132,7 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200
 research: research/connection-types/results/Twopart_epoxy.json
+image: null
 glossary: [deflection, form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---

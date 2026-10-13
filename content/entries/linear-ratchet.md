@@ -147,6 +147,7 @@ sources:
 - https://www.qosina.com/blog/how-to-select-the-correct-barbed-connector-for-your-single-use-system
 - https://api.printables.com/graphql/ (models 475661, 1405899, 920228 and 227957, read 2026-10-06)
 research: research/connection-types/results/Linear_ratchet_cabletie_ratchet.json
+image: null
 glossary: [misalignment, self-locking, stroke, ratchet, pawl, pitch, flexure, clearance, form-fit--force-fit--material-bond,
   creep, brittle--ductile, print-in-place, peel-vs-shear]
 ---

@@ -145,6 +145,7 @@ sources:
 - https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
 - https://www.printables.com/model/1247872-mini-air-hockey-table
 research: research/connection-types/results/Air_bearing_and_air_caster_aircushion_bearing.json
+image: null
 glossary: [misalignment, backlash, axial--radial, fail-safe--fail-secure, stiffness, preload, flexure, damping, stick-slip,
   clearance, form-fit--force-fit--material-bond, repeatability--accuracy, creep, infill, regulator]
 ---

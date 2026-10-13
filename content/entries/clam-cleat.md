@@ -128,6 +128,7 @@ sources:
 - https://en.wikipedia.org/wiki/Cleat_hitch
 - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 research: research/connection-types/results/Clam_cleat_grooved_Vcleat.json
+image: null
 glossary: [self-locking, form-fit--force-fit--material-bond, creep, infill]
 ---
 

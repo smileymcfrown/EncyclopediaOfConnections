@@ -142,6 +142,7 @@ sources:
 - https://www.modlabupenn.org/wp-content/uploads/tosun2016epface.pdf
 - https://www.modlabupenn.org/ep-face/
 research: research/connection-types/results/Electropermanent_magnet.json
+image: null
 glossary: [misalignment, bistable, solenoid, holding-force, heat-set-insert, creep, peel-vs-shear]
 ---
 

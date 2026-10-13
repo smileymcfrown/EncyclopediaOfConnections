@@ -147,6 +147,7 @@ sources:
 - https://www.rct-online.de/en/tube-hose-connectors/quick-disconnect-couplings-made-of-plastic/multi-lumen-quick-disconnect-couplings/29228/multi-lumen-quick-disconnect-nipple-made-of-pom
 - https://www.freshwatersystems.com/collections/Colder-Products
 research: research/connection-types/results/Quick_couplers_for_tubes_and_hoses_pushtoconnect_sleeve_lock.json
+image: null
 glossary: [misalignment, over-centre, fail-safe--fail-secure, clearance, tolerance, form-fit--force-fit--material-bond, taper,
   collet, heat-set-insert, creep, infill, o-ring, gland]
 ---

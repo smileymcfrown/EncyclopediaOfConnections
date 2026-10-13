@@ -125,6 +125,7 @@ sources:
 - https://www.printables.com/model/11188-pillow-soft-robotic-actuator
 - https://zenodo.org/records/8127332
 research: research/connection-types/results/Tesla_valve_nomovingparts_oneway_channel.json
+image: null
 glossary: [oscillating, actuator, fatigue, perimeters, overhang--bridging, check-valve]
 ---
 

@@ -120,6 +120,7 @@ sources:
 - https://www.printables.com/model/606061-replacement-rivet-for-crocs-or-your-other-riveting
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Leather_and_textile_rivets_doublecap_tubular_and_split_rivets.json
+image: null
 glossary: [tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill, peel-vs-shear]
 ---
 

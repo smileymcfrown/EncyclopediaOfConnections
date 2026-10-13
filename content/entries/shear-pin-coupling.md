@@ -119,6 +119,7 @@ sources:
 - https://youtu.be/YJbl6bSFY4U
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shearpin_coupling_breakaway_link.json
+image: null
 glossary: [misalignment, backlash, torque, fail-safe--fail-secure, form-fit--force-fit--material-bond, circlip, creep, fatigue,
   brittle--ductile, perimeters, infill, peel-vs-shear]
 ---

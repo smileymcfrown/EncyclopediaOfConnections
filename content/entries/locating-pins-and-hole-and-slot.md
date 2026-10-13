@@ -126,6 +126,7 @@ sources:
 - https://www.hobby-machinist.com/threads/register.82685/
 - https://vxb.com/products/42mm-nema-17-stepper-motor-mounting-bracket-with-m
 research: research/connection-types/results/Locating_pins_and_holeandslot.json
+image: null
 glossary: [axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, boss, chamfer--fillet, keying,
   kinematic-coupling, elastic-averaging, repeatability--accuracy, creep, brittle--ductile, layer-lines, peel-vs-shear]
 ---

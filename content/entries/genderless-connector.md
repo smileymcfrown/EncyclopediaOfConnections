@@ -146,6 +146,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 research: research/connection-types/results/Genderless_connector_hermaphroditic_coupling.json
+image: null
 glossary: [misalignment, detent, stiffness, clearance, form-fit--force-fit--material-bond, keying, print-in-place, elephants-foot,
   overhang--bridging]
 ---

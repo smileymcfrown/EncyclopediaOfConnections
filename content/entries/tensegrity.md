@@ -134,6 +134,7 @@ sources:
 - https://www.toypro.com/en/news/463/can-you-build-a-lego-r-tensegrity-examples-building-instructions
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tensegrity_floating_struts_held_by_cords.json
+image: null
 glossary: [oscillating, torque, stiffness, damping, clearance, form-fit--force-fit--material-bond, creep, print-in-place]
 ---
 

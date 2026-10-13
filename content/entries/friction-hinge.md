@@ -147,6 +147,7 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - https://reell.com/products/hollow-shaft-hinges
 research: research/connection-types/results/Friction_hinge_torque_hinge.json
+image: null
 glossary: [misalignment, detent, torque, torsion, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, layer-lines, print-in-place, peel-vs-shear, o-ring]
 ---

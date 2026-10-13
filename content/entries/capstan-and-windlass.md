@@ -153,6 +153,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Capstan_and_windlass_incl_differential_windlass.json
+image: null
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, gear-ratio, crank, actuator, clearance, form-fit--force-fit--material-bond,
   holding-force, set-screw, creep, fatigue, lubrication, infill]
 ---

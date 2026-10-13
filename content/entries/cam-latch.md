@@ -115,6 +115,7 @@ sources:
 - https://www.youtube.com/watch?v=e1S9bHh9xog (title confirmed via YouTube oEmbed)
 - https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
 research: research/connection-types/results/Cam_latch_quarterturn_cam_lock.json
+image: null
 glossary: [misalignment, self-locking, over-centre, detent, pawl, torque, tolerance, form-fit--force-fit--material-bond, creep,
   brittle--ductile, layer-lines, infill, o-ring]
 ---

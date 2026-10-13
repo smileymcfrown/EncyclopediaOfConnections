@@ -129,6 +129,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Highcurrent_battery_plug_bullet_connector_polarised_battery_connector.json
+image: null
 glossary: [form-fit--force-fit--material-bond, keying, gland]
 ---
 

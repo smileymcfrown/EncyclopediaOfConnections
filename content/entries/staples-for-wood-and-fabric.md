@@ -125,6 +125,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:U_Shape_Insulated_Staple_01.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Staples_for_wood_and_fabric_staple_gun_hammer_tacker_cable_staple.json
+image: null
 glossary: [ratchet, form-fit--force-fit--material-bond, brittle--ductile, peel-vs-shear, gland]
 ---
 

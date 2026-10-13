@@ -136,6 +136,7 @@ sources:
 - https://learn.sparkfun.com/tutorials/connector-basics/all
 - https://en.wikipedia.org/wiki/Heat-shrink_tubing
 research: research/connection-types/results/Hotmelt_adhesive_glue_gun.json
+image: null
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, infill, cure, peel-vs-shear]
 ---
 

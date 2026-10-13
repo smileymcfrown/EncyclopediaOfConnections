@@ -164,6 +164,7 @@ sources:
 - https://huangyan920.github.io/Mechanical/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Escapement_anchor_or_verge_escapement.json
+image: null
 glossary: [self-locking, axial--radial, ratchet, pawl, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   creep, lubrication, perimeters, regulator]
 ---

@@ -129,6 +129,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:UV_curing
 - https://api.printables.com/graphql/
 research: research/connection-types/results/UVcuring_adhesive_incl_resin_used_as_glue.json
+image: null
 glossary: [form-fit--force-fit--material-bond, threadlocker, chamfer--fillet, brittle--ductile, layer-lines, warping--shrinkage,
   cure, peel-vs-shear]
 ---

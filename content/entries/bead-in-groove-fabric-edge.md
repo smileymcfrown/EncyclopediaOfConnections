@@ -136,6 +136,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bolt-rope.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Beadingroove_fabric_edge_keder_boltrope_screen_spline.json
+image: null
 glossary: [stiffness, form-fit--force-fit--material-bond, spline, heat-set-insert, peel-vs-shear]
 ---
 

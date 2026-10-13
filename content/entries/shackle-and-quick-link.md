@@ -131,6 +131,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shackle_and_quick_link_Dshackle_bow_shackle_maillon.json
+image: null
 glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert]
 ---
 

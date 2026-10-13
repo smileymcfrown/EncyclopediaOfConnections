@@ -121,6 +121,7 @@ sources:
 - https://www.youtube.com/watch?v=jcDizu5P3Ck
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Housing_and_rebate_joints_dado_rabbet.json
+image: null
 glossary: [stiffness, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, creep, stress-concentration,
   perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear]
 ---

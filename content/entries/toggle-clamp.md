@@ -159,6 +159,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://huangyan920.github.io/Mechanical/
 research: research/connection-types/results/Toggle_clamp.json
+image: null
 glossary: [self-locking, stroke, over-centre, mechanical-advantage, linkage, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond,
   holding-force, taper, creep, perimeters, infill, peel-vs-shear]
 ---

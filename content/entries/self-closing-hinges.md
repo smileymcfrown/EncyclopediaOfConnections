@@ -145,6 +145,7 @@ sources:
 - https://www.protolabs.com/resources/design-tips/how-to-design-3d-printed-hinges/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selfclosing_hinges_spring_hinge_rising_butt_hinge.json
+image: null
 glossary: [detent, torque, fail-safe--fail-secure, stiffness, preload, flexure, living-hinge, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, creep, lubrication, layer-lines, print-in-place, warping--shrinkage, peel-vs-shear]
 ---

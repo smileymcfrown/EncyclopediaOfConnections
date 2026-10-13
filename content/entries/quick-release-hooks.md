@@ -138,6 +138,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Quickrelease_hooks_pelican_hook_threering_release.json
+image: null
 glossary: [axial--radial, over-centre, mechanical-advantage, actuator, solenoid, fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond,
   layer-lines, perimeters, infill]
 ---

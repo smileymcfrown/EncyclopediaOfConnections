@@ -136,6 +136,7 @@ sources:
 - https://arxiv.org/abs/2506.16356
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Planetary_gear_set_epicyclic_gearing.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, crank, actuator, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, repeatability--accuracy, lubrication, infill, print-in-place]
 ---

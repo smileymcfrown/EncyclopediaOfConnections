@@ -117,6 +117,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Gimbal.json
+image: null
 glossary: [backlash, pitch, stiffness, flexure, clearance, form-fit--force-fit--material-bond, repeatability--accuracy, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---

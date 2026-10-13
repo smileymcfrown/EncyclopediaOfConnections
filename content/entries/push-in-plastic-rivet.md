@@ -126,6 +126,7 @@ sources:
 - https://www.printables.com/model/341553-original-prusa-enclosure-push-rivet (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushin_plastic_rivet_firtree_clip_push_rivet.json
+image: null
 glossary: [ratchet, cantilever, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 

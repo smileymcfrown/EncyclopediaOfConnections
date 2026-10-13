@@ -127,6 +127,7 @@ sources:
 - https://www.youtube.com/watch?v=A3iBtWrVTrI
 - https://www.youtube.com/watch?v=zuleKwhwCn8
 research: research/connection-types/results/Telescoping_tube_lever_lock_flip_lock.json
+image: null
 glossary: [self-locking, over-centre, ratchet, linkage, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---

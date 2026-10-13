@@ -144,6 +144,7 @@ sources:
 - https://www.youtube.com/watch?v=-tUnrz53Srg
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=OI2Mg5BQ_mo&format=json
 research: research/connection-types/results/Guyline_slider_friction_line_tensioner.json
+image: null
 glossary: [self-locking, mechanical-advantage, form-fit--force-fit--material-bond, chamfer--fillet, creep, infill]
 ---
 

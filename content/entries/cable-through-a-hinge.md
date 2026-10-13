@@ -116,6 +116,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 research: research/connection-types/results/Cable_through_a_hinge_hollow_hinge_pin_cable_on_the_pivot_axis_service_loop.json
+image: null
 glossary: [torque, actuator, torsion, form-fit--force-fit--material-bond, chamfer--fillet, fatigue, print-in-place, gland]
 ---
 

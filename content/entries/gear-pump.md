@@ -150,6 +150,7 @@ sources:
 - https://www.printables.com/model/1187735-external-gear-pump
 - https://www.printables.com/model/1187749-internal-gear-pump
 research: research/connection-types/results/Gear_pump_including_gerotor.json
+image: null
 glossary: [misalignment, backlash, torque, idler, actuator, clearance, tolerance, creep, perimeters, infill, o-ring, check-valve,
   venturi]
 ---

@@ -136,6 +136,7 @@ sources:
 - https://api.printables.com/graphql/ (models 1209954 and 1096141)
 - https://www.youtube.com/oembed (titles of yeIKHEYoSfA and sv_xUyv75G4)
 research: research/connection-types/results/Retaining_ring_circlip_Eclip.json
+image: null
 glossary: [self-locking, axial--radial, thrust-load, preload, deflection, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, heat-set-insert, chamfer--fillet, creep, perimeters, infill, overhang--bridging, peel-vs-shear]
 ---

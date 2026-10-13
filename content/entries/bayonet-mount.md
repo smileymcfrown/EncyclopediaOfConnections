@@ -127,6 +127,7 @@ sources:
 - https://en.wikipedia.org/wiki/S-mount_(CCTV_lens)
 - https://en.wikipedia.org/wiki/C_mount
 research: research/connection-types/results/Bayonet_mount_pushandtwist_lock.json
+image: null
 glossary: [misalignment, axial--radial, detent, preload, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, print-in-place, elephants-foot, peel-vs-shear, o-ring]
 ---

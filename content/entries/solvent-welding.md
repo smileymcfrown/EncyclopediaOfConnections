@@ -146,6 +146,7 @@ sources:
 - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 - https://res.cloudinary.com/dzhpkjoqj/Nibco/PP-R-Pro-IOM-Manual.pdf
 research: research/connection-types/results/Solvent_welding_solvent_cement.json
+image: null
 glossary: [interference-fit, form-fit--force-fit--material-bond, heat-set-insert, chamfer--fillet, repeatability--accuracy,
   brittle--ductile, layer-lines, cure, primer, peel-vs-shear]
 ---

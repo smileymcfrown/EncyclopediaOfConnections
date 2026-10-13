@@ -143,6 +143,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Pressure_cooker_safety_valve.svg
 - https://commons.wikimedia.org/wiki/File:Rupturedisc_burst.JPG
 research: research/connection-types/results/Pressure_relief_valve_safety_valve_popoff_valve.json
+image: null
 glossary: [stroke, over-centre, torque, actuator, fail-safe--fail-secure, hysteresis, repeatability--accuracy, fatigue, infill,
   check-valve, regulator]
 ---

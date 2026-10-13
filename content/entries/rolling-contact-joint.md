@@ -143,6 +143,7 @@ sources:
 - https://kapycad.com/en/academy/machines/rolling-contact-joint
 - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
 research: research/connection-types/results/Rollingcontact_joint_CORE_Jacobsladder_hinge.json
+image: null
 glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
   clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
   layer-lines, print-in-place]

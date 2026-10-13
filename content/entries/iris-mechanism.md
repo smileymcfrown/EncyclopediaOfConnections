@@ -131,6 +131,7 @@ sources:
 - https://www.youtube.com/watch?v=3_1MpSFiJ7A
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Iris_mechanism.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, detent, crank, linkage, stiffness, clearance, form-fit--force-fit--material-bond,
   collet, repeatability--accuracy, print-in-place, elephants-foot, warping--shrinkage, peel-vs-shear]
 ---

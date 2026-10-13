@@ -140,6 +140,7 @@ sources:
 - https://www.printables.com/model/188961-adjustable-magnetic-detent-for-thrustmaster-twcs-t (URL from Printables API, page
   not opened)
 research: research/connection-types/results/Magnetic_detent_magnet_click_stops.json
+image: null
 glossary: [misalignment, backlash, self-locking, detent, ratchet, torque, flexure, form-fit--force-fit--material-bond, holding-force,
   heat-set-insert, repeatability--accuracy, creep]
 ---

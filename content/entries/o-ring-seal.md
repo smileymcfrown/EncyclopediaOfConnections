@@ -130,6 +130,7 @@ sources:
 - https://www.printables.com/model/582788-parametric-keychain-container-with-o-ring-groove
 - https://www.youtube.com/watch?v=r2JtSLt809Q
 research: research/connection-types/results/Oring_seal.json
+image: null
 glossary: [axial--radial, tolerance, chamfer--fillet, creep, lubrication, perimeters, infill, o-ring, gland]
 ---
 

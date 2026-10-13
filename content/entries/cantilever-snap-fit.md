@@ -143,6 +143,7 @@ sources:
 - https://www.fictiv.com/tools/snap-fit-calculator
 - https://www.engineersedge.com/snap_fit_straight.htm
 research: research/connection-types/results/Cantilever_snap_fit.json
+image: null
 glossary: [detent, stiffness, flexure, living-hinge, cantilever, deflection, torsion, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, holding-force, taper, heat-set-insert, chamfer--fillet, undercut, return-angle, creep,
   brittle--ductile, stress-concentration, overhang--bridging, peel-vs-shear, o-ring]

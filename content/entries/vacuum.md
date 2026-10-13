@@ -142,6 +142,7 @@ sources:
 - https://hackaday.com/2019/03/09/look-ma-no-glue-electrostatic-adhesion-as-if-by-magic/
 - https://en.wikipedia.org/wiki/Electroadhesion
 research: research/connection-types/results/Vacuum_suction_gripper.json
+image: null
 glossary: [misalignment, self-locking, stroke, solenoid, form-fit--force-fit--material-bond, holding-force, repeatability--accuracy,
   perimeters, infill, peel-vs-shear, regulator, venturi]
 ---

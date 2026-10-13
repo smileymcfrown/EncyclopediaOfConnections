@@ -127,6 +127,7 @@ sources:
 - https://en.wikipedia.org/wiki/Programmable_magnet
 - 'https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)'
 research: research/connection-types/results/Magnet_joint_embedded_magnets_magnetic_catch.json
+image: null
 glossary: [misalignment, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, holding-force, captive-nut,
   keying, kinematic-coupling, creep, brittle--ductile, peel-vs-shear]
 ---

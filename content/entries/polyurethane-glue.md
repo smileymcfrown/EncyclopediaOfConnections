@@ -135,6 +135,7 @@ sources:
 - https://www.youtube.com/watch?v=MUWu-N85oXM
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Polyurethane_glue_foaming_moisturecure_glue.json
+image: null
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, end-grain, cure, pot-life--working-time, open-time, peel-vs-shear,
   gap-filling]
 ---

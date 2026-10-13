@@ -132,6 +132,7 @@ sources:
   accessories (sew on)', 436200 'Sew-on patches - blanks', 121324 'Parametric Button Generator', 1128919 'Button - Parametric
   customizable OpenSCAD'; pages not opened)
 research: research/connection-types/results/Sewon_part_sewing_holes_loops_and_slots_on_a_rigid_part.json
+image: null
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, layer-lines, perimeters, peel-vs-shear]
 ---
 

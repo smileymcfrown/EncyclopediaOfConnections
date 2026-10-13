@@ -116,6 +116,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:BallCaster.stl
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_caster_ball_transfer_unit.json
+image: null
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication]
 ---
 

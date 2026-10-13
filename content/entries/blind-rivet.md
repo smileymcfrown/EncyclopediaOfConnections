@@ -144,6 +144,7 @@ sources:
 - https://www.youtube.com/watch?v=WlZwaN68HJE
 - https://api.printables.com/graphql/ (models 443823, 1153765, 13876, 919864, 547516)
 research: research/connection-types/results/Blind_rivet_pop_rivet.json
+image: null
 glossary: [misalignment, pitch, clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, perimeters,
   infill, peel-vs-shear]
 ---

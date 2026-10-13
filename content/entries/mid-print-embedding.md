@@ -128,6 +128,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Midprint_embedding_captive_nuts_magnets_and_bearings.json
+image: null
 glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, perimeters, infill]
 ---
 

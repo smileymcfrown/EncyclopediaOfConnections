@@ -158,6 +158,7 @@ sources:
 - https://www.mcmaster.com/products/bevel-gears/
 - https://www.mcmaster.com/products/miter-gears/
 research: research/connection-types/results/Differential_bevel_gear_differential.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, clearance, form-fit--force-fit--material-bond,
   infill, print-in-place, o-ring]
 ---

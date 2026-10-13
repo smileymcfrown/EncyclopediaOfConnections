@@ -129,6 +129,7 @@ sources:
 - https://en.wikipedia.org/wiki/Confirmat_screw
 - https://www.finehomebuilding.com/2008/06/27/whats-the-difference-cabinet-assembly-screws
 research: research/connection-types/results/Knockdown_camlock_and_crossdowel_connectors.json
+image: null
 glossary: [tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, repeatability--accuracy, creep, brittle--ductile,
   perimeters, infill, peel-vs-shear]
 ---

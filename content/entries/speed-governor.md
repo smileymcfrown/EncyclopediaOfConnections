@@ -146,6 +146,7 @@ sources:
 - https://www.thingiverse.com/thing:2006756
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Speed_governor_fly_fan_centrifugal_governor.json
+image: null
 glossary: [ratchet, torque, crank, form-fit--force-fit--material-bond, repeatability--accuracy, creep, perimeters, peel-vs-shear,
   o-ring, regulator]
 ---

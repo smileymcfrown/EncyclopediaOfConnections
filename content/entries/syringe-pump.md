@@ -159,6 +159,7 @@ sources:
 - https://www.youtube.com/watch?v=7YSiO6usR1M
 - https://www.youtube.com/watch?v=YdeZJIZdA_A
 research: research/connection-types/results/Syringe_pump_syringe_driver.json
+image: null
 glossary: [misalignment, backlash, back-driving, self-locking, stroke, torque, pitch, actuator, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, infill]
 ---

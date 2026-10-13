@@ -132,6 +132,7 @@ sources:
   not opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Servo_or_motorised_latch.json
+image: null
 glossary: [misalignment, back-driving, self-locking, stroke, dead-point, over-centre, torque, linkage, actuator, solenoid,
   fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, peel-vs-shear]
 ---

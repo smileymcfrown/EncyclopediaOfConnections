@@ -136,6 +136,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Magsafe_tipoff_2.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Magnetic_connector_magnetic_pogo_connector_magnetic_breakaway_power_connector.json
+image: null
 glossary: [misalignment, stroke, pitch, fail-safe--fail-secure, tolerance, holding-force, brittle--ductile, print-in-place,
   peel-vs-shear, gland]
 ---

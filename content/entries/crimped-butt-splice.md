@@ -135,6 +135,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:First_Butt_Splice_Completed.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Crimped_butt_splice_crimp_splice_connector.json
+image: null
 glossary: [ratchet, form-fit--force-fit--material-bond, gland]
 ---
 

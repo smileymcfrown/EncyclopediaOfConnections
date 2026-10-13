@@ -136,6 +136,7 @@ sources:
 - https://aleenes.com/a/faq
 - https://www.coolcrafting.co.uk/product/prym-fray-check/
 research: research/connection-types/results/PVA_wood_glue_white_and_yellow_glue.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear]
 ---
 

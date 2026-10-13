@@ -135,6 +135,7 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://en.wikipedia.org/wiki/C-stand
 research: research/connection-types/results/Hirth_joint_facespline_coupling.json
+image: null
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, torque, crank, actuator, deflection, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert, captive-nut, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep, fatigue, galling--fretting]
 ---

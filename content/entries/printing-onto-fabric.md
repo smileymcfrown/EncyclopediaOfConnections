@@ -135,6 +135,7 @@ sources:
   on fabric', 134 '3D Fabric Experimentation', 502073 'Flexi Tulle Snake', 913170 'Scale Mail for fabric printing', 374037
   '3D printed Valentine Flower Greeting Card with Tulle Hinge', 386910 'Print on Fabric Test (Long Spikes)'; pages not opened)
 research: research/connection-types/results/Printing_onto_fabric_fabric_embedded_in_a_3D_print.json
+image: null
 glossary: [living-hinge, form-fit--force-fit--material-bond, captive-nut, print-in-place, peel-vs-shear]
 ---
 

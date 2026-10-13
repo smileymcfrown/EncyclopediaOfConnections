@@ -146,6 +146,7 @@ sources:
 - https://www.youtube.com/watch?v=ceuVGYqovXw
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Expanding_internal_grip_expanding_mandrel_inside_gripper.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, linkage, actuator, fail-safe--fail-secure, cantilever, tolerance, form-fit--force-fit--material-bond,
   spline, taper, collet, captive-nut, creep, perimeters, infill, o-ring, regulator]
 ---

@@ -141,6 +141,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Tool_For_Driving_Corrugated_Fasteners._-_DPLA_-_1e91b47568517b5427a30a40f7f9ed37_(page_1).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Metal_brackets_and_plates_angle_bracket_mending_plate_joist_hanger.json
+image: null
 glossary: [deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, perimeters, infill,
   warping--shrinkage, end-grain, peel-vs-shear]
 ---

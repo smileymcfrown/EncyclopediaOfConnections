@@ -157,6 +157,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/81211-m3-m10-3d-printed-thread-test
 research: research/connection-types/results/Printed_screw_thread.json
+image: null
 glossary: [misalignment, self-locking, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, brittle--ductile, perimeters, infill, elephants-foot, overhang--bridging, peel-vs-shear, o-ring]
 ---

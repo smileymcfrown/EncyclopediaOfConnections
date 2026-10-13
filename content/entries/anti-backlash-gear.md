@@ -120,6 +120,7 @@ sources:
 - https://www.youtube.com/watch?v=7XxFrbyEJBM
 - https://commons.wikimedia.org/wiki/File:Backlash.svg
 research: research/connection-types/results/Antibacklash_gear_split_scissor_gear.json
+image: null
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, flexure, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, lubrication, perimeters, infill]
 ---

@@ -123,6 +123,7 @@ sources:
 - https://www.youtube.com/watch?v=N9SbpknBo1g (verified via YouTube oEmbed)
 - https://en.wikipedia.org/wiki/Drawstring
 research: research/connection-types/results/Cord_lock_spring_toggle.json
+image: null
 glossary: [self-locking, detent, form-fit--force-fit--material-bond, perimeters, infill]
 ---
 

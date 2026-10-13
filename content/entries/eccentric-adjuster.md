@@ -138,6 +138,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)
 research: research/connection-types/results/Eccentric_adjuster_eccentric_nut_spacer_or_bushing.json
+image: null
 glossary: [misalignment, backlash, torque, idler, cam-and-follower, crank, form-fit--force-fit--material-bond, set-screw,
   kinematic-coupling, creep, peel-vs-shear]
 ---

@@ -115,6 +115,7 @@ sources:
 - https://www.printables.com/model/232869-quick-snap-pin-connectors (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Snap_pin_splitleg_pushin_pin_rabbit_clip.json
+image: null
 glossary: [axial--radial, preload, cantilever, clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert,
   chamfer--fillet, undercut, return-angle, creep, brittle--ductile, elephants-foot, peel-vs-shear]
 ---

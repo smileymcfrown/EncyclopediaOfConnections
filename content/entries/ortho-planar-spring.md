@@ -115,6 +115,7 @@ sources:
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 research: research/connection-types/results/Orthoplanar_spring.json
+image: null
 glossary: [backlash, axial--radial, stroke, bistable, stiffness, preload, flexure, compliant-mechanism, cantilever, deflection,
   damping, clearance, chamfer--fillet, creep, stress-relaxation, fatigue, perimeters, infill, peel-vs-shear]
 ---

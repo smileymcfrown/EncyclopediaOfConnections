@@ -105,6 +105,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Ratchettooth_torque_limiter_clicking_torquelimiting_cap_or_knob.json
+image: null
 glossary: [misalignment, backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, torque, fail-safe--fail-secure,
   preload, deflection, form-fit--force-fit--material-bond, circlip, fatigue, brittle--ductile, lubrication, perimeters, infill,
   peel-vs-shear, o-ring]

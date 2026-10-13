@@ -133,6 +133,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Parallel_pin_DIN_EN_ISO8734_3D.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Drivein_fixing_pins_roll_pin_coiled_spring_pin_dowel_pin_taper_pin.json
+image: null
 glossary: [misalignment, axial--radial, pawl, torque, tolerance, interference-fit, form-fit--force-fit--material-bond, set-screw,
   spline, taper, circlip, boss, pilot-hole, counterbore--countersink, chamfer--fillet, repeatability--accuracy, creep, fatigue,
   brittle--ductile, layer-lines, peel-vs-shear]

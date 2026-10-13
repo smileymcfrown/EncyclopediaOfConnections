@@ -131,6 +131,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Interfacing_at_hem.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ironon_fusible_web_heatactivated_adhesive_web_hem_tape.json
+image: null
 glossary: [form-fit--force-fit--material-bond, warping--shrinkage, cure, peel-vs-shear]
 ---
 

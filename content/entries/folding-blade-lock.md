@@ -137,6 +137,7 @@ sources:
 - https://www.printables.com/model/193429-blunted-folding-knife (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Foldingblade_lock_liner_lock_lockback_slip_joint.json
+image: null
 glossary: [misalignment, self-locking, over-centre, detent, torque, linkage, preload, flexure, torsion, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, fatigue, galling--fretting, infill]
 ---

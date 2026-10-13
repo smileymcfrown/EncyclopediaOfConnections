@@ -144,6 +144,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Square_lashings.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pole_lashings_square_diagonal_shear_and_tripod_lashings.json
+image: null
 glossary: [ratchet, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, warping--shrinkage, peel-vs-shear]
 ---
 

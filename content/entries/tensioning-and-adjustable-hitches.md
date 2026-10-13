@@ -157,6 +157,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:AdjustableHitchVariations.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tensioning_and_adjustable_hitches_truckers_hitch_tautline_hitch_Prusik.json
+image: null
 glossary: [ratchet, mechanical-advantage, form-fit--force-fit--material-bond, creep]
 ---
 

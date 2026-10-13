@@ -111,6 +111,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Balldetent_torque_limiter.json
+image: null
 glossary: [misalignment, backlash, coaxial, detent, ratchet, pawl, torque, fail-safe--fail-secure, preload, hysteresis, clearance,
   form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, brittle--ductile, peel-vs-shear]
 ---

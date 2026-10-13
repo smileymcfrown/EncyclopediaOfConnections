@@ -140,6 +140,7 @@ sources:
 - https://www.youtube.com/watch?v=cfSHss5j5KU (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 1493826, 302854 and 1057179 read via the public API)
 research: research/connection-types/results/Kinematic_coupling_balls_in_Vgrooves.json
+image: null
 glossary: [degrees-of-freedom, backlash, stiffness, preload, deflection, clearance, set-screw, taper, heat-set-insert, keying,
   kinematic-coupling, exact-constraint, over-constraint, elastic-averaging, repeatability--accuracy, creep, galling--fretting,
   infill]

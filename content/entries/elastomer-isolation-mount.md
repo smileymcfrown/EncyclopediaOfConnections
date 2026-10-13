@@ -125,6 +125,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Home-Built_Vibration_Isolation_Platform_using_Squash_Balls.jpg
 - https://commons.wikimedia.org/wiki/File:Propeller_rubber_bush_failed.jpg
 research: research/connection-types/results/Elastomer_isolation_mount_rubber_bobbin_mount_isolator_grommet.json
+image: null
 glossary: [misalignment, fail-safe--fail-secure, stiffness, damping, form-fit--force-fit--material-bond, creep, perimeters,
   infill, peel-vs-shear, gland]
 ---

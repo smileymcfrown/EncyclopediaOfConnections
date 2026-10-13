@@ -136,6 +136,7 @@ sources:
 - https://www.youtube.com/watch?v=gzdZGKHdfsc
 - https://www.youtube.com/watch?v=iMMGfzYXwAU
 research: research/connection-types/results/Twistedandcoiled_polymer_muscle_fishingline_artificial_muscle.json
+image: null
 glossary: [misalignment, backlash, self-locking, stroke, actuator, solenoid, stiffness, preload, hysteresis, creep]
 ---
 

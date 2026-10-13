@@ -145,6 +145,7 @@ sources:
 - https://www.youtube.com/watch?v=vaeRNEE9wmU
 - https://www.youtube.com/watch?v=fkTCNT-1sJ8
 research: research/connection-types/results/Eccentric_cam_lever_cam_clamp_quickrelease_skewer.json
+image: null
 glossary: [misalignment, self-locking, stroke, over-centre, lever-arm, linkage, clearance, form-fit--force-fit--material-bond,
   holding-force, repeatability--accuracy, creep, layer-lines, infill, print-in-place, peel-vs-shear]
 ---

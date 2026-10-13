@@ -116,6 +116,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:PXL_20211004_114900846.jpg
 - https://www.youtube.com/watch?v=lwtUWB2TIYA
 research: research/connection-types/results/Anaerobic_adhesive_threadlocker_retaining_compound.json
+image: null
 glossary: [self-locking, torque, clearance, interference-fit, form-fit--force-fit--material-bond, set-screw, threadlocker,
   creep, brittle--ductile, cure, primer, peel-vs-shear]
 ---

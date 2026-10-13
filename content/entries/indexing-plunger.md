@@ -133,6 +133,7 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 research: research/connection-types/results/Indexing_plunger_pullknob_index_pin.json
+image: null
 glossary: [misalignment, detent, cantilever, clearance, tolerance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   repeatability--accuracy, creep, layer-lines, overhang--bridging, peel-vs-shear]
 ---

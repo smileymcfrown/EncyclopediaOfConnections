@@ -171,6 +171,7 @@ sources:
 - https://help.prusa3d.com/article/elephant-foot-compensation_114487
 - https://raw.githubusercontent.com/florianfesti/boxes/master/LICENSE.txt
 research: research/connection-types/results/Modular_grid_mounting_systems_pegboard_Gridfinitystyle_grids.json
+image: null
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 

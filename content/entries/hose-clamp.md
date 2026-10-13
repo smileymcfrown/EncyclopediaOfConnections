@@ -148,6 +148,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hose_clamp_wormdrive_clamp_ear_clamp_spring_hose_clamp.json
+image: null
 glossary: [misalignment, axial--radial, stroke, ratchet, torque, deflection, form-fit--force-fit--material-bond, holding-force,
   chamfer--fillet, creep, layer-lines, infill]
 ---

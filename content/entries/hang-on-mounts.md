@@ -134,6 +134,7 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=t5TXVzlAuzw&format=json
 - https://en.wikipedia.org/wiki/VESA_mount
 research: research/connection-types/results/Hangon_mounts_keyhole_slot_French_cleat.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, undercut, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, peel-vs-shear]
 ---

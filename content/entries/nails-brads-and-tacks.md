@@ -144,6 +144,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Corner_nail_row_tilted.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Nails_brads_and_tacks_ringshank_nail.json
+image: null
 glossary: [axial--radial, stiffness, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, brittle--ductile,
   infill, overhang--bridging, end-grain, peel-vs-shear]
 ---

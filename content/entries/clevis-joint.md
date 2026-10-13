@@ -142,6 +142,7 @@ sources:
 - https://www.youtube.com/watch?v=y5l58xDnPUk
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Clevis_joint_forkandpin_joint_prong_mount.json
+image: null
 glossary: [misalignment, detent, linkage, actuator, flexure, cantilever, clearance, form-fit--force-fit--material-bond, circlip,
   captive-nut, layer-lines, peel-vs-shear]
 ---

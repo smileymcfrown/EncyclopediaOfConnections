@@ -126,6 +126,7 @@ sources:
 - https://www.youtube.com/watch?v=S0lcIF6u9uE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rod_end_and_ball_link_rose_joint_RC_ball_link.json
+image: null
 glossary: [misalignment, axial--radial, lever-arm, linkage, actuator, clearance, form-fit--force-fit--material-bond, set-screw,
   threadlocker, creep, perimeters, infill, print-in-place, o-ring]
 ---

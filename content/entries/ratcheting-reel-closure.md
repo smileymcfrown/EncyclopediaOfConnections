@@ -114,6 +114,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Ratcheting_reel_closure_dial_lacing_system.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, coaxial, detent, ratchet, pawl, torque, form-fit--force-fit--material-bond,
   heat-set-insert, creep, perimeters, infill]
 ---

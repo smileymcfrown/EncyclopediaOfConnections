@@ -116,6 +116,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 research: research/connection-types/results/Butterfly_key_bowtie_key.json
+image: null
 glossary: [stiffness, tolerance, form-fit--force-fit--material-bond, spline, chamfer--fillet, undercut, peel-vs-shear]
 ---
 

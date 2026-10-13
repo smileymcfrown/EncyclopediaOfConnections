@@ -119,6 +119,7 @@ sources:
 - https://www.youtube.com/watch?v=YVeKBCVVhYo
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Structural_acrylic_and_lowsurfaceenergy_plastic_adhesives_for_PE_and_PP.json
+image: null
 glossary: [form-fit--force-fit--material-bond, creep, cure, pot-life--working-time, surface-energy, primer, peel-vs-shear,
   gap-filling]
 ---

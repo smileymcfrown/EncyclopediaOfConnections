@@ -161,6 +161,7 @@ sources:
 - https://www.printables.com/model/1695086-planter-float-valve-reservoir-box
 - https://www.printables.com/model/474852-aquarium-auto-fill-float-ball-valve-bracket
 research: research/connection-types/results/Float_valve_ballcock.json
+image: null
 glossary: [misalignment, crank, solenoid, fail-safe--fail-secure, form-fit--force-fit--material-bond, pilot-hole, creep, perimeters,
   infill, check-valve, regulator, water-hammer]
 ---

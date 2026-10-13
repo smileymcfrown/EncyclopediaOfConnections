@@ -137,6 +137,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Cycloidal_drive_cycloidal_reducer.json
+image: null
 glossary: [backlash, self-locking, coaxial, ratchet, torque, actuator, stiffness, preload, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, creep, print-in-place]
 ---

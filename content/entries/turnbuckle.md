@@ -129,6 +129,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=5T_QNdU6t8s&format=json
 research: research/connection-types/results/Turnbuckle.json
+image: null
 glossary: [misalignment, self-locking, axial--radial, over-centre, ratchet, pitch, idler, linkage, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, galling--fretting, layer-lines, perimeters, infill]
 ---

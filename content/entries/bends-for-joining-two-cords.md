@@ -144,6 +144,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:N%C5%93ud_de_p%C3%AAcheur_double_serr%C3%A9.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bends_for_joining_two_cords_sheet_bend_double_fishermans_knot_water_knot.json
+image: null
 glossary: [stiffness, form-fit--force-fit--material-bond, creep]
 ---
 

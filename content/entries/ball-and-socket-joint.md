@@ -162,6 +162,7 @@ sources:
 - https://www.college-park.com/media/wysiwyg/pdf/instructions/components/CPI-INS-4HPR.pdf
 - https://en.wikipedia.org/wiki/Ottobock
 research: research/connection-types/results/Ballandsocket_joint_lockable_ball_head.json
+image: null
 glossary: [degrees-of-freedom, misalignment, detent, linkage, stiffness, cantilever, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, boss, undercut, creep, stress-relaxation, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---

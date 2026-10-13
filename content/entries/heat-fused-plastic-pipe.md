@@ -122,6 +122,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hot_plate_welding_pressure_history.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Heatfused_plastic_pipe_socket_fusion_butt_fusion_electrofusion.json
+image: null
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
 ---
 

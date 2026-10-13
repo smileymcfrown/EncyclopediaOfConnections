@@ -143,6 +143,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Security_screws
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tamperresistant_fasteners_security_screw_oneway_screw_breakawayhead_bolt.json
+image: null
 glossary: [torque, form-fit--force-fit--material-bond, captive-nut, boss, counterbore--countersink, threadlocker, creep, peel-vs-shear,
   regulator]
 ---

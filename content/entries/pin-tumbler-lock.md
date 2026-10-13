@@ -148,6 +148,7 @@ sources:
 - https://www.printables.com/model/576652-wafer-lock (URL from Printables API, page not opened)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pintumbler_lock_and_other_tumbler_locks.json
+image: null
 glossary: [axial--radial, ratchet, pawl, torque, solenoid, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   keying, lubrication, layer-lines, infill, elephants-foot, peel-vs-shear]
 ---

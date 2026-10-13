@@ -139,6 +139,7 @@ sources:
 - https://www.printables.com/model/46639-tension-meter-for-the-gt2-belts-of-i3-mk3s-or-prus
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Belt_drives_timing_round_and_Vbelt.json
+image: null
 glossary: [misalignment, backlash, ratchet, torque, pitch, idler, deflection, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, collet, captive-nut, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
   peel-vs-shear, o-ring]

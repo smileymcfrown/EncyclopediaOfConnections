@@ -125,6 +125,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Universal_joint_Hookes_joint_Cardan_joint.json
+image: null
 glossary: [misalignment, backlash, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw, spline,
   heat-set-insert, captive-nut, brittle--ductile, lubrication, layer-lines, perimeters, infill, print-in-place, peel-vs-shear]
 ---

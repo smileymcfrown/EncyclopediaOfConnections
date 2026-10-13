@@ -141,6 +141,7 @@ sources:
 - https://www.youtube.com/watch?v=7NulJL7R4Ok
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tongueandgroove_joint_incl_slidinglid_grooves.json
+image: null
 glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-fit--material-bond, spline, chamfer--fillet,
   creep, stress-concentration, elephants-foot, overhang--bridging, warping--shrinkage, peel-vs-shear]
 ---

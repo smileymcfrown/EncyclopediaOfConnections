@@ -107,6 +107,7 @@ sources:
 - https://www.youtube.com/watch?v=SSKu5k4xVPI
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=SSKu5k4xVPI&format=json
 research: research/connection-types/results/Bindingplate_lock_tilting_friction_plate.json
+image: null
 glossary: [self-locking, detent, ratchet, sprag, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---

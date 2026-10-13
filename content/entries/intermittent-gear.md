@@ -137,6 +137,7 @@ sources:
 - https://de.wikipedia.org/wiki/Schrittgetriebe
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Intermittent_gear_mutilated_or_parttoothed_gear.json
+image: null
 glossary: [backlash, self-locking, axial--radial, reciprocating, detent, ratchet, pawl, torque, gear-ratio, crank, clearance,
   form-fit--force-fit--material-bond, circlip, repeatability--accuracy, print-in-place, elephants-foot, overhang--bridging]
 ---

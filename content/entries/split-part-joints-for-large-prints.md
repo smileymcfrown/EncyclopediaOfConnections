@@ -137,6 +137,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=-PtARBZEu5g
 research: research/connection-types/results/Splitpart_joints_for_large_prints_dovetail_keys_puzzle_joints_alignment_pins.json
+image: null
 glossary: [misalignment, cantilever, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   chamfer--fillet, repeatability--accuracy, creep, brittle--ductile, elephants-foot, warping--shrinkage, primer, peel-vs-shear]
 ---

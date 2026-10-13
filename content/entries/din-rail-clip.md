@@ -122,6 +122,7 @@ sources:
 - https://www.youtube.com/watch?v=bOMrQ_mIGvM
 - https://api.printables.com/graphql/
 research: research/connection-types/results/DINrail_clip_tophat_rail_snap_mount.json
+image: null
 glossary: [cantilever, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, creep, perimeters, infill,
   print-in-place, elephants-foot]
 ---

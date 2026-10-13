@@ -139,6 +139,7 @@ sources:
 - https://en.wikipedia.org/wiki/Cross-linked_polyethylene
 - https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg
 research: research/connection-types/results/Hose_barb_barbed_tube_fitting.json
+image: null
 glossary: [form-fit--force-fit--material-bond, collet, chamfer--fillet, perimeters, infill, o-ring, gland, check-valve]
 ---
 

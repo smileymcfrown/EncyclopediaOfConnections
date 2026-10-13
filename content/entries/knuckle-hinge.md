@@ -137,6 +137,7 @@ sources:
 - https://www.youtube.com/watch?v=gcQATQLzDuw
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Knuckle_hinge_butt_hinge.json
+image: null
 glossary: [misalignment, detent, torque, pitch, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   pilot-hole, creep, perimeters, infill, print-in-place, peel-vs-shear]
 ---

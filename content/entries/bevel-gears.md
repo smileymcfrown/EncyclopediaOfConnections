@@ -136,6 +136,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Bevel_gears_incl_mitre_and_crown_gears.json
+image: null
 glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitch, crank, clearance, tolerance, set-screw,
   taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging]
 ---

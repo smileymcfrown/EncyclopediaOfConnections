@@ -140,6 +140,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
 - https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg
 research: research/connection-types/results/Bellows_boot_and_way_cover_gaiter.json
+image: null
 glossary: [axial--radial, stroke, actuator, form-fit--force-fit--material-bond, brittle--ductile, shore-hardness, overhang--bridging,
   o-ring, gland]
 ---

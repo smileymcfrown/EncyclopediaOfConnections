@@ -138,6 +138,7 @@ sources:
 - https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushpush_latch_pushtoopen_heartcam_latch.json
+image: null
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---

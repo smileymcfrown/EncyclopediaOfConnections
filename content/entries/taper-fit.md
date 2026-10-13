@@ -141,6 +141,7 @@ sources:
 - https://www.thingiverse.com/thing:3712257
 - https://www.thingiverse.com/thing:1161394
 research: research/connection-types/results/Taper_fit_Morse_taper.json
+image: null
 glossary: [backlash, self-locking, axial--radial, torque, pitch, crank, tolerance, interference-fit, form-fit--force-fit--material-bond,
   taper, collet, kinematic-coupling, creep, perimeters, infill]
 ---

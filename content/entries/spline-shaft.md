@@ -156,6 +156,7 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/1.pdf
 - https://en.wikipedia.org/wiki/Bendix_drive
 research: research/connection-types/results/Spline_shaft_sliding_spline.json
+image: null
 glossary: [misalignment, backlash, torque, pitch, linkage, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, chamfer--fillet, repeatability--accuracy, creep, fatigue, brittle--ductile, stress-concentration,
   galling--fretting, lubrication, layer-lines, perimeters]

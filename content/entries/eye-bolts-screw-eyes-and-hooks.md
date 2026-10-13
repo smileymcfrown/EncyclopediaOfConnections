@@ -142,6 +142,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Half_Ring_screw.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Eye_bolts_screw_eyes_and_hooks_lifting_eye_cup_hook_screw_hook.json
+image: null
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, undercut, creep, perimeters,
   infill, end-grain]
 ---

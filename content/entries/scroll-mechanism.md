@@ -123,6 +123,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:3-Backen-Futter-800.jpg (file title used for the German alias)
 - 'https://api.printables.com/graphql/ (Printables API: models 133491, 992137, 352130, 743872, 946636)'
 research: research/connection-types/results/Scroll_mechanism_selfcentring_scroll_chuck_spiralslot_plate.json
+image: null
 glossary: [degrees-of-freedom, backlash, self-locking, axial--radial, torque, pitch, clearance, form-fit--force-fit--material-bond,
   taper, collet, circlip, chamfer--fillet, repeatability--accuracy, creep, lubrication, print-in-place, overhang--bridging,
   support-material]

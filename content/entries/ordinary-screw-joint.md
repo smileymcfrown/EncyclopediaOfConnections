@@ -122,6 +122,7 @@ sources:
 - https://en.wikipedia.org/wiki/Carriage_bolt
 - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
 research: research/connection-types/results/Ordinary_screw_joint_bolt_and_nut_machine_screw.json
+image: null
 glossary: [misalignment, torque, linkage, preload, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   counterbore--countersink, threadlocker, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
   peel-vs-shear, o-ring]

@@ -152,6 +152,7 @@ sources:
 - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
 - https://commons.wikimedia.org/wiki/File:SpringNutInPlace.jpg
 research: research/connection-types/results/Aluminiumextrusion_connectors_Tslot_nuts_and_brackets.json
+image: null
 glossary: [self-locking, torque, pitch, set-screw, captive-nut, counterbore--countersink, threadlocker, kinematic-coupling,
   creep, infill, peel-vs-shear]
 ---

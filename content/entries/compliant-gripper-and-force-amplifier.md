@@ -136,6 +136,7 @@ sources:
 - https://www.youtube.com/watch?v=97t7Xj_iBv0
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Compliant_gripper_and_force_amplifier.json
+image: null
 glossary: [backlash, over-centre, bistable, lever-arm, mechanical-advantage, linkage, actuator, stiffness, flexure, compliant-mechanism,
   living-hinge, clearance, form-fit--force-fit--material-bond, chamfer--fillet, repeatability--accuracy, creep, fatigue, stress-concentration,
   layer-lines, elephants-foot]

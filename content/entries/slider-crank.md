@@ -144,6 +144,7 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 - https://cs448m.github.io/lectures/machines/doc/4.pdf
 research: research/connection-types/results/Slidercrank.json
+image: null
 glossary: [reciprocating, stroke, dead-point, over-centre, torque, cam-and-follower, crank, linkage, actuator, clearance,
   circlip, fatigue, lubrication, print-in-place, peel-vs-shear]
 ---

@@ -149,6 +149,7 @@ sources:
 - https://en.wikipedia.org/wiki/Cable_lacing
 - https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
 research: research/connection-types/results/Cable_gland_and_strain_relief.json
+image: null
 glossary: [coaxial, torque, clearance, form-fit--force-fit--material-bond, boss, perimeters, infill, o-ring, gland]
 ---
 
