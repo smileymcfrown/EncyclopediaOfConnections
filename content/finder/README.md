@@ -15,6 +15,10 @@ answer has:
 - `entries`: the outline numbers of the entries left after this answer, given the answers before it;
 - `needs_confirming`: for each of those entries that is there only because of a finder value that
   still needs confirming, the field names (the shortlist shows ⚑ on that card);
+- `tick` (on two answers, R29): instead of another question, a step where people tick several values
+  of one finder tag (`field`), e.g. every material they are gluing; an entry stays only if it has
+  *all* the ticked values. `anything` names a value that matches whatever is ticked ("any solid
+  parts"); those entries are shown in a separate, folded group;
 - `next`: the next question. A last answer has no `next`, and its `entries` are the shortlist
   (always 3-10 entries).
 

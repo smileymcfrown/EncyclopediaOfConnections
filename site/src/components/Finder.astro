@@ -14,8 +14,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 </div>
 
 <script>
+  type Tick = { field: string; prompt: string; anything?: string | null };
   type Answer = { label: string; example?: string; explain?: string; entries: number[];
-                  needs_confirming: Record<string, string[]>; next?: Question };
+                  needs_confirming: Record<string, string[]>; next?: Question; tick?: Tick };
   type Question = { question: string; answers: Answer[] };
   type Entry = { num: number; page: string; title: string; description: string; family: string;
                  finder: Record<string, string | string[]>; needs_confirming: string[] };
@@ -92,7 +93,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const nums = unsure && q ? [...new Set(q.answers.flatMap((a) => a.entries))] : last.entries;
     const flags: Record<string, string[]> = unsure && q
       ? Object.assign({}, ...q.answers.map((a) => a.needs_confirming)) : last.needs_confirming;
-    showList(nums.map((n) => byNum.get(n)!).filter(Boolean), flags, unsure);
+    showList(nums.map((n) => byNum.get(n)!).filter(Boolean), flags, unsure, unsure ? undefined : last.tick);
   }
 
   function showQuestion(q: Question, steps: number[]) {
@@ -113,18 +114,57 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     body.querySelector<HTMLElement>('h2')?.focus?.();
   }
 
-  function showList(es: Entry[], flags: Record<string, string[]>, unsure: boolean) {
+  // The panel: within a group, ticked options are alternatives (any of them will do), and each group's
+  // counts ignore that group's own ticks, so you can always tick another option in it. A tick step
+  // (R29) works the other way: an entry must have *every* ticked value, e.g. a glue that bonds both
+  // materials, or a joint for both kinds of part.
+  function showList(es: Entry[], flags: Record<string, string[]>, unsure: boolean, tick?: Tick) {
     const panel = el('div', { class: 'finder-panel' });
-    const cards = el('ul', { class: 'finder-cards' });
+    const cards = el('div', {});
     const heading = el('h2', {});
+    const tickBox = el('div', { class: 'finder-tick' });
+    const want = new Set<string>();
+    const any = tick?.anything ?? null;
+    const has = (e: Entry, vs: Set<string>) => [...vs].every((v) => values(e, tick!.field).includes(v));
+    const passPanel = (e: Entry, skip?: string) =>
+      [...ticked].every(([f, set]) => f === skip || !set.size || values(e, f).some((v) => set.has(v)));
+    const card = (e: Entry) => {
+      const li = el('li', { class: 'finder-card' },
+        el('a', { href: `${base}/entries/${e.page}/` }, e.title),
+        el('p', {}, e.description),
+        el('p', { class: 'finder-family' }, e.family));
+      const f = flags[String(e.num)];
+      if (f) li.append(el('p', { class: 'finder-flag', title: `Needs confirming: ${f.join(', ')}` },
+        `⚑ It is here because of a finder value that needs confirming (${f.join(', ')}).`));
+      return li;
+    };
     const draw = () => {
-      const shown = es.filter((e) => [...ticked].every(([f, set]) => !set.size || values(e, f).some((v) => set.has(v))));
-      heading.textContent = `${shown.length} ${shown.length === 1 ? 'match' : 'matches'}` + (unsure ? ' (you weren\'t sure, so these are all the options)' : '');
+      // 1. the tick step, if there is one
+      let strict = es, general: Entry[] = [];
+      if (tick) {
+        const isAny = (e: Entry) => !!any && values(e, tick.field).includes(any);
+        strict = want.size ? es.filter((e) => has(e, want) && !isAny(e)) : [];
+        general = want.size && any ? es.filter(isAny) : [];
+        const opts = [...new Set(es.flatMap((e) => values(e, tick.field)))]
+          .filter((v) => v !== any && v !== 'not applicable').sort();
+        tickBox.replaceChildren(el('p', { class: 'finder-panel-title' }, `${tick.prompt}:`));
+        for (const v of opts) {
+          const box = el('input', { type: 'checkbox' }) as HTMLInputElement;
+          box.checked = want.has(v);
+          const n = es.filter((e) => passPanel(e) && has(e, new Set([...want, v])) && !isAny(e)).length;
+          box.addEventListener('change', () => { box.checked ? want.add(v) : want.delete(v); draw(); });
+          tickBox.append(el('label', { class: n === 0 && !box.checked ? 'finder-none' : '' }, box, ` ${v} (${n})`));
+        }
+      }
+      const pool = [...strict, ...general];
+      const shown = strict.filter((e) => passPanel(e));
+      const shownGeneral = general.filter((e) => passPanel(e));
+      // 2. the panel, counted over what the tick step leaves
       panel.replaceChildren(el('p', { class: 'finder-panel-title' }, 'Tick what applies to narrow the list:'));
       for (const [f, label] of FILTERS) {
         const counts = new Map<string, number>();
-        for (const e of es) for (const v of values(e, f)) counts.set(v, 0);
-        for (const e of shown) for (const v of values(e, f)) counts.set(v, (counts.get(v) ?? 0) + 1);
+        for (const e of pool) for (const v of values(e, f)) counts.set(v, 0);
+        for (const e of pool) if (passPanel(e, f)) for (const v of values(e, f)) counts.set(v, (counts.get(v) ?? 0) + 1);
         if (counts.size < 2) continue;
         const fs = el('fieldset', {}, el('legend', {}, label));
         for (const [v, n] of [...counts].sort()) {
@@ -141,19 +181,34 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         }
         panel.append(fs);
       }
-      cards.replaceChildren(...shown.map((e) => {
-        const li = el('li', { class: 'finder-card' },
-          el('a', { href: `${base}/entries/${e.page}/` }, e.title),
-          el('p', {}, e.description),
-          el('p', { class: 'finder-family' }, e.family));
-        const f = flags[String(e.num)];
-        if (f) li.append(el('p', { class: 'finder-flag', title: `Needs confirming: ${f.join(', ')}` },
-          `⚑ It is here because of a finder value that needs confirming (${f.join(', ')}).`));
-        return li;
-      }));
+      // 3. the cards
+      const total = shown.length + shownGeneral.length;
+      if (tick && !want.size) {
+        heading.textContent = 'Tick what you are joining';
+        cards.replaceChildren(el('p', {}, 'Tick two or more boxes above. The list shows the options that suit all of them together.'));
+        panel.replaceChildren();
+        return;
+      }
+      heading.textContent = (tick && any ? `${shown.length} made for this mix` + (shownGeneral.length ? `, and ${shownGeneral.length} that join any parts` : '')
+        : `${total} ${total === 1 ? 'match' : 'matches'}`) +
+        (unsure ? " (you weren't sure, so these are all the options)" : '');
+      const parts: Node[] = [];
+      if (tick && !shown.length) parts.push(el('p', {}, any
+        ? 'Nothing in the encyclopaedia is made for exactly this mix, but the options below join any parts.'
+        : 'Nothing in the encyclopaedia is listed as suiting all of these together. Try ticking fewer, or look at a mechanical fixing instead (Back, then another answer).'));
+      if (shown.length) {
+        if (tick && any) parts.push(el('h3', {}, 'Made for joining these'));
+        parts.push(el('ul', { class: 'finder-cards' }, ...shown.map(card)));
+      }
+      if (shownGeneral.length) {
+        parts.push(el('details', { class: 'finder-general' },
+          el('summary', {}, `Also: ${shownGeneral.length} that join any parts (glues, welds and general fixings)`),
+          el('ul', { class: 'finder-cards' }, ...shownGeneral.map(card))));
+      }
+      cards.replaceChildren(...parts);
     };
     draw();
-    body.replaceChildren(heading, panel, cards);
+    body.replaceChildren(...(tick ? [tickBox] : []), heading, panel, cards);
   }
 
   Promise.all([
@@ -184,6 +239,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .finder-example { margin: 0.25rem 0 0 1rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
   .finder-explain { margin: 0.25rem 0 0 1rem; font-size: var(--sl-text-sm); }
   .finder-unsure { margin-top: 1rem; background: none; border: 1px dashed var(--sl-color-gray-4); border-radius: 0.5rem; padding: 0.5rem 1rem; color: var(--sl-color-gray-2); }
+  .finder-tick { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; padding: 0.75rem 1rem; border: 2px solid var(--sl-color-accent); border-radius: 0.5rem; margin: 0.5rem 0 1rem; }
+  .finder-tick .finder-panel-title { width: 100%; font-weight: 600; }
+  .finder-tick label { font-size: var(--sl-text-sm); }
+  .finder-general { margin-top: 1rem; }
+  .finder-general summary { cursor: pointer; font-weight: 600; }
   .finder-panel { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0; }
   .finder-panel-title { width: 100%; margin: 0; }
   .finder-panel fieldset { border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; padding: 0.5rem 0.75rem; margin: 0; }

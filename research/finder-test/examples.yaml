@@ -1025,3 +1025,14 @@
   - Hold or let go using power (electric, air or suction)
   - Suction (vacuum)
   example: a vacuum gripper lifting a sheet, a vacuum bed holding work on a CNC machine
+- path:
+  - Hold two things together (they stay still)
+  - Two different kinds of part (e.g. a print onto wood, or a strap onto a tube)
+  example: a printed bracket screwed to a plywood shelf, a strap clamped round a handlebar
+  explain: On the next screen, tick each kind of part. You get the joints made for that mix first, then ones that join any parts.
+- path:
+  - Hold two things together (they stay still)
+  - I just want to glue it
+  - Two different materials (e.g. a print onto wood)
+  example: a PLA part glued to a wooden base, a rubber foot glued to a metal leg
+  explain: On the next screen, tick every material. Only glues listed as bonding well to all of them stay on the list.
