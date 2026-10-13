@@ -135,9 +135,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Making_Conductive_Ink.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_glue_paint_and_ink_electrically_conductive_adhesive_silver_epoxy.json
-image: null
+image:
+  file: conductive-glue-paint-and-ink.webp
+  width: 800
+  height: 600
+  title: File:Conductive silver.jpg
+  author: PhysikingerC
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Conductive_silver.jpg
+  alt: Scanning electron microscope image of conductive silver, showing the touching flakes that carry the current (picture
+    width 434 µm)
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, captive-nut, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
+
+![Scanning electron microscope image of conductive silver, showing the touching flakes that carry the current (picture width 434 µm)](../media/conductive-glue-paint-and-ink.webp)
+
+*Picture: [Conductive silver.jpg](https://commons.wikimedia.org/wiki/File:Conductive_silver.jpg) by PhysikingerC, Public domain, from Wikimedia Commons.*
 
 Conductive glue, paint and ink are adhesives, paints and inks loaded with silver, copper, nickel or carbon particles that touch each other once dry or cured, so they stick a part on or draw a track that carries a small current where solder can't be used, such as on heat-sensitive parts, glass, paper, fabric or 3D prints.
 

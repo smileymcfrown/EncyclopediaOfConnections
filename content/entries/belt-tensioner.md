@@ -116,9 +116,23 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=-2bxol03MO8 (verified via YouTube oEmbed)
 research: research/connection-types/results/Belt_tensioner_springloaded_idler.json
-image: null
+image:
+  file: belt-tensioner.webp
+  width: 800
+  height: 973
+  title: File:Tensioner.jpg
+  author: Una Smith
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Tensioner.jpg
+  alt: Automatic tensioner pressing on the serpentine belt of a 7.4 L car engine
+  drawn: false
 glossary: [misalignment, freewheel, pitch, idler, stiffness, preload, deflection, torsion, creep, infill]
 ---
+
+![Automatic tensioner pressing on the serpentine belt of a 7.4 L car engine](../media/belt-tensioner.webp)
+
+*Picture: [Tensioner.jpg](https://commons.wikimedia.org/wiki/File:Tensioner.jpg) by Una Smith, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
 
 A free-spinning pulley, sprocket or plastic shoe pushed against the slack side of a belt or chain by a spring (or set by a screw) so the drive stays snug as the belt or chain stretches and wears.
 

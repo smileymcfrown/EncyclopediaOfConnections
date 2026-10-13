@@ -122,11 +122,25 @@ sources:
 - https://en.wikipedia.org/wiki/Carriage_bolt
 - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
 research: research/connection-types/results/Ordinary_screw_joint_bolt_and_nut_machine_screw.json
-image: null
+image:
+  file: ordinary-screw-joint.webp
+  width: 800
+  height: 1140
+  title: File:Bolted joint with nut.svg
+  author: Андрей Перцев
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg
+  alt: Cross-section drawing of two plates clamped by a bolt, washer and nut
+  drawn: false
 glossary: [misalignment, torque, linkage, preload, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   counterbore--countersink, threadlocker, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
   peel-vs-shear, o-ring]
 ---
+
+![Cross-section drawing of two plates clamped by a bolt, washer and nut](../media/ordinary-screw-joint.webp)
+
+*Picture: [Bolted joint with nut.svg](https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg) by Андрей Перцев, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A threaded fastener passes through [clearance](../glossary.md#clearance) holes and is tightened into a nut or a tapped hole, stretching slightly like a stiff spring so it clamps the parts together; it is the standard removable joint that other connections are compared with.
 

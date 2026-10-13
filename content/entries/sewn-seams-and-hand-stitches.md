@@ -152,9 +152,23 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 208733 'Sewing Machine Seam Guide', 1194803, 25814, 799176, 1296154,
   1086487, 1224263 'Stitching Pony for Leather', 651335; pages not opened)
 research: research/connection-types/results/Sewn_seams_and_hand_stitches_lockstitch_saddle_stitch_flatfelled_seam.json
-image: null
+image:
+  file: sewn-seams-and-hand-stitches.webp
+  width: 800
+  height: 320
+  title: File:Lockstitch - Anthony Atkielski.png
+  author: Agateller (Anthony Atkielski)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Lockstitch_-_Anthony_Atkielski.png
+  alt: Simple diagram of the upper and bobbin threads interlocking inside the fabric
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, spline, repeatability--accuracy, peel-vs-shear]
 ---
+
+![Simple diagram of the upper and bobbin threads interlocking inside the fabric](../media/sewn-seams-and-hand-stitches.webp)
+
+*Picture: [Lockstitch - Anthony Atkielski.png](https://commons.wikimedia.org/wiki/File:Lockstitch_-_Anthony_Atkielski.png) by Agateller (Anthony Atkielski), Public domain, from Wikimedia Commons.*
 
 Two pieces of fabric or leather are held together by a line of thread stitched through both, by machine (usually a lockstitch) or by hand (running, back or saddle stitch), with the cut edges folded in, wrapped or overstitched so they can't fray.
 

@@ -117,14 +117,29 @@ sources:
 - https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
 - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
 research: research/connection-types/results/Radial_lip_seal_rotary_shaft_seal_oil_seal.json
-image: null
+image:
+  file: radial-lip-seal.webp
+  width: 800
+  height: 682
+  title: File:Radial sealing CAD sectional view num.svg
+  author: 'Radial sealing CAD sectional view numbered.PNG: Jahobr derivative work: Sunspeanzler'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
+  alt: 'Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring, sealing
+    lip, garter spring and optional dust lip'
+  drawn: false
 glossary: [misalignment, axial--radial, tolerance, interference-fit, form-fit--force-fit--material-bond, spline, chamfer--fillet,
   creep, lubrication, perimeters, o-ring]
 ---
 
+![Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring, sealing lip, garter spring and optional dust lip](../media/radial-lip-seal.webp)
+
+*Picture: [Radial sealing CAD sectional view num.svg](https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg) by [Radial](../glossary.md#axial--radial) sealing CAD sectional view numbered.PNG: Jahobr derivative work: Sunspeanzler, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+
 A ring pressed into a round hole around a spinning shaft, whose spring-loaded rubber lip rides on the shaft on a thin film of oil, so the shaft can turn for years while the oil stays in and dirt and splashes stay out.
 
-**In plain words:** A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out. **Proper term:** [Radial](../glossary.md#axial--radial) shaft seal (rotary shaft lip seal), commonly called an oil seal.
+**In plain words:** A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out. **Proper term:** Radial shaft seal (rotary shaft lip seal), commonly called an oil seal.
 
 **Also called:** rotary lip seal, radial lip seal (Wikipedia 'Radial shaft seal'); oil seal, shaft seal (trade names used by suppliers; American Rubber Corp); Simmerring or Simmer-Ring (brand of Freudenberg Sealing Technologies, often used as a generic name; Wikipedia); Radial-Wellendichtring or RWDR (German, as in DIN 3760; Wikipedia, Wikimedia Commons); gufero (Czech workshop name; Wikimedia Commons file titles); TC oil seal (main lip plus dust lip) and SC oil seal (single lip): supplier type codes (American Rubber Corp); CR seal (SKF CR Seals product line), e.g. HMS5 and HMSA10 (SKF); pressure radial shaft seal (short, stiff lip for hydraulic pumps and motors; Parker); by use: crankshaft seal, axle seal, pinion seal, power steering seal, pump seal, valve stem seal (Wikipedia 'Radial shaft seal').
 

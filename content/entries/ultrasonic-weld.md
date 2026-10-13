@@ -133,10 +133,24 @@ sources:
 - https://www.youtube.com/watch?v=mSnDKx-UV8M
 - https://api.printables.com/graphql/ (model 833859)
 research: research/connection-types/results/Ultrasonic_weld_ultrasonic_plastic_welding_energy_director.json
-image: null
+image:
+  file: ultrasonic-weld.webp
+  width: 800
+  height: 1001
+  title: File:Ultraschall-Schweißmaschine.jpg
+  author: Herrmann Ultraschalltechnik GmbH & Co. KG
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ultraschall-Schwei%C3%9Fmaschine.jpg
+  alt: Photo of an ultrasonic welding machine, supplied by the machine maker
+  drawn: false
 glossary: [axial--radial, cantilever, hysteresis, tolerance, form-fit--force-fit--material-bond, boss, repeatability--accuracy,
   creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, support-material, warping--shrinkage, peel-vs-shear]
 ---
+
+![Photo of an ultrasonic welding machine, supplied by the machine maker](../media/ultrasonic-weld.webp)
+
+*Picture: [Ultraschall-Schweißmaschine.jpg](https://commons.wikimedia.org/wiki/File:Ultraschall-Schwei%C3%9Fmaschine.jpg) by Herrmann Ultraschalltechnik GmbH & Co. KG, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Ultrasonic welding presses two thermoplastic parts together under a horn that vibrates at about 15-40 kHz; the rubbing and internal heating melt a small ridge (energy director) or a slight overlap ([shear](../glossary.md#peel-vs-shear) joint) where the parts meet, and in well under a second they fuse into one sealed, permanent piece.
 

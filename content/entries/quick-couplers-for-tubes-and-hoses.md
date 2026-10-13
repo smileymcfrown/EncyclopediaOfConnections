@@ -147,10 +147,24 @@ sources:
 - https://www.rct-online.de/en/tube-hose-connectors/quick-disconnect-couplings-made-of-plastic/multi-lumen-quick-disconnect-couplings/29228/multi-lumen-quick-disconnect-nipple-made-of-pom
 - https://www.freshwatersystems.com/collections/Colder-Products
 research: research/connection-types/results/Quick_couplers_for_tubes_and_hoses_pushtoconnect_sleeve_lock.json
-image: null
+image:
+  file: quick-couplers-for-tubes-and-hoses.webp
+  width: 800
+  height: 652
+  title: File:Rtc-serie-171.08-gruppe.jpg
+  author: Shngz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Rtc-serie-171.08-gruppe.jpg
+  alt: Pneumatic safety couplings with two-stage release to ISO 4414, with mating nipples (plugs)
+  drawn: false
 glossary: [misalignment, over-centre, fail-safe--fail-secure, clearance, tolerance, form-fit--force-fit--material-bond, taper,
   collet, heat-set-insert, creep, infill, o-ring, gland]
 ---
+
+![Pneumatic safety couplings with two-stage release to ISO 4414, with mating nipples (plugs)](../media/quick-couplers-for-tubes-and-hoses.webp)
+
+*Picture: [Rtc-serie-171.08-gruppe.jpg](https://commons.wikimedia.org/wiki/File:Rtc-serie-171.08-gruppe.jpg) by Shngz, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A tube fitting that locks a plastic or soft-metal tube in place and seals it as soon as the tube is pushed in, and releases it by hand when you push its release collar in, or (for hose couplers) a pair of plug-and-socket halves that snap together and come apart when you slide back a spring-loaded sleeve.
 

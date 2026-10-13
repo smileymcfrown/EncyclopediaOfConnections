@@ -146,10 +146,24 @@ sources:
 - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 - https://res.cloudinary.com/dzhpkjoqj/Nibco/PP-R-Pro-IOM-Manual.pdf
 research: research/connection-types/results/Solvent_welding_solvent_cement.json
-image: null
+image:
+  file: solvent-welding.webp
+  width: 800
+  height: 600
+  title: File:Water Ram Repair PVC Cement.jpg
+  author: Jshin722
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg
+  alt: Photo of clear PVC cement brushed over dried primer on a pipe and fitting just before they are pushed together
+  drawn: false
 glossary: [interference-fit, form-fit--force-fit--material-bond, heat-set-insert, chamfer--fillet, repeatability--accuracy,
   brittle--ductile, layer-lines, cure, primer, peel-vs-shear]
 ---
+
+![Photo of clear PVC cement brushed over dried primer on a pipe and fitting just before they are pushed together](../media/solvent-welding.webp)
+
+*Picture: [Water Ram Repair PVC Cement.jpg](https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg) by Jshin722, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A solvent is brushed onto, or run into, the joint between two parts made of a plastic it can dissolve; the surfaces soften and mingle, and as the solvent evaporates they harden into one continuous piece of plastic with no separate layer of glue.
 

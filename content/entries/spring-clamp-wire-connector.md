@@ -138,9 +138,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Fahnestock_clip.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Springclamp_wire_connector_lever_connector_pushin_wire_connector.json
-image: null
+image:
+  file: spring-clamp-wire-connector.webp
+  width: 800
+  height: 444
+  title: File:WAGO 221 mechanism.png
+  author: im_tau
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:WAGO_221_mechanism.png
+  alt: 'Diagram of the inside of a lever connector: lever, spring, copper busbar and test contact'
+  drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, creep, infill, overhang--bridging]
 ---
+
+![Diagram of the inside of a lever connector: lever, spring, copper busbar and test contact](../media/spring-clamp-wire-connector.webp)
+
+*Picture: [WAGO 221 mechanism.png](https://commons.wikimedia.org/wiki/File:WAGO_221_mechanism.png) by im_tau, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
 
 A spring-clamp wire connector joins wires, or lands them on a board or terminal block, with a pre-loaded spring instead of a screw: each stripped wire has its own spring clamp, opened by a lever or button or simply pushed past by a stiff wire, which presses it onto a tinned copper bar with the same force every time, so the joint needs no tool, never needs tightening and can be undone and reused.
 

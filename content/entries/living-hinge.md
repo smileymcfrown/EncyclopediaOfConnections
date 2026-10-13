@@ -127,10 +127,25 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 research: research/connection-types/results/Living_hinge.json
-image: null
+image:
+  file: living-hinge.webp
+  width: 736
+  height: 1020
+  title: File:Mint box polypropylene lid.JPG
+  author: en:User:Polyparadig
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG
+  alt: Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles
+    'Living hinge' and 'Flexure bearing'
+  drawn: false
 glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
   fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear]
 ---
+
+![Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles 'Living hinge' and 'Flexure bearing'](../media/living-hinge.webp)
+
+*Picture: [Mint box polypropylene lid.JPG](https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG) by en:User:Polyparadig, Public domain, from Wikimedia Commons.*
 
 A thinned strip of the same plastic that joins two stiff parts so they fold like a hinge, with no pin, no assembly and nothing to wear out or lose.
 

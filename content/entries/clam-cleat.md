@@ -128,9 +128,23 @@ sources:
 - https://en.wikipedia.org/wiki/Cleat_hitch
 - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 research: research/connection-types/results/Clam_cleat_grooved_Vcleat.json
-image: null
+image:
+  file: clam-cleat.webp
+  width: 800
+  height: 533
+  title: File:Kammklemme.jpg
+  author: Jeuwre
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Kammklemme.jpg
+  alt: A black nylon clam cleat on a sailing yacht with a green rope led into its groove
+  drawn: false
 glossary: [self-locking, form-fit--force-fit--material-bond, creep, infill]
 ---
+
+![A black nylon clam cleat on a sailing yacht with a green rope led into its groove](../media/clam-cleat.webp)
+
+*Picture: [Kammklemme.jpg](https://commons.wikimedia.org/wiki/File:Kammklemme.jpg) by Jeuwre, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.
 

@@ -131,10 +131,24 @@ sources:
 - https://www.youtube.com/watch?v=oRjFFgAZQnk
 - https://www.youtube.com/watch?v=UFrWfnwD3aU
 research: research/connection-types/results/Bellows_and_inflatable_actuators_air_bag_air_spring.json
-image: null
+image:
+  file: bellows-and-inflatable-actuators.webp
+  width: 441
+  height: 650
+  title: File:Axiální pneumatický měch.jpg
+  author: Jjvcela
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg
+  alt: Photo of an axial (convoluted) pneumatic bellows, the industrial air spring or air actuator
+  drawn: false
 glossary: [misalignment, stroke, actuator, solenoid, fail-safe--fail-secure, clearance, fatigue, brittle--ductile, lubrication,
   overhang--bridging, cure, o-ring, regulator]
 ---
+
+![Photo of an axial (convoluted) pneumatic bellows, the industrial air spring or air actuator](../media/bellows-and-inflatable-actuators.webp)
+
+*Picture: [Axiální pneumatický měch.jpg](https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg) by Jjvcela, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A flexible, airtight chamber (folded bellows, cushion or bag) between two end plates that pushes the plates apart when filled with air under pressure, or pulls them together under vacuum, giving a straight, single-acting push with no piston, rod or sliding seals (Firestone Airstroke design guide; Wikipedia 'Air suspension').
 

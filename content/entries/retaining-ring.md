@@ -136,10 +136,24 @@ sources:
 - https://api.printables.com/graphql/ (models 1209954 and 1096141)
 - https://www.youtube.com/oembed (titles of yeIKHEYoSfA and sv_xUyv75G4)
 research: research/connection-types/results/Retaining_ring_circlip_Eclip.json
-image: null
+image:
+  file: retaining-ring.webp
+  width: 800
+  height: 266
+  title: File:Sicherungsring auf Welle mit Wellennut.png
+  author: HobbyAstronaut
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png
+  alt: 'Simple drawing of a circlip on a shaft next to the shaft''s groove: what a retaining ring and its groove look like'
+  drawn: false
 glossary: [self-locking, axial--radial, thrust-load, preload, deflection, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, heat-set-insert, chamfer--fillet, creep, perimeters, infill, overhang--bridging, peel-vs-shear]
 ---
+
+![Simple drawing of a circlip on a shaft next to the shaft's groove: what a retaining ring and its groove look like](../media/retaining-ring.webp)
+
+*Picture: [Sicherungsring auf Welle mit Wellennut.png](https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png) by HobbyAstronaut, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A springy steel ring or clip that snaps into a groove on a shaft or inside a hole, so that the part left sticking out forms a removable shoulder that stops wheels, bearings, gears or pins sliding along or falling out.
 

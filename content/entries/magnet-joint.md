@@ -127,10 +127,25 @@ sources:
 - https://en.wikipedia.org/wiki/Programmable_magnet
 - 'https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)'
 research: research/connection-types/results/Magnet_joint_embedded_magnets_magnetic_catch.json
-image: null
+image:
+  file: magnet-joint.webp
+  width: 800
+  height: 600
+  title: File:Magnetic Catch parts.jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_Catch_parts.jpg
+  alt: 'Photo of a cabinet-style magnetic catch taken apart, from a VAX 11/730 computer cabinet: a plastic housing, what appears
+    to be a flat magnet with two steel plates, and the steel strike bracket'
+  drawn: false
 glossary: [misalignment, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, holding-force, captive-nut,
   keying, kinematic-coupling, creep, brittle--ductile, peel-vs-shear]
 ---
+
+![Photo of a cabinet-style magnetic catch taken apart, from a VAX 11/730 computer cabinet: a plastic housing, what appears to be a flat magnet with two steel plates, and the steel strike bracket](../media/magnet-joint.webp)
+
+*Picture: [Magnetic Catch parts.jpg](https://commons.wikimedia.org/wiki/File:Magnetic_Catch_parts.jpg) by tony_duell, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
 
 Pairs of permanent magnets, or a magnet and a piece of steel, set into the faces of two parts so the parts pull together, roughly line themselves up and stay shut, yet can be pulled apart by hand.
 

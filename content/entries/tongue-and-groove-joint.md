@@ -141,10 +141,24 @@ sources:
 - https://www.youtube.com/watch?v=7NulJL7R4Ok
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tongueandgroove_joint_incl_slidinglid_grooves.json
-image: null
+image:
+  file: tongue-and-groove-joint.webp
+  width: 800
+  height: 330
+  title: File:Pióro i wpust (ubt).jpg
+  author: tsca
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg
+  alt: A tongue-and-groove joint with the tongue (B) and groove (A) labelled
+  drawn: false
 glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-fit--material-bond, spline, chamfer--fillet,
   creep, stress-concentration, elephants-foot, overhang--bridging, warping--shrinkage, peel-vs-shear]
 ---
+
+![A tongue-and-groove joint with the tongue (B) and groove (A) labelled](../media/tongue-and-groove-joint.webp)
+
+*Picture: [Pióro i wpust (ubt).jpg](https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg) by tsca, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A tongue on one edge fits a groove in the other, joining boards edge to edge into one flat surface that stays flush, or, with a groove on each side of a box, holding a lid that slides in and out.
 

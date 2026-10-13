@@ -125,10 +125,24 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Universal_joint_Hookes_joint_Cardan_joint.json
-image: null
+image:
+  file: universal-joint.webp
+  width: 280
+  height: 164
+  title: File:Universal joint.gif
+  author: Van helsing
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Universal_joint.gif
+  alt: 3D animation of a single universal joint turning, showing the forks and cross
+  drawn: false
 glossary: [misalignment, backlash, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw, spline,
   heat-set-insert, captive-nut, brittle--ductile, lubrication, layer-lines, perimeters, infill, print-in-place, peel-vs-shear]
 ---
+
+![3D animation of a single universal joint turning, showing the forks and cross](../media/universal-joint.webp)
+
+*Picture: [Universal joint.gif](https://commons.wikimedia.org/wiki/File:Universal_joint.gif) by Van helsing, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
 
 Two forks joined by a cross-shaped piece that pivots both ways, so turning one shaft turns another shaft set at an angle to it, even while that angle changes.
 

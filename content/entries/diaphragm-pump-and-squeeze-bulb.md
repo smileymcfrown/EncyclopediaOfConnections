@@ -160,9 +160,24 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Diaphragm_pumps
 - https://www.youtube.com/watch?v=5a-UdttYEVs
 research: research/connection-types/results/Diaphragm_pump_and_squeeze_bulb_membrane_pump_micro_air_pump.json
-image: null
+image:
+  file: diaphragm-pump-and-squeeze-bulb.webp
+  width: 800
+  height: 158
+  title: File:Membraanpomp.svg
+  author: Sjoerder
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Membraanpomp.svg
+  alt: 'Animation of a diaphragm (membrane) pump: the membrane moves, the inlet and outlet valves open and close in turn,
+    and bubbles show the flow'
+  drawn: false
 glossary: [reciprocating, stroke, torque, crank, actuator, infill, primer, peel-vs-shear, o-ring, check-valve, venturi]
 ---
+
+![Animation of a diaphragm (membrane) pump: the membrane moves, the inlet and outlet valves open and close in turn, and bubbles show the flow](../media/diaphragm-pump-and-squeeze-bulb.webp)
+
+*Picture: [Membraanpomp.svg](https://commons.wikimedia.org/wiki/File:Membraanpomp.svg) by Sjoerder, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A chamber with one flexible wall (a rubber diaphragm, a squeezable bulb or a folding bellows) or a sliding piston, fitted with an inlet and an outlet one-way valve: making the chamber bigger sucks fluid in through the inlet, making it smaller pushes it out through the outlet, so in-and-out movement becomes one-way flow of air or liquid.
 

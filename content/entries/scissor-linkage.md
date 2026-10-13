@@ -131,10 +131,24 @@ sources:
 - https://www.printables.com/model/931664-print-in-place-scissor-lift-no-support-needed
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Scissor_linkage_lazy_tongs_scissor_lift.json
-image: null
+image:
+  file: scissor-linkage.webp
+  width: 440
+  height: 440
+  title: File:Pantograph Mirror.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif
+  alt: Animation of an adjustable mirror on a scissor (pantograph) extension arm that stays facing the same way as it extends
+  drawn: false
 glossary: [self-locking, stroke, crank, linkage, actuator, clearance, form-fit--force-fit--material-bond, circlip, creep,
   infill, print-in-place, peel-vs-shear]
 ---
+
+![Animation of an adjustable mirror on a scissor (pantograph) extension arm that stays facing the same way as it extends](../media/scissor-linkage.webp)
+
+*Picture: [Pantograph Mirror.gif](https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
 
 Pairs of bars crossed in an X and pinned at their middles and ends form a chain that folds and unfolds as one piece, so a short push, pull or squeeze at one end becomes a much longer extension at the other, as in scissor lifts, car jacks, extending mirrors and grabber toys.
 

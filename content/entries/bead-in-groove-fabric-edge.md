@@ -136,9 +136,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bolt-rope.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Beadingroove_fabric_edge_keder_boltrope_screen_spline.json
-image: null
+image:
+  file: bead-in-groove-fabric-edge.webp
+  width: 800
+  height: 600
+  title: File:Kederschiene Wohnwagen.jpg
+  author: Presse03 at German Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg
+  alt: Photo of a keder rail on a caravan
+  drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, spline, heat-set-insert, peel-vs-shear]
 ---
+
+![Photo of a keder rail on a caravan](../media/bead-in-groove-fabric-edge.webp)
+
+*Picture: [Kederschiene Wohnwagen.jpg](https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg) by Presse03 at German Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or pressed in over the fabric as a separate cord (screen [spline](../glossary.md#spline)), sits in a groove whose mouth is narrower than the bead, so the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
 

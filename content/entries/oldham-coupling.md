@@ -126,11 +126,25 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Oldham_coupling.json
-image: null
+image:
+  file: oldham-coupling.webp
+  width: 160
+  height: 120
+  title: File:Oldham coupler animated small.gif
+  author: Van helsing
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif
+  alt: Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, crank, fail-safe--fail-secure, stiffness, damping,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, spline, repeatability--accuracy, creep, infill, elephants-foot,
   peel-vs-shear]
 ---
+
+![Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots](../media/oldham-coupling.webp)
+
+*Picture: [Oldham coupler animated small.gif](https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif) by Van helsing, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
 
 Two hubs, each with a slot (or tongue) across its face, are joined by a floating middle disc whose two tongues cross at right angles, so the disc slides to take up any sideways offset between two parallel shafts while passing turning force at exactly the same speed.
 

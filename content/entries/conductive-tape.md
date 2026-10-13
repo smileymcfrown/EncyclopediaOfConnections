@@ -156,9 +156,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Corroded_copper_tape.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_tape_copper_foil_tape_conductive_fabric_tape.json
-image: null
+image:
+  file: conductive-tape.webp
+  width: 800
+  height: 450
+  title: File:5mm copper tape.jpg
+  author: Mosborne01
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:5mm_copper_tape.jpg
+  alt: A roll of adhesive-backed copper tape for making paper electronics
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, peel-vs-shear]
 ---
+
+![A roll of adhesive-backed copper tape for making paper electronics](../media/conductive-tape.webp)
+
+*Picture: [5mm copper tape.jpg](https://commons.wikimedia.org/wiki/File:5mm_copper_tape.jpg) by Mosborne01, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Conductive tape is a thin copper foil or metal-plated fabric with a peel-off sticky back, laid down as flat 'wires' on paper, card, fabric or a 3D print so that LEDs, batteries and other small parts can be taped, soldered, glued or sewn onto it; the same copper tape is used to line boxes and guitar cavities as an electrical shield.
 

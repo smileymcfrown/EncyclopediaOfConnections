@@ -156,10 +156,24 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Basic_latches_spring_latch_slide_bolt_hook_and_eye.json
-image: null
+image:
+  file: basic-latches.webp
+  width: 468
+  height: 560
+  title: File:Öffnen eines Riegels.gif
+  author: Joho345
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif
+  alt: Animation of opening a captured draw-bolt (slide bolt) latch
+  drawn: false
 glossary: [misalignment, axial--radial, over-centre, solenoid, flexure, clearance, form-fit--force-fit--material-bond, chamfer--fillet,
   creep, brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
+
+![Animation of opening a captured draw-bolt (slide bolt) latch](../media/basic-latches.webp)
+
+*Picture: [Öffnen eines Riegels.gif](https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif) by Joho345, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A latch holds a door, gate or lid shut by pushing a bolt or hook on one part into a catch on the other, and lets it open again as soon as a person pulls the bolt back or lifts the hook.
 

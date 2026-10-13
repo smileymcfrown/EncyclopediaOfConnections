@@ -132,10 +132,24 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200
 research: research/connection-types/results/Twopart_epoxy.json
-image: null
+image:
+  file: two-part-epoxy.webp
+  width: 800
+  height: 248
+  title: File:FiveMinEpoxy.jpg
+  author: Taktoa
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg
+  alt: Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments
+  drawn: false
 glossary: [deflection, form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
+
+![Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments](../media/two-part-epoxy.webp)
+
+*Picture: [FiveMinEpoxy.jpg](https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg) by Taktoa, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two-part epoxy is a resin and a hardener that you mix in a set ratio; the mix reacts into a hard, tough plastic that bonds metal, wood, glass, composites and many plastics, fills gaps, and comes in fast (minutes) and slow (hours) types.
 

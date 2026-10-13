@@ -127,10 +127,25 @@ sources:
 - https://help.prusa3d.com/article/asa_1809
 - https://en.wikipedia.org/wiki/Maillon
 research: research/connection-types/results/Springgate_hook_carabiner_snap_hook_lobster_clasp.json
-image: null
+image:
+  file: spring-gate-hook.webp
+  width: 800
+  height: 832
+  title: File:Assorted Biners.jpg
+  author: Zakabog
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg
+  alt: 'Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength
+    rating marking in the centre'
+  drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, fatigue, brittle--ductile, layer-lines, perimeters,
   infill, print-in-place]
 ---
+
+![Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength rating marking in the centre](../media/spring-gate-hook.webp)
+
+*Picture: [Assorted Biners.jpg](https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg) by Zakabog, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A closed loop or hook with a spring-loaded gate that swings or slides open to let a rope, ring or strap in and then springs shut to trap it, joining the two in a second without tools; a screw or twist collar can lock the gate.
 

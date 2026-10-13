@@ -116,9 +116,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 research: research/connection-types/results/Cable_through_a_hinge_hollow_hinge_pin_cable_on_the_pivot_axis_service_loop.json
-image: null
+image:
+  file: cable-through-a-hinge.webp
+  width: 800
+  height: 600
+  title: File:EPAS power steering column.jpg
+  author: Samf4u
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:EPAS_power_steering_column.jpg
+  alt: A car steering column; Wikipedia's 'Clockspring' article captions the small black drum with yellow wires at the front
+    end as the clockspring
+  drawn: false
 glossary: [torque, actuator, torsion, form-fit--force-fit--material-bond, chamfer--fillet, fatigue, print-in-place, gland]
 ---
+
+![A car steering column; Wikipedia's 'Clockspring' article captions the small black drum with yellow wires at the front end as the clockspring](../media/cable-through-a-hinge.webp)
+
+*Picture: [EPAS power steering column.jpg](https://commons.wikimedia.org/wiki/File:EPAS_power_steering_column.jpg) by Samf4u, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A planned route for wires, flat cables or tubes across a hinge or a joint that turns less than a full turn (or a few turns), either through a hollow pin or shaft on the turning axis so the cable only twists, or as a loose loop or wound flat cable that rolls instead of kinking, with clamps on each side so the flexing happens only where it is designed to.
 

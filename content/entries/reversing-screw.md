@@ -129,10 +129,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.thingiverse.com/thing:3510009
 research: research/connection-types/results/Reversing_screw_diamondthread_or_levelwind_screw.json
-image: null
+image:
+  file: reversing-screw.webp
+  width: 683
+  height: 511
+  title: File:Seilwinde-Kreuzgewindespindel.jpg
+  author: Alfons Kifmann
+  license: CC BY-SA 3.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Seilwinde-Kreuzgewindespindel.jpg
+  alt: Photo of a winch drum with a screw level winder (a crossed-thread spindle guiding the rope)
+  drawn: false
 glossary: [misalignment, stroke, pawl, gear-ratio, pitch, cam-and-follower, crank, clearance, form-fit--force-fit--material-bond,
   repeatability--accuracy, lubrication, infill, overhang--bridging]
 ---
+
+![Photo of a winch drum with a screw level winder (a crossed-thread spindle guiding the rope)](../media/reversing-screw.webp)
+
+*Picture: [Seilwinde-Kreuzgewindespindel.jpg](https://commons.wikimedia.org/wiki/File:Seilwinde-Kreuzgewindespindel.jpg) by Alfons Kifmann, [CC BY-SA 3.0 de](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en), from Wikimedia Commons.*
 
 A shaft with a right-hand and a left-hand spiral groove crossing each other and joined at the ends, so a swivelling follower in the groove runs back and forth along the shaft while the shaft keeps turning one way, which is how fishing reels and winders lay line evenly across a spool.
 

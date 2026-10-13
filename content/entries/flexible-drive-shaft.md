@@ -120,10 +120,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Flexible_drive_shaft_rotating_cable.json
-image: null
+image:
+  file: flexible-drive-shaft.webp
+  width: 800
+  height: 532
+  title: File:2008-05-06 1990 Geo Storm GSi speedometer cable.jpg
+  author: Ildar Sagdejev (Specious)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg
+  alt: Photo of a car speedometer cable in its casing
+  drawn: false
 glossary: [misalignment, backlash, torque, crank, stiffness, deflection, torsion, tolerance, form-fit--force-fit--material-bond,
   collet]
 ---
+
+![Photo of a car speedometer cable in its casing](../media/flexible-drive-shaft.webp)
+
+*Picture: [2008-05-06 1990 Geo Storm GSi speedometer cable.jpg](https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg) by Ildar Sagdejev (Specious), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A rotating core of wire wound in layers, usually running inside a non-turning sleeve (casing), that carries turning motion or power round bends and between parts that aren't lined up or that move.
 

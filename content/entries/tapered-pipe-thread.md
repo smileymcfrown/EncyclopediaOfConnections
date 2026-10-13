@@ -139,10 +139,24 @@ sources:
 - https://www.youtube.com/watch?v=S6-akMHP5Rc
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tapered_pipe_thread_NPT_BSPT_PTFE_tape_pipe_dope.json
-image: null
+image:
+  file: tapered-pipe-thread.webp
+  width: 454
+  height: 360
+  title: File:Teflon tape wound around threaded pipe.jpg
+  author: Tomwsulcer
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg
+  alt: PTFE tape wound three times round a threaded pipe under a bathroom sink, ready for a hose connection
+  drawn: false
 glossary: [torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, taper, boss, threadlocker,
   galling--fretting, lubrication, perimeters, infill, cure, peel-vs-shear, o-ring]
 ---
+
+![PTFE tape wound three times round a threaded pipe under a bathroom sink, ready for a hose connection](../media/tapered-pipe-thread.webp)
+
+*Picture: [Teflon tape wound around threaded pipe.jpg](https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg) by Tomwsulcer, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A tapered pipe thread is a screw thread whose diameter grows along its length, so tightening a male pipe end into a female fitting wedges the threads together, and a sealant such as PTFE tape, pipe dope or anaerobic sealant fills the small spiral gap that is left so the joint holds pressure.
 

@@ -124,9 +124,23 @@ sources:
 - https://www.youtube.com/watch?v=uYQcxv_KuMQ
 - https://www.youtube.com/watch?v=65KoSqo3F_0
 research: research/connection-types/results/Constantforce_spring_springreturn_reel.json
-image: null
+image:
+  file: constant-force-spring.webp
+  width: 800
+  height: 800
+  title: File:Constant force spring.svg
+  author: Cmglee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Constant_force_spring.svg
+  alt: Graphs of load against extension for constant-force springs compared with ideal (Hooke's law) springs
+  drawn: false
 glossary: [stroke, torque, idler, linkage, deflection, damping, clearance, tolerance, creep, stress-relaxation, fatigue]
 ---
+
+![Graphs of load against extension for constant-force springs compared with ideal (Hooke's law) springs](../media/constant-force-spring.webp)
+
+*Picture: [Constant force spring.svg](https://commons.wikimedia.org/wiki/File:Constant_force_spring.svg) by Cmglee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A coil of pre-curled steel strip that, once pulled out a short way, pulls back with an almost constant force over a very long distance, used to counterbalance, retract and keep things under steady tension.
 

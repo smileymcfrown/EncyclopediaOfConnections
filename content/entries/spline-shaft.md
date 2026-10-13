@@ -156,11 +156,26 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/1.pdf
 - https://en.wikipedia.org/wiki/Bendix_drive
 research: research/connection-types/results/Spline_shaft_sliding_spline.json
-image: null
+image:
+  file: spline-shaft.webp
+  width: 395
+  height: 255
+  title: File:Cardan-joint spline-shaft 3D animated.gif
+  author: Silberwolf (talk)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif
+  alt: Animated 3D view of a drive (cardan) shaft with a universal joint at each end and an exposed splined section in the
+    middle where the shaft can change length
+  drawn: false
 glossary: [misalignment, backlash, torque, pitch, linkage, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, chamfer--fillet, repeatability--accuracy, creep, fatigue, brittle--ductile, stress-concentration,
   galling--fretting, lubrication, layer-lines, perimeters]
 ---
+
+![Animated 3D view of a drive (cardan) shaft with a universal joint at each end and an exposed splined section in the middle where the shaft can change length](../media/spline-shaft.webp)
+
+*Picture: [Cardan-joint spline-shaft 3D animated.gif](https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif) by Silberwolf (talk), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A shaft with lengthwise ridges or flat sides that fits a hub with a matching hole, so turning force passes between them while the hub stays free to slide along the shaft.
 

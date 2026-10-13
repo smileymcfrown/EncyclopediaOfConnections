@@ -134,10 +134,25 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Gearless_rightangle_drive_Hobsons_joint_elbow_mechanism.json
-image: null
+image:
+  file: gearless-right-angle-drive.webp
+  width: 450
+  height: 600
+  title: File:ElbowEngine.gif
+  author: WT79
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:ElbowEngine.gif
+  alt: 'Animation of Hobson''s joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles;
+    used as the lead image of Wikipedia''s ''Hobson''s joint'' article'
+  drawn: false
 glossary: [misalignment, axial--radial, ratchet, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   fatigue, lubrication, print-in-place, elephants-foot]
 ---
+
+![Animation of Hobson's joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles; used as the lead image of Wikipedia's 'Hobson's joint' article](../media/gearless-right-angle-drive.webp)
+
+*Picture: [ElbowEngine.gif](https://commons.wikimedia.org/wiki/File:ElbowEngine.gif) by WT79, Public domain, from Wikimedia Commons.*
 
 A gearless coupling that carries rotation round a fixed corner, usually 90 degrees, at exactly the same speed: three or more rods, each bent to the corner angle, slide and turn in matching rings of holes in two hubs, which forces the hubs to turn together.
 

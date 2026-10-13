@@ -118,9 +118,24 @@ sources:
 - https://www.youtube.com/watch?v=P1iMcCI70R0
 - https://www.youtube.com/watch?v=sMMJCkvOEXY
 research: research/connection-types/results/Clinching_press_joining_without_rivets.json
-image: null
+image:
+  file: clinching.webp
+  width: 800
+  height: 502
+  title: File:TOX Pressotechnik Clinching.gif
+  author: CRT4TopSpot
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif
+  alt: 'Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads
+    into a button'
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear]
 ---
+
+![Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads into a button](../media/clinching.webp)
+
+*Picture: [TOX Pressotechnik Clinching.gif](https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif) by CRT4TopSpot, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A way of permanently joining overlapping metal sheets by pressing them with a punch into a shaped die, so the metal flows sideways into a button-shaped interlock that holds the sheets together without any extra part.
 

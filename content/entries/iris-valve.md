@@ -146,10 +146,24 @@ sources:
 - https://www.youtube.com/watch?v=RHklazqg3bs
 - https://www.youtube.com/watch?v=pJVdq6K-zro
 research: research/connection-types/results/Iris_valve_twistedsleeve_valve.json
-image: null
+image:
+  file: iris-valve.webp
+  width: 756
+  height: 756
+  title: File:Manschette Quetschventil.jpg
+  author: Hess BSH
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Manschette_Quetschventil.jpg
+  alt: Photo of a replaceable fabric-reinforced rubber sleeve for a pinch valve
+  drawn: false
 glossary: [misalignment, torque, actuator, solenoid, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters,
   infill, gland, regulator]
 ---
+
+![Photo of a replaceable fabric-reinforced rubber sleeve for a pinch valve](../media/iris-valve.webp)
+
+*Picture: [Manschette Quetschventil.jpg](https://commons.wikimedia.org/wiki/File:Manschette_Quetschventil.jpg) by Hess BSH, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A fabric or rubber sleeve is clamped at each end to a ring, and turning one ring by about half a turn twists the sleeve shut towards the centre, so it can meter or stop powder, grain or pellets pouring from a hopper or bag; a pinch valve does a similar job by squeezing a soft tube flat from outside.
 

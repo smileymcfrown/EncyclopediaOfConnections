@@ -127,10 +127,25 @@ sources:
 - https://www.youtube.com/watch?v=A3iBtWrVTrI
 - https://www.youtube.com/watch?v=zuleKwhwCn8
 research: research/connection-types/results/Telescoping_tube_lever_lock_flip_lock.json
-image: null
+image:
+  file: telescoping-tube-lever-lock.webp
+  width: 800
+  height: 600
+  title: File:Saddle quick release clamp.JPG
+  author: Armchair
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG
+  alt: 'Close-up photo of a bicycle seatpost quick-release clamp: the split collar, cam lever and adjusting nut around a sliding
+    tube, the same principle as a flip lock (''Closing the lever toward the post tightens it'')'
+  drawn: false
 glossary: [self-locking, over-centre, ratchet, linkage, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---
+
+![Close-up photo of a bicycle seatpost quick-release clamp: the split collar, cam lever and adjusting nut around a sliding tube, the same principle as a flip lock ('Closing the lever toward the post tig](../media/telescoping-tube-lever-lock.webp)
+
+*Picture: [Saddle quick release clamp.JPG](https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG) by Armchair, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A split clamp ring on the end of the outer tube with a lever that snaps shut over centre, squeezing the outer tube onto the inner one so the length is held at any position until you flip the lever open.
 

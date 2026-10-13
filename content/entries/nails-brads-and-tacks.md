@@ -144,10 +144,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Corner_nail_row_tilted.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Nails_brads_and_tacks_ringshank_nail.json
-image: null
+image:
+  file: nails-brads-and-tacks.webp
+  width: 800
+  height: 528
+  title: File:Spijkers (Nails).jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg
+  alt: Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia
+    'Nail (fastener)'
+  drawn: false
 glossary: [axial--radial, stiffness, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, brittle--ductile,
   infill, overhang--bridging, end-grain, peel-vs-shear]
 ---
+
+![Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia 'Nail (fastener)'](../media/nails-brads-and-tacks.webp)
+
+*Picture: [Spijkers (Nails).jpg](https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg) by Rasbak, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A pointed steel pin hammered or fired into wood, where the squashed wood fibres grip its shank by friction, used to fix wood to wood (and thin board, felt, fabric or leather to wood) quickly and cheaply; it carries sideways ([shear](../glossary.md#peel-vs-shear)) loads well but pulls out more easily than a screw unless it has rings or a twist, is driven at an angle, or is bent over (clinched).
 

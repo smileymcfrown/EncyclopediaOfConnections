@@ -131,9 +131,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shackle_and_quick_link_Dshackle_bow_shackle_maillon.json
-image: null
+image:
+  file: shackle-and-quick-link.webp
+  width: 800
+  height: 1120
+  title: File:Mannheim Germany Shackles-in-a-workshop-01.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg
+  alt: Different types and sizes of shackles hanging in a workshop, with inspection-date cable ties
+  drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert]
 ---
+
+![Different types and sizes of shackles hanging in a workshop, with inspection-date cable ties](../media/shackle-and-quick-link.webp)
+
+*Picture: [Mannheim Germany Shackles-in-a-workshop-01.jpg](https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg) by CEphoto, Uwe Aranas, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A closed metal link (a U-shaped shackle shut by a screw pin or bolt, or an oval quick link shut by a threaded sleeve) that joins rope eyes, chain, slings, straps and anchor points; because it closes completely it can't shake off like a hook, and a rated, marked one carries very heavy in-line loads.
 

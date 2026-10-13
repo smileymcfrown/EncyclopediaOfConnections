@@ -124,10 +124,25 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rigid_chain_actuator_zip_chain_push_chain.json
-image: null
+image:
+  file: rigid-chain-actuator.webp
+  width: 616
+  height: 452
+  title: File:Rigid Chain Actuator.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif
+  alt: Animation (40 frames) of a rigid chain actuator based on Serapid's LinkLift lifting column, showing the chain's links
+    forming a column as they are driven out
+  drawn: false
 glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
   overhang--bridging]
 ---
+
+![Animation (40 frames) of a rigid chain actuator based on Serapid's LinkLift lifting column, showing the chain's links forming a column as they are driven out](../media/rigid-chain-actuator.webp)
+
+*Picture: [Rigid Chain Actuator.gif](https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
 
 A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.
 

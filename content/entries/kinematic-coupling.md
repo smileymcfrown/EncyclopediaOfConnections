@@ -140,11 +140,25 @@ sources:
 - https://www.youtube.com/watch?v=cfSHss5j5KU (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 1493826, 302854 and 1057179 read via the public API)
 research: research/connection-types/results/Kinematic_coupling_balls_in_Vgrooves.json
-image: null
+image:
+  file: kinematic-coupling.webp
+  width: 800
+  height: 643
+  title: File:Maxwell kinematic coupling.png
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png
+  alt: 'Three red spherical surfaces resting in three green V-grooves: the Maxwell three-groove coupling'
+  drawn: false
 glossary: [degrees-of-freedom, backlash, stiffness, preload, deflection, clearance, set-screw, taper, heat-set-insert, keying,
   kinematic-coupling, exact-constraint, over-constraint, elastic-averaging, repeatability--accuracy, creep, galling--fretting,
   infill]
 ---
+
+![Three red spherical surfaces resting in three green V-grooves: the Maxwell three-groove coupling](../media/kinematic-coupling.webp)
+
+*Picture: [Maxwell kinematic coupling.png](https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png) by MichaelFrey, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A locating joint that touches at exactly six points, two for each of three balls sitting in three V-grooves (or three, two and one points for a Kelvin coupling), which pins down all six ways a part can move so it always drops back into the same position, while a light hold-down such as gravity, magnets or springs keeps it seated.
 

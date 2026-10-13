@@ -137,10 +137,25 @@ sources:
 - https://www.printables.com/model/42412-mini-3d-printed-magnetic-gear
 - https://www.printables.com/model/276863-31-magnetic-gearbox
 research: research/connection-types/results/Magnetic_coupling_and_magnetic_gear.json
-image: null
+image:
+  file: magnetic-coupling-and-magnetic-gear.webp
+  width: 537
+  height: 503
+  title: File:Magnetgetriebe.png
+  author: Petitebiscotte
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
+  alt: 'Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole
+    pieces between them'
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fail-secure, hysteresis, tolerance, set-screw,
   creep, brittle--ductile, infill, print-in-place, peel-vs-shear]
 ---
+
+![Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole pieces between them](../media/magnetic-coupling-and-magnetic-gear.webp)
+
+*Picture: [Magnetgetriebe.png](https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png) by Petitebiscotte, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Rings or discs of permanent magnets on a driving part and a driven part lock together magnetically across an air gap or a thin non-magnetic wall, so turning force passes without contact (at 1:1 in a coupling, or with a speed change in a magnetic gear) and the parts slip harmlessly past each other if the load gets too high.
 

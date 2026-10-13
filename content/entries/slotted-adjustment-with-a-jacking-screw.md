@@ -128,10 +128,26 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Horizontal_rear_dropout.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Slotted_adjustment_with_a_jacking_screw_slotted_mount_sliding_motor_plate.json
-image: null
+image:
+  file: slotted-adjustment-with-a-jacking-screw.webp
+  width: 800
+  height: 493
+  title: File:Tendeur courroie alternateur automobile.jpg
+  author: CZmarlin — Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is
+    used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Tendeur_courroie_alternateur_automobile.jpg
+  alt: 'Car alternator belt tensioners: the alternator swings on a hinge and its position is set by a bolt sliding in an oblong
+    slot'
+  drawn: false
 glossary: [misalignment, self-locking, pitch, idler, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert,
   captive-nut, creep, perimeters, infill]
 ---
+
+![Car alternator belt tensioners: the alternator swings on a hinge and its position is set by a bolt sliding in an oblong slot](../media/slotted-adjustment-with-a-jacking-screw.webp)
+
+*Picture: [Tendeur courroie alternateur automobile.jpg](https://commons.wikimedia.org/wiki/File:Tendeur_courroie_alternateur_automobile.jpg) by CZmarlin — Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used any, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A part is fixed with screws through slots instead of round holes, so it can be slid to set a belt or chain tension or line it up, usually pushed by a separate adjusting (jacking) screw, and is then locked by tightening the screws.
 

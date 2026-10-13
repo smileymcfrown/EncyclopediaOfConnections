@@ -129,10 +129,24 @@ sources:
 - https://en.wikipedia.org/wiki/Clamp_stand
 - https://en.wikipedia.org/wiki/External_fixation
 research: research/connection-types/results/Clampon_tube_fittings_slipon_structural_fittings.json
-image: null
+image:
+  file: clamp-on-tube-fittings.webp
+  width: 375
+  height: 500
+  title: File:Basic kee klamp.jpg
+  author: User Cwpollock on en.wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg
+  alt: Photo of a basic slip-on Kee Klamp fitting with its set screw (used as the lead image of Wikipedia's 'Kee Klamp' article)
+  drawn: false
 glossary: [self-locking, axial--radial, ratchet, torque, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   collet, heat-set-insert, captive-nut, boss, creep, infill]
 ---
+
+![Photo of a basic slip-on Kee Klamp fitting with its set screw (used as the lead image of Wikipedia's 'Kee Klamp' article)](../media/clamp-on-tube-fittings.webp)
+
+*Picture: [Basic kee klamp.jpg](https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg) by User Cwpollock on en.wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Cast metal fittings with round sockets that slip over plain tube and are locked on by a [set screw](../glossary.md#set-screw) pressing on the tube, so tees, elbows, crosses and flanges can join cut lengths of pipe into strong frames and railings that can be adjusted or taken apart.
 

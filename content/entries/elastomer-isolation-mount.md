@@ -125,10 +125,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Home-Built_Vibration_Isolation_Platform_using_Squash_Balls.jpg
 - https://commons.wikimedia.org/wiki/File:Propeller_rubber_bush_failed.jpg
 research: research/connection-types/results/Elastomer_isolation_mount_rubber_bobbin_mount_isolator_grommet.json
-image: null
+image:
+  file: elastomer-isolation-mount.webp
+  width: 800
+  height: 600
+  title: File:Silent PC-silicone grommets.JPG
+  author: DonES
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Silent_PC-silicone_grommets.JPG
+  alt: Silicone grommets isolating a hard drive from a PC case (Antec P180)
+  drawn: false
 glossary: [misalignment, fail-safe--fail-secure, stiffness, damping, form-fit--force-fit--material-bond, creep, perimeters,
   infill, peel-vs-shear, gland]
 ---
+
+![Silicone grommets isolating a hard drive from a PC case (Antec P180)](../media/elastomer-isolation-mount.webp)
+
+*Picture: [Silent PC-silicone grommets.JPG](https://commons.wikimedia.org/wiki/File:Silent_PC-silicone_grommets.JPG) by DonES, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 An elastomer isolation mount holds a part to its frame through a piece of rubber or similar springy, lossy material, so vibration and shock from the part (or from the frame) are soaked up instead of being passed straight through as noise and shaking.
 

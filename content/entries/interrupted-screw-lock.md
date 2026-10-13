@@ -124,10 +124,24 @@ sources:
 - https://www.printables.com/model/838562-spooler-hub-with-a-quick-thread-design (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Interruptedscrew_lock_interrupted_thread_breech_lock.json
-image: null
+image:
+  file: interrupted-screw-lock.webp
+  width: 800
+  height: 906
+  title: File:Figure414 Interrupted-screw breech block.png
+  author: HEADQUARTERS, DEPARTMENT OF THE ARMY
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Figure414_Interrupted-screw_breech_block.png
+  alt: Technical drawing of an interrupted-screw breech block with its threaded and plain sectors
+  drawn: false
 glossary: [misalignment, detent, preload, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, stress-concentration,
   galling--fretting, print-in-place, o-ring]
 ---
+
+![Technical drawing of an interrupted-screw breech block with its threaded and plain sectors](../media/interrupted-screw-lock.webp)
+
+*Picture: [Figure414 Interrupted-screw breech block.png](https://commons.wikimedia.org/wiki/File:Figure414_Interrupted-screw_breech_block.png) by HEADQUARTERS, DEPARTMENT OF THE ARMY, Public domain, from Wikimedia Commons.*
 
 A screw thread with alternate sections removed from both the plug and the hole, so the plug pushes straight in past the gaps and a fraction of a turn (1/4 down to 1/16) engages the remaining thread sections and locks it.
 

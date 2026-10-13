@@ -140,10 +140,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Schlauchpumpe_Funktionsprinzip.gif
 - https://www.youtube.com/watch?v=zWozq_wuAx4
 research: research/connection-types/results/Peristaltic_pump_tube_pump_roller_pump.json
-image: null
+image:
+  file: peristaltic-pump.webp
+  width: 300
+  height: 211
+  title: File:Peristaltic pump.gif
+  author: Njmcca
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif
+  alt: Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia's 'Peristaltic pump' page)
+  drawn: false
 glossary: [self-locking, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond, creep, fatigue, infill,
   print-in-place, overhang--bridging, check-valve]
 ---
+
+![Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia's 'Peristaltic pump' page)](../media/peristaltic-pump.webp)
+
+*Picture: [Peristaltic pump.gif](https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif) by Njmcca, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A rotor carrying two or more rollers squeezes a flexible tube against a curved track as it turns, so each squeezed point pushes a trapped pocket of liquid along the tube, giving a valve-free, self-priming pump in which only the tube touches the liquid and the amount pumped is set by how far the rotor turns (Wikipedia 'Peristaltic pump').
 

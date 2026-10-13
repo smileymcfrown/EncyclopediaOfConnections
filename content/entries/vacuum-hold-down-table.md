@@ -137,9 +137,23 @@ sources:
 - https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig
 - https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement
 research: research/connection-types/results/Vacuum_holddown_table_vacuum_table.json
-image: null
+image:
+  file: vacuum-hold-down-table.webp
+  width: 640
+  height: 853
+  title: File:Vacuümtafel.jpg
+  author: Paul Hermans at Dutch Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Vacu%C3%BCmtafel.jpg
+  alt: Photo of a vacuum table (the image used on the Wikipedia 'Vacuum table' article)
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, check-valve, venturi]
 ---
+
+![Photo of a vacuum table (the image used on the Wikipedia 'Vacuum table' article)](../media/vacuum-hold-down-table.webp)
+
+*Picture: [Vacuümtafel.jpg](https://commons.wikimedia.org/wiki/File:Vacu%C3%BCmtafel.jpg) by Paul Hermans at Dutch Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A perforated or grooved plate over a sealed chamber that a vacuum source keeps below room pressure, so the air above presses any flat sheet laid on it down onto the plate and friction stops it sliding while it is milled, laser-cut, drilled or printed on.
 

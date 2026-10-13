@@ -142,11 +142,25 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=97t7Xj_iBv0
 research: research/connection-types/results/Bistable_compliant_mechanism_snapthrough_switch_or_hinge.json
-image: null
+image:
+  file: bistable-compliant-mechanism.webp
+  width: 800
+  height: 606
+  title: File:Bistable compliant switch mechanism.png
+  author: BYU CMR
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png
+  alt: Image of BYU's one-piece bistable compliant switch, used on the Wikipedia article Compliant mechanism
+  drawn: false
 glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linkage, actuator, flexure, compliant-mechanism,
   living-hinge, cantilever, damping, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue, brittle--ductile,
   stress-concentration]
 ---
+
+![Image of BYU's one-piece bistable compliant switch, used on the Wikipedia article Compliant mechanism](../media/bistable-compliant-mechanism.webp)
+
+*Picture: [Bistable compliant switch mechanism.png](https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png) by BYU CMR, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A part that bends instead of using hinges and has two resting shapes, so pushing it past a tipping point makes it snap quickly into the other shape and stay there with no latch, spring or power holding it.
 

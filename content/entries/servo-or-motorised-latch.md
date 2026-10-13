@@ -132,10 +132,25 @@ sources:
   not opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Servo_or_motorised_latch.json
-image: null
+image:
+  file: servo-or-motorised-latch.webp
+  width: 800
+  height: 533
+  title: File:Exploded Servo.jpg
+  author: oomlout
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Exploded_Servo.jpg
+  alt: A hobby servo taken apart, showing the motor, gear train, potentiometer and circuit board that let it turn to a set
+    angle
+  drawn: false
 glossary: [misalignment, back-driving, self-locking, stroke, dead-point, over-centre, torque, linkage, actuator, solenoid,
   fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, peel-vs-shear]
 ---
+
+![A hobby servo taken apart, showing the motor, gear train, potentiometer and circuit board that let it turn to a set angle](../media/servo-or-motorised-latch.webp)
+
+*Picture: [Exploded Servo.jpg](https://commons.wikimedia.org/wiki/File:Exploded_Servo.jpg) by oomlout, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), from Wikimedia Commons.*
 
 A small electric motor, usually a hobby servo, turns a cam, arm or hook that pushes a bolt into a catch (keeper) or pulls it out, so a microcontroller can lock or unlock something, and because the load pushes across the bolt rather than along it, the lock stays shut with no power.
 

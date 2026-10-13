@@ -130,10 +130,24 @@ sources:
 - https://www.thingiverse.com/thing:2805780
 - https://www.mcmaster.com/products/dovetail-slides/
 research: research/connection-types/results/Dovetail_slide_with_gib_strip_dovetail_ways.json
-image: null
+image:
+  file: dovetail-slide-with-gib-strip.webp
+  width: 800
+  height: 600
+  title: File:Schwalbenschwanz2.jpg
+  author: Kolossos
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Schwalbenschwanz2.jpg
+  alt: Photo of a machine-tool dovetail slide (Schwalbenschwanzfuehrung) in the Saxon Industrial Museum, Chemnitz
+  drawn: false
 glossary: [misalignment, stiffness, flexure, stick-slip, clearance, form-fit--force-fit--material-bond, set-screw, taper,
   chamfer--fillet, repeatability--accuracy, creep, perimeters, infill, overhang--bridging]
 ---
+
+![Photo of a machine-tool dovetail slide (Schwalbenschwanzfuehrung) in the Saxon Industrial Museum, Chemnitz](../media/dovetail-slide-with-gib-strip.webp)
+
+*Picture: [Schwalbenschwanz2.jpg](https://commons.wikimedia.org/wiki/File:Schwalbenschwanz2.jpg) by Kolossos, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A carriage with angled (dovetail) edges slides along a matching angled track that stops it lifting off or rocking, and a thin strip (the gib), pushed in by screws or slid along as a wedge, takes up the play so it slides snugly without wobble and can be re-tightened as it wears.
 

@@ -128,9 +128,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Heat_shrink_cable_repair_tubing_(HSRS-N).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Heatshrink_tubing_heatshrink_sleeve_adhesivelined_heatshrink.json
-image: null
+image:
+  file: heat-shrink-tubing.webp
+  width: 640
+  height: 480
+  title: File:Schrumpfschlauch animated modified.gif
+  author: User Smial on de.wikipedia
+  license: CC BY-SA 2.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif
+  alt: Animation of heat-shrink tubing shrinking round a wire as heat is applied
+  drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, warping--shrinkage, gland]
 ---
+
+![Animation of heat-shrink tubing shrinking round a wire as heat is applied](../media/heat-shrink-tubing.webp)
+
+*Picture: [Schrumpfschlauch animated modified.gif](https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif) by User Smial on de.wikipedia, [CC BY-SA 2.0 de](https://creativecommons.org/licenses/by-sa/2.0/de/deed.en), from Wikimedia Commons.*
 
 A tube of specially treated plastic is slid over a wire or joint and heated with a hot-air gun, so it shrinks to between a half and a sixth of its diameter and grips tightly, insulating the joint and protecting it from rubbing, while glue-lined versions also melt their inner glue to seal out water.
 

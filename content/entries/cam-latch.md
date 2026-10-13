@@ -115,10 +115,24 @@ sources:
 - https://www.youtube.com/watch?v=e1S9bHh9xog (title confirmed via YouTube oEmbed)
 - https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
 research: research/connection-types/results/Cam_latch_quarterturn_cam_lock.json
-image: null
+image:
+  file: cam-latch.webp
+  width: 800
+  height: 758
+  title: File:Electronic-cam-lock.jpg
+  author: Chole Wu
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
+  alt: Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)
+  drawn: false
 glossary: [misalignment, self-locking, over-centre, detent, pawl, torque, tolerance, form-fit--force-fit--material-bond, creep,
   brittle--ductile, layer-lines, infill, o-ring]
 ---
+
+![Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)](../media/cam-latch.webp)
+
+*Picture: [Electronic-cam-lock.jpg](https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg) by Chole Wu, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A latch fitted through a single hole in a door or lid, whose knob, key or tool turns a flat arm (the cam) a quarter turn so that it hooks behind the frame and holds the door closed.
 

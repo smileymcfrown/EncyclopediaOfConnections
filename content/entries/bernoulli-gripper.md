@@ -139,10 +139,24 @@ sources:
 - https://hackaday.com/2019/03/09/look-ma-no-glue-electrostatic-adhesion-as-if-by-magic/
 - https://en.wikipedia.org/wiki/Electroadhesion
 research: research/connection-types/results/Bernoulli_gripper_noncontact_air_gripper.json
-image: null
+image:
+  file: bernoulli-gripper.webp
+  width: 773
+  height: 415
+  title: File:Bernoulli Gripper.png
+  author: Larryisgood
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bernoulli_Gripper.png
+  alt: Diagram of air flowing out of a Bernoulli gripper and the lifting force it creates on a part
+  drawn: false
 glossary: [axial--radial, solenoid, form-fit--force-fit--material-bond, creep, brittle--ductile, peel-vs-shear, regulator,
   venturi]
 ---
+
+![Diagram of air flowing out of a Bernoulli gripper and the lifting force it creates on a part](../media/bernoulli-gripper.webp)
+
+*Picture: [Bernoulli Gripper.png](https://commons.wikimedia.org/wiki/File:Bernoulli_Gripper.png) by Larryisgood, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A Bernoulli gripper blows a fast, thin sheet of air outwards between its face and a flat part, which lowers the air pressure in the gap so the still air underneath pushes the part up and holds it on an air cushion, letting robots lift fragile wafers, glass, film or fabric almost without touching them.
 

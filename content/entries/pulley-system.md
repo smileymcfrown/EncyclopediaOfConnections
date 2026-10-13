@@ -148,10 +148,24 @@ sources:
 - https://www.practical-sailor.com/sails-rigging-deckgear/low-friction-rings/
 - https://api.printables.com/graphql/ (model 1772939, read 2026-10-06)
 research: research/connection-types/results/Pulley_system_block_and_tackle_differential_hoist.json
-image: null
+image:
+  file: pulley-system.webp
+  width: 800
+  height: 534
+  title: File:Tackles.png
+  author: Welkinridge
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Tackles.png
+  alt: Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)
+  drawn: false
 glossary: [self-locking, ratchet, pawl, mechanical-advantage, pitch, form-fit--force-fit--material-bond, creep, fatigue, perimeters,
   infill]
 ---
+
+![Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)](../media/pulley-system.webp)
+
+*Picture: [Tackles.png](https://commons.wikimedia.org/wiki/File:Tackles.png) by Welkinridge, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two blocks of pulleys with one rope threaded back and forth between them, so the load hangs on several rope parts and a pull of only a fraction of its weight lifts it (at the cost of pulling that many times more rope); the differential chain hoist uses two joined chain wheels of slightly different size to get a very large gain and, because its friction is high, holds the load by itself.
 

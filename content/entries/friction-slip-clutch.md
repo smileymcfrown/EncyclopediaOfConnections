@@ -137,10 +137,24 @@ sources:
 - https://www.youtube.com/watch?v=kHT3rltCInU
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_slip_clutch_slip_coupling_slipper_clutch.json
-image: null
+image:
+  file: friction-slip-clutch.webp
+  width: 800
+  height: 600
+  title: File:Slipping Clutch parts.jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Slipping_Clutch_parts.jpg
+  alt: Photo of the separate parts of a small real slipping clutch that sits between a gearbox and a chart roller
+  drawn: false
 glossary: [misalignment, backlash, self-locking, torque, gear-ratio, hysteresis, tolerance, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, repeatability--accuracy, creep, stress-relaxation, peel-vs-shear, o-ring]
 ---
+
+![Photo of the separate parts of a small real slipping clutch that sits between a gearbox and a chart roller](../media/friction-slip-clutch.webp)
+
+*Picture: [Slipping Clutch parts.jpg](https://commons.wikimedia.org/wiki/File:Slipping_Clutch_parts.jpg) by tony_duell, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
 
 Two or more friction surfaces held together by an adjustable spring pass turning force like a solid joint until a set [torque](../glossary.md#torque), then slide smoothly and keep sliding for as long as the overload lasts, resetting by themselves afterwards.
 

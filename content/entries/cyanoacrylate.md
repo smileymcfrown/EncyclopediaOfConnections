@@ -111,10 +111,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Super_glue.jpg
 - https://www.youtube.com/watch?v=VZqf5rOJNCE
 research: research/connection-types/results/Cyanoacrylate_superglue.json
-image: null
+image:
+  file: cyanoacrylate.webp
+  width: 800
+  height: 150
+  title: File:Cyanacrylat polymerisation.svg
+  author: Roland Mattern
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg
+  alt: Diagram of how cyanoacrylate molecules join into a polymer chain when triggered by water (hydroxide ions)
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, layer-lines, warping--shrinkage, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
+
+![Diagram of how cyanoacrylate molecules join into a polymer chain when triggered by water (hydroxide ions)](../media/cyanoacrylate.webp)
+
+*Picture: [Cyanacrylat polymerisation.svg](https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg) by Roland Mattern, Public domain, from Wikimedia Commons.*
 
 Cyanoacrylate (superglue) is a one-part liquid glue that hardens in seconds in a thin film between tight-fitting parts, triggered by traces of moisture, giving a strong but [brittle](../glossary.md#brittle--ductile) bond on most plastics, metal, rubber and wood.
 

@@ -158,10 +158,24 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - 'https://api.printables.com/graphql/ (Printables API: models 1340235, 1318189, 198880, 196277, 446009, 174610, 367208, 1343635)'
 research: research/connection-types/results/Levelling_foot_adjustable_foot_swivel_levelling_pad.json
-image: null
+image:
+  file: levelling-foot.webp
+  width: 580
+  height: 500
+  title: File:W7-X gyrotron, adjustable foot.jpg
+  author: user:Bernd vdB
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg
+  alt: Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine
+  drawn: false
 glossary: [self-locking, ratchet, pitch, clearance, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, infill,
   o-ring]
 ---
+
+![Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine](../media/levelling-foot.webp)
+
+*Picture: [W7-X gyrotron, adjustable foot.jpg](https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg) by user:Bernd vdB, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A threaded stud with a foot pad that screws into the bottom of a leg, cabinet or machine; turning it in or out raises or lowers that corner so the piece stands steady and level, and the ball joint under many pads lets the pad lie flat on a sloping or uneven floor.
 

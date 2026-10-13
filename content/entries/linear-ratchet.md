@@ -147,10 +147,24 @@ sources:
 - https://www.qosina.com/blog/how-to-select-the-correct-barbed-connector-for-your-single-use-system
 - https://api.printables.com/graphql/ (models 475661, 1405899, 920228 and 227957, read 2026-10-06)
 research: research/connection-types/results/Linear_ratchet_cabletie_ratchet.json
-image: null
+image:
+  file: linear-ratchet.webp
+  width: 800
+  height: 533
+  title: File:Ratchet Rack and Pawl.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif
+  alt: Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back
+  drawn: false
 glossary: [misalignment, self-locking, stroke, ratchet, pawl, pitch, flexure, clearance, form-fit--force-fit--material-bond,
   creep, brittle--ductile, print-in-place, peel-vs-shear]
 ---
+
+![Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back](../media/linear-ratchet.webp)
+
+*Picture: [Ratchet Rack and Pawl.gif](https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A toothed strip or bar and a catch ([pawl](../glossary.md#pawl)) that let it slide one way only, locking at each tooth, as in a cable tie, a snowboard-binding ladder strap or a [ratchet](../glossary.md#ratchet) jack.
 

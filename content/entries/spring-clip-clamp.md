@@ -131,10 +131,24 @@ sources:
 - 'https://api.printables.com/graphql/ (Printables API: models 617245, 1707408, 1096058, 33109, 559737, 904305, 659163, 982731,
   9024; titles of 586755 and 466832 from search results)'
 research: research/connection-types/results/Spring_clip_clamp_clothespeg_clip_spring_clamp_clipon_holder.json
-image: null
+image:
+  file: spring-clip-clamp.webp
+  width: 507
+  height: 1246
+  title: File:Clothespin (US Patent 10,163).png
+  author: David M. Smith
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Clothespin_(US_Patent_10,163).png
+  alt: 'Drawing of the first modern clothespin (David M. Smith, 1853): two prongs on a fulcrum plus a spring'
+  drawn: false
 glossary: [dead-point, over-centre, ratchet, flexure, compliant-mechanism, cantilever, torsion, clearance, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, brittle--ductile, layer-lines, perimeters, infill, print-in-place, o-ring]
 ---
+
+![Drawing of the first modern clothespin (David M. Smith, 1853): two prongs on a fulcrum plus a spring](../media/spring-clip-clamp.webp)
+
+*Picture: [Clothespin (US Patent 10,163).png](https://commons.wikimedia.org/wiki/File:Clothespin_(US_Patent_10,163).png) by David M. Smith, Public domain, from Wikimedia Commons.*
 
 Two jaws joined by a pivot and closed by a spring (usually a coiled wire [torsion](../glossary.md#torsion) spring, sometimes rubber bands or a springy printed arm), so you squeeze the handles to open it and let go to clamp it onto cloth, paper, a board edge, a rod or a cable.
 

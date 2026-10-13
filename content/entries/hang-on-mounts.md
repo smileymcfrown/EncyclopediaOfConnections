@@ -134,10 +134,24 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=t5TXVzlAuzw&format=json
 - https://en.wikipedia.org/wiki/VESA_mount
 research: research/connection-types/results/Hangon_mounts_keyhole_slot_French_cleat.json
-image: null
+image:
+  file: hang-on-mounts.webp
+  width: 755
+  height: 652
+  title: File:French cleat.jpg
+  author: Tenbergen
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:French_cleat.jpg
+  alt: Photo of a French cleat on a wall (left) and the matching cleat on a shelf to be hung (right)
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, undercut, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, peel-vs-shear]
 ---
+
+![Photo of a French cleat on a wall (left) and the matching cleat on a shelf to be hung (right)](../media/hang-on-mounts.webp)
+
+*Picture: [French cleat.jpg](https://commons.wikimedia.org/wiki/File:French_cleat.jpg) by Tenbergen, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two gravity-held wall mounts that let an object be lifted on and off without tools: a keyhole slot in the object drops over a screw head in the wall, and a French cleat is a pair of bevelled strips, one on the wall and one on the object, that hook together under the object's weight.
 

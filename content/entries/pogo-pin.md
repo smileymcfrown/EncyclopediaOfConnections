@@ -152,9 +152,23 @@ sources:
 - https://www.youtube.com/watch?v=NGZ_vd6qmeQ
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pogo_pin_springloaded_contact_pin.json
-image: null
+image:
+  file: pogo-pin.webp
+  width: 800
+  height: 1143
+  title: File:Federkontaktstift.svg
+  author: Biezl
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Federkontaktstift.svg
+  alt: Cut-away drawing of a pogo pin showing plunger, barrel and spring; used on Wikipedia's 'Pogo pin' article
+  drawn: false
 glossary: [misalignment, stroke, detent, pitch, deflection, tolerance, o-ring]
 ---
+
+![Cut-away drawing of a pogo pin showing plunger, barrel and spring; used on Wikipedia's 'Pogo pin' article](../media/pogo-pin.webp)
+
+*Picture: [Federkontaktstift.svg](https://commons.wikimedia.org/wiki/File:Federkontaktstift.svg) by Biezl, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
 
 A spring-loaded plunger in a small tube that is pressed onto a flat metal pad to carry electricity between two parts that just touch, so devices can be docked, charged, tested or programmed without a plug.
 

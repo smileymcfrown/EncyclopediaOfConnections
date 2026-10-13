@@ -137,10 +137,24 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 research: research/connection-types/results/Multiturn_rotation_limiter_travellingnut_and_stackedring_stops.json
-image: null
+image:
+  file: multi-turn-rotation-limiter.webp
+  width: 119
+  height: 92
+  title: File:Geneva stop.PNG
+  author: Reg.-Bauführer a.D. H. Bock
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG
+  alt: Drawing of a five-spoke Maltese-cross stop work on the barrel of a spring-driven clock
+  drawn: false
 glossary: [backlash, back-driving, axial--radial, ratchet, torque, gear-ratio, pitch, crank, actuator, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, creep, print-in-place, peel-vs-shear]
 ---
+
+![Drawing of a five-spoke Maltese-cross stop work on the barrel of a spring-driven clock](../media/multi-turn-rotation-limiter.webp)
+
+*Picture: [Geneva stop.PNG](https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG) by Reg.-Bauführer a.D. H. Bock, Public domain, from Wikimedia Commons.*
 
 A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.
 

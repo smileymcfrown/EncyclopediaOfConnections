@@ -158,10 +158,25 @@ sources:
 - https://www.mcmaster.com/products/bevel-gears/
 - https://www.mcmaster.com/products/miter-gears/
 research: research/connection-types/results/Differential_bevel_gear_differential.json
-image: null
+image:
+  file: differential.webp
+  width: 250
+  height: 175
+  title: File:Differential free.png
+  author: Wapcaplet
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Differential_free.png
+  alt: 'Colour-coded 3D diagram of a ring-and-pinion differential: ring gear and carrier driving both side gears; paired with
+    ''Differential locked-2.png'' showing the planet gear turning on a bend'
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, clearance, form-fit--force-fit--material-bond,
   infill, print-in-place, o-ring]
 ---
+
+![Colour-coded 3D diagram of a ring-and-pinion differential: ring gear and carrier driving both side gears; paired with 'Differential locked-2.png' showing the planet gear turning on a bend](../media/differential.webp)
+
+*Picture: [Differential free.png](https://commons.wikimedia.org/wiki/File:Differential_free.png) by Wapcaplet, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A small gear train, usually bevel gears inside a spinning cage, that splits one input between two output shafts and lets them turn at different speeds (as the inner and outer wheels of a car do on a bend), while always pushing on both with the same turning force.
 

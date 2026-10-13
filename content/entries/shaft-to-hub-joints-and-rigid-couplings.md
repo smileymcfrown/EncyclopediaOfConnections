@@ -140,11 +140,25 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=1kcikdx&limit=200
 research: research/connection-types/results/Shafttohub_joints_and_rigid_couplings_key_set_screw_Dflat_clamp_hub.json
-image: null
+image:
+  file: shaft-to-hub-joints-and-rigid-couplings.webp
+  width: 335
+  height: 394
+  title: File:Parallel keys.png
+  author: No machine-readable author provided. SuperBo~commonswiki assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Parallel_keys.png
+  alt: Technical drawing of parallel keys and a keyed shaft-hub joint in cross-section
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure, stiffness, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, set-screw, spline, taper, collet, circlip, heat-set-insert, captive-nut, threadlocker,
   undercut, repeatability--accuracy, creep, brittle--ductile, galling--fretting, print-in-place, peel-vs-shear]
 ---
+
+![Technical drawing of parallel keys and a keyed shaft-hub joint in cross-section](../media/shaft-to-hub-joints-and-rigid-couplings.webp)
+
+*Picture: [Parallel keys.png](https://commons.wikimedia.org/wiki/File:Parallel_keys.png) by No machine-readable author provided. SuperBo~commonswiki assumed (based on copyright claims)., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 The hub of a gear, pulley or wheel is locked to its shaft, either by shape (a key, a flat, a hex or a pin) or by squeezing (a [set screw](../glossary.md#set-screw) or a clamp), so turning force passes between them; the same methods make a collar that stops things sliding along a shaft and a rigid coupling that joins two shaft ends.
 

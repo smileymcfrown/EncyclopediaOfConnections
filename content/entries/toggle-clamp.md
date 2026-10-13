@@ -159,10 +159,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://huangyan920.github.io/Mechanical/
 research: research/connection-types/results/Toggle_clamp.json
-image: null
+image:
+  file: toggle-clamp.webp
+  width: 440
+  height: 415
+  title: File:Toggle-clamp manual horizontal 3D animated.gif
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_horizontal_3D_animated.gif
+  alt: Animated 3D drawing of a manual horizontal toggle clamp opening and closing
+  drawn: false
 glossary: [self-locking, stroke, over-centre, mechanical-advantage, linkage, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond,
   holding-force, taper, creep, perimeters, infill, peel-vs-shear]
 ---
+
+![Animated 3D drawing of a manual horizontal toggle clamp opening and closing](../media/toggle-clamp.webp)
+
+*Picture: [Toggle-clamp manual horizontal 3D animated.gif](https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_horizontal_3D_animated.gif) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A lever-and-link clamp that swings its arm or plunger onto the work, multiplies the hand force as its links straighten, and locks just past the straight position (over centre) so it holds the part firmly without any hand pressure until you pull the handle back.
 

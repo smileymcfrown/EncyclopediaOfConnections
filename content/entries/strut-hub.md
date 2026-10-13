@@ -127,9 +127,23 @@ sources:
 - https://www.youtube.com/watch?v=RasWKQfpFzY
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Strut_hub_geodesic_dome_hub_spaceframe_node.json
-image: null
+image:
+  file: strut-hub.webp
+  width: 800
+  height: 593
+  title: File:Climberdome.JPG
+  author: GreenGlass1972
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Climberdome.JPG
+  alt: A playground dome climber built from tubes joined at hubs
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, set-screw, threadlocker, repeatability--accuracy, creep, infill, regulator]
 ---
+
+![A playground dome climber built from tubes joined at hubs](../media/strut-hub.webp)
+
+*Picture: [Climberdome.JPG](https://commons.wikimedia.org/wiki/File:Climberdome.JPG) by GreenGlass1972, Public domain, from Wikimedia Commons.*
 
 A single connector that holds the ends of three to six (or more) straight struts at fixed angles where they meet, so a pile of sticks, tubes or planks can be built into a rigid dome, frame or truss.
 

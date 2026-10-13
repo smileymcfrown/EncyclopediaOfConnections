@@ -118,9 +118,23 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ratchet_tiedown_strap_ratchet_buckle.json
-image: null
+image:
+  file: ratchet-tie-down-strap.webp
+  width: 800
+  height: 1018
+  title: File:Ergo Ratsche mit langem Hebel..jpg
+  author: SpanSet1966
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg
+  alt: Photo of a long-lever pull ratchet on a lashing strap
+  drawn: false
 glossary: [oscillating, stroke, ratchet, pawl, clearance, form-fit--force-fit--material-bond, chamfer--fillet, lubrication]
 ---
+
+![Photo of a long-lever pull ratchet on a lashing strap](../media/ratchet-tie-down-strap.webp)
+
+*Picture: [Ergo Ratsche mit langem Hebel..jpg](https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg) by SpanSet1966, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A webbing strap whose loose end threads through a slotted spool in a steel [ratchet](../glossary.md#ratchet): levering the handle back and forth winds the webbing onto the spool a tooth at a time to put a strong, locked-in tension on a load, and pulling a release catch and swinging the handle fully open frees the spool.
 

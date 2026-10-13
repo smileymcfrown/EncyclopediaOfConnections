@@ -138,11 +138,25 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/518385-traxxas-rustler-2wd-steering-bellcrank
 research: research/connection-types/results/Bell_crank_angle_lever.json
-image: null
+image:
+  file: bell-crank.webp
+  width: 577
+  height: 674
+  title: File:Bell-Crank Steering Linkage.gif
+  author: Pasimi
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Bell-Crank_Steering_Linkage.gif
+  alt: Animation of a vehicle steering linkage in which a bell crank turns a push-pull into movement of the track rods
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, dead-point, over-centre, mechanical-advantage, pitch, crank, linkage, actuator,
   stiffness, clearance, form-fit--force-fit--material-bond, spline, boss, repeatability--accuracy, creep, brittle--ductile,
   infill, print-in-place]
 ---
+
+![Animation of a vehicle steering linkage in which a bell crank turns a push-pull into movement of the track rods](../media/bell-crank.webp)
+
+*Picture: [Bell-Crank Steering Linkage.gif](https://commons.wikimedia.org/wiki/File:Bell-Crank_Steering_Linkage.gif) by Pasimi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A bell [crank](../glossary.md#crank) is a lever that rocks on a pivot at its corner, so a rod or cable pulling one arm makes the other arm push or pull in a different direction (usually at 90 degrees), with the arm lengths setting how much the movement and force are scaled up or down.
 

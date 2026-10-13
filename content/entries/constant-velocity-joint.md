@@ -152,10 +152,24 @@ sources:
 - https://youtu.be/r2UDc4A8huY
 - https://www.youtube.com/watch?v=nYLRZBvCwPE
 research: research/connection-types/results/Constantvelocity_joint_CV_joint.json
-image: null
+image:
+  file: constant-velocity-joint.webp
+  width: 320
+  height: 240
+  title: File:Simple CV Joint animated.gif
+  author: User:Pwld
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
+  alt: Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article
+  drawn: false
 glossary: [misalignment, backlash, torque, preload, clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip,
   layer-lines, infill, print-in-place]
 ---
+
+![Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article](../media/constant-velocity-joint.webp)
+
+*Picture: [Simple CV Joint animated.gif](https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif) by User:Pwld, Public domain, from Wikimedia Commons.*
 
 A joint between two spinning shafts that lets them meet at an angle, even a changing one, while the output shaft turns at exactly the same speed as the input at every moment of each turn.
 

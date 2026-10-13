@@ -139,10 +139,24 @@ sources:
 - https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)
 research: research/connection-types/results/Glued_joint_design_butt_lap_and_scarf_joints_peel_vs_shear.json
-image: null
+image:
+  file: glued-joint-design.webp
+  width: 600
+  height: 250
+  title: File:Woodworking-joint-scarf.gif
+  author: SilentC at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-scarf.gif
+  alt: Diagram of a plain scarf joint joining two boards end to end on a long slant
+  drawn: false
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, creep, fatigue,
   stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear]
 ---
+
+![Diagram of a plain scarf joint joining two boards end to end on a long slant](../media/glued-joint-design.webp)
+
+*Picture: [Woodworking-joint-scarf.gif](https://commons.wikimedia.org/wiki/File:Woodworking-joint-scarf.gif) by SilentC at English Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 The rules for shaping a glued joint so that the glue is loaded in shear (the two faces sliding past each other) or compression over a wide area, and never peeled from one edge or split open like a wedge, because almost every glue is many times stronger in shear than in [peel](../glossary.md#peel-vs-shear) or cleavage.
 

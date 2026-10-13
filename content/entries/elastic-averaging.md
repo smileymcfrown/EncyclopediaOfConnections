@@ -123,11 +123,26 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG
 - https://api.printables.com/graphql/ (Printables models 116754, 142352, 114737 and 430589 read via the public API)
 research: research/connection-types/results/Elastic_averaging_manyfeature_alignment.json
-image: null
+image:
+  file: elastic-averaging.webp
+  width: 800
+  height: 400
+  title: File:Lego dimensions.svg
+  author: Cmglee
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg
+  alt: 'Dimensioned diagram of standard LEGO bricks: stud spacing, stud size and brick height, the many small interlocking
+    features that locate bricks by elastic averaging'
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, flexure, cantilever, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep, fatigue, brittle--ductile, galling--fretting, layer-lines, support-material]
 ---
+
+![Dimensioned diagram of standard LEGO bricks: stud spacing, stud size and brick height, the many small interlocking features that locate bricks by elastic averaging](../media/elastic-averaging.webp)
+
+*Picture: [Lego dimensions.svg](https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg) by Cmglee, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 [Elastic averaging](../glossary.md#elastic-averaging) locates two parts with many more small springy contact features than strictly needed, so each feature flexes slightly and their individual errors average out, giving a stiff, repeatable fit from loosely made parts.
 

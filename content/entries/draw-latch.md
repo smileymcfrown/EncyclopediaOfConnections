@@ -147,10 +147,24 @@ sources:
 - https://www.printables.com/model/1274025-print-in-place-draw-latch
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Draw_latch_overcentre_latch.json
-image: null
+image:
+  file: draw-latch.webp
+  width: 800
+  height: 376
+  title: File:BuegelVS-Kniehebel2.JPG
+  author: StromBer
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG
+  alt: Photo of over-centre (knee-lever) box fasteners on an aluminium transport case
+  drawn: false
 glossary: [misalignment, self-locking, over-centre, mechanical-advantage, linkage, preload, cantilever, tolerance, form-fit--force-fit--material-bond,
   creep, layer-lines, perimeters, infill, print-in-place, peel-vs-shear, o-ring]
 ---
+
+![Photo of over-centre (knee-lever) box fasteners on an aluminium transport case](../media/draw-latch.webp)
+
+*Picture: [BuegelVS-Kniehebel2.JPG](https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG) by StromBer, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A two-part latch in which a lever on one part carries a loop or hook that catches a keeper on the other part; closing the lever swings the loop's pivot past the line between the lever pivot and the keeper (over centre), pulling the parts tightly together and locking them there until the lever is lifted.
 

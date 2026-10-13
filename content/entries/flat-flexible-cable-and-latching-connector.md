@@ -137,9 +137,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Flat_flexible_cable_and_latching_connector_FFC_with_ZIF_connector.json
-image: null
+image:
+  file: flat-flexible-cable-and-latching-connector.webp
+  width: 800
+  height: 528
+  title: File:ZIF connector and FFC.jpg
+  author: Zeroping
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg
+  alt: A pair of zero-insertion-force connectors on a laptop mainboard with the flat flexible cables that plug into them
+  drawn: false
 glossary: [pitch, clearance, form-fit--force-fit--material-bond, keying, fatigue, gland]
 ---
+
+![A pair of zero-insertion-force connectors on a laptop mainboard with the flat flexible cables that plug into them](../media/flat-flexible-cable-and-latching-connector.webp)
+
+*Picture: [ZIF connector and FFC.jpg](https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg) by Zeroping, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A flat flexible cable is a thin plastic film with many flat copper conductors whose stiffened, bared ends slide into low-profile board connectors that are clamped shut by a small latch (a ZIF connector), carrying many low-current signals between boards, cameras and displays and through hinges and moving parts.
 

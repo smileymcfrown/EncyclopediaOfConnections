@@ -138,10 +138,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)
 research: research/connection-types/results/Eccentric_adjuster_eccentric_nut_spacer_or_bushing.json
-image: null
+image:
+  file: eccentric-adjuster.webp
+  width: 640
+  height: 480
+  title: File:Eccentric bottom bracket.jpg
+  author: AndrewDressel (talk)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg
+  alt: 'Photo of an eccentric bottom bracket: the off-centre bearing plug inside an oversized bicycle frame shell'
+  drawn: false
 glossary: [misalignment, backlash, torque, idler, cam-and-follower, crank, form-fit--force-fit--material-bond, set-screw,
   kinematic-coupling, creep, peel-vs-shear]
 ---
+
+![Photo of an eccentric bottom bracket: the off-centre bearing plug inside an oversized bicycle frame shell](../media/eccentric-adjuster.webp)
+
+*Picture: [Eccentric bottom bracket.jpg](https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg) by AndrewDressel (talk), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
 

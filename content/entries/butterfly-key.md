@@ -116,9 +116,23 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 research: research/connection-types/results/Butterfly_key_bowtie_key.json
-image: null
+image:
+  file: butterfly-key.webp
+  width: 800
+  height: 600
+  title: File:Butterfly-joint.JPG
+  author: Dominik Matus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG
+  alt: Photo of a butterfly (dovetail key) joint in wood
+  drawn: false
 glossary: [stiffness, tolerance, form-fit--force-fit--material-bond, spline, chamfer--fillet, undercut, peel-vs-shear]
 ---
+
+![Photo of a butterfly (dovetail key) joint in wood](../media/butterfly-key.webp)
+
+*Picture: [Butterfly-joint.JPG](https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG) by Dominik Matus, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A bow-tie-shaped key, wide at both ends and narrow in the middle, is fitted into a matching pocket that spans a joint or crack, so its wide ends lock into both sides and stop them pulling apart; used to stop cracks in wooden slabs and to join CNC-cut or 3D-printed panels.
 

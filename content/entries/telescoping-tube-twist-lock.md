@@ -148,10 +148,25 @@ sources:
 - https://www.youtube.com/watch?v=Eo1yQIZLVH4
 - https://www.youtube.com/watch?v=B0HB_SU4pyw
 research: research/connection-types/results/Telescoping_tube_twist_lock_cam_or_collet_twist_lock.json
-image: null
+image:
+  file: telescoping-tube-twist-lock.webp
+  width: 384
+  height: 216
+  title: File:External thread pull collet action.gif
+  author: Slashme
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif
+  alt: 'Animation of a split collet being pulled into its tapered seat so it clamps a shaft, then released: the same squeeze
+    principle used in a tripod twist collar'
+  drawn: false
 glossary: [self-locking, axial--radial, mechanical-advantage, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, collet, creep, perimeters, infill, print-in-place]
 ---
+
+![Animation of a split collet being pulled into its tapered seat so it clamps a shaft, then released: the same squeeze principle used in a tripod twist collar](../media/telescoping-tube-twist-lock.webp)
+
+*Picture: [External thread pull collet action.gif](https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif) by Slashme, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A lock for sliding tubes that holds them at any length by friction when you twist one section against the other (or turn a collar), and lets them slide again when you twist back.
 

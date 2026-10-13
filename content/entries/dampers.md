@@ -144,10 +144,24 @@ sources:
 - https://en.wikipedia.org/wiki/Impact_attenuator
 - https://en.wikipedia.org/wiki/Crumple_zone
 research: research/connection-types/results/Dampers_rotary_and_linear_softclose_dampers.json
-image: null
+image:
+  file: dampers.webp
+  width: 800
+  height: 3001
+  title: File:Dashpot.svg
+  author: Egmason
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Dashpot.svg
+  alt: 'Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder'
+  drawn: false
 glossary: [axial--radial, stroke, detent, torque, gear-ratio, actuator, damping, clearance, creep, perimeters, peel-vs-shear,
   o-ring, check-valve]
 ---
+
+![Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder](../media/dampers.webp)
+
+*Picture: [Dashpot.svg](https://commons.wikimedia.org/wiki/File:Dashpot.svg) by Egmason, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A damper is a sealed oil- or air-filled part whose resistance grows with speed, fitted at a hinge or along a slide so that a falling lid, a sprung drawer or a closing door slows down and settles quietly instead of slamming.
 

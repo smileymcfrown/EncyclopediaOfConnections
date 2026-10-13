@@ -115,9 +115,23 @@ sources:
 - https://www.youtube.com/watch?v=Z73rnbUEdN8
 - https://www.youtube.com/watch?v=thBy5z0Kanc
 research: research/connection-types/results/Temporary_sheet_fastener_Clecotype_spring_pin.json
-image: null
+image:
+  file: temporary-sheet-fastener.webp
+  width: 800
+  height: 852
+  title: File:Cleco fastener extended.jpg
+  author: Thermofan
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
+  alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, pilot-hole, creep, peel-vs-shear]
 ---
+
+![A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding](../media/temporary-sheet-fastener.webp)
+
+*Picture: [Cleco fastener extended.jpg](https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg) by Thermofan, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A reusable spring-loaded pin, fitted from one side with special pliers, that grips behind two or more drilled sheets and clamps them together with their holes lined up while they are drilled, fitted or riveted, then comes straight out again.
 

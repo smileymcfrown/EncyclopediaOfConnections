@@ -136,10 +136,24 @@ sources:
 - https://arxiv.org/abs/2506.16356
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Planetary_gear_set_epicyclic_gearing.json
-image: null
+image:
+  file: planetary-gear-set.webp
+  width: 500
+  height: 500
+  title: File:Epicyclic Gearing Stationary Ring.gif
+  author: Jahobr
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif
+  alt: Animation of a planetary set with the ring held still (sun 24, planets 16, ring 56 teeth) and the carrier turning
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, crank, actuator, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, repeatability--accuracy, lubrication, infill, print-in-place]
 ---
+
+![Animation of a planetary set with the ring held still (sun 24, planets 16, ring 56 teeth) and the carrier turning](../media/planetary-gear-set.webp)
+
+*Picture: [Epicyclic Gearing Stationary Ring.gif](https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif) by Jahobr, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A planetary gear set has a central sun gear, several planet gears that mesh with it and with an outer ring gear, and a carrier holding the planets, so holding one of the three parts still gives a compact, strong speed reduction (or increase) with the input and output on the same line.
 

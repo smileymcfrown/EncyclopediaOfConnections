@@ -129,10 +129,24 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:UV_curing
 - https://api.printables.com/graphql/
 research: research/connection-types/results/UVcuring_adhesive_incl_resin_used_as_glue.json
-image: null
+image:
+  file: uv-curing-adhesive.webp
+  width: 800
+  height: 602
+  title: File:UV curing glue kit for Huawei-Screen.jpg
+  author: Mcapdevila
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:UV_curing_glue_kit_for_Huawei-Screen.jpg
+  alt: Photo of a consumer UV-curing glue kit with a small UV lamp, used for replacing a phone screen
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, threadlocker, chamfer--fillet, brittle--ductile, layer-lines, warping--shrinkage,
   cure, peel-vs-shear]
 ---
+
+![Photo of a consumer UV-curing glue kit with a small UV lamp, used for replacing a phone screen](../media/uv-curing-adhesive.webp)
+
+*Picture: [UV curing glue kit for Huawei-Screen.jpg](https://commons.wikimedia.org/wiki/File:UV_curing_glue_kit_for_Huawei-Screen.jpg) by Mcapdevila, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A one-part liquid adhesive containing a light-sensitive starter (photoinitiator) that hardens into solid plastic within seconds when UV or violet light reaches it, so you can position parts at leisure and then fix them in place instantly.
 

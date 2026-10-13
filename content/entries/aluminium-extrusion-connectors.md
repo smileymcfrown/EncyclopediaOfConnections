@@ -152,10 +152,25 @@ sources:
 - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
 - https://commons.wikimedia.org/wiki/File:SpringNutInPlace.jpg
 research: research/connection-types/results/Aluminiumextrusion_connectors_Tslot_nuts_and_brackets.json
-image: null
+image:
+  file: aluminium-extrusion-connectors.webp
+  width: 800
+  height: 443
+  title: File:T-Nut - Installed in a T-Slot.png
+  author: Robert Hewitt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:T-Nut_-_Installed_in_a_T-Slot.png
+  alt: CAD render of a rotating T-nut (red) sitting in the T-slot of an extrusion; the related CAD model of a T-Nut 1-3 images
+    in the same Wikipedia gallery show the nut from several angles
+  drawn: false
 glossary: [self-locking, torque, pitch, set-screw, captive-nut, counterbore--countersink, threadlocker, kinematic-coupling,
   creep, infill, peel-vs-shear]
 ---
+
+![CAD render of a rotating T-nut (red) sitting in the T-slot of an extrusion; the related CAD model of a T-Nut 1-3 images in the same Wikipedia gallery show the nut from several angles](../media/aluminium-extrusion-connectors.webp)
+
+*Picture: [T-Nut - Installed in a T-Slot.png](https://commons.wikimedia.org/wiki/File:T-Nut_-_Installed_in_a_T-Slot.png) by Robert Hewitt, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A family of nuts, bolts, brackets and hidden connectors that lock into the T-shaped grooves of aluminium extrusion, clamping onto the groove's lips when tightened so bars, panels, motors and accessories can be bolted together anywhere along their length and moved later.
 

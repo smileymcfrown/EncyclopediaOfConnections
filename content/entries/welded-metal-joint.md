@@ -117,10 +117,24 @@ sources:
 - https://www.youtube.com/watch?v=5M9I_bBrnZ0
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Welded_metal_joint_fusion_welding_stick_MIG_TIG_and_gas_welding.json
-image: null
+image:
+  file: welded-metal-joint.webp
+  width: 800
+  height: 872
+  title: File:Common joint types.png
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Common_joint_types.png
+  alt: 'Diagram of basic weld joint types: square butt, V-butt, lap and T joints'
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
   warping--shrinkage, peel-vs-shear, regulator]
 ---
+
+![Diagram of basic weld joint types: square butt, V-butt, lap and T joints](../media/welded-metal-joint.webp)
+
+*Picture: [Common joint types.png](https://commons.wikimedia.org/wiki/File:Common_joint_types.png) by unknown, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Welding melts the edges of two metal parts, usually with extra filler metal from a wire or rod, using an electric arc or a gas flame, so the melted metal flows together and cools into one continuous piece: the strongest permanent way to join metal parts of the same or compatible metals.
 

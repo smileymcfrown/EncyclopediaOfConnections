@@ -111,10 +111,25 @@ sources:
 - https://www.thingiverse.com/thing:4640046
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Schmidt_coupling_offset_coupling.json
-image: null
+image:
+  file: schmidt-coupling.webp
+  width: 400
+  height: 283
+  title: File:SchmidtCouplingGif.gif
+  author: Saturnautics
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
+  alt: Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in
+    the Wikipedia article)
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, infill,
   print-in-place]
 ---
+
+![Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in the Wikipedia article)](../media/schmidt-coupling.webp)
+
+*Picture: [SchmidtCouplingGif.gif](https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif) by Saturnautics, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A coupling made of three discs linked in series by sets of equal parallel bars, which passes rotation at exactly constant speed between two parallel shafts that are far out of line, even while that offset changes.
 

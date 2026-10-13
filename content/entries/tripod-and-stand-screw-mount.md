@@ -136,9 +136,23 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tripod_and_stand_screw_mount_tripod_socket_camera_thread.json
-image: null
+image:
+  file: tripod-and-stand-screw-mount.webp
+  width: 800
+  height: 450
+  title: File:Screw Head - Tripod screw-01.jpg
+  author: Andrew Pertsev
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Screw_Head_-_Tripod_screw-01.jpg
+  alt: Photo of a tripod screw with a fold-up D-ring for turning it by hand
+  drawn: false
 glossary: [torque, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, creep]
 ---
+
+![Photo of a tripod screw with a fold-up D-ring for turning it by hand](../media/tripod-and-stand-screw-mount.webp)
+
+*Picture: [Screw Head - Tripod screw-01.jpg](https://commons.wikimedia.org/wiki/File:Screw_Head_-_Tripod_screw-01.jpg) by Andrew Pertsev, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A single standard threaded socket or stud, nearly always 1/4-20 or 3/8-16 UNC, that lets any camera, light, phone holder or home-made part be screwed by hand onto any tripod, stand or rig, with locating pins, a lip, a rubber pad or a lock ring added because one screw on its own lets the part twist.
 

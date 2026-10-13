@@ -161,10 +161,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Gewindestangenschere_Makita.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Threaded_rod_and_studs_allthread_studding_hanger_bolt.json
-image: null
+image:
+  file: threaded-rod-and-studs.webp
+  width: 760
+  height: 760
+  title: File:Threaded rods of different sizes.png
+  author: Taylor 49
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png
+  alt: A shop rack of threaded rod in several diameters
+  drawn: false
 glossary: [backlash, self-locking, axial--radial, torque, pitch, idler, preload, cantilever, clearance, form-fit--force-fit--material-bond,
   pilot-hole, threadlocker, chamfer--fillet, undercut, creep, galling--fretting, infill, warping--shrinkage, peel-vs-shear]
 ---
+
+![A shop rack of threaded rod in several diameters](../media/threaded-rod-and-studs.webp)
+
+*Picture: [Threaded rods of different sizes.png](https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png) by Taylor 49, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A rod threaded along its length (or at both ends) that, with nuts and washers, makes a bolt of any length, a tie rod that pulls parts together, a frame member, an axle or an adjustable spacer; a stud screws into a tapped hole and stays there so a part can be clamped over it with a nut, and a hanger bolt does the same job in wood.
 

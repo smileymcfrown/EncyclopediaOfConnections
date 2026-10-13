@@ -168,11 +168,26 @@ sources:
 - https://api.printables.com/graphql/
 - https://huangyan920.github.io/Mechanical/
 research: research/connection-types/results/Overcentre_linkage_toggle_linkage.json
-image: null
+image:
+  file: over-centre-linkage.webp
+  width: 800
+  height: 422
+  title: File:Kniehebel.jpg
+  author: Kolossos
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Kniehebel.jpg
+  alt: Demonstration model at TU Chemnitz of a knee lever (toggle linkage) used to make large forces in a high-speed stamping
+    press
+  drawn: false
 glossary: [misalignment, self-locking, stroke, dead-point, over-centre, bistable, ratchet, pawl, linkage, preload, compliant-mechanism,
   clearance, form-fit--force-fit--material-bond, holding-force, set-screw, boss, creep, perimeters, infill, print-in-place,
   peel-vs-shear]
 ---
+
+![Demonstration model at TU Chemnitz of a knee lever (toggle linkage) used to make large forces in a high-speed stamping press](../media/over-centre-linkage.webp)
+
+*Picture: [Kniehebel.jpg](https://commons.wikimedia.org/wiki/File:Kniehebel.jpg) by Kolossos, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Two links joined by a middle hinge (the knee) are pushed just past their straight-line position and rest against a stop, so a load that tries to fold them only presses the knee harder into the stop, giving a lock that needs no spring or catch plus a very large force boost near the straight position.
 

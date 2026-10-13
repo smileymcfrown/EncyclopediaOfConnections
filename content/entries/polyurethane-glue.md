@@ -135,10 +135,25 @@ sources:
 - https://www.youtube.com/watch?v=MUWu-N85oXM
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Polyurethane_glue_foaming_moisturecure_glue.json
-image: null
+image:
+  file: polyurethane-glue.webp
+  width: 453
+  height: 465
+  title: File:Teardrop polyglue strength.jpg
+  author: Wikiwerks at English Wikibooks
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Teardrop_polyglue_strength.jpg
+  alt: 'Photo of an author''s strength test of polyurethane glue: a pine block glued to plywood, broken so that the plywood
+    failed'
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, end-grain, cure, pot-life--working-time, open-time, peel-vs-shear,
   gap-filling]
 ---
+
+![Photo of an author's strength test of polyurethane glue: a pine block glued to plywood, broken so that the plywood failed](../media/polyurethane-glue.webp)
+
+*Picture: [Teardrop polyglue strength.jpg](https://commons.wikimedia.org/wiki/File:Teardrop_polyglue_strength.jpg) by Wikiwerks at English Wikibooks, Public domain, from Wikimedia Commons.*
 
 Polyurethane glue is a one-part liquid glue that [cures](../glossary.md#cure) by reacting with moisture in the air and in the materials, foaming slightly as it hardens, to give a strong, waterproof bond between wood and many other materials, provided the joint is tight and clamped.
 

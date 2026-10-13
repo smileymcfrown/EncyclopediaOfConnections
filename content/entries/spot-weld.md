@@ -141,10 +141,24 @@ sources:
 - https://www.printables.com/model/1322762-18650-battery-welding-jig
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Spot_weld_resistance_spot_welding.json
-image: null
+image:
+  file: spot-weld.webp
+  width: 522
+  height: 568
+  title: File:Spot welding 1anim.gif
+  author: Tserc at German Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Spot_welding_1anim.gif
+  alt: 'Animated diagram of resistance spot welding: electrodes close on two sheets, current flows and a nugget forms'
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, repeatability--accuracy, fatigue, warping--shrinkage, peel-vs-shear,
   regulator]
 ---
+
+![Animated diagram of resistance spot welding: electrodes close on two sheets, current flows and a nugget forms](../media/spot-weld.webp)
+
+*Picture: [Spot welding 1anim.gif](https://commons.wikimedia.org/wiki/File:Spot_welding_1anim.gif) by Tserc at German Wikipedia, Public domain, from Wikimedia Commons.*
 
 A spot weld joins overlapping metal sheets or strips at small points: copper electrodes squeeze the parts together and a very short, very high current melts a nugget of metal between them, with no filler, flame or glue, as used on car bodies, sheet-steel boxes and nickel strips on battery packs.
 

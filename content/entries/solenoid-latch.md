@@ -127,10 +127,24 @@ sources:
 - https://www.thingiverse.com/thing:6071727 (search result snippet only)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solenoid_latch_solenoid_lock_electric_strike.json
-image: null
+image:
+  file: solenoid-latch.webp
+  width: 800
+  height: 1234
+  title: File:SolenoidLock.jpg
+  author: Cavernia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:SolenoidLock.jpg
+  alt: Photo of a solenoid door lock case (Abloy EL 582 type)
+  drawn: false
 glossary: [misalignment, stroke, bistable, solenoid, fail-safe--fail-secure, preload, clearance, form-fit--force-fit--material-bond,
   heat-set-insert, perimeters, peel-vs-shear]
 ---
+
+![Photo of a solenoid door lock case (Abloy EL 582 type)](../media/solenoid-latch.webp)
+
+*Picture: [SolenoidLock.jpg](https://commons.wikimedia.org/wiki/File:SolenoidLock.jpg) by Cavernia, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A spring-loaded bolt or catch that an electromagnet coil ([solenoid](../glossary.md#solenoid)) pulls back when it is powered, so a door, box, drawer or release mechanism opens on an electric signal and locks itself again when closed.
 

@@ -153,9 +153,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Directional_figure_8_knot.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Fixed_loop_knots_bowline_figureeight_loop_alpine_butterfly.json
-image: null
+image:
+  file: fixed-loop-knots.webp
+  width: 800
+  height: 600
+  title: File:Palstek innen.jpg
+  author: Markus Bärlocher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Palstek_innen.jpg
+  alt: Clear photo of a bowline tied in rope, with the tail inside the loop
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, peel-vs-shear]
 ---
+
+![Clear photo of a bowline tied in rope, with the tail inside the loop](../media/fixed-loop-knots.webp)
+
+*Picture: [Palstek innen.jpg](https://commons.wikimedia.org/wiki/File:Palstek_innen.jpg) by Markus Bärlocher, Public domain, from Wikimedia Commons.*
 
 Knots that make a loop that won't shrink or slip, at the end of a rope (bowline, figure-eight loop) or in its middle (alpine butterfly), to hook, clip or drop over something, and that untie by hand afterwards.
 

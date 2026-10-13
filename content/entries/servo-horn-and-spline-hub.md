@@ -143,10 +143,24 @@ sources:
 - https://www.youtube.com/watch?v=rQwg55PHdAc
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Servo_horn_and_spline_hub.json
-image: null
+image:
+  file: servo-horn-and-spline-hub.webp
+  width: 800
+  height: 533
+  title: File:Futaba 6-Arm plastic servo horn.jpg
+  author: Suyash Dwivedi
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Futaba_6-Arm_plastic_servo_horn.jpg
+  alt: Photo of a typical six-arm plastic servo horn with rows of linkage holes and the toothed centre hole
+  drawn: false
 glossary: [misalignment, axial--radial, torque, idler, crank, linkage, actuator, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert]
 ---
+
+![Photo of a typical six-arm plastic servo horn with rows of linkage holes and the toothed centre hole](../media/servo-horn-and-spline-hub.webp)
+
+*Picture: [Futaba 6-Arm plastic servo horn.jpg](https://commons.wikimedia.org/wiki/File:Futaba_6-Arm_plastic_servo_horn.jpg) by Suyash Dwivedi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A servo horn is an arm or disc with a toothed hole that pushes onto the matching toothed (splined) output shaft of a hobby servo and is held by a screw into the end of the shaft, so the servo's turning force goes into whatever is bolted to the horn.
 

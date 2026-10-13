@@ -117,10 +117,25 @@ sources:
 - https://www.youtube.com/watch?v=53Q4ct6bQeY
 - https://www.youtube.com/watch?v=DHcrX_ZnByA
 research: research/connection-types/results/Tabandslot_joint_selffixturing_sheet_joint.json
-image: null
+image:
+  file: tab-and-slot-joint.webp
+  width: 800
+  height: 533
+  title: File:ADBO - Project Box for Arduino (laser cut).jpg
+  author: oomlout
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg
+  alt: Photo of a clear laser-cut acrylic box whose side walls have tabs passing through slots in the top and bottom plates,
+    clamped by long corner bolts
+  drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
   fatigue, brittle--ductile, stress-concentration, elephants-foot, warping--shrinkage, kerf]
 ---
+
+![Photo of a clear laser-cut acrylic box whose side walls have tabs passing through slots in the top and bottom plates, clamped by long corner bolts](../media/tab-and-slot-joint.webp)
+
+*Picture: [ADBO - Project Box for Arduino (laser cut).jpg](https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg) by oomlout, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), from Wikimedia Commons.*
 
 Tabs sticking out of the edge of one flat part pass into slots cut in another, so the parts find their exact position by themselves and stay put while they are glued, welded, bolted, keyed or simply press-fitted.
 

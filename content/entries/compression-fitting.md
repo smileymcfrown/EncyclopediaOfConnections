@@ -132,10 +132,24 @@ sources:
 - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 - https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes
 research: research/connection-types/results/Compression_fitting_ferrule_fitting.json
-image: null
+image:
+  file: compression-fitting.webp
+  width: 800
+  height: 600
+  title: File:Schneidring lose.jpg
+  author: Christian Lindecke
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Schneidring_lose.jpg
+  alt: 'Cut-away drawing of a cutting ring (ferrule) fitting before tightening: 1 body, 2 cap nut, 3 cutting ring, 4 pipe'
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, collet, creep, fatigue, galling--fretting, perimeters, infill, overhang--bridging,
   o-ring, gland, water-hammer]
 ---
+
+![Cut-away drawing of a cutting ring (ferrule) fitting before tightening: 1 body, 2 cap nut, 3 cutting ring, 4 pipe](../media/compression-fitting.webp)
+
+*Picture: [Schneidring lose.jpg](https://commons.wikimedia.org/wiki/File:Schneidring_lose.jpg) by Christian Lindecke, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A threaded nut that, when tightened, drives a ring (ferrule or olive) into a tapered seat in the fitting body, squeezing the ring onto the outside of a tube so it both seals and grips the tube, for water, air, gas, oil and hydraulic lines that you may need to take apart later.
 

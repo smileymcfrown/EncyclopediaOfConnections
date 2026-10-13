@@ -153,10 +153,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Valvola_Schrader.jpg
 - https://commons.wikimedia.org/wiki/File:Schrader_valve_opening_and_closing_on_a_tire.gif
 research: research/connection-types/results/Check_valve_oneway_valve_flap_ball_or_duckbill.json
-image: null
+image:
+  file: check-valve.webp
+  width: 800
+  height: 1077
+  title: File:Checkvalveopen.svg
+  author: 'Original: Mion Vector: Chris828'
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg
+  alt: Cutaway of a spring-loaded ball check valve open to forward flow; the companion file shows it closed against reverse
+    flow
+  drawn: false
 glossary: [ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond, fatigue,
   infill, print-in-place, o-ring, check-valve, water-hammer]
 ---
+
+![Cutaway of a spring-loaded ball check valve open to forward flow; the companion file shows it closed against reverse flow](../media/check-valve.webp)
+
+*Picture: [Checkvalveopen.svg](https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg) by Original: Mion Vector: Chris828, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A two-port valve that works by itself: when the pressure on the inlet side beats the outlet side by a small 'cracking pressure', a flap, ball, poppet, reed or rubber beak moves aside and lets fluid through, and when the flow stops or reverses the same part is pressed back onto its seat to block it, making it the fluid version of a [ratchet](../glossary.md#ratchet).
 

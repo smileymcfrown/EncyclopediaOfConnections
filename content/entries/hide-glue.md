@@ -119,10 +119,24 @@ sources:
 - https://www.youtube.com/watch?v=Raq3pbGmmOg
 - https://www.youtube.com/watch?v=OKkCHM0sDks
 research: research/connection-types/results/Hide_glue_animal_glue.json
-image: null
+image:
+  file: hide-glue.webp
+  width: 800
+  height: 457
+  title: File:Glutinleime-warm.jpg
+  author: Simon A. Eugster
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg
+  alt: Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, warping--shrinkage, cure, pot-life--working-time,
   open-time, peel-vs-shear]
 ---
+
+![Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid](../media/hide-glue.webp)
+
+*Picture: [Glutinleime-warm.jpg](https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg) by Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Hide glue is a traditional glue made from boiled animal skin that is brushed on warm, grips as it cools and dries into a hard, non-creeping bond, and stays reversible, so heat and moisture can release the joint for repair years later.
 

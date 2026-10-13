@@ -136,11 +136,26 @@ sources:
 - https://www.youtube.com/watch?v=97t7Xj_iBv0
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Compliant_gripper_and_force_amplifier.json
-image: null
+image:
+  file: compliant-gripper-and-force-amplifier.webp
+  width: 800
+  height: 555
+  title: File:Compliant plier mechanism.png
+  author: BYU CMR
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png
+  alt: Drawing of BYU's single-piece compliant plier (vice grip) mechanism, used as the lead image of the Wikipedia article
+    Compliant mechanism
+  drawn: false
 glossary: [backlash, over-centre, bistable, lever-arm, mechanical-advantage, linkage, actuator, stiffness, flexure, compliant-mechanism,
   living-hinge, clearance, form-fit--force-fit--material-bond, chamfer--fillet, repeatability--accuracy, creep, fatigue, stress-concentration,
   layer-lines, elephants-foot]
 ---
+
+![Drawing of BYU's single-piece compliant plier (vice grip) mechanism, used as the lead image of the Wikipedia article Compliant mechanism](../media/compliant-gripper-and-force-amplifier.webp)
+
+*Picture: [Compliant plier mechanism.png](https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png) by BYU CMR, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A single bending part shaped like a set of levers, so that pushing or squeezing one end makes the jaws at the other end close with more force (or more movement) than you put in, with no pins, springs or hinges to assemble.
 

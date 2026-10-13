@@ -119,10 +119,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing.svg
 - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing_and_capstone.svg
 research: research/connection-types/results/Knifeedge_and_jewel_pivots_lowfriction_point_pivots.json
-image: null
+image:
+  file: knife-edge-and-jewel-pivots.webp
+  width: 800
+  height: 212
+  title: File:Kater pendulum.png
+  author: William Watson
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Kater_pendulum.png
+  alt: Labelled drawing of a Kater's pendulum with two opposing knife-edge pivots (a), adjustment weights, bob and pointers
+  drawn: false
 glossary: [misalignment, oscillating, detent, flexure, torsion, form-fit--force-fit--material-bond, kinematic-coupling, repeatability--accuracy,
   creep, brittle--ductile, lubrication, print-in-place]
 ---
+
+![Labelled drawing of a Kater's pendulum with two opposing knife-edge pivots (a), adjustment weights, bob and pointers](../media/knife-edge-and-jewel-pivots.webp)
+
+*Picture: [Kater pendulum.png](https://commons.wikimedia.org/wiki/File:Kater_pendulum.png) by William Watson, Public domain, from Wikimedia Commons.*
 
 A pivot in which a hardened sharp edge or a fine pointed pin rests on a very hard, smooth seat (agate, steel, sapphire, ruby or glass), touching only along a line or at a point, so a beam, needle or pointer can rock or turn under tiny forces with very low and very consistent friction.
 

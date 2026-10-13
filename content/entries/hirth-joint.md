@@ -135,10 +135,24 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://en.wikipedia.org/wiki/C-stand
 research: research/connection-types/results/Hirth_joint_facespline_coupling.json
-image: null
+image:
+  file: hirth-joint.webp
+  width: 800
+  height: 600
+  title: File:Hirth joint.jpg
+  author: AndrewDressel (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg
+  alt: Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, torque, crank, actuator, deflection, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert, captive-nut, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep, fatigue, galling--fretting]
 ---
+
+![Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))](../media/hirth-joint.webp)
+
+*Picture: [Hirth joint.jpg](https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg) by AndrewDressel (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two parts with matching rings of V-shaped teeth on their end faces are clamped together by a central screw, so they lock at any of a fixed set of angles with no play, and can be loosened, turned by a tooth or more, and locked again.
 

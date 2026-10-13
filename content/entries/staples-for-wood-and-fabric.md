@@ -125,9 +125,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:U_Shape_Insulated_Staple_01.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Staples_for_wood_and_fabric_staple_gun_hammer_tacker_cable_staple.json
-image: null
+image:
+  file: staples-for-wood-and-fabric.webp
+  width: 800
+  height: 965
+  title: File:Basic staple diagram (named parts).svg
+  author: AnonMoos
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg
+  alt: A labelled drawing of a staple naming its crown and legs
+  drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, brittle--ductile, peel-vs-shear, gland]
 ---
+
+![A labelled drawing of a staple naming its crown and legs](../media/staples-for-wood-and-fabric.webp)
+
+*Picture: [Basic staple diagram (named parts).svg](https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg) by AnonMoos, Public domain, from Wikimedia Commons.*
 
 A U-shaped wire fastener driven straight into wood (or a similar soft base) by a staple gun or hammer tacker, whose flat top (crown) bridges over whatever it holds, which makes it the quick way to fix fabric, leather, mesh, plastic film, insulation and low-voltage cables flat onto wood.
 

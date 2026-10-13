@@ -136,10 +136,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Magsafe_tipoff_2.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Magnetic_connector_magnetic_pogo_connector_magnetic_breakaway_power_connector.json
-image: null
+image:
+  file: magnetic-connector.webp
+  width: 800
+  height: 600
+  title: File:MagSafe1.jpg
+  author: Shannon Savage (Techgeek2007 at en.wikipedia)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:MagSafe1.jpg
+  alt: Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud
+  drawn: false
 glossary: [misalignment, stroke, pitch, fail-safe--fail-secure, tolerance, holding-force, brittle--ductile, print-in-place,
   peel-vs-shear, gland]
 ---
+
+![Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud](../media/magnetic-connector.webp)
+
+*Picture: [MagSafe1.jpg](https://commons.wikimedia.org/wiki/File:MagSafe1.jpg) by Shannon Savage (Techgeek2007 at en.wikipedia), Public domain, from Wikimedia Commons.*
 
 Two connector halves with magnets that pull them together and line them up, so spring-loaded pins on one half press onto flat pads on the other to carry power or data, and the halves separate cleanly when pulled too hard.
 

@@ -131,10 +131,24 @@ sources:
 - https://www.youtube.com/watch?v=lYXTiJo_FQQ
 - https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)
 research: research/connection-types/results/Blind_threaded_fixings_rivet_nut_well_nut.json
-image: null
+image:
+  file: blind-threaded-fixings.webp
+  width: 800
+  height: 563
+  title: File:Blindklinkmoer opengewerkt met bout.jpg
+  author: Erik Wannee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg
+  alt: A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread
+  drawn: false
 glossary: [axial--radial, torque, damping, clearance, tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert,
   captive-nut, creep, brittle--ductile, perimeters, infill, peel-vs-shear, o-ring]
 ---
+
+![A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread](../media/blind-threaded-fixings.webp)
+
+*Picture: [Blindklinkmoer opengewerkt met bout.jpg](https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg) by Erik Wannee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A threaded insert that you push into a drilled hole from one side and then squeeze (rivet nut) or tighten a screw into (well nut), so its body swells into a collar behind the sheet or tube wall and gives you a strong thread where no nut could be held behind.
 

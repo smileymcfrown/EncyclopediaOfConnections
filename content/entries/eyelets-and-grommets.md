@@ -131,9 +131,23 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Grommets
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Eyelets_and_grommets_for_fabric_leather_and_sheet.json
-image: null
+image:
+  file: eyelets-and-grommets.webp
+  width: 600
+  height: 270
+  title: File:Eyelet.jpg
+  author: Sonett72 at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Eyelet.jpg
+  alt: Scan of metal eyelets and an eyelet setting tool
+  drawn: false
 glossary: [stroke, form-fit--force-fit--material-bond, spline, fatigue, brittle--ductile, gland]
 ---
+
+![Scan of metal eyelets and an eyelet setting tool](../media/eyelets-and-grommets.webp)
+
+*Picture: [Eyelet.jpg](https://commons.wikimedia.org/wiki/File:Eyelet.jpg) by Sonett72 at English Wikipedia, Public domain, from Wikimedia Commons.*
 
 A small metal or plastic ring set into a punched hole in fabric, leather or thin sheet, with its tube (barrel) rolled over onto a washer or onto the material itself, so the hole has a smooth, strong rim that a lace, cord, hook, peg or pole can pass through without tearing the material.
 

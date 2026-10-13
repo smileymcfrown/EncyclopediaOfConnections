@@ -136,9 +136,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cable-lacing-nasa-style-spot-ties.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Binding_knots_and_seizings_constrictor_knot_seizing_cable_lacing.json
-image: null
+image:
+  file: binding-knots-and-seizings.webp
+  width: 800
+  height: 198
+  title: File:Constrictor-ABOK-1249.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg
+  alt: 'Four photographed steps in tying a constrictor knot round a post (ABOK #1249)'
+  drawn: false
 glossary: [self-locking, ratchet, form-fit--force-fit--material-bond, boss, creep, peel-vs-shear, gland]
 ---
+
+![Four photographed steps in tying a constrictor knot round a post (ABOK #1249)](../media/binding-knots-and-seizings.webp)
+
+*Picture: [Constrictor-ABOK-1249.jpg](https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg) by David J. Fred, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A group of knots and wrappings that squeeze round something to hold it together: the constrictor knot grips a bundle, bag neck or hose so hard it may have to be cut off, a seizing binds two ropes side by side with many turns of small twine, and cable lacing ties wire bundles into a neat loom with a row of locked stitches.
 

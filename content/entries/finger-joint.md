@@ -150,10 +150,24 @@ sources:
 - https://ehs.mit.edu/workplace-safety-program/laser-cutter-safety/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Finger_joint_box_joint.json
-image: null
+image:
+  file: finger-joint.webp
+  width: 800
+  height: 601
+  title: File:Finger joint 20180321.jpg
+  author: Santeri Viinamäki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Finger_joint_20180321.jpg
+  alt: Close-up photo of a pine box corner with a long row of square fingers, showing the alternating end grain and side grain
+  drawn: false
 glossary: [misalignment, living-hinge, clearance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
   creep, brittle--ductile, stress-concentration, layer-lines, elephants-foot, overhang--bridging, kerf, end-grain]
 ---
+
+![Close-up photo of a pine box corner with a long row of square fingers, showing the alternating end grain and side grain](../media/finger-joint.webp)
+
+*Picture: [Finger joint 20180321.jpg](https://commons.wikimedia.org/wiki/File:Finger_joint_20180321.jpg) by Santeri Viinamäki, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A corner joint where the edges of two boards or sheets are cut into alternating square fingers and gaps that mesh together, usually glued, giving a strong, square corner with lots of gluing surface that is easy to make on a table saw, router, laser cutter or CNC router.
 

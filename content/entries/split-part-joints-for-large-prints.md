@@ -137,10 +137,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=-PtARBZEu5g
 research: research/connection-types/results/Splitpart_joints_for_large_prints_dovetail_keys_puzzle_joints_alignment_pins.json
-image: null
+image:
+  file: split-part-joints-for-large-prints.webp
+  width: 600
+  height: 400
+  title: File:Joinery-slidingdovetail.gif
+  author: SilentC at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif
+  alt: Animated diagram of a sliding dovetail joint sliding together
+  drawn: false
 glossary: [misalignment, cantilever, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   chamfer--fillet, repeatability--accuracy, creep, brittle--ductile, elephants-foot, warping--shrinkage, primer, peel-vs-shear]
 ---
+
+![Animated diagram of a sliding dovetail joint sliding together](../media/split-part-joints-for-large-prints.webp)
+
+*Picture: [Joinery-slidingdovetail.gif](https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif) by SilentC at English Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A big model is cut into printable pieces and the cut faces are given matching pegs, holes, dovetails or puzzle shapes, so the pieces go back together in exactly the right place and are then glued, clipped or simply slid together.
 

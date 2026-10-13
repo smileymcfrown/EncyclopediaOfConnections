@@ -119,9 +119,23 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Cam_buckle_webbing_cam_buckle.json
-image: null
+image:
+  file: cam-buckle.webp
+  width: 800
+  height: 600
+  title: File:Spanngurt mit Klemmverschluss.jpg
+  author: HobbyAstronaut
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
+  alt: Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap
+  drawn: false
 glossary: [self-locking, over-centre, ratchet, torsion, form-fit--force-fit--material-bond, boss, creep, print-in-place]
 ---
+
+![Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap](../media/cam-buckle.webp)
+
+*Picture: [Spanngurt mit Klemmverschluss.jpg](https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg) by HobbyAstronaut, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A strap buckle in which a spring presses a toothed cam against the webbing, so the strap pulls through one way to tighten, is gripped harder the more the load pulls back, and slides free when you press the cam's lever.
 

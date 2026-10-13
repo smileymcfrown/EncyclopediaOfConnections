@@ -128,10 +128,25 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.spirol.com/assets/files/inserts-for-3d-printed-assemblies-us.pdf
 research: research/connection-types/results/Heatset_threaded_insert.json
-image: null
+image:
+  file: heat-set-threaded-insert.webp
+  width: 116
+  height: 187
+  title: File:Press-in Insert.png
+  author: Dhruvvasoya91
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
+  alt: Photo of a knurled threaded insert machined from free-cutting brass, the same general shape as a heat-set insert (the
+    file is labelled press-in, not heat-set)
+  drawn: false
 glossary: [deflection, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, chamfer--fillet, creep, perimeters,
   infill]
 ---
+
+![Photo of a knurled threaded insert machined from free-cutting brass, the same general shape as a heat-set insert (the file is labelled press-in, not heat-set)](../media/heat-set-threaded-insert.webp)
+
+*Picture: [Press-in Insert.png](https://commons.wikimedia.org/wiki/File:Press-in_Insert.png) by Dhruvvasoya91, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A knurled metal nut-like sleeve pressed into a plain hole with a hot soldering iron, so the melted plastic grips it and the part gets strong, reusable metal threads.
 

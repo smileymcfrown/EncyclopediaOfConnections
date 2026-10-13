@@ -127,10 +127,24 @@ sources:
 - https://en.wikipedia.org/wiki/S-mount_(CCTV_lens)
 - https://en.wikipedia.org/wiki/C_mount
 research: research/connection-types/results/Bayonet_mount_pushandtwist_lock.json
-image: null
+image:
+  file: bayonet-mount.webp
+  width: 800
+  height: 437
+  title: File:Bayonet-mount-01.svg
+  author: Iainf 04:22, 8 July 2006 (UTC)
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Bayonet-mount-01.svg
+  alt: 'Diagram of a bayonet mount before insertion: pins on the male part lined up with the L-shaped slots'
+  drawn: false
 glossary: [misalignment, axial--radial, detent, preload, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, print-in-place, elephants-foot, peel-vs-shear, o-ring]
 ---
+
+![Diagram of a bayonet mount before insertion: pins on the male part lined up with the L-shaped slots](../media/bayonet-mount.webp)
+
+*Picture: [Bayonet-mount-01.svg](https://commons.wikimedia.org/wiki/File:Bayonet-mount-01.svg) by Iainf 04:22, 8 July 2006 (UTC), [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
 
 Two round parts that join end to end: push the pins or tabs on one part into notches in the other, twist a short way (typically a quarter turn or less) so they slide under ledges, and a spring or springy bump holds them locked until you push and twist back.
 

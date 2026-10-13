@@ -133,10 +133,24 @@ sources:
 - https://www.printables.com/model/642115-filament-spool-winder-split-worm-gear
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Worm_drive_worm_and_worm_wheel.json
-image: null
+image:
+  file: worm-drive.webp
+  width: 780
+  height: 556
+  title: File:Worm Gear.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Worm_Gear.gif
+  alt: Animated 4-start worm turning a 50-tooth throated wheel (12.5:1)
+  drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, ratchet, pawl, torque, gear-ratio, pitch, clearance,
   form-fit--force-fit--material-bond, set-screw, creep, lubrication, perimeters, print-in-place, overhang--bridging]
 ---
+
+![Animated 4-start worm turning a 50-tooth throated wheel (12.5:1)](../media/worm-drive.webp)
+
+*Picture: [Worm Gear.gif](https://commons.wikimedia.org/wiki/File:Worm_Gear.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
 
 A screw-like gear (the worm) meshes with a gear wheel (the worm wheel) at right angles, giving a large speed reduction and turning-force increase in one step, and in low-angle, single-thread designs the wheel cannot drive the worm backwards.
 

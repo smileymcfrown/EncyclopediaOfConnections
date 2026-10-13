@@ -123,10 +123,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.spirol.com/assets/files/inserts-for-3d-printed-assemblies-us.pdf
 research: research/connection-types/results/Pressfit_and_expanding_inserts_tapin_insert.json
-image: null
+image:
+  file: press-fit-and-expanding-inserts.webp
+  width: 116
+  height: 187
+  title: File:Press-in Insert.png
+  author: Dhruvvasoya91
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
+  alt: Photo of a knurled press-in threaded insert machined from free-cutting brass
+  drawn: false
 glossary: [torque, pitch, interference-fit, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   undercut, brittle--ductile, perimeters, infill]
 ---
+
+![Photo of a knurled press-in threaded insert machined from free-cutting brass](../media/press-fit-and-expanding-inserts.webp)
+
+*Picture: [Press-in Insert.png](https://commons.wikimedia.org/wiki/File:Press-in_Insert.png) by Dhruvvasoya91, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A metal threaded sleeve pushed or tapped cold into a slightly smaller hole, held by its barbs or knurls biting into the wall, and sometimes spread wider by the screw, to give a plastic or wooden part reusable metal threads without heat.
 

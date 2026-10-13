@@ -133,9 +133,23 @@ sources:
 - https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/LICENSE
 - https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md
 research: research/connection-types/results/Twistedstring_actuator.json
-image: null
+image:
+  file: twisted-string-actuator.webp
+  width: 800
+  height: 3391
+  title: File:DEXMARTAntrieb.svg
+  author: Nutzer1 / Benjamin Ehm
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:DEXMARTAntrieb.svg
+  alt: 'Diagram of the basic twisted-string actuator: motor, twisting strings and load'
+  drawn: false
 glossary: [backlash, self-locking, axial--radial, stroke, torque, gear-ratio, actuator, torsion, creep, fatigue]
 ---
+
+![Diagram of the basic twisted-string actuator: motor, twisting strings and load](../media/twisted-string-actuator.webp)
+
+*Picture: [DEXMARTAntrieb.svg](https://commons.wikimedia.org/wiki/File:DEXMARTAntrieb.svg) by Nutzer1 / Benjamin Ehm, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A twisted-string [actuator](../glossary.md#actuator) turns a motor's rotation into a strong straight-line pull by twisting two or more strings together, so they shorten like a wrung-out cloth and act as a very high, self-changing [gear ratio](../glossary.md#gear-ratio) in almost no space.
 

@@ -127,9 +127,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:LeakedBattery_2585a.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Battery_holder_and_battery_contacts_spring_battery_contact_coincell_holder.json
-image: null
+image:
+  file: battery-holder-and-battery-contacts.webp
+  width: 642
+  height: 500
+  title: File:AAbatteryholder.jpg
+  author: Tom Blaha at the English Wikipedia project.
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg
+  alt: AA cells in a multi-cell holder with spring and tab contacts
+  drawn: false
 glossary: [cantilever, torsion, tolerance, form-fit--force-fit--material-bond, keying, creep, print-in-place]
 ---
+
+![AA cells in a multi-cell holder with spring and tab contacts](../media/battery-holder-and-battery-contacts.webp)
+
+*Picture: [AAbatteryholder.jpg](https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg) by Tom Blaha at the English Wikipedia project., [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A battery holder grips one or more cells and connects them through springy metal contacts pressed against their ends (and, for several cells, links them in series or parallel), so the cells can be taken out and replaced by hand while the device stays wired to the holder.
 

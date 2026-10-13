@@ -129,10 +129,24 @@ sources:
 - https://www.youtube.com/watch?v=pe3wTSXQa2c
 - https://www.youtube.com/watch?v=qlPg8I8ZB1U
 research: research/connection-types/results/Selflocking_wedge_wedge_clamp_taper_key.json
-image: null
+image:
+  file: self-locking-wedge.webp
+  width: 800
+  height: 1920
+  title: File:Wedge-diagram.svg
+  author: Iainf 03:12, 8 July 2006 (UTC)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Wedge-diagram.svg
+  alt: Cross-section of a wedge showing a downward push producing sideways forces on its sloping faces
+  drawn: false
 glossary: [self-locking, sprag, torque, mechanical-advantage, crank, form-fit--force-fit--material-bond, taper, threadlocker,
   creep, perimeters, infill, warping--shrinkage, kerf]
 ---
+
+![Cross-section of a wedge showing a downward push producing sideways forces on its sloping faces](../media/self-locking-wedge.webp)
+
+*Picture: [Wedge-diagram.svg](https://commons.wikimedia.org/wiki/File:Wedge-diagram.svg) by Iainf 03:12, 8 July 2006 (UTC), Public domain, from Wikimedia Commons.*
 
 A shallow wedge driven into a gap multiplies a light tap into a strong squeeze, and because its slope is gentle, friction stops it sliding back out, so it holds parts tight until it is knocked out again.
 

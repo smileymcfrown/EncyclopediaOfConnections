@@ -144,10 +144,25 @@ sources:
 - https://www.youtube.com/watch?v=WlZwaN68HJE
 - https://api.printables.com/graphql/ (models 443823, 1153765, 13876, 919864, 547516)
 research: research/connection-types/results/Blind_rivet_pop_rivet.json
-image: null
+image:
+  file: blind-rivet.webp
+  width: 186
+  height: 232
+  title: File:Popnagel.gif
+  author: Heedless
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Popnagel.gif
+  alt: 'Animation of a pop rivet being set: the mandrel is pulled and the rivet''s far end swells behind the sheets (used
+    in Wikipedia ''Rivet''; the mandrel''s weakened neck is not shown)'
+  drawn: false
 glossary: [misalignment, pitch, clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, perimeters,
   infill, peel-vs-shear]
 ---
+
+![Animation of a pop rivet being set: the mandrel is pulled and the rivet's far end swells behind the sheets (used in Wikipedia 'Rivet'; the mandrel's weakened neck is not shown)](../media/blind-rivet.webp)
+
+*Picture: [Popnagel.gif](https://commons.wikimedia.org/wiki/File:Popnagel.gif) by Heedless, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A hollow rivet with a pulling pin (mandrel) through it that you fit from one side: a hand tool pulls the pin until the far end of the rivet swells into a second head behind the parts and the pin snaps off, clamping sheets or panels together permanently.
 

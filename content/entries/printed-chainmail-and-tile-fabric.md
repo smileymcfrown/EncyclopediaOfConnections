@@ -129,10 +129,24 @@ sources:
 - https://www.youtube.com/watch?v=HsGCIl4KjGs
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Printed_chainmail_and_tile_fabric_printinplace_interlinked_fabric.json
-image: null
+image:
+  file: printed-chainmail-and-tile-fabric.webp
+  width: 800
+  height: 800
+  title: File:Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003.jpg
+  author: Jiri Evenhuis
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg
+  alt: An early 3D-printed ring fabric sample draped over a seed, showing how linked rings drape like cloth
+  drawn: false
 glossary: [degrees-of-freedom, stiffness, living-hinge, clearance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, overhang--bridging, kerf]
 ---
+
+![An early 3D-printed ring fabric sample draped over a seed, showing how linked rings drape like cloth](../media/printed-chainmail-and-tile-fabric.webp)
+
+*Picture: [Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003.jpg](https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg) by Jiri Evenhuis, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A flat sheet of small tiles or rings printed in one go with each piece already looped through its neighbours, so the stiff pieces together behave like a flexible cloth for costumes, covers, bags and fidget toys, although it is not real armour.
 

@@ -143,10 +143,24 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lid_and_flap_stays_folding_stay_friction_stay.json
-image: null
+image:
+  file: lid-and-flap-stays.webp
+  width: 800
+  height: 1166
+  title: File:George H. Johnson & Fred Bottner Trunk Lid Support - DPLA - c52e19270d05551ecae0e6621daffa03 (page 1).jpg
+  author: Department of the Interior. Patent Office. (1849 - 1925)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:George_H._Johnson_%26_Fred_Bottner_Trunk_Lid_Support_-_DPLA_-_c52e19270d05551ecae0e6621daffa03_(page_1).jpg
+  alt: A historic US patent drawing of a trunk lid support
+  drawn: false
 glossary: [dead-point, over-centre, detent, torque, linkage, torsion, clearance, form-fit--force-fit--material-bond, creep,
   layer-lines]
 ---
+
+![A historic US patent drawing of a trunk lid support](../media/lid-and-flap-stays.webp)
+
+*Picture: [George H. Johnson & Fred Bottner Trunk Lid Support - DPLA - c52e19270d05551ecae0e6621daffa03 (page 1).jpg](https://commons.wikimedia.org/wiki/File:George_H._Johnson_%26_Fred_Bottner_Trunk_Lid_Support_-_DPLA_-_c52e19270d05551ecae0e6621daffa03_(page_1).jpg) by Department of the Interior. Patent Office. (1849 - 1925), Public domain, from Wikimedia Commons.*
 
 A folding or sliding arm between a lid (or flap, or window) and its box or frame that holds the lid open, either by locking straight just past its [dead point](../glossary.md#dead-point) or by squeezing a sliding bar so friction holds it at any angle.
 

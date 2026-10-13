@@ -128,9 +128,23 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 1745470, 585678, 213352, 1559852 'shoe lace hook', 254898 'Shoelaces
   lacing system', 1654691, 247728 'lamellar armor', 899079; pages not opened)
 research: research/connection-types/results/Lacing_cord_through_rows_of_holes_or_eyelets.json
-image: null
+image:
+  file: lacing.webp
+  width: 500
+  height: 525
+  title: File:Lamellar lacing.gif
+  author: unknown
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif
+  alt: Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, perimeters, infill]
 ---
+
+![Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels](../media/lacing.webp)
+
+*Picture: [Lamellar lacing.gif](https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif) by unknown, Public domain, from Wikimedia Commons.*
 
 A lace is threaded back and forth through matching holes, eyelets or hooks on two edges and pulled tight, so many short crossings share the pull and draw the edges together; a knot, bow or lace lock holds it, and it can be loosened and re-tightened at any time.
 

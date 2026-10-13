@@ -118,10 +118,24 @@ sources:
 - https://www.printables.com/model/1219484-z-brake-board-model (URL from Printables API, page not opened; read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Electromagnetic_brake_poweroff_springapplied.json
-image: null
+image:
+  file: electromagnetic-brake.webp
+  width: 175
+  height: 257
+  title: File:O-2 electromagnetic-power-off-brake1.gif
+  author: Oguraclutch
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
+  alt: Animated diagram of an electromagnetic power-off brake, used in Wikipedia's 'Electromagnetic brake' article
+  drawn: false
 glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gear-ratio, solenoid, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert]
 ---
+
+![Animated diagram of an electromagnetic power-off brake, used in Wikipedia's 'Electromagnetic brake' article](../media/electromagnetic-brake.webp)
+
+*Picture: [O-2 electromagnetic-power-off-brake1.gif](https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif) by Oguraclutch, Public domain, from Wikimedia Commons.*
 
 Springs press a friction disc on the motor shaft between two plates so the shaft cannot turn, and while the machine runs an electric coil pulls the plate back against the springs, so the brake lets go only when powered and grabs automatically whenever power is cut.
 

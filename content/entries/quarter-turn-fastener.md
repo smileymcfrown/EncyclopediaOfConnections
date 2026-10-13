@@ -115,10 +115,24 @@ sources:
 - https://www.printables.com/model/354565-fixing-screw-for-a-bajonett-fastener (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Quarterturn_fastener_Dzustype.json
-image: null
+image:
+  file: quarter-turn-fastener.webp
+  width: 800
+  height: 600
+  title: File:RRKestrelHind.JPG
+  author: Nimbus227
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:RRKestrelHind.JPG
+  alt: Photo of the engine cowling on a 1930s Hawker Hind biplane with rows of Dzus fasteners
+  drawn: false
 glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
+
+![Photo of the engine cowling on a 1930s Hawker Hind biplane with rows of Dzus fasteners](../media/quarter-turn-fastener.webp)
+
+*Picture: [RRKestrelHind.JPG](https://commons.wikimedia.org/wiki/File:RRKestrelHind.JPG) by Nimbus227, Public domain, from Wikimedia Commons.*
 
 A captive stud in a removable panel whose spiral slot (or cross pin) rides over a spring or cam in a receptacle on the frame, so a quarter turn pulls the panel tight and snaps it into a locked position that vibration can't undo.
 

@@ -126,10 +126,25 @@ sources:
 - https://api.printables.com/graphql/
 - https://api.sketchfab.com/v3/models/08a6044f319440abbc99dc61e6fa2801
 research: research/connection-types/results/Friction_clutch_plate_or_cone_clutch.json
-image: null
+image:
+  file: friction-clutch.webp
+  width: 800
+  height: 566
+  title: File:Cone clutch.svg
+  author: Sweber.de
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Cone_clutch.svg
+  alt: 'Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material,
+    the return spring and the release control'
+  drawn: false
 glossary: [misalignment, backlash, back-driving, axial--radial, sprag, torque, idler, linkage, hysteresis, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, creep]
 ---
+
+![Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material, the return spring and the release control](../media/friction-clutch.webp)
+
+*Picture: [Cone clutch.svg](https://commons.wikimedia.org/wiki/File:Cone_clutch.svg) by Sweber.de, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A clutch that connects a driving shaft to a driven shaft by pressing friction surfaces together and disconnects it by pulling them apart, and that can slip in between so the drive takes up gently.
 

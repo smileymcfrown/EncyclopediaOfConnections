@@ -112,9 +112,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Chicago_screw_binding_screw_sex_bolt.json
-image: null
+image:
+  file: chicago-screw.webp
+  width: 800
+  height: 600
+  title: File:Buchbinderschraube zum verbinden von zwei Lederstücken.jpg
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg
+  alt: A bookbinding screw (Chicago screw) joining two pieces of leather
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, threadlocker, creep, cure, primer, peel-vs-shear]
 ---
+
+![A bookbinding screw (Chicago screw) joining two pieces of leather](../media/chicago-screw.webp)
+
+*Picture: [Buchbinderschraube zum verbinden von zwei Lederstücken.jpg](https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg) by MichaelFrey, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A Chicago screw is a hollow post with a thread inside and a matching screw that threads into it from the other side, clamping leather, straps, paper, plastic or printed parts between two smooth, low heads like a rivet, but one that can be unscrewed to swap a buckle or used as a pivot pin.
 

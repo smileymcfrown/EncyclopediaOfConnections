@@ -142,9 +142,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:6_Pin_Header.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wiretoboard_plug_connectors_pin_header_and_crimp_housing.json
-image: null
+image:
+  file: wire-to-board-plug-connectors.webp
+  width: 800
+  height: 600
+  title: File:Balancer Buchse XH.JPG
+  author: Laurenz Wagner
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG
+  alt: 2.50 mm JST-XH-type vertical board headers, the kind used for battery balance leads and 3D-printer boards
+  drawn: false
 glossary: [ratchet, pitch, form-fit--force-fit--material-bond, keying, gland]
 ---
+
+![2.50 mm JST-XH-type vertical board headers, the kind used for battery balance leads and 3D-printer boards](../media/wire-to-board-plug-connectors.webp)
+
+*Picture: [Balancer Buchse XH.JPG](https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG) by Laurenz Wagner, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
 
 A plastic plug (housing) holding small sprung metal sockets that have been crimped onto wire ends pushes onto a matching row of pins (header) soldered to a circuit board, making a removable, often latched and polarised, low-current connection.
 

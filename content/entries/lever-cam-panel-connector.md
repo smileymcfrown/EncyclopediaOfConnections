@@ -128,10 +128,25 @@ sources:
 - https://www.youtube.com/watch?v=_ShyDBsx8WA
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Levercam_panel_connector_selfclamping_click_connector.json
-image: null
+image:
+  file: lever-cam-panel-connector.webp
+  width: 800
+  height: 1157
+  title: File:Clamex offen.jpg
+  author: böhringer friedrich
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg
+  alt: See-through 3D drawing of a lever connector's two biscuit-shaped halves apart, with the green lever folded down inside
+    one half and its hex socket visible
+  drawn: false
 glossary: [over-centre, preload, tolerance, form-fit--force-fit--material-bond, captive-nut, undercut, perimeters, infill,
   peel-vs-shear]
 ---
+
+![See-through 3D drawing of a lever connector's two biscuit-shaped halves apart, with the green lever folded down inside one half and its hex socket visible](../media/lever-cam-panel-connector.webp)
+
+*Picture: [Clamex offen.jpg](https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg) by böhringer friedrich, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A pair of biscuit-shaped fittings pushed into matching [undercut](../glossary.md#undercut) slots in two panels; a cam lever turned with an Allen key through a 6 mm hole (or built-in springs) hooks the halves together and pulls the joint tight, invisibly and at almost any angle.
 

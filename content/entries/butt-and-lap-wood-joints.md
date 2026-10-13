@@ -136,10 +136,25 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf
 research: research/connection-types/results/Butt_and_lap_wood_joints_screwed_pockethole_halflap.json
-image: null
+image:
+  file: butt-and-lap-wood-joints.webp
+  width: 800
+  height: 679
+  title: File:Woodworking lap joints.svg
+  author: Fred the Oyster
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg
+  alt: 'Drawing of four lap joints, left to right: half lap, mitred half lap, cross lap and dovetail lap (used on Wikipedia
+    ''Lap joint'')'
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, spline, heat-set-insert, captive-nut, pilot-hole, counterbore--countersink,
   repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear]
 ---
+
+![Drawing of four lap joints, left to right: half lap, mitred half lap, cross lap and dovetail lap (used on Wikipedia 'Lap joint')](../media/butt-and-lap-wood-joints.webp)
+
+*Picture: [Woodworking lap joints.svg](https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg) by Fred the Oyster, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 The simplest wood joints: one piece meets another end-on (butt joint) or overlaps it (lap joint), and screws, nails, angled pocket screws or glue hold them together; the baseline every other wood joint is compared with.
 

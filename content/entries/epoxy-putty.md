@@ -117,9 +117,24 @@ sources:
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
 research: research/connection-types/results/Epoxy_putty_kneadable_twopart_putty.json
-image: null
+image:
+  file: epoxy-putty.webp
+  width: 800
+  height: 623
+  title: File:Epoxy putty.jpg
+  author: Salil Kumar Mukherjee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
+  alt: 'Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal
+    amounts'
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
+
+![Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal amounts](../media/epoxy-putty.webp)
+
+*Picture: [Epoxy putty.jpg](https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg) by Salil Kumar Mukherjee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Epoxy putty is a two-part dough of epoxy resin and hardener that you knead together by hand and press into place, where it sets into a hard, shrink-free, glued-on solid for filling gaps, plugging leaks, repairing and building up shapes that can then be sanded, drilled and tapped.
 

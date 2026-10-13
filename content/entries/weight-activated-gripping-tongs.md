@@ -116,9 +116,23 @@ sources:
 - https://www.youtube.com/watch?v=76zOAf3uXUA
 - https://www.youtube.com/watch?v=WcCxJ-tkP4I
 research: research/connection-types/results/Weightactivated_gripping_tongs_lifting_tongs_lewis.json
-image: null
+image:
+  file: weight-activated-gripping-tongs.webp
+  width: 524
+  height: 515
+  title: File:Three-legged lewis diagram - 02.png
+  author: Anna Frodesiak
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Three-legged_lewis_diagram_-_02.png
+  alt: 'Diagram of a three-legged (dovetail) lewis: the pieces are inserted 1, 2, 3 into an undercut hole'
+  drawn: false
 glossary: [self-locking, lever-arm, linkage, damping, form-fit--force-fit--material-bond, taper, creep]
 ---
+
+![Diagram of a three-legged (dovetail) lewis: the pieces are inserted 1, 2, 3 into an undercut hole](../media/weight-activated-gripping-tongs.webp)
+
+*Picture: [Three-legged lewis diagram - 02.png](https://commons.wikimedia.org/wiki/File:Three-legged_lewis_diagram_-_02.png) by Anna Frodesiak, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 Weight-activated tongs and the lewis turn the pull of the crane hook into a squeeze (or a wedging force inside a hole) on the load, so the grip grows in step with the load's weight and lets go once the load is set down.
 

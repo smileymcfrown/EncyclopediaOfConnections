@@ -109,9 +109,23 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Geared_hinge_continuous_gear_hinge.json
-image: null
+image:
+  file: geared-hinge.webp
+  width: 800
+  height: 568
+  title: File:GEARED HINGES.JPG
+  author: Austin R. Baer Permission=
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:GEARED_HINGES.JPG
+  alt: Photo of aluminium continuous geared hinges showing the gear-toothed leaves, by the inventor of the modern design
+  drawn: false
 glossary: [backlash, detent, torque, living-hinge, clearance, tolerance, creep, perimeters, print-in-place, overhang--bridging]
 ---
+
+![Photo of aluminium continuous geared hinges showing the gear-toothed leaves, by the inventor of the modern design](../media/geared-hinge.webp)
+
+*Picture: [GEARED HINGES.JPG](https://commons.wikimedia.org/wiki/File:GEARED_HINGES.JPG) by Austin R. Baer Permission=, Public domain, from Wikimedia Commons.*
 
 Two hinge leaves with meshing gear teeth along their edges, held together by a cap, so they turn together evenly and share the load along the whole length of the hinge.
 

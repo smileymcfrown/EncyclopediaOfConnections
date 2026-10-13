@@ -162,10 +162,24 @@ sources:
 - https://www.college-park.com/media/wysiwyg/pdf/instructions/components/CPI-INS-4HPR.pdf
 - https://en.wikipedia.org/wiki/Ottobock
 research: research/connection-types/results/Ballandsocket_joint_lockable_ball_head.json
-image: null
+image:
+  file: ball-and-socket-joint.webp
+  width: 800
+  height: 1493
+  title: File:KugelgelenkSchnitt.jpg
+  author: S.Wetzel (Maschinenelemente, Maschinen und Geräte)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg
+  alt: A ball joint cut in half, showing the ball on a threaded, cone-shaped stud inside its socket
+  drawn: false
 glossary: [degrees-of-freedom, misalignment, detent, linkage, stiffness, cantilever, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, boss, undercut, creep, stress-relaxation, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---
+
+![A ball joint cut in half, showing the ball on a threaded, cone-shaped stud inside its socket](../media/ball-and-socket-joint.webp)
+
+*Picture: [KugelgelenkSchnitt.jpg](https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg) by S.Wetzel (Maschinenelemente, Maschinen und Geräte), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A ball on one part sits in a matching cup (socket) on the other so it can turn about any axis through the ball's centre but can't pull out; friction holds it at an angle, and a knob, nut or clamp can squeeze the cup to lock it.
 

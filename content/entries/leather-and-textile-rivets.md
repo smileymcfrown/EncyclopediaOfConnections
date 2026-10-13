@@ -120,9 +120,23 @@ sources:
 - https://www.printables.com/model/606061-replacement-rivet-for-crocs-or-your-other-riveting
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Leather_and_textile_rivets_doublecap_tubular_and_split_rivets.json
-image: null
+image:
+  file: leather-and-textile-rivets.webp
+  width: 800
+  height: 532
+  title: File:Closeup of copper rivet on jeans.jpg
+  author: Marcos André
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg
+  alt: Close-up of a copper rivet reinforcing the corner of a jeans pocket
+  drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill, peel-vs-shear]
 ---
+
+![Close-up of a copper rivet reinforcing the corner of a jeans pocket](../media/leather-and-textile-rivets.webp)
+
+*Picture: [Closeup of copper rivet on jeans.jpg](https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg) by Marcos André, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
 
 A small two-part or hollow metal rivet pushed through a punched hole in leather, webbing or fabric and squashed with a setter against a hard anvil, so its two heads clamp the layers together permanently to fix straps, handles, tabs and buckles or to reinforce the corners of pockets and seams.
 

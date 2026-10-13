@@ -146,10 +146,25 @@ sources:
 - https://www.thingiverse.com/thing:2006756
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Speed_governor_fly_fan_centrifugal_governor.json
-image: null
+image:
+  file: speed-governor.webp
+  width: 666
+  height: 1120
+  title: File:L-Uhr9.png
+  author: Otto Lueger
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:L-Uhr9.png
+  alt: Labelled drawing of a rack-striking clock mechanism with the fan fly (K) on the fastest shaft of the striking train;
+    used in Wikipedia's 'Striking clock' article
+  drawn: false
 glossary: [ratchet, torque, crank, form-fit--force-fit--material-bond, repeatability--accuracy, creep, perimeters, peel-vs-shear,
   o-ring, regulator]
 ---
+
+![Labelled drawing of a rack-striking clock mechanism with the fan fly (K) on the fastest shaft of the striking train; used in Wikipedia's 'Striking clock' article](../media/speed-governor.webp)
+
+*Picture: [L-Uhr9.png](https://commons.wikimedia.org/wiki/File:L-Uhr9.png) by Otto Lueger, Public domain, from Wikimedia Commons.*
 
 A speed governor is a small fan or a set of spinning weights at the fast end of a spring- or weight-driven gear train that brakes harder the faster it turns, so the whole mechanism settles at a steady running speed instead of running away.
 

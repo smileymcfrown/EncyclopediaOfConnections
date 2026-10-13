@@ -139,10 +139,24 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Clipon_concealed_hinge_cup_hinge.json
-image: null
+image:
+  file: clip-on-concealed-hinge.webp
+  width: 800
+  height: 794
+  title: File:Scharnier 06.gif
+  author: Manfredgoellner
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Scharnier_06.gif
+  alt: Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens
+  drawn: false
 glossary: [over-centre, linkage, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss,
   pilot-hole, creep, print-in-place, peel-vs-shear]
 ---
+
+![Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens](../media/clip-on-concealed-hinge.webp)
+
+*Picture: [Scharnier 06.gif](https://commons.wikimedia.org/wiki/File:Scharnier_06.gif) by Manfredgoellner, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A cabinet-door hinge that hides inside a 35 mm round pocket drilled in the back of the door, clips onto a plate on the cabinet so the door can be lifted off without tools, and has three screws to shift the door sideways, up and down, and in and out until the gaps line up.
 

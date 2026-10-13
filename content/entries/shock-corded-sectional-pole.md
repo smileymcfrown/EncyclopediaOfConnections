@@ -113,10 +113,24 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shockcorded_sectional_pole.json
-image: null
+image:
+  file: shock-corded-sectional-pole.webp
+  width: 800
+  height: 1067
+  title: File:Carbon fiber tent stick.jpg
+  author: Horcrux at Italian Wikipedia
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Carbon_fiber_tent_stick.jpg
+  alt: Photo of a broken carbon-fibre tent pole
+  drawn: false
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, stress-concentration,
   layer-lines, perimeters, infill]
 ---
+
+![Photo of a broken carbon-fibre tent pole](../media/shock-corded-sectional-pole.webp)
+
+*Picture: [Carbon fiber tent stick.jpg](https://commons.wikimedia.org/wiki/File:Carbon_fiber_tent_stick.jpg) by Horcrux at Italian Wikipedia, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A pole made of short tubes that plug into one another (socket, spigot or ferrule joints), with an elastic cord running through all of them under light tension, so the sections stay together as one set, pull themselves into line and home, and fold up small.
 

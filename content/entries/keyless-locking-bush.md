@@ -120,10 +120,25 @@ sources:
 - https://prusament.com/wp-content/uploads/2022/10/PLA_Prusament_TDS_2021_10_EN.pdf
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Keyless_locking_bush_taperlock_bush_shaft_locking_device.json
-image: null
+image:
+  file: keyless-locking-bush.webp
+  width: 614
+  height: 1002
+  title: File:Spannsatz-2.jpg
+  author: Ukko-wc
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Spannsatz-2.jpg
+  alt: Cross-section drawing of a locking assembly between a shaft (W) and hub (N), with clamping screw (S) and conical rings
+    (K)
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, deflection, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, set-screw, spline, taper, collet, creep, brittle--ductile, layer-lines]
 ---
+
+![Cross-section drawing of a locking assembly between a shaft (W) and hub (N), with clamping screw (S) and conical rings (K)](../media/keyless-locking-bush.webp)
+
+*Picture: [Spannsatz-2.jpg](https://commons.wikimedia.org/wiki/File:Spannsatz-2.jpg) by Ukko-wc, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A set of tapered steel rings that screws draw together so they wedge inward onto a plain shaft and outward into a hub, locking a pulley, gear or sprocket in place by friction without any key or keyway.
 

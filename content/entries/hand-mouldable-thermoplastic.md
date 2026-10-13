@@ -141,10 +141,24 @@ sources:
 - https://www.youtube.com/watch?v=s1OqZSYmStU
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Handmouldable_thermoplastic_polycaprolactone.json
-image: null
+image:
+  file: hand-mouldable-thermoplastic.webp
+  width: 800
+  height: 533
+  title: File:PCL beads.jpg
+  author: Prosthetic Head
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:PCL_beads.jpg
+  alt: Close-up photo of polycaprolactone plastic beads about 3.5 mm across, as sold for industrial or hobby use
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, repeatability--accuracy, creep, brittle--ductile, overhang--bridging,
   cure, pot-life--working-time, peel-vs-shear]
 ---
+
+![Close-up photo of polycaprolactone plastic beads about 3.5 mm across, as sold for industrial or hobby use](../media/hand-mouldable-thermoplastic.webp)
+
+*Picture: [PCL beads.jpg](https://commons.wikimedia.org/wiki/File:PCL_beads.jpg) by Prosthetic Head, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A tough plastic (polycaprolactone) that softens in hot water at about 60 °C, so you can shape it by hand into grips, brackets, clips, moulds and repairs that lock round other parts as they cool, then reheat it later to adjust or reuse it.
 

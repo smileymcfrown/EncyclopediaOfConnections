@@ -129,10 +129,25 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=5T_QNdU6t8s&format=json
 research: research/connection-types/results/Turnbuckle.json
-image: null
+image:
+  file: turnbuckle.webp
+  width: 800
+  height: 600
+  title: File:Turnbuckles.jpg
+  author: Ted Major from Tuscaloosa, Ala., USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg
+  alt: A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the
+    open body and the two threaded ends
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, over-centre, ratchet, pitch, idler, linkage, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, galling--fretting, layer-lines, perimeters, infill]
 ---
+
+![A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the open body and the two threaded ends](../media/turnbuckle.webp)
+
+*Picture: [Turnbuckles.jpg](https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg) by Ted Major from Tuscaloosa, Ala., USA, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), from Wikimedia Commons.*
 
 A threaded sleeve with a right-hand thread at one end and a left-hand thread at the other, so turning the sleeve draws both end fittings in (or lets them out) at the same time, tightening or loosening a wire, rope, chain or rod without twisting it.
 

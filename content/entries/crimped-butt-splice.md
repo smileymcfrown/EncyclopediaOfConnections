@@ -135,9 +135,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:First_Butt_Splice_Completed.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Crimped_butt_splice_crimp_splice_connector.json
-image: null
+image:
+  file: crimped-butt-splice.webp
+  width: 800
+  height: 600
+  title: File:ESC and Motor Wires and Butt Connectors.JPG
+  author: Shatton8111
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG
+  alt: Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors
+  drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, gland]
 ---
+
+![Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors](../media/crimped-butt-splice.webp)
+
+*Picture: [ESC and Motor Wires and Butt Connectors.JPG](https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG) by Shatton8111, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A crimped butt splice joins two wires end to end: each stripped end goes into one half of a short metal tube, a ratcheting crimp tool squeezes the tube so hard that metal and strands cold-weld into a gas-tight joint, and the plastic or glue-lined heat-shrink sleeve outside insulates it (and, for the glue-lined kind, seals it against water).
 

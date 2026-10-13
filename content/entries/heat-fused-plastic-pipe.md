@@ -122,9 +122,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hot_plate_welding_pressure_history.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Heatfused_plastic_pipe_socket_fusion_butt_fusion_electrofusion.json
-image: null
+image:
+  file: heat-fused-plastic-pipe.webp
+  width: 800
+  height: 928
+  title: File:Electrofusion coupler(1).jpg
+  author: BildHQ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Electrofusion_coupler(1).jpg
+  alt: An electrofusion coupler with the two terminals where the control box leads plug in to heat the coils inside
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
 ---
+
+![An electrofusion coupler with the two terminals where the control box leads plug in to heat the coils inside](../media/heat-fused-plastic-pipe.webp)
+
+*Picture: [Electrofusion coupler(1).jpg](https://commons.wikimedia.org/wiki/File:Electrofusion_coupler(1).jpg) by BildHQ, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Heat fusion joins polyethylene (PE) and polypropylene (PP-R) pipes and fittings by melting their mating surfaces, on a hot tool or with a heating wire built into the fitting, and pressing them together so they cool into one leak-proof piece as strong as the pipe, which is the standard way to join plastics that glue and solvent cement can't.
 

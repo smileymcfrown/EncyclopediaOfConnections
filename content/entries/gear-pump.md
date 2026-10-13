@@ -150,10 +150,24 @@ sources:
 - https://www.printables.com/model/1187735-external-gear-pump
 - https://www.printables.com/model/1187749-internal-gear-pump
 research: research/connection-types/results/Gear_pump_including_gerotor.json
-image: null
+image:
+  file: gear-pump.webp
+  width: 600
+  height: 400
+  title: File:Gear pump animation.gif
+  author: Jahobr
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
+  alt: Animation of liquid being carried round between the teeth and the case in an external gear pump
+  drawn: false
 glossary: [misalignment, backlash, torque, idler, actuator, clearance, tolerance, creep, perimeters, infill, o-ring, check-valve,
   venturi]
 ---
+
+![Animation of liquid being carried round between the teeth and the case in an external gear pump](../media/gear-pump.webp)
+
+*Picture: [Gear pump animation.gif](https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif) by Jahobr, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A rotary pump in which two meshing gears (side by side, or one inside a ring gear as in the gerotor) trap liquid between their teeth and the close-fitting case and carry it from inlet to outlet, delivering a fixed amount per turn; many can also run backwards as a hydraulic motor.
 

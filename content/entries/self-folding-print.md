@@ -127,9 +127,23 @@ sources:
 - https://www.youtube.com/watch?v=yNZ2mqYNLYI
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selffolding_print_4D_printing.json
-image: null
+image:
+  file: self-folding-print.webp
+  width: 500
+  height: 281
+  title: File:4d printing - Mobile.gif
+  author: Matthew Young
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:4d_printing_-_Mobile.gif
+  alt: Animation of a 4D-printed object changing shape in reaction to water, used on the Wikipedia article 4D printing
+  drawn: false
 glossary: [bistable, actuator, compliant-mechanism, living-hinge, form-fit--force-fit--material-bond, print-in-place, peel-vs-shear]
 ---
+
+![Animation of a 4D-printed object changing shape in reaction to water, used on the Wikipedia article 4D printing](../media/self-folding-print.webp)
+
+*Picture: [4d printing - Mobile.gif](https://commons.wikimedia.org/wiki/File:4d_printing_-_Mobile.gif) by Matthew Young, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
 
 A print made flat on the bed that bends its own hinges into a planned 3D shape when triggered by heat or water, then stays in that shape.
 

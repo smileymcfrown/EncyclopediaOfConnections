@@ -139,11 +139,25 @@ sources:
 - https://www.printables.com/model/46639-tension-meter-for-the-gt2-belts-of-i3-mk3s-or-prus
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Belt_drives_timing_round_and_Vbelt.json
-image: null
+image:
+  file: belt-drives.webp
+  width: 160
+  height: 120
+  title: File:Power transmission belt.gif
+  author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
+  alt: Animation of a belt running onto its pulley, showing the in-running nip point
+  drawn: false
 glossary: [misalignment, backlash, ratchet, torque, pitch, idler, deflection, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, collet, captive-nut, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
   peel-vs-shear, o-ring]
 ---
+
+![Animation of a belt running onto its pulley, showing the in-running nip point](../media/belt-drives.webp)
+
+*Picture: [Power transmission belt.gif](https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif) by Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.*
 
 A flexible loop runs around two or more pulleys and carries rotation from one shaft to another, speeding it up or slowing it down according to the pulley sizes; toothed (timing) belts mesh like gears and never slip, while V-belts and round belts grip by friction and can slip when overloaded.
 

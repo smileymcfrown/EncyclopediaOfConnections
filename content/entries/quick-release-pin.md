@@ -130,10 +130,24 @@ sources:
 - https://www.youtube.com/watch?v=qLTZiNngk9c
 - https://www.youtube.com/watch?v=fgiiHIQu9Sk
 research: research/connection-types/results/Quickrelease_pin_balllock_pin.json
-image: null
+image:
+  file: quick-release-pin.webp
+  width: 500
+  height: 435
+  title: File:Kugelsperrbolzen Funktionsprinzip.tif
+  author: HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif
+  alt: Diagram of how a ball lock pin works (German labels), used on the German Wikipedia article 'Kugelsperrbolzen'
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, detent, tolerance, form-fit--force-fit--material-bond, counterbore--countersink,
   creep, fatigue, perimeters, infill, peel-vs-shear]
 ---
+
+![Diagram of how a ball lock pin works (German labels), used on the German Wikipedia article 'Kugelsperrbolzen'](../media/quick-release-pin.webp)
+
+*Picture: [Kugelsperrbolzen Funktionsprinzip.tif](https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif) by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A pin that slides through lined-up holes in two or more parts and locks itself there with small spring-controlled balls, holding the parts together (and in line) until someone presses the button on its handle and pulls it out, with no tools.
 

@@ -139,9 +139,23 @@ sources:
 - https://en.wikipedia.org/wiki/Cross-linked_polyethylene
 - https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg
 research: research/connection-types/results/Hose_barb_barbed_tube_fitting.json
-image: null
+image:
+  file: hose-barb.webp
+  width: 556
+  height: 223
+  title: File:Stainless hose fittings different shapes and sizes.png
+  author: Candm503
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Stainless_hose_fittings_different_shapes_and_sizes.png
+  alt: Stainless crimp and hose barb fittings in different shapes and sizes
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, collet, chamfer--fillet, perimeters, infill, o-ring, gland, check-valve]
 ---
+
+![Stainless crimp and hose barb fittings in different shapes and sizes](../media/hose-barb.webp)
+
+*Picture: [Stainless hose fittings different shapes and sizes.png](https://commons.wikimedia.org/wiki/File:Stainless_hose_fittings_different_shapes_and_sizes.png) by Candm503, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.
 
