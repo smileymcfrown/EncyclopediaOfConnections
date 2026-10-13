@@ -6,7 +6,7 @@
 <g id="panel">
 <rect x="45" y="230" width="170" height="60" fill="#e8e8e8"/>
 <rect x="45" y="230" width="45" height="60" fill="#ffffff"/>
-<path d="M90,236 L215,248 M90,246 L215,258 M90,256 L215,268 M90,266 L215,278" stroke="#222" stroke-width="1.5"/>
+<path d="M90,236 L215,257 M90,246 L215,267 M90,256 L215,277 M90,266 L215,287" stroke="#222" stroke-width="1.5"/>
 <path d="M15,230 H45 V290 H215 V230 H250 V300 H15 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
 <line x1="90" y1="232" x2="90" y2="289" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4"/>
 </g>
@@ -18,15 +18,15 @@
 <use href="#panel"/>
 <rect x="37" y="95" width="60" height="119" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
 <rect x="55" y="214" width="24" height="48" rx="4" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
-<path d="M55,222 H79 M55,230 H79 M55,238 H79 M55,246 H79 M55,254 H79" stroke="#222" stroke-width="1.5"/>
-<line x1="120" y1="130" x2="120" y2="196" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
-<line x1="112" y1="212" x2="82" y2="242" stroke="#222" stroke-width="2"/>
+<path d="M55,226 H79 M55,236 H79 M55,246 H79 M55,256 H79" stroke="#222" stroke-width="1.5"/>
+<line x1="120" y1="110" x2="120" y2="172" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="102" y1="212" x2="80" y2="238" stroke="#222" stroke-width="2"/>
 </g>
 <g transform="translate(267,0)">
 <use href="#panel"/>
 <rect x="105" y="95" width="60" height="127" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
 <rect x="123" y="222" width="24" height="48" rx="4" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
-<path d="M123,230 H147 M123,238 H147 M123,246 H147 M123,254 H147 M123,262 H147" stroke="#222" stroke-width="1.5"/>
+<path d="M123,234 H147 M123,244 H147 M123,254 H147 M123,264 H147" stroke="#222" stroke-width="1.5"/>
 <line x1="176" y1="140" x2="244" y2="140" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
 <line x1="92" y1="190" x2="92" y2="222" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
 <line x1="178" y1="190" x2="178" y2="222" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
@@ -35,7 +35,7 @@
 <use href="#panel"/>
 <rect x="155" y="95" width="60" height="135" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
 <rect x="173" y="230" width="24" height="48" rx="4" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
-<path d="M173,238 H197 M173,246 H197 M173,254 H197 M173,262 H197 M173,270 H197" stroke="#222" stroke-width="1.5"/>
+<path d="M173,242 H197 M173,252 H197 M173,262 H197 M173,272 H197" stroke="#222" stroke-width="1.5"/>
 </g>
 <rect x="20" y="340" width="370" height="70" rx="8" fill="none" stroke="#cccccc" stroke-width="2"/>
 <rect x="410" y="340" width="370" height="70" rx="8" fill="none" stroke="#cccccc" stroke-width="2"/>
@@ -52,14 +52,12 @@
 <text x="667" y="40">3. Click: tight</text>
 </g>
 <text x="67" y="160">shelf</text>
-<text x="114" y="206" text-anchor="start">ribbed dowel</text>
+<text x="104" y="206" text-anchor="start">ribbed dowel</text>
 <text x="133" y="322">side panel with slot</text>
 <text x="400" y="322">grooves pull it in</text>
-<text x="766" y="205">click</text>
 <text x="667" y="322">no screws, glue or tools</text>
-<text x="80" y="381" font-size="15">entry</text>
 <text x="205" y="432" font-size="16">slot from the front: wide entry, then narrows</text>
-<text x="716" y="384" text-anchor="start" font-size="16">2°</text>
+<text x="706" y="399" text-anchor="start" font-size="16">2°</text>
 <text x="595" y="432" font-size="16">grooves slope about 2° along the slot (true scale)</text>
 </g>
 </svg>

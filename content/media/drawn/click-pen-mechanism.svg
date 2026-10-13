@@ -15,7 +15,7 @@
 <polygon points="40,90 40,214.5 90,200 90,120 110,120 110,232 240,200 240,232 350,200 350,120 370,120 370,232 500,200 500,232 610,200 610,120 630,120 630,232 760,200 760,90" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
 <line x1="40" y1="90" x2="760" y2="90" stroke="#e8e8e8" stroke-width="3"/>
 <!-- sloped ends of the button teeth at full push -->
-<polyline points="40,238 85,238 152,252 152,238 215,238 282,252 282,238 345,238 412,252 412,238 475,238 542,252 542,238 605,238 672,252 672,238 735,238 760,243" fill="none" stroke="#b5651d" stroke-width="3" stroke-dasharray="8 5"/>
+<polyline points="40,238 85,238 152,252 152,238 215,238 282,252 282,238 345,238 412,252 412,238 475,238 542,252 542,238 605,238 672,252 672,238 735,238 760,243" fill="none" stroke="#222" stroke-width="2.5" stroke-dasharray="8 5"/>
 <!-- lug rest positions -->
 <use href="#lug" x="100" y="128"/><use href="#lug" x="232" y="208"/><use href="#lug" x="360" y="128"/><use href="#lug" x="492" y="208"/><use href="#lug" x="620" y="128"/>
 <!-- lug path -->
