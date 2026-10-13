@@ -24,7 +24,7 @@
 </g><g transform="translate(534,0)">
 <rect x="53" y="100" width="160" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
 <path d="M68,116 L198,116 Q68,218 198,320 L68,320 Q198,218 68,116 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
-<g stroke="#222" stroke-width="1.5" fill="none"><line x1="85" y1="116" x2="181" y2="320"/><line x1="181" y1="116" x2="85" y2="320"/></g>
+<g stroke="#222" stroke-width="1.5" fill="none"><path d="M100,116 Q133,175 133,218 Q133,262 166,320"/><path d="M166,116 Q133,175 133,218 Q133,262 100,320"/></g>
 <g fill="#cfe3f5" stroke="#222" stroke-width="2"><circle cx="100" cy="132" r="5"/><circle cx="122" cy="132" r="5"/><circle cx="144" cy="132" r="5"/><circle cx="166" cy="132" r="5"/><circle cx="112" cy="150" r="5"/><circle cx="133" cy="150" r="5"/><circle cx="154" cy="150" r="5"/><circle cx="126" cy="167" r="5"/><circle cx="140" cy="167" r="5"/><circle cx="133" cy="184" r="5"/></g>
 <rect x="53" y="320" width="160" height="16" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
 <path d="M60,350 A73,12 0 0 0 206,350" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>

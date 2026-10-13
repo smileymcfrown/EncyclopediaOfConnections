@@ -163,3 +163,46 @@ speed-governor:
   use: "File:Regulador mecánico.png"
   alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc against a brake.
   reason: current clock-striking drawing is busy and the fan governor is small; this shows the spinning weights at rest and running
+# sheet25
+spiral-power-spring:
+  verdict: keep
+  reason: clear photo of an open clock mainspring coiled between arbor and post
+spline-shaft:
+  verdict: swap
+  use: "File:Spline-shaft.png"
+  alt: A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.
+  reason: current drive-shaft animation makes the splined section small; this shows the shaft and matching hub clearly
+split-part-joints-for-large-prints:
+  verdict: drawn
+  reason: current picture is the woodworking sliding-dovetail animation (a related joint), not a split print
+spot-weld:
+  verdict: drawn
+  reason: current animation is mostly a force and current graph, with the electrodes and nugget tiny
+sprag-clutch:
+  verdict: keep
+  reason: diagram shows the sprags jamming one way and sliding the other
+spring-balancer:
+  verdict: keep
+  reason: lamp diagram shows the arm linkage and the springs that balance it
+spring-bar:
+  verdict: keep
+  reason: clear drawing of a spring bar with its tube and sprung tips
+spring-clamp-wire-connector:
+  verdict: swap
+  use: "File:Cage Clamp.jpg"
+  alt: A bent spring-steel clamp pressing the bare copper end of a blue wire against a flat metal contact bar.
+  reason: current cut-open connector photo is murky; this shows the spring pressing the wire onto the busbar
+spring-clip-clamp:
+  verdict: swap
+  use: "File:Clothespin-0157e3.jpg"
+  alt: A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.
+  reason: a clear photo of the everyday item; the current patent drawing works but is old and lettered
+spring-gate-hook:
+  verdict: keep
+  reason: photo of several carabiners showing spring gates and locking sleeves
+spring-steel-push-on-fasteners:
+  verdict: keep
+  reason: clear photo of two spring-steel clip nuts
+spur-gear-pair-and-gear-train:
+  verdict: keep
+  reason: animation of two meshing spur gears turning in opposite directions
