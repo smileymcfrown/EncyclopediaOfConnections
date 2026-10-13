@@ -133,14 +133,15 @@ sources:
 research: research/connection-types/results/Invisible_barrel_hinge_Sosstype.json
 image:
   file: invisible-barrel-hinge.webp
-  width: 684
-  height: 864
+  width: 560
+  height: 707
   title: File:Scharnier 11.gif
   author: Manfredgoellner
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_11.gif
   alt: 'Animation of how a cross hinge (Soss-type) works: two crossing arms with sliding pins fold into the door and frame'
+  animated: true
   drawn: false
 glossary: [linkage, stiffness, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, peel-vs-shear]

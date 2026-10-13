@@ -185,6 +185,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
   alt: Animation of a camshaft whose rotating cams push followers up and down
+  animated: true
   drawn: false
 glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, detent, pawl, pitch, cam-and-follower, crank,
   linkage, actuator, stiffness, preload, clearance, form-fit--force-fit--material-bond, set-screw, undercut, repeatability--accuracy,

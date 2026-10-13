@@ -126,22 +126,23 @@ sources:
 research: research/connection-types/results/Interruptedscrew_lock_interrupted_thread_breech_lock.json
 image:
   file: interrupted-screw-lock.webp
-  width: 800
-  height: 906
-  title: File:Figure414 Interrupted-screw breech block.png
-  author: HEADQUARTERS, DEPARTMENT OF THE ARMY
+  width: 400
+  height: 259
+  title: File:Interrupted breech screw.jpg
+  author: https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf
   license: Public domain
   license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Figure414_Interrupted-screw_breech_block.png
-  alt: Technical drawing of an interrupted-screw breech block with its threaded and plain sectors
+  source: https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg
+  alt: Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked
+    out in green.
   drawn: false
 glossary: [misalignment, detent, preload, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, stress-concentration,
   galling--fretting, print-in-place, o-ring]
 ---
 
-![Technical drawing of an interrupted-screw breech block with its threaded and plain sectors](../media/interrupted-screw-lock.webp)
+![Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked out in green.](../media/interrupted-screw-lock.webp)
 
-*Picture: [Figure414 Interrupted-screw breech block.png](https://commons.wikimedia.org/wiki/File:Figure414_Interrupted-screw_breech_block.png) by HEADQUARTERS, DEPARTMENT OF THE ARMY, Public domain, from Wikimedia Commons.*
+*Picture: [Interrupted breech screw.jpg](https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg) by https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf, Public domain, from Wikimedia Commons.*
 
 A screw thread with alternate sections removed from both the plug and the hole, so the plug pushes straight in past the gaps and a fraction of a turn (1/4 down to 1/16) engages the remaining thread sections and locks it.
 

@@ -156,6 +156,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Aircaster.gif
   alt: 'Animation of an air caster: compressed air fills the ring-shaped bag, then the space inside it, and escapes as a thin
     film that lifts the load'
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, axial--radial, fail-safe--fail-secure, stiffness, preload, flexure, damping, stick-slip,
   clearance, form-fit--force-fit--material-bond, repeatability--accuracy, creep, infill, regulator]

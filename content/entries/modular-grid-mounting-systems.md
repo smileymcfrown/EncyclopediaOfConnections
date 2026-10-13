@@ -174,20 +174,20 @@ research: research/connection-types/results/Modular_grid_mounting_systems_pegboa
 image:
   file: modular-grid-mounting-systems.webp
   width: 800
-  height: 495
-  title: File:Pegboard.jpg
-  author: Dave Pape
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Pegboard.jpg
-  alt: Close-up of pegboard (perforated hardboard) with 1/4 in holes on 1 in spacing
+  height: 751
+  title: File:Gridfinity drawer and bin.jpg
+  author: Sandstein
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg
+  alt: A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.
   drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 
-![Close-up of pegboard (perforated hardboard) with 1/4 in holes on 1 in spacing](../media/modular-grid-mounting-systems.webp)
+![A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.](../media/modular-grid-mounting-systems.webp)
 
-*Picture: [Pegboard.jpg](https://commons.wikimedia.org/wiki/File:Pegboard.jpg) by Dave Pape, Public domain, from Wikimedia Commons.*
+*Picture: [Gridfinity drawer and bin.jpg](https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg) by Sandstein, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A board or baseplate with a regular grid of identical holes, slots or sockets, so any hook, holder or bin made to the same spacing can be hung, clicked, twisted, screwed or held by magnet in any position and moved again by hand.
 

@@ -169,6 +169,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_horizontal_3D_animated.gif
   alt: Animated 3D drawing of a manual horizontal toggle clamp opening and closing
+  animated: true
   drawn: false
 glossary: [self-locking, stroke, over-centre, mechanical-advantage, linkage, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond,
   holding-force, taper, creep, perimeters, infill, peel-vs-shear]

@@ -149,6 +149,7 @@ image:
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Swashplate_anim_metal.gif
   alt: 'Animation: a slanted plate turning with its shaft pushes six rods in and out one after another'
+  animated: true
   drawn: false
 glossary: [axial--radial, coaxial, reciprocating, stroke, pitch, cam-and-follower, crank, linkage, clearance, form-fit--force-fit--material-bond,
   circlip, lubrication, check-valve]

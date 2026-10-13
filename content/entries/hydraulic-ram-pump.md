@@ -162,6 +162,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif
   alt: 'Animated cutaway of a ram pump cycling: drive pipe, waste valve, delivery check valve, pressure vessel and delivery
     pipe'
+  animated: false
   drawn: false
 glossary: [stroke, fatigue, perimeters, infill, primer, o-ring, check-valve, water-hammer]
 ---

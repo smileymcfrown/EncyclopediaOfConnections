@@ -135,20 +135,20 @@ research: research/connection-types/results/Castor_swivel_castor_fixed_castor_lo
 image:
   file: castor.webp
   width: 800
-  height: 580
-  title: File:Nachlauf Einkaufswagen.png
-  author: Gluon
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png
-  alt: Sketch of the caster trail (offset) of a shopping trolley's swivel castor
+  height: 1058
+  title: File:Swivel caster.jpg
+  author: Lambtron
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
+  alt: A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.
   drawn: false
 glossary: [fail-safe--fail-secure, clearance, creep, perimeters, infill]
 ---
 
-![Sketch of the caster trail (offset) of a shopping trolley's swivel castor](../media/castor.webp)
+![A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.](../media/castor.webp)
 
-*Picture: [Nachlauf Einkaufswagen.png](https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png) by Gluon, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Picture: [Swivel caster.jpg](https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg) by Lambtron, Public domain, from Wikimedia Commons.*
 
 An unpowered wheel in a fixed or swivelling bracket fixed under an object so it can be rolled; a swivel castor's wheel trails behind its pivot so it lines itself up with the direction of travel, and braked versions lock the wheel, the swivel or both.
 

@@ -149,22 +149,23 @@ sources:
 research: research/connection-types/results/Japanese_interlocking_joints_splices_and_threeway_corners.json
 image:
   file: japanese-interlocking-joints.webp
-  width: 800
-  height: 600
-  title: File:Kanawa-tsugi.JPG
-  author: Abasaa
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG
-  alt: Photo of a kanawa-tsugi wedged scarf joint in wood
+  width: 640
+  height: 480
+  title: File:Lapped gooseneck joint.png
+  author: うぃき野郎
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png
+  alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it
+    drops into on the other.
   drawn: false
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
   layer-lines, infill, overhang--bridging]
 ---
 
-![Photo of a kanawa-tsugi wedged scarf joint in wood](../media/japanese-interlocking-joints.webp)
+![Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it drops into on the other.](../media/japanese-interlocking-joints.webp)
 
-*Picture: [Kanawa-tsugi.JPG](https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG) by Abasaa, Public domain, from Wikimedia Commons.*
+*Picture: [Lapped gooseneck joint.png](https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png) by うぃき野郎, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
 
 Traditional Japanese carpentry joints in which two or three timbers are cut into interlocking shapes (hooks, dovetails, stepped seats and small tenons) that fit together only along one path and are then locked with a driven wedge or peg, joining beams end to end or at a corner without metal fasteners or glue.
 

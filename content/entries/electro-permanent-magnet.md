@@ -153,6 +153,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Electropermanent_magnet_switching_simulation.gif
   alt: Animated simulation of an EPM switching ON and OFF by reversing the AlNiCo magnetisation, showing the flux lines and
     holding force on a steel workpiece
+  animated: true
   drawn: false
 glossary: [misalignment, bistable, solenoid, holding-force, heat-set-insert, creep, peel-vs-shear]
 ---

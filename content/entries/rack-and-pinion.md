@@ -136,6 +136,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif
   alt: Looping animation of a pinion turning and driving a rack sideways
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, ratchet, pawl, torque, pitch, crank, actuator, stiffness,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, lubrication, perimeters,

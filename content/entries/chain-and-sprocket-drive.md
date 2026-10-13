@@ -148,6 +148,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Chain.gif
   alt: Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, torque, pitch, idler, actuator, clearance, form-fit--force-fit--material-bond,
   set-screw, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill, o-ring]

@@ -129,6 +129,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif
   alt: 'Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads
     into a button'
+  animated: true
   drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear]
 ---

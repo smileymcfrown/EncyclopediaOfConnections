@@ -166,6 +166,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif
   alt: Animation of opening a captured draw-bolt (slide bolt) latch
+  animated: true
   drawn: false
 glossary: [misalignment, axial--radial, over-centre, solenoid, flexure, clearance, form-fit--force-fit--material-bond, chamfer--fillet,
   creep, brittle--ductile, perimeters, print-in-place, peel-vs-shear]

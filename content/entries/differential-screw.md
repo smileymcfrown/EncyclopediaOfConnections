@@ -124,6 +124,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif
   alt: 'Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only
     by the difference'
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, mechanical-advantage, pitch, preload, flexure, tolerance,
   form-fit--force-fit--material-bond, kinematic-coupling, creep]

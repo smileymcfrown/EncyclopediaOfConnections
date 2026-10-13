@@ -131,8 +131,8 @@ sources:
 research: research/connection-types/results/Virtualpivot_linkage_remote_centre_of_motion.json
 image:
   file: virtual-pivot-linkage.webp
-  width: 760
-  height: 579
+  width: 560
+  height: 427
   title: File:Scharnier 02.gif
   author: Manfredgoellner
   license: CC BY-SA 4.0
@@ -140,6 +140,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Scharnier_02.gif
   alt: Animation of a built-in fridge's multi-joint hinge; the door and panel edges swing about imaginary axes where there
     is no pin
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, stroke, pitch, linkage, flexure, clearance, chamfer--fillet, creep, lubrication, perimeters,
   print-in-place, peel-vs-shear]

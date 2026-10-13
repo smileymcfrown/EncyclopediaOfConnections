@@ -158,6 +158,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Miura-ori.gif
   alt: Animation of a Miura-ori sheet folding and unfolding in one motion
+  animated: true
   drawn: false
 glossary: [degrees-of-freedom, self-locking, over-centre, bistable, linkage, flexure, compliant-mechanism, living-hinge, hysteresis,
   form-fit--force-fit--material-bond, holding-force, taper, fatigue, infill, print-in-place, kerf, peel-vs-shear]

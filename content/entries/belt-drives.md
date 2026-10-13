@@ -149,6 +149,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
   alt: Animation of a belt running onto its pulley, showing the in-running nip point
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, ratchet, torque, pitch, idler, deflection, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, collet, captive-nut, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,

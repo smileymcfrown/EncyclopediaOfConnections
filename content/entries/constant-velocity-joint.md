@@ -162,6 +162,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
   alt: Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, torque, preload, clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip,
   layer-lines, infill, print-in-place]

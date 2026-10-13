@@ -131,6 +131,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif
   alt: Animation of a self-supporting energy chain rolling back and forth as its moving end travels
+  animated: true
   drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, boss, chamfer--fillet, creep, brittle--ductile,
   infill, print-in-place, gland]

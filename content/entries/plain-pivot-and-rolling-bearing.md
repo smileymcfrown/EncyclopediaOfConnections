@@ -142,6 +142,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:BallBearing.gif
   alt: Animation of a ball bearing turning, with the balls rolling between the rings
+  animated: true
   drawn: false
 glossary: [misalignment, axial--radial, linkage, flexure, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, galling--fretting, lubrication, peel-vs-shear]

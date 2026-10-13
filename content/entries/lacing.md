@@ -138,6 +138,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif
   alt: Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels
+  animated: false
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, perimeters, infill]
 ---

@@ -127,6 +127,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
   alt: Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed
+  animated: true
   drawn: false
 glossary: [backlash, pitch, stiffness, flexure, clearance, form-fit--force-fit--material-bond, repeatability--accuracy, perimeters,
   infill, print-in-place, peel-vs-shear]

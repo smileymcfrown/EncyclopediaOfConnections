@@ -127,6 +127,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif
   alt: Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders
     that damp the motion
+  animated: true
   drawn: false
 glossary: [stiffness, cantilever, deflection, damping, repeatability--accuracy, creep, fatigue, peel-vs-shear]
 ---

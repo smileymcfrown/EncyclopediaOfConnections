@@ -122,6 +122,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
   alt: Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in
     the Wikipedia article)
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, infill,
   print-in-place]

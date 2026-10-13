@@ -136,6 +136,7 @@ image:
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif
   alt: Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, crank, fail-safe--fail-secure, stiffness, damping,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, spline, repeatability--accuracy, creep, infill, elephants-foot,

@@ -134,6 +134,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
   alt: Animation of the slider bringing the two rows of teeth together
+  animated: true
   drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, print-in-place]
 ---

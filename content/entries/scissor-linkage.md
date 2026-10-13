@@ -133,22 +133,22 @@ sources:
 research: research/connection-types/results/Scissor_linkage_lazy_tongs_scissor_lift.json
 image:
   file: scissor-linkage.webp
-  width: 440
-  height: 440
-  title: File:Pantograph Mirror.gif
-  author: User:Catsquisher
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif
-  alt: Animation of an adjustable mirror on a scissor (pantograph) extension arm that stays facing the same way as it extends
+  width: 800
+  height: 558
+  title: File:TL 2000 scissor lift.jpg
+  author: Edmolift AB
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg
+  alt: A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.
   drawn: false
 glossary: [self-locking, stroke, crank, linkage, actuator, clearance, form-fit--force-fit--material-bond, circlip, creep,
   infill, print-in-place, peel-vs-shear]
 ---
 
-![Animation of an adjustable mirror on a scissor (pantograph) extension arm that stays facing the same way as it extends](../media/scissor-linkage.webp)
+![A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.](../media/scissor-linkage.webp)
 
-*Picture: [Pantograph Mirror.gif](https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
+*Picture: [TL 2000 scissor lift.jpg](https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg) by Edmolift AB, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Pairs of bars crossed in an X and pinned at their middles and ends form a chain that folds and unfolds as one piece, so a short push, pull or squeeze at one end becomes a much longer extension at the other, as in scissor lifts, car jacks, extending mirrors and grabber toys.
 

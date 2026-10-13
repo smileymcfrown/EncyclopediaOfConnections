@@ -130,23 +130,23 @@ sources:
 research: research/connection-types/results/Dog_clutch_claw_clutch.json
 image:
   file: dog-clutch.webp
-  width: 293
-  height: 216
-  title: File:Claw coupling-tech diagram.png
-  author: Jonasz at Polish Wikipedia
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Claw_coupling-tech_diagram.png
-  alt: Simple technical diagram of a claw (dog) clutch with interlocking claws
+  width: 800
+  height: 992
+  title: File:Dog Clutch.jpg
+  author: Ael150
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
+  alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
   drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sprag, torque, crank, linkage, actuator, deflection,
   clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip, chamfer--fillet, undercut, layer-lines, elephants-foot,
   peel-vs-shear]
 ---
 
-![Simple technical diagram of a claw (dog) clutch with interlocking claws](../media/dog-clutch.webp)
+![Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.](../media/dog-clutch.webp)
 
-*Picture: [Claw coupling-tech diagram.png](https://commons.wikimedia.org/wiki/File:Claw_coupling-tech_diagram.png) by Jonasz at Polish Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Picture: [Dog Clutch.jpg](https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg) by Ael150, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A clutch that connects and disconnects a drive by sliding a toothed ring into or out of mesh with matching teeth or slots, giving a solid, no-slip connection when engaged.
 

@@ -149,6 +149,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif
   alt: 'Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large
     rings cascading apart so the riser comes off the harness'
+  animated: true
   drawn: false
 glossary: [axial--radial, over-centre, mechanical-advantage, actuator, solenoid, fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond,
   layer-lines, perimeters, infill]

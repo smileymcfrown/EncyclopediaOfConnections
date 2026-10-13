@@ -149,6 +149,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_06.gif
   alt: Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens
+  animated: true
   drawn: false
 glossary: [over-centre, linkage, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss,
   pilot-hole, creep, print-in-place, peel-vs-shear]

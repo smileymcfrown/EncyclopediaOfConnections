@@ -144,6 +144,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif
   alt: Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia 'Butt joint')
+  animated: false
   drawn: false
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, infill, end-grain,
   peel-vs-shear]

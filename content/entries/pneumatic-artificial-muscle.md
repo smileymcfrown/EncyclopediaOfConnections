@@ -163,6 +163,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif
   alt: Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial
     muscles' page)
+  animated: true
   drawn: false
 glossary: [misalignment, self-locking, stroke, lever-arm, linkage, actuator, solenoid, fail-safe--fail-secure, stiffness,
   hysteresis, form-fit--force-fit--material-bond, creep, fatigue, layer-lines, infill, regulator]

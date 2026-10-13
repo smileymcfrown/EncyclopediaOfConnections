@@ -158,24 +158,23 @@ sources:
 research: research/connection-types/results/Spline_shaft_sliding_spline.json
 image:
   file: spline-shaft.webp
-  width: 395
-  height: 255
-  title: File:Cardan-joint spline-shaft 3D animated.gif
-  author: Silberwolf (talk)
+  width: 800
+  height: 783
+  title: File:Spline-shaft.png
+  author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
-  source: https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif
-  alt: Animated 3D view of a drive (cardan) shaft with a universal joint at each end and an exposed splined section in the
-    middle where the shaft can change length
+  source: https://commons.wikimedia.org/wiki/File:Spline-shaft.png
+  alt: A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.
   drawn: false
 glossary: [misalignment, backlash, torque, pitch, linkage, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, chamfer--fillet, repeatability--accuracy, creep, fatigue, brittle--ductile, stress-concentration,
   galling--fretting, lubrication, layer-lines, perimeters]
 ---
 
-![Animated 3D view of a drive (cardan) shaft with a universal joint at each end and an exposed splined section in the middle where the shaft can change length](../media/spline-shaft.webp)
+![A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.](../media/spline-shaft.webp)
 
-*Picture: [Cardan-joint spline-shaft 3D animated.gif](https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_animated.gif) by Silberwolf (talk), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+*Picture: [Spline-shaft.png](https://commons.wikimedia.org/wiki/File:Spline-shaft.png) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A shaft with lengthwise ridges or flat sides that fits a hub with a matching hole, so turning force passes between them while the hub stays free to slide along the shaft.
 

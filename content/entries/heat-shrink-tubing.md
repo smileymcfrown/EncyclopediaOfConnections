@@ -138,6 +138,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
   source: https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif
   alt: Animation of heat-shrink tubing shrinking round a wire as heat is applied
+  animated: true
   drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, warping--shrinkage, gland]
 ---

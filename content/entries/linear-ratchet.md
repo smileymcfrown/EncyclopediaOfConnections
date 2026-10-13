@@ -157,6 +157,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif
   alt: Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back
+  animated: true
   drawn: false
 glossary: [misalignment, self-locking, stroke, ratchet, pawl, pitch, flexure, clearance, form-fit--force-fit--material-bond,
   creep, brittle--ductile, print-in-place, peel-vs-shear]
