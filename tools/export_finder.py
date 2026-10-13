@@ -73,7 +73,8 @@ def main():
             pages[fm['num']] = {
                 'num': fm['num'], 'page': fn[:-3], 'title': fm['title'],
                 'description': fm['description'], 'family': fm['family'], 'other_families': fm['other_families'],
-                'finder': fm['finder'], 'needs_confirming': sorted(fm['needs_confirming'])}
+                'finder': fm['finder'], 'needs_confirming': sorted(fm['needs_confirming']),
+                'image': (fm.get('image') or {}).get('file')}
     leaves = []
     t = node(tree.TREE, tree.E, (), {}, leaves)
     reached = set()
