@@ -1,0 +1,297 @@
+---
+title: Gasket
+description: A soft layer, cord or bead squeezed between two mating surfaces that fills their bumps and gaps so liquid and
+  dust can't leak through the joint, even when the opening isn't round.
+num: 131
+term: Gasket (flat sheet gasket, cord-in-groove gasket, or formed-in-place / cured-in-place gasket)
+plain_name: A soft strip, sheet or bead of rubber, foam or silicone squashed between a lid and a box (or two flat flanges)
+  so water and dust can't get through the seam; used when the opening is square or an odd shape
+aliases:
+- sheet gasket, cut gasket, soft cut gasket (cut or punched from flat sheet; Wikipedia 'Gasket')
+- face gasket (Fictiv) and flange gasket (between two pipe flanges; Wikipedia)
+- enclosure gasket, door gasket, panel gasket (Stockwell Elastomerics)
+- cord gasket, foam cord gasket, sealing cord, round silicone sealing cord (a rubber or foam cord laid in a groove; Hackaday.io
+  'OpenDendrometer'; Printables pb-tec box)
+- tongue-and-groove gasket seal (a ridge on the lid pressing the gasket into a groove) [uncertain]
+- formed-in-place gasket (FIPG), liquid gasket, RTV gasket maker (liquid sealant applied wet and closed while uncured; ThreeBond
+  Technical News 91; Permatex)
+- cured-in-place gasket (CIPG), dispensed gasket, poured-in-place gasket (bead cured before the parts are closed; ThreeBond;
+  Stockwell mentions poured-in-place gaskets)
+- weatherstrip or seal strip (self-adhesive foam strip used as a lid gasket) [uncertain]
+- 'sealing washer: a small ring-shaped gasket under a bolt, plug or pipe fitting; Wikipedia notes that the rubber or fibre
+  ''washers'' in taps are really gaskets (Wikipedia ''Washer (hardware)'')'
+- bonded seal, Dowty seal or Dowty washer (a steel washer with a bonded rubber inner ring; Wikipedia 'Bonded seal'), crush
+  washer (soft aluminium or copper), rubber or fibre tap washer (Wikipedia 'Washer (hardware)')
+family: seals & pass-throughs
+other_families: [adhesives & bonding]
+finder:
+  job:
+  - seal it, or pass cables or fluid through
+  - glue or bond
+  motion: none
+  special_behaviour: []
+  holding_principle: [not a holding joint, material bond]
+  reuse_cycles: a few times
+  seal: watertight
+  access_needed: not applicable
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, 3D print (resin), woodwork]
+  connects: ['strap, cord or fabric']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [sewing or leather tools, power tools, hand tools]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'yes'
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Gasket* (131): EPDM-backed roofing washers left out (not on the Wikipedia page).'
+uncertain_fields: [aliases, reuse_cycles, play_and_precision, processes, related]
+diagram_idea: 'Three side-by-side cut-aways of a box rim and lid: (1) a flat foam gasket squashed between two flat faces,
+  with arrows showing the lid bowing up between two corner screws and a gap opening in the middle; (2) a round cord in a U-groove
+  with a rounded ridge on the lid pressing into it and screws outside the seal line; (3) a silicone bead dispensed on one
+  face, shown wet and bonding both faces (formed in place) versus cured first and only stuck to one side (cured in place).'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Gasket.svg
+  title: Gasket.svg (Wikimedia Commons, by Mysid)
+  shows: Diagram of a gasket (orange) used as a face seal between two pipe flanges
+  license: Public domain
+- url: https://commons.wikimedia.org/wiki/File:CAT-B25-Battery-Cover.jpg
+  title: CAT-B25-Battery-Cover.jpg (Wikimedia Commons, by MarcoTangerino)
+  shows: Photo of a rugged phone's battery cover with a rubber gasket all round it, giving IP67 dust and water resistance,
+    held by two screws
+  license: Public domain
+- url: https://commons.wikimedia.org/wiki/File:Joints_plats.JPG
+  title: Joints plats.JPG (Wikimedia Commons, by Nerijp)
+  shows: Photo of various flat gaskets cut from sheet
+  license: GFDL 1.2+ or CC BY-SA 3.0 / 2.5 / 2.0 / 1.0 (multi-licensed)
+- url: https://hackaday.io/project/174011-water-resistant-3d-printed-enclosures
+  title: Water Resistant 3D Printed Enclosures (Hackaday.io project)
+  shows: Cross-section photos of printed lid ridges pressing silicone aquarium tubing into a U-channel, with submersion test
+    results for tubing versus cured silicone sealant
+  license: link only
+- url: https://www.rogerscorp.com/blog/2025/the-mechanics-of-enclosure-seal-design-gap-spacing-cfd-and-compressibility
+  title: 'The Mechanics of Enclosure Seal Design: Gap Spacing, CFD, and Compressibility (Rogers Corporation, 2025)'
+  shows: Charts of gasket compression force versus deflection and of leak rate versus gasket width
+  license: link only
+make_it_yourself:
+- url: https://printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec
+  title: Customizable parametric stable and waterproof electronics IP65 IP67 project box (pb-tec, Printables)
+  what_it_is: OpenSCAD customizer box with a groove and ridge round the rim for 1-3 mm silicone sealing cord or a printed
+    TPU gasket, screws at the corners, and options for cable-gland holes; the author notes he never tested its water-proofness.
+    Details read through the Printables public API.
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/63204-flexible-filament-test-tputpe-for-enclosure-gasket
+  title: Flexible filament test (TPU/TPE) for enclosure gasket (Taneli R, Printables) (URL from Printables API, page not opened)
+  what_it_is: 'Quick 41 x 41 x 12 mm test print: a rigid PLA or PETG body with a flexible gasket part, to try your flexible
+    filament as a gasket before designing a full box'
+  license: CC0 (Creative Commons Public Domain)
+- url: https://www.printables.com/model/1505724-outdoor-enclosure-for-govee-light-controller-tpu-g
+  title: Outdoor Enclosure for Govee Light Controller | TPU Gasket (Printables) (URL from Printables API, page not opened)
+  what_it_is: PETG enclosure with a printed TPU gasket, 4 M3 screws into heat-set inserts, dual 6 mm cable pass-throughs and
+    optional silicone grease; no formal IP rating claimed
+  license: CC BY-NC
+- url: https://www.printables.com/model/1243819-multi-material-tpu-container-watertight
+  title: Multi Material TPU Container Watertight (Meister Edel, Printables) (URL from Printables API, page not opened)
+  what_it_is: Small PLA container with a TPU lid printed in one multi-material job, the two materials locked together by small
+    barbs; a test of printing a flexible seal fused to a rigid part
+  license: CC BY-NC-SA
+sources:
+- https://en.wikipedia.org/wiki/Gasket
+- https://en.wikipedia.org/wiki/IP_code
+- https://www.threebond.co.jp/en/technical/technicalnews/pdf/TechnicalNews91.pdf
+- https://www.rogerscorp.com/blog/2025/the-mechanics-of-enclosure-seal-design-gap-spacing-cfd-and-compressibility
+- https://www.stockwell.com/submerged-gaskets/
+- https://www.stockwell.com/enclosure-gaskets/
+- https://www.fictiv.com/articles/nothing-gets-in-waterproof-enclosure-design-101-and-ip68
+- https://blog.prusa3d.com/watertight-3d-printing-part-2_53638/
+- https://hackaday.io/project/174011-water-resistant-3d-printed-enclosures
+- https://hackaday.io/project/185224/log/207087-3d-printed-weatherproof-enclosure
+- https://www.permatex.com/products/gasketing/gasket-makers/grey-gasket-makers/permatex-ultra-grey-rtv-silicone-gasket-maker-3-5-oz/
+- https://www.cnckitchen.com/blog/testing-colorfabb-varioshore-tpu-foaming-3d-printing-filament
+- https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+- http://thrinter.com/creep-abs-pla-petg-alloy-910/
+- https://www.materialseducation.org/educators/matedu-modules/docs/Laser_Cutter_Materials.pdf
+- https://wp.optics.arizona.edu/optomech/wp-content/uploads/sites/53/2016/10/Parker-O-ring-handbook.pdf
+- https://www.globaloring.com/o-ring-splicing-kits/
+- https://commons.wikimedia.org/wiki/Category:Gaskets
+- https://commons.wikimedia.org/wiki/File:Gasket.svg
+- https://commons.wikimedia.org/wiki/File:CAT-B25-Battery-Cover.jpg
+- https://commons.wikimedia.org/wiki/File:Joints_plats.JPG
+- https://api.printables.com/graphql/
+- https://printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec
+- https://www.printables.com/model/12311-waterproof-housing-test-tpu-o-ring
+- https://en.wikipedia.org/wiki/Washer_(hardware)
+- https://en.wikipedia.org/wiki/Bonded_seal
+research: research/connection-types/results/Gasket_flat_cordingroove_or_castinplace.json
+glossary: [over-centre, deflection, form-fit--force-fit--material-bond, spline, creep, stress-relaxation, perimeters, cure,
+  o-ring, gland]
+---
+
+A soft layer, cord or bead squeezed between two mating surfaces that fills their bumps and gaps so liquid and dust can't leak through the joint, even when the opening isn't round.
+
+**In plain words:** A soft strip, sheet or bead of rubber, foam or silicone squashed between a lid and a box (or two flat flanges) so water and dust can't get through the seam; used when the opening is square or an odd shape. **Proper term:** Gasket (flat sheet gasket, cord-in-groove gasket, or formed-in-place / cured-in-place gasket).
+
+**Also called:** sheet gasket, cut gasket, soft cut gasket (cut or punched from flat sheet; Wikipedia 'Gasket'); face gasket (Fictiv) and flange gasket (between two pipe flanges; Wikipedia); enclosure gasket, door gasket, panel gasket (Stockwell Elastomerics); cord gasket, foam cord gasket, sealing cord, round silicone sealing cord (a rubber or foam cord laid in a groove; Hackaday.io 'OpenDendrometer'; Printables pb-tec box); tongue-and-groove gasket seal (a ridge on the lid pressing the gasket into a groove) ⚑ [uncertain]; formed-in-place gasket (FIPG), liquid gasket, RTV gasket maker (liquid sealant applied wet and closed while uncured; ThreeBond Technical News 91; Permatex); cured-in-place gasket (CIPG), dispensed gasket, poured-in-place gasket (bead cured before the parts are closed; ThreeBond; Stockwell mentions poured-in-place gaskets); weatherstrip or seal strip (self-adhesive foam strip used as a lid gasket) ⚑ [uncertain]; sealing washer: a small ring-shaped gasket under a bolt, plug or pipe fitting; Wikipedia notes that the rubber or fibre 'washers' in taps are really gaskets (Wikipedia 'Washer (hardware)'); bonded seal, Dowty seal or Dowty washer (a steel washer with a bonded rubber inner ring; Wikipedia 'Bonded seal'), crush washer (soft aluminium or copper), rubber or fibre tap washer (Wikipedia 'Washer (hardware)').
+
+## How it works
+
+A gasket is a soft, springy material squeezed between two parts so it fills their unevenness and closes the gap (Wikipedia 'Gasket'). It only seals while it stays squeezed, typically by about a quarter to a third of its thickness, and it keeps pushing back on the lid, so the screws or latches and the lid itself must be stiff enough to squeeze it evenly all the way round (Rogers Corporation; Fictiv). In a cord-in-groove design a round rubber or foam cord sits in a U-shaped groove and a narrow ridge on the lid presses into it, concentrating the force on a thin line (Hackaday.io 'Water Resistant 3D Printed Enclosures'). A formed-in-place gasket is a bead of liquid silicone that is closed while wet, sticking to both faces like glue; a cured-in-place gasket is cured first, so it acts like a moulded rubber gasket that sticks only to one part and can be opened again (ThreeBond Technical News 91).
+
+## Parts
+
+A few parts: the soft seal (a flat sheet cut to shape, a cord or tube laid in a groove, or a bead of silicone dispensed onto one part), the two rigid parts it sits between (often a groove in the box and a ridge or tongue on the lid), and the screws, latches or clips that squeeze it (Wikipedia 'Gasket'; Hackaday.io 'Water Resistant 3D Printed Enclosures').
+
+## Everyday examples
+
+- The rubber seal round a rugged phone's battery cover, rated IP67 (Wikimedia Commons photo of a CAT B25 cover)
+- The silicone ring in the lid of a clip-lock food storage box (Prusa tested a printed copy of a Lock&Lock (brand) box with a gasket)
+- The gasket under a car engine's valve cover or cylinder head (Wikipedia 'Gasket', see also 'Head gasket')
+- The seal round the door of an outdoor electrical cabinet or junction box (Stockwell 'Enclosure Gaskets')
+- The rubber or fibre washer inside a tap (faucet) that seals its valve against water leaks: a small ring gasket usually just called a washer (Wikipedia 'Washer (hardware)')
+
+## When to use it
+
+Use a gasket to seal a lid, door, panel or flange that is square, long or an odd shape, where a round [O-ring](../glossary.md#o-ring) won't fit, and where the faces are not perfectly flat or smooth, since the soft material fills the unevenness. It suits printed and moulded project boxes, junction boxes, outdoor sensor cases, access panels and pipe flanges, and splash-proof to briefly submersible boxes. Choose a cord-in-groove gasket for printed boxes that you open now and then, a flat foam or sheet gasket for light dust and splash sealing, and a formed-in-place silicone bead for a joint you rarely or never open. For a single bolt, drain plug or threaded port, use a sealing washer, which is a small ring gasket: a rubber or fibre washer for taps and water joints, a bonded seal (Dowty washer), whose 'central rubber ring' gives 'a strong seal against high pressure liquid or gas' and, because its steel outer ring holds the rubber in place, needs no groove in the parts (Wikipedia 'Bonded seal'), or a crush washer of soft aluminium or copper, used to seal fluid or gas connections in hydraulic systems and engines (Wikipedia 'Washer (hardware)'). The Parallel pipe thread with a sealing washer entry shows how these seal straight-threaded pipe and hose joints.
+
+## When not to use it
+
+For a round opening that must be really watertight or hold pressure, use an O-ring (Prusa found O-rings far more reliable than gaskets at depth). For a moving shaft or rod, use an O-ring, lip seal or labyrinth seal, since gaskets are static only. To keep out only dust and rain with no rubber to wear or lose, a labyrinth (overlapping lip) may be enough. For cables through the wall, use a cable [gland](../glossary.md#gland). For a permanently closed joint, a silicone sealant or glue is simpler. Avoid thin, flexible printed lids with few screws for anything that must survive immersion; they bow and leak.
+
+## Details
+
+- **What it does (jobs):**
+  - seal it, or pass cables or fluid through: seals a lid, door, panel or flange against water and dust
+  - glue or bond: a formed-in-place gasket also bonds the two faces together (ThreeBond Technical News 91)
+- **Movement:** none: gaskets are static seals; they are squeezed once and stay still (Wikipedia 'Gasket').
+- **Directions it can move (degrees of freedom):** 0: the gasket sits between parts that are fixed together by screws, latches or clips; it does not guide or allow any motion.
+- **Special behaviour:**
+  - none: it just seals. A formed-in-place gasket is also an adhesive, so the joint becomes semi-permanent (ThreeBond Technical News 91)
+- **How it holds:**
+  - not a holding joint (it moves or passes on motion): a flat, cord or cured-in-place gasket does not hold the parts together; screws, latches or clips do, and the gasket seals by spring force (the squashed rubber or foam pushes back on both faces)
+  - [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): a formed-in-place gasket [cures](../glossary.md#cure) while touching both faces and bonds them, acting as gasket and adhesive together (ThreeBond Technical News 91)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** light: the gasket carries no useful load; it pushes the lid off with a steady force (its compression force [deflection](../glossary.md#deflection), CFD), from about 2 psi (14 kPa) at 25% compression for soft foams to over 40 psi (280 kPa) for firm ones, which can bend thin plastic lids, warp panels and overload snap-fit latches if too stiff (Rogers Corporation).
+- **Play and precision:** not applicable for locating: it does not position the parts. It tolerates rough or wavy faces better than an O-ring, which is its main advantage (Wikipedia 'Gasket'), but only up to its spare squeeze: if the lid bows between screws by more than the gasket can make up, it leaks (Fictiv). A tongue or ridge in a groove also lines the lid up ⚑ [uncertain].
+- **Taking it apart:** removable for flat, cord and cured-in-place gaskets (the lid unscrews and the gasket can be reused while it still springs back); semi-permanent (can be undone but may damage parts) for a formed-in-place gasket, which bonds both faces and has poor removability (ThreeBond Technical News 91).
+- **How often it can be reused:** a few times to many times for solid rubber and good closed-cell foam, as long as it still springs back (resists compression set); door gaskets that are opened often need a material chosen for rebound (Stockwell Elastomerics). Once for a formed-in-place (glued) gasket: it tears when separated and a new bead is needed ⚑ [uncertain].
+- **Sealing:** watertight: a well-squeezed solid silicone or closed-cell sponge gasket in a stiff, well-fastened enclosure can meet IP67 (1 m under water for 30 minutes) and NEMA 6 (Stockwell Elastomerics 'Submerged Gaskets'; Wikipedia 'IP code'). Open-cell foam gaskets are only suggested for indoor enclosures against dust, dirt and at most dripping or light splashing (NEMA types 1, 2 and 12), so they are dust-resistant, not watertight (Stockwell 'Enclosure Gaskets'). What makes it seal is the squeeze of a soft material filling the gap.
+- **Adjustable:** yes, a little: with a flat or foam gasket, tightening the screws squeezes it more, but over-squeezing makes it bottom out and take a permanent set, and uneven tightening causes leaks (Rogers; Wikipedia 'Gasket'). Designs with a hard stop (compression stop or limiter, or a wall that lands on the mating face) fix the squeeze and are not adjustable (Stockwell; ThreeBond).
+- **Access needed:** not applicable: the gasket sits between the two parts, fitted with the joint open.
+- **Materials:** Solid silicone rubber (10-70 Shore A; preferred for submersion because it holds up in salt water, resists UV and ozone and springs back well) (Stockwell 'Submerged Gaskets'); closed-cell sponge and foam (silicone, EPDM, neoprene, polyurethane such as PORON (brand)) for low closing force (Stockwell; Rogers); open-cell foam for dust only (Stockwell); cork, paper, fibre, felt, PTFE and metal for oil, fuel, heat and pipe flanges (Wikipedia 'Gasket'); silicone tubing or rubber cord for cord-in-groove (Hackaday.io); RTV silicone or UV-curing liquids for formed- or cured-in-place gaskets (Permatex; ThreeBond); printed TPU or foaming TPU for printed gaskets (CNC Kitchen; Prusa blog). The housing can be any rigid material; printed housings need thick, well-fused walls (Prusa blog).
+- **Heat, cold, water and wear:** Silicone gaskets resist UV, ozone and salt water and spring back well; other rubbers and foams age faster (Stockwell). Gasket life depends on UV, ozone, temperature, chemicals and wear (Stockwell 'Enclosure Gaskets'). All rubbers and foams slowly [creep](../glossary.md#creep) and take a permanent set under constant squeeze, so old gaskets stop springing back (Fictiv; Rogers). Rain on a hot box cools it and creates suction that can pull pooled water in past a gasket, so vent the enclosure (Stockwell). RTV silicone needs about 24 hours to cure, longer when cold or dry (Permatex). Printed housings soften: PLA from about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), and PLA lids creep under the steady push of the gasket (Thrinter).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: silicone or EPDM cord and tubing, foam weatherstrip, gasket sheet (rubber, cork, fibre), RTV silicone gasket maker (Permatex; pb-tec box; Hackaday.io)
+  - laser cut: silicone rubber, cork and many rubber sheets cut well into flat gaskets, but never laser-cut neoprene or other chlorine-containing materials (Materials Education 'Materials for Laser Cutter Machines')
+  - 3D print (FDM): print the housing with a groove and ridge; the gasket can be printed in TPU or cast in silicone in a printed mould (Printables pb-tec box; Prusa blog)
+  - 3D print (resin): flexible resins were tried for printed gaskets by Prusa but did not seal between printed parts (Prusa blog)
+  - cast in place: silicone caulk or two-part silicone poured into a groove or a printed mould (Prusa blog; Hackaday.io)
+  - CNC or woodwork: rigid lids and frames with a routed groove for a cord gasket ⚑ [uncertain]
+- **Printing it in one piece (print in place):** no: the gasket is usually a separate cord, sheet or cast part fitted after printing. A multi-material printer can print a TPU seal fused onto a rigid part in one job (Printables 'Multi Material TPU Container Watertight'), but Prusa found printed flexible gaskets did not seal between printed parts (Prusa blog).
+- **Tools:** screwdriver or nothing (latches) to close the joint. To make one: scissors, craft knife, hole punch or a laser cutter for sheet gaskets; a caulking gun and a spatula or printed mould for silicone gaskets; a flexible-filament printer for printed TPU gaskets (Prusa blog; Materials Education laser cutter guide)
+- **Difficulty:** easy to moderate: cutting a flat gasket or laying silicone cord in a printed groove is easy, but getting an even squeeze all round with a printed lid and screws takes design care and testing; printed TPU gaskets are often too hard to seal
+
+### 3D printing tips
+
+1) Pick the seal type: a bought rubber or silicone cord (or silicone aquarium tubing) in a printed groove is the most dependable maker option; cast silicone in a printed mould comes next; a printed TPU gasket is the least reliable. Prusa printed gaskets in Flexfill 98A and 92A, FilaFlex 40 and flexible resin, with and without ironing, and none held water, even screwed down hard enough to strip threads (Prusa blog). Typical TPU is about 95 Shore A (CNC Kitchen), much harder than the 10-70 Shore A silicone used for submerged gaskets (Stockwell), so choose the softest flexible filament you can print, or foaming TPU, which reaches about 65 Shore A when printed hot (CNC Kitchen varioShore test); some makers report printed TPU gaskets working well for splash-proof boxes (Printables 'Waterproof Housing Test', 'Outdoor Enclosure for Govee Light Controller'). 2) Groove and ridge: put a U-shaped groove in the box rim and a ridge (tongue) on the lid that presses into the cord. One tested design used 6 mm silicone aquarium tubing in the groove; its first lid let a little water in during 1-2 hour soaks, while a rounded 2.5 mm ridge on the lid kept it dry at 10 minutes, 1 hour and 2 hours under water, and ridges pressing into a groove of cured silicone sealant did not seal at all (Hackaday.io 'Water Resistant 3D Printed Enclosures'). The pb-tec parametric box uses a groove and ridge for 1-3 mm silicone sealing cord or a printed TPU gasket (Printables). 3) Join cord ends carefully: slide a short piece of smaller tube into both cut ends, or glue the ends (Hackaday.io); for solid rubber cord, use an O-ring splicing kit (Global O-Ring and Seal). 4) Round the groove corners: at least 3 times the cord thickness, or the cord creases and leaks (Parker O-Ring Handbook, rectangular face seals). 5) Keep all screws outside the gasket line so screw holes can't leak (Hackaday.io 'OpenDendrometer'). 6) Use enough screws and a stiff lid: a lid screwed only at the corners bows open in the middle (Fictiv; Stockwell); add ribs or thickness to printed lids. 7) Aim for about 25-35% squeeze of the gasket (Rogers) and let the lid land on a hard stop so the squeeze can't be overdone. 8) Make the walls watertight too: 3+ [perimeters](../glossary.md#perimeters), 2-3 mm walls, smooth sealing faces printed against the bed or ironed (Prusa blog). 9) Cast gaskets: print a two-piece mould and fill it with silicone caulk, or dispense a bead into the groove; it is messy and takes skill (Prusa blog). Letting a silicone bead cure in the groove before closing (cured-in-place) did not seal in one maker's test (Hackaday.io), so test before trusting it. 10) Wipe a thin film of silicone grease on the gasket (Printables 'Outdoor Enclosure for Govee Light Controller'; Prusa blog). 11) Test: tissue paper inside, sink it for 10 minutes to 2 hours, and check for damp (Hackaday.io).
+
+### Buying one (off-the-shelf parts)
+
+Search for: 'silicone sealing cord' or 'silicone O-ring cord' (1-3 mm for small printed boxes; pb-tec), 'silicone tubing' (e.g. 6 mm aquarium tubing; Hackaday.io), 'EPDM foam cord' or 'closed-cell sponge cord', 'self-adhesive foam weatherstrip', 'gasket sheet' (silicone, EPDM, neoprene, cork, fibre) cut to shape, 'closed-cell silicone sponge sheet', 'PORON (brand) polyurethane foam' (Rogers), 'RTV silicone gasket maker' (e.g. Permatex Ultra Grey (brand), a formed-in-place gasket), 'O-ring splicing kit' for joining cord (Global O-Ring and Seal), 'compression limiter' (a metal sleeve that stops the gasket being over-squeezed under a screw; Stockwell), and ready-made 'IP65' or 'IP67 junction box' enclosures with gaskets. For EMI shielding there are electrically conductive gaskets (Stockwell).
+
+## Rules of thumb
+
+- Compression: choose a gasket slightly thicker than the final gap so it is squeezed about 25-35%; too much makes it bottom out and stop springing back, too little leaves leak paths (Rogers Corporation, 'The Mechanics of Enclosure Seal Design').
+- Closing force (CFD) at 25% compression: under 10 psi (about 70 kPa) for easy closing and plastic housings; 10-30 psi balanced; over 30 psi for heavy bolted enclosures (Rogers).
+- Wider seals leak much less: a 3.175 mm thick silicone gasket at 1.5 psi water pressure leaked 47.3 mL/min at 3.175 mm wide, 12 mL/min at 6.35 mm and 1.5 mL/min at 12.7 mm wide (Rogers).
+- Cured-in-place bead: conventional UV-cured beads were designed for 20-40% compression of the bead height; a single wall that lands on the mating face gives a stable compression ratio and shields the bead from water, oil and dust (ThreeBond Technical News 91, 2018).
+- Formed-in-place RTV silicone: 2-6 mm (1/16-1/4 in) bead on one surface around all bolt holes, assemble while wet, finger-tighten until it squeezes out, wait one hour, then tighten 1/4-1/2 turn more; skins in 1 hour, fully cures in 24 hours (Permatex Ultra Grey instructions).
+- Water versus dust: closed-cell foam, closed-cell sponge or solid rubber for rain, hosing or submersion (NEMA 3, 4, 6); open-cell foam only for dust and dripping water indoors (NEMA 1, 2, 12) (Stockwell 'Enclosure Gaskets').
+- Submersion (IP67, NEMA 6): 1 m depth; any small gap or under-compressed spot lets water flow in; use soft, low-durometer material, well-spaced fasteners, a rigid housing and a groove or adhesive backing to hold the gasket in place (Stockwell 'Submerged Gaskets').
+- Rectangular grooves for rubber cord: inside corner radii at least 3 times the cord diameter (Parker O-Ring Handbook ORD 5700A, section 4.3, rule for rectangular face seals with standard O-rings).
+- Flange faces: a machined finish of about 32 RMS is a common target; too smooth lets the gasket blow out, too rough or not flat leaves leak paths (Wikipedia 'Gasket').
+
+## Common failures
+
+Printed TPU gasket too hard to fill the gaps, so it leaks however hard you tighten (Prusa blog). Lid bowing between screws, so the middle of each side opens up (Fictiv; Stockwell; Wikipedia 'uneven distributed pressing force'): add screws, stiffen the lid. Over-squeezing so the gasket bottoms out and takes a set, or under-squeezing so gaps remain (Rogers). Old gasket permanently flattened (compression set; Fictiv) or loosened bolts from [stress relaxation](../glossary.md#stress-relaxation) (Wikipedia). A leak at the joint where the cord's ends meet (Hackaday.io). A cured silicone bead in the groove that doesn't meet the lid everywhere (Hackaday.io). Gasket sliding out of place when the lid closes: seat it in a groove or use adhesive backing (Stockwell). Screw holes inside the seal line becoming leak paths (Hackaday.io 'OpenDendrometer'). Water pulled in as a hot box cools (Stockwell). Porous printed walls leaking even though the gasket is fine (Prusa blog).
+
+## Safety
+
+Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it gives off toxic, corrosive hydrogen chloride gas; if you don't know what the rubber is, don't cut it (Materials Education 'Materials for Laser Cutter Machines'). Epoxy used to seal printed walls needs gloves and a respirator (Prusa blog). A gasketed printed box is not a certified enclosure: use a proper IP-rated box for mains voltage (Printables 'Outdoor Enclosure for Govee Light Controller' author's note).
+
+## Related
+
+- O-ring seal: a round rubber ring in a precise groove; more reliable and pressure-proof, but needs a round or large-radius groove and a standard ring size
+- Labyrinth seal (baffle seal): an overlapping lip or winding path that keeps out dust and splashes with no rubber at all; often added in front of a gasket to shield it from direct water jets (Stockwell)
+- Silicone and MS-polymer adhesive sealants: the same material as a formed-in-place gasket, used to seal and bond permanently
+- Cable gland and strain relief: seals cables passing through the gasketed box
+- Draw latch ([over-centre](../glossary.md#over-centre) latch): a common way to pull a gasketed lid down evenly without tools
+- Tongue-and-groove joint: the joinery cousin; in enclosures the tongue on the lid presses the gasket into the groove
+- Double-sided foam tape (acrylic foam pressure-sensitive adhesive): bonds a panel on with a foam layer that may also act as a light seal ⚑ [uncertain]
+- Parallel pipe thread with a sealing washer: a straight-threaded pipe or hose joint in which a small ring gasket (washer, bonded seal or O-ring) squeezed against a flat face does the sealing
+- Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen [spline](../glossary.md#spline)) instead of sealing a lid
+
+## Make it yourself
+
+- [Customizable parametric stable and waterproof electronics IP65 IP67 project box (pb-tec, Printables)](https://printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec): OpenSCAD customizer box with a groove and ridge round the rim for 1-3 mm silicone sealing cord or a printed TPU gasket, screws at the corners, and options for cable-gland holes; the author notes he never tested its water-proofness. Details read through the Printables public API. *(licence: CC BY-NC-SA)*
+- [Flexible filament test (TPU/TPE) for enclosure gasket (Taneli R, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/63204-flexible-filament-test-tputpe-for-enclosure-gasket): Quick 41 x 41 x 12 mm test print: a rigid PLA or PETG body with a flexible gasket part, to try your flexible filament as a gasket before designing a full box *(licence: CC0 (Creative Commons Public Domain))*
+- [Outdoor Enclosure for Govee Light Controller | TPU Gasket (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1505724-outdoor-enclosure-for-govee-light-controller-tpu-g): PETG enclosure with a printed TPU gasket, 4 M3 screws into heat-set inserts, dual 6 mm cable pass-throughs and optional silicone grease; no formal IP rating claimed *(licence: CC BY-NC)*
+- [Multi Material TPU Container Watertight (Meister Edel, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1243819-multi-material-tpu-container-watertight): Small PLA container with a TPU lid printed in one multi-material job, the two materials locked together by small barbs; a test of printing a flexible seal fused to a rigid part *(licence: CC BY-NC-SA)*
+
+## Pictures, videos and models
+
+- [Gasket.svg (Wikimedia Commons, by Mysid)](https://commons.wikimedia.org/wiki/File:Gasket.svg): Diagram of a gasket (orange) used as a face seal between two pipe flanges *(licence: Public domain)*
+- [CAT-B25-Battery-Cover.jpg (Wikimedia Commons, by MarcoTangerino)](https://commons.wikimedia.org/wiki/File:CAT-B25-Battery-Cover.jpg): Photo of a rugged phone's battery cover with a rubber gasket all round it, giving IP67 dust and water resistance, held by two screws *(licence: Public domain)*
+- [Joints plats.JPG (Wikimedia Commons, by Nerijp)](https://commons.wikimedia.org/wiki/File:Joints_plats.JPG): Photo of various flat gaskets cut from sheet *(licence: GFDL 1.2+ or CC BY-SA 3.0 / 2.5 / 2.0 / 1.0 (multi-licensed))*
+- [Water Resistant 3D Printed Enclosures (Hackaday.io project)](https://hackaday.io/project/174011-water-resistant-3d-printed-enclosures): Cross-section photos of printed lid ridges pressing silicone aquarium tubing into a U-channel, with submersion test results for tubing versus cured silicone sealant *(licence: link only)*
+- [The Mechanics of Enclosure Seal Design: Gap Spacing, CFD, and Compressibility (Rogers Corporation, 2025)](https://www.rogerscorp.com/blog/2025/the-mechanics-of-enclosure-seal-design-gap-spacing-cfd-and-compressibility): Charts of gasket compression force versus deflection and of leak rate versus gasket width *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Research note: *Gasket* (131): EPDM-backed roofing washers left out (not on the Wikipedia page).
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Gasket>
+- <https://en.wikipedia.org/wiki/IP_code>
+- <https://www.threebond.co.jp/en/technical/technicalnews/pdf/TechnicalNews91.pdf>
+- <https://www.rogerscorp.com/blog/2025/the-mechanics-of-enclosure-seal-design-gap-spacing-cfd-and-compressibility>
+- <https://www.stockwell.com/submerged-gaskets/>
+- <https://www.stockwell.com/enclosure-gaskets/>
+- <https://www.fictiv.com/articles/nothing-gets-in-waterproof-enclosure-design-101-and-ip68>
+- <https://blog.prusa3d.com/watertight-3d-printing-part-2_53638/>
+- <https://hackaday.io/project/174011-water-resistant-3d-printed-enclosures>
+- <https://hackaday.io/project/185224/log/207087-3d-printed-weatherproof-enclosure>
+- <https://www.permatex.com/products/gasketing/gasket-makers/grey-gasket-makers/permatex-ultra-grey-rtv-silicone-gasket-maker-3-5-oz/>
+- <https://www.cnckitchen.com/blog/testing-colorfabb-varioshore-tpu-foaming-3d-printing-filament>
+- <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
+- <http://thrinter.com/creep-abs-pla-petg-alloy-910/>
+- <https://www.materialseducation.org/educators/matedu-modules/docs/Laser_Cutter_Materials.pdf>
+- <https://wp.optics.arizona.edu/optomech/wp-content/uploads/sites/53/2016/10/Parker-O-ring-handbook.pdf>
+- <https://www.globaloring.com/o-ring-splicing-kits/>
+- <https://commons.wikimedia.org/wiki/Category:Gaskets>
+- <https://commons.wikimedia.org/wiki/File:Gasket.svg>
+- <https://commons.wikimedia.org/wiki/File:CAT-B25-Battery-Cover.jpg>
+- <https://commons.wikimedia.org/wiki/File:Joints_plats.JPG>
+- <https://api.printables.com/graphql/>
+- <https://printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec>
+- <https://www.printables.com/model/12311-waterproof-housing-test-tpu-o-ring>
+- <https://en.wikipedia.org/wiki/Washer_(hardware)>
+- <https://en.wikipedia.org/wiki/Bonded_seal>

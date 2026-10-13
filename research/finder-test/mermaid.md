@@ -3,7 +3,7 @@
 ```mermaid
 flowchart LR
   q0{"What do you need it to do?"}
-  a1["Hold two things together (they stay still) · 225"]
+  a1["Hold two things together (they stay still) · 226"]
   q0 --> a1
   q2{"What are you joining?"}
   a1 --> q2
@@ -22,7 +22,7 @@ flowchart LR
   a7["Strap, cord, rope or fabric · 32"]
   q2 --> a7
   class a7 more
-  a8["A lid, door or cover that opens and closes · 29"]
+  a8["A lid, door or cover that opens and closes · 30"]
   q2 --> a8
   class a8 more
   a9["Something onto a wall, desk, bar, tripod, rail or grid · 26"]
@@ -200,7 +200,7 @@ flowchart LR
   classDef more fill:#fff4e5,stroke:#b26a00
 ```
 
-### Branch 1: Hold two things together (they stay still) (225 entries)
+### Branch 1: Hold two things together (they stay still) (226 entries)
 
 ```mermaid
 flowchart LR
@@ -212,11 +212,11 @@ flowchart LR
   a75(["No, never (permanent) · 10"])
   q74 --> a75
   class a75 leaf
-  a76["Yes · 15"]
+  a76["Yes · 16"]
   q74 --> a76
   q77{"Is there a screw or bolt?"}
   a76 --> q77
-  a78(["Yes · 6"])
+  a78(["Yes · 7"])
   q77 --> a78
   class a78 leaf
   a79(["No (clips, pins, rings, magnets) · 9"])
@@ -328,11 +328,11 @@ flowchart LR
   a121(["Fix it to fabric or leather, or hold a fabric edge · 4"])
   q118 --> a121
   class a121 leaf
-  a122["A lid, door or cover that opens and closes · 29"]
+  a122["A lid, door or cover that opens and closes · 30"]
   q72 --> a122
   q123{"How should it open?"}
   a122 --> q123
-  a124(["It swings open on a hinge, or stays open at an angle · 6"])
+  a124(["It swings open on a hinge, or stays open at an angle · 7"])
   q123 --> a124
   class a124 leaf
   a125(["Twist a lid, knob or fastener · 6"])

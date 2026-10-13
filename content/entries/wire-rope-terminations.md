@@ -1,0 +1,278 @@
+---
+title: Wire-rope terminations
+description: A way of finishing steel wire rope with a loop (usually wrapped round a grooved thimble) or an end stop, held
+  either by U-bolt clips clamped over the doubled rope or by a soft metal sleeve crushed onto it with a crimping tool, so
+  the rope can be hooked, shackled or anchored without fraying or slipping.
+num: 376
+term: Wire-rope termination (wire-rope clip and thimble eye; crimped or swaged sleeve)
+plain_name: 'Ways to make a loop or a stopper on the end of steel cable: bend the cable round a grooved metal teardrop so
+  the loop keeps its shape, then clamp the loose tail back onto the cable with U-shaped bolt clamps, or squash a soft metal
+  tube round both strands with a crimping tool'
+aliases:
+- wire rope clip, wire rope clamp, U-bolt clip, U-bolt wire rope grip (Wikipedia 'Wire rope'; Crosby; BSI EN 13411-5)
+- 'bulldog grip, bulldog clip, ''dogs'' (UK) (Arthur Beale: wire rope grips ''are often called "Bulldog Clips" or just "Dogs"'')'
+- fist grip, double-saddle clip (Fist Grip is a Crosby brand name) (CERTEX catalogue)
+- simplex and duplex wire rope clips (one- and two-bolt plate clamps; catalogue names) (S3i)
+- thimble, wire rope thimble, hard eye (eye with thimble) vs soft eye (no thimble) (Wikipedia; S3i)
+- crimped sleeve, ferrule, swaged sleeve, oval sleeve, duplex sleeve, turn-back ferrule, cable crimp, wire rope sleeve (Nicopress;
+  S3i)
+- Nicopress sleeve (brand), Talurit ferrule (brand), aluminium ferrule to EN 13411-3 (Nicopress; S3i)
+- stop sleeve, end stop, crimped stop, barrel ferrule (single-hole sleeve crimped on the end of a cable) (Nicopress)
+- swage tube or 'swage' (RC modelling name for a short bronze or brass crimp tube) (Model Airplane News)
+- eye splice, Flemish eye, Dutch splice, 'Molly Hogan' (spliced wire-rope eyes, mentioned here only) (Wikipedia)
+- 'swaged fittings and sockets: swage socket, swage stud, swage eye (Wikipedia; CERTEX)'
+- wedge socket, Terminator (Crosby brand) (CERTEX)
+- poured socket, spelter socket, zinc-poured or resin-poured socket, potted end (Wikipedia; CERTEX)
+- pull-pull cable end, servo cable loop (RC models) (Model Airplane News)
+family: cord, strap, webbing & textile hardware
+other_families: ['tensioning, reels & take-up']
+finder:
+  job: [join and hold]
+  motion: none
+  special_behaviour: []
+  holding_principle: [friction or clamping, shape]
+  reuse_cycles: once
+  seal: none
+  access_needed: not applicable
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), sheet metal]
+  connects: ['strap, cord or fabric']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [crimper, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: partly
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Wire-rope terminations*: clip count and spacing recorded side by side (Crosby sheet 56: 2 clips up to 7/16 in rope,
+    80%/90% efficiency; WorkSafeNB: ''at least three clips'', ''up to 85%'', though its own reprinted table lists 2; OSHA
+    1926.251 Table H-2 from 1/2 in rope: 3 drop-forged or 4 other clips, about 6 rope diameters apart; Wikipedia its own range).
+    No efficiency for small crimped sleeves and no reuse limit for clips were found ([uncertain]).'
+uncertain_fields: [removability, reuse_cycles, load, play_and_precision, making_tips_3d_printing, environment_limits, safety_notes]
+diagram_idea: 'Three side-by-side drawings of a rope eye: (1) a thimble eye with three U-bolt clips, U-bolts on the short
+  dead end and saddles on the long live end, with the first clip one saddle width from the tail and the second next to the
+  thimble; (2) the same eye held by one crimped oval sleeve with the tail just showing; (3) a single-hole stop sleeve on a
+  cable end bearing on a printed part, with an arrow showing the cable wrapped round a drum first so friction takes most of
+  the load.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg
+  title: Wire rope with thimble and ferrule.jpg (Wikimedia Commons, Bernard S. Jansen)
+  shows: A loop of wire rope wrapped round a thimble and held by a crimped ferrule
+  license: CC BY-SA 2.5
+- url: https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg
+  title: Wire rope clamps.jpg (Wikimedia Commons, Wasrts)
+  shows: A row of U-bolt wire rope clips holding a rope on logging equipment
+  license: CC BY-SA 4.0
+- url: https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf
+  title: 'Crosby Clips: Warnings and Application Instructions (The Crosby Group, sheet 56)'
+  shows: 'Figures 1-6: clip direction, first and second clip positions, equal spacing, the extra clip for a sheave, and two
+    ways to join ropes with clips, plus the clip-count, turn-back and torque table'
+  license: link only (copyright The Crosby Group)
+- url: https://www.modelairplanenews.com/giant-scale-pull-pull-cable-installation-made-easy/
+  title: Giant Scale Pull-Pull Cable Installation Made Easy (Model Airplane News)
+  shows: Photos of making a crimped loop on a threaded stud with a bronze swage tube, and the finished pull-pull rudder cables
+  license: link only (licence not stated)
+- url: https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG
+  title: Spelter socket open.JPG (Wikimedia Commons, BoH)
+  shows: An open spelter (poured) socket on the end of a wire rope, an industrial termination mentioned for comparison
+  license: GFDL or CC BY-SA 3.0/2.5/2.0/1.0
+make_it_yourself:
+- url: https://www.printables.com/model/1351058-drahtseil-klemmstopper-wire-rope-clamp-stopper
+  title: Drahtseil Klemmstopper / Wire rope clamp stopper (Nolli, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printed screw-clamp end stop for 2 to 2.5 mm wire rope with an M4x10 screw and M4 nut; printed upright in
+    PETG without supports and used on a patio sun shade
+  license: Creative Commons Attribution-NonCommercial-ShareAlike
+- url: https://www.printables.com/model/191390-wire-rope-clamp
+  title: Wire rope clamp (Otomar, Printables) (URL from Printables API, page not opened)
+  what_it_is: A small printed wire rope clamp closed with an M4x12 screw and nut, for light household jobs
+  license: Creative Commons Attribution-NonCommercial
+- url: https://www.printables.com/model/847016-wireropecable-clamp-with-hanging-loop
+  title: wire/rope/cable clamp with hanging loop (Flounder, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printed clamp with a ring underneath for hanging flags from an overhead cable; M5 bolt, fits 1/16 to 3/32
+    in vinyl-coated wire rope
+  license: Creative Commons Attribution-NonCommercial-ShareAlike
+- url: https://www.printables.com/model/439245-mon-cheri-bicycle-cable-crimp
+  title: mon-cheri · bicycle cable crimp (LES ORIGINAL, Printables) (URL from Printables API, page not opened)
+  what_it_is: Removable printed end caps for bicycle brake and gear cables, held by an M3 or M4 grub screw; FreeCAD source
+    included
+  license: Creative Commons Attribution-NoDerivatives
+sources:
+- https://en.wikipedia.org/wiki/Wire_rope
+- https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf
+- https://certex.com/wp-content/uploads/2024/01/204522-CERTEX_SEC4_WIREROPETERMINATIONS.pdf
+- https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.251
+- https://www.worksafenb.ca/safety-talk/en/15-wire-rope-cable-clips.html
+- https://www.nicopress.com/media/documents/Nicopress_Instruction_32_Metric_05-12.pdf
+- https://www.s3i.co.uk/aluminium-ferrule-standard.php
+- https://arthurbeale.co.uk/products/wire-rope-grip-stainless-steel
+- https://www.arthurbeale.co.uk/products/commercial-wire-rope-grip-din-741
+- https://shop-checkout.bsigroup.com/products/terminations-for-steel-wire-ropes-safety-u-bolt-wire-rope-grips
+- https://www.modelairplanenews.com/giant-scale-pull-pull-cable-installation-made-easy/
+- https://www.osti.gov/servlets/purl/1340266
+- https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg
+- https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg
+- https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Wirerope_terminations_wirerope_clip_thimble_crimped_sleeve.json
+glossary: [torque, form-fit--force-fit--material-bond, counterbore--countersink, creep, perimeters, peel-vs-shear, regulator]
+---
+
+A way of finishing steel wire rope with a loop (usually wrapped round a grooved thimble) or an end stop, held either by U-bolt clips clamped over the doubled rope or by a soft metal sleeve crushed onto it with a crimping tool, so the rope can be hooked, shackled or anchored without fraying or slipping.
+
+**In plain words:** Ways to make a loop or a stopper on the end of steel cable: bend the cable round a grooved metal teardrop so the loop keeps its shape, then clamp the loose tail back onto the cable with U-shaped bolt clamps, or squash a soft metal tube round both strands with a crimping tool. **Proper term:** Wire-rope termination (wire-rope clip and thimble eye; crimped or swaged sleeve).
+
+**Also called:** wire rope clip, wire rope clamp, U-bolt clip, U-bolt wire rope grip (Wikipedia 'Wire rope'; Crosby; BSI EN 13411-5); bulldog grip, bulldog clip, 'dogs' (UK) (Arthur Beale: wire rope grips 'are often called "Bulldog Clips" or just "Dogs"'); fist grip, double-saddle clip (Fist Grip is a Crosby brand name) (CERTEX catalogue); simplex and duplex wire rope clips (one- and two-bolt plate clamps; catalogue names) (S3i); thimble, wire rope thimble, hard eye (eye with thimble) vs soft eye (no thimble) (Wikipedia; S3i); crimped sleeve, ferrule, swaged sleeve, oval sleeve, duplex sleeve, turn-back ferrule, cable crimp, wire rope sleeve (Nicopress; S3i); Nicopress sleeve (brand), Talurit ferrule (brand), aluminium ferrule to EN 13411-3 (Nicopress; S3i); stop sleeve, end stop, crimped stop, barrel ferrule (single-hole sleeve crimped on the end of a cable) (Nicopress); swage tube or 'swage' (RC modelling name for a short bronze or brass crimp tube) (Model Airplane News); eye splice, Flemish eye, Dutch splice, 'Molly Hogan' (spliced wire-rope eyes, mentioned here only) (Wikipedia); swaged fittings and sockets: swage socket, swage stud, swage eye (Wikipedia; CERTEX); wedge socket, Terminator (Crosby brand) (CERTEX); poured socket, spelter socket, zinc-poured or resin-poured socket, potted end (Wikipedia; CERTEX); pull-pull cable end, servo cable loop (RC models) (Model Airplane News).
+
+## How it works
+
+Wire rope can't be knotted well and frays when cut, so its end is turned back to form a loop and the loose end (the dead end) is fixed back onto the loaded part (the live end) (Wikipedia 'Wire rope'). A thimble inside the loop keeps it from bending too tightly and protects it from pinching and wear where it meets a shackle or hook (Wikipedia). U-bolt clips hold the two strands by squeezing them between the U-bolt and the saddle, so friction stops the tail sliding; the saddle goes on the live end, because the U-bolt crushes the rope under it ('never saddle a dead horse') (Crosby; Wikipedia). A crimped sleeve is a soft copper, aluminium or stainless tube that a crimping tool deforms round both strands (or round a single strand for an end stop), locking them by squeezing and shape; a gauge checks that it was pressed enough (Nicopress).
+
+## Parts
+
+A few parts. Clip eye: the rope, a thimble, two or more wire rope clips (each a U-bolt, a forged saddle and two nuts) (Wikipedia 'Wire rope'; Arthur Beale). Crimped eye: the rope, a thimble (optional), one oval (two-hole) sleeve, and a crimping tool with its gauge (Nicopress; S3i). Crimped end stop: one single-hole stop sleeve (Nicopress). Industrial sockets: a forged socket plus a wedge (wedge socket) or poured zinc or resin (spelter socket) (CERTEX).
+
+## Everyday examples
+
+- Galvanised clips on a garden zip line, washing line or trellis wire, and on logging equipment (Commons photo 'Wire rope clamps')
+- A thimble eye with a crimped aluminium ferrule on a sling, guy wire or wire balustrade (Commons 'Wire rope with thimble and ferrule'; S3i)
+- The crimped loops on the rudder cables of a large RC model aircraft (Model Airplane News)
+- Crimped stops and end caps on bicycle brake and gear cables (Printables 439245; see Bowden cable)
+
+## When to use it
+
+Use a termination whenever steel wire rope or aircraft cable has to be fixed to something: guy wires, zip lines, trellis and fence wires, sun-shade and lighting catenaries, hanging displays, boat lifelines, winch and pulley ropes, robot tendons and capstan drives, and RC pull-pull control cables (Wikipedia; Model Airplane News; Mazumdar et al.). Choose clips with a thimble for a quick, adjustable eye that needs only a spanner, especially on larger ropes or temporary rigs (Crosby). Choose crimped sleeves for a neat, compact, permanent eye or end stop on small cable (about 1 to 6 mm), where clips would be bulky, and for tendons and pull-pull cables (Nicopress; Model Airplane News). Choose a screw-clamp stopper (metal or, for very light loads, printed) when the stop position must be adjustable (Printables 1351058).
+
+## When not to use it
+
+Never for anything that lifts or holds people (climbing, swings, harnesses, personnel hoists, scaffolds): Crosby notes that ANSI A17.1 and A10.4 'do not recommend' U-bolt clips there, and such systems need certified equipment. For overhead lifting of loads, buy rated, marked and proof-tested slings and terminations and have them inspected (OSHA 1926.251; BSI EN 13411-5; Arthur Beale: 'Lifting operations should always be carried out by a competent qualified person'). Not on fibre rope or Dyneema-type cord: use splices, knots or cord terminations instead (see Rope splices, Stopper knots and cord-end anchors). Clips are a poor choice on plastic-coated rope (Crosby) and on very thin cable where a crimp is neater. Aluminium ferrules are wrong for 1x19 strand and for stainless rope at the coast (S3i). Swaging is not recommended on fibre-core rope (Wikipedia). For a joint you will adjust often, use a turnbuckle, threaded stud or wedge socket rather than re-crimping.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: makes a loop or end stop so steel rope can be fixed to a hook, shackle, eye bolt, turnbuckle, pulley horn or tendon anchor, or so two ropes can be joined (Crosby; Nicopress)
+- **Movement:** none: the termination itself doesn't move; a loop round a pin or shackle can swivel on it.
+- **Directions it can move (degrees of freedom):** 0 between rope and fitting; a thimble eye on a pin or shackle can still rotate about the pin (1), but it is not meant as a bearing.
+- **Special behaviour:**
+  - none: it simply holds. (A wedge socket grips harder as the load rises, which is self-tightening rather than one of the listed behaviours; CERTEX.)
+- **How it holds:**
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): U-bolt clips squeeze the two strands together (Wikipedia 'Wire rope'); a crimped sleeve is pressed tight round the rope (Nicopress); a wedge socket clamps the rope between wedge and socket, gripping tighter as the load rises (Wikipedia; CERTEX)
+  - shape (the parts interlock; form-fit): the thimble locks the loop's shape onto the pin or shackle; the deformed sleeve and, in a poured socket, the cone of metal or resin round splayed wires can't pull through the narrow end (Wikipedia; CERTEX)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed).
+- **Load:** Light to heavy, set by the rope size and the termination's efficiency (its strength as a share of the rope's minimum breaking force). It carries pull along the rope only; wire rope carries no push, and a termination should not be bent or side-loaded where it leaves the fitting. Efficiencies differ by method and source: clips 80% for sizes 1/8 to 7/8 in and 90% from 1 in (Crosby), 'up to 85%' (WorkSafeNB); wedge socket 80% (CERTEX); spelter and swage sockets 100% (CERTEX); Flemish eye about 70%, nearly 90% with a splice, 100% for potted ends and swagings (Wikipedia, marked 'citation needed'). No efficiency figure was found on the opened Nicopress sheet for small crimped sleeves ⚑ [uncertain]. For printed clamp stoppers, the load is whatever friction the screw clamp gives: light only (Printables 1351058).
+- **Play and precision:** Small. A crimped eye has no slip once pressed (Nicopress). Clip eyes settle as the rope beds in, so the nuts loosen and must be re-tightened (Arthur Beale: retighten 'the following day'; Crosby: re-check [torque](../glossary.md#torque) after the first load). New wire rope also stretches slightly as its strands bed in ⚑ [uncertain]. For pull-pull and tendon drives, set both cable runs to the same geometry and remove slack without over-tightening, or the servo is side-loaded (Model Airplane News).
+- **Taking it apart:** Depends on method. Clips: removable with a spanner, but the rope under the U-bolts is crushed, so cut that part off before reusing the rope ⚑ [uncertain: no opened source states this]. Wedge sockets: removable; they are used where the rope end is trimmed and the socket refitted often (Wikipedia). Crimped sleeves, swaged fittings and poured sockets: permanent; cut the rope to remove them (Wikipedia: swaging creates 'a permanent connection').
+- **How often it can be reused:** once for crimped sleeves, swaged fittings and poured sockets (Wikipedia). Clips and thimbles: a few times ⚑ [uncertain: makers' reuse limits were not found]; inspect them and the rope each time.
+- **Sealing:** none.
+- **Adjustable:** Partly. Clips can be loosened, slid and re-tightened, and must be re-tightened after the first load (Crosby; Arthur Beale); wedge sockets can be refitted (Wikipedia). Crimped sleeves can't be adjusted, so set the length with a turnbuckle or threaded stud: in RC pull-pull systems the crimped loop goes round a threaded stud screwed into a clevis, leaving two-thirds of the stud for tension adjustment (Model Airplane News).
+- **Access needed:** not applicable: it is made on the free end of the rope, usually before the rope is fitted; you need room round the rope for a spanner or crimping tool.
+- **Materials:** Rope: galvanised steel or stainless steel wire rope (7x7, 7x19, 1x19 and 6x19-class constructions), sometimes plastic-coated (S3i; Crosby). Clips: galvanised drop-forged steel (Crosby G-450), 316 stainless (Crosby SS-450), cheaper commercial clips to DIN 741, and lifting-grade grips to EN 13411-5/DIN 1142 (Crosby; Arthur Beale). OSHA requires more clips when they are made of material other than drop-forged steel (OSHA 1926.251 Table H-2). Sleeves: plain or zinc-plated copper on galvanised cable, tin-plated copper or stainless on stainless cable (Nicopress); aluminium ferrules to EN 13411-3 for galvanised 7x19, not 1x19 and not stainless in marine or coastal use (S3i); bronze tube for RC crimps, as brass 'is too hard and can often crack or split' (Model Airplane News). Thimbles: galvanised or stainless steel, or nylon for light use (S3i). Not for fibre ropes (use splices and knots), and fibre-core wire ropes should not be swaged (Wikipedia).
+- **Heat, cold, water and wear:** Corrosion: match metals to avoid galvanic attack, e.g. no aluminium ferrules on stainless in marine or coastal use (S3i) and copper or stainless sleeves to suit the rope (Nicopress); stainless clips and thimbles for wet and coastal sites (Crosby SS-450). Heat: OSHA says fibre-core wire rope slings must be withdrawn after exposure above 200 °F (93 °C), and other wire rope slings used above 400 °F (204 °C) or below -60 °F need the maker's advice (OSHA 1926.251(c)(14)). Settling and vibration: clips loosen as the rope beds in, so re-tighten after first load and inspect periodically (Crosby; Arthur Beale; Wikipedia). Printed stoppers: PLA [creeps](../glossary.md#creep) under constant load (maker note, Printables 415716); prefer PETG outdoors (Printables 1351058; Printables 439245). Long-term UV ageing of printed clamps was not checked ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: clips, thimbles, sleeves, stop sleeves and swaged fittings are bought
+  - 3D print (FDM): light-duty screw-clamp stoppers, cable-end caps, fairleads and guides (Printables 1351058, 191390, 439245)
+  - CNC or sheet metal: anchor plates, clevises and studs the terminated rope fixes to
+- **Printing it in one piece (print in place):** no: the termination is metal hardware; printed clamp stoppers are separate parts held with a screw and nut.
+- **Tools:** Clips: a spanner or nut spinner (Arthur Beale) and, for rated work, a torque wrench to the maker's torque (Crosby). Crimps: the crimping tool made for that sleeve and its go gauge (Nicopress), or a hand swager or crimping pliers for small aluminium ferrules (S3i); the RC 'swage tube' method uses a small hobby crimper (Model Airplane News). Cutting: 'a sharp, notched, [shear](../glossary.md#peel-vs-shear) type cutter' (Nicopress) or a dedicated cable cutter to avoid frayed ends (Model Airplane News). Safety glasses (Nicopress). Industrial sockets need presses, pouring kits and training (CERTEX).
+- **Difficulty:** easy to moderate: clip eyes need only a spanner but must be fitted the right way round and re-tightened (Crosby; Arthur Beale); crimped sleeves are quick but need the matching tool and a gauge check (Nicopress); swaged sockets, spelter sockets and rated lifting slings are industrial: buy them made and proof-tested (CERTEX; OSHA 1926.251).
+
+### 3D printing tips
+
+1) Printed parts suit only light, non-critical jobs such as sun shades, flags, trellis wires and stops on small cables: a printed 'wire rope clamp stopper' for 2 to 2.5 mm rope uses an M4x10 screw and nut and prints upright in PETG without supports (Printables 1351058); a printed clamp with a hanging loop on an M5 bolt holds 1/16 to 3/32 in vinyl-coated rope and has held flags in PLA for over a year (Printables 847016); a printed bicycle cable-end cap is held by a short grub screw (M3 or M4), printed in PETG with at least 2 [perimeters](../glossary.md#perimeters), tightened 'not too tight' (Printables 439245). 2) Use PETG, ASA or similar outdoors; PLA creeps under constant load, so a screw clamp in PLA can slowly lose grip (maker note, Printables 415716). 3) Never use a printed clamp or printed thimble for lifting, overhead loads or anything that would hurt someone if it slipped; use metal clips or crimped sleeves (Arthur Beale; Crosby). 4) In printed robot tendon and capstan drives, don't let the crimped stop take the full load: terminations 'are generally weaker than the rope itself', so Sandia protected them with extra wraps round the drum so friction carries most of the load (Mazumdar et al., Sandia 2016); give a stop sleeve a pocket or [counterbore](../glossary.md#counterbore--countersink) to bear against, sized from the actual crimped sleeve ⚑ [uncertain: pocket advice is our inference]. 5) Where a printed pulley or guide replaces a thimble, the rope is bent more sharply and Crosby adds one clip when a sheave is used for the turn-back; keep grooves smooth and generous (see Capstan cable drive for bend-ratio figures).
+
+### Buying one (off-the-shelf parts)
+
+Catalogue names: 'wire rope clip' or 'U-bolt clip' (drop-forged, malleable, stainless), 'wire rope grip DIN 741' (light duty) and 'EN 13411-5 / DIN 1142' grips (lifting grade), 'fist grip' (double saddle), 'simplex' and 'duplex wire rope clip' (Crosby; CERTEX; Arthur Beale; S3i); 'wire rope thimble' (standard, heavy duty, closed body, nylon) (S3i); 'oval sleeve' or 'duplex sleeve' and 'stop sleeve' (Nicopress), 'aluminium ferrule EN 13411-3' and 'copper ferrule' (S3i); 'hand swager' or 'wire rope crimping tool' with go gauge (Nicopress; S3i); 'swage stud', 'swage eye', 'swage fork' and swageless mechanical terminals (e.g. Sta-Lok, brand) for rigging (S3i catalogue menu); 'wedge socket' and 'spelter socket' (CERTEX); RC 'pull-pull cable kit' with threaded studs and crimp tubes (Model Airplane News). Brand names are given only as catalogue search terms; see each maker's size table rather than copying it here (e.g. Crosby 56 sheet: https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf).
+
+## Rules of thumb
+
+- Clip direction: put the U-bolt on the dead (short) end and the saddle on the live (loaded) end: 'Never saddle a dead horse!' (Crosby; Wikipedia; WorkSafeNB; OSHA 1926.251(c)(5)(i)).
+- Clip placement (Crosby): turn back the length given in the maker's table; 'apply first clip one base width from dead end of rope'; put the second 'as near the loop or thimble as possible'; space any others 'equally between first two'; tighten the nuts evenly, alternating, to the table torque; then 'apply first load' at least equal to the working load and re-tighten.
+- Number of clips, side by side: Crosby asks for 2 clips on ropes 1/8 to 7/16 in, 3 on 1/2 to 5/8 in, 4 on 3/4 and 7/8 in, rising to 8 or more on large ropes, plus one extra if a pulley (sheave) is used instead of a thimble or for some rope constructions (Crosby 56; same table in CERTEX). WorkSafeNB says 'At least three clips should be used when making any prepared loop or thimble-eye termination for wire rope (especially for overhead lifting)', although its own reprinted table lists 2 for 5/16 to 7/16 in rope. OSHA construction rules (Table H-2) start at 1/2 in rope with 3 drop-forged clips or 4 clips of other material. Wikipedia: 'Two or more clips are usually used', up to eight for 2 in rope. For small hobby ropes, using three is the cautious choice.
+- Clip spacing, side by side: OSHA Table H-2 gives a minimum spacing of 3 in for 1/2 in rope, 3-3/4 in for 5/8 in, 4-1/2 in for 3/4 in and 6 in for 1 in rope, about six rope diameters (OSHA 1926.251). Crosby gives no fixed spacing: first clip one saddle width from the dead end, second next to the thimble, the rest evenly between (Crosby 56).
+- Efficiency of a clip eye: 80% of rope strength for 1/8 to 7/8 in clips and 90% from 1 in (Crosby) vs 'up to 85%' (WorkSafeNB).
+- Don't fit clips on plastic-coated rope: Crosby says 'Do not use with plastic coated wire rope'; Arthur Beale says any PVC covering 'must be stripped before applying the dogs'.
+- Re-tighten clips after the first load and the next day, and check them periodically: [regulators](../glossary.md#regulator) don't recommend clips as permanent terminations 'unless periodically checked and re-tightened' (Wikipedia; Arthur Beale; Crosby).
+- Crimped eyes (Nicopress): use the tool and sleeve made for each other and press the number of crimps the table gives for that sleeve, spaced evenly; check every finished crimp with the go gauge ('Sleeves should enter slot freely'); 'pull enough cable through the sleeve so that the end will still protrude after crimping'. A lap splice joining two cables usually needs two sleeves.
+- Crimped stop sleeves: thread the cable through so it 'extends 1/8"' (about 3 mm) beyond the sleeve before pressing (Nicopress).
+- Match sleeve metal to rope: plain or zinc-plated copper on galvanised cable, tin-plated copper or stainless on stainless cable (Nicopress); aluminium ferrules (EN 13411-3) only on galvanised 7x19, 'Not suitable for use with 1x19', and not with stainless in marine or coastal use (S3i).
+- RC pull-pull loop: slide the crimp tube on, pass the cable through the stud's hole, back through the tube to leave a loop about 3/8 in (10 mm) long, then wrap the tail back along and through the tube again, pull out the slack and make two crimps; leave about 1/2 in of tail, optionally add a drop of thin CA glue, and use bronze rather than brass tube (Model Airplane News).
+- Use a thimble in every loop that goes round a shackle, hook or pin; it is 'industry best practice' (Wikipedia 'Wire rope').
+- For elevators, personnel hoists and scaffolds, ANSI A17.1 and A10.4 'do not recommend U-Bolt style wire rope clip terminations' (Crosby). BS EN 13411-5 does not cover U-bolt grips as the main termination on crane hoists or general lifting slings (BSI).
+
+## Common failures
+
+1) Clips fitted backwards ('saddling a dead horse'), crushing the loaded side and cutting strength (Crosby; WorkSafeNB). 2) Too few clips, too short a turn-back or nuts not re-tightened after first load, so the tail slips (Crosby; Arthur Beale). 3) Clips on plastic-coated rope slip because the coating creeps (Crosby; Arthur Beale). 4) No thimble, so the loop is pinched, kinked or worn through where it bears on a shackle (Wikipedia). 5) Under-pressed crimp, wrong sleeve size or wrong tool groove: check every crimp with the gauge and re-adjust the tool if the sleeve won't enter (Nicopress). 6) Tail too short, so it pulls out of the sleeve; the end must still show after crimping (Nicopress). 7) Cracked crimp tube from brass that is too hard; use bronze (Model Airplane News). 8) Galvanic corrosion of aluminium ferrules on stainless rope at the coast (S3i). 9) In capstan and tendon drives the termination fails first, because it is weaker than the rope; in Sandia's tests every rope sample broke at the termination, so protect it with extra wraps (Mazumdar et al.). 10) Fraying from a poor cut; use a notched shear-type cable cutter (Nicopress; Model Airplane News).
+
+## Safety
+
+Not for lifting people, ever; overhead lifting needs rated terminations, rated slings, the right clip count and torque, and regular inspection by a competent person (Crosby; OSHA 1926.251; BSI EN 13411-5; Arthur Beale). Crosby's sheet opens with 'Failure to read, understand, and follow these instructions may cause death or serious injury.' Wear safety glasses when crimping (Nicopress: 'ALWAYS WEAR SAFETY GLASSES WHEN TOOL IS BEING USED'). Cut wire ends are sharp: ship riggers serve (wrap) spliced ends with cord 'to help protect seamens' hands' (Wikipedia 'Wire rope', image caption); trim tails and cover them. A tensioned cable stores energy and can whip if a termination slips or the rope breaks, so stand clear of the line of pull when loading or testing ⚑ [uncertain: general rigging practice; no opened source states it]. In RC and robot drives, over-tightened cables side-load and damage the servo (Model Airplane News).
+
+## Related
+
+- Turnbuckle: screws into a terminated rope eye or swage stud to set the tension; the usual partner of a crimped or clipped eye
+- Shackle and quick link (D-shackle, bow shackle, maillon): joins a thimble eye to an anchor, chain or another eye
+- Stopper knots and cord-end anchors: the same end-stop job for cord, fishing line and thin cable; crimped stop sleeves overlap with it
+- Rope splices (eye splice, short splice, braided-rope splices): the way to make an eye in fibre rope; wire-rope splices are mentioned here only
+- Woven self-tightening grip (finger-trap grip): grips a cable or rope along its length instead of at a fixed end
+- Capstan cable drive (tendon drive) and Tendon-driven joint: use crimped stops on steel cable; give bend-ratio and capstan-friction rules
+- Bowden cable (push-pull cable): has crimped end caps and soldered or crimped nipples on its inner wire
+- Rope grab and ascender (cam rope clamp): a releasable grip on a rope instead of a fixed termination
+- Pulley system (block and tackle): what many terminated ropes run through; a sheave used as the turn-back needs one more clip
+- Wire-end ferrule (bootlace ferrule): an electrical 'ferrule' that only shares the name and the crimping idea
+- Crimp terminals (ring, fork and spade terminals): the electrical cousin of the crimped sleeve
+
+## Make it yourself
+
+- [Drahtseil Klemmstopper / Wire rope clamp stopper (Nolli, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1351058-drahtseil-klemmstopper-wire-rope-clamp-stopper): A printed screw-clamp end stop for 2 to 2.5 mm wire rope with an M4x10 screw and M4 nut; printed upright in PETG without supports and used on a patio sun shade *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- [Wire rope clamp (Otomar, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/191390-wire-rope-clamp): A small printed wire rope clamp closed with an M4x12 screw and nut, for light household jobs *(licence: Creative Commons Attribution-NonCommercial)*
+- [wire/rope/cable clamp with hanging loop (Flounder, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/847016-wireropecable-clamp-with-hanging-loop): A printed clamp with a ring underneath for hanging flags from an overhead cable; M5 bolt, fits 1/16 to 3/32 in vinyl-coated wire rope *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- [mon-cheri · bicycle cable crimp (LES ORIGINAL, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/439245-mon-cheri-bicycle-cable-crimp): Removable printed end caps for bicycle brake and gear cables, held by an M3 or M4 grub screw; FreeCAD source included *(licence: Creative Commons Attribution-NoDerivatives)*
+
+## Pictures, videos and models
+
+- [Wire rope with thimble and ferrule.jpg (Wikimedia Commons, Bernard S. Jansen)](https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg): A loop of wire rope wrapped round a thimble and held by a crimped ferrule *(licence: CC BY-SA 2.5)*
+- [Wire rope clamps.jpg (Wikimedia Commons, Wasrts)](https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg): A row of U-bolt wire rope clips holding a rope on logging equipment *(licence: CC BY-SA 4.0)*
+- [Crosby Clips: Warnings and Application Instructions (The Crosby Group, sheet 56)](https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf): Figures 1-6: clip direction, first and second clip positions, equal spacing, the extra clip for a sheave, and two ways to join ropes with clips, plus the clip-count, turn-back and torque table *(licence: link only (copyright The Crosby Group))*
+- [Giant Scale Pull-Pull Cable Installation Made Easy (Model Airplane News)](https://www.modelairplanenews.com/giant-scale-pull-pull-cable-installation-made-easy/): Photos of making a crimped loop on a threaded stud with a bronze swage tube, and the finished pull-pull rudder cables *(licence: link only (licence not stated))*
+- [Spelter socket open.JPG (Wikimedia Commons, BoH)](https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG): An open spelter (poured) socket on the end of a wire rope, an industrial termination mentioned for comparison *(licence: GFDL or CC BY-SA 3.0/2.5/2.0/1.0)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Research note: *Wire-rope terminations*: clip count and spacing recorded side by side (Crosby sheet 56: 2 clips up to 7/16 in rope, 80%/90% efficiency; WorkSafeNB: 'at least three clips', 'up to 85%', though its own reprinted table lists 2; OSHA 1926.251 Table H-2 from 1/2 in rope: 3 drop-forged or 4 other clips, about 6 rope diameters apart; Wikipedia its own range). No efficiency for small crimped sleeves and no reuse limit for clips were found ([uncertain]).
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Wire_rope>
+- <https://www.thecrosbygroup.com/wp-content/uploads/2013/12/56.pdf>
+- <https://certex.com/wp-content/uploads/2024/01/204522-CERTEX_SEC4_WIREROPETERMINATIONS.pdf>
+- <https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.251>
+- <https://www.worksafenb.ca/safety-talk/en/15-wire-rope-cable-clips.html>
+- <https://www.nicopress.com/media/documents/Nicopress_Instruction_32_Metric_05-12.pdf>
+- <https://www.s3i.co.uk/aluminium-ferrule-standard.php>
+- <https://arthurbeale.co.uk/products/wire-rope-grip-stainless-steel>
+- <https://www.arthurbeale.co.uk/products/commercial-wire-rope-grip-din-741>
+- <https://shop-checkout.bsigroup.com/products/terminations-for-steel-wire-ropes-safety-u-bolt-wire-rope-grips>
+- <https://www.modelairplanenews.com/giant-scale-pull-pull-cable-installation-made-easy/>
+- <https://www.osti.gov/servlets/purl/1340266>
+- <https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg>
+- <https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg>
+- <https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG>
+- <https://api.printables.com/graphql/>

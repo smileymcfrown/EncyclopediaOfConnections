@@ -140,30 +140,31 @@ def tools(s):
     none = bool(re.match(r'^(none|no tools|by hand)',l.strip()))
     return out, none
 
-entries=[]
-for f in sorted(glob.glob(f'{ROOT}/research/connection-types/results/*.json')):
-    d=json.load(open(f)); fa=d['finder_attributes']; mk=d['making']; idt=d['identity']
-    e=dict(file=os.path.basename(f), term=idt['term'], family=idt['family'], other_families=idt['other_families'],
-           job=list_prefix(fa['job'],JOB), motion=motion(fa['motion']), sb=list_prefix(fa['special_behaviour'],SB),
-           hp=hp_parse(fa['holding_principle']), power=power(fa['power']), removability=removability(fa['removability']),
-           reuse=reuse(fa['reuse_cycles']), seal=seal(fa['seal']), load=load(fa['load']), adjustable=adjustable(fa['adjustable']),
-           access=access(fa['access_needed']), processes=processes(mk['processes']), pip=pip(mk['print_in_place']),
-           difficulty=difficulty(fa['maker_difficulty']), io=fa['input_output'], tools_raw=fa['tools_needed'],
-           motion_raw=fa['motion'], removability_raw=fa['removability'], seal_raw=fa['seal'])
-    e['tools'],e['tools_none']=tools(fa['tools_needed'])
-    entries.append(e)
-# match outline number
-import difflib
-def key(s): return re.sub(r'[^a-z0-9]','',s.lower())
-fk={key(e['file'][:-5]):e for e in entries}
-for i,n in enumerate(names,1):
-    k=key(n)
-    m=[e for kk,e in fk.items() if kk==k[:len(kk)] or k.startswith(kk) or kk.startswith(k[:30])]
-    if not m:
-        best=difflib.get_close_matches(k,list(fk),1,0.5)
-        m=[fk[best[0]]] if best else []
-    if m: m[0].setdefault('num',i); m[0].setdefault('name',n)
-missing=[e['file'] for e in entries if 'num' not in e]
-print('unmatched files',missing)
-json.dump(entries,open(f'{OUT}/entries.json','w'),indent=1)
-print(len(entries))
+if __name__=='__main__':   # the functions above are also used by tools/make_entries.py
+    entries=[]
+    for f in sorted(glob.glob(f'{ROOT}/research/connection-types/results/*.json')):
+        d=json.load(open(f)); fa=d['finder_attributes']; mk=d['making']; idt=d['identity']
+        e=dict(file=os.path.basename(f), term=idt['term'], family=idt['family'], other_families=idt['other_families'],
+               job=list_prefix(fa['job'],JOB), motion=motion(fa['motion']), sb=list_prefix(fa['special_behaviour'],SB),
+               hp=hp_parse(fa['holding_principle']), power=power(fa['power']), removability=removability(fa['removability']),
+               reuse=reuse(fa['reuse_cycles']), seal=seal(fa['seal']), load=load(fa['load']), adjustable=adjustable(fa['adjustable']),
+               access=access(fa['access_needed']), processes=processes(mk['processes']), pip=pip(mk['print_in_place']),
+               difficulty=difficulty(fa['maker_difficulty']), io=fa['input_output'], tools_raw=fa['tools_needed'],
+               motion_raw=fa['motion'], removability_raw=fa['removability'], seal_raw=fa['seal'])
+        e['tools'],e['tools_none']=tools(fa['tools_needed'])
+        entries.append(e)
+    # match outline number
+    import difflib
+    def key(s): return re.sub(r'[^a-z0-9]','',s.lower())
+    fk={key(e['file'][:-5]):e for e in entries}
+    for i,n in enumerate(names,1):
+        k=key(n)
+        m=[e for kk,e in fk.items() if kk==k[:len(kk)] or k.startswith(kk) or kk.startswith(k[:30])]
+        if not m:
+            best=difflib.get_close_matches(k,list(fk),1,0.5)
+            m=[fk[best[0]]] if best else []
+        if m: m[0].setdefault('num',i); m[0].setdefault('name',n)
+    missing=[e['file'] for e in entries if 'num' not in e]
+    print('unmatched files',missing)
+    json.dump(entries,open(f'{OUT}/entries.json','w'),indent=1)
+    print(len(entries))

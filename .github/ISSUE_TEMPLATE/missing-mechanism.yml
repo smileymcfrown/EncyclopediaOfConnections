@@ -1,0 +1,31 @@
+name: A connection or mechanism is missing
+description: Tell us about a way to join, move, lock or adjust parts that the encyclopaedia doesn't have yet.
+title: "Missing: "
+labels: ["missing mechanism"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        It's fine not to know the proper name. Describe what it does, and where you've seen it.
+  - type: input
+    id: name
+    attributes:
+      label: Name, if you know it
+      description: Any name you've heard it called, or leave blank.
+  - type: textarea
+    id: what
+    attributes:
+      label: What does it do?
+      description: For example "holds a lid shut until you push it, then pops it open".
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where have you seen it?
+      description: An everyday thing it's in, a model, a video or a web page (links are welcome).
+  - type: input
+    id: close
+    attributes:
+      label: Closest entry we already have
+      description: If something similar is already in the encyclopaedia, which one?

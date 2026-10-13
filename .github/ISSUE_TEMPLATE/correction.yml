@@ -1,0 +1,44 @@
+name: Suggest a correction
+description: Something on an entry or in the finder is wrong, or you can confirm something marked ⚑ (needs confirming).
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Anything marked **⚑ needs confirming** is the project's best current answer, not a known fact, so confirmations help as much as corrections.
+        Plain words are fine; you don't need the engineering terms.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The entry's name or page (for example sprag-clutch), or the finder question and answer.
+    validations:
+      required: true
+  - type: input
+    id: what
+    attributes:
+      label: What part
+      description: The heading, the sentence, or the finder value (for example `clicks` or "Load").
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What are you doing?
+      options:
+        - Correcting something that is wrong
+        - Confirming something marked ⚑ (it is right)
+        - Adding something that is missing from this entry
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What it should say
+      description: Your correction or confirmation, in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: A link, a book or data sheet (with page), or your own experience (say what you made or tested). Please don't paste long copyrighted text.

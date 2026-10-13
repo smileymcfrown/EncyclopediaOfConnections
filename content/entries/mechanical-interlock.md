@@ -1,0 +1,272 @@
+---
+title: Mechanical interlock
+description: A mechanical interlock is a bar, pin, ball, plate or key that physically blocks one part from moving until another
+  part is in the right (safe) position, so things can only happen in a safe order.
+num: 160
+term: 'Mechanical interlock (interlocking device; in machine safety: guard interlock, with or without guard locking; trapped-key
+  interlock)'
+plain_name: 'A blocking part that stops you doing one thing while another thing is happening, or until something else is in
+  a safe position: a lid that can''t open while the machine runs, two levers that can''t both be pulled, or a switch that
+  can''t be turned on while a door is open'
+aliases:
+- interlock / safety interlock
+- interlocking device (ISO 14119 term)
+- guard interlock / interlocking guard / guard locking device
+- door interlock, lid interlock (microwave ovens, food processors, washing machines)
+- trapped-key interlock / key interlock / key-transfer system; often called Castell, Kirk, Bourre or Trayvou keys after makers
+  (brands)
+- mutual lock / either-or lock / cross-locking
+- gearbox interlock / shift-rail interlock / interlock pin (stops two gears being selected at once)
+- drawer interlock / anti-tip interlock (only one drawer opens at a time)
+- generator interlock kit / breaker interlock (main breaker and generator breaker can't both be on)
+- railway interlocking / locking bed / tappet locking (signal-box lever frames)
+family: locks, latches & catches
+other_families: [powered & active connectors]
+finder:
+  job: ['lock, and release by hand', hold or release using power]
+  motion: multiple
+  special_behaviour: [fail-safe or breakaway, hand-release only]
+  holding_principle: [shape, spring force]
+  reuse_cycles: effectively unlimited
+  seal: none
+  access_needed: both sides
+  print_in_place: partly
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, sheet metal]
+  connects: ['lid, door or cover']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [drill and tap, hand tools]
+  load_max: heavy
+  usual_process: 3D print (FDM)
+  adjustable: partly
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: worked out from its name, but joining parts is not one of its two main jobs
+confirmed: []
+open_points: []
+uncertain_fields: [reuse_cycles, materials, processes, off_the_shelf_parts, everyday_examples, environment_limits, common_failures]
+diagram_idea: 'Two parallel sliding rods, each with a notch, and a short pin in a hole between them: with both rods in their
+  ''off'' position either one can slide, but as soon as one moves its solid side pushes the pin into the other rod''s notch
+  and locks it, shown in three frames (both free, left moved and right locked, right moved and left locked).'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG
+  title: Trapped key interlock switchgear door.JPG (Wikimedia Commons, Wtshymanski)
+  shows: Photo of a trapped-key interlock on an electrical switchgear cabinet door, fixed with one-way security screws
+  license: CC BY-SA 4.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Interlocking_machine_locking_bed.jpg
+  title: Interlocking machine locking bed.jpg (Wikimedia Commons, JonRoma)
+  shows: Photo of the steel-bar locking bed under a railway signal-box lever frame, where notched bars cross-lock conflicting
+    levers
+  license: CC BY-SA 2.5 (reuse with credit)
+- url: https://www.youtube.com/watch?v=5yr9OeGqnYo
+  title: Interlocking shafts 1 (Nguyen Duc Thang, thang010146, YouTube; title confirmed via YouTube oEmbed)
+  shows: 'CAD animation: a pin in a fixed hole lets only one of two shafts turn at a time'
+  license: link only
+- url: https://www.youtube.com/watch?v=YtbEjL9oOjE
+  title: Interlocking shafts 6a (Nguyen Duc Thang, thang010146, YouTube; title confirmed via YouTube oEmbed)
+  shows: 'CAD animation: a row of balls lets only one of several plungers go down its full stroke at a time'
+  license: link only
+- url: https://www.nickslandrover.co.uk/how-the-gearbox-selectors-and-detents-work/
+  title: How the Gearbox Selectors and Detents Work (Nick's Land Rover)
+  shows: Photos of a real gearbox's selector shafts, detents and interlock ('inhibitor') bars holding the unused shafts in
+    neutral
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/1033405-mechanical-railway-signal-box-interlocking-model
+  title: Mechanical railway signal box interlocking model by Robin Wilson (Printables 1033405; details read via the Printables
+    public API) (URL from Printables API, page not opened)
+  what_it_is: 'Printable three-lever tappet interlocking (British Railways 1943 pattern): pulling one tappet locks or frees
+    the others so conflicting signals and points can''t be set'
+  license: Standard Digital File License (not Creative Commons)
+sources:
+- https://en.wikipedia.org/wiki/Interlock_(engineering)
+- https://en.wikipedia.org/wiki/Trapped-key_interlocking
+- https://en.wikipedia.org/wiki/Interlocking
+- https://en.wikipedia.org/wiki/Generator_interlock_kit
+- https://en.wikipedia.org/wiki/Lever_frame
+- https://www.safe-machines-at-work.org/fileadmin/user_upload/pdf/control_devices/Seminars_Functional_Safety_and_Validation/ISO_14119_-_Understanding_Different_Types_of_Interlocking_Devices.pdf
+- https://info.bannerengineering.com/cs/groups/public/documents/literature/155400.pdf
+- https://www.reersafety.com/en/academy/industrial-safety-guide/en-iso-14119safety-of-machinery/
+- https://www.law.cornell.edu/cfr/text/21/1030.10
+- https://help.na.panasonic.com/answers/how-to-use-the-safety-lock-on-the-food-processor/
+- https://www.govinfo.gov/content/pkg/FR-2023-05-04/pdf/2023-08997.pdf
+- https://www.nickslandrover.co.uk/how-the-gearbox-selectors-and-detents-work/
+- https://cs448m.github.io/lectures/machines/doc/3.pdf
+- https://www.youtube.com/watch?v=5yr9OeGqnYo (verified via YouTube oEmbed)
+- https://www.youtube.com/watch?v=YtbEjL9oOjE (verified via YouTube oEmbed)
+- https://www.youtube.com/watch?v=U7MBaIPoPZ4 (Manual Transmission Interlock Pin Explained, DrivelineMaster; verified via
+  YouTube oEmbed)
+- https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG
+- https://commons.wikimedia.org/wiki/File:Interlocking_machine_locking_bed.jpg
+- https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://help.prusa3d.com/article/pla_2062
+- https://help.prusa3d.com/article/petg_2059
+- https://www.printables.com/model/1033405-mechanical-railway-signal-box-interlocking-model (URL from Printables API, page
+  not opened; details read via https://api.printables.com/graphql/)
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Mechanical_interlock.json
+glossary: [misalignment, detent, ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, deflection, clearance, form-fit--force-fit--material-bond,
+  holding-force, keying, creep, layer-lines, peel-vs-shear]
+---
+
+A mechanical interlock is a bar, pin, ball, plate or key that physically blocks one part from moving until another part is in the right (safe) position, so things can only happen in a safe order.
+
+**In plain words:** A blocking part that stops you doing one thing while another thing is happening, or until something else is in a safe position: a lid that can't open while the machine runs, two levers that can't both be pulled, or a switch that can't be turned on while a door is open. **Proper term:** Mechanical interlock (interlocking device; in machine safety: guard interlock, with or without guard locking; trapped-key interlock).
+
+**Also called:** interlock / safety interlock; interlocking device (ISO 14119 term); guard interlock / interlocking guard / guard locking device; door interlock, lid interlock (microwave ovens, food processors, washing machines); trapped-key interlock / key interlock / key-transfer system; often called Castell, Kirk, Bourre or Trayvou keys after makers (brands); mutual lock / either-or lock / cross-locking; gearbox interlock / shift-rail interlock / interlock pin (stops two gears being selected at once); drawer interlock / anti-tip interlock (only one drawer opens at a time); generator interlock kit / breaker interlock (main breaker and generator breaker can't both be on); railway interlocking / locking bed / tappet locking (signal-box lever frames).
+
+## How it works
+
+Two (or more) moving parts each have a notch, groove or gap, and a blocking part sits between them. When one part moves away from its safe position, its solid surface pushes the blocker into the notch of the other part, so the second part can't move until the first comes back; this is how gearbox interlock pins stop two gears being selected and how a row of balls lets only one plunger or drawer move at a time. A sliding-plate interlock covers one switch or handle whenever another is on, as in a generator interlock kit. A trapped-key interlock does the same job with a key: the key can only be removed from a switch when the switch is off, and the same key is needed to open the access door, where it stays trapped until the door is shut again.
+
+## Parts
+
+A few parts. The simplest is a single sliding plate or pin plus notches in the two parts it controls. Typical parts: a blocking member (bolt, pin, row of balls, sliding plate, locking bar or cam), notches or grooves in the moving parts it blocks, a guide or housing, and often a spring or gravity to push the blocker into place. Trapped-key versions add a lock cylinder, a cam and a sliding bolt in a housing, plus a key that is transferred between locks. Guard-locking versions add a [solenoid](../glossary.md#solenoid) and a switch.
+
+## Everyday examples
+
+- a microwave oven or food processor that won't run unless the door or lid is shut and locked
+- a manual car gearbox, where interlock pins stop two gears being selected at once
+- chests of drawers with drawer interlocks, whose safety standard (ASTM F2057-23) warns against defeating them, and filing cabinets that let only one drawer open at a time so the unit doesn't tip over ⚑ [uncertain: how dresser interlocks limit drawers, and filing-cabinet interlocks, seen only in search results]
+- a generator interlock plate on a home breaker panel that stops the main breaker and the generator breaker being on together
+
+## When to use it
+
+When two actions must never happen together, or must happen in a set order: a lid, door or guard that must stay shut while something dangerous moves or is powered; two levers, valves or switches that must never both be on; a machine that must be switched off before its door can be opened (trapped key); drawers that must not all open at once; a jig or toy where you want to force the right sequence of steps. It is also a nice way to make puzzles and teaching models of railway signal boxes and gearboxes.
+
+## When not to use it
+
+Don't rely on a home-made or 3D-printed interlock as the only protection against serious hazards such as machinery that can cut or crush, mains electricity, or laser cutters; use certified safety interlock switches, listed interlock kits, lockout-tagout and proper guards instead. Don't use an easily defeated design (a plain cam switch or a plain magnet) where people will be tempted to bypass it. If you only need a door to stay shut, use a latch or lock; if you need a part to go in only one way round, use [keying](../glossary.md#keying) (poka-yoke); if the condition to check is electrical (speed, temperature), an electrical or software interlock may be simpler, but keep a mechanical one where failure would be dangerous.
+
+## Details
+
+- **What it does (jobs):**
+  - lock, and release by hand: blocks a door, lid, lever or switch until another part is moved to its safe position, and releases as soon as it is
+  - hold or release using power: guard-locking versions keep a guard locked with a spring or solenoid until the machine has stopped (see power)
+- **Movement:** multiple: the blocking bolt, pin, ball or plate slides (or pivots) a few millimetres; the parts it controls may rotate (shafts, hinged lids, levers) or slide (drawers, gear rails, breaker handles)
+- **Directions it can move (degrees of freedom):** The blocking part has 1 (it slides or swings in its guide). Each controlled part keeps its own normal motion (usually 1), but the interlock takes it down to 0 while the other part is out of its safe position. Taken together the group can only move one part at a time.
+- **Special behaviour:**
+  - [fail-safe](../glossary.md#fail-safe--fail-secure) or breakaway: a good interlock rests in the blocked (safe) state and should stay blocked if a spring or part breaks; safety switches use 'positive' action, where rigid parts force the contacts open instead of relying on a spring
+  - hand-release only (locks under load, releases when a person operates it): the blocked part is freed only when a person moves the other part (or turns and transfers the key) back to its safe position
+- **How it holds:** shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): a bolt, pin, ball or plate physically sits in the way. ISO 14119 requires mechanical guard locking to use direct blocking by shape, not friction or force alone. The blocker is often pushed into place by spring force or gravity, or driven directly by a cam on the moving part.
+- **Input and output:** not applicable (it blocks motion rather than passing it on)
+- **Power:** passive (no power needed) for purely mechanical interlocks (pins, balls, sliding plates, trapped keys). Powered guard-locking versions exist: in a 'spring lock, solenoid unlock' device the guard stays locked when power is lost and has a manual release; in a 'solenoid lock, spring unlock' device the guard unlocks when power is lost. Some trapped-key units have a solenoid that holds the key until the power circuit is off.
+- **Load:** light to heavy depending on build. Strong only in the direction the blocker is loaded in [shear](../glossary.md#peel-vs-shear) or compression across the notch; weak against prying, bending the guard, or removing the part that carries it (e.g. taking off the breaker-panel cover defeats a cover-mounted generator interlock). Example: a commercial guard-locking switch holds up to 1500 N (337 lbf) of pull on its [actuator](../glossary.md#actuator) when locked. Printed interlocks are light-duty.
+- **Play and precision:** Some play is fine and helps it work smoothly, but the blocker must engage the notch deeply enough that it can't be forced past, and the actuator must line up with its slot (manufacturers give a minimum door-swing radius and warn against sideways forces on the actuator). It is not a locating device.
+- **Taking it apart:** tool-free quick release for the controlled part (it is freed by hand as soon as the other part is in its safe position); the interlock hardware itself is deliberately semi-permanent: fixed with tool-only, one-way screws, rivets or welding so it can't easily be removed or bypassed
+- **How often it can be reused:** effectively unlimited for everyday use: e.g. a commercial guard-locking safety switch is rated for 1 million switching cycles (Banner SI-LS42 manual). Printed-plastic interlocks will wear faster ⚑ [uncertain: no cycle figures for printed interlocks found].
+- **Sealing:** none (the interlock itself does not seal; commercial safety switches housing the mechanism can be IP67)
+- **Adjustable:** Only at installation: mounting slots are for initial alignment, after which the device should be fixed through round holes or pinned so its position can't shift. It is not meant to be adjusted in use.
+- **Access needed:** both sides: the blocker sits on the fixed frame and the notch or actuator on the moving part, usually inside the machine or behind a panel, so you need to reach inside to fit and adjust it; panel-cover generator kits fit from the front only
+- **Materials:** Steel or plastic sliding plates (generator interlock kits); steel pins, rods with rounded ends and steel balls (gearbox and drawer interlocks); a lock cylinder, cam and sliding bolt in a metal housing in trapped-key units ⚑ [uncertain: housing and bolt materials not confirmed on an opened page]; glass-fibre-reinforced polyamide housings with die-cast zinc cams in safety switches. For demonstrators and low-risk home projects: PETG or PLA printed plates, pins and bars, with metal springs or dowels.
+- **Heat, cold, water and wear:** Commercial safety switches are specified for roughly -25 to +70 °C and IP67 (Banner SI-LS42). Printed PLA parts soften above about 60 °C; PETG is fine below about 80 °C (Prusa). Plastic springs relax over time if kept bent (DuPont). Vibration can loosen fixings, so manufacturers recommend lock washers or thread-locking compound (Banner). Dirt, rust, paint or ice in the notches can jam or stop the blocker engaging ⚑ [uncertain: general engineering knowledge, no source opened].
+
+## Making it
+
+- **Ways to make or get it:**
+  - 3D print (FDM): demonstrators, sliding plates, blocking bars and notched parts for low-risk projects
+  - laser cut: flat sliding plates and locking bars from acrylic, plywood or thin sheet ⚑ [uncertain: no specific laser-cut interlock example opened]
+  - sheet metal: steel sliding plates and brackets (generator interlock kits)
+  - CNC: machined pins, notched shafts and locking bars
+  - off-the-shelf part: safety interlock switches, guard-locking switches, trapped-key interlocks, generator interlock kits
+- **Printing it in one piece (print in place):** partly: a blocking bar sliding in a printed guide can be printed in place with [clearance](../glossary.md#clearance), but reliable interlocks usually need an added metal spring, dowel pin or steel balls, and the controlled parts are separate; the railway interlocking model found is printed as separate parts and assembled
+- **Tools:** To fit: drill, screwdriver or spanner, often tamper-resistant (one-way or security) screws, rivets, thread-locking compound or lock washers; generator interlock kits are fitted to the breaker-panel cover and may need holes drilled. To use: none (or the trapped key).
+- **Difficulty:** easy to moderate for a simple sliding-plate or blocking-pin interlock on a jig, cabinet or toy (prints or cuts in a few parts); hard to make one that is genuinely safe for a real hazard, so for machinery, mains electricity or lasers buy certified interlock switches or listed kits
+
+### 3D printing tips
+
+Design it so the resting (safe) state is blocked: if a spring breaks or a part falls out, the other part should stay locked rather than free. Prefer driving the blocker directly with a cam or a solid surface on the moving part (positive action) instead of relying on a printed spring; if you need a return spring, use a metal one, because plastic held bent all the time [creeps](../glossary.md#creep) and relaxes (DuPont design guide, p. 36). Give sliding blockers at least 0.3 mm clearance in their guides as a starting point (Prusa), and test-fit before final assembly. Make the notch and blocker deep enough that the blocker is loaded in shear or compression across its full width, and orient parts so [layer lines](../glossary.md#layer-lines) don't run along the plane where the blocker would shear off (prints are stronger in one direction, like wood; Prusa). Don't make the interlock the thing that stops the door or lever at the end of its travel; add a separate stop (Banner). Use PETG or better for anything that sits near a warm motor, as PLA softens above about 60 °C (Prusa). Fix the interlock with screws that need a tool, or glue or rivet it, so it can't simply be unclipped. A printed interlock is fine for jigs, toys, puzzles and teaching models, but not as the only protection against a real hazard.
+
+### Buying one (off-the-shelf parts)
+
+Safety interlock switch (tongue-actuated or 'coded actuator' switch, hinge switch, cam-operated safety limit switch with positive-opening contacts); guard-locking safety switch ('spring lock / solenoid unlock' or 'solenoid lock / spring unlock'); non-contact coded safety switch (coded magnet or RFID); trapped-key interlock, key exchange (transfer) block, bolt interlock; generator interlock kit (breaker interlock plate) for a specific panel make; mechanical interlock kit for reversing contactors ⚑ [uncertain: seen only in search results]; one-way (security) screws, rivets, dowel pins, steel balls.
+
+## Rules of thumb
+
+- Mechanical guard locking must block by shape ('direct mechanical blocking due to form'); friction and force alone must not be relied on (ISO 14119:2013 as summarised in WSPS seminar slides, slide 14, https://www.safe-machines-at-work.org/fileadmin/user_upload/pdf/control_devices/Seminars_Functional_Safety_and_Validation/ISO_14119_-_Understanding_Different_Types_of_Interlocking_Devices.pdf).
+- Closing a guard must not by itself start the dangerous motion; a separate start action is needed (ISO 14119 definitions, WSPS slides 9-10; Banner SI-LS42 manual, https://info.bannerengineering.com/cs/groups/public/documents/literature/155400.pdf).
+- If the guard can be opened at any time (no guard locking), the time it takes to reach the danger must be longer than the time the machine takes to stop; otherwise keep the guard locked until motion has stopped (WSPS slides 12-13).
+- Use positive action: at least one switch mounted in 'positive mode', with contacts forced open by rigid parts, not springs, when the guard opens (Banner SI-LS42 manual).
+- Never use the interlock or its actuator as the mechanical end stop; limit the guard's travel separately (Banner SI-LS42 manual).
+- Make it hard to defeat: mount it out of reach or behind an obstruction, use fasteners that need a tool, and use one-way screws, rivets or welding; use slotted holes only for first adjustment, then fix through round holes or add dowels (Banner SI-LS42 manual).
+- Microwave ovens need at least two interlocks, and at least one must not be operable by any part of the body or by an object with a straight insertable length of 10 cm, and must be concealed; interlock failure must be monitored (21 CFR 1030.10, https://www.law.cornell.edu/cfr/text/21/1030.10).
+- In a trapped-key system the key is released only in the safe position and is trapped otherwise, so duplicate keys must be tightly controlled (Wikipedia, https://en.wikipedia.org/wiki/Trapped-key_interlocking).
+- ISO 14119 sorts interlocking devices into Type 1 (uncoded mechanical: cam, hinge), Type 2 (coded mechanical: shaped actuator), Type 3 (uncoded non-contact: plain magnet, inductive) and Type 4 (coded non-contact: coded magnet, RFID); preventing actuator substitution is one of the listed anti-defeat measures (ReeR, https://www.reersafety.com/en/academy/industrial-safety-guide/en-iso-14119safety-of-machinery/).
+- A commercial guard-locking switch gives an idea of scale: up to 1500 N [holding force](../glossary.md#holding-force) when locked, 1 million mechanical cycles, -25 to +70 °C, IP67 (Banner SI-LS42 specifications).
+- Springs under constant load or [deflection](../glossary.md#deflection) should be metal; plastic springs creep and relax (DuPont General Design Principles, Module I, p. 36, https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf).
+- Start with at least 0.3 mm clearance for printed parts that must move (Prusa, https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135).
+
+## Common failures
+
+(1) Deliberately bypassed: make it hard to defeat (concealed, coded, tool-only fixings) and make the safe way easy to use. (2) Blocker doesn't fully engage because of [misalignment](../glossary.md#misalignment) or a loose mounting: fix through round holes, pin it, use lock washers. (3) Return spring breaks or relaxes and the part is left unblocked: use positive (directly driven) action and metal springs. (4) Actuator or switch used as the end stop and gets broken: add a separate stop. (5) Cover or part carrying the interlock is removed, defeating it (panel-cover generator kits): mount the interlock on the parts themselves where possible. (6) Wear, dirt or ice jams the notch so it won't release, or releases too easily: keep clearances sensible and keep it clean ⚑ [uncertain]. (7) In gearbox-style designs, you must bring everything back to the neutral position before changing which part may move; forgetting this makes it feel stuck (Thang's interlocking-shaft notes).
+
+## Safety
+
+Never bypass or defeat an interlock (taping switches, wedging lids, printing 'bypass keys'); OSHA accident summaries often involve operators who bypassed an interlock while working on machinery (Wikipedia, Interlock (engineering)). An interlock is part of a safety system, not a replacement for lockout-tagout. Guard locking needs an escape release that works from inside the guarded area if a person can get inside (ISO 14119 via WSPS slides). A spring-locked guard stays locked if power fails, so it needs a manual release. Cover-mounted generator interlocks are defeated by removing the panel cover, and some kits are not UL-listed, so some inspectors won't accept them; mains wiring work should be done by a qualified electrician (Wikipedia, Generator interlock kit). Watch for pinch points between sliding plates and bars.
+
+## Related
+
+- Basic latches (spring latch, slide bolt, hook and eye): hold one door shut, but don't link the state of two parts
+- Pin-tumbler lock: a trapped-key interlock is built around a keyed lock cylinder; the lock alone only checks the key, not the state of another part
+- Combination lock (wheel pack): also uses a bar that can only drop into aligned notches, but the condition is a secret number, not the position of another part
+- Keying (one-way-only fit, poka-yoke): stops parts going together the wrong way, rather than stopping two actions happening at once
+- Solenoid latch and holding electromagnet (maglock): powered locks often used for guard locking; they can fail open or fail locked
+- [Ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl): a pawl that drops into notches, but to allow motion one way rather than to link two parts
+- Geneva drive: its locking arc stops the output turning between steps, a built-in interlock inside a stepping mechanism
+- Ball [detent](../glossary.md#detent) (spring plunger): a ball in a groove that only holds position; an interlock ball wedges a second part instead
+
+## Make it yourself
+
+- [Mechanical railway signal box interlocking model by Robin Wilson (Printables 1033405; details read via the Printables public API) (URL from Printables API, page not opened)](https://www.printables.com/model/1033405-mechanical-railway-signal-box-interlocking-model): Printable three-lever tappet interlocking (British Railways 1943 pattern): pulling one tappet locks or frees the others so conflicting signals and points can't be set *(licence: Standard Digital File License (not Creative Commons))*
+
+## Pictures, videos and models
+
+- [Trapped key interlock switchgear door.JPG (Wikimedia Commons, Wtshymanski)](https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG): Photo of a trapped-key interlock on an electrical switchgear cabinet door, fixed with one-way security screws *(licence: CC BY-SA 4.0 (reuse with credit))*
+- [Interlocking machine locking bed.jpg (Wikimedia Commons, JonRoma)](https://commons.wikimedia.org/wiki/File:Interlocking_machine_locking_bed.jpg): Photo of the steel-bar locking bed under a railway signal-box lever frame, where notched bars cross-lock conflicting levers *(licence: CC BY-SA 2.5 (reuse with credit))*
+- [Interlocking shafts 1 (Nguyen Duc Thang, thang010146, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=5yr9OeGqnYo): CAD animation: a pin in a fixed hole lets only one of two shafts turn at a time *(licence: link only)*
+- [Interlocking shafts 6a (Nguyen Duc Thang, thang010146, YouTube; title confirmed via YouTube oEmbed)](https://www.youtube.com/watch?v=YtbEjL9oOjE): CAD animation: a row of balls lets only one of several plungers go down its full stroke at a time *(licence: link only)*
+- [How the Gearbox Selectors and Detents Work (Nick's Land Rover)](https://www.nickslandrover.co.uk/how-the-gearbox-selectors-and-detents-work/): Photos of a real gearbox's selector shafts, detents and interlock ('inhibitor') bars holding the unused shafts in neutral *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Interlock_(engineering)>
+- <https://en.wikipedia.org/wiki/Trapped-key_interlocking>
+- <https://en.wikipedia.org/wiki/Interlocking>
+- <https://en.wikipedia.org/wiki/Generator_interlock_kit>
+- <https://en.wikipedia.org/wiki/Lever_frame>
+- <https://www.safe-machines-at-work.org/fileadmin/user_upload/pdf/control_devices/Seminars_Functional_Safety_and_Validation/ISO_14119_-_Understanding_Different_Types_of_Interlocking_Devices.pdf>
+- <https://info.bannerengineering.com/cs/groups/public/documents/literature/155400.pdf>
+- <https://www.reersafety.com/en/academy/industrial-safety-guide/en-iso-14119safety-of-machinery/>
+- <https://www.law.cornell.edu/cfr/text/21/1030.10>
+- <https://help.na.panasonic.com/answers/how-to-use-the-safety-lock-on-the-food-processor/>
+- <https://www.govinfo.gov/content/pkg/FR-2023-05-04/pdf/2023-08997.pdf>
+- <https://www.nickslandrover.co.uk/how-the-gearbox-selectors-and-detents-work/>
+- <https://cs448m.github.io/lectures/machines/doc/3.pdf>
+- <https://www.youtube.com/watch?v=5yr9OeGqnYo (verified via YouTube oEmbed)>
+- <https://www.youtube.com/watch?v=YtbEjL9oOjE (verified via YouTube oEmbed)>
+- <https://www.youtube.com/watch?v=U7MBaIPoPZ4 (Manual Transmission Interlock Pin Explained, DrivelineMaster; verified via YouTube oEmbed)>
+- <https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG>
+- <https://commons.wikimedia.org/wiki/File:Interlocking_machine_locking_bed.jpg>
+- <https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://help.prusa3d.com/article/petg_2059>
+- <https://www.printables.com/model/1033405-mechanical-railway-signal-box-interlocking-model (URL from Printables API, page not opened; details read via https://api.printables.com/graphql/)>
+- <https://api.printables.com/graphql/>

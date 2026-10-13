@@ -1,0 +1,281 @@
+---
+title: Spring-steel push-on fasteners
+description: Stamped, heat-treated spring-steel clips whose angled teeth or prongs slide over a plain shaft, stud or screw
+  thread when pushed on and then bite into it, holding parts on without cutting a thread or groove and resisting vibration.
+num: 173
+term: Spring-steel push-on fastener (push nut, speed nut, U-nut)
+plain_name: A thin springy steel washer or clip with little teeth that you just push onto a plain rod or a screw; the teeth
+  slide on easily but dig in if anything tries to pull it off or shake it loose, like the cap that keeps a wheel on a toy
+  or lawnmower axle
+aliases:
+- push nut, pushnut, push-on nut, push-on fix, push-on retainer, push-on fixing washer, shaft retaining washer, speed washer
+  (Woodstock Industrial; Fastenright; Jet Press)
+- Starlock washer (registered brand; the catalogue used here is B&F Fasteners' with Titgemeyer (GTO) part numbers; not to
+  be confused with Bosch's 'Starlock' multi-tool blade mount)
+- cap push nut, capped pushnut, dome cap, axle cap, top-hat pushnut, spiderfix (Starlock catalogue; Jet Press)
+- push-on retaining ring, self-locking retaining ring, toothed push-on ring, grooveless retainer ring (Rotor Clip TX/TY/TI
+  rings; Tinnerman 'Grooveless Retainer Rings'; Wikipedia 'Retaining ring')
+- speed nut, sheet metal nut, spring nut, flat-type speed nut, Tinnerman nut (Tinnerman is a brand; Wikipedia 'Speed nut')
+- Palnut push-on (brand, ARaymond/Tinnerman)
+- U-nut, U-clip, spire clip, chimney U-nut; J-nut; clip-on nut (Wikipedia 'Clip-on nut')
+- tubular speed clip, stud receiver, ball-stud speed clip (Tinnerman catalogue)
+- 'cage nut, caged nut (also called a captive or clip nut): a square nut in a spring-steel cage that snaps into a square hole,
+  as in equipment-rack rails (Wikipedia ''Cage nut'')'
+family: snap & clip fits
+other_families:
+- clamping, magnetic & friction connections
+- one-way & ratchet
+finder:
+  job: [join and hold, stop it moving back]
+  motion: none
+  special_behaviour: [one-way, self-locking, self-aligning or self-centring]
+  holding_principle: [friction or clamping, shape, spring force]
+  reuse_cycles: once
+  seal: none
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), sheet metal, woodwork]
+  connects: [3D-printed part, boards or sheet]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: clicks
+  tools: [hand tools]
+  load_max: medium
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: permanent
+  power: passive
+needs_confirming:
+  tools:
+    kind: source uncertain
+    reason: '`tools_needed` is marked [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push
+      nut [uncertain]. Speed nuts, U- and J-nuts:…"'
+confirmed: []
+open_points:
+- kind: sources
+  note: 'Three entries from earlier runs have six `links`, one over the field''s 2-5: *Lid and flap stays*, *Drawer slide*,
+    *Cam and follower*. In the update pass, *Aluminium-extrusion connectors* (113) and *Spring-steel push-on fasteners* (173)
+    gained a Commons photo of their new variant (strut-channel spring nut, CC BY-SA 4.0; cage nut, CC BY-SA 3.0); one weaker
+    link in each was moved to `sources` only, to stay at five.'
+uncertain_fields: [tools_needed, play_and_precision, processes, making_tips_3d_printing, environment_limits, safety_notes,
+  common_failures]
+diagram_idea: 'Two side-by-side cut-aways: left, a round push nut with angled teeth sliding onto a rod (arrow ''pushes on
+  easily'') and then biting in when pulled back (arrow ''pull-off blocked''); right, a flat speed nut whose arched base flattens
+  as the screw tightens, squeezing its two prongs into the thread root, with a small inset of a U-nut clipped over a panel
+  edge.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
+  title: Two spire clips.jpg (Wikimedia Commons, Lithopsian)
+  shows: 'Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw'
+  license: CC BY-SA 4.0
+- url: https://w5rkl.com/wp-content/uploads/2015/02/Tinnermann-Catelog.pdf
+  title: Tinnerman Parts Catalog (Eaton-era Tinnerman catalogue '383', distributor copy)
+  shows: Drawings and 'how to apply' illustrations of flat, twin, J-, U-, push-on, tubular, ball-stud and grooveless-ring
+    spring-steel fasteners, with torque and tensile tables
+  license: link only (manufacturer trade catalogue)
+- url: https://www.viba.nl/media/files//dw-resources/103682%2020456starlocks_-_metric.pdf
+  title: 'Push on fasteners: Starlock catalogue (B&F Fasteners, distributed by VIBA)'
+  shows: Drawings of uncapped, dome-capped, deep-capped and special Starlock push nuts, installation tools, and size and push-on/pull-off
+    force tables
+  license: link only (manufacturer catalogue; reprinting not permitted)
+- url: https://www.youtube.com/watch?v=H52nOSSsEWs
+  title: How To Install Palnut® Push Ons (YouTube, Advance Components)
+  shows: Video showing push-on spring-steel fasteners being installed over plain studs
+  license: link only (standard YouTube licence)
+- url: https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
+  title: Kafigmutter.jpg (cage nut) (Wikimedia Commons, original uploader Andy E at German Wikipedia)
+  shows: Photo of cage nuts, square nuts held in spring-steel cages, with a screw (used on Wikipedia 'Cage nut'); more photos,
+    including tool-less cage nuts, in Commons 'Category:Cage nuts'
+  license: CC BY-SA 3.0
+make_it_yourself:
+- url: https://www.printables.com/model/462378-dodge-ram-2nd-gen-others-windshield-trim-push-nut
+  title: Dodge (RAM 2nd gen, others) windshield trim push nut (Maker_of_Toys, Printables) (URL from Printables API, page not
+    opened)
+  what_it_is: A printed plastic replacement for a vehicle trim push nut that goes over a finned (not threaded) stud; shows
+    the limits of printing this kind of part, since the original is a bought fastener
+  license: CC BY-NC-SA
+sources:
+- https://en.wikipedia.org/wiki/Speed_nut
+- https://en.wikipedia.org/wiki/Clip-on_nut
+- https://en.wikipedia.org/wiki/Retaining_ring
+- https://w5rkl.com/wp-content/uploads/2015/02/Tinnermann-Catelog.pdf
+- https://www.viba.nl/media/files//dw-resources/103682%2020456starlocks_-_metric.pdf
+- https://www.rotorclip.com/post/product_type/self-locking-and-push-on-retaining-rings/
+- https://www.rotorclip.com/block-collections/self-locking-and-push-on-retaining-rings-block-collection/
+- https://www.rotorclip.com/wp-content/uploads/2023/03/UltimateRetainingRingGuide.pdf
+- https://www.mcmaster.com/products/metric-push-nuts/
+- https://www.mcmaster.com/products/push-nuts/
+- https://www.eugenefast.com/category/products/nuts/speed-nuts/1501
+- https://www.woodstockindustrial.com/starlock.html
+- https://www.fastenright.com/general-fixings/starlock-washers/wsr21
+- https://www.jetpress.com/component-and-fastener-products/fasteners-and-components/threaded-fasteners-and-push-on-fasteners/pushnuts-push-on-fixes
+- https://www.advancecomponents.com/fasteners/palnut-push-ons/
+- https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
+- https://www.youtube.com/watch?v=H52nOSSsEWs
+- https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Cage_nut
+- https://en.wikipedia.org/wiki/19-inch_rack
+- https://commons.wikimedia.org/wiki/Category:Cage_nuts
+- https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
+research: research/connection-types/results/Springsteel_pushon_fasteners_push_nut_speed_nut_Unut.json
+glossary: [misalignment, self-locking, thrust-load, torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
+  circlip, heat-set-insert, captive-nut, boss, creep, brittle--ductile]
+---
+
+Stamped, heat-treated spring-steel clips whose angled teeth or prongs slide over a plain shaft, stud or screw thread when pushed on and then bite into it, holding parts on without cutting a thread or groove and resisting vibration.
+
+**In plain words:** A thin springy steel washer or clip with little teeth that you just push onto a plain rod or a screw; the teeth slide on easily but dig in if anything tries to pull it off or shake it loose, like the cap that keeps a wheel on a toy or lawnmower axle. **Proper term:** Spring-steel push-on fastener (push nut, speed nut, U-nut).
+
+**Also called:** push nut, pushnut, push-on nut, push-on fix, push-on retainer, push-on fixing washer, shaft retaining washer, speed washer (Woodstock Industrial; Fastenright; Jet Press); Starlock washer (registered brand; the catalogue used here is B&F Fasteners' with Titgemeyer (GTO) part numbers; not to be confused with Bosch's 'Starlock' multi-tool blade mount); cap push nut, capped pushnut, dome cap, axle cap, top-hat pushnut, spiderfix (Starlock catalogue; Jet Press); push-on retaining ring, [self-locking](../glossary.md#self-locking) retaining ring, toothed push-on ring, grooveless retainer ring (Rotor Clip TX/TY/TI rings; Tinnerman 'Grooveless Retainer Rings'; Wikipedia 'Retaining ring'); speed nut, sheet metal nut, spring nut, flat-type speed nut, Tinnerman nut (Tinnerman is a brand; Wikipedia 'Speed nut'); Palnut push-on (brand, ARaymond/Tinnerman); U-nut, U-clip, spire clip, chimney U-nut; J-nut; clip-on nut (Wikipedia 'Clip-on nut'); tubular speed clip, stud receiver, ball-stud speed clip (Tinnerman catalogue); cage nut, caged nut (also called a captive or clip nut): a square nut in a spring-steel cage that snaps into a square hole, as in equipment-rack rails (Wikipedia 'Cage nut').
+
+## How it works
+
+The teeth or prongs are bent slightly away from the direction of pushing, and the hole they leave is a little smaller than the shaft, so pushing the clip on bends the teeth outwards and lets it slide; a pull the other way makes the tooth tips dig into the shaft like a barb, so the clip grips harder the more you pull (Woodstock Industrial: the 'sprung teeth deflect as it is pressed onto a plain shaft and bite against the surface, resisting withdrawal'). A speed nut's two prongs act as a single thread on a screw: as the screw tightens, the arched base flattens and forces the prongs inward against the root of the thread, which locks it against vibration (Wikipedia 'Speed nut'; Tinnerman catalogue p. 5, which calls this a double 'inward thread lock plus an arched spring lock'). U- and J-nuts clip over the edge of a panel and hold themselves in place so a screw can be driven from the front without reaching behind (Tinnerman catalogue pp. 10-11). A cage nut works the same way in a square hole: squeezing the cage's two wings lets it pass through the hole, and when they are released they hold the nut in place behind the hole, ready for a screw from the front (Wikipedia 'Cage nut').
+
+## Parts
+
+Single piece: one stamped and heat-treated spring-steel part (sometimes with a pressed-on dome cap of stainless steel, plated steel or nylon; Starlock catalogue). Types: round push nuts with a ring of teeth for plain shafts; toothed push-on retaining rings; flat speed nuts with two prongs that act as one screw thread; U- and J-shaped clip-on nuts that clip over a panel edge; tubular clips that snap into a hole and take a plain stud (Wikipedia 'Speed nut' and 'Clip-on nut'; Tinnerman catalogue). Cage nuts are a square nut wrapped in a separate spring-steel cage with two wings, sold as one part (Wikipedia 'Cage nut').
+
+## Everyday examples
+
+- The domed caps that keep wheels on lawnmowers, prams, trolleys and toys (Starlock catalogue p. 4)
+- Clips holding car trim, badges and emblems (Eugene Fastener; Rotor Clip)
+- U-nuts and speed nuts on appliance, electronics and car body panels (Eugene Fastener; Tinnerman catalogue)
+- Push-on rings in cordless drills and on steering wheels, and on window-blind shafts (Rotor Clip)
+- Cage nuts in the square-holed rails of 19-inch equipment racks, holding servers and other rack-mount equipment (Wikipedia 'Cage nut'; Wikipedia '19-inch rack')
+
+## When to use it
+
+Use a push nut when you need to keep a wheel, lever, knob, spacer or panel on the end of a plain rod or stud quickly and cheaply, without cutting a thread or a groove, and you won't need to take it apart (toys, carts, furniture, appliances, printed projects with metal pins). Use a speed nut, U-nut or J-nut when you want a nut that won't shake loose, fits sheet metal or thin panels, can be fitted from one side, and costs less than a nut, lock washer and plain washer (Tinnerman catalogue; Wikipedia 'Speed nut'). Use cage nuts in punched square holes such as rack rails: the screw size can be chosen long after the rail was made, a stripped nut is simply swapped for a new one, unlike a tapped hole, and they work in material too thin or soft to thread (Wikipedia 'Cage nut').
+
+## When not to use it
+
+Avoid push nuts where the part must come off for service (use an E-clip or [circlip](../glossary.md#circlip) in a groove, a split pin or a nut), on hardened shafts (the teeth can't bite), on loose or undersized shafts, or where there are strong end loads (use a retaining ring in a groove or a shaft collar). Avoid speed nuts for structural or high-clamp joints: 'For load-rated joints use a standard hex or lock nut' (Eugene Fastener). In soft or thick printed parts where you need many reassemblies, a [heat-set insert](../glossary.md#heat-set-insert) or [captive nut](../glossary.md#captive-nut) is usually better.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: keeps a wheel, knob, panel, trim or emblem on a plain shaft or stud, or acts as a nut for a screw
+  - stop it moving back (one-way): push nuts slide on in one direction and resist coming off
+- **Movement:** none: it fixes a part in place (a wheel held on an axle by a push nut still turns, but the push nut itself does not move)
+- **Directions it can move (degrees of freedom):** 0: once pushed or screwed home it blocks movement along the shaft or screw; a round push nut does not stop a part turning on a round shaft
+- **Special behaviour:**
+  - one-way (moves freely one way, locks the other): push nuts and push-on rings slide on and bite when pulled back (Woodstock Industrial; Rotor Clip)
+  - self-locking (holds under load, won't back-drive): speed nuts resist loosening under vibration through the prong 'thread lock' and the arched 'spring lock' (Tinnerman catalogue p. 5; Wikipedia 'Speed nut')
+  - self-aligning or self-centring: U- and J-type speed nuts 'offer floating alignment' so they tolerate small hole [misalignment](../glossary.md#misalignment) (Tinnerman catalogue p. 10)
+- **How it holds:**
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the spring teeth grip the shaft, and a speed nut clamps the panel under screw tension
+  - shape (the parts interlock; form-fit): tooth tips bite into the shaft surface, and speed-nut prongs engage the screw thread
+  - spring force (a spring or springy part presses it in place): the heat-treated spring steel keeps the teeth pressed on and the speed nut's arch loaded (Tinnerman catalogue p. 5)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** light to medium. Push nuts hold against pulling off along the shaft: B&F Starlock rates spring-steel push nuts at about 196 N pull-off on a 3 mm shaft, 392 N on 5 mm, 981 N on 10 mm and 3434-3777 N on 20-25 mm, measured on mild-steel shafts (Starlock catalogue p. 6). Push-on rings suit 'low [thrust loads](../glossary.md#thrust-load)' only (Rotor Clip). Speed nuts are 'light-to-medium duty, built for fast captive retention ... rather than high clamp load' (Eugene Fastener); Tinnerman lists average tensile limits of about 250 lb (1.1 kN) for a #8-32 machine screw and 600 lb (2.7 kN) for a #8 sheet-metal screw (Tinnerman catalogue p. 5). Weak against twisting on round shafts (the push nut can spin) and against prying.
+- **Play and precision:** Small: a push nut is pushed hard against the part, but some end float can remain unless it is seated firmly, and the teeth may slip slightly before they bite ⚑ [uncertain]. U- and J-nuts deliberately float in the panel to absorb hole misalignment (Tinnerman catalogue p. 10). Speed nuts clamp firmly once tightened. A cage nut sits slightly loose in its cage so it can line up with the screw, which makes stripped threads less likely when equipment is fitted and removed (Wikipedia 'Cage nut').
+- **Taking it apart:** push nuts and push-on rings: permanent to semi-permanent: 'once fixed in position, the Starlock push on fastener is so secure that it cannot be removed without destruction' (Starlock catalogue p. 3), and Rotor Clip says removal may deform the ring or shaft so replacement is recommended; speed nuts and U-/J-nuts: removable, unscrewed like a normal nut (Tinnerman catalogue)
+- **How often it can be reused:** once for push nuts and push-on rings (Starlock catalogue; Rotor Clip; McMaster-Carr: 'For one-time use only' for push-on retaining rings); many times for speed nuts and U-nuts, which the maker describes as 'ideal for service locations, reused indefinitely' (Tinnerman catalogue p. 5)
+- **Sealing:** none: they hold parts on but do not seal; capped push nuts only cover the shaft end for looks
+- **Adjustable:** Push nuts: no, the position is set by how far it is pushed and it cannot be backed off; speed nuts: yes, by turning the screw, and a 'Prevailing [Torque](../glossary.md#torque) Fit' version is recommended 'when the fastener is used as an adjustment nut' (Tinnerman catalogue p. 5)
+- **Access needed:** end of a tube or shaft for push nuts and push-on rings (pushed over the shaft end); one side only (blind) for U- and J-nuts and tubular clips once clipped in place: 'Access to opposite side is unnecessary' (Tinnerman catalogue p. 11) and tubular clips suit 'attachments where only one side of an assembly is accessible' (p. 23); both sides for loose flat speed nuts, which you hold behind the panel while driving the screw
+- **Materials:** Made from heat-treated high-carbon spring steel with a phosphate, oil, zinc or varnish finish, or stainless steel for corrosion resistance; some in beryllium copper or phosphor bronze (Tinnerman catalogue; Starlock catalogue; Rotor Clip). Push nuts suit plain shafts of steel, non-ferrous metals and plastic (Starlock catalogue p. 4); push-on rings should go on 'unhardened shafts softer than the ring' (McMaster-Carr). Tinnerman's push-ons 'make a positive bite on metal, plastic or wood' (catalogue p. 21). Speed nuts suit sheet-metal (self-tapping) screws and machine screws in sheet metal, plastic or wood panels.
+- **Heat, cold, water and wear:** Plain or varnished spring steel rusts: Starlock's standard varnish 'will not protect against corrosion but is adequate ... in most dry environments' (Starlock catalogue p. 3); use zinc-coated or stainless versions outdoors. Electroplating high-carbon spring steel can cause hydrogen embrittlement ([brittle](../glossary.md#brittle--ductile) cracking), so makers use mechanical zinc or zinc-flake coatings instead (Starlock catalogue p. 3; Tinnerman catalogue p. 6). Speed nuts resist vibration (Tinnerman catalogue p. 5). On plastic shafts or panels, plastic [creep](../glossary.md#creep) and heat can loosen the grip over time ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: the normal choice; the clips are stamped from spring-steel strip (sheet metal) by fastener makers
+  - 3D print (FDM): print the shaft, stud, [boss](../glossary.md#boss) or panel that the clip fits onto; the clip itself is best bought, although printed plastic replacements of trim push nuts exist
+  - woodwork: push nuts on dowel or metal-rod axles for toys and carts ⚑ [uncertain]
+  - sheet metal: speed nuts and U-/J-nuts on sheet panels
+- **Printing it in one piece (print in place):** no: it is a separate metal part pushed or screwed onto the printed or wooden part
+- **Tools:** Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal needs pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut').
+- **Difficulty:** easy: buy the right size and push or screw it on; the main catch is matching the shaft diameter closely (within about ±0.05 mm for small Starlock sizes) or the panel thickness range of a U-nut
+
+### 3D printing tips
+
+1) Use a metal pin, rod or screw where you can: push-nut pull-off ratings are measured on mild-steel shafts (Starlock catalogue p. 6), and a plastic shaft will give less grip, though Starlock says push nuts can retain plastic shafts (p. 4) ⚑ [uncertain] (for how much less). 2) Printed shafts must be very close to size: Starlock's metric push nuts assume a shaft within ±0.05 mm up to 16 mm diameter and ±0.1 mm above (p. 6); FDM rarely holds that, so print slightly oversize, measure with calipers and sand or ream to fit, or use a bought rod ⚑ [uncertain]. 3) Print pins and studs lying on their side (layers along the length) so they don't snap off at a layer line when the push nut is forced on ⚑ [uncertain]. 4) Seat the push nut squarely with a tube or socket over the shaft, not by hitting its teeth, so it doesn't tilt and bite crooked (Starlock catalogue p. 26 uses a ferrule tool) ⚑ [uncertain]. 5) For panels, a flat speed nut on a sheet-metal (self-tapping) screw can replace a heat-set insert in a thin printed flange; U- and J-nuts only fit panels within their stated thickness range, e.g. 0.041-0.051 in for one #6-32 J-nut (Tinnerman catalogue p. 10), so print the flange to that thickness. 6) Don't overtighten a speed nut on plastic: extra torque beyond the recommended value flattens the spring and 'could result in loss of spring tension resiliency' (Tinnerman catalogue p. 5), and it also crushes the print. 7) Plastic creeps, so the clamp of a speed nut on a printed panel slowly relaxes; check it after a few days under load ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Search catalogues (McMaster-Carr, Misumi, fastener wholesalers) for: 'push nut' / 'pushnut' (round, capped, dome cap, hex, 'top hat'), 'push-on retaining ring', 'self-locking retaining ring', 'toothed external push-on ring' (Rotor Clip TX, TY; internal TI), 'grooveless retainer ring', 'Starlock washer' (brand), 'axle cap', 'Palnut push-on' (brand); 'speed nut' / 'flat speed nut' / 'Tinnerman nut' (brand), 'spring nut', 'U-nut', 'J-nut', 'spire clip', 'clip-on nut', 'tubular speed clip', 'ball-stud speed clip'. Push nuts are sized by shaft diameter (about 1.5-30 mm or 1/16-1 1/8 in; Starlock catalogue; Fastenright); round push nuts with flexible teeth also press onto threaded rod 'of any [pitch](../glossary.md#pitch)' as a light-duty nut or a jam nut (McMaster-Carr); speed nuts by screw size and type (machine screw such as 8-32, or sheet-metal screw such as #8 'A' or 'B'); U- and J-nuts also by panel thickness range. Installation tools: 'push nut installation tool' with a magnetic ferrule sized to the shaft (Starlock catalogue p. 26; McMaster-Carr). Cage nuts: search 'cage nut' or 'rack cage nut' by thread (M6, M5, 10-32, 12-24) and square-hole size, including 'tool-less cage nuts' (Wikipedia 'Cage nut').
+
+## Rules of thumb
+
+- Push nuts: shaft [tolerance](../glossary.md#tolerance) ±0.05 mm up to 16 mm diameter and ±0.1 mm above; the hole in a metric Starlock is a little smaller than the shaft, e.g. 2.58-2.81 mm for a 3 mm shaft and 9.49-9.74 mm for a 10 mm shaft (B&F Starlock catalogue p. 6).
+- Typical spring-steel push-nut forces, push-on / pull-off: 3 mm shaft 108 N / 196 N; 5 mm 118 N / 392 N; 8 mm 216 N / 785 N; 10 mm 284 N / 981 N; 12 mm 441 N / 2453 N; 25 mm 559 N / 3777 N. Pull-off figures are 'for guidance only' and based on EN3B bright drawn mild-steel shafts; stainless versions hold somewhat less, e.g. 294 N on 5 mm and 784 N on 10 mm (B&F Starlock catalogue pp. 6 and 10).
+- Push-on rings are for low thrust loads and unhardened shafts softer than the ring, and are one-time use (Rotor Clip; McMaster-Carr).
+- Speed nuts: use 1.5 threads of machine screw beyond the prongs, and 2-3 threads of a tapered sheet-metal screw, 'to assure proper grip on the full root diameter' (Tinnerman catalogue p. 5).
+- Speed nut average installation torque / tensile limit: #6-32 5 in-lb / 150 lb; #8-32 7 in-lb / 250 lb; #10-24 12 in-lb / 350 lb; 1/4-20 30 in-lb / 600 lb; #8 A or B sheet-metal screw 17 in-lb / 600 lb (about 0.8 N·m / 1.1 kN for #8-32). Torque beyond these values 'is excessive and could result in loss of spring tension resiliency' (Tinnerman catalogue p. 5).
+- Use the recommended minimum [clearance](../glossary.md#clearance) holes (e.g. 0.187 in / 4.75 mm for #8 screws) because 'Tinnerman fasteners will withstand greater tensile loads if the screw holes provide minimum clearance'; a thicker speed nut is stronger (Tinnerman catalogue p. 5).
+- Grooveless retainer rings need 'as little as .032 in' (0.8 mm) of shaft sticking out for full anchor and fit round shapes from 0.046 in to 2.00 in (Tinnerman catalogue p. 22).
+- Cage nuts must match the panel thickness and the size of the square hole, which the clip is made for; in 19-inch racks the square holes are commonly 0.375 in (9.5 mm), the usual threads are M6 (heavier equipment such as servers) or M5 outside the US and 10-32 (less often 12-24) in the US, and the rail holes repeat in sets of three every 1.75 in (44.45 mm), one rack unit (U) (Wikipedia 'Cage nut'; Wikipedia '19-inch rack').
+
+## Common failures
+
+Push nut won't hold: shaft undersized or outside the ±0.05 mm tolerance (Starlock catalogue), shaft too hard for the teeth to bite (McMaster-Carr; Rotor Clip), or pushed on crooked so only some teeth bite ⚑ [uncertain]. Push nut won't come off: by design; cut or pry it off and fit a new one (Starlock; Rotor Clip). Removed push nut re-used and slips: they are single-use (Woodstock Industrial). Speed nut strips or loosens: overtightened past the recommended torque so the spring arch is flattened (Tinnerman catalogue p. 5), wrong screw type, or too few threads through the prongs. U- or J-nut falls off or won't fit: panel thickness outside its range, or a J-nut with a short leg unclipping (Wikipedia 'Clip-on nut': the J-nut 'is free to unclip'). Rust on plain-finish parts outdoors.
+
+## Safety
+
+Stamped spring steel has sharp edges and teeth; wear gloves when handling many and eye protection when prying off or cutting old push nuts, which can spring away ⚑ [uncertain]. Push nuts retaining toy wheels are small parts that could be swallowed if they come off ⚑ [uncertain].
+
+## Related
+
+- Retaining ring (circlip, E-clip): sits in a machined groove, so it holds far more end load and can be removed with pliers
+- Thread-locking hardware (nylon-insert nut, lock washer, split pin): stronger threaded locking for load-bearing joints
+- Self-tapping screw into plastic (thread-forming screw): cuts its own thread in the part instead of using a sheet-metal nut
+- Heat-set threaded insert and Captive nut pocket (nut trap): give a full metal thread in 3D prints for repeated reassembly
+- Blind threaded fixings (rivet nut, well nut): a strong permanent thread in sheet from one side
+- Self-clinching fastener (press-in nut or stud): pressed permanently into sheet metal
+- Push-in plastic rivet (fir-tree clip, push rivet): all-plastic push-in fasteners for trim and panels
+- Internal tube anchors (star nut, expansion plug): a spring-steel star nut uses the same biting-flange idea inside a tube
+- Snap-lock sheet joint (barbed or spring finger): barbs formed in the sheet itself
+- Press fit ([interference fit](../glossary.md#interference-fit)) and Tolerance ring: hold by tightness alone without teeth
+- Press stud (snap fastener, popper): a textile snap; the ball-stud speed clip is its sheet-metal cousin
+
+## Make it yourself
+
+- [Dodge (RAM 2nd gen, others) windshield trim push nut (Maker_of_Toys, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/462378-dodge-ram-2nd-gen-others-windshield-trim-push-nut): A printed plastic replacement for a vehicle trim push nut that goes over a finned (not threaded) stud; shows the limits of printing this kind of part, since the original is a bought fastener *(licence: CC BY-NC-SA)*
+
+## Pictures, videos and models
+
+- [Two spire clips.jpg (Wikimedia Commons, Lithopsian)](https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg): Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw *(licence: CC BY-SA 4.0)*
+- [Tinnerman Parts Catalog (Eaton-era Tinnerman catalogue '383', distributor copy)](https://w5rkl.com/wp-content/uploads/2015/02/Tinnermann-Catelog.pdf): Drawings and 'how to apply' illustrations of flat, twin, J-, U-, push-on, tubular, ball-stud and grooveless-ring spring-steel fasteners, with torque and tensile tables *(licence: link only (manufacturer trade catalogue))*
+- [Push on fasteners: Starlock catalogue (B&F Fasteners, distributed by VIBA)](https://www.viba.nl/media/files//dw-resources/103682%2020456starlocks_-_metric.pdf): Drawings of uncapped, dome-capped, deep-capped and special Starlock push nuts, installation tools, and size and push-on/pull-off force tables *(licence: link only (manufacturer catalogue; reprinting not permitted))*
+- [How To Install Palnut® Push Ons (YouTube, Advance Components)](https://www.youtube.com/watch?v=H52nOSSsEWs): Video showing push-on spring-steel fasteners being installed over plain studs *(licence: link only (standard YouTube licence))*
+- [Kafigmutter.jpg (cage nut) (Wikimedia Commons, original uploader Andy E at German Wikipedia)](https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg): Photo of cage nuts, square nuts held in spring-steel cages, with a screw (used on Wikipedia 'Cage nut'); more photos, including tool-less cage nuts, in Commons 'Category:Cage nuts' *(licence: CC BY-SA 3.0)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts:…"
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Speed_nut>
+- <https://en.wikipedia.org/wiki/Clip-on_nut>
+- <https://en.wikipedia.org/wiki/Retaining_ring>
+- <https://w5rkl.com/wp-content/uploads/2015/02/Tinnermann-Catelog.pdf>
+- <https://www.viba.nl/media/files//dw-resources/103682%2020456starlocks_-_metric.pdf>
+- <https://www.rotorclip.com/post/product_type/self-locking-and-push-on-retaining-rings/>
+- <https://www.rotorclip.com/block-collections/self-locking-and-push-on-retaining-rings-block-collection/>
+- <https://www.rotorclip.com/wp-content/uploads/2023/03/UltimateRetainingRingGuide.pdf>
+- <https://www.mcmaster.com/products/metric-push-nuts/>
+- <https://www.mcmaster.com/products/push-nuts/>
+- <https://www.eugenefast.com/category/products/nuts/speed-nuts/1501>
+- <https://www.woodstockindustrial.com/starlock.html>
+- <https://www.fastenright.com/general-fixings/starlock-washers/wsr21>
+- <https://www.jetpress.com/component-and-fastener-products/fasteners-and-components/threaded-fasteners-and-push-on-fasteners/pushnuts-push-on-fixes>
+- <https://www.advancecomponents.com/fasteners/palnut-push-ons/>
+- <https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg>
+- <https://www.youtube.com/watch?v=H52nOSSsEWs>
+- <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Cage_nut>
+- <https://en.wikipedia.org/wiki/19-inch_rack>
+- <https://commons.wikimedia.org/wiki/Category:Cage_nuts>
+- <https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg>

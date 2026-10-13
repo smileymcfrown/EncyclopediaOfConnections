@@ -1,0 +1,298 @@
+---
+title: Bead-in-groove fabric edge
+description: A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or
+  pressed in over the fabric as a separate cord (screen spline), sits in a groove whose mouth is narrower than the bead, so
+  the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
+num: 381
+term: 'Bead-in-groove fabric edge: keder and keder rail (awning rope in awning track), bolt rope in a luff groove, and screen
+  spline in a spline channel'
+plain_name: A fat edge on a piece of fabric, made by sewing or welding a rope or plastic bead into it (or by pressing a rubber
+  cord in over a mesh), that slides or is pushed into a groove with a narrow mouth in a frame, so the whole edge is held at
+  once, as on caravan awnings, big tent roofs, sails and fly screens
+aliases:
+- keder, keder bead, keder rope, awning rope, piping (German 'Keder'; the flat strip joining bead to fabric is the 'Kederfahne',
+  the keder flag or flap) (Specialty Fabrics Review; Sailrite; German Wikipedia 'Kederschiene')
+- keder rail, keder track, awning rail, awning track, keder channel, piping rail (German 'Kederschiene', 'Kederleiste') (Sailrite;
+  German Wikipedia)
+- 'double keder strip (German ''Doppelkederschiene''), keder rail strip, sewable keder rail: a flexible plastic strip with
+  a groove on each side or a sewable flange, to join two fabric panels (German Wikipedia; Sailrite)'
+- 'bolt rope, boltrope, bolt-rope (luff bolt rope, foot bolt rope): rope sewn into the edge of a sail, which can be fed into
+  a groove in a mast, boom or roller-furling luff foil (Wikipedia ''Bolt rope'', ''Sail'')'
+- 'screen spline, spline, spline cord, fly-screen rubber, ''Gummikeder'' in German: the rubber or plastic cord that holds
+  insect mesh in the channel of a screen frame (Bob Vila; Phifer; German Wikipedia)'
+- 'silicone edge graphics (SEG): a flat silicone strip, ''sometimes referred to as keder'', sewn round a printed fabric panel
+  and pushed into a groove in an aluminium frame (Digital Output)'
+- 'screen rolling tool, spline roller: the two-wheeled tool used to press mesh and spline into the channel (Bob Vila)'
+family: cord, strap, webbing & textile hardware
+other_families:
+- clamping, magnetic & friction connections
+- sliding, telescoping & linear motion
+finder:
+  job:
+  - join and hold
+  - tighten and hold tension
+  - seal it, or pass cables or fluid through
+  - let it move
+  motion: slide
+  special_behaviour: [quick-release]
+  holding_principle: [shape, friction or clamping, material bond]
+  reuse_cycles: many times
+  seal: watertight
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM)]
+  connects: [shaft, 'strap, cord or fabric']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [crimper, heat gun, welding or brazing torch, drill and tap, sewing or leather tools, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: partly
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Bead-in-groove fabric edge*: Phifer''s spline figures come from its selection card PDF (a zoro.com copy).'
+uncertain_fields: [seal, load, maker_difficulty, making_tips_3d_printing, rules_of_thumb, environment_limits]
+diagram_idea: 'Two cross-sections side by side: on the left a C-shaped keder rail with a round bead inside and the fabric
+  flap leaving through the narrow slot, with an arrow showing that a sideways pull can''t drag the bead out but the bead can
+  slide in from the rail''s end; on the right a screen frame channel with the mesh pushed down into it and the spline wedged
+  on top, and a two-wheeled rolling tool above it showing the convex wheel for the mesh and the concave wheel for the spline.'
+links:
+- url: https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/
+  title: 'Making it easy: the benefits of keder (Specialty Fabrics Review, 2019)'
+  shows: Photos of a keder cross-section (PVC core wrapped in fabric) and of a tent roof cover pulled through the rafter's
+    keder channel
+  license: link only
+- url: https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg
+  title: Kederschiene Wohnwagen.jpg (Wikimedia Commons, by Presse03)
+  shows: Photo of a keder rail on a caravan
+  license: CC BY-SA 3.0
+- url: https://de.wikipedia.org/wiki/Datei:Kederschiene_Philip-Magner.JPG
+  title: Kederschiene Philip-Magner.JPG (German Wikipedia, by Philip Magner)
+  shows: Photo of a keder system on a 22 mm x 50 mm keder rail
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Bolt-rope.svg
+  title: Bolt-rope.svg (Wikimedia Commons, by Auanika)
+  shows: Labelled drawing of a sail corner with a metal bolt rope in the luff and a natural-fibre bolt rope in the foot
+  license: CC BY-SA 3.0 / GFDL 1.2 or later
+- url: https://www.bobvila.com/articles/wood-window-frame-screen-replacement
+  title: How to Replace Window Screening (Bob Vila)
+  shows: Step-by-step photos of removing the old spline and rolling new mesh and spline into a screen frame's channel
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/35274-hooky-the-helpful-snake-multifunctional-hook-for-a
+  title: 'Hooky - the helpful Snake: multifunctional hook for awning Keder rails (Be Me, Printables) (URL from Printables
+    API, page not opened)'
+  what_it_is: A hook that twists into a 7 mm (or 10 mm) keder rail, locks under load and is designed to break before the awning
+    does
+  license: Creative Commons Attribution-NonCommercial-ShareAlike
+- url: https://www.printables.com/model/1285569-hook-for-caravan-keder-piping-fixed-or-easy-insert
+  title: Hook for caravan keder piping - fixed or easy insert (ChristophB, Printables) (URL from Printables API, page not
+    opened)
+  what_it_is: A keder-rail hook with a rope hole, in swing-in and slide-in versions, printed in PETG without supports
+  license: Creative Commons Attribution-NonCommercial-ShareAlike
+- url: https://www.printables.com/model/971564-wohnwagen-keder-stopper-caravan-rail-stoppers
+  title: Wohnwagen Keder Stopper / Caravan Rail Stoppers (mcweck, Printables) (URL from Printables API, page not opened)
+  what_it_is: An end stopper about 7.5 mm across for a caravan keder rail, fixed with an M3 screw in a heat-set insert
+  license: GNU General Public License v3.0
+- url: https://www.printables.com/model/160984-flyscreen-spline-roller
+  title: Flyscreen Spline Roller (SteveW91, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printable spline roller for fitting fly screen mesh, assembled with one M4x30 bolt and nut
+  license: Creative Commons Attribution
+- url: https://www.printables.com/model/807285-piping-keder-folding-device
+  title: Piping / Keder folding device (Strankler, Printables) (URL from Printables API, page not opened)
+  what_it_is: A guide that folds a 4 cm fabric strip into a 1 cm piping or keder cover, ready to sew onto a fabric edge
+  license: Creative Commons Attribution-NonCommercial-ShareAlike
+sources:
+- https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/
+- https://sailrite.com/Keder-Awning-Rope-Tape
+- https://sailrite.com/Sewable-Keder-Rail-Track-White
+- https://sailrite.com/Flex-A-Rail-White
+- https://sailrite.com/Awning-Track-Satin-Finish-Aluminum
+- https://de.wikipedia.org/wiki/Kederschiene
+- https://en.wikipedia.org/wiki/Bolt_rope
+- https://en.wikipedia.org/wiki/Sail
+- https://www.bobvila.com/articles/wood-window-frame-screen-replacement
+- https://homefixated.com/how-to-install-window-screen/
+- https://www.zoro.com/static/cms/enhanced_pdf/Phifer%20Incorporated_SplinexxSelectionxxCardxxV21xx44cc88.pdf
+- https://www.reimo.com/en/camping-shop/awnings-for-caravans-motorhomes-campervans/tent-pegs-guy-ropes-hammers/42265/kederoesen-6-stueck-oe5/7mm-multifunktional
+- https://www.berger-camping.com/item/berger-keder-adapter-set-37611
+- https://digitaloutput.net/?p=5110
+- https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2014-news-releases/window-guards-and-other-precautions-can-prevent-accidental-falls
+- https://help.prusa3d.com/article/pla_2062
+- https://help.prusa3d.com/article/petg_2059
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg
+- https://de.wikipedia.org/wiki/Datei:Kederschiene_Philip-Magner.JPG
+- https://commons.wikimedia.org/wiki/File:Bolt-rope.svg
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Beadingroove_fabric_edge_keder_boltrope_screen_spline.json
+glossary: [stiffness, form-fit--force-fit--material-bond, spline, heat-set-insert, peel-vs-shear]
+---
+
+A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or pressed in over the fabric as a separate cord (screen [spline](../glossary.md#spline)), sits in a groove whose mouth is narrower than the bead, so the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
+
+**In plain words:** A fat edge on a piece of fabric, made by sewing or welding a rope or plastic bead into it (or by pressing a rubber cord in over a mesh), that slides or is pushed into a groove with a narrow mouth in a frame, so the whole edge is held at once, as on caravan awnings, big tent roofs, sails and fly screens. **Proper term:** Bead-in-groove fabric edge: keder and keder rail (awning rope in awning track), bolt rope in a luff groove, and screen spline in a spline channel.
+
+**Also called:** keder, keder bead, keder rope, awning rope, piping (German 'Keder'; the flat strip joining bead to fabric is the 'Kederfahne', the keder flag or flap) (Specialty Fabrics Review; Sailrite; German Wikipedia 'Kederschiene'); keder rail, keder track, awning rail, awning track, keder channel, piping rail (German 'Kederschiene', 'Kederleiste') (Sailrite; German Wikipedia); double keder strip (German 'Doppelkederschiene'), keder rail strip, sewable keder rail: a flexible plastic strip with a groove on each side or a sewable flange, to join two fabric panels (German Wikipedia; Sailrite); bolt rope, boltrope, bolt-rope (luff bolt rope, foot bolt rope): rope sewn into the edge of a sail, which can be fed into a groove in a mast, boom or roller-furling luff foil (Wikipedia 'Bolt rope', 'Sail'); screen spline, spline, spline cord, fly-screen rubber, 'Gummikeder' in German: the rubber or plastic cord that holds insect mesh in the channel of a screen frame (Bob Vila; Phifer; German Wikipedia); silicone edge graphics (SEG): a flat silicone strip, 'sometimes referred to as keder', sewn round a printed fabric panel and pushed into a groove in an aluminium frame (Digital Output); screen rolling tool, spline roller: the two-wheeled tool used to press mesh and spline into the channel (Bob Vila).
+
+## How it works
+
+The groove in the rail or frame is round or C-shaped inside, with a slot narrower than the bead, so once the bead is in, pulling the fabric sideways can't drag it out through the slot; only the flat fabric flap passes through the opening (German Wikipedia 'Kederschiene'; Specialty Fabrics Review). A keder or bolt rope is fixed to the fabric first, by hot-air welding, RF welding or sewing, and then slid into the rail from one end, which lets a tent roof be pulled over a frame with ropes from the ground (Specialty Fabrics Review; Sailrite). A screen spline works the other way round: the loose mesh is laid over the frame, pushed into the channel with the roller's convex wheel, and then the cord is rolled in on top with the concave wheel, wedging the mesh in by friction and pulling it taut (Bob Vila). Silicone edge graphics are similar: the strip sewn to the print is simply pushed into the frame's groove all round (Digital Output).
+
+## Parts
+
+A few parts: the fabric or mesh, the bead (a PVC, rubber or silicone core wrapped in or welded to a fabric flap, a rope sewn into the edge, or a loose spline cord) and the frame or rail with its groove (an aluminium or PVC extrusion, or a screen frame). Fitting a spline also needs a screen rolling tool; keder rails often take end stoppers.
+
+## Everyday examples
+
+- Fly screens on windows and screen doors, held in their aluminium frames by a rubber or vinyl spline (Bob Vila)
+- A caravan or motorhome awning slid into the keder rail along the roof edge (German Wikipedia 'Kederschiene'; Reimo)
+- The roof panels of large event and marquee tents, pulled into keder tracks in the rafters (Specialty Fabrics Review)
+- A sail whose edge (luff) runs up a groove in the mast, and backlit fabric shop and trade-show displays in SEG frames (Wikipedia 'Bolt rope'; Digital Output)
+
+## When to use it
+
+Use a bead in a groove when a whole fabric or mesh edge has to be held evenly to a frame, wall or vehicle, sealed against rain or light, and taken down or replaced later: awnings and sun canopies on caravans, vans and walls; tent and marquee roofs and side walls; boat covers and sails; window and door insect screens; and printed fabric panels in frames (Specialty Fabrics Review; Sailrite; Bob Vila; Digital Output). Keder spreads the load along the edge, installs faster than lacing or grommets, and lets a roof be pulled into place from the ground (Specialty Fabrics Review). A sewable keder rail is a tougher, more leak-resistant replacement for a zipper between two canvas panels (Sailrite). Printed hooks, clips and stoppers are a quick way to hang lights, bags and guy lines from an existing rail (Printables 35274, 1285569).
+
+## When not to use it
+
+Not where the fabric can't be cut accurately to the frame, or where the edge is a tight curve: PVC rail struggles with corners tighter than about 10 in radius and aluminium track bends only over large radii (Sailrite); use lacing, grommets and cord, or sewn webbing loops instead. Not for point loads such as a single tie-down: use a grommet or sewn loop. Not as a safety barrier: window screens are 'not strong enough to prevent someone from falling through'; use window guards or stops (Connecticut Department of Consumer Protection). For a mesh on a wooden frame without a channel, staples and a cover strip are simpler; for a quick, removable seal between rigid parts, a gasket in a groove (Gasket) does the same groove job with rubber.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: attaches a fabric edge to a frame, caravan, wall or boat spar, or joins two fabric panels, along its whole length (Specialty Fabrics Review; Sailrite)
+  - tighten and hold tension: pressing a spline in pulls a screen taut, and SEG frames give a print 'a taut drum-like fit' (Bob Vila; Digital Output); in tents 'we put a lot of tension on the keder to make sure the tent is nice and tight' (Specialty Fabrics Review)
+  - seal it, or pass cables or fluid through: a keder in its rail 'seals out the elements' and keder rail can replace a zipper for 'a more durable, leak resistant seal' (Specialty Fabrics Review; Sailrite)
+  - let it move (turn, slide or bend): a keder can be slid along its rail; slider walls hung from a keder rail open and close like a curtain (Specialty Fabrics Review)
+- **Movement:** slide: a keder or bolt rope slides lengthwise along its rail, both to fit it and, for slider walls, to open them; it can't move across the rail. A pressed-in screen spline or SEG strip doesn't move once fitted (none).
+- **Directions it can move (degrees of freedom):** 1 for a keder in its rail (it can slide along the rail until end stoppers stop it); 0 for a pressed-in spline or SEG strip.
+- **Special behaviour:**
+  - none in the mechanism sense: the advantage is that the whole edge is held at once, spreading the load evenly instead of concentrating it at grommets or clips (Specialty Fabrics Review)
+  - quick-release: SEG graphics are made to be pulled out and replaced by hand, and a keder slides out of the end of its rail with no tools (Digital Output; German Wikipedia)
+- **How it holds:**
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the bead is wider than the slot in the groove, so it can't be pulled out sideways (German Wikipedia 'Kederschiene')
+  - friction or clamping (force-fit): a screen spline wedges the mesh into the channel and holds it by squeeze and friction, which is why a spline that is too thin for the mesh lets it pop out (Phifer; HomeFixated)
+  - material bond (glue, solvent or melting): the keder flap is usually hot-air or RF welded to the fabric, though it can be sewn (Specialty Fabrics Review; German Wikipedia)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** Medium to heavy along a long edge for keder: it carries the structural tension of large tent roofs, which are tensioned at the keder rafters before anything else (Specialty Fabrics Review). The weak points are the fabric flap and a rail that bends: the rail must be sized and fixed so that the pull deforms it as little as possible, or the fabric wrinkles (German Wikipedia 'Kederschiene', translated), and keder 'will typically tear along the rafter' when it is pulled in at an angle (Specialty Fabrics Review). Strong in a pull across the rail, weak if the flap is twisted or peeled at the slot ⚑ [uncertain]. Screen spline and SEG: light, enough only to hold mesh or a print flat; a screen held by spline is not a barrier against a person or child falling (Connecticut Department of Consumer Protection). No published pull-out figures were found ⚑ [uncertain].
+- **Play and precision:** The bead must suit the groove: keder sizes such as 5 mm and 7 mm on caravans and 11-13 mm on tents aren't interchangeable, though adapters exist (Reimo; Berger; Specialty Fabrics Review); spline is matched to the channel and goes one size smaller for thicker mesh (Phifer). The fabric panel must be cut precisely: 'If a section of fabric you're putting in between beams is too narrow, you won't be able to get them in. If it's cut too wide, you have a floppy roof section' (Specialty Fabrics Review); likewise for SEG prints (Digital Output) and for a caravan awning, whose size must match the rail length (German Wikipedia).
+- **Taking it apart:** removable: a keder slides back out of its rail by hand, and SEG strips pull out by hand (closest to tool-free quick release); a screen spline is lifted out of its channel with a small flat screwdriver or pick (Bob Vila; Digital Output). Fixing the keder to the fabric is permanent (welded or sewn).
+- **How often it can be reused:** many times: keder systems are designed to be put up and taken down repeatedly, and SEG frames are reused with new prints (Specialty Fabrics Review; Digital Output). An old screen spline can be reused if it isn't 'too cracked or UV damaged', but new spline is recommended (HomeFixated).
+- **Sealing:** watertight (approximately) for keder in a fitted rail: Sailrite calls it a 'nearly waterproof attachment' and a tent maker says 'Keder is air- and watertight' (Sailrite; Specialty Fabrics Review); rail ends, joints and stitch holes are the likely leak points ⚑ [uncertain]. None for screen spline and SEG, where the mesh or fabric lets air through.
+- **Adjustable:** Partly: a keder can be slid along its rail to position it, and slider walls move along it; the tension across the fabric is set by the panel's cut size and by buckles, straps or tensioning frames elsewhere (Specialty Fabrics Review; German Wikipedia). A screen's tension is set while rolling the spline in, and can be redone by pulling the spline and re-rolling it (Bob Vila).
+- **Access needed:** one side only (blind) for a pressed-in screen spline or SEG strip; a slide-in keder or bolt rope also needs an open end of the rail or an entry gap to feed it in (closest option: end of a tube or shaft).
+- **Materials:** Bead: flexible PVC or another elastic core wrapped in fabric or webbing and welded (Specialty Fabrics Review), coated polyester welded to a hard PVC core (Sailrite keder awning rope), rope of natural fibre or metal wire (bolt rope) (Wikimedia Commons 'Bolt-rope.svg'), rubber or vinyl spline cord (Bob Vila; HomeFixated), silicone strip (SEG) (Digital Output). Rails and frames: anodised aluminium extrusions, which bend only over a very large radius, or extruded PVC rails that can be bent with steam or a heat gun and cut with a hacksaw (Sailrite); aluminium screen frames and SEG frames (Bob Vila; Digital Output). Fabrics: PVC-coated polyester (vinyl) tent and awning fabric, which is welded; sewable awning and canvas fabrics; sailcloth; fibreglass, aluminium, pet-resistant and solar insect mesh (Specialty Fabrics Review; Phifer; Bob Vila); printed polyester fabric for SEG (Digital Output).
+- **Heat, cold, water and wear:** Sunlight: old spline can be 'cracked or UV damaged' (HomeFixated), and printed PLA accessories soften above about 60 °C and degrade in UV (Prusa Knowledge Base). Heat: PVC rail can be bent with steam or a heat gun (Sailrite), so it softens when hot ⚑ [uncertain for working limits]. Snow and ice can damage screens left up in winter (Bob Vila). Dirt in the rail and nicks in aluminium track cut the keder (Specialty Fabrics Review). The keder joint itself resists weather, sealing 'out the elements' (Specialty Fabrics Review).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: keder, awning rope, keder rails, screen spline, mesh and frames
+  - sewing or welding the keder flap or bolt rope to the fabric (a sewing machine; hot-air or RF welding in industry)
+  - 3D print (FDM): hooks, clips, eyes, end stoppers and adapters that lock into keder rails, and tools such as spline rollers and keder-folding guides (see make_it_yourself)
+- **Printing it in one piece (print in place):** no: printed parts are single pieces that slide or swing into an existing rail (some with a screw and nut), or separate tools.
+- **Tools:** Keder: none to fit it (it is threaded into the rail end and pulled through, by rope for big tent roofs); a sewing machine or a hot-air or RF welder to attach the keder to the fabric, and a drill and screws to mount the rail (Specialty Fabrics Review; Sailrite: 'No crimping tools required'). Screen spline: a screen rolling tool (convex and concave wheels), a small screwdriver or nail punch to lift the old spline and push it into corners, and a utility knife to trim the mesh (Bob Vila; HomeFixated). SEG: none.
+- **Difficulty:** easy for re-screening a window or door with spline and a rolling tool ('replacing a torn screen usually takes less than an hour', Bob Vila) and for printing clips and hooks for an existing keder rail; moderate for sewing keder awning rope onto an awning or cover, which needs a machine that can sew heavy fabric ⚑ [uncertain]; buy the rails, since they are precise extrusions.
+
+### 3D printing tips
+
+1) Measure your rail first; makers publish versions for 6, 7, 8 and 10 mm rails because sizes differ between awnings, caravans and roof tents (Printables 35274, 560759, 876307, 1762136). 2) A hook shaped to twist and lock in a 7 mm rail can be made strong yet deliberately weak in one place: Hooky 'locks itself under load' and its thin walls let it 'break under extreme conditions to avoid damage to the awning' (Printables 35274). 3) Print rail hooks in PETG without supports; ChristophB's hook comes in a swing-in version that fits without sliding in from the rail end and a slide-in 'fix' version (Printables 1285569). PLA 'gets soft and deforms at temperatures over 60 °C' and degrades in UV, so it is a poor choice on a sunny caravan wall, while PETG suits most exterior use below 80 °C (Prusa Knowledge Base 'PLA', 'PETG'). 4) End stoppers stop a keder or accessory sliding out: a printed stopper about 7.5 mm across, fixed with an M3 screw in a [heat-set insert](../glossary.md#heat-set-insert), with a nylon screw suggested so it doesn't scratch the rail (Printables 971564). 5) A keder-mounted clip can carry other hardware: the Keder Tarp Clip adds a mount for an 8 mm keder using one M4 screw and nut (Printables 560759). 6) Tools are easy wins: a printed spline roller needs one M4x30 bolt and nut and no supports (Printables 160984); a printed keder tool for 4.5 mm rubber screen cord uses an M6 bolt and lock nut (Printables 905208); and a printed folding guide turns a 4 cm fabric strip into 1 cm piping or keder cover for sewing (Printables 807285). 7) Print hooks and clips so the load runs along the layers, since 'FFF prints are stronger in one direction than another' (Prusa Knowledge Base 'Modeling with 3D printing in mind'). 8) Printing a whole C-groove rail is possible but its thin slot lips are weak across the layers and it won't match an extrusion's [stiffness](../glossary.md#stiffness); buy rails for anything tensioned ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Keder (raw PVC bead, keder pre-welded to webbing, or keder awning rope with a polyester tape, e.g. 5/16 in), keder rails (anodised aluminium awning track in 45-degree and 180-degree versions, flexible PVC rail such as Flex-A-Rail (brand), sewable keder rail, double keder strip), keder adapters, end stoppers and keder hooks or eyes (5/7 mm); screen spline (vinyl, rubber or foam; sold by diameter), screen rolling tools, insect mesh and screen-frame kits; SEG silicone edge strip and SEG frames; sail track, luff foils and sail feeders for boats (Sailrite; Reimo; Berger; Phifer; Digital Output). Link to catalogues for sizes rather than copying tables (e.g. Phifer's spline selection card).
+
+## Rules of thumb
+
+- Match the bead to the groove. Caravan and motorhome rails take 5 mm or 7 mm keder (Reimo's keder eyes have 5 mm on one side and 7 mm on the other; Berger sells 7-to-5 mm and 7-to-7 mm keder adapters); tent keder 'commonly range from 11 to 13 millimeters' (Specialty Fabrics Review); Sailrite's 5/16 in keder awning rope measures 8-8.6 mm across with a 0.75 in tape (Sailrite).
+- Screen spline: 'The spline size should match the spline groove width for standard insect screen', and thick screens such as PetScreen and SunTex 'will require a smaller diameter spline' (Phifer spline selection card, which lists spline from 0.125 to 0.220 in). If you change to a thinner mesh, the old spline size may no longer hold it (HomeFixated).
+- Re-screening steps (Bob Vila): cut the mesh with 2 in spare on every side, lay it curved side down, push it into the channel with the convex wheel, roll the spline in with the concave wheel while keeping the mesh taut, then trim outside the spline with the blade angled away from it.
+- At corners, push the spline in with a screwdriver and feed in a little extra rather than stretching it; 'Over-stretching it increases its chances of popping out of the corner' (HomeFixated).
+- Don't over-tighten a screen in a light aluminium frame: a screen repairer warns the frame 'becomes bowed in the center', and fixes strips of 1/4 in plywood to the bench along the inside of the frame to stop it (reader comment by a screen repair business owner, HomeFixated) ⚑ [uncertain: one practitioner's advice].
+- Pull keder straight along the rail: tearing 'happens when the installer is not pulling parallel with the keder rafter', and nicks or debris in the rail can cut the keder (Specialty Fabrics Review).
+- Mount rails with screws every 4-12 in through the centre of the track, with one near each end; PVC rail is 'hard to work around a corner with a radius tighter than 10"' and aluminium track 'bends only over a very large radius' (Sailrite).
+- The rail must be stiff and fixed well enough not to deform under the pull, or the fabric wrinkles; on a caravan, the rail length must match the awning's size, or the awning either folds (too long) or hangs in the air (too short) (German Wikipedia 'Kederschiene').
+- SEG: the silicone edging can be 'three millimeters thick and 12 millimeters wide', so allow for it in the print's bleed; sizing errors 'adversely affect' the fit (Digital Output).
+- Sew a bolt rope without letting it untwist or pull the sail edge out of shape: 'Many a well-cut sail is spoiled by the roping' (Kipping 1847, quoted in Wikipedia 'Bolt rope').
+
+## Common failures
+
+Keder tearing along the rail when it is pulled in at an angle, or cut by nicks and grit in the rail (Specialty Fabrics Review); fix by cutting off the damaged keder and re-welding new keder on (Specialty Fabrics Review). Wrong bead size: a keder that doesn't match the rail won't fit or won't hold; adapter sets exist to 'compensate for differences in the size of the keder' (Berger). Panels cut too narrow to fit or too wide and floppy (Specialty Fabrics Review). Spline popping out because it is too thin for the mesh, was over-stretched at corners, or is old and hard (Phifer; HomeFixated). Wrinkled screens from uneven tension, or a bowed frame from too much tension (HomeFixated). Mesh accidentally cut while trimming (Bob Vila). Keders and accessories sliding out of the end of a rail with no stopper (Reimo sells blocking pieces for 5 mm and 7 mm rails). A rail that flexes under tension, wrinkling the fabric (German Wikipedia).
+
+## Safety
+
+A screen held by a spline will not stop a child or adult falling out of a window: 'screens and even storm windows are not strong enough to prevent someone from falling through' (Connecticut Department of Consumer Protection). Large tents and awnings on keder carry big wind loads; erect them following the maker's instructions, and note that keder roofs can be pulled into place from the ground, avoiding ladder work (Specialty Fabrics Review). Take care with the utility knife when trimming mesh (Bob Vila). A printed hook designed to break in a storm (Printables 35274) protects the awning but means whatever hangs from it can fall.
+
+## Related
+
+- Gasket (flat, cord-in-groove or cast-in-place): the same cord-in-groove idea used to seal rather than to hold fabric
+- Aluminium-extrusion connectors (T-slot nuts and brackets): rigid parts slid into slotted extrusions instead of a fabric edge
+- Tongue-and-groove joint: a rigid edge in a groove, the woodworking cousin
+- Eyelets and grommets: hold fabric at points; cheaper and simpler, but concentrate the load and don't seal
+- Lacing (cord through rows of holes or eyelets): what keder replaced on tents; adjustable and works on curves
+- Zipper (slide fastener): joins two fabric panels and opens quickly; a keder rail strip is more leak-resistant and durable (Sailrite)
+- Push-on edge trim (U-channel edging): a channel pushed onto a rigid edge rather than a bead pushed into a channel
+- Staples for wood and fabric: the usual way to fix mesh or fabric to a wooden frame with no groove
+- Heat-sealed seam: how keder flaps are welded to coated fabric
+- Sewn seams and hand stitches: how keder rope and bolt ropes are sewn on
+- Hook-and-loop fastener: holds a fabric edge along its length too, but [peels](../glossary.md#peel-vs-shear) and doesn't seal
+
+## Make it yourself
+
+- [Hooky - the helpful Snake: multifunctional hook for awning Keder rails (Be Me, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/35274-hooky-the-helpful-snake-multifunctional-hook-for-a): A hook that twists into a 7 mm (or 10 mm) keder rail, locks under load and is designed to break before the awning does *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- [Hook for caravan keder piping - fixed or easy insert (ChristophB, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1285569-hook-for-caravan-keder-piping-fixed-or-easy-insert): A keder-rail hook with a rope hole, in swing-in and slide-in versions, printed in PETG without supports *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- [Wohnwagen Keder Stopper / Caravan Rail Stoppers (mcweck, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/971564-wohnwagen-keder-stopper-caravan-rail-stoppers): An end stopper about 7.5 mm across for a caravan keder rail, fixed with an M3 screw in a heat-set insert *(licence: GNU General Public License v3.0)*
+- [Flyscreen Spline Roller (SteveW91, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/160984-flyscreen-spline-roller): A printable spline roller for fitting fly screen mesh, assembled with one M4x30 bolt and nut *(licence: Creative Commons Attribution)*
+- [Piping / Keder folding device (Strankler, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/807285-piping-keder-folding-device): A guide that folds a 4 cm fabric strip into a 1 cm piping or keder cover, ready to sew onto a fabric edge *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+
+## Pictures, videos and models
+
+- [Making it easy: the benefits of keder (Specialty Fabrics Review, 2019)](https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/): Photos of a keder cross-section (PVC core wrapped in fabric) and of a tent roof cover pulled through the rafter's keder channel *(licence: link only)*
+- [Kederschiene Wohnwagen.jpg (Wikimedia Commons, by Presse03)](https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg): Photo of a keder rail on a caravan *(licence: CC BY-SA 3.0)*
+- [Kederschiene Philip-Magner.JPG (German Wikipedia, by Philip Magner)](https://de.wikipedia.org/wiki/Datei:Kederschiene_Philip-Magner.JPG): Photo of a keder system on a 22 mm x 50 mm keder rail *(licence: CC BY-SA 3.0)*
+- [Bolt-rope.svg (Wikimedia Commons, by Auanika)](https://commons.wikimedia.org/wiki/File:Bolt-rope.svg): Labelled drawing of a sail corner with a metal bolt rope in the luff and a natural-fibre bolt rope in the foot *(licence: CC BY-SA 3.0 / GFDL 1.2 or later)*
+- [How to Replace Window Screening (Bob Vila)](https://www.bobvila.com/articles/wood-window-frame-screen-replacement): Step-by-step photos of removing the old spline and rolling new mesh and spline into a screen frame's channel *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Research note: *Bead-in-groove fabric edge*: Phifer's spline figures come from its selection card PDF (a zoro.com copy).
+
+## Sources
+
+- <https://specialtyfabricsreview.com/2019/03/01/making-it-easy-the-benefits-of-keder/>
+- <https://sailrite.com/Keder-Awning-Rope-Tape>
+- <https://sailrite.com/Sewable-Keder-Rail-Track-White>
+- <https://sailrite.com/Flex-A-Rail-White>
+- <https://sailrite.com/Awning-Track-Satin-Finish-Aluminum>
+- <https://de.wikipedia.org/wiki/Kederschiene>
+- <https://en.wikipedia.org/wiki/Bolt_rope>
+- <https://en.wikipedia.org/wiki/Sail>
+- <https://www.bobvila.com/articles/wood-window-frame-screen-replacement>
+- <https://homefixated.com/how-to-install-window-screen/>
+- <https://www.zoro.com/static/cms/enhanced_pdf/Phifer%20Incorporated_SplinexxSelectionxxCardxxV21xx44cc88.pdf>
+- <https://www.reimo.com/en/camping-shop/awnings-for-caravans-motorhomes-campervans/tent-pegs-guy-ropes-hammers/42265/kederoesen-6-stueck-oe5/7mm-multifunktional>
+- <https://www.berger-camping.com/item/berger-keder-adapter-set-37611>
+- <https://digitaloutput.net/?p=5110>
+- <https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2014-news-releases/window-guards-and-other-precautions-can-prevent-accidental-falls>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://help.prusa3d.com/article/petg_2059>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://commons.wikimedia.org/wiki/File:Kederschiene_Wohnwagen.jpg>
+- <https://de.wikipedia.org/wiki/Datei:Kederschiene_Philip-Magner.JPG>
+- <https://commons.wikimedia.org/wiki/File:Bolt-rope.svg>
+- <https://api.printables.com/graphql/>

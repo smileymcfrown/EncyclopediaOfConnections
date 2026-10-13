@@ -6,7 +6,9 @@ break validation; they are clean-ups for the report step or Phase 1.
 **Needs confirming (R25, 2026-10-06):** every point here that is not marked as settled counts as
 *needs confirming* (⚑). When the entries become pages (P5), each entry's open points are copied onto
 its page with the ⚑ mark, so readers can help settle them. When a point is settled, say how in its
-bullet. The full list of what needs confirming is in `research/needs-confirming.md`.
+bullet, beginning that part with **settled:** (or **correction:** for a fix); `tools/make_entries.py`
+then leaves it off the entry's page. The full list of what needs confirming is in
+`research/needs-confirming.md`.
 
 ## Sources and links
 - **Books read from unofficial PDF copies** (listed in `sources`, not in `links`): *Machinery's

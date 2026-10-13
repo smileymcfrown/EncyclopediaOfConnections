@@ -60,11 +60,11 @@ GLUE_NEED=Q('What matters most?',
   A('Can be undone later', OR(R('tools','hand'), N(r'stretch-release|hide glue|hot-melt|thermoplastic'))))
 
 TREE=Q('What do you need it to do?',
- A('Hold two things together (they stay still)', AND(OR(J('join and hold','glue or bond'), AND(M('none','flex'), F('adhesives & bonding','interlocking joints & joinery','snap & clip fits','clamping, magnetic & friction connections','print-in-place & 3D-printing joints','quick-release & tool-free')), F('locks, latches & catches'), N(r'lid and flap stays')), NOT(F('electrical connections'))),
+ A('Hold two things together (they stay still)', AND(OR(J('join and hold','glue or bond'), AND(M('none','flex'), F('adhesives & bonding','interlocking joints & joinery','snap & clip fits','clamping, magnetic & friction connections','print-in-place & 3D-printing joints','quick-release & tool-free')), F('locks, latches & catches'), N(r'lid and flap stays|cable through a hinge')), NOT(F('electrical connections'))),
    Q('What are you joining?',
      A('3D-printed parts, or screws, nuts and magnets into a print', C('printed'), Q('Will you need to take it apart again?',
          A('No, never (permanent)', AND(R('never'), NOT(N(r'fabric|chainmail|self-folding')))),
-         A('Yes', AND(R('tools','hand'), NOT(N(r'fabric|chainmail|self-folding'))), Q('Is there a screw or bolt?',
+         A('Yes', AND(OR(R('tools','hand'), N(r'insert')), NOT(N(r'fabric|chainmail|self-folding'))), Q('Is there a screw or bolt?',
              A('Yes', N(r'thread|insert|nut|screw|bolt')),
              A('No (clips, pins, rings, magnets)', NOT(N(r'thread|insert|nut|screw|bolt'))))),
          A('It is fabric, chain mail or a folding sheet made in the print', N(r'fabric|chainmail|self-folding')))),

@@ -1,0 +1,27 @@
+name: Something isn't working
+description: A broken link, a page that doesn't show properly, or the finder giving a wrong or empty answer.
+title: "Problem: "
+labels: ["problem"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or finder path
+      description: The page address, or the answers you chose in the finder.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser (optional)
+      description: For example "phone, Firefox".

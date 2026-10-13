@@ -1,0 +1,321 @@
+---
+title: Gear pump
+description: A rotary pump in which two meshing gears (side by side, or one inside a ring gear as in the gerotor) trap liquid
+  between their teeth and the close-fitting case and carry it from inlet to outlet, delivering a fixed amount per turn; many
+  can also run backwards as a hydraulic motor.
+num: 317
+term: Gear pump (external and internal gear pump, including the gerotor)
+plain_name: 'Two gears that mesh inside a snug case: turn one and the liquid caught in the gaps between the teeth is carried
+  round the outside from the inlet to the outlet, where the meshing teeth squeeze it out. The same box works backwards as
+  a motor if you push liquid through it'
+aliases:
+- external gear pump, internal gear pump, crescent (internal) gear pump (Wikipedia 'Gear pump'; Castle Pumps)
+- gerotor ('generated rotor'), gerotor pump, trochoid gear pump, trochoid pump (Wikipedia 'Gerotor'; Thang)
+- three-gear pump (Thang 'External gear pump 2')
+- hydraulic gear pump, gear oil pump, engine oil pump (Wikipedia 'Hydraulic pump'; Wikipedia 'Gear pump')
+- gear motor (hydraulic), gerotor motor, Geroller and Nichols motors (Wikipedia 'Hydraulic motor')
+- rotary positive-displacement pump; capsule blower (an early name) (Wikipedia 'Pump'; Wikipedia 'Gear pump' history)
+- 'related pumps covered here: rotary vane pump, lobe pump or Roots pump (Roots blower), flexible impeller pump or flexible
+  vane pump (Wikipedia ''Rotary vane pump'', ''Lobe pump''; Castle Pumps)'
+- Jabsco (brand) impeller pump (common name for flexible-impeller pumps; Jabsco datasheet)
+- drill pump, drill gear pump (maker models driven by a cordless drill; Printables 277351, 1534241)
+- Zahnradpumpe (German) (Wikimedia Commons file description)
+family: hydraulics, pneumatics & vacuum
+other_families: ['gear trains, gearboxes & transmissions']
+finder:
+  job:
+  - seal it, or pass cables or fluid through
+  - change the kind of motion
+  - change speed or turning force
+  motion: rotate
+  special_behaviour: [motion conversion]
+  holding_principle: [not a holding joint]
+  reuse_cycles: effectively unlimited
+  seal: watertight
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, 3D print (resin)]
+  connects: [not applicable]
+  power_source: [electricity, liquid]
+  power_loss: not applicable
+  motion_in: [steady turning]
+  motion_out: [pressure]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [soldering iron, hand tools]
+  load_max: medium
+  usual_process: 3D print (FDM)
+  adjustable: partly
+  removability: removable
+  power: powered
+needs_confirming:
+  power_loss:
+    kind: best guess
+    reason: uses power, but `power` does not say what happens when it is lost
+  load_max:
+    kind: best guess
+    reason: no light/medium/heavy band in `load`; defaulted to medium
+confirmed: []
+open_points:
+- kind: content
+  note: 'Items 316-323 (researched after the pause): printed gear pumps disagree on priming (Printables 277351 "needs to be
+    primed"; 286142 and 1534241 say they prime themselves); gear-pump efficiency (Wikipedia *Gear pump* "generally very efficient"
+    vs *Hydraulic pump* lowest volumetric efficiency, about 90%); air-caster air-film thickness (AeroGo 0.003-0.005 in, Wikipedia
+    "less than a millimeter", Airfloat "approximately a millimeter"); BS 1212 Part 2 float valve (DIY Doctor: plastic Part
+    1 valve; Squote, APM and the BSI listing: brass diaphragm valve). CNC Cookbook''s claim that sliding a part on a vacuum
+    table takes at least twice the lifting force contradicts Mekanika''s friction figure and was left out.'
+uncertain_fields: [reuse_cycles, load, play_and_precision, making_tips_3d_printing, environment_limits, safety_notes]
+diagram_idea: Two meshing gears in a tight case drawn from the front, with blue liquid shown only in the tooth gaps against
+  the case wall travelling round both outer sides from the inlet (left) to the outlet (right), and a small inset of a gerotor
+  (inner rotor with one tooth fewer turning off-centre in an outer ring) with its pockets shaded from small to large.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
+  title: Gear pump animation.gif (Jahobr; Wikimedia Commons)
+  shows: Animation of liquid being carried round between the teeth and the case in an external gear pump
+  license: CC0 1.0 (public domain dedication)
+- url: https://commons.wikimedia.org/wiki/File:Internal_gear_pump.gif
+  title: Internal gear pump.gif (Staffanlincoln; Wikimedia Commons)
+  shows: 'Animation of an internal gear pump: a small gear inside a ring gear with a crescent, liquid flowing left to right'
+  license: Public domain
+- url: https://commons.wikimedia.org/wiki/File:Gerotor_anm.gif
+  title: Gerotor anm.gif (Ravedave; Wikimedia Commons)
+  shows: Rendered animation of a gerotor's inner and outer rotors turning, the pockets between them growing and shrinking
+    (ports not shown)
+  license: CC BY-SA 3.0, CC BY 2.5 or GFDL 1.2+
+- url: https://www.youtube.com/watch?v=JtQ-0ZYkH2c
+  title: Flexible impeller pump 1a (Nguyen Duc Thang, thang010146, YouTube)
+  shows: CAD animation of a rubber impeller turning off-centre in its housing, its vanes bending to carry liquid from inlet
+    to outlet (Thang part 4, p. 98)
+  license: link only
+- url: https://hackaday.com/2022/06/10/3d-printed-lobe-pump-shifts-water-well/
+  title: 3D-Printed Lobe Pump Shifts Water Well (Hackaday, 2022)
+  shows: A fully printed lobe pump with figure-eight rotors and outside timing gears, driven by a drill, with ABS and resin
+    rotors
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/277351-drill-gear-pump
+  title: Drill gear pump (Ralf Horhager, Printables) (URL from Printables API, page not opened)
+  what_it_is: 'Popular drill-driven external gear pump with a Gardena hose connection: PETG gears, PLA case, TPU gaskets,
+    four 608 bearings; needs priming'
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/1534241-diy-external-gear-drill-pump
+  title: DIY External Gear Drill Pump (The Justifyer, Printables) (URL from Printables API, page not opened)
+  what_it_is: Quiet drill-driven pump with quadruple helical PETG gears, TPU seals and an acrylic lid, about 2 L/min; animated
+    FreeCAD file and detailed print and sealing advice
+  license: CC BY
+- url: https://www.printables.com/model/1187749-internal-gear-pump
+  title: Internal Gear Pump (Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable internal gear pump model using two ball bearings and 1/4-20 screws, published alongside a matching
+    external gear pump (model 1187735)
+  license: Public domain
+- url: https://www.thingiverse.com/thing:366857
+  title: Gerotor Pump Mk. 6 (Corona688, Thingiverse)
+  what_it_is: Printable gerotor pump modelled in OpenSCAD, sealed with plexiglass plates and silicone; pushes liquid well
+    but is poor as a vacuum pump
+  license: CC BY-NC 4.0 (from page metadata)
+- url: https://www.thingiverse.com/thing:309163
+  title: OpenSCAD Gerotor (Corona688, Thingiverse)
+  what_it_is: Parametric OpenSCAD script that generates mathematically modelled gerotor rotor pairs
+  license: CC BY-SA 4.0 (from page metadata)
+sources:
+- https://en.wikipedia.org/wiki/Gear_pump
+- https://en.wikipedia.org/wiki/Gerotor
+- https://en.wikipedia.org/wiki/Hydraulic_pump
+- https://en.wikipedia.org/wiki/Hydraulic_motor
+- https://en.wikipedia.org/wiki/Pump
+- https://en.wikipedia.org/wiki/Rotary_vane_pump
+- https://en.wikipedia.org/wiki/Lobe_pump
+- https://cs448m.github.io/lectures/machines/doc/4.pdf
+- https://www.castlepumps.com/info-hub/gear-pump-guide
+- https://www.castlepumps.com/info-hub/flexible-impeller-pump-guide
+- https://www.pumpagents.com/pdf/JabscoPumps/18660-0121.pdf
+- https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm
+- https://hackaday.io/project/182068-3d-printable-double-helical-gear-pump-watertight
+- https://hackaday.com/2022/06/10/3d-printed-lobe-pump-shifts-water-well/
+- https://hackaday.com/2015/12/20/3d-printed-hydraulics/
+- https://www.thingiverse.com/thing:366857
+- https://www.thingiverse.com/thing:309163
+- https://www.thingiverse.com/thing:4994196
+- https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
+- https://commons.wikimedia.org/wiki/File:Internal_gear_pump.gif
+- https://commons.wikimedia.org/wiki/File:Gerotor_anm.gif
+- https://www.youtube.com/watch?v=JtQ-0ZYkH2c
+- https://api.printables.com/graphql/
+- https://www.printables.com/model/277351-drill-gear-pump
+- https://www.printables.com/model/1534241-diy-external-gear-drill-pump
+- https://www.printables.com/model/286142-gear-pump
+- https://www.printables.com/model/1093259-hydraulic-gear-pump-remix
+- https://www.printables.com/model/1187735-external-gear-pump
+- https://www.printables.com/model/1187749-internal-gear-pump
+research: research/connection-types/results/Gear_pump_including_gerotor.json
+glossary: [misalignment, backlash, torque, idler, actuator, clearance, tolerance, creep, perimeters, infill, o-ring, check-valve,
+  venturi]
+---
+
+A rotary pump in which two meshing gears (side by side, or one inside a ring gear as in the gerotor) trap liquid between their teeth and the close-fitting case and carry it from inlet to outlet, delivering a fixed amount per turn; many can also run backwards as a hydraulic motor.
+
+**In plain words:** Two gears that mesh inside a snug case: turn one and the liquid caught in the gaps between the teeth is carried round the outside from the inlet to the outlet, where the meshing teeth squeeze it out. The same box works backwards as a motor if you push liquid through it. **Proper term:** Gear pump (external and internal gear pump, including the gerotor).
+
+**Also called:** external gear pump, internal gear pump, crescent (internal) gear pump (Wikipedia 'Gear pump'; Castle Pumps); gerotor ('generated rotor'), gerotor pump, trochoid gear pump, trochoid pump (Wikipedia 'Gerotor'; Thang); three-gear pump (Thang 'External gear pump 2'); hydraulic gear pump, gear oil pump, engine oil pump (Wikipedia 'Hydraulic pump'; Wikipedia 'Gear pump'); gear motor (hydraulic), gerotor motor, Geroller and Nichols motors (Wikipedia 'Hydraulic motor'); rotary positive-displacement pump; capsule blower (an early name) (Wikipedia 'Pump'; Wikipedia 'Gear pump' history); related pumps covered here: rotary vane pump, lobe pump or Roots pump (Roots blower), flexible impeller pump or flexible vane pump (Wikipedia 'Rotary vane pump', 'Lobe pump'; Castle Pumps); Jabsco (brand) impeller pump (common name for flexible-impeller pumps; Jabsco datasheet); drill pump, drill gear pump (maker models driven by a cordless drill; Printables 277351, 1534241); Zahnradpumpe (German) (Wikimedia Commons file description).
+
+## How it works
+
+As the gears turn, their teeth come out of mesh on the inlet side, leaving growing gaps that fill with liquid; the liquid is carried round between the teeth and the case wall (not between the gears) and pushed out on the outlet side, where the teeth mesh again and squeeze the gaps shut (Wikipedia 'Gear pump'; Castle Pumps). The [clearances](../glossary.md#clearance) are tiny, around 10 micrometres in metal pumps, so little liquid leaks back, and each turn moves almost the same volume whatever the pressure (positive displacement) (Wikipedia). In a gerotor the inner rotor, with one tooth fewer than the outer rotor, turns off-centre inside it, so the pockets between them grow on the inlet side and shrink on the outlet side (Wikipedia 'Gerotor'). Feed pressurised liquid in instead of turning the shaft, and the same gears are pushed round, so many gear pumps and gerotors also work as hydraulic motors (Wikipedia 'Gear pump'; 'Gerotor'; 'Hydraulic motor'). Related rotary pumps work the same way with other shapes: sliding vanes in an off-centre rotor (vane pump), non-touching lobes kept in step by outside timing gears (lobe pump), or a rubber impeller whose vanes bend in an off-centre case (flexible impeller pump) (Wikipedia 'Rotary vane pump', 'Lobe pump'; Castle Pumps; Thang).
+
+## Parts
+
+A small assembly that acts as one unit: a housing (body) with inlet and outlet ports, a driving gear on a shaft and a driven ([idler](../glossary.md#idler)) gear, end plates or a lid, bearings or bushings, a shaft seal and a body gasket or [O-ring](../glossary.md#o-ring) (Wikipedia 'Gear pump' exploded view; Printables 277351). An internal gear pump has a small gear inside a ring gear with a fixed crescent between them; a gerotor has an inner rotor with n teeth inside an outer rotor with n + 1 teeth (Wikipedia; Thang).
+
+## Everyday examples
+
+- The oil pump in a car or scooter engine, often a gear pump or gerotor (Wikipedia 'Pump'; 'Gerotor'; 'Gear pump' photo of a scooter oil pump)
+- Power steering, automatic transmission and espresso-machine pumps, which are often vane pumps (Wikipedia 'Rotary vane pump')
+- A Roots-type supercharger on a hot-rod engine, which is a lobe pump (Wikipedia 'Lobe pump')
+- Drill-powered transfer pumps made by makers for water or oil (Printables 277351, 1534241)
+
+## When to use it
+
+Use a gear pump when you need a steady, smooth flow that stays the same whatever the pressure, especially of oil or other thick liquids: it is 'one of the most common types of pumps for hydraulic fluid power' and good for high viscosity (Wikipedia 'Gear pump'). It suits small hydraulic systems feeding cylinders and motors (Wikipedia 'Hydraulic pump'), metering and batching because each turn moves a known volume (Castle Pumps), and jobs where the pump sits above the liquid, since a tight gear pump primes itself (Castle Pumps; Wikipedia 'Pump'). Choose a gerotor for a compact pump or a slow, strong hydraulic motor (Wikipedia 'Gerotor'; 'Hydraulic motor'); a lobe pump for liquids with soft solids such as food (Wikipedia 'Lobe pump'); a flexible impeller pump for self-priming transfer of liquids with solids, reversible flow and gentle pumping (Castle Pumps). For makers, a drill-driven printed gear pump is a satisfying, working build for water or oil (Printables 277351, 1534241).
+
+## When not to use it
+
+Avoid gear pumps for liquids containing grit or solids, which wear the tight clearances (use a peristaltic, diaphragm or flexible impeller pump), and for very thin liquids that slip back past the gears, especially in internal gear pumps (Castle Pumps). Don't run them dry (Castle Pumps), or against a closed outlet without a relief valve (Wikipedia 'Pump'). For large volumes of water at low pressure a centrifugal pump is simpler (Wikipedia 'Pump'). For small exact doses use a syringe pump or peristaltic pump. For air and vacuum use a diaphragm, vane or [venturi](../glossary.md#venturi) pump: a printed gerotor is 'no good' as a vacuum pump (Thingiverse 366857). For low-speed, low-flow duty a gear pump loses efficiency (Castle Pumps).
+
+## Details
+
+- **What it does (jobs):**
+  - seal it, or pass cables or fluid through: moves oil, water or other liquids from one place to another, and builds the pressure that drives hydraulic cylinders and motors (Wikipedia 'Gear pump'; 'Hydraulic pump')
+  - change the kind of motion: turns shaft rotation into a flow of liquid under pressure, and as a motor turns liquid flow back into rotation (Wikipedia 'Hydraulic pump'; 'Hydraulic motor')
+  - change speed or turning force: a pump driving a hydraulic motor through pipes forms a hydraulic transmission, so power can be sent round corners and the motor can turn at a different speed and [torque](../glossary.md#torque) (Wikipedia 'Hydraulic motor')
+- **Movement:** rotate: the gears turn continuously, at up to about 3,000 rpm for precision external gear pumps (Wikipedia 'Gear pump'); the liquid flows through it
+- **Directions it can move (degrees of freedom):** 1: the meshing gears are locked together, so turning the input shaft by a given angle turns both gears by a fixed amount (Wikipedia 'Gear pump')
+- **Special behaviour:**
+  - motion conversion: rotation becomes a steady flow of liquid (a fixed volume per turn), and in reverse flow becomes rotation when used as a motor (Wikipedia 'Gear pump'; 'Hydraulic motor')
+  - none of the other behaviours on its own: it does not limit its own pressure, so a separate relief valve is needed (Wikipedia 'Pump')
+- **How it holds:**
+  - not a holding joint (it moves or passes on motion): it moves liquid. A hydraulic motor also cannot hold a hanging load, because internal leakage lets it [creep](../glossary.md#creep), so winches and cranes need a brake (Wikipedia 'Hydraulic motor')
+- **Input and output:** Continuous rotation -> flow of liquid under pressure. Flow = displacement per turn x speed (x volumetric efficiency); hydraulic power = flow x pressure, or horsepower = US gal/min x psi / 1714 (Wikipedia 'Gear pump'; 'Hydraulic pump'). Hydraulic gear pumps displace about 1-200 mL per turn and have the lowest volumetric efficiency of the three main pump types, about 90% (Wikipedia 'Hydraulic pump'), though Wikipedia's 'Gear pump' article calls them 'generally very efficient, especially in high-pressure applications'. A three-gear pump gives double the flow of a two-gear pump, like two pumps in parallel (Thang). Shafts: parallel (side by side in an external pump; offset parallel axes in an internal pump or gerotor); the drive is in line with the pump shaft. Back-drivable: yes for many ('some gear pumps are designed to function as either a motor or a pump'; a gerotor 'can also function as ... fluid/hydraulic motor'), but many pumps cannot be back-driven or leak at the shaft seal when their inlet is pressurised (Wikipedia 'Gear pump'; 'Gerotor'; 'Hydraulic motor'). Gerotor motors are low-to-medium speed and medium-to-high torque (Wikipedia 'Hydraulic motor')
+- **Power:** powered: needs something to turn the shaft, such as an electric motor, an engine, or a cordless drill in maker builds (Printables 277351, 1534241; Wikipedia). When the drive stops, flow stops; the tightly meshing gears block most backflow, but a load pushing liquid back can leak through or turn the pump backwards as a motor (Wikipedia 'Gear pump'; 'Hydraulic motor')
+- **Load:** Pressure capacity: precision external gear pumps usually work up to about 210 bar (Wikipedia 'Gear pump'); external gear pumps reach higher pressures than internal ones (Castle Pumps). Flexible impeller pumps are low-pressure; one small Jabsco (brand) model is limited to 20 ft of head (8.7 psi) (Jabsco datasheet). Printed gear pumps are low-pressure and leak at the seals (no figures found) ⚑ [uncertain]. Mechanically the shaft carries twisting load from the drive; bearings take the side load of the pressure on the gears (Castle Pumps: an external gear pump has four bearings, an internal one two)
+- **Play and precision:** not applicable as a locator. Inside, play matters: larger gear [backlash](../glossary.md#backlash) and end clearances let liquid slip back and lower efficiency, though some backlash reduces 'pressure trapping' between teeth (Wikipedia 'Gear pump'). Flow per turn is repeatable enough for metering and batching (Castle Pumps). [Misalignment](../glossary.md#misalignment) between pump and drive shaft loads the bearings and seal, so use a flexible coupling ⚑ [uncertain]
+- **Taking it apart:** removable: bolted to a motor or bracket, with threaded or hose-barb fittings on the ports; the housing is screwed together so gears, bearings and seals can be replaced (Printables 277351, 1534241; Castle Pumps)
+- **How often it can be reused:** effectively unlimited turns in normal use: metal gear pumps wear gradually, slowly losing efficiency, rather than failing suddenly (Wikipedia 'Hydraulic pump'). Printed gears wear faster ⚑ [uncertain]. It can be taken apart and reassembled many times
+- **Sealing:** watertight to pressure-tight: inside, the tight gear-to-case clearances do the sealing (about 10 micrometres in metal pumps; Wikipedia); outside, a shaft seal and a body gasket or O-ring keep liquid in. Printed pumps use TPU gaskets and shaft seals, plenty of grease, or silicone and acrylic plates (hackaday.io 182068; Printables 277351; Thingiverse 366857)
+- **Adjustable:** Flow is set by drive speed, since a gear pump has a fixed displacement (Wikipedia 'Hydraulic pump'). Maximum pressure is set by a relief valve on the outlet, which is required (Wikipedia 'Pump'). Gear pumps lose efficiency at low speed and work best near their rated speed (Castle Pumps)
+- **Access needed:** end of a tube or shaft: driven from the end of its shaft, with pipes to its inlet and outlet ports
+- **Materials:** Bodies of aluminium or cast iron for hydraulic gear motors (Wikipedia 'Hydraulic motor'); stainless steel and bronze casings for flexible impeller pumps (Castle Pumps); flexible impellers in natural rubber (water), neoprene, EPDM (food, hot fluids, acids and alkalis) or silicone (very high temperature) (Castle Pumps). Printed pumps: PETG gears (wear and water resistance), PLA or PETG housings, TPU 95A gaskets and seals, ABS or resin lobes, acrylic lids (Printables 277351, 1534241, 1093259; Hackaday 2022 lobe pump; Thingiverse 366857). Gear pumps suit clean, self-lubricating, viscous liquids such as oil, paint and soap; thin liquids slip back and solids wear the gears (Castle Pumps)
+- **Heat, cold, water and wear:** Liquid matters most: gear pumps want clean, lubricating liquids; thin liquids leak back and solids cause rapid wear (Castle Pumps). Running dry overheats the gears so they swell and wear against the case (Castle Pumps); flexible impellers are lubricated only by the liquid and burn if run dry (Jabsco datasheet). Temperature: internal gear pumps handle hot fluids such as thermal oil, with heating jackets (Castle Pumps); one flexible impeller pump is rated 7-82 C (Jabsco datasheet); impeller rubber must match the liquid and temperature (Castle Pumps). Thick liquids need lower speed (Wikipedia 'Lobe pump'; Castle Pumps). Printed housings are porous to water unless sealed (Printables 1534241), and some fluids, e.g. brake fluid, can attack plastics, so test compatibility (Hackaday 2015 comments) ⚑ [uncertain]. PLA housings soften in hot water or oil ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - 3D print (FDM): the popular drill-driven printed gear pumps, gerotor and lobe pumps (Printables 277351, 1534241, 286142; Thingiverse 366857; Hackaday 2022)
+  - 3D print (resin): resin-printed lobes for tighter [tolerances](../glossary.md#tolerance) (Hackaday 2022); research inkjet printers have printed a working gear pump already filled with fluid (Hackaday 2015)
+  - CNC or laser cut: clear acrylic lids and top and bottom plates (Printables 1534241; Thingiverse 366857, 4994196)
+  - off-the-shelf part: metal hydraulic gear pumps, gerotor pumps and motors, vane, lobe and flexible impeller pumps (Wikipedia; Castle Pumps)
+- **Printing it in one piece (print in place):** no: printed pumps are printed as housing, gears and seals and assembled with bearings, shafts, screws and fittings (Printables 277351, 1534241). (MIT's multi-material inkjet printer has printed a gear pump in one go with the liquid inside, but that is not possible on hobby printers; Hackaday 2015)
+- **Tools:** hex keys or screwdrivers for the housing screws, spanners for fittings, thread-seal (PTFE) tape on threaded fittings, and grease or lubricant; printed designs also use M3 or M4 threaded inserts and a soldering iron to fit them, and epoxy for bearings and fittings (Printables 277351, 1534241, 1093259)
+- **Difficulty:** moderate: prints well and works with water or oil at low pressure, but needs bought bearings, shafts, screws and fittings, careful sealing and some trial and error with clearances; metal hydraulic pumps should be bought (Printables 277351, 1534241; Thingiverse 366857: the designer fought 'innumerable designs for over a year')
+
+### 3D printing tips
+
+1) Choose materials by job: PETG for gears (good wear and water resistance), PLA for casing and lid, TPU for gaskets and shaft seals (Printables 277351, 1534241, 1093259); ABS lobes cope with friction heat better, and resin lobes give tighter tolerances (Hackaday 2022). 2) Print gears fine: 0.1-0.15 mm layers for gears, 0.2-0.25 mm for the rest, 4 or more [perimeters](../glossary.md#perimeters) (Printables 1534241); another designer used 100% [infill](../glossary.md#infill) and 5 perimeters in PETG (Printables 286142). 3) Helical or double-helical (herringbone) gears run quieter and smoother than spur gears (hackaday.io 182068; Printables 1534241 uses 35-degree quadruple helical gears); real pumps use helical teeth for the same reason (Wikipedia 'Hydraulic pump'). 4) Set the gear-to-case gap deliberately: one design uses a 0.2 mm air-gap jig (Printables 1534241). 5) Seal the plastic: thick walls (15 mm housing walls) and a pore-sealing impregnation make the body watertight (Printables 1534241); grease keeps TPU seals supple and is 'the most important part' of keeping a printed pump watertight (hackaday.io 182068). 6) Put flat, smooth plates on the faces: the gerotor Mk 6 'cheated' with acrylic (plexiglass) and silicone for the top and bottom seals and turned the outlets sideways (Thingiverse 366857). 7) Support the shafts: 608 or 605 ball bearings on 8 mm or 5 mm shafts, M3 or M4 threaded inserts and screws for the lid (Printables 277351, 286142, 1534241). 8) Threaded fittings can crack printed walls: screw brass plugs in carefully and stiffen the area with epoxy, with one turn of PTFE tape on the threads (Printables 1534241); or glue hose adapters in with epoxy (Printables 1093259). 9) Expect to prime it: one printed pump 'needs to be primed', while others claim to prime themselves, depending on how tight the clearances are (Printables 277351, 286142, 1534241). 10) Lubricate gears and shafts with silicone spray or grease (Printables 277351, 1534241). 11) Lobe pumps need outside timing gears so the lobes never touch (Hackaday 2022). 12) Keep printed pumps to low pressure and don't use them to pressurise a tank or accumulator ⚑ [uncertain]
+
+### Buying one (off-the-shelf parts)
+
+External gear pumps and hydraulic gear motors (single or double direction, aluminium or cast iron bodies, options with relief valve, anti-cavitation valve and speed sensor) (Wikipedia 'Hydraulic motor'); internal (crescent) gear pumps, often with heating jackets (Castle Pumps); gerotor pumps and gerotor motors (Geroller, Nichols types) (Wikipedia); car engine oil pumps (Wikipedia 'Pump'); hydraulic power packs (Wikipedia 'Pump'); rotary vane pumps; rotary lobe pumps; flexible impeller pumps and replacement impellers in neoprene or nitrile (e.g. Jabsco (brand)) (Castle Pumps; Jabsco datasheet). For printed pumps: 608ZZ or 608-2RS ball bearings (8 x 22 x 7 mm), 605ZZ bearings, 8 mm shafts, M3 or M4 threaded inserts, TPU filament, G1/4 or 1/4 BSP brass fittings, Gardena (brand) hose connectors, PTFE tape, relief valve (Printables 277351, 286142, 1534241)
+
+## Rules of thumb
+
+- Flow = volume pumped per turn x speed; power = flow x pressure; horsepower = US gal/min x psi / 1714 (Wikipedia 'Gear pump')
+- Precision external gear pumps are usually limited to about 210 bar and about 3,000 rpm; faster or higher-pressure versions are noisy (Wikipedia 'Gear pump')
+- Metal gear pumps rely on clearances of about 10 micrometres; hydraulic gear pumps displace about 1-200 mL per turn with about 90% volumetric efficiency (Wikipedia 'Gear pump'; 'Hydraulic pump')
+- Always fit a relief or safety valve on the outlet of any positive-displacement pump: against a closed valve it keeps pushing until 'the line bursts, the pump is severely damaged, or both' (Wikipedia 'Pump'); a flexible impeller pump also 'cannot run against a closed outlet' (Jabsco datasheet)
+- A gerotor's inner rotor has one tooth fewer than the outer rotor (n and n + 1, with n at least 2); in Thang's trochoid pump the driving rotor turns 5 times while the driven rotor turns 4 times (Wikipedia 'Gerotor'; Thang)
+- A three-gear pump (one driver between two idlers) doubles the flow of a two-gear pump (Thang)
+- Use gear pumps for clean, viscous, lubricating liquids; keep solids out and don't run them dry (Castle Pumps)
+- Wear test: if a piece of paper slips easily into the gear clearances, suspect wear (Castle Pumps)
+- Flexible impeller pumps self-prime up to about 6 m from dry, but lose about 60% of their pressure at 4,000 cP and are limited to about 300 rpm with such thick liquids (Castle Pumps); one small model handles 7-82 C liquid and up to 8.7 psi (Jabsco datasheet)
+- Lobe pumps need much lower speed with thick liquids; reductions to 25% of rated speed or lower are common (Wikipedia 'Lobe pump')
+- A drill-driven printed helical gear pump can deliver about 2 L/min of water (Printables 1534241)
+
+## Common failures
+
+1) Slow loss of output as gears wear the housing and bushings, rather than sudden seizure (Wikipedia 'Hydraulic pump'); check clearances with the paper test and check bearings (Castle Pumps). 2) Damage from running dry or from solids (Castle Pumps); burnt flexible impellers from dry running (Jabsco datasheet). 3) Burst lines or a stalled motor when the outlet is blocked: fit a relief valve (Wikipedia 'Pump'; Hackaday 2022 comments). 4) Noise and pressure ripple from trapped liquid between meshing teeth; helical teeth and relief clearances reduce it (Wikipedia 'Gear pump'; 'Hydraulic pump'). 5) Printed pumps: leaks at the lid and shaft (use TPU seals and plenty of grease; hackaday.io 182068), leaks out of the back of lobe pumps (Hackaday 2022), porous walls (thick walls and impregnation; Printables 1534241), cracked walls around threaded fittings (epoxy reinforcement; Printables 1534241), failure to prime if clearances are loose (Printables 277351). 6) A brushless drive motor may not start against load; start it unloaded (hackaday.io 182068).
+
+## Safety
+
+1) Never run a positive-displacement pump against a closed outlet: pressure rises until a pipe bursts or the pump breaks; fit a relief valve (Wikipedia 'Pump'; Jabsco datasheet). 2) In powered hydraulics, a pinhole leak can inject oil through the skin; serious cases are reported above 100 bar and possibly as low as 7 bar, and it needs immediate hospital treatment (HSE hydraulic injection bulletin). 3) A load held up by a hydraulic motor or pump can creep down when the drive stops, because of internal leakage; use a brake or locking device (Wikipedia 'Hydraulic motor'). 4) Drill-driven pumps can jam and twist the drill; hold it firmly and keep fingers away from the shaft and coupling ⚑ [uncertain]. 5) Don't use a printed pump to pressurise a tank, and keep printed hydraulics at low pressure ⚑ [uncertain].
+
+## Related
+
+- Spur gear pair and gear train: the same meshing gears, used to pass on rotation instead of moving liquid
+- Planetary gear set (ring gear): the internal gear pump and gerotor use a gear running inside a ring gear
+- Peristaltic pump: rollers squeeze a tube, so the liquid never touches moving parts; better for dosing and dirty or delicate liquids, lower pressure
+- Diaphragm pump and squeeze bulb: a flexing membrane between two [check valves](../glossary.md#check-valve); handles air and thin liquids but pulses
+- Syringe pump: a screw-driven piston for exact small volumes, not continuous
+- Centrifugal pump: a spinning impeller for lots of water at low pressure; must be primed and can run against a closed valve for short times (Wikipedia 'Pump')
+- Scroll mechanism (scroll compressor): another rotary displacement design, used for air (Thang)
+- Air or hydraulic cylinder and rotary air [actuator](../glossary.md#actuator): what a hydraulic pump usually drives
+- Syringe hydraulics: the hand-powered starting point of hydraulics, with no pump
+- Check valve and relief valve: a relief valve must protect a gear pump's outlet; a gear pump needs no inlet and outlet valves of its own
+- Progressing cavity pump: a long helical rotor in a rubber stator for sludge and solids (Wikipedia 'Pump')
+
+## Make it yourself
+
+- [Drill gear pump (Ralf Horhager, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/277351-drill-gear-pump): Popular drill-driven external gear pump with a Gardena hose connection: PETG gears, PLA case, TPU gaskets, four 608 bearings; needs priming *(licence: CC BY-NC-SA)*
+- [DIY External Gear Drill Pump (The Justifyer, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1534241-diy-external-gear-drill-pump): Quiet drill-driven pump with quadruple helical PETG gears, TPU seals and an acrylic lid, about 2 L/min; animated FreeCAD file and detailed print and sealing advice *(licence: CC BY)*
+- [Internal Gear Pump (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1187749-internal-gear-pump): Printable internal gear pump model using two ball bearings and 1/4-20 screws, published alongside a matching external gear pump (model 1187735) *(licence: Public domain)*
+- [Gerotor Pump Mk. 6 (Corona688, Thingiverse)](https://www.thingiverse.com/thing:366857): Printable gerotor pump modelled in OpenSCAD, sealed with plexiglass plates and silicone; pushes liquid well but is poor as a vacuum pump *(licence: CC BY-NC 4.0 (from page metadata))*
+- [OpenSCAD Gerotor (Corona688, Thingiverse)](https://www.thingiverse.com/thing:309163): Parametric OpenSCAD script that generates mathematically modelled gerotor rotor pairs *(licence: CC BY-SA 4.0 (from page metadata))*
+
+## Pictures, videos and models
+
+- [Gear pump animation.gif (Jahobr; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif): Animation of liquid being carried round between the teeth and the case in an external gear pump *(licence: CC0 1.0 (public domain dedication))*
+- [Internal gear pump.gif (Staffanlincoln; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Internal_gear_pump.gif): Animation of an internal gear pump: a small gear inside a ring gear with a crescent, liquid flowing left to right *(licence: Public domain)*
+- [Gerotor anm.gif (Ravedave; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Gerotor_anm.gif): Rendered animation of a gerotor's inner and outer rotors turning, the pockets between them growing and shrinking (ports not shown) *(licence: CC BY-SA 3.0, CC BY 2.5 or GFDL 1.2+)*
+- [Flexible impeller pump 1a (Nguyen Duc Thang, thang010146, YouTube)](https://www.youtube.com/watch?v=JtQ-0ZYkH2c): CAD animation of a rubber impeller turning off-centre in its housing, its vanes bending to carry liquid from inlet to outlet (Thang part 4, p. 98) *(licence: link only)*
+- [3D-Printed Lobe Pump Shifts Water Well (Hackaday, 2022)](https://hackaday.com/2022/06/10/3d-printed-lobe-pump-shifts-water-well/): A fully printed lobe pump with figure-eight rotors and outside timing gears, driven by a drill, with ABS and resin rotors *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
+- ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
+- ⚑ Research note: Items 316-323 (researched after the pause): printed gear pumps disagree on priming (Printables 277351 "needs to be primed"; 286142 and 1534241 say they prime themselves); gear-pump efficiency (Wikipedia *Gear pump* "generally very efficient" vs *Hydraulic pump* lowest volumetric efficiency, about 90%); air-caster air-film thickness (AeroGo 0.003-0.005 in, Wikipedia "less than a millimeter", Airfloat "approximately a millimeter"); BS 1212 Part 2 float valve (DIY Doctor: plastic Part 1 valve; Squote, APM and the BSI listing: brass diaphragm valve). CNC Cookbook's claim that sliding a part on a vacuum table takes at least twice the lifting force contradicts Mekanika's friction figure and was left out.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Gear_pump>
+- <https://en.wikipedia.org/wiki/Gerotor>
+- <https://en.wikipedia.org/wiki/Hydraulic_pump>
+- <https://en.wikipedia.org/wiki/Hydraulic_motor>
+- <https://en.wikipedia.org/wiki/Pump>
+- <https://en.wikipedia.org/wiki/Rotary_vane_pump>
+- <https://en.wikipedia.org/wiki/Lobe_pump>
+- <https://cs448m.github.io/lectures/machines/doc/4.pdf>
+- <https://www.castlepumps.com/info-hub/gear-pump-guide>
+- <https://www.castlepumps.com/info-hub/flexible-impeller-pump-guide>
+- <https://www.pumpagents.com/pdf/JabscoPumps/18660-0121.pdf>
+- <https://www.hse.gov.uk/safetybulletins/hydraulic-injection-injury.htm>
+- <https://hackaday.io/project/182068-3d-printable-double-helical-gear-pump-watertight>
+- <https://hackaday.com/2022/06/10/3d-printed-lobe-pump-shifts-water-well/>
+- <https://hackaday.com/2015/12/20/3d-printed-hydraulics/>
+- <https://www.thingiverse.com/thing:366857>
+- <https://www.thingiverse.com/thing:309163>
+- <https://www.thingiverse.com/thing:4994196>
+- <https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif>
+- <https://commons.wikimedia.org/wiki/File:Internal_gear_pump.gif>
+- <https://commons.wikimedia.org/wiki/File:Gerotor_anm.gif>
+- <https://www.youtube.com/watch?v=JtQ-0ZYkH2c>
+- <https://api.printables.com/graphql/>
+- <https://www.printables.com/model/277351-drill-gear-pump>
+- <https://www.printables.com/model/1534241-diy-external-gear-drill-pump>
+- <https://www.printables.com/model/286142-gear-pump>
+- <https://www.printables.com/model/1093259-hydraulic-gear-pump-remix>
+- <https://www.printables.com/model/1187735-external-gear-pump>
+- <https://www.printables.com/model/1187749-internal-gear-pump>

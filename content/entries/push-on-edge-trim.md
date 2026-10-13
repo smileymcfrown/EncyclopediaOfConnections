@@ -1,0 +1,291 @@
+---
+title: Push-on edge trim
+description: Push-on edge trim is a flexible U-shaped strip, usually PVC or rubber with a springy metal core, that is pressed
+  onto a sheet or panel edge and grips it by spring force and barbed tongues, covering sharp edges, protecting cables in cut-outs
+  (grommet edging) and, with a bulb attached, sealing doors and lids.
+num: 368
+term: Push-on edge trim (U-channel edge trim, edge protector trim strip); grommet edging (grommet strip) for holes and cut-outs;
+  trim seal (edge trim with an attached bulb seal)
+plain_name: A bendy rubber or plastic strip shaped like a U that you push onto the edge of a sheet, where springy metal clips
+  or barbed ridges inside grip it, to cover a sharp edge, protect cables passing through a cut-out or hold a soft cover onto
+  a rim, with no glue
+aliases:
+- edge trim; push-on edge trim; clip-on edge trim; U-channel edging; U channel PVC edging (PAR Group; Trim-Lok)
+- edge protector; edge guard; edge protector trim strip (Trim-Lok; Schlegel patent US4517233A)
+- grommet edging; grommet strip; edge grommet; continuous strip grommet; continuous grommet edging; grommet channelling (Wikipedia
+  'Grommet'; Essentra)
+- insulating bushing (electrical name for grommets, Wikipedia 'Grommet')
+- trim seal; bulb seal; edge trim with bulb; door seal (Trim-Lok)
+- reinforced rubber edge trim; reinforced plastic edge trim (McMaster-Carr category names)
+- Trim-Lok and TFast (brands)
+family: snap & clip fits
+other_families:
+- clamping, magnetic & friction connections
+- seals & pass-throughs
+finder:
+  job:
+  - join and hold
+  - seal it, or pass cables or fluid through
+  motion: none
+  special_behaviour: []
+  holding_principle: [spring force, friction or clamping, shape, material bond]
+  reuse_cycles: a few times
+  seal: none
+  access_needed: not applicable
+  print_in_place: 'yes'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), laser cut, sheet metal]
+  connects: [3D-printed part]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [none, hand tools]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'yes'
+  removability: removable
+  power: passive
+needs_confirming:
+  usual_process:
+    kind: best guess
+    reason: first-listed process is off-the-shelf, but `print_in_place` is yes
+  removability:
+    kind: source uncertain
+    reason: '`removability` is marked [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent
+      [uncertain: no source describes removing…"'
+confirmed: []
+open_points:
+- kind: sources
+  note: McMaster-Carr blocks downloads; *Push-on edge trim* takes only category names from a WebFetch summary, and its source
+    line says so.
+- kind: content
+  note: '*Push-on edge trim*: mitring corners with tin snips (PAR Group: yes; Trim-Lok: ''not possible''), both recorded.
+    No pull-off force or refit count found ([uncertain]); no openly licensed edge-trim images on Commons.'
+uncertain_fields: [removability, reuse_cycles, seal, load, making_tips_3d_printing, everyday_examples, environment_limits,
+  safety_notes]
+diagram_idea: 'A cut-away of a short length of edge trim pushed onto a sheet edge, showing the separate metal clips inside
+  the PVC, the angled tongues pressing on both faces like barbs (arrows: easy on, hard off) and the grip range marked on the
+  slot; beside it a cut-out in a panel lined with serrated grommet edging with a cable passing through, and a trim seal whose
+  bulb is squashed by a closing door.'
+links:
+- url: https://www.youtube.com/watch?v=sHCx2AHPGPs
+  title: Trim-Lok How to Install Edge Trim | Commercial Vehicle Fittings | Albert Jagger (Albert Jagger, YouTube)
+  shows: Demonstration of measuring, cutting and pushing on metal-clip edge trim (title and channel checked via YouTube oEmbed;
+    not watched)
+  license: link only (standard YouTube licence)
+- url: https://www.youtube.com/watch?v=DQzh1K6oNJQ
+  title: How to Install Trim Seal (Trim-Lok, Inc., YouTube)
+  shows: Fitting edge trim with an attached bulb seal (title and channel checked via YouTube oEmbed; not watched)
+  license: link only (standard YouTube licence)
+- url: https://marine.albertjagger.co.uk/contentfiles/files/Strategic_Partners_Catalogues/TrimLok_17.pdf
+  title: Trim-Lok Trims and Seals catalogue (PDF, hosted by Albert Jagger)
+  shows: Cross-section drawings of edge trims with their internal metal clips and gripping tongues (p. 4), trim seals with
+    bulbs and bulb positions (p. 18), and grip-range tables
+  license: link only
+- url: https://www.par-group.co.uk/health-and-safety/impact-protection/tfast-u-channel-pvc-edging/
+  title: TFast U Channel PVC Edging (PAR Group)
+  shows: Maker's page with photos of PVC U-channel edging profiles, grip ranges, bend radii and fitting instructions
+  license: link only
+- url: https://www.essentracomponents.com/en-us/p/grommet-strips-plastic-rolls
+  title: Grommet Strips - Plastic Rolls (Essentra Components)
+  shows: Photos of plain and serrated grommet edging and its panel-thickness ranges
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/1594528-trim-for-shelf-or-board-edge-parametric
+  title: Trim for shelf or board edge parametric (ExtrudingThoughts, Printables) (URL from Printables API, page not opened)
+  what_it_is: Parametric OpenSCAD corner and U-channel trim for shelf or board edges, printed by the designer in 95A TPU.
+    Read through the Printables public API.
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/1355605-edge-trim-for-25mm-acrylic-panels
+  title: Edge Trim For 2.5mm Acrylic Panels (Neon Dragon XXV, Printables) (URL from Printables API, page not opened)
+  what_it_is: 100 mm lengths of push-on edge trim for about 2.5 mm acrylic, printed in PETG; glue makes it permanent. Read
+    through the Printables public API.
+  license: Creative Commons Public Domain
+- url: https://www.printables.com/model/932095-u-channels-119mm-174mm-x-76mm-x-10mm-edges
+  title: U-Channels - 119mm & 174mm x 7.6mm x 10mm (Edges) (JRomer79, Printables) (URL from Printables API, page not opened)
+  what_it_is: Straight U-channel edge protectors with two corner styles for framing boards, glass or card; printed on edge
+    without supports in PLA or PETG. Read through the Printables public API.
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/640345-grommet-strip
+  title: Grommet Strip (RosePeach, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printed copy of a commercial grommet strip, made for a home-built antenna loading coil; PETG, 100% infill,
+    with brim and supports. Read through the Printables public API.
+  license: Creative Commons Public Domain
+sources:
+- https://en.wikipedia.org/wiki/Grommet
+- https://en.wikipedia.org/wiki/Cable_grommet
+- https://en.wikipedia.org/wiki/Weatherstripping
+- https://www.par-group.co.uk/health-and-safety/impact-protection/tfast-u-channel-pvc-edging/
+- https://www.trimlok.com/etinstall
+- https://marine.albertjagger.co.uk/contentfiles/files/Strategic_Partners_Catalogues/TrimLok_17.pdf
+- https://www.newequipment.com/adhesives-fastening/how-install-edge-trim
+- https://theshopmag.com/features/the-final-touch-installing-edge-trims-and-rubber-seals/
+- https://www.essentracomponents.com/en-us/p/grommet-strips-plastic-rolls
+- https://patents.google.com/patent/US4517233A/en
+- https://www.mcmaster.com/products/edge-trim/ (read via WebFetch summary; category names only)
+- https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1il1plg (archive of https://www.reddit.com/r/3Dprinting/comments/1il1plg/best_way_to_attach_tpu_reinforcement_for_laundry/)
+- https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1il1plg&limit=200
+- https://commons.wikimedia.org/wiki/Category:Grommets
+- https://www.youtube.com/watch?v=sHCx2AHPGPs
+- https://www.youtube.com/watch?v=DQzh1K6oNJQ
+- https://api.printables.com/graphql/ (models 1594528, 1355605, 932095, 640345)
+research: research/connection-types/results/Pushon_edge_trim_Uchannel_edging_grommet_edging.json
+glossary: [cantilever, form-fit--force-fit--material-bond, spline, creep, infill, warping--shrinkage, gland]
+---
+
+Push-on edge trim is a flexible U-shaped strip, usually PVC or rubber with a springy metal core, that is pressed onto a sheet or panel edge and grips it by spring force and barbed tongues, covering sharp edges, protecting cables in cut-outs (grommet edging) and, with a bulb attached, sealing doors and lids.
+
+**In plain words:** A bendy rubber or plastic strip shaped like a U that you push onto the edge of a sheet, where springy metal clips or barbed ridges inside grip it, to cover a sharp edge, protect cables passing through a cut-out or hold a soft cover onto a rim, with no glue. **Proper term:** Push-on edge trim (U-channel edge trim, edge protector trim strip); grommet edging (grommet strip) for holes and cut-outs; trim seal (edge trim with an attached bulb seal).
+
+**Also called:** edge trim; push-on edge trim; clip-on edge trim; U-channel edging; U channel PVC edging (PAR Group; Trim-Lok); edge protector; edge guard; edge protector trim strip (Trim-Lok; Schlegel patent US4517233A); grommet edging; grommet strip; edge grommet; continuous strip grommet; continuous grommet edging; grommet channelling (Wikipedia 'Grommet'; Essentra); insulating bushing (electrical name for grommets, Wikipedia 'Grommet'); trim seal; bulb seal; edge trim with bulb; door seal (Trim-Lok); reinforced rubber edge trim; reinforced plastic edge trim (McMaster-Carr category names); Trim-Lok and TFast (brands).
+
+## How it works
+
+The inside of the U is a little narrower than the panel, so pushing the trim on spreads its legs; the metal clips inside spring back and press the soft tongues hard against both faces of the panel, and the tongues are angled like barbs so they slide on easily but dig in if you try to pull the trim off (Trim-Lok catalogue p. 4: 'individual internal metal clips and gripping tongues to provide a stronger grip'; Trim-Lok install page). Because the core is made of separate clips or a zigzag wire rather than a solid strip, the trim can bend round curves and corners without opening up, although too sharp a bend can make it 'collapse, buckle or roll' (Schlegel patent US4517233A). Grommet edging works the same way around the edge of a hole: its serrations let it follow round or odd-shaped cut-outs so cables passing through rest on smooth plastic instead of a sharp metal edge (Essentra; Wikipedia 'Grommet'). A trim seal adds a hollow sponge bulb that is squashed by the closing door or lid to seal the gap (Trim-Lok catalogue p. 18).
+
+## Parts
+
+Single piece made of several materials. Edge trim: a flexible PVC (85 Shore A) or rubber (EPDM or neoprene) U-shaped extrusion with a core of individual aluminium or steel clips, or a serpentine aluminium or steel wire carrier, and soft gripping tongues moulded inside (Trim-Lok catalogue pp. 4-5, 14, 21; PAR Group 'segmented metal core'; Schlegel patent US4517233A). Trim seal: the same with a sponge-rubber (EPDM) bulb attached, and optionally a strip of butyl or hot-melt adhesive inside (Trim-Lok catalogue p. 18). Grommet edging: a single strip of PVC, nylon or polyethylene, plain for straight edges or serrated for curved holes (Essentra). Printed versions are a single TPU or PETG U-channel (Printables models).
+
+## Everyday examples
+
+- The rubber seal pushed onto the door opening of a car, boat hatch or tool box, a trim seal with a bulb (Trim-Lok catalogue p. 18; Wikipedia 'Weatherstripping')
+- Black edging on the cut edges of machinery guards, forklifts, golf carts, truck cabs and playground equipment (Trim-Lok catalogue p. 4)
+- The plastic edging round cable cut-outs and knockouts in computer cases, equipment racks and data-centre cabinets (Wikipedia 'Grommet'; Essentra)
+- A clip-on rubber edge on a glass or acrylic panel or a shelf edge (PAR Group; Printables models) ⚑ [uncertain: glass-panel example from PAR Group's application list, not a named product]
+
+## When to use it
+
+Use push-on edge trim to make a sharp cut edge of sheet metal, glass fibre, acrylic or plywood safe to touch and neat to look at without deburring or painting (PAR Group); to protect wires, cables and tubes where they pass through a hole or long cut-out in a panel (grommet edging, Essentra; Wikipedia 'Grommet'); to seal a door, hatch or lid with a single push-on strip (trim seal, Trim-Lok); and to fix a soft bumper, cover or reinforcement onto a rim where glue won't stick, such as polypropylene (Reddit thread). It is quick, needs no tools or glue, follows curves and can be removed.
+
+## When not to use it
+
+Not for carrying load: to fix parts together structurally use screws, rivets or clips (see 'Spring-steel push-on fasteners' and '[Cantilever](../glossary.md#cantilever) snap fit'). Not where the panel thickness varies more than the trim's grip range, or is thinner than its smallest grip, because it will fall off (The Shop Magazine). Not for very tight bends below the trim's minimum radius, where it can 'collapse, buckle or roll' (Schlegel patent US4517233A); use moulded corners or cut and mitre. For a single round hole carrying a cable, a moulded rubber grommet or a cable [gland](../glossary.md#gland) with strain relief is better (see 'Cable gland and strain relief'). Above about +70 °C use rubber or special trims instead of PVC (Trim-Lok catalogue); near oil or fuel avoid EPDM, which 'is not recommended for resistance to oil, gasoline, and hydrocarbon solvents' (Trim-Lok catalogue p. 14). For fabric edges held in a slot, see 'Bead-in-groove fabric edge'.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: grips a sheet or panel edge with 'no tacking, tools, gluing or riveting' (PAR Group) and can hold a soft part such as a bumper, cover or mesh onto a rim; a Reddit answer to fixing a TPU guard to a floppy polypropylene laundry basket was 'just make a u channel that goes inside the handle, no glue needed' (r/3Dprinting, 2025, read via the Arctic Shift archive). Its other main job is covering sharp edges, which 'Can eliminate the need for deburring' (PAR Group).
+  - seal it, or pass cables or fluid through: grommet edging lines holes and knockouts so wires and cables passing through are protected 'from sharp objects and chafing' (Essentra); trim seals with a bulb seal doors, hatches, lids and tool boxes (Trim-Lok catalogue p. 18)
+- **Movement:** none: once pushed on, the trim stays put
+- **Directions it can move (degrees of freedom):** 0 once seated. Before it is fully pushed home it can be slid along the edge or pulled off, which is how it is positioned.
+- **Special behaviour:**
+  - none of the listed behaviours: it is a passive push-on grip
+  - Its own trick: one continuous strip, cut to length, fits any straight or curved edge or odd-shaped cut-out and grips a band of panel thicknesses (its grip range), e.g. 1-4 mm for one PVC profile (PAR Group TF800)
+- **How it holds:**
+  - spring force (a spring or springy part presses it in place): the metal clips or wire carrier inside the U keep pressing the tongues against the panel (Trim-Lok catalogue p. 4: 'Individual Metal Clips Retain a Permanent Grip')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the squeezed tongues hold by friction on both faces of the panel
+  - shape (the parts interlock; form-fit): angled gripping tongues act like barbs that resist being pulled off (Trim-Lok install page: 'tongue and "backstop" design')
+  - material bond (glue, solvent or melting), optional: pre-applied butyl or hot-melt adhesive inside some trims gives 'a Stronger Grip' and prevents seepage (Trim-Lok catalogue p. 18)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** Light: it is a protective covering, not a load-bearing joint. It holds itself and light soft parts on by spring grip; it is weakest when pulled straight off the edge, especially from a cut end or corner, and strongest against sliding along the edge ⚑ [uncertain: no pull-off force data found from any maker].
+- **Play and precision:** not applicable: it doesn't locate parts. It tolerates a band of panel thicknesses (its grip range, e.g. 1-4 mm, 1-3.5 mm, 2-4 mm or 6-8 mm for different PAR Group TFast profiles), and a minimum bend radius (20 mm horizontal and 20-40 mm vertical for the PAR Group profiles). Across one maker's range, most edge trim fits edges from 1/64 to 1/2 in (0.4-12.7 mm) thick (New Equipment Digest, on Trim-Lok).
+- **Taking it apart:** removable: it can be pulled off by hand and refitted, though trims with pre-applied adhesive are semi-permanent ⚑ [uncertain: no source describes removing and refitting trim]
+- **How often it can be reused:** a few times: the clips and tongues lose some grip each time the trim is pulled off and refitted ⚑ [uncertain: no source gives a figure]
+- **Sealing:** Plain edge trim: none (it covers an edge, it doesn't seal a gap). Trim seal: dust-resistant to watertight, made by the squashed sponge-rubber bulb, with optional butyl sealant inside the U 'to Prevent Seepage' (Trim-Lok catalogue p. 18). Grommet edging: none to loose; tight-fitting rubber grommets 'can also prevent the entry of dirt, air, water' (Wikipedia 'Grommet'), but an edge strip round a cut-out still leaves gaps round the cables ⚑ [uncertain: inferred].
+- **Adjustable:** yes, before it is fully seated: it can be slid along the edge or pulled off and refitted; the grip itself can't be adjusted.
+- **Access needed:** not applicable: you only need to reach the bare edge itself, with room on both faces for the legs of the U (the 'leg length', Trim-Lok install page); no fastener goes through the panel.
+- **Materials:** Trim: flexible PVC with aluminium or steel clips (Trim-Lok catalogue p. 5; PAR Group), EPDM or neoprene rubber (Trim-Lok catalogue p. 14), thermoplastic elastomer for fire-retardant trim (Trim-Lok catalogue p. 10), food-approved silicone U-channel (PAR Group), foam and metal trims (McMaster-Carr categories). Grommet edging: soft PVC, UL94 HB nylon or very flexible polyethylene (Essentra). Printed: TPU (95A), PETG or PLA (Printables models). It fits edges of sheet metal, flanges, glass fibre, plastic, wood and glass (PAR Group), acrylic panels and cardboard (Printables models), and polypropylene baskets (Reddit thread).
+- **Heat, cold, water and wear:** PVC trim with metal clips: about -29 °C to +70 °C (Trim-Lok catalogue p. 5). EPDM and neoprene rubber trim: -40 °C to +100 °C, short term to +107 °C; EPDM has 'excellent ozone, weathering, and aging resistance' and suits outdoor use but not oil or fuel; neoprene has moderate oil resistance and 'limited flexibility at low temperatures' (Trim-Lok catalogue p. 14). Soft PVC grommet edging is 'resistant to ozone, acids, sunlight, and has excellent aging qualities' (Essentra). Plastic trim shrinks over time, opening gaps at joined ends (Trim-Lok install page). Bulb seals squashed more than 50% can take a permanent compression set (The Shop Magazine). Printed TPU or PLA channels may soften, [creep](../glossary.md#creep) or loosen in heat and sun ⚑ [uncertain: general printing knowledge, not tested by a cited source].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: edge trim, trim seals and grommet edging are sold by the metre or in rolls (PAR Group: up to 50 m coils; Essentra: 100 ft rolls)
+  - 3D print (FDM): printed U-channels and corner pieces in TPU or PETG, and printed grommet strips (Printables models by ExtrudingThoughts, Neon Dragon XXV, JRomer79 and RosePeach, read through the Printables API)
+  - sheet metal: the classic use, finishing the cut edges of panels, guards and cut-outs (PAR Group; Essentra)
+  - laser cut: finishing the edges of cut acrylic, plywood or sheet panels (Printables 1355605, for 2.5 mm acrylic)
+- **Printing it in one piece (print in place):** yes: a plain printed U-channel is a single piece that works straight off the print bed; commercial trims with metal clips can't be printed.
+- **Tools:** None to fit by hand on most trim: 'Using one hand, roll t/fast along the edge and at the same time press with the thumb of the other hand' (PAR Group); Trim-Lok's Edge Trim Plus 'installs with the press of a finger' 'without the need for a mallet or pneumatic hammer' (Trim-Lok install page), which implies stiffer trim may need a soft mallet or, for high volumes, a pneumatic hammer. To cut it: edge-trim clippers, cutting between the metal clips (Trim-Lok), or tin snips (PAR Group); a mitre tool for neat 90-degree corners (Trim-Lok). Calipers to measure the panel thickness, and a 1:1 water and isopropyl alcohol mix to clean the edge (The Shop Magazine, Trim-Lok sponsored article).
+- **Difficulty:** easy: buy trim for your panel thickness, cut to length and push on by hand; printing a TPU or PETG U-channel is also easy.
+
+### 3D printing tips
+
+1) Material: TPU suits trim that must bend round curves and grip slippery plastics such as polypropylene, where glue doesn't hold well (ExtrudingThoughts printed his parametric shelf-edge trim in 'n95a TPU'; the Reddit answer for a polypropylene basket was a U-channel 'no glue needed'). Rigid PETG or PLA works for straight edges: Neon Dragon XXV's trim for 2.5 mm acrylic is PETG at 0.22 mm layers, and JRomer79's U-channels were printed in PLA and PETG (Printables API). 2) Orientation: JRomer79's straight channels and corners 'can be printed without supports by flipping onto the edge'; use a brim if long thin parts lift (Printables 932095). 3) Fit: size the slot to the measured panel thickness; rigid printed channels have no metal clips, so they rely on a slightly tight slot, and the designers add glue 'to make them more permanent' (Printables 1355605) or to hold corners (Printables 932095). Printing small inward-facing ridges that point towards the open end of the U copies the barb-like tongues of commercial trim ⚑ [uncertain: design idea taken from commercial trim, not tested by a cited source]. 4) Corners: print separate corner pieces (JRomer79 includes a corner with a ridge that 'should lock over the straight pieces'), or cut V notches in TPU trim, as PAR Group does with tin snips on PVC trim. 5) Parametric: ExtrudingThoughts' OpenSCAD file sets slot width, depth and corner shape, so you can match any panel. 6) Grommet strip: RosePeach printed a grommet strip in PETG at 100% [infill](../glossary.md#infill) with supports and a brim (Printables 640345). 7) Printed rigid channels can crack if spread too far to push on, so test a short length first ⚑ [uncertain: general printing advice].
+
+### Buying one (off-the-shelf parts)
+
+Search for: 'edge trim' / 'push-on edge trim' / 'U-channel edge trim' / 'edge protector' / 'edge guard', choosing by 'grip range' or 'edge thickness' (e.g. PAR Group 'TFast U channel PVC edging'; Trim-Lok 'Edge Trim' and 'Edge Trim Plus'), 'reinforced rubber edge trim' and 'reinforced plastic edge trim' (metal core), 'extra-flexible plastic edge trim', 'conductive plastic edge trim', 'food-grade edge trim' (McMaster-Carr category names, read via WebFetch), 'trim seal' / 'bulb seal edge trim' / 'edge-grip seal' with top or side bulb (Trim-Lok), 'fire-retardant edge trim' (TPE, Trim-Lok), 'grommet edging' / 'grommet strip' (plain or serrated, by panel thickness, Essentra), and the tools 'edge trim clippers' and 'trim mitre tool' (Trim-Lok). Link to the maker's selection table rather than copying it: e.g. PAR Group's TFast profile list or the Trim-Lok catalogue.
+
+## Rules of thumb
+
+- Measure the panel and buy by grip range: 'Edge trims are generally engineered to fit a specific edge size. You'll need to measure the thicknesses of your edge to select the proper size'; use calipers, and 'When your measurement is between two sizes, you'll want to the select the next size up' (The Shop Magazine, Trim-Lok sponsored article). Example grip ranges: 1-4 mm, 1-3.5 mm, 2-4 mm and 6-8 mm for different PAR Group TFast PVC profiles (PAR Group).
+- Also measure the leg length (how far the trim wraps down each face) and the tightest bend radius of the edge (Trim-Lok install page); PAR Group's profiles bend to about 20 mm radius sideways and 20-40 mm the other way (PAR Group).
+- Clean the edge before fitting with a 1:1 mix of water and isopropyl alcohol (The Shop Magazine).
+- Cut between the metal clips, not through them, 'to avoid crushing the trim' (Trim-Lok install page).
+- Corners: sources differ. PAR Group says its PVC trim 'can be mitred round a tight angle simply by cutting out a V section with tin snips'; Trim-Lok says a perfect 90-degree mitre needs a mitre tool and 'This is not possible with tin snips or other tools' (PAR Group; Trim-Lok install page).
+- Ends and [shrinkage](../glossary.md#warping--shrinkage): 'leave more material in the loop and push your trim ends together, as you push the loop down', to stop gaps opening as the plastic shrinks (Trim-Lok install page); PAR Group joins PVC ends 'by heating the touching ends with a hot piece of metal' (PAR Group).
+- Bulb seals: bulb size = 1.5 x the closed gap between door and frame (Trim-Lok catalogue p. 18); squash rubber seals by 25-50%, since more than 50% can give them a permanent compression set (The Shop Magazine).
+- Grommet edging: use the serrated version for round, square and rectangular holes and the solid version for straight edges (Essentra).
+- Temperature: PVC trim with metal clips is rated for about -29 °C to +70 °C; EPDM and neoprene rubber trims about -40 °C to +100 °C (Trim-Lok catalogue pp. 5, 14).
+
+## Common failures
+
+1) Trim falls off or creeps along the edge: too big for the panel, dirty or oily edge, or not pushed fully home; buy by measured thickness and clean the edge (The Shop Magazine). 2) Trim won't go on or splits: too small for the panel, or a rigid printed channel spread too far; go up a size, or use TPU. 3) Trim kinks, buckles or rolls on curves: bend radius tighter than the trim allows (Schlegel patent US4517233A; PAR Group bend radii). 4) Ends pull apart and leave gaps: plastic shrinkage; leave extra length and push the ends together (Trim-Lok install page). 5) Trim crushed or misshapen where cut: cut through a metal clip; cut in the gaps between clips (Trim-Lok install page). 6) Bulb seal leaks or the door won't shut: wrong bulb size for the gap, or squashed more than 50% so it takes a set (Trim-Lok catalogue p. 18; The Shop Magazine). 7) Trim goes hard, cracks or loses grip outdoors: wrong material for sun, ozone, oil or temperature; choose EPDM outdoors and neoprene or other oil-resistant rubber near oil (Trim-Lok catalogue p. 14).
+
+## Safety
+
+Edge trim is itself a safety part: it covers exposed sharp edges (PAR Group). Cut sheet metal is sharp while you fit the trim, so wear gloves ⚑ [uncertain: general advice]. Trim that is too loose for the panel can fall off and leave the sharp edge bare again, so measure the thickness (The Shop Magazine). Where wires pass through holes in metal, unprotected edges can abrade or cut the insulation (Wikipedia 'Grommet'); edging protects the insulation but is not a strain relief, and any mains wiring must follow local regulations ⚑ [uncertain: general advice]. Where fire codes apply (vehicles, public equipment), use trim tested to the relevant flammability standard; Trim-Lok's vinyl trims list FMVSS 302 and UL 94 HB, and it sells a fire-retardant TPE trim (Trim-Lok catalogue pp. 5, 10). Joining PVC ends with a hot piece of metal (PAR Group) risks burns, and overheated PVC gives off harmful fumes ⚑ [uncertain: fume hazard not stated by an opened source].
+
+## Related
+
+- Spring-steel push-on fasteners (push nut, speed nut, U-nut): single spring-steel clips for a screw or shaft, not a continuous strip
+- Cable gland and strain relief: rubber cable grommets and glands for round holes, which also grip the cable
+- Eyelets and grommets (for fabric, leather and sheet): metal rings that reinforce holes in fabric and sheet
+- Elastomer isolation mount (rubber bobbin mount, isolator grommet): rubber grommets used to soak up vibration
+- Gasket (flat, cord-in-groove or cast-in-place): for sealing a closed joint; a trim seal seals a door or lid edge
+- Bead-in-groove fabric edge (keder, boltrope, screen [spline](../glossary.md#spline)): holds a fabric or mesh edge in a slot instead of clipping over an edge
+- Cantilever snap fit: the snap & clip family's springy-hook joint for rigid parts
+- Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder): a single spring clip that grips an edge
+- Clamp-on accessory mount for bars, poles and edges: a screw-tightened clamp for edges that must carry load
+- Silicone and MS-polymer adhesive sealants: glue-on alternative for sealing or protecting an edge
+- Double-sided foam tape: stick-on alternative for light trims and bumpers
+
+## Make it yourself
+
+- [Trim for shelf or board edge parametric (ExtrudingThoughts, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1594528-trim-for-shelf-or-board-edge-parametric): Parametric OpenSCAD corner and U-channel trim for shelf or board edges, printed by the designer in 95A TPU. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- [Edge Trim For 2.5mm Acrylic Panels (Neon Dragon XXV, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1355605-edge-trim-for-25mm-acrylic-panels): 100 mm lengths of push-on edge trim for about 2.5 mm acrylic, printed in PETG; glue makes it permanent. Read through the Printables public API. *(licence: Creative Commons Public Domain)*
+- [U-Channels - 119mm & 174mm x 7.6mm x 10mm (Edges) (JRomer79, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/932095-u-channels-119mm-174mm-x-76mm-x-10mm-edges): Straight U-channel edge protectors with two corner styles for framing boards, glass or card; printed on edge without supports in PLA or PETG. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- [Grommet Strip (RosePeach, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/640345-grommet-strip): A printed copy of a commercial grommet strip, made for a home-built antenna loading coil; PETG, 100% infill, with brim and supports. Read through the Printables public API. *(licence: Creative Commons Public Domain)*
+
+## Pictures, videos and models
+
+- [Trim-Lok How to Install Edge Trim | Commercial Vehicle Fittings | Albert Jagger (Albert Jagger, YouTube)](https://www.youtube.com/watch?v=sHCx2AHPGPs): Demonstration of measuring, cutting and pushing on metal-clip edge trim (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- [How to Install Trim Seal (Trim-Lok, Inc., YouTube)](https://www.youtube.com/watch?v=DQzh1K6oNJQ): Fitting edge trim with an attached bulb seal (title and channel checked via YouTube oEmbed; not watched) *(licence: link only (standard YouTube licence))*
+- [Trim-Lok Trims and Seals catalogue (PDF, hosted by Albert Jagger)](https://marine.albertjagger.co.uk/contentfiles/files/Strategic_Partners_Catalogues/TrimLok_17.pdf): Cross-section drawings of edge trims with their internal metal clips and gripping tongues (p. 4), trim seals with bulbs and bulb positions (p. 18), and grip-range tables *(licence: link only)*
+- [TFast U Channel PVC Edging (PAR Group)](https://www.par-group.co.uk/health-and-safety/impact-protection/tfast-u-channel-pvc-edging/): Maker's page with photos of PVC U-channel edging profiles, grip ranges, bend radii and fitting instructions *(licence: link only)*
+- [Grommet Strips - Plastic Rolls (Essentra Components)](https://www.essentracomponents.com/en-us/p/grommet-strips-plastic-rolls): Photos of plain and serrated grommet edging and its panel-thickness ranges *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 11 sentences on this page marked [uncertain].
+- ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ Finder value `removability` = removable (source uncertain): `removability` is marked ⚑ [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent ⚑ [uncertain: no source describes removing…"
+- ⚑ Research note: *Push-on edge trim*: mitring corners with tin snips (PAR Group: yes; Trim-Lok: 'not possible'), both recorded. No pull-off force or refit count found ([uncertain]); no openly licensed edge-trim images on Commons.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Grommet>
+- <https://en.wikipedia.org/wiki/Cable_grommet>
+- <https://en.wikipedia.org/wiki/Weatherstripping>
+- <https://www.par-group.co.uk/health-and-safety/impact-protection/tfast-u-channel-pvc-edging/>
+- <https://www.trimlok.com/etinstall>
+- <https://marine.albertjagger.co.uk/contentfiles/files/Strategic_Partners_Catalogues/TrimLok_17.pdf>
+- <https://www.newequipment.com/adhesives-fastening/how-install-edge-trim>
+- <https://theshopmag.com/features/the-final-touch-installing-edge-trims-and-rubber-seals/>
+- <https://www.essentracomponents.com/en-us/p/grommet-strips-plastic-rolls>
+- <https://patents.google.com/patent/US4517233A/en>
+- <https://www.mcmaster.com/products/edge-trim/ (read via WebFetch summary; category names only)>
+- <https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1il1plg (archive of https://www.reddit.com/r/3Dprinting/comments/1il1plg/best_way_to_attach_tpu_reinforcement_for_laundry/)>
+- <https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1il1plg&limit=200>
+- <https://commons.wikimedia.org/wiki/Category:Grommets>
+- <https://www.youtube.com/watch?v=sHCx2AHPGPs>
+- <https://www.youtube.com/watch?v=DQzh1K6oNJQ>
+- <https://api.printables.com/graphql/ (models 1594528, 1355605, 932095, 640345)>

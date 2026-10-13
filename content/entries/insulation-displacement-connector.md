@@ -1,0 +1,283 @@
+---
+title: Insulation-displacement connector
+description: Insulated wires are pushed or squeezed into slotted metal blades that cut through the insulation and grip the
+  copper, making a gas-tight, unstripped joint; used to terminate many ribbon-cable wires in one press, punch network and
+  phone wires into blocks and jacks, crimp RJ45 plugs, and tap a branch wire onto an existing one.
+num: 356
+term: Insulation-displacement connector (IDC; insulation-displacement contact, insulation-piercing contact)
+plain_name: 'A connector with little forked metal blades that you press an insulated wire into: the blades slice through the
+  plastic coating and pinch the copper inside, so you never strip the wire, and one squeeze can connect a whole flat ribbon
+  of wires or tap a new wire onto an existing one'
+aliases:
+- IDC, insulation-displacement contact, insulation-piercing contact (IPC) (Wikipedia 'IDC (electrical connector)')
+- ribbon-cable plug, IDC socket or 'IDC connector'; the female plug slides onto a male box header or pin header; ribbon cable
+  is also called flat cable (Wikipedia 'IDC (electrical connector)', 'Ribbon cable'; Fablab Brussels)
+- punch-down block, punch block, quick-connect block; 66 block, 110 block, Krone (LSA-PLUS) and BIX blocks (Wikipedia 'Punch-down
+  block')
+- RJ45 (8P8C) and RJ11 modular plugs, which are crimped on with insulation-displacement contacts (Wikipedia 'Modular connector')
+- T-tap, quick splice, splice connector, inline or tap (suitcase) connector (Tools and Toys; Electrokit; DigiKey listing for
+  3M 562)
+- gel-filled splice, telecom splice, UY2 and UR2 connectors (Electrokit; Hackaday 2023 comments)
+- solderless LED-strip clip connector (Adafruit 'Solderless RGB LED Clips')
+- 'vampire tap, piercing tap: historic clamp-on tap for thick 10BASE5 network cable (Wikipedia ''Vampire tap'')'
+- Scotchlok (3M, brand; the UY2 line now sold as Corning Presslok) and PressLok (brand) (Hackaday 2023; Electrokit)
+family: electrical connections
+other_families: [quick-release & tool-free]
+finder:
+  job: [join and hold]
+  motion: none
+  special_behaviour: []
+  holding_principle: [spring force, friction or clamping]
+  reuse_cycles: once
+  seal: none
+  access_needed: both sides
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM)]
+  connects: [wires]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  electrical_band: up to about 3 A
+  tools: [crimper, press or vice, hand tools]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: semi-permanent
+  power: passive
+needs_confirming:
+  load_max:
+    kind: best guess
+    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+confirmed: []
+open_points:
+- kind: content
+  note: '*Insulation-displacement connector*: Wikipedia shows certified 230 V Australian outlets with IDC terminals, against
+    the outline''s ''signal only''; the entry keeps ''up to about 3 A, extra-low voltage only'' and names the certified mains
+    exception in `safety_notes`. Punch-down tools: Wikipedia says a screwdriver springs the blades apart; a DigiKey forum
+    post says one ''can work in a pinch''. *Standard plug-and-socket connector* also lists seals & pass-throughs in `other_families`
+    (sealed panel connectors pass through walls); the outline asked only for quick-release & tool-free.'
+uncertain_fields: []
+diagram_idea: 'A cut-away of one IDC contact in three steps: an insulated wire above a forked metal slot, the wire being pushed
+  down so the sharp edges slice the insulation, and the copper squeezed between the two springy sides; beside it, a ribbon
+  plug with the red stripe lined up to the pin 1 triangle, and a T-tap showing a branch wire pressed across a through wire.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG
+  title: FDD 34 PIN Scheidklemmen (IDC blades in a 34-pin floppy cable plug), Wikimedia Commons, by Hans Haase
+  shows: Close-up of the forked connector blades cutting through the insulation of a ribbon cable
+  license: CC BY-SA 4.0
+- url: https://commons.wikimedia.org/wiki/File:Pin_1_idc.png
+  title: Pin 1 idc (Wikimedia Commons, by Nick1nildram)
+  shows: The 'V' mark on an IDC plug that shows pin 1, where the striped wire goes
+  license: GFDL (marked for relicensing to CC BY-SA 3.0)
+- url: https://commons.wikimedia.org/wiki/File:110-punch-block-IDC-0a.jpg
+  title: 110 punch block (Wikimedia Commons, by Adamantios)
+  shows: A 110-type punch-down block with wires pressed into its insulation-displacement slots
+  license: CC BY-SA 3.0 / GFDL
+- url: https://commons.wikimedia.org/wiki/File:Rj-45_male_compare.jpg
+  title: Rj-45 male compare (Wikimedia Commons, by Baran Ivo)
+  shows: 'Two RJ45 plugs side by side: contacts made for solid wire and contacts made for stranded wire'
+  license: Public domain (PD-self)
+- url: http://www.fablab-brussels.be/fablab-english/wp-content/uploads/2021/11/IDC-crimps-instructies.pdf
+  title: How to crimp IDC connectors (Fablab Brussels, 3-page photo guide, Dutch and English)
+  shows: 'Step-by-step photos: the three parts of a ribbon plug, the pin 1 triangle, lining up the red stripe, pressing in
+    a bench vice and fitting the strain-relief clamp'
+  license: link only (licence not stated)
+make_it_yourself:
+- url: https://www.printables.com/model/831720-crimp-aid-for-amp-te-idc-connector-24-pin-127mm
+  title: Crimp Aid for AMP TE IDC Connector (24-pin | 1.27mm) (vinzcenzo, Printables) (URL from Printables API, page not opened)
+  what_it_is: A printed holder that keeps a small ribbon-cable IDC plug square so it can be squeezed shut by hand until it
+    clicks
+  license: Creative Commons Attribution-ShareAlike
+- url: https://www.printables.com/model/1248613-crimping-tool-adapter-for-idc-connectors
+  title: Crimping Tool Adapter for IDC Connectors (MichaelQ, Printables) (URL from Printables API, page not opened)
+  what_it_is: Adapters and a stand for an IDC crimping tool, for 2.54 mm-pitch male and female IDC headers on 1.27 mm ribbon
+    cable
+  license: GNU General Public License v3.0
+- url: https://www.printables.com/model/727380-punch-puck-cat5e6-keystone-punch-down-holder-belde
+  title: Punch Puck - CAT5e/6+ keystone punch down holder (Belden) (Jerry Lee, Printables) (URL from Printables API, page
+    not opened)
+  what_it_is: A printed holder that grips a keystone network jack while the wires are punched down
+  license: Creative Commons Attribution-NonCommercial
+sources:
+- https://en.wikipedia.org/wiki/IDC_(electrical_connector)
+- https://en.wikipedia.org/wiki/Electrical_connector
+- https://en.wikipedia.org/wiki/Punch-down_block
+- https://en.wikipedia.org/wiki/Ribbon_cable
+- https://en.wikipedia.org/wiki/Modular_connector
+- https://en.wikipedia.org/wiki/Vampire_tap
+- https://en.wikipedia.org/wiki/Keystone_module
+- https://hackaday.com/2023/12/18/ask-hackaday-what-do-you-do-when-you-cant-solder/
+- https://learn.adafruit.com/solderless-rgb-led-clips
+- https://hitlights.com/blogs/premium-led-strip-lighting/solve-flickering-led-strips
+- https://hitlights.com/blogs/premium-led-strip-lighting/quick-connectors-or-soldering
+- https://www.electrokit.com/en/skarvklamma-2-trad-hjkt2-uy2
+- https://www.electrokit.com/en/skarvklamma-rod
+- https://toolsandtoys.net/ticonn-quick-splice-t-tap-wire-connector-kit/
+- https://www.digikey.com.au/en/products/detail/3m/562-BIN/3864018
+- https://forum.digikey.com/t/idc-crimp-solutions-for-the-budget-conscious/22965
+- https://forum.digikey.com/t/how-do-idc-connectors-work-and-what-tools-should-i-use/6951
+- https://www.fablab-brussels.be/fablab-english/how-to-crimp-idc-connectors/
+- http://www.fablab-brussels.be/fablab-english/wp-content/uploads/2021/11/IDC-crimps-instructies.pdf
+- https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
+- https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG
+- https://commons.wikimedia.org/wiki/File:Pin_1_idc.png
+- https://commons.wikimedia.org/wiki/File:110-punch-block-IDC-0a.jpg
+- https://commons.wikimedia.org/wiki/File:Rj-45_male_compare.jpg
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Insulationdisplacement_connector_IDC_ribboncable_plug_punchdown_Ttap.json
+glossary: [pitch, form-fit--force-fit--material-bond, keying, infill]
+---
+
+Insulated wires are pushed or squeezed into slotted metal blades that cut through the insulation and grip the copper, making a gas-tight, unstripped joint; used to terminate many ribbon-cable wires in one press, punch network and phone wires into blocks and jacks, crimp RJ45 plugs, and tap a branch wire onto an existing one.
+
+**In plain words:** A connector with little forked metal blades that you press an insulated wire into: the blades slice through the plastic coating and pinch the copper inside, so you never strip the wire, and one squeeze can connect a whole flat ribbon of wires or tap a new wire onto an existing one. **Proper term:** Insulation-displacement connector (IDC; insulation-displacement contact, insulation-piercing contact).
+
+**Also called:** IDC, insulation-displacement contact, insulation-piercing contact (IPC) (Wikipedia 'IDC (electrical connector)'); ribbon-cable plug, IDC socket or 'IDC connector'; the female plug slides onto a male box header or pin header; ribbon cable is also called flat cable (Wikipedia 'IDC (electrical connector)', 'Ribbon cable'; Fablab Brussels); punch-down block, punch block, quick-connect block; 66 block, 110 block, Krone (LSA-PLUS) and BIX blocks (Wikipedia 'Punch-down block'); RJ45 (8P8C) and RJ11 modular plugs, which are crimped on with insulation-displacement contacts (Wikipedia 'Modular connector'); T-tap, quick splice, splice connector, inline or tap (suitcase) connector (Tools and Toys; Electrokit; DigiKey listing for 3M 562); gel-filled splice, telecom splice, UY2 and UR2 connectors (Electrokit; Hackaday 2023 comments); solderless LED-strip clip connector (Adafruit 'Solderless RGB LED Clips'); vampire tap, piercing tap: historic clamp-on tap for thick 10BASE5 network cable (Wikipedia 'Vampire tap'); Scotchlok (3M, brand; the UY2 line now sold as Corning Presslok) and PressLok (brand) (Hackaday 2023; Electrokit).
+
+## How it works
+
+Each contact is a slot slightly narrower than the copper wire, with sharpened edges. When the wire is forced down into the slot by a tool, a cover or pliers, the edges cut through the insulation and the two sides of the slot spring against the copper (Wikipedia 'IDC (electrical connector)'; Wikipedia 'Punch-down block'). The pressure is so high that 'when properly made, the connector blade cold-welds to the conductor, making a theoretically reliable gas-tight connection' (Wikipedia 'IDC (electrical connector)'). Because the slot width is made for one range of wire sizes, the wire, the slot and (for some types) solid versus stranded wire must all match (Wikipedia 'Modular connector'; Wikipedia 'Punch-down block').
+
+## Parts
+
+A few parts acting as one unit: one or more forked (slotted) metal contacts in a plastic housing, plus a cover, cap or strain-relief bar that pushes the wire into the slot and keeps it there. Ribbon-cable plugs come in three pieces: the contact body, the cover that presses the cable down, and a strain-relief clamp (Fablab Brussels). Gel-filled splices are pre-filled with sealant (Electrokit UY2). T-taps are a one-piece fold-over body plus a separate spade (blade) terminal for the branch wire (Tools and Toys).
+
+## Everyday examples
+
+- The flat grey ribbon cables with black plugs inside older PCs (floppy and IDE drive cables) (Wikipedia 'IDC (electrical connector)')
+- The clear plug on every Ethernet patch cable, crimped onto the wires with insulation-displacement contacts (Wikipedia 'Modular connector')
+- Network and phone wall jacks and patch panels where wires are punched down (Wikipedia 'Punch-down block'; 'Keystone module')
+- Plastic snap-shut taps on car stereo and accessory wiring (Hackaday 2023), and clip-on connectors for LED strips (Adafruit)
+
+## When to use it
+
+Use IDC when you need to connect many wires at once (a ribbon cable to a two-row pin header on a circuit board), to terminate network and phone cable (punch-down jacks, blocks and RJ45 plugs), to tap a low-current signal off an existing wire without cutting it, or to splice small solid telecom wires in damp places (gel-filled splices). It is fast, needs no stripping or heat, and terminates all the wires of a ribbon 'in a single action' (Wikipedia 'Electrical connector'; Electrokit). LED-strip clips join strips without soldering (Adafruit).
+
+## When not to use it
+
+Not for power above a few amps: use a crimped or soldered joint (Wikipedia 'Electrical connector'). Not where the wire moves or vibrates: cheap fold-over taps 'tend to cut or damage the wire and eventually fail', worse 'if there's movement that allows them to flex and chew their way through a wire' (Hackaday 2023); for permanent vehicle work use a Crimped butt splice, a Solder sleeve or a Soldered wire joint. Not with the wrong wire: stranded wire in solid-wire blocks, mixed gauges in one slot, or a wire size outside the connector's range (Wikipedia 'Punch-down block'; Hackaday 2023). Not outdoors unless gel-filled and rated for it (Tools and Toys). For permanent LED-strip installs, soldering lasts longer, since quick connectors 'can become loose over time, especially in environments with frequent vibrations or temperature fluctuations' (HitLights). Never in mains wiring unless it is a certified fitting installed under local rules (see safety_notes).
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: connects wires to a plug, block or each other without stripping, including tapping a branch onto a wire without cutting it (the finder reaches this entry through the 'electrical connections' family)
+- **Movement:** none: the wire is fixed in the contact once it is pressed home.
+- **Directions it can move (degrees of freedom):** 0: the wire can't move in the contact; any movement of the wire near the contact damages the joint.
+- **Special behaviour:**
+  - none: it simply joins. Its trick is that it is self-stripping (the contact cuts the insulation itself) and that one press can terminate many wires at once (Wikipedia 'Electrical connector').
+- **How it holds:**
+  - spring force (a spring or springy part presses it in place): the two sides of each slotted contact spring against the conductor (Wikipedia 'Punch-down block')
+  - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): the wire is pinched hard enough to cold-weld to the blade (Wikipedia 'IDC (electrical connector)'), and the cover or strain-relief clamp grips the insulation
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** Electrical: up to about 3 A, extra-low voltage only. IDCs 'are usually used with small conductors for signal purposes and at low voltage. Power conductors carrying more than a few amperes are more reliably terminated with other means, though "hot tap" press-on connectors find some use in automotive applications' (Wikipedia 'Electrical connector'). Ribbon cable wires are only 22-26 AWG (Wikipedia 'Ribbon cable'). T-taps are sold up to 4-6 mm² (12-10 AWG) wire for vehicles (Electrokit T-tap), and some certified mains fittings use IDC terminals (Wikipedia 'IDC (electrical connector)' shows an Australian 230 V outlet), but those are outside a maker's choice (see safety_notes). Mechanical: light; a ribbon plug relies on its strain-relief clamp to keep pulls off the contacts (Fablab Brussels), and a wire that moves in a tap gets chewed through (Hackaday 2023).
+- **Play and precision:** not applicable
+- **Taking it apart:** semi-permanent (can be undone but may damage parts): ribbon-cable connectors 'are not designed to be reusable, but can often be re-used if care is taken when removing the cable' (Wikipedia 'IDC (electrical connector)'); punch-down wires can be pulled out and the slot re-used, but blades that have been sprung apart mean the whole block may have to be replaced (Wikipedia 'Punch-down block'); crimped RJ45 plugs and squeezed splices and taps are cut off and replaced (Wikipedia 'Modular connector').
+- **How often it can be reused:** once: most IDC plugs, splices and taps are made to be closed once; ribbon-cable plugs and punch-down positions can sometimes be re-used with care (Wikipedia 'IDC (electrical connector)'; Wikipedia 'Punch-down block'). The plug-and-socket side of an IDC ribbon plug or RJ45 plug can of course be unplugged many times.
+- **Sealing:** none: plain IDC plugs, blocks and taps are open; T-taps are 'not rated for weather exposure' (Tools and Toys), and a T-tap seller advises wrapping it in electrical or self-vulcanizing tape in humid places (Electrokit T-tap). Gel-filled splices are the exception: factory-filled sealant keeps moisture off the contact (Electrokit UY2), and a Hackaday commenter reports they 'hold up in out door applications' (Hackaday 2023 comments).
+- **Adjustable:** no
+- **Access needed:** both sides: closing a ribbon plug, gel splice or T-tap means squeezing it between vice jaws or pliers from both sides (Fablab Brussels; Electrokit). Punch-down blocks and keystone jacks are worked from the front only (Wikipedia 'Punch-down block'). A T-tap can be fitted anywhere along an existing wire without reaching its ends (Electrokit T-tap).
+- **Materials:** Wire must match the contact. Punch-down blocks are 'designed for solid wire connections' (Wikipedia 'Punch-down block'). Gel-filled UY2 splices take two solid copper conductors of 0.4-0.9 mm (26-19 AWG) (Electrokit UY2). Ribbon cable is usually stranded copper of 0.32, 0.20 or 0.13 mm² (22, 24 or 26 AWG) at 1.27 mm [pitch](../glossary.md#pitch) (Wikipedia 'Ribbon cable'). RJ45 plugs are made for either solid or stranded wire, with different prongs (Wikipedia 'Modular connector'). T-taps come in sizes for 0.5-1.5, 1.5-2.5 and 4-6 mm² wire (Electrokit T-tap). IDC technology was first made for solid wire and later extended to stranded wire (Wikipedia 'IDC (electrical connector)'). LED-strip clips press onto the strip's exposed copper pads (Adafruit).
+- **Heat, cold, water and wear:** Vibration and movement: taps and clips loosen or cut into the wire (Hackaday 2023; HitLights). Damp: plain IDCs are open to moisture and T-taps are 'not rated for weather exposure' (Tools and Toys), so corrosion can raise resistance; gel-filled splices resist moisture (Electrokit UY2). Temperature swings loosen LED-strip quick connectors over time (HitLights). High-speed data through punch-down blocks needs careful work to control impedance and crosstalk (Wikipedia 'Punch-down block').
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: the contacts and housings are always bought
+  - 3D print (FDM): crimp aids and tool adapters that close IDC plugs evenly, holders for punching down keystone jacks, ribbon-cable clips and covers
+- **Printing it in one piece (print in place):** no: the cutting contacts must be metal; only helper jigs and holders are printed.
+- **Tools:** Depends on the type: a bench vice, IDC press or IDC crimping pliers to close ribbon-cable plugs evenly (Fablab Brussels; DigiKey TechForum 2022); a punch-down tool with the right blade for 66, 110 or Krone blocks and keystone jacks (Wikipedia 'Punch-down block'); a modular-plug crimp tool with the matching die for RJ45 plugs (Wikipedia 'Modular connector'); flat-nose pliers for gel-filled splices and T-taps (Electrokit), or Klein's IDC crimp pliers, made to close Scotchlok-type splices without damaging the housing (DigiKey TechForum 2022); a sharp knife for LED-strip clips (Adafruit). No stripper and no heat.
+- **Difficulty:** easy: no stripping, soldering or heat, and most types close with pliers or a vice; but reliability depends on exactly matching wire, connector and tool, and a bad joint is hard to see from outside (Hackaday 2023; Wikipedia 'Punch-down block').
+
+### 3D printing tips
+
+The contact itself can't be printed, but printed helpers make IDC work more reliable. 1) A printed crimp aid that holds the plug halves square lets you close small ribbon plugs by hand without damaging them; one designer settled on 0.1 mm layers and 40% gyroid [infill](../glossary.md#infill) after strength tests (Printables 831720). Printed adapters for IDC crimping pliers do the same for several 1.27 mm-cable plug types (Printables 1248613). The aim is to close the two halves parallel, as a vice does (Fablab Brussels). 2) A printed 'punch puck' holds a keystone jack steady while you punch the wires down (Printables 727380). 3) In printed enclosures, give ribbon cable a gentle fold rather than a sharp crease next to the plug, leave space for the plug's strain-relief clamp (Fablab Brussels), and clamp the cable so it doesn't pull on the contacts. 4) Don't let printed parts squeeze or flex a T-tap or splice: movement lets the blade chew through the wire (Hackaday 2023). 5) Keystone ports printed into a panel accept punch-down network jacks (Wikipedia 'Keystone module'; see Standard plug-and-socket connector).
+
+### Buying one (off-the-shelf parts)
+
+IDC ribbon-cable sockets (two-row, 2.54 mm pitch, mating with box or pin headers; 'BT224' type), IDC D-sub, micro-ribbon and PCB transition headers (Wikipedia 'Ribbon cable'); grey and rainbow ribbon cable at 1.27 mm pitch (Wikipedia 'Ribbon cable'); IDC crimp tools and presses (DigiKey TechForum 2022); 66, 110, Krone and BIX punch-down blocks, patch panels and punch-down tools (Wikipedia 'Punch-down block'); 8P8C (RJ45) and 6P (RJ11) modular plugs for solid or stranded wire, crimp tools and keystone jacks with 110-style terminals (Wikipedia 'Modular connector'; 'Keystone module'); gel-filled telecom splices (UY2, UR2) (Electrokit UY2); colour-coded T-tap splices and tap (suitcase) connectors such as the 3M Scotchlok 562 'Tap (Suitcase) Connector' (Electrokit T-tap; DigiKey listing); solderless LED-strip clip connectors (Adafruit).
+
+## Rules of thumb
+
+- Ribbon cable is normally 1.27 mm (0.05 in) pitch, which matches two-row IDC plugs with 2.54 mm (0.1 in) pin spacing (Wikipedia 'Ribbon cable').
+- Pin 1: put the cable's red-striped (or ridged) edge on the side of the plug marked with a triangle or 'V' (Wikipedia 'IDC (electrical connector)'; Fablab Brussels).
+- Close ribbon plugs with the halves kept parallel, ideally in a vice, without over-pressing (which crushes the plastic); leave about 2 cm of cable beyond the plug, then fold it back under the strain-relief clamp (Fablab Brussels).
+- Punch-down: solid wire, one wire per slot, all the same size, and a proper punch-down tool; pushing a screwdriver into the slot 'forces the two blades of the terminal post apart, leading to bad contacts' (Wikipedia 'Punch-down block'). (DigiKey's forum says a flat screwdriver 'can work in a pinch'; the two sources differ.)
+- RJ45: use the plug made for your wire (solid or stranded), since 'a mismatch between plug type and wire type results in unreliable connections' (Wikipedia 'Modular connector').
+- Gel-filled UY2 splices: two solid wires of 0.4-0.9 mm (26-19 AWG), no stripping, closed with flat-nose pliers (Electrokit UY2).
+- T-taps: choose the size by wire: red 0.5-1.5 mm² (22-18 AWG), blue 1.5-2.5 mm² (18-14 AWG), yellow 4-6 mm² (12-10 AWG), and tape them in damp places (Electrokit T-tap).
+- Keep IDCs to signals and small currents: 'Power conductors carrying more than a few amperes are more reliably terminated with other means' (Wikipedia 'Electrical connector').
+
+## Common failures
+
+Wrong wire size or type: the blade either misses the copper or cuts strands, giving a poor or failing contact (Hackaday 2023; Wikipedia 'Modular connector'). Wire chewed through by movement in a tap (Hackaday 2023). Ribbon plug fitted the wrong way round (pin 1 not on the striped edge) (Wikipedia 'Ribbon cable'). Plug closed unevenly, so some contacts don't seat, or over-pressed so the housing cracks (Fablab Brussels). Punch-down blades sprung apart by a screwdriver, by two wires in one slot or by mixed gauges, giving 'extremely troublesome intermittent connections'; once sprung, the block often has to be replaced (Wikipedia 'Punch-down block'). Stranded wire in a solid-wire block or plug (Wikipedia 'Punch-down block'; 'Modular connector'). Re-used connectors that no longer grip (Wikipedia 'IDC (electrical connector)'). Flickering LED strips from clip connectors: 'Almost exclusively present in solderless connectors (not in soldered or spliced connections)'; moving the strip in the connector changes the flicker (HitLights). Corrosion in unsealed taps in damp places (Electrokit T-tap; Tools and Toys).
+
+## Safety
+
+Cheap fold-over taps cut into or chew through the wire and fail, and Hackaday warns 'If you find these in a car's wiring harness… buy a different car' (Hackaday 2023); poor connections risk 'fire hazards or short circuits' (HitLights), so keep IDCs to signals and small currents. Closing taps and splices by hand can hurt ('They also hurt your hands to use', Hackaday 2023): use pliers. A reversed ribbon cable (pin 1 on the wrong side) can feed signals or power to the wrong pins, which is why one edge is marked (Wikipedia 'Ribbon cable'). Mains: this entry gives no mains wiring steps. Some certified mains outlets use IDC terminals (Wikipedia 'IDC (electrical connector)'), but mains work must follow local law; for example, in England, Approved Document P covers electrical installation work in homes, and even non-notifiable repairs must comply (Approved Document P 2013, §2.7).
+
+## Related
+
+- Wire-to-board plug connectors (pin header and crimp housing): the headers IDC ribbon plugs push onto, and the crimped alternative for single wires
+- Crimped butt splice: the stronger, vibration-proof way to join wires, but needs stripping and a crimp tool
+- Solder sleeve (solder-seal splice) and Soldered wire joint: permanent soldered splices; a soldered T-splice is the reliable way to tap a wire
+- Spring-clamp wire connector (lever connector): tool-free and reusable, but needs stripped wire
+- Standard plug-and-socket connector: RJ45 and keystone jacks use IDC on the cable side
+- Flat flexible cable and latching connector (FFC with ZIF connector): the thin modern replacement for ribbon cable inside devices
+- Wire wrap: another gas-tight, solderless joint, made by winding solid wire round a square post
+- Twist-on wire connector (wire nut): a removable cap for twisted, stripped wires
+- [Keying](../glossary.md#keying) (one-way-only fit): shrouded box headers stop ribbon plugs going on backwards
+
+## Make it yourself
+
+- [Crimp Aid for AMP TE IDC Connector (24-pin | 1.27mm) (vinzcenzo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/831720-crimp-aid-for-amp-te-idc-connector-24-pin-127mm): A printed holder that keeps a small ribbon-cable IDC plug square so it can be squeezed shut by hand until it clicks *(licence: Creative Commons Attribution-ShareAlike)*
+- [Crimping Tool Adapter for IDC Connectors (MichaelQ, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1248613-crimping-tool-adapter-for-idc-connectors): Adapters and a stand for an IDC crimping tool, for 2.54 mm-pitch male and female IDC headers on 1.27 mm ribbon cable *(licence: GNU General Public License v3.0)*
+- [Punch Puck - CAT5e/6+ keystone punch down holder (Belden) (Jerry Lee, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/727380-punch-puck-cat5e6-keystone-punch-down-holder-belde): A printed holder that grips a keystone network jack while the wires are punched down *(licence: Creative Commons Attribution-NonCommercial)*
+
+## Pictures, videos and models
+
+- [FDD 34 PIN Scheidklemmen (IDC blades in a 34-pin floppy cable plug), Wikimedia Commons, by Hans Haase](https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG): Close-up of the forked connector blades cutting through the insulation of a ribbon cable *(licence: CC BY-SA 4.0)*
+- [Pin 1 idc (Wikimedia Commons, by Nick1nildram)](https://commons.wikimedia.org/wiki/File:Pin_1_idc.png): The 'V' mark on an IDC plug that shows pin 1, where the striped wire goes *(licence: GFDL (marked for relicensing to CC BY-SA 3.0))*
+- [110 punch block (Wikimedia Commons, by Adamantios)](https://commons.wikimedia.org/wiki/File:110-punch-block-IDC-0a.jpg): A 110-type punch-down block with wires pressed into its insulation-displacement slots *(licence: CC BY-SA 3.0 / GFDL)*
+- [Rj-45 male compare (Wikimedia Commons, by Baran Ivo)](https://commons.wikimedia.org/wiki/File:Rj-45_male_compare.jpg): Two RJ45 plugs side by side: contacts made for solid wire and contacts made for stranded wire *(licence: Public domain (PD-self))*
+- [How to crimp IDC connectors (Fablab Brussels, 3-page photo guide, Dutch and English)](http://www.fablab-brussels.be/fablab-english/wp-content/uploads/2021/11/IDC-crimps-instructies.pdf): Step-by-step photos: the three parts of a ribbon plug, the pin 1 triangle, lining up the red stripe, pressing in a bench vice and fitting the strain-relief clamp *(licence: link only (licence not stated))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Research note: *Insulation-displacement connector*: Wikipedia shows certified 230 V Australian outlets with IDC terminals, against the outline's 'signal only'; the entry keeps 'up to about 3 A, extra-low voltage only' and names the certified mains exception in `safety_notes`. Punch-down tools: Wikipedia says a screwdriver springs the blades apart; a DigiKey forum post says one 'can work in a pinch'. *Standard plug-and-socket connector* also lists seals & pass-throughs in `other_families` (sealed panel connectors pass through walls); the outline asked only for quick-release & tool-free.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/IDC_(electrical_connector)>
+- <https://en.wikipedia.org/wiki/Electrical_connector>
+- <https://en.wikipedia.org/wiki/Punch-down_block>
+- <https://en.wikipedia.org/wiki/Ribbon_cable>
+- <https://en.wikipedia.org/wiki/Modular_connector>
+- <https://en.wikipedia.org/wiki/Vampire_tap>
+- <https://en.wikipedia.org/wiki/Keystone_module>
+- <https://hackaday.com/2023/12/18/ask-hackaday-what-do-you-do-when-you-cant-solder/>
+- <https://learn.adafruit.com/solderless-rgb-led-clips>
+- <https://hitlights.com/blogs/premium-led-strip-lighting/solve-flickering-led-strips>
+- <https://hitlights.com/blogs/premium-led-strip-lighting/quick-connectors-or-soldering>
+- <https://www.electrokit.com/en/skarvklamma-2-trad-hjkt2-uy2>
+- <https://www.electrokit.com/en/skarvklamma-rod>
+- <https://toolsandtoys.net/ticonn-quick-splice-t-tap-wire-connector-kit/>
+- <https://www.digikey.com.au/en/products/detail/3m/562-BIN/3864018>
+- <https://forum.digikey.com/t/idc-crimp-solutions-for-the-budget-conscious/22965>
+- <https://forum.digikey.com/t/how-do-idc-connectors-work-and-what-tools-should-i-use/6951>
+- <https://www.fablab-brussels.be/fablab-english/how-to-crimp-idc-connectors/>
+- <http://www.fablab-brussels.be/fablab-english/wp-content/uploads/2021/11/IDC-crimps-instructies.pdf>
+- <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf>
+- <https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG>
+- <https://commons.wikimedia.org/wiki/File:Pin_1_idc.png>
+- <https://commons.wikimedia.org/wiki/File:110-punch-block-IDC-0a.jpg>
+- <https://commons.wikimedia.org/wiki/File:Rj-45_male_compare.jpg>
+- <https://api.printables.com/graphql/>

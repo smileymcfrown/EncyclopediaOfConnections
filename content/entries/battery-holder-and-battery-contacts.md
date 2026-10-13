@@ -1,0 +1,281 @@
+---
+title: Battery holder and battery contacts
+description: A battery holder grips one or more cells and connects them through springy metal contacts pressed against their
+  ends (and, for several cells, links them in series or parallel), so the cells can be taken out and replaced by hand while
+  the device stays wired to the holder.
+num: 329
+term: Battery holder and battery contacts (spring battery contact, coin-cell holder)
+plain_name: A plastic box or clip that holds batteries and presses metal contacts (a coiled spring at one end, a flat or springy
+  metal tab at the other) onto their ends, so you can swap batteries without soldering
+aliases:
+- battery holder / battery box / battery case / battery pack holder (Wikipedia 'Battery holder')
+- battery compartment (moulded into a product's case) (Wikipedia 'Battery holder')
+- battery contact / battery spring / coil spring contact / conical spring contact
+- leaf-spring battery contact / flat battery contact / battery tab / battery clip
+- 'coin-cell holder / button-cell holder / CR2032 holder / coin-cell socket / battery retainer [uncertain: ''socket'' and
+  ''retainer'' not on an opened page]'
+- 9 V battery snap / battery clip / PP3 snap connector (Wikipedia 'Nine-volt battery')
+- 18650 holder / cell holder (lithium-ion cells)
+- 'battery terminal, battery post and clamp (car batteries: SAE and JIS posts) (Wikipedia ''Battery terminal'')'
+- InstaLoad (brand; contacts that accept a cell either way round) (Wikipedia 'Battery holder')
+family: electrical connections
+other_families: [springs & energy storage, quick-release & tool-free]
+finder:
+  job: [join and hold]
+  motion: none
+  special_behaviour: [quick-release, tensioning]
+  holding_principle: [shape, spring force]
+  reuse_cycles: many times
+  seal: none
+  access_needed: one side only
+  print_in_place: partly
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), 3D print (resin)]
+  connects: [wires]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  electrical_band: up to about 3 A
+  tools: [none, soldering iron, crimper, hand tools]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  load_max:
+    kind: best guess
+    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+confirmed: []
+open_points:
+- kind: content
+  note: '*Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum users (budgetlightforum),
+    not from tests or a data sheet; check it against a holder maker''s data sheet.'
+uncertain_fields: [aliases, materials, making_tips_3d_printing, rules_of_thumb, environment_limits, safety_notes]
+diagram_idea: A cut-away of a two-AA holder showing the coil spring pressing the flat negative end of one cell, the metal
+  link strap to the next cell, the flat tab touching the positive button set behind a plastic recess (with a backwards cell
+  shown failing to reach it), and the red and black leads out; with a small inset of a coin cell clamped between a springy
+  top clip and a bottom pad.
+links:
+- url: https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg
+  title: AAbatteryholder.jpg (Wikimedia Commons, by Tom Blaha)
+  shows: AA cells in a multi-cell holder with spring and tab contacts
+  license: CC BY-SA 3.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:9_volt_Battery_Snap.jpg
+  title: 9 volt Battery Snap.jpg (Wikimedia Commons, by oomlout)
+  shows: A 9 V battery snap connector with its leads
+  license: CC BY-SA 2.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Printed_Battery_Box_Part_5.JPG
+  title: Printed Battery Box Part 5.JPG (Wikimedia Commons, by Will King2013)
+  shows: A home-made 3D-printed battery box with all its parts fitted
+  license: CC BY-SA 3.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:LeakedBattery_2585a.jpg
+  title: LeakedBattery 2585a.jpg (Wikimedia Commons, by Túrelio)
+  shows: A leaked and corroded button cell, the kind of damage that ruins contacts
+  license: CC BY-SA 3.0 DE (reuse with credit)
+- url: https://hackaday.com/tag/p-fet/
+  title: Reverse Voltage Protection With A P-FET (Hackaday, 2011)
+  shows: Schematic and video of protecting a circuit from a backwards battery with a P-channel MOSFET instead of a diode
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/1327766-parametric-spring-contacts-battery-box-for-aa-cell
+  title: Parametric Spring Contacts Battery Box for AA Cells (Printables 1327766; URL from Printables API, page not opened)
+  what_it_is: Printed AA battery box with slots for bought metal spring-and-plate battery contacts, fixed with a dab of hot
+    glue
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/914834-compact-cr2032-coin-cell-holder
+  title: Compact CR2032 Coin Cell Holder (Printables 914834; URL from Printables API, page not opened)
+  what_it_is: Very compact printed CR2032 holder for tight spaces, e.g. replacing a wired clock-backup cell; best printed
+    in resin or with a fine FDM nozzle
+  license: CC BY-SA (Creative Commons Attribution-ShareAlike)
+- url: https://www.printables.com/model/453102-parametric-battery-holder
+  title: Parametric battery holder (Printables 453102; URL from Printables API, page not opened)
+  what_it_is: FreeCAD spreadsheet-driven holder for AA, AAA and CR2032 cells
+  license: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike)
+- url: https://www.printables.com/model/110321-aa-aaa-c-18650-battery-holder-with-integrated-spri
+  title: AA / AAA / C / 18650 battery holder with integrated spring (Printables 110321; URL from Printables API, page not
+    opened)
+  what_it_is: Printed holders with a built-in sliding plastic spring, printed in PETG; an example of the printed-spring approach,
+    which can relax over time, so check contact pressure
+  license: CC BY-NC-ND (Creative Commons Attribution-NonCommercial-NoDerivatives)
+sources:
+- https://en.wikipedia.org/wiki/Battery_holder
+- https://en.wikipedia.org/wiki/Battery_terminal
+- https://en.wikipedia.org/wiki/Nine-volt_battery
+- https://en.wikipedia.org/wiki/Button_cell
+- https://en.wikipedia.org/wiki/Lithium-ion_battery
+- https://en.wikipedia.org/wiki/18650_battery
+- https://en.wikipedia.org/wiki/Alkaline_battery
+- https://en.wikipedia.org/wiki/Battery_leakage
+- https://en.wikipedia.org/wiki/Spot_welding
+- https://www.adafruit.com/product/3287
+- https://www.adafruit.com/product/4193
+- https://budgetlightforum.com/t/18650-holder-max-current/28271
+- https://hackaday.com/tag/p-fet/
+- https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1263
+- https://www.foley.com/insights/publications/2023/10/new-requirements-manufacturers-importers-batteries/
+- https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
+- https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
+- http://thrinter.com/creep-abs-pla-petg-alloy-910/
+- https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg
+- https://commons.wikimedia.org/wiki/File:9_volt_Battery_Snap.jpg
+- https://commons.wikimedia.org/wiki/File:Printed_Battery_Box_Part_5.JPG
+- https://commons.wikimedia.org/wiki/File:LeakedBattery_2585a.jpg
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Battery_holder_and_battery_contacts_spring_battery_contact_coincell_holder.json
+glossary: [cantilever, torsion, tolerance, form-fit--force-fit--material-bond, keying, creep, print-in-place]
+---
+
+A battery holder grips one or more cells and connects them through springy metal contacts pressed against their ends (and, for several cells, links them in series or parallel), so the cells can be taken out and replaced by hand while the device stays wired to the holder.
+
+**In plain words:** A plastic box or clip that holds batteries and presses metal contacts (a coiled spring at one end, a flat or springy metal tab at the other) onto their ends, so you can swap batteries without soldering. **Proper term:** Battery holder and battery contacts (spring battery contact, coin-cell holder).
+
+**Also called:** battery holder / battery box / battery case / battery pack holder (Wikipedia 'Battery holder'); battery compartment (moulded into a product's case) (Wikipedia 'Battery holder'); battery contact / battery spring / coil spring contact / conical spring contact; leaf-spring battery contact / flat battery contact / battery tab / battery clip; coin-cell holder / button-cell holder / CR2032 holder / coin-cell socket / battery retainer ⚑ [uncertain: 'socket' and 'retainer' not on an opened page]; 9 V battery snap / battery clip / PP3 snap connector (Wikipedia 'Nine-volt battery'); 18650 holder / cell holder (lithium-ion cells); battery terminal, battery post and clamp (car batteries: SAE and JIS posts) (Wikipedia 'Battery terminal'); InstaLoad (brand; contacts that accept a cell either way round) (Wikipedia 'Battery holder').
+
+## How it works
+
+The cell sits in a shaped cradle that stops it falling out, and a metal spring at one end pushes it hard against a metal tab at the other end, so both contacts keep touching even though cells vary in length, swell a little as they discharge, or get shaken (Wikipedia 'Battery holder'). Coiled springs or flat springy tabs are the two common contact types; a holder with several cells has metal straps that join the end of one cell to the next, so the voltages add up in series (Wikipedia 'Battery holder'; 'Alkaline battery'). Polarity is often enforced by shape: the positive contact is recessed behind plastic so only the raised 'button' of the cell's positive end can reach it, and the 9 V snap has a small round terminal and a larger hexagonal one that only fit one way (Wikipedia 'Battery holder'; 'Nine-volt battery'). A coin-cell holder clamps the flat cell between a springy clip on its top (positive) face and a pad under its bottom (negative) face.
+
+## Parts
+
+A few parts: a moulded plastic body or compartment, metal contacts (usually a coil spring for the flat negative end and a flat tab or leaf spring for the positive end), a metal link strap between cells, wires, pins or solder tags out, and often a lid, a sliding cover, a switch or a screw-down door; e.g. 'case, 2 springs, 2 tabs, link strap, lid, switch, red and black leads'. A coin-cell holder is a plastic base with one springy clip on top and a contact pad beneath.
+
+## Everyday examples
+
+- the battery compartment of a TV remote or torch, with a coiled spring on one side and a flat tab on the other
+- the press-stud snap on a 9 V battery in a smoke alarm (Wikipedia 'Nine-volt battery')
+- the coin cell in a clip on a computer motherboard, or the backup cell in a heating controller (Wikipedia 'Button cell')
+- a toy's battery door held shut by a small screw
+
+## When to use it
+
+Whenever a project runs on replaceable cells (AA, AAA, C, D, 9 V, coin cells or loose 18650s) and the user should be able to change them without tools or soldering: toys, remotes, handheld gadgets, sensors, wearables, robot kits and test rigs. Use a coin-cell holder for tiny, low-current loads such as clocks, memory backup and LEDs; use spring holders for low to moderate currents; and choose holders with a switch, lid or DC plug to make the build simpler.
+
+## When not to use it
+
+For high currents (motors drawing tens of amps, e-bike and RC packs): spring contacts heat up and drop voltage, so use cells joined by spot-welded nickel strip with a battery management system (BMS) and a High-current battery plug instead (Wikipedia '18650 battery', 'Spot welding'). Where the battery should last the product's life: use a cell with welded solder tabs fixed to the board (Wikipedia 'Battery holder'). Where shocks would break contact: use flexible multi-finger contacts or a soldered or welded pack. For docking or charging contacts that touch without plugging in, see Pogo pin or Magnetic connector. Never solder directly onto a lithium-ion cell: the heat can damage it; tabs are spot-welded instead (Wikipedia 'Spot welding').
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: holds the cells in place and makes the electrical connection to them, without soldering
+- **Movement:** none in use; the spring contact compresses a few millimetres as the cell goes in
+- **Directions it can move (degrees of freedom):** 0 for the cell once fitted: the cradle and lid stop sideways movement and the spring presses it end-on against the fixed contact.
+- **Special behaviour:**
+  - quick-release: cells are pushed or slid in and out by hand without tools (except child-resistant compartments with a screw-down door)
+  - tensioning (takes up slack and holds): the spring contact takes up differences in cell length and keeps pressing the cell against the other contact (Wikipedia 'Battery holder')
+- **How it holds:** spring force (a spring or springy part presses it in place): the contact springs press the cell end-on; plus shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): the cradle, lid or clip stops it falling out
+- **Input and output:** not applicable
+- **Power:** passive (no power needed): the holder itself needs no power; it carries the battery's power to the device
+- **Load:** Electrical: up to about 3 A (cheap spring holders 'not more than a few amps', and some melt below 1 A, according to forum users; high-current packs use spot-welded strip or quality holders), extra-low voltage only (never part of a mains circuit). Mechanical: light; the cell is held by spring pressure and the cradle, and can be shaken loose by a hard knock, especially against a fixed contact (Wikipedia 'Battery holder'); the holder body is a light plastic moulding.
+- **Play and precision:** Small: the cradle locates the cell loosely and the spring takes up end play; a fixed contact plus a spring can briefly lose contact if a knock moves the cell away from the fixed end, while multi-finger flexible contacts tolerate movement in several directions (Wikipedia 'Battery holder'). Not applicable as a precision locator.
+- **Taking it apart:** tool-free quick release for the cells; the holder itself is screwed, glued, taped or soldered in place (Wikipedia 'Battery holder'); child-resistant coin-cell doors need a tool
+- **How often it can be reused:** many times for cell changes; contacts slowly wear, bend or corrode, and cheap leaf contacts can lose their spring
+- **Sealing:** none for ordinary holders; special waterproof holders with a sealed lid exist (Adafruit sells a 'Waterproof 2xAA Battery Holder'). Holders for zinc-air cells must not be airtight, because the cells need air (Wikipedia 'Battery holder').
+- **Adjustable:** no; the spring contact takes up small differences in cell length automatically
+- **Access needed:** one side only (blind): cells go in from the open top, lid or door
+- **Materials:** Bodies: polypropylene or nylon rated for 80-100 °C; coin-cell holders that are soldered to circuit boards are made of high-temperature PBT, nylon or LCP (Wikipedia 'Battery holder'); printed holders in PETG or ASA. Contacts: nickel-plated spring steel or steel wire, matching the nickel-plated cells so that the two metals don't corrode each other (galvanic corrosion) (Wikipedia 'Battery holder'); phosphor bronze and beryllium copper are also used for contact springs ⚑ [uncertain: not confirmed for battery contacts on an opened page]. Printed plastic springs are not suitable as contacts that stay pressed, because plastic [creeps](../glossary.md#creep) (Thrinter).
+- **Heat, cold, water and wear:** Bought holders are rated for about 80-100 °C (Wikipedia 'Battery holder'); a PLA printed holder starts to give at about 60 °C (CNC Kitchen), which a parked car can reach. Lithium-ion cells must not be charged below 0 °C (lithium plating makes them unsafe) (Wikipedia 'Lithium-ion battery'). Alkaline cells leak caustic potassium hydroxide when flat or old, which corrodes contacts; storing dry at room temperature and removing cells from stored devices reduces this (Wikipedia 'Alkaline battery'). Vibration can open a fixed contact for a moment (Wikipedia 'Battery holder'). Printed plastic springs creep and lose force over time (Thrinter). Steel contacts rust in damp air unless plated ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part (AA, AAA, C, D, 9 V, 18650 and coin-cell holders, separate spring and tab contacts, 9 V snaps)
+  - 3D print (FDM): a printed case or compartment with slots for bought metal contacts
+  - 3D print (resin): small, accurate coin-cell holders (the designer of Printables 914834 says it is best printed in resin)
+- **Printing it in one piece (print in place):** partly: the case prints in one piece, but it needs bought metal contacts (springs and tabs) and wires; [print-in-place](../glossary.md#print-in-place) plastic spring designs exist (Printables 341489, 868708) but plastic springs relax under constant load, so metal springs are the reliable choice
+- **Tools:** none to change cells (a small screwdriver for screw-down doors); a soldering iron, crimp tool or plug (e.g. a JST-PH lead, as on Adafruit holders) to wire the holder to the circuit; pliers to fit slide-in contacts into a printed case
+- **Difficulty:** easy: buy a ready-made holder with leads; moderate to print your own case, because cell sizes vary and you must fit bought metal contacts and keep the cell from rattling
+
+### 3D printing tips
+
+Buy the metal contacts ('battery spring plate set', coin-cell clips or 18650 spring contacts) and design slots they slide into, as in the Parametric Spring Contacts Battery Box, whose designer fixes the contacts with a dab of hot glue (Printables 1327766). Don't rely on printed plastic springs for contacts that stay pressed: plastic creeps under a constant load and the contact force fades (Thrinter's creep tests; the existing 'Printed leaf spring' entry gives the same warning). Some designers do use a stiff PLA flexing arm instead of a spring and say it keeps contact 'even in vibrating environment' (Printables 868708), but treat this as experimental. Make the cell pocket a little larger than the nominal cell, because [tolerances](../glossary.md#tolerance) vary between printers: one designer found 0.3 mm difference between parts needed on a Prusa MINI and made the fit a parameter (Printables 868708); measure your actual cells and print a test pocket first. Add a recessed positive contact or a shaped key so cells can only go in the right way round (Wikipedia 'Battery holder'). Choose a heat-tolerant material: PLA starts to give at about 60 °C under load, PETG about 80 °C and ASA about 110 °C (CNC Kitchen), and a holder in a car or next to a charging lithium cell gets warm; the 18650 charger design Printables 341489 was planned to add a temperature sensor (NTC). Solder the wires to the contacts before fitting them, so the iron doesn't melt the print ⚑ [uncertain: general practice], and add strain relief for the leads. For coin cells in anything a child could use, make the lid screw-down (see safety notes). Leave air holes for zinc-air cells (Wikipedia 'Battery holder').
+
+### Buying one (off-the-shelf parts)
+
+Search terms: 'AA battery holder' (1 to 8 cells, with leads, switch, lid, JST plug or DC plug, as sold by maker suppliers such as Adafruit), 'battery spring contact' or 'battery spring plate', 'coil spring battery contact', 'leaf spring battery contact', 'dual battery contact' (series link), 'coin cell holder' or 'CR2032 holder' (through-hole or surface mount), '9V battery snap' or '9V battery clip', '9V battery holder', '18650 battery holder' (look for quality makers such as Keystone (brand), recommended by forum users for high current), 'battery tab' or 'solder tab cell' (cells with welded tabs for permanent fitting, Wikipedia 'Battery holder'), 'nickel strip' (for spot-welded packs, see Spot weld), 'reverse polarity protection' parts: 'Schottky diode' or 'P-channel MOSFET'.
+
+## Rules of thumb
+
+- Use nickel-plated contacts with nickel-plated cells to avoid galvanic corrosion, and prefer a spring at one end or multi-finger flexible contacts over two fixed contacts, which lose connection easily (Wikipedia, https://en.wikipedia.org/wiki/Battery_holder).
+- Cells in series add their voltages: three alkaline AA give about 4.5 V new and about 3.3 V near the end of life; three NiMH AA about 3.7 V falling to 2.7 V, and you can't recharge alkalines on a Li-ion charger (Adafruit, https://www.adafruit.com/product/3287). An alkaline cell is flat at about 0.9 V (Wikipedia, https://en.wikipedia.org/wiki/Alkaline_battery).
+- Don't mix cells of different types or states of charge in one holder, and remove cells from devices that are being stored: both reduce leakage (Wikipedia, https://en.wikipedia.org/wiki/Alkaline_battery).
+- Basic spring holders for 18650 cells are good for 'not more than a few amps'; one user 'melted down those holders at less than an amp'; for high current, reinforce the springs with copper braid or thicker wire, or use better holders or welded packs (forum, https://budgetlightforum.com/t/18650-holder-max-current/28271) ⚑ [uncertain: forum reports, not tests].
+- Reverse-polarity protection: a recessed positive contact or a keyed shape is free (Wikipedia, https://en.wikipedia.org/wiki/Battery_holder); a series diode protects the circuit but 'wastes power in the form of heat', while a P-channel MOSFET wastes about ten times less (Hackaday, https://hackaday.com/tag/p-fet/).
+- Zinc-air cells need about 1 litre of air per ampere-hour per cell, so their holder must not be airtight (Wikipedia, https://en.wikipedia.org/wiki/Battery_holder).
+- Holder bodies are usually polypropylene or nylon rated to 80-100 °C; holders soldered to boards use PBT, nylon or LCP for 180-300 °C soldering (Wikipedia, https://en.wikipedia.org/wiki/Battery_holder).
+- In the US, consumer products with button or coin cells must meet ANSI/UL 4200A (16 CFR part 1263, Reese's Law), which tests how hard the battery compartment is to open and how it survives drops, impact and crushing (eCFR, https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1263; Foley, https://www.foley.com/insights/publications/2023/10/new-requirements-manufacturers-importers-batteries/).
+
+## Common failures
+
+(1) Intermittent power because a fixed contact loses touch when the device is knocked: use a spring at one end or multi-finger contacts (Wikipedia 'Battery holder'). (2) Corroded contacts from leaked alkaline cells: remove cells for storage and don't mix old and new or different types (Wikipedia 'Alkaline battery'). (3) Galvanic corrosion between unlike metals: use nickel-plated contacts (Wikipedia 'Battery holder'). (4) Hot or melting holders and voltage drop at high current from thin springs and wires (forum reports, budgetlightforum). (5) A cell put in backwards damaging the circuit: add a recessed positive contact, a keyed shape, a diode or a P-MOSFET (Wikipedia; Hackaday). (6) Two cells shorted together, e.g. loose 9 V batteries touching in a drawer (Wikipedia 'Nine-volt battery'). (7) Printed holders: cells too tight or rattling, pockets that don't fit a given brand's cells, and printed contact springs that relax (Printables 868708; Thrinter). (8) Broken solder joints or leads at the holder from flexing: add strain relief. (9) Charging a non-rechargeable cell or holder pack by mistake (Adafruit warns not to plug an AA pack into a Li-ion charger).
+
+## Safety
+
+LITHIUM CELLS: shorting, crushing, puncturing, overheating or overcharging a lithium-ion cell can cause thermal runaway, fire, toxic smoke or explosion (Wikipedia 'Lithium-ion battery'); never let metal tools, wires or loose 9 V batteries bridge the terminals ('two loose batteries with terminals exposed can touch and short circuit', Wikipedia 'Nine-volt battery'); use protected cells or a BMS, and never leave a home-made holder charging unattended ⚑ [uncertain: general advice]. Don't put rechargeable and non-rechargeable cells in the wrong holders: fitting a disposable lithium coin cell in a holder meant for a rechargeable one is hazardous (Wikipedia 'Button cell'). BUTTON AND COIN CELLS: if swallowed by small children they can cause severe internal burns and death, especially cells 20 mm or more across such as the CR2032 (Wikipedia 'Button cell'); keep spares away from children, make compartments screw-down in anything a child might handle, and in the US such products must meet ANSI/UL 4200A under Reese's Law (16 CFR 1263). LEAKS: leaked alkaline electrolyte (potassium hydroxide) is caustic; wear gloves and eye protection when cleaning it (Wikipedia 'Battery leakage'). PRINTED SPRINGS: use metal contact springs, because printed plastic springs relax and contact becomes poor, which causes heating at the contact. ELECTRICAL: battery holders are for extra-low voltage only; never use one in a mains-powered circuit, and any mains wiring must follow local law (e.g. in England, Approved Document P covers electrical installation work in homes).
+
+## Related
+
+- Spot weld (resistance spot welding): joins cells permanently into packs with nickel strip; used instead of a holder for high-current packs
+- High-current battery plug (bullet connector, polarised battery connector): connects a whole pack to a device
+- Wire-to-board plug connectors (pin header and crimp housing): e.g. the JST-PH plug on many holder leads
+- Pogo pin (spring-loaded contact pin): spring contact pressing on a flat pad, for docks and charging cradles
+- Magnetic connector (magnetic pogo connector): spring pins plus magnets for snap-on charging
+- Coil spring (compression, extension, [torsion](../glossary.md#torsion)): the coiled battery contact is a small compression spring
+- Printed leaf spring (flat [cantilever](../glossary.md#cantilever) spring): explains why printed springs relax and shouldn't be used for contacts that stay pressed
+- [Keying](../glossary.md#keying) (one-way-only fit, poka-yoke): the shape trick behind recessed positive contacts and the 9 V snap
+- Soldered wire joint (soldered splice): how the holder's leads are usually joined to a circuit
+- Conductive thread (sewn circuit, e-textile stitching): sew-on coin-cell holders in wearables
+
+## Make it yourself
+
+- [Parametric Spring Contacts Battery Box for AA Cells (Printables 1327766; URL from Printables API, page not opened)](https://www.printables.com/model/1327766-parametric-spring-contacts-battery-box-for-aa-cell): Printed AA battery box with slots for bought metal spring-and-plate battery contacts, fixed with a dab of hot glue *(licence: CC BY (Creative Commons Attribution))*
+- [Compact CR2032 Coin Cell Holder (Printables 914834; URL from Printables API, page not opened)](https://www.printables.com/model/914834-compact-cr2032-coin-cell-holder): Very compact printed CR2032 holder for tight spaces, e.g. replacing a wired clock-backup cell; best printed in resin or with a fine FDM nozzle *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- [Parametric battery holder (Printables 453102; URL from Printables API, page not opened)](https://www.printables.com/model/453102-parametric-battery-holder): FreeCAD spreadsheet-driven holder for AA, AAA and CR2032 cells *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+- [AA / AAA / C / 18650 battery holder with integrated spring (Printables 110321; URL from Printables API, page not opened)](https://www.printables.com/model/110321-aa-aaa-c-18650-battery-holder-with-integrated-spri): Printed holders with a built-in sliding plastic spring, printed in PETG; an example of the printed-spring approach, which can relax over time, so check contact pressure *(licence: CC BY-NC-ND (Creative Commons Attribution-NonCommercial-NoDerivatives))*
+
+## Pictures, videos and models
+
+- [AAbatteryholder.jpg (Wikimedia Commons, by Tom Blaha)](https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg): AA cells in a multi-cell holder with spring and tab contacts *(licence: CC BY-SA 3.0 (reuse with credit))*
+- [9 volt Battery Snap.jpg (Wikimedia Commons, by oomlout)](https://commons.wikimedia.org/wiki/File:9_volt_Battery_Snap.jpg): A 9 V battery snap connector with its leads *(licence: CC BY-SA 2.0 (reuse with credit))*
+- [Printed Battery Box Part 5.JPG (Wikimedia Commons, by Will King2013)](https://commons.wikimedia.org/wiki/File:Printed_Battery_Box_Part_5.JPG): A home-made 3D-printed battery box with all its parts fitted *(licence: CC BY-SA 3.0 (reuse with credit))*
+- [LeakedBattery 2585a.jpg (Wikimedia Commons, by Túrelio)](https://commons.wikimedia.org/wiki/File:LeakedBattery_2585a.jpg): A leaked and corroded button cell, the kind of damage that ruins contacts *(licence: CC BY-SA 3.0 DE (reuse with credit))*
+- [Reverse Voltage Protection With A P-FET (Hackaday, 2011)](https://hackaday.com/tag/p-fet/): Schematic and video of protecting a circuit from a backwards battery with a P-channel MOSFET instead of a diode *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Research note: *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum users (budgetlightforum), not from tests or a data sheet; check it against a holder maker's data sheet.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Battery_holder>
+- <https://en.wikipedia.org/wiki/Battery_terminal>
+- <https://en.wikipedia.org/wiki/Nine-volt_battery>
+- <https://en.wikipedia.org/wiki/Button_cell>
+- <https://en.wikipedia.org/wiki/Lithium-ion_battery>
+- <https://en.wikipedia.org/wiki/18650_battery>
+- <https://en.wikipedia.org/wiki/Alkaline_battery>
+- <https://en.wikipedia.org/wiki/Battery_leakage>
+- <https://en.wikipedia.org/wiki/Spot_welding>
+- <https://www.adafruit.com/product/3287>
+- <https://www.adafruit.com/product/4193>
+- <https://budgetlightforum.com/t/18650-holder-max-current/28271>
+- <https://hackaday.com/tag/p-fet/>
+- <https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1263>
+- <https://www.foley.com/insights/publications/2023/10/new-requirements-manufacturers-importers-batteries/>
+- <https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf>
+- <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
+- <http://thrinter.com/creep-abs-pla-petg-alloy-910/>
+- <https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg>
+- <https://commons.wikimedia.org/wiki/File:9_volt_Battery_Snap.jpg>
+- <https://commons.wikimedia.org/wiki/File:Printed_Battery_Box_Part_5.JPG>
+- <https://commons.wikimedia.org/wiki/File:LeakedBattery_2585a.jpg>
+- <https://api.printables.com/graphql/>

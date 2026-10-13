@@ -1,0 +1,293 @@
+---
+title: Push-push latch
+description: A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the
+  pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
+num: 24
+term: Push-push latch (heart-cam latch)
+plain_name: A hidden catch that locks when you push a door, drawer or card in, and lets go and pops it out when you push it
+  again, like a handle-less kitchen cupboard or a phone's memory-card slot
+aliases:
+- push-to-open latch
+- push latch
+- touch latch (also used for the magnetic type)
+- push-push mechanism or push-on/push-off mechanism
+- heart cam or heart-shaped cam groove
+- cardioid (heart-curve) latch
+- push lock mechanism or push-lock switch (latching push-button switches)
+- push-push card connector or push-push eject (SD and microSD card sockets)
+- cam groove latch
+- push-push locking bolt or indexing plunger with push-push lock (industrial standard part, e.g. GN 514)
+- ballpoint-pen principle (German 'Kugelschreiberprinzip')
+- 'Herzkurve (German: heart curve)'
+- Tip-On (brand) for piston-type push-to-open furniture fittings (Deslaurier)
+family: locks, latches & catches
+other_families: [indexing & detents, quick-release & tool-free]
+finder:
+  job: ['lock, and release by hand', click into set positions, join and hold]
+  motion: slide
+  special_behaviour: [indexing, quick-release]
+  holding_principle: [shape, spring force]
+  reuse_cycles: many times
+  seal: none
+  access_needed: one side only
+  print_in_place: partly
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), 3D print (resin)]
+  connects: ['lid, door or cover']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [straight push or pull]
+  motion_out: [straight push or pull]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: clicks
+  tools: [none, drill and tap, hand tools]
+  load_max: light
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: worked out from its name, but joining parts is not one of its two main jobs
+  tools:
+    kind: source uncertain
+    reason: '`tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike
+      [uncertain]…"'
+confirmed: []
+open_points:
+- kind: sources
+  note: '**Printables page URLs built from API data**: some agents (e.g. batch 2, *Eccentric cam lever*, *Bistable compliant
+    mechanism*, *Push-push latch*) wrote model page URLs as `printables.com/model/<id>-<slug>` from the ID and slug the API
+    returned, without opening the page (it returns 403). Others used only URLs seen in search results. Before publishing,
+    open every `printables.com/model/` link in a browser and fix any that don''t resolve.'
+uncertain_fields: [tools_needed, adjustable, play_and_precision, processes, environment_limits, safety_notes]
+diagram_idea: A heart-shaped loop groove with the pin shown at four numbered positions (1 rest at the bottom, 2 fully pushed
+  on one side, 3 latched in the notch at the top, 4 pushed again on the other side), arrows showing the one-way path, a spring
+  pushing the slider outward, and a small side section showing the steps in the groove floor.
+links:
+- url: https://www.youtube.com/watch?v=5JzjSsxSsb8
+  title: Push-push button 2 (Nguyen Duc Thang, YouTube channel thang010146)
+  shows: CAD animation of a pin on a pivoted bar running clockwise round a heart-shaped groove as the button is pushed and
+    released (described in Thang's 2700 animated mechanisms index, part 3; title confirmed via YouTube oEmbed)
+  license: link only
+- url: https://www.youtube.com/watch?v=kJ0BlovBWtk
+  title: Push-push button 3 (Nguyen Duc Thang, YouTube channel thang010146)
+  shows: CAD animation of a compact push-push latch with a spring-loaded lever running in a groove of varying depth, 'used
+    for locking small cabinet windows' (per Thang's index; title confirmed via YouTube oEmbed)
+  license: link only
+- url: https://www.youtube.com/watch?v=3_wPH904a_8
+  title: PUSH LATCH Mechanisms (DIY!) (This Old Tony, YouTube)
+  shows: Machinist video about push latch mechanisms and building one (title and channel confirmed via YouTube oEmbed; content
+    not viewed)
+  license: link only
+- url: https://kapycad.com/en/learn/joints/push-push-latching-button
+  title: Push-push latching button with a heart cam (Kapy CAD)
+  shows: Illustrated step-by-step explanation of the heart track (rest, pressed, latched, released) with 3D-printing design
+    rules and a failure table
+  license: link only
+- url: https://patents.google.com/patent/US4916276A/en
+  title: US4916276A Push lock mechanism (Alps Electric, Google Patents)
+  shows: Patent drawings of a heart-shaped cam groove, driving pin and springs in a push-lock switch
+  license: link only (patent document)
+make_it_yourself:
+- url: https://www.printables.com/model/496329-push-push-mechanism
+  title: Push-push Mechanism (Steve DeGroof, Printables)
+  what_it_is: Simple push-on, push-off mechanism using a standard ballpoint pen spring; works well in PETG; versions with
+    an actuator arm, a click-fidget enclosure and a robust enclosure with M3 mounting tabs. Read through the Printables public
+    API because the web page blocks automated access
+  license: CC BY
+- url: https://www.printables.com/model/1601839-ultra-compact-push-latch-mechanism-paperclip-pen-s
+  title: Ultra-Compact Push Latch Mechanism (Paperclip + Pen Spring) (Justin Scroggs, Printables)
+  what_it_is: Push-push latch as small as 12 mm x 10 mm using a bent paperclip as the follower and a pen spring, with single-
+    and multi-spring versions. Read through the Printables public API
+  license: CC BY-NC-SA
+- url: https://www.printables.com/model/273742-push-latch-mechanism
+  title: Push Latch Mechanism (c_bot, Printables)
+  what_it_is: Compact push latch unit about 30 mm x 30 mm, printed in PLA with two small compression springs, used to store
+    and release portable hard drives. Read through the Printables public API
+  license: CC BY
+- url: https://www.printables.com/model/376606-push-latch-case
+  title: Push Latch Case (Adam Cook, Printables)
+  what_it_is: Printed case with a push-push latch and printed spring; its update notes show how a printed follower arm creeps
+    when held latched and how the track was redesigned to avoid it. Read through the Printables public API
+  license: CC BY-NC-SA
+sources:
+- https://kapycad.com/en/learn/joints/push-push-latching-button
+- https://patents.google.com/patent/US4916276A/en
+- https://patents.google.com/patent/US20150107980A1/en
+- https://patents.google.com/patent/US20020192991A1/en
+- https://patents.google.com/patent/EP1253271A2/de
+- https://www.konstruktionspraxis.vogel.de/verriegelt-nach-dem-kugelschreiberprinzip-a-261590/
+- https://cs448m.github.io/lectures/machines/doc/3.pdf
+- https://www.youtube.com/watch?v=5JzjSsxSsb8
+- https://www.youtube.com/watch?v=kJ0BlovBWtk
+- https://www.youtube.com/watch?v=qXnld2Yqf7I
+- https://www.youtube.com/watch?v=3_wPH904a_8
+- https://www.youtube.com/watch?v=jB9ymoAkcQ4
+- https://www.mcmaster.com/products/push-to-open-latches/
+- https://www.deslaurier.com/en-us/learning-centre/comparing-kitchen-cabinet-latches-tip-on-vs.-touch-latch
+- https://www.moarconn.com/blog/Push-Push-and-Beyond-The-Evolution-and-Inner-Workings-of-SD-Card-Connector-Mechanisms_b15649
+- https://southco.com/en_us_int/resources/Push-to-Close-Latching-The-Secret-of-Simple-Operation
+- https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
+- https://www.printables.com/model/496329-push-push-mechanism
+- https://www.printables.com/model/1601839-ultra-compact-push-latch-mechanism-paperclip-pen-s
+- https://www.printables.com/model/273742-push-latch-mechanism
+- https://www.printables.com/model/376606-push-latch-case
+- https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Pushpush_latch_pushtoopen_heartcam_latch.json
+glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
+  overhang--bridging]
+---
+
+A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
+
+**In plain words:** A hidden catch that locks when you push a door, drawer or card in, and lets go and pops it out when you push it again, like a handle-less kitchen cupboard or a phone's memory-card slot. **Proper term:** Push-push latch (heart-cam latch).
+
+**Also called:** push-to-open latch; push latch; touch latch (also used for the magnetic type); push-push mechanism or push-on/push-off mechanism; heart cam or heart-shaped cam groove; cardioid (heart-curve) latch; push lock mechanism or push-lock switch (latching push-button switches); push-push card connector or push-push eject (SD and microSD card sockets); cam groove latch; push-push locking bolt or indexing plunger with push-push lock (industrial standard part, e.g. GN 514); ballpoint-pen principle (German 'Kugelschreiberprinzip'); Herzkurve (German: heart curve); Tip-On (brand) for piston-type push-to-open furniture fittings (Deslaurier).
+
+## How it works
+
+A spring always pushes the slider outward, and a pin that can swing sideways runs in a closed loop groove shaped like a heart. When you push in past the closed position (overtravel), the pin runs up one side of the heart; when you let go, the angled wall steers it into the notch at the top of the heart, where the spring holds it trapped, so the part stays in (latched). Push again and the pin leaves the notch towards the other side; let go and the spring carries it down the other side of the heart back to the start, pushing the part out (Kapy CAD; Thang, 'Push-push button 2'; DaimlerChrysler/Fischer patent EP1253271A2). Small steps in the groove floor, with the pin pressed into the groove, or offset corners in the track make sure the pin can only go round one way (Kapy CAD; Omron patent US20150107980A1).
+
+## Parts
+
+A small assembly that acts as one unit: a sliding part (plunger, slider or card tray) with a heart-shaped groove or cam, a follower pin on a pivoting arm or springy wire that can swing sideways, a return spring that pushes the slider outward, and a housing; cabinet versions add a strike on the door. In some designs the heart is on the fixed part and the pin moves with the slider.
+
+## Everyday examples
+
+- Handle-less kitchen cabinets and drawers that open with a push (Deslaurier; McMaster-Carr)
+- SD and microSD card slots that click the card in and push it out again (JAE patent; MoarConn)
+- Car glove boxes, drawers and storage compartments (EP1253271A2)
+- Latching push-button switches that stay in until pushed again (Alps patent; Thang, 'Push-push switch')
+
+## When to use it
+
+Use a push-push latch when you want a clean front with no handle or knob, when the user has only one hand or a fingertip free, or when a small item such as a card, battery tray or lid should click in and pop out: handle-less cabinets and drawers, hidden compartments, printed boxes and cases, card and cartridge slots, and on/off push buttons. It is also a neat way to make a single button toggle between two states.
+
+## When not to use it
+
+Avoid it where the latched part is pulled or loaded outward, because the pin and heart track are small and can break (Alps patent), and where shocks or vibration could press the part in and release it (EP1253271A2; MoarConn), unless you add a second lock. Avoid it where children or accidental bumps should not open things, since mechanical push-to-open fittings open with a light push (Deslaurier); use a child-resistant latch or a magnetic catch that needs more force. For heavy doors, sink cabinets with little space behind the door, or big corner cabinets, Deslaurier advises against push-to-open latches; use a handle with a ball catch, roller catch or magnetic catch. If you only need a panel to stay shut, a magnetic catch or ball catch is simpler.
+
+## Details
+
+- **What it does (jobs):**
+  - lock, and release by hand: holds a door, drawer, lid, card or button in, and releases it with a second push
+  - click into set positions: alternates between two positions (in and latched, out and released) on each push
+  - join and hold: keeps handle-less doors and drawers closed
+- **Movement:** slide: a short straight in-and-out [stroke](../glossary.md#stroke) of the slider (with a small overtravel past the latched position), while the follower pin swings slightly sideways round the heart
+- **Directions it can move (degrees of freedom):** 1: the slider moves along one straight line; the pin's sideways swing is guided by the track and is not a free motion
+- **Special behaviour:**
+  - indexing (clicks into set positions): two alternating states; every two pushes send the pin once round the heart
+  - quick-release: a push opens it and the spring pops the door, drawer or card out, so no handle or tool is needed
+- **How it holds:**
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the pin is trapped in the notch of the heart
+  - spring force (a spring or springy part presses it in place): the return spring holds the pin in the notch and pops the part out when released
+- **Input and output:** Repeated straight pushes -> alternating latched and released states (a push-push toggle); one lap of the heart track per two pushes. In-line: the push and the spring act along the same line. Back-drivable: no; pulling on the latched part does not release it, and pulling hard can break the cam surface or bend the pin (Alps patent US4916276A). A hard shock that pushes the part further in, such as a car crash, can accidentally release it (EP1253271A2).
+- **Power:** passive (no power needed)
+- **Load:** light: holds a door, drawer, card or button in against small forces only; magnetic push-to-open cabinet latches are rated about 2 to 6 lbf (9 to 27 N) pull (McMaster-Carr); industrial push-push locking bolts cannot take [axial](../glossary.md#axial--radial) load, and their pin retracts only by spring force (Konstruktionspraxis on GN 514). Weak against pulling the latched part out (Alps patent)
+- **Play and precision:** Noticeable: the latched position sits a little short of the fully pushed position, and the part needs room to be pushed further in (overtravel) to latch or release (Kapy CAD; EP1253271A2). The pin-to-groove fit must be free but not loose, like a fine sliding fit: too tight and it seizes, too loose and the pin skips or derails (Kapy CAD). The door's strike must line up with the latch ⚑ [uncertain]
+- **Taking it apart:** tool-free quick release: the latched part is released with a push; the latch body itself is screwed, pressed or clipped into the cabinet or device
+- **How often it can be reused:** many times: designed for everyday use; e.g. push-push SD card connectors rated for more than 10,000 cycles, or 5,000 for an ultra-low-profile microSD version (MoarConn); printed versions wear out sooner as the steps round off
+- **Sealing:** none
+- **Adjustable:** usually no for simple and printed latches; some cabinet push-to-open fittings have adjustable length or opening force ⚑ [uncertain]
+- **Access needed:** one side only (blind): you just push on the front of the door, drawer or card; the latch is hidden inside
+- **Materials:** Moulded plastic housings and sliders with steel return springs; metal eject levers carrying the heart groove in card connectors (JAE patent US20020192991A1); polyamide (PA) button and nitrided steel pin on the GN 514 push-push locking bolt (Konstruktionspraxis). Printed versions: PETG or PLA bodies, a metal pen spring or compression spring, and ideally a steel wire (e.g. bent paperclip) as the follower arm (Printables 1601839, 496329)
+- **Heat, cold, water and wear:** Printed plastic springs and follower arms [creep](../glossary.md#creep) when the latch is left closed for days, so the latch stops popping out fully (Printables 534635, 376606); plastic springs always deform permanently under steady load and PLA is a very poor spring material (Hackaday). The groove steps wear with use (Omron patent). Vibration and shocks can unlatch it (MoarConn; EP1253271A2). Dust or debris in an open track may jam the pin ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part (push-to-open cabinet latches, push-push card connectors, latching push-button switches, push-push locking bolts)
+  - 3D print (FDM): body, slider and track, with a metal spring and wire follower
+  - 3D print (resin): finer tracks and steps ⚑ [uncertain]
+  - CNC: machined metal heart-cam latches ⚑ [uncertain] (videos 'PUSH LATCH Mechanisms (DIY!)' by This Old Tony and 'Push-Push Cardioid Curve Latch' suggest home-machined versions; content not viewed)
+- **Printing it in one piece (print in place):** partly: the body and track print well but most reliable designs add a metal compression or pen spring and often a steel wire follower (Printables 496329, 1601839); fully printed versions with printed springs exist but their springs and arms creep when left latched for days (Printables 534635, 376606)
+- **Tools:** none to operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]
+- **Difficulty:** moderate: easy to buy or to print from a proven model, but designing your own needs a crisp track, careful [clearances](../glossary.md#clearance), a metal spring and preferably a metal follower pin, because printed arms and springs creep and wear
+
+### 3D printing tips
+
+Split the part into a body and a cap that carries the track, so the heart groove is an open channel on a flat face with no internal [overhangs](../glossary.md#overhang--bridging) (Kapy CAD). The steps in the groove floor that force one-way travel are the mechanism, not decoration: make them several full layers tall, about 0.5 to 1.5 mm, with the blocking face printed vertical so it stays sharp (Kapy CAD). Use a real metal spring with enough force across the whole stroke; printed springs relax and give inconsistent latching (Kapy CAD); one fully printed latch worked many times but its printed springs deformed permanently after being held compressed for several days (Printables 534635). A printed follower arm left bent in the latched position deformed until the case stopped opening, so the designer changed the track so the arm is not bent when closed (Printables 376606, which also recommends PETG for the arm and spring); a bent steel paperclip as the follower is more durable, more precise and allows a smaller mechanism (Printables 1601839, 12 mm x 10 mm with a pen spring). Aim for a free but not loose fit between pin and groove, measure the printed groove, and deepen the track if the pin derails (Kapy CAD). A 0.4 mm nozzle rounds the heart's sharp corners; consider a finer nozzle for small tracks (Kapy CAD). Proven printable examples use PETG with a standard ballpoint pen spring (Printables 496329) or PLA with two small compression springs in a unit about 30 mm x 30 mm (Printables 273742).
+
+### Buying one (off-the-shelf parts)
+
+Search: 'push to open latch', 'push latch', 'touch latch' (mechanical or magnetic), 'push-to-open magnetic latch' (McMaster-Carr), 'push-open drawer fitting', 'push-push card connector' or 'push-push microSD socket' (Hirose, Molex, Amphenol and others), 'push lock switch' or 'latching push button switch', 'indexing plunger with push-push lock' (e.g. GN 514, Ganter/JW Winco), 'heart cam'. Also 'ballpoint pen spring' for printed builds.
+
+## Rules of thumb
+
+- Groove-floor steps several layers tall, about 0.5 to 1.5 mm, with the blocking face vertical; a metal coil spring, not a printed [flexure](../glossary.md#flexure); pin-to-groove clearance like a fine sliding fit (Kapy CAD, 'Push-push latching button with a heart cam')
+- Steps in the groove floor wear with repeated use and let the pin go the wrong way; offsetting the track's corners in the direction of travel restricts direction even when worn (Omron patent US20150107980A1)
+- Don't let a pull on the latched part load the pin and heart directly: Alps separated the driving member from the slider so pulling does not break the cam or bend the pin (US4916276A)
+- Add an inertia lock where a crash or drop could push the part further in and release it, as in car glove boxes and drawers (DaimlerChrysler/Fischer, EP1253271A2)
+- A reliable printed single-spring push latch can be as small as 12 mm x 10 mm using a pen spring and a paperclip follower; making the walls thinner caused failures under spring load (Justin Scroggs, Printables 1601839)
+- Push-push card connectors are rated for thousands of cycles (over 10,000; 5,000 for an ultra-low-profile microSD) and may need a secondary lock in vibrating equipment (MoarConn)
+
+## Common failures
+
+Presses but doesn't latch because the floor steps are too low or rounded, or latches only sometimes because the spring is weak or relaxed (Kapy CAD). Seizes mid-cycle when the groove is too tight; skips or derails when too loose or too shallow (Kapy CAD). Stops latching after much use as the steps wear and the pin goes the wrong way (Omron patent). Cam surface broken or pin bent by someone pulling the latched part (Alps patent). Printed follower arms and springs deforming after being held latched (Printables 376606, 534635). Unwanted release from vibration or shock (MoarConn; EP1253271A2).
+
+## Safety
+
+The door or drawer pops open by spring force when bumped, which can surprise people or let small children open cupboards; lighter fittings open more easily by accident (Deslaurier). In vehicles, a crash can push a latched drawer or glove box in far enough to release it and throw its contents into the cabin (EP1253271A2). Small springs and pins can fly out when a printed latch is taken apart ⚑ [uncertain].
+
+## Related
+
+- Click-pen mechanism (rotating-cam push-push indexer): does the same push-on, push-off job with a toothed cam that turns one step per push instead of a pin running round a heart
+- Magnetic touch latch: a spring plunger with a magnet; holds a little more firmly and needs more force to open, but can't be used on drawers (Deslaurier)
+- Ball catch or roller catch: a spring-loaded ball or roller that simply holds a door shut; needs a handle to pull it open
+- [Bistable](../glossary.md#bistable) [compliant mechanism](../glossary.md#compliant-mechanism): a one-piece springy part with two resting positions, switched by pushing back and forth rather than pushing the same way twice
+- Push-to-close cam latch: latches automatically when a door is pushed shut, but opens with a handle or button rather than a second push (Southco)
+- Compliant one-piece latch: a printed springy latch released by bending a handle
+- Push-push locking bolt (indexing plunger): an industrial pin that extends and retracts with alternate pushes using a heart curve (GN 514)
+
+## Make it yourself
+
+- [Push-push Mechanism (Steve DeGroof, Printables)](https://www.printables.com/model/496329-push-push-mechanism): Simple push-on, push-off mechanism using a standard ballpoint pen spring; works well in PETG; versions with an actuator arm, a click-fidget enclosure and a robust enclosure with M3 mounting tabs. Read through the Printables public API because the web page blocks automated access *(licence: CC BY)*
+- [Ultra-Compact Push Latch Mechanism (Paperclip + Pen Spring) (Justin Scroggs, Printables)](https://www.printables.com/model/1601839-ultra-compact-push-latch-mechanism-paperclip-pen-s): Push-push latch as small as 12 mm x 10 mm using a bent paperclip as the follower and a pen spring, with single- and multi-spring versions. Read through the Printables public API *(licence: CC BY-NC-SA)*
+- [Push Latch Mechanism (c_bot, Printables)](https://www.printables.com/model/273742-push-latch-mechanism): Compact push latch unit about 30 mm x 30 mm, printed in PLA with two small compression springs, used to store and release portable hard drives. Read through the Printables public API *(licence: CC BY)*
+- [Push Latch Case (Adam Cook, Printables)](https://www.printables.com/model/376606-push-latch-case): Printed case with a push-push latch and printed spring; its update notes show how a printed follower arm creeps when held latched and how the track was redesigned to avoid it. Read through the Printables public API *(licence: CC BY-NC-SA)*
+
+## Pictures, videos and models
+
+- [Push-push button 2 (Nguyen Duc Thang, YouTube channel thang010146)](https://www.youtube.com/watch?v=5JzjSsxSsb8): CAD animation of a pin on a pivoted bar running clockwise round a heart-shaped groove as the button is pushed and released (described in Thang's 2700 animated mechanisms index, part 3; title confirmed via YouTube oEmbed) *(licence: link only)*
+- [Push-push button 3 (Nguyen Duc Thang, YouTube channel thang010146)](https://www.youtube.com/watch?v=kJ0BlovBWtk): CAD animation of a compact push-push latch with a spring-loaded lever running in a groove of varying depth, 'used for locking small cabinet windows' (per Thang's index; title confirmed via YouTube oEmbed) *(licence: link only)*
+- [PUSH LATCH Mechanisms (DIY!) (This Old Tony, YouTube)](https://www.youtube.com/watch?v=3_wPH904a_8): Machinist video about push latch mechanisms and building one (title and channel confirmed via YouTube oEmbed; content not viewed) *(licence: link only)*
+- [Push-push latching button with a heart cam (Kapy CAD)](https://kapycad.com/en/learn/joints/push-push-latching-button): Illustrated step-by-step explanation of the heart track (rest, pressed, latched, released) with 3D-printing design rules and a failure table *(licence: link only)*
+- [US4916276A Push lock mechanism (Alps Electric, Google Patents)](https://patents.google.com/patent/US4916276A/en): Patent drawings of a heart-shaped cam groove, driving pin and springs in a push-lock switch *(licence: link only (patent document))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `tools` = none, drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]…"
+
+## Sources
+
+- <https://kapycad.com/en/learn/joints/push-push-latching-button>
+- <https://patents.google.com/patent/US4916276A/en>
+- <https://patents.google.com/patent/US20150107980A1/en>
+- <https://patents.google.com/patent/US20020192991A1/en>
+- <https://patents.google.com/patent/EP1253271A2/de>
+- <https://www.konstruktionspraxis.vogel.de/verriegelt-nach-dem-kugelschreiberprinzip-a-261590/>
+- <https://cs448m.github.io/lectures/machines/doc/3.pdf>
+- <https://www.youtube.com/watch?v=5JzjSsxSsb8>
+- <https://www.youtube.com/watch?v=kJ0BlovBWtk>
+- <https://www.youtube.com/watch?v=qXnld2Yqf7I>
+- <https://www.youtube.com/watch?v=3_wPH904a_8>
+- <https://www.youtube.com/watch?v=jB9ymoAkcQ4>
+- <https://www.mcmaster.com/products/push-to-open-latches/>
+- <https://www.deslaurier.com/en-us/learning-centre/comparing-kitchen-cabinet-latches-tip-on-vs.-touch-latch>
+- <https://www.moarconn.com/blog/Push-Push-and-Beyond-The-Evolution-and-Inner-Workings-of-SD-Card-Connector-Mechanisms_b15649>
+- <https://southco.com/en_us_int/resources/Push-to-Close-Latching-The-Secret-of-Simple-Operation>
+- <https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/>
+- <https://www.printables.com/model/496329-push-push-mechanism>
+- <https://www.printables.com/model/1601839-ultra-compact-push-latch-mechanism-paperclip-pen-s>
+- <https://www.printables.com/model/273742-push-latch-mechanism>
+- <https://www.printables.com/model/376606-push-latch-case>
+- <https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip>
+- <https://api.printables.com/graphql/>

@@ -1,0 +1,227 @@
+---
+title: Wedge dowel
+description: A factory-fitted dowel with rings of grooves on one furniture part slides along a milled slot with slightly sloping
+  grooves in the other part, so the sloping grooves wedge the parts together and lock them tight without screws, glue or tools,
+  and the joint can be slid apart again.
+num: 251
+term: Wedge dowel (grooved dowel sliding in a tapered slot with inclined grooves; patented as a 'furniture joint')
+plain_name: 'A small ribbed peg, like a screw with no point, that comes already fixed in one board: you push it into a slot
+  in the other board and slide or twist the board along until it wedges tight and clicks into place, with no screws, glue
+  or tools'
+aliases:
+- wedge dowel (IKEA's name for it) (IKEA Museum; IKEA Facts sheet; Design Museum)
+- furniture joint with male and female parts having co-operating inclined grooves (US patent 9,447,804 B2, Inter IKEA Systems)
+- 'wedge-dowel legs: the V-shaped grooved leg tops of the LISABO table (Consumer Reports)'
+- 'click-together, snap-together or tool-free furniture joint (press descriptions; Design Museum: ''It clicks into pre-drilled
+  holes'')'
+- ribbed dowel, grooved dowel, click-in dowel (plain descriptions)
+- Not the same as a 'wedged dowel', a round dowel split by a wedge driven into a saw cut to lock it in a hole (traditional
+  woodworking)
+family: interlocking joints & joinery
+other_families: [quick-release & tool-free, snap & clip fits]
+finder:
+  job: [join and hold, tighten and hold tension, line parts up exactly, 'lock, and release by hand']
+  motion: none
+  special_behaviour: [tensioning, self-aligning or self-centring, quick-release]
+  holding_principle: [shape, friction or clamping]
+  reuse_cycles: many times
+  seal: none
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: hard
+  processes: [off-the-shelf part, CNC, 3D print (FDM)]
+  connects: [boards or sheet]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [none, power tools, hand tools]
+  load_max: medium
+  usual_process: CNC
+  adjustable: 'no'
+  removability: tool-free quick release
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points: []
+uncertain_fields: [reuse_cycles, load, maker_difficulty, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
+  safety_notes, common_failures, links]
+diagram_idea: 'A three-frame cutaway: a shelf end with a ribbed dowel sticking out, a side panel with a keyhole-shaped slot
+  that narrows from a wide entry and has grooves sloping slightly; frame 1 the dowel drops into the wide end, frame 2 the
+  shelf slides along and arrows show the sloping grooves pulling the panels together, frame 3 the joint is closed with a ''click'',
+  with a zoomed inset of the 2-degree groove slope.'
+links:
+- url: https://ikeamuseum.com/en/explore/the-story-of-ikea/the-wedge-dowel/
+  title: The Wedge Dowel (IKEA Museum)
+  shows: Story of the wedge dowel with photos of its inventors, prototypes and the LISABO table
+  license: link only
+- url: https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9447804
+  title: US 9,447,804 B2 'Furniture joint' (Inter IKEA Systems B.V., 2016), USPTO PDF
+  shows: Patent drawings of grooved dowels and tapered slots with inclined grooves, and how shelves and table legs slide or
+    twist into place
+  license: US patent documents are generally free of copyright restrictions [uncertain]
+- url: https://www.consumerreports.org/furniture/does-ikeas-lisabo-table-really-cut-down-on-assembly-time
+  title: Does IKEA's Lisabo Table Really Cut Down on Assembly Time? (Consumer Reports)
+  shows: Assembly-time test with photos of the LISABO table's grooved wedge-dowel leg tops
+  license: link only
+- url: https://designmuseum.org/exhibitions/california-designing-freedom/product-z/wedge-dowel
+  title: Wedge Dowel (Design Museum, London)
+  shows: Museum object page with a picture and short description of the wedge dowel
+  license: link only
+make_it_yourself:
+- url: https://www.printables.com/model/1724919-ikea-hauga-wedge-dowel
+  title: Ikea Hauga Wedge Dowel (Michael Malenfant, Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable replacement for a missing pre-installed wedge dowel in an IKEA HAUGA cabinet
+  license: CC BY-NC
+sources:
+- https://ikeamuseum.com/en/explore/the-story-of-ikea/the-wedge-dowel/
+- https://preview.thenewsmarket.com/Previews/IKEA/DocumentAssets/436946.pdf
+- https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9447804
+- https://designmuseum.org/exhibitions/california-designing-freedom/product-z/wedge-dowel
+- https://www.consumerreports.org/furniture/does-ikeas-lisabo-table-really-cut-down-on-assembly-time
+- https://www.digitaltrends.com/home/ikea-debuts-new-wedge-dowel/
+- https://sawmillcreek.org/threads/ikea-wedge-dowel-joint.293809/
+- https://lamello.com/products/p-system
+- https://en.wikipedia.org/wiki/Furniture_screw
+- https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Wedge_dowel_clickin_grooved_dowel.json
+glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, layer-lines, peel-vs-shear]
+---
+
+A factory-fitted dowel with rings of grooves on one furniture part slides along a milled slot with slightly sloping grooves in the other part, so the sloping grooves wedge the parts together and lock them tight without screws, glue or tools, and the joint can be slid apart again.
+
+**In plain words:** A small ribbed peg, like a screw with no point, that comes already fixed in one board: you push it into a slot in the other board and slide or twist the board along until it wedges tight and clicks into place, with no screws, glue or tools. **Proper term:** Wedge dowel (grooved dowel sliding in a tapered slot with inclined grooves; patented as a 'furniture joint').
+
+**Also called:** wedge dowel (IKEA's name for it) (IKEA Museum; IKEA Facts sheet; Design Museum); furniture joint with male and female parts having co-operating inclined grooves (US patent 9,447,804 B2, Inter IKEA Systems); wedge-dowel legs: the V-shaped grooved leg tops of the LISABO table (Consumer Reports); click-together, snap-together or tool-free furniture joint (press descriptions; Design Museum: 'It clicks into pre-drilled holes'); ribbed dowel, grooved dowel, click-in dowel (plain descriptions); Not the same as a 'wedged dowel', a round dowel split by a wedge driven into a saw cut to lock it in a hole (traditional woodworking).
+
+## How it works
+
+The dowel has grooves all round like a screw thread, but straight; the slot in the other part has matching grooves that slope very slightly along its length, and the slot narrows from a wide entry opening to its inner end (US 9,447,804 B2). You push the dowel into the wide end, then slide the panel (or twist a table leg) so the dowel travels along the slot; the sloping grooves act like a wedge and 'the first furniture part ... is drawn or pulled against the second furniture part during the sliding movement' (US 9,447,804 B2). The grooves of the softer part are slightly squashed as it slides, which locks the parts, and a distinct end position tells the user it is home, the 'click' (US 9,447,804 B2). Sliding it back the other way releases it.
+
+## Parts
+
+A few parts: a male part (a grooved dowel or pin, made of wood or plastic, fixed into one panel by glue, pressing or an expanding peg, or milled into the part itself) and a female part (a milled slot or tapered groove with inclined grooves in the other panel). Some table versions add a small plastic locking piece tightened with an Allen key (US 9,447,804 B2; IKEA Facts; Consumer Reports).
+
+## Everyday examples
+
+- IKEA LISABO tables, whose legs have grooved V-shaped tops that slide into cut-outs under the table top (Consumer Reports; IKEA Museum)
+- IKEA REGISSÖR storage, TROMVIK chests of drawers, VALJE cubes and TINGBY tables, the earlier wedge-dowel furniture (IKEA Museum; IKEA Facts)
+- Newer flat-pack cabinets (e.g. HAUGA) whose panels arrive with small ribbed pegs already fitted (Printables replacement part)
+
+## When to use it
+
+Use a wedge dowel when parts must go together fast, with no tools and no visible fittings, and come apart again for moving: flat-pack cabinets, shelving units, drawers and table legs (IKEA Museum; IKEA Facts). It suits mass production on precise CNC machines, where the extra machining cost is repaid by quick, fool-proof assembly because the dowel is already fixed in place (IKEA Museum).
+
+## When not to use it
+
+Avoid it for one-off hobby builds without a precise CNC machine; the fit depends on tiny groove angles and tight [tolerances](../glossary.md#tolerance) (IKEA Facts). Avoid it where parts are loaded very heavily or the wood will see big humidity swings; IKEA itself was looking for materials to cope with humidity (Digital Trends). For hand-made furniture use a knock-down cam lock or cross dowel, a tusk tenon or a sliding dovetail instead; for a tool-free, releasable joint without a CNC, commercial slide-in connectors (Lamello P-System) or a hanging French cleat are easier.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: joins shelves, sides, drawers and table legs to tops with no visible fittings (IKEA Museum; IKEA Facts)
+  - tighten and hold tension: the sloping grooves pull the two parts hard together as the dowel slides (US 9,447,804 B2)
+  - line parts up exactly: because the dowel is fixed to one part, assembly is 'pretty fail-proof', and the end position puts the parts where they should be (IKEA Museum; US 9,447,804 B2)
+  - lock, and release by hand: a stated aim is that the parts can be separated after assembly 'without harming the furniture parts' (US 9,447,804 B2)
+- **Movement:** none once assembled. During assembly the dowel slides a short way along its slot, or rotates for round and curved versions (US 9,447,804 B2).
+- **Directions it can move (degrees of freedom):** 0 when locked. During assembly 1: sliding along the slot (or turning, in the round version where 'the male part is then rotated in the female part until it reaches an end position') (US 9,447,804 B2).
+- **Special behaviour:**
+  - tensioning (takes up slack and holds): grooves inclined at about 2 degrees draw the parts together and squeeze out any gap as the dowel slides home (US 9,447,804 B2)
+  - self-aligning or self-centring: the dowel is already fixed in one panel and the slot guides it to a set end position where the parts abut in the desired position (US 9,447,804 B2; IKEA Museum)
+  - quick-release: in the sense of tool-free assembly and disassembly; no screws or tools are needed (IKEA Facts), although the LISABO table adds a small plastic lock tightened with an Allen key (Consumer Reports)
+  - a 'click' or distinct end position confirms that the joint is fully home (US 9,447,804 B2; Design Museum)
+- **How it holds:**
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the rings of grooves on the dowel sit in the grooves of the slot, so the joint can't be pulled straight apart
+  - friction or clamping (force-fit): the sloping grooves wedge the parts together and compress the softer grooves, locking the joint (US 9,447,804 B2)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** Medium: furniture loads such as cabinets, shelving units, chests of drawers and tables (IKEA Facts). Strong against pulling apart (the grooves interlock) and against sideways [shear](../glossary.md#peel-vs-shear) (the dowel bears in the slot). Consumer Reports judged a wedge-dowel LISABO table sturdy in an informal check. A woodworker on Sawmill Creek (forum opinion) considers it weaker than a traditional tapered tenon, since the strength depends on the base of the dowel pair and the contact area of the grooves ⚑ [uncertain].
+- **Play and precision:** None when fully home: the wedge action pulls the parts together and closes any gap (US 9,447,804 B2). It needs very tight manufacturing: IKEA had to 'adapt the production to tolerance levels that were around 2.5 times lower than previously' and added optical monitoring (IKEA Facts). The entry opening is made 'somewhat larger than the outer dimension of the male part' to make insertion easy (US 9,447,804 B2). Returns to the same position every time.
+- **Taking it apart:** tool-free quick release for most versions: slide or twist the part back towards the wide end of the slot to separate it without damage (US 9,447,804 B2; IKEA Facts: 'making screws and tools unnecessary'). The LISABO table's extra plastic locking piece needs an Allen key (Consumer Reports).
+- **How often it can be reused:** many times, as designed (Consumer Reports: the legs are 'less likely to get wobbly if you need to disassemble the table and reassemble'); but the joint relies on slightly crushing the softer grooves, so grip may fall after many cycles, especially in fibreboard ⚑ [uncertain].
+- **Sealing:** none
+- **Adjustable:** no: the end position is fixed by the milled slot.
+- **Access needed:** one side only (blind): the dowel and slot are hidden inside the joint and nothing is reached from the back; you only need room to slide or twist one part by the length of the slot (US 9,447,804 B2).
+- **Materials:** Dowels of wood or plastic (IKEA Museum; IKEA Facts). Used in machine-made furniture panels and solid wood, e.g. the LISABO table with an ash-veneer top and solid birch legs (IKEA Museum). The patent requires the grooved material of the slot to be 'softer than the material of the grooves ... of the male part' so it can compress (US 9,447,804 B2). In 2017 IKEA said the dowels only worked with its wooden furniture and it was looking for materials that cope with humidity (Digital Trends, citing Fast Company).
+- **Heat, cold, water and wear:** Wood expands and shrinks with moisture, which changes the wedge fit; IKEA noted the problem of humidity in markets like India and China and that at the time the dowels only worked with its wooden furniture (Digital Trends, citing Fast Company). Particleboard and fibreboard grooves may crush permanently if overloaded or wet ⚑ [uncertain]. Printed plastic versions [creep](../glossary.md#creep) under constant load ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - CNC: milling the grooved slots and turning or milling the grooved dowels (the patent names 'milling and/or turning')
+  - off-the-shelf part: only as pre-installed parts in flat-pack furniture and as furniture spare parts ⚑ [uncertain]
+  - 3D print (FDM): replacement dowels and experimental printed versions
+- **Printing it in one piece (print in place):** no: the dowel and the slotted part are separate parts slid together.
+- **Tools:** none to assemble or take apart (IKEA Facts; Design Museum); an Allen key for the small plastic lock on LISABO tables (Consumer Reports). To make: precise CNC milling; IKEA had to develop a new machine because standard machines lacked the precision (IKEA Museum).
+- **Difficulty:** hard: the slot has grooves sloping by only a couple of degrees and the fit is tuned to fractions of a millimetre; IKEA needed a purpose-built, extra-precise machine and much tighter tolerances (IKEA Museum; IKEA Facts). A hobbyist could try it with a CNC router or a 3D printer, but no maker design guides were found ⚑ [uncertain].
+
+### 3D printing tips
+
+Experimental; no tested maker guide was found. Ideas from the patent: 1) Make the slot's grooves slope about 2 degrees along the slot (0.5-5 degrees works; too little leaves a gap, too much makes it hard to slide), and make the slot longer if you want a smaller angle (US 9,447,804 B2). 2) Give the groove sides about 90 degrees between them (US 9,447,804 B2). 3) Make the slot's grooves in a softer material than the dowel's, e.g. a printed PLA or PETG dowel into wood, or a stiff printed dowel into a softer printed part ⚑ [uncertain]. 4) Make the entry end of the slot a little wider than the dowel and [taper](../glossary.md#taper) it towards the end position (US 9,447,804 B2). Printing advice: FDM interlocking joints normally need about 0.5 mm [clearance](../glossary.md#clearance) (Hubs), which is coarse compared with the tiny wedge action here, so print test pieces with small changes in groove size ⚑ [uncertain]. A dowel printed standing up has its rings made of stacked layers, which may shear off along [layer lines](../glossary.md#layer-lines) when pulled; printing it lying down, or with a flat side, may be stronger ⚑ [uncertain]. Plastics creep, so the wedge grip in a printed joint may slowly relax (a Printables designer notes PLA creeps under load) ⚑ [uncertain]. A replacement IKEA HAUGA wedge dowel exists on Printables for when one is missing.
+
+### Buying one (off-the-shelf parts)
+
+No generic catalogue part: wedge dowels come pre-installed in flat-pack furniture, and missing ones are replaced as furniture spare parts or printed (Printables 'Ikea Hauga Wedge Dowel') ⚑ [uncertain]. Commercial click-together alternatives for makers are slot-in connectors such as the Lamello P-System (brand): Divario P-18, 'a detachable connector for slide-in insertion', Clamex P (lever-locked, detachable) and Tenso P (self-clamping, for gluing), which need a P-System groove cut with a special biscuit joiner or CNC (Lamello).
+
+## Rules of thumb
+
+- Slope the grooves of the slot by up to 5 degrees, preferably 0.5-5 degrees and ideally about 2 degrees; too small leaves a gap between the parts, too large makes sliding hard; the longer the slide, the smaller the angle can be (US 9,447,804 B2, col. 3).
+- Make the sides of each groove meet at about 90 degrees so the pressure is spread well (US 9,447,804 B2, col. 3).
+- The grooves that get compressed (normally the slot's) must be softer than the dowel's grooves (US 9,447,804 B2, col. 3).
+- Leave the slot's entry opening without grooves and slightly larger than the dowel, and taper the slot so its grooves at the inner end are slightly narrower than the dowel's, giving a distinct end position (US 9,447,804 B2, cols. 4-5).
+- Manufacturing tolerances had to be about 2.5 times tighter than for IKEA's earlier furniture (IKEA Facts 'Wedge dowel', 2015).
+- Assembly time falls by 50-80% compared with screwed fittings (IKEA Facts; Design Museum); in a Consumer Reports test a wedge-dowel LISABO table took one tester under 5 minutes (about 2 minutes longer for the other) against 42-62 minutes for a table using 84 pieces of hardware.
+
+## Common failures
+
+A missing or loose pre-fitted dowel, since the kit may not include spares (Printables 'Ikea Hauga Wedge Dowel'). A gap left between the panels because the groove slope is too small, or a joint too hard to slide home because it is too big (US 9,447,804 B2). Joint loosening if the softer grooves are crushed too much, the wood dries out, or it is assembled and taken apart many times ⚑ [uncertain]. Pulling the panel off at an angle instead of sliding it back may break the grooves ⚑ [uncertain].
+
+## Safety
+
+None known specific to the joint. As with all flat-pack furniture, tall units should be anchored to the wall so they can't tip over (Wikipedia 'Furniture screw', citing IKEA's 'Secure it!'). A small loose dowel is a swallowing hazard for young children ⚑ [uncertain].
+
+## Related
+
+- Knock-down cam-lock and cross-dowel connectors: removable metal fittings that need a screwdriver or Allen key
+- Lever-cam panel connector (self-clamping click connector): a hidden fitting in a milled slot, locked by a key or clicking shut by itself
+- Sliding dovetail: a flared tongue sliding in a matching groove; the wedge dowel adds sloping grooves so it tightens as it slides
+- Mortise and tenon (incl. wedged, drawbored and tusk tenons): the traditional wedge-locked joint
+- [Self-locking](../glossary.md#self-locking) wedge (wedge clamp, taper key): the wedge principle on its own
+- Hang-on mounts (keyhole slot, French cleat): other slide-to-lock mounts with no tools
+- Crush ribs and spring-fit features: ribs that deform slightly to give a tight press fit, like the compressed grooves here
+- Plain dowel joint and 'wedged dowel' (a dowel spread by a driven wedge): glued, permanent relatives with similar names
+
+## Make it yourself
+
+- [Ikea Hauga Wedge Dowel (Michael Malenfant, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1724919-ikea-hauga-wedge-dowel): Printable replacement for a missing pre-installed wedge dowel in an IKEA HAUGA cabinet *(licence: CC BY-NC)*
+
+## Pictures, videos and models
+
+- [The Wedge Dowel (IKEA Museum)](https://ikeamuseum.com/en/explore/the-story-of-ikea/the-wedge-dowel/): Story of the wedge dowel with photos of its inventors, prototypes and the LISABO table *(licence: link only)*
+- [US 9,447,804 B2 'Furniture joint' (Inter IKEA Systems B.V., 2016), USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9447804): Patent drawings of grooved dowels and tapered slots with inclined grooves, and how shelves and table legs slide or twist into place *(licence: US patent documents are generally free of copyright restrictions ⚑ [uncertain])*
+- [Does IKEA's Lisabo Table Really Cut Down on Assembly Time? (Consumer Reports)](https://www.consumerreports.org/furniture/does-ikeas-lisabo-table-really-cut-down-on-assembly-time): Assembly-time test with photos of the LISABO table's grooved wedge-dowel leg tops *(licence: link only)*
+- [Wedge Dowel (Design Museum, London)](https://designmuseum.org/exhibitions/california-designing-freedom/product-z/wedge-dowel): Museum object page with a picture and short description of the wedge dowel *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 15 sentences on this page marked [uncertain].
+
+## Sources
+
+- <https://ikeamuseum.com/en/explore/the-story-of-ikea/the-wedge-dowel/>
+- <https://preview.thenewsmarket.com/Previews/IKEA/DocumentAssets/436946.pdf>
+- <https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9447804>
+- <https://designmuseum.org/exhibitions/california-designing-freedom/product-z/wedge-dowel>
+- <https://www.consumerreports.org/furniture/does-ikeas-lisabo-table-really-cut-down-on-assembly-time>
+- <https://www.digitaltrends.com/home/ikea-debuts-new-wedge-dowel/>
+- <https://sawmillcreek.org/threads/ikea-wedge-dowel-joint.293809/>
+- <https://lamello.com/products/p-system>
+- <https://en.wikipedia.org/wiki/Furniture_screw>
+- <https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/>
+- <https://api.printables.com/graphql/>

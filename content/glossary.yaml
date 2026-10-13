@@ -1,0 +1,417 @@
+# The glossary (P9): 107 terms from the run 2 data, first written in research/flowchart-and-format.md
+# section 2 (2026-10-03) and moved here on 2026-10-06 (R26). This file is now the glossary's source:
+# tools/make_entries.py writes content/glossary.md from it and links the first use of each term on
+# every entry page. `link: false` keeps a term that is also an everyday word (play, lead, wear …)
+# from being linked automatically. Writing style: one plain sentence per definition.
+- term: Degrees of freedom
+  other_names: DOF
+  definition: 'The number of separate ways a part can still move: slide along, across or up and down, and turn about
+    each of those three directions, so 6 at most and 0 for a fixed joint.'
+  group: How parts move
+- term: Misalignment
+  other_names: offset, angular misalignment
+  definition: 'When two shafts or parts don''t line up exactly: shifted sideways, tilted at an angle, or too far
+    apart along their length.'
+  group: How parts move
+- term: Play
+  other_names: looseness; end float or end play along a shaft
+  definition: Unwanted wobble or free movement in a joint.
+  group: How parts move
+  link: false
+- term: Backlash
+  definition: The small free movement between parts such as gear teeth when the direction changes, felt as a dead
+    zone before the output moves.
+  group: How parts move
+- term: Back-driving
+  other_names: back-drivable
+  definition: When the output can push the input backwards, for example a hanging load turning a motor round; a
+    non-back-drivable drive holds the load when the motor stops.
+  group: How parts move
+- term: Self-locking
+  definition: Holding its position under load with no brake, because friction is too high for the load to drive
+    it back, as in most worm drives and fine lead screws.
+  group: How parts move
+- term: Axial / radial
+  definition: Axial means along a shaft's length; radial means outwards from its centre line.
+  group: How parts move
+- term: Thrust load
+  other_names: axial load
+  definition: A push along the length of a shaft, which needs a bearing made to take it.
+  group: How parts move
+- term: Coaxial
+  other_names: in line
+  definition: Sharing the same centre line, like the input and output shafts of a planetary gearbox.
+  group: How parts move
+- term: Reciprocating
+  definition: Moving back and forth in a straight line, again and again, like a piston.
+  group: How parts move
+- term: Oscillating
+  other_names: rocking
+  definition: Swinging back and forth through part of a turn, like a windscreen wiper.
+  group: How parts move
+- term: Intermittent motion
+  other_names: indexing, stepping
+  definition: Moving in steps with a pause between each, like a clock's second hand.
+  group: How parts move
+- term: Stroke
+  definition: How far a sliding part travels from one end of its movement to the other.
+  group: How parts move
+- term: Dead point
+  other_names: dead centre
+  definition: The position where a crank or linkage lines up straight, so pushing on it does nothing and it can
+    stall there.
+  group: How parts move
+- term: Over-centre
+  other_names: toggle
+  definition: Pushed just past its dead point, so the load now presses it further shut against a stop and it stays
+    locked.
+  group: How parts move
+- term: Bistable
+  definition: Having two resting positions and snapping between them, like a light switch or a hair clip.
+  group: How parts move
+- term: Detent
+  definition: A spring-loaded ball, bump or arm that drops into notches so a part clicks into set positions and
+    stays there.
+  group: How parts move
+- term: Ratchet
+  definition: A toothed wheel or strip with a catch that lets it move one way, clicking, and stops it going back.
+  group: How parts move
+- term: Pawl
+  definition: The hinged catch that drops into a ratchet's teeth.
+  group: How parts move
+- term: Freewheel
+  other_names: overrunning clutch, one-way clutch
+  definition: A clutch that drives in one direction and spins freely in the other, like a bicycle hub when you stop
+    pedalling.
+  group: How parts move
+- term: Sprag
+  definition: One of the small tilted wedges in a sprag clutch that jam between two rings when turned one way.
+  group: How parts move
+- term: Torque
+  other_names: turning force, moment
+  definition: 'How hard something is twisted: the force times its distance from the centre, measured in newton-metres.'
+  group: Force, speed and gearing
+- term: Lever arm
+  other_names: moment arm
+  definition: The distance from a pivot to where a force acts; a longer arm gives more turning effect.
+  group: Force, speed and gearing
+- term: Mechanical advantage
+  definition: How many times a lever, pulley or gear multiplies your force; you always pay by moving further.
+  group: Force, speed and gearing
+- term: Gear ratio
+  other_names: reduction
+  definition: How many turns the input makes for each turn of the output; a reduction slows the output and multiplies
+    its turning force.
+  group: Force, speed and gearing
+- term: Efficiency
+  definition: The share of the input effort that comes out as useful output; the rest is lost as heat in friction.
+  group: Force, speed and gearing
+  link: false
+- term: Lead
+  other_names: of a screw
+  definition: How far a nut moves along a screw in one full turn.
+  group: Force, speed and gearing
+  link: false
+- term: Pitch
+  definition: The distance between neighbouring threads or teeth.
+  group: Force, speed and gearing
+- term: Module
+  other_names: of a gear
+  definition: A metric size for gear teeth (the pitch-circle diameter divided by the number of teeth); two gears
+    must have the same module to mesh.
+  group: Force, speed and gearing
+  link: false
+- term: Idler
+  definition: A wheel or pulley that guides or tightens a belt or chain but doesn't drive anything.
+  group: Force, speed and gearing
+- term: Cam and follower
+  definition: A shaped disc or drum (the cam) that pushes a rod or lever (the follower) through a planned movement
+    as it turns.
+  group: Force, speed and gearing
+- term: Crank
+  definition: An arm on a shaft that turns rotation into a push and pull, or the other way round.
+  group: Force, speed and gearing
+- term: Linkage
+  other_names: four-bar linkage
+  definition: Stiff bars joined by pivots that turn one movement into another; four bars in a loop is the simplest
+    useful one.
+  group: Force, speed and gearing
+- term: Actuator
+  definition: The part that makes the movement in a powered system, such as a motor, solenoid, air cylinder or muscle
+    wire.
+  group: Force, speed and gearing
+- term: Solenoid
+  definition: A coil of wire that pulls an iron plunger in when electricity flows through it.
+  group: Force, speed and gearing
+- term: Fail-safe / fail-secure
+  definition: 'What a powered lock does when the power goes off: fail-safe lets go (so people can get out), fail-secure
+    stays locked.'
+  group: Force, speed and gearing
+- term: Stiffness
+  other_names: spring rate
+  definition: How much force it takes to bend or stretch something by a given amount.
+  group: Springs, bending and damping
+- term: Preload
+  definition: Force built into a joint on purpose before use (by tightening, a spring or a tight fit) to remove
+    play or keep parts pressed together.
+  group: Springs, bending and damping
+- term: Flexure
+  other_names: flexure hinge, flexure bearing
+  definition: A thin, springy section of a part that bends to act as a hinge or slide, instead of pins or bearings.
+  group: Springs, bending and damping
+- term: Compliant mechanism
+  definition: A mechanism that gets its movement from parts bending, not from hinges and sliding joints.
+  group: Springs, bending and damping
+- term: Living hinge
+  definition: A thin strip of plastic joining two thicker parts that bends as a hinge, like the lid of a ketchup
+    bottle.
+  group: Springs, bending and damping
+- term: Cantilever
+  definition: A beam fixed at one end and free at the other, like a diving board; the springy arm of most snap fits.
+  group: Springs, bending and damping
+- term: Deflection
+  definition: How far a part bends or moves under a load.
+  group: Springs, bending and damping
+- term: Torsion
+  definition: Twisting; a torsion spring or torsion bar works by being twisted.
+  group: Springs, bending and damping
+- term: Damping
+  other_names: damper, dashpot
+  definition: Soaking up movement energy, usually as heat, so a motion slows down or stops bouncing.
+  group: Springs, bending and damping
+- term: Hysteresis
+  definition: Behaving differently going one way than coming back, for example a spring giving back less force than
+    it took.
+  group: Springs, bending and damping
+- term: Stick-slip
+  definition: Jerky motion where parts stick, then jump, then stick again, because friction at rest is higher than
+    friction while sliding.
+  group: Springs, bending and damping
+- term: Clearance
+  definition: A deliberate gap between two parts so they can move or fit together; in 3D printing, the gap left
+    between print-in-place parts.
+  group: Fits, holding and locating
+- term: Tolerance
+  definition: How far a real size may differ from the drawing and the part still work.
+  group: Fits, holding and locating
+- term: Interference fit
+  other_names: press fit
+  definition: A peg slightly bigger than its hole, pressed in so the parts grip by squeezing each other.
+  group: Fits, holding and locating
+- term: Form-fit / force-fit / material bond
+  other_names: '*Formschluss, Kraftschluss, Stoffschluss*'
+  definition: 'The three ways a joint can hold: by shape (the parts interlock), by friction from a clamping force,
+    or by joining the materials themselves (glue, solvent, melting).'
+  group: Fits, holding and locating
+- term: Holding force
+  other_names: pull-off force
+  definition: How hard you must pull before a magnet, suction cup or clip lets go.
+  group: Fits, holding and locating
+- term: Set screw
+  other_names: grub screw
+  definition: A headless screw through a hub that presses on a shaft so the hub can't slip.
+  group: Fits, holding and locating
+- term: Spline
+  definition: Matching ridges on a shaft and inside a hub, so they turn together but the hub can still slide along.
+  group: Fits, holding and locating
+- term: Taper
+  other_names: taper fit
+  definition: A gently cone-shaped shaft and hole that wedge tightly together when pushed home.
+  group: Fits, holding and locating
+- term: Collet
+  definition: A slotted sleeve that squeezes evenly round a shaft or tool when it is tightened.
+  group: Fits, holding and locating
+- term: Circlip
+  other_names: retaining ring, E-clip
+  definition: A springy split ring that clips into a groove to stop a part sliding off a shaft or out of a hole.
+  group: Fits, holding and locating
+- term: Heat-set insert
+  definition: A brass sleeve with a thread inside, melted into a 3D-printed hole with a soldering iron to give strong,
+    reusable metal threads.
+  group: Fits, holding and locating
+- term: Captive nut
+  other_names: nut trap
+  definition: A pocket shaped to hold a nut so it can't turn while the screw is tightened.
+  group: Fits, holding and locating
+- term: Boss
+  definition: A raised round post on a moulded or printed part that takes a screw, insert or pin.
+  group: Fits, holding and locating
+- term: Pilot hole
+  definition: A small starter hole that guides a screw.
+  group: Fits, holding and locating
+- term: Counterbore / countersink
+  definition: A flat-bottomed or cone-shaped widening at the top of a hole so a screw head sits flush.
+  group: Fits, holding and locating
+- term: Threadlocker
+  other_names: anaerobic adhesive
+  definition: A liquid put on threads that hardens once the nut is tight and air is shut out, so the nut can't shake
+    loose.
+  group: Fits, holding and locating
+- term: Chamfer / fillet
+  definition: A sloped edge / a rounded corner; both make parts easier to fit together and spread out stress.
+  group: Fits, holding and locating
+- term: Undercut
+  definition: A hook or hollow that catches behind a mating part, like the lip of a snap fit.
+  group: Fits, holding and locating
+- term: Return angle
+  other_names: retention angle
+  definition: 'The slope on the back of a snap-fit hook: steep holds for good, shallow lets it pull apart again.'
+  group: Fits, holding and locating
+- term: Keying
+  other_names: poka-yoke, mistake-proofing
+  definition: Shaping parts so they only fit together the right way round.
+  group: Fits, holding and locating
+- term: Kinematic coupling
+  definition: A mount where three balls sit in three V-shaped grooves (or similar), so a part drops back into exactly
+    the same place every time.
+  group: Fits, holding and locating
+- term: Exact constraint
+  definition: Holding a part with exactly one contact for each movement you want to stop, so it sits in one definite
+    place without being forced.
+  group: Fits, holding and locating
+- term: Over-constraint
+  definition: Stopping the same movement twice (for example two tight pins), so parts fight each other and bind
+    unless made very precisely.
+  group: Fits, holding and locating
+- term: Elastic averaging
+  definition: Using many slightly springy locating features at once, so small errors average out and the parts line
+    up well.
+  group: Fits, holding and locating
+- term: Repeatability / accuracy
+  definition: Repeatability is going back to the same place every time; accuracy is that place being where you meant
+    it to be.
+  group: Fits, holding and locating
+- term: Creep
+  definition: Slow, permanent stretching or sagging of a part under a steady load, much worse in plastics and when
+    warm.
+  group: Materials, wear and failure
+- term: Stress relaxation
+  definition: The slow loss of clamping or spring force in a part held stretched or squeezed, for example a press
+    fit loosening over months.
+  group: Materials, wear and failure
+- term: Fatigue
+  definition: Cracking after many repeated loads, each too small to break the part on its own.
+  group: Materials, wear and failure
+- term: Brittle / ductile
+  definition: Brittle materials snap with little warning; ductile ones bend and stretch first.
+  group: Materials, wear and failure
+- term: Yield
+  other_names: yield point
+  definition: The load at which a material stops springing back and stays bent.
+  group: Materials, wear and failure
+  link: false
+- term: Stress concentration
+  other_names: stress raiser, notch
+  definition: A sharp corner, hole or groove where force crowds together, so cracks start there.
+  group: Materials, wear and failure
+- term: Wear
+  definition: Material slowly rubbed away where parts slide or roll on each other.
+  group: Materials, wear and failure
+  link: false
+- term: Galling / fretting
+  definition: Galling is sliding metal surfaces tearing and sticking together (common with stainless threads); fretting
+    is wear from tiny repeated rubbing.
+  group: Materials, wear and failure
+- term: Lubrication
+  definition: Grease, oil or a slippery material between moving parts to cut friction and wear.
+  group: Materials, wear and failure
+- term: Shore hardness
+  other_names: durometer
+  definition: A scale for how soft or hard rubber and flexible plastics are, such as "95A" for a typical TPU filament.
+  group: Materials, wear and failure
+- term: Layer lines
+  other_names: anisotropy, layer adhesion
+  definition: A print is weaker across its layers than along them, so the way you lay the part on the bed decides
+    where it is strong.
+  group: 3D printing, cutting and wood
+- term: Perimeters
+  other_names: walls, shells
+  definition: The solid outer layers of a print; more walls usually add more strength than more infill.
+  group: 3D printing, cutting and wood
+- term: Infill
+  definition: The pattern that fills the inside of a print; it affects strength, weight and print time.
+  group: 3D printing, cutting and wood
+- term: Print-in-place
+  definition: Printing moving parts already assembled, with small gaps between them, so they work straight off the
+    printer.
+  group: 3D printing, cutting and wood
+- term: Elephant's foot
+  definition: The first layers squashing out wider than the rest, which can fuse print-in-place parts or spoil a
+    fit.
+  group: 3D printing, cutting and wood
+- term: Overhang / bridging
+  definition: An overhang is printing outwards over empty space at an angle; bridging is printing straight across
+    a gap between two supports.
+  group: 3D printing, cutting and wood
+- term: Support material
+  other_names: supports
+  definition: Temporary structure printed under overhangs and removed afterwards.
+  group: 3D printing, cutting and wood
+- term: Warping / shrinkage
+  definition: Parts curling or shrinking as hot plastic cools, which changes sizes and fits.
+  group: 3D printing, cutting and wood
+- term: Kerf
+  definition: The width of material a saw blade or laser beam removes, which tight joints must allow for.
+  group: 3D printing, cutting and wood
+- term: End grain
+  definition: The cut end of a piece of wood, showing the ends of its fibres; glue and screws hold badly in it.
+  group: 3D printing, cutting and wood
+- term: Cure
+  other_names: curing
+  definition: The chemical hardening of a glue, sealant or resin.
+  group: Glues
+- term: Pot life / working time
+  definition: How long a mixed glue stays usable before it starts to set.
+  group: Glues
+- term: Open time
+  definition: How long you have to put the parts together after spreading the glue.
+  group: Glues
+- term: Surface energy
+  other_names: low-surface-energy plastics
+  definition: How easily a liquid wets a surface; slippery plastics such as polyethylene (PE), polypropylene (PP)
+    and PTFE have low surface energy, so most glues won't stick to them.
+  group: Glues
+- term: Primer
+  definition: A thin first coat that helps the glue grip.
+  group: Glues
+- term: Peel vs shear
+  other_names: lap shear
+  definition: Glue joints are strong when the parts slide past each other (shear) and weak when one is peeled off
+    the other, so design joints to load the glue in shear.
+  group: Glues
+- term: Gap filling
+  definition: Whether a glue can fill and bridge a gap between badly fitting parts (epoxy can; superglue mostly
+    can't).
+  group: Glues
+- term: O-ring
+  definition: A rubber ring sitting in a groove that seals when squeezed between two parts.
+  group: Seals, air and liquid
+- term: Gland
+  definition: The groove or housing an O-ring sits in; also a fitting that seals round a cable passing through a
+    wall (cable gland).
+  group: Seals, air and liquid
+- term: IP rating
+  other_names: ingress protection
+  definition: A two-digit code for how well a case keeps out dust (first digit) and water (second digit), for example
+    IP67.
+  group: Seals, air and liquid
+- term: Pressure
+  other_names: psi, bar, kPa
+  definition: Force spread over an area; 1 bar is roughly normal air pressure, about 14.5 psi or 100 kPa.
+  group: Seals, air and liquid
+  link: false
+- term: Check valve
+  other_names: one-way valve
+  definition: A valve that lets air or liquid flow one way only.
+  group: Seals, air and liquid
+- term: Regulator
+  other_names: pressure regulator
+  definition: A valve that turns a high, changing pressure into a lower, steady one.
+  group: Seals, air and liquid
+- term: Water hammer
+  definition: A pressure shock when flowing water is stopped suddenly, which can bang pipes and burst fittings.
+  group: Seals, air and liquid
+- term: Venturi
+  definition: A narrowing in a pipe where the flow speeds up and the pressure drops, used to make suction from compressed
+    air.
+  group: Seals, air and liquid

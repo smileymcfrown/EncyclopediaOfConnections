@@ -1,0 +1,275 @@
+---
+title: Rotary latch
+description: A latch in which a spring-loaded rotating hook (the claw or rotor) swings shut around a striker bar as the door
+  is pushed closed and is then held by a small catch (the pawl), so the door stays shut until a handle, button, cable or motor
+  lifts the catch.
+num: 163
+term: Rotary latch (claw latch)
+plain_name: A hidden, spring-loaded hook that snaps shut around a metal bar or pin on the frame when you push a door or lid
+  closed, and stays shut until someone pulls a handle, button or cable that lets it go (the latch inside a car door)
+aliases:
+- claw latch; claw-style rotary latch (supplier name for the version whose claw engages a striker peg or loop)
+- rotary slam latch; slam latch (the wider family of latches you close by pushing or slamming; Wikipedia 'Latch', IQS Directory)
+- rotary pawl latch; jaw latch; fork latch; fork-bolt latch
+- single-stage rotary latch; two-stage rotary latch (has a 'secondary' or 'safety' catch position); single-rotor and double
+  (dual) rotor rotary latch
+- car door latch; bonnet (hood) latch; boot (trunk) or deck-lid latch; tailgate latch
+- remote-release rotary latch; cable-release latch; electronic or electromechanical rotary latch
+- 'the rotating hook: rotor, claw, jaw, catch or fork-bolt (FMVSS 206 calls it the fork-bolt; Antonescu et al. call it the
+  catch)'
+- 'the part that holds the hook shut: pawl, detent lever, trigger, or ''ratchet'' (car-latch papers use ''ratchet'' and ''pawl''
+  for this same part, and sometimes ''ratchet'' for the claw, so check the drawing)'
+- 'the bar it grabs: striker, striker bolt, striker pin, striker peg, U-striker, wire-form striker, keeper; ''Nader bolt''
+  is a nickname for the striker bolt on car doors (Wikipedia ''Latch'')'
+family: locks, latches & catches
+other_families: [quick-release & tool-free, one-way & ratchet, powered & active connectors]
+finder:
+  job: ['lock, and release by hand', join and hold, hold or release using power]
+  motion: rotate
+  special_behaviour: [self-locking, hand-release only, quick-release, one-way, indexing, self-aligning or self-centring]
+  holding_principle: [shape, spring force]
+  reuse_cycles: many times
+  seal: none
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), sheet metal, woodwork]
+  connects: ['lid, door or cover']
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: clicks
+  tools: [crimper, drill and tap, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: partly
+  removability: tool-free quick release
+  power: passive
+needs_confirming:
+  adjustable:
+    kind: source uncertain
+    reason: '`adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers)
+      [uncertain: adjustment procedure not des…"'
+confirmed: []
+open_points:
+- kind: sources
+  note: '**Early drafts in git history**: the commit script commits any file that validates, so a few entries were first committed
+    while their agent was still refining them (e.g. *Rotary latch*, *Tamper-evident bridge*, *Dampers*). The latest commit
+    of each file is the final version.'
+uncertain_fields: [power, reuse_cycles, load, adjustable, materials, processes, print_in_place, making_tips_3d_printing, environment_limits,
+  safety_notes, common_failures, links, make_it_yourself]
+diagram_idea: 'Three side views of one latch: (1) open, with the claw''s V-shaped mouth facing an incoming striker pin and
+  the pawl resting on the claw''s rim; (2) closing, with the striker pushing into the mouth and turning the claw while the
+  pawl rides along; (3) latched, with the claw wrapped round the striker and the pawl dropped into its notch, and an arrow
+  showing a cable lifting the pawl to release it; a small inset marks the extra ''safety'' notch of a two-stage latch.'
+links:
+- url: https://media.southco.com/media/static/documents/brochures/20200717-BR-Rotary-WEB.pdf
+  title: Rotary Latching Systems brochure (Southco)
+  shows: Page 6 shows photos of a single-stage latch (unlatched, fully latched) and a two-stage latch (unlatched, secondary
+    latched, fully latched), and single-rotor vs double-rotor latches; later pages show the R4 range with load ratings
+  license: link only
+- url: https://vimeo.com/240646729
+  title: Southco | R4 Rotary Latch System Animation (Fix 8 Films, Vimeo, 85 s; title and description confirmed via Vimeo oEmbed,
+    not watched)
+  shows: Product animation of a rotary latch system with its latch, cable and actuator
+  license: link only
+- url: https://www.utgjiu.ro/rev_ing/pdf/2020-2/03_L.pdf
+  title: Automotive door latch mechanisms (Antonescu, Popescu and Antonescu, Annals of the Constantin Brancusi University
+    of Targu Jiu, Engineering Series, No. 2/2020)
+  shows: 'Kinematic diagrams of hood, deck-lid and side-door latches: catch (fork-bolt), pawl, springs, striker and release
+    levers in open and latched positions'
+  license: 'link only [uncertain: licence not stated on the pages read]'
+- url: https://media.southco.com/media/static/Literature/r4-r.en.pdf
+  title: R4 Rotary Latch catalogue pages (Southco)
+  shows: Dimensioned drawings of small rotary latches, their release levers and pull direction, striker bolts, wire-form strikers
+    and mounting brackets
+  license: link only
+- url: https://www.youtube.com/watch?v=u4kbrPenG8E
+  title: 'Rotary Latches: The Complete Guide (IQS Directory, YouTube; title and channel confirmed via YouTube oEmbed, not
+    watched)'
+  shows: Overview video of rotary latch types and uses
+  license: link only
+make_it_yourself:
+- url: https://www.thingiverse.com/thing:3473398
+  title: Rotary Latch by mauricio_martins (Thingiverse; appeared in search results; the page opened but its content did not
+    load, so not checked)
+  what_it_is: A printable rotary latch model listed on Thingiverse (details not checked)
+  license: '[uncertain: not seen]'
+- url: https://www.printables.com/model/130253-spring-loaded-latching-mechanism
+  title: Spring-loaded latching mechanism by ConceivablyEngineering (Printables 130253; details read via the Printables public
+    API) (URL from Printables API, page not opened)
+  what_it_is: 'A related printed latch ''inspired by a slam latch'' but using spring-loaded sliding pins rather than a rotating
+    claw: you press the pins to open and to close it, so it cannot be slammed; fits M3 screws at 100% scale, and the printed
+    spring needs thick walls (over 3 mm) and slow printing'
+  license: CC BY-SA
+sources:
+- https://www.utgjiu.ro/rev_ing/pdf/2020-2/03_L.pdf
+- https://www.law.cornell.edu/cfr/text/49/571.206
+- https://media.southco.com/media/static/documents/brochures/20200717-BR-Rotary-WEB.pdf
+- https://media.southco.com/media/static/Literature/r4-r.en.pdf
+- https://www.machinedesign.com/automation-iiot/cables-connectors-enclosures/article/21832079/how-to-get-the-best-rotary-latches
+- https://spep.com/blog/a-guide-to-rotary-latch-systems/
+- https://us.tchweb.com/blogs/access-hardware/rotary-latch
+- https://www.iqsdirectory.com/articles/latch/rotary-latches.html
+- https://www.industrialhwe.com/rotary-latches/weston-body-rotary-latch-claw-style.asp
+- https://www.mcmaster.com/products/rotary-latches/ (read via WebFetch summary)
+- https://en.wikipedia.org/wiki/Latch (read via the Wikipedia API)
+- https://en.wikipedia.org/wiki/Car_door (read via the Wikipedia API)
+- https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://vimeo.com/240646729 (title confirmed via Vimeo oEmbed)
+- https://www.youtube.com/watch?v=u4kbrPenG8E (title confirmed via YouTube oEmbed)
+- https://www.printables.com/model/130253-spring-loaded-latching-mechanism (read via https://api.printables.com/graphql/)
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Rotary_latch_claw_latch.json
+glossary: [misalignment, self-locking, over-centre, detent, ratchet, pawl, actuator, solenoid, flexure, torsion, clearance,
+  tolerance, form-fit--force-fit--material-bond, holding-force, creep, layer-lines, infill, o-ring]
+---
+
+A latch in which a spring-loaded rotating hook (the claw or rotor) swings shut around a striker bar as the door is pushed closed and is then held by a small catch (the [pawl](../glossary.md#pawl)), so the door stays shut until a handle, button, cable or motor lifts the catch.
+
+**In plain words:** A hidden, spring-loaded hook that snaps shut around a metal bar or pin on the frame when you push a door or lid closed, and stays shut until someone pulls a handle, button or cable that lets it go (the latch inside a car door). **Proper term:** Rotary latch (claw latch).
+
+**Also called:** claw latch; claw-style rotary latch (supplier name for the version whose claw engages a striker peg or loop); rotary slam latch; slam latch (the wider family of latches you close by pushing or slamming; Wikipedia 'Latch', IQS Directory); rotary pawl latch; jaw latch; fork latch; fork-bolt latch; single-stage rotary latch; two-stage rotary latch (has a 'secondary' or 'safety' catch position); single-rotor and double (dual) rotor rotary latch; car door latch; bonnet (hood) latch; boot (trunk) or deck-lid latch; tailgate latch; remote-release rotary latch; cable-release latch; electronic or electromechanical rotary latch; the rotating hook: rotor, claw, jaw, catch or fork-bolt (FMVSS 206 calls it the fork-bolt; Antonescu et al. call it the catch); the part that holds the hook shut: pawl, [detent](../glossary.md#detent) lever, trigger, or '[ratchet](../glossary.md#ratchet)' (car-latch papers use 'ratchet' and 'pawl' for this same part, and sometimes 'ratchet' for the claw, so check the drawing); the bar it grabs: striker, striker bolt, striker pin, striker peg, U-striker, wire-form striker, keeper; 'Nader bolt' is a nickname for the striker bolt on car doors (Wikipedia 'Latch').
+
+## How it works
+
+As the door closes, the striker bar slides into the V-shaped mouth of the claw and pushes on its inner face, so the claw turns and its hook wraps round the striker. Meanwhile the spring-loaded pawl rides along the claw's outer edge and drops into a notch, blocking the claw from turning back (Antonescu et al.: the pawl 'follows the catch exterior profile' until it blocks the catch in the fully latched condition). When someone pulls on the door, the claw presses on the pawl, but the contact is placed so that this push hardly turns the pawl: the turning effect it has about the pawl's pivot is smaller than the pawl spring's, so pulling or shaking does not open it (Antonescu et al.). To open, a handle, button, key, cable, rod or motor lifts the pawl out of the notch, and the claw spring swings the claw open and releases the striker. A two-stage latch has a second notch that catches the claw part way, so a door that was not pushed fully shut is still held (the 'secondary latched position') but rattles until it is pushed home (Machine Design; FMVSS 206).
+
+## Parts
+
+A small assembly that acts as one unit: a housing (usually two steel plates, with mounting holes or threaded studs); the claw (rotor) on one pivot pin; the pawl (catch) on a second pivot pin; a spring that swings the claw open and a spring that pushes the pawl against the claw; a release lever or trigger with a hole or slot for a cable or rod; and often a rubber bumper. A separate striker (a bolt with washer and [O-ring](../glossary.md#o-ring), a bent wire loop or a U-shaped bracket) bolts to the other part. A full system adds an [actuator](../glossary.md#actuator) (paddle, T-handle, pull handle, push button, key lock or electronic actuator) and a cable or rod to connect it (Southco; Machine Design).
+
+## Everyday examples
+
+- car side doors: the latch in the door edge grabs a striker bolt on the door pillar
+- a car bonnet (hood), released by a lever inside the car pulling a cable (Machine Design; Antonescu et al.)
+- a car boot (trunk) lid or tailgate
+- storage lockers on camper vans, trucks and boats that open with a paddle or push button (Machine Design)
+
+## When to use it
+
+When a door, lid, hatch or panel should close just by pushing it shut and open with one pull or button press, with no visible latch on the outside. Good for vehicle, van and boat doors, machine guards and enclosure doors, and anything that shakes or is bumped, because it holds against vibration. It also lets you put the handle somewhere different from the latch (remote release by cable or rod), use one handle to open several latches on a wide panel, and hide the latch completely for security (SPEP; Machine Design). Choose a two-stage version where a half-closed door would be dangerous.
+
+## When not to use it
+
+Not needed for light cabinet doors: use a magnetic catch, a push-push latch or a ball catch. Not when the lid must be pulled tight against a seal from outside: use a draw latch or compression latch. Not where you want a key or knob turned through the door itself: use a cam latch. Not as security on its own: add a locking actuator or a padlock hasp. A home-printed claw is not suitable for doors that people ride behind or that hold heavy loads: buy a certified steel latch (FMVSS 206-compliant for vehicle doors). And avoid it where there is no room behind the door face for the latch body and the striker.
+
+## Details
+
+- **What it does (jobs):**
+  - lock, and release by hand: holds a door, lid, hood or hatch shut until someone pulls a handle, presses a button or pulls a cable
+  - join and hold: keeps a door or panel pressed against its frame against pulling, vibration and (in cars) crash loads
+  - hold or release using power: electronic versions release the pawl with a motor or [solenoid](../glossary.md#solenoid), for key fobs, card readers or remote buttons (Southco; Machine Design)
+- **Movement:** rotate: inside the latch the claw swings through part of a turn to wrap round the striker, and the pawl swings a small amount to drop into its notch; the striker itself enters the slot in a nearly straight line as the door closes. No source gave the claw's angle of turn.
+- **Directions it can move (degrees of freedom):** While closing: 1 (the claw's turn is tied to how far the striker has gone into the slot). Once latched: 0 at the latch, because the striker is trapped in the claw and the claw is blocked by the pawl, apart from the small play a bumper or door seal takes up. The pawl is a separate part with 1 freedom (its own swing) that is used only to hold and release.
+- **Special behaviour:**
+  - [self-locking](../glossary.md#self-locking) (pulling on the door presses the claw against the pawl in a way that does not push the pawl out of its notch, so pulls and vibration do not open it; Antonescu et al.)
+  - hand-release only (it opens only when a handle, button, cable, key or motor lifts the pawl)
+  - quick-release (closing is 'push-to-close': just push or slam the door; opening takes one pull or push on the actuator; Southco; Machine Design; SPEP)
+  - one-way (the claw turns freely in the closing direction and is caught by the pawl, but cannot turn back open until released; the claw and pawl work like a short ratchet and pawl)
+  - indexing (a two-stage latch clicks into a secondary 'safety' position and then the fully latched position; Southco; FMVSS 206)
+  - self-aligning or self-centring (the V-shaped mouth guides the striker in; double-rotor latches give the most [tolerance](../glossary.md#tolerance) for [misalignment](../glossary.md#misalignment), and McMaster-Carr sells self-aligning versions whose 'slanted edges help misaligned doors close smoothly')
+- **How it holds:** shape (the claw's hook wraps round the striker and the pawl blocks the claw; [form-fit](../glossary.md#form-fit--force-fit--material-bond)), plus spring force (springs keep the pawl in its notch and swing the claw open on release)
+- **Input and output:** not applicable (it is a holding joint; the release cable or rod only moves the pawl)
+- **Power:** passive (no power needed): it latches by the push of the door and releases by hand through a cable, rod or handle. Electronic and electromechanical rotary latches also exist (Southco R4-EM range and 'electronic and mechanical access options'; Machine Design mentions key fobs and internal electronic actuators): an electric actuator lifts the pawl. What happens when power is lost depends on the product; because the latch holds mechanically, it normally stays latched and needs power, or a manual override, only to open ⚑ [uncertain: no opened source states this].
+- **Load:** medium to heavy for its size. Southco rates its R4 range at up to 2,600 N (R4-05, 46 x 22 mm), 3,600 N (R4-10), 8,000 N (R4-20), 14,000 N (R4-30, FMVSS 206 compliant with a support plate) and 18,000 N (R4-50, double rotor) (Southco rotary brochure). A claw-style rotary latch rig-tested at over 6.0 kN transverse load (direct pull), but is 'NOT for use with passenger restraint doors' (Weston Body, via Industrial Hardware Distributors). US car door latches must not separate under 11,000 N pulling straight away from the latch face and 9,000 N in the fork-bolt opening direction when fully latched, 4,500 N in the secondary position, and 30 g inertia loads (FMVSS 206). Strong when the door is pulled away from the frame in these directions; weaker when the striker is pushed sideways along its own length out of the claw's plane, which is why vertically opening back doors are also tested in that third direction (FMVSS 206 Load Test Three) ⚑ [uncertain: no source ranks the directions]. Single-rotor latches suit rigid doors; flexible doors that twist need double-rotor latches (Southco).
+- **Play and precision:** small play: the claw holds the striker loosely unless a rubber bumper or the door seal presses them together (Machine Design: the bumper 'traps the striker between a rubber bumper and the rotor'). It does not locate a door precisely. Misalignment tolerance depends on type: light-duty single-rotor latches are 'best for rigid door applications with minimal misalignment concerns', medium and large single-rotor latches 'allow for considerable misalignment', and double-rotor latches give 'maximum accommodation for misalignment' (Southco brochure).
+- **Taking it apart:** tool-free quick release: open with the handle, button or cable and close by pushing the door; the latch and striker themselves are bolted on and can be removed
+- **How often it can be reused:** many times: it is built to be opened and closed every day (the Southco R4 catalogue lists 'high cycle life' and 'exceptional cycle life' for some latches, and SPEP stresses long service life), but no numerical cycle rating was found in the sources checked ⚑ [uncertain]
+- **Sealing:** none: the latch does not seal by itself; a separate door gasket does that. A built-in rubber bumper traps the striker against the rotor to stop rattle and noise (Machine Design; Southco R4 'integrated bumper for anti-vibration').
+- **Adjustable:** a little: the striker position can be moved to set how far the door closes and how well it lines up, using slot-mount wire strikers or a striker bolt in a [clearance](../glossary.md#clearance) hole (Southco R4 lists single-hole and slot-mount strikers) ⚑ [uncertain: adjustment procedure not described in the sources]; rubber bumpers and the door seal take up play. The latch itself has no adjustment.
+- **Access needed:** one side only (blind) for use: the latch is hidden inside the door or cabinet and is released remotely through a cable or rod; fitting it needs access to the inside face of the door and the frame where the latch and striker bolt on
+- **Materials:** Latch: steel with zinc, zinc-nickel or black zinc-nickel plating, or 304 stainless steel (Southco R4); stainless for maximum corrosion resistance (Southco brochure). Strikers: plated or stainless steel bolts and wire forms, or moulded strikers (Southco R4). Actuators: plastic, or zinc or aluminium die-cast; cables: stainless steel with a vinyl coating and an acetal liner (Machine Design). Doors: sheet metal, composite, plastic or wooden panels. Home-made latches: a printed claw and pawl in a tough plastic such as PETG or nylon, running on steel pins and grabbing a steel bolt ⚑ [uncertain: design suggestion, not tested].
+- **Heat, cold, water and wear:** Plain zinc-plated steel suits indoor or covered use; for outdoor, marine or wash-down use choose zinc-nickel plating or stainless steel (Southco offers stainless 'for maximum corrosion resistance'). Vibration is handled well, but use a version with a rubber bumper to stop rattle (Southco; Machine Design). Railway applications may need latches that meet the EN 45545-3 fire standard (Southco brochure). Cables can stretch or corrode: stainless cable with a liner resists both (Machine Design). No temperature ratings were found in the sources checked ⚑ [uncertain]. Printed plastic claws and springs will [creep](../glossary.md#creep) and weaken under constant spring load, especially in a hot vehicle; PLA is the worst for this ⚑ [uncertain: general material behaviour, not tested for this part].
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: the usual choice; rotary latches, strikers, cables and actuators are sold as a system (Southco; McMaster-Carr)
+  - sheet metal: housings, strikers and mounting brackets are pressed or bent steel; a home-made claw and pawl can be cut from steel or aluminium plate ⚑ [uncertain]
+  - 3D print (FDM): light-duty or demonstration latches, handles, actuator housings, cable guides and mounting brackets ⚑ [uncertain: no printed rotary latch design could be inspected]
+  - woodwork: fitting bought latches in wooden cabinets, van and camper storage, and boxes
+- **Printing it in one piece (print in place):** no, as a rule: the claw, pawl and housing need springs and are best run on metal pivot pins, so they are printed as separate parts and assembled ⚑ [uncertain: based on the parts list, not on an inspected printed design]
+- **Tools:** To use: none (or a key for locking actuators). To fit: a drill for the mounting holes and the striker hole, a screwdriver or spanner for the two mounting screws (for example, the small Southco R4-05 takes M4 or 8-32 screws or 4.5 mm through-bolts) and for the striker bolt (M5 or 10-24 thread), plus cable cutters or crimping tools for the release cable if it is cut to length.
+- **Difficulty:** easy to fit a bought one (two screws, a striker bolt and a cable to a handle); moderate to hard to make your own, because the claw and pawl notches must be shaped accurately and be strong, and it needs pivot pins and two springs, so a printed one suits only light doors and demonstrations
+
+### 3D printing tips
+
+Printed rotary latches are only for light doors, demonstrations and learning; buy a steel one for anything that carries real load or protects people. Suggested practice ⚑ [uncertain: design suggestions drawn from the mechanism described by Antonescu et al. and the Southco drawings, not from a tested printed design]: (1) Print the claw and pawl lying flat so the hook and the notches are formed within each layer; FDM parts, 'like wood', are stronger in one direction than the other (Prusa knowledge base), and a hook printed standing up would snap along a layer line. (2) Sandwich the claw and pawl between two housing plates, as bought latches do, so each pivot pin is supported on both sides; use steel pins or bolts (for example M3 or M4) as pivots and a steel bolt as the striker. (3) Use a small [torsion](../glossary.md#torsion) or compression spring to open the claw and another to push the pawl in; printed springs lose force over time. (4) Shape the pawl so that the claw's push on it points close to the pawl's pivot, so the pawl spring can hold it (the latch holds because the claw's turning effect on the pawl is smaller than the spring's; Antonescu et al.); test by pulling hard on the striker and checking the pawl does not creep out. (5) Use PETG, ABS or nylon rather than PLA for parts under constant spring load or in a warm place, and solid [infill](../glossary.md#infill) around the hook and notches. (6) Add a soft pad (for example printed TPU) where the striker stops, to stop rattle, as the integrated bumpers on bought latches do (Southco; Machine Design). (7) Allow clearance on the pins and test-fit first, since FDM parts need tuned tolerances (Prusa). (8) Route the release cable with gentle bends and a clip or clamp on its end fitting.
+
+### Buying one (off-the-shelf parts)
+
+Rotary latches (single-stage or two-stage; single or double rotor; left-hand or right-hand; hand, bottom, top, direct or dual-trigger actuation; with or without an integrated bumper; mechanical or electronic); striker bolts (with hex washer and O-ring), wire-form strikers (single-hole or slot mount), U-strikers, moulded strikers and striker mounting brackets; release cables with end fittings (barrel, L, Z, ball, eyelet or bare cable) and retainer clips; actuators (paddle handles, T-handles, flush or surface pull handles, push buttons, key-locking and electronic actuators; cable splitters for several latches) (Southco; Machine Design). McMaster-Carr families: 'Remote-Release Rotary Latches (with Safety Catch)', 'Remote-Release Rotary Latches with Cable and Handle', 'Rotary Latches with Handle', 'Electronic Remote-Release Rotary Latches' and 'Self-Aligning Remote-Release Rotary Latches with Safety Catch'. Search terms: 'rotary latch', 'claw latch', 'rotary slam latch', 'two-stage rotary latch', 'striker bolt', 'rotary latch cable', 'paddle latch actuator'.
+
+## Rules of thumb
+
+- Pick the latch by the load it must hold: the Southco R4 range runs from 2,600 N for the 46 x 22 mm R4-05 to 18,000 N for the double-rotor R4-50 (Southco 'Rotary Latching Systems' brochure, pp. 7-8, https://media.southco.com/media/static/documents/brochures/20200717-BR-Rotary-WEB.pdf).
+- Use a two-stage latch where a door must never be left falsely latched: the secondary position holds a door that was not pushed fully shut, and it rattles until pushed home (Machine Design, https://www.machinedesign.com/automation-iiot/cables-connectors-enclosures/article/21832079/how-to-get-the-best-rotary-latches; Southco brochure p. 6).
+- Match the rotor to the door: light-duty single-rotor latches for rigid doors with little misalignment, larger single-rotor for 'considerable misalignment', double-rotor for flexible doors and the most misalignment (Southco brochure p. 6).
+- Reference strength for doors that carry people: in the fully latched position a US car door latch must not separate under 11,000 N pulling straight away from the latch face or 9,000 N in the fork-bolt opening direction, 4,500 N in the secondary position, and must stay latched under a 30 g inertia load (FMVSS 206, 49 CFR 571.206, https://www.law.cornell.edu/cfr/text/49/571.206).
+- For remote release, use stainless steel cable with an acetal liner inside a coated jacket; L-shaped cable ends need a retaining clip and resist vibration, while Z-shaped ends need no clip but resist vibration less (Machine Design).
+- The latch holds because the pawl spring's turning effect is larger than the turning effect the claw's push has about the pawl pivot; releasing it means applying a force to the pawl (or its lever) that overcomes that spring (Antonescu et al., 'Automotive door latch mechanisms', 2020, https://www.utgjiu.ro/rev_ing/pdf/2020-2/03_L.pdf).
+
+## Common failures
+
+(1) False latching: the door catches only on the secondary position or is not fully closed, and rattles; push it home, and use a two-stage latch so a half-closed door is at least held (Machine Design). (2) The door will not latch, or needs slamming: the striker is out of line with the claw's mouth; reposition the striker (slot-mount strikers) or use a larger single-rotor or a double-rotor latch that accepts more misalignment (Southco). (3) The latch will not release, or releases only sometimes: cable stretch, a kinked or corroded cable, or the wrong end fitting; use stainless cable with a liner, gentle bends and a clipped L-fitting (Machine Design). (4) The release cable breaks and the door is stuck shut: provide a second release path (Antonescu et al.). (5) Rattle and noise: fit a latch with an integrated bumper (Southco). (6) Printed claws crack at the root of the hook or along [layer lines](../glossary.md#layer-lines), and printed springs lose force: print flat, use a tougher plastic and metal springs ⚑ [uncertain].
+
+## Safety
+
+Fingers can be trapped between a closing door and the striker, and the claw snaps shut with force ⚑ [uncertain: general caution]. A broken or stretched release cable can leave a door stuck shut: car hood latches have a second release lever for exactly this (Antonescu et al.), so give any enclosure you might need to open in an emergency a second release, and never use a latch that only opens from outside on anything a person or animal could be shut inside. Exposed push buttons that open a latch can be triggered by knocks: Wikipedia's 'Car door' article describes doors opening in crashes when outside push buttons were struck, which is why car handles are pulled rather than pushed. Doors that carry people need certified latches (FMVSS 206 in the US; elsewhere, regulation No. 11 on door latches and door retention components, per Wikipedia 'Car door').
+
+## Related
+
+- Draw latch ([over-centre](../glossary.md#over-centre) latch): mounted outside, pulls a lid tight against a seal with a lever, but cannot be slammed shut and is visible
+- Push-push latch (push-to-open, heart-cam latch): also closes with a push, but opens with a second push; for light cabinet doors, with no remote release
+- Cam latch (quarter-turn cam lock): a knob or key through the door turns an arm behind the frame; no push-to-close
+- Sear and trigger (trip release mechanism): the same idea of a small catch holding back a larger force; the pawl in a rotary latch acts as a sear
+- Ratchet and pawl: the claw's notches and the pawl work like a short ratchet; a two-stage latch has two teeth
+- Solenoid latch (solenoid lock, electric strike) and servo or motorised latch: powered alternatives; electronic rotary latches combine a rotary latch with a powered release
+- Bowden cable (push-pull cable): the cable used to release a rotary latch from a distant handle
+- Magnet joint (embedded magnets, magnetic catch): push-to-close too, but only light [holding force](../glossary.md#holding-force)
+- Spring latch bolt (house door latch): a sloped bolt that the strike plate pushes back as the door closes; the house-door equivalent of push-to-close (Wikipedia 'Latch')
+- Compliant one-piece latch ([flexure](../glossary.md#flexure) latch): a printed one-piece catch with no separate springs, for much lighter duty
+
+## Make it yourself
+
+- [Rotary Latch by mauricio_martins (Thingiverse; appeared in search results; the page opened but its content did not load, so not checked)](https://www.thingiverse.com/thing:3473398): A printable rotary latch model listed on Thingiverse (details not checked) *(licence: ⚑ [uncertain: not seen])*
+- [Spring-loaded latching mechanism by ConceivablyEngineering (Printables 130253; details read via the Printables public API) (URL from Printables API, page not opened)](https://www.printables.com/model/130253-spring-loaded-latching-mechanism): A related printed latch 'inspired by a slam latch' but using spring-loaded sliding pins rather than a rotating claw: you press the pins to open and to close it, so it cannot be slammed; fits M3 screws at 100% scale, and the printed spring needs thick walls (over 3 mm) and slow printing *(licence: CC BY-SA)*
+
+## Pictures, videos and models
+
+- [Rotary Latching Systems brochure (Southco)](https://media.southco.com/media/static/documents/brochures/20200717-BR-Rotary-WEB.pdf): Page 6 shows photos of a single-stage latch (unlatched, fully latched) and a two-stage latch (unlatched, secondary latched, fully latched), and single-rotor vs double-rotor latches; later pages show the R4 range with load ratings *(licence: link only)*
+- [Southco | R4 Rotary Latch System Animation (Fix 8 Films, Vimeo, 85 s; title and description confirmed via Vimeo oEmbed, not watched)](https://vimeo.com/240646729): Product animation of a rotary latch system with its latch, cable and actuator *(licence: link only)*
+- [Automotive door latch mechanisms (Antonescu, Popescu and Antonescu, Annals of the Constantin Brancusi University of Targu Jiu, Engineering Series, No. 2/2020)](https://www.utgjiu.ro/rev_ing/pdf/2020-2/03_L.pdf): Kinematic diagrams of hood, deck-lid and side-door latches: catch (fork-bolt), pawl, springs, striker and release levers in open and latched positions *(licence: link only ⚑ [uncertain: licence not stated on the pages read])*
+- [R4 Rotary Latch catalogue pages (Southco)](https://media.southco.com/media/static/Literature/r4-r.en.pdf): Dimensioned drawings of small rotary latches, their release levers and pull direction, striker bolts, wire-form strikers and mounting brackets *(licence: link only)*
+- [Rotary Latches: The Complete Guide (IQS Directory, YouTube; title and channel confirmed via YouTube oEmbed, not watched)](https://www.youtube.com/watch?v=u4kbrPenG8E): Overview video of rotary latch types and uses *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 15 sentences on this page marked [uncertain].
+- ⚑ Finder value `adjustable` = partly (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) ⚑ [uncertain: adjustment procedure not des…"
+
+## Sources
+
+- <https://www.utgjiu.ro/rev_ing/pdf/2020-2/03_L.pdf>
+- <https://www.law.cornell.edu/cfr/text/49/571.206>
+- <https://media.southco.com/media/static/documents/brochures/20200717-BR-Rotary-WEB.pdf>
+- <https://media.southco.com/media/static/Literature/r4-r.en.pdf>
+- <https://www.machinedesign.com/automation-iiot/cables-connectors-enclosures/article/21832079/how-to-get-the-best-rotary-latches>
+- <https://spep.com/blog/a-guide-to-rotary-latch-systems/>
+- <https://us.tchweb.com/blogs/access-hardware/rotary-latch>
+- <https://www.iqsdirectory.com/articles/latch/rotary-latches.html>
+- <https://www.industrialhwe.com/rotary-latches/weston-body-rotary-latch-claw-style.asp>
+- <https://www.mcmaster.com/products/rotary-latches/ (read via WebFetch summary)>
+- <https://en.wikipedia.org/wiki/Latch (read via the Wikipedia API)>
+- <https://en.wikipedia.org/wiki/Car_door (read via the Wikipedia API)>
+- <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://vimeo.com/240646729 (title confirmed via Vimeo oEmbed)>
+- <https://www.youtube.com/watch?v=u4kbrPenG8E (title confirmed via YouTube oEmbed)>
+- <https://www.printables.com/model/130253-spring-loaded-latching-mechanism (read via https://api.printables.com/graphql/)>
+- <https://api.printables.com/graphql/>

@@ -1,0 +1,263 @@
+---
+title: Flare fitting
+description: A flare fitting joins a soft metal tube to a fitting or port by spreading the tube end into a cone and clamping
+  it with a nut against a matching cone, giving a strong, leak-tight metal-to-metal seal that can be undone and remade, as
+  on car brake lines, gas pipes and air-conditioner pipes.
+num: 408
+term: Flare fitting (flared tube fitting; single flare, double flare and bubble flare)
+plain_name: The end of a soft metal tube is spread out into a small cone, like a trumpet bell, with a special tool, and a
+  nut on the tube pulls that cone tight against a matching cone on the fitting so the metal itself makes the seal
+aliases:
+- flared fitting, flared joint, flare connection, flare connector (Wikipedia 'Flare fitting'; 'Piping and plumbing fitting')
+- flare nut, tube nut (the nut slid onto the tube before flaring) (Wikipedia; AGS Company)
+- SAE 45° flare (automotive, plumbing, refrigeration); JIC 37° flare (hydraulics); AN 37° flare (aircraft and military) (Wikipedia
+  'Flare fitting')
+- single flare; double flare (the tube wall folded back on itself before the cone is formed) (Wikipedia; FAA)
+- inverted double flare, a.k.a. 'funnel' or 'trumpet' flare (SAE/JASO brake fittings) (Pliassounov 2012)
+- ISO flare, bubble flare (metric brake fittings; ISO 4038, SAE J1290) (Pliassounov 2012)
+- 'AN flared fitting with sleeve (aircraft: nut, sleeve and flared tube) (FAA)'
+- flaring tool, flaring bar or block, yoke, flaring cone; double-flaring adapters (FAA; Wikipedia)
+- flare-nut wrench = line wrench = tube wrench = flare spanner = brake spanner; crow's-foot wrench for use with a torque wrench
+  (Wikipedia 'Wrench')
+- metal-to-metal seal, cone-to-cone seal
+family: seals & pass-throughs
+other_families: ['hydraulics, pneumatics & vacuum']
+finder:
+  job:
+  - join and hold
+  - seal it, or pass cables or fluid through
+  motion: none
+  special_behaviour: []
+  holding_principle: [shape, friction or clamping]
+  reuse_cycles: many times
+  seal: airtight or pressure
+  access_needed: end of a tube or shaft
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, sheet metal]
+  connects: ['tube, rod or extrusion', hoses or pipes]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [drill and tap, hand tools]
+  load_max: heavy
+  usual_process: off-the-shelf part
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Flare fitting*: some SAE 45° and JIC/AN 37° sizes share threads, so threads that screw together don''t prove the
+    parts match (the entry warns). Copper-nickel brake pipe being easier to flare rests on shop and forum claims ([uncertain]).
+    **Cross-link for the update pass:** *Compression fitting* (210) could cite the DVSA MOT manual rule that ferrule-type
+    compression joints aren''t suitable for brake-pipe repairs.'
+uncertain_fields: [materials]
+diagram_idea: A cross-section of a tube, flare nut and fitting body showing the flared cone pressed onto the seat cone, with
+  three small insets comparing a single flare, an inverted double flare (wall folded back on itself) and an ISO bubble flare
+  in its concave seat, each labelled with its angle.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
+  title: Flare Fitting 2.jpg (Wikimedia Commons, by Mortezarahimi3rd)
+  shows: Photo of a flared copper tube end with its brass flare nut and fitting
+  license: CC BY-SA 4.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Flare_koppeling.png
+  title: Flare koppeling.png (Wikimedia Commons, by LaurensvanLieshout)
+  shows: 'Labelled cut-away drawing of a flare fitting: body, nut, support sleeve, flared pipe and sealing area'
+  license: CC BY-SA 3.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:Standardized_Connectors_for_Automotive_Brake_Tubing.pdf
+  title: Standardized Connectors for Automotive Brake Tubing.pdf (Wikimedia Commons, S. I. Pliassounov 2012)
+  shows: Paper with drawings comparing the SAE/JASO inverted double flare and the ISO bubble flare brake connectors
+  license: CC BY 3.0 (reuse with credit)
+- url: https://commons.wikimedia.org/wiki/File:B%C3%B6rdelger%C3%A4t.jpg
+  title: Bördelgerät.jpg (Wikimedia Commons, by Münchner Kältetechnik)
+  shows: Photo of a refrigeration flaring tool (flaring block and yoke with cone)
+  license: CC0 (public domain dedication)
+- url: https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG
+  title: Bremsleitungsschluessel.JPG (Wikimedia Commons, by Gamsbart)
+  shows: A flare-nut wrench (line wrench, brake spanner) with the slot that slips over the tube
+  license: CC BY-SA 3.0 (reuse with credit)
+make_it_yourself:
+- url: https://www.printables.com/model/1099352-brake-line-bender-tool
+  title: brake line bender tool (Printables 1099352; URL from Printables API, page not opened)
+  what_it_is: A simple printed bending jig for 5 mm, 4.75 mm or 3/16 in brake pipe
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/1713359-brake-line-cap
+  title: Brake Line Cap (Printables 1713359; URL from Printables API, page not opened)
+  what_it_is: An M10 x 1 cap printed in PETG to plug an open brake line during servicing so fluid doesn't run out (not a permanent
+    or pressure seal)
+  license: Public domain (Creative Commons Public Domain)
+- url: https://www.printables.com/model/1594281-an-fitting-caps-and-plugs
+  title: AN Fitting Caps and Plugs (Printables 1594281; URL from Printables API, page not opened)
+  what_it_is: Printed dust caps and plugs for 37° AN fittings in storage; the designer warns 'NOT FOR PRESSURE USE'
+  license: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike)
+- url: https://www.printables.com/model/383970-any-size-wrench-generator-flare-nut-end-option
+  title: Any Size Wrench Generator - Flare Nut End Option (Printables 383970; URL from Printables API, page not opened)
+  what_it_is: A parametric spanner generator with a flare-nut (slotted ring) end, handy for showing the shape or for light-duty
+    plastic fittings
+  license: CC BY (Creative Commons Attribution)
+sources:
+- https://en.wikipedia.org/wiki/Flare_fitting
+- https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
+- https://en.wikipedia.org/wiki/Wrench
+- https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf
+- https://workforce.libretexts.org/Courses/Coalinga_College/Introduction_to_Residential_HVAC_Level_1/04%3A_Basic_Copper_and_Plastic_Pipping_Practices/4.11%3A_Joining_Copper_Piping
+- https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/
+- https://www.agscompany.com/collections/fittings?page=11
+- https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes
+- https://www.hse.gov.uk/gas/employers.htm
+- https://www.epa.gov/section608/section-608-technician-certification-0
+- https://commons.wikimedia.org/wiki/File:Standardized_Connectors_for_Automotive_Brake_Tubing.pdf
+- https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
+- https://commons.wikimedia.org/wiki/File:Flare_koppeling.png
+- https://commons.wikimedia.org/wiki/File:B%C3%B6rdelger%C3%A4t.jpg
+- https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Flare_fitting_flared_tube_fitting_double_flare.json
+glossary: [misalignment, torque, form-fit--force-fit--material-bond, brittle--ductile, cure, o-ring]
+---
+
+A flare fitting joins a soft metal tube to a fitting or port by spreading the tube end into a cone and clamping it with a nut against a matching cone, giving a strong, leak-tight metal-to-metal seal that can be undone and remade, as on car brake lines, gas pipes and air-conditioner pipes.
+
+**In plain words:** The end of a soft metal tube is spread out into a small cone, like a trumpet bell, with a special tool, and a nut on the tube pulls that cone tight against a matching cone on the fitting so the metal itself makes the seal. **Proper term:** Flare fitting (flared tube fitting; single flare, double flare and bubble flare).
+
+**Also called:** flared fitting, flared joint, flare connection, flare connector (Wikipedia 'Flare fitting'; 'Piping and plumbing fitting'); flare nut, tube nut (the nut slid onto the tube before flaring) (Wikipedia; AGS Company); SAE 45° flare (automotive, plumbing, refrigeration); JIC 37° flare (hydraulics); AN 37° flare (aircraft and military) (Wikipedia 'Flare fitting'); single flare; double flare (the tube wall folded back on itself before the cone is formed) (Wikipedia; FAA); inverted double flare, a.k.a. 'funnel' or 'trumpet' flare (SAE/JASO brake fittings) (Pliassounov 2012); ISO flare, bubble flare (metric brake fittings; ISO 4038, SAE J1290) (Pliassounov 2012); AN flared fitting with sleeve (aircraft: nut, sleeve and flared tube) (FAA); flaring tool, flaring bar or block, yoke, flaring cone; double-flaring adapters (FAA; Wikipedia); flare-nut wrench = line wrench = tube wrench = flare spanner = brake spanner; crow's-foot wrench for use with a [torque](../glossary.md#torque) wrench (Wikipedia 'Wrench'); metal-to-metal seal, cone-to-cone seal.
+
+## How it works
+
+The tube is cut square, deburred, slid through the nut and clamped in a flaring block, then a cone or mandrel is screwed or rolled into the end to cold-form it into a bell that matches the fitting's angle, 'a type of forging operation' (Wikipedia 'Flare fitting'). Tightening the nut presses the inside of the flare against the cone on the fitting, forming 'a pressure-resistant, leak-tight seal' with no gasket or sealant: compound must never go on the flare faces because it 'destroys the metal-to-metal contact' (Wikipedia; FAA). For a double flare, a first adapter pushes the tube end into a bubble and the cone then folds it into a double-thickness flare, which avoids stretching and cracking the cut end and is used for high pressure (Wikipedia; FAA). Car brake lines use either the inverted double flare, whose concave inside sits on a cone sticking out of the port, or the ISO 'bubble' flare, whose rounded outside sits in a concave seat in the port; the two are different designs (Pliassounov 2012).
+
+## Parts
+
+A few parts: the tube with its flared end, a flare nut (put on the tube before flaring), and a fitting body, union or port with a cone-shaped seat; aircraft AN fittings add a sleeve between the nut and the flare to spread vibration (FAA). Making it needs a tube cutter, a deburring tool and a flaring tool with the right angle and size, plus two spanners (Wikipedia; FAA; LibreTexts).
+
+## Everyday examples
+
+- car and motorbike brake lines, with their small hex tube nuts screwed into the brake master cylinder and callipers (Wikipedia; Pliassounov 2012)
+- copper gas pipe to a propane or natural-gas appliance in North America (Wikipedia, NFPA 54)
+- split (mini-split) air-conditioner and heat-pump refrigerant pipes joined at the indoor and outdoor units (LibreTexts)
+- aircraft and hydraulic machinery tubing (FAA; Wikipedia JIC 37°)
+
+## When to use it
+
+When soft metal tube (copper, aluminium, soft steel) must be joined to fittings or components with a reliable seal against high pressure or vibration, and the joint must still come apart for service: brake and clutch lines, fuel and oil lines, refrigerant lines, gas lines where allowed, hydraulic tubing and instrument lines (Wikipedia; FAA). Flared joints are an alternative to soldered joints that need no open flame and can be separated (Wikipedia), and they offer 'a high degree of long-term reliability' in 'mission-critical and inaccessible locations' (Wikipedia). For makers: small hydraulic or pneumatic rigs with copper or steel tube, brake-line repairs done properly with the right flare type, and connecting gauges to metal lines.
+
+## When not to use it
+
+On plastic, PEX or rubber tube (use compression fittings with inserts, push-fit couplers or hose barbs). On hard (unannealed) copper or stainless steel with a basic hand tool (anneal the end, or use compression or flareless fittings) (LibreTexts; FAA). When you don't have the right tool for the fitting's angle and type: never mix 45° and 37° parts or inverted and bubble brake flares (Wikipedia; AGS Company). When a quick, many-joint plumbing job is needed: soldering is quicker and cheaper for many joints (Wikipedia 'Piping and plumbing fitting'). For brake repairs, never use compression joints with separate ferrules (olives) instead (DVSA). For gas or refrigerant work where the law requires a registered or certified person (HSE; EPA). Never 3D print the fitting.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: joins a metal tube to another tube, a valve, a gauge or a component port such as a brake cylinder
+  - seal it, or pass cables or fluid through: makes a leak-tight metal-to-metal seal for brake fluid, fuel gas, refrigerant, fuel and hydraulic oil
+- **Movement:** none
+- **Directions it can move (degrees of freedom):** 0: once the nut is tight the tube and fitting are fixed together.
+- **Special behaviour:**
+  - none: a plain sealed joint; its useful trick is that it can be undone and remade many times without new parts (FAA)
+- **How it holds:** shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)) and friction or clamping (force-fit): the flare is wider than the hole in the nut so the tube can't pull out, and the nut's thread clamps the flare cone onto the seat to seal
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** Heavy (high pressure) for its size: used in hydraulic brakes, high-pressure hydraulics (JIC 37°) and aircraft fluid lines, where flares 'are frequently subjected to extremely high pressures' (Wikipedia; FAA). Weak points: the thin flare can crack, or be badly damaged or 'completely cut off' by overtightening; undertightening 'may allow the line to blow out of the assembly or to leak under system pressure' (FAA). Vibration concentrates at the flare edge, which is why AN fittings use a sleeve (FAA). The tube itself should be clipped and supported, not left to hang on the fitting (DVSA lists inadequately clipped brake pipe as a fault).
+- **Play and precision:** No play once tight. It tolerates very little [misalignment](../glossary.md#misalignment): line the tube up with the port before tightening and 'do not pull the installation into place with torque on the nut' (FAA). A crooked flare from a cut that isn't square leaks, a flare that is too small is weak and may pull apart, and one that is too large stops the thread engaging properly (FAA).
+- **Taking it apart:** removable: unscrew the nut with a flare-nut wrench; a properly tightened fitting 'may be removed and retightened many times before reflaring is necessary' (FAA)
+- **How often it can be reused:** many times: the same flare can be undone and retightened many times if it was not overtightened (FAA); a damaged flare is cut off and re-flared
+- **Sealing:** airtight or pressure: the flared cone is clamped onto a matching cone so metal seals against metal, with no gasket (Wikipedia; FAA); flare connections are 'considered more secure against leaks and sudden failure' and are used in hydraulic brake systems and other high-pressure, high-reliability uses (Wikipedia 'Piping and plumbing fitting')
+- **Adjustable:** no: the joint has no adjustment; a weeping joint can be retightened within the specified torque, but extra torque cannot fix a bad flare (FAA)
+- **Access needed:** end of a tube or shaft: you need a free tube end to slide the nut on and flare it, and room for a flare-nut wrench on both the nut and the fitting
+- **Materials:** Tube: soft steel, soft ([ductile](../glossary.md#brittle--ductile)) copper and aluminium are usual (Wikipedia 'Flare fitting'); copper must be soft (annealed), because 'hard-drawn copper does not flare properly' (LibreTexts); brass, copper and aluminium can be annealed by 'heating to a dull red and cool rapidly in cold water' (FAA). Rolling-type flaring tools are for soft copper, aluminium and brass only, not stainless steel or titanium (FAA). Modern car brake pipe is brazed double-walled steel tube (Pliassounov 2012); replacement brake pipe is also sold in copper-nickel alloy, said to be easier to flare ⚑ [uncertain: shop and forum claims only]. Fittings: SAE fittings for plumbing and refrigeration are typically brass; JIC fittings are steel or stainless steel (Wikipedia). Avoid mixing fitting alloys, which causes dissimilar-metal corrosion (FAA). Not for plastic tube (use compression fittings with inserts or push-fit couplers).
+- **Heat, cold, water and wear:** No rubber seal, so heat and fluids that attack [O-rings](../glossary.md#o-ring) don't affect the flare itself; limits come from the metal: steel brake pipes corrode, and the UK MOT fails pipes whose wall is reduced by a third (DVSA); mixed alloys corrode each other (FAA). Vibration concentrates at the edge of the flare, so support the tube with clips and use a sleeve where specified (FAA; DVSA). Over time and with repeated overtightening the flare or seat deforms; in SAE-style brake fittings extra torque used to [cure](../glossary.md#cure) a leak can squash the seat and narrow the passage, while on ISO bubble flares it crushes the flare (Pliassounov 2012).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part (flare fittings, nuts and unions, and pre-flared brake or refrigerant lines)
+  - sheet metal (metal tube work by hand: cutting, bending and flaring soft tube)
+- **Printing it in one piece (print in place):** no: the joint is formed metal tube and metal fittings; it can't be printed
+- **Tools:** Tube cutter (a clean, square cut; Wikipedia, LibreTexts); deburring tool or reamer for inside and outside of the cut; a flaring tool of the right type, angle and size (single-flare bar and yoke, double-flare kit with adapters, or ISO bubble tool) (FAA; Wikipedia); tube bender; two flare-nut (line) wrenches, one to hold the fitting; a crow's-foot flare wrench and torque wrench where a torque is specified (Wikipedia 'Wrench'; FAA). For copper or aluminium that has hardened: heat source to anneal the end (FAA). For brakes: brake bleeding equipment; for gas and refrigerant: leak-test and pressure-test equipment used by qualified people.
+- **Difficulty:** moderate: the tools are cheap and the steps are simple, but a leak-free flare needs a square cut, careful deburring, the right tool and angle, and practice on scrap; brake, gas and refrigerant lines are safety-critical and often legally restricted
+
+### 3D printing tips
+
+Not applicable to the joint itself: never 3D print flare fittings, nuts or adapters for brake, gas, fuel, refrigerant or any pressurised line, and never hold stored pressure in a printed part. Printed parts are useful around the job: a bending jig for 4.75 mm (3/16 in) or 5 mm brake pipe (Printables 1099352); dust caps and plugs that keep dirt out of open AN lines, which their designer marks 'NOT FOR PRESSURE USE, probably not even liquid-tight' (Printables 1594281); and an M10 x 1 cap printed in PETG to stop brake fluid running out while a line is off during servicing (Printables 1713359). A printed spanner made with a flare-nut end option (Printables 383970) is fine as a size gauge or for light plastic fittings, but use a steel flare-nut wrench on real brake and gas nuts.
+
+### Buying one (off-the-shelf parts)
+
+Search terms: 'flare nut' or 'tube nut' (state 'inverted flare' or 'bubble flare' and the thread, e.g. 3/8-24 or M10 x 1) (AGS Company); 'flare union', 'flare tee', 'flare to NPT adapter'; '45° SAE flare fitting' (brass, for refrigeration, gas and plumbing), '37° JIC fitting' (hydraulics), 'AN fitting' (Wikipedia); 'single flaring tool', 'double flaring tool kit', 'ISO bubble flaring tool' (FAA; Wikipedia); 'tube cutter', 'deburring tool', 'tube bender'; 'flare nut wrench' or 'line wrench', 'crowfoot flare nut wrench' (Wikipedia 'Wrench'); 'pre-flared brake line'. For thread and seat dimensions, link to a maker's table such as Ryco's SAE 45° flare (SAE J512) guide: https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/ rather than copying sizes.
+
+## Rules of thumb
+
+- Match the flare angle to the fitting: SAE 45° (automotive, plumbing, refrigeration), JIC 37° (higher-pressure hydraulics) and AN 37° (aircraft and military); 'SAE and AN/JIC connections are incompatible due to the different flare angle' (Wikipedia, https://en.wikipedia.org/wiki/Flare_fitting). Aircraft flaring dies make 35° to 37°, and an automotive 45° flaring tool must never be used on aircraft tube (FAA AMT General Handbook ch. 9, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf).
+- Threads screwing together don't prove a match: SAE 45° and JIC 37° share the thread forms 7/16-20, 1/2-20, 3/4-16 and 7/8-14 (Ryco, https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/), and for brake fittings 'thread engagement does not establish compatibility' between inverted and bubble flares (AGS Company, https://www.agscompany.com/collections/fittings?page=11).
+- Use a double flare for high pressure, because 'the double flare avoids stretching the cut end where a single flare may crack' (Wikipedia, https://en.wikipedia.org/wiki/Flare_fitting); on aircraft, soft aluminium tube of 3/8 in OD and under is double flared (FAA, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf).
+- Set the tube height in the flaring block exactly as the tool's instructions say: about 1/8 in above the block for a typical HVAC single flare (LibreTexts, https://workforce.libretexts.org/Courses/Coalinga_College/Introduction_to_Residential_HVAC_Level_1/04%3A_Basic_Copper_and_Plastic_Pipping_Practices/4.11%3A_Joining_Copper_Piping); flush with the top of the die for self-gauging rolling tools; and equal to the adapter shoulder thickness for a double flare (FAA).
+- Slide the flare nut onto the tube before flaring, deburr inside and out, and don't overtighten the flaring tool, which thins the flare wall (LibreTexts; FAA).
+- Tighten to the specified torque with a torque wrench; the FAA handbook's Figure 9-20 lists flared-fitting torques by tube size (FAA, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf). Never put sealing compound or tape on the flare faces (FAA).
+- Flare and compression fittings 'are generally not interchangeable' (Wikipedia, https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting).
+- UK MOT test: brake pipe repairs need suitable connectors, 'compression joints of a type using separate ferrules are not suitable', and corrosion reducing the wall by a third (about 0.25 mm) is a fail (DVSA MOT inspection manual 1.1.11, https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes).
+- Gas: copper tube for propane, LPG or natural gas may use single 45° flared brass fittings under the US National Fuel Gas Code (NFPA 54), but check acceptance with the local authority having jurisdiction (Wikipedia, https://en.wikipedia.org/wiki/Flare_fitting).
+
+## Common failures
+
+(1) Leaks from a bad flare: cracked, split or thinned flares from hard tube, overworking or overtightening the flaring tool; uneven flares when the tube slips in the block; crooked flares from a cut that isn't square; burrs left on the edge (FAA; LibreTexts). A bad flare 'cannot be corrected by applying additional torque'; cut it off and re-flare (FAA). (2) Wrong size: too small is weak and may leak or pull apart, too large stops the thread engaging (FAA). (3) Mismatched parts: 45° SAE flare on a 37° JIC or AN fitting, or an inverted flare in a bubble-flare port; the threads may still screw together (Wikipedia; Ryco; AGS Company). (4) Forgetting to put the nut on before flaring, which means cutting the flare off and starting again (LibreTexts). (5) Overtightening, which damages or cuts off the flare or ruins the nut, or undertightening, which leaks or blows out (FAA). (6) Sealant or PTFE tape on the flare faces, which stops the metal-to-metal seal (FAA). (7) Rounded nuts from using an open-ended spanner on soft brass or steel tube nuts: use a flare-nut wrench, which grips more of the nut (Wikipedia 'Wrench'). (8) Pulling a misaligned tube into place with the nut (FAA). (9) Single flares on brake or other high-pressure lines, which may crack (Wikipedia).
+
+## Safety
+
+SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rules. BRAKES: a leaking or badly repaired brake pipe is a major MOT failure, repairs need suitable connectors and ferrule-type compression joints are not allowed (DVSA); use only the flare type and thread the vehicle was built with (AGS Company), bleed the brakes and test them before driving, and if unsure have a qualified mechanic check the work. GAS: in the UK, work on gas fittings in homes and most workplaces must be done by a Gas Safe registered engineer, and 'it's illegal for anyone else to do it'; if you smell gas, turn off the supply and call the emergency number (HSE); elsewhere follow the local fuel gas code and authority (Wikipedia, NFPA 54). REFRIGERANT: in the US, technicians who service equipment that could release refrigerants must be EPA Section 608 certified (EPA); refrigerant systems run at high pressure (R-410A needs fittings rated for high pressure, LibreTexts). STORED PRESSURE: never undo a fitting while the line is under pressure; an undertightened fitting can let the line 'blow out of the assembly' (FAA), and pressurised fluid or gas can spray out. Never hold pressure in a 3D-printed part. BURNS AND CUTS: annealing tube with a torch to a dull red heat brings burn and fire risks (FAA); freshly cut tube ends and burrs are sharp.
+
+## Related
+
+- Compression fitting (ferrule fitting): looks similar from outside but grips the unchanged tube with a ring (olive or ferrule); no flaring tool, but not interchangeable with flare fittings and not allowed for UK brake pipe repairs (Wikipedia; DVSA)
+- Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope): seals on the thread with sealant, for pipe rather than tube; flare-to-NPT adapters join the two
+- Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union): seals on a washer or O-ring instead of a metal cone
+- Soldered metal joint (sweat-soldered copper pipe): permanent, cheaper and quicker for many joints, but needs a flame (Wikipedia 'Piping and plumbing fitting')
+- Brazed joint (brazing, silver soldering, hard soldering): a permanent, strong, leak-proof alternative when the joint never needs to come apart; needs a torch
+- Quick couplers for tubes and hoses (push-to-connect, sleeve lock): tool-free connect and release for air and water, at lower pressures
+- Hose barb (barbed tube fitting): soft hose pushed onto a ridged spigot, for low pressure
+- Band flange clamp (V-band clamp, tri-clamp): clamps two flanged ends together over a gasket, for larger pipes
+
+## Make it yourself
+
+- [brake line bender tool (Printables 1099352; URL from Printables API, page not opened)](https://www.printables.com/model/1099352-brake-line-bender-tool): A simple printed bending jig for 5 mm, 4.75 mm or 3/16 in brake pipe *(licence: CC BY (Creative Commons Attribution))*
+- [Brake Line Cap (Printables 1713359; URL from Printables API, page not opened)](https://www.printables.com/model/1713359-brake-line-cap): An M10 x 1 cap printed in PETG to plug an open brake line during servicing so fluid doesn't run out (not a permanent or pressure seal) *(licence: Public domain (Creative Commons Public Domain))*
+- [AN Fitting Caps and Plugs (Printables 1594281; URL from Printables API, page not opened)](https://www.printables.com/model/1594281-an-fitting-caps-and-plugs): Printed dust caps and plugs for 37° AN fittings in storage; the designer warns 'NOT FOR PRESSURE USE' *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+- [Any Size Wrench Generator - Flare Nut End Option (Printables 383970; URL from Printables API, page not opened)](https://www.printables.com/model/383970-any-size-wrench-generator-flare-nut-end-option): A parametric spanner generator with a flare-nut (slotted ring) end, handy for showing the shape or for light-duty plastic fittings *(licence: CC BY (Creative Commons Attribution))*
+
+## Pictures, videos and models
+
+- [Flare Fitting 2.jpg (Wikimedia Commons, by Mortezarahimi3rd)](https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg): Photo of a flared copper tube end with its brass flare nut and fitting *(licence: CC BY-SA 4.0 (reuse with credit))*
+- [Flare koppeling.png (Wikimedia Commons, by LaurensvanLieshout)](https://commons.wikimedia.org/wiki/File:Flare_koppeling.png): Labelled cut-away drawing of a flare fitting: body, nut, support sleeve, flared pipe and sealing area *(licence: CC BY-SA 3.0 (reuse with credit))*
+- [Standardized Connectors for Automotive Brake Tubing.pdf (Wikimedia Commons, S. I. Pliassounov 2012)](https://commons.wikimedia.org/wiki/File:Standardized_Connectors_for_Automotive_Brake_Tubing.pdf): Paper with drawings comparing the SAE/JASO inverted double flare and the ISO bubble flare brake connectors *(licence: CC BY 3.0 (reuse with credit))*
+- [Bördelgerät.jpg (Wikimedia Commons, by Münchner Kältetechnik)](https://commons.wikimedia.org/wiki/File:B%C3%B6rdelger%C3%A4t.jpg): Photo of a refrigeration flaring tool (flaring block and yoke with cone) *(licence: CC0 (public domain dedication))*
+- [Bremsleitungsschluessel.JPG (Wikimedia Commons, by Gamsbart)](https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG): A flare-nut wrench (line wrench, brake spanner) with the slot that slips over the tube *(licence: CC BY-SA 3.0 (reuse with credit))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 1 sentence on this page marked [uncertain].
+- ⚑ Research note: *Flare fitting*: some SAE 45° and JIC/AN 37° sizes share threads, so threads that screw together don't prove the parts match (the entry warns). Copper-nickel brake pipe being easier to flare rests on shop and forum claims ([uncertain]). **Cross-link for the update pass:** *Compression fitting* (210) could cite the DVSA MOT manual rule that ferrule-type compression joints aren't suitable for brake-pipe repairs.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Flare_fitting>
+- <https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting>
+- <https://en.wikipedia.org/wiki/Wrench>
+- <https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf>
+- <https://workforce.libretexts.org/Courses/Coalinga_College/Introduction_to_Residential_HVAC_Level_1/04%3A_Basic_Copper_and_Plastic_Pipping_Practices/4.11%3A_Joining_Copper_Piping>
+- <https://www.ryco.com.au/technical/thread-connector-guides/sae-threads/>
+- <https://www.agscompany.com/collections/fittings?page=11>
+- <https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/1-brakes>
+- <https://www.hse.gov.uk/gas/employers.htm>
+- <https://www.epa.gov/section608/section-608-technician-certification-0>
+- <https://commons.wikimedia.org/wiki/File:Standardized_Connectors_for_Automotive_Brake_Tubing.pdf>
+- <https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg>
+- <https://commons.wikimedia.org/wiki/File:Flare_koppeling.png>
+- <https://commons.wikimedia.org/wiki/File:B%C3%B6rdelger%C3%A4t.jpg>
+- <https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG>
+- <https://api.printables.com/graphql/>

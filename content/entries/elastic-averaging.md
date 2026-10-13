@@ -1,0 +1,279 @@
+---
+title: Elastic averaging
+description: Elastic averaging locates two parts with many more small springy contact features than strictly needed, so each
+  feature flexes slightly and their individual errors average out, giving a stiff, repeatable fit from loosely made parts.
+num: 233
+term: Elastic averaging (elastically averaged coupling or alignment)
+plain_name: Lots of small springy bumps, ribs, tubes or teeth that all press on the mating part at once; each one bends a
+  little, so the small size and position mistakes in each one cancel out and the part settles in the same accurate spot every
+  time, the way LEGO bricks click together
+aliases:
+- elastically averaged design, controlled compliance, inexact constraint design (Slocum, FUNdaMENTALs of Design)
+- elastic averaging alignment system, elastically averaged alignment (automotive patents, e.g. GM)
+- elastically averaged coupling; compare 'kinematic coupling' (exact constraint) and 'quasi-kinematic coupling', which combines
+  the two (MIT Precision Engineering Research Group)
+- Hirth coupling, curvic coupling, serrated-tooth circle divider (toothed face couplings that work by elastic averaging; MIT
+  kinematic couplings site; Slocum)
+- many-feature or multi-point alignment, over-constrained alignment with compliant features (descriptive)
+family: locating & alignment
+other_families: [compliant mechanisms & flexures, indexing & detents]
+finder:
+  job: [line parts up exactly, join and hold, click into set positions]
+  motion: none
+  special_behaviour: [self-aligning or self-centring, indexing]
+  holding_principle: [spring force, shape, friction or clamping]
+  reuse_cycles: many times
+  seal: none
+  access_needed: not applicable
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, 3D print (resin)]
+  connects: [any solid parts]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: clicks
+  tools: [none, hand tools]
+  load_max: heavy
+  usual_process: 3D print (FDM)
+  adjustable: 'no'
+  removability: removable
+  power: passive
+needs_confirming:
+  connects:
+    kind: best guess
+    reason: joins parts, but no specific kind of part found; set to any solid parts
+confirmed: []
+open_points: []
+uncertain_fields: [materials, processes, making_tips_3d_printing, rules_of_thumb, when_to_use, environment_limits]
+diagram_idea: 'Side-by-side comparison: a block held by one stiff pin in a slightly misplaced hole sits off-centre, while
+  the same block held by twelve thin springy ribs, each drawn with a different small error and a slightly different bend,
+  sits in the middle; a small graph beside it shows the leftover error shrinking as 1/√N as the number of ribs goes up.'
+links:
+- url: https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg
+  title: Lego dimensions.svg (Wikimedia Commons, by Cmglee)
+  shows: 'Dimensioned diagram of standard LEGO bricks: stud spacing, stud size and brick height, the many small interlocking
+    features that locate bricks by elastic averaging'
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG
+  title: Hirth Verzahnungsringe.JPG (Wikimedia Commons, by Pfedelbacher)
+  shows: Photo of anodised Hirth tooth rings showing how the radial teeth mesh, an elastically averaged toothed coupling
+  license: Copyrighted free use
+- url: https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%209.PDF
+  title: 'Slocum, FUNdaMENTALs of Design, Topic 9: Structural Connections & Interfaces (MIT, 2008, PDF)'
+  shows: 'Slides on elastic averaging (p. 9-31 onwards): a curvic coupling in a machine-tool turret, 3-, 4- and 5-legged chair
+    footprints, scraping plates flat, a Tamiya gearbox redesigned with LEGO-like bumps between stages, and over-constraint
+    diagrams'
+  license: link only (copyright Alexander Slocum; free download)
+- url: https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF
+  title: 'Slocum, FUNdaMENTALs of Design, Topic 3: FUNdaMENTAL Principles (MIT, 2008, PDF)'
+  shows: 'Pages 3-27 and 3-28, ''Elastically Averaged Design'': figures of multi-legged chairs and a curvic coupling, with
+    LEGO, windshield wipers and gecko feet as examples'
+  license: link only (copyright Alexander Slocum; free download)
+- url: https://patents.google.com/patent/US20150052725A1/en
+  title: US20150052725A1 Elastic averaging alignment system and method (GM Global Technology Operations, Google Patents)
+  shows: Patent describing a rigid rib pushed between two springy walls to align car components by elastic averaging, with
+    the X/√N formula (patent drawings not checked)
+  license: link only (patent document)
+make_it_yourself:
+- url: https://www.printables.com/model/116754-lego-compatible-bricks-all-sizes-upto-50x50
+  title: Lego compatible Bricks all sizes upto 50x50! (FLWE, Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable LEGO-compatible bricks with customisable tolerances and calibration bricks, a hands-on way to feel
+    how many studs averaging together give a firm, repeatable fit, and to tune the interference for your printer. Read through
+    the Printables public API.
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/142352-customizable-lego-compatible-brick
+  title: Customizable LEGO-Compatible Brick (cfinke, Printables) (URL from Printables API, page not opened)
+  what_it_is: Parametric (Customizer/OpenSCAD) LEGO-compatible brick generator with options for plates, tiles, DUPLO-size
+    bricks and Technic holes, useful for experimenting with stud and tube fit. Read through the Printables public API.
+  license: CC BY-SA (Creative Commons Attribution-ShareAlike)
+- url: https://www.printables.com/model/114737-hirth-joint-with-source-files-and-documentation
+  title: Hirth Joint with Source Files and Documentation (lendres, Printables) (URL from Printables API, page not opened)
+  what_it_is: Geometrically correct printable Hirth joint with Fusion 360 and SolidWorks source files and documentation, including
+    a 25-tooth, 60° joint that fits Manfrotto tripod rosettes and a large demonstration version. Read through the Printables
+    public API.
+  license: CC BY (Creative Commons Attribution)
+- url: https://www.printables.com/model/430589-openscad-hirth-joints
+  title: OpenSCAD Hirth Joints (mechadense, Printables) (URL from Printables API, page not opened)
+  what_it_is: OpenSCAD library for generating Hirth joints of any tooth count and angle, with a tip for printing bed-side
+    teeth without supports. Read through the Printables public API.
+  license: GNU LGPL
+sources:
+- https://pergatory.mit.edu/resources/FUNdaMENTALS.html
+- https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF
+- https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%209.PDF
+- http://pergatory.mit.edu/kinematiccouplings/html/about/elastic_averaging.html
+- http://pergatory.mit.edu/kinematiccouplings/documents/Presentations/cimit_presentation_may_8_2001.pdf
+- https://dspace.mit.edu/handle/1721.1/30361 (Willoughby, P. J., 'Elastically averaged precision alignment', PhD thesis, MIT,
+  2005; abstract page)
+- https://psdl.engin.umich.edu/pdf/DETC2006-99752.pdf (Awtar & Sevincer, 'Elastic averaging in flexure mechanisms', ASME IDETC
+  2006)
+- https://api.crossref.org/works?query.bibliographic=Principle+of+elastic+averaging+for+rapid+precision+design (metadata for
+  Teo & Slocum, Precision Engineering 49, 2017, 146-159, doi:10.1016/j.precisioneng.2017.02.003)
+- https://patents.google.com/patent/US20150052725A1/en
+- https://en.wikipedia.org/wiki/Hirth_joint
+- https://en.wikipedia.org/wiki/Lego
+- https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/
+- https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/
+- https://newscrewdriver.com/2020/12/31/accommodate-3d-printer-variation-with-crush-ribs/
+- https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg
+- https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG
+- https://api.printables.com/graphql/ (Printables models 116754, 142352, 114737 and 430589 read via the public API)
+research: research/connection-types/results/Elastic_averaging_manyfeature_alignment.json
+glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, flexure, cantilever, clearance, tolerance, interference-fit,
+  form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
+  repeatability--accuracy, creep, fatigue, brittle--ductile, galling--fretting, layer-lines, support-material]
+---
+
+[Elastic averaging](../glossary.md#elastic-averaging) locates two parts with many more small springy contact features than strictly needed, so each feature flexes slightly and their individual errors average out, giving a stiff, repeatable fit from loosely made parts.
+
+**In plain words:** Lots of small springy bumps, ribs, tubes or teeth that all press on the mating part at once; each one bends a little, so the small size and position mistakes in each one cancel out and the part settles in the same accurate spot every time, the way LEGO bricks click together. **Proper term:** Elastic averaging (elastically averaged coupling or alignment).
+
+**Also called:** elastically averaged design, controlled compliance, inexact constraint design (Slocum, FUNdaMENTALs of Design); elastic averaging alignment system, elastically averaged alignment (automotive patents, e.g. GM); elastically averaged coupling; compare '[kinematic coupling](../glossary.md#kinematic-coupling)' ([exact constraint](../glossary.md#exact-constraint)) and 'quasi-kinematic coupling', which combines the two (MIT Precision Engineering Research Group); Hirth coupling, curvic coupling, serrated-tooth circle divider (toothed face couplings that work by elastic averaging; MIT kinematic couplings site; Slocum); many-feature or multi-point alignment, over-constrained alignment with compliant features (descriptive).
+
+## How it works
+
+A kinematic coupling uses exactly as many contacts as there are directions to stop (six), so it never fights itself. Elastic averaging does the opposite: it deliberately uses dozens of contacts ([over-constraint](../glossary.md#over-constraint)), but makes each one compliant enough to bend a little (Slocum; MIT kinematic couplings site). When the parts are pressed together, every feature deflects elastically to fit, and the part settles where all the small spring forces balance, which is the average of all the feature errors; with random errors the leftover error shrinks roughly with the square root of the number of features (MIT kinematic couplings site; GM patent: Xmin = X/√N). The features must stay springy and never be pushed past their elastic limit, so they spring back and the part returns to the same place each time, and because many compliant members act together the joint as a whole is stiff (Slocum).
+
+## Parts
+
+A few parts: two mating parts, one or both carrying many compliant locating features (ribs between springy walls, springy fingers, studs in tubes, rows of teeth or pins), plus something that pushes and holds them together ([preload](../glossary.md#preload) from bolts, snaps, a clamp or friction) (Slocum; GM patent US20150052725A1).
+
+## Everyday examples
+
+- LEGO bricks: studs gripping into tubes and walls let bricks from different moulds snap together in the same place every time (Slocum; Wikipedia, Lego)
+- A five-legged office chair, whose slightly flexible legs all touch the floor instead of rocking on three (Slocum)
+- A spoked bicycle wheel: no single spoke is accurate or stiff, but together, tensioned, they make a true, strong wheel (Slocum)
+- Car components that GM aligns by pushing rigid ribs between pairs of springy walls (GM elastic averaging patent)
+
+## When to use it
+
+Use it when you want parts to line up accurately and repeatably but can't make them precisely, for example 3D-printed, laser-cut or moulded parts whose sizes vary a little from print to print or printer to printer (Teo & Slocum 2017 ⚑ [uncertain]; Willoughby 2005: 'more generous machining requirements'). It suits interfaces that must be both stiff and repeatable, since load is shared across many features (MIT kinematic couplings site), such as modular building systems, snap-together enclosures and lids, trays or tool holders that are swapped often, stacked gearbox stages (Slocum redesigned a Tamiya gearbox with LEGO-like bumps between stages), and toothed joints that must lock at chosen angles without play, such as Hirth couplings, which have no [backlash](../glossary.md#backlash) once tightened, on tripod heads and adjustable arms (Slocum; Wikipedia, Hirth joint; Printables Hirth joint model for Manfrotto rosettes).
+
+## When not to use it
+
+For the very highest [repeatability](../glossary.md#repeatability--accuracy) a kinematic coupling (balls in V-grooves) is usually better (MIT kinematic couplings site; Slocum). If you only have two or three features, it is just an over-constrained fit that will bind or rock: use a pin in a hole plus a pin in a slot, or 3-2-1 exact-constraint locating (Slocum). If the parts move relative to each other (a carriage and a leadscrew, for instance), over-constraining them creates large forces that wear bearings: add compliance or [clearance](../glossary.md#clearance) instead (Slocum, Topic 9). For a one-off press fit where exact centring doesn't matter, crush ribs are simpler (NewScrewdriver). Where the features would have to be loaded hard for a long time in a creep-prone plastic, use metal parts or a bolted joint.
+
+## Details
+
+- **What it does (jobs):**
+  - line parts up exactly: many compliant features average out manufacturing errors so a part goes back to the same place (Slocum; Willoughby)
+  - join and hold: the interference of the springy features also grips the parts, as with LEGO bricks or clip-on car trim (Slocum; GM patent)
+  - click into set positions: toothed Hirth and curvic couplings index a turret or arm to chosen angles (Slocum; MIT kinematic couplings site)
+- **Movement:** none: once pushed together the parts are held still; the only movement is the tiny flexing of each feature
+- **Directions it can move (degrees of freedom):** 0 when assembled and preloaded: many more contacts than the six needed remove all six ways of moving (deliberately over-constrained), and the compliance of each feature is what stops them fighting each other (Slocum)
+- **Special behaviour:**
+  - self-aligning or self-centring: as the parts are pushed together the springy features centre them automatically, with no measuring or adjustment; GM's patent describes components that align themselves this way (GM patent US20150052725A1; Wikipedia: Hirth joints are self-centring)
+  - indexing (clicks into set positions): in toothed face couplings (Hirth, curvic) the teeth let a part be set at any tooth position and locked there accurately (Slocum; MIT kinematic couplings site)
+- **How it holds:**
+  - spring force (a spring or springy part presses it in place): each feature is a small spring deflected by the mating part (Slocum)
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): ribs, studs, tubes or teeth sit between or inside mating features
+  - friction or clamping (force-fit): the features are an [interference fit](../glossary.md#interference-fit), so friction also resists pulling apart (GM patent); toothed couplings are clamped by bolts or springs (Wikipedia, Hirth joint)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** light to heavy depending on material and size: because load is shared by many members, elastic averaging gives higher [stiffness](../glossary.md#stiffness) and lower local stress than a kinematic coupling (MIT kinematic couplings site; Willoughby 2005). Steel Hirth and curvic couplings carry very high loads and [torque](../glossary.md#torque) in turbines and machine-tool turrets (Wikipedia, Hirth joint; Slocum). Printed or moulded plastic features are light to medium duty and are strongest when the features share the load evenly; pull-apart strength depends on the interference and friction.
+- **Play and precision:** No play once preloaded. Repeatability is better than any single feature, improving roughly with the square root of the number of contact points (MIT kinematic couplings site; Slocum), and 'can be nearly as high as in deterministic systems' (Willoughby 2005), although generally not as high as a well-made kinematic coupling (MIT kinematic couplings site). Examples: Willoughby's elastically averaged fibre-optic connector measured about 5 µm repeatability at five times scale, predicting about 0.5 µm at full size (Willoughby 2005); Ford's Duratec engine block used eight pin-and-hole joints, and their elastic averaging gave 4.85 µm realignment, but only with very tight hole [tolerances](../glossary.md#tolerance) (Slocum, Topic 9). It tolerates [misalignment](../glossary.md#misalignment) up to what the features can absorb elastically; beyond that they yield or the parts won't go together.
+- **Taking it apart:** removable: the features only bend elastically, so the parts can be pulled apart and pushed back together, like LEGO bricks (Slocum; Wikipedia, Lego); bolted toothed couplings are removable with a spanner (Wikipedia, Hirth joint).
+- **How often it can be reused:** many times, as long as the features never yield (bend permanently); plastic features wear, [fatigue](../glossary.md#fatigue) and [creep](../glossary.md#creep) with repeated assembly or long-term preload, so repeatability slowly degrades (Slocum; Hubs snap-fit guide on creep and fatigue in printed plastics).
+- **Sealing:** none
+- **Adjustable:** no: the position is set by the features' geometry. Toothed face couplings can be re-set to a different tooth angle (indexing) (Wikipedia, Hirth joint).
+- **Access needed:** not applicable: the parts are pushed together face to face and the features engage by themselves; bolted toothed couplings need access to the bolt.
+- **Materials:** Injection-moulded plastics (LEGO bricks are ABS; GM uses elastically deformable features on car components) (Wikipedia, Lego; GM patent); ground steel for Hirth and curvic couplings (Wikipedia, Hirth joint; Slocum); sheet metal, laser-cut, waterjet-cut and additively manufactured parts (Teo & Slocum 2017 ⚑ [uncertain]). For 3D printing, tough, springy plastics such as PETG, ABS and nylon suit flexing features better than [brittle](../glossary.md#brittle--ductile) ones (Hubs recommends ABS and nylon for 3D-printed snap fits).
+- **Heat, cold, water and wear:** Plastic features that stay deflected lose springiness over time through creep and relaxation, especially when warm, so fits loosen; printed parts are also weakened by fatigue from repeated assembly (Hubs). Metal toothed couplings can suffer [fretting](../glossary.md#galling--fretting) wear under vibration, which causes looseness that re-tightening the bolt can fix (Wikipedia, Hirth joint). In an over-constrained joint any forced displacement turns into force on the parts, so parts made of materials that expand differently with heat may be strained or shift as temperature changes ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - 3D print (FDM): printed ribs, springy fingers, studs-in-tubes and Hirth-type teeth (see make_it_yourself)
+  - 3D print (resin)
+  - laser cut and waterjet cut: [flexure](../glossary.md#flexure) features cut into sheet parts (Teo & Slocum 2017 ⚑ [uncertain])
+  - CNC: ground or milled Hirth and curvic couplings (Wikipedia, Hirth joint)
+  - injection moulding (not a maker process, but where most examples come from: LEGO, car trim) (Wikipedia, Lego; GM patent)
+  - off-the-shelf part: Hirth / curvic couplings and indexing tables
+- **Printing it in one piece (print in place):** no: the two mating parts are printed separately, each with its compliant features built in, and then pushed together.
+- **Tools:** none for push-together features (studs, ribs, tubes); a screwdriver or spanner when the preload comes from bolts, as in Hirth and curvic couplings (Wikipedia, Hirth joint).
+- **Difficulty:** moderate: adding many small ribs, bumps or teeth in CAD is easy, but getting the stiffness and interference right needs test prints; too stiff and the parts rock or jam (over-constraint), too soft and the location is sloppy (Slocum).
+
+### 3D printing tips
+
+1) Use many small, evenly spread features rather than two or three big ones: the averaging improves roughly with the square root of the number of features (Slocum; GM patent). 2) Make each feature flex, not crush: for example a rigid rib pushed between two thin springy walls (GM patent US20150052725A1), slim [cantilever](../glossary.md#cantilever) fingers, or LEGO-style studs gripping thin-walled tubes, rather than solid bumps that get shaved off. Crush ribs, which deform permanently, fit well but leave the centre in 'an unpredictable location' (NewScrewdriver; Hackaday). 3) Keep the strain elastic: size the interference so the features deflect without yielding, because a feature that bends permanently no longer averages (Slocum). 4) Print so the flexing features bend within a layer (in the X-Y plane); avoid springy beams built vertically in Z, where layer bonding is weakest (Hubs snap-fit guide). 5) Round the root of each flexing feature: Hubs suggests a fillet radius of at least 0.5 times the base thickness. 6) Use tough, springy material (PETG, ABS, nylon) for features that stay deflected, since plastics creep under constant load (Hubs). 7) Add something that pushes the parts fully home and holds them there (a bolt, a snap or a clamp): elastic averaging only works when the joint is preloaded (MIT kinematic couplings site; Slocum). 8) Print a small test coupon first and tune the interference for your printer; LEGO-compatible brick models offer printable calibration pieces for exactly this (FLWE on Printables). 9) For printed Hirth teeth on the bed side, cutting off half the teeth avoids [support material](../glossary.md#support-material) and still meshes with full teeth (mechadense, Printables). 10) Add [chamfers](../glossary.md#chamfer--fillet) or lead-ins so all the features can start to engage before they have to flex ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Hirth couplings and curvic couplings (face-gear couplings); serrated-tooth circle dividers and indexing tables (MIT kinematic couplings site); spring (roll) pins as compliant locating pins (Slocum Topic 9); tolerance rings (wavy spring bands between a shaft and a bore); camera and tripod 'rosettes' (Hirth-toothed joints, e.g. the Manfrotto rosette) (Printables Hirth joint model description).
+
+## Rules of thumb
+
+- Repeatability of a well-designed, preloaded elastically averaged coupling is 'approximately inversely proportional to the square root of the number of contact points' (MIT Precision Engineering Research Group, 'Coupling Types - Elastic Averaging'); GM's patent gives the minimised positional variance as Xmin = X/√N, where X is the variance of the locating features and N the number of features (GM patent US20150052725A1). So 4 features halve the error of one, and 16 quarter it.
+- A curvic coupling's two ground face gears, forced together, index about (number of teeth)^1/2 times more accurately than either gear alone (Slocum, FUNdaMENTALs of Design, p. 3-27 and Topic 9).
+- Manage the forces so that nothing yields: elastic deformation compensates for geometric errors only while the forces stay below the yield point (Slocum, p. 3-27).
+- Neither extreme: 'Too stiff and the system is over constrained and performance suffers. Too compliant, and the system will have poor accuracy, or it may buckle and fail' (Slocum, Topic 9, 'Elastic Averaging: Over-Constraint').
+- Over-constraint is not the same as elastic averaging: just because parts bend does not mean averaging is happening; stiff, mismatched constraints only create parasitic loads, for example on bearings (Slocum, Topic 9, p. 9-32).
+- Example of the cost: Ford's Duratec block and bedplate needed the elastic averaging of eight pin-and-hole joints (not two dowels) to realign within 5 µm, which required hole size tolerance of ±0.008 mm and placement of ±0.04 mm on 16 holes; a quasi-kinematic coupling was designed to replace it (Slocum, Topic 9, 'Quasi-Kinematic Couplings: Automotive Example').
+- LEGO bricks rely on very consistent moulding: the moulds are held to within about 10-20 micrometres (Wikipedia, Lego, citing the LEGO Group).
+- For printed flexing features: fillet the root with radius at least 0.5 times the thickness, and avoid flexing beams printed vertically in Z (Hubs, 'How to design snap-fit joints for 3D printing').
+- Teo and Slocum report that a part with only four flexure-based elastic averaging features still assembled precisely onto its mate after large errors were deliberately introduced (Teo & Slocum, 'Principle of elastic averaging for rapid precision design', Precision Engineering 49, 2017, pp. 146-159) ⚑ [uncertain: from the abstract as quoted in search results; paper not opened].
+
+## Common failures
+
+Features that yield or crush instead of flexing: the part fits once but no longer returns to the same place; reduce the interference or make features thinner and longer (Slocum; NewScrewdriver). Too few or too stiff features: the joint rocks, binds or needs huge force to assemble, which is over-constraint rather than averaging (Slocum). Too soft features: the part wobbles and location is poor, or features buckle (Slocum). No preload: parts not pushed fully home sit on the tips of a few features (MIT kinematic couplings site). Loosening over time from creep, relaxation and fatigue of plastic features (Hubs). Flexing features printed across the [layer lines](../glossary.md#layer-lines) snap off (Hubs). Parasitic loads on bearings or shafts when a moving part is over-constrained (Slocum). Fretting wear in toothed couplings under vibration (Wikipedia, Hirth joint).
+
+## Safety
+
+None known beyond the ordinary: fingers can be pinched when pushing parts together, and stiff plastic features can snap and leave sharp edges if over-stressed.
+
+## Related
+
+- Kinematic coupling (balls in V-grooves): the opposite philosophy, exactly six point contacts; the most repeatable and needs no averaging, but carries load at a few highly stressed points and needs preload (MIT kinematic couplings site)
+- Quasi-kinematic coupling: a hybrid with a few contact lines that flex slightly, combining exact constraint and elastic averaging (Slocum; Culpepper)
+- Exact-constraint mounting (3-2-1 locating): three, two and one contact points on three faces; exact, but loads are concentrated at a few points (Slocum)
+- Locating pins and hole-and-slot: simple and cheap, but accuracy is limited by the clearance each pin needs (Slocum)
+- Crush ribs and spring-fit features: a few ribs that deform (often permanently) to take up size variation for a press fit; good grip but the centre position is less predictable (Hackaday; NewScrewdriver)
+- Hirth joint (face-spline coupling): [radial](../glossary.md#axial--radial) teeth that are a classic elastically averaged coupling, and also index to set angles (Wikipedia; MIT kinematic couplings site)
+- Tolerance ring: a bought wavy spring band that averages out size variation between a shaft and a bore
+- Cantilever and annular snap fits: springy hooks that retain parts but don't locate them precisely on their own; Hubs recommends adding locating lugs alongside them
+
+## Make it yourself
+
+- [Lego compatible Bricks all sizes upto 50x50! (FLWE, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/116754-lego-compatible-bricks-all-sizes-upto-50x50): Printable LEGO-compatible bricks with customisable tolerances and calibration bricks, a hands-on way to feel how many studs averaging together give a firm, repeatable fit, and to tune the interference for your printer. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- [Customizable LEGO-Compatible Brick (cfinke, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/142352-customizable-lego-compatible-brick): Parametric (Customizer/OpenSCAD) LEGO-compatible brick generator with options for plates, tiles, DUPLO-size bricks and Technic holes, useful for experimenting with stud and tube fit. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- [Hirth Joint with Source Files and Documentation (lendres, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/114737-hirth-joint-with-source-files-and-documentation): Geometrically correct printable Hirth joint with Fusion 360 and SolidWorks source files and documentation, including a 25-tooth, 60° joint that fits Manfrotto tripod rosettes and a large demonstration version. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- [OpenSCAD Hirth Joints (mechadense, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/430589-openscad-hirth-joints): OpenSCAD library for generating Hirth joints of any tooth count and angle, with a tip for printing bed-side teeth without supports. Read through the Printables public API. *(licence: GNU LGPL)*
+
+## Pictures, videos and models
+
+- [Lego dimensions.svg (Wikimedia Commons, by Cmglee)](https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg): Dimensioned diagram of standard LEGO bricks: stud spacing, stud size and brick height, the many small interlocking features that locate bricks by elastic averaging *(licence: CC BY-SA 3.0)*
+- [Hirth Verzahnungsringe.JPG (Wikimedia Commons, by Pfedelbacher)](https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG): Photo of anodised Hirth tooth rings showing how the radial teeth mesh, an elastically averaged toothed coupling *(licence: Copyrighted free use)*
+- [Slocum, FUNdaMENTALs of Design, Topic 9: Structural Connections & Interfaces (MIT, 2008, PDF)](https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%209.PDF): Slides on elastic averaging (p. 9-31 onwards): a curvic coupling in a machine-tool turret, 3-, 4- and 5-legged chair footprints, scraping plates flat, a Tamiya gearbox redesigned with LEGO-like bumps between stages, and over-constraint diagrams *(licence: link only (copyright Alexander Slocum; free download))*
+- [Slocum, FUNdaMENTALs of Design, Topic 3: FUNdaMENTAL Principles (MIT, 2008, PDF)](https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF): Pages 3-27 and 3-28, 'Elastically Averaged Design': figures of multi-legged chairs and a curvic coupling, with LEGO, windshield wipers and gecko feet as examples *(licence: link only (copyright Alexander Slocum; free download))*
+- [US20150052725A1 Elastic averaging alignment system and method (GM Global Technology Operations, Google Patents)](https://patents.google.com/patent/US20150052725A1/en): Patent describing a rigid rib pushed between two springy walls to align car components by elastic averaging, with the X/√N formula (patent drawings not checked) *(licence: link only (patent document))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
+
+## Sources
+
+- <https://pergatory.mit.edu/resources/FUNdaMENTALS.html>
+- <https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%203.PDF>
+- <https://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%209.PDF>
+- <http://pergatory.mit.edu/kinematiccouplings/html/about/elastic_averaging.html>
+- <http://pergatory.mit.edu/kinematiccouplings/documents/Presentations/cimit_presentation_may_8_2001.pdf>
+- <https://dspace.mit.edu/handle/1721.1/30361 (Willoughby, P. J., 'Elastically averaged precision alignment', PhD thesis, MIT, 2005; abstract page)>
+- <https://psdl.engin.umich.edu/pdf/DETC2006-99752.pdf (Awtar & Sevincer, 'Elastic averaging in flexure mechanisms', ASME IDETC 2006)>
+- <https://api.crossref.org/works?query.bibliographic=Principle+of+elastic+averaging+for+rapid+precision+design (metadata for Teo & Slocum, Precision Engineering 49, 2017, 146-159, doi:10.1016/j.precisioneng.2017.02.003)>
+- <https://patents.google.com/patent/US20150052725A1/en>
+- <https://en.wikipedia.org/wiki/Hirth_joint>
+- <https://en.wikipedia.org/wiki/Lego>
+- <https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/>
+- <https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/>
+- <https://newscrewdriver.com/2020/12/31/accommodate-3d-printer-variation-with-crush-ribs/>
+- <https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg>
+- <https://commons.wikimedia.org/wiki/File:Hirth_Verzahnungsringe.JPG>
+- <https://api.printables.com/graphql/ (Printables models 116754, 142352, 114737 and 430589 read via the public API)>
