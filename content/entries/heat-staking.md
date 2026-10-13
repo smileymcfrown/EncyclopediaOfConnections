@@ -123,10 +123,19 @@ sources:
 - https://www.youtube.com/watch?v=r5LH1H1qd7s
 - https://www.youtube.com/watch?v=BIE6XcfOs_Y
 research: research/connection-types/results/Heat_staking_melted_plastic_rivet.json
-image: null
+image:
+  file: drawn/heat-staking.svg
+  alt: 'Three cut-away steps of heat staking: a plastic post pushed through a countersunk hole in a second plate, a hot iron
+    with tape pressing and melting the post tip, and the cooled mushroom head filling the countersink so the plates cannot
+    lift apart or slide.'
+  drawn: true
 glossary: [flexure, cantilever, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss, counterbore--countersink,
   chamfer--fillet, creep, peel-vs-shear]
 ---
+
+![Three cut-away steps of heat staking: a plastic post pushed through a countersunk hole in a second plate, a hot iron with tape pressing and melting the post tip, and the cooled mushroom head filling t](../media/drawn/heat-staking.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A post on one plastic part is pushed through a hole in another part and its end is melted and pressed into a head, locking the parts together for good with no screw, rivet or glue.
 

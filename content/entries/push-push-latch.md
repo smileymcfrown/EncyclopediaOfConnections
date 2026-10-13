@@ -138,10 +138,18 @@ sources:
 - https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushpush_latch_pushtoopen_heartcam_latch.json
-image: null
+image:
+  file: drawn/push-push-latch.svg
+  alt: 'A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest,
+    pushed in, caught in the notch, and released.'
+  drawn: true
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---
+
+![A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released.](../media/drawn/push-push-latch.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
 

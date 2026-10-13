@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two flat panels joined at a right angle with a T-slot: on the left the parts are apart, showing the T-shaped cut-out in the edge of the lower panel, the nut that drops into the crossbar of the T and the screw through the upper panel; on the right the screw runs down the stem of the T into the trapped nut and pulls the panels tight together.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="415" stroke="#cccccc" stroke-width="2" stroke-dasharray="6 6"/>
+<polygon points="60,230 90,230 90,205 130,205 130,230 190,230 190,280 168,280 168,304 190,304 190,330 210,330 210,304 232,304 232,280 210,280 210,230 270,230 270,205 310,205 310,230 340,230 340,400 60,400" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="60" y="110" width="30" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="130" y="110" width="60" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="210" y="110" width="60" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="310" y="110" width="30" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="178" y="40" width="44" height="17" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="191" y="57" width="18" height="134" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M191,69 L209,65 M191,77 L209,73 M191,85 L209,81 M191,93 L209,89 M191,101 L209,97 M191,109 L209,105 M191,117 L209,113 M191,125 L209,121 M191,133 L209,129 M191,141 L209,137 M191,149 L209,145 M191,157 L209,153 M191,165 L209,161 M191,173 L209,169 M191,181 L209,177 M191,189 L209,185 " stroke="#222" stroke-width="1.5" fill="none"/>
+<line x1="200" y1="182" x2="200" y2="276" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="182" y="262" width="64" height="24" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M192,262 L178,280 M246,262 L232,280 M246,286 L232,304" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+<text x="232" y="54" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="start" stroke="none">screw</text>
+<text x="350" y="129" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="start" stroke="none">panel B</text>
+<text x="350" y="322" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="start" stroke="none">panel A</text>
+<text x="110" y="196" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">tab</text>
+<text x="256" y="257" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="start" stroke="none">nut</text>
+<line x1="200" y1="356" x2="200" y2="336" stroke="#222" stroke-width="2"/>
+<text x="200" y="377" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">T-slot</text>
+<polygon points="450,230 480,230 480,205 520,205 520,230 580,230 580,280 558,280 558,304 580,304 580,330 600,330 600,304 622,304 622,280 600,280 600,230 660,230 660,205 700,205 700,230 730,230 730,400 450,400" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="450" y="205" width="30" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="520" y="205" width="60" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="600" y="205" width="60" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="700" y="205" width="30" height="25" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="558" y="280" width="64" height="24" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="568" y="188" width="44" height="17" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="581" y="205" width="18" height="134" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M581,217 L599,213 M581,225 L599,221 M581,233 L599,229 M581,241 L599,237 M581,249 L599,245 M581,257 L599,253 M581,265 L599,261 M581,273 L599,269 M581,281 L599,277 M581,289 L599,285 M581,297 L599,293 M581,305 L599,301 M581,313 L599,309 M581,321 L599,317 M581,329 L599,325 M581,337 L599,333 " stroke="#222" stroke-width="1.5" fill="none"/>
+<rect x="558" y="280" width="64" height="24" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M581,280 L581,304 M599,280 L599,304" stroke="#222" stroke-width="2" stroke-dasharray="4 3"/>
+<path d="M540,150 L540,196" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M648,346 L648,312" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="590" y="136" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">screw pulls panels together</text>
+<line x1="590" y1="354" x2="590" y2="340" stroke="#222" stroke-width="2"/>
+<text x="590" y="376" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">nut can&#8217;t turn in its pocket</text>
+<text x="400" y="438" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">Left: the parts apart   ·   Right: screwed together</text>
+</g>
+</svg>

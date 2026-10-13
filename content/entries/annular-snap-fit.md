@@ -127,11 +127,19 @@ sources:
 - https://www.printables.com/model/151102-snap-fit-joint-test-prints-eight-versions
 - https://www.fictiv.com/tools/snap-fit-calculator
 research: research/connection-types/results/Annular_snap_fit.json
-image: null
+image:
+  file: drawn/annular-snap-fit.svg
+  alt: 'Cut-away view of a cap pushed onto a tube in three steps: the cap''s sloped edge meets the raised ring on the tube,
+    the cap''s rim stretches outwards over it, then springs back so the ring sits in the cap''s groove.'
+  drawn: true
 glossary: [misalignment, cantilever, deflection, clearance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   circlip, chamfer--fillet, undercut, return-angle, repeatability--accuracy, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, o-ring]
 ---
+
+![Cut-away view of a cap pushed onto a tube in three steps: the cap's sloped edge meets the raised ring on the tube, the cap's rim stretches outwards over it, then springs back so the ring sits in the c](../media/drawn/annular-snap-fit.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A raised ring (bead) around one round part and a matching groove or lip on the other: pushing them together stretches the outer part or squeezes the inner one all the way round until the bead drops into the groove and the parts click together.
 

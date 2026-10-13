@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide out along the seam.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="layerA">
+<rect x="0" y="0" width="140" height="140" fill="#cfe3f5"/>
+<rect stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" x="140" y="0" width="140" height="140" fill="#fde2c4"/>
+<g fill="#fde2c4" stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke"><rect x="105" y="0" width="35" height="20"/><rect x="105" y="40" width="35" height="20"/><rect x="105" y="80" width="35" height="20"/><rect x="105" y="120" width="35" height="20"/></g>
+<g fill="#cfe3f5" stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke"><rect x="140" y="20" width="35" height="20"/><rect x="140" y="60" width="35" height="20"/><rect x="140" y="100" width="35" height="20"/></g>
+<rect x="0" y="0" width="280" height="140" fill="none" stroke="#222" stroke-width="3" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="layerB">
+<rect x="0" y="0" width="140" height="140" fill="#cfe3f5"/>
+<rect stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" x="140" y="0" width="140" height="140" fill="#fde2c4"/>
+<rect stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" x="105" y="0" width="17" height="140" fill="#fde2c4"/>
+<rect stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" x="140" y="0" width="17" height="140" fill="#fde2c4"/>
+<rect stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" x="122" y="0" width="18" height="140" fill="#cfe3f5"/>
+<rect stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" x="157" y="0" width="18" height="140" fill="#cfe3f5"/>
+<rect x="0" y="0" width="280" height="140" fill="none" stroke="#222" stroke-width="3" vector-effect="non-scaling-stroke"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="440" y1="20" x2="440" y2="380" stroke="#cccccc" stroke-width="2"/>
+<!-- exploded woven layers (oblique view) -->
+<g stroke="#222" stroke-width="2" stroke-dasharray="4 5"><line x1="40" y1="95" x2="40" y2="245"/><line x1="320" y1="95" x2="320" y2="245"/></g>
+<use href="#layerA" transform="matrix(1,0,0.5,0.4,40,245)"/>
+<use href="#layerB" transform="matrix(1,0,0.5,0.4,40,170)"/>
+<use href="#layerA" transform="matrix(1,0,0.5,0.4,40,95)"/>
+<!-- dovetail -->
+<rect x="580" y="150" width="160" height="110" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="580,150 740,150 770,126 610,126" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="740,150 770,126 770,236 740,260" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="480,150 580,150 610,126 510,126" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M480,150 L580,150 L580,185 L630,165 L630,245 L580,225 L580,260 L480,260 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="555" y1="282" x2="510" y2="318" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="220" y="40" font-size="21" font-weight="bold">Woven interlock</text>
+<text x="220" y="64">(three layers pulled apart)</text>
+<text x="625" y="40" font-size="21" font-weight="bold">Simple dovetail</text>
+<text x="110" y="86">rigid (PLA)</text>
+<text x="330" y="86">soft (TPU)</text>
+<text x="230" y="340">beams turn 90° on each layer</text>
+<text x="625" y="345">can slide out along the seam</text>
+<text x="400" y="420" font-size="19">Woven beams can't be pulled apart without breaking · a dovetail can slide out</text>
+</g>
+</svg>

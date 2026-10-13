@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides out first, and on the right a separate string for each stage makes all stages move together, each faster than the one below.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<g id="baseparts">
+<rect x="44" y="390" width="186" height="12" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="48" y="230" width="24" height="160" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="40" y1="380" x2="48" y2="380" stroke="#222" stroke-width="3"/>
+<circle cx="28" cy="380" r="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="28" cy="380" r="2.5" fill="#222"/>
+</g>
+<g id="pul"><circle r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle r="2" fill="#222"/></g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- continuous -->
+<use href="#baseparts"/>
+<rect x="96" y="230" width="24" height="160" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="144" y="190" width="24" height="160" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<rect x="192" y="110" width="24" height="160" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M40,380 L53,238 A7,7 0 0 1 67,238 L87,382 A7,7 0 0 0 101,382 L101,238 A7,7 0 0 1 115,238 L135,342 A7,7 0 0 0 149,342 L149,198 A7,7 0 0 1 163,198 L192,262" fill="none" stroke="#222" stroke-width="2.5"/>
+<use href="#pul" x="60" y="238"/><use href="#pul" x="94" y="382"/><use href="#pul" x="108" y="238"/><use href="#pul" x="142" y="342"/><use href="#pul" x="156" y="198"/>
+<circle cx="192" cy="262" r="4" fill="#222"/>
+<line x1="204" y1="102" x2="204" y2="62" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- cascade -->
+<g transform="translate(400,0)">
+<use href="#baseparts"/>
+<rect x="96" y="190" width="24" height="160" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="144" y="150" width="24" height="160" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<rect x="192" y="110" width="24" height="160" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g fill="none" stroke="#222" stroke-width="2.5">
+<path d="M40,380 L53,238 A7,7 0 0 1 67,238 L96,342"/>
+<path d="M72,250 L101,198 A7,7 0 0 1 115,198 L144,302"/>
+<path d="M120,205 L149,158 A7,7 0 0 1 163,158 L192,262"/>
+</g>
+<use href="#pul" x="60" y="238"/><use href="#pul" x="108" y="198"/><use href="#pul" x="156" y="158"/>
+<g fill="#222"><circle cx="96" cy="342" r="4"/><circle cx="72" cy="250" r="4"/><circle cx="144" cy="302" r="4"/><circle cx="120" cy="205" r="4"/><circle cx="192" cy="262" r="4"/></g>
+<g stroke="#d1495b" stroke-width="4"><line x1="108" y1="184" x2="108" y2="166" marker-end="url(#ah)"/><line x1="156" y1="144" x2="156" y2="108" marker-end="url(#ah)"/><line x1="204" y1="104" x2="204" y2="50" marker-end="url(#ah)"/></g>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="32" font-size="21" font-weight="bold">Continuous: one string</text>
+<text x="600" y="32" font-size="21" font-weight="bold">Cascade: a string per stage</text>
+<text x="214" y="90" text-anchor="start">1st</text>
+<text x="156" y="182">2nd</text>
+<text x="108" y="222">3rd</text>
+<text x="498" y="180" text-anchor="end">1x</text>
+<text x="546" y="130" text-anchor="end">2x</text>
+<text x="594" y="82" text-anchor="end">3x</text>
+<text x="28" y="420">spool</text>
+<text x="240" y="300" text-anchor="start">top stage goes</text>
+<text x="240" y="322" text-anchor="start">first, then the</text>
+<text x="240" y="344" text-anchor="start">next one down</text>
+<text x="636" y="300" text-anchor="start">all move at once,</text>
+<text x="636" y="322" text-anchor="start">each faster than</text>
+<text x="636" y="344" text-anchor="start">the one below</text>
+<text x="400" y="441">Strings only pull: a second string or spring brings the stages back in</text>
+</g>
+</svg>

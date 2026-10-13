@@ -124,10 +124,18 @@ sources:
 - https://www.printables.com/model/130253-spring-loaded-latching-mechanism (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rotary_latch_claw_latch.json
-image: null
+image:
+  file: drawn/rotary-latch.svg
+  alt: 'Three side views of a rotary latch: open with the striker coming into the claw''s mouth, closing as the striker turns
+    the claw while the sprung pawl rides its rim, and latched with the pawl dropped into the claw''s notch.'
+  drawn: true
 glossary: [misalignment, self-locking, over-centre, detent, ratchet, pawl, actuator, solenoid, flexure, torsion, clearance,
   tolerance, form-fit--force-fit--material-bond, holding-force, creep, layer-lines, infill, o-ring]
 ---
+
+![Three side views of a rotary latch: open with the striker coming into the claw's mouth, closing as the striker turns the claw while the sprung pawl rides its rim, and latched with the pawl dropped int](../media/drawn/rotary-latch.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A latch in which a spring-loaded rotating hook (the claw or rotor) swings shut around a striker bar as the door is pushed closed and is then held by a small catch (the [pawl](../glossary.md#pawl)), so the door stays shut until a handle, button, cable or motor lifts the catch.
 

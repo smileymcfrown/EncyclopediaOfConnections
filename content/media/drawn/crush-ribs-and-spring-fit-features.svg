@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three top views of a round part pressed into a printed plate: a plain tight hole whose whole wall is stretched and cracks along a layer line, a larger hole where only four small ribs squash, and a hole beside a slot that leaves a thin springy arm pressing the part against two bumps.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="rib" stroke="#222" stroke-width="3" stroke-linejoin="round">
+<path d="M391,137 L395,147 L405,147 L409,137 Z" fill="#e8e8e8"/>
+</g>
+<path id="tip" d="M395,147 L400,156 L405,147" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="3 3"/>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<!-- left: plain hole, too tight -->
+<rect x="35" y="105" width="200" height="200" rx="8" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g stroke="#bbbbbb" stroke-width="1.5">
+<line x1="37" y1="125" x2="233" y2="125"/><line x1="37" y1="145" x2="233" y2="145"/><line x1="37" y1="165" x2="233" y2="165"/><line x1="37" y1="185" x2="233" y2="185"/><line x1="37" y1="225" x2="233" y2="225"/><line x1="37" y1="245" x2="233" y2="245"/><line x1="37" y1="265" x2="233" y2="265"/><line x1="37" y1="285" x2="233" y2="285"/>
+</g>
+<circle cx="135" cy="205" r="60" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="135" cy="205" r="51" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="5 4"/>
+<path d="M195,205 L203,200 L210,207 L218,201 L226,207 L235,203" fill="none" stroke="#222" stroke-width="3"/>
+<g fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)">
+<line x1="179" y1="161" x2="199" y2="141"/><line x1="179" y1="249" x2="199" y2="269"/><line x1="91" y1="249" x2="71" y2="269"/><line x1="91" y1="161" x2="71" y2="141"/>
+</g>
+<!-- middle: crush ribs -->
+<rect x="300" y="105" width="200" height="200" rx="8" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="205" r="68" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<use href="#rib"/>
+<use href="#rib" transform="rotate(90 400 205)"/>
+<use href="#rib" transform="rotate(180 400 205)"/>
+<use href="#rib" transform="rotate(270 400 205)"/>
+<circle cx="400" cy="205" r="58" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="205" r="44" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="400" cy="205" r="26" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<use href="#tip"/>
+<use href="#tip" transform="rotate(90 400 205)"/>
+<use href="#tip" transform="rotate(180 400 205)"/>
+<use href="#tip" transform="rotate(270 400 205)"/>
+<!-- right: spring arm -->
+<rect x="565" y="105" width="200" height="200" rx="8" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="645" cy="205" r="50" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M610.0,240.7 A9.2,9.2 0 0 0 599.5,225.7 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M599.5,184.3 A9.2,9.2 0 0 0 610.0,169.3 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M704,140 Q724,205 704,270" fill="none" stroke="#222" stroke-width="13"/>
+<path d="M704,140 Q724,205 704,270" fill="none" stroke="#ffffff" stroke-width="7"/>
+<circle cx="652" cy="205" r="46" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="728" y1="205" x2="756" y2="205" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="135" y="85">Plain hole: too tight</text>
+<text x="400" y="85">Crush ribs</text>
+<text x="665" y="85">Spring arm</text>
+</g>
+<g font-size="18">
+<text x="135" y="338">whole wall stretched,<tspan x="135" dy="22">cracks on a layer line</tspan></text>
+<text x="400" y="338">only the thin rib tips<tspan x="400" dy="22">squash</tspan></text>
+<text x="665" y="338">thin arm bends and<tspan x="665" dy="22">presses part on 2 bumps</tspan></text>
+</g>
+<text x="400" y="430" font-size="18">Small parts give way, so the fit forgives small size errors</text>
+</g>
+</svg>

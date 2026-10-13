@@ -131,10 +131,19 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-living-hinges-3d-printing/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lamina_emergent_torsional_joint_LET_joint.json
-image: null
+image:
+  file: drawn/lamina-emergent-torsional-joint.svg
+  alt: 'A lamina emergent torsional joint: on the left, a flat sheet seen from above with slots cut so two panels are joined
+    only by four thin torsion bars and two end pieces; on the right, an end view folded to 60 degrees with the end piece turned
+    half that, and a spring diagram of two bars and an end piece in series, in two rows side by side.'
+  drawn: true
 glossary: [backlash, detent, torque, stiffness, flexure, compliant-mechanism, living-hinge, deflection, torsion, clearance,
   creep, fatigue, brittle--ductile, infill, print-in-place, kerf, peel-vs-shear]
 ---
+
+![A lamina emergent torsional joint: on the left, a flat sheet seen from above with slots cut so two panels are joined only by four thin torsion bars and two end pieces; on the right, an end view folded](../media/drawn/lamina-emergent-torsional-joint.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hinge made only by cutting slots in a flat sheet: the strips left between the slots twist like tiny [torsion](../glossary.md#torsion) springs, so one side of the sheet can rotate up out of the plane while the whole thing stays one piece and springs back toward flat.
 

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three end-on cut-away views of a shaft in a hole with a wavy spring-steel ring between them: first the ring sits in the hole with its waves tall, then the shaft is pushed in and every wave squashes and pushes outwards on the hole and inwards on the shaft, and finally too much twist makes the shaft slip round inside the ring while the housing stays still.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="400" stroke="#cccccc" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="533" y1="20" x2="533" y2="400" stroke="#cccccc" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="30" y="115" width="210" height="200" rx="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="135" cy="215" r="80" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M128,117 L142,117 L135,129 Z" fill="#222" stroke="none"/>
+<circle cx="135" cy="215" r="60" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M211.2,221.7 C181.5,223.2 179.4,231.2 204.3,247.3 L197.7,258.9 C171.2,245.4 165.4,251.2 178.9,277.7 L167.3,284.3 C151.2,259.4 143.2,261.5 141.7,291.2 L128.3,291.2 C126.8,261.5 118.8,259.4 102.7,284.3 L91.1,277.7 C104.6,251.2 98.8,245.4 72.3,258.9 L65.7,247.3 C90.6,231.2 88.5,223.2 58.8,221.7 L58.8,208.3 C88.5,206.8 90.6,198.8 65.7,182.7 L72.3,171.1 C98.8,184.6 104.6,178.8 91.1,152.3 L102.7,145.7 C118.8,170.6 126.8,168.5 128.3,138.8 L141.7,138.8 C143.2,168.5 151.2,170.6 167.3,145.7 L178.9,152.3 C165.4,178.8 171.2,184.6 197.7,171.1 L204.3,182.7 C179.4,198.8 181.5,206.8 211.2,208.3 Z" fill="none" stroke="#222" stroke-width="7"/>
+<path d="M211.2,221.7 C181.5,223.2 179.4,231.2 204.3,247.3 L197.7,258.9 C171.2,245.4 165.4,251.2 178.9,277.7 L167.3,284.3 C151.2,259.4 143.2,261.5 141.7,291.2 L128.3,291.2 C126.8,261.5 118.8,259.4 102.7,284.3 L91.1,277.7 C104.6,251.2 98.8,245.4 72.3,258.9 L65.7,247.3 C90.6,231.2 88.5,223.2 58.8,221.7 L58.8,208.3 C88.5,206.8 90.6,198.8 65.7,182.7 L72.3,171.1 C98.8,184.6 104.6,178.8 91.1,152.3 L102.7,145.7 C118.8,170.6 126.8,168.5 128.3,138.8 L141.7,138.8 C143.2,168.5 151.2,170.6 167.3,145.7 L178.9,152.3 C165.4,178.8 171.2,184.6 197.7,171.1 L204.3,182.7 C179.4,198.8 181.5,206.8 211.2,208.3 Z" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<text x="135" y="211" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">shaft</text>
+<text x="135" y="233" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">goes here</text>
+<text x="135" y="48" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">1  Ring sits in the hole,</text>
+<text x="135" y="72" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">waves stand tall</text>
+<text x="135" y="350" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">wavy spring ring</text>
+<rect x="295" y="115" width="210" height="200" rx="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="215" r="80" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M393,117 L407,117 L400,129 Z" fill="#222" stroke="none"/>
+<circle cx="400" cy="215" r="60" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="400" y1="215" x2="400" y2="161" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="215" r="4" fill="#222"/>
+<path d="M476.2,221.7 C458.3,225.3 455.6,235.3 469.3,247.3 L462.7,258.9 C445.4,253.1 438.1,260.4 443.9,277.7 L432.3,284.3 C420.3,270.6 410.3,273.3 406.7,291.2 L393.3,291.2 C389.7,273.3 379.7,270.6 367.7,284.3 L356.1,277.7 C361.9,260.4 354.6,253.1 337.3,258.9 L330.7,247.3 C344.4,235.3 341.7,225.3 323.8,221.7 L323.8,208.3 C341.7,204.7 344.4,194.7 330.7,182.7 L337.3,171.1 C354.6,176.9 361.9,169.6 356.1,152.3 L367.7,145.7 C379.7,159.4 389.7,156.7 393.3,138.8 L406.7,138.8 C410.3,156.7 420.3,159.4 432.3,145.7 L443.9,152.3 C438.1,169.6 445.4,176.9 462.7,171.1 L469.3,182.7 C455.6,194.7 458.3,204.7 476.2,208.3 Z" fill="none" stroke="#222" stroke-width="7"/>
+<path d="M476.2,221.7 C458.3,225.3 455.6,235.3 469.3,247.3 L462.7,258.9 C445.4,253.1 438.1,260.4 443.9,277.7 L432.3,284.3 C420.3,270.6 410.3,273.3 406.7,291.2 L393.3,291.2 C389.7,273.3 379.7,270.6 367.7,284.3 L356.1,277.7 C361.9,260.4 354.6,253.1 337.3,258.9 L330.7,247.3 C344.4,235.3 341.7,225.3 323.8,221.7 L323.8,208.3 C341.7,204.7 344.4,194.7 330.7,182.7 L337.3,171.1 C354.6,176.9 361.9,169.6 356.1,152.3 L367.7,145.7 C379.7,159.4 389.7,156.7 393.3,138.8 L406.7,138.8 C410.3,156.7 420.3,159.4 432.3,145.7 L443.9,152.3 C438.1,169.6 445.4,176.9 462.7,171.1 L469.3,182.7 C455.6,194.7 458.3,204.7 476.2,208.3 Z" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<path d="M458.7,273.7 L475,290" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M440.3,255.3 L424,239" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M341.3,273.7 L325,290" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M359.7,255.3 L376,239" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M341.3,156.3 L325,140" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M359.7,174.7 L376,191" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M458.7,156.3 L475,140" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M440.3,174.7 L424,191" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<text x="400" y="48" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">2  Shaft pushed in:</text>
+<text x="400" y="72" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">waves squash and push</text>
+<text x="400" y="350" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">spring force + friction = grip</text>
+<rect x="550" y="315" width="230" height="16" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="560" y="115" width="210" height="200" rx="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="665" cy="215" r="80" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M658,117 L672,117 L665,129 Z" fill="#222" stroke="none"/>
+<circle cx="665" cy="215" r="60" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="665" y1="215" x2="706.4" y2="180.3" stroke="#222" stroke-width="3"/>
+<circle cx="665" cy="215" r="4" fill="#222"/>
+<line x1="665" y1="215" x2="665" y2="161" stroke="#222" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M741.2,221.7 C723.3,225.3 720.6,235.3 734.3,247.3 L727.7,258.9 C710.4,253.1 703.1,260.4 708.9,277.7 L697.3,284.3 C685.3,270.6 675.3,273.3 671.7,291.2 L658.3,291.2 C654.7,273.3 644.7,270.6 632.7,284.3 L621.1,277.7 C626.9,260.4 619.6,253.1 602.3,258.9 L595.7,247.3 C609.4,235.3 606.7,225.3 588.8,221.7 L588.8,208.3 C606.7,204.7 609.4,194.7 595.7,182.7 L602.3,171.1 C619.6,176.9 626.9,169.6 621.1,152.3 L632.7,145.7 C644.7,159.4 654.7,156.7 658.3,138.8 L671.7,138.8 C675.3,156.7 685.3,159.4 697.3,145.7 L708.9,152.3 C703.1,169.6 710.4,176.9 727.7,171.1 L734.3,182.7 C720.6,194.7 723.3,204.7 741.2,208.3 Z" fill="none" stroke="#222" stroke-width="7"/>
+<path d="M741.2,221.7 C723.3,225.3 720.6,235.3 734.3,247.3 L727.7,258.9 C710.4,253.1 703.1,260.4 708.9,277.7 L697.3,284.3 C685.3,270.6 675.3,273.3 671.7,291.2 L658.3,291.2 C654.7,273.3 644.7,270.6 632.7,284.3 L621.1,277.7 C626.9,260.4 619.6,253.1 602.3,258.9 L595.7,247.3 C609.4,235.3 606.7,225.3 588.8,221.7 L588.8,208.3 C606.7,204.7 609.4,194.7 595.7,182.7 L602.3,171.1 C619.6,176.9 626.9,169.6 621.1,152.3 L632.7,145.7 C644.7,159.4 654.7,156.7 658.3,138.8 L671.7,138.8 C675.3,156.7 685.3,159.4 697.3,145.7 L708.9,152.3 C703.1,169.6 710.4,176.9 727.7,171.1 L734.3,182.7 C720.6,194.7 723.3,204.7 741.2,208.3 Z" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<path d="M631.2,227.3 A36,36 0 0 1 674.3,180.2" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="665" y="48" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">3  Too much twist:</text>
+<text x="665" y="72" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">slips at set torque</text>
+<text x="665" y="358" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">housing held still</text>
+<text x="400" y="425" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">End-on cut-away views (waves drawn bigger than real)</text>
+</g>
+</svg>

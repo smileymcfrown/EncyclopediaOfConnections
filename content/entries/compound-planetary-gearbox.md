@@ -138,10 +138,19 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Compound_planetary_gearbox_splitring_or_Wolfrom_planetary.json
-image: null
+image:
+  file: drawn/compound-planetary-gearbox.svg
+  alt: 'Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and
+    a blue output ring with 60 teeth; after the planets go round once, a marker on the output ring has moved on by only 2
+    teeth.'
+  drawn: true
 glossary: [misalignment, backlash, self-locking, axial--radial, coaxial, ratchet, torque, gear-ratio, pitch, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, heat-set-insert, creep, infill, print-in-place]
 ---
+
+![Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and a blue output ring with 60 teeth; after the planets go round once, a marker on the out](../media/drawn/compound-planetary-gearbox.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A planetary gear set whose planet gears mesh with two ring gears that differ by only a few teeth; one ring is fixed and the other is the output, so each trip of the planets round the fixed ring nudges the output ring on by the tooth difference, giving reductions from about 30:1 to over 200:1 in one flat stage.
 

@@ -117,10 +117,19 @@ sources:
 - https://github.com/BelfrySCAD/BOSL2/wiki/threading.scad
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Half_nut_split_nut_quickaction_nut.json
-image: null
+image:
+  file: drawn/half-nut.svg
+  alt: 'A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed
+    onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along
+    the screw.'
+  drawn: true
 glossary: [misalignment, backlash, self-locking, over-centre, ratchet, pawl, linkage, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, perimeters, infill, elephants-foot]
 ---
+
+![A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed onto the thread so turning the screw moves the nut, and on the right they are pulled ](../media/drawn/half-nut.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A nut split lengthwise into two halves that can be opened away from a lead screw so a carriage or vice jaw slides freely to a new position, then closed again so the screw drives or clamps it, as in quick-release vices, lathe carriages and syringe pumps.
 

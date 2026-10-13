@@ -115,10 +115,19 @@ sources:
 - https://www.printables.com/model/232869-quick-snap-pin-connectors (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Snap_pin_splitleg_pushin_pin_rabbit_clip.json
-image: null
+image:
+  file: drawn/snap-pin.svg
+  alt: 'Cut-away of a split snap pin going through a hole in two plates: the legs squeeze together in the hole, spring apart
+    once the barbs come out the far side, and the barbs'' flat backs catch when pulled; an inset shows the pin printed lying
+    flat.'
+  drawn: true
 glossary: [axial--radial, preload, cantilever, clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert,
   chamfer--fillet, undercut, return-angle, creep, brittle--ductile, elephants-foot, peel-vs-shear]
 ---
+
+![Cut-away of a split snap pin going through a hole in two plates: the legs squeeze together in the hole, spring apart once the barbs come out the far side, and the barbs' flat backs catch when pulled; ](../media/drawn/snap-pin.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A separate peg whose split, springy legs squeeze through a hole and spring open behind it, so barbs on the legs hold two parts together, either fixed or as a pivot.
 

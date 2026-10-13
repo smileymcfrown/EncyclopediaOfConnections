@@ -108,11 +108,20 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 research: research/connection-types/results/Face_ratchet_star_ratchet_faceengagement_ratchet.json
-image: null
+image:
+  file: drawn/face-ratchet.svg
+  alt: 'Side view of a face ratchet: two discs with sloped teeth on a shaft, a spring behind the right disc. Turned the drive
+    way the steep faces butt and both discs turn together; turned back, the ramps push the right disc away against the spring
+    until it clicks into the next gap. An end view shows the catch angle is 360 degrees divided by the number of teeth.'
+  drawn: true
 glossary: [backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, flexure, clearance,
   form-fit--force-fit--material-bond, spline, circlip, undercut, creep, lubrication, layer-lines, print-in-place, overhang--bridging,
   peel-vs-shear]
 ---
+
+![Side view of a face ratchet: two discs with sloped teeth on a shaft, a spring behind the right disc. Turned the drive way the steep faces butt and both discs turn together; turned back, the ramps push](../media/drawn/face-ratchet.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Two [coaxial](../glossary.md#coaxial) discs with sloped teeth on their facing sides, pressed together by a spring, that lock and drive together in one direction and ride up and click over each other in the other, as in star-ratchet bicycle hubs and printed one-way knobs and joints.
 

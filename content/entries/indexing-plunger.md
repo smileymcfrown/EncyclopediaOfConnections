@@ -133,10 +133,19 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 research: research/connection-types/results/Indexing_plunger_pullknob_index_pin.json
-image: null
+image:
+  file: drawn/indexing-plunger.svg
+  alt: 'Cut-away of an indexing plunger screwed into a fixed bracket: on the left its spring pushes the pin down into a hole
+    in a sliding bar, locking it; on the right the knob is pulled up, the spring is squashed and the bar slides along to the
+    next hole.'
+  drawn: true
 glossary: [misalignment, detent, cantilever, clearance, tolerance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   repeatability--accuracy, creep, layer-lines, overhang--bridging, peel-vs-shear]
 ---
+
+![Cut-away of an indexing plunger screwed into a fixed bracket: on the left its spring pushes the pin down into a hole in a sliding bar, locking it; on the right the knob is pulled up, the spring is squ](../media/drawn/indexing-plunger.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hand-pulled, spring-returned steel pin that drops into one of a row or circle of holes to lock a sliding or turning part at a chosen position, and holds until you pull it out again.
 

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away view of a cap pushed onto a tube in three steps: the cap's sloped edge meets the raised ring on the tube, the cap's rim stretches outwards over it, then springs back so the ring sits in the cap's groove.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#d1495b"/></marker>
+</defs>
+<g stroke="#ccc" stroke-width="2"><line x1="270" y1="70" x2="270" y2="360"/><line x1="530" y1="70" x2="530" y2="360"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round">
+<!-- frame 1 -->
+<polygon fill="#cfe3f5" points="102,230 90,230 90,240 78,256 78,262 90,274 90,350 102,350"/>
+<polygon fill="#cfe3f5" points="178,230 190,230 190,240 202,256 202,262 190,274 190,350 178,350"/>
+<polygon fill="#fde2c4" points="66,172 214,172 214,252 204,252 190,242 190,230 202,218 202,212 190,196 190,186 90,186 90,196 78,212 78,218 90,230 90,242 76,252 66,252"/>
+<!-- frame 2 -->
+<polygon fill="#cfe3f5" points="362,230 350,230 350,240 338,256 338,262 350,274 350,350 362,350"/>
+<polygon fill="#cfe3f5" points="438,230 450,230 450,240 462,256 462,262 450,274 450,350 438,350"/>
+<polygon fill="#fde2c4" points="326,196 474,196 474,210 486,240 486,276 476,276 462,266 462,254 474,242 472.4,236 454,220 450,210 350,210 346,220 327.6,236 326,242 338,254 338,266 324,276 314,276 314,240 326,210"/>
+<!-- frame 3 -->
+<polygon fill="#cfe3f5" points="622,230 610,230 610,240 598,256 598,262 610,274 610,350 622,350"/>
+<polygon fill="#cfe3f5" points="698,230 710,230 710,240 722,256 722,262 710,274 710,350 698,350"/>
+<polygon fill="#fde2c4" points="586,216 734,216 734,296 724,296 710,286 710,274 722,262 722,256 710,240 710,230 610,230 610,240 598,256 598,262 610,274 610,286 596,296 586,296"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round">
+<line x1="140" y1="105" x2="140" y2="158" marker-end="url(#ah)"/>
+<line x1="400" y1="130" x2="400" y2="184" marker-end="url(#ah)"/>
+<line x1="304" y1="258" x2="284" y2="258" marker-end="url(#ah)"/>
+<line x1="496" y1="258" x2="516" y2="258" marker-end="url(#ah)"/>
+</g>
+<line x1="54" y1="282" x2="77" y2="264" stroke="#222" stroke-width="2"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222">
+<text x="20" y="205">cap</text>
+<text x="22" y="345">tube</text>
+<text x="10" y="300">bead</text>
+<text x="140" y="390" text-anchor="middle">1 Push the cap on</text>
+<text x="400" y="390" text-anchor="middle">2 Rim stretches out</text>
+<text x="400" y="413" text-anchor="middle">(hoop strain)</text>
+<text x="660" y="390" text-anchor="middle">3 Springs back:</text>
+<text x="660" y="413" text-anchor="middle">bead sits in groove</text>
+<text x="400" y="442" text-anchor="middle" font-size="18">Back of the bead: 30° pulls off · 45° firm pull · 90° permanent</text>
+</g>
+</svg>
