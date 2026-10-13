@@ -157,3 +157,42 @@ cantilever-snap-fit:
 capstan-and-windlass:
   verdict: drawn
   reason: current picture is a differential windlass and chain hoist, a special variant; drawing shows the basic crank, drum, rope, ratchet and pawl
+# sheet05
+captive-nut-pocket:
+  verdict: drawn
+  reason: a pile of loose hex nuts does not show the pocket; drawing shows a nut held in a printed hex pocket with the bolt pulling it up
+castor:
+  verdict: swap
+  use: "File:Swivel caster.jpg"
+  alt: A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.
+  reason: current sketch only shows the trail offset, a detail; a photo of an actual swivel castor shows the item (not previewed because Commons returned HTTP 429; chosen from its description and licence)
+centrifugal-clutch:
+  verdict: keep
+  reason: clear photo of the shoes, springs and hub inside the drum
+centrifugal-pump:
+  verdict: keep
+  reason: simple animation of water flung out by the turning impeller
+chain-and-sprocket-drive:
+  verdict: keep
+  reason: animation of a roller chain running onto a sprocket
+check-valve:
+  verdict: keep
+  reason: cut-away of a spring-loaded ball check valve open to flow
+chicago-screw:
+  verdict: keep
+  reason: photo shows a Chicago screw head clamping two layers of leather
+clam-cleat:
+  verdict: keep
+  reason: photo of a clam cleat with a rope jammed in its groove
+clamp-on-accessory-mount-for-bars-poles-and-edges:
+  verdict: keep
+  reason: clear photo of a C-clamp with its clamp bolt
+clamp-on-tube-fittings:
+  verdict: keep
+  reason: clear photo of a slip-on tube fitting with its set screw
+clevis-joint:
+  verdict: keep
+  reason: clear drawing of a fork, pin and split pin
+clinching:
+  verdict: keep
+  reason: shows the clinched button interlock between two sheets

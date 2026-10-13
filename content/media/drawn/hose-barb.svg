@@ -13,7 +13,7 @@
 <use href="#half"/>
 <use href="#half" transform="matrix(1 0 0 -1 0 450)"/>
 <g stroke="#222" stroke-width="2">
-<line x1="664" y1="159" x2="650" y2="291"/><line x1="686" y1="159" x2="672" y2="291"/><line x1="708" y1="159" x2="694" y2="291"/>
+<line x1="664" y1="159" x2="660" y2="199"/><line x1="686" y1="159" x2="682" y2="199"/><line x1="708" y1="159" x2="704" y2="199"/><line x1="664" y1="251" x2="660" y2="291"/><line x1="686" y1="251" x2="682" y2="291"/><line x1="708" y1="251" x2="704" y2="291"/>
 </g>
 <line x1="40" y1="112" x2="120" y2="112" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
 <line x1="280" y1="70" x2="280" y2="112" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
@@ -26,8 +26,8 @@
 <text x="170" y="60">sharp edge grips</text>
 <text x="362" y="90">clamp</text>
 <text x="600" y="80">fitting</text>
-<text x="420" y="390" text-anchor="start">tube squeezes</text>
-<text x="420" y="412" text-anchor="start">the stem: seal</text>
+<text x="298" y="380" text-anchor="start">tube squeezes</text>
+<text x="298" y="402" text-anchor="start">the stem: seal</text>
 <text x="400" y="440">Pulling makes it grip harder; pressure spikes loosen it, so add a clamp</text>
 </g>
 </svg>

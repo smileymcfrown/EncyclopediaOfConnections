@@ -119,3 +119,43 @@ eddy-current-brake:
 elastic-averaging:
   verdict: drawn
   reason: LEGO dimension drawing is mostly numbers and does not show the averaging; new diagram compares one stiff pin with many springy ribs
+
+# --- sheet09 ---
+elastic-band-and-elastic-cord-springs:
+  verdict: drawn
+  reason: current picture is a measuring diagram of a band; new diagram shows a rubber band pulling a hinged arm back like a spring
+elastomer-isolation-mount:
+  verdict: swap
+  use: "File:Schwingungsdämpfer Aufbau.jpg"
+  alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with a sleeve for the bolt.
+  reason: in the current photo the rubber grommet is hard to make out; the cutaway shows the rubber between the two metal parts
+elastomeric-solvent-glue:
+  verdict: keep
+  reason: tube of Shoe Goo with a boot repaired with its clear rubbery bead
+electro-permanent-magnet:
+  verdict: keep
+  reason: animation shows the magnet switching on and off and the flux through the steel
+electromagnetic-brake:
+  verdict: keep
+  reason: animated cutaway of the springs, friction disc and coil
+electromagnetic-clutch:
+  verdict: keep
+  reason: labelled cutaway of rotor, armature, coil and hub
+epoxy-putty:
+  verdict: keep
+  reason: clear photo of the two parts of the putty before kneading
+escapement:
+  verdict: keep
+  reason: animated anchor escapement ticking one tooth at a time
+exact-constraint-mounting:
+  verdict: drawn
+  reason: six-degrees-of-freedom diagram is a related idea, not the mounting; new diagram shows a block on 3 + 2 + 1 points pushed into a corner
+expanding-internal-grip:
+  verdict: drawn
+  reason: historic patent page is tiny and unreadable; new diagram shows a slotted sleeve pushed up a taper to grip the inside of a tube
+eye-bolts-screw-eyes-and-hooks:
+  verdict: keep
+  reason: clear photo of an eye bolt
+eyelets-and-grommets:
+  verdict: keep
+  reason: eyelets next to the pliers that set them
