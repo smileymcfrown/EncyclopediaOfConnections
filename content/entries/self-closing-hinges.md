@@ -145,9 +145,25 @@ sources:
 - https://www.protolabs.com/resources/design-tips/how-to-design-3d-printed-hinges/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selfclosing_hinges_spring_hinge_rising_butt_hinge.json
+image:
+  file: self-closing-hinges.webp
+  width: 800
+  height: 1200
+  title: File:Door hinge with spring less self closing mechanism.jpg
+  author: Tobias ToMar Maier
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg
+  alt: 'Photo of a rising (spiral-knuckle) hinge on a door in Augsburg; description: the door closes on its own because the
+    hinge has a spiral shape that turns under gravity'
+  drawn: false
 glossary: [detent, torque, fail-safe--fail-secure, stiffness, preload, flexure, living-hinge, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, creep, lubrication, layer-lines, print-in-place, warping--shrinkage, peel-vs-shear]
 ---
+
+![Photo of a rising (spiral-knuckle) hinge on a door in Augsburg; description: the door closes on its own because the hinge has a spiral shape that turns under gravity](../media/self-closing-hinges.webp)
+
+*Picture: [Door hinge with spring less self closing mechanism.jpg](https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg) by Tobias ToMar Maier, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A hinge that stores some of the effort you use to open a door, in a coiled spring or by lifting the door up a sloping knuckle, and gives it back to swing the door shut when you let go.
 

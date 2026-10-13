@@ -124,10 +124,20 @@ sources:
 - https://api.printables.com/graphql/
 - https://uomustansiriyah.edu.iq/media/lectures/5/5_2021_12_11!08_29_17_PM.pdf
 research: research/connection-types/results/Torquelimiting_gear_with_flexing_spring_arms_compliant_slip_hub.json
+image:
+  file: drawn/torque-limiting-gear-with-flexing-spring-arms.svg
+  alt: 'Front views of a gear whose hub is split into three curved spring arms pressing on a round shaft: normally the arms''
+    grip turns the shaft with the gear; when the shaft is stuck the gear keeps turning and the arms slide round it. On the
+    right, a servo saver whose arm is held in line by springs gives way when knocked and springs back.'
+  drawn: true
 glossary: [backlash, axial--radial, detent, ratchet, pawl, torque, linkage, stiffness, preload, flexure, torsion, tolerance,
   interference-fit, form-fit--force-fit--material-bond, set-screw, spline, chamfer--fillet, stress-relaxation, brittle--ductile,
   peel-vs-shear, o-ring]
 ---
+
+![Front views of a gear whose hub is split into three curved spring arms pressing on a round shaft: normally the arms' grip turns the shaft with the gear; when the shaft is stuck the gear keeps turning ](../media/drawn/torque-limiting-gear-with-flexing-spring-arms.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A gear or hub whose own flexible arms grip the shaft by spring force, so it drives normally but slips instead of stripping teeth when overloaded, with no separate springs, balls or nuts.
 

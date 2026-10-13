@@ -142,9 +142,19 @@ sources:
 - https://www.youtube.com/watch?v=T51lx0ChgdU
 - https://www.youtube.com/watch?v=57OT_SIW96U
 research: research/connection-types/results/Tslot_joint_captive_nut_and_bolt_joint.json
+image:
+  file: drawn/t-slot-joint.svg
+  alt: 'Two flat panels joined at a right angle with a T-slot: on the left the parts are apart, showing the T-shaped cut-out
+    in the edge of the lower panel, the nut that drops into the crossbar of the T and the screw through the upper panel; on
+    the right the screw runs down the stem of the T into the trapped nut and pulls the panels tight together.'
+  drawn: true
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert, captive-nut, creep,
   perimeters, kerf]
 ---
+
+![Two flat panels joined at a right angle with a T-slot: on the left the parts are apart, showing the T-shaped cut-out in the edge of the lower panel, the nut that drops into the crossbar of the T and t](../media/drawn/t-slot-joint.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A T-shaped slot cut into the edge of a sheet traps a nut so that a screw through the neighbouring sheet can clamp the two sheets together at a corner, giving a strong joint that can be taken apart and reassembled many times.
 

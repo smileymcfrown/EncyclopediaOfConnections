@@ -143,8 +143,23 @@ sources:
 - https://www.thingiverse.com/thing:4273748
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wire_wrap_wirewrapped_connection.json
+image:
+  file: wire-wrap.webp
+  width: 800
+  height: 600
+  title: File:Wire Wrap 1.jpg
+  author: Shri Hari Ram
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
+  alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, fatigue]
 ---
+
+![Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts](../media/wire-wrap.webp)
+
+*Picture: [Wire Wrap 1.jpg](https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg) by Shri Hari Ram, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Wire wrap joins a thin solid wire to a square metal post by winding the bared wire tightly round it with a small spinning tool: the post's sharp corners bite into the wire at every turn, making about 28 tiny gas-tight, cold-welded contact points that need no solder and can be unwound and redone.
 

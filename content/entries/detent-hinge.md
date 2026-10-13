@@ -128,9 +128,19 @@ sources:
 - https://data.epo.org/publication-server/rest/v1.2/patents/EP0016268NWB1/document.html
 - https://www.slideshare.net/slideshow/orthotic-knee-joints/233011007
 research: research/connection-types/results/Detent_hinge_click_hinge_position_hinge.json
+image:
+  file: drawn/detent-hinge.svg
+  alt: 'Left: a cut-away hinge knuckle with three notches, where a spring pushes a ball into one notch to hold the lid at
+    0, 90 or 120 degrees. Right: a sofa-style ratchet fitting, where a pawl clicks up a row of teeth as the arm is raised
+    and a bump at the end knocks it clear so the arm can fold back down.'
+  drawn: true
 glossary: [over-centre, bistable, detent, ratchet, pawl, torque, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---
+
+![Left: a cut-away hinge knuckle with three notches, where a spring pushes a ball into one notch to hold the lid at 0, 90 or 120 degrees. Right: a sofa-style ratchet fitting, where a pawl clicks up a ro](../media/drawn/detent-hinge.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hinge with a built-in click mechanism (a spring pressing a ball, wedge, tooth or springy arm into notches, or a [pawl](../glossary.md#pawl) in a toothed segment) that holds a lid, door, leg or backrest at preset angles until it is pushed firmly on.
 

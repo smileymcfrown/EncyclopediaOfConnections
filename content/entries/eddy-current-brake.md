@@ -130,8 +130,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Eddycurrent_brake_magnetic_brake.json
+image:
+  file: eddy-current-brake.webp
+  width: 800
+  height: 540
+  title: File:Eddy current brake diagram.svg
+  author: Chetvorno
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Eddy_current_brake_diagram.svg
+  alt: 'A disc eddy-current brake: a spinning metal disc between magnet poles, with the induced current loops and the resulting
+    drag'
+  drawn: false
 glossary: [axial--radial, ratchet, torque, linkage, fail-safe--fail-secure, damping, hysteresis, holding-force]
 ---
+
+![A disc eddy-current brake: a spinning metal disc between magnet poles, with the induced current loops and the resulting drag](../media/eddy-current-brake.webp)
+
+*Picture: [Eddy current brake diagram.svg](https://commons.wikimedia.org/wiki/File:Eddy_current_brake_diagram.svg) by Chetvorno, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A contactless brake in which a magnet (permanent or electromagnet) induces swirling electric currents (eddy currents) in a nearby moving conductor, and those currents' own magnetic field drags against the motion, turning it into heat, with a force that grows with speed and vanishes at standstill (Wikipedia, Eddy current brake).
 

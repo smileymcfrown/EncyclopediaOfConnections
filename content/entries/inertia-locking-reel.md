@@ -112,8 +112,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Elevator_speed_governor.jpg
 - https://www.youtube.com/watch?v=aunIE33GYZc
 research: research/connection-types/results/Inertialocking_reel_seatbelt_lock_centrifugal_catch.json
+image:
+  file: inertia-locking-reel.webp
+  width: 800
+  height: 1067
+  title: File:Intertial-reel.jpg
+  author: Liftarn
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg
+  alt: Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99
+  drawn: false
 glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
+
+![Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99](../media/inertia-locking-reel.webp)
+
+*Picture: [Intertial-reel.jpg](https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg) by Liftarn, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A spring-return reel whose spool turns freely for slow movements, but whose built-in inertia sensor (a swinging pendulum, a rolling ball, or a flyweight or inertia wheel on the spool) throws a catch into [ratchet](../glossary.md#ratchet) teeth to lock it the moment the line is jerked or the vehicle decelerates sharply.
 

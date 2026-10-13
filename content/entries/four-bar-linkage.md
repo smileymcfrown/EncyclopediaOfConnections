@@ -155,9 +155,24 @@ sources:
 - https://www.mcmaster.com/products/sleeve-bearings/
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 research: research/connection-types/results/Fourbar_linkage_incl_parallelogram_linkage.json
+image:
+  file: four-bar-linkage.webp
+  width: 800
+  height: 533
+  title: File:Crank-Rocker 4-bar Linkage.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif
+  alt: 'Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)'
+  drawn: false
 glossary: [degrees-of-freedom, misalignment, backlash, stroke, over-centre, crank, linkage, actuator, clearance, tolerance,
   brittle--ductile, lubrication, print-in-place, peel-vs-shear]
 ---
+
+![Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)](../media/four-bar-linkage.webp)
+
+*Picture: [Crank-Rocker 4-bar Linkage.gif](https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Four bars joined by four pivots into a closed loop, one bar fixed, so that turning or swinging one bar moves the rest in a single set way: turning into swinging, swinging into turning, a part kept level (parallelogram), or a drawing traced at a new scale (pantograph).
 

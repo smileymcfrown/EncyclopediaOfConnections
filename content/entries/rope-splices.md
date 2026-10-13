@@ -154,8 +154,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:1871_illustration_rope_splices.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rope_splices_eye_splice_short_splice_braidedrope_splice.json
+image:
+  file: rope-splices.webp
+  width: 800
+  height: 608
+  title: File:Splitsar.png
+  author: NH
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Splitsar.png
+  alt: 'Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice'
+  drawn: false
 glossary: [self-locking, form-fit--force-fit--material-bond, taper, perimeters, infill]
 ---
+
+![Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice](../media/rope-splices.webp)
+
+*Picture: [Splitsar.png](https://commons.wikimedia.org/wiki/File:Splitsar.png) by NH, Public domain, from Wikimedia Commons.*
 
 A rope splice opens up the end of a rope and weaves its strands over and under the strands of the main rope, or, in hollow braided rope, pulls the end up inside the rope, to make a permanent loop, a join between two ropes or a neat end that keeps most or all of the rope's strength, where a knot typically loses 20-40% (Wikipedia 'Rope splicing').
 

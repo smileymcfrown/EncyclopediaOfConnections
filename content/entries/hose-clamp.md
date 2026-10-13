@@ -148,9 +148,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hose_clamp_wormdrive_clamp_ear_clamp_spring_hose_clamp.json
+image:
+  file: hose-clamp.webp
+  width: 800
+  height: 717
+  title: File:Hoseclamps.screw.agr.jpg
+  author: ArnoldReinhold
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg
+  alt: Assorted screw/band (worm-drive) hose clamps, showing the slotted band and screw housing
+  drawn: false
 glossary: [misalignment, axial--radial, stroke, ratchet, torque, deflection, form-fit--force-fit--material-bond, holding-force,
   chamfer--fillet, creep, layer-lines, infill]
 ---
+
+![Assorted screw/band (worm-drive) hose clamps, showing the slotted band and screw housing](../media/hose-clamp.webp)
+
+*Picture: [Hoseclamps.screw.agr.jpg](https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg) by ArnoldReinhold, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A hose clamp is a ring of metal band, wire or spring steel that is tightened round the end of a hose pushed over a spigot, barb or pipe, squeezing the hose so it seals and so it can't slide off; worm-drive types tighten with a screw and can be undone, ear clamps are crimped shut once, and spring clamps hold by their own springiness.
 

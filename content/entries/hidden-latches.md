@@ -143,8 +143,23 @@ sources:
 - https://www.printables.com/model/258188-magnetic-combination-lock-puzzle-box (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hidden_latches_magnetickey_latch_puzzle_lock.json
+image:
+  file: hidden-latches.webp
+  width: 800
+  height: 572
+  title: File:Magnetic safety lock.jpg
+  author: Nhujs ntus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg
+  alt: Photo of a magnetic child-safety lock fixed inside a cabinet door
+  drawn: false
 glossary: [solenoid, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
+
+![Photo of a magnetic child-safety lock fixed inside a cabinet door](../media/hidden-latches.webp)
+
+*Picture: [Magnetic safety lock.jpg](https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg) by Nhujs ntus, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A latch hidden inside a door, drawer or box that stays locked until a secret action moves it: a magnet held against the outside pulls the catch back, or tilting, spinning or tapping the box makes hidden weights (balls, pins or bolts) slide out of the way.
 

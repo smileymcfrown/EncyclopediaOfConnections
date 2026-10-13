@@ -133,10 +133,25 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/flexible-materials_2057
 research: research/connection-types/results/Strainwave_gear_harmonic_drive.json
+image:
+  file: strain-wave-gear.webp
+  width: 368
+  height: 368
+  title: File:Harmonic-drive-explanation.gif
+  author: LaurensvanLieshout
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif
+  alt: Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring
+  drawn: false
 glossary: [misalignment, backlash, self-locking, coaxial, ratchet, torque, linkage, fail-safe--fail-secure, stiffness, hysteresis,
   tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert, repeatability--accuracy, creep, fatigue, brittle--ductile,
   infill, print-in-place]
 ---
+
+![Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring](../media/strain-wave-gear.webp)
+
+*Picture: [Harmonic-drive-explanation.gif](https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif) by LaurensvanLieshout, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 An oval cam with a thin bearing (wave generator) bends a thin-walled toothed sleeve (flexspline) into an oval so its teeth mesh with a rigid internal-toothed ring (circular [spline](../glossary.md#spline)) at two points; because the sleeve has two fewer teeth, each turn of the cam shifts it by two teeth, giving a 30:1 to over 300:1 backlash-free reduction in one flat stage.
 

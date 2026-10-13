@@ -126,8 +126,23 @@ sources:
 - https://www.printables.com/model/341553-original-prusa-enclosure-push-rivet (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushin_plastic_rivet_firtree_clip_push_rivet.json
+image:
+  file: push-in-plastic-rivet.webp
+  width: 800
+  height: 1067
+  title: File:Plastic bodywork rivet pulling pliers.jpg
+  author: Andy Dingley
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Plastic_bodywork_rivet_pulling_pliers.jpg
+  alt: Photo of the hand tool made for releasing and removing the plastic rivets used on car bodywork
+  drawn: false
 glossary: [ratchet, cantilever, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
+
+![Photo of the hand tool made for releasing and removing the plastic rivets used on car bodywork](../media/push-in-plastic-rivet.webp)
+
+*Picture: [Plastic bodywork rivet pulling pliers.jpg](https://commons.wikimedia.org/wiki/File:Plastic_bodywork_rivet_pulling_pliers.jpg) by Andy Dingley, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A plastic pin that you push into a plain hole from one side, where springy fins or spreading legs grip behind or inside the hole, so panels and trim can be fixed in seconds without screws, nuts or tools.
 

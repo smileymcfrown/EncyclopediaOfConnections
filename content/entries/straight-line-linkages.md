@@ -161,9 +161,24 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Straightline_linkages_Watt_Chebyshev_Peaucellier.json
+image:
+  file: straight-line-linkages.webp
+  width: 800
+  height: 533
+  title: File:Watts Linkage.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif
+  alt: Animated Watt's linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description
+  drawn: false
 glossary: [stroke, pitch, idler, crank, linkage, flexure, clearance, form-fit--force-fit--material-bond, heat-set-insert,
   repeatability--accuracy, print-in-place]
 ---
+
+![Animated Watt's linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description](../media/straight-line-linkages.webp)
+
+*Picture: [Watts Linkage.gif](https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Pivoted bars (or, in the Tusi couple, a gear rolling inside a ring gear twice its size) are proportioned so that one point moves in a straight line, turning rotation or rocking into straight-line motion, or the reverse, without any sliding guide.
 

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three steps of a tab with a springy finger pushed through a slot in another sheet: the barb on the finger's tip bends the finger aside, then the finger springs back and the barb's flat back hooks under the far face.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<path id="tab" d="M-10,-20 L220,-20 L220,60 L138,60 L138,24 A4,4 0 0 0 130,24 L130,160 L144,160 L130,194 L130,200 L115,200 L115,31 A11,11 0 0 0 93,31 L93,200 L60,200 L60,60 L-10,60 Z" fill="#fde2c4" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<path id="tabbent" d="M-10,-20 L220,-20 L220,60 L138,60 L138,24 A4,4 0 0 0 130,24 Q130,110 116.7,160 L130.7,160 L109.4,194 L108,200 L93,200 Q115,110 115,31 A11,11 0 0 0 93,31 L93,200 L60,200 L60,60 L-10,60 Z" fill="#fde2c4" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<g id="sheet"><rect x="-10" y="300" width="70" height="18" fill="#cfe3f5" stroke="#222" stroke-width="3"/><rect x="130" y="300" width="90" height="18" fill="#cfe3f5" stroke="#222" stroke-width="3"/></g>
+</defs>
+<!-- frame 1 -->
+<g transform="translate(20,0)">
+<use href="#tab" transform="translate(0,80)"/>
+<use href="#sheet"/>
+<g stroke="#d1495b" stroke-width="3" stroke-dasharray="6 4"><line x1="104" y1="96" x2="104" y2="70"/><line x1="154" y1="100" x2="154" y2="70"/></g>
+<path d="M104,64 L104,54 M154,64 L154,54" stroke="#222" stroke-width="2"/>
+<line x1="30" y1="72" x2="30" y2="126" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- frame 2 -->
+<g transform="translate(280,0)">
+<use href="#tabbent" transform="translate(0,146)"/>
+<use href="#sheet"/>
+<line x1="168" y1="262" x2="136" y2="272" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- frame 3 -->
+<g transform="translate(540,0)">
+<use href="#tab" transform="translate(0,158)"/>
+<use href="#sheet"/>
+<line x1="98" y1="372" x2="128" y2="372" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="20" y="46">extend the cuts for a softer finger</text>
+<text x="170" y="205">finger</text>
+<text x="170" y="262">barb</text>
+<text x="120" y="340" text-anchor="middle">other sheet</text>
+<text x="696" y="342">hooks</text>
+<text x="696" y="362">under</text>
+<text x="120" y="398" text-anchor="middle" font-weight="bold">1 Push the tab in</text>
+<text x="390" y="398" text-anchor="middle" font-weight="bold">2 Barb bends the finger</text>
+<text x="650" y="398" text-anchor="middle" font-weight="bold">3 Finger springs back</text>
+<text x="400" y="436" text-anchor="middle" font-size="18">Pulling only jams the barb harder · squeeze the finger to undo it</text>
+</g>
+</svg>

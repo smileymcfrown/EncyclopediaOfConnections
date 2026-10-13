@@ -162,7 +162,7 @@ def finder_block(d, tg, confirm):
     return f
 
 
-def page(i, it, d, tg, points):
+def page(i, it, d, tg, points, pic=None):
     idt, fa, mk, gd, md = d['identity'], d['finder_attributes'], d['making'], d['guidance'], d['media']
     confirm = OrderedDict()
     finder = finder_block(d, tg, confirm)
@@ -185,6 +185,7 @@ def page(i, it, d, tg, points):
     fm['make_it_yourself'] = md.get('make_it_yourself', [])
     fm['sources'] = md.get('sources', [])
     fm['research'] = f'research/connection-types/results/{slug_file(it["name"])}.json'
+    fm['image'] = pic
 
     B = []
 
@@ -207,6 +208,16 @@ def page(i, it, d, tg, points):
         extra = '; '.join(mark(x[k]) for k in ('shows', 'what_it_is') if x.get(k))
         return f'- [{mark(x.get("title") or x["url"])}]({x["url"]})' + (f': {extra}' if extra else '') + lic
 
+    if pic:
+        alt = re.sub(r'[\[\]]', '', mark(pic['alt']))[:200]
+        B += [f'![{alt}](../media/{pic["file"]})', '']
+        if pic.get('drawn'):
+            B += [f'*Diagram drawn for the encyclopaedia from the research notes. {FLAG} Needs confirming: a drawing '
+                  'can simplify or get details wrong; a real photo or a better diagram is welcome.*', '']
+        else:
+            lic = f'[{pic["license"]}]({pic["license_url"]})' if pic.get('license_url') else pic['license']
+            B += [f'*Picture: [{mark(pic["title"]).removeprefix("File:")}]({pic["source"]}) by '
+                  f'{mark(pic["author"])[:120]}, {lic}, from Wikimedia Commons.*', '']
     B.append(mark(idt['one_liner']))
     B.append('')
     B.append(f'**In plain words:** {mark(idt["plain_name"])}. **Proper term:** {mark(idt["term"])}.')
@@ -365,6 +376,17 @@ Dumper.add_representer(list, lambda d, v: d.represent_sequence(
 def main():
     items = OUTLINE['items']
     pts = open_points(items)
+    # Pictures (R29): a drawn diagram in content/media/drawn/<page>.svg (its <title> is the alt text),
+    # replaced by a Commons picture when content/media/media.yaml has one (tools/fetch_images.py).
+    pics = {}
+    dd = os.path.join(ROOT, 'content', 'media', 'drawn')
+    for fn in sorted(os.listdir(dd)) if os.path.isdir(dd) else []:
+        if fn.endswith('.svg'):
+            t = re.search(r'<title>(.*?)</title>', open(os.path.join(dd, fn)).read(), re.S)
+            pics[fn[:-4]] = {'file': 'drawn/' + fn, 'alt': re.sub(r'\s+', ' ', t.group(1)).strip() if t else '', 'drawn': True}
+    f = os.path.join(ROOT, 'content', 'media', 'media.yaml')
+    for k, v in ((yaml.safe_load(open(f)) or {}) if os.path.exists(f) else {}).items():
+        pics[k] = dict(v, drawn=False)
     terms = load_glossary()
     write_glossary(terms)
     os.makedirs(OUT, exist_ok=True)
@@ -379,7 +401,7 @@ def main():
         d = json.load(open(os.path.join(CT, 'results', slug_file(it['name']) + '.json')))
         tg = TAGS[i]
         assert tg['name'] == it['name'], (i, tg['name'], it['name'])
-        fm, body = page(i, it, d, tg, pts.get(i, []))
+        fm, body = page(i, it, d, tg, pts.get(i, []), pics.get(slugs[i]))
         body, fm['glossary'] = link_terms(body, terms)
         fn = slugs[i] + '.md'
         keep.add(fn)

@@ -113,8 +113,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Lasdoppen_van_keramiek.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Twiston_wire_connector_wire_nut.json
+image:
+  file: twist-on-wire-connector.webp
+  width: 800
+  height: 450
+  title: File:Array of twist-on wire connectors aka wire nuts in different sizes.jpg
+  author: Junkyardsparkle
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Array_of_twist-on_wire_connectors_aka_wire_nuts_in_different_sizes.jpg
+  alt: Five colour-coded sizes seen end-on, showing the metal coil inserts
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, infill]
 ---
+
+![Five colour-coded sizes seen end-on, showing the metal coil inserts](../media/twist-on-wire-connector.webp)
+
+*Picture: [Array of twist-on wire connectors aka wire nuts in different sizes.jpg](https://commons.wikimedia.org/wiki/File:Array_of_twist-on_wire_connectors_aka_wire_nuts_in_different_sizes.jpg) by Junkyardsparkle, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A twist-on wire connector is an insulating cap with a tapered coil spring inside that is screwed by hand onto the stripped ends of several wires, drawing them together and squeezing them into one electrical joint while covering the bare metal.
 

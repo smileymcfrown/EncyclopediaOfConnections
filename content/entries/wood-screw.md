@@ -130,9 +130,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Countersunk_and_counterbored_holes_cross-section.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wood_screw_including_coach_screw_and_Confirmat_screw.json
+image:
+  file: wood-screw.webp
+  width: 800
+  height: 800
+  title: File:Wood screw with legend.svg
+  author: Rfc1394, Waterced
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg
+  alt: Labelled drawing of a wood screw naming its parts (head, shank, thread, point)
+  drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, creep, brittle--ductile,
   end-grain, peel-vs-shear]
 ---
+
+![Labelled drawing of a wood screw naming its parts (head, shank, thread, point)](../media/wood-screw.webp)
+
+*Picture: [Wood screw with legend.svg](https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg) by Rfc1394, Waterced, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A sharp, coarse-threaded screw that forms its own thread in wood or board and clamps the parts together under its head; with the right pilot and [clearance](../glossary.md#clearance) holes it is the everyday way to fix wood to wood, and the coach screw (big, hex-headed) and Confirmat screw (fat, for chipboard furniture) are its heavy and flat-pack versions.
 

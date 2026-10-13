@@ -144,8 +144,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Square_lashings.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pole_lashings_square_diagonal_shear_and_tripod_lashings.json
+image:
+  file: pole-lashings.webp
+  width: 800
+  height: 600
+  title: File:Square Lashing.jpg
+  author: S.M.M.Musabbir Uddin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Square_Lashing.jpg
+  alt: Photo of a finished square lashing joining two poles
+  drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, warping--shrinkage, peel-vs-shear]
 ---
+
+![Photo of a finished square lashing joining two poles](../media/pole-lashings.webp)
+
+*Picture: [Square Lashing.jpg](https://commons.wikimedia.org/wiki/File:Square_Lashing.jpg) by S.M.M.Musabbir Uddin, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Rope wrapped round poles where they cross or touch and then tightened with turns between them, to make rigid frames, braced crossings, scissor legs, tripods and lengthened poles with no hardware or cut joints.
 

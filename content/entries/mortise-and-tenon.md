@@ -120,9 +120,24 @@ sources:
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Mortise_and_tenon_incl_wedged_drawbored_and_tusk_tenons.json
+image:
+  file: mortise-and-tenon.webp
+  width: 800
+  height: 477
+  title: File:Mortise and tenon joint.svg
+  author: GreyCat
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg
+  alt: Exploded diagram of a basic mortise and tenon joint
+  drawn: false
 glossary: [self-locking, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, chamfer--fillet, brittle--ductile,
   stress-concentration, layer-lines, perimeters, infill, warping--shrinkage, kerf, peel-vs-shear]
 ---
+
+![Exploded diagram of a basic mortise and tenon joint](../media/mortise-and-tenon.webp)
+
+*Picture: [Mortise and tenon joint.svg](https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg) by GreyCat, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A tongue (tenon) cut on the end of one part is pushed into a matching hole (mortise) in the other part and locked in place, giving a strong, square joint for frames, chairs, tables and timber buildings.
 

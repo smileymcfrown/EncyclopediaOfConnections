@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and a blue output ring with 60 teeth; after the planets go round once, a marker on the output ring has moved on by only 2 teeth.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="set" stroke="#222" stroke-linejoin="round">
+<circle r="145" fill="#cfe3f5" stroke-width="3"/>
+<circle r="125" fill="#e8e8e8" stroke-width="3"/>
+<circle r="111" fill="#ffffff" stroke-width="3"/>
+<circle r="107" fill="none" stroke-width="7" stroke-dasharray="5 6.6"/>
+<g fill="#fde2c4" stroke-width="3">
+<circle cx="0" cy="-70" r="35"/>
+<circle cx="60.6" cy="35" r="35"/>
+<circle cx="-60.6" cy="35" r="35"/>
+</g>
+<g fill="none" stroke-width="6" stroke-dasharray="4 4.4">
+<circle cx="0" cy="-70" r="37"/>
+<circle cx="60.6" cy="35" r="37"/>
+<circle cx="-60.6" cy="35" r="37"/>
+</g>
+<circle r="26" fill="#d8f0d2" stroke-width="3"/>
+<circle r="28" fill="none" stroke-width="5" stroke-dasharray="4 4.8"/>
+</g>
+<path id="mark" d="M-7,-145 L-5,-162 L5,-162 L7,-145 Z" fill="#222" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+</defs>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222">
+<text x="200" y="32" font-size="20" font-weight="bold" text-anchor="middle">Start</text>
+<text x="600" y="32" font-size="20" font-weight="bold" text-anchor="middle">Planets go round once</text>
+</g>
+<!-- left: start -->
+<use href="#set" transform="translate(200,228)"/>
+<use href="#mark" transform="translate(200,228)"/>
+<!-- right: after one lap -->
+<use href="#set" transform="translate(600,228)"/>
+<path d="M593,83 L595,66 L605,66 L607,83" fill="#ffffff" stroke="#222" stroke-width="2" stroke-dasharray="3 3"/>
+<use href="#mark" transform="translate(600,228) rotate(12)"/>
+<path d="M584,60 A168,168 0 0 1 636,64" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<!-- planets and carrier go round clockwise -->
+<path d="M630,291 A70,70 0 0 1 570,291" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="234">sun</text>
+<text x="200" y="164">planet</text>
+<text x="648" y="60" text-anchor="start">+2 teeth</text>
+<text x="200" y="400">grey ring: fixed, 58 teeth</text>
+<text x="600" y="400">blue ring: output, 60 teeth</text>
+</g>
+<text x="400" y="438" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">Planets mesh with both rings: each lap moves the output ring on just 2 teeth</text>
+</svg>

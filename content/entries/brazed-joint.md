@@ -120,8 +120,24 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Brazing
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Brazed_joint_brazing_silver_soldering_hard_soldering.json
+image:
+  file: brazed-joint.webp
+  width: 800
+  height: 717
+  title: File:Principe brasage fort cuivre.svg
+  author: Cdang
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Principe_brasage_fort_cuivre.svg
+  alt: 'Diagram of copper brazing: flame heating of the parts and the filler melting where it touches the hot parts and running
+    into the joint'
+  drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
 ---
+
+![Diagram of copper brazing: flame heating of the parts and the filler melting where it touches the hot parts and running into the joint](../media/brazed-joint.webp)
+
+*Picture: [Principe brasage fort cuivre.svg](https://commons.wikimedia.org/wiki/File:Principe_brasage_fort_cuivre.svg) by Cdang, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Brazing heats close-fitting metal parts above about 450 °C, usually to a dull red heat, so that a brass, copper-phosphorus or silver alloy melts, wets both surfaces and is drawn by capillary action into the gap, giving a strong, leak-tight joint that also joins different metals, while the parts themselves never melt.
 

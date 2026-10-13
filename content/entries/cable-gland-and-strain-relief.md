@@ -149,8 +149,23 @@ sources:
 - https://en.wikipedia.org/wiki/Cable_lacing
 - https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/441872/BR_PDF_AD_P_2013.pdf
 research: research/connection-types/results/Cable_gland_and_strain_relief.json
+image:
+  file: cable-gland-and-strain-relief.webp
+  width: 800
+  height: 558
+  title: File:Exploded CW Gland annotated.png
+  author: Andyremel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Exploded_CW_Gland_annotated.png
+  alt: Exploded, labelled view of the parts of a CW-type steel-wire-armour cable gland
+  drawn: false
 glossary: [coaxial, torque, clearance, form-fit--force-fit--material-bond, boss, perimeters, infill, o-ring, gland]
 ---
+
+![Exploded, labelled view of the parts of a CW-type steel-wire-armour cable gland](../media/cable-gland-and-strain-relief.webp)
+
+*Picture: [Exploded CW Gland annotated.png](https://commons.wikimedia.org/wiki/File:Exploded_CW_Gland_annotated.png) by Andyremel, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A threaded fitting that passes a cable through a wall or enclosure: tightening its dome nut presses a set of plastic fingers and a rubber seal round the cable, which seals the hole against dust and water and anchors the cable so pulling or twisting it doesn't strain the wires inside (strain relief).
 

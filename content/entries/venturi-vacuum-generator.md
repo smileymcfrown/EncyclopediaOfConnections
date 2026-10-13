@@ -134,9 +134,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Airlift_Pump_vs_Geyser_Pump.JPG
 - https://www.youtube.com/watch?v=l-wZYJXpVFg
 research: research/connection-types/results/Venturi_vacuum_generator_vacuum_ejector_aspirator.json
+image:
+  file: venturi-vacuum-generator.webp
+  width: 800
+  height: 388
+  title: File:Ejector or Injector.svg
+  author: Johannes Rössel
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg
+  alt: 'Cross-section diagram of an ejector: driving nozzle, side suction inlet, mixing section and diffuser (used on Wikipedia''s
+    ''Vacuum ejector'' page)'
+  drawn: false
 glossary: [self-locking, solenoid, holding-force, creep, layer-lines, perimeters, infill, check-valve, regulator, water-hammer,
   venturi]
 ---
+
+![Cross-section diagram of an ejector: driving nozzle, side suction inlet, mixing section and diffuser (used on Wikipedia's 'Vacuum ejector' page)](../media/venturi-vacuum-generator.webp)
+
+*Picture: [Ejector or Injector.svg](https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg) by Johannes Rössel, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
 
 A nozzle fires a fast jet of compressed air or water across a gap inside a T-shaped body; the fast jet has low pressure and carries surrounding air with it, so the side port sucks, giving vacuum for suction cups, fume extraction or lab filtering with no moving parts (Wikipedia 'Vacuum ejector'; Hackaday 2019).
 

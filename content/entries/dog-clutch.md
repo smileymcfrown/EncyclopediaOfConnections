@@ -128,10 +128,25 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Dog_clutch_claw_clutch.json
+image:
+  file: dog-clutch.webp
+  width: 293
+  height: 216
+  title: File:Claw coupling-tech diagram.png
+  author: Jonasz at Polish Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Claw_coupling-tech_diagram.png
+  alt: Simple technical diagram of a claw (dog) clutch with interlocking claws
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sprag, torque, crank, linkage, actuator, deflection,
   clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip, chamfer--fillet, undercut, layer-lines, elephants-foot,
   peel-vs-shear]
 ---
+
+![Simple technical diagram of a claw (dog) clutch with interlocking claws](../media/dog-clutch.webp)
+
+*Picture: [Claw coupling-tech diagram.png](https://commons.wikimedia.org/wiki/File:Claw_coupling-tech_diagram.png) by Jonasz at Polish Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A clutch that connects and disconnects a drive by sliding a toothed ring into or out of mesh with matching teeth or slots, giving a solid, no-slip connection when engaged.
 

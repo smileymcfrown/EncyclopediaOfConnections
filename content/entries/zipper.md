@@ -124,8 +124,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg
 - https://commons.wikimedia.org/wiki/File:WP_zip.jpg
 research: research/connection-types/results/Zipper_slide_fastener.json
+image:
+  file: zipper.webp
+  width: 320
+  height: 320
+  title: File:Zipper animated.gif
+  author: DemonDeLuxe (Dominique Toussaint)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
+  alt: Animation of the slider bringing the two rows of teeth together
+  drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, print-in-place]
 ---
+
+![Animation of the slider bringing the two rows of teeth together](../media/zipper.webp)
+
+*Picture: [Zipper animated.gif](https://commons.wikimedia.org/wiki/File:Zipper_animated.gif) by DemonDeLuxe (Dominique Toussaint), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Two rows of interlocking teeth on fabric tapes, closed or opened in a single pull by a slider whose Y-shaped channel squeezes the teeth together one by one or wedges them apart.
 

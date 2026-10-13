@@ -149,8 +149,23 @@ sources:
   147380 'quick Paracord rope clamp 4mm & thimble', 762828 'Cable Stop Clamp', 1710271 'Parametric Multi-Cord Anchor (Hanging
   Hub)', 603958 'Cord end'; pages not opened)
 research: research/connection-types/results/Stopper_knots_and_cordend_anchors.json
+image:
+  file: stopper-knots-and-cord-end-anchors.webp
+  width: 800
+  height: 400
+  title: File:Figure-eight knot.svg
+  author: Lucasbosch
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg
+  alt: Clear drawing of a figure-eight stopper knot
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, gland]
 ---
+
+![Clear drawing of a figure-eight stopper knot](../media/stopper-knots-and-cord-end-anchors.webp)
+
+*Picture: [Figure-eight knot.svg](https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg) by Lucasbosch, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A knot, bead or crimped sleeve that is too big to fit through a hole, or a clamp or a few turns round a post that grips the cord, holds the end of a cord, string, elastic or thin cable in a part so it can be pulled without coming out.
 

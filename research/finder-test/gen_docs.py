@@ -18,7 +18,7 @@ def mm(node,S,lines,depth,maxdepth,parent=None,label=None):
     for lab,pred,child in answers:
         T=[e for e in S if pred(e)]
         aid=f"a{next(ids)}"
-        leaf = child is None
+        leaf = not is_q(child)
         shape=('(["','"])') if leaf else ('["','"]')
         lines.append(f'  {aid}{shape[0]}{esc(lab)} · {len(T)}{shape[1]}')
         lines.append(f'  {qid} --> {aid}')
@@ -38,7 +38,7 @@ q,answers=TREE
 for i,(lab,pred,child) in enumerate(answers,1):
     S=[e for e in E if pred(e)]
     md.append(f'\n### Branch {i}: {lab} ({len(S)} entries)\n')
-    if child is None:
+    if not is_q(child):
         md.append('This answer goes straight to a shortlist; no further question.\n'); continue
     md.append(diagram(child,S,5))
 open(os.path.join(OUT,'mermaid.md'),'w').write('\n'.join(md))
@@ -51,9 +51,9 @@ rows=['# Every finder path and its shortlist','',
  'either; they move over to the finder tags when the finder is built (Phase 2). See `research/needs-confirming.md`.','',
  '| # | Path (answers given) | Shortlist size | Entries (outline number and name) |','|---|---|---|---|']
 notes=[]
-for i,(p,T,fl) in enumerate(out,1):
+for i,(p,T,fl,tk) in enumerate(out,1):
     names='; '.join(f"{e['num']} {short(e['name'])}" + (' ⚑' if e['num'] in fl else '') for e in sorted(T, key=lambda e: e['num']))
-    rows.append(f"| {i} | {' → '.join(p)} | {len(T)} | {names} |")
+    rows.append(f"| {i} | {' → '.join(p)}{' (then tick: '+tk.prompt.lower()+')' if tk else ''} | {len(T)} | {names} |")
     for e in sorted(T, key=lambda e: e['num']):
         for f in sorted(fl.get(e['num'], ())):
             notes.append(f"- Path {i}, ⚑ **{e['num']} {short(e['name'])}**, `{f}`: {e['nc'][f]['reason']}")
@@ -82,7 +82,7 @@ def qa(node,S,path,depth):
         T=[e for e in S if pred(e)]
         x=EXA.get(tuple(path)+(lab,),{})
         lines.append(f"| {lab} | {len(T)} | {x.get('example','**missing**')} | {x.get('explain','')} |")
-        if child: kids.append((child,T,path+[lab]))
+        if is_q(child): kids.append((child,T,path+[lab]))
     lines.append('')
     for child,T,p in kids: qa(child,T,p,depth+1)
 qa(TREE,E,[],0)

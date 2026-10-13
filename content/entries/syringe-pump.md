@@ -159,9 +159,25 @@ sources:
 - https://www.youtube.com/watch?v=7YSiO6usR1M
 - https://www.youtube.com/watch?v=YdeZJIZdA_A
 research: research/connection-types/results/Syringe_pump_syringe_driver.json
+image:
+  file: syringe-pump.webp
+  width: 800
+  height: 532
+  title: File:Syringe pump.jpg
+  author: Nuno Nogueira (Nmnogueira)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg
+  alt: A laboratory syringe pump (World Precision Instruments SP120PZ) with a syringe clamped in place and its pusher block
+    behind the plunger
+  drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, stroke, torque, pitch, actuator, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, infill]
 ---
+
+![A laboratory syringe pump (World Precision Instruments SP120PZ) with a syringe clamped in place and its pusher block behind the plunger](../media/syringe-pump.webp)
+
+*Picture: [Syringe pump.jpg](https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg) by Nuno Nogueira (Nmnogueira), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A stepper motor turns a screw, the screw drives a sliding block, and the block pushes or pulls a syringe plunger a precise distance per step, so a set volume of liquid is delivered or drawn at a set rate (for example millilitres per hour).
 

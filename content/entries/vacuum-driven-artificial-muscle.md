@@ -119,8 +119,18 @@ sources:
 - https://www.softrobotics.io/post/making-simple-origami-soft-robots-from-low-cost-household-materials
 - https://en.wikipedia.org/wiki/Suction_cup
 research: research/connection-types/results/Vacuumdriven_artificial_muscle_origami_vacuum_muscle.json
+image:
+  file: drawn/vacuum-driven-artificial-muscle.svg
+  alt: 'Cut-away of a zigzag-folded skeleton sealed in a clear bag hanging from a support: on the left, with normal air inside,
+    it is fully open with a weight hanging below; on the right a pump sucks the air out, outside air presses the bag into
+    the folds, and the stack folds up much shorter and lifts the weight.'
+  drawn: true
 glossary: [stroke, actuator, solenoid, fail-safe--fail-secure, creep, regulator, venturi]
 ---
+
+![Cut-away of a zigzag-folded skeleton sealed in a clear bag hanging from a support: on the left, with normal air inside, it is fully open with a weight hanging below; on the right a pump sucks the air ](../media/drawn/vacuum-driven-artificial-muscle.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 An [actuator](../glossary.md#actuator) made of a compressible skeleton (a folded plastic sheet, a spring, foam or a printed shape) sealed in a flexible skin; removing the air (or liquid) from inside makes the skin pull tight on the skeleton, which folds along its designed pattern to contract by up to about 90%, bend or twist, lifting up to about 1,000 times its own weight.
 

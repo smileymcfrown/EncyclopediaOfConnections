@@ -133,8 +133,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Granny_knot.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Basic_knots_overhand_knot_half_hitch_reef_knot.json
+image:
+  file: basic-knots.webp
+  width: 800
+  height: 454
+  title: File:Square knot.svg
+  author: CountingPine
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Square_knot.svg
+  alt: Clear diagram of a reef (square) knot
+  drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, layer-lines]
 ---
+
+![Clear diagram of a reef (square) knot](../media/basic-knots.webp)
+
+*Picture: [Square knot.svg](https://commons.wikimedia.org/wiki/File:Square_knot.svg) by CountingPine, Public domain, from Wikimedia Commons.*
 
 Three knots built from the same single tuck: the overhand makes a lump in the end of a cord so it can't slip through a hole, the half hitch ties a cord round a post or ring, and the reef knot ties the two ends of one cord round a bundle, with a slipped version that becomes the shoelace bow; they are the baseline that better knots for each job are compared with.
 

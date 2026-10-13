@@ -33,6 +33,7 @@ Most pages are **generated**, so edit the source and re-run the scripts:
 | A finder value (tag) | `research/finder-tags/tags.yaml`, and add the field to the entry's `confirmed` list | `python3 research/finder-tags/propose.py`, then the two `tools/` scripts |
 | A finder question, answer or example | `research/finder-test/tree.py` or `examples.yaml` | the finder test (`research/finder-test/README.md`) |
 | An open point from the research | `research/connection-types/review-notes.md` | `python3 tools/make_entries.py` |
+| An entry's picture | a better Commons file: put it first among the entry's `links` (JSON), or replace the drawn diagram in `content/media/drawn/<page>.svg` | the *Fetch pictures* workflow, then `python3 tools/make_entries.py` |
 
 If you remove an `[uncertain]` marker from a JSON file, also remove the field from that file's
 `uncertain` list when no other marker is left in it. Then check the file:

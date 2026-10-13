@@ -153,9 +153,25 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Capstan_and_windlass_incl_differential_windlass.json
+image:
+  file: capstan-and-windlass.webp
+  width: 800
+  height: 600
+  title: File:Comparison differential pulley windlass.svg
+  author: Cmglee
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Comparison_differential_pulley_windlass.svg
+  alt: Side-by-side diagram of a differential pulley (chain hoist) and a differential (Chinese) windlass with its two drums
+    and hanging pulley
+  drawn: false
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, gear-ratio, crank, actuator, clearance, form-fit--force-fit--material-bond,
   holding-force, set-screw, creep, fatigue, lubrication, infill]
 ---
+
+![Side-by-side diagram of a differential pulley (chain hoist) and a differential (Chinese) windlass with its two drums and hanging pulley](../media/capstan-and-windlass.webp)
+
+*Picture: [Comparison differential pulley windlass.svg](https://commons.wikimedia.org/wiki/File:Comparison_differential_pulley_windlass.svg) by Cmglee, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A rope drum turned by a [crank](../glossary.md#crank) or bars (a windlass if the axle is horizontal, a capstan if it is vertical) that winds rope in with a force multiplied by the ratio of handle radius to drum radius, usually with a [ratchet](../glossary.md#ratchet) to hold the load; the friction of a few turns of rope round a drum also lets a small pull hold a large load (capstan effect), and a differential windlass winds rope onto one drum while unwinding it from a slightly smaller one for a huge force gain.
 

@@ -124,9 +124,24 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Jaw_coupling_spider_coupling.json
+image:
+  file: jaw-coupling.webp
+  width: 800
+  height: 600
+  title: File:JawConcept2.jpg
+  author: Aruland
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:JawConcept2.jpg
+  alt: Computer drawing of a curved jaw coupling (the lead image of Wikipedia's 'Jaw coupling' article)
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure, stiffness, preload, damping, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, repeatability--accuracy, shore-hardness, peel-vs-shear]
 ---
+
+![Computer drawing of a curved jaw coupling (the lead image of Wikipedia's 'Jaw coupling' article)](../media/jaw-coupling.webp)
+
+*Picture: [JawConcept2.jpg](https://commons.wikimedia.org/wiki/File:JawConcept2.jpg) by Aruland, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two hubs with interlocking jaws on their faces pass turning force through a rubbery star-shaped insert (the spider) squeezed between the jaws, so the shafts turn together while the spider soaks up shocks, vibration and small [misalignment](../glossary.md#misalignment).
 

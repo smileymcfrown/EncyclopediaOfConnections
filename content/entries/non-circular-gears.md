@@ -129,9 +129,24 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
 research: research/connection-types/results/Noncircular_gears.json
+image:
+  file: non-circular-gears.webp
+  width: 646
+  height: 646
+  title: File:Antiparallelogram and Elliptical Gears.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif
+  alt: Animation of two elliptical gears turning about their foci next to the equivalent antiparallelogram four-bar linkage
+  drawn: false
 glossary: [backlash, axial--radial, stroke, torque, pitch, cam-and-follower, linkage, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, undercut, repeatability--accuracy, elephants-foot, overhang--bridging]
 ---
+
+![Animation of two elliptical gears turning about their foci next to the equivalent antiparallelogram four-bar linkage](../media/non-circular-gears.webp)
+
+*Picture: [Antiparallelogram and Elliptical Gears.gif](https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes), designed to roll on each other without slipping so that a steady input turn becomes an output that repeatedly speeds up and slows down.
 

@@ -154,8 +154,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:5_2_solenoid_valve_example.svg
 - https://commons.wikimedia.org/wiki/File:Distributeurs_connexions.svg
 research: research/connection-types/results/Switching_valve_directional_control_valve_solenoid_valve.json
+image:
+  file: switching-valve.webp
+  width: 800
+  height: 906
+  title: File:Solenoid Valve.svg
+  author: '"SimonOrJ" (U/T/C)'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg
+  alt: 'Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot
+    passage, solenoid and outlet'
+  drawn: false
 glossary: [bistable, detent, actuator, solenoid, fail-safe--fail-secure, infill, check-valve, regulator, water-hammer]
 ---
+
+![Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot passage, solenoid and outlet](../media/switching-valve.webp)
+
+*Picture: [Solenoid Valve.svg](https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg) by "SimonOrJ" (U/T/C), Public domain, from Wikimedia Commons.*
 
 A valve with two or more ports and two or three set positions: shifting its inner spool, poppet or diaphragm by an electric coil, hand, foot or air signal connects the supply to a chosen outlet and vents or blocks the others, which is how every powered cylinder, soft [actuator](../glossary.md#actuator) and suction cup is switched on and off.
 

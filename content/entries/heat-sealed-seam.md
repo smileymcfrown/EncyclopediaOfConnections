@@ -124,8 +124,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Heat_seal_film.jpg
 - https://api.printables.com/graphql/ (models 732684, 11188)
 research: research/connection-types/results/Heatsealed_seam_heatsealed_plastic_film_and_coated_fabric.json
+image:
+  file: heat-sealed-seam.webp
+  width: 365
+  height: 321
+  title: File:Impulse sealer.jpg
+  author: Cjp24
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg
+  alt: A small benchtop impulse bag sealer with a metal body and cutter blade
+  drawn: false
 glossary: [stroke, bistable, actuator, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
+
+![A small benchtop impulse bag sealer with a metal body and cutter blade](../media/heat-sealed-seam.webp)
+
+*Picture: [Impulse sealer.jpg](https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg) by Cjp24, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A heat-sealed seam joins two thin layers of thermoplastic film, or coating-to-coating on plastic-coated fabric, by pressing them with a hot bar, iron, wire or tip until the facing plastic melts together, giving an airtight, waterproof line with no stitches or glue: the joint behind plastic bags, inflatables, dry bags and soft-robot air pouches.
 

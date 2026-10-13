@@ -142,9 +142,24 @@ sources:
 - https://hackaday.com/2019/03/09/look-ma-no-glue-electrostatic-adhesion-as-if-by-magic/
 - https://en.wikipedia.org/wiki/Electroadhesion
 research: research/connection-types/results/Vacuum_suction_gripper.json
+image:
+  file: vacuum.webp
+  width: 800
+  height: 279
+  title: File:Suction cup pressure from collisions.svg
+  author: Becarlson
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg
+  alt: Diagram showing that the outside air pressure (gas particles colliding with the cup) is what holds a suction cup on
+  drawn: false
 glossary: [misalignment, self-locking, stroke, solenoid, form-fit--force-fit--material-bond, holding-force, repeatability--accuracy,
   perimeters, infill, peel-vs-shear, regulator, venturi]
 ---
+
+![Diagram showing that the outside air pressure (gas particles colliding with the cup) is what holds a suction cup on](../media/vacuum.webp)
+
+*Picture: [Suction cup pressure from collisions.svg](https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg) by Becarlson, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A flexible cup connected to a vacuum pump or an air-powered vacuum generator that holds smooth objects by pumping the air out from under it, and lets go when a valve lets air back in.
 

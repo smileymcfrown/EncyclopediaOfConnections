@@ -115,10 +115,25 @@ sources:
 - https://www.youtube.com/watch?v=92Ti7LBjfYQ
 - https://www.youtube.com/watch?v=AFFHEb4NEY4
 research: research/connection-types/results/Wrapspring_clutch_spring_clutch.json
+image:
+  file: wrap-spring-clutch.webp
+  width: 609
+  height: 531
+  title: File:Pružinovávolnoběžka.jpg
+  author: Juniperbushman
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg
+  alt: Diagram of the principle of a spring freewheel (wrap-spring one-way clutch); used on Czech, German and Croatian Wikipedia
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, coaxial, ratchet, pawl, freewheel, sprag, torque, actuator, solenoid,
   interference-fit, form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, creep, fatigue,
   lubrication, layer-lines, overhang--bridging]
 ---
+
+![Diagram of the principle of a spring freewheel (wrap-spring one-way clutch); used on Czech, German and Croatian Wikipedia](../media/wrap-spring-clutch.webp)
+
+*Picture: [Pružinovávolnoběžka.jpg](https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg) by Juniperbushman, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A coiled spring wrapped round two hubs end to end that winds down and grips them when the input turns one way, and loosens and slips when it turns the other way; with a collar holding one end of the spring it becomes an on/off clutch that can drive exactly one turn at a time.
 

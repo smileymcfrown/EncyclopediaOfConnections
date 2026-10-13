@@ -120,9 +120,24 @@ sources:
 - https://www.youtube.com/watch?v=7XxFrbyEJBM
 - https://commons.wikimedia.org/wiki/File:Backlash.svg
 research: research/connection-types/results/Antibacklash_gear_split_scissor_gear.json
+image:
+  file: anti-backlash-gear.webp
+  width: 800
+  height: 426
+  title: File:Backlash.svg
+  author: en:User:GearHeads, User:Slashme
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Backlash.svg
+  alt: Diagram of the gap (backlash) between meshing gear teeth, the problem an anti-backlash gear removes
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, flexure, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, lubrication, perimeters, infill]
 ---
+
+![Diagram of the gap (backlash) between meshing gear teeth, the problem an anti-backlash gear removes](../media/anti-backlash-gear.webp)
+
+*Picture: [Backlash.svg](https://commons.wikimedia.org/wiki/File:Backlash.svg) by en:User:GearHeads, User:Slashme, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A gear split into two side-by-side halves, one fixed to the shaft and one free to turn a little on it, pulled round against each other by springs so that together they fill the tooth gaps of the mating gear and remove the play ([backlash](../glossary.md#backlash)) that otherwise shows up every time the drive reverses.
 

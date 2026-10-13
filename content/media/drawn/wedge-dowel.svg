@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away in three steps of a shelf with a ribbed dowel joining a side panel: the dowel drops into the wide end of a slot, the shelf slides along while the slot's gently sloping grooves pull the two parts together, and it clicks home tight; small views show the keyhole-shaped slot from the front and the groove slope of about 2 degrees.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="panel">
+<rect x="45" y="230" width="170" height="60" fill="#e8e8e8"/>
+<rect x="45" y="230" width="45" height="60" fill="#ffffff"/>
+<path d="M90,236 L215,257 M90,246 L215,267 M90,256 L215,277 M90,266 L215,287" stroke="#222" stroke-width="1.5"/>
+<path d="M15,230 H45 V290 H215 V230 H250 V300 H15 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="90" y1="232" x2="90" y2="289" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="330" stroke="#cccccc" stroke-width="2"/>
+<line x1="534" y1="20" x2="534" y2="330" stroke="#cccccc" stroke-width="2"/>
+<g transform="translate(0,0)">
+<use href="#panel"/>
+<rect x="37" y="95" width="60" height="119" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="55" y="214" width="24" height="48" rx="4" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<path d="M55,226 H79 M55,236 H79 M55,246 H79 M55,256 H79" stroke="#222" stroke-width="1.5"/>
+<line x1="120" y1="110" x2="120" y2="172" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="102" y1="212" x2="80" y2="238" stroke="#222" stroke-width="2"/>
+</g>
+<g transform="translate(267,0)">
+<use href="#panel"/>
+<rect x="105" y="95" width="60" height="127" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="123" y="222" width="24" height="48" rx="4" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<path d="M123,234 H147 M123,244 H147 M123,254 H147 M123,264 H147" stroke="#222" stroke-width="1.5"/>
+<line x1="176" y1="140" x2="244" y2="140" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="92" y1="190" x2="92" y2="222" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="178" y1="190" x2="178" y2="222" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g transform="translate(534,0)">
+<use href="#panel"/>
+<rect x="155" y="95" width="60" height="135" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="173" y="230" width="24" height="48" rx="4" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<path d="M173,242 H197 M173,252 H197 M173,262 H197 M173,272 H197" stroke="#222" stroke-width="1.5"/>
+</g>
+<rect x="20" y="340" width="370" height="70" rx="8" fill="none" stroke="#cccccc" stroke-width="2"/>
+<rect x="410" y="340" width="370" height="70" rx="8" fill="none" stroke="#cccccc" stroke-width="2"/>
+<rect x="40" y="348" width="330" height="54" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M98,362 L330,366 A9,9 0 0 1 330,384 L98,388 A22,22 0 1 1 98,362 Z" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<line x1="440" y1="370" x2="760" y2="370" stroke="#222" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="440" y1="370" x2="760" y2="381.2" stroke="#222" stroke-width="3"/>
+<path d="M700,370 A260,260 0 0 1 699.8,379.1" fill="none" stroke="#222" stroke-width="2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="133" y="40">1. Drop in</text>
+<text x="400" y="40">2. Slide along</text>
+<text x="667" y="40">3. Click: tight</text>
+</g>
+<text x="67" y="160">shelf</text>
+<text x="104" y="206" text-anchor="start">ribbed dowel</text>
+<text x="133" y="322">side panel with slot</text>
+<text x="400" y="322">grooves pull it in</text>
+<text x="667" y="322">no screws, glue or tools</text>
+<text x="205" y="432" font-size="16">slot from the front: wide entry, then narrows</text>
+<text x="706" y="399" text-anchor="start" font-size="16">2°</text>
+<text x="595" y="432" font-size="16">grooves slope about 2° along the slot (true scale)</text>
+</g>
+</svg>

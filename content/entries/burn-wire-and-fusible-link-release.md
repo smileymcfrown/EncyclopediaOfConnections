@@ -146,8 +146,24 @@ sources:
 - https://www.youtube.com/watch?v=A_gthivH21c (verified via YouTube oEmbed)
 - https://www.youtube.com/watch?v=Od7TsxxAIY4 (verified via YouTube oEmbed)
 research: research/connection-types/results/Burnwire_and_fusiblelink_release_oneshot_thermal_release.json
+image:
+  file: burn-wire-and-fusible-link-release.webp
+  width: 800
+  height: 600
+  title: File:Fusible Link Release Mechanism ARC1.jpg
+  author: Desertstar
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Fusible_Link_Release_Mechanism_ARC1.jpg
+  alt: 'Close-up of the release in an ARC-1 underwater acoustic release: ''When fusible wire (B) burns, lever (A) can open
+    freely, setting free anchor line attachment (C)'''
+  drawn: false
 glossary: [self-locking, actuator, solenoid, fail-safe--fail-secure, preload, form-fit--force-fit--material-bond, creep]
 ---
+
+![Close-up of the release in an ARC-1 underwater acoustic release: 'When fusible wire (B) burns, lever (A) can open freely, setting free anchor line attachment (C)'](../media/burn-wire-and-fusible-link-release.webp)
+
+*Picture: [Fusible Link Release Mechanism ARC1.jpg](https://commons.wikimedia.org/wiki/File:Fusible_Link_Release_Mechanism_ARC1.jpg) by Desertstar, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
 
 A one-time release in which a cord or soldered link holds a spring-loaded or hanging part until heat cuts or melts it, either on command (a current through a nichrome wire burns through the cord) or automatically in a fire (the link's low-melting solder lets go).
 

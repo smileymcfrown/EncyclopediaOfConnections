@@ -123,10 +123,26 @@ sources:
 - https://commons.wikimedia.org/wiki/File:3-Backen-Futter-800.jpg (file title used for the German alias)
 - 'https://api.printables.com/graphql/ (Printables API: models 133491, 992137, 352130, 743872, 946636)'
 research: research/connection-types/results/Scroll_mechanism_selfcentring_scroll_chuck_spiralslot_plate.json
+image:
+  file: scroll-mechanism.webp
+  width: 800
+  height: 601
+  title: File:ThreeJawChuckKey.jpg
+  author: Glenn McKechnie
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg
+  alt: Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll
+    plate, and the chuck key
+  drawn: false
 glossary: [degrees-of-freedom, backlash, self-locking, axial--radial, torque, pitch, clearance, form-fit--force-fit--material-bond,
   taper, collet, circlip, chamfer--fillet, repeatability--accuracy, creep, lubrication, print-in-place, overhang--bridging,
   support-material]
 ---
+
+![Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll plate, and the chuck key](../media/scroll-mechanism.webp)
+
+*Picture: [ThreeJawChuckKey.jpg](https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg) by Glenn McKechnie, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A plate with a spiral groove (or spiral slots) that, when turned, moves three or more jaws in or out by exactly the same amount, so they clamp a round or hexagonal part and centre it in one movement.
 

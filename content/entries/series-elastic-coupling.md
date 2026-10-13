@@ -139,9 +139,25 @@ sources:
 - https://tamiyamodel.com/how-does-a-servo-saver-work/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Serieselastic_coupling_series_elastic_actuator.json
+image:
+  file: series-elastic-coupling.webp
+  width: 800
+  height: 486
+  title: File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png
+  author: Manuel Cestari Soto
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png
+  alt: 'Two-part figure from a study of variable-stiffness exoskeleton joints: (a) a schematic of series elastic actuators
+    and (b) an example SEA'
+  drawn: false
 glossary: [misalignment, backlash, self-locking, torque, linkage, actuator, fail-safe--fail-secure, stiffness, deflection,
   torsion, damping, hysteresis, tolerance, spline, heat-set-insert, creep, fatigue, perimeters, infill]
 ---
+
+![Two-part figure from a study of variable-stiffness exoskeleton joints: (a) a schematic of series elastic actuators and (b) an example SEA](../media/series-elastic-coupling.webp)
+
+*Picture: [1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png](https://commons.wikimedia.org/wiki/File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png) by Manuel Cestari Soto, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A series elastic [actuator](../glossary.md#actuator) drives a joint through a purposely soft spring placed after the gearbox, so the spring absorbs shocks and its measured [deflection](../glossary.md#deflection) tells the controller the force, letting the motor control force instead of just position.
 

@@ -160,9 +160,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:U.S._Navy_Constructionman_Jennifer_Stewart,_foreground,_attaches_a_toilet_tank_to_the_bowl_of_a_bathroom_as_Jeffery_Brown_tightens_a_dielectric_union_on_a_water_heater_at_Sheppard_Air_Force_Base,_Texas,_July_25_110725-F-NS900-013.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Parallel_pipe_thread_with_a_sealing_washer_BSPP_gardenhose_thread_pipe_union.json
+image:
+  file: parallel-pipe-thread-with-a-sealing-washer.webp
+  width: 800
+  height: 717
+  title: File:Brass hose bipp with standard and GHT threads.jpg
+  author: Ipab
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Brass_hose_bipp_with_standard_and_GHT_threads.jpg
+  alt: 'A brass garden tap outlet with an ISO 228-1 G1/2 parallel thread on the inlet side and a US-only garden hose thread
+    (GHT) on the outlet: the two standards side by side'
+  drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, captive-nut, boss, creep, perimeters,
   infill, o-ring, gland, water-hammer]
 ---
+
+![A brass garden tap outlet with an ISO 228-1 G1/2 parallel thread on the inlet side and a US-only garden hose thread (GHT) on the outlet: the two standards side by side](../media/parallel-pipe-thread-with-a-sealing-washer.webp)
+
+*Picture: [Brass hose bipp with standard and GHT threads.jpg](https://commons.wikimedia.org/wiki/File:Brass_hose_bipp_with_standard_and_GHT_threads.jpg) by Ipab, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A straight screw thread holds a pipe, hose or tap fitting together and squeezes a washer, bonded seal or [O-ring](../glossary.md#o-ring) against a flat face, and that squeezed ring (not the thread) makes the joint watertight, so it can be undone and remade many times with nothing more than a new washer.
 

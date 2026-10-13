@@ -144,8 +144,18 @@ sources:
 - https://www.youtube.com/watch?v=-tUnrz53Srg
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=OI2Mg5BQ_mo&format=json
 research: research/connection-types/results/Guyline_slider_friction_line_tensioner.json
+image:
+  file: drawn/guy-line-slider.svg
+  alt: 'A guy line running from a tent down round a stake and back up through a three-hole runner with a stopper knot, with
+    an arrow showing the runner slid up the line to tighten it, and two close-ups: a loaded cord bent sharply round the hole
+    edges where friction grips it, and a slack cord passing through in loose curves so it slides.'
+  drawn: true
 glossary: [self-locking, mechanical-advantage, form-fit--force-fit--material-bond, chamfer--fillet, creep, infill]
 ---
+
+![A guy line running from a tent down round a stake and back up through a three-hole runner with a stopper knot, with an arrow showing the runner slid up the line to tighten it, and two close-ups: a loa](../media/drawn/guy-line-slider.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A small plate or block with holes (or a toothed groove) that a cord zig-zags through, so sliding it along the cord shortens or lengthens a loop, and the pull of the tight line makes it grip the cord by friction so the tension holds without a knot.
 

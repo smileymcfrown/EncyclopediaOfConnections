@@ -164,9 +164,25 @@ sources:
 - https://huangyan920.github.io/Mechanical/
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Escapement_anchor_or_verge_escapement.json
+image:
+  file: escapement.webp
+  width: 217
+  height: 328
+  title: File:Anchor escapement animation 217x328px.gif
+  author: Chetvorno
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif
+  alt: 'Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia''s
+    Escapement article)'
+  drawn: false
 glossary: [self-locking, axial--radial, ratchet, pawl, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   creep, lubrication, perimeters, regulator]
 ---
+
+![Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia's Escapement article)](../media/escapement.webp)
+
+*Picture: [Anchor escapement animation 217x328px.gif](https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif) by Chetvorno, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 An escapement lets a spring- or weight-driven wheel turn only in small, regular steps, releasing one tooth at a time each time a pendulum or balance wheel swings, while giving that swinging part a small push to keep it going.
 

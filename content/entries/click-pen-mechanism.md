@@ -132,9 +132,19 @@ sources:
 - https://hackaday.com/2026/04/27/the-challenges-of-3d-printing-reliable-springs/
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 research: research/connection-types/results/Clickpen_mechanism_rotatingcam_pushpush_indexer.json
+image:
+  file: drawn/click-pen-mechanism.svg
+  alt: 'The inside of a click pen''s tube unrolled flat: fixed ribs with alternating short ledges and deep channels, and the
+    zig-zag path of one rotator lug over four pushes, each push driving it down onto the button''s sloped teeth and letting
+    it spring up into the next gap, so the pen tip goes out, in, out, in.'
+  drawn: true
 glossary: [axial--radial, stroke, bistable, detent, ratchet, pawl, compliant-mechanism, deflection, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, perimeters, infill, elephants-foot, overhang--bridging]
 ---
+
+![The inside of a click pen's tube unrolled flat: fixed ribs with alternating short ledges and deep channels, and the zig-zag path of one rotator lug over four pushes, each push driving it down onto the](../media/drawn/click-pen-mechanism.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A push button, a spring and a small toothed part that turns a fixed step every time you push, so the same push alternately locks a part out and lets it spring back in (or steps a dial round by one position).
 

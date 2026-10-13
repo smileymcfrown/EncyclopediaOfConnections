@@ -38,6 +38,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Something onto a wall, desk, bar, tripod, rail or grid | 26 | a shelf on a wall, a phone holder on a bike bar, a camera on a tripod |  |
 | Something that has to be gripped or clamped | 12 | a drill chuck, a clamp holding work on a bench, a robot gripper |  |
 | Melt them together (weld, braze or solder) | 11 | welding a steel frame, soldering a copper pipe, fixing a cracked plastic part with heat | The parts are melted together into one piece, rather than glued. |
+| Two different kinds of part (e.g. a print onto wood, or a strap onto a tube) | 226 | a printed bracket screwed to a plywood shelf, a strap clamped round a handlebar | On the next screen, tick each kind of part. You get the joints made for that mix first, then ones that join any parts. |
 | I just want to glue it | 19 | gluing a broken mug, a printed part onto wood |  |
 | Any solid parts / something else | 18 | a bearing mount, a locating pin, a bolt through two parts | For solid parts that don't fit the other answers; the next question asks where you can reach. |
 
@@ -208,6 +209,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Wood, paper or card | 13 | a wooden frame, a cardboard model |  |
 | Metal or glass | 15 | a glass shelf bracket, a magnet onto steel |  |
 | Rubber, fabric, leather or foam | 13 | a shoe sole, foam padding in a case, a leather patch |  |
+| Two different materials (e.g. a print onto wood) | 19 | a PLA part glued to a wooden base, a rubber foot glued to a metal leg | On the next screen, tick every material. Only glues listed as bonding well to all of them stay on the list. |
 
 ##### What matters most?
 *After: Hold two things together (they stay still) → I just want to glue it → 3D-printed plastic (PLA, PETG, ABS) or resin prints*

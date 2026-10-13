@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside a graph where the effort to fold peaks and then drops to a low steady level.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="arm">
+<rect x="30" y="-18" width="44" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="190" y1="20" x2="190" y2="350" stroke="#cccccc" stroke-width="2"/>
+<line x1="380" y1="20" x2="380" y2="350" stroke="#cccccc" stroke-width="2"/>
+<line x1="575" y1="20" x2="575" y2="350" stroke="#cccccc" stroke-width="2"/>
+<!-- 1: straight -->
+<path d="M9,170 H181" fill="none" stroke="#222" stroke-width="8"/>
+<path d="M9,170 H181" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<use href="#arm" transform="translate(111,170)"/>
+<use href="#arm" transform="translate(79,170) scale(-1,1)"/>
+<path d="M60,258 Q95,224 130,258" fill="none" stroke="#222" stroke-width="5"/>
+<!-- 2: peak, middle flattens -->
+<g transform="translate(190,0)">
+<path d="M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3" fill="none" stroke="#222" stroke-width="8"/>
+<path d="M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<use href="#arm" transform="translate(110.5,168) rotate(-8)"/>
+<use href="#arm" transform="translate(79.5,168) rotate(8) scale(-1,1)"/>
+<path d="M150,214 Q174,208 176,184" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M40,214 Q16,208 14,184" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M60,252 Q95,236 130,252" fill="none" stroke="#222" stroke-width="5"/>
+</g>
+<!-- 3: folded with a kink -->
+<g transform="translate(380,0)">
+<path d="M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6" fill="none" stroke="#222" stroke-width="8"/>
+<path d="M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<use href="#arm" transform="translate(109.1,164.1) rotate(-45)"/>
+<use href="#arm" transform="translate(80.9,164.1) rotate(45) scale(-1,1)"/>
+<line x1="95" y1="148" x2="95" y2="166" stroke="#222" stroke-width="1.5"/>
+<path d="M160,76 Q188,98 180,146" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="60" y1="248" x2="130" y2="248" stroke="#222" stroke-width="5"/>
+</g>
+<!-- graph -->
+<path d="M625,90 V300 H785" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M625,300 C633,240 645,120 660,110 C672,104 676,240 690,250 H775" fill="none" stroke="#222" stroke-width="3"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="95" y="40">1. Straight</text>
+<text x="285" y="40">2. Snap-through</text>
+<text x="475" y="40">3. Folded</text>
+<text x="700" y="40">Effort to fold</text>
+</g>
+<text x="95" y="290">end view: curved</text>
+<text x="285" y="290">middle flattens</text>
+<text x="475" y="290">kink is flat across</text>
+<text x="475" y="140" font-size="20" font-style="italic">R</text>
+<text x="475" y="330">springs back straight</text>
+<text x="672" y="102" text-anchor="start">peak</text>
+<text x="735" y="236">low, steady</text>
+<text x="705" y="326">fold angle</text>
+<text transform="translate(610,195) rotate(-90)">turning force (moment)</text>
+<text x="400" y="420">Stiff when straight · easy to fold once kinked · springs back and locks by itself</text>
+</g>
+</svg>

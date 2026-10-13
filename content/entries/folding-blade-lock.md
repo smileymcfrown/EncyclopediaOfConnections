@@ -137,9 +137,25 @@ sources:
 - https://www.printables.com/model/193429-blunted-folding-knife (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Foldingblade_lock_liner_lock_lockback_slip_joint.json
+image:
+  file: folding-blade-lock.webp
+  width: 800
+  height: 1440
+  title: File:Folding knife locking mechanisms.svg
+  author: Waerloeg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg
+  alt: Simplified cutaway diagrams of a lockback (stop pin, rocker bar, rocker pin, torsion bar, pivot pin), a sliding bolt
+    lock with spring, and a liner lock (leaf spring cut from the liner, with top views), each shown open and being released
+  drawn: false
 glossary: [misalignment, self-locking, over-centre, detent, torque, linkage, preload, flexure, torsion, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, fatigue, galling--fretting, infill]
 ---
+
+![Simplified cutaway diagrams of a lockback (stop pin, rocker bar, rocker pin, torsion bar, pivot pin), a sliding bolt lock with spring, and a liner lock (leaf spring cut from the liner, with top views)](../media/folding-blade-lock.webp)
+
+*Picture: [Folding knife locking mechanisms.svg](https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg) by Waerloeg, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A pivot joint for a folding blade or arm in which, once it is swung fully open, a spring-loaded bar (a split strip of the handle liner, the handle frame itself, or a rocker along the spine) drops in behind the blade's heel and blocks it from folding until the bar is pushed aside, while a slip joint only holds the blade with spring pressure and a [detent](../glossary.md#detent).
 

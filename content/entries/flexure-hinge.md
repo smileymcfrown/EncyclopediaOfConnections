@@ -142,9 +142,25 @@ sources:
 - https://www.youtube.com/watch?v=PaypcVFPs48
 - https://www.youtube.com/watch?v=K0wr_ZhhtbE
 research: research/connection-types/results/Flexure_hinge_notch_leafspring_and_crossaxis_pivots.json
+image:
+  file: flexure-hinge.webp
+  width: 800
+  height: 497
+  title: File:Flexure pivot.png
+  author: Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Flexure_pivot.png
+  alt: A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and
+    scientific instruments
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever,
   torsion, chamfer--fillet, repeatability--accuracy, creep, fatigue, infill, print-in-place, peel-vs-shear, regulator]
 ---
+
+![A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and scientific instruments](../media/flexure-hinge.webp)
+
+*Picture: [Flexure pivot.png](https://commons.wikimedia.org/wiki/File:Flexure_pivot.png) by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.*
 
 A pivot made from a deliberately thinned or crossed springy section that bends to let two parts rotate a small angle about each other, with no friction, [backlash](../glossary.md#backlash) or wear.
 

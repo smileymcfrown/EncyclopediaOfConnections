@@ -59,6 +59,7 @@ def main():
         page = fn[:-3]
         fm, fm_text, body = split(open(os.path.join(src, fn)).read())
         body = re.sub(r'\]\(\.\./glossary\.md#', f']({BASE}/glossary/#', body)
+        body = body.replace('](../media/', f']({BASE}/media/')
         body = re.sub(r'^(- ⚑ Finder value `([a-z_]+)`.*)$',
                       lambda m: m.group(1) + f' ([suggest a correction]({correction(page, m.group(2))}))', body, flags=re.M)
         ask = (f'Something wrong, or can you confirm something marked ⚑? '
@@ -108,6 +109,10 @@ def main():
             L += [f'## {label} ({key})', ''] + rows + ['']
     open(os.path.join(DOCS, 'needs-confirming.md'), 'w').write('\n'.join(L))
 
+    media = os.path.join(SITE, 'public', 'media')
+    if os.path.isdir(media):
+        shutil.rmtree(media)
+    shutil.copytree(os.path.join(ROOT, 'content', 'media'), media, ignore=shutil.ignore_patterns('*.yaml', '*.md'))
     data = os.path.join(SITE, 'public', 'data')
     os.makedirs(data, exist_ok=True)
     for f in ('finder.json', 'finder-tree.json'):

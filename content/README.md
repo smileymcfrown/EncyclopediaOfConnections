@@ -73,9 +73,18 @@ address.
 | `links`, `make_it_yourself` | Pictures, videos and models, and things to make, as `{url, title, shows or what_it_is, license}` |
 | `sources` | Every source the research opened |
 | `research` | The JSON file the page was made from |
+| `image` | The picture at the top: `file` (in `media/`), `alt`, and for a copied picture its `title`, `author`, `license`, `license_url` and `source`; `drawn: true` for a drawn diagram |
 
-There are no media files yet. Images will be copied in with their licence details (P7) in
-Phase 4. Until then, `links` points to them.
+## Pictures (R29)
+
+Each page starts with a picture. Where the research found a Wikimedia Commons file whose licence
+allows copying (public domain, CC0, CC BY or CC BY-SA), `tools/fetch_images.py` checks the licence
+and author on the file's own Commons page. It saves a web-sized copy as `media/<page>.webp` and
+records the credit in `media/media.yaml`, and the page shows that credit under the picture. It runs
+on GitHub's machines (*Fetch pictures* workflow), because Wikimedia limits shared cloud addresses.
+Where there is no such file, the page shows a diagram drawn for the encyclopaedia from its
+`diagram_idea` (`media/drawn/<page>.svg`). Drawn diagrams are marked ⚑ *needs confirming*, as a
+drawing can simplify or get details wrong. The `image` key in the front matter names the picture.
 
 ## Headings
 

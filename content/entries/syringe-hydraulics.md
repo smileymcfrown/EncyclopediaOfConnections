@@ -146,9 +146,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Master_cylinder_diagram.svg
 - https://en.wikipedia.org/wiki/Micromanipulator
 research: research/connection-types/results/Syringe_hydraulics_hydraulic_lever_Pascals_principle.json
+image:
+  file: syringe-hydraulics.webp
+  width: 800
+  height: 477
+  title: File:Working principle of a hydraulic jack.svg
+  author: Olivier Cleynen
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Working_principle_of_a_hydraulic_jack.svg
+  alt: Diagram of a small hand piston joined by a pipe to a large piston that lifts a car
+  drawn: false
 glossary: [misalignment, backlash, self-locking, stroke, dead-point, torque, lever-arm, crank, linkage, actuator, stiffness,
   preload, taper, creep, o-ring, check-valve]
 ---
+
+![Diagram of a small hand piston joined by a pipe to a large piston that lifts a car](../media/syringe-hydraulics.webp)
+
+*Picture: [Working principle of a hydraulic jack.svg](https://commons.wikimedia.org/wiki/File:Working_principle_of_a_hydraulic_jack.svg) by Olivier Cleynen, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A sealed tube of liquid with a piston at each end, so that pushing one piston pushes the other one wherever the tube goes; because the pressure is the same everywhere in the liquid, a small piston driving a large one multiplies the force and divides the distance by the ratio of their areas, just as a lever does.
 

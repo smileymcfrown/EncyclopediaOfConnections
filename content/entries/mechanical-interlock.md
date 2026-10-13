@@ -115,9 +115,24 @@ sources:
   not opened; details read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Mechanical_interlock.json
+image:
+  file: mechanical-interlock.webp
+  width: 800
+  height: 600
+  title: File:Trapped key interlock switchgear door.JPG
+  author: Wtshymanski
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG
+  alt: Photo of a trapped-key interlock on an electrical switchgear cabinet door, fixed with one-way security screws
+  drawn: false
 glossary: [misalignment, detent, ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, deflection, clearance, form-fit--force-fit--material-bond,
   holding-force, keying, creep, layer-lines, peel-vs-shear]
 ---
+
+![Photo of a trapped-key interlock on an electrical switchgear cabinet door, fixed with one-way security screws](../media/mechanical-interlock.webp)
+
+*Picture: [Trapped key interlock switchgear door.JPG](https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG) by Wtshymanski, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A mechanical interlock is a bar, pin, ball, plate or key that physically blocks one part from moving until another part is in the right (safe) position, so things can only happen in a safe order.
 

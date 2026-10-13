@@ -139,10 +139,20 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Flexible_beam_coupling_helicalslot_coupling.json
+image:
+  file: drawn/flexible-beam-coupling.svg
+  alt: 'A side view of two slightly misaligned shafts joined by a one-piece tube with a spiral slot cut through it: the tube
+    bends to follow the tilt and offset while twisting from one shaft passes straight through to the other, with an inset
+    comparing one long spiral cut with two short spiral cuts.'
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, actuator, stiffness, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill,
   overhang--bridging]
 ---
+
+![A side view of two slightly misaligned shafts joined by a one-piece tube with a spiral slot cut through it: the tube bends to follow the tilt and offset while twisting from one shaft passes straight t](../media/drawn/flexible-beam-coupling.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A one-piece tube with a spiral slot cut through its wall that joins two shafts end to end, bending slightly to cope with small errors in their line-up while turning them together with no play.
 

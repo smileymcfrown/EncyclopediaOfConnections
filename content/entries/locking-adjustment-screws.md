@@ -139,9 +139,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Mirrormount1.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Locking_adjustment_screws_pushpull_screws_springloaded_levelling_screws.json
+image:
+  file: locking-adjustment-screws.webp
+  width: 512
+  height: 384
+  title: File:Mirrormount1.jpg
+  author: No machine-readable author provided. Chaiken assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Mirrormount1.jpg
+  alt: 'Annotated photo of a kinematic optical mirror mount ''showing some of the mechanism'' (Wikipedia ''Mirror mount''
+    caption): a front plate tilted by adjustment screws in a fixed back plate'
+  drawn: false
 glossary: [misalignment, self-locking, detent, torque, pitch, preload, clearance, form-fit--force-fit--material-bond, set-screw,
   heat-set-insert, captive-nut, kinematic-coupling, fatigue, brittle--ductile, infill]
 ---
+
+![Annotated photo of a kinematic optical mirror mount 'showing some of the mechanism' (Wikipedia 'Mirror mount' caption): a front plate tilted by adjustment screws in a fixed back plate](../media/locking-adjustment-screws.webp)
+
+*Picture: [Mirrormount1.jpg](https://commons.wikimedia.org/wiki/File:Mirrormount1.jpg) by No machine-readable author provided. Chaiken assumed (based on copyright claims)., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Two or three screws, each opposed by a second screw, a spring or a lock nut, that set the tilt, height or end position of a plate or part and then clamp it at that exact setting, as on telescope mirror cells, 3D-printer beds and machine end stops.
 

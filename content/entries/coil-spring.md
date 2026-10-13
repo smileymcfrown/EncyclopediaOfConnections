@@ -140,9 +140,24 @@ sources:
   API)
 - https://www.kjmagnetics.com/blog/magnetic-springs
 research: research/connection-types/results/Coil_spring_compression_extension_torsion.json
+image:
+  file: coil-spring.webp
+  width: 800
+  height: 1143
+  title: File:Helical compression spring parameters.svg
+  author: Yapparina
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg
+  alt: Labelled diagram of a helical compression spring and its main dimensions and symbols
+  drawn: false
 glossary: [axial--radial, over-centre, detent, ratchet, pawl, torque, pitch, stiffness, preload, cantilever, deflection, torsion,
   damping, clearance, tolerance, creep, fatigue, perimeters, infill, peel-vs-shear]
 ---
+
+![Labelled diagram of a helical compression spring and its main dimensions and symbols](../media/coil-spring.webp)
+
+*Picture: [Helical compression spring parameters.svg](https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg) by Yapparina, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A length of springy wire wound into a helix that stores energy when it is squashed (compression spring), stretched (extension spring) or twisted by its arms ([torsion](../glossary.md#torsion) spring), and gives it back as a push, a pull or a turning force roughly in proportion to how far it was moved.
 

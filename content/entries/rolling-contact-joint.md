@@ -143,10 +143,26 @@ sources:
 - https://kapycad.com/en/academy/machines/rolling-contact-joint
 - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
 research: research/connection-types/results/Rollingcontact_joint_CORE_Jacobsladder_hinge.json
+image:
+  file: rolling-contact-joint.webp
+  width: 425
+  height: 700
+  title: File:Jacob's Ladder 2.jpg
+  author: Scientific American
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_2.jpg
+  alt: 'Engraving of the mechanism of a Jacob''s ladder: three blocks shown transparent and pulled apart with their crossed
+    tapes labelled a and b'
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
   clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
   layer-lines, print-in-place]
 ---
+
+![Engraving of the mechanism of a Jacob's ladder: three blocks shown transparent and pulled apart with their crossed tapes labelled a and b](../media/rolling-contact-joint.webp)
+
+*Picture: [Jacob's Ladder 2.jpg](https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_2.jpg) by Scientific American, Public domain, from Wikimedia Commons.*
 
 Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
 

@@ -147,9 +147,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Globe_valve_diagram.svg
 - https://commons.wikimedia.org/wiki/File:Tap.png
 research: research/connection-types/results/Shutoff_valve_tap_ball_valve_stopcock.json
+image:
+  file: shut-off-valve.webp
+  width: 400
+  height: 606
+  title: File:Ball.PNG
+  author: Ruben Castelnuovo (myself)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Ball.PNG
+  alt: Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled
+  drawn: false
 glossary: [misalignment, actuator, solenoid, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, brittle--ductile,
   perimeters, infill, print-in-place, o-ring, check-valve, regulator, water-hammer]
 ---
+
+![Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled](../media/shut-off-valve.webp)
+
+*Picture: [Ball.PNG](https://commons.wikimedia.org/wiki/File:Ball.PNG) by Ruben Castelnuovo (myself), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A hand-operated valve fitted into a pipe or tube that is normally either fully open or fully shut: turning the handle swings a drilled ball or plug a quarter turn, or screws a gate or a rubber-faced plug down onto a seat, so you can turn a water, air, gas or vacuum line on and off or isolate part of a system for repair.
 

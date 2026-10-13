@@ -136,9 +136,25 @@ sources:
 - https://www.youtube.com/watch?v=mdq4OryG9D8
 - https://www.youtube.com/watch?v=kPmZA2VUVew
 research: research/connection-types/results/Collet_and_keyless_chuck.json
+image:
+  file: collet.webp
+  width: 384
+  height: 216
+  title: File:External thread pull collet action.gif
+  author: Slashme
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif
+  alt: Animation of a collet being pulled into its tapered seat by a drawbar, clamping a shaft, spinning, and then releasing
+    it
+  drawn: false
 glossary: [misalignment, ratchet, torque, clearance, form-fit--force-fit--material-bond, set-screw, taper, collet, repeatability--accuracy,
   creep, brittle--ductile, perimeters, infill]
 ---
+
+![Animation of a collet being pulled into its tapered seat by a drawbar, clamping a shaft, spinning, and then releasing it](../media/collet.webp)
+
+*Picture: [External thread pull collet action.gif](https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif) by Slashme, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A slotted sleeve with a cone-shaped outside that a nut or pull-rod forces into a matching cone, so it squeezes evenly around a round tool shank or rod and holds it tight and accurately centred; a keyless chuck does the same job with three jaws that you tighten by hand.
 

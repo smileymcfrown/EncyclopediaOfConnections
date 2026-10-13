@@ -131,9 +131,18 @@ sources:
 - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
 - https://en.wikipedia.org/wiki/Medium-density_fibreboard
 research: research/connection-types/results/Snaplock_sheet_joint_barbed_or_spring_finger.json
+image:
+  file: drawn/snap-lock-sheet-joint.svg
+  alt: 'Three steps of a tab with a springy finger pushed through a slot in another sheet: the barb on the finger''s tip bends
+    the finger aside, then the finger springs back and the barb''s flat back hooks under the far face.'
+  drawn: true
 glossary: [misalignment, stiffness, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, captive-nut,
   chamfer--fillet, creep, brittle--ductile, layer-lines, kerf, peel-vs-shear]
 ---
+
+![Three steps of a tab with a springy finger pushed through a slot in another sheet: the barb on the finger's tip bends the finger aside, then the finger springs back and the barb's flat back hooks unde](../media/drawn/snap-lock-sheet-joint.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Tabs cut into a flat sheet carry a small barb or a springy finger that bends as the tab goes through a slot and then springs back to catch, so flat parts click together and stay together without fasteners or glue.
 

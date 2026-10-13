@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit).</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<!-- before -->
+<rect x="40" y="270" width="57" height="110" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="153" y="270" width="57" height="110" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="87" y="120" width="76" height="120" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="88.5" y="121.5" width="8.5" height="117" fill="#f5d0d0"/>
+<rect x="153" y="121.5" width="8.5" height="117" fill="#f5d0d0"/>
+<g stroke="#222" stroke-width="2" stroke-dasharray="5 5"><line x1="97" y1="124" x2="97" y2="268"/><line x1="153" y1="124" x2="153" y2="268"/></g>
+<line x1="125" y1="70" x2="125" y2="110" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- after -->
+<path d="M275,270 L322,270 L322,380 L275,380 Q251,325 275,270 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M445,270 L398,270 L398,380 L445,380 Q469,325 445,270 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="2" stroke-dasharray="5 5"><line x1="275" y1="272" x2="275" y2="378"/><line x1="445" y1="272" x2="445" y2="378"/></g>
+<rect x="322" y="200" width="76" height="180" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<g stroke="#d1495b" stroke-width="4">
+<line x1="288" y1="295" x2="315" y2="295" marker-end="url(#ah)"/><line x1="282" y1="325" x2="315" y2="325" marker-end="url(#ah)"/><line x1="288" y1="355" x2="315" y2="355" marker-end="url(#ah)"/>
+<line x1="432" y1="295" x2="405" y2="295" marker-end="url(#ah)"/><line x1="438" y1="325" x2="405" y2="325" marker-end="url(#ah)"/><line x1="432" y1="355" x2="405" y2="355" marker-end="url(#ah)"/>
+</g>
+<!-- inset: chamfer -->
+<rect x="490" y="60" width="295" height="165" rx="10" fill="none" stroke="#999" stroke-width="2"/>
+<path d="M590,80 L650,80 L650,150 L640,162 L600,162 L590,150 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="510,212 510,172 584,172 596,184 596,212" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="730,212 730,172 656,172 644,184 644,212" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<!-- inset: shrink fit -->
+<rect x="490" y="240" width="295" height="200" rx="10" fill="none" stroke="#999" stroke-width="2"/>
+<rect x="515" y="345" width="75" height="62" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="680" y="345" width="75" height="62" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="602" y="280" width="66" height="95" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<g fill="none" stroke="#222" stroke-width="2"><path d="M535,338 q6,-6 0,-12 q-6,-6 0,-12"/><path d="M560,338 q6,-6 0,-12 q-6,-6 0,-12"/><path d="M710,338 q6,-6 0,-12 q-6,-6 0,-12"/><path d="M735,338 q6,-6 0,-12 q-6,-6 0,-12"/></g>
+<line x1="635" y1="290" x2="635" y2="345" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="125" y="40" font-size="21" font-weight="bold">Before</text>
+<text x="360" y="40" font-size="21" font-weight="bold">Pressed in</text>
+<text x="125" y="408">red: how much bigger</text>
+<text x="125" y="430">the pin is than the hole</text>
+<text x="360" y="408">the hole stretches and</text>
+<text x="360" y="430">squeezes the pin all round</text>
+<text x="720" y="108">chamfer</text>
+<text x="720" y="130">guides it in</text>
+<text x="550" y="270" font-weight="bold">Shrink fit</text>
+<text x="676" y="306" text-anchor="start">cold shaft</text>
+<text x="637" y="430">hot hub grips as it cools</text>
+</g>
+</svg>

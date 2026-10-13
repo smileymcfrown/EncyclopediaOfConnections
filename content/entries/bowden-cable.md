@@ -119,8 +119,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bowden_cable_pushpull_cable.json
+image:
+  file: bowden-cable.webp
+  width: 800
+  height: 728
+  title: File:Bowden.jpg
+  author: Baran Ivo
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Bowden.jpg
+  alt: 'Cut-away photo of a Bowden cable: plastic outer coating, steel structure, inner low-friction sleeve and inner cable'
+  drawn: false
 glossary: [misalignment, backlash, linkage, stick-slip, form-fit--force-fit--material-bond, chamfer--fillet, fatigue]
 ---
+
+![Cut-away photo of a Bowden cable: plastic outer coating, steel structure, inner low-friction sleeve and inner cable](../media/bowden-cable.webp)
+
+*Picture: [Bowden.jpg](https://commons.wikimedia.org/wiki/File:Bowden.jpg) by Baran Ivo, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 An inner wire sliding inside a flexible outer sleeve that is fixed at both ends carries a pull (and, in push-pull versions, a push) from a lever or motor to a distant part along any curving route, as in bike brakes, car throttles and 3D-printer Bowden extruders.
 

@@ -136,9 +136,24 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Bevel_gears_incl_mitre_and_crown_gears.json
+image:
+  file: bevel-gears.webp
+  width: 800
+  height: 561
+  title: File:Kegelrad.gif
+  author: Ralf Pfeifer at German Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Kegelrad.gif
+  alt: Animation of a bevel gear pair showing its key geometric feature, the pitch cones meeting at a point
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitch, crank, clearance, tolerance, set-screw,
   taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging]
 ---
+
+![Animation of a bevel gear pair showing its key geometric feature, the pitch cones meeting at a point](../media/bevel-gears.webp)
+
+*Picture: [Kegelrad.gif](https://commons.wikimedia.org/wiki/File:Kegelrad.gif) by Ralf Pfeifer at German Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Two gears with teeth cut on cones whose tips meet at one point, used to pass rotation between shafts that meet at an angle (usually 90 degrees), either at 1:1 (mitre gears) or with a speed change; a crown gear is a flat version that meshes with an ordinary straight-toothed gear.
 

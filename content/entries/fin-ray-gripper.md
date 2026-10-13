@@ -122,9 +122,19 @@ sources:
 - https://www.youtube.com/watch?v=90cXfaFM4O8
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Finray_gripper_fin_ray_effect_finger.json
+image:
+  file: drawn/fin-ray-gripper.svg
+  alt: 'Two side views of a gripper finger pressed by a round object: on the left a plain flexible strip bends away from the
+    push, and on the right a triangular fin-ray finger with cross ribs passes the push to its back wall so its tip curls toward
+    the object and wraps around it.'
+  drawn: true
 glossary: [misalignment, backlash, self-locking, linkage, actuator, stiffness, flexure, living-hinge, tolerance, form-fit--force-fit--material-bond,
   brittle--ductile, infill, print-in-place, elephants-foot]
 ---
+
+![Two side views of a gripper finger pressed by a round object: on the left a plain flexible strip bends away from the push, and on the right a triangular fin-ray finger with cross ribs passes the push ](../media/drawn/fin-ray-gripper.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A flexible, hollow, triangular gripper finger with cross ribs that bends toward a pushing object and wraps around it, giving a gentle, self-adjusting grip with no sensors or joints.
 

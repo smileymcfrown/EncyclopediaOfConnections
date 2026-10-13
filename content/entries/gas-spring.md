@@ -137,9 +137,25 @@ sources:
 - https://www.youtube.com/watch?v=zNp5qmd650M
 - https://www.youtube.com/watch?v=HojDjwwRZ04
 research: research/connection-types/results/Gas_spring_incl_lockable_gas_spring.json
+image:
+  file: gas-spring.webp
+  width: 800
+  height: 1405
+  title: File:Gas-spring simplified numbered 120.png
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png
+  alt: 'Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston
+    and flow-restriction orifice (used in Wikipedia''s ''Gas spring'' article)'
+  drawn: false
 glossary: [self-locking, stroke, over-centre, ratchet, torque, linkage, damping, tolerance, heat-set-insert, chamfer--fillet,
   creep, infill]
 ---
+
+![Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston and flow-restriction orifice (used in Wikipedia's 'Gas spring' article)](../media/gas-spring.webp)
+
+*Picture: [Gas-spring simplified numbered 120.png](https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.
 

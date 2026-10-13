@@ -136,9 +136,24 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 1510812, 241564, 352444, 1588728 and 1069910 read via the public
   API)
 research: research/connection-types/results/Wave_and_disc_springs_compact_axial_springs.json
+image:
+  file: wave-and-disc-springs.webp
+  width: 800
+  height: 174
+  title: File:Washerstack.png
+  author: SammusWikiDude
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Washerstack.png
+  alt: 'Belleville spring stacking configurations: single, parallel, series and series-parallel'
+  drawn: false
 glossary: [axial--radial, over-centre, detent, torque, stiffness, preload, cantilever, deflection, torsion, damping, hysteresis,
   clearance, tolerance, circlip, creep, fatigue, brittle--ductile, overhang--bridging]
 ---
+
+![Belleville spring stacking configurations: single, parallel, series and series-parallel](../media/wave-and-disc-springs.webp)
+
+*Picture: [Washerstack.png](https://commons.wikimedia.org/wiki/File:Washerstack.png) by SammusWikiDude, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 Washer-shaped springs, either wavy flat rings (wave springs) or shallow cones (disc or Belleville springs), that give a strong, steady push along a shaft or bolt in a very short height, used to [preload](../glossary.md#preload) bearings, keep bolted joints tight and take up play.
 

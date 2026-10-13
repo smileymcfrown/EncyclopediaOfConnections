@@ -116,9 +116,25 @@ sources:
 - https://www.youtube.com/watch?v=WnDc7tv79HM
 - https://www.youtube.com/watch?v=oBnVt-Si2o0
 research: research/connection-types/results/Spring_balancer_gravity_compensation.json
+image:
+  file: spring-balancer.webp
+  width: 800
+  height: 518
+  title: File:Angle Poise Lamp Diagram 2.png
+  author: Who created this image? Stef Breukel.Who owns the copyright to this image? Stef Breukel did..
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Angle_Poise_Lamp_Diagram_2.png
+  alt: Diagram of an Anglepoise-style lamp with one parallelogram and two extension springs near the base (used in Wikipedia
+    'Balanced-arm lamp')
+  drawn: false
 glossary: [torque, linkage, stiffness, torsion, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue,
   perimeters, infill]
 ---
+
+![Diagram of an Anglepoise-style lamp with one parallelogram and two extension springs near the base (used in Wikipedia 'Balanced-arm lamp')](../media/spring-balancer.webp)
+
+*Picture: [Angle Poise Lamp Diagram 2.png](https://commons.wikimedia.org/wiki/File:Angle_Poise_Lamp_Diagram_2.png) by Who created this image? Stef Breukel.Who owns the copyright to this image? Stef Breukel did.., Public domain, from Wikimedia Commons.*
 
 An arrangement of springs, or a counterweight, that cancels the weight of a pivoting arm or door at every angle, so it can be moved with almost no effort and stays put wherever it is released.
 

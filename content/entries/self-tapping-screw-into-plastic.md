@@ -132,10 +132,25 @@ sources:
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_08_fpl_gtr282.pdf
 - https://en.wikipedia.org/wiki/Self-drilling_screw
 research: research/connection-types/results/Selftapping_screw_into_plastic_threadforming_screw.json
+image:
+  file: self-tapping-screw-into-plastic.webp
+  width: 800
+  height: 319
+  title: File:Screw types.jpg
+  author: Ssawka at Polish Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Screw_types.jpg
+  alt: Photo of several screw types including self-drilling and self-tapping screws beside wood screws
+  drawn: false
 glossary: [torque, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, creep, stress-relaxation, brittle--ductile, perimeters, infill, warping--shrinkage,
   o-ring]
 ---
+
+![Photo of several screw types including self-drilling and self-tapping screws beside wood screws](../media/self-tapping-screw-into-plastic.webp)
+
+*Picture: [Screw types.jpg](https://commons.wikimedia.org/wiki/File:Screw_types.jpg) by Ssawka at Polish Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A hardened screw with a sharp, widely spaced thread forms or cuts its own mating thread in a plain [pilot hole](../glossary.md#pilot-hole) in plastic, clamping a part on without any nut, insert or tapping, at the cost of a thread that wears each time it is undone.
 

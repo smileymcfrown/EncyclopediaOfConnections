@@ -171,8 +171,23 @@ sources:
 - https://help.prusa3d.com/article/elephant-foot-compensation_114487
 - https://raw.githubusercontent.com/florianfesti/boxes/master/LICENSE.txt
 research: research/connection-types/results/Modular_grid_mounting_systems_pegboard_Gridfinitystyle_grids.json
+image:
+  file: modular-grid-mounting-systems.webp
+  width: 800
+  height: 495
+  title: File:Pegboard.jpg
+  author: Dave Pape
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pegboard.jpg
+  alt: Close-up of pegboard (perforated hardboard) with 1/4 in holes on 1 in spacing
+  drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
+
+![Close-up of pegboard (perforated hardboard) with 1/4 in holes on 1 in spacing](../media/modular-grid-mounting-systems.webp)
+
+*Picture: [Pegboard.jpg](https://commons.wikimedia.org/wiki/File:Pegboard.jpg) by Dave Pape, Public domain, from Wikimedia Commons.*
 
 A board or baseplate with a regular grid of identical holes, slots or sockets, so any hook, holder or bin made to the same spacing can be hung, clicked, twisted, screwed or held by magnet in any position and moved again by hand.
 

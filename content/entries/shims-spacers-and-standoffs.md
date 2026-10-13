@@ -125,9 +125,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shims_spacers_and_standoffs_packing_spacer_washer.json
+image:
+  file: shims-spacers-and-standoffs.webp
+  width: 360
+  height: 307
+  title: File:Metal shims.jpg
+  author: Ikris72
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Metal_shims.jpg
+  alt: Pre-cut slotted metal shims of different sizes, all 1.00 mm thick
+  drawn: false
 glossary: [self-locking, axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert,
   kinematic-coupling, creep, infill, peel-vs-shear]
 ---
+
+![Pre-cut slotted metal shims of different sizes, all 1.00 mm thick](../media/shims-spacers-and-standoffs.webp)
+
+*Picture: [Metal shims.jpg](https://commons.wikimedia.org/wiki/File:Metal_shims.jpg) by Ikris72, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A shim, spacer or standoff is a piece of known thickness or length put between two parts, so that the gap, height or spacing between them is set by that piece and then held when the parts are bolted or pressed together.
 

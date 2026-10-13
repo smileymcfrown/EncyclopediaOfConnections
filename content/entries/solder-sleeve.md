@@ -134,8 +134,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Soe_self-solder_sleeve_2.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solder_sleeve_solderseal_splice.json
+image:
+  file: solder-sleeve.webp
+  width: 800
+  height: 199
+  title: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG
+  author: 'Photograph: wdwd'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Geschrumpfter_L%C3%B6tverbinder_auf_Litzendraht.JPG
+  alt: 'A finished solder sleeve on stranded wire: the solder area and contact ring in the middle and the two blue sealing
+    rings closed round the insulation either side'
+  drawn: false
 glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland]
 ---
+
+![A finished solder sleeve on stranded wire: the solder area and contact ring in the middle and the two blue sealing rings closed round the insulation either side](../media/solder-sleeve.webp)
+
+*Picture: [Geschrumpfter Lötverbinder auf Litzendraht.JPG](https://commons.wikimedia.org/wiki/File:Geschrumpfter_L%C3%B6tverbinder_auf_Litzendraht.JPG) by Photograph: wdwd, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A clear heat-shrink tube with a built-in ring of flux-cored solder and two rings of hot-melt glue: heated with a hot-air gun over two overlapped bare wire ends, the solder melts into the wires while the tube shrinks and the glue seals onto the insulation, giving a soldered, insulated, splash-proof splice you can inspect through the tube.
 

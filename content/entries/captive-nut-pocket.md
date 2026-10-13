@@ -124,8 +124,23 @@ sources:
 - http://thrinter.com/creep-abs-pla-petg-alloy-910/
 - https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts
 research: research/connection-types/results/Captive_nut_pocket_nut_trap.json
+image:
+  file: captive-nut-pocket.webp
+  width: 800
+  height: 533
+  title: File:Hexagon nuts.jpg
+  author: Oytun 73
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Hexagon_nuts.jpg
+  alt: Photo of a pile of hex nuts, showing the flats that a hex pocket grips
+  drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, creep, overhang--bridging]
 ---
+
+![Photo of a pile of hex nuts, showing the flats that a hex pocket grips](../media/captive-nut-pocket.webp)
+
+*Picture: [Hexagon nuts.jpg](https://commons.wikimedia.org/wiki/File:Hexagon_nuts.jpg) by Oytun 73, Public domain, from Wikimedia Commons.*
 
 A hexagonal or square pocket shaped to hold a standard nut so it can't spin, giving a printed part a strong metal thread for a bolt at almost no cost.
 

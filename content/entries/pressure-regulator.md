@@ -133,9 +133,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg
 - https://commons.wikimedia.org/wiki/File:Depiction_of_a_two-gauge_pressure_regulator_connected_to_a_cylinder.png
 research: research/connection-types/results/Pressure_regulator_pressurereducing_valve.json
+image:
+  file: pressure-regulator.webp
+  width: 800
+  height: 1054
+  title: File:Pressure regulators schematic.png
+  author: Peter Southwood
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Pressure_regulators_schematic.png
+  alt: Schematic of a pressure-reducing regulator and a back-pressure regulator, showing the basic principle and the valve
+    in its normal and activated positions
+  drawn: false
 glossary: [oscillating, actuator, solenoid, cantilever, damping, hysteresis, boss, repeatability--accuracy, creep, infill,
   o-ring, check-valve, regulator]
 ---
+
+![Schematic of a pressure-reducing regulator and a back-pressure regulator, showing the basic principle and the valve in its normal and activated positions](../media/pressure-regulator.webp)
+
+*Picture: [Pressure regulators schematic.png](https://commons.wikimedia.org/wiki/File:Pressure_regulators_schematic.png) by Peter Southwood, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A self-adjusting valve with a spring-loaded diaphragm that lowers a high supply pressure to a steady working pressure you set with a knob, opening a little more as air is used and closing as pressure builds, so tools, cylinders and soft [actuators](../glossary.md#actuator) only get the pressure they need.
 

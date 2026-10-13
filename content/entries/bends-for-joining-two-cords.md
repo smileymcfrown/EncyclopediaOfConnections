@@ -144,8 +144,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:N%C5%93ud_de_p%C3%AAcheur_double_serr%C3%A9.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bends_for_joining_two_cords_sheet_bend_double_fishermans_knot_water_knot.json
+image:
+  file: bends-for-joining-two-cords.webp
+  width: 800
+  height: 600
+  title: File:Doppelter Schotstek.jpg
+  author: Markus Bärlocher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Doppelter_Schotstek.jpg
+  alt: Photo of a double sheet bend joining two ropes
+  drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, creep]
 ---
+
+![Photo of a double sheet bend joining two ropes](../media/bends-for-joining-two-cords.webp)
+
+*Picture: [Doppelter Schotstek.jpg](https://commons.wikimedia.org/wiki/File:Doppelter_Schotstek.jpg) by Markus Bärlocher, Public domain, from Wikimedia Commons.*
 
 Knots that join two cords end to end, or close one cord into a ring: the sheet bend for cords of different thickness, the double fisherman's for a compact, very secure join, the water knot for flat tape, and the Zeppelin bend when it must still untie after a heavy pull.
 

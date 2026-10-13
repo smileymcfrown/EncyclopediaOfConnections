@@ -129,8 +129,23 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Rope_grab_and_ascender_cam_rope_clamp.json
+image:
+  file: rope-grab-and-ascender.webp
+  width: 800
+  height: 187
+  title: File:Ascenders-cams.jpg
+  author: Luca Bergamasco
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg
+  alt: Close-up of the toothed cams of two chest ascenders (Petzl Croll and Kong Cam Clean)
+  drawn: false
 glossary: [self-locking, ratchet, pawl, sprag, clearance, form-fit--force-fit--material-bond, threadlocker, infill]
 ---
+
+![Close-up of the toothed cams of two chest ascenders (Petzl Croll and Kong Cam Clean)](../media/rope-grab-and-ascender.webp)
+
+*Picture: [Ascenders-cams.jpg](https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg) by Luca Bergamasco, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
 
 A clamp with a spring-loaded, toothed, off-centre lever (cam) that slides up a rope in one direction but pinches the rope against its frame and locks when pulled the other way; used in pairs to climb a rope, to stop a hauled load slipping back, and on safety lines.
 

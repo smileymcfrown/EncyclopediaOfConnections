@@ -132,8 +132,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Caster-wheels-chair.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Castor_swivel_castor_fixed_castor_locking_castor.json
+image:
+  file: castor.webp
+  width: 800
+  height: 580
+  title: File:Nachlauf Einkaufswagen.png
+  author: Gluon
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png
+  alt: Sketch of the caster trail (offset) of a shopping trolley's swivel castor
+  drawn: false
 glossary: [fail-safe--fail-secure, clearance, creep, perimeters, infill]
 ---
+
+![Sketch of the caster trail (offset) of a shopping trolley's swivel castor](../media/castor.webp)
+
+*Picture: [Nachlauf Einkaufswagen.png](https://commons.wikimedia.org/wiki/File:Nachlauf_Einkaufswagen.png) by Gluon, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 An unpowered wheel in a fixed or swivelling bracket fixed under an object so it can be rolled; a swivel castor's wheel trails behind its pivot so it lines itself up with the direction of travel, and braked versions lock the wheel, the swivel or both.
 

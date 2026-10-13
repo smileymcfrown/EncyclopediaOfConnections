@@ -106,10 +106,25 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rKYTr9NjgOA&format=json
 - https://github.com/shaiss/print-bench/issues/668
 research: research/connection-types/results/Compliant_ratchet_and_overrunning_clutch_flexure_pawl.json
+image:
+  file: compliant-ratchet-and-overrunning-clutch.webp
+  width: 800
+  height: 451
+  title: File:ZipTieCrossSection.JPG
+  author: Mushrooshi
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG
+  alt: Cutaway photo of a cable tie head showing the moulded springy catch (flexure pawl) against the strap's teeth
+  drawn: false
 glossary: [backlash, axial--radial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, stiffness, preload, flexure,
   compliant-mechanism, living-hinge, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   undercut, creep, stress-relaxation, fatigue, brittle--ductile, perimeters, print-in-place, elephants-foot, peel-vs-shear]
 ---
+
+![Cutaway photo of a cable tie head showing the moulded springy catch (flexure pawl) against the strap's teeth](../media/compliant-ratchet-and-overrunning-clutch.webp)
+
+*Picture: [ZipTieCrossSection.JPG](https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG) by Mushrooshi, Public domain, from Wikimedia Commons.*
 
 A [ratchet](../glossary.md#ratchet) or one-way clutch in which the catch ([pawl](../glossary.md#pawl)) and its spring are the same springy arm, moulded or printed in one piece with the hub, so the wheel clicks round one way and locks the other with no pins, springs or assembly.
 

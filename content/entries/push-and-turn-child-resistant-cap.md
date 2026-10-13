@@ -129,9 +129,24 @@ sources:
 - https://www.printables.com/model/1109394-dram-pill-bottle-with-protective-cap-mechanism (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushandturn_childresistant_cap.json
+image:
+  file: push-and-turn-child-resistant-cap.webp
+  width: 800
+  height: 536
+  title: File:Aspirin1.jpg
+  author: User Mosesofmason on zh.Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Aspirin1.jpg
+  alt: Photo of an aspirin bottle with a child-resistant cap marked 'push down & turn to open'
+  drawn: false
 glossary: [coaxial, ratchet, torque, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
   print-in-place, regulator]
 ---
+
+![Photo of an aspirin bottle with a child-resistant cap marked 'push down & turn to open'](../media/push-and-turn-child-resistant-cap.webp)
+
+*Picture: [Aspirin1.jpg](https://commons.wikimedia.org/wiki/File:Aspirin1.jpg) by User Mosesofmason on zh.Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A two-layer screw cap whose loose outer shell only grips the threaded inner cap when you press down while turning, so a child who just twists it gets nothing but spinning and clicking, while an adult who knows the trick can open it.
 

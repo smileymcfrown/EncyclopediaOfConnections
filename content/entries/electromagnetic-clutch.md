@@ -121,9 +121,24 @@ sources:
 - https://www.youtube.com/watch?v=F87u7IQL-3M (verified via YouTube oEmbed; 'Making A DIY SawStop!', Ruth Amos)
 - https://www.thingiverse.com/thing:4647488
 research: research/connection-types/results/Electromagnetic_clutch.json
+image:
+  file: electromagnetic-clutch.webp
+  width: 216
+  height: 190
+  title: File:B-1 electromagnetic-clutch1.png
+  author: Oguraclutch
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
+  alt: Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article
+  drawn: false
 glossary: [misalignment, backlash, self-locking, freewheel, torque, solenoid, fail-safe--fail-secure, hysteresis, tolerance,
   form-fit--force-fit--material-bond, set-screw, repeatability--accuracy]
 ---
+
+![Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article](../media/electromagnetic-clutch.webp)
+
+*Picture: [B-1 electromagnetic-clutch1.png](https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png) by Oguraclutch, Public domain, from Wikimedia Commons.*
 
 A drive connector that joins a spinning input to an output only while its coil is powered, by magnetically clamping a steel plate (armature) against a spinning face (rotor), and lets them separate the moment the current stops.
 

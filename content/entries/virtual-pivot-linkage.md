@@ -129,9 +129,25 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Virtualpivot_linkage_remote_centre_of_motion.json
+image:
+  file: virtual-pivot-linkage.webp
+  width: 760
+  height: 579
+  title: File:Scharnier 02.gif
+  author: Manfredgoellner
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Scharnier_02.gif
+  alt: Animation of a built-in fridge's multi-joint hinge; the door and panel edges swing about imaginary axes where there
+    is no pin
+  drawn: false
 glossary: [misalignment, backlash, stroke, pitch, linkage, flexure, clearance, chamfer--fillet, creep, lubrication, perimeters,
   print-in-place, peel-vs-shear]
 ---
+
+![Animation of a built-in fridge's multi-joint hinge; the door and panel edges swing about imaginary axes where there is no pin](../media/virtual-pivot-linkage.webp)
+
+*Picture: [Scharnier 02.gif](https://commons.wikimedia.org/wiki/File:Scharnier_02.gif) by Manfredgoellner, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A set of links, a curved track or bending strips arranged so that a part rotates about a point out in empty space, such as a surgeon's incision, the tip of a peg, a person's knee or the corner of a folding door, where no real pin could be placed.
 

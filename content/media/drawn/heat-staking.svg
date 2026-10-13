@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three cut-away steps of heat staking: a plastic post pushed through a countersunk hole in a second plate, a hot iron with tape pressing and melting the post tip, and the cooled mushroom head filling the countersink so the plates cannot lift apart or slide.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="plate" fill="#cfe3f5" stroke="#222" stroke-width="3">
+<path d="M30,240 H100 L115,260 V300 H30 Z"/>
+<path d="M145,300 V260 L160,240 H230 V300 Z"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="265" y1="60" x2="265" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="530" y1="60" x2="530" y2="390" stroke="#cccccc" stroke-width="2"/>
+<!-- 1: post through hole -->
+<path d="M30,300 H115 V205 H145 V300 H230 V340 H30 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<use href="#plate"/>
+<line x1="72" y1="192" x2="104" y2="246" stroke="#222" stroke-width="2"/>
+<!-- 2: hot iron presses -->
+<g transform="translate(265,0)">
+<path d="M30,300 H115 V250 L106,205 H154 L145,250 V300 H230 V340 H30 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<use href="#plate"/>
+<path d="M95,198 H165 L150,140 V84 H110 V140 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="85" y="198" width="90" height="7" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+<line x1="200" y1="100" x2="200" y2="165" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- 3: cooled head -->
+<g transform="translate(530,0)">
+<path d="M30,300 H115 V260 L100,240 H88 Q130,204 172,240 H160 L145,260 V300 H230 V340 H30 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<use href="#plate"/>
+<line x1="55" y1="236" x2="55" y2="196" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="180" y1="270" x2="222" y2="270" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="20" font-weight="bold" text-anchor="middle">
+<text x="130" y="40">1. Push post through</text>
+<text x="395" y="40">2. Melt and press</text>
+<text x="660" y="40">3. Cool: locked</text>
+</g>
+<text x="153" y="224">post</text>
+<text x="18" y="184">countersunk hole</text>
+<text x="395" y="72" text-anchor="middle">hot iron presses down</text>
+<text x="272" y="230">Kapton tape</text>
+<line x1="340" y1="214" x2="356" y2="206" stroke="#222" stroke-width="2"/>
+<text x="545" y="186">head stops it lifting</text>
+<text x="660" y="372" text-anchor="middle">post stops it sliding</text>
+<text x="400" y="425" text-anchor="middle">Only the plastic post melts, so the held part can be metal, a circuit board or fabric</text>
+</g>
+</svg>

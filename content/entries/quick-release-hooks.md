@@ -138,9 +138,25 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Quickrelease_hooks_pelican_hook_threering_release.json
+image:
+  file: quick-release-hooks.webp
+  width: 300
+  height: 600
+  title: File:3Ring release animation.gif
+  author: ☭Acodered
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif
+  alt: 'Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large
+    rings cascading apart so the riser comes off the harness'
+  drawn: false
 glossary: [axial--radial, over-centre, mechanical-advantage, actuator, solenoid, fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond,
   layer-lines, perimeters, infill]
 ---
+
+![Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large rings cascading apart so the riser comes off the harness](../media/quick-release-hooks.webp)
+
+*Picture: [3Ring release animation.gif](https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif) by ☭Acodered, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A hinged hook, jaw or stack of rings that carries a big load through its strong parts while a small latch (a sliding ring, spring pin, trigger or cord loop) keeps it shut, so a small, deliberate pull on the latch releases the load instantly.
 

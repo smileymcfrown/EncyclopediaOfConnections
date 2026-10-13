@@ -123,9 +123,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Screwin_threaded_insert_wire_thread_insert_selftapping_insert.json
+image:
+  file: screw-in-threaded-insert.webp
+  width: 800
+  height: 807
+  title: File:Taplok Insert.jpg
+  author: Sjgroovpin
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg
+  alt: Photo of a self-tapping solid insert with cutting edges on its outside thread
+  drawn: false
 glossary: [self-locking, torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   threadlocker, brittle--ductile, infill, peel-vs-shear]
 ---
+
+![Photo of a self-tapping solid insert with cutting edges on its outside thread](../media/screw-in-threaded-insert.webp)
+
+*Picture: [Taplok Insert.jpg](https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg) by Sjgroovpin, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A threaded sleeve or a diamond-section wire coil that is screwed into a drilled or tapped hole to give soft, [brittle](../glossary.md#brittle--ductile) or worn material a strong, reusable machine-screw thread.
 

@@ -111,9 +111,24 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Balldetent_torque_limiter.json
+image:
+  file: ball-detent-torque-limiter.webp
+  width: 800
+  height: 1108
+  title: File:Torque limiter with balls Make Ringspann.JPG
+  author: S.J. de Waard
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Torque_limiter_with_balls_Make_Ringspann.JPG
+  alt: Photo of an industrial ball-type torque limiter on display at Europort 2013
+  drawn: false
 glossary: [misalignment, backlash, coaxial, detent, ratchet, pawl, torque, fail-safe--fail-secure, preload, hysteresis, clearance,
   form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, brittle--ductile, peel-vs-shear]
 ---
+
+![Photo of an industrial ball-type torque limiter on display at Europort 2013](../media/ball-detent-torque-limiter.webp)
+
+*Picture: [Torque limiter with balls Make Ringspann.JPG](https://commons.wikimedia.org/wiki/File:Torque_limiter_with_balls_Make_Ringspann.JPG) by S.J. de Waard, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Spring-loaded steel balls sitting in dimples between two plates pass on the drive until the [torque](../glossary.md#torque) gets too high, then roll out of their dimples so the drive side spins free (or clicks round) instead of breaking the gears, motor or workpiece.
 

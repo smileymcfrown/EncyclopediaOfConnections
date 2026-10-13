@@ -1,2 +1,7 @@
 /* Small additions to Starlight's default look. */
 .sl-banner a { text-decoration: underline; }
+
+/* The picture at the top of each entry page (R29). */
+.sl-markdown-content > p:first-child img { display: block; max-height: 26rem; width: auto; max-width: 100%; margin: 0 auto;
+  background: #fff; border-radius: 0.5rem; }
+.sl-markdown-content > p:first-child + p { text-align: center; font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }

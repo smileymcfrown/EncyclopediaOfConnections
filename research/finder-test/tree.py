@@ -53,6 +53,15 @@ REMOVE=('Will you need to take it apart again?',[
   ('Often, by hand, without tools', R('hand'), None)])
 def Q(question, *answers): return (question, list(answers))
 def A(label, pred, child=None): return (label, pred, child)
+
+class TICK:
+    """A last step where people tick several values of one finder tag, e.g. every material they are
+    gluing; the list keeps the entries whose tag has *all* the ticked values (R29). `anything` is a
+    value that matches whatever is ticked (e.g. 'any solid parts'). A tick step may start with more
+    than 10 entries, because ticking narrows it; tree.py checks every pair of ticks instead."""
+    def __init__(self, field, prompt, anything=None, min_pair=0):
+        self.field, self.prompt, self.anything = field, prompt, anything
+def is_q(child): return isinstance(child, tuple)
 GLUE_NEED=Q('What matters most?',
   A('Strongest bond', N(r'epoxy|structural acrylic|polyurethane|cyanoacrylate|solvent weld|UV-curing|anaerobic|PVA|glued joint')),
   A('Stays flexible, or seals too', N(r'silicone|contact adhesive|elastomeric|hot-melt|foam tape|fusible web')),
@@ -120,12 +129,15 @@ TREE=Q('What do you need it to do?',
      A('Melt them together (weld, braze or solder)', OR(F('welding, brazing & soldering'), N(r'solvent weld|heat staking')), Q('What are the parts made of?',
          A('Metal', N(r'metal joint|spot weld|brazed')),
          A('Plastic, or plastic film and coated fabric', NOT(N(r'metal joint|spot weld|brazed'))))),
+     A('Two different kinds of part (e.g. a print onto wood, or a strap onto a tube)', ALL,
+       TICK('connects', 'Tick each kind of part you are joining', anything='any solid parts')),
      A('I just want to glue it', C('glue'), Q('What are you gluing?',
          A('3D-printed plastic (PLA, PETG, ABS) or resin prints', mat(r'\bPLA\b|PETG|\bABS\b|resin print|3D print'), GLUE_NEED),
          A('Slippery plastics (polyethylene, polypropylene, silicone)', mat(r'\bPE\b|\bPP\b|polyethylene|polypropylene|HDPE|low-surface')),
          A('Wood, paper or card', mat(r'wood|paper|card'), GLUE_NEED),
          A('Metal or glass', mat(r'metal|steel|aluminium|glass'), GLUE_NEED),
-         A('Rubber, fabric, leather or foam', mat(r'rubber|fabric|leather|foam|textile'), GLUE_NEED))),
+         A('Rubber, fabric, leather or foam', mat(r'rubber|fabric|leather|foam|textile'), GLUE_NEED),
+         A('Two different materials (e.g. a print onto wood)', ALL, TICK('bonds_well', 'Tick every material you are gluing')))),
      A('Any solid parts / something else', AND(lambda e: not e['connects'] and e['power']=='passive', NOT(F('welding, brazing & soldering','seals & pass-throughs','hydraulics, pneumatics & vacuum'))), Q('Where can you reach?',
          A('Only one side, or only the end of a tube or shaft', lambda e: e['access'] in ('one side only','end of a tube or shaft')),
          A('Both sides', lambda e: e['access']=='both sides'),
@@ -262,7 +274,7 @@ def answer_paths(node=None, path=()):
     for label, pred, child in answers:
         p = path + (label,)
         yield q, p
-        if child: yield from answer_paths(child, p)
+        if is_q(child): yield from answer_paths(child, p)
 
 def load_examples():
     import yaml
@@ -277,7 +289,7 @@ def check_examples():
     return missing, extra
 
 def walk(node, S, path, out, flags=None):
-    """Every leaf as (path, entries, flags). flags maps an entry number to the tag fields whose
+    """Every leaf as (path, entries, flags, tick). tick is the TICK step, or None. flags maps an entry number to the tag fields whose
     needs-confirming values put it on this path."""
     global USED
     q, answers = node
@@ -290,7 +302,7 @@ def walk(node, S, path, out, flags=None):
         for num, field in used:
             if num in keep: fl.setdefault(num, set()).add(field)
         p = path + [label]
-        if child is None: out.append((p, T, fl))
+        if not is_q(child): out.append((p, T, fl, child))
         else: walk(child, T, p, out, fl)
 
 if __name__=='__main__':
@@ -301,14 +313,24 @@ if __name__=='__main__':
     out=[]; walk(TREE,E,[],out)
     reached=set()
     verbose='-v' in sys.argv
-    for p,T,fl in out:
+    def tvals(e, f):
+        v = e['tg'].get(f); return set(v if isinstance(v, list) else [v]) - {'not applicable', None}
+    plain = [(p,T) for p,T,fl,t in out if t is None]
+    for p,T,fl,t in out:
         reached|={e['num'] for e in T}
-        flag='OK ' if 3<=len(T)<=10 else ('BIG' if len(T)>10 else 'SML')
-        print(f"{flag} {len(T):3}  {' > '.join(x[:38] for x in p)}")
+        if t is None:
+            flag='OK ' if 3<=len(T)<=10 else ('BIG' if len(T)>10 else 'SML')
+            print(f"{flag} {len(T):3}  {' > '.join(x[:38] for x in p)}")
+        else:
+            opts = sorted(set().union(*(tvals(e, t.field) for e in T)) - {t.anything})
+            has = lambda e, vs: t.anything in tvals(e, t.field) or vs <= tvals(e, t.field)
+            pairs = [(a, b, sum(has(e, {a, b}) for e in T)) for i, a in enumerate(opts) for b in opts[i+1:]]
+            print(f"TICK{len(T):3}  {' > '.join(x[:38] for x in p)}: {len(opts)} options; pairs with no entry "
+                  f"{sum(1 for *_, n in pairs if n == 0)} of {len(pairs)}; median per pair {sorted(n for *_, n in pairs)[len(pairs)//2] if pairs else 0}")
         if verbose: print('        ', '; '.join(f"{e['num']} {e['name'][:28]}" + (' ⚑' if e['num'] in fl else '') for e in T))
     un=[e for e in E if e['num'] not in reached]
-    print('\nleaves',len(out),'OK',sum(3<=len(T)<=10 for _,T,_ in out),'BIG',sum(len(T)>10 for _,T,_ in out),'SMALL',sum(len(T)<3 for _,T,_ in out))
-    print('entries on a path because of a value that needs confirming',sum(len(fl) for _,_,fl in out))
+    print('\nleaves',len(plain),'OK',sum(3<=len(T)<=10 for _,T in plain),'BIG',sum(len(T)>10 for _,T in plain),'SMALL',sum(len(T)<3 for _,T in plain),'tick steps',len(out)-len(plain))
+    print('entries on a path because of a value that needs confirming',sum(len(fl) for _,_,fl,_ in out))
     print('unreached',len(un)); [print('  ',e['num'],e['name'][:60],'|',e['family'],e['job'][:2],e['motion']) for e in un]
     # every answer needs a real-world example (examples.yaml; owner's request 2026-10-06)
     missing, extra = check_examples()

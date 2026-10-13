@@ -122,8 +122,23 @@ sources:
 - https://www.youtube.com/watch?v=r0zpqhhcmp4
 - https://api.printables.com/graphql/ (models 692350, 737519, 1287251)
 research: research/connection-types/results/Frictionwelded_plastic_rotarytool_friction_welding_spin_welding.json
+image:
+  file: friction-welded-plastic.webp
+  width: 561
+  height: 351
+  title: File:Rotary friction welding.jpg
+  author: Xyz00030280
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Rotary_friction_welding.jpg
+  alt: Industrial rotary friction welding of metal parts, the big-machine cousin of spin welding
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, collet, fatigue, infill, check-valve]
 ---
+
+![Industrial rotary friction welding of metal parts, the big-machine cousin of spin welding](../media/friction-welded-plastic.webp)
+
+*Picture: [Rotary friction welding.jpg](https://commons.wikimedia.org/wiki/File:Rotary_friction_welding.jpg) by Xyz00030280, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Friction welding melts plastic by rubbing instead of by heating: a short length of filament spun in a rotary tool is run along a seam like a melting filler rod, or one round part is spun against another on a drill press or lathe, until the contact melts and the parts fuse into a single piece.
 

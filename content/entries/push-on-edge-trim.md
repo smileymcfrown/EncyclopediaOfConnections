@@ -134,8 +134,18 @@ sources:
 - https://www.youtube.com/watch?v=DQzh1K6oNJQ
 - https://api.printables.com/graphql/ (models 1594528, 1355605, 932095, 640345)
 research: research/connection-types/results/Pushon_edge_trim_Uchannel_edging_grommet_edging.json
+image:
+  file: drawn/push-on-edge-trim.svg
+  alt: A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled
+    tongues pressing on both faces like barbs so it pushes on easily but resists pulling off; beside it, a hole in a panel
+    lined with serrated grommet edging around a cable, and a trim seal whose hollow bulb is squashed by a closing door.
+  drawn: true
 glossary: [cantilever, form-fit--force-fit--material-bond, spline, creep, infill, warping--shrinkage, gland]
 ---
+
+![A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled tongues pressing on both faces like barbs so it pushes on easily but resists pu](../media/drawn/push-on-edge-trim.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Push-on edge trim is a flexible U-shaped strip, usually PVC or rubber with a springy metal core, that is pressed onto a sheet or panel edge and grips it by spring force and barbed tongues, covering sharp edges, protecting cables in cut-outs (grommet edging) and, with a bulb attached, sealing doors and lids.
 

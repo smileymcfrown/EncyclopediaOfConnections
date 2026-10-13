@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side with the platform pushed straight up, all legs bent equally and no twisting.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="390" stroke="#cccccc" stroke-width="2"/>
+<!-- top view -->
+<g fill="none">
+<g stroke="#222" stroke-width="17">
+<path d="M190.0,203.0 C203.9,166.2 272.7,175.6 300.3,264.4"/>
+<path d="M226.4,266.0 C251.3,296.4 208.8,351.4 118.0,330.8"/>
+<path d="M153.6,266.0 C114.8,272.4 88.5,208.1 151.7,139.8"/>
+</g>
+<g stroke="#fde2c4" stroke-width="11">
+<path d="M190.0,203.0 C203.9,166.2 272.7,175.6 300.3,264.4"/>
+<path d="M226.4,266.0 C251.3,296.4 208.8,351.4 118.0,330.8"/>
+<path d="M153.6,266.0 C114.8,272.4 88.5,208.1 151.7,139.8"/>
+</g>
+</g>
+<path d="M60,245 A130,130 0 1 0 320,245 A130,130 0 1 0 60,245 Z M78,245 A112,112 0 1 1 302,245 A112,112 0 1 1 78,245 Z" fill="#e8e8e8" fill-rule="evenodd" stroke="#222" stroke-width="3"/>
+<circle cx="190" cy="245" r="42" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<!-- side view -->
+<rect x="445" y="318" width="50" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="725" y="318" width="50" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="580" y="300" width="60" height="18" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+<g fill="none">
+<g stroke="#222" stroke-width="15"><path d="M490,309 C540,309 530,209 580,209"/><path d="M730,309 C680,309 690,209 640,209"/></g>
+<g stroke="#fde2c4" stroke-width="9"><path d="M490,309 C540,309 530,209 580,209"/><path d="M730,309 C680,309 690,209 640,209"/></g>
+</g>
+<rect x="450" y="300" width="40" height="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="730" y="300" width="40" height="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="580" y="200" width="60" height="18" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="610" y1="190" x2="610" y2="128" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M670,150 A40,12 0 1 0 750,150" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g stroke="#222" stroke-width="4"><line x1="688" y1="132" x2="732" y2="182"/><line x1="732" y1="132" x2="688" y2="182"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="190" y="40" font-size="21" font-weight="bold">Top view</text>
+<text x="610" y="40" font-size="21" font-weight="bold">Side view, pushed out</text>
+<text x="190" y="100">outer ring (fixed)</text>
+<text x="598" y="165" text-anchor="end">moves straight up</text>
+<text x="710" y="110">does not twist</text>
+<text x="610" y="240">platform</text>
+<text x="515" y="265" text-anchor="end">springy legs</text>
+<text x="610" y="360">dashed: flat, at rest</text>
+<text x="400" y="420" font-size="19">All the legs bend equally, so the platform stays level and doesn't rotate</text>
+</g>
+</svg>

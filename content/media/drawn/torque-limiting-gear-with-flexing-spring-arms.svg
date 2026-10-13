@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Front views of a gear whose hub is split into three curved spring arms pressing on a round shaft: normally the arms' grip turns the shaft with the gear; when the shaft is stuck the gear keeps turning and the arms slide round it. On the right, a servo saver whose arm is held in line by springs gives way when knocked and springs back.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="410" stroke="#cccccc" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="533" y1="20" x2="533" y2="410" stroke="#cccccc" stroke-width="2" stroke-dasharray="6 6"/>
+<polygon points="223,232 222.7,239.8 236,246.5 234.7,253.6 219.9,255.3 217.6,262.8 214.6,270 224.8,280.8 221.2,287.1 206.7,283.6 201.9,289.9 196.6,295.6 202.6,309.3 197,314 184.6,305.7 178,309.9 171,313.6 172,328.4 165.1,330.9 156.3,318.9 148.6,320.6 140.8,321.7 136.6,335.9 129.4,335.9 125.2,321.7 117.4,320.6 109.7,318.9 100.9,330.9 94,328.4 95,313.6 88,309.9 81.4,305.7 69,314 63.4,309.3 69.4,295.6 64.1,289.9 59.3,283.6 44.8,287.1 41.2,280.8 51.4,270 48.4,262.8 46.1,255.3 31.3,253.6 30,246.5 43.3,239.8 43,232 43.3,224.2 30,217.5 31.3,210.4 46.1,208.7 48.4,201.2 51.4,194 41.2,183.2 44.8,176.9 59.3,180.4 64.1,174.1 69.4,168.4 63.4,154.7 69,150 81.4,158.3 88,154.1 95,150.4 94,135.6 100.9,133.1 109.7,145.1 117.4,143.4 125.2,142.3 129.4,128.1 136.6,128.1 140.8,142.3 148.6,143.4 156.3,145.1 165.1,133.1 172,135.6 171,150.4 178,154.1 184.6,158.3 197,150 202.6,154.7 196.6,168.4 201.9,174.1 206.7,180.4 221.2,176.9 224.8,183.2 214.6,194 217.6,201.2 219.9,208.7 234.7,210.4 236,217.5 222.7,224.2" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="133" cy="232" r="64" fill="#ffffff" stroke="none"/>
+<path d="M197,232 C180.5,265.3 146.7,269.6 127.4,264 M101,287.4 C80.4,256.5 93.6,225.1 108.1,211.1 M101,176.6 C138.1,174.2 158.7,201.4 163.5,220.9 " fill="none" stroke="#222" stroke-width="13"/>
+<path d="M197,232 C180.5,265.3 146.7,269.6 127.4,264 M101,287.4 C80.4,256.5 93.6,225.1 108.1,211.1 M101,176.6 C138.1,174.2 158.7,201.4 163.5,220.9 " fill="none" stroke="#cfe3f5" stroke-width="7"/>
+<circle cx="133" cy="232" r="77" fill="none" stroke="#cfe3f5" stroke-width="25"/>
+<path d="M196.2,242 A64,64 0 0 1 104.9,289.5" fill="none" stroke="#222" stroke-width="3"/>
+<path d="M92.7,281.7 A64,64 0 0 1 97.2,178.9" fill="none" stroke="#222" stroke-width="3"/>
+<path d="M110.1,172.3 A64,64 0 0 1 196.8,227.5" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="133" cy="232" r="26" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="133" y1="232" x2="133" y2="211" stroke="#222" stroke-width="3"/><circle cx="133" cy="232" r="3.5" fill="#222"/>
+<path d="M36.3,164.3 A118,118 0 0 1 192,129.8" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M118.9,226.9 A15,15 0 0 1 146,224.5" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<text x="133" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">Normal: arms grip,</text>
+<text x="133" y="68" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">gear drives the shaft</text>
+<line x1="180" y1="360" x2="160" y2="268" stroke="#222" stroke-width="2"/>
+<text x="173" y="380" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">spring arm</text>
+<polygon points="468.9,289.9 463.6,295.6 469.6,309.3 464,314 451.6,305.7 445,309.9 438,313.6 439,328.4 432.1,330.9 423.3,318.9 415.6,320.6 407.8,321.7 403.6,335.9 396.4,335.9 392.2,321.7 384.4,320.6 376.7,318.9 367.9,330.9 361,328.4 362,313.6 355,309.9 348.4,305.7 336,314 330.4,309.3 336.4,295.6 331.1,289.9 326.3,283.6 311.8,287.1 308.2,280.8 318.4,270 315.4,262.8 313.1,255.3 298.3,253.6 297,246.5 310.3,239.8 310,232 310.3,224.2 297,217.5 298.3,210.4 313.1,208.7 315.4,201.2 318.4,194 308.2,183.2 311.8,176.9 326.3,180.4 331.1,174.1 336.4,168.4 330.4,154.7 336,150 348.4,158.3 355,154.1 362,150.4 361,135.6 367.9,133.1 376.7,145.1 384.4,143.4 392.2,142.3 396.4,128.1 403.6,128.1 407.8,142.3 415.6,143.4 423.3,145.1 432.1,133.1 439,135.6 438,150.4 445,154.1 451.6,158.3 464,150 469.6,154.7 463.6,168.4 468.9,174.1 473.7,180.4 488.2,176.9 491.8,183.2 481.6,194 484.6,201.2 486.9,208.7 501.7,210.4 503,217.5 489.7,224.2 490,232 489.7,239.8 503,246.5 501.7,253.6 486.9,255.3 484.6,262.8 481.6,270 491.8,280.8 488.2,287.1 473.7,283.6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="232" r="64" fill="#ffffff" stroke="none"/>
+<path d="M449,273.1 C415,288 386.3,269.6 375.1,252.9 M339.9,253.9 C344,217 374.3,201.4 394.4,200 M411.1,169 C441,191 439.4,225.1 430.5,243.1 " fill="none" stroke="#222" stroke-width="13"/>
+<path d="M449,273.1 C415,288 386.3,269.6 375.1,252.9 M339.9,253.9 C344,217 374.3,201.4 394.4,200 M411.1,169 C441,191 439.4,225.1 430.5,243.1 " fill="none" stroke="#cfe3f5" stroke-width="7"/>
+<circle cx="400" cy="232" r="77" fill="none" stroke="#cfe3f5" stroke-width="25"/>
+<path d="M442,280.3 A64,64 0 0 1 341.5,258" fill="none" stroke="#222" stroke-width="3"/>
+<path d="M337.2,244.2 A64,64 0 0 1 406.7,168.4" fill="none" stroke="#222" stroke-width="3"/>
+<path d="M420.8,171.5 A64,64 0 0 1 451.8,269.6" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="232" r="26" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<text x="400" y="238" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#222" text-anchor="middle" stroke="none">stuck</text>
+<path d="M303.3,164.3 A118,118 0 0 1 459,129.8" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M377,271.8 A46,46 0 0 1 360.2,209" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<text x="400" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">Overload: shaft stuck,</text>
+<text x="400" y="68" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">arms slide round it</text>
+<rect x="610" y="300" width="110" height="90" rx="6" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<text x="665" y="372" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">servo</text>
+<rect x="654" y="140" width="22" height="190" rx="11" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="604" y="310" width="122" height="16" rx="8" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polyline points="612,318 620.6,305.4 630.3,303.7 626.5,284.4 645.8,280.9 642,261.6 661.4,258.1 657.6,238.8 676.9,235.3 675,225.7 683.6,213.1" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="612" cy="318" r="4" fill="#222"/><circle cx="683.6" cy="213.1" r="4" fill="#222"/>
+<polyline points="718,318 716.4,306.1 722.6,299.8 707.3,291 719.8,278.4 704.5,269.5 716.9,256.9 701.6,248 714,235.4 706.4,231 704.8,219.1" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="718" cy="318" r="4" fill="#222"/><circle cx="704.8" cy="219.1" r="4" fill="#222"/>
+<g transform="rotate(16 665 318)"><rect x="654" y="140" width="22" height="190" rx="11" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="665" cy="152" r="4" fill="#222"/></g>
+<circle cx="665" cy="318" r="7" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="665" cy="318" r="2.5" fill="#222"/>
+<path d="M572,165 L688,165" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="560" y="150" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="start" stroke="none">knock</text>
+<text x="665" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">Servo saver: springs</text>
+<text x="665" y="68" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" font-weight="bold" stroke="none">let the arm give</text>
+<text x="400" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle" stroke="none">The spring grip carries normal torque, slips when overloaded, then grips again</text>
+</g>
+</svg>

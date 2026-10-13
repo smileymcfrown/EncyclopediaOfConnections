@@ -121,10 +121,25 @@ sources:
 - https://www.youtube.com/watch?v=fF8h2N7wxko (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 1493826, 110874 and 951573 read via the public API)
 research: research/connection-types/results/Exactconstraint_mounting_321_locating.json
+image:
+  file: exact-constraint-mounting.webp
+  width: 800
+  height: 529
+  title: File:6DOF en.jpg
+  author: Horia Ionescu
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:6DOF_en.jpg
+  alt: 'Diagram of the six degrees of freedom of a body: three slides and three rotations'
+  drawn: false
 glossary: [degrees-of-freedom, axial--radial, pitch, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, heat-set-insert, chamfer--fillet, keying, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep]
 ---
+
+![Diagram of the six degrees of freedom of a body: three slides and three rotations](../media/exact-constraint-mounting.webp)
+
+*Picture: [6DOF en.jpg](https://commons.wikimedia.org/wiki/File:6DOF_en.jpg) by Horia Ionescu, Public domain, from Wikimedia Commons.*
 
 A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part: three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles in the same position without being held twice over, bent or left wobbling.
 

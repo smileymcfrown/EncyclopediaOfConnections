@@ -123,8 +123,23 @@ sources:
 - https://www.printables.com/model/411004-compact-stevenson-screen
 - https://www.printables.com/model/1659930-86mm-x-86mm-splash-proof-switch-and-socket-box
 research: research/connection-types/results/Labyrinth_seal_baffle_seal.json
+image:
+  file: labyrinth-seal.webp
+  width: 452
+  height: 260
+  title: File:Labyrinth-seal.png
+  author: unknown
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png
+  alt: Simple cross-section drawing of a labyrinth seal around a shaft, used on the English Wikipedia 'Labyrinth seal' article
+  drawn: false
 glossary: [axial--radial, freewheel, clearance, lubrication, o-ring, gland]
 ---
+
+![Simple cross-section drawing of a labyrinth seal around a shaft, used on the English Wikipedia 'Labyrinth seal' article](../media/labyrinth-seal.webp)
+
+*Picture: [Labyrinth-seal.png](https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png) by unknown, Public domain, from Wikimedia Commons.*
 
 Two parts shaped so the gap between them doubles back on itself several times, so dust, grit and splashes run out of energy or drain away before they reach the inside, with no rubbing contact and nothing to wear out.
 

@@ -132,8 +132,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Gestickte_Textile_Sensorfl%C3%A4chen.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Conductive_thread_sewn_circuit_etextile_stitching.json
+image:
+  file: conductive-thread.webp
+  width: 800
+  height: 450
+  title: File:Conductive thread.jpg
+  author: Mosborne01
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg
+  alt: A bobbin of conductive thread
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, layer-lines, infill]
 ---
+
+![A bobbin of conductive thread](../media/conductive-thread.webp)
+
+*Picture: [Conductive thread.jpg](https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg) by Mosborne01, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Conductive thread is sewing thread made from stainless-steel fibres or silver-plated filaments that is stitched through the holes (sew tabs) of sewable boards, LEDs and battery holders, so the tight loops make the electrical contacts and the lines of stitching act as bare wires across the fabric.
 

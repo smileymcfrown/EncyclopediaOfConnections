@@ -115,9 +115,18 @@ sources:
 - https://www.distrupol.com/General_Design_Principles_for_Engineering_Polymers.pdf
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 research: research/connection-types/results/Orthoplanar_spring.json
+image:
+  file: drawn/ortho-planar-spring.svg
+  alt: A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side
+    with the platform pushed straight up, all legs bent equally and no twisting.
+  drawn: true
 glossary: [backlash, axial--radial, stroke, bistable, stiffness, preload, flexure, compliant-mechanism, cantilever, deflection,
   damping, clearance, chamfer--fillet, creep, stress-relaxation, fatigue, perimeters, infill, peel-vs-shear]
 ---
+
+![A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side with the platform pushed straight up, all legs bent equally and no twisting.](../media/drawn/ortho-planar-spring.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A flat, single-piece spring whose centre platform, held by several thin symmetric legs, moves straight in and out of the sheet it was cut from without rotating, giving a compact push-back spring that can be laser cut, stamped or 3D printed.
 

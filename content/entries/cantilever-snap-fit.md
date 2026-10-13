@@ -143,10 +143,26 @@ sources:
 - https://www.fictiv.com/tools/snap-fit-calculator
 - https://www.engineersedge.com/snap_fit_straight.htm
 research: research/connection-types/results/Cantilever_snap_fit.json
+image:
+  file: cantilever-snap-fit.webp
+  width: 572
+  height: 564
+  title: File:Cantilever Snap-fit.gif
+  author: 'Original PNG Drawing: Ootsuka02GIF Animation: MichaelFrey (talk)'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif
+  alt: Animation of a cantilever arm being pushed into another part, bending as it slides across it, then springing back into
+    the depression
+  drawn: false
 glossary: [detent, stiffness, flexure, living-hinge, cantilever, deflection, torsion, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, holding-force, taper, heat-set-insert, chamfer--fillet, undercut, return-angle, creep,
   brittle--ductile, stress-concentration, overhang--bridging, peel-vs-shear, o-ring]
 ---
+
+![Animation of a cantilever arm being pushed into another part, bending as it slides across it, then springing back into the depression](../media/cantilever-snap-fit.webp)
+
+*Picture: [Cantilever Snap-fit.gif](https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif) by Original PNG Drawing: Ootsuka02GIF Animation: MichaelFrey (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A flexible arm made as part of one part, with a hook at its tip that bends aside as the parts are pushed together and springs back behind a ledge ([undercut](../glossary.md#undercut)) on the other part, locking them together without screws or glue.
 

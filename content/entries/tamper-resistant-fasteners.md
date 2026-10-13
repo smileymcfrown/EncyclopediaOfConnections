@@ -143,9 +143,24 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Security_screws
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tamperresistant_fasteners_security_screw_oneway_screw_breakawayhead_bolt.json
+image:
+  file: tamper-resistant-fasteners.webp
+  width: 190
+  height: 177
+  title: File:Screws - tamper resistant slotted.jpg
+  author: Scott Ehardt
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg
+  alt: Close-up of a one-way slotted screw with its ramped slot, as found on a bathroom stall
+  drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, captive-nut, boss, counterbore--countersink, threadlocker, creep, peel-vs-shear,
   regulator]
 ---
+
+![Close-up of a one-way slotted screw with its ramped slot, as found on a bathroom stall](../media/tamper-resistant-fasteners.webp)
+
+*Picture: [Screws - tamper resistant slotted.jpg](https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg) by Scott Ehardt, Public domain, from Wikimedia Commons.*
 
 A screw, bolt or nut with an unusual drive (a pin in the socket, odd lobes, two holes, an odd number of sides), a slot that only grips one way, or a head that snaps off when tight, so that ordinary tools can't undo it and casual tampering with covers, battery boxes, signs and public fittings is stopped or slowed.
 

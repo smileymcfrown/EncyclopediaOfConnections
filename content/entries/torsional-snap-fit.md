@@ -107,10 +107,20 @@ sources:
 - https://www.printables.com/model/151102-snap-fit-joint-test-prints-eight-versions (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Torsional_snap_fit.json
+image:
+  file: drawn/torsional-snap-fit.svg
+  alt: 'Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped
+    hook outward and twists the bar, then the hook springs back over the lid to lock it, and pressing the pad below the bar
+    tips the hook clear so the lid lifts free.'
+  drawn: true
 glossary: [misalignment, over-centre, fail-safe--fail-secure, stiffness, flexure, cantilever, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, holding-force, chamfer--fillet, undercut, creep, fatigue, brittle--ductile, perimeters,
   infill, elephants-foot, peel-vs-shear]
 ---
+
+![Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped hook outward and twists the bar, then the hook springs back over the lid to lock](../media/drawn/torsional-snap-fit.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A snap catch whose hooked arm is carried on a short bar that twists like a tiny spring ([torsion](../glossary.md#torsion) bar), so the hook clicks behind a lip when the lid closes and swings clear when you press the other end of the arm.
 

@@ -133,9 +133,24 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 research: research/connection-types/results/Sliding_dovetail.json
+image:
+  file: sliding-dovetail.webp
+  width: 600
+  height: 400
+  title: File:Joinery-slidingdovetail.gif
+  author: SilentC at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif
+  alt: Animated diagram of a sliding dovetail tongue sliding into its groove
+  drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, undercut, creep, elephants-foot,
   overhang--bridging, peel-vs-shear]
 ---
+
+![Animated diagram of a sliding dovetail tongue sliding into its groove](../media/sliding-dovetail.webp)
+
+*Picture: [Joinery-slidingdovetail.gif](https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif) by SilentC at English Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A flared tongue on one part slides into a matching flared groove in the other, locking the parts so they can't be pulled apart sideways while still letting them slide along the groove, as used to hold shelves in bookcases or slide-on mounts together.
 

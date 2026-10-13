@@ -138,8 +138,23 @@ sources:
 - https://www.youtube.com/watch?v=hsmqOMNsekg
 - https://www.youtube.com/watch?v=R_r53OCHYKU
 research: research/connection-types/results/Elastomeric_solvent_glue_flexible_craft_glue.json
+image:
+  file: elastomeric-solvent-glue.webp
+  width: 800
+  height: 602
+  title: File:Repairing snowboard boots with Shoe Goo.jpg
+  author: Syced
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg
+  alt: Photo of a boot repair with a clear, rubbery bead of Shoe Goo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, cure, peel-vs-shear]
 ---
+
+![Photo of a boot repair with a clear, rubbery bead of Shoe Goo](../media/elastomeric-solvent-glue.webp)
+
+*Picture: [Repairing snowboard boots with Shoe Goo.jpg](https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg) by Syced, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 An elastomeric solvent glue is a synthetic rubber dissolved in a strong solvent; when the solvent evaporates the rubber is left behind as a clear, tough, stretchy layer that grips most materials and keeps the joint flexible and waterproof.
 

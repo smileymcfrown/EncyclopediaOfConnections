@@ -136,8 +136,23 @@ sources:
 - https://learn.sparkfun.com/tutorials/connector-basics/all
 - https://en.wikipedia.org/wiki/Heat-shrink_tubing
 research: research/connection-types/results/Hotmelt_adhesive_glue_gun.json
+image:
+  file: hot-melt-adhesive.webp
+  width: 800
+  height: 654
+  title: File:Stanley-Hot-Glue-Gun-GR35K.jpg
+  author: Evan-Amos
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Stanley-Hot-Glue-Gun-GR35K.jpg
+  alt: Photo of an inexpensive hobby hot glue gun, the image used on Wikipedia's hot-melt adhesive article
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, infill, cure, peel-vs-shear]
 ---
+
+![Photo of an inexpensive hobby hot glue gun, the image used on Wikipedia's hot-melt adhesive article](../media/hot-melt-adhesive.webp)
+
+*Picture: [Stanley-Hot-Glue-Gun-GR35K.jpg](https://commons.wikimedia.org/wiki/File:Stanley-Hot-Glue-Gun-GR35K.jpg) by Evan-Amos, Public domain, from Wikimedia Commons.*
 
 A solid plastic glue stick is melted by an electrically heated glue gun and squeezed onto the parts; the molten plastic wets the surfaces and grips them as it cools and hardens, with no drying or curing step.
 

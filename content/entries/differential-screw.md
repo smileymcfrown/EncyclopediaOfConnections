@@ -113,9 +113,25 @@ sources:
 - https://www.printables.com/model/107132-differential-screw-clamp
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Differential_screw_fine_adjustment_screw.json
+image:
+  file: differential-screw.webp
+  width: 420
+  height: 200
+  title: File:DifferentialScrew.gif
+  author: ＋－ at Japanese Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif
+  alt: 'Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only
+    by the difference'
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, mechanical-advantage, pitch, preload, flexure, tolerance,
   form-fit--force-fit--material-bond, kinematic-coupling, creep]
 ---
+
+![Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only by the difference](../media/differential-screw.webp)
+
+*Picture: [DifferentialScrew.gif](https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif) by ＋－ at Japanese Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 One turn of a screw carrying two threads of slightly different [pitch](../glossary.md#pitch) moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.
 

@@ -117,9 +117,24 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Gimbal.json
+image:
+  file: gimbal.webp
+  width: 249
+  height: 248
+  title: File:Gimbal 3 axes rotation.gif
+  author: Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
+  alt: Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed
+  drawn: false
 glossary: [backlash, pitch, stiffness, flexure, clearance, form-fit--force-fit--material-bond, repeatability--accuracy, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---
+
+![Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed](../media/gimbal.webp)
+
+*Picture: [Gimbal 3 axes rotation.gif](https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif) by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A set of two or three nested pivots at right angles to each other, so the object in the middle can tilt freely about each axis, or stay level while whatever holds it rocks.
 

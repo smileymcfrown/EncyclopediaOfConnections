@@ -130,9 +130,24 @@ sources:
 - https://www.youtube.com/watch?v=JGbM6qZAwQY
 - https://www.youtube.com/watch?v=PaypcVFPs48
 research: research/connection-types/results/Parallel_leafspring_flexure_linear_flexure_stage.json
+image:
+  file: parallel-leaf-spring-flexure.webp
+  width: 800
+  height: 600
+  title: File:Sartorius BP 160 P 6.jpg
+  author: PaulT (Gunther Tschuch)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg
+  alt: Close-up of a flexure hinge in the parallel guide of a precision laboratory balance
+  drawn: false
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---
+
+![Close-up of a flexure hinge in the parallel guide of a precision laboratory balance](../media/parallel-leaf-spring-flexure.webp)
+
+*Picture: [Sartorius BP 160 P 6.jpg](https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg) by PaulT (Gunther Tschuch), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.
 

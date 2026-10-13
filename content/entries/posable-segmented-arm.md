@@ -153,8 +153,24 @@ sources:
 - https://www.protool-ltd.co.uk/collections/asimeto-articulating-arm-magnetic-bases-602-series
 - https://www.penntoolco.com/asimeto-articulating-arm-magnetic-base-w-176-lbs-hold-power-602-03-1/
 research: research/connection-types/results/Posable_segmented_arm_snaptogether_ball_chain_gooseneck.json
+image:
+  file: posable-segmented-arm.webp
+  width: 701
+  height: 349
+  title: File:Schwanenhals 2.gif
+  author: Salino01
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Schwanenhals_2.gif
+  alt: 'Diagram of a bent gooseneck: a round-wire spiral with a triangular-wire spiral wound around it, whose tips slip between
+    the turns when bent (a straight version is File:Schwanenhals_1.gif)'
+  drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, creep, perimeters, infill, print-in-place]
 ---
+
+![Diagram of a bent gooseneck: a round-wire spiral with a triangular-wire spiral wound around it, whose tips slip between the turns when bent (a straight version is File:Schwanenhals_1.gif)](../media/posable-segmented-arm.webp)
+
+*Picture: [Schwanenhals 2.gif](https://commons.wikimedia.org/wiki/File:Schwanenhals_2.gif) by Salino01, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A chain of identical short segments, each with a ball at one end and a socket at the other, snapped together so every joint can swivel a little and holds its angle by friction; together they make an arm you can bend into any shape and that stays put, often hollow so coolant, air or cables can pass through.
 

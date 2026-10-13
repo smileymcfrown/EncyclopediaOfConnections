@@ -125,8 +125,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Spelter_socket_open.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Wirerope_terminations_wirerope_clip_thimble_crimped_sleeve.json
+image:
+  file: wire-rope-terminations.webp
+  width: 800
+  height: 238
+  title: File:Wire rope with thimble and ferrule.jpg
+  author: Bernard S. Jansen
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg
+  alt: A loop of wire rope wrapped round a thimble and held by a crimped ferrule
+  drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, counterbore--countersink, creep, perimeters, peel-vs-shear, regulator]
 ---
+
+![A loop of wire rope wrapped round a thimble and held by a crimped ferrule](../media/wire-rope-terminations.webp)
+
+*Picture: [Wire rope with thimble and ferrule.jpg](https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg) by Bernard S. Jansen, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A way of finishing steel wire rope with a loop (usually wrapped round a grooved thimble) or an end stop, held either by U-bolt clips clamped over the doubled rope or by a soft metal sleeve crushed onto it with a crimping tool, so the rope can be hooked, shackled or anchored without fraying or slipping.
 

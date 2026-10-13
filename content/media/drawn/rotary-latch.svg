@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three side views of a rotary latch: open with the striker coming into the claw's mouth, closing as the striker turns the claw while the sprung pawl rides its rim, and latched with the pawl dropped into the claw's notch.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<path id="housing" d="M-75,-110 L10,-110 L10,0 A13,13 0 0 0 36,0 L36,-110 L115,-110 L115,110 L-75,110 Z" fill="#e8e8e8" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<g id="claw">
+<path d="M51.97,-18 L40,-13 L23,-13 A13,13 0 0 0 23,13 L40,13 L51.97,18 A55,55 0 0 1 49.4,24.1 L34.3,20.6 A40,40 0 0 1 24.6,31.5 L33.9,43.3 A55,55 0 0 1 15.2,52.9 L11.4,45.6 A47,47 0 0 1 1.6,47 L1.9,55 A55,55 0 1 1 51.97,-18 Z" fill="#cfe3f5" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<circle r="6" fill="#ffffff" stroke="#222" stroke-width="3"/><circle r="2" fill="#222"/>
+</g>
+<g id="pivot"><circle cx="-14" cy="84" r="5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="-14" cy="84" r="1.6" fill="#222"/></g>
+<g id="striker"><circle r="11" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<g id="pawlup">
+<path d="M20,72 L20,76 L12,81 L28,86 L12,91 L28,96 L12,101 L20,106 L20,110" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<line x1="-14" y1="84" x2="46.6" y2="43.8" stroke="#222" stroke-width="20" stroke-linecap="round"/>
+<line x1="-14" y1="84" x2="46.6" y2="43.8" stroke="#d8f0d2" stroke-width="14" stroke-linecap="round"/>
+<use href="#pivot"/>
+</g>
+</defs>
+<!-- frame 1: open -->
+<g transform="translate(115,235) scale(1.15)">
+<use href="#housing"/>
+<use href="#claw" transform="rotate(-60)"/>
+<use href="#pawlup"/>
+<use href="#striker" transform="translate(23,-90)"/>
+<line x1="60" y1="-104" x2="60" y2="-62" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="72" y1="72" x2="46" y2="20" stroke="#222" stroke-width="2"/>
+</g>
+<!-- frame 2: closing -->
+<g transform="translate(385,235) scale(1.15)">
+<use href="#housing"/>
+<use href="#claw" transform="rotate(-20)"/>
+<use href="#pawlup"/>
+<use href="#striker" transform="translate(23,-8.4)"/>
+<line x1="60" y1="-104" x2="60" y2="-62" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M-67.7,-24.6 A72,72 0 0 1 -24.6,-67.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- frame 3: latched -->
+<g transform="translate(655,235) scale(1.15)">
+<use href="#housing"/>
+<use href="#claw"/>
+<path d="M20,60 L20,65 L12,71 L28,78 L12,85 L28,92 L12,99 L20,105 L20,110" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<line x1="-14" y1="84" x2="37" y2="32.1" stroke="#222" stroke-width="20" stroke-linecap="round"/>
+<line x1="-14" y1="84" x2="37" y2="32.1" stroke="#d8f0d2" stroke-width="14" stroke-linecap="round"/>
+<use href="#pivot"/>
+<use href="#striker"/>
+<line x1="58" y1="44" x2="88" y2="72" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="138" y="95" text-anchor="middle" font-size="21" font-weight="bold">1 Open</text>
+<text x="408" y="95" text-anchor="middle" font-size="21" font-weight="bold">2 Closing</text>
+<text x="678" y="95" text-anchor="middle" font-size="21" font-weight="bold">3 Latched</text>
+<text x="118" y="136" text-anchor="end">striker</text>
+<text x="38" y="168">claw</text>
+<text x="38" y="352">pawl</text>
+<text x="166" y="338">safety</text><text x="166" y="356">notch</text>
+<text x="408" y="388" text-anchor="middle">claw turns, pawl rides its rim</text>
+<text x="678" y="388" text-anchor="middle">pawl drops into the notch</text>
+<text x="678" y="411" text-anchor="middle">pull it out to release</text>
+<text x="400" y="440" text-anchor="middle" font-size="18">Pulling the door only pushes the pawl towards its pivot, so it stays shut</text>
+</g>
+</svg>

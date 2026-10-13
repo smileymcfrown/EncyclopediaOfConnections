@@ -119,9 +119,25 @@ sources:
 - https://youtu.be/YJbl6bSFY4U
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shearpin_coupling_breakaway_link.json
+image:
+  file: shear-pin-coupling.webp
+  width: 800
+  height: 532
+  title: File:US Navy 110406-N-OY799-152 Machinery Repairman 3rd Class Heather Fogle, from Midlothian, Texas, checks the outside
+    diameter of a shear pin in the m.jpg
+  author: U.S. Navy photo by Mass Communication Specialist 3rd Class Kenneth Abbate
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:US_Navy_110406-N-OY799-152_Machinery_Repairman_3rd_Class_Heather_Fogle,_from_Midlothian,_Texas,_checks_the_outside_diameter_of_a_shear_pin_in_the_m.jpg
+  alt: Photo of a machined shear pin being measured with a micrometer in a ship's machine shop
+  drawn: false
 glossary: [misalignment, backlash, torque, fail-safe--fail-secure, form-fit--force-fit--material-bond, circlip, creep, fatigue,
   brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
+
+![Photo of a machined shear pin being measured with a micrometer in a ship's machine shop](../media/shear-pin-coupling.webp)
+
+*Picture: [US Navy 110406-N-OY799-152 Machinery Repairman 3rd Class Heather Fogle, from Midlothian, Texas, checks the outside diameter of a shear pin in the m.jpg](https://commons.wikimedia.org/wiki/File:US_Navy_110406-N-OY799-152_Machinery_Repairman_3rd_Class_Heather_Fogle,_from_Midlothian,_Texas,_checks_the_outside_diameter_of_a_shear_pin_in_the_m.jpg) by U.S. Navy photo by Mass Communication Specialist 3rd Class Kenneth Abbate, Public domain, from Wikimedia Commons.*
 
 A pin, bolt or thin section sized to break at a set force or [torque](../glossary.md#torque), so it disconnects the drive (or lets a joint go) before anything more valuable is damaged, and is replaced afterwards, like an electrical fuse.
 

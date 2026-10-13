@@ -139,9 +139,24 @@ sources:
 - https://www.printables.com/model/36291-unit3ds-lm8uu-linear-bearing
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Linear_guides_bushings_on_rods_wheels_or_carriages_on_rails.json
+image:
+  file: linear-guides.webp
+  width: 465
+  height: 325
+  title: File:Linear-table animated.gif
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
+  alt: Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)
+  drawn: false
 glossary: [misalignment, self-locking, stroke, detent, torque, preload, flexure, clearance, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, repeatability--accuracy, creep, perimeters, infill]
 ---
+
+![Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)](../media/linear-guides.webp)
+
+*Picture: [Linear-table animated.gif](https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A guide that lets a part (the carriage) slide or roll along a straight rod, bar or rail while stopping it from wobbling, tipping or twisting, so it can only move in one straight line.
 

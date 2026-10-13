@@ -140,8 +140,18 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Multistage_slide_rigging_cascade_and_continuous_string_rigging.json
+image:
+  file: drawn/multi-stage-slide-rigging.svg
+  alt: 'Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides
+    out first, and on the right a separate string for each stage makes all stages move together, each faster than the one
+    below.'
+  drawn: true
 glossary: [misalignment, self-locking, gear-ratio, actuator, tolerance, creep, layer-lines, peel-vs-shear]
 ---
+
+![Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides out first, and on the right a separate string for each stage makes all stages move to](../media/drawn/multi-stage-slide-rigging.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A way of threading strings, belts or chains over pulleys on a set of nested sliding stages so that a single motor-driven reel extends every stage, either all at once in proportion (cascade) or one stage after another (continuous), with a second string or spring to pull them back in.
 

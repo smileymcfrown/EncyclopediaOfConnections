@@ -101,6 +101,11 @@ def main():
         for a in re.findall(r'\]\(\.\./glossary\.md#([^)]+)\)', body):
             if a not in ANCHORS:
                 e(f'link to a glossary term that does not exist: #{a}')
+        img = fm.get('image')
+        if img and not os.path.exists(os.path.join(ROOT, 'content', 'media', img['file'])):
+            e(f'picture content/media/{img["file"]} not found')
+        if img and not img.get('drawn') and not all(img.get(k) for k in ('title', 'author', 'license', 'source')):
+            e('a copied picture needs its title, author, licence and source for the credit line')
         for h in HEADINGS:
             if h not in body:
                 e(f'heading "{h}" missing')

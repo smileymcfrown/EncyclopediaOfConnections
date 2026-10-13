@@ -142,10 +142,25 @@ sources:
 - https://www.youtube.com/watch?v=UIhCPl8eb7s
 - https://www.youtube.com/watch?v=oQ34BJk4HGs
 research: research/connection-types/results/Roller_clutch_oneway_bearing.json
+image:
+  file: roller-clutch.webp
+  width: 800
+  height: 667
+  title: File:Freewheel en.svg
+  author: 'derivative work: Borb (talk) Roue_libre2.svg: Technoargia'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Freewheel_en.svg
+  alt: Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, reciprocating, oscillating, stroke, ratchet, pawl, freewheel,
   sprag, torque, crank, flexure, clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication,
   print-in-place]
 ---
+
+![Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets](../media/roller-clutch.webp)
+
+*Picture: [Freewheel en.svg](https://commons.wikimedia.org/wiki/File:Freewheel_en.svg) by derivative work: Borb (talk) Roue_libre2.svg: Technoargia, Public domain, from Wikimedia Commons.*
 
 Rollers sit in pockets with a sloping floor (ramps) between a shaft and an outer ring; turn one way and they roll into the wide end and spin free, turn the other way and they jam into the narrow end and lock the shaft to the ring.
 

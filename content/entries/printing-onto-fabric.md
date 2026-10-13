@@ -135,8 +135,18 @@ sources:
   on fabric', 134 '3D Fabric Experimentation', 502073 'Flexi Tulle Snake', 913170 'Scale Mail for fabric printing', 374037
   '3D printed Valentine Flower Greeting Card with Tulle Hinge', 386910 'Print on Fabric Test (Long Spikes)'; pages not opened)
 research: research/connection-types/results/Printing_onto_fabric_fabric_embedded_in_a_3D_print.json
+image:
+  file: drawn/printing-onto-fabric.svg
+  alt: 'Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped
+    over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces
+    like hinges.'
+  drawn: true
 glossary: [living-hinge, form-fit--force-fit--material-bond, captive-nut, print-in-place, peel-vs-shear]
 ---
+
+![Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped over them, printing resumes through the mesh holes, and the finished sheet bends a](../media/drawn/printing-onto-fabric.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A thin open mesh fabric is laid over the first few printed layers during a pause, and the rest of the print fuses through its holes, so the fabric is locked inside each printed piece and the bare fabric between pieces works as a flexible hinge.
 

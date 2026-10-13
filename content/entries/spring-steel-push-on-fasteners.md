@@ -123,9 +123,24 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Cage_nuts
 - https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
 research: research/connection-types/results/Springsteel_pushon_fasteners_push_nut_speed_nut_Unut.json
+image:
+  file: spring-steel-push-on-fasteners.webp
+  width: 800
+  height: 601
+  title: File:Two spire clips.jpg
+  author: Lithopsian
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
+  alt: 'Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw'
+  drawn: false
 glossary: [misalignment, self-locking, thrust-load, torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   circlip, heat-set-insert, captive-nut, boss, creep, brittle--ductile]
 ---
+
+![Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw](../media/spring-steel-push-on-fasteners.webp)
+
+*Picture: [Two spire clips.jpg](https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg) by Lithopsian, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Stamped, heat-treated spring-steel clips whose angled teeth or prongs slide over a plain shaft, stud or screw thread when pushed on and then bite into it, holding parts on without cutting a thread or groove and resisting vibration.
 

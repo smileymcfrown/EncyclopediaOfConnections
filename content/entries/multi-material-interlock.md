@@ -131,9 +131,19 @@ sources:
 - https://www.printables.com/model/1521983-beam-interlocking-issue-demonstration (URL from Printables API, page not opened)
 - https://www.printables.com/model/66504-tpupla-hybrid-box-square-version (URL from Printables API, page not opened)
 research: research/connection-types/results/Multimaterial_interlock_coprinted_rigid_and_flexible_parts.json
+image:
+  file: drawn/multi-material-interlock.svg
+  alt: 'Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching
+    into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide
+    out along the seam.'
+  drawn: true
 glossary: [flexure, compliant-mechanism, living-hinge, clearance, form-fit--force-fit--material-bond, undercut, repeatability--accuracy,
   creep, print-in-place, overhang--bridging, peel-vs-shear]
 ---
+
+![Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching into the other and turning 90 degrees on each layer like woven fabric; right: a](../media/drawn/multi-material-interlock.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 When two printed materials that bond poorly (for example soft TPU and rigid PLA, or PP and PLA) are printed in one go, small beams or dovetails of each material are interlaced across the seam so the parts are locked together by shape rather than by adhesion.
 

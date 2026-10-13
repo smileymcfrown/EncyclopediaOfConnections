@@ -129,9 +129,24 @@ sources:
 - https://en.wikipedia.org/wiki/Confirmat_screw
 - https://www.finehomebuilding.com/2008/06/27/whats-the-difference-cabinet-assembly-screws
 research: research/connection-types/results/Knockdown_camlock_and_crossdowel_connectors.json
+image:
+  file: knock-down-cam-lock-and-cross-dowel-connectors.webp
+  width: 800
+  height: 442
+  title: File:Cam connector cropped.png
+  author: Swpb
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cam_connector_cropped.png
+  alt: Photo of a furniture cam lock housing next to its connecting bolt
+  drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, repeatability--accuracy, creep, brittle--ductile,
   perimeters, infill, peel-vs-shear]
 ---
+
+![Photo of a furniture cam lock housing next to its connecting bolt](../media/knock-down-cam-lock-and-cross-dowel-connectors.webp)
+
+*Picture: [Cam connector cropped.png](https://commons.wikimedia.org/wiki/File:Cam_connector_cropped.png) by Swpb, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Two-part metal fittings that pull a panel edge tight against another panel or rail and hold it there: in a cam lock a turning cam grabs a bolt head, and in a cross dowel a bolt screws into a threaded barrel set across it, so furniture can be put together and taken apart with just a screwdriver or Allen key.
 

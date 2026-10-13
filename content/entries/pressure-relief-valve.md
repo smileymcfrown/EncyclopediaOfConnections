@@ -143,9 +143,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Pressure_cooker_safety_valve.svg
 - https://commons.wikimedia.org/wiki/File:Rupturedisc_burst.JPG
 research: research/connection-types/results/Pressure_relief_valve_safety_valve_popoff_valve.json
+image:
+  file: pressure-relief-valve.webp
+  width: 173
+  height: 373
+  title: File:Relief Valve.png
+  author: Mbeychok
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Relief_Valve.png
+  alt: Schematic cross-section of a conventional spring-loaded pressure relief valve
+  drawn: false
 glossary: [stroke, over-centre, torque, actuator, fail-safe--fail-secure, hysteresis, repeatability--accuracy, fatigue, infill,
   check-valve, regulator]
 ---
+
+![Schematic cross-section of a conventional spring-loaded pressure relief valve](../media/pressure-relief-valve.webp)
+
+*Picture: [Relief Valve.png](https://commons.wikimedia.org/wiki/File:Relief_Valve.png) by Mbeychok, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A normally-closed, spring-held valve that opens by itself when the pressure passes a set limit and lets fluid out until the pressure falls again, protecting tanks, pumps, pipes and soft [actuators](../glossary.md#actuator) from bursting; its one-shot cousin, the rupture disc, bursts instead.
 

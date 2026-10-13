@@ -129,8 +129,24 @@ sources:
 - https://www.printables.com/model/70715-suction-cup
 - https://www.thingiverse.com/thing:3195496
 research: research/connection-types/results/Suction_cup.json
+image:
+  file: suction-cup.webp
+  width: 800
+  height: 279
+  title: File:Suction cup pressure from collisions.svg
+  author: Becarlson
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg
+  alt: Diagram of a suction cup on a surface with the air molecules outside pushing it on, and few inside, showing why the
+    pressure difference holds it
+  drawn: false
 glossary: [over-centre, lever-arm, form-fit--force-fit--material-bond, holding-force, creep, perimeters, infill, peel-vs-shear]
 ---
+
+![Diagram of a suction cup on a surface with the air molecules outside pushing it on, and few inside, showing why the pressure difference holds it](../media/suction-cup.webp)
+
+*Picture: [Suction cup pressure from collisions.svg](https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg) by Becarlson, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A soft cup that you press flat against a smooth, airtight surface; as it springs back it leaves a pocket of low pressure under it, and the outside air pressure then holds it on until you let air back in.
 

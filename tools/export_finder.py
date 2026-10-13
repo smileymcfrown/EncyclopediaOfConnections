@@ -54,8 +54,10 @@ def node(n, S, path, flags, leaves):
         a = {'label': label, 'example': x.get('example'), 'explain': x.get('explain'),
              'entries': sorted(keep),
              'needs_confirming': {str(k): sorted(v) for k, v in sorted(fl.items())}}
-        if child:
+        if tree.is_q(child):
             a['next'] = node(child, T, p, fl, leaves)
+        elif child is not None:     # a tick step (R29): the finder page narrows the list by ticks
+            a['tick'] = {'field': child.field, 'prompt': child.prompt, 'anything': child.anything}
         else:
             leaves.append((p, len(T)))
         out['answers'].append(a)
@@ -71,7 +73,8 @@ def main():
             pages[fm['num']] = {
                 'num': fm['num'], 'page': fn[:-3], 'title': fm['title'],
                 'description': fm['description'], 'family': fm['family'], 'other_families': fm['other_families'],
-                'finder': fm['finder'], 'needs_confirming': sorted(fm['needs_confirming'])}
+                'finder': fm['finder'], 'needs_confirming': sorted(fm['needs_confirming']),
+                'image': (fm.get('image') or {}).get('file')}
     leaves = []
     t = node(tree.TREE, tree.E, (), {}, leaves)
     reached = set()

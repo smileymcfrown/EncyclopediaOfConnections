@@ -136,8 +136,18 @@ sources:
 - https://www.youtube.com/watch?v=gzdZGKHdfsc
 - https://www.youtube.com/watch?v=iMMGfzYXwAU
 research: research/connection-types/results/Twistedandcoiled_polymer_muscle_fishingline_artificial_muscle.json
+image:
+  file: drawn/twisted-and-coiled-polymer-muscle.svg
+  alt: 'Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round
+    it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls
+    shorter, lifting the weight.'
+  drawn: true
 glossary: [misalignment, backlash, self-locking, stroke, actuator, solenoid, stiffness, preload, hysteresis, creep]
 ---
+
+![Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round it, wound into a tight coil with a weight hanging below, and heated so the fibre ](../media/drawn/twisted-and-coiled-polymer-muscle.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A twisted-and-coiled polymer muscle is a cheap nylon fishing line or sewing thread that has been over-twisted into a tight coil and heat-set, so that heating it (with a wrapped heater wire, a conductive coating, hot air or hot water) makes it shorten and pull, and cooling lets it stretch back out.
 

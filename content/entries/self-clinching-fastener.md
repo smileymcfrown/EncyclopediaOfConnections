@@ -108,9 +108,25 @@ sources:
 - https://www.youtube.com/watch?v=JCB8fTl-A7U
 - https://www.youtube.com/watch?v=UfnTRo0zyO0
 research: research/connection-types/results/Selfclinching_fastener_pressin_nut_or_stud.json
+image:
+  file: self-clinching-fastener.webp
+  width: 679
+  height: 429
+  title: File:17-SwageNuts.JPG
+  author: Douglas W. Jones
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:17-SwageNuts.JPG
+  alt: Photo of two self-clinching (swage) nuts for 8-32 screws; the narrow undercut just above the serrated clinching ring
+    is visible
+  drawn: false
 glossary: [misalignment, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, chamfer--fillet, undercut,
   brittle--ductile]
 ---
+
+![Photo of two self-clinching (swage) nuts for 8-32 screws; the narrow undercut just above the serrated clinching ring is visible](../media/self-clinching-fastener.webp)
+
+*Picture: [17-SwageNuts.JPG](https://commons.wikimedia.org/wiki/File:17-SwageNuts.JPG) by Douglas W. Jones, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
 
 A threaded nut, stud or standoff that is pressed into a plain hole in thin sheet metal so the sheet cold-flows into a groove around it, making it a permanent, non-spinning part of the panel that you can then screw into from the other side.
 

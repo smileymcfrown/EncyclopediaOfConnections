@@ -113,8 +113,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Loadbearing_stitch_patterns_for_straps_and_webbing_bar_tack_boxX_stitch.json
+image:
+  file: load-bearing-stitch-patterns-for-straps-and-webbing.webp
+  width: 800
+  height: 647
+  title: File:Bartacks (cropped).jpg
+  author: kellyhogaboom
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg
+  alt: Close-up of two machine-sewn bar tacks on cloth
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
+
+![Close-up of two machine-sewn bar tacks on cloth](../media/load-bearing-stitch-patterns-for-straps-and-webbing.webp)
+
+*Picture: [Bartacks (cropped).jpg](https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg) by kellyhogaboom, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), from Wikimedia Commons.*
 
 A strap is overlapped on itself or round a buckle, ring or slot and sewn with a dense, planned stitch pattern (bar tacks, a box with an X, W shapes or close rows) so that the pull is shared by many stitches and the joint can carry a large share of the webbing's own strength.
 

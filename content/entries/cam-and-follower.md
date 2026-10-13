@@ -175,10 +175,25 @@ sources:
 - https://sketchfab.com/3d-models/level-wind-mechanism-baitcasting-fishing-reel-0d4a3f6123eb409a9ce6391ddcd72048
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Cam_and_follower_plate_barrel_and_face_cams.json
+image:
+  file: cam-and-follower.webp
+  width: 320
+  height: 240
+  title: File:Nockenwelle ani.gif
+  author: No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
+  alt: Animation of a camshaft whose rotating cams push followers up and down
+  drawn: false
 glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, detent, pawl, pitch, cam-and-follower, crank,
   linkage, actuator, stiffness, preload, clearance, form-fit--force-fit--material-bond, set-screw, undercut, repeatability--accuracy,
   infill, print-in-place, overhang--bridging]
 ---
+
+![Animation of a camshaft whose rotating cams push followers up and down](../media/cam-and-follower.webp)
+
+*Picture: [Nockenwelle ani.gif](https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif) by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.*
 
 A cam is a shaped wheel, drum or plate that turns (or slides) and pushes a follower, so steady rotation becomes a back-and-forth or rocking motion with exactly the pattern of rises, pauses (dwells) and falls that the cam's shape was designed to give.
 

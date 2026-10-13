@@ -141,9 +141,24 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Solder_fittings
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Soldered_metal_joint_soft_soldering_of_metal_parts_sweatsoldered_copper_pipe.json
+image:
+  file: soldered-metal-joint.webp
+  width: 800
+  height: 533
+  title: File:Propane torch soldering copper pipe.jpg
+  author: neffk (talk)
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg
+  alt: A propane torch being used to solder copper pipes for a residential water main
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, infill, warping--shrinkage,
   peel-vs-shear]
 ---
+
+![A propane torch being used to solder copper pipes for a residential water main](../media/soldered-metal-joint.webp)
+
+*Picture: [Propane torch soldering copper pipe.jpg](https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg) by neffk (talk), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
 
 Soft soldering joins metal parts by heating them until a tin-based alloy that melts below about 450 °C flows into the narrow gap between them and wets both surfaces, giving a watertight, gas-tight and electrically conductive joint that is good for copper pipes and sheet metal but too weak to carry real mechanical loads on its own.
 

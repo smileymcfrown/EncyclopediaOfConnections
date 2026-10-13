@@ -152,9 +152,25 @@ sources:
 - https://www.youtube.com/watch?v=oBkdKeTJ5NY
 - https://www.youtube.com/watch?v=iZ5Mo0pjALI
 research: research/connection-types/results/Pneumatic_artificial_muscle_McKibben_muscle.json
+image:
+  file: pneumatic-artificial-muscle.webp
+  width: 300
+  height: 89
+  title: File:Sam animation-real-muscle.gif
+  author: Rocketmagnet (hugo@shadowrobot.com)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif
+  alt: Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial
+    muscles' page)
+  drawn: false
 glossary: [misalignment, self-locking, stroke, lever-arm, linkage, actuator, solenoid, fail-safe--fail-secure, stiffness,
   hysteresis, form-fit--force-fit--material-bond, creep, fatigue, layer-lines, infill, regulator]
 ---
+
+![Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial muscles' page)](../media/pneumatic-artificial-muscle.webp)
+
+*Picture: [Sam animation-real-muscle.gif](https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif) by Rocketmagnet (hugo@shadowrobot.com), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A soft rubber tube (bladder) inside a woven sleeve (braid), sealed and clamped at both ends: when air is pumped in, the tube swells, the criss-crossed braid fibres scissor outwards and the whole thing shortens, pulling a load like a biological muscle; when the air is let out it relaxes.
 

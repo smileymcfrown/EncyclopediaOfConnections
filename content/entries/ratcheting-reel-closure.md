@@ -114,9 +114,25 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Ratcheting_reel_closure_dial_lacing_system.json
+image:
+  file: ratcheting-reel-closure.webp
+  width: 800
+  height: 1067
+  title: File:ThirtyTwo snowboard boot.jpg
+  author: WillisMoon
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg
+  alt: 'Photo of a snowboard boot with two dial lace reels: the front dial tightens the shin area and the side dial tightens
+    the forefoot'
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, coaxial, detent, ratchet, pawl, torque, form-fit--force-fit--material-bond,
   heat-set-insert, creep, perimeters, infill]
 ---
+
+![Photo of a snowboard boot with two dial lace reels: the front dial tightens the shin area and the side dial tightens the forefoot](../media/ratcheting-reel-closure.webp)
+
+*Picture: [ThirtyTwo snowboard boot.jpg](https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg) by WillisMoon, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
 
 A knob on a small reel that you turn to wind in a thin lace and pull two sides of a shoe, boot, brace or bag together; springy catches ([pawls](../glossary.md#pawl)) click over [ratchet](../glossary.md#ratchet) teeth so it cannot unwind by itself, and it releases when you pull the knob up or turn it backwards.
 

@@ -143,9 +143,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Car_hub_cotter_pin.jpg
 - https://www.youtube.com/oembed (titles of 4H-HOHZ3chA and IKwWu2w1gGk)
 research: research/connection-types/results/Threadlocking_hardware_nyloninsert_nut_lock_washer_split_pin.json
+image:
+  file: thread-locking-hardware.webp
+  width: 800
+  height: 519
+  title: File:Nylon Lock Nut.png
+  author: Original uploader was Btarski at en.wikipedia.
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Nylon_Lock_Nut.png
+  alt: Photo of a nylon-insert lock nut showing the nylon ring in the top of the nut
+  drawn: false
 glossary: [self-locking, axial--radial, torque, pitch, linkage, preload, form-fit--force-fit--material-bond, circlip, heat-set-insert,
   captive-nut, threadlocker, creep, fatigue, peel-vs-shear]
 ---
+
+![Photo of a nylon-insert lock nut showing the nylon ring in the top of the nut](../media/thread-locking-hardware.webp)
+
+*Picture: [Nylon Lock Nut.png](https://commons.wikimedia.org/wiki/File:Nylon_Lock_Nut.png) by Original uploader was Btarski at en.wikipedia., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 Ordinary-looking nuts, washers and pins that stop a bolted joint undoing itself: a nylon ring or deformed thread that drags on the bolt, a washer that springs, bites or wedges, or a pin through the bolt that physically blocks the nut.
 

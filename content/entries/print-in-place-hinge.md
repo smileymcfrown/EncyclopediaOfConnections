@@ -142,10 +142,26 @@ sources:
 - https://raw.githubusercontent.com/rohingosling/OpenSCAD/master/README.md
 - https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/pr9060925
 research: research/connection-types/results/Printinplace_hinge.json
+image:
+  file: print-in-place-hinge.webp
+  width: 800
+  height: 536
+  title: File:Print in place Fidget Cube.jpg
+  author: Gary C Martin
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Print_in_place_Fidget_Cube.jpg
+  alt: Photo of a 3D-printed folding fidget cube printed on an Ultimaker 2; the author notes that the print-in-place hinges
+    work well, with some roughness on horizontal overhanging surfaces
+  drawn: false
 glossary: [misalignment, detent, torque, flexure, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, brittle--ductile, layer-lines, perimeters, infill, print-in-place, elephants-foot, overhang--bridging,
   support-material]
 ---
+
+![Photo of a 3D-printed folding fidget cube printed on an Ultimaker 2; the author notes that the print-in-place hinges work well, with some roughness on horizontal overhanging surfaces](../media/print-in-place-hinge.webp)
+
+*Picture: [Print in place Fidget Cube.jpg](https://commons.wikimedia.org/wiki/File:Print_in_place_Fidget_Cube.jpg) by Gary C Martin, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
 
 A hinge printed in one go with its pin already inside the knuckles and a small gap all round, so it turns as soon as it comes off the print bed with no assembly or metal pin.
 

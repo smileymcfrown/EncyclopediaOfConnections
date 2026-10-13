@@ -119,9 +119,25 @@ sources:
 - https://www.youtube.com/watch?v=YVeKBCVVhYo
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Structural_acrylic_and_lowsurfaceenergy_plastic_adhesives_for_PE_and_PP.json
+image:
+  file: structural-acrylic-and-low-surface-energy-plastic-adhesives.webp
+  width: 800
+  height: 361
+  title: File:Sessile drop - effect of the drop and support nature.png
+  author: DaraDaraDara
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sessile_drop_-_effect_of_the_drop_and_support_nature.png
+  alt: Diagram of liquid drops that spread out (wetting) or bead up (not wetting) depending on the surface, the reason ordinary
+    glue fails on PE and PP
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, cure, pot-life--working-time, surface-energy, primer, peel-vs-shear,
   gap-filling]
 ---
+
+![Diagram of liquid drops that spread out (wetting) or bead up (not wetting) depending on the surface, the reason ordinary glue fails on PE and PP](../media/structural-acrylic-and-low-surface-energy-plastic-adhesives.webp)
+
+*Picture: [Sessile drop - effect of the drop and support nature.png](https://commons.wikimedia.org/wiki/File:Sessile_drop_-_effect_of_the_drop_and_support_nature.png) by DaraDaraDara, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 LSE adhesives are special structural acrylic glues, or superglue used after a polyolefin [primer](../glossary.md#primer), that can make strong bonds to polyethylene, polypropylene and similar slippery plastics that normal glues can't wet or grip.
 

@@ -121,9 +121,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cable_drag_chain-plastic.jpg
 - https://www.youtube.com/watch?v=dMEKEeV_7Ls
 research: research/connection-types/results/Cable_carrier_drag_chain_energy_chain.json
+image:
+  file: cable-carrier.webp
+  width: 525
+  height: 370
+  title: File:Cable drag chain unsupported 3D animated.gif
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif
+  alt: Animation of a self-supporting energy chain rolling back and forth as its moving end travels
+  drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, boss, chamfer--fillet, creep, brittle--ductile,
   infill, print-in-place, gland]
 ---
+
+![Animation of a self-supporting energy chain rolling back and forth as its moving end travels](../media/cable-carrier.webp)
+
+*Picture: [Cable drag chain unsupported 3D animated.gif](https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
 
 A cable carrier is a flexible chain of hinged, hollow links that bends only one way and not too tightly, carrying cables and hoses to a moving part of a machine so they are guided, protected and never over-bent or tangled.
 

@@ -142,9 +142,25 @@ sources:
 - https://www.youtube.com/watch?v=tZfZ9qNKkks
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Dovetail_joint_through_and_halfblind.json
+image:
+  file: dovetail-joint.webp
+  width: 800
+  height: 800
+  title: File:Joinery-throughdovetail.svg
+  author: 'Joinery-throughdovetail.gif: SilentC SVG conversion: Duncan Tate (talk)'
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg
+  alt: Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia 'Dovetail
+    joint' article
+  drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, spline, chamfer--fillet, creep, brittle--ductile,
   elephants-foot, end-grain, peel-vs-shear]
 ---
+
+![Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia 'Dovetail joint' article](../media/dovetail-joint.webp)
+
+*Picture: [Joinery-throughdovetail.svg](https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg) by Joinery-throughdovetail.gif: SilentC SVG conversion: Duncan Tate (talk), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
 
 A wooden corner joint whose flared tails and matching wedge-shaped pins interlock so the joint can only slide together one way, which lets it resist being pulled apart in the other direction; through dovetails show on both faces, half-blind ones are hidden from the front.
 

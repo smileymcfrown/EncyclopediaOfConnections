@@ -142,9 +142,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Concrete_Screw.png
 - https://api.printables.com/graphql/ (models 27569, 225390, 31252, 1058922)
 research: research/connection-types/results/Wall_plug_expansion_anchor_for_solid_walls.json
+image:
+  file: wall-plug.webp
+  width: 587
+  height: 391
+  title: File:Wall plugs plastic (cropped).jpg
+  author: Rawlplug/Joanna Korzeniewska-Wieczorek
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg
+  alt: Photo of ribbed plastic wall plugs
+  drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, undercut, repeatability--accuracy,
   creep, perimeters, infill, cure, peel-vs-shear]
 ---
+
+![Photo of ribbed plastic wall plugs](../media/wall-plug.webp)
+
+*Picture: [Wall plugs plastic (cropped).jpg](https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg) by Rawlplug/Joanna Korzeniewska-Wieczorek, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A wall plug is a plastic (once fibre or wood) sleeve that you push into a hole drilled in brick, block, stone or concrete; driving a screw into it spreads the sleeve against the hole so the screw can hold a shelf, bracket or cabinet, and bigger metal or resin anchors do the same job for heavy loads.
 

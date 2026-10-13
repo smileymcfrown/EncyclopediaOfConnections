@@ -141,9 +141,24 @@ sources:
 - https://www.thingiverse.com/thing:3712257
 - https://www.thingiverse.com/thing:1161394
 research: research/connection-types/results/Taper_fit_Morse_taper.json
+image:
+  file: taper-fit.webp
+  width: 800
+  height: 600
+  title: File:Morse Taper No 2.jpg
+  author: DerrickOswald at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg
+  alt: Photo of an MT2 Morse-taper shank with its flat tang
+  drawn: false
 glossary: [backlash, self-locking, axial--radial, torque, pitch, crank, tolerance, interference-fit, form-fit--force-fit--material-bond,
   taper, collet, kinematic-coupling, creep, perimeters, infill]
 ---
+
+![Photo of an MT2 Morse-taper shank with its flat tang](../media/taper-fit.webp)
+
+*Picture: [Morse Taper No 2.jpg](https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg) by DerrickOswald at English Wikipedia, Public domain, from Wikimedia Commons.*
 
 A shallow cone pressed into a matching cone-shaped socket, where the wedge action squeezes the surfaces so hard that friction holds it in, centres it exactly and (in syringe and lab-glass fittings) seals it, yet a knock with a wedge or a twist separates it again.
 

@@ -130,9 +130,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
 - https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png
 research: research/connection-types/results/Internal_tube_anchors_star_nut_expansion_plug.json
+image:
+  file: internal-tube-anchors.webp
+  width: 800
+  height: 577
+  title: File:Quill stems.JPG
+  author: AndrewDressel (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
+  alt: Bicycle quill stems with a wedge-shaped expander nut (left) and a cone-shaped expander nut (right), per the caption
+    in Wikipedia's 'Stem (bicycle part)'
+  drawn: false
 glossary: [self-locking, tolerance, form-fit--force-fit--material-bond, taper, collet, heat-set-insert, brittle--ductile,
   layer-lines, infill]
 ---
+
+![Bicycle quill stems with a wedge-shaped expander nut (left) and a cone-shaped expander nut (right), per the caption in Wikipedia's 'Stem (bicycle part)'](../media/internal-tube-anchors.webp)
+
+*Picture: [Quill stems.JPG](https://commons.wikimedia.org/wiki/File:Quill_stems.JPG) by AndrewDressel (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A part pushed or tapped into the open end of a tube that locks against the inside wall, by barbs biting in, ribs pressing out, or a sleeve swollen by a bolt, wedge or cone, so the tube gets a thread, a foot, a caster or a pull point without welding or drilling.
 

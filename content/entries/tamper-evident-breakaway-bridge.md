@@ -131,9 +131,25 @@ sources:
 - https://www.printables.com/model/1595516-permatag-tamper-proof-airtag-case-sealed-during-pr (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tamperevident_breakaway_bridge_frangible_link.json
+image:
+  file: tamper-evident-breakaway-bridge.webp
+  width: 800
+  height: 533
+  title: File:Pulloon kiinnitetty pullonkorkki 3.JPG
+  author: MKFI
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pulloon_kiinnitetty_pullonkorkki_3.JPG
+  alt: 'A tethered cap on a Coca-Cola Zero bottle unscrewed but not lifted: the tamper-evident band stays on the neck and
+    the strap that keeps the cap attached is visible'
+  drawn: false
 glossary: [ratchet, fail-safe--fail-secure, living-hinge, cantilever, form-fit--force-fit--material-bond, captive-nut, creep,
   brittle--ductile, layer-lines, perimeters, infill, support-material]
 ---
+
+![A tethered cap on a Coca-Cola Zero bottle unscrewed but not lifted: the tamper-evident band stays on the neck and the strap that keeps the cap attached is visible](../media/tamper-evident-breakaway-bridge.webp)
+
+*Picture: [Pulloon kiinnitetty pullonkorkki 3.JPG](https://commons.wikimedia.org/wiki/File:Pulloon_kiinnitetty_pullonkorkki_3.JPG) by MKFI, Public domain, from Wikimedia Commons.*
 
 A deliberately weak link of thin plastic bridges between a cap and a ring (or between any two parts) that survives making, filling and shipping but snaps the first time the item is opened, so anyone can see it has been opened.
 

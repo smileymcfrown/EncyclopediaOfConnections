@@ -129,9 +129,24 @@ sources:
 - https://en.wikipedia.org/wiki/Victaulic
 - https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting
 research: research/connection-types/results/Band_flange_clamp_Vband_clamp_triclamp.json
+image:
+  file: band-flange-clamp.webp
+  width: 500
+  height: 410
+  title: File:Typical Marman Clamp System.tif
+  author: Unknown authorUnknown author
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif
+  alt: 'Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together'
+  drawn: false
 glossary: [misalignment, axial--radial, over-centre, torque, preload, torsion, clearance, form-fit--force-fit--material-bond,
   spline, creep, galling--fretting, peel-vs-shear, o-ring]
 ---
+
+![Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together](../media/band-flange-clamp.webp)
+
+*Picture: [Typical Marman Clamp System.tif](https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif) by Unknown authorUnknown author, Public domain, from Wikimedia Commons.*
 
 A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
 

@@ -131,9 +131,24 @@ sources:
 - https://www.youtube.com/watch?v=3_1MpSFiJ7A
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Iris_mechanism.json
+image:
+  file: iris-mechanism.webp
+  width: 672
+  height: 607
+  title: File:Iris Diaphragm.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif
+  alt: Animation of a 9-blade camera-lens iris diaphragm opening and closing
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, detent, crank, linkage, stiffness, clearance, form-fit--force-fit--material-bond,
   collet, repeatability--accuracy, print-in-place, elephants-foot, warping--shrinkage, peel-vs-shear]
 ---
+
+![Animation of a 9-blade camera-lens iris diaphragm opening and closing](../media/iris-mechanism.webp)
+
+*Picture: [Iris Diaphragm.gif](https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
 
 Several thin, curved blades are each pivoted on one ring and steered by a pin in a slot (or a small link or gear) on a second ring, so turning one ring swings all the blades inward or outward together and makes a central round opening smaller or larger.
 

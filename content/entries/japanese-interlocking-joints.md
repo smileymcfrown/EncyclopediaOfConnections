@@ -147,9 +147,24 @@ sources:
 - https://www.youtube.com/watch?v=XC5Q41YFXxo
 - https://www.youtube.com/watch?v=qUhpfSVS-LU
 research: research/connection-types/results/Japanese_interlocking_joints_splices_and_threeway_corners.json
+image:
+  file: japanese-interlocking-joints.webp
+  width: 800
+  height: 600
+  title: File:Kanawa-tsugi.JPG
+  author: Abasaa
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG
+  alt: Photo of a kanawa-tsugi wedged scarf joint in wood
+  drawn: false
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
   layer-lines, infill, overhang--bridging]
 ---
+
+![Photo of a kanawa-tsugi wedged scarf joint in wood](../media/japanese-interlocking-joints.webp)
+
+*Picture: [Kanawa-tsugi.JPG](https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG) by Abasaa, Public domain, from Wikimedia Commons.*
 
 Traditional Japanese carpentry joints in which two or three timbers are cut into interlocking shapes (hooks, dovetails, stepped seats and small tenons) that fit together only along one path and are then locked with a driven wedge or peg, joining beams end to end or at a corner without metal fasteners or glue.
 

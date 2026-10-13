@@ -137,9 +137,24 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Cycloidal_drive_cycloidal_reducer.json
+image:
+  file: cycloidal-drive.webp
+  width: 800
+  height: 600
+  title: File:Cycloidal drive.gif
+  author: Petteri Aimonen
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif
+  alt: Rendered animation of the eccentric input, wobbling lobed disc, fixed pin ring and output pins
+  drawn: false
 glossary: [backlash, self-locking, coaxial, ratchet, torque, actuator, stiffness, preload, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, creep, print-in-place]
 ---
+
+![Rendered animation of the eccentric input, wobbling lobed disc, fixed pin ring and output pins](../media/cycloidal-drive.webp)
+
+*Picture: [Cycloidal drive.gif](https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif) by Petteri Aimonen, Public domain, from Wikimedia Commons.*
 
 An eccentric cam on the input shaft rolls a lobed disc (cycloidal disc) round inside a fixed ring of pins or rollers; with one lobe fewer than pins, the disc turns backwards by one lobe per input turn, and output pins in oversized holes in the disc turn this slow wobbling spin into a steady output rotation, giving about 10:1 to 100:1 per stage with low play and high shock resistance.
 

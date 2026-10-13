@@ -121,9 +121,24 @@ sources:
 - https://www.youtube.com/watch?v=jcDizu5P3Ck
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Housing_and_rebate_joints_dado_rabbet.json
+image:
+  file: housing-and-rebate-joints.webp
+  width: 800
+  height: 320
+  title: File:Woodworking-joint-dado.svg
+  author: 'Woodworking-joint-dado.gif: SilentC derivative work: Zerodamage'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-dado.svg
+  alt: Drawing of a through dado (left) and a stopped dado (right)
+  drawn: false
 glossary: [stiffness, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, creep, stress-concentration,
   perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear]
 ---
+
+![Drawing of a through dado (left) and a stopped dado (right)](../media/housing-and-rebate-joints.webp)
+
+*Picture: [Woodworking-joint-dado.svg](https://commons.wikimedia.org/wiki/File:Woodworking-joint-dado.svg) by Woodworking-joint-dado.gif: SilentC derivative work: Zerodamage, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 A housing (dado) is a three-sided channel cut across a board, and a rebate (rabbet) is a two-sided step along an edge or end. Another board's end or edge sits in it, which lines the parts up and gives a ledge to carry load; glue, nails or screws usually stop it pulling out.
 

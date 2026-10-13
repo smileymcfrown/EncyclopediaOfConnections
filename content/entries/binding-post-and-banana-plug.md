@@ -147,8 +147,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Jumper_cable_sequence.svg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Binding_post_and_banana_plug_testlead_connector_crocodile_clip.json
+image:
+  file: binding-post-and-banana-plug.webp
+  width: 800
+  height: 652
+  title: File:BindingPostRed.jpg
+  author: Nap fu xoxo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:BindingPostRed.jpg
+  alt: A red five-way binding post with its screw-down cap and the 4 mm socket in its tip
+  drawn: false
 glossary: [coaxial, clearance, form-fit--force-fit--material-bond, set-screw, overhang--bridging]
 ---
+
+![A red five-way binding post with its screw-down cap and the 4 mm socket in its tip](../media/binding-post-and-banana-plug.webp)
+
+*Picture: [BindingPostRed.jpg](https://commons.wikimedia.org/wiki/File:BindingPostRed.jpg) by Nap fu xoxo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A binding post is a threaded metal post with a screw-down insulated cap that clamps a bare wire, spade or pin, and also takes a springy banana plug pushed into its end, so test leads and wires can be connected and removed by hand in seconds; crocodile clips and test hooks do the same job by gripping any bare wire, lead or terminal with a spring.
 
