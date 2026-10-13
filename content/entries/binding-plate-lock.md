@@ -107,10 +107,19 @@ sources:
 - https://www.youtube.com/watch?v=SSKu5k4xVPI
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=SSKu5k4xVPI&format=json
 research: research/connection-types/results/Bindingplate_lock_tilting_friction_plate.json
-image: null
+image:
+  file: drawn/binding-plate-lock.svg
+  alt: 'A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides
+    freely, and on the right a spring tips the plate so two opposite edges of the hole bite the rod and pushing the rod tips
+    the plate harder and locks it.'
+  drawn: true
 glossary: [self-locking, detent, ratchet, sprag, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---
+
+![A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides freely, and on the right a spring tips the plate so two opposite edges of the ho](../media/drawn/binding-plate-lock.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A flat plate with a slightly oversized hole that slides freely along a rod while it sits square, but tips a few degrees and wedges the edges of its hole against the rod when pushed the other way, giving a stepless one-way lock that you release by pushing the plate square again.
 

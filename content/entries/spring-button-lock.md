@@ -122,10 +122,19 @@ sources:
 - https://www.youtube.com/watch?v=y3V6o3eca0g
 - https://www.youtube.com/watch?v=Lp2uGtOGZRA
 research: research/connection-types/results/Spring_button_lock_snap_button_pushbutton_tube_lock.json
-image: null
+image:
+  file: drawn/spring-button-lock.svg
+  alt: 'Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes
+    its button out through a hole in both tubes so they are locked, and on the right a finger presses the button flush so
+    the outer tube can slide on to the next hole.'
+  drawn: true
 glossary: [detent, preload, cantilever, clearance, form-fit--force-fit--material-bond, collet, chamfer--fillet, repeatability--accuracy,
   creep, stress-concentration, peel-vs-shear]
 ---
+
+![Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes its button out through a hole in both tubes so they are locked, and on the right a ](../media/drawn/spring-button-lock.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A spring-loaded button inside the inner tube that snaps out through holes in the outer tube, locking two sliding tubes at set lengths until you press the button in.
 

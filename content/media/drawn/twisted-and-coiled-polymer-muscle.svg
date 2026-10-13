@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls shorter, lifting the weight.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" patternUnits="userSpaceOnUse" width="10" height="10"><path d="M-2,12 L12,-2" stroke="#222" stroke-width="1.5"/></pattern>
+<rect id="ceil" x="-50" y="60" width="100" height="16" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="200" y1="20" x2="200" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="400" y1="20" x2="400" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="600" y1="20" x2="600" y2="390" stroke="#cccccc" stroke-width="2"/>
+<use href="#ceil" x="100"/>
+<use href="#ceil" x="300"/>
+<use href="#ceil" x="500"/>
+<use href="#ceil" x="700"/>
+<rect x="95" y="76" width="10" height="254" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="295" y="76" width="10" height="254" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M295,86 L305,80 M295,94 L305,88 M295,102 L305,96 M295,110 L305,104 M295,118 L305,112 M295,126 L305,120 M295,134 L305,128 M295,142 L305,136 M295,150 L305,144 M295,158 L305,152 M295,166 L305,160 M295,174 L305,168 M295,182 L305,176 M295,190 L305,184 M295,198 L305,192 M295,206 L305,200 M295,214 L305,208 M295,222 L305,216 M295,230 L305,224 M295,238 L305,232 M295,246 L305,240 M295,254 L305,248 M295,262 L305,256 M295,270 L305,264 M295,278 L305,272 M295,286 L305,280 M295,294 L305,288 M295,302 L305,296 M295,310 L305,304 M295,318 L305,312 M295,326 L305,320" stroke="#222" stroke-width="1.2"/>
+<path d="M293,92 L307,84 M293,116 L307,108 M293,140 L307,132 M293,164 L307,156 M293,188 L307,180 M293,212 L307,204 M293,236 L307,228 M293,260 L307,252 M293,284 L307,276 M293,308 L307,300" stroke="#222" stroke-width="3.5"/>
+<line x1="500" y1="76" x2="480" y2="82" stroke="#222" stroke-width="3"/>
+<path d="M520,87 L480,92 M520,97 L480,102 M520,107 L480,112 M520,117 L480,122 M520,127 L480,132 M520,137 L480,142 M520,147 L480,152 M520,157 L480,162 M520,167 L480,172 M520,177 L480,182 M520,187 L480,192 M520,197 L480,202 M520,207 L480,212 M520,217 L480,222 M520,227 L480,232 M520,237 L480,242 M520,247 L480,252 M520,257 L480,262 M520,267 L480,272 M520,277 L480,282" stroke="#222" stroke-width="3"/>
+<path d="M480,82 L520,87 M480,92 L520,97 M480,102 L520,107 M480,112 L520,117 M480,122 L520,127 M480,132 L520,137 M480,142 L520,147 M480,152 L520,157 M480,162 L520,167 M480,172 L520,177 M480,182 L520,187 M480,192 L520,197 M480,202 L520,207 M480,212 L520,217 M480,222 L520,227 M480,232 L520,237 M480,242 L520,247 M480,252 L520,257 M480,262 L520,267 M480,272 L520,277" stroke="#222" stroke-width="7"/>
+<path d="M480,82 L520,87 M480,92 L520,97 M480,102 L520,107 M480,112 L520,117 M480,122 L520,127 M480,132 L520,137 M480,142 L520,147 M480,152 L520,157 M480,162 L520,167 M480,172 L520,177 M480,182 L520,187 M480,192 L520,197 M480,202 L520,207 M480,212 L520,217 M480,222 L520,227 M480,232 L520,237 M480,242 L520,247 M480,252 L520,257 M480,262 L520,267 M480,272 L520,277" stroke="#cfe3f5" stroke-width="3"/>
+<path d="M480,282 L500,290 V300" fill="none" stroke="#222" stroke-width="2.5"/>
+<rect x="470" y="300" width="60" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="700" y1="76" x2="680" y2="82" stroke="#222" stroke-width="3"/>
+<path d="M720,85 L680,88 M720,91 L680,94 M720,97 L680,100 M720,103 L680,106 M720,109 L680,112 M720,115 L680,118 M720,121 L680,124 M720,127 L680,130 M720,133 L680,136 M720,139 L680,142 M720,145 L680,148 M720,151 L680,154 M720,157 L680,160 M720,163 L680,166 M720,169 L680,172 M720,175 L680,178 M720,181 L680,184 M720,187 L680,190 M720,193 L680,196 M720,199 L680,202" stroke="#222" stroke-width="3"/>
+<path d="M680,82 L720,85 M680,88 L720,91 M680,94 L720,97 M680,100 L720,103 M680,106 L720,109 M680,112 L720,115 M680,118 L720,121 M680,124 L720,127 M680,130 L720,133 M680,136 L720,139 M680,142 L720,145 M680,148 L720,151 M680,154 L720,157 M680,160 L720,163 M680,166 L720,169 M680,172 L720,175 M680,178 L720,181 M680,184 L720,187 M680,190 L720,193 M680,196 L720,199" stroke="#222" stroke-width="7"/>
+<path d="M680,82 L720,85 M680,88 L720,91 M680,94 L720,97 M680,100 L720,103 M680,106 L720,109 M680,112 L720,115 M680,118 L720,121 M680,124 L720,127 M680,130 L720,133 M680,136 L720,139 M680,142 L720,145 M680,148 L720,151 M680,154 L720,157 M680,160 L720,163 M680,166 L720,169 M680,172 L720,175 M680,178 L720,181 M680,184 L720,187 M680,190 L720,193 M680,196 L720,199" stroke="#f5d0d0" stroke-width="3"/>
+<path d="M680,202 L700,210 V220" fill="none" stroke="#222" stroke-width="2.5"/>
+<rect x="670" y="300" width="60" height="50" fill="none" stroke="#999999" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="670" y="220" width="60" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="755" y1="335" x2="755" y2="232" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M612,150 q6,-9 12,0 t12,0 t12,0 t10,0" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M664,108 A36,9 0 0 0 736,108" fill="none" stroke="#d1495b" stroke-width="3.5" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="100" y="40">1. Nylon line</text>
+<text x="300" y="40">2. Over-twisted</text>
+<text x="500" y="40">3. Coiled</text>
+<text x="700" y="40">4. Heated</text>
+</g>
+<text x="100" y="370">plain fishing line</text>
+<text x="300" y="370">heater wire wound on</text>
+<text x="500" y="378">baked into a coil</text>
+<text x="635" y="136">heat</text>
+<text x="700" y="378">shorter: lifts weight</text>
+<text x="400" y="425">Heat: fibre untwists a little and the coil pulls shorter · Cool: it stretches back</text>
+</g>
+</svg>

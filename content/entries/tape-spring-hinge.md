@@ -125,10 +125,19 @@ sources:
 - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tapespring_hinge_measuringtape_fold.json
-image: null
+image:
+  file: drawn/tape-spring-hinge.svg
+  alt: 'A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending
+    until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside
+    a graph where the effort to fold peaks and then drops to a low steady level.'
+  drawn: true
 glossary: [misalignment, backlash, self-locking, over-centre, bistable, detent, linkage, fail-safe--fail-secure, stiffness,
   flexure, compliant-mechanism, living-hinge, damping, repeatability--accuracy, creep, lubrication, infill]
 ---
+
+![A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending until its middle flattens and snaps through, and folded with a short kink of ra](../media/drawn/tape-spring-hinge.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A strip with a curved cross-section, like a tape-measure blade, clamped between two parts so that it folds by buckling into a kink and then unfolds itself and locks straight, giving a hinge with no pin, no friction and no latch.
 

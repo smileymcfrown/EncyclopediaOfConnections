@@ -125,10 +125,19 @@ sources:
 - https://par.nsf.gov//servlets/purl/10126137
 - https://br.ci.ritsumei.ac.jp/AdvEngMatr2023preprint.pdf
 research: research/connection-types/results/Granular_jamming_gripper_coffeeballoon_gripper.json
-image: null
+image:
+  file: drawn/granular-jamming-gripper.svg
+  alt: 'Four side-view steps of a granular jamming gripper: a soft bag of coffee grounds above a toy ball, the bag pressed
+    down and flowing round the ball, the air pumped out so the grains pack solid and the ball is lifted, and air let back
+    in so the bag softens and the ball drops.'
+  drawn: true
 glossary: [misalignment, solenoid, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, holding-force, perimeters,
   o-ring, venturi]
 ---
+
+![Four side-view steps of a granular jamming gripper: a soft bag of coffee grounds above a toy ball, the bag pressed down and flowing round the ball, the air pumped out so the grains pack solid and the ](../media/drawn/granular-jamming-gripper.svg)
+
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A soft rubber bag filled with grains such as ground coffee that flows around an object when pressed onto it, then locks rigid and grips it when a pump sucks the air out, and softens and lets go when air is let back in.
 

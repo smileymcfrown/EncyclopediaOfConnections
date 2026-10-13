@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled tongues pressing on both faces like barbs so it pushes on easily but resists pulling off; beside it, a hole in a panel lined with serrated grommet edging around a cable, and a trim seal whose hollow bulb is squashed by a closing door.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0,10 L10,0" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="450" y1="50" x2="450" y2="400" stroke="#cccccc" stroke-width="2"/><line x1="460" y1="230" x2="790" y2="230" stroke="#cccccc" stroke-width="2"/>
+<rect x="110" y="200" width="300" height="30" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M250,140 H90 Q60,140 60,170 V260 Q60,290 90,290 H250 V255 H100 V175 H250 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M236,156 H92 Q76,156 76,172 V258 Q76,274 92,274 H236" fill="none" stroke="#666" stroke-width="5"/>
+<path d="M150,175 L124,200 L136,175 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><path d="M150,255 L124,230 L136,255 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><path d="M195,175 L169,200 L181,175 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><path d="M195,255 L169,230 L181,255 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><path d="M240,175 L214,200 L226,175 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><path d="M240,255 L214,230 L226,255 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="400" y1="180" x2="320" y2="180" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="320" y1="250" x2="360" y2="250" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><line x1="372" y1="238" x2="372" y2="262" stroke="#d1495b" stroke-width="4"/>
+<line x1="264" y1="130" x2="264" y2="255" stroke="#222" stroke-width="2" stroke-dasharray="4 4"/><line x1="256" y1="175" x2="272" y2="175" stroke="#222" stroke-width="2"/><line x1="256" y1="255" x2="272" y2="255" stroke="#222" stroke-width="2"/>
+<rect x="470" y="70" width="160" height="140" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="550" cy="140" r="50" fill="#ffffff" stroke="none"/><circle cx="550" cy="140" r="46" fill="none" stroke="#222" stroke-width="16"/><circle cx="550" cy="140" r="46" fill="none" stroke="#e8e8e8" stroke-width="10"/>
+<line x1="590" y1="140" x2="602" y2="140" stroke="#222" stroke-width="2"/><line x1="587" y1="155.3" x2="598" y2="159.9" stroke="#222" stroke-width="2"/><line x1="578.3" y1="168.3" x2="586.8" y2="176.8" stroke="#222" stroke-width="2"/><line x1="565.3" y1="177" x2="569.9" y2="188" stroke="#222" stroke-width="2"/><line x1="550" y1="180" x2="550" y2="192" stroke="#222" stroke-width="2"/><line x1="534.7" y1="177" x2="530.1" y2="188" stroke="#222" stroke-width="2"/><line x1="521.7" y1="168.3" x2="513.2" y2="176.8" stroke="#222" stroke-width="2"/><line x1="513" y1="155.3" x2="502" y2="159.9" stroke="#222" stroke-width="2"/><line x1="510" y1="140" x2="498" y2="140" stroke="#222" stroke-width="2"/><line x1="513" y1="124.7" x2="502" y2="120.1" stroke="#222" stroke-width="2"/><line x1="521.7" y1="111.7" x2="513.2" y2="103.2" stroke="#222" stroke-width="2"/><line x1="534.7" y1="103" x2="530.1" y2="92" stroke="#222" stroke-width="2"/><line x1="550" y1="100" x2="550" y2="88" stroke="#222" stroke-width="2"/><line x1="565.3" y1="103" x2="569.9" y2="92" stroke="#222" stroke-width="2"/><line x1="578.3" y1="111.7" x2="586.8" y2="103.2" stroke="#222" stroke-width="2"/><line x1="587" y1="124.7" x2="598" y2="120.1" stroke="#222" stroke-width="2"/>
+<circle cx="550" cy="140" r="22" fill="#fde2c4" stroke="#222" stroke-width="3"/><circle cx="550" cy="140" r="8" fill="#d1a15f" stroke="#222" stroke-width="2"/>
+<rect x="572" y="360" width="218" height="16" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M640,346 H562 Q550,346 550,358 V378 Q550,390 562,390 H640 V376 H568 V360 H640 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<ellipse cx="596" cy="333" rx="40" ry="14" fill="#555" stroke="#222" stroke-width="3"/><ellipse cx="596" cy="333" rx="28" ry="5" fill="#ffffff" stroke="none"/>
+<rect x="520" y="300" width="160" height="18" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="700" y1="262" x2="700" y2="300" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="230" y="40" font-size="21" font-weight="bold" text-anchor="middle">Edge trim (cut-away end)</text>
+<text x="40" y="122">plastic or rubber U</text>
+<text x="60" y="326">metal clip inside</text>
+<line x1="80" y1="310" x2="78" y2="272" stroke="#222" stroke-width="2"/>
+<text x="150" y="360">angled tongues grip both faces</text>
+<line x1="180" y1="344" x2="176" y2="256" stroke="#222" stroke-width="2"/>
+<text x="276" y="122">grip range</text>
+<text x="330" y="166">easy on</text>
+<text x="380" y="256">hard off</text>
+<text x="300" y="222">panel</text>
+<text x="640" y="100">grommet</text>
+<text x="640" y="122">edging</text>
+<text x="640" y="170">cable rests</text>
+<text x="640" y="192">on plastic</text>
+<text x="570" y="256" text-anchor="middle">door closes</text>
+<text x="660" y="415" text-anchor="middle">bulb squashes: seals the gap</text>
+</g>
+</svg>
