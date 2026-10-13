@@ -122,3 +122,44 @@ shut-off-valve:
 side-release-buckle:
   verdict: keep
   reason: clear drawing of both halves with the springy arms and side windows
+# sheet24
+silicone-and-ms-polymer-adhesive-sealants:
+  verdict: keep
+  reason: clear photo of sealant paste being squeezed from a cartridge
+slider-crank:
+  verdict: drawn
+  reason: current animation is a thin-line simulation with dimension numbers; hard to read as a crank, rod and slider
+sliding-dovetail:
+  verdict: keep
+  reason: animation shows the flared tongue sliding into its groove
+slip-ring-and-rotary-union:
+  verdict: keep
+  reason: labelled photo shows real brushes rubbing on slip rings
+  unsure: letter labels A-D have no key on the picture itself
+slotted-adjustment-with-a-jacking-screw:
+  verdict: drawn
+  reason: two cluttered engine-bay photos with tiny boxes; the slot and adjusting screw are hard to find
+solder-sleeve:
+  verdict: keep
+  reason: clear photo of a finished solder sleeve on wire
+soldered-metal-joint:
+  verdict: keep
+  reason: photo shows a copper pipe joint being soldered with a torch
+soldered-wire-joint:
+  verdict: keep
+  reason: drawing shows how the stripped wires are twisted together for the joint
+  unsure: shows the twist (Western Union splice) but not the solder itself
+solenoid-latch:
+  verdict: drawn
+  reason: photo shows the outside of a lock case; the coil, spring and bolt cannot be seen
+solvent-welding:
+  verdict: keep
+  reason: photo shows solvent cement brushed onto a plastic pipe and fitting
+speed-control-valve:
+  verdict: drawn
+  reason: current animation is a quick exhaust valve (a different part) with a website address on it
+speed-governor:
+  verdict: swap
+  use: "File:Regulador mecánico.png"
+  alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc against a brake.
+  reason: current clock-striking drawing is busy and the fan governor is small; this shows the spinning weights at rest and running

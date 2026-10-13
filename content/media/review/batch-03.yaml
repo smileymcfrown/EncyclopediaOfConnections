@@ -112,3 +112,44 @@ in-line-swivel:
 indexable-clamping-lever:
   verdict: keep
   reason: clear photo of an adjustable clamping lever
+# sheet14
+inertia-locking-reel:
+  verdict: keep
+  reason: clear photo of a seat-belt inertia reel with its webbing roll
+insulation-displacement-connector:
+  verdict: keep
+  reason: close-up shows the forked blades cutting into the ribbon cable
+internal-tube-anchors:
+  verdict: drawn
+  reason: quill stems hide the small expander wedge; a cut-away of a star nut and an expanding plug in a tube shows how they grip
+interrupted-screw-lock:
+  verdict: swap
+  use: "File:Interrupted breech screw.jpg"
+  alt: Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked out in green.
+  reason: current technical drawing is cluttered and the thread sections are hard to see
+invisible-barrel-hinge:
+  verdict: keep
+  reason: animation shows the crossed links folding into the two pockets, though the drawing is small with German labels
+iris-mechanism:
+  verdict: keep
+  reason: animation shows the curved blades swinging in and out together
+iris-valve:
+  verdict: drawn
+  reason: photo is a pinch-valve rubber sleeve, not an iris valve being twisted shut
+iron-on-fusible-web:
+  verdict: keep
+  reason: clear photo of a roll of iron-on hemming web
+japanese-interlocking-joints:
+  verdict: swap
+  use: "File:Lapped gooseneck joint.png"
+  alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it drops into on the other.
+  reason: current photo of a closed joint doesn't show the interlocking shapes
+jaw-coupling:
+  verdict: keep
+  reason: clear drawing of a jaw coupling with its two hubs and red spider
+kerf-bending:
+  verdict: keep
+  reason: laser-cut box whose curved wall is kerf-cut plywood
+keying:
+  verdict: keep
+  reason: memory module with its off-centre key notch clearly visible

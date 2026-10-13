@@ -112,3 +112,42 @@ polyurethane-glue:
 posable-segmented-arm:
   verdict: drawn
   reason: gooseneck spiral diagram is a different construction and abstract; drawn a cut-away chain of hollow ball-and-socket segments
+# sheet19
+press-fit-and-expanding-inserts:
+  verdict: keep
+  reason: clear photo of a slotted, knurled brass press-in insert
+press-stud:
+  verdict: keep
+  reason: clear photo of the stud, socket, cap and eyelet
+pressure-regulator:
+  verdict: swap
+  use: "File:Single-stage-regulator.svg"
+  alt: Cut-away drawing of a single-stage pressure regulator, where a spring pushes on a diaphragm that opens and closes a small valve between the high-pressure inlet and the low-pressure outlet.
+  reason: current numbered schematic mixes two regulator types and is cryptic; this is Wikipedia's spring-diaphragm-valve cut-away (preview not checked)
+pressure-relief-valve:
+  verdict: keep
+  reason: labelled cross-section of a spring-loaded relief valve
+print-in-place-hinge:
+  verdict: drawn
+  reason: in the fidget-cube photo the hinges are tiny and can't be seen; drawn a cut-away of the knuckles with cone pins and the clearance gap
+printed-chainmail-and-tile-fabric:
+  verdict: keep
+  reason: printed ring fabric draped over a seed shows it behaving like cloth
+printed-leaf-spring:
+  verdict: drawn
+  reason: car leaf-spring shapes are a related but different thing; drawn a printed strip fixed at one end, bent by a finger
+printed-screw-thread:
+  verdict: drawn
+  reason: lead-and-pitch diagram is a general thread idea; drawn a printed lid on a jar neck with the clearance gap and sloping faces
+pulley-system:
+  verdict: keep
+  reason: diagram of common tackles with ropes and blocks
+push-and-turn-child-resistant-cap:
+  verdict: drawn
+  reason: aspirin-bottle photo shows a brand box and a cap but not the mechanism; drawn a cut-away of twist-only vs push-and-twist
+push-in-plastic-rivet:
+  verdict: drawn
+  reason: current photo shows the removal pliers, not the rivet; drawn push-type rivet before/after and a fir-tree clip
+pva-wood-glue:
+  verdict: drawn
+  reason: clamped glue-up photo doesn't show the glue; drawn the glue line soaking into wood cells and side vs end grain

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks are slid together so they interlock, and then the joint is hammered flat so the folds trap each other.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke-linejoin="round" stroke-linecap="round" fill="none">
+<line x1="266" y1="20" x2="266" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="390" stroke="#cccccc" stroke-width="2"/>
+<path d="M13.0,200.0 L113.0,200.0 A14.0,14.0 0 0 1 113.0,228.0 L81.0,228.0" stroke="#222" stroke-width="11"/>
+<path d="M13.0,200.0 L113.0,200.0 A14.0,14.0 0 0 1 113.0,228.0 L81.0,228.0" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M253.0,282.0 L158.0,282.0 A14.0,14.0 0 0 1 158.0,254.0 L190.0,254.0" stroke="#222" stroke-width="11"/>
+<path d="M253.0,282.0 L158.0,282.0 A14.0,14.0 0 0 1 158.0,254.0 L190.0,254.0" stroke="#fde2c4" stroke-width="5"/>
+<path d="M280.0,200.0 L420.0,200.0 A15.0,15.0 0 0 1 420.0,230.0 L386.0,230.0" stroke="#222" stroke-width="11"/>
+<path d="M280.0,200.0 L420.0,200.0 A15.0,15.0 0 0 1 420.0,230.0 L386.0,230.0" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M520.0,245.0 L384.0,245.0 A15.0,15.0 0 0 1 384.0,215.0 L418.0,215.0" stroke="#222" stroke-width="11"/>
+<path d="M520.0,245.0 L384.0,245.0 A15.0,15.0 0 0 1 384.0,215.0 L418.0,215.0" stroke="#fde2c4" stroke-width="5"/>
+<line x1="370" y1="320" x2="430" y2="320" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M547.0,205.0 L689.0,205.0 A11.5,11.5 0 0 1 689.0,228.0 L651.0,228.0" stroke="#222" stroke-width="11"/>
+<path d="M547.0,205.0 L689.0,205.0 A11.5,11.5 0 0 1 689.0,228.0 L651.0,228.0" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M787.0,239.5 L649.0,239.5 A11.5,11.5 0 0 1 649.0,216.5 L687.0,216.5" stroke="#222" stroke-width="11"/>
+<path d="M787.0,239.5 L649.0,239.5 A11.5,11.5 0 0 1 649.0,216.5 L687.0,216.5" stroke="#fde2c4" stroke-width="5"/>
+<rect x="612" y="246" width="110" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="632" y="130" width="70" height="34" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="667" y1="168" x2="667" y2="192" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="133" y="40" font-size="20" font-weight="bold">1. Bend a hook</text><text x="133" y="64" font-size="20" font-weight="bold">on each edge</text>
+<text x="400" y="40" font-size="20" font-weight="bold">2. Hook them</text><text x="400" y="64" font-size="20" font-weight="bold">together</text>
+<text x="667" y="40" font-size="20" font-weight="bold">3. Hammer flat</text>
+<text x="80" y="170">sheet 1</text>
+<text x="195" y="310">sheet 2</text>
+<text x="400" y="350">slide or hook in</text>
+<text x="667" y="120">hammer or roller</text>
+<text x="667" y="310">folds trap each other</text>
+<text x="400" y="434" font-size="19">A tight, permanent joint along the whole edge, with no heat, glue or fasteners</text>
+</g></svg>

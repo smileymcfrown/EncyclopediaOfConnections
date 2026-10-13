@@ -159,3 +159,41 @@ eye-bolts-screw-eyes-and-hooks:
 eyelets-and-grommets:
   verdict: keep
   reason: eyelets next to the pliers that set them
+
+# --- sheet10 ---
+finger-joint:
+  verdict: keep
+  reason: clear close-up of a box corner with a row of square fingers
+fixed-loop-knots:
+  verdict: keep
+  reason: clear photo of a bowline loop tied in rope
+flare-fitting:
+  verdict: keep
+  reason: photo of a flared copper tube end with its nut
+flat-flexible-cable-and-latching-connector:
+  verdict: keep
+  reason: flat flexible cables next to the ZIF connectors they plug into
+flexible-drive-shaft:
+  verdict: keep
+  reason: clear photo of a speedometer cable in its casing
+flexure-hinge:
+  verdict: keep
+  reason: photo of a crossed-spring flexure pivot, with the springy strips visible
+float-valve:
+  verdict: keep
+  reason: cross-section of float, arm and valve (numbered parts), shows how it closes
+flywheel:
+  verdict: keep
+  reason: animation of a spinning spoked flywheel with its heavy rim (low resolution, but clear enough)
+folded-seam:
+  verdict: drawn
+  reason: press-brake animation shows a single folded hem, not two sheets locked together; new diagram shows hooks bent, hooked together and hammered flat
+folding-blade-lock:
+  verdict: keep
+  reason: cutaways of lockback, bolt and liner locks, open and being released
+four-bar-linkage:
+  verdict: keep
+  reason: animated crank-rocker four-bar linkage
+friction-brake:
+  verdict: drawn
+  reason: dark band-brake diagram is mostly letters and covers only one kind; new diagram shows disc and pads, shoes in a drum and a band round a drum

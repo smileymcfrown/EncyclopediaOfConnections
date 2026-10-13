@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won't pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening a bolt squeezes a rubber sleeve so it swells against the wall.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="tube" fill="#cfe3f5" stroke="#222" stroke-width="3" stroke-linejoin="round">
+<rect x="67" y="130" width="12" height="260"/>
+<rect x="187" y="130" width="12" height="260"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="266" y1="20" x2="266" y2="380" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="380" stroke="#cccccc" stroke-width="2"/>
+<!-- star nut -->
+<g>
+<use href="#tube"/>
+<g stroke="#222" stroke-width="6">
+<line x1="122" y1="240" x2="81" y2="212"/><line x1="144" y1="240" x2="185" y2="212"/>
+<line x1="122" y1="282" x2="81" y2="254"/><line x1="144" y1="282" x2="185" y2="254"/>
+</g>
+<rect x="121" y="205" width="24" height="95" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="1.5"><line x1="121" y1="222" x2="145" y2="216"/><line x1="121" y1="242" x2="145" y2="236"/><line x1="121" y1="262" x2="145" y2="256"/><line x1="121" y1="282" x2="145" y2="276"/></g>
+<line x1="133" y1="70" x2="133" y2="120" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- ribbed insert -->
+<g transform="translate(267,0)">
+<use href="#tube"/>
+<g fill="#d8f0d2" stroke="#222" stroke-width="3">
+<polygon points="85,145 79,155 85,165 85,185 79,195 85,205 85,225 79,235 85,245 85,265 79,275 85,285 85,320 181,320 181,285 187,275 181,265 181,245 187,235 181,225 181,205 187,195 181,185 181,165 187,155 181,145 181,130 85,130"/>
+<rect x="58" y="116" width="150" height="14"/>
+</g>
+<rect x="111" y="140" width="44" height="34" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="126" y="174" width="14" height="146" fill="#ffffff" stroke="#222" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="133" y1="70" x2="133" y2="110" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- expanding plug -->
+<g transform="translate(534,0)">
+<use href="#tube"/>
+<path d="M95,126 L171,126 Q199,213 171,300 L95,300 Q67,213 95,126 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="58" y="112" width="150" height="14" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="128" y="98" width="10" height="222" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<rect x="110" y="84" width="46" height="16" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="98,300 168,300 152,334 114,334" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M112,64 A24,8 0 0 0 156,64" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="133" y1="378" x2="133" y2="342" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="120" y1="213" x2="88" y2="213" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="146" y1="213" x2="178" y2="213" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="21" font-weight="bold">
+<text x="133" y="36">Star nut</text>
+<text x="400" y="36">Ribbed insert</text>
+<text x="667" y="36">Expanding plug</text>
+</g>
+<text x="133" y="60">tap in</text>
+<text x="133" y="415">barbs bite the wall:</text>
+<text x="133" y="437">in, but not out</text>
+<text x="400" y="415">ribs press out on</text>
+<text x="400" y="437">the walls, nut inside</text>
+<text x="667" y="415">tighten: the sleeve</text>
+<text x="667" y="437">swells against the wall</text>
+<text x="60" y="340" text-anchor="end">tube</text>
+</g>
+</svg>
