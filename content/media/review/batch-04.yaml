@@ -151,3 +151,40 @@ push-in-plastic-rivet:
 pva-wood-glue:
   verdict: drawn
   reason: clamped glue-up photo doesn't show the glue; drawn the glue line soaking into wood cells and side vs end grain
+# sheet20
+quarter-turn-fastener:
+  verdict: drawn
+  reason: in the biplane photo the fasteners are tiny dots on a cowling; drawn a cut-away of the stud, spiral slot and wire spring before and after the quarter turn
+quick-couplers-for-tubes-and-hoses:
+  verdict: keep
+  reason: clear photo of quick-coupling sockets and their plugs
+quick-release-hooks:
+  verdict: keep
+  reason: animation shows the three-ring release letting go when the small loop is freed
+quick-release-pin:
+  verdict: keep
+  reason: diagram of a ball-lock pin in its holes, with the button pressed and released
+quick-release-plate:
+  verdict: drawn
+  reason: dimensioned profile drawing is mostly numbers and shows no clamp; drawn the dovetail plate wedged between a fixed and a moving jaw
+quick-return-mechanism:
+  verdict: drawn
+  reason: the animation is thin abstract lines; drawn a crank and slotted lever with the long slow arc and short fast-return arc
+rack-and-pinion:
+  verdict: keep
+  reason: animation of a pinion driving a rack
+radial-lip-seal:
+  verdict: keep
+  reason: cross-section of the seal's lip, spring and metal ring on a shaft
+ratchet-and-pawl:
+  verdict: keep
+  reason: animation of the pawl clicking over the teeth and blocking reverse
+ratchet-tie-down-strap:
+  verdict: keep
+  reason: photo of a worker tightening a strap with its ratchet
+ratcheting-reel-closure:
+  verdict: keep
+  reason: clear photo of a boot with two lace-reel dials
+reciprocal-frame:
+  verdict: keep
+  reason: photo of three sticks each resting on the next

@@ -27,7 +27,7 @@
 <text x="150" y="100" text-anchor="start">plate with</text>
 <text x="150" y="122" text-anchor="start">bevelled edges</text>
 <text x="192" y="248">fixed jaw</text>
-<text x="604" y="248">moving jaw</text>
+<text x="604" y="248" font-size="16">moving jaw</text>
 <text x="400" y="300">clamp base</text>
 <text x="730" y="140">turn knob</text>
 <text x="400" y="362">The 45° faces turn the sideways squeeze into a pull down onto the base,</text>

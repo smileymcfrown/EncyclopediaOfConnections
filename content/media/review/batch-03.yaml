@@ -153,3 +153,40 @@ kerf-bending:
 keying:
   verdict: keep
   reason: memory module with its off-centre key notch clearly visible
+# sheet15
+keyless-locking-bush:
+  verdict: keep
+  reason: cross-section shows the screws drawing the tapered rings together between shaft and hub
+kinematic-coupling:
+  verdict: keep
+  reason: three balls above three V-grooves shows exactly how it locates
+knife-edge-and-jewel-pivots:
+  verdict: drawn
+  reason: Kater's pendulum drawing is thin and labelled with letters; the knife edges are tiny and there's no jewel pivot
+knock-down-cam-lock-and-cross-dowel-connectors:
+  verdict: keep
+  reason: clear photo of a cam lock housing and its connecting bolt
+knuckle-hinge:
+  verdict: keep
+  reason: labelled photo of a butt hinge showing leaves, knuckles and pin
+labyrinth-seal:
+  verdict: keep
+  reason: simple cross-section of the interleaved teeth round a shaft
+lacing:
+  verdict: keep
+  reason: diagram shows a lace threaded through holes along the edges of plates to join them
+ladder-lock-buckle:
+  verdict: keep
+  reason: photo is a tri-glide (the entry's non-locking version) but clearly shows a strap weaving over the bars; a true ladder-lock photo or drawing would be better (unsure of the exact strap path to draw it)
+lantern-gear:
+  verdict: keep
+  reason: clear photo of a wooden lantern gear with its round pins between two discs
+lead-screw-and-nut:
+  verdict: keep
+  reason: DVD drive head moved along by a small lead screw is clear
+leather-and-textile-rivets:
+  verdict: keep
+  reason: close-up of a rivet clamping the corner of a jeans pocket
+levelling-foot:
+  verdict: keep
+  reason: clear photo of a threaded levelling foot with its pad
