@@ -74,6 +74,7 @@ def info(titles):
             out[norm.get(p['title'], p['title'])] = dict(
                 title=p['title'], page=ii.get('descriptionurl'), mime=ii.get('mime'),
                 thumb=re.sub(r'\?utm_.*$', '', ii.get('thumburl') or ii.get('url') or ''), width=ii.get('width'),
+                original=re.sub(r'\?utm_.*$', '', ii.get('url') or ''),
                 license=text(md.get('LicenseShortName')), license_url=text(md.get('LicenseUrl')),
                 author=text(md.get('Artist')) or text(md.get('Credit')), name=text(md.get('ObjectName')))
         time.sleep(0.5)
@@ -85,17 +86,34 @@ def usable(x):
     return x['mime'] in IMAGE_TYPES and OK.search(lic) and not BAD.search(lic)
 
 
-def save(x, dest):
-    im = Image.open(io.BytesIO(get(x['thumb'])))
-    if getattr(im, 'n_frames', 1) > 1:
-        im.seek(0)
-    im = im.convert('RGBA') if im.mode in ('P', 'LA', 'RGBA') else im.convert('RGB')
+def flat(im):
+    """One frame as RGB, with transparency put on white so diagrams read in dark mode too."""
+    im = im.convert('RGBA')
     if im.width > 800:
         im = im.resize((800, round(im.height * 800 / im.width)), Image.LANCZOS)
-    if im.mode == 'RGBA':           # transparent diagrams: put them on white so they read in dark mode too
-        bg = Image.new('RGB', im.size, 'white')
-        bg.paste(im, mask=im.split()[3])
-        im = bg
+    bg = Image.new('RGB', im.size, 'white')
+    bg.paste(im, mask=im.split()[3])
+    return bg
+
+
+def save(x, dest):
+    """Save a web-sized WebP. Animated GIFs stay animated (an animated WebP plays by itself in
+    every current browser); they are read from the original file, as Commons may serve a still
+    thumbnail for a large GIF."""
+    animated = x['mime'] == 'image/gif'
+    im = Image.open(io.BytesIO(get(x['original'] if animated else x['thumb'])))
+    n = getattr(im, 'n_frames', 1)
+    if animated and n > 1:
+        frames, durations = [], []
+        for i in range(n):
+            im.seek(i)
+            frames.append(flat(im))
+            durations.append(im.info.get('duration', 100) or 100)
+        frames[0].save(dest, 'WEBP', save_all=True, append_images=frames[1:], duration=durations, loop=0,
+                       quality=75, method=4)
+        return frames[0].width, frames[0].height
+    im.seek(0)
+    im = flat(im)
     im.save(dest, 'WEBP', quality=80, method=6)
     return im.width, im.height
 
@@ -106,6 +124,11 @@ def main():
     if '--only' in sys.argv:
         only = set(sys.argv[sys.argv.index('--only') + 1].split(','))
     force = '--force' in sys.argv
+    regif = '--refetch-gifs' in sys.argv
+    # content/media/choices.yaml (R30): a person's (or reviewer's) choice of picture for a page:
+    # {use: 'File:...'} puts that Commons file first; {use: drawn} shows the drawn diagram instead.
+    cf = os.path.join(MEDIA, 'choices.yaml')
+    choices = (yaml.safe_load(open(cf)) or {}) if os.path.exists(cf) else {}
     os.makedirs(MEDIA, exist_ok=True)
     rec = (yaml.safe_load(open(RECORD)) or {}) if os.path.exists(RECORD) else {}
     pages = {}
@@ -113,8 +136,17 @@ def main():
         if fn.endswith('.md') and (only is None or fn[:-3] in only):
             fm = yaml.safe_load(re.match(r'---\n(.*?)\n---\n', open(os.path.join(ENTRIES, fn)).read(), re.S).group(1))
             pages[fn[:-3]] = fm
-    todo = {p: fm for p, fm in pages.items() if force or p not in rec}
+    for p, c in choices.items():
+        if c.get('use') == 'drawn' and p in rec:
+            os.remove(os.path.join(MEDIA, rec.pop(p)['file']))
+    want = lambda p: (choices.get(p, {}).get('use') or '').replace('_', ' ')
+    todo = {p: fm for p, fm in pages.items() if want(p) != 'drawn' and (
+        force or p not in rec or (want(p).startswith('File:') and rec[p]['title'] != want(p))
+        or (regif and rec[p]['title'].lower().endswith('.gif')))}
     cand = {p: [(file_title(l['url']), l) for l in fm.get('links') or [] if file_title(l['url'])] for p, fm in todo.items()}
+    for p in cand:                       # a chosen file goes first, even if the research did not list it
+        if want(p).startswith('File:'):
+            cand[p] = [(want(p), {'shows': choices[p].get('alt', '')})] + [c for c in cand[p] if c[0] != want(p)]
     meta = info(sorted({t for c in cand.values() for t, _ in c}))
     none = []
     for p, cs in cand.items():
