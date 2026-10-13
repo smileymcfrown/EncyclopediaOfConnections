@@ -115,11 +115,16 @@ def save(x, dest):
             durations.append(im.info.get('duration', 100) or 100)
         frames[0].save(dest, 'WEBP', save_all=True, append_images=frames[1:], duration=durations, loop=0,
                        quality=75, method=4)
-        return frames[0].width, frames[0].height
+        if os.path.getsize(dest) > 3_000_000:   # a long animation: smaller and lower quality, to keep pages quick
+            frames = [f.resize((560, round(f.height * 560 / f.width)), Image.LANCZOS) if f.width > 560 else f
+                      for f in frames]
+            frames[0].save(dest, 'WEBP', save_all=True, append_images=frames[1:], duration=durations, loop=0,
+                           quality=55, method=4)
+        return frames[0].width, frames[0].height, n
     im.seek(0)
     im = flat(im)
     im.save(dest, 'WEBP', quality=80, method=6)
-    return im.width, im.height
+    return im.width, im.height, 1
 
 
 def main():
