@@ -108,10 +108,15 @@ def save(x, dest):
     im = Image.open(io.BytesIO(get(x['original'] if animated else x['thumb'])))
     n = getattr(im, 'n_frames', 1)
     if animated and n > 1:
-        frames, durations = [], []
+        frames, durations, size = [], [], im.size
         for i in range(n):
             im.seek(i)
-            frames.append(flat(im))
+            fr = im.convert('RGBA')
+            if fr.size != size:          # a frame larger or smaller than the first: fit it to the first frame
+                c = Image.new('RGBA', size, (255, 255, 255, 0))
+                c.paste(fr.crop((0, 0) + size))
+                fr = c
+            frames.append(flat(fr))
             durations.append(im.info.get('duration', 100) or 100)
         frames[0].save(dest, 'WEBP', save_all=True, append_images=frames[1:], duration=durations, loop=0,
                        quality=75, method=4)
@@ -164,7 +169,13 @@ def main():
             continue
         t, l = pick
         x = meta[t]
-        w, h, n = save(x, os.path.join(MEDIA, p + '.webp'))
+        try:
+            w, h, n = save(x, os.path.join(MEDIA, p + '.webp.tmp'))
+            os.replace(os.path.join(MEDIA, p + '.webp.tmp'), os.path.join(MEDIA, p + '.webp'))
+        except Exception as err:     # one bad file must not lose the rest of the run
+            print(f'{p}: could not save {t}: {err}')
+            none.append(p)
+            continue
         rec[p] = {'file': p + '.webp', 'width': w, 'height': h, 'title': x['title'], 'author': x['author'] or 'unknown',
                   'license': x['license'], 'license_url': x['license_url'], 'source': x['page'],
                   'alt': l.get('shows') or x['name'] or pages[p]['title']}
