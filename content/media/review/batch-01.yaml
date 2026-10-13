@@ -1,0 +1,159 @@
+# R30 picture review, batch-01 (sheets 01-05)
+# sheet01
+air-bearing-and-air-caster:
+  verdict: keep
+  reason: animation shows air filling the caster bag and lifting the load on a thin film
+air-logic-valve:
+  verdict: keep
+  reason: animated cut-away of a shuttle valve, a real air-logic (OR) element, shows the ball moved by air pressure
+air-or-hydraulic-cylinder:
+  verdict: keep
+  reason: animation shows air pushing the piston out and the spring bringing it back
+air-tank-and-hydraulic-accumulator:
+  verdict: keep
+  reason: clear cut-away of a bladder accumulator, gas squeezed by the oil
+aluminium-extrusion-connectors:
+  verdict: keep
+  reason: T-nut shown sitting in the T-slot of an extrusion
+anaerobic-adhesive:
+  verdict: keep
+  reason: clear photo of blue threadlocker on bolt threads
+anti-backlash-gear:
+  verdict: drawn
+  reason: current picture only shows the backlash gap (the problem), not the split, spring-loaded gear; no Commons picture of one found
+anti-twister-mechanism:
+  verdict: drawn
+  reason: belt-trick animation shows the underlying principle, not the mechanism (cable loop on a half-speed carrier); no Commons picture of the device found
+automatic-siphon:
+  verdict: drawn
+  reason: current picture is a Pythagorean cup, a different item; the only Commons bell-siphon file is a CAD render of a media guard that hides the bell
+ball-and-socket-joint:
+  verdict: keep
+  reason: ball joint cut in half shows the ball held in its socket
+ball-caster:
+  verdict: keep
+  reason: cut-away shows the big ball resting on small bearing balls
+ball-detent-torque-limiter:
+  verdict: drawn
+  reason: photo of an industrial unit hides the balls and dimples and is hard to read; drawing shows balls seated and rolling out under overload
+# sheet02
+ball-detent:
+  verdict: keep
+  reason: clear photo of spring plungers with the ball at the tip
+ball-screw:
+  verdict: keep
+  reason: photos of ball screws with the nut opened to show the balls
+band-flange-clamp:
+  verdict: swap
+  use: "File:HTML research (9067215099), clamp.jpg"
+  alt: A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.
+  reason: current picture is a small-text technical drawing; this photo shows a real clamp gripping two flanges
+basic-knots:
+  verdict: keep
+  reason: clear diagram of a reef knot
+basic-latches:
+  verdict: keep
+  reason: slide-bolt latch on a gate, opening shown
+basic-strap-and-garment-closures:
+  verdict: keep
+  reason: labelled prong buckle shows frame, bar and prong
+battery-holder-and-battery-contacts:
+  verdict: keep
+  reason: clear photo of cells in a holder with spring contacts
+bayonet-mount:
+  verdict: keep
+  reason: shows the pin and the L-shaped slot it twists into
+bead-in-groove-fabric-edge:
+  verdict: drawn
+  reason: caravan keder-rail photo is too small to show the bead in the groove; drawing shows a keder in a C-rail and a screen spline in cross-section
+bell-crank:
+  verdict: swap
+  use: "File:Chambers 1908 Bell Crank.png"
+  alt: An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling a wire downwards.
+  reason: steering-linkage animation shows the bell crank tiny in a lot of white space; this drawing shows the classic part and both pull directions
+bellows-and-inflatable-actuators:
+  verdict: keep
+  reason: cross-section of an air bellows between end plates, with the air pressure and the force it gives
+bellows-boot-and-way-cover:
+  verdict: keep
+  reason: clear photo of a pleated rubber boot over a car axle joint
+# sheet03
+belt-drives:
+  verdict: keep
+  reason: animation of a belt running round two pulleys
+belt-tensioner:
+  verdict: swap
+  use: "File:Kettenspanner für Singlespeed-Räder.jpg"
+  alt: A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain.
+  reason: car-engine photo is cluttered and the tensioner is hard to pick out; the bike tensioner clearly presses on the slack side
+bends-for-joining-two-cords:
+  verdict: keep
+  reason: clear photo of a double sheet bend joining two ropes
+bernoulli-gripper:
+  verdict: keep
+  reason: diagram shows the air stream and the lifting force on the part
+bevel-gears:
+  verdict: swap
+  use: "File:Gear - Bevel (PSF).png"
+  alt: A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.
+  reason: current picture is an abstract pitch-cone diagram; this drawing shows the actual pair of bevel gears
+binding-knots-and-seizings:
+  verdict: keep
+  reason: four photo steps of a constrictor knot round a post
+binding-post-and-banana-plug:
+  verdict: keep
+  reason: clear photo of a binding post with its cap and banana socket
+bistable-compliant-mechanism:
+  verdict: keep
+  reason: shows the one-piece bistable switch with its bending beams
+blind-rivet:
+  verdict: keep
+  reason: animation of a pop rivet being set from one side
+blind-threaded-fixings:
+  verdict: keep
+  reason: cut-open rivet nut with a bolt shows the collapsing section
+bowden-cable:
+  verdict: keep
+  reason: cut-away photo of a Bowden cable showing inner wire and outer sleeve
+brazed-joint:
+  verdict: keep
+  reason: diagram shows the flame heating the joint and the filler running into the gap
+# sheet04
+burn-wire-and-fusible-link-release:
+  verdict: drawn
+  reason: photo of a specific underwater release is cluttered and the burning wire is hard to see; drawing shows the cord held, burnt and the lid springing open
+butt-and-lap-wood-joints:
+  verdict: keep
+  reason: clear drawing of the common lap joints
+butterfly-key:
+  verdict: keep
+  reason: clear photo of a bow-tie key set across a crack in wood
+cable-carrier:
+  verdict: keep
+  reason: animation of a cable chain rolling as its end moves
+cable-gland-and-strain-relief:
+  verdict: swap
+  use: "File:M16 cable gland.jpg"
+  alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber seal inside, and the dome nut.
+  reason: exploded armoured-cable gland is an industrial special case; this photo shows the common plastic gland with its fingers and seal
+cable-through-a-hinge:
+  verdict: drawn
+  reason: car steering-column photo does not show the idea; the phone flat-cable photo is unclear; drawing shows a cable through a hollow pin and a slack loop
+cam-and-follower:
+  verdict: keep
+  reason: animation of cams pushing followers up and down
+cam-buckle:
+  verdict: keep
+  reason: close-up shows the toothed cam pressing on the webbing
+cam-cleat:
+  verdict: keep
+  reason: clear close-up of a cam cleat's two toothed cams
+cam-latch:
+  verdict: keep
+  reason: clear photo of a cam lock with its flat arm
+cantilever-snap-fit:
+  verdict: keep
+  reason: animation of the hook bending and snapping behind the ledge
+capstan-and-windlass:
+  verdict: drawn
+  reason: current picture is a differential windlass and chain hoist, a special variant; drawing shows the basic crank, drum, rope, ratchet and pawl

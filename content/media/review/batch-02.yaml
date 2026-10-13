@@ -1,0 +1,121 @@
+# Picture review, batch 02 (sheets 06-10)
+
+# --- sheet06 ---
+clip-on-concealed-hinge:
+  verdict: keep
+  reason: animation shows the cup hinge in a door and how the door swings out as it opens (German labels are small)
+coil-spring:
+  verdict: keep
+  reason: clear drawing of a compression coil spring; a photo of all three spring types would be nicer
+collet:
+  verdict: keep
+  reason: animation shows the collet pulled into its cone and gripping the shaft
+combination-lock:
+  verdict: keep
+  reason: exploded view of the notched number wheels, which is the mechanism
+compliant-gripper-and-force-amplifier:
+  verdict: keep
+  reason: one-piece compliant pliers, the item itself
+compliant-ratchet-and-overrunning-clutch:
+  verdict: drawn
+  reason: cable-tie cutaway is a linear example and hard to read; new diagram shows a one-piece hub with springy pawl arms clicking one way and locking the other
+compression-fitting:
+  verdict: keep
+  reason: cut-away drawing of nut, ring and tube shows how it grips and seals
+conductive-glue-paint-and-ink:
+  verdict: drawn
+  reason: microscope image of silver flakes means nothing to a beginner; new diagram shows a glue blob joining a leg to a track and a pen drawing a track
+conductive-tape:
+  verdict: keep
+  reason: clear photo of a roll of copper tape
+conductive-thread:
+  verdict: keep
+  reason: clear photo of a bobbin of conductive thread
+constant-force-spring:
+  verdict: drawn
+  reason: current picture is only a force graph; new diagram shows the coiled strip pulled out to different lengths with the same pull, plus a small graph
+constant-velocity-joint:
+  verdict: keep
+  reason: animation of a CV joint turning while bent
+
+# --- sheet07 ---
+contact-adhesive:
+  verdict: keep
+  reason: clear photo of a can of contact cement, with its uses printed on the label
+cord-lock:
+  verdict: keep
+  reason: clear photo of a barrel cord lock with its plunger hole
+crimp-terminals:
+  verdict: keep
+  reason: many kinds of crimp terminals on wires, side by side
+crimped-butt-splice:
+  verdict: keep
+  reason: insulated butt connectors next to the stripped wires they join
+cross-halving-slot-joint:
+  verdict: keep
+  reason: clear drawing of two slotted parts slipping together
+cyanoacrylate:
+  verdict: swap
+  use: "File:Super glue.jpg"
+  alt: A tube of superglue (cyanoacrylate glue).
+  reason: current picture is a chemistry diagram of molecules; a tube of superglue is what readers will recognise
+cycloidal-drive:
+  verdict: keep
+  reason: animation of the wobbling lobed disc inside the pin ring
+dampers:
+  verdict: keep
+  reason: simple cutaway of a piston in a fluid-filled cylinder, which is how a damper works
+diaphragm-pump-and-squeeze-bulb:
+  verdict: keep
+  reason: animation of the diaphragm moving and the two one-way valves opening in turn
+differential-screw:
+  verdict: keep
+  reason: animation of two threads of different pitch moving the nuts by the difference
+differential:
+  verdict: keep
+  reason: colour-coded drawing of the gears inside a differential
+din-rail-clip:
+  verdict: keep
+  reason: breaker clipped on a DIN rail, turned over so the latch can be seen
+
+# --- sheet08 ---
+dog-clutch:
+  verdict: swap
+  use: "File:Dog Clutch.jpg"
+  alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
+  reason: current hatched section drawing is hard to read; this photo shows the interlocking dogs plainly (CC0)
+double-sided-foam-tape:
+  verdict: keep
+  reason: two rolls of double-sided tape with toothpicks stuck to both faces
+dovetail-joint:
+  verdict: keep
+  reason: clear exploded drawing of tails and pins
+dovetail-slide-with-gib-strip:
+  verdict: drawn
+  reason: photo shows only a bare dovetail track; new diagram shows the carriage round the rail and the gib strip with its screws
+dowel-and-biscuit-joints:
+  verdict: keep
+  reason: drawing of dowels lining up two parts of a butt joint
+draw-latch:
+  verdict: keep
+  reason: clear photos of over-centre latches on a case, open and closed
+drawer-slide:
+  verdict: swap
+  use: "File:Light Rail.jpg"
+  alt: Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.
+  reason: in the current photo the slide is a thin strip in shadow behind the drawer; this shows the slides themselves
+drive-in-fixing-pins:
+  verdict: keep
+  reason: photo of a slotted spring pin through a shaft, with the parts numbered
+eccentric-adjuster:
+  verdict: drawn
+  reason: in the bike photo the eccentric plug is hidden behind the crank; new diagram shows an off-centre spacer turned to move a wheel onto a rail
+eccentric-cam-lever:
+  verdict: keep
+  reason: clear photo of a quick-release skewer with its cam lever
+eddy-current-brake:
+  verdict: keep
+  reason: diagram of a spinning disc between magnet poles with the swirling currents
+elastic-averaging:
+  verdict: drawn
+  reason: LEGO dimension drawing is mostly numbers and does not show the averaging; new diagram compares one stiff pin with many springy ribs

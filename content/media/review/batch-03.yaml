@@ -1,0 +1,114 @@
+# Picture review R30, batch 03 (sheets 11-15)
+# sheet11
+friction-clutch:
+  verdict: keep
+  reason: labelled cone clutch shows the friction faces pressed together by a spring
+friction-drives-and-cvts:
+  verdict: drawn
+  reason: old textile-machine photo is dark and cluttered; a drawing of a wheel moved across a disc shows the variable ratio
+friction-hinge:
+  verdict: drawn
+  reason: photo shows small laptop hinges on a scale, not how the friction pack holds the lid
+friction-slip-clutch:
+  verdict: drawn
+  reason: loose parts on a mat don't show how the spring presses the gear between friction pads
+friction-welded-plastic:
+  verdict: drawn
+  reason: current picture is an industrial metal friction-welding drawing with tiny labels, not plastic spin or rotary-tool welding
+gas-spring:
+  verdict: keep
+  reason: cutaway shows the rod, seal, piston and gas-filled cylinder
+gasket:
+  verdict: keep
+  reason: clear diagram of a gasket squeezed between two flanges
+gear-pump:
+  verdict: keep
+  reason: animation shows liquid carried round between the teeth and the case
+geared-hinge:
+  verdict: swap
+  use: "File:Continuoushinge.jpg"
+  alt: An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap.
+  reason: current stored picture is a page of text, not the hinge
+gearless-right-angle-drive:
+  verdict: keep
+  reason: animation shows the bent rods sliding in the two hubs at right angles
+genderless-connector:
+  verdict: keep
+  reason: clear face of a Storz coupling showing the hooks and slots that mate with an identical copy
+geneva-drive:
+  verdict: keep
+  reason: animation shows the pin stepping the slotted wheel and the locking disc
+# sheet12
+gimbal:
+  verdict: keep
+  reason: animation shows the three nested rings turning about their axes while the centre stays put
+glued-joint-design:
+  verdict: drawn
+  reason: a plain scarf joint is one example, not the shear-versus-peel idea the entry is about
+hand-mouldable-thermoplastic:
+  verdict: keep
+  reason: clear close-up of the polycaprolactone beads as bought
+hang-on-mounts:
+  verdict: drawn
+  reason: photo shows a strip on a wall but not how the bevels or a keyhole slot hook together
+heat-fused-plastic-pipe:
+  verdict: keep
+  reason: clear photo of an electrofusion coupler with its terminals
+heat-sealed-seam:
+  verdict: drawn
+  reason: photo shows a bag sealer in a cluttered lab, not the seam or how the layers melt together
+heat-set-threaded-insert:
+  verdict: drawn
+  reason: photo is a slotted press-in insert, not a heat-set one, and doesn't show it melting into the plastic
+heat-shrink-tubing:
+  verdict: keep
+  reason: animation shows the tube shrinking round the wire joint
+herringbone-and-helical-gears:
+  verdict: keep
+  reason: animation shows a pair of helical gears with twisted teeth meshing
+hidden-latches:
+  verdict: keep
+  reason: clear photo of a magnetic child-safety catch inside a cabinet door
+hide-glue:
+  verdict: keep
+  reason: photo shows hide and bone glues warmed liquid in jars
+high-current-battery-plug:
+  verdict: keep
+  reason: clear photo of a Deans-style T-plug pair
+# sheet13
+hirth-joint:
+  verdict: keep
+  reason: the ring of V-shaped teeth is clearly visible in the middle of the taken-apart crankset
+hitches-to-a-post-rail-ring-or-eye:
+  verdict: keep
+  reason: clear clove hitch tied round a rail
+holding-electromagnet:
+  verdict: keep
+  reason: photo of a door maglock showing the magnet body and its steel plate
+hollow-wall-anchors:
+  verdict: keep
+  reason: several toggle bolts shown open and closed
+hook-and-loop-fastener:
+  verdict: keep
+  reason: clear close-up of the tiny hooks
+hose-barb:
+  verdict: drawn
+  reason: pile of mostly crimp fittings; the barbs and how the tube grips them aren't clear
+hose-clamp:
+  verdict: keep
+  reason: clear photo of worm-drive hose clamps
+hot-melt-adhesive:
+  verdict: keep
+  reason: clear photo of a hobby glue gun with its glue stick
+housing-and-rebate-joints:
+  verdict: keep
+  reason: clear drawing of a through and a stopped housing (dado)
+hydraulic-ram-pump:
+  verdict: keep
+  reason: animated cutaway shows the waste valve, delivery valve and air vessel cycling
+in-line-swivel:
+  verdict: keep
+  reason: simple drawing of a swivel joining two chain links
+indexable-clamping-lever:
+  verdict: keep
+  reason: clear photo of an adjustable clamping lever

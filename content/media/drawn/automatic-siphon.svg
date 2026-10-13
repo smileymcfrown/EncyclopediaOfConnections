@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three cross-sections of a grow bed with a bell siphon: water trickles in and rises round a capped bell over a standpipe; when it spills into the standpipe the siphon starts and drains the bed fast; when the level falls to the bottom of the bell, air rushes in and the siphon stops so the bed refills.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="24" y="178" width="226" height="152" fill="#cfe3f5" stroke="none"/><rect x="126" y="172" width="22" height="243" fill="#ffffff"/><path d="M101,318 L101,140 L173,140 L173,318" fill="none"/><path d="M22,100 L22,332 L126,332 M148,332 L252,332 L252,100" fill="none"/><rect x="22" y="332" width="104" height="12" fill="#e8e8e8"/><rect x="148" y="332" width="104" height="12" fill="#e8e8e8"/></g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)"><line x1="52" y1="62" x2="52" y2="150"/><path d="M137,180 L137,250" /></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="286" y="250" width="226" height="80" fill="#cfe3f5" stroke="none"/><rect x="366" y="142" width="66" height="108" fill="#cfe3f5" stroke="none"/><rect x="388" y="172" width="22" height="243" fill="#cfe3f5"/><path d="M363,318 L363,140 L435,140 L435,318" fill="none"/><path d="M284,100 L284,332 L388,332 M410,332 L514,332 L514,100" fill="none"/><rect x="284" y="332" width="104" height="12" fill="#e8e8e8"/><rect x="410" y="332" width="104" height="12" fill="#e8e8e8"/></g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)"><line x1="399" y1="300" x2="399" y2="402"/><line x1="344" y1="236" x2="344" y2="276"/><line x1="464" y1="236" x2="464" y2="276"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="548" y="322" width="226" height="8" fill="#cfe3f5" stroke="none"/><rect x="650" y="172" width="22" height="243" fill="#ffffff"/><path d="M625,318 L625,140 L697,140 L697,318" fill="none"/><path d="M546,100 L546,332 L650,332 M672,332 L776,332 L776,100" fill="none"/><rect x="546" y="332" width="104" height="12" fill="#e8e8e8"/><rect x="672" y="332" width="104" height="12" fill="#e8e8e8"/></g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)"><path d="M601,326 L631,326 L639,230"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="137" y="34" font-size="20" font-weight="bold">1 Fills slowly</text>
+<text x="399" y="34" font-size="20" font-weight="bold">2 Siphon starts</text>
+<text x="661" y="34" font-size="20" font-weight="bold">3 Air gets in</text>
+<text x="57" y="62" text-anchor="start">trickle in</text>
+<text x="137" y="132">bell</text>
+<text x="190" y="384" text-anchor="start">standpipe</text>
+<text x="399" y="132">drains fast</text>
+<text x="661" y="132">siphon breaks</text>
+<text x="400" y="440" font-size="18">A steady trickle in becomes a regular flood and drain, with no moving parts</text>
+</g></svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="265" y1="60" x2="265" y2="350" stroke="#cccccc" stroke-width="2"/>
+<line x1="530" y1="60" x2="530" y2="350" stroke="#cccccc" stroke-width="2"/>
+<path d="M50,256 H110 A34,34 0 0 1 110,324 H50 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M238.0,256.0 L178.0,256.0 A34,34 0 0 0 178.0,324.0 L238.0,324.0 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M58,256 H110 A34,34 0 0 1 144.0,290.0 A34,34 0 0 0 178.0,324.0 L230.0,324.0" fill="none" stroke="#222" stroke-width="10"/><path d="M58,256 H110 A34,34 0 0 1 144.0,290.0 A34,34 0 0 0 178.0,324.0 L230.0,324.0" fill="none" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M58,324 H110 A34,34 0 0 0 144.0,290.0 A34,34 0 0 1 178.0,256.0 L230.0,256.0" fill="none" stroke="#222" stroke-width="10"/><path d="M58,324 H110 A34,34 0 0 0 144.0,290.0 A34,34 0 0 1 178.0,256.0 L230.0,256.0" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<circle cx="144.0" cy="290.0" r="7" fill="#d1495b" stroke="#222" stroke-width="2"/>
+<rect x="40" y="324" width="80" height="12" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<g stroke="#222" stroke-width="1.5"><line x1="44" y1="336" x2="54" y2="324"/><line x1="56" y1="336" x2="66" y2="324"/><line x1="68" y1="336" x2="78" y2="324"/><line x1="80" y1="336" x2="90" y2="324"/><line x1="92" y1="336" x2="102" y2="324"/><line x1="104" y1="336" x2="114" y2="324"/><line x1="116" y1="336" x2="126" y2="324"/></g>
+<path d="M315,256 H375 A34,34 0 0 1 375,324 H315 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M434.4,187.0 L404.4,239.0 A34,34 0 0 0 463.3,273.0 L493.3,221.0 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M323,256 H375 A34,34 0 0 1 404.4,273.0 A34,34 0 0 0 463.3,273.0 L489.3,228.0" fill="none" stroke="#222" stroke-width="10"/><path d="M323,256 H375 A34,34 0 0 1 404.4,273.0 A34,34 0 0 0 463.3,273.0 L489.3,228.0" fill="none" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M323,324 H375 A34,34 0 0 0 404.4,273.0 A34,34 0 0 1 404.4,239.0 L430.4,194.0" fill="none" stroke="#222" stroke-width="10"/><path d="M323,324 H375 A34,34 0 0 0 404.4,273.0 A34,34 0 0 1 404.4,239.0 L430.4,194.0" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<circle cx="409.0" cy="290.0" r="5" fill="#ffffff" stroke="#222" stroke-width="2"/>
+<circle cx="404.4" cy="273.0" r="7" fill="#d1495b" stroke="#222" stroke-width="2"/>
+<rect x="305" y="324" width="80" height="12" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<g stroke="#222" stroke-width="1.5"><line x1="309" y1="336" x2="319" y2="324"/><line x1="321" y1="336" x2="331" y2="324"/><line x1="333" y1="336" x2="343" y2="324"/><line x1="345" y1="336" x2="355" y2="324"/><line x1="357" y1="336" x2="367" y2="324"/><line x1="369" y1="336" x2="379" y2="324"/><line x1="381" y1="336" x2="391" y2="324"/></g>
+<path d="M524.4,276.9 A150,150 0 0 0 510.9,226.6" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M580,256 H640 A34,34 0 0 1 640,324 H580 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M614.6,196.1 L644.6,248.1 A34,34 0 0 0 703.4,214.1 L673.4,162.1 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M588,256 H640 A34,34 0 0 1 657.0,260.6 A34,34 0 0 0 703.4,214.1 L677.4,169.1" fill="none" stroke="#222" stroke-width="10"/><path d="M588,256 H640 A34,34 0 0 1 657.0,260.6 A34,34 0 0 0 703.4,214.1 L677.4,169.1" fill="none" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M588,324 H640 A34,34 0 0 0 657.0,260.6 A34,34 0 0 1 644.6,248.1 L618.6,203.1" fill="none" stroke="#222" stroke-width="10"/><path d="M588,324 H640 A34,34 0 0 0 657.0,260.6 A34,34 0 0 1 644.6,248.1 L618.6,203.1" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<circle cx="674.0" cy="290.0" r="5" fill="#ffffff" stroke="#222" stroke-width="2"/>
+<circle cx="669.4" cy="273.0" r="5" fill="#ffffff" stroke="#222" stroke-width="2"/>
+<circle cx="657.0" cy="260.6" r="7" fill="#d1495b" stroke="#222" stroke-width="2"/>
+<rect x="570" y="324" width="80" height="12" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<g stroke="#222" stroke-width="1.5"><line x1="574" y1="336" x2="584" y2="324"/><line x1="586" y1="336" x2="596" y2="324"/><line x1="598" y1="336" x2="608" y2="324"/><line x1="610" y1="336" x2="620" y2="324"/><line x1="622" y1="336" x2="632" y2="324"/><line x1="634" y1="336" x2="644" y2="324"/><line x1="646" y1="336" x2="656" y2="324"/></g>
+<path d="M789.4,276.9 A150,150 0 0 0 726.0,167.1" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="20" font-weight="bold" text-anchor="middle">
+<text x="132" y="40">1. Straight</text>
+<text x="397" y="40">2. Rolling up</text>
+<text x="662" y="40">3. Further round</text>
+</g>
+<text x="60" y="360">fixed block</text>
+<text x="20" y="220">contact point</text>
+<text x="20" y="242">= moving pivot</text>
+<line x1="95" y1="250" x2="140" y2="283" stroke="#222" stroke-width="2"/>
+<text x="270" y="380">blue strap: over left, under right</text>
+<text x="270" y="404">green strap: under left, over right</text>
+<text x="400" y="438" text-anchor="middle" font-weight="bold">The blocks roll on each other: no pin, no sliding, no play</text>
+</g>
+</svg>

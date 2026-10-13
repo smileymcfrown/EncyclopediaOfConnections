@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two cut-away close-ups of glue on a slippery polyethylene or polypropylene part: on the left ordinary glue beads up into a round drop that barely touches the surface, so the second part pulls straight off; on the right a low-surface-energy glue, or glue on a primed surface, spreads into a thin flat layer that wets both parts and holds them together.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- left: ordinary glue beads up -->
+<rect x="40" y="290" width="320" height="60" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M170,290 C148,290 140,262 150,240 C160,218 180,212 200,212 C220,212 240,218 250,240 C260,262 252,290 230,290 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="60" y="120" width="280" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3" transform="rotate(-4 200 145)"/>
+<line x1="200" y1="112" x2="200" y2="66" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- right: LSE glue spreads and grips -->
+<rect x="440" y="290" width="320" height="60" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="460" y="274" width="280" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="460" y="224" width="280" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="600" y1="216" x2="600" y2="170" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="38" font-size="21" font-weight="bold">Ordinary glue: beads up</text>
+<text x="600" y="38" font-size="21" font-weight="bold">LSE glue or primer: spreads</text>
+<text x="200" y="378">PE or PP part (waxy surface)</text>
+<text x="200" y="404">drop barely touches it</text>
+<text x="215" y="84" text-anchor="start">top part pulls off</text>
+<text x="600" y="378">same PE or PP part</text>
+<text x="600" y="404">glue wets and grips both faces</text>
+<text x="615" y="190" text-anchor="start">pulled: stays stuck</text>
+<text x="400" y="438">Water test: water beads up = not ready · water spreads flat = ready to glue</text>
+</g>
+</svg>

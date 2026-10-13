@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Left: end view of a dovetail slide, with the carriage wrapped round the fixed angled rail and a thin gib strip filling the gap on one side, pushed in by a screw. Right: top view of a tapered gib, a long thin wedge that an end screw slides along to make the fit tighter by a tiny amount.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="425" y1="20" x2="425" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="40" y="380" width="340" height="16" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<polygon points="40.0,380.0 40.0,320.0 140.0,320.0 110.0,250.0 310.0,250.0 280.0,320.0 380.0,320.0 380.0,380.0" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="70.0,312.0 136.6,312.0 107.4,244.0 330.6,244.0 301.4,312.0 350.0,312.0 350.0,140.0 70.0,140.0" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="284.3,310.0 307.4,256.0 325.4,256.0 302.3,310.0" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="314.3" y="276" width="51.7" height="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="366" y="269" width="14" height="26" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="408" y1="258" x2="372" y2="258" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<circle cx="210" cy="190" r="16" fill="#ffffff" stroke="#d1495b" stroke-width="4"/><circle cx="210" cy="190" r="4" fill="#d1495b"/>
+<rect x="450" y="150" width="300" height="70" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="470.0,220.0 756.0,220.0 756.0,240.6 470.0,226.0" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="470.0,226.0 762.0,241.6 762.0,222.0 780.0,222.0 780.0,330.0 470.0,330.0" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="756" y="226" width="34" height="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="784" y="220" width="8" height="22" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="740" y1="200" x2="670" y2="200" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="210" y="34" text-anchor="middle" font-size="21" font-weight="bold">End view</text>
+<text x="610" y="34" text-anchor="middle" font-size="21" font-weight="bold">Tapered gib, from above</text>
+<text x="210" y="125" text-anchor="middle">carriage slides along the rail</text>
+<text x="210" y="360" text-anchor="middle">angled rail (fixed)</text>
+<text x="300" y="72">screws push</text><text x="300" y="93">the gib in</text>
+<line x1="360" y1="100" x2="378" y2="262" stroke="#222" stroke-width="1.5"/>
+<text x="600" y="190" text-anchor="middle">rail</text>
+<text x="600" y="290" text-anchor="middle">carriage</text>
+<text x="610" y="365" text-anchor="middle">gib strip: a long thin wedge</text>
+<text x="610" y="388" text-anchor="middle">slide it 10 mm = 0.1 mm tighter</text>
+<line x1="560" y1="348" x2="560" y2="226" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="436" text-anchor="middle" font-size="19">Angled sides stop lifting and rocking · the gib takes up the wobble</text>
+</g></svg>

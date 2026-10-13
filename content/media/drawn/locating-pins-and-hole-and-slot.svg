@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Top view of a plate sitting on two pins: on the left one pin fits a snug round hole and the other sits in a slot pointing at that hole, so the plate fits even when the spacing is slightly off; on the right two round holes spaced slightly too far apart cannot both drop over the pins.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- left: hole + slot -->
+<rect x="30" y="80" width="340" height="250" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="55" y="120" width="290" height="170" rx="8" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="110" cy="205" r="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="110" cy="205" r="15" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="250" y="187" width="80" height="36" rx="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="281" cy="205" r="15" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="110" y1="205" x2="250" y2="205" stroke="#222" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="262" y1="250" x2="318" y2="250" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<!-- right: two round holes -->
+<rect x="430" y="80" width="340" height="250" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="455" y="120" width="300" height="170" rx="8" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="510" cy="205" r="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="510" cy="205" r="15" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<circle cx="704" cy="205" r="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="681" cy="205" r="15" fill="#fde2c4" fill-opacity="0.75" stroke="#222" stroke-width="3" stroke-dasharray="5 5"/>
+<path d="M674,240 L706,272 M706,240 L674,272" stroke="#222" stroke-width="5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">Hole + slot: fits</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Two round holes: jams</text>
+<text x="110" y="160">round hole</text>
+<text x="290" y="160">slot</text>
+<text x="290" y="278">pin can slide</text>
+<text x="200" y="360">hole fixes the place · slot only stops turning</text>
+<text x="510" y="160">hole</text>
+<text x="560" y="262">pin hits plate</text>
+<text x="690" y="160">hole</text>
+<text x="600" y="360">holes a little too far apart:</text>
+<text x="600" y="382">second pin cannot drop in</text>
+<text x="400" y="430">The slot points at the round hole, so the parts line up one way every time</text>
+</g>
+</svg>

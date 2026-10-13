@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together; closed, they resist a straight pull strongly but slide sideways easily; with a lip added, the lip takes the sideways load.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="top"><rect x="-70" y="-70" width="140" height="70" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="-22" y="-22" width="44" height="22" fill="#f5d0d0" stroke="#222" stroke-width="3"/></g>
+<g id="bot"><rect x="-70" y="0" width="140" height="70" fill="#d8f0d2" stroke="#222" stroke-width="3"/><rect x="-22" y="0" width="44" height="22" fill="#cfe3f5" stroke="#222" stroke-width="3"/></g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="390" stroke="#cccccc" stroke-width="2"/>
+<!-- apart -->
+<use href="#top" x="133" y="180"/>
+<use href="#bot" x="133" y="240"/>
+<line x1="100" y1="186" x2="100" y2="204" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="100" y1="234" x2="100" y2="216" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="166" y1="186" x2="166" y2="204" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="166" y1="234" x2="166" y2="216" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- closed -->
+<use href="#top" x="400" y="210"/>
+<use href="#bot" x="400" y="210"/>
+<line x1="400" y1="135" x2="400" y2="85" stroke="#d1495b" stroke-width="8" marker-end="url(#ah)"/>
+<line x1="476" y1="175" x2="506" y2="175" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/>
+<!-- with a lip -->
+<use href="#top" x="650" y="210"/>
+<polygon points="580,210 720,210 720,150 744,150 744,280 580,280" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<rect x="628" y="210" width="44" height="22" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="555" y1="175" x2="575" y2="175" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="133" y="40" font-size="21" font-weight="bold">Apart</text>
+<text x="400" y="40" font-size="21" font-weight="bold">Closed</text>
+<text x="667" y="40" font-size="21" font-weight="bold">With a lip</text>
+<text x="133" y="172" font-weight="bold">N</text>
+<text x="133" y="259" font-weight="bold">S</text>
+<text x="400" y="202" font-weight="bold">N</text>
+<text x="400" y="229" font-weight="bold">S</text>
+<text x="650" y="202" font-weight="bold">N</text>
+<text x="650" y="229" font-weight="bold">S</text>
+<text x="133" y="70">magnets in pockets</text>
+<text x="133" y="94">pull the parts shut</text>
+<text x="400" y="314">strong against a</text>
+<text x="400" y="336">straight pull, weak</text>
+<text x="400" y="358">when slid sideways</text>
+<text x="667" y="314">the lip takes the</text>
+<text x="667" y="336">sideways load</text>
+<text x="400" y="425">Magnets hold parts shut and line them up, but slide sideways easily</text>
+</g>
+</svg>

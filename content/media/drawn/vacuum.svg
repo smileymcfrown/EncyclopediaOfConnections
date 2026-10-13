@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the cup and the part drops away.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="pump">
+<rect x="-70" y="56" width="140" height="56" rx="6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="-12" y="112" width="24" height="94" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M-26,204 H26 L70,254 H-70 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<path d="M-14,216 H14 L48,254 H-48 Z" fill="#ffffff" stroke="#222" stroke-width="2"/>
+<rect x="-10" y="201" width="20" height="17" fill="#e8e8e8"/><line x1="-10" y1="204" x2="-10" y2="216" stroke="#222" stroke-width="2"/><line x1="10" y1="204" x2="10" y2="216" stroke="#222" stroke-width="2"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="30" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- left: holding -->
+<use href="#pump" transform="translate(200,0)"/>
+<rect x="100" y="254" width="200" height="26" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="200" y1="190" x2="200" y2="126" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="130" y1="330" x2="130" y2="290" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="200" y1="330" x2="200" y2="290" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="270" y1="330" x2="270" y2="290" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="102" y1="200" x2="128" y2="230" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="298" y1="200" x2="272" y2="230" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- right: valve open, part drops -->
+<use href="#pump" transform="translate(600,0)"/>
+<rect x="612" y="140" width="56" height="20" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="720" y1="150" x2="676" y2="150" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="600" y1="160" x2="600" y2="214" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="500" y="320" width="200" height="26" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="720" y1="272" x2="720" y2="318" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="21" font-weight="bold" text-anchor="middle">
+<text x="200" y="34">Holding</text>
+<text x="600" y="34">Letting go</text>
+</g>
+<text x="200" y="90" text-anchor="middle">vacuum pump</text>
+<text x="600" y="90" text-anchor="middle">vacuum pump</text>
+<text x="222" y="166">air pulled out</text>
+<text x="200" y="360" text-anchor="middle">outside air pushes cup</text>
+<text x="200" y="384" text-anchor="middle">and part together</text>
+<text x="684" y="136">valve opens</text>
+<text x="600" y="276" text-anchor="middle">soft cup</text>
+<text x="600" y="380" text-anchor="middle">air gets back in: part drops</text>
+<text x="400" y="430" text-anchor="middle">The pump only removes air; the air around does the holding</text>
+</g>
+</svg>

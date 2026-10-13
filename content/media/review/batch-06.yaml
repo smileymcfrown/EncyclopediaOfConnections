@@ -1,0 +1,200 @@
+# Picture review, batch 06 (sheets 26-31)
+
+# --- sheet26 ---
+standard-plug-and-socket-connector:
+  verdict: keep
+  reason: clear photo of real standard barrel and jack plugs
+staples-for-wood-and-fabric:
+  verdict: keep
+  reason: clear labelled drawing of the staple itself
+stopper-knots-and-cord-end-anchors:
+  verdict: keep
+  reason: clear drawing of a figure-eight stopper knot
+straight-line-linkages:
+  verdict: keep
+  reason: animated Watt's linkage shows the straight-line motion
+strain-wave-gear:
+  verdict: keep
+  reason: animation explains how the flexspline creeps round
+structural-acrylic-and-low-surface-energy-plastic-adhesives:
+  verdict: drawn
+  reason: the drop photos show the general idea of wetting, not the glue bonding PE or PP; new drawing compares glue beading up with LSE glue spreading and gripping
+suction-cup:
+  verdict: keep
+  reason: diagram shows why outside air pressure holds the cup on
+swashplate-and-wobble-plate:
+  verdict: keep
+  reason: animation shows the slanted plate pushing the rods in and out
+switchable-permanent-magnet:
+  verdict: keep
+  reason: schematic of the rotating magnet in its steel housing shows how it switches
+switching-valve:
+  verdict: keep
+  reason: cross-section shows the valve shut and open
+syringe-hydraulics:
+  verdict: swap
+  use: "File:Hydraulic transmission between two syringes.svg"
+  alt: Two syringes of different sizes joined by a liquid-filled tube, showing the small plunger moving a long way while the big one moves a short way with more force.
+  reason: current picture is a car jack; this shows the actual two-syringe setup and the force and distance trade
+strut-hub:
+  verdict: drawn
+  reason: in the playground-dome photo the hubs are tiny; Commons hub photos found were a stereo pair or loose hubs without struts; new drawing shows one hub with struts pushed in and a dome of hubs and struts
+
+# --- sheet27 ---
+syringe-pump:
+  verdict: keep
+  reason: clear photo of a syringe pump with the pusher block behind the plunger
+tab-and-slot-joint:
+  verdict: keep
+  reason: laser-cut box shows tabs passing through slots
+tamper-evident-breakaway-bridge:
+  verdict: drawn
+  reason: photo of a tethered cap does not show the thin bridges; new drawing shows the bridges whole, snapping, and the band left on the neck
+tamper-resistant-fasteners:
+  verdict: keep
+  reason: clear close-up of a one-way screw head
+taper-fit:
+  verdict: keep
+  reason: clear photo of a Morse-taper shank
+tapered-pipe-thread:
+  verdict: keep
+  reason: clear photo of a male pipe thread with sealing tape wound on, though the taper itself is not visible
+telescoping-tube-lever-lock:
+  verdict: keep
+  reason: close-up of a split clamp with an over-centre lever round a sliding tube
+telescoping-tube-twist-lock:
+  verdict: drawn
+  reason: collet animation is a related squeeze principle, not the pole lock; new drawing shows the cone swelling the plug inside the outer tube
+temporary-sheet-fastener:
+  verdict: keep
+  reason: clear photo of Clecos with jaws in and out
+tendon-driven-joint:
+  verdict: keep
+  reason: 3D-printed hand with visible strings shows a tendon-driven joint
+tensegrity:
+  verdict: keep
+  reason: animation of a three-strut tensegrity with struts held only by cables
+tensioning-and-adjustable-hitches:
+  verdict: swap
+  use: "File:Hitch-truckers-ABoK 1514-USCG.jpg"
+  alt: A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.
+  reason: current picture is an abstract pulley force diagram; this clear photo shows the actual knot (CC BY-SA 4.0)
+
+# --- sheet28 ---
+tesla-valve:
+  verdict: keep
+  reason: diagram of the looped channel in its easy and blocking directions
+thermal-actuators:
+  verdict: keep
+  reason: animation of a bimetal strip bending as it heats
+thread-locking-hardware:
+  verdict: keep
+  reason: clear photo of nylon-insert lock nuts
+threaded-rod-and-studs:
+  verdict: keep
+  reason: clear photo of threaded rod
+toggle-clamp:
+  verdict: keep
+  reason: animated toggle clamp opening and closing
+tongue-and-groove-joint:
+  verdict: keep
+  reason: clear section of a tongue fitting a groove
+tool-free-fasteners:
+  verdict: keep
+  reason: clear photo of wing nuts
+tripod-and-stand-screw-mount:
+  verdict: keep
+  reason: clear photo of a tripod screw with a fold-up ring
+tuned-mass-damper:
+  verdict: keep
+  reason: animation shows the hanging mass swinging against the building's sway
+turnbuckle:
+  verdict: keep
+  reason: clear photo of two turnbuckles with their threaded ends
+turntable-bearing:
+  verdict: keep
+  reason: clear photo of a slewing ring bearing
+twist-on-wire-connector:
+  verdict: keep
+  reason: clear photo of wire nuts showing the coil inside
+
+# --- sheet29 ---
+twisted-string-actuator:
+  verdict: drawn
+  reason: current diagram is tiny and the twist is hard to see; new drawing shows the strings at 0, 10 and 20 turns lifting the load
+two-part-epoxy:
+  verdict: keep
+  reason: clear photo of a double syringe of resin and hardener
+ultrasonic-weld:
+  verdict: drawn
+  reason: photo shows only the machine; new drawing shows the horn pressing the parts and the ridge melting into a seam
+universal-joint:
+  verdict: keep
+  reason: animation of the forks and cross turning
+uv-curing-adhesive:
+  verdict: keep
+  reason: photo of a UV glue kit with its small UV lamp
+vacuum-hold-down-table:
+  verdict: drawn
+  reason: photo of an old table is hard to read; new cut-away shows air sucked through the plate and room air pressing the sheet down
+vacuum:
+  verdict: drawn
+  reason: current picture is the plain suction-cup diagram (same as the suction-cup page) with no pump; new drawing shows the pump pulling air out and a valve letting it back in
+variable-radius-pulley:
+  verdict: keep
+  reason: labelled fusee and spring barrel, wound and unwound
+venturi-vacuum-generator:
+  verdict: keep
+  reason: labelled cross-section of the nozzle, side inlet and diffuser
+virtual-pivot-linkage:
+  verdict: keep
+  reason: animation of a hinge swinging about a point with no pin
+walking-linkage:
+  verdict: keep
+  reason: animation of a Jansen leg tracing its walking path
+wall-plug:
+  verdict: keep
+  reason: clear photo of plastic wall plugs and screws
+
+# --- sheet30 ---
+wave-and-disc-springs:
+  verdict: keep
+  reason: drawing of disc springs singly and in stacks
+weight-activated-gripping-tongs:
+  verdict: drawn
+  reason: lewis diagram shows only the pieces going into the hole, not how weight makes the grip; new drawing shows scissor tongs squeezing as the crane pulls, plus a lewis in its dovetail hole
+welded-metal-joint:
+  verdict: drawn
+  reason: joint-types diagram shows plate layouts with no weld; new drawing shows the bead in butt, lap and T joints and a torch leaving a bead behind
+whippletree:
+  verdict: keep
+  reason: sketch of linked bars sharing one load between three pullers
+wire-end-ferrule:
+  verdict: keep
+  reason: clear photo of ferrules, stripped wire ends and the crimping plier
+wire-rope-terminations:
+  verdict: keep
+  reason: clear photo of a rope loop round a thimble held by a crimped sleeve
+wire-to-board-plug-connectors:
+  verdict: keep
+  reason: clear photo of JST-XH board headers
+wire-wrap:
+  verdict: keep
+  reason: close-up of wires coiled round square posts
+wood-screw:
+  verdict: keep
+  reason: labelled drawing of a wood screw
+worm-drive:
+  verdict: keep
+  reason: animated worm turning a worm wheel
+woven-self-tightening-grip:
+  verdict: keep
+  reason: clear photo of woven finger traps
+wrap-spring-clutch:
+  verdict: keep
+  reason: diagram of the spring round the hub with free and engaged directions
+
+# --- sheet31 ---
+zipper:
+  verdict: keep
+  reason: animation of the slider meshing the two rows of teeth

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet under the lid and into the box wall, so pulling the lid presses across the bolt and needs no power; when open, the servo arm has swung back and pulled the bolt clear so the lid lifts.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="60" x2="400" y2="395" stroke="#cccccc" stroke-width="2"/>
+<g transform="translate(0,0)">
+<path d="M40,170 V360 H360 V170 H344 V344 H56 V170 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="344" y="204" width="9" height="12" fill="#ffffff" stroke="#222" stroke-width="2"/>
+<g transform="rotate(0 48 160)">
+<rect x="40" y="150" width="324" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M298,170 V230 H314 V170 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="298" y="203" width="16" height="14" fill="#ffffff" stroke="#222" stroke-width="2"/>
+</g>
+<circle cx="48" cy="160" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="48" cy="160" r="2" fill="#222"/>
+<rect x="250" y="196" width="26" height="28" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="263" y1="224" x2="263" y2="344" stroke="#222" stroke-width="3"/>
+<rect x="130" y="262" width="90" height="60" rx="5" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="150" y="322" width="12" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/><rect x="190" y="322" width="12" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<rect x="230" y="204" width="122" height="12" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="190" y1="262" x2="229.3" y2="234.5" stroke="#222" stroke-width="9"/><line x1="190" y1="262" x2="229.3" y2="234.5" stroke="#ffffff" stroke-width="4"/>
+<line x1="229.3" y1="234.5" x2="234" y2="210" stroke="#222" stroke-width="4"/>
+<circle cx="190" cy="262" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="190" cy="262" r="2" fill="#222"/>
+<circle cx="229.3" cy="234.5" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="229.3" cy="234.5" r="2" fill="#222"/>
+<circle cx="234" cy="210" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="234" cy="210" r="2" fill="#222"/>
+<line x1="330" y1="140" x2="330" y2="95" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g transform="translate(400,0)">
+<path d="M40,170 V360 H360 V170 H344 V344 H56 V170 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="344" y="204" width="9" height="12" fill="#ffffff" stroke="#222" stroke-width="2"/>
+<g transform="rotate(-14 48 160)">
+<rect x="40" y="150" width="324" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M298,170 V230 H314 V170 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="298" y="203" width="16" height="14" fill="#ffffff" stroke="#222" stroke-width="2"/>
+</g>
+<circle cx="48" cy="160" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="48" cy="160" r="2" fill="#222"/>
+<rect x="250" y="196" width="26" height="28" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="263" y1="224" x2="263" y2="344" stroke="#222" stroke-width="3"/>
+<rect x="130" y="262" width="90" height="60" rx="5" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="150" y="322" width="12" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/><rect x="190" y="322" width="12" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<rect x="175" y="204" width="117" height="12" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="190" y1="262" x2="153.2" y2="231.1" stroke="#222" stroke-width="9"/><line x1="190" y1="262" x2="153.2" y2="231.1" stroke="#ffffff" stroke-width="4"/>
+<line x1="153.2" y1="231.1" x2="179" y2="210" stroke="#222" stroke-width="4"/>
+<circle cx="190" cy="262" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="190" cy="262" r="2" fill="#222"/>
+<circle cx="153.2" cy="231.1" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="153.2" cy="231.1" r="2" fill="#222"/>
+<circle cx="179" cy="210" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="179" cy="210" r="2" fill="#222"/>
+<line x1="330" y1="110" x2="342" y2="62" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M150,207 A50,50 0 0 0 132,257" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="168" y1="190" x2="128" y2="190" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+</g>
+<line x1="308" y1="275" x2="306" y2="234" stroke="#222" stroke-width="2"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="200" y="40" font-size="20" text-anchor="middle" font-weight="bold">Locked</text>
+<text x="600" y="40" font-size="20" text-anchor="middle" font-weight="bold">Open</text>
+<text x="175" y="298" font-size="18" text-anchor="middle">servo</text>
+<text x="240" y="192" font-size="18" text-anchor="end">bolt</text>
+<text x="268" y="92" font-size="18" text-anchor="end">lid pulled up</text>
+<text x="200" y="385" font-size="18" text-anchor="middle">the pull presses across the bolt:</text>
+<text x="200" y="407" font-size="18" text-anchor="middle">it holds with the power off</text>
+<text x="570" y="92" font-size="18" text-anchor="middle">lid lifts</text>
+<text x="600" y="385" font-size="18" text-anchor="middle">servo turns back and</text>
+<text x="600" y="407" font-size="18" text-anchor="middle">pulls the bolt clear</text>
+<text x="312" y="292" font-size="18" text-anchor="middle">eyelet</text>
+</g>
+</svg>

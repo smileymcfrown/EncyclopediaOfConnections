@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge turns straight off the printer.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round">
+<polygon points="126,60 674,60 674,168 562,168 562,191 522,225 562,259 562,270 462,270 462,259 502,225 462,191 462,168 338,168 338,191 298,225 338,259 338,270 238,270 238,259 278,225 238,191 238,168 126,168" fill="#fde2c4"/>
+<polygon points="126,370 126,180 226,180 226,203 254,225 226,247 226,282 350,282 350,247 322,225 350,203 350,180 450,180 450,203 478,225 450,247 450,282 574,282 574,247 546,225 574,203 574,180 674,180 674,370" fill="#cfe3f5"/>
+<line x1="70" y1="225" x2="730" y2="225" stroke="#222" stroke-width="1.5" stroke-dasharray="14 5 3 5"/>
+<line x1="512" y1="128" x2="512" y2="212" stroke="#222" stroke-width="1.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="400" y="45">leaf B</text>
+<text x="400" y="345">leaf A</text>
+<text x="176" y="264">knuckle</text>
+<text x="400" y="264">cone pins</text>
+<text x="512" y="120">cone sockets</text>
+<text x="62" y="212">hinge</text>
+<text x="62" y="250">line</text>
+<line x1="694" y1="174" x2="644" y2="174" stroke="#222" stroke-width="1.5"/>
+<text x="698" y="154" text-anchor="start">gap</text><text x="698" y="176" text-anchor="start">0.3 mm</text>
+<text x="400" y="405">Printed in one piece: the gap stops the parts fusing,</text>
+<text x="400" y="430">and the cone pins print without support yet keep the leaves together</text>
+</g></svg>

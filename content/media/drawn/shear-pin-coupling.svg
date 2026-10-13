@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft spins freely inside the stopped hub until a new pin is fitted.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="60" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="150" y="130" width="100" height="190" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="156" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="181" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="206" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="231" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="156" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="181" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="206" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="231" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="50" y="200" width="300" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="192,140 192,194 196,200 192,206 192,244 196,250 192,256 192,310 208,310 208,256 204,250 208,244 208,206 204,200 208,194 208,140" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<path d="M30,195 A14,30 0 0 0 30,255" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M280,100 A60,20 0 0 1 320,130" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="550" y="130" width="100" height="190" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="556" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="581" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="606" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="631" y="114" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="556" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="581" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="606" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="631" y="320" width="14" height="16" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="450" y="200" width="300" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="580" y="96" width="90" height="18" fill="#e8e8e8" stroke="#222" stroke-width="2"/><g stroke="#222" stroke-width="1.5"><line x1="584" y1="114" x2="600" y2="98"/><line x1="596" y1="114" x2="612" y2="98"/><line x1="608" y1="114" x2="624" y2="98"/><line x1="620" y1="114" x2="636" y2="98"/><line x1="632" y1="114" x2="648" y2="98"/><line x1="644" y1="114" x2="660" y2="98"/></g>
+<polygon points="592,140 592,197 608,197 608,140" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<polygon points="592,253 592,310 608,310 608,253" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<g transform="rotate(28 600 225)"><polygon points="595,203 605,203 608,210 608,240 605,247 595,247 592,240 592,210" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/></g>
+<path d="M430,195 A14,30 0 0 0 430,255" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="200" y="40" font-size="20" text-anchor="middle" font-weight="bold">Normal: pin drives the gear</text>
+<text x="600" y="40" font-size="20" text-anchor="middle" font-weight="bold">Jammed: pin snaps</text>
+<text x="60" y="290" font-size="18" text-anchor="middle">shaft</text>
+<text x="200" y="370" font-size="18" text-anchor="middle">gear hub</text>
+<text x="260" y="162" font-size="18">shear pin</text>
+<text x="260" y="184" font-size="18">(necked)</text>
+<text x="330" y="96" font-size="18" text-anchor="middle">gear turns</text>
+<text x="600" y="86" font-size="18" text-anchor="middle">jammed</text>
+<text x="660" y="162" font-size="18">pin breaks at</text>
+<text x="660" y="184" font-size="18">its necks</text>
+<text x="420" y="290" font-size="18">shaft</text>
+<text x="420" y="312" font-size="18">spins free</text>
+<text x="400" y="430" font-size="18" text-anchor="middle" font-weight="bold">Knock out the pieces and fit a new pin · the gears and motor are saved</text>
+</g>
+</svg>

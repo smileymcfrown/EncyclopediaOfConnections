@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held by the bead, so the bridges snap; then the cap gone and the broken band left on the neck as a sign it has been opened.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="neck"><path d="M-36,150 H36 V268 L46,276 L36,284 V350 Q36,370 70,390 V410 H-70 V390 Q-36,370 -36,350 V284 L-46,276 L-36,268 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M-36,170 l7,6 l-7,6 M-36,196 l7,6 l-7,6 M-36,222 l7,6 l-7,6 M36,183 l-7,6 l7,6 M36,209 l-7,6 l7,6 M36,235 l-7,6 l7,6" fill="none" stroke="#222" stroke-width="2"/></g>
+<g id="cap"><path d="M-54,128 H54 V250 H42 V142 H-42 V250 H-54 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<g id="band"><path d="M-54,262 H-44 V284 L-38,292 H-54 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M54,262 H44 V284 L38,292 H54 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="40" x2="267" y2="410" stroke="#cccccc" stroke-width="2"/><line x1="534" y1="40" x2="534" y2="410" stroke="#cccccc" stroke-width="2"/>
+<g transform="translate(133,0)"><use href="#neck"/><use href="#cap"/><use href="#band"/>
+<rect x="-52" y="250" width="5" height="12" fill="#fde2c4" stroke="#222" stroke-width="2"/><rect x="47" y="250" width="5" height="12" fill="#fde2c4" stroke="#222" stroke-width="2"/></g>
+<g transform="translate(400,0)"><use href="#neck"/><use href="#cap" transform="translate(0,-16)"/><use href="#band"/>
+<path d="M-52,234 V240 L-49,243 L-47,239 V234 M47,234 V240 L50,243 L52,239 V234" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+<path d="M-52,262 V256 L-49,253 L-47,257 V262 M47,262 V256 L50,253 L52,257 V262" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+<path d="M-60,100 A60,14 0 0 0 60,100" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="-80" y1="236" x2="-80" y2="186" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g>
+<g transform="translate(667,0)"><use href="#neck"/><use href="#band"/>
+<path d="M-52,262 V256 L-49,253 L-47,257 V262 M47,262 V256 L50,253 L52,257 V262" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold"><text x="133" y="36">1. New</text><text x="400" y="36">2. Unscrew</text><text x="667" y="36">3. Opened</text></g>
+<text x="196" y="160" text-anchor="start">cap</text>
+<text x="133" y="76">thin bridges</text><line x1="110" y1="84" x2="83" y2="248" stroke="#222" stroke-width="2"/>
+<text x="133" y="436">band hooked under bead</text>
+<text x="400" y="74">cap rises as it turns</text>
+<text x="400" y="436">band is held, bridges snap</text>
+<text x="667" y="436">band left behind: opened</text>
+</g></svg>

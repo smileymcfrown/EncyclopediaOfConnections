@@ -1,0 +1,114 @@
+# Picture review, batch 04 (sheets 16-20)
+# sheet16
+lever-cam-panel-connector:
+  verdict: keep
+  reason: see-through drawing of the actual connector halves with the cam lever inside
+lid-and-flap-stays:
+  verdict: drawn
+  reason: old patent drawing is faint and mostly text; drawn folding (over-centre) and friction stays instead
+linear-guides:
+  verdict: keep
+  reason: animation of a carriage sliding on round guide rods
+linear-ratchet:
+  verdict: keep
+  reason: animation shows the rack moving one way while the pawl clicks and blocks it going back
+living-hinge:
+  verdict: keep
+  reason: clear photo of a mint box with its thin plastic hinge
+load-bearing-stitch-patterns-for-straps-and-webbing:
+  verdict: drawn
+  reason: close-up of two bar tacks on cloth shows neither webbing nor the stitch patterns; drawn four patterns on straps round a ring
+locating-pins-and-hole-and-slot:
+  verdict: drawn
+  reason: a lone dowel pin does not show the hole-and-slot idea; drawn hole + slot fitting vs two round holes jamming
+locking-adjustment-screws:
+  verdict: keep
+  reason: labelled photo of a mirror mount with its adjustment screw, spring and ball
+magnet-joint:
+  verdict: drawn
+  reason: a taken-apart cabinet catch is hard to read; drawn blocks with magnets apart, closed, and with a lip for sideways load
+magnetic-connector:
+  verdict: keep
+  reason: clear photo of a MagSafe plug and socket
+magnetic-coupling-and-magnetic-gear:
+  verdict: keep
+  reason: cross-section of a magnetic gear's magnet rings and pole pieces
+mechanical-interlock:
+  verdict: keep
+  reason: clear photo of a real trapped-key interlock on a cabinet door
+# sheet17
+melted-plastic-weld:
+  verdict: keep
+  reason: photo of hot-air welding with a speed-tip shoe feeding plastic rod onto a pipe
+metal-brackets-and-plates:
+  verdict: keep
+  reason: drawing of flat and L brackets screwed across a corner joint
+modular-grid-mounting-systems:
+  verdict: swap
+  use: "File:Gridfinity drawer and bin.jpg"
+  alt: A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.
+  reason: bare pegboard shows only holes; the Gridfinity photo shows the grid and a module placed on it
+mortise-and-tenon:
+  verdict: keep
+  reason: exploded diagram of the tenon and the mortise it fits into
+multi-point-bolt:
+  verdict: keep
+  reason: back of a crémone gearbox shows the knob's pinion driving the up and down rods
+multi-turn-rotation-limiter:
+  verdict: drawn
+  reason: old lettered clock stop-work drawing is a variant covered under Geneva drive; drawn the travelling-nut limiter
+nails-brads-and-tacks:
+  verdict: keep
+  reason: clear photo of several nail types side by side
+non-circular-gears:
+  verdict: drawn
+  reason: in the animation the gears are small beside a linkage; drawn a large meshing pair of oval gears with long and short reach
+o-ring-seal:
+  verdict: keep
+  reason: cross-section of an O-ring squeezed in its groove between two parts
+oldham-coupling:
+  verdict: keep
+  reason: animation of the middle disc sliding in the two hub slots
+ordinary-screw-joint:
+  verdict: keep
+  reason: cross-section of two plates clamped by a bolt, washer and nut
+origami-mechanisms:
+  verdict: keep
+  reason: animation of a Miura-ori sheet folding and unfolding in one motion
+# sheet18
+over-centre-linkage:
+  verdict: drawn
+  reason: the press-model photo shows the toggle but not the stop that makes it lock; the existing drawn over-centre-linkage.svg (bent, straight, past-centre on a stop) explains it better
+parallel-leaf-spring-flexure:
+  verdict: drawn
+  reason: close-up of a balance flexure is hard to read; drawn a platform on two parallel blades at rest and pushed sideways
+parallel-pipe-thread-with-a-sealing-washer:
+  verdict: drawn
+  reason: tap photo shows the thread but not the washer that does the sealing; drawn a cut-away hose nut with the squashed washer
+peristaltic-pump:
+  verdict: keep
+  reason: animation of rollers squeezing the tube and pushing liquid along
+pin-tumbler-lock:
+  verdict: keep
+  reason: cut-away of the pins blocking the plug at the shear line
+plain-pivot-and-rolling-bearing:
+  verdict: keep
+  reason: animation of balls rolling between the bearing rings
+planetary-gear-set:
+  verdict: keep
+  reason: animation of sun, planets, carrier and ring turning
+pneumatic-artificial-muscle:
+  verdict: keep
+  reason: animation of a braided air muscle shortening and fattening as it inflates
+pogo-pin:
+  verdict: keep
+  reason: cut-away of the plunger, barrel and spring
+pole-lashings:
+  verdict: keep
+  reason: clear photo of a square lashing on two poles
+polyurethane-glue:
+  verdict: drawn
+  reason: photo of a broken test block does not show the glue or how it cures; drawn a tight joint vs a gappy foamed joint
+posable-segmented-arm:
+  verdict: drawn
+  reason: gooseneck spiral diagram is a different construction and abstract; drawn a cut-away chain of hollow ball-and-socket segments

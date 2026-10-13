@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Four side views of glued joints: a lap joint pulled along its length shares the load over the whole glue line, a flexible strip peeled up and two blocks levered apart put all the load on one edge of the glue, and a long slanted scarf joint gives a big glue area loaded by sliding.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round" stroke="#222" stroke-width="3">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<line x1="20" y1="210" x2="780" y2="210" stroke="#cccccc" stroke-width="2"/>
+<!-- shear -->
+<rect x="60" y="135" width="190" height="18" fill="#cfe3f5"/>
+<rect x="150" y="127" width="100" height="8" fill="#fde2c4" stroke-width="2"/>
+<rect x="150" y="109" width="190" height="18" fill="#d8f0d2"/>
+<line x1="58" y1="144" x2="22" y2="144" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="342" y1="118" x2="380" y2="118" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- peel -->
+<rect x="440" y="150" width="330" height="20" fill="#e8e8e8"/>
+<rect x="540" y="142" width="230" height="8" fill="#fde2c4" stroke-width="2"/>
+<path d="M770,134 L540,134 Q500,134 472,82 L462,88 Q494,142 540,142 L770,142 Z" fill="#d8f0d2"/>
+<rect x="536" y="140" width="12" height="12" fill="#d1495b" stroke-width="2"/>
+<line x1="462" y1="78" x2="446" y2="50" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- cleavage -->
+<rect x="60" y="282" width="280" height="30" fill="#d8f0d2"/>
+<rect x="60" y="312" width="280" height="8" fill="#fde2c4" stroke-width="2"/>
+<rect x="60" y="320" width="280" height="30" fill="#cfe3f5"/>
+<rect x="60" y="310" width="12" height="12" fill="#d1495b" stroke-width="2"/>
+<line x1="80" y1="278" x2="80" y2="245" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="80" y1="354" x2="80" y2="385" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- scarf -->
+<polygon points="440,290 680,290 520,320 440,320" fill="#cfe3f5"/>
+<polygon points="680,290 760,290 760,320 520,320" fill="#d8f0d2"/>
+<polygon points="668,290 692,290 532,320 508,320" fill="#fde2c4" stroke-width="2"/>
+<line x1="438" y1="305" x2="410" y2="305" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="762" y1="305" x2="790" y2="305" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="200" y="50">Sliding (shear): strong</text>
+<text x="620" y="50">Peel: weak</text>
+<text x="200" y="240">Levered open: weak</text>
+<text x="600" y="240">Long slant (scarf): strong</text>
+</g>
+<text x="200" y="185">the whole glue line shares the load</text>
+<text x="620" y="105">like lifting tape</text>
+<text x="600" y="190">all the load hits this edge</text>
+<text x="240" y="375">only this end does the work</text>
+<text x="600" y="360">big glue area, all sliding</text>
+<text x="400" y="435">Shape joints so the glue slides or is squeezed, never peeled</text>
+</g>
+</svg>
