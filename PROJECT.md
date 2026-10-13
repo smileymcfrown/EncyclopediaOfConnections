@@ -5,8 +5,8 @@
 > **Every working session should read this first and update it before finishing.**
 
 **Last updated:** 2026-10-03
-**Current phase:** The Beta is live at https://smileymcfrown.github.io/EncyclopediaOfConnections/ (2026-10-13). Phases 0-3 are done: 409 entries in 31 families, the guided finder, glossary, ⚑ needs-confirming marks with correction links, licences, issue forms and CI. Publishing is by hand (Actions → *Deploy site*)
-**Next action:** Owner: merge the R29 PR, then run *Deploy site*. Claude: move the remaining finder answers to the finder tags (Phase 2); then more drawn diagrams (a how-it-works drawing for entries whose Commons picture is a photo, Phase 4)
+**Current phase:** The Beta is live at https://smileymcfrown.github.io/EncyclopediaOfConnections/ (2026-10-13). Phases 0-3 are done: 409 entries in 31 families, the guided finder, glossary, ⚑ needs-confirming marks with correction links, licences, issue forms and CI. Every entry has a picture, reviewed for whether it explains the entry (R30): 283 from Wikimedia Commons (56 of them animations that play by themselves) and 126 drawn diagrams. Publishing is by hand (Actions → *Deploy site*)
+**Next action:** Owner: merge the R30 PR, then Actions → *Deploy site* → **Run workflow** (not *Re-run*, which deploys the old commit). Optionally say whether *Deploy site* should run by itself on every merge. Claude: the ⚑ pictures in `content/media/review/README.md`; move the remaining finder answers to the finder tags (Phase 2)
 
 ---
 
@@ -265,7 +265,7 @@ a working decision: say "change D3" (or similar) to revise it.
 
 ### Phase 4 — Diagrams & animations
 - [ ] Simple diagrams (SVG) for each entry, starting from each entry's `diagram_idea` (P8) (started 2026-10-13: 48 drawn for entries with no copyable picture, `content/media/drawn/`; every entry has a picture, R29; 78 more drawn where the Commons picture didn't explain the entry, R30, so 126 in all)
-- [ ] Animations for moving connections (hinges, linkages, compliant mechanisms, …): CSS/SMIL on SVG, or OpenSCAD frames as WebM/MP4
+- [ ] Animations for moving connections (hinges, linkages, compliant mechanisms, …): CSS/SMIL on SVG, or OpenSCAD frames as WebM/MP4 (started 2026-10-13: the 56 animated Commons pictures now play, as animated WebP, R30)
 
 ---
 
@@ -320,3 +320,4 @@ a working decision: say "change D3" (or similar) to revise it.
 | 2026-10-13 | R27: the owner accepted all 26 decisions. Created the three issue labels. Pages could not be switched on: the owner was in the account settings rather than the repository's, and the repository is private, which needs a paid plan for Pages. Next action updated with both routes |
 | 2026-10-13 | R28: the owner merged PR #12, made the repository public and ran *Deploy site*. Claude checked the run (build and deploy succeeded) and the live site: home, finder, an entry page, glossary, finder data, scripts, styles and search all return 200. Roadmap: hosting ticked |
 | 2026-10-13 | R29 in this session. **Finder:** tick steps for joining two different materials (glues that bond every ticked material) or two kinds of part (joints made for that mix, then ones that join anything, folded); the panel's groups no longer grey out each other's options. Tested in a browser (PLA + wood gives 4 glues; print + boards gives 3 made for the mix plus 45 general). **Pictures:** `tools/fetch_images.py` checks each Commons file's licence on Commons and copies a web-sized WebP with its credit. Wikimedia blocks this cloud machine after a few files, so it runs as the *Fetch pictures* GitHub workflow, which copied 361 pictures (12 MB). Nine helper agents drew 48 SVG diagrams for the rest, in one house style, checked by rendering. Each page shows its picture first, with the credit or a ⚑ note; finder cards show it too. The usage limit stopped the first agents once; they were relaunched |
+| 2026-10-13 | R30 in this session. Contact sheets of all 361 copied pictures, 12 per sheet, each picture beside its entry's name and summary; six helper agents gave each a verdict (keep / swap / drawn) with a reason, searched Commons for better copyable files where Wikimedia's rate limit allowed, and drew 78 new SVG diagrams, each checked by rendering. Totals: 257 kept, 26 swapped, 78 drawn (D31). The swaps and drawn choices went into `content/media/choices.yaml` (D32). The animation problem: `fetch_images.py` saved only the first frame of each GIF; it now saves animated WebP from the original file and marks it `animated` (D33). Two workflow runs failed on bugs in that change (a missing return value; GIF frames of different sizes) and were fixed; the third copied everything. Claude checked all 26 swapped pictures and a sample of the new drawings by eye, and in a browser that animations play and the owner's two example pages show the new pictures. 37 MB of pictures in all |
