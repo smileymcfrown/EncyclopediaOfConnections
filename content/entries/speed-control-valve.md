@@ -140,22 +140,17 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Needle_valve.jpg
 research: research/connection-types/results/Speedcontrol_valve_flow_control_valve_needle_valve.json
 image:
-  file: speed-control-valve.webp
-  width: 450
-  height: 300
-  title: File:QEV.gif
-  author: Masterjoa3000
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:QEV.gif
-  alt: 'Animation of how a quick exhaust valve works (file description, in French: ''Fonctionnement d''une Quick Exhaust Valve'')'
-  drawn: false
+  file: drawn/speed-control-valve.svg
+  alt: 'A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes
+    the one-way check valve open and flows in freely; on the outlet side the check valve is pushed shut, so the escaping air
+    must squeeze past an adjustable needle, which sets how fast the piston moves.'
+  drawn: true
 glossary: [stroke, actuator, solenoid, stick-slip, tolerance, repeatability--accuracy, infill, check-valve, regulator]
 ---
 
-![Animation of how a quick exhaust valve works (file description, in French: 'Fonctionnement d'une Quick Exhaust Valve')](../media/speed-control-valve.webp)
+![A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes the one-way check valve open and flows in freely; on the outlet side the check valv](../media/drawn/speed-control-valve.svg)
 
-*Picture: [QEV.gif](https://commons.wikimedia.org/wiki/File:QEV.gif) by Masterjoa3000, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A needle valve and a one-way [check valve](../glossary.md#check-valve) in one small body: air or oil going one way must squeeze through a narrow gap that you set with a screw, which slows the cylinder, while flow the other way bypasses the gap, so each [stroke](../glossary.md#stroke)'s speed can be set separately without reducing the cylinder's force.
 

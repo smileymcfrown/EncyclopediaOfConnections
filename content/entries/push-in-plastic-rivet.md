@@ -127,22 +127,17 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushin_plastic_rivet_firtree_clip_push_rivet.json
 image:
-  file: push-in-plastic-rivet.webp
-  width: 800
-  height: 1067
-  title: File:Plastic bodywork rivet pulling pliers.jpg
-  author: Andy Dingley
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Plastic_bodywork_rivet_pulling_pliers.jpg
-  alt: Photo of the hand tool made for releasing and removing the plastic rivets used on car bodywork
-  drawn: false
+  file: drawn/push-in-plastic-rivet.svg
+  alt: 'Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and
+    after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled
+    fins fold in going through the hole and spring out behind it.'
+  drawn: true
 glossary: [ratchet, cantilever, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Photo of the hand tool made for releasing and removing the plastic rivets used on car bodywork](../media/push-in-plastic-rivet.webp)
+![Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and after its centre pin is pushed flush, which spreads its split legs behind the sheet,](../media/drawn/push-in-plastic-rivet.svg)
 
-*Picture: [Plastic bodywork rivet pulling pliers.jpg](https://commons.wikimedia.org/wiki/File:Plastic_bodywork_rivet_pulling_pliers.jpg) by Andy Dingley, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A plastic pin that you push into a plain hole from one side, where springy fins or spreading legs grip behind or inside the hole, so panels and trim can be fixed in seconds without screws, nuts or tools.
 

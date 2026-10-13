@@ -135,23 +135,17 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_brake_band_drum_or_disc_brake.json
 image:
-  file: friction-brake.webp
-  width: 624
-  height: 451
-  title: File:Band brake.png
-  author: SIDDHARTHSB.MECH
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Band_brake.png
-  alt: 'Diagram of a band brake: a band wrapped round a drum, tightened by a lever'
-  drawn: false
+  file: drawn/friction-brake.svg
+  alt: 'Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the
+    inside of a spinning drum, and a band wrapped round a drum with one end anchored and the other pulled tight by a lever.'
+  drawn: true
 glossary: [self-locking, ratchet, pawl, freewheel, sprag, torque, lever-arm, linkage, solenoid, clearance, form-fit--force-fit--material-bond,
   creep, o-ring]
 ---
 
-![Diagram of a band brake: a band wrapped round a drum, tightened by a lever](../media/friction-brake.webp)
+![Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the inside of a spinning drum, and a band wrapped round a drum with one end anchored an](../media/drawn/friction-brake.svg)
 
-*Picture: [Band brake.png](https://commons.wikimedia.org/wiki/File:Band_brake.png) by SIDDHARTHSB.MECH, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A device that presses friction material (pads, shoes or a band) against a rotating disc or drum, turning the motion into heat so the part slows down, stops or is held still (Wikipedia, Brake).
 

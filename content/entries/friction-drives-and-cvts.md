@@ -142,23 +142,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_drives_and_CVTs_friction_wheel_variator.json
 image:
-  file: friction-drives-and-cvts.webp
-  width: 800
-  height: 1202
-  title: File:TEZ-Reibradgetriebe 7271.JPG
-  author: Karl Gruber
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG
-  alt: Photo of a friction-wheel transmission (Reibradgetriebe) on a textile machine at the Textilzentrum Haslach, Austria
-  drawn: false
+  file: drawn/friction-drives-and-cvts.svg
+  alt: 'A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards
+    the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view
+    shows a spring pressing the wheel onto the disc.'
+  drawn: true
 glossary: [misalignment, backlash, freewheel, torque, idler, form-fit--force-fit--material-bond, set-screw, creep, fatigue,
   layer-lines, cure, o-ring]
 ---
 
-![Photo of a friction-wheel transmission (Reibradgetriebe) on a textile machine at the Textilzentrum Haslach, Austria](../media/friction-drives-and-cvts.webp)
+![A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards the rim makes it turn fast, near the centre slowly, at the centre not at all and pas](../media/drawn/friction-drives-and-cvts.svg)
 
-*Picture: [TEZ-Reibradgetriebe 7271.JPG](https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG) by Karl Gruber, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A wheel or roller pressed against a wheel, disc, cone, ring or ball passes on rotation purely by friction, so it is smooth, quiet and free of play ([backlash](../glossary.md#backlash)), slips instead of breaking when overloaded and, when the contact point can be moved across a disc or cone, gives a smoothly variable speed ratio (a continuously variable transmission).
 

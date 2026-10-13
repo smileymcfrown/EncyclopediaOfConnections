@@ -133,24 +133,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Servo_or_motorised_latch.json
 image:
-  file: servo-or-motorised-latch.webp
-  width: 800
-  height: 533
-  title: File:Exploded Servo.jpg
-  author: oomlout
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
-  source: https://commons.wikimedia.org/wiki/File:Exploded_Servo.jpg
-  alt: A hobby servo taken apart, showing the motor, gear train, potentiometer and circuit board that let it turn to a set
-    angle
-  drawn: false
+  file: drawn/servo-or-motorised-latch.svg
+  alt: 'Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet
+    under the lid and into the box wall, so pulling the lid presses across the bolt and needs no power; when open, the servo
+    arm has swung back and pulled the bolt clear so the lid lifts.'
+  drawn: true
 glossary: [misalignment, back-driving, self-locking, stroke, dead-point, over-centre, torque, linkage, actuator, solenoid,
   fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, peel-vs-shear]
 ---
 
-![A hobby servo taken apart, showing the motor, gear train, potentiometer and circuit board that let it turn to a set angle](../media/servo-or-motorised-latch.webp)
+![Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet under the lid and into the box wall, so pulling the lid presses across the bolt and ](../media/drawn/servo-or-motorised-latch.svg)
 
-*Picture: [Exploded Servo.jpg](https://commons.wikimedia.org/wiki/File:Exploded_Servo.jpg) by oomlout, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A small electric motor, usually a hobby servo, turns a cam, arm or hook that pushes a bolt into a catch (keeper) or pulls it out, so a microcontroller can lock or unlock something, and because the load pushes across the bolt rather than along it, the lock stays shut with no power.
 

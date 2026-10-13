@@ -125,22 +125,17 @@ sources:
 - https://www.cnckitchen.com/blog/tips-and-tricks-for-heat-set-inserts
 research: research/connection-types/results/Captive_nut_pocket_nut_trap.json
 image:
-  file: captive-nut-pocket.webp
-  width: 800
-  height: 533
-  title: File:Hexagon nuts.jpg
-  author: Oytun 73
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Hexagon_nuts.jpg
-  alt: Photo of a pile of hex nuts, showing the flats that a hex pocket grips
-  drawn: false
+  file: drawn/captive-nut-pocket.svg
+  alt: 'Captive nut pocket: on the left a cut-away of a printed block with a bolt passing down through a hole into a hex nut
+    sitting in a pocket in the bottom face, so tightening pulls the nut up against solid plastic; on the right the view from
+    below, where the hexagonal pocket is just bigger than the nut, so its flat sides stop it turning.'
+  drawn: true
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, creep, overhang--bridging]
 ---
 
-![Photo of a pile of hex nuts, showing the flats that a hex pocket grips](../media/captive-nut-pocket.webp)
+![Captive nut pocket: on the left a cut-away of a printed block with a bolt passing down through a hole into a hex nut sitting in a pocket in the bottom face, so tightening pulls the nut up against soli](../media/drawn/captive-nut-pocket.svg)
 
-*Picture: [Hexagon nuts.jpg](https://commons.wikimedia.org/wiki/File:Hexagon_nuts.jpg) by Oytun 73, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hexagonal or square pocket shaped to hold a standard nut so it can't spin, giving a printed part a strong metal thread for a bolt at almost no cost.
 

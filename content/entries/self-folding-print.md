@@ -128,22 +128,17 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selffolding_print_4D_printing.json
 image:
-  file: self-folding-print.webp
-  width: 500
-  height: 281
-  title: File:4d printing - Mobile.gif
-  author: Matthew Young
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  source: https://commons.wikimedia.org/wiki/File:4d_printing_-_Mobile.gif
-  alt: Animation of a 4D-printed object changing shape in reaction to water, used on the Wikipedia article 4D printing
-  drawn: false
+  file: drawn/self-folding-print.svg
+  alt: 'Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA
+    layer on a TPU layer) printed on the bed, the strip dropped into hot water where the PLA layer shrinks, and the strip
+    folded up into a U shape that it keeps after cooling.'
+  drawn: true
 glossary: [bistable, actuator, compliant-mechanism, living-hinge, form-fit--force-fit--material-bond, print-in-place, peel-vs-shear]
 ---
 
-![Animation of a 4D-printed object changing shape in reaction to water, used on the Wikipedia article 4D printing](../media/self-folding-print.webp)
+![Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA layer on a TPU layer) printed on the bed, the strip dropped into hot water where the ](../media/drawn/self-folding-print.svg)
 
-*Picture: [4d printing - Mobile.gif](https://commons.wikimedia.org/wiki/File:4d_printing_-_Mobile.gif) by Matthew Young, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A print made flat on the bed that bends its own hinges into a planned 3D shape when triggered by heat or water, then stays in that shape.
 

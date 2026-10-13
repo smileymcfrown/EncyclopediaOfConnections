@@ -134,23 +134,17 @@ sources:
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
 research: research/connection-types/results/Antitwister_mechanism_twistfree_cable_feed.json
 image:
-  file: anti-twister-mechanism.webp
-  width: 256
-  height: 256
-  title: File:Belt Trick.gif
-  author: JasonHise
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Belt_Trick.gif
-  alt: Animation of a cube spinning continuously while tethered by several belts that never twist or tangle, the principle
-    of the anti-twister
-  drawn: false
+  file: drawn/anti-twister-mechanism.svg
+  alt: 'Side view of an anti-twister: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back
+    in to a spinning platform on the same axis; the carrier turns at half the platform''s speed, so the cable is only bent
+    and never twisted.'
+  drawn: true
 glossary: [backlash, idler, linkage, flexure, clearance, form-fit--force-fit--material-bond, fatigue, print-in-place]
 ---
 
-![Animation of a cube spinning continuously while tethered by several belts that never twist or tangle, the principle of the anti-twister](../media/anti-twister-mechanism.webp)
+![Side view of an anti-twister: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back in to a spinning platform on the same axis; the carrier turns at half the platform'](../media/drawn/anti-twister-mechanism.svg)
 
-*Picture: [Belt Trick.gif](https://commons.wikimedia.org/wiki/File:Belt_Trick.gif) by JasonHise, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 An anti-twister passes a continuous cable or tube from a fixed base to a part that keeps spinning, by swinging the cable's loop round the axis at exactly half the part's speed, so the cable only bends and never builds up twist, and no slip ring or rotating seal is needed.
 

@@ -117,23 +117,17 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 research: research/connection-types/results/Cable_through_a_hinge_hollow_hinge_pin_cable_on_the_pivot_axis_service_loop.json
 image:
-  file: cable-through-a-hinge.webp
-  width: 800
-  height: 600
-  title: File:EPAS power steering column.jpg
-  author: Samf4u
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:EPAS_power_steering_column.jpg
-  alt: A car steering column; Wikipedia's 'Clockspring' article captions the small black drum with yellow wires at the front
-    end as the clockspring
-  drawn: false
+  file: drawn/cable-through-a-hinge.svg
+  alt: 'Two ways to take a cable across a box lid''s hinge: on the left the cable runs through the hollow hinge pin between
+    a clamp on each side, so opening the lid only twists it; on the right a slack loop of cable between a clamp on the box
+    and a clamp on the lid bends as the lid opens.'
+  drawn: true
 glossary: [torque, actuator, torsion, form-fit--force-fit--material-bond, chamfer--fillet, fatigue, print-in-place, gland]
 ---
 
-![A car steering column; Wikipedia's 'Clockspring' article captions the small black drum with yellow wires at the front end as the clockspring](../media/cable-through-a-hinge.webp)
+![Two ways to take a cable across a box lid's hinge: on the left the cable runs through the hollow hinge pin between a clamp on each side, so opening the lid only twists it; on the right a slack loop of](../media/drawn/cable-through-a-hinge.svg)
 
-*Picture: [EPAS power steering column.jpg](https://commons.wikimedia.org/wiki/File:EPAS_power_steering_column.jpg) by Samf4u, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A planned route for wires, flat cables or tubes across a hinge or a joint that turns less than a full turn (or a few turns), either through a hollow pin or shaft on the turning axis so the cable only twists, or as a loose loop or wound flat cable that rolls instead of kinking, with clamps on each side so the flexing happens only where it is designed to.
 

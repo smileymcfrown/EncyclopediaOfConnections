@@ -143,23 +143,18 @@ sources:
 - https://en.wikipedia.org/wiki/Electroadhesion
 research: research/connection-types/results/Vacuum_suction_gripper.json
 image:
-  file: vacuum.webp
-  width: 800
-  height: 279
-  title: File:Suction cup pressure from collisions.svg
-  author: Becarlson
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg
-  alt: Diagram showing that the outside air pressure (gas particles colliding with the cup) is what holds a suction cup on
-  drawn: false
+  file: drawn/vacuum.svg
+  alt: 'Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the
+    outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the
+    cup and the part drops away.'
+  drawn: true
 glossary: [misalignment, self-locking, stroke, solenoid, form-fit--force-fit--material-bond, holding-force, repeatability--accuracy,
   perimeters, infill, peel-vs-shear, regulator, venturi]
 ---
 
-![Diagram showing that the outside air pressure (gas particles colliding with the cup) is what holds a suction cup on](../media/vacuum.webp)
+![Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the outside air presses the cup and a flat part together and the part is lifted; on the r](../media/drawn/vacuum.svg)
 
-*Picture: [Suction cup pressure from collisions.svg](https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg) by Becarlson, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A flexible cup connected to a vacuum pump or an air-powered vacuum generator that holds smooth objects by pumping the air out from under it, and lets go when a valve lets air back in.
 

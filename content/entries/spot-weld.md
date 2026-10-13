@@ -142,23 +142,19 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Spot_weld_resistance_spot_welding.json
 image:
-  file: spot-weld.webp
-  width: 522
-  height: 568
-  title: File:Spot welding 1anim.gif
-  author: Tserc at German Wikipedia
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Spot_welding_1anim.gif
-  alt: 'Animated diagram of resistance spot welding: electrodes close on two sheets, current flows and a nugget forms'
-  drawn: false
+  file: drawn/spot-weld.svg
+  alt: 'Cross-section of a spot weld: two overlapping metal sheets squeezed between an upper and a lower copper electrode,
+    with current passing straight through and a lens-shaped nugget of melted metal forming where the sheets touch; beside
+    it, a battery welder''s two probes pressing a nickel strip onto a cell''s end, with the current going down one probe,
+    along the strip and up the other.'
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, repeatability--accuracy, fatigue, warping--shrinkage, peel-vs-shear,
   regulator]
 ---
 
-![Animated diagram of resistance spot welding: electrodes close on two sheets, current flows and a nugget forms](../media/spot-weld.webp)
+![Cross-section of a spot weld: two overlapping metal sheets squeezed between an upper and a lower copper electrode, with current passing straight through and a lens-shaped nugget of melted metal formin](../media/drawn/spot-weld.svg)
 
-*Picture: [Spot welding 1anim.gif](https://commons.wikimedia.org/wiki/File:Spot_welding_1anim.gif) by Tserc at German Wikipedia, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A spot weld joins overlapping metal sheets or strips at small points: copper electrodes squeeze the parts together and a very short, very high current melts a nugget of metal between them, with no filler, flame or glue, as used on car bodies, sheet-steel boxes and nickel strips on battery packs.
 

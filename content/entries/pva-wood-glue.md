@@ -137,22 +137,17 @@ sources:
 - https://www.coolcrafting.co.uk/product/prym-fray-check/
 research: research/connection-types/results/PVA_wood_glue_white_and_yellow_glue.json
 image:
-  file: pva-wood-glue.webp
-  width: 800
-  height: 450
-  title: File:Wood glue and clamping the pieces before screwing them together.jpg
-  author: Own work
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg
-  alt: A woodworking assembly with wood glue applied and the parts clamped
-  drawn: false
+  file: drawn/pva-wood-glue.svg
+  alt: Magnified cut-away of a clamped PVA glue line between two boards, with the glue reaching into the open wood cells and
+    its water soaking into the wood and drying into the air; beside it, a strong side-grain joint compared with a weak end-grain
+    butt joint where the glue soaks away into the wood.
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear]
 ---
 
-![A woodworking assembly with wood glue applied and the parts clamped](../media/pva-wood-glue.webp)
+![Magnified cut-away of a clamped PVA glue line between two boards, with the glue reaching into the open wood cells and its water soaking into the wood and drying into the air; beside it, a strong side-](../media/drawn/pva-wood-glue.svg)
 
-*Picture: [Wood glue and clamping the pieces before screwing them together.jpg](https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg) by Own work, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A water-based glue of plastic particles suspended in water that soaks into wood, paper, card and other porous materials and hardens as the water is absorbed and evaporates, giving strong, cheap, non-toxic joints for indoor woodwork, with yellow and water-resistant grades for tougher jobs.
 

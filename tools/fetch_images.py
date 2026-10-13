@@ -7,6 +7,10 @@ is kept: public domain, CC0, CC BY or CC BY-SA (any version). Non-commercial (NC
 is saved as content/media/<page>.webp, and content/media/media.yaml records the file's title,
 author, licence and Commons page, which each entry page shows as a credit line under the picture.
 
+content/media/choices.yaml (R30) overrides the research's order: `use: "File:..."` tries that
+Commons file first, and `use: drawn` drops the copy so the page shows its drawn diagram. Animated
+GIFs are saved as animated WebP (marked `animated` in media.yaml), so they play on their own.
+
 Run: python3 tools/fetch_images.py [--only page1,page2] [--force]
 Needs Python 3, pyyaml and Pillow (pip install pillow). Entries already in media.yaml are kept
 unless --force. Entries with no usable Commons file are listed at the end: they get a drawn
@@ -124,7 +128,6 @@ def main():
     if '--only' in sys.argv:
         only = set(sys.argv[sys.argv.index('--only') + 1].split(','))
     force = '--force' in sys.argv
-    regif = '--refetch-gifs' in sys.argv
     # content/media/choices.yaml (R30): a person's (or reviewer's) choice of picture for a page:
     # {use: 'File:...'} puts that Commons file first; {use: drawn} shows the drawn diagram instead.
     cf = os.path.join(MEDIA, 'choices.yaml')
@@ -142,7 +145,7 @@ def main():
     want = lambda p: (choices.get(p, {}).get('use') or '').replace('_', ' ')
     todo = {p: fm for p, fm in pages.items() if want(p) != 'drawn' and (
         force or p not in rec or (want(p).startswith('File:') and rec[p]['title'] != want(p))
-        or (regif and rec[p]['title'].lower().endswith('.gif')))}
+        or (rec[p]['title'].lower().endswith('.gif') and 'animated' not in rec[p]))}   # R30: older GIF copies were one still frame
     cand = {p: [(file_title(l['url']), l) for l in fm.get('links') or [] if file_title(l['url'])] for p, fm in todo.items()}
     for p in cand:                       # a chosen file goes first, even if the research did not list it
         if want(p).startswith('File:'):
@@ -156,10 +159,12 @@ def main():
             continue
         t, l = pick
         x = meta[t]
-        w, h = save(x, os.path.join(MEDIA, p + '.webp'))
+        w, h, n = save(x, os.path.join(MEDIA, p + '.webp'))
         rec[p] = {'file': p + '.webp', 'width': w, 'height': h, 'title': x['title'], 'author': x['author'] or 'unknown',
                   'license': x['license'], 'license_url': x['license_url'], 'source': x['page'],
                   'alt': l.get('shows') or x['name'] or pages[p]['title']}
+        if x['mime'] == 'image/gif':
+            rec[p]['animated'] = n > 1   # saved as an animated WebP, which plays by itself in every browser
         print(f'{p}: {x["title"]} ({x["license"]})')
         time.sleep(1.5)
     with open(RECORD, 'w') as f:

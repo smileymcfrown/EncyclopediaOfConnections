@@ -138,23 +138,18 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 research: research/connection-types/results/Multiturn_rotation_limiter_travellingnut_and_stackedring_stops.json
 image:
-  file: multi-turn-rotation-limiter.webp
-  width: 119
-  height: 92
-  title: File:Geneva stop.PNG
-  author: Reg.-Bauführer a.D. H. Bock
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG
-  alt: Drawing of a five-spoke Maltese-cross stop work on the barrel of a spring-driven clock
-  drawn: false
+  file: drawn/multi-turn-rotation-limiter.svg
+  alt: 'Side view of a travelling-nut turn limiter: a threaded shaft turns freely while a nut, kept from spinning by a tab
+    in a fixed guide, walks along the thread a little each turn until it hits a stop collar at either end, which blocks the
+    shaft after a set number of turns.'
+  drawn: true
 glossary: [backlash, back-driving, axial--radial, ratchet, torque, gear-ratio, pitch, crank, actuator, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, creep, print-in-place, peel-vs-shear]
 ---
 
-![Drawing of a five-spoke Maltese-cross stop work on the barrel of a spring-driven clock](../media/multi-turn-rotation-limiter.webp)
+![Side view of a travelling-nut turn limiter: a threaded shaft turns freely while a nut, kept from spinning by a tab in a fixed guide, walks along the thread a little each turn until it hits a stop coll](../media/drawn/multi-turn-rotation-limiter.svg)
 
-*Picture: [Geneva stop.PNG](https://commons.wikimedia.org/wiki/File:Geneva_stop.PNG) by Reg.-Bauführer a.D. H. Bock, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.
 

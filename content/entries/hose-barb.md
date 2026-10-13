@@ -140,22 +140,17 @@ sources:
 - https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg
 research: research/connection-types/results/Hose_barb_barbed_tube_fitting.json
 image:
-  file: hose-barb.webp
-  width: 556
-  height: 223
-  title: File:Stainless hose fittings different shapes and sizes.png
-  author: Candm503
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Stainless_hose_fittings_different_shapes_and_sizes.png
-  alt: Stainless crimp and hose barb fittings in different shapes and sizes
-  drawn: false
+  file: drawn/hose-barb.svg
+  alt: 'Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down
+    behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can''t
+    slide off.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, collet, chamfer--fillet, perimeters, infill, o-ring, gland, check-valve]
 ---
 
-![Stainless crimp and hose barb fittings in different shapes and sizes](../media/hose-barb.webp)
+![Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just beh](../media/drawn/hose-barb.svg)
 
-*Picture: [Stainless hose fittings different shapes and sizes.png](https://commons.wikimedia.org/wiki/File:Stainless_hose_fittings_different_shapes_and_sizes.png) by Candm503, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.
 

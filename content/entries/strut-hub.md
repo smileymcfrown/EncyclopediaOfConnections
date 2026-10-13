@@ -128,22 +128,17 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Strut_hub_geodesic_dome_hub_spaceframe_node.json
 image:
-  file: strut-hub.webp
-  width: 800
-  height: 593
-  title: File:Climberdome.JPG
-  author: GreenGlass1972
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Climberdome.JPG
-  alt: A playground dome climber built from tubes joined at hubs
-  drawn: false
+  file: drawn/strut-hub.svg
+  alt: 'Left: close-up of a strut hub, a round connector with six angled sockets, with wooden struts pushed into five of them
+    and a sixth strut being pushed in. Right: a small dome built from straight struts in triangles, with a hub joining the
+    strut ends at every corner.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, set-screw, threadlocker, repeatability--accuracy, creep, infill, regulator]
 ---
 
-![A playground dome climber built from tubes joined at hubs](../media/strut-hub.webp)
+![Left: close-up of a strut hub, a round connector with six angled sockets, with wooden struts pushed into five of them and a sixth strut being pushed in. Right: a small dome built from straight struts ](../media/drawn/strut-hub.svg)
 
-*Picture: [Climberdome.JPG](https://commons.wikimedia.org/wiki/File:Climberdome.JPG) by GreenGlass1972, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A single connector that holds the ends of three to six (or more) straight struts at fixed angles where they meet, so a pile of sticks, tubes or planks can be built into a rigid dome, frame or truss.
 

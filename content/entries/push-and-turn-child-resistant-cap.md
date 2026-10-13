@@ -130,23 +130,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushandturn_childresistant_cap.json
 image:
-  file: push-and-turn-child-resistant-cap.webp
-  width: 800
-  height: 536
-  title: File:Aspirin1.jpg
-  author: User Mosesofmason on zh.Wikipedia
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Aspirin1.jpg
-  alt: Photo of an aspirin bottle with a child-resistant cap marked 'push down & turn to open'
-  drawn: false
+  file: drawn/push-and-turn-child-resistant-cap.svg
+  alt: 'Cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose outer
+    cap up so its teeth slip over the inner cap''s ramps and it clicks round uselessly; pressing down while twisting meshes
+    the teeth so both caps turn together and the inner cap unscrews.'
+  drawn: true
 glossary: [coaxial, ratchet, torque, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
   print-in-place, regulator]
 ---
 
-![Photo of an aspirin bottle with a child-resistant cap marked 'push down & turn to open'](../media/push-and-turn-child-resistant-cap.webp)
+![Cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose outer cap up so its teeth slip over the inner cap's ramps and it clicks round uselessly; pr](../media/drawn/push-and-turn-child-resistant-cap.svg)
 
-*Picture: [Aspirin1.jpg](https://commons.wikimedia.org/wiki/File:Aspirin1.jpg) by User Mosesofmason on zh.Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A two-layer screw cap whose loose outer shell only grips the threaded inner cap when you press down while turning, so a child who just twists it gets nothing but spinning and clicking, while an adult who knows the trick can open it.
 

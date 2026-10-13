@@ -124,25 +124,19 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 116754, 142352, 114737 and 430589 read via the public API)
 research: research/connection-types/results/Elastic_averaging_manyfeature_alignment.json
 image:
-  file: elastic-averaging.webp
-  width: 800
-  height: 400
-  title: File:Lego dimensions.svg
-  author: Cmglee
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg
-  alt: 'Dimensioned diagram of standard LEGO bricks: stud spacing, stud size and brick height, the many small interlocking
-    features that locate bricks by elastic averaging'
-  drawn: false
+  file: drawn/elastic-averaging.svg
+  alt: 'Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes
+    the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different
+    amount, push from both sides so the block settles in the middle where their errors average out.'
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, flexure, cantilever, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep, fatigue, brittle--ductile, galling--fretting, layer-lines, support-material]
 ---
 
-![Dimensioned diagram of standard LEGO bricks: stud spacing, stud size and brick height, the many small interlocking features that locate bricks by elastic averaging](../media/elastic-averaging.webp)
+![Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes the block off-centre by the whole error, and on the right twelve thin springy ribs, ](../media/drawn/elastic-averaging.svg)
 
-*Picture: [Lego dimensions.svg](https://commons.wikimedia.org/wiki/File:Lego_dimensions.svg) by Cmglee, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 [Elastic averaging](../glossary.md#elastic-averaging) locates two parts with many more small springy contact features than strictly needed, so each feature flexes slightly and their individual errors average out, giving a stiff, repeatable fit from loosely made parts.
 

@@ -143,25 +143,19 @@ sources:
 - https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/pr9060925
 research: research/connection-types/results/Printinplace_hinge.json
 image:
-  file: print-in-place-hinge.webp
-  width: 800
-  height: 536
-  title: File:Print in place Fidget Cube.jpg
-  author: Gary C Martin
-  license: CC BY 2.0
-  license_url: https://creativecommons.org/licenses/by/2.0
-  source: https://commons.wikimedia.org/wiki/File:Print_in_place_Fidget_Cube.jpg
-  alt: Photo of a 3D-printed folding fidget cube printed on an Ultimaker 2; the author notes that the print-in-place hinges
-    work well, with some roughness on horizontal overhanging surfaces
-  drawn: false
+  file: drawn/print-in-place-hinge.svg
+  alt: 'Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one
+    leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge
+    turns straight off the printer.'
+  drawn: true
 glossary: [misalignment, detent, torque, flexure, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, brittle--ductile, layer-lines, perimeters, infill, print-in-place, elephants-foot, overhang--bridging,
   support-material]
 ---
 
-![Photo of a 3D-printed folding fidget cube printed on an Ultimaker 2; the author notes that the print-in-place hinges work well, with some roughness on horizontal overhanging surfaces](../media/print-in-place-hinge.webp)
+![Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one leaf sit in cone-shaped sockets in the other, and a small gap all round every surface](../media/drawn/print-in-place-hinge.svg)
 
-*Picture: [Print in place Fidget Cube.jpg](https://commons.wikimedia.org/wiki/File:Print_in_place_Fidget_Cube.jpg) by Gary C Martin, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hinge printed in one go with its pin already inside the knuckles and a small gap all round, so it turns as soon as it comes off the print bed with no assembly or metal pin.
 

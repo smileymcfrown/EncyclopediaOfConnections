@@ -127,23 +127,18 @@ sources:
 - https://www.youtube.com/watch?v=hHZo82-PtT8
 research: research/connection-types/results/Printed_leaf_spring_flat_cantilever_spring.json
 image:
-  file: printed-leaf-spring.webp
-  width: 800
-  height: 428
-  title: File:Leaf spring shapes.jpg
-  author: Rankin Kennedy C.E.
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Leaf_spring_shapes.jpg
-  alt: 'Drawings of the classic car leaf-spring shapes: elliptic, semi-elliptic, three-quarter and quarter-elliptic'
-  drawn: false
+  file: drawn/printed-leaf-spring.svg
+  alt: 'Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes
+    back, with the most stress at the fixed root, which has a rounded corner; notes say twice as thick is 8 times stiffer
+    and twice as long is 8 times softer.'
+  drawn: true
 glossary: [detent, ratchet, pawl, stiffness, preload, flexure, living-hinge, cantilever, deflection, torsion, taper, chamfer--fillet,
   creep, stress-relaxation, fatigue, brittle--ductile, stress-concentration, layer-lines, infill, peel-vs-shear]
 ---
 
-![Drawings of the classic car leaf-spring shapes: elliptic, semi-elliptic, three-quarter and quarter-elliptic](../media/printed-leaf-spring.webp)
+![Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes back, with the most stress at the fixed root, which has a rounded corner; notes say ](../media/drawn/printed-leaf-spring.svg)
 
-*Picture: [Leaf spring shapes.jpg](https://commons.wikimedia.org/wiki/File:Leaf_spring_shapes.jpg) by Rankin Kennedy C.E., Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A strip of springy plastic or metal, fixed at one end or at both ends, that bends under a push and springs back, storing energy; it is the easiest spring to design into a 3D-printed part.
 

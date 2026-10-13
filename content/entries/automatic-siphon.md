@@ -143,24 +143,18 @@ sources:
 - https://www.youtube.com/watch?v=hpVzsM_7uZo
 research: research/connection-types/results/Automatic_siphon_bell_siphon.json
 image:
-  file: automatic-siphon.webp
-  width: 800
-  height: 237
-  title: File:Physagorian Pythagoras Greedy Tantalus cup 05.svg
-  author: Nevit Dilmen (talk)
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Physagorian_Pythagoras_Greedy_Tantalus_cup_05.svg
-  alt: 'Four-stage cross-section of a Pythagorean cup: empty, filled below the siphon level, overfilled so the hidden siphon
-    starts, and emptying completely; the same self-starting siphon idea as a bell siphon'
-  drawn: false
+  file: drawn/automatic-siphon.svg
+  alt: 'Three cross-sections of a grow bed with a bell siphon: water trickles in and rises round a capped bell over a standpipe;
+    when it spills into the standpipe the siphon starts and drains the bed fast; when the level falls to the bottom of the
+    bell, air rushes in and the siphon stops so the bed refills.'
+  drawn: true
 glossary: [back-driving, over-centre, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters, overhang--bridging,
   cure, primer, check-valve, water-hammer]
 ---
 
-![Four-stage cross-section of a Pythagorean cup: empty, filled below the siphon level, overfilled so the hidden siphon starts, and emptying completely; the same self-starting siphon idea as a bell sipho](../media/automatic-siphon.webp)
+![Three cross-sections of a grow bed with a bell siphon: water trickles in and rises round a capped bell over a standpipe; when it spills into the standpipe the siphon starts and drains the bed fast; wh](../media/drawn/automatic-siphon.svg)
 
-*Picture: [Physagorian Pythagoras Greedy Tantalus cup 05.svg](https://commons.wikimedia.org/wiki/File:Physagorian_Pythagoras_Greedy_Tantalus_cup_05.svg) by Nevit Dilmen (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A capped tube (the bell) sits over a standpipe that drains a tank; when the rising water spills into the standpipe it pulls the air out of the bell and starts a siphon that empties the tank much faster than it fills, until air rushes in under the bell's rim and breaks the siphon, so a steady trickle in becomes a regular flood-and-drain cycle with no moving parts or timer (University of Hawai'i CTAHR BIO-10; FAO 2014).
 

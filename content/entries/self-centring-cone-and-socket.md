@@ -141,24 +141,19 @@ sources:
 - https://www.youtube.com/watch?v=xog9YlMt9UU
 research: research/connection-types/results/Selfcentring_cone_and_socket_taper_locator.json
 image:
-  file: self-centring-cone-and-socket.webp
-  width: 800
-  height: 600
-  title: File:Morse Taper No 2.jpg
-  author: DerrickOswald at English Wikipedia
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg
-  alt: Photo of a No. 2 Morse taper shank, the classic self-holding machine taper
-  drawn: false
+  file: drawn/self-centring-cone-and-socket.svg
+  alt: 'Three side views of a cone-shaped part coming down into a matching cone-shaped socket: it lands off-centre and touches
+    one sloping wall first, the slope pushes it sideways as it is pressed down, and it ends fully seated with its sloping
+    faces touching all round, exactly centred.'
+  drawn: true
 glossary: [misalignment, self-locking, clearance, form-fit--force-fit--material-bond, taper, counterbore--countersink, chamfer--fillet,
   keying, kinematic-coupling, over-constraint, elastic-averaging, repeatability--accuracy, creep, elephants-foot, overhang--bridging,
   peel-vs-shear]
 ---
 
-![Photo of a No. 2 Morse taper shank, the classic self-holding machine taper](../media/self-centring-cone-and-socket.webp)
+![Three side views of a cone-shaped part coming down into a matching cone-shaped socket: it lands off-centre and touches one sloping wall first, the slope pushes it sideways as it is pressed down, and i](../media/drawn/self-centring-cone-and-socket.svg)
 
-*Picture: [Morse Taper No 2.jpg](https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg) by DerrickOswald at English Wikipedia, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A cone on one part slides into a matching cone-shaped socket on the other, and the sloping walls push the parts sideways into line so they end up exactly centred on each other.
 

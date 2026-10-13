@@ -118,23 +118,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Welded_metal_joint_fusion_welding_stick_MIG_TIG_and_gas_welding.json
 image:
-  file: welded-metal-joint.webp
-  width: 800
-  height: 872
-  title: File:Common joint types.png
-  author: unknown
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Common_joint_types.png
-  alt: 'Diagram of basic weld joint types: square butt, V-butt, lap and T joints'
-  drawn: false
+  file: drawn/welded-metal-joint.svg
+  alt: 'Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has
+    melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under
+    a cloud of shielding gas and leaving a solid bead behind it.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
   warping--shrinkage, peel-vs-shear, regulator]
 ---
 
-![Diagram of basic weld joint types: square butt, V-butt, lap and T joints](../media/welded-metal-joint.webp)
+![Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has melted together. Right: a welding torch moving along a joint, feeding filler wire int](../media/drawn/welded-metal-joint.svg)
 
-*Picture: [Common joint types.png](https://commons.wikimedia.org/wiki/File:Common_joint_types.png) by unknown, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Welding melts the edges of two metal parts, usually with extra filler metal from a wire or rod, using an electric arc or a gas flame, so the melted metal flows together and cools into one continuous piece: the strongest permanent way to join metal parts of the same or compatible metals.
 

@@ -123,22 +123,17 @@ sources:
 - https://api.printables.com/graphql/ (models 692350, 737519, 1287251)
 research: research/connection-types/results/Frictionwelded_plastic_rotarytool_friction_welding_spin_welding.json
 image:
-  file: friction-welded-plastic.webp
-  width: 561
-  height: 351
-  title: File:Rotary friction welding.jpg
-  author: Xyz00030280
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Rotary_friction_welding.jpg
-  alt: Industrial rotary friction welding of metal parts, the big-machine cousin of spin welding
-  drawn: false
+  file: drawn/friction-welded-plastic.svg
+  alt: 'Two ways to friction-weld plastic: on the left a rotary tool spins a short piece of filament against the seam between
+    two printed plates and leaves a melted bead behind as it moves along; on the right a drill press spins one round part
+    pressed down on another held still, melting a thin layer where they touch.'
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, collet, fatigue, infill, check-valve]
 ---
 
-![Industrial rotary friction welding of metal parts, the big-machine cousin of spin welding](../media/friction-welded-plastic.webp)
+![Two ways to friction-weld plastic: on the left a rotary tool spins a short piece of filament against the seam between two printed plates and leaves a melted bead behind as it moves along; on the right](../media/drawn/friction-welded-plastic.svg)
 
-*Picture: [Rotary friction welding.jpg](https://commons.wikimedia.org/wiki/File:Rotary_friction_welding.jpg) by Xyz00030280, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Friction welding melts plastic by rubbing instead of by heating: a short length of filament spun in a rotary tool is run along a seam like a melting filler rod, or one round part is spun against another on a drill press or lathe, until the contact melts and the parts fuse into a single piece.
 

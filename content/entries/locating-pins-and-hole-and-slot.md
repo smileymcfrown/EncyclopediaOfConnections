@@ -127,23 +127,18 @@ sources:
 - https://vxb.com/products/42mm-nema-17-stepper-motor-mounting-bracket-with-m
 research: research/connection-types/results/Locating_pins_and_holeandslot.json
 image:
-  file: locating-pins-and-hole-and-slot.webp
-  width: 800
-  height: 378
-  title: File:Parallel pin DIN EN ISO8734 3D.png
-  author: Silberwolf (talk)
-  license: CC BY-SA 2.5
-  license_url: https://creativecommons.org/licenses/by-sa/2.5
-  source: https://commons.wikimedia.org/wiki/File:Parallel_pin_DIN_EN_ISO8734_3D.png
-  alt: 3D view of a standard hardened dowel pin (parallel pin to DIN EN ISO 8734), the usual off-the-shelf locating pin
-  drawn: false
+  file: drawn/locating-pins-and-hole-and-slot.svg
+  alt: 'Top view of a plate sitting on two pins: on the left one pin fits a snug round hole and the other sits in a slot pointing
+    at that hole, so the plate fits even when the spacing is slightly off; on the right two round holes spaced slightly too
+    far apart cannot both drop over the pins.'
+  drawn: true
 glossary: [axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, boss, chamfer--fillet, keying,
   kinematic-coupling, elastic-averaging, repeatability--accuracy, creep, brittle--ductile, layer-lines, peel-vs-shear]
 ---
 
-![3D view of a standard hardened dowel pin (parallel pin to DIN EN ISO 8734), the usual off-the-shelf locating pin](../media/locating-pins-and-hole-and-slot.webp)
+![Top view of a plate sitting on two pins: on the left one pin fits a snug round hole and the other sits in a slot pointing at that hole, so the plate fits even when the spacing is slightly off; on the ](../media/drawn/locating-pins-and-hole-and-slot.svg)
 
-*Picture: [Parallel pin DIN EN ISO8734 3D.png](https://commons.wikimedia.org/wiki/File:Parallel_pin_DIN_EN_ISO8734_3D.png) by Silberwolf (talk), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Two pins on one part fit into a snug round hole and a slot on the other: the round hole fixes the position, the slot (pointing along the line between the pins) only stops the part turning, so the parts line up in exactly one position and still go together when the hole spacing is slightly off.
 

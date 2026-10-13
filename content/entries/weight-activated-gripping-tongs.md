@@ -117,22 +117,17 @@ sources:
 - https://www.youtube.com/watch?v=WcCxJ-tkP4I
 research: research/connection-types/results/Weightactivated_gripping_tongs_lifting_tongs_lewis.json
 image:
-  file: weight-activated-gripping-tongs.webp
-  width: 524
-  height: 515
-  title: File:Three-legged lewis diagram - 02.png
-  author: Anna Frodesiak
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Three-legged_lewis_diagram_-_02.png
-  alt: 'Diagram of a three-legged (dovetail) lewis: the pieces are inserted 1, 2, 3 into an undercut hole'
-  drawn: false
+  file: drawn/weight-activated-gripping-tongs.svg
+  alt: 'Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block; the crane pull draws
+    the tops of the arms together, so the jaws below the pivot squeeze the block harder the heavier it is. Right: a cut-away
+    stone with a three-piece lewis wedged in a dovetail-shaped hole, which grips the stone from inside the same way.'
+  drawn: true
 glossary: [self-locking, lever-arm, linkage, damping, form-fit--force-fit--material-bond, taper, creep]
 ---
 
-![Diagram of a three-legged (dovetail) lewis: the pieces are inserted 1, 2, 3 into an undercut hole](../media/weight-activated-gripping-tongs.webp)
+![Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block; the crane pull draws the tops of the arms together, so the jaws below the pivot squeeze the block harder ](../media/drawn/weight-activated-gripping-tongs.svg)
 
-*Picture: [Three-legged lewis diagram - 02.png](https://commons.wikimedia.org/wiki/File:Three-legged_lewis_diagram_-_02.png) by Anna Frodesiak, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Weight-activated tongs and the lewis turn the pull of the crane hook into a squeeze (or a wedging force inside a hole) on the load, so the grip grows in step with the load's weight and lets go once the load is set down.
 

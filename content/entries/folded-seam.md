@@ -128,22 +128,16 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Folded_seam_hem_lock_seam_Pittsburgh_lock.json
 image:
-  file: folded-seam.webp
-  width: 459
-  height: 308
-  title: File:Umschlagbiegen-Animation-2D.gif
-  author: No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims).
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Umschlagbiegen-Animation-2D.gif
-  alt: Animation of a press brake bending a sheet edge over and then flattening it into a hem
-  drawn: false
+  file: drawn/folded-seam.svg
+  alt: 'Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks
+    are slid together so they interlock, and then the joint is hammered flat so the folds trap each other.'
+  drawn: true
 glossary: [pitch, stiffness, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Animation of a press brake bending a sheet edge over and then flattening it into a hem](../media/folded-seam.webp)
+![Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks are slid together so they interlock, and then the joint is hammered flat so the fold](../media/drawn/folded-seam.svg)
 
-*Picture: [Umschlagbiegen-Animation-2D.gif](https://commons.wikimedia.org/wiki/File:Umschlagbiegen-Animation-2D.gif) by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Sheet-metal edges are bent into hooks or pockets, slid or hooked together and pressed flat so the folds trap each other, making a permanent, often near-airtight joint along a whole edge without heat or fasteners.
 
