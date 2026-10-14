@@ -129,23 +129,29 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Slotted_adjustment_with_a_jacking_screw_slotted_mount_sliding_motor_plate.json
 image:
-  file: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  file: drawn/anim/slotted-adjustment-with-a-jacking-screw.svg
   alt: 'Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping
     screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the
-    belt is tight and the clamping screws are locked.'
+    belt is tight and the clamping screws are locked. Animated: in step 1 the jacking screw pushes the plate along its slots
+    until the belt is tight, then the clamping screws are locked.'
   drawn: true
+  still: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  kind: animation
 pictures:
-- file: drawn/slotted-adjustment-with-a-jacking-screw.svg
+- file: drawn/anim/slotted-adjustment-with-a-jacking-screw.svg
   alt: 'Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping
     screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the
-    belt is tight and the clamping screws are locked.'
+    belt is tight and the clamping screws are locked. Animated: in step 1 the jacking screw pushes the plate along its slots
+    until the belt is tight, then the clamping screws are locked.'
   drawn: true
+  still: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  kind: animation
 glossary: [misalignment, self-locking, pitch, idler, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert,
   captive-nut, creep, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/slotted-adjustment-with-a-jacking-screw.svg" alt="Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the belt is tight and the clamping screws are locked."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slotted-adjustment-with-a-jacking-screw.svg"><img src="../media/drawn/anim/slotted-adjustment-with-a-jacking-screw.svg" alt="Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the belt is tight and the clamping screws are locked. Animated: in s"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A part is fixed with screws through slots instead of round holes, so it can be slid to set a belt or chain tension or line it up, usually pushed by a separate adjusting (jacking) screw, and is then locked by tightening the screws.

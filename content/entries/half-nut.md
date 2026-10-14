@@ -118,23 +118,29 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Half_nut_split_nut_quickaction_nut.json
 image:
-  file: drawn/half-nut.svg
+  file: drawn/anim/half-nut.svg
   alt: 'A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed
     onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along
-    the screw.'
+    the screw. Animated: the closed nut is carried to and fro as the screw turns one way then back (arrows show the drawn
+    direction), while the open nut slides along a still screw.'
   drawn: true
+  still: drawn/half-nut.svg
+  kind: animation
 pictures:
-- file: drawn/half-nut.svg
+- file: drawn/anim/half-nut.svg
   alt: 'A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed
     onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along
-    the screw.'
+    the screw. Animated: the closed nut is carried to and fro as the screw turns one way then back (arrows show the drawn
+    direction), while the open nut slides along a still screw.'
   drawn: true
+  still: drawn/half-nut.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, over-centre, ratchet, pawl, linkage, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, perimeters, infill, elephants-foot]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/half-nut.svg" alt="A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along the screw."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/half-nut.svg"><img src="../media/drawn/anim/half-nut.svg" alt="A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along the screw. Animated: the closed nut is carried to and fro as th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A nut split lengthwise into two halves that can be opened away from a lead screw so a carriage or vice jaw slides freely to a new position, then closed again so the screw drives or clamps it, as in quick-release vices, lathe carriages and syringe pumps.

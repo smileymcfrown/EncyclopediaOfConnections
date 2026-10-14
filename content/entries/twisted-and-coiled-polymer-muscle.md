@@ -137,22 +137,28 @@ sources:
 - https://www.youtube.com/watch?v=iMMGfzYXwAU
 research: research/connection-types/results/Twistedandcoiled_polymer_muscle_fishingline_artificial_muscle.json
 image:
-  file: drawn/twisted-and-coiled-polymer-muscle.svg
+  file: drawn/anim/twisted-and-coiled-polymer-muscle.svg
   alt: 'Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round
     it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls
-    shorter, lifting the weight.'
+    shorter, lifting the weight. In the animation the last panel cools and heats in turn: the coil stretches back down, then
+    heats, untwists a little and pulls shorter, lifting the weight.'
   drawn: true
+  still: drawn/twisted-and-coiled-polymer-muscle.svg
+  kind: animation
 pictures:
-- file: drawn/twisted-and-coiled-polymer-muscle.svg
+- file: drawn/anim/twisted-and-coiled-polymer-muscle.svg
   alt: 'Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round
     it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls
-    shorter, lifting the weight.'
+    shorter, lifting the weight. In the animation the last panel cools and heats in turn: the coil stretches back down, then
+    heats, untwists a little and pulls shorter, lifting the weight.'
   drawn: true
+  still: drawn/twisted-and-coiled-polymer-muscle.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, stroke, actuator, solenoid, stiffness, preload, hysteresis, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/twisted-and-coiled-polymer-muscle.svg" alt="Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls shorter, lifting the weight."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/twisted-and-coiled-polymer-muscle.svg"><img src="../media/drawn/anim/twisted-and-coiled-polymer-muscle.svg" alt="Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls shorter, lifting the weight. In the animation the last panel co"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A twisted-and-coiled polymer muscle is a cheap nylon fishing line or sewing thread that has been over-twisted into a tight coil and heat-set, so that heating it (with a wrapped heater wire, a conductive coating, hot air or hot water) makes it shorten and pull, and cooling lets it stretch back out.

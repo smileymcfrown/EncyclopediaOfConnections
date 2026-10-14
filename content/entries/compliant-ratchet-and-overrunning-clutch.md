@@ -107,26 +107,32 @@ sources:
 - https://github.com/shaiss/print-bench/issues/668
 research: research/connection-types/results/Compliant_ratchet_and_overrunning_clutch_flexure_pawl.json
 image:
-  file: drawn/compliant-ratchet-and-overrunning-clutch.svg
+  file: drawn/anim/compliant-ratchet-and-overrunning-clutch.svg
   alt: 'Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped
     teeth; turned one way the catches on the ends of the arms ride up the sloped tooth backs and click into the next gap,
     and turned the other way the catch tips butt against the steep tooth faces so the push runs along the arms into the hub
-    and it locks.'
+    and it locks. Animated: the hub on the left turns and its catches bend in and click into each gap; on the right the push
+    pulses along the locked arm.'
   drawn: true
+  still: drawn/compliant-ratchet-and-overrunning-clutch.svg
+  kind: animation
 pictures:
-- file: drawn/compliant-ratchet-and-overrunning-clutch.svg
+- file: drawn/anim/compliant-ratchet-and-overrunning-clutch.svg
   alt: 'Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped
     teeth; turned one way the catches on the ends of the arms ride up the sloped tooth backs and click into the next gap,
     and turned the other way the catch tips butt against the steep tooth faces so the push runs along the arms into the hub
-    and it locks.'
+    and it locks. Animated: the hub on the left turns and its catches bend in and click into each gap; on the right the push
+    pulses along the locked arm.'
   drawn: true
+  still: drawn/compliant-ratchet-and-overrunning-clutch.svg
+  kind: animation
 glossary: [backlash, axial--radial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, stiffness, preload, flexure,
   compliant-mechanism, living-hinge, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   undercut, creep, stress-relaxation, fatigue, brittle--ductile, perimeters, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/compliant-ratchet-and-overrunning-clutch.svg" alt="Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped teeth; turned one way the catches on the ends of the arms ride up the sloped tooth backs and click into the next gap, and turned the other way the catch tips butt against the steep tooth"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/compliant-ratchet-and-overrunning-clutch.svg"><img src="../media/drawn/anim/compliant-ratchet-and-overrunning-clutch.svg" alt="Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped teeth; turned one way the catches on the ends of the arms ride up the sloped tooth backs and click into the next gap, and turned the other way the catch tips butt against the steep tooth"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A [ratchet](../glossary.md#ratchet) or one-way clutch in which the catch ([pawl](../glossary.md#pawl)) and its spring are the same springy arm, moulded or printed in one piece with the hub, so the wheel clicks round one way and locks the other with no pins, springs or assembly.

@@ -109,23 +109,31 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Capstan_cable_drive_tendon_drive.json
 image:
-  file: drawn/capstan-cable-drive.svg
+  file: drawn/anim/capstan-cable-drive.svg
   alt: A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several
     times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the
-    wraps from the side and a graph of grip rising steeply with each extra wrap.
+    wraps from the side and a graph of grip rising steeply with each extra wrap. In the animation the small drum turns back
+    and forth through more than half a turn while the big drum sweeps only a few degrees, the cable winding on to one end
+    of the big drum and off the other.
   drawn: true
+  still: drawn/capstan-cable-drive.svg
+  kind: animation
 pictures:
-- file: drawn/capstan-cable-drive.svg
+- file: drawn/anim/capstan-cable-drive.svg
   alt: A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several
     times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the
-    wraps from the side and a graph of grip rising steeply with each extra wrap.
+    wraps from the side and a graph of grip rising steeply with each extra wrap. In the animation the small drum turns back
+    and forth through more than half a turn while the big drum sweeps only a few degrees, the cable winding on to one end
+    of the big drum and off the other.
   drawn: true
+  still: drawn/capstan-cable-drive.svg
+  kind: animation
 glossary: [misalignment, backlash, back-driving, self-locking, torque, pitch, actuator, stiffness, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, fatigue, layer-lines, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/capstan-cable-drive.svg" alt="A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the wraps from the side and a graph of grip rising steeply wit"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/capstan-cable-drive.svg"><img src="../media/drawn/anim/capstan-cable-drive.svg" alt="A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the wraps from the side and a graph of grip rising steeply wit"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A cable wrapped several turns around a small input drum and anchored at both ends to a larger output drum turns the large drum at a reduced speed with more turning force, with zero [backlash](../glossary.md#backlash), very low friction and easy [back-driving](../glossary.md#back-driving), but only through a limited angle.

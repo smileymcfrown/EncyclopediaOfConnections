@@ -130,23 +130,29 @@ sources:
 - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
 research: research/connection-types/results/Noncircular_gears.json
 image:
-  file: drawn/non-circular-gears.svg
+  file: drawn/anim/non-circular-gears.svg
   alt: 'Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns
     steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows
-    down once every turn.'
+    down once every turn. The animation turns the input at a steady speed: the contact point slides along the line between
+    the pivots and the output whips round fast, then crawls.'
   drawn: true
+  still: drawn/non-circular-gears.svg
+  kind: animation
 pictures:
-- file: drawn/non-circular-gears.svg
+- file: drawn/anim/non-circular-gears.svg
   alt: 'Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns
     steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows
-    down once every turn.'
+    down once every turn. The animation turns the input at a steady speed: the contact point slides along the line between
+    the pivots and the output whips round fast, then crawls.'
   drawn: true
+  still: drawn/non-circular-gears.svg
+  kind: animation
 glossary: [backlash, axial--radial, stroke, torque, pitch, cam-and-follower, linkage, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, undercut, repeatability--accuracy, elephants-foot, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/non-circular-gears.svg" alt="Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows down once every turn."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/non-circular-gears.svg"><img src="../media/drawn/anim/non-circular-gears.svg" alt="Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows down once every turn. The animation turns the input at a stead"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes), designed to roll on each other without slipping so that a steady input turn becomes an output that repeatedly speeds up and slows down.

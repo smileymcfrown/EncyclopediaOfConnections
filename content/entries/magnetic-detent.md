@@ -141,23 +141,29 @@ sources:
   not opened)
 research: research/connection-types/results/Magnetic_detent_magnet_click_stops.json
 image:
-  file: drawn/magnetic-detent.svg
-  alt: Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where
-    each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping
-    once for every lined-up position.
+  file: drawn/anim/magnetic-detent.svg
+  alt: 'Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round
+    where each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy
+    dipping once for every lined-up position. In the animation the left knob is turned round one click at a time: it resists
+    up to half-way, then snaps into the next spot, while a red dot runs along the energy curve.'
   drawn: true
+  still: drawn/magnetic-detent.svg
+  kind: animation
 pictures:
-- file: drawn/magnetic-detent.svg
-  alt: Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where
-    each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping
-    once for every lined-up position.
+- file: drawn/anim/magnetic-detent.svg
+  alt: 'Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round
+    where each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy
+    dipping once for every lined-up position. In the animation the left knob is turned round one click at a time: it resists
+    up to half-way, then snaps into the next spot, while a red dot runs along the energy curve.'
   drawn: true
+  still: drawn/magnetic-detent.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, detent, ratchet, torque, flexure, form-fit--force-fit--material-bond, holding-force,
   heat-set-insert, repeatability--accuracy, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/magnetic-detent.svg" alt="Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping once for every lined-up position."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/magnetic-detent.svg"><img src="../media/drawn/anim/magnetic-detent.svg" alt="Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping once for every lined-up position. In the animation the lef"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 Magnets placed in a moving part and in its housing attract each other (or a small piece of steel) at chosen positions, so a knob, dial, wheel or slider is pulled into and held at those positions with a clean, contact-free click that does not wear.

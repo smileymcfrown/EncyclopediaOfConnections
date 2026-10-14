@@ -136,22 +136,26 @@ sources:
   '3D printed Valentine Flower Greeting Card with Tulle Hinge', 386910 'Print on Fabric Test (Long Spikes)'; pages not opened)
 research: research/connection-types/results/Printing_onto_fabric_fabric_embedded_in_a_3D_print.json
 image:
-  file: drawn/printing-onto-fabric.svg
+  file: drawn/anim/printing-onto-fabric.svg
   alt: 'Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped
     over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces
-    like hinges.'
+    like hinges. Animated: the finished sheet lies flat, then folds at each bare gap while the printed pieces stay stiff.'
   drawn: true
+  still: drawn/printing-onto-fabric.svg
+  kind: animation
 pictures:
-- file: drawn/printing-onto-fabric.svg
+- file: drawn/anim/printing-onto-fabric.svg
   alt: 'Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped
     over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces
-    like hinges.'
+    like hinges. Animated: the finished sheet lies flat, then folds at each bare gap while the printed pieces stay stiff.'
   drawn: true
+  still: drawn/printing-onto-fabric.svg
+  kind: animation
 glossary: [living-hinge, form-fit--force-fit--material-bond, captive-nut, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/printing-onto-fabric.svg" alt="Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces like hinges."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/printing-onto-fabric.svg"><img src="../media/drawn/anim/printing-onto-fabric.svg" alt="Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces like hinges. Animated: the finished sheet lies flat, then fold"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A thin open mesh fabric is laid over the first few printed layers during a pause, and the rest of the print fuses through its holes, so the fabric is locked inside each printed piece and the bare fabric between pieces works as a flexible hinge.

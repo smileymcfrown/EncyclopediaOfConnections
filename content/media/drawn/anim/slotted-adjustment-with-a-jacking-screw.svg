@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the belt is tight and the clamping screws are locked. Animated: in step 1 the jacking screw pushes the plate along its slots until the belt is tight, then the clamping screws are locked.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="60" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g transform="translate(0,0)">
+<rect x="60" y="70" width="240" height="320" rx="6" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="200" cy="115" r="32" fill="#fde2c4" stroke="#222" stroke-width="3"/><circle cx="200" cy="115" r="6" fill="#222"/>
+<g><animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,24;0,24;0,0;0,0" keyTimes="0;0.12;0.55;0.82;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/>
+<rect x="115" y="213" width="170" height="130" rx="6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="131" y="219" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<rect x="251" y="219" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<rect x="131" y="289" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<rect x="251" y="289" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<circle cx="200" cy="278" r="22" fill="#fde2c4" stroke="#222" stroke-width="3"/><circle cx="200" cy="278" r="5" fill="#222"/>
+<line x1="200" y1="350" x2="200" y2="380" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;0.12;0.55;0.6;0.95;1" dur="6s" repeatCount="indefinite"/></line>
+</g>
+<circle cx="140" cy="255" r="11" fill="#ffffff" stroke="#222" stroke-width="2.5"><animate attributeName="fill" values="#ffffff;#ffffff;#ffffff;#fde2c4;#fde2c4;#ffffff;#ffffff" keyTimes="0;0.55;0.62;0.66;0.8;0.82;1" dur="6s" repeatCount="indefinite"/></circle><path d="M134,249 L146,261 M146,249 L134,261" stroke="#222" stroke-width="2"/><circle cx="260" cy="255" r="11" fill="#ffffff" stroke="#222" stroke-width="2.5"><animate attributeName="fill" values="#ffffff;#ffffff;#ffffff;#fde2c4;#fde2c4;#ffffff;#ffffff" keyTimes="0;0.55;0.62;0.66;0.8;0.82;1" dur="6s" repeatCount="indefinite"/></circle><path d="M254,249 L266,261 M266,249 L254,261" stroke="#222" stroke-width="2"/><circle cx="140" cy="325" r="11" fill="#ffffff" stroke="#222" stroke-width="2.5"><animate attributeName="fill" values="#ffffff;#ffffff;#ffffff;#fde2c4;#fde2c4;#ffffff;#ffffff" keyTimes="0;0.55;0.62;0.66;0.8;0.82;1" dur="6s" repeatCount="indefinite"/></circle><path d="M134,319 L146,331 M146,319 L134,331" stroke="#222" stroke-width="2"/><circle cx="260" cy="325" r="11" fill="#ffffff" stroke="#222" stroke-width="2.5"><animate attributeName="fill" values="#ffffff;#ffffff;#ffffff;#fde2c4;#fde2c4;#ffffff;#ffffff" keyTimes="0;0.55;0.62;0.66;0.8;0.82;1" dur="6s" repeatCount="indefinite"/></circle><path d="M254,319 L266,331 M266,319 L254,331" stroke="#222" stroke-width="2"/>
+
+<path d="M168,115 Q200,196.5 178,278 M232,115 Q200,196.5 222,278" stroke="#222" stroke-width="5" fill="none"><animate attributeName="d" values="M168,115 Q200,196.5 178,278 M232,115 Q200,196.5 222,278;M168,115 Q200,196.5 178,278 M232,115 Q200,196.5 222,278;M168,115 Q173,208.5 178,302 M232,115 Q227,208.5 222,302;M168,115 Q173,208.5 178,302 M232,115 Q227,208.5 222,302;M168,115 Q200,196.5 178,278 M232,115 Q200,196.5 222,278;M168,115 Q200,196.5 178,278 M232,115 Q200,196.5 222,278" keyTimes="0;0.12;0.55;0.82;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/></path>
+<rect x="250" y="175" width="46" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/><g stroke="#222" stroke-width="1.5"><line x1="254" y1="197" x2="274" y2="177"/><line x1="266" y1="197" x2="286" y2="177"/></g>
+<rect x="266" y="160" width="14" height="53" fill="#e8e8e8" stroke="#222" stroke-width="2.5"><animate attributeName="height" values="53;53;77;77;53;53" keyTimes="0;0.12;0.55;0.82;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/></rect>
+<rect x="258" y="146" width="30" height="14" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<path d="M254,140 A22,10 0 0 0 254,164" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="0.4;1;1;0.4;0.4;0.4" keyTimes="0;0.12;0.55;0.82;0.92;1" dur="6s" repeatCount="indefinite"/></path>
+</g>
+<g transform="translate(400,0)">
+<rect x="60" y="70" width="240" height="320" rx="6" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="200" cy="115" r="32" fill="#fde2c4" stroke="#222" stroke-width="3"/><circle cx="200" cy="115" r="6" fill="#222"/>
+<rect x="115" y="237" width="170" height="130" rx="6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="131" y="243" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<circle cx="140" cy="255" r="11" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><path d="M134,249 L146,261 M146,249 L134,261" stroke="#222" stroke-width="2"/>
+<rect x="251" y="243" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<circle cx="260" cy="255" r="11" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><path d="M254,249 L266,261 M266,249 L254,261" stroke="#222" stroke-width="2"/>
+<rect x="131" y="313" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<circle cx="140" cy="325" r="11" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><path d="M134,319 L146,331 M146,319 L134,331" stroke="#222" stroke-width="2"/>
+<rect x="251" y="313" width="18" height="48" rx="9" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<circle cx="260" cy="325" r="11" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><path d="M254,319 L266,331 M266,319 L254,331" stroke="#222" stroke-width="2"/>
+<circle cx="200" cy="302" r="22" fill="#fde2c4" stroke="#222" stroke-width="3"/><circle cx="200" cy="302" r="5" fill="#222"/>
+<path d="M168,115 L178,302 M232,115 L222,302" stroke="#222" stroke-width="5" fill="none"/>
+<rect x="250" y="175" width="46" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/><g stroke="#222" stroke-width="1.5"><line x1="254" y1="197" x2="274" y2="177"/><line x1="266" y1="197" x2="286" y2="177"/></g>
+<rect x="266" y="160" width="14" height="77" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="258" y="146" width="30" height="14" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="200" y="40" font-size="20" text-anchor="middle" font-weight="bold">1. Loosen, then jack it along</text>
+<text x="600" y="40" font-size="20" text-anchor="middle" font-weight="bold">2. Tight: lock the screws</text>
+<text x="180" y="62" font-size="18" text-anchor="middle">driven pulley</text>
+<text x="306" y="150" font-size="18">jacking</text>
+<text x="306" y="172" font-size="18">screw in</text>
+<text x="306" y="194" font-size="18">fixed lug</text>
+<text x="90" y="200" font-size="18">slack belt</text>
+<text x="200" y="424" font-size="18" text-anchor="middle">plate slides along its slots</text>
+<text x="470" y="200" font-size="18">belt tight</text>
+<text x="600" y="424" font-size="18" text-anchor="middle">clamping screws tightened</text>
+</g>
+</svg>

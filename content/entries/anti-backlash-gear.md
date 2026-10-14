@@ -121,23 +121,29 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Backlash.svg
 research: research/connection-types/results/Antibacklash_gear_split_scissor_gear.json
 image:
-  file: drawn/anti-backlash-gear.svg
+  file: drawn/anim/anti-backlash-gear.svg
   alt: 'Gear teeth drawn unrolled flat: on the left a solid gear leaves a gap beside the mating tooth, so the drive has play
     when it reverses; on the right the gear is split into a fixed half and a free half that a spring turns slightly, so their
-    teeth pinch the mating tooth from both sides and the gap is gone.'
+    teeth pinch the mating tooth from both sides and the gap is gone. The animation reverses the drive: on the left the mating
+    tooth waits while the gap closes, on the right it follows straight away.'
   drawn: true
+  still: drawn/anti-backlash-gear.svg
+  kind: animation
 pictures:
-- file: drawn/anti-backlash-gear.svg
+- file: drawn/anim/anti-backlash-gear.svg
   alt: 'Gear teeth drawn unrolled flat: on the left a solid gear leaves a gap beside the mating tooth, so the drive has play
     when it reverses; on the right the gear is split into a fixed half and a free half that a spring turns slightly, so their
-    teeth pinch the mating tooth from both sides and the gap is gone.'
+    teeth pinch the mating tooth from both sides and the gap is gone. The animation reverses the drive: on the left the mating
+    tooth waits while the gap closes, on the right it follows straight away.'
   drawn: true
+  still: drawn/anti-backlash-gear.svg
+  kind: animation
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, flexure, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, lubrication, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/anti-backlash-gear.svg" alt="Gear teeth drawn unrolled flat: on the left a solid gear leaves a gap beside the mating tooth, so the drive has play when it reverses; on the right the gear is split into a fixed half and a free half that a spring turns slightly, so their teeth pinch the mating tooth from both sides and the gap is g"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/anti-backlash-gear.svg"><img src="../media/drawn/anim/anti-backlash-gear.svg" alt="Gear teeth drawn unrolled flat: on the left a solid gear leaves a gap beside the mating tooth, so the drive has play when it reverses; on the right the gear is split into a fixed half and a free half that a spring turns slightly, so their teeth pinch the mating tooth from both sides and the gap is g"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A gear split into two side-by-side halves, one fixed to the shaft and one free to turn a little on it, pulled round against each other by springs so that together they fill the tooth gaps of the mating gear and remove the play ([backlash](../glossary.md#backlash)) that otherwise shows up every time the drive reverses.

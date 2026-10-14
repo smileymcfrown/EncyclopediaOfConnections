@@ -145,23 +145,29 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/4.pdf
 research: research/connection-types/results/Slidercrank.json
 image:
-  file: drawn/slider-crank.svg
+  file: drawn/anim/slider-crank.svg
   alt: 'A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide;
     at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider
-    sideways against its guide, and the slider travels twice the crank length.'
+    sideways against its guide, and the slider travels twice the crank length. In the animation the middle drawing starts
+    at 90 degrees, pauses, then turns the crank round so the rod swings and the slider runs back and forth in its guide.'
   drawn: true
+  still: drawn/slider-crank.svg
+  kind: animation
 pictures:
-- file: drawn/slider-crank.svg
+- file: drawn/anim/slider-crank.svg
   alt: 'A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide;
     at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider
-    sideways against its guide, and the slider travels twice the crank length.'
+    sideways against its guide, and the slider travels twice the crank length. In the animation the middle drawing starts
+    at 90 degrees, pauses, then turns the crank round so the rod swings and the slider runs back and forth in its guide.'
   drawn: true
+  still: drawn/slider-crank.svg
+  kind: animation
 glossary: [reciprocating, stroke, dead-point, over-centre, torque, cam-and-follower, crank, linkage, actuator, clearance,
   circlip, fatigue, lubrication, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/slider-crank.svg" alt="A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide; at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider sideways against its guide, and the slider travels twice the c"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slider-crank.svg"><img src="../media/drawn/anim/slider-crank.svg" alt="A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide; at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider sideways against its guide, and the slider travels twice the c"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A [crank](../glossary.md#crank) turns, and a connecting rod joins the crank's outer end to a slider (such as a piston) that moves only in a straight line, turning rotation into back-and-forth sliding or, in an engine, back-and-forth pushes into rotation.

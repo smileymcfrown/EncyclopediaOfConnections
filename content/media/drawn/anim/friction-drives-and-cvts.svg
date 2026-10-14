@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view shows a spring pressing the wheel onto the disc. In the animation the disc turns steadily while the wheel slides from the rim to past the centre and back; its tread runs fast, slow, stops, then runs backwards.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<pattern id="tread" width="12.376" height="16" patternUnits="userSpaceOnUse"><line x1="2" y1="0" x2="2" y2="16" stroke="#222" stroke-width="2"/><animateTransform attributeName="patternTransform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.1625;0.175;0.1875;0.2;0.2125;0.225;0.375;0.3875;0.4;0.4125;0.425;0.4375;0.45;0.6;0.6125;0.625;0.6375;0.65;0.6625;0.675;0.825;0.8542;0.8833;0.9125;0.9417;0.9708;1" values="0.0 0;81.7 0;88.4 0;94.7 0;100.2 0;104.9 0;108.8 0;112.3 0;153.2 0;156.5 0;159.3 0;161.4 0;162.7 0;163.3 0;163.4 0;163.4 0;163.3 0;162.7 0;161.4 0;159.3 0;156.5 0;153.2 0;112.3 0;105.0 0;100.8 0;101.9 0;108.7 0;120.9 0;136.1 0"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="490" y1="20" x2="490" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- front view: disc -->
+<circle cx="230" cy="225" r="150" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" values="0 230 225;240 230 225"/><circle cx="352" cy="225" r="6" fill="#ffffff" stroke="#222" stroke-width="2"/><circle cx="169" cy="330.7" r="6" fill="#ffffff" stroke="#222" stroke-width="2"/><circle cx="169" cy="119.3" r="6" fill="#ffffff" stroke="#222" stroke-width="2"/><circle cx="261" cy="278.7" r="6" fill="#ffffff" stroke="#222" stroke-width="2"/><circle cx="168" cy="225" r="6" fill="#ffffff" stroke="#222" stroke-width="2"/><circle cx="261" cy="171.3" r="6" fill="#ffffff" stroke="#222" stroke-width="2"/></g>
+<path d="M397,286 A178,178 0 0 1 319,379" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- output shaft across the face -->
+<rect x="225" y="55" width="10" height="345" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<!-- ghost wheel positions -->
+<g fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5">
+<rect x="195" y="152" width="70" height="16" rx="5"/>
+<rect x="195" y="217" width="70" height="16" rx="5"/>
+<rect x="195" y="282" width="70" height="16" rx="5"/>
+</g>
+<!-- wheel slides along the shaft -->
+<g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.1625;0.175;0.1875;0.2;0.2125;0.225;0.375;0.3875;0.4;0.4125;0.425;0.4375;0.45;0.6;0.6125;0.625;0.6375;0.65;0.6625;0.675;0.825;0.8542;0.8833;0.9125;0.9417;0.9708;1" values="0 0;0 0;0 4.8;0 16.9;0 32.5;0 48.1;0 60.2;0 65;0 65;0 69.8;0 81.9;0 97.5;0 113.1;0 125.2;0 130;0 130;0 134.8;0 146.9;0 162.5;0 178.1;0 190.2;0 195;0 195;0 180.6;0 144.4;0 97.5;0 50.6;0 14.4;0 0"/><rect x="195" y="87" width="70" height="16" rx="5" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="199" y="89" width="62" height="12" fill="url(#tread)" opacity="0.6"/><rect x="195" y="87" width="70" height="16" rx="5" fill="none" stroke="#222" stroke-width="3"/></g>
+<line x1="60" y1="95" x2="60" y2="290" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<!-- side view -->
+<rect x="640" y="75" width="22" height="300" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="662" y="218" width="70" height="14" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<rect x="732" y="195" width="50" height="60" rx="6" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="605" y="55" width="10" height="290" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.1625;0.175;0.1875;0.2;0.2125;0.225;0.375;0.3875;0.4;0.4125;0.425;0.4375;0.45;0.6;0.6125;0.625;0.6375;0.65;0.6625;0.675;0.825;0.8542;0.8833;0.9125;0.9417;0.9708;1" values="0 0;0 0;0 4.8;0 16.9;0 32.5;0 48.1;0 60.2;0 65;0 65;0 69.8;0 81.9;0 97.5;0 113.1;0 125.2;0 130;0 130;0 134.8;0 146.9;0 162.5;0 178.1;0 190.2;0 195;0 195;0 180.6;0 144.4;0 97.5;0 50.6;0 14.4;0 0"/><rect x="580" y="87" width="60" height="16" rx="5" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<rect x="520" y="270" width="14" height="60" fill="url(#hatch)" stroke="#222" stroke-width="2"/>
+<polyline points="534,300 544,300 551,286 561,314 571,286 581,314 588,300 605,300" fill="none" stroke="#222" stroke-width="3"/>
+<line x1="540" y1="95" x2="574" y2="95" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="240" y="32" font-size="21" font-weight="bold">Front: slide the wheel</text>
+<text x="640" y="32" font-size="21" font-weight="bold">Side view</text>
+<g text-anchor="start">
+<text x="275" y="101">fast</text>
+<text x="275" y="166">slow</text>
+<text x="275" y="231">stop</text>
+<text x="275" y="296">backwards</text>
+</g>
+<text x="410" y="405">disc turns</text>
+<text x="200" y="430">output wheel slides along its shaft</text>
+<text x="560" y="360">spring presses</text>
+<text x="560" y="382">wheel onto disc</text>
+<text x="757" y="285">motor</text>
+<text x="645" y="430">Too much load: it slips</text>
+</g>
+</svg>

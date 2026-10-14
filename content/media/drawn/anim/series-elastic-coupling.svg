@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock on the joint squashes the spring so the gear teeth feel only a gentle push. The animation has the motor wind up the spring so the motor dial turns further than the joint dial, then shows a hammer knock pushing the joint back while the spring squashes and springs back.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="20" y1="232" x2="780" y2="232" stroke="#cccccc" stroke-width="2"/>
+<rect x="40" y="75" width="170" height="90" rx="8" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="210" y1="120" x2="262" y2="120" stroke="#222" stroke-width="6"><animate attributeName="x2" values="262;262;292;292;262;262" keyTimes="0;0.08;0.22;0.36;0.48;1" dur="6s" repeatCount="indefinite"/></line>
+<rect x="262" y="90" width="10" height="60" fill="#e8e8e8" stroke="#222" stroke-width="2.5"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;30 0;30 0;0 0;0 0" keyTimes="0;0.08;0.22;0.36;0.48;1" dur="6s" repeatCount="indefinite"/></rect>
+<polyline points="272.0,120.0 283.1,98.0 294.2,142.0 305.4,98.0 316.5,142.0 327.6,98.0 338.8,142.0 349.9,98.0 361.0,142.0 372.1,98.0 383.2,142.0 394.4,98.0 405.5,142.0 416.6,98.0 427.8,142.0 438.9,98.0 450.0,120.0" fill="none" stroke="#222" stroke-width="3"><animate attributeName="points" values="272.0,120.0 283.1,98.0 294.2,142.0 305.4,98.0 316.5,142.0 327.6,98.0 338.8,142.0 349.9,98.0 361.0,142.0 372.1,98.0 383.2,142.0 394.4,98.0 405.5,142.0 416.6,98.0 427.8,142.0 438.9,98.0 450.0,120.0;272.0,120.0 283.1,98.0 294.2,142.0 305.4,98.0 316.5,142.0 327.6,98.0 338.8,142.0 349.9,98.0 361.0,142.0 372.1,98.0 383.2,142.0 394.4,98.0 405.5,142.0 416.6,98.0 427.8,142.0 438.9,98.0 450.0,120.0;302.0,120.0 311.2,98.0 320.5,142.0 329.8,98.0 339.0,142.0 348.2,98.0 357.5,142.0 366.8,98.0 376.0,142.0 385.2,98.0 394.5,142.0 403.8,98.0 413.0,142.0 422.2,98.0 431.5,142.0 440.8,98.0 450.0,120.0;302.0,120.0 311.2,98.0 320.5,142.0 329.8,98.0 339.0,142.0 348.2,98.0 357.5,142.0 366.8,98.0 376.0,142.0 385.2,98.0 394.5,142.0 403.8,98.0 413.0,142.0 422.2,98.0 431.5,142.0 440.8,98.0 450.0,120.0;272.0,120.0 283.1,98.0 294.2,142.0 305.4,98.0 316.5,142.0 327.6,98.0 338.8,142.0 349.9,98.0 361.0,142.0 372.1,98.0 383.2,142.0 394.4,98.0 405.5,142.0 416.6,98.0 427.8,142.0 438.9,98.0 450.0,120.0;272.0,120.0 283.1,98.0 294.2,142.0 305.4,98.0 316.5,142.0 327.6,98.0 338.8,142.0 349.9,98.0 361.0,142.0 372.1,98.0 383.2,142.0 394.4,98.0 405.5,142.0 416.6,98.0 427.8,142.0 438.9,98.0 450.0,120.0" keyTimes="0;0.08;0.22;0.36;0.48;1" dur="6s" repeatCount="indefinite"/></polyline>
+<rect x="450" y="90" width="10" height="60" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="460" y1="120" x2="500" y2="120" stroke="#222" stroke-width="6"/>
+<rect x="500" y="75" width="130" height="90" rx="8" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<circle cx="237" cy="64" r="20" fill="#ffffff" stroke="#222" stroke-width="2.5"/><line x1="237" y1="64" x2="242.1" y2="49.9" stroke="#222" stroke-width="3"><animateTransform attributeName="transform" type="rotate" values="0 237 64;0 237 64;55 237 64;55 237 64;0 237 64;0 237 64" keyTimes="0;0.08;0.22;0.36;0.48;1" dur="6s" repeatCount="indefinite"/></line><circle cx="237" cy="64" r="3" fill="#222"/><line x1="237" y1="84" x2="237" y2="109" stroke="#222" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="485" cy="64" r="20" fill="#ffffff" stroke="#222" stroke-width="2.5"/><line x1="485" y1="64" x2="478.7" y2="50.4" stroke="#222" stroke-width="3"><animateTransform attributeName="transform" type="rotate" values="0 485 64;0 485 64;15 485 64;15 485 64;0 485 64;0 485 64" keyTimes="0;0.08;0.22;0.36;0.48;1" dur="6s" repeatCount="indefinite"/></line><circle cx="485" cy="64" r="3" fill="#222"/><line x1="485" y1="84" x2="485" y2="109" stroke="#222" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="40" y="285" width="170" height="90" rx="8" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="210" y1="330" x2="262" y2="330" stroke="#222" stroke-width="6"/>
+<rect x="262" y="300" width="10" height="60" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<polyline points="272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0" fill="none" stroke="#222" stroke-width="3"><animate attributeName="points" values="272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0;272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0;272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0;272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0;272.0,330.0 276.9,304.0 281.8,356.0 286.6,304.0 291.5,356.0 296.4,304.0 301.2,356.0 306.1,304.0 311.0,356.0 315.9,304.0 320.8,356.0 325.6,304.0 330.5,356.0 335.4,304.0 340.2,356.0 345.1,304.0 350.0,330.0;272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0;272.0,330.0 278.8,304.0 285.5,356.0 292.2,304.0 299.0,356.0 305.8,304.0 312.5,356.0 319.2,304.0 326.0,356.0 332.8,304.0 339.5,356.0 346.2,304.0 353.0,356.0 359.8,304.0 366.5,356.0 373.2,304.0 380.0,330.0" keyTimes="0;0.5;0.62;0.7;0.76;0.92;1" dur="6s" repeatCount="indefinite"/></polyline>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 0;-30 0;0 0;0 0" keyTimes="0;0.5;0.62;0.7;0.76;0.92;1" dur="6s" repeatCount="indefinite"/><rect x="380" y="300" width="10" height="60" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="390" y1="330" x2="430" y2="330" stroke="#222" stroke-width="6"/>
+<rect x="430" y="285" width="130" height="90" rx="8" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;20 0;-75 0;-105 0;0 0;0 0" keyTimes="0;0.5;0.62;0.7;0.76;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0.6 0 1 1;0 0 0.6 1;0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/><rect x="635" y="300" width="44" height="60" rx="4" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="679" y="322" width="90" height="16" rx="4" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<line x1="627" y1="330" x2="568" y2="330" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.6;0.64;0.9;0.95;1" dur="6s" repeatCount="indefinite"/></line>
+<line x1="372" y1="384" x2="280" y2="384" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="125" y="114" font-size="18" text-anchor="middle">motor +</text>
+<text x="125" y="138" font-size="18" text-anchor="middle">gearbox</text>
+<text x="565" y="126" font-size="18" text-anchor="middle">joint</text>
+<text x="361" y="180" font-size="18" text-anchor="middle">spring</text>
+<text x="361" y="66" font-size="18" text-anchor="middle">angle sensors</text>
+<text x="400" y="215" font-size="18" text-anchor="middle" font-weight="bold">force = spring stiffness × angle difference</text>
+<text x="125" y="324" font-size="18" text-anchor="middle">motor +</text>
+<text x="125" y="348" font-size="18" text-anchor="middle">gearbox</text>
+<text x="495" y="336" font-size="18" text-anchor="middle">joint</text>
+<text x="665" y="286" font-size="18" text-anchor="middle">sudden knock</text>
+<text x="290" y="410" font-size="18">spring squashes: the gears feel only a gentle push</text>
+</g>
+</svg>

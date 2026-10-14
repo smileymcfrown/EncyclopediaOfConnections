@@ -108,23 +108,29 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=SSKu5k4xVPI&format=json
 research: research/connection-types/results/Bindingplate_lock_tilting_friction_plate.json
 image:
-  file: drawn/binding-plate-lock.svg
+  file: drawn/anim/binding-plate-lock.svg
   alt: 'A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides
     freely, and on the right a spring tips the plate so two opposite edges of the hole bite the rod and pushing the rod tips
-    the plate harder and locks it.'
+    the plate harder and locks it. Animated: the rod slides to and fro through the square plate, while the tipped plate holds
+    its rod still as each push makes the edges bite harder.'
   drawn: true
+  still: drawn/binding-plate-lock.svg
+  kind: animation
 pictures:
-- file: drawn/binding-plate-lock.svg
+- file: drawn/anim/binding-plate-lock.svg
   alt: 'A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides
     freely, and on the right a spring tips the plate so two opposite edges of the hole bite the rod and pushing the rod tips
-    the plate harder and locks it.'
+    the plate harder and locks it. Animated: the rod slides to and fro through the square plate, while the tipped plate holds
+    its rod still as each push makes the edges bite harder.'
   drawn: true
+  still: drawn/binding-plate-lock.svg
+  kind: animation
 glossary: [self-locking, detent, ratchet, sprag, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/binding-plate-lock.svg" alt="A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides freely, and on the right a spring tips the plate so two opposite edges of the hole bite the rod and pushing the rod tips the plate harder and locks it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/binding-plate-lock.svg"><img src="../media/drawn/anim/binding-plate-lock.svg" alt="A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides freely, and on the right a spring tips the plate so two opposite edges of the hole bite the rod and pushing the rod tips the plate harder and locks it. Animated: the rod slides to "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A flat plate with a slightly oversized hole that slides freely along a rod while it sits square, but tips a few degrees and wedges the edges of its hole against the rod when pushed the other way, giving a stepless one-way lock that you release by pushing the plate square again.

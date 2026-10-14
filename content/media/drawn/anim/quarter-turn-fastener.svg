@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into its end notch so the panel is pulled tight against the frame and clicks locked; the right-hand view turns back to release and then turns again to lock.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="390" stroke="#cccccc" stroke-width="2"/>
+<rect x="60" y="145" width="126" height="25" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="214" y="145" width="126" height="25" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M140,170 L140,282 Q140,294 152,294 L248,294 Q260,294 260,282 L260,170" fill="none" stroke="#222" stroke-width="4"/>
+<rect x="60" y="80" width="126" height="25" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="214" y="80" width="126" height="25" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="183" y="74" width="34" height="158" rx="4" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="164" y="56" width="72" height="20" rx="9" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="186" y1="66" x2="214" y2="66" stroke="#222" stroke-width="3"/>
+<path d="M194,232 L194,224 L207,202 L207,192 L197,188 L194,194" fill="none" stroke="#222" stroke-width="7"/>
+<path d="M140,232 Q200,232 260,232" fill="none" stroke="#555555" stroke-width="5"/>
+<circle cx="140" cy="232" r="4" fill="#222"/><circle cx="260" cy="232" r="4" fill="#222"/>
+<rect x="460" y="145" width="126" height="25" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="614" y="145" width="126" height="25" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M540,170 L540,282 Q540,294 552,294 L648,294 Q660,294 660,282 L660,170" fill="none" stroke="#222" stroke-width="4"/>
+<g><animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.36;0.56;0.84;0.87;0.9;1" values="0,0;0,0;0,-40;0,-40;0,0;0,0;0,0;0,0" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+<rect x="460" y="120" width="126" height="25" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="614" y="120" width="126" height="25" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="583" y="114" width="34" height="158" rx="4" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="564" y="96" width="72" height="20" rx="9" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="586" y1="106" x2="614" y2="106" stroke="#222" stroke-width="3"/>
+<path d="M594,272 L594,264 L607,242 L607,232 L597,228 L594,234" fill="none" stroke="#222" stroke-width="7"/>
+<path d="M548,90 Q600,64 652,90" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" keyTimes="0;0.18;0.22;0.54;0.58;0.86;1" values="1;1;0;0;1;1;1"/></path>
+</g>
+<path d="M540,232 Q600,236 660,232" fill="none" stroke="#555555" stroke-width="5"><animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.36;0.56;0.84;0.87;0.9;1" values="M540,232 Q600,236 660,232;M540,232 Q600,236 660,232;M540,232 Q600,232 660,232;M540,232 Q600,232 660,232;M540,232 Q600,236 660,232;M540,232 Q600,239 660,232;M540,232 Q600,236 660,232;M540,232 Q600,236 660,232" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/></path>
+<circle cx="540" cy="232" r="4" fill="#222"/><circle cx="660" cy="232" r="4" fill="#222"/>
+
+<line x1="320" y1="110" x2="320" y2="141" stroke="#d1495b" stroke-width="3" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">Pushed in</text>
+<text x="600" y="36" font-size="21" font-weight="bold">After a quarter turn</text>
+<text x="110" y="70">panel</text>
+<text x="110" y="196">frame</text><text x="224" y="216" text-anchor="start">stud</text>
+<text x="345" y="132" text-anchor="start">gap</text>
+<text x="200" y="326">wire spring at the</text><text x="200" y="348">mouth of the slot</text>
+<text x="600" y="62" text-anchor="middle"> </text>
+<text x="600" y="326">wire drawn up the slot,</text><text x="600" y="348">clicks into the end notch</text>
+<text x="700" y="108">pulled tight</text>
+<text x="400" y="420">The spiral slot acts like a cam: a quarter turn clamps and locks the panel</text>
+</g></svg>

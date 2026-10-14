@@ -140,22 +140,28 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Needle_valve.jpg
 research: research/connection-types/results/Speedcontrol_valve_flow_control_valve_needle_valve.json
 image:
-  file: drawn/speed-control-valve.svg
+  file: drawn/anim/speed-control-valve.svg
   alt: 'A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes
     the one-way check valve open and flows in freely; on the outlet side the check valve is pushed shut, so the escaping air
-    must squeeze past an adjustable needle, which sets how fast the piston moves.'
+    must squeeze past an adjustable needle, which sets how fast the piston moves. Animated: the piston slides out slowly while
+    the air flows; on the way back the two check valves swap over.'
   drawn: true
+  still: drawn/speed-control-valve.svg
+  kind: animation
 pictures:
-- file: drawn/speed-control-valve.svg
+- file: drawn/anim/speed-control-valve.svg
   alt: 'A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes
     the one-way check valve open and flows in freely; on the outlet side the check valve is pushed shut, so the escaping air
-    must squeeze past an adjustable needle, which sets how fast the piston moves.'
+    must squeeze past an adjustable needle, which sets how fast the piston moves. Animated: the piston slides out slowly while
+    the air flows; on the way back the two check valves swap over.'
   drawn: true
+  still: drawn/speed-control-valve.svg
+  kind: animation
 glossary: [stroke, actuator, solenoid, stick-slip, tolerance, repeatability--accuracy, infill, check-valve, regulator]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/speed-control-valve.svg" alt="A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes the one-way check valve open and flows in freely; on the outlet side the check valve is pushed shut, so the escaping air must squeeze past an adjustable needle, which sets how fast th"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/speed-control-valve.svg"><img src="../media/drawn/anim/speed-control-valve.svg" alt="A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes the one-way check valve open and flows in freely; on the outlet side the check valve is pushed shut, so the escaping air must squeeze past an adjustable needle, which sets how fast th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A needle valve and a one-way [check valve](../glossary.md#check-valve) in one small body: air or oil going one way must squeeze through a narrow gap that you set with a screw, which slows the cylinder, while flow the other way bypasses the gap, so each [stroke](../glossary.md#stroke)'s speed can be set separately without reducing the cylinder's force.

@@ -142,23 +142,29 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_drives_and_CVTs_friction_wheel_variator.json
 image:
-  file: drawn/friction-drives-and-cvts.svg
+  file: drawn/anim/friction-drives-and-cvts.svg
   alt: 'A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards
     the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view
-    shows a spring pressing the wheel onto the disc.'
+    shows a spring pressing the wheel onto the disc. In the animation the disc turns steadily while the wheel slides from
+    the rim to past the centre and back; its tread runs fast, slow, stops, then runs backwards.'
   drawn: true
+  still: drawn/friction-drives-and-cvts.svg
+  kind: animation
 pictures:
-- file: drawn/friction-drives-and-cvts.svg
+- file: drawn/anim/friction-drives-and-cvts.svg
   alt: 'A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards
     the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view
-    shows a spring pressing the wheel onto the disc.'
+    shows a spring pressing the wheel onto the disc. In the animation the disc turns steadily while the wheel slides from
+    the rim to past the centre and back; its tread runs fast, slow, stops, then runs backwards.'
   drawn: true
+  still: drawn/friction-drives-and-cvts.svg
+  kind: animation
 glossary: [misalignment, backlash, freewheel, torque, idler, form-fit--force-fit--material-bond, set-screw, creep, fatigue,
   layer-lines, cure, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/friction-drives-and-cvts.svg" alt="A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view shows a spring pressing the wheel onto the disc."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/friction-drives-and-cvts.svg"><img src="../media/drawn/anim/friction-drives-and-cvts.svg" alt="A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view shows a spring pressing the wheel onto the disc. In the animatio"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A wheel or roller pressed against a wheel, disc, cone, ring or ball passes on rotation purely by friction, so it is smooth, quiet and free of play ([backlash](../glossary.md#backlash)), slips instead of breaking when overloaded and, when the contact point can be moved across a disc or cone, gives a smoothly variable speed ratio (a continuously variable transmission).

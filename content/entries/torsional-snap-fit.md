@@ -108,24 +108,28 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Torsional_snap_fit.json
 image:
-  file: drawn/torsional-snap-fit.svg
+  file: drawn/anim/torsional-snap-fit.svg
   alt: 'Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped
     hook outward and twists the bar, then the hook springs back over the lid to lock it, and pressing the pad below the bar
-    tips the hook clear so the lid lifts free.'
+    tips the hook clear so the lid lifts free; the first and last views move through closing and opening.'
   drawn: true
+  still: drawn/torsional-snap-fit.svg
+  kind: animation
 pictures:
-- file: drawn/torsional-snap-fit.svg
+- file: drawn/anim/torsional-snap-fit.svg
   alt: 'Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped
     hook outward and twists the bar, then the hook springs back over the lid to lock it, and pressing the pad below the bar
-    tips the hook clear so the lid lifts free.'
+    tips the hook clear so the lid lifts free; the first and last views move through closing and opening.'
   drawn: true
+  still: drawn/torsional-snap-fit.svg
+  kind: animation
 glossary: [misalignment, over-centre, fail-safe--fail-secure, stiffness, flexure, cantilever, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, holding-force, chamfer--fillet, undercut, creep, fatigue, brittle--ductile, perimeters,
   infill, elephants-foot, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/torsional-snap-fit.svg" alt="Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped hook outward and twists the bar, then the hook springs back over the lid to lock it, and pressing the pad below the bar tips the hook clear so the lid lifts free."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/torsional-snap-fit.svg"><img src="../media/drawn/anim/torsional-snap-fit.svg" alt="Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped hook outward and twists the bar, then the hook springs back over the lid to lock it, and pressing the pad below the bar tips the hook clear so the lid lifts free; the first and las"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A snap catch whose hooked arm is carried on a short bar that twists like a tiny spring ([torsion](../glossary.md#torsion) bar), so the hook clicks behind a lip when the lid closes and swings clear when you press the other end of the arm.

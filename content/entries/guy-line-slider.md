@@ -145,22 +145,28 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=OI2Mg5BQ_mo&format=json
 research: research/connection-types/results/Guyline_slider_friction_line_tensioner.json
 image:
-  file: drawn/guy-line-slider.svg
+  file: drawn/anim/guy-line-slider.svg
   alt: 'A guy line running from a tent down round a stake and back up through a three-hole runner with a stopper knot, with
     an arrow showing the runner slid up the line to tighten it, and two close-ups: a loaded cord bent sharply round the hole
-    edges where friction grips it, and a slack cord passing through in loose curves so it slides.'
+    edges where friction grips it, and a slack cord passing through in loose curves so it slides. Animated: the runner and
+    stopper knot slide up the line and back down again.'
   drawn: true
+  still: drawn/guy-line-slider.svg
+  kind: animation
 pictures:
-- file: drawn/guy-line-slider.svg
+- file: drawn/anim/guy-line-slider.svg
   alt: 'A guy line running from a tent down round a stake and back up through a three-hole runner with a stopper knot, with
     an arrow showing the runner slid up the line to tighten it, and two close-ups: a loaded cord bent sharply round the hole
-    edges where friction grips it, and a slack cord passing through in loose curves so it slides.'
+    edges where friction grips it, and a slack cord passing through in loose curves so it slides. Animated: the runner and
+    stopper knot slide up the line and back down again.'
   drawn: true
+  still: drawn/guy-line-slider.svg
+  kind: animation
 glossary: [self-locking, mechanical-advantage, form-fit--force-fit--material-bond, chamfer--fillet, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/guy-line-slider.svg" alt="A guy line running from a tent down round a stake and back up through a three-hole runner with a stopper knot, with an arrow showing the runner slid up the line to tighten it, and two close-ups: a loaded cord bent sharply round the hole edges where friction grips it, and a slack cord passing through"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/guy-line-slider.svg"><img src="../media/drawn/anim/guy-line-slider.svg" alt="A guy line running from a tent down round a stake and back up through a three-hole runner with a stopper knot, with an arrow showing the runner slid up the line to tighten it, and two close-ups: a loaded cord bent sharply round the hole edges where friction grips it, and a slack cord passing through"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A small plate or block with holes (or a toothed groove) that a cord zig-zags through, so sliding it along the cord shortens or lengthens a loop, and the pull of the tight line makes it grip the cord by friction so the tension holds without a knot.

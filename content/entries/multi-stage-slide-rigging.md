@@ -141,22 +141,28 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Multistage_slide_rigging_cascade_and_continuous_string_rigging.json
 image:
-  file: drawn/multi-stage-slide-rigging.svg
+  file: drawn/anim/multi-stage-slide-rigging.svg
   alt: 'Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides
     out first, and on the right a separate string for each stage makes all stages move together, each faster than the one
-    below.'
+    below. The animation winds the spool in: on the left the top stage slides out first and then the next one down, while
+    on the right all three stages rise together at 1x, 2x and 3x speed; then the stages are drawn back in.'
   drawn: true
+  still: drawn/multi-stage-slide-rigging.svg
+  kind: animation
 pictures:
-- file: drawn/multi-stage-slide-rigging.svg
+- file: drawn/anim/multi-stage-slide-rigging.svg
   alt: 'Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides
     out first, and on the right a separate string for each stage makes all stages move together, each faster than the one
-    below.'
+    below. The animation winds the spool in: on the left the top stage slides out first and then the next one down, while
+    on the right all three stages rise together at 1x, 2x and 3x speed; then the stages are drawn back in.'
   drawn: true
+  still: drawn/multi-stage-slide-rigging.svg
+  kind: animation
 glossary: [misalignment, self-locking, gear-ratio, actuator, tolerance, creep, layer-lines, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/multi-stage-slide-rigging.svg" alt="Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides out first, and on the right a separate string for each stage makes all stages move together, each faster than the one below."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/multi-stage-slide-rigging.svg"><img src="../media/drawn/anim/multi-stage-slide-rigging.svg" alt="Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides out first, and on the right a separate string for each stage makes all stages move together, each faster than the one below. The animation winds the spool in: on the left the top stage "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A way of threading strings, belts or chains over pulleys on a set of nested sliding stages so that a single motor-driven reel extends every stage, either all at once in proportion (cascade) or one stage after another (continuous), with a second string or spring to pull them back in.

@@ -158,23 +158,29 @@ sources:
 - https://www.printables.com/model/81211-m3-m10-3d-printed-thread-test
 research: research/connection-types/results/Printed_screw_thread.json
 image:
-  file: drawn/printed-screw-thread.svg
+  file: drawn/anim/printed-screw-thread.svg
   alt: 'A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping
     45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread
-    so they turn without jamming.'
+    so they turn without jamming. The lid unscrews one turn and rises by one pitch, then screws back down; the ridges in the
+    cut stay in place because the thread is a spiral.'
   drawn: true
+  still: drawn/printed-screw-thread.svg
+  kind: animation
 pictures:
-- file: drawn/printed-screw-thread.svg
+- file: drawn/anim/printed-screw-thread.svg
   alt: 'A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping
     45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread
-    so they turn without jamming.'
+    so they turn without jamming. The lid unscrews one turn and rises by one pitch, then screws back down; the ridges in the
+    cut stay in place because the thread is a spiral.'
   drawn: true
+  still: drawn/printed-screw-thread.svg
+  kind: animation
 glossary: [misalignment, self-locking, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, brittle--ductile, perimeters, infill, elephants-foot, overhang--bridging, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/printed-screw-thread.svg" alt="A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping 45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread so they turn without jamming."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/printed-screw-thread.svg"><img src="../media/drawn/anim/printed-screw-thread.svg" alt="A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping 45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread so they turn without jamming. The lid unscrews one turn and "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A spiral ridge (thread) modelled straight into two printed parts so they screw together by hand or with a tool, with extra [clearance](../glossary.md#clearance) added so printing errors don't make it jam.

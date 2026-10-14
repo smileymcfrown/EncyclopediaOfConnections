@@ -116,23 +116,29 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Quarterturn_fastener_Dzustype.json
 image:
-  file: drawn/quarter-turn-fastener.svg
+  file: drawn/anim/quarter-turn-fastener.svg
   alt: 'Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral
     slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into
-    its end notch so the panel is pulled tight against the frame and clicks locked.'
+    its end notch so the panel is pulled tight against the frame and clicks locked; the right-hand view turns back to release
+    and then turns again to lock.'
   drawn: true
+  still: drawn/quarter-turn-fastener.svg
+  kind: animation
 pictures:
-- file: drawn/quarter-turn-fastener.svg
+- file: drawn/anim/quarter-turn-fastener.svg
   alt: 'Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral
     slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into
-    its end notch so the panel is pulled tight against the frame and clicks locked.'
+    its end notch so the panel is pulled tight against the frame and clicks locked; the right-hand view turns back to release
+    and then turns again to lock.'
   drawn: true
+  still: drawn/quarter-turn-fastener.svg
+  kind: animation
 glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/quarter-turn-fastener.svg" alt="Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into its end notch so the panel is pulled tight against the frame an"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/quarter-turn-fastener.svg"><img src="../media/drawn/anim/quarter-turn-fastener.svg" alt="Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into its end notch so the panel is pulled tight against the frame an"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
 </div>
 
 A captive stud in a removable panel whose spiral slot (or cross pin) rides over a spring or cam in a receptacle on the frame, so a quarter turn pulls the panel tight and snaps it into a locked position that vibration can't undo.
