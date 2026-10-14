@@ -10,7 +10,7 @@
 <text x="210" y="44" text-anchor="middle" font-size="21" font-weight="bold">Front view</text>
 <text x="610" y="44" text-anchor="middle" font-size="21" font-weight="bold">End view</text>
 <text x="190" y="110" text-anchor="middle">rope drum</text>
-<text x="372" y="272" text-anchor="middle">crank</text>
+<text x="372" y="143.3" text-anchor="middle">crank<animate attributeName="y" values="143.3;143.3;155.8;157.3;161.8;163.3;166.4;167.9;187.0;188.6;193.4;195.0;198.2;199.8;218.6;220.1;224.5;225.9;228.8;230.2;245.8;247.0;250.3;251.4;253.5;254.5;264.5;265.2;267.0;267.5;268.5;269.0;270.1;270.1;270.1;143.3;143.3;143.3" keyTimes="0;0.04;0.0868;0.092;0.1076;0.1128;0.1232;0.1284;0.1908;0.196;0.2116;0.2168;0.2272;0.2324;0.2948;0.3;0.3156;0.3208;0.3312;0.3364;0.3988;0.404;0.4196;0.4248;0.4352;0.4404;0.5028;0.508;0.5236;0.5288;0.5392;0.5444;0.56;0.66;0.7;0.9;0.94;1" dur="6s" repeatCount="indefinite"/></text>
 <text x="716" y="88">pawl</text>
 <text x="500" y="100" text-anchor="middle">long crank</text>
 <text x="688" y="222">ratchet</text><text x="688" y="244">wheel</text>
