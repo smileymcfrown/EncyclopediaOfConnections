@@ -1,7 +1,10 @@
 name: Deploy site
-# Publishes the site to GitHub Pages. Started by hand for now (Actions → Deploy site → Run
-# workflow); see site/README.md. Needs Settings → Pages → Source set to "GitHub Actions".
+# Publishes the site to GitHub Pages on every push to main, which includes every merged pull
+# request (D34). It can still be started by hand: Actions → Deploy site → Run workflow. See
+# site/README.md. Needs Settings → Pages → Source set to "GitHub Actions".
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
