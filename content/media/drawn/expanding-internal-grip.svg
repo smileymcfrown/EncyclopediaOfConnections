@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside of the tube.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="80" y="133" width="190" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="80" y="277" width="190" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="20.0,193.0 110.0,193.0 110.0,165.0 190.0,189.0 190.0,203.0 350.0,203.0 350.0,227.0 190.0,227.0 190.0,241.0 110.0,265.0 110.0,237.0 20.0,237.0" fill="#e8e8e8" stroke="#222" stroke-width="3" transform="translate(0 0)"/>
+<polygon points="150.0,177.0 150.0,165.0 222.0,165.0 222.0,198.6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="150.0,253.0 150.0,265.0 222.0,265.0 222.0,231.4" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="222" y="185" width="26" height="60" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<rect x="480" y="133" width="190" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="480" y="277" width="190" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="20.0,193.0 110.0,193.0 110.0,165.0 190.0,189.0 190.0,203.0 350.0,203.0 350.0,227.0 190.0,227.0 190.0,241.0 110.0,265.0 110.0,237.0 20.0,237.0" fill="#e8e8e8" stroke="#222" stroke-width="3" transform="translate(400 0)"/>
+<polygon points="518.0,167.4 518.0,153.0 590.0,153.0 590.0,189.0" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="518.0,262.6 518.0,277.0 590.0,277.0 590.0,241.0" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="590" y="185" width="26" height="60" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<line x1="670" y1="215" x2="624" y2="215" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="536" y1="179" x2="536" y2="157" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="536" y1="251" x2="536" y2="273" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="572" y1="179" x2="572" y2="157" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="572" y1="251" x2="572" y2="273" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">Loose: part slides on</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Nut tightened: grips</text>
+<text x="175" y="118">part (tube or ring)</text>
+<text x="186" y="330">gap</text>
+<line x1="186" y1="312" x2="186" y2="270" stroke="#222" stroke-width="1.5"/>
+<text x="70" y="330">tapered bar</text>
+<line x1="70" y1="312" x2="100" y2="240" stroke="#222" stroke-width="1.5"/>
+<text x="300" y="360">slotted sleeve</text>
+<line x1="270" y1="342" x2="200" y2="262" stroke="#222" stroke-width="1.5"/>
+<text x="300" y="300">nut</text>
+<line x1="290" y1="284" x2="245" y2="246" stroke="#222" stroke-width="1.5"/>
+<text x="600" y="360">sleeve pushed up the taper</text><text x="600" y="381">swells and presses outward</text>
+<text x="400" y="436" font-size="19">Fingers or an air bag can do the same job: grow outward, grip from the inside</text>
+</g></svg>

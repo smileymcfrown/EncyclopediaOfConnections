@@ -1,0 +1,199 @@
+# Picture review, batch 02 (sheets 06-10)
+
+# --- sheet06 ---
+clip-on-concealed-hinge:
+  verdict: keep
+  reason: animation shows the cup hinge in a door and how the door swings out as it opens (German labels are small)
+coil-spring:
+  verdict: keep
+  reason: clear drawing of a compression coil spring; a photo of all three spring types would be nicer
+collet:
+  verdict: keep
+  reason: animation shows the collet pulled into its cone and gripping the shaft
+combination-lock:
+  verdict: keep
+  reason: exploded view of the notched number wheels, which is the mechanism
+compliant-gripper-and-force-amplifier:
+  verdict: keep
+  reason: one-piece compliant pliers, the item itself
+compliant-ratchet-and-overrunning-clutch:
+  verdict: drawn
+  reason: cable-tie cutaway is a linear example and hard to read; new diagram shows a one-piece hub with springy pawl arms clicking one way and locking the other
+compression-fitting:
+  verdict: keep
+  reason: cut-away drawing of nut, ring and tube shows how it grips and seals
+conductive-glue-paint-and-ink:
+  verdict: drawn
+  reason: microscope image of silver flakes means nothing to a beginner; new diagram shows a glue blob joining a leg to a track and a pen drawing a track
+conductive-tape:
+  verdict: keep
+  reason: clear photo of a roll of copper tape
+conductive-thread:
+  verdict: keep
+  reason: clear photo of a bobbin of conductive thread
+constant-force-spring:
+  verdict: drawn
+  reason: current picture is only a force graph; new diagram shows the coiled strip pulled out to different lengths with the same pull, plus a small graph
+constant-velocity-joint:
+  verdict: keep
+  reason: animation of a CV joint turning while bent
+
+# --- sheet07 ---
+contact-adhesive:
+  verdict: keep
+  reason: clear photo of a can of contact cement, with its uses printed on the label
+cord-lock:
+  verdict: keep
+  reason: clear photo of a barrel cord lock with its plunger hole
+crimp-terminals:
+  verdict: keep
+  reason: many kinds of crimp terminals on wires, side by side
+crimped-butt-splice:
+  verdict: keep
+  reason: insulated butt connectors next to the stripped wires they join
+cross-halving-slot-joint:
+  verdict: keep
+  reason: clear drawing of two slotted parts slipping together
+cyanoacrylate:
+  verdict: swap
+  use: "File:Super glue.jpg"
+  alt: A tube of superglue (cyanoacrylate glue).
+  reason: current picture is a chemistry diagram of molecules; a tube of superglue is what readers will recognise
+cycloidal-drive:
+  verdict: keep
+  reason: animation of the wobbling lobed disc inside the pin ring
+dampers:
+  verdict: keep
+  reason: simple cutaway of a piston in a fluid-filled cylinder, which is how a damper works
+diaphragm-pump-and-squeeze-bulb:
+  verdict: keep
+  reason: animation of the diaphragm moving and the two one-way valves opening in turn
+differential-screw:
+  verdict: keep
+  reason: animation of two threads of different pitch moving the nuts by the difference
+differential:
+  verdict: keep
+  reason: colour-coded drawing of the gears inside a differential
+din-rail-clip:
+  verdict: keep
+  reason: breaker clipped on a DIN rail, turned over so the latch can be seen
+
+# --- sheet08 ---
+dog-clutch:
+  verdict: swap
+  use: "File:Dog Clutch.jpg"
+  alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
+  reason: current hatched section drawing is hard to read; this photo shows the interlocking dogs plainly (CC0)
+double-sided-foam-tape:
+  verdict: keep
+  reason: two rolls of double-sided tape with toothpicks stuck to both faces
+dovetail-joint:
+  verdict: keep
+  reason: clear exploded drawing of tails and pins
+dovetail-slide-with-gib-strip:
+  verdict: drawn
+  reason: photo shows only a bare dovetail track; new diagram shows the carriage round the rail and the gib strip with its screws
+dowel-and-biscuit-joints:
+  verdict: keep
+  reason: drawing of dowels lining up two parts of a butt joint
+draw-latch:
+  verdict: keep
+  reason: clear photos of over-centre latches on a case, open and closed
+drawer-slide:
+  verdict: swap
+  use: "File:Light Rail.jpg"
+  alt: Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.
+  reason: in the current photo the slide is a thin strip in shadow behind the drawer; this shows the slides themselves
+drive-in-fixing-pins:
+  verdict: keep
+  reason: photo of a slotted spring pin through a shaft, with the parts numbered
+eccentric-adjuster:
+  verdict: drawn
+  reason: in the bike photo the eccentric plug is hidden behind the crank; new diagram shows an off-centre spacer turned to move a wheel onto a rail
+eccentric-cam-lever:
+  verdict: keep
+  reason: clear photo of a quick-release skewer with its cam lever
+eddy-current-brake:
+  verdict: keep
+  reason: diagram of a spinning disc between magnet poles with the swirling currents
+elastic-averaging:
+  verdict: drawn
+  reason: LEGO dimension drawing is mostly numbers and does not show the averaging; new diagram compares one stiff pin with many springy ribs
+
+# --- sheet09 ---
+elastic-band-and-elastic-cord-springs:
+  verdict: drawn
+  reason: current picture is a measuring diagram of a band; new diagram shows a rubber band pulling a hinged arm back like a spring
+elastomer-isolation-mount:
+  verdict: swap
+  use: "File:Schwingungsdämpfer Aufbau.jpg"
+  alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with a sleeve for the bolt.
+  reason: in the current photo the rubber grommet is hard to make out; the cutaway shows the rubber between the two metal parts
+elastomeric-solvent-glue:
+  verdict: keep
+  reason: tube of Shoe Goo with a boot repaired with its clear rubbery bead
+electro-permanent-magnet:
+  verdict: keep
+  reason: animation shows the magnet switching on and off and the flux through the steel
+electromagnetic-brake:
+  verdict: keep
+  reason: animated cutaway of the springs, friction disc and coil
+electromagnetic-clutch:
+  verdict: keep
+  reason: labelled cutaway of rotor, armature, coil and hub
+epoxy-putty:
+  verdict: keep
+  reason: clear photo of the two parts of the putty before kneading
+escapement:
+  verdict: keep
+  reason: animated anchor escapement ticking one tooth at a time
+exact-constraint-mounting:
+  verdict: drawn
+  reason: six-degrees-of-freedom diagram is a related idea, not the mounting; new diagram shows a block on 3 + 2 + 1 points pushed into a corner
+expanding-internal-grip:
+  verdict: drawn
+  reason: historic patent page is tiny and unreadable; new diagram shows a slotted sleeve pushed up a taper to grip the inside of a tube
+eye-bolts-screw-eyes-and-hooks:
+  verdict: keep
+  reason: clear photo of an eye bolt
+eyelets-and-grommets:
+  verdict: keep
+  reason: eyelets next to the pliers that set them
+
+# --- sheet10 ---
+finger-joint:
+  verdict: keep
+  reason: clear close-up of a box corner with a row of square fingers
+fixed-loop-knots:
+  verdict: keep
+  reason: clear photo of a bowline loop tied in rope
+flare-fitting:
+  verdict: keep
+  reason: photo of a flared copper tube end with its nut
+flat-flexible-cable-and-latching-connector:
+  verdict: keep
+  reason: flat flexible cables next to the ZIF connectors they plug into
+flexible-drive-shaft:
+  verdict: keep
+  reason: clear photo of a speedometer cable in its casing
+flexure-hinge:
+  verdict: keep
+  reason: photo of a crossed-spring flexure pivot, with the springy strips visible
+float-valve:
+  verdict: keep
+  reason: cross-section of float, arm and valve (numbered parts), shows how it closes
+flywheel:
+  verdict: keep
+  reason: animation of a spinning spoked flywheel with its heavy rim (low resolution, but clear enough)
+folded-seam:
+  verdict: drawn
+  reason: press-brake animation shows a single folded hem, not two sheets locked together; new diagram shows hooks bent, hooked together and hammered flat
+folding-blade-lock:
+  verdict: keep
+  reason: cutaways of lockback, bolt and liner locks, open and being released
+four-bar-linkage:
+  verdict: keep
+  reason: animated crank-rocker four-bar linkage
+friction-brake:
+  verdict: drawn
+  reason: dark band-brake diagram is mostly letters and covers only one kind; new diagram shows disc and pads, shoes in a drum and a band round a drum

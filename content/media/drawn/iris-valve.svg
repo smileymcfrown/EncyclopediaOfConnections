@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three side views of an iris valve: a fabric sleeve is held between a fixed top ring and a bottom ring; turning the bottom ring a quarter turn twists the sleeve into a narrow waist, and a half turn twists it shut so the grain above stops falling.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="266" y1="20" x2="266" y2="400" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g transform="translate(0,0)">
+<rect x="53" y="100" width="160" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M68,116 L198,116 Q198,218 198,320 L68,320 Q68,218 68,116 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="1.5" fill="none"><line x1="100" y1="116" x2="100" y2="320"/><line x1="166" y1="116" x2="166" y2="320"/></g>
+<g fill="#cfe3f5" stroke="#222" stroke-width="2"><circle cx="95" cy="140" r="5"/><circle cx="150" cy="150" r="5"/><circle cx="120" cy="175" r="5"/><circle cx="170" cy="190" r="5"/><circle cx="90" cy="205" r="5"/><circle cx="140" cy="265" r="5"/><circle cx="110" cy="290" r="5"/><circle cx="175" cy="300" r="5"/></g>
+<rect x="53" y="320" width="160" height="16" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M60,350 A73,12 0 0 0 206,350" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g><g transform="translate(267,0)">
+<rect x="53" y="100" width="160" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M68,116 L198,116 Q148,218 198,320 L68,320 Q118,218 68,116 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="1.5" fill="none"><path d="M90,116 Q133,218 176,320"/><path d="M176,116 Q133,218 90,320"/></g>
+<g fill="#cfe3f5" stroke="#222" stroke-width="2"><circle cx="100" cy="140" r="5"/><circle cx="160" cy="145" r="5"/><circle cx="125" cy="165" r="5"/><circle cx="145" cy="190" r="5"/><circle cx="120" cy="215" r="5"/><circle cx="140" cy="240" r="5"/><circle cx="128" cy="280" r="5"/><circle cx="150" cy="300" r="5"/><circle cx="133" cy="372" r="5"/><circle cx="125" cy="395" r="5"/></g>
+<rect x="53" y="320" width="160" height="16" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M60,350 A73,12 0 0 0 206,350" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g><g transform="translate(534,0)">
+<rect x="53" y="100" width="160" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M68,116 L198,116 Q68,218 198,320 L68,320 Q198,218 68,116 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="1.5" fill="none"><path d="M100,116 Q133,175 133,218 Q133,262 166,320"/><path d="M166,116 Q133,175 133,218 Q133,262 100,320"/></g>
+<g fill="#cfe3f5" stroke="#222" stroke-width="2"><circle cx="100" cy="132" r="5"/><circle cx="122" cy="132" r="5"/><circle cx="144" cy="132" r="5"/><circle cx="166" cy="132" r="5"/><circle cx="112" cy="150" r="5"/><circle cx="133" cy="150" r="5"/><circle cx="154" cy="150" r="5"/><circle cx="126" cy="167" r="5"/><circle cx="140" cy="167" r="5"/><circle cx="133" cy="184" r="5"/></g>
+<rect x="53" y="320" width="160" height="16" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M60,350 A73,12 0 0 0 206,350" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="21" font-weight="bold">
+<text x="133" y="36">Open</text>
+<text x="400" y="36">Quarter turn</text>
+<text x="667" y="36">Half turn: shut</text>
+</g>
+<text x="133" y="88">fixed ring</text>
+<text x="400" y="88">sleeve twists</text>
+<text x="667" y="88">grain held back</text>
+<text x="133" y="236">fabric sleeve</text>
+<text x="133" y="392">turning ring</text>
+<text x="400" y="438">Turn the bottom ring: the sleeve closes evenly from all sides</text>
+</g>
+</svg>

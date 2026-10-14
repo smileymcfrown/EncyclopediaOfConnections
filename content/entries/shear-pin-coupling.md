@@ -120,24 +120,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shearpin_coupling_breakaway_link.json
 image:
-  file: shear-pin-coupling.webp
-  width: 800
-  height: 532
-  title: File:US Navy 110406-N-OY799-152 Machinery Repairman 3rd Class Heather Fogle, from Midlothian, Texas, checks the outside
-    diameter of a shear pin in the m.jpg
-  author: U.S. Navy photo by Mass Communication Specialist 3rd Class Kenneth Abbate
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:US_Navy_110406-N-OY799-152_Machinery_Repairman_3rd_Class_Heather_Fogle,_from_Midlothian,_Texas,_checks_the_outside_diameter_of_a_shear_pin_in_the_m.jpg
-  alt: Photo of a machined shear pin being measured with a micrometer in a ship's machine shop
-  drawn: false
+  file: drawn/shear-pin-coupling.svg
+  alt: 'Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the
+    shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft
+    spins freely inside the stopped hub until a new pin is fitted.'
+  drawn: true
 glossary: [misalignment, backlash, torque, fail-safe--fail-secure, form-fit--force-fit--material-bond, circlip, creep, fatigue,
   brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Photo of a machined shear pin being measured with a micrometer in a ship's machine shop](../media/shear-pin-coupling.webp)
+![Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the shaft surface; normally the pin carries the turning force, but when the gear jams t](../media/drawn/shear-pin-coupling.svg)
 
-*Picture: [US Navy 110406-N-OY799-152 Machinery Repairman 3rd Class Heather Fogle, from Midlothian, Texas, checks the outside diameter of a shear pin in the m.jpg](https://commons.wikimedia.org/wiki/File:US_Navy_110406-N-OY799-152_Machinery_Repairman_3rd_Class_Heather_Fogle,_from_Midlothian,_Texas,_checks_the_outside_diameter_of_a_shear_pin_in_the_m.jpg) by U.S. Navy photo by Mass Communication Specialist 3rd Class Kenneth Abbate, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A pin, bolt or thin section sized to break at a set force or [torque](../glossary.md#torque), so it disconnects the drive (or lets a joint go) before anything more valuable is damaged, and is replaced afterwards, like an electrical fuse.
 

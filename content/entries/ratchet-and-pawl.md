@@ -158,6 +158,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Ratchet_Gear_and_Pawl.gif
   alt: 'Animation of a ratchet wheel (green) and pawl (pink): the wheel turns one way while the pawl clicks over the teeth
     and blocks it the other way'
+  animated: true
   drawn: false
 glossary: [backlash, self-locking, stroke, detent, ratchet, pawl, freewheel, sprag, torque, pitch, flexure, deflection, torsion,
   clearance, form-fit--force-fit--material-bond, circlip, chamfer--fillet, creep, stress-relaxation, layer-lines, perimeters,

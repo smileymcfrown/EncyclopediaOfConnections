@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away side view of a friction slip clutch: a gear sits loose on a shaft, squeezed between two friction pads by a spring and nut; normally gear and shaft turn together, but when the gear jams the pads slip and the shaft keeps turning.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<g id="clutch" stroke="#222" stroke-width="3" stroke-linejoin="round">
+<rect x="20" y="205" width="300" height="20" fill="#e8e8e8"/>
+<rect x="70" y="130" width="20" height="170" fill="#d8f0d2"/>
+<rect x="90" y="145" width="12" height="140" fill="#fde2c4"/>
+<rect x="102" y="100" width="30" height="100" fill="#cfe3f5"/>
+<rect x="102" y="230" width="30" height="100" fill="#cfe3f5"/>
+<rect x="132" y="145" width="12" height="140" fill="#fde2c4"/>
+<rect x="144" y="150" width="14" height="130" fill="#d8f0d2"/>
+<polyline points="158,180 166,165 174,195 182,165 190,195 198,165 206,195 214,180" fill="none"/>
+<polyline points="158,250 166,235 174,265 182,235 190,265 198,235 206,265 214,250" fill="none"/>
+<rect x="214" y="180" width="30" height="70" fill="#e8e8e8"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- normal -->
+<g transform="translate(20,0)">
+<use href="#clutch"/>
+<path d="M38,188 A12,30 0 0 1 38,242" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M95,84 A22,10 0 0 0 139,84" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<!-- jammed -->
+<g transform="translate(420,0)">
+<use href="#clutch"/>
+<rect x="90" y="145" width="12" height="140" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<rect x="132" y="145" width="12" height="140" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<rect x="100" y="62" width="34" height="36" fill="url(#hatch)" stroke="#222" stroke-width="2"/>
+<path d="M38,188 A12,30 0 0 1 38,242" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">Normal: all turn together</text>
+<text x="600" y="36" font-size="21" font-weight="bold">Jammed: the pads slip</text>
+<text x="139" y="68">gear</text>
+<text x="100" y="322">hub</text>
+<text x="145" y="358">friction pads</text>
+<g text-anchor="start">
+<text x="222" y="150">spring</text>
+<text x="300" y="292" text-anchor="middle">nut sets</text>
+<text x="300" y="314" text-anchor="middle">slip torque</text>
+<text x="565" y="86">jam stops gear</text>
+<text x="700" y="292" text-anchor="middle">shaft keeps</text>
+<text x="700" y="314" text-anchor="middle">turning</text>
+</g>
+<text x="560" y="358">pads slide and warm up</text>
+<text x="400" y="420">Overload ends: the pads grip again by themselves</text>
+</g>
+</svg>

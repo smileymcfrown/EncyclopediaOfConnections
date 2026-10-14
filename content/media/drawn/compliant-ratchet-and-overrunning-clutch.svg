@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped teeth; turned one way the catches on the ends of the arms ride up the sloped tooth backs and click into the next gap, and turned the other way the catch tips butt against the steep tooth faces so the push runs along the arms into the hub and it locks.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<circle cx="200" cy="232" r="134.3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M288.4,232.0 L290.9,238.6 L293.0,245.5 L294.4,252.7 L295.4,260.2 L295.7,268.0 L295.3,275.9 L294.3,284.0 L292.7,292.2 L271.5,284.0 L269.7,290.8 L267.3,297.5 L264.2,304.3 L260.5,310.9 L256.2,317.4 L251.3,323.6 L245.7,329.5 L239.6,335.2 L227.3,316.1 L221.9,320.5 L215.9,324.6 L209.5,328.2 L202.6,331.4 L195.3,334.1 L187.7,336.2 L179.7,337.8 L171.4,338.7 L172.7,316.1 L165.7,316.4 L158.5,316.2 L151.1,315.4 L143.7,314.0 L136.2,311.9 L128.7,309.1 L121.4,305.6 L114.1,301.5 L128.5,284.0 L122.6,280.1 L116.9,275.7 L111.4,270.7 L106.3,265.2 L101.4,259.1 L97.0,252.5 L93.1,245.4 L89.7,237.8 L111.6,232.0 L109.1,225.4 L107.0,218.5 L105.6,211.3 L104.6,203.8 L104.3,196.0 L104.7,188.1 L105.7,180.0 L107.3,171.8 L128.5,180.0 L130.3,173.2 L132.7,166.5 L135.8,159.7 L139.5,153.1 L143.8,146.6 L148.7,140.4 L154.3,134.5 L160.4,128.8 L172.7,147.9 L178.1,143.5 L184.1,139.4 L190.5,135.8 L197.4,132.6 L204.7,129.9 L212.3,127.8 L220.3,126.2 L228.6,125.3 L227.3,147.9 L234.3,147.6 L241.5,147.8 L248.9,148.6 L256.3,150.0 L263.8,152.1 L271.3,154.9 L278.6,158.4 L285.9,162.5 L271.5,180.0 L277.4,183.9 L283.1,188.3 L288.6,193.3 L293.7,198.8 L298.6,204.9 L303.0,211.5 L306.9,218.6 L310.3,226.2 Z" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M233.9,229.5 Q281.0,251.6 258.5,292.5" fill="none" stroke="#222" stroke-width="13" stroke-linecap="round"/>
+<path d="M233.9,229.5 Q281.0,251.6 258.5,292.5" fill="none" stroke="#cfe3f5" stroke-width="7" stroke-linecap="round"/>
+<path d="M258.0,314.9 L251.6,287.3 L274.3,290.1 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M166.1,234.5 Q119.0,212.4 141.5,171.5" fill="none" stroke="#222" stroke-width="13" stroke-linecap="round"/>
+<path d="M166.1,234.5 Q119.0,212.4 141.5,171.5" fill="none" stroke="#cfe3f5" stroke-width="7" stroke-linecap="round"/>
+<path d="M142.0,149.1 L148.4,176.7 L125.7,173.9 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="200" cy="232" r="37.4" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="191" y="223" width="18" height="18" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<circle cx="600" cy="232" r="134.3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M688.4,232.0 L690.9,238.6 L693.0,245.5 L694.4,252.7 L695.4,260.2 L695.7,268.0 L695.3,275.9 L694.3,284.0 L692.7,292.2 L671.5,284.0 L669.7,290.8 L667.3,297.5 L664.2,304.3 L660.5,310.9 L656.2,317.4 L651.3,323.6 L645.7,329.5 L639.6,335.2 L627.3,316.1 L621.9,320.5 L615.9,324.6 L609.5,328.2 L602.6,331.4 L595.3,334.1 L587.7,336.2 L579.7,337.8 L571.4,338.7 L572.7,316.1 L565.7,316.4 L558.5,316.2 L551.1,315.4 L543.7,314.0 L536.2,311.9 L528.7,309.1 L521.4,305.6 L514.1,301.5 L528.5,284.0 L522.6,280.1 L516.9,275.7 L511.4,270.7 L506.3,265.2 L501.4,259.1 L497.0,252.5 L493.1,245.4 L489.7,237.8 L511.6,232.0 L509.1,225.4 L507.0,218.5 L505.6,211.3 L504.6,203.8 L504.3,196.0 L504.7,188.1 L505.7,180.0 L507.3,171.8 L528.5,180.0 L530.3,173.2 L532.7,166.5 L535.8,159.7 L539.5,153.1 L543.8,146.6 L548.7,140.4 L554.3,134.5 L560.4,128.8 L572.7,147.9 L578.1,143.5 L584.1,139.4 L590.5,135.8 L597.4,132.6 L604.7,129.9 L612.3,127.8 L620.3,126.2 L628.6,125.3 L627.3,147.9 L634.3,147.6 L641.5,147.8 L648.9,148.6 L656.3,150.0 L663.8,152.1 L671.3,154.9 L678.6,158.4 L685.9,162.5 L671.5,180.0 L677.4,183.9 L683.1,188.3 L688.6,193.3 L693.7,198.8 L698.6,204.9 L703.0,211.5 L706.9,218.6 L710.3,226.2 Z" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M634.0,232.0 Q677.2,263.2 646.3,312.2" fill="none" stroke="#222" stroke-width="13" stroke-linecap="round"/>
+<path d="M634.0,232.0 Q677.2,263.2 646.3,312.2" fill="none" stroke="#cfe3f5" stroke-width="7" stroke-linecap="round"/>
+<path d="M639.3,334.4 L640.8,305.6 L663.3,313.0 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M566.0,232.0 Q522.8,200.8 553.7,151.8" fill="none" stroke="#222" stroke-width="13" stroke-linecap="round"/>
+<path d="M566.0,232.0 Q522.8,200.8 553.7,151.8" fill="none" stroke="#cfe3f5" stroke-width="7" stroke-linecap="round"/>
+<path d="M560.7,129.6 L559.2,158.4 L536.7,151.0 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="600" cy="232" r="37.4" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="591" y="223" width="18" height="18" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M251.5,202.2 A59.5,59.5 0 0 0 200.0,172.5" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M600.0,172.5 A59.5,59.5 0 0 1 651.5,202.2" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M623.4,326.0 Q665.1,286.6 649.5,244.3" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="260.1" y1="303.6" x2="300" y2="380" stroke="#222" stroke-width="1.5"/>
+<line x1="263.1" y1="252.5" x2="330" y2="250" stroke="#222" stroke-width="1.5"/>
+<line x1="102.5" y1="163.7" x2="58" y2="92" stroke="#222" stroke-width="1.5"/>
+<line x1="634.3" y1="331.7" x2="560" y2="390" stroke="#222" stroke-width="1.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="34" font-size="21" font-weight="bold">Turned this way: clicks round</text>
+<text x="560" y="34" font-size="21" font-weight="bold">Turned that way: locks</text>
+<text x="60" y="84" text-anchor="start">toothed ring</text>
+<text x="335" y="255" text-anchor="start">springy</text><text x="335" y="276" text-anchor="start">arm</text>
+<text x="300" y="398">catch bends in: click</text>
+<text x="560" y="410">steep tooth face stops the catch</text>
+<line x1="659.9" y1="289.9" x2="712" y2="94" stroke="#222" stroke-width="1.5"/>
+<text x="712" y="66">push runs along</text><text x="712" y="86">the arm to the hub</text>
+<text x="400" y="438" font-size="19">Hub, arms and catches are one printed piece · no pins or metal springs</text>
+</g></svg>

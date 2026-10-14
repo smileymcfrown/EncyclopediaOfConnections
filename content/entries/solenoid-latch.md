@@ -128,23 +128,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solenoid_latch_solenoid_lock_electric_strike.json
 image:
-  file: solenoid-latch.webp
-  width: 800
-  height: 1234
-  title: File:SolenoidLock.jpg
-  author: Cavernia
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:SolenoidLock.jpg
-  alt: Photo of a solenoid door lock case (Abloy EL 582 type)
-  drawn: false
+  file: drawn/solenoid-latch.svg
+  alt: 'Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid''s
+    catch so the lid stays shut; with power on the coil pulls the bolt in and the lid lifts; when the lid is closed its catch
+    slides down the slanted face, pushing the bolt in until it snaps back out and locks.'
+  drawn: true
 glossary: [misalignment, stroke, bistable, solenoid, fail-safe--fail-secure, preload, clearance, form-fit--force-fit--material-bond,
   heat-set-insert, perimeters, peel-vs-shear]
 ---
 
-![Photo of a solenoid door lock case (Abloy EL 582 type)](../media/solenoid-latch.webp)
+![Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid's catch so the lid stays shut; with power on the coil pulls the bolt in and the lid lift](../media/drawn/solenoid-latch.svg)
 
-*Picture: [SolenoidLock.jpg](https://commons.wikimedia.org/wiki/File:SolenoidLock.jpg) by Cavernia, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A spring-loaded bolt or catch that an electromagnet coil ([solenoid](../glossary.md#solenoid)) pulls back when it is powered, so a door, box, drawer or release mechanism opens on an electric signal and locks itself again when closed.
 

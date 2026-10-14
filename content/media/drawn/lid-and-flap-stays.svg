@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight so the lid's weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block that a screw squeezes so friction holds the lid at any angle.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="pv"><circle r="7" fill="#ffffff" stroke="#222" stroke-width="3"/><circle r="2" fill="#222"/></g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- left: folding stay -->
+<rect x="40" y="260" width="280" height="120" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="313,261 327,259 297,89 283,91" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="220" y1="330" x2="269" y2="247" stroke="#222" stroke-width="13"/>
+<line x1="220" y1="330" x2="269" y2="247" stroke="#cfe3f5" stroke-width="7"/>
+<line x1="269" y1="247" x2="304" y2="167" stroke="#222" stroke-width="13"/>
+<line x1="269" y1="247" x2="304" y2="167" stroke="#cfe3f5" stroke-width="7"/>
+<rect x="256" y="242" width="10" height="20" fill="#e8e8e8" stroke="#222" stroke-width="2" transform="rotate(30 261 252)"/>
+<use href="#pv" x="220" y="330"/>
+<use href="#pv" x="269" y="247"/>
+<use href="#pv" x="304" y="167"/>
+<use href="#pv" x="320" y="260"/>
+<path d="M276,78 Q240,80 222,108" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- right: sliding friction stay -->
+<rect x="440" y="260" width="280" height="120" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="713,261 727,259 697,89 683,91" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="705" y1="175" x2="575" y2="367" stroke="#222" stroke-width="12"/>
+<line x1="705" y1="175" x2="575" y2="367" stroke="#e8e8e8" stroke-width="6"/>
+<g transform="translate(600,330) rotate(-56)">
+<rect x="-22" y="-13" width="44" height="26" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="-5" y="-30" width="10" height="17" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="-12" y="-40" width="24" height="10" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+</g>
+<use href="#pv" x="600" y="330"/>
+<use href="#pv" x="705" y="175"/>
+<use href="#pv" x="720" y="260"/>
+<line x1="655" y1="194" x2="605" y2="268" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">Folding stay</text>
+<text x="600" y="36" font-size="21" font-weight="bold">Sliding friction stay</text>
+<text x="130" y="100">lid's weight</text>
+<text x="140" y="220">elbow locks just</text>
+<text x="140" y="241">past straight</text>
+<text x="120" y="345">box</text>
+<text x="335" y="160">lid</text>
+<text x="610" y="180" text-anchor="end">bar slides</text>
+<text x="510" y="296">screw squeezes</text>
+<text x="510" y="317">the bar</text>
+<text x="660" y="360">box</text>
+<text x="400" y="428">Folding: locks over centre · Friction: holds the lid at any angle</text>
+</g>
+</svg>

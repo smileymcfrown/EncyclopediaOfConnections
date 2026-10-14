@@ -169,25 +169,19 @@ sources:
 - https://huangyan920.github.io/Mechanical/
 research: research/connection-types/results/Overcentre_linkage_toggle_linkage.json
 image:
-  file: over-centre-linkage.webp
-  width: 800
-  height: 422
-  title: File:Kniehebel.jpg
-  author: Kolossos
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Kniehebel.jpg
-  alt: Demonstration model at TU Chemnitz of a knee lever (toggle linkage) used to make large forces in a high-speed stamping
-    press
-  drawn: false
+  file: drawn/over-centre-linkage.svg
+  alt: 'Three frames of two links joined at a knee: bent and free to fold, exactly straight at the dead point, and a few degrees
+    past straight resting on a stop where the load presses the knee harder into the stop; a small graph shows the force boost
+    rising steeply as the links near straight.'
+  drawn: true
 glossary: [misalignment, self-locking, stroke, dead-point, over-centre, bistable, ratchet, pawl, linkage, preload, compliant-mechanism,
   clearance, form-fit--force-fit--material-bond, holding-force, set-screw, boss, creep, perimeters, infill, print-in-place,
   peel-vs-shear]
 ---
 
-![Demonstration model at TU Chemnitz of a knee lever (toggle linkage) used to make large forces in a high-speed stamping press](../media/over-centre-linkage.webp)
+![Three frames of two links joined at a knee: bent and free to fold, exactly straight at the dead point, and a few degrees past straight resting on a stop where the load presses the knee harder into the](../media/drawn/over-centre-linkage.svg)
 
-*Picture: [Kniehebel.jpg](https://commons.wikimedia.org/wiki/File:Kniehebel.jpg) by Kolossos, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Two links joined by a middle hinge (the knee) are pushed just past their straight-line position and rest against a stop, so a load that tries to fold them only presses the knee harder into the stop, giving a lock that needs no spring or catch plus a very large force boost near the straight position.
 

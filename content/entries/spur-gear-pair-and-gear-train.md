@@ -144,13 +144,14 @@ research: research/connection-types/results/Spur_gear_pair_and_gear_train_simple
 image:
   file: spur-gear-pair-and-gear-train.webp
   width: 800
-  height: 557
+  height: 556
   title: File:Animated two spur gears 1 2.gif
   author: Jahobr
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif
   alt: A 14-tooth gear driving a 28-tooth gear (2:1 ratio), turning in opposite directions
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, idler, crank, cantilever, clearance, tolerance,
   form-fit--force-fit--material-bond, set-screw, circlip, undercut, repeatability--accuracy, creep, brittle--ductile, lubrication,

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Burn-wire release in two frames: on the left a hinged lid is pushed up by a spring but held down by a taut cord that runs across a thin heating wire; on the right a battery heats the wire until it glows, the cord burns through and the spring flips the lid open.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0,12 L12,0" stroke="#222" stroke-width="2"/></pattern></defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="30" y="330" width="340" height="16" fill="url(#hatch)"/><rect x="62" y="226" width="16" height="104" fill="#e8e8e8"/><path d="M130,226 L130,232 L144,237.8 L116,249.2 L144,260.8 L116,272.2 L144,283.8 L116,295.2 L144,306.8 L116,318.2 L130,324 L130,330" fill="none"/><g transform="rotate(0 70 218)"><rect x="64" y="210" width="246" height="16" rx="3" fill="#cfe3f5"/></g><circle cx="70" cy="218" r="7" fill="#ffffff"/><circle cx="70" cy="218" r="2" fill="#222"/><line x1="290" y1="226" x2="290" y2="322" stroke="#8a5a2b" stroke-width="5"/><rect x="280" y="320" width="20" height="10" fill="#e8e8e8"/><rect x="245" y="268" width="10" height="62" fill="#e8e8e8"/><rect x="325" y="268" width="10" height="62" fill="#e8e8e8"/><line x1="250" y1="272" x2="330" y2="272" stroke="#222" stroke-width="2"/><rect x="300" y="355" width="44" height="22" rx="3" fill="#fde2c4"/><path d="M250,330 L250,366 L300,366 M344,366 L360,366 L360,340 L330,340 L330,330" fill="none" stroke-width="2"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="430" y="330" width="340" height="16" fill="url(#hatch)"/><rect x="462" y="226" width="16" height="104" fill="#e8e8e8"/><path d="M530,330 L530,324 L544,318 L516,306 L544,294 L516,282 L544,270 L516,258 L544,246 L530,240 L530,236" fill="none"/><g transform="rotate(-38 470 218)"><rect x="464" y="210" width="246" height="16" rx="3" fill="#cfe3f5"/><line x1="690" y1="226" x2="690" y2="250"/></g><circle cx="470" cy="218" r="7" fill="#ffffff"/><circle cx="470" cy="218" r="2" fill="#222"/><line x1="690" y1="322" x2="690" y2="290" stroke="#8a5a2b" stroke-width="5"/><rect x="680" y="320" width="20" height="10" fill="#e8e8e8"/><rect x="645" y="268" width="10" height="62" fill="#e8e8e8"/><rect x="725" y="268" width="10" height="62" fill="#e8e8e8"/><line x1="650" y1="272" x2="730" y2="272" stroke="#f08a24" stroke-width="5"/><rect x="700" y="355" width="44" height="22" rx="3" fill="#fde2c4"/><path d="M650,330 L650,366 L700,366 M744,366 L760,366 L760,340 L730,340 L730,330" fill="none" stroke-width="2"/></g>
+<line x1="200" y1="264" x2="268" y2="271" stroke="#222" stroke-width="1.5"/>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)">
+<line x1="97" y1="310" x2="97" y2="250"/>
+<path d="M712,200 A180,180 0 0 0 660,100"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="200" y="44" text-anchor="middle" font-size="21" font-weight="bold">Held: cord keeps the lid down</text>
+<text x="600" y="44" text-anchor="middle" font-size="21" font-weight="bold">Fired: cord burns through</text>
+<text x="152" y="306">spring</text>
+<text x="300" y="200" text-anchor="middle">cord</text>
+<text x="24" y="205" font-size="18">hinge</text>
+<text x="236" y="256" font-size="17" text-anchor="end">heating wire</text>
+<text x="322" y="401" font-size="18" text-anchor="middle">battery</text>
+<text x="760" y="401" font-size="18" text-anchor="end">battery on: wire glows</text>
+<text x="700" y="232" text-anchor="middle">lid springs open</text>
+<text x="400" y="432" text-anchor="middle" font-size="18">One shot: fit a new cord (or solder link) after each release</text>
+</g></svg>

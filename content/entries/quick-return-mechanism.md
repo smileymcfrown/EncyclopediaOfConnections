@@ -138,25 +138,19 @@ sources:
 - https://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/
 research: research/connection-types/results/Quickreturn_mechanism_Whitworth_crank_and_slotted_lever.json
 image:
-  file: quick-return-mechanism.webp
-  width: 646
-  height: 646
-  title: File:Quick Return Mechanism 1.gif
-  author: Arglin Kampling
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism_1.gif
-  alt: 'Animated quick-return linkage: the input crank (cyan) drives an output link (pink) that returns faster than it goes
-    forward; the lead image of Wikipedia''s article'
-  drawn: false
+  file: drawn/quick-return-mechanism.svg
+  alt: 'Crank and slotted-lever quick-return mechanism: a crank turning at steady speed slides a block in a lever pivoted
+    below it, swinging the lever and the ram on top; the lever''s two end positions split the crank circle into a long arc
+    for the slow working stroke and a short arc for the fast return.'
+  drawn: true
 glossary: [misalignment, axial--radial, reciprocating, stroke, dead-point, cam-and-follower, crank, linkage, actuator, clearance,
   form-fit--force-fit--material-bond, circlip, heat-set-insert, return-angle, lubrication, infill, print-in-place, elephants-foot,
   pot-life--working-time, peel-vs-shear]
 ---
 
-![Animated quick-return linkage: the input crank (cyan) drives an output link (pink) that returns faster than it goes forward; the lead image of Wikipedia's article](../media/quick-return-mechanism.webp)
+![Crank and slotted-lever quick-return mechanism: a crank turning at steady speed slides a block in a lever pivoted below it, swinging the lever and the ram on top; the lever's two end positions split t](../media/drawn/quick-return-mechanism.svg)
 
-*Picture: [Quick Return Mechanism 1.gif](https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism_1.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A [crank](../glossary.md#crank) turning at steady speed drives a block that slides in a slotted lever, so the lever (and the tool slide, or ram, it pushes) moves slowly on the working [stroke](../glossary.md#stroke) and returns quickly on the idle stroke, saving time on machines that only work in one direction.
 

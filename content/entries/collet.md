@@ -147,6 +147,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif
   alt: Animation of a collet being pulled into its tapered seat by a drawbar, clamping a shaft, spinning, and then releasing
     it
+  animated: true
   drawn: false
 glossary: [misalignment, ratchet, torque, clearance, form-fit--force-fit--material-bond, set-screw, taper, collet, repeatability--accuracy,
   creep, brittle--ductile, perimeters, infill]

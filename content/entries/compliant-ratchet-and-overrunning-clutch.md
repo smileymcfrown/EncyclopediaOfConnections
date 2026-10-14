@@ -107,24 +107,20 @@ sources:
 - https://github.com/shaiss/print-bench/issues/668
 research: research/connection-types/results/Compliant_ratchet_and_overrunning_clutch_flexure_pawl.json
 image:
-  file: compliant-ratchet-and-overrunning-clutch.webp
-  width: 800
-  height: 451
-  title: File:ZipTieCrossSection.JPG
-  author: Mushrooshi
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG
-  alt: Cutaway photo of a cable tie head showing the moulded springy catch (flexure pawl) against the strap's teeth
-  drawn: false
+  file: drawn/compliant-ratchet-and-overrunning-clutch.svg
+  alt: 'Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped
+    teeth; turned one way the catches on the ends of the arms ride up the sloped tooth backs and click into the next gap,
+    and turned the other way the catch tips butt against the steep tooth faces so the push runs along the arms into the hub
+    and it locks.'
+  drawn: true
 glossary: [backlash, axial--radial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, stiffness, preload, flexure,
   compliant-mechanism, living-hinge, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   undercut, creep, stress-relaxation, fatigue, brittle--ductile, perimeters, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
-![Cutaway photo of a cable tie head showing the moulded springy catch (flexure pawl) against the strap's teeth](../media/compliant-ratchet-and-overrunning-clutch.webp)
+![Two top views of a one-piece plastic ratchet: a hub with two curved springy arms sits inside a ring of saw-shaped teeth; turned one way the catches on the ends of the arms ride up the sloped tooth bac](../media/drawn/compliant-ratchet-and-overrunning-clutch.svg)
 
-*Picture: [ZipTieCrossSection.JPG](https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG) by Mushrooshi, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A [ratchet](../glossary.md#ratchet) or one-way clutch in which the catch ([pawl](../glossary.md#pawl)) and its spring are the same springy arm, moulded or printed in one piece with the hub, so the wheel clicks round one way and locks the other with no pins, springs or assembly.
 

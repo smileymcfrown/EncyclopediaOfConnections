@@ -385,8 +385,11 @@ def main():
             t = re.search(r'<title>(.*?)</title>', open(os.path.join(dd, fn)).read(), re.S)
             pics[fn[:-4]] = {'file': 'drawn/' + fn, 'alt': re.sub(r'\s+', ' ', t.group(1)).strip() if t else '', 'drawn': True}
     f = os.path.join(ROOT, 'content', 'media', 'media.yaml')
+    cf = os.path.join(ROOT, 'content', 'media', 'choices.yaml')
+    choices = (yaml.safe_load(open(cf)) or {}) if os.path.exists(cf) else {}
     for k, v in ((yaml.safe_load(open(f)) or {}) if os.path.exists(f) else {}).items():
-        pics[k] = dict(v, drawn=False)
+        if (choices.get(k) or {}).get('use') != 'drawn' or k not in pics:
+            pics[k] = dict(v, drawn=False)
     terms = load_glossary()
     write_glossary(terms)
     os.makedirs(OUT, exist_ok=True)

@@ -86,6 +86,11 @@ Where there is no such file, the page shows a diagram drawn for the encyclopaedi
 `diagram_idea` (`media/drawn/<page>.svg`). Drawn diagrams are marked ⚑ *needs confirming*, as a
 drawing can simplify or get details wrong. The `image` key in the front matter names the picture.
 
+*Picture review (R30).* Every copied picture was checked for whether it shows what the thing is or
+how it works (`media/review/`). Where it didn't, `media/choices.yaml` names a better Commons file
+(`use: "File:..."`) or the drawn diagram (`use: drawn`); edit that file to change a page's picture.
+Animated GIFs are copied as animated WebP, so they play by themselves.
+
 ## Headings
 
 Each page starts with the one-line summary, the plain name and proper term, and other names.

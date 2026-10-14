@@ -139,23 +139,18 @@ sources:
 - https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)
 research: research/connection-types/results/Eccentric_adjuster_eccentric_nut_spacer_or_bushing.json
 image:
-  file: eccentric-adjuster.webp
-  width: 640
-  height: 480
-  title: File:Eccentric bottom bracket.jpg
-  author: AndrewDressel (talk)
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg
-  alt: 'Photo of an eccentric bottom bracket: the off-centre bearing plug inside an oversized bicycle frame shell'
-  drawn: false
+  file: drawn/eccentric-adjuster.svg
+  alt: 'A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the
+    spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves
+    down onto the rail by twice the offset.'
+  drawn: true
 glossary: [misalignment, backlash, torque, idler, cam-and-follower, crank, form-fit--force-fit--material-bond, set-screw,
   kinematic-coupling, creep, peel-vs-shear]
 ---
 
-![Photo of an eccentric bottom bracket: the off-centre bearing plug inside an oversized bicycle frame shell](../media/eccentric-adjuster.webp)
+![A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the spacer turns about its own centre, the wheel axle in the off-centre hole moves round](../media/drawn/eccentric-adjuster.svg)
 
-*Picture: [Eccentric bottom bracket.jpg](https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg) by AndrewDressel (talk), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
 

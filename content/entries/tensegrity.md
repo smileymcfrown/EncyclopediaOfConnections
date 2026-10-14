@@ -145,6 +145,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif
   alt: 'Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don''t touch, each
     end held by three red cables'
+  animated: true
   drawn: false
 glossary: [oscillating, torque, stiffness, damping, clearance, form-fit--force-fit--material-bond, creep, print-in-place]
 ---

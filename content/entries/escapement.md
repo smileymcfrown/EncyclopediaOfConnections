@@ -175,6 +175,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif
   alt: 'Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia''s
     Escapement article)'
+  animated: true
   drawn: false
 glossary: [self-locking, axial--radial, ratchet, pawl, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   creep, lubrication, perimeters, regulator]

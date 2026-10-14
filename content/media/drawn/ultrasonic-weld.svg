@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Left: an ultrasonic welder's converter, booster and horn pressing a plastic lid onto a box held in a fixture while the horn shakes up and down about 20,000 times a second. Right: close-ups of the joint, first with a small triangular ridge on the lid touching the box wall, then with the ridge melted and flowed into a flat seam that fuses lid and box.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="440" y1="30" x2="440" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- stack -->
+<rect x="210" y="40" width="80" height="52" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="220" y="92" width="60" height="44" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M216,136 H284 L300,214 H200 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<!-- lid and box -->
+<rect x="160" y="214" width="180" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M160,234 H180 V300 H320 V234 H340 V320 H160 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<!-- fixture -->
+<path d="M130,320 H370 V352 H130 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M140,352 l-10,14 M164,352 l-10,14 M188,352 l-10,14 M212,352 l-10,14 M236,352 l-10,14 M260,352 l-10,14 M284,352 l-10,14 M308,352 l-10,14 M332,352 l-10,14 M356,352 l-10,14" stroke="#222" stroke-width="2"/>
+<line x1="318" y1="140" x2="318" y2="200" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<!-- close-up before -->
+<rect x="480" y="80" width="260" height="30" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M596,110 L610,132 L624,110" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="570" y="132" width="80" height="60" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<!-- close-up after -->
+<rect x="480" y="250" width="260" height="30" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M556,280 Q563,292 570,292 H650 Q657,292 664,280 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<rect x="570" y="292" width="80" height="60" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="700" y1="140" x2="700" y2="236" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="196" y="72" text-anchor="end">converter</text>
+<text x="206" y="120" text-anchor="end">booster</text>
+<text x="200" y="182" text-anchor="end">horn</text>
+<text x="330" y="166">shakes</text>
+<text x="330" y="188">20,000</text>
+<text x="330" y="210" font-size="16">times a second</text>
+<text x="150" y="230" text-anchor="end">lid</text><text x="150" y="290" text-anchor="end">box</text>
+<text x="250" y="392" text-anchor="middle">fixture holds the box still</text>
+<text x="610" y="58" text-anchor="middle" font-weight="bold">Before: small ridge on the lid</text>
+<text x="610" y="380" text-anchor="middle" font-weight="bold">After: ridge melted into a seam</text>
+<text x="400" y="436" text-anchor="middle">Rubbing heats the ridge first, so it melts and fuses the parts in under a second</text>
+</g>
+</svg>

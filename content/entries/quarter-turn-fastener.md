@@ -116,23 +116,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Quarterturn_fastener_Dzustype.json
 image:
-  file: quarter-turn-fastener.webp
-  width: 800
-  height: 600
-  title: File:RRKestrelHind.JPG
-  author: Nimbus227
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:RRKestrelHind.JPG
-  alt: Photo of the engine cowling on a 1930s Hawker Hind biplane with rows of Dzus fasteners
-  drawn: false
+  file: drawn/quarter-turn-fastener.svg
+  alt: 'Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral
+    slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into
+    its end notch so the panel is pulled tight against the frame and clicks locked.'
+  drawn: true
 glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
 
-![Photo of the engine cowling on a 1930s Hawker Hind biplane with rows of Dzus fasteners](../media/quarter-turn-fastener.webp)
+![Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter ](../media/drawn/quarter-turn-fastener.svg)
 
-*Picture: [RRKestrelHind.JPG](https://commons.wikimedia.org/wiki/File:RRKestrelHind.JPG) by Nimbus227, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A captive stud in a removable panel whose spiral slot (or cross pin) rides over a spring or cam in a receptacle on the frame, so a quarter turn pulls the panel tight and snaps it into a locked position that vibration can't undo.
 

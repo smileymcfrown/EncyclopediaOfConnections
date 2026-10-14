@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three side views of a cone-shaped part coming down into a matching cone-shaped socket: it lands off-centre and touches one sloping wall first, the slope pushes it sideways as it is pressed down, and it ends fully seated with its sloping faces touching all round, exactly centred.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="265" y1="60" x2="265" y2="390" stroke="#cccccc" stroke-width="2"/><line x1="530" y1="60" x2="530" y2="390" stroke="#cccccc" stroke-width="2"/>
+<path d="M27,250 H77 L112,310 V340 H152 V310 L187,250 H237 V370 H27 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="132" y1="90" x2="132" y2="385" stroke="#888" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M142,258.6 H182 L217,198.6 H237 V148.6 H87 V198.6 H107 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="162" y1="140.6" x2="162" y2="266.6" stroke="#b5651d" stroke-width="2" stroke-dasharray="4 5"/>
+<circle cx="182" cy="258.6" r="7" fill="#d1495b" stroke="#222" stroke-width="2"/>
+<line x1="162" y1="98.60000000000002" x2="162" y2="136.60000000000002" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M292,250 H342 L377,310 V340 H417 V310 L452,250 H502 V370 H292 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="397" y1="90" x2="397" y2="385" stroke="#888" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M392,284.3 H432 L467,224.3 H487 V174.3 H337 V224.3 H357 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="412" y1="166.3" x2="412" y2="292.3" stroke="#b5651d" stroke-width="2" stroke-dasharray="4 5"/>
+<line x1="452" y1="124.30000000000001" x2="452" y2="162.3" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="420" y1="256.3" x2="382" y2="256.3" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M557,250 H607 L642,310 V340 H682 V310 L717,250 H767 V370 H557 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="662" y1="90" x2="662" y2="385" stroke="#888" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M642,310.0 H682 L717,250.0 H737 V200.0 H587 V250.0 H607 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="132" y="40" font-size="20" text-anchor="middle" font-weight="bold">1. Lands off-centre</text>
+<text x="397" y="40" font-size="20" text-anchor="middle" font-weight="bold">2. Slope pushes it across</text>
+<text x="662" y="40" font-size="20" text-anchor="middle" font-weight="bold">3. Seated and centred</text>
+<text x="60" y="400" font-size="18" text-anchor="middle">socket</text>
+<circle cx="122" cy="394" r="7" fill="#d1495b" stroke="#222" stroke-width="2"/>
+<text x="136" y="400" font-size="18">first touch</text>
+<text x="662" y="175" font-size="18" text-anchor="middle">cone part</text>
+<text x="662" y="400" font-size="18" text-anchor="middle">touches all round</text>
+<text x="400" y="436" font-size="18" text-anchor="middle" font-weight="bold">A slim taper wedges tight · a wide one centres and lets go easily</text>
+</g>
+</svg>

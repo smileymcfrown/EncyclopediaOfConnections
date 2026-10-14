@@ -147,6 +147,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bimetal.gif
   alt: Animated scheme of a bimetal strip bending as it is heated
+  animated: true
   drawn: false
 glossary: [stroke, over-centre, bistable, linkage, actuator, solenoid, fail-safe--fail-secure, compliant-mechanism, deflection,
   hysteresis, creep]

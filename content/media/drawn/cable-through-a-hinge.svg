@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two ways to take a cable across a box lid's hinge: on the left the cable runs through the hollow hinge pin between a clamp on each side, so opening the lid only twists it; on the right a slack loop of cable between a clamp on the box and a clamp on the lid bends as the lid opens.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- left: through the pin (front view) -->
+<rect x="80" y="100" width="240" height="84" fill="#cfe3f5"/>
+<rect x="80" y="216" width="240" height="110" fill="#fde2c4"/>
+<rect x="92" y="184" width="216" height="32" rx="6" fill="#e8e8e8"/>
+<line x1="146" y1="184" x2="146" y2="216"/>
+<line x1="200" y1="184" x2="200" y2="216"/>
+<line x1="254" y1="184" x2="254" y2="216"/>
+<path d="M44,300 L44,230 Q44,200 74,200 L92,200" fill="none" stroke="#222" stroke-width="11"/>
+<path d="M44,300 L44,230 Q44,200 74,200 L92,200" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<path d="M308,200 L326,200 Q356,200 356,170 L356,120" fill="none" stroke="#222" stroke-width="11"/>
+<path d="M308,200 L326,200 Q356,200 356,170 L356,120" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<path d="M92,200 C110,190 120,210 138,200 C156,190 166,210 184,200 C202,190 212,210 230,200 C248,190 258,210 276,200 C290,193 300,205 308,200" fill="none" stroke="#2e7d32" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="34" y="282" width="46" height="18" fill="#e8e8e8"/>
+<rect x="320" y="120" width="46" height="18" fill="#e8e8e8"/>
+<!-- right: service loop (side view) -->
+<rect x="510" y="232" width="220" height="110" fill="#fde2c4"/>
+<rect x="520" y="216" width="200" height="14" fill="none" stroke-dasharray="7 6" stroke-width="2"/>
+<rect x="520" y="216" width="200" height="14" fill="#cfe3f5" transform="rotate(50 722 228)"/>
+<path d="M708,306 C708,268 640,272 636,240 C632,208 666,196 683,184" fill="none" stroke="#222" stroke-width="11"/>
+<path d="M708,306 C708,268 640,272 636,240 C632,208 666,196 683,184" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<rect x="696" y="300" width="26" height="18" fill="#e8e8e8"/>
+<rect x="670" y="172" width="26" height="18" fill="#e8e8e8" transform="rotate(50 683 181)"/>
+<circle cx="722" cy="228" r="8" fill="#ffffff"/><circle cx="722" cy="228" r="2.5" fill="#222"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)">
+<path d="M560,196 A170,170 0 0 1 610,105"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="200" y="44" text-anchor="middle" font-size="21" font-weight="bold">Through the hinge pin</text>
+<text x="600" y="44" text-anchor="middle" font-size="21" font-weight="bold">Slack loop beside the hinge</text>
+<text x="200" y="146" text-anchor="middle">lid</text>
+<text x="200" y="290" text-anchor="middle">box</text>
+<text x="200" y="364" text-anchor="middle">hollow pin: cable only twists</text>
+<text x="44" y="330" text-anchor="middle" font-size="18">clamp</text>
+<text x="580" y="300" text-anchor="middle">box</text>
+<text x="548" y="170" text-anchor="end">lid opens</text>
+<text x="600" y="380" text-anchor="middle">loop bends as the lid moves</text>
+<text x="400" y="432" text-anchor="middle" font-size="18">Clamp both sides, so the cable's movement is spread over the free length</text>
+</g>
+</svg>

@@ -154,6 +154,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif
   alt: Animation of a cantilever arm being pushed into another part, bending as it slides across it, then springing back into
     the depression
+  animated: true
   drawn: false
 glossary: [detent, stiffness, flexure, living-hinge, cantilever, deflection, torsion, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, holding-force, taper, heat-set-insert, chamfer--fillet, undercut, return-angle, creep,

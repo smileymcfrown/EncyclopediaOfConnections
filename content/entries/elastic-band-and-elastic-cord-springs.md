@@ -155,23 +155,18 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
 research: research/connection-types/results/Elastic_band_and_elastic_cord_springs_elastomer_springs.json
 image:
-  file: elastic-band-and-elastic-cord-springs.webp
-  width: 600
-  height: 147
-  title: File:RubberBand.jpg
-  author: Hao-Nhien Q. Vu
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:RubberBand.jpg
-  alt: 'Diagram of how a rubber band is measured: flat length, cut width and wall thickness'
-  drawn: false
+  file: drawn/elastic-band-and-elastic-cord-springs.svg
+  alt: 'A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests
+    closed with the band short, and on the right the arm is lifted, the band is stretched longer and thinner, and it pulls
+    the arm back down.'
+  drawn: true
 glossary: [misalignment, actuator, stiffness, preload, damping, hysteresis, creep, stress-relaxation, layer-lines, peel-vs-shear,
   o-ring]
 ---
 
-![Diagram of how a rubber band is measured: flat length, cut width and wall thickness](../media/elastic-band-and-elastic-cord-springs.webp)
+![A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests closed with the band short, and on the right the arm is lifted, the band is stretche](../media/drawn/elastic-band-and-elastic-cord-springs.svg)
 
-*Picture: [RubberBand.jpg](https://commons.wikimedia.org/wiki/File:RubberBand.jpg) by Hao-Nhien Q. Vu, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A rubber band, elastic cord or length of rubber tubing stretched between two anchor points so that it pulls them together: a cheap, very stretchy pull spring that you can cut, tie or swap by hand, but whose pull fades over time and which perishes in heat, sunlight and ozone.
 

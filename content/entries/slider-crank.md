@@ -145,23 +145,18 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/4.pdf
 research: research/connection-types/results/Slidercrank.json
 image:
-  file: slider-crank.webp
-  width: 786
-  height: 380
-  title: File:Crank Slider.gif
-  author: Pasimi
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Crank_Slider.gif
-  alt: Animated offset crank-slider, simulated in MeKin2D
-  drawn: false
+  file: drawn/slider-crank.svg
+  alt: 'A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide;
+    at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider
+    sideways against its guide, and the slider travels twice the crank length.'
+  drawn: true
 glossary: [reciprocating, stroke, dead-point, over-centre, torque, cam-and-follower, crank, linkage, actuator, clearance,
   circlip, fatigue, lubrication, print-in-place, peel-vs-shear]
 ---
 
-![Animated offset crank-slider, simulated in MeKin2D](../media/slider-crank.webp)
+![A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide; at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees](../media/drawn/slider-crank.svg)
 
-*Picture: [Crank Slider.gif](https://commons.wikimedia.org/wiki/File:Crank_Slider.gif) by Pasimi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A [crank](../glossary.md#crank) turns, and a connecting rod joins the crank's outer end to a slider (such as a piston) that moves only in a straight line, turning rotation into back-and-forth sliding or, in an engine, back-and-forth pushes into rotation.
 

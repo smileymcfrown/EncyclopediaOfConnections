@@ -135,6 +135,7 @@ image:
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Universal_joint.gif
   alt: 3D animation of a single universal joint turning, showing the forks and cross
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw, spline,
   heat-set-insert, captive-nut, brittle--ductile, lubrication, layer-lines, perimeters, infill, print-in-place, peel-vs-shear]

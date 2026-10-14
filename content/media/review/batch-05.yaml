@@ -1,0 +1,208 @@
+# Picture review, batch 05 (sheets 21-25)
+# sheet21
+retaining-ring:
+  verdict: keep
+  reason: drawing shows the clip, its side view and how it sits in the shaft groove
+reversing-screw:
+  verdict: drawn
+  reason: current photo is a whole winch with a saw blade; the crossed-groove shaft is tiny and unclear
+rigid-chain-actuator:
+  verdict: keep
+  reason: animation shows the chain links locking into a column as they are driven out
+rod-end-and-ball-link:
+  verdict: keep
+  reason: clear labelled drawing of a rod end with its ball swivel and thread
+roller-clutch:
+  verdict: keep
+  reason: shows rollers in ramped pockets with free and engaged directions
+rolling-contact-joint:
+  verdict: drawn
+  reason: faint Jacob's-ladder engraving with flat blocks pulled apart; does not show two curved blocks rolling on crossed straps
+rope-end-finishing:
+  verdict: keep
+  reason: clear drawing of a whipping on a rope end
+rope-grab-and-ascender:
+  verdict: swap
+  use: "File:Petzl Ascenders (On Rope).jpg"
+  alt: Two handled rope ascenders side by side, one clipped onto a red climbing rope with its toothed cam closed on the rope.
+  reason: current close-up of loose cams without a rope is hard to read; this shows the whole device gripping a rope
+rope-splices:
+  verdict: keep
+  reason: drawings show the strands woven in for eye, short and long splices
+rotary-air-actuator:
+  verdict: keep
+  reason: cut-away shows pistons driving a rack that turns the output gear
+schmidt-coupling:
+  verdict: keep
+  reason: animated model shows the three discs and parallel links turning while offset
+scissor-linkage:
+  verdict: swap
+  use: "File:TL 2000 scissor lift.jpg"
+  alt: A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.
+  reason: the mirror animation makes the scissor arm small and thin; the lift shows the crossed, pinned bars clearly
+# sheet22
+scotch-yoke:
+  verdict: swap
+  use: "File:Yugo Escocés - Scotch yoke animation.gif"
+  alt: An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back and forth.
+  reason: current animation is a tiny, sparse line drawing; this larger one shows the pin, slot and sliding bar clearly
+screw-in-threaded-insert:
+  verdict: keep
+  reason: clear photo of a threaded insert with its outer and inner threads
+screw-terminal:
+  verdict: keep
+  reason: labelled photo shows wires held under tightening screws and clamping plates
+scroll-mechanism:
+  verdict: keep
+  reason: a three-jaw chuck with a jaw turned over to show the scroll teeth is the recognisable form of the item
+sear-and-trigger:
+  verdict: keep
+  reason: crossbow lock diagram shows the catch holding the string and the trigger that frees it
+  unsure: numbered labels only; a drawn sear could be clearer
+self-centring-cone-and-socket:
+  verdict: drawn
+  reason: photo shows only a Morse taper shank by a tape measure, not a cone sliding into a socket and centring
+self-clinching-fastener:
+  verdict: keep
+  reason: clear photo of two clinch nuts showing the serrated ring and undercut
+self-closing-hinges:
+  verdict: swap
+  use: "File:Bommerscharnier.JPG"
+  alt: A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.
+  reason: current photo of a rising hinge is narrow and hard to make out; this close-up shows a spring hinge clearly
+self-folding-print:
+  verdict: drawn
+  reason: current animation still is a blurry grey strip in water; does not show a flat print folding into shape
+self-locking-wedge:
+  verdict: keep
+  reason: simple cross-section shows the wedge driven in and the sideways squeeze it makes
+self-tapping-screw-into-plastic:
+  verdict: drawn
+  reason: photo is a row of metal self-drilling and wood screws, not a screw forming its thread in a plastic boss
+series-elastic-coupling:
+  verdict: drawn
+  reason: research figure is mostly a block diagram, with the actual actuator small and hard to read
+# sheet23
+servo-horn-and-spline-hub:
+  verdict: keep
+  reason: clear photo of a servo horn with its toothed centre hole and linkage holes
+servo-or-motorised-latch:
+  verdict: drawn
+  reason: exploded servo shows only the motor parts, not a latch; drawing shows the servo sliding a bolt through the lid's eyelet
+sew-on-part:
+  verdict: keep
+  reason: sew-through and shank buttons are the classic sew-on parts and show the holes and loop
+sewn-seams-and-hand-stitches:
+  verdict: keep
+  reason: clear diagram of the two threads locking inside the cloth
+shackle-and-quick-link:
+  verdict: swap
+  use: "File:Maillon.JPG"
+  alt: A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve screwed shut.
+  reason: current wall of many small shackles is cluttered; this shows one link and how it opens and closes
+  unsure: shows only the quick link half of the entry; a clear single D-shackle photo would also suit (Commons search was rate-limited)
+shaft-to-hub-joints-and-rigid-couplings:
+  verdict: keep
+  reason: cross-section shows a hub locked to a shaft by a key
+shape-memory-alloy-wire-latch:
+  verdict: drawn
+  reason: photo shows only loose nitinol wires, not a latch
+shear-pin-coupling:
+  verdict: drawn
+  reason: photo is a person measuring a pin in a workshop; the pin is small and the coupling is not shown
+shims-spacers-and-standoffs:
+  verdict: keep
+  reason: clear photo of slotted shims of known thickness
+shock-corded-sectional-pole:
+  verdict: drawn
+  reason: photo is a single broken carbon tent stick; it does not show the sections or the cord
+shut-off-valve:
+  verdict: keep
+  reason: cut-away shows the ball, handle and seat of a ball valve
+side-release-buckle:
+  verdict: keep
+  reason: clear drawing of both halves with the springy arms and side windows
+# sheet24
+silicone-and-ms-polymer-adhesive-sealants:
+  verdict: keep
+  reason: clear photo of sealant paste being squeezed from a cartridge
+slider-crank:
+  verdict: drawn
+  reason: current animation is a thin-line simulation with dimension numbers; hard to read as a crank, rod and slider
+sliding-dovetail:
+  verdict: keep
+  reason: animation shows the flared tongue sliding into its groove
+slip-ring-and-rotary-union:
+  verdict: keep
+  reason: labelled photo shows real brushes rubbing on slip rings
+  unsure: letter labels A-D have no key on the picture itself
+slotted-adjustment-with-a-jacking-screw:
+  verdict: drawn
+  reason: two cluttered engine-bay photos with tiny boxes; the slot and adjusting screw are hard to find
+solder-sleeve:
+  verdict: keep
+  reason: clear photo of a finished solder sleeve on wire
+soldered-metal-joint:
+  verdict: keep
+  reason: photo shows a copper pipe joint being soldered with a torch
+soldered-wire-joint:
+  verdict: keep
+  reason: drawing shows how the stripped wires are twisted together for the joint
+  unsure: shows the twist (Western Union splice) but not the solder itself
+solenoid-latch:
+  verdict: drawn
+  reason: photo shows the outside of a lock case; the coil, spring and bolt cannot be seen
+solvent-welding:
+  verdict: keep
+  reason: photo shows solvent cement brushed onto a plastic pipe and fitting
+speed-control-valve:
+  verdict: drawn
+  reason: current animation is a quick exhaust valve (a different part) with a website address on it
+speed-governor:
+  verdict: swap
+  use: "File:Regulador mecánico.png"
+  alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc against a brake.
+  reason: current clock-striking drawing is busy and the fan governor is small; this shows the spinning weights at rest and running
+# sheet25
+spiral-power-spring:
+  verdict: keep
+  reason: clear photo of an open clock mainspring coiled between arbor and post
+spline-shaft:
+  verdict: swap
+  use: "File:Spline-shaft.png"
+  alt: A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.
+  reason: current drive-shaft animation makes the splined section small; this shows the shaft and matching hub clearly
+split-part-joints-for-large-prints:
+  verdict: drawn
+  reason: current picture is the woodworking sliding-dovetail animation (a related joint), not a split print
+spot-weld:
+  verdict: drawn
+  reason: current animation is mostly a force and current graph, with the electrodes and nugget tiny
+sprag-clutch:
+  verdict: keep
+  reason: diagram shows the sprags jamming one way and sliding the other
+spring-balancer:
+  verdict: keep
+  reason: lamp diagram shows the arm linkage and the springs that balance it
+spring-bar:
+  verdict: keep
+  reason: clear drawing of a spring bar with its tube and sprung tips
+spring-clamp-wire-connector:
+  verdict: swap
+  use: "File:Cage Clamp.jpg"
+  alt: A bent spring-steel clamp pressing the bare copper end of a blue wire against a flat metal contact bar.
+  reason: current cut-open connector photo is murky; this shows the spring pressing the wire onto the busbar
+spring-clip-clamp:
+  verdict: swap
+  use: "File:Clothespin-0157e3.jpg"
+  alt: A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.
+  reason: a clear photo of the everyday item; the current patent drawing works but is old and lettered
+spring-gate-hook:
+  verdict: keep
+  reason: photo of several carabiners showing spring gates and locking sleeves
+spring-steel-push-on-fasteners:
+  verdict: keep
+  reason: clear photo of two spring-steel clip nuts
+spur-gear-pair-and-gear-train:
+  verdict: keep
+  reason: animation of two meshing spur gears turning in opposite directions

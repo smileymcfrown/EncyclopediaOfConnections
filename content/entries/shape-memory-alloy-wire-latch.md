@@ -104,22 +104,17 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shapememoryalloy_wire_latch_nitinol_muscle_wire.json
 image:
-  file: shape-memory-alloy-wire-latch.webp
-  width: 800
-  height: 616
-  title: File:Nitinol draht.jpg
-  author: Petermaerki
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Nitinol_draht.jpg
-  alt: Photo of nitinol wires
-  drawn: false
+  file: drawn/shape-memory-alloy-wire-latch.svg
+  alt: 'Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the
+    thin nickel-titanium wire is cold with the switch open; on the right the switch is closed, the current warms the wire
+    so it shortens by about 4 percent, pulling the catch out of the notch so the lid pops up.'
+  drawn: true
 glossary: [self-locking, stroke, detent, pawl, actuator, solenoid, flexure, form-fit--force-fit--material-bond, fatigue]
 ---
 
-![Photo of nitinol wires](../media/shape-memory-alloy-wire-latch.webp)
+![Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the thin nickel-titanium wire is cold with the switch open; on the right the switch is ](../media/drawn/shape-memory-alloy-wire-latch.svg)
 
-*Picture: [Nitinol draht.jpg](https://commons.wikimedia.org/wiki/File:Nitinol_draht.jpg) by Petermaerki, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A spring holds a small catch shut, and a thin nickel-titanium wire hooked to the catch shortens by a few percent when an electric current heats it, pulling the catch free so the lid, door or pin is released without a sound.
 

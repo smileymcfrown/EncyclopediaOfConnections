@@ -119,20 +119,20 @@ research: research/connection-types/results/Belt_tensioner_springloaded_idler.js
 image:
   file: belt-tensioner.webp
   width: 800
-  height: 973
-  title: File:Tensioner.jpg
-  author: Una Smith
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  source: https://commons.wikimedia.org/wiki/File:Tensioner.jpg
-  alt: Automatic tensioner pressing on the serpentine belt of a 7.4 L car engine
+  height: 452
+  title: File:Kettenspanner für Singlespeed-Räder.jpg
+  author: Kab/http://du-und-dein-fahrrad.de
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg
+  alt: A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain.
   drawn: false
 glossary: [misalignment, freewheel, pitch, idler, stiffness, preload, deflection, torsion, creep, infill]
 ---
 
-![Automatic tensioner pressing on the serpentine belt of a 7.4 L car engine](../media/belt-tensioner.webp)
+![A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain.](../media/belt-tensioner.webp)
 
-*Picture: [Tensioner.jpg](https://commons.wikimedia.org/wiki/File:Tensioner.jpg) by Una Smith, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
+*Picture: [Kettenspanner für Singlespeed-Räder.jpg](https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg) by Kab/http://du-und-dein-fahrrad.de, Public domain, from Wikimedia Commons.*
 
 A free-spinning pulley, sprocket or plastic shoe pushed against the slack side of a belt or chain by a spring (or set by a screw) so the drive stays snug as the belt or chain stretches and wears.
 

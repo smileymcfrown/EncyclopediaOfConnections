@@ -138,22 +138,17 @@ sources:
 - https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement
 research: research/connection-types/results/Vacuum_holddown_table_vacuum_table.json
 image:
-  file: vacuum-hold-down-table.webp
-  width: 640
-  height: 853
-  title: File:Vacuümtafel.jpg
-  author: Paul Hermans at Dutch Wikipedia
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Vacu%C3%BCmtafel.jpg
-  alt: Photo of a vacuum table (the image used on the Wikipedia 'Vacuum table' article)
-  drawn: false
+  file: drawn/vacuum-hold-down-table.svg
+  alt: 'A side cut-away of a vacuum table: a flat sheet lies on a plate full of small holes over a sealed chamber; a pump
+    sucks the air out of the chamber through a hose, so the room air pressing on top pushes the sheet down hard and friction
+    stops the cutter dragging it sideways.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, check-valve, venturi]
 ---
 
-![Photo of a vacuum table (the image used on the Wikipedia 'Vacuum table' article)](../media/vacuum-hold-down-table.webp)
+![A side cut-away of a vacuum table: a flat sheet lies on a plate full of small holes over a sealed chamber; a pump sucks the air out of the chamber through a hose, so the room air pressing on top pushe](../media/drawn/vacuum-hold-down-table.svg)
 
-*Picture: [Vacuümtafel.jpg](https://commons.wikimedia.org/wiki/File:Vacu%C3%BCmtafel.jpg) by Paul Hermans at Dutch Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A perforated or grooved plate over a sealed chamber that a vacuum source keeps below room pressure, so the air above presses any flat sheet laid on it down onto the plate and friction stops it sliding while it is milled, laser-cut, drilled or printed on.
 

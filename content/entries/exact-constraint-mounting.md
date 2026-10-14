@@ -122,24 +122,18 @@ sources:
 - https://api.printables.com/graphql/ (Printables models 1493826, 110874 and 951573 read via the public API)
 research: research/connection-types/results/Exactconstraint_mounting_321_locating.json
 image:
-  file: exact-constraint-mounting.webp
-  width: 800
-  height: 529
-  title: File:6DOF en.jpg
-  author: Horia Ionescu
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:6DOF_en.jpg
-  alt: 'Diagram of the six degrees of freedom of a body: three slides and three rotations'
-  drawn: false
+  file: drawn/exact-constraint-mounting.svg
+  alt: 'A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back
+    wall and one on the end wall, with a spring pushing it diagonally into the corner so it always settles in the same place.'
+  drawn: true
 glossary: [degrees-of-freedom, axial--radial, pitch, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, heat-set-insert, chamfer--fillet, keying, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep]
 ---
 
-![Diagram of the six degrees of freedom of a body: three slides and three rotations](../media/exact-constraint-mounting.webp)
+![A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back wall and one on the end wall, with a spring pushing it diagonally into the corner s](../media/drawn/exact-constraint-mounting.svg)
 
-*Picture: [6DOF en.jpg](https://commons.wikimedia.org/wiki/File:6DOF_en.jpg) by Horia Ionescu, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part: three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles in the same position without being held twice over, bent or left wobbling.
 

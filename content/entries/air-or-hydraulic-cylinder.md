@@ -162,6 +162,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif
   alt: 'Animation of a single-acting cylinder: air pushes the piston out and a spring brings it back'
+  animated: true
   drawn: false
 glossary: [misalignment, self-locking, oscillating, stroke, actuator, solenoid, fail-safe--fail-secure, creep, lubrication,
   infill, o-ring, gland, regulator]

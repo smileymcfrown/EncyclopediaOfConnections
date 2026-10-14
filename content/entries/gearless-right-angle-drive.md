@@ -145,6 +145,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:ElbowEngine.gif
   alt: 'Animation of Hobson''s joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles;
     used as the lead image of Wikipedia''s ''Hobson''s joint'' article'
+  animated: true
   drawn: false
 glossary: [misalignment, axial--radial, ratchet, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   fatigue, lubrication, print-in-place, elephants-foot]

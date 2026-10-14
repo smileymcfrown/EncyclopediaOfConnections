@@ -144,23 +144,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lid_and_flap_stays_folding_stay_friction_stay.json
 image:
-  file: lid-and-flap-stays.webp
-  width: 800
-  height: 1166
-  title: File:George H. Johnson & Fred Bottner Trunk Lid Support - DPLA - c52e19270d05551ecae0e6621daffa03 (page 1).jpg
-  author: Department of the Interior. Patent Office. (1849 - 1925)
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:George_H._Johnson_%26_Fred_Bottner_Trunk_Lid_Support_-_DPLA_-_c52e19270d05551ecae0e6621daffa03_(page_1).jpg
-  alt: A historic US patent drawing of a trunk lid support
-  drawn: false
+  file: drawn/lid-and-flap-stays.svg
+  alt: 'Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight
+    so the lid''s weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block
+    that a screw squeezes so friction holds the lid at any angle.'
+  drawn: true
 glossary: [dead-point, over-centre, detent, torque, linkage, torsion, clearance, form-fit--force-fit--material-bond, creep,
   layer-lines]
 ---
 
-![A historic US patent drawing of a trunk lid support](../media/lid-and-flap-stays.webp)
+![Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight so the lid's weight presses it onto its stop, and on the right a sliding stay wh](../media/drawn/lid-and-flap-stays.svg)
 
-*Picture: [George H. Johnson & Fred Bottner Trunk Lid Support - DPLA - c52e19270d05551ecae0e6621daffa03 (page 1).jpg](https://commons.wikimedia.org/wiki/File:George_H._Johnson_%26_Fred_Bottner_Trunk_Lid_Support_-_DPLA_-_c52e19270d05551ecae0e6621daffa03_(page_1).jpg) by Department of the Interior. Patent Office. (1849 - 1925), Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A folding or sliding arm between a lid (or flap, or window) and its box or frame that holds the lid open, either by locking straight just past its [dead point](../glossary.md#dead-point) or by squeezing a sliding bar so friction holds it at any angle.
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under a cloud of shielding gas and leaving a solid bead behind it.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="340" y1="30" x2="340" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- butt -->
+<rect x="60" y="100" width="100" height="24" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="176" y="100" width="100" height="24" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M148,100 Q168,82 188,100 L176,124 H160 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<!-- lap -->
+<rect x="60" y="214" width="160" height="22" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="140" y="192" width="136" height="22" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M140,190 Q118,194 112,214 H140 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<!-- T -->
+<rect x="60" y="346" width="216" height="22" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="158" y="276" width="20" height="70" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M158,324 Q144,330 138,346 H158 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<path d="M178,324 Q192,330 198,346 H178 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<!-- right: torch along a joint -->
+<rect x="370" y="300" width="400" height="44" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M380,300 Q390,284 410,284 H592 Q600,284 604,300 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<ellipse cx="626" cy="300" rx="26" ry="9" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M590,296 C560,240 610,200 660,206 C710,212 700,270 668,296" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6 6"/>
+<g transform="rotate(-28 640 260)">
+<rect x="618" y="110" width="44" height="140" rx="6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+</g>
+<line x1="634" y1="262" x2="628" y2="294" stroke="#222" stroke-width="4"/>
+<path d="M618,272 l8,6 l-6,6 l8,6" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="640" y1="372" x2="740" y2="372" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="168" y="60" text-anchor="middle" font-weight="bold">Butt joint</text>
+<text x="168" y="168" text-anchor="middle" font-weight="bold">Lap joint</text>
+<text x="168" y="262" text-anchor="middle" font-weight="bold">T joint</text>
+<text x="540" y="140" text-anchor="end">torch and</text><text x="540" y="162" text-anchor="end">filler wire</text>
+<text x="700" y="186" text-anchor="middle">shielding gas</text>
+<text x="490" y="272" text-anchor="middle">solid bead left behind</text>
+<text x="626" y="328" text-anchor="middle" font-size="16">molten pool</text>
+<text x="690" y="400" text-anchor="middle">torch moves along</text>
+<text x="400" y="436" text-anchor="middle">Both edges melt into the pool, then cool into one solid piece</text>
+</g>
+</svg>

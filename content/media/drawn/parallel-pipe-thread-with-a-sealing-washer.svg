@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away side view of a hose nut screwed onto a tap outlet with straight threads: the threads leave a small spiral gap, and the joint is sealed by a flat rubber washer squashed between the end of the tap thread and the bottom of the nut.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="half">
+<polygon points="80,165 260,165 260,162 270,150 280,162 290,150 300,162 310,150 320,162 330,150 340,162 350,150 360,162 370,150 380,162 390,150 400,162 410,150 420,162 420,205 80,205" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="250,110 470,110 470,170 740,170 740,195 440,195 440,145 420,156 410,144 400,156 390,144 380,156 370,144 360,156 350,144 340,156 330,144 320,156 310,144 300,156 290,144 280,156 270,144 260,156 250,156" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="420" y="146" width="20" height="56" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<use href="#half"/>
+<use href="#half" transform="matrix(1,0,0,-1,0,450)"/>
+<line x1="95" y1="225" x2="770" y2="225" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<line x1="566" y1="140" x2="440" y2="166" stroke="#222" stroke-width="2"/>
+<line x1="330" y1="352" x2="330" y2="300" stroke="#222" stroke-width="2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="150" y="150">tap outlet</text>
+<text x="360" y="98">hose nut</text>
+<text x="650" y="106">rubber washer is</text>
+<text x="650" y="128">squashed: this seals</text>
+<text x="700" y="216">water</text>
+<text x="330" y="374">straight threads leave a spiral gap,</text>
+<text x="330" y="396">so the thread itself can't seal</text>
+<text x="400" y="430">Undo and remake as often as you like; just renew the washer</text>
+</g>
+</svg>

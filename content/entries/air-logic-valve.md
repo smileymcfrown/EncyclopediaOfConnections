@@ -178,6 +178,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif
   alt: 'Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches
     the outlet (the OR element)'
+  animated: true
   drawn: false
 glossary: [oscillating, stroke, over-centre, bistable, actuator, solenoid, fail-safe--fail-secure, stiffness, compliant-mechanism,
   hysteresis, perimeters, infill, support-material, check-valve, regulator]

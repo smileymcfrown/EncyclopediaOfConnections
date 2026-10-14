@@ -149,6 +149,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
   alt: Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)
+  animated: true
   drawn: false
 glossary: [misalignment, self-locking, stroke, detent, torque, preload, flexure, clearance, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, repeatability--accuracy, creep, perimeters, infill]

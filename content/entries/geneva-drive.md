@@ -150,6 +150,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif
   alt: Animated six-slot external Geneva drive stepping round, with the locking disc visible
+  animated: true
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, ratchet, pawl, crank, clearance, form-fit--force-fit--material-bond,
   circlip, repeatability--accuracy, print-in-place, elephants-foot, peel-vs-shear]

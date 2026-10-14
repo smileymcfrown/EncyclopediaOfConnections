@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled fins fold in going through the hole and spring out behind it.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="390" stroke="#cccccc" stroke-width="2"/>
+<rect x="18" y="180" width="99" height="24" fill="#cfe3f5"/>
+<rect x="149" y="180" width="99" height="24" fill="#cfe3f5"/>
+<rect x="18" y="204" width="99" height="18" fill="#e8e8e8"/>
+<rect x="149" y="204" width="99" height="18" fill="#e8e8e8"/>
+<polygon points="118,176 129,176 129,292 121,292 118,280" fill="#fde2c4"/>
+<polygon points="148,176 137,176 137,292 145,292 148,280" fill="#fde2c4"/>
+<path d="M88,180 Q133,150 178,180 Z" fill="#fde2c4"/>
+<rect x="129" y="112" width="8" height="128" fill="#d8f0d2"/>
+<rect x="121" y="104" width="24" height="10" rx="3" fill="#d8f0d2"/>
+<line x1="133" y1="60" x2="133" y2="96" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<rect x="285" y="180" width="99" height="24" fill="#cfe3f5"/>
+<rect x="416" y="180" width="99" height="24" fill="#cfe3f5"/>
+<rect x="285" y="204" width="99" height="18" fill="#e8e8e8"/>
+<rect x="416" y="204" width="99" height="18" fill="#e8e8e8"/>
+<polygon points="385,176 396,176 396,222 374,292 362,288 385,222" fill="#fde2c4"/>
+<polygon points="415,176 404,176 404,222 426,292 438,288 415,222" fill="#fde2c4"/>
+<path d="M355,180 Q400,150 445,180 Z" fill="#fde2c4"/>
+<polygon points="396,162 404,162 404,282 400,290 396,282" fill="#d8f0d2"/>
+<rect x="388" y="156" width="24" height="8" rx="3" fill="#d8f0d2"/>
+<line x1="388" y1="262" x2="354" y2="262" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="412" y1="262" x2="446" y2="262" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="552" y="180" width="105" height="24" fill="#cfe3f5"/>
+<rect x="677" y="180" width="105" height="24" fill="#cfe3f5"/>
+<rect x="552" y="204" width="105" height="18" fill="#e8e8e8"/>
+<rect x="677" y="204" width="105" height="18" fill="#e8e8e8"/>
+<path d="M622,180 Q667,150 712,180 Z" fill="#fde2c4"/>
+<rect x="662" y="176" width="10" height="130" fill="#fde2c4"/>
+<path d="M662,204 L658,196 M672,204 L676,196" fill="none" stroke-width="3"/>
+<path d="M662,222 L658,214 M672,222 L676,214" fill="none" stroke-width="3"/>
+<polygon points="662,248 639,228 662,236" fill="#fde2c4"/>
+<polygon points="672,248 695,228 672,236" fill="#fde2c4"/>
+<polygon points="662,270 639,250 662,258" fill="#fde2c4"/>
+<polygon points="672,270 695,250 672,258" fill="#fde2c4"/>
+<polygon points="662,292 639,272 662,280" fill="#fde2c4"/>
+<polygon points="672,292 695,272 672,280" fill="#fde2c4"/>
+<polygon points="662,314 639,294 662,302" fill="#fde2c4"/>
+<polygon points="672,314 695,294 672,302" fill="#fde2c4"/>
+<line x1="727" y1="60" x2="727" y2="110" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="133" y="36" font-size="20" font-weight="bold">Push-in: before</text>
+<text x="400" y="36" font-size="20" font-weight="bold">Pin pushed flush</text>
+<text x="667" y="36" font-size="20" font-weight="bold">Fir-tree clip</text>
+<text x="175" y="88" text-anchor="start">pin</text>
+<text x="133" y="330">split legs</text>
+<text x="400" y="330">pin spreads the legs</text>
+<text x="400" y="352">behind the sheet</text>
+<text x="667" y="345">fins fold in, then</text>
+<text x="667" y="367">spring out behind</text>
+<text x="667" y="88" text-anchor="end">push in</text>
+<text x="67" y="168">panel</text>
+<text x="67" y="246">backing</text>
+<text x="400" y="430">Pushed into a plain hole by hand; no screws, nuts or tools</text>
+</g></svg>

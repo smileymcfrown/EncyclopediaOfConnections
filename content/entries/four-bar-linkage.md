@@ -165,6 +165,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif
   alt: 'Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)'
+  animated: true
   drawn: false
 glossary: [degrees-of-freedom, misalignment, backlash, stroke, over-centre, crank, linkage, actuator, clearance, tolerance,
   brittle--ductile, lubrication, print-in-place, peel-vs-shear]

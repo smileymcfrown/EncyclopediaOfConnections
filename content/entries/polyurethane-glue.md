@@ -136,24 +136,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Polyurethane_glue_foaming_moisturecure_glue.json
 image:
-  file: polyurethane-glue.webp
-  width: 453
-  height: 465
-  title: File:Teardrop polyglue strength.jpg
-  author: Wikiwerks at English Wikibooks
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Teardrop_polyglue_strength.jpg
-  alt: 'Photo of an author''s strength test of polyurethane glue: a pine block glued to plywood, broken so that the plywood
-    failed'
-  drawn: false
+  file: drawn/polyurethane-glue.svg
+  alt: 'Two glued wood joints cut open: on the left a tight, clamped joint with a thin film of polyurethane glue soaked into
+    the wood (strong); on the right a gappy joint where the glue has foamed up into bubbles that fill the gap and ooze out
+    (weak), with moisture going in and gas bubbles making the foam.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, end-grain, cure, pot-life--working-time, open-time, peel-vs-shear,
   gap-filling]
 ---
 
-![Photo of an author's strength test of polyurethane glue: a pine block glued to plywood, broken so that the plywood failed](../media/polyurethane-glue.webp)
+![Two glued wood joints cut open: on the left a tight, clamped joint with a thin film of polyurethane glue soaked into the wood (strong); on the right a gappy joint where the glue has foamed up into bub](../media/drawn/polyurethane-glue.svg)
 
-*Picture: [Teardrop polyglue strength.jpg](https://commons.wikimedia.org/wiki/File:Teardrop_polyglue_strength.jpg) by Wikiwerks at English Wikibooks, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Polyurethane glue is a one-part liquid glue that [cures](../glossary.md#cure) by reacting with moisture in the air and in the materials, foaming slightly as it hardens, to give a strong, waterproof bond between wood and many other materials, provided the joint is tight and clamped.
 

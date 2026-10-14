@@ -125,22 +125,17 @@ sources:
 - https://api.printables.com/graphql/ (models 732684, 11188)
 research: research/connection-types/results/Heatsealed_seam_heatsealed_plastic_film_and_coated_fabric.json
 image:
-  file: heat-sealed-seam.webp
-  width: 365
-  height: 321
-  title: File:Impulse sealer.jpg
-  author: Cjp24
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg
-  alt: A small benchtop impulse bag sealer with a metal body and cutter blade
-  drawn: false
+  file: drawn/heat-sealed-seam.svg
+  alt: 'Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses
+    down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight
+    seam.'
+  drawn: true
 glossary: [stroke, bistable, actuator, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
-![A small benchtop impulse bag sealer with a metal body and cutter blade](../media/heat-sealed-seam.webp)
+![Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses down and melts the plastic where the films touch, then the jaws stay closed while ](../media/drawn/heat-sealed-seam.svg)
 
-*Picture: [Impulse sealer.jpg](https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg) by Cjp24, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A heat-sealed seam joins two thin layers of thermoplastic film, or coating-to-coating on plastic-coated fabric, by pressing them with a hot bar, iron, wire or tip until the facing plastic melts together, giving an airtight, waterproof line with no stitches or glue: the joint behind plastic bags, inflatables, dry bags and soft-robot air pouches.
 

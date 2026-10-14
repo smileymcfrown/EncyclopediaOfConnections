@@ -143,6 +143,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif
   alt: Animated diagram of a sliding dovetail tongue sliding into its groove
+  animated: false
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, undercut, creep, elephants-foot,
   overhang--bridging, peel-vs-shear]

@@ -159,21 +159,21 @@ sources:
 research: research/connection-types/results/Tensioning_and_adjustable_hitches_truckers_hitch_tautline_hitch_Prusik.json
 image:
   file: tensioning-and-adjustable-hitches.webp
-  width: 166
-  height: 800
-  title: File:Truckers hitch pulley model.png
-  author: Buz11
+  width: 800
+  height: 533
+  title: File:Hitch-truckers-ABoK 1514-USCG.jpg
+  author: USCG PTC Developer
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Truckers_hitch_pulley_model.png
-  alt: 'Diagram of the trucker''s hitch as a pulley: a pull F gives 3F in the rope over the load and 2F on the anchor'
+  source: https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg
+  alt: A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.
   drawn: false
 glossary: [ratchet, mechanical-advantage, form-fit--force-fit--material-bond, creep]
 ---
 
-![Diagram of the trucker's hitch as a pulley: a pull F gives 3F in the rope over the load and 2F on the anchor](../media/tensioning-and-adjustable-hitches.webp)
+![A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.](../media/tensioning-and-adjustable-hitches.webp)
 
-*Picture: [Truckers hitch pulley model.png](https://commons.wikimedia.org/wiki/File:Truckers_hitch_pulley_model.png) by Buz11, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Picture: [Hitch-truckers-ABoK 1514-USCG.jpg](https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg) by USCG PTC Developer, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 Knots that tension a line and hold it with no hardware: the trucker's hitch ties a loop into the rope that works like a pulley so you can haul a lashing tight, while friction hitches such as the taut-line, rolling, adjustable grip and Prusik hitches wrap round a rope or pole, grip when the line is loaded and slide by hand when it is slack, so the line can be tightened or moved again later.
 

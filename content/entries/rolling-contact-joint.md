@@ -144,25 +144,19 @@ sources:
 - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
 research: research/connection-types/results/Rollingcontact_joint_CORE_Jacobsladder_hinge.json
 image:
-  file: rolling-contact-joint.webp
-  width: 425
-  height: 700
-  title: File:Jacob's Ladder 2.jpg
-  author: Scientific American
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_2.jpg
-  alt: 'Engraving of the mechanism of a Jacob''s ladder: three blocks shown transparent and pulled apart with their crossed
-    tapes labelled a and b'
-  drawn: false
+  file: drawn/rolling-contact-joint.svg
+  alt: 'Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed
+    straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over
+    the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces.'
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
   clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
   layer-lines, print-in-place]
 ---
 
-![Engraving of the mechanism of a Jacob's ladder: three blocks shown transparent and pulled apart with their crossed tapes labelled a and b](../media/rolling-contact-joint.webp)
+![Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the ](../media/drawn/rolling-contact-joint.svg)
 
-*Picture: [Jacob's Ladder 2.jpg](https://commons.wikimedia.org/wiki/File:Jacob%27s_Ladder_2.jpg) by Scientific American, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
 

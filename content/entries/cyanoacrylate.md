@@ -114,21 +114,21 @@ research: research/connection-types/results/Cyanoacrylate_superglue.json
 image:
   file: cyanoacrylate.webp
   width: 800
-  height: 150
-  title: File:Cyanacrylat polymerisation.svg
-  author: Roland Mattern
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg
-  alt: Diagram of how cyanoacrylate molecules join into a polymer chain when triggered by water (hydroxide ions)
+  height: 323
+  title: File:Super glue.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Super_glue.jpg
+  alt: A tube of superglue (cyanoacrylate glue).
   drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, layer-lines, warping--shrinkage, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
 
-![Diagram of how cyanoacrylate molecules join into a polymer chain when triggered by water (hydroxide ions)](../media/cyanoacrylate.webp)
+![A tube of superglue (cyanoacrylate glue).](../media/cyanoacrylate.webp)
 
-*Picture: [Cyanacrylat polymerisation.svg](https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg) by Roland Mattern, Public domain, from Wikimedia Commons.*
+*Picture: [Super glue.jpg](https://commons.wikimedia.org/wiki/File:Super_glue.jpg) by unknown, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Cyanoacrylate (superglue) is a one-part liquid glue that hardens in seconds in a thin film between tight-fitting parts, triggered by traces of moisture, giving a strong but [brittle](../glossary.md#brittle--ductile) bond on most plastics, metal, rubber and wood.
 

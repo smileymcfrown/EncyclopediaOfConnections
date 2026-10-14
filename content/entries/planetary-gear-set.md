@@ -146,6 +146,7 @@ image:
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif
   alt: Animation of a planetary set with the ring held still (sun 24, planets 16, ring 56 teeth) and the carrier turning
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, crank, actuator, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, repeatability--accuracy, lubrication, infill, print-in-place]

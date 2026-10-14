@@ -135,23 +135,18 @@ sources:
 - https://en.wikipedia.org/wiki/VESA_mount
 research: research/connection-types/results/Hangon_mounts_keyhole_slot_French_cleat.json
 image:
-  file: hang-on-mounts.webp
-  width: 755
-  height: 652
-  title: File:French cleat.jpg
-  author: Tenbergen
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:French_cleat.jpg
-  alt: Photo of a French cleat on a wall (left) and the matching cleat on a shelf to be hung (right)
-  drawn: false
+  file: drawn/hang-on-mounts.svg
+  alt: 'Two lift-off wall mounts: on the left a keyhole slot in the back of an object, where a screw head goes in through
+    the round end and the object then drops so the head sits behind the narrow slot; on the right a French cleat seen from
+    the side, where a bevelled strip on the object hooks over a bevelled strip on the wall and its weight wedges it in.'
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, undercut, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, peel-vs-shear]
 ---
 
-![Photo of a French cleat on a wall (left) and the matching cleat on a shelf to be hung (right)](../media/hang-on-mounts.webp)
+![Two lift-off wall mounts: on the left a keyhole slot in the back of an object, where a screw head goes in through the round end and the object then drops so the head sits behind the narrow slot; on th](../media/drawn/hang-on-mounts.svg)
 
-*Picture: [French cleat.jpg](https://commons.wikimedia.org/wiki/File:French_cleat.jpg) by Tenbergen, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Two gravity-held wall mounts that let an object be lifted on and off without tools: a keyhole slot in the object drops over a screw head in the wall, and a French cleat is a pair of bevelled strips, one on the wall and one on the object, that hook together under the object's weight.
 

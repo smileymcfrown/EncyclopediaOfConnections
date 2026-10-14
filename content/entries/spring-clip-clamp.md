@@ -133,22 +133,23 @@ sources:
 research: research/connection-types/results/Spring_clip_clamp_clothespeg_clip_spring_clamp_clipon_holder.json
 image:
   file: spring-clip-clamp.webp
-  width: 507
-  height: 1246
-  title: File:Clothespin (US Patent 10,163).png
-  author: David M. Smith
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Clothespin_(US_Patent_10,163).png
-  alt: 'Drawing of the first modern clothespin (David M. Smith, 1853): two prongs on a fulcrum plus a spring'
+  width: 800
+  height: 533
+  title: File:Clothespin-0157e3.jpg
+  author: 'Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R.
+    Tribble Also see my personal gallery at Google Photos'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg
+  alt: A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.
   drawn: false
 glossary: [dead-point, over-centre, ratchet, flexure, compliant-mechanism, cantilever, torsion, clearance, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, brittle--ductile, layer-lines, perimeters, infill, print-in-place, o-ring]
 ---
 
-![Drawing of the first modern clothespin (David M. Smith, 1853): two prongs on a fulcrum plus a spring](../media/spring-clip-clamp.webp)
+![A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.](../media/spring-clip-clamp.webp)
 
-*Picture: [Clothespin (US Patent 10,163).png](https://commons.wikimedia.org/wiki/File:Clothespin_(US_Patent_10,163).png) by David M. Smith, Public domain, from Wikimedia Commons.*
+*Picture: [Clothespin-0157e3.jpg](https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg) by Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R. Tribble A, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two jaws joined by a pivot and closed by a spring (usually a coiled wire [torsion](../glossary.md#torsion) spring, sometimes rubber bands or a springy printed arm), so you squeeze the handles to open it and let go to clamp it onto cloth, paper, a board edge, a rod or a cable.
 

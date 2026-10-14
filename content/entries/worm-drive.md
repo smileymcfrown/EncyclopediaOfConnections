@@ -143,6 +143,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Worm_Gear.gif
   alt: Animated 4-start worm turning a 50-tooth throated wheel (12.5:1)
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, ratchet, pawl, torque, gear-ratio, pitch, clearance,
   form-fit--force-fit--material-bond, set-screw, creep, lubrication, perimeters, print-in-place, overhang--bridging]

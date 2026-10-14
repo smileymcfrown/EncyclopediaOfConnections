@@ -152,21 +152,21 @@ research: research/connection-types/results/Drawer_slide_telescopic_ballbearing_
 image:
   file: drawer-slide.webp
   width: 800
-  height: 800
-  title: File:P1000133 Teleskopschienenführung.JPG
-  author: Dynomat
+  height: 600
+  title: File:Light Rail.jpg
+  author: Rollon91
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:P1000133_Teleskopschienenf%C3%BChrung.JPG
-  alt: Close-up photo of telescopic drawer slides fitted to a furniture drawer, used in Wikipedia's 'Drawer' article
+  source: https://commons.wikimedia.org/wiki/File:Light_Rail.jpg
+  alt: Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.
   drawn: false
 glossary: [stroke, detent, stiffness, deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile,
   perimeters, infill]
 ---
 
-![Close-up photo of telescopic drawer slides fitted to a furniture drawer, used in Wikipedia's 'Drawer' article](../media/drawer-slide.webp)
+![Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.](../media/drawer-slide.webp)
 
-*Picture: [P1000133 Teleskopschienenführung.JPG](https://commons.wikimedia.org/wiki/File:P1000133_Teleskopschienenf%C3%BChrung.JPG) by Dynomat, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Picture: [Light Rail.jpg](https://commons.wikimedia.org/wiki/File:Light_Rail.jpg) by Rollon91, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
 
 Two or three nested steel or aluminium channels that roll on caged steel balls, letting a drawer, tray or robot stage pull out smoothly in a straight line, often its full length, with optional stops, locks, [detents](../glossary.md#detent) and soft-close.
 

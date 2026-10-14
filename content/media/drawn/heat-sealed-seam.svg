@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight seam.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<g id="stack" stroke="#222" stroke-width="3" stroke-linejoin="round">
+<rect x="90" y="262" width="220" height="14" fill="url(#hatch)" stroke-width="2"/>
+<rect x="110" y="222" width="180" height="40" fill="#e8e8e8"/>
+<rect x="30" y="206" width="340" height="16" fill="#d8f0d2"/>
+<rect x="30" y="190" width="340" height="16" fill="#cfe3f5"/>
+<rect x="115" y="178" width="170" height="12" fill="#ffffff" stroke-width="2"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round" stroke="#222" stroke-width="3">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- heating -->
+<use href="#stack"/>
+<rect x="150" y="190" width="100" height="32" fill="#fde2c4"/>
+<rect x="150" y="110" width="100" height="68" fill="#f5d0d0"/>
+<line x1="200" y1="55" x2="200" y2="100" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<!-- cooling -->
+<g transform="translate(400,0)">
+<use href="#stack"/>
+<rect x="150" y="190" width="100" height="32" fill="#d8f0d2"/>
+<rect x="150" y="110" width="100" height="68" fill="#e8e8e8"/>
+<line x1="200" y1="55" x2="200" y2="100" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">1. Heat and press</text>
+<text x="600" y="36" font-size="21" font-weight="bold">2. Hold while it cools</text>
+<text x="270" y="140" text-anchor="start">hot bar</text>
+<text x="670" y="140" text-anchor="start">bar off, still</text>
+<text x="670" y="162" text-anchor="start">pressing</text>
+<text x="60" y="166">baking paper</text>
+<text x="60" y="248">two films</text>
+<text x="200" y="305">rubber pad</text>
+<text x="200" y="340">films melt where they touch</text>
+<text x="600" y="340">melt sets into one layer</text>
+<text x="400" y="420">Heat + pressure, then hold until cool: an airtight seam</text>
+</g>
+</svg>

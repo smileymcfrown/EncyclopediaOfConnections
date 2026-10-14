@@ -160,6 +160,7 @@ image:
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
   alt: Animation of liquid being carried round between the teeth and the case in an external gear pump
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, torque, idler, actuator, clearance, tolerance, creep, perimeters, infill, o-ring, check-valve,
   venturi]

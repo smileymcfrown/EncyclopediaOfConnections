@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the inside of a spinning drum, and a band wrapped round a drum with one end anchored and the other pulled tight by a lever.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="266" y1="20" x2="266" y2="390" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="390" stroke="#cccccc" stroke-width="2"/>
+<rect x="20" y="217" width="226" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="125" y="110" width="16" height="230" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M83,95 L183,95 L183,175 L167,175 L167,113 L99,113 L99,175 L83,175 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="113" y="122" width="12" height="50" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="61" y1="147" x2="103" y2="147" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="141" y="122" width="12" height="50" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="205" y1="147" x2="163" y2="147" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M93,360 A40,10 0 1 0 171,360" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<circle cx="400" cy="215" r="113" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="215" r="95" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<polygon points="368.5,301.5 351.7,293.3 336.9,281.9 324.6,267.8 315.5,251.4 309.9,233.6 308.0,215.0 309.9,196.4 315.5,178.6 324.6,162.2 336.9,148.1 351.7,136.7 368.5,128.5 374.3,144.5 360.6,151.2 348.5,160.4 338.6,172.0 331.1,185.3 326.5,199.8 325.0,215.0 326.5,230.2 331.1,244.7 338.6,258.0 348.5,269.6 360.6,278.8 374.3,285.5" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polygon points="431.5,128.5 448.3,136.7 463.1,148.1 475.4,162.2 484.5,178.6 490.1,196.4 492.0,215.0 490.1,233.6 484.5,251.4 475.4,267.8 463.1,281.9 448.3,293.3 431.5,301.5 425.7,285.5 439.4,278.8 451.5,269.6 461.4,258.0 468.9,244.7 473.5,230.2 475.0,215.0 473.5,199.8 468.9,185.3 461.4,172.0 451.5,160.4 439.4,151.2 425.7,144.5" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<circle cx="400" cy="275" r="8" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="400" cy="275" r="3" fill="#222"/>
+<rect x="380" y="141" width="40" height="14" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="378" y1="148" x2="352" y2="148" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="422" y1="148" x2="448" y2="148" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M280.7,171.6 A127,127 0 0 1 356.6,95.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<circle cx="667" cy="205" r="80" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="667" cy="205" r="8" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="667" cy="205" r="3" fill="#222"/>
+<path d="M581.0,205.0 A86,86 0 1 1 667.0,291.0" fill="none" stroke="#222" stroke-width="12"/>
+<path d="M581.0,205.0 A86,86 0 1 1 667.0,291.0" fill="none" stroke="#fde2c4" stroke-width="6"/>
+<path d="M581,205 L581,315" stroke="#222" stroke-width="12"/><path d="M581,205 L581,315" stroke="#fde2c4" stroke-width="6"/>
+<rect x="561" y="315" width="40" height="22" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<path d="M667,291 L667,325" stroke="#222" stroke-width="12"/><path d="M667,291 L667,325" stroke="#fde2c4" stroke-width="6"/>
+<line x1="627" y1="329" x2="772" y2="329" stroke="#222" stroke-width="10"/><line x1="627" y1="329" x2="772" y2="329" stroke="#e8e8e8" stroke-width="5"/>
+<circle cx="627" cy="329" r="8" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="627" cy="329" r="3" fill="#222"/>
+<line x1="767" y1="337" x2="767" y2="377" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M614.4,185.8 A56,56 0 0 1 695.0,156.5" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="133" y="40" font-size="20" font-weight="bold">Disc and pads</text>
+<text x="400" y="40" font-size="20" font-weight="bold">Shoes in a drum</text>
+<text x="667" y="40" font-size="20" font-weight="bold">Band round a drum</text>
+<text x="133" y="76">pads pinch the disc</text>
+<text x="133" y="395">disc spins</text>
+<text x="400" y="76">shoes pushed out</text>
+<text x="400" y="372">drum spins</text>
+<text x="600" y="372">fixed end</text>
+<text x="735" y="398">pull lever</text>
+<text x="400" y="436" font-size="19">Friction turns the spin into heat, so the part slows, stops or is held still</text>
+</g></svg>

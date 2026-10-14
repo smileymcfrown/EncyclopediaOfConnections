@@ -143,6 +143,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif
   alt: Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, self-locking, coaxial, ratchet, torque, linkage, fail-safe--fail-secure, stiffness, hysteresis,
   tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert, repeatability--accuracy, creep, fatigue, brittle--ductile,

@@ -130,6 +130,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Spoked_flywheel_animation.gif
   alt: 'Animation of a spinning spoked flywheel: heavy rim, spokes and hub'
+  animated: true
   drawn: false
 glossary: [stroke, freewheel, torque, gear-ratio, crank, set-screw, creep, fatigue, infill, elephants-foot]
 ---

@@ -133,24 +133,19 @@ sources:
 - https://en.wikipedia.org/wiki/Self-drilling_screw
 research: research/connection-types/results/Selftapping_screw_into_plastic_threadforming_screw.json
 image:
-  file: self-tapping-screw-into-plastic.webp
-  width: 800
-  height: 319
-  title: File:Screw types.jpg
-  author: Ssawka at Polish Wikipedia
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Screw_types.jpg
-  alt: Photo of several screw types including self-drilling and self-tapping screws beside wood screws
-  drawn: false
+  file: drawn/self-tapping-screw-into-plastic.svg
+  alt: 'Cut-away of a printed plastic screw post before and after a self-tapping screw is driven: on the left a plain pilot
+    hole a little narrower than the screw, on the right the screw in place with the plastic pushed into its thread, clamping
+    a part under the screw head.'
+  drawn: true
 glossary: [torque, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, creep, stress-relaxation, brittle--ductile, perimeters, infill, warping--shrinkage,
   o-ring]
 ---
 
-![Photo of several screw types including self-drilling and self-tapping screws beside wood screws](../media/self-tapping-screw-into-plastic.webp)
+![Cut-away of a printed plastic screw post before and after a self-tapping screw is driven: on the left a plain pilot hole a little narrower than the screw, on the right the screw in place with the plas](../media/drawn/self-tapping-screw-into-plastic.svg)
 
-*Picture: [Screw types.jpg](https://commons.wikimedia.org/wiki/File:Screw_types.jpg) by Ssawka at Polish Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hardened screw with a sharp, widely spaced thread forms or cuts its own mating thread in a plain [pilot hole](../glossary.md#pilot-hole) in plastic, clamping a part on without any nut, insert or tapping, at the cost of a thread that wears each time it is undone.
 

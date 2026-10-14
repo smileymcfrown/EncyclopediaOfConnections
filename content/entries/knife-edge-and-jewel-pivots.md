@@ -120,23 +120,18 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Watch_jewel_bearing_and_capstone.svg
 research: research/connection-types/results/Knifeedge_and_jewel_pivots_lowfriction_point_pivots.json
 image:
-  file: knife-edge-and-jewel-pivots.webp
-  width: 800
-  height: 212
-  title: File:Kater pendulum.png
-  author: William Watson
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Kater_pendulum.png
-  alt: Labelled drawing of a Kater's pendulum with two opposing knife-edge pivots (a), adjustment weights, bob and pointers
-  drawn: false
+  file: drawn/knife-edge-and-jewel-pivots.svg
+  alt: 'Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks
+    in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft with a cone point turns in a slightly
+    blunter cone-shaped jewel cup, touching at one tiny point.'
+  drawn: true
 glossary: [misalignment, oscillating, detent, flexure, torsion, form-fit--force-fit--material-bond, kinematic-coupling, repeatability--accuracy,
   creep, brittle--ductile, lubrication, print-in-place]
 ---
 
-![Labelled drawing of a Kater's pendulum with two opposing knife-edge pivots (a), adjustment weights, bob and pointers](../media/knife-edge-and-jewel-pivots.webp)
+![Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft ](../media/drawn/knife-edge-and-jewel-pivots.svg)
 
-*Picture: [Kater pendulum.png](https://commons.wikimedia.org/wiki/File:Kater_pendulum.png) by William Watson, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A pivot in which a hardened sharp edge or a fine pointed pin rests on a very hard, smooth seat (agate, steel, sapphire, ruby or glass), touching only along a line or at a point, so a beam, needle or pointer can rock or turn under tiny forces with very low and very consistent friction.
 

@@ -152,20 +152,21 @@ research: research/connection-types/results/Cable_gland_and_strain_relief.json
 image:
   file: cable-gland-and-strain-relief.webp
   width: 800
-  height: 558
-  title: File:Exploded CW Gland annotated.png
-  author: Andyremel
+  height: 677
+  title: File:M16 cable gland.jpg
+  author: Phiarc
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Exploded_CW_Gland_annotated.png
-  alt: Exploded, labelled view of the parts of a CW-type steel-wire-armour cable gland
+  source: https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg
+  alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber
+    seal inside, and the dome nut.
   drawn: false
 glossary: [coaxial, torque, clearance, form-fit--force-fit--material-bond, boss, perimeters, infill, o-ring, gland]
 ---
 
-![Exploded, labelled view of the parts of a CW-type steel-wire-armour cable gland](../media/cable-gland-and-strain-relief.webp)
+![A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber seal inside, and the dome nut.](../media/cable-gland-and-strain-relief.webp)
 
-*Picture: [Exploded CW Gland annotated.png](https://commons.wikimedia.org/wiki/File:Exploded_CW_Gland_annotated.png) by Andyremel, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Picture: [M16 cable gland.jpg](https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg) by Phiarc, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A threaded fitting that passes a cable through a wall or enclosure: tightening its dome nut presses a set of plastic fingers and a rubber seal round the cable, which seals the hole against dust and water and anchors the cable so pulling or twisting it doesn't strain the wires inside (strain relief).
 

@@ -148,23 +148,18 @@ sources:
 - https://reell.com/products/hollow-shaft-hinges
 research: research/connection-types/results/Friction_hinge_torque_hinge.json
 image:
-  file: friction-hinge.webp
-  width: 800
-  height: 1490
-  title: File:Lenovo ThinkPad X220 LCD hinges Kashui FRU 04W2185 vs Foxconn FRU 04W1406.jpg
-  author: Siarhei V
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_X220_LCD_hinges_Kashui_FRU_04W2185_vs_Foxconn_FRU_04W1406.jpg
-  alt: Photos from several angles of two replacement laptop screen friction hinges side by side
-  drawn: false
+  file: drawn/friction-hinge.svg
+  alt: 'Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring
+    washers that a nut squeezes together; beside it, an open lid whose weight, acting a distance x from the pin, is held up
+    by the hinge''s rubbing.'
+  drawn: true
 glossary: [misalignment, detent, torque, torsion, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, layer-lines, print-in-place, peel-vs-shear, o-ring]
 ---
 
-![Photos from several angles of two replacement laptop screen friction hinges side by side](../media/friction-hinge.webp)
+![Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring washers that a nut squeezes together; beside it, an open lid whose weight, acting a](../media/drawn/friction-hinge.svg)
 
-*Picture: [Lenovo ThinkPad X220 LCD hinges Kashui FRU 04W2185 vs Foxconn FRU 04W1406.jpg](https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_X220_LCD_hinges_Kashui_FRU_04W2185_vs_Foxconn_FRU_04W1406.jpg) by Siarhei V, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A hinge with a built-in, controlled amount of rubbing (friction) inside it, so that it holds a lid, screen or door at any angle against its own weight but still turns smoothly when you push it.
 

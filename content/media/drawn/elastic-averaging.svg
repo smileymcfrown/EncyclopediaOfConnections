@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different amount, push from both sides so the block settles in the middle where their errors average out.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<polygon points="35,140 88,140 88,300 312,300 312,140 365,140 365,350 35,350" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="35" y="350" width="330" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<line x1="200" y1="90" x2="200" y2="372" stroke="#888888" stroke-width="2" stroke-dasharray="8 6"/>
+<rect x="151" y="160" width="150" height="130" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="218" y="240" width="16" height="60" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<line x1="226" y1="148" x2="226" y2="172" stroke="#222" stroke-width="3"/>
+<line x1="200" y1="130" x2="228" y2="130" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<polygon points="435,140 488,140 488,300 712,300 712,140 765,140 765,350 435,350" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="435" y="350" width="330" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<line x1="600" y1="90" x2="600" y2="372" stroke="#888888" stroke-width="2" stroke-dasharray="8 6"/>
+<rect x="525" y="160" width="150" height="130" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M488.0,152.0 Q501.6,170.9 525.0,176.9" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M488.0,152.0 Q501.6,170.9 525.0,176.9" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M488.0,174.0 Q503.7,191.9 525.0,197.9" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M488.0,174.0 Q503.7,191.9 525.0,197.9" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M488.0,196.0 Q497.7,216.9 525.0,222.9" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M488.0,196.0 Q497.7,216.9 525.0,222.9" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M488.0,218.0 Q504.6,235.4 525.0,241.4" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M488.0,218.0 Q504.6,235.4 525.0,241.4" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M488.0,240.0 Q499.1,260.2 525.0,266.2" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M488.0,240.0 Q499.1,260.2 525.0,266.2" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M488.0,262.0 Q501.1,281.2 525.0,287.2" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M488.0,262.0 Q501.1,281.2 525.0,287.2" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M712.0,152.0 Q695.2,169.3 675.0,175.3" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M712.0,152.0 Q695.2,169.3 675.0,175.3" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M712.0,174.0 Q700.6,194.0 675.0,200.0" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M712.0,174.0 Q700.6,194.0 675.0,200.0" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M712.0,196.0 Q694.9,213.2 675.0,219.2" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M712.0,196.0 Q694.9,213.2 675.0,219.2" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M712.0,218.0 Q699.7,237.6 675.0,243.6" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M712.0,218.0 Q699.7,237.6 675.0,243.6" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M712.0,240.0 Q695.3,257.4 675.0,263.4" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M712.0,240.0 Q695.3,257.4 675.0,263.4" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+<path d="M712.0,262.0 Q695.6,279.5 675.0,285.5" fill="none" stroke="#222" stroke-width="9"/>
+<path d="M712.0,262.0 Q695.6,279.5 675.0,285.5" fill="none" stroke="#d8f0d2" stroke-width="4"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">One stiff pin</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Many springy ribs</text>
+<text x="200" y="80">pin a little out of place:</text><text x="200" y="100">block is off by the whole error</text>
+<text x="200" y="232">block</text>
+<text x="600" y="80">each rib is a bit off and bends</text><text x="600" y="100">a different amount</text>
+<text x="600" y="232">block ends up</text><text x="600" y="252">in the middle</text>
+<text x="200" y="392">dashed line = where it should sit</text>
+<text x="600" y="392">small errors average out</text>
+<text x="400" y="434" font-size="19">More springy contacts → smaller leftover error and a stiff, repeatable fit</text>
+</g></svg>

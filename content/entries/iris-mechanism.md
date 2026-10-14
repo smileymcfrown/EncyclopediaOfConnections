@@ -141,6 +141,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif
   alt: Animation of a 9-blade camera-lens iris diaphragm opening and closing
+  animated: true
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, detent, crank, linkage, stiffness, clearance, form-fit--force-fit--material-bond,
   collet, repeatability--accuracy, print-in-place, elephants-foot, warping--shrinkage, peel-vs-shear]

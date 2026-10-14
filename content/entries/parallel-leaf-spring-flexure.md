@@ -131,23 +131,18 @@ sources:
 - https://www.youtube.com/watch?v=PaypcVFPs48
 research: research/connection-types/results/Parallel_leafspring_flexure_linear_flexure_stage.json
 image:
-  file: parallel-leaf-spring-flexure.webp
-  width: 800
-  height: 600
-  title: File:Sartorius BP 160 P 6.jpg
-  author: PaulT (Gunther Tschuch)
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg
-  alt: Close-up of a flexure hinge in the parallel guide of a precision laboratory balance
-  drawn: false
+  file: drawn/parallel-leaf-spring-flexure.svg
+  alt: 'Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and
+    when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying
+    level, dipping only very slightly.'
+  drawn: true
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---
 
-![Close-up of a flexure hinge in the parallel guide of a precision laboratory balance](../media/parallel-leaf-spring-flexure.webp)
+![Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the pla](../media/drawn/parallel-leaf-spring-flexure.svg)
 
-*Picture: [Sartorius BP 160 P 6.jpg](https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg) by PaulT (Gunther Tschuch), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.
 

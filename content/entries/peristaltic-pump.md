@@ -150,6 +150,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif
   alt: Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia's 'Peristaltic pump' page)
+  animated: true
   drawn: false
 glossary: [self-locking, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond, creep, fatigue, infill,
   print-in-place, overhang--bridging, check-valve]

@@ -132,24 +132,18 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tamperevident_breakaway_bridge_frangible_link.json
 image:
-  file: tamper-evident-breakaway-bridge.webp
-  width: 800
-  height: 533
-  title: File:Pulloon kiinnitetty pullonkorkki 3.JPG
-  author: MKFI
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Pulloon_kiinnitetty_pullonkorkki_3.JPG
-  alt: 'A tethered cap on a Coca-Cola Zero bottle unscrewed but not lifted: the tamper-evident band stays on the neck and
-    the strap that keeps the cap attached is visible'
-  drawn: false
+  file: drawn/tamper-evident-breakaway-bridge.svg
+  alt: 'Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic
+    bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held
+    by the bead, so the bridges snap; then the cap gone and the broken band left on the neck as a sign it has been opened.'
+  drawn: true
 glossary: [ratchet, fail-safe--fail-secure, living-hinge, cantilever, form-fit--force-fit--material-bond, captive-nut, creep,
   brittle--ductile, layer-lines, perimeters, infill, support-material]
 ---
 
-![A tethered cap on a Coca-Cola Zero bottle unscrewed but not lifted: the tamper-evident band stays on the neck and the strap that keeps the cap attached is visible](../media/tamper-evident-breakaway-bridge.webp)
+![Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic bridges, with the band hooked under a bead on the neck; then the cap being unscrew](../media/drawn/tamper-evident-breakaway-bridge.svg)
 
-*Picture: [Pulloon kiinnitetty pullonkorkki 3.JPG](https://commons.wikimedia.org/wiki/File:Pulloon_kiinnitetty_pullonkorkki_3.JPG) by MKFI, Public domain, from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A deliberately weak link of thin plastic bridges between a cap and a ring (or between any two parts) that survives making, filling and shipping but snaps the first time the item is opened, so anyone can see it has been opened.
 

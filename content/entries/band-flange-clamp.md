@@ -131,22 +131,22 @@ sources:
 research: research/connection-types/results/Band_flange_clamp_Vband_clamp_triclamp.json
 image:
   file: band-flange-clamp.webp
-  width: 500
-  height: 410
-  title: File:Typical Marman Clamp System.tif
-  author: Unknown authorUnknown author
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif
-  alt: 'Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together'
+  width: 800
+  height: 631
+  title: File:HTML research (9067215099), clamp.jpg
+  author: Oak Ridge National Laboratory
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:HTML_research_(9067215099),_clamp.jpg
+  alt: A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.
   drawn: false
 glossary: [misalignment, axial--radial, over-centre, torque, preload, torsion, clearance, form-fit--force-fit--material-bond,
   spline, creep, galling--fretting, peel-vs-shear, o-ring]
 ---
 
-![Cross-section diagram of a Marman clamp: strap, V-segments and the two flanged rings they wedge together](../media/band-flange-clamp.webp)
+![A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.](../media/band-flange-clamp.webp)
 
-*Picture: [Typical Marman Clamp System.tif](https://commons.wikimedia.org/wiki/File:Typical_Marman_Clamp_System.tif) by Unknown authorUnknown author, Public domain, from Wikimedia Commons.*
+*Picture: [HTML research (9067215099), clamp.jpg](https://commons.wikimedia.org/wiki/File:HTML_research_(9067215099),_clamp.jpg) by Oak Ridge National Laboratory, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
 
 A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
 

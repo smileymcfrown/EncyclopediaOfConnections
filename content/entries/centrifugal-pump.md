@@ -158,6 +158,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif
   alt: Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing
+  animated: true
   drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, print-in-place, o-ring, check-valve,
   water-hammer]

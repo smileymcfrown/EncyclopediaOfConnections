@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can't slide off.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="half" stroke="#222" stroke-width="3" stroke-linejoin="round">
+<polygon points="150,199 150,170 210,137 210,170 250,170 310,137 310,170 560,170 560,93 640,93 640,159 720,159 720,199" fill="#e8e8e8"/>
+<polygon points="20,177 140,177 150,170 210,137 234,170 250,170 310,137 334,170 420,170 420,139 334,139 310,106 250,139 234,139 210,106 150,139 140,146 20,146" fill="#cfe3f5"/>
+<rect x="345" y="104" width="34" height="35" fill="#fde2c4"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<use href="#half"/>
+<use href="#half" transform="matrix(1 0 0 -1 0 450)"/>
+<g stroke="#222" stroke-width="2">
+<line x1="664" y1="159" x2="660" y2="199"/><line x1="686" y1="159" x2="682" y2="199"/><line x1="708" y1="159" x2="704" y2="199"/><line x1="664" y1="251" x2="660" y2="291"/><line x1="686" y1="251" x2="682" y2="291"/><line x1="708" y1="251" x2="704" y2="291"/>
+</g>
+<line x1="40" y1="112" x2="120" y2="112" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="280" y1="70" x2="280" y2="112" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="280" y1="380" x2="280" y2="338" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="200" y1="70" x2="209" y2="128" stroke="#222" stroke-width="1.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="80" y="98">push on</text>
+<text x="80" y="335">soft tube</text>
+<text x="170" y="60">sharp edge grips</text>
+<text x="362" y="90">clamp</text>
+<text x="600" y="80">fitting</text>
+<text x="298" y="380" text-anchor="start">tube squeezes</text>
+<text x="298" y="402" text-anchor="start">the stem: seal</text>
+<text x="400" y="440">Pulling makes it grip harder; pressure spikes loosen it, so add a clamp</text>
+</g>
+</svg>

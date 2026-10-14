@@ -147,6 +147,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif
   alt: Rendered animation of the eccentric input, wobbling lobed disc, fixed pin ring and output pins
+  animated: true
   drawn: false
 glossary: [backlash, self-locking, coaxial, ratchet, torque, actuator, stiffness, preload, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, creep, print-in-place]

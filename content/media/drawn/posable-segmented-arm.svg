@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of a posable arm made of hollow ball-and-socket segments: each segment's ball is snapped into the next one's socket, whose lip wraps past the ball's widest point; every joint is tilted a little and held by friction, the tilts add up to a curve, and coolant flows through the hollow middle.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(220.0,310.0) rotate(-30) scale(1.9)"><rect x="-52" y="-24" width="22" height="48" fill="url(#hatch)" stroke="#222" stroke-width="2"/><rect x="-31" y="-12" width="34" height="24" fill="#e8e8e8" stroke="#222" stroke-width="2"/></g>
+<g transform="translate(220.0,310.0) rotate(-30) scale(1.9)" fill="#cfe3f5" stroke="#222" stroke-width="2"><circle r="25"/><rect x="10" y="-13" width="40" height="26"/><rect x="0" y="-11.5" width="22" height="23" stroke="none"/></g>
+<g transform="translate(328.6,247.3) rotate(-12) scale(1.9)" fill="#fde2c4" stroke="#222" stroke-width="2"><circle r="25"/><rect x="10" y="-13" width="40" height="26"/><rect x="0" y="-11.5" width="22" height="23" stroke="none"/></g>
+<g transform="translate(451.3,221.2) rotate(6) scale(1.9)" fill="#cfe3f5" stroke="#222" stroke-width="2"><circle r="25"/><rect x="10" y="-13" width="40" height="26"/><rect x="0" y="-11.5" width="22" height="23" stroke="none"/></g>
+<g transform="translate(576.0,234.3) rotate(24) scale(1.9)" fill="#fde2c4" stroke="#222" stroke-width="2"><circle r="25"/><rect x="10" y="-13" width="40" height="26"/><rect x="0" y="-11.5" width="22" height="23" stroke="none"/></g>
+<path transform="translate(220.0,310.0) rotate(-30) scale(1.9)" d="M89.1,27.6 A36,36 0 1 1 89.1,-27.6 L82.4,-19.5 A25.5,25.5 0 1 0 82.4,19.5 Z" fill="#cfe3f5" stroke="#222" stroke-width="2"/>
+<path transform="translate(328.6,247.3) rotate(-12) scale(1.9)" d="M89.1,27.6 A36,36 0 1 1 89.1,-27.6 L82.4,-19.5 A25.5,25.5 0 1 0 82.4,19.5 Z" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+<path transform="translate(451.3,221.2) rotate(6) scale(1.9)" d="M89.1,27.6 A36,36 0 1 1 89.1,-27.6 L82.4,-19.5 A25.5,25.5 0 1 0 82.4,19.5 Z" fill="#cfe3f5" stroke="#222" stroke-width="2"/>
+<rect transform="translate(220.0,310.0) rotate(-30) scale(1.9)" x="-25" y="-6" width="96" height="12" fill="#ffffff"/>
+<rect transform="translate(328.6,247.3) rotate(-12) scale(1.9)" x="-25" y="-6" width="96" height="12" fill="#ffffff"/>
+<rect transform="translate(451.3,221.2) rotate(6) scale(1.9)" x="-25" y="-6" width="96" height="12" fill="#ffffff"/>
+<rect transform="translate(576.0,234.3) rotate(24) scale(1.9)" x="-25" y="-6" width="76" height="12" fill="#ffffff"/>
+<path d="M220.0,310.0 L328.6,247.3 L451.3,221.2 L576.0,234.3 L683.6,282.2" fill="none" stroke="#d1495b" stroke-width="4" stroke-dasharray="10 7" marker-end="url(#ah)"/>
+<line x1="391" y1="110" x2="443" y2="181" stroke="#222" stroke-width="1.5"/>
+<line x1="616" y1="110" x2="581" y2="172" stroke="#222" stroke-width="1.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="371" y="80">ball snapped into</text><text x="371" y="102">the next socket</text>
+<text x="666" y="80">socket lip wraps past</text><text x="666" y="102">the ball's widest point</text>
+<text x="491" y="350">hollow middle: coolant or cables</text>
+<text x="90" y="268">fixed end</text>
+<text x="400" y="430">Each joint tilts a little and friction holds it; the small tilts add up to any shape</text>
+</g></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two cut-away views of a twist-lock pole: a thin tube slides inside a wider one and carries a split plastic plug with a cone on a threaded rod; unlocked, the cone sits loose and the tubes slide; after a twist the rod draws the cone into the plug, which swells out and presses on the wall of the outer tube so friction holds the length.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="tubes"><rect x="150" y="80" width="600" height="12" fill="#cfe3f5" stroke="#222" stroke-width="3"/><rect x="150" y="168" width="600" height="12" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="40" y="100" width="420" height="10" fill="#d8f0d2" stroke="#222" stroke-width="3"/><rect x="40" y="150" width="420" height="10" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<line x1="380" y1="130" x2="680" y2="130" stroke="#222" stroke-width="5"/><rect x="452" y="110" width="8" height="40" fill="#e8e8e8" stroke="#222" stroke-width="2"/></g></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<use href="#tubes"/><path d="M460,104 L560,104 L560,120 L480,124 L460,124 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M460,156 L560,156 L560,140 L480,136 L460,136 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M566,124 L646,108 L646,152 L566,136 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="220" y1="200" x2="360" y2="200" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<g transform="translate(0,200)"><use href="#tubes"/><path d="M460,104 L560,93 L560,109 L480,124 L460,124 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M460,156 L560,167 L560,151 L480,136 L460,136 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M480,124 L560,108 L560,152 L480,136 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M84,94 A16,44 0 1 1 84,166" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="555" y1="78" x2="555" y2="62" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="555" y1="182" x2="555" y2="198" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="20" y="40" font-size="21" font-weight="bold">Unlocked: tubes slide</text>
+<text x="20" y="240" font-size="21" font-weight="bold">Twisted: locked</text>
+<text x="760" y="72" text-anchor="end">outer tube</text>
+<text x="40" y="92">inner tube</text>
+<text x="420" y="72">split plug</text><line x1="460" y1="78" x2="500" y2="104" stroke="#222" stroke-width="2"/>
+<text x="590" y="206">cone on a threaded rod</text><line x1="640" y1="188" x2="620" y2="150" stroke="#222" stroke-width="2"/>
+<text x="122" y="406">twist</text>
+<text x="780" y="250" text-anchor="end">plug swells, grips the wall</text>
+<text x="400" y="436" text-anchor="middle">Twist back and the cone backs out, so the tubes slide again</text>
+</g></svg>

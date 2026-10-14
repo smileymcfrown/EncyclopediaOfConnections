@@ -142,22 +142,24 @@ sources:
 research: research/connection-types/results/Scotch_yoke.json
 image:
   file: scotch-yoke.webp
-  width: 400
-  height: 400
-  title: File:Scotch yoke animation.gif
-  author: BRoys
-  license: CC BY-SA 2.5
-  license_url: https://creativecommons.org/licenses/by-sa/2.5
-  source: https://commons.wikimedia.org/wiki/File:Scotch_yoke_animation.gif
-  alt: 'Simple animated Scotch yoke: a crank pin sliding in the slot of a yoke that moves back and forth'
+  width: 800
+  height: 450
+  title: File:Yugo Escocés - Scotch yoke animation.gif
+  author: Gussisaurio
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif
+  alt: An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back
+    and forth.
+  animated: true
   drawn: false
 glossary: [misalignment, backlash, reciprocating, oscillating, stroke, torque, cam-and-follower, crank, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, circlip, lubrication, infill, print-in-place, peel-vs-shear]
 ---
 
-![Simple animated Scotch yoke: a crank pin sliding in the slot of a yoke that moves back and forth](../media/scotch-yoke.webp)
+![An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back and forth.](../media/scotch-yoke.webp)
 
-*Picture: [Scotch yoke animation.gif](https://commons.wikimedia.org/wiki/File:Scotch_yoke_animation.gif) by BRoys, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+*Picture: [Yugo Escocés - Scotch yoke animation.gif](https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif) by Gussisaurio, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 A pin on a turning wheel ([crank](../glossary.md#crank)) slides along a slot in a bar that is guided to move only in a straight line, so steady turning becomes a smooth back-and-forth push whose position follows a perfect sine wave; it can also work the other way round.
 

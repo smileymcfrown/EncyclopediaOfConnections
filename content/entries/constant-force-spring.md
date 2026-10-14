@@ -125,22 +125,17 @@ sources:
 - https://www.youtube.com/watch?v=65KoSqo3F_0
 research: research/connection-types/results/Constantforce_spring_springreturn_reel.json
 image:
-  file: constant-force-spring.webp
-  width: 800
-  height: 800
-  title: File:Constant force spring.svg
-  author: Cmglee
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Constant_force_spring.svg
-  alt: Graphs of load against extension for constant-force springs compared with ideal (Hooke's law) springs
-  drawn: false
+  file: drawn/constant-force-spring.svg
+  alt: A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each
+    time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives a rising
+    one.
+  drawn: true
 glossary: [stroke, torque, idler, linkage, deflection, damping, clearance, tolerance, creep, stress-relaxation, fatigue]
 ---
 
-![Graphs of load against extension for constant-force springs compared with ideal (Hooke's law) springs](../media/constant-force-spring.webp)
+![A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each time, beside a graph where the constant-force spring gives a flat force line whil](../media/drawn/constant-force-spring.svg)
 
-*Picture: [Constant force spring.svg](https://commons.wikimedia.org/wiki/File:Constant_force_spring.svg) by Cmglee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A coil of pre-curled steel strip that, once pulled out a short way, pulls back with an almost constant force over a very long distance, used to counterbalance, retract and keep things under steady tension.
 

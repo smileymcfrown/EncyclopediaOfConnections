@@ -135,6 +135,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif
   alt: Animation (40 frames) of a rigid chain actuator based on Serapid's LinkLift lifting column, showing the chain's links
     forming a column as they are driven out
+  animated: true
   drawn: false
 glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
   overhang--bridging]

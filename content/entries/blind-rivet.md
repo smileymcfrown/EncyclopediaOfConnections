@@ -155,6 +155,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Popnagel.gif
   alt: 'Animation of a pop rivet being set: the mandrel is pulled and the rivet''s far end swells behind the sheets (used
     in Wikipedia ''Rivet''; the mandrel''s weakened neck is not shown)'
+  animated: true
   drawn: false
 glossary: [misalignment, pitch, clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, perimeters,
   infill, peel-vs-shear]

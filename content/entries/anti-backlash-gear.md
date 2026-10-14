@@ -121,23 +121,18 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Backlash.svg
 research: research/connection-types/results/Antibacklash_gear_split_scissor_gear.json
 image:
-  file: anti-backlash-gear.webp
-  width: 800
-  height: 426
-  title: File:Backlash.svg
-  author: en:User:GearHeads, User:Slashme
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Backlash.svg
-  alt: Diagram of the gap (backlash) between meshing gear teeth, the problem an anti-backlash gear removes
-  drawn: false
+  file: drawn/anti-backlash-gear.svg
+  alt: 'Gear teeth drawn unrolled flat: on the left a solid gear leaves a gap beside the mating tooth, so the drive has play
+    when it reverses; on the right the gear is split into a fixed half and a free half that a spring turns slightly, so their
+    teeth pinch the mating tooth from both sides and the gap is gone.'
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, flexure, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, lubrication, perimeters, infill]
 ---
 
-![Diagram of the gap (backlash) between meshing gear teeth, the problem an anti-backlash gear removes](../media/anti-backlash-gear.webp)
+![Gear teeth drawn unrolled flat: on the left a solid gear leaves a gap beside the mating tooth, so the drive has play when it reverses; on the right the gear is split into a fixed half and a free half ](../media/drawn/anti-backlash-gear.svg)
 
-*Picture: [Backlash.svg](https://commons.wikimedia.org/wiki/File:Backlash.svg) by en:User:GearHeads, User:Slashme, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A gear split into two side-by-side halves, one fixed to the shaft and one free to turn a little on it, pulled round against each other by springs so that together they fill the tooth gaps of the mating gear and remove the play ([backlash](../glossary.md#backlash)) that otherwise shows up every time the drive reverses.
 

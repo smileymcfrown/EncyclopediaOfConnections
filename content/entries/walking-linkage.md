@@ -160,6 +160,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif
   alt: Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path
+  animated: true
   drawn: false
 glossary: [misalignment, stroke, dead-point, torque, cam-and-follower, crank, linkage, actuator, stiffness, clearance, tolerance,
   form-fit--force-fit--material-bond, repeatability--accuracy, brittle--ductile, print-in-place]

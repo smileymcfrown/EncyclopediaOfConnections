@@ -132,24 +132,18 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=4ESNT3DTDMs&format=json
 research: research/connection-types/results/Quickrelease_plate_camera_plate_dovetail_clamp.json
 image:
-  file: quick-release-plate.webp
-  width: 800
-  height: 324
-  title: File:Arca Swiss Profile.svg
-  author: Phiarc
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Arca_Swiss_Profile.svg
-  alt: Cross-section drawing of the de-facto standard Arca-Swiss quick-release plate profile (made in FreeCAD), used in the
-    Wikipedia 'Tripod head' article
-  drawn: false
+  file: drawn/quick-release-plate.svg
+  alt: 'End-on cross-section of a quick-release clamp holding a dovetail plate: the plate''s 45-degree bevelled edges sit
+    under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so the sloping faces wedge the plate
+    sideways and down onto the clamp base.'
+  drawn: true
 glossary: [tolerance, form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep,
   layer-lines, perimeters, infill, print-in-place, overhang--bridging]
 ---
 
-![Cross-section drawing of the de-facto standard Arca-Swiss quick-release plate profile (made in FreeCAD), used in the Wikipedia 'Tripod head' article](../media/quick-release-plate.webp)
+![End-on cross-section of a quick-release clamp holding a dovetail plate: the plate's 45-degree bevelled edges sit under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so th](../media/drawn/quick-release-plate.svg)
 
-*Picture: [Arca Swiss Profile.svg](https://commons.wikimedia.org/wiki/File:Arca_Swiss_Profile.svg) by Phiarc, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A two-part mount in which a plate or rail with bevelled (dovetail) edges is trapped and squeezed by a matching clamp, so a camera, light, sight or instrument can be locked on in the same position in seconds and released by hand.
 

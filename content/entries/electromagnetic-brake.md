@@ -128,6 +128,7 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
   alt: Animated diagram of an electromagnetic power-off brake, used in Wikipedia's 'Electromagnetic brake' article
+  animated: false
   drawn: false
 glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gear-ratio, solenoid, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert]

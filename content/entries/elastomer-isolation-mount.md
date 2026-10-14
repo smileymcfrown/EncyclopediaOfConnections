@@ -128,21 +128,22 @@ research: research/connection-types/results/Elastomer_isolation_mount_rubber_bob
 image:
   file: elastomer-isolation-mount.webp
   width: 800
-  height: 600
-  title: File:Silent PC-silicone grommets.JPG
-  author: DonES
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Silent_PC-silicone_grommets.JPG
-  alt: Silicone grommets isolating a hard drive from a PC case (Antec P180)
+  height: 1422
+  title: File:Schwingungsdämpfer Aufbau.jpg
+  author: Schwingungsdämpfer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg
+  alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with
+    a sleeve for the bolt.
   drawn: false
 glossary: [misalignment, fail-safe--fail-secure, stiffness, damping, form-fit--force-fit--material-bond, creep, perimeters,
   infill, peel-vs-shear, gland]
 ---
 
-![Silicone grommets isolating a hard drive from a PC case (Antec P180)](../media/elastomer-isolation-mount.webp)
+![A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with a sleeve for the bolt.](../media/elastomer-isolation-mount.webp)
 
-*Picture: [Silent PC-silicone grommets.JPG](https://commons.wikimedia.org/wiki/File:Silent_PC-silicone_grommets.JPG) by DonES, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+*Picture: [Schwingungsdämpfer Aufbau.jpg](https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg) by Schwingungsdämpfer, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
 
 An elastomer isolation mount holds a part to its frame through a piece of rubber or similar springy, lossy material, so vibration and shock from the part (or from the frame) are soaked up instead of being passed straight through as noise and shaking.
 

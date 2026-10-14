@@ -134,22 +134,17 @@ sources:
 - https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md
 research: research/connection-types/results/Twistedstring_actuator.json
 image:
-  file: twisted-string-actuator.webp
-  width: 800
-  height: 3391
-  title: File:DEXMARTAntrieb.svg
-  author: Nutzer1 / Benjamin Ehm
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:DEXMARTAntrieb.svg
-  alt: 'Diagram of the basic twisted-string actuator: motor, twisting strings and load'
-  drawn: false
+  file: drawn/twisted-string-actuator.svg
+  alt: 'A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings
+    hang side by side and the load is low, after 10 turns the strings are twisted round each other and the load has risen,
+    and after 20 turns the twist is tighter and the load is higher still.'
+  drawn: true
 glossary: [backlash, self-locking, axial--radial, stroke, torque, gear-ratio, actuator, torsion, creep, fatigue]
 ---
 
-![Diagram of the basic twisted-string actuator: motor, twisting strings and load](../media/twisted-string-actuator.webp)
+![A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings hang side by side and the load is low, after 10 turns the strings are twisted round ](../media/drawn/twisted-string-actuator.svg)
 
-*Picture: [DEXMARTAntrieb.svg](https://commons.wikimedia.org/wiki/File:DEXMARTAntrieb.svg) by Nutzer1 / Benjamin Ehm, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
 
 A twisted-string [actuator](../glossary.md#actuator) turns a motor's rotation into a strong straight-line pull by twisting two or more strings together, so they shorten like a wrung-out cloth and act as a very high, self-changing [gear ratio](../glossary.md#gear-ratio) in almost no space.
 

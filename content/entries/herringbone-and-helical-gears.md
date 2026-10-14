@@ -165,6 +165,7 @@ image:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif
   alt: 3D animation of a pair of helical gears meshing
+  animated: true
   drawn: false
 glossary: [backlash, self-locking, axial--radial, thrust-load, torque, gear-ratio, pitch, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, chamfer--fillet, lubrication, infill, print-in-place, elephants-foot, overhang--bridging]

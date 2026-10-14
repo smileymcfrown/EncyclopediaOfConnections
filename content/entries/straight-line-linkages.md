@@ -171,6 +171,7 @@ image:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif
   alt: Animated Watt's linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description
+  animated: true
   drawn: false
 glossary: [stroke, pitch, idler, crank, linkage, flexure, clearance, form-fit--force-fit--material-bond, heat-set-insert,
   repeatability--accuracy, print-in-place]
