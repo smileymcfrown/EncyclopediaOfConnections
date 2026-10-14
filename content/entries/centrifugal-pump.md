@@ -150,23 +150,35 @@ sources:
 research: research/connection-types/results/Centrifugal_pump_impeller_pump.json
 image:
   file: centrifugal-pump.webp
-  width: 300
-  height: 300
   title: File:Centrifugal pump.gif
   author: Nguyen thanh chinh
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif
   alt: Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing
-  animated: true
+  site: Wikimedia Commons
+  still: centrifugal-pump.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: centrifugal-pump.webp
+  title: File:Centrifugal pump.gif
+  author: Nguyen thanh chinh
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif
+  alt: Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing
+  site: Wikimedia Commons
+  still: centrifugal-pump.still.webp
+  kind: animation
   drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, print-in-place, o-ring, check-valve,
   water-hammer]
 ---
 
-![Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing](../media/centrifugal-pump.webp)
-
-*Picture: [Centrifugal pump.gif](https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif) by Nguyen thanh chinh, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/centrifugal-pump.still.webp"><img src="../media/centrifugal-pump.webp" alt="Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif">Centrifugal pump</a> by Nguyen thanh chinh, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A motor spins a wheel of curved blades (the impeller) inside a spiral casing (the volute); water entering at the centre is whirled outwards, gains speed and pressure, and leaves through the outlet, giving a large, smooth flow at fairly low pressure, as long as the pump is already full of water (Wikipedia 'Centrifugal pump').
 

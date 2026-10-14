@@ -174,14 +174,20 @@ image:
     past straight resting on a stop where the load presses the knee harder into the stop; a small graph shows the force boost
     rising steeply as the links near straight.'
   drawn: true
+pictures:
+- file: drawn/over-centre-linkage.svg
+  alt: 'Three frames of two links joined at a knee: bent and free to fold, exactly straight at the dead point, and a few degrees
+    past straight resting on a stop where the load presses the knee harder into the stop; a small graph shows the force boost
+    rising steeply as the links near straight.'
+  drawn: true
 glossary: [misalignment, self-locking, stroke, dead-point, over-centre, bistable, ratchet, pawl, linkage, preload, compliant-mechanism,
   clearance, form-fit--force-fit--material-bond, holding-force, set-screw, boss, creep, perimeters, infill, print-in-place,
   peel-vs-shear]
 ---
 
-![Three frames of two links joined at a knee: bent and free to fold, exactly straight at the dead point, and a few degrees past straight resting on a stop where the load presses the knee harder into the](../media/drawn/over-centre-linkage.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/over-centre-linkage.svg" alt="Three frames of two links joined at a knee: bent and free to fold, exactly straight at the dead point, and a few degrees past straight resting on a stop where the load presses the knee harder into the stop; a small graph shows the force boost rising steeply as the links near straight."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two links joined by a middle hinge (the knee) are pushed just past their straight-line position and rest against a stop, so a load that tries to fold them only presses the knee harder into the stop, giving a lock that needs no spring or catch plus a very large force boost near the straight position.
 

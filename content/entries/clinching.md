@@ -120,8 +120,6 @@ sources:
 research: research/connection-types/results/Clinching_press_joining_without_rivets.json
 image:
   file: clinching.webp
-  width: 800
-  height: 502
   title: File:TOX Pressotechnik Clinching.gif
   author: CRT4TopSpot
   license: CC BY-SA 4.0
@@ -129,14 +127,29 @@ image:
   source: https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif
   alt: 'Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads
     into a button'
-  animated: true
+  site: Wikimedia Commons
+  still: clinching.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: clinching.webp
+  title: File:TOX Pressotechnik Clinching.gif
+  author: CRT4TopSpot
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif
+  alt: 'Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads
+    into a button'
+  site: Wikimedia Commons
+  still: clinching.still.webp
+  kind: animation
   drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear]
 ---
 
-![Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads into a button](../media/clinching.webp)
-
-*Picture: [TOX Pressotechnik Clinching.gif](https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif) by CRT4TopSpot, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/clinching.still.webp"><img src="../media/clinching.webp" alt="Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads into a button"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif">TOX Pressotechnik Clinching</a> by CRT4TopSpot, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A way of permanently joining overlapping metal sheets by pressing them with a punch into a shaped die, so the metal flows sideways into a button-shaped interlock that holds the sheets together without any extra part.
 

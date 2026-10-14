@@ -152,13 +152,19 @@ image:
     a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside
     of the tube.'
   drawn: true
+pictures:
+- file: drawn/expanding-internal-grip.svg
+  alt: 'Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with
+    a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside
+    of the tube.'
+  drawn: true
 glossary: [misalignment, self-locking, axial--radial, linkage, actuator, fail-safe--fail-secure, cantilever, tolerance, form-fit--force-fit--material-bond,
   spline, taper, collet, captive-nut, creep, perimeters, infill, o-ring, regulator]
 ---
 
-![Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it ](../media/drawn/expanding-internal-grip.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/expanding-internal-grip.svg" alt="Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside of the tube."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A plug or set of fingers goes into a hole, tube or ring and is made to grow outward, by a cone or wedge, a screw-driven [linkage](../glossary.md#linkage) or an inflated rubber bladder, so friction against the inside wall holds and centres the part, and shrinking it again lets the part go.
 

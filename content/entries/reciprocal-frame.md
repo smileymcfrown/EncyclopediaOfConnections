@@ -127,21 +127,30 @@ sources:
 research: research/connection-types/results/Reciprocal_frame_selfsupporting_stick_bridge.json
 image:
   file: reciprocal-frame.webp
-  width: 800
-  height: 600
   title: File:Three stick reciprocal frame.JPG
   author: PeterEastern (talk)
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG
   alt: 'Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: reciprocal-frame.webp
+  title: File:Three stick reciprocal frame.JPG
+  author: PeterEastern (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG
+  alt: 'Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle'
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, pitch, deflection, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 
-![Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle](../media/reciprocal-frame.webp)
-
-*Picture: [Three stick reciprocal frame.JPG](https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG) by PeterEastern (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/reciprocal-frame.webp" alt="Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG">Three stick reciprocal frame</a> by PeterEastern (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A reciprocal frame is a closed ring of three or more sticks or beams in which each one rests on the next and carries the one before. Together they span a roof or a gap with no central support, held by their own weight and friction, or by simple ties.
 

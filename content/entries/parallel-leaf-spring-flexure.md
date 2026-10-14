@@ -136,13 +136,19 @@ image:
     when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying
     level, dipping only very slightly.'
   drawn: true
+pictures:
+- file: drawn/parallel-leaf-spring-flexure.svg
+  alt: 'Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and
+    when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying
+    level, dipping only very slightly.'
+  drawn: true
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---
 
-![Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the pla](../media/drawn/parallel-leaf-spring-flexure.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/parallel-leaf-spring-flexure.svg" alt="Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying level, dipping only very slightly."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.
 

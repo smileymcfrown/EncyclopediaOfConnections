@@ -126,14 +126,19 @@ image:
   alt: 'A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back
     wall and one on the end wall, with a spring pushing it diagonally into the corner so it always settles in the same place.'
   drawn: true
+pictures:
+- file: drawn/exact-constraint-mounting.svg
+  alt: 'A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back
+    wall and one on the end wall, with a spring pushing it diagonally into the corner so it always settles in the same place.'
+  drawn: true
 glossary: [degrees-of-freedom, axial--radial, pitch, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, heat-set-insert, chamfer--fillet, keying, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep]
 ---
 
-![A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back wall and one on the end wall, with a spring pushing it diagonally into the corner s](../media/drawn/exact-constraint-mounting.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/exact-constraint-mounting.svg" alt="A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back wall and one on the end wall, with a spring pushing it diagonally into the corner so it always settles in the same place."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part: three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles in the same position without being held twice over, bent or left wobbling.
 

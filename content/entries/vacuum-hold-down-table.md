@@ -143,12 +143,18 @@ image:
     sucks the air out of the chamber through a hose, so the room air pressing on top pushes the sheet down hard and friction
     stops the cutter dragging it sideways.'
   drawn: true
+pictures:
+- file: drawn/vacuum-hold-down-table.svg
+  alt: 'A side cut-away of a vacuum table: a flat sheet lies on a plate full of small holes over a sealed chamber; a pump
+    sucks the air out of the chamber through a hose, so the room air pressing on top pushes the sheet down hard and friction
+    stops the cutter dragging it sideways.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, check-valve, venturi]
 ---
 
-![A side cut-away of a vacuum table: a flat sheet lies on a plate full of small holes over a sealed chamber; a pump sucks the air out of the chamber through a hose, so the room air pressing on top pushe](../media/drawn/vacuum-hold-down-table.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/vacuum-hold-down-table.svg" alt="A side cut-away of a vacuum table: a flat sheet lies on a plate full of small holes over a sealed chamber; a pump sucks the air out of the chamber through a hose, so the room air pressing on top pushes the sheet down hard and friction stops the cutter dragging it sideways."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A perforated or grooved plate over a sealed chamber that a vacuum source keeps below room pressure, so the air above presses any flat sheet laid on it down onto the plate and friction stops it sliding while it is milled, laser-cut, drilled or printed on.
 

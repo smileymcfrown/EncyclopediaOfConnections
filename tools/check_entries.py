@@ -21,7 +21,7 @@ TAGF = yaml.safe_load(open(os.path.join(ROOT, 'research', 'finder-tags', 'fields
 DIR = os.path.join(ROOT, 'content', 'entries')
 REQUIRED = ['title', 'description', 'num', 'term', 'plain_name', 'aliases', 'family', 'other_families', 'finder',
             'needs_confirming', 'confirmed', 'open_points', 'uncertain_fields', 'links', 'make_it_yourself',
-            'sources', 'research', 'glossary']
+            'sources', 'research', 'glossary', 'pictures']
 HEADINGS = ['## How it works', '## Details', '## Making it', '## Needs confirming']
 NA = 'not applicable'
 OPTIONS = {   # the normalised run 2 fields (research/finder-test/normalise.py) and what each may hold
@@ -101,11 +101,16 @@ def main():
         for a in re.findall(r'\]\(\.\./glossary\.md#([^)]+)\)', body):
             if a not in ANCHORS:
                 e(f'link to a glossary term that does not exist: #{a}')
-        img = fm.get('image')
-        if img and not os.path.exists(os.path.join(ROOT, 'content', 'media', img['file'])):
-            e(f'picture content/media/{img["file"]} not found')
-        if img and not img.get('drawn') and not all(img.get(k) for k in ('title', 'author', 'license', 'source')):
-            e('a copied picture needs its title, author, licence and source for the credit line')
+        if not fm.get('pictures'):
+            e('no picture')
+        for img in fm.get('pictures') or []:
+            for f in (img['file'], img.get('still')):
+                if f and not os.path.exists(os.path.join(ROOT, 'content', 'media', f)):
+                    e(f'picture content/media/{f} not found')
+            if not img.get('drawn') and not all(img.get(k) for k in ('title', 'author', 'license', 'source')):
+                e(f'a copied picture ({img["file"]}) needs its title, author, licence and source for the credit line')
+            if not img.get('alt'):
+                e(f'picture {img["file"]} has no alt text')
         for h in HEADINGS:
             if h not in body:
                 e(f'heading "{h}" missing')

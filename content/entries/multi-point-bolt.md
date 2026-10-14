@@ -154,22 +154,31 @@ sources:
 research: research/connection-types/results/Multipoint_bolt_espagnolette_crmone_bolt_lock_rods.json
 image:
   file: multi-point-bolt.webp
-  width: 557
-  height: 742
   title: File:Crémone.jpg
   author: Neri.jp
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg
   alt: 'Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: multi-point-bolt.webp
+  title: File:Crémone.jpg
+  author: Neri.jp
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg
+  alt: 'Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, over-centre, detent, pitch, linkage, stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet,
   creep, infill, print-in-place, cure, peel-vs-shear]
 ---
 
-![Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down](../media/multi-point-bolt.webp)
-
-*Picture: [Crémone.jpg](https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg) by Neri.jp, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/multi-point-bolt.webp" alt="Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg">Crémone</a> by Neri.jp, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A multi-point bolt ties two or more bolts to one handle, through a turning rod with hooked or cam ends or a small gear driving toothed bars, so a single movement locks a tall door, a pair of doors or a big lid at the top, the bottom and sometimes the sides.
 

@@ -135,8 +135,6 @@ sources:
 research: research/connection-types/results/Pressure_regulator_pressurereducing_valve.json
 image:
   file: pressure-regulator.webp
-  width: 800
-  height: 492
   title: File:Single-stage-regulator.svg
   author: Mintrick (talk)
   license: CC BY-SA 3.0
@@ -144,14 +142,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg
   alt: Cut-away drawing of a single-stage pressure regulator, where a spring pushes on a diaphragm that opens and closes a
     small valve between the high-pressure inlet and the low-pressure outlet.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: pressure-regulator.webp
+  title: File:Single-stage-regulator.svg
+  author: Mintrick (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg
+  alt: Cut-away drawing of a single-stage pressure regulator, where a spring pushes on a diaphragm that opens and closes a
+    small valve between the high-pressure inlet and the low-pressure outlet.
+  site: Wikimedia Commons
   drawn: false
 glossary: [oscillating, actuator, solenoid, cantilever, damping, hysteresis, boss, repeatability--accuracy, creep, infill,
   o-ring, check-valve, regulator]
 ---
 
-![Cut-away drawing of a single-stage pressure regulator, where a spring pushes on a diaphragm that opens and closes a small valve between the high-pressure inlet and the low-pressure outlet.](../media/pressure-regulator.webp)
-
-*Picture: [Single-stage-regulator.svg](https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg) by Mintrick (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pressure-regulator.webp" alt="Cut-away drawing of a single-stage pressure regulator, where a spring pushes on a diaphragm that opens and closes a small valve between the high-pressure inlet and the low-pressure outlet."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg">Single-stage-regulator</a> by Mintrick (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A self-adjusting valve with a spring-loaded diaphragm that lowers a high supply pressure to a steady working pressure you set with a knob, opening a little more as air is used and closing as pressure builds, so tools, cylinders and soft [actuators](../glossary.md#actuator) only get the pressure they need.
 

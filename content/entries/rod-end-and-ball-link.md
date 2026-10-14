@@ -128,22 +128,31 @@ sources:
 research: research/connection-types/results/Rod_end_and_ball_link_rose_joint_RC_ball_link.json
 image:
   file: rod-end-and-ball-link.webp
-  width: 800
-  height: 1612
   title: File:Heim Joint.svg
   author: Vladsinger
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Heim_Joint.svg
   alt: 'Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: rod-end-and-ball-link.webp
+  title: File:Heim Joint.svg
+  author: Vladsinger
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Heim_Joint.svg
+  alt: 'Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, axial--radial, lever-arm, linkage, actuator, clearance, form-fit--force-fit--material-bond, set-screw,
   threadlocker, creep, perimeters, infill, print-in-place, o-ring]
 ---
 
-![Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft](../media/rod-end-and-ball-link.webp)
-
-*Picture: [Heim Joint.svg](https://commons.wikimedia.org/wiki/File:Heim_Joint.svg) by Vladsinger, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rod-end-and-ball-link.webp" alt="Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Heim_Joint.svg">Heim Joint</a> by Vladsinger, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded end fitting holding a swivelling ball (a spherical bearing) or a snap-on ball cup, fitted at each end of a push rod or tie rod so the rod can pass push and pull between two levers that move out of line, with the rod length set by how far the ends are screwed on.
 

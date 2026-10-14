@@ -142,12 +142,18 @@ image:
     its water soaking into the wood and drying into the air; beside it, a strong side-grain joint compared with a weak end-grain
     butt joint where the glue soaks away into the wood.
   drawn: true
+pictures:
+- file: drawn/pva-wood-glue.svg
+  alt: Magnified cut-away of a clamped PVA glue line between two boards, with the glue reaching into the open wood cells and
+    its water soaking into the wood and drying into the air; beside it, a strong side-grain joint compared with a weak end-grain
+    butt joint where the glue soaks away into the wood.
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear]
 ---
 
-![Magnified cut-away of a clamped PVA glue line between two boards, with the glue reaching into the open wood cells and its water soaking into the wood and drying into the air; beside it, a strong side-](../media/drawn/pva-wood-glue.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/pva-wood-glue.svg" alt="Magnified cut-away of a clamped PVA glue line between two boards, with the glue reaching into the open wood cells and its water soaking into the wood and drying into the air; beside it, a strong side-grain joint compared with a weak end-grain butt joint where the glue soaks away into the wood."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A water-based glue of plastic particles suspended in water that soaks into wood, paper, card and other porous materials and hardens as the water is absorbed and evaporates, giving strong, cheap, non-toxic joints for indoor woodwork, with yellow and water-resistant grades for tougher jobs.
 

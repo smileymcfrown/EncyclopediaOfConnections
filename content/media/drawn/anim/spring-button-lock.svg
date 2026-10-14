@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes its button out through a hole in both tubes so they are locked, and on the right a finger presses the button flush so the outer tube can slide on to the next hole. The animation slides the outer tube along, lifts the finger so the spring pops the button out through the next hole, then presses it in again and slides back.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="inner" stroke="#222" stroke-width="3" fill="#cfe3f5">
+<rect x="20" y="190" width="206" height="12"/>
+<rect x="254" y="190" width="36" height="12"/>
+<rect x="20" y="268" width="270" height="12"/>
+</g>
+<g id="outer" stroke="#222" stroke-width="3" fill="#e8e8e8">
+<rect x="130" y="176" width="16" height="14"/>
+<rect x="174" y="176" width="52" height="14"/>
+<rect x="254" y="176" width="126" height="14"/>
+<rect x="130" y="280" width="250" height="14"/>
+</g>
+<clipPath id="fc"><rect x="200" y="50" width="80" height="200"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="430" stroke="#cccccc" stroke-width="2"/>
+<!-- locked -->
+<use href="#inner"/><use href="#outer"/>
+<path d="M252,216 L102,236 Q84,241 102,246 L252,264" fill="none" stroke="#222" stroke-width="8"/>
+<path d="M252,216 L102,236 Q84,241 102,246 L252,264" fill="none" stroke="#d8f0d2" stroke-width="3"/>
+<path d="M229,216 V162 Q240,150 251,162 V216 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<line x1="95" y1="318" x2="120" y2="248" stroke="#222" stroke-width="2"/>
+<!-- pressed and sliding -->
+<g transform="translate(400,0)">
+<use href="#inner"/>
+<use href="#outer"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;80 0;80 0;0 0;0 0" keyTimes="0;0.05;0.3;0.75;0.95;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/></use>
+<path d="M252,238 L102,246 Q86,250 102,254 L252,264" fill="none" stroke="#222" stroke-width="8"><animate attributeName="d" values="M252,238 L102,246 Q86,250 102,254 L252,264;M252,238 L102,246 Q86,250 102,254 L252,264;M252,216 L102,236 Q84,241 102,246 L252,264;M252,216 L102,236 Q84,241 102,246 L252,264;M252,238 L102,246 Q86,250 102,254 L252,264;M252,238 L102,246 Q86,250 102,254 L252,264" keyTimes="0;0.3;0.35;0.65;0.7;1" dur="6s" repeatCount="indefinite"/></path>
+<path d="M252,238 L102,246 Q86,250 102,254 L252,264" fill="none" stroke="#d8f0d2" stroke-width="3"><animate attributeName="d" values="M252,238 L102,246 Q86,250 102,254 L252,264;M252,238 L102,246 Q86,250 102,254 L252,264;M252,216 L102,236 Q84,241 102,246 L252,264;M252,216 L102,236 Q84,241 102,246 L252,264;M252,238 L102,246 Q86,250 102,254 L252,264;M252,238 L102,246 Q86,250 102,254 L252,264" keyTimes="0;0.3;0.35;0.65;0.7;1" dur="6s" repeatCount="indefinite"/></path>
+<path d="M229,238 V186 Q240,172 251,186 V238 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"><animate attributeName="d" values="M229,238 V186 Q240,172 251,186 V238 Z;M229,238 V186 Q240,172 251,186 V238 Z;M229,216 V162 Q240,150 251,162 V216 Z;M229,216 V162 Q240,150 251,162 V216 Z;M229,238 V186 Q240,172 251,186 V238 Z;M229,238 V186 Q240,172 251,186 V238 Z" keyTimes="0;0.3;0.35;0.65;0.7;1" dur="6s" repeatCount="indefinite"/></path>
+<g clip-path="url(#fc)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -40;0 -40;0 0;0 0" keyTimes="0;0.3;0.4;0.6;0.7;1" dur="6s" repeatCount="indefinite"/>
+<path d="M222,60 V168 Q240,184 258,168 V60" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M230,150 Q240,156 250,150" fill="none" stroke="#222" stroke-width="2"/></g></g>
+<line x1="290" y1="90" x2="290" y2="150" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.3;0.35;0.58;0.62;1" dur="6s" repeatCount="indefinite"/></line>
+<line x1="190" y1="322" x2="320" y2="322" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.3;0.35;0.95;1" dur="6s" repeatCount="indefinite"/></line>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">Locked</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Press in, then slide</text>
+<text x="75" y="178">inner tube</text>
+<text x="300" y="330">outer tube</text>
+<text x="300" y="150">button</text>
+<text x="80" y="340">spring clip</text>
+<text x="710" y="80">press in</text>
+<text x="655" y="356">slide to next hole</text>
+<text x="400" y="420">The button pokes through both tubes, so they cannot slide or turn</text>
+</g>
+</svg>

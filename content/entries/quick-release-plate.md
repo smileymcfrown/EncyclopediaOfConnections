@@ -137,13 +137,19 @@ image:
     under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so the sloping faces wedge the plate
     sideways and down onto the clamp base.'
   drawn: true
+pictures:
+- file: drawn/quick-release-plate.svg
+  alt: 'End-on cross-section of a quick-release clamp holding a dovetail plate: the plate''s 45-degree bevelled edges sit
+    under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so the sloping faces wedge the plate
+    sideways and down onto the clamp base.'
+  drawn: true
 glossary: [tolerance, form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep,
   layer-lines, perimeters, infill, print-in-place, overhang--bridging]
 ---
 
-![End-on cross-section of a quick-release clamp holding a dovetail plate: the plate's 45-degree bevelled edges sit under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so th](../media/drawn/quick-release-plate.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/quick-release-plate.svg" alt="End-on cross-section of a quick-release clamp holding a dovetail plate: the plate&#x27;s 45-degree bevelled edges sit under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so the sloping faces wedge the plate sideways and down onto the clamp base."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A two-part mount in which a plate or rail with bevelled (dovetail) edges is trapped and squeezed by a matching clamp, so a camera, light, sight or instrument can be locked on in the same position in seconds and released by hand.
 

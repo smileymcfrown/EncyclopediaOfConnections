@@ -128,18 +128,30 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solenoid_latch_solenoid_lock_electric_strike.json
 image:
-  file: drawn/solenoid-latch.svg
+  file: drawn/anim/solenoid-latch.svg
   alt: 'Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid''s
-    catch so the lid stays shut; with power on the coil pulls the bolt in and the lid lifts; when the lid is closed its catch
-    slides down the slanted face, pushing the bolt in until it snaps back out and locks.'
+    catch so the lid stays shut (it can only lift a hair); with power on the coil pulls the bolt in and the lid lifts; when
+    the lid is closed its catch slides down the slanted face, pushing the bolt in until it snaps back out and locks. Animated:
+    each panel plays its own movement in a loop.'
   drawn: true
+  still: drawn/solenoid-latch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/solenoid-latch.svg
+  alt: 'Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid''s
+    catch so the lid stays shut (it can only lift a hair); with power on the coil pulls the bolt in and the lid lifts; when
+    the lid is closed its catch slides down the slanted face, pushing the bolt in until it snaps back out and locks. Animated:
+    each panel plays its own movement in a loop.'
+  drawn: true
+  still: drawn/solenoid-latch.svg
+  kind: animation
 glossary: [misalignment, stroke, bistable, solenoid, fail-safe--fail-secure, preload, clearance, form-fit--force-fit--material-bond,
   heat-set-insert, perimeters, peel-vs-shear]
 ---
 
-![Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid's catch so the lid stays shut; with power on the coil pulls the bolt in and the lid lift](../media/drawn/solenoid-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/solenoid-latch.svg"><img src="../media/drawn/anim/solenoid-latch.svg" alt="Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid&#x27;s catch so the lid stays shut (it can only lift a hair); with power on the coil pulls the bolt in and the lid lifts; when the lid is closed its catch slides down the slanted face, pushing "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spring-loaded bolt or catch that an electromagnet coil ([solenoid](../glossary.md#solenoid)) pulls back when it is powered, so a door, box, drawer or release mechanism opens on an electric signal and locks itself again when closed.
 

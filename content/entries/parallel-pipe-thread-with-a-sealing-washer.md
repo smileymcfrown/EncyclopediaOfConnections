@@ -166,13 +166,19 @@ image:
     gap, and the joint is sealed by a flat rubber washer squashed between the end of the tap thread and the bottom of the
     nut.'
   drawn: true
+pictures:
+- file: drawn/parallel-pipe-thread-with-a-sealing-washer.svg
+  alt: 'Cut-away side view of a hose nut screwed onto a tap outlet with straight threads: the threads leave a small spiral
+    gap, and the joint is sealed by a flat rubber washer squashed between the end of the tap thread and the bottom of the
+    nut.'
+  drawn: true
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, captive-nut, boss, creep, perimeters,
   infill, o-ring, gland, water-hammer]
 ---
 
-![Cut-away side view of a hose nut screwed onto a tap outlet with straight threads: the threads leave a small spiral gap, and the joint is sealed by a flat rubber washer squashed between the end of the ](../media/drawn/parallel-pipe-thread-with-a-sealing-washer.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/parallel-pipe-thread-with-a-sealing-washer.svg" alt="Cut-away side view of a hose nut screwed onto a tap outlet with straight threads: the threads leave a small spiral gap, and the joint is sealed by a flat rubber washer squashed between the end of the tap thread and the bottom of the nut."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A straight screw thread holds a pipe, hose or tap fitting together and squeezes a washer, bonded seal or [O-ring](../glossary.md#o-ring) against a flat face, and that squeezed ring (not the thread) makes the joint watertight, so it can be undone and remade many times with nothing more than a new washer.
 

@@ -132,12 +132,17 @@ image:
   alt: 'Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks
     are slid together so they interlock, and then the joint is hammered flat so the folds trap each other.'
   drawn: true
+pictures:
+- file: drawn/folded-seam.svg
+  alt: 'Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks
+    are slid together so they interlock, and then the joint is hammered flat so the folds trap each other.'
+  drawn: true
 glossary: [pitch, stiffness, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks are slid together so they interlock, and then the joint is hammered flat so the fold](../media/drawn/folded-seam.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/folded-seam.svg" alt="Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks are slid together so they interlock, and then the joint is hammered flat so the folds trap each other."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Sheet-metal edges are bent into hooks or pockets, slid or hooked together and pressed flat so the folds trap each other, making a permanent, often near-airtight joint along a whole edge without heat or fasteners.
 

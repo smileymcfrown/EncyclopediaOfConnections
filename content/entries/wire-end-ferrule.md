@@ -131,21 +131,30 @@ sources:
 research: research/connection-types/results/Wireend_ferrule_bootlace_ferrule_end_sleeve.json
 image:
   file: wire-end-ferrule.webp
-  width: 800
-  height: 399
   title: File:Wire ferrules with and without insulation.jpg
   author: Simon A. Eugster
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg
   alt: Insulated and uninsulated wire ferrules next to a ferrule crimping plier
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: wire-end-ferrule.webp
+  title: File:Wire ferrules with and without insulation.jpg
+  author: Simon A. Eugster
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg
+  alt: Insulated and uninsulated wire ferrules next to a ferrule crimping plier
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, gland]
 ---
 
-![Insulated and uninsulated wire ferrules next to a ferrule crimping plier](../media/wire-end-ferrule.webp)
-
-*Picture: [Wire ferrules with and without insulation.jpg](https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg) by Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-end-ferrule.webp" alt="Insulated and uninsulated wire ferrules next to a ferrule crimping plier"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg">Wire ferrules with and without insulation</a> by Simon A. Eugster, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A thin tin-plated copper tube, usually with a colour-coded plastic collar, is slid over the stripped end of a stranded wire and crushed onto it with a crimping tool, so the strands stay together and the wire end goes into a screw or spring terminal like a single solid pin, giving a cooler, more reliable joint than bare splayed strands.
 

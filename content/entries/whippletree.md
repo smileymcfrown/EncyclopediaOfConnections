@@ -131,21 +131,30 @@ sources:
 research: research/connection-types/results/Whippletree_loadequalising_lever.json
 image:
   file: whippletree.webp
-  width: 800
-  height: 607
   title: File:Triple whippletree set.svg
   author: 'Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk)'
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg
   alt: Sketch of the set of whippletrees that shares a load between three draught animals
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: whippletree.webp
+  title: File:Triple whippletree set.svg
+  author: 'Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk)'
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg
+  alt: Sketch of the set of whippletrees that shares a load between three draught animals
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, torque, crank, linkage, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 
-![Sketch of the set of whippletrees that shares a load between three draught animals](../media/whippletree.webp)
-
-*Picture: [Triple whippletree set.svg](https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg) by Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/whippletree.webp" alt="Sketch of the set of whippletrees that shares a load between three draught animals"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg">Triple whippletree set</a> by Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A whippletree is a free-floating bar pulled or pushed at a pivot near its middle, so it tips until the forces at its two ends balance, sharing one force equally (or in a set ratio) between two points, and several bars hung from each other share it between many points.
 

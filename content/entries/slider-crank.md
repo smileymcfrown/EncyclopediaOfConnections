@@ -150,13 +150,19 @@ image:
     at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider
     sideways against its guide, and the slider travels twice the crank length.'
   drawn: true
+pictures:
+- file: drawn/slider-crank.svg
+  alt: 'A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide;
+    at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider
+    sideways against its guide, and the slider travels twice the crank length.'
+  drawn: true
 glossary: [reciprocating, stroke, dead-point, over-centre, torque, cam-and-follower, crank, linkage, actuator, clearance,
   circlip, fatigue, lubrication, print-in-place, peel-vs-shear]
 ---
 
-![A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide; at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees](../media/drawn/slider-crank.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/slider-crank.svg" alt="A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide; at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider sideways against its guide, and the slider travels twice the c"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A [crank](../glossary.md#crank) turns, and a connecting rod joins the crank's outer end to a slider (such as a piston) that moves only in a straight line, turning rotation into back-and-forth sliding or, in an engine, back-and-forth pushes into rotation.
 

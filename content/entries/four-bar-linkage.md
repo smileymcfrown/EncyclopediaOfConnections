@@ -157,23 +157,35 @@ sources:
 research: research/connection-types/results/Fourbar_linkage_incl_parallelogram_linkage.json
 image:
   file: four-bar-linkage.webp
-  width: 800
-  height: 533
   title: File:Crank-Rocker 4-bar Linkage.gif
   author: Arglin Kampling
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif
   alt: 'Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)'
-  animated: true
+  site: Wikimedia Commons
+  still: four-bar-linkage.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: four-bar-linkage.webp
+  title: File:Crank-Rocker 4-bar Linkage.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif
+  alt: 'Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)'
+  site: Wikimedia Commons
+  still: four-bar-linkage.still.webp
+  kind: animation
   drawn: false
 glossary: [degrees-of-freedom, misalignment, backlash, stroke, over-centre, crank, linkage, actuator, clearance, tolerance,
   brittle--ductile, lubrication, print-in-place, peel-vs-shear]
 ---
 
-![Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)](../media/four-bar-linkage.webp)
-
-*Picture: [Crank-Rocker 4-bar Linkage.gif](https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/four-bar-linkage.still.webp"><img src="../media/four-bar-linkage.webp" alt="Animated crank-rocker: one link turns fully while the other rocks back and forth (made in GeoGebra)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif">Crank-Rocker 4-bar Linkage</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Four bars joined by four pivots into a closed loop, one bar fixed, so that turning or swinging one bar moves the rest in a single set way: turning into swinging, swinging into turning, a part kept level (parallelogram), or a drawing traced at a new scale (pantograph).
 

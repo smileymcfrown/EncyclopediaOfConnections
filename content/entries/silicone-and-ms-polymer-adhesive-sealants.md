@@ -142,21 +142,30 @@ sources:
 research: research/connection-types/results/Silicone_and_MSpolymer_adhesive_sealants.json
 image:
   file: silicone-and-ms-polymer-adhesive-sealants.webp
-  width: 800
-  height: 633
   title: File:Caulking.jpg
   author: Achim Hering
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Caulking.jpg
   alt: Photo of silicone sealant being squeezed from a caulking gun into a joint
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: silicone-and-ms-polymer-adhesive-sealants.webp
+  title: File:Caulking.jpg
+  author: Achim Hering
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Caulking.jpg
+  alt: Photo of silicone sealant being squeezed from a caulking gun into a joint
+  site: Wikimedia Commons
   drawn: false
 glossary: [stiffness, damping, form-fit--force-fit--material-bond, cure, primer, peel-vs-shear, o-ring]
 ---
 
-![Photo of silicone sealant being squeezed from a caulking gun into a joint](../media/silicone-and-ms-polymer-adhesive-sealants.webp)
-
-*Picture: [Caulking.jpg](https://commons.wikimedia.org/wiki/File:Caulking.jpg) by Achim Hering, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/silicone-and-ms-polymer-adhesive-sealants.webp" alt="Photo of silicone sealant being squeezed from a caulking gun into a joint"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Caulking.jpg">Caulking</a> by Achim Hering, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Silicone and MS-polymer adhesive sealants are one-part pastes that [cure](../glossary.md#cure) from moisture in the air into flexible rubber, filling and sealing gaps against water while holding parts together with a bond that stretches and absorbs movement.
 

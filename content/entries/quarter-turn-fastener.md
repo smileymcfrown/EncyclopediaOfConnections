@@ -121,13 +121,19 @@ image:
     slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into
     its end notch so the panel is pulled tight against the frame and clicks locked.'
   drawn: true
+pictures:
+- file: drawn/quarter-turn-fastener.svg
+  alt: 'Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral
+    slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into
+    its end notch so the panel is pulled tight against the frame and clicks locked.'
+  drawn: true
 glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
 
-![Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter ](../media/drawn/quarter-turn-fastener.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/quarter-turn-fastener.svg" alt="Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into its end notch so the panel is pulled tight against the frame an"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A captive stud in a removable panel whose spiral slot (or cross pin) rides over a spring or cam in a receptacle on the frame, so a quarter turn pulls the panel tight and snaps it into a locked position that vibration can't undo.
 

@@ -135,13 +135,19 @@ image:
     and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the
     follower and its carriage run out and back.'
   drawn: true
+pictures:
+- file: drawn/reversing-screw.svg
+  alt: 'Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern
+    and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the
+    follower and its carriage run out and back.'
+  drawn: true
 glossary: [misalignment, stroke, pawl, gear-ratio, pitch, cam-and-follower, crank, clearance, form-fit--force-fit--material-bond,
   repeatability--accuracy, lubrication, infill, overhang--bridging]
 ---
 
-![Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern and joined by U-turns at both ends, with a boat-shaped follower in the groove; the](../media/drawn/reversing-screw.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/reversing-screw.svg" alt="Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the follower and its carriage run out and back."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A shaft with a right-hand and a left-hand spiral groove crossing each other and joined at the ends, so a swivelling follower in the groove runs back and forth along the shaft while the shaft keeps turning one way, which is how fishing reels and winders lay line evenly across a spool.
 

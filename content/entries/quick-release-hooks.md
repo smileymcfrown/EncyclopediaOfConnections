@@ -140,8 +140,6 @@ sources:
 research: research/connection-types/results/Quickrelease_hooks_pelican_hook_threering_release.json
 image:
   file: quick-release-hooks.webp
-  width: 300
-  height: 600
   title: File:3Ring release animation.gif
   author: ☭Acodered
   license: CC BY-SA 3.0
@@ -149,15 +147,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif
   alt: 'Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large
     rings cascading apart so the riser comes off the harness'
-  animated: true
+  site: Wikimedia Commons
+  still: quick-release-hooks.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: quick-release-hooks.webp
+  title: File:3Ring release animation.gif
+  author: ☭Acodered
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif
+  alt: 'Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large
+    rings cascading apart so the riser comes off the harness'
+  site: Wikimedia Commons
+  still: quick-release-hooks.still.webp
+  kind: animation
   drawn: false
 glossary: [axial--radial, over-centre, mechanical-advantage, actuator, solenoid, fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond,
   layer-lines, perimeters, infill]
 ---
 
-![Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large rings cascading apart so the riser comes off the harness](../media/quick-release-hooks.webp)
-
-*Picture: [3Ring release animation.gif](https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif) by ☭Acodered, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/quick-release-hooks.still.webp"><img src="../media/quick-release-hooks.webp" alt="Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large rings cascading apart so the riser comes off the harness"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif">3Ring release animation</a> by ☭Acodered, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hinged hook, jaw or stack of rings that carries a big load through its strong parts while a small latch (a sliding ring, spring pin, trigger or cord loop) keeps it shut, so a small, deliberate pull on the latch releases the load instantly.
 

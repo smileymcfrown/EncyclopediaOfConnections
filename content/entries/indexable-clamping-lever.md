@@ -111,22 +111,31 @@ sources:
 research: research/connection-types/results/Indexable_clamping_lever_ratchet_handle.json
 image:
   file: indexable-clamping-lever.webp
-  width: 800
-  height: 533
   title: File:01 Klemmhebel 2012.jpg
   author: Autorisiert vom Hersteller
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg
   alt: A modern stainless adjustable clamping lever with its threaded insert (KIPP (brand) product photo)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: indexable-clamping-lever.webp
+  title: File:01 Klemmhebel 2012.jpg
+  author: Autorisiert vom Hersteller
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg
+  alt: A modern stainless adjustable clamping lever with its threaded insert (KIPP (brand) product photo)
+  site: Wikimedia Commons
   drawn: false
 glossary: [backlash, stroke, over-centre, ratchet, pawl, torque, linkage, clearance, form-fit--force-fit--material-bond, spline,
   heat-set-insert, boss, creep, perimeters, infill]
 ---
 
-![A modern stainless adjustable clamping lever with its threaded insert (KIPP (brand) product photo)](../media/indexable-clamping-lever.webp)
-
-*Picture: [01 Klemmhebel 2012.jpg](https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg) by Autorisiert vom Hersteller, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/indexable-clamping-lever.webp" alt="A modern stainless adjustable clamping lever with its threaded insert (KIPP (brand) product photo)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg">01 Klemmhebel 2012</a> by Autorisiert vom Hersteller, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A lever-shaped handle fitted to a screw or nut through a spring-loaded toothed coupling, so it tightens and loosens the screw by hand but can be lifted off its teeth and swung to a new angle, letting you clamp in tight spaces and leave the lever pointing where you want.
 

@@ -106,18 +106,29 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Ratchettooth_torque_limiter_clicking_torquelimiting_cap_or_knob.json
 image:
-  file: drawn/ratchet-tooth-torque-limiter.svg
-  alt: 'Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs: turning to tighten, the gentle slopes
-    push the top ring up until it clicks over a tooth; turning to undo, the steep faces meet and drive solidly.'
+  file: drawn/anim/ratchet-tooth-torque-limiter.svg
+  alt: 'Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs, shown moving: turning to tighten,
+    the gentle slopes push the top ring up until it clicks over a tooth, again and again; turning to undo, the steep faces
+    meet and both rings turn together.'
   drawn: true
+  still: drawn/ratchet-tooth-torque-limiter.svg
+  kind: animation
+pictures:
+- file: drawn/anim/ratchet-tooth-torque-limiter.svg
+  alt: 'Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs, shown moving: turning to tighten,
+    the gentle slopes push the top ring up until it clicks over a tooth, again and again; turning to undo, the steep faces
+    meet and both rings turn together.'
+  drawn: true
+  still: drawn/ratchet-tooth-torque-limiter.svg
+  kind: animation
 glossary: [misalignment, backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, torque, fail-safe--fail-secure,
   preload, deflection, form-fit--force-fit--material-bond, circlip, fatigue, brittle--ductile, lubrication, perimeters, infill,
   peel-vs-shear, o-ring]
 ---
 
-![Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs: turning to tighten, the gentle slopes push the top ring up until it clicks over a tooth; turning to undo, the steep fa](../media/drawn/ratchet-tooth-torque-limiter.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ratchet-tooth-torque-limiter.svg"><img src="../media/drawn/anim/ratchet-tooth-torque-limiter.svg" alt="Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs, shown moving: turning to tighten, the gentle slopes push the top ring up until it clicks over a tooth, again and again; turning to undo, the steep faces meet and both rings turn together."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two rings of sloped teeth, pressed together by a spring, pass on your turning effort until a set tightness is reached, then ride over each other with a click so the cap, knob or screw cannot be over-tightened.
 

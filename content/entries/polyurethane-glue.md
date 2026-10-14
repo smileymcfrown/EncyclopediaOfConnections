@@ -141,13 +141,19 @@ image:
     the wood (strong); on the right a gappy joint where the glue has foamed up into bubbles that fill the gap and ooze out
     (weak), with moisture going in and gas bubbles making the foam.'
   drawn: true
+pictures:
+- file: drawn/polyurethane-glue.svg
+  alt: 'Two glued wood joints cut open: on the left a tight, clamped joint with a thin film of polyurethane glue soaked into
+    the wood (strong); on the right a gappy joint where the glue has foamed up into bubbles that fill the gap and ooze out
+    (weak), with moisture going in and gas bubbles making the foam.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, end-grain, cure, pot-life--working-time, open-time, peel-vs-shear,
   gap-filling]
 ---
 
-![Two glued wood joints cut open: on the left a tight, clamped joint with a thin film of polyurethane glue soaked into the wood (strong); on the right a gappy joint where the glue has foamed up into bub](../media/drawn/polyurethane-glue.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/polyurethane-glue.svg" alt="Two glued wood joints cut open: on the left a tight, clamped joint with a thin film of polyurethane glue soaked into the wood (strong); on the right a gappy joint where the glue has foamed up into bubbles that fill the gap and ooze out (weak), with moisture going in and gas bubbles making the foam."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Polyurethane glue is a one-part liquid glue that [cures](../glossary.md#cure) by reacting with moisture in the air and in the materials, foaming slightly as it hardens, to give a strong, waterproof bond between wood and many other materials, provided the joint is tight and clamped.
 

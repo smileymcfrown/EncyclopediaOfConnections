@@ -141,12 +141,18 @@ image:
     silver flakes inside touching each other in chains that carry the current. Right: a paint pen drawing a conductive line
     on paper that joins a coin cell to an LED.'
   drawn: true
+pictures:
+- file: drawn/conductive-glue-paint-and-ink.svg
+  alt: 'Left: a magnified cut-through of a blob of silver-filled glue joining a component leg to a copper track, with the
+    silver flakes inside touching each other in chains that carry the current. Right: a paint pen drawing a conductive line
+    on paper that joins a coin cell to an LED.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, captive-nut, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
 
-![Left: a magnified cut-through of a blob of silver-filled glue joining a component leg to a copper track, with the silver flakes inside touching each other in chains that carry the current. Right: a pa](../media/drawn/conductive-glue-paint-and-ink.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/conductive-glue-paint-and-ink.svg" alt="Left: a magnified cut-through of a blob of silver-filled glue joining a component leg to a copper track, with the silver flakes inside touching each other in chains that carry the current. Right: a paint pen drawing a conductive line on paper that joins a coin cell to an LED."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Conductive glue, paint and ink are adhesives, paints and inks loaded with silver, copper, nickel or carbon particles that touch each other once dry or cured, so they stick a part on or draw a track that carries a small current where solder can't be used, such as on heat-sensitive parts, glass, paper, fabric or 3D prints.
 

@@ -122,22 +122,34 @@ sources:
 research: research/connection-types/results/Flywheel_inertia_wheel_friction_motor.json
 image:
   file: flywheel.webp
-  width: 116
-  height: 111
   title: File:Spoked flywheel animation.gif
   author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Spoked_flywheel_animation.gif
   alt: 'Animation of a spinning spoked flywheel: heavy rim, spokes and hub'
-  animated: true
+  site: Wikimedia Commons
+  still: flywheel.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: flywheel.webp
+  title: File:Spoked flywheel animation.gif
+  author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Spoked_flywheel_animation.gif
+  alt: 'Animation of a spinning spoked flywheel: heavy rim, spokes and hub'
+  site: Wikimedia Commons
+  still: flywheel.still.webp
+  kind: animation
   drawn: false
 glossary: [stroke, freewheel, torque, gear-ratio, crank, set-screw, creep, fatigue, infill, elephants-foot]
 ---
 
-![Animation of a spinning spoked flywheel: heavy rim, spokes and hub](../media/flywheel.webp)
-
-*Picture: [Spoked flywheel animation.gif](https://commons.wikimedia.org/wiki/File:Spoked_flywheel_animation.gif) by Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/flywheel.still.webp"><img src="../media/flywheel.webp" alt="Animation of a spinning spoked flywheel: heavy rim, spokes and hub"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spoked_flywheel_animation.gif">Spoked flywheel animation</a> by Occupational Safety &amp; Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flywheel is a heavy wheel on a shaft that stores energy as spin, so it evens out jerky turning, carries a [crank](../glossary.md#crank) past the points where it can't be pushed round, and keeps a machine or toy going for a while after the push stops.
 

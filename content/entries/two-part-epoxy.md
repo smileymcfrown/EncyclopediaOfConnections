@@ -134,22 +134,31 @@ sources:
 research: research/connection-types/results/Twopart_epoxy.json
 image:
   file: two-part-epoxy.webp
-  width: 800
-  height: 248
   title: File:FiveMinEpoxy.jpg
   author: Taktoa
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg
   alt: Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: two-part-epoxy.webp
+  title: File:FiveMinEpoxy.jpg
+  author: Taktoa
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg
+  alt: Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments
+  site: Wikimedia Commons
   drawn: false
 glossary: [deflection, form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
 
-![Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments](../media/two-part-epoxy.webp)
-
-*Picture: [FiveMinEpoxy.jpg](https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg) by Taktoa, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/two-part-epoxy.webp" alt="Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments"><figcaption><a href="https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg">FiveMinEpoxy</a> by Taktoa, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two-part epoxy is a resin and a hardener that you mix in a set ratio; the mix reacts into a hard, tough plastic that bonds metal, wood, glass, composites and many plastics, fills gaps, and comes in fast (minutes) and slow (hours) types.
 

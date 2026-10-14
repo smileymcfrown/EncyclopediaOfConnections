@@ -146,8 +146,6 @@ sources:
 research: research/connection-types/results/Blind_rivet_pop_rivet.json
 image:
   file: blind-rivet.webp
-  width: 186
-  height: 232
   title: File:Popnagel.gif
   author: Heedless
   license: CC BY-SA 4.0
@@ -155,15 +153,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Popnagel.gif
   alt: 'Animation of a pop rivet being set: the mandrel is pulled and the rivet''s far end swells behind the sheets (used
     in Wikipedia ''Rivet''; the mandrel''s weakened neck is not shown)'
-  animated: true
+  site: Wikimedia Commons
+  still: blind-rivet.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: blind-rivet.webp
+  title: File:Popnagel.gif
+  author: Heedless
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Popnagel.gif
+  alt: 'Animation of a pop rivet being set: the mandrel is pulled and the rivet''s far end swells behind the sheets (used
+    in Wikipedia ''Rivet''; the mandrel''s weakened neck is not shown)'
+  site: Wikimedia Commons
+  still: blind-rivet.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, pitch, clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, perimeters,
   infill, peel-vs-shear]
 ---
 
-![Animation of a pop rivet being set: the mandrel is pulled and the rivet's far end swells behind the sheets (used in Wikipedia 'Rivet'; the mandrel's weakened neck is not shown)](../media/blind-rivet.webp)
-
-*Picture: [Popnagel.gif](https://commons.wikimedia.org/wiki/File:Popnagel.gif) by Heedless, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/blind-rivet.still.webp"><img src="../media/blind-rivet.webp" alt="Animation of a pop rivet being set: the mandrel is pulled and the rivet&#x27;s far end swells behind the sheets (used in Wikipedia &#x27;Rivet&#x27;; the mandrel&#x27;s weakened neck is not shown)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Popnagel.gif">Popnagel</a> by Heedless, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hollow rivet with a pulling pin (mandrel) through it that you fit from one side: a hand tool pulls the pin until the far end of the rivet swells into a second head behind the parts and the pin snaps off, clamping sheets or panels together permanently.
 

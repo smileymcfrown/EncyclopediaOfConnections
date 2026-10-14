@@ -155,8 +155,6 @@ sources:
 research: research/connection-types/results/Air_tank_and_hydraulic_accumulator_pressure_reservoir.json
 image:
   file: air-tank-and-hydraulic-accumulator.webp
-  width: 800
-  height: 2055
   title: File:Hydraulic accumulator.svg
   author: MasterTriangle12
   license: CC BY-SA 4.0
@@ -164,14 +162,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_accumulator.svg
   alt: 'Cutaway of a bladder-type hydraulic accumulator: oil fills around the rubber bladder, compressing the gas sealed inside
     the shell'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: air-tank-and-hydraulic-accumulator.webp
+  title: File:Hydraulic accumulator.svg
+  author: MasterTriangle12
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Hydraulic_accumulator.svg
+  alt: 'Cutaway of a bladder-type hydraulic accumulator: oil fills around the rubber bladder, compressing the gas sealed inside
+    the shell'
+  site: Wikimedia Commons
   drawn: false
 glossary: [reciprocating, stroke, actuator, fail-safe--fail-secure, creep, fatigue, brittle--ductile, lubrication, check-valve,
   regulator, water-hammer]
 ---
 
-![Cutaway of a bladder-type hydraulic accumulator: oil fills around the rubber bladder, compressing the gas sealed inside the shell](../media/air-tank-and-hydraulic-accumulator.webp)
-
-*Picture: [Hydraulic accumulator.svg](https://commons.wikimedia.org/wiki/File:Hydraulic_accumulator.svg) by MasterTriangle12, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/air-tank-and-hydraulic-accumulator.webp" alt="Cutaway of a bladder-type hydraulic accumulator: oil fills around the rubber bladder, compressing the gas sealed inside the shell"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Hydraulic_accumulator.svg">Hydraulic accumulator</a> by MasterTriangle12, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A rated container that stores air (or oil pushed by trapped gas, a spring or a weight) under pressure, so a small, slow pump can fill it over time and it can then drive short, fast bursts of motion, smooth out pressure pulses or keep a system pressurised.
 

@@ -132,22 +132,31 @@ sources:
 research: research/connection-types/results/Wood_screw_including_coach_screw_and_Confirmat_screw.json
 image:
   file: wood-screw.webp
-  width: 800
-  height: 800
   title: File:Wood screw with legend.svg
   author: Rfc1394, Waterced
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg
   alt: Labelled drawing of a wood screw naming its parts (head, shank, thread, point)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: wood-screw.webp
+  title: File:Wood screw with legend.svg
+  author: Rfc1394, Waterced
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg
+  alt: Labelled drawing of a wood screw naming its parts (head, shank, thread, point)
+  site: Wikimedia Commons
   drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, creep, brittle--ductile,
   end-grain, peel-vs-shear]
 ---
 
-![Labelled drawing of a wood screw naming its parts (head, shank, thread, point)](../media/wood-screw.webp)
-
-*Picture: [Wood screw with legend.svg](https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg) by Rfc1394, Waterced, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wood-screw.webp" alt="Labelled drawing of a wood screw naming its parts (head, shank, thread, point)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg">Wood screw with legend</a> by Rfc1394, Waterced, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A sharp, coarse-threaded screw that forms its own thread in wood or board and clamps the parts together under its head; with the right pilot and [clearance](../glossary.md#clearance) holes it is the everyday way to fix wood to wood, and the coach screw (big, hex-headed) and Confirmat screw (fat, for chipboard furniture) are its heavy and flat-pack versions.
 

@@ -117,22 +117,31 @@ sources:
 research: research/connection-types/results/Cam_latch_quarterturn_cam_lock.json
 image:
   file: cam-latch.webp
-  width: 800
-  height: 758
   title: File:Electronic-cam-lock.jpg
   author: Chole Wu
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
   alt: Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: cam-latch.webp
+  title: File:Electronic-cam-lock.jpg
+  author: Chole Wu
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
+  alt: Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, self-locking, over-centre, detent, pawl, torque, tolerance, form-fit--force-fit--material-bond, creep,
   brittle--ductile, layer-lines, infill, o-ring]
 ---
 
-![Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)](../media/cam-latch.webp)
-
-*Picture: [Electronic-cam-lock.jpg](https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg) by Chole Wu, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cam-latch.webp" alt="Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg">Electronic-cam-lock</a> by Chole Wu, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A latch fitted through a single hole in a door or lid, whose knob, key or tool turns a flat arm (the cam) a quarter turn so that it hooks behind the frame and holds the door closed.
 

@@ -140,13 +140,19 @@ image:
     the round end and the object then drops so the head sits behind the narrow slot; on the right a French cleat seen from
     the side, where a bevelled strip on the object hooks over a bevelled strip on the wall and its weight wedges it in.'
   drawn: true
+pictures:
+- file: drawn/hang-on-mounts.svg
+  alt: 'Two lift-off wall mounts: on the left a keyhole slot in the back of an object, where a screw head goes in through
+    the round end and the object then drops so the head sits behind the narrow slot; on the right a French cleat seen from
+    the side, where a bevelled strip on the object hooks over a bevelled strip on the wall and its weight wedges it in.'
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, undercut, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, peel-vs-shear]
 ---
 
-![Two lift-off wall mounts: on the left a keyhole slot in the back of an object, where a screw head goes in through the round end and the object then drops so the head sits behind the narrow slot; on th](../media/drawn/hang-on-mounts.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/hang-on-mounts.svg" alt="Two lift-off wall mounts: on the left a keyhole slot in the back of an object, where a screw head goes in through the round end and the object then drops so the head sits behind the narrow slot; on the right a French cleat seen from the side, where a bevelled strip on the object hooks over a bevelle"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two gravity-held wall mounts that let an object be lifted on and off without tools: a keyhole slot in the object drops over a screw head in the wall, and a French cleat is a pair of bevelled strips, one on the wall and one on the object, that hook together under the object's weight.
 

@@ -135,23 +135,32 @@ sources:
 research: research/connection-types/results/Drivein_fixing_pins_roll_pin_coiled_spring_pin_dowel_pin_taper_pin.json
 image:
   file: drive-in-fixing-pins.webp
-  width: 800
-  height: 589
   title: File:Spring-type slottet straigt pin labeled num.jpg
   author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg
   alt: A slotted spring pin and a washer securing a shaft, with the parts numbered
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: drive-in-fixing-pins.webp
+  title: File:Spring-type slottet straigt pin labeled num.jpg
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg
+  alt: A slotted spring pin and a washer securing a shaft, with the parts numbered
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, axial--radial, pawl, torque, tolerance, interference-fit, form-fit--force-fit--material-bond, set-screw,
   spline, taper, circlip, boss, pilot-hole, counterbore--countersink, chamfer--fillet, repeatability--accuracy, creep, fatigue,
   brittle--ductile, layer-lines, peel-vs-shear]
 ---
 
-![A slotted spring pin and a washer securing a shaft, with the parts numbered](../media/drive-in-fixing-pins.webp)
-
-*Picture: [Spring-type slottet straigt pin labeled num.jpg](https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drive-in-fixing-pins.webp" alt="A slotted spring pin and a washer securing a shaft, with the parts numbered"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg">Spring-type slottet straigt pin labeled num</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A drive-in fixing pin is a short metal pin driven into a hole that passes through two parts, locking them together so they can't rotate or slide; spring pins (slotted roll pins and coiled pins) grip by springing outwards against the hole, while solid dowel, grooved, knurled and [taper](../glossary.md#taper) pins grip by a tight or wedging fit.
 

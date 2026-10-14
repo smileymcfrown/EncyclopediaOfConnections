@@ -118,22 +118,31 @@ sources:
 research: research/connection-types/results/Anaerobic_adhesive_threadlocker_retaining_compound.json
 image:
   file: anaerobic-adhesive.webp
-  width: 800
-  height: 600
   title: File:Thread-locking fluid applied.jpg
   author: Paul Breen
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg
   alt: Photo of bolts with blue threadlocker on their threads
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: anaerobic-adhesive.webp
+  title: File:Thread-locking fluid applied.jpg
+  author: Paul Breen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg
+  alt: Photo of bolts with blue threadlocker on their threads
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, torque, clearance, interference-fit, form-fit--force-fit--material-bond, set-screw, threadlocker,
   creep, brittle--ductile, cure, primer, peel-vs-shear]
 ---
 
-![Photo of bolts with blue threadlocker on their threads](../media/anaerobic-adhesive.webp)
-
-*Picture: [Thread-locking fluid applied.jpg](https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg) by Paul Breen, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/anaerobic-adhesive.webp" alt="Photo of bolts with blue threadlocker on their threads"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg">Thread-locking fluid applied</a> by Paul Breen, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An anaerobic adhesive is a one-part liquid that hardens only when it is shut away from air and touching metal, so it [cures](../glossary.md#cure) inside screw threads and close-fitting shaft joints, locking screws against vibration, holding bearings and gears on shafts, and sealing the gaps against leaks and rust.
 

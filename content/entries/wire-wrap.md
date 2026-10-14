@@ -145,21 +145,30 @@ sources:
 research: research/connection-types/results/Wire_wrap_wirewrapped_connection.json
 image:
   file: wire-wrap.webp
-  width: 800
-  height: 600
   title: File:Wire Wrap 1.jpg
   author: Shri Hari Ram
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
   alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: wire-wrap.webp
+  title: File:Wire Wrap 1.jpg
+  author: Shri Hari Ram
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
+  alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  site: Wikimedia Commons
   drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, fatigue]
 ---
 
-![Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts](../media/wire-wrap.webp)
-
-*Picture: [Wire Wrap 1.jpg](https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg) by Shri Hari Ram, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-wrap.webp" alt="Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg">Wire Wrap 1</a> by Shri Hari Ram, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Wire wrap joins a thin solid wire to a square metal post by winding the bared wire tightly round it with a small spinning tool: the post's sharp corners bite into the wire at every turn, making about 28 tiny gas-tight, cold-welded contact points that need no solder and can be unwound and redone.
 

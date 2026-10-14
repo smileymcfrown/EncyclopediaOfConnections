@@ -142,22 +142,31 @@ sources:
 research: research/connection-types/results/Bellows_boot_and_way_cover_gaiter.json
 image:
   file: bellows-boot-and-way-cover.webp
-  width: 800
-  height: 532
   title: File:2008-04-23 Cracked CV boot.jpg
   author: Ildar Sagdejev (Specious)
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
   alt: Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: bellows-boot-and-way-cover.webp
+  title: File:2008-04-23 Cracked CV boot.jpg
+  author: Ildar Sagdejev (Specious)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
+  alt: Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age
+  site: Wikimedia Commons
   drawn: false
 glossary: [axial--radial, stroke, actuator, form-fit--force-fit--material-bond, brittle--ductile, shore-hardness, overhang--bridging,
   o-ring, gland]
 ---
 
-![Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age](../media/bellows-boot-and-way-cover.webp)
-
-*Picture: [2008-04-23 Cracked CV boot.jpg](https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg) by Ildar Sagdejev (Specious), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bellows-boot-and-way-cover.webp" alt="Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age"><figcaption><a href="https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg">2008-04-23 Cracked CV boot</a> by Ildar Sagdejev (Specious), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flexible, pleated sleeve clamped to a fixed part at one end and to the moving part at the other, so its folds open and close as the part slides or bends, keeping dirt, chips and water out and grease in without any rubbing seal.
 

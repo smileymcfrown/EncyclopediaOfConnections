@@ -131,8 +131,6 @@ sources:
 research: research/connection-types/results/Turnbuckle.json
 image:
   file: turnbuckle.webp
-  width: 800
-  height: 600
   title: File:Turnbuckles.jpg
   author: Ted Major from Tuscaloosa, Ala., USA
   license: CC BY-SA 2.0
@@ -140,14 +138,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg
   alt: A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the
     open body and the two threaded ends
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: turnbuckle.webp
+  title: File:Turnbuckles.jpg
+  author: Ted Major from Tuscaloosa, Ala., USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg
+  alt: A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the
+    open body and the two threaded ends
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, over-centre, ratchet, pitch, idler, linkage, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, galling--fretting, layer-lines, perimeters, infill]
 ---
 
-![A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the open body and the two threaded ends](../media/turnbuckle.webp)
-
-*Picture: [Turnbuckles.jpg](https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg) by Ted Major from Tuscaloosa, Ala., USA, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/turnbuckle.webp" alt="A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the open body and the two threaded ends"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg">Turnbuckles</a> by Ted Major from Tuscaloosa, Ala., USA, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded sleeve with a right-hand thread at one end and a left-hand thread at the other, so turning the sleeve draws both end fittings in (or lets them out) at the same time, tightening or loosening a wire, rope, chain or rod without twisting it.
 

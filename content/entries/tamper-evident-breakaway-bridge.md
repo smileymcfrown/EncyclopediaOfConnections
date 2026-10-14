@@ -137,13 +137,19 @@ image:
     bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held
     by the bead, so the bridges snap; then the cap gone and the broken band left on the neck as a sign it has been opened.'
   drawn: true
+pictures:
+- file: drawn/tamper-evident-breakaway-bridge.svg
+  alt: 'Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic
+    bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held
+    by the bead, so the bridges snap; then the cap gone and the broken band left on the neck as a sign it has been opened.'
+  drawn: true
 glossary: [ratchet, fail-safe--fail-secure, living-hinge, cantilever, form-fit--force-fit--material-bond, captive-nut, creep,
   brittle--ductile, layer-lines, perimeters, infill, support-material]
 ---
 
-![Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic bridges, with the band hooked under a bead on the neck; then the cap being unscrew](../media/drawn/tamper-evident-breakaway-bridge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/tamper-evident-breakaway-bridge.svg" alt="Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held by the bead, so the bridges snap; then the cap gone and the bro"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A deliberately weak link of thin plastic bridges between a cap and a ring (or between any two parts) that survives making, filling and shipping but snaps the first time the item is opened, so anyone can see it has been opened.
 

@@ -130,12 +130,18 @@ image:
     sitting in a pocket in the bottom face, so tightening pulls the nut up against solid plastic; on the right the view from
     below, where the hexagonal pocket is just bigger than the nut, so its flat sides stop it turning.'
   drawn: true
+pictures:
+- file: drawn/captive-nut-pocket.svg
+  alt: 'Captive nut pocket: on the left a cut-away of a printed block with a bolt passing down through a hole into a hex nut
+    sitting in a pocket in the bottom face, so tightening pulls the nut up against solid plastic; on the right the view from
+    below, where the hexagonal pocket is just bigger than the nut, so its flat sides stop it turning.'
+  drawn: true
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, creep, overhang--bridging]
 ---
 
-![Captive nut pocket: on the left a cut-away of a printed block with a bolt passing down through a hole into a hex nut sitting in a pocket in the bottom face, so tightening pulls the nut up against soli](../media/drawn/captive-nut-pocket.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/captive-nut-pocket.svg" alt="Captive nut pocket: on the left a cut-away of a printed block with a bolt passing down through a hole into a hex nut sitting in a pocket in the bottom face, so tightening pulls the nut up against solid plastic; on the right the view from below, where the hexagonal pocket is just bigger than the nut,"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A hexagonal or square pocket shaped to hold a standard nut so it can't spin, giving a printed part a strong metal thread for a bolt at almost no cost.
 

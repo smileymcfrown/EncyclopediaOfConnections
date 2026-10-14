@@ -117,17 +117,29 @@ sources:
 - https://www.youtube.com/watch?v=WcCxJ-tkP4I
 research: research/connection-types/results/Weightactivated_gripping_tongs_lifting_tongs_lewis.json
 image:
-  file: drawn/weight-activated-gripping-tongs.svg
-  alt: 'Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block; the crane pull draws
-    the tops of the arms together, so the jaws below the pivot squeeze the block harder the heavier it is. Right: a cut-away
-    stone with a three-piece lewis wedged in a dovetail-shaped hole, which grips the stone from inside the same way.'
+  file: drawn/anim/weight-activated-gripping-tongs.svg
+  alt: 'Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block, animated: the crane
+    pull draws the tops of the arms together, so the jaws below the pivot squeeze the block, and the block is lifted and set
+    down again; the heavier it is, the harder the grip. Right: a cut-away stone with a three-piece lewis wedged in a dovetail-shaped
+    hole, lifted in step, which grips the stone from inside the same way.'
   drawn: true
+  still: drawn/weight-activated-gripping-tongs.svg
+  kind: animation
+pictures:
+- file: drawn/anim/weight-activated-gripping-tongs.svg
+  alt: 'Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block, animated: the crane
+    pull draws the tops of the arms together, so the jaws below the pivot squeeze the block, and the block is lifted and set
+    down again; the heavier it is, the harder the grip. Right: a cut-away stone with a three-piece lewis wedged in a dovetail-shaped
+    hole, lifted in step, which grips the stone from inside the same way.'
+  drawn: true
+  still: drawn/weight-activated-gripping-tongs.svg
+  kind: animation
 glossary: [self-locking, lever-arm, linkage, damping, form-fit--force-fit--material-bond, taper, creep]
 ---
 
-![Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block; the crane pull draws the tops of the arms together, so the jaws below the pivot squeeze the block harder ](../media/drawn/weight-activated-gripping-tongs.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/weight-activated-gripping-tongs.svg"><img src="../media/drawn/anim/weight-activated-gripping-tongs.svg" alt="Left: crossed scissor tongs hanging from a crane ring by two short links and gripping a block, animated: the crane pull draws the tops of the arms together, so the jaws below the pivot squeeze the block, and the block is lifted and set down again; the heavier it is, the harder the grip. Right: a cut"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Weight-activated tongs and the lewis turn the pull of the crane hook into a squeeze (or a wedging force inside a hole) on the load, so the grip grows in step with the load's weight and lets go once the load is set down.
 

@@ -152,13 +152,19 @@ image:
     bottom ring a quarter turn twists the sleeve into a narrow waist, and a half turn twists it shut so the grain above stops
     falling.'
   drawn: true
+pictures:
+- file: drawn/iris-valve.svg
+  alt: 'Three side views of an iris valve: a fabric sleeve is held between a fixed top ring and a bottom ring; turning the
+    bottom ring a quarter turn twists the sleeve into a narrow waist, and a half turn twists it shut so the grain above stops
+    falling.'
+  drawn: true
 glossary: [misalignment, torque, actuator, solenoid, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters,
   infill, gland, regulator]
 ---
 
-![Three side views of an iris valve: a fabric sleeve is held between a fixed top ring and a bottom ring; turning the bottom ring a quarter turn twists the sleeve into a narrow waist, and a half turn twi](../media/drawn/iris-valve.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/iris-valve.svg" alt="Three side views of an iris valve: a fabric sleeve is held between a fixed top ring and a bottom ring; turning the bottom ring a quarter turn twists the sleeve into a narrow waist, and a half turn twists it shut so the grain above stops falling."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A fabric or rubber sleeve is clamped at each end to a ring, and turning one ring by about half a turn twists the sleeve shut towards the centre, so it can meter or stop powder, grain or pellets pouring from a hopper or bag; a pinch valve does a similar job by squeezing a soft tube flat from outside.
 

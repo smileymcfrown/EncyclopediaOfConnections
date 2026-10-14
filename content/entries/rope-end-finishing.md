@@ -150,21 +150,30 @@ sources:
 research: research/connection-types/results/Ropeend_finishing_whipping_heatsealing_back_splice_aglet.json
 image:
   file: rope-end-finishing.webp
-  width: 600
-  height: 180
   title: File:Common-whipping.png
   author: User Hella on en.wikipedia
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Common-whipping.png
   alt: 'Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: rope-end-finishing.webp
+  title: File:Common-whipping.png
+  author: User Hella on en.wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Common-whipping.png
+  alt: 'Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under'
+  site: Wikimedia Commons
   drawn: false
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, infill, print-in-place, peel-vs-shear]
 ---
 
-![Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under](../media/rope-end-finishing.webp)
-
-*Picture: [Common-whipping.png](https://commons.wikimedia.org/wiki/File:Common-whipping.png) by User Hella on en.wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-end-finishing.webp" alt="Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Common-whipping.png">Common-whipping</a> by User Hella on en.wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A finish put on the cut end of a rope, cord or strap (tight turns of twine, melted fibres, strands tucked back, tape, a rubbery dip or a small cap) that holds the fibres together so the end does not fray, and often makes it easier to thread through holes.
 

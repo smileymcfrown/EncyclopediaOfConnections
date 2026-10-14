@@ -142,8 +142,6 @@ sources:
 research: research/connection-types/results/Scotch_yoke.json
 image:
   file: scotch-yoke.webp
-  width: 800
-  height: 450
   title: File:Yugo Escocés - Scotch yoke animation.gif
   author: Gussisaurio
   license: CC BY-SA 4.0
@@ -151,15 +149,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif
   alt: An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back
     and forth.
-  animated: true
+  site: Wikimedia Commons
+  still: scotch-yoke.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: scotch-yoke.webp
+  title: File:Yugo Escocés - Scotch yoke animation.gif
+  author: Gussisaurio
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif
+  alt: An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back
+    and forth.
+  site: Wikimedia Commons
+  still: scotch-yoke.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, reciprocating, oscillating, stroke, torque, cam-and-follower, crank, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, circlip, lubrication, infill, print-in-place, peel-vs-shear]
 ---
 
-![An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back and forth.](../media/scotch-yoke.webp)
-
-*Picture: [Yugo Escocés - Scotch yoke animation.gif](https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif) by Gussisaurio, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/scotch-yoke.still.webp"><img src="../media/scotch-yoke.webp" alt="An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back and forth."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif">Yugo Escocés - Scotch yoke animation</a> by Gussisaurio, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pin on a turning wheel ([crank](../glossary.md#crank)) slides along a slot in a bar that is guided to move only in a straight line, so steady turning becomes a smooth back-and-forth push whose position follows a perfect sine wave; it can also work the other way round.
 

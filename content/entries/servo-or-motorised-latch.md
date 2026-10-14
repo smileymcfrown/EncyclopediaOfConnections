@@ -133,18 +133,30 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Servo_or_motorised_latch.json
 image:
-  file: drawn/servo-or-motorised-latch.svg
+  file: drawn/anim/servo-or-motorised-latch.svg
   alt: 'Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet
     under the lid and into the box wall, so pulling the lid presses across the bolt and needs no power; when open, the servo
-    arm has swung back and pulled the bolt clear so the lid lifts.'
+    arm has swung back and pulled the bolt clear so the lid lifts. Animated: the open view loops through the servo turning
+    back, the bolt sliding clear, the lid lifting and closing again, and the bolt pushed back in.'
   drawn: true
+  still: drawn/servo-or-motorised-latch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/servo-or-motorised-latch.svg
+  alt: 'Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet
+    under the lid and into the box wall, so pulling the lid presses across the bolt and needs no power; when open, the servo
+    arm has swung back and pulled the bolt clear so the lid lifts. Animated: the open view loops through the servo turning
+    back, the bolt sliding clear, the lid lifting and closing again, and the bolt pushed back in.'
+  drawn: true
+  still: drawn/servo-or-motorised-latch.svg
+  kind: animation
 glossary: [misalignment, back-driving, self-locking, stroke, dead-point, over-centre, torque, linkage, actuator, solenoid,
   fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, peel-vs-shear]
 ---
 
-![Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet under the lid and into the box wall, so pulling the lid presses across the bolt and ](../media/drawn/servo-or-motorised-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/servo-or-motorised-latch.svg"><img src="../media/drawn/anim/servo-or-motorised-latch.svg" alt="Two cut-away side views of a box with a servo latch: when locked, the servo arm has pushed a bolt through an eyelet under the lid and into the box wall, so pulling the lid presses across the bolt and needs no power; when open, the servo arm has swung back and pulled the bolt clear so the lid lifts. "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A small electric motor, usually a hobby servo, turns a cam, arm or hook that pushes a bolt into a catch (keeper) or pulls it out, so a microcontroller can lock or unlock something, and because the load pushes across the bolt rather than along it, the lock stays shut with no power.
 

@@ -151,8 +151,6 @@ sources:
 research: research/connection-types/results/Cable_gland_and_strain_relief.json
 image:
   file: cable-gland-and-strain-relief.webp
-  width: 800
-  height: 677
   title: File:M16 cable gland.jpg
   author: Phiarc
   license: CC BY-SA 4.0
@@ -160,13 +158,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg
   alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber
     seal inside, and the dome nut.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: cable-gland-and-strain-relief.webp
+  title: File:M16 cable gland.jpg
+  author: Phiarc
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg
+  alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber
+    seal inside, and the dome nut.
+  site: Wikimedia Commons
   drawn: false
 glossary: [coaxial, torque, clearance, form-fit--force-fit--material-bond, boss, perimeters, infill, o-ring, gland]
 ---
 
-![A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber seal inside, and the dome nut.](../media/cable-gland-and-strain-relief.webp)
-
-*Picture: [M16 cable gland.jpg](https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg) by Phiarc, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cable-gland-and-strain-relief.webp" alt="A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber seal inside, and the dome nut."><figcaption><a href="https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg">M16 cable gland</a> by Phiarc, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded fitting that passes a cable through a wall or enclosure: tightening its dome nut presses a set of plastic fingers and a rubber seal round the cable, which seals the hole against dust and water and anchors the cable so pulling or twisting it doesn't strain the wires inside (strain relief).
 

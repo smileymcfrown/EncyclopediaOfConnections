@@ -133,12 +133,18 @@ image:
     the wall, then the strip''s tab pulled slowly straight down so the strip stretches thin and peels off the wall and the
     hook plate from the bottom up, and a small sketch showing that pulling the tab outwards is the wrong way.'
   drawn: true
+pictures:
+- file: drawn/stretch-release-adhesive-strips.svg
+  alt: 'Side view of a hook stuck to a wall with a stretchy adhesive strip: first holding a hanging weight that pulls along
+    the wall, then the strip''s tab pulled slowly straight down so the strip stretches thin and peels off the wall and the
+    hook plate from the bottom up, and a small sketch showing that pulling the tab outwards is the wrong way.'
+  drawn: true
 glossary: [lever-arm, form-fit--force-fit--material-bond, creep, primer, peel-vs-shear]
 ---
 
-![Side view of a hook stuck to a wall with a stretchy adhesive strip: first holding a hanging weight that pulls along the wall, then the strip's tab pulled slowly straight down so the strip stretches th](../media/drawn/stretch-release-adhesive-strips.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/stretch-release-adhesive-strips.svg" alt="Side view of a hook stuck to a wall with a stretchy adhesive strip: first holding a hanging weight that pulls along the wall, then the strip&#x27;s tab pulled slowly straight down so the strip stretches thin and peels off the wall and the hook plate from the bottom up, and a small sketch showing that pul"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A stretch-release strip is a double-sided pressure-sensitive adhesive on a very stretchy backing that holds strongly while the load pulls along the wall, but lets go cleanly and without residue when its tab is pulled slowly and parallel to the surface.
 

@@ -149,8 +149,6 @@ sources:
 research: research/connection-types/results/Japanese_interlocking_joints_splices_and_threeway_corners.json
 image:
   file: japanese-interlocking-joints.webp
-  width: 640
-  height: 480
   title: File:Lapped gooseneck joint.png
   author: うぃき野郎
   license: CC BY 4.0
@@ -158,14 +156,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png
   alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it
     drops into on the other.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: japanese-interlocking-joints.webp
+  title: File:Lapped gooseneck joint.png
+  author: うぃき野郎
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png
+  alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it
+    drops into on the other.
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
   layer-lines, infill, overhang--bridging]
 ---
 
-![Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it drops into on the other.](../media/japanese-interlocking-joints.webp)
-
-*Picture: [Lapped gooseneck joint.png](https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png) by うぃき野郎, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/japanese-interlocking-joints.webp" alt="Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it drops into on the other."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png">Lapped gooseneck joint</a> by うぃき野郎, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Traditional Japanese carpentry joints in which two or three timbers are cut into interlocking shapes (hooks, dovetails, stepped seats and small tenons) that fit together only along one path and are then locked with a driven wedge or peg, joining beams end to end or at a corner without metal fasteners or glue.
 

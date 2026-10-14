@@ -139,23 +139,35 @@ sources:
 research: research/connection-types/results/Thermal_actuators_bimetal_strip_wax_motor.json
 image:
   file: thermal-actuators.webp
-  width: 542
-  height: 645
   title: File:Bimetal.gif
   author: Baran Ivo
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bimetal.gif
   alt: Animated scheme of a bimetal strip bending as it is heated
-  animated: true
+  site: Wikimedia Commons
+  still: thermal-actuators.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: thermal-actuators.webp
+  title: File:Bimetal.gif
+  author: Baran Ivo
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Bimetal.gif
+  alt: Animated scheme of a bimetal strip bending as it is heated
+  site: Wikimedia Commons
+  still: thermal-actuators.still.webp
+  kind: animation
   drawn: false
 glossary: [stroke, over-centre, bistable, linkage, actuator, solenoid, fail-safe--fail-secure, compliant-mechanism, deflection,
   hysteresis, creep]
 ---
 
-![Animated scheme of a bimetal strip bending as it is heated](../media/thermal-actuators.webp)
-
-*Picture: [Bimetal.gif](https://commons.wikimedia.org/wiki/File:Bimetal.gif) by Baran Ivo, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/thermal-actuators.still.webp"><img src="../media/thermal-actuators.webp" alt="Animated scheme of a bimetal strip bending as it is heated"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bimetal.gif">Bimetal</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A heat-driven mover: a bimetal strip bends (or a bimetal disc snaps inside-out) and a wax capsule pushes out a pin when warmed, turning a temperature change, or an electric heater, into a small push that trips or opens a latch, valve or switch.
 

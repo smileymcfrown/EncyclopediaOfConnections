@@ -128,22 +128,31 @@ sources:
 research: research/connection-types/results/Keying_onewayonly_fit_pokayoke.json
 image:
   file: keying.webp
-  width: 800
-  height: 380
   title: File:Notch position between DDR and DDR2.jpg
   author: unknown
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg
   alt: Photo comparing the key notch positions on DDR and DDR2 memory modules, which stop the wrong type being fitted
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: keying.webp
+  title: File:Notch position between DDR and DDR2.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg
+  alt: Photo comparing the key notch positions on DDR and DDR2 memory modules, which stop the wrong type being fitted
+  site: Wikimedia Commons
   drawn: false
 glossary: [degrees-of-freedom, coaxial, clearance, form-fit--force-fit--material-bond, spline, taper, chamfer--fillet, keying,
   repeatability--accuracy, brittle--ductile, layer-lines, elephants-foot]
 ---
 
-![Photo comparing the key notch positions on DDR and DDR2 memory modules, which stop the wrong type being fitted](../media/keying.webp)
-
-*Picture: [Notch position between DDR and DDR2.jpg](https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg) by unknown, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/keying.webp" alt="Photo comparing the key notch positions on DDR and DDR2 memory modules, which stop the wrong type being fitted"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg">Notch position between DDR and DDR2</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 [Keying](../glossary.md#keying) adds a deliberately lopsided feature, such as a notch, an offset pin, a bigger pin or a flat, to two mating parts so that they fit only in the one correct position and cannot be assembled backwards, upside down or with the wrong partner.
 

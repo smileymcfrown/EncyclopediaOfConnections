@@ -149,14 +149,20 @@ image:
     straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over
     the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces.'
   drawn: true
+pictures:
+- file: drawn/rolling-contact-joint.svg
+  alt: 'Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed
+    straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over
+    the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces.'
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
   clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
   layer-lines, print-in-place]
 ---
 
-![Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the ](../media/drawn/rolling-contact-joint.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/rolling-contact-joint.svg" alt="Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over the left block without sliding, and the contact point, which act"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
 

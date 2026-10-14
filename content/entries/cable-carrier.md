@@ -123,23 +123,35 @@ sources:
 research: research/connection-types/results/Cable_carrier_drag_chain_energy_chain.json
 image:
   file: cable-carrier.webp
-  width: 525
-  height: 370
   title: File:Cable drag chain unsupported 3D animated.gif
   author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif
   alt: Animation of a self-supporting energy chain rolling back and forth as its moving end travels
-  animated: true
+  site: Wikimedia Commons
+  still: cable-carrier.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: cable-carrier.webp
+  title: File:Cable drag chain unsupported 3D animated.gif
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif
+  alt: Animation of a self-supporting energy chain rolling back and forth as its moving end travels
+  site: Wikimedia Commons
+  still: cable-carrier.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, boss, chamfer--fillet, creep, brittle--ductile,
   infill, print-in-place, gland]
 ---
 
-![Animation of a self-supporting energy chain rolling back and forth as its moving end travels](../media/cable-carrier.webp)
-
-*Picture: [Cable drag chain unsupported 3D animated.gif](https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cable-carrier.still.webp"><img src="../media/cable-carrier.webp" alt="Animation of a self-supporting energy chain rolling back and forth as its moving end travels"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif">Cable drag chain unsupported 3D animated</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A cable carrier is a flexible chain of hinged, hollow links that bends only one way and not too tightly, carrying cables and hoses to a moving part of a machine so they are guided, protected and never over-bent or tangled.
 

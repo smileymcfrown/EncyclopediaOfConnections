@@ -154,23 +154,35 @@ sources:
 research: research/connection-types/results/Air_or_hydraulic_cylinder_pneumatic_cylinder_hydraulic_ram.json
 image:
   file: air-or-hydraulic-cylinder.webp
-  width: 184
-  height: 99
   title: File:Einfachwirkender Zylinder funktionsprinziep.gif
   author: RainerB.
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif
   alt: 'Animation of a single-acting cylinder: air pushes the piston out and a spring brings it back'
-  animated: true
+  site: Wikimedia Commons
+  still: air-or-hydraulic-cylinder.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: air-or-hydraulic-cylinder.webp
+  title: File:Einfachwirkender Zylinder funktionsprinziep.gif
+  author: RainerB.
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif
+  alt: 'Animation of a single-acting cylinder: air pushes the piston out and a spring brings it back'
+  site: Wikimedia Commons
+  still: air-or-hydraulic-cylinder.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, self-locking, oscillating, stroke, actuator, solenoid, fail-safe--fail-secure, creep, lubrication,
   infill, o-ring, gland, regulator]
 ---
 
-![Animation of a single-acting cylinder: air pushes the piston out and a spring brings it back](../media/air-or-hydraulic-cylinder.webp)
-
-*Picture: [Einfachwirkender Zylinder funktionsprinziep.gif](https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif) by RainerB., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-or-hydraulic-cylinder.still.webp"><img src="../media/air-or-hydraulic-cylinder.webp" alt="Animation of a single-acting cylinder: air pushes the piston out and a spring brings it back"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif">Einfachwirkender Zylinder funktionsprinziep</a> by RainerB., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A powered straight-line pusher: compressed air or pressurised oil let in behind a sealed piston drives a rod out with a force equal to the pressure times the piston area, and a spring, the load or fluid fed to the other side brings it back.
 

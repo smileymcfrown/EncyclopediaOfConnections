@@ -149,23 +149,35 @@ sources:
 research: research/connection-types/results/Linear_ratchet_cabletie_ratchet.json
 image:
   file: linear-ratchet.webp
-  width: 800
-  height: 533
   title: File:Ratchet Rack and Pawl.gif
   author: Arglin Kampling
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif
   alt: Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back
-  animated: true
+  site: Wikimedia Commons
+  still: linear-ratchet.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: linear-ratchet.webp
+  title: File:Ratchet Rack and Pawl.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif
+  alt: Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back
+  site: Wikimedia Commons
+  still: linear-ratchet.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, self-locking, stroke, ratchet, pawl, pitch, flexure, clearance, form-fit--force-fit--material-bond,
   creep, brittle--ductile, print-in-place, peel-vs-shear]
 ---
 
-![Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back](../media/linear-ratchet.webp)
-
-*Picture: [Ratchet Rack and Pawl.gif](https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/linear-ratchet.still.webp"><img src="../media/linear-ratchet.webp" alt="Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif">Ratchet Rack and Pawl</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A toothed strip or bar and a catch ([pawl](../glossary.md#pawl)) that let it slide one way only, locking at each tooth, as in a cable tie, a snowboard-binding ladder strap or a [ratchet](../glossary.md#ratchet) jack.
 

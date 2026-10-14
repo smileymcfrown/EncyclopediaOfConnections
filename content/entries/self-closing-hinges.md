@@ -147,22 +147,31 @@ sources:
 research: research/connection-types/results/Selfclosing_hinges_spring_hinge_rising_butt_hinge.json
 image:
   file: self-closing-hinges.webp
-  width: 800
-  height: 1067
   title: File:Bommerscharnier.JPG
   author: Sindala
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
   alt: A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: self-closing-hinges.webp
+  title: File:Bommerscharnier.JPG
+  author: Sindala
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
+  alt: A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.
+  site: Wikimedia Commons
   drawn: false
 glossary: [detent, torque, fail-safe--fail-secure, stiffness, preload, flexure, living-hinge, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, creep, lubrication, layer-lines, print-in-place, warping--shrinkage, peel-vs-shear]
 ---
 
-![A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.](../media/self-closing-hinges.webp)
-
-*Picture: [Bommerscharnier.JPG](https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG) by Sindala, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/self-closing-hinges.webp" alt="A double-acting spring hinge on a door, with the two spring barrels that swing the door shut."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG">Bommerscharnier</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hinge that stores some of the effort you use to open a door, in a coiled spring or by lifting the door up a sloping knuckle, and gives it back to swing the door shut when you let go.
 

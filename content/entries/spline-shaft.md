@@ -158,23 +158,32 @@ sources:
 research: research/connection-types/results/Spline_shaft_sliding_spline.json
 image:
   file: spline-shaft.webp
-  width: 800
-  height: 783
   title: File:Spline-shaft.png
   author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Spline-shaft.png
   alt: A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: spline-shaft.webp
+  title: File:Spline-shaft.png
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Spline-shaft.png
+  alt: A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, torque, pitch, linkage, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, chamfer--fillet, repeatability--accuracy, creep, fatigue, brittle--ductile, stress-concentration,
   galling--fretting, lubrication, layer-lines, perimeters]
 ---
 
-![A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.](../media/spline-shaft.webp)
-
-*Picture: [Spline-shaft.png](https://commons.wikimedia.org/wiki/File:Spline-shaft.png) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spline-shaft.webp" alt="A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Spline-shaft.png">Spline-shaft</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A shaft with lengthwise ridges or flat sides that fits a hub with a matching hole, so turning force passes between them while the hub stays free to slide along the shaft.
 

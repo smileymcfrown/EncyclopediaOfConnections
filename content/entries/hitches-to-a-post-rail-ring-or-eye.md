@@ -132,8 +132,6 @@ sources:
 research: research/connection-types/results/Hitches_to_a_post_rail_ring_or_eye_clove_hitch_round_turn_and_two_half_hitches.json
 image:
   file: hitches-to-a-post-rail-ring-or-eye.webp
-  width: 800
-  height: 533
   title: File:Clove Hitch - ABoK 11 - USCG.jpg
   author: USCG PTC Developer
   license: CC0
@@ -141,13 +139,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg
   alt: A clove hitch round a rail, described as used 'to secure ropes running along a series of posts, belaying, starting
     lashings, weak binding'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: hitches-to-a-post-rail-ring-or-eye.webp
+  title: File:Clove Hitch - ABoK 11 - USCG.jpg
+  author: USCG PTC Developer
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg
+  alt: A clove hitch round a rail, described as used 'to secure ropes running along a series of posts, belaying, starting
+    lashings, weak binding'
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, infill, peel-vs-shear]
 ---
 
-![A clove hitch round a rail, described as used 'to secure ropes running along a series of posts, belaying, starting lashings, weak binding'](../media/hitches-to-a-post-rail-ring-or-eye.webp)
-
-*Picture: [Clove Hitch - ABoK 11 - USCG.jpg](https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg) by USCG PTC Developer, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hitches-to-a-post-rail-ring-or-eye.webp" alt="A clove hitch round a rail, described as used &#x27;to secure ropes running along a series of posts, belaying, starting lashings, weak binding&#x27;"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg">Clove Hitch - ABoK 11 - USCG</a> by USCG PTC Developer, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A knot that ties a line directly to a post, rail, ring, bar, eye, log or a hole in a part, holding by the turns and tucks gripping the object and the rope itself, so it needs no hardware or tools and can be untied by hand; which hitch to use depends on what you tie to and whether you will adjust or release it.
 

@@ -134,8 +134,6 @@ sources:
 research: research/connection-types/results/Crosshalving_slot_joint_eggcrate_joint.json
 image:
   file: cross-halving-slot-joint.webp
-  width: 800
-  height: 798
   title: File:Joinery-SimpleHalved.svg
   author: Crati
   license: CC BY-SA 3.0
@@ -143,14 +141,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Joinery-SimpleHalved.svg
   alt: Clear drawing of two members, each slotted halfway on opposite edges, slipping together into a simple halved (egg-crate)
     joint
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: cross-halving-slot-joint.webp
+  title: File:Joinery-SimpleHalved.svg
+  author: Crati
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Joinery-SimpleHalved.svg
+  alt: Clear drawing of two members, each slotted halfway on opposite edges, slipping together into a simple halved (egg-crate)
+    joint
+  site: Wikimedia Commons
   drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, creep, elephants-foot,
   kerf]
 ---
 
-![Clear drawing of two members, each slotted halfway on opposite edges, slipping together into a simple halved (egg-crate) joint](../media/cross-halving-slot-joint.webp)
-
-*Picture: [Joinery-SimpleHalved.svg](https://commons.wikimedia.org/wiki/File:Joinery-SimpleHalved.svg) by Crati, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cross-halving-slot-joint.webp" alt="Clear drawing of two members, each slotted halfway on opposite edges, slipping together into a simple halved (egg-crate) joint"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Joinery-SimpleHalved.svg">Joinery-SimpleHalved</a> by Crati, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two flat parts each get a slot as wide as the other part is thick and half as deep as the part is tall, so they slot together into a flush cross that needs no glue or fasteners.
 

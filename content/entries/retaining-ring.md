@@ -138,22 +138,31 @@ sources:
 research: research/connection-types/results/Retaining_ring_circlip_Eclip.json
 image:
   file: retaining-ring.webp
-  width: 800
-  height: 266
   title: File:Sicherungsring auf Welle mit Wellennut.png
   author: HobbyAstronaut
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png
   alt: 'Simple drawing of a circlip on a shaft next to the shaft''s groove: what a retaining ring and its groove look like'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: retaining-ring.webp
+  title: File:Sicherungsring auf Welle mit Wellennut.png
+  author: HobbyAstronaut
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png
+  alt: 'Simple drawing of a circlip on a shaft next to the shaft''s groove: what a retaining ring and its groove look like'
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, axial--radial, thrust-load, preload, deflection, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, heat-set-insert, chamfer--fillet, creep, perimeters, infill, overhang--bridging, peel-vs-shear]
 ---
 
-![Simple drawing of a circlip on a shaft next to the shaft's groove: what a retaining ring and its groove look like](../media/retaining-ring.webp)
-
-*Picture: [Sicherungsring auf Welle mit Wellennut.png](https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png) by HobbyAstronaut, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/retaining-ring.webp" alt="Simple drawing of a circlip on a shaft next to the shaft&#x27;s groove: what a retaining ring and its groove look like"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png">Sicherungsring auf Welle mit Wellennut</a> by HobbyAstronaut, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A springy steel ring or clip that snaps into a groove on a shaft or inside a hole, so that the part left sticking out forms a removable shoulder that stops wheels, bearings, gears or pins sliding along or falling out.
 

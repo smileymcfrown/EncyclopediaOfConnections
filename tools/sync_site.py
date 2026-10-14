@@ -60,6 +60,7 @@ def main():
         fm, fm_text, body = split(open(os.path.join(src, fn)).read())
         body = re.sub(r'\]\(\.\./glossary\.md#', f']({BASE}/glossary/#', body)
         body = body.replace('](../media/', f']({BASE}/media/')
+        body = re.sub(r'(src|srcset)="\.\./media/', lambda m: f'{m.group(1)}="{BASE}/media/', body)
         body = re.sub(r'^(- ⚑ Finder value `([a-z_]+)`.*)$',
                       lambda m: m.group(1) + f' ([suggest a correction]({correction(page, m.group(2))}))', body, flags=re.M)
         ask = (f'Something wrong, or can you confirm something marked ⚑? '

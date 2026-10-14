@@ -144,8 +144,6 @@ sources:
 research: research/connection-types/results/Electropermanent_magnet.json
 image:
   file: electro-permanent-magnet.webp
-  width: 480
-  height: 792
   title: File:Electropermanent magnet switching simulation.gif
   author: Magneticswizard
   license: CC BY 4.0
@@ -153,14 +151,29 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Electropermanent_magnet_switching_simulation.gif
   alt: Animated simulation of an EPM switching ON and OFF by reversing the AlNiCo magnetisation, showing the flux lines and
     holding force on a steel workpiece
-  animated: true
+  site: Wikimedia Commons
+  still: electro-permanent-magnet.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: electro-permanent-magnet.webp
+  title: File:Electropermanent magnet switching simulation.gif
+  author: Magneticswizard
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Electropermanent_magnet_switching_simulation.gif
+  alt: Animated simulation of an EPM switching ON and OFF by reversing the AlNiCo magnetisation, showing the flux lines and
+    holding force on a steel workpiece
+  site: Wikimedia Commons
+  still: electro-permanent-magnet.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, bistable, solenoid, holding-force, heat-set-insert, creep, peel-vs-shear]
 ---
 
-![Animated simulation of an EPM switching ON and OFF by reversing the AlNiCo magnetisation, showing the flux lines and holding force on a steel workpiece](../media/electro-permanent-magnet.webp)
-
-*Picture: [Electropermanent magnet switching simulation.gif](https://commons.wikimedia.org/wiki/File:Electropermanent_magnet_switching_simulation.gif) by Magneticswizard, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/electro-permanent-magnet.still.webp"><img src="../media/electro-permanent-magnet.webp" alt="Animated simulation of an EPM switching ON and OFF by reversing the AlNiCo magnetisation, showing the flux lines and holding force on a steel workpiece"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Electropermanent_magnet_switching_simulation.gif">Electropermanent magnet switching simulation</a> by Magneticswizard, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A solid-state magnet made of two kinds of permanent magnet and a coil: a short pulse of current flips one of the magnets so the pair either adds up (on, gripping steel strongly) or cancels out (off), and it stays in that state with no power until the next pulse.
 

@@ -143,13 +143,18 @@ image:
   alt: 'A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest,
     pushed in, caught in the notch, and released.'
   drawn: true
+pictures:
+- file: drawn/push-push-latch.svg
+  alt: 'A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest,
+    pushed in, caught in the notch, and released.'
+  drawn: true
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---
 
-![A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released.](../media/drawn/push-push-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-push-latch.svg" alt="A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
 

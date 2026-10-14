@@ -140,12 +140,18 @@ image:
     tongues pressing on both faces like barbs so it pushes on easily but resists pulling off; beside it, a hole in a panel
     lined with serrated grommet edging around a cable, and a trim seal whose hollow bulb is squashed by a closing door.
   drawn: true
+pictures:
+- file: drawn/push-on-edge-trim.svg
+  alt: A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled
+    tongues pressing on both faces like barbs so it pushes on easily but resists pulling off; beside it, a hole in a panel
+    lined with serrated grommet edging around a cable, and a trim seal whose hollow bulb is squashed by a closing door.
+  drawn: true
 glossary: [cantilever, form-fit--force-fit--material-bond, spline, creep, infill, warping--shrinkage, gland]
 ---
 
-![A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled tongues pressing on both faces like barbs so it pushes on easily but resists pu](../media/drawn/push-on-edge-trim.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-on-edge-trim.svg" alt="A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled tongues pressing on both faces like barbs so it pushes on easily but resists pulling off; beside it, a hole in a panel lined with serrated grommet edging around a cable, and a tri"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Push-on edge trim is a flexible U-shaped strip, usually PVC or rubber with a springy metal core, that is pressed onto a sheet or panel edge and grips it by spring force and barbed tongues, covering sharp edges, protecting cables in cut-outs (grommet edging) and, with a bulb attached, sealing doors and lids.
 

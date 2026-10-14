@@ -156,8 +156,6 @@ sources:
 research: research/connection-types/results/Switching_valve_directional_control_valve_solenoid_valve.json
 image:
   file: switching-valve.webp
-  width: 800
-  height: 906
   title: File:Solenoid Valve.svg
   author: '"SimonOrJ" (U/T/C)'
   license: Public domain
@@ -165,13 +163,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg
   alt: 'Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot
     passage, solenoid and outlet'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: switching-valve.webp
+  title: File:Solenoid Valve.svg
+  author: '"SimonOrJ" (U/T/C)'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg
+  alt: 'Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot
+    passage, solenoid and outlet'
+  site: Wikimedia Commons
   drawn: false
 glossary: [bistable, detent, actuator, solenoid, fail-safe--fail-secure, infill, check-valve, regulator, water-hammer]
 ---
 
-![Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot passage, solenoid and outlet](../media/switching-valve.webp)
-
-*Picture: [Solenoid Valve.svg](https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg) by "SimonOrJ" (U/T/C), Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/switching-valve.webp" alt="Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot passage, solenoid and outlet"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg">Solenoid Valve</a> by &quot;SimonOrJ&quot; (U/T/C), Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A valve with two or more ports and two or three set positions: shifting its inner spool, poppet or diaphragm by an electric coil, hand, foot or air signal connects the supply to a chosen outlet and vents or blocks the others, which is how every powered cylinder, soft [actuator](../glossary.md#actuator) and suction cup is switched on and off.
 

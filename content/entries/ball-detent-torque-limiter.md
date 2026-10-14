@@ -112,18 +112,30 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Balldetent_torque_limiter.json
 image:
-  file: drawn/ball-detent-torque-limiter.svg
-  alt: 'Ball-detent torque limiter drawn unrolled flat: on the left, springs press a plate so steel balls sit in cone-shaped
-    dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls roll up out of
-    the dimples, pushing the plate back against the springs, so the drive side slips past.'
+  file: drawn/anim/ball-detent-torque-limiter.svg
+  alt: 'Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit
+    in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls
+    roll up out of the dimples, pushing the plate back against the springs, so the drive side slips past and the balls click
+    into each dimple as it goes by.'
   drawn: true
+  still: drawn/ball-detent-torque-limiter.svg
+  kind: animation
+pictures:
+- file: drawn/anim/ball-detent-torque-limiter.svg
+  alt: 'Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit
+    in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls
+    roll up out of the dimples, pushing the plate back against the springs, so the drive side slips past and the balls click
+    into each dimple as it goes by.'
+  drawn: true
+  still: drawn/ball-detent-torque-limiter.svg
+  kind: animation
 glossary: [misalignment, backlash, coaxial, detent, ratchet, pawl, torque, fail-safe--fail-secure, preload, hysteresis, clearance,
   form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, brittle--ductile, peel-vs-shear]
 ---
 
-![Ball-detent torque limiter drawn unrolled flat: on the left, springs press a plate so steel balls sit in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much tor](../media/drawn/ball-detent-torque-limiter.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ball-detent-torque-limiter.svg"><img src="../media/drawn/anim/ball-detent-torque-limiter.svg" alt="Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls roll up out of the dimples, pushing the plate back against the spr"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Spring-loaded steel balls sitting in dimples between two plates pass on the drive until the [torque](../glossary.md#torque) gets too high, then roll out of their dimples so the drive side spins free (or clicks round) instead of breaking the gears, motor or workpiece.
 

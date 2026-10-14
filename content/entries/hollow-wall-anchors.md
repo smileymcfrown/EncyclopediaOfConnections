@@ -148,22 +148,31 @@ sources:
 research: research/connection-types/results/Hollowwall_anchors_toggle_molly_selfdrilling_plasterboard_anchor.json
 image:
   file: hollow-wall-anchors.webp
-  width: 800
-  height: 527
   title: File:Toggle bolts.JPG
   author: Tenbergen (talk)
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Toggle_bolts.JPG
   alt: Various types of toggle bolts, open and closed (used in Wikipedia 'Toggle bolt')
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: hollow-wall-anchors.webp
+  title: File:Toggle bolts.JPG
+  author: Tenbergen (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Toggle_bolts.JPG
+  alt: Various types of toggle bolts, open and closed (used in Wikipedia 'Toggle bolt')
+  site: Wikimedia Commons
   drawn: false
 glossary: [axial--radial, ratchet, torque, flexure, compliant-mechanism, form-fit--force-fit--material-bond, creep, brittle--ductile,
   perimeters, infill, peel-vs-shear]
 ---
 
-![Various types of toggle bolts, open and closed (used in Wikipedia 'Toggle bolt')](../media/hollow-wall-anchors.webp)
-
-*Picture: [Toggle bolts.JPG](https://commons.wikimedia.org/wiki/File:Toggle_bolts.JPG) by Tenbergen (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hollow-wall-anchors.webp" alt="Various types of toggle bolts, open and closed (used in Wikipedia &#x27;Toggle bolt&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Toggle_bolts.JPG">Toggle bolts</a> by Tenbergen (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hollow-wall anchor gives a screw something to hold on to in plasterboard, hollow doors and panels, either by opening out behind the board (toggles, mollies, winged anchors) or by cutting a coarse thread into it (self-drilling anchors), because a plain screw or wall plug would pull straight out of the thin, soft board.
 

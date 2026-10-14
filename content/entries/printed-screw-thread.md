@@ -163,13 +163,19 @@ image:
     45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread
     so they turn without jamming.'
   drawn: true
+pictures:
+- file: drawn/printed-screw-thread.svg
+  alt: 'A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping
+    45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread
+    so they turn without jamming.'
+  drawn: true
 glossary: [misalignment, self-locking, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, brittle--ductile, perimeters, infill, elephants-foot, overhang--bridging, peel-vs-shear, o-ring]
 ---
 
-![A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping 45-degree faces that print without support, and a small clearance gap is left bet](../media/drawn/printed-screw-thread.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/printed-screw-thread.svg" alt="A printed lid screwed onto a printed jar neck, cut in half, with a zoomed view of the threads: the ridges have sloping 45-degree faces that print without support, and a small clearance gap is left between the lid thread and the neck thread so they turn without jamming."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spiral ridge (thread) modelled straight into two printed parts so they screw together by hand or with a tool, with extra [clearance](../glossary.md#clearance) added so printing errors don't make it jam.
 

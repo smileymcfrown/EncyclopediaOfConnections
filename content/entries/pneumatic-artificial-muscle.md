@@ -154,8 +154,6 @@ sources:
 research: research/connection-types/results/Pneumatic_artificial_muscle_McKibben_muscle.json
 image:
   file: pneumatic-artificial-muscle.webp
-  width: 300
-  height: 89
   title: File:Sam animation-real-muscle.gif
   author: Rocketmagnet (hugo@shadowrobot.com)
   license: CC BY-SA 3.0
@@ -163,15 +161,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif
   alt: Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial
     muscles' page)
-  animated: true
+  site: Wikimedia Commons
+  still: pneumatic-artificial-muscle.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: pneumatic-artificial-muscle.webp
+  title: File:Sam animation-real-muscle.gif
+  author: Rocketmagnet (hugo@shadowrobot.com)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif
+  alt: Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial
+    muscles' page)
+  site: Wikimedia Commons
+  still: pneumatic-artificial-muscle.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, self-locking, stroke, lever-arm, linkage, actuator, solenoid, fail-safe--fail-secure, stiffness,
   hysteresis, form-fit--force-fit--material-bond, creep, fatigue, layer-lines, infill, regulator]
 ---
 
-![Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial muscles' page)](../media/pneumatic-artificial-muscle.webp)
-
-*Picture: [Sam animation-real-muscle.gif](https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif) by Rocketmagnet (hugo@shadowrobot.com), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/pneumatic-artificial-muscle.still.webp"><img src="../media/pneumatic-artificial-muscle.webp" alt="Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia&#x27;s &#x27;Pneumatic artificial muscles&#x27; page)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif">Sam animation-real-muscle</a> by Rocketmagnet (hugo@shadowrobot.com), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A soft rubber tube (bladder) inside a woven sleeve (braid), sealed and clamped at both ends: when air is pumped in, the tube swells, the criss-crossed braid fibres scissor outwards and the whole thing shortens, pulling a load like a biological muscle; when the air is let out it relaxes.
 

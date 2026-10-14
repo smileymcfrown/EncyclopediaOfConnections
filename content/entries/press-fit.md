@@ -121,14 +121,19 @@ image:
   alt: Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all
     round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit).
   drawn: true
+pictures:
+- file: drawn/press-fit.svg
+  alt: Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all
+    round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit).
+  drawn: true
 glossary: [misalignment, torque, stiffness, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   set-screw, taper, captive-nut, chamfer--fillet, creep, brittle--ductile, stress-concentration, galling--fretting, layer-lines,
   perimeters, o-ring]
 ---
 
-![Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all round, with small insets of a chamfer guiding the pin in and a heated hub dropped ](../media/drawn/press-fit.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/press-fit.svg" alt="Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit)."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 The inner part is made slightly bigger than the hole and forced (or heat-shrunk) into it, so both materials spring back against each other and friction holds them together, centred and with no play.
 

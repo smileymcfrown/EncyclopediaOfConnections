@@ -1,0 +1,886 @@
+# The pictures each entry page shows, in order (R32). The first is the big one at the top; for an
+# entry that moves it should show the movement (an animation). Then real photos: a cross-section or
+# cut-away first, then one that shows how it works, then a clear photo of the part or a 3D print.
+#   - drawn                        the diagram drawn for the encyclopaedia, content/media/drawn/<page>.svg
+#                                  (animated from content/media/drawn/anim/<page>.svg when that exists)
+#   - commons: "File:..."          a Wikimedia Commons file; tools/fetch_images.py checks its licence
+#   - openverse: <id>              a CC-licensed photo found through Openverse (e.g. from Flickr), with its
+#     url, title, author, license, license_url, source   (credit details, from Openverse)
+# Each item may have `kind` (animation, diagram, cross-section, how-it-works or photo) and `alt`
+# (what the picture shows, for people who can't see it). Licences allowed: public domain, CC0,
+# CC BY, CC BY-SA (D29). Change a page's pictures here, then run the Fetch pictures workflow.
+air-bearing-and-air-caster:
+- commons: File:Aircaster.gif
+  kind: animation
+air-logic-valve:
+- commons: File:Shuttle valve action principle cross section.gif
+  kind: animation
+air-or-hydraulic-cylinder:
+- commons: File:Einfachwirkender Zylinder funktionsprinziep.gif
+  kind: animation
+air-tank-and-hydraulic-accumulator:
+- commons: File:Hydraulic accumulator.svg
+aluminium-extrusion-connectors:
+- commons: File:T-Nut - Installed in a T-Slot.png
+anaerobic-adhesive:
+- commons: File:Thread-locking fluid applied.jpg
+annular-snap-fit:
+- drawn
+anti-backlash-gear:
+- drawn
+anti-twister-mechanism:
+- drawn
+automatic-siphon:
+- drawn
+ball-and-socket-joint:
+- commons: File:KugelgelenkSchnitt.jpg
+ball-caster:
+- commons: File:BallTransferUnitCrossSection.png
+ball-detent-torque-limiter:
+- drawn
+ball-detent:
+- commons: File:Federndes Druckstück 2.tif
+ball-screw:
+- commons: File:BallScrews-with-detail-insets.jpg
+band-flange-clamp:
+- commons: File:HTML research (9067215099), clamp.jpg
+basic-knots:
+- commons: File:Square knot.svg
+basic-latches:
+- commons: File:Öffnen eines Riegels.gif
+  kind: animation
+basic-strap-and-garment-closures:
+- commons: File:Buckle Showing various parts.svg
+battery-holder-and-battery-contacts:
+- commons: File:AAbatteryholder.jpg
+bayonet-mount:
+- commons: File:Bayonet-mount-01.svg
+bead-in-groove-fabric-edge:
+- drawn
+bell-crank:
+- commons: File:Chambers 1908 Bell Crank.png
+bellows-and-inflatable-actuators:
+- commons: File:Axiální pneumatický měch.jpg
+bellows-boot-and-way-cover:
+- commons: File:2008-04-23 Cracked CV boot.jpg
+belt-drives:
+- commons: File:Power transmission belt.gif
+  kind: animation
+belt-tensioner:
+- commons: File:Kettenspanner für Singlespeed-Räder.jpg
+bends-for-joining-two-cords:
+- commons: File:Doppelter Schotstek.jpg
+bent-or-twisted-tab-through-a-slot:
+- drawn
+bernoulli-gripper:
+- commons: File:Bernoulli Gripper.png
+bevel-gears:
+- commons: File:Gear - Bevel (PSF).png
+bidirectional-anti-back-drive-clutch:
+- drawn
+binding-knots-and-seizings:
+- commons: File:Constrictor-ABOK-1249.jpg
+binding-plate-lock:
+- drawn
+binding-post-and-banana-plug:
+- commons: File:BindingPostRed.jpg
+bistable-compliant-mechanism:
+- commons: File:Bistable compliant switch mechanism.png
+blind-rivet:
+- commons: File:Popnagel.gif
+  kind: animation
+blind-threaded-fixings:
+- commons: File:Blindklinkmoer opengewerkt met bout.jpg
+bowden-cable:
+- commons: File:Bowden.jpg
+brazed-joint:
+- commons: File:Principe brasage fort cuivre.svg
+burn-wire-and-fusible-link-release:
+- drawn
+butt-and-lap-wood-joints:
+- commons: File:Woodworking lap joints.svg
+butterfly-key:
+- commons: File:Butterfly-joint.JPG
+cable-carrier:
+- commons: File:Cable drag chain unsupported 3D animated.gif
+  kind: animation
+cable-gland-and-strain-relief:
+- commons: File:M16 cable gland.jpg
+cable-through-a-hinge:
+- drawn
+cam-and-follower:
+- commons: File:Nockenwelle ani.gif
+  kind: animation
+cam-buckle:
+- commons: File:Spanngurt mit Klemmverschluss.jpg
+cam-cleat:
+- commons: File:Curry2.jpg
+cam-latch:
+- commons: File:Electronic-cam-lock.jpg
+cantilever-snap-fit:
+- commons: File:Cantilever Snap-fit.gif
+  kind: animation
+capstan-and-windlass:
+- drawn
+capstan-cable-drive:
+- drawn
+captive-nut-pocket:
+- drawn
+castor:
+- commons: File:Swivel caster.jpg
+centrifugal-clutch:
+- commons: File:CentrifugalClutch.jpg
+centrifugal-pump:
+- commons: File:Centrifugal pump.gif
+  kind: animation
+chain-and-sprocket-drive:
+- commons: File:Chain.gif
+  kind: animation
+check-valve:
+- commons: File:Checkvalveopen.svg
+chicago-screw:
+- commons: File:Buchbinderschraube zum verbinden von zwei Lederstücken.jpg
+clam-cleat:
+- commons: File:Kammklemme.jpg
+clamp-on-accessory-mount-for-bars-poles-and-edges:
+- commons: File:AltmanClamp.jpg
+clamp-on-tube-fittings:
+- commons: File:Basic kee klamp.jpg
+clevis-joint:
+- commons: File:Clevis.svg
+click-pen-mechanism:
+- drawn
+clinching:
+- commons: File:TOX Pressotechnik Clinching.gif
+  kind: animation
+clip-on-concealed-hinge:
+- commons: File:Scharnier 06.gif
+  kind: animation
+coil-spring:
+- commons: File:Helical compression spring parameters.svg
+collet:
+- commons: File:External thread pull collet action.gif
+  kind: animation
+combination-lock:
+- commons: File:Combination discs.png
+compliant-detent:
+- drawn
+compliant-gripper-and-force-amplifier:
+- commons: File:Compliant plier mechanism.png
+compliant-one-piece-latch:
+- drawn
+compliant-ratchet-and-overrunning-clutch:
+- drawn
+compound-planetary-gearbox:
+- drawn
+compression-fitting:
+- commons: File:Schneidring lose.jpg
+conductive-glue-paint-and-ink:
+- drawn
+conductive-tape:
+- commons: File:5mm copper tape.jpg
+conductive-thread:
+- commons: File:Conductive thread.jpg
+constant-force-spring:
+- drawn
+constant-velocity-joint:
+- commons: File:Simple CV Joint animated.gif
+  kind: animation
+contact-adhesive:
+- commons: File:Contact-cement 000000.jpg
+cord-lock:
+- commons: File:Cord-lock.jpg
+crimp-terminals:
+- commons: File:Kabelschuh verschiedene commons.jpg
+crimped-butt-splice:
+- commons: File:ESC and Motor Wires and Butt Connectors.JPG
+cross-halving-slot-joint:
+- commons: File:Joinery-SimpleHalved.svg
+crush-ribs-and-spring-fit-features:
+- drawn
+cyanoacrylate:
+- commons: File:Super glue.jpg
+cycloidal-drive:
+- commons: File:Cycloidal drive.gif
+  kind: animation
+dampers:
+- commons: File:Dashpot.svg
+detent-hinge:
+- drawn
+diaphragm-pump-and-squeeze-bulb:
+- commons: File:Membraanpomp.svg
+differential-screw:
+- commons: File:DifferentialScrew.gif
+  kind: animation
+differential:
+- commons: File:Differential free.png
+din-rail-clip:
+- commons: File:DIN rail rear view.JPG
+dog-clutch:
+- commons: File:Dog Clutch.jpg
+double-sided-foam-tape:
+- commons: File:Двухсторонний скотч f003.jpg
+dovetail-joint:
+- commons: File:Joinery-throughdovetail.svg
+dovetail-slide-with-gib-strip:
+- drawn
+dowel-and-biscuit-joints:
+- commons: File:Woodworking-joint-butt-dowel.gif
+draw-latch:
+- commons: File:BuegelVS-Kniehebel2.JPG
+drawer-slide:
+- commons: File:Light Rail.jpg
+drive-in-fixing-pins:
+- commons: File:Spring-type slottet straigt pin labeled num.jpg
+eccentric-adjuster:
+- drawn
+eccentric-cam-lever:
+- commons: File:Quick release scewer.JPG
+eddy-current-brake:
+- commons: File:Eddy current brake diagram.svg
+elastic-averaging:
+- drawn
+elastic-band-and-elastic-cord-springs:
+- drawn
+elastomer-isolation-mount:
+- commons: File:Schwingungsdämpfer Aufbau.jpg
+elastomeric-solvent-glue:
+- commons: File:Repairing snowboard boots with Shoe Goo.jpg
+electro-permanent-magnet:
+- commons: File:Electropermanent magnet switching simulation.gif
+  kind: animation
+electromagnetic-brake:
+- commons: File:O-2 electromagnetic-power-off-brake1.gif
+electromagnetic-clutch:
+- commons: File:B-1 electromagnetic-clutch1.png
+epoxy-putty:
+- commons: File:Epoxy putty.jpg
+escapement:
+- commons: File:Anchor escapement animation 217x328px.gif
+  kind: animation
+exact-constraint-mounting:
+- drawn
+expanding-internal-grip:
+- drawn
+eye-bolts-screw-eyes-and-hooks:
+- commons: File:Anneau de levage CM.tif
+eyelets-and-grommets:
+- commons: File:Eyelet.jpg
+face-ratchet:
+- drawn
+fin-ray-gripper:
+- drawn
+finger-joint:
+- commons: File:Finger joint 20180321.jpg
+fixed-loop-knots:
+- commons: File:Palstek innen.jpg
+flare-fitting:
+- commons: File:Flare Fitting 2.jpg
+flat-flexible-cable-and-latching-connector:
+- commons: File:ZIF connector and FFC.jpg
+flexible-beam-coupling:
+- drawn
+flexible-drive-shaft:
+- commons: File:2008-05-06 1990 Geo Storm GSi speedometer cable.jpg
+flexure-hinge:
+- commons: File:Flexure pivot.png
+float-valve:
+- commons: File:Portsmouth-Valve-Closed-detail.svg
+flywheel:
+- commons: File:Spoked flywheel animation.gif
+  kind: animation
+folded-seam:
+- drawn
+folding-blade-lock:
+- commons: File:Folding knife locking mechanisms.svg
+four-bar-linkage:
+- commons: File:Crank-Rocker 4-bar Linkage.gif
+  kind: animation
+friction-brake:
+- drawn
+friction-clutch:
+- commons: File:Cone clutch.svg
+friction-drives-and-cvts:
+- drawn
+friction-hinge:
+- drawn
+friction-slip-clutch:
+- drawn
+friction-welded-plastic:
+- drawn
+gas-spring:
+- commons: File:Gas-spring simplified numbered 120.png
+gasket:
+- commons: File:Gasket.svg
+gear-pump:
+- commons: File:Gear pump animation.gif
+  kind: animation
+geared-hinge:
+- commons: File:Continuoushinge.jpg
+gearless-right-angle-drive:
+- commons: File:ElbowEngine.gif
+  kind: animation
+genderless-connector:
+- commons: File:Festkupplung.jpg
+geneva-drive:
+- commons: File:Geneva mechanism 6spoke animation.gif
+  kind: animation
+gimbal:
+- commons: File:Gimbal 3 axes rotation.gif
+  kind: animation
+glued-joint-design:
+- drawn
+granular-jamming-gripper:
+- drawn
+guy-line-slider:
+- drawn
+half-nut:
+- drawn
+hand-mouldable-thermoplastic:
+- commons: File:PCL beads.jpg
+hang-on-mounts:
+- drawn
+heat-fused-plastic-pipe:
+- commons: File:Electrofusion coupler(1).jpg
+heat-sealed-seam:
+- drawn
+heat-set-threaded-insert:
+- drawn
+heat-shrink-tubing:
+- commons: File:Schrumpfschlauch animated modified.gif
+  kind: animation
+heat-staking:
+- drawn
+herringbone-and-helical-gears:
+- commons: File:Anim engrenages helicoidaux.gif
+  kind: animation
+hidden-latches:
+- commons: File:Magnetic safety lock.jpg
+hide-glue:
+- commons: File:Glutinleime-warm.jpg
+high-current-battery-plug:
+- commons: File:T-plug.jpg
+hirth-joint:
+- commons: File:Hirth joint.jpg
+hitches-to-a-post-rail-ring-or-eye:
+- commons: File:Clove Hitch - ABoK 11 - USCG.jpg
+holding-electromagnet:
+- commons: File:Magnetic Lock.jpg
+hollow-wall-anchors:
+- commons: File:Toggle bolts.JPG
+hook-and-loop-fastener:
+- commons: File:Velcro Hooks.jpg
+hose-barb:
+- drawn
+hose-clamp:
+- commons: File:Hoseclamps.screw.agr.jpg
+hot-melt-adhesive:
+- commons: File:Stanley-Hot-Glue-Gun-GR35K.jpg
+housing-and-rebate-joints:
+- commons: File:Woodworking-joint-dado.svg
+hydraulic-ram-pump:
+- commons: File:Hydraulic Ram.gif
+in-line-swivel:
+- commons: File:Swivel (PSF).png
+indexable-clamping-lever:
+- commons: File:01 Klemmhebel 2012.jpg
+indexing-plunger:
+- drawn
+inertia-locking-reel:
+- commons: File:Intertial-reel.jpg
+insulation-displacement-connector:
+- commons: File:FDD 34 PIN Scheidklemmen IMG 0691.JPG
+intermittent-gear:
+- drawn
+internal-tube-anchors:
+- drawn
+interrupted-screw-lock:
+- commons: File:Interrupted breech screw.jpg
+invisible-barrel-hinge:
+- commons: File:Scharnier 11.gif
+  kind: animation
+iris-mechanism:
+- commons: File:Iris Diaphragm.gif
+  kind: animation
+iris-valve:
+- drawn
+iron-on-fusible-web:
+- commons: File:HemRepairTape.jpg
+japanese-interlocking-joints:
+- commons: File:Lapped gooseneck joint.png
+jaw-coupling:
+- commons: File:JawConcept2.jpg
+kerf-bending:
+- commons: File:Living hinge (wood).jpg
+keying:
+- commons: File:Notch position between DDR and DDR2.jpg
+keyless-locking-bush:
+- commons: File:Spannsatz-2.jpg
+kinematic-coupling:
+- commons: File:Maxwell kinematic coupling.png
+knife-edge-and-jewel-pivots:
+- drawn
+knock-down-cam-lock-and-cross-dowel-connectors:
+- commons: File:Cam connector cropped.png
+knuckle-hinge:
+- commons: File:Butt Hinge annotated.jpg
+labyrinth-seal:
+- commons: File:Labyrinth-seal.png
+lacing:
+- commons: File:Lamellar lacing.gif
+ladder-lock-buckle:
+- commons: File:Cropped tri-glide slide.jpg
+lamina-emergent-torsional-joint:
+- drawn
+lantern-gear:
+- commons: File:Cage Gear.png
+lead-screw-and-nut:
+- commons: File:Dvd pohon vozika hlavy.jpg
+leather-and-textile-rivets:
+- commons: File:Closeup of copper rivet on jeans.jpg
+levelling-foot:
+- commons: File:W7-X gyrotron, adjustable foot.jpg
+lever-cam-panel-connector:
+- commons: File:Clamex offen.jpg
+lid-and-flap-stays:
+- drawn
+linear-guides:
+- commons: File:Linear-table animated.gif
+  kind: animation
+linear-ratchet:
+- commons: File:Ratchet Rack and Pawl.gif
+  kind: animation
+living-hinge:
+- commons: File:Mint box polypropylene lid.JPG
+load-bearing-stitch-patterns-for-straps-and-webbing:
+- drawn
+locating-pins-and-hole-and-slot:
+- drawn
+locking-adjustment-screws:
+- commons: File:Mirrormount1.jpg
+magnet-joint:
+- drawn
+magnetic-assisted-buckle:
+- drawn
+magnetic-connector:
+- commons: File:MagSafe1.jpg
+magnetic-coupling-and-magnetic-gear:
+- commons: File:Magnetgetriebe.png
+magnetic-detent:
+- drawn
+mechanical-interlock:
+- commons: File:Trapped key interlock switchgear door.JPG
+mechanical-metamaterial-mechanism:
+- drawn
+melted-plastic-weld:
+- commons: File:Kunststoffziehschweissen Schweissschuh.jpg
+metal-brackets-and-plates:
+- commons: File:Flat and bent angle brackets.png
+mid-print-embedding:
+- drawn
+modular-grid-mounting-systems:
+- commons: File:Gridfinity drawer and bin.jpg
+mortise-and-tenon:
+- commons: File:Mortise and tenon joint.svg
+multi-material-interlock:
+- drawn
+multi-point-bolt:
+- commons: File:Crémone.jpg
+multi-stage-slide-rigging:
+- drawn
+multi-turn-rotation-limiter:
+- drawn
+nails-brads-and-tacks:
+- commons: File:Spijkers (Nails).jpg
+non-circular-gears:
+- drawn
+o-ring-seal:
+- commons: File:O-ring static seal usage example.png
+oldham-coupling:
+- commons: File:Oldham coupler animated small.gif
+  kind: animation
+ordinary-screw-joint:
+- commons: File:Bolted joint with nut.svg
+origami-mechanisms:
+- commons: File:Miura-ori.gif
+  kind: animation
+ortho-planar-spring:
+- drawn
+over-centre-linkage:
+- drawn
+parallel-leaf-spring-flexure:
+- drawn
+parallel-pipe-thread-with-a-sealing-washer:
+- drawn
+peristaltic-pump:
+- commons: File:Peristaltic pump.gif
+  kind: animation
+pin-tumbler-lock:
+- commons: File:Pin tumbler no key.svg
+plain-pivot-and-rolling-bearing:
+- commons: File:BallBearing.gif
+  kind: animation
+planetary-gear-set:
+- commons: File:Epicyclic Gearing Stationary Ring.gif
+  kind: animation
+pneumatic-artificial-muscle:
+- commons: File:Sam animation-real-muscle.gif
+  kind: animation
+pogo-pin:
+- commons: File:Federkontaktstift.svg
+pole-lashings:
+- commons: File:Square Lashing.jpg
+polyurethane-glue:
+- drawn
+posable-segmented-arm:
+- drawn
+press-fit-and-expanding-inserts:
+- commons: File:Press-in Insert.png
+press-fit:
+- drawn
+press-stud:
+- commons: File:Rivet snap parts.jpg
+pressure-regulator:
+- commons: File:Single-stage-regulator.svg
+pressure-relief-valve:
+- commons: File:Relief Valve.png
+print-in-place-hinge:
+- drawn
+printed-chainmail-and-tile-fabric:
+- commons: File:Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003.jpg
+printed-leaf-spring:
+- drawn
+printed-screw-thread:
+- drawn
+printing-onto-fabric:
+- drawn
+pulley-system:
+- commons: File:Tackles.png
+push-and-turn-child-resistant-cap:
+- drawn
+push-in-plastic-rivet:
+- drawn
+push-on-edge-trim:
+- drawn
+push-push-latch:
+- drawn
+pva-wood-glue:
+- drawn
+quarter-turn-fastener:
+- drawn
+quick-couplers-for-tubes-and-hoses:
+- commons: File:Rtc-serie-171.08-gruppe.jpg
+quick-release-hooks:
+- commons: File:3Ring release animation.gif
+  kind: animation
+quick-release-pin:
+- commons: File:Kugelsperrbolzen Funktionsprinzip.tif
+quick-release-plate:
+- drawn
+quick-return-mechanism:
+- drawn
+rack-and-pinion:
+- commons: File:Rack and pinion animation.gif
+  kind: animation
+radial-lip-seal:
+- commons: File:Radial sealing CAD sectional view num.svg
+ratchet-and-pawl:
+- commons: File:Ratchet Gear and Pawl.gif
+  kind: animation
+ratchet-tie-down-strap:
+- commons: File:Ergo Ratsche mit langem Hebel..jpg
+ratchet-tooth-torque-limiter:
+- drawn
+ratcheting-reel-closure:
+- commons: File:ThirtyTwo snowboard boot.jpg
+reciprocal-frame:
+- commons: File:Three stick reciprocal frame.JPG
+retaining-ring:
+- commons: File:Sicherungsring auf Welle mit Wellennut.png
+reversing-screw:
+- drawn
+rigid-chain-actuator:
+- commons: File:Rigid Chain Actuator.gif
+  kind: animation
+rod-end-and-ball-link:
+- commons: File:Heim Joint.svg
+roller-clutch:
+- commons: File:Freewheel en.svg
+rolling-contact-joint:
+- drawn
+rope-end-finishing:
+- commons: File:Common-whipping.png
+rope-grab-and-ascender:
+- commons: File:Petzl Ascenders (On Rope).jpg
+rope-splices:
+- commons: File:Splitsar.png
+rotary-air-actuator:
+- commons: File:Verin rotatif principe.svg
+rotary-latch:
+- drawn
+schmidt-coupling:
+- commons: File:SchmidtCouplingGif.gif
+  kind: animation
+scissor-linkage:
+- commons: File:TL 2000 scissor lift.jpg
+scotch-yoke:
+- commons: File:Yugo Escocés - Scotch yoke animation.gif
+  kind: animation
+screw-in-threaded-insert:
+- commons: File:Taplok Insert.jpg
+screw-terminal:
+- commons: File:Screw Terminals. Basic and Compression Types..jpg
+scroll-mechanism:
+- commons: File:ThreeJawChuckKey.jpg
+sear-and-trigger:
+- commons: File:Noix corde carreau arbalette.svg
+self-centring-cone-and-socket:
+- drawn
+self-clinching-fastener:
+- commons: File:17-SwageNuts.JPG
+self-closing-hinges:
+- commons: File:Bommerscharnier.JPG
+self-folding-print:
+- drawn
+self-locking-wedge:
+- commons: File:Wedge-diagram.svg
+self-tapping-screw-into-plastic:
+- drawn
+series-elastic-coupling:
+- drawn
+servo-horn-and-spline-hub:
+- commons: File:Futaba 6-Arm plastic servo horn.jpg
+servo-or-motorised-latch:
+- drawn
+sew-on-part:
+- commons: File:Plastic & fabric buttons showing holes & shank.jpg
+sewn-seams-and-hand-stitches:
+- commons: File:Lockstitch - Anthony Atkielski.png
+shackle-and-quick-link:
+- commons: File:Maillon.JPG
+shaft-to-hub-joints-and-rigid-couplings:
+- commons: File:Parallel keys.png
+shape-memory-alloy-wire-latch:
+- drawn
+shear-pin-coupling:
+- drawn
+shims-spacers-and-standoffs:
+- commons: File:Metal shims.jpg
+shock-corded-sectional-pole:
+- drawn
+shut-off-valve:
+- commons: File:Ball.PNG
+side-release-buckle:
+- commons: File:Boucle rapide.svg
+silicone-and-ms-polymer-adhesive-sealants:
+- commons: File:Caulking.jpg
+slider-crank:
+- drawn
+sliding-dovetail:
+- commons: File:Joinery-slidingdovetail.gif
+slip-ring-and-rotary-union:
+- commons: File:Sliprings annotated.jpg
+slotted-adjustment-with-a-jacking-screw:
+- drawn
+snap-lock-sheet-joint:
+- drawn
+snap-pin:
+- drawn
+soft-pneumatic-bending-actuator:
+- drawn
+solder-sleeve:
+- commons: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG
+soldered-metal-joint:
+- commons: File:Propane torch soldering copper pipe.jpg
+soldered-wire-joint:
+- commons: File:Western Union splice.jpg
+solenoid-latch:
+- drawn
+solvent-welding:
+- commons: File:Water Ram Repair PVC Cement.jpg
+speed-control-valve:
+- drawn
+speed-governor:
+- commons: File:Regulador mecánico.png
+spiral-power-spring:
+- commons: File:Alarm clock mainspring.JPG
+spline-shaft:
+- commons: File:Spline-shaft.png
+split-part-joints-for-large-prints:
+- drawn
+spot-weld:
+- drawn
+sprag-clutch:
+- commons: File:Sprag clutch.png
+spring-balancer:
+- commons: File:Angle Poise Lamp Diagram 2.png
+spring-bar:
+- commons: File:Federsteg.jpg
+spring-button-lock:
+- drawn
+spring-clamp-wire-connector:
+- commons: File:Cage Clamp.jpg
+spring-clip-clamp:
+- commons: File:Clothespin-0157e3.jpg
+spring-gate-hook:
+- commons: File:Assorted Biners.jpg
+spring-steel-push-on-fasteners:
+- commons: File:Two spire clips.jpg
+spur-gear-pair-and-gear-train:
+- commons: File:Animated two spur gears 1 2.gif
+  kind: animation
+standard-plug-and-socket-connector:
+- commons: File:Klinken- und Hohlstecker.jpg
+staples-for-wood-and-fabric:
+- commons: File:Basic staple diagram (named parts).svg
+stopper-knots-and-cord-end-anchors:
+- commons: File:Figure-eight knot.svg
+straight-line-linkages:
+- commons: File:Watts Linkage.gif
+  kind: animation
+strain-wave-gear:
+- commons: File:Harmonic-drive-explanation.gif
+  kind: animation
+stretch-release-adhesive-strips:
+- drawn
+structural-acrylic-and-low-surface-energy-plastic-adhesives:
+- drawn
+strut-hub:
+- drawn
+suction-cup:
+- commons: File:Suction cup pressure from collisions.svg
+swashplate-and-wobble-plate:
+- commons: File:Swashplate anim metal.gif
+  kind: animation
+switchable-permanent-magnet:
+- commons: File:Wiki MagneticBase ON.svg
+switching-valve:
+- commons: File:Solenoid Valve.svg
+syringe-hydraulics:
+- commons: File:Hydraulic transmission between two syringes.svg
+syringe-pump:
+- commons: File:Syringe pump.jpg
+t-slot-joint:
+- drawn
+tab-and-slot-joint:
+- commons: File:ADBO - Project Box for Arduino (laser cut).jpg
+tamper-evident-breakaway-bridge:
+- drawn
+tamper-resistant-fasteners:
+- commons: File:Screws - tamper resistant slotted.jpg
+tape-spring-hinge:
+- drawn
+taper-fit:
+- commons: File:Morse Taper No 2.jpg
+tapered-pipe-thread:
+- commons: File:Teflon tape wound around threaded pipe.jpg
+telescoping-tube-lever-lock:
+- commons: File:Saddle quick release clamp.JPG
+telescoping-tube-twist-lock:
+- drawn
+temporary-sheet-fastener:
+- commons: File:Cleco fastener extended.jpg
+tendon-driven-joint:
+- commons: File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design
+    Museum, Kensington - London - DSC01581.jpg
+tensegrity:
+- commons: File:Tensegrity simple 3.gif
+  kind: animation
+tensioning-and-adjustable-hitches:
+- commons: File:Hitch-truckers-ABoK 1514-USCG.jpg
+tesla-valve:
+- commons: File:Tesla valve principle.svg
+thermal-actuators:
+- commons: File:Bimetal.gif
+  kind: animation
+thread-locking-hardware:
+- commons: File:Nylon Lock Nut.png
+threaded-rod-and-studs:
+- commons: File:Threaded rods of different sizes.png
+threadless-ball-screw:
+- drawn
+toggle-clamp:
+- commons: File:Toggle-clamp manual horizontal 3D animated.gif
+  kind: animation
+tolerance-ring:
+- drawn
+tongue-and-groove-joint:
+- commons: File:Pióro i wpust (ubt).jpg
+tool-free-fasteners:
+- commons: File:Wingnut-hardware.jpg
+torque-limiting-gear-with-flexing-spring-arms:
+- drawn
+torsional-snap-fit:
+- drawn
+tripod-and-stand-screw-mount:
+- commons: File:Screw Head - Tripod screw-01.jpg
+tuned-mass-damper:
+- commons: File:Tuned mass damper.gif
+  kind: animation
+turnbuckle:
+- commons: File:Turnbuckles.jpg
+turntable-bearing:
+- commons: File:Slewing bearing.jpg
+twist-on-wire-connector:
+- commons: File:Array of twist-on wire connectors aka wire nuts in different sizes.jpg
+twisted-and-coiled-polymer-muscle:
+- drawn
+twisted-string-actuator:
+- drawn
+two-part-epoxy:
+- commons: File:FiveMinEpoxy.jpg
+ultrasonic-weld:
+- drawn
+universal-joint:
+- commons: File:Universal joint.gif
+  kind: animation
+uv-curing-adhesive:
+- commons: File:UV curing glue kit for Huawei-Screen.jpg
+vacuum-driven-artificial-muscle:
+- drawn
+vacuum-hold-down-table:
+- drawn
+vacuum:
+- drawn
+variable-radius-pulley:
+- commons: File:Fusee.png
+venturi-vacuum-generator:
+- commons: File:Ejector or Injector.svg
+virtual-pivot-linkage:
+- commons: File:Scharnier 02.gif
+  kind: animation
+walking-linkage:
+- commons: File:Strandbeest-Walking-Animation.gif
+  kind: animation
+wall-plug:
+- commons: File:Wall plugs plastic (cropped).jpg
+wave-and-disc-springs:
+- commons: File:Washerstack.png
+wedge-dowel:
+- drawn
+weight-activated-gripping-tongs:
+- drawn
+welded-metal-joint:
+- drawn
+whippletree:
+- commons: File:Triple whippletree set.svg
+wire-end-ferrule:
+- commons: File:Wire ferrules with and without insulation.jpg
+wire-rope-terminations:
+- commons: File:Wire rope with thimble and ferrule.jpg
+wire-to-board-plug-connectors:
+- commons: File:Balancer Buchse XH.JPG
+wire-wrap:
+- commons: File:Wire Wrap 1.jpg
+wood-screw:
+- commons: File:Wood screw with legend.svg
+worm-drive:
+- commons: File:Worm Gear.gif
+  kind: animation
+woven-self-tightening-grip:
+- commons: File:Finger trap toys.jpg
+wrap-spring-clutch:
+- commons: File:Pružinovávolnoběžka.jpg
+zipper:
+- commons: File:Zipper animated.gif
+  kind: animation

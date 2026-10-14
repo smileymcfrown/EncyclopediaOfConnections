@@ -139,13 +139,18 @@ image:
   alt: 'Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the
     inside of a spinning drum, and a band wrapped round a drum with one end anchored and the other pulled tight by a lever.'
   drawn: true
+pictures:
+- file: drawn/friction-brake.svg
+  alt: 'Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the
+    inside of a spinning drum, and a band wrapped round a drum with one end anchored and the other pulled tight by a lever.'
+  drawn: true
 glossary: [self-locking, ratchet, pawl, freewheel, sprag, torque, lever-arm, linkage, solenoid, clearance, form-fit--force-fit--material-bond,
   creep, o-ring]
 ---
 
-![Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the inside of a spinning drum, and a band wrapped round a drum with one end anchored an](../media/drawn/friction-brake.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/friction-brake.svg" alt="Three kinds of friction brake: a spinning disc pinched between two pads, two curved shoes pushed outward against the inside of a spinning drum, and a band wrapped round a drum with one end anchored and the other pulled tight by a lever."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A device that presses friction material (pads, shoes or a band) against a rotating disc or drum, turning the motion into heat so the part slows down, stops or is held still (Wikipedia, Brake).
 

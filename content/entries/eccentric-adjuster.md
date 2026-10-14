@@ -144,13 +144,19 @@ image:
     spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves
     down onto the rail by twice the offset.'
   drawn: true
+pictures:
+- file: drawn/eccentric-adjuster.svg
+  alt: 'A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the
+    spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves
+    down onto the rail by twice the offset.'
+  drawn: true
 glossary: [misalignment, backlash, torque, idler, cam-and-follower, crank, form-fit--force-fit--material-bond, set-screw,
   kinematic-coupling, creep, peel-vs-shear]
 ---
 
-![A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the spacer turns about its own centre, the wheel axle in the off-centre hole moves round](../media/drawn/eccentric-adjuster.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/eccentric-adjuster.svg" alt="A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves down onto the rail by twice the offset."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
 

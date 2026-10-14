@@ -147,8 +147,6 @@ sources:
 research: research/connection-types/results/Air_bearing_and_air_caster_aircushion_bearing.json
 image:
   file: air-bearing-and-air-caster.webp
-  width: 560
-  height: 420
   title: File:Aircaster.gif
   author: Anynobody
   license: CC BY 2.5
@@ -156,15 +154,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Aircaster.gif
   alt: 'Animation of an air caster: compressed air fills the ring-shaped bag, then the space inside it, and escapes as a thin
     film that lifts the load'
-  animated: true
+  site: Wikimedia Commons
+  still: air-bearing-and-air-caster.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: air-bearing-and-air-caster.webp
+  title: File:Aircaster.gif
+  author: Anynobody
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Aircaster.gif
+  alt: 'Animation of an air caster: compressed air fills the ring-shaped bag, then the space inside it, and escapes as a thin
+    film that lifts the load'
+  site: Wikimedia Commons
+  still: air-bearing-and-air-caster.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, axial--radial, fail-safe--fail-secure, stiffness, preload, flexure, damping, stick-slip,
   clearance, form-fit--force-fit--material-bond, repeatability--accuracy, creep, infill, regulator]
 ---
 
-![Animation of an air caster: compressed air fills the ring-shaped bag, then the space inside it, and escapes as a thin film that lifts the load](../media/air-bearing-and-air-caster.webp)
-
-*Picture: [Aircaster.gif](https://commons.wikimedia.org/wiki/File:Aircaster.gif) by Anynobody, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-bearing-and-air-caster.still.webp"><img src="../media/air-bearing-and-air-caster.webp" alt="Animation of an air caster: compressed air fills the ring-shaped bag, then the space inside it, and escapes as a thin film that lifts the load"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Aircaster.gif">Aircaster</a> by Anynobody, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A bearing with no contact: compressed air is fed through tiny holes or a porous face into a gap a few thousandths of a millimetre thick (air bearings) or under a flexible ring-shaped bag (air casters), and the pressure of the escaping air carries the load, so parts slide or turn with no [stick-slip](../glossary.md#stick-slip) and no wear, and tonnes can be pushed across a smooth floor by hand.
 

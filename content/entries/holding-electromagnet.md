@@ -145,21 +145,30 @@ sources:
 research: research/connection-types/results/Holding_electromagnet_maglock.json
 image:
   file: holding-electromagnet.webp
-  width: 800
-  height: 600
   title: File:Magnetic Lock.jpg
   author: Mooinglemur
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg
   alt: 'Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: holding-electromagnet.webp
+  title: File:Magnetic Lock.jpg
+  author: Mooinglemur
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg
+  alt: 'Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, axial--radial, solenoid, fail-safe--fail-secure, holding-force, heat-set-insert, creep, infill, peel-vs-shear]
 ---
 
-![Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate](../media/holding-electromagnet.webp)
-
-*Picture: [Magnetic Lock.jpg](https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg) by Mooinglemur, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/holding-electromagnet.webp" alt="Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg">Magnetic Lock</a> by Mooinglemur, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An electromagnet (a coil of wire around an iron core) that clamps onto a flat steel plate with great force while current flows and releases it as soon as the current stops, used to lock doors, hold fire doors open, and let robots and cranes pick up and drop steel parts.
 

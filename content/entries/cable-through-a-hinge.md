@@ -122,12 +122,18 @@ image:
     a clamp on each side, so opening the lid only twists it; on the right a slack loop of cable between a clamp on the box
     and a clamp on the lid bends as the lid opens.'
   drawn: true
+pictures:
+- file: drawn/cable-through-a-hinge.svg
+  alt: 'Two ways to take a cable across a box lid''s hinge: on the left the cable runs through the hollow hinge pin between
+    a clamp on each side, so opening the lid only twists it; on the right a slack loop of cable between a clamp on the box
+    and a clamp on the lid bends as the lid opens.'
+  drawn: true
 glossary: [torque, actuator, torsion, form-fit--force-fit--material-bond, chamfer--fillet, fatigue, print-in-place, gland]
 ---
 
-![Two ways to take a cable across a box lid's hinge: on the left the cable runs through the hollow hinge pin between a clamp on each side, so opening the lid only twists it; on the right a slack loop of](../media/drawn/cable-through-a-hinge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/cable-through-a-hinge.svg" alt="Two ways to take a cable across a box lid&#x27;s hinge: on the left the cable runs through the hollow hinge pin between a clamp on each side, so opening the lid only twists it; on the right a slack loop of cable between a clamp on the box and a clamp on the lid bends as the lid opens."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A planned route for wires, flat cables or tubes across a hinge or a joint that turns less than a full turn (or a few turns), either through a hollow pin or shaft on the turning axis so the cable only twists, or as a loose loop or wound flat cable that rolls instead of kinking, with clamps on each side so the flexing happens only where it is designed to.
 

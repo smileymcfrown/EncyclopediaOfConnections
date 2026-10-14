@@ -119,12 +119,18 @@ image:
     bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared
     by all the stitches.'
   drawn: true
+pictures:
+- file: drawn/load-bearing-stitch-patterns-for-straps-and-webbing.svg
+  alt: 'Four straps each looped round a ring and folded back over themselves, sewn with four different stitch patterns: stacked
+    bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared
+    by all the stitches.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 
-![Four straps each looped round a ring and folded back over themselves, sewn with four different stitch patterns: stacked bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows](../media/drawn/load-bearing-stitch-patterns-for-straps-and-webbing.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/load-bearing-stitch-patterns-for-straps-and-webbing.svg" alt="Four straps each looped round a ring and folded back over themselves, sewn with four different stitch patterns: stacked bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared by all the stitches."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A strap is overlapped on itself or round a buckle, ring or slot and sewn with a dense, planned stitch pattern (bar tacks, a box with an X, W shapes or close rows) so that the pull is shared by many stitches and the joint can carry a large share of the webbing's own strength.
 

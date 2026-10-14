@@ -139,8 +139,6 @@ sources:
 research: research/connection-types/results/Magnetic_coupling_and_magnetic_gear.json
 image:
   file: magnetic-coupling-and-magnetic-gear.webp
-  width: 537
-  height: 503
   title: File:Magnetgetriebe.png
   author: Petitebiscotte
   license: CC BY-SA 4.0
@@ -148,14 +146,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
   alt: 'Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole
     pieces between them'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: magnetic-coupling-and-magnetic-gear.webp
+  title: File:Magnetgetriebe.png
+  author: Petitebiscotte
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
+  alt: 'Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole
+    pieces between them'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fail-secure, hysteresis, tolerance, set-screw,
   creep, brittle--ductile, infill, print-in-place, peel-vs-shear]
 ---
 
-![Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole pieces between them](../media/magnetic-coupling-and-magnetic-gear.webp)
-
-*Picture: [Magnetgetriebe.png](https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png) by Petitebiscotte, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/magnetic-coupling-and-magnetic-gear.webp" alt="Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole pieces between them"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png">Magnetgetriebe</a> by Petitebiscotte, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Rings or discs of permanent magnets on a driving part and a driven part lock together magnetically across an air gap or a thin non-magnetic wall, so turning force passes without contact (at 1:1 in a coupling, or with a speed change in a magnetic gear) and the parts slip harmlessly past each other if the load gets too high.
 

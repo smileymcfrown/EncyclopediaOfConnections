@@ -122,18 +122,28 @@ sources:
 - https://www.printables.com/model/308024-super-clicky-fidget-knob
 research: research/connection-types/results/Compliant_detent_flexure_click_arm.json
 image:
-  file: drawn/compliant-detent.svg
+  file: drawn/anim/compliant-detent.svg
   alt: 'Three steps of a compliant detent: a springy arm growing from the housing rests its rounded tip in a notch of a wheel,
-    a tooth bends the arm upwards as the wheel turns, and the tip drops into the next notch with a click; an inset shows a
-    watch star wheel held by a jumper spring in the same way.'
+    a tooth bends the arm upwards as the wheel turns, and the tip drops into the next notch with a click; the wheels turn
+    and the arms bend and spring back; an inset shows a watch star wheel held by a jumper spring in the same way.'
   drawn: true
+  still: drawn/compliant-detent.svg
+  kind: animation
+pictures:
+- file: drawn/anim/compliant-detent.svg
+  alt: 'Three steps of a compliant detent: a springy arm growing from the housing rests its rounded tip in a notch of a wheel,
+    a tooth bends the arm upwards as the wheel turns, and the tip drops into the next notch with a click; the wheels turn
+    and the arms bend and spring back; an inset shows a watch star wheel held by a jumper spring in the same way.'
+  drawn: true
+  still: drawn/compliant-detent.svg
+  kind: animation
 glossary: [detent, ratchet, pawl, torque, stiffness, flexure, cantilever, deflection, clearance, form-fit--force-fit--material-bond,
   taper, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, print-in-place, peel-vs-shear]
 ---
 
-![Three steps of a compliant detent: a springy arm growing from the housing rests its rounded tip in a notch of a wheel, a tooth bends the arm upwards as the wheel turns, and the tip drops into the next](../media/drawn/compliant-detent.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/compliant-detent.svg"><img src="../media/drawn/anim/compliant-detent.svg" alt="Three steps of a compliant detent: a springy arm growing from the housing rests its rounded tip in a notch of a wheel, a tooth bends the arm upwards as the wheel turns, and the tip drops into the next notch with a click; the wheels turn and the arms bend and spring back; an inset shows a watch star "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A notched wheel or track plus a springy arm made as part of the plastic (or a thin steel jumper spring) that drops into each notch, giving a turning or sliding part positive click positions without separate springs, balls or pins.
 

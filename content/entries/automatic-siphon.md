@@ -148,13 +148,19 @@ image:
     when it spills into the standpipe the siphon starts and drains the bed fast; when the level falls to the bottom of the
     bell, air rushes in and the siphon stops so the bed refills.'
   drawn: true
+pictures:
+- file: drawn/automatic-siphon.svg
+  alt: 'Three cross-sections of a grow bed with a bell siphon: water trickles in and rises round a capped bell over a standpipe;
+    when it spills into the standpipe the siphon starts and drains the bed fast; when the level falls to the bottom of the
+    bell, air rushes in and the siphon stops so the bed refills.'
+  drawn: true
 glossary: [back-driving, over-centre, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters, overhang--bridging,
   cure, primer, check-valve, water-hammer]
 ---
 
-![Three cross-sections of a grow bed with a bell siphon: water trickles in and rises round a capped bell over a standpipe; when it spills into the standpipe the siphon starts and drains the bed fast; wh](../media/drawn/automatic-siphon.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/automatic-siphon.svg" alt="Three cross-sections of a grow bed with a bell siphon: water trickles in and rises round a capped bell over a standpipe; when it spills into the standpipe the siphon starts and drains the bed fast; when the level falls to the bottom of the bell, air rushes in and the siphon stops so the bed refills."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A capped tube (the bell) sits over a standpipe that drains a tank; when the rising water spills into the standpipe it pulls the air out of the bell and starts a siphon that empties the tank much faster than it fills, until air rushes in under the bell's rim and breaks the siphon, so a steady trickle in becomes a regular flood-and-drain cycle with no moving parts or timer (University of Hawai'i CTAHR BIO-10; FAO 2014).
 

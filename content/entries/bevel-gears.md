@@ -138,22 +138,31 @@ sources:
 research: research/connection-types/results/Bevel_gears_incl_mitre_and_crown_gears.json
 image:
   file: bevel-gears.webp
-  width: 800
-  height: 692
   title: File:Gear - Bevel (PSF).png
   author: Pearson Scott Foresman
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png
   alt: A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: bevel-gears.webp
+  title: File:Gear - Bevel (PSF).png
+  author: Pearson Scott Foresman
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png
+  alt: A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitch, crank, clearance, tolerance, set-screw,
   taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging]
 ---
 
-![A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.](../media/bevel-gears.webp)
-
-*Picture: [Gear - Bevel (PSF).png](https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png) by Pearson Scott Foresman, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bevel-gears.webp" alt="A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png">Gear - Bevel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two gears with teeth cut on cones whose tips meet at one point, used to pass rotation between shafts that meet at an angle (usually 90 degrees), either at 1:1 (mitre gears) or with a speed change; a crown gear is a flat version that meshes with an ordinary straight-toothed gear.
 

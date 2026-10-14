@@ -122,22 +122,31 @@ sources:
 research: research/connection-types/results/Mortise_and_tenon_incl_wedged_drawbored_and_tusk_tenons.json
 image:
   file: mortise-and-tenon.webp
-  width: 800
-  height: 477
   title: File:Mortise and tenon joint.svg
   author: GreyCat
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg
   alt: Exploded diagram of a basic mortise and tenon joint
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: mortise-and-tenon.webp
+  title: File:Mortise and tenon joint.svg
+  author: GreyCat
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg
+  alt: Exploded diagram of a basic mortise and tenon joint
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, chamfer--fillet, brittle--ductile,
   stress-concentration, layer-lines, perimeters, infill, warping--shrinkage, kerf, peel-vs-shear]
 ---
 
-![Exploded diagram of a basic mortise and tenon joint](../media/mortise-and-tenon.webp)
-
-*Picture: [Mortise and tenon joint.svg](https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg) by GreyCat, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/mortise-and-tenon.webp" alt="Exploded diagram of a basic mortise and tenon joint"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg">Mortise and tenon joint</a> by GreyCat, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A tongue (tenon) cut on the end of one part is pushed into a matching hole (mortise) in the other part and locked in place, giving a strong, square joint for frames, chairs, tables and timber buildings.
 

@@ -128,8 +128,6 @@ sources:
 research: research/connection-types/results/Lantern_gear_pin_gear.json
 image:
   file: lantern-gear.webp
-  width: 800
-  height: 482
   title: File:Cage Gear.png
   author: 'Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National
     Park Service derivative work: Twirlip (talk)'
@@ -137,14 +135,26 @@ image:
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cage_Gear.png
   alt: Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: lantern-gear.webp
+  title: File:Cage Gear.png
+  author: 'Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National
+    Park Service derivative work: Twirlip (talk)'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cage_Gear.png
+  alt: Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island
+  site: Wikimedia Commons
   drawn: false
 glossary: [backlash, axial--radial, reciprocating, torque, pitch, clearance, form-fit--force-fit--material-bond, set-screw,
   kerf, peel-vs-shear]
 ---
 
-![Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island](../media/lantern-gear.webp)
-
-*Picture: [Cage Gear.png](https://commons.wikimedia.org/wiki/File:Cage_Gear.png) by Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National Pa, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lantern-gear.webp" alt="Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cage_Gear.png">Cage Gear</a> by Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National Pa, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pinion whose 'teeth' are round pins set between two discs, driven by a wheel with specially shaped (cycloidal) teeth; it is easy to make by drilling holes and pushing in dowels or steel pins, and was used for centuries in mills and clocks.
 

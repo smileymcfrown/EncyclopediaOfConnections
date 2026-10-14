@@ -134,13 +134,19 @@ image:
     part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush
     and cool it holds a screw in its metal thread.'
   drawn: true
+pictures:
+- file: drawn/heat-set-threaded-insert.svg
+  alt: 'Three cut-away steps of fitting a heat-set insert: a knurled brass insert sits on a slightly smaller hole in a printed
+    part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush
+    and cool it holds a screw in its metal thread.'
+  drawn: true
 glossary: [deflection, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, chamfer--fillet, creep, perimeters,
   infill]
 ---
 
-![Three cut-away steps of fitting a heat-set insert: a knurled brass insert sits on a slightly smaller hole in a printed part with a hot soldering iron tip inside it; pushed down, it melts the plastic, ](../media/drawn/heat-set-threaded-insert.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-set-threaded-insert.svg" alt="Three cut-away steps of fitting a heat-set insert: a knurled brass insert sits on a slightly smaller hole in a printed part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush and cool it holds a screw in its metal thread."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A knurled metal nut-like sleeve pressed into a plain hole with a hot soldering iron, so the melted plastic grips it and the part gets strong, reusable metal threads.
 

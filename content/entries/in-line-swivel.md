@@ -133,21 +133,30 @@ sources:
 research: research/connection-types/results/Inline_swivel_rope_swivel_chain_swivel_ballbearing_swivel.json
 image:
   file: in-line-swivel.webp
-  width: 800
-  height: 529
   title: File:Swivel (PSF).png
   author: Pearson Scott Foresman
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png
   alt: Simple line drawing of a swivel in a chain link (captioned 'A swivel in a chain link' in Wikipedia 'Swivel')
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: in-line-swivel.webp
+  title: File:Swivel (PSF).png
+  author: Pearson Scott Foresman
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png
+  alt: Simple line drawing of a swivel in a chain link (captioned 'A swivel in a chain link' in Wikipedia 'Swivel')
+  site: Wikimedia Commons
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, creep, infill, print-in-place]
 ---
 
-![Simple line drawing of a swivel in a chain link (captioned 'A swivel in a chain link' in Wikipedia 'Swivel')](../media/in-line-swivel.webp)
-
-*Picture: [Swivel (PSF).png](https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png) by Pearson Scott Foresman, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/in-line-swivel.webp" alt="Simple line drawing of a swivel in a chain link (captioned &#x27;A swivel in a chain link&#x27; in Wikipedia &#x27;Swivel&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png">Swivel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A link with an eye at each end, joined through a body by a shaft that turns freely, so twist that builds up in a fishing line, lead, rope or chain can unwind instead of kinking or tangling, while the swivel still carries the pull.
 

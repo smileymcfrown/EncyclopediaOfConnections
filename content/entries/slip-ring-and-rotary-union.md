@@ -163,21 +163,30 @@ sources:
 research: research/connection-types/results/Slip_ring_and_rotary_union.json
 image:
   file: slip-ring-and-rotary-union.webp
-  width: 800
-  height: 904
   title: File:Sliprings annotated.jpg
   author: Wtshymanski
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg
   alt: 'Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: slip-ring-and-rotary-union.webp
+  title: File:Sliprings annotated.jpg
+  author: Wtshymanski
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg
+  alt: 'Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled'
+  site: Wikimedia Commons
   drawn: false
 glossary: [torque, clearance, fatigue, o-ring, gland]
 ---
 
-![Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled](../media/slip-ring-and-rotary-union.webp)
-
-*Picture: [Sliprings annotated.jpg](https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg) by Wtshymanski, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/slip-ring-and-rotary-union.webp" alt="Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg">Sliprings annotated</a> by Wtshymanski, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A slip ring passes electric power and signals from a stationary part to a continuously rotating one through springy contacts (brushes) rubbing on rings, and a rotary union does the same for liquids, air or vacuum through seals between a fixed housing and a turning shaft, so the rotating part can turn forever without its cables or hoses winding up.
 

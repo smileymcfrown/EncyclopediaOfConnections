@@ -120,13 +120,18 @@ image:
   alt: A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side
     with the platform pushed straight up, all legs bent equally and no twisting.
   drawn: true
+pictures:
+- file: drawn/ortho-planar-spring.svg
+  alt: A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side
+    with the platform pushed straight up, all legs bent equally and no twisting.
+  drawn: true
 glossary: [backlash, axial--radial, stroke, bistable, stiffness, preload, flexure, compliant-mechanism, cantilever, deflection,
   damping, clearance, chamfer--fillet, creep, stress-relaxation, fatigue, perimeters, infill, peel-vs-shear]
 ---
 
-![A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side with the platform pushed straight up, all legs bent equally and no twisting.](../media/drawn/ortho-planar-spring.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/ortho-planar-spring.svg" alt="A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side with the platform pushed straight up, all legs bent equally and no twisting."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A flat, single-piece spring whose centre platform, held by several thin symmetric legs, moves straight in and out of the sheet it was cut from without rotating, giving a compact push-back spring that can be laser cut, stamped or 3D printed.
 

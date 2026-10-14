@@ -125,13 +125,19 @@ image:
     into a round drop that barely touches the surface, so the second part pulls straight off; on the right a low-surface-energy
     glue, or glue on a primed surface, spreads into a thin flat layer that wets both parts and holds them together.'
   drawn: true
+pictures:
+- file: drawn/structural-acrylic-and-low-surface-energy-plastic-adhesives.svg
+  alt: 'Two cut-away close-ups of glue on a slippery polyethylene or polypropylene part: on the left ordinary glue beads up
+    into a round drop that barely touches the surface, so the second part pulls straight off; on the right a low-surface-energy
+    glue, or glue on a primed surface, spreads into a thin flat layer that wets both parts and holds them together.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, creep, cure, pot-life--working-time, surface-energy, primer, peel-vs-shear,
   gap-filling]
 ---
 
-![Two cut-away close-ups of glue on a slippery polyethylene or polypropylene part: on the left ordinary glue beads up into a round drop that barely touches the surface, so the second part pulls straight](../media/drawn/structural-acrylic-and-low-surface-energy-plastic-adhesives.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/structural-acrylic-and-low-surface-energy-plastic-adhesives.svg" alt="Two cut-away close-ups of glue on a slippery polyethylene or polypropylene part: on the left ordinary glue beads up into a round drop that barely touches the surface, so the second part pulls straight off; on the right a low-surface-energy glue, or glue on a primed surface, spreads into a thin flat "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 LSE adhesives are special structural acrylic glues, or superglue used after a polyolefin [primer](../glossary.md#primer), that can make strong bonds to polyethylene, polypropylene and similar slippery plastics that normal glues can't wet or grip.
 

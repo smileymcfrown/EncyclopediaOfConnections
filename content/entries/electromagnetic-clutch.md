@@ -123,22 +123,31 @@ sources:
 research: research/connection-types/results/Electromagnetic_clutch.json
 image:
   file: electromagnetic-clutch.webp
-  width: 216
-  height: 190
   title: File:B-1 electromagnetic-clutch1.png
   author: Oguraclutch
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
   alt: Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: electromagnetic-clutch.webp
+  title: File:B-1 electromagnetic-clutch1.png
+  author: Oguraclutch
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
+  alt: Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, self-locking, freewheel, torque, solenoid, fail-safe--fail-secure, hysteresis, tolerance,
   form-fit--force-fit--material-bond, set-screw, repeatability--accuracy]
 ---
 
-![Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article](../media/electromagnetic-clutch.webp)
-
-*Picture: [B-1 electromagnetic-clutch1.png](https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png) by Oguraclutch, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-clutch.webp" alt="Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia&#x27;s article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png">B-1 electromagnetic-clutch1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A drive connector that joins a spinning input to an output only while its coil is powered, by magnetically clamping a steel plate (armature) against a spinning face (rotor), and lets them separate the moment the current stops.
 

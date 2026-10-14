@@ -148,8 +148,6 @@ sources:
 research: research/connection-types/results/Syringe_hydraulics_hydraulic_lever_Pascals_principle.json
 image:
   file: syringe-hydraulics.webp
-  width: 800
-  height: 473
   title: File:Hydraulic transmission between two syringes.svg
   author: MikeRun
   license: CC BY-SA 4.0
@@ -157,14 +155,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_transmission_between_two_syringes.svg
   alt: Two syringes of different sizes joined by a liquid-filled tube, showing the small plunger moving a long way while the
     big one moves a short way with more force.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: syringe-hydraulics.webp
+  title: File:Hydraulic transmission between two syringes.svg
+  author: MikeRun
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Hydraulic_transmission_between_two_syringes.svg
+  alt: Two syringes of different sizes joined by a liquid-filled tube, showing the small plunger moving a long way while the
+    big one moves a short way with more force.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, self-locking, stroke, dead-point, torque, lever-arm, crank, linkage, actuator, stiffness,
   preload, taper, creep, o-ring, check-valve]
 ---
 
-![Two syringes of different sizes joined by a liquid-filled tube, showing the small plunger moving a long way while the big one moves a short way with more force.](../media/syringe-hydraulics.webp)
-
-*Picture: [Hydraulic transmission between two syringes.svg](https://commons.wikimedia.org/wiki/File:Hydraulic_transmission_between_two_syringes.svg) by MikeRun, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/syringe-hydraulics.webp" alt="Two syringes of different sizes joined by a liquid-filled tube, showing the small plunger moving a long way while the big one moves a short way with more force."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Hydraulic_transmission_between_two_syringes.svg">Hydraulic transmission between two syringes</a> by MikeRun, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A sealed tube of liquid with a piston at each end, so that pushing one piston pushes the other one wherever the tube goes; because the pressure is the same everywhere in the liquid, a small piston driving a large one multiplies the force and divides the distance by the ratio of their areas, just as a lever does.
 

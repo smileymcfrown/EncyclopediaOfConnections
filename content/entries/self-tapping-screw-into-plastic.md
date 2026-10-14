@@ -138,14 +138,20 @@ image:
     hole a little narrower than the screw, on the right the screw in place with the plastic pushed into its thread, clamping
     a part under the screw head.'
   drawn: true
+pictures:
+- file: drawn/self-tapping-screw-into-plastic.svg
+  alt: 'Cut-away of a printed plastic screw post before and after a self-tapping screw is driven: on the left a plain pilot
+    hole a little narrower than the screw, on the right the screw in place with the plastic pushed into its thread, clamping
+    a part under the screw head.'
+  drawn: true
 glossary: [torque, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, creep, stress-relaxation, brittle--ductile, perimeters, infill, warping--shrinkage,
   o-ring]
 ---
 
-![Cut-away of a printed plastic screw post before and after a self-tapping screw is driven: on the left a plain pilot hole a little narrower than the screw, on the right the screw in place with the plas](../media/drawn/self-tapping-screw-into-plastic.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/self-tapping-screw-into-plastic.svg" alt="Cut-away of a printed plastic screw post before and after a self-tapping screw is driven: on the left a plain pilot hole a little narrower than the screw, on the right the screw in place with the plastic pushed into its thread, clamping a part under the screw head."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A hardened screw with a sharp, widely spaced thread forms or cuts its own mating thread in a plain [pilot hole](../glossary.md#pilot-hole) in plastic, clamping a part on without any nut, insert or tapping, at the cost of a thread that wears each time it is undone.
 

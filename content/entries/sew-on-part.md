@@ -134,8 +134,6 @@ sources:
 research: research/connection-types/results/Sewon_part_sewing_holes_loops_and_slots_on_a_rigid_part.json
 image:
   file: sew-on-part.webp
-  width: 503
-  height: 230
   title: File:Plastic & fabric buttons showing holes & shank.jpg
   author: Richard Wheeler (Zephyris) 2007. ==Licensing==
   license: CC BY-SA 3.0
@@ -143,13 +141,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg
   alt: 'Three sew-through buttons with holes next to a shank button with a loop on the back: the two basic ways a part is
     made sewable'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: sew-on-part.webp
+  title: File:Plastic & fabric buttons showing holes & shank.jpg
+  author: Richard Wheeler (Zephyris) 2007. ==Licensing==
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg
+  alt: 'Three sew-through buttons with holes next to a shank button with a loop on the back: the two basic ways a part is
+    made sewable'
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, layer-lines, perimeters, peel-vs-shear]
 ---
 
-![Three sew-through buttons with holes next to a shank button with a loop on the back: the two basic ways a part is made sewable](../media/sew-on-part.webp)
-
-*Picture: [Plastic & fabric buttons showing holes & shank.jpg](https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg) by Richard Wheeler (Zephyris) 2007. ==Licensing==, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/sew-on-part.webp" alt="Three sew-through buttons with holes next to a shank button with a loop on the back: the two basic ways a part is made sewable"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg">Plastic &amp; fabric buttons showing holes &amp; shank</a> by Richard Wheeler (Zephyris) 2007. ==Licensing==, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Holes, loops, slots or a thin flange designed into a rigid part let you sew it to fabric with needle and thread, so the thread loops lock the part on by shape, like a sew-on button, and it can be cut off and re-sewn later.
 

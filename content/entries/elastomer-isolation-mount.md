@@ -127,8 +127,6 @@ sources:
 research: research/connection-types/results/Elastomer_isolation_mount_rubber_bobbin_mount_isolator_grommet.json
 image:
   file: elastomer-isolation-mount.webp
-  width: 800
-  height: 1422
   title: File:Schwingungsdämpfer Aufbau.jpg
   author: Schwingungsdämpfer
   license: CC BY-SA 4.0
@@ -136,14 +134,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg
   alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with
     a sleeve for the bolt.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: elastomer-isolation-mount.webp
+  title: File:Schwingungsdämpfer Aufbau.jpg
+  author: Schwingungsdämpfer
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg
+  alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with
+    a sleeve for the bolt.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, fail-safe--fail-secure, stiffness, damping, form-fit--force-fit--material-bond, creep, perimeters,
   infill, peel-vs-shear, gland]
 ---
 
-![A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with a sleeve for the bolt.](../media/elastomer-isolation-mount.webp)
-
-*Picture: [Schwingungsdämpfer Aufbau.jpg](https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg) by Schwingungsdämpfer, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/elastomer-isolation-mount.webp" alt="A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with a sleeve for the bolt."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg">Schwingungsdämpfer Aufbau</a> by Schwingungsdämpfer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An elastomer isolation mount holds a part to its frame through a piece of rubber or similar springy, lossy material, so vibration and shock from the part (or from the frame) are soaked up instead of being passed straight through as noise and shaking.
 

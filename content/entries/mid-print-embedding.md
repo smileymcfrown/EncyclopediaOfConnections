@@ -133,12 +133,17 @@ image:
   alt: 'Three side cut-away steps of a 3D print: the printer pauses at the top of a pocket, a nut is dropped into the pocket,
     and printing resumes over it, sealing the nut inside with a bolt hole left above it.'
   drawn: true
+pictures:
+- file: drawn/mid-print-embedding.svg
+  alt: 'Three side cut-away steps of a 3D print: the printer pauses at the top of a pocket, a nut is dropped into the pocket,
+    and printing resumes over it, sealing the nut inside with a bolt hole left above it.'
+  drawn: true
 glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, perimeters, infill]
 ---
 
-![Three side cut-away steps of a 3D print: the printer pauses at the top of a pocket, a nut is dropped into the pocket, and printing resumes over it, sealing the nut inside with a bolt hole left above i](../media/drawn/mid-print-embedding.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/mid-print-embedding.svg" alt="Three side cut-away steps of a 3D print: the printer pauses at the top of a pocket, a nut is dropped into the pocket, and printing resumes over it, sealing the nut inside with a bolt hole left above it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A way of trapping a nut, magnet, bearing or other metal part completely inside a 3D print by pausing the printer at the right layer, inserting the part, and printing over it.
 

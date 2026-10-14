@@ -153,13 +153,19 @@ image:
     washers that a nut squeezes together; beside it, an open lid whose weight, acting a distance x from the pin, is held up
     by the hinge''s rubbing.'
   drawn: true
+pictures:
+- file: drawn/friction-hinge.svg
+  alt: 'Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring
+    washers that a nut squeezes together; beside it, an open lid whose weight, acting a distance x from the pin, is held up
+    by the hinge''s rubbing.'
+  drawn: true
 glossary: [misalignment, detent, torque, torsion, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, layer-lines, print-in-place, peel-vs-shear, o-ring]
 ---
 
-![Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring washers that a nut squeezes together; beside it, an open lid whose weight, acting a](../media/drawn/friction-hinge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/friction-hinge.svg" alt="Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring washers that a nut squeezes together; beside it, an open lid whose weight, acting a distance x from the pin, is held up by the hinge&#x27;s rubbing."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A hinge with a built-in, controlled amount of rubbing (friction) inside it, so that it holds a lid, screen or door at any angle against its own weight but still turns smoothly when you push it.
 

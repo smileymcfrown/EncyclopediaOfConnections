@@ -157,23 +157,35 @@ sources:
 research: research/connection-types/results/Herringbone_and_helical_gears.json
 image:
   file: herringbone-and-helical-gears.webp
-  width: 539
-  height: 457
   title: File:Anim engrenages helicoidaux.gif
   author: user:Sador
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif
   alt: 3D animation of a pair of helical gears meshing
-  animated: true
+  site: Wikimedia Commons
+  still: herringbone-and-helical-gears.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: herringbone-and-helical-gears.webp
+  title: File:Anim engrenages helicoidaux.gif
+  author: user:Sador
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif
+  alt: 3D animation of a pair of helical gears meshing
+  site: Wikimedia Commons
+  still: herringbone-and-helical-gears.still.webp
+  kind: animation
   drawn: false
 glossary: [backlash, self-locking, axial--radial, thrust-load, torque, gear-ratio, pitch, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, chamfer--fillet, lubrication, infill, print-in-place, elephants-foot, overhang--bridging]
 ---
 
-![3D animation of a pair of helical gears meshing](../media/herringbone-and-helical-gears.webp)
-
-*Picture: [Anim engrenages helicoidaux.gif](https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif) by user:Sador, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/herringbone-and-helical-gears.still.webp"><img src="../media/herringbone-and-helical-gears.webp" alt="3D animation of a pair of helical gears meshing"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif">Anim engrenages helicoidaux</a> by user:Sador, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Cylindrical gears whose teeth are twisted at an angle (the helix angle) so each tooth engages gradually, making them quieter and stronger than straight spur gears; herringbone gears put a left-hand and a right-hand twist side by side so their sideways pushes cancel, and they are easy to 3D print.
 

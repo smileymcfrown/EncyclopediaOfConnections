@@ -145,13 +145,19 @@ image:
     an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock
     on the joint squashes the spring so the gear teeth feel only a gentle push.'
   drawn: true
+pictures:
+- file: drawn/series-elastic-coupling.svg
+  alt: 'Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with
+    an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock
+    on the joint squashes the spring so the gear teeth feel only a gentle push.'
+  drawn: true
 glossary: [misalignment, backlash, self-locking, torque, linkage, actuator, fail-safe--fail-secure, stiffness, deflection,
   torsion, damping, hysteresis, tolerance, spline, heat-set-insert, creep, fatigue, perimeters, infill]
 ---
 
-![Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with an angle sensor on each side of the spring so the force can be worked out from how far](../media/drawn/series-elastic-coupling.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/series-elastic-coupling.svg" alt="Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock on the joint squashes the spring so the gear teeth feel only a g"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A series elastic [actuator](../glossary.md#actuator) drives a joint through a purposely soft spring placed after the gearbox, so the spring absorbs shocks and its measured [deflection](../glossary.md#deflection) tells the controller the force, letting the motor control force instead of just position.
 

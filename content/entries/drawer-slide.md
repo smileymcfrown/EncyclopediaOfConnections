@@ -151,22 +151,31 @@ sources:
 research: research/connection-types/results/Drawer_slide_telescopic_ballbearing_slide.json
 image:
   file: drawer-slide.webp
-  width: 800
-  height: 600
   title: File:Light Rail.jpg
   author: Rollon91
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Light_Rail.jpg
   alt: Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: drawer-slide.webp
+  title: File:Light Rail.jpg
+  author: Rollon91
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Light_Rail.jpg
+  alt: Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.
+  site: Wikimedia Commons
   drawn: false
 glossary: [stroke, detent, stiffness, deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile,
   perimeters, infill]
 ---
 
-![Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels.](../media/drawer-slide.webp)
-
-*Picture: [Light Rail.jpg](https://commons.wikimedia.org/wiki/File:Light_Rail.jpg) by Rollon91, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawer-slide.webp" alt="Several telescopic ball-bearing drawer slides, some pulled part-way out to show the nested channels."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Light_Rail.jpg">Light Rail</a> by Rollon91, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two or three nested steel or aluminium channels that roll on caged steel balls, letting a drawer, tray or robot stage pull out smoothly in a straight line, often its full length, with optional stops, locks, [detents](../glossary.md#detent) and soft-close.
 

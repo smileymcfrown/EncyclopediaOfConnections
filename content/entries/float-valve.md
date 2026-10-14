@@ -163,22 +163,31 @@ sources:
 research: research/connection-types/results/Float_valve_ballcock.json
 image:
   file: float-valve.webp
-  width: 800
-  height: 502
   title: File:Portsmouth-Valve-Closed-detail.svg
   author: SouthHamsian
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg
   alt: 'Labelled cross-section of a Portsmouth (piston) ballcock: float, float arm, pivot, piston, washer, seat and inlet'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: float-valve.webp
+  title: File:Portsmouth-Valve-Closed-detail.svg
+  author: SouthHamsian
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg
+  alt: 'Labelled cross-section of a Portsmouth (piston) ballcock: float, float arm, pivot, piston, washer, seat and inlet'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, crank, solenoid, fail-safe--fail-secure, form-fit--force-fit--material-bond, pilot-hole, creep, perimeters,
   infill, check-valve, regulator, water-hammer]
 ---
 
-![Labelled cross-section of a Portsmouth (piston) ballcock: float, float arm, pivot, piston, washer, seat and inlet](../media/float-valve.webp)
-
-*Picture: [Portsmouth-Valve-Closed-detail.svg](https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg) by SouthHamsian, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/float-valve.webp" alt="Labelled cross-section of a Portsmouth (piston) ballcock: float, float arm, pivot, piston, washer, seat and inlet"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg">Portsmouth-Valve-Closed-detail</a> by SouthHamsian, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A self-acting tap fitted through the wall of a tank: a float rides on the water and moves a lever, which opens the inlet when the level drops and presses a rubber washer or diaphragm onto the inlet hole when the level reaches a set height, keeping cisterns, troughs and reservoirs topped up with no power and no attention.
 

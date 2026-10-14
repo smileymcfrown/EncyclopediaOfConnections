@@ -130,12 +130,18 @@ image:
     down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight
     seam.'
   drawn: true
+pictures:
+- file: drawn/heat-sealed-seam.svg
+  alt: 'Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses
+    down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight
+    seam.'
+  drawn: true
 glossary: [stroke, bistable, actuator, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
-![Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses down and melts the plastic where the films touch, then the jaws stay closed while ](../media/drawn/heat-sealed-seam.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-sealed-seam.svg" alt="Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight seam."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A heat-sealed seam joins two thin layers of thermoplastic film, or coating-to-coating on plastic-coated fabric, by pressing them with a hot bar, iron, wire or tip until the facing plastic melts together, giving an airtight, waterproof line with no stitches or glue: the joint behind plastic bags, inflatables, dry bags and soft-robot air pouches.
 

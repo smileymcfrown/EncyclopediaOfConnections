@@ -126,8 +126,6 @@ sources:
 research: research/connection-types/results/Centrifugal_clutch.json
 image:
   file: centrifugal-clutch.webp
-  width: 800
-  height: 532
   title: File:CentrifugalClutch.jpg
   author: Fletcher6
   license: CC BY-SA 3.0
@@ -135,14 +133,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
   alt: 'Close-up photo of a chainsaw''s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside
     the drum'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: centrifugal-clutch.webp
+  title: File:CentrifugalClutch.jpg
+  author: Fletcher6
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
+  alt: 'Close-up photo of a chainsaw''s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside
+    the drum'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, ratchet, freewheel, torque, gear-ratio, fail-safe--fail-secure, flexure, form-fit--force-fit--material-bond,
   set-screw, brittle--ductile]
 ---
 
-![Close-up photo of a chainsaw's centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside the drum](../media/centrifugal-clutch.webp)
-
-*Picture: [CentrifugalClutch.jpg](https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg) by Fletcher6, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/centrifugal-clutch.webp" alt="Close-up photo of a chainsaw&#x27;s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside the drum"><figcaption><a href="https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg">CentrifugalClutch</a> by Fletcher6, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clutch that engages by itself as it speeds up: spinning weights are flung outwards against a drum and drive it by friction, and they let go again when the speed drops.
 

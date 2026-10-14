@@ -143,22 +143,31 @@ sources:
 research: research/connection-types/results/Soldered_metal_joint_soft_soldering_of_metal_parts_sweatsoldered_copper_pipe.json
 image:
   file: soldered-metal-joint.webp
-  width: 800
-  height: 533
   title: File:Propane torch soldering copper pipe.jpg
   author: neffk (talk)
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg
   alt: A propane torch being used to solder copper pipes for a residential water main
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: soldered-metal-joint.webp
+  title: File:Propane torch soldering copper pipe.jpg
+  author: neffk (talk)
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg
+  alt: A propane torch being used to solder copper pipes for a residential water main
+  site: Wikimedia Commons
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, infill, warping--shrinkage,
   peel-vs-shear]
 ---
 
-![A propane torch being used to solder copper pipes for a residential water main](../media/soldered-metal-joint.webp)
-
-*Picture: [Propane torch soldering copper pipe.jpg](https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg) by neffk (talk), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/soldered-metal-joint.webp" alt="A propane torch being used to solder copper pipes for a residential water main"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg">Propane torch soldering copper pipe</a> by neffk (talk), <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Soft soldering joins metal parts by heating them until a tin-based alloy that melts below about 450 °C flows into the narrow gap between them and wets both surfaces, giving a watertight, gas-tight and electrically conductive joint that is good for copper pipes and sheet metal but too weak to carry real mechanical loads on its own.
 

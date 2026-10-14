@@ -148,22 +148,31 @@ sources:
 research: research/connection-types/results/Genderless_connector_hermaphroditic_coupling.json
 image:
   file: genderless-connector.webp
-  width: 484
-  height: 500
   title: File:Festkupplung.jpg
   author: Karl Gruber at German Wikipedia
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Festkupplung.jpg
   alt: Photo of a Storz hose coupling face, showing the hooked lugs and flange slots that mate with an identical coupling
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: genderless-connector.webp
+  title: File:Festkupplung.jpg
+  author: Karl Gruber at German Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Festkupplung.jpg
+  alt: Photo of a Storz hose coupling face, showing the hooked lugs and flange slots that mate with an identical coupling
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, detent, stiffness, clearance, form-fit--force-fit--material-bond, keying, print-in-place, elephants-foot,
   overhang--bridging]
 ---
 
-![Photo of a Storz hose coupling face, showing the hooked lugs and flange slots that mate with an identical coupling](../media/genderless-connector.webp)
-
-*Picture: [Festkupplung.jpg](https://commons.wikimedia.org/wiki/File:Festkupplung.jpg) by Karl Gruber at German Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/genderless-connector.webp" alt="Photo of a Storz hose coupling face, showing the hooked lugs and flange slots that mate with an identical coupling"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Festkupplung.jpg">Festkupplung</a> by Karl Gruber at German Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A connector or coupling made of two identical halves, each carrying both the 'male' and the 'female' features, so that any two of the same size and type can be joined, usually by turning one copy round to face the other so that its hooks meet the other's slots.
 

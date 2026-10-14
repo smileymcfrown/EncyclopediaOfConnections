@@ -146,8 +146,6 @@ sources:
 research: research/connection-types/results/Tendondriven_joint_cablepulled_finger_or_tentacle.json
 image:
   file: tendon-driven-joint.webp
-  width: 800
-  height: 395
   title: File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington
     - London - DSC01581.jpg
   author: Daderot
@@ -155,13 +153,25 @@ image:
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg
   alt: Photo of a 3D-printed tendon-driven prosthetic hand whose fingers are closed by strings when the wrist bends
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: tendon-driven-joint.webp
+  title: File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington
+    - London - DSC01581.jpg
+  author: Daderot
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg
+  alt: Photo of a 3D-printed tendon-driven prosthetic hand whose fingers are closed by strings when the wrist bends
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, torque, linkage, actuator, stiffness, flexure, hysteresis, creep, fatigue]
 ---
 
-![Photo of a 3D-printed tendon-driven prosthetic hand whose fingers are closed by strings when the wrist bends](../media/tendon-driven-joint.webp)
-
-*Picture: [E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington - London - DSC01581.jpg](https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg) by Daderot, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tendon-driven-joint.webp" alt="Photo of a 3D-printed tendon-driven prosthetic hand whose fingers are closed by strings when the wrist bends"><figcaption><a href="https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg">E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington - London - DSC01581</a> by Daderot, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A tendon-driven joint bends a chain of hinged or flexible segments by pulling a string anchored near the tip and threaded past each joint a little way off its pivot, so a straight pull from a distant motor, lever or wrist becomes a curling motion, while elastic cord, springy hinges or a second string pull it back.
 

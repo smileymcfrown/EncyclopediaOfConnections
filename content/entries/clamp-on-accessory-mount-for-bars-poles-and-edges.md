@@ -149,22 +149,31 @@ sources:
 research: research/connection-types/results/Clampon_accessory_mount_for_bars_poles_and_edges_handlebar_clamp_desk_clamp_Ubolt.json
 image:
   file: clamp-on-accessory-mount-for-bars-poles-and-edges.webp
-  width: 800
-  height: 600
   title: File:AltmanClamp.jpg
   author: StarX (talk) (Uploads)
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg
   alt: A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: clamp-on-accessory-mount-for-bars-poles-and-edges.webp
+  title: File:AltmanClamp.jpg
+  author: StarX (talk) (Uploads)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg
+  alt: A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot
+  site: Wikimedia Commons
   drawn: false
 glossary: [over-centre, ratchet, torque, form-fit--force-fit--material-bond, set-screw, taper, collet, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, print-in-place]
 ---
 
-![A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot](../media/clamp-on-accessory-mount-for-bars-poles-and-edges.webp)
-
-*Picture: [AltmanClamp.jpg](https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg) by StarX (talk) (Uploads), Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot"><figcaption><a href="https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg">AltmanClamp</a> by StarX (talk) (Uploads), Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clamp that grips an existing bar, pole, tube, pipe or desk edge by squeezing it, often through a rubber pad, so an accessory can be fixed on, repositioned or removed without drilling or changing the thing it is clamped to.
 

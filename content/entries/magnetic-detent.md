@@ -146,13 +146,19 @@ image:
     each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping
     once for every lined-up position.
   drawn: true
+pictures:
+- file: drawn/magnetic-detent.svg
+  alt: Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where
+    each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping
+    once for every lined-up position.
+  drawn: true
 glossary: [misalignment, backlash, self-locking, detent, ratchet, torque, flexure, form-fit--force-fit--material-bond, holding-force,
   heat-set-insert, repeatability--accuracy, creep]
 ---
 
-![Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where each magnet is pulled both back and forward so the knob clicks into the next spo](../media/drawn/magnetic-detent.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/magnetic-detent.svg" alt="Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping once for every lined-up position."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Magnets placed in a moving part and in its housing attract each other (or a small piece of steel) at chosen positions, so a knob, dial, wheel or slider is pulled into and held at those positions with a clean, contact-free click that does not wear.
 

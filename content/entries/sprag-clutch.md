@@ -112,8 +112,6 @@ sources:
 research: research/connection-types/results/Sprag_clutch.json
 image:
   file: sprag-clutch.webp
-  width: 800
-  height: 379
   title: File:Sprag clutch.png
   author: Mikepj1967
   license: CC BY-SA 4.0
@@ -121,14 +119,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Sprag_clutch.png
   alt: Diagram of a sprag clutch in drive and in freewheel, showing the sprags jammed and free; used on the English Wikipedia
     article
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: sprag-clutch.webp
+  title: File:Sprag clutch.png
+  author: Mikepj1967
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sprag_clutch.png
+  alt: Diagram of a sprag clutch in drive and in freewheel, showing the sprags jammed and free; used on the English Wikipedia
+    article
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, ratchet, pawl, freewheel, sprag, torque, crank, flexure, clearance,
   tolerance, form-fit--force-fit--material-bond, set-screw, taper, repeatability--accuracy, lubrication]
 ---
 
-![Diagram of a sprag clutch in drive and in freewheel, showing the sprags jammed and free; used on the English Wikipedia article](../media/sprag-clutch.webp)
-
-*Picture: [Sprag clutch.png](https://commons.wikimedia.org/wiki/File:Sprag_clutch.png) by Mikepj1967, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/sprag-clutch.webp" alt="Diagram of a sprag clutch in drive and in freewheel, showing the sprags jammed and free; used on the English Wikipedia article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Sprag_clutch.png">Sprag clutch</a> by Mikepj1967, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ring of tilted steel wedge-blocks ([sprags](../glossary.md#sprag)) between two smooth rings that lets one ring spin freely past the other in one direction but wedges them together instantly and silently in the other, with no teeth and no clicking.
 

@@ -113,22 +113,31 @@ sources:
 research: research/connection-types/results/Cyanoacrylate_superglue.json
 image:
   file: cyanoacrylate.webp
-  width: 800
-  height: 323
   title: File:Super glue.jpg
   author: unknown
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Super_glue.jpg
   alt: A tube of superglue (cyanoacrylate glue).
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: cyanoacrylate.webp
+  title: File:Super glue.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Super_glue.jpg
+  alt: A tube of superglue (cyanoacrylate glue).
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, layer-lines, warping--shrinkage, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
 
-![A tube of superglue (cyanoacrylate glue).](../media/cyanoacrylate.webp)
-
-*Picture: [Super glue.jpg](https://commons.wikimedia.org/wiki/File:Super_glue.jpg) by unknown, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cyanoacrylate.webp" alt="A tube of superglue (cyanoacrylate glue)."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Super_glue.jpg">Super glue</a> by unknown, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Cyanoacrylate (superglue) is a one-part liquid glue that hardens in seconds in a thin film between tight-fitting parts, triggered by traces of moisture, giving a strong but [brittle](../glossary.md#brittle--ductile) bond on most plastics, metal, rubber and wood.
 

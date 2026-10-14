@@ -126,22 +126,34 @@ sources:
 research: research/connection-types/results/Zipper_slide_fastener.json
 image:
   file: zipper.webp
-  width: 320
-  height: 320
   title: File:Zipper animated.gif
   author: DemonDeLuxe (Dominique Toussaint)
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
   alt: Animation of the slider bringing the two rows of teeth together
-  animated: true
+  site: Wikimedia Commons
+  still: zipper.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: zipper.webp
+  title: File:Zipper animated.gif
+  author: DemonDeLuxe (Dominique Toussaint)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
+  alt: Animation of the slider bringing the two rows of teeth together
+  site: Wikimedia Commons
+  still: zipper.still.webp
+  kind: animation
   drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, print-in-place]
 ---
 
-![Animation of the slider bringing the two rows of teeth together](../media/zipper.webp)
-
-*Picture: [Zipper animated.gif](https://commons.wikimedia.org/wiki/File:Zipper_animated.gif) by DemonDeLuxe (Dominique Toussaint), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/zipper.still.webp"><img src="../media/zipper.webp" alt="Animation of the slider bringing the two rows of teeth together"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Zipper_animated.gif">Zipper animated</a> by DemonDeLuxe (Dominique Toussaint), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two rows of interlocking teeth on fabric tapes, closed or opened in a single pull by a slider whose Y-shaped channel squeezes the teeth together one by one or wedges them apart.
 

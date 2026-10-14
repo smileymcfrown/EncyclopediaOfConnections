@@ -141,23 +141,35 @@ sources:
 research: research/connection-types/results/Linear_guides_bushings_on_rods_wheels_or_carriages_on_rails.json
 image:
   file: linear-guides.webp
-  width: 465
-  height: 325
   title: File:Linear-table animated.gif
   author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
   alt: Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)
-  animated: true
+  site: Wikimedia Commons
+  still: linear-guides.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: linear-guides.webp
+  title: File:Linear-table animated.gif
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
+  alt: Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)
+  site: Wikimedia Commons
+  still: linear-guides.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, self-locking, stroke, detent, torque, preload, flexure, clearance, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, repeatability--accuracy, creep, perimeters, infill]
 ---
 
-![Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)](../media/linear-guides.webp)
-
-*Picture: [Linear-table animated.gif](https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/linear-guides.still.webp"><img src="../media/linear-guides.webp" alt="Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif">Linear-table animated</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A guide that lets a part (the carriage) slide or roll along a straight rod, bar or rail while stopping it from wobbling, tipping or twisting, so it can only move in one straight line.
 

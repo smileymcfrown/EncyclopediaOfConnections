@@ -127,8 +127,6 @@ sources:
 research: research/connection-types/results/Tesla_valve_nomovingparts_oneway_channel.json
 image:
   file: tesla-valve.webp
-  width: 800
-  height: 533
   title: File:Tesla valve principle.svg
   author: Cmglee
   license: CC BY-SA 4.0
@@ -136,13 +134,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg
   alt: Diagram of the blocking direction (part of the flow turned round each loop and colliding with the main stream) and
     the easy direction
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: tesla-valve.webp
+  title: File:Tesla valve principle.svg
+  author: Cmglee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg
+  alt: Diagram of the blocking direction (part of the flow turned round each loop and colliding with the main stream) and
+    the easy direction
+  site: Wikimedia Commons
   drawn: false
 glossary: [oscillating, actuator, fatigue, perimeters, overhang--bridging, check-valve]
 ---
 
-![Diagram of the blocking direction (part of the flow turned round each loop and colliding with the main stream) and the easy direction](../media/tesla-valve.webp)
-
-*Picture: [Tesla valve principle.svg](https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg) by Cmglee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tesla-valve.webp" alt="Diagram of the blocking direction (part of the flow turned round each loop and colliding with the main stream) and the easy direction"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg">Tesla valve principle</a> by Cmglee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A fixed-shape channel whose teardrop-shaped side loops give much more resistance to flow in one direction than the other, so it favours one-way flow with no moving parts, but it is only a 'slightly leaking valve' that slows backflow rather than sealing like a [check valve](../glossary.md#check-valve).
 

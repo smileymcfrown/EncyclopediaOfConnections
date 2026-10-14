@@ -126,8 +126,6 @@ sources:
 research: research/connection-types/results/Interruptedscrew_lock_interrupted_thread_breech_lock.json
 image:
   file: interrupted-screw-lock.webp
-  width: 400
-  height: 259
   title: File:Interrupted breech screw.jpg
   author: https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf
   license: Public domain
@@ -135,14 +133,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg
   alt: Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked
     out in green.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: interrupted-screw-lock.webp
+  title: File:Interrupted breech screw.jpg
+  author: https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg
+  alt: Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked
+    out in green.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, detent, preload, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, stress-concentration,
   galling--fretting, print-in-place, o-ring]
 ---
 
-![Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked out in green.](../media/interrupted-screw-lock.webp)
-
-*Picture: [Interrupted breech screw.jpg](https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg) by https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/interrupted-screw-lock.webp" alt="Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked out in green."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg">Interrupted breech screw</a> by https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A screw thread with alternate sections removed from both the plug and the hole, so the plug pushes straight in past the gaps and a fraction of a turn (1/4 down to 1/16) engages the remaining thread sections and locks it.
 

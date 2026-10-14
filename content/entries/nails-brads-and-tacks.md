@@ -146,8 +146,6 @@ sources:
 research: research/connection-types/results/Nails_brads_and_tacks_ringshank_nail.json
 image:
   file: nails-brads-and-tacks.webp
-  width: 800
-  height: 528
   title: File:Spijkers (Nails).jpg
   author: Rasbak
   license: CC BY-SA 3.0
@@ -155,14 +153,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg
   alt: Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia
     'Nail (fastener)'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: nails-brads-and-tacks.webp
+  title: File:Spijkers (Nails).jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg
+  alt: Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia
+    'Nail (fastener)'
+  site: Wikimedia Commons
   drawn: false
 glossary: [axial--radial, stiffness, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, brittle--ductile,
   infill, overhang--bridging, end-grain, peel-vs-shear]
 ---
 
-![Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia 'Nail (fastener)'](../media/nails-brads-and-tacks.webp)
-
-*Picture: [Spijkers (Nails).jpg](https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg) by Rasbak, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/nails-brads-and-tacks.webp" alt="Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia &#x27;Nail (fastener)&#x27;"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg">Spijkers (Nails)</a> by Rasbak, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pointed steel pin hammered or fired into wood, where the squashed wood fibres grip its shank by friction, used to fix wood to wood (and thin board, felt, fabric or leather to wood) quickly and cheaply; it carries sideways ([shear](../glossary.md#peel-vs-shear)) loads well but pulls out more easily than a screw unless it has rings or a twist, is driven at an angle, or is bent over (clinched).
 

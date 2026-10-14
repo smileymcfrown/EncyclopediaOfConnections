@@ -152,12 +152,18 @@ image:
     runs across a thin heating wire; on the right a battery heats the wire until it glows, the cord burns through and the
     spring flips the lid open.'
   drawn: true
+pictures:
+- file: drawn/burn-wire-and-fusible-link-release.svg
+  alt: 'Burn-wire release in two frames: on the left a hinged lid is pushed up by a spring but held down by a taut cord that
+    runs across a thin heating wire; on the right a battery heats the wire until it glows, the cord burns through and the
+    spring flips the lid open.'
+  drawn: true
 glossary: [self-locking, actuator, solenoid, fail-safe--fail-secure, preload, form-fit--force-fit--material-bond, creep]
 ---
 
-![Burn-wire release in two frames: on the left a hinged lid is pushed up by a spring but held down by a taut cord that runs across a thin heating wire; on the right a battery heats the wire until it glo](../media/drawn/burn-wire-and-fusible-link-release.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/burn-wire-and-fusible-link-release.svg" alt="Burn-wire release in two frames: on the left a hinged lid is pushed up by a spring but held down by a taut cord that runs across a thin heating wire; on the right a battery heats the wire until it glows, the cord burns through and the spring flips the lid open."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A one-time release in which a cord or soldered link holds a spring-loaded or hanging part until heat cuts or melts it, either on command (a current through a nichrome wire burns through the cord) or automatically in a fire (the link's low-melting solder lets go).
 

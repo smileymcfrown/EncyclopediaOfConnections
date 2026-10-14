@@ -136,13 +136,19 @@ image:
     pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening
     a bolt squeezes a rubber sleeve so it swells against the wall.'
   drawn: true
+pictures:
+- file: drawn/internal-tube-anchors.svg
+  alt: 'Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won''t
+    pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening
+    a bolt squeezes a rubber sleeve so it swells against the wall.'
+  drawn: true
 glossary: [self-locking, tolerance, form-fit--force-fit--material-bond, taper, collet, heat-set-insert, brittle--ductile,
   layer-lines, infill]
 ---
 
-![Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won't pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, an](../media/drawn/internal-tube-anchors.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/internal-tube-anchors.svg" alt="Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won&#x27;t pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening a bolt squeezes a rubber sleeve so it swells against the wall."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A part pushed or tapped into the open end of a tube that locks against the inside wall, by barbs biting in, ribs pressing out, or a sleeve swollen by a bolt, wedge or cone, so the tube gets a thread, a foot, a caster or a pull point without welding or drilling.
 

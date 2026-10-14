@@ -122,8 +122,6 @@ sources:
 research: research/connection-types/results/Rotary_air_actuator_vane_or_rackandpinion_rotary_actuator.json
 image:
   file: rotary-air-actuator.webp
-  width: 800
-  height: 703
   title: File:Verin rotatif principe.svg
   author: Cdang
   license: CC BY-SA 3.0
@@ -131,14 +129,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg
   alt: 'Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth
     partly drawn); used on the Wikipedia ''Rotary actuator'' article'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: rotary-air-actuator.webp
+  title: File:Verin rotatif principe.svg
+  author: Cdang
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg
+  alt: 'Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth
+    partly drawn); used on the Wikipedia ''Rotary actuator'' article'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, oscillating, stroke, torque, actuator, solenoid, fail-safe--fail-secure, stick-slip, spline,
   repeatability--accuracy, infill]
 ---
 
-![Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth partly drawn); used on the Wikipedia 'Rotary actuator' article](../media/rotary-air-actuator.webp)
-
-*Picture: [Verin rotatif principe.svg](https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg) by Cdang, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rotary-air-actuator.webp" alt="Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth partly drawn); used on the Wikipedia &#x27;Rotary actuator&#x27; article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg">Verin rotatif principe</a> by Cdang, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A compact unit that turns compressed air or oil pressure into back-and-forth rotation of an output shaft through a set angle, either with a vane swinging in a round chamber or with pistons driving a rack and pinion; it is the turning cousin of the air cylinder and is widely used to open and close quarter-turn valves.
 

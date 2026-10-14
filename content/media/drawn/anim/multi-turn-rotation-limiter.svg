@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a travelling-nut turn limiter, animated: a threaded shaft turns while a nut, kept from spinning by a tab in a fixed guide, walks along the thread a little each turn until it hits the stop collar at one end; the shaft then turns back and the nut walks to the other stop, so the shaft is blocked after a set number of turns either way.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="sh"><rect x="150" y="210" width="500" height="80"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="150" y="100" width="500" height="32" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="160" y="116" width="480" height="18" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<line x1="161" y1="132" x2="639" y2="132" stroke="#ffffff" stroke-width="4"/>
+<rect x="60" y="234" width="95" height="32" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#sh)"><g>
+<polygon points="-90,232 -80,222 -70,232 -60,222 -50,232 -40,222 -30,232 -20,222 -10,232 0,222 10,232 20,222 30,232 40,222 50,232 60,222 70,232 80,222 90,232 100,222 110,232 120,222 130,232 140,222 150,232 160,222 170,232 180,222 190,232 200,222 210,232 220,222 230,232 240,222 250,232 260,222 270,232 280,222 290,232 300,222 310,232 320,222 330,232 340,222 350,232 360,222 370,232 380,222 390,232 400,222 410,232 420,222 430,232 440,222 450,232 460,222 470,232 480,222 490,232 500,222 510,232 520,222 530,232 540,222 550,232 560,222 570,232 580,222 590,232 600,222 610,232 620,222 630,232 640,222 650,232 660,222 670,232 680,222 690,232 700,222 710,232 720,222 730,232 740,222 750,232 760,222 770,232 780,222 790,232 790,268 780,278 770,268 760,278 750,268 740,278 730,268 720,278 710,268 700,278 690,268 680,278 670,268 660,278 650,268 640,278 630,268 620,278 610,268 600,278 590,268 580,278 570,268 560,278 550,268 540,278 530,268 520,278 510,268 500,278 490,268 480,278 470,268 460,278 450,268 440,278 430,268 420,278 410,268 400,278 390,268 380,278 370,268 360,278 350,268 340,278 330,268 320,278 310,268 300,278 290,268 280,278 270,268 260,278 250,268 240,278 230,268 220,278 210,268 200,278 190,268 180,278 170,268 160,278 150,268 140,278 130,268 120,278 110,268 100,278 90,268 80,278 70,268 60,278 50,268 40,278 30,268 20,278 10,268 0,278 -10,268 -20,278 -30,268 -40,278 -50,268 -60,278 -70,268 -80,278 -90,268" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<animateTransform attributeName="transform" type="translate" values="0,0;226,0;226,0;-110,0;-110,0;0,0" keyTimes="0;0.28;0.38;0.8;0.88;1" dur="6s" repeatCount="indefinite"/></g></g>
+<rect x="645" y="234" width="80" height="32" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="150" y="200" width="40" height="100" rx="4" fill="#fde2c4" stroke="#222" stroke-width="3"><animate attributeName="fill" values="#fde2c4;#fde2c4;#f5b5b5;#fde2c4;#fde2c4" keyTimes="0;0.8;0.81;0.88;1" dur="6s" repeatCount="indefinite"/></rect>
+<rect x="610" y="200" width="40" height="100" rx="4" fill="#fde2c4" stroke="#222" stroke-width="3"><animate attributeName="fill" values="#fde2c4;#fde2c4;#f5b5b5;#fde2c4;#fde2c4" keyTimes="0;0.28;0.29;0.38;1" dur="6s" repeatCount="indefinite"/></rect>
+<g>
+<rect x="330" y="119" width="24" height="83" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="300" y="190" width="84" height="120" rx="6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<animateTransform attributeName="transform" type="translate" values="0,0;226,0;226,0;-110,0;-110,0;0,0" keyTimes="0;0.28;0.38;0.8;0.88;1" dur="6s" repeatCount="indefinite"/></g>
+<g><path d="M85,300 A30,58 0 0 0 85,196" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<line x1="400" y1="340" x2="590" y2="340" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.28;0.3;0.87;0.89;1" dur="6s" repeatCount="indefinite"/></g>
+<g opacity="0"><path d="M85,300 A30,58 0 0 0 85,196" fill="none" stroke="#d1495b" stroke-width="5" marker-start="url(#ah)"/>
+<line x1="400" y1="340" x2="590" y2="340" stroke="#d1495b" stroke-width="5" marker-start="url(#ah)"/>
+<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.38;0.8;0.82;1" dur="6s" repeatCount="indefinite"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="400" y="80">slot in a fixed guide: the nut's tab stops it spinning</text>
+<text x="90" y="335">shaft turns</text>
+<text x="342" y="335">nut</text>
+<text x="170" y="320">stop</text>
+<text x="630" y="320">stop</text>
+<text x="495" y="370">nut walks along a little each turn</text>
+<text x="400" y="420">After the set number of turns the nut hits a stop and the shaft is blocked, both ways</text>
+</g></svg>

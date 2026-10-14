@@ -113,8 +113,6 @@ sources:
 research: research/connection-types/results/Schmidt_coupling_offset_coupling.json
 image:
   file: schmidt-coupling.webp
-  width: 400
-  height: 283
   title: File:SchmidtCouplingGif.gif
   author: Saturnautics
   license: CC BY-SA 4.0
@@ -122,15 +120,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
   alt: Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in
     the Wikipedia article)
-  animated: true
+  site: Wikimedia Commons
+  still: schmidt-coupling.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: schmidt-coupling.webp
+  title: File:SchmidtCouplingGif.gif
+  author: Saturnautics
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
+  alt: Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in
+    the Wikipedia article)
+  site: Wikimedia Commons
+  still: schmidt-coupling.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, infill,
   print-in-place]
 ---
 
-![Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in the Wikipedia article)](../media/schmidt-coupling.webp)
-
-*Picture: [SchmidtCouplingGif.gif](https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif) by Saturnautics, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/schmidt-coupling.still.webp"><img src="../media/schmidt-coupling.webp" alt="Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in the Wikipedia article)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif">SchmidtCouplingGif</a> by Saturnautics, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A coupling made of three discs linked in series by sets of equal parallel bars, which passes rotation at exactly constant speed between two parallel shafts that are far out of line, even while that offset changes.
 

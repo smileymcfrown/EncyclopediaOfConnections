@@ -142,12 +142,18 @@ image:
     than the bead, so pulling the fabric cannot drag it out; on the right a rubber cord (spline) is rolled into a frame channel
     on top of the screen mesh, wedging the mesh in.'
   drawn: true
+pictures:
+- file: drawn/bead-in-groove-fabric-edge.svg
+  alt: 'Two cross-sections: on the left a round bead on the edge of a fabric sits inside a C-shaped rail whose slot is narrower
+    than the bead, so pulling the fabric cannot drag it out; on the right a rubber cord (spline) is rolled into a frame channel
+    on top of the screen mesh, wedging the mesh in.'
+  drawn: true
 glossary: [stiffness, form-fit--force-fit--material-bond, spline, heat-set-insert, peel-vs-shear]
 ---
 
-![Two cross-sections: on the left a round bead on the edge of a fabric sits inside a C-shaped rail whose slot is narrower than the bead, so pulling the fabric cannot drag it out; on the right a rubber c](../media/drawn/bead-in-groove-fabric-edge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/bead-in-groove-fabric-edge.svg" alt="Two cross-sections: on the left a round bead on the edge of a fabric sits inside a C-shaped rail whose slot is narrower than the bead, so pulling the fabric cannot drag it out; on the right a rubber cord (spline) is rolled into a frame channel on top of the screen mesh, wedging the mesh in."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A thick bead along the edge of a fabric, either sewn or welded in (keder, bolt rope, silicone edge strip) or pressed in over the fabric as a separate cord (screen [spline](../glossary.md#spline)), sits in a groove whose mouth is narrower than the bead, so the fabric edge is held, tensioned and often sealed along its whole length without a fastener at every point.
 

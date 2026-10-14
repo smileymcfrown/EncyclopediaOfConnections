@@ -136,8 +136,6 @@ sources:
 research: research/connection-types/results/Tensegrity_floating_struts_held_by_cords.json
 image:
   file: tensegrity.webp
-  width: 192
-  height: 256
   title: File:Tensegrity simple 3.gif
   author: Cmglee
   license: CC BY-SA 3.0
@@ -145,14 +143,29 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif
   alt: 'Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don''t touch, each
     end held by three red cables'
-  animated: true
+  site: Wikimedia Commons
+  still: tensegrity.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: tensegrity.webp
+  title: File:Tensegrity simple 3.gif
+  author: Cmglee
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif
+  alt: 'Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don''t touch, each
+    end held by three red cables'
+  site: Wikimedia Commons
+  still: tensegrity.still.webp
+  kind: animation
   drawn: false
 glossary: [oscillating, torque, stiffness, damping, clearance, form-fit--force-fit--material-bond, creep, print-in-place]
 ---
 
-![Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don't touch, each end held by three red cables](../media/tensegrity.webp)
-
-*Picture: [Tensegrity simple 3.gif](https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif) by Cmglee, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/tensegrity.still.webp"><img src="../media/tensegrity.webp" alt="Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don&#x27;t touch, each end held by three red cables"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif">Tensegrity simple 3</a> by Cmglee, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A structure in which rigid struts (or two rigid halves) never touch each other and are held in a fixed shape only by tensioned cords, cables or chains, giving the 'floating' look of tensegrity tables, shelves and sculptures.
 

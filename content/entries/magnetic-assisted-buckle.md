@@ -141,13 +141,19 @@ image:
     sits behind a ledge so a pull on the straps goes through the hook rather than the magnets, and sliding the top half back
     frees the hook and moves the magnets apart.'
   drawn: true
+pictures:
+- file: drawn/magnetic-assisted-buckle.svg
+  alt: 'Side cut-away of a magnetic buckle in three steps: the magnets pull the top half down and into line, the latched hook
+    sits behind a ledge so a pull on the straps goes through the hook rather than the magnets, and sliding the top half back
+    frees the hook and moves the magnets apart.'
+  drawn: true
 glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep,
   brittle--ductile, layer-lines, infill, peel-vs-shear]
 ---
 
-![Side cut-away of a magnetic buckle in three steps: the magnets pull the top half down and into line, the latched hook sits behind a ledge so a pull on the straps goes through the hook rather than the ](../media/drawn/magnetic-assisted-buckle.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/magnetic-assisted-buckle.svg" alt="Side cut-away of a magnetic buckle in three steps: the magnets pull the top half down and into line, the latched hook sits behind a ledge so a pull on the straps goes through the hook rather than the magnets, and sliding the top half back frees the hook and moves the magnets apart."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A two-part strap buckle in which magnets pull the halves together and line them up so they click shut almost by themselves, while a mechanical catch (not the magnet) takes the strap's pull until you open it with a deliberate slide, tilt or tug.
 

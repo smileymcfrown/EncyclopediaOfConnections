@@ -131,21 +131,30 @@ sources:
 research: research/connection-types/results/Highcurrent_battery_plug_bullet_connector_polarised_battery_connector.json
 image:
   file: high-current-battery-plug.webp
-  width: 600
-  height: 458
   title: File:T-plug.jpg
   author: .tirnado
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:T-plug.jpg
   alt: A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: high-current-battery-plug.webp
+  title: File:T-plug.jpg
+  author: .tirnado
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:T-plug.jpg
+  alt: A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, keying, gland]
 ---
 
-![A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)](../media/high-current-battery-plug.webp)
-
-*Picture: [T-plug.jpg](https://commons.wikimedia.org/wiki/File:T-plug.jpg) by .tirnado, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/high-current-battery-plug.webp" alt="A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:T-plug.jpg">T-plug</a> by .tirnado, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A two-pin plug and socket with thick metal contacts in a shaped housing that fits only one way round, soldered (or crimped) onto heavy wires so a battery pack can be plugged into a model, robot or charger and unplugged by hand, carrying tens of amps; the plug and the wire must both suit the current.
 

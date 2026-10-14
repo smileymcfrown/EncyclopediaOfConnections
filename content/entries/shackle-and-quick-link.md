@@ -133,8 +133,6 @@ sources:
 research: research/connection-types/results/Shackle_and_quick_link_Dshackle_bow_shackle_maillon.json
 image:
   file: shackle-and-quick-link.webp
-  width: 480
-  height: 320
   title: File:Maillon.JPG
   author: Cj8457
   license: Public domain
@@ -142,13 +140,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Maillon.JPG
   alt: A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve
     screwed shut.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: shackle-and-quick-link.webp
+  title: File:Maillon.JPG
+  author: Cj8457
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Maillon.JPG
+  alt: A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve
+    screwed shut.
+  site: Wikimedia Commons
   drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert]
 ---
 
-![A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve screwed shut.](../media/shackle-and-quick-link.webp)
-
-*Picture: [Maillon.JPG](https://commons.wikimedia.org/wiki/File:Maillon.JPG) by Cj8457, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/shackle-and-quick-link.webp" alt="A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve screwed shut."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Maillon.JPG">Maillon</a> by Cj8457, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A closed metal link (a U-shaped shackle shut by a screw pin or bolt, or an oval quick link shut by a threaded sleeve) that joins rope eyes, chain, slings, straps and anchor points; because it closes completely it can't shake off like a hook, and a rated, marked one carries very heavy in-line loads.
 

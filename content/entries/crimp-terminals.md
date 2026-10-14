@@ -126,8 +126,6 @@ sources:
 research: research/connection-types/results/Crimp_terminals_ring_fork_and_spade_terminals_blade_quickdisconnect.json
 image:
   file: crimp-terminals.webp
-  width: 461
-  height: 358
   title: File:Kabelschuh verschiedene commons.jpg
   author: unknown
   license: CC BY-SA 3.0
@@ -135,13 +133,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg
   alt: Insulated ring and spade terminals, FASTON blade tabs and receptacles, and male and female bullet terminals side by
     side
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: crimp-terminals.webp
+  title: File:Kabelschuh verschiedene commons.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg
+  alt: Insulated ring and spade terminals, FASTON blade tabs and receptacles, and male and female bullet terminals side by
+    side
+  site: Wikimedia Commons
   drawn: false
 glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, gland]
 ---
 
-![Insulated ring and spade terminals, FASTON blade tabs and receptacles, and male and female bullet terminals side by side](../media/crimp-terminals.webp)
-
-*Picture: [Kabelschuh verschiedene commons.jpg](https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg) by unknown, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/crimp-terminals.webp" alt="Insulated ring and spade terminals, FASTON blade tabs and receptacles, and male and female bullet terminals side by side"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg">Kabelschuh verschiedene commons</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A metal terminal whose barrel is squeezed (crimped) onto a stripped wire end with a crimping tool, giving a ring or fork to clamp under a screw or stud, or a blade or receptacle that pushes onto a matching tab, so a wire can be fixed to a terminal or unplugged without soldering.
 

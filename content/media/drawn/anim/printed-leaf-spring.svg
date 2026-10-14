@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes back, with the most stress at the fixed root, which has a rounded corner; notes say twice as thick is 8 times stiffer and twice as long is 8 times softer. Animated: the finger lets go and the strip springs back straight, then the finger pushes it down again.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="60" y="140" width="90" height="180" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<!-- strip at rest (dashed) -->
+<rect x="150" y="196" width="460" height="18" fill="none" stroke="#999999" stroke-width="2" stroke-dasharray="7 6"/>
+<!-- bent strip -->
+<path d="M150,205 C330,205 480,240 605,300" fill="none" stroke="#222" stroke-width="21" stroke-linecap="butt"><animate attributeName="d" values="M150,205 C330,205 480,240 605,300;M150,205 C330,205 480,240 605,300;M150,205 C330,205 480,205 610,205;M150,205 C330,205 480,205 610,205;M150,205 C330,205 480,240 605,300;M150,205 C330,205 480,240 605,300" keyTimes="0;0.15;0.45;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.3 0 0.3 1;0 0 1 1;0.45 0 0.55 1;0 0 1 1"/></path>
+<path d="M150,205 C330,205 480,240 605,300" fill="none" stroke="#d8f0d2" stroke-width="15" stroke-linecap="butt"><animate attributeName="d" values="M150,205 C330,205 480,240 605,300;M150,205 C330,205 480,240 605,300;M150,205 C330,205 480,205 610,205;M150,205 C330,205 480,205 610,205;M150,205 C330,205 480,240 605,300;M150,205 C330,205 480,240 605,300" keyTimes="0;0.15;0.45;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.3 0 0.3 1;0 0 1 1;0.45 0 0.55 1;0 0 1 1"/></path>
+<path d="M150,183 Q150,196 166,196 L150,196 Z M150,227 Q150,214 166,214 L150,214 Z" fill="#d8f0d2" stroke="#222" stroke-width="2"/>
+<circle cx="166" cy="205" r="34" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="5 5"/>
+<line x1="240" y1="282" x2="190" y2="232" stroke="#222" stroke-width="1.5"/>
+<!-- finger -->
+<g><rect x="574" y="166" width="54" height="120" rx="27" fill="#fde2c4" stroke="#222" stroke-width="3"/><animateTransform attributeName="transform" type="translate" values="5,0;5,0;0,-95;0,-95;5,0;5,0" keyTimes="0;0.15;0.45;0.6;0.9;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.3 0 0.3 1;0 0 1 1;0.45 0 0.55 1;0 0 1 1"/></g>
+<line x1="660" y1="170" x2="660" y2="250" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.14;0.16;0.58;0.62;1" dur="4s" repeatCount="indefinite"/></line>
+<line x1="580" y1="380" x2="580" y2="330" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;0.40;0.44;0.48;0.98;1" dur="4s" repeatCount="indefinite"/></line>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="105" y="125">fixed end</text>
+<text x="690" y="215" text-anchor="start">push</text>
+<text x="600" y="405">strip springs back</text>
+<text x="300" y="300">most stress at the root:</text>
+<text x="300" y="322">give it a rounded corner</text>
+<text x="380" y="180">at rest</text>
+<text x="400" y="40" font-weight="bold">Twice as thick = 8 times stiffer</text>
+<text x="400" y="66" font-weight="bold">Twice as long = 8 times softer</text>
+<text x="400" y="430">Bent strip stores energy and pushes back</text>
+</g>
+</svg>

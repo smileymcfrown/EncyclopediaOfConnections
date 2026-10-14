@@ -148,8 +148,6 @@ sources:
 research: research/connection-types/results/Speed_governor_fly_fan_centrifugal_governor.json
 image:
   file: speed-governor.webp
-  width: 800
-  height: 432
   title: File:Regulador mecánico.png
   author: Wiki LIC
   license: CC BY-SA 4.0
@@ -157,14 +155,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png
   alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc
     against a brake.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: speed-governor.webp
+  title: File:Regulador mecánico.png
+  author: Wiki LIC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png
+  alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc
+    against a brake.
+  site: Wikimedia Commons
   drawn: false
 glossary: [ratchet, torque, crank, form-fit--force-fit--material-bond, repeatability--accuracy, creep, perimeters, peel-vs-shear,
   o-ring, regulator]
 ---
 
-![Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc against a brake.](../media/speed-governor.webp)
-
-*Picture: [Regulador mecánico.png](https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png) by Wiki LIC, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/speed-governor.webp" alt="Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc against a brake."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png">Regulador mecánico</a> by Wiki LIC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A speed governor is a small fan or a set of spinning weights at the fast end of a spring- or weight-driven gear train that brakes harder the faster it turns, so the whole mechanism settles at a steady running speed instead of running away.
 

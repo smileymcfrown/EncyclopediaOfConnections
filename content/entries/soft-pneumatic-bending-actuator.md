@@ -134,13 +134,19 @@ image:
     its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve
     the chambers swell and push apart so the finger curls round a ball; a small inset shows a fibre-wound tube version.'
   drawn: true
+pictures:
+- file: drawn/soft-pneumatic-bending-actuator.svg
+  alt: 'A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along
+    its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve
+    the chambers swell and push apart so the finger curls round a ball; a small inset shows a fibre-wound tube version.'
+  drawn: true
 glossary: [misalignment, self-locking, linkage, actuator, solenoid, stiffness, flexure, hysteresis, fatigue, infill, cure,
   pot-life--working-time, peel-vs-shear, regulator]
 ---
 
-![A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along its bottom: with no air it lies straight, and with air pumped in through a supply w](../media/drawn/soft-pneumatic-bending-actuator.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/soft-pneumatic-bending-actuator.svg" alt="A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve the chambers swell and push apart so the finger curls round a "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A finger cast in silicone or printed in TPU with a network of air chambers along one side and a stretch-resistant layer along the other, so that pumping air in makes it curl and wrap gently round an object, and letting the air out makes it straighten and let go.
 

@@ -143,18 +143,32 @@ sources:
 - https://www.nature.com/articles/s41467-018-07073-5
 research: research/connection-types/results/Mechanical_metamaterial_mechanism_shearcell_hinge_arrays.json
 image:
-  file: drawn/mechanical-metamaterial-mechanism.svg
+  file: drawn/anim/mechanical-metamaterial-mechanism.svg
   alt: 'A grid of square cells, most with a diagonal brace, shown before and after a push: the unbraced middle column leans
     over into parallelograms so the braced block on its right swings down like the end of a linkage while the left block stays
-    fixed; a third panel shows a door latch idea where a row of unbraced cells shears so the bolt pulls in.'
+    fixed; a third panel shows a door latch idea where a row of unbraced cells shears so the bolt pulls in. The middle panel
+    loops between the push and rest: the plain cells lean over and stand back up; in the latch panel the hinge row shears
+    to and fro so the bolt slides in and out.'
   drawn: true
+  still: drawn/mechanical-metamaterial-mechanism.svg
+  kind: animation
+pictures:
+- file: drawn/anim/mechanical-metamaterial-mechanism.svg
+  alt: 'A grid of square cells, most with a diagonal brace, shown before and after a push: the unbraced middle column leans
+    over into parallelograms so the braced block on its right swings down like the end of a linkage while the left block stays
+    fixed; a third panel shows a door latch idea where a row of unbraced cells shears so the bolt pulls in. The middle panel
+    loops between the push and rest: the plain cells lean over and stand back up; in the latch panel the hinge row shears
+    to and fro so the bolt slides in and out.'
+  drawn: true
+  still: drawn/mechanical-metamaterial-mechanism.svg
+  kind: animation
 glossary: [misalignment, over-centre, bistable, linkage, stiffness, flexure, compliant-mechanism, living-hinge, fatigue, brittle--ductile,
   lubrication, infill, print-in-place, kerf, peel-vs-shear]
 ---
 
-![A grid of square cells, most with a diagonal brace, shown before and after a push: the unbraced middle column leans over into parallelograms so the braced block on its right swings down like the end o](../media/drawn/mechanical-metamaterial-mechanism.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/mechanical-metamaterial-mechanism.svg"><img src="../media/drawn/anim/mechanical-metamaterial-mechanism.svg" alt="A grid of square cells, most with a diagonal brace, shown before and after a push: the unbraced middle column leans over into parallelograms so the braced block on its right swings down like the end of a linkage while the left block stays fixed; a third panel shows a door latch idea where a row of u"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A one-piece block made of a regular grid of tiny cells, where rigid cells act as levers and cells that can [shear](../glossary.md#peel-vs-shear) act as hinges and springs, so the whole block works as a mechanism such as a latch, pliers or [linkage](../glossary.md#linkage) with no assembly.
 

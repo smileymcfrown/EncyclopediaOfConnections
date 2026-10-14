@@ -126,18 +126,30 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tapespring_hinge_measuringtape_fold.json
 image:
-  file: drawn/tape-spring-hinge.svg
+  file: drawn/anim/tape-spring-hinge.svg
   alt: 'A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending
     until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside
-    a graph where the effort to fold peaks and then drops to a low steady level.'
+    a graph where the effort to fold peaks and then drops to a low steady level. The animation steps through the fold: the
+    strip bends until the middle snaps, folds on at a low steady effort (a dot runs along the graph), then springs back.'
   drawn: true
+  still: drawn/tape-spring-hinge.svg
+  kind: animation
+pictures:
+- file: drawn/anim/tape-spring-hinge.svg
+  alt: 'A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending
+    until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside
+    a graph where the effort to fold peaks and then drops to a low steady level. The animation steps through the fold: the
+    strip bends until the middle snaps, folds on at a low steady effort (a dot runs along the graph), then springs back.'
+  drawn: true
+  still: drawn/tape-spring-hinge.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, over-centre, bistable, detent, linkage, fail-safe--fail-secure, stiffness,
   flexure, compliant-mechanism, living-hinge, damping, repeatability--accuracy, creep, lubrication, infill]
 ---
 
-![A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending until its middle flattens and snaps through, and folded with a short kink of ra](../media/drawn/tape-spring-hinge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/tape-spring-hinge.svg"><img src="../media/drawn/anim/tape-spring-hinge.svg" alt="A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside a graph where the effort to fold peaks and then drops to a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A strip with a curved cross-section, like a tape-measure blade, clamped between two parts so that it folds by buckling into a kink and then unfolds itself and locks straight, giving a hinge with no pin, no friction and no latch.
 

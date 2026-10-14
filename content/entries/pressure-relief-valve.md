@@ -145,22 +145,31 @@ sources:
 research: research/connection-types/results/Pressure_relief_valve_safety_valve_popoff_valve.json
 image:
   file: pressure-relief-valve.webp
-  width: 173
-  height: 373
   title: File:Relief Valve.png
   author: Mbeychok
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Relief_Valve.png
   alt: Schematic cross-section of a conventional spring-loaded pressure relief valve
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: pressure-relief-valve.webp
+  title: File:Relief Valve.png
+  author: Mbeychok
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Relief_Valve.png
+  alt: Schematic cross-section of a conventional spring-loaded pressure relief valve
+  site: Wikimedia Commons
   drawn: false
 glossary: [stroke, over-centre, torque, actuator, fail-safe--fail-secure, hysteresis, repeatability--accuracy, fatigue, infill,
   check-valve, regulator]
 ---
 
-![Schematic cross-section of a conventional spring-loaded pressure relief valve](../media/pressure-relief-valve.webp)
-
-*Picture: [Relief Valve.png](https://commons.wikimedia.org/wiki/File:Relief_Valve.png) by Mbeychok, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pressure-relief-valve.webp" alt="Schematic cross-section of a conventional spring-loaded pressure relief valve"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Relief_Valve.png">Relief Valve</a> by Mbeychok, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A normally-closed, spring-held valve that opens by itself when the pressure passes a set limit and lets fluid out until the pressure falls again, protecting tanks, pumps, pipes and soft [actuators](../glossary.md#actuator) from bursting; its one-shot cousin, the rupture disc, bursts instead.
 

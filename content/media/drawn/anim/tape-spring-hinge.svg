@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside a graph where the effort to fold peaks and then drops to a low steady level. The animation steps through the fold: the strip bends until the middle snaps, folds on at a low steady effort (a dot runs along the graph), then springs back.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="arm">
+<rect x="30" y="-18" width="44" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+</g>
+<path id="t2" fill="none" d="M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3"><animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.04;0.056;0.072;0.088;0.104;0.12;0.152;0.184;0.216;0.248;0.28;1" values="M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3;M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3;M10,159.5 L79.5,168.2 Q95,170.9 110.5,168.2 L180,159.5;M9.8,162.4 L79.5,168.7 Q95,170.6 110.5,168.7 L180.2,162.4;M9.6,165.9 L79.5,169.3 Q95,170.4 110.5,169.3 L180.4,165.9;M9.5,168.8 L79.5,169.8 Q95,170.1 110.5,169.8 L180.5,168.8;M9.5,170 L79.5,170 Q95,170 110.5,170 L180.5,170;M9.5,168.8 L79.5,169.8 Q95,170.1 110.5,169.8 L180.5,168.8;M9.6,165.9 L79.5,169.3 Q95,170.4 110.5,169.3 L180.4,165.9;M9.8,162.4 L79.5,168.7 Q95,170.6 110.5,168.7 L180.2,162.4;M10,159.5 L79.5,168.2 Q95,170.9 110.5,168.2 L180,159.5;M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3;M10.2,158.3 L79.5,168 Q95,171 110.5,168 L179.8,158.3"/></path>
+<path id="t3" fill="none" d="M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6"><animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.32;0.376;0.432;0.488;0.544;0.6;0.68;0.712;0.744;0.776;0.808;0.84;1" values="M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6;M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6;M32.5,112.7 L80.4,163.7 A20,20 0 0 0 109.6,163.7 L157.5,112.7;M35.4,108.2 L79.5,162.6 A20,20 0 0 0 110.5,162.6 L154.6,108.2;M39.3,103.1 L78.4,161.2 A20,20 0 0 0 111.6,161.2 L150.7,103.1;M42.9,99.2 L77.6,159.9 A20,20 0 0 0 112.4,159.9 L147.1,99.2;M44.5,97.6 L77.3,159.4 A20,20 0 0 0 112.7,159.4 L145.5,97.6;M44.5,97.6 L77.3,159.4 A20,20 0 0 0 112.7,159.4 L145.5,97.6;M42.9,99.2 L77.6,159.9 A20,20 0 0 0 112.4,159.9 L147.1,99.2;M39.3,103.1 L78.4,161.2 A20,20 0 0 0 111.6,161.2 L150.7,103.1;M35.4,108.2 L79.5,162.6 A20,20 0 0 0 110.5,162.6 L154.6,108.2;M32.5,112.7 L80.4,163.7 A20,20 0 0 0 109.6,163.7 L157.5,112.7;M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6;M31.4,114.6 L80.9,164.1 A20,20 0 0 0 109.1,164.1 L158.6,114.6"/></path>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="190" y1="20" x2="190" y2="350" stroke="#cccccc" stroke-width="2"/>
+<line x1="380" y1="20" x2="380" y2="350" stroke="#cccccc" stroke-width="2"/>
+<line x1="575" y1="20" x2="575" y2="350" stroke="#cccccc" stroke-width="2"/>
+<g><animate attributeName="opacity" dur="5s" repeatCount="indefinite" keyTimes="0;0.12;0.14;0.82;0.86;1" values="1;1;0.45;0.45;1;1"/>
+<path d="M9,170 H181" fill="none" stroke="#222" stroke-width="8"/>
+<path d="M9,170 H181" fill="none" stroke="#fde2c4" stroke-width="3"/>
+<use href="#arm" transform="translate(111,170)"/>
+<use href="#arm" transform="translate(79,170) scale(-1,1)"/>
+<path d="M60,258 Q95,224 130,258" fill="none" stroke="#222" stroke-width="5"/>
+</g>
+<!-- 2: peak, middle flattens -->
+<g transform="translate(190,0)"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" keyTimes="0;0.06;0.12;0.14;0.3;0.32;0.94;1" values="1;0.45;0.45;1;1;0.45;0.45;1"/>
+<use href="#t2" stroke="#222" stroke-width="8"/>
+<use href="#t2" stroke="#fde2c4" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" keyTimes="0;0.04;0.056;0.072;0.088;0.104;0.12;0.152;0.184;0.216;0.248;0.28;1" values="110.5 168;110.5 168;110.5 168.2;110.5 168.7;110.5 169.3;110.5 169.8;110.5 170;110.5 169.8;110.5 169.3;110.5 168.7;110.5 168.2;110.5 168;110.5 168"/><g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.04;0.056;0.072;0.088;0.104;0.12;0.152;0.184;0.216;0.248;0.28;1" values="-8;-8;-7.2;-5.2;-2.8;-0.8;-0;-0.8;-2.8;-5.2;-7.2;-8;-8"/><use href="#arm"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" keyTimes="0;0.04;0.056;0.072;0.088;0.104;0.12;0.152;0.184;0.216;0.248;0.28;1" values="79.5 168;79.5 168;79.5 168.2;79.5 168.7;79.5 169.3;79.5 169.8;79.5 170;79.5 169.8;79.5 169.3;79.5 168.7;79.5 168.2;79.5 168;79.5 168"/><g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.04;0.056;0.072;0.088;0.104;0.12;0.152;0.184;0.216;0.248;0.28;1" values="8;8;7.2;5.2;2.8;0.8;0;0.8;2.8;5.2;7.2;8;8"/><use href="#arm" transform="scale(-1,1)"/></g></g>
+<path d="M150,214 Q174,208 176,184" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M40,214 Q16,208 14,184" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M60,252 Q95,236 130,252" fill="none" stroke="#222" stroke-width="5"/>
+</g>
+<!-- 3: folded with a kink -->
+<g transform="translate(380,0)"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" keyTimes="0;0.06;0.29;0.31;0.84;0.86;0.94;1" values="1;0.45;0.45;1;1;0.45;0.45;1"/>
+<use href="#t3" stroke="#222" stroke-width="8"/>
+<use href="#t3" stroke="#fde2c4" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" keyTimes="0;0.32;0.376;0.432;0.488;0.544;0.6;0.68;0.712;0.744;0.776;0.808;0.84;1" values="109.1 164.1;109.1 164.1;109.6 163.7;110.5 162.6;111.6 161.2;112.4 159.9;112.7 159.4;112.7 159.4;112.4 159.9;111.6 161.2;110.5 162.6;109.6 163.7;109.1 164.1;109.1 164.1"/><g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.32;0.376;0.432;0.488;0.544;0.6;0.68;0.712;0.744;0.776;0.808;0.84;1" values="-45;-45;-46.8;-51;-56;-60.2;-62;-62;-60.2;-56;-51;-46.8;-45;-45"/><use href="#arm"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" keyTimes="0;0.32;0.376;0.432;0.488;0.544;0.6;0.68;0.712;0.744;0.776;0.808;0.84;1" values="80.9 164.1;80.9 164.1;80.4 163.7;79.5 162.6;78.4 161.2;77.6 159.9;77.3 159.4;77.3 159.4;77.6 159.9;78.4 161.2;79.5 162.6;80.4 163.7;80.9 164.1;80.9 164.1"/><g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.32;0.376;0.432;0.488;0.544;0.6;0.68;0.712;0.744;0.776;0.808;0.84;1" values="45;45;46.8;51;56;60.2;62;62;60.2;56;51;46.8;45;45"/><use href="#arm" transform="scale(-1,1)"/></g></g>
+<line x1="95" y1="148" x2="95" y2="166" stroke="#222" stroke-width="1.5"/>
+<path d="M160,76 Q188,98 180,146" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="60" y1="248" x2="130" y2="248" stroke="#222" stroke-width="5"/>
+</g>
+<!-- graph -->
+<path d="M625,90 V300 H785" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M625,300 C633,240 645,120 660,110 C672,104 676,240 690,250 H775" fill="none" stroke="#222" stroke-width="3"/>
+<circle r="7" fill="#d1495b" stroke="#222" stroke-width="2"><animateMotion dur="5s" repeatCount="indefinite" calcMode="linear" path="M625,300 C633,240 645,120 660,110 C672,104 676,240 690,250 H775" keyTimes="0;0.12;0.28;0.32;0.6;0.84;0.86;1" keyPoints="0;0;0.4573;0.8000;1;1;0;0"/><animate attributeName="opacity" dur="5s" repeatCount="indefinite" keyTimes="0;0.68;0.76;0.88;0.94;1" values="1;1;0;0;1;1"/></circle>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="95" y="40">1. Straight</text>
+<text x="285" y="40">2. Snap-through</text>
+<text x="475" y="40">3. Folded</text>
+<text x="700" y="40">Effort to fold</text>
+</g>
+<text x="95" y="290">end view: curved</text>
+<text x="285" y="290">middle flattens</text>
+<text x="475" y="290">kink is flat across</text>
+<text x="475" y="140" font-size="20" font-style="italic">R</text>
+<text x="475" y="330">springs back straight</text>
+<text x="672" y="102" text-anchor="start">peak</text>
+<text x="735" y="236">low, steady</text>
+<text x="705" y="326">fold angle</text>
+<text transform="translate(610,195) rotate(-90)">turning force (moment)</text>
+<text x="400" y="420">Stiff when straight · easy to fold once kinked · springs back and locks by itself</text>
+</g>
+</svg>

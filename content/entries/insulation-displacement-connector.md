@@ -132,21 +132,30 @@ sources:
 research: research/connection-types/results/Insulationdisplacement_connector_IDC_ribboncable_plug_punchdown_Ttap.json
 image:
   file: insulation-displacement-connector.webp
-  width: 800
-  height: 742
   title: File:FDD 34 PIN Scheidklemmen IMG 0691.JPG
   author: Hans Haase
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG
   alt: Close-up of the forked connector blades cutting through the insulation of a ribbon cable
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: insulation-displacement-connector.webp
+  title: File:FDD 34 PIN Scheidklemmen IMG 0691.JPG
+  author: Hans Haase
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG
+  alt: Close-up of the forked connector blades cutting through the insulation of a ribbon cable
+  site: Wikimedia Commons
   drawn: false
 glossary: [pitch, form-fit--force-fit--material-bond, keying, infill]
 ---
 
-![Close-up of the forked connector blades cutting through the insulation of a ribbon cable](../media/insulation-displacement-connector.webp)
-
-*Picture: [FDD 34 PIN Scheidklemmen IMG 0691.JPG](https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG) by Hans Haase, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/insulation-displacement-connector.webp" alt="Close-up of the forked connector blades cutting through the insulation of a ribbon cable"><figcaption><a href="https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG">FDD 34 PIN Scheidklemmen IMG 0691</a> by Hans Haase, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Insulated wires are pushed or squeezed into slotted metal blades that cut through the insulation and grip the copper, making a gas-tight, unstripped joint; used to terminate many ribbon-cable wires in one press, punch network and phone wires into blocks and jacks, crimp RJ45 plugs, and tap a branch wire onto an existing one.
 

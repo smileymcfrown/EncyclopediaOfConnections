@@ -130,22 +130,31 @@ sources:
 research: research/connection-types/results/Siderelease_buckle.json
 image:
   file: side-release-buckle.webp
-  width: 800
-  height: 331
   title: File:Boucle rapide.svg
   author: Jean Paul GIBERT
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg
   alt: Drawing of the male and female halves of a side-release buckle
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: side-release-buckle.webp
+  title: File:Boucle rapide.svg
+  author: Jean Paul GIBERT
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg
+  alt: Drawing of the male and female halves of a side-release buckle
+  site: Wikimedia Commons
   drawn: false
 glossary: [stiffness, flexure, cantilever, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, creep, fatigue,
   layer-lines, perimeters, infill, support-material]
 ---
 
-![Drawing of the male and female halves of a side-release buckle](../media/side-release-buckle.webp)
-
-*Picture: [Boucle rapide.svg](https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg) by Jean Paul GIBERT, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/side-release-buckle.webp" alt="Drawing of the male and female halves of a side-release buckle"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg">Boucle rapide</a> by Jean Paul GIBERT, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A two-part plastic buckle in which two springy arms on the male half flex inward as it is pushed into the female half, then click outward into side windows so it cannot pull out, until you pinch both arms through the windows to let it go.
 

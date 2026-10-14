@@ -129,8 +129,6 @@ sources:
 research: research/connection-types/results/Living_hinge.json
 image:
   file: living-hinge.webp
-  width: 736
-  height: 1020
   title: File:Mint box polypropylene lid.JPG
   author: en:User:Polyparadig
   license: Public domain
@@ -138,14 +136,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG
   alt: Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles
     'Living hinge' and 'Flexure bearing'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: living-hinge.webp
+  title: File:Mint box polypropylene lid.JPG
+  author: en:User:Polyparadig
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG
+  alt: Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles
+    'Living hinge' and 'Flexure bearing'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
   fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear]
 ---
 
-![Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles 'Living hinge' and 'Flexure bearing'](../media/living-hinge.webp)
-
-*Picture: [Mint box polypropylene lid.JPG](https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG) by en:User:Polyparadig, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/living-hinge.webp" alt="Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles &#x27;Living hinge&#x27; and &#x27;Flexure bearing&#x27;"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG">Mint box polypropylene lid</a> by en:User:Polyparadig, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A thinned strip of the same plastic that joins two stiff parts so they fold like a hinge, with no pin, no assembly and nothing to wear out or lose.
 

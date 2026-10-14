@@ -128,8 +128,6 @@ sources:
 research: research/connection-types/results/Friction_clutch_plate_or_cone_clutch.json
 image:
   file: friction-clutch.webp
-  width: 800
-  height: 566
   title: File:Cone clutch.svg
   author: Sweber.de
   license: CC BY-SA 3.0
@@ -137,14 +135,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Cone_clutch.svg
   alt: 'Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material,
     the return spring and the release control'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: friction-clutch.webp
+  title: File:Cone clutch.svg
+  author: Sweber.de
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Cone_clutch.svg
+  alt: 'Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material,
+    the return spring and the release control'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, back-driving, axial--radial, sprag, torque, idler, linkage, hysteresis, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, creep]
 ---
 
-![Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material, the return spring and the release control](../media/friction-clutch.webp)
-
-*Picture: [Cone clutch.svg](https://commons.wikimedia.org/wiki/File:Cone_clutch.svg) by Sweber.de, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/friction-clutch.webp" alt="Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material, the return spring and the release control"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cone_clutch.svg">Cone clutch</a> by Sweber.de, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clutch that connects a driving shaft to a driven shaft by pressing friction surfaces together and disconnects it by pulling them apart, and that can slip in between so the drive takes up gently.
 

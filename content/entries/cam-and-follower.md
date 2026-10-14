@@ -177,24 +177,36 @@ sources:
 research: research/connection-types/results/Cam_and_follower_plate_barrel_and_face_cams.json
 image:
   file: cam-and-follower.webp
-  width: 320
-  height: 240
   title: File:Nockenwelle ani.gif
   author: No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims).
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
   alt: Animation of a camshaft whose rotating cams push followers up and down
-  animated: true
+  site: Wikimedia Commons
+  still: cam-and-follower.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: cam-and-follower.webp
+  title: File:Nockenwelle ani.gif
+  author: No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
+  alt: Animation of a camshaft whose rotating cams push followers up and down
+  site: Wikimedia Commons
+  still: cam-and-follower.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, detent, pawl, pitch, cam-and-follower, crank,
   linkage, actuator, stiffness, preload, clearance, form-fit--force-fit--material-bond, set-screw, undercut, repeatability--accuracy,
   infill, print-in-place, overhang--bridging]
 ---
 
-![Animation of a camshaft whose rotating cams push followers up and down](../media/cam-and-follower.webp)
-
-*Picture: [Nockenwelle ani.gif](https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif) by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cam-and-follower.still.webp"><img src="../media/cam-and-follower.webp" alt="Animation of a camshaft whose rotating cams push followers up and down"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif">Nockenwelle ani</a> by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A cam is a shaped wheel, drum or plate that turns (or slides) and pushes a follower, so steady rotation becomes a back-and-forth or rocking motion with exactly the pattern of rises, pauses (dwells) and falls that the cam's shape was designed to give.
 

@@ -132,13 +132,18 @@ image:
   alt: 'Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together;
     closed, they resist a straight pull strongly but slide sideways easily; with a lip added, the lip takes the sideways load.'
   drawn: true
+pictures:
+- file: drawn/magnet-joint.svg
+  alt: 'Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together;
+    closed, they resist a straight pull strongly but slide sideways easily; with a lip added, the lip takes the sideways load.'
+  drawn: true
 glossary: [misalignment, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, holding-force, captive-nut,
   keying, kinematic-coupling, creep, brittle--ductile, peel-vs-shear]
 ---
 
-![Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together; closed, they resist a straight pull strongly but slide sideways easily; with a l](../media/drawn/magnet-joint.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/magnet-joint.svg" alt="Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together; closed, they resist a straight pull strongly but slide sideways easily; with a lip added, the lip takes the sideways load."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Pairs of permanent magnets, or a magnet and a piece of steel, set into the faces of two parts so the parts pull together, roughly line themselves up and stay shut, yet can be pulled apart by hand.
 

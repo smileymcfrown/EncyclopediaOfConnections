@@ -119,23 +119,35 @@ sources:
 research: research/connection-types/results/Gimbal.json
 image:
   file: gimbal.webp
-  width: 249
-  height: 248
   title: File:Gimbal 3 axes rotation.gif
   author: Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
   alt: Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed
-  animated: true
+  site: Wikimedia Commons
+  still: gimbal.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: gimbal.webp
+  title: File:Gimbal 3 axes rotation.gif
+  author: Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
+  alt: Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed
+  site: Wikimedia Commons
+  still: gimbal.still.webp
+  kind: animation
   drawn: false
 glossary: [backlash, pitch, stiffness, flexure, clearance, form-fit--force-fit--material-bond, repeatability--accuracy, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---
 
-![Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed](../media/gimbal.webp)
-
-*Picture: [Gimbal 3 axes rotation.gif](https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif) by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gimbal.still.webp"><img src="../media/gimbal.webp" alt="Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif">Gimbal 3 axes rotation</a> by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A set of two or three nested pivots at right angles to each other, so the object in the middle can tilt freely about each axis, or stay level while whatever holds it rocks.
 

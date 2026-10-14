@@ -119,18 +119,32 @@ sources:
 - https://www.thingiverse.com/thing:310263/files
 research: research/connection-types/results/Threadless_ball_screw_rollingring_drive.json
 image:
-  file: drawn/threadless-ball-screw.svg
+  file: drawn/anim/threadless-ball-screw.svg
   alt: A smooth rod seen from above running through a nut that holds a bearing pressed on the rod at a slight tilt; as the
     rod spins, the bearing rolls along a spiral path (dashed) and carries the nut one pitch along per turn. Small views show
-    three bearings around the rod end-on, and that tilting the bearing the other way sends the nut back.
+    three bearings around the rod end-on, and that tilting the bearing the other way sends the nut back. The animation runs
+    the nut one pitch along while the contact path turns with the rod, then flips the bearing tilt so the nut runs back with
+    the rod still spinning the same way; the end view shows the rod and bearings rolling.
   drawn: true
+  still: drawn/threadless-ball-screw.svg
+  kind: animation
+pictures:
+- file: drawn/anim/threadless-ball-screw.svg
+  alt: A smooth rod seen from above running through a nut that holds a bearing pressed on the rod at a slight tilt; as the
+    rod spins, the bearing rolls along a spiral path (dashed) and carries the nut one pitch along per turn. Small views show
+    three bearings around the rod end-on, and that tilting the bearing the other way sends the nut back. The animation runs
+    the nut one pitch along while the contact path turns with the rod, then flips the bearing tilt so the nut runs back with
+    the rod still spinning the same way; the end view shows the rod and bearings rolling.
+  drawn: true
+  still: drawn/threadless-ball-screw.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, pitch, actuator, fail-safe--fail-secure, preload,
   tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, perimeters, infill]
 ---
 
-![A smooth rod seen from above running through a nut that holds a bearing pressed on the rod at a slight tilt; as the rod spins, the bearing rolls along a spiral path (dashed) and carries the nut one pi](../media/drawn/threadless-ball-screw.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/threadless-ball-screw.svg"><img src="../media/drawn/anim/threadless-ball-screw.svg" alt="A smooth rod seen from above running through a nut that holds a bearing pressed on the rod at a slight tilt; as the rod spins, the bearing rolls along a spiral path (dashed) and carries the nut one pitch along per turn. Small views show three bearings around the rod end-on, and that tilting the bear"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Bearings pressed at an angle against a smooth spinning rod roll round it in a spiral and so carry their housing (the 'nut') along the rod, turning rotation into straight-line motion with no [backlash](../glossary.md#backlash), and slipping harmlessly instead of jamming when overloaded.
 

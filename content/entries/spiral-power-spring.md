@@ -138,8 +138,6 @@ sources:
 research: research/connection-types/results/Spiral_power_spring_clock_spring.json
 image:
   file: spiral-power-spring.webp
-  width: 800
-  height: 644
   title: File:Alarm clock mainspring.JPG
   author: Chetvorno
   license: CC0
@@ -147,14 +145,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG
   alt: Photo of an open (not cased) mainspring in a 1950s alarm clock, with its outer end hooked to a post and the winding
     arbor at the centre
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: spiral-power-spring.webp
+  title: File:Alarm clock mainspring.JPG
+  author: Chetvorno
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG
+  alt: Photo of an open (not cased) mainspring in a 1950s alarm clock, with its outer end hooked to a post and the winding
+    arbor at the centre
+  site: Wikimedia Commons
   drawn: false
 glossary: [ratchet, pawl, torque, preload, torsion, hysteresis, collet, creep, fatigue, lubrication, perimeters, infill, peel-vs-shear,
   regulator]
 ---
 
-![Photo of an open (not cased) mainspring in a 1950s alarm clock, with its outer end hooked to a post and the winding arbor at the centre](../media/spiral-power-spring.webp)
-
-*Picture: [Alarm clock mainspring.JPG](https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG) by Chetvorno, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spiral-power-spring.webp" alt="Photo of an open (not cased) mainspring in a 1950s alarm clock, with its outer end hooked to a post and the winding arbor at the centre"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG">Alarm clock mainspring</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flat strip of spring steel coiled into a spiral between a centre shaft and an outer case, which stores energy as it is wound tighter and gives it back as turning force as it unwinds, powering clockwork and pulling cords, tapes and belts back into reels.
 

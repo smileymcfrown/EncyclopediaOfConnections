@@ -135,23 +135,31 @@ sources:
 research: research/connection-types/results/Sliding_dovetail.json
 image:
   file: sliding-dovetail.webp
-  width: 600
-  height: 400
   title: File:Joinery-slidingdovetail.gif
   author: SilentC at English Wikipedia
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif
   alt: Animated diagram of a sliding dovetail tongue sliding into its groove
-  animated: false
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: sliding-dovetail.webp
+  title: File:Joinery-slidingdovetail.gif
+  author: SilentC at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif
+  alt: Animated diagram of a sliding dovetail tongue sliding into its groove
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, undercut, creep, elephants-foot,
   overhang--bridging, peel-vs-shear]
 ---
 
-![Animated diagram of a sliding dovetail tongue sliding into its groove](../media/sliding-dovetail.webp)
-
-*Picture: [Joinery-slidingdovetail.gif](https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif) by SilentC at English Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/sliding-dovetail.webp" alt="Animated diagram of a sliding dovetail tongue sliding into its groove"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif">Joinery-slidingdovetail</a> by SilentC at English Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flared tongue on one part slides into a matching flared groove in the other, locking the parts so they can't be pulled apart sideways while still letting them slide along the groove, as used to hold shelves in bookcases or slide-on mounts together.
 

@@ -134,22 +134,31 @@ sources:
 research: research/connection-types/results/Standard_plugandsocket_connector_USB_barrel_jack_audio_jack_RJ45.json
 image:
   file: standard-plug-and-socket-connector.webp
-  width: 800
-  height: 423
   title: File:Klinken- und Hohlstecker.jpg
   author: Smial at de.wikipedia
   license: CC BY-SA 2.0 de
   license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
   source: https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg
   alt: A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: standard-plug-and-socket-connector.webp
+  title: File:Klinken- und Hohlstecker.jpg
+  author: Smial at de.wikipedia
+  license: CC BY-SA 2.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg
+  alt: A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist
+  site: Wikimedia Commons
   drawn: false
 glossary: [coaxial, fail-safe--fail-secure, form-fit--force-fit--material-bond, keying, repeatability--accuracy, creep, galling--fretting,
   warping--shrinkage, o-ring, gland, ip-rating]
 ---
 
-![A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist](../media/standard-plug-and-socket-connector.webp)
-
-*Picture: [Klinken- und Hohlstecker.jpg](https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg) by Smial at de.wikipedia, [CC BY-SA 2.0 de](https://creativecommons.org/licenses/by-sa/2.0/de/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/standard-plug-and-socket-connector.webp" alt="A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg">Klinken- und Hohlstecker</a> by Smial at de.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A bought plug and socket made to a published standard (USB, barrel jack, audio jack, RJ45 and many more), so a project can take power or signals from leads and chargers that already exist and be unplugged by hand; you choose by what the other device has, how often it will be plugged in, and whether it must latch or seal.
 

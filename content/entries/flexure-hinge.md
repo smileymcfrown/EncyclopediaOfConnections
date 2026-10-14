@@ -144,8 +144,6 @@ sources:
 research: research/connection-types/results/Flexure_hinge_notch_leafspring_and_crossaxis_pivots.json
 image:
   file: flexure-hinge.webp
-  width: 800
-  height: 497
   title: File:Flexure pivot.png
   author: Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski
   license: Public domain
@@ -153,14 +151,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Flexure_pivot.png
   alt: A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and
     scientific instruments
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: flexure-hinge.webp
+  title: File:Flexure pivot.png
+  author: Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Flexure_pivot.png
+  alt: A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and
+    scientific instruments
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, axial--radial, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever,
   torsion, chamfer--fillet, repeatability--accuracy, creep, fatigue, infill, print-in-place, peel-vs-shear, regulator]
 ---
 
-![A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and scientific instruments](../media/flexure-hinge.webp)
-
-*Picture: [Flexure pivot.png](https://commons.wikimedia.org/wiki/File:Flexure_pivot.png) by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/flexure-hinge.webp" alt="A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and scientific instruments"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Flexure_pivot.png">Flexure pivot</a> by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pivot made from a deliberately thinned or crossed springy section that bends to let two parts rotate a small angle about each other, with no friction, [backlash](../glossary.md#backlash) or wear.
 

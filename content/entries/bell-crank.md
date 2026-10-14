@@ -140,8 +140,6 @@ sources:
 research: research/connection-types/results/Bell_crank_angle_lever.json
 image:
   file: bell-crank.webp
-  width: 336
-  height: 285
   title: File:Chambers 1908 Bell Crank.png
   author: Rev. Thomas Davidson 1856-1923 (ed.)
   license: Public domain
@@ -149,15 +147,27 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png
   alt: An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling
     a wire downwards.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: bell-crank.webp
+  title: File:Chambers 1908 Bell Crank.png
+  author: Rev. Thomas Davidson 1856-1923 (ed.)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png
+  alt: An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling
+    a wire downwards.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, axial--radial, dead-point, over-centre, mechanical-advantage, pitch, crank, linkage, actuator,
   stiffness, clearance, form-fit--force-fit--material-bond, spline, boss, repeatability--accuracy, creep, brittle--ductile,
   infill, print-in-place]
 ---
 
-![An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling a wire downwards.](../media/bell-crank.webp)
-
-*Picture: [Chambers 1908 Bell Crank.png](https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png) by Rev. Thomas Davidson 1856-1923 (ed.), Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bell-crank.webp" alt="An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling a wire downwards."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png">Chambers 1908 Bell Crank</a> by Rev. Thomas Davidson 1856-1923 (ed.), Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A bell [crank](../glossary.md#crank) is a lever that rocks on a pivot at its corner, so a rod or cable pulling one arm makes the other arm push or pull in a different direction (usually at 90 degrees), with the arm lengths setting how much the movement and force are scaled up or down.
 

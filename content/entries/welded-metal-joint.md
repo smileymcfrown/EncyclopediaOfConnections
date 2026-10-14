@@ -123,13 +123,19 @@ image:
     melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under
     a cloud of shielding gas and leaving a solid bead behind it.'
   drawn: true
+pictures:
+- file: drawn/welded-metal-joint.svg
+  alt: 'Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has
+    melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under
+    a cloud of shielding gas and leaving a solid bead behind it.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
   warping--shrinkage, peel-vs-shear, regulator]
 ---
 
-![Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has melted together. Right: a welding torch moving along a joint, feeding filler wire int](../media/drawn/welded-metal-joint.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/welded-metal-joint.svg" alt="Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under a cloud of shielding gas and leaving a solid bead behind it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Welding melts the edges of two metal parts, usually with extra filler metal from a wire or rod, using an electric arc or a gas flame, so the melted metal flows together and cools into one continuous piece: the strongest permanent way to join metal parts of the same or compatible metals.
 

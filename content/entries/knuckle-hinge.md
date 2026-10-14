@@ -139,22 +139,31 @@ sources:
 research: research/connection-types/results/Knuckle_hinge_butt_hinge.json
 image:
   file: knuckle-hinge.webp
-  width: 800
-  height: 513
   title: File:Butt Hinge annotated.jpg
   author: JonRichfield
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg
   alt: An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: knuckle-hinge.webp
+  title: File:Butt Hinge annotated.jpg
+  author: JonRichfield
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg
+  alt: An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, detent, torque, pitch, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   pilot-hole, creep, perimeters, infill, print-in-place, peel-vs-shear]
 ---
 
-![An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint](../media/knuckle-hinge.webp)
-
-*Picture: [Butt Hinge annotated.jpg](https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg) by JonRichfield, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/knuckle-hinge.webp" alt="An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg">Butt Hinge annotated</a> by JonRichfield, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two leaves with interlocking rings (knuckles) along one edge share a single pin, so a door, lid or flap can swing about that pin while the hinge carries its weight.
 

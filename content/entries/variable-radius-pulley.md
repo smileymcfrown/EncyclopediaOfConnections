@@ -122,22 +122,31 @@ sources:
 research: research/connection-types/results/Variableradius_pulley_fusee_compoundbow_cam.json
 image:
   file: variable-radius-pulley.webp
-  width: 800
-  height: 658
   title: File:Fusee.png
   author: Dionysius Lardner
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Fusee.png
   alt: Fusee and mainspring barrel in the wound and run-down states, with chain, fusee, winding arbor and output gear labelled
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: variable-radius-pulley.webp
+  title: File:Fusee.png
+  author: Dionysius Lardner
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Fusee.png
+  alt: Fusee and mainspring barrel in the wound and run-down states, with chain, fusee, winding arbor and output gear labelled
+  site: Wikimedia Commons
   drawn: false
 glossary: [stroke, ratchet, torque, idler, cam-and-follower, hysteresis, form-fit--force-fit--material-bond, repeatability--accuracy,
   creep, fatigue]
 ---
 
-![Fusee and mainspring barrel in the wound and run-down states, with chain, fusee, winding arbor and output gear labelled](../media/variable-radius-pulley.webp)
-
-*Picture: [Fusee.png](https://commons.wikimedia.org/wiki/File:Fusee.png) by Dionysius Lardner, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/variable-radius-pulley.webp" alt="Fusee and mainspring barrel in the wound and run-down states, with chain, fusee, winding arbor and output gear labelled"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Fusee.png">Fusee</a> by Dionysius Lardner, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A variable-radius pulley changes the leverage between a cord and a shaft as it turns, so a spring whose force changes can give a steady turning force (a clock's fusee, a tool balancer's tapered drum) or a force that follows a chosen curve (a compound bow's let-off, a gym machine's cam, a robot arm's gravity balancer).
 

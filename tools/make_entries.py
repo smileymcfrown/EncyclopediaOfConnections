@@ -13,7 +13,7 @@ Run: python3 tools/make_entries.py      (then python3 tools/check_entries.py)
 The pages are generated: change the JSON, tags.yaml or review-notes.md, not the pages, until the
 project decides to edit the pages directly (see content/README.md).
 """
-import json, os, re, sys
+import html, json, os, re, sys
 from collections import OrderedDict
 import yaml
 
@@ -162,7 +162,36 @@ def finder_block(d, tg, confirm):
     return f
 
 
-def page(i, it, d, tg, points, pic=None):
+KINDS = {'animation': 'Animation', 'diagram': 'Diagram', 'cross-section': 'Cross-section',
+         'how-it-works': 'How it works', 'photo': 'Photo'}
+
+
+def gallery(pics):
+    """The pictures at the top of an entry page (R32), as one HTML block: the first one big, the
+    rest (real photos) below it. An animation has a still copy for people whose device asks for
+    reduced motion. Each picture has its credit line, or the needs-confirming note if drawn."""
+    e = lambda v: html.escape(str(v or ''), quote=True)
+    out = ['<div class="eoc-pictures">']
+    for n, x in enumerate(pics):
+        img = f'<img src="../media/{e(x["file"])}" alt="{e(x["alt"][:300])}"' + (' loading="lazy"' if n else '') + '>'
+        if x.get('still'):
+            img = f'<picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/{e(x["still"])}">{img}</picture>'
+        kind = KINDS.get(x.get('kind') or ('animation' if x.get('still') else ''), '')
+        lead = f'<strong>{kind}.</strong> ' if kind else ''
+        if x.get('drawn'):
+            cap = (f'{lead}Diagram drawn for the encyclopaedia from the research notes. {FLAG} Needs confirming: a drawing '
+                   'can simplify or get details wrong; a real photo or a better diagram is welcome.')
+        else:
+            lic = f'<a href="{e(x["license_url"])}">{e(x["license"])}</a>' if x.get('license_url') else e(x['license'])
+            title = re.sub(r'^File:|\.[a-zA-Z]{3,4}$', '', x.get('title') or '') or 'Photo'
+            cap = (f'{lead}<a href="{e(x["source"])}">{e(title)}</a> by {e(str(x["author"])[:120])}, {lic}, '
+                   f'from {e(x.get("site") or "Wikimedia Commons")}.')
+        out.append(f'<figure class="eoc-pic{" eoc-pic-main" if n == 0 else ""}">{img}<figcaption>{cap}</figcaption></figure>')
+    out.append('</div>')
+    return '\n'.join(out)
+
+
+def page(i, it, d, tg, points, pics=None):
     idt, fa, mk, gd, md = d['identity'], d['finder_attributes'], d['making'], d['guidance'], d['media']
     confirm = OrderedDict()
     finder = finder_block(d, tg, confirm)
@@ -185,7 +214,9 @@ def page(i, it, d, tg, points, pic=None):
     fm['make_it_yourself'] = md.get('make_it_yourself', [])
     fm['sources'] = md.get('sources', [])
     fm['research'] = f'research/connection-types/results/{slug_file(it["name"])}.json'
-    fm['image'] = pic
+    pics = pics or []
+    fm['image'] = pics[0] if pics else None
+    fm['pictures'] = pics
 
     B = []
 
@@ -208,16 +239,8 @@ def page(i, it, d, tg, points, pic=None):
         extra = '; '.join(mark(x[k]) for k in ('shows', 'what_it_is') if x.get(k))
         return f'- [{mark(x.get("title") or x["url"])}]({x["url"]})' + (f': {extra}' if extra else '') + lic
 
-    if pic:
-        alt = re.sub(r'[\[\]]', '', mark(pic['alt']))[:200]
-        B += [f'![{alt}](../media/{pic["file"]})', '']
-        if pic.get('drawn'):
-            B += [f'*Diagram drawn for the encyclopaedia from the research notes. {FLAG} Needs confirming: a drawing '
-                  'can simplify or get details wrong; a real photo or a better diagram is welcome.*', '']
-        else:
-            lic = f'[{pic["license"]}]({pic["license_url"]})' if pic.get('license_url') else pic['license']
-            B += [f'*Picture: [{mark(pic["title"]).removeprefix("File:")}]({pic["source"]}) by '
-                  f'{mark(pic["author"])[:120]}, {lic}, from Wikimedia Commons.*', '']
+    if pics:
+        B += [gallery(pics), '']
     B.append(mark(idt['one_liner']))
     B.append('')
     B.append(f'**In plain words:** {mark(idt["plain_name"])}. **Proper term:** {mark(idt["term"])}.')
@@ -346,7 +369,7 @@ def link_terms(body, terms):
         done = False
         for i in range(end):
             ln = lines[i]
-            if done or ln.startswith('#') or not ln.strip():
+            if done or ln.startswith(('#', '<')) or not ln.strip():
                 continue
             spans = [m.span() for m in PROTECT.finditer(ln)]
             for pat in t['patterns']:
@@ -376,20 +399,42 @@ Dumper.add_representer(list, lambda d, v: d.represent_sequence(
 def main():
     items = OUTLINE['items']
     pts = open_points(items)
-    # Pictures (R29): a drawn diagram in content/media/drawn/<page>.svg (its <title> is the alt text),
-    # replaced by a Commons picture when content/media/media.yaml has one (tools/fetch_images.py).
-    pics = {}
-    dd = os.path.join(ROOT, 'content', 'media', 'drawn')
-    for fn in sorted(os.listdir(dd)) if os.path.isdir(dd) else []:
+    # Pictures (R29, R32): content/media/pictures.yaml lists each page's pictures in order: `drawn`
+    # (content/media/drawn/<page>.svg, its <title> the alt text, animated from drawn/anim/<page>.svg
+    # when that exists) or a copied picture recorded in content/media/media.yaml (tools/fetch_images.py).
+    # A page with nothing listed or copied shows its drawn diagram.
+    M = os.path.join(ROOT, 'content', 'media')
+    drawn = {}
+    for fn in sorted(os.listdir(os.path.join(M, 'drawn'))):
         if fn.endswith('.svg'):
-            t = re.search(r'<title>(.*?)</title>', open(os.path.join(dd, fn)).read(), re.S)
-            pics[fn[:-4]] = {'file': 'drawn/' + fn, 'alt': re.sub(r'\s+', ' ', t.group(1)).strip() if t else '', 'drawn': True}
-    f = os.path.join(ROOT, 'content', 'media', 'media.yaml')
-    cf = os.path.join(ROOT, 'content', 'media', 'choices.yaml')
-    choices = (yaml.safe_load(open(cf)) or {}) if os.path.exists(cf) else {}
-    for k, v in ((yaml.safe_load(open(f)) or {}) if os.path.exists(f) else {}).items():
-        if (choices.get(k) or {}).get('use') != 'drawn' or k not in pics:
-            pics[k] = dict(v, drawn=False)
+            t = re.search(r'<title>(.*?)</title>', open(os.path.join(M, 'drawn', fn)).read(), re.S)
+            x = {'file': 'drawn/' + fn, 'alt': re.sub(r'\s+', ' ', t.group(1)).strip() if t else '', 'drawn': True}
+            if os.path.exists(os.path.join(M, 'drawn', 'anim', fn)):
+                ta = re.search(r'<title>(.*?)</title>', open(os.path.join(M, 'drawn', 'anim', fn)).read(), re.S)
+                x.update(file='drawn/anim/' + fn, still='drawn/' + fn, kind='animation',
+                         alt=re.sub(r'\s+', ' ', ta.group(1)).strip() if ta else x['alt'])
+            drawn[fn[:-4]] = x
+    copied = (yaml.safe_load(open(os.path.join(M, 'media.yaml'))) or {}) if os.path.exists(os.path.join(M, 'media.yaml')) else {}
+    chosen = (yaml.safe_load(open(os.path.join(M, 'pictures.yaml'))) or {}) if os.path.exists(os.path.join(M, 'pictures.yaml')) else {}
+    pics = {}
+    for p in set(drawn) | set(copied) | set(chosen):
+        by_src = {r['src']: r for r in copied.get(p, [])}
+        lst = []
+        for x in chosen.get(p) or []:
+            if x == 'drawn':
+                if p in drawn:
+                    lst.append(dict(drawn[p]))
+                continue
+            src = (x.get('commons') or '').replace('_', ' ') or 'openverse:' + str(x.get('openverse'))
+            if src in by_src:
+                r = {k: v for k, v in by_src[src].items() if k not in ('src', 'width', 'height', 'animated')}
+                r.update({k: x[k] for k in ('kind', 'alt') if x.get(k)})
+                lst.append(dict(r, drawn=False))
+        if not lst and copied.get(p) and p not in chosen:
+            lst = [dict({k: v for k, v in copied[p][0].items() if k not in ('src', 'width', 'height', 'animated')}, drawn=False)]
+        if not lst and p in drawn:
+            lst = [dict(drawn[p])]
+        pics[p] = lst
     terms = load_glossary()
     write_glossary(terms)
     os.makedirs(OUT, exist_ok=True)

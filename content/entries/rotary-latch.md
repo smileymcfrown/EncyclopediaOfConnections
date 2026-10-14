@@ -129,13 +129,18 @@ image:
   alt: 'Three side views of a rotary latch: open with the striker coming into the claw''s mouth, closing as the striker turns
     the claw while the sprung pawl rides its rim, and latched with the pawl dropped into the claw''s notch.'
   drawn: true
+pictures:
+- file: drawn/rotary-latch.svg
+  alt: 'Three side views of a rotary latch: open with the striker coming into the claw''s mouth, closing as the striker turns
+    the claw while the sprung pawl rides its rim, and latched with the pawl dropped into the claw''s notch.'
+  drawn: true
 glossary: [misalignment, self-locking, over-centre, detent, ratchet, pawl, actuator, solenoid, flexure, torsion, clearance,
   tolerance, form-fit--force-fit--material-bond, holding-force, creep, layer-lines, infill, o-ring]
 ---
 
-![Three side views of a rotary latch: open with the striker coming into the claw's mouth, closing as the striker turns the claw while the sprung pawl rides its rim, and latched with the pawl dropped int](../media/drawn/rotary-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/rotary-latch.svg" alt="Three side views of a rotary latch: open with the striker coming into the claw&#x27;s mouth, closing as the striker turns the claw while the sprung pawl rides its rim, and latched with the pawl dropped into the claw&#x27;s notch."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A latch in which a spring-loaded rotating hook (the claw or rotor) swings shut around a striker bar as the door is pushed closed and is then held by a small catch (the [pawl](../glossary.md#pawl)), so the door stays shut until a handle, button, cable or motor lifts the catch.
 

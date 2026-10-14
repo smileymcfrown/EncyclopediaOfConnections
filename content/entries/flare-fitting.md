@@ -121,21 +121,30 @@ sources:
 research: research/connection-types/results/Flare_fitting_flared_tube_fitting_double_flare.json
 image:
   file: flare-fitting.webp
-  width: 800
-  height: 702
   title: File:Flare Fitting 2.jpg
   author: Mortezarahimi3rd
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
   alt: Photo of a flared copper tube end with its brass flare nut and fitting
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: flare-fitting.webp
+  title: File:Flare Fitting 2.jpg
+  author: Mortezarahimi3rd
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
+  alt: Photo of a flared copper tube end with its brass flare nut and fitting
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, torque, form-fit--force-fit--material-bond, brittle--ductile, cure, o-ring]
 ---
 
-![Photo of a flared copper tube end with its brass flare nut and fitting](../media/flare-fitting.webp)
-
-*Picture: [Flare Fitting 2.jpg](https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg) by Mortezarahimi3rd, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/flare-fitting.webp" alt="Photo of a flared copper tube end with its brass flare nut and fitting"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg">Flare Fitting 2</a> by Mortezarahimi3rd, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flare fitting joins a soft metal tube to a fitting or port by spreading the tube end into a cone and clamping it with a nut against a matching cone, giving a strong, leak-tight metal-to-metal seal that can be undone and remade, as on car brake lines, gas pipes and air-conditioner pipes.
 

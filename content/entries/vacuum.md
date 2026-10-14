@@ -148,13 +148,19 @@ image:
     outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the
     cup and the part drops away.'
   drawn: true
+pictures:
+- file: drawn/vacuum.svg
+  alt: 'Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the
+    outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the
+    cup and the part drops away.'
+  drawn: true
 glossary: [misalignment, self-locking, stroke, solenoid, form-fit--force-fit--material-bond, holding-force, repeatability--accuracy,
   perimeters, infill, peel-vs-shear, regulator, venturi]
 ---
 
-![Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the outside air presses the cup and a flat part together and the part is lifted; on the r](../media/drawn/vacuum.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/vacuum.svg" alt="Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the cup and the part drops away."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A flexible cup connected to a vacuum pump or an air-powered vacuum generator that holds smooth objects by pumping the air out from under it, and lets go when a valve lets air back in.
 

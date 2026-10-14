@@ -141,12 +141,18 @@ image:
     over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces
     like hinges.'
   drawn: true
+pictures:
+- file: drawn/printing-onto-fabric.svg
+  alt: 'Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped
+    over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces
+    like hinges.'
+  drawn: true
 glossary: [living-hinge, form-fit--force-fit--material-bond, captive-nut, print-in-place, peel-vs-shear]
 ---
 
-![Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped over them, printing resumes through the mesh holes, and the finished sheet bends a](../media/drawn/printing-onto-fabric.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/printing-onto-fabric.svg" alt="Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces like hinges."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A thin open mesh fabric is laid over the first few printed layers during a pause, and the rest of the print fuses through its holes, so the fabric is locked inside each printed piece and the bare fabric between pieces works as a flexible hinge.
 

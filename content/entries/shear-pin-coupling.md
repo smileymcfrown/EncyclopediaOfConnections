@@ -125,13 +125,19 @@ image:
     shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft
     spins freely inside the stopped hub until a new pin is fitted.'
   drawn: true
+pictures:
+- file: drawn/shear-pin-coupling.svg
+  alt: 'Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the
+    shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft
+    spins freely inside the stopped hub until a new pin is fitted.'
+  drawn: true
 glossary: [misalignment, backlash, torque, fail-safe--fail-secure, form-fit--force-fit--material-bond, circlip, creep, fatigue,
   brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the shaft surface; normally the pin carries the turning force, but when the gear jams t](../media/drawn/shear-pin-coupling.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/shear-pin-coupling.svg" alt="Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft spins freely inside the stopped hub until a new pin is fitte"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A pin, bolt or thin section sized to break at a set force or [torque](../glossary.md#torque), so it disconnects the drive (or lets a joint go) before anything more valuable is damaged, and is replaced afterwards, like an electrical fuse.
 

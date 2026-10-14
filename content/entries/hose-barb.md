@@ -145,12 +145,18 @@ image:
     behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can''t
     slide off.'
   drawn: true
+pictures:
+- file: drawn/hose-barb.svg
+  alt: 'Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down
+    behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can''t
+    slide off.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, collet, chamfer--fillet, perimeters, infill, o-ring, gland, check-valve]
 ---
 
-![Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just beh](../media/drawn/hose-barb.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/hose-barb.svg" alt="Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can&#x27;t slide off."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.
 

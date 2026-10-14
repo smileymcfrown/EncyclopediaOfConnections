@@ -143,22 +143,31 @@ sources:
 research: research/connection-types/results/Basic_strap_and_garment_closures_prong_buckle_button_toggle_and_loop.json
 image:
   file: basic-strap-and-garment-closures.webp
-  width: 800
-  height: 518
   title: File:Buckle Showing various parts.svg
   author: '20040302'
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg
   alt: Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle')
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: basic-strap-and-garment-closures.webp
+  title: File:Buckle Showing various parts.svg
+  author: '20040302'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg
+  alt: Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle')
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, ratchet, clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, perimeters,
   infill]
 ---
 
-![Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle')](../media/basic-strap-and-garment-closures.webp)
-
-*Picture: [Buckle Showing various parts.svg](https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg) by 20040302, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/basic-strap-and-garment-closures.webp" alt="Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia &#x27;Buckle&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg">Buckle Showing various parts</a> by 20040302, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 The oldest and simplest ways to close a strap or garment by hand: a prong buckle, whose pin goes through a hole in the strap so the strap can be set to one of several lengths; a button, which is wider than the slit or loop it passes through; and a toggle, a short bar on a cord that goes endways through a loop and is then turned crossways.
 

@@ -147,22 +147,31 @@ sources:
 research: research/connection-types/results/Eccentric_cam_lever_cam_clamp_quickrelease_skewer.json
 image:
   file: eccentric-cam-lever.webp
-  width: 800
-  height: 358
   title: File:Quick release scewer.JPG
   author: AndrewDressel at en.wikipedia
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG
   alt: Photo of a bicycle quick-release skewer with its cam lever, rod and nut
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: eccentric-cam-lever.webp
+  title: File:Quick release scewer.JPG
+  author: AndrewDressel at en.wikipedia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG
+  alt: Photo of a bicycle quick-release skewer with its cam lever, rod and nut
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, self-locking, stroke, over-centre, lever-arm, linkage, clearance, form-fit--force-fit--material-bond,
   holding-force, repeatability--accuracy, creep, layer-lines, infill, print-in-place, peel-vs-shear]
 ---
 
-![Photo of a bicycle quick-release skewer with its cam lever, rod and nut](../media/eccentric-cam-lever.webp)
-
-*Picture: [Quick release scewer.JPG](https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG) by AndrewDressel at en.wikipedia, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/eccentric-cam-lever.webp" alt="Photo of a bicycle quick-release skewer with its cam lever, rod and nut"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG">Quick release scewer</a> by AndrewDressel at en.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hand lever whose pivot is set off-centre in a round or spiral cam, so swinging the lever wedges the cam against a surface and squeezes parts together with many times the force of your hand, and the cam's gentle slope (or a small [over-centre](../glossary.md#over-centre) step) keeps it shut until you flip it back.
 

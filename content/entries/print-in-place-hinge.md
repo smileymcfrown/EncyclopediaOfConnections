@@ -148,14 +148,20 @@ image:
     leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge
     turns straight off the printer.'
   drawn: true
+pictures:
+- file: drawn/print-in-place-hinge.svg
+  alt: 'Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one
+    leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge
+    turns straight off the printer.'
+  drawn: true
 glossary: [misalignment, detent, torque, flexure, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, brittle--ductile, layer-lines, perimeters, infill, print-in-place, elephants-foot, overhang--bridging,
   support-material]
 ---
 
-![Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one leaf sit in cone-shaped sockets in the other, and a small gap all round every surface](../media/drawn/print-in-place-hinge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/print-in-place-hinge.svg" alt="Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge turns straight off the printer."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A hinge printed in one go with its pin already inside the knuckles and a small gap all round, so it turns as soon as it comes off the print bed with no assembly or metal pin.
 

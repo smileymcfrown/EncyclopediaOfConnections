@@ -133,21 +133,30 @@ sources:
 research: research/connection-types/results/Ironon_fusible_web_heatactivated_adhesive_web_hem_tape.json
 image:
   file: iron-on-fusible-web.webp
-  width: 800
-  height: 600
   title: File:HemRepairTape.jpg
   author: DavidBoden
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg
   alt: Photo of a roll of iron-on hem repair tape (fusible hemming web)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: iron-on-fusible-web.webp
+  title: File:HemRepairTape.jpg
+  author: DavidBoden
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg
+  alt: Photo of a roll of iron-on hem repair tape (fusible hemming web)
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, warping--shrinkage, cure, peel-vs-shear]
 ---
 
-![Photo of a roll of iron-on hem repair tape (fusible hemming web)](../media/iron-on-fusible-web.webp)
-
-*Picture: [HemRepairTape.jpg](https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg) by DavidBoden, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/iron-on-fusible-web.webp" alt="Photo of a roll of iron-on hem repair tape (fusible hemming web)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg">HemRepairTape</a> by DavidBoden, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A thin, dry web or film of hot-melt glue, sold as sheets, tape or already on the back of interfacing and patches, that is laid between fabrics and pressed with an iron so it melts into both and sets as it cools, giving a no-sew hem, appliqué or patch.
 

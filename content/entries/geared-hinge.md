@@ -111,21 +111,30 @@ sources:
 research: research/connection-types/results/Geared_hinge_continuous_gear_hinge.json
 image:
   file: geared-hinge.webp
-  width: 800
-  height: 982
   title: File:Continuoushinge.jpg
   author: PerryBallard
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg
   alt: An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: geared-hinge.webp
+  title: File:Continuoushinge.jpg
+  author: PerryBallard
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg
+  alt: An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap.
+  site: Wikimedia Commons
   drawn: false
 glossary: [backlash, detent, torque, living-hinge, clearance, tolerance, creep, perimeters, print-in-place, overhang--bridging]
 ---
 
-![An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap.](../media/geared-hinge.webp)
-
-*Picture: [Continuoushinge.jpg](https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg) by PerryBallard, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/geared-hinge.webp" alt="An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg">Continuoushinge</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two hinge leaves with meshing gear teeth along their edges, held together by a cap, so they turn together evenly and share the load along the whole length of the hinge.
 

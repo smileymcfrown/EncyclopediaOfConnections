@@ -132,21 +132,30 @@ sources:
 research: research/connection-types/results/Oring_seal.json
 image:
   file: o-ring-seal.webp
-  width: 708
-  height: 901
   title: File:O-ring static seal usage example.png
   author: Yapparina
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png
   alt: Cross-section drawing of a static O-ring seal between two parts, with the ring (black circles) sitting in its groove
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: o-ring-seal.webp
+  title: File:O-ring static seal usage example.png
+  author: Yapparina
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png
+  alt: Cross-section drawing of a static O-ring seal between two parts, with the ring (black circles) sitting in its groove
+  site: Wikimedia Commons
   drawn: false
 glossary: [axial--radial, tolerance, chamfer--fillet, creep, lubrication, perimeters, infill, o-ring, gland]
 ---
 
-![Cross-section drawing of a static O-ring seal between two parts, with the ring (black circles) sitting in its groove](../media/o-ring-seal.webp)
-
-*Picture: [O-ring static seal usage example.png](https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png) by Yapparina, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/o-ring-seal.webp" alt="Cross-section drawing of a static O-ring seal between two parts, with the ring (black circles) sitting in its groove"><figcaption><a href="https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png">O-ring static seal usage example</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ring of rubber with a round cross-section that sits in a groove and is squashed a set amount when two parts are closed, blocking the gap so liquids and gases can't leak through.
 

@@ -169,8 +169,6 @@ sources:
 research: research/connection-types/results/Airlogic_valve_pneumatic_logic_soft_bistable_valve.json
 image:
   file: air-logic-valve.webp
-  width: 599
-  height: 264
   title: File:Shuttle valve action principle cross section.gif
   author: 鐵路Railway
   license: CC BY-SA 4.0
@@ -178,15 +176,30 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif
   alt: 'Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches
     the outlet (the OR element)'
-  animated: true
+  site: Wikimedia Commons
+  still: air-logic-valve.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: air-logic-valve.webp
+  title: File:Shuttle valve action principle cross section.gif
+  author: 鐵路Railway
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif
+  alt: 'Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches
+    the outlet (the OR element)'
+  site: Wikimedia Commons
+  still: air-logic-valve.still.webp
+  kind: animation
   drawn: false
 glossary: [oscillating, stroke, over-centre, bistable, actuator, solenoid, fail-safe--fail-secure, stiffness, compliant-mechanism,
   hysteresis, perimeters, infill, support-material, check-valve, regulator]
 ---
 
-![Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches the outlet (the OR element)](../media/air-logic-valve.webp)
-
-*Picture: [Shuttle valve action principle cross section.gif](https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif) by 鐵路Railway, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-logic-valve.still.webp"><img src="../media/air-logic-valve.webp" alt="Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches the outlet (the OR element)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif">Shuttle valve action principle cross section</a> by 鐵路Railway, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A valve whose on/off state is set by air pressure in a control tube instead of by a button or an electric coil; combined with other such valves through tubing it performs simple logic (AND, OR, NOT), memory and timing, and a loop of them oscillates to drive the legs of an electronics-free soft robot from one steady air supply.
 

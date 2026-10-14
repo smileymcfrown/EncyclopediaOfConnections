@@ -135,21 +135,30 @@ sources:
 research: research/connection-types/results/Cam_cleat.json
 image:
   file: cam-cleat.webp
-  width: 800
-  height: 458
   title: File:Curry2.jpg
   author: Jörg Steinwiese
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Curry2.jpg
   alt: 'Close-up of a plastic cam cleat: the two cams on their pivots with the gap between them where the rope is gripped'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: cam-cleat.webp
+  title: File:Curry2.jpg
+  author: Jörg Steinwiese
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Curry2.jpg
+  alt: 'Close-up of a plastic cam cleat: the two cams on their pivots with the gap between them where the rope is gripped'
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, pawl, sprag, torsion, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 
-![Close-up of a plastic cam cleat: the two cams on their pivots with the gap between them where the rope is gripped](../media/cam-cleat.webp)
-
-*Picture: [Curry2.jpg](https://commons.wikimedia.org/wiki/File:Curry2.jpg) by Jörg Steinwiese, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cam-cleat.webp" alt="Close-up of a plastic cam cleat: the two cams on their pivots with the gap between them where the rope is gripped"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Curry2.jpg">Curry2</a> by Jörg Steinwiese, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.
 

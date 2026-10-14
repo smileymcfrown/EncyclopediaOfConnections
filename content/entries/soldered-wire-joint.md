@@ -142,21 +142,30 @@ sources:
 research: research/connection-types/results/Soldered_wire_joint_soldered_splice.json
 image:
   file: soldered-wire-joint.webp
-  width: 460
-  height: 818
   title: File:Western Union splice.jpg
   author: John MacLaren Sharp
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg
   alt: Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: soldered-wire-joint.webp
+  title: File:Western Union splice.jpg
+  author: John MacLaren Sharp
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg
+  alt: Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland]
 ---
 
-![Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)](../media/soldered-wire-joint.webp)
-
-*Picture: [Western Union splice.jpg](https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg) by John MacLaren Sharp, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/soldered-wire-joint.webp" alt="Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg">Western Union splice</a> by John MacLaren Sharp, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Stripped wire ends are twisted, hooked or laid side by side, molten solder is flowed into them with a soldering iron so it bonds to the copper, and the finished joint is covered with heat-shrink tubing; it is the basic permanent wire joint that crimps, solder sleeves, lever connectors and wire nuts are compared with.
 

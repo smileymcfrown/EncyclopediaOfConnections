@@ -139,13 +139,19 @@ image:
     the horn shakes up and down about 20,000 times a second. Right: close-ups of the joint, first with a small triangular
     ridge on the lid touching the box wall, then with the ridge melted and flowed into a flat seam that fuses lid and box.'
   drawn: true
+pictures:
+- file: drawn/ultrasonic-weld.svg
+  alt: 'Left: an ultrasonic welder''s converter, booster and horn pressing a plastic lid onto a box held in a fixture while
+    the horn shakes up and down about 20,000 times a second. Right: close-ups of the joint, first with a small triangular
+    ridge on the lid touching the box wall, then with the ridge melted and flowed into a flat seam that fuses lid and box.'
+  drawn: true
 glossary: [axial--radial, cantilever, hysteresis, tolerance, form-fit--force-fit--material-bond, boss, repeatability--accuracy,
   creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, support-material, warping--shrinkage, peel-vs-shear]
 ---
 
-![Left: an ultrasonic welder's converter, booster and horn pressing a plastic lid onto a box held in a fixture while the horn shakes up and down about 20,000 times a second. Right: close-ups of the join](../media/drawn/ultrasonic-weld.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/ultrasonic-weld.svg" alt="Left: an ultrasonic welder&#x27;s converter, booster and horn pressing a plastic lid onto a box held in a fixture while the horn shakes up and down about 20,000 times a second. Right: close-ups of the joint, first with a small triangular ridge on the lid touching the box wall, then with the ridge melted "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Ultrasonic welding presses two thermoplastic parts together under a horn that vibrates at about 15-40 kHz; the rubbing and internal heating melt a small ridge (energy director) or a slight overlap ([shear](../glossary.md#peel-vs-shear) joint) where the parts meet, and in well under a second they fuse into one sealed, permanent piece.
 

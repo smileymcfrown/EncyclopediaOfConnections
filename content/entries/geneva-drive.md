@@ -142,23 +142,35 @@ sources:
 research: research/connection-types/results/Geneva_drive_Maltese_cross.json
 image:
   file: geneva-drive.webp
-  width: 320
-  height: 240
   title: File:Geneva mechanism 6spoke animation.gif
   author: Mike1024
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif
   alt: Animated six-slot external Geneva drive stepping round, with the locking disc visible
-  animated: true
+  site: Wikimedia Commons
+  still: geneva-drive.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: geneva-drive.webp
+  title: File:Geneva mechanism 6spoke animation.gif
+  author: Mike1024
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif
+  alt: Animated six-slot external Geneva drive stepping round, with the locking disc visible
+  site: Wikimedia Commons
+  still: geneva-drive.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, ratchet, pawl, crank, clearance, form-fit--force-fit--material-bond,
   circlip, repeatability--accuracy, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
-![Animated six-slot external Geneva drive stepping round, with the locking disc visible](../media/geneva-drive.webp)
-
-*Picture: [Geneva mechanism 6spoke animation.gif](https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif) by Mike1024, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/geneva-drive.still.webp"><img src="../media/geneva-drive.webp" alt="Animated six-slot external Geneva drive stepping round, with the locking disc visible"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif">Geneva mechanism 6spoke animation</a> by Mike1024, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A continuously turning drive wheel carries a pin that enters a slot in a driven wheel and turns it by a fixed step (360 degrees divided by the number of slots), then a raised locking disc on the drive wheel holds the driven wheel still until the next step.
 

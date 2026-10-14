@@ -173,21 +173,30 @@ sources:
 research: research/connection-types/results/Modular_grid_mounting_systems_pegboard_Gridfinitystyle_grids.json
 image:
   file: modular-grid-mounting-systems.webp
-  width: 800
-  height: 751
   title: File:Gridfinity drawer and bin.jpg
   author: Sandstein
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg
   alt: A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: modular-grid-mounting-systems.webp
+  title: File:Gridfinity drawer and bin.jpg
+  author: Sandstein
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg
+  alt: A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.
+  site: Wikimedia Commons
   drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 
-![A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.](../media/modular-grid-mounting-systems.webp)
-
-*Picture: [Gridfinity drawer and bin.jpg](https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg) by Sandstein, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/modular-grid-mounting-systems.webp" alt="A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg">Gridfinity drawer and bin</a> by Sandstein, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A board or baseplate with a regular grid of identical holes, slots or sockets, so any hook, holder or bin made to the same spacing can be hung, clicked, twisted, screwed or held by magnet in any position and moved again by hand.
 

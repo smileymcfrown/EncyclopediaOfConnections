@@ -152,23 +152,35 @@ sources:
 research: research/connection-types/results/Walking_linkage_Jansen_and_Klann_leg_mechanisms.json
 image:
   file: walking-linkage.webp
-  width: 447
-  height: 391
   title: File:Strandbeest-Walking-Animation.gif
   author: MichaelFrey
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif
   alt: Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path
-  animated: true
+  site: Wikimedia Commons
+  still: walking-linkage.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: walking-linkage.webp
+  title: File:Strandbeest-Walking-Animation.gif
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif
+  alt: Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path
+  site: Wikimedia Commons
+  still: walking-linkage.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, stroke, dead-point, torque, cam-and-follower, crank, linkage, actuator, stiffness, clearance, tolerance,
   form-fit--force-fit--material-bond, repeatability--accuracy, brittle--ductile, print-in-place]
 ---
 
-![Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path](../media/walking-linkage.webp)
-
-*Picture: [Strandbeest-Walking-Animation.gif](https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif) by MichaelFrey, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/walking-linkage.still.webp"><img src="../media/walking-linkage.webp" alt="Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif">Strandbeest-Walking-Animation</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A planar [linkage](../glossary.md#linkage) of bars and pin joints, driven by one continuously turning [crank](../glossary.md#crank), that moves a foot around a closed loop with a long, nearly flat ground [stroke](../glossary.md#stroke) and a lifted return, so that several legs on a shared crankshaft make a machine walk.
 

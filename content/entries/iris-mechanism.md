@@ -133,23 +133,35 @@ sources:
 research: research/connection-types/results/Iris_mechanism.json
 image:
   file: iris-mechanism.webp
-  width: 672
-  height: 607
   title: File:Iris Diaphragm.gif
   author: User:Catsquisher
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif
   alt: Animation of a 9-blade camera-lens iris diaphragm opening and closing
-  animated: true
+  site: Wikimedia Commons
+  still: iris-mechanism.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: iris-mechanism.webp
+  title: File:Iris Diaphragm.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif
+  alt: Animation of a 9-blade camera-lens iris diaphragm opening and closing
+  site: Wikimedia Commons
+  still: iris-mechanism.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, detent, crank, linkage, stiffness, clearance, form-fit--force-fit--material-bond,
   collet, repeatability--accuracy, print-in-place, elephants-foot, warping--shrinkage, peel-vs-shear]
 ---
 
-![Animation of a 9-blade camera-lens iris diaphragm opening and closing](../media/iris-mechanism.webp)
-
-*Picture: [Iris Diaphragm.gif](https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/iris-mechanism.still.webp"><img src="../media/iris-mechanism.webp" alt="Animation of a 9-blade camera-lens iris diaphragm opening and closing"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif">Iris Diaphragm</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Several thin, curved blades are each pivoted on one ring and steered by a pin in a slot (or a small link or gear) on a second ring, so turning one ring swings all the blades inward or outward together and makes a central round opening smaller or larger.
 

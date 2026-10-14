@@ -134,13 +134,19 @@ image:
     screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the
     belt is tight and the clamping screws are locked.'
   drawn: true
+pictures:
+- file: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  alt: 'Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping
+    screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the
+    belt is tight and the clamping screws are locked.'
+  drawn: true
 glossary: [misalignment, self-locking, pitch, idler, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert,
   captive-nut, creep, perimeters, infill]
 ---
 
-![Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots ](../media/drawn/slotted-adjustment-with-a-jacking-screw.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/slotted-adjustment-with-a-jacking-screw.svg" alt="Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the belt is tight and the clamping screws are locked."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A part is fixed with screws through slots instead of round holes, so it can be slid to set a belt or chain tension or line it up, usually pushed by a separate adjusting (jacking) screw, and is then locked by tightening the screws.
 

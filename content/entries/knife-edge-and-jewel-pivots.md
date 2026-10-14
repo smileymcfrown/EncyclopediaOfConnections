@@ -125,13 +125,19 @@ image:
     in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft with a cone point turns in a slightly
     blunter cone-shaped jewel cup, touching at one tiny point.'
   drawn: true
+pictures:
+- file: drawn/knife-edge-and-jewel-pivots.svg
+  alt: 'Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks
+    in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft with a cone point turns in a slightly
+    blunter cone-shaped jewel cup, touching at one tiny point.'
+  drawn: true
 glossary: [misalignment, oscillating, detent, flexure, torsion, form-fit--force-fit--material-bond, kinematic-coupling, repeatability--accuracy,
   creep, brittle--ductile, lubrication, print-in-place]
 ---
 
-![Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft ](../media/drawn/knife-edge-and-jewel-pivots.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/knife-edge-and-jewel-pivots.svg" alt="Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft with a cone point turns in a slightly blunter cone-shaped jewel cup, touching at one tiny point."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A pivot in which a hardened sharp edge or a fine pointed pin rests on a very hard, smooth seat (agate, steel, sapphire, ruby or glass), touching only along a line or at a point, so a beam, needle or pointer can rock or turn under tiny forces with very low and very consistent friction.
 

@@ -123,21 +123,30 @@ sources:
 research: research/connection-types/results/Hookandloop_fastener.json
 image:
   file: hook-and-loop-fastener.webp
-  width: 800
-  height: 533
   title: File:Velcro Hooks.jpg
   author: Alexander Klink
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg
   alt: Close-up photo of the hook side, showing the tiny J-shaped hooks
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: hook-and-loop-fastener.webp
+  title: File:Velcro Hooks.jpg
+  author: Alexander Klink
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg
+  alt: Close-up photo of the hook side, showing the tiny J-shaped hooks
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, fail-safe--fail-secure, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 
-![Close-up photo of the hook side, showing the tiny J-shaped hooks](../media/hook-and-loop-fastener.webp)
-
-*Picture: [Velcro Hooks.jpg](https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg) by Alexander Klink, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hook-and-loop-fastener.webp" alt="Close-up photo of the hook side, showing the tiny J-shaped hooks"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg">Velcro Hooks</a> by Alexander Klink, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pair of strips, one with thousands of tiny springy hooks and one with a pile of soft loops, that cling together wherever they are pressed and can be peeled apart and closed again thousands of times.
 

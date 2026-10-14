@@ -142,23 +142,35 @@ sources:
 research: research/connection-types/results/Peristaltic_pump_tube_pump_roller_pump.json
 image:
   file: peristaltic-pump.webp
-  width: 300
-  height: 211
   title: File:Peristaltic pump.gif
   author: Njmcca
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif
   alt: Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia's 'Peristaltic pump' page)
-  animated: true
+  site: Wikimedia Commons
+  still: peristaltic-pump.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: peristaltic-pump.webp
+  title: File:Peristaltic pump.gif
+  author: Njmcca
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif
+  alt: Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia's 'Peristaltic pump' page)
+  site: Wikimedia Commons
+  still: peristaltic-pump.still.webp
+  kind: animation
   drawn: false
 glossary: [self-locking, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond, creep, fatigue, infill,
   print-in-place, overhang--bridging, check-valve]
 ---
 
-![Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia's 'Peristaltic pump' page)](../media/peristaltic-pump.webp)
-
-*Picture: [Peristaltic pump.gif](https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif) by Njmcca, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/peristaltic-pump.still.webp"><img src="../media/peristaltic-pump.webp" alt="Animation of a roller rotor squeezing a tube and pushing liquid along it (used on Wikipedia&#x27;s &#x27;Peristaltic pump&#x27; page)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Peristaltic_pump.gif">Peristaltic pump</a> by Njmcca, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A rotor carrying two or more rollers squeezes a flexible tube against a curved track as it turns, so each squeezed point pushes a trapped pocket of liquid along the tube, giving a valve-free, self-priming pump in which only the tube touches the liquid and the amount pumped is set by how far the rotor turns (Wikipedia 'Peristaltic pump').
 

@@ -125,17 +125,29 @@ sources:
 - https://www.youtube.com/watch?v=65KoSqo3F_0
 research: research/connection-types/results/Constantforce_spring_springreturn_reel.json
 image:
-  file: drawn/constant-force-spring.svg
-  alt: A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each
-    time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives a rising
-    one.
+  file: drawn/anim/constant-force-spring.svg
+  alt: 'A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow
+    each time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives
+    a rising one. Animated: each strip is let in and pulled out again while its drum turns and the pull arrow stays the same
+    length, and dots on the graph show the force staying level while a coil spring''s would rise.'
   drawn: true
+  still: drawn/constant-force-spring.svg
+  kind: animation
+pictures:
+- file: drawn/anim/constant-force-spring.svg
+  alt: 'A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow
+    each time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives
+    a rising one. Animated: each strip is let in and pulled out again while its drum turns and the pull arrow stays the same
+    length, and dots on the graph show the force staying level while a coil spring''s would rise.'
+  drawn: true
+  still: drawn/constant-force-spring.svg
+  kind: animation
 glossary: [stroke, torque, idler, linkage, deflection, damping, clearance, tolerance, creep, stress-relaxation, fatigue]
 ---
 
-![A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each time, beside a graph where the constant-force spring gives a flat force line whil](../media/drawn/constant-force-spring.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/constant-force-spring.svg"><img src="../media/drawn/anim/constant-force-spring.svg" alt="A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives a rising one. Animated: each strip is let in and pulled out again wh"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A coil of pre-curled steel strip that, once pulled out a short way, pulls back with an almost constant force over a very long distance, used to counterbalance, retract and keep things under steady tension.
 

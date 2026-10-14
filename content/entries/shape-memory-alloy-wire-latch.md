@@ -104,17 +104,31 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shapememoryalloy_wire_latch_nitinol_muscle_wire.json
 image:
-  file: drawn/shape-memory-alloy-wire-latch.svg
+  file: drawn/anim/shape-memory-alloy-wire-latch.svg
   alt: 'Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the
     thin nickel-titanium wire is cold with the switch open; on the right the switch is closed, the current warms the wire
-    so it shortens by about 4 percent, pulling the catch out of the notch so the lid pops up.'
+    so it shortens by about 4 percent, pulling the catch out of the notch so the lid pops up. Animated: the right-hand view
+    loops: the switch closes, the wire warms and pulls the catch clear, the lid pops up, is pushed shut again, the switch
+    opens and the spring pushes the catch back into the notch as the wire cools.'
   drawn: true
+  still: drawn/shape-memory-alloy-wire-latch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/shape-memory-alloy-wire-latch.svg
+  alt: 'Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the
+    thin nickel-titanium wire is cold with the switch open; on the right the switch is closed, the current warms the wire
+    so it shortens by about 4 percent, pulling the catch out of the notch so the lid pops up. Animated: the right-hand view
+    loops: the switch closes, the wire warms and pulls the catch clear, the lid pops up, is pushed shut again, the switch
+    opens and the spring pushes the catch back into the notch as the wire cools.'
+  drawn: true
+  still: drawn/shape-memory-alloy-wire-latch.svg
+  kind: animation
 glossary: [self-locking, stroke, detent, pawl, actuator, solenoid, flexure, form-fit--force-fit--material-bond, fatigue]
 ---
 
-![Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the thin nickel-titanium wire is cold with the switch open; on the right the switch is ](../media/drawn/shape-memory-alloy-wire-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/shape-memory-alloy-wire-latch.svg"><img src="../media/drawn/anim/shape-memory-alloy-wire-latch.svg" alt="Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the thin nickel-titanium wire is cold with the switch open; on the right the switch is closed, the current warms the wire so it shortens by about 4 percent, pulling the catch out of the n"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spring holds a small catch shut, and a thin nickel-titanium wire hooked to the catch shortens by a few percent when an electric current heats it, pulling the catch free so the lid, door or pin is released without a sound.
 

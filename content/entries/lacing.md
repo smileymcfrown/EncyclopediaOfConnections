@@ -130,22 +130,30 @@ sources:
 research: research/connection-types/results/Lacing_cord_through_rows_of_holes_or_eyelets.json
 image:
   file: lacing.webp
-  width: 500
-  height: 525
   title: File:Lamellar lacing.gif
   author: unknown
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif
   alt: Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels
-  animated: false
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: lacing.webp
+  title: File:Lamellar lacing.gif
+  author: unknown
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif
+  alt: Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, perimeters, infill]
 ---
 
-![Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels](../media/lacing.webp)
-
-*Picture: [Lamellar lacing.gif](https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif) by unknown, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lacing.webp" alt="Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif">Lamellar lacing</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A lace is threaded back and forth through matching holes, eyelets or hooks on two edges and pulled tight, so many short crossings share the pull and draw the edges together; a knot, bow or lace lock holds it, and it can be loosened and re-tightened at any time.
 

@@ -135,13 +135,19 @@ image:
     steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows
     down once every turn.'
   drawn: true
+pictures:
+- file: drawn/non-circular-gears.svg
+  alt: 'Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns
+    steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows
+    down once every turn.'
+  drawn: true
 glossary: [backlash, axial--radial, stroke, torque, pitch, cam-and-follower, linkage, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, undercut, repeatability--accuracy, elephants-foot, overhang--bridging]
 ---
 
-![Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns steadily, and because the reach from each pivot to the touching point keeps changin](../media/drawn/non-circular-gears.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/non-circular-gears.svg" alt="Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows down once every turn."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes), designed to roll on each other without slipping so that a steady input turn becomes an output that repeatedly speeds up and slows down.
 

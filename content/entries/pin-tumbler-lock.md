@@ -150,22 +150,31 @@ sources:
 research: research/connection-types/results/Pintumbler_lock_and_other_tumbler_locks.json
 image:
   file: pin-tumbler-lock.webp
-  width: 800
-  height: 667
   title: File:Pin tumbler no key.svg
   author: 'Original: GWirken Vector: Pbroks13'
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg
   alt: 'Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: pin-tumbler-lock.webp
+  title: File:Pin tumbler no key.svg
+  author: 'Original: GWirken Vector: Pbroks13'
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg
+  alt: 'Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug'
+  site: Wikimedia Commons
   drawn: false
 glossary: [axial--radial, ratchet, pawl, torque, solenoid, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   keying, lubrication, layer-lines, infill, elephants-foot, peel-vs-shear]
 ---
 
-![Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug](../media/pin-tumbler-lock.webp)
-
-*Picture: [Pin tumbler no key.svg](https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg) by Original: GWirken Vector: Pbroks13, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pin-tumbler-lock.webp" alt="Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg">Pin tumbler no key</a> by Original: GWirken Vector: Pbroks13, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A tumbler lock uses several small movable blockers (pins, wafers, levers or discs) that each have to be moved to one exact position by the matching key before the lock's core can turn or its bolt can slide.
 

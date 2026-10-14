@@ -122,22 +122,31 @@ sources:
 research: research/connection-types/results/Press_stud_snap_fastener_popper.json
 image:
   file: press-stud.webp
-  width: 800
-  height: 552
   title: File:Rivet snap parts.jpg
   author: Nate Wessel
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
   alt: 'Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: press-stud.webp
+  title: File:Rivet snap parts.jpg
+  author: Nate Wessel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
+  alt: 'Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, detent, fail-safe--fail-secure, cantilever, form-fit--force-fit--material-bond, brittle--ductile,
   infill, peel-vs-shear]
 ---
 
-![Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud](../media/press-stud.webp)
-
-*Picture: [Rivet snap parts.jpg](https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg) by Nate Wessel, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/press-stud.webp" alt="Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg">Rivet snap parts</a> by Nate Wessel, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A two-part fastener in which a stud with a small knob is pressed into a socket that has a springy ring or wire inside, which grips a groove on the stud and holds the two halves together until they are pulled apart by hand.
 

@@ -160,22 +160,31 @@ sources:
 research: research/connection-types/results/Levelling_foot_adjustable_foot_swivel_levelling_pad.json
 image:
   file: levelling-foot.webp
-  width: 580
-  height: 500
   title: File:W7-X gyrotron, adjustable foot.jpg
   author: user:Bernd vdB
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg
   alt: Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: levelling-foot.webp
+  title: File:W7-X gyrotron, adjustable foot.jpg
+  author: user:Bernd vdB
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg
+  alt: Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, ratchet, pitch, clearance, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, infill,
   o-ring]
 ---
 
-![Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine](../media/levelling-foot.webp)
-
-*Picture: [W7-X gyrotron, adjustable foot.jpg](https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg) by user:Bernd vdB, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/levelling-foot.webp" alt="Photo of an &#x27;adjustable machine leg&#x27; (the file&#x27;s description) under a large laboratory machine"><figcaption><a href="https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg">W7-X gyrotron, adjustable foot</a> by user:Bernd vdB, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded stud with a foot pad that screws into the bottom of a leg, cabinet or machine; turning it in or out raises or lowers that corner so the piece stands steady and level, and the ball joint under many pads lets the pad lie flat on a sloping or uneven floor.
 

@@ -133,12 +133,18 @@ image:
     and a sixth strut being pushed in. Right: a small dome built from straight struts in triangles, with a hub joining the
     strut ends at every corner.'
   drawn: true
+pictures:
+- file: drawn/strut-hub.svg
+  alt: 'Left: close-up of a strut hub, a round connector with six angled sockets, with wooden struts pushed into five of them
+    and a sixth strut being pushed in. Right: a small dome built from straight struts in triangles, with a hub joining the
+    strut ends at every corner.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, set-screw, threadlocker, repeatability--accuracy, creep, infill, regulator]
 ---
 
-![Left: close-up of a strut hub, a round connector with six angled sockets, with wooden struts pushed into five of them and a sixth strut being pushed in. Right: a small dome built from straight struts ](../media/drawn/strut-hub.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/strut-hub.svg" alt="Left: close-up of a strut hub, a round connector with six angled sockets, with wooden struts pushed into five of them and a sixth strut being pushed in. Right: a small dome built from straight struts in triangles, with a hub joining the strut ends at every corner."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A single connector that holds the ends of three to six (or more) straight struts at fixed angles where they meet, so a pile of sticks, tubes or planks can be built into a rigid dome, frame or truss.
 

@@ -129,8 +129,6 @@ sources:
 research: research/connection-types/results/Springgate_hook_carabiner_snap_hook_lobster_clasp.json
 image:
   file: spring-gate-hook.webp
-  width: 800
-  height: 832
   title: File:Assorted Biners.jpg
   author: Zakabog
   license: CC BY-SA 3.0
@@ -138,14 +136,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg
   alt: 'Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength
     rating marking in the centre'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: spring-gate-hook.webp
+  title: File:Assorted Biners.jpg
+  author: Zakabog
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg
+  alt: 'Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength
+    rating marking in the centre'
+  site: Wikimedia Commons
   drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, fatigue, brittle--ductile, layer-lines, perimeters,
   infill, print-in-place]
 ---
 
-![Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength rating marking in the centre](../media/spring-gate-hook.webp)
-
-*Picture: [Assorted Biners.jpg](https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg) by Zakabog, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-gate-hook.webp" alt="Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength rating marking in the centre"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg">Assorted Biners</a> by Zakabog, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A closed loop or hook with a spring-loaded gate that swings or slides open to let a rope, ring or strap in and then springs shut to trap it, joining the two in a second without tools; a screw or twist collar can lock the gate.
 

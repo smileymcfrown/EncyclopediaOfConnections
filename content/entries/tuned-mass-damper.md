@@ -118,8 +118,6 @@ sources:
 research: research/connection-types/results/Tuned_mass_damper_vibration_absorber.json
 image:
   file: tuned-mass-damper.webp
-  width: 505
-  height: 425
   title: File:Tuned mass damper.gif
   author: Anarchemitis at English Wikipedia
   license: Public domain
@@ -127,14 +125,29 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif
   alt: Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders
     that damp the motion
-  animated: true
+  site: Wikimedia Commons
+  still: tuned-mass-damper.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: tuned-mass-damper.webp
+  title: File:Tuned mass damper.gif
+  author: Anarchemitis at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif
+  alt: Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders
+    that damp the motion
+  site: Wikimedia Commons
+  still: tuned-mass-damper.still.webp
+  kind: animation
   drawn: false
 glossary: [stiffness, cantilever, deflection, damping, repeatability--accuracy, creep, fatigue, peel-vs-shear]
 ---
 
-![Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders that damp the motion](../media/tuned-mass-damper.webp)
-
-*Picture: [Tuned mass damper.gif](https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif) by Anarchemitis at English Wikipedia, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/tuned-mass-damper.still.webp"><img src="../media/tuned-mass-damper.webp" alt="Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders that damp the motion"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif">Tuned mass damper</a> by Anarchemitis at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An extra weight on a spring, fixed to a part or structure that keeps shaking at one particular rate, tuned so that it swings the opposite way to the shaking and soaks up its energy, making the structure move much less while weighing much less than it.
 

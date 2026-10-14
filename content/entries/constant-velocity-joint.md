@@ -154,23 +154,35 @@ sources:
 research: research/connection-types/results/Constantvelocity_joint_CV_joint.json
 image:
   file: constant-velocity-joint.webp
-  width: 320
-  height: 240
   title: File:Simple CV Joint animated.gif
   author: User:Pwld
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
   alt: Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article
-  animated: true
+  site: Wikimedia Commons
+  still: constant-velocity-joint.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: constant-velocity-joint.webp
+  title: File:Simple CV Joint animated.gif
+  author: User:Pwld
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
+  alt: Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article
+  site: Wikimedia Commons
+  still: constant-velocity-joint.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, torque, preload, clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip,
   layer-lines, infill, print-in-place]
 ---
 
-![Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article](../media/constant-velocity-joint.webp)
-
-*Picture: [Simple CV Joint animated.gif](https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif) by User:Pwld, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/constant-velocity-joint.still.webp"><img src="../media/constant-velocity-joint.webp" alt="Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia&#x27;s &#x27;Constant-velocity joint&#x27; article"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif">Simple CV Joint animated</a> by User:Pwld, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A joint between two spinning shafts that lets them meet at an angle, even a changing one, while the output shaft turns at exactly the same speed as the input at every moment of each turn.
 

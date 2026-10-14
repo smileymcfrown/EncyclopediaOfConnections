@@ -127,21 +127,30 @@ sources:
 research: research/connection-types/results/Spring_bar_springloaded_telescoping_pin.json
 image:
   file: spring-bar.webp
-  width: 341
-  height: 88
   title: File:Federsteg.jpg
   author: Wela49
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Federsteg.jpg
   alt: A simple drawing of a spring bar 'for fastening a strap to a wristwatch', showing the tube and its two tips
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: spring-bar.webp
+  title: File:Federsteg.jpg
+  author: Wela49
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Federsteg.jpg
+  alt: A simple drawing of a spring bar 'for fastening a strap to a wristwatch', showing the tube and its two tips
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, detent, clearance, form-fit--force-fit--material-bond, fatigue, infill, peel-vs-shear]
 ---
 
-![A simple drawing of a spring bar 'for fastening a strap to a wristwatch', showing the tube and its two tips](../media/spring-bar.webp)
-
-*Picture: [Federsteg.jpg](https://commons.wikimedia.org/wiki/File:Federsteg.jpg) by Wela49, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-bar.webp" alt="A simple drawing of a spring bar &#x27;for fastening a strap to a wristwatch&#x27;, showing the tube and its two tips"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Federsteg.jpg">Federsteg</a> by Wela49, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A small spring-loaded rod whose two ends push outwards into holes in a pair of lugs, so a strap's loop hangs on it and can be taken off again by pushing one end in, with a small forked tool or, on quick-release versions, a built-in lever.
 

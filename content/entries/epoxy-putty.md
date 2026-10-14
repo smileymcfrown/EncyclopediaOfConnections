@@ -119,8 +119,6 @@ sources:
 research: research/connection-types/results/Epoxy_putty_kneadable_twopart_putty.json
 image:
   file: epoxy-putty.webp
-  width: 800
-  height: 623
   title: File:Epoxy putty.jpg
   author: Salil Kumar Mukherjee
   license: CC BY-SA 4.0
@@ -128,13 +126,25 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
   alt: 'Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal
     amounts'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: epoxy-putty.webp
+  title: File:Epoxy putty.jpg
+  author: Salil Kumar Mukherjee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
+  alt: 'Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal
+    amounts'
+  site: Wikimedia Commons
   drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
 
-![Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal amounts](../media/epoxy-putty.webp)
-
-*Picture: [Epoxy putty.jpg](https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg) by Salil Kumar Mukherjee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/epoxy-putty.webp" alt="Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal amounts"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg">Epoxy putty</a> by Salil Kumar Mukherjee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Epoxy putty is a two-part dough of epoxy resin and hardener that you knead together by hand and press into place, where it sets into a hard, shrink-free, glued-on solid for filling gaps, plugging leaks, repairing and building up shapes that can then be sanded, drilled and tapped.
 

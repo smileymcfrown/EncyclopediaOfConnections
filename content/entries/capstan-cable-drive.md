@@ -114,13 +114,19 @@ image:
     times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the
     wraps from the side and a graph of grip rising steeply with each extra wrap.
   drawn: true
+pictures:
+- file: drawn/capstan-cable-drive.svg
+  alt: A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several
+    times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the
+    wraps from the side and a graph of grip rising steeply with each extra wrap.
+  drawn: true
 glossary: [misalignment, backlash, back-driving, self-locking, torque, pitch, actuator, stiffness, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, fatigue, layer-lines, infill]
 ---
 
-![A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several times round the small drum, so eight fast turns of the small drum give one slow](../media/drawn/capstan-cable-drive.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/capstan-cable-drive.svg" alt="A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the wraps from the side and a graph of grip rising steeply wit"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A cable wrapped several turns around a small input drum and anchored at both ends to a larger output drum turns the large drum at a reduced speed with more turning force, with zero [backlash](../glossary.md#backlash), very low friction and easy [back-driving](../glossary.md#back-driving), but only through a limited angle.
 

@@ -130,23 +130,32 @@ sources:
 research: research/connection-types/results/Dog_clutch_claw_clutch.json
 image:
   file: dog-clutch.webp
-  width: 800
-  height: 992
   title: File:Dog Clutch.jpg
   author: Ael150
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
   alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: dog-clutch.webp
+  title: File:Dog Clutch.jpg
+  author: Ael150
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
+  alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sprag, torque, crank, linkage, actuator, deflection,
   clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip, chamfer--fillet, undercut, layer-lines, elephants-foot,
   peel-vs-shear]
 ---
 
-![Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.](../media/dog-clutch.webp)
-
-*Picture: [Dog Clutch.jpg](https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg) by Ael150, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/dog-clutch.webp" alt="Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg">Dog Clutch</a> by Ael150, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clutch that connects and disconnects a drive by sliding a toothed ring into or out of mesh with matching teeth or slots, giving a solid, no-slip connection when engaged.
 

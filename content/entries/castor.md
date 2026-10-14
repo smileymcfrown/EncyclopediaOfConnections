@@ -134,21 +134,30 @@ sources:
 research: research/connection-types/results/Castor_swivel_castor_fixed_castor_locking_castor.json
 image:
   file: castor.webp
-  width: 800
-  height: 1058
   title: File:Swivel caster.jpg
   author: Lambtron
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
   alt: A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: castor.webp
+  title: File:Swivel caster.jpg
+  author: Lambtron
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
+  alt: A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.
+  site: Wikimedia Commons
   drawn: false
 glossary: [fail-safe--fail-secure, clearance, creep, perimeters, infill]
 ---
 
-![A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.](../media/castor.webp)
-
-*Picture: [Swivel caster.jpg](https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg) by Lambtron, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/castor.webp" alt="A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg">Swivel caster</a> by Lambtron, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An unpowered wheel in a fixed or swivelling bracket fixed under an object so it can be rolled; a swivel castor's wheel trails behind its pivot so it lines itself up with the direction of travel, and braked versions lock the wheel, the swivel or both.
 

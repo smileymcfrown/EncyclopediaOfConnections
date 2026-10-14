@@ -140,23 +140,35 @@ sources:
 research: research/connection-types/results/Chain_and_sprocket_drive.json
 image:
   file: chain-and-sprocket-drive.webp
-  width: 128
-  height: 124
   title: File:Chain.gif
   author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Chain.gif
   alt: Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet
-  animated: true
+  site: Wikimedia Commons
+  still: chain-and-sprocket-drive.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: chain-and-sprocket-drive.webp
+  title: File:Chain.gif
+  author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Chain.gif
+  alt: Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet
+  site: Wikimedia Commons
+  still: chain-and-sprocket-drive.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, self-locking, torque, pitch, idler, actuator, clearance, form-fit--force-fit--material-bond,
   set-screw, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill, o-ring]
 ---
 
-![Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet](../media/chain-and-sprocket-drive.webp)
-
-*Picture: [Chain.gif](https://commons.wikimedia.org/wiki/File:Chain.gif) by Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/chain-and-sprocket-drive.still.webp"><img src="../media/chain-and-sprocket-drive.webp" alt="Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Chain.gif">Chain</a> by Occupational Safety &amp; Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A steel (or plastic) roller chain runs round toothed wheels called sprockets on two parallel shafts, passing strong rotation between them without slipping and changing speed according to the tooth counts.
 

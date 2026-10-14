@@ -128,24 +128,36 @@ sources:
 research: research/connection-types/results/Oldham_coupling.json
 image:
   file: oldham-coupling.webp
-  width: 160
-  height: 120
   title: File:Oldham coupler animated small.gif
   author: Van helsing
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif
   alt: Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots
-  animated: true
+  site: Wikimedia Commons
+  still: oldham-coupling.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: oldham-coupling.webp
+  title: File:Oldham coupler animated small.gif
+  author: Van helsing
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif
+  alt: Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots
+  site: Wikimedia Commons
+  still: oldham-coupling.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, crank, fail-safe--fail-secure, stiffness, damping,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, spline, repeatability--accuracy, creep, infill, elephants-foot,
   peel-vs-shear]
 ---
 
-![Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots](../media/oldham-coupling.webp)
-
-*Picture: [Oldham coupler animated small.gif](https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif) by Van helsing, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/oldham-coupling.still.webp"><img src="../media/oldham-coupling.webp" alt="Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif">Oldham coupler animated small</a> by Van helsing, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two hubs, each with a slot (or tongue) across its face, are joined by a floating middle disc whose two tongues cross at right angles, so the disc slides to take up any sideways offset between two parallel shafts while passing turning force at exactly the same speed.
 

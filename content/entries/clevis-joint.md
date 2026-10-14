@@ -144,22 +144,31 @@ sources:
 research: research/connection-types/results/Clevis_joint_forkandpin_joint_prong_mount.json
 image:
   file: clevis-joint.webp
-  width: 800
-  height: 949
   title: File:Clevis.svg
   author: No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims).
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Clevis.svg
   alt: Drawing of a clevis pin through a U-shaped clevis (shackle), held in by a split pin
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: clevis-joint.webp
+  title: File:Clevis.svg
+  author: No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Clevis.svg
+  alt: Drawing of a clevis pin through a U-shaped clevis (shackle), held in by a split pin
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, detent, linkage, actuator, flexure, cantilever, clearance, form-fit--force-fit--material-bond, circlip,
   captive-nut, layer-lines, peel-vs-shear]
 ---
 
-![Drawing of a clevis pin through a U-shaped clevis (shackle), held in by a split pin](../media/clevis-joint.webp)
-
-*Picture: [Clevis.svg](https://commons.wikimedia.org/wiki/File:Clevis.svg) by No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims)., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/clevis-joint.webp" alt="Drawing of a clevis pin through a U-shaped clevis (shackle), held in by a split pin"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Clevis.svg">Clevis</a> by No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A U-shaped fork on one part and a flat tongue on the other are joined by a pin through both, making a simple, strong pivot that carries push and pull through the pin; on action-camera mounts, interleaved prongs are clamped by a thumbscrew so friction holds whatever angle you set.
 

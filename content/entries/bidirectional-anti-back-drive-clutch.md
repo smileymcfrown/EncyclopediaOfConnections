@@ -112,13 +112,19 @@ image:
     in the wedge-shaped gaps; turning the output from the load side jams the rollers, while turning the input lets its pins
     push the rollers free and then drive the output.'
   drawn: true
+pictures:
+- file: drawn/bidirectional-anti-back-drive-clutch.svg
+  alt: 'Cross-section of a two-way locking clutch: a square output hub sits inside a fixed ring with spring-loaded rollers
+    in the wedge-shaped gaps; turning the output from the load side jams the rollers, while turning the input lets its pins
+    push the rollers free and then drive the output.'
+  drawn: true
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, sprag, torque, crank, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
   circlip, creep, perimeters, regulator]
 ---
 
-![Cross-section of a two-way locking clutch: a square output hub sits inside a fixed ring with spring-loaded rollers in the wedge-shaped gaps; turning the output from the load side jams the rollers, whi](../media/drawn/bidirectional-anti-back-drive-clutch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/bidirectional-anti-back-drive-clutch.svg" alt="Cross-section of a two-way locking clutch: a square output hub sits inside a fixed ring with spring-loaded rollers in the wedge-shaped gaps; turning the output from the load side jams the rollers, while turning the input lets its pins push the rollers free and then drive the output."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A 1:1 shaft coupling with wedging rollers (or a coil spring) that passes turning from the input to the output in both directions, but jams the output against a fixed housing whenever the output itself tries to turn, so a load cannot drive the motor or handle backwards.
 

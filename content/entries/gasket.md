@@ -136,22 +136,31 @@ sources:
 research: research/connection-types/results/Gasket_flat_cordingroove_or_castinplace.json
 image:
   file: gasket.webp
-  width: 800
-  height: 563
   title: File:Gasket.svg
   author: Mysid
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gasket.svg
   alt: Diagram of a gasket (orange) used as a face seal between two pipe flanges
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: gasket.webp
+  title: File:Gasket.svg
+  author: Mysid
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Gasket.svg
+  alt: Diagram of a gasket (orange) used as a face seal between two pipe flanges
+  site: Wikimedia Commons
   drawn: false
 glossary: [over-centre, deflection, form-fit--force-fit--material-bond, spline, creep, stress-relaxation, perimeters, cure,
   o-ring, gland]
 ---
 
-![Diagram of a gasket (orange) used as a face seal between two pipe flanges](../media/gasket.webp)
-
-*Picture: [Gasket.svg](https://commons.wikimedia.org/wiki/File:Gasket.svg) by Mysid, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/gasket.webp" alt="Diagram of a gasket (orange) used as a face seal between two pipe flanges"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gasket.svg">Gasket</a> by Mysid, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A soft layer, cord or bead squeezed between two mating surfaces that fills their bumps and gaps so liquid and dust can't leak through the joint, even when the opening isn't round.
 

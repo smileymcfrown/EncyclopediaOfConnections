@@ -125,8 +125,6 @@ sources:
 research: research/connection-types/results/Scroll_mechanism_selfcentring_scroll_chuck_spiralslot_plate.json
 image:
   file: scroll-mechanism.webp
-  width: 800
-  height: 601
   title: File:ThreeJawChuckKey.jpg
   author: Glenn McKechnie
   license: CC BY-SA 3.0
@@ -134,15 +132,27 @@ image:
   source: https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg
   alt: Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll
     plate, and the chuck key
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: scroll-mechanism.webp
+  title: File:ThreeJawChuckKey.jpg
+  author: Glenn McKechnie
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg
+  alt: Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll
+    plate, and the chuck key
+  site: Wikimedia Commons
   drawn: false
 glossary: [degrees-of-freedom, backlash, self-locking, axial--radial, torque, pitch, clearance, form-fit--force-fit--material-bond,
   taper, collet, circlip, chamfer--fillet, repeatability--accuracy, creep, lubrication, print-in-place, overhang--bridging,
   support-material]
 ---
 
-![Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll plate, and the chuck key](../media/scroll-mechanism.webp)
-
-*Picture: [ThreeJawChuckKey.jpg](https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg) by Glenn McKechnie, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/scroll-mechanism.webp" alt="Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll plate, and the chuck key"><figcaption><a href="https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg">ThreeJawChuckKey</a> by Glenn McKechnie, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A plate with a spiral groove (or spiral slots) that, when turned, moves three or more jaws in or out by exactly the same amount, so they clamp a round or hexagonal part and centre it in one movement.
 

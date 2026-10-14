@@ -117,21 +117,30 @@ sources:
 research: research/connection-types/results/Temporary_sheet_fastener_Clecotype_spring_pin.json
 image:
   file: temporary-sheet-fastener.webp
-  width: 800
-  height: 852
   title: File:Cleco fastener extended.jpg
   author: Thermofan
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
   alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: temporary-sheet-fastener.webp
+  title: File:Cleco fastener extended.jpg
+  author: Thermofan
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
+  alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, pilot-hole, creep, peel-vs-shear]
 ---
 
-![A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding](../media/temporary-sheet-fastener.webp)
-
-*Picture: [Cleco fastener extended.jpg](https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg) by Thermofan, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/temporary-sheet-fastener.webp" alt="A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg">Cleco fastener extended</a> by Thermofan, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A reusable spring-loaded pin, fitted from one side with special pliers, that grips behind two or more drilled sheets and clamps them together with their holes lined up while they are drilled, fitted or riveted, then comes straight out again.
 

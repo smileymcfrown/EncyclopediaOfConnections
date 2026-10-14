@@ -151,21 +151,30 @@ sources:
 research: research/connection-types/results/Stopper_knots_and_cordend_anchors.json
 image:
   file: stopper-knots-and-cord-end-anchors.webp
-  width: 800
-  height: 400
   title: File:Figure-eight knot.svg
   author: Lucasbosch
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg
   alt: Clear drawing of a figure-eight stopper knot
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: stopper-knots-and-cord-end-anchors.webp
+  title: File:Figure-eight knot.svg
+  author: Lucasbosch
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg
+  alt: Clear drawing of a figure-eight stopper knot
+  site: Wikimedia Commons
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, gland]
 ---
 
-![Clear drawing of a figure-eight stopper knot](../media/stopper-knots-and-cord-end-anchors.webp)
-
-*Picture: [Figure-eight knot.svg](https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg) by Lucasbosch, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/stopper-knots-and-cord-end-anchors.webp" alt="Clear drawing of a figure-eight stopper knot"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg">Figure-eight knot</a> by Lucasbosch, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A knot, bead or crimped sleeve that is too big to fit through a hole, or a clamp or a few turns round a post that grips the cord, holds the end of a cord, string, elastic or thin cable in a part so it can be pulled without coming out.
 

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the follower and its carriage run out and back. The animation turns the shaft so both grooves travel along it in opposite directions; the follower rides one groove out to the end, swivels round the U-turn into the other groove and rides it back.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="130" y="70" width="500" height="18" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g stroke="#222" stroke-width="2"><line x1="140" y1="88" x2="154" y2="70"/><line x1="160" y1="88" x2="174" y2="70"/><line x1="180" y1="88" x2="194" y2="70"/><line x1="200" y1="88" x2="214" y2="70"/><line x1="220" y1="88" x2="234" y2="70"/><line x1="240" y1="88" x2="254" y2="70"/><line x1="260" y1="88" x2="274" y2="70"/><line x1="280" y1="88" x2="294" y2="70"/><line x1="300" y1="88" x2="314" y2="70"/><line x1="320" y1="88" x2="334" y2="70"/><line x1="340" y1="88" x2="354" y2="70"/><line x1="360" y1="88" x2="374" y2="70"/><line x1="380" y1="88" x2="394" y2="70"/><line x1="400" y1="88" x2="414" y2="70"/><line x1="420" y1="88" x2="434" y2="70"/><line x1="440" y1="88" x2="454" y2="70"/><line x1="460" y1="88" x2="474" y2="70"/><line x1="480" y1="88" x2="494" y2="70"/><line x1="500" y1="88" x2="514" y2="70"/><line x1="520" y1="88" x2="534" y2="70"/><line x1="540" y1="88" x2="554" y2="70"/><line x1="560" y1="88" x2="574" y2="70"/><line x1="580" y1="88" x2="594" y2="70"/><line x1="600" y1="88" x2="614" y2="70"/></g>
+<rect x="50" y="228" width="45" height="34" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="650" y="228" width="45" height="34" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="92" y="200" width="561" height="90" rx="6" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<clipPath id="sh"><rect x="140" y="194" width="445" height="102"/></clipPath>
+<g clip-path="url(#sh)" fill="none"><g><animateTransform attributeName="transform" type="translate" values="0 0;-80 0" dur="0.5s" repeatCount="indefinite"/><path d="M-20,200 L25,290 M60,200 L105,290 M140,200 L185,290 M220,200 L265,290 M300,200 L345,290 M380,200 L425,290 M460,200 L505,290 M540,200 L585,290 M620,200 L665,290" stroke="#222" stroke-width="13"/><path d="M-20,200 L25,290 M60,200 L105,290 M140,200 L185,290 M220,200 L265,290 M300,200 L345,290 M380,200 L425,290 M460,200 L505,290 M540,200 L585,290 M620,200 L665,290" stroke="#fde2c4" stroke-width="7"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;80 0" dur="0.5s" repeatCount="indefinite"/><path d="M-20,290 L25,200 M60,290 L105,200 M140,290 L185,200 M220,290 L265,200 M300,290 L345,200 M380,290 L425,200 M460,290 L505,200 M540,290 L585,200 M620,290 L665,200" stroke="#222" stroke-width="13"/><path d="M-20,290 L25,200 M60,290 L105,200 M140,290 L185,200 M220,290 L265,200 M300,290 L345,200 M380,290 L425,200 M460,290 L505,200 M540,290 L585,200 M620,290 L665,200" stroke="#cfe3f5" stroke-width="7"/></g></g>
+<path d="M140,200 C104,200 104,290 140,290" fill="none" stroke="#222" stroke-width="13"/><path d="M140,200 C104,200 104,290 140,290" fill="none" stroke="#d8f0d2" stroke-width="7"/>
+<path d="M585,200 C621,200 621,290 585,290" fill="none" stroke="#222" stroke-width="13"/><path d="M585,200 C621,200 621,290 585,290" fill="none" stroke="#d8f0d2" stroke-width="7"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;165 0;165 0;-245 0;-245 0;0 0" keyTimes="0;0.171875;0.244792;0.671875;0.744792;1" dur="6s" repeatCount="indefinite"/>
+<rect x="347.5" y="88" width="110" height="62" rx="6" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="395.5" y="150" width="14" height="86" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="402.5" cy="150" r="7" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="402.5" cy="150" r="2" fill="#222"/>
+<g><animateTransform attributeName="transform" type="rotate" values="-63 402.5 245;-63 402.5 245;63 402.5 245;63 402.5 245;-63 402.5 245;-63 402.5 245" keyTimes="0;0.171875;0.244792;0.671875;0.744792;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1" dur="6s" repeatCount="indefinite"/><ellipse cx="402.5" cy="245" rx="34" ry="10" fill="#f5d0d0" stroke="#222" stroke-width="3"/></g>
+<line x1="462.5" y1="119" x2="532.5" y2="119" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.171875;0.244792;0.671875;0.744792;1" dur="6s" repeatCount="indefinite"/></line><line x1="342.5" y1="119" x2="272.5" y2="119" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.171875;0.244792;0.671875;0.744792;1" dur="6s" repeatCount="indefinite"/></line></g>
+<path d="M712,212 A16,36 0 0 1 712,278" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="200" y1="330" x2="560" y2="330" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+
+
+<rect x="60" y="372" width="30" height="14" fill="#cfe3f5" stroke="#222" stroke-width="2"/>
+<rect x="300" y="372" width="30" height="14" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+<rect x="535" y="372" width="30" height="14" fill="#d8f0d2" stroke="#222" stroke-width="2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="402.5" y="58" text-anchor="middle">carriage slides on a rail</text>
+<text x="384.5" y="180" text-anchor="end">swivelling boat-shaped follower</text>
+<text x="380" y="356" text-anchor="middle">follower runs out and back</text>
+<text x="770" y="200" text-anchor="end">shaft turns</text>
+<text x="770" y="310" text-anchor="end">one way only</text>
+<text x="98" y="385">right-hand groove</text>
+<text x="338" y="385">left-hand groove</text>
+<text x="573" y="385">U-turn at each end</text>
+<text x="400" y="430" text-anchor="middle" font-weight="bold" font-size="20">One-way turning in · back-and-forth sliding out</text>
+</g>
+</svg>

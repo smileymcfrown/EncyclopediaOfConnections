@@ -154,17 +154,29 @@ sources:
 - https://www.penntoolco.com/asimeto-articulating-arm-magnetic-base-w-176-lbs-hold-power-602-03-1/
 research: research/connection-types/results/Posable_segmented_arm_snaptogether_ball_chain_gooseneck.json
 image:
-  file: drawn/posable-segmented-arm.svg
+  file: drawn/anim/posable-segmented-arm.svg
   alt: 'Cut-away of a posable arm made of hollow ball-and-socket segments: each segment''s ball is snapped into the next one''s
     socket, whose lip wraps past the ball''s widest point; every joint is tilted a little and held by friction, the tilts
-    add up to a curve, and coolant flows through the hollow middle.'
+    add up to a curve, and coolant flows through the hollow middle. The animation bends the arm from one shape to another;
+    each joint swivels a little and then holds.'
   drawn: true
+  still: drawn/posable-segmented-arm.svg
+  kind: animation
+pictures:
+- file: drawn/anim/posable-segmented-arm.svg
+  alt: 'Cut-away of a posable arm made of hollow ball-and-socket segments: each segment''s ball is snapped into the next one''s
+    socket, whose lip wraps past the ball''s widest point; every joint is tilted a little and held by friction, the tilts
+    add up to a curve, and coolant flows through the hollow middle. The animation bends the arm from one shape to another;
+    each joint swivels a little and then holds.'
+  drawn: true
+  still: drawn/posable-segmented-arm.svg
+  kind: animation
 glossary: [stiffness, form-fit--force-fit--material-bond, creep, perimeters, infill, print-in-place]
 ---
 
-![Cut-away of a posable arm made of hollow ball-and-socket segments: each segment's ball is snapped into the next one's socket, whose lip wraps past the ball's widest point; every joint is tilted a litt](../media/drawn/posable-segmented-arm.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/posable-segmented-arm.svg"><img src="../media/drawn/anim/posable-segmented-arm.svg" alt="Cut-away of a posable arm made of hollow ball-and-socket segments: each segment&#x27;s ball is snapped into the next one&#x27;s socket, whose lip wraps past the ball&#x27;s widest point; every joint is tilted a little and held by friction, the tilts add up to a curve, and coolant flows through the hollow middle. T"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A chain of identical short segments, each with a ball at one end and a socket at the other, snapped together so every joint can swivel a little and holds its angle by friction; together they make an arm you can bend into any shape and that stays put, often hollow so coolant, air or cables can pass through.
 

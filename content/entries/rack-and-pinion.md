@@ -128,24 +128,36 @@ sources:
 research: research/connection-types/results/Rack_and_pinion.json
 image:
   file: rack-and-pinion.webp
-  width: 152
-  height: 164
   title: File:Rack and pinion animation.gif
   author: OSHA Directorate of Technical Support and Emergency Management
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif
   alt: Looping animation of a pinion turning and driving a rack sideways
-  animated: true
+  site: Wikimedia Commons
+  still: rack-and-pinion.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: rack-and-pinion.webp
+  title: File:Rack and pinion animation.gif
+  author: OSHA Directorate of Technical Support and Emergency Management
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif
+  alt: Looping animation of a pinion turning and driving a rack sideways
+  site: Wikimedia Commons
+  still: rack-and-pinion.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, ratchet, pawl, torque, pitch, crank, actuator, stiffness,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, lubrication, perimeters,
   infill, print-in-place]
 ---
 
-![Looping animation of a pinion turning and driving a rack sideways](../media/rack-and-pinion.webp)
-
-*Picture: [Rack and pinion animation.gif](https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif) by OSHA Directorate of Technical Support and Emergency Management, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/rack-and-pinion.still.webp"><img src="../media/rack-and-pinion.webp" alt="Looping animation of a pinion turning and driving a rack sideways"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif">Rack and pinion animation</a> by OSHA Directorate of Technical Support and Emergency Management, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A round gear (the pinion) meshes with a straight toothed bar (the rack), so every turn of the pinion moves the rack by the distance round the pinion's [pitch](../glossary.md#pitch) circle, turning rotation into straight-line motion or straight-line motion back into rotation.
 

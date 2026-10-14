@@ -136,23 +136,31 @@ sources:
 research: research/connection-types/results/Dowel_and_biscuit_joints.json
 image:
   file: dowel-and-biscuit-joints.webp
-  width: 600
-  height: 400
   title: File:Woodworking-joint-butt-dowel.gif
   author: Image by silentC
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif
   alt: Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia 'Butt joint')
-  animated: false
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: dowel-and-biscuit-joints.webp
+  title: File:Woodworking-joint-butt-dowel.gif
+  author: Image by silentC
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif
+  alt: Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia 'Butt joint')
+  site: Wikimedia Commons
   drawn: false
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, infill, end-grain,
   peel-vs-shear]
 ---
 
-![Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia 'Butt joint')](../media/dowel-and-biscuit-joints.webp)
-
-*Picture: [Woodworking-joint-butt-dowel.gif](https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif) by Image by silentC, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/dowel-and-biscuit-joints.webp" alt="Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia &#x27;Butt joint&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif">Woodworking-joint-butt-dowel</a> by Image by silentC, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Matching holes or slots are cut in both parts, and a glued wooden pin (dowel) or a flat oval wafer (biscuit) bridges the joint, lining the parts up and adding glue area to what would otherwise be a weak butt joint.
 

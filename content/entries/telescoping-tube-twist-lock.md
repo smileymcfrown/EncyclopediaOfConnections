@@ -149,18 +149,32 @@ sources:
 - https://www.youtube.com/watch?v=B0HB_SU4pyw
 research: research/connection-types/results/Telescoping_tube_twist_lock_cam_or_collet_twist_lock.json
 image:
-  file: drawn/telescoping-tube-twist-lock.svg
+  file: drawn/anim/telescoping-tube-twist-lock.svg
   alt: 'Two cut-away views of a twist-lock pole: a thin tube slides inside a wider one and carries a split plastic plug with
     a cone on a threaded rod; unlocked, the cone sits loose and the tubes slide; after a twist the rod draws the cone into
-    the plug, which swells out and presses on the wall of the outer tube so friction holds the length.'
+    the plug, which swells out and presses on the wall of the outer tube so friction holds the length. The animation slides
+    the unlocked inner tube in and out, and in the lower view twists the lock open and shut, so the cone backs out and the
+    plug shrinks, then the cone is drawn in and the plug swells again.'
   drawn: true
+  still: drawn/telescoping-tube-twist-lock.svg
+  kind: animation
+pictures:
+- file: drawn/anim/telescoping-tube-twist-lock.svg
+  alt: 'Two cut-away views of a twist-lock pole: a thin tube slides inside a wider one and carries a split plastic plug with
+    a cone on a threaded rod; unlocked, the cone sits loose and the tubes slide; after a twist the rod draws the cone into
+    the plug, which swells out and presses on the wall of the outer tube so friction holds the length. The animation slides
+    the unlocked inner tube in and out, and in the lower view twists the lock open and shut, so the cone backs out and the
+    plug shrinks, then the cone is drawn in and the plug swells again.'
+  drawn: true
+  still: drawn/telescoping-tube-twist-lock.svg
+  kind: animation
 glossary: [self-locking, axial--radial, mechanical-advantage, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, collet, creep, perimeters, infill, print-in-place]
 ---
 
-![Two cut-away views of a twist-lock pole: a thin tube slides inside a wider one and carries a split plastic plug with a cone on a threaded rod; unlocked, the cone sits loose and the tubes slide; after ](../media/drawn/telescoping-tube-twist-lock.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/telescoping-tube-twist-lock.svg"><img src="../media/drawn/anim/telescoping-tube-twist-lock.svg" alt="Two cut-away views of a twist-lock pole: a thin tube slides inside a wider one and carries a split plastic plug with a cone on a threaded rod; unlocked, the cone sits loose and the tubes slide; after a twist the rod draws the cone into the plug, which swells out and presses on the wall of the outer "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A lock for sliding tubes that holds them at any length by friction when you twist one section against the other (or turn a collar), and lets them slide again when you twist back.
 

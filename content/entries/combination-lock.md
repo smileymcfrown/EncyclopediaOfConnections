@@ -138,8 +138,6 @@ sources:
 research: research/connection-types/results/Combination_lock_wheel_pack.json
 image:
   file: combination-lock.webp
-  width: 250
-  height: 201
   title: File:Combination discs.png
   author: unknown
   license: CC BY-SA 3.0
@@ -147,14 +145,26 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Combination_discs.png
   alt: Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and
     Combination locked.png show the toothed pin free and blocked)
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: combination-lock.webp
+  title: File:Combination discs.png
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Combination_discs.png
+  alt: Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and
+    Combination locked.png show the toothed pin free and blocked)
+  site: Wikimedia Commons
   drawn: false
 glossary: [detent, solenoid, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, lubrication, infill,
   print-in-place, elephants-foot]
 ---
 
-![Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and Combination locked.png show the toothed pin free and blocked)](../media/combination-lock.webp)
-
-*Picture: [Combination discs.png](https://commons.wikimedia.org/wiki/File:Combination_discs.png) by unknown, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/combination-lock.webp" alt="Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and Combination locked.png show the toothed pin free and blocked)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Combination_discs.png">Combination discs</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A combination lock holds a bar, bolt or shackle in place with a stack of notched wheels, and releases it only when each wheel has been turned to its secret number so all the notches line up in a row.
 

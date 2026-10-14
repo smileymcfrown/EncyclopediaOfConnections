@@ -132,8 +132,6 @@ sources:
 research: research/connection-types/results/Ball_screw.json
 image:
   file: ball-screw.webp
-  width: 800
-  height: 484
   title: File:BallScrews-with-detail-insets.jpg
   author: No machine-readable author provided. Graibeard assumed (based on copyright claims).
   license: CC BY-SA 3.0
@@ -141,15 +139,27 @@ image:
   source: https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg
   alt: 'Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube,
     and a view into the nut cavity'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: ball-screw.webp
+  title: File:BallScrews-with-detail-insets.jpg
+  author: No machine-readable author provided. Graibeard assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg
+  alt: 'Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube,
+    and a view into the nut cavity'
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, stroke, torque, pitch, actuator, stiffness,
   preload, flexure, clearance, form-fit--force-fit--material-bond, spline, repeatability--accuracy, fatigue, lubrication,
   elephants-foot]
 ---
 
-![Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube, and a view into the nut cavity](../media/ball-screw.webp)
-
-*Picture: [BallScrews-with-detail-insets.jpg](https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg) by No machine-readable author provided. Graibeard assumed (based on copyright claims)., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-screw.webp" alt="Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube, and a view into the nut cavity"><figcaption><a href="https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg">BallScrews-with-detail-insets</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Turning a grooved screw drives a nut along it in a straight line, and because hardened balls roll between the screw and nut instead of the threads sliding, it is about 90% efficient, fast, precise and long-lasting, but it will also run backwards if the load pushes on it.
 

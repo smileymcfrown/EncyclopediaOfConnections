@@ -129,14 +129,20 @@ image:
     the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different
     amount, push from both sides so the block settles in the middle where their errors average out.'
   drawn: true
+pictures:
+- file: drawn/elastic-averaging.svg
+  alt: 'Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes
+    the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different
+    amount, push from both sides so the block settles in the middle where their errors average out.'
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, flexure, cantilever, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep, fatigue, brittle--ductile, galling--fretting, layer-lines, support-material]
 ---
 
-![Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes the block off-centre by the whole error, and on the right twelve thin springy ribs, ](../media/drawn/elastic-averaging.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/elastic-averaging.svg" alt="Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different amount, push from both sides so the block settles in the m"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 [Elastic averaging](../glossary.md#elastic-averaging) locates two parts with many more small springy contact features than strictly needed, so each feature flexes slightly and their individual errors average out, giving a stiff, repeatable fit from loosely made parts.
 

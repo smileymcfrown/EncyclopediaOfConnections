@@ -128,21 +128,30 @@ sources:
 research: research/connection-types/results/Turntable_bearing_lazySusan_bearing_slewing_ring.json
 image:
   file: turntable-bearing.webp
-  width: 800
-  height: 890
   title: File:Slewing bearing.jpg
   author: Dkluscious
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg
   alt: Photo of a slew ring bearing
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: turntable-bearing.webp
+  title: File:Slewing bearing.jpg
+  author: Dkluscious
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg
+  alt: Photo of a slew ring bearing
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, axial--radial, thrust-load, torque, clearance, tolerance, form-fit--force-fit--material-bond, lubrication]
 ---
 
-![Photo of a slew ring bearing](../media/turntable-bearing.webp)
-
-*Picture: [Slewing bearing.jpg](https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg) by Dkluscious, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/turntable-bearing.webp" alt="Photo of a slew ring bearing"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg">Slewing bearing</a> by Dkluscious, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A large-diameter, thin ring bearing, with balls (or rollers or plastic pads) running in grooves between two rings or plates, that lets a platform turn about an upright axis while carrying its weight and, in stronger types, tipping loads from off-centre weight.
 

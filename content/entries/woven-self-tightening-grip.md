@@ -126,22 +126,31 @@ sources:
 research: research/connection-types/results/Woven_selftightening_grip_fingertrap_grip.json
 image:
   file: woven-self-tightening-grip.webp
-  width: 800
-  height: 600
   title: File:Finger trap toys.jpg
   author: carol
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg
   alt: Several woven Chinese finger trap toys, showing the crossing diagonal strips of the braid
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: woven-self-tightening-grip.webp
+  title: File:Finger trap toys.jpg
+  author: carol
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg
+  alt: Several woven Chinese finger trap toys, showing the crossing diagonal strips of the braid
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, torque, form-fit--force-fit--material-bond, taper, collet, creep, brittle--ductile, print-in-place,
   gland]
 ---
 
-![Several woven Chinese finger trap toys, showing the crossing diagonal strips of the braid](../media/woven-self-tightening-grip.webp)
-
-*Picture: [Finger trap toys.jpg](https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg) by carol, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/woven-self-tightening-grip.webp" alt="Several woven Chinese finger trap toys, showing the crossing diagonal strips of the braid"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg">Finger trap toys</a> by carol, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A tube woven from two sets of crossing spiral strands that slides over the end of a cable, rope or finger and then grips it harder the harder it is pulled, because pulling makes the weave longer and narrower.
 

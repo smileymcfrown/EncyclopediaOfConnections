@@ -159,13 +159,19 @@ image:
     that lifts a load; on the right, end view showing the long crank and small drum that multiply the pull, and a ratchet
     wheel with a pawl that stops the drum running back.'
   drawn: true
+pictures:
+- file: drawn/capstan-and-windlass.svg
+  alt: 'A windlass: on the left, front view of a rope drum on an axle between two posts, turned by a crank, winding up a rope
+    that lifts a load; on the right, end view showing the long crank and small drum that multiply the pull, and a ratchet
+    wheel with a pawl that stops the drum running back.'
+  drawn: true
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, gear-ratio, crank, actuator, clearance, form-fit--force-fit--material-bond,
   holding-force, set-screw, creep, fatigue, lubrication, infill]
 ---
 
-![A windlass: on the left, front view of a rope drum on an axle between two posts, turned by a crank, winding up a rope that lifts a load; on the right, end view showing the long crank and small drum th](../media/drawn/capstan-and-windlass.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/capstan-and-windlass.svg" alt="A windlass: on the left, front view of a rope drum on an axle between two posts, turned by a crank, winding up a rope that lifts a load; on the right, end view showing the long crank and small drum that multiply the pull, and a ratchet wheel with a pawl that stops the drum running back."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A rope drum turned by a [crank](../glossary.md#crank) or bars (a windlass if the axle is horizontal, a capstan if it is vertical) that winds rope in with a force multiplied by the ratio of handle radius to drum radius, usually with a [ratchet](../glossary.md#ratchet) to hold the load; the friction of a few turns of rope round a drum also lets a small pull hold a large load (capstan effect), and a differential windlass winds rope onto one drum while unwinding it from a slightly smaller one for a huge force gain.
 

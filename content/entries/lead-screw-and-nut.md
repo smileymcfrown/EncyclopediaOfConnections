@@ -127,22 +127,31 @@ sources:
 research: research/connection-types/results/Lead_screw_and_nut_incl_antibacklash_nut.json
 image:
   file: lead-screw-and-nut.webp
-  width: 750
-  height: 563
   title: File:Dvd pohon vozika hlavy.jpg
   author: Baran Ivo
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg
   alt: Photo of a DVD drive's optical head moved by a small lead screw and stepper motor
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: lead-screw-and-nut.webp
+  title: File:Dvd pohon vozika hlavy.jpg
+  author: Baran Ivo
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg
+  alt: Photo of a DVD drive's optical head moved by a small lead screw and stepper motor
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, pitch, crank, actuator, preload, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, over-constraint, repeatability--accuracy, creep, lubrication, perimeters, cure]
 ---
 
-![Photo of a DVD drive's optical head moved by a small lead screw and stepper motor](../media/lead-screw-and-nut.webp)
-
-*Picture: [Dvd pohon vozika hlavy.jpg](https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg) by Baran Ivo, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lead-screw-and-nut.webp" alt="Photo of a DVD drive&#x27;s optical head moved by a small lead screw and stepper motor"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg">Dvd pohon vozika hlavy</a> by Baran Ivo, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Turning a threaded rod (the lead screw) moves a nut that is kept from spinning along the rod in a straight line, trading speed for a lot of pushing force; fine threads hold their place, and a spring-loaded anti-backlash nut removes the wobble when the direction changes.
 

@@ -143,13 +143,19 @@ image:
     the driver''s smooth rim sits in a curved notch on the output gear and holds it still; a graph below shows the output
     speed jumping on and off, compared with the smooth hump of a Geneva drive.'
   drawn: true
+pictures:
+- file: drawn/intermittent-gear.svg
+  alt: 'An intermittent gear pair at three moments: the driving gear''s few teeth turn the output gear, then hand over, then
+    the driver''s smooth rim sits in a curved notch on the output gear and holds it still; a graph below shows the output
+    speed jumping on and off, compared with the smooth hump of a Geneva drive.'
+  drawn: true
 glossary: [backlash, self-locking, axial--radial, reciprocating, detent, ratchet, pawl, torque, gear-ratio, crank, clearance,
   form-fit--force-fit--material-bond, circlip, repeatability--accuracy, print-in-place, elephants-foot, overhang--bridging]
 ---
 
-![An intermittent gear pair at three moments: the driving gear's few teeth turn the output gear, then hand over, then the driver's smooth rim sits in a curved notch on the output gear and holds it still](../media/drawn/intermittent-gear.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/intermittent-gear.svg" alt="An intermittent gear pair at three moments: the driving gear&#x27;s few teeth turn the output gear, then hand over, then the driver&#x27;s smooth rim sits in a curved notch on the output gear and holds it still; a graph below shows the output speed jumping on and off, compared with the smooth hump of a Geneva"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A driving gear with teeth on only part of its rim turns its partner gear while those teeth pass, then a smooth arc on the toothless part slides against the partner and holds it still, so steady rotation becomes stop-go steps.
 

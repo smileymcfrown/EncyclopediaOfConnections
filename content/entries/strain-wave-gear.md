@@ -135,24 +135,36 @@ sources:
 research: research/connection-types/results/Strainwave_gear_harmonic_drive.json
 image:
   file: strain-wave-gear.webp
-  width: 368
-  height: 368
   title: File:Harmonic-drive-explanation.gif
   author: LaurensvanLieshout
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif
   alt: Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring
-  animated: true
+  site: Wikimedia Commons
+  still: strain-wave-gear.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: strain-wave-gear.webp
+  title: File:Harmonic-drive-explanation.gif
+  author: LaurensvanLieshout
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif
+  alt: Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring
+  site: Wikimedia Commons
+  still: strain-wave-gear.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, self-locking, coaxial, ratchet, torque, linkage, fail-safe--fail-secure, stiffness, hysteresis,
   tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert, repeatability--accuracy, creep, fatigue, brittle--ductile,
   infill, print-in-place]
 ---
 
-![Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring](../media/strain-wave-gear.webp)
-
-*Picture: [Harmonic-drive-explanation.gif](https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif) by LaurensvanLieshout, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/strain-wave-gear.still.webp"><img src="../media/strain-wave-gear.webp" alt="Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif">Harmonic-drive-explanation</a> by LaurensvanLieshout, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An oval cam with a thin bearing (wave generator) bends a thin-walled toothed sleeve (flexspline) into an oval so its teeth mesh with a rigid internal-toothed ring (circular [spline](../glossary.md#spline)) at two points; because the sleeve has two fewer teeth, each turn of the cam shifts it by two teeth, giving a 30:1 to over 300:1 backlash-free reduction in one flat stage.
 

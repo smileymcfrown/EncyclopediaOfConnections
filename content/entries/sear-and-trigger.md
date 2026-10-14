@@ -131,23 +131,32 @@ sources:
 research: research/connection-types/results/Sear_and_trigger_trip_release_mechanism.json
 image:
   file: sear-and-trigger.webp
-  width: 800
-  height: 289
   title: File:Noix corde carreau arbalette.svg
   author: Christophe Dang Ngoc Chan (Cdang (talk))
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg
   alt: 'Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger'
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: sear-and-trigger.webp
+  title: File:Noix corde carreau arbalette.svg
+  author: Christophe Dang Ngoc Chan (Cdang (talk))
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg
+  alt: 'Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger'
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, dead-point, over-centre, detent, ratchet, pawl, linkage, actuator, solenoid, fail-safe--fail-secure,
   deflection, torsion, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, perimeters,
   infill, elephants-foot]
 ---
 
-![Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger](../media/sear-and-trigger.webp)
-
-*Picture: [Noix corde carreau arbalette.svg](https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg) by Christophe Dang Ngoc Chan (Cdang (talk)), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/sear-and-trigger.webp" alt="Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg">Noix corde carreau arbalette</a> by Christophe Dang Ngoc Chan (Cdang (talk)), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A small hooked catch (the sear) holds a part that is loaded by a big spring, band or weight, and a trigger lever pulls the catch off with a light touch, releasing all the stored energy in an instant.
 

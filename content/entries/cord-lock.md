@@ -125,21 +125,30 @@ sources:
 research: research/connection-types/results/Cord_lock_spring_toggle.json
 image:
   file: cord-lock.webp
-  width: 194
-  height: 153
   title: File:Cord-lock.jpg
   author: Ratel
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cord-lock.jpg
   alt: Photo of a barrel-type cord lock with its spring plunger
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: cord-lock.webp
+  title: File:Cord-lock.jpg
+  author: Ratel
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cord-lock.jpg
+  alt: Photo of a barrel-type cord lock with its spring plunger
+  site: Wikimedia Commons
   drawn: false
 glossary: [self-locking, detent, form-fit--force-fit--material-bond, perimeters, infill]
 ---
 
-![Photo of a barrel-type cord lock with its spring plunger](../media/cord-lock.webp)
-
-*Picture: [Cord-lock.jpg](https://commons.wikimedia.org/wiki/File:Cord-lock.jpg) by Ratel, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cord-lock.webp" alt="Photo of a barrel-type cord lock with its spring plunger"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cord-lock.jpg">Cord-lock</a> by Ratel, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.
 

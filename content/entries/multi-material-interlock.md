@@ -137,13 +137,19 @@ image:
     into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide
     out along the seam.'
   drawn: true
+pictures:
+- file: drawn/multi-material-interlock.svg
+  alt: 'Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching
+    into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide
+    out along the seam.'
+  drawn: true
 glossary: [flexure, compliant-mechanism, living-hinge, clearance, form-fit--force-fit--material-bond, undercut, repeatability--accuracy,
   creep, print-in-place, overhang--bridging, peel-vs-shear]
 ---
 
-![Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching into the other and turning 90 degrees on each layer like woven fabric; right: a](../media/drawn/multi-material-interlock.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/multi-material-interlock.svg" alt="Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide out along the seam."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 When two printed materials that bond poorly (for example soft TPU and rigid PLA, or PP and PLA) are printed in one go, small beams or dovetails of each material are interlaced across the seam so the parts are locked together by shape rather than by adhesion.
 

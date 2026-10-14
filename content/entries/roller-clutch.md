@@ -144,23 +144,32 @@ sources:
 research: research/connection-types/results/Roller_clutch_oneway_bearing.json
 image:
   file: roller-clutch.webp
-  width: 800
-  height: 667
   title: File:Freewheel en.svg
   author: 'derivative work: Borb (talk) Roue_libre2.svg: Technoargia'
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Freewheel_en.svg
   alt: Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets
+  site: Wikimedia Commons
+  drawn: false
+pictures:
+- file: roller-clutch.webp
+  title: File:Freewheel en.svg
+  author: 'derivative work: Borb (talk) Roue_libre2.svg: Technoargia'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Freewheel_en.svg
+  alt: Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets
+  site: Wikimedia Commons
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, reciprocating, oscillating, stroke, ratchet, pawl, freewheel,
   sprag, torque, crank, flexure, clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication,
   print-in-place]
 ---
 
-![Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets](../media/roller-clutch.webp)
-
-*Picture: [Freewheel en.svg](https://commons.wikimedia.org/wiki/File:Freewheel_en.svg) by derivative work: Borb (talk) Roue_libre2.svg: Technoargia, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/roller-clutch.webp" alt="Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Freewheel_en.svg">Freewheel en</a> by derivative work: Borb (talk) Roue_libre2.svg: Technoargia, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Rollers sit in pockets with a sloping floor (ramps) between a shaft and an outer ring; turn one way and they roll into the wide end and spin free, turn the other way and they jam into the narrow end and lock the shaft to the ring.
 
