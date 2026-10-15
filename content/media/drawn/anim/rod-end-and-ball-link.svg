@@ -57,7 +57,7 @@
 <text x="532" y="100">ball and bolt tilt</text><text x="532" y="122">in the round seat</text><text x="532" y="144">(pink: tilt limit)</text>
 <text x="240" y="164">threaded shank</text><text x="318" y="88">jam nut</text>
 <text x="250" y="390">servo</text>
-<text x="88" y="245">ball link</text><text x="88" y="265">(cup snaps on)</text>
+<text x="88" y="222">ball link</text><text x="88" y="242">(cup snaps on)</text>
 <text x="370" y="250" text-anchor="middle">push rod: push and pull only</text>
 <text x="650" y="250">rod end</text><text x="610" y="432" text-anchor="middle">control horn and flap</text>
 </g></svg>

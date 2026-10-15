@@ -23,6 +23,7 @@
 <rect x="480" y="310" width="40" height="40" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>
 <g><circle cx="500" cy="165" r="34" fill="#e8e8e8"/><circle cx="500" cy="165" r="24" fill="#cfe3f5"/></g>
 <g><rect x="480" y="310" width="40" height="40" fill="#e8e8e8"/><g><path d="M488,330 V372 M512,330 V372" stroke-width="4" fill="none"/><rect x="493" y="350" width="14" height="44" rx="4" fill="#fde2c4"/></g><circle cx="500" cy="330" r="5" fill="#fff"/><circle cx="500" cy="330" r="1.8" fill="#222"/></g>
+<g fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6 5"><circle cx="650" cy="165" r="34"/><rect x="630" y="310" width="40" height="40"/><rect x="586" y="323" width="44" height="14" rx="4"/></g>
 <line x1="560" y1="114" x2="680" y2="114" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
 <line x1="560" y1="292" x2="680" y2="292" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
 </g>

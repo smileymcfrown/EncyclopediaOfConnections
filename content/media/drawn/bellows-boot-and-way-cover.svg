@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A lead-screw slide with a pleated bellows cover on each side of the moving carriage: each bellows is fixed to an end block and to the carriage, so as the carriage travels one bellows opens out long and the other squashes into a short stack, keeping grit off the screw.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="362" width="740" height="20" fill="url(#hatch)"/>
+<rect x="10" y="212" width="40" height="56" rx="4" fill="#e8e8e8"/><line x1="50" y1="240" x2="80" y2="240" stroke-width="10" stroke="#555"/>
+<rect x="50" y="140" width="30" height="222" fill="#e8e8e8"/><rect x="720" y="140" width="30" height="222" fill="#e8e8e8"/>
+<circle cx="735" cy="180" r="6" fill="#fff"/>
+<path d="M80,180 L86.4,162 L92.9,180 L99.3,162 L105.7,180 L112.1,162 L118.6,180 L125,162 L131.4,180 L137.9,162 L144.3,180 L150.7,162 L157.1,180 L163.6,162 L170,180 L170,300 L163.6,318 L157.1,300 L150.7,318 L144.3,300 L137.9,318 L131.4,300 L125,318 L118.6,300 L112.1,318 L105.7,300 L99.3,318 L92.9,300 L86.4,318 L80,300 Z" fill="#cfe3f5"></path>
+<path d="M86.4,162 V318 M92.9,180 V300 M99.3,162 V318 M105.7,180 V300 M112.1,162 V318 M118.6,180 V300 M125,162 V318 M131.4,180 V300 M137.9,162 V318 M144.3,180 V300 M150.7,162 V318 M157.1,180 V300 M163.6,162 V318" fill="none" stroke-width="2"></path>
+<path d="M260,180 L292.9,162 L325.7,180 L358.6,162 L391.4,180 L424.3,162 L457.1,180 L490,162 L522.9,180 L555.7,162 L588.6,180 L621.4,162 L654.3,180 L687.1,162 L720,180 L720,300 L687.1,318 L654.3,300 L621.4,318 L588.6,300 L555.7,318 L522.9,300 L490,318 L457.1,300 L424.3,318 L391.4,300 L358.6,318 L325.7,300 L292.9,318 L260,300 Z" fill="#cfe3f5"></path>
+<path d="M292.9,162 V318 M325.7,180 V300 M358.6,162 V318 M391.4,180 V300 M424.3,162 V318 M457.1,180 V300 M490,162 V318 M522.9,180 V300 M555.7,162 V318 M588.6,180 V300 M621.4,162 V318 M654.3,180 V300 M687.1,162 V318" fill="none" stroke-width="2"></path>
+<g><rect x="170" y="132" width="90" height="220" rx="4" fill="#fde2c4"/><rect x="200" y="222" width="30" height="36" fill="#e8e8e8" stroke-width="2"/></g>
+<line x1="300" y1="112" x2="510" y2="112" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<circle cx="600" cy="120" r="4" fill="#8a6d3b" stroke="none"/><circle cx="650" cy="145" r="4" fill="#8a6d3b" stroke="none"/><circle cx="700" cy="100" r="4" fill="#8a6d3b" stroke="none"/>
+<g><g stroke-width="1.5"><path d="M80,326 V346 M170,326 V346 M260,326 V346 M720,326 V346"/><path d="M84,338 H166 M264,338 H716"/></g><g font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#222" stroke="none" text-anchor="middle"><text x="125" y="404">stack length</text><text x="490" y="404">extended length</text></g></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="405" y="94" text-anchor="middle">moving carriage (on the lead screw)</text>
+<text x="12" y="128">fixed end</text>
+<text x="590" y="56">grit bounces off the folds</text>
+<text x="788" y="128" text-anchor="end">vent hole</text><line x1="760" y1="134" x2="738" y2="172" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="438" text-anchor="middle" font-size="17">The folds open out or stack up, so the cover spans the gap without rubbing</text>
+</g>
+</svg>
