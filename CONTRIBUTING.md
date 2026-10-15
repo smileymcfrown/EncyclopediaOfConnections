@@ -34,7 +34,7 @@ Most pages are **generated**, so edit the source and re-run the scripts:
 | Which finder answer an entry comes under | the entry's hand-set fields in `research/finder-tags/tags.yaml` (see `research/finder-tags/README.md`, *Finder answers*); remove the field from `needs_confirming` once checked | `python3 research/finder-tags/propose.py`, the finder test, then the three `tools/` scripts |
 | A finder question, answer or example | `research/finder-test/tree.py` or `examples.yaml` | the finder test (`research/finder-test/README.md`) |
 | An open point from the research | `research/connection-types/review-notes.md` | `python3 tools/make_entries.py` |
-| An entry's pictures | `content/media/pictures.yaml` (the page's pictures in order: an animation first for things that move, then real photos); or improve a drawing in `content/media/drawn/<page>.svg` and its animated copy in `content/media/drawn/anim/<page>.svg` | the *Fetch pictures* workflow, then `python3 tools/make_entries.py` |
+| An entry's pictures | `content/media/pictures.yaml` (the page's pictures in order: an animation first for things that move, then real photos); or improve a drawing in `content/media/drawn/<page>.svg` and its animated copy in `content/media/drawn/anim/<page>.svg`. A page showing a *render* (a stand-in for a photo, listed in `content/media/render/README.md`) needs a real photo most: add it and remove `render` from its list, or improve the model in `tools/renders/models/<page>.js` | the *Fetch pictures* workflow, then `python3 tools/make_entries.py` |
 
 If you remove an `[uncertain]` marker from a JSON file, also remove the field from that file's
 `uncertain` list when no other marker is left in it. Then check the file:
