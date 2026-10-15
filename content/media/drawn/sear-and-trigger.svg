@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A sear and trigger seen from the side: a big spring pushes a bar against a small hooked sear whose contact push points almost through its pivot, and a long trigger lever under the sear tail is pulled lightly by a finger.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g transform="translate(0 10)">
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="126" width="720" height="14" fill="url(#hatch)" stroke="none"/><line x1="40" y1="140" x2="760" y2="140"/>
+<rect x="40" y="140" width="16" height="120" fill="url(#hatch)" stroke="none"/><line x1="56" y1="140" x2="56" y2="212"/>
+<polyline points="56,166 63.5,166 66.8,180 73.4,152 80,180 86.5,152 93.1,180 99.7,152 106.3,180 112.9,152 119.4,180 126,152 132.6,180 139.2,152 142.5,166 150,166" fill="none" stroke-width="3"></polyline>
+<g>
+<path d="M150,150 L440,150 L440,182 L312,182 L312,204 L282,204 L268,182 L150,182 Z" fill="#cfe3f5"/>
+</g>
+<g>
+<path d="M312,192 L320,190 L370,184 L416,192 L416,216 L354,216 L316,212 L312,210 Z" fill="#fde2c4"/>
+</g>
+<circle cx="360" cy="198" r="6" fill="#ffffff"/><circle cx="360" cy="198" r="2" fill="#222"/>
+<rect x="310" y="300" width="32" height="10" fill="url(#hatch)" stroke="none"/><line x1="310" y1="300" x2="342" y2="300"/>
+<polyline points="326,300 326,292.9 332,286.6 320,274.2 332,261.7 320,249.3 332,236.8 320,224.4 326,218.1 326,211" fill="none" stroke-width="2"></polyline>
+<g>
+<path d="M398,217 L410,214 L482,244 Q492,310 540,370 L528,378 Q472,320 460,262 Z" fill="#d8f0d2"/>
+</g>
+<circle cx="470" cy="250" r="6" fill="#ffffff"/><circle cx="470" cy="250" r="2" fill="#222"/>
+</g>
+<g fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)">
+<line x1="100" y1="112" x2="170" y2="112"/>
+<g opacity="1"><path d="M590,380 L550,372"/></g>
+<line x1="314" y1="197" x2="348" y2="196" stroke-dasharray="5 4" stroke-width="3"></line>
+</g></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="100" y="106">big spring pushes the bar</text>
+<text x="40" y="292">sear: a small hooked catch</text>
+<text x="40" y="314">(its light spring holds it up)</text>
+<g stroke="#222" stroke-width="1.5"><line x1="250" y1="286" x2="318" y2="232"/><line x1="230" y1="362" x2="334" y2="212"/><line x1="560" y1="260" x2="500" y2="300"/></g>
+<text x="40" y="367">the push points almost</text><text x="40" y="389">through the sear's pivot</text>
+<text x="565" y="260">trigger: a long lever</text>
+<text x="620" y="386">light finger pull</text>
+<text x="400" y="440" text-anchor="middle">A light pull slides the sear off and releases all the stored energy</text>
+</g></svg>

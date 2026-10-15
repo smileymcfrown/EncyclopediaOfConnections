@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A spiral power spring in its round case: a flat steel strip coiled loosely, with its inner end hooked to the centre shaft and its outer end to the case; beside it the ratchet wheel and click on the same shaft, a curved arrow for the winding direction, and a graph of turning force rising as more turns are wound.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="220" cy="240" r="156" fill="#f4f4f4" stroke="#999" stroke-width="12"/>
+<circle cx="220" cy="240" r="162" fill="none"/><circle cx="220" cy="240" r="150" fill="none" stroke-width="2"/>
+<circle cx="295" cy="110.1" r="6" fill="#e8e8e8"/>
+<path d="M225,231C221,229 214,222 206,227C197,231 191,244 196,257C200,269 217,280 234,276C252,273 268,255 268,233C268,211 250,187 224,182C198,176 167,192 155,220C143,248 152,287 181,308C210,328 255,326 284,300C313,273 322,223 300,185C279,147 227,126 181,140C135,155 100,205 104,257C109,310 154,359 211,366C267,374 329,338 350,280C371,223 348,149 293,114" fill="none" stroke="#4a6f8f" stroke-width="4"></path>
+<g><circle cx="220" cy="240" r="15" fill="#e8e8e8"/><rect x="215" y="235" width="10" height="10" fill="#ffffff" stroke-width="2"/></g>
+<g><path d="M-3.5,-43.9 L-4.6,-57.8 L18.9,-39.7 L25,-52.3 L36.3,-24.9 L47.8,-32.9 L43.9,-3.5 L57.8,-4.6 L39.7,18.9 L52.3,25 L24.9,36.3 L32.9,47.8 L3.5,43.9 L4.6,57.8 L-18.9,39.7 L-25,52.3 L-36.3,24.9 L-47.8,32.9 L-43.9,3.5 L-57.8,4.6 L-39.7,-18.9 L-52.3,-25 L-24.9,-36.3 L-32.9,-47.8Z" transform="translate(580 160)" fill="#d8f0d2"/><rect x="572" y="152" width="16" height="16" fill="#ffffff" stroke-width="2"/></g>
+<g transform="translate(522 70)"><g><polygon points="4.6,-5.3 51.7,42.1 53.4,46.2 -4.6,5.3" fill="#fde2c4"/><circle cx="0" cy="0" r="6" fill="#ffffff"/></g></g>
+<rect x="502" y="50" width="40" height="12" fill="url(#hatch)" stroke-width="2"/>
+<polyline points="470,300 470,392 760,392" fill="none" stroke-width="2.5"/>
+<line x1="470" y1="382" x2="720" y2="318" stroke="#555" stroke-width="2.5" stroke-dasharray="7 5"/>
+<circle cx="470" cy="382" r="8" fill="#d1495b" stroke-width="2"></circle>
+</g>
+<path d="M616,222 A72,72 0 0 1 544,222" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="380" y="52" text-anchor="end">outer end hooked to the case</text>
+<text x="220" y="432">inner end hooked to the turning shaft</text>
+<text x="720" y="140">click stops it</text><text x="720" y="162">slipping back</text>
+<text x="580" y="262">ratchet on the same shaft</text>
+<text x="478" y="300" text-anchor="start">turning force</text>
+<text x="760" y="416" text-anchor="end">turns wound</text>
+</g>
+</svg>
