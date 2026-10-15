@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two check valves in cutaway, a spring-loaded ball and a hinged flap: forward flow pushes the ball off its seat against the spring, or swings the flap open, and flow from the other side presses the ball or flap back onto its seat so nothing gets through.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="40" x2="400" y2="410" stroke="#cccccc" stroke-width="2"/><line x1="20" y1="226" x2="780" y2="226" stroke="#cccccc" stroke-width="2"/>
+<g transform="translate(37,56) scale(0.86)"><polygon points="0,60 130,60 140,25 330,25 330,60 380,60 380,120 330,120 330,155 140,155 130,120 0,120" fill="#cfe3f5"/><polygon points="0,42 110,42 110,5 340,5 340,42 380,42 380,60 330,60 330,25 140,25 140,52 130,60 0,60" fill="url(#hatch)" stroke="#222" stroke-width="3"/><polygon points="0,138 110,138 110,175 340,175 340,138 380,138 380,120 330,120 330,155 140,155 140,128 130,120 0,120" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<line x1="296" y1="40" x2="300" y2="72" stroke="#222" stroke-width="3"/><line x1="296" y1="140" x2="300" y2="108" stroke="#222" stroke-width="3"/><rect x="296" y="70" width="10" height="40" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g transform="translate(296,90)"><g><polyline points="0,0 -3,0 -8.1,-16 -18.4,16 -28.6,-16 -38.9,16 -49.1,-16 -59.4,16 -69.6,-16 -79.9,16 -85,0 -88,0" fill="none" stroke="#222" stroke-width="3" vector-effect="non-scaling-stroke"/></g></g>
+<circle cx="174" cy="90" r="34" fill="#fde2c4" stroke="#222" stroke-width="3"></circle>
+<path d="M5,80 L115,80 C150,40 200,32 250,42 L290,52 C312,70 330,80 378,82" fill="none" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 9" marker-end="url(#ah)"/><path d="M5,100 L115,100 C150,140 200,148 250,138 L290,128 C312,110 330,100 378,98" fill="none" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 9" marker-end="url(#ah)"/>
+</g>
+<g transform="translate(437,56) scale(0.86)"><polygon points="0,60 130,60 140,25 330,25 330,60 380,60 380,120 330,120 330,155 140,155 130,120 0,120" fill="#cfe3f5"/><polygon points="0,42 110,42 110,5 340,5 340,42 380,42 380,60 330,60 330,25 140,25 140,52 130,60 0,60" fill="url(#hatch)" stroke="#222" stroke-width="3"/><polygon points="0,138 110,138 110,175 340,175 340,138 380,138 380,120 330,120 330,155 140,155 140,128 130,120 0,120" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<line x1="296" y1="40" x2="300" y2="72" stroke="#222" stroke-width="3"/><line x1="296" y1="140" x2="300" y2="108" stroke="#222" stroke-width="3"/><rect x="296" y="70" width="10" height="40" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g transform="translate(296,90)"><g><polyline points="0,0 -3,0 -9.9,-16 -23.6,16 -37.4,-16 -51.1,16 -64.9,-16 -78.6,16 -92.4,-16 -106.1,16 -113,0 -116,0" fill="none" stroke="#222" stroke-width="3" vector-effect="non-scaling-stroke"/></g></g>
+<circle cx="146" cy="90" r="34" fill="#fde2c4" stroke="#222" stroke-width="3"></circle>
+<line x1="378" y1="78" x2="336" y2="78" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/><line x1="378" y1="102" x2="336" y2="102" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+</g>
+<g transform="translate(37,246) scale(0.86)"><polygon points="0,60 176,60 176,20 310,20 310,60 380,60 380,120 310,120 310,160 176,160 176,120 0,120" fill="#cfe3f5"/><polygon points="0,42 130,42 130,5 330,5 330,42 380,42 380,60 310,60 310,20 176,20 176,60 0,60" fill="url(#hatch)" stroke="#222" stroke-width="3"/><polygon points="0,138 130,138 130,175 330,175 330,138 380,138 380,120 310,120 310,160 176,160 176,120 0,120" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<g transform="rotate(-62 180 52)"><rect x="176" y="50" width="9" height="76" rx="3" fill="#fde2c4" stroke="#222" stroke-width="3"/></g><circle cx="180" cy="52" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="180" cy="52" r="2" fill="#222"/>
+<path d="M5,100 L160,100 C200,118 240,132 280,124 L378,100" fill="none" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 9" marker-end="url(#ah)"/><path d="M5,80 L160,80 C200,100 245,116 285,108 L378,84" fill="none" stroke="#d1495b" stroke-width="3" stroke-dasharray="10 9" marker-end="url(#ah)"/>
+</g>
+<g transform="translate(437,246) scale(0.86)"><polygon points="0,60 176,60 176,20 310,20 310,60 380,60 380,120 310,120 310,160 176,160 176,120 0,120" fill="#cfe3f5"/><polygon points="0,42 130,42 130,5 330,5 330,42 380,42 380,60 310,60 310,20 176,20 176,60 0,60" fill="url(#hatch)" stroke="#222" stroke-width="3"/><polygon points="0,138 130,138 130,175 330,175 330,138 380,138 380,120 310,120 310,160 176,160 176,120 0,120" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<g transform="rotate(0 180 52)"><rect x="176" y="50" width="9" height="76" rx="3" fill="#fde2c4" stroke="#222" stroke-width="3"/></g><circle cx="180" cy="52" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="180" cy="52" r="2" fill="#222"/>
+<line x1="378" y1="78" x2="336" y2="78" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/><line x1="378" y1="102" x2="336" y2="102" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<g font-weight="bold" text-anchor="middle"><text x="200" y="30">→ Forward flow: pushed open</text><text x="600" y="30">← Back-pressure: pressed shut</text></g>
+<text x="200" y="52" text-anchor="middle" font-size="17">ball and spring</text><text x="600" y="52" text-anchor="middle" font-size="17">ball and spring</text>
+<text x="200" y="244" text-anchor="middle" font-size="17">hinged flap</text><text x="600" y="244" text-anchor="middle" font-size="17">hinged flap</text>
+<text x="400" y="438" text-anchor="middle" font-size="18">Forward flow must beat a small cracking pressure · reverse flow only seals it tighter</text>
+</g>
+</svg>
