@@ -424,3 +424,85 @@ drive-in-fixing-pins:
   needs_animation: false
   needs_photo: false
   note: no candidate adds a photo (#1 is a drawing of a coiled pin, the rest are a drill, a gate and a locomotive); a second photo would help
+elastic-band-and-elastic-cord-springs:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+electromagnetic-brake:
+  pictures:
+    - commons: "File:O-2 electromagnetic-power-off-brake1.gif"
+      kind: animation
+      alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched on and pulls the armature plate back.
+    - candidate: 3
+      kind: photo
+      alt: A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle for the motor shaft.
+  needs_animation: false
+  needs_photo: false
+  note: "#3 may be a maker's product render rather than a photo; #1 is a railway yard"
+exact-constraint-mounting:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate (#1) is a six-degrees-of-freedom arrow diagram
+eye-bolts-screw-eyes-and-hooks:
+  pictures:
+    - commons: "File:Anneau de levage CM.tif"
+      kind: photo
+      alt: A heavy forged eye bolt painted red, with a collar (shoulder) between the round eye and the machine thread.
+    - candidate: 2
+      kind: photo
+      alt: A row of screw eyes from large to tiny, each a bent-wire loop on a pointed wood-screw thread.
+    - candidate: 3
+      kind: how-it-works
+      alt: A large screw hook twisted into a wooden post outdoors, its curved hook ready to take a rope or chain.
+  needs_animation: false
+  needs_photo: false
+fin-ray-gripper:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+flexible-drive-shaft:
+  pictures:
+    - commons: "File:2008-05-06 1990 Geo Storm GSi speedometer cable.jpg"
+      kind: photo
+      alt: A car speedometer cable held in a hand, the black casing with a square-ended drive core and a threaded nut at each end.
+    - candidate: 2
+      kind: how-it-works
+      alt: A jeweller's pendant drill, a motor driving a long flexible shaft in a black casing that ends in a pen-like handpiece.
+  needs_animation: true
+  needs_photo: false
+  note: "#7 (drill flexible shaft) is a near-duplicate of #2, left out"
+folded-seam:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: cross-section
+      alt: A magnified cut-away of an early tin can's rim, showing the end and the body edges folded round each other into a tight double seam.
+  needs_animation: false
+  needs_photo: true
+  note: "#2 is an old printed cut-away illustration, not a photo; no real photo of a folded seam among the candidates"
+friction-brake:
+  pictures:
+    - drawn
+    - candidate: 9
+      kind: photo
+      alt: A gold sports-car wheel with a large drilled brake disc behind the spokes and a red brake caliper gripping its edge.
+  needs_animation: false
+  needs_photo: false
+  note: other candidates are mostly tyres, wheels and unrelated photos
+friction-drives-and-cvts:
+  pictures:
+    - drawn
+    - candidate: 3
+      kind: how-it-works
+      alt: An Evans friction cone drive in a museum machine shop, two long opposed cones with a leather ring between them that is slid along to change the speed.
+    - candidate: 1
+      kind: photo
+      alt: The friction-wheel gearing on an old textile machine, a small wheel pressed against the face of a large disc.
+  needs_animation: false
+  needs_photo: false
