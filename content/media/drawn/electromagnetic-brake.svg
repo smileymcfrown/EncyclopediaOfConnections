@@ -41,8 +41,8 @@
 <rect x="250" y="228" width="54" height="32" fill="#d1495b" opacity="0"></rect>
 <circle cx="262" cy="236" r="2" fill="#222"/><circle cx="277" cy="236" r="2" fill="#222"/><circle cx="292" cy="236" r="2" fill="#222"/>
 <circle cx="262" cy="248" r="2" fill="#222"/><circle cx="277" cy="248" r="2" fill="#222"/><circle cx="292" cy="248" r="2" fill="#222"/>
-<polyline points="232.0,92.0 239.7,101.0 247.4,83.0 255.1,101.0 262.9,83.0 270.6,101.0 278.3,83.0 286.0,101.0 293.7,83.0 301.4,101.0 309.1,83.0 316.9,101.0 324.6,83.0 332.3,101.0 340.0,92.0" fill="none" stroke="#222" stroke-width="3"></polyline>
-<polyline points="232.0,288.0 239.7,297.0 247.4,279.0 255.1,297.0 262.9,279.0 270.6,297.0 278.3,279.0 286.0,297.0 293.7,279.0 301.4,297.0 309.1,279.0 316.9,297.0 324.6,279.0 332.3,297.0 340.0,288.0" fill="none" stroke="#222" stroke-width="3"></polyline>
+<polyline points="232,92 239.7,101 247.4,83 255.1,101 262.9,83 270.6,101 278.3,83 286,101 293.7,83 301.4,101 309.1,83 316.9,101 324.6,83 332.3,101 340,92" fill="none" stroke="#222" stroke-width="3"></polyline>
+<polyline points="232,288 239.7,297 247.4,279 255.1,297 262.9,279 270.6,297 278.3,279 286,297 293.7,279 301.4,297 309.1,279 316.9,297 324.6,279 332.3,297 340,288" fill="none" stroke="#222" stroke-width="3"></polyline>
 <rect x="570" y="160" width="80" height="60" rx="4" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
 <g clip-path="url(#cdr)"><rect x="571.5" y="100" width="77" height="200" fill="url(#stripe)"></rect></g>
 <rect x="566" y="154" width="8" height="72" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
