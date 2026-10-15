@@ -1,0 +1,62 @@
+bent-or-twisted-tab-through-a-slot:
+  photos: []
+  note: only museum photos of a bound service-record book were found
+clamp-on-accessory-mount-for-bars-poles-and-edges:
+  photos: []
+  note: candidates are people, houses, apple paintings and shotguns with shell holders, none a clamp-on mount
+cross-halving-slot-joint:
+  photos: []
+  note: halving-joint images are drawings; the museum case (#6) holds a cross halving among many other joints, and the MDF school project (#13) does not clearly show slotted crossings
+face-ratchet:
+  photos: []
+  note: strap ratchets, cars and closed bike hubs only; no face ratchet visible
+friction-welded-plastic:
+  photos: []
+  note: '#1 is friction stir welding of metal, #2 and #3 are plain renders of printed frames'
+heat-set-threaded-insert:
+  photos: []
+  note: food, churches and an extruder with no insert visible
+iris-valve:
+  photos: []
+  note: only an unrelated journal scan
+lamina-emergent-torsional-joint:
+  photos: []
+  note: a satellite photo and origami models only
+magnetic-coupling-and-magnetic-gear:
+  photos:
+    - candidate: 1
+      kind: photo
+      alt: A large red industrial magnetic drive coupling between a grey gearbox and a blue electric motor, joining their two shafts
+  note: the magnets are hidden inside the red housing, and it is probably a slipping eddy-current type, which the entry covers as a related form
+multi-turn-rotation-limiter:
+  photos: []
+  note: all candidates unrelated (landscapes, protests, animals)
+push-on-edge-trim:
+  photos: []
+  note: seals, castles, fur trim and pipe-lining crews; no edge trim
+rolling-contact-joint:
+  photos: []
+  note: railway rolling stock and a leaf spring only
+shock-corded-sectional-pole:
+  photos: []
+  note: soldiers carrying a cable reel, no pole joints
+spur-gear-pair-and-gear-train:
+  photos:
+    - candidate: 8
+      kind: how-it-works
+      alt: Inside a windmill, a large wooden-toothed spur wheel on an upright shaft meshing with a smaller gear on a second upright shaft beside it
+    - candidate: 1
+      kind: photo
+      alt: Close-up of the rusty straight teeth of a big gear interlocking with a smaller gear in an old factory machine
+  note: '#1 is dusty and busy but the meshing teeth are the main subject'
+tape-spring-hinge:
+  photos: []
+  note: tape recorders, duct tape and other unrelated photos only
+universal-joint:
+  photos:
+    - candidate: 28
+      kind: photo
+      alt: A rusty universal joint on farm machinery, its cross-shaped centre piece held between two forks set at right angles to each other
+    - candidate: 15
+      kind: how-it-works
+      alt: A chrome 3/8 inch universal joint for a socket wrench, bent to one side so the square drive and the socket end point in different directions
