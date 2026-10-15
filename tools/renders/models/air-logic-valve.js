@@ -42,9 +42,9 @@ export default {
     parts.push(at(fitting(K), [20, Y, 0], [0, 0, -90]), at(fitting(K), [-20, Y, 0], [0, 0, 90]), at(fitting(K, 4), [0, Y + 4.2, 0]));
     // tubes, 6 mm, running out of the fittings and down onto the bench
     const blue = mat.plastic(0x2f6fd0), black = mat.plastic(0x1c1c1e), r = 3;
-    parts.push(wire([[30, Y, 0], [44, Y, 0], [56, Y - 2, -10], [62, r, -34], [64, r, -60]], r, blue));
-    parts.push(wire([[-30, Y, 0], [-44, Y, 0], [-56, Y - 2, -10], [-62, r, -34], [-64, r, -60]], r, black));
-    parts.push(wire([[0, Y + 16, 0], [0, Y + 28, 0], [0, Y + 33, -10], [0, Y + 18, -34], [0, r, -62]], r, mat.plastic(0xd8a21c)));
+    parts.push(wire([[30, Y, 0], [42, Y, 0], [52, r + 0.5, -6], [58, r, -26], [60, r, -50]], r, blue));
+    parts.push(wire([[-30, Y, 0], [-42, Y, 0], [-52, r + 0.5, -6], [-58, r, -26], [-60, r, -50]], r, black));
+    parts.push(wire([[0, Y + 16, 0], [0, Y + 26, 0], [0, Y + 27, -9], [0, Y + 12, -24], [0, r, -40], [0, r, -55]], r, mat.plastic(0xd8a21c)));
     return group(parts);
   },
 };

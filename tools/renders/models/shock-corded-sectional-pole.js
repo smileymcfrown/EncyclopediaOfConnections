@@ -5,7 +5,7 @@
 const R = 4.25, RI = 3.55, L = 320, GAP = 25; // tube radius, bore, section length, gap at the joint
 export default {
   alt: 'Render of a shock-corded tent pole joint pulled apart: two aluminium pole sections lie end to end, the left one with a silver sleeve (ferrule) on its end, and the black elastic cord running inside them shows in the gap, ready to pull the right-hand tube back into the sleeve.',
-  view: { dir: [0.45, 0.8, 1.0], fill: 4.6, target: [2, 0, 0], light: [-0.3, 1, 0.9] },
+  view: { dir: [0.45, 0.8, 1.0], fill: 4.6, target: [2, 0, 0], light: [-0.2, 0.8, -0.7] },
   build(K) {
     const { group, at, tube, wire, mat } = K;
     const pole = mat.anodised(0x58707f), ferrule = mat.steel();
