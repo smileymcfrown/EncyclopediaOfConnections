@@ -1,6 +1,6 @@
 # adhesives & bonding: Glues (types, by material and use)
 
-19 entries. ⚑ = needs confirming: 0 best guesses and 29 values from text marked [uncertain]
+19 entries. ⚑ = needs confirming: 12 best guesses and 29 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -30,7 +30,18 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
-None.
+- ⚑ **139 Solvent welding**, `weld_material` = plastic or film: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
+- ⚑ **139 Solvent welding**, `also_under` = melt: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
+- ⚑ **142 Double-sided foam tape**, `mounts_on` = wall or ceiling: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
+- ⚑ **142 Double-sided foam tape**, `wall_hold` = tape or pads: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
+- ⚑ **227 Silicone and MS-polymer adhesive sealants**, `seal_use` = seal a still joint, seal a moving shaft: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ **227 Silicone and MS-polymer adhesive sealants**, `seal_material` = plastic, fabric or a gap: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+- ⚑ **230 Stretch-release adhesive strips**, `mounts_on` = wall or ceiling: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
+- ⚑ **230 Stretch-release adhesive strips**, `wall_hold` = tape or pads: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
+- ⚑ **232 Epoxy putty**, `seal_use` = seal a still joint: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ **232 Epoxy putty**, `seal_material` = plastic, fabric or a gap: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+- ⚑ **270 Glued joint design**, `also_under` = control: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
+- ⚑ **391 Iron-on fusible web**, `also_under` = control, overload: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## From research text marked [uncertain]
 

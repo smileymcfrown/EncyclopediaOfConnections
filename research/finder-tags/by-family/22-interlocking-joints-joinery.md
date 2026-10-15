@@ -1,6 +1,6 @@
 # interlocking joints & joinery: Joints for wood, sheet and panels
 
-25 entries. ⚑ = needs confirming: 0 best guesses and 5 values from text marked [uncertain]
+25 entries. ⚑ = needs confirming: 38 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -36,7 +36,44 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
-None.
+- ⚑ **239 Tab-and-slot joint**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **240 T-slot joint**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **241 Snap-lock sheet joint**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **242 Cross-halving slot joint**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **243 Finger joint**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **244 Kerf bending**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **244 Kerf bending**, `opens_by` = swings on a hinge: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ **244 Kerf bending**, `flex_does` = folds like a hinge: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
+- ⚑ **245 Dovetail joint**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **246 Sliding dovetail**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **246 Sliding dovetail**, `slide_kind` = carriage on a rail: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **247 Mortise and tenon**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **248 Butterfly key**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **249 Japanese interlocking joints**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **249 Japanese interlocking joints**, `opens_by` = catch or lever: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ **249 Japanese interlocking joints**, `locks_out` = yes: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
+- ⚑ **250 Knock-down cam-lock and cross-dowel connectors**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **251 Wedge dowel**, `tightens` = parts clamped together: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
+- ⚑ **252 Lever-cam panel connector**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **253 Folded seam**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **253 Folded seam**, `seal_use` = seal a still joint: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ **253 Folded seam**, `seal_material` = metal: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+- ⚑ **254 Bent or twisted tab through a slot**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **255 Clinching**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **255 Clinching**, `seal_use` = seal a still joint: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ **255 Clinching**, `seal_material` = metal: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+- ⚑ **256 Self-clinching fastener**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **271 Butt and lap wood joints**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **272 Dowel and biscuit joints**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **273 Tongue-and-groove joint**, `opens_by` = catch or lever: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ **273 Tongue-and-groove joint**, `locks_out` = no: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
+- ⚑ **274 Blind rivet**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **274 Blind rivet**, `seal_use` = seal a still joint: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ **274 Blind rivet**, `seal_material` = metal: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+- ⚑ **299 Housing and rebate joints**, `sheet_material` = wood: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **345 Tensegrity**, `cord_use` = a fitted part: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ **345 Tensegrity**, `cord_part` = join or grip ends: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
+- ⚑ **345 Tensegrity**, `tightens` = strap, cord or rope: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 
 ## From research text marked [uncertain]
 

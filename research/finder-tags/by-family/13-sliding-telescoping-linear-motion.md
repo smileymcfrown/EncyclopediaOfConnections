@@ -1,6 +1,6 @@
 # sliding, telescoping & linear motion: Slides, telescopes and locks in place
 
-12 entries. ⚑ = needs confirming: 7 best guesses and 4 values from text marked [uncertain]
+12 entries. ⚑ = needs confirming: 27 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -24,12 +24,32 @@ are welcome. Back to the [index](README.md).
 The script was unsure of these values.
 
 - ⚑ **70 Telescoping tube twist lock**, `connects` = tube, rod or extrusion, something to grip: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **70 Telescoping tube twist lock**, `slide_kind` = telescoping tube: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
 - ⚑ **71 Telescoping tube lever lock**, `connects` = tube, rod or extrusion: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **71 Telescoping tube lever lock**, `slide_kind` = telescoping tube: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **71 Telescoping tube lever lock**, `over_centre_use` = clamp or latch: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 - ⚑ **72 Spring button lock**, `connects` = tube, rod or extrusion: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **72 Spring button lock**, `clicks` = clicks: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ **72 Spring button lock**, `slide_kind` = telescoping tube: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **73 Dovetail slide with gib strip**, `slide_kind` = carriage on a rail: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **74 Threadless ball screw**, `slide_kind` = pushed by a screw, chain or crank: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **74 Threadless ball screw**, `straight_drive` = screw: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **75 Reversing screw**, `slide_kind` = pushed by a screw, chain or crank: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **75 Reversing screw**, `straight_drive` = screw: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 - ⚑ **76 Multi-stage slide rigging**, `motion_in` = steady turning, straight push or pull: read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ **76 Multi-stage slide rigging**, `motion_out` = straight push or pull: read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ **76 Multi-stage slide rigging**, `shaft_layout` = –: read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
+- ⚑ **76 Multi-stage slide rigging**, `slide_kind` = pushed by a screw, chain or crank: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **186 Drawer slide**, `slide_kind` = telescoping tube, carriage on a rail: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **187 Ball screw**, `slide_kind` = pushed by a screw, chain or crank: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **187 Ball screw**, `straight_drive` = screw: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **188 Differential screw**, `slide_kind` = pushed by a screw, chain or crank: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **188 Differential screw**, `straight_drive` = screw: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **188 Differential screw**, `adjusts` = fine-tune a tilt: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
+- ⚑ **189 Rigid chain actuator**, `slide_kind` = pushed by a screw, chain or crank: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ **189 Rigid chain actuator**, `straight_drive` = long travel or pulling: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **189 Rigid chain actuator**, `powered_does` = brake, engage or move: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Hold or let go using power > Electricity"
+- ⚑ **265 Linear guides**, `slide_kind` = carriage on a rail: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
 
 ## From research text marked [uncertain]
 

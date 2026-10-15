@@ -1,6 +1,6 @@
 # electrical connections: Joins wires, or connects them to boards, batteries and devices
 
-22 entries. ⚑ = needs confirming: 23 best guesses and 4 values from text marked [uncertain]
+22 entries. ⚑ = needs confirming: 55 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -34,28 +34,60 @@ are welcome. Back to the [index](README.md).
 The script was unsure of these values.
 
 - ⚑ **324 Soldered wire joint**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **324 Soldered wire joint**, `wire_use` = splice: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **329 Battery holder and battery contacts**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **329 Battery holder and battery contacts**, `wire_use` = touching or turning contacts: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **330 Pogo pin**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **330 Pogo pin**, `wire_use` = touching or turning contacts: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **331 Magnetic connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **331 Magnetic connector**, `wire_use` = touching or turning contacts: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **346 Wire-to-board plug connectors**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **346 Wire-to-board plug connectors**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **346 Wire-to-board plug connectors**, `plugs_in` = yes: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
+- ⚑ **347 Crimp terminals**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **347 Crimp terminals**, `plugs_in` = no: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ **348 Crimped butt splice**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **348 Crimped butt splice**, `wire_use` = splice: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **349 Spring-clamp wire connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **349 Spring-clamp wire connector**, `wire_use` = splice: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **350 Screw terminal**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **350 Screw terminal**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **350 Screw terminal**, `plugs_in` = no: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ **351 Wire-end ferrule**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **351 Wire-end ferrule**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **351 Wire-end ferrule**, `plugs_in` = no: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ **352 High-current battery plug**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **352 High-current battery plug**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **352 High-current battery plug**, `plugs_in` = yes: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ **353 Heat-shrink tubing**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **353 Heat-shrink tubing**, `wire_use` = insulate, protect or route: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **354 Solder sleeve**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **354 Solder sleeve**, `wire_use` = splice: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **355 Standard plug-and-socket connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **355 Standard plug-and-socket connector**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **355 Standard plug-and-socket connector**, `plugs_in` = yes: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ **356 Insulation-displacement connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **356 Insulation-displacement connector**, `wire_use` = splice: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **357 Binding post and banana plug**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **357 Binding post and banana plug**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **357 Binding post and banana plug**, `plugs_in` = yes: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ **358 Twist-on wire connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **358 Twist-on wire connector**, `wire_use` = splice: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **359 Conductive thread**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **359 Conductive thread**, `wire_use` = on fabric, paper or a print: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **360 Conductive tape**, `glue_traits` = –: no glue traits found
 - ⚑ **360 Conductive tape**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **360 Conductive tape**, `wire_use` = on fabric, paper or a print: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **361 Conductive glue, paint and ink**, `tools` = hand tools: no tool named in `tools_needed`; defaulted to hand tools
 - ⚑ **361 Conductive glue, paint and ink**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **361 Conductive glue, paint and ink**, `wire_use` = on fabric, paper or a print: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ **362 Flat flexible cable and latching connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **362 Flat flexible cable and latching connector**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **362 Flat flexible cable and latching connector**, `plugs_in` = yes: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
+- ⚑ **362 Flat flexible cable and latching connector**, `seal_use` = pass cables through: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 - ⚑ **363 Wire wrap**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **363 Wire wrap**, `wire_use` = to a board or terminal: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ **363 Wire wrap**, `plugs_in` = no: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 
 ## From research text marked [uncertain]
 

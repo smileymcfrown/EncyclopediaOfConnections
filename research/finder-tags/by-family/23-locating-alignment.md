@@ -1,6 +1,6 @@
 # locating & alignment: Locates parts exactly
 
-6 entries. ⚑ = needs confirming: 5 best guesses and 0 values from text marked [uncertain]
+6 entries. ⚑ = needs confirming: 6 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -22,6 +22,7 @@ The script was unsure of these values.
 - ⚑ **233 Elastic averaging**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ **234 Locating pins and hole-and-slot**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ **235 Exact-constraint mounting**, `connects` = wall, rail, desk or grid: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **235 Exact-constraint mounting**, `adjusts` = fine-tune a tilt: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 
 ## From research text marked [uncertain]
 

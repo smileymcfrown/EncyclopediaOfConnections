@@ -1,6 +1,6 @@
 # snap & clip fits: Snaps or clips together
 
-9 entries. ⚑ = needs confirming: 3 best guesses and 4 values from text marked [uncertain]
+9 entries. ⚑ = needs confirming: 25 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -20,9 +20,31 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
+- ⚑ **44 Cantilever snap fit**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **44 Cantilever snap fit**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ **45 Annular snap fit**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **45 Annular snap fit**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 - ⚑ **46 Torsional snap fit**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **46 Torsional snap fit**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **46 Torsional snap fit**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ **47 Snap pin**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **47 Snap pin**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ **48 Push-in plastic rivet**, `printed_take_apart` = no: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **48 Push-in plastic rivet**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ **172 Press stud**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **172 Press stud**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ **172 Press stud**, `cord_use` = close or attach fabric: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ **173 Spring-steel push-on fasteners**, `printed_take_apart` = no: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **173 Spring-steel push-on fasteners**, `sheet_material` = sheet metal or plastic: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 - ⚑ **259 Retaining ring**, `clicks` = clicks: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ **259 Retaining ring**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **259 Retaining ring**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ **259 Retaining ring**, `shaft_joint` = part onto a shaft: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
+- ⚑ **259 Retaining ring**, `printable` = yes: carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft"
 - ⚑ **368 Push-on edge trim**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **368 Push-on edge trim**, `printed_take_apart` = yes: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ **368 Push-on edge trim**, `threaded` = no: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ **368 Push-on edge trim**, `seal_use` = seal a still joint, pass cables through: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 
 ## From research text marked [uncertain]
 

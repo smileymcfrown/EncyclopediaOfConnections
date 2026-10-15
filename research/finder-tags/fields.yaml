@@ -93,3 +93,254 @@ power:
   kind: one
   meaning: Normalised from the free-text `power`.
   options: [passive, powered, both]
+
+# ---------------------------------------------------------------------------------------------
+# Finder answers (R33). Each field below is one finder question that used to pick entries by name.
+# The value is the entry's answer(s) to it. `set_by: hand`: propose.py keeps these as they are;
+# they started from the old name rules (migrate_r33.py) and can be corrected like any other tag.
+
+printed_take_apart:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Will you need to take it apart again?" (under: Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print).'
+  options: ['no', 'yes', made as fabric or a folding sheet, not applicable]
+
+threaded:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Is there a screw or bolt?" (under: Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes).'
+  options: ['yes', 'no', not applicable]
+
+sheet_material:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What is the sheet made of?" (under: Hold two things together > Boards, panels or sheet > No, never).'
+  options: [wood, sheet metal or plastic, not applicable]
+
+carries_fluid:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Does it carry air or liquid?" (under: Hold two things together > Tube, rod, pole or aluminium extrusion).'
+  options: ['yes', 'no', not applicable]
+
+shaft_joint:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What are you connecting?" (under: Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end).'
+  options: [part onto a shaft, shaft to shaft, not applicable]
+
+printable:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Will you 3D print the part that goes on the shaft?" (under: Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft).'
+  options: ['yes', 'no', not applicable]
+
+shaft_alignment:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How well do the shafts line up?" (under: Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end).'
+  options: [exactly in line, a little out of line, at an angle or a bent path, not applicable]
+
+cord_use:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What do you need?" (under: Hold two things together > Strap, cord, rope or fabric).'
+  options: [close or attach fabric, knots, sew or lace, a fitted part, not applicable]
+
+knot_use:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should the knot do?" (under: Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it).'
+  options: [stop or finish an end, tie on or join, loop or tension, bind or lash, not applicable]
+
+cord_part:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should the part do?" (under: Hold two things together > Strap, cord, rope or fabric > Fit a part).'
+  options: ['hook, link or swivel', join or grip ends, fix to fabric or an edge, not applicable]
+
+opens_by:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How should it open?" (under: Hold two things together > A lid, door or cover that opens and closes).'
+  options: [swings on a hinge, twist, catch or lever, not applicable]
+
+locks_out:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Should it lock, so only the right person can open it?" (under: Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever).'
+  options: ['yes', 'no', not applicable]
+
+mounts_on:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What is it going onto?" (under: Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid).'
+  options: [wall or ceiling, 'bar, pole or desk edge', tripod or stand, 'rail, extrusion or grid', not applicable]
+
+wall_hold:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How should it hold?" (under: Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling).'
+  options: ['screws, anchors or hooks', magnet or suction, tape or pads, not applicable]
+
+gripped_by:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Who does the gripping?" (under: Hold two things together > Something that has to be gripped or clamped).'
+  options: [by hand, machine, not applicable]
+
+weld_material:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What are the parts made of?" (under: Hold two things together > Melt them together).'
+  options: [metal, plastic or film, not applicable]
+
+wire_use:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What are you connecting?" (under: Connect wires or power).'
+  options: [splice, to a board or terminal, touching or turning contacts, 'on fabric, paper or a print', 'insulate, protect or route', not applicable]
+
+plugs_in:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Will you unplug it often?" (under: Connect wires or power > A wire to a board, terminal or device).'
+  options: ['yes', 'no', not applicable]
+
+holds_position:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Should it stay where you put it?" (under: Let something move > Swing or rock, less than a full turn > Yes, print it assembled).'
+  options: ['no', 'yes', not applicable]
+
+drive_does:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What else should it do?" (under: Let something move > Spin round and round > A shaft driving another shaft).'
+  options: [passes the turning on, one way only, changes speed or splits, not applicable]
+
+slide_kind:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What kind of slide?" (under: Let something move > Slide in a straight line, or telescope).'
+  options: [telescoping tube, carriage on a rail, 'pushed by a screw, chain or crank', not applicable]
+
+flex_does:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should the bendy part do?" (under: Let something move > Bend or flex).'
+  options: [folds like a hinge, straight line or spring, grips or snaps, not applicable]
+
+move_kind:
+  kind: list
+  set_by: hand
+  meaning: 'For moving things: swivels or tilts in several directions, or follows a set path.'
+  options: [swivel or tilt, follows a set path, not applicable]
+
+one_way_kind:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "Is clicking OK?" (under: Control a movement > Move one way only > Turns).'
+  options: [clicks, silent, for air or liquid, not applicable]
+
+clicks_do:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should the clicks do?" (under: Control a movement > Click into set positions > Turns).'
+  options: [hold a set position, step forward, not applicable]
+
+holds_for:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should it do?" (under: Control a movement > Stay where I leave it, and let go when I release it > Turns).'
+  options: [a person to open, a load, not applicable]
+
+over_centre_use:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What is it for?" (under: Control a movement > Snap past a point and stay there).'
+  options: [clamp or latch, flip between positions, not applicable]
+
+slows_by:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What do you need?" (under: Control a movement > Slow it down, stop it, or keep its speed steady).'
+  options: [brake, damper, steady speed or level, not applicable]
+
+straight_drive:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What kind of straight-line motion?" (under: Change a movement > Turning into straight-line motion, or back).'
+  options: [screw, crank or cam, long travel or pulling, not applicable]
+
+push_by:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How?" (under: Change a movement > A push or pull moved, multiplied or redirected).'
+  options: [levers and linkages, 'cables, pulleys or liquid', not applicable]
+
+tightens:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What are you tightening?" (under: Tighten something, or take up slack).'
+  options: ['strap, cord or rope', 'belt, chain or cable', parts clamped together, not applicable]
+
+tension_hold:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How should it hold?" (under: Tighten something, or take up slack > A strap, lace, cord or rope).'
+  options: ['ratchet, winch or screw', friction grip, spring or elastic, not applicable]
+
+adjusts:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What do you need?" (under: Line parts up exactly, or adjust and level them).'
+  options: [set and hold, fine-tune a tilt, not applicable]
+
+spring_kind:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How should it push back?" (under: Spring back, or store energy).'
+  options: [straight push or pull, twist or wind, not applicable]
+
+seal_use:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What do you need?" (under: Seal it, or pass cables, air or liquid through).'
+  options: [seal a still joint, seal a moving shaft, pass cables through, join hoses or pipes, pump or control a flow, not applicable]
+
+seal_material:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What are the parts?" (under: Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never).'
+  options: [metal, 'plastic, fabric or a gap', not applicable]
+
+hose_join:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "How is it joined?" (under: Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes).'
+  options: [screwed, 'pushed, clamped or clicked', fused or brazed, not applicable]
+
+fluid_does:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should it do?" (under: Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid).'
+  options: [pump, one way or let off pressure, 'switch, set or store', not applicable]
+
+powered_does:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder question "What should it do?" (under: Hold or let go using power, for each power source).'
+  options: [lock or hold, move or push something, grip or lift, pump or control a flow, brake or engage, not applicable]
+
+also_under:
+  kind: list
+  set_by: hand
+  meaning: Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name).
+  options: [hold together, mount, melt, wires, spin, control, overload, not applicable]
+
+turns:
+  kind: list
+  set_by: hand
+  meaning: 'For things that turn: less than a full turn (swings or rocks) or full turns (spins).'
+  options: [part of a turn, full turns, not applicable]

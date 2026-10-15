@@ -7,28 +7,28 @@ flowchart LR
   q0 --> a1
   q2{"What are you joining?"}
   a1 --> q2
-  a3["3D-printed parts, or screws, nuts and magnets into a print · 28"]
+  a3["3D-printed parts, or screws, nuts and magnets into a print · 27"]
   q2 --> a3
   class a3 more
-  a4["Boards, panels or sheet (wood, plywood, acrylic, sheet metal) · 40"]
+  a4["Boards, panels or sheet (wood, plywood, acrylic, sheet metal) · 37"]
   q2 --> a4
   class a4 more
-  a5["Tube, rod, pole or aluminium extrusion · 12"]
+  a5["Tube, rod, pole or aluminium extrusion · 13"]
   q2 --> a5
   class a5 more
-  a6["A wheel, gear or arm onto a shaft, or two shafts end to end · 26"]
+  a6["A wheel, gear or arm onto a shaft, or two shafts end to end · 23"]
   q2 --> a6
   class a6 more
-  a7["Strap, cord, rope or fabric · 32"]
+  a7["Strap, cord, rope or fabric · 37"]
   q2 --> a7
   class a7 more
-  a8["A lid, door or cover that opens and closes · 30"]
+  a8["A lid, door or cover that opens and closes · 32"]
   q2 --> a8
   class a8 more
-  a9["Something onto a wall, desk, bar, tripod, rail or grid · 26"]
+  a9["Something onto a wall, desk, bar, tripod, rail or grid · 24"]
   q2 --> a9
   class a9 more
-  a10["Something that has to be gripped or clamped · 12"]
+  a10["Something that has to be gripped or clamped · 13"]
   q2 --> a10
   class a10 more
   a11["Melt them together (weld, braze or solder) · 11"]
@@ -40,7 +40,7 @@ flowchart LR
   a13["I just want to glue it · 19"]
   q2 --> a13
   class a13 more
-  a14["Any solid parts / something else · 18"]
+  a14["Any solid parts / something else · 20"]
   q2 --> a14
   class a14 more
   a15["Connect wires or power (electrical connections) · 30"]
@@ -113,16 +113,16 @@ flowchart LR
   a40["Faster, slower or stronger turning · 21"]
   q39 --> a40
   class a40 more
-  a41["Turning into straight-line motion, or back · 27"]
+  a41["Turning into straight-line motion, or back · 29"]
   q39 --> a41
   class a41 more
-  a42(["Steady turning into steps, or into rocking · 7"])
+  a42(["Steady turning into steps, or into rocking · 6"])
   q39 --> a42
   class a42 leaf
-  a43["A push or pull moved, multiplied or redirected · 14"]
+  a43["A push or pull moved, multiplied or redirected · 9"]
   q39 --> a43
   class a43 more
-  a44(["Make movement from air, liquid, suction or heat · 8"])
+  a44(["Make movement from air, liquid, suction or heat · 7"])
   q39 --> a44
   class a44 leaf
   a45["Tighten something, or take up slack · 33"]
@@ -187,16 +187,16 @@ flowchart LR
   q0 --> a67
   q68{"What will power it?"}
   a67 --> q68
-  a69["Electricity · 11"]
+  a69["Electricity · 24"]
   q68 --> a69
   class a69 more
-  a70(["Compressed air · 8"])
+  a70["Compressed air · 17"]
   q68 --> a70
-  class a70 leaf
-  a71(["Liquid (hydraulics, water) · 6"])
+  class a70 more
+  a71["Liquid (hydraulics, water) · 13"]
   q68 --> a71
-  class a71 leaf
-  a72(["Suction (vacuum) · 6"])
+  class a71 more
+  a72(["Suction (vacuum) · 9"])
   q68 --> a72
   class a72 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
@@ -208,18 +208,18 @@ flowchart LR
 ```mermaid
 flowchart LR
   q73{"What are you joining?"}
-  a74["3D-printed parts, or screws, nuts and magnets into a print · 28"]
+  a74["3D-printed parts, or screws, nuts and magnets into a print · 27"]
   q73 --> a74
   q75{"Will you need to take it apart again?"}
   a74 --> q75
   a76(["No, never (permanent) · 10"])
   q75 --> a76
   class a76 leaf
-  a77["Yes · 16"]
+  a77["Yes · 15"]
   q75 --> a77
   q78{"Is there a screw or bolt?"}
   a77 --> q78
-  a79(["Yes · 7"])
+  a79(["Yes · 6"])
   q78 --> a79
   class a79 leaf
   a80(["No (clips, pins, rings, magnets) · 9"])
@@ -228,7 +228,7 @@ flowchart LR
   a81(["It is fabric, chain mail or a folding sheet made in the print · 3"])
   q75 --> a81
   class a81 leaf
-  a82["Boards, panels or sheet (wood, plywood, acrylic, sheet metal) · 40"]
+  a82["Boards, panels or sheet (wood, plywood, acrylic, sheet metal) · 37"]
   q73 --> a82
   q83{"Will you need to take it apart again?"}
   a82 --> q83
@@ -242,48 +242,48 @@ flowchart LR
   a87(["Sheet metal or plastic sheet · 10"])
   q85 --> a87
   class a87 leaf
-  a88["Now and then, with a tool · 18"]
+  a88["Now and then, with a tool · 16"]
   q83 --> a88
   q89{"What is the sheet made of?"}
   a88 --> q89
-  a90(["Wood or plywood · 9"])
+  a90(["Wood or plywood · 10"])
   q89 --> a90
   class a90 leaf
-  a91(["Sheet metal, plastic or laser-cut sheet · 9"])
+  a91(["Sheet metal, plastic or laser-cut sheet · 6"])
   q89 --> a91
   class a91 leaf
-  a92(["Often, by hand, without tools · 4"])
+  a92(["Often, by hand, without tools · 3"])
   q83 --> a92
   class a92 leaf
-  a93["Tube, rod, pole or aluminium extrusion · 12"]
+  a93["Tube, rod, pole or aluminium extrusion · 13"]
   q73 --> a93
   q94{"Does it carry air or liquid?"}
   a93 --> q94
   a95(["Yes (hoses, pipes and tubing) · 4"])
   q94 --> a95
   class a95 leaf
-  a96(["No (frames, poles and rails) · 8"])
+  a96(["No (frames, poles and rails) · 9"])
   q94 --> a96
   class a96 leaf
-  a97["A wheel, gear or arm onto a shaft, or two shafts end to end · 26"]
+  a97["A wheel, gear or arm onto a shaft, or two shafts end to end · 23"]
   q73 --> a97
   q98{"What are you connecting?"}
   a97 --> q98
-  a99["A wheel, gear, pulley or arm onto a shaft · 15"]
+  a99["A wheel, gear, pulley or arm onto a shaft · 14"]
   q98 --> a99
   q100{"Will you 3D print the part that goes on the shaft?"}
   a99 --> q100
   a101(["Yes · 6"])
   q100 --> a101
   class a101 leaf
-  a102(["No, it is metal or bought · 9"])
+  a102(["No, it is metal or bought · 8"])
   q100 --> a102
   class a102 leaf
-  a103["Two shafts end to end · 12"]
+  a103["Two shafts end to end · 10"]
   q98 --> a103
   q104{"How well do the shafts line up?"}
   a103 --> q104
-  a105(["Exactly in line · 5"])
+  a105(["Exactly in line · 3"])
   q104 --> a105
   class a105 leaf
   a106(["A little out of line (needs some give) · 4"])
@@ -292,7 +292,7 @@ flowchart LR
   a107(["At an angle, or along a bent path · 3"])
   q104 --> a107
   class a107 leaf
-  a108["Strap, cord, rope or fabric · 32"]
+  a108["Strap, cord, rope or fabric · 37"]
   q73 --> a108
   q109{"What do you need?"}
   a108 --> q109
@@ -315,10 +315,10 @@ flowchart LR
   a116(["Bind or lash things together · 3"])
   q112 --> a116
   class a116 leaf
-  a117(["Sew or lace it · 4"])
+  a117(["Sew or lace it · 5"])
   q109 --> a117
   class a117 leaf
-  a118["Fit a part (buckle, hook, shackle, grommet, rivet) · 14"]
+  a118["Fit a part (buckle, hook, shackle, grommet, rivet) · 19"]
   q109 --> a118
   q119{"What should the part do?"}
   a118 --> q119
@@ -331,7 +331,7 @@ flowchart LR
   a122(["Fix it to fabric or leather, or hold a fabric edge · 4"])
   q119 --> a122
   class a122 leaf
-  a123["A lid, door or cover that opens and closes · 30"]
+  a123["A lid, door or cover that opens and closes · 32"]
   q73 --> a123
   q124{"How should it open?"}
   a123 --> q124
@@ -341,11 +341,11 @@ flowchart LR
   a126(["Twist a lid, knob or fastener · 6"])
   q124 --> a126
   class a126 leaf
-  a127["Press, pull or flip a catch or lever · 14"]
+  a127["Press, pull or flip a catch or lever · 16"]
   q124 --> a127
   q128{"Should it lock, so only the right person can open it?"}
   a127 --> q128
-  a129(["Yes (key, code, hidden catch or safety lock) · 5"])
+  a129(["Yes (key, code, hidden catch or safety lock) · 7"])
   q128 --> a129
   class a129 leaf
   a130(["No, it just has to stay shut · 9"])
@@ -354,15 +354,15 @@ flowchart LR
   a131(["By power (button, remote, timer) · 3"])
   q124 --> a131
   class a131 leaf
-  a132["Something onto a wall, desk, bar, tripod, rail or grid · 26"]
+  a132["Something onto a wall, desk, bar, tripod, rail or grid · 24"]
   q73 --> a132
   q133{"What is it going onto?"}
   a132 --> q133
-  a134["A wall or ceiling · 15"]
+  a134["A wall or ceiling · 13"]
   q133 --> a134
   q135{"How should it hold?"}
   a134 --> q135
-  a136(["Screws, anchors, hooks or slots · 7"])
+  a136(["Screws, anchors, hooks or slots · 5"])
   q135 --> a136
   class a136 leaf
   a137(["Magnet or suction · 5"])
@@ -377,14 +377,14 @@ flowchart LR
   a140(["A tripod, camera or light stand · 3"])
   q133 --> a140
   class a140 leaf
-  a141(["A rail, extrusion or grid · 6"])
+  a141(["A rail, extrusion or grid · 5"])
   q133 --> a141
   class a141 leaf
-  a142["Something that has to be gripped or clamped · 12"]
+  a142["Something that has to be gripped or clamped · 13"]
   q73 --> a142
   q143{"Who does the gripping?"}
   a142 --> q143
-  a144(["I tighten it by hand (clamp, chuck, wedge) · 6"])
+  a144(["I tighten it by hand (clamp, chuck, wedge) · 7"])
   q143 --> a144
   class a144 leaf
   a145(["A robot or machine (gripper) · 6"])
@@ -407,23 +407,23 @@ flowchart LR
   q73 --> a151
   q152{"What are you gluing?"}
   a151 --> q152
-  a153["3D-printed plastic (PLA, PETG, ABS) or resin prints · 15"]
+  a153["3D-printed plastic (PLA, PETG, ABS) or resin prints · 12"]
   q152 --> a153
   q154{"What matters most?"}
   a153 --> q154
-  a155(["Strongest bond · 8"])
+  a155(["Strongest bond · 6"])
   q154 --> a155
   class a155 leaf
-  a156(["Stays flexible, or seals too · 5"])
+  a156(["Stays flexible, or seals too · 4"])
   q154 --> a156
   class a156 leaf
-  a157(["Fills gaps, or builds up a shape · 6"])
+  a157(["Fills gaps, or builds up a shape · 5"])
   q154 --> a157
   class a157 leaf
-  a158(["Can be undone later · 4"])
+  a158(["Can be undone later · 3"])
   q154 --> a158
   class a158 leaf
-  a159(["Slippery plastics (polyethylene, polypropylene, silicone) · 6"])
+  a159(["Slippery plastics (polyethylene, polypropylene, silicone) · 7"])
   q152 --> a159
   class a159 leaf
   a160["Wood, paper or card · 13"]
@@ -477,14 +477,14 @@ flowchart LR
   a178(["Two different materials (e.g. a print onto wood) · 19"])
   q152 --> a178
   class a178 leaf
-  a179["Any solid parts / something else · 18"]
+  a179["Any solid parts / something else · 20"]
   q73 --> a179
   q180{"Where can you reach?"}
   a179 --> q180
   a181(["Only one side, or only the end of a tube or shaft · 9"])
   q180 --> a181
   class a181 leaf
-  a182(["Both sides · 4"])
+  a182(["Both sides · 6"])
   q180 --> a182
   class a182 leaf
   a183(["It does not matter · 5"])
@@ -727,19 +727,19 @@ flowchart LR
   q264 --> a265
   q266{"How are the input and output shafts arranged?"}
   a265 --> q266
-  a267(["Side by side (parallel) · 10"])
+  a267(["Side by side (parallel) · 9"])
   q266 --> a267
   class a267 leaf
   a268(["At an angle (e.g. 90 degrees) · 7"])
   q266 --> a268
   class a268 leaf
-  a269(["In line (one straight through the other) · 7"])
+  a269(["In line (one straight through the other) · 6"])
   q266 --> a269
   class a269 leaf
-  a270(["Far apart, or the path bends (belts, cables, chains) · 5"])
+  a270(["Far apart, or the path bends (belts, cables, chains) · 3"])
   q266 --> a270
   class a270 leaf
-  a271["Turning into straight-line motion, or back · 27"]
+  a271["Turning into straight-line motion, or back · 29"]
   q264 --> a271
   q272{"What kind of straight-line motion?"}
   a271 --> q272
@@ -752,20 +752,20 @@ flowchart LR
   a275(["Long travel, or pulling (rack, belt, chain, cable, rope) · 10"])
   q272 --> a275
   class a275 leaf
-  a276(["Steady turning into steps, or into rocking · 7"])
+  a276(["Steady turning into steps, or into rocking · 6"])
   q264 --> a276
   class a276 leaf
-  a277["A push or pull moved, multiplied or redirected · 14"]
+  a277["A push or pull moved, multiplied or redirected · 9"]
   q264 --> a277
   q278{"How?"}
   a277 --> q278
-  a279(["Levers and linkages · 9"])
+  a279(["Levers and linkages · 5"])
   q278 --> a279
   class a279 leaf
-  a280(["Cables, ropes, pulleys or liquid in tubes · 5"])
+  a280(["Cables, ropes, pulleys or liquid in tubes · 3"])
   q278 --> a280
   class a280 leaf
-  a281(["Make movement from air, liquid, suction or heat · 8"])
+  a281(["Make movement from air, liquid, suction or heat · 7"])
   q264 --> a281
   class a281 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
@@ -899,25 +899,48 @@ flowchart LR
 ```mermaid
 flowchart LR
   q318{"What will power it?"}
-  a319["Electricity · 11"]
+  a319["Electricity · 24"]
   q318 --> a319
   q320{"What should it do?"}
   a319 --> q320
   a321(["Lock, latch or hold by magnet, and let go on command · 6"])
   q320 --> a321
   class a321 leaf
-  a322(["Brake, engage, switch or move something · 5"])
+  a322(["Move or push something (motors, actuators, artificial muscles) · 7"])
   q320 --> a322
   class a322 leaf
-  a323(["Compressed air · 8"])
-  q318 --> a323
+  a323(["Pump, switch or control air or liquid · 7"])
+  q320 --> a323
   class a323 leaf
-  a324(["Liquid (hydraulics, water) · 6"])
-  q318 --> a324
+  a324(["Brake, clutch or grip · 4"])
+  q320 --> a324
   class a324 leaf
-  a325(["Suction (vacuum) · 6"])
+  a325["Compressed air · 17"]
   q318 --> a325
-  class a325 leaf
+  q326{"What should it do?"}
+  a325 --> q326
+  a327(["Push, pull, bend or turn something (cylinders, air muscles) · 7"])
+  q326 --> a327
+  class a327 leaf
+  a328(["Grip or lift something (grippers, air bearings) · 5"])
+  q326 --> a328
+  class a328 leaf
+  a329(["Switch, pump or control the air (valves, pumps) · 5"])
+  q326 --> a329
+  class a329 leaf
+  a330["Liquid (hydraulics, water) · 13"]
+  q318 --> a330
+  q331{"What should it do?"}
+  a330 --> q331
+  a332(["Push, lift, bend or fold something · 8"])
+  q331 --> a332
+  class a332 leaf
+  a333(["Pump, switch or control the liquid · 5"])
+  q331 --> a333
+  class a333 leaf
+  a334(["Suction (vacuum) · 9"])
+  q318 --> a334
+  class a334 leaf
   classDef leaf fill:#e6f4ea,stroke:#2e7d32
   classDef more fill:#fff4e5,stroke:#b26a00
 ```

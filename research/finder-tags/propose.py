@@ -463,6 +463,10 @@ def propose(i, it):
     mi, mo, sl, n, used = motions(d)
     for k, val in (('motion_in', mi), ('motion_out', mo), ('shaft_layout', sl)):
         put(k, val, n, 'input_output', used)
+    if rx(r'belt drive|chain and sprocket|capstan cable|flexible drive shaft', name) and 'far apart' not in sl:
+        # R33: a belt, chain, cable or flexible shaft carries the turning between shafts that can be far apart
+        put('shaft_layout', [x for x in sl if x != 'not applicable'] + ['far apart'],
+            'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts')
     v, n = overload(sb, name, family)
     put('overload_response', v, n, 'special_behaviour', sb_items('torque-limiting|fail-safe') if v != 'not applicable' else None)
     v, n = clicks(sb, name, family, d)
@@ -512,8 +516,16 @@ FlowLists.add_representer(list, lambda d, v: d.represent_sequence(
     'tag:yaml.org,2002:seq', v, flow_style=all(isinstance(x, str) for x in v)))
 
 
+HAND = [k for k, v in FIELDS.items() if v.get('set_by') == 'hand']   # finder answers kept as they are (R33)
+
+
 def merge(e, old):
-    """Keep what a person has confirmed or corrected (the fields listed in `confirmed`, or `all`)."""
+    """Keep what a person has confirmed or corrected (the fields listed in `confirmed`, or `all`), and the
+    fields set by hand (`set_by: hand` in fields.yaml: the finder answers, R33), with their marks."""
+    for k in HAND:
+        e['tags'][k] = old['tags'].get(k, ['not applicable'])
+        if k in (old.get('needs_confirming') or {}):
+            e['needs_confirming'][k] = old['needs_confirming'][k]
     conf = old.get('confirmed') or []
     if not conf:
         return e
@@ -536,6 +548,9 @@ def main():
         e = propose(i, it)
         if i in old and old[i]['name'] == it['name']:
             e = merge(e, old[i])
+        else:
+            for k in HAND:
+                e['tags'][k] = ['not applicable']   # a new entry: set its finder answers by hand (README.md)
         validate(e)
         out.append(e)
     hdr = ('# Finder tags (P3). Written by propose.py from the run 2 results; the options for each field are in fields.yaml.\n'

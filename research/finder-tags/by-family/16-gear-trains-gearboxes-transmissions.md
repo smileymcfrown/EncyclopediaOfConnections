@@ -1,6 +1,6 @@
 # gear trains, gearboxes & transmissions: Changes speed or turning force
 
-18 entries. ⚑ = needs confirming: 3 best guesses and 5 values from text marked [uncertain]
+18 entries. ⚑ = needs confirming: 24 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -14,11 +14,11 @@ are welcome. Back to the [index](README.md).
 | 97 | Differential | – | none | – | steady turning | steady turning | at an angle, in line | slips and keeps going | – | hand tools | heavy | 3D print (FDM) | no ⚑ | removable |
 | 98 | Bevel gears | – | none | – | steady turning | steady turning | at an angle, crossed | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
 | 99 | Herringbone and helical gears | – | none | – | steady turning | steady turning | parallel, at an angle, crossed | – | – | hand tools | heavy | 3D print (FDM) | no | removable |
-| 100 | Belt drives | – | none | – | steady turning | steady turning, straight push or pull | parallel, crossed | slips and keeps going | – | soldering iron, welding or brazing torch, hand tools | heavy | off-the-shelf part | yes | removable |
-| 101 | Capstan cable drive | – | none | – | back-and-forth turning | back-and-forth turning | parallel | – | – | crimper, hand tools ⚑ | heavy | 3D print (FDM) | yes | removable |
+| 100 | Belt drives | – | none | – | steady turning | steady turning, straight push or pull | parallel, crossed, far apart ⚑ | slips and keeps going | – | soldering iron, welding or brazing torch, hand tools | heavy | off-the-shelf part | yes | removable |
+| 101 | Capstan cable drive | – | none | – | back-and-forth turning | back-and-forth turning | parallel, far apart ⚑ | – | – | crimper, hand tools ⚑ | heavy | 3D print (FDM) | yes | removable |
 | 102 | Bowden cable | – | none | – | straight push or pull | straight push or pull | – | – | – | crimper, sewing or leather tools, hand tools ⚑ | medium | off-the-shelf part | yes | removable |
 | 201 | Anti-backlash gear | – | none | – | steady turning | steady turning | parallel | – | – | hand tools | light | off-the-shelf part | yes | removable |
-| 202 | Chain and sprocket drive | – | none | – | steady turning | steady turning, straight push or pull | parallel | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
+| 202 | Chain and sprocket drive | – | none | – | steady turning | steady turning, straight push or pull | parallel, far apart ⚑ | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
 | 203 | Non-circular gears | – | none | – | steady turning | steady turning | parallel | – | – | hand tools ⚑ | medium | 3D print (FDM) | no | removable |
 | 204 | Lantern gear | – | none | – | steady turning | steady turning, straight push or pull | parallel, at an angle | – | – | drill and tap, press or vice, power tools, hand tools | heavy | laser cut | partly | removable |
 | 205 | Friction drives and CVTs | – | none | – | steady turning | steady turning, straight push or pull | parallel, at an angle, in line | slips and keeps going | silent | hand tools | heavy | 3D print (FDM) | yes | removable |
@@ -29,9 +29,30 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
+- ⚑ **16 Worm drive**, `one_way_kind` = silent: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
+- ⚑ **16 Worm drive**, `holds_for` = a load: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 - ⚑ **93 Planetary gear set**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **93 Planetary gear set**, `drive_does` = changes speed or splits: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
+- ⚑ **93 Planetary gear set**, `turns` = full turns: carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
+- ⚑ **97 Differential**, `drive_does` = changes speed or splits: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
+- ⚑ **97 Differential**, `turns` = full turns: carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
+- ⚑ **99 Herringbone and helical gears**, `drive_does` = changes speed or splits: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
+- ⚑ **99 Herringbone and helical gears**, `turns` = full turns: carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
+- ⚑ **100 Belt drives**, `shaft_layout` = parallel, crossed, far apart: worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
+- ⚑ **100 Belt drives**, `straight_drive` = long travel or pulling: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **101 Capstan cable drive**, `shaft_layout` = parallel, far apart: worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
+- ⚑ **102 Bowden cable**, `push_by` = cables, pulleys or liquid: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
+- ⚑ **202 Chain and sprocket drive**, `shaft_layout` = parallel, far apart: worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
+- ⚑ **202 Chain and sprocket drive**, `straight_drive` = long travel or pulling: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **204 Lantern gear**, `straight_drive` = long travel or pulling: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ **205 Friction drives and CVTs**, `straight_drive` = long travel or pulling: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 - ⚑ **206 Pulley system**, `clicks` = clicks: the text uses both clicking and silent words
+- ⚑ **206 Pulley system**, `holds_for` = a load: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
+- ⚑ **206 Pulley system**, `push_by` = cables, pulleys or liquid: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
+- ⚑ **206 Pulley system**, `tightens` = parts clamped together: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 - ⚑ **267 Spur gear pair and gear train**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **267 Spur gear pair and gear train**, `drive_does` = changes speed or splits: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
+- ⚑ **267 Spur gear pair and gear train**, `turns` = full turns: carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## From research text marked [uncertain]
 
