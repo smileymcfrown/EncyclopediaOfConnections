@@ -30,6 +30,8 @@ for e in tree.E:   # as tree.py's own test does
     d = json.load(open(tree.RESULTS + e['file']))
     e['materials_raw'] = d['finder_attributes']['materials']
 EXA = tree.load_examples()
+HAND = {k for k, v in yaml.safe_load(open(os.path.join(ROOT, 'research', 'finder-tags', 'fields.yaml'))).items()
+        if v.get('set_by') == 'hand'}
 
 
 def front(fn):
@@ -73,7 +75,9 @@ def main():
             pages[fm['num']] = {
                 'num': fm['num'], 'page': fn[:-3], 'title': fm['title'],
                 'description': fm['description'], 'family': fm['family'], 'other_families': fm['other_families'],
-                'finder': fm['finder'], 'needs_confirming': sorted(fm['needs_confirming']),
+                # the finder answers set by hand (R33) are already in finder-tree.json's entry lists
+                'finder': {k: v for k, v in fm['finder'].items() if k not in HAND},
+                'needs_confirming': sorted(k for k in fm['needs_confirming'] if k not in HAND),
                 'image': (fm.get('image') or {}).get('still') or (fm.get('image') or {}).get('file')}   # cards show a still
     leaves = []
     t = node(tree.TREE, tree.E, (), {}, leaves)
