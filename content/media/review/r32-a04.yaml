@@ -47,6 +47,12 @@ shape-memory-alloy-wire-latch:
   needs_animation: false
   needs_photo: true
   note: "Only candidate (#1 Nitinol draht.jpg) is a bundle of thick nitinol rods, not a latch."
+shear-pin-coupling:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "Candidates do not show the joint clearly: #1 a sailor measuring a shear pin on a lathe, #2 a dark powerhouse photo, #3 a plain flange coupling."
 shims-spacers-and-standoffs:
   pictures:
     - commons: "File:Metal shims.jpg"
