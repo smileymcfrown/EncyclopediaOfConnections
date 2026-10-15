@@ -1,0 +1,378 @@
+# R32 picture choices, batch b00 (see the pick brief). Per page: ordered pictures (at most 3).
+air-bearing-and-air-caster:
+  pictures:
+    - commons: "File:Aircaster.gif"
+      kind: animation
+      alt: An animated cut-away of an air caster under a load, its ring-shaped bags filling with air until the load lifts on a thin film of air above the floor.
+  needs_animation: false
+  needs_photo: true
+  note: the only other candidate (#2) is a line drawing of a nozzle air bearing, not a photo
+air-logic-valve:
+  pictures:
+    - commons: "File:Shuttle valve action principle cross section.gif"
+      kind: animation
+      alt: An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet so the air always reaches the one outlet.
+  needs_animation: false
+  needs_photo: true
+  note: the only other candidate (#2) is a flat diagram of a fluidic AND/XOR gate
+air-or-hydraulic-cylinder:
+  pictures:
+    - commons: "File:Einfachwirkender Zylinder funktionsprinziep.gif"
+      kind: animation
+      alt: An animated cut-away of a single-acting cylinder, air let in behind the piston pushing the rod out and a spring pushing it back when the air is let out.
+    - candidate: 1
+      kind: how-it-works
+      alt: A silver telescoping air cylinder shown twice, squashed down into a short can and stretched out into a tall stack of eight nested tubes.
+    - candidate: 2
+      kind: photo
+      alt: A flight simulator cabin standing on six long hydraulic cylinders that push and tilt it.
+  needs_animation: false
+  needs_photo: false
+  note: "#2 shows the cylinders as legs of a whole machine; no close photo of a plain cylinder among the candidates"
+anti-twister-mechanism:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate (#1, the belt trick) is a related demonstration, not this mechanism; drawn animation used instead
+ball-and-socket-joint:
+  pictures:
+    - commons: "File:KugelgelenkSchnitt.jpg"
+      kind: cross-section
+      alt: A car ball joint with its socket cut open, showing the round ball on the end of a threaded stud sitting in a cup inside the housing.
+    - candidate: 3
+      kind: photo
+      alt: A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on top.
+  needs_animation: true
+  needs_photo: false
+ball-caster:
+  pictures:
+    - commons: "File:BallTransferUnitCrossSection.png"
+      kind: cross-section
+      alt: A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held in by a blue lip.
+    - candidate: 5
+      kind: cross-section
+      alt: A real pressed-steel ball transfer unit sawn in half, showing the large ball resting on a ring of small balls in its cup.
+    - candidate: 13
+      kind: how-it-works
+      alt: The underside of a small two-wheeled robot, with a little metal ball caster at the front acting as its third wheel.
+  needs_animation: true
+  needs_photo: false
+basic-knots:
+  pictures:
+    - commons: "File:Square knot.svg"
+      kind: diagram
+      alt: A drawing of a reef knot, a red cord and a blue cord each folded back and looped through the other.
+    - candidate: 6
+      kind: how-it-works
+      alt: Four white macrame cords hanging from a wooden rod, each tied with a basic knot, the top row finished and the bottom row loosened to show how it is made.
+    - candidate: 11
+      kind: photo
+      alt: White cords tied in chains of half hitches, hanging from a wooden rod.
+  needs_animation: false
+  needs_photo: false
+basic-latches:
+  pictures:
+    - commons: "File:Öffnen eines Riegels.gif"
+      kind: animation
+      alt: An animation of a slide bolt being opened, the bolt turned up out of its slot and slid back out of the catch.
+    - candidate: 1
+      kind: photo
+      alt: A metal slide bolt screwed to a wooden door, its bar pushed across into a catch on the frame.
+  needs_animation: false
+  needs_photo: false
+  note: the other candidates are electronic latch chips, insects and unrelated photos
+bellows-boot-and-way-cover:
+  pictures:
+    - commons: "File:2008-04-23 Cracked CV boot.jpg"
+      kind: photo
+      alt: The black pleated rubber boot on a car drive shaft joint, held on by a metal band clamp, with a split in one of its folds.
+    - candidate: 2
+      kind: photo
+      alt: A car's front wheel hub with the wheel removed, showing the pleated rubber boot covering the drive shaft joint where it meets the hub.
+  needs_animation: true
+  needs_photo: false
+  note: "#3 is a train's gangway bellows between carriages, left out as a different use"
+belt-drives:
+  pictures:
+    - commons: "File:Power transmission belt.gif"
+      kind: animation
+      alt: An animation of a belt running round two pulleys, the driving pulley turning the other one through the belt.
+    - candidate: 11
+      kind: how-it-works
+      alt: An old milling machine driven by wide flat belts running over a set of stepped pulleys.
+    - candidate: 8
+      kind: photo
+      alt: Black toothed (timing) belts hanging on a rack, their teeth on the inside where they mesh with the pulleys.
+  needs_animation: false
+  needs_photo: false
+belt-tensioner:
+  pictures:
+    - commons: "File:Kettenspanner für Singlespeed-Räder.jpg"
+      kind: photo
+      alt: A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against the slack lower run of the chain.
+    - candidate: 3
+      kind: photo
+      alt: A car engine's automatic belt tensioner, a smooth idler pulley on a spring-loaded arm pressing on the ribbed drive belt.
+  needs_animation: true
+  needs_photo: false
+bent-or-twisted-tab-through-a-slot:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: both candidates are archaeological finds (a handle, a bead), not tab-and-slot joints
+bernoulli-gripper:
+  pictures:
+    - commons: "File:Bernoulli Gripper.png"
+      kind: diagram
+      alt: A diagram of a Bernoulli gripper, air blown down the middle of the pad and out sideways in a thin stream, with arrows showing the object below being lifted.
+    - candidate: 3
+      kind: how-it-works
+      alt: Three photos of a gripper blowing smoke-filled air, showing the thin jet of air spreading out sideways from under the pad.
+  needs_animation: false
+  needs_photo: false
+  note: "#3 is a modified jet gripper for textiles; the only photo on the sheet, the rest are diagrams"
+bevel-gears:
+  pictures:
+    - commons: "File:Gear - Bevel (PSF).png"
+      kind: diagram
+      alt: A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner.
+    - candidate: 18
+      kind: cross-section
+      alt: A loader axle cut open at a trade show, showing the bevel gears inside that turn the drive from the prop shaft through a right angle to the wheels.
+    - candidate: 4
+      kind: photo
+      alt: A pair of big red-painted bevel gears on an old grain mill, one gear's teeth fitted with wooden inserts, meshing at a right angle.
+  needs_animation: true
+  needs_photo: false
+binding-knots-and-seizings:
+  pictures:
+    - commons: "File:Constrictor-ABOK-1249.jpg"
+      kind: how-it-works
+      alt: Four photos in a row showing the steps of tying a constrictor knot in blue cord round a rope.
+    - candidate: 2
+      kind: photo
+      alt: The eye at the end of a sailing boat's forestay, its two ropes bound together by three tight round seizings of thin cord.
+    - candidate: 4
+      kind: photo
+      alt: Blue cables bundled together with neat spot ties of white lacing tape knotted at intervals.
+  needs_animation: false
+  needs_photo: false
+binding-post-and-banana-plug:
+  pictures:
+    - commons: "File:BindingPostRed.jpg"
+      kind: photo
+      alt: A red binding post with its knurled plastic cap screwed onto a threaded metal post, a solder tag on the back.
+    - candidate: 4
+      kind: how-it-works
+      alt: A red and a black banana plug pushed into the binding posts on the back of a loudspeaker.
+    - candidate: 2
+      kind: photo
+      alt: A red and a blue stackable banana plug on test leads, each with a springy metal pin and a socket in its side for another plug.
+  needs_animation: false
+  needs_photo: false
+blind-threaded-fixings:
+  pictures:
+    - commons: "File:Blindklinkmoer opengewerkt met bout.jpg"
+      kind: cross-section
+      alt: A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body.
+    - candidate: 3
+      kind: photo
+      alt: Two rubber well nuts, one showing its flanged head and one its end with the brass threaded insert moulded inside.
+    - candidate: 2
+      kind: photo
+      alt: A stainless steel rivet nut seen from the side and from the end, a short ribbed tube with a flange and a threaded hole.
+  needs_animation: false
+  needs_photo: false
+bowden-cable:
+  pictures:
+    - commons: "File:Bowden.jpg"
+      kind: cross-section
+      alt: A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the inner wire.
+    - candidate: 4
+      kind: how-it-works
+      alt: A bicycle gear cable running in its black outer sleeve to a rear derailleur, where the inner wire leaves the sleeve and is clamped to the derailleur arm.
+    - candidate: 2
+      kind: photo
+      alt: The end of a Bowden cable fitted with a barrel adjuster, a threaded sleeve stop with the inner wire coming out of it.
+  needs_animation: true
+  needs_photo: false
+butterfly-key:
+  pictures:
+    - commons: "File:Butterfly-joint.JPG"
+      kind: photo
+      alt: A dark bow-tie-shaped wooden key set flush into a board across a crack, its wide ends on either side.
+    - candidate: 5
+      kind: photo
+      alt: A dark wooden floor whose planks are joined with walnut pegs and bow-tie keys set into the surface.
+  needs_animation: false
+  needs_photo: false
+  note: "#5 is dim and the keys are small in it; every other candidate is a butterfly or unrelated"
+cable-carrier:
+  pictures:
+    - commons: "File:Cable drag chain unsupported 3D animated.gif"
+      kind: animation
+      alt: An animated cable carrier chain rolling over itself in a U-shaped loop as its free end moves back and forth.
+    - candidate: 3
+      kind: photo
+      alt: A black plastic cable carrier chain bent in a U, made of hollow hinged links, with metal mounting brackets on both ends.
+    - candidate: 12
+      kind: photo
+      alt: A closed metal cable carrier chain bent round in a U, its links covered so the cables inside are hidden.
+  needs_animation: false
+  needs_photo: false
+cable-gland-and-strain-relief:
+  pictures:
+    - commons: "File:M16 cable gland.jpg"
+      kind: photo
+      alt: A white nylon cable gland shown whole and in parts, its threaded body with clamping fingers and the domed cap nut that squeezes them.
+    - candidate: 1
+      kind: cross-section
+      alt: A rendered armoured-cable gland pulled apart into its labelled parts, with a second view cut away to show the cable clamped and sealed inside.
+    - candidate: 6
+      kind: how-it-works
+      alt: Several thick cables entering the top of a metal box through black plastic cable glands.
+  needs_animation: false
+  needs_photo: false
+cam-and-follower:
+  pictures:
+    - commons: "File:Nockenwelle ani.gif"
+      kind: animation
+      alt: An animated camshaft turning, its two egg-shaped cams pushing two followers up and letting them drop in turn.
+    - candidate: 9
+      kind: photo
+      alt: A metal plate from a record player taken apart, with a lever whose tip rides on the edge of a black cam wheel.
+    - candidate: 11
+      kind: photo
+      alt: A home-built cam and follower made from perforated metal kit parts, a green cam wheel pushing an upright follower.
+  needs_animation: false
+  needs_photo: false
+cam-buckle:
+  pictures:
+    - commons: "File:Spanngurt mit Klemmverschluss.jpg"
+      kind: photo
+      alt: A tie-down strap with a cam buckle, the webbing passing between the frame and the spring-loaded toothed cam that grips it.
+  needs_animation: true
+  needs_photo: false
+  note: every candidate is an archaeological buckle or unrelated; only the current photo shows a cam buckle (a second photo would help)
+cam-latch:
+  pictures:
+    - commons: "File:Electronic-cam-lock.jpg"
+      kind: photo
+      alt: A small round cam lock with a threaded body and nut, and the flat arm (cam) on the back that turns to hook behind the frame.
+    - candidate: 4
+      kind: photo
+      alt: A chrome quarter-turn cam latch with a double-bit key socket in its face and a cranked arm on the back.
+  needs_animation: true
+  needs_photo: false
+capstan-cable-drive:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: all candidates are tape-recorder capstans (a tape drive roller), a different thing from a cable capstan drive
+captive-nut-pocket:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are a heap of loose nuts and a moth; no photo of a nut in a printed pocket
+chicago-screw:
+  pictures:
+    - commons: "File:Buchbinderschraube zum verbinden von zwei Lederstücken.jpg"
+      kind: photo
+      alt: The smooth round head of a Chicago screw holding two pieces of dark leather together, with a screwdriver slot across it.
+    - candidate: 2
+      kind: how-it-works
+      alt: Several Chicago screws in brass, nickel and black, some taken apart to show the hollow threaded post and the short screw that goes into it.
+    - candidate: 3
+      kind: photo
+      alt: Steel sleeve nuts with their screws laid out on wood, some screwed together and some apart, showing the long internally threaded sleeve.
+  needs_animation: false
+  needs_photo: false
+clamp-on-tube-fittings:
+  pictures:
+    - commons: "File:Basic kee klamp.jpg"
+      kind: photo
+      alt: A cast metal tee fitting joining two lengths of plain steel tube at a right angle, with a set screw in the socket wall.
+  needs_animation: false
+  needs_photo: false
+  note: no candidate shows a tube fitting (bikes, engines, wall pipe clips); a second photo would help
+click-pen-mechanism:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are locomotives, a music box and telegraph registers, none show a click-pen mechanism
+clip-on-concealed-hinge:
+  pictures:
+    - commons: "File:Scharnier 06.gif"
+      kind: animation
+      alt: An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage swings the door open clear of the cabinet.
+  needs_animation: false
+  needs_photo: true
+  note: no other candidates
+coil-spring:
+  pictures:
+    - commons: "File:Helical compression spring parameters.svg"
+      kind: diagram
+      alt: A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked.
+    - candidate: 9
+      kind: how-it-works
+      alt: An old motorcycle saddle sitting on a pair of chrome coil springs that squash as the rider sits down.
+    - candidate: 10
+      kind: photo
+      alt: A pale fibreglass-and-epoxy coil spring lying on a blue background, its thick round wire wound into a helix.
+  needs_animation: true
+  needs_photo: false
+combination-lock:
+  pictures:
+    - commons: "File:Combination discs.png"
+      kind: diagram
+      alt: A drawing of the stack of notched wheels inside a combination lock, with their notches lined up so the bar can drop in.
+    - candidate: 2
+      kind: how-it-works
+      alt: Close-up of a cable lock's three numbered wheels turned to a combination, beside the shackle they hold.
+    - candidate: 3
+      kind: photo
+      alt: Close-up of the black numbered dial of a combination padlock, with the steel shackle behind it.
+  needs_animation: true
+  needs_photo: false
+contact-adhesive:
+  pictures:
+    - commons: "File:Contact-cement 000000.jpg"
+      kind: photo
+      alt: A tin of contact cement, the rubber-based glue spread on both surfaces and left to go tacky before they are pressed together.
+    - candidate: 1
+      kind: photo
+      alt: A yellow tube of Butapren contact adhesive with a black cap.
+  needs_animation: false
+  needs_photo: false
+  note: no photo of the glue being spread or a bonded joint among the candidates (rest are paper models and unrelated)
+cord-lock:
+  pictures:
+    - commons: "File:Cord-lock.jpg"
+      kind: photo
+      alt: Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top.
+    - candidate: 3
+      kind: how-it-works
+      alt: A black cord lock on a jacket's drawcord, the elastic cord passing through the barrel and ending in a round toggle.
+    - candidate: 4
+      kind: photo
+      alt: Close-up of a cord lock with the elastic drawcord running through the hole in its barrel and plunger.
+  needs_animation: true
+  needs_photo: false
+crimped-butt-splice:
+  pictures:
+    - commons: "File:ESC and Motor Wires and Butt Connectors.JPG"
+      kind: photo
+      alt: Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined.
+    - candidate: 2
+      kind: how-it-works
+      alt: A finished butt splice, two wires crimped into each end of an insulated connector tube, lying on squared notepaper.
+    - candidate: 3
+      kind: photo
+      alt: A ratcheting crimp tool and wire strippers laid out with blue butt splice connectors, a motor and its controller.
+  needs_animation: false
+  needs_photo: false

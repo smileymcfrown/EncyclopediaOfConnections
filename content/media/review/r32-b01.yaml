@@ -1,0 +1,437 @@
+# R32 picture choices, batch b01 (see the pick brief). Per page: ordered pictures (at most 3).
+friction-welded-plastic:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+gas-spring:
+  pictures:
+    - commons: "File:Gas-spring simplified numbered 120.png"
+      kind: cross-section
+      alt: A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube.
+    - candidate: 2
+      kind: how-it-works
+      alt: An office-chair gas spring taken apart on a wooden table, with its long rod, black outer tube, seals and washers laid out.
+    - candidate: 8
+      kind: photo
+      alt: A gas spring fitted to a red lifting barrier, its rod pushed out to hold the barrier open.
+  needs_animation: true
+  needs_photo: false
+  note: no candidate animation of a gas spring and no drawn diagram, so the cut-away render stays first
+gear-pump:
+  pictures:
+    - commons: "File:Gear pump animation.gif"
+      kind: animation
+      alt: An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round the outside from one side to the other.
+    - candidate: 11
+      kind: cross-section
+      alt: A blue internal gear pump with part of its case cut away, showing the small gear turning inside the ring gear.
+    - candidate: 8
+      kind: photo
+      alt: A rendered gear pump pulled apart, showing the two gears, their shafts, bearings and the end covers with their bolts.
+  needs_animation: false
+  needs_photo: false
+gearless-right-angle-drive:
+  pictures:
+    - commons: "File:ElbowEngine.gif"
+      kind: animation
+      alt: An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning round the corner.
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+geneva-drive:
+  pictures:
+    - commons: "File:Geneva mechanism 6spoke animation.gif"
+      kind: animation
+      alt: An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step each time round and holding it still in between.
+  needs_animation: false
+  needs_photo: true
+  note: every candidate is an animation or chart; no real photo of a Geneva drive
+guy-line-slider:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet; drawn animation exists
+hang-on-mounts:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A French cleat, a wooden strip with a bevelled top edge screwed to a wall, with a shelf hung on a matching strip beside it.
+  needs_animation: false
+  needs_photo: false
+  note: the other candidates are photos of Mount Heng, unrelated
+heat-fused-plastic-pipe:
+  pictures:
+    - commons: "File:Electrofusion coupler(1).jpg"
+      kind: photo
+      alt: A black plastic electrofusion coupler, a short sleeve with heating wire inside and two terminals on top for the welding leads.
+  needs_animation: false
+  needs_photo: false
+  note: only one real photo; none of a pipe being fused
+heat-sealed-seam:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: how-it-works
+      alt: A white impulse bag sealer on a bench, with a hinged arm that presses a heated wire down across a plastic bag.
+    - candidate: 2
+      kind: how-it-works
+      alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
+  needs_animation: false
+  needs_photo: false
+heat-staking:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are tent stakes, food and other unrelated "stake" pictures; #5 is threaded inserts, a different part
+hide-glue:
+  pictures:
+    - commons: "File:Glutinleime-warm.jpg"
+      kind: photo
+      alt: Three small glass jars of warm, runny animal glue in shades of amber, each with a wooden stirring stick.
+    - candidate: 6
+      kind: how-it-works
+      alt: A brush lifting runny, honey-coloured hot hide glue out of a warmed glue pot.
+    - candidate: 2
+      kind: photo
+      alt: An old cast-iron double glue pot, an outer water bath with an inner pot for the glue, shown with a lighter for size.
+  needs_animation: false
+  needs_photo: false
+hirth-joint:
+  pictures:
+    - commons: "File:Hirth joint.jpg"
+      kind: photo
+      alt: A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth on the other crank.
+    - candidate: 3
+      kind: photo
+      alt: A rendered 3D-printable Hirth joint half in blue plastic, with V-shaped teeth on its end face and a hole for a pin.
+  needs_animation: true
+  needs_photo: false
+  note: no animation and no drawn diagram; #2 (a Hirth ring) shows the teeth too small to see
+hitches-to-a-post-rail-ring-or-eye:
+  pictures:
+    - commons: "File:Clove Hitch - ABoK 11 - USCG.jpg"
+      kind: photo
+      alt: A blue rope tied round a wooden post with a clove hitch, two crossing turns that grip the post.
+    - candidate: 2
+      kind: photo
+      alt: A red rope tied to a metal ring with a round turn and two half hitches.
+  needs_animation: false
+  needs_photo: false
+holding-electromagnet:
+  pictures:
+    - commons: "File:Magnetic Lock.jpg"
+      kind: photo
+      alt: An electromagnetic door lock, a long magnet fixed to the door frame with a steel plate on the door that it holds shut.
+    - candidate: 7
+      kind: how-it-works
+      alt: A home-made electromagnet, wire coiled round a steel bolt, holding up a paper clip while current flows through it.
+  needs_animation: false
+  needs_photo: false
+  note: the other candidates are unrelated (space photos, a convention, a cyclotron)
+hollow-wall-anchors:
+  pictures:
+    - commons: "File:Toggle bolts.JPG"
+      kind: photo
+      alt: Spring toggle bolts, each a machine screw with folding metal wings that spring open behind a hollow wall.
+  needs_animation: false
+  needs_photo: false
+  note: "#1 is only the Molly setting tool, not an anchor"
+hose-barb:
+  pictures:
+    - drawn
+    - candidate: 6
+      kind: photo
+      alt: A rendered 3D-printable hose barb in blue plastic, a ridged spigot on one end and a threaded socket on the other.
+  needs_animation: false
+  needs_photo: false
+  note: the only usable photo is a render of a printable part; the PC water-cooling and lab glass photos show barbs too small to see
+hose-clamp:
+  pictures:
+    - commons: "File:Hoseclamps.screw.agr.jpg"
+      kind: photo
+      alt: Several worm-drive hose clamps, steel bands with slots and a small screw housing that tightens them.
+    - candidate: 4
+      kind: how-it-works
+      alt: A close-up of a worm-drive hose clamp's screw housing, its screw thread meshing with the slots in the steel band.
+    - candidate: 14
+      kind: photo
+      alt: Hose clamps tightened round the ends of rubber hoses where they push onto metal spigots on an engine.
+  needs_animation: false
+  needs_photo: false
+housing-and-rebate-joints:
+  pictures:
+    - commons: "File:Woodworking-joint-dado.svg"
+      kind: diagram
+      alt: A drawing of a housing (dado) joint, one board's end sitting in a channel cut across another board.
+  needs_animation: false
+  needs_photo: true
+  note: "#1 shows only dado cutter blades and a saw, not the joint"
+hydraulic-ram-pump:
+  pictures:
+    - commons: "File:Hydraulic Ram.gif"
+      kind: diagram
+      alt: A numbered drawing of a ram pump, with the drive pipe coming in at the bottom, the waste valve, the delivery valve and the air chamber above.
+    - candidate: 12
+      kind: how-it-works
+      alt: A small ram pump working beside a stream, water spurting out of its waste valve as the delivery hose carries water up the bank.
+    - candidate: 11
+      kind: photo
+      alt: A grey cast-iron ram pump on display, with its round air chamber on top and the valve body and drive pipe below.
+  needs_animation: true
+  needs_photo: false
+  note: the current "Hydraulic Ram.gif" is a still picture, not an animation, and there is no drawn diagram
+indexable-clamping-lever:
+  pictures:
+    - commons: "File:01 Klemmhebel 2012.jpg"
+      kind: photo
+      alt: A grey metal clamping lever, a curved handle with a round threaded boss at one end.
+    - candidate: 2
+      kind: photo
+      alt: An older clamping lever with a ball-ended handle, seen from below so its threaded bore is visible.
+  needs_animation: true
+  needs_photo: false
+  note: no candidate shows the toothed coupling inside; no animation or drawn diagram
+indexing-plunger:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are motorcycle "plunger" suspension and unrelated pictures
+inertia-locking-reel:
+  pictures:
+    - commons: "File:Intertial-reel.jpg"
+      kind: how-it-works
+      alt: A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool.
+    - candidate: 2
+      kind: photo
+      alt: A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car.
+  needs_animation: true
+  needs_photo: false
+  note: no animation and no drawn diagram; no cut-away of the locking parts
+interrupted-screw-lock:
+  pictures:
+    - commons: "File:Interrupted breech screw.jpg"
+      kind: diagram
+      alt: A drawing of a gun breech swung open, the plug's thread cut away in sectors to match the smooth gaps in the threaded hole.
+    - candidate: 3
+      kind: how-it-works
+      alt: A real gun breech swung open, showing the interrupted threads on the plug and the matching threaded and smooth sectors in the barrel end.
+    - candidate: 9
+      kind: photo
+      alt: A close-up photo of a large coned breech screw with its rows of thread broken by smooth strips.
+  needs_animation: true
+  needs_photo: false
+  note: no animation and no drawn diagram
+japanese-interlocking-joints:
+  pictures:
+    - commons: "File:Lapped gooseneck joint.png"
+      kind: diagram
+      alt: A rendered lapped gooseneck joint, two timber ends pulled apart to show the hooked tongue on one and the matching stepped pocket in the other.
+    - candidate: 1
+      kind: photo
+      alt: A real kanawa-tsugi joint in a museum display, two timbers locked end to end by interlocking cuts with a small wooden key driven through.
+  needs_animation: false
+  needs_photo: false
+keyless-locking-bush:
+  pictures:
+    - commons: "File:Spannsatz-2.jpg"
+      kind: cross-section
+      alt: A cut-away drawing of a locking bush between a shaft and a hub, its tapered inner and outer rings drawn together by screws.
+  needs_animation: false
+  needs_photo: true
+  note: no real photo of a locking bush among the candidates
+labyrinth-seal:
+  pictures:
+    - commons: "File:Labyrinth-seal.png"
+      kind: cross-section
+      alt: A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth.
+  needs_animation: false
+  needs_photo: true
+  note: candidates are letters, speakers and stamp seals, all unrelated
+lead-screw-and-nut:
+  pictures:
+    - commons: "File:Dvd pohon vozika hlavy.jpg"
+      kind: how-it-works
+      alt: The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails.
+    - candidate: 5
+      kind: photo
+      alt: A threaded rod passing through a brass lead nut held in a clear laser-cut acrylic mount.
+  needs_animation: true
+  needs_photo: false
+  note: no animation and no drawn diagram
+leather-and-textile-rivets:
+  pictures:
+    - commons: "File:Closeup of copper rivet on jeans.jpg"
+      kind: photo
+      alt: A close-up of a copper rivet holding the corner of a jeans pocket to the denim.
+  needs_animation: false
+  needs_photo: false
+  note: the other candidates show rivets too small to see (key fob, helmet strap) or are unrelated
+lever-cam-panel-connector:
+  pictures:
+    - commons: "File:Clamex offen.jpg"
+      kind: how-it-works
+      alt: A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels can part.
+    - candidate: 2
+      kind: how-it-works
+      alt: The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together.
+  needs_animation: false
+  needs_photo: true
+  note: both pictures are renders; no real photo of the fitting
+lid-and-flap-stays:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are a patent drawing and a house; drawn animation exists
+magnet-joint:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are superconducting magnets and space pictures, unrelated
+magnetic-assisted-buckle:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: all candidates are scanned letters, unrelated; drawn animation exists
+magnetic-coupling-and-magnetic-gear:
+  pictures:
+    - commons: "File:Magnetgetriebe.png"
+      kind: cross-section
+      alt: A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of steel pole pieces between them.
+  needs_animation: true
+  needs_photo: true
+  note: no animation, no drawn diagram, and the other candidates are unrelated
+melted-plastic-weld:
+  pictures:
+    - candidate: 1
+      kind: how-it-works
+      alt: Two 3D-printed PLA parts being welded together with a soldering iron, which melts a strand of green filament into the seam.
+    - commons: "File:Kunststoffziehschweissen Schweissschuh.jpg"
+      kind: how-it-works
+      alt: A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along.
+  needs_animation: false
+  needs_photo: false
+  note: the maker-scale PLA weld photo (#1) put first because it shows the method hobbyists use; the rest are sculptures and unrelated
+metal-brackets-and-plates:
+  pictures:
+    - commons: "File:Flat and bent angle brackets.png"
+      kind: diagram
+      alt: A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint.
+    - candidate: 2
+      kind: photo
+      alt: Three galvanised steel joist hangers of different shapes, punched with rows of nail holes.
+    - candidate: 3
+      kind: photo
+      alt: A grey steel shelf bracket with a diagonal brace, lying on a wooden surface.
+  needs_animation: false
+  needs_photo: false
+multi-stage-slide-rigging:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet; drawn animation exists
+ordinary-screw-joint:
+  pictures:
+    - commons: "File:Bolted joint with nut.svg"
+      kind: cross-section
+      alt: A cross-section drawing of a bolt passing through clearance holes in two plates and clamping them with a nut.
+    - candidate: 8
+      kind: photo
+      alt: A steel gusset plate on a bridge, fixed to the steel members by a group of bolts with their nuts tightened.
+  needs_animation: false
+  needs_photo: false
+plain-pivot-and-rolling-bearing:
+  pictures:
+    - commons: "File:BallBearing.gif"
+      kind: animation
+      alt: An animation of a ball bearing seen face on, the balls rolling round between the inner and outer rings as the inner ring turns.
+    - candidate: 2
+      kind: cross-section
+      alt: A render of a deep-groove ball bearing cut open, showing the steel balls in their cage between the inner and outer rings and the rubber seals.
+    - candidate: 3
+      kind: cross-section
+      alt: A render of a plain pin joint cut away, a round pin passing through matching holes in a fork and a link so one can turn on the other.
+  needs_animation: false
+  needs_photo: false
+  note: both photos are realistic renders rather than real photos
+pneumatic-artificial-muscle:
+  pictures:
+    - commons: "File:Sam animation-real-muscle.gif"
+      kind: animation
+      alt: An animation of a braided air muscle swelling and getting shorter as air is pumped in, pulling a load up.
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate (a museum robot knee) does not clearly show an air muscle
+posable-segmented-arm:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: photo
+      alt: A close-up of a metal gooseneck lamp arm, a tube made of tightly coiled wire that bends and stays where it is put.
+  needs_animation: false
+  needs_photo: false
+  note: "#2 is the coiled-wire gooseneck type (covered by the entry), not ball-and-socket segments; a photo of a ball-and-socket arm would be better"
+press-fit-and-expanding-inserts:
+  pictures:
+    - commons: "File:Press-in Insert.png"
+      kind: photo
+      alt: A brass press-in threaded insert with a diamond-knurled outside and a slot that lets it spread as the screw goes in.
+  needs_animation: false
+  needs_photo: false
+  note: only one picture; none showing an insert fitted in a part
+press-stud:
+  pictures:
+    - commons: "File:Rivet snap parts.jpg"
+      kind: photo
+      alt: The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap.
+    - candidate: 9
+      kind: how-it-works
+      alt: The back of a sew-on press-stud socket, showing the two spring wires that grip the stud's neck when it is pushed in.
+    - candidate: 2
+      kind: photo
+      alt: A press stud on a leather strap, the stud on one end and the socket on the other, unfastened.
+  needs_animation: false
+  needs_photo: false
+pressure-regulator:
+  pictures:
+    - commons: "File:Single-stage-regulator.svg"
+      kind: cross-section
+      alt: A cross-section drawing of a single-stage regulator, the adjusting spring pressing a diaphragm that opens and closes a small poppet valve.
+    - candidate: 7
+      kind: photo
+      alt: A brass gas-bottle pressure regulator with two dial gauges, a black adjusting knob and a hose outlet.
+  needs_animation: true
+  needs_photo: false
+  note: no animation and no drawn diagram; "#9 air-pressure regulator" actually shows a bus wheel
+pressure-relief-valve:
+  pictures:
+    - commons: "File:Relief Valve.png"
+      kind: cross-section
+      alt: A numbered cross-section drawing of a spring-loaded relief valve, the spring pressing the disc down onto its seat over the inlet.
+    - candidate: 13
+      kind: cross-section
+      alt: A cut-away render of a relief valve, showing the blue spring pushing the red valve onto its seat inside the body.
+    - candidate: 7
+      kind: photo
+      alt: A blue spring-loaded pressure relief valve with a lifting lever, fitted on top of a cooling-water pipe.
+  needs_animation: true
+  needs_photo: false
+  note: no animation and no drawn diagram
+printed-leaf-spring:
+  pictures:
+    - drawn
+    - candidate: 6
+      kind: photo
+      alt: A rusty stacked metal leaf spring under an old railway wagon, its curved steel strips held by a clamp and fixed at each end.
+  needs_animation: false
+  needs_photo: false
+  note: "#6 is a metal vehicle leaf spring, not a 3D-printed one; a photo of a printed plastic leaf spring would be better"
