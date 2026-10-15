@@ -6,9 +6,9 @@
 <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
 </defs>
 <g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
-<rect x="380" y="410" width="150" height="18" fill="url(#hatch)"/>
-<path d="M470,410 L474,330 L486,330 L490,410 Z" fill="#e8e8e8"/>
-<polyline points="428,410 428.3,400 438.5,394.3 418.8,387.7 439,382.3 419.2,375.7 439.4,370.3 419.6,363.6 439.8,358.3 420,351.6 440.2,346.3 420.4,339.6 440.6,334.3 420.8,327.6 441,322.3 421.3,315.6 441.5,310.3 431.7,304 432,294" fill="none" stroke-width="2.5"></polyline>
+<rect x="380" y="398" width="150" height="16" fill="url(#hatch)"/>
+<path d="M470,398 L474,330 L486,330 L490,398 Z" fill="#e8e8e8"/>
+<polyline points="428,398 428.4,388 438.6,383.1 418.8,377.1 439,372.6 419.2,366.6 439.4,362.1 419.6,356.1 439.8,351.6 420,345.6 440.2,341.1 420.4,335.1 440.6,330.6 420.8,324.6 441,320.1 421.2,314.1 441.4,309.6 431.6,304 432,294" fill="none" stroke-width="2.5"></polyline>
 <g><line x1="480" y1="330" x2="400" y2="270" stroke-width="14" stroke="#222"/><line x1="480" y1="330" x2="400" y2="270" stroke-width="8" stroke="#cfe3f5"/><g><circle cx="400" cy="270" r="25" fill="#fde2c4"/><line x1="383" y1="270" x2="417" y2="270" stroke-width="2.5"/><line x1="400" y1="253" x2="400" y2="287" stroke-width="2.5"/><circle cx="400" cy="270" r="5" fill="#fff"/></g></g>
 <circle cx="480" cy="330" r="7" fill="#fff"/><circle cx="480" cy="330" r="2.5" fill="#222"/>
 <g><circle cx="200" cy="190" r="75" fill="#e8e8e8"/><line x1="133" y1="190" x2="267" y2="190" stroke-width="2.5"/><line x1="200" y1="123" x2="200" y2="257" stroke-width="2.5"/><circle cx="200" cy="190" r="5" fill="#fff"/></g>
