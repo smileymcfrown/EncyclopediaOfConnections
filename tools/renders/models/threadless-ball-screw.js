@@ -15,7 +15,7 @@ function hull(pts) {   // convex hull (monotone chain) of [x, y] points, counter
 }
 export default {
   alt: 'Render of a threadless ball screw: a smooth steel rod turned by a stepper motor passes through a 3D-printed nut whose two orange plates hold three ball bearings on bolts, pressed against the rod and tilted slightly so they roll round it in a spiral and drive the nut along.',
-  view: { dir: [0.4, 0.6, 1.3], fill: 1.2, light: [-0.3, 1, 0.8] },
+  view: { dir: [0.95, 0.6, 1.2], fill: 1.12, light: [-0.3, 1, 0.8] },
   build(K) {
     const { group, at, cyl, box, lathe, extrude, hex, mat, THREE } = K;
     const parts = [];

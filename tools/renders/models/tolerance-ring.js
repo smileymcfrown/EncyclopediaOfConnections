@@ -31,12 +31,12 @@ function band(K, { R, t = 0.3, W = 10, n = 14, h, a0, a1 }) {
   g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
   g.setIndex(idx);
   g.computeVertexNormals();
-  const m = K.mat.stainless(); m.side = THREE.DoubleSide;
+  const m = K.mat.stainless(); m.side = THREE.DoubleSide; m.roughness = 0.5;
   return K.mesh(g, m);
 }
 export default {
   alt: 'Render of a tolerance ring: a thin band of spring steel with a row of bumps, curled round a steel shaft and just started into the gap between the shaft and the bore of an aluminium hub, ready to be pushed in; the ring has a small split.',
-  view: { dir: [0.7, 0.75, 1.3], fill: 1.0 },
+  view: { dir: [0.7, 0.75, 1.3], fill: 1.0, light: [0.9, 0.7, 0.5] },
   build(K) {
     const { group, at, lathe, mat } = K;
     const RS = 8, T = 0.3, R0 = RS + T / 2, H = 1.0, BORE = R0 + T / 2 + H;
