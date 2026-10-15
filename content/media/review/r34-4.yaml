@@ -1,0 +1,59 @@
+annular-snap-fit:
+  photos:
+    - candidate: 7
+      kind: photo
+      alt: A 3D-printable male hose connector, a round spigot with a raised ring (bead) around it that snaps into a matching groove in the other half
+  note: a plain CAD render from Thingiverse, not a photo; it shows only the male half with its bead
+capstan-cable-drive:
+  photos: []
+  note: only tape-recorder capstans, a deck winch, knot diagrams and street or house photos named Capstan Drive
+compliant-gripper-and-force-amplifier:
+  photos: []
+  note: only diving weights and handguns, nothing that bends to grip
+electro-permanent-magnet:
+  photos: []
+  note: only ordinary electric motors, posters and space images; no electro-permanent magnet found
+four-bar-linkage:
+  photos: []
+  note: only drawings, animations and photos of bars, pubs and towers; no clear photo of a real four-bar linkage
+guy-line-slider:
+  photos: []
+  note: runners and race photos; the guy-line photos (#16, #17) show no slider
+intermittent-gear:
+  photos: []
+  note: only ordinary or broken gears and unrelated photos; none shows a part-toothed gear
+labyrinth-seal:
+  photos:
+    - candidate: 7
+      kind: photo
+      alt: A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft so the narrow gap zig-zags
+magnet-joint:
+  photos: []
+  note: only physics and space images and doll photos where the magnets cannot be seen
+multi-material-interlock:
+  photos: []
+  note: railway interlocking, interlocking spurs, paving and buildings; nothing printed in two materials
+printing-onto-fabric:
+  photos: []
+  note: '#2 is a 3D-printed woven mesh, but it is not clearly printed onto a fabric, so left out'
+ratchet-tooth-torque-limiter:
+  photos: []
+  note: only a truck and motorbikes
+shape-memory-alloy-wire-latch:
+  photos: []
+  note: graphs, a memory spring being heated, NASA planes and a laptop hinge; no wire latch visible
+split-part-joints-for-large-prints:
+  photos: []
+  note: only loose dowel pins, drawings and unrelated photos; no split printed model
+syringe-hydraulics:
+  photos:
+    - candidate: 20
+      kind: cross-section
+      alt: A car brake wheel cylinder cut open down the middle, showing the pistons and the spring inside the bore that the brake fluid pushes apart
+    - candidate: 9
+      kind: photo
+      alt: A truck clutch master cylinder with its white fluid reservoir on top and a rubber boot over the push rod, the end you push that sends fluid down the pipe
+  note: '#20 is small (350x280); #13 (wheel cylinder taken apart and labelled) is a good fallback'
+tolerance-ring:
+  photos: []
+  note: only photos of an award ceremony for "Toleranzringe" (tolerance prize rings)
