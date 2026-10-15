@@ -1,6 +1,6 @@
 # everyday fasteners & fixings: Screws, nails, pins, wall plugs and other hardware-shop fixings
 
-9 entries. ⚑ = needs confirming: 1 best guesses and 5 values from text marked [uncertain]
+9 entries. ⚑ = needs confirming: 2 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -21,6 +21,7 @@ are welcome. Back to the [index](README.md).
 The script was unsure of these values.
 
 - ⚑ **371 Threaded rod and studs**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ **373 Staples for wood and fabric**, `cord_part` = fix to fabric or an edge: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 
 ## From research text marked [uncertain]
 

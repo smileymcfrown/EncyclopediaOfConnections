@@ -1,6 +1,6 @@
 # brakes, dampers & speed control: Slows it, stops it, or keeps its speed steady
 
-6 entries. ⚑ = needs confirming: 6 best guesses and 2 values from text marked [uncertain]
+6 entries. ⚑ = needs confirming: 7 best guesses and 2 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -23,6 +23,7 @@ The script was unsure of these values.
 - ⚑ **214 Dampers**, `motion_in` = steady turning, straight push or pull: read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ **214 Dampers**, `motion_out` = steady turning: read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ **214 Dampers**, `shaft_layout` = at an angle, in line: read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
+- ⚑ **215 Elastomer isolation mount**, `mounts_on` = wall or ceiling: carried over from the old rule on entry names (R33); checked against the entry text and still unsure: it fixes a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the places fits well
 
 ## From research text marked [uncertain]
 

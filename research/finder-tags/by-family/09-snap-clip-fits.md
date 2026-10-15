@@ -1,6 +1,6 @@
 # snap & clip fits: Snaps or clips together
 
-9 entries. ⚑ = needs confirming: 3 best guesses and 4 values from text marked [uncertain]
+9 entries. ⚑ = needs confirming: 4 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -21,6 +21,7 @@ are welcome. Back to the [index](README.md).
 The script was unsure of these values.
 
 - ⚑ **46 Torsional snap fit**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **48 Push-in plastic rivet**, `threaded` = no: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ **259 Retaining ring**, `clicks` = clicks: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
 - ⚑ **368 Push-on edge trim**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
 

@@ -1,6 +1,6 @@
 # interlocking joints & joinery: Joints for wood, sheet and panels
 
-25 entries. ⚑ = needs confirming: 0 best guesses and 5 values from text marked [uncertain]
+25 entries. ⚑ = needs confirming: 1 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -36,7 +36,7 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
-None.
+- ⚑ **273 Tongue-and-groove joint**, `opens_by` = catch or lever: carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding lid opens by sliding, which none of the three answers covers; 'catch or lever' is wrong, but dropping it would lose sliding-lid boxes from the lid shortlist
 
 ## From research text marked [uncertain]
 

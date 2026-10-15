@@ -61,8 +61,14 @@
   - Hold two things together (they stay still)
   - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
   - No, never (permanent)
-  - Sheet metal or plastic sheet
-  example: a riveted aluminium panel, a steel box held by bent tabs, a heat-staked plastic cover
+  - Sheet metal
+  example: a riveted aluminium panel, a steel box held by bent tabs, a folded-seam duct
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - No, never (permanent)
+  - Plastic sheet (acrylic, or laser-cut sheet)
+  example: a heat-staked plastic cover, a glued-up laser-cut acrylic box, a push-in rivet holding a plastic panel
 - path:
   - Hold two things together (they stay still)
   - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
@@ -265,14 +271,8 @@
   - Hold two things together (they stay still)
   - Something onto a wall, desk, bar, tripod, rail or grid
   - A wall or ceiling
-  - Magnet or suction
-  example: a magnetic knife strip, a suction-cup shower caddy
-- path:
-  - Hold two things together (they stay still)
-  - Something onto a wall, desk, bar, tripod, rail or grid
-  - A wall or ceiling
-  - Sticky tape or pads
-  example: a stick-on hook, removable picture-hanging strips
+  - Magnet, suction cup or sticky tape (no holes)
+  example: a magnetic knife strip, a suction-cup shower caddy, a stick-on hook
 - path:
   - Hold two things together (they stay still)
   - Something onto a wall, desk, bar, tripod, rail or grid
@@ -637,8 +637,7 @@
 - path:
   - Control a movement (one way only, clicks, slips, locks, slows)
   - Move one way only (stop it going back)
-  - Turns
-  - It is for air or liquid (one-way valves)
+  - It is air or liquid flowing (one-way valves)
   example: a bike-pump valve, a non-return valve on an aquarium air line
 - path:
   - Control a movement (one way only, clicks, slips, locks, slows)
@@ -912,8 +911,12 @@
   example: a printed leaf spring in a clip, a wave washer, a coil spring
 - path:
   - Spring back, or store energy
-  - Twist back (torsion), or wind up
-  example: a clock spring, a self-closing gate hinge, a clothes peg
+  - Twist back (torsion)
+  example: a self-closing gate hinge, a clothes peg, a mousetrap spring
+- path:
+  - Spring back, or store energy
+  - Wind up or store energy, then let it go (clock spring, flywheel, trigger)
+  example: a wind-up toy or clock, a friction-motor toy car, a catapult trigger
 - path:
   - Seal it, or pass cables, air or liquid through
   example: a waterproof box lid, a cable through the wall of a box, a hose onto a tap
@@ -1011,8 +1014,43 @@
 - path:
   - Hold or let go using power (electric, air or suction)
   - Electricity
-  - Brake, engage, switch or move something
-  example: the electromagnetic clutch on a car's air-con, a motor brake
+  - Move or push something (motors, actuators, artificial muscles)
+  example: a motor-driven window opener, a robot finger pulled by a twisted string
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Electricity
+  - Pump, switch or control air or liquid
+  example: a fish-tank pump, the solenoid valve that lets water into a washing machine
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Electricity
+  - Brake, clutch or grip
+  example: the electromagnetic clutch on a car's air-con, a motor brake, a suction cup on a robot arm
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Compressed air
+  - Push, pull, bend or turn something (cylinders, air muscles)
+  example: the air cylinder that closes a bus door, a soft robot finger that curls when inflated
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Compressed air
+  - Grip or lift something (grippers, air bearings)
+  example: a suction-cup gripper on a pick-and-place machine, an air-hockey puck floating on air
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Compressed air
+  - Switch, pump or control the air (valves, pumps)
+  example: the valve on a pneumatic machine, a hand-squeezed bulb on a blood-pressure cuff
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Liquid (hydraulics, water)
+  - Push, lift, bend or fold something
+  example: a hydraulic car jack, a printed sheet that folds itself in hot water
+- path:
+  - Hold or let go using power (electric, air or suction)
+  - Liquid (hydraulics, water)
+  - Pump, switch or control the liquid
+  example: a garden fountain pump, a syringe pump dosing liquid on a lab bench
 - path:
   - Hold or let go using power (electric, air or suction)
   - Compressed air

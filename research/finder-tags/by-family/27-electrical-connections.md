@@ -1,6 +1,6 @@
 # electrical connections: Joins wires, or connects them to boards, batteries and devices
 
-22 entries. ⚑ = needs confirming: 23 best guesses and 4 values from text marked [uncertain]
+22 entries. ⚑ = needs confirming: 25 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -40,6 +40,7 @@ The script was unsure of these values.
 - ⚑ **346 Wire-to-board plug connectors**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **348 Crimped butt splice**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **349 Spring-clamp wire connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **349 Spring-clamp wire connector**, `plugs_in` = no: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ **350 Screw terminal**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **351 Wire-end ferrule**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **352 High-current battery plug**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
@@ -47,6 +48,7 @@ The script was unsure of these values.
 - ⚑ **354 Solder sleeve**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **355 Standard plug-and-socket connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **356 Insulation-displacement connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ **356 Insulation-displacement connector**, `plugs_in` = yes: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ **357 Binding post and banana plug**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **358 Twist-on wire connector**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ **359 Conductive thread**, `load_max` = light: electrical entry whose mechanical load has no light/medium/heavy band; set to light

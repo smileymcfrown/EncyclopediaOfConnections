@@ -1,0 +1,6023 @@
+# R33 (2026-10-15): every finder answer carried over from the old rules on entry names, checked by
+# helper agents against the entry text. ok and change lose their needs-confirming mark; unsure keeps it.
+# Nobody has confirmed these one by one; corrections are welcome (edit tags.yaml, see README.md).
+- num: 1
+  name: Ratcheting reel closure (dial lacing system)
+  field: one_way_kind
+  verdict: ok
+  was: &id001
+  - clicks
+  now: *id001
+- num: 1
+  name: Ratcheting reel closure (dial lacing system)
+  field: tightens
+  verdict: ok
+  was: &id002
+  - strap, cord or rope
+  now: *id002
+- num: 1
+  name: Ratcheting reel closure (dial lacing system)
+  field: tension_hold
+  verdict: ok
+  was: &id003
+  - ratchet, winch or screw
+  now: *id003
+- num: 2
+  name: Ratchet-tooth torque limiter (clicking torque-limiting cap or knob)
+  field: tightens
+  verdict: ok
+  was: &id004
+  - parts clamped together
+  now: *id004
+- num: 4
+  name: Friction slip clutch (slip coupling, slipper clutch)
+  field: slows_by
+  verdict: ok
+  was: &id005
+  - steady speed or level
+  now: *id005
+- num: 5
+  name: Torque-limiting gear with flexing spring arms (compliant slip hub)
+  field: shaft_joint
+  verdict: ok
+  was: &id006
+  - part onto a shaft
+  now: *id006
+- num: 5
+  name: Torque-limiting gear with flexing spring arms (compliant slip hub)
+  field: printable
+  verdict: ok
+  was: &id007
+  - 'yes'
+  now: *id007
+- num: 6
+  name: Shear-pin coupling (breakaway link)
+  field: shaft_joint
+  verdict: change
+  was:
+  - shaft to shaft
+  now:
+  - shaft to shaft
+  - part onto a shaft
+  why: the main example is a shear pin through a propeller hub or collar on its shaft, so it also joins a part onto
+    a shaft
+- num: 6
+  name: Shear-pin coupling (breakaway link)
+  field: shaft_alignment
+  verdict: ok
+  was: &id008
+  - exactly in line
+  now: *id008
+- num: 7
+  name: Ratchet and pawl (incl. reversible ratchet)
+  field: one_way_kind
+  verdict: ok
+  was: &id009
+  - clicks
+  now: *id009
+- num: 7
+  name: Ratchet and pawl (incl. reversible ratchet)
+  field: clicks_do
+  verdict: ok
+  was: &id010
+  - step forward
+  now: *id010
+- num: 8
+  name: Linear ratchet (cable-tie ratchet)
+  field: tightens
+  verdict: ok
+  was: &id011
+  - strap, cord or rope
+  - parts clamped together
+  now: *id011
+- num: 8
+  name: Linear ratchet (cable-tie ratchet)
+  field: tension_hold
+  verdict: ok
+  was: &id012
+  - ratchet, winch or screw
+  now: *id012
+- num: 9
+  name: Face ratchet (star ratchet, face-engagement ratchet)
+  field: drive_does
+  verdict: ok
+  was: &id013
+  - one way only
+  now: *id013
+- num: 9
+  name: Face ratchet (star ratchet, face-engagement ratchet)
+  field: one_way_kind
+  verdict: ok
+  was: &id014
+  - clicks
+  now: *id014
+- num: 9
+  name: Face ratchet (star ratchet, face-engagement ratchet)
+  field: turns
+  verdict: ok
+  was: &id015
+  - full turns
+  now: *id015
+- num: 10
+  name: Sprag clutch
+  field: drive_does
+  verdict: ok
+  was: &id016
+  - one way only
+  now: *id016
+- num: 10
+  name: Sprag clutch
+  field: one_way_kind
+  verdict: ok
+  was: &id017
+  - silent
+  now: *id017
+- num: 10
+  name: Sprag clutch
+  field: turns
+  verdict: ok
+  was: &id018
+  - full turns
+  now: *id018
+- num: 11
+  name: Roller clutch (one-way bearing)
+  field: drive_does
+  verdict: ok
+  was: &id019
+  - one way only
+  now: *id019
+- num: 11
+  name: Roller clutch (one-way bearing)
+  field: one_way_kind
+  verdict: ok
+  was: &id020
+  - silent
+  now: *id020
+- num: 11
+  name: Roller clutch (one-way bearing)
+  field: turns
+  verdict: ok
+  was: &id021
+  - full turns
+  now: *id021
+- num: 12
+  name: Wrap-spring clutch (spring clutch)
+  field: drive_does
+  verdict: ok
+  was: &id022
+  - one way only
+  now: *id022
+- num: 12
+  name: Wrap-spring clutch (spring clutch)
+  field: one_way_kind
+  verdict: ok
+  was: &id023
+  - silent
+  now: *id023
+- num: 12
+  name: Wrap-spring clutch (spring clutch)
+  field: turns
+  verdict: ok
+  was: &id024
+  - full turns
+  now: *id024
+- num: 13
+  name: Compliant ratchet and overrunning clutch (flexure pawl)
+  field: one_way_kind
+  verdict: ok
+  was: &id025
+  - clicks
+  now: *id025
+- num: 13
+  name: Compliant ratchet and overrunning clutch (flexure pawl)
+  field: clicks_do
+  verdict: ok
+  was: &id026
+  - step forward
+  now: *id026
+- num: 15
+  name: Bidirectional anti-back-drive clutch (reverse-input blocking clutch)
+  field: drive_does
+  verdict: change
+  was:
+  - one way only
+  now:
+  - passes the turning on
+  why: it drives the output both ways at 1:1 and only blocks the load from back-driving; it is not a one-way drive
+- num: 15
+  name: Bidirectional anti-back-drive clutch (reverse-input blocking clutch)
+  field: one_way_kind
+  verdict: ok
+  was: &id027
+  - silent
+  now: *id027
+- num: 15
+  name: Bidirectional anti-back-drive clutch (reverse-input blocking clutch)
+  field: holds_for
+  verdict: ok
+  was: &id028
+  - a load
+  now: *id028
+- num: 15
+  name: Bidirectional anti-back-drive clutch (reverse-input blocking clutch)
+  field: turns
+  verdict: ok
+  was: &id029
+  - full turns
+  now: *id029
+- num: 16
+  name: Worm drive (worm and worm wheel)
+  field: one_way_kind
+  verdict: ok
+  was: &id030
+  - silent
+  now: *id030
+- num: 16
+  name: Worm drive (worm and worm wheel)
+  field: holds_for
+  verdict: ok
+  was: &id031
+  - a load
+  now: *id031
+- num: 17
+  name: Lead screw and nut (incl. anti-backlash nut)
+  field: straight_drive
+  verdict: ok
+  was: &id032
+  - screw
+  now: *id032
+- num: 18
+  name: Half nut (split nut, quick-action nut)
+  field: straight_drive
+  verdict: ok
+  was: &id033
+  - screw
+  now: *id033
+- num: 19
+  name: Over-centre linkage (toggle linkage)
+  field: over_centre_use
+  verdict: change
+  was:
+  - clamp or latch
+  now:
+  - clamp or latch
+  - flip between positions
+  why: entry also names folding legs, braces and stands that lock straight, which is the flip-and-stay answer
+- num: 20
+  name: Toggle clamp
+  field: gripped_by
+  verdict: ok
+  was: &id034
+  - by hand
+  now: *id034
+- num: 20
+  name: Toggle clamp
+  field: over_centre_use
+  verdict: ok
+  was: &id035
+  - clamp or latch
+  now: *id035
+- num: 21
+  name: Draw latch (over-centre latch)
+  field: opens_by
+  verdict: ok
+  was: &id036
+  - catch or lever
+  now: *id036
+- num: 21
+  name: Draw latch (over-centre latch)
+  field: locks_out
+  verdict: ok
+  was: &id037
+  - 'no'
+  now: *id037
+- num: 21
+  name: Draw latch (over-centre latch)
+  field: over_centre_use
+  verdict: ok
+  was: &id038
+  - clamp or latch
+  now: *id038
+- num: 22
+  name: Eccentric cam lever (cam clamp, quick-release skewer)
+  field: gripped_by
+  verdict: ok
+  was: &id039
+  - by hand
+  now: *id039
+- num: 22
+  name: Eccentric cam lever (cam clamp, quick-release skewer)
+  field: holds_for
+  verdict: ok
+  was: &id040
+  - a load
+  now: *id040
+- num: 22
+  name: Eccentric cam lever (cam clamp, quick-release skewer)
+  field: over_centre_use
+  verdict: ok
+  was: &id041
+  - clamp or latch
+  now: *id041
+- num: 23
+  name: Bistable compliant mechanism (snap-through switch or hinge)
+  field: flex_does
+  verdict: ok
+  was: &id042
+  - grips or snaps
+  now: *id042
+- num: 23
+  name: Bistable compliant mechanism (snap-through switch or hinge)
+  field: over_centre_use
+  verdict: ok
+  was: &id043
+  - flip between positions
+  now: *id043
+- num: 23
+  name: Bistable compliant mechanism (snap-through switch or hinge)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - straight push or pull
+  - twist or wind
+  why: the main forms are pre-curved beams and domes that snap in a straight line; only the hinge forms twist
+- num: 24
+  name: Push-push latch (push-to-open, heart-cam latch)
+  field: opens_by
+  verdict: ok
+  was: &id044
+  - catch or lever
+  now: *id044
+- num: 24
+  name: Push-push latch (push-to-open, heart-cam latch)
+  field: locks_out
+  verdict: ok
+  was: &id045
+  - 'no'
+  now: *id045
+- num: 25
+  name: Click-pen mechanism (rotating-cam push-push indexer)
+  field: clicks_do
+  verdict: ok
+  was: &id046
+  - step forward
+  now: *id046
+- num: 26
+  name: Sear and trigger (trip release mechanism)
+  field: holds_for
+  verdict: ok
+  was: &id047
+  - a person to open
+  now: *id047
+- num: 26
+  name: Sear and trigger (trip release mechanism)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  now:
+  - straight push or pull
+  - twist or wind
+  why: it releases springs, bands or weights of any kind; the main example, a mousetrap, uses a wound torsion spring
+- num: 27
+  name: Compliant one-piece latch (flexure latch)
+  field: opens_by
+  verdict: ok
+  was: &id048
+  - catch or lever
+  now: *id048
+- num: 27
+  name: Compliant one-piece latch (flexure latch)
+  field: locks_out
+  verdict: ok
+  was: &id049
+  - 'no'
+  now: *id049
+- num: 28
+  name: Hidden latches (magnetic-key latch, puzzle lock)
+  field: opens_by
+  verdict: ok
+  was: &id050
+  - catch or lever
+  now: *id050
+- num: 28
+  name: Hidden latches (magnetic-key latch, puzzle lock)
+  field: locks_out
+  verdict: ok
+  was: &id051
+  - 'yes'
+  now: *id051
+- num: 28
+  name: Hidden latches (magnetic-key latch, puzzle lock)
+  field: holds_for
+  verdict: ok
+  was: &id052
+  - a person to open
+  now: *id052
+- num: 29
+  name: Push-and-turn child-resistant cap
+  field: one_way_kind
+  verdict: ok
+  was: &id053
+  - clicks
+  now: *id053
+- num: 30
+  name: Ball detent (spring plunger)
+  field: clicks_do
+  verdict: ok
+  was: &id054
+  - hold a set position
+  now: *id054
+- num: 32
+  name: Compliant detent (flexure click arm)
+  field: clicks_do
+  verdict: ok
+  was: &id055
+  - hold a set position
+  now: *id055
+- num: 33
+  name: Detent hinge (click hinge, position hinge)
+  field: holds_position
+  verdict: ok
+  was: &id056
+  - 'yes'
+  now: *id056
+- num: 33
+  name: Detent hinge (click hinge, position hinge)
+  field: clicks_do
+  verdict: ok
+  was: &id057
+  - hold a set position
+  now: *id057
+- num: 33
+  name: Detent hinge (click hinge, position hinge)
+  field: turns
+  verdict: ok
+  was: &id058
+  - part of a turn
+  now: *id058
+- num: 34
+  name: Hirth joint (face-spline coupling)
+  field: clicks_do
+  verdict: ok
+  was: &id059
+  - hold a set position
+  now: *id059
+- num: 35
+  name: Geneva drive (Maltese cross)
+  field: clicks_do
+  verdict: ok
+  was: &id060
+  - step forward
+  now: *id060
+- num: 36
+  name: Intermittent gear (mutilated or part-toothed gear)
+  field: clicks_do
+  verdict: ok
+  was: &id061
+  - step forward
+  now: *id061
+- num: 37
+  name: Bayonet mount (push-and-twist lock)
+  field: opens_by
+  verdict: ok
+  was: &id062
+  - twist
+  now: *id062
+- num: 37
+  name: Bayonet mount (push-and-twist lock)
+  field: mounts_on
+  verdict: ok
+  was: &id063
+  - bar, pole or desk edge
+  now: *id063
+- num: 38
+  name: Interrupted-screw lock (interrupted thread, breech lock)
+  field: opens_by
+  verdict: ok
+  was: &id064
+  - twist
+  now: *id064
+- num: 39
+  name: Quarter-turn fastener (Dzus-type)
+  field: opens_by
+  verdict: ok
+  was: &id065
+  - twist
+  now: *id065
+- num: 40
+  name: Quick-release pin (ball-lock pin)
+  field: mounts_on
+  verdict: ok
+  was: &id066
+  - rail, extrusion or grid
+  now: *id066
+- num: 41
+  name: Quick-release plate (camera plate, dovetail clamp)
+  field: mounts_on
+  verdict: ok
+  was: &id067
+  - tripod or stand
+  - rail, extrusion or grid
+  now: *id067
+- num: 42
+  name: Hang-on mounts (keyhole slot, French cleat)
+  field: mounts_on
+  verdict: ok
+  was: &id068
+  - wall or ceiling
+  now: *id068
+- num: 42
+  name: Hang-on mounts (keyhole slot, French cleat)
+  field: wall_hold
+  verdict: ok
+  was: &id069
+  - screws, anchors or hooks
+  now: *id069
+- num: 43
+  name: Modular grid mounting systems (pegboard, Gridfinity-style grids)
+  field: mounts_on
+  verdict: ok
+  was: &id070
+  - wall or ceiling
+  - rail, extrusion or grid
+  now: *id070
+- num: 43
+  name: Modular grid mounting systems (pegboard, Gridfinity-style grids)
+  field: wall_hold
+  verdict: ok
+  was: &id071
+  - screws, anchors or hooks
+  now: *id071
+- num: 44
+  name: Cantilever snap fit
+  field: printed_take_apart
+  verdict: ok
+  was: &id072
+  - 'yes'
+  now: *id072
+- num: 44
+  name: Cantilever snap fit
+  field: threaded
+  verdict: ok
+  was: &id073
+  - 'no'
+  now: *id073
+- num: 45
+  name: Annular snap fit
+  field: printed_take_apart
+  verdict: ok
+  was: &id074
+  - 'yes'
+  now: *id074
+- num: 45
+  name: Annular snap fit
+  field: threaded
+  verdict: ok
+  was: &id075
+  - 'no'
+  now: *id075
+- num: 46
+  name: Torsional snap fit
+  field: printed_take_apart
+  verdict: ok
+  was: &id076
+  - 'yes'
+  now: *id076
+- num: 46
+  name: Torsional snap fit
+  field: threaded
+  verdict: ok
+  was: &id077
+  - 'no'
+  now: *id077
+- num: 47
+  name: Snap pin (split-leg push-in pin, rabbit clip)
+  field: printed_take_apart
+  verdict: ok
+  was: &id078
+  - 'yes'
+  now: *id078
+- num: 47
+  name: Snap pin (split-leg push-in pin, rabbit clip)
+  field: threaded
+  verdict: ok
+  was: &id079
+  - 'no'
+  now: *id079
+- num: 48
+  name: Push-in plastic rivet (fir-tree clip, push rivet)
+  field: printed_take_apart
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - 'no'
+  - 'yes'
+  why: two-piece push-type retainers come out by levering the centre pin, and the entry says they suit parts removed
+    occasionally (threaded would then be no)
+- num: 48
+  name: Push-in plastic rivet (fir-tree clip, push rivet)
+  field: sheet_material
+  verdict: ok
+  was: &id080
+  - sheet metal or plastic
+  now: *id080
+- num: 49
+  name: Living hinge
+  field: opens_by
+  verdict: ok
+  was: &id081
+  - swings on a hinge
+  now: *id081
+- num: 49
+  name: Living hinge
+  field: flex_does
+  verdict: ok
+  was: &id082
+  - folds like a hinge
+  now: *id082
+- num: 49
+  name: Living hinge
+  field: over_centre_use
+  verdict: change
+  was:
+  - flip between positions
+  now:
+  - not applicable
+  why: a plain living hinge just folds and does not snap past a point; the snapping version is the separate bistable
+    compliant mechanism entry
+- num: 50
+  name: Flexure hinge (notch, leaf-spring and cross-axis pivots)
+  field: flex_does
+  verdict: ok
+  was: &id083
+  - folds like a hinge
+  - straight line or spring
+  now: *id083
+- num: 51
+  name: Parallel leaf-spring flexure (linear flexure stage)
+  field: flex_does
+  verdict: ok
+  was: &id084
+  - straight line or spring
+  now: *id084
+- num: 52
+  name: Compliant gripper and force amplifier
+  field: gripped_by
+  verdict: change
+  was:
+  - machine
+  now:
+  - by hand
+  - machine
+  why: the entry covers hand pliers, tweezers and squeeze clamps as well as robot claws
+- num: 52
+  name: Compliant gripper and force amplifier
+  field: flex_does
+  verdict: ok
+  was: &id085
+  - grips or snaps
+  now: *id085
+- num: 52
+  name: Compliant gripper and force amplifier
+  field: push_by
+  verdict: ok
+  was: &id086
+  - levers and linkages
+  now: *id086
+- num: 53
+  name: Fin-ray gripper (fin ray effect finger)
+  field: gripped_by
+  verdict: ok
+  was: &id087
+  - machine
+  now: *id087
+- num: 53
+  name: Fin-ray gripper (fin ray effect finger)
+  field: flex_does
+  verdict: ok
+  was: &id088
+  - grips or snaps
+  now: *id088
+- num: 54
+  name: Self-folding print (4D printing)
+  field: printed_take_apart
+  verdict: ok
+  was: &id089
+  - made as fabric or a folding sheet
+  now: *id089
+- num: 54
+  name: Self-folding print (4D printing)
+  field: flex_does
+  verdict: ok
+  was: &id090
+  - folds like a hinge
+  now: *id090
+- num: 54
+  name: Self-folding print (4D printing)
+  field: powered_does
+  verdict: ok
+  was: &id091
+  - move or push something
+  now: *id091
+- num: 55
+  name: Print-in-place hinge
+  field: printed_take_apart
+  verdict: ok
+  was: &id092
+  - 'no'
+  now: *id092
+- num: 55
+  name: Print-in-place hinge
+  field: opens_by
+  verdict: ok
+  was: &id093
+  - swings on a hinge
+  now: *id093
+- num: 55
+  name: Print-in-place hinge
+  field: holds_position
+  verdict: ok
+  was: &id094
+  - 'no'
+  now: *id094
+- num: 55
+  name: Print-in-place hinge
+  field: turns
+  verdict: ok
+  was: &id095
+  - part of a turn
+  now: *id095
+- num: 56
+  name: Heat-set threaded insert
+  field: printed_take_apart
+  verdict: ok
+  was: &id096
+  - 'yes'
+  now: *id096
+- num: 56
+  name: Heat-set threaded insert
+  field: threaded
+  verdict: ok
+  was: &id097
+  - 'yes'
+  now: *id097
+- num: 57
+  name: Captive nut pocket (nut trap)
+  field: printed_take_apart
+  verdict: ok
+  was: &id098
+  - 'yes'
+  now: *id098
+- num: 57
+  name: Captive nut pocket (nut trap)
+  field: threaded
+  verdict: ok
+  was: &id099
+  - 'yes'
+  now: *id099
+- num: 58
+  name: Printed screw thread
+  field: printed_take_apart
+  verdict: ok
+  was: &id100
+  - 'yes'
+  now: *id100
+- num: 58
+  name: Printed screw thread
+  field: threaded
+  verdict: ok
+  was: &id101
+  - 'yes'
+  now: *id101
+- num: 58
+  name: Printed screw thread
+  field: holds_for
+  verdict: ok
+  was: &id102
+  - a load
+  now: *id102
+- num: 59
+  name: Crush ribs and spring-fit features (compliant press fit)
+  field: printed_take_apart
+  verdict: ok
+  was: &id103
+  - 'no'
+  now: *id103
+- num: 59
+  name: Crush ribs and spring-fit features (compliant press fit)
+  field: shaft_joint
+  verdict: ok
+  was: &id104
+  - part onto a shaft
+  now: *id104
+- num: 59
+  name: Crush ribs and spring-fit features (compliant press fit)
+  field: printable
+  verdict: ok
+  was: &id105
+  - 'yes'
+  now: *id105
+- num: 60
+  name: Mid-print embedding (captive nuts, magnets and bearings)
+  field: printed_take_apart
+  verdict: ok
+  was: &id106
+  - 'no'
+  now: *id106
+- num: 61
+  name: Heat staking (melted plastic rivet)
+  field: printed_take_apart
+  verdict: ok
+  was: &id107
+  - 'no'
+  now: *id107
+- num: 61
+  name: Heat staking (melted plastic rivet)
+  field: sheet_material
+  verdict: ok
+  was: &id108
+  - sheet metal or plastic
+  now: *id108
+- num: 61
+  name: Heat staking (melted plastic rivet)
+  field: weld_material
+  verdict: ok
+  was: &id109
+  - plastic or film
+  now: *id109
+- num: 61
+  name: Heat staking (melted plastic rivet)
+  field: also_under
+  verdict: ok
+  was: &id110
+  - melt
+  now: *id110
+- num: 62
+  name: Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins)
+  field: printed_take_apart
+  verdict: ok
+  was: &id111
+  - 'no'
+  now: *id111
+- num: 63
+  name: Geared hinge (continuous gear hinge)
+  field: opens_by
+  verdict: ok
+  was: &id112
+  - swings on a hinge
+  now: *id112
+- num: 63
+  name: Geared hinge (continuous gear hinge)
+  field: holds_position
+  verdict: ok
+  was: &id113
+  - 'no'
+  now: *id113
+- num: 63
+  name: Geared hinge (continuous gear hinge)
+  field: turns
+  verdict: ok
+  was: &id114
+  - part of a turn
+  now: *id114
+- num: 64
+  name: Friction hinge (torque hinge)
+  field: holds_position
+  verdict: ok
+  was: &id115
+  - 'yes'
+  now: *id115
+- num: 64
+  name: Friction hinge (torque hinge)
+  field: slows_by
+  verdict: change
+  was:
+  - damper
+  now:
+  - brake
+  - damper
+  why: its main job is holding a lid still at any angle (the brakes answer); stopping lids slamming fits dampers
+- num: 64
+  name: Friction hinge (torque hinge)
+  field: turns
+  verdict: ok
+  was: &id116
+  - part of a turn
+  now: *id116
+- num: 65
+  name: Ball-and-socket joint (lockable ball head)
+  field: holds_position
+  verdict: ok
+  was: &id117
+  - 'yes'
+  now: *id117
+- num: 65
+  name: Ball-and-socket joint (lockable ball head)
+  field: move_kind
+  verdict: ok
+  was: &id118
+  - swivel or tilt
+  now: *id118
+- num: 65
+  name: Ball-and-socket joint (lockable ball head)
+  field: turns
+  verdict: ok
+  was: &id119
+  - part of a turn
+  now: *id119
+- num: 66
+  name: Posable segmented arm (snap-together ball chain, gooseneck)
+  field: move_kind
+  verdict: ok
+  was: &id120
+  - swivel or tilt
+  now: *id120
+- num: 66
+  name: Posable segmented arm (snap-together ball chain, gooseneck)
+  field: holds_for
+  verdict: ok
+  was: &id121
+  - a load
+  now: *id121
+- num: 67
+  name: Clevis joint (fork-and-pin joint, prong mount)
+  field: mounts_on
+  verdict: ok
+  was: &id122
+  - tripod or stand
+  now: *id122
+- num: 67
+  name: Clevis joint (fork-and-pin joint, prong mount)
+  field: holds_position
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - 'no'
+  - 'yes'
+  why: the action-camera prong version is clamped by a thumbscrew so friction holds any angle you set; the plain
+    pin clevis swings freely
+- num: 67
+  name: Clevis joint (fork-and-pin joint, prong mount)
+  field: turns
+  verdict: ok
+  was: &id123
+  - part of a turn
+  now: *id123
+- num: 68
+  name: Rod end and ball link (rose joint, RC ball link)
+  field: move_kind
+  verdict: ok
+  was: &id124
+  - swivel or tilt
+  now: *id124
+- num: 69
+  name: Turntable bearing (lazy-Susan bearing, slewing ring)
+  field: drive_does
+  verdict: change
+  was:
+  - passes the turning on
+  now:
+  - not applicable
+  why: a turntable bearing carries a turning platform; it is not a shaft driving another shaft
+- num: 69
+  name: Turntable bearing (lazy-Susan bearing, slewing ring)
+  field: turns
+  verdict: ok
+  was: &id125
+  - full turns
+  now: *id125
+- num: 70
+  name: Telescoping tube twist lock (cam or collet twist lock)
+  field: slide_kind
+  verdict: ok
+  was: &id126
+  - telescoping tube
+  now: *id126
+- num: 71
+  name: Telescoping tube lever lock (flip lock)
+  field: slide_kind
+  verdict: ok
+  was: &id127
+  - telescoping tube
+  now: *id127
+- num: 71
+  name: Telescoping tube lever lock (flip lock)
+  field: over_centre_use
+  verdict: ok
+  was: &id128
+  - clamp or latch
+  now: *id128
+- num: 72
+  name: Spring button lock (snap button, push-button tube lock)
+  field: slide_kind
+  verdict: ok
+  was: &id129
+  - telescoping tube
+  now: *id129
+- num: 73
+  name: Dovetail slide with gib strip (dovetail ways)
+  field: slide_kind
+  verdict: ok
+  was: &id130
+  - carriage on a rail
+  now: *id130
+- num: 74
+  name: Threadless ball screw (rolling-ring drive)
+  field: slide_kind
+  verdict: ok
+  was: &id131
+  - pushed by a screw, chain or crank
+  now: *id131
+- num: 74
+  name: Threadless ball screw (rolling-ring drive)
+  field: straight_drive
+  verdict: ok
+  was: &id132
+  - screw
+  now: *id132
+- num: 75
+  name: Reversing screw (diamond-thread or level-wind screw)
+  field: slide_kind
+  verdict: ok
+  was: &id133
+  - pushed by a screw, chain or crank
+  now: *id133
+- num: 75
+  name: Reversing screw (diamond-thread or level-wind screw)
+  field: straight_drive
+  verdict: change
+  was:
+  - screw
+  now:
+  - screw
+  - crank or cam
+  why: its job is an endless back-and-forth traverse from one-way turning (level-wind), which is the "back and forth,
+    again and again" answer as well as a screw
+- num: 76
+  name: Multi-stage slide rigging (cascade and continuous string rigging)
+  field: slide_kind
+  verdict: ok
+  was: &id134
+  - pushed by a screw, chain or crank
+  now: *id134
+- num: 77
+  name: Oldham coupling
+  field: shaft_joint
+  verdict: ok
+  was: &id135
+  - shaft to shaft
+  now: *id135
+- num: 77
+  name: Oldham coupling
+  field: shaft_alignment
+  verdict: ok
+  was: &id136
+  - a little out of line
+  now: *id136
+- num: 78
+  name: Jaw coupling (spider coupling)
+  field: shaft_joint
+  verdict: ok
+  was: &id137
+  - shaft to shaft
+  now: *id137
+- num: 78
+  name: Jaw coupling (spider coupling)
+  field: shaft_alignment
+  verdict: ok
+  was: &id138
+  - a little out of line
+  now: *id138
+- num: 78
+  name: Jaw coupling (spider coupling)
+  field: drive_does
+  verdict: ok
+  was: &id139
+  - passes the turning on
+  now: *id139
+- num: 78
+  name: Jaw coupling (spider coupling)
+  field: turns
+  verdict: ok
+  was: &id140
+  - full turns
+  now: *id140
+- num: 79
+  name: Flexible beam coupling (helical-slot coupling)
+  field: shaft_joint
+  verdict: ok
+  was: &id141
+  - shaft to shaft
+  now: *id141
+- num: 79
+  name: Flexible beam coupling (helical-slot coupling)
+  field: shaft_alignment
+  verdict: ok
+  was: &id142
+  - a little out of line
+  now: *id142
+- num: 79
+  name: Flexible beam coupling (helical-slot coupling)
+  field: flex_does
+  verdict: ok
+  was: &id143
+  - straight line or spring
+  now: *id143
+- num: 80
+  name: Universal joint (Hooke's joint, Cardan joint)
+  field: shaft_joint
+  verdict: ok
+  was: &id144
+  - shaft to shaft
+  now: *id144
+- num: 80
+  name: Universal joint (Hooke's joint, Cardan joint)
+  field: shaft_alignment
+  verdict: ok
+  was: &id145
+  - at an angle or a bent path
+  now: *id145
+- num: 80
+  name: Universal joint (Hooke's joint, Cardan joint)
+  field: move_kind
+  verdict: ok
+  was: &id146
+  - swivel or tilt
+  now: *id146
+- num: 81
+  name: Dog clutch (claw clutch)
+  field: shaft_joint
+  verdict: ok
+  was: &id147
+  - shaft to shaft
+  now: *id147
+- num: 81
+  name: Dog clutch (claw clutch)
+  field: shaft_alignment
+  verdict: ok
+  was: &id148
+  - exactly in line
+  now: *id148
+- num: 82
+  name: Servo horn and spline hub
+  field: shaft_joint
+  verdict: ok
+  was: &id149
+  - part onto a shaft
+  now: *id149
+- num: 82
+  name: Servo horn and spline hub
+  field: printable
+  verdict: change
+  was:
+  - 'yes'
+  now:
+  - 'yes'
+  - 'no'
+  why: horns are printed, but the usual ones are the stock plastic or aluminium horns that come with or are bought
+    for the servo
+- num: 83
+  name: Series-elastic coupling (series elastic actuator)
+  field: powered_does
+  verdict: ok
+  was: &id150
+  - move or push something
+  now: *id150
+- num: 83
+  name: Series-elastic coupling (series elastic actuator)
+  field: turns
+  verdict: ok
+  was: &id151
+  - part of a turn
+  now: *id151
+- num: 84
+  name: Cam and follower (plate, barrel and face cams)
+  field: slows_by
+  verdict: change
+  was:
+  - steady speed or level
+  now:
+  - not applicable
+  why: a cam shapes a motion (rise, dwell, fall); it does not brake, damp or hold a steady speed or level
+- num: 84
+  name: Cam and follower (plate, barrel and face cams)
+  field: straight_drive
+  verdict: ok
+  was: &id152
+  - crank or cam
+  now: *id152
+- num: 85
+  name: Scotch yoke
+  field: slide_kind
+  verdict: ok
+  was: &id153
+  - pushed by a screw, chain or crank
+  now: *id153
+- num: 85
+  name: Scotch yoke
+  field: straight_drive
+  verdict: ok
+  was: &id154
+  - crank or cam
+  now: *id154
+- num: 86
+  name: Slider-crank
+  field: straight_drive
+  verdict: ok
+  was: &id155
+  - crank or cam
+  now: *id155
+- num: 87
+  name: Four-bar linkage (incl. parallelogram linkage)
+  field: move_kind
+  verdict: ok
+  was: &id156
+  - follows a set path
+  now: *id156
+- num: 87
+  name: Four-bar linkage (incl. parallelogram linkage)
+  field: turns
+  verdict: ok
+  was: &id157
+  - part of a turn
+  now: *id157
+- num: 88
+  name: Rack and pinion
+  field: straight_drive
+  verdict: ok
+  was: &id158
+  - long travel or pulling
+  now: *id158
+- num: 89
+  name: Scissor linkage (lazy tongs, scissor lift)
+  field: push_by
+  verdict: ok
+  was: &id159
+  - levers and linkages
+  now: *id159
+- num: 90
+  name: Iris mechanism
+  field: move_kind
+  verdict: ok
+  was: &id160
+  - follows a set path
+  now: *id160
+- num: 91
+  name: Whippletree (load-equalising lever)
+  field: push_by
+  verdict: ok
+  was: &id161
+  - levers and linkages
+  now: *id161
+- num: 92
+  name: Twisted-string actuator
+  field: straight_drive
+  verdict: ok
+  was: &id162
+  - long travel or pulling
+  now: *id162
+- num: 92
+  name: Twisted-string actuator
+  field: powered_does
+  verdict: ok
+  was: &id163
+  - move or push something
+  now: *id163
+- num: 93
+  name: Planetary gear set (epicyclic gearing)
+  field: drive_does
+  verdict: ok
+  was: &id164
+  - changes speed or splits
+  now: *id164
+- num: 93
+  name: Planetary gear set (epicyclic gearing)
+  field: turns
+  verdict: ok
+  was: &id165
+  - full turns
+  now: *id165
+- num: 97
+  name: Differential (bevel gear differential)
+  field: drive_does
+  verdict: ok
+  was: &id166
+  - changes speed or splits
+  now: *id166
+- num: 97
+  name: Differential (bevel gear differential)
+  field: turns
+  verdict: ok
+  was: &id167
+  - full turns
+  now: *id167
+- num: 99
+  name: Herringbone and helical gears
+  field: drive_does
+  verdict: ok
+  was: &id168
+  - changes speed or splits
+  now: *id168
+- num: 99
+  name: Herringbone and helical gears
+  field: turns
+  verdict: ok
+  was: &id169
+  - full turns
+  now: *id169
+- num: 100
+  name: Belt drives (timing, round and V-belt)
+  field: straight_drive
+  verdict: ok
+  was: &id170
+  - long travel or pulling
+  now: *id170
+- num: 102
+  name: Bowden cable (push-pull cable)
+  field: push_by
+  verdict: ok
+  was: &id171
+  - cables, pulleys or liquid
+  now: *id171
+- num: 103
+  name: Holding electromagnet (maglock)
+  field: powered_does
+  verdict: ok
+  was: &id172
+  - lock or hold
+  now: *id172
+- num: 104
+  name: Electro-permanent magnet
+  field: powered_does
+  verdict: ok
+  was: &id173
+  - lock or hold
+  now: *id173
+- num: 105
+  name: Solenoid latch (solenoid lock, electric strike)
+  field: powered_does
+  verdict: ok
+  was: &id174
+  - lock or hold
+  now: *id174
+- num: 106
+  name: Servo or motorised latch
+  field: holds_for
+  verdict: ok
+  was: &id175
+  - a person to open
+  now: *id175
+- num: 106
+  name: Servo or motorised latch
+  field: powered_does
+  verdict: ok
+  was: &id176
+  - lock or hold
+  now: *id176
+- num: 107
+  name: Shape-memory-alloy wire latch (nitinol muscle wire)
+  field: powered_does
+  verdict: ok
+  was: &id177
+  - lock or hold
+  now: *id177
+- num: 108
+  name: Electromagnetic brake (power-off, spring-applied)
+  field: slows_by
+  verdict: ok
+  was: &id178
+  - brake
+  now: *id178
+- num: 108
+  name: Electromagnetic brake (power-off, spring-applied)
+  field: powered_does
+  verdict: ok
+  was: &id179
+  - brake or engage
+  now: *id179
+- num: 109
+  name: Vacuum (suction) gripper
+  field: mounts_on
+  verdict: change
+  was:
+  - wall or ceiling
+  now:
+  - not applicable
+  why: this is a pumped robot or tool gripper that picks parts up, not a way to fix something onto a wall
+- num: 109
+  name: Vacuum (suction) gripper
+  field: wall_hold
+  verdict: change
+  was:
+  - magnet or suction
+  now:
+  - not applicable
+  why: 'same reason: not a wall mount (a maker wanting a suction-cup wall mount would be misled)'
+- num: 109
+  name: Vacuum (suction) gripper
+  field: gripped_by
+  verdict: ok
+  was: &id180
+  - machine
+  now: *id180
+- num: 109
+  name: Vacuum (suction) gripper
+  field: powered_does
+  verdict: ok
+  was: &id181
+  - grip or lift
+  now: *id181
+- num: 110
+  name: Granular jamming gripper (coffee-balloon gripper)
+  field: gripped_by
+  verdict: ok
+  was: &id182
+  - machine
+  now: *id182
+- num: 110
+  name: Granular jamming gripper (coffee-balloon gripper)
+  field: powered_does
+  verdict: ok
+  was: &id183
+  - grip or lift
+  now: *id183
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  field: printed_take_apart
+  verdict: ok
+  was: &id184
+  - 'yes'
+  now: *id184
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  field: threaded
+  verdict: ok
+  was: &id185
+  - 'no'
+  now: *id185
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  field: opens_by
+  verdict: ok
+  was: &id186
+  - catch or lever
+  now: *id186
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  field: locks_out
+  verdict: ok
+  was: &id187
+  - 'no'
+  now: *id187
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  field: mounts_on
+  verdict: ok
+  was: &id188
+  - wall or ceiling
+  now: *id188
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  field: wall_hold
+  verdict: ok
+  was: &id189
+  - magnet or suction
+  now: *id189
+- num: 112
+  name: Switchable permanent magnet (rotary magnetic base)
+  field: mounts_on
+  verdict: ok
+  was: &id190
+  - wall or ceiling
+  now: *id190
+- num: 112
+  name: Switchable permanent magnet (rotary magnetic base)
+  field: wall_hold
+  verdict: ok
+  was: &id191
+  - magnet or suction
+  now: *id191
+- num: 113
+  name: Aluminium-extrusion connectors (T-slot nuts and brackets)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  now:
+  - not applicable
+  why: it joins aluminium extrusion frames and is taken apart again; "wood" came from the T-nut alias that says
+    it is NOT the furniture T-nut for wood
+- num: 113
+  name: Aluminium-extrusion connectors (T-slot nuts and brackets)
+  field: carries_fluid
+  verdict: ok
+  was: &id192
+  - 'no'
+  now: *id192
+- num: 113
+  name: Aluminium-extrusion connectors (T-slot nuts and brackets)
+  field: mounts_on
+  verdict: ok
+  was: &id193
+  - rail, extrusion or grid
+  now: *id193
+- num: 113
+  name: Aluminium-extrusion connectors (T-slot nuts and brackets)
+  field: also_under
+  verdict: ok
+  was: &id194
+  - mount
+  now: *id194
+- num: 117
+  name: Constant-force spring (spring-return reel)
+  field: tightens
+  verdict: ok
+  was: &id195
+  - strap, cord or rope
+  - belt, chain or cable
+  now: *id195
+- num: 117
+  name: Constant-force spring (spring-return reel)
+  field: tension_hold
+  verdict: ok
+  was: &id196
+  - spring or elastic
+  now: *id196
+- num: 117
+  name: Constant-force spring (spring-return reel)
+  field: spring_kind
+  verdict: ok
+  was: &id197
+  - straight push or pull
+  - twist or wind
+  now: *id197
+- num: 118
+  name: Ortho-planar spring
+  field: flex_does
+  verdict: ok
+  was: &id198
+  - straight line or spring
+  now: *id198
+- num: 119
+  name: Spring balancer (gravity compensation)
+  field: spring_kind
+  verdict: ok
+  was: &id199
+  - straight push or pull
+  now: *id199
+- num: 119
+  name: Spring balancer (gravity compensation)
+  field: turns
+  verdict: ok
+  was: &id200
+  - part of a turn
+  now: *id200
+- num: 120
+  name: Printed leaf spring (flat cantilever spring)
+  field: flex_does
+  verdict: ok
+  was: &id201
+  - straight line or spring
+  now: *id201
+- num: 123
+  name: Cam buckle (webbing cam buckle)
+  field: tightens
+  verdict: ok
+  was: &id202
+  - strap, cord or rope
+  now: *id202
+- num: 123
+  name: Cam buckle (webbing cam buckle)
+  field: tension_hold
+  verdict: ok
+  was: &id203
+  - friction grip
+  now: *id203
+- num: 124
+  name: Ladder lock buckle (tension lock, tri-glide)
+  field: tightens
+  verdict: ok
+  was: &id204
+  - strap, cord or rope
+  now: *id204
+- num: 124
+  name: Ladder lock buckle (tension lock, tri-glide)
+  field: tension_hold
+  verdict: ok
+  was: &id205
+  - friction grip
+  now: *id205
+- num: 125
+  name: Side-release buckle
+  field: cord_use
+  verdict: ok
+  was: &id206
+  - a fitted part
+  now: *id206
+- num: 125
+  name: Side-release buckle
+  field: cord_part
+  verdict: ok
+  was: &id207
+  - join or grip ends
+  now: *id207
+- num: 126
+  name: Cord lock (spring toggle)
+  field: tightens
+  verdict: ok
+  was: &id208
+  - strap, cord or rope
+  now: *id208
+- num: 126
+  name: Cord lock (spring toggle)
+  field: tension_hold
+  verdict: ok
+  was: &id209
+  - friction grip
+  now: *id209
+- num: 127
+  name: Magnetic-assisted buckle (magnet guides, catch locks)
+  field: cord_use
+  verdict: ok
+  was: &id210
+  - a fitted part
+  now: *id210
+- num: 127
+  name: Magnetic-assisted buckle (magnet guides, catch locks)
+  field: cord_part
+  verdict: ok
+  was: &id211
+  - join or grip ends
+  now: *id211
+- num: 127
+  name: Magnetic-assisted buckle (magnet guides, catch locks)
+  field: opens_by
+  verdict: ok
+  was: &id212
+  - catch or lever
+  now: *id212
+- num: 127
+  name: Magnetic-assisted buckle (magnet guides, catch locks)
+  field: locks_out
+  verdict: ok
+  was: &id213
+  - 'no'
+  now: *id213
+- num: 128
+  name: Belt tensioner (spring-loaded idler)
+  field: tightens
+  verdict: ok
+  was: &id214
+  - belt, chain or cable
+  now: *id214
+- num: 129
+  name: Eccentric adjuster (eccentric nut, spacer or bushing)
+  field: adjusts
+  verdict: ok
+  was: &id215
+  - set and hold
+  - fine-tune a tilt
+  now: *id215
+- num: 130
+  name: O-ring seal
+  field: seal_use
+  verdict: change
+  was:
+  - seal a still joint
+  now:
+  - seal a still joint
+  - seal a moving shaft
+  why: the entry says it also seals a sliding rod or slow turning shaft if lubricated (a dynamic seal)
+- num: 131
+  name: Gasket (flat, cord-in-groove or cast-in-place)
+  field: cord_use
+  verdict: change
+  was:
+  - a fitted part
+  now:
+  - not applicable
+  why: a gasket seals a lid or flange; "cord" is the rubber cord laid in a groove, not a strap, cord or fabric to
+    join
+- num: 131
+  name: Gasket (flat, cord-in-groove or cast-in-place)
+  field: seal_use
+  verdict: ok
+  was: &id216
+  - seal a still joint
+  now: *id216
+- num: 132
+  name: Labyrinth seal (baffle seal)
+  field: seal_use
+  verdict: change
+  was:
+  - seal a still joint
+  now:
+  - seal a still joint
+  - seal a moving shaft
+  why: its main use is round spinning shafts (fans, wheels, hubs, robot joints), as well as still lids
+- num: 133
+  name: Hose barb (barbed tube fitting)
+  field: carries_fluid
+  verdict: ok
+  was: &id217
+  - 'yes'
+  now: *id217
+- num: 133
+  name: Hose barb (barbed tube fitting)
+  field: seal_use
+  verdict: ok
+  was: &id218
+  - join hoses or pipes
+  now: *id218
+- num: 133
+  name: Hose barb (barbed tube fitting)
+  field: hose_join
+  verdict: ok
+  was: &id219
+  - pushed, clamped or clicked
+  now: *id219
+- num: 134
+  name: Cable gland and strain relief
+  field: wire_use
+  verdict: ok
+  was: &id220
+  - insulate, protect or route
+  now: *id220
+- num: 134
+  name: Cable gland and strain relief
+  field: seal_use
+  verdict: ok
+  was: &id221
+  - pass cables through
+  now: *id221
+- num: 134
+  name: Cable gland and strain relief
+  field: also_under
+  verdict: ok
+  was: &id222
+  - wires
+  now: *id222
+- num: 135
+  name: Slip ring and rotary union
+  field: wire_use
+  verdict: ok
+  was: &id223
+  - touching or turning contacts
+  now: *id223
+- num: 135
+  name: Slip ring and rotary union
+  field: seal_use
+  verdict: ok
+  was: &id224
+  - pass cables through
+  now: *id224
+- num: 135
+  name: Slip ring and rotary union
+  field: turns
+  verdict: ok
+  was: &id225
+  - full turns
+  now: *id225
+- num: 136
+  name: Cable carrier (drag chain, energy chain)
+  field: wire_use
+  verdict: ok
+  was: &id226
+  - insulate, protect or route
+  now: *id226
+- num: 136
+  name: Cable carrier (drag chain, energy chain)
+  field: holds_position
+  verdict: ok
+  was: &id227
+  - 'no'
+  now: *id227
+- num: 136
+  name: Cable carrier (drag chain, energy chain)
+  field: seal_use
+  verdict: ok
+  was: &id228
+  - pass cables through
+  now: *id228
+- num: 136
+  name: Cable carrier (drag chain, energy chain)
+  field: also_under
+  verdict: ok
+  was: &id229
+  - wires
+  now: *id229
+- num: 136
+  name: Cable carrier (drag chain, energy chain)
+  field: turns
+  verdict: ok
+  was: &id230
+  - part of a turn
+  now: *id230
+- num: 139
+  name: Solvent welding (solvent cement)
+  field: weld_material
+  verdict: ok
+  was: &id231
+  - plastic or film
+  now: *id231
+- num: 139
+  name: Solvent welding (solvent cement)
+  field: also_under
+  verdict: ok
+  was: &id232
+  - melt
+  now: *id232
+- num: 142
+  name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
+  field: mounts_on
+  verdict: ok
+  was: &id233
+  - wall or ceiling
+  now: *id233
+- num: 142
+  name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
+  field: wall_hold
+  verdict: ok
+  was: &id234
+  - tape or pads
+  now: *id234
+- num: 144
+  name: Tolerance ring (wavy-band press fit)
+  field: printed_take_apart
+  verdict: ok
+  was: &id235
+  - 'yes'
+  now: *id235
+- num: 144
+  name: Tolerance ring (wavy-band press fit)
+  field: threaded
+  verdict: ok
+  was: &id236
+  - 'no'
+  now: *id236
+- num: 144
+  name: Tolerance ring (wavy-band press fit)
+  field: shaft_joint
+  verdict: ok
+  was: &id237
+  - part onto a shaft
+  now: *id237
+- num: 144
+  name: Tolerance ring (wavy-band press fit)
+  field: printable
+  verdict: change
+  was:
+  - 'yes'
+  now:
+  - 'yes'
+  - 'no'
+  why: it suits printed hubs, but its main uses are metal bearings, gears and pulleys too
+- num: 145
+  name: Centrifugal clutch
+  field: powered_does
+  verdict: ok
+  was: &id238
+  - brake or engage
+  now: *id238
+- num: 146
+  name: Self-locking wedge (wedge clamp, taper key)
+  field: gripped_by
+  verdict: ok
+  was: &id239
+  - by hand
+  now: *id239
+- num: 147
+  name: Inertia-locking reel (seat-belt lock, centrifugal catch)
+  field: one_way_kind
+  verdict: ok
+  was: &id240
+  - silent
+  now: *id240
+- num: 147
+  name: Inertia-locking reel (seat-belt lock, centrifugal catch)
+  field: holds_for
+  verdict: ok
+  was: &id241
+  - a load
+  now: *id241
+- num: 147
+  name: Inertia-locking reel (seat-belt lock, centrifugal catch)
+  field: tightens
+  verdict: change
+  was:
+  - strap, cord or rope
+  - belt, chain or cable
+  now:
+  - strap, cord or rope
+  why: it is a reel for a strap, webbing or safety line, not a machine belt, chain or cable drive
+- num: 147
+  name: Inertia-locking reel (seat-belt lock, centrifugal catch)
+  field: tension_hold
+  verdict: change
+  was:
+  - ratchet, winch or screw
+  now:
+  - spring or elastic
+  why: a spiral return spring keeps the strap taut; the ratchet only locks it on a jerk, you never wind it tighter
+- num: 148
+  name: Woven self-tightening grip (finger-trap grip)
+  field: cord_use
+  verdict: ok
+  was: &id242
+  - a fitted part
+  now: *id242
+- num: 148
+  name: Woven self-tightening grip (finger-trap grip)
+  field: cord_part
+  verdict: ok
+  was: &id243
+  - join or grip ends
+  now: *id243
+- num: 150
+  name: Turnbuckle
+  field: tightens
+  verdict: ok
+  was: &id244
+  - strap, cord or rope
+  now: *id244
+- num: 150
+  name: Turnbuckle
+  field: tension_hold
+  verdict: ok
+  was: &id245
+  - ratchet, winch or screw
+  now: *id245
+- num: 151
+  name: Capstan and windlass (incl. differential windlass)
+  field: straight_drive
+  verdict: ok
+  was: &id246
+  - long travel or pulling
+  now: *id246
+- num: 151
+  name: Capstan and windlass (incl. differential windlass)
+  field: tightens
+  verdict: ok
+  was: &id247
+  - strap, cord or rope
+  now: *id247
+- num: 151
+  name: Capstan and windlass (incl. differential windlass)
+  field: tension_hold
+  verdict: ok
+  was: &id248
+  - ratchet, winch or screw
+  now: *id248
+- num: 152
+  name: Shock-corded sectional pole
+  field: carries_fluid
+  verdict: ok
+  was: &id249
+  - 'no'
+  now: *id249
+- num: 152
+  name: Shock-corded sectional pole
+  field: cord_use
+  verdict: ok
+  was: &id250
+  - a fitted part
+  now: *id250
+- num: 152
+  name: Shock-corded sectional pole
+  field: cord_part
+  verdict: ok
+  was: &id251
+  - join or grip ends
+  now: *id251
+- num: 152
+  name: Shock-corded sectional pole
+  field: tightens
+  verdict: change
+  was:
+  - strap, cord or rope
+  now:
+  - strap, cord or rope
+  - parts clamped together
+  why: the elastic cord's real job is pulling the pole sections together and home
+- num: 152
+  name: Shock-corded sectional pole
+  field: tension_hold
+  verdict: ok
+  was: &id252
+  - spring or elastic
+  now: *id252
+- num: 153
+  name: Ratchet tie-down strap (ratchet buckle)
+  field: one_way_kind
+  verdict: ok
+  was: &id253
+  - clicks
+  now: *id253
+- num: 153
+  name: Ratchet tie-down strap (ratchet buckle)
+  field: tightens
+  verdict: ok
+  was: &id254
+  - strap, cord or rope
+  now: *id254
+- num: 153
+  name: Ratchet tie-down strap (ratchet buckle)
+  field: tension_hold
+  verdict: ok
+  was: &id255
+  - ratchet, winch or screw
+  now: *id255
+- num: 154
+  name: Guy-line slider (friction line tensioner)
+  field: tightens
+  verdict: ok
+  was: &id256
+  - strap, cord or rope
+  now: *id256
+- num: 154
+  name: Guy-line slider (friction line tensioner)
+  field: tension_hold
+  verdict: ok
+  was: &id257
+  - friction grip
+  now: *id257
+- num: 155
+  name: Quick-release hooks (pelican hook, three-ring release)
+  field: cord_use
+  verdict: ok
+  was: &id258
+  - a fitted part
+  now: *id258
+- num: 155
+  name: Quick-release hooks (pelican hook, three-ring release)
+  field: cord_part
+  verdict: ok
+  was: &id259
+  - hook, link or swivel
+  now: *id259
+- num: 156
+  name: Spring-gate hook (carabiner, snap hook, lobster clasp)
+  field: cord_use
+  verdict: ok
+  was: &id260
+  - a fitted part
+  now: *id260
+- num: 156
+  name: Spring-gate hook (carabiner, snap hook, lobster clasp)
+  field: cord_part
+  verdict: ok
+  was: &id261
+  - hook, link or swivel
+  now: *id261
+- num: 157
+  name: Hook-and-loop fastener
+  field: cord_use
+  verdict: ok
+  was: &id262
+  - close or attach fabric
+  now: *id262
+- num: 158
+  name: Zipper (slide fastener)
+  field: cord_use
+  verdict: ok
+  was: &id263
+  - close or attach fabric
+  now: *id263
+- num: 159
+  name: Cam latch (quarter-turn cam lock)
+  field: opens_by
+  verdict: ok
+  was: &id264
+  - twist
+  now: *id264
+- num: 159
+  name: Cam latch (quarter-turn cam lock)
+  field: holds_for
+  verdict: ok
+  was: &id265
+  - a person to open
+  now: *id265
+- num: 160
+  name: Mechanical interlock
+  field: opens_by
+  verdict: ok
+  was: &id266
+  - catch or lever
+  now: *id266
+- num: 160
+  name: Mechanical interlock
+  field: locks_out
+  verdict: ok
+  was: &id267
+  - 'yes'
+  now: *id267
+- num: 160
+  name: Mechanical interlock
+  field: powered_does
+  verdict: ok
+  was: &id268
+  - lock or hold
+  now: *id268
+- num: 161
+  name: Pin-tumbler lock (and other tumbler locks)
+  field: opens_by
+  verdict: ok
+  was: &id269
+  - catch or lever
+  now: *id269
+- num: 161
+  name: Pin-tumbler lock (and other tumbler locks)
+  field: locks_out
+  verdict: ok
+  was: &id270
+  - 'yes'
+  now: *id270
+- num: 161
+  name: Pin-tumbler lock (and other tumbler locks)
+  field: holds_for
+  verdict: ok
+  was: &id271
+  - a person to open
+  now: *id271
+- num: 162
+  name: Combination lock (wheel pack)
+  field: opens_by
+  verdict: ok
+  was: &id272
+  - catch or lever
+  now: *id272
+- num: 162
+  name: Combination lock (wheel pack)
+  field: locks_out
+  verdict: ok
+  was: &id273
+  - 'yes'
+  now: *id273
+- num: 162
+  name: Combination lock (wheel pack)
+  field: holds_for
+  verdict: ok
+  was: &id274
+  - a person to open
+  now: *id274
+- num: 163
+  name: Rotary latch (claw latch)
+  field: opens_by
+  verdict: ok
+  was: &id275
+  - catch or lever
+  now: *id275
+- num: 163
+  name: Rotary latch (claw latch)
+  field: locks_out
+  verdict: ok
+  was: &id276
+  - 'no'
+  now: *id276
+- num: 163
+  name: Rotary latch (claw latch)
+  field: holds_for
+  verdict: ok
+  was: &id277
+  - a person to open
+  now: *id277
+- num: 164
+  name: Folding-blade lock (liner lock, lockback, slip joint)
+  field: opens_by
+  verdict: change
+  was:
+  - catch or lever
+  now:
+  - swings on a hinge
+  - catch or lever
+  why: it is a pivot that locks a folding blade or arm open at an angle, released by pushing a catch
+- num: 164
+  name: Folding-blade lock (liner lock, lockback, slip joint)
+  field: locks_out
+  verdict: change
+  was:
+  - 'yes'
+  now:
+  - 'no'
+  why: the lock only stops the blade folding; it does not keep other people out (no key, code or hidden catch)
+- num: 164
+  name: Folding-blade lock (liner lock, lockback, slip joint)
+  field: clicks_do
+  verdict: ok
+  was: &id278
+  - hold a set position
+  now: *id278
+- num: 164
+  name: Folding-blade lock (liner lock, lockback, slip joint)
+  field: holds_for
+  verdict: ok
+  was: &id279
+  - a load
+  now: *id279
+- num: 165
+  name: Tamper-evident breakaway bridge (frangible link)
+  field: opens_by
+  verdict: ok
+  was: &id280
+  - twist
+  now: *id280
+- num: 166
+  name: Quick couplers for tubes and hoses (push-to-connect, sleeve lock)
+  field: carries_fluid
+  verdict: ok
+  was: &id281
+  - 'yes'
+  now: *id281
+- num: 166
+  name: Quick couplers for tubes and hoses (push-to-connect, sleeve lock)
+  field: seal_use
+  verdict: ok
+  was: &id282
+  - join hoses or pipes
+  now: *id282
+- num: 166
+  name: Quick couplers for tubes and hoses (push-to-connect, sleeve lock)
+  field: hose_join
+  verdict: ok
+  was: &id283
+  - pushed, clamped or clicked
+  now: *id283
+- num: 167
+  name: DIN-rail clip (top-hat rail snap mount)
+  field: mounts_on
+  verdict: ok
+  was: &id284
+  - rail, extrusion or grid
+  now: *id284
+- num: 168
+  name: Indexable clamping lever (ratchet handle)
+  field: mounts_on
+  verdict: ok
+  was: &id285
+  - bar, pole or desk edge
+  now: *id285
+- num: 168
+  name: Indexable clamping lever (ratchet handle)
+  field: clicks_do
+  verdict: change
+  was:
+  - step forward
+  now:
+  - hold a set position
+  why: the teeth let you lift and park the lever at an angle you choose; nothing steps forward one position at a
+    time
+- num: 169
+  name: Spring bar (spring-loaded telescoping pin)
+  field: carries_fluid
+  verdict: ok
+  was: &id286
+  - 'no'
+  now: *id286
+- num: 169
+  name: Spring bar (spring-loaded telescoping pin)
+  field: turns
+  verdict: ok
+  was: &id287
+  - part of a turn
+  now: *id287
+- num: 170
+  name: Band flange clamp (V-band clamp, tri-clamp)
+  field: seal_use
+  verdict: ok
+  was: &id288
+  - seal a still joint
+  - join hoses or pipes
+  now: *id288
+- num: 170
+  name: Band flange clamp (V-band clamp, tri-clamp)
+  field: hose_join
+  verdict: ok
+  was: &id289
+  - pushed, clamped or clicked
+  now: *id289
+- num: 171
+  name: Temporary sheet fastener (Cleco-type spring pin)
+  field: sheet_material
+  verdict: ok
+  was: &id290
+  - sheet metal or plastic
+  now: *id290
+- num: 172
+  name: Press stud (snap fastener, popper)
+  field: printed_take_apart
+  verdict: ok
+  was: &id291
+  - 'yes'
+  now: *id291
+- num: 172
+  name: Press stud (snap fastener, popper)
+  field: threaded
+  verdict: ok
+  was: &id292
+  - 'no'
+  now: *id292
+- num: 172
+  name: Press stud (snap fastener, popper)
+  field: cord_use
+  verdict: ok
+  was: &id293
+  - close or attach fabric
+  now: *id293
+- num: 173
+  name: Spring-steel push-on fasteners (push nut, speed nut, U-nut)
+  field: printed_take_apart
+  verdict: ok
+  was: &id294
+  - 'no'
+  now: *id294
+- num: 173
+  name: Spring-steel push-on fasteners (push nut, speed nut, U-nut)
+  field: sheet_material
+  verdict: ok
+  was: &id295
+  - sheet metal or plastic
+  now: *id295
+- num: 174
+  name: Lamina emergent torsional joint (LET joint)
+  field: flex_does
+  verdict: ok
+  was: &id296
+  - folds like a hinge
+  now: *id296
+- num: 174
+  name: Lamina emergent torsional joint (LET joint)
+  field: spring_kind
+  verdict: ok
+  was: &id297
+  - twist or wind
+  now: *id297
+- num: 175
+  name: Rolling-contact joint (CORE, Jacob's-ladder hinge)
+  field: spring_kind
+  verdict: ok
+  was: &id298
+  - twist or wind
+  now: *id298
+- num: 175
+  name: Rolling-contact joint (CORE, Jacob's-ladder hinge)
+  field: turns
+  verdict: change
+  was:
+  - full turns
+  now:
+  - part of a turn
+  why: it is a hinge whose blocks roll through part of a turn; it cannot spin round and round
+- num: 176
+  name: Mechanical metamaterial mechanism (shear-cell hinge arrays)
+  field: flex_does
+  verdict: change
+  was:
+  - folds like a hinge
+  now:
+  - folds like a hinge
+  - grips or snaps
+  why: its main examples are a latch, pliers and grippers, and bistable cells that snap between positions
+- num: 176
+  name: Mechanical metamaterial mechanism (shear-cell hinge arrays)
+  field: over_centre_use
+  verdict: ok
+  was: &id299
+  - flip between positions
+  now: *id299
+- num: 176
+  name: Mechanical metamaterial mechanism (shear-cell hinge arrays)
+  field: also_under
+  verdict: ok
+  was: &id300
+  - control
+  now: *id300
+- num: 177
+  name: Tape-spring hinge (measuring-tape fold)
+  field: flex_does
+  verdict: ok
+  was: &id301
+  - folds like a hinge
+  now: *id301
+- num: 177
+  name: Tape-spring hinge (measuring-tape fold)
+  field: over_centre_use
+  verdict: ok
+  was: &id302
+  - flip between positions
+  now: *id302
+- num: 177
+  name: Tape-spring hinge (measuring-tape fold)
+  field: spring_kind
+  verdict: ok
+  was: &id303
+  - twist or wind
+  now: *id303
+- num: 178
+  name: Origami mechanisms (waterbomb, Kresling, thick-panel origami)
+  field: move_kind
+  verdict: ok
+  was: &id304
+  - follows a set path
+  now: *id304
+- num: 179
+  name: Press-fit and expanding inserts (tap-in insert)
+  field: printed_take_apart
+  verdict: ok
+  was: &id305
+  - 'yes'
+  now: *id305
+- num: 179
+  name: Press-fit and expanding inserts (tap-in insert)
+  field: threaded
+  verdict: ok
+  was: &id306
+  - 'yes'
+  now: *id306
+- num: 180
+  name: Gimbal
+  field: holds_position
+  verdict: ok
+  was: &id307
+  - 'no'
+  now: *id307
+- num: 180
+  name: Gimbal
+  field: move_kind
+  verdict: ok
+  was: &id308
+  - swivel or tilt
+  now: *id308
+- num: 180
+  name: Gimbal
+  field: turns
+  verdict: ok
+  was: &id309
+  - part of a turn
+  now: *id309
+- num: 181
+  name: Clip-on concealed hinge (cup hinge)
+  field: turns
+  verdict: ok
+  was: &id310
+  - part of a turn
+  now: *id310
+- num: 182
+  name: Invisible barrel hinge (Soss-type)
+  field: turns
+  verdict: ok
+  was: &id311
+  - part of a turn
+  now: *id311
+- num: 183
+  name: Virtual-pivot linkage (remote centre of motion)
+  field: holds_position
+  verdict: ok
+  was: &id312
+  - 'no'
+  now: *id312
+- num: 183
+  name: Virtual-pivot linkage (remote centre of motion)
+  field: move_kind
+  verdict: ok
+  was: &id313
+  - follows a set path
+  now: *id313
+- num: 183
+  name: Virtual-pivot linkage (remote centre of motion)
+  field: turns
+  verdict: ok
+  was: &id314
+  - part of a turn
+  now: *id314
+- num: 184
+  name: Self-closing hinges (spring hinge, rising butt hinge)
+  field: holds_position
+  verdict: ok
+  was: &id315
+  - 'yes'
+  now: *id315
+- num: 184
+  name: Self-closing hinges (spring hinge, rising butt hinge)
+  field: spring_kind
+  verdict: ok
+  was: &id316
+  - twist or wind
+  now: *id316
+- num: 184
+  name: Self-closing hinges (spring hinge, rising butt hinge)
+  field: turns
+  verdict: ok
+  was: &id317
+  - part of a turn
+  now: *id317
+- num: 185
+  name: Lid and flap stays (folding stay, friction stay)
+  field: opens_by
+  verdict: ok
+  was: &id318
+  - swings on a hinge
+  now: *id318
+- num: 185
+  name: Lid and flap stays (folding stay, friction stay)
+  field: move_kind
+  verdict: change
+  was:
+  - follows a set path
+  now:
+  - not applicable
+  why: a stay only props a hinged lid open; the lid's hinge sets its path, the stay does not swivel or guide it
+    along a path
+- num: 185
+  name: Lid and flap stays (folding stay, friction stay)
+  field: over_centre_use
+  verdict: ok
+  was: &id319
+  - flip between positions
+  now: *id319
+- num: 185
+  name: Lid and flap stays (folding stay, friction stay)
+  field: slows_by
+  verdict: ok
+  was: &id320
+  - damper
+  now: *id320
+- num: 185
+  name: Lid and flap stays (folding stay, friction stay)
+  field: also_under
+  verdict: ok
+  was: &id321
+  - hold together
+  now: *id321
+- num: 186
+  name: Drawer slide (telescopic ball-bearing slide)
+  field: slide_kind
+  verdict: change
+  was:
+  - telescoping tube
+  - carriage on a rail
+  now:
+  - carriage on a rail
+  why: it is a drawer or tray slide made of rolled channels on balls, not a tube or pole that telescopes and locks
+- num: 187
+  name: Ball screw
+  field: slide_kind
+  verdict: ok
+  was: &id322
+  - pushed by a screw, chain or crank
+  now: *id322
+- num: 187
+  name: Ball screw
+  field: straight_drive
+  verdict: ok
+  was: &id323
+  - screw
+  now: *id323
+- num: 188
+  name: Differential screw (fine adjustment screw)
+  field: slide_kind
+  verdict: ok
+  was: &id324
+  - pushed by a screw, chain or crank
+  now: *id324
+- num: 188
+  name: Differential screw (fine adjustment screw)
+  field: straight_drive
+  verdict: ok
+  was: &id325
+  - screw
+  now: *id325
+- num: 188
+  name: Differential screw (fine adjustment screw)
+  field: adjusts
+  verdict: change
+  was:
+  - fine-tune a tilt
+  now:
+  - fine-tune a tilt
+  - set and hold
+  why: most of its uses are setting a position finely and leaving it (focusing, endstop, bed height), not only tilts
+- num: 189
+  name: Rigid chain actuator (zip chain, push chain)
+  field: slide_kind
+  verdict: ok
+  was: &id326
+  - pushed by a screw, chain or crank
+  now: *id326
+- num: 189
+  name: Rigid chain actuator (zip chain, push chain)
+  field: straight_drive
+  verdict: ok
+  was: &id327
+  - long travel or pulling
+  now: *id327
+- num: 189
+  name: Rigid chain actuator (zip chain, push chain)
+  field: powered_does
+  verdict: ok
+  was: &id328
+  - move or push something
+  now: *id328
+- num: 190
+  name: Spline shaft (sliding spline)
+  field: shaft_joint
+  verdict: ok
+  was: &id329
+  - part onto a shaft
+  now: *id329
+- num: 190
+  name: Spline shaft (sliding spline)
+  field: printable
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - 'yes'
+  - 'no'
+  why: the entry recommends hex shaft with printed hex-bore gears and pulleys, and LEGO-style cross axles, for makers
+- num: 190
+  name: Spline shaft (sliding spline)
+  field: slide_kind
+  verdict: ok
+  was: &id330
+  - carriage on a rail
+  now: *id330
+- num: 191
+  name: Constant-velocity joint (CV joint)
+  field: drive_does
+  verdict: ok
+  was: &id331
+  - passes the turning on
+  now: *id331
+- num: 191
+  name: Constant-velocity joint (CV joint)
+  field: turns
+  verdict: ok
+  was: &id332
+  - full turns
+  now: *id332
+- num: 193
+  name: Keyless locking bush (taper-lock bush, shaft locking device)
+  field: shaft_joint
+  verdict: ok
+  was: &id333
+  - part onto a shaft
+  now: *id333
+- num: 193
+  name: Keyless locking bush (taper-lock bush, shaft locking device)
+  field: printable
+  verdict: ok
+  was: &id334
+  - 'no'
+  now: *id334
+- num: 194
+  name: Schmidt coupling (offset coupling)
+  field: shaft_joint
+  verdict: ok
+  was: &id335
+  - shaft to shaft
+  now: *id335
+- num: 194
+  name: Schmidt coupling (offset coupling)
+  field: shaft_alignment
+  verdict: ok
+  was: &id336
+  - a little out of line
+  now: *id336
+- num: 194
+  name: Schmidt coupling (offset coupling)
+  field: move_kind
+  verdict: change
+  was:
+  - swivel or tilt
+  now:
+  - not applicable
+  why: it is a coupling for parallel offset shafts; nothing swivels or tilts like a ball or universal joint
+- num: 195
+  name: Flexible drive shaft (rotating cable)
+  field: shaft_joint
+  verdict: ok
+  was: &id337
+  - shaft to shaft
+  now: *id337
+- num: 195
+  name: Flexible drive shaft (rotating cable)
+  field: shaft_alignment
+  verdict: ok
+  was: &id338
+  - at an angle or a bent path
+  now: *id338
+- num: 195
+  name: Flexible drive shaft (rotating cable)
+  field: drive_does
+  verdict: ok
+  was: &id339
+  - passes the turning on
+  now: *id339
+- num: 195
+  name: Flexible drive shaft (rotating cable)
+  field: turns
+  verdict: ok
+  was: &id340
+  - full turns
+  now: *id340
+- num: 196
+  name: Quick-return mechanism (Whitworth, crank and slotted lever)
+  field: straight_drive
+  verdict: ok
+  was: &id341
+  - crank or cam
+  now: *id341
+- num: 197
+  name: Straight-line linkages (Watt, Chebyshev, Peaucellier)
+  field: move_kind
+  verdict: ok
+  was: &id342
+  - follows a set path
+  now: *id342
+- num: 197
+  name: Straight-line linkages (Watt, Chebyshev, Peaucellier)
+  field: push_by
+  verdict: ok
+  was: &id343
+  - levers and linkages
+  now: *id343
+- num: 198
+  name: Escapement (anchor or verge escapement)
+  field: slows_by
+  verdict: ok
+  was: &id344
+  - steady speed or level
+  now: *id344
+- num: 199
+  name: Bell crank (angle lever)
+  field: push_by
+  verdict: ok
+  was: &id345
+  - levers and linkages
+  now: *id345
+- num: 200
+  name: Swashplate and wobble plate
+  field: straight_drive
+  verdict: ok
+  was: &id346
+  - crank or cam
+  now: *id346
+- num: 202
+  name: Chain and sprocket drive
+  field: straight_drive
+  verdict: ok
+  was: &id347
+  - long travel or pulling
+  now: *id347
+- num: 204
+  name: Lantern gear (pin gear)
+  field: straight_drive
+  verdict: ok
+  was: &id348
+  - long travel or pulling
+  now: *id348
+- num: 205
+  name: Friction drives and CVTs (friction wheel, variator)
+  field: straight_drive
+  verdict: ok
+  was: &id349
+  - long travel or pulling
+  now: *id349
+- num: 206
+  name: Pulley system (block and tackle, differential hoist)
+  field: holds_for
+  verdict: ok
+  was: &id350
+  - a load
+  now: *id350
+- num: 206
+  name: Pulley system (block and tackle, differential hoist)
+  field: push_by
+  verdict: ok
+  was: &id351
+  - cables, pulleys or liquid
+  now: *id351
+- num: 206
+  name: Pulley system (block and tackle, differential hoist)
+  field: tightens
+  verdict: change
+  was:
+  - parts clamped together
+  now:
+  - strap, cord or rope
+  why: a tackle tensions a rope or line; it does not clamp parts together
+- num: 207
+  name: Electromagnetic clutch
+  field: powered_does
+  verdict: ok
+  was: &id352
+  - brake or engage
+  now: *id352
+- num: 208
+  name: Thermal actuators (bimetal strip, wax motor)
+  field: over_centre_use
+  verdict: ok
+  was: &id353
+  - flip between positions
+  now: *id353
+- num: 208
+  name: Thermal actuators (bimetal strip, wax motor)
+  field: powered_does
+  verdict: ok
+  was: &id354
+  - move or push something
+  now: *id354
+- num: 209
+  name: Burn-wire and fusible-link release (one-shot thermal release)
+  field: powered_does
+  verdict: ok
+  was: &id355
+  - lock or hold
+  now: *id355
+- num: 209
+  name: Burn-wire and fusible-link release (one-shot thermal release)
+  field: also_under
+  verdict: ok
+  was: &id356
+  - control
+  - overload
+  now: *id356
+- num: 210
+  name: Compression fitting (ferrule fitting)
+  field: seal_use
+  verdict: ok
+  was: &id357
+  - join hoses or pipes
+  now: *id357
+- num: 210
+  name: Compression fitting (ferrule fitting)
+  field: hose_join
+  verdict: ok
+  was: &id358
+  - screwed
+  now: *id358
+- num: 211
+  name: Friction brake (band, drum or disc brake)
+  field: holds_for
+  verdict: ok
+  was: &id359
+  - a load
+  now: *id359
+- num: 211
+  name: Friction brake (band, drum or disc brake)
+  field: slows_by
+  verdict: ok
+  was: &id360
+  - brake
+  now: *id360
+- num: 212
+  name: Eddy-current brake (magnetic brake)
+  field: slows_by
+  verdict: change
+  was:
+  - brake
+  now:
+  - brake
+  - damper
+  why: it slows smoothly but cannot hold still (no force at standstill); it is also sold as magnetic damping, so
+    it belongs under dampers too
+- num: 213
+  name: Speed governor (fly fan, centrifugal governor)
+  field: slows_by
+  verdict: ok
+  was: &id361
+  - steady speed or level
+  now: *id361
+- num: 214
+  name: Dampers (rotary and linear soft-close dampers)
+  field: one_way_kind
+  verdict: change
+  was:
+  - for air or liquid
+  now:
+  - not applicable
+  why: a damper slows a movement, it does not make it go one way only; it is not a one-way valve
+- num: 214
+  name: Dampers (rotary and linear soft-close dampers)
+  field: slows_by
+  verdict: ok
+  was: &id362
+  - damper
+  now: *id362
+- num: 215
+  name: Elastomer isolation mount (rubber bobbin mount, isolator grommet)
+  field: mounts_on
+  verdict: unsure
+  was: &id363
+  - wall or ceiling
+  now: *id363
+  why: it fixes a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the
+    places fits well
+- num: 215
+  name: Elastomer isolation mount (rubber bobbin mount, isolator grommet)
+  field: wall_hold
+  verdict: change
+  was:
+  - tape or pads
+  now:
+  - screws, anchors or hooks
+  why: grommets and bobbin mounts are held by screws or studs through them; the pads are rubber feet, not sticky
+    pads
+- num: 215
+  name: Elastomer isolation mount (rubber bobbin mount, isolator grommet)
+  field: slows_by
+  verdict: ok
+  was: &id364
+  - damper
+  now: *id364
+- num: 216
+  name: Suction cup
+  field: mounts_on
+  verdict: ok
+  was: &id365
+  - wall or ceiling
+  now: *id365
+- num: 216
+  name: Suction cup
+  field: wall_hold
+  verdict: ok
+  was: &id366
+  - magnet or suction
+  now: *id366
+- num: 217
+  name: Taper fit (Morse taper)
+  field: shaft_joint
+  verdict: ok
+  was: &id367
+  - part onto a shaft
+  now: *id367
+- num: 217
+  name: Taper fit (Morse taper)
+  field: printable
+  verdict: ok
+  was: &id368
+  - 'no'
+  now: *id368
+- num: 218
+  name: Press fit (interference fit)
+  field: printed_take_apart
+  verdict: ok
+  was: &id369
+  - 'no'
+  now: *id369
+- num: 218
+  name: Press fit (interference fit)
+  field: shaft_joint
+  verdict: ok
+  was: &id370
+  - part onto a shaft
+  now: *id370
+- num: 218
+  name: Press fit (interference fit)
+  field: printable
+  verdict: ok
+  was: &id371
+  - 'yes'
+  now: *id371
+- num: 219
+  name: Collet (and keyless chuck)
+  field: carries_fluid
+  verdict: ok
+  was: &id372
+  - 'no'
+  now: *id372
+- num: 219
+  name: Collet (and keyless chuck)
+  field: shaft_joint
+  verdict: ok
+  was: &id373
+  - part onto a shaft
+  now: *id373
+- num: 219
+  name: Collet (and keyless chuck)
+  field: printable
+  verdict: ok
+  was: &id374
+  - 'no'
+  now: *id374
+- num: 219
+  name: Collet (and keyless chuck)
+  field: gripped_by
+  verdict: ok
+  was: &id375
+  - by hand
+  now: *id375
+- num: 220
+  name: Clamp-on tube fittings (slip-on structural fittings)
+  field: carries_fluid
+  verdict: change
+  was:
+  - 'yes'
+  now:
+  - 'no'
+  why: these are structural pipe fittings for railings, racks and frames, held by a set screw; they do not carry
+    air or liquid
+- num: 221
+  name: Internal tube anchors (star nut, expansion plug)
+  field: carries_fluid
+  verdict: ok
+  was: &id376
+  - 'no'
+  now: *id376
+- num: 221
+  name: Internal tube anchors (star nut, expansion plug)
+  field: tightens
+  verdict: ok
+  was: &id377
+  - parts clamped together
+  now: *id377
+- num: 222
+  name: Blind threaded fixings (rivet nut, well nut)
+  field: sheet_material
+  verdict: ok
+  was: &id378
+  - sheet metal or plastic
+  now: *id378
+- num: 222
+  name: Blind threaded fixings (rivet nut, well nut)
+  field: seal_use
+  verdict: ok
+  was: &id379
+  - seal a still joint
+  now: *id379
+- num: 222
+  name: Blind threaded fixings (rivet nut, well nut)
+  field: seal_material
+  verdict: change
+  was:
+  - metal
+  now:
+  - metal
+  - plastic, fabric or a gap
+  why: well nuts are named for plastic tanks, kayaks, fairings and composite panels as well as metal
+- num: 227
+  name: Silicone and MS-polymer adhesive sealants
+  field: seal_use
+  verdict: change
+  was:
+  - seal a still joint
+  - seal a moving shaft
+  now:
+  - seal a still joint
+  why: a cured sealant bead seals seams and gaps; the entry does not describe sealing a moving shaft or rod
+- num: 227
+  name: Silicone and MS-polymer adhesive sealants
+  field: seal_material
+  verdict: change
+  was:
+  - plastic, fabric or a gap
+  now:
+  - metal
+  - plastic, fabric or a gap
+  why: it seals seams in enclosures and bonds glass, tiles and panels of any material, metal included, as well as
+    filling gaps
+- num: 230
+  name: Stretch-release adhesive strips
+  field: mounts_on
+  verdict: ok
+  was: &id380
+  - wall or ceiling
+  now: *id380
+- num: 230
+  name: Stretch-release adhesive strips
+  field: wall_hold
+  verdict: ok
+  was: &id381
+  - tape or pads
+  now: *id381
+- num: 232
+  name: Epoxy putty (kneadable two-part putty)
+  field: seal_use
+  verdict: ok
+  was: &id382
+  - seal a still joint
+  now: *id382
+- num: 232
+  name: Epoxy putty (kneadable two-part putty)
+  field: seal_material
+  verdict: change
+  was:
+  - plastic, fabric or a gap
+  now:
+  - metal
+  - plastic, fabric or a gap
+  why: it patches leaking pipes and tanks and rebuilds worn metal, as well as filling gaps
+- num: 235
+  name: Exact-constraint mounting (3-2-1 locating)
+  field: adjusts
+  verdict: change
+  was:
+  - fine-tune a tilt
+  now:
+  - set and hold
+  - fine-tune a tilt
+  why: its main use is putting a part back in exactly the same position every time; tilt tuning by screws (bed levelling,
+    optical mounts) also fits
+- num: 236
+  name: Wave and disc springs (compact axial springs)
+  field: tightens
+  verdict: change
+  was:
+  - belt, chain or cable
+  - parts clamped together
+  now:
+  - parts clamped together
+  why: they preload bearings and keep bolted joints and clutch stacks tight; the entry does not use them to tension
+    belts, chains or cables
+- num: 237
+  name: Gas spring (incl. lockable gas spring)
+  field: slows_by
+  verdict: ok
+  was: &id383
+  - damper
+  now: *id383
+- num: 237
+  name: Gas spring (incl. lockable gas spring)
+  field: spring_kind
+  verdict: ok
+  was: &id384
+  - straight push or pull
+  now: *id384
+- num: 238
+  name: Spiral power spring (clock spring)
+  field: tightens
+  verdict: change
+  was:
+  - belt, chain or cable
+  - parts clamped together
+  now:
+  - strap, cord or rope
+  why: its take-up use is self-retracting reels that wind a cord, tape or lead back in; it does not clamp parts
+    together or tension machine belts
+- num: 238
+  name: Spiral power spring (clock spring)
+  field: spring_kind
+  verdict: ok
+  was: &id385
+  - twist or wind
+  now: *id385
+- num: 239
+  name: Tab-and-slot joint (self-fixturing sheet joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - wood
+  - sheet metal or plastic
+  why: the entry covers laser-cut plywood and MDF boxes and furniture as well as metal and acrylic
+- num: 240
+  name: T-slot joint (captive nut and bolt joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - wood
+  - sheet metal or plastic
+  why: the classic use is laser-cut plywood and MDF frames and boxes, as well as acrylic and waterjet-cut metal
+- num: 241
+  name: Snap-lock sheet joint (barbed or spring finger)
+  field: sheet_material
+  verdict: ok
+  was: &id386
+  - sheet metal or plastic
+  now: *id386
+- num: 242
+  name: Cross-halving slot joint (egg-crate joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  now:
+  - wood
+  - sheet metal or plastic
+  why: the entry is mostly about laser-cut acrylic and cardboard dividers and slot-together models as well as plywood
+- num: 243
+  name: Finger joint (box joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  now:
+  - wood
+  - sheet metal or plastic
+  why: it is the default joint for laser-cut boxes, including acrylic, as well as wooden box joints
+- num: 244
+  name: Kerf bending (laser-cut living hinge)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - wood
+  - sheet metal or plastic
+  why: the entry is mainly about plywood and MDF (saw kerfs and laser-cut living hinges); acrylic also appears
+- num: 244
+  name: Kerf bending (laser-cut living hinge)
+  field: opens_by
+  verdict: ok
+  was: &id387
+  - swings on a hinge
+  now: *id387
+- num: 244
+  name: Kerf bending (laser-cut living hinge)
+  field: flex_does
+  verdict: ok
+  was: &id388
+  - folds like a hinge
+  now: *id388
+- num: 245
+  name: Dovetail joint (through and half-blind)
+  field: sheet_material
+  verdict: ok
+  was: &id389
+  - wood
+  now: *id389
+- num: 246
+  name: Sliding dovetail
+  field: sheet_material
+  verdict: ok
+  was: &id390
+  - wood
+  now: *id390
+- num: 246
+  name: Sliding dovetail
+  field: slide_kind
+  verdict: ok
+  was: &id391
+  - carriage on a rail
+  now: *id391
+- num: 247
+  name: Mortise and tenon (incl. wedged, drawbored and tusk tenons)
+  field: sheet_material
+  verdict: ok
+  was: &id392
+  - wood
+  now: *id392
+- num: 248
+  name: Butterfly key (bow-tie key)
+  field: sheet_material
+  verdict: ok
+  was: &id393
+  - wood
+  now: *id393
+- num: 249
+  name: Japanese interlocking joints (splices and three-way corners)
+  field: sheet_material
+  verdict: ok
+  was: &id394
+  - wood
+  now: *id394
+- num: 249
+  name: Japanese interlocking joints (splices and three-way corners)
+  field: opens_by
+  verdict: change
+  was:
+  - catch or lever
+  now:
+  - not applicable
+  why: these are timber beam splices and corner joints, not a lid or door catch; the puzzle box is only a printed
+    model of them
+- num: 249
+  name: Japanese interlocking joints (splices and three-way corners)
+  field: locks_out
+  verdict: change
+  was:
+  - 'yes'
+  now:
+  - not applicable
+  why: same reason; nothing in the entry is a lock that only the right person can open
+- num: 250
+  name: Knock-down cam-lock and cross-dowel connectors
+  field: sheet_material
+  verdict: ok
+  was: &id395
+  - wood
+  now: *id395
+- num: 251
+  name: Wedge dowel (click-in grooved dowel)
+  field: tightens
+  verdict: ok
+  was: &id396
+  - parts clamped together
+  now: *id396
+- num: 252
+  name: Lever-cam panel connector (self-clamping click connector)
+  field: sheet_material
+  verdict: ok
+  was: &id397
+  - wood
+  now: *id397
+- num: 253
+  name: Folded seam (hem, lock seam, Pittsburgh lock)
+  field: sheet_material
+  verdict: ok
+  was: &id398
+  - sheet metal or plastic
+  now: *id398
+- num: 253
+  name: Folded seam (hem, lock seam, Pittsburgh lock)
+  field: seal_use
+  verdict: ok
+  was: &id399
+  - seal a still joint
+  now: *id399
+- num: 253
+  name: Folded seam (hem, lock seam, Pittsburgh lock)
+  field: seal_material
+  verdict: ok
+  was: &id400
+  - metal
+  now: *id400
+- num: 254
+  name: Bent or twisted tab through a slot (lanced tab)
+  field: sheet_material
+  verdict: ok
+  was: &id401
+  - sheet metal or plastic
+  now: *id401
+- num: 255
+  name: Clinching (press joining without rivets)
+  field: sheet_material
+  verdict: ok
+  was: &id402
+  - sheet metal or plastic
+  now: *id402
+- num: 255
+  name: Clinching (press joining without rivets)
+  field: seal_use
+  verdict: ok
+  was: &id403
+  - seal a still joint
+  now: *id403
+- num: 255
+  name: Clinching (press joining without rivets)
+  field: seal_material
+  verdict: ok
+  was: &id404
+  - metal
+  now: *id404
+- num: 256
+  name: Self-clinching fastener (press-in nut or stud)
+  field: sheet_material
+  verdict: ok
+  was: &id405
+  - sheet metal or plastic
+  now: *id405
+- num: 258
+  name: Self-tapping screw into plastic (thread-forming screw)
+  field: printed_take_apart
+  verdict: ok
+  was: &id406
+  - 'yes'
+  now: *id406
+- num: 258
+  name: Self-tapping screw into plastic (thread-forming screw)
+  field: threaded
+  verdict: ok
+  was: &id407
+  - 'yes'
+  now: *id407
+- num: 258
+  name: Self-tapping screw into plastic (thread-forming screw)
+  field: tightens
+  verdict: ok
+  was: &id408
+  - parts clamped together
+  now: *id408
+- num: 259
+  name: Retaining ring (circlip, E-clip)
+  field: printed_take_apart
+  verdict: ok
+  was: &id409
+  - 'yes'
+  now: *id409
+- num: 259
+  name: Retaining ring (circlip, E-clip)
+  field: threaded
+  verdict: ok
+  was: &id410
+  - 'no'
+  now: *id410
+- num: 259
+  name: Retaining ring (circlip, E-clip)
+  field: shaft_joint
+  verdict: ok
+  was: &id411
+  - part onto a shaft
+  now: *id411
+- num: 259
+  name: Retaining ring (circlip, E-clip)
+  field: printable
+  verdict: ok
+  was: &id412
+  - 'yes'
+  now: *id412
+- num: 262
+  name: Basic latches (spring latch, slide bolt, hook and eye)
+  field: opens_by
+  verdict: ok
+  was: &id413
+  - catch or lever
+  now: *id413
+- num: 262
+  name: Basic latches (spring latch, slide bolt, hook and eye)
+  field: locks_out
+  verdict: ok
+  was: &id414
+  - 'no'
+  now: *id414
+- num: 262
+  name: Basic latches (spring latch, slide bolt, hook and eye)
+  field: one_way_kind
+  verdict: change
+  was:
+  - clicks
+  now:
+  - not applicable
+  why: a latch keeps a door shut; it is not a ratchet that lets something turn one way only
+- num: 263
+  name: Knuckle hinge (butt hinge)
+  field: opens_by
+  verdict: ok
+  was: &id415
+  - swings on a hinge
+  now: *id415
+- num: 263
+  name: Knuckle hinge (butt hinge)
+  field: holds_position
+  verdict: ok
+  was: &id416
+  - 'no'
+  now: *id416
+- num: 263
+  name: Knuckle hinge (butt hinge)
+  field: turns
+  verdict: ok
+  was: &id417
+  - part of a turn
+  now: *id417
+- num: 264
+  name: Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing)
+  field: turns
+  verdict: change
+  was:
+  - full turns
+  now:
+  - part of a turn
+  - full turns
+  why: the plain pivot is for levers, arms, linkages and folding parts that swing back and forth; ball bearings
+    are for full turns
+- num: 265
+  name: Linear guides (bushings on rods, wheels or carriages on rails)
+  field: slide_kind
+  verdict: ok
+  was: &id418
+  - carriage on a rail
+  now: *id418
+- num: 266
+  name: Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
+  field: shaft_joint
+  verdict: ok
+  was: &id419
+  - part onto a shaft
+  - shaft to shaft
+  now: *id419
+- num: 266
+  name: Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
+  field: printable
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - 'yes'
+  - 'no'
+  why: the entry recommends hex or D shafts for printed parts and links printable clamp collars and shaft couplers,
+    as well as metal hubs
+- num: 266
+  name: Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
+  field: shaft_alignment
+  verdict: ok
+  was: &id420
+  - exactly in line
+  now: *id420
+- num: 267
+  name: Spur gear pair and gear train (simple, compound, idler)
+  field: drive_does
+  verdict: ok
+  was: &id421
+  - changes speed or splits
+  now: *id421
+- num: 267
+  name: Spur gear pair and gear train (simple, compound, idler)
+  field: turns
+  verdict: ok
+  was: &id422
+  - full turns
+  now: *id422
+- num: 268
+  name: Coil spring (compression, extension, torsion)
+  field: tightens
+  verdict: ok
+  was: &id423
+  - belt, chain or cable
+  - parts clamped together
+  now: *id423
+- num: 268
+  name: Coil spring (compression, extension, torsion)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - straight push or pull
+  - twist or wind
+  why: the entry covers compression and extension springs (straight push and pull) as well as torsion springs
+- num: 269
+  name: Basic strap and garment closures (prong buckle, button, toggle and loop)
+  field: cord_use
+  verdict: ok
+  was: &id424
+  - close or attach fabric
+  now: *id424
+- num: 270
+  name: Glued joint design (butt, lap and scarf joints; peel vs shear)
+  field: also_under
+  verdict: change
+  was:
+  - control
+  now:
+  - not applicable
+  why: it is about shaping glued joints; nothing in it controls a movement, and its jobs already place it under
+    holding things together
+- num: 271
+  name: Butt and lap wood joints (screwed, pocket-hole, half-lap)
+  field: sheet_material
+  verdict: ok
+  was: &id425
+  - wood
+  now: *id425
+- num: 272
+  name: Dowel and biscuit joints
+  field: sheet_material
+  verdict: ok
+  was: &id426
+  - wood
+  now: *id426
+- num: 273
+  name: Tongue-and-groove joint (incl. sliding-lid grooves)
+  field: opens_by
+  verdict: unsure
+  was: &id427
+  - catch or lever
+  now: *id427
+  why: the sliding lid opens by sliding, which none of the three answers covers; 'catch or lever' is wrong, but
+    dropping it would lose sliding-lid boxes from the lid shortlist
+- num: 273
+  name: Tongue-and-groove joint (incl. sliding-lid grooves)
+  field: locks_out
+  verdict: ok
+  was: &id428
+  - 'no'
+  now: *id428
+- num: 274
+  name: Blind rivet (pop rivet)
+  field: sheet_material
+  verdict: ok
+  was: &id429
+  - sheet metal or plastic
+  now: *id429
+- num: 274
+  name: Blind rivet (pop rivet)
+  field: seal_use
+  verdict: ok
+  was: &id430
+  - seal a still joint
+  now: *id430
+- num: 274
+  name: Blind rivet (pop rivet)
+  field: seal_material
+  verdict: ok
+  was: &id431
+  - metal
+  now: *id431
+- num: 275
+  name: Iris valve (twisted-sleeve valve)
+  field: clicks_do
+  verdict: ok
+  was: &id432
+  - hold a set position
+  now: *id432
+- num: 275
+  name: Iris valve (twisted-sleeve valve)
+  field: seal_use
+  verdict: change
+  was:
+  - pass cables through
+  - pump or control a flow
+  now:
+  - pump or control a flow
+  why: it shuts off or meters a flow of powder or liquid; the entry says sealing round a cable is a different part
+    (cable gland)
+- num: 275
+  name: Iris valve (twisted-sleeve valve)
+  field: fluid_does
+  verdict: ok
+  was: &id433
+  - switch, set or store
+  now: *id433
+- num: 276
+  name: Twisted-and-coiled polymer muscle (fishing-line artificial muscle)
+  field: powered_does
+  verdict: ok
+  was: &id434
+  - move or push something
+  now: *id434
+- num: 277
+  name: Bernoulli gripper (non-contact air gripper)
+  field: gripped_by
+  verdict: ok
+  was: &id435
+  - machine
+  now: *id435
+- num: 277
+  name: Bernoulli gripper (non-contact air gripper)
+  field: powered_does
+  verdict: ok
+  was: &id436
+  - grip or lift
+  now: *id436
+- num: 278
+  name: Tendon-driven joint (cable-pulled finger or tentacle)
+  field: move_kind
+  verdict: ok
+  was: &id437
+  - follows a set path
+  now: *id437
+- num: 278
+  name: Tendon-driven joint (cable-pulled finger or tentacle)
+  field: straight_drive
+  verdict: ok
+  was: &id438
+  - long travel or pulling
+  now: *id438
+- num: 279
+  name: Walking linkage (Jansen and Klann leg mechanisms)
+  field: move_kind
+  verdict: ok
+  was: &id439
+  - follows a set path
+  now: *id439
+- num: 280
+  name: Magnetic detent (magnet click stops)
+  field: clicks_do
+  verdict: ok
+  was: &id440
+  - hold a set position
+  now: *id440
+- num: 281
+  name: Multi-material interlock (co-printed rigid and flexible parts)
+  field: printed_take_apart
+  verdict: ok
+  was: &id441
+  - 'no'
+  now: *id441
+- num: 281
+  name: Multi-material interlock (co-printed rigid and flexible parts)
+  field: opens_by
+  verdict: change
+  was:
+  - catch or lever
+  now:
+  - swings on a hinge
+  why: its lid use is boxes and cases with flexible TPU hinges printed into rigid shells; it is not a catch or lever
+- num: 281
+  name: Multi-material interlock (co-printed rigid and flexible parts)
+  field: locks_out
+  verdict: change
+  was:
+  - 'yes'
+  now:
+  - not applicable
+  why: it is a co-printed seam, not a lock; nothing in the entry keeps the wrong person out
+- num: 282
+  name: Elastic band and elastic cord springs (elastomer springs)
+  field: tightens
+  verdict: ok
+  was: &id442
+  - strap, cord or rope
+  now: *id442
+- num: 282
+  name: Elastic band and elastic cord springs (elastomer springs)
+  field: tension_hold
+  verdict: ok
+  was: &id443
+  - spring or elastic
+  now: *id443
+- num: 283
+  name: Soft pneumatic bending actuator (air-powered soft finger)
+  field: powered_does
+  verdict: ok
+  was: &id444
+  - move or push something
+  now: *id444
+- num: 284
+  name: Scroll mechanism (self-centring scroll chuck, spiral-slot plate)
+  field: gripped_by
+  verdict: ok
+  was: &id445
+  - by hand
+  now: *id445
+- num: 285
+  name: Multi-turn rotation limiter (travelling-nut and stacked-ring stops)
+  field: slows_by
+  verdict: ok
+  was: &id446
+  - brake
+  now: *id446
+- num: 285
+  name: Multi-turn rotation limiter (travelling-nut and stacked-ring stops)
+  field: turns
+  verdict: ok
+  was: &id447
+  - full turns
+  now: *id447
+- num: 286
+  name: Genderless connector (hermaphroditic coupling)
+  field: wire_use
+  verdict: change
+  was:
+  - to a board or terminal
+  now:
+  - splice
+  - to a board or terminal
+  why: it is used to chain cables and extension leads to each other (e.g. Powerpole), as well as to connect to devices
+    and batteries
+- num: 286
+  name: Genderless connector (hermaphroditic coupling)
+  field: plugs_in
+  verdict: ok
+  was: &id448
+  - 'yes'
+  now: *id448
+- num: 287
+  name: Gearless right-angle drive (Hobson's joint, elbow mechanism)
+  field: shaft_joint
+  verdict: ok
+  was: &id449
+  - shaft to shaft
+  now: *id449
+- num: 287
+  name: Gearless right-angle drive (Hobson's joint, elbow mechanism)
+  field: shaft_alignment
+  verdict: ok
+  was: &id450
+  - at an angle or a bent path
+  now: *id450
+- num: 288
+  name: Pneumatic artificial muscle (McKibben muscle)
+  field: powered_does
+  verdict: ok
+  was: &id451
+  - move or push something
+  now: *id451
+- num: 289
+  name: 'Check valve (one-way valve: flap, ball or duckbill)'
+  field: one_way_kind
+  verdict: ok
+  was: &id452
+  - for air or liquid
+  now: *id452
+- num: 289
+  name: 'Check valve (one-way valve: flap, ball or duckbill)'
+  field: seal_use
+  verdict: ok
+  was: &id453
+  - pump or control a flow
+  now: *id453
+- num: 289
+  name: 'Check valve (one-way valve: flap, ball or duckbill)'
+  field: fluid_does
+  verdict: ok
+  was: &id454
+  - one way or let off pressure
+  now: *id454
+- num: 290
+  name: Bellows boot and way cover (gaiter)
+  field: seal_use
+  verdict: change
+  was:
+  - seal a still joint
+  - seal a moving shaft
+  now:
+  - seal a moving shaft
+  why: it covers sliding rods, screws and bending joints, not a joint that does not move
+- num: 291
+  name: Anti-twister mechanism (twist-free cable feed)
+  field: drive_does
+  verdict: change
+  was:
+  - passes the turning on
+  now:
+  - not applicable
+  why: it feeds a cable or tube to a spinning part; it is not a shaft-to-shaft drive
+- num: 291
+  name: Anti-twister mechanism (twist-free cable feed)
+  field: seal_use
+  verdict: ok
+  was: &id455
+  - pass cables through
+  now: *id455
+- num: 291
+  name: Anti-twister mechanism (twist-free cable feed)
+  field: turns
+  verdict: ok
+  was: &id456
+  - full turns
+  now: *id456
+- num: 292
+  name: Weight-activated gripping tongs (lifting tongs, lewis)
+  field: gripped_by
+  verdict: change
+  was:
+  - by hand
+  now:
+  - machine
+  why: nobody tightens it by hand; the crane pull and load weight close the jaws, like a passive gripper
+- num: 292
+  name: Weight-activated gripping tongs (lifting tongs, lewis)
+  field: holds_for
+  verdict: change
+  was:
+  - a load
+  now:
+  - not applicable
+  why: it is a lifting grab, not a brake or self-locking drive that holds a load where it stops
+- num: 293
+  name: Variable-radius pulley (fusee, compound-bow cam)
+  field: straight_drive
+  verdict: ok
+  was: &id457
+  - long travel or pulling
+  now: *id457
+- num: 293
+  name: Variable-radius pulley (fusee, compound-bow cam)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  now:
+  - straight push or pull
+  - twist or wind
+  why: its lead example, the fusee, evens out a wound mainspring; coil-spring balancers pull straight
+- num: 294
+  name: Tuned mass damper (vibration absorber)
+  field: slows_by
+  verdict: ok
+  was: &id458
+  - damper
+  now: *id458
+- num: 295
+  name: Radial lip seal (rotary shaft seal, oil seal)
+  field: seal_use
+  verdict: ok
+  was: &id459
+  - seal a moving shaft
+  now: *id459
+- num: 296
+  name: Knife-edge and jewel pivots (low-friction point pivots)
+  field: turns
+  verdict: change
+  was:
+  - full turns
+  now:
+  - part of a turn
+  - full turns
+  why: knife edges only rock (balances, pendulums); jewel pivots turn continuously
+- num: 299
+  name: Housing and rebate joints (dado, rabbet)
+  field: sheet_material
+  verdict: ok
+  was: &id460
+  - wood
+  now: *id460
+- num: 300
+  name: Syringe hydraulics (hydraulic lever, Pascal's principle)
+  field: slide_kind
+  verdict: ok
+  was: &id461
+  - pushed by a screw, chain or crank
+  now: *id461
+- num: 300
+  name: Syringe hydraulics (hydraulic lever, Pascal's principle)
+  field: push_by
+  verdict: ok
+  was: &id462
+  - cables, pulleys or liquid
+  now: *id462
+- num: 301
+  name: Air or hydraulic cylinder (pneumatic cylinder, hydraulic ram)
+  field: powered_does
+  verdict: ok
+  was: &id463
+  - move or push something
+  now: *id463
+- num: 302
+  name: Switching valve (directional control valve, solenoid valve)
+  field: seal_use
+  verdict: ok
+  was: &id464
+  - pump or control a flow
+  now: *id464
+- num: 302
+  name: Switching valve (directional control valve, solenoid valve)
+  field: fluid_does
+  verdict: ok
+  was: &id465
+  - switch, set or store
+  now: *id465
+- num: 302
+  name: Switching valve (directional control valve, solenoid valve)
+  field: powered_does
+  verdict: ok
+  was: &id466
+  - pump or control a flow
+  now: *id466
+- num: 303
+  name: Peristaltic pump (tube pump, roller pump)
+  field: seal_use
+  verdict: ok
+  was: &id467
+  - pump or control a flow
+  now: *id467
+- num: 303
+  name: Peristaltic pump (tube pump, roller pump)
+  field: fluid_does
+  verdict: ok
+  was: &id468
+  - pump
+  now: *id468
+- num: 303
+  name: Peristaltic pump (tube pump, roller pump)
+  field: powered_does
+  verdict: ok
+  was: &id469
+  - pump or control a flow
+  now: *id469
+- num: 304
+  name: Venturi vacuum generator (vacuum ejector, aspirator)
+  field: powered_does
+  verdict: ok
+  was: &id470
+  - pump or control a flow
+  now: *id470
+- num: 305
+  name: Bellows and inflatable actuators (air bag, air spring)
+  field: seal_use
+  verdict: change
+  was:
+  - seal a moving shaft
+  now:
+  - not applicable
+  why: it is an air-powered pusher, not a seal round a moving shaft
+- num: 305
+  name: Bellows and inflatable actuators (air bag, air spring)
+  field: powered_does
+  verdict: change
+  was:
+  - move or push something
+  now:
+  - move or push something
+  - grip or lift
+  why: entry stresses lifting bags lifting heavy loads and vacuum bellows grippers
+- num: 306
+  name: Air-logic valve (pneumatic logic, soft bistable valve)
+  field: over_centre_use
+  verdict: ok
+  was: &id471
+  - flip between positions
+  now: *id471
+- num: 306
+  name: Air-logic valve (pneumatic logic, soft bistable valve)
+  field: seal_use
+  verdict: ok
+  was: &id472
+  - pump or control a flow
+  now: *id472
+- num: 306
+  name: Air-logic valve (pneumatic logic, soft bistable valve)
+  field: fluid_does
+  verdict: ok
+  was: &id473
+  - switch, set or store
+  now: *id473
+- num: 306
+  name: Air-logic valve (pneumatic logic, soft bistable valve)
+  field: powered_does
+  verdict: ok
+  was: &id474
+  - pump or control a flow
+  now: *id474
+- num: 307
+  name: Tesla valve (no-moving-parts one-way channel)
+  field: seal_use
+  verdict: ok
+  was: &id475
+  - pump or control a flow
+  now: *id475
+- num: 307
+  name: Tesla valve (no-moving-parts one-way channel)
+  field: fluid_does
+  verdict: ok
+  was: &id476
+  - one way or let off pressure
+  now: *id476
+- num: 308
+  name: Vacuum-driven artificial muscle (origami vacuum muscle)
+  field: powered_does
+  verdict: ok
+  was: &id477
+  - move or push something
+  now: *id477
+- num: 309
+  name: Syringe pump (syringe driver)
+  field: straight_drive
+  verdict: ok
+  was: &id478
+  - screw
+  now: *id478
+- num: 309
+  name: Syringe pump (syringe driver)
+  field: seal_use
+  verdict: ok
+  was: &id479
+  - pump or control a flow
+  now: *id479
+- num: 309
+  name: Syringe pump (syringe driver)
+  field: fluid_does
+  verdict: ok
+  was: &id480
+  - pump
+  now: *id480
+- num: 309
+  name: Syringe pump (syringe driver)
+  field: powered_does
+  verdict: ok
+  was: &id481
+  - pump or control a flow
+  now: *id481
+- num: 310
+  name: Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
+  field: one_way_kind
+  verdict: change
+  was:
+  - for air or liquid
+  now:
+  - not applicable
+  why: it is a pump (it contains check valves, but a maker looking for a one-way valve wants the check valve entry)
+- num: 310
+  name: Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
+  field: seal_use
+  verdict: ok
+  was: &id482
+  - pump or control a flow
+  now: *id482
+- num: 310
+  name: Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
+  field: fluid_does
+  verdict: ok
+  was: &id483
+  - pump
+  now: *id483
+- num: 310
+  name: Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
+  field: powered_does
+  verdict: ok
+  was: &id484
+  - pump or control a flow
+  now: *id484
+- num: 311
+  name: Air tank and hydraulic accumulator (pressure reservoir)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  now:
+  - not applicable
+  why: it is a pressure store, not a spring that pushes back
+- num: 311
+  name: Air tank and hydraulic accumulator (pressure reservoir)
+  field: seal_use
+  verdict: ok
+  was: &id485
+  - pump or control a flow
+  now: *id485
+- num: 311
+  name: Air tank and hydraulic accumulator (pressure reservoir)
+  field: fluid_does
+  verdict: ok
+  was: &id486
+  - switch, set or store
+  now: *id486
+- num: 311
+  name: Air tank and hydraulic accumulator (pressure reservoir)
+  field: powered_does
+  verdict: ok
+  was: &id487
+  - pump or control a flow
+  now: *id487
+- num: 312
+  name: Pressure regulator (pressure-reducing valve)
+  field: seal_use
+  verdict: ok
+  was: &id488
+  - pump or control a flow
+  now: *id488
+- num: 312
+  name: Pressure regulator (pressure-reducing valve)
+  field: fluid_does
+  verdict: ok
+  was: &id489
+  - switch, set or store
+  now: *id489
+- num: 313
+  name: Pressure relief valve (safety valve, pop-off valve)
+  field: seal_use
+  verdict: ok
+  was: &id490
+  - pump or control a flow
+  now: *id490
+- num: 313
+  name: Pressure relief valve (safety valve, pop-off valve)
+  field: fluid_does
+  verdict: ok
+  was: &id491
+  - one way or let off pressure
+  now: *id491
+- num: 314
+  name: Speed-control valve (flow control valve, needle valve)
+  field: one_way_kind
+  verdict: change
+  was:
+  - for air or liquid
+  now:
+  - not applicable
+  why: it restricts flow one way and lets it pass freely the other; it never stops flow, so it is not a one-way
+    valve
+- num: 314
+  name: Speed-control valve (flow control valve, needle valve)
+  field: slows_by
+  verdict: ok
+  was: &id492
+  - steady speed or level
+  now: *id492
+- num: 314
+  name: Speed-control valve (flow control valve, needle valve)
+  field: seal_use
+  verdict: ok
+  was: &id493
+  - pump or control a flow
+  now: *id493
+- num: 314
+  name: Speed-control valve (flow control valve, needle valve)
+  field: fluid_does
+  verdict: ok
+  was: &id494
+  - switch, set or store
+  now: *id494
+- num: 315
+  name: Shut-off valve (tap, ball valve, stopcock)
+  field: clicks_do
+  verdict: change
+  was:
+  - hold a set position
+  now:
+  - not applicable
+  why: a hand tap or ball valve does not click into set positions
+- num: 315
+  name: Shut-off valve (tap, ball valve, stopcock)
+  field: slows_by
+  verdict: change
+  was:
+  - steady speed or level
+  now:
+  - not applicable
+  why: it turns flow on or off; it does not slow or steady a movement
+- num: 315
+  name: Shut-off valve (tap, ball valve, stopcock)
+  field: seal_use
+  verdict: ok
+  was: &id495
+  - pump or control a flow
+  now: *id495
+- num: 315
+  name: Shut-off valve (tap, ball valve, stopcock)
+  field: fluid_does
+  verdict: ok
+  was: &id496
+  - switch, set or store
+  now: *id496
+- num: 316
+  name: Vacuum hold-down table (vacuum table)
+  field: mounts_on
+  verdict: change
+  was:
+  - wall or ceiling
+  now:
+  - not applicable
+  why: it is workholding for sheets on a CNC or laser bed, not something mounted on a wall or ceiling
+- num: 316
+  name: Vacuum hold-down table (vacuum table)
+  field: wall_hold
+  verdict: change
+  was:
+  - magnet or suction
+  now:
+  - not applicable
+  why: 'follows from mounts_on: it does not go onto a wall'
+- num: 316
+  name: Vacuum hold-down table (vacuum table)
+  field: powered_does
+  verdict: ok
+  was: &id497
+  - grip or lift
+  now: *id497
+- num: 317
+  name: Gear pump (including gerotor)
+  field: seal_use
+  verdict: ok
+  was: &id498
+  - pump or control a flow
+  now: *id498
+- num: 317
+  name: Gear pump (including gerotor)
+  field: fluid_does
+  verdict: ok
+  was: &id499
+  - pump
+  now: *id499
+- num: 317
+  name: Gear pump (including gerotor)
+  field: powered_does
+  verdict: ok
+  was: &id500
+  - pump or control a flow
+  now: *id500
+- num: 318
+  name: Rotary air actuator (vane or rack-and-pinion rotary actuator)
+  field: powered_does
+  verdict: ok
+  was: &id501
+  - move or push something
+  now: *id501
+- num: 319
+  name: Float valve (ballcock)
+  field: slows_by
+  verdict: ok
+  was: &id502
+  - steady speed or level
+  now: *id502
+- num: 319
+  name: Float valve (ballcock)
+  field: seal_use
+  verdict: ok
+  was: &id503
+  - pump or control a flow
+  now: *id503
+- num: 319
+  name: Float valve (ballcock)
+  field: fluid_does
+  verdict: change
+  was:
+  - one way or let off pressure
+  now:
+  - switch, set or store
+  why: it shuts a supply on and off to set a tank level; it is not a one-way or pressure-relief valve
+- num: 320
+  name: Hydraulic ram pump (water-hammer pump)
+  field: seal_use
+  verdict: ok
+  was: &id504
+  - pump or control a flow
+  now: *id504
+- num: 320
+  name: Hydraulic ram pump (water-hammer pump)
+  field: fluid_does
+  verdict: ok
+  was: &id505
+  - pump
+  now: *id505
+- num: 321
+  name: Air bearing and air caster (air-cushion bearing)
+  field: powered_does
+  verdict: ok
+  was: &id506
+  - grip or lift
+  now: *id506
+- num: 322
+  name: Centrifugal pump (impeller pump)
+  field: seal_use
+  verdict: ok
+  was: &id507
+  - pump or control a flow
+  now: *id507
+- num: 322
+  name: Centrifugal pump (impeller pump)
+  field: fluid_does
+  verdict: ok
+  was: &id508
+  - pump
+  now: *id508
+- num: 322
+  name: Centrifugal pump (impeller pump)
+  field: powered_does
+  verdict: ok
+  was: &id509
+  - pump or control a flow
+  now: *id509
+- num: 323
+  name: Automatic siphon (bell siphon)
+  field: seal_use
+  verdict: ok
+  was: &id510
+  - pump or control a flow
+  now: *id510
+- num: 323
+  name: Automatic siphon (bell siphon)
+  field: fluid_does
+  verdict: change
+  was:
+  - pump
+  now:
+  - switch, set or store
+  why: it does not push liquid along; it switches a drain on and off by itself (flood-and-drain cycle)
+- num: 324
+  name: Soldered wire joint (soldered splice)
+  field: wire_use
+  verdict: ok
+  was: &id511
+  - splice
+  now: *id511
+- num: 325
+  name: Wood screw (including coach screw and Confirmat screw)
+  field: sheet_material
+  verdict: ok
+  was: &id512
+  - wood
+  now: *id512
+- num: 326
+  name: Basic knots (overhand knot, half hitch, reef knot)
+  field: cord_use
+  verdict: ok
+  was: &id513
+  - knots
+  now: *id513
+- num: 326
+  name: Basic knots (overhand knot, half hitch, reef knot)
+  field: knot_use
+  verdict: ok
+  was: &id514
+  - stop or finish an end
+  - tie on or join
+  - bind or lash
+  now: *id514
+- num: 327
+  name: Shims, spacers and standoffs (packing, spacer washer)
+  field: adjusts
+  verdict: ok
+  was: &id515
+  - set and hold
+  now: *id515
+- num: 328
+  name: Welded metal joint (fusion welding; stick, MIG, TIG and gas welding)
+  field: weld_material
+  verdict: ok
+  was: &id516
+  - metal
+  now: *id516
+- num: 329
+  name: Battery holder and battery contacts (spring battery contact, coin-cell holder)
+  field: wire_use
+  verdict: ok
+  was: &id517
+  - touching or turning contacts
+  now: *id517
+- num: 330
+  name: Pogo pin (spring-loaded contact pin)
+  field: wire_use
+  verdict: ok
+  was: &id518
+  - touching or turning contacts
+  now: *id518
+- num: 331
+  name: Magnetic connector (magnetic pogo connector, magnetic breakaway power connector)
+  field: wire_use
+  verdict: ok
+  was: &id519
+  - touching or turning contacts
+  now: *id519
+- num: 332
+  name: Screw-in threaded insert (wire thread insert, self-tapping insert)
+  field: printed_take_apart
+  verdict: change
+  was:
+  - 'no'
+  - 'yes'
+  now:
+  - 'yes'
+  why: its point is a strong reusable thread that screws go in and out of many times
+- num: 332
+  name: Screw-in threaded insert (wire thread insert, self-tapping insert)
+  field: threaded
+  verdict: ok
+  was: &id520
+  - 'yes'
+  now: *id520
+- num: 333
+  name: Sew-on part (sewing holes, loops and slots on a rigid part)
+  field: cord_use
+  verdict: ok
+  was: &id521
+  - sew or lace
+  now: *id521
+- num: 334
+  name: Stopper knots and cord-end anchors
+  field: cord_use
+  verdict: ok
+  was: &id522
+  - knots
+  now: *id522
+- num: 334
+  name: Stopper knots and cord-end anchors
+  field: knot_use
+  verdict: ok
+  was: &id523
+  - stop or finish an end
+  now: *id523
+- num: 334
+  name: Stopper knots and cord-end anchors
+  field: tightens
+  verdict: ok
+  was: &id524
+  - strap, cord or rope
+  now: *id524
+- num: 334
+  name: Stopper knots and cord-end anchors
+  field: tension_hold
+  verdict: ok
+  was: &id525
+  - friction grip
+  now: *id525
+- num: 335
+  name: Printing onto fabric (fabric embedded in a 3D print)
+  field: printed_take_apart
+  verdict: ok
+  was: &id526
+  - made as fabric or a folding sheet
+  now: *id526
+- num: 335
+  name: Printing onto fabric (fabric embedded in a 3D print)
+  field: cord_use
+  verdict: ok
+  was: &id527
+  - a fitted part
+  now: *id527
+- num: 336
+  name: Locking adjustment screws (push-pull screws, spring-loaded levelling screws)
+  field: adjusts
+  verdict: ok
+  was: &id528
+  - set and hold
+  - fine-tune a tilt
+  now: *id528
+- num: 337
+  name: Ball caster (ball transfer unit)
+  field: move_kind
+  verdict: ok
+  was: &id529
+  - swivel or tilt
+  now: *id529
+- num: 337
+  name: Ball caster (ball transfer unit)
+  field: also_under
+  verdict: ok
+  was: &id530
+  - spin
+  now: *id530
+- num: 338
+  name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+  field: opens_by
+  verdict: ok
+  was: &id531
+  - swings on a hinge
+  now: *id531
+- num: 338
+  name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+  field: wire_use
+  verdict: ok
+  was: &id532
+  - insulate, protect or route
+  now: *id532
+- num: 338
+  name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+  field: seal_use
+  verdict: ok
+  was: &id533
+  - pass cables through
+  now: *id533
+- num: 338
+  name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+  field: also_under
+  verdict: ok
+  was: &id534
+  - hold together
+  now: *id534
+- num: 338
+  name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+  field: turns
+  verdict: change
+  was:
+  - full turns
+  now:
+  - part of a turn
+  why: it is for hinges and joints that turn less than a full turn, or only a few turns
+- num: 339
+  name: Expanding internal grip (expanding mandrel, inside gripper)
+  field: carries_fluid
+  verdict: ok
+  was: &id535
+  - 'no'
+  now: *id535
+- num: 339
+  name: Expanding internal grip (expanding mandrel, inside gripper)
+  field: gripped_by
+  verdict: change
+  was:
+  - machine
+  now:
+  - by hand
+  - machine
+  why: the lathe expanding mandrel is tightened by hand with a nut or screw; robot ID grippers are the machine case
+- num: 339
+  name: Expanding internal grip (expanding mandrel, inside gripper)
+  field: powered_does
+  verdict: ok
+  was: &id536
+  - grip or lift
+  now: *id536
+- num: 340
+  name: Printed chainmail and tile fabric (print-in-place interlinked fabric)
+  field: printed_take_apart
+  verdict: ok
+  was: &id537
+  - made as fabric or a folding sheet
+  now: *id537
+- num: 340
+  name: Printed chainmail and tile fabric (print-in-place interlinked fabric)
+  field: cord_use
+  verdict: change
+  was:
+  - a fitted part
+  now:
+  - not applicable
+  why: the printed sheet is itself the fabric; it is not a part fitted to a strap, cord or fabric
+- num: 341
+  name: Strut hub (geodesic dome hub, space-frame node)
+  field: carries_fluid
+  verdict: ok
+  was: &id538
+  - 'no'
+  now: *id538
+- num: 341
+  name: Strut hub (geodesic dome hub, space-frame node)
+  field: shaft_joint
+  verdict: change
+  was:
+  - part onto a shaft
+  now:
+  - not applicable
+  why: it joins struts in a frame or dome, not a part onto a shaft or shafts end to end
+- num: 341
+  name: Strut hub (geodesic dome hub, space-frame node)
+  field: printable
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - not applicable
+  why: follows from shaft_joint; and printed hubs are common anyway, so "no" was wrong
+- num: 342
+  name: Melted plastic weld (plastic welding with a soldering iron, 3D pen or hot-air gun)
+  field: weld_material
+  verdict: ok
+  was: &id539
+  - plastic or film
+  now: *id539
+- num: 343
+  name: Friction-welded plastic (rotary-tool friction welding, spin welding)
+  field: weld_material
+  verdict: ok
+  was: &id540
+  - plastic or film
+  now: *id540
+- num: 344
+  name: Heat-sealed seam (heat-sealed plastic film and coated fabric)
+  field: cord_use
+  verdict: change
+  was:
+  - sew or lace
+  - a fitted part
+  now:
+  - sew or lace
+  why: a heat-sealed seam replaces a sewn seam; no part is fitted
+- num: 344
+  name: Heat-sealed seam (heat-sealed plastic film and coated fabric)
+  field: weld_material
+  verdict: ok
+  was: &id541
+  - plastic or film
+  now: *id541
+- num: 344
+  name: Heat-sealed seam (heat-sealed plastic film and coated fabric)
+  field: seal_use
+  verdict: ok
+  was: &id542
+  - seal a still joint
+  now: *id542
+- num: 344
+  name: Heat-sealed seam (heat-sealed plastic film and coated fabric)
+  field: seal_material
+  verdict: ok
+  was: &id543
+  - plastic, fabric or a gap
+  now: *id543
+- num: 345
+  name: Tensegrity (floating struts held by cords)
+  field: cord_use
+  verdict: ok
+  was: &id544
+  - a fitted part
+  now: *id544
+- num: 345
+  name: Tensegrity (floating struts held by cords)
+  field: cord_part
+  verdict: ok
+  was: &id545
+  - join or grip ends
+  now: *id545
+- num: 345
+  name: Tensegrity (floating struts held by cords)
+  field: tightens
+  verdict: change
+  was:
+  - strap, cord or rope
+  now:
+  - not applicable
+  why: tensegrity needs taut cords but is not a way of tightening a cord or taking up slack
+- num: 346
+  name: Wire-to-board plug connectors (pin header and crimp housing)
+  field: wire_use
+  verdict: ok
+  was: &id546
+  - to a board or terminal
+  now: *id546
+- num: 346
+  name: Wire-to-board plug connectors (pin header and crimp housing)
+  field: plugs_in
+  verdict: ok
+  was: &id547
+  - 'yes'
+  now: *id547
+- num: 347
+  name: Crimp terminals (ring, fork and spade terminals, blade quick-disconnect)
+  field: wire_use
+  verdict: ok
+  was: &id548
+  - to a board or terminal
+  now: *id548
+- num: 347
+  name: Crimp terminals (ring, fork and spade terminals, blade quick-disconnect)
+  field: plugs_in
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - 'no'
+  - 'yes'
+  why: ring and fork terminals stay screwed on, but blade quick-disconnects push on and pull off
+- num: 348
+  name: Crimped butt splice (crimp splice connector)
+  field: wire_use
+  verdict: ok
+  was: &id549
+  - splice
+  now: *id549
+- num: 349
+  name: Spring-clamp wire connector (lever connector, push-in wire connector)
+  field: wire_use
+  verdict: change
+  was:
+  - splice
+  now:
+  - splice
+  - to a board or terminal
+  why: description says it also lands wires on boards and terminal blocks (PCB spring terminals); it would then
+    need a plugs_in value (no)
+- num: 350
+  name: Screw terminal (terminal block, barrier strip, connector strip)
+  field: wire_use
+  verdict: ok
+  was: &id550
+  - to a board or terminal
+  now: *id550
+- num: 350
+  name: Screw terminal (terminal block, barrier strip, connector strip)
+  field: plugs_in
+  verdict: ok
+  was: &id551
+  - 'no'
+  now: *id551
+- num: 351
+  name: Wire-end ferrule (bootlace ferrule, end sleeve)
+  field: wire_use
+  verdict: ok
+  was: &id552
+  - to a board or terminal
+  now: *id552
+- num: 351
+  name: Wire-end ferrule (bootlace ferrule, end sleeve)
+  field: plugs_in
+  verdict: ok
+  was: &id553
+  - 'no'
+  now: *id553
+- num: 352
+  name: High-current battery plug (bullet connector, polarised battery connector)
+  field: wire_use
+  verdict: ok
+  was: &id554
+  - to a board or terminal
+  now: *id554
+- num: 352
+  name: High-current battery plug (bullet connector, polarised battery connector)
+  field: plugs_in
+  verdict: ok
+  was: &id555
+  - 'yes'
+  now: *id555
+- num: 353
+  name: Heat-shrink tubing (heat-shrink sleeve, adhesive-lined heat-shrink)
+  field: wire_use
+  verdict: ok
+  was: &id556
+  - insulate, protect or route
+  now: *id556
+- num: 354
+  name: Solder sleeve (solder-seal splice)
+  field: wire_use
+  verdict: ok
+  was: &id557
+  - splice
+  now: *id557
+- num: 355
+  name: Standard plug-and-socket connector (USB, barrel jack, audio jack, RJ45)
+  field: wire_use
+  verdict: ok
+  was: &id558
+  - to a board or terminal
+  now: *id558
+- num: 355
+  name: Standard plug-and-socket connector (USB, barrel jack, audio jack, RJ45)
+  field: plugs_in
+  verdict: ok
+  was: &id559
+  - 'yes'
+  now: *id559
+- num: 356
+  name: Insulation-displacement connector (IDC, ribbon-cable plug, punch-down, T-tap)
+  field: wire_use
+  verdict: change
+  was:
+  - splice
+  now:
+  - splice
+  - to a board or terminal
+  why: besides T-taps and splices, its main uses are ribbon-cable plugs onto board headers, punch-down jacks and
+    RJ45 plugs (wire to a board, terminal or device); plugs_in would then need a value (yes for ribbon plugs and
+    RJ45)
+- num: 357
+  name: Binding post and banana plug (test-lead connector, crocodile clip)
+  field: wire_use
+  verdict: ok
+  was: &id560
+  - to a board or terminal
+  now: *id560
+- num: 357
+  name: Binding post and banana plug (test-lead connector, crocodile clip)
+  field: plugs_in
+  verdict: ok
+  was: &id561
+  - 'yes'
+  now: *id561
+- num: 358
+  name: Twist-on wire connector (wire nut)
+  field: wire_use
+  verdict: ok
+  was: &id562
+  - splice
+  now: *id562
+- num: 359
+  name: Conductive thread (sewn circuit, e-textile stitching)
+  field: wire_use
+  verdict: ok
+  was: &id563
+  - on fabric, paper or a print
+  now: *id563
+- num: 360
+  name: Conductive tape (copper foil tape, conductive fabric tape)
+  field: wire_use
+  verdict: ok
+  was: &id564
+  - on fabric, paper or a print
+  now: *id564
+- num: 361
+  name: Conductive glue, paint and ink (electrically conductive adhesive, silver epoxy)
+  field: wire_use
+  verdict: ok
+  was: &id565
+  - on fabric, paper or a print
+  now: *id565
+- num: 362
+  name: Flat flexible cable and latching connector (FFC with ZIF connector)
+  field: wire_use
+  verdict: ok
+  was: &id566
+  - to a board or terminal
+  now: *id566
+- num: 362
+  name: Flat flexible cable and latching connector (FFC with ZIF connector)
+  field: plugs_in
+  verdict: ok
+  was: &id567
+  - 'yes'
+  now: *id567
+- num: 362
+  name: Flat flexible cable and latching connector (FFC with ZIF connector)
+  field: seal_use
+  verdict: ok
+  was: &id568
+  - pass cables through
+  now: *id568
+- num: 363
+  name: Wire wrap (wire-wrapped connection)
+  field: wire_use
+  verdict: ok
+  was: &id569
+  - to a board or terminal
+  now: *id569
+- num: 363
+  name: Wire wrap (wire-wrapped connection)
+  field: plugs_in
+  verdict: ok
+  was: &id570
+  - 'no'
+  now: *id570
+- num: 364
+  name: Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
+  field: seal_use
+  verdict: ok
+  was: &id571
+  - join hoses or pipes
+  now: *id571
+- num: 364
+  name: Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
+  field: hose_join
+  verdict: ok
+  was: &id572
+  - pushed, clamped or clicked
+  now: *id572
+- num: 365
+  name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  now:
+  - sheet metal or plastic
+  why: the pins are steel and join metal plates, aluminium and plastic housings; the entry says wood uses wooden
+    dowels instead (the old rule likely matched "dowel pin")
+- num: 365
+  name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
+  field: shaft_joint
+  verdict: ok
+  was: &id573
+  - part onto a shaft
+  now: *id573
+- num: 365
+  name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
+  field: printable
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - 'yes'
+  - 'no'
+  why: the entry has printed hubs and levers pinned to shafts and a full 3D-printing tips section, so it fits printed
+    parts as well as metal ones
+- num: 366
+  name: Wall plug (expansion anchor for solid walls)
+  field: mounts_on
+  verdict: ok
+  was: &id574
+  - wall or ceiling
+  now: *id574
+- num: 366
+  name: Wall plug (expansion anchor for solid walls)
+  field: wall_hold
+  verdict: ok
+  was: &id575
+  - screws, anchors or hooks
+  now: *id575
+- num: 367
+  name: Hollow-wall anchors (toggle, molly, self-drilling plasterboard anchor)
+  field: mounts_on
+  verdict: ok
+  was: &id576
+  - wall or ceiling
+  now: *id576
+- num: 367
+  name: Hollow-wall anchors (toggle, molly, self-drilling plasterboard anchor)
+  field: wall_hold
+  verdict: ok
+  was: &id577
+  - screws, anchors or hooks
+  now: *id577
+- num: 368
+  name: Push-on edge trim (U-channel edging, grommet edging)
+  field: printed_take_apart
+  verdict: ok
+  was: &id578
+  - 'yes'
+  now: *id578
+- num: 368
+  name: Push-on edge trim (U-channel edging, grommet edging)
+  field: threaded
+  verdict: ok
+  was: &id579
+  - 'no'
+  now: *id579
+- num: 368
+  name: Push-on edge trim (U-channel edging, grommet edging)
+  field: seal_use
+  verdict: ok
+  was: &id580
+  - seal a still joint
+  - pass cables through
+  now: *id580
+- num: 369
+  name: Metal brackets and plates (angle bracket, mending plate, joist hanger)
+  field: sheet_material
+  verdict: ok
+  was: &id581
+  - wood
+  now: *id581
+- num: 370
+  name: Nails, brads and tacks (ring-shank nail)
+  field: sheet_material
+  verdict: ok
+  was: &id582
+  - wood
+  now: *id582
+- num: 371
+  name: Threaded rod and studs (all-thread, studding, hanger bolt)
+  field: tightens
+  verdict: ok
+  was: &id583
+  - parts clamped together
+  now: *id583
+- num: 372
+  name: Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
+  field: mounts_on
+  verdict: ok
+  was: &id584
+  - wall or ceiling
+  now: *id584
+- num: 372
+  name: Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
+  field: wall_hold
+  verdict: ok
+  was: &id585
+  - screws, anchors or hooks
+  now: *id585
+- num: 373
+  name: Staples for wood and fabric (staple gun, hammer tacker, cable staple)
+  field: sheet_material
+  verdict: ok
+  was: &id586
+  - wood
+  now: *id586
+- num: 373
+  name: Staples for wood and fabric (staple gun, hammer tacker, cable staple)
+  field: cord_use
+  verdict: ok
+  was: &id587
+  - a fitted part
+  now: *id587
+- num: 374
+  name: Shackle and quick link (D-shackle, bow shackle, maillon)
+  field: cord_use
+  verdict: ok
+  was: &id588
+  - a fitted part
+  now: *id588
+- num: 374
+  name: Shackle and quick link (D-shackle, bow shackle, maillon)
+  field: cord_part
+  verdict: ok
+  was: &id589
+  - hook, link or swivel
+  now: *id589
+- num: 375
+  name: Tamper-resistant fasteners (security screw, one-way screw, breakaway-head bolt)
+  field: opens_by
+  verdict: ok
+  was: &id590
+  - twist
+  now: *id590
+- num: 376
+  name: Wire-rope terminations (wire-rope clip, thimble, crimped sleeve)
+  field: cord_use
+  verdict: ok
+  was: &id591
+  - a fitted part
+  now: *id591
+- num: 376
+  name: Wire-rope terminations (wire-rope clip, thimble, crimped sleeve)
+  field: cord_part
+  verdict: change
+  was:
+  - hook, link or swivel
+  now:
+  - join or grip ends
+  - hook, link or swivel
+  why: clips and crimped sleeves grip and finish the rope end (loops and end stops); the eye is then hooked or shackled
+    on, so both fit
+- num: 377
+  name: Load-bearing stitch patterns for straps and webbing (bar tack, box-X stitch)
+  field: cord_use
+  verdict: ok
+  was: &id592
+  - sew or lace
+  now: *id592
+- num: 378
+  name: Hitches to a post, rail, ring or eye (clove hitch, round turn and two half hitches)
+  field: cord_use
+  verdict: ok
+  was: &id593
+  - knots
+  now: *id593
+- num: 378
+  name: Hitches to a post, rail, ring or eye (clove hitch, round turn and two half hitches)
+  field: knot_use
+  verdict: ok
+  was: &id594
+  - tie on or join
+  now: *id594
+- num: 379
+  name: Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik)
+  field: cord_use
+  verdict: ok
+  was: &id595
+  - knots
+  now: *id595
+- num: 379
+  name: Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik)
+  field: knot_use
+  verdict: ok
+  was: &id596
+  - loop or tension
+  now: *id596
+- num: 379
+  name: Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik)
+  field: tightens
+  verdict: ok
+  was: &id597
+  - strap, cord or rope
+  now: *id597
+- num: 379
+  name: Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik)
+  field: tension_hold
+  verdict: ok
+  was: &id598
+  - friction grip
+  now: *id598
+- num: 380
+  name: Eyelets and grommets (for fabric, leather and sheet)
+  field: cord_use
+  verdict: ok
+  was: &id599
+  - a fitted part
+  now: *id599
+- num: 380
+  name: Eyelets and grommets (for fabric, leather and sheet)
+  field: cord_part
+  verdict: ok
+  was: &id600
+  - fix to fabric or an edge
+  now: *id600
+- num: 381
+  name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+  field: shaft_joint
+  verdict: change
+  was:
+  - part onto a shaft
+  now:
+  - not applicable
+  why: a fabric bead held in a grooved rail or frame; nothing to do with wheels, gears or shafts
+- num: 381
+  name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+  field: printable
+  verdict: change
+  was:
+  - 'no'
+  now:
+  - not applicable
+  why: not a part on a shaft, so the shaft question does not apply
+- num: 381
+  name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+  field: cord_use
+  verdict: ok
+  was: &id601
+  - a fitted part
+  now: *id601
+- num: 381
+  name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+  field: cord_part
+  verdict: ok
+  was: &id602
+  - fix to fabric or an edge
+  now: *id602
+- num: 381
+  name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+  field: tightens
+  verdict: ok
+  was: &id603
+  - strap, cord or rope
+  now: *id603
+- num: 382
+  name: Fixed loop knots (bowline, figure-eight loop, alpine butterfly)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - not applicable
+  why: rope knots have nothing to do with joining sheet or boards
+- num: 382
+  name: Fixed loop knots (bowline, figure-eight loop, alpine butterfly)
+  field: cord_use
+  verdict: ok
+  was: &id604
+  - knots
+  now: *id604
+- num: 382
+  name: Fixed loop knots (bowline, figure-eight loop, alpine butterfly)
+  field: knot_use
+  verdict: ok
+  was: &id605
+  - loop or tension
+  now: *id605
+- num: 383
+  name: Bends for joining two cords (sheet bend, double fisherman's knot, water knot)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - not applicable
+  why: the "sheet bend" is a knot for joining cords, not a sheet-material joint (name misled the old rule)
+- num: 383
+  name: Bends for joining two cords (sheet bend, double fisherman's knot, water knot)
+  field: cord_use
+  verdict: ok
+  was: &id606
+  - knots
+  now: *id606
+- num: 383
+  name: Bends for joining two cords (sheet bend, double fisherman's knot, water knot)
+  field: knot_use
+  verdict: ok
+  was: &id607
+  - tie on or join
+  now: *id607
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  field: carries_fluid
+  verdict: ok
+  was: &id608
+  - 'no'
+  now: *id608
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  field: cord_use
+  verdict: ok
+  was: &id609
+  - knots
+  now: *id609
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  field: knot_use
+  verdict: ok
+  was: &id610
+  - bind or lash
+  now: *id610
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  field: tightens
+  verdict: ok
+  was: &id611
+  - strap, cord or rope
+  now: *id611
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  field: tension_hold
+  verdict: ok
+  was: &id612
+  - friction grip
+  now: *id612
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  field: also_under
+  verdict: change
+  was:
+  - control
+  now:
+  - not applicable
+  why: lashing poles into frames does not control a movement; the old rule likely matched "lash" as in backlash
+- num: 385
+  name: Rope-end finishing (whipping, heat-sealing, back splice, aglet)
+  field: cord_use
+  verdict: ok
+  was: &id613
+  - knots
+  now: *id613
+- num: 385
+  name: Rope-end finishing (whipping, heat-sealing, back splice, aglet)
+  field: knot_use
+  verdict: change
+  was:
+  - stop or finish an end
+  - loop or tension
+  now:
+  - stop or finish an end
+  why: the entry only stops fraying (whipping, heat-sealing, back splice, aglet); it makes no loop and holds no
+    tension
+- num: 386
+  name: Sewn seams and hand stitches (lockstitch, saddle stitch, flat-felled seam)
+  field: cord_use
+  verdict: ok
+  was: &id614
+  - sew or lace
+  now: *id614
+- num: 386
+  name: Sewn seams and hand stitches (lockstitch, saddle stitch, flat-felled seam)
+  field: seal_use
+  verdict: ok
+  was: &id615
+  - seal a still joint
+  now: *id615
+- num: 386
+  name: Sewn seams and hand stitches (lockstitch, saddle stitch, flat-felled seam)
+  field: seal_material
+  verdict: ok
+  was: &id616
+  - plastic, fabric or a gap
+  now: *id616
+- num: 387
+  name: Lacing (cord through rows of holes or eyelets)
+  field: cord_use
+  verdict: ok
+  was: &id617
+  - sew or lace
+  now: *id617
+- num: 387
+  name: Lacing (cord through rows of holes or eyelets)
+  field: tightens
+  verdict: ok
+  was: &id618
+  - strap, cord or rope
+  now: *id618
+- num: 388
+  name: Rope splices (eye splice, short splice, braided-rope splice)
+  field: cord_use
+  verdict: ok
+  was: &id619
+  - knots
+  now: *id619
+- num: 388
+  name: Rope splices (eye splice, short splice, braided-rope splice)
+  field: knot_use
+  verdict: change
+  was:
+  - loop or tension
+  now:
+  - loop or tension
+  - tie on or join
+  why: besides eye splices (loops), short and long splices join two ropes and chain splices fix rope to a chain
+    or ring
+- num: 388
+  name: Rope splices (eye splice, short splice, braided-rope splice)
+  field: tightens
+  verdict: ok
+  was: &id620
+  - strap, cord or rope
+  now: *id620
+- num: 389
+  name: Leather and textile rivets (double-cap, tubular and split rivets)
+  field: cord_use
+  verdict: ok
+  was: &id621
+  - a fitted part
+  now: *id621
+- num: 389
+  name: Leather and textile rivets (double-cap, tubular and split rivets)
+  field: cord_part
+  verdict: ok
+  was: &id622
+  - fix to fabric or an edge
+  now: *id622
+- num: 390
+  name: Chicago screw (binding screw, sex bolt)
+  field: cord_use
+  verdict: ok
+  was: &id623
+  - a fitted part
+  now: *id623
+- num: 390
+  name: Chicago screw (binding screw, sex bolt)
+  field: cord_part
+  verdict: ok
+  was: &id624
+  - fix to fabric or an edge
+  now: *id624
+- num: 391
+  name: Iron-on fusible web (heat-activated adhesive web, hem tape)
+  field: also_under
+  verdict: change
+  was:
+  - control
+  - overload
+  now:
+  - not applicable
+  why: an iron-on glue web for fabric has nothing to do with controlling a movement or overload protection
+- num: 392
+  name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+  field: cord_use
+  verdict: ok
+  was: &id625
+  - knots
+  now: *id625
+- num: 392
+  name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+  field: knot_use
+  verdict: ok
+  was: &id626
+  - bind or lash
+  now: *id626
+- num: 392
+  name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+  field: wire_use
+  verdict: ok
+  was: &id627
+  - insulate, protect or route
+  now: *id627
+- num: 392
+  name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+  field: tightens
+  verdict: ok
+  was: &id628
+  - strap, cord or rope
+  now: *id628
+- num: 392
+  name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+  field: tension_hold
+  verdict: ok
+  was: &id629
+  - friction grip
+  now: *id629
+- num: 393
+  name: Tripod and stand screw mount (tripod socket, camera thread)
+  field: mounts_on
+  verdict: ok
+  was: &id630
+  - tripod or stand
+  now: *id630
+- num: 394
+  name: Clamp-on accessory mount for bars, poles and edges (handlebar clamp, desk clamp, U-bolt)
+  field: carries_fluid
+  verdict: ok
+  was: &id631
+  - 'no'
+  now: *id631
+- num: 394
+  name: Clamp-on accessory mount for bars, poles and edges (handlebar clamp, desk clamp, U-bolt)
+  field: mounts_on
+  verdict: ok
+  was: &id632
+  - bar, pole or desk edge
+  now: *id632
+- num: 395
+  name: Slotted adjustment with a jacking screw (slotted mount, sliding motor plate)
+  field: adjusts
+  verdict: ok
+  was: &id633
+  - set and hold
+  now: *id633
+- num: 396
+  name: Castor (swivel castor, fixed castor, locking castor)
+  field: also_under
+  verdict: ok
+  was: &id634
+  - spin
+  now: *id634
+- num: 397
+  name: Levelling foot (adjustable foot, swivel levelling pad)
+  field: adjusts
+  verdict: change
+  was:
+  - set and hold
+  now:
+  - set and hold
+  - fine-tune a tilt
+  why: winding each foot in or out to level a table or printer is fine-tuning a tilt with screws, as well as setting
+    a height
+- num: 398
+  name: Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
+  field: mounts_on
+  verdict: ok
+  was: &id635
+  - bar, pole or desk edge
+  now: *id635
+- num: 398
+  name: Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
+  field: gripped_by
+  verdict: ok
+  was: &id636
+  - by hand
+  now: *id636
+- num: 399
+  name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
+  field: cord_use
+  verdict: ok
+  was: &id637
+  - a fitted part
+  now: *id637
+- num: 399
+  name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
+  field: cord_part
+  verdict: ok
+  was: &id638
+  - hook, link or swivel
+  now: *id638
+- num: 399
+  name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
+  field: turns
+  verdict: ok
+  was: &id639
+  - full turns
+  now: *id639
+- num: 400
+  name: Multi-point bolt (espagnolette, crémone bolt, lock rods)
+  field: opens_by
+  verdict: ok
+  was: &id640
+  - catch or lever
+  now: *id640
+- num: 400
+  name: Multi-point bolt (espagnolette, crémone bolt, lock rods)
+  field: locks_out
+  verdict: ok
+  was: &id641
+  - 'no'
+  now: *id641
+- num: 400
+  name: Multi-point bolt (espagnolette, crémone bolt, lock rods)
+  field: holds_for
+  verdict: ok
+  was: &id642
+  - a person to open
+  now: *id642
+- num: 400
+  name: Multi-point bolt (espagnolette, crémone bolt, lock rods)
+  field: over_centre_use
+  verdict: change
+  was:
+  - flip between positions
+  now:
+  - clamp or latch
+  why: its over-centre (zero-torque) cams latch a door shut and pull it onto its seals; it does not flip between
+    two working positions
+- num: 401
+  name: Flywheel (inertia wheel, friction motor)
+  field: one_way_kind
+  verdict: change
+  was:
+  - silent
+  now:
+  - not applicable
+  why: a flywheel stores spin and smooths speed; it does not make anything turn one way only
+- num: 401
+  name: Flywheel (inertia wheel, friction motor)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  now:
+  - twist or wind
+  why: it stores energy as rotation (wound up by a push, as in friction-motor toys), not as a straight push or pull
+- num: 402
+  name: Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope)
+  field: seal_use
+  verdict: ok
+  was: &id643
+  - join hoses or pipes
+  now: *id643
+- num: 402
+  name: Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope)
+  field: hose_join
+  verdict: ok
+  was: &id644
+  - screwed
+  now: *id644
+- num: 403
+  name: Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union)
+  field: seal_use
+  verdict: ok
+  was: &id645
+  - join hoses or pipes
+  now: *id645
+- num: 403
+  name: Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union)
+  field: hose_join
+  verdict: ok
+  was: &id646
+  - screwed
+  now: *id646
+- num: 404
+  name: Soldered metal joint (soft soldering of metal parts, sweat-soldered copper pipe)
+  field: weld_material
+  verdict: ok
+  was: &id647
+  - metal
+  now: *id647
+- num: 404
+  name: Soldered metal joint (soft soldering of metal parts, sweat-soldered copper pipe)
+  field: seal_use
+  verdict: ok
+  was: &id648
+  - join hoses or pipes
+  now: *id648
+- num: 404
+  name: Soldered metal joint (soft soldering of metal parts, sweat-soldered copper pipe)
+  field: hose_join
+  verdict: ok
+  was: &id649
+  - fused or brazed
+  now: *id649
+- num: 405
+  name: Brazed joint (brazing, silver soldering, hard soldering)
+  field: weld_material
+  verdict: ok
+  was: &id650
+  - metal
+  now: *id650
+- num: 405
+  name: Brazed joint (brazing, silver soldering, hard soldering)
+  field: seal_use
+  verdict: ok
+  was: &id651
+  - seal a still joint
+  - join hoses or pipes
+  now: *id651
+- num: 405
+  name: Brazed joint (brazing, silver soldering, hard soldering)
+  field: seal_material
+  verdict: ok
+  was: &id652
+  - metal
+  now: *id652
+- num: 405
+  name: Brazed joint (brazing, silver soldering, hard soldering)
+  field: hose_join
+  verdict: ok
+  was: &id653
+  - fused or brazed
+  now: *id653
+- num: 406
+  name: Spot weld (resistance spot welding)
+  field: weld_material
+  verdict: ok
+  was: &id654
+  - metal
+  now: *id654
+- num: 406
+  name: Spot weld (resistance spot welding)
+  field: wire_use
+  verdict: ok
+  was: &id655
+  - touching or turning contacts
+  now: *id655
+- num: 406
+  name: Spot weld (resistance spot welding)
+  field: seal_use
+  verdict: change
+  was:
+  - seal a still joint
+  now:
+  - not applicable
+  why: spot welds join at separate points and do not seal (the entry's seal is none); only the industrial seam-welding
+    variant makes a continuous joint
+- num: 406
+  name: Spot weld (resistance spot welding)
+  field: seal_material
+  verdict: change
+  was:
+  - metal
+  now:
+  - not applicable
+  why: follows from seal_use; a spot weld is not a sealing joint
+- num: 407
+  name: Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
+  field: weld_material
+  verdict: ok
+  was: &id656
+  - plastic or film
+  now: *id656
+- num: 407
+  name: Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
+  field: seal_use
+  verdict: ok
+  was: &id657
+  - join hoses or pipes
+  now: *id657
+- num: 407
+  name: Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
+  field: hose_join
+  verdict: ok
+  was: &id658
+  - fused or brazed
+  now: *id658
+- num: 408
+  name: Flare fitting (flared tube fitting, double flare)
+  field: carries_fluid
+  verdict: ok
+  was: &id659
+  - 'yes'
+  now: *id659
+- num: 408
+  name: Flare fitting (flared tube fitting, double flare)
+  field: seal_use
+  verdict: ok
+  was: &id660
+  - join hoses or pipes
+  now: *id660
+- num: 408
+  name: Flare fitting (flared tube fitting, double flare)
+  field: hose_join
+  verdict: ok
+  was: &id661
+  - screwed
+  now: *id661
+- num: 409
+  name: Ultrasonic weld (ultrasonic plastic welding, energy director)
+  field: weld_material
+  verdict: ok
+  was: &id662
+  - plastic or film
+  now: *id662
+
+# Follow-up (same day): four shortlists were too long or too short after the checks, so three answers were
+# split or moved and the values below set by Claude from the entry text.
+- num: 48
+  name: Push-in plastic rivet (fir-tree clip, push rivet)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 61
+  name: Heat staking (melted plastic rivet)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 171
+  name: Temporary sheet fastener (Cleco-type spring pin)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 173
+  name: Spring-steel push-on fasteners (push nut, speed nut, U-nut)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 222
+  name: Blind threaded fixings (rivet nut, well nut)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 239
+  name: Tab-and-slot joint (self-fixturing sheet joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  - sheet metal or plastic
+  now:
+  - wood
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 240
+  name: T-slot joint (captive nut and bolt joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  - sheet metal or plastic
+  now:
+  - wood
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 241
+  name: Snap-lock sheet joint (barbed or spring finger)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 242
+  name: Cross-halving slot joint (egg-crate joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  - sheet metal or plastic
+  now:
+  - wood
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 243
+  name: Finger joint (box joint)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  - sheet metal or plastic
+  now:
+  - wood
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 244
+  name: Kerf bending (laser-cut living hinge)
+  field: sheet_material
+  verdict: change
+  was:
+  - wood
+  - sheet metal or plastic
+  now:
+  - wood
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 253
+  name: Folded seam (hem, lock seam, Pittsburgh lock)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 254
+  name: Bent or twisted tab through a slot (lanced tab)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 255
+  name: Clinching (press joining without rivets)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 256
+  name: Self-clinching fastener (press-in nut or stud)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 274
+  name: Blind rivet (pop rivet)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 365
+  name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
+  field: sheet_material
+  verdict: change
+  was:
+  - sheet metal or plastic
+  now:
+  - sheet metal
+  - plastic sheet
+  why: the "sheet metal or plastic" answer was split in two (R33 follow-up); set from the entry text
+- num: 23
+  name: Bistable compliant mechanism (snap-through switch or hinge)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  - twist or wind
+  now:
+  - straight push or pull
+  - twist back
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 26
+  name: Sear and trigger (trip release mechanism)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  - twist or wind
+  now:
+  - straight push or pull
+  - wind up and let go
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 117
+  name: Constant-force spring (spring-return reel)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  - twist or wind
+  now:
+  - straight push or pull
+  - wind up and let go
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 174
+  name: Lamina emergent torsional joint (LET joint)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - twist back
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 175
+  name: Rolling-contact joint (CORE, Jacob's-ladder hinge)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - twist back
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 177
+  name: Tape-spring hinge (measuring-tape fold)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - twist back
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 184
+  name: Self-closing hinges (spring hinge, rising butt hinge)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - twist back
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 238
+  name: Spiral power spring (clock spring)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - twist back
+  - wind up and let go
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 268
+  name: Coil spring (compression, extension, torsion)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  - twist or wind
+  now:
+  - straight push or pull
+  - twist back
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 293
+  name: Variable-radius pulley (fusee, compound-bow cam)
+  field: spring_kind
+  verdict: change
+  was:
+  - straight push or pull
+  - twist or wind
+  now:
+  - straight push or pull
+  - wind up and let go
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 401
+  name: Flywheel (inertia wheel, friction motor)
+  field: spring_kind
+  verdict: change
+  was:
+  - twist or wind
+  now:
+  - wind up and let go
+  why: '"twist or wind" was split into "twist back" and "wind up and let go" (R33 follow-up); set from the entry
+    text and the check notes'
+- num: 307
+  name: Tesla valve (no-moving-parts one-way channel)
+  field: one_way_kind
+  verdict: change
+  was:
+  - not applicable
+  now:
+  - for air or liquid
+  why: one-way valves moved up to "Does it turn or slide?" (R33 follow-up); this entry favours flow one way, so
+    it belongs there
+- num: 314
+  name: Speed-control valve (flow control valve, needle valve)
+  field: one_way_kind
+  verdict: change
+  was:
+  - not applicable
+  now:
+  - for air or liquid
+  why: one-way valves moved up to "Does it turn or slide?" (R33 follow-up); this entry favours flow one way, so
+    it belongs there

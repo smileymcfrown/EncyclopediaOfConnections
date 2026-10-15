@@ -1,6 +1,6 @@
 # clutches & couplings: Connects shafts, or engages and disengages drive
 
-16 entries. ⚑ = needs confirming: 6 best guesses and 4 values from text marked [uncertain]
+16 entries. ⚑ = needs confirming: 7 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -19,7 +19,7 @@ are welcome. Back to the [index](README.md).
 | 192 | Friction clutch | shaft ⚑ | none | – | steady turning | steady turning | in line | slips and keeps going | – | none, hand tools | heavy | 3D print (FDM) | yes | tool-free quick release |
 | 193 | Keyless locking bush | shaft | none | – | – | – | – | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
 | 194 | Schmidt coupling | shaft | none | – | steady turning | steady turning | parallel, in line | – | – | drill and tap, hand tools | heavy | 3D print (FDM) | yes | removable |
-| 195 | Flexible drive shaft | shaft | none | – | steady turning | steady turning | at an angle, in line | – | – | power tools, hand tools | medium | off-the-shelf part | no | removable |
+| 195 | Flexible drive shaft | shaft | none | – | steady turning | steady turning | at an angle, in line, far apart ⚑ | – | – | power tools, hand tools | medium | off-the-shelf part | no | removable |
 | 266 | Shaft-to-hub joints and rigid couplings | shaft | none | – | steady turning | steady turning | in line | breaks or lets go once | – | drill and tap, power tools, hand tools | heavy | off-the-shelf part | yes | removable |
 | 287 | Gearless right-angle drive | shaft | none | – | steady turning | steady turning | at an angle | – | – | hand tools | medium | 3D print (FDM) | no | removable |
 
@@ -33,6 +33,7 @@ The script was unsure of these values.
 - ⚑ **145 Centrifugal clutch**, `clicks` = clicks: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
 - ⚑ **191 Constant-velocity joint**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **192 Friction clutch**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **195 Flexible drive shaft**, `shaft_layout` = at an angle, in line, far apart: worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
 
 ## From research text marked [uncertain]
 

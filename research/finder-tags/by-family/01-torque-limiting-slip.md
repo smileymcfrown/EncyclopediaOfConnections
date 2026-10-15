@@ -1,6 +1,6 @@
 # torque limiting & slip: Slips or lets go when overloaded
 
-7 entries. ⚑ = needs confirming: 3 best guesses and 0 values from text marked [uncertain]
+7 entries. ⚑ = needs confirming: 4 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -20,6 +20,7 @@ The script was unsure of these values.
 
 - ⚑ **3 Ball-detent torque limiter**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ **4 Friction slip clutch**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **6 Shear-pin coupling**, `printable` = no: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ **143 Magnetic coupling and magnetic gear**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
 
 ## From research text marked [uncertain]

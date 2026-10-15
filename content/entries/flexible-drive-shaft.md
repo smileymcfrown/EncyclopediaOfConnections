@@ -34,7 +34,7 @@ finder:
   power_loss: not applicable
   motion_in: [steady turning]
   motion_out: [steady turning]
-  shaft_layout: [at an angle, in line]
+  shaft_layout: [at an angle, in line, far apart]
   overload_response: not applicable
   clicks: not applicable
   tools: [power tools, hand tools]
@@ -43,7 +43,51 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [shaft to shaft]
+  printable: [not applicable]
+  shaft_alignment: [at an angle or a bent path]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [passes the turning on]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [full turns]
+needs_confirming:
+  shaft_layout:
+    kind: best guess
+    reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -295,6 +339,7 @@ A bare spinning core can catch hair, clothing or skin; keep it in its casing, wh
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 2 sentences on this page marked [uncertain].
+- ⚑ Finder value `shaft_layout` = at an angle, in line, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
 
 ## Sources
 
