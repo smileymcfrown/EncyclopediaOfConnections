@@ -1,0 +1,428 @@
+# R32 picture choices, batch a03
+multi-point-bolt:
+  pictures:
+    - commons: "File:Crémone.jpg"
+      kind: how-it-works
+      alt: A crémone bolt on a window frame with its cover off, showing the small gear between two toothed rods that slide up and down.
+    - candidate: 5
+      kind: how-it-works
+      alt: A multipoint mortice lock opened up on a cutting mat, showing the bolts that shoot out sideways and the rod connections that throw bolts up and down.
+    - candidate: 2
+      kind: photo
+      alt: An espagnolette on a pair of shutters, a long rod with a hook at each end that turns to lock the top and bottom at once.
+  needs_animation: true
+  needs_photo: false
+multi-turn-rotation-limiter:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidate photos; the Geneva stop drawing is a tiny old diagram and the jukebox is unrelated.
+nails-brads-and-tacks:
+  pictures:
+    - commons: "File:Spijkers (Nails).jpg"
+      kind: photo
+      alt: Seven different nails laid side by side on wood, from short broad-headed roofing nails to long thin steel nails.
+    - candidate: 2
+      kind: how-it-works
+      alt: A hammer driving a nail at an angle through the foot of an upright piece of wood into the board below (toenailing).
+  needs_animation: false
+  needs_photo: false
+non-circular-gears:
+  pictures:
+    - candidate: 1
+      kind: animation
+      alt: Two oval gears turning together, the driven one speeding up and slowing down, with the equivalent crossed linkage moving below them.
+    - candidate: 11
+      kind: photo
+      alt: Red oval gears meshing in pairs inside an old Girodias pump, so the pump strokes speed up and slow down each turn.
+    - candidate: 7
+      kind: photo
+      alt: A toy made of white square and four-lobed gears that mesh and turn together on a black board.
+  needs_animation: false
+  needs_photo: false
+o-ring-seal:
+  pictures:
+    - commons: "File:O-ring static seal usage example.png"
+      kind: diagram
+      alt: A cut-through drawing of a cap bolted onto a fluid-filled body, with black O-rings squashed in grooves where the parts meet.
+    - candidate: 7
+      kind: photo
+      alt: A steel shaft with several O-rings sitting in grooves around it, beside a small centimetre scale.
+    - candidate: 3
+      kind: photo
+      alt: A bag of assorted black rubber O-rings of different sizes.
+  needs_animation: false
+  needs_photo: false
+oldham-coupling:
+  pictures:
+    - candidate: 13
+      kind: animation
+      alt: Two slotted circles on offset centres turning together while the green cross-shaped middle piece slides back and forth in both slots.
+    - candidate: 2
+      kind: how-it-works
+      alt: An Oldham coupling taken apart, two metal hubs each with a raised bar and a black middle disc with crossed slots that fits between them.
+    - candidate: 3
+      kind: photo
+      alt: An Oldham coupling in use on a telescope mount, joining the motor shaft to the drive shaft with a white middle disc between two metal hubs.
+  needs_animation: false
+  needs_photo: false
+  note: the current animation (File:Oldham coupler animated small.gif) is only 160x120, so the larger 2D animation goes first.
+origami-mechanisms:
+  pictures:
+    - commons: "File:Miura-ori.gif"
+      kind: animation
+      alt: Two hands pulling apart a folded sheet of paper, which opens out flat in one movement along its Miura fold pattern and folds back up again.
+    - candidate: 9
+      kind: photo
+      alt: A folded orange paper sheet with a repeating zigzag pattern of creases, the start of an origami magic ball that can collapse and expand.
+  needs_animation: false
+  needs_photo: false
+ortho-planar-spring:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidate pictures on the sheet.
+over-centre-linkage:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: how-it-works
+      alt: A teaching model of a toggle (knee lever) shown twice, once with the two links bent and once pushed straight to make a large force.
+    - candidate: 2
+      kind: photo
+      alt: A pair of locking pliers, whose handles lock shut by pushing their linkage just past straight.
+  needs_animation: false
+  needs_photo: false
+parallel-leaf-spring-flexure:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate (inside a Sartorius balance) shows a single thin flexure blade, not clearly a parallel pair.
+parallel-pipe-thread-with-a-sealing-washer:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A brass garden tap held in a hand, with a straight (parallel) thread on its inlet and a hose thread on its outlet.
+  needs_animation: false
+  needs_photo: false
+peristaltic-pump:
+  pictures:
+    - commons: "File:Peristaltic pump.gif"
+      kind: animation
+      alt: Inside a peristaltic pump, a rotor with two rollers turns and squeezes a blue tube against a curved track, pushing the liquid along.
+    - candidate: 5
+      kind: how-it-works
+      alt: The head of a peristaltic pump with its cover off, showing the rollers on the rotor pressing a clear tube against the curved housing.
+    - candidate: 8
+      kind: photo
+      alt: A small hobby peristaltic pump on a desk, with clear tubes running from one mug to another.
+  needs_animation: false
+  needs_photo: false
+pin-tumbler-lock:
+  pictures:
+    - commons: "File:Pin tumbler no key.svg"
+      kind: cross-section
+      alt: A cut-away drawing of a pin-tumbler lock with no key, the spring-loaded pin stacks crossing the gap between the core and the body so the core cannot turn.
+    - candidate: 7
+      kind: photo
+      alt: A brass Euro cylinder lock fitted in a door, showing the keyway in the round core.
+  needs_animation: true
+  needs_photo: false
+  note: the only animation (#3) is a lever tumbler lock, a different kind of tumbler, so a pin-tumbler animation is still wanted.
+planetary-gear-set:
+  pictures:
+    - commons: "File:Epicyclic Gearing Stationary Ring.gif"
+      kind: animation
+      alt: A yellow sun gear turning four blue planet gears inside a fixed red ring gear, with the green carrier going round slowly.
+  needs_animation: false
+  needs_photo: true
+  note: all candidates are diagrams or computer animations; a 3D animation (#2, #12) could be added but no real photo exists on the sheet.
+pogo-pin:
+  pictures:
+    - commons: "File:Federkontaktstift.svg"
+      kind: diagram
+      alt: A cut-through drawing of a pogo pin, a plunger in a tube pushed outwards by a coil spring.
+    - candidate: 2
+      kind: cross-section
+      alt: Three pogo pins cut in half, showing the coil spring inside each barrel under the plunger, one with a small ball between them.
+    - candidate: 5
+      kind: photo
+      alt: Many gold-plated pogo pins and pogo pin connector strips scattered on a white surface.
+  needs_animation: false
+  needs_photo: false
+pole-lashings:
+  pictures:
+    - commons: "File:Square Lashing.jpg"
+      kind: photo
+      alt: A square lashing, rope wound tightly round two wooden poles where they cross and pulled tight with turns between them.
+    - candidate: 5
+      kind: how-it-works
+      alt: Scouts tying lashings to join three poles into a triangular frame on the ground.
+    - candidate: 3
+      kind: photo
+      alt: Bamboo scaffolding on a building in Hong Kong, the poles tied together at every crossing.
+  needs_animation: false
+  needs_photo: false
+polyurethane-glue:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: photo
+      alt: A bottle of polyurethane glue (Gorilla Glue) standing on a workbench.
+  needs_animation: false
+  needs_photo: false
+  note: only a product photo; no candidate shows the glue foaming in a joint.
+press-fit:
+  pictures:
+    - drawn
+    - candidate: 4
+      kind: photo
+      alt: The underside of a circuit board where square press-fit pins have been forced into round plated holes, with no solder.
+    - candidate: 2
+      kind: photo
+      alt: A flowerpot cover made of laser-cut wooden rings and ribs that are pushed tightly into each other's slots.
+  needs_animation: false
+  needs_photo: false
+print-in-place-hinge:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A blue 3D-printed fidget cube in front of an Ultimaker printer, its small cubes joined by hinges printed in place.
+    - candidate: 3
+      kind: photo
+      alt: Two 3D-printed hinges in grey plastic, one closed and one opened out, printed in one piece.
+  needs_animation: false
+  needs_photo: false
+printed-chainmail-and-tile-fabric:
+  pictures:
+    - commons: "File:Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003.jpg"
+      kind: photo
+      alt: A piece of white 3D-printed ring fabric, printed with every ring already linked, draped over a dark coco de mer nut so it hangs like cloth.
+  needs_animation: true
+  needs_photo: false
+  note: the other candidates are real metal chainmail or unrelated people, not printed fabric.
+printed-screw-thread:
+  pictures:
+    - drawn
+    - candidate: 15
+      kind: photo
+      alt: Two 3D-printed plastic bolts with nuts screwed onto them, one held in a hand, showing the coarse printed threads.
+  needs_animation: false
+  needs_photo: false
+printing-onto-fabric:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are fabric block printing, screen printing and film-set photos, none of 3D printing onto mesh fabric.
+push-in-plastic-rivet:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the candidates are a removal tool and a cassette deck where the rivet is tiny.
+push-on-edge-trim:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate is a model aircraft cockpit, not edge trim.
+push-push-latch:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are electrical push switches and door push bars, not push-push latches.
+pva-wood-glue:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: how-it-works
+      alt: A wooden post glued onto a board, with creamy PVA glue squeezed out round the joint.
+    - candidate: 1
+      kind: photo
+      alt: Two strips of wood glued together and held tight with clamps on a workbench while the glue sets.
+  needs_animation: false
+  needs_photo: false
+quarter-turn-fastener:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates show an engine cowling and an instrument case where the fasteners are too small to see, plus a logo.
+quick-return-mechanism:
+  pictures:
+    - drawn
+    - candidate: 5
+      kind: how-it-works
+      alt: A science-museum exhibit of a quick-return mechanism, a red crank wheel driving an orange slotted lever behind a clear cover.
+  needs_animation: false
+  needs_photo: false
+  note: the candidate animations (#1, #2, #4) are thin stick-line linkages, so the drawn animation goes first.
+rack-and-pinion:
+  pictures:
+    - candidate: 7
+      kind: animation
+      alt: A red gear (the pinion) turning on a straight green toothed bar (the rack) and rolling along it.
+    - candidate: 2
+      kind: photo
+      alt: The big riveted steel toothed rack that lifts a harbour bridge in Bremerhaven.
+    - candidate: 4
+      kind: photo
+      alt: The rack and pinion drive that turns the Tyne Swing Bridge, a gear meshing with a large curved toothed rack.
+  needs_animation: false
+  needs_photo: false
+  note: the current animation (File:Rack and pinion animation.gif) is only 152x164; the bridge photos are dark and the pinion is hard to pick out.
+radial-lip-seal:
+  pictures:
+    - commons: "File:Radial sealing CAD sectional view num.svg"
+      kind: cross-section
+      alt: A cut-through drawing of a radial lip seal in its housing, with its rubber lip and garter spring pressing on the shaft.
+    - candidate: 9
+      kind: photo
+      alt: A small black rubber shaft seal (radial lip seal) lying on a white cloth.
+    - candidate: 4
+      kind: photo
+      alt: The underside of a washing-machine pump with a black lip seal fitted round the hole where the shaft comes through.
+  needs_animation: true
+  needs_photo: false
+ratchet-and-pawl:
+  pictures:
+    - commons: "File:Ratchet Gear and Pawl.gif"
+      kind: animation
+      alt: A green toothed wheel that clicks round one way under a pink pawl and is stopped by it when pushed the other way.
+    - candidate: 9
+      kind: how-it-works
+      alt: The ratchet wheel and pawl of a San Francisco cable car's hand brake, a green toothed wheel at the foot of the brake post with a pawl catching its teeth.
+  needs_animation: false
+  needs_photo: false
+ratchet-tie-down-strap:
+  pictures:
+    - commons: "File:Ergo Ratsche mit langem Hebel..jpg"
+      kind: how-it-works
+      alt: A worker pumping the long handle of a ratchet strap to tighten the webbing round a stack of concrete blocks.
+    - candidate: 3
+      kind: photo
+      alt: A yellow ratchet tie-down strap with its steel ratchet buckle and a hook on each end.
+    - candidate: 8
+      kind: photo
+      alt: An orange ratchet strap pulled tight round logs on a railway wagon, the ratchet buckle locked closed.
+  needs_animation: true
+  needs_photo: false
+ratchet-tooth-torque-limiter:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidate pictures on the sheet.
+reciprocal-frame:
+  pictures:
+    - commons: "File:Three stick reciprocal frame.JPG"
+      kind: photo
+      alt: Three sticks on a table, each resting on the next in a small triangle so together they hold each other up.
+    - candidate: 12
+      kind: photo
+      alt: Looking up into a wooden reciprocal-frame roof, the rafters each resting on the next round a small open ring at the top.
+    - candidate: 5
+      kind: how-it-works
+      alt: A person fitting rough log rafters into a reciprocal-frame roof, each log laid over the end of the one before.
+  needs_animation: false
+  needs_photo: false
+retaining-ring:
+  pictures:
+    - commons: "File:Sicherungsring auf Welle mit Wellennut.png"
+      kind: diagram
+      alt: Drawings of an E-shaped retaining ring and a shaft with a groove, showing how the ring clips into the groove.
+    - candidate: 11
+      kind: photo
+      alt: A small circlip clipped into a groove on a pin, holding a plastic slide in place inside a camera.
+    - candidate: 2
+      kind: photo
+      alt: A collection of steel retaining rings (circlips) of different sizes and types, many with two holes for pliers.
+  needs_animation: false
+  needs_photo: false
+reversing-screw:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A winch drum on a blue frame with a level winder, a shaft with crossing spiral grooves that moves the rope guide back and forth across the drum.
+  needs_animation: false
+  needs_photo: false
+  note: in the winch photo the crossed-groove shaft is fairly small; the other candidates are unrelated.
+rigid-chain-actuator:
+  pictures:
+    - commons: "File:Rigid Chain Actuator.gif"
+      kind: animation
+      alt: A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling it back in.
+  needs_animation: false
+  needs_photo: true
+  note: the only other candidate is a patent drawing.
+roller-clutch:
+  pictures:
+    - commons: "File:Freewheel en.svg"
+      kind: diagram
+      alt: A drawing of a roller clutch, red rollers with springs sitting on ramps between a blue inner hub and a green outer ring, with the free and engaged directions marked.
+    - candidate: 3
+      kind: photo
+      alt: The parts of a roller clutch bearing beside a centimetre scale, a ring of rollers in a cage next to the smooth outer race.
+  needs_animation: true
+  needs_photo: false
+  note: candidate 3 is captioned "clutch roller bearings"; it looks like a roller clutch cage but the ramps cannot be seen.
+rope-end-finishing:
+  pictures:
+    - commons: "File:Common-whipping.png"
+      kind: diagram
+      alt: A drawing of a rope end finished with a common whipping, tight turns of thin twine wound round the rope just before the cut end.
+    - candidate: 3
+      kind: photo
+      alt: Two braided rope ends that have been melted and fused with a hot knife so the fibres cannot fray.
+    - candidate: 4
+      kind: photo
+      alt: Three shoelace ends, each finished with a different small metal tube (aglet) in copper, plastic and brass.
+  needs_animation: false
+  needs_photo: false
+rotary-latch:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are slide bolts, hasps, luggage catches and electronic latch circuits, none a claw-and-pawl rotary latch.
+self-clinching-fastener:
+  pictures:
+    - commons: "File:17-SwageNuts.JPG"
+      kind: photo
+      alt: Two self-clinching nuts, each a threaded steel collar with a knurled ring round its base that bites into the sheet metal.
+  needs_animation: false
+  needs_photo: false
+  note: the only other candidate is a tiny 180x121 photo; a picture of one fitted in a panel or cut in half would be better.
+self-folding-print:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: how-it-works
+      alt: Four snapshots of an orange 4D-printed gripper whose fingers curl closed by themselves to grab a bolt and lift it.
+    - candidate: 1
+      kind: animation
+      alt: A flat printed strip in water slowly bending itself into a curved shape as it soaks up the water.
+  needs_animation: false
+  needs_photo: false
+  note: candidate 1 is a real video of a 4D print folding in water but it is grey and unclear, so the drawn animation stays first.
+self-locking-wedge:
+  pictures:
+    - commons: "File:Wedge-diagram.svg"
+      kind: diagram
+      alt: A drawing of a black wedge being pushed down into a split block, with arrows showing the two halves being forced apart.
+    - candidate: 4
+      kind: photo
+      alt: A bicycle crank cotter, a steel pin with a flat sloping face and a nut, that is driven in sideways to lock the crank to its axle.
+    - candidate: 2
+      kind: photo
+      alt: A plain wooden wedge door stop lying on the floor.
+  needs_animation: true
+  needs_photo: false

@@ -1,0 +1,301 @@
+# R32 picture picks, batch a04
+servo-or-motorised-latch:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "Only candidate (#1 Exploded Servo.jpg) is a servo taken apart, not a latch; could serve as a parts photo if nothing better turns up."
+sewn-seams-and-hand-stitches:
+  pictures:
+    - commons: "File:Lockstitch - Anthony Atkielski.png"
+      kind: diagram
+      alt: "Diagram of a lockstitch: an upper thread and a lower thread loop round each other in the middle of the cloth."
+    - candidate: 4
+      kind: photo
+      alt: "Close-up of a flat-felled seam on red fabric: two parallel lines of stitching hold the folded-over edges flat."
+    - candidate: 5
+      kind: photo
+      alt: "A piece of spotted cotton fabric on a table, with a line of machine stitching running along its edge and a dark band sewn on one side."
+  needs_animation: true
+  needs_photo: false
+shackle-and-quick-link:
+  pictures:
+    - commons: "File:Maillon.JPG"
+      kind: how-it-works
+      alt: "Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right it is screwed over the gap to close the link."
+    - candidate: 1
+      kind: photo
+      alt: "A workshop wall board hung with many shackles and hooks of different sizes, red and silver, each closed by a screw pin."
+    - candidate: 3
+      kind: photo
+      alt: "A soft shackle: a loop of grey braided Dyneema rope closed by a knot at one end."
+  needs_animation: true
+  needs_photo: false
+shaft-to-hub-joints-and-rigid-couplings:
+  pictures:
+    - commons: "File:Parallel keys.png"
+      kind: diagram
+      alt: "Cut-away drawing of a hub on a shaft, with a rectangular key sitting half in a slot in the shaft and half in a slot in the hub."
+    - candidate: 3
+      kind: photo
+      alt: "A potentiometer with its knob pushed onto the shaft, held by a small set screw in the side of the knob."
+  needs_animation: false
+  needs_photo: false
+shape-memory-alloy-wire-latch:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "Only candidate (#1 Nitinol draht.jpg) is a bundle of thick nitinol rods, not a latch."
+shims-spacers-and-standoffs:
+  pictures:
+    - commons: "File:Metal shims.jpg"
+      kind: photo
+      alt: "Four slotted metal shims, each 1.00 mm thick, fanned out so the slot that fits round a bolt can be seen."
+    - candidate: 2
+      kind: how-it-works
+      alt: "Three loose hexagonal standoffs in front, and behind them one standoff fitted between a circuit board and a metal case, holding the board up off the case."
+  needs_animation: false
+  needs_photo: false
+shut-off-valve:
+  pictures:
+    - commons: "File:Ball.PNG"
+      kind: cross-section
+      alt: "Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body."
+  needs_animation: true
+  needs_photo: true
+  note: "No candidate is a clear real photo of a hand shut-off valve (sluice, aerospace fuel valve, signs, shower)."
+silicone-and-ms-polymer-adhesive-sealants:
+  pictures:
+    - commons: "File:Caulking.jpg"
+      kind: photo
+      alt: "Grey silicone sealant being squeezed out of the nozzle of a caulking gun in a thick bead."
+    - candidate: 2
+      kind: photo
+      alt: "A 310 ml cartridge of MS-polymer adhesive sealant with a plastic nozzle screwed on."
+  needs_animation: true
+  needs_photo: false
+  note: "Marked as moving (flex); an animation of a sealant bead stretching between two parts would suit."
+slider-crank:
+  pictures:
+    - commons: "File:Slider-Crank Mechanism.gif"
+      kind: animation
+      alt: "Animation of a slider-crank: a point goes round a circle while a rod joined to it pushes and pulls a box back and forth along a straight line."
+    - candidate: 13
+      kind: how-it-works
+      alt: "A museum wall exhibit called Conversion of Motion with a working slider-crank model: a red crank disc drives a yellow slider up and down in a guide."
+  needs_animation: false
+  needs_photo: false
+  note: "Candidate animation #6 is clear but thin-lined; the drawn animation is a fair alternative if it reads better."
+sliding-dovetail:
+  pictures:
+    - commons: "File:Linear table rail guide animated.gif"
+      kind: animation
+      alt: "Animated 3D model of a dovetail slide: a grey table with flared edges slides back and forth along a base with matching flared grooves."
+    - commons: "File:Joinery-slidingdovetail.gif"
+      kind: how-it-works
+      alt: "3D model of a woodwork sliding dovetail: a board with a flared tongue on its end slides into a flared groove across a second board."
+    - candidate: 3
+      kind: photo
+      alt: "A telescope fixed to its mount by a dovetail bar clamped in a matching saddle and locked by a black knob."
+  needs_animation: false
+  needs_photo: false
+  note: "No real photo of a wooden sliding dovetail among the candidates."
+slotted-adjustment-with-a-jacking-screw:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: how-it-works
+      alt: "Two car engines with the alternator swung on a hinge and held by a bolt through a curved slotted bracket, which sets the belt tension."
+    - candidate: 3
+      kind: photo
+      alt: "The back wheel of a single-speed mountain bike, its axle clamped in rear-facing slotted fork ends so it can be slid back to tighten the chain."
+  needs_animation: false
+  needs_photo: false
+snap-lock-sheet-joint:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "Only candidate is a medieval key fragment, unrelated."
+snap-pin:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "No candidate is a snap pin (search hits are badges, brooch pins, a map, unrelated photos)."
+soft-pneumatic-bending-actuator:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "No candidates on the sheet."
+solder-sleeve:
+  pictures:
+    - commons: "File:Geschrumpfter Lötverbinder auf Litzendraht.JPG"
+      kind: how-it-works
+      alt: "A shrunk solder sleeve on a blue stranded wire: through the clear tube the melted solder band can be seen joining the wires in the middle, with a sealing ring at each end."
+    - candidate: 2
+      kind: photo
+      alt: "Four unused solder sleeves of different sizes, each a clear tube with a grey solder ring in the middle and a coloured glue ring at each end."
+  needs_animation: false
+  needs_photo: false
+soldered-metal-joint:
+  pictures:
+    - commons: "File:Propane torch soldering copper pipe.jpg"
+      kind: how-it-works
+      alt: "A propane torch flame heating a copper pipe joint so the solder will melt and flow into the gap."
+    - candidate: 2
+      kind: photo
+      alt: "Finished soft-soldered copper water pipes and elbow fittings running out of a hole in a wall."
+  needs_animation: false
+  needs_photo: false
+soldered-wire-joint:
+  pictures:
+    - commons: "File:Western Union splice.jpg"
+      kind: diagram
+      alt: "Step-by-step drawing of a Western Union splice: two stripped wire ends are crossed, twisted round each other and wrapped tight before soldering."
+    - candidate: 9
+      kind: photo
+      alt: "A hand holding wires soldered to the pins of a small header connector, with black heat-shrink tubes slid over each joint."
+    - candidate: 6
+      kind: photo
+      alt: "Coloured wires soldered onto the lugs of potentiometers mounted on a metal panel."
+  needs_animation: false
+  needs_photo: false
+  note: "No photo of a soldered wire-to-wire splice among the candidates; both photos are wires soldered to pins or lugs."
+solenoid-latch:
+  pictures:
+    - drawn
+    - candidate: 14
+      kind: photo
+      alt: "A small 12 V solenoid cabinet lock: a shiny metal box with red and black wires and a slanted steel bolt sticking out of one end."
+    - candidate: 1
+      kind: photo
+      alt: "A door lock case with a solenoid inside, shown from the side with its wires coming out and the latch bolt on the front plate."
+  needs_animation: false
+  needs_photo: false
+speed-control-valve:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "No candidate shows a speed-control (needle plus check) valve; #1 animation is a quick exhaust valve and #3 is a model-engine needle valve in its packet."
+spline-shaft:
+  pictures:
+    - commons: "File:Cardan-joint spline-shaft 3D transparent animated.gif"
+      kind: animation
+      alt: "Animated 3D model of a drive shaft with a universal joint at each end: as the ends move, a ridged shaft slides in and out of a see-through hub while both keep turning together."
+    - candidate: 4
+      kind: how-it-works
+      alt: "A bicycle gear cassette pulled off its freehub, showing the lengthwise ridges on the freehub body and the matching notches inside the sprockets."
+    - candidate: 6
+      kind: photo
+      alt: "A rusty spline shaft on a farm trailer's drive shaft, with its lengthwise ridges clearly visible."
+  needs_animation: false
+  needs_photo: false
+spot-weld:
+  pictures:
+    - drawn
+    - candidate: 10
+      kind: photo
+      alt: "A steel cooking pot whose handle is fixed to the side by two small round spot welds."
+    - candidate: 5
+      kind: how-it-works
+      alt: "A floor-standing spot welder with two long copper-tipped arms that squeeze the sheets together and carry the welding current."
+  needs_animation: false
+  needs_photo: false
+  note: "The two dots on the pot handle (#10) could be mistaken for rivets; its description says spot weld."
+sprag-clutch:
+  pictures:
+    - commons: "File:Sprag clutch.png"
+      kind: diagram
+      alt: "Two diagrams of a sprag clutch: turning forwards the tilted sprags jam between the rings and drive, turning in reverse they slide and the rings spin freely."
+    - candidate: 2
+      kind: how-it-works
+      alt: "A real one-way bearing with its side plate off, showing the ring of small tilted sprags sitting between the inner and outer rings."
+  needs_animation: true
+  needs_photo: false
+spring-balancer:
+  pictures:
+    - commons: "File:Angle Poise Lamp Diagram 2.png"
+      kind: diagram
+      alt: "Diagram of an Anglepoise lamp: springs near the base pull on the arms so the lamp head stays where it is put."
+    - candidate: 3
+      kind: photo
+      alt: "An Anglepoise model 1227 desk lamp from about 1935, with its balancing springs visible beside the arms at the base."
+  needs_animation: true
+  needs_photo: false
+  note: "Candidate #2 (pantograph lamp with counterweight animation) is this idea but small and hard to read on black; not used."
+spring-bar:
+  pictures:
+    - commons: "File:Federsteg.jpg"
+      kind: diagram
+      alt: "Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end."
+    - candidate: 2
+      kind: photo
+      alt: "Three steel watch spring bars lying side by side, each with a short pin at both ends."
+  needs_animation: true
+  needs_photo: false
+  note: "Spring bar is listed as rotate (the strap loop pivots on it); a drawn animation of the pins pushing in and springing out into the lugs would help most."
+spring-clamp-wire-connector:
+  pictures:
+    - commons: "File:Cage Clamp.jpg"
+      kind: how-it-works
+      alt: "A WAGO cage clamp spring on its own, gripping the bare copper end of a blue wire against a metal bar."
+    - candidate: 1
+      kind: cross-section
+      alt: "A WAGO 221 lever connector cut in half: inside, a bent steel spring presses each stripped orange wire against a shared copper bar."
+    - candidate: 3
+      kind: photo
+      alt: "A scattering of clear WAGO push-in wire connectors with two, three, five and eight wire openings, coloured by size."
+  needs_animation: false
+  needs_photo: false
+spring-gate-hook:
+  pictures:
+    - commons: "File:Assorted Biners.jpg"
+      kind: photo
+      alt: "Five carabiners of different shapes laid out, with wire gates, straight gates and screw-lock and twist-lock gates."
+    - candidate: 4
+      kind: photo
+      alt: "A steel spring-gate snap hook: a pear-shaped hook whose thin spring gate closes against the nose of the hook."
+    - candidate: 3
+      kind: photo
+      alt: "Two bolt snaps, one with a swivel ring and one double-ended, each with a small spring bolt that slides back to open the hook."
+  needs_animation: true
+  needs_photo: false
+spur-gear-pair-and-gear-train:
+  pictures:
+    - commons: "File:Animated two spur gears 1 2.gif"
+      kind: animation
+      alt: "Animation of a small red gear with 14 teeth turning a big green gear with 28 teeth, so the big gear turns half as fast and the other way."
+  needs_animation: false
+  needs_photo: true
+  note: "No real photo among the candidates (#2 is another animation, #3 a diagram)."
+standard-plug-and-socket-connector:
+  pictures:
+    - commons: "File:Klinken- und Hohlstecker.jpg"
+      kind: photo
+      alt: "A row of interchangeable adapter tips for a power supply: barrel plugs and audio-jack plugs of different sizes."
+    - candidate: 8
+      kind: how-it-works
+      alt: "A jack plug pushed into a panel-mount jack socket: the socket's springy metal contact presses on the plug's tip to hold it and make the connection."
+    - candidate: 4
+      kind: photo
+      alt: "A row of snap-in keystone sockets on a ruler, including telephone, network (RJ45), coaxial and audio sockets."
+  needs_animation: false
+  needs_photo: false
+stopper-knots-and-cord-end-anchors:
+  pictures:
+    - commons: "File:Figure-eight knot.svg"
+      kind: diagram
+      alt: "Drawing of a figure-eight knot tied in the end of a rope, making a lump too big to pull through a hole."
+    - candidate: 2
+      kind: photo
+      alt: "An Ashley stopper knot tied near the end of a blue braided cord, forming a round lump."
+    - candidate: 3
+      kind: photo
+      alt: "Several different stopper knots, such as the diamond and lanyard knots, tied in red cord and numbered."
+  needs_animation: false
+  needs_photo: false
+  note: "No photo of a cord anchored in a hole of a part; both photos are knots on their own."
