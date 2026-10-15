@@ -24,10 +24,10 @@ function hub(K, body, bore, rot, m) {
 
 export default {
   alt: 'Render of a jaw coupling pulled apart along its shafts: two aluminium hubs, one on a plain motor shaft and one on a leadscrew, each with three stubby jaws on its face, and a red rubber star-shaped spider between them whose six legs fill the gaps between the jaws.',
-  view: { dir: [0.65, 0.55, 1.2], fill: 0.95 },
+  view: { dir: [0.3, 0.5, 1.2], fill: 1.0 },
   build(K) {
     const { group, at, cyl, threaded, mat } = K;
-    const alu = mat.aluminium(), red = mat.rubber(0xc0302a);
+    const alu = new K.THREE.MeshPhysicalMaterial({ color: 0xa9aeb4, metalness: 1, roughness: 0.48 }), red = mat.rubber(0xc0302a);
     const a = hub(K, 10, 2.5, 0, alu);                               // motor side, 5 mm bore
     const spider = group(at(K.tube(RS + 0.4, 3, JAW, red), [0, JAW / 2, 0]),
       ...Array.from({ length: 6 }, (_, k) => sector(K, RS, RO - 0.3, k * 60 + 30 - 8.5, k * 60 + 30 + 8.5, JAW, red)));
