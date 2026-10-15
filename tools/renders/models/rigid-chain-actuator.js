@@ -6,7 +6,7 @@ const H = 34, D = 30;  // housing height and depth
 
 export default {
   alt: 'Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending in a mounting bracket; a power cable leaves one end.',
-  view: { dir: [1.0, 0.7, 0.85], fill: 1.0 },
+  view: { dir: [1.0, 0.62, 0.62], fill: 1.3, target: [0, 0, -10] },
   build(K) {
     const { group, at, box, cyl, wire, mat, extrude } = K;
     const alu = mat.anodised(0xaab0b6), black = mat.plastic(0x1e1e20), ss = mat.stainless(), zinc = mat.zinc();
@@ -25,7 +25,7 @@ export default {
       parts.push(at(cyl(1.6, 15.6, ss), [0, py, z], [0, 0, 90]));
       if (i === n) break;
       const outer = i % 2 === 0, x = outer ? 6.6 : 4.9;
-      for (const s of [-1, 1]) parts.push(at(box(1.5, 16, P - 0.35, ss, 0.6), [s * x, py + 5.6, z + P / 2]));
+      for (const s of [-1, 1]) parts.push(at(box(1.8, 16, P - 0.25, ss, 0.6), [s * x, py + 5.6, z + P / 2]));
     }
     // end bracket on the last pin
     const zEnd = z0 + n * P;

@@ -33,7 +33,7 @@ function plateOutline() {
   return [...pts, [-4.5, 30.5], [-4.5, 50], [-23, 50]];
 }
 export default {
-  alt: 'Render of a rotary latch with its cover plate left off: on a metal housing plate with a slot, a dark steel claw has turned round a striker pin to trap it at the bottom of the slot, and a steel pawl rests in a notch on the claw to stop it turning back; the striker pin stands out from a bracket behind.',
+  alt: 'Render of a rotary latch with its cover plate left off: on a metal housing plate with a slot, a dark steel claw has turned round a striker pin to trap it at the bottom of the slot, and a pawl rests in a notch on the claw to stop it turning back; the striker pin stands out from a bracket behind.',
   kind: 'cross-section',
   view: { dir: [0.3, 0.4, 1.2], fill: 0.95, light: [-0.3, 1, 0.9] },
   build(K) {
@@ -42,10 +42,10 @@ export default {
     const claw = at(extrude(clawOutline(), 4, mat.blackOxide(), { bevel: 0.3 }), [0, 0, 2.3]);
     // pawl: a flat bar from its pivot (lower right) up to the catch notch on the claw
     const ta = -Math.PI * 0.36 + 0.16, tip = [C[0] + (RC - 2.0) * Math.cos(ta), C[1] + (RC - 2.0) * Math.sin(ta)];
-    const pv = [14, 9], len = Math.hypot(tip[0] - pv[0], tip[1] - pv[1]), ang = Math.atan2(tip[1] - pv[1], tip[0] - pv[0]);
+    const pv = [12, 12], len = Math.hypot(tip[0] - pv[0], tip[1] - pv[1]), ang = Math.atan2(tip[1] - pv[1], tip[0] - pv[0]);
     const pawlShape = new K.THREE.Shape();
     pawlShape.absarc(0, 0, 3.5, Math.PI / 2, (Math.PI * 3) / 2, false); pawlShape.lineTo(len, -2.2); pawlShape.lineTo(len, 2.2); pawlShape.lineTo(0, 3.5);
-    const pawl = at(extrude(pawlShape, 4, mat.steel(), { bevel: 0.3 }), [pv[0], pv[1], 2.3], [0, 0, (ang * 180) / Math.PI]);
+    const pawl = at(extrude(pawlShape, 4, mat.castIron(), { bevel: 0.3 }), [pv[0], pv[1], 2.3], [0, 0, (ang * 180) / Math.PI]);
     const rivets = [C, pv].map(([x, y]) => group(at(cyl(2, 6, mat.steel()), [x, y, 2], [90, 0, 0]), at(cyl(3, 1, mat.steel()), [x, y, 4.9], [90, 0, 0])));
     // the striker pin, standing out from a bracket behind the latch
     const striker = group(

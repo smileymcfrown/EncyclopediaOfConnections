@@ -12,10 +12,10 @@ export default {
     // lower piece: a bulging round body, flat cut face on top
     const lowProf = [[0, 0], [42, 0], [46, 2], [52, 14], [55, 32], [54, 50], [51, 64], [Rc, cutY], [0, cutY]];
     const lower = lathe(lowProf, pla);
-    const pegG = pegs.map(([x, z]) => at(lathe([[0, 0], [4, 0], [4, 7.2], [3.3, 8.2], [0, 8.2]], pegM), [x, cutY, z]));
+    const pegG = pegs.map(([x, z]) => at(lathe([[0, 0], [5, 0], [5, 7.6], [4.2, 8.5], [0, 8.5]], pegM), [x, cutY, z]));
     // upper piece (built the right way up, then turned over): a short straight band holding the
     // blind holes, then a dome
-    const band = at(extrude(circle(Rc, 128), 9, plaUp, { holes: pegs.map(([x, z]) => ({ x, y: z, r: 4.3 })), bevel: 0, curve: 24 }), [0, 4.5, 0], [90, 0, 0]);
+    const band = at(extrude(circle(Rc, 128), 9, plaUp, { holes: pegs.map(([x, z]) => ({ x, y: z, r: 5.3 })), bevel: 0, curve: 24 }), [0, 4.5, 0], [90, 0, 0]);
     const domeProf = [[Rc + 0.05, 0], [Rc + 0.05, 9], [49.5, 18], [46, 30], [39, 42], [28, 52], [14, 58], [0, 60]];
     const dome = lathe(domeProf, plaUp);          // the outside skin, band included, in one piece
     const upper = group(band, dome);
