@@ -52,10 +52,55 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [steady speed or level]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
+  slows_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
+      > Slow it down, stop it, or keep its speed steady"
 confirmed: []
 open_points:
 - kind: sources
@@ -308,6 +353,7 @@ It limits torque but does not make a machine finger-safe: the set torque can sti
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `slows_by` = steady speed or level (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
 - ⚑ Research note: *Friction slip clutch*: a motorcycle "slipper clutch" is a back-torque limiter, not the same as the RC-car slipper clutch. The entry says so.
 
 ## Sources

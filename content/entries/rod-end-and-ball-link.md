@@ -46,10 +46,54 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [swivel or tilt]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
+  move_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, input_output, seal, processes, making_tips_3d_printing, environment_limits, safety_notes]
@@ -309,6 +353,7 @@ A rod end failing in steering, suspension or flight controls means loss of contr
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ Finder value `move_kind` = swivel or tilt (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 
 ## Sources
 

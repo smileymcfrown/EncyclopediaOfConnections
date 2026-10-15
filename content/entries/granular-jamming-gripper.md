@@ -44,10 +44,59 @@ finder:
   adjustable: 'yes'
   removability: tool-free quick release
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [machine]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [grip or lift]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
+  gripped_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
+      together > Something that has to be gripped or clamped"
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits, common_failures, make_it_yourself]
@@ -273,6 +322,8 @@ Latex balloons can trigger allergic reactions in people with latex allergy (Wiki
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
+- ⚑ Finder value `gripped_by` = machine (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
+- ⚑ Finder value `powered_does` = grip or lift (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

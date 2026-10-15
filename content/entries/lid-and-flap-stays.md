@@ -57,10 +57,70 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [swings on a hinge]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [follows a set path]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [flip between positions]
+  slows_by: [damper]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [hold together]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
+  opens_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
+      together > A lid, door or cover that opens and closes"
+  move_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
+  over_centre_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
+      > Snap past a point and stay there"
+  slows_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
+      > Slow it down, stop it, or keep its speed steady"
+  also_under:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
+      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points:
 - kind: sources
@@ -309,6 +369,11 @@ Falling lids are a real hazard: the US CPSC knows of children killed or brain-da
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `opens_by` = swings on a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ Finder value `move_kind` = follows a set path (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
+- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
+- ⚑ Finder value `slows_by` = damper (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
+- ⚑ Finder value `also_under` = hold together (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

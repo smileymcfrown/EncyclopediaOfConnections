@@ -58,10 +58,63 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [to a board or terminal]
+  plugs_in: ['yes']
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [pass cables through]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  wire_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
+      or power"
+  plugs_in:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires
+      or power > A wire to a board, terminal or device"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
 confirmed: []
 open_points:
 - kind: sources
@@ -319,6 +372,9 @@ Shut down and unplug the device before connecting or disconnecting a cable, and 
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Finder value `wire_use` = to a board or terminal (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ Finder value `plugs_in` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
+- ⚑ Finder value `seal_use` = pass cables through (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 - ⚑ Research note: *Flat flexible cable*: Molex flex life differs between its test table (2.5 million / 100,000 / 10,000 cycles by cable thickness) and its feature list (900,000 vs 6,000); both recorded. Hirose FH12 current: the data sheet read says 0.4 A per contact; a Mouser search summary said 0.5 A; only 0.4 A is cited.
 
 ## Sources

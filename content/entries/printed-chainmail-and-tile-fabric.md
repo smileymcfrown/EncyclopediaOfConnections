@@ -46,7 +46,56 @@ finder:
   adjustable: 'no'
   removability: permanent
   power: passive
-needs_confirming: {}
+  printed_take_apart: [made as fabric or a folding sheet]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [a fitted part]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  printed_take_apart:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
+      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+  cord_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
+      > Strap, cord, rope or fabric"
 confirmed: []
 open_points:
 - kind: content
@@ -292,6 +341,8 @@ Not real armour: treat it as decorative or light-duty and never rely on it to st
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `printed_take_apart` = made as fabric or a folding sheet (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
 - ⚑ Research note: *Printed chainmail*: Space.com says JPL's 2017 'space fabric' prototype was printed in plastic; JPL's own release describes metal. The entry follows JPL. Choking risk from broken tiles is unsourced ([uncertain]).
 
 ## Sources

@@ -50,11 +50,64 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [passes the turning on]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [pass cables through]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [full turns]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable
       ends [uncertain]. The printed demonstrator sn…"'
+  drive_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
+      move > Spin round and round > A shaft driving another shaft"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  turns:
+    kind: best guess
+    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
+      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: content
@@ -276,6 +329,9 @@ The carrier arm and cable loop sweep round the rotor, making entanglement and pi
 
 - ⚑ 17 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends ⚑ [uncertain]. The printed demonstrator sn…"
+- ⚑ Finder value `drive_does` = passes the turning on (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
+- ⚑ Finder value `seal_use` = pass cables through (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Anti-twister mechanism*: `materials` is in the entry's `uncertain` list but has no `[uncertain]` marker, so the default report shows it in full. Check its materials list before publishing.
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 - ⚑ Research note: *Anti-twister mechanism* lists `materials` as unverified without a marker (see above).

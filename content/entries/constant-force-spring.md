@@ -44,7 +44,60 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: ['strap, cord or rope', 'belt, chain or cable']
+  tension_hold: [spring or elastic]
+  adjusts: [not applicable]
+  spring_kind: [straight push or pull, twist or wind]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  tightens:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
+      or take up slack"
+  tension_hold:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
+      or take up slack > A strap, lace, cord or rope"
+  spring_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
+      or store energy"
 confirmed: []
 open_points:
 - kind: content
@@ -285,6 +338,9 @@ Stored energy and sharp edges: a released or broken constant-force spring snaps 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
+- ⚑ Finder value `tightens` = strap, cord or rope, belt, chain or cable (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
+- ⚑ Finder value `tension_hold` = spring or elastic (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
+- ⚑ Finder value `spring_kind` = straight push or pull, twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 - ⚑ Research note: *Constant-force spring*: tape measures, dog leads, seat belts and badge reels use spiral **power** springs (Lee Spring), not constant-force springs. Outline description corrected 2026-09-27; the *Linear ratchet* description was corrected at the same time.
 
 ## Sources

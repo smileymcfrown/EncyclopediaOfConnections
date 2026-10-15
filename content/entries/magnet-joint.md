@@ -44,7 +44,73 @@ finder:
   adjustable: 'no'
   removability: tool-free quick release
   power: passive
-needs_confirming: {}
+  printed_take_apart: ['yes']
+  threaded: ['no']
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [catch or lever]
+  locks_out: ['no']
+  mounts_on: [wall or ceiling]
+  wall_hold: [magnet or suction]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  printed_take_apart:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
+      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+  threaded:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
+      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+  opens_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
+      together > A lid, door or cover that opens and closes"
+  locks_out:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
+      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
+      or lever"
+  mounts_on:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
+      together > Something onto a wall, desk, bar, tripod, rail or grid"
+  wall_hold:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
+      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 confirmed: []
 open_points: []
 uncertain_fields: [processes, play_and_precision, environment_limits, related]
@@ -277,6 +343,12 @@ Keep neodymium magnets away from children: if two or more small magnets are swal
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ Finder value `printed_take_apart` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ Finder value `threaded` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
+- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
+- ⚑ Finder value `wall_hold` = magnet or suction (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 
 ## Sources
 

@@ -56,6 +56,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [join hoses or pipes]
+  seal_material: [not applicable]
+  hose_join: ['pushed, clamped or clicked']
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
@@ -65,6 +106,14 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket
       [uncertain]. Cable-tie stand-ins: a cutt…"'
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  hose_join:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
+      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: content
@@ -329,6 +378,8 @@ PRESSURE: hose clamps are for moderate pressures only (Wikipedia 'Hose clamp'); 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…less worm-drive and spring clamps if the screw and band are undamaged ⚑ [uncertain:…"
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket ⚑ [uncertain]. Cable-tie stand-ins: a cutt…"
+- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `hose_join` = pushed, clamped or clicked (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Hose clamp*: Wikipedia says T-bolt clamps suit high-pressure turbo hoses; AMS Performance says they distort thin aluminium pipe, where a worm clamp is better.
 
 ## Sources

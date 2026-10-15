@@ -45,6 +45,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: ['pushed by a screw, chain or crank']
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [long travel or pulling]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [move or push something]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -54,6 +95,18 @@ needs_confirming:
     kind: source uncertain
     reason: '`power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain
       whether every model holds aga…"'
+  slide_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
+      > Slide in a straight line, or telescope"
+  straight_drive:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
+      a movement > Turning into straight-line motion, or back"
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, make_it_yourself]
@@ -284,6 +337,9 @@ Crushing and trapping: fingers or hands can be caught between a closing window s
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds aga…"
 - ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds aga…"
+- ⚑ Finder value `slide_kind` = pushed by a screw, chain or crank (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
+- ⚑ Finder value `straight_drive` = long travel or pulling (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

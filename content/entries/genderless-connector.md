@@ -54,6 +54,47 @@ finder:
   adjustable: 'no'
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [to a board or terminal]
+  plugs_in: ['yes']
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   electrical_band:
     kind: best guess
@@ -62,6 +103,14 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to
       wire [uncertain]…"'
+  wire_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
+      or power"
+  plugs_in:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires
+      or power > A wire to a board, terminal or device"
 confirmed: []
 open_points:
 - kind: content
@@ -333,6 +382,8 @@ Pressurised hoses: a quarter-turn coupling that is not fully engaged can come ap
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
 - ⚑ Finder value `tools` = none, soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to wire ⚑ [uncertain]…"
+- ⚑ Finder value `wire_use` = to a board or terminal (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ Finder value `plugs_in` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 
 ## Sources

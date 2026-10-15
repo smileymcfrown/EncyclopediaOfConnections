@@ -49,6 +49,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [screw]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [pump or control a flow]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [pump]
+  powered_does: [pump or control a flow]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -61,6 +102,22 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
+  straight_drive:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
+      a movement > Turning into straight-line motion, or back"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  fluid_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
+      cables, air or liquid through > Pump, store or control air or liquid"
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points:
 - kind: content
@@ -338,6 +395,10 @@ Stepper motors: NEMA 17 or NEMA 11 (PLOS ONE), 28BYJ-48 geared stepper with driv
 - ⚑ Finder value `power_source` = electricity, liquid (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
 - ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
+- ⚑ Finder value `straight_drive` = screw (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
+- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `fluid_does` = pump (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
+- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law example).
 
 ## Sources

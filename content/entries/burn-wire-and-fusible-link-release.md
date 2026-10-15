@@ -48,6 +48,47 @@ finder:
   adjustable: 'no'
   removability: semi-permanent
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [lock or hold]
+  also_under: [control, overload]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
@@ -55,6 +96,14 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: stays locked, keeps its last state'
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
+  also_under:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
+      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points: []
 uncertain_fields: [materials, maker_difficulty, making_tips_3d_printing]
@@ -305,6 +354,8 @@ Fire and burns: the wire glows red to orange and reaches over 750 °C (Thurn); i
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_loss` = stays locked (best guess): versions differ: stays locked, keeps its last state
+- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
+- ⚑ Finder value `also_under` = control, overload (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

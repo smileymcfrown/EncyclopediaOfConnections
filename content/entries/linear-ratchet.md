@@ -47,10 +47,59 @@ finder:
   adjustable: 'yes'
   removability: permanent
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: ['strap, cord or rope', parts clamped together]
+  tension_hold: ['ratchet, winch or screw']
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
+  tightens:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
+      or take up slack"
+  tension_hold:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
+      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points:
 - kind: sources
@@ -328,6 +377,8 @@ Cut tails leave sharp edges that can cut hands and cables; cut flush or use a te
 
 - ⚑ 20 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ Finder value `tightens` = strap, cord or rope, parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
+- ⚑ Finder value `tension_hold` = ratchet, winch or screw (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 - ⚑ Research note: *Linear ratchet*: tie-down ratchet straps wind webbing on a spool with a rotary ratchet, so they are not linear ratchets; most quick-grip bar clamps have no teeth and use a tilting binding plate (see *Binding-plate lock*). The entry explains this; the outline description should be updated to match.
 - ⚑ Research note: *Linear ratchet* (8): Wikipedia marks the 2% carbon-black figure for UV-resistant ties 'citation needed' (now noted); the haemostat-style printed clamps are worded neutrally because the Printables descriptions don't say they ratchet. Wikipedia *Cable tie*'s opening names a brand that looks like vandalism; not used. *Shock-corded sectional pole* (152) and *Ratchet tie-down strap* (153) link to *Wire-rope terminations* as weak fits, with reasons that say when they apply.
 

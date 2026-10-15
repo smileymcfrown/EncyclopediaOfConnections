@@ -48,6 +48,47 @@ finder:
   adjustable: partly
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [move or push something]
+  also_under: [not applicable]
+  turns: [part of a turn]
 needs_confirming:
   connects:
     kind: best guess
@@ -62,6 +103,14 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…d known weights or a torque gauge to calibrate the spring''s stiffness
       [uncertain: general practice]…"'
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
+  turns:
+    kind: best guess
+    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
+      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: content
@@ -307,6 +356,8 @@ A loaded spring stores energy: a joint can spring back if a part slips or is rel
 - ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…arbox holds with springy give, a back-drivable one lets the joint sag ⚑ [uncertain]…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
 - ⚑ Finder value `tools` = soldering iron, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…d known weights or a torque gauge to calibrate the spring's stiffness ⚑ [uncertain: general practice]…"
+- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
+- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Series-elastic coupling*: the OpenSEA paper's spring table doesn't add up (0.015 N·m/° × ±20° = 0.3 N·m, not the ±3 N·m it states). The entry quotes ±3 N·m in `load` only; check it.
 
 ## Sources

@@ -49,7 +49,60 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: ['yes']
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [join hoses or pipes]
+  seal_material: [not applicable]
+  hose_join: [screwed]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  carries_fluid:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
+      things together > Tube, rod, pole or aluminium extrusion"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  hose_join:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
+      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: content
@@ -267,6 +320,9 @@ SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rule
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
+- ⚑ Finder value `carries_fluid` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
+- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `hose_join` = screwed (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Flare fitting*: some SAE 45° and JIC/AN 37° sizes share threads, so threads that screw together don't prove the parts match (the entry warns). Copper-nickel brake pipe being easier to flare rests on shop and forum claims ([uncertain]). **Cross-link for the update pass:** *Compression fitting* (210) could cite the DVSA MOT manual rule that ferrule-type compression joints aren't suitable for brake-pipe repairs.
 
 ## Sources

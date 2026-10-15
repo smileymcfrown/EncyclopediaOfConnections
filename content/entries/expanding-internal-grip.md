@@ -53,7 +53,60 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: ['no']
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [machine]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [grip or lift]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  carries_fluid:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
+      things together > Tube, rod, pole or aluminium extrusion"
+  gripped_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
+      together > Something that has to be gripped or clamped"
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points:
 - kind: sources
@@ -309,6 +362,9 @@ A powered inside gripper can drop its part if air pressure or power is lost: 'A 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
+- ⚑ Finder value `gripped_by` = machine (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
+- ⚑ Finder value `powered_does` = grip or lift (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Expanding internal grip*: Birla Precision gives the sleeve expansion range as '0.8 mm (0.32")'; the inch figure looks like a misprint for 0.032 in, and the entry says so. Some safety points (parts thrown from a spinning mandrel) are reasoning without a source and marked [uncertain].
 
 ## Sources

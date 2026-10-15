@@ -60,7 +60,60 @@ finder:
   adjustable: 'no'
   removability: tool-free quick release
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: ['yes']
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [join hoses or pipes]
+  seal_material: [not applicable]
+  hose_join: ['pushed, clamped or clicked']
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  carries_fluid:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
+      things together > Tube, rod, pole or aluminium extrusion"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  hose_join:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
+      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: sources
@@ -326,6 +379,9 @@ Always release the pressure before disconnecting (John Guest via US Plastic; SMC
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ Finder value `carries_fluid` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
+- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `hose_join` = pushed, clamped or clicked (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Quick couplers* (166): the RCT thumb-latch rating (-40 to +80 °C, 6.9 bar per line) is for one twin-tube product and is labelled so; the CPC alias comes from a vendor page (Fresh Water Systems), not Colder Products' own site.
 
 ## Sources

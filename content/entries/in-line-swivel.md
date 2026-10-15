@@ -48,10 +48,63 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [a fitted part]
+  knot_use: [not applicable]
+  cord_part: ['hook, link or swivel']
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [full turns]
 needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
+  cord_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
+      > Strap, cord, rope or fabric"
+  cord_part:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
+      together > Strap, cord, rope or fabric > Fit a part"
+  turns:
+    kind: best guess
+    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
+      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: content
@@ -309,6 +362,9 @@ A swivel can be the weakest link in a line: Wikipedia says 'the biggest concern 
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ Finder value `cord_part` = hook, link or swivel (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
+- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *In-line swivel*: fishing-swivel strengths from Talk Sea Fishing and British Sea Fishing recorded side by side; Crosby G-402 swivels 'are not intended to rotate under load' (quoted by a retailer, Defender) and its 5/8 in figures (5,200 lb working load, 26,000 lb break) come from a seller (Fastenersplus); the hardware-store swivel data sheet read (Koelner T-OOK) gives no load rating. The alias 'box swivel' has no opened source ([uncertain]); the Seabreeze article the scope search used returned 403, so fishing guides were used instead.
 
 ## Sources

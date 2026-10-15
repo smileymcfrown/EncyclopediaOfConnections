@@ -44,6 +44,47 @@ finder:
   adjustable: 'no'
   removability: permanent
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [folds like a hinge]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [flip between positions]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [control]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
@@ -60,6 +101,18 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch);
       squeezing handles -> c..."'
+  flex_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
+      something move > Bend or flex"
+  over_centre_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
+      > Snap past a point and stay there"
+  also_under:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
+      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, maker_difficulty, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -300,6 +353,9 @@ None known for small demos. Do not use a printed plastic latch or combination lo
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
+- ⚑ Finder value `flex_does` = folds like a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
+- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
+- ⚑ Finder value `also_under` = control (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

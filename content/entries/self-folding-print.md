@@ -45,6 +45,47 @@ finder:
   adjustable: 'no'
   removability: permanent
   power: powered
+  printed_take_apart: [made as fabric or a folding sheet]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [folds like a hinge]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [move or push something]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -56,6 +97,18 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ts; a bowl of water for PVA-lock prints; tongs to handle the hot
       part [uncertain]…"'
+  printed_take_apart:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
+      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+  flex_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
+      something move > Bend or flex"
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points: []
 uncertain_fields: [power, reuse_cycles, tools_needed, making_tips_3d_printing, off_the_shelf_parts, everyday_examples, environment_limits,
@@ -298,6 +351,9 @@ Hot water at 70 to 85 degrees C and heat guns can scald or burn, so use tongs an
 - ⚑ Finder value `power_source` = liquid, heat (source uncertain): `power` is marked ⚑ [uncertain] here: "…n out of the hot water early it keeps the partial fold it has reached ⚑ [uncertain]…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `tools` = heat gun (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ts; a bowl of water for PVA-lock prints; tongs to handle the hot part ⚑ [uncertain]…"
+- ⚑ Finder value `printed_take_apart` = made as fabric or a folding sheet (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ Finder value `flex_does` = folds like a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
+- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

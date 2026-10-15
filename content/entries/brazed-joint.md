@@ -55,7 +55,64 @@ finder:
   adjustable: 'no'
   removability: permanent
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [metal]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [seal a still joint, join hoses or pipes]
+  seal_material: [metal]
+  hose_join: [fused or brazed]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  weld_material:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
+      things together > Melt them together"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  seal_material:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
+      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+  hose_join:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
+      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: content
@@ -288,6 +345,10 @@ CADMIUM: older silver solders contained 16-25% cadmium; heated above 320 °C it 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
+- ⚑ Finder value `weld_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
+- ⚑ Finder value `seal_use` = seal a still joint, join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `seal_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+- ⚑ Finder value `hose_join` = fused or brazed (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Brazed joint*: the joint gap differs at the wide end (Wikipedia 0.03-0.08 mm; Lucas-Milhaupt 0.001-0.005 in), both recorded; no real printable brazing models exist, so `make_it_yourself` has only a rod-case divider and a torch stand.
 
 ## Sources

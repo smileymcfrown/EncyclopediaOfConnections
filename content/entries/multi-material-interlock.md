@@ -44,10 +44,64 @@ finder:
   adjustable: 'no'
   removability: permanent
   power: passive
+  printed_take_apart: ['no']
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [catch or lever]
+  locks_out: ['yes']
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   tools:
     kind: best guess
     reason: no tool named in `tools_needed`; defaulted to hand tools
+  printed_take_apart:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
+      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+  opens_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
+      together > A lid, door or cover that opens and closes"
+  locks_out:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
+      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
+      or lever"
 confirmed: []
 open_points:
 - kind: content
@@ -274,6 +328,9 @@ None known specific to the joint. Normal printer precautions apply: hot nozzles 
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (best guess): no tool named in `tools_needed`; defaulted to hand tools
+- ⚑ Finder value `printed_take_apart` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ Finder value `locks_out` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
 - ⚑ Research note: *Multi-material interlock*: which plastics bond (Bambu: TPU and PETG bond easily, TPU and PLA poorly; UltiMaker: CPE and TPU incompatible). UltiMaker's "only limited by the weakest material" overstates it: Kuipers et al. give an upper bound of 1/(1/σA + 1/σB).
 
 ## Sources

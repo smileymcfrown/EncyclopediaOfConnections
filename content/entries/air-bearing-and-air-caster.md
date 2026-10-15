@@ -46,6 +46,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [grip or lift]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_loss:
     kind: best guess
@@ -54,6 +95,10 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts)
       [uncertain]. DIY builds: a hand drill wi…"'
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points:
 - kind: content
@@ -313,6 +358,7 @@ Porous carbon flat round and rectangular air bearings, air bushings (porous bron
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill wi…"
+- ⚑ Finder value `powered_does` = grip or lift (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address; the entry credits the name only.
 
 ## Sources

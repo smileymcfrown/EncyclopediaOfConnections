@@ -59,6 +59,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [parts clamped together]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
@@ -79,6 +120,10 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…for clearance and pilot holes, and a tap to thread a hole for a
       stud [uncertain]. A ruler or a cut-to-length…"'
+  tightens:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
+      or take up slack"
 confirmed: []
 open_points:
 - kind: content
@@ -352,6 +397,7 @@ Plain zinc-plated hardware-store rod is usually a low-strength grade, and unmark
 - ⚑ Finder value `motion_out` = straight push or pull (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain])…"
 - ⚑ Finder value `shaft_layout` = not applicable (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain])…"
 - ⚑ Finder value `tools` = drill and tap, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…for clearance and pilot holes, and a tap to thread a hole for a stud ⚑ [uncertain]. A ruler or a cut-to-length…"
+- ⚑ Finder value `tightens` = parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 - ⚑ Research note: *Threaded rod and studs*: 15 of 41 fields are marked [uncertain] (the M8 example load is calculated; the 'studding' alias, the stud-wear argument and rod being weak in bending have no opened source; the AISC article and forum pages were blocked), so check it first. The agent also added the adjusters family to `other_families`.
 
 ## Sources

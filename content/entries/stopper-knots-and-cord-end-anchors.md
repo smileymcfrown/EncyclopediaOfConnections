@@ -50,11 +50,68 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [knots]
+  knot_use: [stop or finish an end]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: ['strap, cord or rope']
+  tension_hold: [friction grip]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "3d print (fdm): holes, knot pockets, end"; knots family, so set to by hand (tied or
       wrapped)'
+  cord_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
+      > Strap, cord, rope or fabric"
+  knot_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
+      together > Strap, cord, rope or fabric > Tie, splice or lash it"
+  tightens:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
+      or take up slack"
+  tension_hold:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
+      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points:
 - kind: content
@@ -328,6 +385,10 @@ Never trust a home-made knot, crimp or printed anchor to hold a person. 'Handle 
 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "3d print (fdm): holes, knot pockets, end"; knots family, so set to by hand (tied or wrapped)
+- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ Finder value `knot_use` = stop or finish an end (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
+- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
+- ⚑ Finder value `tension_hold` = friction grip (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 - ⚑ Research note: *Stopper knots and cord-end anchors*: knot strength recorded side by side (Animated Knots 'at most 50%'; Yachting Monthly 2015 tests at Marlow Ropes, an overhand knot cut Dyneema and polyester braid to 35%). The figure-eight has three ABOK numbers in Wikipedia (#570, #420, #520).
 
 ## Sources

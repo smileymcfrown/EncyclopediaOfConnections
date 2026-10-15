@@ -62,10 +62,55 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [twist]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   load_max:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "…ame size and material, because the special shape is only in the drive [uncertain…"'
+  opens_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
+      together > A lid, door or cover that opens and closes"
 confirmed: []
 open_points:
 - kind: content
@@ -327,6 +372,7 @@ Button and coin cells are a serious swallowing hazard for children; in the USA p
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = heavy (source uncertain): `load` is marked ⚑ [uncertain] here: "…ame size and material, because the special shape is only in the drive ⚑ [uncertain…"
+- ⚑ Finder value `opens_by` = twist (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
 - ⚑ Research note: *Tamper-resistant fasteners*: Wikipedia *Torx* says a small flat screwdriver can turn a pin-in Torx between its lobes; *List of screw drives* says the pin prevents this. Both recorded. No source compares a security screw's strength with a plain screw's ([uncertain]).
 
 ## Sources

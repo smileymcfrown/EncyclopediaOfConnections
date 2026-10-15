@@ -49,6 +49,47 @@ finder:
   adjustable: 'yes'
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [by hand]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [clamp or latch]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -59,6 +100,14 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: both sides turn, but no shaft layout named
+  gripped_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
+      together > Something that has to be gripped or clamped"
+  over_centre_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
+      > Snap past a point and stay there"
 confirmed: []
 open_points:
 - kind: sources
@@ -324,6 +373,8 @@ Pinch points: keep fingers out of the linkage and from under the spindle while c
 - ⚑ Finder value `motion_in` = back-and-forth turning (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `motion_out` = back-and-forth turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named
+- ⚑ Finder value `gripped_by` = by hand (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
+- ⚑ Finder value `over_centre_use` = clamp or latch (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

@@ -56,7 +56,61 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
-needs_confirming: {}
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [part onto a shaft, shaft to shaft]
+  printable: ['no']
+  shaft_alignment: [exactly in line]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+needs_confirming:
+  shaft_joint:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
+      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
+  printable:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the
+      shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear,
+      pulley or arm onto a shaft"
+  shaft_alignment:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold
+      two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
 confirmed: []
 open_points:
 - kind: content
@@ -324,6 +378,9 @@ Rotating shafts, collars and couplings can catch hair, clothing and gloves; proj
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
+- ⚑ Finder value `shaft_joint` = part onto a shaft, shaft to shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
+- ⚑ Finder value `printable` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft"
+- ⚑ Finder value `shaft_alignment` = exactly in line (best guess): carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
 - ⚑ Research note: *Shaft-to-hub joints* (266): forum replies disagree on whether welding current harms a motor; brazing a hub on has no opened source, so it is only a cross-link.
 
 ## Sources

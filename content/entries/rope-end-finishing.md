@@ -53,10 +53,59 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [knots]
+  knot_use: [stop or finish an end, loop or tension]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
+  cord_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
+      > Strap, cord, rope or fabric"
+  knot_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
+      together > Strap, cord, rope or fabric > Tie, splice or lash it"
 confirmed: []
 open_points:
 - kind: content
@@ -331,6 +380,8 @@ Burns: flames, hot knives and soldering irons burn, and molten nylon is hot and 
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
+- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ Finder value `knot_use` = stop or finish an end, loop or tension (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
 - ⚑ Research note: *Rope-end finishing*: recorded side by side: the common whipping's ABOK number (#3443 Animated Knots, #3442 Wikipedia); whipping width (about one rope diameter, Ashley via Wikipedia and Animated Knots, against 1.5 diameters, Wikipedia *Common whipping* and premiumropes); melt or whip synthetic rope (Wikipedia *Common whipping* says fuse; Animated Knots and Budworth say a whipping is better). One liquid whipping product carries a California Prop 65 warning.
 
 ## Sources

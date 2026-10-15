@@ -50,6 +50,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [brake]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [full turns]
 needs_confirming:
   print_in_place:
     kind: source uncertain
@@ -62,6 +103,14 @@ needs_confirming:
     kind: source uncertain
     reason: '`processes` is marked [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts
       [uncertain: no tested printable model of…"'
+  slows_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
+      > Slow it down, stop it, or keep its speed steady"
+  turns:
+    kind: best guess
+    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
+      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: sources
@@ -286,6 +335,8 @@ The stop takes the whole motor torque and the turret's momentum at once; a weak 
 - ⚑ Finder value `print_in_place` = no (source uncertain): `print_in_place` is marked ⚑ [uncertain] here: "no ⚑ [uncertain]:…"
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…r for clock and watch stop work; none for push-together printed rings ⚑ [uncertain]…"
 - ⚑ Finder value `usual_process` = 3D print (FDM) (source uncertain): `processes` is marked ⚑ [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts ⚑ [uncertain: no tested printable model of…"
+- ⚑ Finder value `slows_by` = brake (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
+- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Multi-turn rotation limiter*: what clock stop work is for. Wikipedia says it keeps the mainspring in the flat middle of its torque curve; Vintage Watch Straps calls that a myth (it stops over-winding). The entry gives only the over-winding reason; decide whether to mention both.
 
 ## Sources

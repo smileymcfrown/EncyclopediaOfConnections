@@ -46,6 +46,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [twist or wind]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [full turns]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
@@ -59,6 +100,14 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  spring_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
+      or store energy"
+  turns:
+    kind: best guess
+    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
+      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts, everyday_examples,
@@ -302,6 +351,8 @@ The rolling faces close together like a pinch point, so keep fingers out of larg
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `spring_kind` = twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
+- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

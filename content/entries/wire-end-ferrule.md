@@ -48,10 +48,59 @@ finder:
   adjustable: 'no'
   removability: permanent
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [to a board or terminal]
+  plugs_in: ['no']
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  wire_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
+      or power"
+  plugs_in:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires
+      or power > A wire to a board, terminal or device"
 confirmed: []
 open_points:
 - kind: content
@@ -292,6 +341,8 @@ Splayed strands make a poor, hot joint: fewer strands touch the terminal, the re
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Finder value `wire_use` = to a board or terminal (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ Finder value `plugs_in` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ Research note: *Wire-end ferrule*: two colour codes recorded side by side from Weidmüller's sheet (DIN: 0.5 mm² white, 0.75 grey, 1.0 red, 1.5 black; Weidmüller's own: 0.5 orange, 0.75 white, 1.0 yellow, 1.5 red; only 2.5 mm² blue and 4 mm² grey agree). Hackaday's claim that CE-marked equipment must use ferrules was not checked against the standards ([uncertain]).
 
 ## Sources

@@ -52,6 +52,47 @@ finder:
   adjustable: 'yes'
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [by hand]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [a load]
+  over_centre_use: [clamp or latch]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   motion_in:
     kind: source uncertain
@@ -69,6 +110,18 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ud or to adjust the tension screw on some other pole and tripod
       locks [uncertain]…"'
+  gripped_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
+      together > Something that has to be gripped or clamped"
+  holds_for:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
+      > Stay where I leave it, and let go when I release it > Turns"
+  over_centre_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
+      > Snap past a point and stay there"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes,
@@ -313,6 +366,9 @@ A bike quick release that is left open, or closed like a wing nut without real c
 - ⚑ Finder value `motion_out` = straight push or pull (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli ⚑ [uncertain])…"
 - ⚑ Finder value `shaft_layout` = not applicable (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli ⚑ [uncertain])…"
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ud or to adjust the tension screw on some other pole and tripod locks ⚑ [uncertain]…"
+- ⚑ Finder value `gripped_by` = by hand (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
+- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
+- ⚑ Finder value `over_centre_use` = clamp or latch (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

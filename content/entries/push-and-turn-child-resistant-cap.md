@@ -45,6 +45,47 @@ finder:
   adjustable: 'no'
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [clicks]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
@@ -61,6 +102,10 @@ needs_confirming:
     kind: best guess
     reason: 'no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close
       drives ..."'
+  one_way_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
+      > Move one way only > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [motion, reuse_cycles, seal, processes, print_in_place, making_tips_3d_printing, environment_limits, links]
@@ -284,6 +329,7 @@ It slows children down; it does not make a container safe. Many poisonings happe
 - ⚑ Finder value `motion_in` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
+- ⚑ Finder value `one_way_kind` = clicks (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
 
 ## Sources
 

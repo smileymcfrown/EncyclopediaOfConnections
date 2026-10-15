@@ -50,6 +50,47 @@ finder:
   adjustable: partly
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [pump or control a flow]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [pump]
+  powered_does: [pump or control a flow]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_loss:
     kind: best guess
@@ -57,6 +98,18 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  fluid_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
+      cables, air or liquid through > Pump, store or control air or liquid"
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points:
 - kind: content
@@ -338,6 +391,9 @@ External gear pumps and hydraulic gear motors (single or double direction, alumi
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
+- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `fluid_does` = pump (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
+- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: Items 316-323 (researched after the pause): printed gear pumps disagree on priming (Printables 277351 "needs to be primed"; 286142 and 1534241 say they prime themselves); gear-pump efficiency (Wikipedia *Gear pump* "generally very efficient" vs *Hydraulic pump* lowest volumetric efficiency, about 90%); air-caster air-film thickness (AeroGo 0.003-0.005 in, Wikipedia "less than a millimeter", Airfloat "approximately a millimeter"); BS 1212 Part 2 float valve (DIY Doctor: plastic Part 1 valve; Squote, APM and the BSI listing: brass diaphragm valve). CNC Cookbook's claim that sliding a part on a vacuum table takes at least twice the lifting force contradicts Mekanika's friction figure and was left out.
 
 ## Sources

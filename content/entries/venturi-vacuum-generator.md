@@ -51,10 +51,55 @@ finder:
   adjustable: 'yes'
   removability: tool-free quick release
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [pump or control a flow]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_source:
     kind: best guess
     reason: '`power` names several power sources, and not all may apply'
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points:
 - kind: content
@@ -304,6 +349,7 @@ Noise: air ejectors are loud (about 71-72 dB(A) for a small one with a silencer;
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
+- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Venturi vacuum generator*: throat and diffuser proportions come from one maker's model description and are marked [uncertain]; a "300 mbar" figure is labelled as a maker's claim.
 
 ## Sources

@@ -57,11 +57,64 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [sheet metal or plastic]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [knots]
+  knot_use: [loop or tension]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope or cord, tied b"; knots family, so set to by hand (tied or
       wrapped)'
+  sheet_material:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
+      things together > Boards, panels or sheet > No, never"
+  cord_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
+      > Strap, cord, rope or fabric"
+  knot_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
+      together > Strap, cord, rope or fabric > Tie, splice or lash it"
 confirmed: []
 open_points:
 - kind: content
@@ -328,6 +381,9 @@ A home-made knot must never hold a person: for anything that holds a person, use
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope or cord, tied b"; knots family, so set to by hand (tied or wrapped)
+- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ Finder value `knot_use` = loop or tension (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
 - ⚑ Research note: *Fixed loop knots*: Šimon et al. 2020 (*Acta Physica Polonica A*) give the force that opens a bowline when its loop is pulled apart from inside as about 1.95 kN, against about 10.8 kN for the left-hand bowline.
 
 ## Sources

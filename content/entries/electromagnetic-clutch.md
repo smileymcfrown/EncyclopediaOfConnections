@@ -44,6 +44,47 @@ finder:
   adjustable: partly
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [brake or engage]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
@@ -51,6 +92,10 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, when_not_to_use, safety_notes]
@@ -313,6 +358,7 @@ Rotating shafts, pulleys and belts are entanglement and pinch hazards even when 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `powered_does` = brake or engage (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

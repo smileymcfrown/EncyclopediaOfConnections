@@ -50,11 +50,60 @@ finder:
   adjustable: 'no'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [changes speed or splits]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [full turns]
 needs_confirming:
   adjustable:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled
       [uncertain]).…"'
+  drive_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
+      move > Spin round and round > A shaft driving another shaft"
+  turns:
+    kind: best guess
+    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
+      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, seal, load, adjustable, processes, print_in_place, making_tips_3d_printing, when_not_to_use,
@@ -349,6 +398,8 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled ⚑ [uncertain]).…"
+- ⚑ Finder value `drive_does` = changes speed or splits (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
+- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

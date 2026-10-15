@@ -56,10 +56,63 @@ finder:
   adjustable: 'no'
   removability: semi-permanent
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [metal]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [join hoses or pipes]
+  seal_material: [not applicable]
+  hose_join: [fused or brazed]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   electrical_band:
     kind: best guess
     reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
+  weld_material:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
+      things together > Melt them together"
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  hose_join:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
+      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: content
@@ -307,6 +360,9 @@ FLUX FUMES: rosin-based flux fume 'is a top cause of occupational asthma'; use f
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
+- ⚑ Finder value `weld_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
+- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `hose_join` = fused or brazed (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Soldered metal joint*: the US lead-solder ban for drinking water is dated 1974 by Wikipedia and to the 1986 amendment by the Copper Development Association, both recorded; the trade name 'killed spirits' has no opened source ([uncertain]). copper.org, blocked during the scope search, opened this time (*Copper Tube Handbook*, 2026 PDF).
 
 ## Sources

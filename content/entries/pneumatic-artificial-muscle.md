@@ -47,6 +47,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: powered
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [move or push something]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   power_source:
     kind: best guess
@@ -54,6 +95,10 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, keeps its last state'
+  powered_does:
+    kind: best guess
+    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
+      power"
 confirmed: []
 open_points:
 - kind: sources
@@ -318,6 +363,7 @@ Stored air pressure is the main hazard. Over-inflation shortens a muscle's life 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
+- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Pneumatic artificial muscle*: invention date (Wikipedia 1957; Wikibooks: Gaylord's 1957 patent; Bennington et al. 2023: 1930s-40s, made popular by McKibben in the 1950s); maximum contraction (Festo 25%, Shadow 35-37%, Osaka group 30% in its README but about 25% in its HardwareX test); twisting (Shadow: tolerated; Festo: forbidden, about 1° misalignment).
 
 ## Sources

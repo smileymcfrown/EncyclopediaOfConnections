@@ -43,6 +43,47 @@ finder:
   adjustable: 'yes'
   removability: removable
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [set and hold]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   motion:
     kind: source uncertain
@@ -51,6 +92,10 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
+  adjusts:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly,
+      or adjust and level them"
 confirmed: []
 open_points: []
 uncertain_fields: [motion, play_and_precision, making_tips_3d_printing, environment_limits]
@@ -307,6 +352,7 @@ Belt and chain drives trap fingers, hair and clothing: switch off and unplug bef
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `motion` = slide (source uncertain): `motion` is marked ⚑ [uncertain] here: "…length of the slot (typically a few millimetres to a few centimetres) ⚑ [uncertain:…"
 - ⚑ Finder value `connects` = wall, rail, desk or grid (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `adjusts` = set and hold (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 
 ## Sources
 

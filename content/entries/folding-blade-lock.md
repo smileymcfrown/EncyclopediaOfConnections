@@ -46,10 +46,68 @@ finder:
   adjustable: partly
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [catch or lever]
+  locks_out: ['yes']
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [hold a set position]
+  holds_for: [a load]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
+  opens_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
+      together > A lid, door or cover that opens and closes"
+  locks_out:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
+      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
+      or lever"
+  clicks_do:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
+      a movement > Click into set positions > Turns"
+  holds_for:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
+      > Stay where I leave it, and let go when I release it > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [motion, load, making_tips_3d_printing, environment_limits]
@@ -324,6 +382,10 @@ A sharp blade folding onto your fingers is the main hazard. When closing a liner
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
+- ⚑ Finder value `locks_out` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
+- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
+- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 
 ## Sources
 

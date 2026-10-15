@@ -50,6 +50,47 @@ finder:
   adjustable: partly
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [by hand]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [a load]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -63,6 +104,14 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output:
       horizontal squeeze at..."'
+  gripped_by:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
+      together > Something that has to be gripped or clamped"
+  holds_for:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
+      > Stay where I leave it, and let go when I release it > Turns"
 confirmed: []
 open_points:
 - kind: sources
@@ -274,6 +323,8 @@ A dropped load can kill: 'The wrong application or improper use of a tong can ca
 - ⚑ Finder value `motion_in` = straight push or pull (best guess): could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
+- ⚑ Finder value `gripped_by` = by hand (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
+- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 - ⚑ Research note: *Weight-activated gripping tongs*: "a grip ratio of 2 needs a friction coefficient above 0.25" is the agent's own calculation from Bushman's equations, labelled [derived]; check it.
 
 ## Sources

@@ -49,6 +49,47 @@ finder:
   adjustable: 'no'
   removability: tool-free quick release
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [grips or snaps]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [flip between positions]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [twist or wind]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   connects:
     kind: best guess
@@ -56,6 +97,18 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+  flex_does:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
+      something move > Bend or flex"
+  over_centre_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
+      > Snap past a point and stay there"
+  spring_kind:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
+      or store energy"
 confirmed: []
 open_points:
 - kind: sources
@@ -312,6 +365,9 @@ The snap releases stored energy suddenly, so a large or stiff one can pinch fing
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ Finder value `flex_does` = grips or snaps (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
+- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
+- ⚑ Finder value `spring_kind` = twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 
 ## Sources
 

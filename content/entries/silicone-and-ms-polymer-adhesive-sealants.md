@@ -53,6 +53,47 @@ finder:
   adjustable: partly
   removability: semi-permanent
   power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [seal a still joint, seal a moving shaft]
+  seal_material: ['plastic, fabric or a gap']
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -62,6 +103,14 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests
       [uncertain]; test first.…"'
+  seal_use:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
+      cables, air or liquid through"
+  seal_material:
+    kind: best guess
+    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
+      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [materials, making_tips_3d_printing, safety_notes, reuse_cycles]
@@ -305,6 +354,8 @@ Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates e
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, silicone, acrylic or polycarbonate, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests ⚑ [uncertain]; test first.…"
 - ⚑ Finder value `bonds_poorly` = PLA, slippery plastics (PE or PP), PVC, wood, rubber (source uncertain): `materials` is marked ⚑ [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests ⚑ [uncertain]; test first.…"
+- ⚑ Finder value `seal_use` = seal a still joint, seal a moving shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
+- ⚑ Finder value `seal_material` = plastic, fabric or a gap (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 
 ## Sources
 
