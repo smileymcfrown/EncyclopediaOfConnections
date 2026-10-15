@@ -4,6 +4,7 @@
 <defs>
 <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
 <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
 </defs>
 <g stroke-linejoin="round" stroke-linecap="round">
 <rect x="60" y="260" width="300" height="130" rx="40" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
@@ -20,10 +21,9 @@
 <line x1="480" y1="330" x2="770" y2="330" stroke="#222" stroke-width="3" marker-end="url(#ak)"/><line x1="480" y1="330" x2="480" y2="140" stroke="#222" stroke-width="3" marker-end="url(#ak)"/>
 <line x1="666.7" y1="330" x2="666.7" y2="150" stroke="#bbbbbb" stroke-width="2" stroke-dasharray="6 5"/>
 <polyline points="623.1,330 666.7,330 666.7,160 623.1,160 623.1,330" fill="none" stroke="#222" stroke-width="3" stroke-dasharray="9 7"/>
-<polyline points="579.6,330 666.7,330 691.6,160 629.3,228 567.1,330 579.6,330" fill="none" stroke="#d1495b" stroke-width="5"/>
+<polyline points="579.6,330 666.7,330 728.9,160 648,228 567.1,330 579.6,330" fill="none" stroke="#d1495b" stroke-width="5"/>
 <circle cx="579.6" cy="330" r="8" fill="#ffffff" stroke="#222" stroke-width="3"></circle>
 </g>
-<defs><marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
 <g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
 <text x="218" y="124" text-anchor="end">spring holds</text><text x="218" y="146" text-anchor="end">the disc shut</text>
 <text x="92" y="200" text-anchor="end">gauge</text>
