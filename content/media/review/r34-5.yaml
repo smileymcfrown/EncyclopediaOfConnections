@@ -1,0 +1,69 @@
+anti-backlash-gear:
+  photos: []
+  note: only ordinary gears, clockworks and unrelated photos (chatelaines, caves) were found; no split spring-loaded gear
+captive-nut-pocket:
+  photos:
+    - candidate: 8
+      kind: photo
+      alt: Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can't turn
+  note: '#6 (a printed nut-trap block) was left out because the pocket shape is not clear at this size'
+compliant-one-piece-latch:
+  photos: []
+  note: only a spacecraft docking ring and a moulded car console latch whose springy hook can't be seen
+exact-constraint-mounting:
+  photos:
+    - candidate: 1
+      kind: how-it-works
+      alt: A metal block held in a milling-machine vice, pressed against the fixed jaw and a parallel bar with a stop rod touching its end, so it sits in the same place every time
+  note: a machinist's vice set-up using reference faces and an end stop (French 'isostatic' mounting), not a true point-contact kinematic mount
+friction-clutch:
+  photos:
+    - candidate: 25
+      kind: how-it-works
+      alt: A car engine on a display stand with its clutch pulled apart, showing the toothed flywheel, the friction disc and the pressure plate that squeezes it
+    - candidate: 37
+      kind: photo
+      alt: A new car clutch disc held in a hand, with a ring of friction lining around the edge, coil springs in the middle and a splined hole for the gearbox shaft
+half-nut:
+  photos: []
+  note: only food, nut trees, a nut splitter, windlasses and patent pages; no split nut on a lead screw
+invisible-barrel-hinge:
+  photos: []
+  note: '#1 is a slotted sliding-arm box hinge and #2 a cup (Euro) cabinet hinge, both different from a Soss or barrel hinge'
+ladder-lock-buckle:
+  photos:
+    - candidate: 12
+      kind: photo
+      alt: A black plastic ladder lock buckle on a backpack strap, the webbing woven over and under its bars
+magnetic-assisted-buckle:
+  photos: []
+  note: only a magnetic bag snap and a backpack with a hidden magnet behind a pin buckle; no magnet-guided buckle with a catch
+multi-stage-slide-rigging:
+  photos: []
+  note: only lifts, funiculars, cascades and snow scenes; no nested slides with pulleys
+push-in-plastic-rivet:
+  photos:
+    - candidate: 10
+      kind: photo
+      alt: Two black push-in plastic plugs, each with a round head and a ribbed shank whose fins grip inside a drilled hole
+  note: the parts are RFID tags made as push-in plastic rivets for bins, not trim rivets, though they work the same way
+rigid-chain-actuator:
+  photos: []
+  note: only unrelated photos and a chain-rammer patent drawing
+shear-pin-coupling:
+  photos:
+    - candidate: 7
+      kind: photo
+      alt: A steel shear bolt and nut, its plain shank bent out of line where it took an overload meant to protect the machine
+  note: the bolt is bent rather than snapped; '#6 (a sprocket with sheared bolts) looks like an accidental failure, so it was left out'
+spring-button-lock:
+  photos:
+    - candidate: 7
+      kind: photo
+      alt: A spread of V-shaped and U-shaped spring-steel snap buttons, each bent strip carrying a small round button that pops out through a tube's hole
+t-slot-joint:
+  photos: []
+  note: only a canyon trail and patent drawings
+twisted-string-actuator:
+  photos: []
+  note: only twisted-pair cable charts, circuit boards and unrelated photos

@@ -1,0 +1,81 @@
+air-logic-valve:
+  photos: []
+  note: only an instrument-room photo, simulations, diagrams and unrelated photos were found
+binding-plate-lock:
+  photos: []
+  note: all candidates are name matches (cant plates, people called Cant, buildings), none show the part
+clip-on-concealed-hinge:
+  photos:
+    - candidate: 6
+      kind: how-it-works
+      alt: A screwdriver turning one of the adjusting screws on a metal cup hinge fitted to a wooden cabinet door
+    - candidate: 7
+      kind: photo
+      alt: A metal cup hinge on an open wooden cabinet door, its folding arm running from the cup in the door to the plate on the cabinet side
+  note: the Euro hinge photos do not show for certain that the arm is the clip-on type rather than screw-on; slide-on (#3) and key-hole (#4) were left out
+detent-hinge:
+  photos: []
+  note: only ordinary hinges, patents and a small see-through LEGO click-hinge render (#20) were found
+float-valve:
+  photos:
+    - candidate: 2
+      kind: how-it-works
+      alt: An old black-and-white photo of a float hanging on a rod in a water tank, the rod running up to the valve that keeps the water level steady
+  note: grainy archive photo and the float is an odd shape; carburettor needle-valve parts (#1) left out as not the tank kind
+geneva-drive:
+  photos:
+    - candidate: 13
+      kind: photo
+      alt: A steel four-slotted Geneva driven wheel on its shaft, with the drive roller, taken from an old film projector
+    - candidate: 28
+      kind: how-it-works
+      alt: A 3D render of a printable Geneva drive, a pin wheel next to the star-shaped wheel it turns one step at a time
+  note: '#28 is a simple CAD-style render; #26 (real printed parts, laid out separately) is the fallback'
+housing-and-rebate-joints:
+  photos: []
+  note: candidates are Pluto images, buildings and a bridle joint, none show a housing or rebate
+kinematic-coupling:
+  photos: []
+  note: kinematic mirror mounts (#6-#9) were found but their balls and grooves are hidden, so the coupling cannot be seen
+load-bearing-stitch-patterns-for-straps-and-webbing:
+  photos: []
+  note: only old leather boxes and union banners; no bar tacks or box-X stitching visible
+mechanical-metamaterial-mechanism:
+  photos: []
+  note: only a chart and steel cellular beams in buildings were found
+planetary-gear-set:
+  photos:
+    - candidate: 8
+      kind: cross-section
+      alt: A cut-away reduction gearbox at a trade show, opened to show planet gears on their carrier meshing inside a toothed outer ring gear
+  note: the 3D-print renders (#28-#36) show single loose parts, not a gear set
+quick-release-hooks:
+  photos: []
+  note: most candidates are pelicans; the two navy pelican-hook photos show the hook too small (#2) or hidden by hands (#5)
+self-tapping-screw-into-plastic:
+  photos:
+    - candidate: 5
+      kind: photo
+      alt: A zinc-plated self-tapping screw with a wide washer head, a cross-shaped drive and a sharp, coarse thread down to a point
+  note: this is a general sheet-metal self-tapper, not a plastics screw with the wider thread; the entry lists it as the same idea
+snap-pin:
+  photos: []
+  note: only circlips, birds (pintail snipe), push pins and an unrelated printed clip were found
+swashplate-and-wobble-plate:
+  photos:
+    - candidate: 16
+      kind: cross-section
+      alt: A cut-away render of a slanted swashplate in a round housing, with plungers resting on it that rise and fall as it turns
+    - candidate: 19
+      kind: photo
+      alt: The rotor head of a radio-controlled helicopter, with the swashplate ring on the mast and the links from it up to the blade grips
+  note: '#16 is a render, not a photo; in #19 the swashplate is only a modest part of the frame (#14, a museum Ka-26 swashplate, is the alternative)'
+threadless-ball-screw:
+  photos: []
+  note: only cars, an old IBM computer and a mangle were found
+wave-and-disc-springs:
+  photos:
+    - candidate: 5
+      kind: photo
+      alt: Three disc springs (Belleville washers) on a grey surface, two with a dark rubber backing and one plain steel
+  note: seen from above, so the cone shape is not obvious; no wave spring photo was found
