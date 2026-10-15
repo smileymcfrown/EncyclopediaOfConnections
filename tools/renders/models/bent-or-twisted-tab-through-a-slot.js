@@ -31,12 +31,12 @@ function foldedTab(K, m, y0, len) {
     const a = (Math.PI / 2) * (1 + i / 8);
     pts.push([T / 2 + T * Math.cos(a), y0 + T * Math.sin(a)]);
   }
-  return K.group(at(extrude(pts, TW, m, { bevel: 0.08 }), [0, 0, 0], [0, -90, 0]));
+  return K.group(at(extrude(pts, TW, m, { bevel: 0.08 }), [0, 0, 0], [0, 90, 0]));
 }
 
 export default {
   alt: 'Render of a bent-tab and twist-tab joint: a steel sheet stands on edge under a blue painted metal sheet, and three tabs on its top edge come up through slots in the blue sheet; the first is just pushed through, the second is twisted a quarter turn and the third is folded flat, so neither of those two can pull back out.',
-  view: { dir: [0.42, 0.6, 1.2], fill: 1.12, target: [0, 2, 0], light: [-0.5, 1, 0.7] },
+  view: { dir: [0.85, 0.75, 1.1], fill: 1.1, target: [0, 2, 0], light: [-0.5, 1, 0.7] },
   build(K) {
     const { group, at, extrude, mat } = K;
     const steel = mat.zinc(), tin = mat.paint(0x2f62a8);

@@ -4,7 +4,7 @@
 const T = 3, H = 40, L = 110, SLOT = 3.1;
 
 function plywood(K) {
-  const face = K.mat.wood('#dcc095', '#b8935e');
+  const face = K.mat.wood('#cfa972', '#9c7140');
   const edge = K.mat.wood('#6b4a2c', '#4a321d');   // laser-burnt cut edge
   return [face, edge];
 }
@@ -18,14 +18,14 @@ function piece(K, fromTop, [face, edge]) {
   const m = extrude(pts, T, face, { bevel: 0 });
   // scale the texture to the piece and give the cut edges their burnt colour
   const uv = m.geometry.attributes.uv;
-  for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) / 140, uv.getY(i) / 140);
+  for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getY(i) / 90 + 0.3, uv.getX(i) / 160);
   m.material = [face, edge];
   return m;
 }
 
 export default {
   alt: 'Render of a cross-halving slot joint: two laser-cut plywood strips, one slotted halfway down from the top and one halfway up from the bottom, pushed into each other to stand as a flush cross; a third strip lies flat beside them showing its slot.',
-  view: { dir: [0.9, 0.75, 1.2], fill: 0.95 },
+  view: { dir: [0.9, 0.75, 1.2], fill: 1.1 },
   build(K) {
     const { group, at } = K;
     const ply = plywood(K);
