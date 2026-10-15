@@ -43,7 +43,7 @@ def details(titles):
         q = d.get('query', {})
         norm = {n['to']: n['from'] for n in q.get('normalized', [])}
         for p in q.get('pages', {}).values():
-            if 'imageinfo' not in p:
+            if not p.get('imageinfo'):        # a missing or deleted file
                 continue
             ii = p['imageinfo'][0]
             md = {k: v.get('value', '') for k, v in ii.get('extmetadata', {}).items()}
