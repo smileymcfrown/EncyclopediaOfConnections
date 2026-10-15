@@ -1,9 +1,9 @@
-// Bidirectional anti-back-drive clutch: a roller unit with its input part drawn out in front, so you
-// look into the fixed ring and see the square output hub with two rollers and a small spring on
+// Bidirectional anti-back-drive clutch: a roller unit with its input part taken out and set beside it,
+// so you look into the fixed ring and see the square output hub with two rollers and a small spring on
 // each flat; the input disc's four pins slide into the corner gaps between the rollers.
 const RING_R = 23, BORE = 18, DEPTH = 14, ROLLER = 2.5, FLAT = 11;
 export default {
-  alt: 'Render of a two-way anti-back-drive roller clutch with its input part drawn out in front: inside the fixed steel ring a square output hub carries two steel rollers and a small spring on each flat, and the input disc with four pins and its own shaft is ready to slide its pins into the gaps between the rollers.',
+  alt: 'Render of a two-way anti-back-drive roller clutch with its input part taken out: inside the fixed ring a square output hub has two steel rollers and a small spring on each flat, and beside it lies the input disc with four pins that slide into the gaps between the rollers, and its own shaft.',
   view: { dir: [0.1, 0.35, 1.0], fill: 1.25, light: [-0.4, 1, 0.8] },
   build(K) {
     const { group, at, extrude, cyl, spring, circle, box, mat } = K;
@@ -41,7 +41,7 @@ export default {
       input.push(at(cyl(1.5, 12, inM), [pinR * Math.cos(a), pinR * Math.sin(a), -6], [90, 0, 0]));
     }
     input.push(at(cyl(5, 16, inM), [0, 0, 3 + 8], [90, 0, 0]));
-    parts.push(at(group(input), [42, 17 - RING_R - 2, 30], [0, 25, 0]));
+    parts.push(at(group(input), [50, 17 - RING_R - 2, 16], [0, 60, 0]));
     return group(parts);
   },
 };

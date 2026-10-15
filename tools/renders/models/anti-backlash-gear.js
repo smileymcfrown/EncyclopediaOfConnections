@@ -22,7 +22,7 @@ function window(r1, r2, a0, a1) {
 }
 export default {
   alt: 'Render of an anti-backlash gear: a steel gear made of two thin halves stacked on one hub, the top half turned slightly against the bottom one by two small coil springs sitting in curved windows, so their teeth sit side by side out of step and pinch the teeth of a plain brass gear meshing beside it.',
-  view: { dir: [0.25, 0.62, 1], fill: 1.0 },
+  view: { dir: [0.25, 0.62, 1], fill: 1.2 },
   build(K) {
     const { group, at, extrude, tube, cyl, spring, torus, mat, THREE } = K;
     const steel = mat.steel(), dark = mat.blackOxide(), sp = mat.stainless();

@@ -6,10 +6,10 @@ const ROD_R = 4, ROD_Y = 24, TILT = 10, PLATE_X = 26;
 
 export default {
   alt: 'Render of a binding-plate lock like the one at the back of a caulking gun: a smooth steel rod passes through a steel bracket and then through a flat steel plate with a slightly oversized hole; a coil spring round the rod pushes the plate so it leans a few degrees and grips the rod.',
-  view: { dir: [0.9, 0.55, 1.25], fill: 0.95 },
+  view: { dir: [0.45, 0.4, 1.3], fill: 1.05 },
   build(K) {
     const { group, at, box, cyl, extrude, spring, mat } = K;
-    const steel = mat.zinc(), rodM = mat.chrome(), plateM = mat.steel();
+    const steel = mat.paint(0x2f4a7a), rodM = mat.chrome(), plateM = mat.zinc();
     // bracket: a base strip with an upright wall (with a hole for the rod) and a small lip
     const wall = at(extrude([[-16, 0], [16, 0], [16, 40], [-16, 40]], 2.5, steel, { holes: [{ x: 0, y: ROD_Y, r: ROD_R + 0.8 }] }), [0, 0, 0], [0, 90, 0]);
     const base = at(box(62, 2.5, 32, steel, 0.6), [PLATE_X - 22, 1.25, 0]);
@@ -21,9 +21,9 @@ export default {
     const outline = [[-12, -plateLen], [12, -plateLen], [12, 14], [7, 30], [-7, 30], [-12, 14]];
     const plate = at(group(at(extrude(outline, 2.5, plateM, { holes: [{ x: 0, y: 0, r: ROD_R + 0.25 }] }), [0, 0, 0], [0, 90, 0])), [PLATE_X, ROD_Y, 0], [0, 0, -TILT]);
     // rod
-    const rod = at(cyl(ROD_R, 150, rodM), [15, ROD_Y, 0], [0, 0, 90]);
+    const rod = at(cyl(ROD_R, 110, rodM), [12, ROD_Y, 0], [0, 0, 90]);
     // spring round the rod, between the wall and the plate
-    const spr = at(spring(6.2, 0.8, 6, PLATE_X - 4.5, mat.steel()), [1.5, ROD_Y, 0], [0, 0, -90]);
+    const spr = at(spring(6.2, 0.8, 6, PLATE_X - 4.5, mat.blackOxide()), [1.5, ROD_Y, 0], [0, 0, -90]);
     return group(wall, base, lip, plate, rod, spr);
   },
 };

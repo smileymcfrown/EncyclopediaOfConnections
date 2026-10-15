@@ -8,12 +8,12 @@ const capProfile = [[10.8, 0], [12.4, 0], [12.4, 9.4], [11.8, 10], [0, 10], [0, 
 export default {
   alt: 'Render of an annular snap fit: a 3D-printed cap snapped onto the end of a printed tube, cut open to show the raised ring round the tube sitting in a matching groove inside the cap; a second cap lies beside it.',
   kind: 'cross-section',
-  view: { dir: [1.2, 0.5, 1.1], fill: 0.95 },
+  view: { dir: [0.3, 0.5, 1.3], fill: 1.0 },
   build(K) {
     const { group, at, lathe, mat } = K;
     const tube = lathe(tubeProfile, mat.pla(0x3a7bc8, 130), { cut: 90, cutMat: mat.pla(0x24548f, 130) });
     const cap = at(lathe(capProfile, mat.pla(0xe8812f, 60), { cut: 90, cutMat: mat.pla(0xb85a17, 60) }), [0, 16, 0]);
-    const loose = at(lathe(capProfile, mat.pla(0xe8812f, 60)), [22, 12.4, -22], [-90, 50, 0]);
+    const loose = at(lathe(capProfile, mat.pla(0xe8812f, 60)), [29, 12.4, -8], [-90, -25, 0]);
     return group(tube, cap, loose);
   },
 };
