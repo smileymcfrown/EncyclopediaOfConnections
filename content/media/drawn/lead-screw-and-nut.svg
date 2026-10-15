@@ -29,6 +29,6 @@
 <text x="20" y="276">handwheel</text>
 <text x="436" y="276">1 turn = 1 lead of travel</text>
 <text x="210" y="322" text-anchor="middle" font-size="17">plain nut: small gap (backlash)</text>
-<text x="590" y="322" text-anchor="middle" font-size="17">anti-backlash: spring pushes the halves apart</text>
+<text x="590" y="322" text-anchor="middle" font-size="17">two-part nut + spring: no gap</text>
 </g>
 </svg>
