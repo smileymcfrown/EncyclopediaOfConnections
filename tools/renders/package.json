@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Drawn renders (R35): 3D models of entries, rendered as stand-ins for photos. See README.md.",
+  "scripts": { "render": "node render.mjs" },
+  "devDependencies": {
+    "playwright-core": "1.56.1",
+    "three": "0.170.0"
+  }
+}

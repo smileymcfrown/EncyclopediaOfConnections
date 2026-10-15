@@ -1407,6 +1407,7 @@ heat-sealed-seam:
   alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
 heat-set-threaded-insert:
 - drawn
+- render
 - commons: File:Press-in Insert.png
   kind: photo
   alt: A small brass threaded insert with diamond knurling on the outside and a slot down one side.

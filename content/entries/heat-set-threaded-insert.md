@@ -181,6 +181,12 @@ pictures:
     part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush
     and cool it holds a screw in its metal thread.'
   drawn: true
+- file: render/heat-set-threaded-insert.webp
+  alt: 'Render of a heat-set threaded insert: a printed plastic boss cut in half shows a knurled brass insert with an inner
+    thread melted into it, its ridges locked into the plastic; a second insert lies beside it.'
+  kind: cross-section
+  render: true
+  drawn: true
 - file: heat-set-threaded-insert.webp
   title: File:Press-in Insert.png
   author: Dhruvvasoya91
@@ -197,6 +203,7 @@ glossary: [deflection, form-fit--force-fit--material-bond, heat-set-insert, capt
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-set-threaded-insert.svg" alt="Three cut-away steps of fitting a heat-set insert: a knurled brass insert sits on a slightly smaller hole in a printed part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush and cool it holds a screw in its metal thread."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/heat-set-threaded-insert.webp" alt="Render of a heat-set threaded insert: a printed plastic boss cut in half shows a knurled brass insert with an inner thread melted into it, its ridges locked into the plastic; a second insert lies beside it." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/heat-set-threaded-insert.webp" alt="A small brass threaded insert with diamond knurling on the outside and a slot down one side." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Press-in_Insert.png">Press-in Insert</a> by Dhruvvasoya91, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

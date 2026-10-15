@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Render stage</title>
+<style>html, body { margin: 0; background: #e9ebee; } canvas { display: block; }</style>
+<script type="importmap">
+{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<script type="module">
+// The photo studio for the drawn renders (R35): soft studio light, a pale backdrop with a soft
+// shadow, a camera framed on the model. stage.html?model=<page>&w=1200&h=900
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import * as K from './kit.js';
+
+const q = new URLSearchParams(location.search);
+const W = +(q.get('w') || 1200), H = +(q.get('h') || 900);
+try {
+  const model = (await import(`./models/${q.get('model')}.js?${Date.now()}`)).default;
+  const v = Object.assign({ dir: [1, 0.75, 1.3], fov: 28, fill: 0.86, light: [-0.6, 1, 0.5], up: [0, 1, 0], ground: true,
+                            background: 0xeceef1, exposure: 1.0, envIntensity: 1.0 }, model.view || {});
+  const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+  renderer.setPixelRatio(1);
+  renderer.setSize(W, H);
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = v.exposure;
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  renderer.localClippingEnabled = true;
+  document.body.appendChild(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(v.background);
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+  scene.environmentIntensity = v.envIntensity;
+
+  const obj = model.build(K);
+  scene.add(obj);
+  obj.updateMatrixWorld(true);
+  // stand it on the ground and centre it
+  const bb = new THREE.Box3().setFromObject(obj);
+  if (v.ground) obj.position.y -= bb.min.y;
+  obj.position.x -= (bb.min.x + bb.max.x) / 2;
+  obj.position.z -= (bb.min.z + bb.max.z) / 2;
+  obj.updateMatrixWorld(true);
+  const box = new THREE.Box3().setFromObject(obj), size = box.getSize(new THREE.Vector3()), centre = box.getCenter(new THREE.Vector3());
+  if (v.target) centre.add(new THREE.Vector3(...v.target));
+  const radius = size.length() / 2;
+
+  if (v.ground) {
+    const ground = new THREE.Mesh(new THREE.PlaneGeometry(radius * 40, radius * 40), new THREE.ShadowMaterial({ opacity: 0.22 }));
+    ground.rotation.x = -Math.PI / 2;
+    ground.position.y = box.min.y - 0.01;
+    ground.receiveShadow = true;
+    scene.add(ground);
+  }
+  const key = new THREE.DirectionalLight(0xffffff, 2.2);
+  key.position.copy(centre).add(new THREE.Vector3(...v.light).normalize().multiplyScalar(radius * 6));
+  key.target.position.copy(centre);
+  key.castShadow = true;
+  key.shadow.mapSize.set(2048, 2048);
+  key.shadow.radius = 6;
+  key.shadow.bias = -0.0005;
+  key.shadow.normalBias = radius * 0.002;
+  const sc = key.shadow.camera; sc.left = sc.bottom = -radius * 2; sc.right = sc.top = radius * 2; sc.near = radius; sc.far = radius * 12;
+  scene.add(key, key.target);
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xbfc4ca, 0.6));
+
+  const cam = new THREE.PerspectiveCamera(v.fov, W / H, radius / 100, radius * 100);
+  cam.up.set(...v.up);
+  const dir = new THREE.Vector3(...v.dir).normalize();
+  // distance so the bounding sphere fills `fill` of the shorter side
+  const half = Math.min(Math.tan(THREE.MathUtils.degToRad(v.fov / 2)), Math.tan(THREE.MathUtils.degToRad(v.fov / 2)) * W / H);
+  const dist = radius / (half * v.fill);
+  cam.position.copy(centre).add(dir.multiplyScalar(dist));
+  cam.lookAt(centre);
+  renderer.render(scene, cam);
+  window.result = { ok: true, png: renderer.domElement.toDataURL('image/png'), webp: renderer.domElement.toDataURL('image/webp', 0.9),
+                    meta: { alt: model.alt, kind: model.kind || 'render', note: model.note || '' } };
+} catch (e) {
+  window.result = { ok: false, error: String(e && e.stack || e) };
+}
+</script>
+</body>
+</html>
