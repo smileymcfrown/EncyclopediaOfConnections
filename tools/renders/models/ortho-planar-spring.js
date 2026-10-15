@@ -14,13 +14,13 @@ function strip(pts, t) {
 const RO = 32, RI = 26.5, RP = 10, T = 2; // ring outside and inside radius, platform radius, thickness
 export default {
   alt: 'Render of a 3D-printed ortho-planar spring: one flat plastic piece with an outer ring, a round centre platform and three thin curved legs joining them, lying on a bench.',
-  view: { dir: [0.3, 1.0, 0.8], fill: 1.0, light: [-0.5, 1, 0.3] },
+  view: { dir: [0.3, 1.0, 0.8], fill: 1.3, light: [-0.5, 1, 0.3] },
   build(K) {
     const { group, at, extrude, circle, mat } = K;
-    const m = mat.pla(0xd9661f, 40);
+    const m = mat.pla(0xc24e17, 40);
     const parts = [];
     const holes = [{ x: 0, y: 0, r: RI }];
-    for (let k = 0; k < 3; k++) { const a = (k * 2 * Math.PI) / 3 + 0.5; holes.push({ x: 29.2 * Math.cos(a), y: 29.2 * Math.sin(a), r: 1.7 }); }
+    for (let k = 0; k < 3; k++) { const a = Math.PI / 2 + (k * 2 * Math.PI) / 3; holes.push({ x: 29.2 * Math.cos(a), y: 29.2 * Math.sin(a), r: 1.7 }); }
     parts.push(extrude(circle(RO, 160), T, m, { bevel: 0.3, holes, curve: 64 }));
     parts.push(extrude(circle(RP, 80), T, m, { bevel: 0.3, holes: [{ x: 0, y: 0, r: 1.7 }], curve: 32 }));
     for (let k = 0; k < 3; k++) {

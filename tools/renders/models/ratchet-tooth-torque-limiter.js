@@ -44,21 +44,21 @@ export default {
   view: { dir: [0.3, 1.0, 1.05], fill: 1.05 },
   build(K) {
     const { group, at, cyl, extrude, threaded, spring, mat } = K;
-    const orange = mat.pla(0xe0762a, 60), grey = mat.pla(0x4a4d55, 60);
+    const orange = mat.pla(0xd9621c, 60), grey = mat.pla(0x4a4d55, 60);
     // driven part
     const driven = group(
       at(cyl(16, 4, orange), [0, 2, 0]),
-      at(teeth(K, 6.5, 16, mat.pla(0xe0762a, 60)), [0, 3, 0]),
+      at(teeth(K, 6.5, 16, mat.pla(0xd9621c, 60)), [0, 3, 0]),
       at(cyl(6.5, 6.6, orange), [0, 3.3, 0]),
       at(threaded(3, 1, 26, mat.zinc()), [0, 4, 0]),
     );
     // knob shell, upside down: a closed fluted cup with teeth on its floor, pointing the other way
     const knob = group(
-      at(extrude(fluted(22, 12, 1.8), 4, grey, { bevel: 0.8 }), [0, 2, 0], [90, 0, 0]),
-      at(extrude(fluted(22, 12, 1.8), 12, grey, { bevel: 0.8, holes: [{ x: 0, y: 0, r: 17 }] }), [0, 4 + 6 - 0.8, 0], [90, 0, 0]),
+      at(extrude(fluted(22, 12, 1.8), 13, grey, { bevel: 0.8, holes: [{ x: 0, y: 0, r: 17 }] }), [0, 6.5, 0], [90, 0, 0]),
+      at(cyl(17.3, 4, grey), [0, 2, 0]),
       at(teeth(K, 7, 16.8, mat.pla(0x4a4d55, 60), -1), [0, 3, 0]),
     );
-    const spr = at(spring(7, 1.0, 5, 18, mat.steel()), [8, 8, 32], [0, 0, -90]);
+    const spr = at(spring(7, 1.0, 5, 18, mat.steel()), [-8, 8, 34], [0, 0, -90]);
     return group(at(driven, [-30, 0, 0]), at(knob, [30, 0, 0]), spr);
   },
 };
