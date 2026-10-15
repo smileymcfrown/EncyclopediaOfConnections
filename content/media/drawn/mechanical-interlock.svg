@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A mechanical interlock: two sliding rods each have a notch, and a pin in a hole in the fixed block between them sits in one notch; with both rods home either rod can slide.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0,12 L12,0" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round">
+<rect x="60" y="100" width="680" height="16" fill="url(#hatch)" stroke="none"/><line x1="60" y1="116" x2="740" y2="116"/><rect x="60" y="334" width="680" height="16" fill="url(#hatch)" stroke="none"/><line x1="60" y1="334" x2="740" y2="334"/>
+<rect x="300" y="184" width="88" height="82" fill="url(#hatch)"/><rect x="412" y="184" width="88" height="82" fill="url(#hatch)"/>
+<rect x="389" y="180" width="22" height="115" rx="11" fill="#d8f0d2"></rect>
+<g><path d="M80,120 L560,120 L560,180 L430,180 L410,155 L390,155 L370,180 L80,180 Z" fill="#cfe3f5"/></g>
+<g><path d="M80,270 L370,270 L390,295 L410,295 L430,270 L560,270 L560,330 L80,330 Z" fill="#fde2c4"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="16" y="157">rod 1</text><text x="16" y="307">rod 2</text>
+<text x="290" y="231" text-anchor="end">fixed block</text>
+<text x="512" y="231">pin</text>
+<text x="610" y="157" fill="#d1495b" font-weight="bold" opacity="0">locked</text>
+<text x="610" y="307" fill="#d1495b" font-weight="bold" opacity="0">locked</text>
+<g text-anchor="middle" font-size="20" font-weight="bold"><text x="400" y="390" opacity="1">Both rods home: either one can slide</text><text x="400" y="390" opacity="0">Rod 1 moved: the pin is held in rod 2's notch</text><text x="400" y="390" opacity="0">Rod 2 moved: its ramp pushes the pin up into rod 1</text></g>
+<text x="400" y="436" font-size="18" text-anchor="middle">Only one rod can leave home at a time, as on the shift rails of a gearbox</text>
+</g>
+</svg>

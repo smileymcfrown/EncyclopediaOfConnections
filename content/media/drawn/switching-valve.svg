@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of a 5/2 solenoid switching valve driving a double-acting air cylinder: with the coil off a spring holds the sliding spool to the left, so supply port 1 feeds port 2 and the rod pulls in while port 4 vents through 5; with the coil on the spool slides right, so 1 feeds 4 and the rod pushes out while 2 vents through 3.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round">
+<rect x="220" y="70" width="300" height="90" rx="6" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<rect x="223" y="73" width="27" height="84" fill="#ffffff"></rect>
+<rect x="270" y="73" width="247" height="84" fill="#cfe3f5"></rect>
+<g><rect x="270" y="105" width="330" height="20" fill="#e8e8e8" stroke="#222" stroke-width="3"/><rect x="250" y="73" width="20" height="84" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="606" cy="115" r="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="606" cy="115" r="4" fill="#ffffff" stroke="#222" stroke-width="2"/></g>
+<rect x="512" y="100" width="12" height="30" fill="#9a9a9a" stroke="#222" stroke-width="2"/>
+<rect x="120" y="250" width="480" height="130" rx="8" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="140" y="290" width="440" height="50" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<path d="M320,291 V205 H240 V158" fill="none" stroke="#222" stroke-width="16" stroke-linejoin="round"/><path d="M320,291 V205 H240 V158" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/><path d="M320,291 V205 H240 V158" fill="none" stroke="#cfe3f5" stroke-width="10" stroke-linejoin="round" opacity="0"></path>
+<path d="M440,291 V205 H500 V158" fill="none" stroke="#222" stroke-width="16" stroke-linejoin="round"/><path d="M440,291 V205 H500 V158" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/><path d="M440,291 V205 H500 V158" fill="none" stroke="#cfe3f5" stroke-width="10" stroke-linejoin="round" opacity="1"></path>
+<path d="M260,339 V398" fill="none" stroke="#222" stroke-width="16" stroke-linejoin="round"/><path d="M260,339 V398" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/>
+<path d="M380,339 V398" fill="none" stroke="#222" stroke-width="16" stroke-linejoin="round"/><path d="M380,339 V398" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/><path d="M380,339 V398" fill="none" stroke="#cfe3f5" stroke-width="10" stroke-linejoin="round"/>
+<path d="M500,339 V398" fill="none" stroke="#222" stroke-width="16" stroke-linejoin="round"/><path d="M500,339 V398" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="141,315 150.1,331 159.2,299 168.4,331 177.5,299 186.6,331 195.8,299 204.9,331 214,315" fill="none" stroke="#222" stroke-width="3"></polyline>
+<g>
+<rect x="246" y="291.5" width="88" height="47" fill="#cfe3f5" opacity="0"></rect><rect x="366" y="291.5" width="88" height="47" fill="#cfe3f5"></rect>
+<rect x="214" y="308" width="430" height="14" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="214" y="291.5" width="32" height="47" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="334" y="291.5" width="32" height="47" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="454" y="291.5" width="32" height="47" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="644" y="296" width="36" height="38" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/>
+</g>
+<path d="M620,262 H750 V368 H620 Z M640,292 V338 H735 V292 Z" fill="#fde2c4" fill-rule="evenodd" stroke="#222" stroke-width="3"/>
+<path d="M632,266 V288 M632,342 V364 M642,266 V288 M642,342 V364 M652,266 V288 M652,342 V364 M662,266 V288 M662,342 V364 M672,266 V288 M672,342 V364 M682,266 V288 M682,342 V364 M692,266 V288 M692,342 V364 M702,266 V288 M702,342 V364 M712,266 V288 M712,342 V364 M722,266 V288 M722,342 V364 M732,266 V288 M732,342 V364 M742,266 V288 M742,342 V364" stroke="#b5651d" stroke-width="2"/>
+<path d="M380,412 V378" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M260,350 V392" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><path d="M630,140 H700" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="370" y="56" text-anchor="middle">double-acting cylinder</text>
+<text x="130" y="242">spring</text>
+<text x="380" y="242" text-anchor="middle">spool</text>
+<text x="685" y="250" text-anchor="middle">coil</text>
+<g font-weight="bold"><text x="296" y="232">4</text><text x="458" y="232">2</text><text x="236" y="378">5</text><text x="356" y="378">1</text><text x="476" y="378">3</text></g>
+<text x="232" y="420" text-anchor="middle">exhaust</text>
+<text x="380" y="432" text-anchor="middle">supply air in</text>
+<text x="528" y="420" text-anchor="middle">exhaust</text>
+<text x="20" y="28" font-size="19" font-weight="bold">Coil off: spring holds spool left · 1 feeds 2, rod pulls in</text>
+<text x="610" y="52">coil on:</text>
+<text x="610" y="74">spool slides right,</text>
+<text x="610" y="96">1 feeds 4, rod out</text>
+</g>
+</svg>

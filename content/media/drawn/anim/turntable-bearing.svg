@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A turntable bearing: on the left a cross-section of a top ring bolted to a platform and a bottom ring bolted to a base, with balls in facing grooves between them, an off-centre weight pressing the balls on one side and trying to lift the other; on the right the bearing seen from above, with the top ring drawn see-through over the ring of balls. Animated: seen from above the top ring turns round once while the balls between the rings roll round at half its speed.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="250" width="320" height="18" fill="url(#hatch)"/>
+<line x1="190" y1="104" x2="190" y2="292" stroke-width="2" stroke-dasharray="14 5 3 5"/>
+<rect x="40" y="130" width="300" height="20" fill="#cfe3f5"/>
+<path d="M75,150 L135,150 L135,190 L117,190 A12,12 0 0 0 93,190 L75,190 Z" fill="#cfe3f5"/>
+<path d="M245,150 L305,150 L305,190 L287,190 A12,12 0 0 0 263,190 L245,190 Z" fill="#cfe3f5"/>
+<path d="M55,214 L93,214 A12,12 0 0 0 117,214 L135,214 L135,250 L55,250 Z" fill="#e8e8e8"/>
+<path d="M245,214 L263,214 A12,12 0 0 0 287,214 L325,214 L325,250 L245,250 Z" fill="#e8e8e8"/>
+<circle cx="105" cy="202" r="12" fill="#fde2c4"/><circle cx="275" cy="202" r="12" fill="#fde2c4"/><g stroke-width="4"><line x1="88" y1="126" x2="88" y2="182"/><line x1="292" y1="126" x2="292" y2="182"/><line x1="66" y1="210" x2="66" y2="264"/><line x1="314" y1="210" x2="314" y2="264"/></g><g fill="#222"><rect x="80" y="122" width="16" height="6"/><rect x="284" y="122" width="16" height="6"/><rect x="58" y="208" width="16" height="6"/><rect x="306" y="208" width="16" height="6"/></g>
+<g fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><line x1="300" y1="64" x2="300" y2="122"/><line x1="275" y1="282" x2="275" y2="312"/><line x1="105" y1="312" x2="105" y2="282"/><path d="M150,96 A60,14 0 0 0 230,96"/></g>
+<g stroke-width="2"><line x1="306" y1="168" x2="362" y2="168"/><line x1="288" y1="204" x2="362" y2="204"/><line x1="326" y1="236" x2="362" y2="236"/></g>
+<path d="M500,230 A140,140 0 1 0 780,230 A140,140 0 1 0 500,230 Z M545,230 A95,95 0 1 0 735,230 A95,95 0 1 0 545,230 Z" fill="#e8e8e8" fill-rule="evenodd"/>
+<g fill="#222"><circle cx="758.3" cy="279" r="5"/><circle cx="689" cy="348.3" r="5"/><circle cx="591" cy="348.3" r="5"/><circle cx="521.7" cy="279" r="5"/><circle cx="521.7" cy="181" r="5"/><circle cx="591" cy="111.7" r="5"/><circle cx="689" cy="111.7" r="5"/><circle cx="758.3" cy="181" r="5"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 640 230;180 640 230" keyTimes="0;1" dur="6s" repeatCount="indefinite"/><circle cx="743.5" cy="230" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="735.6" cy="269.6" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="713.2" cy="303.2" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="679.6" cy="325.6" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="640" cy="333.5" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="600.4" cy="325.6" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="566.8" cy="303.2" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="544.4" cy="269.6" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="536.5" cy="230" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="544.4" cy="190.4" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="566.8" cy="156.8" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="600.4" cy="134.4" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="640" cy="126.5" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="679.6" cy="134.4" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="713.2" cy="156.8" r="9" fill="#fde2c4" stroke-width="2.5"/><circle cx="735.6" cy="190.4" r="9" fill="#fde2c4" stroke-width="2.5"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="0 640 230;360 640 230" keyTimes="0;1" dur="6s" repeatCount="indefinite"/><path d="M528,230 A112,112 0 1 0 752,230 A112,112 0 1 0 528,230 Z M578,230 A62,62 0 1 0 702,230 A62,62 0 1 0 578,230 Z" fill="#cfe3f5" fill-opacity="0.6" fill-rule="evenodd"/><circle cx="705.8" cy="268" r="5" fill="#ffffff"/><circle cx="640" cy="306" r="5" fill="#ffffff"/><circle cx="574.2" cy="268" r="5" fill="#ffffff"/><circle cx="574.2" cy="192" r="5" fill="#ffffff"/><circle cx="640" cy="154" r="5" fill="#ffffff"/><circle cx="705.8" cy="192" r="5" fill="#ffffff"/><circle cx="683" cy="155.5" r="8" fill="#222" stroke="none"/></g>
+<path d="M520.5,129.7 A156,156 0 0 1 759.5,129.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" font-size="18">
+<g font-size="20" font-weight="bold" text-anchor="middle"><text x="190" y="36">Cross-section</text><text x="640" y="36">Seen from above</text></g>
+<text x="366" y="174">top ring</text><text x="366" y="210">balls</text><text x="366" y="242">bottom ring</text>
+<text x="310" y="82">off-centre weight</text>
+<text x="275" y="334" text-anchor="middle">pressed</text><text x="105" y="334" text-anchor="middle">lifted</text>
+<text x="190" y="370" text-anchor="middle">bolts hold it against tipping</text>
+<text x="640" y="392" text-anchor="middle">top ring turns;</text><text x="640" y="412" text-anchor="middle">balls roll round at half speed</text>
+<text x="400" y="438" text-anchor="middle">A ring of balls between two grooved rings carries weight and lets the top turn</text>
+</g>
+</svg>
