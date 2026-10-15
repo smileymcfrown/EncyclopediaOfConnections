@@ -1,0 +1,63 @@
+air-bearing-and-air-caster:
+  photos: []
+  note: only NASA jet-shoe test rigs (bearing not visible), buildings and unrelated photos were found
+bidirectional-anti-back-drive-clutch:
+  photos: []
+  note: only a gearbox animation and photos of whole cars were found
+clevis-joint:
+  photos:
+    - candidate: 5
+      kind: photo
+      alt: Two yellow steel ears on a machine with a steel pin pushed through both, held in by a bent-wire spring clip, leaving a gap between the ears for the tongue.
+  note: '#5 shows the fork and pin with the tongue taken out; the shackles (#7-#9) have their own entry, and the rest are drawings or bolted joints'
+crush-ribs-and-spring-fit-features:
+  photos: []
+  note: all candidates were food (ribs), skeletons or unrelated
+flexible-beam-coupling:
+  photos: []
+  note: '#18 "busted coupling" may be a snapped helical coupling but it is blurry and broken, so you cannot see the spiral slot; the rest are unrelated'
+gearless-right-angle-drive:
+  photos: []
+  note: "#8 \"Hobson's Joint\" is a small render of a chain of links, not the bent-rod drive; the rest are patents, people and parks"
+heat-staking:
+  photos: []
+  note: only meetings, landscapes and a soldier were found
+jaw-coupling:
+  photos: []
+  note: almost all candidates are spiders; #13 is a tyre coupling and #27-#29 are renders of a splined vacuum coupler, not a jaw coupling
+lid-and-flap-stays:
+  photos: []
+  note: nothing showed a lid stay
+magnetic-detent:
+  photos: []
+  note: only floppy-drive heads, a circuit diagram and Magnetic Island scenery were found
+parallel-leaf-spring-flexure:
+  photos: []
+  note: the only candidate is a line diagram
+push-push-latch:
+  photos: []
+  note: only door handles, knobs, child-lock renders and unrelated photos were found
+rotary-latch:
+  photos: []
+  note: only spacewalks, LEGO claws and pets were found
+shut-off-valve:
+  photos:
+    - candidate: 3
+      kind: how-it-works
+      alt: A small brass screw-down stopcock taken apart on a table, showing the body, the threaded stem, the nuts, a washer and the red handwheel.
+    - candidate: 8
+      kind: photo
+      alt: A quarter-turn ball valve with a red lever handle fitted to a water pipe coming out of a wall.
+  note: '#4/#5/#6 show the same red-handwheel stopcock put back together, if you want an assembled view instead of #8'
+straight-line-linkages:
+  photos:
+    - candidate: 12
+      kind: photo
+      alt: The beam of an old pumping engine in a German silver mine, with an enlarged inset of the bars of Watt's parallel motion at the end of the beam, which keep the piston rod moving straight up and down.
+  note: 'the other beam-engine photos (#11, #13, #14, #16-#18) show parallel motion, but it is hard to pick out among the other rods'
+telescoping-tube-twist-lock:
+  photos: []
+  note: all "twist lock" candidates are shipping-container twistlocks or 80/20 T-nut renders, which are different parts
+virtual-pivot-linkage:
+  photos: []
+  note: only centre-pivot irrigation, satellite photos and unrelated photos were found
