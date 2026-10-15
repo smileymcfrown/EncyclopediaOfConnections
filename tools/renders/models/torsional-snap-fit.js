@@ -4,10 +4,10 @@
 // the ridged pad at the bottom tips the arm and lifts the hook clear.
 export default {
   alt: 'Render of a torsional snap fit on a 3D-printed box: a rocker arm on the side of the box is held on a thin bar between two lugs, with its hook over the edge of the lid and a ridged press pad below the bar that tips the hook clear when pressed.',
-  view: { dir: [0.95, 0.42, 1.15], fill: 0.95, target: [6, 0, 0] },
+  view: { dir: [1.15, 0.45, 1.0], fill: 0.95, target: [6, 0, 0] },
   build(K) {
     const { group, at, box, cyl, extrude, mat } = K;
-    const boxM = mat.pla(0x5d636b, 1.2), lidM = mat.pla(0x3f7fc4, 1.2), armM = mat.pla(0x5d636b, 1.2);
+    const boxM = mat.pla(0xe4782d, 1.2), lidM = mat.pla(0x4a5058, 1.2), armM = mat.pla(0xe4782d, 1.2);
     const W = 60, H = 36, Dz = 44, LT = 5;
     const body = at(box(W, H, Dz, boxM, 2.5), [0, H / 2, 0]);
     const lid = at(box(W, LT, Dz, lidM, 1.5), [0, H + LT / 2 + 0.2, 0]);
