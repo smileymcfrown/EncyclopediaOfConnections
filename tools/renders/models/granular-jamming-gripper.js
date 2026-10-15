@@ -16,7 +16,7 @@ const extrusionStrips = (K, len, axis) => {
 };
 export default {
   alt: 'Render of a granular jamming gripper: a latex balloon full of ground coffee, under a printed funnel on a small stand, has set hard round a ball and holds it just above the base, with a hose running to a small vacuum pump.',
-  view: { dir: [0.75, 0.42, 1.2], fill: 0.98 },
+  view: { dir: [0.75, 0.2, 1.2], fill: 0.98 },
   build(K) {
     const { group, at, box, cyl, lathe, sphere, torus, wire, mat, THREE } = K;
     const alu = mat.aluminium(), grey = mat.pla(0x5d636b, 30), plateM = mat.pla(0x3a3f46, 1.2);
@@ -40,17 +40,14 @@ export default {
       at(box(26, 26, 6, grey, 1), [ax, T + H + 10, 13]));          // corner bracket
 
     // the ball held by the gripper, its bottom 22 mm above the plate
-    const rb = 15, yb = T + 22 + rb;
+    const rb = 18, yb = T + 20 + rb;
     const ball = at(sphere(rb, mat.plastic(0xd8392b)), [0, yb, 0]);
 
     // the bag: down from the funnel, bulging out, then pulled in under the ball
     const top = yb + 64;
-    const prof = [[21, top], [30, top - 6], [38, top - 18], [41, top - 32], [40, top - 44], [35, top - 54], [27, top - 60], [21, top - 63.5]];
-    for (let d = -18; d <= 90; d += 6) {
-      const a = (d * Math.PI) / 180;
-      prof.push([(rb + 0.6) * Math.cos(a), yb + (rb + 0.6) * Math.sin(a)]);
-    }
-    const bag = lathe(prof, latex, { seg: 128 });
+    const prof = [[21, top], [30, top - 6], [38, top - 18], [41, top - 32], [40, top - 44], [35, top - 54], [28, top - 59], [23, top - 61.5]];
+    prof.push([(rb + 0.4) * Math.cos(0.14), yb + (rb + 0.4) * Math.sin(0.14)]);   // tight round the ball
+    const bag = lathe(prof.reverse(), latex, { seg: 128 });   // listed bottom to top so the faces point outwards
     // lumpy, set-hard surface: small radial dents
     const geo = bag.children[0].geometry, pos = geo.attributes.position;
     for (let i = 0; i < pos.count; i++) {

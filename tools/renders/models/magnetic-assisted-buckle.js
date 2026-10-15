@@ -22,7 +22,7 @@ export default {
     // socket half: a base, a rim round a pocket open toward the plug, a strap slot at the far end
     const sock = group(
       plate(K, 40, 32, 9, 3.5, body),
-      at(plate(K, 40, 32, 9, 4, body, [[3, 0, 29, 23, 5]]), [0, 3.5 + 2, 0]),
+      at(group(plate(K, 40, 32, 9, 4, body, [[3, 0, 29, 23, 5]])), [0, 2.6, 0]),
       at(cyl(6.5, 0.6, mat.magnet()), [1, 3.5, 0]),
       at(box(2.5, 2.5, 14, body, 0.5), [15, 3.5 + 1.25, 0]),          // the ledge the hook catches
     );

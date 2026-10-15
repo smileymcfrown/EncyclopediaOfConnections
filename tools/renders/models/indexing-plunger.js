@@ -1,42 +1,60 @@
-// Indexing plunger: a threaded plunger with a black knob screwed into a fixed bridge plate, its
+// Indexing plunger: a threaded plunger with a black knob screwed into a fixed blue bracket, its
 // steel pin pushed down by the spring inside into one hole of a sliding bar with a row of holes.
-// A quarter is cut away (plunger, plate and bar) to show the spring, the pin's collar and the pin
+// Everything is cut in half down the middle to show the spring, the pin's collar and the pin
 // sitting in the hole.
-const d2r = Math.PI / 180;
-const arcPts = (r, a0, a1, step = 6) => {
-  const n = Math.max(2, Math.ceil(Math.abs(a1 - a0) / step)), pts = [];
-  for (let i = 0; i <= n; i++) { const a = (a0 + ((a1 - a0) * i) / n) * d2r; pts.push([r * Math.cos(a), r * Math.sin(a)]); }
-  return pts;
-};
 function bodyProfile() {
   const out = [[4.1, 14], [7.6, 14]];
   for (let y = 14.5; y < 33; y += 1.5) out.push([7.5, y], [8.1, y + 0.75]);
   out.push([8.0, 33.5], [7.0, 36], [3.1, 36], [3.1, 33], [6.3, 33], [6.3, 16], [4.1, 16]);
   return out;
 }
+// top-view outline (x, z) of the back half (z < 0) of a rectangle, cut along z = 0 through holes
+function halfPlate(x0, x1, depth, holes) {
+  const pts = [[x0, -depth], [x1, -depth], [x1, 0]];
+  for (const h of [...holes].sort((a, b) => b.x - a.x)) {
+    for (let i = 0; i <= 16; i++) { const a = (i / 16) * Math.PI; pts.push([h.x + h.r * Math.cos(a), -h.r * Math.sin(a)]); }
+  }
+  pts.push([x0, 0]);
+  return pts;
+}
+// the cut faces (at z = 0) of a part y0..y1 thick, between holes
+function cutFaces(K, x0, x1, y0, y1, holes, m, z = 0.5) {
+  const { box, at } = K;
+  const edges = [x0, ...[...holes].sort((a, b) => a.x - b.x).flatMap((h) => [h.x - h.r, h.x + h.r]), x1];
+  const out = [];
+  for (let i = 0; i < edges.length; i += 2) {
+    const w = edges[i + 1] - edges[i];
+    out.push(at(box(w, y1 - y0, 0.05, m, 0.01), [(edges[i] + edges[i + 1]) / 2, (y0 + y1) / 2, z]));
+  }
+  return out;
+}
 export default {
-  alt: 'Render of an indexing plunger screwed into a blue fixed plate, cut away to show the spring inside pushing its steel pin down into one of a row of holes in a sliding steel bar, with a black pull knob on top.',
+  alt: 'Render of an indexing plunger screwed into a blue fixed bracket, cut in half to show the spring inside pushing its steel pin down into one of a row of holes in a sliding aluminium bar, with a black pull knob on top.',
   kind: 'cross-section',
-  view: { dir: [1.0, 0.75, 1.35], fill: 1.0, light: [0.3, 1, 0.8] },
+  view: { dir: [0.55, 0.85, 1.4], fill: 1.15, light: [-0.3, 1, 0.9] },
   build(K) {
-    const { group, at, extrude, lathe, spring, mat } = K;
-    const q = { cut: 90, start: 45 };
+    const { group, at, extrude, lathe, wire, mat } = K;
+    const half = { cut: 180 };
     const parts = [];
-    // sliding bar: 150 x 40 x 10 with 8.2 mm holes every 25 mm; quarter cut round the pin's hole
-    const barHoles = [-50, -25, 25, 50].map((x) => ({ x, y: 0, r: 4.1 }));
-    const barOut = [[-75, -20], [75, -20], [75, 20], [14, 20], [14, 0], [4.1, 0], ...arcPts(4.1, 0, -270, 8).slice(1), [0, 20], [-75, 20]];
-    parts.push(at(extrude(barOut, 10, mat.steel(), { bevel: 0.4, holes: barHoles, curve: 24 }), [0, 5, 0], [90, 0, 0]));
-    // fixed bridge plate (8 mm) over the bar, on two legs; threaded hole for the plunger
-    const blue = mat.paint(0x2d5d9a);
-    const plateOut = [[-26, -36], [26, -36], [26, 0], [8, 0], ...arcPts(8, 0, -270, 8).slice(1), [0, 36], [-26, 36]];
-    parts.push(at(extrude(plateOut, 8, blue, { bevel: 0.5, curve: 24 }), [0, 18, 0], [90, 0, 0]));
-    parts.push(at(extrude([[-26, -36], [26, -36], [26, -28], [-26, -28]], 14, blue, { bevel: 0.5 }), [0, 7, 0], [90, 0, 0]));
-    parts.push(at(extrude([[-26, 28], [0, 28], [0, 36], [-26, 36]], 14, blue, { bevel: 0.5 }), [0, 7, 0], [90, 0, 0]));
-    // plunger body (zinc-plated, threaded), pin with collar, spring, knob
-    parts.push(lathe(bodyProfile(), mat.zinc(), { ...q, cutMat: mat.cut(0xc3c9d0) }));
-    parts.push(lathe([[0, 2], [3.6, 2], [4, 2.5], [4, 17], [6, 17], [6, 19], [3, 19], [3, 38.5], [0, 38.5]], mat.steel(), { ...q, cutMat: mat.cut(0x868c94) }));
-    parts.push(at(spring(4.6, 0.6, 7, 13.6, mat.steel()), [0, 19.3, 0]));
-    parts.push(lathe([[0, 38], [9, 38], [12.5, 40.5], [13.5, 44.5], [12, 50], [7, 52.6], [0, 53]], mat.plastic(0x1e1f22), { ...q, cutMat: mat.cut(0x4a4c51) }));
+    // sliding bar: 120 x 30 x 8 with 8.2 mm holes every 22 mm
+    const barHoles = [-44, -22, 0, 22, 44].map((x) => ({ x, r: 4.1 }));
+    parts.push(at(extrude(halfPlate(-60, 60, 15, barHoles), 8, mat.aluminium(), { bevel: 0.3, curve: 24 }), [0, 4, 0], [90, 0, 0]));
+    parts.push(...cutFaces(K, -60, 60, 0.3, 7.7, barHoles, mat.cut(0x9da3aa), 0.36));
+    // fixed bracket: an 8 mm plate over the bar on a back leg, with a threaded hole for the plunger
+    const blue = mat.paint(0x2d5d9a), blueCut = mat.cut(0x1d3f6b);
+    parts.push(at(extrude(halfPlate(-20, 20, 30, [{ x: 0, r: 8 }]), 8, blue, { bevel: 0.4, curve: 24 }), [0, 18, 0], [90, 0, 0]));
+    parts.push(...cutFaces(K, -20, 20, 14.4, 21.6, [{ x: 0, r: 8 }], blueCut, 0.46));
+    parts.push(at(extrude([[-20, -30], [20, -30], [20, -22], [-20, -22]], 14, blue, { bevel: 0.4 }), [0, 7, 0], [90, 0, 0]));
+    // plunger body (blackened steel, threaded), pin with collar, spring, knob
+    parts.push(lathe(bodyProfile(), mat.blackOxide(), { ...half, cutMat: mat.cut(0x8d939b) }));
+    parts.push(lathe([[0, 0.6], [3.6, 0.6], [4, 1.1], [4, 17], [6, 17], [6, 19], [3, 19], [3, 38.5], [0, 38.5]], mat.stainless(), { ...half, cutMat: mat.cut(0xd5d8dc) }));
+    const turns = 7, len = 13.6, R = 4.6;   // spring: only the back half of each turn
+    for (let t = 0; t < turns; t++) {
+      const pts = [];
+      for (let i = 0; i <= 24; i++) { const a = Math.PI + (i / 24) * Math.PI; pts.push([R * Math.cos(a), 19.3 + ((t + a / (2 * Math.PI)) * len) / turns, R * Math.sin(a)]); }
+      parts.push(wire(pts, 0.6, mat.steel()));
+    }
+    parts.push(lathe([[0, 38], [9, 38], [12.5, 40.5], [13.5, 44.5], [12, 50], [7, 52.6], [0, 53]], mat.plastic(0x1e1f22), { ...half, cutMat: mat.cut(0x4a4c51) }));
     return group(parts);
   },
 };

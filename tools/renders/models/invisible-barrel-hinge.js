@@ -4,14 +4,14 @@
 // two barrels and the links between them.
 export default {
   alt: 'Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end by short links, lies on the bottom board.',
-  view: { dir: [0.55, 0.55, 1.0], fill: 1.0, target: [0, -6, 6] },
+  view: { dir: [0.75, 0.95, 0.75], fill: 1.12 },
   build(K) {
     const { group, at, box, cyl, extrude, roundRect, mat } = K;
-    const brass = mat.brass(), wood = mat.wood('#d9b98c', '#b38d5c'), dark = mat.blackOxide();
+    const brass = mat.brass(), wood = mat.wood('#b98b58', '#8a5f34'), dark = mat.blackOxide();
     const R = 7, BL = 20, T = 18, parts = [];
     // bottom board, its edge face at z = 0; top board standing up, its lower edge at y = T + 1
-    parts.push(at(box(150, T, 80, wood, 1), [0, T / 2, -40]));
-    parts.push(at(box(150, 75, T, mat.wood('#d6b487', '#ad8657'), 1), [0, T + 1 + 37.5, T / 2]));
+    parts.push(at(box(150, T, 60, wood, 1), [0, T / 2, -30]));
+    parts.push(at(box(150, 60, T, mat.wood('#b4844f', '#85592f'), 1), [0, T + 1 + 30, T / 2]));
     // a straight link plate from p to q in the y-z plane (thickness along x)
     const link = (x, p, q, w = 5.5, t = 1.4) => {
       const dy = q[0] - p[0], dz = q[1] - p[1], len = Math.hypot(dy, dz) + w;
@@ -34,13 +34,15 @@ export default {
       parts.push(link(x - 2.6, [T / 2 + 3, -3], [T + 4, T / 2 - 4]), link(x + 2.6, [T / 2 + 3, -3], [T + 4, T / 2 - 4]));
       parts.push(pin(x, M[0], M[1]));
     }
-    // a spare hinge lying on the bottom board, straight: two barrels end to end with links between
+    // stand the pair like a tent on the table, the hinged corner on top
+    const tent = group(...parts);
+    tent.rotation.x = (-135 * Math.PI) / 180;
+    // a spare hinge lying beside, straight (closed): two barrels end to end with links between
     const spare = group(
-      at(cyl(R, BL, brass), [-(BL / 2 + 1.2), 0, 0], [0, 0, 90]),
-      at(cyl(R, BL, brass), [BL / 2 + 1.2, 0, 0], [0, 0, 90]),
-      at(box(3.2, 5.5, 1.4, brass, 0.3), [0, 0, -2.6]), at(box(3.2, 5.5, 1.4, brass, 0.3), [0, 0, 0]), at(box(3.2, 5.5, 1.4, brass, 0.3), [0, 0, 2.6]),
+      at(cyl(R, BL, brass), [-(BL / 2 + 2.2), 0, 0], [0, 0, 90]),
+      at(cyl(R, BL, brass), [BL / 2 + 2.2, 0, 0], [0, 0, 90]),
+      at(box(5.2, 5.5, 1.4, brass, 0.3), [0, 0, -2.6]), at(box(5.2, 5.5, 1.4, brass, 0.3), [0, 0, 0]), at(box(5.2, 5.5, 1.4, brass, 0.3), [0, 0, 2.6]),
     );
-    parts.push(at(spare, [-8, T + R, -42], [0, -25, 0]));
-    return group(...parts);
+    return group(tent, at(spare, [30, -49, 62], [0, -20, 0]));
   },
 };
