@@ -45,7 +45,7 @@ export default {
       const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir);
       const centre = new THREE.Vector3(NX, AX, 0).addScaledVector(u, RROD + RB);
       const b = bearing.clone(); b.position.copy(centre); b.quaternion.copy(q); parts.push(b);
-      const bolt = group(at(cyl(3.9, 30, mat.zinc()), [0, 0, 0]), at(cyl(6.5, 8, mat.blackOxide()), [0, 15.6, 0]), at(hex(13, 6.5, mat.zinc(), 4), [0, -14.9, 0]));
+      const bolt = group(at(cyl(3.9, 30, mat.zinc()), [0, 0, 0]), at(cyl(6.5, 8, mat.blackOxide()), [0, 15.6, 0]), at(group(hex(13, 6.5, mat.zinc(), 4)), [0, -14.9, 0]));
       bolt.position.copy(centre); bolt.quaternion.copy(q); parts.push(bolt);
     }
     return group(parts);

@@ -34,7 +34,7 @@ export default {
     const { B, C } = solve(62);
     // plywood base, with the two brass pivot posts
     parts.push(at(box(130, 9, 90, mat.wood('#c79a64', '#9a6f3e'), 1.2), [44, -4.5, -26]));
-    for (const p of [A, D]) parts.push(at(hex(5.5, 6, mat.brass(), 1.6), [p[0], 3, p[1]]));
+    for (const p of [A, D]) parts.push(at(group(hex(5.5, 6, mat.brass(), 1.6)), [p[0], 3, p[1]]));
     // links: crank and rocker on the lower layer, coupler on top
     parts.push(link(A, B, 6, mat.pla(0xd9601a, 30)));
     parts.push(link(D, C, 6, mat.pla(0x2e8040, 30)));

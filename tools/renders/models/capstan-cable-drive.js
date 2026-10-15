@@ -47,7 +47,7 @@ export default {
     parts.push(wire(cablePath(), 0.7, rope));
     for (const [t, h] of [[124, H1], [236, H2]]) {
       const x = (R - 6) * Math.cos(t * d2r), z = (R - 6) * Math.sin(t * d2r);
-      parts.push(at(hex(5.5, 2.6, mat.zinc()), [x, 61.3, z]));
+      parts.push(at(group(hex(5.5, 2.6, mat.zinc())), [x, 61.3, z]));
       parts.push(wire([[R * Math.cos(t * d2r), h, R * Math.sin(t * d2r)], [(R - 3) * Math.cos((t + (t < 180 ? -2 : 2)) * d2r), 60.2, (R - 3) * Math.sin((t + (t < 180 ? -2 : 2)) * d2r)], [x, 60.4, z]], 0.7, rope));
     }
     return group(parts);
