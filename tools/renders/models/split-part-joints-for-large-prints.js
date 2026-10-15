@@ -16,8 +16,8 @@ export default {
     // upper piece (built the right way up, then turned over): a short straight band holding the
     // blind holes, then a dome
     const band = at(extrude(circle(Rc, 128), 9, plaUp, { holes: pegs.map(([x, z]) => ({ x, y: z, r: 4.3 })), bevel: 0, curve: 24 }), [0, 4.5, 0], [90, 0, 0]);
-    const domeProf = [[Rc, 9], [49.5, 18], [46, 30], [39, 42], [28, 52], [14, 58], [0, 60]];
-    const dome = lathe([[0, 9], ...domeProf], plaUp);
+    const domeProf = [[Rc + 0.05, 0], [Rc + 0.05, 9], [49.5, 18], [46, 30], [39, 42], [28, 52], [14, 58], [0, 60]];
+    const dome = lathe(domeProf, plaUp);          // the outside skin, band included, in one piece
     const upper = group(band, dome);
     upper.rotation.x = Math.PI;                       // upside down: cut face up
     const upperG = at(group(upper), [Rc * 2 + 22, 60, 14], [0, -15, 0]);

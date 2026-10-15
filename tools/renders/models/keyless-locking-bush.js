@@ -2,7 +2,7 @@
 // with a quarter cut away. The cut shows the bush's two tapered rings: tightening the ring of cap
 // screws pulls the outer sleeve along the taper, so it swells into the pulley bore while the inner
 // ring squeezes the shaft. No key, no keyway.
-const B0 = 0, B1 = 24; // pulley hub from y = 0 to 24 (above the ground the shaft stands on: see SHAFT)
+const B0 = 0, B1 = 24; // pulley hub length, measured from where it sits on the shaft (SH)
 export default {
   alt: 'Render of a keyless locking bush, cut open by a quarter: a V-belt pulley sits on a plain steel shaft, held only by a dark steel bush in its bore; the cut shows the bush\'s two tapered rings wedged between shaft and pulley, with a ring of cap screws on its front flange.',
   kind: 'cross-section',

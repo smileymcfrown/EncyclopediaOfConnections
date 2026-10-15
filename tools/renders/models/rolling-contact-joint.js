@@ -17,7 +17,7 @@ function strapPaths() {
 }
 export default {
   alt: 'Render of a rolling-contact joint: two 3D-printed blocks with rounded ends, one lying flat and one rolled up at an angle, held together only by crossed black nylon straps screwed to their faces, the middle strap passing one way between the blocks and the two outer straps the other way.',
-  view: { dir: [0.5, 0.6, 1.3], fill: 1.0, light: [-0.4, 1, 0.8] },
+  view: { dir: [-0.75, 0.95, 0.9], fill: 1.05, light: [-0.5, 1, 0.6] },
   build(K) {
     const { group, at, extrude, mesh, lathe, mat, THREE } = K;
     const parts = [];

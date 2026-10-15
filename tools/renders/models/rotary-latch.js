@@ -33,9 +33,9 @@ function plateOutline() {
   return [...pts, [-4.5, 30.5], [-4.5, 50], [-23, 50]];
 }
 export default {
-  alt: 'Render of a rotary latch with its cover plate left off: on a metal housing plate with a slot, a dark steel claw has turned round a striker bolt to trap it at the bottom of the slot, and a pawl rests in a notch on the claw to stop it turning back; the striker bolt comes from a bracket behind.',
+  alt: 'Render of a rotary latch with its cover plate left off: on a metal housing plate with a slot, a dark steel claw has turned round a striker pin to trap it at the bottom of the slot, and a steel pawl rests in a notch on the claw to stop it turning back; the striker pin stands out from a bracket behind.',
   kind: 'cross-section',
-  view: { dir: [0.55, 0.5, 1.2], fill: 0.95, light: [-0.3, 1, 0.9] },
+  view: { dir: [0.3, 0.4, 1.2], fill: 0.95, light: [-0.3, 1, 0.9] },
   build(K) {
     const { group, at, cyl, extrude, hex, box, mat } = K;
     const plate = at(extrude(plateOutline(), 1.5, mat.zinc(), { bevel: 0.2, holes: [{ x: -18, y: 5, r: 2.2 }, { x: 18, y: 5, r: 2.2 }, { x: -18, y: 45, r: 2.2 }, { x: 18, y: 45, r: 2.2 }] }), [0, 0, -0.75]);
@@ -45,13 +45,12 @@ export default {
     const pv = [14, 9], len = Math.hypot(tip[0] - pv[0], tip[1] - pv[1]), ang = Math.atan2(tip[1] - pv[1], tip[0] - pv[0]);
     const pawlShape = new K.THREE.Shape();
     pawlShape.absarc(0, 0, 3.5, Math.PI / 2, (Math.PI * 3) / 2, false); pawlShape.lineTo(len, -2.2); pawlShape.lineTo(len, 2.2); pawlShape.lineTo(0, 3.5);
-    const pawl = at(extrude(pawlShape, 4, mat.blackOxide(), { bevel: 0.3 }), [pv[0], pv[1], 2.3], [0, 0, (ang * 180) / Math.PI]);
+    const pawl = at(extrude(pawlShape, 4, mat.steel(), { bevel: 0.3 }), [pv[0], pv[1], 2.3], [0, 0, (ang * 180) / Math.PI]);
     const rivets = [C, pv].map(([x, y]) => group(at(cyl(2, 6, mat.steel()), [x, y, 2], [90, 0, 0]), at(cyl(3, 1, mat.steel()), [x, y, 4.9], [90, 0, 0])));
-    // striker bolt with a washer, from a bracket behind the latch
+    // the striker pin, standing out from a bracket behind the latch
     const striker = group(
-      at(cyl(4.1, 14, mat.stainless()), [S[0], S[1], 0], [90, 0, 0]),
-      at(cyl(6, 1, mat.stainless()), [S[0], S[1], 7.2], [90, 0, 0]),
-      at(hex(10, 3.5, mat.stainless()), [S[0], S[1], 9.5], [0, 0, 30]),
+      at(cyl(4.1, 12.8, mat.stainless()), [S[0], S[1], -0.4], [90, 0, 0]),
+      at(cyl(4.1, 0.8, mat.stainless(), { r2: 3.4 }), [S[0], S[1], 6.4], [90, 0, 0]),
     );
     const bracket = at(box(28, 34, 3, mat.paint(0x4a5a6e), 0.8), [0, 44, -7.5]);
     return group(plate, claw, pawl, rivets, striker, bracket);
