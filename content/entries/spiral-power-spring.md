@@ -158,12 +158,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: spiral-power-spring-00c62b.webp
+  title: File:Mainspring Chinese uncoiled.jpg
+  author: Hustvedt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Mainspring_Chinese_uncoiled.jpg
+  site: Wikimedia Commons
+  alt: A watch mainspring taken out and lying loose, showing the flat steel strip's natural S-shaped curl.
+  kind: photo
+  drawn: false
 glossary: [ratchet, pawl, torque, preload, torsion, hysteresis, collet, creep, fatigue, lubrication, perimeters, infill, peel-vs-shear,
   regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/spiral-power-spring.webp" alt="The coiled steel mainspring inside an old alarm clock movement, wound round its centre shaft."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG">Alarm clock mainspring</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spiral-power-spring-00c62b.webp" alt="A watch mainspring taken out and lying loose, showing the flat steel strip&#x27;s natural S-shaped curl." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mainspring_Chinese_uncoiled.jpg">Mainspring Chinese uncoiled</a> by Hustvedt, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flat strip of spring steel coiled into a spiral between a centre shaft and an outer case, which stores energy as it is wound tighter and gives it back as turning force as it unwinds, powering clockwork and pulling cords, tapes and belts back into reels.

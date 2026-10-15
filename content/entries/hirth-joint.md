@@ -159,12 +159,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: hirth-joint-37109d.webp
+  title: Customizable Hirth Joint (CSG version) (library)
+  author: Lukas S.
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:397553
+  site: Thingiverse via Openverse
+  alt: A rendered 3D-printable Hirth joint half in blue plastic, with V-shaped teeth on its end face and a hole for a pin.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, torque, crank, actuator, deflection, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert, captive-nut, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep, fatigue, galling--fretting]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/hirth-joint.webp" alt="A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth on the other crank."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg">Hirth joint</a> by AndrewDressel (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hirth-joint-37109d.webp" alt="A rendered 3D-printable Hirth joint half in blue plastic, with V-shaped teeth on its end face and a hole for a pin." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.thingiverse.com/thing:397553">Customizable Hirth Joint (CSG version) (library)</a> by Lukas S., <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, from Thingiverse via Openverse.</figcaption></figure>
 </div>
 
 Two parts with matching rings of V-shaped teeth on their end faces are clamped together by a central screw, so they lock at any of a fixed set of angles with no play, and can be loosened, turned by a tooth or more, and locked again.

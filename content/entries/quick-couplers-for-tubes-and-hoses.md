@@ -171,12 +171,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: quick-couplers-for-tubes-and-hoses-f59259.webp
+  title: File:Gardena hose pistol.jpg
+  author: User:Jarlhelm
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Gardena_hose_pistol.jpg
+  site: Wikimedia Commons
+  alt: A garden hose spray gun and a set of grey and orange snap-on hose connectors lying on brick paving.
+  kind: photo
+  drawn: false
 glossary: [misalignment, over-centre, fail-safe--fail-secure, clearance, tolerance, form-fit--force-fit--material-bond, taper,
   collet, heat-set-insert, creep, infill, o-ring, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/quick-couplers-for-tubes-and-hoses.webp" alt="Shiny steel air-line quick couplers, the round sockets with their sliding release sleeves next to the matching plug ends."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rtc-serie-171.08-gruppe.jpg">Rtc-serie-171.08-gruppe</a> by Shngz, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/quick-couplers-for-tubes-and-hoses-f59259.webp" alt="A garden hose spray gun and a set of grey and orange snap-on hose connectors lying on brick paving." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gardena_hose_pistol.jpg">Gardena hose pistol</a> by User:Jarlhelm, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tube fitting that locks a plastic or soft-metal tube in place and seals it as soon as the tube is pushed in, and releases it by hand when you push its release collar in, or (for hose couplers) a pair of plug-and-socket halves that snap together and come apart when you slide back a spring-loaded sleeve.

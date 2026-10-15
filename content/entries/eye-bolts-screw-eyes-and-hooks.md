@@ -164,12 +164,34 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: eye-bolts-screw-eyes-and-hooks-e5ff97.webp
+  title: File:Eye bolt wood thread.jpg
+  author: Hustvedt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Eye_bolt_wood_thread.jpg
+  site: Wikimedia Commons
+  alt: A row of screw eyes from large to tiny, each a bent-wire loop on a pointed wood-screw thread.
+  kind: photo
+  drawn: false
+- file: eye-bolts-screw-eyes-and-hooks-2770b5.webp
+  title: File:CrookedHook.jpg
+  author: Kószó József
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:CrookedHook.jpg
+  site: Wikimedia Commons
+  alt: A large screw hook twisted into a wooden post outdoors, its curved hook ready to take a rope or chain.
+  kind: how-it-works
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, undercut, creep, perimeters,
   infill, end-grain]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/eye-bolts-screw-eyes-and-hooks.webp" alt="A heavy forged eye bolt painted red, with a collar (shoulder) between the round eye and the machine thread."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif">Anneau de levage CM</a> by Contribus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eye-bolts-screw-eyes-and-hooks-e5ff97.webp" alt="A row of screw eyes from large to tiny, each a bent-wire loop on a pointed wood-screw thread." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eye_bolt_wood_thread.jpg">Eye bolt wood thread</a> by Hustvedt, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eye-bolts-screw-eyes-and-hooks-2770b5.webp" alt="A large screw hook twisted into a wooden post outdoors, its curved hook ready to take a rope or chain." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:CrookedHook.jpg">CrookedHook</a> by Kószó József, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A screw or bolt that ends in a closed loop (eye) or an open hook, fixed into wood, masonry or a tapped hole to give a rope, wire, spring, chain or hanging object a fixed point to attach to; bent-wire eyes and hooks are for light loads only, while forged, shouldered and marked lifting eyes carry heavy, angled pulls.

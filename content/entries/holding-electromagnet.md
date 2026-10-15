@@ -165,11 +165,22 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: holding-electromagnet-426e55.webp
+  title: The Finished Magnet
+  author: shalf
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/99525316@N00/4252833389
+  site: Flickr via Openverse
+  alt: A home-made electromagnet, wire coiled round a steel bolt, holding up a paper clip while current flows through it.
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, axial--radial, solenoid, fail-safe--fail-secure, holding-force, heat-set-insert, creep, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/holding-electromagnet.webp" alt="An electromagnetic door lock, a long magnet fixed to the door frame with a steel plate on the door that it holds shut."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg">Magnetic Lock</a> by Mooinglemur, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/holding-electromagnet-426e55.webp" alt="A home-made electromagnet, wire coiled round a steel bolt, holding up a paper clip while current flows through it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/99525316@N00/4252833389">The Finished Magnet</a> by shalf, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 An electromagnet (a coil of wire around an iron core) that clamps onto a flat steel plate with great force while current flows and releases it as soon as the current stops, used to lock doors, hold fire doors open, and let robots and cranes pick up and drop steel parts.

@@ -171,11 +171,22 @@ pictures:
   drawn: true
   still: drawn/posable-segmented-arm.svg
   kind: animation
+- file: posable-segmented-arm.webp
+  title: File:Detail Schwanenhals Leuchte waagerecht.jpg
+  author: Phrontis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Detail_Schwanenhals_Leuchte_waagerecht.jpg
+  site: Wikimedia Commons
+  alt: A close-up of a metal gooseneck lamp arm, a tube made of tightly coiled wire that bends and stays where it is put.
+  kind: photo
+  drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, creep, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/posable-segmented-arm.svg"><img src="../media/drawn/anim/posable-segmented-arm.svg" alt="Cut-away of a posable arm made of hollow ball-and-socket segments: each segment&#x27;s ball is snapped into the next one&#x27;s socket, whose lip wraps past the ball&#x27;s widest point; every joint is tilted a little and held by friction, the tilts add up to a curve, and coolant flows through the hollow middle. T"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/posable-segmented-arm.webp" alt="A close-up of a metal gooseneck lamp arm, a tube made of tightly coiled wire that bends and stays where it is put." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Detail_Schwanenhals_Leuchte_waagerecht.jpg">Detail Schwanenhals Leuchte waagerecht</a> by Phrontis, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A chain of identical short segments, each with a ball at one end and a socket at the other, snapped together so every joint can swivel a little and holds its angle by friction; together they make an arm you can bend into any shape and that stays put, often hollow so coolant, air or cables can pass through.

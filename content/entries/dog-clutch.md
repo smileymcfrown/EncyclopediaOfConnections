@@ -150,6 +150,17 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: dog-clutch-24501f.webp
+  title: File:Honda CBR600RR teardown 2015-10-19 13.44.17.jpg
+  author: Spheroidite
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Honda_CBR600RR_teardown_2015-10-19_13.44.17.jpg
+  site: Wikimedia Commons
+  alt: Close-up inside a stripped-down motorcycle gearbox, showing a gear and the dog teeth on its side that lock it to its
+    neighbour.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sprag, torque, crank, linkage, actuator, deflection,
   clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip, chamfer--fillet, undercut, layer-lines, elephants-foot,
   peel-vs-shear]
@@ -157,6 +168,7 @@ glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sp
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/dog-clutch.webp" alt="Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg">Dog Clutch</a> by Ael150, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dog-clutch-24501f.webp" alt="Close-up inside a stripped-down motorcycle gearbox, showing a gear and the dog teeth on its side that lock it to its neighbour." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Honda_CBR600RR_teardown_2015-10-19_13.44.17.jpg">Honda CBR600RR teardown 2015-10-19 13.44.17</a> by Spheroidite, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A clutch that connects and disconnects a drive by sliding a toothed ring into or out of mesh with matching teeth or slots, giving a solid, no-slip connection when engaged.

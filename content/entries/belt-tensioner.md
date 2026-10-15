@@ -140,11 +140,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: belt-tensioner-cfa2e0.webp
+  title: File:Belt tensioner (15973554259).jpg
+  author: dave_7 from Lethbridge, Canada
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Belt_tensioner_(15973554259).jpg
+  site: Wikimedia Commons
+  alt: A car engine's automatic belt tensioner, a smooth idler pulley on a spring-loaded arm pressing on the ribbed drive
+    belt.
+  kind: photo
+  drawn: false
 glossary: [misalignment, freewheel, pitch, idler, stiffness, preload, deflection, torsion, creep, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/belt-tensioner.webp" alt="A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against the slack lower run of the chain."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg">Kettenspanner für Singlespeed-Räder</a> by Kab/http://du-und-dein-fahrrad.de, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/belt-tensioner-cfa2e0.webp" alt="A car engine&#x27;s automatic belt tensioner, a smooth idler pulley on a spring-loaded arm pressing on the ribbed drive belt." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Belt_tensioner_(15973554259).jpg">Belt tensioner (15973554259)</a> by dave_7 from Lethbridge, Canada, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A free-spinning pulley, sprocket or plastic shoe pushed against the slack side of a belt or chain by a spring (or set by a screw) so the drive stays snug as the belt or chain stretches and wears.

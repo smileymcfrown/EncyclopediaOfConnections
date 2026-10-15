@@ -168,12 +168,24 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: speed-governor-bd5306.webp
+  title: File:Grammoantrieb.jpg
+  author: Ulfbastel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Grammoantrieb.jpg
+  site: Wikimedia Commons
+  alt: A wind-up gramophone motor out of its case, with the spring barrel at the back and the spinning-weight governor at
+    the front.
+  kind: how-it-works
+  drawn: false
 glossary: [ratchet, torque, crank, form-fit--force-fit--material-bond, repeatability--accuracy, creep, perimeters, peel-vs-shear,
   o-ring, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/speed-governor.webp" alt="A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png">Regulador mecánico</a> by Wiki LIC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/speed-governor-bd5306.webp" alt="A wind-up gramophone motor out of its case, with the spring barrel at the back and the spinning-weight governor at the front." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Grammoantrieb.jpg">Grammoantrieb</a> by Ulfbastel, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A speed governor is a small fan or a set of spinning weights at the fast end of a spring- or weight-driven gear train that brakes harder the faster it turns, so the whole mechanism settles at a steady running speed instead of running away.

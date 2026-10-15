@@ -152,12 +152,34 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: side-release-buckle-fe0bf4.webp
+  title: Paracord Bracelets
+  author: GA-Kayaker
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/29053927@N05/9721202956
+  site: Flickr via Openverse
+  alt: Three paracord bracelets, each closed with a small plastic side-release buckle.
+  kind: photo
+  drawn: false
+- file: side-release-buckle-51e990.webp
+  title: Hardware
+  author: mikest
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/99304940@N00/361277758
+  site: Flickr via Openverse
+  alt: Bag hardware laid out on a table, including plastic and metal side-release buckles next to snap hooks.
+  kind: photo
+  drawn: false
 glossary: [stiffness, flexure, cantilever, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, creep, fatigue,
   layer-lines, perimeters, infill, support-material]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/side-release-buckle.webp" alt="A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side windows."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg">Boucle rapide</a> by Jean Paul GIBERT, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/side-release-buckle-fe0bf4.webp" alt="Three paracord bracelets, each closed with a small plastic side-release buckle." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/29053927@N05/9721202956">Paracord Bracelets</a> by GA-Kayaker, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/side-release-buckle-51e990.webp" alt="Bag hardware laid out on a table, including plastic and metal side-release buckles next to snap hooks." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/99304940@N00/361277758">Hardware</a> by mikest, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A two-part plastic buckle in which two springy arms on the male half flex inward as it is pushed into the female half, then click outward into side windows so it cannot pull out, until you pinch both arms through the windows to let it go.

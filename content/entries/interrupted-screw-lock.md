@@ -148,12 +148,35 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: interrupted-screw-lock-a8d312.webp
+  title: File:Breech 122m10 hameenlinna 2.jpg
+  author: Balcer~commonswiki
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Breech_122m10_hameenlinna_2.jpg
+  site: Wikimedia Commons
+  alt: A real gun breech swung open, showing the interrupted threads on the plug and the matching threaded and smooth sectors
+    in the barrel end.
+  kind: how-it-works
+  drawn: false
+- file: interrupted-screw-lock-bed466.webp
+  title: File:QF 6 inch gun coned breech screw.jpg
+  author: Notman Studio (Halifax)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:QF_6_inch_gun_coned_breech_screw.jpg
+  site: Wikimedia Commons
+  alt: A close-up photo of a large coned breech screw with its rows of thread broken by smooth strips.
+  kind: photo
+  drawn: false
 glossary: [misalignment, detent, preload, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, stress-concentration,
   galling--fretting, print-in-place, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/interrupted-screw-lock.webp" alt="A drawing of a gun breech swung open, the plug&#x27;s thread cut away in sectors to match the smooth gaps in the threaded hole."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg">Interrupted breech screw</a> by https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/interrupted-screw-lock-a8d312.webp" alt="A real gun breech swung open, showing the interrupted threads on the plug and the matching threaded and smooth sectors in the barrel end." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Breech_122m10_hameenlinna_2.jpg">Breech 122m10 hameenlinna 2</a> by Balcer~commonswiki, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/interrupted-screw-lock-bed466.webp" alt="A close-up photo of a large coned breech screw with its rows of thread broken by smooth strips." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:QF_6_inch_gun_coned_breech_screw.jpg">QF 6 inch gun coned breech screw</a> by Notman Studio (Halifax), Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A screw thread with alternate sections removed from both the plug and the hole, so the plug pushes straight in past the gaps and a fraction of a turn (1/4 down to 1/16) engages the remaining thread sections and locks it.

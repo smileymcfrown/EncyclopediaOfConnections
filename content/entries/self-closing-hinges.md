@@ -167,12 +167,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: self-closing-hinges-dd1fa0.webp
+  title: File:Door hinge with spring less self closing mechanism.jpg
+  author: Tobias ToMar Maier
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg
+  site: Wikimedia Commons
+  alt: A rising door hinge with a spiral-cut knuckle, so the door lifts as it opens and its weight swings it shut.
+  kind: how-it-works
+  drawn: false
 glossary: [detent, torque, fail-safe--fail-secure, stiffness, preload, flexure, living-hinge, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, creep, lubrication, layer-lines, print-in-place, warping--shrinkage, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/self-closing-hinges.webp" alt="A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG">Bommerscharnier</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/self-closing-hinges-dd1fa0.webp" alt="A rising door hinge with a spiral-cut knuckle, so the door lifts as it opens and its weight swings it shut." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg">Door hinge with spring less self closing mechanism</a> by Tobias ToMar Maier, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hinge that stores some of the effort you use to open a door, in a coiled spring or by lifting the door up a sloping knuckle, and gives it back to swing the door shut when you let go.

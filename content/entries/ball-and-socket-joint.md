@@ -184,12 +184,24 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: ball-and-socket-joint-37c7a1.webp
+  title: File:Manfrotto 488 RC4.jpg
+  author: Nebrot
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manfrotto_488_RC4.jpg
+  site: Wikimedia Commons
+  alt: A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on
+    top.
+  kind: photo
+  drawn: false
 glossary: [degrees-of-freedom, misalignment, detent, linkage, stiffness, cantilever, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, boss, undercut, creep, stress-relaxation, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/ball-and-socket-joint.webp" alt="A ball joint cut in half, showing the round ball on a threaded, cone-shaped stud sitting in its socket inside the housing."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg">KugelgelenkSchnitt</a> by S.Wetzel (Maschinenelemente, Maschinen und Geräte), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-and-socket-joint-37c7a1.webp" alt="A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manfrotto_488_RC4.jpg">Manfrotto 488 RC4</a> by Nebrot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A ball on one part sits in a matching cup (socket) on the other so it can turn about any axis through the ball's centre but can't pull out; friction holds it at an angle, and a knob, nut or clamp can squeeze the cup to lock it.

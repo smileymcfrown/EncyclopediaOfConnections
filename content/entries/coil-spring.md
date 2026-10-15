@@ -162,12 +162,34 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: coil-spring-eb890a.webp
+  title: LIKE A COILED SPRING...
+  author: REDMAXSPEEDSHOP.COM
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/36766110@N08/7899456674
+  site: Flickr via Openverse
+  alt: An old motorcycle saddle sitting on a pair of chrome coil springs that squash as the rider sits down.
+  kind: how-it-works
+  drawn: false
+- file: coil-spring-63ca77.webp
+  title: CH-62 - Fiberglass-Epoxy Composite Coil Spring
+  author: SPE Automotive Division
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/17968829@N03/22568919880
+  site: Flickr via Openverse
+  alt: A pale fibreglass-and-epoxy coil spring lying on a blue background, its thick round wire wound into a helix.
+  kind: photo
+  drawn: false
 glossary: [axial--radial, over-centre, detent, ratchet, pawl, torque, pitch, stiffness, preload, cantilever, deflection, torsion,
   damping, clearance, tolerance, creep, fatigue, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/coil-spring.webp" alt="A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg">Helical compression spring parameters</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/coil-spring-eb890a.webp" alt="An old motorcycle saddle sitting on a pair of chrome coil springs that squash as the rider sits down." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/36766110@N08/7899456674">LIKE A COILED SPRING...</a> by REDMAXSPEEDSHOP.COM, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/coil-spring-63ca77.webp" alt="A pale fibreglass-and-epoxy coil spring lying on a blue background, its thick round wire wound into a helix." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/17968829@N03/22568919880">CH-62 - Fiberglass-Epoxy Composite Coil Spring</a> by SPE Automotive Division, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A length of springy wire wound into a helix that stores energy when it is squashed (compression spring), stretched (extension spring) or twisted by its arms ([torsion](../glossary.md#torsion) spring), and gives it back as a push, a pull or a turning force roughly in proportion to how far it was moved.

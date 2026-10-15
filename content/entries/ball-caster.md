@@ -140,11 +140,34 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: ball-caster-dc0b70.webp
+  title: File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg
+  author: Schulz-Stanztechnik.de
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg
+  site: Wikimedia Commons
+  alt: A real pressed-steel ball transfer unit sawn in half, showing the large ball resting on a ring of small balls in its
+    cup.
+  kind: cross-section
+  drawn: false
+- file: ball-caster-90ee8c.webp
+  title: Robot 2
+  author: Adam Greig
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/7320302@N07/3057606500
+  site: Flickr via Openverse
+  alt: The underside of a small two-wheeled robot, with a little metal ball caster at the front acting as its third wheel.
+  kind: how-it-works
+  drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/ball-caster.webp" alt="A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held in by a blue lip."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png">BallTransferUnitCrossSection</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-caster-dc0b70.webp" alt="A real pressed-steel ball transfer unit sawn in half, showing the large ball resting on a ring of small balls in its cup." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg">Schulz-www.Kugelrollen.de-im-Schnitt</a> by Schulz-Stanztechnik.de, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-caster-90ee8c.webp" alt="The underside of a small two-wheeled robot, with a little metal ball caster at the front acting as its third wheel." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/7320302@N07/3057606500">Robot 2</a> by Adam Greig, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A large ball held in a cup on small bearing balls or rollers, giving a support point that rolls equally easily in every direction, used as a small robot's third wheel or, ball-up, as the rolling surface of transfer tables and conveyors.

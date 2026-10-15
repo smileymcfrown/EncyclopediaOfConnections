@@ -172,12 +172,34 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: pulley-system-2d6191.webp
+  title: Pulley System
+  author: schnaars
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/12595974@N00/3169924236
+  site: Flickr via Openverse
+  alt: A museum display of wooden pulley blocks with a rope threaded between them, above a drawing of the same set-up.
+  kind: how-it-works
+  drawn: false
+- file: pulley-system-6f0a1c.webp
+  title: File:2025 Pulley (Windmill in Xaghra).jpg
+  author: Qasinka
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:2025_Pulley_(Windmill_in_Xaghra).jpg
+  site: Wikimedia Commons
+  alt: An old wooden pulley block hanging from a stone wall inside a windmill, with its rope running down.
+  kind: photo
+  drawn: false
 glossary: [self-locking, ratchet, pawl, mechanical-advantage, pitch, form-fit--force-fit--material-bond, creep, fatigue, perimeters,
   infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/pulley-system.webp" alt="A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs on more rope parts."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tackles.png">Tackles</a> by Welkinridge, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pulley-system-2d6191.webp" alt="A museum display of wooden pulley blocks with a rope threaded between them, above a drawing of the same set-up." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/12595974@N00/3169924236">Pulley System</a> by schnaars, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pulley-system-6f0a1c.webp" alt="An old wooden pulley block hanging from a stone wall inside a windmill, with its rope running down." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2025_Pulley_(Windmill_in_Xaghra).jpg">2025 Pulley (Windmill in Xaghra)</a> by Qasinka, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two blocks of pulleys with one rope threaded back and forth between them, so the load hangs on several rope parts and a pull of only a fraction of its weight lifts it (at the cost of pulling that many times more rope); the differential chain hoist uses two joined chain wheels of slightly different size to get a very large gain and, because its friction is high, holds the load by itself.

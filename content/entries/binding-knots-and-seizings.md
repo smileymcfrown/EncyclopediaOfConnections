@@ -158,11 +158,34 @@ pictures:
   site: Wikimedia Commons
   kind: how-it-works
   drawn: false
+- file: binding-knots-and-seizings-97c579.webp
+  title: File:Forestay-Eye-Round-seizings-Bulls-eye.jpg
+  author: David J. Fred (Dfred)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Forestay-Eye-Round-seizings-Bulls-eye.jpg
+  site: Wikimedia Commons
+  alt: The eye at the end of a sailing boat's forestay, its two ropes bound together by three tight round seizings of thin
+    cord.
+  kind: photo
+  drawn: false
+- file: binding-knots-and-seizings-a3911d.webp
+  title: File:Cable-lacing-nasa-style-spot-ties.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cable-lacing-nasa-style-spot-ties.jpg
+  site: Wikimedia Commons
+  alt: Blue cables bundled together with neat spot ties of white lacing tape knotted at intervals.
+  kind: photo
+  drawn: false
 glossary: [self-locking, ratchet, form-fit--force-fit--material-bond, boss, creep, peel-vs-shear, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/binding-knots-and-seizings.webp" alt="Four photos in a row showing the steps of tying a constrictor knot in blue cord round a rope."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg">Constrictor-ABOK-1249</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/binding-knots-and-seizings-97c579.webp" alt="The eye at the end of a sailing boat&#x27;s forestay, its two ropes bound together by three tight round seizings of thin cord." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Forestay-Eye-Round-seizings-Bulls-eye.jpg">Forestay-Eye-Round-seizings-Bulls-eye</a> by David J. Fred (Dfred), <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/binding-knots-and-seizings-a3911d.webp" alt="Blue cables bundled together with neat spot ties of white lacing tape knotted at intervals." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cable-lacing-nasa-style-spot-ties.jpg">Cable-lacing-nasa-style-spot-ties</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A group of knots and wrappings that squeeze round something to hold it together: the constrictor knot grips a bundle, bag neck or hose so hard it may have to be cut off, a seizing binds two ropes side by side with many turns of small twine, and cable lacing ties wire bundles into a neat loom with a row of locked stitches.

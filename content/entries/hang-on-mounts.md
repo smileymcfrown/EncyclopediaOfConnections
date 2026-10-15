@@ -146,12 +146,24 @@ pictures:
     the round end and the object then drops so the head sits behind the narrow slot; on the right a French cleat seen from
     the side, where a bevelled strip on the object hooks over a bevelled strip on the wall and its weight wedges it in.'
   drawn: true
+- file: hang-on-mounts.webp
+  title: File:French cleat.jpg
+  author: Tenbergen
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:French_cleat.jpg
+  site: Wikimedia Commons
+  alt: A French cleat, a wooden strip with a bevelled top edge screwed to a wall, with a shelf hung on a matching strip beside
+    it.
+  kind: photo
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, undercut, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/hang-on-mounts.svg" alt="Two lift-off wall mounts: on the left a keyhole slot in the back of an object, where a screw head goes in through the round end and the object then drops so the head sits behind the narrow slot; on the right a French cleat seen from the side, where a bevelled strip on the object hooks over a bevelle"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hang-on-mounts.webp" alt="A French cleat, a wooden strip with a bevelled top edge screwed to a wall, with a shelf hung on a matching strip beside it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:French_cleat.jpg">French cleat</a> by Tenbergen, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two gravity-held wall mounts that let an object be lifted on and off without tools: a keyhole slot in the object drops over a screw head in the wall, and a French cleat is a pair of bevelled strips, one on the wall and one on the object, that hook together under the object's weight.

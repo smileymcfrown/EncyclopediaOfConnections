@@ -144,12 +144,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: flexible-drive-shaft-a0ff8f.webp
+  title: File:Flexible shaft motor.jpg
+  author: Mauro Cateb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Flexible_shaft_motor.jpg
+  site: Wikimedia Commons
+  alt: A jeweller's pendant drill, a motor driving a long flexible shaft in a black casing that ends in a pen-like handpiece.
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, backlash, torque, crank, stiffness, deflection, torsion, tolerance, form-fit--force-fit--material-bond,
   collet]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/flexible-drive-shaft.webp" alt="A car speedometer cable held in a hand, the black casing with a square-ended drive core and a threaded nut at each end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg">2008-05-06 1990 Geo Storm GSi speedometer cable</a> by Ildar Sagdejev (Specious), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flexible-drive-shaft-a0ff8f.webp" alt="A jeweller&#x27;s pendant drill, a motor driving a long flexible shaft in a black casing that ends in a pen-like handpiece." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flexible_shaft_motor.jpg">Flexible shaft motor</a> by Mauro Cateb, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rotating core of wire wound in layers, usually running inside a non-turning sleeve (casing), that carries turning motion or power round bends and between parts that aren't lined up or that move.

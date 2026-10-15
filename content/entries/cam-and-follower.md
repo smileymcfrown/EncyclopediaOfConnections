@@ -199,6 +199,26 @@ pictures:
   still: cam-and-follower.still.webp
   kind: animation
   drawn: false
+- file: cam-and-follower-c93d71.webp
+  title: File:Sanyo G2605H Turntable Cam Follower (30001014985).jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Sanyo_G2605H_Turntable_Cam_Follower_(30001014985).jpg
+  site: Wikimedia Commons
+  alt: A metal plate from a record player taken apart, with a lever whose tip rides on the edge of a black cam wheel.
+  kind: photo
+  drawn: false
+- file: cam-and-follower-eefafd.webp
+  title: File:Cam Follower.jpg
+  author: Bteam75
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cam_Follower.jpg
+  site: Wikimedia Commons
+  alt: A home-built cam and follower made from perforated metal kit parts, a green cam wheel pushing an upright follower.
+  kind: photo
+  drawn: false
 glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, detent, pawl, pitch, cam-and-follower, crank,
   linkage, actuator, stiffness, preload, clearance, form-fit--force-fit--material-bond, set-screw, undercut, repeatability--accuracy,
   infill, print-in-place, overhang--bridging]
@@ -206,6 +226,8 @@ glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, dete
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cam-and-follower.still.webp"><img src="../media/cam-and-follower.webp" alt="An animated camshaft turning, its two egg-shaped cams pushing two followers up and letting them drop in turn."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif">Nockenwelle ani</a> by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-and-follower-c93d71.webp" alt="A metal plate from a record player taken apart, with a lever whose tip rides on the edge of a black cam wheel." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sanyo_G2605H_Turntable_Cam_Follower_(30001014985).jpg">Sanyo G2605H Turntable Cam Follower (30001014985)</a> by tony_duell, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-and-follower-eefafd.webp" alt="A home-built cam and follower made from perforated metal kit parts, a green cam wheel pushing an upright follower." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cam_Follower.jpg">Cam Follower</a> by Bteam75, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cam is a shaped wheel, drum or plate that turns (or slides) and pushes a follower, so steady rotation becomes a back-and-forth or rocking motion with exactly the pattern of rises, pauses (dwells) and falls that the cam's shape was designed to give.

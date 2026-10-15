@@ -148,12 +148,34 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: rod-end-and-ball-link-a5f8cd.webp
+  title: File:Female Heim Joint.png
+  author: Masonjan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Female_Heim_Joint.png
+  site: Wikimedia Commons
+  alt: A metal female rod end, a ring holding a swivelling ball with a hole, on a body threaded inside.
+  kind: photo
+  drawn: false
+- file: rod-end-and-ball-link-5694ec.webp
+  title: File:Tie rod end.jpeg
+  author: Craig Howell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Tie_rod_end.jpeg
+  site: Wikimedia Commons
+  alt: A car tie rod end fitted under a car, its ball joint held in a rubber boot and bolted through the steering arm.
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, axial--radial, lever-arm, linkage, actuator, clearance, form-fit--force-fit--material-bond, set-screw,
   threadlocker, creep, perimeters, infill, print-in-place, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/rod-end-and-ball-link.webp" alt="A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Heim_Joint.svg">Heim Joint</a> by Vladsinger, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rod-end-and-ball-link-a5f8cd.webp" alt="A metal female rod end, a ring holding a swivelling ball with a hole, on a body threaded inside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Female_Heim_Joint.png">Female Heim Joint</a> by Masonjan, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rod-end-and-ball-link-5694ec.webp" alt="A car tie rod end fitted under a car, its ball joint held in a rubber boot and bolted through the steering arm." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tie_rod_end.jpeg">Tie rod end</a> by Craig Howell, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded end fitting holding a swivelling ball (a spherical bearing) or a snap-on ball cup, fitted at each end of a push rod or tie rod so the rod can pass push and pull between two levers that move out of line, with the rod length set by how far the ends are screwed on.

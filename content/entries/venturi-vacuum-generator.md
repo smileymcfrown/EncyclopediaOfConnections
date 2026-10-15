@@ -158,12 +158,23 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: venturi-vacuum-generator-ae031a.webp
+  title: File:Aspirator.jpg
+  author: Spatula Tzar at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Aspirator.jpg
+  site: Wikimedia Commons
+  alt: A brass lab aspirator, a T-shaped tube that fits on a tap so the running water sucks air in through its side arm.
+  kind: photo
+  drawn: false
 glossary: [self-locking, solenoid, holding-force, creep, layer-lines, perimeters, infill, check-valve, regulator, water-hammer,
   venturi]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/venturi-vacuum-generator.webp" alt="A cut-away drawing of an ejector, a fast jet from a nozzle drawing gas in through a side port and out through a widening outlet."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg">Ejector or Injector</a> by Johannes Rössel, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/venturi-vacuum-generator-ae031a.webp" alt="A brass lab aspirator, a T-shaped tube that fits on a tap so the running water sucks air in through its side arm." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Aspirator.jpg">Aspirator</a> by Spatula Tzar at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A nozzle fires a fast jet of compressed air or water across a gap inside a T-shaped body; the fast jet has low pressure and carries surrounding air with it, so the side port sucks, giving vacuum for suction cups, fume extraction or lab filtering with no moving parts (Wikipedia 'Vacuum ejector'; Hackaday 2019).

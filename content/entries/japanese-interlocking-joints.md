@@ -171,12 +171,24 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: japanese-interlocking-joints-c87417.webp
+  title: File:Kanawa-tsugi.JPG
+  author: Abasaa
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG
+  site: Wikimedia Commons
+  alt: A real kanawa-tsugi joint in a museum display, two timbers locked end to end by interlocking cuts with a small wooden
+    key driven through.
+  kind: photo
+  drawn: false
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
   layer-lines, infill, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/japanese-interlocking-joints.webp" alt="A rendered lapped gooseneck joint, two timber ends pulled apart to show the hooked tongue on one and the matching stepped pocket in the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png">Lapped gooseneck joint</a> by うぃき野郎, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/japanese-interlocking-joints-c87417.webp" alt="A real kanawa-tsugi joint in a museum display, two timbers locked end to end by interlocking cuts with a small wooden key driven through." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG">Kanawa-tsugi</a> by Abasaa, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Traditional Japanese carpentry joints in which two or three timbers are cut into interlocking shapes (hooks, dovetails, stepped seats and small tenons) that fit together only along one path and are then locked with a driven wedge or peg, joining beams end to end or at a corner without metal fasteners or glue.

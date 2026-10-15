@@ -170,12 +170,34 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: hose-clamp-22b27d.webp
+  title: hose clamp
+  author: theilr
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/90863480@N00/8548679054
+  site: Flickr via Openverse
+  alt: A close-up of a worm-drive hose clamp's screw housing, its screw thread meshing with the slots in the steel band.
+  kind: how-it-works
+  drawn: false
+- file: hose-clamp-4102fd.webp
+  title: Hose clamps by Hercules
+  author: MUSTAD MARINE
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  source: https://www.flickr.com/photos/136938983@N07/49850661053
+  site: Flickr via Openverse
+  alt: Hose clamps tightened round the ends of rubber hoses where they push onto metal spigots on an engine.
+  kind: photo
+  drawn: false
 glossary: [misalignment, axial--radial, stroke, ratchet, torque, deflection, form-fit--force-fit--material-bond, holding-force,
   chamfer--fillet, creep, layer-lines, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/hose-clamp.webp" alt="Several worm-drive hose clamps, steel bands with slots and a small screw housing that tightens them."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg">Hoseclamps.screw.agr</a> by ArnoldReinhold, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hose-clamp-22b27d.webp" alt="A close-up of a worm-drive hose clamp&#x27;s screw housing, its screw thread meshing with the slots in the steel band." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/90863480@N00/8548679054">hose clamp</a> by theilr, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hose-clamp-4102fd.webp" alt="Hose clamps tightened round the ends of rubber hoses where they push onto metal spigots on an engine." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/136938983@N07/49850661053">Hose clamps by Hercules</a> by MUSTAD MARINE, <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public domain</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A hose clamp is a ring of metal band, wire or spring steel that is tightened round the end of a hose pushed over a spigot, barb or pipe, squeezing the hose so it seals and so it can't slide off; worm-drive types tighten with a screw and can be undone, ear clamps are crimped shut once, and spring clamps hold by their own springiness.

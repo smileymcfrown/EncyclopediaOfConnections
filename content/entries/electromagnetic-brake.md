@@ -142,12 +142,24 @@ pictures:
   site: Wikimedia Commons
   kind: animation
   drawn: false
+- file: electromagnetic-brake-201f71.webp
+  title: File:Akım Baskılı Frenler.webp
+  author: Emffren
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ak%C4%B1m_Bask%C4%B1l%C4%B1_Frenler.webp
+  site: Wikimedia Commons
+  alt: A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle for the
+    motor shaft.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gear-ratio, solenoid, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-brake.webp" alt="An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched on and pulls the armature plate back."><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif">O-2 electromagnetic-power-off-brake1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-brake-201f71.webp" alt="A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle for the motor shaft." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ak%C4%B1m_Bask%C4%B1l%C4%B1_Frenler.webp">Akım Baskılı Frenler</a> by Emffren, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Springs press a friction disc on the motor shaft between two plates so the shaft cannot turn, and while the machine runs an electric coil pulls the plate back against the springs, so the brake lets go only when powered and grabs automatically whenever power is cut.

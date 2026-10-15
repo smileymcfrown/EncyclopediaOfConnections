@@ -163,12 +163,24 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: bernoulli-gripper-21a918.webp
+  title: File:Jet gripper air-flow.jpg
+  author: Roman211911
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Jet_gripper_air-flow.jpg
+  site: Wikimedia Commons
+  alt: Three photos of a gripper blowing smoke-filled air, showing the thin jet of air spreading out sideways from under the
+    pad.
+  kind: how-it-works
+  drawn: false
 glossary: [axial--radial, solenoid, form-fit--force-fit--material-bond, creep, brittle--ductile, peel-vs-shear, regulator,
   venturi]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/bernoulli-gripper.webp" alt="A diagram of a Bernoulli gripper, air blown down the middle of the pad and out sideways in a thin stream, with arrows showing the object below being lifted."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bernoulli_Gripper.png">Bernoulli Gripper</a> by Larryisgood, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bernoulli-gripper-21a918.webp" alt="Three photos of a gripper blowing smoke-filled air, showing the thin jet of air spreading out sideways from under the pad." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Jet_gripper_air-flow.jpg">Jet gripper air-flow</a> by Roman211911, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A Bernoulli gripper blows a fast, thin sheet of air outwards between its face and a flat part, which lowers the air pressure in the gap so the still air underneath pushes the part up and holds it on an air cushion, letting robots lift fragile wafers, glass, film or fabric almost without touching them.

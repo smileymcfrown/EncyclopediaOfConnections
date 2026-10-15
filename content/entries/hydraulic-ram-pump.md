@@ -176,11 +176,34 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: hydraulic-ram-pump-c15684.webp
+  title: File:Foto ariete hidráulico.jpg
+  author: Jorge Daniel Czajkowski
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Foto_ariete_hidr%C3%A1ulico.jpg
+  site: Wikimedia Commons
+  alt: A small ram pump working beside a stream, water spurting out of its waste valve as the delivery hose carries water
+    up the bank.
+  kind: how-it-works
+  drawn: false
+- file: hydraulic-ram-pump-b218e3.webp
+  title: File:HydraulischerWidder.jpg
+  author: Dr. Mirko Junge for the current photo, original photo was uploaded by FrankZ at de.wikipedia
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:HydraulischerWidder.jpg
+  site: Wikimedia Commons
+  alt: A grey cast-iron ram pump on display, with its round air chamber on top and the valve body and drive pipe below.
+  kind: photo
+  drawn: false
 glossary: [stroke, fatigue, perimeters, infill, primer, o-ring, check-valve, water-hammer]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/hydraulic-ram-pump.webp" alt="A numbered drawing of a ram pump, with the drive pipe coming in at the bottom, the waste valve, the delivery valve and the air chamber above."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif">Hydraulic Ram</a> by The original uploader was Gutza at English Wikipedia.; subsequent functional corrections made by Sonett72 on en.wikipedi, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hydraulic-ram-pump-c15684.webp" alt="A small ram pump working beside a stream, water spurting out of its waste valve as the delivery hose carries water up the bank." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Foto_ariete_hidr%C3%A1ulico.jpg">Foto ariete hidráulico</a> by Jorge Daniel Czajkowski, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hydraulic-ram-pump-b218e3.webp" alt="A grey cast-iron ram pump on display, with its round air chamber on top and the valve body and drive pipe below." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:HydraulischerWidder.jpg">HydraulischerWidder</a> by Dr. Mirko Junge for the current photo, original photo was uploaded by FrankZ at de.wikipedia, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cyclic pump powered only by falling water: flow builds up in a long rigid drive pipe until it slams a waste valve shut, and the resulting pressure surge ([water hammer](../glossary.md#water-hammer)) forces a fraction of the water through a one-way valve into an air chamber and up a delivery pipe to a height many times greater than the fall that drives it.

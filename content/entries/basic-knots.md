@@ -155,11 +155,34 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: basic-knots-0124a3.webp
+  title: File:Macrame Basic Knots.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Macrame_Basic_Knots.jpg
+  site: Wikimedia Commons
+  alt: Four white macrame cords hanging from a wooden rod, each tied with a basic knot, the top row finished and the bottom
+    row loosened to show how it is made.
+  kind: how-it-works
+  drawn: false
+- file: basic-knots-cd8246.webp
+  title: File:Macrame Knots 06.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Macrame_Knots_06.jpg
+  site: Wikimedia Commons
+  alt: White cords tied in chains of half hitches, hanging from a wooden rod.
+  kind: photo
+  drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, layer-lines]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/basic-knots.webp" alt="A drawing of a reef knot, a red cord and a blue cord each folded back and looped through the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Square_knot.svg">Square knot</a> by CountingPine, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/basic-knots-0124a3.webp" alt="Four white macrame cords hanging from a wooden rod, each tied with a basic knot, the top row finished and the bottom row loosened to show how it is made." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Macrame_Basic_Knots.jpg">Macrame Basic Knots</a> by Stilfehler, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/basic-knots-cd8246.webp" alt="White cords tied in chains of half hitches, hanging from a wooden rod." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Macrame_Knots_06.jpg">Macrame Knots 06</a> by Stilfehler, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Three knots built from the same single tuck: the overhand makes a lump in the end of a cord so it can't slip through a hole, the half hitch ties a cord round a post or ring, and the reef knot ties the two ends of one cord round a bundle, with a slipped version that becomes the shoelace bow; they are the baseline that better knots for each job are compared with.

@@ -141,12 +141,34 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: hide-glue-1654a7.webp
+  title: File:Animal glue liquid.jpg
+  author: Simon Eugster – Simon / ?! 15:03, 10 May 2008 (UTC)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Animal_glue_liquid.jpg
+  site: Wikimedia Commons
+  alt: A brush lifting runny, honey-coloured hot hide glue out of a warmed glue pot.
+  kind: how-it-works
+  drawn: false
+- file: hide-glue-010bf8.webp
+  title: File:Old hot hide glue pot (51879504851).jpg
+  author: Joost J. Bakker IJmuiden
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg
+  site: Wikimedia Commons
+  alt: An old cast-iron double glue pot, an outer water bath with an inner pot for the glue, shown with a lighter for size.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, warping--shrinkage, cure, pot-life--working-time,
   open-time, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/hide-glue.webp" alt="Three small glass jars of warm, runny animal glue in shades of amber, each with a wooden stirring stick."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg">Glutinleime-warm</a> by Simon A. Eugster, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hide-glue-1654a7.webp" alt="A brush lifting runny, honey-coloured hot hide glue out of a warmed glue pot." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Animal_glue_liquid.jpg">Animal glue liquid</a> by Simon Eugster – Simon / ?! 15:03, 10 May 2008 (UTC), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hide-glue-010bf8.webp" alt="An old cast-iron double glue pot, an outer water bath with an inner pot for the glue, shown with a lighter for size." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg">Old hot hide glue pot (51879504851)</a> by Joost J. Bakker IJmuiden, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Hide glue is a traditional glue made from boiled animal skin that is brushed on warm, grips as it cools and dries into a hard, non-creeping bond, and stays reversible, so heat and moisture can release the joint for repair years later.
