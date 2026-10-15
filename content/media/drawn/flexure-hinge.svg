@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three flexure hinges side by side, each a fixed block above a swinging arm with no pin: a block with two round notches cut into it (tiny angle, fixed turning point), a single thin blade (bigger angle, turning point drifts) and two blades crossed in an X (big angle, turning point stays put), with red arcs showing each range and red dots at the turning points.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="400" stroke="#cccccc" stroke-width="2"/>
+<line x1="533" y1="20" x2="533" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="55" y="62" width="160" height="22" fill="url(#hatch)" stroke-width="2"/>
+<rect x="320" y="62" width="160" height="22" fill="url(#hatch)" stroke-width="2"/>
+<rect x="585" y="62" width="160" height="22" fill="url(#hatch)" stroke-width="2"/>
+<g transform="rotate(6 135 160)"><path d="M139,160 A26,26 0 0 0 165,186 V300 H105 V186 A26,26 0 0 0 131,160 Z" fill="#cfe3f5" stroke="none"/><path d="M139,160 A26,26 0 0 0 165,186 V300 H105 V186 A26,26 0 0 0 131,160" fill="none"/></g>
+<path d="M105,84 H165 V134 A26,26 0 0 0 139,160 H131 A26,26 0 0 0 105,134 Z" fill="#cfe3f5" stroke="none"/><path d="M105,84 V134 A26,26 0 0 1 131,160 M139,160 A26,26 0 0 1 165,134 V84" fill="none"/>
+<circle cx="135" cy="160" r="4" fill="#d1495b" stroke="none"/>
+<path d="M106.9,319.5 A162,162 0 0 0 163.1,319.5" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="375" y="84" width="50" height="24" fill="#e8e8e8"/>
+<g transform="translate(382.2,185.3)"><g transform="rotate(26)"><rect x="-30" y="0" width="60" height="22" fill="#e8e8e8"/><rect x="-30" y="22" width="60" height="100" fill="#cfe3f5"/></g></g>
+<path d="M400,108 Q400,148.7 382.2,185.3" fill="none" stroke-width="5"></path>
+<path d="M394,147.3 Q400,145.8 406,147.3" fill="none" stroke="#d1495b" stroke-width="2" stroke-dasharray="3 3"/>
+<circle cx="394" cy="147.3" r="4" fill="#d1495b" stroke="none"></circle>
+<path d="M307,309.1 A186,186 0 0 0 493,309.1" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="620" y="84" width="90" height="20" fill="#e8e8e8"/>
+<g transform="rotate(22 665 152)"><rect x="620" y="200" width="90" height="20" fill="#e8e8e8"/><rect x="635" y="220" width="60" height="100" fill="#cfe3f5"/></g>
+<path d="M631,104 C653.7,136 669.5,171.1 678.5,209.2" fill="none" stroke-width="5"></path>
+<path d="M699,104 C676.3,136 648.5,162.6 615.5,183.8" fill="none" stroke-width="5"></path>
+<circle cx="665" cy="152" r="4" fill="#d1495b" stroke="none"/>
+<path d="M577.8,323.1 A192,192 0 0 0 752.2,323.1" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="135" y="44" font-size="21" font-weight="bold">Notch</text>
+<text x="400" y="44" font-size="21" font-weight="bold">Single thin blade</text>
+<text x="665" y="44" font-size="21" font-weight="bold">Crossed blades</text>
+<text x="135" y="384">tiny angle,</text><text x="135" y="406">turning point fixed</text>
+<text x="400" y="384">bigger angle,</text><text x="400" y="406">turning point drifts</text>
+<text x="665" y="384">big angle,</text><text x="665" y="406">turning point stays put</text>
+<text x="400" y="438">No pin, no rubbing: the thin part bends, then springs back</text>
+</g>
+</svg>

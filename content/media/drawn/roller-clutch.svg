@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cross-section of a roller clutch: an outer ring with four ramped pockets round a shaft, each holding a roller pushed by a small spring. Turned the free way the rollers sit in the deep ends and the shaft spins inside a still ring; turned the other way the rollers wedge into the shallow ends and the shaft and ring turn as one.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="170" y="335" width="60" height="22" fill="#e8e8e8"/>
+<rect x="130" y="357" width="140" height="14" fill="url(#hatch)"/>
+<path d="M75,215 A125,125 0 1 1 325,215 A125,125 0 1 1 75,215 Z M239.8,181.6 L267.4,158.4 L270.5,163.8 L273.1,169.3 L275.3,175 L277.1,180.7 L278.5,186.4 L279.4,192.2 L279.9,198 L280,203.8 L279.7,209.4 L279,215 L277.9,220.4 L276.4,225.7 L274.6,230.9 L272.5,235.8 L270,240.5 L267.2,244.9 L264.2,249.1 L260.9,253 L257.4,256.7 L253.6,260 L239.8,248.4 L233.4,254.8 L256.6,282.4 L251.2,285.5 L245.7,288.1 L240,290.3 L234.3,292.1 L228.6,293.5 L222.8,294.4 L217,294.9 L211.2,295 L205.6,294.7 L200,294 L194.6,292.9 L189.3,291.4 L184.1,289.6 L179.2,287.5 L174.5,285 L170.1,282.2 L165.9,279.2 L162,275.9 L158.3,272.4 L155,268.6 L166.6,254.8 L160.2,248.4 L132.6,271.6 L129.5,266.2 L126.9,260.7 L124.7,255 L122.9,249.3 L121.5,243.6 L120.6,237.8 L120.1,232 L120,226.2 L120.3,220.6 L121,215 L122.1,209.6 L123.6,204.3 L125.4,199.1 L127.5,194.2 L130,189.5 L132.8,185.1 L135.8,180.9 L139.1,177 L142.6,173.3 L146.4,170 L160.2,181.6 L166.6,175.2 L143.4,147.6 L148.8,144.5 L154.3,141.9 L160,139.7 L165.7,137.9 L171.4,136.5 L177.2,135.6 L183,135.1 L188.8,135 L194.4,135.3 L200,136 L205.4,137.1 L210.7,138.6 L215.9,140.4 L220.8,142.5 L225.5,145 L229.9,147.8 L234.1,150.8 L238,154.1 L241.7,157.6 L245,161.4 L233.4,175.2 Z" fill="#e8e8e8" fill-rule="evenodd"/>
+<polyline points="254.4,170.9 260.7,169.3 252.5,178.4 263.9,173.8 255,182.3 266.7,178.5 257.2,186.3 263.6,185.9" fill="none" stroke-width="2.5"/>
+<polyline points="244.1,269.4 245.7,275.7 236.6,267.5 241.2,278.9 232.7,270 236.5,281.7 228.7,272.2 229.1,278.6" fill="none" stroke-width="2.5"/>
+<polyline points="145.6,259.1 139.3,260.7 147.5,251.6 136.1,256.2 145,247.7 133.3,251.5 142.8,243.7 136.4,244.1" fill="none" stroke-width="2.5"/>
+<polyline points="155.9,160.6 154.3,154.3 163.4,162.5 158.8,151.1 167.3,160 163.5,148.3 171.3,157.8 170.9,151.4" fill="none" stroke-width="2.5"/>
+<g><circle cx="200" cy="215" r="49" fill="#cfe3f5"/><rect x="192" y="166" width="16" height="12" fill="#222"/><circle cx="200" cy="215" r="5" fill="#222"/>
+</g>
+<g><circle cx="262.6" cy="201.7" r="14" fill="#fde2c4"/><line x1="251.6" y1="201.7" x2="273.6" y2="201.7" stroke-width="2.5"/></g>
+<g><circle cx="213.3" cy="277.6" r="14" fill="#fde2c4"/><line x1="202.3" y1="277.6" x2="224.3" y2="277.6" stroke-width="2.5"/></g>
+<g><circle cx="137.4" cy="228.3" r="14" fill="#fde2c4"/><line x1="126.4" y1="228.3" x2="148.4" y2="228.3" stroke-width="2.5"/></g>
+<g><circle cx="186.7" cy="152.4" r="14" fill="#fde2c4"/><line x1="175.7" y1="152.4" x2="197.7" y2="152.4" stroke-width="2.5"/></g>
+<path d="M178.6,233 A28,28 0 0 0 221.4,233" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g><path d="M475,215 A125,125 0 1 1 725,215 A125,125 0 1 1 475,215 Z M639.8,181.6 L667.4,158.4 L670.5,163.8 L673.1,169.3 L675.3,175 L677.1,180.7 L678.5,186.4 L679.4,192.2 L679.9,198 L680,203.8 L679.7,209.4 L679,215 L677.9,220.4 L676.4,225.7 L674.6,230.9 L672.5,235.8 L670,240.5 L667.2,244.9 L664.2,249.1 L660.9,253 L657.4,256.7 L653.6,260 L639.8,248.4 L633.4,254.8 L656.6,282.4 L651.2,285.5 L645.7,288.1 L640,290.3 L634.3,292.1 L628.6,293.5 L622.8,294.4 L617,294.9 L611.2,295 L605.6,294.7 L600,294 L594.6,292.9 L589.3,291.4 L584.1,289.6 L579.2,287.5 L574.5,285 L570.1,282.2 L565.9,279.2 L562,275.9 L558.3,272.4 L555,268.6 L566.6,254.8 L560.2,248.4 L532.6,271.6 L529.5,266.2 L526.9,260.7 L524.7,255 L522.9,249.3 L521.5,243.6 L520.6,237.8 L520.1,232 L520,226.2 L520.3,220.6 L521,215 L522.1,209.6 L523.6,204.3 L525.4,199.1 L527.5,194.2 L530,189.5 L532.8,185.1 L535.8,180.9 L539.1,177 L542.6,173.3 L546.4,170 L560.2,181.6 L566.6,175.2 L543.4,147.6 L548.8,144.5 L554.3,141.9 L560,139.7 L565.7,137.9 L571.4,136.5 L577.2,135.6 L583,135.1 L588.8,135 L594.4,135.3 L600,136 L605.4,137.1 L610.7,138.6 L615.9,140.4 L620.8,142.5 L625.5,145 L629.9,147.8 L634.1,150.8 L638,154.1 L641.7,157.6 L645,161.4 L633.4,175.2 Z" fill="#e8e8e8" fill-rule="evenodd"/>
+<polyline points="654.4,170.9 662.5,171.8 655.2,182.7 668.3,181.7 659.5,191.4 672.6,192.4 662.4,200.7 669.2,204.5" fill="none" stroke-width="2.5"/>
+<polyline points="644.1,269.4 643.2,277.5 632.3,270.2 633.3,283.3 623.6,274.5 622.6,287.6 614.3,277.4 610.5,284.2" fill="none" stroke-width="2.5"/>
+<polyline points="545.6,259.1 537.5,258.2 544.8,247.3 531.7,248.3 540.5,238.6 527.4,237.6 537.6,229.3 530.8,225.5" fill="none" stroke-width="2.5"/>
+<polyline points="555.9,160.6 556.8,152.5 567.7,159.8 566.7,146.7 576.4,155.5 577.4,142.4 585.7,152.6 589.5,145.8" fill="none" stroke-width="2.5"/>
+<circle cx="600" cy="215" r="49" fill="#cfe3f5"/><rect x="592" y="166" width="16" height="12" fill="#222"/><circle cx="600" cy="215" r="5" fill="#222"/>
+<g><circle cx="663.8" cy="219.5" r="14" fill="#fde2c4"/><line x1="652.8" y1="219.5" x2="674.8" y2="219.5" stroke-width="2.5"/></g>
+<g><circle cx="595.5" cy="278.8" r="14" fill="#fde2c4"/><line x1="584.5" y1="278.8" x2="606.5" y2="278.8" stroke-width="2.5"/></g>
+<g><circle cx="536.2" cy="210.5" r="14" fill="#fde2c4"/><line x1="525.2" y1="210.5" x2="547.2" y2="210.5" stroke-width="2.5"/></g>
+<g><circle cx="604.5" cy="151.2" r="14" fill="#fde2c4"/><line x1="593.5" y1="151.2" x2="615.5" y2="151.2" stroke-width="2.5"/></g>
+</g>
+<path d="M621.4,233 A28,28 0 0 1 578.6,233" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M468.4,167.1 A140,140 0 0 1 552.1,83.4" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g stroke-width="2"><line x1="356" y1="140" x2="260.4" y2="175.8"/><line x1="358" y1="212" x2="276.3" y2="198.8"/><line x1="354" y1="278" x2="269.5" y2="243.1"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle">
+<g font-size="20" font-weight="bold">
+<text x="200" y="44">Free way: rollers sit loose</text>
+<text x="600" y="44">Lock way: rollers wedge in</text>
+</g>
+<g font-size="18">
+<text x="400" y="138">spring</text>
+<text x="400" y="210">roller</text>
+<text x="400" y="284">ramp</text>
+<text x="200" y="398">shaft spins, ring stays still</text>
+<text x="600" y="398">shaft and ring turn together</text>
+<text x="400" y="436">Rollers roll to the deep end one way · jam in the shallow end the other way</text>
+</g>
+</g>
+</svg>

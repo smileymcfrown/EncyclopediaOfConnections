@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of an eccentric cam lever: a lever with a round cam, pivoted off-centre on a pin through a threaded rod, presses a washer down on two plates held by a nut below; a small graph shows the cam rise climbing steeply and then flattening as the lever swings shut.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(0,30)"><rect x="250" y="258.77" width="210" height="30" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<g><rect x="250" y="228.77" width="210" height="30" fill="#d8f0d2" stroke="#222" stroke-width="3"/><rect x="325" y="218.77" width="70" height="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/></g>
+<rect x="352" y="150" width="16" height="170.77" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="338" y="288.77" width="44" height="22" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g><path d="M340,148 L192,153 A7,7 0 0 0 192,167 L340,172 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="362.6" cy="174.77" r="44" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="362.6" cy="174.77" r="3" fill="#222"/><circle cx="360" cy="160" r="8" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="360" cy="160" r="2.5" fill="#222"/></g>
+<path d="M183.1,105.9 A185,185 0 0 0 175.3,150.3" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g stroke="#d1495b" stroke-width="4"><line x1="280" y1="194.77" x2="280" y2="222.77" marker-end="url(#ah)"/><line x1="280" y1="322.77" x2="280" y2="294.77" marker-end="url(#ah)"/></g>
+<polyline points="625,170 625,300 778,300" fill="none" stroke="#222" stroke-width="3"/>
+<polyline points="625,300 629.83,295.93 634.67,291.5 639.5,286.72 644.33,281.64 649.17,276.3 654,270.74 658.83,265 663.67,259.12 668.5,253.16 673.33,247.14 678.17,241.13 683,235.16 687.83,229.28 692.67,223.54 697.5,217.98 702.33,212.64 707.17,207.57 712,202.79 716.83,198.35 721.67,194.29 726.5,190.62 731.33,187.39 736.17,184.61 741,182.3 745.83,180.49 750.67,179.19 755.5,178.41 760.33,178.14 765.17,178.41 770,179.19" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="770" cy="179.19" r="7" fill="#d1495b"></circle></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g transform="translate(0,30)"><text x="228" y="203">lever</text><g text-anchor="start"><text x="424" y="166">cam with an</text><text x="424" y="188">off-centre pivot</text><text x="470" y="236">washer</text><text x="470" y="270">two plates</text><text x="392" y="306.77">adjusting nut</text><text x="633" y="168" font-size="17">cam rise</text></g><text x="700" y="324" font-size="17">lever swing</text><text x="700" y="346" font-size="17">(open to shut)</text></g><text x="400" y="420" font-size="19">Swinging the lever down turns the off-centre cam, which pushes</text><text x="400" y="444" font-size="19">the plates together; the slope is so gentle near shut that it stays put</text>
+</g>
+</svg>

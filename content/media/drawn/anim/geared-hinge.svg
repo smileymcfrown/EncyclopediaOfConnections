@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>End view of a geared hinge, shown moving: as the door leaf swings, its teeth turn the frame leaf by the same amount the other way, so the two leaves fold together evenly about the cap that holds the gears in mesh.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M302.3,208.5 A60,60 0 0 1 360,165 L440,165 A60,60 0 0 1 497.7,208.5 L489,210.9 A51,51 0 0 0 440,174 L360,174 A51,51 0 0 0 311,210.9 Z" fill="#e8e8e8"/>
+<g transform="rotate(-40 360 225)"><animateTransform attributeName="transform" type="rotate" values="-40 360 225;-90 360 225;-90 360 225;0 360 225;0 360 225;-40 360 225" dur="6s" repeatCount="indefinite" keyTimes="0;0.22;0.4;0.68;0.84;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><polygon points="332,216 210,216 210,234 332,234" fill="#cfe3f5"/><path d="M392.4,218.7 L405.7,220.2 L405.7,229.8 L392.4,231.3 L391.2,235.7 L402,243.7 L397.2,252 L384.9,246.6 L381.6,249.9 L387,262.2 L378.7,267 L370.7,256.2 L366.3,257.4 L364.8,270.7 L355.2,270.7 L353.7,257.4 L349.3,256.2 L341.3,267 L333,262.2 L338.4,249.9 L335.1,246.6 L322.8,252 L318,243.7 L328.8,235.7 L327.6,231.3 L314.3,229.8 L314.3,220.2 L327.6,218.7 L328.8,214.3 L318,206.3 L322.8,198 L335.1,203.4 L338.4,200.1 L333,187.8 L341.3,183 L349.3,193.8 L353.7,192.6 L355.2,179.3 L364.8,179.3 L366.3,192.6 L370.7,193.8 L378.7,183 L387,187.8 L381.6,200.1 L384.9,203.4 L397.2,198 L402,206.3 L391.2,214.3 Z" fill="#fde2c4"/></g>
+<g transform="rotate(40 440 225)"><animateTransform attributeName="transform" type="rotate" values="40 440 225;90 440 225;90 440 225;0 440 225;0 440 225;40 440 225" dur="6s" repeatCount="indefinite" keyTimes="0;0.22;0.4;0.68;0.84;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><polygon points="468,234 590,234 590,216 468,216" fill="#cfe3f5"/><path d="M472.9,227.3 L485.4,232.2 L482.9,241.5 L469.7,239.5 L467.4,243.5 L475.7,253.9 L468.9,260.7 L458.5,252.4 L454.5,254.7 L456.5,267.9 L447.2,270.4 L442.3,257.9 L437.7,257.9 L432.8,270.4 L423.5,267.9 L425.5,254.7 L421.5,252.4 L411.1,260.7 L404.3,253.9 L412.6,243.5 L410.3,239.5 L397.1,241.5 L394.6,232.2 L407.1,227.3 L407.1,222.7 L394.6,217.8 L397.1,208.5 L410.3,210.5 L412.6,206.5 L404.3,196.1 L411.1,189.3 L421.5,197.6 L425.5,195.3 L423.5,182.1 L432.8,179.6 L437.7,192.1 L442.3,192.1 L447.2,179.6 L456.5,182.1 L454.5,195.3 L458.5,197.6 L468.9,189.3 L475.7,196.1 L467.4,206.5 L469.7,210.5 L482.9,208.5 L485.4,217.8 L472.9,222.7 Z" fill="#d8f0d2"/></g>
+<circle cx="360" cy="225" r="7" fill="#ffffff" stroke-width="2.5"/><circle cx="360" cy="225" r="2" fill="#222" stroke="none"/>
+<circle cx="440" cy="225" r="7" fill="#ffffff" stroke-width="2.5"/><circle cx="440" cy="225" r="2" fill="#222" stroke="none"/>
+<path d="M175.8,250.9 A186,186 0 0 0 334.1,409.2" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M624.2,250.9 A186,186 0 0 1 465.9,409.2" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="630" y="22" width="140" height="104" rx="6" fill="#ffffff" stroke="#999999" stroke-width="2"/>
+<polygon points="650,32 700,32 724,74 700,116 650,116" fill="#fde2c4"/>
+<polygon points="700,32 750,32 750,116 700,116 724,74" fill="#d8f0d2"/>
+<polyline points="686,32 710,74 686,116" fill="none" stroke="#666666" stroke-width="2"/>
+<polyline points="714,32 738,74 714,116" fill="none" stroke="#666666" stroke-width="2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="300" y="40" font-size="21" font-weight="bold">Looking along the hinge (end view)</text>
+<text x="400" y="132">cap holds the two</text><text x="400" y="152">gears in mesh</text>
+<text x="210" y="205">door leaf</text>
+<text x="590" y="205">frame leaf</text>
+<text x="700" y="148">V-shaped teeth stop</text><text x="700" y="168">the leaves sliding</text>
+<text x="400" y="438">Turn one leaf and the teeth turn the other by the same amount</text>
+</g>
+</svg>

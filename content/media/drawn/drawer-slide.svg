@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A three-part ball-bearing drawer slide: an end view of the nested outer, middle and inner channels with a row of balls between each pair, and a side view of the slide pulled fully open, the middle part out half as far as the drawer and the ball cages part-way along.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="44" y="92" width="20" height="236" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<path d="M170,110 L72,110 L72,310 L170,310" fill="none" stroke="#222" stroke-width="12"/><path d="M170,110 L72,110 L72,310 L170,310" fill="none" stroke="#e8e8e8" stroke-width="6"/>
+<path d="M188,135 L97,135 L97,285 L188,285" fill="none" stroke="#222" stroke-width="12"/><path d="M188,135 L97,135 L97,285 L188,285" fill="none" stroke="#cfe3f5" stroke-width="6"/>
+<path d="M124,160 L206,160 L206,260 L124,260" fill="none" stroke="#222" stroke-width="12"/><path d="M124,160 L206,160 L206,260 L124,260" fill="none" stroke="#fde2c4" stroke-width="6"/>
+<rect x="213" y="104" width="22" height="212" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<circle cx="140" cy="122.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<circle cx="140" cy="297.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<circle cx="156" cy="147.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<circle cx="156" cy="272.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<rect x="44" y="338" width="22" height="16" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<rect x="44" y="362" width="22" height="16" fill="#cfe3f5" stroke="#222" stroke-width="2"/>
+<rect x="44" y="386" width="22" height="16" fill="#fde2c4" stroke="#222" stroke-width="2"/>
+<rect x="44" y="410" width="22" height="16" fill="#f5d0d0" stroke="#222" stroke-width="2"/>
+<rect x="290" y="310" width="236" height="12" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<rect x="300" y="110" width="220" height="200" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g transform="translate(55 0)"><rect x="360" y="118.5" width="100" height="8" fill="#f5d0d0" stroke="#222" stroke-width="2"/><rect x="360" y="293.5" width="100" height="8" fill="#f5d0d0" stroke="#222" stroke-width="2"/><circle cx="372.5" cy="122.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="372.5" cy="297.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="397.5" cy="122.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="397.5" cy="297.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="422.5" cy="122.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="422.5" cy="297.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="447.5" cy="122.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="447.5" cy="297.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/></g>
+<g transform="translate(110 0)"><rect x="300" y="135" width="220" height="150" fill="#cfe3f5" stroke="#222" stroke-width="3"/></g>
+<g transform="translate(165 0)"><rect x="360" y="143.5" width="100" height="8" fill="#f5d0d0" stroke="#222" stroke-width="2"/><rect x="360" y="268.5" width="100" height="8" fill="#f5d0d0" stroke="#222" stroke-width="2"/><circle cx="372.5" cy="147.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="372.5" cy="272.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="397.5" cy="147.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="397.5" cy="272.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="422.5" cy="147.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="422.5" cy="272.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="447.5" cy="147.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="447.5" cy="272.5" r="6.5" fill="#ffffff" stroke="#222" stroke-width="3"/></g>
+<g transform="translate(220 0)"><rect x="300" y="160" width="220" height="100" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="520" y="100" width="18" height="220" fill="#d8f0d2" stroke="#222" stroke-width="3"/></g>
+<line x1="560" y1="76" x2="700" y2="76" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)" marker-start="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="140" y="40" font-size="21" font-weight="bold">End view</text><text x="530" y="40" font-size="21" font-weight="bold">Side view: pulling it out</text><g text-anchor="start" font-size="17"><text x="74" y="352">outer, screwed to cabinet</text><text x="74" y="376">middle</text><text x="74" y="400">inner, screwed to drawer</text><text x="74" y="424">balls in a cage (retainer)</text></g><text x="630" y="66">pull</text><text x="408" y="342" font-size="17">cabinet</text><text x="245" y="96" font-size="17">drawer</text><text x="560" y="404">Middle part moves half as far as the drawer;</text><text x="560" y="428">each ball cage rolls half as far as the part on it</text>
+</g>
+</svg>

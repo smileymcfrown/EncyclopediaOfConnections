@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two air-filled actuators: a folded rubber bellows between two plates that lifts a load when air is pumped in, and a vine robot, a soft tube folded inside itself that grows from its tip as air pushes the folded-in material out, while its body stays still.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="vc"><rect x="500" y="230" width="260" height="60"></rect></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="430" y1="60" x2="430" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="40" y="386" width="340" height="20" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="20" y="372" width="72" height="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="90" y="370" width="240" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="135,370 100,348.8 135,327.5 100,306.2 135,285 100,263.8 135,242.5 100,221.2 135,200 285,200 320,221.2 285,242.5 320,263.8 285,285 320,306.2 285,327.5 320,348.8 285,370" fill="#fde2c4" stroke="#222" stroke-width="3"></polygon>
+<g>
+<rect x="90" y="184" width="240" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="140" y="120" width="140" height="64" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<text x="210" y="158" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222" text-anchor="middle" stroke="none">load</text>
+</g>
+<line x1="22" y1="352" x2="80" y2="352" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<line x1="360" y1="300" x2="360" y2="200" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<rect x="448" y="205" width="56" height="110" rx="6" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="462" y="315" width="14" height="50" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="469" y1="400" x2="469" y2="372" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<g clip-path="url(#vc)">
+<rect x="490" y="235" width="290" height="50" fill="#d8f0d2"/>
+<line x1="500" y1="235" x2="790" y2="235" stroke="#222" stroke-width="3"/><line x1="500" y1="285" x2="790" y2="285" stroke="#222" stroke-width="3"/>
+<line x1="515" y1="235" x2="515" y2="245" stroke="#222" stroke-width="2"/><line x1="515" y1="275" x2="515" y2="285" stroke="#222" stroke-width="2"/><line x1="540" y1="235" x2="540" y2="245" stroke="#222" stroke-width="2"/><line x1="540" y1="275" x2="540" y2="285" stroke="#222" stroke-width="2"/><line x1="565" y1="235" x2="565" y2="245" stroke="#222" stroke-width="2"/><line x1="565" y1="275" x2="565" y2="285" stroke="#222" stroke-width="2"/><line x1="590" y1="235" x2="590" y2="245" stroke="#222" stroke-width="2"/><line x1="590" y1="275" x2="590" y2="285" stroke="#222" stroke-width="2"/><line x1="615" y1="235" x2="615" y2="245" stroke="#222" stroke-width="2"/><line x1="615" y1="275" x2="615" y2="285" stroke="#222" stroke-width="2"/><line x1="640" y1="235" x2="640" y2="245" stroke="#222" stroke-width="2"/><line x1="640" y1="275" x2="640" y2="285" stroke="#222" stroke-width="2"/><line x1="665" y1="235" x2="665" y2="245" stroke="#222" stroke-width="2"/><line x1="665" y1="275" x2="665" y2="285" stroke="#222" stroke-width="2"/><line x1="690" y1="235" x2="690" y2="245" stroke="#222" stroke-width="2"/><line x1="690" y1="275" x2="690" y2="285" stroke="#222" stroke-width="2"/><line x1="715" y1="235" x2="715" y2="245" stroke="#222" stroke-width="2"/><line x1="715" y1="275" x2="715" y2="285" stroke="#222" stroke-width="2"/><line x1="740" y1="235" x2="740" y2="245" stroke="#222" stroke-width="2"/><line x1="740" y1="275" x2="740" y2="285" stroke="#222" stroke-width="2"/><line x1="765" y1="235" x2="765" y2="245" stroke="#222" stroke-width="2"/><line x1="765" y1="275" x2="765" y2="285" stroke="#222" stroke-width="2"/>
+<rect x="490" y="252" width="290" height="16" fill="#a9d39f" stroke="#222" stroke-width="2"/>
+<g><line x1="-245" y1="252" x2="-245" y2="268" stroke="#222" stroke-width="2"/><line x1="-220" y1="252" x2="-220" y2="268" stroke="#222" stroke-width="2"/><line x1="-195" y1="252" x2="-195" y2="268" stroke="#222" stroke-width="2"/><line x1="-170" y1="252" x2="-170" y2="268" stroke="#222" stroke-width="2"/><line x1="-145" y1="252" x2="-145" y2="268" stroke="#222" stroke-width="2"/><line x1="-120" y1="252" x2="-120" y2="268" stroke="#222" stroke-width="2"/><line x1="-95" y1="252" x2="-95" y2="268" stroke="#222" stroke-width="2"/><line x1="-70" y1="252" x2="-70" y2="268" stroke="#222" stroke-width="2"/><line x1="-45" y1="252" x2="-45" y2="268" stroke="#222" stroke-width="2"/><line x1="-20" y1="252" x2="-20" y2="268" stroke="#222" stroke-width="2"/><line x1="5" y1="252" x2="5" y2="268" stroke="#222" stroke-width="2"/><line x1="30" y1="252" x2="30" y2="268" stroke="#222" stroke-width="2"/><line x1="55" y1="252" x2="55" y2="268" stroke="#222" stroke-width="2"/><line x1="80" y1="252" x2="80" y2="268" stroke="#222" stroke-width="2"/><line x1="105" y1="252" x2="105" y2="268" stroke="#222" stroke-width="2"/><line x1="130" y1="252" x2="130" y2="268" stroke="#222" stroke-width="2"/><line x1="155" y1="252" x2="155" y2="268" stroke="#222" stroke-width="2"/><line x1="180" y1="252" x2="180" y2="268" stroke="#222" stroke-width="2"/><line x1="205" y1="252" x2="205" y2="268" stroke="#222" stroke-width="2"/><line x1="230" y1="252" x2="230" y2="268" stroke="#222" stroke-width="2"/><line x1="255" y1="252" x2="255" y2="268" stroke="#222" stroke-width="2"/><line x1="280" y1="252" x2="280" y2="268" stroke="#222" stroke-width="2"/><line x1="305" y1="252" x2="305" y2="268" stroke="#222" stroke-width="2"/><line x1="330" y1="252" x2="330" y2="268" stroke="#222" stroke-width="2"/><line x1="355" y1="252" x2="355" y2="268" stroke="#222" stroke-width="2"/><line x1="380" y1="252" x2="380" y2="268" stroke="#222" stroke-width="2"/><line x1="405" y1="252" x2="405" y2="268" stroke="#222" stroke-width="2"/><line x1="430" y1="252" x2="430" y2="268" stroke="#222" stroke-width="2"/><line x1="455" y1="252" x2="455" y2="268" stroke="#222" stroke-width="2"/><line x1="480" y1="252" x2="480" y2="268" stroke="#222" stroke-width="2"/><line x1="505" y1="252" x2="505" y2="268" stroke="#222" stroke-width="2"/><line x1="530" y1="252" x2="530" y2="268" stroke="#222" stroke-width="2"/><line x1="555" y1="252" x2="555" y2="268" stroke="#222" stroke-width="2"/><line x1="580" y1="252" x2="580" y2="268" stroke="#222" stroke-width="2"/><line x1="605" y1="252" x2="605" y2="268" stroke="#222" stroke-width="2"/><line x1="630" y1="252" x2="630" y2="268" stroke="#222" stroke-width="2"/><line x1="655" y1="252" x2="655" y2="268" stroke="#222" stroke-width="2"/><line x1="680" y1="252" x2="680" y2="268" stroke="#222" stroke-width="2"/><line x1="705" y1="252" x2="705" y2="268" stroke="#222" stroke-width="2"/><line x1="730" y1="252" x2="730" y2="268" stroke="#222" stroke-width="2"/><line x1="755" y1="252" x2="755" y2="268" stroke="#222" stroke-width="2"/></g>
+</g>
+<g><path d="M760,235 A25,25 0 0 1 760,285" fill="#d8f0d2" stroke="#222" stroke-width="3"/><path d="M756,255 Q770,246 762,240" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M756,265 Q770,274 762,280" fill="none" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222">
+<g font-weight="bold" text-anchor="middle"><text x="215" y="40">Bellows</text><text x="615" y="40">Vine robot (inside-out tube)</text></g>
+<text x="16" y="336" font-size="18">air in/out</text>
+<text x="82" y="250" text-anchor="end">folded</text><text x="82" y="274" text-anchor="end">bellows</text>
+<text x="372" y="160" text-anchor="middle">pushes</text><text x="372" y="182" text-anchor="middle">up</text>
+<text x="490" y="372">air in</text>
+<text x="515" y="180">wall marks stay put:</text><text x="515" y="202">the body does not slide</text>
+<text x="515" y="320">folded-in tube moves out</text><text x="515" y="342">and turns outward at the tip</text>
+<text x="400" y="434" text-anchor="middle" font-size="17">It only pushes: air forces the plates apart (more weakly as it stretches), the load squashes it back</text>
+</g>
+</svg>
